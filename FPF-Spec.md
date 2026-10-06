@@ -31362,6 +31362,8 @@ A conforming cue pack may publish:
 
 `cueNucleus` names the minimal preserved core: what exactly is being kept visible rather than lost in carrier noise or premature endpoint wording.
 
+When the nucleus is still unclear, try arranging the available material as in [the operator example](#a161-operator-cue-pack-example).
+
 `primaryWitnessRef` and `primaryAnchor` provide explicit triage when one witness or anchor is load-bearing for preservation. Secondary witnesses, anchors, traces, embodiment refs, and model-state refs may enrich the pack without displacing that primary nucleus.
 
 `laneCandidates` and `routeCandidateHints` are early directional hints only. They are **not** a selected route, route rationale, or route-selection status. Those belong to `RoutedCueSet` under `B.4.1`.
@@ -31440,16 +31442,16 @@ The pattern fits early cue capture in design, embodied cognition, incident triag
 
 ### A.16.1:13 - Worked Examples and Invalid Publications
 
+<a id="a161-operator-cue-pack-example"></a>
+
 #### A.16.1:13.1 - Operator cue pack
-A valid operator-facing cue pack might preserve:
 
-- one cue nucleus around a disturbance/work-or-intervention possibility tension,
-- a primary witness trace,
-- candidate anchors from recent operator work step and system response,
-- lane candidates toward intervention, inquiry, and rollback,
-- but no selected route and no final gate decision.
+The nucleus can emerge from arranging the available material. Put the T17 events in time order: "Three timeouts during 09:00–09:02 after restart; a successful request at 09:04." Their contrast supplies the question "Which conditions differed between the failed and successful requests?"
 
-This is admissible because it preserves early significance without pretending the cue is already a route record, a gate, method, or work record.
+An ordinary incident note can keep that line with the question and the reason for preservation: the different outcomes need to remain visible while their cause and next route are open. T17 is the primary witness. The note preserves this cue without selecting a route or publishing a causal conclusion.
+
+If an existing incident note already carries this content and the source return, use it directly. On separate hand-off, keep the meaning of the cue in the note. A reference can supply further details when the recipient can access the exact source content and interpret it; otherwise include the details needed for the next use.
+
 
 #### A.16.1:13.2 - Inquiry cue pack
 An inquiry cue pack may preserve exemplars, contrasts, a felt or trace-anchored discrepancy cue nucleus, and candidate anchor fragments. This is admissible even before route publication is needed or an under-specified relation-bearing claim requires `A.6.P`.
@@ -60122,7 +60124,7 @@ When a downstream reader asks whether intended Work can enter a work boundary, t
 
 The Solution turns observed signal material into one C.2.1 episteme and one governed next use, not a completed form.
 
-1. Capture the symptom, anomaly, risk, stakeholder cue, drift, hypothesis, or other observed signal before naming an actual Problem.
+1. Capture the symptom, anomaly, risk, stakeholder cue, drift, hypothesis, or other observed signal before naming an actual Problem. If the concern is not yet clear, put available source entries side by side and compare the events or meanings they record. Use what this comparison reveals to develop the question, as in [the support example](#c222-support-source-comparison).
 2. Recover the one joint EntityOfConcern, effective ReferenceScheme, ClaimScope, and claim family. If the claims concern unrelated entities, split the ClaimGraph and card.
 3. Separate the signal detector, actual-PFR assertion if independently grounded, anticipated-condition claim, improvement check, candidate acceptance criterion, method-availability claim, monitored risk signal, and proxy-distortion risk. These are not one card status or one PFR participant set.
 4. Pay only for current complexity. Add conditional content only when it changes the current next use; otherwise stop at the lighter card or name the direct pattern for the claim now current.
@@ -60327,7 +60329,7 @@ Source record names are recovered by use, not by label shape. This section preve
 | Evidence pack, provenance note, assurance row, gate log, autonomy budget, runbook, rollback plan, method selection, work plan, performed-work note, result record, or result measurement | Preserve only the problem-side cue, risk or validation boundary, source reference, and stop condition before that use. | `A.10`, `G.6`, `B.3`, `A.21`, `E.16`, `G.5`, `A.15`, `C.16`, or `G.11` according to the claim named by value. |
 | Candidate solution, described system, ordinary log, budget, ledger, protocol, plan, pack, or factory wording | Recover the use under repair: problem-side source material, problem-side source relation, selected-set material, work, evidence, gate, or autonomy material, or ordinary example. | Apply the subject pattern for the recovered relation; do not mint a local `C.22.2` kind from the label. |
 
-The repair rule is short: if the source material supplies problem-side material, copy the material into the card's current fields. If it supplies another FPF-governed claim, keep only the local cue and apply the pattern that defines or constrains that claim.
+If the source supplies problem-side material, make the needed content available in the card, directly or through an accessible return to the exact source content. The receiving reader must be able to interpret what that return supplies; when the card travels without access to the source, include the content and interpretation needed for its next use. If the source supplies another FPF-governed claim, keep only the local cue and apply the pattern that defines or constrains that claim.
 
 ### C.22.2:8 - Portfolio, Archive, and Set-Return Treatment
 
@@ -60576,9 +60578,14 @@ These rows are recognition slices, not complete Thin cards. Before using one, co
 | Literature-synthesis anomaly before method selection | An anomaly does not fit current category labels. | Preserve rival formulation, EntityOfConcern, evidence need, bridge, representation, or mathematical-lens relation when that relation is being made, and next discrimination action. | The anomaly is not proof for a new theory or a selected research method. |
 | Selected-set candidate before P2W | A retained candidate from a front or pool looks promising. | Preserve `sourceSetRef`, source-set kind, selection or retention criterion, non-scalar next use, and only the currentness or window on which that use relies. | Set membership is not selected-solution proof, priority score, or work authorization. |
 
+<a id="c222-support-source-comparison"></a>
+
 #### C.22.2:20.1a - Compact P2W-ready Disposition Slice
 
 A support team sees repeated failed hand-offs after a new interface policy. The incoming request says "rewrite the escalation workflow." A conforming `ProblemCard` first repairs the problem-side record instead of accepting the work-shaped request.
+
+The first-line entry uses "complete" for sending the case; the specialist entry uses it for accepting the case. Put those two meanings together: the same status names different events. This comparison supplies the question "Which event completes the hand-off?" and identifies the ambiguity retained below. It does not establish the cause of reopening. If both entries instead mean acceptance, this contrast no longer supports an ambiguity claim; retain the reopening signal and reopen the formulation.
+
 
 | Card field | Filled value |
 |---|---|
