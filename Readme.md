@@ -89,7 +89,7 @@ The [Mathematical Thinking publication](./Foundational%20Thinking%20DPF%20Suite/
 
 #### Mathematical Modeling
 
-The [Mathematical Modeling publication](./Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md) contains fourteen general modeling methods and worked connections between them. The full publication is 0.473 M characters. Begin with the [Readme introduction](./Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mathematical-modeling---readme) when the working question has no mathematical formulation. The methods cover formulation, inference, prediction repair, intervention effects, counterfactual comparisons, observation design, sequential decisions, reduction, surrogates and model coupling. Readme and Preface show how one result supplies the next operation, how a changed question returns to its affected construction, and when an adequate answer permits stopping.
+The [Mathematical Modeling publication](./Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md) contains fifteen general modeling methods and worked connections between them. The full publication is 0.473 M characters. Begin with the [Readme introduction](./Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mathematical-modeling---readme) when the working question has no mathematical formulation. The methods cover formulation, inference, prediction repair, intervention effects, counterfactual comparisons, observation design, sequential decisions, reduction, surrogates and model coupling. Readme and Preface show how one result supplies the next operation, how a changed question returns to its affected construction, and when an adequate answer permits stopping.
 
 #### Physical Thinking
 
