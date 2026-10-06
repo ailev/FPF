@@ -735,7 +735,7 @@ For an operation with effects, state what reuse preserves. Replacing two reads o
 
 #### CMP.3:4.3 - Construct the dependency graph and an evaluation order
 
-For each distinct subproblem, identify which other results are needed to obtain its answer. Draw an arrow from a prerequisite to its consumer. Count distinct states and the work needed to combine each state's prerequisites and alternatives; the number of states alone does not establish the total cost.
+For each distinct subproblem, identify which other results are needed to obtain its answer. Make the direction from prerequisite to consumer explicit. Count distinct states and the work needed to combine each state's prerequisites and alternatives; the number of states alone does not establish the total cost.
 
 If dependencies are acyclic, two standard constructions are available:
 
