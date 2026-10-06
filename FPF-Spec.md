@@ -93339,7 +93339,7 @@ This section defines **what each layer is for**, **what it guarantees when selec
 
 **What to check.** When Mapping assurance is selected, verify the Working-Model label's alignment to its chosen model value in the current scope. Recover the synonyms, abbreviations, locales, and registers needed for that comparison in the Mapping account. This can contribute to **Concept-Bridge Assurance (CBA)** under B.3.3 when it establishes a claim-relevant meaning correspondence; collecting labels alone does not raise assurance.
 
-**Deliverable.** When the current use needs source-word alignment, provide a compact alignment table for that scope. It makes obvious which **one label** the Working-Model shows and which background labels remain source wording.
+**Deliverable.** When the current use needs source-word alignment, provide a compact alignment account for that scope. It makes obvious which **one label** the Working-Model shows and which background labels remain source wording.
 
 *(Rationale: Working teams speak many dialects; the Working‑Model speaks one. Mapping is the interpreter.)*
 
@@ -93921,7 +93921,7 @@ AutonomyLedgerEntry {
   performedUnderSystemRoleAssignmentRef: U.RelationRef constrained to U.SystemRoleAssignment
   budgetId, version, time
   deltas: { action_tokensΔ?, decision_tokensΔ?, riskΔ?, resourceΔ? }
-  guardVerdicts: { name -> pass|fail }
+  guardVerdicts: { checkApplicationId -> GateCheckApplicationResult ref } // A.21; refs may be supplied by the cited GateDecisionResult
   overrideAuthorityRelationOccurrenceRef?             // required for overrideWork
   separationOfDutiesCheckResultRef?                    // required for overrideWork
   pathIds: { PathId, PathSliceId }                     // for G-suite parity/refresh
@@ -94000,7 +94000,7 @@ The declaration's `decision_tokens=3/day` and `error-budget burn <= 2%/day` rema
 | ------------- | ----------- |
 | **E.16-CC-1** | Each autonomy claim cites a named/versioned budget with claim, consumer kind, situation, policy, scope/window, limits, override rule and exact A.2.7 species. Prospective budgets may omit actions/assignments; action-bound permission resolves the proposed action and real allocation/authority; enactment-bound adds independently admitted actual Work. |
 | **E.16-CC-2** | Green-Gate decides the A.21 prospective work-entry claim and bounded action, resolving its identity/continuation, real holder/assignment/state, authority, scope/window, remaining budget, incompatibility and guards. Changed permission-relevant windows require recheck; request respelling does not create another action. |
-| **E.16-CC-3** | Work admitted under autonomy **MUST** have an `AutonomyLedgerEntry` that identifies the Work, performer System, exact assignment, budget edition, deltas, and guard verdicts. |
+| **E.16-CC-3** | Work admitted under autonomy **MUST** have an `AutonomyLedgerEntry` that identifies the Work, performer System, exact assignment, budget edition, deltas, and references to the guard check-application results. |
 | **E.16-CC-4** | A proposed override passes its applicable A.2.7 species and independent authority check before performance. An existing target Work is distinct from that proposal. Only a performed, A.15.1-admitted override is recorded as overrideWork with the applicable delta and policy-supported match to prior permission. |
 | **E.16-CC-5** | Depletion **MUST** block autonomy-gated steps until `ResumeAutonomy` passes the actual-assignment separation-of-duties check, independent authority check, and ordinary guards. |
 | **E.16-CC-6** | A UTS autonomy row carries the budget edition/state, guard policy, override protocol, scope/window, action/allocation refs when action-bound and actual Work refs when enactment-bound. |
@@ -95721,7 +95721,7 @@ The optional morphism-publication profile uses representation-side constructors,
 #### E.17:5.4 - EntityOfConcern-side input and output vs publication (normative convention)
 
 1. **Input and Output are signature-side declarations.** The **Input and Output** sections of a morphism describe declared input and output data or episteme types under the morphism signature; they do **not** depend on any publication face.
-2. **No duplication on faces.** In the optional morphism profile, faces do not restate Input and Output lists; they carry only the source references, presence pins, and edition identifiers needed by the selected face and use.
+2. **No independent Input/Output specification.** In the optional morphism profile, keep the signature-side declarations authoritative. Provide an exact accessible source return, or carry the needed source-attributed declarations and material pins when the face must support use without that access.
 3. **Use Signature only for signatures.** Use **Signature** only when the named object is a signature under an applicable signature pattern, such as `U.Signature`. On faces, use **TechName** or **PlainName**.
 4. **Comparison and ordering.** A bounded source contrast under E.17.ID.CR retains its shared review frame and row-level comparison criteria. When a face publishes selection or an ordering, preserve the source-defined set or order semantics, make the comparator and any scalarization explicit, and cite `ComparatorSetRef` where that formal comparator family is used.
 5. **Bridge and plane references.** A semantic crossing cites its F.9 Bridge and separate bounded-use claim. A plane-dependent value cites its characteristic, selected `ReferencePlane`, and applicable C.16 or A.19.CPM transfer or comparison rule. If B.3 is triggered and its assurance claim depends on an integration relation, retain that relation's B.3 `CL` and `Φ(CL)` reference; infer no penalty from an F.9 Bridge or publication face.
@@ -95869,7 +95869,7 @@ A conformance check is kept only if it changes the next bounded use of the publi
 | **CC‑MVPK‑2 (Functoriality)** | `Emit_s(id)` is identity; `Emit_s(g∘f) = Emit_s(g)∘Emit_s(f)`. | Compose two cards and diff with the card of the composite. |
 | **CC-MVPK-3b (Boundary claim-set integrity)** | If a published arrow is a boundary, interface, or protocol and an A.6.B claim set exists (`L-*`, `A-*`, `D-*`, and `E-*`), then normative text on faces is traceable to that claim set (prefer claim-ID citations); faces do not become a second boundary specification. | Lint flags uncited normative clauses; faces reduce to {claim-ID citations + informative commentary}. |
 | **CC‑MVPK‑4b (Lean evidence-facing lane)** | If `AssuranceLane-Lite` is used, presence bits for current evidence or bridge references suffice; full evidence-carrier lists remain with the exact evidence source. | Presence bits are visible, and no assurance or sufficiency claim is inferred from the lane. |
-| **CC-MVPK-4c (Input and Output vs publication)** | When a morphism face exposes input/output information, it points to the signature-side declarations instead of duplicating them; it carries only source references and pins needed by the face. | The face has no second Input/Output specification and no unused presence-pin dossier. |
+| **CC-MVPK-4c (Input and Output vs publication)** | When a morphism face exposes input/output information, the signature-side declarations remain authoritative. Provide an exact accessible return or carry the needed source-attributed content for detached use. | The face creates no independent Input/Output specification; its receiving use can recover the needed declarations and material pins. |
 | **CC-MVPK-4d (Published comparison and ordering)** | A source contrast keeps its declared comparison criteria. A published selection or ordering keeps its source-defined set or order semantics and comparator, citing **ComparatorSet** when that formal family is used. | No hidden scalarization or decision by display order; an ordinary bounded contrast needs no invented ranking or comparator family. |
 | **CC-MVPK-4e (Signature names the actual object)** | Use **Signature** on a face only for an object that is a signature under its applicable pattern. Use **TechName** or **PlainName** for the face's name. | A cited signature remains identifiable; a face label is not presented as a signature. |
 | **CC‑MVPK‑4f (Numeric and optional-PC discipline)** | Numeric or comparable claims retain the source pins that affect interpretation; when the optional PC profile is selected, its PC and CHR/CG references are explicit. | Cards show the material unit, scale, reference-plane, and edition pins; selected PC fields resolve without making PC classification a prerequisite for an ordinary face. |
@@ -95877,7 +95877,7 @@ A conformance check is kept only if it changes the next bounded use of the publi
 | **CC‑MVPK‑4h (Edition pins on defs)** | Where maps, distances, or spaces are cited, the face pins `DescriptorMapRef.edition`, `DistanceDefRef.edition`, and `CharacteristicSpaceRef.edition?`. | Validation shows edition fields populated. |
 | **CC‑MVPK‑4i (Crossing references)** | A semantic crossing cites its F.9 Bridge and separate bounded-use claim; a plane-dependent value cites its selected `ReferencePlane` and applicable rule. A B.3 `CL`/`Φ(CL)` reference appears only when the current assurance use consumes that integration relation. | F.9 and plane references resolve; any B.3 penalty belongs to the assurance-bearing integration relation, not to the face. |
 | **CC‑MVPK‑4k (Subset‑of underlier)** | For views about epistemes or capabilities, `PublicationScope ⊆ ClaimScope or WorkScope`; reindexing **does not widen** it. | Subset witness passes; promotion diff shows no widening. |
-| **CC‑MVPK‑6 (Γ‑separation)** | No cost, time, or data-spend on publication morphisms. | CI shows proof records or witness records; gate validation passes. |
+| **CC‑MVPK‑6 (Γ‑separation)** | No cost, time, or data-spend on publication morphisms. | Inspection shows that any cost, time, or data-spend claim concerns separately identified Work. |
 | **CC‑MVPK‑7 (Reindexing monotone)** | If `s ⪯ t`, then `Emit_s(x) ⪯ Emit_t(x)`. | `TechCard` ≤ `InteropCard` (more structure, same claims). |
 | **CC‑MVPK‑8 (`publication-face kind` discipline)** | Only literal `publication-face kind` values **publication face/form** or **interop publication form** are used; faces are named **...View**, **...Card**, or **...Lane**. | Token scan; no “rendering” or “presentation” as `publication-face kind` values. |
 | **CC‑MVPK‑9 (Reindexing naturality)** | Conceptual-form coercions `PromoteFace[s->t]` exist, are total in the selected formal substrate, and commute with composition. | The local witness uses `PromoteFace` and is not overread as a world-side relation. |
@@ -96533,7 +96533,7 @@ Generated and model-facing explanation can hide source drift; ordinary human exp
 
 **First-minute working moment.** A team has two or more source-pinned notes, sheets, views, or review aids on the table. They need one honest comparison unit: two design options for one release, two methods for one task family, two vendor bulletins for one control scope, two research syntheses for one uncertainty question, or two programme strategies for one initiative. The job is not yet action selection, approval, ontology repair, or wider work-process control. It is to compare without pretending that the comparison note already became a decision.
 
-**First output.** Use the ordinary seven-row card:
+**First output.** One bounded comparison whose ordinary minimum is recoverable in the unit or its immediate review context. A source-linked paragraph or small comparison table may suffice. The seven-row card below is a recovery aid, not an additional required publication:
 
 ```text
 ComparativeReviewUnit:
@@ -96558,7 +96558,7 @@ ComparativeReviewUnit:
 3. Is one bounded contrast or small row set being made visible?
 4. Is the downstream claim or effect still outside?
 
-If yes, stay here and use the ordinary card. If no, use the neighboring-work boundary in `E.17.ID.CR:4.5`.
+If yes, stay here and keep the ordinary minimum recoverable. If no, use the neighboring-work boundary in `E.17.ID.CR:4.5`.
 
 ### E.17.ID.CR:1 - Problem frame
 Engineer-managers, programme leads, and research or cultural reviewers repeatedly need to prepare or share a small comparative review unit that helps a team read two already available source epistemes or source publications together without overstating what downstream claim or effect that unit now carries.
@@ -96610,7 +96610,7 @@ In plain working terms, this pattern is for a review unit that says something li
 - `this research synthesis foregrounds uncertainty more than that one, but it is not yet a method choice`;
 - `this program brief foregrounds continuity risk more than that one, but it is not yet a funding decision`.
 
-If that sounds like the review unit you need, keep the comparison unit bounded by the seven-row card. If the first move is no longer bounded comparison over pinned sources, name the crossed claim and let its governing pattern carry that claim before this unit is used.
+If that sounds like the review unit you need, keep the ordinary minimum recoverable. If the first move is no longer bounded comparison over pinned sources, name the crossed claim and let its governing pattern carry that claim before this unit is used.
 
 #### E.17.ID.CR:4.1.b - Compact placement
 
@@ -96641,11 +96641,11 @@ This pattern uses a small local vocabulary for review.
 - **Bridge references** = required `bridgeOccurrenceRef` and `boundedUseClaimRef` when the case depends on bridge-mediated correspondence rather than ordinary source interpretation alone. The use-claim reference resolves a claim whose `EntityOfConcern` is that Bridge occurrence and whose proposed use, direction, correspondence rule, tolerated loss, and polarity match this comparative unit. Optional `bridgeCardRef` cites reusable packaging, and optional `bridgeStanceRef` cites a separate F.9.1 episteme whose `EntityOfConcern` is that exact use claim.
 - **Bounded comparative use** = what this review unit can be used for while it remains only a bounded comparative review unit.
 - **Overread risk** = how the review unit is most likely to be overread into a bridge, action-selection, ontology, or authority claim that it does not carry.
-- **Prompt boundary** = the explicit `U.AbductivePrompt` publication that becomes the governing publication when an abductive-prompt or action-selection claim governs the next action.
+- **Prompt boundary** = the point at which an explanatory question with rival explanations still open becomes primary under `B.5.2.0` or `B.5.2`; `U.AbductivePrompt` names its initiating publication form.
 - **Ordinary minimum block** = the smallest ordinary record that keeps the review unit honest for working use.
 - **Load-bearing extension** = the fuller declaration record used when the case sits close to bridge, explanation, abductive, ontology, or authority boundaries.
 
-These terms are local review fields for completing the comparative review unit. They keep source references, shared review frame, compared alternatives, bounded lift, blocked downstream claim or effect, and boundary trigger readable in the card.
+These terms are local review fields for completing the comparative review unit. They keep source references, shared review frame, compared alternatives, bounded lift, blocked downstream claim or effect, and boundary trigger readable in the review unit.
 When one of those fields starts carrying a bridge, evidence, gate, speech-act, commitment, work, authority, publication-face, or project-side FPF claim, name that crossed claim and use the governing pattern for it.
 
 #### E.17.ID.CR:4.2 - Scope and exclusions
@@ -96661,7 +96661,7 @@ When one of those fields starts carrying a bridge, evidence, gate, speech-act, c
 - same-entity restatement, conservative rewrite, or representation shift whose main question stays with `A.6.3`, `A.6.3.CR`, or `A.6.3.RT`;
 - a separate F.9.1 stance note that only clarifies an already constituted F.9 bounded-use claim;
 - explanation-face use discipline, bounded-use boundary, or added-link review on existing faces (`E.17.EFP`);
-- abductive-prompt or action-selection cases (`B.5.2.0` or `B.5.2`);
+- explanatory questions with rival explanations open (`B.5.2.0` or `B.5.2`), and choice among already available actions, probes, or method options (`C.11`);
 - ontology-facing reframing or changed EntityOfConcern (`OntologicalReframing` or `A.6.4`);
 - policy, gate, adjudication, assurance, or work-facing use (name the actual claim and use its governing pattern; see `E.17.ID.CR:4.5`).
 
@@ -96684,7 +96684,7 @@ Name the base source relation or work question before adding bounded comparison.
 
 Most working users do not have to start with a long declaration block.
 This pattern therefore follows `E.14`'s working-model-first discipline: the first usable block is a small set of plain questions that helps an engineer-manager keep the review unit bounded to the work it can honestly carry.
-The ordinary minimum block comes next for ordinary use: it lets the reader turn the working comparison into the seven-row card before touching the fuller declaration block.
+The ordinary minimum block states the content needed for ordinary use; the card is one way to recover and arrange it.
 The fuller declaration block remains available as a reviewable declaration extension that carries source, boundary, and downstream-claim fields by value. If a real assurance or B.3 threshold is current, cite the separately constituted B.3 claim or record; do not turn this declaration extension into that assurance record.
 
 #### E.17.ID.CR:4.3.a - Five plain working questions
@@ -96714,7 +96714,7 @@ If those minimum answers cannot stay stable across the same note, sheet, or revi
 
 ##### E.17.ID.CR:4.3.b.a - Ordinary working card
 
-An ordinary comparative review unit normally lets a reader recover these seven rows without using the heavier fuller declaration:
+An ordinary comparative review unit keeps the following content recoverable without the heavier declaration. Use these seven rows when they help:
 
 | Row | Plain question | Minimum answer |
 | --- | --- | --- |
@@ -96726,8 +96726,8 @@ An ordinary comparative review unit normally lets a reader recover these seven r
 | **World-contact limit** | What can the unit not be used to do? | `review-only and non-executive` |
 | **Boundary trigger** | What would end this pattern and require another governing pattern? | one explicit bridge, explanation, prompt, ontology, or authority trigger |
 
-This working card can appear inline in the comparative review unit or in its immediate review context.
-Use it as the ordinary recovery reference for the near-top working-fit check:
+The working card may appear inline or in the immediate review context. Retain a card or table when its arrangement supports comparison or independent revision of contrast rows. Keep the form required by a specific receiving contract. When the unit travels separately, carry the interpretation and source return needed for that use.
+Use these questions as the ordinary recovery reference for the near-top working-fit check:
 - if rows 1-4 are still unstable because one pressured local lexical head or qualifier is doing too much work, stop and repair that local lexical-head pressure through `E.17.AUD.LHR` (`Local Head Restoration`) before you keep building the comparative review unit here;
 - if rows 3-7 cannot stay stable because the same review unit still has unstable reviewed-source, comparative-move identification, or outside-work boundary after one honest local repair, apply `E.17.AUD.OOTD` (`PublicationUnit Primary-Subject Discipline`);
 - if rows 1-7 stay recoverable over one pinned source slice or source pair, one preserved shared review frame, distinct alternatives where present, and one bounded contrast or small row set, `ComparativeReviewUnit` remains the honest primary governing pattern.
@@ -96736,7 +96736,7 @@ The nearest stay-here worked slices for this pattern are `E.17.ID.CR:5.4.5` thro
 The nearest stop-and-reopen worked slice is `E.17.ID.CR:5.4.6.c`.
 
 Use the fuller declaration extension only when one of the boundary, reader-fit, or misuse conditions in `E.17.ID.CR:4.3.c` becomes true.
-`ComparativeReviewUnit` remains primary only while those seven rows stay recoverable and the same review unit is still mainly about one bounded comparison, or a small set of bounded contrast rows, over already pinned source epistemes or source publications. If the first question is what the review unit is about, what move it carries, and what wider work remains outside, use `E.17.AUD.OOTD` (`PublicationUnit Primary-Subject Discipline`) to stabilize that `PublicationUnit` question before adding more declaration weight here.
+`ComparativeReviewUnit` remains primary only while the ordinary minimum stays recoverable and the same review unit is still mainly about one bounded comparison, or a small set of bounded contrast rows, over already pinned source epistemes or source publications. If the first question is what the review unit is about, what move it carries, and what wider work remains outside, use `E.17.AUD.OOTD` (`PublicationUnit Primary-Subject Discipline`) to stabilize that `PublicationUnit` question before adding more declaration weight here.
 
 #### E.17.ID.CR:4.3.c - Fuller Declaration Extension Guidance
 
@@ -96852,9 +96852,9 @@ For a fuller mixed-case read, read this table together with the neighboring patt
 | one review unit already keeps the same primary entity of concern, one bounded comparison, and one outside-work boundary stable | `ComparativeReviewUnit` within `InterpretationDiscipline` |
 | the same unit still has unstable reviewed-source, comparative-move identification, or outside-work boundary after local repair | `E.17.AUD.OOTD` (`PublicationUnit Primary-Subject Discipline`) |
 | the real job is explanation-face governance on existing faces | `E.17.EFP` |
-| the comparison now creates an abductive-prompt claim or action-selection question | `B.5.2.0` or `B.5.2` |
+| the comparison raises an explanatory question with rival explanations still open | `B.5.2.0` or `B.5.2` |
 | the target or ontology is changing and now needs continuity witnesses | `OntologicalReframing` or `A.6.4` |
-| the unit is now being used as a decision-making claim or decision record | `C.11` |
+| the unit is now used to choose among already available actions, probes, or method options, or to publish the resulting decision record | `C.11` |
 | the unit is now being used for execution, gate, or adjudication consequence | `A.15` for System-Role–Method–Work alignment, `A.15.1` for dated `U.Work`, and `A.21` for a named gate decision under its applicable profile; `A.20` only for a named internal-constraint check in a transformation-flow case; adjudication stays with its defining policy or pattern |
 
 For first-minute use, read the four boundary rows around the comparative-review-unit case itself as a compact mirror of the near-top working-fit check and the ordinary working card:
@@ -96864,7 +96864,7 @@ For first-minute use, read the four boundary rows around the comparative-review-
 - any stronger crossed claim already primary -> the governing pattern for that claim is primary.
 If the comparison unit is already carrying neighboring work, use the boundary rows first and then read `E.17.ID.CR:5.4.7` through `E.17.ID.CR:5.4.10` as the nearest worked boundary examples.
 
-#### E.17.ID.CR:4.5.a - Ordinary working order for the card
+#### E.17.ID.CR:4.5.a - Ordinary working order
 
 The shortest ordinary working order is:
 1. name the base source relation or work question if the case is mixed;
@@ -96873,15 +96873,15 @@ The shortest ordinary working order is:
 4. declare the blocked downstream claim or effect and the review-only and non-executive world-contact limit;
 5. name the boundary trigger that would end interpretation.
 
-Use this order only to recover the seven-row ordinary working card in `E.17.ID.CR:4.3.b.a`; publish the resulting card in compact form whenever boundary pressure still stays low.
+Use this order to recover the ordinary minimum in `E.17.ID.CR:4.3.b.a`. Publish the comparison in a sufficient compact form.
 
-If the seven-row working card still cannot be completed plainly through that order, the review unit is not yet ready to stay here.
+If the ordinary minimum still cannot be made explicit through that order, the review unit is not yet ready to stay here.
 If the first question is what the note, sheet, or review aid is about, what move it carries, and what wider work remains outside, stabilize that `PublicationUnit` question with `E.17.AUD.OOTD` (`PublicationUnit Primary-Subject Discipline`) before continuing comparative-review-unit work.
 
 ### E.17.ID.CR:5 - Archetypal grounding
 
 **Worked-slice note.** Use the system case, episteme case, and worked boundary examples as a heterogeneous example bank, not as one recommended progression.
-They show different bounded outcomes for the same governing pattern: some cases stay small and stop, some stay mixed with a neighboring pattern, and some reopen or apply another governing pattern when outside observations, environmental change, or downstream constraints change what the comparative review unit can honestly carry. Complete the seven-row card for the current comparison unit; if the boundary trigger fires, stop here or apply the governing pattern for the crossed claim.
+They show different bounded outcomes for the same governing pattern: some cases stay small and stop, some stay mixed with a neighboring pattern, and some reopen or apply another governing pattern when outside observations, environmental change, or downstream constraints change what the comparative review unit can honestly carry. Make the ordinary minimum recoverable for the current comparison unit; if the boundary trigger fires, stop here or apply the governing pattern for the crossed claim.
 
 #### E.17.ID.CR:5.1 - Tell
 
@@ -96914,7 +96914,7 @@ One rendering is a `SourceLinkedExplanationReconstruction` on a `TechCard` face;
 - the base-case governing patterns remain identifiable;
 - the comparative lift is explicit and bounded to one reviewer task;
 - explanation-face governance and same-entity transform discipline remain with their neighboring patterns;
-- authority-bearing use and prompt-bearing action-selection pressure remain governed by their neighboring patterns.
+- explanatory questions, action selection, and authority-bearing use remain governed by their respective neighboring patterns.
 
 #### E.17.ID.CR:5.4 - Worked boundary examples
 
@@ -97068,7 +97068,7 @@ Why it stays here:
 **Prompt-bearing review unit.** "This contrast raises the question whether both systems are being constrained by the same hidden gating variable, so we normally publish a U.AbductivePrompt around that shared control possibility."
 
 Why `ComparativeReviewUnit` no longer governs:
-- abductive-prompt or action-selection claim governs the next action;
+- an explanatory question with rival explanations still open governs the next action;
 - the review unit is now prompt-bearing rather than only interpretive;
 - the selected governing pattern is `B.5.2.0` or `B.5.2` through explicit `U.AbductivePrompt` publication.
 
@@ -97138,7 +97138,7 @@ Use ID.CR-Core for ordinary comparison notes. Conditional rows apply only when t
 2. **CC-ID-2 - Source references and comparison criterion are explicit.**
    A reviewer can see what already-fixed source episteme or source publication is being interpreted and what declared comparison criterion or contrast is carrying the lift.
 3. **CC-ID-3 - The lift stays bounded.**
-   The ordinary card keeps bounded lift, blocked downstream claim or effect, world-contact limit, and boundary trigger visible before any neighboring claim can be read from the unit.
+   The unit or its immediate review context keeps bounded lift, blocked downstream claim or effect, world-contact limit, and boundary trigger visible before any neighboring claim can be read from the unit.
 4. **CC-ID-6 - Neighboring-pattern boundaries stay visible.**
    When the boundary trigger fires, the neighboring FPF pattern carries that prompt, ontology, action, gate, authority, or downstream claim instead of leaving it hidden inside comparative prose.
 5. **CC-ID-8 - The review unit does not over-claim authority.**
@@ -97163,18 +97163,18 @@ Use ID.CR-Core for ordinary comparison notes. Conditional rows apply only when t
 | `CC-ID-4` | near-top **Neighboring-work boundary**, **Quick working-fit check**, and `E.17.ID.CR:4.5 - Neighboring-work boundary glance` | `E.17.ID.CR:5.4.7` through `E.17.ID.CR:5.4.10` |
 | `CC-ID-5` | `E.17.ID.CR:4.3.d` bridge-declaration fields plus `E.17.ID.CR:4.2` neighboring patterns | `E.17.ID.CR:5.4.1`, `E.17.ID.CR:5.4.2`, `E.17.ID.CR:5.4.3` |
 | `CC-ID-6` | `E.17.ID.CR:4.3.b.a` row **Boundary trigger** plus the near-top boundary corridor | `E.17.ID.CR:5.4.7` through `E.17.ID.CR:5.4.10` |
-| `CC-ID-7` | `E.17.ID.CR:4.3.d` interpretant-side fields, kept subordinate to the ordinary card and blocked downstream claim or effect | `E.17.ID.CR:5.4.4`, `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.6.b` |
+| `CC-ID-7` | `E.17.ID.CR:4.3.d` interpretant-side fields, kept subordinate to the ordinary minimum and blocked downstream claim or effect | `E.17.ID.CR:5.4.4`, `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.6.b` |
 | `CC-ID-8` | `E.17.ID.CR:4.3.b.a` rows **Blocked downstream claim or effect** and **World-contact limit** | `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.10`, `E.17.ID.CR:5.4.11` |
 
 ### E.17.ID.CR:8 - Common Anti-Patterns and How to Avoid Them
 
-**Positive boundary-use profile.** Read the anti-pattern table below only after the ordinary working card has recovered the bounded comparative review unit. The ordinary result is positive: compared source epistemes or source publications, shared review frame, bounded comparative lift, blocked downstream claim or effect, and boundary trigger. If one row below fires, keep the comparison unit only for bounded review use and name the neighboring governing pattern for the crossed claim; do not turn the table into a general negative catalogue of every action the unit cannot perform.
+**Positive boundary-use profile.** Read the anti-pattern table below only after recovering the ordinary minimum for the bounded comparative review unit. The ordinary result is positive: compared source epistemes or source publications, shared review frame, bounded comparative lift, blocked downstream claim or effect, and boundary trigger. If one row below fires, keep the comparison unit only for bounded review use and name the neighboring governing pattern for the crossed claim; do not turn the table into a general negative catalogue of every action the unit cannot perform.
 
 | Anti-pattern | Why it is wrong | How to avoid it |
 | --- | --- | --- |
 | **Comparison-unit instability** | The text sounds as if it governs a note in one section, a publication unit in another, a comparative move in a third, and a whole review process in a fourth. | Stabilise one bounded comparative review unit early and keep note, sheet, UI, and rendering labels explicit as ordinary forms of that object rather than stylistic substitutes. |
 | **Bridge gloss inflation** | A helpful comparative sentence or stance word starts acting like a Bridge or use licence. | Require `bridgeOccurrenceRef` and `boundedUseClaimRef`; keep any Card optional, and use `bridgeStanceRef` only for a separate F.9.1 episteme about that exact claim. |
-| **Soft prompt smuggling** | The review unit is really creating an abductive prompt or action-selection case, but hides it in gentle prose. | If prompt selection or action-selection claim governs the next action, publish `U.AbductivePrompt` with explicit `promptSpecies`, `openQuestion`, and cue or action-selection provenance instead of keeping it here. |
+| **Soft prompt or choice smuggling** | The review unit has begun asking for an explanation or selecting an action but hides that change in comparative prose. | For an explanatory question with rival explanations still open, use `B.5.2.0` or `B.5.2` and publish the prompt's species, open question, scope, and motivating provenance. For a choice among already available actions, probes, or method options, use `C.11`; choice alone requires no `U.AbductivePrompt`. |
 | **Viewing capture** | Same-entity restatement or representation-shift work is pulled into interpretation just because the result is more readable. | Name the base source relation or representation work first and use bounded comparison only when bounded comparative lift is primary. |
 | **Explanation-face laundering** | Interpretation language is used to avoid explicit `E.17.EFP` class and bounded-use review. | If face class or bounded connective prose is primary, stay with `E.17.EFP`. |
 | **Gentle-tone advisory overread** | A calm explanatory tone makes work or reliance, assurance, or gate guidance sound harmless. | Publish `boundedComparativeUse`, `overreadRisk`, `worldContactPolicy`, and `downstreamAuthorityLimit` explicitly. |
@@ -97208,14 +97208,14 @@ The gain is practical: a team can compare available source epistemes or source p
 | Claim need | Source idea and current source | Current source section or reference | Local FPF invariant and practical local test | Nearest recovery reference | Adopted, adapted, or rejected shortcut |
 | --- | --- | --- | --- | --- | --- |
 | Comparative review units normally stay tied to explicit source, view, and review structure rather than shifting through helpful prose alone. | Architecture-description practice treats views, viewpoints, and comparison units as explicit review targets rather than letting reader-help prose replace structural review. | Joint ISO, IEC, and IEEE 42010:2022; source status = mature standard | This pattern adopts explicit source references, declared comparison criterion, and explicit boundary rules instead of letting comparative fluency define the case. | `E.17.ID.CR:4.3.b.a` rows **Reviewed source**, **Source references**, and **Bounded lift**; `E.17.ID.CR:5.4.5`, `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.6.a` | **Adopt.** |
-| Interpretation and explanation use are use-sensitive and bounded by intended reader and knowledge limits rather than audience-neutral by default. | Explainable-AI guidance distinguishes explanation, meaningfulness for intended users, explanation accuracy, and knowledge limits instead of treating all helpful prose as equally safe. | Phillips et al. (2021), NIST IR 8312, *Four Principles of Explainable Artificial Intelligence*; source status = current government guidance | This pattern adapts that stance into `targetUserModel`, `interactionMode`, `contrastiveQuestion`, `boundedComparativeUse`, and `overreadRisk`, while still keeping explanation-face use discipline with `E.17.EFP`. | `E.17.ID.CR:4.3.d` interpretant-side block, kept subordinate to the ordinary card; `E.17.ID.CR:5.4.4`, `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.6.b` | **Adopt and adapt.** |
-| Static comparative notes and interactive comparative aids carry different relation loads. | Static review notes need source references, comparison criterion, bounded lift, blocked downstream claim or effect, and boundary trigger; interactive explanation-system practice becomes relevant only when the aid is actually interactive, stateful, adaptive, or user-model-bearing. | Labarta et al. (2026), *X-SYS: A Reference Architecture for Interactive Explanation Systems*, arXiv:2602.12748v3; source status = emerging preprint, not settled standard. | This pattern keeps the ordinary seven-row card sufficient for static notes and adds `targetUserModel`, `interactionMode`, state and history, `overreadRisk`, and bounded-use boundary only for actual interactive comparative aids. | `E.17.ID.CR:4.3.b.a` ordinary card; `E.17.ID.CR:4.3.f` static and interactive split; `E.17.ID.CR:5.4.4`, `E.17.ID.CR:5.4.7` | **Adapt conditionally.** Reject importing XAI architecture into ordinary static notes. |
+| Interpretation and explanation use are use-sensitive and bounded by intended reader and knowledge limits rather than audience-neutral by default. | Explainable-AI guidance distinguishes explanation, meaningfulness for intended users, explanation accuracy, and knowledge limits instead of treating all helpful prose as equally safe. | Phillips et al. (2021), NIST IR 8312, *Four Principles of Explainable Artificial Intelligence*; source status = current government guidance | This pattern adapts that stance into `targetUserModel`, `interactionMode`, `contrastiveQuestion`, `boundedComparativeUse`, and `overreadRisk`, while still keeping explanation-face use discipline with `E.17.EFP`. | `E.17.ID.CR:4.3.d` interpretant-side block, kept subordinate to the ordinary minimum; `E.17.ID.CR:5.4.4`, `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.6.b` | **Adopt and adapt.** |
+| Static comparative notes and interactive comparative aids carry different relation loads. | Static review notes need source references, comparison criterion, bounded lift, blocked downstream claim or effect, and boundary trigger; interactive explanation-system practice becomes relevant only when the aid is actually interactive, stateful, adaptive, or user-model-bearing. | Labarta et al. (2026), *X-SYS: A Reference Architecture for Interactive Explanation Systems*, arXiv:2602.12748v3; source status = emerging preprint, not settled standard. | This pattern keeps the ordinary minimum sufficient for static notes and adds `targetUserModel`, `interactionMode`, state and history, `overreadRisk`, and bounded-use boundary only for actual interactive comparative aids. | `E.17.ID.CR:4.3.b.a` ordinary card; `E.17.ID.CR:4.3.f` static and interactive split; `E.17.ID.CR:5.4.4`, `E.17.ID.CR:5.4.7` | **Adapt conditionally.** Reject importing XAI architecture into ordinary static notes. |
 | Faithful source relation is not the same as merely plausible or persuasive prose. | Current interpretation research distinguishes faithful source relation from attractive but low-source-relation narrative, especially in explanation-like publication. | Jacovi and Goldberg (2020), *Towards Faithfully Interpretable NLP Systems*; source status = research paper as source for evaluation use | This pattern adopts explicit source references, `E.17:5.1b` source-relation class when it governs the claim, blocked downstream claim or effect, and bridge-claim visibility so that bounded comparison is not overread as source relation or governing-pattern authority it does not carry. | `E.17.ID.CR:4.3.b.a` rows **Blocked downstream claim or effect** and **World-contact limit**; `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.9`, `E.17.ID.CR:5.4.10`, `E.17.ID.CR:5.4.11` | **Adopt.** |
 | Comparative review units do not become hidden ranking, aggregate recommendation, or false equivalence when a comparison sheet sorts or scores alternatives. | Quality-diversity practice and multi-objective optimization practice preserve diverse candidate sets and non-scalar trade-offs when one scalar score would hide relevant differences. | Mouret and Clune (2015), MAP-Elites; Deb et al. (2002), NSGA-II; source status = adapted design-space analogy, not naming or review standard | This pattern adapts only the anti-scalarization invariant: one comparison sheet can expose row-level comparison criteria, trade-offs, and visible ordering criteria, but it does not add equivalence, substitution, recommendation, method choice, gate passage, or decision authority unless `C.11`, `F.9`, `A.20`, `A.21`, another governing FPF pattern, or a project record named by value supplies that source relation or project record. | `E.17.ID.CR:4.3.b.a` rows **Bounded lift**, **Blocked downstream claim or effect**, and **Boundary trigger**; `E.17.ID.CR:5.4.5`, `E.17.ID.CR:5.4.6.e`, `E.17.ID.CR:5.4.6.f` | **Adapt conditionally.** Reject treating optimization vocabulary, Pareto wording, benchmark tables, or sorted display order as proof of a governing FPF relation. |
 
 **Row 1.** The ISO row matters because this pattern is governing reviewable comparative units, not free comparative commentary. The pattern adopts the explicit-structure lesson directly: comparison criterion, source references, and boundary rules stay visible enough that a reviewer is not forced to infer the real comparison question from tone alone. Ordinary recovery: use the **Reviewed source**, **Source references**, and **Bounded lift** rows together before leaning on the citation. Engineer-manager payoff: a comparison note can help a review meeting move faster without being mistaken for a free-form equivalence judgement. Case linkage: see `E.17.ID.CR:5.4.5`, `E.17.ID.CR:5.4.6`, and `E.17.ID.CR:5.4.6.a`.
 
-**Row 2.** The NIST row matters because this pattern is not really audience-neutral even when the review unit looks small. The pattern therefore adapts user-meaningfulness and knowledge-limit practice into explicit interpretant-side fields, while rejecting any move that would let those fields replace source or pattern discipline. Assurance recovery: keep those fields subordinate to the ordinary card and blocked downstream claim or effect rather than letting them stand alone. Engineer-manager payoff: the note can be written for a real audience and task without pretending it is safe for every audience and every downstream use. Case linkage: see `E.17.ID.CR:5.4.4`, `E.17.ID.CR:5.4.6`, and `E.17.ID.CR:5.4.6.b`.
+**Row 2.** The NIST row matters because this pattern is not really audience-neutral even when the review unit looks small. The pattern therefore adapts user-meaningfulness and knowledge-limit practice into explicit interpretant-side fields, while rejecting any move that would let those fields replace source or pattern discipline. Assurance recovery: keep those fields subordinate to the ordinary minimum and blocked downstream claim or effect rather than letting them stand alone. Engineer-manager payoff: the note can be written for a real audience and task without pretending it is safe for every audience and every downstream use. Case linkage: see `E.17.ID.CR:5.4.4`, `E.17.ID.CR:5.4.6`, and `E.17.ID.CR:5.4.6.b`.
 
 **Row 3.** The interactive-system row matters because bounded comparative aids can become more directive than static prose without crossing into a full new governing pattern of their own. The pattern adapts only the minimal architectural lesson it needs: if interaction mode changes the comparison claim, that fact is explicit and still stops before prompt, ontology, or authority escalation. Assurance recovery: handle that pressure through the interaction fields plus the prompt and authority boundary rows rather than treating the source citation as a licence for action selection, coaching, prompt selection, approval, or other downstream guidance. Engineer-manager payoff: a guided comparative UI can stay useful for review without silently becoming coaching, prompt selection, action selection, or approval machinery. Case linkage: see `E.17.ID.CR:5.4.4` and `E.17.ID.CR:5.4.7`.
 
@@ -100772,9 +100772,9 @@ Checks include:
 **PCP‑SUITE (Mechanism-suite integrity)** — Trigger: the reviewed pattern or subset introduces or revises a suite-level Description that enumerates multiple distinct mechanisms (e.g., `MechSuiteDescription` or a suite specialization) and/or changes suite requirements, conformance pins, or suite protocols.
 Checks include:
 
-* the suite remains a **Description-level** object: it enumerates member `U.Mechanism.EntityOfConcern` refs and declares shared requirements/pins, but does **not** define mechanism blocks (`OperationAlgebra`, `Transport`, `Audit`, …) and is not used as a mechanism node,
+* the suite remains a **Description-level** object: it enumerates member A.6.1 declaration epistemes through exact `MechanismDeclarationRef` values under A.6.7:4.1 and declares shared requirements/pins, but does **not** define mechanism blocks (`OperationAlgebra`, `Transport`, `Audit`, …) and is not used as a mechanism node,
 * membership has **set semantics**: `mechanisms` is duplicates-free and order carries no semantics; any intended ordering is expressed only in `suite_protocols`,
-* suite protocols are **closed over membership**: if `suite_protocols` is present, each protocol step references a member mechanism (no “step points outside the suite”),
+* suite protocols satisfy **A.6.7 WF-MS-2**: if `suite_protocols` is present, each step resolves to a selected member edition and a declaration-local operation in that edition; membership alone does not resolve the step,
 * the suite is not a family of implementations: it MUST NOT be encoded as a `MechFamilyDescription` (families remain “many realizations of one mechanism”, not “many mechanisms”),
 * the suite does **not** mint transport exceptions: any cross-context, cross-plane, or cross-kind requirement remains Bridge-only; loss or penalty handling stays with `R/R_eff` only; the suite does not embed CL/Φ/Ψ/Φ_plane tables (references/pins only),
 * CG/CN authority pins remain explicit references to the single governance card and legality gate: if suite protocols include numeric comparison/aggregation/scoring, they cite `CG‑Spec` (SCP + Γ-fold + MinimalEvidence) and (where applicable) `CN‑Spec`, rather than duplicating “local CG‑Spec-like” content,
@@ -101516,7 +101516,7 @@ If the introduction changes a suite (`MechSuiteDescription` or specialization):
 
 1. **Membership set semantics (WF‑MS‑1).** `mechanisms` is a set: duplicates are nonconformant and list order carries no semantics.
 2. **Ordering is only in protocols.** If ordering matters, express it only in `suite_protocols`.
-3. **Protocol closure (WF‑MS‑2).** If `suite_protocols` is present, then for every `ProtocolStep` in every `SuiteProtocol`, `step.mechanism ∈ mechanisms`.
+3. **Protocol closure (WF‑MS‑2).** Apply A.6.7 WF-MS-2: every `ProtocolStep` in a supplied `SuiteProtocol` resolves to a selected member edition and a declaration-local operation in that edition. Membership alone does not resolve the step.
 4. **No hidden tails.** Required stages (e.g., normalization/aggregation/Γ‑fold) are explicit protocol steps; do not hide them inside other steps.
 5. **Guard/gate separation.** Suites and mechanisms SHALL NOT publish `GateDecision`/`DecisionLog`. `AdmissibilityConditions` and tri‑state `GuardDecision` remain governed by the mechanism definition; `OperationalGate(profile)` acceptance thresholds and pass/fail criteria remain gate/acceptance concerns.
 6. **Suite is descriptive only (WF-MS-3/4).** A suite states membership, obligations, pins, and suite protocols. It does not restate `U.Mechanism` identity-bearing content. Any publication or telemetry continuation remains outside the suite protocol and requires its own exact publication or flow assertion and predicate.
@@ -101527,15 +101527,15 @@ If the introduction changes a suite (`MechSuiteDescription` or specialization):
 
 If the mechanism introduction changes what one exact `U.WorkPlan` pins, such as selected comparator specifications, method descriptions, a time selector, or guard pins, the WorkPlan edition is the identifiable planning object.
 
-1. Introduce or revise the `SlotFillingsPlanItem` rows as declaration-local ClaimGraph content inside that exact WorkPlan. Each row points to a declaration member whose own pattern defines its meaning and later actual-use rule.
+1. For a future use of an existing declaration member, introduce or revise `SlotFillingsPlanItem` rows as declaration-local ClaimGraph content inside that exact WorkPlan under A.15.3. Use ordinary A.15.2 plan content when only a method or suite choice is being stated.
 2. Give no row an independent kind, record identity, edition, specialization lineage, canonical target, or successor relation. Changing identity-bearing row content changes the WorkPlan's claim content and is handled as a WorkPlan-edition change under C.2.1 and A.15.2.
 3. Keep the declaration-local planned-filling content planning-only:
-   * pins and references only, whether ByValue or through the declared reference kind;
+   * positive intentions for planned values or designations, using the selected member's ValueKind, designation rule and semantic cardinality under A.15.3;
    * no launch values;
    * no `FinalizeLaunchValues` witnesses;
    * no gate decisions or decision logs; and
-   * explicit time through `Γ_time_selector` or `Γ_time_rule_ref` (XOR); implicit “latest” or “current” wording is nonconformant.
-4. In this mechanism-baseline branch, the WorkPlan's planned-filling content SHALL target exactly one **Description-scoped, edition-addressable** slot-bearing description through `target_slot_bearing_description_ref`, typically a kit or suite. It SHALL NOT target a `MechanismDefinitionRef`. If a standalone mechanism baseline is needed, introduce an explicit Description-scoped slot-bearing description wrapper, such as a mechanism kit or suite-of-one, and target that.
+   * conditions, including time, only when they change applicability or value selection, as specified in A.15.3:4.2; retain material edition pins under A.15.3:4.6 rather than implicit “latest” or “current” resolution.
+4. Resolve each row through the declaration edition and member selected under A.15.3:4.1–4.4. For an operation argument or expected result, cite the A.6.1 mechanism edition, operation designator and `ArgumentDeclaration` or `ResultDeclaration`; no Description wrapper is required. If the member's meaning or actual-use rule is undefined, return `missing-governor`.
 5. When a receiver needs one row, cite it only through the exact WorkPlan edition and a stable local-content locator. The locator does not make the row independently resolvable.
 
 This step keeps the P2W planning-to-work boundary crisp: the WorkPlan states **planned fillers**; enactment witnesses **actual runs**.
@@ -101545,7 +101545,7 @@ This step keeps the P2W planning-to-work boundary crisp: the WorkPlan states **p
 If the introduction involves methods, comparators, selectors, or other SoTA-sensitive choices:
 
 1. Put method/comparator family semantics in **SoTA packs** (G.2) and reference them by edition-pinned refs.
-2. Pin the chosen SoTA refs in declaration-local rows inside the exact WorkPlan (E.20:4.7); wiring consumes those planned values rather than silently overriding them.
+2. Pin the chosen SoTA refs in the exact WorkPlan. Use declaration-local rows only for existing members under E.20:4.7; wiring consumes the selected planned values rather than silently overriding them.
 3. Put flow/task binding logic in **wiring modules** (`GPatternExtension`), with an explicit `PatternScopeId` and declared subject pattern.
 4. Wiring may bind, select, dispatch, or cite SoTA method packs; it may not redefine the mechanism's identity-bearing A.6.1 content. A bridge, realization, evaluation, evidence-use, or publication claim named by wiring remains governed by its direct relation pattern.
 5. If a SoTA update changes a mechanism's signature/laws, that semantic change SHALL be performed in the mechanism-subject pattern, under the A.6.1 mechanism-definition template; the change SHALL emit RSCR triggers (E.20:4.10).
@@ -101621,10 +101621,10 @@ A reviewed MIP-run SHALL be closed as one of:
 |  | Tell | Show #1 — add a mechanism to an existing suite *variant* | Show #2 — introduce a new mechanism family + suite |
 |---|---|---|---|
 | **Scene** | Mechanisms evolve: new stages appear, methods mature, and planning records need to remain citeable. | A team wants an additional “stage” in a characterization pipeline, but does not want to mutate the kernel suite. | A new domain needs a mechanism family or species not yet present in any existing mechanism-profile cluster (for characterization: `A.19.*`), plus a suite that composes several distinct mechanisms with a P2W hook. |
-| **Definition-locus assignment** | Each change item has one definition locus; make the change there rather than smearing it across several patterns. | 1) Add the introduced `U.Mechanism` episteme under the mechanism-subject pattern. 2) Add a suite variant under the suite-subject pattern. 3) Pin the variant in rows kept inside one WorkPlan. 4) Wire the variant through a `GPatternExtension`. | 1) Add the new operation-family declaration and archetypal grounding under the subject pattern. 2) Add `A.6.7.<FamilyKey>` describing the suite. 3) Add suite-specific planned values as rows inside one WorkPlan. 4) Add SoTA packs and wiring modules. |
+| **Definition-locus assignment** | Each change item has one definition locus; make the change there rather than smearing it across several patterns. | 1) Add the introduced `U.Mechanism` episteme under the mechanism-subject pattern. 2) Add a suite variant under the suite-subject pattern. 3) Pin the variant in one WorkPlan. 4) Wire the variant through a `GPatternExtension`. | 1) Add the new operation-family declaration and archetypal grounding under the subject pattern. 2) Add `A.6.7.<FamilyKey>` describing the suite. 3) State suite-specific planned values inside one WorkPlan. 4) Add SoTA packs and wiring modules. |
 | **Resolvable target first** | No suite treats a dangling designator or reservation stub as an introduced mechanism. | Create the reservation stub or introduced mechanism target first; add only an introduced mechanism to admitted suite membership. | Create each mechanism target first; then publish suite membership by designator. |
 | **Suite discipline** | Suites are descriptive: membership, obligations, pins, protocols; not mechanisms and not gates. | The variant’s `suite_protocols` explicitly names the new stage; publish/telemetry remains outside the suite. | The new suite defines shared obligations and allowed pipelines without embedding mechanism semantics. |
-| **P2W planning-to-work boundary** | One exact WorkPlan is the planning record; its declaration-local rows pin references and planned values, while enactment witnesses actual runs. | The exact WorkPlan's local rows pin the chosen suite variant and any method or specification references; no row carries launch values or decision logs. | Declaration-local rows in the exact WorkPlan state the planned fillers and pins that downstream flows cite through that WorkPlan edition. |
+| **P2W planning-to-work boundary** | One exact WorkPlan is the planning record; §4.7 governs its declaration-local rows, while enactment witnesses actual runs. | The WorkPlan pins the chosen suite variant and any method or specification references; use declaration-local rows only for existing members under A.15.3. No row carries launch values or decision logs. | Declaration-local rows for existing members under A.15.3 state planned fillers and pins that downstream flows cite through the exact WorkPlan edition. |
 | **SoTA updates** | Methods change faster than kernel meaning; wiring is where choices are governed. | A `GPatternExtension` selects a post-2015 scoring method by edition‑pinned ref; no kernel mutation required. | The family ships method packs and wiring modules; the identity-bearing content of each introduced `U.Mechanism` remains at its mechanism-subject pattern. |
 
 ### E.20:6 - Bias-Annotation
@@ -101644,7 +101644,7 @@ Lenses tested: **Governance** (governing-definition assignment, continuity), **A
 | **CC-E20-2 (Resolvable mechanism target).** | Every `MechanismDefinitionRef` resolves either to an explicitly non-mechanism reservation stub or to an introduced A.6.1 `U.Mechanism` episteme. Only the latter fills admitted mechanism positions. | Eliminates dangling references and card-form semio-bias. |
 | **CC‑E20‑3 (Suite discipline preserved).** | If a suite is edited, it **SHALL** preserve: membership set semantics, protocol closure, no hidden tails, no gate decisions/logs, no publication records. | Prevents suite-as-gate and suite-as-mechanism drift. |
 | **CC-E20-4 (Shared operation-member vocabulary preserves declaration locality).** | If a suite or family claims shared operation, argument, or result vocabulary, one citeable shared locus **SHALL** name its exact member declarations, and every member **SHALL** still define its own A.6.1 operation members and binding semantics. Equal spelling or a shared-term citation imports no declaration member or actual binding. | Prevents vocabulary drift without collapsing declaration-local semantics into a suite lexicon. |
-| **CC-E20-5 (P2W planning-to-work boundary preserved).** | If a planned baseline is edited, its rows **SHALL** remain declaration-local content inside one exact `U.WorkPlan` (only pins and references), **SHALL** target exactly one Description-scoped slot-bearing description via `target_slot_bearing_description_ref` (and **SHALL NOT** target a `MechanismDefinitionRef`), and **SHALL NOT** contain enactment witnesses, launch values, or gate decisions. No row has an independent identity or edition. | Keeps planning and enactment distinct and replayable. |
+| **CC-E20-5 (P2W planning-to-work boundary preserved).** | If a planned baseline uses `SlotFillingsPlanItem` rows, they **SHALL** remain declaration-local content inside one exact `U.WorkPlan`, state planned values or designations for existing declaration members under A.15.3, and include time only when it affects applicability or selection. They **SHALL NOT** assert actual applications or bindings, or contain enactment witnesses, launch values, or gate decisions. No row has an independent identity or edition. | Keeps planning and enactment distinct and replayable. |
 | **CC‑E20‑6 (Kernel stability handled).** | If a kernel suite would gain a new required stage, the change **SHOULD** be expressed as a suite variant; if mutation occurs, it **SHALL** include continuity measures (alias docking and explicit delta). | Minimizes E.15 impact radius of kernel edits. |
 | **CC‑E20‑7 (SoTA wiring, not kernel semantics).** | Method/comparator choices **SHALL** be represented via SoTA packs and wiring modules; if a SoTA update changes mechanism semantics, that change **SHALL** be made in the mechanism-subject pattern and not by wiring. | Prevents silent semantic shifts. |
 | **CC‑E20‑8 (Terminology continuity).** | Any rename changing citeable tokens **SHALL** use alias docking and register updates; silent rewrites are non‑conformant. | Preserves reference stability. |
@@ -101658,7 +101658,7 @@ Lenses tested: **Governance** (governing-definition assignment, continuity), **A
 |---|---|---|---|
 | **Wiring carries semantics** | Part G extensions start redefining what a mechanism “means”. | Meaning becomes edition-fragile and non-local. | Move semantics back to the mechanism-subject pattern; keep extensions as binding only. |
 | **Suite becomes a meta-mechanism** | Suite text defines ops/laws or embeds thresholds/decisions. | Collapses suite, mechanism, and gate kinds; creates hidden gate behavior. | Restore suite as description-only; push thresholds to acceptance/gate kind. |
-| **Plan becomes enactment** | Declaration-local planned-filling rows contain launch values, witnesses, or decisions. | This destroys the P2W planning-to-work boundary and prevents replay of what was planned versus what occurred. | Keep those rows inside the exact WorkPlan and restrict them to planned values, references, policies, and time selectors. |
+| **Plan becomes enactment** | Declaration-local planned-filling rows contain launch values, witnesses, or decisions. | This destroys the P2W planning-to-work boundary and prevents replay of what was planned versus what occurred. | Keep those rows inside the exact WorkPlan with planned values or designations and only the conditions required by A.15.3; actual application, Work and gate claims retain their separate grounds. |
 | **Kernel churn by convenience** | New required stage is added directly to kernel suite membership. | Expands the E.15 impact radius; destabilizes citations. | Prefer suite variant; if not possible, pair with alias docking and explicit deltas. |
 | **Token drift by silent rename** | “Just rename UNM to ...” without aliasing. | Breaks citations and downstream reasoning. | Use F.18 alias docking; update registers explicitly. |
 | **MIP as gate surrogate** | A MIP-run manifest is treated as a runtime pass/fail result or gate passage. | Governing-definition assignment is being mistaken for project execution or gate decision. | Keep MIP as authoring-side governing-definition assignment; use `A.21` for gate decisions and `A.15` for work or enactment claims. |
@@ -102215,7 +102215,7 @@ This is the ordinary path. The evaluator needed no dated-Work account or operati
 **QualityEvidenceLeakage in the pattern.** The pattern says that corpus projection, README, ToC, `E.11` alignment, retrieval or cold-reader evidence, monolith parity, external-review readiness, landing evidence, `PatternQualityStatus`, all-`4` or all-`5` result framing, or another quality-result locus is what the user should do with the pattern's `EntityOfConcern`, or records developer, reviewer, or executor correspondence as if it were pattern content. The defect is not limited to `Problem frame`, `Solution`, examples, or checklist; notes, appendices, `Relations`, `Rationale`, `SoTA-Echoing`, tables, and conformance rows are also parts of the pattern in hosts and the monolith. That evidence may be required for `E.21`, `E.19`, landing, or retrieval loci, but it is not automatically a user action in the pattern of concern. Lower `EntityOfConcernPrimacyAndSemioBiasResistance`, `PatternApplicationGuidance`, `UseAffordabilityAndApparatusProportionality`, and `CorpusEntryProjectionAndEcologyFit` when this evidence enters the pattern. Repair by moving the evidence to the `E.21` result, `E.19` run record, README, ToC, `E.11`, card, retrieval, projection, or release or landing evidence locus, and keeping in the pattern only the user-facing move or boundary that follows from that evidence.
 
 
-**Quality table without rationale.** A result gives values but no adjacent-value rationale. Values are unsupported. Add `ShortRationale` or lower.
+**Quality table without rationale.** A result gives values but no adjacent-value rationale. Recover or perform the judgement and supply `ShortRationale` under §4.3. Until the dependent value is established, keep the evaluation as draft material and retain independently supported coordinate values. Lower the affected value only for an established weakness under its declared anchor; lowering an unsupported number does not supply the missing judgement.
 
 **Goodharted improvement.** A rewrite improves source refs and proof sketches but becomes hard to use, or treats every non-`5` coordinate as a defect to be fixed with more apparatus. Re-evaluate affordability, repair locality, proxy-for-value, and corpus ecology before stopping. When exceptional improvement is requested, keep searching for content movement, not proof movement; the aggregate no-proposal disposition in E.21:4.7 needs loci showing that further content change is dominated, unavailable, or outside scope.
 
@@ -102255,7 +102255,7 @@ This is the ordinary path. The evaluator needed no dated-Work account or operati
 |---|---|
 | **Subject/action guidance reified or operationalized.** Plain first-use guidance is turned into a `SubjectActionSpine`, structural field, method, CGUS, or performed work; or `PrecisionRestorationProfile`, process proof, or guard catalogues substitute for judgment of the pattern's actual content. | Keep subject and action guidance Plain unless an exact admitted method or A.22.CGUS is genuinely current and cited by value; require dated `U.Work` independently when performance is claimed; judge the pattern's own `EntityOfConcern`, first useful move, practitioner action, practical delta, and next useful action, adding a guard only when a plausible intended reader has an independently grounded reason for that reading. |
 | **Score illusion.** `Pattern quality = 87 out of 100`. | Use ordinal coordinate values; no arithmetic aggregation. |
-| **Two-column table.** Coordinate-and-value table has no rationale. | Add `ShortRationale` for every coordinate. |
+| **Two-column table.** Coordinate-and-value table has no rationale. | Supply grounded `ShortRationale` for every coordinate under §4.3; an unperformed judgement leaves its dependent value unestablished and the evaluation draft. |
 | **Floor as omission.** A floor evaluation omits maturity, SoTA, formal, corpus, or evolution coordinates. | Keep floor low if needed; evaluate all coordinates. |
 | **Scope laundering.** A landing-input, corpus-facing, `Stable`, release, or external-review request is reported under an easier use, local-only use, diagnostic pass, or evaluator-selected use. | Re-evaluate under the governing scope; if it fails, return `repairBeforeUse`, `holdForArchitectureDecision`, or `refreshNeeded` with the missed coordinates and repairs. |
 | **Administrative proxy.** "4 because landed" or "3 because not externally reviewed". | Evaluate pattern content. |
@@ -103092,7 +103092,7 @@ Actual machining and assembly produce Prototype-4 through separately identified 
 
 This pattern biases FPF toward adaptive improvement with explicit re-evaluation. The bias is useful because many real objects improve only through feedback and revision.
 
-The bias is bounded. One direct evaluation can close without a loop. Repetition is justified only by a scale-qualified `ExpectedEvaluationResultChange@Context` and acceptable cost and risk.
+The bias is bounded. One direct evaluation can close without a loop. Repetition is justified only by a scale-qualified predicted evaluation-result change and acceptable cost and risk.
 
 **Scope: limited.** The pattern covers repeated improvement of one declared object version under one rerunnable evaluation. It is not a universal account of change, learning, capability development, cultural evolution, publication, release, or project authorization; use the subject pattern for those claims.
 
@@ -103132,9 +103132,9 @@ The bias is bounded. One direct evaluation can close without a loop. Repetition 
 |---|---|
 | **Checklist closed, quality improved.** Discharge count replaces re-evaluation. | Re-evaluate the changed object and apply `CC-E23-4` when dated Work is asserted. |
 | **Loop result without evaluation form.** The loop says the object improved but retains no evidence in the declared evaluation form. | Restore that result form and evidence basis, then apply `CC-E23-4` to any dated Work claim. |
-| **Agentic retry as method law.** Repetition continues without a scale-qualified predicted evaluation-result change. | Add `ExpectedEvaluationResultChange@Context`, cost and risk, trade-offs, and a stop or switch condition. |
+| **Agentic retry as method law.** Repetition continues without a scale-qualified predicted evaluation-result change. | State a scale-qualified predicted evaluation-result change, cost and risk, trade-offs, and a stop or switch condition. |
 | **Operation-family creep.** Verification, memory, supervision, or search is added everywhere. | Keep only operations that can change the evaluation result enough to justify cost. |
-| **Goodharted pass.** Visible values rise while protected qualities worsen, or a non-`5` value is treated as a defect to be fixed by more apparatus. | Use trade-off inspection; apply `E.13` when the visible value is replacing the intended value; reject, delete, split, relocate, or hold dominated changes; continue searching for substantive content improvement when the improvement aim is still open; record `stay at current value` only when the `LoopEvaluationEvidenceBasis@Context` shows that no non-dominated content improvement remains. |
+| **Goodharted pass.** Visible values rise while protected qualities worsen, or a non-`5` value is treated as a defect to be fixed by more apparatus. | Use trade-off inspection; apply `E.13` when the visible value is replacing the intended value; reject, delete, split, relocate, or hold dominated changes; continue searching for substantive content improvement when the improvement aim is still open; record `stay at current value` only when the checked evaluation evidence basis shows that no non-dominated content improvement remains. |
 | **Lexical substitution closure.** A trigger word disappears, but the replacement narrows, widens, or changes the object kind; for example a graph-shaped method or workflow cue becomes a work sequence without a selected ontology decision. | Reopen the row, recover the pre-repair and post-repair kind through `E.10`, `F.19`, `F.18`, or the subject pattern, and leave the repair blocking if the kind cannot be preserved or explicitly changed by accepted decision. |
 | **Maturity-ceiling stop.** All-`5` is treated as an automatic stop or permanent end of development. | Apply the gain, protected-quality and cost test in §4.3; state the reason for stopping and what could reopen it. |
 | **SoTA citation as self-assignment.** Sources are cited as proof of frontier quality. | State source contributions and re-evaluate the composed result. |
@@ -103147,14 +103147,14 @@ The bias is bounded. One direct evaluation can close without a loop. Repetition 
 
 | Consequence | Benefit | Cost |
 |---|---|---|
-| Repeated improvement follows one explicit improvement method and one current unfolding structure, while each performed pass retains its own dated Work identity and attribution under `CC-E23-4`. | FPF no longer relies on hidden authoring habits or one fictitious enduring loop occurrence. | A complete loop record names its object, evaluation, structure, independently identified Work and result routes, and boundaries. |
+| Repeated improvement follows one explicit improvement method and, when §4.2a is needed, one current unfolding structure, while each performed pass retains its own dated Work identity and attribution under `CC-E23-4`. | FPF no longer relies on hidden authoring habits or one fictitious enduring loop occurrence. | A complete loop record names its object, evaluation, structure, independently identified Work and result routes, and boundaries. |
 | Row discharge is separated from evaluated quality change. | Improvement claims become replayable. | The claim remains inadmissible until the changed object is re-evaluated through a separately identified Work and result. |
 | General and specialized loops are comparable. | BLP can be applied without craft folklore. | Comparison is admitted with explicit cost, risk, and characteristic-space fit. |
 | Exceptional stop remains local. | All-`5` or front-reaching closure no longer freezes future development. | The closure record includes its reopen conditions. |
 
 ### E.23:10 - Rationale
 
-The shared method is simple: select a proposed improvement; perform it; connect any returned value or changed object through its direct relation or A.6.1 binding; then re-evaluate through a separate pass and result. `CC-E23-4` supplies the dated-Work account whenever either performed pass is asserted as Work. Check trade-offs and cost, then stop, continue, switch method, open a new frame, or hold. A.22 carries the guarded alternatives, selected continuation, stop, and returns; when transformation-flow membership is independently current, E.18 and E.18.3 recognize that selected structure rather than a second loop object. Classical improvement cycles, agentic loops, fixed-performer optimization, MCDA, Goodhart, and OEE and NQD lines contribute useful operations and boundaries, but they do not replace this method or turn the cycle into enduring Work or context.
+The shared method is simple: select a proposed improvement; perform it; connect any returned value or changed object through its direct relation or A.6.1 binding; then re-evaluate through a separate pass and result. `CC-E23-4` supplies the dated-Work account whenever either performed pass is asserted as Work. Check trade-offs and cost, then stop, continue, switch method, open a new frame, or hold. When §4.2a is needed, A.22 carries the guarded alternatives, selected continuation, stop, and returns; when transformation-flow membership is independently current, E.18 and E.18.3 recognize that selected structure rather than a second loop object. Classical improvement cycles, agentic loops, fixed-performer optimization, MCDA, Goodhart, and OEE and NQD lines contribute useful operations and boundaries, but they do not replace this method or turn the cycle into enduring Work or context.
 
 ### E.23:11 - SoTA-Echoing
 
@@ -103216,11 +103216,11 @@ The shared method is simple: select a proposed improvement; perform it; connect 
 
 Use this pattern when one named System must become more capable of performing a named Work family and transfer must later be checked in representative Work. The holder can be, for example, a person, team, organization, pair, ensemble, engineering arrangement, operating arrangement, or another collective. In every case, that whole must be independently admitted as the System whose capability is at stake.
 
-**First useful move.** Keep the opening ordinary. Write two short sentences. `Current:` name the holder, named Work family, operating envelope, current measures and evidence, the contribution that currently limits performance, and how long that account remains current. `Target:` name the desired measures or success predicate, representative Work that will test them, intervention and any provider, and trade-offs that must remain protected. Use only values that can change the development decision. If the holder or Work family cannot be named, stop before choosing training, tooling, or another intervention.
+**First useful move.** Keep the opening ordinary. Distinguish the current capability account from the target. `Current:` name the holder, named Work family, operating envelope, current measures and evidence, the contribution that currently limits performance, and how long that account remains current. `Target:` name the desired measures or success predicate, representative Work that will test them, intervention and any provider, and trade-offs that must remain protected. Use only values that can change the development decision. If the holder or Work family cannot be named, stop before choosing training, tooling, or another intervention.
 
 **What goes wrong if missed.** Attendance, an exercise score, a certificate, a published description, or successful provider Work can be mistaken for changed capability. A development programme can then optimize visible activity while the holder still cannot perform the target Work under its real conditions.
 
-**What this buys in practice.** The project develops the capability that matters for named Work, directs effort at a real limitation, protects important conditions, and tests transfer where the capability will be used. It can stay small: use the two-sentence entry.
+**What this buys in practice.** The project develops the capability that matters for named Work, directs effort at a real limitation, protects important conditions, and tests transfer where the capability will be used. It can stay small: use the compact entry.
 
 **Not this pattern when.**
 
@@ -103297,7 +103297,7 @@ Use this branch when deciding how a holder will acquire or obtain a contribution
 
 The first useful result names the admitted holder System, target Work family, current capability baseline, operating envelope, decision-bearing measures and evidence, qualification window or currentness condition, desired measures or success predicate, current limiting contribution, selected intervention and any provider dependency, protected conditions, representative transfer check, and reopen condition. If member distributions or cultural propagation are also current, return their separate assessment or C.36 result. A population can be the capability holder only when that whole is independently admitted as the System.
 
-The exact holder, its qualified `A.2.2` ability claim and the basis for relying on the current baseline must be recoverable. The practitioner-facing result can still remain the two short sentences above plus the evidence used for the baseline and transfer result. Expose record identifiers, a separate `E.22` evaluation frame, or detailed provider and service relations only when a receiving use needs them.
+The exact holder, its qualified `A.2.2` ability claim and the basis for relying on the current baseline must be recoverable. The practitioner-facing result can still remain the short account above plus the evidence used for the baseline and transfer result. Expose record identifiers, a separate `E.22` evaluation frame, or detailed provider and service relations only when a receiving use needs them.
 
 Keep the selected intervention or plan, performed development Work, performed transfer Work, transfer evidence and result, pre- and post-intervention capability statements, a comparison claiming capability change, and any actual Transformation claim separate. A plan remains prospective. For performed Work, recover each exact actual performer through A.13 and let A.15.1 independently admit the occurrence; add F.6 only when the record or receiving use expressly consumes precise assignment-bound attribution. A capability-change comparison needs commensurable measures, envelopes, windows, and current support; it does not by itself say that the development Work caused a world-side change. A causal Transformation claim additionally needs an independently identified `A.3.4` Transformation and a named obtaining Work-to-change predicate or a supported local claim under `A.6.RCD`. Completion of development or transfer Work alone establishes none of these later claims. If the direct relation is missing, retain the Work, evidence, capability statements, and comparison and return that exact blocker.
 
@@ -103339,7 +103339,7 @@ Suppose a trial learner's training signal improves while it still produces the a
 | --- | --- |
 | **Gov** | Favors a declared baseline, target, protected conditions, and reopen rule before money or authority is committed to an intervention. Counter-risk: the result becomes an approval form. Keep only values that can change the development decision; use the separate decision or authorization pattern when that claim is current. |
 | **Arch** | Favors one exact holder boundary and keeps provider Systems, development Work, transfer Work, population assessment, and cultural propagation separate. Counter-risk: one domain architecture is projected onto every holder. Rebuild the domain filling while retaining only the common action spine. |
-| **Onto-Epist** | Favors separation of the holder's actual ability, desired result, plan, performed Work, evidence, capability statements, comparison, and any actual Transformation. Counter-risk: technical names replace ordinary explanation. Keep the two-sentence entry and expose identifiers only when a receiving claim uses them. |
+| **Onto-Epist** | Favors separation of the holder's actual ability, desired result, plan, performed Work, evidence, capability statements, comparison, and any actual Transformation. Counter-risk: technical names replace ordinary explanation. Keep the compact entry and expose identifiers only when a receiving claim uses them. |
 | **Prag** | Favors objective, representative transfer evidence and protected trade-offs over attendance, provider delivery, or self-report alone. Counter-risk: a small development need inherits an expensive programme. Use the smallest representative check that can decide the stated target. |
 | **Did** | Favors a human-team case and an unlike technical-system case so that training language is not mistaken for the universal Method. Counter-risk: readers copy the examples as an intervention menu. Return to the limiting contribution and domain Method account before choosing an intervention. |
 
@@ -103386,7 +103386,7 @@ The comparison below asks which current practice changes the capability-developm
 | Practice line and current source | Contribution, effort, and failure boundary | Decision and receiving loci |
 | --- | --- | --- |
 | Results-led performance improvement | ISPI, *Performance Standards* (current official page checked 2026-08-22), requires focus on results, a systemic view, need and cause analysis, solution design and implementation, and evaluation of impact: `https://www.ispi.international/performance-standards`. This helps prevent training or tooling from being selected before the performance gap and cause are known. Its consulting and organizational framing adds stakeholder-analysis effort and is not a capability ontology for every human, robotic, AI, collective, equipped, or hybrid holder. | **Adapt.** Steps 1–6 and `CC-E23CDI-2` through `CC-E23CDI-4` adopt result-before-intervention, limiting-contribution, systemic-effect, and protected-condition moves. **Reject** a universal consulting workflow or certification form. |
-| Maintained competence management and people development | ISO 10015:2019, confirmed current in 2025, connects organizational competence management and people development to product/service conformity and stakeholder needs: `https://www.iso.org/standard/69459.html`. It gives a useful maintained organizational branch, but its people-development scope neither covers technical holders nor proves transfer in named Work. Maintaining its full management system can dominate a bounded one-holder use. | **Adapt for human and organizational cases.** Steps 2–3 and 8 keep current measures, qualification/currentness, desired result, and refresh. **Reject as the universal CDI Method** and do not require a management system for the two-sentence entry. |
+| Maintained competence management and people development | ISO 10015:2019, confirmed current in 2025, connects organizational competence management and people development to product/service conformity and stakeholder needs: `https://www.iso.org/standard/69459.html`. It gives a useful maintained organizational branch, but its people-development scope neither covers technical holders nor proves transfer in named Work. Maintaining its full management system can dominate a bounded one-holder use. | **Adapt for human and organizational cases.** Steps 2–3 and 8 keep current measures, qualification/currentness, desired result, and refresh. **Reject as the universal CDI Method** and do not require a management system for the compact entry. |
 | Workplace training transfer | *Transfer of workplace e-learning: A systematic literature review* (2025), DOI `10.1016/j.ssaho.2025.101407`, finds no common mature transfer framework in its 31-study corpus, frequent reliance on self-report, and few objective measures; it also distinguishes transfer across task and context dimensions. The evidence is specific to workplace e-learning and does not establish a technical-system or organization-wide capability Method. | **Adapt the measurement warning.** Step 7, both worked cases, and `CC-E23CDI-5` require the declared target in representative Work and do not accept attendance, course completion, or self-report alone. **Reject** the assumption that one training setting transfers automatically to another envelope or window. |
 | Deliberate practice | Nurse et al., *The influence of deliberate practice on skill performance in therapeutic practice: A systematic review of early studies* (2024), DOI `10.1080/10503307.2024.2308159`, reports preliminary support for focused objectives, guidance, feedback, and repeated refinement but limited evidence and little basis for a settled best delivery form. The studies concern discrete therapeutic skills, not every capability holder or Work family. | **Adapt only when the limiting contribution is a refinable skill** and representative feedback is available; this is one possible intervention in step 5. **Reject** deliberate practice, repetition, coaching, or expert guidance as the default CDI architecture. |
 | Organizational dynamic-capability research | *Making sense of dynamic capabilities in international firms: Review, analysis, integration, and extension* (2024), DOI `10.1016/j.ibusrev.2024.102260`, exposes both useful reconfiguration questions and continuing terminology ambiguity across a 98-article international-business corpus. Its strategic constructs can guide an organization-level inquiry, but they do not identify one holder's qualified `A.2.2` ability, measure set, transfer result, or causal relation. The abstraction cost is high for a local development decision. | **Adapt only the changing-environment and reconfiguration cue.** Step 8 reopens the baseline, target, or intervention when the operating environment changes. **Reject** a dynamic-capability label as the holder capability, transfer evidence, or substitute for the direct relations in `CC-E23CDI-6`. |
@@ -103560,7 +103560,7 @@ A cheap reversible probe can support a narrow disposition. A high-stakes capabil
 
 #### E.23.CAE:4.5 - Route without choosing
 
-The first result should fit in six lines:
+Keep the first result compact; one useful shape is:
 
 > **Claim tested:** [holder, Work family, envelope, window].
 > **Controlled contrast:** [reference, changed condition, and what was held fixed].
