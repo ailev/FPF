@@ -3,7 +3,7 @@
 > Find a method for your working question, and see how methods from different fields contribute to one decision.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 4 October 2026
+- **Version:** 6 October 2026
 - **Status:** Eternal alpha: a working reference, revised as the Suite and its applications develop.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -186,7 +186,16 @@ Section addresses use `Engineering.Reference:n` and nested numbers. They identif
   - [Engineering.Reference:25.5 - When source material should change a pattern language](#engineeringreference255---when-source-material-should-change-a-pattern-language)
   - [Engineering.Reference:25.6 - When several management views describe the same work](#engineeringreference256---when-several-management-views-describe-the-same-work)
   - [Engineering.Reference:25.7 - When the case or a relied-on source changes](#engineeringreference257---when-the-case-or-a-relied-on-source-changes)
-- [Engineering.Reference:26 - Citation](#engineeringreference26---citation) — Cite this Reference or a particular pattern application.
+- [Engineering.Reference:26 - Construct a guard, a learning update and an audit policy](#construct-guard-learning-and-audit) — Policy interpretation, executable checks, feedback and action updates, finite audit calculation and actual intervention.
+  - [Engineering.Reference:26.1 - Derive the check that the executor needs](#engineeringreference261---derive-the-check-that-the-executor-needs)
+  - [Engineering.Reference:26.2 - Put the check on the action path and revise it under authority](#engineeringreference262---put-the-check-on-the-action-path-and-revise-it-under-authority)
+  - [Engineering.Reference:26.3 - Prepare experience that can change the intended choice](#engineeringreference263---prepare-experience-that-can-change-the-intended-choice)
+  - [Engineering.Reference:26.4 - Compute the update and use the changed rule](#engineeringreference264---compute-the-update-and-use-the-changed-rule)
+  - [Engineering.Reference:26.5 - Derive an audit policy from the real decision times](#engineeringreference265---derive-an-audit-policy-from-the-real-decision-times)
+  - [Engineering.Reference:26.6 - Recalculate when auditing is fallible](#engineeringreference266---recalculate-when-auditing-is-fallible)
+  - [Engineering.Reference:26.7 - Obtain the measurements and enact the audit](#engineeringreference267---obtain-the-measurements-and-enact-the-audit)
+  - [Engineering.Reference:26.8 - Follow the changed condition to the affected method](#engineeringreference268---follow-the-changed-condition-to-the-affected-method)
+- [Engineering.Reference:27 - Citation](#engineeringreference27---citation) — Cite this Reference or a particular pattern application.
 
 <a id="find-a-starting-pattern"></a>
 
@@ -1965,6 +1974,8 @@ For a different task, recover its own disputed meaning and what a useful return 
 
 ### Engineering.Reference:19.7 - Develop the arrangement across attempts
 
+For an executable permission check, a numerical learning update or a calculated audit allocation, use [section 26](#construct-guard-learning-and-audit). The choices below determine whether the work needs that construction or an already available repair and support.
+
 Continue the service update: obtain the supported change, at most one effect and a report of actual state. Before that operation, the agent must use the applicable interface procedure, including how to look up an unresolved attempt. The optional contribution varied below is **documentation access for that decision**. The execution interface, current-state observations, permissions and required controls remain available in every regime. Removing them would defeat the world-change task rather than isolate this lookup decision.
 
 **Obtain a decision basis.** [SYSE.46](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse46---test-a-tool-using-llm-configuration-in-representative-work) takes qualified earlier traces or constructs matched tests when a consequential gap remains. E supplies the applicable procedure premise in the current input; R leaves one decisive procedure fact only in the reachable authoritative source; T supplies a sufficient premise but also offers irrelevant or stale material. The domain supplies the applicable procedure truth and state/effect predicates. [SYSE.46](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse46---test-a-tool-using-llm-configuration-in-representative-work) records the actual input, call, return, next input, acted continuation, outcome and relevant burden. It does not need hidden reasoning. [SYSE.43](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse43---maintain-external-memory-for-continuing-llm-work) retains the qualified episodes; a single confident success does not estimate the whole task family.
@@ -3272,9 +3283,314 @@ For a change to semantic integration, use [SIE.11](SEMANTIC-INTEGRATION-ENGINEER
 
 Finish the lookup when you have an answer usable for the current decision, or a specific missing contribution that determines the next work. For the Suite's composition and publication availability, return to the [README](README.md#choose-a-dpf).
 
+<a id="construct-guard-learning-and-audit"></a>
+
+## Engineering.Reference:26 - Construct a guard, a learning update and an audit policy
+
+**Use this when an agent's proposed action must be checked, its repeated choices need improvement, or scarce checking effort must be allocated.** A control requirement does not yet supply an executable check. Logged feedback does not yet supply a learning update. A good detector does not yet say which actions to inspect. The constructions below fill these three gaps on one service-configuration example. Enter at the gap you have; obtaining a guard does not require training a model or calculating an audit policy.
+
+The reader is an agent-system engineer who can inspect typed calls and run short Python calculations. The example supplies a local policy, a finite learner and a two-step decision model. For deployment, the engineer still needs the actual authority, authenticated service facts, qualified execution interface and evidence about the receiving task population. The numbers below are stipulated teaching inputs. A calculation or a fixture run establishes its conditional result, not deployed protection or successful training of a language model.
+
+[ADM.14](ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md#adm14---connect-an-administrative-control-to-its-purpose-and-competent-decision) guides recovery of the protected purpose, requirement and competent interpretation; [ADM.8](ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md#adm8---establish-and-exercise-the-required-permission-for-an-administrative-action) guides obtaining and exercising permission. [SYSE.28](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse28---place-qualified-controls-in-a-supported-platform-use-path) explains how to place the resulting check on the real use path. [SYSE.45](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse45---train-an-llm-policy-from-qualified-interaction-experience) and [CMP.7](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/COMPUTATIONAL-THINKING-DPF.md#cmp7---construct-a-learner-from-examples-and-feedback) develop the learner; [SYSE.51](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse51---construct-adaptive-control-of-llm-inference-effort) and [MMP.8.SD](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp8sd---construct-a-sequential-decision-model-from-information-and-consequences) construct an affordable allocation with its future consequences. Their results can support the same execution procedure while retaining different meanings and reasons for change.
+
+### Engineering.Reference:26.1 - Derive the check that the executor needs
+
+Suppose the service owner has granted agent `M` permission `G1` to set `timeout_ms` on staging service `S`, to an integer from 1 through 60000 inclusive, during the interval `10 <= time < 20` on the gateway's stipulated clock. The supported interface is `timeout/ms-v1`; every mutation must name the service revision it expects. Other services, fields and operations are outside this grant. The instruction for the present job is “set the timeout to five seconds.” It requires 5000 milliseconds. A call setting 5 milliseconds can satisfy G1 and still perform the job incorrectly.
+
+First derive the observations needed by the executor's decision. “Staging” must mean the namespace in the owner's registry, rather than a word in the agent's explanation. “Agent M” must mean the principal authenticated by the gateway. “During the interval” must hold when the mutation takes effect. The expected revision must match the same service at that point. If the owner instead meant that only submission must occur before time 20, that changes the rule; the programmer cannot settle this distinction by choosing whichever timestamp is easiest to read.
+
+This yields separate predicates: authenticated principal is M; the proposed service, operation and field are S, `set` and `timeout_ms`; the current service evidence concerns S in staging; the schema is `timeout/ms-v1`; the proposed value is an integer in range; current time is inside the interval; and the current revision equals the proposal's expected revision. The binary admission question has three useful returns: **admit**, **deny for a known mismatch**, and **missing for unavailable required evidence**. The last two both withhold this mutation, but require different remedies. This check does not judge whether 5000 is the correct interpretation of the work request.
+
+Here is a complete predicate evaluator for that supplied policy. Its typed evidence is supplied by a qualified gateway adapter; the evaluator does not authenticate arbitrary caller-supplied dictionaries. `now` and `revision` are integers in this fixture's clock and revision scheme.
+
+```python
+from dataclasses import dataclass
+
+@dataclass(frozen=True)
+class Call:
+    service: str
+    operation: str
+    field: str
+    value: int
+    expected_revision: int
+
+@dataclass(frozen=True)
+class Facts:
+    principal: str | None
+    service: str | None
+    namespace: str | None
+    schema: str | None
+    revision: int | None
+    now: int | None
+
+def guard(a: Call, e: Facts):
+    if any(v is None for v in vars(e).values()):
+        return "missing", "obtain current authenticated facts"
+    if e.service != a.service:
+        return "missing", "evidence concerns another service"
+    if e.principal != "M":
+        return "deny", "principal outside G1"
+    if (a.service, a.operation, a.field) != ("S", "set", "timeout_ms"):
+        return "deny", "action outside G1"
+    if (e.namespace, e.schema) != ("staging", "timeout/ms-v1"):
+        return "deny", "namespace or interface outside G1"
+    if type(a.value) is not int or not 1 <= a.value <= 60000:
+        return "deny", "value outside G1"
+    if type(a.expected_revision) is not int or a.expected_revision != e.revision:
+        return "deny", "revision changed or unspecified"
+    if not 10 <= e.now < 20:
+        return "deny", "outside the effective interval"
+    return "admit", "G1 predicates satisfied for this call and these facts"
+
+proposal = Call("S", "set", "timeout_ms", 5000, 17)
+facts = Facts("M", "S", "staging", "timeout/ms-v1", 17, 12)
+assert guard(proposal, facts)[0] == "admit"
+```
+
+The construction is small enough to write directly. For a larger supplied policy, recover its constructors, names, precedence, defaults and intended observations through [CMP.12](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/COMPUTATIONAL-THINKING-DPF.md#cmp12---construct-an-interpreter-or-a-meaning-preserving-translation). For example, an ordered rule interpreter evaluates each rule against the bound action and facts, uses the first applicable decision, and denies if no rule admits the action. A missing fact needed to decide an earlier rule cannot silently become “rule does not match” so that a later permissive rule wins. Resolve it or return missing. A domain definition or an ordering decision absent from the policy returns to its competent interpreter.
+
+When model assistance is useful, give the generator the interpreted requirement, typed action/evidence interfaces, available trusted queries, expected decisions and counterexamples. Ask for a plan linking each required predicate to its inputs, then executable predicates using only the provided operations. Check the generated program's imports, types, control flow and correspondence with that plan before running it in an isolated fixture. Reject invented evidence queries and self-attested authorization. A code generator can help obtain this evaluator; it does not supply the missing policy meaning or qualify its own result.
+
+This route draws on distinct source constructions. [Progent](https://arxiv.org/html/2504.11703v3) supplies a programmable policy and mediated tool-use arrangement. [GuardAgent](https://arxiv.org/html/2406.09187v3) develops planning and code generation with retrieved examples and executable checking support. Where its retrieval is adopted, retrieve comparable input/output cases with their plans and code; its edit-distance choice is one concrete baseline, not proof of semantic relevance. Compare the relevant examples with a less relevant selection while keeping executable support available. A changed demonstration set and a removed toolbox change different contributions. The direct evaluator above needs neither retrieval nor generated code.
+
+When the receiving work needs an ordered diagnostic category instead of admission, define the category meanings, their ordering and the action each supports before aggregating predicate results. Counting violated predicates does not establish severity, and a low diagnostic category grants no permission. Different binary guards, intent judges and categorical detectors cannot be substituted solely because each is called a verifier.
+
+### Engineering.Reference:26.2 - Put the check on the action path and revise it under authority
+
+Choose a mediation arrangement that actually covers the relevant tools. An embedded library can work when the developer controls the agent runtime and all protected calls. A gateway or endpoint proxy can mediate an existing agent if the execution service accepts protected calls only through that path. In this example choose the gateway: it authenticates the caller, reads the service registry and supported schema through its configured trusted interfaces, and obtains the current revision and clock value. It validates those returns before constructing `Facts`. An unavailable registry or an invalid return becomes missing evidence, not a guessed namespace.
+
+Bind the result to the exact immutable `Call`, G1 edition and service facts used. The gateway submits that same call through an execution operation that atomically checks the expected revision and effective permission conditions before committing. A stale precheck can save work, but the authority window and namespace still have to hold at the actual effect. If the service cannot check them there, supply a qualified lock, lease or other preservation arrangement. Otherwise return the specific platform gap: this check cannot establish the required condition across the intervening change. An `admit` string handed back to an agent is not such an arrangement.
+
+Use [SYSE.47](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse47---construct-and-revise-an-llm-agents-execution-procedure) to construct these continuations. Admission enables the bound mutation, followed by outcome reconciliation under [SYSE.42](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse42---execute-a-proposed-llm-tool-call-and-use-its-result). Denial returns the specific mismatch to the actor or competent decision maker. Missing evidence calls the appropriate trusted source when that acquisition is permitted and affordable; an unavailable source leaves the mutation held. A malformed detector result likewise provides no admission. A revised proposal starts a fresh check. A rejected correction never falls back to executing the original unapproved proposal. If the actor has already halted and cannot consume a correction, a designated recovery performer must obtain and submit the continuation; feedback alone does not restart it.
+
+The following cases exercise different dependencies. Keep the task's value requirement separate from G1's permitted range.
+
+| Case | Obtained check and actual continuation |
+| --- | --- |
+| S, 5000 ms, authenticated M, staging, schema v1, revision 17, time 12 | Admit this bound call; the gateway's at-use check permits the mutation. Reconcile that S is actually at 5000 ms. |
+| Same call, value 70000 | Deny the range violation. Return a revised job or authorized policy decision; do not clamp the value silently. |
+| Same call, registry unavailable | Missing. Obtain the registry fact or return that gap; no protected mutation follows. |
+| Same call for S, facts belonging to service T | Missing subject-bound evidence. Fetch S's facts; T's valid state cannot qualify S. |
+| Check at revision 17, service changes to 18 before use | The conditional mutation refuses the old revision. Obtain current state and reconsider the intended change. |
+| Check at time 19, effect would occur at 20 | At-use admission fails. A new window needs its competent grant; the earlier pass has expired. |
+| Schema changes from millisecond v1 to second v2 | The old evaluator denies its out-of-scope interface. Obtain its meaning and construct the affected translation and check. |
+| S, 5 ms, all G1 conditions satisfied | Admission is correct for G1; the job is wrong. Repair interpretation or action selection, as in section 26.3. |
+
+When several agents act for one user with the same delegated rights, one shared boundary can suffice if the grant really covers their actions. Agents acting for different users or with different privileges need principal-specific decisions. Calling them one team cannot confer the broadest member's rights on everyone.
+
+Finally, distinguish repairing a mistranslated rule from changing what the rule admits. Suppose the old policy allows `(S, set timeout)` and `(S, restart)`, while a proposed new policy allows only `(P, set timeout)` on production service P. The new set is smaller, but it adds an action outside the old set. Compute the newly admitted set `new_allowed - old_allowed`; its non-emptiness exposes the expansion. Return that addition to the production authority even if removing staging permissions is locally permitted. More generally compare admitted action sets, not rule counts: changed intervals, ranges and predicates can expand them. An authorized amendment then requires interpretation, evaluator qualification and at-use installation for the changed meaning. Better evidence about an existing case does not itself amend the grant.
+
+### Engineering.Reference:26.3 - Prepare experience that can change the intended choice
+
+The job family is setting staging timeouts from requests that state an integer duration from 1 through 60 seconds, or the corresponding milliseconds. These values fit G1. The worked failure is a five-second request producing 5 ms. First compare fixing a deterministic parser/converter, supplying the missing interface meaning, improving the controller, and learning an interpretation rule. If a reliable converter already answers the actual request form, use it. Training is an alternative when a recurrent choice remains, not a prerequisite for executing a known conversion. [Section 19.7](#agent-development-across-attempts) develops that whole-arrangement decision.
+
+For the numerical learning example, deliberately restrict the missing choice. The prepared input contains an integer duration, an explicit unit and the available target schema. For known seconds under schema v1, the learner chooses among three program templates: A multiplies the duration by 1000; B leaves it unchanged; C asks for an already supplied unit. A is the desired choice for the specified task family. Direct millisecond requests and unknown-unit requests use separately supplied handling; the experiment does not teach arbitrary language interpretation. This finite learner exposes a real feedback-to-action update without pretending to reproduce a language-model training run.
+
+Construct the experience with [SYSE.49](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse49---construct-informative-tasks-and-feedback-environments-for-llm-work). Prepare a resettable staging-service fixture with the same relevant schema, subject identity and effect semantics. For each request preserve what was visible before the proposal, the raw proposed call, guard observations, actual execution or non-execution, observed successor and independent task verdict. Reset before comparing alternative actions; a successor from another action or another revision is not interchangeable.
+
+For “five seconds,” execute A and B separately in the authorized fixture: the resulting timeouts are 5000 and 5. Both pass the range guard, but the independently interpreted task target is 5000. Assign task reward 1 to A and 0 to B. C obtains no completed change and receives 0 for this fully specified case. For a request with no recoverable unit, asking is instead the useful action; copying C's zero reward into that case would train the wrong behavior. A teacher's corrected A call must obtain A's own qualified successor, or be retained explicitly as an action label without a claimed observed consequence.
+
+A cached success receipt from an earlier 5000-ms change does not show the consequence of the present 5-ms proposal. Reuse a cached response as an observed successor only when its subject, action, initial state and environmental conditions support that equivalence. Otherwise obtain the new result or retain the response as a labeled model prediction. The arithmetic conversion target can remain valid while a claimed current service state is unsupported.
+
+Two blocked proposals demonstrate why successful guarded traces are insufficient learning evidence:
+
+| Observation | Useful evidence and warranted repair |
+| --- | --- |
+| The actor proposes changing production P, which G1 does not admit. | The raw proposal and policy comparison support a permission-violation label. There is no observed live effect of the blocked call. A separately authorized fixture may show its simulated consequence; record that scope. Preserve the live guard while changing the actor's proposal choice. |
+| The actor correctly proposes 5000 ms, but an obsolete guard implements a maximum of 1000 despite the supplied G1 maximum of 60000. | Comparison with the interpreted requirement identifies a false rejection. Correct and requalify the guard. Labeling the proposal as task failure because execution was blocked would reward the wrong repair. The refused run alone provides no actual successor. |
+
+Retain these observations separately from post-guard successes. A low observed failure rate after controls says something about the controlled arrangement. It does not establish that the raw actor learned the constraint. If counterfactual feedback is needed, obtain a qualified model or a permitted experiment and preserve its conditions; removing the required live guard does not follow from the learning need.
+
+### Engineering.Reference:26.4 - Compute the update and use the changed rule
+
+Represent the finite learner by three logits, initially zero. Softmax therefore chooses A, B and C with probability 1/3 each. Consider one sampled group containing one instance of each choice under the same prepared seconds request. Such a group is possible under the old policy; the example conditions on this realized group rather than asserting every draw contains it. Rewards are `(1, 0, 0)`. Their mean is 1/3 and population standard deviation is `sqrt(2)/3`. Normalizing by that deviation yields advantages `(sqrt(2), -1/sqrt(2), -1/sqrt(2))`.
+
+This calculation uses a group-relative first update without reference-policy regularization. At the old policy, the importance ratio is 1 and clipping is inactive. For a mean objective over the three sampled actions, the gradient for logit j is `sum_i advantage_i * (indicator(i=j) - p_j) / 3`. Since these advantages sum to zero, it equals `advantage_j / 3`. A gradient-ascent step of size 0.3 gives logits approximately `(0.141421, -0.070711, -0.070711)` and probabilities `(0.382012, 0.308994, 0.308994)`.
+
+The following code computes the step and consumes the result. A fixed draw of 0.35, chosen only to expose a changed selection, previously selected B and now selects A. The resulting proposal changes from 5 to 5000 ms. A live executor must still apply the guard and reconcile the effect.
+
+```python
+from math import exp, sqrt
+
+def softmax(z):
+    weights = [exp(v - max(z)) for v in z]
+    return [w / sum(weights) for w in weights]
+
+def first_group_step(rewards, rate=0.3):
+    # This fixture has one old-policy sample of each of the three actions.
+    mean = sum(rewards) / 3
+    sd = sqrt(sum((r - mean) ** 2 for r in rewards) / 3)
+    if sd == 0:
+        return [0.0, 0.0, 0.0]  # No contrast in this group's feedback.
+    advantages = [(r - mean) / sd for r in rewards]
+    old = [1 / 3] * 3
+    gradient = [sum(advantages[i] * ((i == j) - old[j])
+                    for i in range(3)) / 3 for j in range(3)]
+    return [rate * g for g in gradient]
+
+def select(p, draw):
+    cumulative = 0.0
+    for i, probability in enumerate(p):
+        cumulative += probability
+        if draw < cumulative:
+            return i
+    return len(p) - 1
+
+def propose_seconds(duration, action):
+    return (1000 * duration, duration, "ask for unit")[action]
+
+before = softmax([0.0] * 3)
+after = softmax(first_group_step([1, 0, 0]))
+assert propose_seconds(5, select(before, 0.35)) == 5
+assert propose_seconds(5, select(after, 0.35)) == 5000
+assert first_group_step([1, 1, 1]) == [0.0] * 3
+print([round(p, 6) for p in after])
+```
+
+This is an obtained update and one changed action of the finite selector. It raises A's probability by about 0.048679 under the given representation; it does not make A certain. The selected draw is a demonstration of consumption, not an evaluation sample. Under a reversed reward `(0, 1, 0)`, the same arithmetic favors the wrong conversion. Under a format-only reward `(1, 1, 1)`, all choices are equally well formed and there is no relative update. More identical groups cannot repair that missing distinction. Diagnose the target and feedback before increasing compute.
+
+[ToolRL](https://papers.nips.cc/paper_files/paper/2025/file/97c5b2707228e7e3fb67e4ecc2e0e607-Paper-Conference.pdf) develops structured format/correctness rewards, group normalization and clipped policy optimization for tool calls. The finite construction above adopts that distinction and explicitly specializes the first gradient step; it is not its complete algorithm. For further updates, retain the rollout policy and its action probabilities, recompute current-to-rollout probability ratios, apply the selected clipping rule, and resample when that recipe requires it. Do not repeat this first-step gradient as if every later ratio remained 1. A numerical implementation also needs its stated zero-variance convention, token/action aggregation and trainable parameters. For a language model, use the selected trainer's actual masking, tokenizer, optimizer and rollout implementation through SYSE.45; that implementation is an additional supplier.
+
+Reward design and regularization are different choices. ToolRL removes the reference-policy KL term and compares that choice with keeping it; its observations concern its tested setup. To compare the alternatives in a receiving implementation, keep the task feedback, rollout preparation and assessment cases fixed, then vary the stated reference, coefficient and regularization rule. Observe retained useful behavior and complete training effort as well as task success. Removing the term does not remove runtime permission or imply that every previously useful behavior survives.
+
+Test further use on held-out values and request forms, including explicit milliseconds, absent units, changed service identities and previously useful refusal behavior. Split related templates and trajectories together when their dependence would leak the answer. Keep assessment cases out of reward and policy selection; after using a failure to revise the learner, obtain an appropriate new assessment basis. Compare the trained configuration with the deterministic converter and supplied-support configuration, including preparation, annotation, training, retries and execution costs. An improvement in the sampled objective alone cannot settle this comparison.
+
+If the interface changes to seconds in schema v2, the old multiply-by-1000 template is wrong for that output. Repair the target-schema translation and the affected learning examples or parameter branch; continue asking when the input unit is unavailable and retain principal, service and permission checks. If only the input value changes from five to twelve seconds under v1, A's same operation produces 12000 ms without a new unit rule. These changes expose different dependencies.
+
+Here the retained logit update is the finite learner's training result. An update within the current task can instead serve episode adaptation; state whether its learned state resets at the next task or carries across tasks, and assess that choice under its actual conditions. Adding a fact or a teacher's instruction to the next context supplies support. Grammar restriction controls the possible output language. Each can improve a run, but a successful supported or constrained run is not by itself evidence of durable learning.
+
+### Engineering.Reference:26.5 - Derive an audit policy from the real decision times
+
+Now suppose the hard permission guard is in place, while some permitted-looking configurations may still violate the intended job. An additional auditor can inspect the proposal and task before execution. Checking every action may exceed the available effort. The question is how to allocate that additional audit, while the mandatory permission check remains in force for every mutation.
+
+For the fixed five-second request, comparing the proposed value with 5000 is a cheap complete task check; use it on every call. The allocation question becomes useful when the receiving work requires a more costly correctness judgment whose full application exceeds the budget. The simple values below let the fixture expose that controller's effects; they are not a reason to replace the available equality check with probabilistic auditing.
+
+Before using monitor scores, obtain a decision model with the actual order of proposal, score, audit and effect. [MMP.8.SD](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp8sd---construct-a-sequential-decision-model-from-information-and-consequences) supplies that construction; [SYSE.51](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse51---construct-adaptive-control-of-llm-inference-effort) retains necessary completion resources. The following small model makes the calculation reproducible:
+
+- Two proposals arrive sequentially. Each can be held for its audit, but proposal 1 must be decided before proposal 2 arrives. There is budget for at most one audit, with reserved means to complete the selected audit and report its result.
+- The attacker selects exactly one of the two positions for a bad proposal before the run. It cannot observe the controller's private random draw or change the stipulated score laws. The other proposal is legitimate. An undetected bad proposal causes the protected failure immediately when executed; detection stops it and ends this deployment attempt.
+- The monitor returns H or L before the corresponding action. Its stipulated laws are `P(H | bad)=0.8` and `P(H | legitimate)=0.2`. They are conditional discrimination values, not an attack prevalence. Scores are independent between positions given their types, and the laws stay fixed under this policy.
+- Initially the auditor detects every bad proposal it audits and never rejects a legitimate one. Auditing occurs before the effect. Its cost is one budget unit; scoring and ordinary execution have separately provisioned costs. With two legitimate proposals, a useful attempt must complete both correctly.
+- The supplied decision criterion is to minimize the maximum failure probability over the attacker's two fixed positions, subject to the one-audit budget. Whether that residual risk is acceptable is a separate owner decision. If this model does not fit the intended use, obtain the missing model before using its policy.
+
+Let x be the probability of auditing proposal 1 when its score is H, and y the probability when it is L. If the audit remains unused, audit proposal 2. This last-step use weakly improves the protection objective under the stated no-false-rejection and provisioned-cost conditions: no later opportunity needs the reserve. If proposal 1 is audited and found legitimate, no audit remains for proposal 2. There is no access to proposal 2's future score at the first decision.
+
+If the attack is first, it escapes with probability `f1 = 1 - 0.8*x - 0.2*y`. If the attack is second, the single audit was wasted on the legitimate first proposal with probability `f2 = 0.2*x + 0.8*y`; otherwise the second proposal is audited and caught. Minimize `max(f1, f2)` for `0 <= x,y <= 1`. The solution is `x=1, y=0`, giving worst-case failure 0.2. A score-blind allocation of the one audit equally between the positions gives 0.5. No audit gives 1 in this conditional attack model. Auditing both gives 0 but requires budget 2.
+
+The solution can be recovered without a general optimizer. Each failure expression is affine, so their maximum is piecewise affine on the unit square. Its minimum occurs at a corner, at an intersection of `f1=f2` with a square edge, or along a flat region reaching such a boundary. Evaluate those finite candidates. Equivalently here, equality gives `x+y=1`; along that line the risk decreases as x increases, reaching 0.2 at `(1,0)`.
+
+### Engineering.Reference:26.6 - Recalculate when auditing is fallible
+
+Change one assumption: the auditor detects a bad proposal with probability 0.9 given H and 0.5 given L. It still has no false rejection in this constructed case. Conditional detection probabilities do not change with audit selection; private randomization uses only the current score. The expected detection probability of auditing a bad proposal regardless of score is `0.8*0.9 + 0.2*0.5 = 0.82`.
+
+If the attack is first, failure is now `f1 = 1 - 0.72*x - 0.10*y`. If it is second, the audit remains with probability `1 - 0.2*x - 0.8*y`, so `f2 = 1 - 0.82*(1 - 0.2*x - 0.8*y) = 0.18 + 0.164*x + 0.656*y`. Auditing the second proposal no longer guarantees detection. The old proof and its zero-risk full-audit comparator therefore no longer apply.
+
+The same finite computation gives `x=205/221`, approximately 0.927602, and `y=0`. Worst-case failure is `367/1105`, approximately 0.332127. Keeping the former `(1,0)` policy gives 0.344. A score-blind equal split gives 0.59. Auditing both gives 0.18, because the bad proposal is certainly audited but sometimes missed. These are conditional model calculations, not measured deployment rates.
+
+This standalone calculation enumerates the necessary candidates with exact rational arithmetic. A triple `(c,a,b)` denotes the affine function `c+a*x+b*y`.
+
+```python
+from fractions import Fraction as F
+
+def affine(coefficients, x, y):
+    c, a, b = coefficients
+    return c + a*x + b*y
+
+def best_one_audit(first, second):
+    points = {(F(x), F(y)) for x in (0, 1) for y in (0, 1)}
+    c, a, b = [u-v for u, v in zip(first, second)]
+    for x in (F(0), F(1)):
+        if b:
+            y = -(c+a*x)/b
+            if 0 <= y <= 1:
+                points.add((x, y))
+    for y in (F(0), F(1)):
+        if a:
+            x = -(c+b*y)/a
+            if 0 <= x <= 1:
+                points.add((x, y))
+    return min((max(affine(first, x, y), affine(second, x, y)), x, y)
+               for x, y in points)
+
+perfect = ((F(1), -F(4,5), -F(1,5)),
+           (F(0), F(1,5), F(4,5)))
+fallible = ((F(1), -F(18,25), -F(1,10)),
+            (F(9,50), F(41,250), F(82,125)))
+assert best_one_audit(*perfect) == (F(1,5), F(1), F(0))
+assert best_one_audit(*fallible) == (F(367,1105), F(205,221), F(0))
+print(best_one_audit(*perfect))
+print(best_one_audit(*fallible))
+```
+
+Suppose the owner had required worst-case conditional failure no greater than 0.25. The ideal-auditor construction met it; the best fallible one-audit policy does not. The improved choice 0.927602 is still inadequate for that requirement. Auditing both reaches 0.18 in this model, but exceeds the given budget. Return the actual conflict: obtain a better qualified auditor, provision the extra audit, change the work arrangement, or obtain a competent revision of the requirement. Repeatedly optimizing the same one-audit model cannot produce a feasible policy below its derived minimum.
+
+### Engineering.Reference:26.7 - Obtain the measurements and enact the audit
+
+The calculation supplies a policy only after its observation and consequence premises are warranted for the intended use. Build matched legitimate/bad proposal cases for the selected task family, with independent task judgments and controlled action semantics. For the timeout case, 5000 ms and 5 ms can be paired under the same five-second request. Keep cases outside G1 distinct from permitted-but-wrong cases; the latter are the additional auditor's question. Generate and execute adverse cases only in an appropriately permitted fixture. Preserve the original proposal, task, rule interpretation and actual result so that the label can be challenged.
+
+On cases reserved for calibration, obtain monitor scores without supplying the intended label in the monitor input. Count H among bad cases and H among legitimate cases separately. To qualify the fallible audit law, audit a suitable sample in both H and L groups, including cases that the proposed allocation would ordinarily skip; otherwise observed detection can inherit its selection bias. Counts such as 80 H scores among 100 bad cases estimate one conditional discrimination rate. They do not establish an exact 0.8 law, its uncertainty, or the rate of attacks in ordinary work. Carry sampling uncertainty and task differences into sensitivity calculations or return the insufficient basis. Establish the intended-use claim through [SYSE.46](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse46---test-a-tool-using-llm-configuration-in-representative-work).
+
+[The Control Tax](https://proceedings.iclr.cc/paper_files/paper/2026/file/c8c352e9ff2c3eb8511c6a996cbd77b1-Paper-Conference.pdf) connects measured monitoring behavior to a specified auditing game and discusses the control cost. Its program-pair construction uses accepted original/adversarial programs and monitor distributions; its Appendix K transfer obtains new scores on selected existing agentic trajectories. Such a transfer supplies measurements on those traces, not a performed deployment of the calculated policy. For a new service domain, obtain its relevant paired cases or traces and test the corresponding measurement assumptions. A wider nominal score scale does not necessarily improve discrimination. Another concrete monitor variant combines a separate fresh-context correctness judgment with suspiciousness; compare its gains with the additional inference work. Neither a benchmark's name nor its overall accuracy supplies the two conditional laws used above.
+
+Implement the selected policy where it can affect the proposed mutation. Maintain the proposal index, remaining audit budget, applicable policy/calibration edition and the exact held proposal. After the hard guard admits that proposal, obtain its qualified score. At position 1, use the supplied probability for H or L and an appropriate private random draw. If selected, debit the audit request, keep the mutation held and send the bound proposal, task and needed evidence to the auditor. A detection stops the protected attempt. A qualified clear result permits that same proposal to proceed through the gateway's at-use checks. If no audit is selected, the separately authorized risk-bearing continuation proceeds through those same hard checks. At position 2, use any remaining audit; when it was spent on position 1, no second audit is available under this policy.
+
+The following fixture consumes that decision in an executable controller. It uses `Call`, `Facts` and `guard` from section 26.1. Each proposal concerns a fresh service instance with the supplied revision; the fixed target is 5000 ms. The fixture's effect list represents committed values. Its environment ends the attempt on a wrong committed value, as the decision model assumes. That model outcome is not extra information available to the earlier allocation decision. The fixture's final facts are supplied before each simulated atomic commit; production needs the qualified at-use operation described in section 26.2.
+
+```python
+def audit_fixture(calls, scores, answers, final_facts, draw, x=1.0, y=0.0):
+    remaining, effects, audit_count = 1, [], 0
+    for i, call in enumerate(calls):
+        if guard(call, facts)[0] != "admit":
+            return effects, audit_count, "initial guard holds"
+        if scores[i] not in ("H", "L"):
+            return effects, audit_count, "missing score"
+        selected = remaining and (i == 1 or draw < (x if scores[i] == "H" else y))
+        if selected:
+            remaining -= 1
+            audit_count += 1
+            if answers[i] == "detected":
+                return effects, audit_count, "stopped before effect"
+            if answers[i] != "clear":
+                return effects, audit_count, "missing audit result"
+        if guard(call, final_facts[i])[0] != "admit":
+            return effects, audit_count, "at-use guard holds"
+        effects.append(call.value)  # The fixture commits only here.
+        if call.value != 5000:       # The modeled environment's failure transition.
+            return effects, audit_count, "protected failure"
+    return effects, audit_count, "complete"
+
+good = Call("S", "set", "timeout_ms", 5000, 17)
+bad = Call("S", "set", "timeout_ms", 5, 17)
+current = [facts, facts]
+assert audit_fixture([bad, good], ["H", "L"], ["detected", "clear"],
+                     current, 0.4) == ([], 1, "stopped before effect")
+assert audit_fixture([good, bad], ["H", "H"], ["clear", "detected"],
+                     current, 0.4) == ([5000, 5], 1, "protected failure")
+assert audit_fixture([good, bad], ["L", "H"], ["clear", "detected"],
+                     current, 0.4) == ([5000], 1, "stopped before effect")
+assert audit_fixture([good, good], ["L", "H"], ["clear", "clear"],
+                     current, 0.4) == ([5000, 5000], 1, "complete")
+```
+
+In the second assertion, a perfect auditor could detect the second defect, but the first audit has consumed the budget. Its unused second answer is never read. In the third, reserving the audit prevents the second effect. These executions show that the allocation changes the controller's intervention; they do not validate the stipulated score or auditor laws.
+
+An unavailable auditor, malformed result or missing score is outside the successful-observation model. Hold the affected mutation and obtain a qualified alternative or return the missing contribution and its cost; do not turn “unknown” into “clear.” A timeout consumes the reserved attempt according to the supplied resource account; a retry needs real provision. Replacing the proposal after an audit invalidates that audit's binding and requires the affected checks again. Auditing after an irreversible effect cannot serve as the pre-effect intervention assumed in the calculation.
+
+Trace at least these receiving cases: H at the first proposal with detection; H with a clear first audit and an unaudited second proposal; L first with a reserved second audit; and a proposal or governing condition changed while held. Confirm both the budget and the actual prevention or allowed execution. Also run two legitimate proposals through the arrangement and check completion, delay and false rejection. The stipulated zero-false-rejection assumption leaves these costs absent from the small risk formula, not absent from engineering responsibility.
+
+Include preparation, scoring, auditor work, adjudication, held work, retries and outcome reconciliation in the whole-use comparison. If both proposals become available before either decision, a batch policy can use information that the sequential rule lacked; derive its comparison anew. If the attacker adapts after observing audits, the score laws change under the policy, the horizon grows, or legitimate actions can be falsely rejected, reconstruct those branches and consequences through MMP.8.SD. A reusable trajectory score and an optimal policy under one model can remain valid at their scopes while the new deployment claim fails.
+
+### Engineering.Reference:26.8 - Follow the changed condition to the affected method
+
+The connections are practical. A new owner requirement changes the predicate meaning and may require permission for a wider admitted set. A changed interface changes translation, evaluator applicability and learning targets. A false guard rejection changes the checker and the labels available for development. A corrected learner changes proposals, but leaves required authority and execution checks in force. A changed monitor or auditor changes the allocation model; it can also change which cases become observable for later learning.
+
+Return only as far as the failed dependence requires. The exact 5-to-5000 conversion can remain useful while a registry is unavailable. A valid authority grant can remain while its evaluator is defective. An executable evaluator can remain while the intended job has no unambiguous unit. A better allocation calculation can remain mathematically correct while no policy meets the owner's risk and resource requirements. Each return identifies the next needed contribution without discarding the rest of the usable arrangement.
+
 <a id="citation"></a>
 
-## Engineering.Reference:26 - Citation
+<a id="engineeringreference26---citation"></a>
+
+## Engineering.Reference:27 - Citation
 
 ```text
 Levenchuk, Anatoly. Engineering DPF Suite Reference.
