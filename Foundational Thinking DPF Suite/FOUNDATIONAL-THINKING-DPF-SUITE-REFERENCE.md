@@ -3,7 +3,7 @@
 > Find the mathematical, physical, computational, modeling or notational contribution your question needs, and understand how the contributions work together.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Date:** 2 October 2026
+- **Date:** 6 October 2026
 - **Status:** Eternal alpha. This edition gives working entries through all five member DPFs and FPF, with their methods, conditions and connections.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
 - **Suite:** [Purpose, membership and edition rules](./)
@@ -34,6 +34,7 @@ Section addresses use `Foundational.Reference:n` and nested numbers. They identi
     - [Foundational.Reference:3.10.3 - Change the representation and retain useful alternatives](#foundationalreference3103---change-the-representation-and-retain-useful-alternatives)
     - [Foundational.Reference:3.10.4 - Develop the way that learns or obtains a result](#foundationalreference3104---develop-the-way-that-learns-or-obtains-a-result)
     - [Foundational.Reference:3.10.5 - Make interacting and continuing behavior work as a whole](#foundationalreference3105---make-interacting-and-continuing-behavior-work-as-a-whole)
+      - [Foundational.Reference:3.10.5.1 - Route contributions by current needs and offers](#route-contributions-by-current-needs-and-offers)
     - [Foundational.Reference:3.10.6 - Use human or generated contributions in the receiving operation](#foundationalreference3106---use-human-or-generated-contributions-in-the-receiving-operation)
     - [Foundational.Reference:3.10.7 - Distinguish useful behavior from an explanation of its origin](#foundationalreference3107---distinguish-useful-behavior-from-an-explanation-of-its-origin)
     - [Foundational.Reference:3.10.8 - Count the whole cost and return a usable result](#foundationalreference3108---count-the-whole-cost-and-return-a-usable-result)
@@ -281,7 +282,7 @@ A proposed faster constituent goes through [B.1.5.RS](https://github.com/ailev/F
 
 Use this connection when you can try a proposed way of acting but cannot yet obtain the behavior the work needs. A walking controller may succeed on its training terrain and fail elsewhere. A learned procedure may work only after inheriting earlier training. An interacting group may lose the behavior its members showed separately. The useful result is an acting construction with a justified next use, or an identified contribution still needed to obtain it. A sufficient existing controller, direct calculation or affordable finite comparison can already provide that result.
 
-[FPF C.40:4.1–4.4 and :4.7](../FPF-Spec.md) explains the general connection between changing a way, actually applying it, examining what that application obtains and choosing further development. [CMP.7](COMPUTATIONAL-THINKING-DPF.md#cmp7---construct-a-learner-from-examples-and-feedback) constructs a learner from the information its feedback supplies; its finite examples can suffice without neural search. [MMP.8.SD](MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp8sd---construct-a-sequential-decision-model-from-information-and-consequences) helps formulate which observations can influence an action and which consequences matter later. The application below joins these contributions to neural representation, trials and change. It assumes a reader who can understand a parameterized policy and implement or obtain its execution. Use a specialist source or contributor for an unfamiliar algorithm; the particular contribution to request is identified at each return.
+[FPF C.40:4.1–4.4 and :4.7](../FPF-Spec.md) explains the general connection between changing a way, actually applying it, examining what that application obtains and choosing further development. [CMP.7](COMPUTATIONAL-THINKING-DPF.md#cmp7---construct-a-learner-from-examples-and-feedback) constructs a learner from the information its feedback supplies; its finite examples can suffice without neural search. [MMP.8.SD](MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp8sd---construct-a-sequential-decision-model-from-information-and-consequences) helps formulate which observations can influence an action and which consequences matter later. The applications below use these contributions to obtain and revise acting constructions; the worked cases include neural controllers and message routing. It assumes a reader who can understand a parameterized policy and implement or obtain its execution. Use a specialist source or contributor for an unfamiliar algorithm; the particular contribution to request is identified at each return.
 
 <a id="obtain-a-controller-through-a-complete-small-search"></a>
 
@@ -354,6 +355,71 @@ A local update rule offers another whole: initialize a cellular state, repeatedl
 Body changes can invalidate acquired skills. The [ESP extension](https://nn.cs.utexas.edu/downloads/papers/lessin.alife14.pdf) gives a concrete construction: change morphology together with a new body-affecting skill, re-evaluate the protected older skills, reject excessive losses, then hold the selected morphology fixed while older controllers adapt to it. Its prescribed syllabus and skill interfaces supply the dependencies; further skill composition uses the resulting body. This can obtain a new capability while retaining needed earlier ones, at the cost of those repeated trials. [Chapter 9](https://neuroevolutionbook.com/ne_book.html#pfff) opens related questions about reachable further development, coupled environments and solutions, and changes of organization. A richer successor or a finite recovery result supports its tested continuation; it does not establish unlimited innovation.
 
 For continued discovery, inspect what a retained basis can actually develop into. Try a feasible further change, obtain its quality and difference, and use those results to decide which basis merits continuation. Preserving current behavior and preserving future possibilities can lead to different choices. C.40:4.11/.12 explains that general return; the neural encoding, body, challenge generator or interaction supplies the particular possibilities. If an adequate current result serves the work, continued discovery can remain a separate purpose.
+
+
+<a id="route-contributions-by-current-needs-and-offers"></a>
+
+##### Foundational.Reference:3.10.5.1 - Route contributions by current needs and offers
+
+Use this construction when participants' information needs change during a task and a fixed communication arrangement repeatedly supplies irrelevant material or misses a needed contribution. It produces directed routes for the next exchange and an observation of whether the delivered contribution advances the work. A known stable supplier can be addressed directly. Routing is useful only when its resulting work justifies producing descriptors, computing matches and inspecting the messages.
+
+[DyTopo v1, §3 and Algorithm 1](https://arxiv.org/abs/2602.06039v1) supplies the particular need/offer construction. Workers produce outputs and descriptors under a round goal; matching directs provider-to-consumer messages into the next round. The source has incompatible descriptions of message ordering. The illustration below chooses descending relevance for each recipient, with provider name breaking ties, and a barrier before next-round delivery. That choice makes this example determinate; it is not a resolution of the source's ambiguity.
+
+**Prepare descriptions of a contribution that can be used.** The planner A already has demand 10 for product A, site N and period W, but needs available stock at S1. Its need should say that, rather than “help with planning.” Stock provider B's offer describes its present output: available stock 7 pieces for the same scope, with an identified observation. Forecast provider C offers demand 10 for W. Describing what an agent hopes to obtain as if it were already supplied would make the next step route a promise.
+
+Use a common embedding function for the need and offer descriptions, then normalize each nonzero vector to length one. Obtain that function from a suitable computational provider and check whether its matches preserve the distinctions that change this work. The function and descriptions are inputs to examine, not a guarantee that semantic proximity denotes an available, true or relevant result. A missing descriptor or unusable vector returns to its preparation.
+
+**Construct the incoming edges.** For consumer i's normalized need q and another participant j's normalized offer k, compute their dot product. Retain the directed edge j → i when that cosine similarity is strictly greater than the selected threshold; omit self-links. For several consumers repeat this operation with each current need. The following executable illustration receives vectors; it does not generate the descriptions or embeddings.
+
+```python
+from math import fsum, isfinite, sqrt
+
+def unit_vector(values):
+    v = tuple(float(x) for x in values)
+    if not v or not all(isfinite(x) for x in v):
+        raise ValueError("obtain a finite nonempty descriptor vector")
+    length = sqrt(fsum(x * x for x in v))
+    if not isfinite(length) or length == 0:
+        raise ValueError("obtain a finite nonzero descriptor vector")
+    return tuple(x / length for x in v)
+
+def incoming_routes(consumer, need, offers, threshold=0.7):
+    if not isfinite(threshold) or not -1 <= threshold <= 1:
+        raise ValueError("select a cosine threshold in [-1, 1]")
+    q = unit_vector(need)
+    selected = []
+    for provider, offer in offers.items():
+        if provider == consumer:
+            continue
+        k = unit_vector(offer)
+        if len(q) != len(k):
+            raise ValueError("use the same embedding space")
+        score = max(-1.0, min(1.0, fsum(a * b for a, b in zip(q, k))))
+        if score > threshold:
+            selected.append((score, provider))
+    selected.sort(key=lambda item: (-item[0], item[1]))
+    return [(provider, consumer) for score, provider in selected]
+
+offers = {"B": (0.8, 0.6), "C": (0.6, 0.8)}
+edges = incoming_routes("A", (1, 0), offers)
+# [("B", "A")]
+```
+
+These stipulated two-dimensional vectors make the construction inspectable. They are not measured embeddings of the example sentences. Scores 0.8 and 0.6 at threshold 0.7 select B alone. A smaller threshold could admit both. Each additional message needs a receiving check; inspect whether its contribution is useful. No universal threshold follows from this example or the paper.
+
+**Deliver, then consume.** Freeze the workers' outputs for round r. After all workers finish, place the selected messages in each recipient's round-r+1 inbox in the selected order. A message generated in r cannot depend on reading another newly generated r message under this convention. Cycles in the route graph therefore do not require finding a same-round topological execution order. If same-round dependency is actually required, construct that different interaction under [CMP.14](COMPUTATIONAL-THINKING-DPF.md) rather than silently changing this timing.
+
+In the example, B's message reports available stock 7 for the requested scope. A checks its interpretation, source basis and applicability, then consumes 7 in `max(0, 10 - 7)` and proposes 3. [Engineering.Reference:27](../Engineering%20DPF%20Suite/ENGINEERING-DPF-SUITE-REFERENCE.md#construct-and-reuse-an-exchange) supplies a complete envelope, interpretation and consuming function, including a change from available stock to gross stock. Routing ends at an eligible edge; this receiving use determines whether the edge delivered a useful contribution.
+
+Inspect the actual returned value and its use before treating a round as successful. If B sends gross stock 12 under a different description, return to the changed interpretation. If it has no stock observation, obtain that observation or another supplier. If it sends a valid 7 but A calculates with its earlier assumption of 12, repair consumption. These failures require different changes even though every selected message arrived.
+
+**Change the need without discarding valid work.** A has now obtained usable stock but needs a revised demand for the same period. Prepare the new round's outputs and their need/offer descriptions before matching again. In this finite illustration the new need is (0,1), while the two stipulated offer vectors stay fixed to isolate that change. B and C score 0.6 and 0.8, so the next round selects C. Suppose C returns a qualified demand of 12; while the stock observation remains applicable, A uses `max(0, 12 - 7)` and changes the proposal to 5. Preserve the stock contribution and reopen it only if its snapshot, scope or other grounds have ceased to fit.
+
+If neither offer crosses the threshold, the next result is an unresolved need. Clarify the description, ask a known capable provider, obtain a missing input or revise the plan. Lowering the threshold can change the candidate set, but cannot create the missing observation. Conversely, a high-scoring irrelevant offer calls for checking the descriptors or the matching function; its score cannot qualify its contents.
+
+**Develop the routing choice across attempts.** Compare the constructed arrangement with a direct request or fixed route on the same required results and stopping conditions. Include descriptors, embeddings, all pairwise matches, messages, receiving checks and any repair in the burden. Test a changed need and an attractive but unusable offer as well as a successful match. If changing the threshold or matching function produces a better complete result, retain that executable choice and its use conditions through :3.10's development method. Changing routes during one task does not by itself train the workers' models or demonstrate that a person acquired their Method.
+
+The manager may choose another round only while a useful unresolved contribution can still be obtained within the permitted effort. A declared round cap bounds the attempt; reaching it with a missing input returns that missing input. An asserted completion or a denser graph supplies no independent evidence that the receiving calculation used a justified result.
 
 <a id="use-human-or-generated-contributions-in-the-receiving-operation"></a>
 
