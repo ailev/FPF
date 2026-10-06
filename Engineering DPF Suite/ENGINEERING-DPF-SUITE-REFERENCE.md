@@ -2216,7 +2216,7 @@ The current sets are derived from those judgements, not from the displayed order
 | Window and judgement sources | Enabled set | Disabled set | Unknown set | Stop, return and recheck |
 | --- | --- | --- | --- | --- |
 | W0: J0-C/O/R | Continue | Obtain, Repair | Empty | Display Continue. Actual execution needs its own qualified conditions and authority. Recheck changed procedure, target, combined performance or effect state. |
-| W1: J1-C/O/R | Obtain | Continue, Repair | Empty | Display Q as available. After a qualified return, rejudge applicability and Continue's other current conditions. Recheck Q's access, permission or timing if they change. |
+| W1: J1-C/O/R | Obtain | Continue, Repair | Empty | Display Obtain (enact Q) as available. After a qualified return, rejudge applicability and Continue's other current conditions. Recheck Q's access, permission or timing if they change. |
 | W2: J2-C/O/R | Repair | Obtain | Continue | Return source availability to its provider and applicability to its authoritative source. Repair remains possible but supplies no missing current fact by itself. |
 | W3: J3-C/O/R | Repair | Continue, Obtain | Empty | Return the failed combined condition to its engineering owner; retain the independently available repair exercise. Recheck c only from a changed arrangement or applicable evidence. |
 
@@ -2239,7 +2239,7 @@ This separate demonstrative episteme teaches one contrast about **G**, the exact
 
 | Read the same structure under two case inputs | What changes | What remains |
 | --- | --- | --- |
-| **Initial W0:** the possessed procedure applies and the other execution conditions are supplied. | Continue is enabled; there is no missing applicability contribution to obtain. | Q still seeks N, R still targets K, and both remain potential continuations under their constraints. |
+| **Initial W0:** the possessed procedure applies and the other execution conditions are supplied. | Continue is enabled; there is no missing applicability contribution to obtain. | Q still seeks N and R still targets K; Obtain and Repair remain potential continuations under their constraints. |
 | **Changed edition W1:** the old applicability premise is defeated; Q is reachable, permitted, useful and timely. | Continue becomes disabled and Obtain enabled. The reason is the changed case evidence, not a new controller or structure. | The required task, descriptive relations and constraints retain their meanings. |
 
 The displayed comparison is not an instruction to execute Continue and then Obtain. It compares availability under two supplied conditions. A successful acquisition would supply a new case fact; only a new judgement could enable Continue, and the actual target action would still need its own execution and observation.
