@@ -1,6 +1,6 @@
 # Maintenance Engineering and Management Principles Framework
 
-Anatoly Levenchuk · Release: 20 September 2026
+Anatoly Levenchuk · Release: 7 October 2026
 
 Original framework content © 2026 Anatoly Levenchuk, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Third-party sources retain their own terms.
 
@@ -343,6 +343,31 @@ Compare alternatives using the receiving use's relevant values: loss of service,
 
 State the chosen policy in actionable terms. Name the applicable population or configuration, task, trigger or interval basis, relevant support assumptions, response to an out-of-scope condition and the evidence or changed use that would reopen it. Where an operative requirement fixes a task, preserve its current force. A separate merits appraisal may support a request to the authorized rule holder; it does not authorize unilateral relaxation.
 
+#### MNT.2:4.1 - Turn a task family into a usable policy
+
+Use an adequate existing task and trigger directly. When they are unsettled, construct candidate rules at the resolution needed for the decision. Specify what observation, age, usage or opportunity starts the response, when that information becomes available, what action follows and what functioning is expected afterwards. A condition-based candidate includes its observation schedule and response; a scheduled replacement includes what happens if failure occurs first.
+
+Apply each candidate to the same supported failure and operating account. Follow the relevant histories from functioning through degradation, discovery and response to the resulting state. Include a failure before the planned task and the condition after imperfect repair where those branches matter. Use [MNT.3](#mnt3---establish-degradation-and-failure-evidence-for-maintenance)'s failure account and [MNT.4](#mnt4---monitor-and-interpret-system-condition-for-maintenance)'s condition account; obtain an applicable equipment-specific model when projection needs further transition or task-effect evidence. If a consequence needed for the comparison cannot be supported, return that missing contribution rather than assign the desired effect to the task.
+
+Derive the consequences of those histories over a common horizon. Count functioning obtained, losses before detection or restoration, repeated task demand and support constraints. Weight possible histories only where the probability basis supports it; otherwise compare the supported bounds or scenarios. Keep binding requirements and unacceptable consequences visible when comparing burden. Use [C.11](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11---decision-theory-decsn-cal) with the resulting alternatives and comparison basis to select a policy, retain several alternatives or return the unsettled choice.
+
+For a condition-based candidate, place detection and response on one time basis. Let `W` be a supported lower bound on the warning from the proposed detectable condition to unacceptable functioning under the intended duty. Let `I` bound the wait to the next observation and `L` bound the elapsed time for subsequent interpretation, support, access and intervention, including the selected uncertainty allowance. Where that bounded timing model applies, test `I + L <= W`. Derive elapsed `L` from actual sequencing and available overlap through [MNT.5](#mnt5---prepare-maintenance-service-capability-spares-tools-and-authority) and MNT.7. Shorter sampling, an earlier detectable trigger or prepared support are different candidate changes; each needs its own measurement or feasibility basis. A timing fit still needs adequate detection and an effective response.
+
+For a hidden protective function, relate the test interval to the period during which the failed function could remain undiscovered and the consequences of a demand during that period. The test's coverage, any exposure it creates and the relevant failure-and-demand account determine whether the interval is acceptable. Continuing normal production supplies no observation of that protective function.
+
+#### MNT.2:4.2 - Compare recurring age-replacement costs when that model fits
+
+Suppose replacement restores the component to an as-new state, successive lifetimes `X` are independent with the same distribution, intervention duration is negligible, expected cycle duration is positive and finite, and costs cover the relevant consequences. For replacement at age `a` or earlier failure, derive the two possible endings from the lifetime model, counting a failure at age `a` as corrective:
+
+- the cycle's operating duration is `min(X,a)`;
+- corrective cost `Cc` applies when `X <= a`, and planned cost `Cp` otherwise.
+
+The long-run cost per operating-time unit is
+
+`g(a) = [Cc * P(X <= a) + Cp * P(X > a)] / E[min(X,a)]`.
+
+Compare feasible ages, including continued operation to failure where admissible. This calculation includes how often replacement recurs. Use another model when downtime, imperfect restoration, changing duty or coupled components invalidate these assumptions; a finite service horizon also needs its own end condition. See [Arts and colleagues, §2.2.1](https://orbilu.uni.lu/bitstream/10993/61558/1/1-s2.0-S0377221724005241-main.pdf) for the renewal-reward basis and its limits.
+
 ### MNT.2:5 - Archetypal Grounding
 
 For PS17, the constructed condition history supports a bearing-related deterioration concern. The team retains a condition-informed policy for this failure family because the interpreted signal can support a planned response in the stated use. The present recommendation still depends on actual support and access; an alarm alone does not establish that replacement can fit the next outage.
@@ -352,6 +377,20 @@ Consider instead a cheap, accessible indicator lamp whose failure is obvious and
 The same choice is unsuitable for an otherwise unobserved protective trip function. Normal production can continue while that function has failed. A suitable failure-finding task addresses that detection problem; an operator's observation that “the line still runs” does not. The applicable specialist basis determines the test and interval.
 
 In the 48-pump fleet example, the operating exposures differ, and policy selection is not randomized. Four failures versus six do not by themselves justify replacing the policy. Retain the current policy when its existing failure-and-response basis remains adequate; address the known spare-support deficiency on its own existing evidence. Failure to prove a better rival does not establish that the current policy is adequate.
+
+#### MNT.2:5.1 - Construct an age rule from a failure model
+
+In a separate constructed comparison, a replaceable component lasts 6 or 10 operating-time units, each with probability one half. Replacements meet the assumptions in section 4.2. The three available candidates are replacement at age 4, at age 8, or at failure. All are admissible for this use. Planned replacement costs 2 units and corrective replacement costs 10, including the case's failure consequences.
+
+At age 4 every cycle ends with planned replacement: cost per operating-time unit is `2/4 = 0.5`. At age 8, half the cycles fail at 6 and half reach planned replacement at 8: expected cost is `0.5*10 + 0.5*2 = 6`, expected duration is `0.5*6 + 0.5*8 = 7`, and the rate is `6/7`, approximately 0.857. At failure the rate is `10/[0.5*6 + 0.5*10] = 1.25`. Age 4 is preferred among these three candidates on the declared cost criterion; this comparison has not searched all possible ages.
+
+Now change only corrective cost to 3. The rates become `0.5`, `2.5/7`, approximately 0.357, and `3/8 = 0.375`. Age 8 becomes preferred. The failure model and task family remain unchanged; the consequence change reopens the interval choice.
+
+#### MNT.2:5.2 - Construct a condition-response timing candidate
+
+In another constructed case, the supported warning bound `W` is 8 hours and the subsequent response demand `L`, including its uncertainty allowance, is 5 hours. Observation every 4 hours gives a bound of `4 + 5 = 9` hours and cannot meet that warning. Every 2 hours gives `2 + 5 = 7`, so it passes this timing comparison. The remaining choice includes the burden of more frequent observation and the alternative of reducing response demand.
+
+If support delay raises `L` to 6.5 hours, the two-hour candidate no longer fits: `2 + 6.5 = 8.5`. Reconsider sampling, support or another admissible policy. The failure threshold has not moved, and the old timing result supplies no permission to extend use. These quantities illustrate construction from a supplied equipment model; they are not operating limits.
 
 ### MNT.2:6 - Bias-Annotation
 
@@ -425,6 +464,8 @@ Build the smallest useful causal account. Connect the required function to the o
 | Measurement or operating-context change | A discontinuity matching sensor, speed or load change | Comparable measurement conditions and instrument information. |
 
 These are example hypotheses, not a diagnostic rule for all pumps. Include a different mechanism when the actual evidence makes it consequential.
+
+If you need to construct a causal account for the maintenance question or work out what could distinguish explanations that imply different responses, use [C.28.CM - Construct and Challenge a Causal Model](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28cm---construct-and-challenge-a-causal-model). Its [measurement-and-device case](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28cm52---construct-the-measurement-and-device-mechanisms-separately) shows how two mechanisms can explain one reading yet imply different responses. Carry this maintenance question, competing mechanisms and observation conditions into that construction. Return with the consequences each account predicts, the observation that could distinguish them or the precise premise that prevents that comparison. Use an adequate existing diagnosis directly.
 
 Distinguish what is supported, what remains plausible and what is contradicted. Do not turn a possibility into a cause by placing it in a fault-tree box. Where several explanations support the same immediate recommendation, return that recommendation's evidential basis and leave the stronger causal claim unresolved. Where the alternatives require different actions, identify the smallest attainable observation that could discriminate them.
 
