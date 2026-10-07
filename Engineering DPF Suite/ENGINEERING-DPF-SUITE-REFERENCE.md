@@ -194,6 +194,8 @@ Section addresses use `Engineering.Reference:n` and nested numbers. They identif
   - [Engineering.Reference:26.4 - Compute the update and use the changed rule](#engineeringreference264---compute-the-update-and-use-the-changed-rule)
     - [Engineering.Reference:26.4.1 - Learn from interleaved actions and observations](#learn-from-interleaved-actions-and-observations)
     - [Engineering.Reference:26.4.2 - Allocate training attempts and select the update](#allocate-training-attempts-and-select-the-update)
+    - [Engineering.Reference:26.4.3 - Learn a strategy together with its execution](#learn-a-strategy-together-with-its-execution)
+    - [Engineering.Reference:26.4.4 - Learn actions whose value persists across sessions](#learn-actions-whose-value-persists-across-sessions)
   - [Engineering.Reference:26.5 - Derive an audit policy from the real decision times](#engineeringreference265---derive-an-audit-policy-from-the-real-decision-times)
   - [Engineering.Reference:26.6 - Recalculate when auditing is fallible](#engineeringreference266---recalculate-when-auditing-is-fallible)
   - [Engineering.Reference:26.7 - Obtain the measurements and enact the audit](#engineeringreference267---obtain-the-measurements-and-enact-the-audit)
@@ -3347,7 +3349,7 @@ Finish the lookup when you have an answer usable for the current decision, or a 
 
 ## Engineering.Reference:26 - Construct a guard, a learning update and an audit policy
 
-**Use this when an agent's proposed action must be checked, its repeated choices need improvement, or scarce checking effort must be allocated.** A control requirement does not yet supply an executable check. Logged feedback does not yet supply a learning update. A good detector does not yet say which actions to inspect. The constructions below fill these three gaps on a service-configuration example; section 26.4.1 extends the learning construction to decisions separated by tool observations, and 26.4.2 connects a training-attempt budget to the resulting update. Enter at the gap you have; obtaining a guard does not require training a model or calculating an audit policy.
+**Use this when an agent's proposed action must be checked, its repeated choices need improvement, or scarce checking effort must be allocated.** A control requirement does not yet supply an executable check. Logged feedback does not yet supply a learning update. A good detector does not yet say which actions to inspect. The constructions below fill these three gaps on a service-configuration example. The learning applications address decisions separated by tool observations (26.4.1), allocation of training attempts (26.4.2), strategy and conditional execution (26.4.3), and consequences retained across sessions (26.4.4). Enter at the gap you have; obtaining a guard does not require training a model or calculating an audit policy.
 
 The reader is an agent-system engineer who can inspect typed calls and run short Python calculations. The example supplies a local policy, a finite learner and a two-step decision model. For deployment, the engineer still needs the actual authority, authenticated service facts, qualified execution interface and evidence about the receiving task population. The numbers below are stipulated teaching inputs. A calculation or a fixture run establishes its conditional result, not deployed protection or successful training of a language model.
 
@@ -3887,6 +3889,292 @@ For two response means 0.2 and 0.8 nats at temperature one, negligible stabilize
 Compare complete configurations on separate task instances and account for shared-prefix dependence when splitting data. Hold the task, reward meaning, available tools and assessment procedure fixed when testing a sampler, modulation or backward change; vary those interventions separately before attributing a gain to one. Count pilot generation, probability extraction, failed attempts, training and later execution. Include successful alternatives and older required behavior, and keep a recoverable baseline. When repeated adaptive comparison has consumed the assessment cases, obtain a suitable new assessment basis. Revert or repair the relevant operation if it costs more without improving the required result or loses previously useful behavior.
 
 This application concerns collecting training experience and changing a specified policy. SYSE.51 governs later allocation of inference effort; SYSE.50 needs its own qualified basis for deciding assistance. The measured token or response entropy here does not establish either an agent's need for help or how much Method structure it can acquire. Those questions retain their performer, representation, support and learning conditions. Use the present construction when its measured input and intervention fit the work, and follow those other contributions when the object being changed is different.
+
+<a id="learn-a-strategy-together-with-its-execution"></a>
+
+#### Engineering.Reference:26.4.3 - Learn a strategy together with its execution
+
+Use this application when an agent first chooses a way of solving a task and then makes decisions within that way. A promising strategy can initially be executed poorly. Rewarding only the average observed outcome may discard it; rewarding its best outcomes may instead favor luck. The engineer needs to decide what the strategy score estimates, learn the conditional execution, and examine the resulting complete policy.
+
+The construction requires a policy that exposes a generated strategy, repeatable task starts, qualified outcome feedback, selected-action probabilities and access to update the policy. If the agent has only one undivided output, [26.4.1](#learn-from-interleaved-actions-and-observations) supplies the outcome update without requiring a new plan variable. A known adequate controller can also settle the task without training.
+
+[StraTA v2, §§3–4](https://arxiv.org/pdf/2605.06642v2) supplies the particular combination used here: generate several natural-language strategies from the initial task, keep each strategy fixed during its executions, compare strategies across that task, compare actions within each strategy, and train both. The plan is an input to execution. If observations require changing it during an episode, obtain a revision operation through [SYSE.47](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse47---construct-and-revise-an-agents-execution-procedure); the fixed-plan construction does not perform that revision.
+
+##### Choose what the strategy score is meant to improve
+
+Begin with the later use. If deployment makes one attempt, its expected return includes the execution policy actually available then. If deployment selects the best of several attempts, retain those attempts, selection facilities and costs in the comparison. Training can use an optimistic score to explore a strategy whose execution may improve, while the receiving assessment still measures ordinary single-use performance.
+
+For each task, generate N strategy decisions. For each sampled strategy, reset the task and execute M continuations under the same frozen old policy. Retain the generated strategy once, the M execution histories, their outcomes and their old action probabilities. A shared strategy followed by M continuations is one sampled strategy with M conditional executions. Resetting must restore the relevant environment as well as context; a repeated mutation against a live service is not such a reset.
+
+Select the strategy statistic. The mean over all M outcomes estimates performance under the sampled execution arrangement. StraTA instead averages the best K outcomes to emphasize promising execution. Declare an integer `1 <= K <= M`. If K is derived from a fraction, specify rounding and reject an empty selection: [StraTA's implementation](https://github.com/xxyQwQ/StraTA/tree/592238b7dfd6fb51566cbd631be9c97b6fa34915) uses `int(delta*M)`, which can select zero outcomes.
+
+The top-K statistic combines execution opportunity, uncontrolled variation and selection over attempts. To interpret a favorable tail as something the learner can acquire, obtain a discriminating intervention or a qualified consequence model. [MMP.8.SD:4.2–4.4](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp8sd42---construct-how-an-action-changes-the-world-and-the-available-information) compares actions with their available continuations. [C.40:4.7](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c4047---develop-a-way-by-what-its-use-produces) requires performing allowed inner learning before crediting a candidate with the result it would produce after that learning. Specify that learning procedure and allowance, execute it, then compare its later policy. Declaring a better future action probability supplies no such learning.
+
+##### Construct the two learning comparisons
+
+Let `R_ij` be execution j's reward under strategy i, and `B_i` its chosen strategy statistic. Standardize the N values B to obtain strategy advantages `A_strategy_i`. Separately standardize the M rewards within each strategy to obtain `A_action_ij`. This application uses population standard deviations and zero advantages when dispersion is at most `1e-12`. A group with no variation supplies no relative preference; obtain discriminating experience when that missing preference matters.
+
+For each recorded decision, divide its current probability by its fixed old probability, conditional on the same history. The strategy history contains the initial task. An execution history also contains its fixed strategy and any observations already received. Future outcomes enter the learning signal after execution, not the earlier decision input. Use the observation mask and historical conditioning of 26.4.1.
+
+The finite construction below has one generated strategy position and one action position. Its complete surrogate is:
+
+```text
+f(r, A) = min(r*A, clip(r, 0.8, 1.2)*A)
+J = mean_over_N_strategies[f(strategy_ratio, A_strategy)]
+  + mean_over_N_strategies[
+      mean_over_M_executions[f(action_ratio, A_action)]
+    ]
+```
+
+Maximize J, keeping the two groupings intact. Their coefficients are both 1 here, with no reference-policy penalty. For a token implementation of this application, replace each strategy term by the mean of f over that strategy's generated tokens, and each execution term by the mean over all its generated action tokens. External observations condition later tokens and contribute no optimized position. This explicitly chosen reduction gives each strategy and each of its completed executions the stated weight. The source trainer's per-step, token-sum reduction is a different choice when lengths vary; select one implementation and carry its actual weighting into the comparison.
+
+##### Generate attempts, update and use the result
+
+Consider two supplied strategies P and Q, each admitting actions a and b. In the qualified deterministic fixture, P,a returns 1, P,b returns 0, and either Q action returns 0.4. Three independent logits determine `p=Pr(P)`, `s=Pr(a|P)` and `t=Pr(a|Q)`. All start at zero, so the probabilities are 0.5. The choices and their meanings are supplied capabilities; the learner changes how often it selects them.
+
+The code uses declared draws to generate P and Q once each and four executions per strategy. Those draws make the finite calculation reproducible; they are not a random-sample performance assessment. With K=2, P's outcomes `(1,0,0,0)` give strategy score 0.5 and Q's `(0.4,0.4,0.4,0.4)` give 0.4. Strategy advantages are `(+1,-1)`. P's action advantages are `(sqrt(3),-1/sqrt(3),-1/sqrt(3),-1/sqrt(3))`; Q's are zero.
+
+```python
+from math import exp, sqrt
+
+def sigmoid(z):
+    return 1 / (1 + exp(-z))
+
+def standardize(xs):
+    mean = sum(xs) / len(xs)
+    sd = sqrt(sum((x - mean)**2 for x in xs) / len(xs))
+    return [(x - mean) / sd for x in xs] if sd > 1e-12 else [0.0] * len(xs)
+
+def outcome(plan, action):
+    return float(action == "a") if plan == "P" else 0.4
+
+old_z = [0.0, 0.0, 0.0]
+old = [sigmoid(z) for z in old_z]
+task = "one P/Q task with the supplied action meanings"
+groups = []
+for draw in (0.2, 0.8):
+    plan_bit = int(draw < old[0])
+    plan = "P" if plan_bit else "Q"
+    slot = 1 if plan_bit else 2
+    group = {"bit": plan_bit, "history": task, "slot": slot,
+             "old": old[0] if plan_bit else 1 - old[0], "runs": []}
+    for action_draw in (0.1, 0.7, 0.8, 0.9):
+        bit = int(action_draw < old[slot])
+        action = "a" if bit else "b"
+        group["runs"].append({
+            "history": (task, plan), "bit": bit, "action": action,
+            "old": old[slot] if bit else 1 - old[slot],
+            "reward": outcome(plan, action)})
+    groups.append(group)
+
+K = 2
+assert all(1 <= K <= len(g["runs"]) for g in groups)
+scores = [sum(sorted((r["reward"] for r in g["runs"]), reverse=True)[:K]) / K
+          for g in groups]
+plan_advantages = standardize(scores)
+for g in groups:
+    g["advantages"] = standardize([r["reward"] for r in g["runs"]])
+
+def term(probability, bit, old_selected, advantage):
+    selected = probability if bit else 1 - probability
+    ratio = selected / old_selected
+    value = min(ratio * advantage, min(1.2, max(0.8, ratio)) * advantage)
+    saturated = ((advantage > 0 and ratio > 1.2)
+                 or (advantage < 0 and ratio < 0.8))
+    derivative = 0.0 if saturated else ratio * advantage * (bit - probability)
+    return value, derivative
+
+def objective_and_gradient(zs):
+    ps = [sigmoid(z) for z in zs]
+    total, gradient = 0.0, [0.0, 0.0, 0.0]
+    for g, advantage in zip(groups, plan_advantages):
+        value, derivative = term(ps[0], g["bit"], g["old"], advantage)
+        total += value / len(groups)
+        gradient[0] += derivative / len(groups)
+        for record, action_advantage in zip(g["runs"], g["advantages"]):
+            value, derivative = term(ps[g["slot"]], record["bit"],
+                                     record["old"], action_advantage)
+            weight = 1 / (len(groups) * len(g["runs"]))
+            total += weight * value
+            gradient[g["slot"]] += weight * derivative
+    return total, gradient
+
+_, gradient = objective_and_gradient(old_z)
+new_z = [z + 0.3 * g for z, g in zip(old_z, gradient)]
+new = [sigmoid(z) for z in new_z]
+
+def use(ps, draws):
+    plan = "P" if draws[0] < ps[0] else "Q"
+    slot = 1 if plan == "P" else 2
+    action = "a" if draws[1] < ps[slot] else "b"
+    return plan, action, outcome(plan, action)
+
+def expected_return(ps):
+    return ps[0] * ps[1] + (1 - ps[0]) * 0.4
+
+assert use(old, (0.52, 0.51)) == ("Q", "b", 0.4)
+assert use(new, (0.52, 0.51)) == ("P", "a", 1.0)
+assert standardize([0.4] * 4) == [0.0] * 4
+print(gradient)
+print(new, expected_return(old), expected_return(new))
+```
+
+The gradient is `(0.5,sqrt(3)/8,0)`. One ascent step of 0.3 gives `(p,s,t)=(0.5374298453,0.5162322701,0.5)`. The complete policy's expected single-use return under the supplied model increases from 0.45 to 0.4624666909. The later run uses both the changed strategy probability and the changed conditional action probability. The known deterministic table also permits directly choosing P,a; the example teaches the learning construction rather than establishing a need to learn this table.
+
+This run consumes two strategy generations and eight task executions before the two displayed later executions. A language-model trial must also budget generated tokens, resets, feedback and any selected judges. [26.4.2](#allocate-training-attempts-and-select-the-update) makes that allocation explicit. Embedding-based strategy selection or a self-judge adds its own computation and qualification; neither facility is needed by this finite version. Continue training with the actual current-to-old ratios and chosen clipping rule, refreshing rollout policy and experience when required by the recipe.
+
+##### Change the inference when success is not controllable
+
+Now suppose qualified environment evidence says that P succeeds with probability 0.25 independently of a or b, while Q still returns 0.4. The same eight observations remain possible. The top-half update remains numerically the same, but single-use expected return is now `U=0.4-0.15*p`: it falls from 0.325 to 0.3193855232. Changing P's action distribution cannot raise its success probability under this model.
+
+For this changed task, compare strategy values 0.25 and 0.4. At the old equal mixture, their credits are −0.075 and +0.075. A plan-only expected-credit update has gradient −0.0375 for the plan logit; a separate first step of 0.3 gives `p=0.4971875297` and `U=0.3254218706`. These figures describe an alternative update from the original policy. They do not follow the preceding top-half step. Averaging all four recorded outcomes would also favor Q here, but observations from one small group alone cannot establish either consequence model.
+
+If controllability is unresolved, keep the optimistic score as an exploration choice with a bounded cost, obtain discriminating evidence when worthwhile, and assess the resulting learner on the intended later use. Retain the uncertainty if the available experiment cannot distinguish the models. An improved execution after an actual learning intervention, repeated under suitable task conditions, can support a learnability claim that a maximum observed reward cannot.
+
+For a shared language model, strategy and execution updates can interfere through shared parameters even though the loss has separate groups. Compare the complete trained policy, older useful behavior and resource cost through SYSE.45:4.4. Reopen the affected construction when the plan stops matching current observations, the outcome checker rewards a proxy, or the later work changes from one attempt to best-of-many selection.
+
+
+<a id="learn-actions-whose-value-persists-across-sessions"></a>
+
+#### Engineering.Reference:26.4.4 - Learn actions whose value persists across sessions
+
+Use this application when a present action costs effort but changes information that the agent can use after the current session ends. Consulting an expert may lose on today's reward and save later work; an obsolete or incorrect retained answer can cause later failures. To train that choice, include the continuation made possible by the resulting memory.
+
+The immediate target here is a policy parameter controlling whether to consult. The consultation supplies an answer, a memory operation retains it, and a later controller uses it when applicable. [SYSE.50](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse50---construct-and-calibrate-an-agents-assistance-policy) qualifies the help and its availability; [SYSE.43](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse43---maintain-external-memory-for-continuing-work) supplies retained information and its further use. Parameter learning uses SYSE.45 and CMP.7. Keeping a new answer in memory can change performance with unchanged weights; train only when that additional intervention is warranted.
+
+##### Obtain continuation credit at the session boundary
+
+Select the horizon and reward meaning through MMP.8.SD. A session boundary may clear working context while retaining memory. Save the information needed to continue: memory contents and applicability, the next-session information already available, remaining resources and horizon. Two identical text memories can have different values when one has more opportunities for use or a different validity condition. Reset only what the intended later arrangement actually resets.
+
+Freeze an old policy. Collect complete multi-session attempts with actual actions, observations, memory transitions and task rewards. From each relevant boundary state, obtain the old policy's remaining return: execute continuations from a saved state when resets are possible, evaluate a qualified transition model, or fit a value estimator to observed state/return-to-go pairs. Include the cost of obtaining these values. A changed query population or unavailable reset can require another estimator or a narrower conclusion.
+
+For an undiscounted finite horizon, the session signal used by [AGILE, NeurIPS 2024, Appendix A](https://proceedings.neurips.cc/paper_files/paper/2024/file/097c514162ea7126d40671d23e12f51b-Paper-Conference.pdf) has the form:
+
+```text
+session_signal = observed_session_reward
+               + V_old(after_state) - V_old(before_state)
+```
+
+Here `V_old(state)` is expected remaining reward under the frozen old continuation, and terminal value is zero. The after-state includes the memory actually produced. Subtracting the before-value compares the session with the old policy from the same starting condition. Estimate and freeze these quantities for the selected update. Approximation error can reverse a small advantage; examine whether the estimated difference is adequate for the intended reliance.
+
+Partition the collected attempts into sessions with those boundary states. Supply the signal to the generated decisions in the session, preserving their historical inputs and old probabilities. Use a specified update, such as the clipped generated-position mean in [26.4.1](#learn-from-interleaved-actions-and-observations), then recollect experience or refit values as the selected training procedure requires. Sessions remain related through retained state; cutting the transcript into pieces does not make their observations independent. If a discounted criterion is chosen, derive the boundary discount for the elapsed duration instead of reusing the undiscounted equation unchanged.
+
+##### Execute continuations, obtain a first update and retain its result
+
+The finite fixture has two sessions. In either, the supplied self-answering operation succeeds with probability 0.75. Consulting in the first session obtains a correct answer at cost 0.3 and stores a verified entry. Only this action writes memory. After context reset, the second question is related with probability 0.4. A fixed controller uses the stored answer if related; otherwise it self-answers. There are no other costs or discounts. The learned logit controls only the first consultation probability, initially 0.5; answer generation, retrieval and applicability recognition are supplied operations.
+
+The code obtains future values by executing a declared population of twenty continuations from each of two boundary states: empty memory and retained verified entry. Eight questions are related and twelve are new. Each block of four supplied self-answering outcomes has three successes. The resulting continuation means are 0.75 and 0.85. All repetitions of each boundary state have the same future law in this fixture, so one set of twenty continuations can supply that state's estimate. These forty executed continuations are additional training work; reusing their estimates creates no extra independent observations.
+
+```python
+from math import exp
+
+def sigmoid(z):
+    return 1 / (1 + exp(-z))
+
+def first_session(consult, self_draw):
+    # The fixture's expert is correct; only consultation stores its answer.
+    memory = {"related": "verified answer"} if consult else {}
+    reward = 0.7 if consult else float(self_draw < 0.75)
+    return reward, {"memory": memory, "context": (), "remaining": 1}
+
+def continue_session(state, query, self_draw):
+    assert state["context"] == () and state["remaining"] == 1
+    if query in state["memory"]:
+        return 1.0
+    return float(self_draw < 0.75)
+
+def construct_update(related_count):
+    assert 0 <= related_count <= 20 and related_count % 4 == 0
+    self_draws = (0.1, 0.3, 0.6, 0.9)
+    future_cases = [
+        ("related" if i < related_count else "new", self_draws[i % 4])
+        for i in range(20)]
+    records = []
+    for i, action_draw in enumerate((0.1, 0.2, 0.3, 0.4, 0.6, 0.7, 0.8, 0.9)):
+        bit = int(action_draw < 0.5)
+        reward, after = first_session(bool(bit), self_draws[i % 4])
+        records.append({
+            "history": ("first question", "empty memory", "two sessions left"),
+            "bit": bit, "old_probability": 0.5, "reward": reward, "after": after})
+    # These two state classes are equivalent within each class in this fixture.
+    after_states = {r["bit"]: r["after"] for r in records}
+    values = {
+        bit: sum(continue_session(state, query, draw)
+                 for query, draw in future_cases) / len(future_cases)
+        for bit, state in after_states.items()}
+    targets = [r["reward"] + values[r["bit"]] for r in records]
+    before_value = sum(targets) / len(targets)
+    signals = [target - before_value for target in targets]
+    # One initial ascent step at the unchanged rollout policy; ratios equal 1.
+    gradient = sum(a * (r["bit"] - 0.5)
+                   for a, r in zip(signals, records)) / len(records)
+    probability = sigmoid(0.3 * gradient)
+    return probability, gradient, values, before_value, records
+
+new_probability, gradient, values, baseline, records = construct_update(8)
+assert abs(values[0] - 0.75) < 1e-12
+assert abs(values[1] - 0.85) < 1e-12
+assert abs(baseline - 1.525) < 1e-12
+assert abs(gradient - 0.0125) < 1e-12
+
+def use(probability, action_draw, future_query_draw, self_draws):
+    consult = action_draw < probability
+    first_reward, after = first_session(consult, self_draws[0])
+    query = "related" if future_query_draw < 0.4 else "new"
+    second_reward = continue_session(after, query, self_draws[1])
+    return consult, bool(after["memory"]), first_reward + second_reward
+
+assert use(0.5, 0.5005, 0.2, (0.9, 0.9)) == (False, False, 0.0)
+assert use(new_probability, 0.5005, 0.2, (0.9, 0.9)) == (True, True, 1.7)
+without_recurrence = construct_update(0)
+assert abs(without_recurrence[1] + 0.0125) < 1e-12
+print(new_probability, gradient, values, baseline)
+print(without_recurrence[:4])
+```
+
+The eight first-session records contain four consultations and four self-answers. Their mean immediate rewards are 0.7 and 0.75. Adding the estimated continuation yields conditional total values 1.55 and 1.5; their equal old mixture is 1.525. The code's centering uses that balanced fixture's empirical mixture. It illustrates a finite estimator and update; for sampled training data, select and qualify value and baseline estimation with the trainer rather than inferring an unbiased estimate from this balanced example.
+
+The gradient 0.0125 changes the consultation probability to 0.5009374989. Under the stated law, expected two-session return changes from 1.525 to 1.5250468749. The displayed later runs deliberately choose draws near the changed decision boundary to expose the changed action and subsequent use of retained memory. They estimate no empirical improvement rate. The initial training run uses eight first sessions, including four consultations, and forty future continuations; the two later runs add four sessions and one consultation. The separate no-recurrence construction repeats those 48 training sessions under its changed condition.
+
+The updated probability persists into the later run; context clears at the boundary and the stored answer persists. That separation is essential when checking which contribution changed. An experiment that removes the expert or changes memory retrieval at the same time needs a comparison that includes those different conditions.
+
+##### Recalculate recurrence and the reliability of help
+
+When no later question is related, both after-states have continuation value 0.75. Consulting then totals 1.45 and self-answering 1.5. The code performs a separate update from the original probability, with gradient −0.0125 and result 0.4990625011. Repeatedly paying for information that will not be used has no future benefit in this model. A different horizon, retention cost or query population changes the same continuation calculation.
+
+Now change the expert condition. Suppose consultation is correct with probability q, its answer is stored without verification, and a related later question reuses that answer even when wrong. Let recurrence be r, self-answering success be s and consultation cost be c. Under these particular transitions:
+
+```text
+value_self = 2*s
+value_consult = q - c + r*q + (1-r)*s
+value_consult - value_self = (1+r)*(q-s) - c
+```
+
+At `s=0.75, r=0.4, c=0.3, q=0.9`, consultation has value 1.41, below 1.5. The consultation advantage reverses. This changed fixture stores unverified information; regenerate its feedback and memory transitions rather than reusing the earlier always-correct consultation records. Verification before storage would require its own accuracy, cost and possible rejection transition. Expiry or changed applicability similarly belongs in the future state and retrieval rule. SYSE.50 supplies the help qualification and SYSE.43 the corresponding retention/use repair.
+
+When the consultation advantage is small compared with plausible value-estimation error, retain a supported baseline or obtain a discriminating continuation sample if its value warrants the work. Qualification of the expert alone cannot settle recurrence, and accurate recall cannot make an inapplicable answer useful.
+
+##### Choose a different estimator or a different learned memory operation
+
+AGILE Appendix B.4 uses a heuristic instead of an estimated continuation value: when a later similar question exists in the training sequence, give bonus `beta/(n+1)`, where n counts previous similar stored questions. In the initial fixture, beta=0.1 and n=0 give consultation proxy 0.8 against self-answering 0.75. With n=3 the proxy is 0.725; with no later recurrence it is 0.7. This bonus is a choice of training signal, not a measured future gain. Use it as an alternative to the value construction, or derive a justified combined objective; adding it to an already credited future benefit would count that presumed benefit twice. Later questions can supply training labels while remaining unavailable during live action selection.
+
+AGILE's historical construction explains the session-value connection. Its [released runner](https://github.com/bytarnish/AGILE/tree/8213312983e8ba6787fd854b87d83b2776166884) supplies dataset-correct consultation answers and cached reflection; that repository edition does not supply the Appendix A PPO trainer. A receiving implementation must provide the selected optimizer and any uncached reflection operation it requires. Compare a direct decision rule when the relevant consequence model is already known, as it is in the finite fixture.
+
+If the target is learning how to extract facts and edit persistent memory, [Memory-R2 v1, §§3–4 and Appendix A](https://arxiv.org/pdf/2605.21768v1) offers a different controlled-feedback construction. A shared model performs extraction and memory editing with different prompts. A fixed answering module evaluates the resulting memory on gold questions whose evidence is attributed to sessions. The construction proceeds as follows:
+
+1. Generate several full memory-construction trajectories from the same conversation. Cache each pre-session memory. Evaluate each terminal memory on the question subsets associated with each session, subtract the selected memory-size penalty, and standardize these rewards across full trajectories separately for each session.
+2. Select sessions for additional local trials. For each, choose one cached pre-session memory as the common starting point and generate several new executions of that session. Evaluate their resulting memories on that session's question subset, with the same reward meaning at the local horizon, and standardize within this local group.
+3. Assign each extraction or editing step the advantage from its own global or local group. Keep old and current probabilities for its generated tokens and their actual histories. Train the shared model using the selected step reduction below; preserve the global branch because the session-local questions do not assess every later consequence.
+4. Begin with an affordable shorter horizon, retain a candidate selected using separate validation, and extend the number of sessions when the resulting memory operations support that use. The source uses 8, then 16, then 32 sessions; another task needs its own justified allowance.
+
+The source reward uses mean answer F1 on the selected question subset. Its size penalty is `max(0, memory_tokens - alpha*cumulative_input_tokens) / cumulative_input_tokens`, scaled by `lambda_comp` and subtracted from that F1. Global rewards use terminal memory and terminal input length; local rewards use the selected session's resulting memory and cumulative length through that session. Obtain nonempty evaluable question subsets and positive input length, or select a specified handling rule before computing this reward. Each advantage subtracts its own group's mean and divides by its standard deviation plus a chosen positive stabilizer. For a receiving implementation, use the population standard deviation and retain that convention with the learning rate; equal group rewards then yield zero advantages.
+
+Memory-R2 also changes the reduction. For a generated step u it forms `rho_u = exp(mean_generated_tokens(log p_current - log p_old))`, a geometric mean of token ratios, and assigns the group's advantage to that step. Define `f_epsilon(r,A)=min(r*A,clip(r,1-epsilon,1+epsilon)*A)`. Its dual-clipped reward surrogate is `f_epsilon(rho_u,A)` for nonnegative A and `max(f_epsilon(rho_u,A),c*A)` for negative A, with `c>1`. Minimize the negative mean of those step terms over both branches, minus `beta_ent` times mean token entropy, plus `beta_kl` times mean token KL divergence from the selected reference policy. Keep that reference distinct from the rollout policy supplying the old probabilities. This differs from averaging individually clipped token terms in 26.4.1. Set the clipping, regularization, group sizes and local selection probability explicitly; the last changes both computation and the influence of local feedback.
+
+This branch needs memory snapshots, a fixed answerer, gold answers with session-evidence attribution, and extra rollouts. With n full trajectories of T sessions and m local executions for each of b selected sessions, it uses `n*T + m*b` session executions before feedback costs. The local comparison isolates alternatives from one starting memory; it does not establish that full-trajectory learning is invalid whenever later states diverge. Different actions normally produce different later states. Select local trials for the attribution they can supply, and retain the full-horizon question.
+
+Choose among a qualified value estimate, a heuristic and controlled memory trials according to the target operation, available observations and whole development cost. The learned consultation choice and the learned memory editor need different action records and feedback even when both serve later information use. Assess the resulting complete arrangement through SYSE.45:4.4, including stale entries, changed questions, fallible help and older useful behavior.
+
 
 ### Engineering.Reference:26.5 - Derive an audit policy from the real decision times
 
