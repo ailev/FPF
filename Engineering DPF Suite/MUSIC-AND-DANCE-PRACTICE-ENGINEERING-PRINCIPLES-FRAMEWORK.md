@@ -3538,6 +3538,8 @@ selected rhythmic structure. Use inter-onset intervals when the relevant event h
 operation needs intervals; they do not by definition capture brush continuity, weight arrival, partner-readable
 pressure, or every other rhythmic carrier.
 
+For score study and rhythmic-form memory, [Score study and memory with timed vocal groups](#mdpe12431---score-study-and-memory-with-timed-vocal-groups) gives an entry to Makarome's method. It connects cells in a score to a timed spoken stanza, the larger phrase's organization and its use in rehearsal.
+
 State the performer configuration, task, venue or medium, comparator, population, period, and access condition
 whenever changing one could change the observation.
 
@@ -3687,6 +3689,16 @@ also does not capture expressive timing. Reopen the representation choice when o
 Neither sequence similarity nor the corrected correspondence decides artistic value or audience recognition.
 
 
+##### MDPE.12:4.3.1 - Score study and memory with timed vocal groups
+
+A score reader, conductor or instrumental teacher who wants to remember and discuss a longer passage's rhythmic organization can use Makarome's [“Score study with konnakkol”](https://ir.upsi.edu.my/files/docs/2020/2114_2114.pdf#page=10), printed pp. 46–48. Have the selected score, familiar syllabic groups and a steady reference pulse available. Represent rhythmic cells with those groups, preserve each cell's complete duration, arrange the groups as a stanza and recite it against the continuing pulse. Follow the article's worked example to identify recurrence and growth, then return that organization to the score and rehearsal.
+
+In its *Marriage of Figaro* example, each underlined group occupies one minim. `Takadimi` represents four eighth-note attacks; `Ta` represents a quarter-note attack followed by a quarter rest. The four-syllable and one-syllable groups therefore have the same complete span. Figure 11 supplies their correspondence with the score. Read and sound the groups at those durations rather than assigning equal time to every written syllable.
+
+The stanza makes the phrase's expansion available for study: a one-bar opening is followed by a two-bar development and a three-bar continuation, resolving at the start of bar seven. Use the recurrence and grouping to explain or recall that passage. Keep the score available for pitch, articulation and the sounding or silent parts of each group. Return to it when preparing the actual instrumental passage or comparing a changed version.
+
+If a revision changes a cell's duration or replaces part of its sound with a rest, obtain the new timing from the score and revise the timed stanza where necessary. A retained mnemonic word alone does not establish that its cell is unchanged. Then reconsider the larger grouping. For example, a longer cell can move the following entry even when all the spoken labels remain the same. Use the article directly when it already answers the score-study question; MDPE.23 applies when a learner's recognition or performance still needs a separate judgement.
+
 #### MDPE.12:4.4 - Institutional visibility versus actual practice
 
 Suppose official standards, university courses, and professional press repeatedly name one engineering Method,
@@ -3745,6 +3757,7 @@ result directly. `MDPE.12` adds nothing unless several result kinds or cultural 
 | Source or maintained result | Contribution used here | Boundary |
 | --- | --- | --- |
 | FPF `A.10`, `C.17`, `C.29`, `C.36` | Evidence grounding, characteristic claims, representation lenses, and cultural-evolution distinctions. | They do not select Music or Dance subjects, observers, representations, or direct observation Methods. |
+| Tony Teck Kay Makarome, [*South Indian Konnakkol in Western Musicianship Teaching*](https://ir.upsi.edu.my/files/docs/2020/2114_2114.pdf), 2016, pp. 46–48 | Score cells, timed syllabic groups, stanza organization and return to score study and rehearsal in :4.3.1. | The article supplies the worked method and teaching experience. The timing-preservation instructions expose the information this use needs; neither the stanza nor the teacher's account establishes a present learner's recall or performance. |
 | [Comparative musicology](https://doi.org/10.1093/9780191872303.003.0002), [Global Jukebox](https://doi.org/10.1371/journal.pone.0275469), and [rhythm-aware melodic alignment](https://arxiv.org/abs/2607.12673), discussed in the Preface | Listening, notation, acoustic, coded, macro-feature, and rhythm-aware comparisons. | Corpus and alignment results do not decide artistic value, investment, recognition, or current performance fit. |
 | [Whitehead et al., spontaneous Dance interactivity](https://doi.org/10.3389/fpsyg.2024.1465595), discussed in the Preface | Kinematic analysis, coding and experienced participants' interpretations in one bounded study; §4.2 distinguishes the observation families a current question can require. | No one Method establishes audience recognition, cultural selection, or long history. |
 | Timing examples in the [Dance profile](#mdpepreface72---dance-making-movement-usable-for-its-participants) and the local Balboa cases | Distinctions among contact, onset, weight arrival, perceived rhythmic position, partner-readable pressure, and useful representations. | A design and observation basis, not evidence of universal improvement or transfer. |
