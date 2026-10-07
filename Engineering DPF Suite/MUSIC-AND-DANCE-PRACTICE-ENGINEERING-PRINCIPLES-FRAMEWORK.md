@@ -3982,13 +3982,40 @@ the distinction or receiving use instead of drilling a leaking cue.
 
 #### MDPE.23:4.3 - One rhythm through several representations
 
-A learner meets the same rhythmic structure through audible material, conventional notation, onset intervals,
-dum–tak syllables, takadimi or konnakol-like position syllables, movement, and geometry. These representations make
-different operations easy and can also provide accidental cues.
+A learner must recognize a rhythmic phrase when its entry moves within a continuing cycle. Sound, notation and
+movement can expose different parts of that relation. First establish what each representation retains:
+beat-position syllables identify where an onset falls within a beat; a learned solkattu phrase can keep its syllabic
+grouping when its entry moves. [RHY.5:4.2–4.3](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md#rhy542---match-the-convention-to-the-rhythmic-content)
+explains these conventions and the independent reference needed to interpret them.
 
-Teach the correspondences needed by the intended Work, then test the rhythm through an unseen carrier and another
-representation. A correct label beside familiar notation is not transfer. Nor does a geometric proximity score show
-that a musician, dancer, or partner recognizes the relation in performance.
+In this constructed lesson, a four-beat cycle has beats at 0, 1, 2 and 3; the next cycle begins at 4. The learned
+phrase is **ta–ki–ta**, with three onsets half a beat apart. Compare its initial entry with an entry half a beat
+later, keeping that spacing and the continuing beat cycle. For the position reading, use the duple Takadimi
+convention: **ta** names the beat onset and **di** its halfway point.
+
+| Representation | Entry at beat 0 | Entry half a beat later |
+| --- | --- | --- |
+| Onset times, in beats from the same cycle origin | 0, 0.5, 1 | 0.5, 1, 1.5 |
+| Learned phrase syllables, placed at those times | ta–ki–ta | ta–ki–ta |
+| Takadimi position syllables, placed at those times | ta–di–ta | di–ta–di |
+
+Construct the second reading from the timed phrase: retain its order and spacing, add the displacement to each
+onset, then name the resulting beat positions. Keep the cycle running while demonstrating or listening. Restarting
+the cycle with the phrase would erase the displacement; retaining the old position syllables would misstate it.
+If an onset crosses a cycle boundary, retain which cycle it belongs to and its place in the phrase.
+[RHY.6](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md#rhy6---translate-a-rhythm-without-erasing-needed-distinctions)
+develops this translation and the return to the source rhythm.
+
+For a receiving task that needs recognition across representations, present an unheard entry with an audible or
+visible cycle reference and ask the learner to locate the phrase's onsets, then translate them into the other
+convention. Withhold the answer labels. An unchanged syllable string alone cannot establish unchanged placement.
+Use the response to decide whether the learner needs help recovering the reference or applying the correspondence.
+
+Correct recognition does not establish simultaneous phrase-and-cycle performance. When that performance is the
+missing capability, use the worked construction in
+[RHY.11:5.2](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md#rhy1152---phrase-accents-need-not-follow-every-beat-gesture)
+and its practice in
+[RHY.12:5.1](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md#rhy1251---phrase-and-gesture-keep-different-groupings).
 
 #### MDPE.23:4.4 - Scene-recognition claim with no Method
 
@@ -4038,6 +4065,7 @@ Compare development Methods by their expected gain, burden, protected conditions
 | Source or maintained result | Contribution used here | Boundary |
 | --- | --- | --- |
 | [Heald, Lengyel, and Wolpert, *Contextual inference underlies the learning of sensorimotor repertoires*](https://doi.org/10.1038/s41586-021-04129-3) and [*Contextual inference in learning and memory*](https://doi.org/10.1016/j.tics.2022.10.004) | Context-sensitive creation, expression, and updating of memories; discriminating return and cue-variation probes. | The first model is sensorimotor; one identical computation for every memory and every agent remains an open hypothesis. |
+| [Makarome, *South Indian Konnakkol in Western Musicianship Teaching*](https://ir.upsi.edu.my/files/docs/2020/2114_2114.pdf), especially p. 38 | Distinguishes beat-position syllables from retained phrase groupings under displacement; supplies the distinction used in :4.3. | The timed example here is constructed. The article's teaching experience and feedback do not establish this learner's recognition or performance. |
 | Context-dependent recall and transfer (unpublished source note) | Multidance switching and blending cases, rival explanations, and human and ML probes. | The intake supplies hypotheses and source leads, not a general Method or an established cross-domain result. |
 | Balboa, Brushes, Pulse, and P-Center (unpublished source note) | Continuous carrier, articulation, several timing centres, partner feedback, and interleaved recognition tasks. | It does not prove one universal exercise order or transfer to all performers. |
 | [Wood et al., *The Global Jukebox*](https://doi.org/10.1371/journal.pone.0275469); comparison methods in `MDPE.12:6` | Recordings, coding guides and coder training make selected musical distinctions available for comparison; reliability differs by characteristic. | Agreement on a coded feature does not establish its recognition or meaning for a different population. |
