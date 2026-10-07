@@ -344,6 +344,8 @@ A further use requires the supporting pulse and the chosen accents together. The
 
 [MDPE.Application:5.4](#mdpeapplication54---obtain-and-change-a-movement-organization-for-partnered-performance) connects the broader task: obtain a bodily organization that produces the wanted movement quality, make attention available for partner and musical changes, and construct a transition whose exit and entry work for both participants. Its connection and fusion cases derive learning from the failed joint action.
 
+[MDPE.Application:5.5](#mdpeapplication55---end-voluntary-partnered-performance) connects a voluntary decision to finish with the stopping movement, released contact and actual exit. [MDPE.Application:5.6](#mdpeapplication56---receive-a-declined-invitation-and-find-an-available-next-action) develops receiving a declined invitation and obtaining a wanted next action, including the distinction between a usable supported action and a change in disappointment. Both derive practice from the specific interaction or continuation that failed.
+
 Use the staged-production branch when dancers, costumes, props, light, sound, venue, and presentation must work
 together for a commissioned performance. The NDT production case discussed below shows why a specialist choice
 must return to its effect on the intended Dance use. Use the social branch when changing partners,
@@ -2142,6 +2144,8 @@ not a mandatory order.
 
 For partnered movement, [MDPE.Application:5.4](#mdpeapplication54---obtain-and-change-a-movement-organization-for-partnered-performance) derives practice from the relation that fails in joint performance: obtaining bodily support and articulation, making a cue usable, allocating attention or entering a different movement organization. Begin with an attainable joint attempt and return local practice to the passage it is meant to enable.
 
+Participation can also require learning to finish an encounter or receive a refusal. [MDPE.Application:5.5](#mdpeapplication55---end-voluntary-partnered-performance) derives practice from an unnoticed ending, unavailable stopping movement or unreleased contact. [MDPE.Application:5.6](#mdpeapplication56---receive-a-declined-invitation-and-find-an-available-next-action) distinguishes bargaining after an answer from difficulty carrying out the inviter's wanted next action. Use the actual failed contribution to choose practice or support; a courteous reply alone leaves the emotional result unestablished.
+
 #### MDPE.10:2.5 - Design practice for later contexts, not only acquisition
 
 When the action must transfer, practice only in one repeated context can make acquisition look better than later
@@ -3132,6 +3136,8 @@ participant. Useful probes include:
 When the answer exposes a conflict, compare alternatives in the language of the affected Music or Dance Work.
 Keep safety, permission, artistic authority, participant rights, and technical feasibility distinct. One does not
 automatically override the others merely because its specialist reports first.
+
+For voluntary partnered performance, [MDPE.Application:5.5](#mdpeapplication55---end-voluntary-partnered-performance) develops the participant's actual ending and [MDPE.Application:5.6](#mdpeapplication56---receive-a-declined-invitation-and-find-an-available-next-action) develops receiving a declined invitation. Use their concrete attempts to distinguish a missing participant action from a missing floor route, place to pause or available event support. The latter changes production provision here.
 
 #### MDPE.5:2.4 - Test the riskiest relation in representative conditions
 
@@ -8371,14 +8377,16 @@ The usable result identifies the onset pattern and fixed origin, hand/action rul
 
 A school can teach better, a competition can become more impressive, and the social occasion that originally made both worthwhile can deteriorate. The difficulty concerns their connections. More difficult figures may retain experienced participants while making newcomers less willing to join; a visible competition result may reward something that partners do not value during a whole evening; protecting a recognizable tradition may also exclude a useful variation.
 
-This account connects four contributions to developing music and movement practices:
+This account connects six contributions to developing music and movement practices:
 
 - **Renew a shared practice** constructs a response across participation, teaching, recognition and continued use.
 - **Recover the subject of a music or movement claim** resolves consequential ambiguity before a decision relies on words such as *dance*, *kizomba*, *school* or *style*.
 - **Connect stylistic distinctions to Method structure and acquisition** explains what may survive a variation, what a particular observer can recover, and what a performer can learn to do.
 - **Obtain and change a movement organization for partnered performance** connects feasible bodily means, attention and a transition that both participants can continue.
+- **End voluntary partnered performance** connects a decision to stop with usable bodily support, released contact and an available exit.
+- **Receive a declined invitation and find an available next action** connects the actual answer to disengagement, a wanted continuation and the help it needs.
 
-Start with renewal when the difficulty lies in the relations among participation, learning and recognition. Use claim recovery when ambiguous wording blocks a decision, and Method reconstruction when a stylistic difference lacks an explanation of how to obtain it. Use movement organization when a pair needs a wanted movement quality or a workable transition under changing musical or partner conditions. These are situational entries; several contributions may be needed for one task.
+Start with renewal when the difficulty lies in the relations among participation, learning and recognition. Use claim recovery when ambiguous wording blocks a decision, and Method reconstruction when a stylistic difference lacks an explanation of how to obtain it. Use movement organization when a pair needs a wanted movement quality or a workable transition under changing musical or partner conditions. Use the ending method when participation is finishing, and the refusal method when an invitation has been declined. These are situational entries; several contributions may be needed for one task.
 
 ### MDPE.Application:5.1 - Renew a shared practice without losing what makes participation worthwhile
 
@@ -8839,6 +8847,132 @@ Keep the posts' explanations about particular muscles, myofascial chains, tenseg
 [Charbonneau, Andrade Chavez and Mombaur (2024), §§V–VIII](https://arxiv.org/abs/2408.05301) compared haptic, visual and spoken signals in a robot-led box-step interaction. Participants' confidence and comfort did not always favour the same signal. The study had no music and limited reciprocal interaction, so its findings cannot validate human fusion or the method above. It offers a useful empirical contrast for checking readability and comfort separately.
 
 Recognizing one of these difficulties is enough to choose a small inquiry. Assurance for a particular pair requires observing the passage, the transition and its continuation under the conditions being claimed. Successful reading, a constructed case or a solo demonstration cannot substitute for that joint performance. Reopen the affected choice when the intended musical relation, partner response, available bodily means or performing conditions change.
+
+### MDPE.Application:5.5 - End voluntary partnered performance
+
+Use this method when either participant wants to finish a voluntary partnered encounter and the pair needs to turn that decision into an actual ending. A track may continue, a partner may offer another figure, or a held contact may outlast the movement. The useful result is an ended interaction: further figures are no longer being offered, both people have usable bodily support, unwanted contact has ended, and each has an available onward action.
+
+The ordinary case here is a pair moving on the floor with each person supporting their own weight. Both already have an available small movement and way to stop. A lift, dependent lean or other action in which one person supports the other's weight needs its own practiced disengagement technique. Establish that contribution before rehearsing such an ending; an instruction to release contact does not supply it.
+
+Use Application:3 for a composed musical or movement ending. Use Application:5.4 when the pair lacks the movement organization or transition needed to stop. MDPE.5 supplies usable floor and exit conditions. Those contributions can be needed together: a beautiful final shape can leave a partner held in place, while an ordinary mid-track stop can complete voluntary participation successfully.
+
+#### MDPE.Application:5.5.1 - Construct the ending from the present situation
+
+Begin with the decision that changes the next action: finish at a chosen musical point, or finish participation now. A chosen musical ending can guide preparation while both want to continue. Either person's present decision to stop removes that continuation from the joint task. Their right to stop is already present; communication makes the decision usable by the other person.
+
+For the ordinary case, connect these actions:
+
+1. **Make the finish legible.** Stop proposing another figure. Give the ending information while the partner can still change the continuation. For a chosen musical endpoint, name it: “Let's finish at the end of this phrase.” For an immediate ending, say “I need to stop now.” A previously agreed signal can supply the same distinction when both participants can perceive it. A slowed phrase alone may be read as preparation for the next figure. When the partner asks to stop, acknowledge the request and change your action immediately.
+2. **Use the stopping action that is available now.** Reduce the movement to the pair's familiar small transfer or halt, allowing each person to keep their own support and avoid nearby people. Retain only the motion needed to settle and disengage. Waiting for a favourite ending, another figure or the end of the song would add participation after the decision to stop. In a support-dependent action, use the available technique for returning each person to their own support.
+3. **End contact and the expectation of continuation.** Once contact is no longer supplying necessary support, release it without drawing the partner into another action. A brief acknowledgement or thanks can make an ordinary ending clear. Releasing a hand does not oblige either person to accept a new handhold, an escort or further conversation.
+4. **Take an available onward route.** Notice nearby movement and use a clear route to the edge or other chosen place. If the route is temporarily occupied, remain out of moving traffic where possible and leave when passage is available. Participation can already have ended while the people are still near one another.
+
+Musical closure, cessation of movement, release of contact and departure from the performing area have different completion conditions. Their connection explains the order above: the partner needs usable information to stop offering movement; stopping must preserve bodily support; release makes separation possible; an actual path makes departure possible. Some actions can overlap. A current request to stop changes the continuation at once even when physical disengagement takes a short available movement.
+
+If the other person deliberately prevents release or departure, the ordinary cooperative method has met a different problem. Use the event's available assistance.
+
+#### MDPE.Application:5.5.2 - Learn the connection that failed
+
+Start with a short passage the pair can already perform, including its ending and exit. Each participant can choose to end. Agree that practice itself is voluntary and that a stop ends the attempt. The teacher observes the whole encounter before selecting a correction.
+
+| What happened | Contribution to develop | Return to the whole |
+| --- | --- | --- |
+| One person stopped while the other offered another figure. | Compare the cue the partner actually received with the intended finish. Demonstrate an audible or otherwise usable ending signal, then let the learner use it. | Resume a short passage and let its participant choose the ending without the teacher supplying the final cue. |
+| Both noticed the ending, but the stopping movement pulled one person off support. | Return to the available stopping action and its entry through Application:5.4. Reduce travel or change the preceding action if that makes the halt usable. | Restore the preceding passage and check both participants' support through the stop. |
+| Movement ended, but a handhold drew the partner back or kept them waiting. | Practice ending the contact and making departure available. Distinguish a courteous optional offer from a continued demand. | Include release and each person's onward action in the next complete attempt. |
+| Both were ready to leave, but the exit was blocked by the arrangement. | Change the floor or exit provision through its organizer, using MDPE.5. | Try the exit with representative traffic; individual repetition cannot supply missing space. |
+
+Feedback names the observed failure and lets the learner retry its missing contribution. Then restore the whole passage. Change one condition that matters: continuous music, an earlier requested finish, an unfamiliar partner or another available exit. Ask the participants what they perceived and compare that with their actions. A partner who followed the teacher's gesture has not yet shown that the participant's own ending was usable.
+
+#### MDPE.Application:5.5.3 - A constructed case with a changed ending
+
+Lena and Omar can perform a short side-to-side passage and stop with their weight on their own feet. At a social evening Lena wants to finish after the present phrase. She reduces her movement, but Omar reads that reduction as a pause before a new turn. He offers the turn and she follows reluctantly. The difficulty is the information connecting her decision to his next action.
+
+In an agreed practice attempt Lena says “Let's finish at the end of this phrase” while Omar can still change the continuation. Omar acknowledges her, stops offering the turn and uses their familiar small stopping action. They settle, release hands and each looks for a clear way off the floor. They have completed the encounter even though the DJ has mixed directly into another track. The continuous music supplies no new agreement to perform together.
+
+For the changed attempt, Omar asks to stop halfway through the phrase. Lena abandons the planned phrase ending; they use the stopping action available at that moment, settle and release. A nearby pair temporarily occupies the way to the edge. They wait clear of that pair's movement and then depart. Insisting on the earlier musical endpoint would fail this attempt. So would declaring failure merely because departure took longer than release.
+
+The next learning question comes from what actually failed. If Lena hears the request but cannot enter the small stop from the current travelling action, practice that transition. If the route remains unavailable under ordinary floor use, change the provision. These are different repairs of the same wanted ending.
+
+#### MDPE.Application:5.5.4 - Grounds and use limits
+
+Primary community guidance supplies the participation conditions. [WSDC's Social Etiquette](https://worldsdc.com/social-etiquette/), updated in 2019, discusses considerate floor exit, thanking a partner and stopping when uncomfortable or at risk. Its customary hand-connected exit is one local practice; wanted contact remains a condition of using it. The [Victoria Latin Dance Association's code](https://vlda.ca/about/code-of-conduct/) permits ending participation for any reason and calls for clear communication. [NAWCSA's code, section 2.1](https://www.northalabamawcs.org/code-of-conduct), requires a requested stop to be honoured immediately.
+
+The method connects those participation conditions to the stopping and transition construction in Application:5.4, the actual provision in MDPE.5, and the attempt–correction–return logic in MDPE.10. This changes practice from rehearsing an attractive final movement to rehearsing the complete voluntary ending. The case illustrates that construction; it does not report a tested teaching intervention.
+
+A description of the sequence lets a reader recognize and prepare the use. Evidence that a particular pair can perform it requires the joint attempt, including the changed condition and the partner's experience. A different support relation, communication channel or floor arrangement reopens the affected contribution. Preserve a usable ending where those conditions remain the same.
+
+### MDPE.Application:5.6 - Receive a declined invitation and find an available next action
+
+Use this method when an invitation to voluntary partnered performance has been declined and the inviter needs to end that invitation and decide what to do next. A familiar failure is to keep negotiating after a clear answer. Another occurs after a courteous response: the person wants to continue their evening but cannot yet take the chosen action.
+
+The method seeks two distinguishable results: the other person is free from further pressure about this invitation, and the inviter has obtained a wanted, available next action or identified the particular help still missing. Disappointment can remain. Reducing its intensity or duration is a further aim whose means and evidence need separate attention.
+
+This is an ordinary participation and learning method. It assumes that the invitation can be ended and that any continuing help is voluntary. Use the event's support when its arrangements obstruct participation or someone prevents disengagement. The method gives no entitlement to another person's company or reassurance.
+
+#### MDPE.Application:5.6.1 - Let the actual answer end the invitation
+
+Use the answer that was given. With a clear refusal, acknowledge it briefly and stop making the invitation: “Okay” or “Thank you for letting me know” is sufficient. Leave the other person's space and choices available. Asking for reasons, bargaining for a shorter encounter or waiting beside them for a changed answer prolongs the demand.
+
+An unclear answer gives no basis to start partnered performance. Allow the person to decline and disengage; an unenthusiastic exchange need not be turned into an interrogation. If the person volunteers “maybe later”, retain that information as a possibility. A later encounter still requires a wanted invitation and a fresh answer. The inviter may also choose another activity.
+
+Follow the event's concrete participation rules. For example, NAWCSA:2.1 prohibits asking the same person again during the same song after a refusal, and says to stop asking them for that evening after several refusals. These are that community's stated limits. Do not turn a permitted later opportunity into an obligation for either person.
+
+#### MDPE.Application:5.6.2 - Obtain a next action from what is actually available
+
+After disengaging, distinguish the known event from an added interpretation. “Ren declined this invitation” records the event. “Nobody here wants to perform with me” adds a claim about people who have not answered. Possible reasons for refusal remain possibilities unless the person supplied them. Inventing a reassuring reason does not give the inviter new information.
+
+Notice what you want and can currently do. A useful next action can be listening to a piece, taking a break, talking with a willing companion, making a different appropriate invitation or leaving the event. Pick a small action with an actual place, means and permission where those are needed. “Enjoy the evening” is too broad to enact; “sit in the available chair and listen to the next piece” can be tried. A new invitation is one option, and brings another person's independent choice into the situation.
+
+Try the chosen action and use its result. If you can take the wanted break while disappointed, the continuation has become available. You can decide again afterwards. If the action cannot be carried out, keep the specific difficulty visible. A person may know what to do while lacking the conditions or help to do it.
+
+#### MDPE.Application:5.6.3 - Supply the missing contribution without demanding a different feeling
+
+The next move depends on where the connection failed:
+
+| Present difficulty | Available way to work on it | What this can establish |
+| --- | --- | --- |
+| The inviter keeps asking after a clear refusal. | Demonstrate an acknowledgement and disengagement, compare it with bargaining, then let the learner retry the complete invitation and answer. | The invitation can end without further pressure under the tried conditions. |
+| The inviter wants another activity but has not selected an executable one. | Compare the activities actually available now. Choose one modest action and try it. | A wanted continuation has been selected and, if performed, made usable. |
+| The selected break or departure has no accessible place or route. | Ask the organizer or another responsible provider to make that condition available, or choose a genuinely available alternative. | A provision change or different action can remove the external obstacle. |
+| The person knows the action and has access, but cannot begin it alone. | Ask whether they want help with that particular action. A willing companion can offer to walk with them to the chosen place, or an agreed reminder can mark the first step. Try the supported action only if the person wants it. | Actual use can show that this support makes this action available; it does not establish independent coping or reduced distress. |
+| The wanted action remains unavailable despite the help tried, or the aim is less intense or shorter distress. | End the exercise if the learner wants to stop. Describe the remaining difficulty with them and obtain help suited to that difficulty before claiming a method for it. | The current participation method has a specific unresolved limit. Repeating staged refusals supplies no missing emotional-help method. |
+
+Support belongs to the available situation: a willing companion may be occupied or absent, and an offered reminder may be unhelpful. Let the person decline the proposed support or select leaving as their next action. Another participant's refusal remains binding throughout. Their reconsideration cannot be made the required means of the inviter's recovery.
+
+If repeated events suggest that the participation arrangement itself excludes people, investigate that arrangement through Application:5.1 and MDPE.5. Keep the evidence for that question separate from guesses about one person's reasons. Improving an event's access and reciprocity still preserves every participant's voluntary choice.
+
+#### MDPE.Application:5.6.4 - A constructed case: a courteous reply leaves another task
+
+Alex invites Ren, who says “No, thank you.” Alex replies, “Why? Just one piece.” That response keeps the invitation open. In an agreed role-play, a teacher demonstrates a brief acknowledgement, stepping away from the exchange and leaving Ren free to choose what to do. Alex tries again and ends the invitation.
+
+Alex then says, “That proves the evening is a failure.” The teacher and Alex separate what happened from the added conclusion. Alex chooses to sit at the edge and listen to one piece. In one attempt that is already possible; Alex takes the break and still feels disappointed. The observed action establishes a usable continuation. It supplies no observation that the feeling has become weaker.
+
+In another attempt Alex already knows the chosen action but remains standing and repeatedly rehearses what to say to Ren. Repeating the polite reply addresses a contribution already available. Alex wants help leaving the exchange; a willing friend offers to walk to the seat together. They do so, without returning to Ren. The useful result is the supported break. If Alex still cannot take it, or does not want that help, the example has reached its limit: another suitable contribution remains to be obtained with Alex.
+
+Now change the conditions. The usual friend is absent and the seating area is closed. Alex cannot simply reuse the previous arrangement. Alex can ask an available event volunteer about a place to pause, choose another wanted activity or arrange to leave. If none is presently usable, that is the remaining problem. It is not evidence that the previously demonstrated acknowledgement was lost.
+
+In a further exchange Ren volunteers “maybe later”. Alex can retain the possibility without waiting beside Ren or treating it as a promise. At a later appropriate opportunity, a new invitation has a new answer. This variation tests whether Alex uses the actual information while preserving both people's choices.
+
+#### MDPE.Application:5.6.5 - Derive practice and evidence from the missing action
+
+Use consensual role-play when the learner wants to practise the invitation, answer and subsequent choice. Both participants know the purpose and can stop. Do not recruit unsuspecting people to create refusals for an exercise. Begin with the whole interaction so that a polite sentence does not hide continued bargaining, blocked departure or an unavailable next action.
+
+Compare a successful attempt with the specific failed connection. Demonstrate or discuss the missing operation, let the learner retry it, and restore the whole encounter. Change an answer, timing, partner or available support that affects the decision. The learner chooses the continuation; the teacher does not supply an unnoticed cue or require an immediate second invitation. MDPE.10 and HCD.6/HCD.9 provide the general construction of a representative task, help, attempt, feedback and return. The participation conditions and distinctions in this application supply the domain criteria.
+
+Keep three kinds of evidence separate. An observer can describe the answer, continued pressure, available space and action actually taken. The learner can report their interpretation, wanted activity and experienced disappointment. Later experience can show whether the action remains available at a real event, with its different uncertainty and emotional significance. A role-play that evokes no disappointment can still teach the outward interaction; it leaves emotional use untested.
+
+Agree on the learning aim with the learner. If it is a usable next action, observe that action and the support it required. If it is reduced intensity or duration of distress, obtain a suitable way of helping and evidence about that experience over the relevant period. Neither a smile nor compliance with a teacher establishes that second result.
+
+#### MDPE.Application:5.6.6 - Grounds, alternatives and limits
+
+The participation grounds come from the community instructions cited in Application:5.5.4. WSDC describes accepting a decline and acknowledges possible reasons; those reasons do not identify the reason in a particular encounter. NAWCSA gives concrete limits on repeated invitations. Its conduct instruction about pouting cannot establish that a participant must cease feeling sad. VLDA preserves voluntary participation. These sources guide interaction; they do not validate an emotional-learning intervention.
+
+The construction here connects receiving the actual answer, ending the demand, distinguishing event from interpretation, trying a wanted continuation and obtaining support for the contribution that remains unavailable. Compared with “accept the refusal and move on”, it exposes what moving on requires. Compared with repeating an etiquette line, it changes the next practice when the reply already works. Its help examples are proposed ordinary support arrangements whose usefulness must be checked with the person.
+
+A recent primary study helps bound the emotional claim. [Engelskirchen, Asbrand and Tuschen-Caffier (2025)](https://www.nature.com/articles/s41598-025-09565-z) studied online ostracism in 73 young people aged 14–21. Both groups had previously received instruction in noticing and allowing their own unpleasant thoughts and feelings, called *acceptance* in the study. Later, one group was prompted to apply that approach for three minutes after the exclusion task; the comparison group reflected on the profiles without a specific regulation instruction. The corrected group-by-time analysis did not establish an affective advantage of that application condition. This does not settle the effectiveness of acceptance generally or provide a tested method for an adult's declined invitation.
+
+The present method supports a bounded participation use and exposes the missing help when it cannot supply the desired continuation. A change in local participation rules, available support or evidence about a proposed emotional-help method reopens the corresponding action or claim. Keep an observed respectful response, an available supported action and an emotional outcome distinct when deciding what to retain or develop next.
 
 ## MDPE.Application:End
 
