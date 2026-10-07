@@ -3,7 +3,7 @@
 > A domain pattern language for creating, performing, transmitting, and deliberately developing music and dance practices and the environments that sustain them.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 4 October 2026
+- **Version:** 7 October 2026
 - **Status:** Eternal alpha: a published working framework, already used in analyses and worked applications, while continuing to evolve.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -333,13 +333,16 @@ need to present a chosen phrase. The creation brief names that use before select
 rehearsal, or observation Methods. `MDPE.3` tests the resulting coordination; `MDPE.10` develops a limiting
 performing capability; `MDPE.12` distinguishes kinematic indications, participant experience, and judgement.
 
-The Balboa-and-brushes material used in `MDPE.3`, `MDPE.10`, and `MDPE.14` makes a useful narrower problem
-visible: a dancer can keep the foot in motion while a partner cannot tell when the weight event occurs. A
-prospective trial separates continuing floor contact from the pressure or weight event to be perceived. The
-pair compares a continuous shuffle with a version that makes the chosen weight arrival clearer, obtains the
-partner's timing report, and then varies partner or musical conditions. The result sought is a partner-readable
-coordination relation under those conditions. Foot-contact timing alone cannot settle it. This is a Method-design
-example, with no claimed result from an actual learner or pair.
+The brushes in the Balboa analogy are **drum brushes**. A brush can sweep across the drumhead in continuing contact while a change of pressure makes an accent audible. Ed Soph's [Foundational Brush Technique](https://www.moderndrummer.com/article/foundational-brush-technique/) describes both a division between a sustaining hand and a hand playing separate short notes, and an arrangement with both hands moving continuously and accents produced by pressing more of the brush fan against the head. The useful distinction is between the movement that continues and the event articulated within it.
+
+For a partnered Balboa phrase, this suggests a question about movement, not an instruction to imitate a drummer's hand. A foot can already be sliding along the floor before it accepts weight. The sound of that contact, the dancer's weight arrival, and the moment the partner feels the transfer as rhythmically clear can differ. A free-leg tap can add texture while the supporting leg and body continue the phrase; it can also obscure the transfer if the partner takes that accent as the cue to move. The partner's perceived timing is not defined by either the first floor contact or the maximum measured pressure.
+
+Start a comparison from a phrase the pair can already perform. Keep its intended transfer timing and continuing movement, then vary the free-leg articulation and ask whether the partner can recognize the transfer and continue into the next movement. Use the partner's report together with the performed response; a foot-contact trace alone cannot answer that question. MDPE.9:4.3 develops candidate comparison, and MDPE.11:4.5 develops a change made during performance. MDPE.10 addresses the capability needed to enact such a choice. Changed partner or musical conditions can reopen the question. This analogy proposes a way to investigate the relation; it establishes neither one compulsory contact–accent–transfer order nor a demonstrated learning benefit.
+
+
+A further use requires the supporting pulse and the chosen accents together. The accent can disturb that pulse; the regular movement can also pull an accent away from its intended place. [MDPE.11:4.5.2](#mdpe11452---one-coordinating-method-two-physical-realizations) develops drum-brush and Balboa realizations of the common coordination Method in RHY.11:4.4.1. It preserves the shared timing while changing preparation, articulation and correction to reduce interference. [MDPE.10:4.6](#mdpe1046---learn-to-vary-accents-over-a-continuing-pulse) derives corresponding practice from that difficulty, including new accent choices and a changed reference. The common construction guides adaptation; each realization still needs its own technique and receiving-performance evidence.
+
+[MDPE.Application:5.4](#mdpeapplication54---obtain-and-change-a-movement-organization-for-partnered-performance) connects the broader task: obtain a bodily organization that produces the wanted movement quality, make attention available for partner and musical changes, and construct a transition whose exit and entry work for both participants. Its connection and fusion cases derive learning from the failed joint action.
 
 Use the staged-production branch when dancers, costumes, props, light, sound, venue, and presentation must work
 together for a commissioned performance. The NDT production case discussed below shows why a specialist choice
@@ -1926,13 +1929,16 @@ acoustic branch, and the third revised for another trial. Those decisions do not
 
 #### MDPE.9:4.3 - Balboa, brushes, and articulated weight
 
-The [Dance profile](#mdpepreface72---dance-making-movement-usable-for-its-participants) illustrates the distinction between a continuous carrier and discrete articulation. A teacher
-can generate partnered phrase variants in which continuing floor contact and movement remain legato while the
-weight event appears at contact onset, direction change, weight arrival, or partner-readable pressure.
+Drum brushes offer a useful design analogy: a brush can keep sweeping across a drumhead while a pressure change articulates an accent. The [Dance profile](#mdpepreface72---dance-making-movement-usable-for-its-participants) explains the source and its limits. For a partnered Balboa phrase, the corresponding design question is how to make a weight transfer readable without interrupting the movement that prepares and follows it. A foot touching the floor, a tap becoming audible, and a partner recognizing weight arrival need not be the same event.
 
-A pair trial asks both dancers where the weight event became usable. One candidate can be retained for clear
-partner timing, another branched for delayed articulation, and another revised because free-leg texture displaced
-the standing-leg pulse. These examples guide candidate design; use separate capability evidence for the named pair.
+In this **constructed comparison**, a teacher and pair start from a familiar small-step phrase with continuous floor contact. The brief asks for an audible free-leg ornament while preserving the agreed transfer timing, comfortable connection and the following change of direction. They compare the same phrase, pair, recording and pace, beginning with the unornamented phrase as a reference. They then generate two candidates: A adds a distinct tap while that foot is still unloaded; B keeps the sliding preparation but makes the tap quieter and lets the body's continuing transfer carry the partner cue. Both candidates retain the same intended weight-arrival point.
+
+The stipulated trial makes the choice consequential. The reference supports the next direction change but lacks the requested audible ornament. In A, the partner begins that change at the tap, before the transfer is ready. In B, the ornament remains audible and the partner continues at the intended transfer. After each phrase, the partner identifies the moment taken as the cue; the teacher compares that report with the pair's continuation. Listening to the recording lets the teacher compare the ornaments' audible prominence; video helps inspect movement and interruption. Neither substitutes for the partner's experience.
+
+Retain B for the next rehearsal under these conditions and revise A's misleading accent. Keep the unornamented phrase as the available simpler version if readability is lost. A deliberately later transfer could instead become a separate candidate under a brief permitting delayed articulation; it does not meet this brief merely because its delay is expressive. The result is a compared candidate and disposition, not a demonstrated capability with unfamiliar partners or music. MDPE.11:4.5 addresses the different decision of changing articulation while a phrase is already being performed.
+
+
+A brief requiring a regular supporting pulse and movable accent positions adds another comparison. Generate alternatives from [MDPE.11:4.5.2](#mdpe11452---one-coordinating-method-two-physical-realizations): earlier preparation, a shorter feasible articulation or a different allocation can change their mutual interference. Compare each through the requested accent and the following supporting event, then change the requested accent place. A quieter but still required accent may qualify; an omitted accent or one captured by a convenient beat does not meet that brief. If the preferred construction requires unavailable coordination, MDPE.10:4.6 supplies its practice design before a capability claim.
 
 #### MDPE.9:4.4 - Ableton comping as a direct-Method stop
 
@@ -1982,7 +1988,7 @@ other may branch because mutual initiation improves recovery while weakening int
 | Reis et al., [human–AI choreographic co-creation](https://doi.org/10.1080/14794713.2025.2515754) | Performer interpretation and adaptation remain part of choreographic Work with AI. | The study does not define one general choreography Method or establish cultural selection. |
 | Ableton Live 12, [Comping](https://www.ableton.com/en/live-manual/12/comping/) | A direct Music-production Method for retaining, auditioning, and combining takes. | Use it directly when it already returns the needed result. |
 | Georgia Tech, [Shimon composition and performance account](https://news.gatech.edu/news/2017/06/13/robot-uses-deep-learning-and-big-data-write-and-play-its-own-music) | A bounded robotic generation-and-performance case and a counterexample to candidate-set and decision-holder overclaims. | It establishes neither several compared variants nor the robot's authority over practice development. |
-| Timing examples in the [Dance profile](#mdpepreface72---dance-making-movement-usable-for-its-participants) and the local Balboa cases | Continuous carrier, discrete articulation, several event locations, and partner-readable candidate differences. | It is Method-design input, not a demonstrated capability result or universal teaching order. |
+| Drum-brush explanation in the [Dance profile](#mdpepreface72---dance-making-movement-usable-for-its-participants), drawing on Ed Soph; Balboa candidate design in :4.3 | An event articulated within continuing movement; candidate differences that preserve or obscure a partner-readable transfer. | The transfer to partnered movement is a design analogy. The comparison and observations in :4.3 are constructed, not an empirical teaching result or universal teaching order. |
 
 For a constraint-specification candidate, name participants, proposed relations, trial observations and the resulting disposition. Use a direct field Method when it supplies the same result with less burden. Reconsider a candidate when it no longer fits the stated receiving use and trial conditions.
 
@@ -2093,7 +2099,7 @@ representative Work, and currentness window.
 
 Choose the smallest target that changes the present decision. “Know Balboa” is too broad. “This pair can keep a
 continuous movement carrier while placing a partner-readable weight event through the selected phrase and tempo
-range” can be tested. “This robot can produce the selected dynamic and timing range for the named repertoire and
+range” can be tested. If the receiving phrase also requires changing free-leg accents, retain that demand: the pulse must remain regular and each chosen accent must arrive at its intended place. “This robot can produce the selected dynamic and timing range for the named repertoire and
 gesture condition” can be tested.
 
 `MDPE.9` can supply candidate demands; `MDPE.3` can supply a performing configuration. Neither establishes
@@ -2133,6 +2139,8 @@ evidence does not support one universal internal-versus-external focus cue. Curr
 one universally superior teacher-led or learner-led pedagogy. Demonstration, correction, exploration, reflection,
 peer feedback, choice, and deliberate return of attention to an automatized detail are candidate moves to test,
 not a mandatory order.
+
+For partnered movement, [MDPE.Application:5.4](#mdpeapplication54---obtain-and-change-a-movement-organization-for-partnered-performance) derives practice from the relation that fails in joint performance: obtaining bodily support and articulation, making a cue usable, allocating attention or entering a different movement organization. Begin with an attainable joint attempt and return local practice to the passage it is meant to enable.
 
 #### MDPE.10:2.5 - Design practice for later contexts, not only acquisition
 
@@ -2319,6 +2327,28 @@ representative Dance Work, safe development Method, and evidence before making t
 Likewise, a model can generate movement that viewers call danceable without being a performer or capability
 holder. The output can enter `MDPE.9` as material. Performability remains open until an identified dancer, robot,
 or configured whole enacts it in representative Work.
+
+#### MDPE.10:4.6 - Learn to vary accents over a continuing pulse
+
+The execution explained in [MDPE.11:4.5.2](#mdpe11452---one-coordinating-method-two-physical-realizations) supplies the capability target. A drummer needs to vary one hand's accents while the other sustains a regular brush pulse. A Balboa performer needs free-leg accents within continuing support and scheduled weight arrival, including a change of which leg is free. The common difficulty is mutual interference between simultaneously performed contributions. Consequently, both learning designs practise the chosen accent relative to continuing support and judge both results; their physical instructions and observations remain specific to the activity.
+
+The following is a **constructed practice design**, not a report that particular learners acquired the capability. The teacher first obtains a comfortable supporting action and an identifiable articulation within each learner's existing technique. If either is unavailable, that specific instruction precedes the joint exercise. The later performance selects the tempo, accent character, musical material and contact conditions.
+
+| Purpose of the shared exercise | Brush realization | Partnered Balboa realization |
+| --- | --- | --- |
+| Make the required relation recoverable | Hear or demonstrate a continuing sweep with one offbeat accent; relate the sweep to an external beat. | Demonstrate continued pressure–release with an unweighted free-foot accent; identify the later full weight arrival separately. |
+| Perform the actual overlap | Continue the familiar sweep while the other hand prepares, articulates and releases. | Continue the standing leg's support while the free foot prepares and articulates; include its return before the scheduled transfer. |
+| Locate the failed contribution | Listen for an interrupted or retimed sweep and separately for the requested accent; watch whether the hands copy each other's motion. | Observe supporting time and loading, locate the free-foot event, and ask the partner about usable arrival and continuation. |
+| Change one controllable action and rejoin | Shorten an excessive accent stroke or begin its preparation earlier while the sweep continues. | Reduce a free-foot excursion that pulls the body into loading, or prepare its return earlier; keep the accent recognizable and the transfer on time. |
+| Expand the needed choice | Move the accent to another subdivision, then play a new short accent sequence without restarting the sweep. | Change the free-foot accent places within the feasible support interval; then include the taught support exchange and later accents by the newly free leg. |
+
+For example, begin with the midpoint accent, then request a later subdivision while retaining the supporting period. If a learner keeps the period but still accents at the midpoint, the second choice has not been learned. If the new accent is correct but the next pulse lengthens, the other half of the task has failed. Demonstrate the revised preparation and repeat a short joint passage; isolated success is useful preparation for this return, not its completion. The teacher gives target information in advance with enough time for preparation rather than making an impossible last-instant request.
+
+Choose subsequent difficulty from the intended use: a changed accent sequence, intensity, tempo, phrase, allocation or partner. Begin with sufficiently stable conditions to make an actionable correction, then vary the demand whose freedom is missing. This derives similar teaching moves from the common interference problem rather than assuming that all variation or random practice is beneficial. [RHY.12:4.2.1](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md#rhy12421---derive-practice-from-the-pulse-and-accent-construction) gives the shared construction and its feedback logic.
+
+If the receiving performance requires no teacher count, move feedback after the phrase and try intervals without that extra cue. The pair keeps the music and partner contact; the drummer keeps the instrument and any accompaniment belonging to the target. Use a new required accent sequence to test choice, and a relevant tempo or reference change to test continued synchronization. Include a later attempt when retained capability matters. Judge pulse regularity, accent placement and character, continuation and protected bodily or partner conditions together.
+
+A useful result may authorize the studied phrase and range, identify one still unavailable phase or support exchange, or return a required technique. It cannot be improved merely by dropping the required accents. Transfer to another activity begins by recovering its supporting action, variable articulation, available means and feedback, then carrying out its representative joint task. Structural similarity justifies trying a corresponding teaching construction; actual skill transfer requires the receiving performance.
 
 ### MDPE.10:5 - Checks and Common Repairs
 
@@ -2551,6 +2581,8 @@ not settle that question.
 
 A short pair trial tests whether the legato carrier persists, the event is readable in the selected phrase and
 tempo range, and the pair can recover after redirection. The result remains limited to that pair and configuration.
+
+For a phrase that also requires variable free-foot accents, expose the continuing support, articulating foot and scheduled change of support as different contributions. Observe pulse regularity and chosen accent placement as well as partner-readable weight arrival. [MDPE.11:4.5.2](#mdpe11452---one-coordinating-method-two-physical-realizations) supplies the joint execution and its support exchange. Separately working parts and sustained contact leave that coordination to be established.
 
 #### MDPE.3:4.2 - Shimon, marimba, control, gesture, and people
 
@@ -2894,6 +2926,8 @@ The result names what was preserved, what changed, the partner relation that inf
 or report can support the next teaching or practice question. The teacher's later judgement is not the partner
 relation during Work.
 
+When familiar figures do not supply a wanted movement quality or a usable transition, [MDPE.Application:5.4](#mdpeapplication54---obtain-and-change-a-movement-organization-for-partnered-performance) develops the bodily means and their connection to partner response and musical material. It explains how to prepare the next organization's entry conditions, continue when the partner responds differently, and derive the missing practice from the failed relation.
+
 #### MDPE.11:4.4 - Shimon generation and performance
 
 People supplied a four-measure seed; Shimon generated the remainder and performed it on marimba. Do not assume that
@@ -2903,7 +2937,36 @@ shaping only when timing and evidence support that claim.
 
 #### MDPE.11:4.5 - Balboa, brushes, and event timing
 
-Continuous floor contact, audible onset, weight arrival, perceived rhythmic location, and partner-readable pressure need not coincide. In a dance trial, the pair can preserve pulse and continuing contact while changing free-leg articulation. The performed result identifies what the dancers did and which relation the partner could use. Video, audio, contact trace, performer report, and partner report bear on different claims.
+Here **brushes** means drum brushes: a brush can continue sweeping on a drumhead while increased pressure articulates an audible accent. In a partnered Balboa phrase, continuous floor contact and body movement can likewise carry a distinct weight transfer. The analogy separates continuing movement from the event made perceptible within it; it does not make a foot tap, weight arrival and the partner's perceived timing identical. The [Dance profile](#mdpepreface72---dance-making-movement-usable-for-its-participants) gives the source and limits.
+
+##### MDPE.11:4.5.1 - Choosing an optional articulation during a phrase
+
+In this **constructed performance case**, a pair has prepared a repeating small-step phrase followed by a change of direction. Its agreed material fixes the transfer timing and direction change but leaves a free-leg tap optional. Both participants can already perform the simpler phrase. During one repetition, the initiating performer adds the tap before that foot accepts weight. The partner starts the direction change at the tap and then hesitates because the transfer is not ready. The performer feels the unexpectedly early response through their connection. That response warrants adjusting the phrase; it does not reveal, by itself, everything the partner perceived.
+
+On the next repetition, while the performance continues, the performer omits the optional tap. The foot continues its sliding preparation, the body completes the transfer at the agreed point, and movement carries on into the direction change. The performer changes articulation within the prepared material; neither the transfer timing nor the next direction is newly composed. In the stipulated result, the partner continues without the earlier hesitation. After the phrase, the partner reports having taken the earlier tap-related contact change as weight arrival, whereas the second repetition made the arrival clear. The source analogy helped identify a variable to change: remove the competing accent while preserving the continuing movement and usable transfer.
+
+The direct result is the phrase this pair actually enacts in the constructed occurrence, including that adjustment and continuation. The performer keeps the simpler version for the next repetition. Recovering an audible ornament becomes a later candidate-comparison question under MDPE.9, not an obligation to solve it during this performance. The partner's report and the observed response support that local choice; they do not demonstrate a general effect for other partners or establish one mandatory Balboa teaching sequence. Audio can locate the tap, video can show floor contact and movement, and a contact or force trace can indicate pressure changes. Those observations cannot replace the partner's report about the perceived event, nor does that report locate a physical force maximum.
+
+
+##### MDPE.11:4.5.2 - One coordinating Method, two physical realizations
+
+Now consider a passage that requires the accents. Its task is to retain a regular supporting pulse while placing those accents at selected positions, including positions between beats. Both can be accurate separately and interfere in combination: an accent pulls the pulse out of time, or the habitual pulse movement postpones the accent to an easier place. [RHY.11:4.4.1](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md#rhy11441---keep-a-common-time-while-allowing-different-actions) develops the common Method: recover the joint timing, prepare the accent within the continuing action, choose compatible means, correct the missed contribution and retain the required range of choices.
+
+For **drum brushes**, use an already learned comfortable sweep as the supporting action. One practical realization keeps one hand on a repeatable circular path while the other places audible strokes or pressure accents. Relate the circle to the beat, then prepare each accent so its audible event reaches the selected subdivision while the sweeping hand continues through it. If lifting the articulating hand also lifts the sustaining hand, keep the latter's contact and shorten the former's stroke. If the stroke waits for the circle's turning point, change when its preparation starts instead of postponing the musical target. Listen for the sustained texture, the regular reference and the accent's placement; a sweep can remain audible while its period changes.
+
+This realization adapts the progression in [*A Fresh Approach to the Drumset*, Lesson 29, printed p. 73](https://ae.vicfirth.com/wp-content/uploads/Fresh-Approach-to-Drumset-SAMPLER.pdf): repeatable legato movement, a beat-related pressure pulse, and varied articulation by the other hand. The new performance question is whether the chosen offbeat can move while the support remains regular. [Ed Soph's two-legato-hand alternative](https://www.moderndrummer.com/article/foundational-brush-technique/) realizes the same contribution distinction differently: pressure can articulate without lifting a hand. Select the means compatible with the required sound and the performer's available technique.
+
+For a **partnered Balboa fragment**, continuous support and weight organization carry time while a free foot can articulate without accepting weight. In a constructed fragment, the pair has a supported hold through beats 1 and 2 and a planned full weight arrival at 3. A small unweighted toe contact is wanted halfway between 1 and 2; another may be wanted halfway between 2 and 3. The standing leg continues its taught pressure–release, and the free foot makes the chosen contact without moving the body's support onto it. The foot then returns along a manageable path in time to prepare the scheduled weight arrival. Early floor contact is possible without early loading.
+
+At the full transfer, the previously free leg becomes the support. The pulse must continue through that exchange; later free-leg articulation belongs to the newly available leg. The action therefore preserves a temporal function through changing body-part roles. It cannot be implemented by freezing one leg as permanent timekeeper. If a large tap pulls the torso into premature loading, shorten or redirect that free-foot action while preserving its required accent. If the smaller action becomes inaudible when sound is required, select another available articulation or return the technique question. The partner's response checks usable weight arrival and continuation; sound locates an audible accent, and observation of loading checks a different event.
+
+The cases share a way of coordinating: prepare and articulate a chosen event while continuing the supporting action, then assess both against the intended time. Their differences explain the required adaptations. Brushes need available contact, stroke and sound control; partnered movement needs viable support, timely role exchange and a partner-readable continuation. The common Method can guide these choices without claiming that drum practice teaches leg control or that a force peak measures the partner's experience. These are source-informed constructions, not reported outcomes of a joint training trial.
+
+##### MDPE.11:4.5.3 - Keep freedom when the passage changes
+
+Change the accent from the midpoint of an interval to a later subdivision, then use a new short sequence of accent places. Keep the selected pulse and required accent character. A performer who can only repeat the first joint pattern still has a useful pattern, but not the range this new passage needs. If the musical reference changes tempo, relocate both the supporting events and the accents within the new intervals. Retaining old absolute accent times would lose their musical relation.
+
+When these choices cannot yet be performed, [MDPE.10:4.6](#mdpe1046---learn-to-vary-accents-over-a-continuing-pulse) develops the needed capability from this construction. During an occurrence, use an already available variant within the agreed material. Omitting an optional tap, as in :4.5.1, can solve that occurrence's problem; a phrase that requires the tap still needs a means of performing it.
 
 #### MDPE.11:4.6 - Direct-Method stop
 
@@ -2934,7 +2997,7 @@ material–description–constraint boundary becomes unclear.
 | [Live Coding: A User’s Manual](https://livecodingbook.toplap.org/book/) and [Algorave guidelines](https://github.com/Algorave/guidelines/blob/master/README_en.md) | Running-code changes and improvisatory composition during performance; visible technical Systems and public conditions. | The sources describe heterogeneous practice, not one universal Method or one local application. |
 | [Kloosterman and van Kempen, NDT production case](https://doi.org/10.1016/j.ccs.2026.100710); see also `MDPE.5:4.2`, *Tell Your Mom You Love Your Skin* | Prepared choreography and production material, rehearsal integration, premiere, direct artifacts, review, and archive. | One production does not supply a universal Dance interpretation Method or moment-by-moment account. |
 | [Shimon project](https://gtcmt.gatech.edu/shimon) | Robot-performed generation and marimba Work, with separate human-led engineering and practice development. | The sources do not establish in-performance generation for every occurrence or robot-held cultural authority. |
-| Timing examples in the [Dance profile](#mdpepreface72---dance-making-movement-usable-for-its-participants) and the local Balboa cases | Continuing carrier, audible onset, weight arrival, perceived rhythmic location, and partner-readable pressure. | A design and observation basis, not a universal exercise order or completed capability result. |
+| Drum-brush explanation in the [Dance profile](#mdpepreface72---dance-making-movement-usable-for-its-participants), drawing on Ed Soph; constructed Balboa occurrence in :4.5 | Continuing movement and a perceptible event within it; a permitted articulation change during performance, with a partner-perceived result and next move. | The movement analogy is Method-design input. The pair and observations are constructed; they establish no empirical generalization, universal exercise order or completed capability result. |
 
 Use a direct field Method when it supplies the same result with less burden. Keep the material–Work distinctions that change the current action or evidence.
 
@@ -3523,6 +3586,8 @@ The next class therefore retains B provisionally and tests it with four unfamili
 conditions. The evidence does not support whole-style recognition, social-floor transfer, long-term learning, or
 the same timing relation for other pairs, tempi, or styles. Reopen the choice if the unfamiliar-partner trials do
 not preserve the observed contrast or if the audio–weight relation changes with tempo.
+
+When the decision instead concerns the variable-accent coordination in MDPE.11:4.5.2, observe both produced contributions. Mark the selected support events, the requested accent places and the actual accents against the same reference; include the supporting event after each accent. A stable recorded reference cannot establish that the learner's own support stayed regular. Sound can locate an audible free-foot accent, while visible loading and the partner's response bear on weight arrival and continuation. A changed accent sequence tests a different claim from replaying the practiced figure; later receiving performance supplies the further evidence required by MDPE.10:4.6. Keep the three-instruction comparison above for its own timing-and-readability decision.
 
 #### MDPE.12:4.2 - Direct Dance-observation Methods
 
@@ -6388,7 +6453,7 @@ domain observations supplied by `MDPE.14`.
 | Coralie Lessard and Ariane Demain Gan, [“Vers un ‘Breaking fédéral et olympique’...”](https://doi.org/10.1080/07053436.2024.2368674), 2024 | A 2019–2023 field inquiry reports partial non-adherence to Olympic breaking and preservation concerns. This adds practitioner, institutionalization, format, and cultural-continuity relations to the judging decision. | The French field case does not represent every breaking population or establish that one arrangement caused a cultural change. Reopen when a direct population or event result changes the response. |
 | Taylor, [“Algorithms, affordances and the ambiguity of credit on TikTok”](https://doi.org/10.1080/10304312.2025.2518971), 2025 | Separates recommendation feed, sound, and caption affordances and shows how informal Dance-credit practices can succeed or fail. This makes attribution and platform relations separate from discovery. | One digital ethnography and challenge case do not establish the origin of every Dance, the causal effect of recommendation, or learning transfer. Reopen when a platform or creator result changes attribution choices. |
 | Blanchet et al., [“Enhancing the Educational Potential of Online Movement Videos”](https://doi.org/10.1145/3706598.3714062), 2025 | Supplies a preview–part practice–fading–integration construction; Study 1's skeleton bundle improves immediate similarity, while its sheet bundle does not. | Study 1 obscures emojis; Study 2's component effects are not significant. Bundle results and preferences establish neither isolated emoji benefit nor durable or partner-Dance transfer. |
-| Timing examples in the [Dance profile](#mdpepreface72---dance-making-movement-usable-for-its-participants) and the local Balboa cases | Distinguishes continuous carriers, discrete articulation, timing centres, and representation choices. It helps recognize conflicts without merging Music and Dance Methods. | It supplies comparison and Method-design input, not one universal timing ontology or shared exercise Method. |
+| Timing examples in the [Dance profile](#mdpepreface72---dance-making-movement-usable-for-its-participants) and the local Balboa cases | Distinguishes continuous contributions, articulation, timing centres and representation choices. For pulse-and-accent work, MDPE.11:4.5.2 develops a common coordination Method through different Music and Dance realizations. | The shared construction informs corresponding practice; it does not make the physical techniques, feedback or acquired skills identical. Each receiving use retains its own requirements and transfer evidence. |
 | [Shimon project](https://gtcmt.gatech.edu/shimon), [mechatronic expressivity study](https://arxiv.org/abs/2007.14850), and [social-gesture study](https://doi.org/10.3389/frobt.2024.1461615) | Supplies configuration-bound actuation, gesture, timing, attention, noise, and musical-plausibility concerns for robotic Music trials. | Separate configurations and studies are not one comparable evidence set and do not establish cultural continuation or human-held development authority for the robot. |
 
 The social-Dance case is a constructed teaching application informed by direct guidance. The breaking cases use
@@ -8306,13 +8371,14 @@ The usable result identifies the onset pattern and fixed origin, hand/action rul
 
 A school can teach better, a competition can become more impressive, and the social occasion that originally made both worthwhile can deteriorate. The difficulty concerns their connections. More difficult figures may retain experienced participants while making newcomers less willing to join; a visible competition result may reward something that partners do not value during a whole evening; protecting a recognizable tradition may also exclude a useful variation.
 
-This account develops a way to change that arrangement. It connects three contributions:
+This account connects four contributions to developing music and movement practices:
 
 - **Renew a shared practice** constructs a response across participation, teaching, recognition and continued use.
 - **Recover the subject of a music or movement claim** resolves consequential ambiguity before a decision relies on words such as *dance*, *kizomba*, *school* or *style*.
 - **Connect stylistic distinctions to Method structure and acquisition** explains what may survive a variation, what a particular observer can recover, and what a performer can learn to do.
+- **Obtain and change a movement organization for partnered performance** connects feasible bodily means, attention and a transition that both participants can continue.
 
-Start with the first contribution when the situation is already clear. Use the other two at the point where unclear meaning or an unexplained difference blocks the work. Reading order is not a required intervention sequence.
+Start with renewal when the difficulty lies in the relations among participation, learning and recognition. Use claim recovery when ambiguous wording blocks a decision, and Method reconstruction when a stylistic difference lacks an explanation of how to obtain it. Use movement organization when a pair needs a wanted movement quality or a workable transition under changing musical or partner conditions. These are situational entries; several contributions may be needed for one task.
 
 ### MDPE.Application:5.1 - Renew a shared practice without losing what makes participation worthwhile
 
@@ -8666,6 +8732,113 @@ The event's organizer can now ask a concrete question: is the difficulty an unav
 The answer changes where to intervene. It may change the clinic, the receiving floor, the task used in a competition, the available help or the claim about what an award establishes. Learning observations can also expose a richer structure than the original style account described, reopening that account and its methods.
 
 This is the connection between cultural renewal and acquisition: the methods and distinctions that a practice makes available affect what participants can learn and use; their attempts and innovations can, in turn, change the repertoire and the criteria by which it is recognized. A project can work on those relations while keeping its contribution and its claims within the reach of the actual participants.
+
+### MDPE.Application:5.4 - Obtain and change a movement organization for partnered performance
+
+Use this method when a pair can perform some familiar movements but cannot yet obtain a wanted movement quality, respond to a musical change or enter another movement organization while continuing together. A teacher can use the same construction to find what the pair needs to acquire. Begin with a short passage that the participants can comfortably attempt, with an agreed way to pause. A workable shared passage is a sufficient result when nothing in the receiving use requires further change.
+
+Here **movement organization** means the way a performer supports the body, prepares and combines movements, and makes the resulting action available to a partner. Two performances can follow the same foot positions and still differ in when weight moves, whether the torso travels continuously, and how the other participant can respond. A remembered figure sequence therefore leaves a real construction question. The historical expression *style engine* points toward a prepared bodily capability that can produce a range of such performances; it does not identify a musical genre, a figure list or the Method used to develop that capability. Use section 5.3 when the stylistic distinction or the Method behind an example first needs reconstruction.
+
+The method below connects receiving requirements, bodily means, attention and transition. It is a source-informed construction for bounded partnered passages, with worked examples.
+
+#### MDPE.Application:5.4.1 - Start from the continuation the participants want
+
+Choose a concrete relation that the passage must produce. For example, both participants should continue a small shared trajectory, perceive when a weight transfer permits the next direction, and respond to a quieter musical phrase without increasing travel. Say which contribution is required and which is optional. An optional flourish can be omitted; a required offbeat cannot be silently removed to make a difficult task appear solved.
+
+Identify the musical material actually used: the pulse or phrase boundary, a selected voice, a change of accent or texture, and the movement relation wanted in response. A change of track or a label such as *tango* leaves these choices unresolved. If the musical relation is unclear, listen to a short passage and mark the event to which the movement should respond. When the purpose permits selecting music, choose or prepare material that makes the intended relation available; MDPE.Application:4 develops rhythmic construction. When the music is given, develop the movement against that material.
+
+Begin from what both participants can presently do together. Agree on an attainable range of movement and a recognizable request to continue, change or pause. That agreement can use sight, touch or speech during preparation; bodily contact is not a prerequisite for every form of partnering. Consider the space actually available around the pair. A trajectory usable in an empty studio may need a smaller extent or another direction among other participants.
+
+#### MDPE.Application:5.4.2 - Use a small joint attempt to find the limiting relation
+
+Try the simplest passage that still contains the wanted relation. Observe where continuation first becomes unavailable. Ask each participant what they detected and intended; an observer's view of foot placement cannot determine what the partner felt. Then change the condition that could distinguish the next repair.
+
+| Observation in the attempt | A discriminating next attempt | What the result can change |
+| --- | --- | --- |
+| The intended action cannot be produced even with an understood cue and time to prepare | Isolate its failed portion: entering support, preparing the moving part or completing the transfer. Try a shorter path or more preparation time while retaining the wanted effect. | Develop or replace the unavailable bodily means before requiring that same action in a harder phrase. |
+| Each participant can perform the movement, but the partner starts the next action at the wrong event | Keep the passage and vary the disputed signal: make the preparation distinguishable from the completed transfer, or expose the cue through an agreed available channel. Ask what was detected. | Repair signal production, access or interpretation; extra repetition of the figure alone may preserve the ambiguity. |
+| Two passages work separately but the join fails | Stop the first at its actual exit state and compare it with what the second needs to begin. Then try a connecting action that supplies the missing condition. | Change the exit, entry or connecting action, rather than assuming that knowing both passages supplies the transition. |
+| The movement works only while its details occupy attention, and consequential partner or musical changes are missed | Repeat a smaller viable passage with one relevant change to notice and answer. | Develop the combined task or keep suitable support; isolated movement success has not yet supplied responsive performance. |
+
+These observations locate candidate explanations. A failure with an unfamiliar partner can concern an unfamiliar convention, fatigue or unavailable support as well as a missing capability. Compare the conditions that would change the repair.
+
+#### MDPE.Application:5.4.3 - Construct usable bodily means at the scale of the gap
+
+Work backward from the failed moment. Which body support and moving part must be available, where must the body be going, and what must the partner be able to detect before acting? Then work forward from the participant's present state. Use an already available means when it supplies that result; otherwise modify a small movement and test what the modification obtains.
+
+For a compact travelling step, first establish which foot carries support and which foot can move. Prepare a reachable placement for the moving foot, carry the body into the intended transfer, and release the previous support only as the new support becomes usable. Compare a shorter step with the original if reaching the foot ahead leaves the body behind and makes the subsequent transfer abrupt. The useful change is the resulting body travel and readable transfer, not shorter distance by itself.
+
+For a continuous torso path interrupted at each footfall, distribute the travel through the interval between transfers instead of saving the whole displacement for the next landing. Keep the familiar transfer timing during this comparison. Reduce the excursion if the participant cannot maintain that path with their own support. A partner can report whether the change makes continuation easier, but should not have to drag the other body through an unavailable movement. If the wanted style instead requires a deliberate arrest or sharp articulation, continuous travel is the wrong target: construct and test that arrest under its own support and continuation conditions.
+
+For an articulation within continuing support, separate the part maintaining support from the part making the articulation, and recover the latter's preparation and return. MDPE.11:4.5.2 supplies a developed Balboa realization and the corresponding drum-brush contrast; RHY.11:4.4.1 explains how pulse and accents can disturb one another. Use those operations intact when this is the limiting relation.
+
+Change one consequential relation first, then restore the whole passage. Candidate changes include beginning preparation earlier, reducing an excursion, taking a different available path or allocating an articulation to a part that is free. Reject a change that removes the very quality or timing required by the receiving use. If the needed action remains unavailable, name that action and obtain suitable instruction, assistance or another means; then retry the passage. A request such as “prepare the free foot and return it before the transfer while support continues” gives instruction a receiving task. “Improve the whole body first” does not yet identify the needed contribution.
+
+The floor and footwear belong to these conditions. If a previously usable step now catches or slides unexpectedly, stop that attempt and reassess the surface, footwear or movement with appropriate assistance.
+
+#### MDPE.Application:5.4.4 - Make attention available for the next consequential change
+
+Select what must be noticed during the next attempt: for example, the partner's readiness for a transfer or the entrance of a musical voice that calls for a change. Keep a viable supporting movement while foregrounding that cue. Try whether the participant detects it, chooses a usable response and continues the passage. Merely reporting that the basic movement feels automatic does not establish that this combined task works.
+
+If attention to a foot detail makes the partner's response disappear from notice, return temporarily to the simpler shared passage. Work on the foot detail in a portion where the interaction remains manageable, and then restore the partner or musical decision. If the cue is inaccessible, change its presentation or the interaction arrangement before prescribing more concentration. If it is perceived but its meaning is unfamiliar, clarify and practise the choice.
+
+The performer can also deliberately return attention to a familiar detail to change movement quality. Familiarity and conscious attention are resources to allocate for this task. Keep assistance when the receiving performance allows it; reduce it when the receiving task requires action without that help. The usable result is the observed ability to maintain the passage and respond under the named conditions.
+
+#### MDPE.Application:5.4.5 - Build the transition from the next entry back to the present movement
+
+Find the entry conditions of the proposed organization: support and free body parts, direction and ongoing motion, available partner cue, and musical time. Compare them with the current passage's actual exit. The relation must work for both participants. The same foot label can refer to different roles in the two bodies.
+
+If the exit already supplies the entry, prepare and signal the change before the partner must respond. If it does not, construct a connecting action: a weight transfer, a return of the articulating part, a change of facing or a supported continuation that supplies time to prepare. Put that action into the musical phrase and test it with the pair.
+
+Check the whole interval across the change. Did the partner detect the relevant preparation in time? Did both arrive with usable support? Did the new movement preserve the selected musical relation, and was a further continuation available? Compare felt clarity, movement and musical timing separately when they lead to different conclusions.
+
+During a performance, use a prepared continuation or recovery that fits the actual response. If the partner is not ready, retain a viable movement or pause rather than forcing the planned entry. An optional change can wait. When the exact change and boundary are required, this fallback preserves what it can but does not fulfil that requirement: seek an earlier preparation, another compatible means or a revised arrangement before claiming the transition solved.
+
+Recalibrate when the partner changes. Establish a small shared movement and a legible change before reusing a transition whose success depended on the previous partner's responses. When musical material changes, reopen the timing or expressive relation it actually alters.
+
+#### MDPE.Application:5.4.6 - Derive learning from the execution that is missing
+
+Use the failed relation to choose practice, following MDPE.10. A learner who does not distinguish preparation from transfer first needs accessible contrasting attempts and feedback on what they detected. A learner who recognizes the transfer but cannot produce the action needs practice of the unavailable support or coordination. A pair whose separate passages work needs practice of the join and the choice to enter it.
+
+Start with a supported joint attempt whenever that is already feasible. Move temporarily to a smaller portion when it makes the limiting action obtainable: for example, prepare the free foot during a supported hold, return it before transferring, then enact the same operation in the shared phrase. The return matters because an isolated success can rely on extra time or attention absent from the performance.
+
+Next, vary the choice within the range already made available. The partner can offer either of two familiar continuations; the performer must notice which is available and respond while the supporting passage continues. Retain feedback on the failed contribution, then try again without an extra cue if the receiving use requires that independence. MDPE.10:4.6 supplies the detailed practice for pulse–accent interference; MDPE.10:4.2 supplies A–B–A comparisons when learned movement organizations become confused across contexts.
+
+Finally, try a consequential change of musical passage or partner, and later return to the task if retained capability is the claim. Change conditions in an order that lets the participants understand the difficulty. Distinguish understanding the construction, performing with the present help and retaining its use under changed conditions. A correct explanation supplies only the first of these.
+
+#### MDPE.Application:5.4.7 - Two connected constructed cases
+
+**Connection through a small travelling passage.** Maya and Lin want comfortable continuous travel over four musical pulses and a readable change of direction at the next phrase. Both can already step and pause together. Maya copies the foot positions from a demonstration, but reaches far ahead, leaves the torso behind and then pulls through the contact to catch up. Lin reports detecting that pull as the instruction to turn before Maya has completed the transfer.
+
+The pair keeps the four transfer times and reduces the step extent. Maya prepares a reachable placement and carries the torso through each interval as the weight changes, without the extra catch-up pull. They first compare one transfer, then restore all four and the direction change. In the stipulated result, Lin can distinguish the transfer from the subsequent change and both continue. This is a change in the organization producing the passage, although the figure names and coarse foot sequence remain the same.
+
+The first success requires Maya to watch the feet throughout. When a quieter musical phrase begins, Maya misses it and keeps travelling at the earlier extent. The task is therefore still incomplete. They repeat the smaller shared passage with a prepared choice: continue the same extent or make the next phrase more compact when that musical change occurs. Lin's response remains part of each attempt. With feedback and a manageable passage, Maya later makes the choice while retaining readable transfer. This stipulated improvement illustrates the target of practice.
+
+Another partner reports the change as abrupt. Maya returns to a small shared passage and adjusts preparation with that partner before reusing the direction change. The earlier result remains useful for Lin; it did not establish universal readability. Either partner may also report a feeling of unity, but that experience is a further result, not a measurement of the transfer mechanism.
+
+**Fusion through a prepared change of bodily roles.** Maya and Lin can travel with continuous torso motion and a full weight transfer on each pulse. Separately, they can stop on their own support, maintain a small regular body pulse over the supporting leg, articulate two events with the free foot and resume travelling. Their chosen response to a new phrase keeps that pulse while the accompaniment becomes sustained, marks two short events on counts 5½ and 6½, and resumes travel with a full transfer on 7. This response requires both accents and the continuing pulse; it permits holding support on 4 and makes a free-foot touch on 4 optional.
+
+The initial join fails. After the transfer on 3, Maya is supported on the left foot and Lin on the right. Their usual full transfer on 4 would load Maya's right and Lin's left foot—the feet with which they learned the next articulations. They change that particular transfer. First they shorten the step onto the supports used on 3 and finish the forward travel before 4. On 4, each touches the free foot to the floor without putting weight onto it, then returns it beside the supporting leg before the first accent. Maya remains supported on the left and Lin on the right. Their already available supported body pulse continues through the hold. After the second accent, they prepare a reachable placement for the full transfer on 7. A version requiring a full transfer on 4 would need a different construction.
+
+They also obtain a timely cue. During preparation, both agree that Maya's small palm-up gesture means “keep this support on the next pulse”; Lin's nod confirms receipt. Both have a free hand and an available sight line. They first try this with one transfer and the following hold. Maya presents the gesture on 3, after reaching support; Lin must perceive it and confirm before the expected transfer on 4. They compare a cue arriving after Lin has begun that transfer with one arriving while Lin can still choose the hold. They ask what Lin detected and observe which action followed. In the stipulated timely attempt, both retain the intended support. If confirmation is absent, Maya uses their prepared continuation instead of assuming that the planned hold has become available.
+
+They now restore the complete phrase at an attainable tempo: approach, cue and confirmation, unweighted touch and return, held pulse with the two accents, then transfer on 7 and continued travel. RHY.11:4.4.1 and MDPE.11:4.5.2 supply the selective timing work inside the hold. The transition supplies those operations' support, free foot and cue, and connects their result to travel. In this constructed successful attempt, both accents occur, support remains usable and both participants resume together.
+
+A faster passage then places the first required accent on 4¼. The optional touch on 4 now leaves too little time for either free foot to return to its prepared position before that accent. They remove that touch: after the transfer on 3, each brings the free foot directly to the accent's prepared position before 4. The held support and regular body pulse continue; the agreed cue still has to be perceived before 4. In the changed trial, both can make the earlier accent, retain the second accent and transfer on 7. If the receiving choreography also required the touch on 4, removing it would fail that task; they would need another obtainable preparation or articulation and a new whole-phrase attempt.
+
+These cases use one construction at different failure points: obtain a movement relation, make the partner's response available within it, supply the entry conditions of a changed organization, and return learning to that whole. They do not establish that the resulting passage belongs to a recognized style. Section 5.3 supplies that separate comparison, and section 5.1 addresses what happens when a community adopts, rewards or rejects the variant.
+
+#### MDPE.Application:5.4.8 - Grounds, evidence and limits
+
+Levenchuk's [account of kizomba connection](https://ailev.livejournal.com/1315064.html) supplies practice observations linking torso and leg action, readable weight, attention, musical voices and partner response. Its technical proposals are school- and situation-dependent, and it also allows interaction without touch. The [style-engine example](https://ailev.livejournal.com/1373388.html), [movement holarchy](https://ailev.livejournal.com/1371120.html) and [multidance discussion](https://ailev.livejournal.com/1370125.html) motivate prepared bodily means and their use through changing material. They leave arbitrary style design and rapid acquisition open. The connected method and the cases above are a new construction developing that question.
+
+Keep the posts' explanations about particular muscles, myofascial chains, tensegrity and NLP separate from their useful practical proposals. The present construction does not depend on those explanations. A claim about which tissue or neural process causes a result needs evidence beyond visual resemblance or a participant's description of felt unity.
+
+[Fitch and Barnstaple (2024)](https://doi.org/10.1186/s12868-024-00894-9) propose both automatization and deliberate renewed attention to movement details; their account is a theoretical perspective with testable predictions. [Wiese, Ambegaonkar and Martin's review (2024)](https://doi.org/10.1123/jsr.2023-0047) reports mixed results from four studies of attentional focus in movement performance. [Zeng, Zhang and Wang (2026)](https://doi.org/10.3389/fpsyg.2026.1916455) examine heterogeneous study-level effects in the broader attentional-focus literature, and explain why study-level summaries do not establish an individual participant's response. These accounts support considering the specific task and observed response; they do not select one attention cue for every partnered passage.
+
+[Charbonneau, Andrade Chavez and Mombaur (2024), §§V–VIII](https://arxiv.org/abs/2408.05301) compared haptic, visual and spoken signals in a robot-led box-step interaction. Participants' confidence and comfort did not always favour the same signal. The study had no music and limited reciprocal interaction, so its findings cannot validate human fusion or the method above. It offers a useful empirical contrast for checking readability and comfort separately.
+
+Recognizing one of these difficulties is enough to choose a small inquiry. Assurance for a particular pair requires observing the passage, the transition and its continuation under the conditions being claimed. Successful reading, a constructed case or a solo demonstration cannot substitute for that joint performance. Reopen the affected choice when the intended musical relation, partner response, available bodily means or performing conditions change.
 
 ## MDPE.Application:End
 

@@ -3,7 +3,7 @@
 > A pattern language for recognizing, representing, shaping, performing, learning and observing rhythmic relations.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 21 September 2026 · [Edition and reuse](#edition-and-reuse)
+- **Version:** 7 October 2026 · [Edition and reuse](#edition-and-reuse)
 - **License:** © 2026 Anatoly Levenchuk. Original framework text: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Third-party material retains its own terms.
 
 Begin with the passage and the result you need. The Table of Contents supports direct use; the Readme shows selected combinations; the Preface explains their conditions, sources and architectural reasons. **RHY** is this framework's reference code. Its pattern numbers are addresses; the Parts group reading rather than prescribe work order.
@@ -610,6 +610,8 @@ Select a viable combination, retain alternatives with different costs, or state 
 Explain what must remain, what may vary, and what warns that the combination has failed. The instruction can be short: “keep the underlying sound through the accent and leave the next sweep available.”
 
 Treat a successful trial as evidence for its performed conditions. If the combination requires a missing coordination capability, develop that contribution and reintegrate it into the activity. A sequence of exercises does not by itself establish that the simultaneous contributions have become usable together.
+
+When the performance additionally requires a regular pulse with a changing choice of accents, use RHY.11:4.4.1 to construct that coordination. Retaining contact alone leaves the pulse period and accent placement unsettled. RHY.12:4.2.1 derives practice from the required joint action; it is useful when the performer cannot yet realize that action with the available technique.
 
 ### RHY.3:5 - Archetypal Grounding
 
@@ -1830,6 +1832,8 @@ When the parts already coexist as required, use that performance directly. A les
 
 A description can place several parts on the same time line without giving a performer a way to realize them together. Conversely, forcing every part onto the same accents can make execution easier while removing the intended rhythm. Separate success, aligned notation and a shared count leave joint production unresolved.
 
+A particularly demanding instance combines a regular pulse with accents whose places can be chosen relative to it. The accent may shorten the next pulse interval or make the sustaining movement stop. Conversely, the regular movement may pull the accent towards its own convenient turning point. The intended result retains both the pulse and the chosen accent placement. Learning one fixed combined figure can supply that figure without yet supplying freedom to change the accents.
+
 ### RHY.11:3 - Forces
 
 | Force | Practical tension |
@@ -1872,6 +1876,24 @@ Use a familiar feasible means to make the wanted relation perceptible and execut
 Try the parts together. Then restore the omitted contribution whose addition matters next. Keep the common landmarks and each part's own organization. If one part begins copying the other's accent or tempo, return to the specific relation that was lost rather than restart unrelated learning.
 
 Choose changes compatible with the actual technique. A slower tempo can alter balance, gesture, phrasing or control demands; success there supports only the corresponding conditions. Do not infer full-tempo capability from the diagram or slower construction.
+
+##### RHY.11:4.4.1 - Keep a common time while allowing different actions
+
+For a pulse with independently chosen accents, first distinguish the time being maintained from the movement used to maintain it. A regular pulse has recurring events at the required intervals. Its producing movement can accelerate, slow down, reverse and redistribute effort within each interval. A brush circle and a standing leg's pressure–release need not have constant instantaneous speed or force.
+
+**Give both actions one recoverable temporal relation.** Establish the beat, phrase or other reference that the passage uses, and locate the accent relative to it. Hear, speak, demonstrate or represent the combined result with its actual gaps. An accent halfway between beats must remain halfway between them; placing it on the next beat changes the result. When an external metronome supplies the pulse, the performer's accent cannot physically alter that pulse. When the performer also produces the supporting movement, the actions share bodily resources and can disturb each other. The external reference can expose that disturbance while the performer constructs the joint action.
+
+**Prepare the accent within the continuing action.** Choose a realization whose preparation and recovery fit between the required events. Keep the supporting movement going while the other contribution approaches its target. Start that approach early enough for the intended sound, contact or weight event to arrive at its chosen place. If the accent is late because its excursion takes too long, begin the preparation earlier or use a smaller feasible excursion while preserving the required articulation. Starting every preparation on a beat is unnecessary when the accent belongs elsewhere. A demonstrated combined phrase can make these overlapping preparations recoverable.
+
+**Allocate effort according to the two results.** Give the accent a controllable means of articulation: a local change of pressure, a stroke, a free-limb movement or a different already available technique. Avoid recruiting a whole supporting movement merely because it makes the accent easier. For example, a short stroke can articulate while the other hand completes its sweep; an unloaded toe contact can articulate while the standing leg continues its pressure–release. The actual technique must preserve balance, contact, sound and continuation. Compensating changes of effort may help preserve the pulse: useful coordination does not require every part of the body to remain physically unchanged.
+
+**Correct the contribution that missed its target, using the intended relation.** Attend to the pulse before and after the accent as well as to the accent's place. If only the accent was late, change its preparation or articulation; do not make its accidental arrival the next starting point of the pulse. If the supporting cycle lengthened, restore that cycle against the selected reference and inspect the accent again. If both drifted together, their mutual agreement alone can hide loss of the musical reference. RHY.10 supplies a permitted phase or tempo correction when the whole reference actually needs to change. During a dense passage, act through the familiar coordinated movement and assess a short trace afterwards instead of trying to issue a separate conscious command for every muscle.
+
+**Keep choices available within a feasible range.** Move the next accent to another required place while retaining the support. Later change the tempo or reference as the passage requires, and relocate the accents accordingly. This retains the useful timing connection while reducing interference between the actions. A technique that works only at one habitual phase needs further development if the intended use demands other phases. If an accent requires the same support, space or recovery time needed by the next pulse, change its means or the performing arrangement. Removing a required accent or moving it to an easier beat does not satisfy that version of the task.
+
+This is selective coupling in the practical sense: share the timing that the passage needs, while controlling preparation, articulation and correction so that one contribution does not impose its unwanted changes on the other. A performer may organize a familiar combined pattern as one action or use more separately controlled contributions; the description does not require one particular internal clock. RHY.12 develops the missing coordination through practice of this joint result.
+
+The same construction can be tried beyond a particular instrument when the receiving activity has a continuing temporal contribution, a separately variable articulation, means to realize both, and feedback that distinguishes their two errors. Singing a varied phrase over a beat gesture is one such use. A machine can realize comparable timing requirements through scheduling and suitable actuators, but its control implementation and qualification are engineering work. Matching the requirements supports reuse of this construction; it does not transfer an already acquired human skill.
 
 #### RHY.11:4.5 - Keep the combination that serves the passage
 
@@ -1919,6 +1941,18 @@ Suppose separate attempts preserve the swell and place the accent correctly. In 
 
 Keep the second combination locally. Coincidence of attack marks would not distinguish the two results: the continuous course is the deciding relation. RHY.3 supplies a new carrier/articulation construction if no available means retains it.
 
+#### RHY.11:5.4 - Move an accent without moving the pulse
+
+Consider a constructed four-beat passage. The supporting events belong at beat positions 0, 1, 2 and 3; the next phrase begins at 4. A second contribution must articulate at 1.75. The performer has a manageable sustaining movement and a short articulation, but their combination is unsettled.
+
+The performer first hears or demonstrates the joint result: the accent falls three quarters of the way from beat 1 to beat 2, and the next supporting event still arrives at 2. Preparation begins before 1.75. In a stipulated first attempt, the accent arrives at 1.75 but its large preparatory movement delays the next supporting event to 2.15. In a second attempt, support stays at 2 but the accent waits for that familiar movement phase and also lands at 2. These are different failures.
+
+For the next candidate, the performer uses a smaller already learned articulation, begins its preparation early enough to reach 1.75, and continues the supporting movement through both preparation and release. In the stipulated trial, the accent arrives at 1.75 and the next supporting events remain at 2 and 3. The change preserved both targets; merely reducing the accent until it vanished would not have done so. The numbers make the intended relation inspectable and are not universal timing tolerances.
+
+Now request accents at 0.5 and 2.75 in the following phrase. The performer must prepare those events within the same continuing pulse rather than replay the first combined figure. If the pulse stays regular but an accent slips to a beat, the new choice remains unavailable. If the intended tempo then changes, both supporting intervals and accent locations must change together. Keeping the old absolute accent times would preserve isolation at the expense of synchronization.
+
+This worked construction distinguishes a successful local coordination from an acquired range of choices. The concrete brush and partnered-movement realizations are developed in [MDPE.11:4.5](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#mdpe1145---balboa-brushes-and-event-timing); their related practice is in MDPE.10:4.6. The particular means, partner response and available recovery decide whether the construction fits each use.
+
 ### RHY.11:6 - Bias-Annotation
 
 A common grid is especially convenient for simple ratios and can bias analysis towards discrete commensurate parts. Continuous courses and flexible phrasing need their own retained relations. The worked attempts are constructed demonstrations, not reports of learning speed or evidence that a given cue works for all learners.
@@ -1929,6 +1963,8 @@ A common grid is especially convenient for simple ratios and can bias analysis t
 - Shared landmarks or flexible relations are sufficient for the intended coordination.
 - Simultaneous demands and continuation are considered under the actual allocation.
 - The combined result is distinguished from separate success or a compatible diagram.
+- A pulse-and-accent use checks pulse regularity and requested accent placement separately, including continuation.
+- Claimed freedom of accent choice includes a changed choice; a change of reference retains the required synchronization.
 - A failure returns to its relationship, allocation or capability question.
 - Support and changed conditions qualify the retained result.
 
@@ -1959,6 +1995,14 @@ Nelson's *Solkattu Manual* (2008), printed pp. 15–17, supplies the explicit co
 Toussaint's *The Geometry of Musical Rhythm*, second edition (2020), supplies useful discrete rhythmic constructions and action-allocation comparisons. A grid makes such relations calculable; continuous courses and actual joint capability require additional content.
 
 Cha's [Takadimi reconsideration](https://doi.org/10.1177/0305735614528063) proposes added syllabic information. Birch and Walsh's [conducting response](https://www.music.org/images/conf/reg/ne/2022_NE_Schedule_20220214.pdf#page=18) instead proposes a maintained gestural reference. That reference does not itself distinguish sustained sound from silence. Their comparison supports using complementary layers while retaining what each supplies. General joint coordination here is a conceptual synthesis; source examples do not prove its effectiveness in every movement or equipped performance.
+
+For the specific question of pulse and freely placed accents, the useful line is a shared temporal relation with task-dependent realization and correction. Historical laboratory anchors expose why simple addition is insufficient: [de Rugy and Sternad (2003)](https://doi.org/10.1016/j.brainres.2003.09.031) report phase-dependent interaction in combined discrete and rhythmic elbow movements; [Calvin, Huys and Jirsa (2010)](https://doi.org/10.1037/a0020403) report that a discrete wrist movement can accelerate or decelerate the other wrist's rhythmic movement. These bounded findings motivate examining both directions of interference; neither supplies a brush or Balboa teaching technique.
+
+[Krampe et al. (2000)](https://doi.org/10.1037/0096-1523.26.1.206) found different timing organizations across tempi in professional pianists' two bimanual tasks. Use this as a reason to retain several ways of organizing performance and to recheck changed tempo. A common temporal target does not establish a single biological timing mechanism.
+
+[Mårup, Møller and Vuust (2022)](https://doi.org/10.1038/s41598-022-11783-8) compared rhythm/beat role assignments across voice, hands and feet in right-handed participants; assignment affected joint performance even though the parts could be performed separately. [Mårup et al. (2024)](https://doi.org/10.1016/j.cortex.2023.11.019) found related performance differences in professional musicians under the studied assignments. Consider allocation as one changeable condition. These experiments do not establish a universal ranking for other bodies, continuous brush motions or partnered weight transfer.
+
+Use an adequate learned combined pattern directly when the passage is fixed. Develop the additional range of accent choices when the receiving performance needs it. Reconsider the chosen realization when a changed phase, tempo, support or allocation exposes interference that the current means cannot resolve.
 
 ### RHY.11:12 - Relations
 
@@ -2021,6 +2065,20 @@ Keep enough of the passage to include preparation, the troublesome relation and 
 RHY.3 and RHY.9–RHY.11 supply the underlying performance constructions. The exercise develops the learner's ability to carry out the selected construction. If a representation omits a needed duration or grouping, repair that input through RHY.5 or RHY.6; additional repetition cannot recover information that was never supplied.
 
 Choose assistance by its contribution. A beat gesture can keep a reference available while the learner articulates a phrase. It does not by itself say whether an unarticulated beat contains sustained sound or silence. A recording can supply timing but cannot respond like a live partner. Demonstrate the relation using the assistance that is actually available.
+
+##### RHY.12:4.2.1 - Derive practice from the pulse-and-accent construction
+
+RHY.11:4.4.1 defines the joint performance to acquire: keep the supporting time, place the selected accents relative to it, and continue. The two possible losses explain why the same practice construction can serve brush playing and partnered movement, although their movements and feedback differ.
+
+Begin with enough bodily or instrumental preparation to perform a manageable supporting action and an identifiable accent. Where either is unavailable alone, obtain that technique first. Then establish a short joint target containing preparation, one accent away from a convenient support landmark, and at least the following supporting event. A teacher can demonstrate the combined timing or let an external reference carry time while the learner places the accent. Bring the learner's own supporting action into that same relation; the external reference remains available to reveal whether it was perturbed.
+
+Use a short attempt and distinguish two questions: did support keep its intended period and course, and did the accent reach the selected place with the required character? A recording, visible movement and bodily feedback can reveal different parts of this answer. In partnered work, include the partner's usable continuation. A clear tap does not establish a clear weight event. When immediate commentary would disrupt the coordination, give the actionable correction after the phrase.
+
+If the support changes at the accent, identify the additional movement or effort that pulled it away and try a smaller or differently allocated articulation that still meets the task. If support is steady but the accent waits for an easy phase, advance its preparation or change its path while retaining the chosen arrival. Demonstrate the revised overlap and retry it. Return briefly to a component only to recover the needed means, then rejoin both contributions. Repeating them separately cannot reveal whether their interference has changed.
+
+Once a manageable combination is available, change the required accent place and then its sequence of places while keeping the support. Include offbeat positions that the intended repertoire uses. Give an announced target enough lead time for its preparation; an unpredictable command arriving too late introduces a different reaction task. Add a change of intensity, limb role, tempo, phrase or partner only when that choice matters to the later performance. A repeated loss selects the affected relation for repair rather than a compulsory return to the first exercise.
+
+When later performance needs its own temporal reference, reduce the extra metronome or teacher count and check the spaces it no longer supplies. Keep the instrument, music, partner contact and other supports belonging to that performance. Test a new required accent sequence, a relevant change of reference and later retention when those claims matter. This distinguishes flexible synchronized articulation from a memorized combined pattern or an exercise sustained by coaching. The shared difficulty derives the exercise family; it does not prescribe identical physical cues, practice duration or progression speed for every learner.
 
 #### RHY.12:4.3 - Perform, locate one changeable action, and retry
 
@@ -2091,6 +2149,7 @@ Counting fluency can hide missing control of duration or movement. A familiar te
 ### RHY.12:7 - Conformance Checklist
 
 - The exercise develops a named rhythmic relation in a recognizable passage.
+- For variable accents over a pulse, it exposes errors in both contributions and restores their joint performance after a local correction.
 - Target information, assistance and required bodily or instrumental technique are available.
 - Feedback changes an action the learner can attempt.
 - The developed contribution returns to its simultaneous use in the passage.
@@ -2125,6 +2184,7 @@ General development design, feedback and scheduling remain in HCD. The domain co
 | --- | --- | --- |
 | Nelson, *Solkattu Manual* (2008), phrase against gesture and rate changes | Practise a stable reference together with a phrase whose grouping differs from it. | A specific teaching tradition supplies useful constructions, not a universal sequence for every rhythm learner. |
 | Cha, “The Takadimi system reconsidered” (2015), compared with Hoffman–Pelto–White and beat-gesture teaching | Recover implicit beats and duration information before interpreting a failed performance. | Explicit continuation/rest syllables and an accessible duration-bearing demonstration are alternatives; comparative teaching superiority is not established. |
+| [Chiou and Chang (2016)](https://doi.org/10.1371/journal.pone.0149221) | In a trained 90-degree bimanual task, performance after feedback withdrawal differed with the information supplied during practice. Check what a display or cue contributes before claiming later independence. | The small study excluded learners who did not reach its practice criterion. Its fixed phase task supplies neither a universal feedback regime nor evidence for free accent choice or partnered movement. |
 | [Caramiaux et al. (2018)](https://doi.org/10.1371/journal.pone.0193580) | The study measured timing and movement separately in immediate post-practice transfer tests. It did not test delayed retention. Use the demanded contribution to choose practice variation. | Different measures responded differently; greater tempo variation was not uniformly beneficial. This bounded result supplies no general schedule. |
 | [Plitchenko, Bégel and Palmer (2024)](https://doi.org/10.3389/fnhum.2024.1381232) | Their solo/joint musical task makes the return from individual practice to actual interaction a distinct question. | The solo-feedback manipulation did not directly change the immediately following joint asynchrony measure; fitted coupling differences are a different result. Do not prescribe one feedback regime from the model alone. |
 
