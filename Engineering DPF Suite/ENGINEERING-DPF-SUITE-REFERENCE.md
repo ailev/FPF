@@ -197,6 +197,7 @@ Section addresses use `Engineering.Reference:n` and nested numbers. They identif
     - [Engineering.Reference:26.4.3 - Learn a strategy together with its execution](#learn-a-strategy-together-with-its-execution)
     - [Engineering.Reference:26.4.4 - Learn actions whose value persists across sessions](#learn-actions-whose-value-persists-across-sessions)
     - [Engineering.Reference:26.4.5 - Transfer a procedure through teacher-guided learning](#transfer-a-procedure-through-teacher-guided-learning)
+    - [Engineering.Reference:26.4.6 - Select what to learn and reassess the support that remains](#select-what-to-learn-and-reassess-remaining-support)
   - [Engineering.Reference:26.5 - Derive an audit policy from the real decision times](#engineeringreference265---derive-an-audit-policy-from-the-real-decision-times)
   - [Engineering.Reference:26.6 - Recalculate when auditing is fallible](#engineeringreference266---recalculate-when-auditing-is-fallible)
   - [Engineering.Reference:26.7 - Obtain the measurements and enact the audit](#engineeringreference267---obtain-the-measurements-and-enact-the-audit)
@@ -3350,7 +3351,7 @@ Finish the lookup when you have an answer usable for the current decision, or a 
 
 ## Engineering.Reference:26 - Construct a guard, a learning update and an audit policy
 
-**Use this when an agent's proposed action must be checked, its repeated choices need improvement, or scarce checking effort must be allocated.** A control requirement does not yet supply an executable check. Logged feedback does not yet supply a learning update. A good detector does not yet say which actions to inspect. The constructions below fill these three gaps on a service-configuration example. The learning applications address decisions separated by tool observations (26.4.1), allocation of training attempts (26.4.2), strategy and conditional execution (26.4.3), consequences retained across sessions (26.4.4), and teacher-guided procedure transfer (26.4.5). Enter at the gap you have; obtaining a guard does not require training a model or calculating an audit policy.
+**Use this when an agent's proposed action must be checked, its repeated choices need improvement, or scarce checking effort must be allocated.** A control requirement does not yet supply an executable check. Logged feedback does not yet supply a learning update. A good detector does not yet say which actions to inspect. The constructions below fill these three gaps on a service-configuration example. The learning applications address decisions separated by tool observations (26.4.1), allocation of training attempts (26.4.2), strategy and conditional execution (26.4.3), consequences retained across sessions (26.4.4), teacher-guided procedure transfer (26.4.5), and selective acquisition with remaining support (26.4.6). Enter at the gap you have; obtaining a guard does not require training a model or calculating an audit policy.
 
 The reader is an agent-system engineer who can inspect typed calls and run short Python calculations. The example supplies a local policy, a finite learner and a two-step decision model. For deployment, the engineer still needs the actual authority, authenticated service facts, qualified execution interface and evidence about the receiving task population. The numbers below are stipulated teaching inputs. A calculation or a fixture run establishes its conditional result, not deployed protection or successful training of a language model.
 
@@ -4416,6 +4417,212 @@ When collection latency is the problem, [ActFirst-OPD v1, §§3–4](https://arx
 Return the trained policy together with its input meaning, action representation, runner and applicable observation/checking conditions. Compare the first learned result and consequential branches through SYSE.45:4.4 and SYSE.46. Count obtaining and qualifying demonstrations, probability queries, scoring candidate demonstrations, training, failed attempts and later execution. For the finite offline construction there are three teacher episodes, seven generated decisions and five service/interface calls; four selected histories receive the update. The online construction separately collects two student episodes with four decisions and two status calls, and scores those four choices with the teacher. Later tests are additional execution.
 
 Preserve a direct rule, unweighted learning or an adequate fixed dataset as a serious alternative. Test changed interfaces, failed calls followed by valid recovery, shared teacher mistakes and missing live information. CoA transfers role-labelled decisions while retaining external execution; SAD changes selected supervision only when its representation, weighting or reduction actually changes; SOD attenuates a teacher contribution on reached histories. These distinctions determine what to implement and what to repair. A lower imitation loss, lexical resemblance or successful final answer alone cannot establish that the useful procedure survived.
+
+
+<a id="select-what-to-learn-and-reassess-remaining-support"></a>
+
+#### Engineering.Reference:26.4.6 - Select what to learn and reassess the support that remains
+
+**Use this when a recurring contribution costs enough to obtain that learning it, changing its guidance or supplying it another way could improve the whole work.** Obtain a candidate performer together with the support it will actually use, then compare that arrangement with continuing adequate help. The result can be a learned contribution, retained guidance, a reusable operation or competent service.
+
+Start with one receiving result and the contribution that currently limits it. Keep the task population, performer, guide library, routing, execution and result criterion visible. Use C.38/C.11.CRC for the complete alternatives and [SYSE.45](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse45---train-an-llm-policy-from-qualified-interaction-experience) for a selected parameter change. A changing fact needs a current source; a stable interpretation or operation may be a learning target. An inexpensive adequate aid or a one-off task can make further development unnecessary.
+
+##### Compare an intervention that can answer the question
+
+Consider a read-only setup assistant. It must express a requested duration in seconds, obtain the current permitted range and report the converted value, rule revision and whether the request is within that range. The duration interpretation recurs; the permitted range can change. The runner supplies arithmetic operations and a current-rule read. Both remain available through the comparison.
+
+Two guides, `a` and `b`, offer the same duration interpretation through different entries. The following are stipulated probabilities of completing the whole report correctly on the selected task population, with policy, routing, task distribution and other support fixed.
+
+| Guidance present | Correct completion before development |
+| --- | ---: |
+| `a,b` | 0.90 |
+| `a` | 0.90 |
+| `b` | 0.90 |
+| none | 0.20 |
+
+Whole-guidance versus no-guidance comparison gives a difference of `0.70`. Removing only `a` gives zero; removing only `b` also gives zero. Each zero answers a question about the arrangement containing the other guide. Removing both produces `0.20`. If the receiving floor is `0.85`, retaining either guide is adequate under these assumptions, whereas joint removal is not. After removing one, re-establish the comparison before removing the other, or test the proposed joint composition directly.
+
+Now consider an aid with `0.20` correct completion both present and absent. Its zero difference accompanies inadequate work. Examine whether it was retrieved, available before the decision, understood and usable; whether its instruction was correct; and whether another required contribution was missing. That comparison supplies no grounds for declaring the operation acquired. At a high adequate rate, the same zero could instead make removing that aid worthwhile, subject to the remaining joint conditions.
+
+For an operating comparison, select the intervention before collecting its data. A whole-bank comparison measures that bundle. A one-guide removal needs the same policy, task weighting and remaining composition; replacing the missing retrieval with another guide changes the intervention. If several guides or the router change, compare the resulting arrangement. Preserve the cases on which a returned instruction was ignored or misleading. Use SYSE.49/.46 to obtain and qualify the outcome basis, including uncertainty that can change the decision. Adaptive observations can choose the next intervention; reserve a separate final comparison for the reliance placed on the selected arrangement.
+
+The primary techniques make different choices at this point. [SKILL0 v2, §3](https://arxiv.org/pdf/2604.02268v2) ranks guidance under a budget scheduled to reach zero; its whole-bank and individual-removal formulations need to be distinguished when implementing the comparison. A zero endpoint can remove still-useful help. [SLIM v2, §3](https://arxiv.org/pdf/2605.10923v2) instead uses exposure, smoothed removal differences and repeated low contribution before retirement, and can add guidance for persistent failures. Freeze the comparison composition, or deliberately assess the changed bundle after each mutation. Neither rule makes individual retirement proof of acquired capability or protects it from later forgetting.
+
+##### Turn selected guidance into a qualified learning target
+
+Choose the recurring *operation*, not merely a file with a favorable score. Here `a` and `b` are alternative suppliers of the same interpretation. Retain one while developing that interpretation; keep the current range read and arithmetic execution. Recover a useful action at a history where the intended learner has the inputs that warrant it. Qualify the action against the unit definition and required report. A guide may help a teacher produce that target; its presence does not qualify every resulting action.
+
+[SIRI v1, §3](https://arxiv.org/pdf/2606.02355v1) offers one selective construction: induce guidance from interaction experience, compare assisted and unassisted group returns, and use positively credited guided actions as targets for the policy without that guidance. Its group benefit covers the retrieved bundle. The student still needs the actual decision history and observations. [Skill0.5 v1, §3](https://arxiv.org/pdf/2605.28424v1) offers a hybrid: retain particular guidance while using task difficulty to choose guided demonstrations or outcome learning. An empty set of successful demonstrations supplies no imitation target. Choose the actual loss and probability domain through [26.4.5](#transfer-a-procedure-through-teacher-guided-learning); a truncated distribution or implementation-specific reward needs its own meaning.
+
+The finite fixture uses milliseconds and minutes equally often. For milliseconds, output `1` selects division by 1,000 and output `0` leaves the amount unchanged. For minutes, output `1` leaves the amount unchanged and output `0` selects multiplication by 60. Qualified targets are therefore `(1,0)`. The actual numeric amount remains an input to the retained arithmetic operation. This representation fixes which interpretation can change; new unit conventions need a new applicable definition or another representation.
+
+Let `p_j = sigmoid(theta_j)` be the probability of output `1` in input class `j`. With equally weighted qualified targets `y=(1,0)`, minimize
+
+`L = -[log(p_0) + log(1-p_1)]/2`, with `dL/dtheta_j = (p_j-y_j)/2`.
+
+Starting at `theta=(-ln 4, ln 4)`, both interpretations have probability `0.20` of the correct action. Four updates with step size `eta=4` give:
+
+| Update | `theta_0` | `theta_1` | Correct completion without either guide |
+| --- | ---: | ---: | ---: |
+| 0 | −1.386294 | 1.386294 | 0.200000 |
+| 1 | 0.213706 | −0.213706 | 0.553224 |
+| 2 | 1.107258 | −1.107258 | 0.751617 |
+| 3 | 1.604023 | −1.604023 | 0.832580 |
+| 4 | 1.938863 | −1.938863 | 0.874227 |
+
+The exact rates follow from this finite action model and its assumed reliable remaining operations. The fourth update meets the stipulated `0.85` floor without `a` or `b`. It remains below the unchanged aided performer's supplied `0.90` rate. Preserve both arrangements for the whole-result comparison; satisfying a floor does not settle whether a loss of accuracy is worth a saving in support. The trained performer with a guide is another joint arrangement to assess.
+
+The target also determines which trace positions enter the loss. Consider a trace containing a user's request, the assistant's current-rule call, the returned rule and the assistant's report:
+
+| Trace position | Action-imitation output target | Whole-sequence prediction target |
+| --- | --- | --- |
+| User request | Context | Predict the recorded request |
+| Assistant call | Selected generated action | Predict the recorded call |
+| Observed rule | Context for the next action | Predict the recorded return |
+| Assistant report | Selected generated action | Predict the recorded report |
+
+[daVinci-Dev, ICML 2026, §§2–3](https://proceedings.mlr.press/v306/zeng26d.html) uses full-sequence mid-training followed by action-masked fine-tuning. Such a target switch changes what the fit means. A failed attempt can supply a recorded sequence without supplying actions to imitate as successful conduct. Retain whether its context was observed during the attempt or reconstructed with hindsight. A predicted rule remains a prediction; the current-report task consumes an actual current rule. The finite update here fits the two selected interpretation actions.
+
+##### Run the changed performer with its joint remaining support
+
+Before testing withdrawal, bind the learned actions to the actual runner and define the assistance rule. For the two familiar unit classes, the candidate uses its learned interpretation. A new unit returns the need for its current definition. Every report still needs an applicable current-rule observation; once that evidence is supplied for the task, further retrieval can stop. Use SYSE.50 for the help decision, SYSE.51 for useful effort and completion reserve, and SYSE.47/.52 for the implemented continuation and input. Requalify those decisions when their performer, input or support changes.
+
+This Python fixture calculates the update and executes subsequent reports. The snapshot passed through `current` is stipulated current for that task; a real adapter must obtain the corresponding freshness grounds. The calls return read-only reports. The success function computes the finite learned performer's rate; the earlier table separately supplies the unchanged aided performer's rates.
+
+```python
+from math import exp, log
+
+def sigmoid(x):
+    return 1.0 / (1.0 + exp(-x))
+
+def loss(theta):
+    p = [sigmoid(x) for x in theta]
+    return -(log(p[0]) + log(1.0 - p[1])) / 2.0
+
+def update(theta, eta=4.0):
+    targets = (1.0, 0.0)
+    gradient = [(sigmoid(x) - y) / 2.0
+                for x, y in zip(theta, targets)]
+    return [x - eta * g for x, g in zip(theta, gradient)]
+
+def success(theta):
+    return (sigmoid(theta[0]) + 1.0 - sigmoid(theta[1])) / 2.0
+
+theta = [-log(4.0), log(4.0)]
+history = [(0, tuple(theta), success(theta))]
+for step in range(1, 5):
+    theta = update(theta)
+    history.append((step, tuple(theta), success(theta)))
+for row in history:
+    print(row)
+assert success(theta) >= 0.85
+
+class RuleSource:
+    def __init__(self, revision, maximum_seconds):
+        self.revision = revision
+        self.maximum_seconds = maximum_seconds
+        self.calls = 0
+
+    def read(self):
+        self.calls += 1
+        if self.maximum_seconds is None:
+            return None
+        return {"revision": self.revision,
+                "maximum_seconds": self.maximum_seconds}
+
+def complete(amount, unit, theta, draw, source, current=None):
+    if unit not in ("ms", "minutes"):
+        return {"gap": "obtain the current unit definition"}
+    # These two action bindings are retained execution operations.
+    if unit == "ms":
+        seconds = amount / 1000 if draw < sigmoid(theta[0]) else amount
+    else:
+        seconds = amount if draw < sigmoid(theta[1]) else amount * 60
+    if current is None:
+        current = source.read()
+    if current is None:
+        return {"gap": "obtain the current permitted range"}
+    return {"seconds": seconds, "revision": current["revision"],
+            "within_range": 0 < seconds <= current["maximum_seconds"]}
+
+old = RuleSource(7, 20)
+first = complete(15000, "ms", theta, 0.6, old)
+assert first == {"seconds": 15, "revision": 7, "within_range": True}
+assert old.calls == 1
+new = RuleSource(8, 10)
+changed = complete(15000, "ms", theta, 0.6, new)
+assert changed == {"seconds": 15, "revision": 8, "within_range": False}
+missing = RuleSource(9, None)
+assert complete(15000, "ms", theta, 0.6, missing) == {
+    "gap": "obtain the current permitted range"}
+# The fixture supplies this snapshot as current for this task.
+fresh = new.read()
+calls_before = new.calls
+stopped = complete(0.3, "minutes", theta, 0.6, new, current=fresh)
+assert stopped == {"seconds": 18, "revision": 8, "within_range": False}
+assert new.calls == calls_before
+assert complete(500, "ticks", theta, 0.6, new) == {
+    "gap": "obtain the current unit definition"}
+print(first, changed, stopped)
+
+for n in (2, 20, 100):
+    print(n, {"retain": 4.2*n, "learn": 30+3.1*n,
+              "converter": 8+3.0*n})
+```
+
+The learned interpretation produces `15` seconds from `15000 ms`. Under revision 7 with maximum 20 seconds, the completed report says within range. Under revision 8 with maximum 10 seconds, the same learned operation correctly produces an out-of-range report after consuming the new rule. The missing-source case returns the missing range; changing the interpretation weights cannot supply it. With an already current snapshot, `0.3 minutes` becomes `18` seconds and the assistant finishes without another read. The unfamiliar `ticks` case returns the missing definition.
+
+Test the whole candidate on the declared task population and final support conditions through SYSE.46. In the finite model, the two correct-action probabilities can be enumerated exactly. With sampled operating data, retain the sampling, dependence and uncertainty that qualify a claimed rate. Include failed reports, unrecognized inputs, inaccurate help, a changed definition and a formerly retained guide that later becomes necessary. Restore the contribution whose grounds failed; avoid changing the learner merely because the whole report failed.
+
+##### Retain useful external resources and spend effort on the missing contribution
+
+A deployed arrangement may keep a substantial resource after learning. [TInR, ACL 2026, §3](https://aclanthology.org/2026.acl-long.2077.pdf) first selects learned tool tokens, retrieves the selected tools' current descriptions and parameters, then generates arguments. Preserve that document lookup with the executor. [SkillRL v1, §3](https://arxiv.org/pdf/2602.08234v1) trains a policy with a retrieved library and expands it from failures. [SkillForge v1, §3](https://arxiv.org/pdf/2608.24747v1) makes requesting guidance an action and later revises guidance from experience. Return content before the action that needs it: guidance delivered alongside an already executed action can inform only its continuation. SYSE.48 constructs the usable resource, .52 exposes it and .47 consumes the return. Separate bad retrieval, ignored guidance and a faulty instruction before deciding which to repair.
+
+Additional reasoning is another external contribution with its own cost. [HeavySkill v1, §§2–3](https://arxiv.org/pdf/2605.02396v1) compares candidate trajectories through deliberation; [ParallelMuse v1, §3](https://arxiv.org/pdf/2510.24698v1) branches from selected prefixes and aggregates compressed reports. When choosing such a procedure, name the available branching signal, reused prefix, retained observations and aggregation rule. Preserve a consequential disagreement and a path back to its source through compression. Count initial generation, branches, tools, summaries, synthesis and completion. Shared prefixes or sources make agreement dependent.
+
+In the range example, several branches using revision 7 can agree that 15 seconds is acceptable while the required revision is 8. Another such branch cannot supply the current rule. Spend the next effort on that observation, or return the unavailable source. [Fishing for Answers v1, §3 and Appendices B–C](https://arxiv.org/pdf/2509.04820v1) supplies useful retrieval choices while showing that selecting, cropping and deleting context can interact: a combination can discard what the next action needs. Preserve the original question and jointly necessary premises when reformulating or shortening. Once the current revision and correctly converted amount settle the report, finish.
+
+Learning a shorter or less-assisted route also requires a qualified result criterion. [Aware First, AAAI 2026, §3](https://ojs.aaai.org/index.php/AAAI/article/download/40277/44238) uses model-relative sampled correctness and length to construct training groups. [EAPO v2, §3](https://arxiv.org/pdf/2606.02132v2) contrasts tool-free and tool-available attempts and changes rewards and selected token weights from sampled correctness and calls. Those are obtainable training statistics; a sampled minimum call count is not proof that a current observation is unnecessary. For this report, a memorized but accidentally correct range answer lacks the required current-revision evidence and is not a successful training outcome. Apply a call-cost preference to a correctly specified result and preserve its validity conditions.
+
+To calculate such a signal, hold conversion correct and vary only the next effort choice. Three available routes make one current-rule read, make two reads, or finish from the information already available. Initially no current rule is supplied. Stipulate one recorded attempt per route from a uniform policy over these three routes; the first two obtain the same current rule and produce valid reports, while the third uses a remembered range. Let `q=1` for a correct report supported by the required current-revision evidence and `q=0` otherwise. With `c` additional reads in `{0,1,2}`, choose the receiving reward `r=q*(1-0.1*c)`. This explicitly protects validity before rewarding lower call cost.
+
+| Recorded route | Additional reads `c` | Valid result `q` | Reward `r` |
+| --- | ---: | ---: | ---: |
+| Read once and report | 1 | 1 | 0.9 |
+| Read twice and report | 2 | 1 | 0.8 |
+| Finish from remembered information | 0 | 0 | 0.0 |
+
+Reuse [26.4.1](#learn-from-interleaved-actions-and-observations)'s clipped-ratio objective with one generated route choice per attempt, old route probabilities `(1/3,1/3,1/3)`, frozen population-standardized advantages, clipping interval `[0.8,1.2]` and ascent step `0.3`. Parameterize the route probabilities by `p_i=exp(z_i)/sum_j exp(z_j)`, initially `z=(0,0,0)`. The reward mean is 0.566667 and population standard deviation 0.402768, giving advantages `(0.827606, 0.579324, -1.406930)`. At this initial policy every ratio is one. Since the three advantages sum to zero, the mean surrogate gradient is `dJ/dz_i=A_i/3`. One step gives logits `(0.082761, 0.057932, -0.140693)` and route probabilities `(0.360331, 0.351494, 0.288175)`. A later route draw of `0.35`, in the table's order, changes the choice from two reads under the old policy to one under the changed policy; the retained reader then supplies the actual rule for the report.
+
+Now supply a qualified current snapshot before the effort choice. Finishing from that available information yields a valid report with zero additional reads. A separate comparison from the same uniform policy has rewards `(0.9,0.8,1.0)` and advantages `(0.000000, -1.224745, 1.224745)`. The same first-step construction gives probabilities `(0.331673, 0.293440, 0.374887)`, making finish the most probable route. The two calculations qualify different input conditions; retain that condition in the policy's input and use separate logits for these two finite states. Reusing the first state's failure label would penalize a sufficient answer. For further steps, evaluate the clipped objective with the stored old probabilities and frozen advantages, as 26.4.1 requires.
+
+A direct rule can make one read when current evidence is missing and finish when it is supplied. The following cost comparison uses that rule. If an effort learner is selected for a broader task, include its attempt collection, fitting and assessment in the whole cost.
+
+##### Decide whether the change is worth obtaining
+
+Compare the complete arrangements over the same horizon. Charge discovering and checking a withdrawal schedule, guided targets, teacher or creator work, fitting, failed alternatives, adaptive trials, final assessment and maintenance. C.11.DUA selects further inquiry only when its possible effect on this choice warrants that burden. ME.14 supplies the situated Method-worth comparison.
+
+For the finite fixture, a deterministic converter is also available as a construction alternative: divide a known millisecond amount by 1,000 or multiply minutes by 60. It gives correct interpretation throughout the two-class envelope. The following stipulated per-task costs include continuing execution, the current-rule read, reporting and allocated maintenance. The learning preparation cost of 30 comprises 8 for qualified targets, 10 for adaptive comparison, 4 for fitting and 8 for final assessment. Converter preparation is 8; the existing guide needs no new preparation. All values use the same example-specific cost unit.
+
+| Arrangement | Preparation | Per subsequent task | Correct completion under the fixture | Total for 2 tasks | Total for 100 tasks |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Keep the unchanged performer with one adequate guide | 0 | 4.2 | 0.90 | 8.4 | 420 |
+| Use the trained candidate without either guide | 30 | 3.1 | 0.874227 | 36.2 | 340 |
+| Construct and use the deterministic converter | 8 | 3.0 | 1.00 | 14.0 | 308 |
+
+Under the stipulated floor and cost objective, retain the guide for two tasks and obtain the converter for 100. The learned candidate demonstrates an obtainable update and successful later use, but the converter dominates it on these supplied costs and result rates. Keep that alternative when the relevant input envelope really admits it. A broader interpretation problem, unavailable implementation or different preparation burden reopens the comparison. If the evidence needed to choose a withdrawal costs more than retaining adequate help, retain the help for the current horizon.
+
+##### Obtain the human development and provision results separately
+
+For a person doing the same preparation, use [HCD.9/.10/.12/.13](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) for the actual attempt, help, correction, support change and later use. C.2.8 can compare how much selected Method-description structure the person recovers under the stated preparation, access, help and budget. Recovery of the sequence, performance with a cue and later uncued performance provide different evidence. HCD.18/.19 connect instruction recovery with development practice.
+
+In a constructed continuation, an operator can explain the conversion and checking sequence but initially prepares a report using a remembered permitted range. A competent teacher asks which current revision warrants the decision. The operator obtains that revision and corrects the report. Preserve the first answer and the actual cue. On the next differently worded task, leave the legitimate current source available and withhold that diagnostic cue when testing independent recognition. The resulting first attempt, correction or need for further help determines the next HCD intervention. Comparing two correct reports without their assistance histories would lose that distinction.
+
+The arrangement must also be obtainable while service continues. Suppose a consultant's contract calls for an operating process, and her authorized project contribution is four prototype hours; her remaining working time serves existing clients. Installing that process, teaching an operator and occupying a corporate mentoring post promise different results. Free calendar space and technical expertise supply no additional allocation authority. Recover the needed preparation, feedback and retry work through DOCA.5, and obtain the relevant provider and allocation decisions through the existing OCE/ADM/OPS contributions.
+
+For this constructed practice, the responsible manager allocates two hours of a separately qualified teacher's work, including preparation, feedback and retry, and assigns a qualified substitute to the operator's continuing service during practice. Both providers confirm availability for their respective intervals before the first attempt. Practice proceeds within that authorized arrangement; the consultant retains the four prototype hours. If those provider or substitute results cannot be obtained, keep competent supported production and reconsider the development arrangement. An expert's completed report can protect present work while the learner's independent contribution remains to be developed. ME.16 consumes the separate support and capability results when introducing the changed practice; [Reference:11.1](#pursue-a-personal-development-aim-while-shared-work-continues) and [19.8](#case-b-a-timely-cue-must-enter-a-coordinated-bodily-action) supply connected development uses.
+
+Return the selected arrangement with its learned contribution, retained resources, current evidence, usable continuation and reasons to reopen it.
 
 ### Engineering.Reference:26.5 - Derive an audit policy from the real decision times
 
