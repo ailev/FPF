@@ -32,7 +32,7 @@ You can ask an assisting agent to explain an answer or give feedback in ordinary
 
 ## Choose a DPF
 
-The public folder contains twenty-seven published DPFs with 428 pattern bodies (12.501 M characters in their full publication files). Start with the working question nearest to yours. Each linked publication provides its full searchable pattern index.
+The public folder contains twenty-seven published DPFs with 428 pattern bodies (12.502 M characters in their full publication files). Start with the working question nearest to yours. Each linked publication provides its full searchable pattern index.
 
 ### Published DPFs
 
