@@ -19,11 +19,11 @@ Financial Domain Modeling helps a financial practitioner, business modeler or se
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | --- | --- | --- | --- | --- |
-| 1 | [FDM.1 - Recover the Financial Position Behind a Record](#fdm1---recover-the-financial-position-behind-a-record) |  | Right, duty and record; score; loan position | A.2.8 and A.2.8.PER; FDM.2 for a disputed party. |
-| 2 | [FDM.2 - Choose Party and Group Boundaries for Financial Modeling](#fdm2---choose-party-and-group-boundaries-for-financial-modeling) |  | Debtor; entity; fund; founder group; guarantee; usable cash | FDM.1 for positions; SIE.5–6 for identity and composition. |
-| 3 | [FDM.3 - Derive Events and Conditional Flows from Financial Contract Terms](#fdm3---derive-events-and-conditional-flows-from-financial-contract-terms) |  | Principal; maturity amount; conditional payment; schedule; actual flow | FDM.1–2 for terms and parties; actual effects use FDM.4. |
-| 4 | [FDM.4 - Establish What a Financial Action Changed](#fdm4---establish-what-a-financial-action-changed) |  | Approval; instruction; posting; payment; effect; residual obligation | FDM.1–3; applicable institutional rule and event evidence. |
-| 5 | [FDM.5 - Trace a Financial Service to a Participant's Result](#fdm5---trace-a-financial-service-to-a-participants-result) |  | Score use; admission; financial benefit; service output | FDM.1–4 when financial meaning or effect is missing; relevant decision practice. |
+| 1 | [FDM.1 - Recover the Financial Position Behind a Record](#fdm1---recover-the-financial-position-behind-a-record) | Stable | Right, duty and record; score; loan position | A.2.8 and A.2.8.PER; FDM.2 for a disputed party. |
+| 2 | [FDM.2 - Choose Party and Group Boundaries for Financial Modeling](#fdm2---choose-party-and-group-boundaries-for-financial-modeling) | Stable | Debtor; entity; fund; founder group; guarantee; usable cash | FDM.1 for positions; SIE.5–6 for identity and composition. |
+| 3 | [FDM.3 - Derive Events and Conditional Flows from Financial Contract Terms](#fdm3---derive-events-and-conditional-flows-from-financial-contract-terms) | Stable | Principal; accrued interest; payment allocation; calendar; guarantee trigger; conditional and actual flow | FDM.1–2 for terms and parties; actual effects use FDM.4. |
+| 4 | [FDM.4 - Establish What a Financial Action Changed](#fdm4---establish-what-a-financial-action-changed) | Stable | Approval; instruction; posting; payment; effect; residual obligation | FDM.1–3; applicable institutional rule and event evidence. |
+| 5 | [FDM.5 - Trace a Financial Service to a Participant's Result](#fdm5---trace-a-financial-service-to-a-participants-result) | Stable | Score use; admission; financial benefit; service output | FDM.1–4 when financial meaning or effect is missing; relevant decision practice. |
 
 # Financial Domain Modeling Readme
 
@@ -82,6 +82,8 @@ Consider a loan with an advance of 100 and one contractual payment of 105 on day
 FDM.1 recovers a financial position and distinguishes it from its descriptions. FDM.2 chooses the parties and grouping needed by the question. Either can provide an already sufficient answer. A lender explaining which entity owes an amount does not have to model an entire service.
 
 FDM.3 uses adequate parties and terms to derive contractual events. A schedule describes what those terms require under their conditions. Scenario assumptions can produce an expected or conditional flow account; actual occurrences produce a performance account. FDM.4 establishes the effect of an actual event or action and can return a remaining obligation, a discrepancy or an unresolved institutional question.
+
+To obtain the event model, use FDM.1:4.2 for the operative terms and any interpretation that changes the answer. FDM.3:4.2–4.3 then connects each condition to its consequence, constructs the needed state and dates, and derives the amount and next state. Its partial-payment and guarantee cases show how to adapt that construction. A settled fixed payment can still use the short two-row account in FDM.3:5.1.
 
 FDM.5 follows a service output through its use to the participant's intended financial result. It requests a position or effect model when that connection is unclear. Conversely, an accurately modeled financial change can raise the question of whose result it serves. These connections select the next needed result; they do not require all five methods for every use.
 
@@ -144,6 +146,9 @@ The examples expose three consequential mistakes: an amount field substituted fo
 
 **Type:** Architectural
 
+**Status:** Stable
+
+
 ### FDM.1:0 - Use this when
 
 Use this pattern when someone relies on a balance, agreement, score or financial label without being able to say whose position it describes and under which terms. Begin with the party and the financial question the record is being used to answer.
@@ -178,7 +183,15 @@ Resolve a material identity or grouping uncertainty through FDM.2 or [SIE.5][SIE
 
 #### FDM.1:4.2 - Recover the position from its applicable basis
 
-Obtain the terms and institutional basis adequate for this question. Establish what right, duty or financial interest they provide, to whom, against whom where relevant, with what content, conditions and time. Use competent interpretation when an actual rule or term is unresolved.
+Obtain the terms and institutional basis adequate for this question. Establish what right, duty or financial interest they provide, to whom, against whom where relevant, with what content, conditions and time.
+
+For a position governed by an agreement, locate the operative agreement for the identified parties and time, together with the incorporated definitions, elections and amendments that can change the answer. Follow a reference when the referring clause leaves a needed operation elsewhere: a loan schedule may name an interest convention defined in another document, or a guarantee may use a notice procedure in a master agreement. A proposal and a concluded agreement can have the same commercial label while supporting different claims.
+
+When a provision requires or permits an action, recover the party that must act or may choose, what it must do or can elect, the condition that activates that consequence, and the time at which the consequence applies. Read the provision together with its definitions and exceptions. Keep its location beside a derived rule when a later user must be able to inspect why that rule was selected. Keep the reconstruction to provisions that can affect the answer; a small adequate agreement may need only a few sentences.
+
+When interpretation is unresolved, formulate the question at the point where it changes the model. Instead of “please confirm the contract,” ask, for example: “Does the weekend adjustment move only the payment date, or also the end of ordinary interest accrual for this installment?” Give the interpreter the parties, operative text, proposed alternatives, relevant date and intended use. Obtain the supported interpretation and its applicable conditions. Use it to complete the affected calculation, or retain the alternative results while the question remains open. Keep different readings distinct when a later date would distinguish their effects, even if they give the same amount today.
+
+A term can already create a conditional obligation before money moves. Separate that relation from the amount advanced, current principal and payments already due. The resulting position supplies the starting basis for FDM.3.
 
 A document can provide evidence and, under an applicable rule, its execution or another recognized act may help institute a relation. Recover that rule and event when they matter. Do not infer the existence or absence of an obligation solely from whether a database entry is present.
 
@@ -252,6 +265,8 @@ The practice question is how to give a financial record a warranted interpretati
 
 FIBO is useful for financial concepts and relations that a local label obscures. It supplies reusable meaning rather than evidence that this particular party has this particular right. At the effort of clarifying one disputed label, a position account can expose a missing formation or time premise that a field renaming would retain.
 
+FINOS CDM's [Legal Agreements model][CDM-LEGAL] offers an implementation comparison: it separates an agreement's identification, elections, amendments and related agreements. This helps locate terms that a single agreement field hides. It does not determine their legal effect; §4.2 obtains that interpretation for the actual question.
+
 Reopen the interpretation when actual terms, party identity or event evidence changes the position being described.
 
 ### FDM.1:12 - Relations
@@ -265,6 +280,9 @@ A.2.8 governs the individual-duty question, A.2.8.PER the permission question an
 ## FDM.2 - Choose Party and Group Boundaries for Financial Modeling
 
 **Type:** Architectural
+
+**Status:** Stable
+
 
 ### FDM.2:0 - Use this when
 
@@ -298,7 +316,7 @@ Some relations establish a duty or power; others support a prediction of volunta
 
 State whose payment, position, exposure, control or report is at issue and the relevant time. Identify the actual entities and accounts involved before selecting a group label.
 
-For a payment, find the party that bears the obligation. For a portfolio question, identify the investments or exposures being compared. For a required report, obtain the applicable reporting boundary from the responsible practice. Use [SIE.5][SIE] when the entities themselves or their continuity are disputed.
+For a payment, find the party that bears the obligation and the funds it can use by the due time. For a portfolio question, identify the investments or exposures being compared and the risk meaning of their aggregation. For a reporting result, establish the reporting framework adopted for the entity and period. The report's purpose and applicable authority select the rule family; a shared owner does not. Use [SIE.5][SIE] when the entities themselves or their continuity are disputed.
 
 #### FDM.2:4.2 - State why these members belong together
 
@@ -316,9 +334,15 @@ When support is merely expected, preserve it as a scenario assumption with the r
 
 #### FDM.2:4.4 - Build the warranted aggregate
 
-Combine only amounts whose meaning, time, currency and inclusion rule are adequate for the receiving use. Preserve restrictions and conditional relations that can change the result. Apply the relevant reporting or specialist rule where valuation, conversion, netting or elimination is required; the group label does not supply those rules.
+Combine only amounts whose meaning, time, currency and inclusion rule are adequate for the receiving use. Preserve restrictions and conditional relations that can change the result.
 
-For a payment question, derive the debtor's usable funds at the payment time after other relevant receipts and obligations. For a risk question, retain the exposures and dependencies needed to understand adverse scenarios. Do not silently use the risk aggregate as the payment-feasibility balance.
+For a reporting result, retrieve the relevant provisions for consolidation, recognition, measurement or elimination, with their scope and exceptions, or obtain the responsible accountant's supported treatment. If the boundary depends on an unresolved control determination, provide the ownership and decision-right facts needed for it and ask which entities enter this reporting boundary for this period. A request for a consolidated number cannot supply that missing conclusion.
+
+Use the returned boundary and treatment to identify included entities, align the relevant accounting bases and perform required adjustments. Explain an unresolved difference rather than combining incompatible values. [MA.4][MA4] supplies the account-construction and reconciliation work once the responsible treatment is adequate. A valuation, conversion or netting operation likewise needs the rule appropriate to its actual use; the group label does not supply one.
+
+A useful specialist return supplies the decisive treatment, the parties and period to which it applies, the conditions that change it and the resulting model operation. If only the applicable jurisdiction or reporting basis is missing, ask for that selection. Apply an already adequate treatment directly.
+
+For a payment question, derive the debtor's usable funds at the payment time after other relevant receipts and obligations. Include another entity's support through the arrangement and conditions established in §4.3. For a risk question, retain the exposures and dependencies needed to understand adverse scenarios. Do not silently use the risk aggregate as the payment-feasibility balance.
 
 #### FDM.2:4.5 - Return the boundary and its financial meaning
 
@@ -327,6 +351,8 @@ Return the relevant parties, membership rule, positions and justified aggregate 
 Use [SIE.6][SIE] to combine the relevant claims into a qualified answer once their financial meanings are established. Its result can retain several claims or report conflict, non-comparability or an unresolved premise. FDM.3 develops conditional support flows; FDM.4 establishes the effects of an actual transfer. A sufficient ordinary boundary can be used without constructing every other group view.
 
 ### FDM.2:5 - Archetypal Grounding
+
+#### FDM.2:5.1 - A founder group and one debtor
 
 X must pay 100 on day 7. Its unrestricted cash available on that date, after all other receipts and obligations but before this payment, is 20. Y holds 150 in its own account. They share a founder. These are supplied facts of a constructed case.
 
@@ -337,6 +363,13 @@ Suppose a duly established support arrangement requires Y to transfer 80 to X, w
 If the arrangement instead provides only a guarantee exercisable after X fails to pay, the creditor may have a further route under those supplied terms. X still lacks day-7 cash in the facts given. FDM.3 models the guarantee's actual trigger and timing; the model must not describe it as an earlier transfer.
 
 If Y has no support commitment but the founder is expected to arrange a voluntary transfer, keep that event in the scenario that assumes it. For a portfolio-risk question, common dependence on that founder or on the same market can justify examining the members together even when no transfer is possible.
+
+#### FDM.2:5.2 - A reporting group and an internal amount
+
+Suppose the reporting practitioner has established the reporting basis and period and determined that P and S are consolidated for that report. Their aligned standalone accounts include P's receivable of 40 from S and S's corresponding payable of 40. The supplied consolidation treatment eliminates that internal pair in the group view.
+
+Preserve the two entities' own claims for a separate question about S's payment. The reporting adjustment does not discharge S's obligation. If the reporting boundary has not been determined, ask for the missing determination; do not infer the same elimination merely because P and S share a founder.
+
 
 ### FDM.2:6 - Bias-Annotation
 
@@ -382,7 +415,9 @@ The practice question is which party and group account makes a financial consequ
 
 This changes §§4.1–4.4: choose the boundary by the consequence, retain the members' positions and examine support separately. At the effort of naming the debtor and the support relation, it can expose a payment shortfall that a founder-group total hides. A larger organizational model is useful only when another material relation needs it.
 
-The X–Y example demonstrates the difference between grouping entities and establishing support under its supplied conditions. Reopen the boundary when actual membership, support terms, restrictions or the receiving financial question changes.
+[AASB 10 §19 and B86–B88][AASB10] illustrate that reporting choice: preparing consolidated statements involves consistent accounting policies and adjustments that eliminate intragroup balances. They give a practitioner using that basis rules for §4.4 once the reporting boundary is established. If the report uses another basis, retrieve its treatment instead.
+
+The X–Y example demonstrates the difference between grouping entities and establishing support under its supplied conditions. Reopen the boundary when actual membership, support terms, restrictions, reporting basis or the receiving financial question changes.
 
 ### FDM.2:12 - Relations
 
@@ -396,11 +431,16 @@ SIE.5 supplies unresolved identity work and SIE.6 composition. Use [C.32.MWA][MW
 
 **Type:** Architectural
 
+**Status:** Stable
+
+
 ### FDM.3:0 - Use this when
 
 Use this pattern when a financial instrument's amount or due-date field cannot answer what happens under its terms. The question may concern payment timing, a conditional draw, repayment, a guarantee or another event that changes the required flows.
 
 The pattern governs an event and flow model of the relevant arrangement. It returns contractual events under stated terms, any scenarios needed for the question and their relation to observed performance.
+
+The construction assumes ordinary financial arithmetic and access to the agreement or a competent interpretation of it. It explains how to obtain and adapt the event model from that basis. An unresolved legal term returns to the precise interpretation request in FDM.1:4.2.
 
 Use an adequate existing schedule directly when its conditions match the question. A new diagram is unnecessary if the contractual behavior is already clear.
 
@@ -428,23 +468,47 @@ Simplification is useful when it preserves the receiving answer. It becomes misl
 
 Identify the relevant parties, instrument or arrangement, version of the terms and time from which the model starts. Use FDM.1 or FDM.2 for missing positions or boundaries.
 
-State the needed answer: the contractual schedule, an adverse funding scenario, the consequence of an option or another specific question. Reuse existing terms and schedules to the extent that their scope and assumptions match.
+State the needed answer: the contractual schedule, an adverse funding scenario, the consequence of an option or another specific question. To determine what a borrower must pay next, obtain its obligation and conditional payment account. Determining what it has already discharged needs established performance; assessing whether it can fund the next payment also needs an account of usable money. Reuse existing terms and schedules to the extent that their scope and assumptions match.
 
-#### FDM.3:4.2 - Extract the terms that determine the events
+#### FDM.3:4.2 - Construct the event rules from the operative terms
 
-Recover the event conditions and their consequences from the applicable arrangement. For each relevant event, establish who acts or pays, to whom, what amount or quantity is determined, in which currency and at what time. Include calculation, calendar, exercise, notice or settlement rules when they can change the answer.
+Use the operative terms and supported interpretations obtained through FDM.1. For each event that can change the answer, establish who acts or pays, to whom, what amount or quantity is determined, in which currency and at what time.
 
-Identify the state from which an event is evaluated. Outstanding principal, accrued amounts or a prior exercise can matter. Preserve the rule that updates this state after an event; an amount calculated from an outdated principal can be wrong even when its formula is correctly implemented.
+Read a consequential clause as a connection between a condition and a consequence. An installment clause determines an amount that becomes due on the specified date; the obligation to make that payment may already exist. An election clause creates an available action and specifies when a valid exercise changes the arrangement. A floating-rate clause specifies which observation sets the rate and when it applies. A payment-allocation clause determines how an actual or assumed receipt changes interest and principal.
 
-Ask the responsible specialist about a missing or disputed term. A software default can represent an explicit modeling assumption, but it cannot silently establish the actual contract's meaning.
+For each such connection, explain how to decide that its condition holds, calculate its consequence and carry forward what has changed. For example, “payments first satisfy accrued interest” requires calculating the interest up to the payment's effective boundary before applying the remaining receipt to principal. The closing principal then supplies the next accrual interval. Simply extracting “payment = 1,000” omits that operation.
+
+##### FDM.3:4.2.1 - Match or adapt an available model
+
+Try an available model against these rules before constructing a new one. Select a contract family by behavior: scheduled principal repayment only at maturity, specified principal installments and equal total installments imply different future calculations. The marketing label “loan” does not decide among them. An optional prepayment is also different from a mandatory amortization installment.
+
+Inspect the chosen model's definitions, assumptions and event behavior. Check that it can express the actual allocation, calendar and exercise rules. Use it directly when it fits, extend a separable missing behavior when the other meanings remain valid, or retain the unsupported part explicitly. A software default can be used as an explicit assumption; it does not determine the agreement's meaning. [SIE.3][SIE] supplies this reuse decision; SIE.4 supplies a qualified correspondence when two representations use different meanings.
+
+For an [ACTUS][ACTUS] implementation, the useful return is to the chosen contract type's schedule, state initialization, payoff calculations and state transitions, together with the selected dictionary and implementation edition. Supply the operative terms, a supported starting state and any external observations or scenarios that the model needs. Compare its produced events with the agreement-based construction. A successful sample request establishes execution of that sample; it does not establish the mapping for another contract.
+
+##### FDM.3:4.2.2 - Construct enough state and preserve the different dates
+
+Work backward from the next calculation to determine what must be carried forward. Simple interest on unpaid principal needs that principal, the rate and the beginning of the unaccrued interval. Interest already accrued but not paid needs its own amount. An exercised option may change which later events are possible. A more complex instrument can require other state; an unused field need not be invented.
+
+Initialize those values for the requested starting time from supported history or a qualified existing account. Starting halfway through a loan with its original principal can produce a wrong forecast after a repayment. Estimating prior interest from today's principal or rate can also be wrong after a change. Recover the intervening event or the adequate opening value. If it is unavailable, identify which later quantities remain conditional.
+
+Generate recurring dates from the specified anchor, interval and end condition. Preserve a short final period or end-of-month rule where the agreement requires it. Then determine which dates the business-day convention changes. The date used to calculate interest, the date on which payment is due and the date on which a transfer actually settles can differ. Notice and observation dates can add further relevant boundaries.
+
+At a rate or principal change, split the accrual interval at the effective boundary and apply each value only to its interval. When events coincide, obtain the order from the terms or their qualified interpretation. Calculate on the state that the event's rule actually consumes. A convenient spreadsheet row order supplies no financial reason for that choice.
 
 #### FDM.3:4.3 - Derive and inspect contractual behavior
 
-Work through the relevant events in their applicable order. Apply the terms and state changes to derive the schedule or conditional branches. Keep terms, supplied input values and derived amounts distinguishable enough to inspect.
+Work through the relevant events in their applicable order. Keep the operative terms, supplied input values and derived amounts distinguishable enough to inspect.
 
-A simple fixed-payment loan can be modeled in two rows. An instrument with contingent payments may require branches or an executable model. Where an event's order or date can change the result, inspect that boundary case explicitly. Choose the representation from the behavior the question needs.
+For a simple-interest interval with constant principal **P** and annual rate **r**, the constructed case below uses **P × r × d / 365**, where **d** is its specified actual-day count. Other conventions require their own supplied calculation. Keep the rule that selects the dates beside the arithmetic.
 
-Check that the resulting flows agree with the terms under representative conditions. A calculation can be mechanically correct while using the wrong meaning for “amount”, the wrong party or an inappropriate initial state.
+At an event, first bring any needed accrual to its applicable boundary. Determine the amount payable or the noncash consequence. Then apply the event's rule to obtain the next state. For a receipt **C** allocated to interest first, calculate the payable interest **I**, apply the smaller of **C** and **I** to interest, and apply any permitted remainder to principal. Carry unpaid interest forward when **C < I**. Rounding, excess receipts and other allocations follow the arrangement's rules. Capitalization instead adds the eligible interest to principal with no cash payment.
+
+At a due date, the terms determine the amount now payable. A payment event under an assumed performance path can settle it in a forecast. For an account of actual performance, FDM.4 supplies whether the required effect occurred. Keep principal and unpaid interest until their discharge or other change is established. If a forecasting engine clears balances at a scheduled maturity event, that transition cannot by itself establish that the real borrower paid.
+
+The resulting account should let the next user recover the starting position, operative rule, event condition, calculation dates, conditional amount and subsequent state. A short table may be enough. Use an executable model when repetition or interacting conditions make that necessary, while keeping an inspectable example of how its events answer the financial question.
+
+Check the flows and state changes against the terms under representative conditions. Inspect a boundary where a date, event order, exercise or allocation can change the result. A calculation can be mechanically correct while using the wrong meaning for “amount”, the wrong party or an inappropriate initial state. A simple fixed-payment loan can still be modeled in two rows; add branches or execution only where the needed behavior justifies them.
 
 #### FDM.3:4.4 - Add scenarios and performance without replacing the contract
 
@@ -452,15 +516,21 @@ For a scenario, state the additional assumptions: market values, exercise, defau
 
 Keep the contractual schedule available alongside expected or scenario flows. An expectation is an account across possible outcomes under a model; it is not another amount that every counterparty must pay. Likewise, an observed payment belongs to the actual-performance account. FDM.4 establishes its effect on remaining positions.
 
-A financial choice or valuation may need discounting, risk treatment or comparison with alternatives. Supply the qualified flows to the relevant financial method; the event model alone does not select those decision rules.
+A financial choice or valuation may need discounting, risk treatment or comparison with alternatives. [FIN.10][FIN10] consumes the contractual behavior when comparing financing terms; [FIN.2][FIN2] uses the amounts and dates with usable funds. Supply the qualified flows to the method answering the financial question. The event model alone does not select its decision rules.
 
-#### FDM.3:4.5 - Return the usable event model and its limits
+#### FDM.3:4.5 - Return and adapt the model for its receiving use
 
-Return the contractual or conditional flows, relevant parties, time rules and assumptions at the detail the receiving use needs. Name a missing term or uncertain input where it changes the answer.
+Return the contractual or conditional flows, relevant parties, time rules and assumptions at the detail the receiving use needs. Name a missing term or uncertain input where it changes the answer. A missing future market value can leave a usable formula; a missing interpretation can leave different formulas or dates. Return a range, conditional branches or an unresolved amount when the available basis does not determine one value.
 
-Return a range, conditional branches or an unresolved amount when the available terms and inputs do not determine one value. Reopen the model when terms, relevant state, a relied-on scenario premise or the intended use changes.
+Separate a new observation, an exercised existing right, a change to the agreement and correction of an earlier record. A new market fixing supplies a value to an existing rule; an effective amendment can change the rule. A late bank confirmation can establish an earlier receipt. Each calls for a different update.
+
+For a valid prospective amendment, preserve the history already established and apply the changed rule from its effective boundary. Recompute dependent later events. If the amendment's effectivity or treatment of earlier accrual is unclear, obtain that interpretation before rewriting the prior account. [ADM.3 and ADM.10][ADM] supply the temporal and performance inquiries.
+
+Reopen only the dependent parts when the relevant state, a relied-on scenario premise or the receiving use changes. FDM.4 supplies established effects for updating actual state; FDM.5 examines how using the model contributes to the participant's result. Preserve the source of an opening value or changed rule when later users need it to understand that update.
 
 ### FDM.3:5 - Archetypal Grounding
+
+#### FDM.3:5.1 - A fixed payment, expected receipt and actual payment
 
 In the constructed loan, a lender advances 100 and the borrower owes one payment of 105 on day 30. Valid formation, currency and the fixed payment terms are supplied. The model can begin with:
 
@@ -476,6 +546,55 @@ For illustration, suppose a separate performance model assumes an 80% probabilit
 If the actual payment is 60, retain that observation separately. Under the example's supplied application rule and absence of additional fees or interest, FDM.4 can establish 45 remaining due. The contractual schedule does not become “60 due” merely because only 60 was paid.
 
 Now consider a conditional support arrangement for X. The terms require a payment of 80 only after a specified failure and valid demand. Its event model must preserve those conditions and the actual payment timing rule. It cannot supply 80 of unconditional day-7 funding merely because that amount appears in the document. If the rule does not establish when funds can arrive, the timing result remains unresolved.
+
+#### FDM.3:5.2 - Constructing a partial payment and a shifted due date
+
+The question is what B must arrange to pay at the next due date after a 1,000-unit early receipt by lender L. Both parties use USD. The case supplies an effective agreement, valid party identities and the following complete terms for the events considered; their legal effect is a premise of the example.
+
+| Supplied term | Modeling consequence to derive |
+| --- | --- |
+| L advances 3,650 to B on 2 April 2026. | The advance creates principal of 3,650 when it occurs; it is a cash inflow for B and outflow for L. |
+| Ordinary interest is simple, 10% annually on unpaid principal, actual days divided by 365. An interval includes its first date and excludes its last. Interest itself bears no interest. | Split an interval when principal changes. Carry accrued interest separately until paid; no capitalization. |
+| Remaining principal and ordinary interest are payable on 2 May. A nonbusiness payment date moves to the following business day without extending ordinary interest accrual. For this example only, every Monday–Friday is a business day and there are no holidays. | The accrual endpoint is 2 May; the payment due date is 4 May. This is a stipulated calendar, not a jurisdiction's calendar. |
+| B may make an early payment on a business day after valid notice received at least one business day earlier. An effective receipt first pays all interest accrued to that date, rounded to cents, then principal. There is no early-payment fee. | A notice enables the action but changes no amount by itself. Accrue first, allocate the receipt, then use the reduced principal. |
+| Payment takes effect only upon irrevocable credit to L's designated account. All effective dates here are treated as the beginning of that date. | A submitted instruction alone cannot establish the receipt or the principal reduction. |
+| No other payment, fee, rate change or capitalization affects this calculation. Round interest to the nearest cent, halves upward, when it is paid; final interest is rounded once at maturity payment. | The example's arithmetic needs no guessed charges or daily rounding. Questions about later default charges require their separate terms. |
+
+The history establishes the 2 April advance, valid notice on 16 April and irrevocable credit of 1,000 on 17 April. For these confirmed transfers, both parties' corresponding cash movements occurred on the stated dates. The account is prepared just after the 17 April receipt. The future path assumes full payment on 4 May, with B's debit and L's irrevocable credit both on that date.
+
+The decisive interpretation occurs before subtraction. The 1,000 is a total receipt, not a principal-only reduction. Fifteen days of interest on 3,650 at 10%/365 equal 15.00. The receipt therefore pays 15.00 of interest and 985.00 of principal. Principal becomes 2,665.00; accrued unpaid interest becomes zero.
+
+| Event or boundary | Cash for B | Derived state or required payment |
+| --- | --- | --- |
+| Confirmed advance, 2 April | +3,650.00 | Principal 3,650.00; interest starts accruing. |
+| Accrual to 17 April, before receipt allocation | 0 | Interest 3,650 × 0.10 × 15 / 365 = 15.00. |
+| Confirmed receipt, 17 April | −1,000.00 | Pay interest 15.00 and principal 985.00; principal 2,665.00, unpaid interest zero. |
+| Ordinary accrual endpoint, 2 May | 0 | Another 15 days produce unrounded interest 10.95205479… . |
+| Payment due, 4 May | −2,675.95 if fully performed | Principal 2,665.00 plus rounded interest 10.95. Actual discharge still depends on the receipt condition. |
+
+The due amount is a view of the principal and interest being demanded, not a third balance to add to them. Signs reverse for L's account of the same transfers. Neither those signs nor the matching bank amounts establish the institutional allocation without the terms.
+
+Accrue the first interval on the principal that was outstanding during it. The next interval uses 2,665, and the payment moves to Monday while ordinary accrual still stops on Saturday. A model that subtracts the entire 1,000 from principal has omitted allocation; a model that uses 2,665 for the first interval has rewritten the past.
+
+Now change one term: ordinary interest runs to the adjusted payment date. The first receipt and its allocation remain established. Only the later accrual interval changes from 15 to 17 days. Its interest becomes 12.41232877… and the due amount becomes 2,677.41. B's provision of 2,676 would cover the original obligation and fall short by 1.41 under the changed term. Reuse the first interval instead of rebuilding it. If the operative text does not settle which accrual rule applies, return these conditional results and the precise interpretation question.
+
+Change the evidence instead of the term: the 17 April record proves only an instruction and its effect is unknown. Keep the confirmed advance. Ask the payment provider whether and when the same attempt produced the required credit. The 2,665 principal is then conditional on credit on 17 April; it is not an established actual balance. A proved failure with no other receipt leaves principal 3,650 and ordinary interest 30.00 through 2 May, giving 3,680.00 due on 4 May. A credit on a different date requires splitting at that date and recalculating. Missing evidence does not establish any one of these paths.
+
+If the confirmed 1,000 instead belongs to a refundable collateral arrangement, recover that arrangement's effect under FDM.4. A transfer with the same amount and date can create a collateral position while leaving the loan principal unchanged. FDM.4:5.2 develops this distinction between refundable collateral and repayment.
+
+For the model's use, [FIN.2][FIN2] consumes the qualified amount and due date together with B's usable funds; [FIN.10][FIN10] can compare a different financing arrangement. FDM.5 asks whether the treasury service used the model to arrange a sufficient payment and what effect followed. The next action and any claimed benefit depend on that receiving use.
+
+#### FDM.3:5.3 - Constructing the payment conditions of a guarantee
+
+For the loan in §5.2, suppose G separately guarantees L up to 2,000 of B's unpaid principal. The supplied terms activate payment only after the principal due date has passed, two following business days have elapsed without cure, and G has received a valid demand. Payment is due two following business days after that demand. The same stipulated weekday-only calendar applies. The question is whether this guarantee can supply B with money for the 4 May payment.
+
+Construct the condition as a conjunction. A principal shortfall alone supplies only one part. Keep the outstanding covered principal from the loan, the end of the cure interval and the demand's validity and receipt as distinct inputs. When all activation conditions hold, the amount is the lesser of covered unpaid principal and 2,000; the recipient is L. A scenario assumption about default cannot substitute for an actual valid demand.
+
+On the branch where B makes no maturity payment and no intervening event reduces principal, the two following business days are 5 and 6 May. A valid demand received on 7 May makes payment due on 11 May, after 8 May and 11 May as the two following business days. Covered principal is 2,665, so the guarantee payment is 2,000 on that branch.
+
+This construction supplies no funds to B before 4 May. It can protect L against part of the later loss, and its existence could affect a separately offered financing decision. Those are different uses. To account for a later guarantee payment, FDM.4 also needs its effect on L's claim and any resulting claim by G against B. The guarantee amount alone cannot establish that B's total obligations fell by 2,000.
+
+The transferable move is to derive the trigger, qualifying action, beneficiary and resulting date together. Loan-style arithmetic with a guarantee limit inserted as a payment would miss the work that produces the event. If demand validity is unresolved, return the affected conditional event and obtain the responsible interpretation; unrelated known loan amounts remain usable.
 
 ### FDM.3:6 - Bias-Annotation
 
@@ -518,23 +637,28 @@ Separating contractual behavior from performance keeps both interpretable. A sin
 
 ### FDM.3:11 - SoTA-Echoing
 
-The practice question is how to turn financial terms into inspectable event behavior. The selected line adopts ACTUS's distinction between terms and the scheduled contractual events derived from them. It changes §§4.2–4.3 by making conditions, state and event consequences explicit. Actual use of a particular ACTUS contract type requires checking its specification and encoding.
+The practice question is how to obtain an event model from terms and use it through changing conditions. ACTUS offers an algorithmic supplier: schedules, initialized state, event payoffs and transitions. Its [technical specification v1.1][ACTUS-SPEC], released in 2020, is a historical reference for those rules. For example, its PAM prepayment rule brings accrual to the event before reducing principal. The [terms dictionary][ACTUS-TERMS], version 1.4 dated 2023-12-08, distinguishes changing a calculation date from shifting the payment date. Those distinctions inform §§4.2–4.3; the agreement determines which behavior is applicable.
 
-At comparable first-case effort, deriving two qualified event rows is more useful than mapping an unexplained “loan amount” into a cash-flow field. An executable model is preferable when the relevant branching and repeated calculations justify its cost.
+The current [ACTUS analytics account][ACTUS-ANALYTICS] connects contract inputs and external risk factors to analytical uses. Its [Quick Start][ACTUS-QUICKSTART] supplies an implementation entry. A spreadsheet is adequate for an inspectable small construction; an event engine becomes useful when repeated or interacting calculations justify the mapping and maintenance effort. Use the selected implementation's specification and dictionary when constructing that mapping. Neither a familiar contract-type name nor successful execution of a sample establishes agreement-specific behavior.
 
-FDM.4 supplies the separate actual-effect question. Reopen the event model when terms, initial state, event ordering or a material scenario assumption changes.
+FINOS CDM's [Event Model, version 7.0.0][CDM-EVENT] provides a complementary model of trade state and changes. Terms amendments, observed resets and transfers with different statuses supply different updates. It informs the distinction in §4.5 between changing a rule, obtaining an input and establishing performance. Such a state-and-event representation is useful for lifecycle integration, while contractual payoff logic is useful for deriving amounts. A project can need both; their outputs require a qualified correspondence.
+
+The worked cases use their stated agreement terms. To assess an ACTUS or CDM implementation, compare its result and conventions with that agreement-based model. [SIE.3–4][SIE] supply the general reuse and correspondence methods, and FDM.4 supplies actual-effect reasoning. Reopen a relied-on mapping when its terms, state, event behavior or implementation edition changes.
 
 ### FDM.3:12 - Relations
 
 FDM.1–2 supply adequate positions and party boundaries. FDM.4 establishes actual events and their effects; FDM.5 uses the flows relevant to a participant's service result.
 
-SIE.3–6 supply general model construction and connection. [Management Accounting, MA.4][MA4] reconciles operating, reporting and cash accounts; [MA.5][MA5] uses the relevant conditional flows in its forecast. The responsible financial practice supplies any additional valuation or choice method.
+SIE.3–6 supply general model construction and connection. [Management Accounting, MA.4][MA4] reconciles operating, reporting and cash accounts; [MA.5][MA5] uses the relevant conditional flows in its forecast. [FIN.10][FIN10] uses contractual event behavior to design and compare financing instruments and terms; [FIN.2][FIN2] compares dated requirements with usable funds. The responsible financial practice supplies any additional valuation or choice method.
 
 ### FDM.3:End
 
 ## FDM.4 - Establish What a Financial Action Changed
 
 **Type:** Architectural
+
+**Status:** Stable
+
 
 ### FDM.4:0 - Use this when
 
@@ -587,6 +711,8 @@ If sources disagree, first compare their subjects, dates and meanings. Then inve
 #### FDM.4:4.4 - Derive the effect and remaining position
 
 Apply the recovered rule to the established occurrence. State what changed and when. For a partial payment, use the applicable allocation rule to determine which amounts are satisfied and what remains. Preserve other interest, fees or conditions only where the actual arrangement requires them.
+
+A scheduled transition that clears a forecast balance does not establish actual discharge. Use the receipt or other event recognized by the terms. FDM.3:5.2 shows how an established receipt updates principal and interest for the next calculation, while an instruction with unknown effect leaves alternative states.
 
 Keep the calculation answerable to that interpretation. If you can perform the arithmetic but cannot explain how it establishes the financial position, use [B.1.5.EW][EW] to locate the missing operation in the encompassing work. An unresolved contractual interpretation may need a qualified colleague's contribution; a computational correction addresses a different failure.
 
@@ -681,6 +807,9 @@ ADM.3, ADM.7–10 and the relevant financial practice supply effectivity, eviden
 
 **Type:** Architectural
 
+**Status:** Stable
+
+
 ### FDM.5:0 - Use this when
 
 Use this pattern when a score, report, advice, interface or transaction service is called a financial benefit without explaining the receiving use. Begin with the participant and the result the service is supposed to help them obtain.
@@ -755,6 +884,8 @@ In another case, the adequately authorized arrangement uses the score to change 
 
 The borrower intends to acquire equipment. If the equipment is delivered and usable, that can supply the next intended condition. If delivery fails, the loan's financial effect and the failed equipment result remain distinguishable. The service account explains where the connection broke. Whether the financed work later earns the hoped-for return requires its own business evidence.
 
+A treasury modeling service supplies another use. In FDM.3:5.2, changing the accrual rule changes whether provision of 2,676 is enough. The model gives treasury a qualified requirement that it can use to choose a funding or payment action. FDM.4 establishes the effect of the action actually taken. Locating the shortfall is a useful output even before an action is chosen, while a claim of avoided loss needs evidence that the action and comparison support it.
+
 The same construction applies to a client-admission service. An information supplier provides facts; the applicable arrangement grants or refuses access; actual service provision follows under its conditions. More admitted clients is not by itself an adequate objective. Legitimate refusal, the client's intended use and the provider's obligations can make a different result preferable.
 
 ### FDM.5:6 - Bias-Annotation
@@ -828,7 +959,10 @@ Copyright © Anatoly Levenchuk. The original framework text and worked examples 
 
 
 - [FIBO, EDM Council][FIBO]: reusable financial concepts and their relations.
-- [ACTUS technical-specification entry][ACTUS]: the contribution of contractual event logic.
+- [ACTUS technical-specification entry][ACTUS], [v1.1 specification][ACTUS-SPEC] and [terms dictionary][ACTUS-TERMS]: schedules, state, calculations and event transitions, with the edition boundaries discussed in FDM.3:11.
+- [ACTUS analytics account][ACTUS-ANALYTICS] and [Quick Start][ACTUS-QUICKSTART]: the connection to analytical uses and an implementation entry.
+- FINOS CDM 7.0.0, [Event Model][CDM-EVENT] and [Legal Agreements model][CDM-LEGAL]: agreement content and lifecycle-state distinctions.
+- [AASB 10 §19 and B86–B88][AASB10]: a specific reporting basis for the policy-alignment and consolidation comparison in FDM.2:11.
 - FPF A.2.8, A.2.8.PER and A.2.9: actual duty, permission and communicative-work distinctions.
 - [Semantic Integration Engineering][SIE], SIE.3–6: model construction, correspondence, identity and composition.
 - [Organization Administration][ADM], ADM.2–4 and ADM.7–10: applied participant, effectivity, account, evidence, permission, provision and fulfillment questions.
@@ -844,5 +978,14 @@ Copyright © Anatoly Levenchuk. The original framework text and worked examples 
 [MWA]: ../FPF-Spec.md#c32mwa---synthesize-an-architecture-account-of-methods-and-their-use
 [FIBO]: https://spec.edmcouncil.org/fibo/index.html
 [ACTUS]: https://www.actusfrf.org/techspecs
+[ACTUS-SPEC]: https://raw.githubusercontent.com/actusfrf/actus-techspecs/master/actus-techspecs.tex
+[ACTUS-TERMS]: https://raw.githubusercontent.com/actusfrf/actus-dictionary/master/actus-dictionary-terms.json
+[ACTUS-ANALYTICS]: https://documentation.actusfrf.org/docs/Introduction/Model-for-analytics
+[ACTUS-QUICKSTART]: https://documentation.actusfrf.org/docs/quickstart
+[CDM-EVENT]: https://cdm.finos.org/docs/event-model/
+[CDM-LEGAL]: https://cdm.finos.org/docs/legal-agreements/
+[AASB10]: https://standards.aasb.gov.au/sites/default/files/2026-03/AASB10_07-15_ACOMPnov24_01-26.pdf
+[FIN2]: CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin2---assess-liquidity-and-funding-needs-by-date
+[FIN10]: CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin10---design-financing-instruments-and-terms
 
 ## FDM.Reference:End
