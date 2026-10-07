@@ -193,6 +193,7 @@ Section addresses use `Engineering.Reference:n` and nested numbers. They identif
   - [Engineering.Reference:26.3 - Prepare experience that can change the intended choice](#engineeringreference263---prepare-experience-that-can-change-the-intended-choice)
   - [Engineering.Reference:26.4 - Compute the update and use the changed rule](#engineeringreference264---compute-the-update-and-use-the-changed-rule)
     - [Engineering.Reference:26.4.1 - Learn from interleaved actions and observations](#learn-from-interleaved-actions-and-observations)
+    - [Engineering.Reference:26.4.2 - Allocate training attempts and select the update](#allocate-training-attempts-and-select-the-update)
   - [Engineering.Reference:26.5 - Derive an audit policy from the real decision times](#engineeringreference265---derive-an-audit-policy-from-the-real-decision-times)
   - [Engineering.Reference:26.6 - Recalculate when auditing is fallible](#engineeringreference266---recalculate-when-auditing-is-fallible)
   - [Engineering.Reference:26.7 - Obtain the measurements and enact the audit](#engineeringreference267---obtain-the-measurements-and-enact-the-audit)
@@ -3346,7 +3347,7 @@ Finish the lookup when you have an answer usable for the current decision, or a 
 
 ## Engineering.Reference:26 - Construct a guard, a learning update and an audit policy
 
-**Use this when an agent's proposed action must be checked, its repeated choices need improvement, or scarce checking effort must be allocated.** A control requirement does not yet supply an executable check. Logged feedback does not yet supply a learning update. A good detector does not yet say which actions to inspect. The constructions below fill these three gaps on a service-configuration example; section 26.4.1 extends the learning construction to decisions separated by tool observations. Enter at the gap you have; obtaining a guard does not require training a model or calculating an audit policy.
+**Use this when an agent's proposed action must be checked, its repeated choices need improvement, or scarce checking effort must be allocated.** A control requirement does not yet supply an executable check. Logged feedback does not yet supply a learning update. A good detector does not yet say which actions to inspect. The constructions below fill these three gaps on a service-configuration example; section 26.4.1 extends the learning construction to decisions separated by tool observations, and 26.4.2 connects a training-attempt budget to the resulting update. Enter at the gap you have; obtaining a guard does not require training a model or calculating an audit policy.
 
 The reader is an agent-system engineer who can inspect typed calls and run short Python calculations. The example supplies a local policy, a finite learner and a two-step decision model. For deployment, the engineer still needs the actual authority, authenticated service facts, qualified execution interface and evidence about the receiving task population. The numbers below are stipulated teaching inputs. A calculation or a fixture run establishes its conditional result, not deployed protection or successful training of a language model.
 
@@ -3671,6 +3672,221 @@ Finer intermediate feedback is another construction with its own costs. The [202
 If long interactions still leave an important attribution problem, [TRACE v1, §§2–3 and Appendix A](https://arxiv.org/html/2607.13988v1) supplies a progress-estimation alternative. A frozen reference model scores the known answer at successive tool-boundary prefixes; changes in log likelihood contribute turn-level credit combined with outcome advantage. That route needs reference answers, prefix-scoring access and a qualified estimator. Increased answer predictability is the estimator's signal; it does not by itself establish causal usefulness of a call. Qualify it for the receiving outputs and preserve its aggregation with terminal feedback. A missing reference answer or unreliable scorer returns that branch to obtaining feedback, while a viable outcome method can remain usable.
 
 The resulting engineering choice is between available, qualified learning constructions. Start with the signal and support the work can actually supply; obtain a missing prerequisite when the needed distinction depends on it. Carry the selected update into subsequent execution, then compare actual task results, preserved useful behavior and total cost on appropriate separate cases. A larger reward, more prepared examples or a changed parameter value alone does not establish the intended improvement.
+
+<a id="allocate-training-attempts-and-select-the-update"></a>
+
+#### Engineering.Reference:26.4.2 - Allocate training attempts and select the update
+
+Use this application when an engineer can collect more interaction experience, but starts, tool calls and training share a limited budget. Another continuation can reveal a useful alternative; repeatedly exploring one uncertain history can also consume the budget without improving the learner. After collecting experience, ordinary clipped training can leave some rewarded actions on a plateau. Choosing where to collect experience and choosing how to update from it are two interventions with different inputs and consequences.
+
+The construction below connects an affordable allocation to executed continuations, qualified feedback, a masked update and subsequent action. It specializes [ARPO, ICLR 2026, §§2–3 and Algorithm 1](https://proceedings.iclr.cc/paper_files/paper/2026/file/1c58e53bdf1fb045440256fd567531ae-Paper-Conference.pdf) and [AEPO, WWW 2026, §4 and Appendix A](https://playbigdata.ruc.edu.cn/dou/publication/2026_WWW_AEPO.pdf), with explicit receiving choices. The finite calculator and ordinary learning construction are those of [26.4.1](#learn-from-interleaved-actions-and-observations). [SYSE.49](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse49---construct-informative-tasks-and-feedback-environments-for-agent-work) supplies the task and feedback arrangement; SYSE.45 and CMP.7 connect that experience to the chosen learner. The engineer needs probability access and an update implementation in addition to an interface that executes tools. A text-only generation endpoint can still help collect experience. Obtain full distributions and a parameter-update operation through facilities that provide them.
+
+##### Obtain a measure that can support the proposed decision
+
+At a model-generated position t, obtain the complete next-token distribution conditioned on the actual history: `p_t(v) = softmax(logits_t / temperature)[v]`. Fix the tokenizer, vocabulary, temperature and history used for the comparison. Shannon entropy in nats is `H_t = -sum_v p_t(v)*log(p_t(v))`, with zero-probability terms taken as zero. It concerns that conditional distribution. For example, several possible phrasings can raise it while all phrasings express the same known answer. The external return belongs in the next history; counting the characters or tokens of that return does not obtain the policy's next-token entropy.
+
+Obtain the logits or a facility that returns a qualified estimate before using this quantity to rank histories. Store which history and generated positions the estimate describes. A next-token distribution available at a saved prefix can be inspected before taking the next action. An estimator that needs K sampled positions must generate them, retain their resulting history and charge that work; it cannot be treated as a free observation at an earlier prefix. Reset an initial baseline for each fresh trajectory and retain its relation to any branched continuation. Comparing a new question with a cached baseline from an earlier question changes the measure.
+
+A selected-token log-probability can suffice for a recorded action's importance ratio and still be insufficient for entropy. Suppose a four-outcome interface reports only that the selected outcome had probability 0.5. Its surprisal is one bit. If q is the normalized distribution over the other three outcomes, the complete entropy is `1 + 0.5*H_bits(q)`, between 1 and 1.792481 bits. Both `(0.5, 0.49, 0.005, 0.005)` and `(0.5, 1/6, 1/6, 1/6)` fit the log, but their entropies differ. The same selected probabilities at two histories therefore cannot establish their entropy order. Obtain the missing distribution or a qualified estimator; otherwise retain a feasible fixed or randomized allocation.
+
+##### Allocate attempts and reserve the work needed to finish them
+
+Separate a count of complete training trajectories from resource limits such as generated tokens, tool calls and elapsed time. Set aside resources to finish and qualify the original attempts before admitting branches. For example, two extra trajectory places, six extra tool calls and an upper bound of three calls per continuation admit at most two new continuations. With three calls left, at most one fits. Include retries, probability extraction and any pilot in the resource account. Shared prefixes may save work, but their existence does not bound the cost of their continuations. SYSE.51's budgeting principles help retain completion resources; the training sampler described here is a further selected construction.
+
+One ARPO-inspired receiving rule starts N trajectories and reserves M−N of M complete trajectories for branches. Measure K initial generated positions and K positions after actual tool feedback. For the conference paper's literal normalization, define `delta_H = sum_t(H_after,t - H_initial,t)/V`, where V is vocabulary size. This is a scaled change, not the average over K. Choose alpha, beta and a threshold tau; branch when `alpha + beta*delta_H > tau` and both count and resource capacity remain. The strict comparison is deterministic. A randomized rule that compares a draw with a probability needs its own bound to [0,1] and yields different behavior, including when delta_H is zero.
+
+To limit repeated allocation to a lineage, this application adds AEPO's proposed linear penalty. Let l count consecutive accepted branches with positive delta_H along that lineage. Start l at zero, use `score = (alpha + beta*delta_H)*max(0,1-0.2*l)`, and require score > tau. On accepting a positive-change branch, increment l for both the continued parent and its new child. Reset it on a later measured transition with nonpositive delta_H. These counter and reset conventions are receiving choices that make the procedure executable. Keep counters per lineage; a fresh, unrelated start has its own counter. Finish existing attempts when capacity is exhausted; unused trajectory places may return to fresh starts only when those starts and their completion fit the remaining resources.
+
+AEPO also proposes choosing the split with a pilot. With B available training trajectories after charging the pilot, its paper rule is `m_raw = B*sigmoid(beta*(H_root - H_tool_average))`; higher initial entropy favors fresh starts, and higher post-tool entropy favors branches. Specify comparable windows and the averaging rule. This example chooses `m = min(B,max(1,ceil(m_raw)))` and reserves B−m branch places. For B=16, beta=0.2, H_root=1 and H_tool_average=2 nats, m_raw is 7.202656, giving eight starts and eight branch places. The sigmoid is a proposed allocation heuristic; it is not the optimum of the paper's separate linear information-gain proxy.
+
+The pilot must be affordable before it can inform that choice. Suppose the whole budget permits 48 calls, the completed pilot used three, and each retained training trajectory may require up to three further calls. A conservative count bound is now B=15, so the same rule gives seven starts and eight branch places. Sixteen trajectories plus that pilot would need capacity for 51 calls. This bound deliberately forgoes possible shared-prefix savings; a more precise allocation can use qualified remaining costs. When the pilot or probability extraction cannot fit, the fixed split remains an available baseline. The finite run below uses that fixed split and needs no pilot.
+
+##### Execute the selected continuations and prepare their learning records
+
+Use the same task `(n*m)+k` and exact calculator as in 26.4.1. For this run, the old policy selects multiplication with probability 0.9 and the unshifted answer `observed+k` with probability 0.5. Each choice is one generated position with a binary vocabulary. The first-position entropy is 0.325082973 nats; the answer-position entropy after the tool return is 0.693147181. With K=1 and V=2, delta_H is 0.184032104. The analytic policy supplies both full distributions; no sampled look-ahead or extra tool execution is needed to obtain them in this fixture.
+
+Take M=4, N=2, alpha=tau=0.5 and beta=0.2. Two supplied draws, 0.2 and 0.95, select multiplication and addition on `(17,19,5)`. Execute those calls, obtaining 323 and 36. Each saved history now needs only an answer, so an additional continuation needs zero further tool calls in this particular task. Consider proposals from the first lineage, that same lineage again, and the second lineage. Their scores are 0.536806421, 0.429445137 after the first acceptance, and 0.536806421. Accepting the first and third proposals spends the two reserved places and avoids assigning both to the repeated lineage. Assess this trial priority against fresh starts or a fixed split on the receiving tasks.
+
+Finish each original and its one child using answer draws 0.1 and 0.9. The executed finite environment supplies these records:
+
+| Saved history | Continuation answer | Terminal reward from the task checker | Old probabilities of the two selected decisions |
+| --- | --- | --- | --- |
+| Multiplication returned 323 | 328 | 1 | (0.9, 0.5) |
+| The same multiplication prefix | 329 | 0 | (0.9, 0.5) |
+| Addition returned 36 | 41 | 0 | (0.1, 0.5) |
+| The same addition prefix | 42 | 0 | (0.1, 0.5) |
+
+Two calculator executions supplied four completed trajectories. A shared prefix is copied into its descendants' training records; its call was executed once. These are correlated trajectories, not four independent executions. A real branch must obtain its own later observations and qualified feedback. When those are unavailable, the sampler has produced an allocation or a prefix, not a completed learning example. Return that missing execution or feedback before assigning the branch a reward.
+
+Choose a mean over the two generated decisions of each of these four trajectories. Keep the actual return in the answer decision's history and exclude it from both the output loss and this denominator. Use the population-standard-deviation convention of 26.4.1: rewards `(1,0,0,0)` give advantages `(sqrt(3),-1/sqrt(3),-1/sqrt(3),-1/sqrt(3))`. The code uses zero advantages when reward dispersion is at most 1e-12, including equal rewards. This convention differs from a sample-standard-deviation implementation, which gives `(1.5,-0.5,-0.5,-0.5)`. Choose one with the learning rate and aggregation that consume it. Reweighting a shared prefix or retaining it only once also changes this construction; averaging descendant advantages is not generally equivalent under signed clipping and unequal lengths.
+
+##### Select modulation and the backward operation separately
+
+A later training checkpoint may already differ from the sampling policy. For the same records, take current multiplication probability 0.9 and current unshifted-answer probability 0.65. Keep the old probabilities and reward advantages fixed. For each generated position let r be its current selected-action probability divided by its old selected-action probability. The ordinary contribution to the maximized objective is `min(r*A, clip(r,1-epsilon_low,1+epsilon_high)*A)`. Its sign matters: moving a negative advantage outside the minimum changes the operation.
+
+An optional AEPO-inspired intervention forms `A_tilde = A*(1 + a*z_H)`, where z_H standardizes the current token-distribution entropy. Select its population explicitly. Here it consists of all eight generated positions, with population standard deviation, a=0.2 and zero standardized values when the deviation is at most 1e-12. The current call and answer entropies are 0.325082973 and 0.647446639 nats, so their standardized values are −1 and +1. Their multipliers are 0.8 and 1.2. Calculate these values at the checkpoint and hold them fixed during differentiation, as with the advantages. Obtaining entropy for this operation is distinct from adding an entropy regularization term; an implementation must request the required probability information even when the regularization coefficient is zero.
+
+The multiplier magnifies both positive and negative advantages at higher-entropy positions. A zero advantage stays zero. It can even reverse the reward signal: one zero-entropy position among one hundred positions with entropy log(2) has population-standardized value −10, giving multiplier −1 at a=0.2. This receiving construction stops the modulation branch whenever a multiplier is nonpositive. The unmodulated update remains available. A positive exponential multiplier, a bound or another normalization would be a separately chosen modification. This stop and the neutral treatment of tiny dispersion are implementation choices, not additional feedback or a theorem about entropy.
+
+The second intervention changes how an upper-clipped positive term contributes to the update. Define `stop_gradient(r)` to return r's current numerical value while holding that denominator constant during differentiation. Replace the constant upper bound by `(1+epsilon_high)*r/stop_gradient(r)`. The complete term is:
+
+```text
+J_t = min(r*A_tilde,
+          clip(r, 1-epsilon_low,
+               (1+epsilon_high)*r/stop_gradient(r))*A_tilde)
+```
+
+Its forward value equals ordinary clipping at the checkpoint. Its backward operation differs. Away from ties, the coefficient multiplying `A_tilde * grad(log current_probability)` is:
+
+| Condition | Ordinary constant-bound clipping | Stopped-denominator upper bound |
+| --- | --- | --- |
+| A_tilde > 0 and r > 1+epsilon_high | 0 | 1+epsilon_high |
+| A_tilde < 0 and r < 1−epsilon_low | 0 | 0 |
+| Otherwise | r | r |
+
+This is an explicitly selected update rule, not ordinary differentiation of an unchanged scalar function at every possible parameter value. A finite-difference check of its backward operation must keep the stopped denominator and entropy weights fixed at the original checkpoint while perturbing the numerator. Recomputing the stopped value at each perturbed point instead checks the ordinary forward function. The rule itself uses no entropy threshold; it applies to every positive upper-clipped term. Entropy modulation can be enabled or disabled independently. This application uses neither an additional dual-clip rule nor a reference-policy penalty.
+
+Keep the two clipping widths separate. For adjusted advantage −1.2, ratio 0.75, epsilon_low=0.2 and epsilon_high=0.28, the selected term is −0.96 and its gradient is zero. The lower test uses 0.8. Substituting the high width would test against 0.72 and incorrectly allow an update. This receiving case follows the lower-width condition in AEPO's appendix and the displayed objective. For a positive advantage above the upper bound, the ordinary rule has a plateau while the selected backward alternative continues to reinforce it. Preserving that distinction does not establish which intervention improves the receiving task.
+
+##### Run the finite construction and use the changed policy
+
+The code executes the two calculator calls and four answer continuations, checks the results and constructs the reward-relative update. Its two bits are the selected generated positions; the actual return remains in their record and contributes no output term. It keeps the population convention, mean over eight terms, detached modulation and ascent rate 0.1 stated above. The repeated proposal is at the same saved prefix; its changed counter, rather than new probability evidence, changes admission. Terminal children need no further counter decisions in this fixture.
+
+```python
+from math import exp, log, sqrt
+
+def sigmoid(z):
+    return 1 / (1 + exp(-z))
+
+def entropy(probabilities):
+    assert all(p >= 0 for p in probabilities)
+    assert abs(sum(probabilities) - 1) < 1e-12
+    return -sum(p * log(p) for p in probabilities if p)
+
+def standardized(values):
+    mean = sum(values) / len(values)
+    sd = sqrt(sum((x - mean)**2 for x in values) / len(values))
+    return [(x - mean) / sd for x in values] if sd > 1e-12 else [0.0] * len(values)
+
+old = (0.9, 0.5)  # Multiplication, then the unshifted answer.
+request = (17, 19, 5)
+baseline_H = entropy((old[0], 1 - old[0]))
+after_H = entropy((old[1], 1 - old[1]))
+delta_H = (after_H - baseline_H) / 2  # One position, vocabulary size two.
+
+# Execute two starts. The exact calculator is retained external support.
+roots = {}
+training_calls = 0
+for name, draw in (("A", 0.2), ("B", 0.95)):
+    multiply = int(draw < old[0])
+    n, m, k = request
+    observed = n * m if multiply else n + m
+    training_calls += 1
+    roots[name] = {"bit": multiply, "observed": observed, "forks": 0}
+
+# Only parent-lineage counters are needed before these terminal continuations.
+reserve = 2
+allocation = []
+for name in ("A", "A", "B"):
+    lineage = roots[name]
+    score = (0.5 + 0.2 * delta_H) * max(0, 1 - 0.2 * lineage["forks"])
+    accept = reserve > 0 and score > 0.5
+    allocation.append((name, round(score, 9), accept))
+    if accept:
+        lineage["forks"] += 1
+        reserve -= 1
+assert [r[2] for r in allocation] == [True, False, True]
+assert reserve == 0 and training_calls == 2
+
+# Each saved prefix now has its original and one new continuation.
+# Only answers remain in this fixture, so forks require no further tool call.
+records = []
+for name, prefix in roots.items():
+    assert prefix["forks"] == 1
+    for draw in (0.1, 0.9):
+        answer_bit = int(draw < old[1])
+        answer = prefix["observed"] + request[2] + (1 - answer_bit)
+        records.append({
+            "histories": (request, (request, ("call", prefix["bit"]),
+                                    ("return", prefix["observed"]))),
+            "bits": (prefix["bit"], answer_bit),
+            "old_probabilities": (old[0] if prefix["bit"] else 1 - old[0],
+                                  old[1] if answer_bit else 1 - old[1]),
+            "answer": answer,
+            "reward": int(answer == request[0] * request[1] + request[2])})
+assert [r["reward"] for r in records] == [1, 0, 0, 0]
+
+# A later training checkpoint, evaluated on the same old-policy records.
+current = (0.9, 0.65)
+logits = [log(p / (1 - p)) for p in current]
+advantages = standardized([r["reward"] for r in records])
+position_H = [entropy((p, 1 - p)) for p in current]
+all_H = position_H * len(records)  # Eight generated positions; no return token.
+z_H = standardized(all_H)
+
+def update(modulate=False, follow_upper=False):
+    count = 2 * len(records)
+    gradient = [0.0, 0.0]
+    objective = 0.0
+    for i, record in enumerate(records):
+        for j, bit in enumerate(record["bits"]):
+            multiplier = 1 + 0.2 * z_H[2*i + j] if modulate else 1.0
+            if multiplier <= 0:
+                raise ValueError("Linear modulation would reverse or erase the signal")
+            advantage = advantages[i] * multiplier
+            p = current[j]
+            probability = p if bit else 1 - p
+            ratio = probability / record["old_probabilities"][j]
+            objective += min(ratio * advantage,
+                             max(0.8, min(1.2, ratio)) * advantage) / count
+            if advantage > 0 and ratio > 1.2:
+                coefficient = 1.2 if follow_upper else 0.0
+            elif advantage < 0 and ratio < 0.8:
+                coefficient = 0.0
+            else:
+                coefficient = ratio
+            gradient[j] += coefficient * advantage * (bit - p) / count
+    changed = [sigmoid(z + 0.1*g) for z, g in zip(logits, gradient)]
+    return objective, gradient, changed
+
+def act(probabilities, request, draws):
+    n, m, k = request
+    observed = n * m if draws[0] < probabilities[0] else n + m
+    return observed + k + (0 if draws[1] < probabilities[1] else 1)
+
+print("allocation", allocation)
+for modulate, follow_upper in ((False, False), (True, False), (False, True), (True, True)):
+    objective, gradient, changed = update(modulate, follow_upper)
+    print(modulate, follow_upper, round(objective, 9),
+          [round(x, 9) for x in gradient], [round(x, 9) for x in changed])
+assert act(update()[2], (12, 13, 5), (0.5, 0.65)) == 162
+assert act(update(True, True)[2], (12, 13, 5), (0.5, 0.65)) == 161
+```
+
+The four alternatives start from the same current checkpoint and consume the same old-policy records. They do not run successively:
+
+| Entropy modulation | Upper-bound backward operation | Mean forward value | New (multiplication, unshifted-answer) probabilities |
+| --- | --- | --- | --- |
+| Off | Ordinary clipping | 0.050518149 | (0.901291559, 0.649252595) |
+| On | Ordinary clipping | 0.060621778 | (0.901034441, 0.649103026) |
+| Off | Stopped denominator | 0.050518149 | (0.901291559, 0.651320527) |
+| On | Stopped denominator | 0.060621778 | (0.901034441, 0.651584354) |
+
+For the last row, the mean update direction is `(0.115470054,0.069715045)`. With ordinary clipping and no modulation it is `(0.144337567,-0.032836797)`. The successful unshifted answer is already upper-clipped, while a failed unshifted answer still contributes a negative term; this explains the ordinary answer probability's decrease in this particular batch. The alternative backward operation restores the successful term's positive contribution. The table also shows why equal forward values cannot identify the implemented backward operation.
+
+Both changed policies still use the calculator. With the new request `(12,13,5)` and stipulated draws `(0.5,0.65)`, the ordinary update returns 162, while the last row returns 161. Reset the request history and retain the chosen parameters and tool. This exhibits consumption of the finite update; the chosen draws and one conditional batch do not estimate effectiveness. The independent arithmetic operations, interface meanings and task checker are supplied capabilities. A language-model implementation must accumulate the selected generated-token contributions through its actual shared parameters, execute its optimizer and retain the support on which its later behavior depends.
+
+Change the probability-access condition before generalizing the example. The binary full distributions above make its entropy calculations possible. If a four-outcome API instead supplies only selected probabilities, the earlier one-bit example shows why an entropy ranking may become unavailable even while recorded action ratios remain usable. Preserve the available outcome update or fixed allocation, and obtain the missing information only if the intended intervention justifies its cost. Change the branch history separately: the same measured delta_H can admit an unbranched lineage and reject another with l=1. These are different reasons for changing the next action.
+
+##### Compare another modulation and assess the complete arrangement
+
+The direction and unit of entropy weighting are design choices. [AEM v3, 8 May 2026, §§3–5 and Algorithm 1](https://arxiv.org/abs/2605.00425v3) proposes a different one: average token entropy within each response ending before an environment transition, then compare those response averages across a prompt's rollout group. With range at least 0.1, min-max normalize the means to u, calculate `w = exp(-u/temperature)`, and divide each weight by the group's mean weight. Hold the resulting positive coefficients fixed and multiply a qualified advantage, using the same coefficient for the response's generated tokens. For example, retain the episode's terminal advantage on those positions; weighting it supplies no new judgement of that response's correctness. A range below 0.1 gives coefficients one. Select numerical stabilizers and response boundaries in the actual implementation.
+
+For two response means 0.2 and 0.8 nats at temperature one, negligible stabilizers give coefficients 1.462117157 and 0.537882843. Advantages `(−1,+1)` become approximately `(−1.462117157,+0.537882843)`: the lower-entropy response receives stronger discouragement. Means 0.20 and 0.25 instead trigger the neutral case. This construction changes the measured unit, normalization population and weighting direction relative to the token-level linear choice above. Its source analysis uses a natural-gradient update while holding the visited-state distribution fixed; its practical proxy and shared-parameter setting retain limitations. A larger entropy, a positive coefficient or this later proposal's publication date cannot alone choose the better intervention for the receiving work.
+
+Compare complete configurations on separate task instances and account for shared-prefix dependence when splitting data. Hold the task, reward meaning, available tools and assessment procedure fixed when testing a sampler, modulation or backward change; vary those interventions separately before attributing a gain to one. Count pilot generation, probability extraction, failed attempts, training and later execution. Include successful alternatives and older required behavior, and keep a recoverable baseline. When repeated adaptive comparison has consumed the assessment cases, obtain a suitable new assessment basis. Revert or repair the relevant operation if it costs more without improving the required result or loses previously useful behavior.
+
+This application concerns collecting training experience and changing a specified policy. SYSE.51 governs later allocation of inference effort; SYSE.50 needs its own qualified basis for deciding assistance. The measured token or response entropy here does not establish either an agent's need for help or how much Method structure it can acquire. Those questions retain their performer, representation, support and learning conditions. Use the present construction when its measured input and intervention fit the work, and follow those other contributions when the object being changed is different.
 
 ### Engineering.Reference:26.5 - Derive an audit policy from the real decision times
 
