@@ -16,9 +16,19 @@ Establish the available publication set once, and update it when files or access
 
 For development or review, use the edition and candidate selected by the assignment. Distinguish a proposed contribution from published guidance when reporting what the framework already supplies.
 
+## Keep the receiving work in view
+
+Start with the actual situation, the object being worked on, and the result the answer needs to support. Apply [C.39:4.1](FPF-Spec.md#c39---find-and-develop-a-way-to-obtain-a-result) to establish what would make the contribution sufficient for the next receiving action or judgement. Keep that use in view when the task already names a pattern, a source, a correction or a check. The named operation can supply only part of the needed result.
+
+Use an adequate known answer directly. If the available text leaves you inventing a consequential distinction or connection, follow that gap through C.39:4.2–4.5. This is where conceptual and methodological synthesis enters ordinary work: construct what is missing, retain what already works, and explain enough for the intended use. E.4.CM applies that construction to a maintained framework contribution. Do not turn every lookup into framework development; a task-local answer, a usable supplier or a sufficient partial result may finish the present work.
+
+On a return from local work, decide what the recipient can now obtain or do using that result. A checked extraction establishes what the source supplies; an explained general way may still require construction. A reader's private invention can reveal that need without establishing that the publication already supplies it. Follow the source or dependency only as far as the receiving decision requires. State the supported useful answer and the condition that changes its use; [C.11.DUA](FPF-Spec.md#c11dua---decision-useful-advice-and-evidence-demands) keeps a catalogue of unknowns from becoming an automatic research assignment.
+
+These moves belong to the work itself, not a separate report for each response. Reuse the established receiving use and sound results while their conditions hold. After an interruption or a changed assignment, recover that connection before choosing the next local move.
+
 ## Choose what to read
 
-Start with the actual situation, the object being worked on, and the result the answer needs to support. If a pattern is already named, find its body directly. Otherwise search the available publications together, using terms for the difficulty and needed result. Include English technical terms when the user's language differs from the sources. You can find an individual method or a connected application without first choosing a Suite, Reference or pattern file.
+If a pattern is already named, find its body directly. Otherwise search the available publications together, using terms for the difficulty and needed result. Include English technical terms when the user's language differs from the sources. You can find an individual method or a connected application without first choosing a Suite, Reference or pattern file.
 
 When sources or terminology are uncertain, [F.1:4.4](FPF-Spec.md#f1---find-and-select-sources-for-a-current-question) explains how to construct and adapt a search from the available access, preserve the original question, inspect candidates and return consequential limits. Finding alone requires no SourceCutNote; use F.1's source-selection branch only when a justified basis over several sources is needed. A sufficient known source can be used directly.
 
