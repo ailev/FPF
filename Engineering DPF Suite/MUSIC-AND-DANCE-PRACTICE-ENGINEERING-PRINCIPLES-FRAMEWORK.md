@@ -1839,6 +1839,8 @@ revised identity.
 
 For a connected rhythmic construction, use [Construct a rhythmic part from a seed, phase and action rule](#mdpeapplication4---construct-a-rhythmic-part-from-a-seed-phase-and-action-rule). It derives a small seed, changes its phase against a fixed accompaniment, generates hand/sound parts and adapts them when the receiving entry or phrase span changes.
 
+For performers who already know the constituent material, [Build and adapt a whole rhythmic performance from learned sections](#mdpe947---build-and-adapt-a-whole-rhythmic-performance-from-learned-sections) explains how to choose the form's sections, connect them and change the arrangement when phrase density, duration or participants change.
+
 #### MDPE.9:2.3 - Choose a proportionate performer-involving trial
 
 For each serious candidate, choose the cheapest Work that can expose the relied-on consequence:
@@ -1968,6 +1970,48 @@ During partnered-improvisation trials, the dancers use the cards and observers r
 relations obtained and remained readable. One rule may be revised because the pressure event is ambiguous; the
 other may branch because mutual initiation improves recovery while weakening intended asymmetry.
 
+#### MDPE.9:4.7 - Build and adapt a whole rhythmic performance from learned sections
+
+Use this case when performers can already speak or play the constituent rhythmic material but still need to decide which sections belong in a whole piece, how they connect and who performs them. The result is an arrangement that can enter a joint rehearsal. Learning the constituent phrases or establishing concert readiness is a different task.
+
+David P. Nelson's *Solkattu Manual*, chapters 8–12, supplies a concrete arranging method for the *tani āvartanam*, the percussion feature in the Karnatak concert practice described there. Chapter 12 develops solo, duo and four-player pieces from the preceding lessons. Its ingredients include time-affirming passages (*sarvalaghu*), shaped compositions ending in a repeated phrase (*kōrvai*), shortening exchanges (*koraippu*) and an identifiable ending. Keep the learned notation or an adequate demonstration of each chosen section available: an outline names those parts without teaching their contents.
+
+**Begin with what the whole must do.** In this idiom, the *periya mōrā* and final kōrvai tell the other musicians that the percussion feature is ending and that they must return to the song. Reserve that ending before filling the available duration. The material leading to it may change. Keep the sarvalaghu in roughly the taught order when recognition as this form matters; omit whole sections when duration or preparation requires it. These are conditions of the chosen use. A different composition can deliberately change the form, but then its ending and recognition requirements must be established for that new use.
+
+Suppose two prepared players want a compact piece using Nelson's learned material. They select the opening, a kōrvai with its preparation, the exchange and the ending. They omit the separate Palani composition to shorten the whole. Their outline connects functions as well as names:
+
+| Part of the duo | Material and allocation | What makes the next part possible |
+| --- | --- | --- |
+| Establish the cycle and develop the opening | Alternate selected ādi mōrās, then perform a compound mōrā; close together with the learned *arudi*, a section-closing figure. | Both players share the cycle and the next entry. Preserve the selected compound figure's actual starting position; its familiar phrase does not make it start where a simple mōrā starts. |
+| Develop and change the subdivision rate | Prepare the chosen kōrvai with its learned setup; one player performs the filled version at four pulses per beat, the other at three. Close together with an arudi. | In this duo the rate change is a complete central treatment. It need not introduce a separate three-pulse section. |
+| Intensify the exchange and bring the players together | Use selected koraippu patterns, shorten each player's turn through the learned stages, then perform the unison transition. | The exchange becomes a collective passage that leads to the ending's preparation. Choose actual complete patterns, not arbitrary cuts through a turn. |
+| Make the impending return recognizable | Perform the selected preparation, periya mōrā and final kōrvai. The duo can perform these together. | The final kōrvai's three statements let the other musicians synchronize their return to the song. |
+
+This outline follows Nelson's two-player example. To obtain a usable rehearsal outline, attach the chosen notation, identify each player and enter each part's start, end and repetitions against the continuing cycle. Count setups, closing figures and preparation as well as the principal compositions. Convert the resulting beat total to duration at the intended beat tempo. If the whole exceeds the available time, remove an optional section or a complete permitted group of patterns, then recompute the joins and duration. Merely adding the nominal lengths of the named compositions leaves their connecting work unaccounted for.
+
+**Choose the transition from the phrase's actual density.** Here the reference is an eight-beat cycle whose beat tempo continues through the change. A pulse is a subdivision of that beat, not another name for a syllable. Nelson's chapter 8 kōrvai occupies 96 counted pulse units in both its simpler and filled versions. Changing how many pulses fit inside a beat changes the statement's duration; filling a phrase can also change the number of syllables inside a pulse.
+
+| Learned version and treatment | Fastest syllabic demand | Span of the two kōrvai statements |
+| --- | --- | --- |
+| Simpler version: four, then six pulses per beat | Four, then six syllables per beat | `96/(8 × 4) + 96/(8 × 6) = 3 + 2 = 5` cycles |
+| Filled version: four, then three pulses per beat | Eight, then six syllables per beat | `96/(8 × 4) + 96/(8 × 3) = 3 + 4 = 7` cycles |
+
+These totals exclude the preceding setup and any following arudi. Copying the simpler version's four-to-six transition onto the filled version would demand twelve syllables per beat in its double-speed phrases. The seven-cycle alternative preserves the filled material while lowering its peak demand at the second rate. It also occupies two more cycles than the five-cycle treatment. If that extra duration cannot fit, shorten optional material or retain the simpler version; silently speeding the beat changes another condition.
+
+The next section determines how to use this treatment. Nelson's solo uses the simpler four-to-six transition to lead directly into three-pulse material. His duo uses the filled four-to-three treatment as a section in its own right and closes it before the exchange. Another supplied option is three kōrvai versions at four pulses per beat, an arudi, and then a new three-pulse section. Choose the continuation with the intended shape of the whole in view: a local rate change does not require every arrangement to include the same following section.
+
+**Make the exchange converge.** For the chapter 10 koraippu, successive stages give each player two eight-beat cycles, one cycle, half a cycle and a quarter cycle. Choose the patterns for each stage from the learned material, maintaining their order and their stated spans. A shorter duo can omit selected patterns while retaining the progression. Do not shorten a phrase merely because the next turn is shorter: the source gives the corresponding smaller construction.
+
+The subsequent unison transition uses phrase lengths seven down to one, each four times. At four pulses per beat, `4 × (7 + 6 + 5 + 4 + 3 + 2 + 1) = 112` pulses. Its additional one-pulse articulation and fifteen-pulse mōrā produce `112 + 1 + 15 = 128` pulses: four eight-beat cycles. Go directly from the last statement of the mōrā into the ending's preparation.
+
+**Adapt the whole when the people change.** With one player, omit the koraippu and its exchange-specific unison transition. Reconnect the preceding section to the ending, choosing its closing figure and preparation from the learned material. Nelson's solo offers an actual alternative: it includes the three-pulse kōrvai section and proceeds from that section's arudi to the ending. The periya mōrā and final kōrvai remain; unison ceases to be relevant.
+
+With more players of unequal preparation, allocate demanding solos to those who can perform them and give others manageable material together. Put reliable players at vulnerable beginning and ending positions in the exchange order. This changes the performing arrangement without requiring every participant to acquire the hardest solo. Preserve the ending's recognizable function when reallocating it: Nelson treats unison as usual, not compulsory. If the intended form or receiving musicians change, reconsider what actually makes their return possible instead of preserving this ending by name.
+
+**Return the arrangement to performance.** [RHY.8](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md#rhy8---specify-and-transform-performable-rhythmic-variants) supports local transformations and their timing. [RHY.9](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md#rhy9---arrange-rhythmic-actions-and-timing-cues) supplies allocation, usable cues and recovery while the passage continues. Use [MDPE.3](#mdpe3---configure-and-coordinate-a-music-or-dance-performing-whole) when the assembled piece needs a joint configuration and trial.
+
+In that trial, play through the selected transitions and the final return, not only the separate sections. A missed shared entry can require a better cue or allocation; an unperformable filled phrase can require the simpler material or capability development through MDPE.10. A correctly counted plan supplies neither observation. Retain, revise or branch the arrangement under MDPE.9 according to the actual trial and receiving use. The useful construction here is the way from learned parts to a purposeful whole, including the choices that must change when density, duration or participants change.
+
 ### MDPE.9:5 - Checks and Common Repairs
 
 | Check | Failure it prevents | Repair |
@@ -1989,6 +2033,7 @@ other may branch because mutual initiation improves recovery while weakening int
 | Chédin et al., [co-designing movement-generation models with Voguing and Dancehall dancers](https://doi.org/10.1145/3772318.3791515) and [repository copy](https://ualresearchonline.arts.ac.uk/id/eprint/26884/) | Practitioner curation, prototype improvisation, tool/model revision and a three-model comparison by Dancer-Y. | Comparison order, self-selected music and changed practice limit causal interpretation. The broader performer-comparison procedure in :4.1 is this publication's proposed adaptation. |
 | Reis et al., [human–AI choreographic co-creation](https://doi.org/10.1080/14794713.2025.2515754) | Performer interpretation and adaptation remain part of choreographic Work with AI. | The study does not define one general choreography Method or establish cultural selection. |
 | Ableton Live 12, [Comping](https://www.ableton.com/en/live-manual/12/comping/) | A direct Music-production Method for retaining, auditioning, and combining takes. | Use it directly when it already returns the needed result. |
+| David P. Nelson, *Solkattu Manual* (2008), chapters 8, 10–12, pp. 61–65, 70–78 and 81–86; [publisher's book and companion access](https://www.weslpress.org/9780819574480/solkattu-manual/) | The taught tani's whole-form selection, density-dependent transitions, shortening exchanges, recognizable ending and adaptation to available performers in :4.7. | A source-derived arranging construction for prepared performers in the stated idiom. It is not a universal musical form, proof of current learner capability or a comparative claim about today's best teaching method. The 96-pulse calculations exclude setup and closing figures. |
 | Georgia Tech, [Shimon composition and performance account](https://news.gatech.edu/news/2017/06/13/robot-uses-deep-learning-and-big-data-write-and-play-its-own-music) | A bounded robotic generation-and-performance case and a counterexample to candidate-set and decision-holder overclaims. | It establishes neither several compared variants nor the robot's authority over practice development. |
 | Drum-brush explanation in the [Dance profile](#mdpepreface72---dance-making-movement-usable-for-its-participants), drawing on Ed Soph; Balboa candidate design in :4.3 | An event articulated within continuing movement; candidate differences that preserve or obscure a partner-readable transfer. | The transfer to partnered movement is a design analogy. The comparison and observations in :4.3 are constructed, not an empirical teaching result or universal teaching order. |
 
