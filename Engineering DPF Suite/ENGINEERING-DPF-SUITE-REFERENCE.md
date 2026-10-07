@@ -192,6 +192,7 @@ Section addresses use `Engineering.Reference:n` and nested numbers. They identif
   - [Engineering.Reference:26.2 - Put the check on the action path and revise it under authority](#engineeringreference262---put-the-check-on-the-action-path-and-revise-it-under-authority)
   - [Engineering.Reference:26.3 - Prepare experience that can change the intended choice](#engineeringreference263---prepare-experience-that-can-change-the-intended-choice)
   - [Engineering.Reference:26.4 - Compute the update and use the changed rule](#engineeringreference264---compute-the-update-and-use-the-changed-rule)
+    - [Engineering.Reference:26.4.1 - Learn from interleaved actions and observations](#learn-from-interleaved-actions-and-observations)
   - [Engineering.Reference:26.5 - Derive an audit policy from the real decision times](#engineeringreference265---derive-an-audit-policy-from-the-real-decision-times)
   - [Engineering.Reference:26.6 - Recalculate when auditing is fallible](#engineeringreference266---recalculate-when-auditing-is-fallible)
   - [Engineering.Reference:26.7 - Obtain the measurements and enact the audit](#engineeringreference267---obtain-the-measurements-and-enact-the-audit)
@@ -3345,7 +3346,7 @@ Finish the lookup when you have an answer usable for the current decision, or a 
 
 ## Engineering.Reference:26 - Construct a guard, a learning update and an audit policy
 
-**Use this when an agent's proposed action must be checked, its repeated choices need improvement, or scarce checking effort must be allocated.** A control requirement does not yet supply an executable check. Logged feedback does not yet supply a learning update. A good detector does not yet say which actions to inspect. The constructions below fill these three gaps on one service-configuration example. Enter at the gap you have; obtaining a guard does not require training a model or calculating an audit policy.
+**Use this when an agent's proposed action must be checked, its repeated choices need improvement, or scarce checking effort must be allocated.** A control requirement does not yet supply an executable check. Logged feedback does not yet supply a learning update. A good detector does not yet say which actions to inspect. The constructions below fill these three gaps on a service-configuration example; section 26.4.1 extends the learning construction to decisions separated by tool observations. Enter at the gap you have; obtaining a guard does not require training a model or calculating an audit policy.
 
 The reader is an agent-system engineer who can inspect typed calls and run short Python calculations. The example supplies a local policy, a finite learner and a two-step decision model. For deployment, the engineer still needs the actual authority, authenticated service facts, qualified execution interface and evidence about the receiving task population. The numbers below are stipulated teaching inputs. A calculation or a fixture run establishes its conditional result, not deployed protection or successful training of a language model.
 
@@ -3516,6 +3517,160 @@ Test further use on held-out values and request forms, including explicit millis
 If the interface changes to seconds in schema v2, the old multiply-by-1000 template is wrong for that output. Repair the target-schema translation and the affected learning examples or parameter branch; continue asking when the input unit is unavailable and retain principal, service and permission checks. If only the input value changes from five to twelve seconds under v1, A's same operation produces 12000 ms without a new unit rule. These changes expose different dependencies.
 
 Here the retained logit update is the finite learner's training result. An update within the current task can instead serve episode adaptation; state whether its learned state resets at the next task or carries across tasks, and assess that choice under its actual conditions. Adding a fact or a teacher's instruction to the next context supplies support. Grammar restriction controls the possible output language. Each can improve a run, but a successful supported or constrained run is not by itself evidence of durable learning.
+
+<a id="learn-from-interleaved-actions-and-observations"></a>
+
+#### Engineering.Reference:26.4.1 - Learn from interleaved actions and observations
+
+Use this application when a policy makes several decisions during an attempt, tools supply intervening observations, and the engineer must turn those attempts into a parameter update. A final failure can follow a useful earlier call. The work is to construct a learning signal whose meaning survives that distinction, update the selected policy, and use it with the support it still needs. The reader can use the finite calculation below directly; training a language model additionally requires the tokenizer, rollout engine and optimizer selected under SYSE.45.
+
+The earlier conversion example has one learned choice. Here the choices are separated by an observation. [CMP.7](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/COMPUTATIONAL-THINKING-DPF.md#cmp7---construct-a-learner-from-examples-and-feedback) supplies the learner construction, [SYSE.45:4.2–4.3](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse4542---obtain-experience-with-interpretable-feedback) the experience transformation and selected training intervention, and [SYSE.49](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse49---construct-informative-tasks-and-feedback-environments-for-agent-work) the qualification of tasks and feedback. The calculation makes their connection explicit. For an actual calculator service, a direct arithmetic controller is the obvious competing way to obtain the answer; use this deliberately small learner to understand and test the update construction.
+
+##### Keep the generated choices and their available histories
+
+The task is to return `(n*m)+k`. The supplied calculator evaluates multiplication or addition exactly. A finite policy has two trainable scalar logits, initially zero. The first chooses `n*m` with probability `sigmoid(z1)` and `n+m` otherwise. After receiving the calculator's return `o`, the second chooses the answer `o+k` with probability `sigmoid(z2)` and `o+k+1` otherwise. The second logit is shared across these histories, but its answer still consumes the actual observation. The input supplies `n`, `m`, `k` and the calculator's meaning. The arithmetic operations and the available choices are provided capabilities; only their choice probabilities are being learned.
+
+The worked example stipulates the following four recorded episodes, sampled in this deterministic fixture with the same unchanged old policy. Each generated choice had probability 0.5. The example conditions on this realized group; another four draws need not cover all four combinations.
+
+| Episode | Generated calculator call | Observed return | Generated answer | Independently checked terminal reward |
+| --- | --- | --- | --- | --- |
+| A | `17*19` | 323 | 328 | 1 |
+| B | `17*19` | 323 | 329 | 0 |
+| C | `17+19` | 36 | 41 | 0 |
+| D | `17+19` | 36 | 42 | 0 |
+
+For B, the first learning record contains the request, tool meaning, selected multiplication call and its old probability. The second contains that same request, the actual call, its observed return 323, the selected answer 329 and its old probability. The result checker supplies reward 0 outside those decision inputs. It does not put the correct answer into the policy's earlier history. Preserve the producing configuration and the observations needed to interpret each record.
+
+Select the two generated decisions as policy-output positions. The calculator return stays in the second decision's input and has no policy-output target of its own. For a language model, the same distinction concerns generated tokens and externally supplied tokens; the selected trainer must implement both the mask and the intended loss normalization. A tag that the model can forge does not authenticate a tool result. Obtain observations through the execution interface and preserve their provenance. A missing or altered return requires repairing the experience or defining the resulting different input condition.
+
+##### Calculate an outcome update and consume it
+
+Choose a mean of separate generated-decision terms. Let `A_i` be episode i's reward minus the group mean, divided by the population standard deviation. Use zero advantages for a zero-deviation group. For this group the advantages are `(sqrt(3), -1/sqrt(3), -1/sqrt(3), -1/sqrt(3))`. Each episode has two generated decisions. A complete surrogate for this finite adaptation is:
+
+```text
+rho_it = current_probability(action_it | history_it)
+         / old_probability(action_it | history_it)
+J = mean_over_episodes[
+      mean_over_generated_decisions[
+        min(rho_it*A_i, clip(rho_it, 0.8, 1.2)*A_i)
+      ]
+    ]
+```
+
+Maximize J. This example uses no reference-policy regularizer. Keep the old probabilities fixed during this update. At the old policy all ratios are 1 and clipping is inactive. For either logit, the derivative of a chosen binary action's log probability is `choice_bit - 0.5`, where bit 1 denotes multiplication or `o+k`. Averaging both decisions and all four episodes gives gradient `(1/(4*sqrt(3)), 1/(4*sqrt(3)))`. An ascent step of size 0.3 gives logits `(0.0433012702, 0.0433012702)` and choice probabilities `(0.5108236264, 0.5108236264)`.
+
+This code prepares the histories, obtains the first update and uses the resulting probabilities on a new input. It also shows which parts of the operation are supplied by the fixture.
+
+```python
+from math import exp, sqrt
+
+def sigmoid(z):
+    return 1 / (1 + exp(-z))
+
+def calculator(n, m, multiply):
+    return n * m if multiply else n + m
+
+# Recorded choices, returns and answers; the old logits are (0, 0).
+raw = [(1, 1, 323, 328), (1, 0, 323, 329),
+       (0, 1, 36, 41), (0, 0, 36, 42)]
+request = (17, 19, 5, "calculator evaluates the selected expression exactly")
+batch = []
+for call_bit, answer_bit, observed, answer in raw:
+    n, m, k, tool_meaning = request
+    expression = f"{n}*{m}" if call_bit else f"{n}+{m}"
+    assert observed == calculator(n, m, call_bit)
+    assert answer == observed + k + (1 - answer_bit)
+    batch.append({
+        "generated": [
+            {"history": request, "action": ("call", expression),
+             "bit": call_bit, "old_probability": 0.5},
+            {"history": (request, ("call", expression), ("return", observed)),
+             "action": ("answer", answer), "bit": answer_bit,
+             "old_probability": 0.5}],
+        "reward": int(answer == n * m + k)})
+
+def first_step(records, rewards, rate=0.3):
+    # Only this frozen zero-logit policy's first step; two selected positions.
+    count = len(records)
+    mean = sum(rewards) / count
+    sd = sqrt(sum((r - mean)**2 for r in rewards) / count)
+    advantages = [(r - mean) / sd for r in rewards] if sd else [0.0] * count
+    gradient = [sum(advantages[i] * (records[i]["generated"][j]["bit"] - 0.5)
+                    / 2 for i in range(count)) / count for j in range(2)]
+    return [rate * g for g in gradient]
+
+def act(probabilities, n, m, k, draws):
+    multiply = draws[0] < probabilities[0]
+    observed = calculator(n, m, multiply)
+    unshifted = draws[1] < probabilities[1]
+    return observed + k + (0 if unshifted else 1)
+
+old = [0.5, 0.5]
+logits = first_step(batch, [row["reward"] for row in batch])
+new = [sigmoid(z) for z in logits]
+assert act(old, 12, 13, 5, (0.51, 0.51)) == 31
+assert act(new, 12, 13, 5, (0.51, 0.51)) == 161
+assert first_step(batch, [1, 1, 1, 1]) == [0.0, 0.0]
+wrong = [sigmoid(z) for z in first_step(batch, [0, 0, 1, 0])]
+assert wrong[0] < 0.5  # Rewarding C would encourage addition.
+print([round(p, 10) for p in new])
+```
+
+Both runs retain the calculator. Reset the task's history for the new input; retain the updated logits. Under these supplied choices, the probability of selecting multiplication and the unshifted answer rises from 0.25 to approximately 0.260941. The fixed draws expose one changed action; they are deliberately chosen and supply no independent estimate of performance. The representation already makes the same choices applicable to new n, m and k. The calculation establishes a finite update and its consumption, rather than acquisition of those arithmetic operations by a language model.
+
+B's useful multiplication call receives B's negative terminal advantage. The total group can nevertheless favor multiplication because it combines that contribution with A's success and the failed addition choices. Terminal weighting therefore supplies learning pressure to intermediate decisions without separately assessing the usefulness of each decision. [ToRL v1, §§2–3](https://arxiv.org/pdf/2503.23383v1) trains tool-interleaved math solutions with final-answer reward, retaining interpreter output as context while masking it from loss; its tested execution-error penalty was omitted from the main recipe. [Search-R1 v5, §3 and Appendix B.2](https://arxiv.org/html/2503.09516v5) likewise retains retrieved observations while optimizing generated output from terminal feedback. Its main implementation uses PPO, with GRPO as an alternative. These sources support the separation of observation, generated decision and outcome signal. The two-logit objective above is an explicit receiving construction.
+
+Aggregation changes that construction. Including the tool return as a third item in this example's averaging denominator would multiply each gradient by 2/3, producing probability 0.507216 rather than 0.510824; the displayed draws would still yield 31. Alternatively, form a product of the two action ratios and clip that whole-episode ratio. With the same four rewards, its first gradient is twice the displayed gradient, giving probability 0.521637 at rate 0.3. Subsequent whole-episode clipping also differs from clipping each decision. Choose and document the objective actually implemented. In a language model, token lengths, generated-token normalization and observation masks must agree with that objective. Lengthening a return leaves this finite calculation unchanged only because its representation consumes the same integer observation and still has two generated decisions.
+
+For further training, evaluate current-to-old ratios, clipping and any selected regularization under the actual trainer. Resample under a new rollout policy when that recipe requires it. This first-step derivative cannot be repeated as though every later ratio stayed 1. Retain a recoverable baseline, decide when learned parameters persist or reset, and assess changed and older useful behavior on separate cases as in section 26.4.
+
+##### Obtain a separate reason to credit a call
+
+If the work needs a positive assessment of B's first call, select what that assessment means and obtain its grounds. Three different inputs can support three different operations:
+
+| Available ground | Construction and first usable result | What remains to establish |
+| --- | --- | --- |
+| The domain requires obtaining the product `n*m`, and the observed return can be checked against it. | Compare each actual return with `n*m`. The call-subresult labels are `(1, 1, 0, 0)`. Use these as a separately qualified call-only target. | Obtaining the product establishes neither the final answer nor the necessity of using a calculator. A legitimate different solution may not need this subresult. |
+| An independently qualified next-call annotation is available at the decision history. | Construct `(history, permitted tool definitions, gold call set)`. For this exercise the declared method supplies `calculator(expression="17*19")`. Both A and B match; C and D do not. | Establish that the annotation fits the chosen method and available input, including legitimate alternative calls. A final reward does not supply this gold set. |
+| A qualified transition and continuation model is available. | Evaluate each first call with the old continuation under [MMP.8.SD:4.2–4.4](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp8sd42---construct-how-an-action-changes-the-world-and-the-available-information). Here multiplication's success probability is 0.5 and addition's is 0; the old mixture is worth 0.25. Subtracting that baseline yields call credits `(+0.25, +0.25, -0.25, -0.25)`. | These values require the supplied deterministic law, all available action combinations and the old second-choice probabilities. Sparse stochastic logs alone do not establish them. A changed continuation requires reevaluation. |
+
+The first two rows assess a call against a checked subresult or a qualified annotation. The third compares its expected consequence under a specified continuation. None overwrites B's recorded final failure. The baseline subtraction and the choice to update only the first logit are receiving choices. Starting again from the zero logits, a call-only mean of probability-ratio terms using those continuation credits has first gradient 0.125 for z1 and zero for z2. At rate 0.3 it gives `z1=0.0375`; the answer decision still needs its own learning signal.
+
+[ToolRL, NeurIPS 2025, §§2.1–2.4 and Appendix C](https://papers.nips.cc/paper_files/paper/2025/file/97c5b2707228e7e3fb67e4ecc2e0e607-Paper-Conference.pdf) supplies an annotated-call branch. It turns multi-step records into next-step tasks with preceding history, compares predicted and gold call sets using maximum matching over tool names, parameter keys and values, and normalizes the attainable score before scaling correctness to −3 through +3 and adding format reward. Group-relative advantages feed clipped policy optimization. Thus the first engineering input is a history with qualified call annotations. The source's exact scoring and trainer consume it. If only the four terminal rewards are available, either construct and qualify the additional annotations or continue with the outcome branch; silently calling those rewards gold calls would change the evidence. Call agreement still needs a separate check of the resulting effect in the receiving work.
+
+##### Supply preparation and preference inputs when those branches are selected
+
+When the starting policy rarely produces a usable tool interaction, demonstrations can make subsequent exploration feasible. Obtain successful executions with available task inputs, actual observations and checked outcomes. From A, construct a supervised pair from the initial history to the multiplication call, and another from the resulting history including 323 to answer 328. Fit the generated actions; supply the return in the later input. A corrected first call in C would need its own execution or other qualified consequence evidence. A label for that correction may be usable before such evidence exists, but it does not inherit C's return 36. The correction of B's final answer can instead use the already available 323 if the stated method warrants it.
+
+[ReTool, ICLR 2026, §2 and Appendix A](https://proceedings.iclr.cc/paper_files/paper/2026/file/4038c9208dfc22644c60ad39c24e5c53-Paper-Conference.pdf) develops a preparation-to-update route: produce tool-interleaved traces from checked math solutions, retain their reasoning and failed attempts, filter format and final answers, and perform cold-start supervised training before PPO on new executed trajectories. Its main reward checks final correctness rather than code executability; interpreter output remains context and is masked from loss. For an adaptation, choose one executable parser contract and exercise it on the prepared examples. Figure 9 contains conflicting instructions about Markdown fences inside code tags. A receiving choice such as raw code inside those tags, with no Markdown fences, resolves that conflict locally; it cannot be attributed to an unambiguous source instruction. If checked demonstrations or an executable serialization are unavailable, return that precise preparation gap before claiming the policy was prepared.
+
+A preference update requires two available, comparable outputs and a justified ordering. For the same request, A and B provide a simple qualified pair: prefer the checked correct answer over the checked incorrect one. They share the same first call and observation. Retain both histories, their generated actions, the ordering grounds and a fixed reference policy. If sampling supplies only rejected outputs, obtain a warranted preferred one or use a different available feedback regime. Relabeling one of the failures as preferred would teach a different objective.
+
+For a concrete finite preference update, let `P(A)` and `P(B)` be products of policy probabilities of the generated decisions, conditional on each recorded history. The tool return has no generated-output probability in these products. With reference probabilities from the old zero-logit policy, minimize:
+
+```text
+loss = -log(sigmoid(beta * (
+       (log P_current(A) - log P_current(B))
+       - (log P_reference(A) - log P_reference(B)))))
+```
+
+Set beta to 0.3. At the reference policy, gradient descent with rate 0.1 changes only z2, from 0 to 0.015, giving unshifted-answer probability 0.503750. The shared call cancels from the pair comparison, so z1 remains zero. On the new `(12,13,5)` input, draws `(0.49,0.501)` select multiplication in both policies, then answer 162 before this preference update and 161 after it. This adaptation exhibits the pair's particular information: it can change the answer choice without pretending to distinguish the shared calls.
+
+[Tool-Star v1, §3.2, Algorithm 1 and Appendices B–E](https://arxiv.org/html/2505.16410v1) combines preparation, masked group-relative training and preference updates. It separates direct successes, tool-assisted successes and intended harder failed questions, then samples candidates after GRPO and uses scores at least 1 for preferred outputs and below 1 for rejected outputs. Keep the actual contrasting candidates and the executable reward grounds. The source's earlier correct-trace filter leaves the supply of both-failed questions underspecified; retaining their question IDs before filtering is an explicit receiving repair. Its printed negative DPO loss and ascent wording also conflict. The finite example above descends that loss: reversing the sign would reduce the preferred answer's probability to 0.496250. These repairs state how this application works without claiming what the authors' code did.
+
+##### Change the learned objective deliberately
+
+A policy may first need to learn the interaction protocol and later to solve the task. Label the stage and its objective when preparing feedback. [R1-Searcher v2, §§2–3](https://arxiv.org/html/2503.05592v2) first gives 0.5 for using retrieval at least once and 0.5 for acceptable format, with no answer reward. Its second stage removes the retrieval bonus, uses answer F1 and penalizes format violations by −2. This is a change in what receives reinforcement. The later policy still needs retrieval and its external evidence; a protocol reward has not taught all the reasoning required for the answer.
+
+In the calculator example, all four episodes use a call and a well-formed answer. Giving each reward 1 for those properties produces zero group-relative update. Giving only C reward 1 makes addition more likely. Both calculations can be correct while their feedback fails the intended task. Preserve the original observations and identify the objective used to rescore or collect each batch. Decide the transition using actual usable interaction and later task behavior. A stage number alone supplies no evidence that the earlier capability was acquired.
+
+Check the reward against the behavior it could make attractive. Tool-Star's collaboration bonus uses search and Python markers in a correct response; marker presence alone does not establish that either tool contributed. R1-Searcher's reported failures include fabricated document spans and long answers that collect likely gold-answer words. Bind tool observations to execution, check the required result independently and test plausible reward exploits. Redesign or narrow a defeated signal before extending reliance on its optimized value.
+
+Finer intermediate feedback is another construction with its own costs. The [2026 outcome/process comparison, §§3–4 and Limitations](https://arxiv.org/html/2605.27881v2) finds that missing retrievable evidence can change the comparison; terminal-reward training remains competitive in its tested settings, while process signals trade query quality, redundancy and depth. First check that the receiving environment can supply the needed evidence and that the outcome baseline is usable. More detailed reward cannot retrieve a fact absent from the available corpus.
+
+If long interactions still leave an important attribution problem, [TRACE v1, §§2–3 and Appendix A](https://arxiv.org/html/2607.13988v1) supplies a progress-estimation alternative. A frozen reference model scores the known answer at successive tool-boundary prefixes; changes in log likelihood contribute turn-level credit combined with outcome advantage. That route needs reference answers, prefix-scoring access and a qualified estimator. Increased answer predictability is the estimator's signal; it does not by itself establish causal usefulness of a call. Qualify it for the receiving outputs and preserve its aggregation with terminal feedback. A missing reference answer or unreliable scorer returns that branch to obtaining feedback, while a viable outcome method can remain usable.
+
+The resulting engineering choice is between available, qualified learning constructions. Start with the signal and support the work can actually supply; obtain a missing prerequisite when the needed distinction depends on it. Carry the selected update into subsequent execution, then compare actual task results, preserved useful behavior and total cost on appropriate separate cases. A larger reward, more prepared examples or a changed parameter value alone does not establish the intended improvement.
 
 ### Engineering.Reference:26.5 - Derive an audit policy from the real decision times
 
