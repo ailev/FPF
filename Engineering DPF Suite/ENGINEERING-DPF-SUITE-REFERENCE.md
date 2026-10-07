@@ -196,6 +196,7 @@ Section addresses use `Engineering.Reference:n` and nested numbers. They identif
     - [Engineering.Reference:26.4.2 - Allocate training attempts and select the update](#allocate-training-attempts-and-select-the-update)
     - [Engineering.Reference:26.4.3 - Learn a strategy together with its execution](#learn-a-strategy-together-with-its-execution)
     - [Engineering.Reference:26.4.4 - Learn actions whose value persists across sessions](#learn-actions-whose-value-persists-across-sessions)
+    - [Engineering.Reference:26.4.5 - Transfer a procedure through teacher-guided learning](#transfer-a-procedure-through-teacher-guided-learning)
   - [Engineering.Reference:26.5 - Derive an audit policy from the real decision times](#engineeringreference265---derive-an-audit-policy-from-the-real-decision-times)
   - [Engineering.Reference:26.6 - Recalculate when auditing is fallible](#engineeringreference266---recalculate-when-auditing-is-fallible)
   - [Engineering.Reference:26.7 - Obtain the measurements and enact the audit](#engineeringreference267---obtain-the-measurements-and-enact-the-audit)
@@ -3349,7 +3350,7 @@ Finish the lookup when you have an answer usable for the current decision, or a 
 
 ## Engineering.Reference:26 - Construct a guard, a learning update and an audit policy
 
-**Use this when an agent's proposed action must be checked, its repeated choices need improvement, or scarce checking effort must be allocated.** A control requirement does not yet supply an executable check. Logged feedback does not yet supply a learning update. A good detector does not yet say which actions to inspect. The constructions below fill these three gaps on a service-configuration example. The learning applications address decisions separated by tool observations (26.4.1), allocation of training attempts (26.4.2), strategy and conditional execution (26.4.3), and consequences retained across sessions (26.4.4). Enter at the gap you have; obtaining a guard does not require training a model or calculating an audit policy.
+**Use this when an agent's proposed action must be checked, its repeated choices need improvement, or scarce checking effort must be allocated.** A control requirement does not yet supply an executable check. Logged feedback does not yet supply a learning update. A good detector does not yet say which actions to inspect. The constructions below fill these three gaps on a service-configuration example. The learning applications address decisions separated by tool observations (26.4.1), allocation of training attempts (26.4.2), strategy and conditional execution (26.4.3), consequences retained across sessions (26.4.4), and teacher-guided procedure transfer (26.4.5). Enter at the gap you have; obtaining a guard does not require training a model or calculating an audit policy.
 
 The reader is an agent-system engineer who can inspect typed calls and run short Python calculations. The example supplies a local policy, a finite learner and a two-step decision model. For deployment, the engineer still needs the actual authority, authenticated service facts, qualified execution interface and evidence about the receiving task population. The numbers below are stipulated teaching inputs. A calculation or a fixture run establishes its conditional result, not deployed protection or successful training of a language model.
 
@@ -4175,6 +4176,246 @@ This branch needs memory snapshots, a fixed answerer, gold answers with session-
 
 Choose among a qualified value estimate, a heuristic and controlled memory trials according to the target operation, available observations and whole development cost. The learned consultation choice and the learned memory editor need different action records and feedback even when both serve later information use. Assess the resulting complete arrangement through SYSE.45:4.4, including stale entries, changed questions, fallible help and older useful behavior.
 
+
+<a id="transfer-a-procedure-through-teacher-guided-learning"></a>
+
+#### Engineering.Reference:26.4.5 - Transfer a procedure through teacher-guided learning
+
+Use this application when repeated prompting, planning or expert assistance supplies a useful procedure, and the engineer needs to obtain a policy that can perform its decisions with less recurring guidance. Copying a final answer can lose the response to an intermediate observation. Copying every teacher decision can instead preserve an error. Choose what the student can learn from the available histories and feedback, compute the resulting update, then execute the changed policy with its retained support.
+
+The construction needs qualified interaction records, access to change the student's parameters and an executor for subsequent trials. Ordinary Python, probabilities and differentiation are sufficient for the finite example below. A known direct rule can settle the example more cheaply; use learning in a receiving task only when its development and later-use costs warrant it. When the intended change is an external workflow or reusable instruction, follow SYSE.47 or SYSE.48 instead.
+
+[C.40:4.7](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c4047---develop-a-way-by-what-its-use-produces) supplies the loop of executing the student, obtaining teaching targets on its reached histories, fitting it and executing again. [CMP.7](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/COMPUTATIONAL-THINKING-DPF.md#cmp7---construct-a-learner-from-examples-and-feedback) constructs the learner; CMP.6 supplies finite update calculation. [MMP.8.SD](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp8sd---construct-a-sequential-decision-model-from-information-and-consequences) determines which information is available before each decision. The additional work here is selecting and connecting hard targets, teacher distributions, outcome feedback and changes to the teaching arrangement.
+
+##### Recover the procedure and the observations it needs
+
+Suppose an assistant must report the checked status of a job. A read-only service returns `pending` or `committed`. A report of completion requires the latter observation; a request to inspect the job is not that observation. If the supplied interface has become obsolete, it returns `schema_error`. A supported recovery can obtain the current interface and inspect again.
+
+The external teacher can demonstrate three useful executions:
+
+- inspect → pending → report pending;
+- inspect → committed → report complete;
+- inspect → schema error → obtain the current interface → inspect again → pending → report pending.
+
+Retain the third execution's failure and valid recovery. Its failed call produced information that the later decisions use. Repeating that call indefinitely, inventing a committed response or labelling its old observation as the result of a different action would change the procedure. Qualify the demonstrated decisions against the actual service contract and records, including where the information came from. A correct final report alone does not qualify an invented explanation or a leaked answer.
+
+For a larger teacher arrangement, run its configured planner, executor and checking contributions; retain the ordered decisions and actual observations. Then select the recurring decisions to teach. [Chain-of-Agents v1, §§3–5](https://arxiv.org/pdf/2508.13167v1) serializes role-labelled contributions for supervised fitting, followed by a separate reward-learning stage. Its observation tokens condition later decisions but receive no direct prediction loss. The fitted model still uses a runner, tools and prompts; its web arrangement also retains an external summarizer. Role tags inside one policy therefore describe generated functions, not independent performers or transferred organizational authority.
+
+Use [26.4.1](#learn-from-interleaved-actions-and-observations) for the ordered-history and observation-mask construction. Preserve a correct recovery when qualifying demonstrations; choose any minimum-length, reflection or success filter for the actual receiving behavior. CoA's reported filters and configurations are research choices. Its published script and paper differ on web training durations, and one displayed investigation retrieves an evaluation dataset's answer. Reconcile the intended run and evidence provenance before using those records to demonstrate independent investigation or a faithful procedure.
+
+The job-status example uses four decision histories. It deliberately aggregates histories only where the stipulated service contract makes the current state sufficient: inspections are read-only, no effect remains pending from an earlier failed call, and the recovered interface supplies the same status meaning.
+
+| History available to the policy | Choice 1 | Choice 0 | Qualified demonstrated choice |
+| --- | --- | --- | ---: |
+| Start, before a status return | Inspect status | Claim completion without checking | 1 |
+| A current pending return | Report complete | Report pending | 0 |
+| A current committed return | Report complete | Report pending | 1 |
+| A schema error | Obtain the current interface and inspect again | Repeat the obsolete call | 1 |
+
+Each row has its own scalar logit θ_i and probability `p_i = sigmoid(θ_i)` of choice 1. The runner binds the job identifier and implements the supported calls; the policy chooses among the stated actions. Learning argument syntax, identifying a trustworthy service or obtaining permission for a mutation would require additional inputs and operations.
+
+##### Choose the teaching target and its probability domain
+
+Use the information actually supplied:
+
+| Available teaching information | Executable choice | Consequential limit |
+| --- | --- | --- |
+| A qualified demonstrated action or generated token | Minimize its negative log probability under the student. | This hard-target loss does not supply the teacher's alternative probabilities. |
+| A teacher distribution over the same alternatives at a compatible history | Minimize a specified distribution loss, such as teacher-to-student KL. | Tokenization, action meaning, history and probability support must match the comparison. |
+| An independently grounded outcome for an executed attempt | Use the outcome update in 26.4.1, optionally with a separately specified teaching term. | An episode reward alone may penalize a useful action preceding a failure. |
+
+For a language-model sequence, retain the original order `reason, action, observation, reason, action, …`. Align character annotations with the tokenizer's prediction positions. Specify whether delimiters are targets, exclude observations and padding from direct output loss, and check the masks after truncation. Keep observations in the input to later predictions. Concatenating all reasoning before all actions teaches another history. Masking an observation's label does not remove its influence through context or the shared model.
+
+For reasoning and actions in one vocabulary, the teacher-to-student KL divergence is `D_KL(q || p) = sum_{a:q(a)>0} q(a) log(q(a)/p(a))`, summed over its alternatives a. Use it in the normalized objective
+
+`L = sum_t w_t D_KL(q_t || p_theta,t) / sum_t w_t`.
+
+Sum over the supervised positions t, with positive selected weights and compatible teacher distributions q_t. A one-hot q_t gives hard-target cross-entropy. For any fixed q_t, minimizing teacher-to-student KL is equivalent to minimizing cross-entropy with that q_t, since the teacher entropy is constant. Here w_t and q_t are held fixed during the update; the denominator includes the supervised weights, not observations. To imitate a teacher distribution, obtain its conditionals at the retained prefixes. A text-only teacher response, an unqualified truncated probability list or cached probabilities for a different history does not supply this objective.
+
+[Structured Agent Distillation v5, §§3.1–3.9 and Appendices L–N](https://arxiv.org/pdf/2505.13820v5) motivates separate reasoning and action supervision, including an optional action head. Make the receiving choice explicit. With equal weights, one probability domain and one reduction, splitting the selected positions into two masks leaves their summed loss unchanged. A finite action head changes the representation; for a call with free-form arguments, provide an action/argument factorization or a compatible token distribution. A list of command names does not define probabilities over all argument strings.
+
+Separate masks or heads also do not ensure independent parameter changes. Two binary heads sharing θ, each returning `sigmoid(θ)`, with teacher probabilities 0.9 and 0.1 have KL gradients −0.4 and +0.4 at zero: their inner product is −0.16. Weighting or changing architecture can alter that conflict; naming the spans cannot remove it. SAD's general orthogonality inference is therefore not a basis for choosing its update. The finite example below uses four independent logits.
+
+Decide which histories to collect before choosing a curriculum. With a sufficient fixed dataset, score the stored teacher histories and fit offline. With student-generated histories, query the teacher on those actual prefixes or obtain compatible cached scores. SAD describes both paths without one consistent reproduction recipe; choose one and count its teacher calls. A curriculum additionally needs an explicit sampling or ordering rule. An entropy coefficient without such a rule is not a schedule.
+
+When demonstration selection is the difficulty, [SmartAD, §3](https://aclanthology.org/2026.findings-acl.1349.pdf) offers a concrete hard-target alternative: generate several teacher executions per question, admit those passing the chosen correctness/tool checks, score them with the frozen initial student, and select the lowest NLL per question. Average token NLL within each assistant response, then average responses. Its training weights reasoning, intermediate code and final code by 1, 1.5 and 2, normalized by the sum of supervised-token weights. This needs no teacher logits, but requires extra generation and scoring. Low NLL measures compatibility, not correctness. Its tool-failure filter would remove the job-status recovery above; preserve that needed behavior through a revised admission/selection rule.
+
+##### Fit a first policy and use the fresh return
+
+For the four histories, stipulate teacher probabilities of choice 1 `q=(.8,.05,.9,.85)`. The service contract supports these target directions. Generate and qualify the three demonstrations above, then retain one representative per sufficient history. This four-row training set removes duplicate start/pending rows. SmartAD instead selects a demonstration per question by its stated NLL score.
+
+Start all logits at zero. Choose weights `(1,2,2,1)` to give the two status-dependent decisions more of this small update, with Z=6, and a descent rate η=0.6. The normalized binary cross-entropy/KL gradient is `w_i(p_i-q_i)/Z`. Thus
+
+`θ_i' = θ_i + η w_i(q_i-p_i)/Z`.
+
+Hard demonstrated targets (1,0,1,1) produce logits `(.05,-.10,.10,.05)`. The soft teacher targets produce `(.03,-.09,.08,.035)`. These are different first trained policies, even though both used the same decisions and support. Equal soft-target weights produce `(.045,-.0675,.06,.0525)`; selecting a weight changes the update, while renaming a mask would not.
+
+The following finite simulator creates the demonstrations, constructs both updates and executes the changed policy. Its observations come from the service model. Each policy step retains the history and old probability needed by the next construction.
+
+```python
+from math import exp, log, sqrt
+
+
+def sigmoid(x):
+    return 1 / (1 + exp(-x))
+
+
+Q = (.8, .05, .9, .85)  # probabilities of choice 1 at the four histories
+WEIGHTS = (1., 2., 2., 1.)
+
+
+def fit_targets(theta, targets, weights=WEIGHTS, rate=.6):
+    z = sum(weights)
+    return tuple(t + rate*w*(q-sigmoid(t))/z for t, q, w in zip(theta, targets, weights))
+
+
+def execute(theta, status, draws, broken=False):
+    assert status in ("pending", "committed")
+    draws = iter(draws)
+    steps, events = [], [("task", "report the checked job status")]
+    calls = 0
+
+    def choose(i):
+        p = sigmoid(theta[i])
+        y = int(next(draws) < p)
+        steps.append({"i": i, "y": y, "p": p if y else 1-p,
+                      "q": Q[i] if y else 1-Q[i], "history": tuple(events)})
+        return y
+
+    if not choose(0):
+        events.append(("action", "claim_complete_without_check"))
+        return {"reward": 0, "steps": steps, "events": events, "calls": calls}
+    events.append(("action", "inspect_status"))
+    calls += 1
+    if broken:
+        events.append(("observation", "schema_error"))
+        if not choose(3):
+            events += [("action", "repeat_old_call"), ("observation", "schema_error")]
+            return {"reward": 0, "steps": steps, "events": events, "calls": calls+1}
+        events += [("action", "obtain_current_interface"), ("observation", "status/v2"),
+                   ("action", "inspect_with_current_interface")]
+        calls += 2  # obtain supported interface, then read current status
+    events.append(("observation", status))
+    y = choose(1 if status == "pending" else 2)
+    events.append(("action", "report_complete" if y else "report_pending"))
+    return {"reward": int(bool(y) == (status == "committed")),
+            "steps": steps, "events": events, "calls": calls}
+
+
+def expected(theta, broken=False):
+    p = tuple(map(sigmoid, theta))
+    return p[0]*(p[3] if broken else 1)*((1-p[1])+p[2])/2
+
+
+old = (0.,)*4
+teacher = tuple(log(q/(1-q)) for q in Q)
+demos = [
+    execute(teacher, "pending", (.2,.2)),
+    execute(teacher, "committed", (.2,.2)),
+    execute(teacher, "pending", (.2,.2,.2), broken=True),
+]
+chosen = {}
+for episode in demos:
+    assert episode["reward"] == 1
+    for s in episode["steps"]:
+        if s["i"] in chosen:
+            assert chosen[s["i"]]["y"] == s["y"]
+        chosen.setdefault(s["i"], s)
+hard = fit_targets(old, tuple(float(chosen[i]["y"]) for i in range(4)))
+soft = fit_targets(old, Q)
+equal_soft = fit_targets(old, Q, (1.,)*4)
+for name, theta in (("old",old), ("hard",hard), ("soft",soft), ("equal",equal_soft)):
+    print(name, tuple(map(sigmoid,theta)), expected(theta), expected(theta,True))
+for theta in (old, soft):
+    print(execute(theta,"pending",(.49,.49))["events"])
+print(execute(soft,"committed",(.49,.49))["events"])
+for theta in (old,soft):
+    print(execute(theta,"pending",(.49,.505,.49),broken=True)["events"])
+```
+
+With equal probabilities of pending and committed in this stipulated later population, expected valid-report probability is `p_start * ((1-p_pending)+p_committed)/2`. It changes from 0.25 to 0.2690504668 after the hard-target step and to 0.2645275262 after the soft-target step. Equal soft weights yield 0.2637692806. If every initial call meets the recoverable schema error, multiply by p_repair: the corresponding values are 0.125, 0.1378876638, 0.1345781427 and 0.1353458172. The ranking of the two soft-weight choices reverses between those populations. A loss-weight choice therefore needs the receiving work distribution and retained support, not just training loss.
+
+The printed pending episode uses the same draws (.49,.49). The old policy inspects and falsely reports completion; the soft-trained policy inspects and reports pending. With a fresh committed observation it instead reports complete. In the changed-interface episode, draws (.49,.505,.49) make the old policy repeat the failed call, while the soft-trained policy obtains the current interface, inspects again and reports pending. The repair is performed by the supported runner; the learned decision selects it. The expected probabilities describe the stipulated population.
+
+##### Compute guidance on histories reached by the student
+
+A student can reach histories absent from a fixed teacher dataset. Execute its calls, retain the resulting observations, and score the actions it actually sampled. A teacher's proposed replacement action does not inherit the old action's next observation; SYSE.45:5.2 supplies that return. Keep the rollout probabilities, teacher scores and task outcomes separately.
+
+[SOD v3](https://arxiv.org/pdf/2605.07725v3) supplies one empirical choice for combining these signals. Its [released implementation](https://github.com/YoungZ365/SOD/tree/110c4b8e843aee274d3cd648199569369ee2403e) uses the following fixed-batch surrogate. A response step is a contiguous generated span between observations. For its generated tokens compute
+
+`d_k = mean_t |log p_old(y_t|h_t) - log q(y_t|h_t)|`,
+
+then `w_1=1` and `w_k=min((d_1+epsilon)/(d_k+epsilon),1+delta)` for later steps. The adjacent-ratio product telescopes to this expression; clipping an intermediate weight and feeding that clipped value into the next ratio would implement another rule. Use positive epsilon; the released launch uses 1e−6 and delta=.2.
+
+For trajectories sampled for one question, obtain and standardize the qualified outcome reward within that group as in 26.4.1. At each generated token form
+
+`A_t = A_task + c w_k (log q(y_t|h_t) - log p_old(y_t|h_t))`.
+
+Freeze these batch advantages and weights. With `rho_t=p_theta(y_t|h_t)/p_old(y_t|h_t)`, maximize the mean over generated tokens of
+
+`min(rho_t A_t, clip(rho_t,1-e,1+e) A_t)`.
+
+The clipping width e is distinct from the weight stabilizer epsilon. Keep the combined advantage inside the clipping operation. This sampled-token construction needs the teacher's scores for the selected actions; the preceding forward-KL construction needs full distributions.
+
+For the finite example, reset to the original zero logits and collect two pending-job episodes. Draws (.25,.25) produce inspection followed by a false completion report; (.25,.75) produce inspection followed by a valid pending report. Outcomes 0 and 1 give population-standardized advantages −1 and +1. The four generated choices, and their two actual status observations, supply a complete batch. Here one choice is one response step, c=1, e=.2, and the reduction is the mean of four generated choices.
+
+Run this code after the preceding block. It calculates the first gradient at the rollout policy, where every ratio is 1 and clipping is inactive:
+
+```python
+def online_first_step(theta, episodes, weighted=True, rate=.6):
+    rewards = [e["reward"] for e in episodes]
+    mean = sum(rewards)/len(rewards)
+    sd = sqrt(sum((r-mean)**2 for r in rewards)/len(rewards))
+    grad, records = [0.]*len(theta), []
+    count = sum(len(e["steps"]) for e in episodes)
+    for episode in episodes:
+        a_task = (episode["reward"]-mean)/sd if sd > 1e-12 else 0.
+        ds = [abs(log(s["p"])-log(s["q"])) for s in episode["steps"]]
+        for k, s in enumerate(episode["steps"]):
+            w = 1. if k == 0 or not weighted else min((ds[0]+1e-6)/(ds[k]+1e-6), 1.2)
+            a = a_task + w*(log(s["q"])-log(s["p"]))
+            # First gradient at the rollout policy: ratios=1, clipping inactive.
+            grad[s["i"]] += a*(s["y"]-sigmoid(theta[s["i"]]))/count
+            records.append({**s, "d": ds[k], "w": w, "a_task": a_task, "a": a})
+    return tuple(t+rate*g for t,g in zip(theta,grad)), records, grad
+
+
+episodes = [execute(old,"pending",(.25,.25)), execute(old,"pending",(.25,.75))]
+weighted, records, gradient = online_first_step(old,episodes)
+uniform, _, _ = online_first_step(old,episodes,weighted=False)
+print("gradient",gradient)
+print("weighted",tuple(map(sigmoid,weighted)),expected(weighted))
+print("uniform",tuple(map(sigmoid,uniform)),expected(uniform))
+print(execute(weighted,"pending",(.49,.49))["events"])
+```
+
+The weighted gradient is `(.1175009073,-.3675010403,0,0)`. Step .6 gives inspection probability 0.5176178395 and probability of the wrong completion report after pending 0.4450971145. The later (.49,.49) episode now reports pending. On the stipulated balanced later population, expected valid-report probability is 0.2730182762. With weights uniformly 1, the same records give 0.2825314040. Uniform weighting yields the higher expected valid-report probability in this finite comparison.
+
+Within the failed episode, the useful inspection still gets combined advantage −0.529996, while its incorrect report gets approximately −1.470004. Weighting teacher disagreement has not recovered each action's causal contribution. The second episode changes the aggregate inspection gradient. Preserve both levels when diagnosing the learning signal.
+
+The first-step derivative in the code is specific to theta=theta_old. For another optimization step on this batch, evaluate the stated clipped objective with the stored old probabilities and frozen advantages; do not keep using that initial derivative. For a fresh rollout, recollect histories, outcomes and teacher scores. The finite construction uses pure correctness reward. To reproduce the published SOD recipe, supply its prepared SFT student, selected teacher, tool-turn outcome shaping and overlength penalties.
+
+##### Repair the premise that failed
+
+Distinguish teacher disagreement from teacher error. The SOD score is an absolute sampled log-ratio statistic, not a calibrated error probability or an ordering of full conditional KL. Its first step always gets weight 1; constant high divergence also gets weight 1 throughout. Confident agreement on a common mistake creates no warning. A meaningful tool error can be useful evidence, and later valid recovery should remain eligible.
+
+In the finite example, replace the teacher's pending-row probability .05 by .95. The soft update raises the wrong action's probability to 0.5224848248; the (.49,.49) pending episode again falsely reports completion. The balanced expected score is still 0.2531164903 because other rows improved. Inspecting that aggregate alone would hide the damaged pending branch. The actual status and the service rule reject the teacher's target. Repair or replace that target, retain an appropriate direct check, and refit/reassess the affected learner. Reducing a weight can reduce the harm but cannot establish the right action.
+
+If the status observation is withheld, pending and committed may have the same available history. Under the balanced case, one report distribution then succeeds at most half the time after inspection. Restore the observation, retained state or qualified assistance through MMP.8.SD and SYSE.42; extra imitation cannot learn a missing distinction. Likewise, an unavailable interpreter or service requires restoration or an applicable alternative. Attenuating its failed trajectories does not supply the operation.
+
+Choose a different teaching arrangement when it addresses that actual cause:
+
+- **Improve evidence available to a frozen teacher.** [GC-OPD v2, §3 and Appendix B](https://arxiv.org/pdf/2609.37522v2) indexes complete successful and failed source executions by environment-specific state locators. After a student episode, each original decision retrieves an eligible successful continuation, comparing remaining cost with the student's successful continuation when present; otherwise it returns to an earlier successful anchor or a labelled unaligned fallback. It selects a failed reference separately. The teacher scores the unchanged student response using the complete student execution and at most one reference of each kind, retaining provenance and alignment labels. Source thoughts are excluded. Equal locators do not authorize splicing different information histories into an observed execution. Keep the source prefixes and implement the paper's tie and empty-case rules.
+- **Use the update belonging to that evidence arrangement.** GC-OPD's detached signal uses `log q_evidence - log p_current`, with the frozen rollout policy in the ratio. It averages response-token surrogate terms within each episode, then weights episodes equally; outcome advantages are disabled in that edition. This differs from SOD's fixed old-score signal, combined outcome credit and token-mean reduction. Its vanilla-OPD warm-up, source collection and retrieval add preparation. Extra hindsight is training information: keep it out of the student's operating input unless it will be available there, and test whether the student's history can support the requested response. More successful reference coverage can coexist with worse student performance, as the source reports; compare the learned result.
+- **Change the teacher when its continuations remain inadequate.** C.40:4.7 obtains several teacher continuations from a reached student prefix, checks their outcomes and trains the teacher before returning it to the student loop. This needs teacher-update access and suitable feedback. It is a different intervention from reweighting a frozen teacher or changing its context. Requalify its outputs at the affected histories; improved episode outcomes do not validate every local target.
+
+When collection latency is the problem, [ActFirst-OPD v1, §§3–4](https://arxiv.org/pdf/2609.36608v1) supplies a conditional asynchronous alternative. Fast action-only proposals follow reference next observations while transitions remain compatible; a mismatch permanently switches that rollout to autonomous action-only collection. At each frozen collected context, the student separately generates a full thought/action response without the reference observation, and the teacher scores it. That sampled action may differ from the executed fast action and is not executed. Keep it distinct from the transition and outcome that produced the context. Forced decoding tokens remain context but are excluded from loss and normalization. The optimizer accepts the current or immediately preceding behavior version with stored probabilities and detached signals. Sampling is on-policy conditional on those contexts, while their distribution need not be the deployment policy's. Adopt this construction only with compatible references, transition checks and sufficient serving concurrency; include preparation beyond the reported collection timing.
+
+##### Compare the transferred result and retained support
+
+Return the trained policy together with its input meaning, action representation, runner and applicable observation/checking conditions. Compare the first learned result and consequential branches through SYSE.45:4.4 and SYSE.46. Count obtaining and qualifying demonstrations, probability queries, scoring candidate demonstrations, training, failed attempts and later execution. For the finite offline construction there are three teacher episodes, seven generated decisions and five service/interface calls; four selected histories receive the update. The online construction separately collects two student episodes with four decisions and two status calls, and scores those four choices with the teacher. Later tests are additional execution.
+
+Preserve a direct rule, unweighted learning or an adequate fixed dataset as a serious alternative. Test changed interfaces, failed calls followed by valid recovery, shared teacher mistakes and missing live information. CoA transfers role-labelled decisions while retaining external execution; SAD changes selected supervision only when its representation, weighting or reduction actually changes; SOD attenuates a teacher contribution on reached histories. These distinctions determine what to implement and what to repair. A lower imitation loss, lexical resemblance or successful final answer alone cannot establish that the useful procedure survived.
 
 ### Engineering.Reference:26.5 - Derive an audit policy from the real decision times
 
