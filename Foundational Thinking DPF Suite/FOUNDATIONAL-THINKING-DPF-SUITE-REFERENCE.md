@@ -34,7 +34,7 @@ Section addresses use `Foundational.Reference:n` and nested numbers. They identi
     - [Foundational.Reference:3.10.3 - Change the representation and retain useful alternatives](#foundationalreference3103---change-the-representation-and-retain-useful-alternatives)
     - [Foundational.Reference:3.10.4 - Develop the way that learns or obtains a result](#foundationalreference3104---develop-the-way-that-learns-or-obtains-a-result)
     - [Foundational.Reference:3.10.5 - Make interacting and continuing behavior work as a whole](#foundationalreference3105---make-interacting-and-continuing-behavior-work-as-a-whole)
-      - [Foundational.Reference:3.10.5.1 - Route contributions by current needs and offers](#route-contributions-by-current-needs-and-offers)
+      - [Foundational.Reference:3.10.5.1 - Route contributions by current needs and offers](#foundationalreference31051---route-contributions-by-current-needs-and-offers)
     - [Foundational.Reference:3.10.6 - Use human or generated contributions in the receiving operation](#foundationalreference3106---use-human-or-generated-contributions-in-the-receiving-operation)
     - [Foundational.Reference:3.10.7 - Distinguish useful behavior from an explanation of its origin](#foundationalreference3107---distinguish-useful-behavior-from-an-explanation-of-its-origin)
     - [Foundational.Reference:3.10.8 - Count the whole cost and return a usable result](#foundationalreference3108---count-the-whole-cost-and-return-a-usable-result)
@@ -45,27 +45,27 @@ Section addresses use `Foundational.Reference:n` and nested numbers. They identi
 - [Foundational.Reference:7 - Sources and conceptual synthesis](#foundationalreference7---sources-and-conceptual-synthesis) — Contributions, alternatives and the limits of their use here.
 - [Foundational.Reference:8 - Using and revising an answer](#foundationalreference8---using-and-revising-an-answer) — Substantive checks, changed conditions, source return and citation.
 
-<a id="1-start-with-a-working-question"></a>
+
 
 ## Foundational.Reference:1 - Start with a working question
 
 | Your question | First useful answer | Open next |
 | --- | --- | --- |
-| I can solve familiar equations, but do not know which objects to use here. | State the needed consequence and choose objects by the operations or maps they must support. An observation or subject premise may still need its own inquiry. | [Construct an unfamiliar account](#31-construct-an-unfamiliar-account). |
+| I can solve familiar equations, but do not know which objects to use here. | State the needed consequence and choose objects by the operations or maps they must support. An observation or subject premise may still need its own inquiry. | [Construct an unfamiliar account](#foundationalreference31---construct-an-unfamiliar-account). |
 | Several physical accounts fit what is known. Which difference matters for the work? | Derive their conditional consequences and construct an observation only when distinguishing them changes the next decision. | [Connect physical prediction and observation](PHYSICAL-THINKING-DPF.md#ph-predict-and-distinguish---develop-a-physical-prediction-and-the-test-it-needs). |
-| Two ways of working look equivalent. Can I replace one with the other? | Identify what the replacement must preserve. Matching final values can hide a different observation, enabling condition or cost. | [Understand and change a construction](#32-understand-and-change-a-construction). |
-| I must act before I know everything. What is worth finding out? | Formulate which information can reach the choice, compare the consequences still possible, and seek only information that can change the decision usefully. | [Choose with incomplete information](#33-choose-with-incomplete-information). |
-| The full calculation is too expensive. What may I simplify? | Select the consequence to preserve, derive the contribution removed detail makes, and seek a replacement, approximation or sufficient bound. | [Obtain a result under limits](#34-obtain-a-result-under-limits). |
-| A procedure gives a value, but I need a witness, every answer or a different error guarantee. | Reconstruct the required output, retain enough intermediate information and revise only the shortcuts that relied on the old request. | [Construct and change an algorithm](#36-construct-and-change-an-algorithm). |
-| A formula, table or diagram is changed. What should its other expressions now say? | Recover the shared references, interpretation and intended edit; retain independent information and expose a loss or conflict. | [Carry meaning through different expressions](#37-carry-meaning-through-different-expressions). |
-| A person or AI supplied an answer. Can we use, alter and extend the way it was obtained? | Recover the needed construction and its conditions, try the changed use, and identify the next useful question or missing capability. | [Continue and distribute thinking](#35-continue-and-distribute-thinking). |
-| A local process is faster, but its recipient still waits. What should change? | Reconstruct resource occupancy, transfer and admission rules; compute the alternatives and retain the recipient's event boundary. | [Change an operating flow](#38-change-an-operating-flow-without-hiding-its-waiting). |
-| A candidate behaves well in its selection trials but fails in the work it must do. What should change? | Connect the candidate to its actual execution and feedback; locate the failed information, representation, trial or changing operation and examine the resulting way in its intended use. | [Develop a way to act from trials](#310-develop-a-way-to-act-from-trials). |
-| I can perform a small operation, but its contribution to the wider inquiry is unclear. | Recover the encompassing work, the intermediate result it needs and the conditions the constituent operation must preserve. | [Keep the vertical visible while doing the work](#39-keep-the-vertical-visible-while-doing-the-work). |
-| A claim or recommendation seems plausible, but its support or interpretation is uncertain. | Recover the claims and inference, examine the consequential ground, and follow changed premises into the answer. | [Recover, challenge and revise an argument](#recover-challenge-and-revise-an-argument). |
+| Two ways of working look equivalent. Can I replace one with the other? | Identify what the replacement must preserve. Matching final values can hide a different observation, enabling condition or cost. | [Understand and change a construction](#foundationalreference32---understand-and-change-a-construction). |
+| I must act before I know everything. What is worth finding out? | Formulate which information can reach the choice, compare the consequences still possible, and seek only information that can change the decision usefully. | [Choose with incomplete information](#foundationalreference33---choose-with-incomplete-information). |
+| The full calculation is too expensive. What may I simplify? | Select the consequence to preserve, derive the contribution removed detail makes, and seek a replacement, approximation or sufficient bound. | [Obtain a result under limits](#foundationalreference34---obtain-a-result-under-limits). |
+| A procedure gives a value, but I need a witness, every answer or a different error guarantee. | Reconstruct the required output, retain enough intermediate information and revise only the shortcuts that relied on the old request. | [Construct and change an algorithm](#foundationalreference36---construct-and-change-an-algorithm). |
+| A formula, table or diagram is changed. What should its other expressions now say? | Recover the shared references, interpretation and intended edit; retain independent information and expose a loss or conflict. | [Carry meaning through different expressions](#foundationalreference37---carry-meaning-through-different-expressions). |
+| A person or AI supplied an answer. Can we use, alter and extend the way it was obtained? | Recover the needed construction and its conditions, try the changed use, and identify the next useful question or missing capability. | [Continue and distribute thinking](#foundationalreference35---continue-and-distribute-thinking). |
+| A local process is faster, but its recipient still waits. What should change? | Reconstruct resource occupancy, transfer and admission rules; compute the alternatives and retain the recipient's event boundary. | [Change an operating flow](#foundationalreference38---change-an-operating-flow-without-hiding-its-waiting). |
+| A candidate behaves well in its selection trials but fails in the work it must do. What should change? | Connect the candidate to its actual execution and feedback; locate the failed information, representation, trial or changing operation and examine the resulting way in its intended use. | [Develop a way to act from trials](#foundationalreference310---develop-a-way-to-act-from-trials). |
+| I can perform a small operation, but its contribution to the wider inquiry is unclear. | Recover the encompassing work, the intermediate result it needs and the conditions the constituent operation must preserve. | [Keep the vertical visible while doing the work](#foundationalreference39---keep-the-vertical-visible-while-doing-the-work). |
+| A claim or recommendation seems plausible, but its support or interpretation is uncertain. | Recover the claims and inference, examine the consequential ground, and follow changed premises into the answer. | [Recover, challenge and revise an argument](#foundationalreference311---recover-challenge-and-revise-an-argument). |
 
 
-<a id="2-what-this-suite-connects"></a>
+
 
 ## Foundational.Reference:2 - What this Suite connects
 
@@ -87,7 +87,7 @@ There are two connected questions throughout. How is a claim obtained and warran
 
 Here *foundational* means helping enter and develop problems across branches of these fields. A method's conditions still matter: a symmetry method needs a relevant transformation, for example. Further theoretical inquiry can itself be a useful continuation. A problem need not have an immediate commercial application to open a consequential new line of work.
 
-<a id="3-working-combinations"></a>
+
 
 ## Foundational.Reference:3 - Working combinations
 
@@ -95,7 +95,7 @@ Use a combination where its intermediate results are needed. Enter with a result
 
 **Finding FPF and DPF bodies.** Open [FPF-Spec.md](../FPF-Spec.md) or a linked DPF, search for the full PatternID, and read its Problem frame and Solution. A DPF's own Table of Contents links to the bodies and practical entries. For a large file that GitHub cannot display, use View raw or Download raw file and search the downloaded text.
 
-<a id="31-construct-an-unfamiliar-account"></a>
+
 
 ### Foundational.Reference:3.1 - Construct an unfamiliar account
 
@@ -109,7 +109,7 @@ That missing physical account changes what can be concluded. [PHY.4](PHYSICAL-TH
 
 The [physical connected-use example](PHYSICAL-THINKING-DPF.md#ph-predict-and-distinguish---develop-a-physical-prediction-and-the-test-it-needs) follows an unknown response through a balance, a conditional prediction and a distinguishing observation. It shows when an experiment is unnecessary and which premise to revisit after conditions change.
 
-<a id="32-understand-and-change-a-construction"></a>
+
 
 ### Foundational.Reference:3.2 - Understand and change a construction
 
@@ -129,7 +129,7 @@ FPF B.5.RC and B.5.RA recover a construction or argument. MATH.1/.5 builds and i
 
 For a longer construction, use [MP-COMBINE-RESULTS](MATHEMATICAL-PRACTICE-DPF.md#mp-combine-results---change-a-rule-so-that-separately-obtained-results-can-be-combined). It follows an unreliable aggregation rule through a counterexample, compatible summary, operation on summaries and proof, then reopens retained information when the answer changes. Each contribution supplies a result the next uses.
 
-<a id="33-choose-with-incomplete-information"></a>
+
 
 ### Foundational.Reference:3.3 - Choose with incomplete information
 
@@ -149,7 +149,7 @@ For a question about the same observed case under another action, [MMP.19](MATHE
 
 The [intervention-and-information example](MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp-intervention-and-information---decide-whether-an-observation-will-improve-the-next-action) connects these methods: use the supported intervention losses, derive the possible reports, choose whether to observe, and make the later action depend on the received report. If the report no longer distinguishes the possibilities, the observation ceases to justify its cost.
 
-<a id="34-obtain-a-result-under-limits"></a>
+
 
 ### Foundational.Reference:3.4 - Obtain a result under limits
 
@@ -167,7 +167,7 @@ The [replacement-and-coupling example](MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp
 
 The full [MMP-SUFFICIENT-ANSWER example](MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp-sufficient-answer---answer-the-working-question-before-reconstructing-every-detail) works this connection across MMP, MATH and FPF. Its changed-time question derives the particular initial-state distinction worth recovering.
 
-<a id="35-continue-and-distribute-thinking"></a>
+
 
 ### Foundational.Reference:3.5 - Continue and distribute thinking
 
@@ -197,7 +197,7 @@ The new problem is worth pursuing because its answer enables parallel assignment
 
 Keep what another contributor will need to renew the method: the chosen fairness meaning, the construction, its randomness and coordination assumptions, and a case exposing the difference between separate and joint guarantees. C.36.RP also retains access to the needed help or executor. This preserves a way to obtain, explain and change the answer. The same sequence can begin with a failed physical interpretation, an unfamiliar proof or a changed notation: recover the consequential relation, obtain the missing contribution, use it in the receiving work, and let the result open a justified next question.
 
-<a id="36-construct-and-change-an-algorithm"></a>
+
 
 ### Foundational.Reference:3.6 - Construct and change an algorithm
 
@@ -211,7 +211,7 @@ If a weaker answer is acceptable, CMP.8 constructs an approximation and its erro
 
 These methods also support changing a way of working. A solver can move a contribution to another agent; a changed representation can make sharing possible; an interaction rule can prevent one contribution from invalidating another. C.29 and Method Engineering establish the correspondence to the actual working arrangement. They retain any physical or organizational requirement that the algorithmic argument did not address.
 
-<a id="37-carry-meaning-through-different-expressions"></a>
+
 
 ### Foundational.Reference:3.7 - Carry meaning through different expressions
 
@@ -225,7 +225,7 @@ MATH.18 supplies mathematical interpretation and its preservation arguments. CMP
 
 When the expression is a score or gesture, NOT.8 adds the needed pulse, frame, segmentation and reading procedure. The direction a sign represents and the capability to perform that motion are different contributions. Method Engineering helps change the working method when the newly expressed or computed result makes another way of working possible.
 
-<a id="38-change-an-operating-flow-without-hiding-its-waiting"></a>
+
 
 ### Foundational.Reference:3.8 - Change an operating flow without hiding its waiting
 
@@ -262,7 +262,7 @@ The count-time relation makes the boundary visible. Over the nine-hour empty-to-
 
 OPS.8 uses a chosen comparison to set release and protection, OPS.14 contributes the financial consequences when they matter, and ME.25 helps reconstruct a changed working method. Observation after implementation can reopen the resource occupancy, duration, transfer or completion premise. The example combines a subject account, mathematical constraints, an obtaining procedure, measurement and an operating decision; it is one application of foundational thinking. Its finite orders do not set the scope of the general methods.
 
-<a id="39-keep-the-vertical-visible-while-doing-the-work"></a>
+
 
 ### Foundational.Reference:3.9 - Keep the vertical visible while doing the work
 
@@ -274,7 +274,7 @@ Knowing addition and knowing the experiment's purpose can leave the intermediate
 
 A proposed faster constituent goes through [B.1.5.RS](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b15rs---evaluate-a-constituent-method-replacement-in-its-encompassing-uses): check what each relevant encompassing use needs, what survives and what adaptation is required. This vertical complements the longer result-to-use routes above. It does not prescribe a fixed number of levels or turn the five DPFs into five successive stages.
 
-<a id="310-develop-a-way-to-act-from-trials"></a>
+
 
 ### Foundational.Reference:3.10 - Develop a way to act from trials
 
@@ -284,7 +284,7 @@ Use this connection when you can try a proposed way of acting but cannot yet obt
 
 [FPF C.40:4.1–4.4 and :4.7](../FPF-Spec.md) explains the general connection between changing a way, actually applying it, examining what that application obtains and choosing further development. [CMP.7](COMPUTATIONAL-THINKING-DPF.md#cmp7---construct-a-learner-from-examples-and-feedback) constructs a learner from the information its feedback supplies; its finite examples can suffice without neural search. [MMP.8.SD](MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp8sd---construct-a-sequential-decision-model-from-information-and-consequences) helps formulate which observations can influence an action and which consequences matter later. The applications below use these contributions to obtain and revise acting constructions; the worked cases include neural controllers and message routing. It assumes a reader who can understand a parameterized policy and implement or obtain its execution. Use a specialist source or contributor for an unfamiliar algorithm; the particular contribution to request is identified at each return.
 
-<a id="obtain-a-controller-through-a-complete-small-search"></a>
+
 
 #### Foundational.Reference:3.10.1 - Obtain a controller through a complete small search
 
@@ -304,7 +304,7 @@ The environment's actual semantics can change this connection. In the [Gym v0.21
 
 For an implementation, obtain the actual reset, action and episode-ending interface from the chosen environment version. The [Gymnasium task documentation](https://gymnasium.farama.org/environments/box2d/bipedal_walker/) and [implementation](https://raw.githubusercontent.com/Farama-Foundation/Gymnasium/main/gymnasium/envs/box2d/bipedal_walker.py) provide that return; its interface distinguishes termination from truncation. The printed book listings also need repair of their `step` unpacking and inconsistent `fitlist`/`fitness_list` name. Use the operations above to construct the implementation and its checks; verify the selected software before relying on its execution.
 
-<a id="use-failure-to-change-the-relevant-contribution"></a>
+
 
 #### Foundational.Reference:3.10.2 - Use failure to change the relevant contribution
 
@@ -318,7 +318,7 @@ Some intended behaviors need random action at use time. Against an opponent who 
 
 Compare complete ways of obtaining the behavior. Lack of correct target actions does not preclude learning from delayed reward or estimating a gradient of expected return. [Salimans and colleagues, §§2–3](https://arxiv.org/pdf/1703.03864), explain an evolutionary strategy that estimates a gradient for the expected performance under parameter perturbations. Its distribution, rank transformation and parallel trials determine what signal and cost it uses. A direct controller, reinforcement learning, population search or a hybrid remains eligible under the same receiving test. Choose by obtainable information, reachable changes and complete cost, rather than by a promise that one method always escapes local optima.
 
-<a id="change-the-representation-and-retain-useful-alternatives"></a>
+
 
 #### Foundational.Reference:3.10.3 - Change the representation and retain useful alternatives
 
@@ -330,7 +330,7 @@ If one best-so-far controller destroys access to materially different continuati
 
 Uncertain measurements can change which candidate deserves a place, and changing the descriptor changes the archive's distinction. Re-evaluate the relevant stored material when that difference matters. If the receiving question asks for one adequate controller, retaining a large repertoire may add needless work. If it asks for alternatives across energy, speed or another objective, bounded multiobjective retention is a different construction: [NSGA-II](https://homes.cs.washington.edu/~sagarwal/nsga2j.pdf) selects among nondominated fronts and can discard members when capacity is exhausted. Neither an archive nor a nondominated set proves that every retained controller is suitable for deployment.
 
-<a id="develop-the-way-that-learns-or-obtains-a-result"></a>
+
 
 #### Foundational.Reference:3.10.4 - Develop the way that learns or obtains a result
 
@@ -340,7 +340,7 @@ State what one candidate may inherit. Continuing from trained weights asks wheth
 
 These alternatives can also exchange useful material. A population can provide experiences for a gradient learner; an improved learner can return a policy to the population. The [evolution-guided policy-gradient construction](https://papers.nips.cc/paper/7395-evolution-guided-policy-gradient-in-reinforcement-learning.pdf) supplies that specific exchange. Preserve how experiences are collected, which parameters are updated and how a returned policy enters further comparison. Copying a score between the two procedures would not supply the exchanged experience or behavior. C.40:4.7 keeps the candidate way, its real application and the receiving result connected across these cases.
 
-<a id="make-interacting-and-continuing-behavior-work-as-a-whole"></a>
+
 
 #### Foundational.Reference:3.10.5 - Make interacting and continuing behavior work as a whole
 
@@ -357,7 +357,7 @@ Body changes can invalidate acquired skills. The [ESP extension](https://nn.cs.u
 For continued discovery, inspect what a retained basis can actually develop into. Try a feasible further change, obtain its quality and difference, and use those results to decide which basis merits continuation. Preserving current behavior and preserving future possibilities can lead to different choices. C.40:4.11/.12 explains that general return; the neural encoding, body, challenge generator or interaction supplies the particular possibilities. If an adequate current result serves the work, continued discovery can remain a separate purpose.
 
 
-<a id="route-contributions-by-current-needs-and-offers"></a>
+
 
 ##### Foundational.Reference:3.10.5.1 - Route contributions by current needs and offers
 
@@ -409,7 +409,7 @@ These stipulated two-dimensional vectors make the construction inspectable. They
 
 **Deliver, then consume.** Freeze the workers' outputs for round r. After all workers finish, place the selected messages in each recipient's round-r+1 inbox in the selected order. A message generated in r cannot depend on reading another newly generated r message under this convention. Cycles in the route graph therefore do not require finding a same-round topological execution order. If same-round dependency is actually required, construct that different interaction under [CMP.14](COMPUTATIONAL-THINKING-DPF.md) rather than silently changing this timing.
 
-In the example, B's message reports available stock 7 for the requested scope. A checks its interpretation, source basis and applicability, then consumes 7 in `max(0, 10 - 7)` and proposes 3. [Engineering.Reference:27](../Engineering%20DPF%20Suite/ENGINEERING-DPF-SUITE-REFERENCE.md#construct-and-reuse-an-exchange) supplies a complete envelope, interpretation and consuming function, including a change from available stock to gross stock. Routing ends at an eligible edge; this receiving use determines whether the edge delivered a useful contribution.
+In the example, B's message reports available stock 7 for the requested scope. A checks its interpretation, source basis and applicability, then consumes 7 in `max(0, 10 - 7)` and proposes 3. [Engineering.Reference:27](../Engineering%20DPF%20Suite/ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference27---construct-and-reuse-an-exchange-for-a-receiving-decision) supplies a complete envelope, interpretation and consuming function, including a change from available stock to gross stock. Routing ends at an eligible edge; this receiving use determines whether the edge delivered a useful contribution.
 
 Inspect the actual returned value and its use before treating a round as successful. If B sends gross stock 12 under a different description, return to the changed interpretation. If it has no stock observation, obtain that observation or another supplier. If it sends a valid 7 but A calculates with its earlier assumption of 12, repair consumption. These failures require different changes even though every selected message arrived.
 
@@ -421,7 +421,7 @@ If neither offer crosses the threshold, the next result is an unresolved need. C
 
 The manager may choose another round only while a useful unresolved contribution can still be obtained within the permitted effort. A declared round cap bounds the attempt; reaching it with a missing input returns that missing input. An asserted completion or a denser graph supplies no independent evidence that the receiving calculation used a justified result.
 
-<a id="use-human-or-generated-contributions-in-the-receiving-operation"></a>
+
 
 #### Foundational.Reference:3.10.6 - Use human or generated contributions in the receiving operation
 
@@ -431,7 +431,7 @@ Generated material can enter as the candidate, a changing operation, training ex
 
 A world model adds a further distinction. In [Ha and Schmidhuber's recurrent world-model construction](https://arxiv.org/pdf/1809.01999), observations train a compact predictive representation, a controller can develop using the learned dynamics, and its behavior returns to the actual task environment for examination. Search can exploit errors in a learned model, so simulated success leaves that receiving test consequential. The [Dreamer 3 construction](https://www.nature.com/articles/s41586-025-08744-2.pdf) instead combines continued real interaction, learning a world model and learning behavior through imagined trajectories. The learning operations and information flow differ; calling both a world model does not make their controllers or guarantees interchangeable. C.40:4.8 supplies the general prediction–policy–application return, while the selected source supplies the concrete learner and its update.
 
-<a id="distinguish-useful-behavior-from-an-explanation-of-its-origin"></a>
+
 
 #### Foundational.Reference:3.10.7 - Distinguish useful behavior from an explanation of its origin
 
@@ -443,7 +443,7 @@ A sufficient direct mechanism remains valuable here. [Ijspeert and colleagues' s
 
 The change of receiving question determines what to retain. Engineering needs the reproducible behaving construction and evidence for its conditions of use. Learning-method development needs the obtaining operation, its starting conditions and its resulting learner. Mechanistic inquiry needs the competing account, correspondence, intervention and observation that bear on its claim. Some experiment results can contribute to more than one use, but their grounds must actually support each conclusion.
 
-<a id="count-the-whole-cost-and-return-a-usable-result"></a>
+
 
 #### Foundational.Reference:3.10.8 - Count the whole cost and return a usable result
 
@@ -451,7 +451,7 @@ Include generating and decoding candidates, trials and resets, learning within a
 
 Return the result the next use needs: a tested controller and its interpretation; a learning way with its reset and inheritance rules; executable retained alternatives; or a supported mechanistic conclusion with its remaining ambiguity. Include the condition that would change the next action. If the only missing contribution is an environment adapter, request that adapter with its observation, action and episode-ending behavior. If it is an unexplained specialist operation, return to the linked source or obtain that contribution. Stop with that identified need when it cannot be supplied. The recipient should not have to reconstruct the connection from pattern names or infer a performed experiment from an article describing one.
 
-<a id="recover-challenge-and-revise-an-argument"></a>
+
 
 ### Foundational.Reference:3.11 - Recover, challenge and revise an argument
 
@@ -463,7 +463,7 @@ Once the support is inspectable, an argumentation scheme helps generate question
 
 A.6.3.RT.OE helps arrange the expression so the recovered relations can be inspected. A.10 supplies source recovery when provenance matters; B.3 addresses a separately required assurance claim. EXD.4 helps participants repair a misrepresented concern in dialogue. A practical choice can also need PSD.8/.9/.11 for alternatives, values and consequences. In your own writing, unresolved comparisons or premises become work to supply or reasons to narrow the conclusion; in a joint reading, compare the particular claims and links on which interpretations differ. The result is a usable or qualified argument, an addressed objection and the dependency or interpretation that a later answer reopens.
 
-<a id="4-preparation-and-division-of-work"></a>
+
 
 ## Foundational.Reference:4 - Preparation and division of work
 
@@ -475,11 +475,11 @@ For example, a cart investigation can divide observation and physical-account wo
 
 You may ask an assistant: “Use the relevant patterns, but explain the result in the language of my work. State any mathematical preparation I need, and explain unfamiliar terms where they affect the next step.” An explanation should let its reader recover the required structure and use it. FPF C.2.8 and Explanation Design address that question; a technically precise sentence can still leave the needed operation unexplained.
 
-If a needed operation is unfamiliar, first decide whether you must learn it or can obtain its contribution from an available source, tool, specialist or AI. [HCD.1](../Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-1) identifies the human contribution required by later work; HCD.2 and HCD.3 compare development and support from the preparation already available. A model's interpreter may need to understand its assumptions and limits while another contributor builds it. That division changes what the interpreter needs to learn.
+If a needed operation is unfamiliar, first decide whether you must learn it or can obtain its contribution from an available source, tool, specialist or AI. [HCD.1](../Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd1--derive-human-capability-demand-from-representative-later-work) identifies the human contribution required by later work; HCD.2 and HCD.3 compare development and support from the preparation already available. A model's interpreter may need to understand its assumptions and limits while another contributor builds it. That division changes what the interpreter needs to learn.
 
-For learning, choose a task that calls for the missing operation and the help available in the intended work. HCD.9 guides the attempt, feedback, correction and retry; [HCD.10](../Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-10) varies practice. [HCD.12](../Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-12) distinguishes evidence of transfer from evidence of learning a new method with a source. A correct answer supplied by a helper and the learner's own interpretation are separate contributions. Use the observed attempt to choose the next practice or support; claims about faster learning or broad transfer need the comparisons those claims entail. HCD.15 revisits the arrangement when the work or support changes. Reading all five DPFs is not a prerequisite for a useful first contribution.
+For learning, choose a task that calls for the missing operation and the help available in the intended work. HCD.9 guides the attempt, feedback, correction and retry; [HCD.10](../Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd10---choose-whether-and-how-to-vary-space-interleave-or-progress-practice) varies practice. [HCD.12](../Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd12--test-transfer-to-unfamiliar-work-or-learning-from-a-new-source) distinguishes evidence of transfer from evidence of learning a new method with a source. A correct answer supplied by a helper and the learner's own interpretation are separate contributions. Use the observed attempt to choose the next practice or support; claims about faster learning or broad transfer need the comparisons those claims entail. HCD.15 revisits the arrangement when the work or support changes. Reading all five DPFs is not a prerequisite for a useful first contribution.
 
-<a id="5-current-repertoire-and-its-limits"></a>
+
 
 ## Foundational.Reference:5 - Current repertoire and its limits
 
@@ -497,7 +497,7 @@ The collaborating Method Engineering methods are outside these 67: ME.6.MC compa
 
 A new difficulty, source contribution, medium or working condition can require further methods or a specialized profile. Use a suitable source or existing specialist method when it already supplies the needed operation. When the current language cannot provide a promised result, identify the missing operation and revise the affected method or its connections.
 
-<a id="6-architectural-rationale"></a>
+
 
 ## Foundational.Reference:6 - Architectural Rationale
 
@@ -513,7 +513,7 @@ A new difficulty, source contribution, medium or working condition can require f
 
 Direct use of a textbook or one FPF pattern can be sufficient. The Suite adds value when the work needs developed domain constructions and explicit connections among them. A single applied-engineering collection would instead narrow the promise: pure mathematical construction and development of a physical theory are also intended uses. Factory Physics and operations management are potential applications of the repertoire, not its defining scope.
 
-<a id="7-sources-and-conceptual-synthesis"></a>
+
 
 ## Foundational.Reference:7 - Sources and conceptual synthesis
 
@@ -533,7 +533,7 @@ Direct use of a textbook or one FPF pattern can be sufficient. The Suite adds va
 
 The organization here is a conceptual synthesis: retaining each contribution's conditions, connecting knowledge with its application, and making the methods themselves available for criticism and change. The small cross-practice cases explain this construction; they do not establish a general learning effect. A changed source matters when it changes an operation, premise, cost, interpretation or useful result. Return to that body's source discussion for the corresponding decision.
 
-<a id="8-using-and-revising-an-answer"></a>
+
 
 ## Foundational.Reference:8 - Using and revising an answer
 

@@ -960,7 +960,7 @@ The serious alternative is to select the most fluent, extensive or visually attr
 
 The profiles reuse the Preface's subject, account, expression, recipient and assurance distinctions and the six Methods. Each changes the receiving use, supplied contributions and evidence question.
 
-<a id="instructional-explanation"></a>
+
 
 ## EXD.Profiles:1 - Instructional explanation
 
@@ -980,7 +980,7 @@ Guidance can reduce an irrelevant search burden while concealing what the learne
 
 Fiorella's differentiated explaining, visualizing and enacting contributions, the 2023 relational-mapping study, Zhang and Fiorella's error-focused feedback, and Tetzlaff and colleagues' assistance synthesis inform EXD.2/.5 at their stated limits. Mayer's multimedia principles and Cromley and Chen's synthesis inform EXD.3's conditional form choices. These sources support candidate instructional moves and relevant distinctions; they do not certify this particular lesson. The practical gain is a repair directed at the needed relation with interpretable assistance and retry evidence. EXD.6 and HCD.19 decide whether changing the material is worth its burden or whether a different task or support question owns the next action.
 
-<a id="technical-and-advisory-explanation"></a>
+
 
 ## EXD.Profiles:2 - Technical and advisory explanation
 
@@ -1000,7 +1000,7 @@ Recognize a usable explanatory move by the recipient's actual question and the s
 
 The principal costs are unnecessary elicitation, an overlong justification and exposing more detail than the recipient needs. The principal bias is to interpret an unfamiliar question or disagreement as inability. Fisher's consultation analysis and Axelsson and colleagues' contextual feedback distinctions inform the dialogue; they are adapted to these constructed cases without claiming a universal sequence or outcome. The practical gain is a qualified rationale and correct next entry or return. A separate instructional need can select HCD and the instructional profile, but is not inferred merely from receiving advice.
 
-<a id="humanai-explanation"></a>
+
 
 ## EXD.Profiles:3 - Human–AI explanation
 
@@ -1025,7 +1025,7 @@ Adaptation can make the exchange more relevant while adding turns, reading burde
 
 # Sources and dependencies
 
-<a id="relied-on-contributions-and-their-limits"></a>
+
 
 ## EXD.Reference:1 - Relied-on contributions and their limits
 
@@ -1048,7 +1048,7 @@ This edition connects formal and pragmatic explanation, empirical work on learni
 
 Older books by Brown and Wragg (2001), LeFever (2012), Khalifa (2017) and McCain (2022) identify lines of instructional practice, explanatory craft and philosophical inquiry in the field's background. Their publisher descriptions and contents supplied lineage orientation. Unread chapters are not premises for the operative Methods above; the later sources supply the named receiving contributions and limits.
 
-<a id="framework-and-subject-suppliers"></a>
+
 
 ## EXD.Reference:2 - Framework and subject suppliers
 
@@ -1075,13 +1075,13 @@ The source choices above are use-specific. Reopen a receiving claim when its pre
 
 # Name and citation
 
-<a id="citation"></a>
+
 
 ## EXD.Edition:1 - Citation
 
 Anatoly Levenchuk. *Explanation Design Principles Framework*. Use the release date at the beginning of this file when citing this edition. Cite a particular Method by its EXD.1–EXD.6 address and title, together with this edition. The framework's [FPF publication repository](https://github.com/ailev/FPF) is the public discovery route.
 
-<a id="naming-settlement"></a>
+
 
 ## EXD.Edition:2 - Naming settlement
 
@@ -1095,7 +1095,7 @@ The effective local reference scheme fixes the governed practice as constructing
 
 Reopen the name when its actual use systematically hides performed interaction, when the governed practice changes, or when an actual naming collision prevents unambiguous citation. A new source citation alone does not change this value's identity.
 
-<a id="public-term-row"></a>
+
 
 ## EXD.Edition:3 - Public term row
 

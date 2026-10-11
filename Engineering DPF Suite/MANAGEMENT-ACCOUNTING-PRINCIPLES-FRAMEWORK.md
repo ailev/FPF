@@ -75,9 +75,9 @@ The calculations below are constructed cases under supplied operating, contractu
 - **Stop or return:** Keep an adequate expectation visible. A resource request, its authorization and usable provision remain different results.
 
 1. **Recover the use of each number.** MA.6's case has demand expected at 100 units, an ambition of 120, a request for provision covering a possible surge to 130, and authorization covering 110 under the supplied mix and scheduling assumptions. The authorization neither changes expected demand to 110 nor makes the ambition feasible.
-2. **Connect the gap to the result that can resolve it.** MA.5 constructs or obtains the warranted demand outlook and its uncertainty. Its MA.5:5.1 example joins sixty booked units with forty further units estimated on a nonoverlapping basis; a sufficient supplied forecast can be used directly. Where conversion is missing, MA.1 and MA.2 relate demand to resource quantities and payments, using the adequate operating capacity account. The responsible manager can then decide about provision, scope or ambition. When the ambition or its comparison lacks a meaningful basis, [OPS.21](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-21) constructs that missing result; an adequate supplied target can remain. Keep a proposed addition in the scenario where it occurs; do not make it available by editing the forecast.
+2. **Connect the gap to the result that can resolve it.** MA.5 constructs or obtains the warranted demand outlook and its uncertainty. Its MA.5:5.1 example joins sixty booked units with forty further units estimated on a nonoverlapping basis; a sufficient supplied forecast can be used directly. Where conversion is missing, MA.1 and MA.2 relate demand to resource quantities and payments, using the adequate operating capacity account. The responsible manager can then decide about provision, scope or ambition. When the ambition or its comparison lacks a meaningful basis, [OPS.21](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops21---choose-operating-aims-targets-and-comparisons) constructs that missing result; an adequate supplied target can remain. Keep a proposed addition in the scenario where it occurs; do not make it available by editing the forecast.
 3. **Propagate the actual change.** If a market action warrants a new expectation of 115, MA.5 updates that outlook and its assumptions. The gap against authorized capability is five units on the same basis; the target remains 120 and authorization 110 until their responsible participants change them. A fixed resource payment stays fixed under its terms even when demand changes.
-4. **Use the later result without rewriting the earlier prediction.** Retain the earlier forecast's premises when learning from outcomes. MA.7 constructs comparable intermediate accounts to explain the difference. If product mix changed, MA.7:5.2 shows how to replace an aggregate usage term with mix and within-product usage; action taken in response may account for part of the observed change. If the reward or negotiation arrangement still suppresses unwelcome expectations, MA.9 examines that specific use and returns any wider organizational change to its responsible practice. The clarified accounts may already resolve the question. If the attained result still needs a performance judgement, [OPS.22](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-22) examines target difficulty, changed conditions, action and joint effects before choosing a response. The [repair cooperative case](ENGINEERING-DPF-SUITE-REFERENCE.md#how-should-we-set-a-target-and-judge-a-miss-after-conditions-change) develops that continuation through an actual change in the local review rule.
+4. **Use the later result without rewriting the earlier prediction.** Retain the earlier forecast's premises when learning from outcomes. MA.7 constructs comparable intermediate accounts to explain the difference. If product mix changed, MA.7:5.2 shows how to replace an aggregate usage term with mix and within-product usage; action taken in response may account for part of the observed change. If the reward or negotiation arrangement still suppresses unwelcome expectations, MA.9 examines that specific use and returns any wider organizational change to its responsible practice. The clarified accounts may already resolve the question. If the attained result still needs a performance judgement, [OPS.22](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops22---interpret-operating-performance-and-decide-the-response) examines target difficulty, changed conditions, action and joint effects before choosing a response. The [repair cooperative case](ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference7---how-should-we-set-a-target-and-judge-a-miss-after-conditions-change) develops that continuation through an actual change in the local review rule.
 
 ### MA-E4 — Two customer cohorts share one paid service team
 
@@ -1004,7 +1004,7 @@ Use the actual meaning rather than the file's label. A document called “foreca
 
 #### MA.6:4.2 - Give the meanings their own revision and decision rules
 
-Construct the forecast from adequate evidence and assumptions through MA.5. Use [OPS.21](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-21) when the responsible management practice needs to construct the operating aim, target or comparison; reuse a sufficient supplied basis. Obtain actual resource decisions from their holders, with [OPS.13](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-13) for supported service commitments and [OPS.19](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-19) when contributions compete for shared provision. State how each result is revised and who can make the relevant decision.
+Construct the forecast from adequate evidence and assumptions through MA.5. Use [OPS.21](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops21---choose-operating-aims-targets-and-comparisons) when the responsible management practice needs to construct the operating aim, target or comparison; reuse a sufficient supplied basis. Obtain actual resource decisions from their holders, with [OPS.13](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops13---align-commitments-resources-and-service-outcomes) for supported service commitments and [OPS.19](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops19---reconcile-simultaneous-operating-work-across-cases-and-scales) when contributions compete for shared provision. State how each result is revised and who can make the relevant decision.
 
 Separate a request from a granted resource amount and from actual usable provision. A forecast revision does not itself authorize spending.
 
@@ -1079,7 +1079,7 @@ The pattern adapts the wider organizational proposal to a small first result: a 
 
 ### MA.6:12 - Relations
 
-MA.5 constructs the expectation. MA.1–2 translate workload into adequate resource quantities. MA.9 examines behavioral effects. [OPS.21](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-21) constructs operating aims and comparisons; [OPS.22](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-22) interprets later performance. OPS.13 and OPS.19 establish supported promises and compatible provision with the actual holders of the decisions. Organization Change Engineering supplies a needed change in authority or consequences and its realization.
+MA.5 constructs the expectation. MA.1–2 translate workload into adequate resource quantities. MA.9 examines behavioral effects. [OPS.21](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops21---choose-operating-aims-targets-and-comparisons) constructs operating aims and comparisons; [OPS.22](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops22---interpret-operating-performance-and-decide-the-response) interprets later performance. OPS.13 and OPS.19 establish supported promises and compatible provision with the actual holders of the decisions. Organization Change Engineering supplies a needed change in authority or consequences and its realization.
 
 ### MA.6:End
 
@@ -1472,7 +1472,7 @@ Retain uncertainty about cause. If the contemplated change requires stronger evi
 
 Choose the smallest change that addresses the established problem: clarify a denominator, separate meanings, change the performance interpretation or provide a missing consequence alongside the existing figure. Preserve information still needed for legitimate reporting and decisions.
 
-When performance interpretation is the missing contribution, [OPS.22](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-22) develops the judgement from the aim, result, changed conditions, participants' actions and joint consequences. If the aim or comparison itself is unsound, [OPS.21](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-21) reconstructs it. Use an adequate existing interpretation directly.
+When performance interpretation is the missing contribution, [OPS.22](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops22---interpret-operating-performance-and-decide-the-response) develops the judgement from the aim, result, changed conditions, participants' actions and joint consequences. If the aim or comparison itself is unsound, [OPS.21](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops21---choose-operating-aims-targets-and-comparisons) reconstructs it. Use an adequate existing interpretation directly.
 
 If the repair changes reward or authority arrangements, use [OCE][OCE] to plan the necessary organizational work and have the responsible people make the change effective.
 
@@ -1538,13 +1538,13 @@ MA.1–4 explain resource and account effects; MA.5–6 clarify forecasts, targe
 
 Copyright © Anatoly Levenchuk. The original framework text and worked examples are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). The [licensing notice](https://github.com/ailev/FPF/blob/main/LICENSING.md) states the scope and attribution terms. Referenced third-party works retain their own terms.
 
-<a id="edition-record"></a>
+
 
 ## MA.Reference:1 - Edition record
 
 **MA 1.0** is the first edition of *Management Accounting Principles Framework*, containing MA.1–MA.9. Cite this edition with the pattern and section, for example **MA 1.0, MA.2:5**.
 
-<a id="source-locators"></a>
+
 
 ## MA.Reference:2 - Source locators
 

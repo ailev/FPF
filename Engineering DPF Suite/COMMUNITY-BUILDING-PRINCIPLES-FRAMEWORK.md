@@ -3877,7 +3877,7 @@ Reopen the selected approach when the receiving decision changes, a missing cons
 
 These constructed applications show how the language can produce different useful results. The observations and outcomes are stipulated to make the choices inspectable. They do not report field tests or estimate an intervention's effect. Each application can be entered through the direct patterns it names.
 
-<a id="application-1---obtain-useful-professional-help-and-develop-what-recurs"></a>
+
 
 ## CB.Application:1 - Application 1 - Obtain useful professional help and develop what recurs
 
@@ -3897,7 +3897,7 @@ Five repairers want the manufacturer to provide a permitted diagnostic-data rout
 
 Finally, CB.10 compares concrete uses, failures, potential later uses and burden. The association retains the low-frequency exchange and preparation aid because the repairers who returned accounts find the next action useful at the agreed cost. It does not claim that attendance, gratitude or three favourable accounts establish a causal business return. If the actual decision later depends on that stronger claim, a suitable inquiry becomes additional work.
 
-<a id="application-2---keep-a-voluntary-garden-workable-through-conflict-and-succession"></a>
+
 
 ## CB.Application:2 - Application 2 - Keep a voluntary garden workable through conflict and succession
 
@@ -3917,7 +3917,7 @@ The first independent session finishes within the available time but reveals fif
 
 The transfer under CB.11 includes the usable key arrangement, remaining supplies, current contact and the receiving session's result. The founder's support ends at the agreed date. One unresolved reimbursement has a named receiver after departure. If the landowner withdraws access or neither host can continue, the group returns to the feasible alternatives; a hopeful roster would not justify keeping the promise. The common activity can shrink or end while the neighbours retain what they learned and any independent relationships they choose.
 
-<a id="application-3---extend-a-practice-without-a-discussion-group"></a>
+
 
 ## CB.Application:3 - Application 3 - Extend a practice without a discussion group
 
@@ -3933,7 +3933,7 @@ No communication among the learners is required for these results. If unusual ca
 
 Later, the association replaces the website hosting the guide. Using CB.11, it obtains permission to move the material and a capable person who accepts correction requests. It updates the directory links it controls and notifies existing users through their usual information channel. After the old host closes, an independent user follows the updated directory, reaches the moved guide and reports a missing example reference; the new maintainer restores it. The practice remains obtainable through this provision.
 
-<a id="application-4---separate-customer-help-learning-and-provider-commitments"></a>
+
 
 ## CB.Application:4 - Application 4 - Separate customer help, learning and provider commitments
 
@@ -3957,7 +3957,7 @@ Continue the group under terms participants can understand and accept. Obtain a 
 
 # Sources, relations and renewal
 
-<a id="source-use-and-limits"></a>
+
 
 ## CB.Reference:1 - Source use and limits
 
@@ -3977,7 +3977,7 @@ Source returns: [The Business of Belonging](https://www.wiley-vch.de/en/areas-in
 
 The Guidebook adaptations are attributed to its four authors and retain [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) as identified in the affected patterns. The constructed cases and connections are developed here. Other third-party contributions retain the terms and qualifications stated at their source returns. The edition's original content has the separate licence stated in [Edition and use](#edition-and-use).
 
-<a id="actual-supplier-returns"></a>
+
 
 ## CB.Reference:2 - Actual supplier returns
 
@@ -3986,7 +3986,7 @@ Use the external contribution when the receiving question requires it. The cited
 | Receiving difficulty | Contribution to obtain and its direct supplier |
 | --- | --- |
 | A proposed cultural intervention confuses transmission, performance, retention or renewal | [C.36](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36---cultural-evolution-and-cultural-evolution-engineering) supplies the cultural distinctions. CB.1 selects a useful contribution in the actual participant setting; CB.11/14 apply continuation and renewal choices. |
-| The proposed community benefit lacks a serious alternative or supporting conditions | [STR.5](STRATEGY-PRINCIPLES-FRAMEWORK.md#str-5) develops comparison of useful contributions and provision. CB.1 applies that construction to the cultural or community offer. |
+| The proposed community benefit lacks a serious alternative or supporting conditions | [STR.5](STRATEGY-PRINCIPLES-FRAMEWORK.md#str5---generate-strategic-directions) develops comparison of useful contributions and provision. CB.1 applies that construction to the cultural or community offer. |
 | Work, help, access or authority is inferred from a role name | [OCE.2](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce2---recover-current-organization-work-and-arrangement) recovers the actual work and relations. OCE.11/12 support provision and coordinated work; OCE.14 revises an established arrangement. CB.13 obtains an initial or renewed common mandate when that is missing. |
 | A person needs to acquire a practice or receive useful learning support | [HCD.5](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd5---select-human-capability-development-methods) and [HCD.6](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd6---design-representative-practice-tasks) supply method selection, representative practice and feedback; [HCD.7](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd7---arrange-providers-access-tools-and-ai-support-for-human-capability-development) and [HCD.8](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd8---obtain-or-build-missing-human-capability-development-support-with-bounded-recursion) help obtain providers, access and missing learning support. [HCD.2](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd2---compose-and-compare-human-capability-development-programmes-for-later-work) compares programmes for a particular person. A complete service may also need SYSE contributions. |
 | A teaching publication in Guide or Slidement form is being produced | Learning Product LPF (local learning-publication practice; obtain separately) is a separate Russian-language rolling publication for those formats. Obtain its text and relevant production practice separately; if they are unavailable, that proposed publication contribution remains unprovided. HCD's learning-method and support contributions remain available for other parts of the arrangement. |
@@ -4002,7 +4002,7 @@ A later edition of a supplier reopens only the CB claims and uses that rely on i
 
 A new or unknown professional method, a complete service and a commercial strategy retain their own development questions. Use the available contributions identified above, and obtain any further result needed by the particular community's promise before relying on it.
 
-<a id="renew-the-affected-contribution"></a>
+
 
 ## CB.Reference:3 - Renew the affected contribution
 

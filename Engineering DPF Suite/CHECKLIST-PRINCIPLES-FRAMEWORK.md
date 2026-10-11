@@ -988,7 +988,7 @@ CHK.1 supplies proposed work questions and receives coverage corrections. CHK.2 
 
 # Applications
 
-<a id="from-a-recurring-omission-to-a-useful-aid"></a>
+
 
 ## CHK.Application:1 - From a recurring omission to a useful aid
 
@@ -1014,7 +1014,7 @@ Keep use, detected problems and work outcomes distinct. A caught wording mismatc
 
 The worked route uses CHK.1–4 with Method engineering; uncertain criteria or shared reliance bring in CHK.6 or CHK.5 when needed. It can return at several points: unsupported usefulness calls for domain inquiry; lost references call for template repair; inaccessible information calls for fitting; unchanged adequate grounds support economical reuse. The three physical-set answers never settle the exercise's usefulness by themselves.
 
-<a id="shared-work-with-uncertain-criteria-and-changed-premises"></a>
+
 
 ## CHK.Application:2 - Shared work with uncertain criteria and changed premises
 
@@ -1043,7 +1043,7 @@ The route uses all six Checklist Methods because this constructed case has uncer
 
 # Sources and dependencies
 
-<a id="source-contributions-and-their-limits"></a>
+
 
 ## CHK.Reference:1 - Source contributions and their limits
 
@@ -1071,7 +1071,7 @@ These sources inform the Methods in different ways. The historical and conceptua
 
 The useful synthesis is a short question set with recoverable meaning, an actual occasion and suitable grounds. A checklist does not supply all professional knowledge, prove that its described characteristics are useful, or establish a whole result merely through constituent passes.
 
-<a id="relied-on-framework-content"></a>
+
 
 ## CHK.Reference:2 - Relied-on framework content
 
@@ -1092,7 +1092,7 @@ The Checklist edition relies on the following content for the receiving uses sta
 
 This edition uses the supplying text identified in its first-edition source basis. A later date or a working hyperlink does not establish semantic compatibility. Before reusing an answer affected by a supplier change, compare the actual changed content with its named receiving use. Unaffected Methods remain usable.
 
-<a id="refresh-and-improvement"></a>
+
 
 ## CHK.Reference:3 - Refresh and improvement
 
@@ -1111,7 +1111,7 @@ Cite a pattern as “Checklist Principles Framework, CHK.4.” Add “first edit
 
 This first edition covers the selection, construction, fitting, use, reconciliation and qualification of checklists in human, AI and mixed professional work. Its Readme, Preface, applications and source account support the same use. Its examples are constructed cases, and any claim of effectiveness in a particular field calls for evidence about that field and arrangement.
 
-<a id="license-and-reuse"></a>
+
 
 ## CHK.Edition:1 - License and reuse
 

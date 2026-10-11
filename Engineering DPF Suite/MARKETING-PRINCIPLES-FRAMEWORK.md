@@ -21,20 +21,20 @@ Search by the working question or required result. MKT identifiers are stable pa
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [MKT.1 - Qualify a Market Problem and Differences between Customers](#mkt-1) | Stable | customer problem, roles, circumstances, segmentation; Which differences change the offer? | MKT.12; DOCA.3; ECO.3 where relevant |
-| 2 | [MKT.2 - Construct and Test an Offer and Its Positioning](#mkt-2) | Stable | offer, positioning, alternatives, useful contribution; What can we promise and how is it different? | MKT.1/6/9/11/12; engineering when needed |
-| 3 | [MKT.3 - Reach a Suitable Audience and Obtain a Meaningful Response](#mkt-3) | Stable | audience, communication, invitation, response; Who can use this and what response matters? | MKT.1/2/4/12; HCD.6.1 when explanation is needed |
-| 4 | [MKT.4 - Make Choice and Acquisition Meaningful and Feasible](#mkt-4) | Stable | choice, purchase, refusal, terms, transition; Can the customer understand and carry out the next action? | MKT.2/6/9/11 |
-| 5 | [MKT.5 - Develop and Align a Customer Experience Concept](#mkt-5) | Stable | experience concept, actual experience, design; How should the experience connect to real work? | MKT.2/6/8/11/12 |
-| 6 | [MKT.6 - Jointly Shape a Useful Result and Help Achieve It](#mkt-6) | Stable | customer success, useful result, goal formation, help; What result matters and what helps obtain it? | DOCA, SYSE, OPS where needed; MKT.1/2/4/12 |
-| 7 | [MKT.7 - Continue, Restore or End a Customer Relationship](#mkt-7) | Stable | renewal, restoration, ending, obligations; Should this relationship continue and on what terms? | MKT.6/10/11; OPS.6; MA.8; ECO.8 |
-| 8 | [MKT.8 - Construct a Journey Map for a Specific Decision](#mkt-8) | Stable | journey map, history, possible route, decision; Which connections in customer activity matter? | MKT.1/5/6/12; MKT.9/11 for change |
-| 9 | [MKT.9 - Select an Offer or Help for a Particular Customer](#mkt-9) | Stable | suitable variant, personalised service, configuration; Is there a fitting offer or must one be constructed? | MKT.1/2/6; SYSE.8; ME.6; MKT.4/11 |
-| 10 | [MKT.10 - Evaluate the Contribution and Cost of a Marketing Intervention](#mkt-10) | Stable | intervention, effect, uncertainty, cost; What did the intervention change and what follows economically? | MKT.5/6/12; C.28.CM; MMP.15; MA.8 |
-| 11 | [MKT.11 - Align Promises, Partners and Execution](#mkt-11) | Stable | promise, provision, partners, assignments, feedback; Who will actually supply the promised work? | MKT.2/5/6; OCE.6/11; OPS.6; ME.6 |
-| 12 | [MKT.12 - Investigate a Customer or Market Question for a Decision](#mkt-12) | Stable | research, customer inquiry, JTBD, evidence, useful stop; What must we learn for this decision? | RMP.1; MKT.1/2/4 as receiving uses |
-| 13 | [MKT.13 - Test Commercial Model Repeatability and Deployment Limits](#mkt-13) | Stable | repeatability, search, deployment, capacity, cash; Can ordinary work sustain the proposed scale? | MKT.1/2/10/12; STR.8; MA.8; OCE.11 |
-| 14 | [MKT.14 - Develop and Change a Programme for Selected Customer Organisations](#mkt-14) | Stable | B2B, accounts, opportunities, programme, common preparation; Which whole customer programme can we support? | MKT.1/2/3/4/6/7/9/10/11/12/13 as needed; STR.8; MA.8 |
+| 1 | [MKT.1 - Qualify a Market Problem and Differences between Customers](#mkt1---qualify-a-market-problem-and-differences-between-customers) | Stable | customer problem, roles, circumstances, segmentation; Which differences change the offer? | MKT.12; DOCA.3; ECO.3 where relevant |
+| 2 | [MKT.2 - Construct and Test an Offer and Its Positioning](#mkt2---construct-and-test-an-offer-and-its-positioning) | Stable | offer, positioning, alternatives, useful contribution; What can we promise and how is it different? | MKT.1/6/9/11/12; engineering when needed |
+| 3 | [MKT.3 - Reach a Suitable Audience and Obtain a Meaningful Response](#mkt3---reach-a-suitable-audience-and-obtain-a-meaningful-response) | Stable | audience, communication, invitation, response; Who can use this and what response matters? | MKT.1/2/4/12; HCD.6.1 when explanation is needed |
+| 4 | [MKT.4 - Make Choice and Acquisition Meaningful and Feasible](#mkt4---make-choice-and-acquisition-meaningful-and-feasible) | Stable | choice, purchase, refusal, terms, transition; Can the customer understand and carry out the next action? | MKT.2/6/9/11 |
+| 5 | [MKT.5 - Develop and Align a Customer Experience Concept](#mkt5---develop-and-align-a-customer-experience-concept) | Stable | experience concept, actual experience, design; How should the experience connect to real work? | MKT.2/6/8/11/12 |
+| 6 | [MKT.6 - Jointly Shape a Useful Result and Help Achieve It](#mkt6---jointly-shape-a-useful-result-and-help-achieve-it) | Stable | customer success, useful result, goal formation, help; What result matters and what helps obtain it? | DOCA, SYSE, OPS where needed; MKT.1/2/4/12 |
+| 7 | [MKT.7 - Continue, Restore or End a Customer Relationship](#mkt7---continue-restore-or-end-a-customer-relationship) | Stable | renewal, restoration, ending, obligations; Should this relationship continue and on what terms? | MKT.6/10/11; OPS.6; MA.8; ECO.8 |
+| 8 | [MKT.8 - Construct a Journey Map for a Specific Decision](#mkt8---construct-a-journey-map-for-a-specific-decision) | Stable | journey map, history, possible route, decision; Which connections in customer activity matter? | MKT.1/5/6/12; MKT.9/11 for change |
+| 9 | [MKT.9 - Select an Offer or Help for a Particular Customer](#mkt9---select-an-offer-or-help-for-a-particular-customer) | Stable | suitable variant, personalised service, configuration; Is there a fitting offer or must one be constructed? | MKT.1/2/6; SYSE.8; ME.6; MKT.4/11 |
+| 10 | [MKT.10 - Evaluate the Contribution and Cost of a Marketing Intervention](#mkt10---evaluate-the-contribution-and-cost-of-a-marketing-intervention) | Stable | intervention, effect, uncertainty, cost; What did the intervention change and what follows economically? | MKT.5/6/12; C.28.CM; MMP.15; MA.8 |
+| 11 | [MKT.11 - Align Promises, Partners and Execution](#mkt11---align-promises-partners-and-execution) | Stable | promise, provision, partners, assignments, feedback; Who will actually supply the promised work? | MKT.2/5/6; OCE.6/11; OPS.6; ME.6 |
+| 12 | [MKT.12 - Investigate a Customer or Market Question for a Decision](#mkt12---investigate-a-customer-or-market-question-for-a-decision) | Stable | research, customer inquiry, JTBD, evidence, useful stop; What must we learn for this decision? | RMP.1; MKT.1/2/4 as receiving uses |
+| 13 | [MKT.13 - Test Commercial Model Repeatability and Deployment Limits](#mkt13---test-commercial-model-repeatability-and-deployment-limits) | Stable | repeatability, search, deployment, capacity, cash; Can ordinary work sustain the proposed scale? | MKT.1/2/10/12; STR.8; MA.8; OCE.11 |
+| 14 | [MKT.14 - Develop and Change a Programme for Selected Customer Organisations](#mkt14---develop-and-change-a-programme-for-selected-customer-organisations) | Stable | B2B, accounts, opportunities, programme, common preparation; Which whole customer programme can we support? | MKT.1/2/3/4/6/7/9/10/11/12/13 as needed; STR.8; MA.8 |
 
 # Marketing Principles Framework Readme
 
@@ -47,7 +47,7 @@ Bring the question you are actually trying to answer. These entries are selected
 - **Situation:** A team disagrees about why customers decline an offer, and another round of interviews has been proposed.
 - **Question:** What answer could change our next action, and how can we obtain it?
 - **First useful result or blocker:** A bounded inquiry tied to that action, or an existing qualified answer sufficient to stop investigating.
-- **Start with:** [MKT.12](#mkt-12); use MKT.1 when relevant customer differences remain unclear.
+- **Start with:** [MKT.12](#mkt12---investigate-a-customer-or-market-question-for-a-decision); use MKT.1 when relevant customer differences remain unclear.
 - **Stop or return:** Stop when the decision has a sufficient answer. Return a missing permission, unavailable service or disputed objective to its owner.
 
 ### MKT-ENTRY-CHOICE - Make one customer's next choice workable
@@ -55,7 +55,7 @@ Bring the question you are actually trying to answer. These entries are selected
 - **Situation:** A customer understands a suitable offer but cannot tell what accepting it requires.
 - **Question:** Can this person make an informed choice and carry out the agreed next action?
 - **First useful result or blocker:** An understandable, feasible choice with its terms, preparation, help and next step, or the exact condition preventing it.
-- **Start with:** [MKT.4](#mkt-4); use MKT.9 if suitability of the variant is still unsettled. For work spanning several people and encounters, follow [the account application](#mktapplication4---app-mkt-account---carry-a-customers-changing-question-from-first-contact-into-useful-work).
+- **Start with:** [MKT.4](#mkt4---make-choice-and-acquisition-meaningful-and-feasible); use MKT.9 if suitability of the variant is still unsettled. For work spanning several people and encounters, follow [the account application](#mktapplication4---app-mkt-account---carry-a-customers-changing-question-from-first-contact-into-useful-work).
 - **Stop or return:** A justified refusal or deferral can finish the choice. Return an unavailable contribution to MKT.11 before inviting reliance on it.
 
 ### MKT-ENTRY-MEDIA - Keep the promise intact when an intermediary changes it
@@ -71,7 +71,7 @@ Bring the question you are actually trying to answer. These entries are selected
 - **Situation:** Several organisations could use related services, but shared preparation competes with local exceptions and existing work.
 - **Question:** Which whole programme can the team support for the intended result and period?
 - **First useful result or blocker:** A supported combination of common work and separate continuations, or the capacity, permission or capability that defeats it.
-- **Start with:** [MKT.14](#mkt-14), using MKT.1/12, MKT.2/6, MKT.11 and MKT.13 where their results are missing; follow [the B2B application](#mktapplication3---app-mkt-organisations---turn-a-programme-comparison-into-actual-customer-work).
+- **Start with:** [MKT.14](#mkt14---develop-and-change-a-programme-for-selected-customer-organisations), using MKT.1/12, MKT.2/6, MKT.11 and MKT.13 where their results are missing; follow [the B2B application](#mktapplication3---app-mkt-organisations---turn-a-programme-comparison-into-actual-customer-work).
 - **Stop or return:** Remove or change the affected opportunity when a condition fails. Recompare the whole programme when the changed opportunity alters common preparation or scarce support.
 
 ### MKT-ENTRY-LEARNING - Offer learning while preserving the learner's purpose
@@ -131,7 +131,7 @@ For a proposed combination, name one intended result, the included opportunities
 
 Apply this whole-combination condition to the applications below. An apparently cheaper message can increase the number of unsupported responses. A common demonstration can save preparation while increasing coordination. An AI-generated explanation can reduce drafting time while leaving a subject judgement, an individual learning action or a timely human check unsupplied. Inspect those differences before replacing one constituent in a larger arrangement. [Method Engineering](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md) develops the method and performance comparisons; engineering, organisation and operations supply the actual arrangements.
 
-The four-trial calculation in [MKT.13](#mkt-13) and the 44/40-hour comparison in [MKT.14](#mkt-14) are deliberately separate constructed situations. In the latter, three organisations contain four independently changing opportunities. Keep the unit of work and the recipient of each result explicit.
+The four-trial calculation in [MKT.13](#mkt13---test-commercial-model-repeatability-and-deployment-limits) and the 44/40-hour comparison in [MKT.14](#mkt14---develop-and-change-a-programme-for-selected-customer-organisations) are deliberately separate constructed situations. In the latter, three organisations contain four independently changing opportunities. Keep the unit of work and the recipient of each result explicit.
 
 ## MKT.Preface:5 - Recognition and assurance - Know what the evidence establishes
 
@@ -209,13 +209,13 @@ The edition uses FPF's September 2026 foundation and the direct framework contri
 | HCD.28/2 and selected HCD.20–27 contributions: learning product, personal programme and justified joint learning | The learning application obtains the learning and support construction behind an offer. | Changed later work, entry preparation, permitted help, personal route or provider conditions. |
 | Community Building: useful exchanges, participation, provision and its agreed terms | The learning application keeps voluntary exchange and its maintenance usable alongside commercial work. | Changed participant purpose, mandate, contribution or sponsor condition. |
 
-For organising search alongside existing work, enter the [Engineering DPF Suite Reference](ENGINEERING-DPF-SUITE-REFERENCE.md#how-can-a-team-organise-search-while-keeping-current-service-workable). That whole application is shared across fields. MKT.13 supplies and receives the commercial result within it; organisation, strategy and operations retain the decisions about the search arrangement and its continuation.
+For organising search alongside existing work, enter the [Engineering DPF Suite Reference](ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference22---how-can-a-team-organise-search-while-keeping-current-service-workable). That whole application is shared across fields. MKT.13 supplies and receives the commercial result within it; organisation, strategy and operations retain the decisions about the search arrangement and its continuation.
 
 ## MKT.Preface:End
 
 # Marketing pattern language
 
-<a id="mkt-1"></a>
+
 ## MKT.1 - Qualify a Market Problem and Differences between Customers
 
 > **Type:** Marketing Method pattern
@@ -263,7 +263,7 @@ For each consequential role, ask what useful result or protection matters, what 
 
 Compare feasible alternatives, including continuing the present way, using internal assistance, another supplier, a smaller change or deferring the task. This exposes the relevant competition for the proposed contribution. An internally impressive capability is commercially irrelevant if the people can obtain the needed result more suitably elsewhere.
 
-Use [MKT.12](#mkt-12) for the missing answer. Its result-investigation route can establish differences in desired execution outcomes; its choice-history route can explain a particular transition. Keep each result's activity coverage, uncertainty and population limits. When an unresolved omitted outcome could change the proposed grouping or contribution, obtain that answer or narrow the target hypothesis before relying on the comparison.
+Use [MKT.12](#mkt12---investigate-a-customer-or-market-question-for-a-decision) for the missing answer. Its result-investigation route can establish differences in desired execution outcomes; its choice-history route can explain a particular transition. Keep each result's activity coverage, uncertainty and population limits. When an unresolved omitted outcome could change the proposed grouping or contribution, obtain that answer or narrow the target hypothesis before relying on the comparison.
 
 #### MKT.1:4.3 - Construct and challenge useful groupings
 
@@ -293,7 +293,7 @@ There is no obligation to maximise the number of groups or pursue every worthwhi
 
 #### MKT.1:4.5 - Carry the hypothesis into an offer and keep its conditions live
 
-Give [MKT.2](#mkt-2) the relevant roles, activity, contribution, actual alternatives, inclusion conditions and uncertainties. That method constructs the specific offer and positioning. Give [MKT.4](#mkt-4) the separate buying or transition difficulty rather than assuming that operational usefulness makes acquisition easy.
+Give [MKT.2](#mkt2---construct-and-test-an-offer-and-its-positioning) the relevant roles, activity, contribution, actual alternatives, inclusion conditions and uncertainties. That method constructs the specific offer and positioning. Give [MKT.4](#mkt4---make-choice-and-acquisition-meaningful-and-feasible) the separate buying or transition difficulty rather than assuming that operational usefulness makes acquisition easy.
 
 For example, the working result can say: “For teams with compatible periodic exports and an available reviewer, a bounded file-mapping trial could reduce duplicate entry. Access approval and the customer's purchasing window remain separate conditions. Continuous integration cases need another supply arrangement. The next move is to verify those conditions with two candidate teams before quoting the trial.”
 
@@ -359,13 +359,13 @@ For qualifying the underlying opportunity, **adopt** DOCA.3's distinction betwee
 
 ### MKT.1:12 - Relations
 
-[MKT.12](#mkt-12) supplies question-specific evidence and receives unresolved differences. [MKT.2](#mkt-2) constructs the offer for the qualified situation. [MKT.4](#mkt-4) develops feasible choice and acquisition. A failed offer or transition can reveal a missing group distinction and return here.
+[MKT.12](#mkt12---investigate-a-customer-or-market-question-for-a-decision) supplies question-specific evidence and receives unresolved differences. [MKT.2](#mkt2---construct-and-test-an-offer-and-its-positioning) constructs the offer for the qualified situation. [MKT.4](#mkt4---make-choice-and-acquisition-meaningful-and-feasible) develops feasible choice and acquisition. A failed offer or transition can reveal a missing group distinction and return here.
 
 DOCA.3 and Strategy supply worthwhile problems and possible contributions; their results retain their own conditions. MKT.13 asks whether the commercial arrangement can repeat at another volume. MKT.14 uses this market hypothesis when selecting named organisations and arranging common or individual work; membership alone does not supply that programme.
 
 ### MKT.1:End
 
-<a id="mkt-2"></a>
+
 ## MKT.2 - Construct and Test an Offer and Its Positioning
 
 > **Type:** Marketing Method pattern
@@ -377,7 +377,7 @@ Use this pattern when people cannot tell what a proposed product or service will
 
 The result is a proposed offer with a clear recipient, contribution, conditions, consideration and grounds for comparison, together with what its test established and left open. Positioning is the context that helps the intended customer interpret that offer. A headline, pricing page or sales conversation can express it; none is the offer's complete content by itself.
 
-The intended reader understands the product or service and can obtain customer evidence and a competent supply answer. Start from a qualified situation through [MKT.1](#mkt-1) or an equally sufficient existing account. When a suitable understood offer already exists, use it. When the customer problem is still unknown, investigate that question before polishing an assumed answer.
+The intended reader understands the product or service and can obtain customer evidence and a competent supply answer. Start from a qualified situation through [MKT.1](#mkt1---qualify-a-market-problem-and-differences-between-customers) or an equally sufficient existing account. When a suitable understood offer already exists, use it. When the customer problem is still unknown, investigate that question before polishing an assumed answer.
 
 ### MKT.2:2 - Problem
 
@@ -449,11 +449,11 @@ The supply answer constrains both the offer and its positioning. If only batch p
 
 Choose a test from the uncertainty that could change the proposal. For understanding, present the actual description to an appropriate person and ask what they expect to receive, what they must do, what it costs and where it would not fit. Let them explain before supplying the intended answer. Compare their account with the proposed content; a repeated sentence can reflect recall without usable understanding.
 
-For usefulness, place the proposal beside the person's actual alternative and ask them to work through a concrete situation. What would change? Which required contribution is missing? A suitable sample or limited trial can expose a mismatch that an opinion about attractiveness cannot. If willingness to acquire is the unresolved question, use an attainable next choice with honest terms through [MKT.4](#mkt-4). Do not report hypothetical enthusiasm as a completed purchase.
+For usefulness, place the proposal beside the person's actual alternative and ask them to work through a concrete situation. What would change? Which required contribution is missing? A suitable sample or limited trial can expose a mismatch that an opinion about attractiveness cannot. If willingness to acquire is the unresolved question, use an attainable next choice with honest terms through [MKT.4](#mkt4---make-choice-and-acquisition-meaningful-and-feasible). Do not report hypothetical enthusiasm as a completed purchase.
 
 For supply, obtain the provider's relevant demonstration, observation or qualified answer. Customer understanding cannot establish supplier capacity. For a claimed benefit caused by the intervention, use the distinct causal question and evidence design; a successful presentation is not that evidence.
 
-After the test, identify the failed connection. Misunderstanding may change wording or context; an unwanted result may change the target or contribution; an unavailable prerequisite may change supply or scope. Return to [MKT.12](#mkt-12) only for a question whose answer is still needed. Keep adequate parts instead of repeating the whole inquiry.
+After the test, identify the failed connection. Misunderstanding may change wording or context; an unwanted result may change the target or contribution; an unavailable prerequisite may change supply or scope. Return to [MKT.12](#mkt12---investigate-a-customer-or-market-question-for-a-decision) only for a question whose answer is still needed. Keep adequate parts instead of repeating the whole inquiry.
 
 #### MKT.2:4.6 - Use and revise one coherent offer
 
@@ -519,13 +519,13 @@ For constructing the complete offer, **adopt** the developed DOCA.3, SYSE.2 and 
 
 ### MKT.2:12 - Relations
 
-[MKT.1](#mkt-1) supplies a qualified situation and relevant differences; [MKT.12](#mkt-12) supplies evidence and receives unresolved questions. [MKT.4](#mkt-4) turns the understood proposal into a feasible choice and acquisition.
+[MKT.1](#mkt1---qualify-a-market-problem-and-differences-between-customers) supplies a qualified situation and relevant differences; [MKT.12](#mkt12---investigate-a-customer-or-market-question-for-a-decision) supplies evidence and receives unresolved questions. [MKT.4](#mkt4---make-choice-and-acquisition-meaningful-and-feasible) turns the understood proposal into a feasible choice and acquisition.
 
 MKT.5 expands the design of client experience, MKT.6 develops shared useful outcomes and help in obtaining them, and MKT.11 coordinates promises and delivery. Their changed results reopen dependent promises here. Engineering, Operations, HCD and economic coordination retain their respective contributions; a marketing offer does not establish their results.
 
 ### MKT.2:End
 
-<a id="mkt-3"></a>
+
 ## MKT.3 - Reach a Suitable Audience and Obtain a Meaningful Response
 
 > **Type:** Marketing Method pattern
@@ -537,7 +537,7 @@ Use this pattern when a useful offer or invitation is not reaching the people fo
 
 The result is a feasible way to reach a specified audience with a truthful proposal, together with the observed response and a justified continuation. A meaningful response supplies something relevant to that continuation: a request, an answer about a condition, an informed choice or a refusal. A click can be useful evidence of an action without establishing any of these meanings.
 
-The intended reader knows the proposed contribution and can arrange its receiving work. A qualified situation from [MKT.1](#mkt-1) and an understood offer from [MKT.2](#mkt-2) are sufficient starting points. A known customer who has requested a quotation usually needs that quotation through the agreed means; a new audience study or communication campaign would add unnecessary work.
+The intended reader knows the proposed contribution and can arrange its receiving work. A qualified situation from [MKT.1](#mkt1---qualify-a-market-problem-and-differences-between-customers) and an understood offer from [MKT.2](#mkt2---construct-and-test-an-offer-and-its-positioning) are sufficient starting points. A known customer who has requested a quotation usually needs that quotation through the agreed means; a new audience study or communication campaign would add unnecessary work.
 
 ### MKT.3:2 - Problem
 
@@ -589,7 +589,7 @@ Specify one proportionate next action and what follows it. Explain the informati
 
 Arrange the receiving contribution before distributing the invitation: the responsible person, access to the necessary information, capacity, and a fallback when the proposed next step cannot occur. A message promising a consultation needs available consultations. If only a later place is available, state that timing and let the recipient decide whether it is still useful.
 
-Test the response path in the form the recipient will encounter. An inaccessible form, missing appointment or unexplained account requirement can defeat an otherwise suitable message. [MKT.4](#mkt-4) develops the subsequent choice and acquisition; this method must at least make the offered transition possible.
+Test the response path in the form the recipient will encounter. An inaccessible form, missing appointment or unexplained account requirement can defeat an otherwise suitable message. [MKT.4](#mkt4---make-choice-and-acquisition-meaningful-and-feasible) develops the subsequent choice and acquisition; this method must at least make the offered transition possible.
 
 #### MKT.3:4.5 - Observe the attempt without merging different answers
 
@@ -605,7 +605,7 @@ Before the attempt, decide which observations can answer the live question. Keep
 
 Observe meaning by asking a fitting recipient to explain what would be supplied and what they would need to do, or by using another suitable direct task. Do not teach the missing explanation during the probe and then credit the original message with the repaired understanding. A friendly colleague familiar with the product can help with drafting but may not expose the intended audience's inference.
 
-Retain the unit, denominator, period and selection conditions of any count. Distinguish ten replies from ten suitable recipients, and unique people from repeated exposures. If two routes reach different populations at different times, their response rates do not isolate the effect of the route. Use [MKT.12](#mkt-12) for a missing evidence question and MKT.10 when a causal contribution or cost comparison is needed. A bounded communication attempt does not automatically require either inquiry.
+Retain the unit, denominator, period and selection conditions of any count. Distinguish ten replies from ten suitable recipients, and unique people from repeated exposures. If two routes reach different populations at different times, their response rates do not isolate the effect of the route. Use [MKT.12](#mkt12---investigate-a-customer-or-market-question-for-a-decision) for a missing evidence question and MKT.10 when a causal contribution or cost comparison is needed. A bounded communication attempt does not automatically require either inquiry.
 
 #### MKT.3:4.6 - Repair the connection indicated by the evidence
 
@@ -680,7 +680,7 @@ HCD.6.1 supplies actual instruction when making a distinction is a learning prob
 
 ### MKT.3:End
 
-<a id="mkt-4"></a>
+
 ## MKT.4 - Make Choice and Acquisition Meaningful and Feasible
 
 > **Type:** Marketing Method pattern
@@ -692,7 +692,7 @@ Use this pattern when a person or organisation is considering an offer but canno
 
 The useful result is an understood and attainable next choice: acquire on known terms, try a bounded option, revise the proposal, defer with a meaningful return condition or decline. The result is useful when the relevant people can act on it; a completed purchase is one possible outcome.
 
-The intended reader can explain the offer and coordinate with the people responsible for supply and exchange. Start with a sufficiently qualified offer through [MKT.2](#mkt-2) or an existing equivalent. If a routine understood purchase can proceed, use its ordinary route. An already completed acquisition whose use is failing belongs with the service, capability or operating practice responsible for the missing result.
+The intended reader can explain the offer and coordinate with the people responsible for supply and exchange. Start with a sufficiently qualified offer through [MKT.2](#mkt2---construct-and-test-an-offer-and-its-positioning) or an existing equivalent. If a routine understood purchase can proceed, use its ordinary route. An already completed acquisition whose use is failing belongs with the service, capability or operating practice responsible for the missing result.
 
 ### MKT.4:2 - Problem
 
@@ -718,7 +718,7 @@ Ask what is being decided now: whether to investigate, compare alternatives, obt
 
 Use a concrete recent event to establish where the decision stands. “We are ready” can mean that a user likes the demonstration while purchasing has not seen the terms. Preserve the first fact and obtain the second. Do not invent a stage for an unknown condition.
 
-Define the attainable alternatives, including continuing the current way, another supplier, a narrower contribution and no action now. Investigate the reason for uncertainty when it can change the next move. [MKT.12](#mkt-12) supplies a choice-history inquiry when the reported obstacle is not yet understood.
+Define the attainable alternatives, including continuing the current way, another supplier, a narrower contribution and no action now. Investigate the reason for uncertainty when it can change the next move. [MKT.12](#mkt12---investigate-a-customer-or-market-question-for-a-decision) supplies a choice-history inquiry when the reported obstacle is not yet understood.
 
 #### MKT.4:4.2 - Locate the condition that changes the next choice
 
@@ -772,7 +772,7 @@ For an important criterion the present offer does not meet, examine four differe
 
 Often two moves are needed: clarifying “availability” can expose a provision problem; comparing a different configuration can reveal a permissible trade-off. Ask which move changes the next decision and carry its result into that decision. Stop when the available comparison is sufficient. Unresolved supply remains an explicit condition.
 
-[PSD.8](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-8) supplies alternative construction where needed; [PSD.9](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-9) and PSD.11 develop a disputed criterion or consequential trade-off. Use their substantive result in this choice. The repertoire above selects the needed work; it does not qualify technical performance, create a measurement scale or confer authority to revise a requirement.
+[PSD.8](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd8---generate-decision-alternatives) supplies alternative construction where needed; [PSD.9](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd9---represent-values-and-trade-offs) and PSD.11 develop a disputed criterion or consequential trade-off. Use their substantive result in this choice. The repertoire above selects the needed work; it does not qualify technical performance, create a measurement scale or confer authority to revise a requirement.
 
 ##### MKT.4:4.3.2 - Prepare and revise a negotiable proposal
 
@@ -814,7 +814,7 @@ If the customer declines, record only the useful reason and permitted future con
 
 Check a newly changed prerequisite before acting on a previously valid choice. A different price, unavailable support, revised access rule or altered customer goal can require renewed comparison or agreement. Preserve valid decisions and fulfilled obligations; a new promotional programme does not cancel an existing supply commitment.
 
-When learning about one transition exposes a recurring market difference, return it to [MKT.1](#mkt-1). When misunderstanding recurs across cases, repair the offer through MKT.2. A local payment-system failure goes to its operating owner. The result determines the return, not a compulsory sales-stage order.
+When learning about one transition exposes a recurring market difference, return it to [MKT.1](#mkt1---qualify-a-market-problem-and-differences-between-customers). When misunderstanding recurs across cases, repair the offer through MKT.2. A local payment-system failure goes to its operating owner. The result determines the return, not a compulsory sales-stage order.
 
 ### MKT.4:5 - Archetypal Grounding
 
@@ -898,13 +898,13 @@ Chapter 7's range preparation and differently valued concessions inform §4.3.2.
 
 ### MKT.4:12 - Relations
 
-[MKT.2](#mkt-2) supplies the coherent proposal and receives misunderstanding or unsuitable scope. [MKT.12](#mkt-12) investigates an unresolved choice question. [MKT.1](#mkt-1) receives a recurring difference that changes target selection.
+[MKT.2](#mkt2---construct-and-test-an-offer-and-its-positioning) supplies the coherent proposal and receives misunderstanding or unsuitable scope. [MKT.12](#mkt12---investigate-a-customer-or-market-question-for-a-decision) investigates an unresolved choice question. [MKT.1](#mkt1---qualify-a-market-problem-and-differences-between-customers) receives a recurring difference that changes target selection.
 
 MKT.6 addresses help in obtaining the useful result after or alongside acquisition; MKT.7 addresses continuation and ending relationships. MKT.11 coordinates promises and delivery, and MKT.14 can encompass several such choices within a programme of work with named organisations. One participant's progress does not advance every opportunity in that programme.
 
 ### MKT.4:End
 
-<a id="mkt-5"></a>
+
 ## MKT.5 - Develop and Align a Customer Experience Concept
 
 > **Type:** Marketing Method pattern
@@ -940,7 +940,7 @@ Develop a specific concept from the customer's context, connect it to the whole 
 
 Start before the provider's first contact. Ask what the person is trying to accomplish, what other activities compete for attention, what preparation and other services are involved, and what happens after this contribution. Recover the conditions that could change the concept: urgency, access, prior experience, uncertainty, the need for independence or help, and the consequences of failure. Investigate these as practical differences, not demographic stereotypes.
 
-Use qualified existing evidence where it is sufficient. [MKT.12](#mkt-12) can help resolve a consequential unknown about activity, expectations or experience. Specify whose account, which occasion and what time of recall it concerns. A survey after a whole service can answer a different question from a report during one encounter; neither automatically reconstructs the other.
+Use qualified existing evidence where it is sufficient. [MKT.12](#mkt12---investigate-a-customer-or-market-question-for-a-decision) can help resolve a consequential unknown about activity, expectations or experience. Specify whose account, which occasion and what time of recall it concerns. A survey after a whole service can answer a different question from a report during one encounter; neither automatically reconstructs the other.
 
 Choose the reach needed for this decision. Include the other people, providers and customer work that can defeat the proposed experience. Do not attempt to map a person's whole life when only a few connections matter. Retain differences between a first encounter and familiar repeated use when they change what explanation or help is needed.
 
@@ -1058,7 +1058,7 @@ SYSE supplies linked use, system and provider concepts. Operations supplies actu
 
 ### MKT.5:End
 
-<a id="mkt-6"></a>
+
 ## MKT.6 - Jointly Shape a Useful Result and Help Achieve It
 
 > **Type:** Marketing Method pattern
@@ -1112,7 +1112,7 @@ State the receiving result so that the people involved can recognize its achieve
 
 For example, “the operator can prepare the agreed report from approved inputs without re-entering the same fields” identifies an activity and change. It does not guarantee that the report's underlying data are correct, that preparation time falls by a particular amount or that managers use it well. Add such claims only with the required contribution and evidence. A system login would establish much less than the proposed result.
 
-Agree the provider contribution, customer and partner work, necessary access and support, timing, costs or consideration, and what happens when a required condition is absent. Ask the relevant people to explain the arrangement and their next action in their own terms. Resolve incompatible interpretations before making the promise. [MKT.2](#mkt-2) can then express the supported offer, and [MKT.4](#mkt-4) can arrange its feasible acquisition.
+Agree the provider contribution, customer and partner work, necessary access and support, timing, costs or consideration, and what happens when a required condition is absent. Ask the relevant people to explain the arrangement and their next action in their own terms. Resolve incompatible interpretations before making the promise. [MKT.2](#mkt2---construct-and-test-an-offer-and-its-positioning) can then express the supported offer, and [MKT.4](#mkt4---make-choice-and-acquisition-meaningful-and-feasible) can arrange its feasible acquisition.
 
 If the customer does not want this form of collaboration, offer a suitable narrower contribution with clear limits or end the proposal. Consent to a purchase does not authorize an open-ended programme of goal intervention. An ordinary well-specified purchase may already contain enough agreement for use.
 
@@ -1216,7 +1216,7 @@ DOCA.3/4 supply worthwhile problems and development directions with supports; St
 
 ### MKT.6:End
 
-<a id="mkt-7"></a>
+
 ## MKT.7 - Continue, Restore or End a Customer Relationship
 
 > **Type:** Marketing Method pattern
@@ -1258,7 +1258,7 @@ Use [MA.8, Account for Customer and Product Economics Over Time](MANAGEMENT-ACCO
 
 #### MKT.7:4.2 - Recover current usefulness and the action-changing cause
 
-Ask what useful result the customer still seeks, whether the contribution is helping, what changed and what continuation the customer wants. Combine the customer's account with relevant performance and commitment evidence. Distinguish an observation from an interpretation: an unused feature may be unnecessary, difficult, inaccessible or no longer suited to the goal. Use [MKT.12](#mkt-12) for a consequential unknown that existing information cannot settle.
+Ask what useful result the customer still seeks, whether the contribution is helping, what changed and what continuation the customer wants. Combine the customer's account with relevant performance and commitment evidence. Distinguish an observation from an interpretation: an unused feature may be unnecessary, difficult, inaccessible or no longer suited to the goal. Use [MKT.12](#mkt12---investigate-a-customer-or-market-question-for-a-decision) for a consequential unknown that existing information cannot settle.
 
 Select the needed depth. An explicit request to end an optional service can settle that decision without a compulsory interview. A serious ambiguous service failure may need competent investigation before a remedy is promised. A known scheduling gap can need only a later agreed contact. Ask only for information that can change a legitimate next action.
 
@@ -1375,7 +1375,7 @@ MA.8 supplies the temporal economic account; ECO.8 preserves different forms of 
 
 ### MKT.7:End
 
-<a id="mkt-8"></a>
+
 ## MKT.8 - Construct a Journey Map for a Specific Decision
 
 > **Type:** Marketing Method pattern
@@ -1417,7 +1417,7 @@ Select the intended use of the representation. A history asks what occurred. A p
 
 #### MKT.8:4.2 - Recover activity, encounters and consequential differences
 
-Use sufficient existing accounts first. When evidence is missing, [MKT.12](#mkt-12) supplies the decision-specific inquiry. Ask relevant participants about concrete occasions and connect their accounts to available work or contact evidence. Preserve who reported what, when, and what remains uncertain.
+Use sufficient existing accounts first. When evidence is missing, [MKT.12](#mkt12---investigate-a-customer-or-market-question-for-a-decision) supplies the decision-specific inquiry. Ask relevant participants about concrete occasions and connect their accounts to available work or contact evidence. Preserve who reported what, when, and what remains uncertain.
 
 Recover the customer's own actions as well as encounters with the provider. Ask what the person was trying to accomplish, what they used, who else contributed, what had to become available and what happened when a condition failed. An activity need not produce a contact visible to the firm. Advice from a colleague or an internal budget decision can matter more than another visit to a page.
 
@@ -1455,7 +1455,7 @@ When the representation is about possible futures, test whether each proposed co
 
 Locate a change the responsible people can actually make. Describe the failed connection and compare suitable alternatives: revise the explanation, change an interface, obtain an approval, arrange help, alter supply, narrow the offer or leave an adequate arrangement in place. Include the customer's effort and the burden moved to other contributors.
 
-Name the receiving method and result. [MKT.3](#mkt-3) can change communication and its response path; [MKT.4](#mkt-4) can make a choice or transition feasible; [MKT.5](#mkt-5) can align the experience conditions; [MKT.6](#mkt-6) can reshape the useful result and its support. MKT.11 coordinates the required contributions. Use the located problem and its supporting evidence to make the needed change with the selected method and responsible contributors.
+Name the receiving method and result. [MKT.3](#mkt3---reach-a-suitable-audience-and-obtain-a-meaningful-response) can change communication and its response path; [MKT.4](#mkt4---make-choice-and-acquisition-meaningful-and-feasible) can make a choice or transition feasible; [MKT.5](#mkt5---develop-and-align-a-customer-experience-concept) can align the experience conditions; [MKT.6](#mkt6---jointly-shape-a-useful-result-and-help-achieve-it) can reshape the useful result and its support. MKT.11 coordinates the required contributions. Use the located problem and its supporting evidence to make the needed change with the selected method and responsible contributors.
 
 If a consequential cause or condition remains unknown, return a focused question instead of an intervention presented as a known remedy. If the decision requires a causal or resource comparison, MKT.10 develops it. An adequate map can also support retaining the existing arrangement when the apparent defect disappears under a better account.
 
@@ -1534,7 +1534,7 @@ A map can locate the needed learning, engineering and operating contributions. O
 
 ### MKT.8:End
 
-<a id="mkt-9"></a>
+
 ## MKT.9 - Select an Offer or Help for a Particular Customer
 
 > **Type:** Marketing Method pattern
@@ -1570,9 +1570,9 @@ Connect a particular customer's useful result and consequential conditions to ac
 
 Recover the useful result, the person or group receiving it and the immediate decision. Distinguish selecting an offer, selecting help for an acquired service and constructing a new service. The relevant information differs: a purchaser's spending limit may matter to the first decision, while access and present ability may determine the second.
 
-Ask what difference would change the suitable action. Start with the required use, available time, access, necessary ability, support, material constraints and preferences that affect the result. For each proposed attribute, explain which alternative it can select or exclude. Omit an attribute whose value cannot change the decision. A broad market group can provide a useful starting hypothesis through [MKT.1](#mkt-1); it does not settle the individual's conditions.
+Ask what difference would change the suitable action. Start with the required use, available time, access, necessary ability, support, material constraints and preferences that affect the result. For each proposed attribute, explain which alternative it can select or exclude. Omit an attribute whose value cannot change the decision. A broad market group can provide a useful starting hypothesis through [MKT.1](#mkt1---qualify-a-market-problem-and-differences-between-customers); it does not settle the individual's conditions.
 
-When the result itself is unclear, use [MKT.6](#mkt-6) to obtain an agreed contribution before choosing its variant. When sufficient conditions are already known, proceed without asking the customer to repeat them.
+When the result itself is unclear, use [MKT.6](#mkt6---jointly-shape-a-useful-result-and-help-achieve-it) to obtain an agreed contribution before choosing its variant. When sufficient conditions are already known, proceed without asking the customer to repeat them.
 
 #### MKT.9:4.2 - Qualify the information used for this choice
 
@@ -1584,7 +1584,7 @@ If a needed condition is unknown, choose the least elaborate adequate continuati
 
 #### MKT.9:4.3 - Compare the actually available variants
 
-Recover the existing variants as complete contributions: what each supplies, the useful result it can support, required customer work, access and ability, timing, support, terms and available supply. [MKT.2](#mkt-2) supplies this offer content. Keep proposed variants separate from ones the provider can presently deliver.
+Recover the existing variants as complete contributions: what each supplies, the useful result it can support, required customer work, access and ability, timing, support, terms and available supply. [MKT.2](#mkt2---construct-and-test-an-offer-and-its-positioning) supplies this offer content. Keep proposed variants separate from ones the provider can presently deliver.
 
 First exclude a variant that fails a necessary condition. Then compare the remaining alternatives by the customer's relevant reasons for preference and the full burden of obtaining the result. Distinguish a favourable feature from a prerequisite: extra guidance can be optional convenience for an experienced user and necessary support for someone unable to proceed alone.
 
@@ -1613,7 +1613,7 @@ Marketing supplies the customer question and chooses among supported proposals. 
 
 Explain why the proposal fits the stated situation, what it requires and which consequential conditions remain open. Give the customer a proportionate way to correct the grounds, choose another suitable option or decline. If a preference was inferred, present it as revisable rather than as a fact about the person.
 
-Make the next action feasible through [MKT.4](#mkt-4) and the actual receiving operation. A promise of assisted use needs available assistance; a modified timetable needs a real place in that timetable. When help is selected during use, show the person how to obtain it and what can happen while waiting.
+Make the next action feasible through [MKT.4](#mkt4---make-choice-and-acquisition-meaningful-and-feasible) and the actual receiving operation. A promise of assisted use needs available assistance; a modified timetable needs a real place in that timetable. When help is selected during use, show the person how to obtain it and what can happen while waiting.
 
 If software supports the selection, specify the operation it is meant to perform and the same result conditions. Check representative cases, an action-changing missing or wrong input, and an incompatible combination. The software may rank suitable variants, explain them or execute an authorized action; these are different functions with different failure consequences. A generated description should refer only to supported contributions. Obtain a competent decision when the system cannot resolve a necessary condition within its assigned authority.
 
@@ -1693,7 +1693,7 @@ SYSE.8 and ME.6 construct the missing offering and work arrangement. HCD, organi
 
 ### MKT.9:End
 
-<a id="mkt-10"></a>
+
 ## MKT.10 - Evaluate the Contribution and Cost of a Marketing Intervention
 
 > **Type:** Marketing Method pattern
@@ -1729,7 +1729,7 @@ Begin from the decision and its contrast. Define observations that retain their 
 
 Name the actual alternatives: retain the existing invitation, add guided help, use another channel, reduce volume, or stop the intervention. Keep the useful customer result and the provider's decision visible. An increase in replies can answer a reach question while remaining insufficient for an expansion justified by better customer performance.
 
-Specify whose result matters, what would count, when it must occur and what downside can defeat the action. Include different participants when their outcomes differ: the purchaser can save effort while the user acquires extra work. [MKT.6](#mkt-6) supplies the agreed result; [MKT.5](#mkt-5) supplies the intended experience conditions. Neither supplies an observed effect by itself.
+Specify whose result matters, what would count, when it must occur and what downside can defeat the action. Include different participants when their outcomes differ: the purchaser can save effort while the user acquires extra work. [MKT.6](#mkt6---jointly-shape-a-useful-result-and-help-achieve-it) supplies the agreed result; [MKT.5](#mkt5---develop-and-align-a-customer-experience-concept) supplies the intended experience conditions. Neither supplies an observed effect by itself.
 
 Determine the kind of answer required. “How many trials were completed?” is descriptive. “Which customers are likely to request help?” is predictive. “How many additional useful completions would this invitation produce compared with the current invitation?” is causal. These questions can use related data but require different grounds. A descriptive answer may be enough to stop an infeasible service even when its causal benefit remains unresolved.
 
@@ -1743,7 +1743,7 @@ Match the measure to the claimed outcome. A completed form can establish a submi
 
 Check how the data are produced. A new reminder may change who answers a survey, a new interface may change what gets logged, and better records may increase the apparent number of problems. Account for these changes before interpreting a trend. Retain consequential uncertainty about missing observations and selective follow-up.
 
-Agree how much observation is needed and how to obtain it without defeating the intervention or its receiving service. Use existing adequate records; ask for a limited observation when it can resolve the decision. [MKT.12](#mkt-12) supplies a focused inquiry where the unresolved issue is what the customer's work or answer means.
+Agree how much observation is needed and how to obtain it without defeating the intervention or its receiving service. Use existing adequate records; ask for a limited observation when it can resolve the decision. [MKT.12](#mkt12---investigate-a-customer-or-market-question-for-a-decision) supplies a focused inquiry where the unresolved issue is what the customer's work or answer means.
 
 #### MKT.10:4.3 - Construct the causal contrast and its credible comparison
 
@@ -1773,7 +1773,7 @@ Use [MA.8, Account for Customer and Product Economics Over Time](MANAGEMENT-ACCO
 
 A customer's purchase value is not automatically incremental profit. Ask what revenue and expense would differ under the alternatives, which contributions would have happened anyway, and whether later work has been included. Avoid counting the same additional outcome under several channels or counting both its estimated monetary benefit and the same benefit inside a customer-value total.
 
-Combine uncertainty honestly. An uncertain causal effect and an uncertain margin produce an uncertain economic conclusion. Show the threshold at which the choice changes or compare credible ranges when a point estimate would conceal the issue. The largest expected contribution can still be infeasible because of cash timing, scarce staff or obligations to current customers. [MKT.11](#mkt-11) supplies actual delivery conditions; its missing capacity is not repaired by a favourable average return.
+Combine uncertainty honestly. An uncertain causal effect and an uncertain margin produce an uncertain economic conclusion. Show the threshold at which the choice changes or compare credible ranges when a point estimate would conceal the issue. The largest expected contribution can still be infeasible because of cash timing, scarce staff or obligations to current customers. [MKT.11](#mkt11---align-promises-partners-and-execution) supplies actual delivery conditions; its missing capacity is not repaired by a favourable average return.
 
 Use nonmonetary consequences in their own terms where no adequate conversion exists. A client's ability to complete important work, burden and experience can affect the decision without a fabricated price. State whose objective is served and what trade-off the decision maker accepts.
 
@@ -1850,7 +1850,7 @@ C.28.CM supplies the causal model, MMP.15 the identification answer and appropri
 
 ### MKT.10:End
 
-<a id="mkt-11"></a>
+
 ## MKT.11 - Align Promises, Partners and Execution
 
 > **Type:** Marketing Method pattern
@@ -1884,7 +1884,7 @@ Trace the promise to the actual work and conditions that make it attainable. Obt
 
 #### MKT.11:4.1 - Recover the whole promise and the conditions it implies
 
-Take the offer, relevant communication and customer's understood result. Identify what is promised, to whom, when and under which conditions. Include access, support, customer work and later obligations where they change the result. [MKT.2](#mkt-2) supplies the offer; [MKT.5](#mkt-5) can reveal conflicting experience conditions; [MKT.6](#mkt-6) supplies the agreed useful contribution.
+Take the offer, relevant communication and customer's understood result. Identify what is promised, to whom, when and under which conditions. Include access, support, customer work and later obligations where they change the result. [MKT.2](#mkt2---construct-and-test-an-offer-and-its-positioning) supplies the offer; [MKT.5](#mkt5---develop-and-align-a-customer-experience-concept) can reveal conflicting experience conditions; [MKT.6](#mkt6---jointly-shape-a-useful-result-and-help-achieve-it) supplies the agreed useful contribution.
 
 Read the promise from a concrete use. What would have to happen for the customer to receive the supported result? Recover the required work and contributions, including those performed by the customer or another provider. Include what must happen before a later action can begin and what must remain available while it occurs.
 
@@ -2002,7 +2002,7 @@ SYSE constructs the offering and provider arrangement; ME compares how methods a
 
 ### MKT.11:End
 
-<a id="mkt-12"></a>
+
 ## MKT.12 - Investigate a Customer or Market Question for a Decision
 
 > **Type:** Marketing Method pattern
@@ -2074,7 +2074,7 @@ Check coverage before ranking the surfaced results. For each relevant part of th
 
 Once meanings and coverage support the intended comparison, compare importance and present attainment for the people and work under consideration. Keep the two questions distinct. A result can be important and already adequately attained, or poorly attained but irrelevant to the current decision. Inspect combinations within and across cases before using an aggregate. A priority score is a decision aid under its assumptions; it does not prove demand, causal benefit or a stable segment.
 
-Return candidate target results, the activity and contrasting attempts they cover, the relevant differences between executors and their evidence. Identify any unresolved omission that can change the receiving decision and the smaller answer needed to settle it. [MKT.1](#mkt-1) uses this to qualify customer groups; [MKT.2](#mkt-2) uses it to construct an offer. If the activity or meaning of a measure changes, revisit that part of the comparison before carrying forward its ranking.
+Return candidate target results, the activity and contrasting attempts they cover, the relevant differences between executors and their evidence. Identify any unresolved omission that can change the receiving decision and the smaller answer needed to settle it. [MKT.1](#mkt1---qualify-a-market-problem-and-differences-between-customers) uses this to qualify customer groups; [MKT.2](#mkt2---construct-and-test-an-offer-and-its-positioning) uses it to construct an offer. If the activity or meaning of a measure changes, revisit that part of the comparison before carrying forward its ranking.
 
 #### MKT.12:4.4 - Reconstruct a choice and the transition it involved
 
@@ -2084,7 +2084,7 @@ Use concrete episodes and permitted documents to probe the account. “We chose 
 
 Include a contrasting case when it can defeat the explanation: someone who stayed, delayed, chose another supplier or did not complete a transition. Compare the circumstances that differ, not only the words people use. A possible explanation of several episodes can guide an offer or acquisition change. Estimating how often it applies needs additional grounds.
 
-[MKT.4](#mkt-4) consumes the actual transition difficulty. If the episode shows that the person seeks a different result altogether, return to the problem and offer rather than treating every objection as a barrier to remove.
+[MKT.4](#mkt4---make-choice-and-acquisition-meaningful-and-feasible) consumes the actual transition difficulty. If the episode shows that the person seeks a different result altogether, return to the problem and offer rather than treating every objection as a barrier to remove.
 
 #### MKT.12:4.5 - Match the observation window to the experience question
 
@@ -2168,13 +2168,13 @@ For cadence and receiving action, **adapt** [Meyer and Schwager, 2007, pp. 6–1
 
 ### MKT.12:12 - Relations
 
-[MKT.1](#mkt-1) consumes role, circumstance and group differences. [MKT.2](#mkt-2) consumes grounds for a proposed contribution and comparison. [MKT.4](#mkt-4) consumes the actual acquisition difficulty. Their failed assumptions can each reopen a bounded inquiry here.
+[MKT.1](#mkt1---qualify-a-market-problem-and-differences-between-customers) consumes role, circumstance and group differences. [MKT.2](#mkt2---construct-and-test-an-offer-and-its-positioning) consumes grounds for a proposed contribution and comparison. [MKT.4](#mkt4---make-choice-and-acquisition-meaningful-and-feasible) consumes the actual acquisition difficulty. Their failed assumptions can each reopen a bounded inquiry here.
 
 RMP.1 qualifies whether a non-routine research question remains. MKT.10 owns the marketing question about an intervention's contribution; MKT.13 owns the commercial repeatability decision. An experience observation can inform both while retaining its original evidence limits.
 
 ### MKT.12:End
 
-<a id="mkt-13"></a>
+
 ## MKT.13 - Test Commercial Model Repeatability and Deployment Limits
 
 > **Type:** Marketing Method pattern
@@ -2208,13 +2208,13 @@ Treat the model as connected claims about obtaining customers, supplying a usefu
 
 #### MKT.13:4.1 - Recover the whole commercial proposition and the intended deployment
 
-Explain the proposed customer contribution, actual alternatives, audience, way of reaching and acquiring customers, customer work, provision, support and exchange. [MKT.1](#mkt-1) and [MKT.2](#mkt-2) supply the qualified problem and offer. Include partners, specialised work and later obligations when they are needed for the result.
+Explain the proposed customer contribution, actual alternatives, audience, way of reaching and acquiring customers, customer work, provision, support and exchange. [MKT.1](#mkt1---qualify-a-market-problem-and-differences-between-customers) and [MKT.2](#mkt2---construct-and-test-an-offer-and-its-positioning) supply the qualified problem and offer. Include partners, specialised work and later obligations when they are needed for the result.
 
 State the deployment decision: repeat the present service next month, employ another team, enter another segment, use a new channel, or increase volume. Define the proposed period and service conditions. Without these, a model can be called repeatable while every repetition changes the essential offer or consumes exceptional help.
 
 Distinguish the claims and their present support. A working artifact may support technical feasibility; a customer conversation may clarify a problem; an actual choice may support willingness to obtain a specified contribution on particular terms. None alone establishes the full combination of acquisition, delivery, benefit and sustained economics. Keep uncertainties connected to their consequence rather than treating every box in a business-model diagram as equally urgent.
 
-Use [STR.8, Relate Capabilities, Dependencies, Business Models and Initiatives](STRATEGY-PRINCIPLES-FRAMEWORK.md#str-8) to explain how the contribution would be obtained and sustained. Its result exposes a missing method, capability, access, arrangement or funding condition at the right subject. A market problem need not be repaired with a product feature, nor an access gap with another interview.
+Use [STR.8, Relate Capabilities, Dependencies, Business Models and Initiatives](STRATEGY-PRINCIPLES-FRAMEWORK.md#str8---relate-capabilities-dependencies-business-models-and-initiatives) to explain how the contribution would be obtained and sustained. Its result exposes a missing method, capability, access, arrangement or funding condition at the right subject. A market problem need not be repaired with a product feature, nor an access gap with another interview.
 
 #### MKT.13:4.2 - Select the uncertainty that can change the next commitment
 
@@ -2222,7 +2222,7 @@ Ask which unsupported claim could defeat the proposed deployment and what altern
 
 Choose the next inquiry or trial by its ability to distinguish the consequential possibilities at reasonable cost. State what would make the proposed commitment acceptable, smaller, different or unavailable. A fixed number of interviews, a minimum conversion percentage or a prototype milestone is useful only when justified for this decision.
 
-If the issue is the meaning of the customer's situation, use [MKT.12](#mkt-12). If it is a concrete choice and transition, use MKT.4 with real conditions. If the decision needs an intervention effect, use [MKT.10](#mkt-10). If the missing contribution is the service itself, request the relevant engineering result through MKT.9 and MKT.11. Keep these different questions distinct even when one trial informs several of them.
+If the issue is the meaning of the customer's situation, use [MKT.12](#mkt12---investigate-a-customer-or-market-question-for-a-decision). If it is a concrete choice and transition, use MKT.4 with real conditions. If the decision needs an intervention effect, use [MKT.10](#mkt10---evaluate-the-contribution-and-cost-of-a-marketing-intervention). If the missing contribution is the service itself, request the relevant engineering result through MKT.9 and MKT.11. Keep these different questions distinct even when one trial informs several of them.
 
 Use the smallest adequate means of inquiry. A sample output, terms of a limited service or a manual trial may answer a purchasing or use question more directly than a finished product. Conversely, a simulation that conceals the crucial operational difficulty may be inadequate. The artifact serves the question; its availability does not establish that the question has been answered.
 
@@ -2349,7 +2349,7 @@ Strategy selects the wider direction and commitment; service and method engineer
 
 ### MKT.13:End
 
-<a id="mkt-14"></a>
+
 ## MKT.14 - Develop and Change a Programme for Selected Customer Organisations
 
 > **Type:** Marketing Method pattern
@@ -2383,7 +2383,7 @@ Construct the programme from qualified opportunities and attainable results. Cho
 
 #### MKT.14:4.1 - Select organisations and recover the actual opportunities
 
-Begin with the commercial purpose and the useful customer contribution that could justify a programme. Use [MKT.1](#mkt-1) and [MKT.12](#mkt-12) to qualify the problem, relevant differences and uncertainty. Select named organisations because the contribution and feasible relationship warrant attention, not simply because they are large or visible.
+Begin with the commercial purpose and the useful customer contribution that could justify a programme. Use [MKT.1](#mkt1---qualify-a-market-problem-and-differences-between-customers) and [MKT.12](#mkt12---investigate-a-customer-or-market-question-for-a-decision) to qualify the problem, relevant differences and uncertainty. Select named organisations because the contribution and feasible relationship warrant attention, not simply because they are large or visible.
 
 Within each organisation, distinguish the opportunities that can proceed or fail independently. Recover the working group, affected users, purchaser or sponsor, the intended useful result and the material conditions of choice and delivery. Two departments may share an employer yet need different products, permissions or decisions. One person's interest does not establish the organisation's agreement or every department's need.
 
@@ -2412,7 +2412,7 @@ Recover what can be prepared once: a supported explanation, demonstration, metho
 
 Then name what remains local. Customer work, input samples, permitted uses, benefit, price, timing, responsible participants and stopping conditions may differ even when the demonstration is shared. Build an adaptation that preserves these differences instead of hiding them in a nominally personalised greeting.
 
-Use [MKT.2](#mkt-2) and [MKT.6](#mkt-6) to obtain the supported offer and useful result. [MKT.9](#mkt-9) selects a suitable variant or obtains the missing service construction. Shared preparation cannot supply an absent technical or organisational contribution.
+Use [MKT.2](#mkt2---construct-and-test-an-offer-and-its-positioning) and [MKT.6](#mkt6---jointly-shape-a-useful-result-and-help-achieve-it) to obtain the supported offer and useful result. [MKT.9](#mkt9---select-an-offer-or-help-for-a-particular-customer) selects a suitable variant or obtains the missing service construction. Shared preparation cannot supply an absent technical or organisational contribution.
 
 Prepare the people and means that will use the common contribution. They need to recognise where it fits, adapt it, answer the relevant questions and return an exception they cannot resolve. Account for learning, rehearsal, access and later updates. A reusable file on a shared drive does not establish any of these results.
 
@@ -2422,7 +2422,7 @@ For every live opportunity, identify the next useful result and who can act on i
 
 Use MKT.3 for a suitable contact and meaningful response, MKT.4 for choice and acquisition, MKT.6 for obtaining the useful result, and MKT.7 for continuation, restoration or ending. The programme relates these contributions across opportunities; it does not replace them with a count of meetings.
 
-Obtain effective contributors through [MKT.11](#mkt-11). Agree how a response reaches the person who can continue it, what information that person needs, and what happens if the promised work is unavailable. Reconcile calendars, specialist access and overlapping contacts from different teams. A marketing interaction should not create a promise the receiving sales or service team cannot support.
+Obtain effective contributors through [MKT.11](#mkt11---align-promises-partners-and-execution). Agree how a response reaches the person who can continue it, what information that person needs, and what happens if the promised work is unavailable. Reconcile calendars, specialist access and overlapping contacts from different teams. A marketing interaction should not create a promise the receiving sales or service team cannot support.
 
 When software selects or performs actions, specify the needed information, selection conditions, permitted action and receiving result. Check behaviour when information is missing, stale or contradictory and when an exception exceeds the prepared variants. The programme can use automation only to the extent that those conditions and its actual receiving work are supported.
 
@@ -2430,7 +2430,7 @@ When software selects or performs actions, specify the needed information, selec
 
 Compare alternatives against the same useful results and period. Include research, qualification, common preparation, adaptation, team learning, contacts, coordination, provision, support, exceptions, updates and closure where required. Reuse may lower one component while increasing another. Compare a shared programme with the complete individual alternative, not with an individual alternative that omits its receiving work.
 
-Check the contributors' actual available capacity and the timing of simultaneous work. Use OCE.11 to preserve continuing service while preparing or changing the programme. A total within the available hours does not establish compatible calendars, capability, access or cash. Use [STR.8](STRATEGY-PRINCIPLES-FRAMEWORK.md#str-8) for the sustaining contribution and [MA.8](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md) for dated economic flows, shared resources and obligations.
+Check the contributors' actual available capacity and the timing of simultaneous work. Use OCE.11 to preserve continuing service while preparing or changing the programme. A total within the available hours does not establish compatible calendars, capability, access or cash. Use [STR.8](STRATEGY-PRINCIPLES-FRAMEWORK.md#str8---relate-capabilities-dependencies-business-models-and-initiatives) for the sustaining contribution and [MA.8](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md) for dated economic flows, shared resources and obligations.
 
 Select the smallest complete supported programme. If demand exceeds available capacity, reduce the agreed scope, sequence the work differently, obtain a missing contribution or change the included opportunities. Preserve the useful result and communicate the revised promise. Cheaper message production does not resolve an unavailable specialist or an impossible service.
 
@@ -2442,7 +2442,7 @@ Keep enough current information to act: the opportunity, supported useful result
 
 Provide different receiving answers where their decisions differ. The person continuing a sale needs the specific customer's situation and next feasible action. The programme owner needs grounds to change inclusion, common preparation or resource commitment. The service provider needs the actual promise, inputs, timing and capacity conditions. One report may support several of these, but one engagement score cannot answer them all.
 
-Compare the observed result and whole burden with the proposed programme. Use [MKT.10](#mkt-10) when the decision requires the programme's causal contribution; descriptive progress is sufficient for some operational adjustments. Use [MKT.13](#mkt-13) before expanding a model whose ordinary repeatability or sustaining conditions remain uncertain.
+Compare the observed result and whole burden with the proposed programme. Use [MKT.10](#mkt10---evaluate-the-contribution-and-cost-of-a-marketing-intervention) when the decision requires the programme's causal contribution; descriptive progress is sufficient for some operational adjustments. Use [MKT.13](#mkt13---test-commercial-model-repeatability-and-deployment-limits) before expanding a model whose ordinary repeatability or sustaining conditions remain uncertain.
 
 #### MKT.14:4.7 - Revise, separate or finish the affected work
 
@@ -2536,11 +2536,11 @@ Strategy and management accounting supply the wider sustaining and economic deci
 
 These are constructed working cases. They develop connections and consequential alternatives; their figures and outcomes are assumptions for reasoning, not observations of a business. Reuse the methods after recovering the conditions of the actual case.
 
-<a id="app-mkt-service---construct-a-service-when-a-suitable-variant-is-missing"></a>
+
 
 ## MKT.Application:1 - APP-MKT-SERVICE - Construct a service when a suitable variant is missing
 
-<a id="recover-the-customers-result-and-the-providers-constraint"></a>
+
 
 ### MKT.Application:1.1 - Recover the customer's result and the provider's constraint
 
@@ -2548,7 +2548,7 @@ A training provider has agreed to support a practical exercise in a booked room.
 
 MKT.9 compares available variants against that result. The only worker prepared to move and check the equipment is performing a check that cannot safely be interrupted. The requested move and continuing the check are separately possible, but cannot both rely on that worker at the same time. A catalogue entry saying “room change available” does not resolve this conflict.
 
-<a id="obtain-a-construction-and-compare-whole-alternatives"></a>
+
 
 ### MKT.Application:1.2 - Obtain a construction and compare whole alternatives
 
@@ -2562,7 +2562,7 @@ The provider asks SYSE.8 for a service arrangement that preserves the needed lea
 
 Use HCD for a missing human capability or a changed learning arrangement, OCE for assignments and access, and Operations for admission and service continuation. An available worker without the relevant preparation is not an equivalent replacement. A suitably prepared partner room may be a new solution even if earlier configurations did not include it. Reuse prior reasoning to find relevant options and recheck it under the new conditions.
 
-<a id="turn-the-returned-arrangement-into-a-truthful-choice"></a>
+
 
 ### MKT.Application:1.3 - Turn the returned arrangement into a truthful choice
 
@@ -2574,7 +2574,7 @@ After the service, MKT.6 asks whether the intended useful result was obtained un
 
 The practical change is an offer grounded in the whole service. The combination is revisited if the room becomes inaccessible, preparation fails or the worker receives another incompatible obligation. Unaffected customer knowledge and learning content remain usable.
 
-<a id="app-mkt-media---keep-a-supportable-offer-through-a-changing-intermediary"></a>
+
 
 ## MKT.Application:2 - APP-MKT-MEDIA - Keep a supportable offer through a changing intermediary
 
@@ -2582,7 +2582,7 @@ Use this application when a platform, publisher or other intermediary changes wh
 
 The reader knows the offer and can obtain competent media, information-use and service contributions. Platform operations and applicable permissions come from their actual providers. A requested quotation through an adequate agreed route can use MKT.3 directly. Nothing here requires anonymous advertising to become a programme for named customer organisations under MKT.14.
 
-<a id="start-from-the-offer-and-the-work-that-can-receive-a-response"></a>
+
 
 ### MKT.Application:2.1 - Start from the offer and the work that can receive a response
 
@@ -2592,7 +2592,7 @@ Consider a constructed assisted batch-reporting trial. The provider can map one 
 
 The initial arrangement is sufficient if those conditions hold. A different channel must preserve the supported contribution and receiving work, even when it changes the message's form or makes distribution cheaper.
 
-<a id="obtain-the-intermediarys-actual-contribution"></a>
+
 
 ### MKT.Application:2.2 - Obtain the intermediary's actual contribution
 
@@ -2602,7 +2602,7 @@ The professional return must connect a proposed setting with what it actually pe
 
 For a programmatic purchase, [IAB Tech Lab's seller and supply-chain explanation](https://iabtechlab.com/sellers-json/) supplies identification and verification of sellers and intermediaries in its specified setting. Use that answer for the inventory being purchased. It does not establish that the intended person will notice or benefit from the offer. A closed platform may supply a different account of its intermediary work.
 
-<a id="construct-the-permitted-family-of-meanings"></a>
+
 
 ### MKT.Application:2.3 - Construct the permitted family of meanings
 
@@ -2616,7 +2616,7 @@ If generation or omission prevents a sufficient bound on the promise, choose a m
 
 [Yandex's combinatorial-ad instructions](https://m.yandex.ru/support/direct/ru/unified-performance-campaign/create-comb-ad) illustrate the technical supplier: elements are assembled into advertisements, with preview and element-based reporting operations. The instructions do not establish arbitrary controls over combinations or complete observation of future meanings. Confirm the controls needed by this offer in the selected format. In the constructed case, assume the operator cannot guarantee retention of the assistance condition in the proposed combination format. The team retains a supplied fixed placement whose agreed expression preserves that condition. This is a change of arrangement, not an attempt to improve an unsupported advertisement's small print.
 
-<a id="connect-observable-events-to-the-receiving-decision"></a>
+
 
 ### MKT.Application:2.4 - Connect observable events to the receiving decision
 
@@ -2626,7 +2626,7 @@ A platform may offer a proxy for the desired result, a delayed signal or no suit
 
 For example, [Google's Ads and AI Overviews explanation](https://support.google.com/google-ads/answer/16297775?hl=en) currently provides no placement-only targeting, opt-out or segmented reporting for ads within AI Overviews. A plan to buy only that placement and compare its isolated conversion rate therefore cannot be performed on this basis. Compare a supported broader campaign, another route or a different question. Organic visibility does not supply the missing paid-placement observation. Recheck the supplier's current conditions before use; this example asserts neither availability in every market nor better commercial results.
 
-<a id="make-exposure-compatible-with-actual-provision"></a>
+
 
 ### MKT.Application:2.5 - Make exposure compatible with actual provision
 
@@ -2636,7 +2636,7 @@ Suppose the reporting provider has ten specialist-hours after existing obligatio
 
 If two trials were already agreed, reducing new invitations does not discharge them. Obtain the applicable revised arrangement or remedy with the affected parties and include its work. A customer withdrawing external-data permission instead changes the dependent sample operation: obtain a permitted adequate input or a supported local arrangement, or defer that trial. Keep the established customer question and unrelated permitted work.
 
-<a id="compare-filtering-and-mistaken-blocking-from-the-affected-purposes"></a>
+
 
 ### MKT.Application:2.6 - Compare filtering and mistaken blocking from the affected purposes
 
@@ -2648,7 +2648,7 @@ Assume an existing authenticated portal can deliver the requested quotation with
 
 Now suppose the purchaser cannot access the portal and the authorised operator is unavailable before the deadline. The preferred route is no longer supplied. Compare another actually agreed means, a changed deadline or the unresolved decision; do not keep crediting the unavailable portal with its former result. If the value conflict or authority remains unresolved, return that question through D.4. D.5 is relevant to a separately claimed filtering or bias assurance. One blocked requested message neither establishes an overall filter error rate nor justifies abandoning protection.
 
-<a id="revise-the-failed-connection-and-preserve-the-useful-remainder"></a>
+
 
 ### MKT.Application:2.7 - Revise the failed connection and preserve the useful remainder
 
@@ -2658,11 +2658,11 @@ Follow dependencies in both directions. A narrower service can require changed m
 
 A useful reminder is: recover the receiving result, obtain the intermediary's real powers and limits, construct supportable permitted expressions, connect observations to the right decisions, supply the response, and revise the affected connection. The steps above explain those joins. They can be revisited independently, and an already adequate arrangement need not be reconstructed merely because a new channel is available.
 
-<a id="app-mkt-organisations---turn-a-programme-comparison-into-actual-customer-work"></a>
+
 
 ## MKT.Application:3 - APP-MKT-ORGANISATIONS - Turn a programme comparison into actual customer work
 
-<a id="keep-the-programmes-unit-and-result-stable"></a>
+
 
 ### MKT.Application:3.1 - Keep the programme's unit and result stable
 
@@ -2672,7 +2672,7 @@ MKT.12 asks what must be known to select the next action in each opportunity. MK
 
 MKT.6 helps the trial participants state the useful result and what they must contribute to obtain it. MKT.2 then constructs an offer and positioning against their actual alternatives. The common demonstration can explain a shared contribution. State explicitly that continuous integration is unavailable when explaining that demonstration.
 
-<a id="compare-the-complete-programme-before-promising-its-parts"></a>
+
 
 ### MKT.Application:3.2 - Compare the complete programme before promising its parts
 
@@ -2682,7 +2682,7 @@ The programme owner uses that result with MKT.11 to obtain the actual contributi
 
 MKT.3 can now invite an appropriate response. For a qualified batch trial, that may be confirmation of an agreed sample and time. For an integration-dependent opportunity, it may be information needed to decide whether constructing that integration is worthwhile. Sending the same purchase invitation to both would conceal the reason their actions differ.
 
-<a id="perform-the-supported-continuations-and-revise-the-whole-when-needed"></a>
+
 
 ### MKT.Application:3.3 - Perform the supported continuations and revise the whole when needed
 
@@ -2696,13 +2696,13 @@ MKT.10 is needed if a decision depends on the incremental effect of the common p
 
 This application connects qualification, offer, execution and revision around MKT.14's full construction. Its ordinary alternative is a ready, independent enquiry: respond through the direct methods without creating a shared programme whose coordination adds no useful result.
 
-<a id="app-mkt-account---carry-a-customers-changing-question-from-first-contact-into-useful-work"></a>
+
 
 ## MKT.Application:4 - APP-MKT-ACCOUNT - Carry a customer's changing question from first contact into useful work
 
 Use this application when work with one organisation spans several people, meetings and decisions, and a locally successful conversation leaves the next contribution unclear. The result sought is a supported customer choice and useful receiving work, including a justified refusal or ending. Use MKT.4 directly for a settled ordinary purchase; a single adequate contact needs no account programme.
 
-The [Reference explanation of understanding, agreement and ensuing work](ENGINEERING-DPF-SUITE-REFERENCE.md#they-understand-or-agree-why-does-the-needed-work-still-not-follow) develops the shared distinction between explanation, judgement, contribution and performance. This application adds how to prepare and revise the commercial work across encounters, carry its case through other people, and connect criterion work and negotiation to implementation. Constituent methods remain independently usable.
+The [Reference explanation of understanding, agreement and ensuing work](ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference21---they-understand-or-agree-why-does-the-needed-work-still-not-follow) develops the shared distinction between explanation, judgement, contribution and performance. This application adds how to prepare and revise the commercial work across encounters, carry its case through other people, and connect criterion work and negotiation to implementation. Constituent methods remain independently usable.
 
 A working reminder is:
 
@@ -2710,7 +2710,7 @@ A working reminder is:
 
 The phrases recall the connections below. They are not compulsory buying stages. One conversation can clarify criteria while exposing an implementation concern; the operator and purchaser can be answering different questions. Return to a question only when its answer is missing or has changed.
 
-<a id="prepare-an-encounter-that-can-change-the-work"></a>
+
 
 ### MKT.Application:4.1 - Prepare an encounter that can change the work
 
@@ -2722,7 +2722,7 @@ Prepare from the question backward. Recover facts available elsewhere; identify 
 
 After the encounter, compare the actual return with the objective. An introduction received, a criterion clarified and a demonstration requested are different results. Preserve the new fact and its limits, identify who will use it, and prepare the next contribution from that changed state. A cordial meeting can leave the objective unmet; an unwelcome correction can settle it usefully. What happens between meetings also matters: a colleague can reject the case, a provider can withdraw support, or the customer can propose a better trial after reflection.
 
-<a id="obtain-access-and-let-the-case-travel"></a>
+
 
 ### MKT.Application:4.2 - Obtain access and let the case travel
 
@@ -2736,7 +2736,7 @@ An internal sponsor's willingness is distinct from ability to explain and author
 
 Avoid making continuity depend on one person where a consequential change is plausible. With the customer's agreement, connect the other relevant participants and leave them a usable account. Do not contact everyone indiscriminately. If the sponsor leaves, recover who now owns the work and whether the case and authority still apply. The departure neither erases established technical facts nor transfers the old authority to the most receptive replacement. MKT.14 keeps separate opportunities within the organisation distinct.
 
-<a id="turn-grounds-for-action-into-a-usable-comparison"></a>
+
 
 ### MKT.Application:4.3 - Turn grounds for action into a usable comparison
 
@@ -2750,7 +2750,7 @@ When a property such as reliability is hard for the customer to judge, define wh
 
 Compare vulnerability through importance, the customer's view of this offer and its view of alternatives. A competitor's improved model can erase an advantage without changing the customer's need. A faster device can outperform another and still fail the receiving workflow. Reopen the affected comparison when new evidence changes fit; retain unaffected criteria and facts. If a different arrangement is proposed, request its actual engineering and operating contributions before inviting reliance.
 
-<a id="investigate-a-concern-and-prepare-an-attainable-agreement"></a>
+
 
 ### MKT.Application:4.4 - Investigate a concern and prepare an attainable agreement
 
@@ -2766,7 +2766,7 @@ If scope, price, timing or support can usefully change, use MKT.4:4.3.2 to prepa
 
 Raise a genuine impossibility when discovered. A data restriction or unavailable service cannot wait for a later supposed negotiation stage. Conversely, a known suitable purchase with accepted fixed terms needs no invented bargaining phase. Before treating a package as agreed, resolve important ambiguities, obtain the relevant decisions and return its conditions to those who will deliver and use it.
 
-<a id="make-implementation-a-receiving-part-of-the-agreement"></a>
+
 
 ### MKT.Application:4.5 - Make implementation a receiving part of the agreement
 
@@ -2780,7 +2780,7 @@ Early difficulty needs a discriminating response. A wrong identifier can arise f
 
 Observe what the receiving dispatch work actually obtains. A valid scan, an installed device, a confident operator and an on-time useful dispatch answer different questions. MKT.6 returns an inadequate contribution to its owner and preserves sufficient results. Early enthusiasm may justify keeping a conversation open; it does not establish a reliable reference case. Ask permission before using another customer's account or contact, and keep any reported benefit within its observed conditions.
 
-<a id="choose-continuation-and-reopen-only-the-affected-work"></a>
+
 
 ### MKT.Application:4.6 - Choose continuation and reopen only the affected work
 
@@ -2792,11 +2792,11 @@ Other changes select different returns. A departing sponsor changes access and a
 
 This application adapts the historical construction in Neil Rackham's *Major Account Sales Strategy* (1989), especially Chapters 2–9: preparation and revision between encounters, the internal passage of a case, criterion strategies, concerns, negotiation and implementation. Rackham's commercial objective includes winning and expanding accounts. Here the receiving result also permits declining an unsuitable purchase and ending optional work; selectively intensifying dissatisfaction or redefining criteria to favour the seller is not adopted as sufficient justification. The cases explain a construction under stated conditions, not its empirical superiority. The related MKT.4 source comparison qualifies the criterion and negotiation contributions; the Reference and supplying methods develop the other connected operations.
 
-<a id="app-mkt-learning---connect-a-learning-offer-with-personal-development-and-voluntary-exchange"></a>
+
 
 ## MKT.Application:5 - APP-MKT-LEARNING - Connect a learning offer with personal development and voluntary exchange
 
-<a id="recover-the-different-purposes-before-building-one-arrangement"></a>
+
 
 ### MKT.Application:5.1 - Recover the different purposes before building one arrangement
 
@@ -2806,7 +2806,7 @@ MKT.12 investigates the decision that the provider actually faces: which difficu
 
 The early useful explanation can finish a community exchange without a purchase. A pause may mean that the analyst has enough help, lacks time or is comparing alternatives. Use MKT.8 only when knowing the connections among those activities changes a decision. Its map retains the outside discussion and the analyst's own work; absence from the provider's records is not absence of activity.
 
-<a id="obtain-the-learning-product-and-the-personal-programme"></a>
+
 
 ### MKT.Application:5.2 - Obtain the learning product and the personal programme
 
@@ -2818,7 +2818,7 @@ Choose the interaction from the missing learning operation. HCD.23 can arrange e
 
 MKT.2 consumes the returned learning and service construction to form its promise and positioning. MKT.4 makes the choice meaningful: entry actions, later work, required participation, help, schedule, price, limitations and a possible refusal must be understandable. A paid place supplies neither personal preparation nor the employer's release of work time. If that release is missing, offer a supported later or differently scheduled route where adequate, or defer.
 
-<a id="keep-community-participation-workable-alongside-the-offer"></a>
+
 
 ### MKT.Application:5.3 - Keep community participation workable alongside the offer
 
@@ -2828,7 +2828,7 @@ CB.9 supplies the provision and agreed terms for community work. Suppose a spons
 
 MKT.14 applies only if the provider constructs a commercial programme for selected employers or other customer organisations. It can share justified preparation while preserving their separate opportunities and promises. It does not make the whole community one account, determine learners' personal programmes or claim every helpful exchange as commercial progress.
 
-<a id="let-a-condition-of-the-whole-change-the-constituent-action"></a>
+
 
 ### MKT.Application:5.4 - Let a condition of the whole change the constituent action
 
@@ -2840,7 +2840,7 @@ Suppose the employer agrees to a later meeting and its preparation and follow-up
 
 The conflict can also be temporal. Two available hours after learners' revision deadline cannot supply feedback needed before it. During a shared explanation, withholding the answer long enough for the analyst to make a model choice may be part of learning, while offering the answer immediately may be good customer support in another situation. Recover the intended contribution before substituting the action. An AI answer can help with work; when the human must acquire the judgement, the arrangement must still obtain that person's choice, explanation, correction and later performance under the declared help conditions.
 
-<a id="judge-and-maintain-the-distinct-results"></a>
+
 
 ### MKT.Application:5.5 - Judge and maintain the distinct results
 
@@ -2855,7 +2855,7 @@ The application returns separate learning, community and commercial arrangements
 
 # Sources and refresh
 
-<a id="edition-and-use"></a>
+
 
 ## MKT.Reference:1 - Edition and use
 
@@ -2863,7 +2863,7 @@ This is the Marketing Principles Framework's first edition, comprising MKT.1–1
 
 The publication supports a prepared practitioner who can obtain the named domain contributions. A suitable task, explanation and supported practice can be developed with HCD for a different audience. If a required contribution is inaccessible, obtain another adequate source or defer the dependent action.
 
-<a id="direct-framework-returns"></a>
+
 
 ## MKT.Reference:2 - Direct framework returns
 
@@ -2883,7 +2883,7 @@ MKT.10 also uses MMP.15 from [Mathematical Modeling](https://github.com/ailev/FP
 
 Each MKT body's source discussion gives the qualified external return, adopted or adapted contribution and important limit. Historical sources are used as historical anchors where named. For a stronger research or measurement use, return to the original material and establish that it supplies the needed method and evidence.
 
-<a id="refresh-the-affected-use"></a>
+
 
 ## MKT.Reference:3 - Refresh the affected use
 
@@ -2891,7 +2891,7 @@ Begin with the changed fact and the decision it could alter. A new customer role
 
 If a common source claim fails, inspect the methods and applications that depend on it. If only one organisation changes its data conditions, revise that opportunity and the common-work comparison it affects. A practical result may remain usable while a stronger generalisation is withdrawn. Keep the scope of both explicit.
 
-<a id="citation-and-reuse"></a>
+
 
 ## MKT.Reference:4 - Citation and reuse
 

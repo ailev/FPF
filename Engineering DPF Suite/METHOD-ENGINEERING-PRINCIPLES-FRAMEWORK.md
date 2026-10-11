@@ -227,7 +227,7 @@ repair already resolves the working difficulty.
 
 **Constituent actions in ongoing work.** During a trial of a proposed review Method, asking a participant to explain a unit conversion can constitute part of testing that Method, while the trial constitutes part of developing the team's way of reviewing. If the trial asks about unaided recognition, supplying the conversion during the attempt changes what the trial can establish. The facilitator needs both the subject knowledge and the ability to elicit performance without supplying the answer. ME.6's worked case develops this connection; FPF B.1.5.EW recovers it and B.1.5.RS helps compare a substitute constituent. Preparing the trial remains earlier work, not an activity presumed to continue throughout it.
 
-**Learning to recover and change a way of working.** If you know the work and want to learn how to explain and change its method, use the Reference's [practice with records, first attempts and explained answers](ENGINEERING-DPF-SUITE-REFERENCE.md#learn-to-recover-and-change-a-way-of-working). You can save an attempt, compare it with the discussion and correct it yourself. Individual feedback requires a qualified helper and agreed time; the text supplies material for self-checking.
+**Learning to recover and change a way of working.** If you know the work and want to learn how to explain and change its method, use the Reference's [practice with records, first attempts and explained answers](ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference16---learn-to-recover-and-change-a-way-of-working). You can save an attempt, compare it with the discussion and correct it yourself. Individual feedback requires a qualified helper and agreed time; the text supplies material for self-checking.
 
 ## ME.Preface:4 - Status, evidence, and assurance decisions are preserved
 
@@ -5809,7 +5809,7 @@ These sources support a bounded synthesis, not a claim that PLUS-ME invented con
 
 # Cross-Pattern Application
 
-<a id="app-me-01--choose-the-smallest-method-engineering-result-needed-for-release-ec-417"></a>
+
 
 ## ME.Application:1 - APP-ME-01 — Choose the Smallest Method-Engineering Result Needed for Release EC-417
 
@@ -5833,7 +5833,7 @@ The first move is to name the receiving result and ask which result is needed no
 
 EC-417 continues beyond the early returns because evidence timing, Method relations, allocation, support, authority, and recovery burden jointly change the release decision. All identifiers, dates, observations, capacities, and outcomes below are scenario assumptions for this worked decision.
 
-<a id="1-bound-the-ec-417-receiving-result-and-recover-the-subjects-of-its-management-accounts"></a>
+
 
 ### ME.Application:1.1 - 1. Bound the EC-417 receiving result and recover the subjects of its management accounts
 
@@ -5851,7 +5851,7 @@ The project, process, and case questions here concern different subjects. Use th
 
 These accounts expose connected Method and support questions without sharing one EntityOfConcern. Their correspondence must be recovered wherever the release decision uses it: the signed-evidence date, reusable guard, and claim about the evidence actually used answer different questions. This application does not assert their viewpoint conformance, actual performance, or acceptance from their labels. Later, the completed-trial reading in ME.9 may concern one independently admitted Work; that bounded use does not change the subjects above.
 
-<a id="2-choose-the-subject-before-redesigning-it"></a>
+
 
 ### ME.Application:1.2 - 2. Choose the subject before redesigning it
 
@@ -5870,7 +5870,7 @@ The selected Method-relation focus contains identified Methods `M-HW-Verify`, `M
 
 Reopen to the test-rig capability/resource decision if two of the next three comparable delays occur while required evidence is complete and the rig is unavailable. That observation changes the subject rather than merely lowering a Method score.
 
-<a id="3-separate-observed-differentiation-causal-support-and-todays-decision"></a>
+
 
 ### ME.Application:1.3 - 3. Separate observed differentiation, causal support, and today's decision
 
@@ -5893,7 +5893,7 @@ No positive interventional causal reliance is supported. The observed timing and
 
 Today's architecture decision remains separate. `AD-EC417-B2-Trial-1` may consume the non-causal mismatch result, capacity calculation, the covering trace/safety/release assignments, `PERM-TraceAcceptReject-17`, the two independently supported direct authority relations, and reversibility to choose a bounded trial. It may not consume the `unsupported` causal-use result as positive evidence.
 
-<a id="4-recover-candidate-accounts-only-when-ordinary-method-recovery-is-insufficient"></a>
+
 
 ### ME.Application:1.4 - 4. Recover candidate accounts only when ordinary Method recovery is insufficient
 
@@ -5912,7 +5912,7 @@ The thirteenth supplier-originated case is reserved unseen. Before inspection, t
 
 `C-Evidence-Reconcile-Internal` and `C-Evidence-Reconcile-Supplier` remain scoped candidate Method accounts. No occurrence, interview, event regularity, majority pattern, or held-out fit admits either as a Method or proves effectiveness, population frequency, or causality.
 
-<a id="5-build-the-repertoire-and-criteria-without-preselecting-an-architecture"></a>
+
 
 ### ME.Application:1.5 - 5. Build the repertoire and criteria without preselecting an architecture
 
@@ -5976,7 +5976,7 @@ Assignment, permission/authority relation, performed Work, and decision result i
 
 These criteria admit no Method and select no alternative. Signed-first, provisional-first, supplier-preparation, and safety-preparation variants remain serious possibilities.
 
-<a id="6-recover-package-contributions-and-qualify-individual-subjects"></a>
+
 
 ### ME.Application:1.6 - 6. Recover package contributions and qualify individual subjects
 
@@ -6010,7 +6010,7 @@ Local schema correspondence `A-17` maps signed or explicitly provisional pinout-
 
 Another project needing only hardware verification can stop with the individual qualification of `M-HW-Verify`; it does not need a package-recovery or architecture-comparison result. A project whose only useful result is the bounded qualification of `C-Checklist-Reconcile` can retain that subject as a candidate account with A.3.1 identity still open and stop without calling it a Method. A project investigating supplier reconciliation can likewise stop with the retained supplier account. EC-417 continues because combined evidence timing, allocation, support, authority, and recovery burden change the release decision.
 
-<a id="7-compare-a-b-b2-and-r-across-the-structures-that-change-the-decision"></a>
+
 
 ### ME.Application:1.7 - 7. Compare A, B, B2, and R across the structures that change the decision
 
@@ -6027,7 +6027,7 @@ For this constructed comparison, `2.07 h` is safety-engineer time for traceabili
 
 The provisional board occurs on `D-21`; the signed-evidence board occurs on `D-8`. Both last 20 minutes and therefore remain under the separate 45-minute limit. They do not occur on the same day. Per-release safety effort is `4.73 h` for B and `3.13 h` for B2 after the separate `D-21` board is included. The selected `D-8` peak-day result and per-release totals answer different burden questions.
 
-<a id="signed-delta-preparation-for-b2"></a>
+
 
 #### ME.Application:1.7.1 - Signed-delta preparation for B2
 
@@ -6044,7 +6044,7 @@ Under B2, the supplier-configuration role prepares the comparison of the signed 
 
 `AD-EC417-B2-Trial-1` selects only a prospective three-release B2 trial under `ASG-TraceReview-17`, `ASG-SafetyReview-17`, `ASG-ReleaseDecision-17`, `PERM-TraceAcceptReject-17`, `AUTH-SafetyEvidence-17`, `AUTH-ReleaseDecision-17`, capacity, confidentiality, evidence, and reversibility conditions. It consumes `DC-EC417-CadenceMismatch-1` as a non-causal rationale and treats the causal-use verdict as `unsupported`. A remains a pre-entry alternative. R is a post-entry recovery and can never become a retrospective A occurrence. No obtaining ArchitectureRelation or `methodPartOf` fact is asserted.
 
-<a id="8-return-a-proposed-whole-account-and-a-bounded-trial"></a>
+
 
 ### ME.Application:1.8 - 8. Return a proposed-whole account and a bounded trial
 
@@ -6072,13 +6072,13 @@ If closure is still unresolved at `D0`, `ReleaseDecider-17` returns withhold/nex
 
 These boundaries do not rewrite any earlier Work or evidence basis. Signed evidence supersedes provisional only for safety-closure reliance. For the constructed series of at most three B2 trials, count one failed trial when that release has a capacity or mismatch failure or enters R. Count that trial only once even if several categories or events occur; retain all categories as reasons for analysis. Entering R counts once for its trial even if recovery later succeeds. After two distinct failed trials, `ReleaseDecider-17`, within the applicable `AUTH-ReleaseDecision-17` scope, returns B2 for revision or rejects further B2 use before any fourth release. The required safety-evidence accept/reject remains a separate `SafetyReviewer-17` result under `AUTH-SafetyEvidence-17`; revising the candidate account is separate work, not an authority granted by this release decision. The existing decision covers at most three trials regardless of the failure count: any further release requires a new applicable decision. The immediate confidentiality, assignment, permission, and authority stops above do not wait for two failures.
 
-<a id="9-configure-and-test-the-enactment-support-arrangement-before-claiming-that-a-method-base-works"></a>
+
 
 ### ME.Application:1.9 - 9. Configure and test the enactment-support arrangement before claiming that a Method Base works
 
 The B2 material now exists, but that does not show that a person can find the current edition, distinguish candidate from admitted content, tailor the live branch, or stop before a tool overreaches. `ME.10` therefore starts from three named user tasks rather than from a repository or platform design. The bounded support use `USE-EC417-B2-Support-1` asks whether `TraceReviewer-17`, `SafetyReviewer-17`, and `ReleaseDecider-17` can use the B2 material for `WP-EC417-B2-Trial-1` under the existing confidentiality, evidence, assignment, permission, authority, reversibility, and `D0` conditions.
 
-<a id="91-fix-the-same-three-task-rows-before-comparing-support-configurations"></a>
+
 
 #### ME.Application:1.9.1 - 9.1 Fix the same three task rows before comparing support configurations
 
@@ -6090,7 +6090,7 @@ The B2 material now exists, but that does not show that a person can find the cu
 
 Published files and manual lookup are candidate configurations with no performed task evidence for these three rows, so those configurations remain untested rather than failed. Adding an interaction with `SYS-EC417-AIProvider-1` and feedback Work or a feedback receiving relation also remains untested: no mandatory row needs either, and this support test contains no provider interaction, used AI suggestion, human review of such a suggestion, feedback Work, feedback SpeechAct, or feedback receiving use. The bounded PLM/CI candidate configuration is the only one with one observation for every current row. The described observations support retrieval, branch selection and the tested tailoring actions; the missing tailoring definition and permission/authority-stop observation prevent a pass for the full tailoring row or complete task set. The configuration is not established as globally smallest or superior to every alternative.
 
-<a id="92-admit-the-two-entry-epistemes-to-the-method-base"></a>
+
 
 #### ME.Application:1.9.2 - 9.2 Admit the two entry epistemes to the Method Base
 
@@ -6107,7 +6107,7 @@ At `D-21 10:00–10:08`, admitted Work `W-MBA-EC417-ECA-1` applies the operation
 
 Those facts institute `MBB-EC417-ECA-1` and `MBB-EC417-ERP-1` as the two `MethodBaseEntryBelongsTo@Project` episodes. Each episode is identified by its exact entry, collection, and maximal continuous interval. A repeated positive result during an open episode creates no second membership; removal requires its own permitted negative application and result. No such removal obtains through `D0`.
 
-<a id="93-test-actual-use-and-keep-the-structure-gap-separate"></a>
+
 
 #### ME.Application:1.9.3 - 9.3 Test actual use and keep the structure gap separate
 
@@ -6127,7 +6127,7 @@ Each `SupportSystemUsedInWork@EC417` occurrence requires the independently admit
 
 The membership episodes, their IBA assertion or evidence epistemes, optional construction account `MBCA-EC417-B2-1`, edition episteme `MBE-EC417-B2-1`, publication occurrence `PUB-MBE-EC417-B2-1`, named-use reliance episteme, proposed organization, selection-gap episteme, and task result remain distinct. Membership and publication do not prove usability; the bounded task results do not prove a general holder capability, Method fit, effectiveness, release performance, or selection of the proposed structure.
 
-<a id="94-stop-separately-at-the-remaining-method-engineering-questions"></a>
+
 
 #### ME.Application:1.9.4 - 9.4 Stop separately at the remaining Method Engineering questions
 
@@ -6143,7 +6143,7 @@ The membership episodes, their IBA assertion or evidence epistemes, optional con
 | ME.16 | For each release that actually occurs, keep Method or candidate changes separate from description, PLM/CI/AI Systems, support Work, access, capability, assignment, permission, authority, release Work, and release-result changes. Retain decision-relevant adequate existing capability on its current A.2.2 basis without requiring development; return that missing basis when needed. Only a required capability-change claim consumes an independently obtained development result or returns its missing/stale result and next governing action. Omit capability detail that cannot change the decision. |
 | ME.17 | EC-417 supplies no C.20 Discipline recognition, bounded Method Engineering population, enacted Method Engineering variant or cultural-relation evidence. Keep those wider claims unsupported; no cultural inquiry is needed merely to complete the release or support result. If culture becomes the receiving question, use the bounded account and the MeCaMinD, SRA and Essence sources only for the relations they actually support. |
 
-<a id="941-preparation-now-reopening-after-performed-trials"></a>
+
 
 ##### ME.Application:1.9.4.1 - 9.4.1 Preparation now, reopening after performed trials
 
@@ -6155,7 +6155,7 @@ Invoke ME.9 only for Method representation profile `MRP-EC417-B2-Review-1`, beca
 
 **The relation between the uses.** The cross-use profile records the shared evidence-entry, confidentiality, recovery, and stop correspondences, the preparation claim group's missing receiving result, and the reopening claim group's separate missing Work, conformance, and receiving bases; it keeps WorkPlan, any later Work, both actions, candidate readings, conformance judgments, and receiving results separate. It creates no super-view, Method admission, fit, transfer, worth, publication, or mathematical graph.
 
-<a id="10-apply-sensitivity-without-rewriting-past-work"></a>
+
 
 ### ME.Application:1.10 - 10. Apply sensitivity without rewriting past Work
 
@@ -6163,7 +6163,7 @@ If signed supplier pinout is available at `D-21`, the prospective choice reverse
 
 This sensitivity changes the current prospective decision. It does not relabel earlier B2 Work as A, erase a recovery occurrence, or prove that either alternative is generally better.
 
-<a id="result-and-stop"></a>
+
 
 ### ME.Application:1.11 - Result and stop
 
@@ -6188,7 +6188,7 @@ Stop only the enactment-support task or claim whose mandatory criterion fails or
 
 The application establishes no causal effect, Method identity for any candidate account, effective composite Method, universal lifecycle, cross-domain transfer, general holder capability, selected A.22 support structure, AI-provider use or feedback return inside the support test, positive release Work, or broad cultural continuation. It supplies only the bounded support-use facts and pattern stops stated above.
 
-<a id="compare-explanations-of-a-pattern-language"></a>
+
 
 ## ME.Application:2 - Compare explanations of a pattern language
 
@@ -6249,7 +6249,7 @@ contribution and its evidence conditions.
 
 # Framework Boundary and Refresh
 
-<a id="intended-use-and-ordinary-non-use"></a>
+
 
 ## ME.Reference:1 - Intended use and ordinary non-use
 
@@ -6262,7 +6262,7 @@ Return to the owning domain when the missing result concerns its subject, quanti
 law, authority, or direct Method. A Method Engineering result can request and use such a specialist return; it
 does not replace it.
 
-<a id="patternid-and-reader-order"></a>
+
 
 ## ME.Reference:2 - PatternID and reader order
 
@@ -6271,7 +6271,7 @@ a reader route over six problem families. Logical dependencies in the Table of C
 result may consume another. Actual Work can overlap, branch, repeat, omit a result, or begin from a later pattern
 when its inputs already exist.
 
-<a id="source-use-and-currentness"></a>
+
 
 ## ME.Reference:3 - Source use and currentness
 
@@ -6281,7 +6281,7 @@ Direct Method Engineering sources contribute situation-responsive construction, 
 
 Refresh only the affected pattern when a governing FPF distinction changes, a direct source changes practitioner action or case facts, a worked case can no longer support its branch, or replay exposes a missing independently useful Method Engineering move. A new source does not reopen the entire framework by default. ME.24 follows the changed premise through affected claims and uses; unknown dependency reach widens the question rather than licensing a claim that everything else is unaffected.
 
-<a id="fpf-dependency-and-compatibility"></a>
+
 
 ## ME.Reference:4 - FPF dependency and compatibility
 
@@ -6301,7 +6301,7 @@ Refresh only the affected pattern when a governing FPF distinction changes, a di
 
 **Authority direction.** FPF does not depend on this DPF for the validity of its transdisciplinary results. A transdisciplinary discovery returns to FPF for its own architecture, review, and edition decision; Method Engineering keeps only the specialist remainder. Domain DPF results remain optional specialist returns with their producer's scope, evidence, authority, and stop.
 
-<a id="representative-case-coverage"></a>
+
 
 ## ME.Reference:5 - Representative case coverage
 
@@ -6324,7 +6324,7 @@ observations can support.
 The pattern bodies state which case they consume and the exact result or stop. A later reader should not join the
 cases into one population, project history, or stronger evidence claim merely because they appear in one table.
 
-<a id="external-result-use"></a>
+
 
 ## ME.Reference:6 - External result use
 
@@ -6334,7 +6334,7 @@ research, or another practice. It preserves the producer's scope, evidence, auth
 may offer a reusable route when available; otherwise use the direct Method and source that can truthfully return
 the needed specialist result.
 
-<a id="edition-return"></a>
+
 
 ## ME.Reference:7 - Edition return
 
@@ -6342,7 +6342,7 @@ the needed specialist result.
 
 `METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md` is one generated all-in-one Markdown presentation carrier for the edition. The carrier presents the selected reader form. Publication occurrence, actual access or use, currentness beyond the stated dependency and source windows, Suite membership, another product's availability, source authority, and Work authority each need their own basis.
 
-<a id="publication-boundary"></a>
+
 
 ## ME.Reference:8 - Publication boundary
 

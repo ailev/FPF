@@ -1652,7 +1652,7 @@ The question is how to choose a useful maintenance-culture intervention from lim
 
 # Cross-Pattern Applications
 
-<a id="app-mnt-01--ps17-advice-selected-intervention-and-return-to-use"></a>
+
 
 ## MNT.Application:1 - APP-MNT-01 — PS17: advice, selected intervention and return to use
 
@@ -1672,7 +1672,7 @@ In the performed branch, [MNT.9](#mnt9---perform-and-record-the-maintenance-inte
 
 Long-horizon recurrence remains unresolved. [MNT.13](#mnt13---coordinate-the-maintenance-programme-and-fleet-learning) can retain the current programme account, and [MNT.16](#mnt16---deliberately-continue-and-change-maintenance-culture) can describe the team's observed use only within the constructed case. A further investigation or practice intervention is selected for its worthwhile attainable contribution; it is not required to make the local recommendation or repair result true.
 
-<a id="app-mnt-02--a-fleet-comparison-that-reverses-when-exposure-is-counted"></a>
+
 
 ## MNT.Application:2 - APP-MNT-02 — A fleet comparison that reverses when exposure is counted
 
@@ -1684,7 +1684,7 @@ The constructed fleet contains 48 pumps in two groups. One has fewer counted fai
 
 A proposed further comparison needs a question that the available population, time and access can answer. Its acquisition and interpretation burden belongs in the choice. “Collect more data” is not the automatic result of a limited causal account.
 
-<a id="app-mnt-03--individually-feasible-jobs-and-one-shared-specialist"></a>
+
 
 ## MNT.Application:3 - APP-MNT-03 — Individually feasible jobs and one shared specialist
 
@@ -1701,7 +1701,7 @@ When a shared fallback or isolation dependency joins the conflict, the compariso
 
 # Source Responsibility and References
 
-<a id="source-roles-and-scope-of-reliance"></a>
+
 
 ## MNT.Reference:1 - Source roles and scope of reliance
 

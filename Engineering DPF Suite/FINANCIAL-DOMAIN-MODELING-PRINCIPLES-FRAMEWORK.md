@@ -947,13 +947,13 @@ SIE supplies the general model connection. The relevant financial, operating or 
 
 Copyright © Anatoly Levenchuk. The original framework text and worked examples are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). The [licensing notice](https://github.com/ailev/FPF/blob/main/LICENSING.md) states the scope and attribution terms. Referenced third-party works retain their own terms.
 
-<a id="edition-record"></a>
+
 
 ## FDM.Reference:1 - Edition record
 
 **FDM 1.0** is the first edition of *Financial Domain Modeling Principles Framework*, containing FDM.1–FDM.5. Cite this edition with the pattern and section, for example **FDM 1.0, FDM.1:5**.
 
-<a id="source-locators"></a>
+
 
 ## FDM.Reference:2 - Source locators
 

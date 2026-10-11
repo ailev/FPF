@@ -25,8 +25,8 @@ Search the questions and keywords for the result you need. PSD numbers are stabl
 | [Readme — Problem Structuring and Decision Support](#readme--problem-structuring-and-decision-support) | Find a direct first result and an honest stop for the question at hand. |
 | [Citation](#citation) | Cite the framework or one pattern with its author, release date and publication address. |
 | [Preface](#preface) | Understand how to combine qualified results while each supplying practice remains responsible for its conclusions and the authorized chooser makes the decision. |
-| [PSD.Advising - Development-direction advising](#psd-advising-development-direction-advising) | Compose development-direction advice from qualified holder-specific results. |
-| [PSD.Opportunity - Construct a Bounded Development Opportunity](#psd-opportunity-construct-a-bounded-development-opportunity) | Construct a useful conditional opportunity before a result is settled, without requiring an adviser. |
+| [PSD.Advising - Development-direction advising](#development-direction-advising) | Compose development-direction advice from qualified holder-specific results. |
+| [PSD.Opportunity - Construct a Bounded Development Opportunity](#construct-a-bounded-development-opportunity) | Construct a useful conditional opportunity before a result is settled, without requiring an adviser. |
 | [PSD.Application - Cross-pattern applications](#cross-pattern-applications) | Follow the contested flood, development-direction and report handoff uses with their scope and source limits. |
 | [PSD.Reference - Framework boundary, sources and refresh](#framework-boundary-sources-and-refresh) | Find the covered problem families, external returns, source arguments and affected-refresh conditions. |
 | [Source responsibility and references](#psdreference5---source-responsibility-and-references) | Read the advising sources, their qualification dates and limits without a separate working file. |
@@ -35,38 +35,38 @@ Search the questions and keywords for the result you need. PSD numbers are stabl
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [PSD.1 - Bound the Decision-Support Engagement and Authority Boundary](#psd-1) | Candidate | engagement, authority, recipient. What advice is needed, for whom, and who makes the later choice? | FPF A.15.9, A.10, C.11; PSD.2–PSD.4 when participation, formulations or scope remain live. |
-| 2 | [PSD.2 - Recover Participants, Concerns, and Affected Systems for a Decision-Support Inquiry](#psd-2) | Candidate | participants, concerns, affected Systems. Whose consequential concern or absence could change the inquiry? | Uses the bounded PSD.1 question; FPF A.1.CSD for consequence-bearer discovery. |
-| 3 | [PSD.3 - Generate Plural Problem Formulations](#psd-3) | Candidate | plural formulations, framing, disagreement. Which different accounts imply different inquiries or interventions? | PSD.1 and PSD.2 when their results are needed; FPF C.17 and C.18 only for their direct objects. |
-| 4 | [PSD.4 - Set and Reopen the Problem Boundary](#psd-4) | Candidate | boundary, exclusions, scope, revision. What is the smallest usable cut, and what would reopen it? | An adequate formulation and bounded engagement; PSD.1–PSD.3 for their live questions; FPF A.2.6 for exact scope membership when required. |
+| 1 | [PSD.1 - Bound the Decision-Support Engagement and Authority Boundary](#psd1---bound-the-decision-support-engagement-and-authority-boundary) | Candidate | engagement, authority, recipient. What advice is needed, for whom, and who makes the later choice? | FPF A.15.9, A.10, C.11; PSD.2–PSD.4 when participation, formulations or scope remain live. |
+| 2 | [PSD.2 - Recover Participants, Concerns, and Affected Systems for a Decision-Support Inquiry](#psd2---recover-participants-concerns-and-affected-systems-for-a-decision-support-inquiry) | Candidate | participants, concerns, affected Systems. Whose consequential concern or absence could change the inquiry? | Uses the bounded PSD.1 question; FPF A.1.CSD for consequence-bearer discovery. |
+| 3 | [PSD.3 - Generate Plural Problem Formulations](#psd3---generate-plural-problem-formulations) | Candidate | plural formulations, framing, disagreement. Which different accounts imply different inquiries or interventions? | PSD.1 and PSD.2 when their results are needed; FPF C.17 and C.18 only for their direct objects. |
+| 4 | [PSD.4 - Set and Reopen the Problem Boundary](#psd4---set-and-reopen-the-problem-boundary) | Candidate | boundary, exclusions, scope, revision. What is the smallest usable cut, and what would reopen it? | An adequate formulation and bounded engagement; PSD.1–PSD.3 for their live questions; FPF A.2.6 for exact scope membership when required. |
 
 **Part II — Models, Methods and Facilitated Inquiry**
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 5 | [PSD.5 - Construct Complementary Situation and Option Models](#psd-5) | Candidate | complementary models, questions, assumptions, losses. Which model supports which claim, and where does the join fail? | Qualified inquiry inputs; FPF A.1.1, C.29 and A.10; PSD.6 or PSD.7 for their live questions. |
-| 6 | [PSD.6 - Select Problem-Structuring Methods and Combine Them When Needed](#psd-6) | Candidate | problem-structuring Methods, fit, combination. Which reusable way supplies the missing contribution under these conditions? | PSD.1; PSD.5 and PSD.7 when joined; FPF A.3.1, A.3.2 and B.1.5 for their exact claims. |
-| 7 | [PSD.7 - Facilitate Decision-Support Inquiry and Preserve Material Dissent](#psd-7) | Candidate | facilitation, attribution, meaning, dissent. What can participants recognize and what remains materially contested? | PSD.2–PSD.4 when live; FPF A.2.9; specialist truth and authority remain direct returns. |
+| 5 | [PSD.5 - Construct Complementary Situation and Option Models](#psd5---construct-complementary-situation-and-option-models) | Candidate | complementary models, questions, assumptions, losses. Which model supports which claim, and where does the join fail? | Qualified inquiry inputs; FPF A.1.1, C.29 and A.10; PSD.6 or PSD.7 for their live questions. |
+| 6 | [PSD.6 - Select Problem-Structuring Methods and Combine Them When Needed](#psd6---select-problem-structuring-methods-and-combine-them-when-needed) | Candidate | problem-structuring Methods, fit, combination. Which reusable way supplies the missing contribution under these conditions? | PSD.1; PSD.5 and PSD.7 when joined; FPF A.3.1, A.3.2 and B.1.5 for their exact claims. |
+| 7 | [PSD.7 - Facilitate Decision-Support Inquiry and Preserve Material Dissent](#psd7---facilitate-decision-support-inquiry-and-preserve-material-dissent) | Candidate | facilitation, attribution, meaning, dissent. What can participants recognize and what remains materially contested? | PSD.2–PSD.4 when live; FPF A.2.9; specialist truth and authority remain direct returns. |
 
 **Part III — Alternatives, Values, Uncertainty, Consequences and Robustness**
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 8 | [PSD.8 - Generate Decision Alternatives](#psd-8) | Candidate | alternatives, mechanisms, staged directions. Which live candidate differs materially from the incumbent? | Bounded engagement and formulation inputs; FPF C.17, C.18 and C.38 only when their results are needed. |
-| 9 | [PSD.9 - Represent Values and Trade-Offs](#psd-9) | Stable | values, objectives, trade-offs, compensation. Which distinctions matter, and what must a score not compensate away? | PSD.8 and PSD.11 inputs where needed; FPF A.19 and C.16 for applicable space or measurement claims. |
-| 10 | [PSD.10 - Represent Decision-Relevant Uncertainty and Evidence Limits](#psd-10) | Candidate | uncertainty, evidence, scenarios, information. Which unknown can change eligibility, comparison or the current return? | Uses actual candidate and consequence questions; FPF A.10 for reliance and C.11 for later probe choice. |
-| 11 | [PSD.11 - Compare Consequences of Decision Alternatives](#psd-11) | Candidate | consequences, interactions, partial comparison. What follows under the stated configuration, and what comparison is warranted? | Qualified PSD.8–PSD.10 inputs; FPF C.11.CRC and A.19.CPM for their direct comparison contributions. |
-| 12 | [PSD.12 - Test Robustness and Sensitivity of Decision Alternatives and Their Comparison](#psd-12) | Candidate | robustness, sensitivity, reversals, information value. Under which justified conditions does the result hold or reverse? | Qualified comparison inputs; PSD.10 for unresolved evidence; FPF C.11 for an actual probe choice. |
+| 8 | [PSD.8 - Generate Decision Alternatives](#psd8---generate-decision-alternatives) | Candidate | alternatives, mechanisms, staged directions. Which live candidate differs materially from the incumbent? | Bounded engagement and formulation inputs; FPF C.17, C.18 and C.38 only when their results are needed. |
+| 9 | [PSD.9 - Represent Values and Trade-Offs](#psd9---represent-values-and-trade-offs) | Stable | values, objectives, trade-offs, compensation. Which distinctions matter, and what must a score not compensate away? | PSD.8 and PSD.11 inputs where needed; FPF A.19 and C.16 for applicable space or measurement claims. |
+| 10 | [PSD.10 - Represent Decision-Relevant Uncertainty and Evidence Limits](#psd10---represent-decision-relevant-uncertainty-and-evidence-limits) | Candidate | uncertainty, evidence, scenarios, information. Which unknown can change eligibility, comparison or the current return? | Uses actual candidate and consequence questions; FPF A.10 for reliance and C.11 for later probe choice. |
+| 11 | [PSD.11 - Compare Consequences of Decision Alternatives](#psd11---compare-consequences-of-decision-alternatives) | Candidate | consequences, interactions, partial comparison. What follows under the stated configuration, and what comparison is warranted? | Qualified PSD.8–PSD.10 inputs; FPF C.11.CRC and A.19.CPM for their direct comparison contributions. |
+| 12 | [PSD.12 - Test Robustness and Sensitivity of Decision Alternatives and Their Comparison](#psd12---test-robustness-and-sensitivity-of-decision-alternatives-and-their-comparison) | Candidate | robustness, sensitivity, reversals, information value. Under which justified conditions does the result hold or reverse? | Qualified comparison inputs; PSD.10 for unresolved evidence; FPF C.11 for an actual probe choice. |
 
 **Part IV — Recommendation, Follow-up and the Development of Practice**
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 13 | [PSD.13 - Prepare and Return a Decision-Support Recommendation](#psd-13) | Candidate | recommendation, retained set, request, blocker, abstention. What can responsibly be returned now without taking the choice? | PSD.1 and the qualified contributing PSD.8–PSD.12 results; FPF A.15.9, A.10 and C.11. |
-| 14 | [PSD.14 - Arrange Decision Follow-up or Reassess Advice After a Change](#psd-14) | Candidate | follow-up, observation, interpretation, change. Which relied-on premise changed, and which advice must be reconsidered? | PSD.13 when recommendation follow-up is live; FPF A.10 for one known reliance; A.10.1 when a changed source requires discovering and revalidating several uses; G.11 for currentness; direct subject or service guidance for its own question. |
-| 15 | [PSD.15 - Decide Whether and How to Change Problem-Structuring and Decision-Support Methods](#psd-15) | Candidate | Method repertoire, fit, evidence, source refresh. Which offering should be retained, changed, tested or retired? | PSD.6 and actual follow-up evidence; direct Method-engineering and evidence results when required. |
-| 16 | [PSD.16 - Reconcile Simultaneous Problem-Structuring and Decision-Support Work](#psd-16) | Candidate | simultaneous inquiry, coupling, interference, facilitation. Which arrangement preserves a threatened result at acceptable burden? | PSD.5–PSD.7 where their contributions interact; FPF C.32.MWA for needed several-structure synthesis. |
-| 17 | [PSD.17 - Deliberately Continue and Change Problem-Structuring and Decision-Support Culture](#psd-17) | Candidate | cultural continuation, interpretation, retention, mediation. What changes across practitioners beyond publication or local performance? | PSD.15 and PSD.16 when current; FPF C.20 and C.36 for their direct cultural claims. |
+| 13 | [PSD.13 - Prepare and Return a Decision-Support Recommendation](#psd13---prepare-and-return-a-decision-support-recommendation) | Candidate | recommendation, retained set, request, blocker, abstention. What can responsibly be returned now without taking the choice? | PSD.1 and the qualified contributing PSD.8–PSD.12 results; FPF A.15.9, A.10 and C.11. |
+| 14 | [PSD.14 - Arrange Decision Follow-up or Reassess Advice After a Change](#psd14---arrange-decision-follow-up-or-reassess-advice-after-a-change) | Candidate | follow-up, observation, interpretation, change. Which relied-on premise changed, and which advice must be reconsidered? | PSD.13 when recommendation follow-up is live; FPF A.10 for one known reliance; A.10.1 when a changed source requires discovering and revalidating several uses; G.11 for currentness; direct subject or service guidance for its own question. |
+| 15 | [PSD.15 - Decide Whether and How to Change Problem-Structuring and Decision-Support Methods](#psd15---decide-whether-and-how-to-change-problem-structuring-and-decision-support-methods) | Candidate | Method repertoire, fit, evidence, source refresh. Which offering should be retained, changed, tested or retired? | PSD.6 and actual follow-up evidence; direct Method-engineering and evidence results when required. |
+| 16 | [PSD.16 - Reconcile Simultaneous Problem-Structuring and Decision-Support Work](#psd16---reconcile-simultaneous-problem-structuring-and-decision-support-work) | Candidate | simultaneous inquiry, coupling, interference, facilitation. Which arrangement preserves a threatened result at acceptable burden? | PSD.5–PSD.7 where their contributions interact; FPF C.32.MWA for needed several-structure synthesis. |
+| 17 | [PSD.17 - Deliberately Continue and Change Problem-Structuring and Decision-Support Culture](#psd17---deliberately-continue-and-change-problem-structuring-and-decision-support-culture) | Candidate | cultural continuation, interpretation, retention, mediation. What changes across practitioners beyond publication or local performance? | PSD.15 and PSD.16 when current; FPF C.20 and C.36 for their direct cultural claims. |
 
 # Readme — Problem Structuring and Decision Support
 
@@ -74,14 +74,14 @@ Search the questions and keywords for the result you need. PSD numbers are stabl
 
 Bring the question that is blocking useful work. The examples below show how an inquiry result changes the next comparison or recommendation, and how a changed premise can send that use back. They are not a catalogue or a required sequence. Use the pattern index or search when another question is live; an adequate direct result can finish the task. The [Preface](#preface) and its [Architectural Rationale](#psdpreface6---architectural-rationale) explain how the contributions fit together. You can ask an assisting agent: “Explain this and give me your comments in ordinary language, without framework jargon.”
 
-If the useful future contribution itself is still unclear, enter [Construct a Bounded Development Opportunity](#psdopportunity1---use-this-when) directly. You can construct an opportunity and stop at its next question without appointing an adviser. When a distinct performer must recommend a development direction to a recipient, use the [advising profile](#psd-advising-development-direction-advising) or the second example below.
+If the useful future contribution itself is still unclear, enter [Construct a Bounded Development Opportunity](#psdopportunity1---use-this-when) directly. You can construct an opportunity and stop at its next question without appointing an adviser. When a distinct performer must recommend a development direction to a recipient, use the [advising profile](#development-direction-advising) or the second example below.
 
 ### PSD-CARD-01 — Turn a contested situation into a usable recommendation
 
 - **Situation:** A municipal committee needs advice on a pre-season pumping arrangement. Operations staff emphasize capacity, residents raise unequal protection, and responders question safe access and deployment.
 - **Question:** What can the inquiry recommend while preserving those differences and the committee's investment authority?
 - **First useful result or blocker:** Attributed formulations and a usable inquiry boundary; then a conditional comparison whose omissions remain visible in the recommendation.
-- **Start with:** [PSD.1](#psd-1) for the receiving question and authority boundary. If these are adequate, enter at the missing participation, formulation, model or comparison result.
+- **Start with:** [PSD.1](#psd1---bound-the-decision-support-engagement-and-authority-boundary) for the receiving question and authority boundary. If these are adequate, enter at the missing participation, formulation, model or comparison result.
 - **Stop or return:** Return the supported advice or its limitation through `PSD.13`. Reopen the dependent model, alternative, scope or recommendation when a material concern or premise changes. The committee retains the later choice.
 
 The constructed [flood-pump application](#psdapplication1---app-psd-01--a-flood-pump-calculation-is-not-the-whole-investment-answer) begins with an independent inquiry team preparing a return for the committee. `PSD.2` discovers affected people and concerns beyond those able to attend. `PSD.3` preserves different formulations: insufficient capacity, unequal protection, fragile maintenance and unsafe deployment. Their consequences inform the `PSD.4` boundary: compare the pre-season pumping arrangements while keeping material downstream effects and mobility constraints visible. Long-term relocation remains outside this inquiry.
@@ -106,7 +106,7 @@ Suppose the committee authorizes a study, and a qualified source then establishe
 - **Situation:** A separate advisory team must recommend a ninety-day reliability direction for a service organization: internal development, an external provider or a mixed human–AI arrangement.
 - **Question:** Which direction or information-gaining step do the available premises support, and which claims remain conditional?
 - **First useful result or blocker:** A retained set with its comparison limit, or a supported direction or bounded probe recommendation when the missing premises become available.
-- **Start with:** `PSD.1` for the engagement; then use `PSD.8`–`PSD.13` at the first missing result. The [profile](#psd-advising-development-direction-advising) and [development-direction application](#psdapplication2---app-psd-02--development-direction-advice-with-unlike-holder-premises) supply the connected account and its other holder cases.
+- **Start with:** `PSD.1` for the engagement; then use `PSD.8`–`PSD.13` at the first missing result. The [profile](#development-direction-advising) and [development-direction application](#psdapplication2---app-psd-02--development-direction-advice-with-unlike-holder-premises) supply the connected account and its other holder cases.
 - **Stop or return:** Give the supported advice with its material limits. Use `PSD.14` for a real changed-premise or follow-up question, preserving independent claims. The authorized chooser decides whether to commit or probe.
 
 In the constructed organization case, the committee has the stated mandate, and the advisory service's competence, confidentiality and conflict conditions are met. Reliability takes priority over throughput; security, critical-service continuity and a bounded probe budget are protected. The operating account identifies the recovery contribution, an interface account describes the current arrangement, and a priority statement supplies the receiving value. These inputs help define the `PSD.8` alternatives, but none compares all three whole arrangements.
@@ -124,7 +124,7 @@ The human branch makes a different missing premise visible. An engineer consider
 - **Situation:** Weekly reports arrive on time, yet the planner must telephone colleagues to recover identifiers before using them.
 - **Question:** Is the difficulty incomplete information, incompatible identifiers, an unsuitable deadline, or a misleading record?
 - **First useful result or blocker:** Distinct formulations with an observation that could separate them, or the exact missing fact that prevents stating what is wrong.
-- **Start with:** [PSD.3](#psd-3) to compare the formulations. If the discrepancy is already understood and only a recording correction is needed, make that correction through the responsible practice.
+- **Start with:** [PSD.3](#psd3---generate-plural-problem-formulations) to compare the formulations. If the discrepancy is already understood and only a recording correction is needed, make that correction through the responsible practice.
 - **Stop or return:** Stop when the formulation and available facts suffice for the current question. Open a causal-model question only when different explanations change the next useful action; return to the formulation if a check changes what was actually wrong.
 
 The [report-handoff application](#psdapplication3---app-psd-03--an-on-time-report-that-cannot-yet-be-used) follows that conditional continuation: causal alternatives can inform a bounded answer, while missing evidence, a recipient's objection or later observations can change it. A diagnostic check, temporary operational help and research answer different questions and may occur at the same time.
@@ -164,13 +164,13 @@ Other questions are already sufficiently formed. They can enter directly at a mi
 
 Problem structuring makes a difficult situation investigable. It can change which question is worth answering, whose consequences are considered, what counts as the problem and which interventions become plausible. Decision support uses suitably qualified formulations, alternatives, value accounts and evidence to help a receiving decision. A problem formulation can be a complete useful return before a recommendation is possible; a well-formed question can also enter comparison directly.
 
-[PSD.1](#psd-1) establishes the receiving use when that use is unclear. [PSD.2](#psd-2) supplies attributed concerns and participation limits, while [PSD.3](#psd-3) shows how rival formulations change evidence needs, boundaries and possible responses. [PSD.4](#psd-4) uses the needed engagement and participation results directly, alongside the formulations, to choose a usable inquiry boundary. A formulation alone cannot establish who receives the result or whether an affected person's concern has been represented adequately.
+[PSD.1](#psd1---bound-the-decision-support-engagement-and-authority-boundary) establishes the receiving use when that use is unclear. [PSD.2](#psd2---recover-participants-concerns-and-affected-systems-for-a-decision-support-inquiry) supplies attributed concerns and participation limits, while [PSD.3](#psd3---generate-plural-problem-formulations) shows how rival formulations change evidence needs, boundaries and possible responses. [PSD.4](#psd4---set-and-reopen-the-problem-boundary) uses the needed engagement and participation results directly, alongside the formulations, to choose a usable inquiry boundary. A formulation alone cannot establish who receives the result or whether an affected person's concern has been represented adequately.
 
-Within that boundary, a model can answer one question and expose another. [PSD.5](#psd-5) makes the contributions and limits of complementary models usable. [PSD.6](#psd-6) compares the ways of obtaining the needed results and qualifies any combination. [PSD.7](#psd-7) helps participants examine the developing meanings and return shared and contested claims. A corrected concern can therefore change a model or reopen the boundary while independent analysis continues. [PSD.16](#psd-16) becomes useful when the actual interaction between these activities threatens their results.
+Within that boundary, a model can answer one question and expose another. [PSD.5](#psd5---construct-complementary-situation-and-option-models) makes the contributions and limits of complementary models usable. [PSD.6](#psd6---select-problem-structuring-methods-and-combine-them-when-needed) compares the ways of obtaining the needed results and qualifies any combination. [PSD.7](#psd7---facilitate-decision-support-inquiry-and-preserve-material-dissent) helps participants examine the developing meanings and return shared and contested claims. A corrected concern can therefore change a model or reopen the boundary while independent analysis continues. [PSD.16](#psd16---reconcile-simultaneous-problem-structuring-and-decision-support-work) becomes useful when the actual interaction between these activities threatens their results.
 
-Formulations and models inform the alternative construction in [PSD.8](#psd-8). A consequential difference may then need a value account from [PSD.9](#psd-9), an uncertainty account from [PSD.10](#psd-10), a consequence comparison from [PSD.11](#psd-11), or the conditions under which a comparison holds or reverses from [PSD.12](#psd-12). Obtain only the result that is missing. For example, a sensitivity result can expose a missing road-access premise without requiring another round of alternative generation. A new service concern that the option set cannot address gives a reason to revisit that set or its formulation.
+Formulations and models inform the alternative construction in [PSD.8](#psd8---generate-decision-alternatives). A consequential difference may then need a value account from [PSD.9](#psd9---represent-values-and-trade-offs), an uncertainty account from [PSD.10](#psd10---represent-decision-relevant-uncertainty-and-evidence-limits), a consequence comparison from [PSD.11](#psd11---compare-consequences-of-decision-alternatives), or the conditions under which a comparison holds or reverses from [PSD.12](#psd12---test-robustness-and-sensitivity-of-decision-alternatives-and-their-comparison). Obtain only the result that is missing. For example, a sensitivity result can expose a missing road-access premise without requiring another round of alternative generation. A new service concern that the option set cannot address gives a reason to revisit that set or its formulation.
 
-[PSD.13](#psd-13) connects the qualified inputs to what the recipient can use now: a direction, a retained set, a conditional comparison, a probe, a request or an abstention with its reason. [PSD.14](#psd-14) connects a material later observation to the advice it can change when follow-up is needed. Neither relation requires performing all preceding patterns. The full [flood-pump application](#psdapplication1---app-psd-01--a-flood-pump-calculation-is-not-the-whole-investment-answer) shows the connections, including a useful first engagement question and a later whole-investment blocker.
+[PSD.13](#psd13---prepare-and-return-a-decision-support-recommendation) connects the qualified inputs to what the recipient can use now: a direction, a retained set, a conditional comparison, a probe, a request or an abstention with its reason. [PSD.14](#psd14---arrange-decision-follow-up-or-reassess-advice-after-a-change) connects a material later observation to the advice it can change when follow-up is needed. Neither relation requires performing all preceding patterns. The full [flood-pump application](#psdapplication1---app-psd-01--a-flood-pump-calculation-is-not-the-whole-investment-answer) shows the connections, including a useful first engagement question and a later whole-investment blocker.
 
 ## PSD.Preface:3 - Keep unlike contributions distinct
 
@@ -201,9 +201,9 @@ The common practical tension is between obtaining a timely usable answer and pre
 
 Useful inquiry does not require certainty about everything. It requires knowing what the present answer covers, what it leaves open and what could change it. A partial comparison, a retained pair of alternatives, a narrowly qualified recommendation or an exact request can complete the current question.
 
-Keep protected conditions outside a compensating score when their governing source requires that protection. If the requirement's justification is in question, use [PSD.9 §4.4](#psd-9) and C.11.DUA: compare its protective contribution with its full burden. State separately what change is justified, whether the requirement remains in force, and how it could be amended.
+Keep protected conditions outside a compensating score when their governing source requires that protection. If the requirement's justification is in question, use [PSD.9 §4.4](#psd9---represent-values-and-trade-offs) and C.11.DUA: compare its protective contribution with its full burden. State separately what change is justified, whether the requirement remains in force, and how it could be amended.
 
-If plausible variation in the estimates or value judgements used by a comparison or recommendation could change its conclusion, test that variation at proportionate effort through [PSD.12](#psd-12). Report whether and under what conditions the conclusion changes. When the response at a central input can hide a consequential nonlinear difference, PSD.12 section 4.3.1 supplies a small paired-response check. Its constructed equal weights are not actual event probabilities. State when a weight or probability is assumed. A missing premise should block only the claims that need it; independent content can remain useful.
+If plausible variation in the estimates or value judgements used by a comparison or recommendation could change its conclusion, test that variation at proportionate effort through [PSD.12](#psd12---test-robustness-and-sensitivity-of-decision-alternatives-and-their-comparison). Report whether and under what conditions the conclusion changes. When the response at a central input can hide a consequential nonlinear difference, PSD.12 section 4.3.1 supplies a small paired-response check. Its constructed equal weights are not actual event probabilities. State when a weight or probability is assumed. A missing premise should block only the claims that need it; independent content can remain useful.
 
 A recommendation belongs to the advising activity. Prepare it for the recipient's intended use; leave the later choice and any authorization to the actors entitled to make them. Plans, performed work and observed effects need their own basis. This separation protects the recipient's agency and makes a later change intelligible: the new evidence may narrow advice without rewriting what was previously chosen or done.
 
@@ -227,7 +227,7 @@ The scope also includes improving and continuing this practice. A better way to 
 ### PSD.Preface:6.1 - The development-direction profile and neighboring results
 
 
-The [development-direction advising profile](#psd-advising-development-direction-advising) is a bounded use of the shared PSD contributions. Its difference is consequential: advice concerns a developing subject whose capability, support configuration, horizon and professional relationship can change what is supportable. A sponsor may differ from the person whose private assessment matters; human transfer evidence differs from an organization's arrangement comparison and from an AI configuration's evaluation. The profile's [guidance on evidence about the developing subject](#psdadvising4---recover-only-the-relevant-holder-premises), [comparison guidance](#psdadvising7---compare-for-this-receiving-use), [worked uses](#psdadvising11---worked-uses-and-stopping-points), and [recognition and assurance account](#psdadvising12---recognition-assurance-and-practical-gain) supply those narrower answers. Its professional source account retains the actual service boundaries; they do not become entry requirements for every PSD inquiry.
+The [development-direction advising profile](#development-direction-advising) is a bounded use of the shared PSD contributions. Its difference is consequential: advice concerns a developing subject whose capability, support configuration, horizon and professional relationship can change what is supportable. A sponsor may differ from the person whose private assessment matters; human transfer evidence differs from an organization's arrangement comparison and from an AI configuration's evaluation. The profile's [guidance on evidence about the developing subject](#psdadvising4---recover-only-the-relevant-holder-premises), [comparison guidance](#psdadvising7---compare-for-this-receiving-use), [worked uses](#psdadvising11---worked-uses-and-stopping-points), and [recognition and assurance account](#psdadvising12---recognition-assurance-and-practical-gain) supply those narrower answers. Its professional source account retains the actual service boundaries; they do not become entry requirements for every PSD inquiry.
 
 The independently published [Development Opportunity Construction and Development-Direction Advising framework](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md) offers directly addressed contributions when the missing result concerns development opportunities themselves. DOCA.3 constructs a worthwhile receiving problem and proposed contribution; DOCA.5 checks whether a development direction and its required supports can be achieved together; DOCA.7 bounds the distinct advising relationship. A qualified opportunity can enter PSD.8, and a bounded service can use the needed PSD comparison or recommendation. Use PSD.3 to examine a contested problem formulation. Use the contribution that is missing; a formed PSD question with adequate inputs needs no preceding DOCA traversal. The complete opportunity MethodDescription and advising profile included here retain their narrative uses.
 
@@ -276,7 +276,7 @@ These questions address failures shown in the applications: one service phrase h
 
 A corrected concern, altered access condition or new model configuration can change the current result. Identify the claims that depend on the change and ask the responsible practitioner to reconsider them. Obtain and interpret the relevant observation before choosing a response; the mere arrival of a notice is not evidence that the new configuration is safe or effective.
 
-A different problem concerns how inquiry itself is conducted. Use [PSD.15](#psd-15) when the professional repertoire needs a justified change, [PSD.16](#psd-16) when simultaneous inquiry activities interfere, and [PSD.17](#psd-17) when a practice must be continued or changed across practitioners. These are conditional uses, not a required tail on every recommendation.
+A different problem concerns how inquiry itself is conducted. Use [PSD.15](#psd15---decide-whether-and-how-to-change-problem-structuring-and-decision-support-methods) when the professional repertoire needs a justified change, [PSD.16](#psd16---reconcile-simultaneous-problem-structuring-and-decision-support-work) when simultaneous inquiry activities interfere, and [PSD.17](#psd17---deliberately-continue-and-change-problem-structuring-and-decision-support-culture) when a practice must be continued or changed across practitioners. These are conditional uses, not a required tail on every recommendation.
 
 Contemporary source comparisons belong with the pattern claims they support. Earlier traditions remain valuable where their limits are understood. Neither a fashionable school nor an old success is enough to establish the present Method's fit. What changes in practice is the reader's ability to return a useful answer with visible limits—and to change that answer, or the way of obtaining it, when the actual basis changes.
 
@@ -285,7 +285,7 @@ Contemporary source comparisons belong with the pattern claims they support. Ear
 
 # Part I — Engagement, Participation, Formulation and Boundary
 
-<a id="psd-1"></a>
+
 ## PSD.1 - Bound the Decision-Support Engagement and Authority Boundary
 
 > **Type:** DPF pattern body
@@ -518,7 +518,7 @@ Generic FPF patterns already govern outside-practice results, evidence, permissi
 ### PSD.1:End
 
 
-<a id="psd-2"></a>
+
 ## PSD.2 - Recover Participants, Concerns, and Affected Systems for a Decision-Support Inquiry
 
 > **Type:** DPF pattern body
@@ -718,7 +718,7 @@ Problem structuring needs more than generic affected-System discovery and more t
 ### PSD.2:End
 
 
-<a id="psd-3"></a>
+
 ## PSD.3 - Generate Plural Problem Formulations
 
 > **Type:** DPF pattern body
@@ -911,7 +911,7 @@ Problem formulation is a field-specific generative move: it connects contested d
 ### PSD.3:End
 
 
-<a id="psd-4"></a>
+
 ## PSD.4 - Set and Reopen the Problem Boundary
 
 > **Type:** DPF pattern body
@@ -1131,7 +1131,7 @@ Problem boundaries are practical framing commitments. A discovered perimeter or 
 
 # Part II — Models, Methods and Facilitated Inquiry
 
-<a id="psd-5"></a>
+
 ## PSD.5 - Construct Complementary Situation and Option Models
 
 > **Type:** DPF pattern body
@@ -1193,7 +1193,7 @@ Select the smallest set that covers the material questions. A qualitative model 
 
 A concern map can already complete the task of making participants' concerns discussable. When another material question asks what causes an outcome or what an intervention would change, use an adequate causal model directly. If the causal relations still need to be constructed or compared, `C.28.CM` helps turn the relevant subject knowledge and mechanism accounts into explicit models for that question. Return their assumptions, conditional consequences and unresolved alternatives to the combined account. Keep each existing model for the question it can answer; the constructed causal model still needs the claim-specific assurance in :4.5.
 
-When the question concerns participants' intentions, their dependence on one another and possible alternatives, the Reference's [goals-and-dependencies walkthrough](ENGINEERING-DPF-SUITE-REFERENCE.md#explore-a-situation-through-goals-and-dependencies) develops an actors-and-goals model from a service difficulty. It explains how to select what a view reveals, turn a question into analysis assumptions, interpret the answer and return to an omitted assignment when the result exposes a conflict. Use that connected account when these joins need explanation; a sufficient existing model can be used directly.
+When the question concerns participants' intentions, their dependence on one another and possible alternatives, the Reference's [goals-and-dependencies walkthrough](ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference20---explore-a-situation-through-goals-and-dependencies) develops an actors-and-goals model from a service difficulty. It explains how to select what a view reveals, turn a question into analysis assumptions, interpret the answer and return to an omitted assignment when the result exposes a conflict. Use that connected account when these joins need explanation; a sufficient existing model can be used directly.
 
 #### PSD.5:4.3 - Make each model's use intelligible
 
@@ -1325,7 +1325,7 @@ Complementarity is a relation between useful contributions to a question, not a 
 ### PSD.5:End
 
 
-<a id="psd-6"></a>
+
 ## PSD.6 - Select Problem-Structuring Methods and Combine Them When Needed
 
 > **Type:** DPF pattern body
@@ -1527,7 +1527,7 @@ Method fit is relational: it depends on what the engagement needs and what its c
 ### PSD.6:End
 
 
-<a id="psd-7"></a>
+
 ## PSD.7 - Facilitate Decision-Support Inquiry and Preserve Material Dissent
 
 > **Type:** DPF pattern body
@@ -1719,7 +1719,7 @@ Facilitation helps people make claims and differences inspectable; it does not m
 
 # Part III — Alternatives, Values, Uncertainty, Consequences and Robustness
 
-<a id="psd-8"></a>
+
 ## PSD.8 - Generate Decision Alternatives
 
 > **Type:** DPF pattern body
@@ -1892,7 +1892,7 @@ Structured inquiry becomes useful to choice when its differences change what can
 ### PSD.8:End
 
 
-<a id="psd-9"></a>
+
 ## PSD.9 - Represent Values and Trade-Offs
 
 > **Type:** DPF pattern body
@@ -2181,7 +2181,7 @@ Value representation makes consequences decision-relevant without confusing desc
 ### PSD.9:End
 
 
-<a id="psd-10"></a>
+
 ## PSD.10 - Represent Decision-Relevant Uncertainty and Evidence Limits
 
 > **Type:** DPF pattern body
@@ -2378,7 +2378,7 @@ Uncertainty matters through its effect on a decision claim, not through its size
 ### PSD.10:End
 
 
-<a id="psd-11"></a>
+
 ## PSD.11 - Compare Consequences of Decision Alternatives
 
 > **Type:** DPF pattern body
@@ -2449,7 +2449,7 @@ Use this branch when the important consequences are understandable in ordinary t
 
 Use ordinary prose categories appropriate to the subject. If a named language or solver is used, declare its version, propagation rules, treatment of unknown and conflicting evidence, and structural restrictions. A solver's satisfying assignment is a model result, not a commitment by participants or evidence that the arrangement will work.
 
-For an inquiry that also needs to construct and question the underlying actors-and-goals model, the Reference's [goals-and-dependencies walkthrough](ENGINEERING-DPF-SUITE-REFERENCE.md#explore-a-situation-through-goals-and-dependencies) connects this branch to the inquiry's purpose, model views, explicit initial assumptions and a return from unexpected results to new source questions. It follows a staffing conflict through a revised allocation and its limited use. The present branch supplies the consequence analysis within that larger inquiry.
+For an inquiry that also needs to construct and question the underlying actors-and-goals model, the Reference's [goals-and-dependencies walkthrough](ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference20---explore-a-situation-through-goals-and-dependencies) connects this branch to the inquiry's purpose, model views, explicit initial assumptions and a return from unexpected results to new source questions. It follows a staffing conflict through a revised allocation and its limited use. The present branch supplies the consequence analysis within that larger inquiry.
 
 #### PSD.11:4.3 - Construct a consequence account before aggregating
 
@@ -2617,7 +2617,7 @@ A consequence comparison connects proposed actions to values through qualified c
 ### PSD.11:End
 
 
-<a id="psd-12"></a>
+
 ## PSD.12 - Test Robustness and Sensitivity of Decision Alternatives and Their Comparison
 
 > **Type:** DPF pattern body
@@ -2854,7 +2854,7 @@ A decision-support result is strengthened by exposing its reversal conditions, n
 
 # Part IV — Recommendation, Follow-up and the Development of Practice
 
-<a id="psd-13"></a>
+
 ## PSD.13 - Prepare and Return a Decision-Support Recommendation
 
 > **Type:** Method pattern (DPF)
@@ -3082,7 +3082,7 @@ The practice question is **how to return useful advice from qualified analysis w
 ### PSD.13:End
 
 
-<a id="psd-14"></a>
+
 ## PSD.14 - Arrange Decision Follow-up or Reassess Advice After a Change
 
 > **Type:** Method pattern (DPF)
@@ -3339,7 +3339,7 @@ The practice question is **how to keep decision support useful under change with
 ### PSD.14:End
 
 
-<a id="psd-15"></a>
+
 ## PSD.15 - Decide Whether and How to Change Problem-Structuring and Decision-Support Methods
 
 > **Type:** Method pattern (DPF)
@@ -3628,7 +3628,7 @@ The practice question is **how to develop a usable professional repertoire under
 ### PSD.15:End
 
 
-<a id="psd-16"></a>
+
 ## PSD.16 - Reconcile Simultaneous Problem-Structuring and Decision-Support Work
 
 > **Type:** Method pattern (DPF)
@@ -3872,7 +3872,7 @@ These comparisons support bounded moves, not a universal workshop design or evid
 ### PSD.16:End
 
 
-<a id="psd-17"></a>
+
 ## PSD.17 - Deliberately Continue and Change Problem-Structuring and Decision-Support Culture
 
 > **Type:** Method pattern (DPF)
@@ -4199,16 +4199,16 @@ The working question is **how to continue useful decision-support judgement acro
 ### PSD.17:End
 
 
-<a id="psd-advising-development-direction-advising"></a>
+
 # Development-direction advising
 
 > **Publication use:** a practice-use profile of the Problem Structuring and Decision Support DPF.
 >
 > **Practical result:** a development-direction recommendation with its sources and limits, or a statement of what is still needed to prepare one.
 
-<a id="use-this-when"></a>
 
-<a id="psd-advising-use-this-when"></a>
+
+
 ## PSD.Advising:1 - Use this when
 
 Use this profile when a person, organization or AI arrangement is considering what to develop next, a distinct recommending performer must help a named recipient, and the answer depends on several qualified practices. The recipient needs a useful direction, retained set, probe, request, blocker or abstention for a stated horizon. They do not need to be in a dispute.
@@ -4221,11 +4221,11 @@ The smallest useful result may be two sentences: “The available comparison cov
 
 Do not invent this engagement when a chooser already has adequate alternatives and needs only their own decision rule, or when one qualified domain Method answers the whole question. Use the direct domain or C.11 guidance. A non-cultural population or lineage without a population-local recipient or chooser belongs to its evolutionary account; a separately authorized researcher considering an intervention is a different case.
 
-When the recipient asks which programme to design for future participants, begin with [PSD.1](#psd-1) and obtain the needed learning-product design result. Keep the audience description as a design assumption. For personal advice, identify the prospective participant and use the premises about that person's later work, starting performance and support that bear the answer. Missing premises limit the advice; obtain more only when their contribution warrants acquisition. The [programme-design case](ENGINEERING-DPF-SUITE-REFERENCE.md#recommend-a-programme-before-the-learners-are-known) shows the two uses.
+When the recipient asks which programme to design for future participants, begin with [PSD.1](#psd1---bound-the-decision-support-engagement-and-authority-boundary) and obtain the needed learning-product design result. Keep the audience description as a design assumption. For personal advice, identify the prospective participant and use the premises about that person's later work, starting performance and support that bear the answer. Missing premises limit the advice; obtain more only when their contribution warrants acquisition. The [programme-design case](ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference112---recommend-a-programme-before-the-learners-are-known) shows the two uses.
 
-<a id="enter-at-the-missing-result"></a>
 
-<a id="psd-advising-enter-at-the-missing-result"></a>
+
+
 ## PSD.Advising:2 - Enter at the missing result
 
 The entries below are alternatives, not a work order. An adequate result can be reused; a material change can reopen one contribution without reopening the rest.
@@ -4242,14 +4242,14 @@ The entries below are alternatives, not a work order. An adequate result can be 
 
 A qualified opportunity supplies a candidate basis to PSD.8; PSD.9–PSD.12 supply comparison premises to PSD.13; PSD.14 handles an actual follow-up question. Each dependency applies only to the same relevant holder, configuration, use and horizon. Neither these links nor their order establishes performed Work, a composite Method, dispatch or authority.
 
-<a id="bound-the-advising-engagement"></a>
 
-<a id="psd-advising-bound-the-advising-engagement"></a>
+
+
 ## PSD.Advising:3 - Bound the advising engagement
 
 Write the question in ordinary terms: “For this recipient, what development direction should this holder consider within this horizon, and for what later use?” Identify the recommending performer separately from the recipient at the grain of this application. The recipient may also be the choice owner when that authority is established. Calling one self-advisory actor by two role names does not establish the distinct-performer relation.
 
-Use [PSD.1](#psd-1) for the engagement question and authority boundary. Distinguish client, sponsor, developing holder, recommendation recipient and chooser only where the difference changes the advice, disclosure, protection or decision. An employer paying for a person's career service does not thereby become the recipient of every personal assessment; a sponsor preferring a provider does not settle the committee's choice.
+Use [PSD.1](#psd1---bound-the-decision-support-engagement-and-authority-boundary) for the engagement question and authority boundary. Distinguish client, sponsor, developing holder, recommendation recipient and chooser only where the difference changes the advice, disclosure, protection or decision. An employer paying for a person's career service does not thereby become the recipient of every personal assessment; a sponsor preferring a provider does not settle the committee's choice.
 
 Before positive advice, establish the applicable service scope, competence, conflicts, confidentiality, permitted reliance and referral or closure conditions. These are professional relationship questions in addition to generic permission. The [ICMCI competence framework v4.0, C.1.1–2, C.2.1 and E.3.5](https://www.cmc-global.org/sites/default/files/public/icmci_cmc002_competence_framework_version_4.0_1.pdf) supports agreed engagement content, client involvement and disclosure of material interests in management consulting. It does not authorize every adviser or prove that advice works.
 
@@ -4261,9 +4261,9 @@ Return the missing mandate, competence, conflict treatment, consent or admissibi
 
 Do not require participant mapping, facilitation or a contested-situation workshop merely to admit a formed question. Open PSD.2–PSD.7 only when a participant, boundary, formulation, model, Method choice or disagreement can change this result.
 
-<a id="recover-only-the-relevant-holder-premises"></a>
 
-<a id="psd-advising-recover-only-the-relevant-holder-premises"></a>
+
+
 ## PSD.Advising:4 - Recover only the relevant holder premises
 
 Ask which fact, if different, would change a direction, protected condition, comparison or return. Recover that fact for the holder and configuration named in the advice question; do not build an exhaustive diagnosis as an entry fee.
@@ -4278,9 +4278,9 @@ Current HCD demand, diagnosis and profile results can identify human premises; t
 
 For every material premise, retain the claim and identify its subject and configuration, the supplier or source, the qualification window, uncertainty and intended use. “Unknown” is useful when it says what cannot yet be inferred. Absence of evidence for one configuration is not evidence that every configuration is infeasible.
 
-<a id="use-the-direct-result-acquisition-method"></a>
 
-<a id="psd-advising-use-the-direct-result-acquisition-method"></a>
+
+
 ## PSD.Advising:5 - Use the direct result-acquisition Method
 
 Use [A.15.9 - Use or Request a Bounded Result from Another Practice](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a159---use-or-request-a-bounded-result-from-another-practice) for qualified use and selection of worthwhile acquisition, with [A.10](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a10---evidence-graph-referring-claim-bound-evidence-and-provenance-graph) for the actual reliance claim. State the question that the result must answer and identify the conclusion that remains unsupported without that answer. In advising, derive this question from the recipient's need for advice; in independent opportunity construction, derive it from the next unresolved dependency. Keep the useful present answer and its limit. Before formulating a further request, use A.15.9 and C.11.DUA to compare its obtainable contribution with the complete acquisition burden and available continuation; naming the dependency does not select that work.
@@ -4291,14 +4291,14 @@ When acquisition is selected, request “a comparison of internal development, a
 
 Use an adequate independent result while another branch is unresolved. State whether a missing premise prevents one claim, one candidate's admission, a pairwise comparison or the requested whole-set recommendation. Do not make the whole packet unusable merely because one unrelated source is old.
 
-<a id="keep-a-qualified-live-candidate-set"></a>
 
-<a id="psd-advising-keep-a-qualified-live-candidate-set"></a>
+
+
 ## PSD.Advising:6 - Keep a qualified live candidate set
 
-If the useful future contribution itself is unsettled, use the full [opportunity-construction Method](#psd-opportunity-construct-a-bounded-development-opportunity). It searches neighboring uses, distinguishes a niche, a proposed provision promise and a worthwhile problem, constructs directions and supports, and exposes dependencies and reachability. A technology label or archive entry cannot fill that result.
+If the useful future contribution itself is unsettled, use the full [opportunity-construction Method](#construct-a-bounded-development-opportunity). It searches neighboring uses, distinguishes a niche, a proposed provision promise and a worthwhile problem, constructs directions and supports, and exposes dependencies and reachability. A technology label or archive entry cannot fill that result.
 
-Once candidate opportunities or an adequate formed question exist, use [PSD.8](#psd-8) to make the advice-relevant alternatives explicit. Keep each direction's status explicit: a feasible direction under stated conditions, a conditional opportunity, a candidate probe or a fragment retained for combination. Keep ruled-out configurations and named gaps visible as such, not as eligible alternatives. Do not let an attractive but conditional opportunity enter a decision-ready set as if its dependencies had obtained.
+Once candidate opportunities or an adequate formed question exist, use [PSD.8](#psd8---generate-decision-alternatives) to make the advice-relevant alternatives explicit. Keep each direction's status explicit: a feasible direction under stated conditions, a conditional opportunity, a candidate probe or a fragment retained for combination. Keep ruled-out configurations and named gaps visible as such, not as eligible alternatives. Do not let an attractive but conditional opportunity enter a decision-ready set as if its dependencies had obtained.
 
 Keep materially different development, access/support, provider, Method/platform, allocation, staged and no-change directions when they matter. These are generation possibilities, not compulsory options. Several labels for the same intervention provide no real breadth. A different way of supplying the same result is not automatically a different worthwhile problem.
 
@@ -4306,9 +4306,9 @@ Keep materially different development, access/support, provider, Method/platform
 
 Use C.18 only for an actual generation/archive/front question, with its declared generator, operators, descriptors and retention or comparison basis. Use C.19 only for an actual live pool with a current governing policy. Thin evidence creates neither a default exploration posture nor permission to exploit. A probe needs a useful discriminating question and its own feasible, protected and authorized execution basis; otherwise retain the useful direction or limitation without making another request merely to finish.
 
-<a id="compare-for-this-receiving-use"></a>
 
-<a id="psd-advising-compare-for-this-receiving-use"></a>
+
+
 ## PSD.Advising:7 - Compare for this receiving use
 
 Use PSD.9–PSD.12 for values, uncertainty, consequences and robustness. State the candidate domain and the subset being compared, the receiving question, characteristics and scales, protected conditions, evidence and uncertainty, and the comparison rule that the result actually uses. Adequate current comparison results can be reused without running all four patterns.
@@ -4317,16 +4317,16 @@ C.16 supplies characterization; C.11.CRC preserves configuration-relative contri
 
 Explain what the comparison can and cannot conclude. Preserve a partial order or non-dominated directions when the basis does not warrant a total ranking. If one direction is supported, explain its advantage over the strongest remaining rival and the conditions that could reverse it. Keep important value disagreement visible instead of manufacturing a shared weight.
 
-Human consent and transfer, organization continuity and AI safety remain unlike premises. A protected condition cannot be compensated away by a favorable total score. When its own justification is disputed, use [PSD.9 §4.4](#psd-9) and C.11.DUA to compare the protected outcome, causal and measurement basis, threshold, additional protection and full burden. Carry the requirement recommendation and its actual amendment limit in the advice; current force still governs available action. Likewise, a comparison of internal development and one mixed arrangement does not rank an unexamined provider, another model version or a materially different probe.
+Human consent and transfer, organization continuity and AI safety remain unlike premises. A protected condition cannot be compensated away by a favorable total score. When its own justification is disputed, use [PSD.9 §4.4](#psd9---represent-values-and-trade-offs) and C.11.DUA to compare the protected outcome, causal and measurement basis, threshold, additional protection and full burden. Carry the requirement recommendation and its actual amendment limit in the advice; current force still governs available action. Likewise, a comparison of internal development and one mixed arrangement does not rank an unexamined provider, another model version or a materially different probe.
 
 When evidence is thin, first ask whether the missing distinction could change the answer and whether obtaining it is worth its burden and delay. A small request naming the missing result, a retained set or a blocker may be more useful than another elaborate model. A declared comparison is an input to advice, not the recipient's choice.
 
-<a id="compose-the-bounded-recommendation"></a>
 
-<a id="psd-advising-compose-the-bounded-recommendation"></a>
+
+
 ## PSD.Advising:8 - Compose the bounded recommendation
 
-Use [PSD.13](#psd-13) to return what the recipient can responsibly consider now. The following development-direction returns are alternative result branches, not a sequence.
+Use [PSD.13](#psd13---prepare-and-return-a-decision-support-recommendation) to return what the recipient can responsibly consider now. The following development-direction returns are alternative result branches, not a sequence.
 
 | Return | When it is useful | Content that makes it more than a label |
 | --- | --- | --- |
@@ -4353,9 +4353,9 @@ This is content, not a mandatory form. A small blocker needs only the positions 
 
 Keep each claim inside the narrowest material limit of the premises on which that claim depends. If evaluation covers configuration A, advice about B remains unsupported. If the internal-development comparison does not depend on that evaluation, it can remain usable. A shared bibliography is neither a dependence relation nor a reason to invalidate everything together.
 
-<a id="return-it-for-the-agreed-use"></a>
 
-<a id="psd-advising-return-it-for-the-agreed-use"></a>
+
+
 ## PSD.Advising:9 - Return it for the agreed use
 
 Lead with the disposition and its most important limit. Explain the evidence and reasoning at the recipient's level, including what the result does not authorize. If a decisive premise cannot be disclosed, state the resulting reliance restriction without revealing protected content.
@@ -4366,12 +4366,12 @@ Delivery completes the recommendation application; it proves neither understandi
 
 The actual professional relationship may require further contact, disclosure, referral or service closure. Those duties do not disappear when this recommendation is delivered, and they do not arise merely because a profile mentions follow-up. Sales persuasion, psychotherapy, teaching and implementation remain different Methods with their own conditions.
 
-<a id="reconsider-only-affected-advice"></a>
 
-<a id="psd-advising-reconsider-only-affected-advice"></a>
+
+
 ## PSD.Advising:10 - Reconsider only affected advice
 
-Use [PSD.14](#psd-14) when a changed premise can alter advice. Locate the premise and the claims that actually used it; preserve the earlier recommendation as an account of what was returned under its earlier basis.
+Use [PSD.14](#psd14---arrange-decision-follow-up-or-reassess-advice-after-a-change) when a changed premise can alter advice. Locate the premise and the claims that actually used it; preserve the earlier recommendation as an account of what was returned under its earlier basis.
 
 Choose further guidance by the question it answers. For one already-known bounded source-reliance question, use A.10. When a materially changed source claim requires discovering and revalidating several receiving uses, use A.10.1. When actual conditions change while the source is unchanged, use the direct subject guidance. Use G.11 when the needed result concerns currentness, decay or scoped refresh planning or reporting.
 
@@ -4388,16 +4388,16 @@ Observation, interpretation, professional contact and renewed recommendation are
 
 The source-currentness responsibilities for this profile and its opportunity Method are specified in the [source-responsibility account](#psdreference5---source-responsibility-and-references). A change to the generation Method can require revising that Method; a changed fact about one holder normally requires only requalifying the affected application.
 
-<a id="worked-uses-and-stopping-points"></a>
 
-<a id="psd-advising-worked-uses-and-stopping-points"></a>
+
+
 ## PSD.Advising:11 - Worked uses and stopping points
 
 The examples below are constructed cases. Assumed specialist results illustrate what a warranted return would require; they are not results about actual clients, performed Work or demonstrated intervention effects.
 
-<a id="a-ninety-day-service-reliability-question"></a>
 
-<a id="psd-advising-a-ninety-day-service-reliability-question"></a>
+
+
 ### PSD.Advising:11.1 - A ninety-day service-reliability question
 
 A committee asks a separate advisory team which development direction the service organization should consider over ninety days. The committee is recipient and, under the case's assumed mandate, choice owner. The three live directions are internal development, an external provider and a mixed human–AI arrangement. Critical-service continuity, a security boundary and a capped reversible-probe budget are protected. The adviser discloses and resolves a material provider interest under the agreed engagement conditions before offering positive advice.
@@ -4418,9 +4418,9 @@ The supplied probe account covers the mixed configuration being considered, its 
 
 This is not whole-set closure from an internal/mixed-only comparison: the supplied security result explicitly disposes of this provider configuration. A different provider, another mixed configuration or a substantially different probe reopens its own premises. The committee's choice, any authorized probe WorkPlan and later Work remain separate.
 
-<a id="a-person-considering-four-months-of-development"></a>
 
-<a id="psd-advising-a-person-considering-four-months-of-development"></a>
+
+
 ### PSD.Advising:11.2 - A person considering four months of development
 
 An engineer asks a separate career adviser whether to develop cross-functional management capability or pursue a specialist engineering direction over four months. The person is the developing holder and recommendation recipient; their own choice and the employer's separate assignment decisions must not be conflated.
@@ -4431,9 +4431,9 @@ If only attendance and a course catalogue are available, return the missing inte
 
 Before any separate advice request, the same person may independently use the [opportunity Method's human example](#psdopportunity8---a-person-exploring-future-engineering-work). That entry does not require the distinct adviser assumed here.
 
-<a id="an-ai-or-composite-holder"></a>
 
-<a id="psd-advising-an-ai-or-composite-holder"></a>
+
+
 ### PSD.Advising:11.3 - An AI or composite holder
 
 An authorized team asks a separate recommending arrangement whether to modify a model, change a scaffold/tool configuration or alter human–AI Work allocation. Identify the object to be changed, its version, the intended environment, evaluation validity, oversight, protected conditions and receiving use. Model tuning, tool access and human–AI allocation are not interchangeable interventions.
@@ -4442,9 +4442,9 @@ Suppose a supplied evaluation supports scaffold A only in a bounded offline envi
 
 If an applicable safety result excludes one configuration, exclude that configuration for the stated use. If evidence is merely missing, say so. A human course study supplies neither AI adaptation nor deployment safety. A recommender-system ranking can enter only as its separately qualified input; it is not the whole advice Method or deployment authority. Professional duties to human clients still apply where that service relationship actually exists.
 
-<a id="a-population-without-a-recipient-and-an-inadmissible-engagement"></a>
 
-<a id="psd-advising-a-population-without-a-recipient-and-an-inadmissible-engagement"></a>
+
+
 ### PSD.Advising:11.4 - A population without a recipient, and an inadmissible engagement
 
 A request to tell an unmanaged lineage which direction it should choose has no population-local recipient or chooser in this account. Abstain from that attribution and return variation, selection, reproduction, persistence and loss to the evolutionary source. Do not redescribe evolutionary change as recipient choice.
@@ -4453,9 +4453,9 @@ A research team may instead ask which authorized experimental intervention to co
 
 Likewise, a sponsor's instruction to conceal a material conflict or to rank a harmful unauthorized option cannot be repaired by a better score. Return the scoped blocker, referral or abstention required by the applicable professional and domain conditions.
 
-<a id="recognition-assurance-and-practical-gain"></a>
 
-<a id="psd-advising-recognition-assurance-and-practical-gain"></a>
+
+
 ## PSD.Advising:12 - Recognition, assurance and practical gain
 
 Recognition is inexpensive: another performer must help a named recipient make sense of qualified but incomplete development premises. A formed question can enter directly; a not-yet-formed opportunity can enter the independent Method. No institutional dispute, complete diagnosis or global candidate archive is required.
@@ -4466,25 +4466,25 @@ In practice, a development request no longer silently becomes a course, staffing
 
 The [source-responsibility account](#psdreference5---source-responsibility-and-references) separates contemporary decision-support and professional sources, historical generation anchors, guidance from the practices supplying a needed premise, and application-specific results. It also states the bounded update responsibility. This profile claims neither universal cross-holder effectiveness nor that publication of a supplying framework has already produced any particular client's evidence.
 
-<a id="psd-advising-psdadvisingend"></a>
+
 ## PSD.Advising:End
 
 
-<a id="psd-opportunity-construct-a-bounded-development-opportunity"></a>
+
 # Construct a Bounded Development Opportunity
 
 > **Kind of account:** MethodDescription for one reusable opportunity-construction Method.
 >
 > **First useful result:** a candidate opportunity with a worthwhile problem or proposed promise, dependencies, bounded reachability rationale, uncertainty and a next discriminating question.
 
-<a id="use-this-when-1"></a>
 
-<a id="psd-opportunity-use-this-when"></a>
+
+
 ## PSD.Opportunity:1 - Use this when
 
 Use this Method when a person or team is exploring what useful future Work could become possible for a named holder, but the problem, contribution or development direction is not yet fixed. A new technology, an emerging use, a changed constraint or dissatisfaction with familiar options may prompt the inquiry. The useful result is a constructed possibility that another person can inspect, not a list of fashionable subjects.
 
-This is the opportunity-construction branch within the broader [development-direction advising profile](#psd-advising-development-direction-advising). It governs how a possible direction is made meaningful and conditionally reachable. It does not govern another person's recommendation, a development intervention, strategic commitment, procurement or the eventual choice.
+This is the opportunity-construction branch within the broader [development-direction advising profile](#development-direction-advising). It governs how a possible direction is made meaningful and conditionally reachable. It does not govern another person's recommendation, a development intervention, strategic commitment, procurement or the eventual choice.
 
 A separate adviser is not required. A person exploring future engineering Work can begin here and stop at an opportunity or exact next question. If another performer later gives advice to a named recipient, the profile's engagement, professional and choice boundaries apply then.
 
@@ -4492,9 +4492,9 @@ Do not use this Method to reopen an adequate option set merely because more idea
 
 A complete first return can be modest: “This contribution could address the named receiving-use problem, but only if access to these records and the required review support can be obtained. The next question is whether the data owner can provide that bounded access.” Missing feasibility does not have to erase the useful problem; it prevents a stronger reachability claim.
 
-<a id="the-reusable-way-described"></a>
 
-<a id="psd-opportunity-the-reusable-way-described"></a>
+
+
 ## PSD.Opportunity:2 - The reusable way described
 
 The Method identified under [A.3.1](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31---umethod-reusable-way-of-doing-with-explicit-applicability) is: construct a bounded development opportunity by relating possible later Work to neighboring uses and technologies, distinguishing a useful problem from an offered promise, constructing materially different directions and supports, qualifying their dependencies, and returning the strongest supported reachability claim and next question.
@@ -4507,9 +4507,9 @@ The invariant result is an opportunity account or an honest gap, rejection or st
 
 This is one identified U.Method, locally designated **PSD-DEVELOPMENT-OPPORTUNITY-CONSTRUCTION**. Under [A.3.2](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a32---umethoddescription-description-episteme-for-a-way-of-doing), the claim-bearing account in this document is its MethodDescription, locally designated **PSD-DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-2026-09-02-E1**. Its C.2.1 identity uses these claims, that exact Method as EntityOfConcern, and the effective reference scheme expressed by the distinctions below. The designators are locators. This identification establishes no actual enactment, capability, permission, successful development or empirical effectiveness.
 
-<a id="working-distinctions"></a>
 
-<a id="psd-opportunity-working-distinctions"></a>
+
+
 ## PSD.Opportunity:3 - Working distinctions
 
 | Ordinary term | Meaning in this Method | Nearest tempting overread |
@@ -4524,9 +4524,9 @@ This is one identified U.Method, locally designated **PSD-DEVELOPMENT-OPPORTUNIT
 
 When promise content itself becomes a relied-on claim, use [A.2.3](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a23---upromisecontent--promised-outcomes-and-acceptance-criteria); commitment, provider, access and fulfilment remain separate. When a claim needs an actual Problem or problematic-for relation, use [C.22.PFR — Problematic-For Relation](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c22pfr---problematic-for-relation) to establish the actual condition, the applicable adverse criterion and the entity and use for which it is a problem. This Method can work with explicitly provisional problem statements without inventing those stronger relations.
 
-<a id="prepare-the-smallest-useful-inquiry"></a>
 
-<a id="psd-opportunity-prepare-the-smallest-useful-inquiry"></a>
+
+
 ## PSD.Opportunity:4 - Prepare the smallest useful inquiry
 
 State the holder, prospective later Work or concern, receiving situation, horizon, protected conditions and inquiry budget. Name what is known, what is merely suggested and which questions the inquiry may investigate. Include permissions needed for the inquiry itself; permission to read or ask is not permission to trial an intervention.
@@ -4535,16 +4535,16 @@ Do not demand a fully specified goal before discovery. “Explore a useful contr
 
 A small reversible inquiry may use a few relevant source checks and conversations. A consequential commitment will need much stronger domain evidence, but that is not a reason to manufacture certainty during opportunity construction.
 
-<a id="method"></a>
 
-<a id="psd-opportunity-method"></a>
+
+
 ## PSD.Opportunity:5 - Method
 
 The six working sections unfold one reusable way. They express information dependencies and permit iteration; they are not six separately admitted submethods or a schedule. Return to the earliest changed claim, not automatically to the beginning.
 
-<a id="1-recover-the-later-work-and-the-reason-to-explore"></a>
 
-<a id="psd-opportunity-1-recover-the-later-work-and-the-reason-to-explore"></a>
+
+
 ### PSD.Opportunity:5.1 - 1. Recover the later Work and the reason to explore
 
 Describe what the holder might contribute, for whom, in what situation and over what horizon. Distinguish the receiver's useful result from the holder's desired learning, status, product or technology use. Ask what would remain unsatisfactory if nothing changed, and whether the receiver actually cares about that difference.
@@ -4553,9 +4553,9 @@ Keep alternative formulations when they materially change the opportunity. One i
 
 Start from a qualified demand or problem account when one exists. If the reason to explore is only a supplier's enthusiasm, preserve it as a search lead, not as an established need. If the receiver says the proposed result is unnecessary, revise the contribution or reject that lead.
 
-<a id="2-search-neighboring-technologies-uses-and-characteristics"></a>
 
-<a id="psd-opportunity-2-search-neighboring-technologies-uses-and-characteristics"></a>
+
+
 ### PSD.Opportunity:5.2 - 2. Search neighboring technologies, uses and characteristics
 
 Search from more than one direction. Work from an affected use toward possible support, from a technology toward unlike applications, and from a desired characteristic toward different ways of obtaining it. For each lead, record the source and the concrete difference that could matter.
@@ -4573,9 +4573,9 @@ Name the generation operation actually used—for example, substitute the receiv
 
 Stop widening when the inquiry has enough materially distinct leads to expose the decision-bearing unknowns at its chosen effort, or when a missing domain premise prevents useful further construction. State unsearched areas if their omission can change the return. Do not claim exhaustive search.
 
-<a id="3-turn-a-lead-into-a-problem-and-a-proposed-promise"></a>
 
-<a id="psd-opportunity-3-turn-a-lead-into-a-problem-and-a-proposed-promise"></a>
+
+
 ### PSD.Opportunity:5.3 - 3. Turn a lead into a problem and a proposed promise
 
 For each serious lead, connect four things in ordinary language: the receiving situation, the useful difference, the proposed contribution and the evidence or hypothesis linking them. Then ask whose facts or judgment can confirm whether that difference matters at the needed scale.
@@ -4586,9 +4586,9 @@ Keep the niche, problem and promise distinct. A niche names the possible fit. Th
 
 Reject or revise a lead that has no supported worthwhile problem after proportionate inquiry. If value remains uncertain, retain a problem hypothesis with the exact confirming question, not a positive value claim. A provider's existing promise is evidence about what it offers, not that this receiver needs it or that it will be fulfilled.
 
-<a id="4-construct-different-directions-with-their-supports"></a>
 
-<a id="psd-opportunity-4-construct-different-directions-with-their-supports"></a>
+
+
 ### PSD.Opportunity:5.4 - 4. Construct different directions with their supports
 
 Build materially different possibilities for addressing the problem or realizing the contribution. Change the intervention, the work performed, the distribution of contributions, the support, the timing or the proposed result where those differences matter. Distinguish a different result premise from a different way of obtaining one result.
@@ -4599,9 +4599,9 @@ Use PSD.8 for the live alternative-construction question. Use direct HCD, OCE, A
 
 Retain the obtaining baseline, a smaller repair, a staged direction or no change when they genuinely answer the inquiry. Do not count a fragment as a complete direction merely to populate a table, and do not discard a potentially useful contribution only because its supporting arrangement is not yet designed.
 
-<a id="5-qualify-dependencies-and-bound-reachability"></a>
 
-<a id="psd-opportunity-5-qualify-dependencies-and-bound-reachability"></a>
+
+
 ### PSD.Opportunity:5.5 - 5. Qualify dependencies and bound reachability
 
 Identify the premises whose absence would block the proposed transition or change its value. Typical dependencies concern holder capability, usable access, available support, resources and time, supplier contribution, acceptance, authority, safety or continuing Work. State who owns each premise and what result is adequate for this exact use.
@@ -4623,9 +4623,9 @@ A person's capability envelope, an access/expression differential and a particul
 
 Obtain the human, AI, engineering or other domain result establishing which changes are feasible for this holder and horizon; keep reachability conditional while that result is missing. A curriculum sequence, an archive entry or a “zone of proximal development” label can help identify a possibility to investigate.
 
-<a id="6-preserve-useful-stepping-stones-and-return-the-next-question"></a>
 
-<a id="psd-opportunity-6-preserve-useful-stepping-stones-and-return-the-next-question"></a>
+
+
 ### PSD.Opportunity:5.6 - 6. Preserve useful stepping stones and return the next question
 
 For a stepping-stone claim, name the option or region it could open, the enabling transition and the evidence that supports that connection. Distinguish a candidate stepping stone from one whose retention is already justified under an applicable policy. A data-access inquiry can be a candidate stepping stone toward representative evaluation; it does not itself demonstrate capability or authorize use of the data.
@@ -4638,9 +4638,9 @@ When choosing which opportunity or question to consider next, declare the receiv
 
 Return the useful opportunity and the unresolved distinction that limits it. Where the recipient needs a next inquiry question, state what its plausible answers could change. Before recommending a probe or request, compare its attainable contribution with its full burden and alternatives through C.11.DUA and A.15.9. A selected probe retains its feasibility, exposure, authority, and execution conditions; an inactive probe creates no request or omission record.
 
-<a id="what-the-opportunity-account-contains"></a>
 
-<a id="psd-opportunity-what-the-opportunity-account-contains"></a>
+
+
 ## PSD.Opportunity:6 - What the opportunity account contains
 
 Use a short account when it carries the needed distinctions. These are content positions, not a new universal record kind or a requirement to fill every field.
@@ -4658,9 +4658,9 @@ Use a short account when it carries the needed distinctions. These are content p
 
 The account may return a qualified candidate, a conditional candidate with a missing premise, a rejected direction with its reason, or an unresolved frame. It can stop without a recommendation. A source bibliography, score or diagram alone is none of these results.
 
-<a id="worked-case-a-new-model-without-a-settled-problem"></a>
 
-<a id="psd-opportunity-worked-case-a-new-model-without-a-settled-problem"></a>
+
+
 ## PSD.Opportunity:7 - Worked case: a new model without a settled problem
 
 This is a constructed example of the Method, not a report about an actual model, organization or performed Work. Its source packet stipulates the bounded facts described below; absent facts remain absent.
@@ -4693,9 +4693,9 @@ Both opportunities might later compete for the same review capacity. Their indiv
 
 A small archive is optional. If the unit retains these candidates for later inquiry, its record names this Method and the actual search operations, the two candidate accounts and their source lineage, the missing premises, and the retention reason: preserving distinct useful questions until their dependencies can be resolved. It claims no non-dominated front, expanded possibility space, performed trial or effectiveness.
 
-<a id="a-person-exploring-future-engineering-work"></a>
 
-<a id="psd-opportunity-a-person-exploring-future-engineering-work"></a>
+
+
 ## PSD.Opportunity:8 - A person exploring future engineering Work
 
 This is another prospective, constructed use. An engineer wants to explore a useful next contribution within four months without asking an external adviser for a recommendation. The holder is the person. The inquiry's source packet distinguishes two prospective Work families: technical evidence review and coordination of cross-discipline interface questions. No future assignment, promotion or learning effect is assumed.
@@ -4710,9 +4710,9 @@ Current career information about these directions is qualified for accuracy, con
 
 The person may stop here. There is no final advice episteme, no invented adviser and no compulsory institutional conflict. If a separate adviser is later engaged, the [profile's service and recipient conditions](#psdadvising3---bound-the-advising-engagement) open then. If the person instead already has adequate alternatives and is ready to choose, direct domain or C.11 guidance is enough.
 
-<a id="countercases-and-honest-lowering"></a>
 
-<a id="psd-opportunity-countercases-and-honest-lowering"></a>
+
+
 ## PSD.Opportunity:9 - Countercases and honest lowering
 
 A supplier proposes “AI transformation” to a small unit whose current receiving result is already adequate and whose users identify no worthwhile unmet contribution at the proposed scale. Novelty alone does not repair that missing problem. Reject the direction for this inquiry or change the question; an archive can retain a technical idea for another stated use without treating it as a present development opportunity.
@@ -4723,9 +4723,9 @@ A course sequence described as “from beginner to leader” has no bounded reac
 
 An opportunity is not a recommendation, and a recommendation is not a choice. An authorized commitment, WorkPlan, intervention, provider agreement or observed effect must be established separately even when the opportunity account is persuasive.
 
-<a id="refresh-the-affected-opportunity"></a>
 
-<a id="psd-opportunity-refresh-the-affected-opportunity"></a>
+
+
 ## PSD.Opportunity:10 - Refresh the affected opportunity
 
 Reconsider an opportunity when a relied-on problem, promise, source, holder configuration, dependency, protection, horizon or comparison policy changes. Map the change to the exact candidate claim and any retained stepping stone or downstream advice that used it. Preserve independent claims.
@@ -4736,9 +4736,9 @@ If the new source set also excludes the particular region that a candidate stepp
 
 A factual change in one application does not automatically change this reusable Method. Reopen the Method's claims when evidence or a stronger practice line shows that its search, problem/promise construction, dependency reasoning, reachability rule or stop omits a material action. The [source-responsibility account](#psdreference5---source-responsibility-and-references) names that bounded responsibility separately from application follow-up.
 
-<a id="recognition-assurance-and-use-of-this-description"></a>
 
-<a id="psd-opportunity-recognition-assurance-and-use-of-this-description"></a>
+
+
 ## PSD.Opportunity:11 - Recognition, assurance and use of this description
 
 Recognition asks whether the useful future contribution and the conditions for achieving it still need to be worked out. One concrete later-Work concern plus a material unknown is enough to enter. Recognition is not an assurance judgment that a proposed development will succeed.
@@ -4752,9 +4752,9 @@ Assurance asks whether each value and reachability claim follows from sources qu
 | Inspect a candidate opportunity | Problem/promise distinction, supports, reachability reasoning, uncertainty, next question and refresh. | The truth and adequacy of the exact specialist premises and any stronger empirical claim. |
 | Continue into advice or choice | An inspectable candidate basis or gap. | The profile's distinct-performer engagement and recommendation; direct choice authority and rule. |
 
-<a id="source-informed-design-and-its-limits"></a>
 
-<a id="psd-opportunity-source-informed-design-and-its-limits"></a>
+
+
 ## PSD.Opportunity:12 - Source-informed design and its limits
 
 The working question is how to construct a useful possibility before the target result and its obtaining arrangement are settled. A short menu of available technologies is efficient when an adequate result premise already exists; it fails this use when nobody has established why the proposed contribution matters. This Method retains the useful menu as search input and adds problem/promise construction, dependencies and a bounded first return.
@@ -4767,7 +4767,7 @@ The substantive addition here is the complete prospective construction: from nei
 
 What changes in practice is concrete: “we should develop in this promising area” becomes a candidate contribution whose value, dependencies and next question can be inspected. The account can preserve a worthwhile possibility while refusing an unsupported reachability or advice claim.
 
-<a id="psd-opportunity-psdopportunityend"></a>
+
 ## PSD.Opportunity:End
 
 
@@ -4775,11 +4775,11 @@ What changes in practice is concrete: “we should develop in this promising are
 
 These constructed applications show how several pattern results can serve one working question. Their people, organizations, dates, data and supplied results are illustrative premises, not reports about actual clients or proof of effectiveness. A real use must establish its own facts, authority and evidence. The slices may overlap or reopen one another; their reading order is not a project lifecycle.
 
-<a id="app-psd-01--a-flood-pump-calculation-is-not-the-whole-investment-answer"></a>
+
 
 ## PSD.Application:1 - APP-PSD-01 — A flood-pump calculation is not the whole investment answer
 
-<a id="the-question-and-the-people-who-need-the-answer"></a>
+
 
 ### PSD.Application:1.1 - The question and the people who need the answer
 
@@ -4787,19 +4787,19 @@ In a constructed 2027 case, a municipal resilience office asks a separate inquir
 
 The broad difficulty could lead to pump renewal, distributed storage, changed demand management or acceptance of a bounded risk. The current pre-season inquiry concentrates on the district pumping arrangement, including permanent and mobile capacity, maintenance, staffing and safe access. That smaller boundary does not reject storage or demand measures, settle relocation rights or declare long-term watershed effects irrelevant.
 
-Using [PSD.1](#psd-1), the team first returns:
+Using [PSD.1](#psd1---bound-the-decision-support-engagement-and-authority-boundary), the team first returns:
 
 > Prepare a pre-season recommendation about the district pumping arrangement for the board's funding consideration. Make affected service concerns, operating conditions, protected limits and material dissent visible. Return a narrower comparison or a statement of the missing premise when the basis cannot support the whole investment question; the board retains the choice.
 
 That is already a useful result. A missing recipient, horizon or authority boundary would stop a stronger engagement claim. Here those conditions are supplied by the example, while the problem formulation remains contested.
 
-<a id="preserve-the-differences-that-can-change-an-intervention"></a>
+
 
 ### PSD.Application:1.2 - Preserve the differences that can change an intervention
 
-Operations and finance are readily available. Residents, emergency responders, maintenance contractors, downstream ecology staff and mobility-constrained people may experience different consequences. [PSD.2](#psd-2) distinguishes supported consequence paths from possible ones and from unknowns. One residents' association is not presumed to speak for every resident. An evening meeting that some people cannot attend is a participation limit, not evidence that they have no concern.
+Operations and finance are readily available. Residents, emergency responders, maintenance contractors, downstream ecology staff and mobility-constrained people may experience different consequences. [PSD.2](#psd2---recover-participants-concerns-and-affected-systems-for-a-decision-support-inquiry) distinguishes supported consequence paths from possible ones and from unknowns. One residents' association is not presumed to speak for every resident. An evening meeting that some people cannot attend is a participation limit, not evidence that they have no concern.
 
-The resulting concerns support four different formulations through [PSD.3](#psd-3):
+The resulting concerns support four different formulations through [PSD.3](#psd3---generate-plural-problem-formulations):
 
 | Formulation | What changes in the inquiry |
 | --- | --- |
@@ -4808,25 +4808,25 @@ The resulting concerns support four different formulations through [PSD.3](#psd-
 | Maintenance fragility | Examine spares, staffing, contracting and coordination; a maintenance or staged direction may address a different cause from pump count. |
 | Unsafe deployment | Examine placement, traffic, worker and downstream conditions; a restraint or differently bounded direction may be necessary. |
 
-The team does not vote for the one “real problem.” [PSD.4](#psd-4) keeps the next flood season, material downstream paths and deployment conditions inside the present inquiry. Long-term redesign and permanent relocation remain outside its present investment return, with their decision-bearing consequences visible. Evidence that no feasible pumping branch serves mobility-constrained residents, or that flood burden transfers beyond the assumed area, would reopen the boundary.
+The team does not vote for the one “real problem.” [PSD.4](#psd4---set-and-reopen-the-problem-boundary) keeps the next flood season, material downstream paths and deployment conditions inside the present inquiry. Long-term redesign and permanent relocation remain outside its present investment return, with their decision-bearing consequences visible. Evidence that no feasible pumping branch serves mobility-constrained residents, or that flood burden transfers beyond the assumed area, would reopen the boundary.
 
-<a id="join-inquiry-and-analysis-without-making-one-speak-for-the-other"></a>
+
 
 ### PSD.Application:1.3 - Join inquiry and analysis without making one speak for the other
 
-A capacity calculation, an access/deployment scenario and an attributed concern map answer different questions. Through [PSD.5](#psd-5), the team finds that nominal capacity is not yet the deciding uncertainty. The mobile branch has no qualified arrival-time claim when the main road is unavailable; the concern map also distinguishes property protection from reachable assistance.
+A capacity calculation, an access/deployment scenario and an attributed concern map answer different questions. Through [PSD.5](#psd5---construct-complementary-situation-and-option-models), the team finds that nominal capacity is not yet the deciding uncertainty. The mobile branch has no qualified arrival-time claim when the main road is unavailable; the concern map also distinguishes property protection from reachable assistance.
 
-[PSD.6](#psd-6) compares capacity analysis alone, a broad open-ended investigation and a bounded combination of attributed inquiry with conditional technical analysis. The bounded combination fits the pre-season return only while attribution can be checked and competent sources can qualify the technical premises. Its join requires the same intervention, service meaning and horizon. Counting how often a concern was mentioned does not produce a numerical value weight.
+[PSD.6](#psd6---select-problem-structuring-methods-and-combine-them-when-needed) compares capacity analysis alone, a broad open-ended investigation and a bounded combination of attributed inquiry with conditional technical analysis. The bounded combination fits the pre-season return only while attribution can be checked and competent sources can qualify the technical premises. Its join requires the same intervention, service meaning and horizon. Counting how often a concern was mentioned does not produce a numerical value weight.
 
-Through [PSD.7](#psd-7), a proposed sentence changes from “the pumps can protect the district” to a qualified nominal-capacity claim. The separately consulted group asks how assistance remains reachable when roads fail. That correction neither proves a pump inadequate nor disappears because the model does not represent it. The return preserves the two attributed service concerns and the unqualified access premise.
+Through [PSD.7](#psd7---facilitate-decision-support-inquiry-and-preserve-material-dissent), a proposed sentence changes from “the pumps can protect the district” to a qualified nominal-capacity claim. The separately consulted group asks how assistance remains reachable when roads fail. That correction neither proves a pump inadequate nor disappears because the model does not represent it. The return preserves the two attributed service concerns and the unqualified access premise.
 
-The actual inquiry and analysis can overlap. Suppose the proposed timetable freezes the model before a material service correction can reach the analyst. [PSD.16](#psd-16) compares keeping that freeze, stopping every calculation, and allowing bounded analysis while a supported facilitator maintains the correction channel. Under the case's supplied remit and available analyst/facilitator support, the third arrangement preserves independent calculations and permits the affected claim to be revised before it closes. If a correction or its consequence is still unresolved at the deadline, the board receives that limitation. No meeting order substitutes for the missing result.
+The actual inquiry and analysis can overlap. Suppose the proposed timetable freezes the model before a material service correction can reach the analyst. [PSD.16](#psd16---reconcile-simultaneous-problem-structuring-and-decision-support-work) compares keeping that freeze, stopping every calculation, and allowing bounded analysis while a supported facilitator maintains the correction channel. Under the case's supplied remit and available analyst/facilitator support, the third arrangement preserves independent calculations and permits the affected claim to be revised before it closes. If a correction or its consequence is still unresolved at the deadline, the board receives that limitation. No meeting order substitutes for the missing result.
 
-<a id="use-a-numerical-slice-at-its-actual-scope"></a>
+
 
 ### PSD.Application:1.4 - Use a numerical slice at its actual scope
 
-[PSD.8](#psd-8) keeps no-new-purchase baseline `N`, fixed pumping `F`, mobile pumping `M` and unfinished staged proposal `S` visible in the present pumping inquiry. S still needs a specified first intervention before its consequences can be compared. Storage and demand-management leads remain outside this narrower set. The supplied numerical slice covers only `F` and `M`, on illustrative pumping-service-loss and incremental-cost scales:
+[PSD.8](#psd8---generate-decision-alternatives) keeps no-new-purchase baseline `N`, fixed pumping `F`, mobile pumping `M` and unfinished staged proposal `S` visible in the present pumping inquiry. S still needs a specified first intervention before its consequences can be compared. Storage and demand-management leads remain outside this narrower set. The supplied numerical slice covers only `F` and `M`, on illustrative pumping-service-loss and incremental-cost scales:
 
 | Direction | Loss with normal access | Loss with road loss | Incremental cost |
 | --- | ---: | ---: | ---: |
@@ -4835,17 +4835,17 @@ The actual inquiry and analysis can overlap. Suppose the proposed timetable free
 
 These are model values, not monetary prices, measured municipal performance or a complete public-consequence account. Baseline, staged, assistance, protection and other material branches remain outside this calculation.
 
-[PSD.9](#psd-9) keeps the declared value scheme separate from a participant's concern. [PSD.10](#psd-10) distinguishes an assumed road-loss probability from an established one. [PSD.11](#psd-11) can compare the stated consequences, and [PSD.12](#psd-12) exposes a possible reversal rather than hiding it.
+[PSD.9](#psd9---represent-values-and-trade-offs) keeps the declared value scheme separate from a participant's concern. [PSD.10](#psd10---represent-decision-relevant-uncertainty-and-evidence-limits) distinguishes an assumed road-loss probability from an established one. [PSD.11](#psd11---compare-consequences-of-decision-alternatives) can compare the stated consequences, and [PSD.12](#psd12---test-robustness-and-sensitivity-of-decision-alternatives-and-their-comparison) exposes a possible reversal rather than hiding it.
 
 In this deliberately stated weighted-loss model, let `p` be the assumed road-loss probability and `λ` the declared cost weight. The two totals are `2 + p + 8λ` for F and `1 + 8p + 5λ` for M. F is lower only when `7p > 1 + 3λ`. With `λ = 0.5`, `p = 0.2` favors M; `p = 0.6` favors F. Neither probability nor the weight has been established for the board's decision. When the missing contribution is a trade-off from expressed consequence comparisons, use PSD.9:4.5 and its worked construction in :5.5. That deterministic value account alone does not supply preferences over uncertain outcomes.
 
 The result therefore identifies a decision-bearing uncertainty and a conditional comparison. It does not prove that a probability obtains, that assistance is reachable, that a protected condition can be traded away, or that F or M should be bought. More decimal places would not close those gaps.
 
-<a id="return-the-useful-comparison-and-the-whole-question-blocker-together"></a>
+
 
 ### PSD.Application:1.5 - Return the useful comparison and the whole-question blocker together
 
-Using [PSD.13](#psd-13), the team returns:
+Using [PSD.13](#psd13---prepare-and-return-a-decision-support-recommendation), the team returns:
 
 > Retain fixed and mobile pumping for the stated service-loss/cost comparison. Their order reverses under the declared assumptions. A whole-investment recommendation remains blocked by the unqualified access basis, unresolved assistance and protection consequences, and unclosed baseline, staged and other material branches. Keep the separately attributed service concern in the board's return; do not replace it with the calculation.
 
@@ -4853,11 +4853,11 @@ This completes the recommendation at its stated scope. If further inquiry is bei
 
 The board's decision to commission further inquiry would be another result. Funding an access study is not funding a pump, and receiving the recommendation is neither consent nor execution.
 
-<a id="a-changed-premise-changes-the-right-claim"></a>
+
 
 ### PSD.Application:1.6 - A changed premise changes the right claim
 
-The useful follow-up question is what evidence can reach the board before renewed consideration. [PSD.14](#psd-14) compares an end-of-season review, continuous pump telemetry and a bounded pre-decision evidence arrangement. Telemetry alone cannot settle deployment permission, reachable assistance or the staged alternative. The bounded arrangement is selected in this example only after supplier availability, access, interpretation time and the receiving date are supplied.
+The useful follow-up question is what evidence can reach the board before renewed consideration. [PSD.14](#psd14---arrange-decision-follow-up-or-reassess-advice-after-a-change) compares an end-of-season review, continuous pump telemetry and a bounded pre-decision evidence arrangement. Telemetry alone cannot settle deployment permission, reachable assistance or the staged alternative. The bounded arrangement is selected in this example only after supplier availability, access, interpretation time and the receiving date are supplied.
 
 In a separate hypothetical continuation, the board authorizes an access study, not a pump purchase. A qualified return establishes that the mobile deployment arrangement assumed in the earlier calculation is unavailable during the required flood-period window. The analyst does not insert a guessed new probability.
 
@@ -4865,11 +4865,11 @@ The fixed-pump performance claim remains usable for its original conditions. The
 
 The follow-up has returned an actionable distinction without making the board's choice. Missed observation would instead leave a scoped gap; silence would not mean the premise remained valid.
 
-<a id="continue-the-professional-practice-only-when-that-is-the-question"></a>
+
 
 ### PSD.Application:1.7 - Continue the professional practice only when that is the question
 
-The same episode can expose a different need: another inquiry team may copy a recommendation's format while losing its limits. That is not another pumping calculation. [PSD.15](#psd-15) concerns a justified repertoire change, and [PSD.17](#psd-17) concerns continuation across practitioners.
+The same episode can expose a different need: another inquiry team may copy a recommendation's format while losing its limits. That is not another pumping calculation. [PSD.15](#psd15---decide-whether-and-how-to-change-problem-structuring-and-decision-support-methods) concerns a justified repertoire change, and [PSD.17](#psd17---deliberately-continue-and-change-problem-structuring-and-decision-support-culture) concerns continuation across practitioners.
 
 The fuller constructed PSD.17 case supplies separate East and West teams, their relevant service assignments, the inquiry and teaching Methods, and distinct March–April occurrences. West's receipt of a permitted packet initially produces an overstrong investment recommendation. Under the case's teaching remit and available support, a guided qualification exercise is selected for that receiving group while the compact route remains for experienced practitioners.
 
@@ -4877,21 +4877,21 @@ In the exercise, West distinguishes the usable F/M calculation from the unclosed
 
 These practice questions open only because the particular interpretation or working arrangement matters. They are not mandatory activities after every recommendation. The immediate practical gain remains simple: the board receives the useful calculation without losing the people, alternatives and conditions that prevent it from being the whole answer.
 
-<a id="app-psd-02--development-direction-advice-with-unlike-holder-premises"></a>
+
 
 ## PSD.Application:2 - APP-PSD-02 — Development-direction advice with unlike holder premises
 
-<a id="two-useful-entries-not-one-compulsory-advising-process"></a>
+
 
 ### PSD.Application:2.1 - Two useful entries, not one compulsory advising process
 
-The [development-direction profile](#psd-advising-development-direction-advising) connects qualified opportunity, holder, comparison and recommendation results. It is useful when a distinct recommending performer must help a named recipient. The developing holder, paying sponsor, recipient and chooser can differ. Their actual relationship determines what may be shared, relied on or decided.
+The [development-direction profile](#development-direction-advising) connects qualified opportunity, holder, comparison and recommendation results. It is useful when a distinct recommending performer must help a named recipient. The developing holder, paying sponsor, recipient and chooser can differ. Their actual relationship determines what may be shared, relied on or decided.
 
-There is also an earlier independent entry. A person or team can use [Construct a Bounded Development Opportunity](#psd-opportunity-construct-a-bounded-development-opportunity) to explore useful future work without asking anyone for a recommendation. Its account can end at a conditional opportunity and a discriminating question. Calling that result “advice” would introduce a different performer/recipient relation rather than merely change its title.
+There is also an earlier independent entry. A person or team can use [Construct a Bounded Development Opportunity](#construct-a-bounded-development-opportunity) to explore useful future work without asking anyone for a recommendation. Its account can end at a conditional opportunity and a discriminating question. Calling that result “advice” would introduce a different performer/recipient relation rather than merely change its title.
 
-When advice is the question, [PSD.1](#psd-1) recovers the engagement and authority boundary. Applicable competence, conflict, confidentiality, informed participation and referral conditions remain professional questions, not a generic permission box. AI used by an adviser also differs from AI being developed. An available tool or fluent generated memo gives neither the service relationship nor its content a warrant.
+When advice is the question, [PSD.1](#psd1---bound-the-decision-support-engagement-and-authority-boundary) recovers the engagement and authority boundary. Applicable competence, conflict, confidentiality, informed participation and referral conditions remain professional questions, not a generic permission box. AI used by an adviser also differs from AI being developed. An available tool or fluent generated memo gives neither the service relationship nor its content a warrant.
 
-<a id="begin-before-the-target-contribution-is-settled"></a>
+
 
 ### PSD.Application:2.2 - Begin before the target contribution is settled
 
@@ -4908,9 +4908,9 @@ The opportunity return is not a ranking or an adoption recommendation. A positiv
 
 The two receiving results differ. A same-result arrangement comparison becomes relevant only after one result, use and acceptance premise is stable enough. Forcing both accounts into one such comparison would hide the still-open choice of useful problem. A generation archive is optional and supplies no value, reachability or authority by itself.
 
-The unit may stop here. If a distinct adviser is later asked which direction to recommend, these accounts enter [PSD.8](#psd-8) at their actual conditional strength.
+The unit may stop here. If a distinct adviser is later asked which direction to recommend, these accounts enter [PSD.8](#psd8---generate-decision-alternatives) at their actual conditional strength.
 
-<a id="a-person-exploring-four-months-of-engineering-development"></a>
+
 
 ### PSD.Application:2.3 - A person exploring four months of engineering development
 
@@ -4924,7 +4924,7 @@ If the person asks a separate adviser for a recommendation, the return is:
 
 The person's own choice remains separate from an employer's assignment decision. Human demand, assessment, intervention and transfer results retain their direct owners. Career information can help compare opportunities but does not establish a learning effect. If practice time later changes, reconsider the dependent intervention or reachability claim; unrelated organization or AI evidence remains as it was.
 
-<a id="an-organization-needs-a-ninety-day-reliability-recommendation"></a>
+
 
 ### PSD.Application:2.4 - An organization needs a ninety-day reliability recommendation
 
@@ -4942,13 +4942,13 @@ Now take a separate hypothetical continuation. Adequate whole-arrangement and se
 
 The supplied probe result covers the actual question, distinguishing observations, feasibility, exposure, available resources and stop conditions. Compared with immediate commitment, it supports obtaining that information at bounded cost while retaining internal development. A disclosed material provider interest has also been treated under the agreed service conditions. These are additional premises, not improvements in rhetoric.
 
-Using [PSD.9](#psd-9) through [PSD.12](#psd-12) only where their comparison results are needed, the adviser makes the advantage, serious rival, uncertainty and protected conditions recoverable. Through [PSD.13](#psd-13), the return is:
+Using [PSD.9](#psd9---represent-values-and-trade-offs) through [PSD.12](#psd12---test-robustness-and-sensitivity-of-decision-alternatives-and-their-comparison) only where their comparison results are needed, the adviser makes the advantage, serious rival, uncertainty and protected conditions recoverable. Through [PSD.13](#psd13---prepare-and-return-a-decision-support-recommendation), the return is:
 
 > Consider the bounded mixed-arrangement probe first and retain internal development. The supplied arrangement, probe and security results support this information-gaining recommendation for the named reliability use. Throughput effect remains uncertain. Preserve continuity, security and the budget; reconsider when representative recovery evidence or a relied-on premise changes.
 
 This does not close three directions from an internal/mixed-only comparison: the separate security result explicitly disposes of this provider configuration. Another provider or materially different probe would need its own basis. Delivery, committee consideration, a later authorized probe plan, actual work and observed effect remain distinct.
 
-<a id="an-ai-configuration-changes-while-independent-advice-survives"></a>
+
 
 ### PSD.Application:2.5 - An AI configuration changes while independent advice survives
 
@@ -4956,7 +4956,7 @@ A team considers model modification, a different scaffold/tool configuration and
 
 Suppose the committee in the reliability example later authorizes only a bounded probe for configuration A under stated continuity and oversight conditions. An appropriate follow-up arrangement exists: the configuration owner can report material changes, specialist suppliers can qualify them, the adviser has interpretation time, and the committee can receive the revised use consequence.
 
-A notice now identifies configuration B. Observation from B arrives, but the relied-on evaluation still concerns A. [PSD.14](#psd-14) produces a split return:
+A notice now identifies configuration B. Observation from B arrives, but the relied-on evaluation still concerns A. [PSD.14](#psd14---arrange-decision-follow-up-or-reassess-advice-after-a-change) produces a split return:
 
 | Dependent use | What follows now |
 | --- | --- |
@@ -4969,7 +4969,7 @@ If a generator, candidate archive or open-ended search is itself changing, its a
 
 The observation arrangement is not automatic monitoring created by this text. If an expected result is missed, report the resulting reliance gap. If the decision has ended and no continuing service or protection duty remains, close the follow-up rather than inventing another review cycle.
 
-<a id="a-population-without-a-recipient-and-a-separate-research-question"></a>
+
 
 ### PSD.Application:2.6 - A population without a recipient, and a separate research question
 
@@ -4977,19 +4977,19 @@ A non-cultural population or lineage has no population-local recipient or choose
 
 A research team may separately ask which experimental intervention to consider. That is a recipient-owned inquiry only when its scientific question, exact subject, authority, safety and other applicable conditions are established. The population countercase supplies none of those premises. The return may therefore identify the scientific or authorization question that must be answered before recommending an intervention.
 
-<a id="what-remains-the-same-across-the-branches"></a>
+
 
 ### PSD.Application:2.7 - What remains the same across the branches
 
 The useful common result is a qualified opportunity, comparison or recommendation with a stated receiving question and use. What differs is the premise required to support it. Human transfer, organizational obtaining arrangements, AI evaluation and scientific intervention are not one score or one development mechanism.
 
-A supported direction should not be withheld merely because another branch remains uncertain. Equally, fluency, a method publication, a source bibliography or a favorable score cannot promote an unresolved branch. Follow the [profile](#psd-advising-development-direction-advising) for the full engagement and recommendation contract, the [opportunity Method](#psd-opportunity-construct-a-bounded-development-opportunity) for the earlier construction, and the direct patterns for their own results. The [source-responsibility account](#psdreference5---source-responsibility-and-references) keeps that profile's bounded source use separate from application-specific follow-up.
+A supported direction should not be withheld merely because another branch remains uncertain. Equally, fluency, a method publication, a source bibliography or a favorable score cannot promote an unresolved branch. Follow the [profile](#development-direction-advising) for the full engagement and recommendation contract, the [opportunity Method](#construct-a-bounded-development-opportunity) for the earlier construction, and the direct patterns for their own results. The [source-responsibility account](#psdreference5---source-responsibility-and-references) keeps that profile's bounded source use separate from application-specific follow-up.
 
-<a id="app-psd-03--an-on-time-report-that-cannot-yet-be-used"></a>
+
 
 ## PSD.Application:3 - APP-PSD-03 — An on-time report that cannot yet be used
 
-<a id="recover-the-difficulty-before-naming-a-solution"></a>
+
 
 ### PSD.Application:3.1 - Recover the difficulty before naming a solution
 
@@ -4997,9 +4997,9 @@ A team sends its weekly report before the agreed deadline. The timeliness indica
 
 [B.5.PI](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b5pi---initiate-inquiry-from-ongoing-work) helps notice this mismatch between formal completion and actual use. The question is whether something prevents the receiving work from proceeding under its applicable requirements. A complaint, a blank field and an adverse working condition are different objects. [C.22.2](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c222---problemcard) can express the problem-side account while its factual and criterion premises remain visible.
 
-For this constructed case, the operations manager may authorize a temporary reporting arrangement for the next planning cycle. The inquiry team may return advice; it cannot change another group's deadline or promise extra work on that group's behalf. [PSD.1](#psd-1) keeps that boundary. [PSD.2](#psd-2) brings in the planner, report preparers and the people who supply the identifiers. Their accounts can differ: the planner needs usable identifiers by planning time, preparers need an unambiguous rule, and upstream staff may not yet have the requested information.
+For this constructed case, the operations manager may authorize a temporary reporting arrangement for the next planning cycle. The inquiry team may return advice; it cannot change another group's deadline or promise extra work on that group's behalf. [PSD.1](#psd1---bound-the-decision-support-engagement-and-authority-boundary) keeps that boundary. [PSD.2](#psd2---recover-participants-concerns-and-affected-systems-for-a-decision-support-inquiry) brings in the planner, report preparers and the people who supply the identifiers. Their accounts can differ: the planner needs usable identifiers by planning time, preparers need an unambiguous rule, and upstream staff may not yet have the requested information.
 
-Through [PSD.3](#psd-3), retain three formulations with different consequences:
+Through [PSD.3](#psd3---generate-plural-problem-formulations), retain three formulations with different consequences:
 
 | Formulation | What would make it the current difficulty? | First discriminating check |
 | --- | --- | --- |
@@ -5009,13 +5009,13 @@ Through [PSD.3](#psd-3), retain three formulations with different consequences:
 
 A fourth possibility is that only the recording is wrong: the receiver obtained usable information, but the register presents an empty field. Inspecting the actual sent and received material can settle that limited question. Correcting the register may then be enough; it does not establish an effect of a reporting rule on operational delay. “Install a CRM” is a proposed means, so it does not replace these formulations.
 
-[PSD.4](#psd-4) bounds this inquiry to information needed for the next planning cycle and the burdens of obtaining it. If the real difficulty is that the planning deadline itself has no useful justification, return to that requirement and its owner. Improving compliance with an unsuitable deadline can make the working situation worse.
+[PSD.4](#psd4---set-and-reopen-the-problem-boundary) bounds this inquiry to information needed for the next planning cycle and the burdens of obtaining it. If the real difficulty is that the planning deadline itself has no useful justification, return to that requirement and its owner. Improving compliance with an unsuitable deadline can make the working situation worse.
 
-<a id="construct-alternatives-only-where-their-consequences-matter"></a>
+
 
 ### PSD.Application:3.2 - Construct alternatives only where their consequences matter
 
-Suppose the recording check leaves a real obstacle to using the information, and the team asks whether restoring the earlier handoff rule would reduce planning delay. [PSD.5](#psd-5) retains the concern account and the timeline for their own questions. Use an adequate existing causal model directly. When the causal relations are still missing, [C.28.CM](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28cm---construct-and-challenge-a-causal-model) constructs the needed contribution.
+Suppose the recording check leaves a real obstacle to using the information, and the team asks whether restoring the earlier handoff rule would reduce planning delay. [PSD.5](#psd5---construct-complementary-situation-and-option-models) retains the concern account and the timeline for their own questions. Use an adequate existing causal model directly. When the causal relations are still missing, [C.28.CM](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28cm---construct-and-challenge-a-causal-model) constructs the needed contribution.
 
 Fix the outcome and horizon before comparing stories. Let X be the rule actually used for a handoff, M whether the receiving information is usable at planning time, Y the delay in assigning that work, and Z the load during the same period. R records what the register says about completeness; S records whether the row was selected for this investigation. Do not replace M with R merely because R is easier to obtain.
 
@@ -5029,7 +5029,7 @@ Selection also matters. If rows enter the investigation because their informatio
 
 Separate the start, persistence and amplification of the episode. A correspondence change may start it; a continuing stream of unresolved rows with no correction owner may sustain it; repeated assignment changes may amplify the rework. These are hypotheses about different outcomes and times, not three interchangeable names for one root cause. When delay feeds future load, represent Y(t)→Z(t+1) with the relevant earlier influences. Do not call an unqualified directed cycle a DAG.
 
-<a id="match-the-proposed-action-and-the-evidence-to-the-question"></a>
+
 
 ### PSD.Application:3.3 - Match the proposed action and the evidence to the question
 
@@ -5041,27 +5041,27 @@ An externally assigned offer of help is not the same variable as help actually u
 
 If an unresolved question still warrants research, [RMP.1](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp1--decide-whether-a-question-needs-research-and-when-to-stop) frames the exact question and current basis. [RMP.2](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp2--choose-a-criticism-bearing-research-design-or-stop) compares a useful, feasible design with using the evidence already available and selecting no new study. For a rule comparison, the design must address the load, information availability, timing and selection differences that could defeat its inference. A plan for such a comparison establishes no result of performing it.
 
-<a id="give-a-usable-answer-while-uncertainty-remains"></a>
+
 
 ### PSD.Application:3.4 - Give a usable answer while uncertainty remains
 
-[PSD.8](#psd-8) keeps alternatives connected to the live formulations: repair the correspondence, restore the former rule, offer temporary clarification, change the deadline where authorized, or retain adequate current work. A rule repair addresses a proposed mechanism; temporary clarification may protect the receiving work while its cause remains unresolved. They are different claims of benefit.
+[PSD.8](#psd8---generate-decision-alternatives) keeps alternatives connected to the live formulations: repair the correspondence, restore the former rule, offer temporary clarification, change the deadline where authorized, or retain adequate current work. A rule repair addresses a proposed mechanism; temporary clarification may protect the receiving work while its cause remains unresolved. They are different claims of benefit.
 
-[PSD.9](#psd-9) keeps the value question visible: timeliness matters because of a receiving use, and the receiving group's convenience does not make unlimited upstream calls acceptable. [PSD.10](#psd-10) and [C.11.DUA](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11dua---make-advice-and-evidence-demands-worth-their-burden) ask which remaining uncertainty can change the current choice and whether obtaining the missing result warrants its burden. A disruptive permanent rule change may need evidence that a temporary workaround does not.
+[PSD.9](#psd9---represent-values-and-trade-offs) keeps the value question visible: timeliness matters because of a receiving use, and the receiving group's convenience does not make unlimited upstream calls acceptable. [PSD.10](#psd10---represent-decision-relevant-uncertainty-and-evidence-limits) and [C.11.DUA](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11dua---make-advice-and-evidence-demands-worth-their-burden) ask which remaining uncertainty can change the current choice and whether obtaining the missing result warrants its burden. A disruptive permanent rule change may need evidence that a temporary workaround does not.
 
 Suppose competent staff can perform one authorized cycle of manual clarification within a specified time budget, and current operational evidence supports its ability to make the required information usable. The manager may choose that bounded help while both causal accounts remain live. Its justification rests on the action's expected contribution, feasibility, costs and limits. Agreement among the models on this temporary action does not prove either model.
 
-If the same arrangement transfers intolerable work to another group, or if usable information still cannot exist by the required time, the temporary option loses that basis. Reopen the comparison or deadline question. Through [PSD.11](#psd-11) and [PSD.12](#psd-12), distinguish a change that matters only under one causal account from an action that remains adequate across the retained accounts. Return a partial comparison when no current basis selects among the permanent alternatives.
+If the same arrangement transfers intolerable work to another group, or if usable information still cannot exist by the required time, the temporary option loses that basis. Reopen the comparison or deadline question. Through [PSD.11](#psd11---compare-consequences-of-decision-alternatives) and [PSD.12](#psd12---test-robustness-and-sensitivity-of-decision-alternatives-and-their-comparison), distinguish a change that matters only under one causal account from an action that remains adequate across the retained accounts. Return a partial comparison when no current basis selects among the permanent alternatives.
 
-[PSD.13](#psd-13) can now return: use the justified temporary help for this cycle; correct any established recording defect; keep the permanent rule choice open until the stated mechanism question is answered or the decision no longer needs it. This is conditional advice, not authority or evidence that the plan was executed.
+[PSD.13](#psd13---prepare-and-return-a-decision-support-recommendation) can now return: use the justified temporary help for this cycle; correct any established recording defect; keep the permanent rule choice open until the stated mechanism question is answered or the decision no longer needs it. This is conditional advice, not authority or evidence that the plan was executed.
 
 [EXD.4](EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#exd4---co-construct-and-repair-an-explanation-in-dialogue) helps explain the decisive distinction and use the recipient's response. A preparer's objection, “that identifier does not exist until Friday,” can change the formulation, deadline premise and recommendation. Repeating the original explanation more clearly would not answer it. Agreement is unnecessary for a useful return that locates the disagreement and its consequence.
 
-<a id="reconsider-the-affected-claim-after-action"></a>
+
 
 ### PSD.Application:3.5 - Reconsider the affected claim after action
 
-For the next cycle, the manager names a person with access to the sent material and processing history to report any recurrence before the following planning decision. Suppose that cycle is again delayed. [PSD.14](#psd-14) first distinguishes what was recommended, what was chosen, what people actually did and what the observations measured. Do not infer non-execution from a bad outcome or execution from a green completion flag.
+For the next cycle, the manager names a person with access to the sent material and processing history to report any recurrence before the following planning decision. Suppose that cycle is again delayed. [PSD.14](#psd14---arrange-decision-follow-up-or-reassess-advice-after-a-change) first distinguishes what was recommended, what was chosen, what people actually did and what the observations measured. Do not infer non-execution from a bad outcome or execution from a green completion flag.
 
 When the follow-up asks about a reusable working method, [ME.11](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me11---trial-the-method-in-representative-work) records the intended task and actual Work for the stated trial question. The resulting evidence can serve [ME.13](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me13---validate-a-methods-situational-fit-and-transfer) on fit or transfer and [ME.14](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me14---evaluate-a-methods-practical-worth-against-current-alternatives) on practical worth against current alternatives. One successful cycle establishes none of those broader conclusions by itself.
 
@@ -5079,7 +5079,7 @@ Several explanations may hold together, or the evidence may not distinguish them
 
 Operational work, temporary assistance and research can overlap in time. The causal graph describes proposed influences. The combination of methods describes which contribution another activity needs. The work history describes what actually occurred and when. Changing the labels on the arrows does not turn one of those structures into another.
 
-<a id="make-a-usable-aid-for-your-own-inquiry"></a>
+
 
 ### PSD.Application:3.6 - Make a usable aid for your own inquiry
 
@@ -5087,7 +5087,7 @@ The report case supplies one connected application. To use the reasoning in recu
 
 The following construction adapts the problem-card and intervention exercises in Anatoly Levenchuk's R4 guide to problem-structuring work. The filled cases are constructed teaching material. They show how to produce and change an aid; they do not establish that completing a form improves workplace decisions or that its reader has learned the method.
 
-**Derive questions from the next use.** Write the action the recipient must be able to take after reading the account. For the planning team, this is to choose a justified next response without assuming that a green timeliness indicator means usable information. Work backwards from mistakes that would change that response. Confusing a register with the received report calls for the actual material and its source. Confusing inconvenience with breach of an agreed requirement calls for the receiving work and applicable criterion. Confusing an explanation with an observation calls for separate support and conjecture. [PSD.3](#psd-3) supplies the formulation content and material contrasts; it does not require a separate form for every perspective.
+**Derive questions from the next use.** Write the action the recipient must be able to take after reading the account. For the planning team, this is to choose a justified next response without assuming that a green timeliness indicator means usable information. Work backwards from mistakes that would change that response. Confusing a register with the received report calls for the actual material and its source. Confusing inconvenience with breach of an agreed requirement calls for the receiving work and applicable criterion. Confusing an explanation with an observation calls for separate support and conjecture. [PSD.3](#psd3---generate-plural-problem-formulations) supplies the formulation content and material contrasts; it does not require a separate form for every perspective.
 
 A first problem aid for this use can have four sections:
 
@@ -5102,7 +5102,7 @@ Each section has a consumer. Evidence limits what can be asserted; alternative f
 
 An agent's dissatisfaction can itself be a real difficulty. It does not by itself establish a particular defect, cause or remedy. The aid can therefore retain “the planner reports repeated frustration” while the delivery claim remains unresolved. Conversely, a sentence in a completed form creates no empirical fact. Preserve the source and support of each claim.
 
-**Build the intervention account from the problem account.** Copy only the formulation, receiving result and conditions needed to compare responses. Do not copy a suspected cause into a field labelled “established mechanism.” For each candidate, explain what changes, how that change is expected to help, what it depends on and what observation could require revision. Include temporary help, adaptation or continuation when they are serious alternatives. [PSD.8](#psd-8) supplies alternative generation; C.28.CM and C.28.MR supply a causal construction and its consequence when that question is live.
+**Build the intervention account from the problem account.** Copy only the formulation, receiving result and conditions needed to compare responses. Do not copy a suspected cause into a field labelled “established mechanism.” For each candidate, explain what changes, how that change is expected to help, what it depends on and what observation could require revision. Include temporary help, adaptation or continuation when they are serious alternatives. [PSD.8](#psd8---generate-decision-alternatives) supplies alternative generation; C.28.CM and C.28.MR supply a causal construction and its consequence when that question is live.
 
 For the report case, the intervention aid can carry these genuinely different candidates:
 
@@ -5128,14 +5128,14 @@ This case changes the aid's explanation section to **“What grounds establish o
 
 [CHK.2](CHECKLIST-PRINCIPLES-FRAMEWORK.md#chk2---construct-a-checklist-template-that-preserves-its-questions) explains how selected questions, answer meanings and references survive a reusable form and its views. Use it when representation is the difficulty. Return a missing or unsuitable question to its substantive owner. Retain an adequate existing aid when the new version adds burden without changing what the recipient can do.
 
-If learning is the purpose, save the first attempt, explain the correction and try a changed case before claiming independent performance. [HCD.9](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-9) supplies practice with feedback; [HCD.10](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-10) helps vary the missing operation. A completed template, an intelligible description, a justified intervention and demonstrated capability are different results. This construction can finish with a useful aid and a precise unresolved question without establishing the effectiveness of an intervention or a person's later unaided performance.
+If learning is the purpose, save the first attempt, explain the correction and try a changed case before claiming independent performance. [HCD.9](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd9---perform-deliberate-practice-with-feedback) supplies practice with feedback; [HCD.10](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd10---choose-whether-and-how-to-vary-space-interleave-or-progress-practice) helps vary the missing operation. A completed template, an intelligible description, a justified intervention and demonstrated capability are different results. This construction can finish with a useful aid and a precise unresolved question without establishing the effectiveness of an intervention or a person's later unaided performance.
 
 ## PSD.Application:End
 
 
 # Framework boundary, sources and refresh
 
-<a id="what-this-framework-covers"></a>
+
 
 ## PSD.Reference:1 - What this framework covers
 
@@ -5145,16 +5145,16 @@ The framework also addresses the Methods and arrangements by which that professi
 
 | Recurring difficulty and characteristic failure | Useful result family and direct entry | Material connection |
 | --- | --- | --- |
-| The question, participants or scope are unclear; a sponsor's first story is treated as everyone's problem. | [PSD.1](#psd-1)–[PSD.4](#psd-4): a bounded engagement, participation and concern account, plural formulations and a revisable boundary. | These results qualify what later inquiry or comparison must answer. They are reused when adequate, not repeated before every calculation. |
-| Models, Methods or discussions fail to make one another's contributions usable; an agenda, diagram or agreement stands in for warranted inquiry. | [PSD.5](#psd-5)–[PSD.7](#psd-7): complementary model claims, a usable inquiry Method and shared or contested meanings. | A join must preserve the question and limits of the supplying contribution. Material corrections reach the analysis or return they change. |
-| Alternatives or their preferences are asserted before consequences, values and uncertainty justify them. | [PSD.8](#psd-8)–[PSD.12](#psd-12): a live candidate set, value account, uncertainty representation, consequence comparison and bounded robustness result. | A partial comparison remains partial. A missing candidate, protected condition or reversal can reopen the question whose answer the comparison relied on. |
-| Advice, later action and professional change are confused; delivery is treated as choice, follow-up as automatic action, or publication as cultural uptake. | [PSD.13](#psd-13)–[PSD.17](#psd-17): a qualified recommendation, follow-up arrangement, justified repertoire change, reconciliation of simultaneous inquiry and bounded cultural-continuation decision. | Each use opens only when its own question is live. A recommendation does not require changing the professional repertoire or cultural arrangements. |
+| The question, participants or scope are unclear; a sponsor's first story is treated as everyone's problem. | [PSD.1](#psd1---bound-the-decision-support-engagement-and-authority-boundary)–[PSD.4](#psd4---set-and-reopen-the-problem-boundary): a bounded engagement, participation and concern account, plural formulations and a revisable boundary. | These results qualify what later inquiry or comparison must answer. They are reused when adequate, not repeated before every calculation. |
+| Models, Methods or discussions fail to make one another's contributions usable; an agenda, diagram or agreement stands in for warranted inquiry. | [PSD.5](#psd5---construct-complementary-situation-and-option-models)–[PSD.7](#psd7---facilitate-decision-support-inquiry-and-preserve-material-dissent): complementary model claims, a usable inquiry Method and shared or contested meanings. | A join must preserve the question and limits of the supplying contribution. Material corrections reach the analysis or return they change. |
+| Alternatives or their preferences are asserted before consequences, values and uncertainty justify them. | [PSD.8](#psd8---generate-decision-alternatives)–[PSD.12](#psd12---test-robustness-and-sensitivity-of-decision-alternatives-and-their-comparison): a live candidate set, value account, uncertainty representation, consequence comparison and bounded robustness result. | A partial comparison remains partial. A missing candidate, protected condition or reversal can reopen the question whose answer the comparison relied on. |
+| Advice, later action and professional change are confused; delivery is treated as choice, follow-up as automatic action, or publication as cultural uptake. | [PSD.13](#psd13---prepare-and-return-a-decision-support-recommendation)–[PSD.17](#psd17---deliberately-continue-and-change-problem-structuring-and-decision-support-culture): a qualified recommendation, follow-up arrangement, justified repertoire change, reconciliation of simultaneous inquiry and bounded cultural-continuation decision. | Each use opens only when its own question is live. A recommendation does not require changing the professional repertoire or cultural arrangements. |
 
 The four Parts arrange these recurring difficulties for reading. They do not assert a Method sequence, a hierarchy of professional importance or a partition of every real situation. Pattern numbers are stable addresses in this framework. An actual inquiry may use one pattern, return to an earlier result or need several contributions at once.
 
-The [development-direction profile](#psd-advising-development-direction-advising) is a non-pattern use account connecting those contributions. [Construct a Bounded Development Opportunity](#psd-opportunity-construct-a-bounded-development-opportunity) describes a separately identified reusable Method and can be entered without an adviser. Both are reader support within this framework; neither adds a pattern or turns every cross-pattern use into one composite Method. The applications show their connections without replacing their full guidance.
+The [development-direction profile](#development-direction-advising) is a non-pattern use account connecting those contributions. [Construct a Bounded Development Opportunity](#construct-a-bounded-development-opportunity) describes a separately identified reusable Method and can be entered without an adviser. Both are reader support within this framework; neither adds a pattern or turns every cross-pattern use into one composite Method. The applications show their connections without replacing their full guidance.
 
-<a id="what-remains-with-another-practice"></a>
+
 
 ## PSD.Reference:2 - What remains with another practice
 
@@ -5172,7 +5172,7 @@ These are boundaries of this guidance, not declarations that the neighboring pra
 
 A real application must qualify the relied-on content for the stated subject, configuration, receiving use and horizon. [A.10](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a10---evidence-graph-referring-claim-bound-evidence-and-provenance-graph) governs that reliance, while the relevant domain practice governs the claim itself. Discovery, availability, evidence, applicability and authority are different questions.
 
-<a id="where-the-source-arguments-live"></a>
+
 
 ## PSD.Reference:3 - Where the source arguments live
 
@@ -5180,20 +5180,20 @@ Each pattern's SoTA-Echoing section owns its substantive comparison: the working
 
 | Source-informed contribution | Source line used and substantive limit | Return when the answer changes |
 | --- | --- | --- |
-| Engagement, participation and revisable framing | Smith and Shaw's 2019 PSM characterization and Kogetsidis's 2025 application review inform the continuing diverse PSM branch. Kelly and Gero 2022, Litster and colleagues 2024, and Nickel and colleagues 2024 inform non-equivalent frames and contextual revision. The bounded reviews and studies supply no universal ontology, representation guarantee or superior protocol. | [PSD.1](#psd-1), [PSD.2](#psd-2), [PSD.3](#psd-3) and [PSD.4](#psd-4): change the affected receiving-use, participation, formulation or boundary claim. |
-| Model, Method and facilitation joins | Marttunen, Lienert and Belton 2017 provide the older critical PSM–MCDA combination anchor; Lami and Tavella 2019 supply an exploratory workshop contrast. Schwarzburg and colleagues 2024 distinguish confidence-related factors from validation. Franco and Greiffenhagen 2018 and Zimmermann and Curran 2023 contribute situated interaction evidence, not guaranteed consensus or general transfer. | [PSD.5](#psd-5), [PSD.6](#psd-6) and [PSD.7](#psd-7): requalify the particular claim, Method contribution, join or attributed meaning. |
-| Alternative construction, values and comparison | Borgonovo and colleagues' 2026 decision-analysis synthesis and Greco, Słowiński and Wallenius's 2025 MCDA synthesis inform selective analytical contributions and preference-model fit. Keeney 2012 is a historical generation ingredient; Marttunen and colleagues 2019 inform disciplined objective simplification. These sources do not supply the engagement's values or warrant one total score. | [PSD.8](#psd-8), [PSD.9](#psd-9) and [PSD.11](#psd-11): revisit material alternatives, lost value distinctions or the actual comparison relation. |
-| Uncertainty, adaptation and robustness | Lempert and colleagues 2024 connect low-confidence knowledge to decision-relevant inquiry. The 2019 DAPP account contributes pathway timing and failure conditions; the 2026 decision-analysis synthesis informs sensitivity and information acquisition. Scenario membership establishes no probability, and a formal method supplies no local threshold or authority. | [PSD.10](#psd-10) and [PSD.12](#psd-12): narrow the stated range, reopen a reversal or qualify a feasible information question. |
-| Professional recommendation and development-direction use | PSD.13 uses NCDA 2024 within its profession and selected ICMCI v4.0 engagement clauses as a bounded older comparator. The profile's separate source account qualifies the used portions on 2 September 2026, including the ICMCI AI Code v1.0 of May 2026 for AI used by an adviser. That code is not AI-holder evaluation, and the older competence clauses are not represented as the complete latest standard. | [PSD.13](#psd-13) and the [profile source-responsibility account](#psdreference5---source-responsibility-and-references): revisit the service or source condition on which the advice relied. |
-| Opportunity construction before a settled result | Phillips's 2025 practitioner synthesis informs selective future exploration; NCDG 2024 supplies a bounded human information/alternative contribution; historical value-focused generation is one ingredient. Their combination supports a prospective construction Method, not empirical proof that its opportunities are reachable or effective. | The [opportunity Method](#psd-opportunity-construct-a-bounded-development-opportunity) and its source-responsibility account: revise the changed search, dependency, reachability or next-question claim. |
-| Follow-up under expected and unexpected change | Lynch and colleagues 2025 contribute domain-specific reconsideration triggers; Manley and colleagues 2026 contribute a perspective on targeted and broader observation. Their natural-resource settings do not set every client's monitoring mix, threshold or institutional response. | [PSD.14](#psd-14): reconsider the affected observation, interpretation, service obligation or recommendation use. |
-| Professional Method development | PSM comparisons, Borgonovo and colleagues 2026 and Franco and colleagues' 2021 behavioural-OR synthesis inform contribution-specific repertoire and evidence questions. Kogetsidis's 2026 online review covers selected journals in 2010–2024; publication frequency is neither a practice census nor practical worth. | [PSD.15](#psd-15): change the specific offering, applicability or evidence claim, not the whole repertoire merely because a paper appeared. |
-| Simultaneous inquiry | The older expert/facilitated contrast in Franco and Montibeller 2010, Franco and Nielsen's 2018 workshops, Franco and colleagues 2021 and Cunico and colleagues 2024 support bounded comparisons of interaction and challenge arrangements. They do not make one staffing or participation design universally best. | [PSD.16](#psd-16): requalify the actual interaction and local test; use C.32.MWA only when several structures need a joint synthesis. |
-| Cultural continuation | Yearworth's 2024 chapter summaries inform a practice-facing account. Voltan and Kells 2026 remain a conceptual GenAI-assisted proposal requiring practical testing; Czaplicka, Baumann and Rahwan 2025 offer a simplified mediation model. Neither publication, generated output nor a modeled mechanism proves professional uptake or cultural effect. | [PSD.17](#psd-17): revise the population scope or the affected claim about receiving interpretation, mediation or continuation. |
+| Engagement, participation and revisable framing | Smith and Shaw's 2019 PSM characterization and Kogetsidis's 2025 application review inform the continuing diverse PSM branch. Kelly and Gero 2022, Litster and colleagues 2024, and Nickel and colleagues 2024 inform non-equivalent frames and contextual revision. The bounded reviews and studies supply no universal ontology, representation guarantee or superior protocol. | [PSD.1](#psd1---bound-the-decision-support-engagement-and-authority-boundary), [PSD.2](#psd2---recover-participants-concerns-and-affected-systems-for-a-decision-support-inquiry), [PSD.3](#psd3---generate-plural-problem-formulations) and [PSD.4](#psd4---set-and-reopen-the-problem-boundary): change the affected receiving-use, participation, formulation or boundary claim. |
+| Model, Method and facilitation joins | Marttunen, Lienert and Belton 2017 provide the older critical PSM–MCDA combination anchor; Lami and Tavella 2019 supply an exploratory workshop contrast. Schwarzburg and colleagues 2024 distinguish confidence-related factors from validation. Franco and Greiffenhagen 2018 and Zimmermann and Curran 2023 contribute situated interaction evidence, not guaranteed consensus or general transfer. | [PSD.5](#psd5---construct-complementary-situation-and-option-models), [PSD.6](#psd6---select-problem-structuring-methods-and-combine-them-when-needed) and [PSD.7](#psd7---facilitate-decision-support-inquiry-and-preserve-material-dissent): requalify the particular claim, Method contribution, join or attributed meaning. |
+| Alternative construction, values and comparison | Borgonovo and colleagues' 2026 decision-analysis synthesis and Greco, Słowiński and Wallenius's 2025 MCDA synthesis inform selective analytical contributions and preference-model fit. Keeney 2012 is a historical generation ingredient; Marttunen and colleagues 2019 inform disciplined objective simplification. These sources do not supply the engagement's values or warrant one total score. | [PSD.8](#psd8---generate-decision-alternatives), [PSD.9](#psd9---represent-values-and-trade-offs) and [PSD.11](#psd11---compare-consequences-of-decision-alternatives): revisit material alternatives, lost value distinctions or the actual comparison relation. |
+| Uncertainty, adaptation and robustness | Lempert and colleagues 2024 connect low-confidence knowledge to decision-relevant inquiry. The 2019 DAPP account contributes pathway timing and failure conditions; the 2026 decision-analysis synthesis informs sensitivity and information acquisition. Scenario membership establishes no probability, and a formal method supplies no local threshold or authority. | [PSD.10](#psd10---represent-decision-relevant-uncertainty-and-evidence-limits) and [PSD.12](#psd12---test-robustness-and-sensitivity-of-decision-alternatives-and-their-comparison): narrow the stated range, reopen a reversal or qualify a feasible information question. |
+| Professional recommendation and development-direction use | PSD.13 uses NCDA 2024 within its profession and selected ICMCI v4.0 engagement clauses as a bounded older comparator. The profile's separate source account qualifies the used portions on 2 September 2026, including the ICMCI AI Code v1.0 of May 2026 for AI used by an adviser. That code is not AI-holder evaluation, and the older competence clauses are not represented as the complete latest standard. | [PSD.13](#psd13---prepare-and-return-a-decision-support-recommendation) and the [profile source-responsibility account](#psdreference5---source-responsibility-and-references): revisit the service or source condition on which the advice relied. |
+| Opportunity construction before a settled result | Phillips's 2025 practitioner synthesis informs selective future exploration; NCDG 2024 supplies a bounded human information/alternative contribution; historical value-focused generation is one ingredient. Their combination supports a prospective construction Method, not empirical proof that its opportunities are reachable or effective. | The [opportunity Method](#construct-a-bounded-development-opportunity) and its source-responsibility account: revise the changed search, dependency, reachability or next-question claim. |
+| Follow-up under expected and unexpected change | Lynch and colleagues 2025 contribute domain-specific reconsideration triggers; Manley and colleagues 2026 contribute a perspective on targeted and broader observation. Their natural-resource settings do not set every client's monitoring mix, threshold or institutional response. | [PSD.14](#psd14---arrange-decision-follow-up-or-reassess-advice-after-a-change): reconsider the affected observation, interpretation, service obligation or recommendation use. |
+| Professional Method development | PSM comparisons, Borgonovo and colleagues 2026 and Franco and colleagues' 2021 behavioural-OR synthesis inform contribution-specific repertoire and evidence questions. Kogetsidis's 2026 online review covers selected journals in 2010–2024; publication frequency is neither a practice census nor practical worth. | [PSD.15](#psd15---decide-whether-and-how-to-change-problem-structuring-and-decision-support-methods): change the specific offering, applicability or evidence claim, not the whole repertoire merely because a paper appeared. |
+| Simultaneous inquiry | The older expert/facilitated contrast in Franco and Montibeller 2010, Franco and Nielsen's 2018 workshops, Franco and colleagues 2021 and Cunico and colleagues 2024 support bounded comparisons of interaction and challenge arrangements. They do not make one staffing or participation design universally best. | [PSD.16](#psd16---reconcile-simultaneous-problem-structuring-and-decision-support-work): requalify the actual interaction and local test; use C.32.MWA only when several structures need a joint synthesis. |
+| Cultural continuation | Yearworth's 2024 chapter summaries inform a practice-facing account. Voltan and Kells 2026 remain a conceptual GenAI-assisted proposal requiring practical testing; Czaplicka, Baumann and Rahwan 2025 offer a simplified mediation model. Neither publication, generated output nor a modeled mechanism proves professional uptake or cultural effect. | [PSD.17](#psd17---deliberately-continue-and-change-problem-structuring-and-decision-support-culture): revise the population scope or the affected claim about receiving interpretation, mediation or continuation. |
 
 Publication years identify sources; they do not by themselves identify a qualification window or show that a claim is still reliable. Older anchors remain useful for the particular contribution named above, while later work can repair their limits. Currentness is bounded to the actual inspected claim and intended use. No table here guarantees continuous monitoring or validates a local case.
 
-<a id="change-only-what-the-new-basis-changes"></a>
+
 
 ## PSD.Reference:4 - Change only what the new basis changes
 
@@ -5210,7 +5210,7 @@ For example, loss of a mobile pump's access premise reopens that branch, not ind
 
 Keep earlier source states recoverable when revising this guidance. An updated description does not rewrite past Work, earlier advice, prior choices or their evidence. Changes that alter a recurring problem, useful result, boundary between practices responsible for a result or claim, or whole-field promise need the corresponding content decision; changed links or presentation alone do not create a new practice or prove improvement.
 
-<a id="source-responsibility-and-references"></a>
+
 
 ## PSD.Reference:5 - Source responsibility and references
 
@@ -5227,7 +5227,7 @@ The Development-direction advising profile and Construct a Bounded Development O
 
 The ICMCI [June 2026 release announcement](https://www.cmc-global.org/content/icmci-launches-global-code-responsible-use-ai-management-consulting) supports the AI Code's publication context. Its professional clauses above come from the Code itself, not the announcement. The [2026 competence-framework update presentation](https://www.cmc-global.org/content/icd-2026) is separately discoverable; the present account makes no claim to have inspected or replaced the entire revised certification framework. The older selected engagement clauses are not represented as a complete current standard.
 
-<a id="obtain-the-result-needed-for-the-developing-subject"></a>
+
 
 ### PSD.Reference:5.1 - Obtain the result needed for the developing subject
 
@@ -5242,7 +5242,7 @@ The ICMCI [June 2026 release announcement](https://www.cmc-global.org/content/ic
 
 The sources support the method's ingredients and their limits. Testing the combined opportunity-construction method, or establishing the effect of an intervention, requires evidence from its actual use.
 
-<a id="keep-source-changes-and-case-changes-distinct"></a>
+
 
 ### PSD.Reference:5.2 - Keep source changes and case changes distinct
 

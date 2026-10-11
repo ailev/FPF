@@ -22,13 +22,13 @@ You may know formulas or individual operations and still be unable to connect th
 | Develop a physical prediction and decide which observation matters | [Connect physical accounts and observations](PHYSICAL-THINKING-DPF.md#ph-predict-and-distinguish---develop-a-physical-prediction-and-the-test-it-needs): constrain the law, derive a consequence, compare the observations that matter and revise the affected premise. |
 | Construct an algorithm and adapt it when the required answer changes | [Keep construction and output consistent](COMPUTATIONAL-THINKING-DPF.md#cp-answer-under-limits---obtain-the-answer-the-work-needs-within-available-resources): construct the recurrence, share results, use bounds where they reduce search, and revisit what may be discarded. |
 | Carry a changed instruction through several expressions | [Keep meaning and change connected](NOTATIONAL-ENGINEERING-DPF.md#nt-change-together---carry-a-changed-request-through-several-representations): recover references and interpretation, expose translation losses, and update the affected expressions. |
-| Connect mathematics to changes in working methods | [Understand and change a construction](FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md#32-understand-and-change-a-construction): retain the distinction a later operation uses and connect it to Method Engineering. |
-| Make reasoning available to other contributors and develop its next use | [Continue and distribute thinking](FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md#35-continue-and-distribute-thinking): recover a missing relation, arrange explanation or support, change the work and preserve the method for further development. |
+| Connect mathematics to changes in working methods | [Understand and change a construction](FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md#foundationalreference32---understand-and-change-a-construction): retain the distinction a later operation uses and connect it to Method Engineering. |
+| Make reasoning available to other contributors and develop its next use | [Continue and distribute thinking](FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md#foundationalreference35---continue-and-distribute-thinking): recover a missing relation, arrange explanation or support, change the work and preserve the method for further development. |
 
 
 These examples use several patterns together. Their short sequences show dependencies; worked explanations give calculations and return points. Start at a later contribution when its inputs are available. Each DPF's Table of Contents also gives direct help for other questions.
 
-The [vertical of ongoing work](FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md#39-keep-the-vertical-visible-while-doing-the-work) asks a complementary question: what larger work is being performed through this action now, and what constituent abilities and resources make it possible? It helps locate a missing intermediate Method or capability even when the elementary operations and the intended whole are familiar.
+The [vertical of ongoing work](FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md#foundationalreference39---keep-the-vertical-visible-while-doing-the-work) asks a complementary question: what larger work is being performed through this action now, and what constituent abilities and resources make it possible? It helps locate a missing intermediate Method or capability even when the elementary operations and the intended whole are familiar.
 
 ## Use the publications
 
@@ -43,7 +43,7 @@ Each size covers the full linked Markdown file, including spaces and markup. 1 M
 | Product series | Publication status | Useful contribution |
 | --- | --- | --- |
 | [Mathematical Thinking DPF](MATHEMATICAL-PRACTICE-DPF.md) | Published - 20 patterns, 0.477 M characters | Construct objects, operations and arguments; derive and use consequences. |
-| [Mathematical Modeling DPF](MATHEMATICAL-MODELING-PRACTICE-DPF.md) | Published - 15 patterns, 0.473 M characters | Formulate questions, infer unknowns, construct causal comparisons, choose useful observations, construct continuing decisions, and change or combine models while retaining the needed answer. |
+| [Mathematical Modeling DPF](MATHEMATICAL-MODELING-PRACTICE-DPF.md) | Published - 15 patterns, 0.509 M characters | Formulate questions, infer unknowns, construct causal comparisons, choose useful observations, construct continuing decisions, and change or combine models while retaining the needed answer. |
 | [Physical Thinking DPF](PHYSICAL-THINKING-DPF.md) | Published - 10 patterns, 0.303 M characters | Construct physical accounts, derive their consequences, build observations and revise physical assumptions. |
 | [Computational Thinking DPF](COMPUTATIONAL-THINKING-DPF.md) | Published - 14 patterns, 0.324 M characters | Construct and transform algorithms; connect their meaning, representations, resource requirements and interactions. |
 | [Notational Engineering DPF](NOTATIONAL-ENGINEERING-DPF.md) | Published - 8 patterns, 0.219 M characters | Design, interpret, transform and coordinate expressions, including temporal and embodied notation. |

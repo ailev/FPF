@@ -2182,7 +2182,7 @@ Reopen the arrangement comparison when one supported use requires a joint editio
 
 # Cross-Pattern Application
 
-<a id="app-sie-01---ap242-and-qif-product-lifecycle-query"></a>
+
 
 ## SIE.Application:1 - APP-SIE-01 - AP242 and QIF product-lifecycle query
 
@@ -2205,7 +2205,7 @@ The application uses the repertoire as follows:
 
 The constructed package returns the contract-permitted qualified row set, with unmatched or incompatible results and the unresolved local-extension and unknown-unit branches visible separately. It stops if configuration/effectivity or feature identity is unresolved, a load-bearing source edition cannot be qualified, a conflict is hidden, or the receiving query fails. It supplies evidence to the applicable `SYSE.7`, `SYSE.13`, `SYSE.14`, or quality owner; it does not choose the released revision or accept the inspection result.
 
-<a id="app-sie-02---semiconductor-identity-and-traceability"></a>
+
 
 ## SIE.Application:2 - APP-SIE-02 - Semiconductor identity and traceability
 
@@ -2213,7 +2213,7 @@ A recall-triage query crosses SEMI device/substrate identifiers, GS1 events, sup
 
 The interface can return a bounded trace, unresolved branch, or prohibited-disclosure stop. MDM and domain stewards retain authoritative identity and value decisions; quality, safety, and recall authorities retain action.
 
-<a id="app-sie-03---end-to-end-quality-and-provenance"></a>
+
 
 ## SIE.Application:3 - APP-SIE-03 - End-to-end quality and provenance
 
@@ -2223,7 +2223,7 @@ A mapping that returns 1 millimetre for an input of 1 metre fails the required c
 
 For a positive whole-use or permitted subset result, SIE.10 covers every load-bearing premise, including receiving interpretation, with new or matching earlier evidence. Pipeline defects return to Data Engineering, mapping defects to SIE.7, and source defects to their owners. A quality vocabulary or process certificate cannot supply missing evidence for the receiving claim.
 
-<a id="app-sie-04---high-change-provider-availability-without-a-materialized-graph"></a>
+
 
 ## SIE.Application:4 - APP-SIE-04 - High-change provider availability without a materialized graph
 
@@ -2231,7 +2231,7 @@ Two providers expose current availability through governed APIs. One field means
 
 SIE.3 can finish by reusing a model that distinguishes the two quantities, their attribution, unit, time, and horizon. If a provider later changes its promise horizon, SIE.11 finds which mappings and receiving interpretations depend on that meaning; unaffected product descriptions can retain their qualification. The purchasing application decides what to do with incomplete or non-comparable results.
 
-<a id="app-sie-05---a-modular-equipment-classification-commons"></a>
+
 
 ## SIE.Application:5 - APP-SIE-05 - A Modular Equipment-Classification Commons
 
@@ -2246,7 +2246,7 @@ The contact communicates and routes questions. Source owners retain their produc
 
 # Framework Boundary and Refresh
 
-<a id="intended-use-and-ordinary-non-use"></a>
+
 
 ## SIE.Reference:1 - Intended use and ordinary non-use
 
@@ -2254,13 +2254,13 @@ Use this framework when the working result must make separately governed meaning
 
 Do not use SIE for local modeling with no cross-source receiving-use question, physical data movement, pipeline operation, one application's schema design, master-data authority, product configuration or release, generic representation choice, or the receiver's operational decision. Obtain those results from their owning practices. A local mapping inside one source can remain local unless it changes a cross-source semantic result.
 
-<a id="patternid-and-reader-order"></a>
+
 
 ## SIE.Reference:2 - PatternID and reader order
 
 `SIE.*` is the Semantic Integration Engineering PatternID namespace. Numbers are stable addresses, not steps or maturity levels. The Table of Contents gives reader order. A dependency names a result needed by one use; it does not require every lower-numbered body to run.
 
-<a id="supplied-pattern-repertoire"></a>
+
 
 ## SIE.Reference:3 - Supplied pattern repertoire
 
@@ -2272,7 +2272,7 @@ The complete first edition supplies `SIE.1`–`SIE.12`. The model, change, and c
 
 A supplied Method guides the work; an inaccessible source, unresolved meaning, missing right, or absent implementation result can still limit a particular use.
 
-<a id="package-anatomy-and-direct-result-relations"></a>
+
 
 ## SIE.Reference:4 - Package anatomy and direct result relations
 
@@ -2289,7 +2289,7 @@ A supplied Method guides the work; an inaccessible source, unresolved meaning, m
 
 `SIE.1 → SIE.2` supplies the use and source cut. `SIE.2 → SIE.3` is conditional. `SIE.2` and any supplied use-fit model feed `SIE.4`–`SIE.6`. `SIE.4` can expose an identity question for `SIE.5` and supplies semantic premises to `SIE.7`. `SIE.5` supplies load-bearing identity premises to `SIE.6`, `SIE.7`, and `SIE.10`. `SIE.6` supplies a qualified composition or explicit conflict branch to `SIE.7` and `SIE.9`. `SIE.7 → SIE.8 → SIE.9 → SIE.10` connects executable semantics to realization, receiver, and bounded validation. SIE.11 revisits only affected reliance, using these dependencies where material. SIE.12 supplies shared-module arrangements when actual users require them. These relations may iterate.
 
-<a id="pattern-selection-and-first-returned-result"></a>
+
 
 ## SIE.Reference:5 - Pattern selection and first returned result
 
@@ -2308,7 +2308,7 @@ A supplied Method guides the work; an inaccessible source, unresolved meaning, m
 | What follows from a changed semantic premise? | `SIE.11` | qualified direct result, scoped gap, or a common affected-use account when needed |
 | How should shared semantic modules be maintained? | `SIE.12` for actual commons users | `ModularSemanticCommonsAccount@Community` or exact blocker |
 
-<a id="source-use-and-currentness"></a>
+
 
 ## SIE.Reference:6 - Source use and currentness
 
@@ -2331,7 +2331,7 @@ The source contributions guide particular actions and qualifications. Each body 
 
 The foundation source cut was qualified on 4 September 2026. The model, evolution, and commons contributions were qualified on 8 September using LOT, the maintained LOT4KG description, OWL 2, and the selected OBO principles. LOT4KG's site cites an under-review manuscript and contains mixed date metadata; its inspected activities supply method guidance rather than proof of a final peer-reviewed edition or measured advantage. The earlier [2024 joint-methodology proposal](https://2024.eswc-conferences.org/wp-content/uploads/2024/05/77770275.pdf) is historical background; its future-work account does not describe the maintained method's current evolution activities. The public ISO/IEC 21838-1:2021 description and stage 90.20 systematic review since 15 July 2026 delimit its use here; no full-standard conformance is claimed. Reopen only choices affected by changed relied-on content or use conditions.
 
-<a id="related-modeling-and-engineering-work"></a>
+
 
 ## SIE.Reference:7 - Related modeling and engineering work
 
@@ -2344,7 +2344,7 @@ Use SIE for the contribution that makes separately governed meanings usable toge
 | Formal apparatus needed by a semantic mapping or validation | exact formal apparatus may become a source, mapping, or validation premise | formal modeling itself is not an SIE lifecycle |
 | Connected engineering descriptions and changed lifecycle information | SIE can return a qualified semantic interface, mapping package, identity/claim result, or affected-use result | SYSE keeps engineering descriptions, configuration, release, assurance, and digital-thread decisions; Data Engineering keeps pipeline operation |
 
-<a id="fpf-neighboring-practice-and-authority-boundaries"></a>
+
 
 ## SIE.Reference:8 - FPF, neighboring practice, and authority boundaries
 
@@ -2352,7 +2352,7 @@ FPF owns generic representation, grounding, evidence, source/currentness, identi
 
 SIE supplies Methods for use-qualified model content, cross-source meanings and correspondences, identity and claim composition, executable mappings, realization, interfaces, validation, changed semantic reliance, and modular commons. Return every non-SIE result to its owner with the exact dependent action.
 
-<a id="representative-case-coverage"></a>
+
 
 ## SIE.Reference:9 - Representative case coverage
 
@@ -2366,13 +2366,13 @@ The five applications are constructed method demonstrations, not evidence of a p
 | high-change providers | sufficient model reuse, explicit semantic difference, virtual realization, availability/error branches, changed promise horizon, and non-comparability | providers retain source meanings and permissions; purchasing owns action |
 | equipment-classification commons | module boundaries, local correspondences, identification, decision and release rights, semantic change, migration, and notice | contacts communicate; source owners and receiving users retain their respective decisions |
 
-<a id="edition-return"></a>
+
 
 ## SIE.Reference:10 - Edition return
 
 **Semantic Integration Engineering Principles Framework — First Edition, 20 September 2026** designates the source, twelve authoritative pattern bodies, and deterministic carrier of the complete twelve-pattern first edition. The publication supplies practitioner guidance and constructed examples. An implemented service, maintained commons, or receiving decision needs the corresponding actual work and evidence.
 
-<a id="publication-boundary"></a>
+
 
 ## SIE.Reference:11 - Publication boundary
 

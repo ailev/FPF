@@ -23,36 +23,36 @@ Search the Keywords & Search Queries column for the working difficulty or result
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [STR.1 - Identify the Strategic Decision, System, and Scope](#str-1) | — | *Keywords:* decision, strategic subject, horizon, authority, scope. *Queries:* "Whose strategy and which decision are we considering?" "Can a bounded frame finish without a new development project?" Identify the subject, receiving choice, affected interests and ordinary stop. | FPF A.1.SCR, A.10; STR.2/3 when needed |
-| 2 | [STR.2 - Assess How Material Changes Affect Strategic Assumptions and Choices](#str-2) | — | *Keywords:* changed premise, price, evidence, capability, source impact. *Queries:* "What does this change affect?" "Can the current answer continue?" Trace the qualified change to its actual strategic use and preserve independent results. | FPF A.10/10.1; STR.1, STR.3, STR.12 for affected returns |
-| 3 | [STR.3 - Frame Uncertainty and the Strategic Problem](#str-3) | — | *Keywords:* uncertainty, framing, problem, opportunity, values. *Queries:* "What problem are we trying to resolve?" "Is this missing evidence, a disputed value or missing authority?" Form a decision-relevant question without making reframing compulsory. | PSD.3, PSD.10; FPF C.11; STR.1/2 |
-| 4 | [STR.4 - Construct Scenarios for Strategic Choices](#str-4) | — | *Keywords:* scenarios, plausible futures, causal conditions, signposts. *Queries:* "Which different futures can change the preferred direction?" "Would one qualified forecast suffice?" Construct discriminating conditions without invented probabilities. | STR.3; FPF C.17 when characterization is needed |
+| 1 | [STR.1 - Identify the Strategic Decision, System, and Scope](#str1---identify-the-strategic-decision-system-and-scope) | — | *Keywords:* decision, strategic subject, horizon, authority, scope. *Queries:* "Whose strategy and which decision are we considering?" "Can a bounded frame finish without a new development project?" Identify the subject, receiving choice, affected interests and ordinary stop. | FPF A.1.SCR, A.10; STR.2/3 when needed |
+| 2 | [STR.2 - Assess How Material Changes Affect Strategic Assumptions and Choices](#str2---assess-how-material-changes-affect-strategic-assumptions-and-choices) | — | *Keywords:* changed premise, price, evidence, capability, source impact. *Queries:* "What does this change affect?" "Can the current answer continue?" Trace the qualified change to its actual strategic use and preserve independent results. | FPF A.10/10.1; STR.1, STR.3, STR.12 for affected returns |
+| 3 | [STR.3 - Frame Uncertainty and the Strategic Problem](#str3---frame-uncertainty-and-the-strategic-problem) | — | *Keywords:* uncertainty, framing, problem, opportunity, values. *Queries:* "What problem are we trying to resolve?" "Is this missing evidence, a disputed value or missing authority?" Form a decision-relevant question without making reframing compulsory. | PSD.3, PSD.10; FPF C.11; STR.1/2 |
+| 4 | [STR.4 - Construct Scenarios for Strategic Choices](#str4---construct-scenarios-for-strategic-choices) | — | *Keywords:* scenarios, plausible futures, causal conditions, signposts. *Queries:* "Which different futures can change the preferred direction?" "Would one qualified forecast suffice?" Construct discriminating conditions without invented probabilities. | STR.3; FPF C.17 when characterization is needed |
 
 **Part II - Construct Feasible Directions and Options**
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 5 | [STR.5 - Generate Strategic Directions](#str-5) | — | *Keywords:* direction, unsettled contribution, strategic filter, beneficiaries, exclusions. *Queries:* "What could be worthwhile when no contribution is settled?" "Which proposals fit this direction?" Distinguish a provisional problem/contribution from a direction and its conditional filter. | STR.3/4 where material; DOCA.2/3 for leads and problem/contribution; adequate DOCA.4/5 results |
-| 6 | [STR.6 - Construct Strategic Option Families or Develop Reusable Material for Strategic Exploration](#str-6) | — | *Keywords:* options, families, unknown Method, material development, diversity, stepping stones, target transfer. *Queries:* "How can we find a credible way to obtain this contribution?" "What can this reusable material become?" "What changes when a way meets another problem?" Recover explained whole candidates or examined continuations with gaps and carrying costs. | STR.5/8; FPF C.38, C.18 where their claims apply |
-| 7 | [STR.7 - Decide Whether and How to Experiment While Preserving Strategic Options](#str-7) | — | *Keywords:* experiment, inquiry, evidence value, exposure, stop. *Queries:* "Will another test change this choice enough to justify its burden?" "Can current evidence settle it?" Design only a worthwhile bounded discriminating inquiry. | STR.6/8; FPF C.11, C.11.DUA; PSD.10 |
-| 8 | [STR.8 - Relate Capabilities, Dependencies, Business Models, and Initiatives](#str-8) | — | *Keywords:* capability, business model, dependencies, initiative, provider. *Queries:* "What must actually work to deliver this contribution?" "Is the gap in skill, access, organization or means?" Connect the promise to feasible or missing contributions. | STR.5/6; OCE/HCD/SYSE/OPS results; FPF E.18.NET for a needed cross-flow network |
+| 5 | [STR.5 - Generate Strategic Directions](#str5---generate-strategic-directions) | — | *Keywords:* direction, unsettled contribution, strategic filter, beneficiaries, exclusions. *Queries:* "What could be worthwhile when no contribution is settled?" "Which proposals fit this direction?" Distinguish a provisional problem/contribution from a direction and its conditional filter. | STR.3/4 where material; DOCA.2/3 for leads and problem/contribution; adequate DOCA.4/5 results |
+| 6 | [STR.6 - Construct Strategic Option Families or Develop Reusable Material for Strategic Exploration](#str6---construct-strategic-option-families-or-develop-reusable-material-for-strategic-exploration) | — | *Keywords:* options, families, unknown Method, material development, diversity, stepping stones, target transfer. *Queries:* "How can we find a credible way to obtain this contribution?" "What can this reusable material become?" "What changes when a way meets another problem?" Recover explained whole candidates or examined continuations with gaps and carrying costs. | STR.5/8; FPF C.38, C.18 where their claims apply |
+| 7 | [STR.7 - Decide Whether and How to Experiment While Preserving Strategic Options](#str7---decide-whether-and-how-to-experiment-while-preserving-strategic-options) | — | *Keywords:* experiment, inquiry, evidence value, exposure, stop. *Queries:* "Will another test change this choice enough to justify its burden?" "Can current evidence settle it?" Design only a worthwhile bounded discriminating inquiry. | STR.6/8; FPF C.11, C.11.DUA; PSD.10 |
+| 8 | [STR.8 - Relate Capabilities, Dependencies, Business Models, and Initiatives](#str8---relate-capabilities-dependencies-business-models-and-initiatives) | — | *Keywords:* capability, business model, dependencies, initiative, provider. *Queries:* "What must actually work to deliver this contribution?" "Is the gap in skill, access, organization or means?" Connect the promise to feasible or missing contributions. | STR.5/6; OCE/HCD/SYSE/OPS results; FPF E.18.NET for a needed cross-flow network |
 
 **Part III - Compare and Commit Within Authority**
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 9 | [STR.9 - Compare Strategic Options for Robustness and Option Value](#str-9) | — | *Keywords:* robustness, nonlinear exposure, regret, option value, reversal, whole cost. *Queries:* "Which option remains useful across these conditions?" "What can the central estimate conceal?" "What would reverse this preference?" Compare the same question and horizon with explicit flexibility costs. | STR.6/8; PSD.12; FPF C.11.CRC when comparison is missing |
-| 10 | [STR.10 - Compare Strategic Commitments and Affected-System Consequences](#str-10) | — | *Keywords:* commitment, consequences, affected Systems, protected limits. *Queries:* "What do we expose or sacrifice by committing?" "Who bears the effects?" Compare whole commitments without compensating away a binding condition. | STR.8/9; PSD.9/11; FPF A.1.CSD, C.11.DUA where needed |
-| 11 | [STR.11 - Select Strategy, Portfolio Commitments, and Assumptions](#str-11) | — | *Keywords:* choice, portfolio, retained alternatives, joint use, authorization. *Queries:* "What is actually selected and funded?" "Can a small preparation leave the larger direction open?" Separate recommendation, membership use and bounded commitment. | STR.9/10; PSD.10; FPF C.11, G.5 for the applicable set use |
+| 9 | [STR.9 - Compare Strategic Options for Robustness and Option Value](#str9---compare-strategic-options-for-robustness-and-option-value) | — | *Keywords:* robustness, nonlinear exposure, regret, option value, reversal, whole cost. *Queries:* "Which option remains useful across these conditions?" "What can the central estimate conceal?" "What would reverse this preference?" Compare the same question and horizon with explicit flexibility costs. | STR.6/8; PSD.12; FPF C.11.CRC when comparison is missing |
+| 10 | [STR.10 - Compare Strategic Commitments and Affected-System Consequences](#str10---compare-strategic-commitments-and-affected-system-consequences) | — | *Keywords:* commitment, consequences, affected Systems, protected limits. *Queries:* "What do we expose or sacrifice by committing?" "Who bears the effects?" Compare whole commitments without compensating away a binding condition. | STR.8/9; PSD.9/11; FPF A.1.CSD, C.11.DUA where needed |
+| 11 | [STR.11 - Select Strategy, Portfolio Commitments, and Assumptions](#str11---select-strategy-portfolio-commitments-and-assumptions) | — | *Keywords:* choice, portfolio, retained alternatives, joint use, authorization. *Queries:* "What is actually selected and funded?" "Can a small preparation leave the larger direction open?" Separate recommendation, membership use and bounded commitment. | STR.9/10; PSD.10; FPF C.11, G.5 for the applicable set use |
 
 **Part IV - Revisit and Sustain Strategic Practice**
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 12 | [STR.12 - Observe Signals to Continue or Reconsider Strategic Direction and Commitments](#str-12) | — | *Keywords:* signals, reconsideration, pivot, pause, stop, continue. *Queries:* "What does this observation change?" "Who may respond and by when?" Distinguish warning, renewed judgement and an authorized response. | STR.11; PSD.14; FPF A.10.1 for multiple changed-source uses |
-| 13 | [STR.13 - Choose and Maintain Strategy Methods](#str-13) | — | *Keywords:* methods for strategy work, practical worth, variants, provenance, reuse. *Queries:* "Which search or comparison Method is worth using here?" "Did the Method change or only its description?" Maintain the strategic repertoire; use STR.6 for the subject’s missing obtaining way. | ME.14/15; FPF G.5, G.11 for applicable selection/refresh |
-| 14 | [STR.14 - Reconcile Simultaneous Strategic Work Across Horizons and Scales](#str-14) | — | *Keywords:* simultaneous work, horizons, shared capacity, moved burden. *Queries:* "Can these commitments coexist?" "What does this local improvement displace?" Reconcile whole configurations while keeping different developing subjects and authorities distinct. | STR.8–STR.11; FPF C.32.MWA, C.11.CRC; realization results |
-| 15 | [STR.15 - Deliberately Continue and Change Strategy Culture](#str-15) | — | *Keywords:* culture, transmission, enactment, recognition, selection, memory. *Queries:* "What strategic practice is actually being continued or lost?" "Would a template change the real relation?" Support a bounded continuation, intervention or stop. | FPF C.36; STR.13; OCE/HCD contributions when needed |
+| 12 | [STR.12 - Observe Signals to Continue or Reconsider Strategic Direction and Commitments](#str12---observe-signals-to-continue-or-reconsider-strategic-direction-and-commitments) | — | *Keywords:* signals, reconsideration, pivot, pause, stop, continue. *Queries:* "What does this observation change?" "Who may respond and by when?" Distinguish warning, renewed judgement and an authorized response. | STR.11; PSD.14; FPF A.10.1 for multiple changed-source uses |
+| 13 | [STR.13 - Choose and Maintain Strategy Methods](#str13---choose-and-maintain-strategy-methods) | — | *Keywords:* methods for strategy work, practical worth, variants, provenance, reuse. *Queries:* "Which search or comparison Method is worth using here?" "Did the Method change or only its description?" Maintain the strategic repertoire; use STR.6 for the subject’s missing obtaining way. | ME.14/15; FPF G.5, G.11 for applicable selection/refresh |
+| 14 | [STR.14 - Reconcile Simultaneous Strategic Work Across Horizons and Scales](#str14---reconcile-simultaneous-strategic-work-across-horizons-and-scales) | — | *Keywords:* simultaneous work, horizons, shared capacity, moved burden. *Queries:* "Can these commitments coexist?" "What does this local improvement displace?" Reconcile whole configurations while keeping different developing subjects and authorities distinct. | STR.8–STR.11; FPF C.32.MWA, C.11.CRC; realization results |
+| 15 | [STR.15 - Deliberately Continue and Change Strategy Culture](#str15---deliberately-continue-and-change-strategy-culture) | — | *Keywords:* culture, transmission, enactment, recognition, selection, memory. *Queries:* "What strategic practice is actually being continued or lost?" "Would a template change the real relation?" Support a bounded continuation, intervention or stop. | FPF C.36; STR.13; OCE/HCD contributions when needed |
 
 # Strategy Principles Framework Readme
 
@@ -67,7 +67,7 @@ You can ask an assisting agent to explain or apply these methods in the language
 - **Situation:** A changed premise makes a direction doubtful, while current obligations and several proposed initiatives compete for the same resources.
 - **Question:** What can be recommended or committed now, and what would require reconsideration?
 - **First useful result or blocker:** A recommendation or authorized commitment for a stated scope, with its supporting comparison and remaining conditions, or the missing result that prevents it.
-- **Start with:** [STR.1](#str-1) for an unsettled decision; [STR.2](#str-2) for a changed premise in a decision already formed.
+- **Start with:** [STR.1](#str1---identify-the-strategic-decision-system-and-scope) for an unsettled decision; [STR.2](#str2---assess-how-material-changes-affect-strategic-assumptions-and-choices) for a changed premise in a decision already formed.
 - **Stop or return:** Finish at the result the receiving decision needs. A frame or comparison can finish without a commitment; a missing permission blocks its dependent action.
 
 In [SensorCo's application](#strapplication1---app-str-01---choose-sensorcos-response-to-commoditized-ai-inspection), falling generic-inspection prices challenge expansion but do not invalidate current service funded by existing contracts. STR.2 separates these uses of the old premise. It also leaves demand and cost for a proposed integrated service unresolved: the price fall does not establish either. STR.3 uses this distinction and the available uncertainty account to frame the twelve-month choice while preserving viable device-only continuation.
@@ -89,7 +89,7 @@ Different purposes change the comparison. In the [personal-practice case](#strap
 - **Situation:** A course, technology or reusable piece of work looks promising, but the worthwhile contribution or a way to obtain it is still unclear.
 - **Question:** Which result is worth pursuing, how could it be obtained, and what can useful existing material reveal?
 - **First useful result or blocker:** A conditional direction, an explanation of how to obtain it, including unresolved dependencies, or an examined variation that supports the next problem question.
-- **Start with:** [STR.5](#str-5) for an unsettled contribution; [STR.6](#str-6) for an unclear way of obtaining that result or development of available material.
+- **Start with:** [STR.5](#str5---generate-strategic-directions) for an unsettled contribution; [STR.6](#str6---construct-strategic-option-families-or-develop-reusable-material-for-strategic-exploration) for an unclear way of obtaining that result or development of available material.
 - **Stop or return:** Reuse an adequate direction or method. Return a changed receiving problem to STR.5; stop at a useful explanation, examined difference or missing condition rather than requiring a complete new strategy.
 
 STR.5's personal case begins before the course is chosen. Existing clients need the professional's current analysis; a colleague reports trouble preparing a planning decision. The inquiry distinguishes unclear alternatives and constraints from an unavailable decision holder. A comparison could help with the first problem but cannot supply authority for the second. The first explanation can therefore support a direction: help this group prepare its decision while protecting current obligations. The course is one possible means. The resulting direction and time limit are inputs to option construction and commitment comparison, not evidence that the course is worthwhile.
@@ -260,7 +260,7 @@ A framework explains how to obtain or qualify a result. The strategic decision n
 
 # Part I - Locate the Strategic Concern and Uncertainty
 
-<a id="str-1"></a>
+
 ## STR.1 - Identify the Strategic Decision, System, and Scope
 
 > **Type:** Method pattern
@@ -425,7 +425,7 @@ FPF A.6.P helps recover the concrete objects and claims hidden by shared wording
 
 ### STR.1:End
 
-<a id="str-2"></a>
+
 ## STR.2 - Assess How Material Changes Affect Strategic Assumptions and Choices
 
 > **Type:** Method pattern
@@ -596,7 +596,7 @@ FPF A.10 supports claim-bound evidence for one known use. A.10.1 supplies affect
 
 ### STR.2:End
 
-<a id="str-3"></a>
+
 ## STR.3 - Frame Uncertainty and the Strategic Problem
 
 > **Type:** Method pattern
@@ -752,7 +752,7 @@ STR.7 considers the worth of an actual proposed experiment. STR.10 examines comm
 
 ### STR.3:End
 
-<a id="str-4"></a>
+
 ## STR.4 - Construct Scenarios for Strategic Choices
 
 > **Type:** Method pattern
@@ -936,7 +936,7 @@ STR.8 and STR.14 address capability and joint-work conditions exposed by a scena
 
 # Part II - Construct Feasible Directions and Options
 
-<a id="str-5"></a>
+
 ## STR.5 - Generate Strategic Directions
 
 > **Type:** Method pattern
@@ -1121,7 +1121,7 @@ DOCA.2 supplies contrasting development leads when the contribution is still uns
 
 ### STR.5:End
 
-<a id="str-6"></a>
+
 ## STR.6 - Construct Strategic Option Families or Develop Reusable Material for Strategic Exploration
 
 > **Type:** Method pattern
@@ -1382,7 +1382,7 @@ FPF C.38 supplies whole same-result candidate formation. C.17 characterizes a su
 
 ### STR.6:End
 
-<a id="str-7"></a>
+
 ## STR.7 - Decide Whether and How to Experiment While Preserving Strategic Options
 
 > **Type:** Method pattern
@@ -1578,7 +1578,7 @@ PSD.10 supplies qualified uncertainty when needed. FPF C.11 governs local choice
 
 ### STR.7:End
 
-<a id="str-8"></a>
+
 ## STR.8 - Relate Capabilities, Dependencies, Business Models, and Initiatives
 
 > **Type:** Method pattern
@@ -1868,7 +1868,7 @@ For a proposed combination of changes, B.1.5.EW explains constituent and encompa
 
 # Part III - Compare and Commit Within Authority
 
-<a id="str-9"></a>
+
 ## STR.9 - Compare Strategic Options for Robustness and Option Value
 
 > **Type:** Method pattern
@@ -2094,7 +2094,7 @@ OPS.14 supplies a bounded operating-financial consequence account; OPS.15 suppli
 
 ### STR.9:End
 
-<a id="str-10"></a>
+
 ## STR.10 - Compare Strategic Commitments and Affected-System Consequences
 
 > **Type:** Method pattern
@@ -2273,7 +2273,7 @@ PSD.9 and PSD.11 supply value and consequence accounts for the same use. FPF A.1
 
 ### STR.10:End
 
-<a id="str-11"></a>
+
 ## STR.11 - Select Strategy, Portfolio Commitments, and Assumptions
 
 > **Type:** Method pattern
@@ -2455,7 +2455,7 @@ PSD.10 supplies decision-linked uncertainty within its original limits. FPF C.11
 
 # Part IV - Revisit and Sustain Strategic Practice
 
-<a id="str-12"></a>
+
 ## STR.12 - Observe Signals to Continue or Reconsider Strategic Direction and Commitments
 
 > **Type:** Method pattern
@@ -2664,7 +2664,7 @@ A revisable strategy need not be constantly revised. Preserving a qualified deci
 
 ### STR.12:End
 
-<a id="str-13"></a>
+
 ## STR.13 - Choose and Maintain Strategy Methods
 
 > **Type:** Method pattern
@@ -2857,7 +2857,7 @@ Maintaining meaning and evidence separately from visible artifacts lets descript
 
 ### STR.13:End
 
-<a id="str-14"></a>
+
 ## STR.14 - Reconcile Simultaneous Strategic Work Across Horizons and Scales
 
 > **Type:** Method pattern
@@ -3068,7 +3068,7 @@ For the tension between current efficiency and adaptive capability, [Teece's 202
 
 ### STR.14:End
 
-<a id="str-15"></a>
+
 ## STR.15 - Deliberately Continue and Change Strategy Culture
 
 > **Type:** Method pattern
@@ -3276,13 +3276,13 @@ The pattern addresses loss of reasoning, alternatives and criticism between peop
 
 # Cross-pattern applications
 
-<a id="app-str-01---choose-sensorcos-response-to-commoditized-ai-inspection"></a>
+
 
 ## STR.Application:1 - APP-STR-01 - Choose SensorCo's response to commoditized AI inspection
 
 SensorCo is a constructed teaching case. Its numbers, participant assignments, observations and later events are supplied example conditions, not an empirical report or evidence that this framework has already improved an organization. Actual use needs the corresponding evidence and authority.
 
-<a id="the-opening-decision"></a>
+
 
 ### STR.Application:1.1 - The opening decision
 
@@ -3296,7 +3296,7 @@ The team prepares the answer; the Board has separately established authority to 
 
 STR.1 can finish with this question. STR.2 next examines what the changed price premise affects. Its impact remains distinct from a changed customer population or an adopted rule of choice; each would require its own supported consequence. The later comparison will distinguish a four-day preparation decision from the still-open twelve-month strategy choice.
 
-<a id="frame-the-uncertainty-and-preserve-a-serious-rival"></a>
+
 
 ### STR.Application:1.2 - Frame the uncertainty and preserve a serious rival
 
@@ -3314,7 +3314,7 @@ For the exit comparison, assume that orderly exit and device continuation both s
 
 Continuation is therefore preferable to exit under these assumptions. Reopen that comparison if an exit benefit, transition burden, continuing contribution or protected-service condition changes enough to reverse it. Exit can become preferable while continuation remains feasible.
 
-<a id="use-different-futures-because-they-change-the-comparison"></a>
+
 
 ### STR.Application:1.3 - Use different futures because they change the comparison
 
@@ -3330,7 +3330,7 @@ This is a qualified comparison, not a forecast of three actual events. STR.5 ret
 
 A customer-local service can have an internal delivery option and a provider-assisted option with different support and access dependencies. Keeping a useful description of an unselected possibility is distinct from funding its trial. A new contribution or constraint can change the option space, not merely rescore old members.
 
-<a id="decide-whether-more-inquiry-is-worth-doing"></a>
+
 
 ### STR.Application:1.4 - Decide whether more inquiry is worth doing
 
@@ -3340,7 +3340,7 @@ If a feasible trial remains and its possible results can change the commitment e
 
 Participant agreement, permitted use, exposure, actual resources, interpretation and closure must be established before the dependent work. An experiment on customer data cannot answer whether that use is permitted. The four-day preparation does not itself authorize execution.
 
-<a id="make-the-whole-proposed-arrangement-visible"></a>
+
 
 ### STR.Application:1.5 - Make the whole proposed arrangement visible
 
@@ -3356,7 +3356,7 @@ This smaller configuration is a candidate under the workload assumptions, not de
 
 OCE.9 can guide the selected organization-capability increment. When realization is selected, the platform provider must supply the needed tool and access; the learning participants and provider must obtain the appropriate HCD result; the service owner must protect the operating limit. These required contributions remain separate. Customer time, vendor charges, financing and affected-party consequences also require their own applicable treatment: a person-day total is not the whole economic comparison.
 
-<a id="select-only-the-supported-commitment"></a>
+
 
 ### STR.Application:1.6 - Select only the supported commitment
 
@@ -3366,7 +3366,7 @@ The Board separately selects and authorizes those four days from the eight-day p
 
 STR.11 retains the PSD.10 limits in the decision: customer interest is not forecast revenue, incomplete costing is not a complete comparison, and missing licensing rights do not become available at approval.
 
-<a id="reconsider-in-time-and-preserve-independent-work"></a>
+
 
 ### STR.Application:1.7 - Reconsider in time and preserve independent work
 
@@ -3378,7 +3378,7 @@ If sufficient complete costing rules out a worthwhile service configuration duri
 
 These are case-specific conditions, not an automatic pivot rule. Changed permission, finance or affected-party conditions can also matter. Independent device commitments and protected service continue where their basis remains adequate.
 
-<a id="sustain-useful-methods-and-cultural-practice-separately"></a>
+
 
 ### STR.Application:1.8 - Sustain useful methods and cultural practice separately
 
@@ -3388,7 +3388,7 @@ Suppose the team retains rejected directions and the Board receives qualified un
 
 The connected case therefore produces several useful results without one universal cycle owner: a frame, a qualified comparison, a four-day commitment, a conditional larger configuration, external-result needs and timely reconsideration.
 
-<a id="app-str-02---a-professional-considering-a-new-practice"></a>
+
 
 ## STR.Application:2 - APP-STR-02 - A professional considering a new practice
 
@@ -3400,7 +3400,7 @@ Compare a two-hour exploration with using existing information or postponing it.
 
 The result can be a smaller authorized personal commitment or a supported stop. Use the person's livelihood, learning aims and other purposes, including non-monetary ones, in the comparison. The person decides whether to accept the commitment.
 
-<a id="app-str-03---a-public-service-under-deep-uncertainty"></a>
+
 
 ## STR.Application:3 - APP-STR-03 - A public service under deep uncertainty
 
@@ -3417,7 +3417,7 @@ The responsible body must make its actual criterion and choice explicit. Existin
 
 # Sources and refresh
 
-<a id="source-use-and-currentness"></a>
+
 
 ## STR.Reference:1 - Source use and currentness
 
@@ -3434,7 +3434,7 @@ The source contributions below support particular actions, not independent confi
 | Which alternatives should survive exploration? | [Toche, Pellerin and Fortin, 2020](https://doi.org/10.1017/dsj.2020.16), and [Al Handawi and colleagues, 2024](https://research.chalmers.se/en/publication/542239), inform selective retention and meaningful narrowing in STR.6–STR.9. | Immediate commitment saves carrying cost. Design research and a simulated component comparison do not establish universal strategic superiority. |
 | How can a trial remain accountable? | [OECD, 2024](https://doi.org/10.1787/7b246309-en), and its [2025 STI Outlook chapter](https://www.oecd.org/en/publications/oecd-science-technology-and-innovation-outlook-2025_5fe57b90-en/full-report/tools-for-agility-actionable-strategic-intelligence-and-policy-experimentation_288971cb.html), inform bounded experimentation and later disposition. | A temporary pilot is not automatically permissible. Participation, rights, funding and professional determinations retain their own conditions. |
 
-<a id="strategic-method-synthesis"></a>
+
 
 ### STR.Reference:1.1 - Strategic-method synthesis
 
@@ -3446,7 +3446,7 @@ The synthesis keeps five connected questions distinct: retaining and selecting u
 
 This is a conceptual synthesis for strategic practice. The worked cases illustrate the proposed moves under their stated conditions; they are not reports of field validation. Claims about actual performance, historical events or changing technologies need evidence at the strength and scope on which a decision will rely. The strategic actions needed for this edition are explained here and in the pattern bodies.
 
-<a id="framework-guidance-and-professional-results"></a>
+
 
 ### STR.Reference:1.2 - Framework guidance and professional results
 
@@ -3465,7 +3465,7 @@ The DOCA, PSD and OCE contributions used here follow their 5 September 2026 sour
 
 Financial, legal, safety or other professional conclusions may be available without a published sibling DPF. Use an adequate qualified result and actual permission where required. An absent product title is not a blocker; an absent necessary determination can be.
 
-<a id="refresh-the-smallest-affected-use"></a>
+
 
 ## STR.Reference:2 - Refresh the smallest affected use
 
@@ -3475,7 +3475,7 @@ G.11 governs currentness and scoped refresh when those are the live questions. A
 
 A current-looking file, intact link or completed rebuild establishes neither source applicability nor a useful strategic conclusion. If a necessary source or qualified result is unavailable, name the affected claim, its limit and the feasible next contribution or stop.
 
-<a id="citation-and-reuse"></a>
+
 
 ## STR.Reference:3 - Citation and reuse
 

@@ -194,7 +194,7 @@ Project, process, and case views can expose different claims about the same Work
 
 **Constituent actions in ongoing work.** During a rehearsal of a proposed work arrangement, eliciting a handoff from one participant can be part of testing the new coordination Method, within the team's ongoing adoption work. If the intended arrangement requires colleagues to notice an exception without a manager's prompt, the facilitator's prompt changes the evidence obtained. Participants can know their individual tasks yet lack the intermediate coordination that makes the arrangement work. Make the needed practice and available support explicit before extending the change. FPF B.1.5.EW recovers the constituent connection; successful performance in this rehearsal remains distinct from sustained organizational capability.
 
-[Connect contributions, concerns and consequences across a whole project](ENGINEERING-DPF-SUITE-REFERENCE.md#connect-contributions-concerns-and-consequences-across-a-whole-project) develops the connection from engineering an offering to changing the organization that supplies its professional work. The module-and-laboratory case joins contribution design, positions, assignments, authority, capability and provision, then exercises the arrangement and returns changed conditions to the responsible practice.
+[Connect contributions, concerns and consequences across a whole project](ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference6---connect-contributions-concerns-and-consequences-across-a-whole-project) develops the connection from engineering an offering to changing the organization that supplies its professional work. The module-and-laboratory case joins contribution design, positions, assignments, authority, capability and provision, then exercises the arrangement and returns changed conditions to the responsible practice.
 
 ## OCE.Preface:4 - Pattern relations do not prescribe a lifecycle
 
@@ -1760,7 +1760,7 @@ Reopen when a recurring organization/product-or-service case needs another decis
 
 ### OCE.7:End
 
-<a id="oce-8"></a>
+
 
 ## OCE.8 - Compare Human, AI, Robotic, and Provider Arrangements for the Same Organizational Work Result
 
@@ -4247,7 +4247,7 @@ Current HCD.1/HCD.3/HCD.4 supply their bounded human-demand, diagnostic and prof
 
 # Cross-Pattern Application
 
-<a id="app-oce-01---pumpworks-weekly-ai-inspection-releases"></a>
+
 
 ## OCE.Application:1 - APP-OCE-01 - PumpWorks weekly AI-inspection releases
 
@@ -4275,7 +4275,7 @@ For a hypothetical simultaneous repository-consolidation change, OCE.16 asks whe
 
 Enter at the question relevant to the current work and stop when its needed result has been obtained. At this point, the hybrid arrangement remains a recommendation with explicit realization and evidence gaps.
 
-<a id="conditioned-continuation----realization-participation-service-and-leadership"></a>
+
 
 ### OCE.Application:1.1 - Conditioned continuation -- realization, participation, service and leadership
 
@@ -4287,7 +4287,7 @@ OCE.10 distinguishes an access defect from the discouragement of early disclosur
 
 OCE.11 accounts for learning, setup, extra review and debrief inside the supplied change allowance. An incident consumes the reserve and reduces change work; the displaced probe remains unperformed. A current retention/replacement result returned through OCE.16 and ME.6 is applied to the support interval and hand-back without another comparison. The pattern bodies provide the actions, numerical service example, stops and evidence limits. General reliability, customer benefit and enduring culture would require their own observations beyond this constructed case.
 
-<a id="consequence-comparison-and-authorized-support-revision"></a>
+
 
 ### OCE.Application:1.2 - Consequence comparison and authorized support revision
 
@@ -4307,7 +4307,7 @@ OCE.14 compares retaining the current assignment with observation, repairing the
 
 Suppose the required allocation and holder-acceptance acts then occur. OCE.6 supplies the changed effective relation where applicable. OCE.9 receives the still-unrealized support integration, OCE.11 the protected overlap and hand-back, and OCE.13 the next comparable observations. OCE.16 is used only if another separately managed change consumes the altered condition. If protected coverage is unavailable, the dependent repair stops; the descriptive comparison and unaffected earlier results remain usable.
 
-<a id="app-oce-02---public-hospital-emergency-flow-change"></a>
+
 
 ## OCE.Application:2 - APP-OCE-02 - Public hospital emergency-flow change
 
@@ -4328,7 +4328,7 @@ Suppose the required allocation and holder-acceptance acts then occur. OCE.6 sup
 | specialist return | Clinical safety, medical authority, labor, privacy, legal, public-governance, and Operations Management results are required where they change the decision. |
 | Non-transfer boundary | OCE helps organize the change and formulate requests to qualified clinical, legal, labor, and service-continuity decision-makers. Those specialists supply the substantive judgments within their respective remits. |
 
-<a id="app-oce-03---distributed-member-governed-standards-association"></a>
+
 
 ## OCE.Application:3 - APP-OCE-03 - Distributed member-governed standards association
 
@@ -4349,7 +4349,7 @@ Suppose the required allocation and holder-acceptance acts then occur. OCE.6 sup
 | specialist return | Association governance, applicable law, publication, finance, and employer commitments remain separately owned. |
 | Non-transfer boundary | Establish each organization's authority and commitments under its own rules. Use those conditions when designing and comparing organization relations and candidate change Methods across organizations. |
 
-<a id="app-oce-04---oce-practice-across-a-practitioner-population"></a>
+
 
 ## OCE.Application:4 - APP-OCE-04 - OCE practice across a practitioner population
 
@@ -4370,7 +4370,7 @@ Return the access question to the person or body responsible for granting it. Us
 
 # Framework Boundary and Refresh
 
-<a id="intended-use-and-ordinary-non-use"></a>
+
 
 ## OCE.Reference:1 - Intended use and ordinary non-use
 
@@ -4378,19 +4378,19 @@ Use this framework when an intended contribution requires deliberate change to a
 
 Do not use it merely because Work occurs inside an organization, a manager makes a routine decision, an operating flow needs coordination, one person needs capability development, or a product requires engineering. Use the practice that owns that question; return a result to OCE only when an organization-change decision needs it.
 
-<a id="patternid-and-reader-order"></a>
+
 
 ## OCE.Reference:2 - PatternID and reader order
 
 `OCE.*` is the Organization Change Engineering PatternID namespace. Numbers are stable addresses, not steps. The Parts provide reader order. A dependency identifies a result needed for a particular use.
 
-<a id="using-the-available-methods"></a>
+
 
 ## OCE.Reference:3 - Using the available Methods
 
 This publication contains all seventeen pattern bodies. For the selected use, gather the required case observations, obtain professional contributions, verify authority and effective relations, and check which planned results have actually been realized. If a needed Method is not provided here or in an available sibling framework, obtain a qualified contribution or stop the dependent action.
 
-<a id="pattern-selection-and-result-relations"></a>
+
 
 ## OCE.Reference:4 - Pattern selection and result relations
 
@@ -4416,11 +4416,11 @@ This publication contains all seventeen pattern bodies. For the selected use, ga
 
 Choose the next pattern from the result needed, not from a presumed lifecycle. OCE.13/OCE.14 can use a direct result without repeating a wider evaluation; OCE.17 can support retaining useful practice without a new intervention.
 
-<a id="source-use-and-currentness"></a>
+
 
 ## OCE.Reference:5 - Source use and currentness
 
-<a id="source-use-and-conceptual-synthesis"></a>
+
 
 ### OCE.Reference:5.1 - Source use and conceptual synthesis
 
@@ -4450,7 +4450,7 @@ For OCE.13/OCE.14, the [MRC update (2021)](https://doi.org/10.1136/bmj.n2061) co
 
 Refresh only the affected pattern or repertoire claim when a governing FPF distinction changes, a direct source changes practitioner action, a representative case defeats a branch, or use exposes a missing OCE move. A new publication alone does not reopen the framework.
 
-<a id="fpf-dependency-and-compatibility"></a>
+
 
 ## OCE.Reference:6 - FPF dependency and compatibility
 
@@ -4466,7 +4466,7 @@ Refresh only the affected pattern or repertoire claim when a governing FPF disti
 
 **Dependency and contribution direction.** This release uses FPF's transdisciplinary concepts and rules. Return a transdisciplinary discovery to FPF and an organization-change-specific move to OCE. Propose a change of placement through the owning framework's decision; keep one authoritative definition of the moved content.
 
-<a id="current-method-engineering-dependency"></a>
+
 
 ## OCE.Reference:7 - Current Method Engineering dependency
 
@@ -4482,7 +4482,7 @@ OCE.15 supplies the Method Engineering work with the organizational difficulty a
 
 Apply the supplying Method to qualify an OCE candidate or obtain the needed fit, trial, transfer, or variant result. Use local evidence for introduction, adoption, and effect claims, and establish authority for a cross-change arrangement separately. Reopen only the consuming OCE claim when a named ME result changes, becomes unavailable, or no longer answers the receiving use.
 
-<a id="sibling-domain-returns"></a>
+
 
 ## OCE.Reference:8 - Sibling-domain returns
 
@@ -4502,7 +4502,7 @@ Use [Development Opportunity Construction and Development Direction Advising](DE
 
 When the needed sibling result is available and current for the use, apply it within its scope. Otherwise obtain a qualified direct contribution or name the missing result and the OCE action that depends on it.
 
-<a id="representative-case-coverage"></a>
+
 
 ## OCE.Reference:9 - Representative case coverage
 
@@ -4515,7 +4515,7 @@ The applications and related pattern-local cases are constructed examples of com
 | [Distributed standards association](#oceapplication3---app-oce-03---distributed-member-governed-standards-association) | Connect bylaw-governed assignment and the OCE.16 issuer/election dependency with amendment-packet preparation, asynchronous challenge, qualified translation and evidence use, accepted volunteer windows, and peer-facilitator learning. Consider a revision after the chair's authority expires. | Packet preparation is not adoption of a standard. Obtain Governance, ME.6, OCE.4/OCE.6, and professional results from their direct providers. Authority remains with bodies and office-holders established under association and employer rules; an expired term cannot support a new binding decision. A revision proposal remains a proposal until an authorized body or office-holder decides. |
 | [OCE practitioner population](#oceapplication4---app-oce-04---oce-practice-across-a-practitioner-population) | Recognize operative use despite changed labels; distinguish chart-only cases from missing opportunities; repair a source example and peer recognition, then examine mixed later observations. | No single holder System is claimed for the population. An observed later use, an access gap, a learning effect, and profession-wide retention require different evidence. |
 
-<a id="publication-boundary"></a>
+
 
 ## OCE.Reference:10 - Publication boundary
 

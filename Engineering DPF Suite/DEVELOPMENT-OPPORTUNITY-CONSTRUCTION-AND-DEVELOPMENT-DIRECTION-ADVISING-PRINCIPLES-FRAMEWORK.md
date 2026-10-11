@@ -2324,11 +2324,11 @@ Keeping the earlier return, current qualification, and later authorized action s
 
 The three applications below are constructed cases. Their supplied observations, permissions, budgets, choices and later events are case assumptions, not reports about actual people or organizations. Where a required result is missing, the case leaves the dependent claim open. Arrows and table order describe possible uses of results, not Method parthood or a compulsory lifecycle.
 
-<a id="app-doca-01--miras-development-direction-programme-comparison-and-guide"></a>
+
 
 ## DOCA.Application:1 - APP-DOCA-01 — Mira's development direction, programme comparison, and Guide
 
-<a id="the-working-difficulty-and-the-first-bounded-return"></a>
+
 
 ### DOCA.Application:1.1 - The working difficulty and the first bounded return
 
@@ -2354,7 +2354,7 @@ DOCA.1.CHR replaces “become more mature” with the needed readings:
 
 Counts, time, permission and qualification readings answer different questions. Do not sum them into one maturity score or code an unknown reading as poor performance.
 
-<a id="a-complete-pattern-contribution-not-learn-a159"></a>
+
 
 ### DOCA.Application:1.2 - A complete pattern contribution, not “learn A.15.9”
 
@@ -2364,7 +2364,7 @@ The first direction cites [A.15.9 — Use or Request a Bounded Result from Anoth
 
 Mira's intended learner action is therefore observable: given a release question and two specialist reports, decide which report can be used and at what strength, retain a genuine use limit, and obtain a further contribution only when it warrants the work. When acquisition is selected, she drafts its bounded request; she withholds the claim that still lacks a suitable result. The PatternID is an address for that guidance, not a development step by itself. Reading the text does not establish that Mira can perform the described move.
 
-<a id="finite-directions-and-a-conditional-later-step"></a>
+
 
 ### DOCA.Application:1.3 - Finite directions and a conditional later step
 
@@ -2378,7 +2378,7 @@ Call Mira's actual checklist-and-reference arrangement `S0`. Direction A adds su
 
 C.11.CRC governs any stronger finite comparison. The result, resource, affected-person/team, distributional and protected coordinates above must be complete on one qualified basis, including interactions and evidence limits. No Pareto or aggregate-savings claim follows from these descriptions. DOCA.6 may retain A, B and the conditional later step with their missing-result and reconsideration conditions.
 
-<a id="advice-and-the-two-distinct-choices"></a>
+
 
 ### DOCA.Application:1.4 - Advice and the two distinct choices
 
@@ -2386,7 +2386,7 @@ Suppose Mira asks a distinct career-development adviser for help. Using DOCA.7, 
 
 PSD receives the formed direction question and qualified available inputs. While mentor capacity and transfer remain unresolved, its useful return can retain conditional directions with those limits. A request or recommended probe follows only when its obtainable contribution warrants the whole burden; the missing premises do not establish a winner. In a later scene, assume the required capacity and comparison results have arrived and the authorized choice inputs are adequate. Mira explicitly chooses the personal-development direction A under its stated resource and evidence limits. That choice is a new case fact; neither the opportunity table nor the advice made it for her.
 
-[HCD.2 — Compose and Compare Human Capability-Development Programmes for Later Work](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-2) now receives the selected development stake, compatible profile, later tasks, participation and qualified support. In this constructed continuation, the HCD practitioner supplies a programme-comparison account for two feasible candidates under those conditions:
+[HCD.2 — Compose and Compare Human Capability-Development Programmes for Later Work](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd2---compose-and-compare-human-capability-development-programmes-for-later-work) now receives the selected development stake, compatible profile, later tasks, participation and qualified support. In this constructed continuation, the HCD practitioner supplies a programme-comparison account for two feasible candidates under those conditions:
 
 | Programme candidate | Qualified resource and support position | Expected contribution and limit |
 | --- | --- | --- |
@@ -2397,7 +2397,7 @@ Both fit within the remainder of the original four-month horizon, with inquiry a
 
 If programme advice is wanted, PSD uses that HCD.2 account to prepare a separate recommendation. In this continuation Mira makes the authorized programme choice of the reference-supported sequence with scheduled expert checks, using the complete comparison and choice inputs. If advice is not wanted and those inputs already exist, the comparison can go directly to the actual chooser. The earlier direction choice did not select this programme.
 
-<a id="guide-realization-performed-attempts-and-evidence"></a>
+
 
 ### DOCA.Application:1.5 - Guide realization, performed attempts, and evidence
 
@@ -2413,17 +2413,17 @@ The result-use sequence in this branch is:
 
 These are distinct results, not mandatory stages. The inquiry may stop much earlier.
 
-<a id="a-direct-programme-level-entry"></a>
+
 
 ### DOCA.Application:1.6 - A direct programme-level entry
 
 A learning-product author may already have a Foundations-like HCD.2-grounded comparison of programme variants. PSD can begin with that comparison and the author's actual recommendation question. No earlier personal DOCA path or direction choice is invented. Audience assumptions support a bounded learning-product design return, not individual fit; a named learner still needs compatible later Work, entry evidence, support and participation for personal comparison. The author's authorized programme choice precedes Guide production, and observed learner evidence remains necessary for effectiveness.
 
-<a id="app-doca-02--an-engineering-companys-next-development-opportunities"></a>
+
 
 ## DOCA.Application:2 - APP-DOCA-02 — An engineering company's next development opportunities
 
-<a id="one-receiving-question-several-kinds-of-direction"></a>
+
 
 ### DOCA.Application:2.1 - One receiving question, several kinds of direction
 
@@ -2444,7 +2444,7 @@ DOCA.2 varies more than vendors. DOCA.3 tests what receiving problem would make 
 
 When one same-result arrangement comparison is already the whole question, go directly to [OCE.8](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce8---compare-human-ai-robotic-and-provider-arrangements-for-the-same-organizational-work-result). The broader DOCA search does not become a required preface.
 
-<a id="joint-limits-and-a-useful-return"></a>
+
 
 ### DOCA.Application:2.2 - Joint limits and a useful return
 
@@ -2456,13 +2456,13 @@ The inquiry returns the receiving problem, differentiated directions, the scope 
 
 Suppose a later provider notice removes access to one data class. DOCA.8 inspects the actual dependent directions. It may narrow or retire the provider-supported route while preserving an independently qualified operator-practice opportunity. The provider notice does not itself switch the operating system. Actual protection and operational owners apply their existing duties, and PSD.14 receives affected advice.
 
-<a id="app-doca-03--unlike-subjects-exact-recipients-and-an-anti-case"></a>
+
 
 ## DOCA.Application:3 - APP-DOCA-03 — Unlike subjects, exact recipients, and an anti-case
 
 The common opportunity question does not create one development mechanism. Each branch below can enter construction at a missing contribution. Advice additionally needs an actual recipient, distinct advising performer and adequate service terms.
 
-<a id="community-and-governance"></a>
+
 
 ### DOCA.Application:3.1 - Community and governance
 
@@ -2470,7 +2470,7 @@ A professional maintenance community wants more reliable transfer of incident ex
 
 One successful workshop or published pattern does not demonstrate changed community practice. A useful first return is a bounded contribution hypothesis with its unestablished practice effect. An observation or coordination request is a further action only when its attainable contribution warrants the whole burden for this inquiry. If nobody is entitled to receive or act on the requested community-wide advice, return that recipient or authority gap. Do not invent community consent from a meeting attendance list.
 
-<a id="aimodel-or-composite-arrangement"></a>
+
 
 ### DOCA.Application:3.2 - AI/model or composite arrangement
 
@@ -2480,7 +2480,7 @@ The first useful result is a contribution-bearing configuration or an exact AI/e
 
 The team's authorized operational owner retains deployment or probe choice. AI helping to draft the advice invokes the adviser's own review and information-use obligations; it does not fill the developing subject's evaluation gap.
 
-<a id="engineered-platform-or-facility"></a>
+
 
 ### DOCA.Application:3.3 - Engineered platform or facility
 
@@ -2488,7 +2488,7 @@ A laboratory-platform owner asks which change could improve access to a shared i
 
 The smallest result may be a qualified support opportunity or a conditional transition. Systems/Platform Engineering supplies architecture and realization; operations, domain measurement and safety practices supply their direct results. A changed interface may make an existing instrument capability more usable; any claimed new measuring capability still needs its own qualification. Fewer support calls do not prove preserved measurement quality. Missing calibration or safety evidence blocks the dependent use, not every independent facility improvement.
 
-<a id="research-programme-or-body-of-knowledge"></a>
+
 
 ### DOCA.Application:3.4 - Research programme or body of knowledge
 
@@ -2496,7 +2496,7 @@ An actual research lead receives a question about the next contribution to a rep
 
 DOCA can construct and retain those opportunities under a stated horizon and burden. Research and evidence practices own the criticism, reproducibility, formalization, empirical result and inference. A sequence of pattern contributions is prospective guidance, not completed research or a capability finding. If an earlier report is corrected, DOCA.8 follows its actual receiving use; A.10.1 applies when several affected receivers must be discovered. Return the precise evidence question or supported epistemic contribution.
 
-<a id="non-cultural-population-or-lineage"></a>
+
 
 ### DOCA.Application:3.5 - Non-cultural population or lineage
 
@@ -2504,7 +2504,7 @@ In this evolutionary research account, the population has no population-local ad
 
 A researcher who asks whether to change an experiment or conservation intervention is a different case. The researcher or authorized organization is the recipient; the population remains an affected subject. Its evidence, welfare/protection conditions, governance and intervention authority must be qualified by their actual owners.
 
-<a id="what-the-contrast-preserves"></a>
+
 
 ### DOCA.Application:3.6 - What the contrast preserves
 
@@ -2515,7 +2515,7 @@ Across these uses, keep the identified subject, receiving contribution, horizon,
 
 # Framework boundary, sources and refresh
 
-<a id="covered-work-and-independent-entry"></a>
+
 
 ## DOCA.Reference:1 - Covered work and independent entry
 
@@ -2525,7 +2525,7 @@ Construction uses DOCA.1, DOCA.1.CHR and DOCA.2–DOCA.6 without requiring an ad
 
 The applications preserve a person-to-Guide use, an organization inquiry and unlike subjects. They are examples, not a claim that every domain mechanism has been covered. The common contribution remains useful precisely because its external results are not reclassified as DOCA results.
 
-<a id="results-supplied-by-other-practices"></a>
+
 
 ## DOCA.Reference:2 - Results supplied by other practices
 
@@ -2535,7 +2535,7 @@ The applications preserve a person-to-Guide use, an organization inquiry and unl
 | One specialist premise | A.15.9 with the actual supplying practice: an existing qualified result, bounded new result, or exact unresolved gap. | Preserve subject, configuration, use, scope and window. The supplier keeps its Method and conclusion; requesting a result does not supply it. |
 | Characteristic meaning or measurement | C.16 and the holder/domain measurement practice: defined characteristic, legitimate scale, method/model and attributed reading with uncertainty. | Use only for the stated subject and conditions. DOCA.1.CHR selects what changes this inquiry; it does not create cross-holder measurement equivalence. |
 | Finite comparison | C.11.CRC and the applicable domain: comparison of actual `S0`, finite change and realizable `S1` with complete oriented coordinates. | Include result, resources, affected-System/distributional and protected conditions, interactions, transition, reversibility, options and evidence limits. Missing coordinates withhold the stronger comparison. |
-| Human demand, capability or development | [HCD.1](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-1) for the requirements of later work, including a provisional account before that work begins; [HCD.3](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-3) for causes of an observed difficulty; the relevant HCD and target-domain Methods for support, practice and transfer. | Same-holder and condition-compatible inputs matter. Audience assumptions and supported performance do not establish individual fit or unfamiliar/independent performance. |
+| Human demand, capability or development | [HCD.1](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd1--derive-human-capability-demand-from-representative-later-work) for the requirements of later work, including a provisional account before that work begins; [HCD.3](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd3--diagnose-whether-a-capability-misconception-or-behaviour-limits-work) for causes of an observed difficulty; the relevant HCD and target-domain Methods for support, practice and transfer. | Same-holder and condition-compatible inputs matter. Audience assumptions and supported performance do not establish individual fit or unfamiliar/independent performance. |
 | Human programme alternatives | HCD.2: a programme-comparison account, limited feasible candidate or precise blocked/design return. | Keep learner/provider burden, access, whole-task closure, displacement and uncertainty comparable. Programme advice and authorized choice remain separate. |
 | Generic engagement, alternatives, comparison or recommendation | PSD.1 and PSD.8–PSD.13: the actual missing decision-support contribution and bounded recommendation disposition. | No compulsory workshop. Preserve the exact recipient/use and uncertainty; a recommended probe is not permission to perform it. |
 | Advice follow-up | PSD.14: feasible observation, interpretation and affected recommendation return. | Distinguish earlier advice, actual choice, implementation and evidence. A missing necessary observation is not a favourable result. |
@@ -2546,13 +2546,13 @@ The applications preserve a person-to-Guide use, an organization inquiry and unl
 | Several uses affected by one changed source claim | A.10.1: needed bounded discovery, actual dependence and coverage, followed by the supported direct subject result or scoped gap. A sufficient direct return needs no additional common account. | A citation alone is not reliance; an inaccessible or uninspected receiver is not unaffected. For one known reliance use A.10 and the direct owner. |
 | Source or guidance currentness | G.11 and the responsible source/framework maintainer: currentness, decay, scoped refresh and reporting. | A recent date or refresh completion does not create the new domain result, edition admission, access or effectiveness. |
 
-<a id="source-responsibility-and-references"></a>
+
 
 ## DOCA.Reference:3 - Source responsibility and references
 
 The source roles below consolidate the pattern-local SoTA accounts for this edition's claims. They identify which contribution is adopted or adapted, its limit, and the smallest return after a material change. They do not replace the complete sources or establish a client's facts. The cited editions and bounded source roles qualify these uses; a changed source or receiving question can require a new source return.
 
-<a id="opportunity-characterization-and-retained-possibilities"></a>
+
 
 ### DOCA.Reference:3.1 - Opportunity, characterization, and retained possibilities
 
@@ -2565,7 +2565,7 @@ The source roles below consolidate the pattern-local SoTA accounts for this edit
 | Current FPF [E.10.DEV](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md), [C.16](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md), [C.11.CRC](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md), [C.11.DUA](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md), [A.15.9](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md), [C.18](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md) and [C.19](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md). | Their directly defined semantic recovery, measurement, finite comparison, inquiry appraisal, external-result use and acquisition, archive/front and live-pool contributions are **adopted or adapted** at the body loci named in each pattern's SoTA account. | None establishes a particular holder result. C.19 governs actual live-pool treatment, including under unchanged policy; it is not a local probe selector. A changed definition reopens the dependent DOCA claim. |
 | [OECD, Proactive portfolio management in mission-oriented innovation policy, 2025](https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/03/proactive-portfolio-management-in-mission-oriented-innovation-policy_6bc6df0e/1ee956a5-en.pdf), sections 2–4: complementary activities, stage dependencies, resources, adaptation and termination. | **Adapted** in DOCA.6's retention, stage-specific comparison and reconsideration. | Its mission selection and funding remain external; it supplies no universal horizon count, individual development mechanism or demonstrated option valuation. Reopen the particular retention or specialist-valuation question. |
 
-<a id="professional-and-ai-source-qualification"></a>
+
 
 ### DOCA.Reference:3.2 - Professional and AI-source qualification
 
@@ -2578,7 +2578,7 @@ The source roles below consolidate the pattern-local SoTA accounts for this edit
 
 For a concrete currentness episode, suppose an adviser needs to know whether “ICMCI compliant” establishes all required engagement conditions. The identified v4.0 clauses support the bounded involvement/conflict contribution, and the May 2026 AI Code supplies a separate scoped AI-use contribution. Neither closes the broader complete-current-standard claim. The visible 2026 update cue returns that precise claim to the professional source owner; the adviser can retain the identified qualified contributions while withholding the broader assertion. Local legal and professional applicability still needs its own result. A newer label alone supplies none of these conclusions.
 
-<a id="direct-frameworks-predecessor-sources-and-honest-omissions"></a>
+
 
 ### DOCA.Reference:3.3 - Direct frameworks, predecessor sources, and honest omissions
 
@@ -2590,7 +2590,7 @@ The [Foundations programme](#docareference53---foundations-programme-source-acce
 
 Broader career-design exercises, motivation and learning-science accounts, real-options valuation, investment allocation, complete professional certification, legal/safety compliance and domain implementation are not reproduced here. Their omission is not permission to bypass them when a receiving claim needs them. Return that exact question to its actual current owner.
 
-<a id="requalification-and-guidance-refresh"></a>
+
 
 ## DOCA.Reference:4 - Requalification and guidance refresh
 
@@ -2600,7 +2600,7 @@ For a changed source claim with several receiving uses, A.10.1 supplies bounded 
 
 When a source or practitioner result defeats the guidance itself, send the precise failed move, receiving use, source difference and candidate repair to the responsible framework maintainer. Change only the dependent body, relation, entry or example unless the field or branch boundary is genuinely defeated. Updating a client account is not automatically a framework revision; updating a publication date is not a new qualification.
 
-<a id="reading-the-references"></a>
+
 
 ## DOCA.Reference:5 - Reading the references
 
@@ -2608,7 +2608,7 @@ All nine DOCA bodies are included in this publication. Internal links use GitHub
 
 Use a supplying source for the exact contribution and conditions named by the receiving claim. A working link does not establish that a result fits the subject, configuration, use or horizon. If the source or its necessary qualification cannot be obtained, retain the exact gap and use only independently supported contributions.
 
-<a id="fpf-source-locators"></a>
+
 
 ### DOCA.Reference:5.1 - FPF source locators
 
@@ -2634,7 +2634,7 @@ The complete [FPF Markdown](https://raw.githubusercontent.com/ailev/FPF/main/FPF
 
 Use the complete relevant pattern and its conditions, not just the matched title. In particular, A.10.1 supplies bounded changed-source discovery and actual-use qualification; DOCA.8 requires a subject basis before asserting restored qualification, but may finish with a supported limit or compatible reference repair. It does not require a second result record or an unused common summary. A different edition or wording requires comparison of the relied-on contribution when that difference could affect the receiving use.
 
-<a id="learning-product-source-access"></a>
+
 
 ### DOCA.Reference:5.2 - Learning Product source access
 
@@ -2648,7 +2648,7 @@ The following sources belong to the Learning Product Development LPF. Their comp
 
 Obtain the applicable source from the Learning Product maintainer when its full instruction is needed. LG.05 is marked Candidate in its source LPF; qualify its applicable use before treating it as established instructional guidance. The constructed DOCA application explains the requested design contribution, not the admission of that source. Without the full source or a qualified design result, retain the Guide-design question with Learning Product practice. The opportunity and programme results remain separately usable within their conditions.
 
-<a id="foundations-programme-source-access"></a>
+
 
 ### DOCA.Reference:5.3 - Foundations programme source access
 
@@ -2656,15 +2656,15 @@ Obtain the applicable source from the Learning Product maintainer when its full 
 
 For that illustration's complete design and comparison, request both sources from the programme's responsible designer or maintainer. For an actual person's programme question, obtain the compatible HCD.2 comparison and the person's relevant starting conditions, later tasks, support and participation. The illustration supplies none of those individual premises. A different adequate programme comparison can enter the same advice or choice question directly.
 
-<a id="predecessor-source-account-access"></a>
+
 
 ### DOCA.Reference:5.4 - Predecessor source-account access
 
-**Development-direction profile: source responsibility and local refresh** is the full predecessor source account, whose identified qualification window is 2 September 2026. The public PSD section [Source responsibility and references](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#source-responsibility-and-references) supplies a condensed source-responsibility expression, not that complete earlier account.
+**Development-direction profile: source responsibility and local refresh** is the full predecessor source account, whose identified qualification window is 2 September 2026. The public PSD section [Source responsibility and references](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psdreference5---source-responsibility-and-references) supplies a condensed source-responsibility expression, not that complete earlier account.
 
 Use the public section for the contribution it actually states. If a historical qualification or source-use decision depends on omitted detail, obtain the full named account from PSD profile maintenance. The current DOCA source roles above remain the place to recover this publication's own bounded reliance; neither a condensed expression nor the source's date supplies an uninspected stronger claim.
 
-<a id="a-useful-stop-when-access-is-incomplete"></a>
+
 
 ### DOCA.Reference:5.5 - A useful stop when access is incomplete
 
