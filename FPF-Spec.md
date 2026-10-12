@@ -43995,9 +43995,9 @@ Reopen these choices when a better method at comparable effort changes the attai
 - **E.23, E.23.CAE and E.23.CDI** distinguish object improvement, capability-expression questions and development of a named capability holder. **E.10.DEV** recovers ambiguous development claims; **C.36** governs the cultural-evolution question.
 - **B.4** can use these reasoning results in an actual evolution inquiry. A sufficient reasoning result does not itself require another evolution cycle.
 
-[fpf-b5-4-ref]: B.5.4-Recognize-a-Reusable-Concept-in-a-Concrete-Situation.md#b54---recognize-a-reusable-concept-in-a-concrete-situation
+[fpf-b5-4-ref]: https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b54---recognize-a-reusable-concept-in-a-concrete-situation
 
-[fpf-a15-9-ref]: A.15.9-Request-and-Use-a-Bounded-Result-from-Another-Practice.md#a159---use-or-request-a-bounded-result-from-another-practice
+[fpf-a15-9-ref]: https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a159---use-or-request-a-bounded-result-from-another-practice
 
 ### B.5:End
 
@@ -47871,8 +47871,8 @@ Reconsider this choice if an intended reader cannot fill a decisive relation fro
 - B.5 connects the interpreted question to construction, inference, observation and a useful continuation.
 - A.7.1 supplies consequence-guided ontological repair when a working claim gives a defeated engineering result.
 
-[fpf-b5-5-1-ref]: B.5-Canonical-Reasoning-Cycle.md#b551---a-counterexample-becomes-a-constructive-mathematical-question
-[fpf-b5-4-1-1-ref]: B.5-Canonical-Reasoning-Cycle.md#b5411---propose-a-first-model
+[fpf-b5-5-1-ref]: https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b551---a-counterexample-becomes-a-constructive-mathematical-question
+[fpf-b5-4-1-1-ref]: https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b5411---propose-a-first-model
 
 ### B.5.4:End
 
@@ -65104,7 +65104,7 @@ These are bounded selections for the illustrated questions. They preserve cheap 
 
 `C.29` may describe a mapping as abstraction-like, quotient-like, coarse-graining-like, simulation-like, or macro-model-like. It does not decide causal support. When intervention, policy, counterfactual, causal explanation, or causal decision use is current, apply C.28; otherwise record no causal-use claim or the exact blocker.
 
-[fpf-f0-2-5-5-ref]: F.0.2-Conceptual-Synthesis-across-Source-Ontologies.md#f0255---compare-causal-accounts-on-one-sensor-case
+[fpf-f0-2-5-5-ref]: https://github.com/ailev/FPF/blob/main/FPF-Spec.md#f0255---compare-causal-accounts-on-one-sensor-case
 
 ### C.28:End
 
@@ -66551,7 +66551,7 @@ The comparison above selects the first-use Method. The references below provide 
 - **Specialization relation:** `C.26` is selected as a C.29-compatible specialization for quantum-like modeling, with affordability qualifications.
 The conditional receiving questions and first contributions are collected in :4.4.6.
 
-[fpf-a6-3-rt-4-1-ref]: A.6.3.RT-Representation-Scheme-Transition.md#a63rt41---ordinary-representation-move
+[fpf-a6-3-rt-4-1-ref]: https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a63rt41---ordinary-representation-move
 
 ### C.29:End
 
@@ -105570,7 +105570,7 @@ The rule is not lexical. An individuable publication-relation occurrence is itse
 
 The root membership result is sufficient for recognizing such kind individuals. It does not require another durable ontology unit. C.3.1 comparison independently uses exact kind identities and the `U.SubkindOf` predicate; C.3.2 classification independently uses its admissibility and membership rules. Those receiving uses cite their direct rules without deriving them from an empty relation set. If several already defined claims must be read together for a bounded task, a C.2.1 episteme may coordinate them without becoming a durable ontic.
 
-The ontology-disposition decision `E24-CO-UKIND-R19-01` selects `subject-pattern-use` for these named uses and concludes that no additional durable ontic is needed. Its decision and result differ from the originating R5 decision; the root admission and direct identity/membership law remain the same. The exact new decision and unchanged R5 provenance are preserved in the [U.Kind settlement decision](../_change-campaigns/repo-front-door/PATTERN-TITLE-DISCOVERABILITY-AND-SELECTION-CAMPAIGN/UKIND-ONTIC-SETTLEMENT-DRR.md).
+For these receiving uses, `E24-CO-UKIND-R19-01` selects `subject-pattern-use`: apply the direct rules above without an additional durable ontic.
 
 For example, C.3.1 can establish `CoolingPumpKind` as a subkind of `PumpKind` when the aligned cooling-pump criterion entails the pump criterion. An extension sample alone cannot do so. C.3.2 can classify an admissible Pump #14 under its actual declaration and slice; a missing required cooling-performance fact yields `unknown`, while an out-of-domain request is `not-applicable` before classification. Neither result needs a new ontology unit. A project-specific kind remains an individual of `U.Kind` without gaining its own durable public `U.*` name.
 
@@ -106294,7 +106294,7 @@ Jaakkola's question and source-role discipline, Okoli's extraction and iterative
 - **Coordinates with:** C.39 for general Method construction, connected explanation and change, and E.4.CM for their application to framework authoring. Their methodological results and this semantic comparison remain distinct and can revise each other.
 - **Boundary:** Domain claims produced through this method remain in the subject FPF pattern or named DPF selected by the later content decision.
 
-[fpf-c28-4-4-ref]: C.28-CausalUse-CAL-Causal-Use-Questions-Causality-Ladder-Rungs-Identification-and-Realizability.md#c2844---identification-result
+[fpf-c28-4-4-ref]: https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c2844---identification-result
 
 ### F.0.2:End
 
