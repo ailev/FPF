@@ -4,9 +4,9 @@ Copyright (c) Anatoly Levenchuk.
 
 ## Our framework publications
 
-The original content of First Principles Framework (FPF) and the DPF publications by Anatoly Levenchuk, including the Foundational Thinking, Engineering and Development DPF Suites and Narrativization and Narrative Studies Principles Framework, is licensed under the [Creative Commons Attribution 4.0 International license (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+The original content of First Principles Framework (FPF) and the DPF publications by Anatoly Levenchuk, including the Foundational Thinking, Engineering, Management and Human Capability Engineering DPF Suites, their predecessors, and Narrativization and Narrative Studies Principles Framework, is licensed under the [Creative Commons Attribution 4.0 International license (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 
-This grant covers the FPF specification, our DPF publications, the Suite READMEs and References, and their maintained textual sources, including pattern bodies, prefaces, explanations and original worked examples. It also covers our later revisions of these publications when they carry the same license notice. The complete, unmodified license is in [LICENSE](LICENSE).
+This grant covers the FPF specification, our DPF publications, the Library and Suite READMEs and Architectural References, and their maintained textual sources, including pattern bodies, prefaces, explanations and original worked examples. It also covers our later revisions of these publications when they carry the same license notice. The complete, unmodified license is in [LICENSE](LICENSE).
 
 You may copy, redistribute, translate and adapt this material, including commercially. When sharing under this license, give appropriate credit, link to the license and indicate changes; retain supplied attribution and notices as required by the license. Where your use needs no copyright permission, including under an applicable exception, the license conditions do not apply. Attribution must not imply the author's endorsement. The legal code defines the complete terms.
 
