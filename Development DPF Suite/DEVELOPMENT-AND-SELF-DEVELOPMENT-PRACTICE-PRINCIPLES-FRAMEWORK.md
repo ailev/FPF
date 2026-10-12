@@ -1,12 +1,10 @@
-# Development Opportunity Construction and Development-Direction Advising Principles Framework
+# Development and Self-Development Practice Principles Framework
 
-Construct a development opportunity, or enter development-direction advice with adequate existing inputs. Obtain only the missing qualified contribution.
+First edition of the Development and Self-Development Practice series, 12 October 2026. [Edition, series and scope](#docareference6---edition-series-and-scope).
+
+Construct and sustain worthwhile development from the position actually reached. Obtain the missing contribution, make its realization feasible, and use success as a new starting position for further development.
 
 Anatoly Levenchuk, with AI-assisted development and review.
-
-Amended release: 20 September 2026.
-
-This framework is already in use and is continuously revised.
 
 **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 
@@ -20,8 +18,8 @@ Find the question that needs an answer. PatternIDs are stable addresses within t
 
 | Unit | Reader use |
 | :--- | :--- |
-| [Readme — Development Opportunity Construction and Development-Direction Advising](#readme--development-opportunity-construction-and-development-direction-advising) | Follow an opportunity inquiry or advice question through the results it needs. |
-| [Preface](#preface) | Understand the two branches, their common contributions, and the limits of an opportunity or advice result. |
+| [Development and Self-Development Practice Readme](#development-and-self-development-practice-readme) | Enter a development undertaking, opportunity inquiry, portfolio construction or advice question at its missing contribution. |
+| [Preface](#preface) | Understand the connected practice, independently useful branches, continuation after success and the limits of each result. |
 | [DOCA.Application - Cross-pattern applications](#cross-pattern-applications) | Follow a person's development question, an organization inquiry, and unlike uses with the specialist contributions they need. |
 | [DOCA.Reference - Framework boundary, sources and refresh](#framework-boundary-sources-and-refresh) | Recover field coverage, direct supplier results, source limits, and the smallest affected refresh. |
 
@@ -29,38 +27,65 @@ Find the question that needs an answer. PatternIDs are stable addresses within t
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [DOCA.1 - Bound the Development-Opportunity Inquiry](#doca1---bound-the-development-opportunity-inquiry) | Released; evolving | inquiry, receiving use, horizon, protected conditions. What development question can usefully be investigated now? | Direct holder or domain premises; DOCA.1.CHR when characterization is missing. |
-| 2 | [DOCA.1.CHR - Characterize the Development Subject and Intended Change](#doca1chr---characterize-the-development-subject-and-intended-change) | Released; evolving | characteristics, baseline, intended change, scales, uncertainty. What changes besides one maturity score? | FPF C.16 and C.11.CRC; qualified holder meanings and evidence. |
+| 1 | [DOCA.1 - Bound the Development-Opportunity Inquiry](#doca1---bound-the-development-opportunity-inquiry) | Evolving | inquiry, receiving use, horizon, protected conditions. What development question can usefully be investigated now? | Direct holder or domain premises; DOCA.1.CHR when characterization is missing. |
+| 2 | [DOCA.1.CHR - Characterize the Development Subject and Intended Change](#doca1chr---characterize-the-development-subject-and-intended-change) | Evolving | characteristics, baseline, intended change, scales, uncertainty. What changes besides one maturity score? | FPF C.16 and C.11.CRC; qualified holder meanings and evidence. |
 
 **Part II — Construct opportunities**
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 3 | [DOCA.2 - Search Neighboring Uses, Technologies, Characteristics, and Supports for Development Opportunities](#doca2---search-neighboring-uses-technologies-characteristics-and-supports-for-development-opportunities) | Released; evolving | search, neighboring uses, supports, plural leads. What materially different opportunity have we not considered? | A bounded inquiry; direct sources; C.18 and C.19 only for their actual archive or live-pool questions. |
-| 4 | [DOCA.3 - Construct a Worthwhile Problem and Proposed Contribution](#doca3---construct-a-worthwhile-problem-and-proposed-contribution) | Released; evolving | worthwhile problem, receiver, promise, acceptance. What receiving contribution would make this lead matter? | PSD.3 for competing formulations; FPF A.2.3 for promise meaning; receiver and domain evidence. |
-| 5 | [DOCA.4 - Construct Development Directions with Their Support Configurations](#doca4---construct-development-directions-with-their-support-configurations) | Released; evolving | directions, finite change, support, pattern contribution. What configuration could make the intended contribution possible? | C.11.CRC; HCD, OCE and other holder practices; DOCA.5 for joint reachability. |
+| 3 | [DOCA.2 - Search Neighboring Uses, Technologies, Characteristics, and Supports for Development Opportunities](#doca2---search-neighboring-uses-technologies-characteristics-and-supports-for-development-opportunities) | Evolving | search, neighboring uses, supports, plural leads. What materially different opportunity have we not considered? | A bounded inquiry; direct sources; C.18 and C.19 only for their actual archive or live-pool questions. |
+| 4 | [DOCA.3 - Construct a Worthwhile Problem and Proposed Contribution](#doca3---construct-a-worthwhile-problem-and-proposed-contribution) | Evolving | worthwhile problem, receiver, promise, acceptance. What receiving contribution would make this lead matter? | PSD.3 for competing formulations; FPF A.2.3 for promise meaning; receiver and domain evidence. |
+| 5 | [DOCA.4 - Construct Development Directions with Their Support Configurations](#doca4---construct-development-directions-with-their-support-configurations) | Evolving | directions, finite change, support, pattern contribution. What configuration could make the intended contribution possible? | C.11.CRC; HCD, OCE and other holder practices; DOCA.5 for joint reachability. |
 
 **Part III — Qualify reachability and retain options**
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 6 | [DOCA.5 - Qualify Development-Direction Dependencies and Bound Joint Reachability](#doca5---qualify-development-direction-dependencies-and-bound-joint-reachability) | Released; evolving | joint conditions, shared resources, transition, conditional branch. Can these individually plausible ingredients hold together? | A.15.9; C.11.CRC; qualified direct feasibility and permission results. |
-| 7 | [DOCA.6 - Maintain an Opportunity Portfolio and Preserve Stepping Stones](#doca6---maintain-an-opportunity-portfolio-and-preserve-stepping-stones) | Released; evolving | retention, stepping stones, stage baselines, burden. Which later possibilities are worth keeping available for reconsideration? | C.18; C.19 for live-pool treatment; C.11.CRC for stage-specific comparison; DOCA.8 for change. |
+| 6 | [DOCA.5 - Qualify Development-Direction Dependencies and Bound Joint Reachability](#doca5---qualify-development-direction-dependencies-and-bound-joint-reachability) | Evolving | joint conditions, shared resources, transition, conditional branch. Can these individually plausible ingredients hold together? | A.15.9; C.11.CRC; qualified direct feasibility and permission results. |
+| 7 | [DOCA.6 - Maintain an Opportunity Portfolio and Preserve Stepping Stones](#doca6---maintain-an-opportunity-portfolio-and-preserve-stepping-stones) | Evolving | retention, stepping stones, stage baselines, burden. Which later possibilities are worth keeping available for reconsideration? | C.18; C.19 for live-pool treatment; C.11.CRC for stage-specific comparison; DOCA.8 for change. |
 
 **Part IV — Bound advice and requalify change**
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 8 | [DOCA.7 - Bound the Development-Direction Advising Engagement](#doca7---bound-the-development-direction-advising-engagement) | Released; evolving | adviser, recipient, sponsor, competence, confidentiality, conflicts. Can this service responsibly provide the requested help? | PSD.1; applicable professional conditions; A.15.9; PSD.8–PSD.13 for the missing advice contribution. |
-| 9 | [DOCA.8 - Requalify Changed Development Opportunities](#doca8---requalify-changed-development-opportunities) | Released; evolving | changed premise, actual dependence, scope, history. What can still be used after this change? | A.10/A.10.1, A.15.9 and direct subject practices; PSD.14 for affected advice; G.11 for currentness. |
+| 8 | [DOCA.7 - Bound the Development-Direction Advising Engagement](#doca7---bound-the-development-direction-advising-engagement) | Evolving | adviser, recipient, sponsor, competence, confidentiality, conflicts. Can this service responsibly provide the requested help? | PSD.1; applicable professional conditions; A.15.9; PSD.8–PSD.13 for the missing advice contribution. |
+| 9 | [DOCA.8 - Requalify Changed Development Opportunities](#doca8---requalify-changed-development-opportunities) | Evolving | changed premise, actual dependence, scope, history. What can still be used after this change? | A.10/A.10.1, A.15.9 and direct subject practices; PSD.14 for affected advice; G.11 for currentness. |
 
-# Readme — Development Opportunity Construction and Development-Direction Advising
+**Part V — Construct, enact and continue development**
+
+| § | ID & Title | Status | Keywords & Search Queries | Dependencies |
+| :--- | :--- | :--- | :--- | :--- |
+| 10 | [DOCA.9 - Construct and Sustain a Connected Development Undertaking](#doca9---construct-and-sustain-a-connected-development-undertaking) | Evolving | development, self-development, weak difficulty, problematisation, transformation network, next problem. How do the necessary contributions work together and continue after success? | DOCA results as needed; B.5.PI, C.39, C.40.CD/CU, C.32.MWA; ME.6, HCD, OCE and the actual subject practices. |
+| 11 | [DOCA.10 - Construct a Feasible Development Portfolio with Shared or Branch-Specific Support](#doca10---construct-a-feasible-development-portfolio-with-shared-or-branch-specific-support) | Evolving | independent research, product, performer development, common support, resources. Which worthwhile undertakings and support arrangements can actually coexist? | STR.8/11/14, RMP.1/2/8, MA.1–3/8, OCE.8/9/11 and qualified receiving results. |
+
+# Development and Self-Development Practice Readme
 
 ## Practical entries
 
-These selected examples show how several methods contribute to one development question. They are not a catalogue or coverage boundary. Bring the actual question and start from an adequate existing result; use the Table of Contents and the PatternID and title for direct help.
+These ordinary practical entries show useful ways into the connected practice and its independently usable Methods. They are not a catalogue or coverage boundary. Bring the actual question and start from an adequate existing result; use the Table of Contents and the PatternID and title for direct help.
 
-Opportunity construction needs no adviser. Advice from a distinct practitioner can begin with an already formed question or programme comparison, without reconstructing an earlier opportunity inquiry. You can ask an assisting agent to explain or apply the methods in the language of your work, without framework jargon.
+Development can be organized by the subject itself, with others, or by an authorized provider. It need not begin with a settled problem, selected Method, office or development programme. Learning or implementing a Method can contribute without constituting the whole development. Opportunity construction needs no adviser. Advice from a distinct practitioner can begin with an already formed question or programme comparison, without reconstructing an earlier opportunity inquiry. You can ask an assisting agent to explain or apply the methods in the language of your work, without framework jargon.
+
+### DOCA-CONDUCT-DEVELOPMENT — Connect a development undertaking and continue from its result
+
+- **Situation:** A person or organization can name courses, tools and improvement projects, but cannot explain how they change its reachable contributions or how development continues after a local success.
+- **Question:** What connected work would discover a worthwhile next problem, construct and obtain its means, enact the change and make further development possible?
+- **First useful result or blocker:** A connected construction with usable supplier results, feasible provision, a bounded start and a meaningful return from what actually happens; or an exact unavailable contribution.
+- **Start with:** [DOCA.9](#doca9---construct-and-sustain-a-connected-development-undertaking). Enter at the missing connection; use an already adequate opportunity, Method, performer or provision result directly.
+- **Stop or return:** A sufficient construction can finish this design work. Its enactment needs the actual performers, resources and powers; development continues from the result actually obtained, not from the completed drawing.
+
+DOCA.9 develops the typical connections before comparing their enactment through workplaces, ordinary managers, specialist help, a common service or a dedicated office. Its worked case shows a lead replacing an inadequate planning premise and then discovering a different problem after success: others copy the exercise without learning the judgement. The next undertaking develops transmission and independent use of the reasons, rather than repeating the course. A provider-supplied result and a person's acquired capability remain different outcomes.
+
+### DOCA-COMMIT-A-PORTFOLIO — Preserve independent purposes under shared means
+
+- **Situation:** Research, products, performer development and public contributions are each worthwhile, but compete for the same experts, money or provision.
+- **Question:** Which combination can be undertaken, and should particular support be shared or supplied within its branches?
+- **First useful result or blocker:** Feasible alternative portfolios, their actual trade-off and decisions, or the exact conflict preventing the combination. Authorized bounded commitments are a separate result.
+- **Start with:** [DOCA.10](#doca10---construct-a-feasible-development-portfolio-with-shared-or-branch-specific-support) when the joining construction is missing; use a sufficient STR, research and operating account directly when it already answers the question.
+- **Stop or return:** Return the proposed portfolio to its real commitment holders. A funding decision does not decide a scientific conclusion or authorize a client's organizational change. Reopen the affected arrangement when resources, contribution needs or permissions change.
+
+The worked provider case preserves research with its own epistemic purpose while two products use an already adequate Method. Shared support includes adaptation and maintenance; it is compared with complete provision inside the branches. A changed resource limit reverses the support choice without inventing a product dependency or sacrificing the research by default. DOCA.6 remains the different Method for keeping possibilities available without allocating a programme.
 
 ### DOCA-CONSTRUCT-OPPORTUNITY — Find a contribution before choosing a course or tool
 
@@ -110,16 +135,28 @@ An already adequate HCD.2 programme comparison can enter the programme-advice qu
 
 ## Reading and citing a pattern
 
-Use the full framework name outside a context that already identifies it. `DOCA` is its short reference code; within this text a PatternID such as `DOCA.5` is enough. Name the edition when a particular published body matters. A Part or title change does not by itself change a PatternID.
+Use the full framework name outside a context that already identifies it. DOCA is its short reference code, not an expansion of the title; within this text a PatternID such as DOCA.5 is enough. Name the publication and edition when a particular body matters. A PatternID alone does not identify an edition or make different publications interchangeable. See [edition, series and scope](#docareference6---edition-series-and-scope). A Part or title change does not by itself change a PatternID.
 
 Read the direct body's working situation, Solution, case and assurance limit before making a stronger claim. Its position in this file does not make every preceding pattern a prerequisite. The applications show conditional uses of results, not a procedure everyone must complete. The [unlike-subject cases](#docaapplication3---app-doca-03--unlike-subjects-exact-recipients-and-an-anti-case) explain where human development, engineering, cultural and research contributions differ. These constructed applications illustrate use; they do not establish field effectiveness.
 
 
 # Preface
 
-A development question can arise before a goal, programme, adviser, or preferred intervention exists. A person may be unsure what contribution to develop; an organization may have a fashionable solution but no worthwhile receiving problem; an adviser may have sound technical inputs but no adequate service relationship. Use this language to construct a bounded opportunity or obtain responsible development-direction advice. Start with the result already available and the question it needs to answer. Stop when the next useful result or exact missing premise is clear.
+Development can begin with a faint difficulty in ordinary work, a possibility that changes what is worth attempting, or a newly noticed limit after success. The problem, the way forward and the means of development can all need construction. This framework helps people conduct that work, join its necessary contributions and continue from the position actually reached. It also retains independently useful opportunity inquiry and advice: a bounded useful result can finish such an undertaking without pretending that development itself is complete.
 
-## DOCA.Preface:1 - Two independently usable branches
+The developed subject, the provider of help and the chooser of a commitment need not be the same. Self-development is the branch in which the subject itself makes the relevant contribution to conducting its own development. An externally supplied improvement does not establish that contribution. A technical or non-agent subject can develop under another performer's work without being assigned agency by analogy.
+
+## DOCA.Preface:1 - One connected practice and independently useful contributions
+
+The connected question is how a worthwhile change becomes attainable and actual, and how the changed position becomes a basis for further development. DOCA.9 supplies the construction linking current work, problematisation, direction and Method construction, performer preparation, provision, consequential work and further inquiry. DOCA.10 handles a different recurring difficulty: independently worthwhile undertakings whose shared means and support must fit together. The opportunity and advice branches below supply useful results within that practice and remain usable independently.
+
+**Connected formulation.** Notice what matters in the current situation; make the unresolved question worth answering; construct a reachable change with its means; qualify the contributions together; obtain the real commitment and provision; perform the work and distinguish the result from what was learned; use the changed position to find the next worthwhile attainable problem; improve the way development is done when that change is worth its cost. Enter at an adequate existing result, preserve independent work, and return to the particular missing contribution when a connection fails.
+
+This formulation helps retain the joins explained by the patterns. It is not a compulsory lifecycle or an assertion that every described relation already obtains. A local performance can skip unnecessary learning because a qualified performer exists. A known adequate Method can avoid fresh research. A genuine inquiry can continue for its own scientific result without waiting for a sale. A branch can end, rest or consolidate while the subject retains a way to notice and pursue its next development. Endless activity and ever-larger obligations are not the meaning of open continuation.
+
+The practical result of one complete use is a meaningful bounded start, actual work through qualified Methods, an intelligible account of the changed contribution and a reasoned next development question. It need not be a document package. Where a company or provider needs strategic descriptions, programmes, work arrangements and learning material, those are expressions of the relevant construction and separate instructional work; their existence is not evidence of the capability they describe.
+
+### DOCA.Preface:1.1 - Opportunity construction and advice remain independent entries
 
 **Development Opportunity Construction** investigates what could change, why it would matter to a recipient, and which support configuration could make that contribution possible. It can return a conditional direction, a qualified opportunity, a retained possibility or a precise gap. It needs no adviser.
 
@@ -127,7 +164,7 @@ The future contribution can emerge from examining material already available. Wi
 
 **Development-Direction Advising** concerns help from a distinct performer to a recipient. [DOCA.7](#doca7---bound-the-development-direction-advising-engagement) bounds that service; Problem Structuring and Decision Support supplies the actual comparison, recommendation or other warranted decision-support return. A formed question, qualified opportunity or adequate programme comparison can enter directly. Neither branch requires the other to have been performed.
 
-The branches share inquiry, characterization, joint conditions and changed-premise qualification because the same development claim can be used in construction and in advice. Sharing those questions does not make them four mandatory checkpoints. Use an adequate existing result and obtain only what the receiving question still lacks. A whole arrangement comparison already answered by OCE, a human programme comparison already answered by HCD.2, or an ordinary choice with sufficient inputs can go directly to its actual use.
+These two branches share inquiry, characterization, joint conditions and changed-premise qualification because the same development claim can be used in construction and in advice. Sharing those questions does not make them four mandatory checkpoints. Use an adequate existing result and obtain only what the receiving question still lacks. A whole arrangement comparison already answered by OCE, a human programme comparison already answered by HCD.2, or an ordinary choice with sufficient inputs can go directly to its actual use.
 
 Consider Mira, the engineer-manager in APP-DOCA-01. She is considering supported practice of qualified specialist-result use, or a change in the review service that supplies more technical support. The first is a prospective personal-development direction; the second may improve the receiving result without demonstrating a new personal capability. A missing independent-review transfer result is a specific HCD question. It does not erase a separately supported result for familiar tasks.
 
@@ -140,6 +177,8 @@ A direction needs more than an attractive label. DOCA.1 bounds the inquiry; DOCA
 Enter at the first missing result. A team with a sound inquiry can search without repeating intake. A practitioner with a qualified direction can examine its joint conditions through [DOCA.5](#doca5---qualify-development-direction-dependencies-and-bound-joint-reachability). [DOCA.6](#doca6---maintain-an-opportunity-portfolio-and-preserve-stepping-stones) can retain useful possibilities and conditional enabling relations without selecting a programme or committing resources. If responsible advice is wanted, use the actual missing service or PSD contribution. A request for a specialist result is fulfilled by an adequate return, not by sending the request.
 
 This division preserves useful work at several stopping points. An inquiry can end with a better question. A direction can remain useful while one permission or support result is missing. A retained path can name a later possibility without asserting that its first step happened. The person or arrangement with the relevant authority retains each choice and intervention.
+
+When the needed result is a continuing development undertaking, carry these returns into DOCA.9. It connects them with the professional work that can realize and qualify the change. When independently worthwhile undertakings draw on common means, DOCA.10 constructs the joint portfolio and compares support arrangements; Strategy still supplies strategic commitment and the actual holders make the decisions. Neither addition changes the finite result or non-use boundary of DOCA.1–8.
 
 ## DOCA.Preface:3 - Qualify the combination as well as its ingredients
 
@@ -179,17 +218,17 @@ Preserve what was previously returned and distinguish a correction, a later reco
 
 ## DOCA.Preface:6 - Architectural Rationale
 
-Construction and Advising belong together because their users can reuse and join contributions about the same opportunity while needing different entrances and completion results. An adviser can receive a qualified construction result; a self-directed inquiry can use the construction language without establishing a professional engagement. The shared account makes their conditions visible at the point of use.
+The language connects three scales of result without treating them as interchangeable. A worthwhile opportunity or responsible advice can be enough for a bounded inquiry. A development undertaking needs the further joins by which necessary contributions become usable together, work occurs and a new position is obtained. A provider or organization with several independent ends needs a portfolio whose common demand and support can be chosen coherently. The shorter result remains useful without claiming the larger one.
 
-Using PSD alone is a serious simpler alternative for a recommendation question with adequate inputs. Keep that direct entry. The additional DOCA contribution is the recurring work of constructing worthwhile opportunities and supported directions, qualifying their joint conditions and retaining or reconsidering possibilities. Likewise, an organization arrangement, human development or implementation question already answered by its direct practice needs that result, not a DOCA reconstruction.
+DOCA.1–8 retain opportunity construction and advice because their results are reused in the larger practice and can be sought independently. DOCA.9 supplies the missing connected construction; its subject-specific learning, engineering, inquiry, cultural and organization work use their actual professional suppliers. DOCA.10 supplies the joining construction for independent purposes, shared support, resource competition and real commitments. Retaining a possibility in DOCA.6 does not allocate it, and comparing a human programme in HCD.2 does not construct an organization's research/product/development portfolio.
 
-The predecessor descriptions preserve useful narrative. Individually addressed patterns additionally let a practitioner find one recurring problem, working move, result and stop without recovering the whole narrative. Putting the explanation only in a Suite Reference would help cross-framework discovery but leave a copied DOCA publication incomplete as an account of its own use.
+Using PSD alone remains a serious simpler alternative for a recommendation question with adequate inputs. HCD, OCE, Strategy or another professional Method can likewise finish their own question directly. A list of those suppliers is insufficient when the reader still has to invent how their outputs become one feasible development undertaking or how the first success opens a different worthwhile question. The connected Methods make that joining work explicit without absorbing the supplying disciplines.
 
-A further programme or path pattern would add no needed owner here: DOCA.4-DOCA.6 already cover directions, dependencies and retention, while HCD.2 and Learning Product supply programme and Guide contributions. Separating Construction and Advising into different publications may become useful when people need to use, cite or change a branch as a whole and well-linked separate accounts serve those uses better. Different source communities or renewal rhythms can inform that comparison; they are not mandatory prerequisites for a useful narrower language.
+The pattern language is broader than one composite Method. A DPF may offer several independently reusable ways whose results constrain one another; its publication Parts are not Method constituents or a mandatory action order. DOCA.1.CHR's suffix remains an address, not proof of specialization or parthood. A supplied domain result is a premise under qualified conditions, not the domain's entire Method.
 
-The present relations are specific. DOCA.1.CHR supplies characterization used in several questions; its suffix is an address, not proof of Method specialization or parthood. A qualified domain result supplies a premise, not the supplying practice's entire Method. A Part groups publication text; it does not impose an action order. The language supports these independently usable contributions and their qualified combinations without claiming that its nine bodies describe one admitted composite Method.
+The opportunity, advice and continuing-practice contributions are independently useful within the connected development language. Keeping them in one publication lets a practitioner discover and use their joins while retaining precise PatternIDs. A separate publication becomes preferable when a branch has an independently useful whole and the revised distribution serves its use, learning and change better. Reconsider the organization when changed uses or contributions make another arrangement more useful.
 
-A useful narrower profile can inherit applicable guidance and explain its changed situation, contribution, conditions and evidence needs. More than one level of narrowing is possible, and a contribution can serve several profiles. State whether the actual relation is bounded-use projection, specialization, composition, reuse or result dependence. A mathematical view needs its own selected elements and relation; overlapping membership alone supplies neither an order nor the bounds required for a lattice.
+A useful narrower profile can inherit applicable guidance and explain its changed situation, contribution, conditions and evidence needs. More than one level of narrowing is possible, and a contribution can serve several profiles. State whether the actual relation is bounded-use projection, specialization, composition, reuse or result dependence.
 
 ## DOCA.Preface:7 - Source synthesis, costs and limits
 
@@ -201,7 +240,9 @@ For human advice, NCDA's identified ethics provisions and the scoped ICMCI engag
 
 These distinctions matter for whose work the language serves. Sponsor pressure can displace the recipient's question; provider interests can restrict the alternatives considered; fluent AI output can obscure a missing qualification. APP-DOCA-03 applies the boundaries to communities, AI configurations, facilities, research and a population with no population-local advice recipient. Obtain the actual recipient and authority where needed; transfer no human-learning mechanism or capability reading by analogy.
 
-The practical gain is a smaller usable return: a course label becomes a contribution-bearing direction or an exact HCD question; a model shortlist can reveal a support alternative; an advice request acquires meaningful disclosure limits; and a changed premise reopens only dependent uses. The cost is explicit qualification and the work of joining results. Retaining options also consumes attention and resources. Some inquiries properly end with a narrower claim, a request, referral or abstention. Constructed cases show how to make these distinctions; they establish neither field effectiveness, general transfer nor faster reading.
+A bounded inquiry still gains a smaller usable return: a course label becomes a contribution-bearing direction or an exact HCD question; a model shortlist can reveal a support alternative; an advice request acquires meaningful disclosure limits; and a changed premise reopens only dependent uses. The cost is explicit qualification and the work of joining results. Retaining options also consumes attention and resources. Some inquiries properly end with a narrower claim, a request, referral or abstention. Constructed cases show how to make these distinctions; they establish neither field effectiveness, general transfer nor faster reading.
+
+The whole-development gain is different: a practitioner can construct and revise the joins from a consequential question to changed possibilities and a next attainable problem. B.5.PI, C.39, C.40.CD/CU, C.32.MWA and the direct subject practices supply its underlying constructions. DOCA.10 brings qualified research, strategic, accounting and organization contributions together under one finite choice. The original sources and their professional limits remain operative; constructed cases explain conditional use, not observed general effectiveness.
 
 Reopen the affected guidance when a source change or repeated practitioner difficulty defeats its working move, branch boundary, source use or affordable return. An accepted later Guide contribution can change the uses it actually supports; an unaccepted future contribution supplies no current instruction. The complete bodies and applications give the instructions and worked detail for the selected question; the source tail identifies its external contributions and sources.
 
@@ -709,7 +750,7 @@ A conforming characterization or companion account:
 5. **MUST** keep result, resource, affected-System or distributional, and explicitly protected coordinate families visible when finite comparison is current.
 6. **MUST NOT** force incomparable coordinates into one scalar or assert Pareto improvement without a complete oriented set under one basis.
 7. **MUST** identify the direct owner, source, qualification, and uncertainty for every decision-reversing reading.
-8. **MUST NOT** use a MethodDescription, dashboard, benchmark, source link, or tool output as proof that measurement Work or a result exists.
+8. **MUST NOT** infer measurement Work or a qualified result merely from the presence of a MethodDescription, display, benchmark score, source link or tool output. **MUST** establish the measurement and evidence basis required for the receiving claim, reusing an adequate qualified result.
 9. **MUST** return each missing premise as a bounded request, unknown, narrower claim, blocker, or stop.
 10. **MUST** retain a next measurement, comparison, pattern, direct-owner use, or local reopen condition only where it changes the recipient's continuation or interpretation. A sufficient direct characterization creates no further-work or omission-record obligation.
 11. **MUST NOT** present the characterization as a chosen direction, recommendation, programme, authorization, performed Work, or observed effect.
@@ -765,7 +806,7 @@ For organization and campaign cases, [ISO 56008:2024](https://www.iso.org/standa
 - **Constrains:** `DOCA.3` and `DOCA.4` by making the receiving problem, contribution, finite change, and protections inspectable.
 - **Supplies premises to:** `DOCA.5`, `DOCA.6`, `DOCA.7`, and `DOCA.8` without establishing reachability, portfolio admission, advising admissibility, or refresh outcome.
 - **Returns to:** HCD or capability owners for human results; organization, strategy, engineering, operations, AI/model, safety, legal, professional, research, evidence, measurement, or other direct owners for their characteristics and conclusions.
-- **Does not imply:** one maturity scale, beneficial development, a chosen direction, recommendation, programme, WorkPlan, performed Work, assurance, or effect.
+
 
 ### DOCA.1.CHR:End
 
@@ -788,7 +829,7 @@ Start with one bounded subject, a question worth investigating, a horizon, prote
 
 This is opportunity-generating search: the worthwhile problem and target contribution may still be provisional. A *lead* is a possibility worth examining, not yet a supported need, complete direction, or reachable change. A separate adviser is unnecessary.
 
-**Ordinary non-use boundary.** Reuse an adequate lead or direction set when another search is unlikely to change the current inquiry. If a bounded decision-support question already needs a finite alternative set, use [PSD.8](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd8---generate-decision-alternatives). If one domain practice owns the whole discovery question, use it directly. If the only question is a requirement's justification, use C.11.DUA with its direct domain basis without reopening opportunity search. Do not open a generation archive merely to remember two possibilities.
+**Ordinary non-use boundary.** Reuse an adequate lead or direction set when another search is unlikely to change the current inquiry. If a bounded decision-support question already needs a finite alternative set, use [PSD.8](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd8---generate-decision-alternatives). If one domain practice owns the whole discovery question, use it directly. If the only question is a requirement's justification, use C.11.DUA with its direct domain basis without reopening opportunity search. Do not open a generation archive merely to remember two possibilities.
 
 ### DOCA.2:2 - Problem
 
@@ -823,7 +864,7 @@ Name what may be investigated at the chosen effort and with the available permis
 
 #### DOCA.2:4.2 - Search from more than one direction when it can change the answer
 
-Use the following prompts selectively. They are search operations, not a required taxonomy or a four-step sequence.
+Use the following search prompts selectively.
 
 | Operation | Question to try | Difference to retain |
 | --- | --- | --- |
@@ -992,7 +1033,7 @@ Start by asking the receiver what is missing or foregone in one bounded use. Rel
 
 The subject that might develop and the receiver of its later contribution can differ. A person may explore their own future Work without an adviser; an organization may investigate a contribution for a client; a research programme may seek an epistemic contribution rather than a commercial offer.
 
-**Ordinary non-use boundary.** Reuse an adequate problem/contribution account when its receiving use, evidence, protections, and horizon remain current. Proceed to `DOCA.4` if only the way of obtaining that contribution is missing. Use [PSD.3](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd3---generate-plural-problem-formulations) when a bounded decision-support inquiry needs materially different problem formulations. This pattern does not establish an actual commitment, choose a direction, or justify intervention by itself.
+**Ordinary non-use boundary.** Reuse an adequate problem/contribution account when its receiving use, evidence, protections, and horizon remain current. Proceed to `DOCA.4` if only the way of obtaining that contribution is missing. Use [PSD.3](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd3---generate-plural-problem-formulations) when a bounded decision-support inquiry needs materially different problem formulations. This pattern does not establish an actual commitment, choose a direction, or justify intervention by itself.
 
 ### DOCA.3:2 - Problem
 
@@ -1245,7 +1286,7 @@ Distinguish two questions:
 - **Different contribution premises:** directions address different worthwhile problems, results, uses, or acceptance expectations. Preserve those differences for the receiving comparison.
 - **Different ways of obtaining one contribution:** candidates hold the result premise stable but vary the supporting arrangement. For organization-change decisions, use OCE.8 when that whole same-result question is current.
 
-Use [PSD.8](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd8---generate-decision-alternatives) when the receiving work is a bounded decision-support alternative set. PSD.8 can retain alternatives for different live formulations; same-result parity is not its universal entry condition.
+Use [PSD.8](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd8---generate-decision-alternatives) when the receiving work is a bounded decision-support alternative set. PSD.8 can retain alternatives for different live formulations; same-result parity is not its universal entry condition.
 
 Retain the actual baseline, a smaller repair, a staged direction, or no new development when each genuinely answers the inquiry. No change still carries continuing Work, resource use, and exposure. A missing alternative is an honest return; do not invent a weak candidate to make a preferred one win.
 
@@ -1320,7 +1361,7 @@ Two directions now differ materially:
 
 The candidates do not yet share a qualified same-result comparison: the first proposes development of independent recognition; the second proposes supported result use. The next question is which contribution the receiving review needs and what HCD or supplier result can qualify the corresponding transition. Combining them creates another candidate whose joint time and support need testing.
 
-The result is two conditional directions, not a learning programme or recommendation. If one is later chosen, HCD.2 can supply programme candidates and comparison. Any requested programme recommendation and authorized programme choice remain separate; only then can Learning Product realize the appropriate Guide. The person can also stop now with the conditional directions and the support limits that matter; an exact support request is a further selected contribution.
+The result is two conditional directions, not a learning programme or recommendation. If a selected direction calls for human capability development, HCD.2 can supply programme candidates and comparison. Within that branch, any requested programme recommendation and authorized programme choice remain separate; only then can Learning Product realize the appropriate Guide. The person can also stop now with the conditional directions and the support limits that matter; an exact support request is a further selected contribution.
 
 #### DOCA.4:5.2 - A faster retrieval candidate is not a cost-free improvement
 
@@ -1897,7 +1938,7 @@ Agree the development-advice question and the conditions under which the adviser
 
 #### DOCA.7:4.1 - Identify the actual relationship and receiving use
 
-Use [PSD.1 — Bound the Decision-Support Engagement and Authority Boundary](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd1---bound-the-decision-support-engagement-and-authority-boundary) to recover an adequate engagement question or its exact missing value. State whose development is under consideration, what later contribution or decision the advice serves, the horizon, and the return sought now.
+Use [PSD.1 — Bound the Decision-Support Engagement and Authority Boundary](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd1---bound-the-decision-support-engagement-and-authority-boundary) to recover an adequate engagement question or its exact missing value. State whose development is under consideration, what later contribution or decision the advice serves, the horizon, and the return sought now.
 
 Distinguish the recommending performer from the recipient at the grain of this engagement. Naming one self-directing actor twice does not establish the distinct advising relation used here. A recipient may also be the choice owner when that authority is supported. An organizational team can receive advice from a separate internal specialist without appointing an external consultant.
 
@@ -1951,7 +1992,7 @@ If the receiving contribution or direction is unsettled, use the relevant constr
 
 Use DOCA.5 for a missing joint-reachability result and A.15.9 for an exact external premise. A service may be admissible while the evidence supports only a conditional set, request, or blocker. Keep the scope local: a missing provider comparison can block ranking all directions while an independent human-development result remains usable.
 
-PSD.13 supplies the bounded recommendation when that question is current. The later authorized direction choice, HCD.2 programme comparison, optional programme recommendation, authorized programme choice, and Learning Product Guide remain distinct. An existing programme-level comparison can be used directly for its programme question.
+PSD.13 supplies the bounded recommendation when that question is current. The later authorized direction choice remains separate. When the selected direction calls for human capability development, HCD.2 programme comparison, an optional programme recommendation, authorized programme choice and Learning Product Guide remain distinct further results. An existing programme-level comparison can be used directly for its programme question.
 
 #### DOCA.7:4.7 - Return the boundary and preserve actual closure duties
 
@@ -2075,7 +2116,7 @@ Separating the two questions makes a useful partial return possible: the service
 - **Uses A.15.9 and the relevant holder practices:** qualified specialist premises without taking over their Methods or conclusions.
 - **Uses PSD.8–PSD.13:** alternatives, comparison, and recommendation only for the actual missing decision-support result.
 - **Returns to the applicable professional relationship:** competence, participation, confidentiality, conflicts, disclosure, referral, and closure.
-- **Returns to authorized participants, HCD.2, and Learning Product:** choices, programme comparison, and later Guide realization.
+- **Returns to authorized participants:** the direction choice. When the selected direction calls for human capability development, HCD.2 supplies programme comparison, authorized participants make the programme choice, and Learning Product realizes the later Guide.
 - **Uses DOCA.8:** changed engagement premises and their opportunity-specific effects.
 - **Uses PSD.14:** a genuinely needed follow-up arrangement and affected recommendation return.
 
@@ -2096,7 +2137,7 @@ Separating the two questions makes a useful partial return possible: the service
 
 Begin with the changed premise and the particular opportunity claim that used it. Compare the earlier and current conditions and return the useful result they support. Obtain new qualification only when a stronger current use needs it and its attainable contribution warrants acquisition. The first useful result is an unchanged, narrowed, blocked, revised, or retired contribution for a stated use, with its affected downstream return.
 
-This is application-specific requalification shared by Construction and Advising. It does not revise an entire framework merely because one client's circumstances changed. A changed recommendation uses PSD.14's follow-up question; changed source-currentness or publication work retains its direct owner.
+This is application-specific requalification shared by Construction and Advising. A changed recommendation uses PSD.14's follow-up question; changed source-currentness or publication work retains its direct owner.
 
 **Ordinary non-use boundary.** Reuse a current result when no material premise or receiving use changed. A new filename, link, date label, or layout alone does not require reconstructing opportunities. If the current question is only one source's currentness, use G.11; if it is one already-known evidence reliance, use A.10 and the direct subject guidance. Do not create an indefinite monitoring service to answer a bounded change.
 
@@ -2185,7 +2226,7 @@ An ordinary return can be short:
 
 Make the changed contribution and its scope available to the person or practice using it, under the actual disclosure and service conditions. Preserve the earlier opportunity or recommendation as an account of what was returned under the earlier basis. Record a correction where needed without silently rewriting that history.
 
-When an actual recommendation or follow-up question is affected, use [PSD.14 — Arrange Decision Follow-up or Reassess Advice After a Change](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd14---arrange-decision-follow-up-or-reassess-advice-after-a-change). It distinguishes the observation, interpretation, earlier advice, established decision, and implementation, and supplies the affected decision-support return. Use PSD.13 for a later recommendation when one is actually needed.
+When an actual recommendation or follow-up question is affected, use [PSD.14 — Arrange Decision Follow-up or Reassess Advice After a Change](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd14---arrange-decision-follow-up-or-reassess-advice-after-a-change). It distinguishes the observation, interpretation, earlier advice, established decision, and implementation, and supplies the affected decision-support return. Use PSD.13 for a later recommendation when one is actually needed.
 
 A recommendation, its delivery, and its acknowledgement establish neither the recipient's choice nor an implemented change. If an operational action must change, recover the applicable authorized decision or protection rule. If the receiving choice is unknown, say so rather than treating the old advice as a standing instruction.
 
@@ -2195,7 +2236,7 @@ A change in professional scope or disclosure can restrict the service return whi
 
 Close this update when the inspected use has a supported disposition or an explicit blocker and its material coverage limits are visible. A compatible source-link repair can finish directly. Name the next receiver only when further action needs one; neither branch requires a duplicate common account. Keep an independent unresolved branch open as such; do not hold every resolved branch unfinished.
 
-For an actual continuing use, state the observation or condition that would reopen its result and identify any responsibility on which that use relies. A completed reference repair needs no new observation arrangement or certificate that none was arranged. If later advice depends on future evidence, the observation, interpretation, access, timing, burden, and receiving response must be feasible under PSD.14. A missed or late observation is a present reliance limit when that evidence was necessary.
+For an actual continuing use, state the observation or condition that would reopen its result and identify any responsibility on which that use relies. A completed reference repair needs no new observation arrangement. If later advice depends on future evidence, the observation, interpretation, access, timing, burden, and receiving response must be feasible under PSD.14. A missed or late observation is a present reliance limit when that evidence was necessary.
 
 Use [G.11](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md) for actual source currentness, decay, scoped refresh planning, or reporting. It does not decide the new domain result or replace the opportunity judgement. If the guidance itself fails across applications, return the bounded failure to its maintainer; a changed fact about one subject normally changes only that application.
 
@@ -2304,7 +2345,7 @@ Keeping the earlier return, current qualification, and later authorized action s
 
 **AI-specific source return.** The current [NIST AI RMF Playbook, MAP 1.1](https://airc.nist.gov/airmf-resources/playbook/map/) emphasizes receiving context, assumptions, operational requirements, and downstream effects of system changes. This pattern **adapts** that line in `:4.1`, `:4.3`, and `:5.1`: a changed configuration or use requires qualification of the receiving contribution, not merely a fresh product label. The source does not supply the client's evaluation, permission, or causal result.
 
-**Limits and reopen.** The cases are constructed probes of the distinctions, not evidence of field effectiveness. Reopen the relevant requalification rule when actual uses reveal missed dependence, an inadequate discovery frame, unaffordable burden, or a stronger direct-domain method. Changes to the guidance itself go to its maintainer; a new client fact does not alone require changing the pattern.
+**Limits and reopen.** The cases are constructed probes of the distinctions, not evidence of field effectiveness. Reopen the relevant requalification rule when actual uses reveal missed dependence, an inadequate discovery frame, unaffordable burden, or a stronger direct-domain method. Changes to the guidance itself go to its maintainer.
 
 ### DOCA.8:12 - Relations
 
@@ -2320,14 +2361,822 @@ Keeping the earlier return, current qualification, and later authorized action s
 ### DOCA.8:End
 
 
+# Part V — Construct, enact and continue development
+
+## DOCA.9 - Construct and Sustain a Connected Development Undertaking
+
+> **Type:** DPF pattern
+>
+> **Status:** Evolving
+>
+> **Normativity:** Normative unless marked informative.
+
+### DOCA.9:1 - Problem frame
+
+Use this Method when worthwhile development depends on several kinds of work and their connections are not yet workable: someone can formulate a direction but not obtain its means; a provider supplies a result but the intended recipient acquires no new capability; research, product work and learning compete for the same people; or a successful intervention leaves no way to recognise and organise the next worthwhile transition.
+
+The intended result is a feasible, revisable construction of development for named subjects, with the Methods, performers, means and receiving uses that make it possible. It includes a description of the relevant connected transformation flows and an arrangement that can perform the needed work. The description is a means of construction and coordination. Its production is not the development of the described subjects.
+
+Development here concerns a worthwhile change in a subject's attainable possibilities and ability to deal with consequential situations, together with continuation from the changed position. A difficult episode can begin before anyone has named a problem. Its continuation can require a different question, a different Method, a different arrangement or a different understanding of value. Completing current work, learning an established Method, creating a Method and implementing an agreed change can contribute to development; none establishes the whole by itself.
+
+The Method is usable by a person arranging self-development with assistance, leaders and participants in an organization, a provider helping other subjects, or organizers supporting a practice among independent carriers. It does not grant a provider authority over a recipient or make every cultural carrier a member of a managed organization.
+
+For one adequate bounded improvement with available means and no consequential connection problem, use its direct Method. Do not build a network description merely to redescribe that work. Conversely, a bounded contract may be one contribution to continuing development without promising to provide its whole future.
+
+### DOCA.9:2 - Problem
+
+Useful local results can fail to become development. A research finding does not reach an engineering choice; a course supplies knowledge without the conditions for its use; a new arrangement performs well only while its designer supplies every judgement; or support remains organized around an earlier problem after its recipient has changed.
+
+A single lifecycle diagram hides these failures. It can put an epistemic result, a person's capability, an organization and a provider's work into successive boxes as though one object passed through them. An organization chart can hide the same problem from the opposite side: every box has an owner, but the required work and its conditions do not connect.
+
+The practitioner must construct a connected whole without turning it into a compulsory universal sequence. Different subjects, questions and time scales need different Methods and different evidence. Some work can proceed independently. Some results need one another, some merely share scarce means, and some reveal a need to revise a previous decision.
+
+### DOCA.9:3 - Forces
+
+| Force | Tension to resolve |
+| --- | --- |
+| Useful continuation | Bounded commitments must finish, while development can continue from what they make possible. |
+| Specificity | Professional Methods supply real substance; a general construction must connect them without pretending to replace their knowledge. |
+| Joint feasibility | Locally attractive transitions can compete for the same capability, time, authority or funds. |
+| Independence | Research, participant development, provider development and cultural continuation can have independently worthwhile results. |
+| Self-development | Help can make a transition possible while leaving the recipient dependent on an external problem setter. The desired independence must be chosen, not assumed. |
+| Cultural reach | A practice can become ordinary beyond its first provider, but adoption, competence, voluntary participation and effective use are different results. |
+| Affordable support | Common means can reduce total cost; sharing can also create queues, incompatible standards or a monopoly over problem formulation. |
+| Changing means | Cheap capable AI changes viable allocations. It does not erase the developing subject, its stakes, access conditions or responsibility relations. |
+
+### DOCA.9:4 - Solution
+
+#### DOCA.9:4.1 - Recover what is developing and the work its development should change
+
+Begin with a consequential situation, not an office proposal. Name the subject whose possibilities are in question, the work or life situations that matter to it, and the available basis for describing its current position. A person, team, organization, technical system and cultural population require different descriptions. A provider, a paying organization and a participant can coincide in one case and differ in another.
+
+Use DOCA.1 and DOCA.1.CHR to bound and characterize the development inquiry. B.5.PI supplies the entry from an unnoticed or weakly understood difficulty in ordinary work. DOCA.3 and C.40.CD help construct the problem and possible contribution when neither is settled. A discrepancy from a target is one entry; a newly accessible possibility, a dependence that has become costly, a changed environment or an unexamined limit after success can be another.
+
+For each intended change, say what the subject could subsequently do or obtain, why that is worth pursuing, what it could lose, and which uncertainty matters now. A slogan such as “become a learning organization” does not yet distinguish changes. Compare, for example, a team that can obtain a qualified answer from an adviser, a team that can make that judgement itself, and a team that can construct and improve its own way of making such judgements. These can all be useful; their costs and evidence differ.
+
+Keep the present work that must continue visible. Development need not suspend useful operation, nor must every limitation be removed before the next contribution. Rest, consolidation, deliberate termination of one direction and protection from overload can preserve the conditions for subsequent development.
+
+#### DOCA.9:4.2 - Construct the typical connected transformation, then vary it
+
+Start with this recurrent situation: a subject can perform some worthwhile activity, but its current way does not let it formulate or accomplish a further worthwhile change. Its difficulty can be visible only in interruptions, dependence on a particular helper, repeated exceptions, displaced costs or a possibility that it cannot yet use. A useful initial construction connects changes in **ongoing work, problem formulations, available ways, the developing subject, provision and cultural continuation**. These are different objects; they do not travel through one common sequence.
+
+The construction below is prospective. It describes transformations to arrange and the contributions on which they depend. It does not assert an obtaining E.18.NET network or make the following descriptions an exhaustive taxonomy of flows. Use the direct E.18 identity and change rules when selecting actual flow members. One described strand can require several members; two distinctions useful for the explanation can belong to one member.
+
+##### DOCA.9:4.2.1 - Connect current work to the construction of a worthwhile question
+
+Keep ordinary work running where it remains useful. Preserve enough of a consequential episode to recover what was being attempted, the way used, its premises and what actually happened. The episode may be a failure, an unexpectedly successful response or a newly available means. Use a sufficient established account directly. When different live explanations would change the continuation, distinguish them before selecting the repair. For example, inability to supply a result can concern an inadequate Method, unavailable authority or an unlearned operation. Sending all three into a training programme would give them the wrong continuation.
+
+Problematisation transforms the subject's understanding of the situation and produces new formulations. Under B.5.PI, DOCA.1/.3 and C.40.CD, relate the difficulty to something worth changing for that subject; expose the premise making the current way insufficient; and construct a question whose possible answers change action. Its result supplies two different receiving operations:
+
+- Direction construction uses the question to compare worthwhile attainable changes, including the means, losses and support dependence of each.
+- Method or knowledge inquiry uses the consequential unresolved operation or claim to search, adapt, construct or investigate a way. It need not wait for a fully settled strategy when what can be done affects what is worth choosing.
+
+The returns matter. A technical inquiry that establishes a cheaper usable way can change the direction. A participant's objection can expose an unwanted result and change the question. An unavailable decision power can require a different undertaking. Do not freeze the formulation simply because one branch has begun work.
+
+A **direction is ready for the next construction** when it specifies enough of the subject's changed possibilities and receiving conditions to distinguish ways of obtaining them. It need not settle every future question. “Use a consultant's answer”, “make this judgement with obtainable help”, and “organize and revise our own way of making this judgement” specify different results even when all three begin at the same failed project.
+
+##### DOCA.9:4.2.2 - Join development of the way with development of its performer
+
+Construct one adequate way to obtain the chosen change. Its explanation connects the material or information available in the work, the operative distinctions and actions, the intermediate result needed by the next action, the receiving result and the conditions on which those connections depend. ME and C.39/C.40.CD supply development of this construction; use RMP for a genuinely unresolved research claim. A method description that names only its final result does not yet supply the next performer.
+
+This way then separates into three possible receiving contributions:
+
+1. A capable performer can use it to supply the immediate result.
+2. HCD or the appropriate non-human capability-development Method can use the explained operations and revealing contrasts to develop the intended holder.
+3. Provision and organizational design can use its actual requirements to construct the access, time, tools, authority and cooperation needed for performance.
+
+These branches are joined by **the same intended use and its operative conditions**, not by a shared document title. In a human-learning branch, the learning task must require the consequential operation that later work needs. In a provision branch, capacity must be available when that task and later work consume it. When immediate delivery and learning use one occasion, distinguish the helper's contribution from the learner's. A helper can complete the project while accidentally removing every opportunity for the learner to make the judgement being developed.
+
+The branches also return results to one another. If a learner's attempt exposes an unexplained distinction, return it to the Method construction. If a sound operation cannot be executed under local information access, return the missing access to provision or alter the way. If changing the arrangement removes the operation entirely, reconsider whether learning it still serves a retained development aim. A machine that eliminates an unnecessary decision can be a better whole solution than training everyone to make it.
+
+##### DOCA.9:4.2.2a - Use present capabilities to develop the same agent
+
+An agent can use a capability it already has to perform work through which it develops another of its capabilities. This can concern a person, an AI system, a team or an organization. The available capability supplies a contribution to that work; it need not supply the whole undertaking. For example, being able to construct a revealing comparison can help someone develop a new professional judgement, but does not supply missing subject knowledge, information access or authority. Begin with the changed possibilities sought in §4.1, not with a presumption that every exercise or Method change is development.
+
+Work backward from the wanted capability through E.23.CDI:4.2–4.2.1, then follow the proposed development forward with the agent's actual means. Which operation must become possible? What would let the agent construct or acquire its way of performing that operation? What can it already do to obtain that contribution? An agent may already be able to recover an explanation, construct a trial, distinguish an error, obtain expert help or revise an arrangement. Explain how the selected action produces the input needed by the next action. If the agent can reconstruct a demonstrated solution but cannot judge an unfamiliar one, a trusted worked comparison can supply the missing judgement while it learns the relevant distinction. Do not quietly require the target capability in order to acquire it. If the development operation itself is unavailable, obtain that contribution or develop it under an attainable smaller question.
+
+Use A.12 to expose who acts on what. Where acting and changed constituents are distinct parts of the same agent, Reflexive Split supplies the internal account. An organization's method-development group can change the preparation of another group; an AI's existing orchestration component can construct tests and install an authorized change in its retrieval component. Their part relations and the actual interaction belong to the chosen account. A capability, role or later edition alone does not identify either constituent. Select enough physical, software or organizational detail to make the intervention intelligible and decide it; an ordinary development choice does not require an anatomical account of a person. Preserve an adequate existing Reflexive Split and supply the missing development operations through the relevant Methods. A.12 identifies the participants and relation; it does not by itself teach the subject operation or establish its outcome.
+
+The working connection has to survive enactment. In the proposed AI arrangement, the orchestrator's existing test-construction ability produces contrasting queries and expected distinctions. A qualified source or evaluator supplies any judgement that the orchestrator cannot make. The permitted change modifies the retrieval component, and representative receiving queries test the capability of the resulting agent with its actual tools and remaining help. A changed file is not that capability result. For a person, a worked explanation, a chosen practice task and feedback can play corresponding roles, but the learning Method must explain how the person's attempts and corrections develop the operation. Software installation is not a model of human learning. In an organization, changing an instruction still requires the relevant groups to acquire or obtain the operations, coordinate their work and have authority to perform it. The agent-specific Methods supply these mechanisms.
+
+Keep external contributions visible without treating useful assistance as a failure. An outside specialist remains an outside contributor unless the chosen whole actually includes that contributor; its successful work is not automatically the recipient's acquired capability. State which contributions the agent can subsequently perform or organize and which remain supplied. Then use the changed position in §4.2.4 to form the next worthwhile question. When the acquired capability changes how the agent obtains subsequent development, trace that additional connection: for example, a newly learned way of examining errors can change the construction of the next practice task. Reusing an adequate way is legitimate. Improving the way of developing is needed when it changes an attainable result or burden, not as a compulsory extra cycle after every success.
+
+##### DOCA.9:4.2.3 - Rejoin in consequential work and distinguish what changed
+
+Bring the available way, actual performer and provision together in one consequential receiving occasion. Ordinary work supplies the material and stakes; the developed way supplies the operation; the performer enacts it; the arrangement supplies the necessary conditions. The work changes its own subject, such as a service, engineered system or decision. This result alone does not describe the change in the person, team or organization.
+
+Use the work and its appropriate examination to recover three distinct results where they matter:
+
+- what the receiving activity obtained;
+- what the developing subject can now do, under which retained assistance and conditions;
+- what the attempt revealed about the way and its provision.
+
+The first goes back into ordinary operation. The second changes the starting position for subsequent development. The third can change the Method, help, organization or the earlier direction. A useful result that still depends on a specialist remains useful. It does not establish independent capability, nor does that limit invalidate the delivered service.
+
+The critical join is now explicit: a proposed capability is not merely written between “training” and “performance”. The learning work exercises the named operation; the receiving work requires that operation under the promised assistance; and the resulting evidence supports only the capability of the actual holder and arrangement. C.40.CU, E.23.CDI and the subject evaluation Methods provide the corresponding construction and qualification.
+
+##### DOCA.9:4.2.4 - Connect the changed position to further development and cultural continuation
+
+After a successful transition, use the subject's changed position as new input to problem formation. Recover what it can now notice, attempt, combine or question. Compare that with a consequential situation it could not previously handle. This can yield a further problem even when the completed project satisfies every acceptance condition. The new question is not an automatically scheduled repeat of the first task.
+
+For example, a lead who can now revise a planning assumption may become able to notice that the organization has no way for another lead to dispute an inherited assumption. The next problem concerns the conditions under which a judgement can be reconstructed, challenged and renewed across people. Repeating the planning course does not supply that result. The new direction can require a different way of discussing evidence, a different information-use rule and learning support for another carrier. It uses the first result without making the first project endless.
+
+Cultural continuation is a connected but distinct strand. Use the operative explanation, decisive contrasts and actual conditions from the successful work to make the practice obtainable by another carrier. Through C.36.RP, arrange reconstruction, first consequential use and renewal in that carrier's conditions. A faithful copy can fail when those conditions differ. Return a useful new variant or a revealing failure to the common repertoire; preserve local differences that explain why the variants work. A shared employer or an organized community can support this work, but is not required for it.
+
+When several occasions reveal the same costly limitation in noticing, framing, constructing or continuing, the subject may develop its **way of developing**. The returned result must make a subsequent worthwhile transition better attainable or less burdensome. Producing a new framework, helper or training programme does not establish that gain by itself. Reuse the same construction at that subject and purpose; do not create a new universal level of development merely because its object is another development Method.
+
+##### DOCA.9:4.2.5 - Keep provision and continuing activity connected throughout
+
+Provision is not a last box after the development plan. It supplies conditions consumed at several joins: access for problematisation, subject expertise for constructing the way, protected opportunity for practice, permission for consequential use and continuing support for another carrier. Its own development can therefore be a genuine dependency. It can also proceed independently for several later uses.
+
+One person can perform ordinary service work, develop its Method and help another person use it. These are distinct Work contributions without necessarily being distinct positions or organizational units. Compare their joint demand against actual capacity. Likewise, a research result can have its own scientific purpose while contributing to a product direction; the product does not become its only justification.
+
+Embed the development undertaking in the surrounding activity. Preserve the ordinary results that cannot be displaced, identify what each development alternative would displace, and settle that choice with the actual resource owner. A project boundary, a Method boundary and an organizational boundary answer different questions. A residence coordinator can develop a way of running programmes and also run current cohorts; drawing two project branches has not doubled that person's available time.
+
+##### DOCA.9:4.2.6 - Use the connected description
+
+The following drawing compresses the explained construction. Boxes denote described work and results; labelled arrows summarize prospective receiving connections. They do not assert generic world-side relation occurrences or one object passing through a lifecycle.
+
+```mermaid
+flowchart LR
+  W["Continuing activity and consequential episodes"]
+  Q["Difficulty understood and worthwhile question constructed"]
+  D["Attainable direction and changed possibilities"]
+  M["Adequate way and its operative explanation"]
+  C["Developed holder with stated support dependence"]
+  U["Consequential use in the actual arrangement"]
+  P["Obtainable capability, time, means and authority"]
+  N["New starting position and further worthwhile question"]
+  R["Reconstruction and use by another carrier"]
+  W -->|"episode, premise or new possibility"| Q
+  Q -->|"question and stakes"| D
+  Q -->|"unresolved operation or claim"| M
+  M -->|"what becomes attainable"| D
+  D -->|"required use and protected conditions"| M
+  M -->|"operations and revealing contrasts"| C
+  D -->|"requirements of the whole"| P
+  P -->|"learning and use conditions"| C
+  C -->|"available holder"| U
+  M -->|"usable way"| U
+  P -->|"actual provision"| U
+  W -->|"material and receiving occasion"| U
+  U -->|"receiving result"| W
+  U -->|"changed possibilities and exposed limits"| N
+  N -->|"next consequential question"| Q
+  U -->|"explained use and limits"| R
+  R -->|"new variant or failed condition"| M
+```
+
+The drawing omits internal professional transformations, the multiplicity and timing of occurrences, exact participant signatures and most failure returns. Read those from the explanation and direct Methods, not from arrow direction. For an actual E.18.NET claim, identify member flows and qualifying cross-flow relation occurrences under their direct governors. The proposed drawing does not supply that assurance.
+
+Enter where a sufficient result is already available. An existing adequate Method can enter at the way and its receiving use; an established capable holder need not repeat learning. A missing source claim can open an inquiry without creating a whole training programme. Remove a branch only when its contribution is unnecessary or supplied elsewhere under compatible conditions. Keep a real unresolved contribution visible instead of silently calling it done.
+
+#### DOCA.9:4.3 - Change a connection and derive the changed arrangement
+
+Local adaptation changes the construction, not just its names. Begin with the operative condition that differs; follow only the joins whose receiving result depended on it; reconstruct those joins; and compare the changed whole with the original intended result.
+
+Consider a team developing its ability to frame and revise consequential operating decisions. Its first construction requires development of a technical calculation, learning how to interpret the result, use in a real decision and cultural continuation to another team. Two alternatives differ substantively:
+
+| Connected contribution | Locally developed calculation | Adequate external calculation becomes obtainable |
+| --- | --- | --- |
+| Method construction | A subject specialist develops and qualifies the calculation and its limits. | Obtain the existing calculation, explanation, limits and reliable access; local development of that calculation is unnecessary. |
+| Development of the subject | The team learns to formulate the question, judge premises, interpret alternatives and revise its own decision. Calculation construction may be delegated. | Keep these contributions where they remain the aim. Receiving a technically correct answer does not replace them. |
+| First consequential use | The local calculation and decision work must be ready together. | The external result must answer the local question in time; unsuitable scope returns to the question or supplier. |
+| Provision | Local technical development time, tools and qualification are required. | Provider availability, confidentiality, compatibility and continuing access become material conditions. |
+| Cultural continuation | Preserve the local explanation and the means of maintaining the calculation. | Preserve the interpretation and return route to the supplier, without teaching every carrier to recreate its technical machinery. |
+| Organization choice | A temporary specialist team may be justified by the development burden. | A local decision owner with a development adviser and an external specialist may suffice. An internal calculation office has lost its former justification unless another use supports it. |
+
+The changed supply removes one internal branch and adds a provider dependence. It does not automatically remove the subject's development or transfer responsibility for the operating decision. Conversely, if the only retained aim was obtaining a qualified decision and no independent judgement is wanted or needed, revise the direction openly and compare a service solution. Do not retain compulsory training under a discarded aim.
+
+A different change gives a different answer. If the external service fails the local confidentiality condition, the technical result can remain adequate while its provision is unusable. Consider an authorized local execution, a less sensitive input, another provider or renewed internal construction. “The Method exists” does not settle that arrangement. If an AI arrangement can perform the whole retained contribution with the required powers and supported reliability, compare it as a whole alternative rather than preserving human steps by habit.
+
+For ordinary leadership without a separate office, allocate these same contributions to actual managers, practitioners and obtainable specialists. For a dedicated development office, keep it responsible for the development help it can provide and make its technical suppliers explicit. For a common service covering several masteries, share only contributions that are genuinely reusable: for example, access, practice design or maintained infrastructure. Preserve specialized problem formulation and judgement where substituting one subject's standard would defeat another's use. Federation combines these where common provision and local judgement both matter.
+
+Use the same adaptation on connections omitted from the drawing: a provider's authority may not extend to a voluntary participant; a learning occasion may compete with a production deadline; two branches may require the same scarce expert simultaneously. Follow the changed condition through the receiving work and compare the moved burden. These changes can alter the direction, the Method, its allocation or the service remit; not every failure calls for another organization chart.
+
+ME.6 supplies comparison of the resulting performance and support arrangements. It can use adequate existing Methods while changing their Work order, allocation, provision or provider relations; use OCE where actual organizational construction is needed. An existing sufficient arrangement requires no new architectural exercise.
+
+Before relying on a consequential connection, distinguish a proposed requirement from an established relation:
+
+| Proposed reliance | Direct question to settle |
+| --- | --- |
+| Work enacts a Method or produces a result | A.15, A.15.1 and A.15.PROD govern the claimed performance and production. A plan is not occurrence evidence. |
+| A continuing subject changes | A.3.4 governs the appropriate change claim; new epistemic content is not automatically persistence of one unchanged episteme. |
+| A holder can perform the contribution | A.2.2 and E.23.CDI keep the holder, work family and actual support conditions explicit. |
+| A contribution is obtainable from another actor | Its service, provision, assignment and authority relations need their own actual basis. A catalogued offer is not reserved capacity. |
+| Methods or Work form a whole | B.1.5 and C.32.MWA distinguish constructive parthood, use, support, overlap and order. Sharing a result or adviser does not establish parthood. |
+| Several independently identified flow structures form a selected network | E.18.NET requires their exact qualifying relations and bindings. No generic “transfer” arrow supplies them. |
+
+A small local construction can remain in ordinary language when it supports the decision. Stronger formal reliance requires the corresponding direct basis. The purpose of that qualification is to preserve meaning while making the undertaking usable, not to defer every practical decision until a complete formal model exists.
+
+#### DOCA.9:4.4 - Form alternatives that remain whole
+
+A useful alternative specifies a possible change and enough of its means, costs and receiving use to judge whether it can work. DOCA.4/.5 and STR.6/.8 supply this construction; C.40.CU supplies the development of a useful reproducible whole. Reuse an adequate answer and develop its missing connections.
+
+Several routes can be live together:
+
+- **A usable Method exists.** Obtain its result, use it, adapt it or develop the capability to perform it, according to the sought result. A course is not required when a qualified provider is the sufficient alternative.
+- **The Method exists but is not feasible locally.** Change access, support, allocation or the Method's contextual realization. If that exposes a poor direction, return to direction construction.
+- **The proposed way is underdeveloped.** Use ME and C.40.CD/CU to construct and try it. Do not sell established provision of a result that the proposed way cannot yet supply.
+- **A consequential knowledge claim is unresolved.** Use RMP or another actual research practice. Independent research can also be worthwhile without an immediate product customer; give it its own result, conditions and resources.
+- **The participant can perform the work only with continuing help.** Compare maintained support with a learning transition and a different division of work. Neither dependence nor independence is universally superior.
+- **The current arrangement produces the result but blocks further development.** Compare changes to problem formulation, authority, learning opportunity and support, not merely faster execution of the same routine.
+
+These branches can rejoin or reopen one another. They are not stages that every undertaking must complete in order. A fully formed local question can enter near its receiving use; a failed trial can return to the underlying purpose rather than repeat an unchanged solution.
+
+#### DOCA.9:4.5 - Synthesize the organization from the work and conditions
+
+For each alternative, recover the actual Work contributions, capability holders, means, authority and mutual dependencies needed to enact it. Use C.32.MWA to compare these structures; OCE.3/.4 construct the organization concept and contribution architecture, OCE.5/.6 establish positions and enabling relations, and OCE.8 compares human, AI, robotic and provider arrangements.
+
+Start with the contributions that must remain with the developing subject or at the place of work. Where self-development is intended, someone must notice and help formulate their own next difficulty, judge what matters to them and use the changed possibilities. A helper may assist strongly; outsourcing all those judgements changes the self-development claim. Where the purpose is obtaining a competent result rather than personal mastery, more work can properly be delegated.
+
+Then locate professional help, common means and decisions that need a wider view. They may be performed by the same person, ordinary managers, peers, a temporary team, a specialist office, a common service, an external provider, AI systems or combinations. A name such as “development office” establishes neither a capability nor an authority relation.
+
+Compare at least the serious feasible alternatives exposed by the case, not every possible organization chart. The usual differences are:
+
+| Arrangement | What can make it useful | What must be resolved |
+| --- | --- | --- |
+| Workplaces and ordinary leadership, with no separate office | Local knowledge and short receiving paths; sufficient existing capability and time | Protected effort, access to uncommon expertise and coordination beyond one workplace |
+| Dedicated development support | Concentrated skill in problematisation and development, continuity of support and a protected strategic remit | Subject expertise obtained elsewhere, risk of taking over the recipient's agency, separation from actual work |
+| Common support for several masteries | Reusable learning, evaluation, infrastructure or supply capabilities and shared fixed costs | Whether the common contribution is genuinely common, specialist judgement and competition for capacity |
+| Federated provision | Local or disciplinary judgement with selected common resources and cross-unit coordination | Explicit authority, interfaces, funding, compatible evidence and responsibility for unresolved joins |
+| External or inter-organizational provision | Rare expertise and scale unavailable internally | Purchase and availability, confidential information, local adaptation and transfer after the engagement |
+| Extensive AI provision | Cheap retrieval, construction, rehearsal, monitoring or execution where capability and access support it | Reliability, permissions, context, tool dependence, correlated failure, adaptation and the exact retained human result |
+
+Provider remit and realization arrangement are coupled choices. “All needed masteries are obtainable” does not entail “one office owns and teaches them all.” A tunnelling company can use specialist technical providers for tunnelling mastery and a narrower development practice for constructing its next worthwhile transitions. MIM can coherently specialize in development while referring a client's geological problem to another provider. Both must connect the obtained result to their receiving work.
+
+In an organization with autonomous AI agents, distinguish development of the agents, development of the human participants, and improvement of the combined arrangement. A cheaper AI answer can remove an unnecessary human processing job; it does not demonstrate human mastery. Conversely, preserving human mastery as an explicit objective can justify practice that would not be needed to obtain the immediate answer.
+
+Compare complete configurations through C.11.CRC and C.11.DUA over the same horizon and sufficient result. Include construction, acquisition, learning, adaptation, operation, maintenance, coordination, checking, transition and displaced work. Count a shared contribution once only where it can actually serve both uses. A benefit that depends on unavailable authority or capability is not available merely because its direct monetary cost is low.
+
+#### DOCA.9:4.6 - Turn the selected construction into performed contributions
+
+Use the first real receiving occasion to define a bounded realization. Which contribution will be made, by whom, with which means, on what terms, and what will its recipient then be able to do? Keep the uncertainty that the first attempt is meant to resolve. A charter, budget and meeting schedule can enable this work without being its intended result.
+
+Use [LDR.4](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/LEADERSHIP-PRINCIPLES-FRAMEWORK.md#ldr4---prepare-a-proposal-for-decision-and-first-use) to prepare the proposal, obtain effective decisions and commitments, and complete the first useful handover, with [CB.7:4.2](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/COMMUNITY-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#cb742---find-the-actual-paths-of-help-explanation-and-influence) for its voluntary branch. For a subject uncertainty, use [LDR.3](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/LEADERSHIP-PRINCIPLES-FRAMEWORK.md#ldr3---construct-a-useful-answer-through-substantive-discussion); for incompatible contributions, use [LDR.2](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/LEADERSHIP-PRINCIPLES-FRAMEWORK.md#ldr2---agree-feasible-joint-contributions). Recover the proposal in the participants' own working terms; let them consult trusted advisers; distinguish misunderstanding from a correctly understood objection; revise the proposed work, conditions or distribution of gains and losses where the objection is material. Make the accepted contributions mutually knowable before relying on them. This work can change formulation and selection, not only implement a completed strategy.
+
+An employer's proper authority, a professional obligation, a voluntary commitment and agreement to a service are different bases. A sponsor cannot settle all of them through one signature. When a needed contribution is unaccepted, outside the person's power or beyond available capacity, return to the relevant construction rather than hide it in the implementation plan.
+
+OCE.9/.11/.16 connect realization with continuing service and concurrent change. HCD supplies actual learning, practice, feedback and transfer where a human capability is part of the promise. SYSE and the subject profession supply engineered means. Observation and evaluation use the evidence required by the actual claim, not the mere completion of activities.
+
+When the first attempt fails, locate what the result changes. Inadequate purpose, a wrong Method, a missing capability, unavailable means, a broken cross-flow connection and an unsupported success claim need different repairs. Preserve useful performed work and warranted results while changing the failed connection.
+
+#### DOCA.9:4.7 - Continue from the changed position
+
+After a worthwhile transition, recover the new starting position: attainable work, actual support dependence, new constraints, retained possibilities and newly exposed limits. DOCA.6/.8 preserve opportunities and requalify changed premises. B.5.PI and C.40.CD support the next inquiry even if the completed project meets all its declared criteria.
+
+Ask what became worth attempting that was previously inaccessible or invisible. Select a more demanding but still attainable problem when its contribution justifies the burden. “More demanding” is relative to the subject and the useful contribution; it is not an obligation to increase workload, status, budget or a single numerical score. A strategic contraction can free the means for a more important development.
+
+Separate the end of a project, a provider's contract, one chosen direction and the subject's continuing development. A provider may complete a good bounded service while another provider or the subject takes the next work. If nobody can yet continue without the original helper choosing the problem, retain the supported-development result and identify what remains before claiming the intended self-development.
+
+Improvement of development itself is another possible direction. Identify the limitation in noticing, framing, choosing, obtaining means, checking or continuing; construct a better way; use it in a subsequent development occasion; and compare the result and its total burden. Preparing a replacement helper sustains supply. Changing how future helpers are developed can improve the means of development. Neither recursion nor a new generation is valuable by label alone.
+
+A finite observation can support a repeatable next transition, transfer to another carrier or reduced dependence. It cannot demonstrate that development will continue indefinitely.
+
+#### DOCA.9:4.8 - Make cultural continuation possible without substituting compliance
+
+When development is intended to become ordinary practice, identify what must be reconstructed and used by further carriers. The object is not necessarily a fixed procedure. It can include ways of noticing difficulties, disputing formulations, obtaining professional help, constructing a transition and reopening the question after success.
+
+Use C.36/C.36.RP to distinguish generation, transmission, reconstruction, use, selection and retention. CB.7 develops distributed organizing; CB.12 connects an occasion, attainable action, useful return and repetition; CB.14 develops the repertoire. These suppliers already contain substantive Methods. Obtain their actual results rather than replacing them with a communication campaign.
+
+A workplace, association, customer community and population of independent practitioners expose different constraints. Organizational membership may support some work assignments; participation in a community or receipt of a public text does not confer the same authority. Independent carriers can use and develop the practice without a shared meeting, employer or provider.
+
+Create conditions for another capable carrier to recognise and organize a materially different next development problem. Successful performance of the founder's prepared exercise demonstrates less. Examine what the next carrier can reconstruct from available material and help, what changes under local conditions, and which result is returned to the common repertoire. Qualified disagreement or an independently improved variant can sustain development better than uniform repetition.
+
+#### DOCA.9:4.9 - Give local work an adequate method language and return to use
+
+Keep the decisions needed to operate the arrangement available at their actual point of use: purpose and strategy, contribution and support architecture, authoritative commitments, research questions where present, and the Methods that govern recurring work. These are different products. They need not become one document per named pattern, and their hierarchy need not reproduce the Library's framework hierarchy.
+
+A local framework is justified when recurrent local practice needs a coherent language of Methods and their relations. Use E.4.DPF to construct it from the actual local problems and supplier results; identify variation, authority and the conditions that reopen an adaptation. Do not copy whole DPFs into every project. A contract or resource allocation is not replaced by an LPF, and a single project may need only a few adequately explained local instructions.
+
+Carry a proposed Method into an actual work occasion with sufficient explanation, capability and means. Observe both conformity where it matters and the receiving result. When local adaptation works, distinguish what can be reused from what depends on local facts. When it fails, return to the responsible Method or architecture decision rather than treating failure as disobedience by default.
+
+The typical network thus remains an aid to constructing and revising concrete practice. Its useful invariant is the recoverable connection among developing subjects, consequential problems, viable transformations, actual means and further development. Its layout and allocation can change.
+
+### DOCA.9:5 - Archetypal Grounding
+
+#### DOCA.9:5.1 - From repeated replanning to a different way of committing work
+
+This is a constructed case. Its observations and resource figures are stipulated to expose the Method; they are not a report of an intervention or estimates for other organizations.
+
+A small engineering company integrates business-data feeds for customers. Two project leads use a reliable planning routine for familiar integrations: inspect an agreed input format, divide the work into known tasks, estimate them and reserve people. In a new integration, the first sample passes the existing tests, yet later exports contain revised records that must replace earlier versions. The plan treated every later record as a new item. Adding more execution capacity would produce the wrong report sooner.
+
+The immediate customer result is an adequately processed report. The proposed development result is different: project leads should be able to notice when the basis of a commitment is unestablished, construct a useful inquiry and revise the obtaining way before making that commitment. The company also wants this practice to continue without an adviser choosing every next question. A consultant could repair the current integration without producing those latter results.
+
+The first lead initially frames the problem as inaccurate estimation. With a development adviser, she reconstructs the episode: which input premise was used, why the first sample supported it only weakly, and where the later output ceased to mean the intended business quantity. They contrast the episode with a familiar feed whose replacement semantics are documented and covered by suitable tests. This shows that the consequential difference is not simply project size or programmer speed. In the new case, the necessary processing operation depends on a source behavior that has not yet been established.
+
+The lead therefore changes the question from “How many more days do we need?” to “Which source behavior must we establish to choose a valid processing way, and what can we responsibly commit before that is known?” The adviser asks for the competing implications rather than supplying a schedule. The subject specialist helps formulate two feasible possibilities: a feed with stable record identities and explicit revisions, or one without sufficient information for reliable automatic replacement. The first permits a bounded processing construction; the second requires changed source provision or a narrower agreed result. A small obtained source history, its interpretation with the data owner and a replay against a known correction can distinguish those possibilities for this decision.
+
+This inquiry is not automatically a scientific research programme. Existing professional knowledge may be enough to construct and interpret it. It is also not useful merely because it is called discovery. It must return the particular contribution that changes the commitment. The lead arranges access to a permitted history and obtains the owner's explanation; the specialist examines the relevant semantics; the lead works through what each possible result permits. They preserve the existing task-estimation routine for the part whose premises remain valid.
+
+The resulting way contains a conditional commitment, not an optimistic average of incompatible plans. Obtain and interpret the decisive source behavior; choose the compatible processing operation; qualify it for the actual receiving meaning; then commit the dependent work with its remaining assumptions. If source provision cannot support either acceptable route, return that restriction to the customer and direction choice. Protect unaffected current service while this work proceeds.
+
+The supplied contributions now have exact receiving uses. The episode gives problematisation a failed premise and its consequence. The revised question gives the specialist an interpretable inquiry. The qualified source result gives the lead a basis for selecting a processing way and commitment. The explanation of that selection supplies the learning work with the judgement to practise. The eventual project result is consumed by the customer; the lead's changed capability is a separate claim.
+
+#### DOCA.9:5.2 - Derive a feasible arrangement without making the office the premise
+
+The company compares three whole arrangements. Ordinary managers can provide the help if they have the relevant development skill and protected time, obtaining the data specialist where necessary. A development specialist can supply problematisation and learning support while obtaining technical judgement from elsewhere. A general competence office can supply both through a broader maintained service. The office gains no presumption merely because several kinds of help occur.
+
+For this initial horizon, suppose the ordinary managers lack time to supply the development help, an available adviser has that capability, and the subject specialist can provide the bounded technical contribution. The proposed general office would add fixed coordination work without removing another current constraint. Choose the specialist arrangement for the first undertaking. Keep the conditions under which recurrent demand and genuinely common support would change that choice.
+
+The adviser has six hours available each week. Existing support consumes two. Joint work on the failed premise, question and conditional commitment requires two; each lead's own contrasting case requires one; preparing another helper would require two more. The initial request is therefore eight hours. Defer helper preparation for this first attempt, leaving six. This does not establish the wider cultural aim or make preparing a successor unnecessary forever.
+
+The joint work is shareable only because both leads need the same operative distinction and can lawfully use the shared material. Each individual case remains separate because its local premise and decision must be reconstructed. If either confidentiality or the problem difference defeats sharing, the two-hour contribution cannot simply be counted once; change the timing, supply or promise.
+
+The leads' work time, subject-specialist access, permitted data and the manager's authority must also be available. In this constructed case they are stipulated as obtainable for the bounded attempt; the arithmetic establishes only the adviser constraint. A real organization must replace those premises with its actual availability. Six adviser hours cannot compensate for a lead assigned entirely to current delivery.
+
+Proposal discussion changes the arrangement. A manager wants uncertainty reports included unqualified in performance ratings. A lead explains that this would make early discovery of an unsupported commitment personally costly. The concern is understood correctly, so further persuasion is not the answer. The manager agrees a different use of the material and makes the corresponding work-time allocation. If that authority or commitment were unavailable, the design would retain a dependency, not claim a supportive culture.
+
+The same adviser and manager continue ordinary work during this change. No separate project box or new DPF supplies extra people. Development of the integration Method, present integration delivery, the learning work and provision of help remain distinct contributions even when one person performs several.
+
+#### DOCA.9:5.3 - Show the changed capability in consequential work
+
+In the first attempt, the specialist establishes the source semantics and the lead explains why that result changes the permissible commitment. The adviser then varies the next case. In another feed, stable semantics are already adequately documented; in a third, source latency rather than revision semantics defeats the promised reporting time. Applying the new inquiry unchanged to all three would be another fixed routine.
+
+The lead has to locate which condition is consequential. For the well-supported feed she can use the familiar way without adding a discovery exercise. For the latency case she distinguishes a calculation defect from an unavailable input at the promised time and constructs alternatives involving the receiving window or provision. She obtains the relevant professional answer where needed and makes the commitment within her authority. Help remains available on the agreed terms.
+
+Those enactments would support only what the applicable performance evidence establishes. If the lead independently notices the premise difference and formulates the consequential question but still needs a specialist's technical result, retain that bounded capability with its support dependence. Do not call it complete subject expertise. If the adviser still chooses the difference and every consequential operation, retain the delivered project result and assisted performance, and continue the missing development.
+
+The useful change is not merely familiarity with a new test. The lead can now turn an ill-formed scheduling complaint into a meaningful question about an obtaining way, seek the result that changes a commitment and preserve a sufficient existing way when no new inquiry is warranted. That changes which situations she can handle and which further difficulties she can see.
+
+#### DOCA.9:5.4 - Continue from success into a harder, attainable problem
+
+After the first projects work, the lead reviews a newcomer's planned integration. The newcomer has copied the visible lesson as “always run a discovery trial”. He proposes a week of replay on a feed whose operative premises are already adequately supported. Asked what result would change his action, he can name no such distinction. The previous successful project concealed a new limitation: the organization transmits the exercise more readily than the judgement that made the exercise worthwhile.
+
+The lead now identifies a further problem herself. How can another person reconstruct and dispute the reason for an inquiry, without either copying a ritual or requiring the original adviser to authorize every case? This is harder than making her own commitment: another carrier must recognize the distinction under different preparation and conditions, and the working arrangement must permit a justified disagreement. It is attainable because the first development supplied contrasting cases, an explained construction and a lead able to examine its limits.
+
+She does not solve it by adding a rule saying “do not run unnecessary trials”. She obtains HCD help for the missing learning operation and C.36.RP for reproducible access and renewal. Together they construct a comparison in which the newcomer must relate the input premise, proposed inquiry result and changed action. For one adequately supported case he explains why no new trial is needed. For a differently unsupported case he constructs the result he must obtain and the consequence of each possible answer. A disagreement with the lead is examined against the actual material and receiving decision, rather than treated as a failure to remember the house style.
+
+The lead also changes provision. The usable account retains the decisive contrasting material and the reasons for the selected action, with access to a subject specialist for technical questions. It is not a catalogue of approved answers. At a later real occasion, the newcomer must formulate the issue and obtain the needed contribution under the support conditions the company intends to maintain. An adviser silently repairing the case would preserve delivery but defeat this particular transfer claim.
+
+The earlier two-hour joint construction has ended. In the next explicitly agreed horizon, its released adviser time can support this carrier-development work while the two hours of incumbent support and the two individual hours remain. That gives six hours again, subject to the real allocation being confirmed. If first-stage support has not in fact ended, the transfer undertaking needs another arrangement. A programme's successful milestone does not free capacity by wording alone.
+
+The new result can establish a usable way for another carrier and a better local means of development within its observed scope. It does not prove endless continuation. The practice keeps returning from the changed position to worthwhile attainable problems; a later one might concern several teams' incompatible commitments, another subject's learning needs or a better way to expose hidden assumptions. Select it for its actual contribution and difficulty relative to the subject. Do not manufacture increasingly elaborate exercises simply to keep the programme running.
+
+#### DOCA.9:5.5 - Preserve the construction under materially different conditions
+
+For independent practitioners, no employer can allocate every carrier's time or require disclosure. The same explanation and specialist return may be supplied by a publisher, association or service on acceptable terms; cultural continuation can occur without a communicating group. For a qualified AI arrangement, some inquiry and processing work may be obtained directly from agents. Retain human learning only where it remains an intended result or required contribution, and examine the combined arrangement under its actual powers and access.
+
+For MIM's development, research can have an independently worthwhile scientific result as well as possible product uses. Developing a residence Method, preparing coordinators, running current cohorts and helping a particular participant develop are not one flow. A coordinator can contribute to all of them; their joint demand remains real. The typical construction supplies the joins to expose and develop, while STR, RMP, HCD, DOCA.10 and the actual professional practice supply their substantive work. The MIM case neither converts all research into immediate client service nor establishes the Method's general boundary.
+
+### DOCA.9:6 - Bias-Annotation
+
+The main distortion is to begin with a familiar institution, course or flowchart and make every problem fit it. Recover the developing subject, work and consequential variation before selecting those forms. Another distortion is to equate autonomy with absence of support. Compare the degree and kind of independence actually worth developing.
+
+A further bias treats success on a prepared case as evidence for the whole proposed culture. Ask which subject changed, which further use was shown and what remains a supported expectation.
+
+### DOCA.9:7 - Conformance Checklist
+
+- Can the reader distinguish the intended development from current work, Method acquisition, Method construction and delivery of help?
+- Does each consequential connection name the contribution and receiving use, with a workable return when its conditions fail?
+- Are the proposed flow description, actual transformations, performed Work and organization claims kept at their supported status?
+- Can the selected arrangement supply the needed capability, resources and authority together with continuing work?
+- Does the next transition arise from the changed subject's position, with a bounded attainable contribution rather than a compulsory endless workload?
+- Can another carrier obtain and adapt the relevant Methods without the unpublished invention of the first organizer?
+
+Use the questions needed by the actual claim; they are not a demand to complete every branch.
+
+### DOCA.9:8 - Common Anti-Patterns and How to Avoid Them
+
+**The office is the solution.** Recover the work and support network before and while comparing organization concepts.
+
+**Everything involving Methods is development.** Identify the subject, worthwhile change and continuation being claimed.
+
+**The arrow establishes the relation.** Qualify the direct relation and its local conditions; retain a proposed description where facts are missing.
+
+**One successful service proves recipient mastery.** Keep delivery, assisted performance, transferred capability and self-development distinct.
+
+**All research feeds today's product.** Preserve independent research ends and their actual relation to the rest of the portfolio.
+
+**The new AI removes every human purpose.** Recompare the whole allocation against the actual retained result and duties.
+
+**The example defines the Method.** Keep case assumptions local and test consequential changes that could defeat the promised use.
+
+### DOCA.9:9 - Consequences
+
+The undertaking becomes constructible and revisable across disciplines. The practitioner can locate an unavailable contribution, compare provision and change a failed connection without restarting everything. Development can continue after a bounded success without requiring the same office, provider or project forever.
+
+The Method costs effort in recovering relations and comparing whole configurations. It does not remove professional knowledge, supply missing authority or guarantee cultural uptake. Use the smallest account that supports the consequential choices and deepen it where missing structure would change action.
+
+### DOCA.9:10 - Rationale
+
+The recurring difficulty is a failure of the connected whole, not necessarily the absence of an elementary operation. Existing FPF and DPF Methods already provide problem formation, construction, realization, capability development, organization design and cultural continuation. This Method makes their receiving relations and returns explicit for continuing development.
+
+A connected description and a worked case can support understanding and prospective construction. Qualification of concrete outcomes remains with the actual subject, work and evidence. This distinction lets a typical network guide a future arrangement without asserting that its work has already occurred.
+
+### DOCA.9:11 - SoTA-Echoing
+
+The whole question is how to construct an attainable development undertaking, realize it through available or obtainable capabilities and means, and continue from the changed position without confusing that continuation with indefinite operation of the same project. For this question, a strong existing Library answer is direct use of ME.6, C.40.CU and the qualified subject Methods. ME.6 already compares Method, Work, allocation, provision and other decision-changing relations, including joint burden and realization conditions. C.40.CU already connects an examined response to a useful application, alternative obtaining arrangements, realization, reproduction and condition-sensitive renewal. Subject Methods supply the actual research, learning, engineering or organizational operations. This is a serious sufficient alternative, not merely a choice of office diagram. When the practitioner can obtain the required result and its next continuation from that composition, use it directly; the present pattern requires no additional modelling exercise.
+
+The remaining difficulty arises when individually adequate contributions leave the developmental connections to private invention: how a newly noticed limitation changes the problem and the obtaining way together; how the agent's present capability enables its next capability development; how immediate delivery, development of a performer and provision rejoin without one standing in for another; and how success opens further development and cultural continuation. The original contribution here is the developed construction of those joins in :4.2, their supplier-change derivation in :4.3, and their post-success and further-carrier uses in :4.7–4.8. The worked case follows a failed commitment premise into a changed decision capability and then a harder carrier-development question. These moves reuse A.12, B.5.PI, C.39, C.40.CD/CU, E.23.CDI and C.36/C.36.RP; E.18/E.18.NET, C.30.TFS-REL and C.32.MWA retain the distinctions needed to describe and realize the construction. The gain claimed is an obtainable explanation for this connected work, not a new universal development mechanism or measured superiority over a competent direct composition.
+
+For organizational provision, Rebecca Peters's [CIPD analysis, 9 July 2024](https://www.cipd.org/uk/views-and-insights/thought-leadership/insight/transforming-operating-models), compares central, local and hybrid HR arrangements in relation to purpose, continuing operations and provider capability. This pattern adapts that comparison to the support-remit choice; it does not transfer an HR configuration as a generally optimal development office.
+
+Ina M. Sebastian, Peter Weill, Thomas Haskamp and Jan vom Brocke's [MIT CISR study, “Designing Decision Rights for AI”, 18 June 2026](https://cisr.mit.edu/publication/2026_0601_AIDecisionMatrix_SebastianWeillHaskampVomBrocke), distinguishes framing, action and learning decisions under risk and ambiguity. Its interview-based examples include local business ownership combined with common AI expertise and infrastructure. Here that is a source for examining which decisions and contributions can be distributed or shared; its human organizational roles are not mandatory roles for every agent arrangement. Neither this study nor the CIPD cases establish comparative effectiveness for every community. OCE and Method Engineering retain the operative organizational construction; implementation-support practice supplies needed help in an enactment, not the prior definition of every development question.
+
+The 2024 essays on role communities [inside a company](https://ailev.ru/1741032.html) and [around a company](https://ailev.ru/1741983.html) motivate attention to overlapping organization/community relations, participants' own journeys and competing formal and informal influence. They are conceptual contributions, not evidence for universal predictions about human replacement or office disappearance.
+
+### DOCA.9:12 - Relations
+
+DOCA supplies development opportunity and direction construction; this Method uses those results and returns changed premises. ME.6 supplies comparison of performance/support architecture across supplied Methods; OCE supplies construction and realization of actual organizational arrangements. HCD supplies human learning and transfer; SYSE supplies engineered contributions; ME and RMP supply Methods and warranted knowledge when their questions are live. STR and DOCA.10 connect independently worthwhile contributions under finite means.
+
+C.36/C.36.RP and the applicable cultural and community Methods supply continuation among carriers. [LDR.4](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/LEADERSHIP-PRINCIPLES-FRAMEWORK.md#ldr4---prepare-a-proposal-for-decision-and-first-use) supplies proposal preparation through decision and first use; CB.7 supplies voluntary proposal participation before and during realization. E.4.DPF supplies a local language when recurrent local practice warrants one.
+
+These use and support relations do not by themselves establish constructive Method parthood, a universal work sequence or a containing organization.
+
+### DOCA.9:End
+
+## DOCA.10 - Construct a Feasible Development Portfolio with Shared or Branch-Specific Support
+
+> **Type:** DPF pattern
+>
+> **Status:** Evolving
+>
+> **Normativity:** Normative unless marked informative.
+
+### DOCA.10:1 - Problem frame
+
+**Use this when** an organization that supplies products, services or professional help must develop several capabilities together, but cannot yet explain which research, product, performer-development and enabling work it can actually undertake with its limited resources. Individually worthwhile proposals compete for the same people or means. Some results deserve pursuit in their own right; others support several branches. Treating everything as a product project loses the former, while giving every branch its own complete support team can duplicate work the organization cannot afford.
+
+The wider activity is the organization's development. This pattern addresses construction of a bounded portfolio for that development: a proposed combination of undertakings, their receiving results, common or separate support, resource commitments and conditions for starting and revising the work. It does not prescribe a universal set of branches. Research, products, capable performers and cultural contributions are possible independent purposes, not four compulsory departments or successive phases.
+
+The working readers are the people constructing the portfolio with its prospective performers and decision holders. They bring knowledge of their subject, existing commitments, available methods and resource conditions. The pattern supplies the joining work: how to preserve independently worthwhile results while designing and comparing feasible ways to support them together. Scientific inference, product design, human development, operating coverage and legal or financial authorization retain their own professional methods.
+
+**First useful move.** Take the nearest resource decision. For each proposed undertaking, ask what receiving result justifies it, which other undertaking actually needs a result from it, and which merely uses the same scarce resource. Construct one complete shared-support arrangement and one serious arrangement with support inside the branches where that distinction can change the decision. Compare their full demands at the times that matter.
+
+**First useful result.** Return a feasible proposed portfolio with its trade-offs and next decisions, a smaller useful portfolio, or the exact incompatibility preventing one. When the authorized holders participate, their separate decisions can make a bounded part available to start. A portfolio description neither spends resources nor establishes acquired capability.
+
+**Ordinary non-use boundary.** Use an adequate existing portfolio construction directly. STR.8 already explains how contributions and proposed changes obtain a strategic result; STR.11 selects bounded commitments; STR.14 reconciles simultaneous strategic work. If those descriptions and an existing domain account supply every needed connection, this pattern adds no compulsory pass. Use DOCA.6 when the question is only which opportunities to retain, OCE.8 for different whole arrangements for one stable organizational result, or direct Operations guidance for an already understood scheduling problem.
+
+Recognition is inexpensive: an unexplained shared contribution, unsupported dependency or competing commitment warrants examining that connection. A claim that the resulting portfolio can safely be performed requires actual capability, access, commitments and relevant professional assurance. The construction below exposes those requirements; it does not satisfy them by naming them.
+
+### DOCA.10:2 - Problem
+
+A provider can promise new customer capabilities while its own development remains a list of ambitions. Research is credited with a product result it has not established; preparing a performer is credited with organizational capacity before allocation exists; a common library is counted as free support for every application. Alternatively, each branch budgets an independent copy of methodology, tools and preparation even where a common contribution would work.
+
+A programme tree makes these mistakes hard to see. A scientific inquiry can be inside the organization's development programme without being an input to its next commercial release. A method can support two products without its entire research field becoming subordinate to those products. Two branches can have no result dependency and still be unable to coexist because one expert supplies both.
+
+The practitioner must construct a combination whose results remain meaningful, whose support is obtainable, and whose joint burden fits. The answer must also say what changes after success: completing a familiar delivery does not by itself develop the ability to handle a harder problem or improve the way development is organized.
+
+### DOCA.10:3 - Forces
+
+| Force | Tension |
+| --- | --- |
+| Independent purposes and common resources | Scientific, commercial, human and cultural results can each be worthwhile while competing for one finite allocation. |
+| Reuse and subject specificity | A shared operation can reduce repeated construction; its useful application may still require different premises, expertise, authority and feedback. |
+| Common support and common dependence | Sharing can make maintenance affordable while creating a scarce supplier whose failure affects several branches. |
+| Finite commitments and uncertain discovery | Work can be bounded and funded before its scientific answer or future application is known. That uncertainty does not justify an unbounded promise. |
+| Current service and new capability | Development consumes people, attention and recovery capacity needed by current recipients. |
+| Strong AI and the developed subject | Available AI can perform more work, but obtaining its output, developing a person, and developing a collective capability remain different results. |
+| Plural characteristics and a decision | Unlike contributions need not share a score, yet their owners still have to choose what receives resources now. |
+| Continuation and growth of obligations | A useful next problem can justify further development; success creates no duty to expand every branch indefinitely. |
+
+### DOCA.10:4 - Solution
+
+Construct the portfolio from independently justified results and the contributions that make them obtainable. Develop alternative arrangements for support, place each on one joint resource and authority basis, and take the resulting bounded choice to its actual holders. Preserve independent branches when a dependency fails. Reuse supplied methods rather than repeating their internal operations.
+
+The numbered subsections explain one reusable construction, not a compulsory document sequence. An adequate contribution can enter directly where the current connection is missing.
+
+#### DOCA.10:4.1 - Establish the decision and preserve the different results
+
+Start with the organization being developed, the decision horizon and the commitment now in question. Recover current service, already accepted development work, protected conditions and resources actually available to allocate. Distinguish them from resources somebody hopes to obtain. A longer scientific horizon can remain relevant while the present decision funds only the next eight weeks of inquiry.
+
+For each serious undertaking, explain its next useful result, receiver and grounds of worth. DOCA.3 supplies this problem–contribution account; retain its distinction between a supported need and a hypothesis. Do not invent a customer for foundational research or call every internally useful result a sale. Examples of different result grounds are:
+
+- a research claim, counterexample, explanatory model or precisely narrowed question judged by its scientific contribution;
+- a product or service configuration that could supply a specified recipient contribution;
+- a performer's ability to undertake a previously unavailable class of work, under stated assistance;
+- the organization's ability to provide, accept and sustain that work through its participants and means;
+- an independently usable explanation or method that other practice carriers can adopt, criticize or develop.
+
+Use only the distinctions needed by this portfolio. A branch can contain several of these results. Keep them separate where one can succeed while another fails.
+
+Also name the development contribution, if any, separately from the result of the ordinary work. A new scientific conclusion can be produced by an already mastered research practice; its novelty alone does not show development of the researcher or the organization. Current research, editorial and service commitments belong in the joint resource account on their own grounds even when they are not developmental changes. When developing the ability to undertake a new inquiry, maintain a wider repertoire or provide a new form of help is intended, identify that changed possibility and what must change to obtain it. Membership in a development project does not turn every constituent action into development.
+
+For a research undertaking, use RMP.1 to identify the unresolved knowledge contribution rather than promising the desired answer. RMP.2 supplies an obtainable inquiry or a justified no-new-study result where design selection is live. A negative result or retained uncertainty can be a successful epistemic contribution under the inquiry's answer and work-stop conditions; it is not automatically successful product development. Funding authority can select how much inquiry the organization supports without deciding which scientific conclusion is true.
+
+Distinguish three kinds of decision beside the affected work: who can allocate the organization's resources, who can accept a contribution for its receiving use, and who can authorize access or action. They can coincide in a small organization, but their coincidence needs an actual basis. A client retains its product and organization decisions. An independent researcher or volunteer retains choices not delegated by agreement.
+
+Keep the task's nesting where it is already established. A provider's contribution to a client project can sit within its client-development programme without making the client a part of the provider. That nesting says where the provider coordinates its work; it does not settle the method, budget or authority of every participant.
+
+#### DOCA.10:4.2 - Distinguish result dependencies from shared demand
+
+Use STR.8:4.2–4.2a to explain the obtaining way for each result. Keep the result beside the proposed action and its grounds. Retain adequate current methods, people and means; propose new work only for a missing contribution or necessary continued availability. An available description does not establish that a performer can use it.
+
+At a proposed connection between branches, make the receiving action explicit:
+
+| Relation being proposed | Question that establishes its practical meaning | Consequence for the portfolio |
+| --- | --- | --- |
+| A result is needed before another action | What exact result, at what qualification and time, does the receiving operation consume? Could it proceed with a current or alternative result? | Retain a dependency only for the affected action. Provide its result, substitute, narrow the promise or defer that action. |
+| One contribution supports several branches | What same operation or result remains usable for each receiver, and what separate adaptation remains? | Construct one supplying effort plus each actual receiving effort. Test its capacity and change obligations jointly. |
+| Branches compete for one resource | Which identified person, device, provider window or funding condition is shared? | Combine their demands in that resource's actual windows; no result dependency follows merely from competition. |
+| A result might open a later use | What possible use becomes more plausible or attainable, and what is still unknown? | Retain a qualified opportunity or research hypothesis. Do not put its uncertain result on the current delivery path. |
+| Results are pursued together for independent purposes | Why does each belong in the chosen development direction even without the other? | Compare their joint resource claim and accepted trade-off without inventing a causal or input connection. |
+
+To test a claimed dependency, remove the supplying result in thought while keeping the other conditions fixed. Identify the specific receiving operation that becomes impossible or inadequate. If existing knowledge still supports the product, the new research is not a prerequisite for that product. Its scientific worth can remain a separate reason to fund it. If an unknown operation is indispensable to the product promise, either construct it, commission an appropriately bounded inquiry, use another way, or narrow the promise. A research schedule cannot guarantee discovery.
+
+For each real dependency, explain why the supplied result meets the receiver's conditions. A general method account may need a subject model, permitted data, an interpretation and a preparation arrangement before it can be used. Perform that connection on a representative piece of material. A matching title is not enough. Retain a gap when the necessary operation remains unknown, but continue every branch whose grounds do not depend on it.
+
+Distinguish development of content from its first use and its later improvement. An AI-produced explanation might help a practitioner perform a familiar operation immediately. A new reusable method requires its own construction and grounds; a new capability requires evidence about the subject that acquired it. Include the actual context, tools, interpretation, checking and repair needed by the chosen AI use in its demand.
+
+#### DOCA.10:4.3 - Construct shared support and support within branches
+
+Identify the enabling contributions that could plausibly be shared. Examples include a common method construction, source maintenance, a reusable AI operation, a permitted case repository or preparation for a genuinely common task. Begin from the contribution and its receivers, not from a proposed office.
+
+**Shared-support arrangement.** Describe one supplier's bounded contribution, the applications it serves and the conditions for each use. Identify who maintains its operative content, who can alter it, which receivers need notice of a change and how a failed use returns. Provide enough capacity for expected combined demand and a way to handle a common failure. Then add the work each branch still performs: subject interpretation, adaptation, integration, feedback, acceptance and continuing support.
+
+**Support within each branch.** Let each branch obtain and maintain the support needed by its own receiving result. Retain common sources by reference and exchange reusable results where worthwhile, but do not require synchronization merely because similar work occurs twice. Include the repeated construction, separate maintenance and any later reconciliation. The arrangement can use the same external source without using the same internal supplier.
+
+Compare these as serious alternatives. A common contribution may reduce repeated work while increasing agreement, waiting and adaptation. Separate provision can be preferable when confidentiality, scientific freedom, specialized equipment, incompatible calendars or different acceptance conditions make a common supplier expensive or unsuitable. Neither arrangement implies a legal unit or dedicated office. An office is one possible way to provide selected shared contributions; distributed performers can supply them too.
+
+Use the following constructive test for a proposed shared contribution:
+
+1. Name the smallest content or operation that both receiving uses actually preserve. Remove application-specific inputs and promises from that common part.
+2. Follow it into both applications. Recover each missing input conversion, professional judgement and return after failure. Keep those with the application unless their commonality is itself explained.
+3. Compare one common production and maintenance effort plus the separate applications with two adequate separate efforts. Count coordination and migration as well as execution. Do not assume sharing removes all repeated work.
+4. Ask what happens if one receiver changes, withdraws or doubles its demand. Determine what the remaining receiver still needs, what effort actually disappears and what common obligation remains.
+5. Retain, narrow or abandon sharing at that contribution boundary. A useful common substrate can coexist with separate subject methods and separate authority.
+
+This test does not require a universal shared platform. It can justify sharing only an input format or one AI operation while retaining independent research, product methods and learning designs. A hybrid is useful when its split has a stated reason; it is not automatically a compromise superior to both coherent alternatives.
+
+**Subject help and common support.** Common support makes a contribution available under known conditions. Subject help supplies the diagnosis, theory, construction or interpretation that the recipient's particular problem requires. Sharing a case store or language model does not supply a missing research mechanism, engineering model or learning intervention. When the same subject method is itself reusable, share its qualified explanation and useful means; still provide the adaptation and competence needed in each use. Do not demote subject work to generic administration merely because several branches need it.
+
+OCE.8 can compare complete human, AI, internal-provider and external-provider arrangements once a particular support result and acceptance basis are stable. It should not silently decide whether the organization's independent research purpose is worth preserving: that changes the result set being pursued.
+
+#### DOCA.10:4.4 - Build the joint resource account and repair the whole
+
+For each candidate arrangement, start from the same current configuration and horizon. Place current commitments, protected reserve, development work and continuing obligations in the same account. MA.1–2 supply the resource-demand and capacity meanings; OCE.11 supplies coexistence around organization change; STR.14 supplies reconciliation across simultaneous strategic work. Use an adequate supplied account directly.
+
+Count each performed or proposed supplying effort once. Then add every actual application effort. If the same person appears as researcher, methodologist and mentor, reconcile those demands against that person's availability rather than giving each role a new pool of hours. Pool resources only when their relevant capabilities and availability make them interchangeable for this use. AI compute, AI-engineer time, researcher time and mentor time do not cancel one another merely because they have prices.
+
+Begin at the coarsest time window that can expose a decisive conflict. Refine to a week, shift or booked session when timing could defeat the combination. Include preparation, learning, supervision, integration, feedback, failures, recovery and the work of constructing and maintaining the coordination itself where they are needed. A feasible total can conceal an impossible first week.
+
+Keep three accounts distinct where the decision uses them:
+
+- the work and scarce capacity consumed;
+- the payments required, with their actual dates and funding conditions;
+- any assigned share used for reporting or charging.
+
+MA.3 supplies a needed allocation convention. A research branch's assigned share is not necessarily a payment avoided by cancelling it. Released staff time does not become cash unless a real supply or payment changes. MA.8 supplies the time-related account when a product creates later service obligations; expected future revenue is not present funding.
+
+Repair a conflict by changing the complete obtaining arrangement. Possible moves include reducing a result's scope, moving a genuinely movable contribution, obtaining a qualified substitute, changing which work is shared, or deferring an independent branch. Preserve the receiver's acceptance condition when claiming the same result. A smaller complete research question or service contribution can be useful; removing its essential criticism or exception response merely creates an incomplete fragment.
+
+Recompute every receiving use affected by a changed shared contribution. If research does not supply the affected product input, a product delay need not stop the research. If both depend on the same scarce scientist, resource reallocation may still change both schedules. Keep those two reasons distinct.
+
+Finding that no candidate is feasible is a legitimate result. Return the exact conflicting resource, time or authority condition and the smallest decision that could change it. Do not invent overtime, voluntary participation, funding or a future discovery to make the rows add up.
+
+#### DOCA.10:4.5 - Compare the portfolios without erasing their purposes
+
+Use C.11.CRC to compare each finite candidate with the actual continuation. Preserve meaningful characteristics and their scales. A short reasoned comparison is often enough; an unexplained score is not.
+
+Separate non-negotiable conditions from negotiable trade-offs. Then compare the surviving candidates along the characteristics that could change this decision:
+
+| Concern | Useful characteristic and interpretation |
+| --- | --- |
+| Scientific contribution | The question or claim advanced, the criticism it can bear, and the attainable epistemic return. An expert judgement can be qualitative; an unanswered question is not zero merit. |
+| Product opportunity | The new recipient contribution that the provider could offer, its boundary, and the supported or uncertain route to demand and sustained provision. |
+| Performer development | The previously unavailable work the identified performer could undertake, with the assistance and transfer evidence still needed. Training completion is a different reading. |
+| Organization development | The contribution the organization could obtain through a new arrangement, and its dependence on scarce individuals or outside support. |
+| Cultural contribution | What other carriers can understand, use, adapt or continue under actual access conditions. Downloads, membership and revenue are not substitutes for that contribution. |
+| Resource and burden | Scarce capacity by bearer and time, expenditure by date, support, displaced work and distribution of burden. |
+| Further development | The concrete new question, operation or obtainable option preserved, opened or delayed. Distinguish a supported connection from a speculative possibility. |
+
+This is a selection aid, not a mandatory seven-column scorecard. State enough about a characteristic's bearer, meaning, comparison basis and uncertainty to prevent a misleading comparison. Where unlike scales remain, preserve a partial ordering or an explicit value judgement. A chooser can prefer a scientifically stronger, more costly portfolio or a smaller commercial commitment without claiming one numerical optimum.
+
+First remove only what a qualified hard condition rules out. Then inspect any supported dominance under the complete comparison basis. Compare the remaining serious alternatives through their consequential gains, losses and displaced opportunities. State the trade-off that the actual decision holder accepts. If there is no agreed basis for trading research away for another product release, expose that decision rather than hiding it in financial weighting.
+
+Apply C.11.DUA when an unknown prompts a proposed study. Ask what attainable answer could change this allocation or the claim on which it relies, and compare that gain with inquiry burden and delay. Existing knowledge and reasoned expert synthesis can support a bounded portfolio proposal now. Uncertain long-run effectiveness does not require proving the whole development programme before constructing it. Conversely, a missing permission or a resource conflict cannot be waived as uncertainty.
+
+Preserve a research allocation for its stated epistemic purpose when the owners choose it. Describe product relevance separately. A product can use the current qualified method while new theory remains unsettled. If the next release actually requires the new theory, the honest choice is a conditional release, a different method or a changed promise.
+
+#### DOCA.10:4.6 - Obtain the decisions and begin a complete bounded undertaking
+
+Take the proposed portfolio and its actual trade-off to the resource and commitment holders. STR.11 supplies the distinction between retained alternatives, intended joint use and authorized commitments. Obtain the decisions at the smallest scope that lets useful work begin.
+
+Make the resulting action legible: which contribution starts, who has accepted the work, what time or money is allocated, which receiving conditions apply, what remains excluded, and who can alter the commitment. A funding decision cannot supply research access; a sales decision cannot allocate a client's staff; an employer's encouragement cannot replace protected work time.
+
+Choose a first undertaking that returns a useful contribution, not merely a meeting, platform installation or collection of activity measures. It may be a bounded research result, a product construction with its obtaining method, a performer-supported complete case, or an organizational capability increment. Use the direct subject method to produce and judge that result. OCE.9 supplies representative realization and exception handling for an organization-capability increment under its entry conditions.
+
+Before committing to later starts, establish the particular results they require. Some branches can start together; others need a prior result or a later availability window. A conditional future branch is not an authorized present task. Keep independently useful work moving on its own grounds.
+
+The portfolio-construction result finishes when the participants can identify a feasible proposed combination and its decisions, or an exact impasse. With authorization supplied, it also gives a usable bounded start and conditions for continuation. Actual performance and acquired capability remain subsequent results, not completion claims for this construction.
+
+#### DOCA.10:4.7 - Continue development after the first success
+
+Observe the scientific, product, performer and organization results separately where each affects the next decision. If a local action was performed but its result did not follow, examine that obtaining relation. If the local results arrived but the encompassing contribution did not, examine their join. If the work did not occur, inspect allocation, capability, access and support before revising the theory.
+
+After success, ask what worthwhile result remains outside the present repertoire and which development contribution could make it obtainable. A stronger AI operation, a new scientific construction, a more capable performer or an unfamiliar receiving problem can change this question even when current delivery works well. Do not define development solely as correction of failed adoption.
+
+Distinguish repeating a successful delivery, improving its efficiency, expanding the class of problems that can be handled, and improving how the organization develops that capability. For the last two, the content may itself need construction. Use C.39 for a missing obtaining way, RMP for a live knowledge question and DOCA.3–6 for new contribution possibilities and retained continuations. A customary retrospective or larger training catalogue does not supply a new method.
+
+Fund only the next worthwhile, obtainable contribution and its necessary support. Preserve useful intermediate material and independent alternatives at their actual retention cost. Saving an account reserves no specialist time or funding. When a new order consumes development capacity, state which result moves, which future possibility is delayed and who accepts that trade-off.
+
+Reopen the smallest affected part of the portfolio when its receiving need, scientific premise, shared contribution, resource, authority or promising alternative changes. A failed shared service can affect several branches; a disproved speculative product use need not invalidate an independently worthwhile scientific result.
+
+### DOCA.10:5 - Archetypal Grounding
+
+The following cases are constructed teaching examples. Names, hours, payments, timing, permissions and decisions are stipulated to demonstrate the Method. They report neither an actual provider's resources nor observed effectiveness. The first case uses the receiving configuration of a development provider; its branch arrangement is one application, not the definition of the Method.
+
+#### DOCA.10:5.1 - Construct the provider's portfolio
+
+Atelier supplies development help through a residency and is preparing corporate assistance. Its owners also choose to support independent methodological research and public contributions. The immediate decision is how to organize eight weeks of its own development while maintaining current delivery. Client development is one branch of this provider's development; no client becomes a department of Atelier.
+
+The proposed results are:
+
+| Undertaking | Next receiving result and what is not promised |
+| --- | --- |
+| Mathematical research | A bounded construction and criticism of one representation question, including a failed conjecture or narrowed question if that is the warranted return. No commercial application is promised. |
+| Research on methods | A defensible comparison addressing one unresolved explanation of a method's limitations. Its scientific conclusion is not fixed in advance. |
+| Residency product | A usable module through which a prepared facilitator can help a participant construct a new project solution. A written module alone is not evidence of learning. |
+| Corporate offer | A bounded offer and method of joint construction, with provider/client contributions, exceptions and cost exposed. No unnamed client is assumed to have authorized a company change. |
+| Facilitator development | Another facilitator can supply the selected help with stated assistance and can participate in improving the preparation method for a harder case. |
+| Public contribution | One explainable method contribution and contrasting cases that independent carriers can use and criticize under the chosen open access terms. |
+
+The owners regard both research questions as worthwhile independently of the two products. They do not infer development of Atelier merely from obtaining a novel scientific answer. The portfolio contains their support as an independent resource commitment; the intended development results are the new product/provision possibilities, facilitator capability and, under arrangement A, the ability to maintain a common Method contribution. A separate wish to develop Atelier's research capability would need its own changed possibility, obtaining way and qualification. An applicable RMP account supplies the proposed inquiry scopes and limits. Current qualified methods suffice for the product constructions. Therefore neither product waits for the new research conclusions. A new result may later change the product method through a separately qualified receiving use.
+
+The residency and corporate offer do share a smaller contribution: an explanation of how to construct and revise an obtaining method, together with reusable AI operations for organizing the relevant material. They do not share the recipient's subject model, development mechanism, exercise design, authority or acceptance decision. The residency develops a person's contribution; the corporate offer concerns joint work and client decisions. Those differences remain in their application work.
+
+#### DOCA.10:5.2 - Calculate both support arrangements
+
+Four disjoint, qualified resource pools have the following stipulated eight-week availability. The pools do not double-count people; where the same person filled several roles, a person-specific account would replace these totals.
+
+| Resource | Supplied usable hours | Current commitments | Protected reserve | Available for this development |
+| --- | ---: | ---: | ---: | ---: |
+| Methodologists | 160 | 80 | 16 | 64 |
+| Facilitators | 200 | 96 | 24 | 80 |
+| AI engineers | 144 | 64 | 16 | 64 |
+| Researchers | 160 | 48 | 16 | 96 |
+
+Reserve has a supplied operating justification and cannot be allocated by this construction. AI-engineer hours include the context, integration, checking and repair work needed by these particular operations; computation payments are accounted for separately. The researchers are a distinct pool, but the research still consumes some methodologist and AI-engineer time.
+
+The following is the estimated work common to both candidates. It includes the direct undertaking work, its specific preparation and evaluation; it excludes the alternative support packages in the next table.
+
+| Common undertaking work | Methodologist hours | Facilitator hours | AI-engineer hours | Researcher hours |
+| --- | ---: | ---: | ---: | ---: |
+| Mathematical inquiry | 4 | 0 | 4 | 48 |
+| Inquiry into methods | 4 | 0 | 4 | 32 |
+| Residency construction and bounded use | 8 | 16 | 6 | 0 |
+| Corporate-offer construction | 10 | 12 | 10 | 0 |
+| Facilitator development and subsequent preparation-method revision | 4 | 16 | 4 | 0 |
+| Public contribution and its usable return | 0 | 6 | 2 | 0 |
+| **Common demand** | **30** | **50** | **30** | **80** |
+
+**Arrangement A: common enabling contribution.** One designated methodologist maintains the shared construction; the AI engineers supply its reusable operations. Branch owners retain adaptation and receiving acceptance.
+
+**Arrangement B: provision within branches.** Each branch constructs its adequate explanation and AI support. A small common exchange maintains source returns and identifies reusable changes; it imposes no common release dependency.
+
+| Additional work in each alternative | Methodologist hours | Facilitator hours | AI-engineer hours |
+| --- | ---: | ---: | ---: |
+| A: build and maintain common contribution | 16 | 8 | 16 |
+| A: residency and corporate adaptations | 4 | 10 | 8 |
+| A: joint coordination and change return | 4 | 2 | 2 |
+| **A: total with common undertaking work** | **54** | **70** | **56** |
+| B: residency-specific support | 8 | 6 | 12 |
+| B: corporate-specific support | 10 | 8 | 14 |
+| B: bounded exchange between branches | 2 | 2 | 2 |
+| **B: total with common undertaking work** | **50** | **66** | **58** |
+
+Both require 80 researcher hours. Neither consumes the protected reserve. Compared with B, A requires four additional methodologist hours and four facilitator hours while saving two AI-engineer hours. It is not a no-worsening improvement. Its stipulated extra contribution is a maintained common method account with qualified returns for both applications; B supplies adequate separate accounts with fewer common-change obligations.
+
+A count of product revenue does not choose between them. The owners can choose the extra reusable contribution and its burden, or decide that its present value is insufficient. They must not claim that future scale automatically repays the difference.
+
+The stipulated additional payments are 2,400 currency units for A and 1,800 for B, both due before any new sales. Existing funding covers the salaried resource arrangements, current obligations and reserve; 6,000 units of unrestricted cash are available for these additional payments. This establishes affordability within the example's supplied terms, not profit, valuation or a forecast of sales. Expected revenues are not used to fund the start.
+
+#### DOCA.10:5.3 - Repair timing and obtain the bounded decision
+
+The first proposed calendar for A places 18 methodologist hours in weeks 1–2, although only 16 are available. Its eight-week total of 54 concealed that conflict.
+
+The extra two hours concern corporate adaptation needed only in week 5. Move them to weeks 3–4; do not move the research's already booked criticism session or consume reserve. The shared base becomes usable in week 3, the residency application follows, and corporate adaptation is completed before its receiving construction in week 5.
+
+The resulting demand by successive two-week windows is:
+
+| Resource | Weeks 1–2 | Weeks 3–4 | Weeks 5–6 | Weeks 7–8 | Total |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Methodologists; capacity 16 per window | 16 | 16 | 12 | 10 | 54 |
+| Facilitators; capacity 20 per window | 18 | 18 | 18 | 16 | 70 |
+| AI engineers; capacity 16 per window | 14 | 16 | 14 | 12 | 56 |
+| Researchers; capacity 24 per window | 20 | 20 | 20 | 20 | 80 |
+
+For this constructed case, the performers have also checked the particular booked sessions and result-before-use conditions within those windows. That supplied calendar premise matters: the aggregate table alone would not establish it.
+
+The owners choose A for this interval because they want to acquire the common method-maintenance capability as well as the two bounded application results, and accept its additional methodologist and facilitator burden. They allocate the stated hours and 2,400 units; the performers accept those contributions within existing assignments. Research retains its own questions and scientific judgement. Product managers may request a different research contribution but cannot promise or revise its conclusion.
+
+The bounded start authorizes internal construction, the agreed residency work and independent inquiries under their stipulated permissions. It authorizes no corporate client implementation, new data access or future product launch. The client-related offer remains a construction result for later agreement.
+
+The methodologist supplies the common base; each branch performs its stated adaptation; the facilitator-development work uses a complete application and then examines a harder receiving case. A relevant mismatch returns to its actual owner: a subject-model gap stays with the subject specialists, a defective common operation returns to its maintainer, and unavailable client authority limits the corporate application without stopping the residency or independent research.
+
+This completes a portfolio construction and an illustrative bounded allocation. It does not claim that the work has occurred. The later case results, scientific conclusions and acquired capabilities require their own evidence.
+
+#### DOCA.10:5.4 - A changed condition makes branch provision preferable
+
+Before starting, a qualified new operating commitment reduces available methodologist time from 64 to 52 hours. Its timing leaves enough room for B's checked schedule. No other premise changes.
+
+A now needs 54 and no longer fits. B needs 50 and remains feasible. The owners compare three serious responses: defer two hours of a result whose later need genuinely permits it, obtain qualified outside support, or select B. They cannot simply cut two arbitrary hours from the common method's necessary construction and continue to promise A.
+
+Suppose no timely qualified substitute is available and the owners prefer to preserve the two independent inquiries, current delivery and both bounded product constructions. They select B and its 1,800-unit payment. The reusable common maintenance result is deferred; the already specified source returns and exchange keep later combination possible at its actual modest cost. The research was not sacrificed merely because it lacks near-term revenue.
+
+Only the changed support arrangement and its receiving applications need reconstruction. The research questions, current product methods and separate client authority remain intact. If one inquiry later produces a result useful to both products, that creates a new support candidate to examine; it does not retrospectively turn the original research into a required product stage.
+
+If the new operating commitment were not yet authorized, the current 64-hour arrangement would remain the decision basis. If it consumed a researcher rather than a methodologist, switching A to B would not repair that different resource conflict.
+
+#### DOCA.10:5.5 - Transfer to a supplier with an external research partner
+
+A measurement-equipment supplier wants a new instrument family and prepares field technicians, while an independent laboratory investigates a measurement theory. The laboratory's public scientific result may matter later, but the first instrument can use an already qualified method. Its funding agreement gives the supplier no right to redirect the investigation.
+
+Here the portfolio includes the supplier's funded contribution to the laboratory and its actual result dependencies, not ownership of the laboratory's whole programme. Product engineering and technician preparation share a test fixture only after their required ranges and access times prove compatible. Scientific samples, confidential customer records and the laboratory's interpretation authority stay separate.
+
+A proposed common test team would save some setup but cannot enter a restricted customer site. Separate branch provision therefore supplies the product's field evidence and the technician's practice, while a common fixture design and permitted reference material remain shared. The scientific work can continue independently. If a later product promise requires a new scientific relation, that promise becomes conditional on a qualified result or must change.
+
+A mathematical inquiry with independently secured people, access, funds and criticism can instead have no shared scarce resource or receiving-result dependency on the supplier's current development. In that case its RMP construction and existing provision can suffice: keep it visible only where the owner's real commitment decision uses it, and impose no shared platform, office or new portfolio exercise. An independent scientific purpose does not require an invented product customer. If developing the investigator's capacity for a harder class of questions is also intended, construct that distinct development undertaking through DOCA.9 and the appropriate capability practice.
+
+The preserved construction is the distinction among independent ends, exact result uses and shared demand, followed by comparison of complete support arrangements. The particular branch names, departmental nesting, equipment and funding rule differ. No universal office, research-to-market sequence or four-branch organization is inferred.
+
+### DOCA.10:6 - Bias-Annotation
+
+Commercial visibility can make near-term sales appear to be the only result worth funding. Scientific prestige can hide an inquiry with no attainable criticism or bounded return. Shared-platform enthusiasm can discount adaptation, while local ownership can exaggerate the cost of common provision. Strong AI demonstrations can hide uncounted preparation or credit the wrong subject with development.
+
+Counter these biases at the actual choice: keep each result's grounds visible, compare complete serious arrangements, show displaced work, and identify whose judgement and authority support the allocation. Do not prescribe equal funding or a fixed research percentage as a substitute for that judgement.
+
+The cases concern organizations choosing finite commitments. Independent carriers without a common allocator may use the construction to negotiate contributions, but the result remains a proposal until each relevant holder accepts its part. Membership in a community supplies no resource commitment.
+
+### DOCA.10:7 - Conformance Checklist
+
+Use these questions to examine the construction, not as a separate form required before every ordinary allocation.
+
+- Can a participant explain the next useful result of each selected undertaking and distinguish its scientific, product, capability or cultural grounds where those differ?
+- Does each claimed dependency identify the receiving action, usable result, timing and qualified alternative or return?
+- Do shared and branch-specific support alternatives include production, application, maintenance, coordination and failure response?
+- Does the resource account count each actual supplying effort once, every receiving effort where it occurs, and each scarce bearer in the relevant windows?
+- Are payments, capacity, assigned costs, permissions and accepted commitments kept distinct?
+- Does the comparison retain protected conditions, meaningful characteristic scales, uncertainty, displaced work and the actual accepted trade-off?
+- Can the next performer identify what is now authorized and what remains conditional?
+- Does a changed shared contribution reopen its affected uses without needlessly stopping independent branches?
+- After success, can the organization identify a worthwhile next development question without mistaking routine repetition for a new capability?
+
+These questions can establish the intelligibility and conditional coherence of the proposal. Empirical effectiveness, safety, research truth, learning transfer and actual organizational capability need their own evidence.
+
+### DOCA.10:8 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | Failure | Repair |
+| --- | --- | --- |
+| Research must justify itself as next-quarter revenue | The portfolio loses independent epistemic purposes and invites an invented application promise. | State the scientific return and resource choice separately from a qualified product use. |
+| Every named branch gets its own full stack | Repeated methodology and infrastructure consume capacity without comparison. | Construct both shared provision and adequate separate provision at the specific contribution boundary. |
+| Everything common goes into an office | A unit name substitutes for available contributions and authority. | Specify what is supplied, to whom, under which conditions; compare office and distributed provision only for that result. |
+| One person, three available role budgets | The plan manufactures capacity by relabelling its bearer. | Reconcile all assignments against that person's actual windows and protected commitments. |
+| A shared source eliminates adaptation | Subject models, practice, access and receiving acceptance remain unpaid work. | Trace the common result through each application and include its missing operations. |
+| Unknown long-run effect blocks any proposal | The inquiry demand costs more than it can change in the current choice. | Use current grounds for a bounded expert construction; obtain additional evidence only where its attainable answer matters. |
+| Arithmetic supplies authority | Hours fit, but performers, clients or access owners have not agreed. | Return the exact decision and keep dependent work unavailable until its condition holds. |
+| A successful cohort ends development | The provider can repeat one service but cannot address the next worthwhile class of problem. | Separate repetition, efficiency, expanded capability and development of the way development is done. |
+| The teaching case becomes the method boundary | One provider's nesting or resource split becomes a universal design. | Preserve the result/dependency/support construction and vary branches, authorities and means with their actual grounds. |
+
+### DOCA.10:9 - Consequences
+
+The organization obtains a portfolio it can reason about and take into action through bounded decisions. Shared support becomes an explicit contribution with costs and receivers. Independent research and cultural work can remain visible without invented sales dependencies. A resource change can lead to a precise reconstruction rather than an indiscriminate cut.
+
+The construction costs joint attention and qualified estimates. It can expose that a desired combination is currently unavailable. Sharing can create common failure and maintenance obligations; separate provision can create repetition and divergence. Neither cost disappears because the portfolio is well explained.
+
+The result supports a start and subsequent reconsideration. It supplies no guarantee that research will produce a preferred answer, clients will buy, a participant will learn, or the organization will acquire the intended capability.
+
+### DOCA.10:10 - Architectural Rationale
+
+One programme can contain several ends without one end being an input to every other. The independent worth account protects that plurality; the receiving-operation test admits only actual dependencies. Joint resource comparison then reconnects branches that are materially independent but cannot be funded or staffed independently.
+
+The support alternatives are generated before selecting a unit structure because the same common contribution can be provided through a distributed assignment, a dedicated service, a partner or a capable AI arrangement. Conversely, an office can house several subject services whose methods and acceptance remain different. Organizational form follows the selected contribution and its continuing conditions.
+
+The construction uses existing domain methods for their own results. Its added organization joins those results into a portfolio whose independent purposes, support placement, actual resource competition and authority can be changed together without conflation. It does not replace strategic selection, research design, costing or organization realization with a universal portfolio algorithm.
+
+C.11.CRC preserves whole finite consequences; C.11.DUA prevents an unresolved effectiveness claim from becoming an automatic demand for an ideal study. A bounded expert choice remains defeasible. Explicit grounds and a changed-condition construction make that choice inspectable without manufacturing precision or guaranteed success.
+
+### DOCA.10:11 - SoTA-Echoing
+
+**Current available Library answer.** STR.8:4.2a and :5.5 already teach result–action construction, necessity within a selected way, joint sufficiency, shared support and revision. STR.11 distinguishes alternatives, joint use and authorized commitments. STR.14 compares whole configurations under simultaneous demand. Adopt those contributions. DOCA.3–5 supply meaningful prospective contributions, support configurations and bounded joint reachability; DOCA.6 retains opportunities and stage-specific paths but expressly does not select a funded programme. Retain its boundary rather than relabelling retention as enactment.
+
+**Research and resource practice.** Adopt RMP.1–2's independent epistemic return, attainable design comparison and truthful no-new-study outcomes; use RMP.8 for qualified return of a research result to its actual use. Adopt MA.1–3's distinction among consumption, capacity, payment and assignment, with MA.8 for time-related product obligations. OCE.8 supplies same-result support arrangements; OCE.11 supplies coexistence with current service. Their boundaries prevent funding authority, scientific validity and delivery permission from collapsing into one approval.
+
+**External comparison and transfer limit.** [Tõnurist, Larrue and Jonason, OECD (2025), section 4, pages 20–27](https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/03/proactive-portfolio-management-in-mission-oriented-innovation-policy_6bc6df0e/1ee956a5-en.pdf) distinguishes developing, managing and monitoring mission portfolios, addresses complementary activities, separate control and influence, and evolving criteria. Adapt those concerns to support placement and bounded authority here. Do not transfer the source's mission-alignment premise to a rule that independent science exists only to serve one commercial mission. Its practitioner-derived framework is not comparative evidence that this provider construction outperforms alternatives. This is an adaptation of an original work by the OECD. The opinions expressed and arguments employed in this adaptation should not be reported as representing the official views of the OECD or of its Member countries.
+
+**Serious alternatives and actual difference.** An already adequate STR.8/11/14 construction with qualified research and operating inputs is sufficient and should be retained. A list of those PatternIDs is insufficient when the user must still invent whether research is an end or an input, which support can be shared, how separate receiving work changes the joint account, and which choice changes when capacity falls. This pattern develops those connections for one recurring portfolio problem. A project-by-project ranking is cheaper when there are no consequential common conditions; otherwise it can select an infeasible combination. A fully centralized support arrangement is useful when commonality and service capacity hold, while the changed case shows a condition under which separate provision wins.
+
+The worked cases explain a conditional construction and its revision. They do not establish field effectiveness. Reconsider the Method if a public treatment supplies the same whole use with less reconstruction, or practical use reveals a missing dependence, unsupported sharing rule or decision-reversing burden.
+
+### DOCA.10:12 - Relations
+
+- **STR.8, STR.11 and STR.14** supply contribution construction, bounded strategic commitments and reconciliation of simultaneous strategic work. Use their complete bodies in the [Strategy Principles Framework](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/STRATEGY-PRINCIPLES-FRAMEWORK.md).
+- **DOCA.3–6** supply worthwhile problems, prospective configurations, joint qualification and retention, in this framework. A retained possibility is not the portfolio's allocation.
+- **RMP.1, RMP.2 and RMP.8** supply research entry, obtainable design or stop, and bounded evidence return in the [Research Method Practice Principles Framework](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md).
+- **MA.1–3 and MA.8** supply resource, capacity, shared-cost and time-related product accounts in the [Management Accounting Principles Framework](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md). The actual operating and financial choices use their direct owners.
+- **OCE.8, OCE.9 and OCE.11** supply whole support-arrangement comparison, organization realization and coexistence in the [Organization-Change Engineering Principles Framework](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md). OCE.16 locates a consequential dependency between separately managed organization changes; it is not a portfolio allocation method.
+- **C.11.CRC, C.11.DUA and C.39**, in [FPF](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md), govern finite comparison, proportionate evidence demands and development of a missing obtaining way. C.32.MWA supplies a broader architecture account when several Method, work and support structures remain materially different.
+- **Human-capability, product, engineering, AI and operating practices** retain their actual mechanisms and evidence. This portfolio construction receives their qualified contributions; it cannot infer them from a coherent programme.
+
+### DOCA.10:End
+
 # Cross-pattern applications
 
 The three applications below are constructed cases. Their supplied observations, permissions, budgets, choices and later events are case assumptions, not reports about actual people or organizations. Where a required result is missing, the case leaves the dependent claim open. Arrows and table order describe possible uses of results, not Method parthood or a compulsory lifecycle.
 
 
-
 ## DOCA.Application:1 - APP-DOCA-01 — Mira's development direction, programme comparison, and Guide
-
 
 
 ### DOCA.Application:1.1 - The working difficulty and the first bounded return
@@ -2355,7 +3204,6 @@ DOCA.1.CHR replaces “become more mature” with the needed readings:
 Counts, time, permission and qualification readings answer different questions. Do not sum them into one maturity score or code an unknown reading as poor performance.
 
 
-
 ### DOCA.Application:1.2 - A complete pattern contribution, not “learn A.15.9”
 
 Using DOCA.2–DOCA.4, Mira constructs two materially different directions. One is intended to develop her recognition and execution of bounded specialist-result use. The other would change the release-review support arrangement so that a qualified technical reviewer supplies more of that contribution. The second may improve the receiving result without demonstrating new personal capability. Both are more precise than competing course brands.
@@ -2363,7 +3211,6 @@ Using DOCA.2–DOCA.4, Mira constructs two materially different directions. One 
 The first direction cites [A.15.9 — Use or Request a Bounded Result from Another Practice](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md) as a complete contribution. The recurring difficulty is a missing qualified outside contribution. The move is to inspect an existing result, use it at its supported strength, and retain a material limit. A further request is selected only when its obtainable contribution warrants the whole acquisition burden; the return is qualified for the receiving subject, configuration, use and window. The useful result is a qualified contribution or an explicit limitation. A useful narrower answer can also complete the use; a request itself is not the supplied result.
 
 Mira's intended learner action is therefore observable: given a release question and two specialist reports, decide which report can be used and at what strength, retain a genuine use limit, and obtain a further contribution only when it warrants the work. When acquisition is selected, she drafts its bounded request; she withholds the claim that still lacks a suitable result. The PatternID is an address for that guidance, not a development step by itself. Reading the text does not establish that Mira can perform the described move.
-
 
 
 ### DOCA.Application:1.3 - Finite directions and a conditional later step
@@ -2379,14 +3226,13 @@ Call Mira's actual checklist-and-reference arrangement `S0`. Direction A adds su
 C.11.CRC governs any stronger finite comparison. The result, resource, affected-person/team, distributional and protected coordinates above must be complete on one qualified basis, including interactions and evidence limits. No Pareto or aggregate-savings claim follows from these descriptions. DOCA.6 may retain A, B and the conditional later step with their missing-result and reconsideration conditions.
 
 
-
 ### DOCA.Application:1.4 - Advice and the two distinct choices
 
 Suppose Mira asks a distinct career-development adviser for help. Using DOCA.7, the adviser bounds the service on independently established competence, Mira's participation, confidential individual feedback, an employer-facing summary limited to agreed work implications, and appropriate treatment of provider interests. These are supplied conditions of this constructed scene, not consequences of the sponsor's payment. A private assessment does not become an employer record.
 
 PSD receives the formed direction question and qualified available inputs. While mentor capacity and transfer remain unresolved, its useful return can retain conditional directions with those limits. A request or recommended probe follows only when its obtainable contribution warrants the whole burden; the missing premises do not establish a winner. In a later scene, assume the required capacity and comparison results have arrived and the authorized choice inputs are adequate. Mira explicitly chooses the personal-development direction A under its stated resource and evidence limits. That choice is a new case fact; neither the opportunity table nor the advice made it for her.
 
-[HCD.2 — Compose and Compare Human Capability-Development Programmes for Later Work](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd2---compose-and-compare-human-capability-development-programmes-for-later-work) now receives the selected development stake, compatible profile, later tasks, participation and qualified support. In this constructed continuation, the HCD practitioner supplies a programme-comparison account for two feasible candidates under those conditions:
+[HCD.2 — Compose and Compare Human Capability-Development Programmes for Later Work](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd2---compose-and-compare-human-capability-development-programmes-for-later-work) now receives the selected development stake, compatible profile, later tasks, participation and qualified support. In this constructed continuation, the HCD practitioner supplies a programme-comparison account for two feasible candidates under those conditions:
 
 | Programme candidate | Qualified resource and support position | Expected contribution and limit |
 | --- | --- | --- |
@@ -2396,7 +3242,6 @@ PSD receives the formed direction question and qualified available inputs. While
 Both fit within the remainder of the original four-month horizon, with inquiry and choice time already allowed for, and preserve Mira's thirty-eight-hour working-week limit. The supplied account identifies an authorized three-hour reallocation from reporting work that can be suspended without moving it to colleagues or losing a required release output. It includes setup, access, assessment, stopping and restoration costs within the reported allocations; performance expectations and transfer uncertainty remain explicit. These are assumed qualified HCD and organizational inputs, not results calculated by DOCA from the table. No unqualified practice attempt authorizes live release acceptance. Unequal description detail, missing displacement or an unconfirmed provider hour would reopen the comparison.
 
 If programme advice is wanted, PSD uses that HCD.2 account to prepare a separate recommendation. In this continuation Mira makes the authorized programme choice of the reference-supported sequence with scheduled expert checks, using the complete comparison and choice inputs. If advice is not wanted and those inputs already exist, the comparison can go directly to the actual chooser. The earlier direction choice did not select this programme.
-
 
 
 ### DOCA.Application:1.5 - Guide realization, performed attempts, and evidence
@@ -2414,15 +3259,12 @@ The result-use sequence in this branch is:
 These are distinct results, not mandatory stages. The inquiry may stop much earlier.
 
 
-
 ### DOCA.Application:1.6 - A direct programme-level entry
 
 A learning-product author may already have a Foundations-like HCD.2-grounded comparison of programme variants. PSD can begin with that comparison and the author's actual recommendation question. No earlier personal DOCA path or direction choice is invented. Audience assumptions support a bounded learning-product design return, not individual fit; a named learner still needs compatible later Work, entry evidence, support and participation for personal comparison. The author's authorized programme choice precedes Guide production, and observed learner evidence remains necessary for effectiveness.
 
 
-
 ## DOCA.Application:2 - APP-DOCA-02 — An engineering company's next development opportunities
-
 
 
 ### DOCA.Application:2.1 - One receiving question, several kinds of direction
@@ -2445,7 +3287,6 @@ DOCA.2 varies more than vendors. DOCA.3 tests what receiving problem would make 
 When one same-result arrangement comparison is already the whole question, go directly to [OCE.8](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce8---compare-human-ai-robotic-and-provider-arrangements-for-the-same-organizational-work-result). The broader DOCA search does not become a required preface.
 
 
-
 ### DOCA.Application:2.2 - Joint limits and a useful return
 
 Assume qualified local results show that, in the compared arrangement, the technology transition and provider transition each require a distinct six-hour contribution from the same specialist per week. Those tasks cannot share the same hours, and the confirmed shared capacity during their overlap is eight hours per week. Each direction can remain individually plausible. Their concurrent combination needs twelve and therefore fails that joint condition. DOCA.5 does not erase the individual results or infer that one must be chosen.
@@ -2457,11 +3298,9 @@ The inquiry returns the receiving problem, differentiated directions, the scope 
 Suppose a later provider notice removes access to one data class. DOCA.8 inspects the actual dependent directions. It may narrow or retire the provider-supported route while preserving an independently qualified operator-practice opportunity. The provider notice does not itself switch the operating system. Actual protection and operational owners apply their existing duties, and PSD.14 receives affected advice.
 
 
-
 ## DOCA.Application:3 - APP-DOCA-03 — Unlike subjects, exact recipients, and an anti-case
 
 The common opportunity question does not create one development mechanism. Each branch below can enter construction at a missing contribution. Advice additionally needs an actual recipient, distinct advising performer and adequate service terms.
-
 
 
 ### DOCA.Application:3.1 - Community and governance
@@ -2469,7 +3308,6 @@ The common opportunity question does not create one development mechanism. Each 
 A professional maintenance community wants more reliable transfer of incident experience between participating groups. Its named coordination circle receives an inquiry, under its established limited remit. DOCA can construct possibilities such as changed examples, contributor support, review practice or communication arrangements. Cultural and governance practices qualify participation, transmission, variant retention and intervention claims; FPF C.36 supplies its actual cultural question.
 
 One successful workshop or published pattern does not demonstrate changed community practice. A useful first return is a bounded contribution hypothesis with its unestablished practice effect. An observation or coordination request is a further action only when its attainable contribution warrants the whole burden for this inquiry. If nobody is entitled to receive or act on the requested community-wide advice, return that recipient or authority gap. Do not invent community consent from a meeting attendance list.
-
 
 
 ### DOCA.Application:3.2 - AI/model or composite arrangement
@@ -2481,13 +3319,11 @@ The first useful result is a contribution-bearing configuration or an exact AI/e
 The team's authorized operational owner retains deployment or probe choice. AI helping to draft the advice invokes the adviser's own review and information-use obligations; it does not fill the developing subject's evaluation gap.
 
 
-
 ### DOCA.Application:3.3 - Engineered platform or facility
 
 A laboratory-platform owner asks which change could improve access to a shared instrument without degrading calibration or safety. DOCA bounds the facility configuration, receiving experiments, horizon, users, downtime, calibration and resource protections. Directions may involve scheduling, support, interfaces, a component change or a separate provider.
 
 The smallest result may be a qualified support opportunity or a conditional transition. Systems/Platform Engineering supplies architecture and realization; operations, domain measurement and safety practices supply their direct results. A changed interface may make an existing instrument capability more usable; any claimed new measuring capability still needs its own qualification. Fewer support calls do not prove preserved measurement quality. Missing calibration or safety evidence blocks the dependent use, not every independent facility improvement.
-
 
 
 ### DOCA.Application:3.4 - Research programme or body of knowledge
@@ -2497,13 +3333,11 @@ An actual research lead receives a question about the next contribution to a rep
 DOCA can construct and retain those opportunities under a stated horizon and burden. Research and evidence practices own the criticism, reproducibility, formalization, empirical result and inference. A sequence of pattern contributions is prospective guidance, not completed research or a capability finding. If an earlier report is corrected, DOCA.8 follows its actual receiving use; A.10.1 applies when several affected receivers must be discovered. Return the precise evidence question or supported epistemic contribution.
 
 
-
 ### DOCA.Application:3.5 - Non-cultural population or lineage
 
 In this evolutionary research account, the population has no population-local advice recipient or chooser. DOCA abstains from advice to it. Variation, reproduction, selection, persistence and lineage remain the direct subject of the relevant scientific practices, not a human programme in another vocabulary.
 
 A researcher who asks whether to change an experiment or conservation intervention is a different case. The researcher or authorized organization is the recipient; the population remains an affected subject. Its evidence, welfare/protection conditions, governance and intervention authority must be qualified by their actual owners.
-
 
 
 ### DOCA.Application:3.6 - What the contrast preserves
@@ -2516,15 +3350,15 @@ Across these uses, keep the identified subject, receiving contribution, horizon,
 # Framework boundary, sources and refresh
 
 
-
 ## DOCA.Reference:1 - Covered work and independent entry
 
-The field is constructing development opportunities and bounding development-direction advice. Its recurring questions range from an unformed development wish through characterization, search, worthwhile receiving contribution, supported directions, joint reachability, retained possibilities, advising conditions and changed-premise requalification. Parts organize reading; they add no semantic parent or compulsory order.
+The field is conducting and improving a named subject's development, including self-development when that subject contributes to conducting its own development. Recurring questions include unnoticed difficulty, an unformed aspiration, construction of a worthwhile problem, reachable directions and means, joint provision, enactment, actual changed possibilities and continuation after success. Ordinary work, implementation, advice, learning and Method creation can each contribute; none alone defines the whole.
 
-Construction uses DOCA.1, DOCA.1.CHR and DOCA.2–DOCA.6 without requiring an adviser. Advising can start with a formed question, qualified opportunity or existing HCD.2 programme comparison. DOCA.1, DOCA.1.CHR, DOCA.5 and DOCA.8 are shared because both branches can depend on the same inquiry, characterization, joint conditions and changed-use qualification. They are not mandatory checkpoints.
+DOCA.9 constructs the connected undertaking using the qualified subject and professional results it needs. DOCA.10 constructs a feasible portfolio for an organization or provider with independently worthwhile undertakings and shared means. Opportunity construction uses DOCA.1, DOCA.1.CHR and DOCA.2–6 without requiring an adviser. Advising can start with a formed question, qualified opportunity or existing HCD.2 programme comparison. Shared inquiry, characterization, joint conditions and changed-premise qualification remain results to obtain when missing, not mandatory checkpoints.
 
-The applications preserve a person-to-Guide use, an organization inquiry and unlike subjects. They are examples, not a claim that every domain mechanism has been covered. The common contribution remains useful precisely because its external results are not reclassified as DOCA results.
+The publication includes the complete eleven pattern bodies, their material connections and heterogeneous worked uses. It deliberately does not reproduce every engineering, learning, cultural, research, financial or legal mechanism needed by every development subject. The direct supplier result and conditions remain part of the receiving construction. If that result is unavailable, keep the particular gap; a coherent network drawing does not close it.
 
+The cross-pattern applications preserve a person-to-Guide use, an organization inquiry and unlike subjects. DOCA.9 adds a connected undertaking with two substantive development transitions and changed performing arrangements. DOCA.10 adds a provider portfolio, a decision-reversing resource change and an external research partner. These are teaching cases, not an empirical coverage claim or the Method's scope boundary.
 
 
 ## DOCA.Reference:2 - Results supplied by other practices
@@ -2535,7 +3369,7 @@ The applications preserve a person-to-Guide use, an organization inquiry and unl
 | One specialist premise | A.15.9 with the actual supplying practice: an existing qualified result, bounded new result, or exact unresolved gap. | Preserve subject, configuration, use, scope and window. The supplier keeps its Method and conclusion; requesting a result does not supply it. |
 | Characteristic meaning or measurement | C.16 and the holder/domain measurement practice: defined characteristic, legitimate scale, method/model and attributed reading with uncertainty. | Use only for the stated subject and conditions. DOCA.1.CHR selects what changes this inquiry; it does not create cross-holder measurement equivalence. |
 | Finite comparison | C.11.CRC and the applicable domain: comparison of actual `S0`, finite change and realizable `S1` with complete oriented coordinates. | Include result, resources, affected-System/distributional and protected conditions, interactions, transition, reversibility, options and evidence limits. Missing coordinates withhold the stronger comparison. |
-| Human demand, capability or development | [HCD.1](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd1--derive-human-capability-demand-from-representative-later-work) for the requirements of later work, including a provisional account before that work begins; [HCD.3](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd3--diagnose-whether-a-capability-misconception-or-behaviour-limits-work) for causes of an observed difficulty; the relevant HCD and target-domain Methods for support, practice and transfer. | Same-holder and condition-compatible inputs matter. Audience assumptions and supported performance do not establish individual fit or unfamiliar/independent performance. |
+| Human demand, capability or development | [HCD.1](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd1--derive-human-capability-demand-from-representative-later-work) for the requirements of later work, including a provisional account before that work begins; [HCD.3](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd3--diagnose-whether-a-capability-misconception-or-behaviour-limits-work) for causes of an observed difficulty; the relevant HCD and target-domain Methods for support, practice and transfer. | Same-holder and condition-compatible inputs matter. Audience assumptions and supported performance do not establish individual fit or unfamiliar/independent performance. |
 | Human programme alternatives | HCD.2: a programme-comparison account, limited feasible candidate or precise blocked/design return. | Keep learner/provider burden, access, whole-task closure, displacement and uncertainty comparable. Programme advice and authorized choice remain separate. |
 | Generic engagement, alternatives, comparison or recommendation | PSD.1 and PSD.8–PSD.13: the actual missing decision-support contribution and bounded recommendation disposition. | No compulsory workshop. Preserve the exact recipient/use and uncertainty; a recommended probe is not permission to perform it. |
 | Advice follow-up | PSD.14: feasible observation, interpretation and affected recommendation return. | Distinguish earlier advice, actual choice, implementation and evidence. A missing necessary observation is not a favourable result. |
@@ -2545,13 +3379,15 @@ The applications preserve a person-to-Guide use, an organization inquiry and unl
 | AI, engineered, cultural, research, legal, safety, security or financial premise | The actual subject practice: the named evaluation, relation, criterion, authority, constraint or evidence result. | Retain the exact object and receiving conditions. Missing or stale results produce a bounded request, narrower claim, blocker or abstention, not a cross-domain analogy. |
 | Several uses affected by one changed source claim | A.10.1: needed bounded discovery, actual dependence and coverage, followed by the supported direct subject result or scoped gap. A sufficient direct return needs no additional common account. | A citation alone is not reliance; an inaccessible or uninspected receiver is not unaffected. For one known reliance use A.10 and the direct owner. |
 | Source or guidance currentness | G.11 and the responsible source/framework maintainer: currentness, decay, scoped refresh and reporting. | A recent date or refresh completion does not create the new domain result, edition admission, access or effectiveness. |
+| Construction and change of the connected development undertaking | B.5.PI for problematisation; C.39 for a missing way; C.40.CD/CU for developing the question and constructing a reproducible useful whole; C.32.MWA for distinct Method, Work and provision structures. | DOCA.9 supplies their development-practice connection. A supplier's conceptual result is not evidence of actual performance, acquired capability or an obtaining transformation-flow network. |
+| Research, strategic and resource contributions to a portfolio | RMP.1/2/8, STR.8/11/14, MA.1–3/8 and OCE.8/9/11: independently justified inquiry, contribution construction, bounded commitment, shared-demand accounting and realization. | DOCA.10 joins these qualified results without deciding scientific truth, resources or client authority by itself. Independent epistemic work need not be a prerequisite for an existing product. |
+| Cultural continuation and useful participation | C.36/C.36.RP for cultural reconstruction, use, retention and renewed carriers; Community Building for actual participation arrangements; the target practice supplies the content. | A cultural population need not be one interacting community or organization. Participation, access and independently reproduced capability require different results. |
 
 
 
 ## DOCA.Reference:3 - Source responsibility and references
 
 The source roles below consolidate the pattern-local SoTA accounts for this edition's claims. They identify which contribution is adopted or adapted, its limit, and the smallest return after a material change. They do not replace the complete sources or establish a client's facts. The cited editions and bounded source roles qualify these uses; a changed source or receiving question can require a new source return.
-
 
 
 ### DOCA.Reference:3.1 - Opportunity, characterization, and retained possibilities
@@ -2566,7 +3402,6 @@ The source roles below consolidate the pattern-local SoTA accounts for this edit
 | [OECD, Proactive portfolio management in mission-oriented innovation policy, 2025](https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/03/proactive-portfolio-management-in-mission-oriented-innovation-policy_6bc6df0e/1ee956a5-en.pdf), sections 2–4: complementary activities, stage dependencies, resources, adaptation and termination. | **Adapted** in DOCA.6's retention, stage-specific comparison and reconsideration. | Its mission selection and funding remain external; it supplies no universal horizon count, individual development mechanism or demonstrated option valuation. Reopen the particular retention or specialist-valuation question. |
 
 
-
 ### DOCA.Reference:3.2 - Professional and AI-source qualification
 
 | Source and qualified reading | Receiving contribution | Scope limit and return |
@@ -2579,35 +3414,43 @@ The source roles below consolidate the pattern-local SoTA accounts for this edit
 For a concrete currentness episode, suppose an adviser needs to know whether “ICMCI compliant” establishes all required engagement conditions. The identified v4.0 clauses support the bounded involvement/conflict contribution, and the May 2026 AI Code supplies a separate scoped AI-use contribution. Neither closes the broader complete-current-standard claim. The visible 2026 update cue returns that precise claim to the professional source owner; the adviser can retain the identified qualified contributions while withholding the broader assertion. Local legal and professional applicability still needs its own result. A newer label alone supplies none of these conclusions.
 
 
-
 ### DOCA.Reference:3.3 - Direct frameworks, predecessor sources, and honest omissions
 
-[Problem Structuring and Decision Support](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md) supplies its direct generic inquiry, comparison, recommendation and follow-up contributions. [Human Capability Development](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) supplies personal demand, programme and evidence contributions. [OCE.8](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce8---compare-human-ai-robotic-and-provider-arrangements-for-the-same-organizational-work-result) supplies whole-arrangement construction and comparison when that same-result question is current. Their use is claim-specific; a bibliography entry is not proof of dependency or client adequacy.
+[Problem Structuring and Decision Support](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md) supplies its direct generic inquiry, comparison, recommendation and follow-up contributions. [Human Capability Development](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) supplies personal demand, programme and evidence contributions. [OCE.8](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce8---compare-human-ai-robotic-and-provider-arrangements-for-the-same-organizational-work-result) supplies whole-arrangement construction and comparison when that same-result question is current. Their use is claim-specific; a bibliography entry is not proof of dependency or client adequacy.
 
-The [predecessor opportunity-construction description](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#construct-a-bounded-development-opportunity), [advising profile](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#development-direction-advising) and [source-responsibility account](#docareference54---predecessor-source-account-access) remain distinct sources, with their public expressions and access limits identified below. Their construction moves are carried by DOCA.1–DOCA.6, their actual engagement conditions by DOCA.7, and their affected-opportunity return by DOCA.8. Generic recommendation and follow-up continue to return to PSD. The new text alone does not supersede an earlier publication or erase its historical uses.
+The [predecessor opportunity-construction description](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#construct-a-bounded-development-opportunity), [advising profile](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#development-direction-advising) and [source-responsibility account](#docareference54---predecessor-source-account-access) remain distinct sources, with their public expressions and access limits identified below. Their construction moves are carried by DOCA.1–DOCA.6, their actual engagement conditions by DOCA.7, and their affected-opportunity return by DOCA.8. Generic recommendation and follow-up continue to return to PSD.
 
 The [Foundations programme](#docareference53---foundations-programme-source-access) and [comparison](#docareference53---foundations-programme-source-access) illustrate a programme design considered before a particular person's development question. A learner-oriented narrative can arrange explanations and practice for learning; a compact pattern body helps a practitioner select a move for a working difficulty. For a particular person's capability, programme fit or learning result, use the relevant direct practices and observations.
 
-Broader career-design exercises, motivation and learning-science accounts, real-options valuation, investment allocation, complete professional certification, legal/safety compliance and domain implementation are not reproduced here. Their omission is not permission to bypass them when a receiving claim needs them. Return that exact question to its actual current owner.
+Broader career-design exercises, motivation and learning-science accounts, real-options valuation, specialist investment valuation, complete professional certification, legal/safety compliance and domain implementation are not reproduced here. Their omission is not permission to bypass them when a receiving claim needs them. Return that exact question to its actual current owner.
 
+### DOCA.Reference:3.4 - Connected development and the portfolio construction
+
+DOCA.9 combines the developed Library contributions to problematisation, Method construction, transformation-flow description, capability development and cultural continuation. B.5.PI, C.39, C.40.CD/CU, E.18/E.18.NET, C.32.MWA, E.23.CDI and C.36/C.36.RP retain their precise subjects and conditions. A.12 retains the internal acting/changed-parts explanation where its premises hold. HCD, OCE, Method Engineering and the actual target practice retain the operations that make a subject-specific transition attainable. DOCA.9:11 compares the developed joining contribution with direct ME.6/C.40.CU/subject-Method composition, preserves the latter as an adequate cheaper stop, and identifies the exact CIPD and MIT CISR organizational sources and their adaptations. The synthesis supplies the connections and changed-condition construction, not a new universal mechanism for every development subject. In particular, the same-agent explanation in :4.2.2a connects available capability to a development operation and its receiving use; it neither replaces Reflexive Split nor infers acquisition from the description of a change.
+
+DOCA.10 uses STR.8/11/14 for contribution and commitment construction, RMP.1/2/8 for independent epistemic purposes and attainable inquiry, MA.1–3/8 for scarce demand and time-related obligations, and OCE.8/9/11 for obtaining and realizing support while current work continues. Its original OECD comparison and transfer limit are stated in DOCA.10:11. In particular, the mission-portfolio source does not make independent science subordinate to the next commercial release.
+
+The role-community essays cited by DOCA.9 contribute overlapping organizational/community relations, participant journeys and competing formal/informal influence. They are conceptual sources from 2024, not evidence that every office disappears or that AI universally replaces human contributions. Their useful source question is how the participant's own purpose, burden and authority changes the proposed provision.
+
+These constructions can be examined through their intermediate results, whole conditions and changed cases. Their worked examples are stipulated explanations, not observations of organizational effectiveness or any provider's actual resources. Reopen a dependent move when subject evidence, a supplier or practical use defeats its connection. An adequate direct Method retains its stopping power.
 
 
 ## DOCA.Reference:4 - Requalification and guidance refresh
 
 For a changed client fact, configuration, support, use, horizon or service condition, use DOCA.8 to find the smallest affected opportunity result. Preserve independent qualified uses, historical advice and actual prior configurations. A narrowed data class needs its own quantities and comparisons; a missed necessary observation limits only the reliance that needed it.
 
+For a changed development undertaking, DOCA.9 reconnects the affected receiving work, provision and continuation. For a changed shared contribution, timing or allocation, DOCA.10 reconstructs its affected portfolio uses without inventing dependencies for independent branches. Use DOCA.8 for the opportunity claims whose premises changed; it need not absorb the whole enactment or resource decision.
+
 For a changed source claim with several receiving uses, A.10.1 supplies bounded discovery and actual dependence before each direct practice qualifies its result. For source currentness, decay or scoped refresh, use G.11. A moved file with unchanged accessible claims can require only a repaired reference; an uninspected receiver or expired reliance window cannot be declared unchanged for convenience.
 
 When a source or practitioner result defeats the guidance itself, send the precise failed move, receiving use, source difference and candidate repair to the responsible framework maintainer. Change only the dependent body, relation, entry or example unless the field or branch boundary is genuinely defeated. Updating a client account is not automatically a framework revision; updating a publication date is not a new qualification.
 
 
-
 ## DOCA.Reference:5 - Reading the references
 
-All nine DOCA bodies are included in this publication. Internal links use GitHub's native heading fragments. If a Markdown reader uses another heading-address convention, use its document outline or search for the exact heading. Other framework and domain sources remain external. Their public URLs remain usable when this Markdown file is copied elsewhere, provided network access and the supplying publication remain available. This is not an offline-complete source collection.
+All eleven DOCA bodies are included in this publication. Internal links use GitHub's native heading fragments. If a Markdown reader uses another heading-address convention, use its document outline or search for the exact heading. Other framework and domain sources remain external. Their public URLs remain usable when this Markdown file is copied elsewhere, provided network access and the supplying publication remain available. This is not an offline-complete source collection.
 
 Use a supplying source for the exact contribution and conditions named by the receiving claim. A working link does not establish that a result fits the subject, configuration, use or horizon. If the source or its necessary qualification cannot be obtained, retain the exact gap and use only independently supported contributions.
-
 
 
 ### DOCA.Reference:5.1 - FPF source locators
@@ -2631,9 +3474,15 @@ The complete [FPF Markdown](https://raw.githubusercontent.com/ailev/FPF/main/FPF
 | C.40.CD | Develop Problems and Ways of Solving Them Together |
 | E.10.DEV | Recovering What Development or Evolution Means in the Current Claim |
 | G.11 | Decide Whether and How to Refresh (Telemetry and Decay) |
+| B.5.PI | Locate the complete problematisation pattern by this PatternID. |
+| C.32.MWA | Locate the complete Method/Work architecture construction by this PatternID. |
+| C.36 / C.36.RP | Locate the complete cultural-construction and reproduction pattern bodies by these PatternIDs. |
+| C.39 | Find and Develop a Way to Obtain a Result |
+| C.40.CU | Locate the complete reproducible-useful-whole construction by this PatternID. |
+| E.18 / E.18.NET | Locate the complete transformation-flow and network pattern bodies by these PatternIDs. |
+| E.23.CDI | Locate the complete capability-development pattern by this PatternID. |
 
 Use the complete relevant pattern and its conditions, not just the matched title. In particular, A.10.1 supplies bounded changed-source discovery and actual-use qualification; DOCA.8 requires a subject basis before asserting restored qualification, but may finish with a supported limit or compatible reference repair. It does not require a second result record or an unused common summary. A different edition or wording requires comparison of the relied-on contribution when that difference could affect the receiving use.
-
 
 
 ### DOCA.Reference:5.2 - Learning Product source access
@@ -2649,7 +3498,6 @@ The following sources belong to the Learning Product Development LPF. Their comp
 Obtain the applicable source from the Learning Product maintainer when its full instruction is needed. LG.05 is marked Candidate in its source LPF; qualify its applicable use before treating it as established instructional guidance. The constructed DOCA application explains the requested design contribution, not the admission of that source. Without the full source or a qualified design result, retain the Guide-design question with Learning Product practice. The opportunity and programme results remain separately usable within their conditions.
 
 
-
 ### DOCA.Reference:5.3 - Foundations programme source access
 
 **ThinkingFoundations + EngineeringFoundations** is the programme source; **Основания выбора и сравнение программ** is its supporting programme-choice and comparison account, with a source-inspection basis of 2 September 2026. They illustrate a programme design considered before a particular person's development question. Their full working texts are not included here and no verified public retrieval route is supplied.
@@ -2657,17 +3505,31 @@ Obtain the applicable source from the Learning Product maintainer when its full 
 For that illustration's complete design and comparison, request both sources from the programme's responsible designer or maintainer. For an actual person's programme question, obtain the compatible HCD.2 comparison and the person's relevant starting conditions, later tasks, support and participation. The illustration supplies none of those individual premises. A different adequate programme comparison can enter the same advice or choice question directly.
 
 
-
 ### DOCA.Reference:5.4 - Predecessor source-account access
 
-**Development-direction profile: source responsibility and local refresh** is the full predecessor source account, whose identified qualification window is 2 September 2026. The public PSD section [Source responsibility and references](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psdreference5---source-responsibility-and-references) supplies a condensed source-responsibility expression, not that complete earlier account.
+**Development-direction profile: source responsibility and local refresh** is the full predecessor source account, whose identified qualification window is 2 September 2026. The public PSD section [Source responsibility and references](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psdreference5---source-responsibility-and-references) supplies a condensed source-responsibility expression, not that complete earlier account.
 
 Use the public section for the contribution it actually states. If a historical qualification or source-use decision depends on omitted detail, obtain the full named account from PSD profile maintenance. The current DOCA source roles above remain the place to recover this publication's own bounded reliance; neither a condensed expression nor the source's date supplies an uninspected stronger claim.
-
 
 
 ### DOCA.Reference:5.5 - A useful stop when access is incomplete
 
 A reader should be able to locate the current question, recover its first useful result or gap, and identify the source or practice that can support the stronger claim. If source access fails, keep the missing premise explicit and preserve independent qualified work. The responsible practice may supply an adequate alternative result, a narrower claim or a blocker. Publication, accessible text, recent dates and well-written examples do not supply the client's evidence or authorization.
+
+## DOCA.Reference:6 - Edition, series and scope
+
+**Series and current edition.** The first edition dated 12 October 2026 is the first admitted member of the Development and Self-Development Practice product series. It serves people and assisting agents arranging their own development, development of a collective, organization or another system, bounded advising, or help for others to continue development.
+
+This publication connects opportunity construction, characterization and development-direction advice with continuing development. DOCA.1–8 and DOCA.1.CHR supply complete opportunity, characterization and advice Methods. Their results retain the stated boundaries when used in a larger undertaking.
+
+DOCA.9 connects a consequential situation to changed possibilities and further development. DOCA.10 constructs an organization or provider portfolio for independent purposes and shared means. The Readme, Preface and source returns explain how these contributions work together. Cite the actual publication and edition used; a historical citation retains the content of that edition.
+
+DOCA is the reference code used for the eleven Methods in this framework. The title names its practical scope; the complete Methods and qualified supplier returns supply that scope's content. PatternIDs identify contributions within the named publication; a URL fragment follows the actual Markdown heading. Suite membership is stated in the Suite account.
+
+Admit a later edition through an explicit decision when its relation to the actual source edition is established and the complete language is qualified for this use. Retain the connection from consequential difficulty or opportunity through worthwhile attainable change and realization to further development, together with independently useful inquiry and advice. Self-development requires the developing subject's own organizing contribution. Refinement, splitting or redistribution must preserve useful operations and qualified suppliers or provide qualified replacements. Correct false claims and mistaken boundaries. Source derivation alone does not admit an edition.
+
+Direct reliance remains contribution-specific. A changed supplier Method, professional condition or source can reopen the dependent move without invalidating the entire language. Review the affected admission or use when a required operation is lost or use exposes a consequential failure. Replacing continuing development with routine delivery or implementation alone identifies another series. Use the existing adequate contribution where it still answers the receiving question.
+
+Loss of qualification calls for a warning and a decision about repair, withdrawal of recommendation or retirement. Superseded, unavailable or retired editions retain their historical membership while the series continues; a false admission claim requires correction. Retire the series by an explicit decision when its field and use will no longer be served or when repair after qualification loss is declined. Retirement ends its current belonging occurrences while preserving past facts; a later active collection requires a new constitution. A change of title, publication home, Suite membership or maintenance alone leaves the series identity unchanged. The constitution establishes no maintenance service, future edition or uninterrupted availability.
 
 ## DOCA.Reference:End

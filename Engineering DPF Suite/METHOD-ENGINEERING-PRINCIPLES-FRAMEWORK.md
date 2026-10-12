@@ -3,7 +3,7 @@
 > A domain pattern language for choosing, constructing, describing, testing, and improving Methods and their supporting arrangements.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 20 September 2026
+- **Version:** 12 October 2026
 - **Status:** Eternal alpha: a working framework with source-grounded guidance and bounded worked applications. The PLUS-ME production account is prospective guidance, not a report of recurring successful production.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -77,8 +77,8 @@ Search the Keywords & Search Queries column for the difficulty, subject, or resu
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
 | 20 | [ME.15 - Maintain Method Variants, Provenance, and Reuse](#me15---maintain-method-variants-provenance-and-reuse) |  | *Keywords:* Method variant, reusable semantics, provenance, branching, version, adaptation, lineage, reuse. *Queries:* "Did this change alter a reusable way of working or only its description and support?" "Which applicability and evidence claims belong to the resulting branch?" Identify meaningful variants and maintain their derivation, status, and reuse conditions; return other changes to the description, Work, or support subject they actually affect. | ME.2; ME.8–ME.14 for their specific live questions; FPF A.3.1, G.11 |
-| 21 | [ME.16 - Introduce a Method into Practice and Decide What to Keep or Change](#me16---introduce-a-method-into-practice-and-decide-what-to-keep-or-change) |  | *Keywords:* introduction into practice, adoption, authorized Work, capability development, assistance, observation, revision, contribution. *Queries:* "What changed when this Method was introduced into a real practice?" "Which observations support keeping or changing the Method, its description, introduction strategy, or support?" Follow the bounded introduction from intended changes through actual Work and later use, and qualify any causal claim about the outside result. | ME.10, ME.14, ME.15; ME.11 when a trial is selected; FPF A.13, A.15.1; C.28 for actual causal reliance |
-| 22 | [ME.17 - Deliberately Continue and Change Method-Engineering Culture](#me17---deliberately-continue-and-change-method-engineering-culture) |  | *Keywords:* Method Engineering culture, practitioner population, generation, transmission, recognition, selection, memory, retention, loss. *Queries:* "Which cultural relation should deliberately continue or change across this practitioner population?" "What observations distinguish transmission or retention from publication and local use?" Define a bounded cultural claim, retain action-changing explanations, and decide what can continue or must change; select an intervention or observation only when its attainable contribution warrants its full burden. | ME.15, ME.16; FPF C.20, C.36, G.11 |
+| 21 | [IS.4 — External introduction and support Method](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/PRACTICE-IMPLEMENTATION-SUPPORT-PRINCIPLES-FRAMEWORK.md#is4---introduce-a-method-into-practice-and-decide-what-to-keep-or-change) |  | *Keywords:* introduction into practice, adoption, authorized Work, capability development, assistance, observation, revision, contribution. *Queries:* "What changed when this Method was introduced into a real practice?" "Which observations support keeping or changing the Method, its description, introduction strategy, or support?" Follow the bounded introduction from intended changes through actual Work and later use, and qualify any causal claim about the outside result. | ME.10, ME.14, ME.15; ME.11 when a trial is selected; FPF A.13, A.15.1; C.28 for actual causal reliance |
+| 22 | [ME.17 - Deliberately Continue and Change Method-Engineering Culture](#me17---deliberately-continue-and-change-method-engineering-culture) |  | *Keywords:* Method Engineering culture, practitioner population, generation, transmission, recognition, selection, memory, retention, loss. *Queries:* "Which cultural relation should deliberately continue or change across this practitioner population?" "What observations distinguish transmission or retention from publication and local use?" Define a bounded cultural claim, retain action-changing explanations, and decide what can continue or must change; select an intervention or observation only when its attainable contribution warrants its full burden. | ME.15, IS.4; FPF C.20, C.36, G.11 |
 
 **Part VI - Pattern-Language Production and Situated Use**
 
@@ -131,7 +131,7 @@ MATH.17 supplies an operation on summaries: represent a list by its sum and coun
 
 For k nonempty teams and N scalar measurements, the proposal transmits 2k scalar values instead of N, apart from any identifiers and communication overhead. It can reduce that transfer when N exceeds 2k, while adding local calculation and coordination. In the small example, four scalar values replace six. ME.6 and ME.14 compare that contribution with the total burden; equality of the mean alone does not establish practical improvement. Rounded computation needs its numerical error allowance.
 
-**4. Describe and introduce only the supported change.** ME.8 makes the selected procedure and its conditions available to its users. ME.7 addresses a claim that the participating Methods constitute a Method whole when that claim matters. ME.16 addresses introduction into practice; ME.11 supplies a trial only when the result it could obtain is worth the work. Existing adequate grounds can suffice for the decision being made.
+**4. Describe and introduce only the supported change.** ME.8 makes the selected procedure and its conditions available to its users. ME.7 addresses a claim that the participating Methods constitute a Method whole when that claim matters. IS.4 addresses introduction into practice; ME.11 supplies a trial only when the result it could obtain is worth the work. Existing adequate grounds can suffice for the decision being made.
 
 **5. Reopen the construction when the required result changes.** The recipient now also needs the number of measurements greater than 3. Replacing the first list by (2,2,2,2) preserves its sum and count, hence the overall mean, but changes the total above 3 from four to two. The old pair cannot supply the new answer.
 
@@ -1745,18 +1745,26 @@ Reopen when a current source or use shows that an individual question cannot be 
 
 ## ME.6 - Compare Method-Architecture Alternatives and Simultaneous Enactment Conflicts
 
+> **Type:** Method pattern
+> **Status:** Candidate
 >
-> **Primary working result:** a **Method-architecture decision episteme** that names the few decision-changing structures, their direct relations and truth statuses, materially different alternatives, moved burdens, selected or rejected synthesis, and the conditions material to its use or reconsideration. It may truthfully stop with relations among several Methods and no composite whole.
+> **Primary working result:** a **Method-architecture decision episteme** explaining how related Methods would be performed and supported together: the decision-changing structures and direct relations, their truth statuses, serious alternatives, joint demands and moved burdens, the selected or rejected arrangement, and the conditions for its realization or reconsideration. Co-used Methods can remain plural; this result need not establish a composite Method.
 
 ### ME.6:0 - Use This When
 
-Use this pattern when individually plausible Methods or candidate accounts could be combined or co-used in materially different ways and the receiving result depends on their composition, Work overlap or order, allocation, subject/support arrangement, descriptions, provider access, or cultural relations.
+Use this pattern when individually plausible Methods or candidate accounts could be combined or co-used in materially different ways, and the receiving result depends on their composition, Work overlap or order, allocation, subject/support arrangement, descriptions, provider access or cultural relations. A typical practice or development network can supply the intended transformations while leaving their local performance and support unresolved.
 
-Begin with the obtaining or possible-future practice and one result at risk. Name the exact structures and relations that can change the decision. Do not call them all a graph: a mathematical graph is one possible representation only when its nodes, edges, semantics, and use are selected. In ordinary cases use the exact names—Method structure, Work structure, allocation structure, subject/support structure, description structure, or cultural relation.
+The practical question is how the related contributions can become obtainable together. A Method may need a qualified judgement before work begins, while the proposed expert is available only later. A common service may save preparation but delay local decisions. Learning may consume the only expert time needed for current delivery. Assigning names to boxes does not settle these interactions.
 
-The first useful result compares at least two serious syntheses and exposes both local gains and burdens moved across participants, scopes, Systems, or times. It can select one bounded trial, preserve an incumbent, request a probe, or stop with a relation-only result.
+Begin with the obtaining or possible-future practice and one result at risk. Follow that result from its subject through the Method that could obtain it to the person, AI or other System that would perform the work. Recover one condition that can defeat the connection: missing competence, time, equipment, evidence, permission, a usable incoming result or an available receiving action. Construct alternatives by changing that connection and completing its consequences through the receiving result.
 
-Do not repeat ME.5. If the only question is whether a named relation or Method composite is actually supported, clarify that claim through `C.30` or `B.1.5` and stop; there is no ME.6 comparison to complete until a materially different arrangement could change the decision. Do not invent a rival just to enter this pattern. Do not treat project, process, case, lifecycle, table, or diagram views as architecture alternatives unless their underlying proposed relations actually differ.
+A comparison uses at least two serious arrangements, including the feasible incumbent where applicable, and exposes local gains and burdens moved across participants, scopes, Systems or times. It can retain an incumbent, select a conditional future arrangement, warrant a bounded attempt, return one exact missing contribution or reject an unavailable promise. It does not itself make proposed relations actual or provide every subject Method needed to realize them.
+
+The intended user can interpret the supplied Methods or obtain qualified interpretation, discuss work with participants, and compare commitments. The user need not possess every supported mastery. The setting can be one person's work with AI, an enterprise, an external provider with clients, independent practitioners or a combination. These examples do not limit the Method to development, offices or one organization.
+
+Use an adequate existing arrangement directly. An isolated access repair, routine assignment under sufficient capacity or qualified supplier comparison need not trigger another architecture exercise. Do not repeat ME.5's individual connection work. If the only question is whether a named relation or Method composite is supported, use C.30 or B.1.5 and stop with that clarification; there is no ME.6 comparison to complete until a materially different arrangement could change the decision. Do not invent a rival merely to enter the pattern.
+
+Use the strategic or subject practice first when the unresolved question is only whether the aim is worthwhile or what the Method should do. Return here when performance and support can change that answer. Project, process, case, lifecycle, table and diagram views are not architecture alternatives unless their underlying proposed relations differ. A mathematical graph is one possible representation when its nodes, edges, semantics and use have been selected; otherwise name the actual structures and relations.
 
 #### ME.6:0.1 - Working Distinctions
 
@@ -1772,60 +1780,295 @@ Do not repeat ME.5. If the only question is whether a named relation or Method c
 | genuine first–then condition | One direct Work, result-use, transformation, evidence, configuration, or authority relation makes a later occurrence or decision depend on an earlier result or condition. |
 | architecture alternative | A possible-future synthesis whose named relations differ materially. Until realized or independently shown to obtain, it remains proposed. |
 
+**Mastery** in the development cases means a person's qualified ability to contribute to a family of tasks under stated conditions. Organization and AI capability claims keep their own holders, mechanisms and evidence. **Support** supplies a contribution that enables another's work, such as tools, teaching, expert execution, research, coordination or maintained access. Cultural continuation concerns how practices are carried, understood, reproduced and changed; installing a procedure does not establish it.
+
 ### ME.6:1 - Problem Frame
+
+The practitioner receives identified Methods or candidate accounts, their intended effects and any qualified connections. These may be explained in an ordinary practice account or a typical transformation-flow network. The task is to construct and compare their performance and support arrangement while preserving the supplied contributions, conditions and unresolved gaps.
 
 The pattern considers Methods, Work, descriptions, capability, tools, variants and simultaneous contributions at several scales. Recover the subject of each project, process or case account under `A.15.6` before comparing structures. Several useful structures and descriptions can be connected without sharing a subject or aligning one-for-one.
 
 A project still needs decisions. It must choose which provisional results may be used, which Work may overlap, where authority stays, which support arrangement is acceptable, and where burden moves. The comparison must preserve the several structures while remaining small enough to act on.
 
+When continuing development is the supplied practice, preserve its full contribution: noticing an emerging difficulty or possibility, forming a problem, constructing a worthwhile reachable change, arranging and enacting it, then making a further development choice from the changed position, including after success. Consolidation, ordinary work or ending a particular line can be justified continuations. ME.6 receives that practice and arranges its performance; it does not construct the whole development network by default or reduce it to acquiring or introducing a known Method.
+
 ### ME.6:2 - Problem
 
-A one-stack account turns Method composition, Work order, organization, capability, provider support, and description layers into one hierarchy. An account built from views treats different depictions of the same relations as different architectures. A local-optimization account celebrates faster integration while moving preparation, assurance, maintenance, or recovery burden to another Agent or interval.
+The same drawing is often expected to describe what changes, how it changes, what work occurs, who is competent, which unit employs whom, and who may decide. These are different relations. Turning them into one hierarchy makes missing contributions disappear.
 
-The decision then asserts an obtaining architecture before its relations exist, or misses a genuine first–then guard because “everything is concurrent”.
+For example, a box for “development” can stand for a Method, a team, a proposed programme, a person's capability or work not yet performed. Naming an expert beside it can conceal unavailable time. Placing the box centrally can conceal missing local knowledge. Distributing it to every workplace can conceal preparation and coordination that nobody supplies. A common portal can appear to own every subject it merely routes to another provider.
+
+Separately plausible arrangements can conflict when combined. The same leader may be needed to run current work, help others and develop their own capability in the same hour. A local incentive to finish quickly can prevent the examination and revision the culture requires. A provider can complete its contracted activity without leaving a client able to continue. More capable AI can invalidate a human bottleneck assumption while leaving permissions, physical access or the learner's own practice unchanged.
+
+The recurring problem is to construct and compare complete arrangements across these relations and scales, then supply an exact decision and requirements for a feasible local enactment. The comparison must be allowed to change the allocation, grouping, means, Method connection or intended remit. Otherwise architecture becomes justification of the first office proposal.
+
+A one-stack account also mistakes Method composition for Work order and description layers. Different views of the same relations can be mistaken for architecture alternatives. The resulting decision can assert obtaining architecture before its relations exist or miss a genuine first–then guard because everything is described as concurrent.
 
 ### ME.6:3 - Forces
 
-| Force | Tension |
+| Force | Tension that can change the arrangement |
 | --- | --- |
-| Useful pluralism | Several structures expose different conflicts, while too many views bury the choice. |
-| Overlap and order | Simultaneous contribution can shorten feedback, while evidence, configuration, or authority may require a real order. |
-| Local and total burden | One participant can gain time, while another inherits peak load, access, or recovery Work. |
-| Truth status | Proposed relations are useful for design, while they cannot be reported as obtaining architecture. |
-| Composite temptation | Co-use invites a memorable whole name, while no Method whole exists without identity and obtaining relations. |
+| Subject integrity and local adaptation | A supplied Method needs its operative conditions preserved, while local work may require a different input, support condition or variation. |
+| Reuse and specialization | Shared preparation and infrastructure can save effort, while subject judgement and local knowledge can remain non-substitutable. |
+| Personal mastery and supplied results | A provider can obtain a correct result without developing the receiver's ability to obtain it. Some uses need one; others need both. |
+| Local autonomy and joint consequences | Local decisions can use timely knowledge, while their effects can consume shared resources or defeat another participant's contribution. |
+| Continuing work and development | Development can improve future capability while temporarily reducing the same performers' current contribution. |
+| Common responsibility and distributed provision | One carrier can arrange access and maintain continuity without employing or performing every specialty. |
+| Actual authority and useful initiative | Someone can recognize and solve a problem without having permission to commit the affected people, resources or Systems. |
+| Cheap intelligence and costly enactment | AI can make search or decisions cheaper while experiments, transitions, attention, integration or physical work remain scarce. |
+| Comparative completeness and decision cost | Missing connections can reverse a decision, while a full model of every relation would cost more than a bounded adequate repair. |
+
+Method-architecture comparison also preserves simultaneous contribution without losing real order, and useful co-use without inventing a Method whole. Several structures can expose different conflicts, while views that cannot change the choice add only cost. Proposed relations are useful design inputs but cannot be reported as obtaining practice.
 
 ### ME.6:4 - Solution
 
-Select only structures that change the decision, state their direct relations and truth statuses, compare serious syntheses on one bounded basis, and return an architecture decision with explicit realization or reconsideration conditions.
+Connect the supplied practice to possible and actual performance, construct materially different arrangements, compare their interactions on one bounded basis, and return an explained decision with exact realization or reconsideration conditions. C.32.MWA supplies the several-structure synthesis, C.30.ASV:4.5a the choice of questions and relations, C.11.CRC the finite comparison, and C.11 or a sufficient domain decision Method the choice.
 
-#### ME.6:4.1 - Pattern-Use Unfolding
+The sections below explain connected questions, not a fixed production pipeline. An adequate existing result can settle a question. A changed premise can return the work to an earlier question, and independent contributions can proceed separately. The supplied practice retains its genuine dependencies; paragraph order adds none. In a familiar case, follow the result, locate the decisive interaction, compare complete alternatives and retain the necessary continuation. Open the fuller explanation where a connection is unfamiliar or its premise changes.
 
-1. **Bound the practice and result.** State whether the account concerns obtaining practice or possible-future practice, the result at risk, configuration, situation, window, and decision authority.
-2. **Load retained subjects.** Bring in identified Methods, candidate accounts, and individually supported local connections. Preserve every status and unresolved condition.
-3. **Select decision-changing structures.** Name each Method, Work, allocation, subject/support, description, capability/provider, or cultural structure needed. Omit a structure whose possible values cannot change the choice.
-4. **State relations and truth.** For every load-bearing relation, record its kind, subjects, obtaining, proposed, contradicted, or unresolved status, evidence, and receiving use. Record correspondences and losses across descriptions without making them identities.
-5. **Build serious alternatives.** Create at least two syntheses that differ in one or more named relations. Preserve the feasible incumbent. A different view or label is not another alternative.
-6. **Compare enactment and burden.** At a revealing moment, explain what larger work, if any, is being performed through the actions being compared, and how its conditions constrain those actions. Distinguish that connection from separate overlapping or supporting Work; use B.1.5.EW when it is unclear. Preserve genuine first–then conditions. Compare combined peak demand, provider/access dependencies, authority, responsibility, evidence creation and loss, failure routes, and burdens moved across scopes or times.
-7. **Choose without upgrading truth.** Use `C.11` or an applicable domain decision Method. Return the selected synthesis, rejected alternatives, accepted losses, conditions, live rivals, and any causal-use boundary. A bounded trial decision can select proposed content without asserting that its ArchitectureRelations obtain.
-8. **Finish or continue from the decision.** A supported decision to retain an incumbent or keep a proposal available can finish the comparison. Choose implementation or trial Work through C.11.DUA when its obtainable contribution warrants its full burden and the needed access, allocation, authority and window are available. For that selected Work, name implementation and trial separately, the observations that could support or defeat proposed relations, recovery or stop, and the condition for preserving, narrowing or reopening the decision. Carry a reconsideration condition in a later-use result where it changes reliance.
+#### ME.6:4.1 - Recover the supplied network and the result this local arrangement must obtain
 
-#### ME.6:4.2 - Record the Result
+Name the obtaining or possible-future practice, situation, configuration, window, decision authority and receiving use. Name the receiving subjects and the change or preserved condition that matters. A customer result, a performer's acquired capability, a reusable Method, an organization's continuing capability and cultural transmission among participants can all matter. Keep them separate when one could be obtained without another.
+
+Recover enough of the supplied practice account to identify:
+
+- what is transformed or kept usable, and which subject continues through the change;
+- the Method or professional operation proposed for that change;
+- the input and receiving conditions that make the result useful;
+- independent branches, repeated or conditional work, and returns from later observations;
+- the continuing work and other contributions the arrangement must protect.
+
+For an E.18 or E.18.NET account, use its qualified positions, members and relation meanings as supplied. A typical diagram is a reusable description, not evidence that those relations already obtain in the local organization. Keep proposed local bindings and future Work prospective until their conditions are met. C.30.TFS-REL governs a stronger architecture use of an exact selected transformation-flow structure or network.
+
+When the question spans several organizations, independent communities or people, do not invent a containing organization to make the picture tidy. Name the participants and the agreements or other relations on which the proposal depends. A network is not the Agent that performs the work or holds all its obligations.
+
+Walk one supplied path forward and one necessary result backward. Forward, ask what the receiver can do with each result. Backward, ask which operation actually supplies the needed condition. Stop at an understood operation or qualified existing result. Where “develop competence”, “create culture” or “provide support” hides the operation, recover it through section 4.2 before allocating its performance.
+
+Keep the remit revisable. A provider may arrange access to every required specialty without claiming to perform all of them. A person may acquire one capability and use another through an AI or expert service. If the proposed local arrangement cannot jointly supply the required results, compare a different way or return the affected promise to its strategic owner; do not quietly remove a difficult result while keeping the same offer.
+
+#### ME.6:4.2 - Establish the Methods and the connections that performance must preserve
+
+Bring in the identified Methods, candidate accounts and individually supported local connections, preserving their prior status and unresolved conditions. A candidate account does not become an admitted Method through allocation. If actual Work is later described as enacting a Method, establish that claim for the Method and occurrence in question.
+
+For each decision-changing contribution, inspect the actual explanation or demonstration, not its name. Identify what material or situation it works on, what a competent performer does, why the action could obtain the result, which conditions are preserved, and where the Method stops.
+
+Try the operation on one representative input or a sufficiently explicit prospective case. The purpose is to locate the first unsupported connection. Different findings require different work:
+
+| Finding in the attempted use | Obtain this contribution before relying on the proposed arrangement |
+| --- | --- |
+| The Method and its receiving result are sufficient; only local access or capacity is missing. | Preserve the Method and design the missing performance/support relation. |
+| Competent people can perform the decisive judgement, but the learner or another provider cannot recover it. | Obtain a qualified demonstration or reconstruct the missing criterion; design learning separately. |
+| One Method returns a result that the next cannot use. | Construct an adapter, choose a compatible Method or revise the receiving condition with its owner. Explain why the connection works. |
+| No qualified way obtains the requested subject result. | Use C.39 and the relevant subject or research practice to construct a way or return a precise unresolved inquiry. |
+| The proposed activity succeeds, but does not establish the promised mastery or continuing capability. | Obtain the missing personal or collective contribution and its observation; otherwise narrow the promise. |
+| A universal account loses a condition on which one specialty depends. | Retain a justified specialization or change the common boundary rather than forcing the specialty through an unsuitable common procedure. |
+
+C.39 supplies the general missing-way construction: search through the required change, recover a relevant operation, try its receiving use, and construct only the still-missing connection. HCD.28:4.2 distinguishes subject-method development from pedagogical construction. A learning designer may choose a contrast or practice task without inventing a missing scientific criterion. Conversely, a subject expert's correct answer does not supply a teachable route by itself.
+
+If the original difficulty is not yet a usable problem, B.5.PI supplies inquiry from a weak cue or an apparently completed result. C.40.CD can develop a new problem from an achieved result. For continuing development, return their question to the selected development practice, rather than treating question formation as the entire development transition.
+
+Retain distinct sources of change. Revising a Method can change what future performances require. Training can develop a person's capability; a claim of capability change needs suitable performance evidence. Assigning a qualified person identifies an expected contribution; the permissions and authority required for that work need their own grounds. Reuse adequate existing evidence and authorization. Improving a tool can change available means. These repairs can be combined, but none supplies the others merely by being in the same project.
+
+Explain the important joins in ordinary language. For example: “The domain review must return the condition under which the proposed experiment is interpretable before the participant runs it. A general coach can help formulate the question, but cannot substitute for that domain judgement.” This tells the architect what kind of performer and timing are required. “Coach, expert, learner” alone does not.
+
+Do not force every result-use or support relation into Method composition. Use B.1.5 for a proposed whole; ME.7 can resolve its identity. When that is the only unresolved question, finish with the relation or composition result. A materially different way to obtain the receiving result, rather than a larger Method name, creates the architecture comparison here.
+
+#### ME.6:4.3 - Keep the necessary structures distinct and connect their claims
+
+Select only the structures that can change this design. A compact cross-reference is often enough. C.30.ASV:4.5a supplies the Method questions; C.32.MWA:4.1 relates them to separate performance, support and cultural accounts.
+
+| Question | What is being related | What must not be inferred from that relation |
+| --- | --- | --- |
+| What constitutes the Method, or may substitute for a constituent? | Identified Methods, composition, admitted alternatives and receiving conditions. | A chapter, task assignment or team is not thereby a Method part. |
+| What changes and which result can be used elsewhere? | The governed subject, transformation conditions and qualified connections among the supplied flow accounts. | A drawn arrow does not establish an actual transformation, handover or permission. |
+| What work must occur, repeat or overlap? | Intended Work and later actual occurrences, their results, timing and relevant constituent work. | Method order does not determine every work schedule; a plan is not performed Work. |
+| Who or what can perform it under these conditions? | Capability holders, relevant evidence, tools, supports and provider contributions. | A role title, tool installation or successful heavily assisted attempt does not supply the claimed capability. |
+| Which organizational relations make the contribution obtainable? | Parts of actual Systems where established; assignments, interfaces, access, obligations and decision authority. | Working for the same employer is not the same as sharing a Method or having compatible authority. |
+| Which resources and costs interact? | Qualified time, shared means, money, attention, information access and the periods in which they are needed. | A total budget or aggregate headcount does not establish simultaneous availability. |
+| How does the practice continue among carriers? | Participation, learning, example, recognition, transmission, variation, selection, rejection and loss. | Deliberate intervention does not control or prove every cultural process. |
+
+An individual can hold several compatible assignments. Several Systems can jointly obtain a result. A specialist can serve several organizational units. A Method can be used by several independent performers. Keep these actual relations visible rather than forcing one exclusive-parent tree.
+
+For each important connection, make the local claim explicit: this available or proposed holder can supply this contribution, using these means, in this window, under this permission, and the named receiver can use it under these conditions. Keep obtaining, proposed, contradicted and unresolved relation claims distinct. State the evidence, including whether it comes from observation or a qualified provider, and the receiving use it supports. A table is useful when it makes this comparison easier; it is not a substitute for the explanation.
+
+An actual transformation claim needs the subject, boundaries, before/during/after basis and continuity conditions required by A.3.4. An actual Work claim needs its real performer and occurrence. The current synthesis can remain a useful possible-future arrangement without pretending to supply either.
+
+Retain description relations as well. A WorkPlan's intended dates, a reusable MethodDescription and a case account can concern connected but different subjects. Record the needed schema correspondences, version relations and losses rather than treating their similar layout as identity.
+
+At a revealing moment, explain what larger work, if any, is being performed through the selected action and how that whole constrains it. The same action can perform constituent Work while evaluation or adaptation is under way; separate product or support Work can merely overlap it. Use B.1.5.EW when this relation is unclear. Keep genuine first–then guards alongside simultaneous contribution. Section :5.2 shows why an answer-bearing prompt can be appropriate for supported execution but defeat a test of independent recovery of the rule.
+
+#### ME.6:4.4 - Recover the incumbent and the work hidden by the proposal
+
+Describe the current way at the grain needed for this decision. Use an actual representative occurrence where available; for a new use, begin with a prospective case and recover the existing means on which it would rely. Include competent informal help when it is actually available, and its burden. An empty baseline makes any new service look valuable; an idealized baseline makes needed support look unnecessary.
+
+Follow one consequence into each receiving whole that could reverse the choice. An expert's review can support a learner's progress, product assurance and the expert's own professional practice at once. A proposed use of that hour can therefore change several contributions. It does not create three independently available hours.
+
+Recover demands that the proposal might hide:
+
+- preparation, subject interpretation and development of the means;
+- the performer's own work, learning, recovery and contribution to others;
+- access, intake, coordination, exception response and maintenance;
+- local participation, explanation, disagreement and authorization;
+- continuing production or service during the change.
+
+Ask the people or agents who supply and receive the contributions which condition could make the proposed arrangement fail. Their knowledge can change a candidate without giving every participant identical decision rights. Keep unknown voices and evidence material to the choice visible; do not treat a senior sponsor's description as the whole work.
+
+Locate the actual difficulty. If a result is late, determine whether it waits for a scarce judgement, missing input, permission, incompatible priority or an unnecessary handover. These explanations imply different architecture changes. Do not infer that the person lacks mastery from an unusable result whose cause remains unknown.
+
+For human capability, qualify the actual task and permitted help; use HCD for a needed acquisition or transfer result. For AI, qualify the relevant configuration, tools, data, permissions and evaluation conditions. For an organizational capability, identify how the contributions become obtainable together and remain available beyond one exceptional performer. Individual competence alone supplies none of the missing interfaces or commitments.
+
+#### ME.6:4.5 - Generate whole alternatives by changing an operative relation
+
+Construct alternatives from the recovered difficulty. OCE.3:4.1.1 develops grouping, allocation, information, decisions and support together. OCE.8:4 constructs complete human, AI, internal, external and combined ways for a stable result. STR.6 applies when different result families or a revised remit remain in question.
+
+To generate a materially different candidate, change a premise of the obtaining mechanism:
+
+- When frequent mutual adjustment is limiting, bring the necessary contributors into closer work, or change the result/interface so that less adjustment is needed.
+- When scarce subject expertise is limiting, retain a specialist contribution and improve its access, timing or reuse; alternatively develop another holder or obtain a qualified provider result.
+- When distant decisions lack local information, move information to the decider, delegate a bounded decision to where the information exists, or change the work so the joint decision is no longer needed.
+- When repeated support work is limiting, compare a common means or service with local provision. Retain the subject-specific contribution that the common means cannot supply.
+- When a learning demand consumes essential current capacity, compare a staged acquisition, different provider, changed participation or narrower current commitment.
+- When no holder can perform the Method adequately, construct a capability-development or research contribution; do not merely allocate the same unsupported work more widely.
+
+Complete the changed candidate through its receiving result. Moving judgement locally may require training, data access, an exception boundary and agreement on consequences. A shared tool may require maintenance and a qualified operator. An external service may require a different interface, lawful information access, available response and a usable exit. These are parts of the candidate's burden, not free remedies added after selection.
+
+Compare the whole **without a new office** whenever existing workplaces and support can plausibly provide the result. Describe how self-development, help to others, specialist work, maintaining common means and resolving conflicts would be performed within that arrangement. “Everyone is responsible” leaves the obtaining connections unresolved. A named department is not necessary when those connections are supplied elsewhere.
+
+Similarly construct **AI-based arrangements as whole alternatives**. Qualified agents may notice, formulate, choose within delegated authority, teach, coordinate and execute. An arrangement can combine personal agents with common tools and externally maintained subject services without recreating a human office in software. Give it actual access, authority, support, evaluation and recovery conditions. Preserve a human's own performance only where that is part of the result or a justified constraint.
+
+A common carrier can be responsible for making help obtainable while independent providers perform it. Complete that candidate with how a question reaches a qualified provider, how the receiver recognizes a usable response, who handles refusal or failure, and what keeps access available. A portal with an unfilled request queue supplies only a portal.
+
+When an architecture comparison is warranted, compare at least two serious syntheses whose proposed direct relations differ.
+
+Treat central, local, specialized, federated and external descriptions as properties of the resulting candidates. They are not a catalogue from which the Method starts. One candidate can centralize common tools, distribute performance and retain an external specialist at the same time.
+
+Keep the adequate incumbent and its smallest useful repair in the comparison. Generate further alternatives only while a new mechanism or failure mode can change the choice. Do not manufacture token rivals to a sufficient direct answer.
+
+#### ME.6:4.6 - Expose contradictions across structures, participants and scales
+
+Use *contradiction* here for demands that cannot jointly be met under the proposed conditions, or for claims about the same contribution that cannot jointly hold. A difference in preferences is not automatically such a contradiction. It becomes decision-relevant when a required contribution, legitimate interest, protected condition or resource is affected.
+
+For each claimed gain, perform three connected inquiries.
+
+**Follow the changed contribution outward.** What receives it, what else uses its performer or means, and what later action depends on it? Preserve the relations instead of assuming every receiver belongs to one management hierarchy. A change can cross a personal task, a team, an enterprise, a professional community and a supplier without making them nested parts.
+
+**Ask what was moved.** Did a shorter expert response move interpretation to an unqualified learner? Did local autonomy move risk or integration work to another unit? Did a cheaper office consume unpaid community work? Did a more demanding method improve an individual result while preventing sufficient throughput for the whole service? Keep the affected result and bearer identifiable. A gain reported at one scale does not cancel a loss at another.
+
+**Challenge the combined mechanism.** Hold the stated conditions fixed and ask whether the candidate can obtain all its promised results. Follow a consequential case, including a plausible exception. If a needed contribution is removed, what exactly fails? If local results are obtained, what makes their combination sufficient for the receiving result? Use STR.8:4.2a for an unexplained combination rather than inferring sufficiency from a list of necessary parts.
+
+Then construct a repair that changes the proposed obtaining relation, not just the wording. Keep a causal hypothesis distinct from a qualified causal conclusion; C.28 governs any causal reliance used in the decision. Possible repairs include altering timing, distributing a decision, adding or replacing a qualified contribution, changing an interface, reserving shared capacity, separating conflicting roles, reducing simultaneous commitments, or revising the remit with its owner. Follow the repair through the same receiving wholes. An extra approval can reduce one error while adding a delay that defeats the useful result.
+
+For example, a local manager is asked to meet a production deadline and release the only qualified worker for the same two-hour development episode. Both commitments may be individually reasonable; together they are unavailable. Naming a development office does not create another qualified worker. The comparison must change a deadline, supply another qualified performer, alter the episode or defer a commitment. Who may authorize each change matters.
+
+Also compare time horizons. Training a second mentor may reduce present help while removing a recurring future bottleneck. Include both periods under the same scenario. Do not count the new mentor's future capacity before qualification or count the training hours as available client support. Conversely, do not reject the investment merely because a one-week comparison excludes its intended return.
+
+C.32.MWA:4.1(7) supplies the moved-burden question. C.11.CRC:4 supplies the finite configuration, horizons, result and resource coordinates, interactions and future-option effects. Use qualitative explanation where it settles the choice. A multi-scale picture is useful only when it makes a decision-changing relation clearer.
+
+#### ME.6:4.7 - Construct the jointly feasible workload and commitments
+
+Turn the serious candidates into possible performance at the scale of the present decision. Begin with the promised result count or range, quality and response conditions. Recover the input demand each Method places on each qualified holder and means.
+
+For a small case, place the required work in actual windows and compare it with available capacity. Ask:
+
+1. Which contribution can be shared once, and which must recur for each participant or case?
+2. Which demands can be combined in one real episode, and which compete for the same performer, device or information access?
+3. Which result must exist before another action begins, and when can the receiver use it?
+4. Which qualification or authority prevents apparently spare capacity from substituting?
+5. What current contribution or later option is displaced by the proposed schedule?
+
+Count common preparation once at the declared scale. Count recurring performance and support wherever they occur. If one group episode obtains several results, credit them only where each required participant contribution and receiving condition is preserved. Neither multiplying shared preparation by every user nor assuming all group learning is free gives a truthful account.
+
+A necessary capacity inequality can expose failure cheaply: total demand for one qualified resource in a window cannot exceed its available capacity. It does not establish an executable schedule. Precedence, simultaneous work, locality, recovery and incompatible access can still defeat the candidate. Use the appropriate operating or scheduling Method when those conditions matter.
+
+For an overload, construct the actual alternatives: reduce starts, stagger work within a still-useful window, obtain another qualified supplier, combine genuinely compatible performance, change the Method or change the promised result. Recalculate the affected recipients and periods. A transfer to another team is unavailable if that team already spends the same capacity elsewhere.
+
+Make the required commitment precise enough for its owner to judge. Name what is to be supplied, when and under what acceptance and failure conditions, which resources would be reserved, and which decisions would be delegated or retained. For an already available arrangement, recover the actual commitments rather than requesting them again. A budget owner, subject assessor, line manager, community participant and service provider can hold different rights. An attractive design is not their agreement.
+
+If the candidate needs changed authority or a new agreement, include the obtainable route and delay in its transition. A future arrangement can be compared on explicit conditional premises before those relations exist. Its dependent enactment cannot begin until the conditions are effective. If a participant may refuse and no contribution is secured, keep that dependency conditional or select a surviving arrangement. Willingness to discuss the proposal is not provision.
+
+#### ME.6:4.8 - Compare complete changes at proportionate effort
+
+Use one current baseline, declared horizons and decision-changing scenarios. Compare each candidate's result and resource consequences, including the transition from the incumbent. C.11.CRC supplies the comparison; C.11 supplies the authorized choice.
+
+First distinguish an unavailable arrangement from a costly but possible one. Then retain the coordinates that could reverse the choice. These can include useful results, capability retention, delay, participant effort, qualified scarce time, money, continuity, autonomy, dependence, error exposure and future flexibility. Compare contributions to their actual receivers. A lower supplier cost that makes client performance impossible is not a cheaper equivalent service.
+
+Do not add unlike ordinal scores to manufacture a winner. A candidate can be worse for one participant or horizon and still be selected through an explicit legitimate trade-off. Protected conditions retain their force. If the options promise materially different results, return to the strategic choice rather than silently treating them as equivalent staffing alternatives.
+
+Challenge the sensitive premise. If common provision appears cheaper only when demand exceeds a certain level, compare lower demand. If local provision works only with a qualified leader, compare their absence. If AI eliminates a bottleneck only with unavailable data or authority, preserve that conditionality. Use the changed condition to revise or reject the candidate, not merely to add a warning.
+
+Separate an ordinary operational check, specialist advice or monitoring, and an independent conclusion required by the receiving decision. Do not add the last contribution merely because another view might be interesting. When it is required, its obtaining conditions belong in the alternatives and their whole cost. Competence and spare time do not establish independence, access or a usable reporting route.
+
+For example, a common service is qualified to support the practice, but its designer also promises an independent conclusion about that service while controlling the evidence released and permission to report a failure. The supported work may remain feasible while that promised conclusion is unavailable. Compare an existing sufficient engagement, an obtainable qualified arrangement with suitable safeguards, or a narrower reliance permitted by the decision's obligations. Outsourcing the report or naming another colleague does not by itself supply those conditions. Section :4.9 gives the corporate case its direct supplier.
+
+Apply C.11.DUA before commissioning more inquiry. Name a plausible answer that would change the arrangement or permitted reliance; compare obtaining it with a smaller reversible start, a narrower promise, existing evidence, delay or stopping. Include the recipient's interruption and transition costs as well as the architect's analysis. A binding assurance obligation remains binding until legitimately changed, but an optional attractive proposal does not entitle its author to an unlimited validation programme.
+
+The decision can select a complete available arrangement, authorize a discriminating bounded attempt, retain alternatives pending one exact supplier result, revise the remit or stop. A comparison is not a decision by format. Preserve the chosen trade-off and the material return condition in the ordinary result needed by the participants.
+
+Keep the decision within its evidence and authority. A non-causal capacity comparison can warrant a bounded trial while an effectiveness claim remains unsupported. Consume a causal-use result only within its verdict boundary. A selected proposal establishes no obtaining ArchitectureRelation, and a possible-future assignment supplies no actual performer occurrence.
+
+Implementation and trial are separate Work choices. Retaining an adequate incumbent, or keeping a proposal available under stated conditions, can finish the comparison. Select additional Work through C.11.DUA only when its obtainable contribution warrants its full burden and the needed access, allocation, authority and window can be supplied. Carry observations that could support or defeat the proposed relations, protected conditions, stop and recovery into that choice. After enactment has begun, recovery preserves performed history; it is not a return to an earlier alternative as though the intervening Work never occurred. Section :5.3 makes that difference explicit.
+
+#### ME.6:4.9 - Give the selected realization its exact contribution and conditions
+
+The architecture result explains what would need to hold and why the arrangement was selected. It can finish the current work without a new implementation or trial. When further realization is selected, give its practitioner a complete receiving contribution and the conditions that remain to obtain. An organization chart or a request to "implement the architecture" does not carry that requirement.
+
+Begin with the useful result and its receiver. Explain which Methods and local actions must contribute, what each receives and returns, the important exception path, permitted variations, ordinary support, protected continuing work, and the decision and authority for the attempt. Include the decisive rejected alternative, accepted trade-off and condition for reconsideration. Keep current evidence beside unestablished relations so the receiving practitioner can reuse what is sufficient.
+
+Participants must be able to understand and challenge the proposal before their contribution is assumed. A provider can reveal an unavailable window; a recipient can expose an unusable intermediate result; a practitioner can show that a suggested action changes the Method's criterion. Return the challenge to the affected comparison. Explanation, discussion, negotiation, facilitation and leadership use their own sufficient Methods where needed. ME.6 supplies the arrangement and unresolved question; it does not make all those practices architecture steps. Voluntary participation needs real agreement. An employer's allocation authority has a scope and does not create missing competence or make a subject claim true.
+
+Select the receiving Method from the result still missing.
+
+**For an organization that must supply a joined contribution, use OCE.9:4.1–4.6.** Give it the selected design or duly authorized bounded attempt, receiving use, participants and configuration, acceptance basis, ordinary and exception paths, support and service consequences. Its first comparison can find that an existing implementation or introduction already supplies the required capability; then use that result without another exercise. Otherwise OCE.9 traces crossings with participants, obtains missing conditions through their owners, exercises the complete contribution, repairs the defeated crossing and returns a bounded capability result. ME.6 explains which joint capability is needed; OCE.9 supplies realization, including a truthful unresolved return. An isolated tool or learning question without an organization-change difficulty uses its direct professional Method.
+
+**For an account or tool that performers cannot use, use ME.10.** Give it the intended user, task, input, point of failure, required operation and support condition. Request material or tool use that lets the performer recognize the situation, choose a branch, obtain the input, perform the operation, interpret the result and return a failure. A short local instruction can suffice when it preserves the condition that changes the action and gives access to fuller explanation when needed. ME.10's result concerns use of the Method account and support; it does not establish mastery or continuing organization capability. A changed criterion or missing subject operation returns to its Method owner rather than being hidden inside instructional editing.
+
+**For help with introducing, using and revising a practice, use [IS.4](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/PRACTICE-IMPLEMENTATION-SUPPORT-PRINCIPLES-FRAMEWORK.md#is4---introduce-a-method-into-practice-and-decide-what-to-keep-or-change) in Practice Implementation Support.** Supply the target Method or candidate account and its status, actual receiving practice, observed difficulty or explicit proposed condition, current introduction/support results, those who can supply and receive help, available means, authority, protected work and intended later use. Keep the target practice distinct from the strategy used to help it become usable. The support practitioner chooses and adapts that strategy to the actual determinant; training is one possible contribution, not the default remedy. Use [IS.4:4.1](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/PRACTICE-IMPLEMENTATION-SUPPORT-PRINCIPLES-FRAMEWORK.md#is441---pattern-use-unfolding) to perform the selected introduction, examine later actual use and non-use, and return `keep`, `revise`, `branch`, `replace` or `stop` for the target or introduction strategy. Use [IS.4:4.5](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/PRACTICE-IMPLEMENTATION-SUPPORT-PRINCIPLES-FRAMEWORK.md#is445---explain-a-changed-result-before-selecting-an-adaptation) when a changed result or proposed adaptation leaves explanations that would change the next action.
+
+**For a corporate decision requiring an independent assurance contribution, use CGOV.10:4.1–4.5.** Supply the subject, question, criteria, period and intended reliance. Reuse an adequate existing result; otherwise obtain the appropriate mandate, qualification, access, capacity, safeguards for conflicts and reporting route. Preserve the provider's actual conclusion and its limits for the governing recipient's action, including a route protected from those whose work is examined. CGOV.10 arranges and receives the corporate contribution; the qualified professional Method governs the examination itself. A non-corporate or profession-specific engagement uses its direct institutional or professional supplier instead of inheriting corporate jurisdiction. This return adds no compulsory audit of every support or learning episode.
+
+These receiving Methods can consume the same competent realization and its results. Compare the available result with the present claim, name the remaining gap and obtain only the additional complete contribution needed to settle it. If human acquisition is missing, give HCD the actual later-work demand, subject criterion and permitted help. If System integration, access, provision or scheduling is missing, use the corresponding engineering, administration, provider or operating Method.
+
+The hand-back to ME.6 must make local enactment and its limits interpretable. Before dependent work, the receiving practitioner obtains effective assignments, permissions, provision and commitments through their owners. A prospective walkthrough can show how a real or sufficiently explicit input would pass through local actions: which operation of the supplied Method each action performs, which condition it preserves and how its result becomes usable next. That walkthrough supports a construction claim, not an assertion that the occurrences happened.
+
+When actual performance is examined, compare the actions with the operative conditions as well as with the obtained result. A good result reached by another way can be valuable without demonstrating enactment of the selected Method. An allowed variation can preserve it; a changed criterion or replacement operation can require another subject judgement, Method identity or replacement decision through A.3.1 and B.1.5.RS. Retain that difference in the returned result without demanding detailed fresh observation at every workstation.
+
+Request the observation that answers the relied-on claim. For a delivered result, establish what the receiver could use. For human mastery, establish the person's contribution under the promised help through HCD's appropriate performance, transfer or retention Method. For organization capability, use the joined contribution and relevant exception under ordinary provision. For AI capability, retain the qualifying configuration, tools, data, access and limits. For cultural continuation, distinguish availability from another carrier taking up, varying and continuing the Method. A successful episode supports the result and capability claim for which its conditions and evidence are sufficient; it does not by itself establish stable cultural transmission.
+
+For continuing development, the first complete contribution can be an inquiry when the subject way is unknown; it returns what changed in the problem or available possibilities. After success, preserve the supplied connection to a further worthwhile question or justified continuation. Do not close that branch merely because the present implementation succeeded. Its performance and cultural continuation remain questions for the corresponding development and cultural Methods.
+
+Require a usable defect return. If the action did not occur, inspect capability, access, priority or permission. If it occurred but failed locally, inspect its Method and conditions. Adequate local results with a failed receiving whole return to their connection and combination. A result sustained only by unpromised expert rescue requires obtaining that support as part of the arrangement or repairing the intended independence. Retain useful performed results and their limits while reopening the defeated claim. Compatible current evidence can settle these questions without new trials; stronger causal effectiveness claims need their direct research basis.
+
+#### ME.6:4.10 - Change the arrangement while preserving its valid uses
+
+Reopen the smallest affected connection when its basis changes, then follow the consequences far enough to protect receiving uses. A new Method edition can affect subject criteria, materials, tools, provider qualification and interpretation of earlier results. A provider change can leave the Method unchanged while changing access, support or authority. A shift in demand can invalidate capacity without invalidating competence.
+
+Compare the same serious choices again when they become live. Increased local capability can permit less central execution. Recurring specialty failures can warrant separate expertise. Shared tooling can make previously duplicated work reusable. A qualified autonomous AI can make an office unnecessary or make a maintained common service more valuable. None of these changes imposes a universal direction of organizational evolution.
+
+When a local repair repeatedly moves the difficulty elsewhere, reopen the encompassing arrangement or remit. Several individually useful support services may be jointly unaffordable. A provider's promise may be too broad, a recipient may need a different result, or a typical Method connection may need revision. Return the precise reason to the subject, strategy or network-construction owner and retain independently useful work.
+
+Keep deliberate change separate from distributed cultural change. Participants may ignore, adapt or replace what was introduced. Examine that behavior for its effect on the intended practice and for useful new possibilities. Do not equate disagreement with a capability defect or declare cultural success from formal compliance.
+
+Finish when the current recipient has an explained arrangement they can put into use, a warranted selected attempt, or the exact unresolved contribution that changes the decision. A compact result can state the supplied network and local use, proposed or obtaining performers and relations, the decisive interaction, the chosen commitment and the next observation. Maintain only records that are needed for performance, accountability, later change or justified reliance.
+
+#### ME.6:4.11 - Return the architecture decision
+
+Keep the description proportional to the receiving use. A compact decision can suffice when its reader can recover the contribution and the condition that changes reliance.
 
 | Result position | Required content |
 | --- | --- |
 | decision boundary | Obtaining or possible-future practice, result, situation, configuration, window, authority, and use. |
-| retained subjects | Methods, candidate accounts, local connections, and unchanged status. |
+| retained subjects | Methods, candidate accounts, supplied network, qualified local connections, unchanged statuses and exact missing contributions. |
 | selected structures | Exact structure names, direct relations, truth statuses, correspondences, losses, and evidence. |
 | alternatives | At least two serious syntheses and the named relations by which they differ. |
-| comparison | Simultaneous and first–then conditions, allocation, capacity, provider/access, authority, failure routes, evidence, moved burdens, and causal-use limits as applicable. |
+| comparison | Shared and recurring work, qualification, combined peak and total demand, simultaneous and first–then conditions, allocation, capacity, provider/access, authority, failure routes, evidence, moved burdens, and causal-use limits as applicable. |
 | decision | Selected/rejected synthesis, basis and rule, accepted losses, preserved constraints, and remaining rivals. |
-| continuation, where it changes the use | Conditions for relying on or reconsidering the decision; selected implementation or trial Work with its observations, stop and recovery. |
+| continuation, where it changes the use | Conditions for relying on or reconsidering the decision; selected implementation or trial Work, exact receiving contribution and sufficient supplier, observations, stopped dependent actions and history-preserving recovery. |
 
-#### ME.6:4.3 - What Changes in Practice
-
-Teams stop choosing a Method stack or a preferred diagram. They choose which direct relations should hold for one result, which structures expose the conflict, and who carries the burden. Co-used Methods can remain plural; a proposed architecture can guide a trial without being reported as already real.
+Practitioners choose which direct relations should hold for one result, which structures expose the conflict, and who carries the burden. Co-used Methods can remain plural; a proposed architecture can guide a trial without being reported as already real.
 
 ### ME.6:5 - Archetypal Grounding
+
+The first case shows a cheaper relation-only stop; the next preserves several work grains and a purpose-sensitive trial; the release comparison separates peak demand, total burden, evidence history and recovery. Later cases develop distributed provision, voluntary participation and qualified AI. They illustrate different uses of the same Method, not stages or its domain boundary.
 
 #### ME.6:5.1 - Cheaper Clarification: Several Methods, No Composite
 
@@ -1879,6 +2122,99 @@ The architecture decision remains prospective. Implementation and the three tria
 
 In that pre-entry variant, suppose the existing signed-first arrangement has adequate current capability, capacity and release evidence, and the same comparison reveals no useful gain from provisional-first preparation. The team can finish by retaining A on that basis. Planning an extra B2 trial would consume the safety attention needed for the current release without changing this decision. Changed evidence timing or capacity can reopen the comparison. The baseline case still has a thirteen-day mismatch and supports the three bounded B2 trials under their stated conditions.
 
+The cases are constructed to show the synthesis and a changed condition. Their numerical demands and capability premises are stipulated task data, not empirical estimates for every development practice. The three-team case uses a supplied practice account in ordinary language; it does not claim that a diagram alone establishes an E.18.NET network.
+
+#### ME.6:5.4 - Three teams: development in ordinary work without creating a new office
+
+**The supplied practice.** Three engineering teams have adequate Methods for their current technical work. They want both reliable subject review and a culture of continuing development. A recurring pattern has become visible: a team's deliverable passes its own checks, but the receiver repeatedly performs extra interpretation before using it.
+
+The supplied development practice connects several contributions:
+
+1. A participant examines a completed result and its receiving use, notices a consequential difference, and formulates a question. B.5.PI supports the move from the apparently finished deliverable to the receiver's remaining difficulty.
+2. The participant and a coach construct a bounded next attempt. The coach helps problem formation and choice; the relevant technical expert qualifies the subject condition that makes the attempt interpretable.
+3. The participant performs the agreed attempt in a permitted setting, examines what became possible and what failed, and updates the usable means.
+4. After a successful result, the participant formulates a further worthwhile question or gives a reason to consolidate. C.40.CD supports the new problem arising from the achieved result. The coach examines the participant's contribution without silently supplying the promised independent choice.
+5. Another participant can obtain the relevant Method and its limits through the ordinary shared means. Whether it is taken up and continued remains a separate cultural question.
+
+These connections require different competence and authority. The coach cannot approve an unknown technical inference. The technical expert need not own the person's development choice. A team manager can reserve work time but cannot turn an unsupported experiment into valid subject evidence.
+
+**The receiving demand.** The initial ambition is two bounded attempts per team each week: six total. Each normal attempt requires two hours of the participant's own work, one hour of qualified coaching split between initial formulation and examination of the result, and half an hour of the relevant technical expert's review before the attempt. Common access, scheduling and material maintenance require one hour per week. These are the qualified demands assumed for this comparison.
+
+Each team has four approved participant-hours and one hour of its own technical expert's time. Each local leader has one approved hour and the competence to coach one such attempt. A practitioner who already helps several teams has four approved hours for this use. None of these hours may also be spent on protected current delivery.
+
+**Construct alternatives around the difficulty.**
+
+| Candidate | How the contribution would be obtained | Consequence under the stated weekly conditions |
+| --- | --- | --- |
+| Put all coaching and common work with the shared practitioner. | Six coaching-hours plus one common hour use the same qualified person. Local experts retain technical review. | Seven hours are required; four are available. A new office title does not repair the overload. |
+| Put coaching only with the local leaders. | Each leader handles the team's two attempts. | Each needs two hours and has one. The common access and maintenance work also still needs a performer. |
+| Distribute coaching and retain one shared support contribution. | Each leader coaches one local attempt. The shared practitioner coaches the other three and supplies the one common hour. | Local coaching uses three hours; shared coaching and common work use four. Technical review uses one hour in each team. Participant work uses four hours in each team. The normal demand is jointly within the stipulated capacities. |
+| Obtain coaching externally while retaining subject review locally. | A qualified available provider offers six coaching-hours plus its own preparation. The shared practitioner spends two hours on context/receiving work and one on common means. | The provider's stated first-week price is 800 units against an authorized ceiling of 900. This is a feasible monetary alternative under the assumed service and access terms, not a free substitute. It releases local coaching capacity but adds dependence and recipient–provider coordination. |
+
+The distributed candidate does not require a separate organizational unit. The same people perform contributions through their ordinary workplaces, with explicit reservations and shared means. Putting these same assignments under an office label would not change the calculation. A new unit would earn its cost only through an additional needed relation, such as durable responsibility for access or an effective shared-priority decision. Calling this a federation would add no content unless actual independent services and their coordination require that description. If those relations did require a permanent service owner, that would be a further justified architectural choice.
+
+**Check time as well as totals.** Participants prepare their initial questions on Monday. Each coaching-hour is split into half an hour before the technical review and half an hour after the attempt. Local leaders each supply those two half-hours for one case; the shared practitioner supplies three such pairs. Technical reviews occur before the permitted attempts. The participants' two hours cover initial preparation, the attempt and examination of its result. The common hour supplies access and scheduling before those uses.
+
+The allocation preserves who performs the difficult operations. A coach who writes the participant's next question may obtain a better proposal but would change the mastery observation. A technical review arriving after the attempt cannot qualify its prior conditions retrospectively.
+
+The arithmetic only covers normal bounded cases. At six starts, the shared practitioner and technical experts have no reserve for an overrun. It would be misleading to advertise unconditional six-case throughput from these sums.
+
+**Select a first commitment and begin.** For the first week, the authorized managers choose four starts: one locally coached case in each team and one additional case coached by the shared practitioner. That uses three local coaching-hours, one shared coaching-hour and one common hour. The shared practitioner retains two hours for an exception or an observed defect. Technical review demand is one hour in the team with two cases and half an hour in each other team. Participant demand is four, two and two hours respectively. The six-case ambition remains conditional rather than being silently reported as fulfilled.
+
+For this stipulated first-week decision, no deadline requires all six starts. Four complete attempts include every team and are sufficient for the managers' present receiving question. They judge that the two additional starts and released local coaching-hours offered by the external arrangement do not justify its 800-unit price and additional context work. They accept the three reserved leader-hours and slower initial coverage in order to retain the money for other work. This is the case's explicit value judgement, not a claim that distributed provision is generally cheaper or better. A time-critical need for six starts, a more valuable competing use of those leader-hours, an improved external offer or inadequate local coaching would reopen that comparison.
+
+The two-hour reserve belongs to the shared coaching and common-support contribution. It supplies neither extra technical-review capacity in the team with two cases nor additional participant time there. If that technical review cannot be obtained before the attempt, stop the dependent attempt and obtain another qualified contribution or revise its timing and commitment; the coach cannot cover the gap merely by having spare hours.
+
+This bounded start is not selected because four is a universal pilot size. It preserves a complete receiving result while leaving capacity to examine the uncertain normal-demand assumption. If reliable observations already established six-case demand without material exceptions, that additional restriction could be unnecessary.
+
+In the first constructed use, a participant finds that the receiving team has to reconstruct why a parameter was chosen. The relevant technical Method can supply that reason, but the original handover omitted it. The participant changes the handover and tests it with the actual receiver. After successful use, the next question concerns whether the same explanation works when the receiving team uses a different model. That question is not answered by celebrating the first improvement. Its subject relation may require further construction before another attempt is authorized.
+
+The observation can support the performed local result and the participant's demonstrated contribution. It does not by itself establish stable culture across all teams. The shared means make the qualified Method and limitation available to another participant; a later use can examine whether the practice continues without the original coach supplying its decisive choices.
+
+**Change a condition.** Suppose the shared practitioner becomes unavailable for two weeks. The distributed six-case candidate loses a real contribution. Local leaders can still coach three attempts, but common maintenance and the remaining coaching are unprovided. The available external offer can preserve more work if its required receiving/context contribution is assigned and available. Alternatively, the managers can accept a smaller temporary result and supply the common work through another qualified holder. The earlier choice does not survive merely because its organization chart is unchanged.
+
+If the local leaders instead acquire two available coaching-hours each and the common work is already supplied by an existing operations arrangement, six normal attempts may be obtained without the shared practitioner's coaching. That changed competence-and-capacity basis, not a universal preference for decentralization, justifies reducing shared execution.
+
+#### ME.6:5.5 - A voluntary provider community: common access without ownership of every mastery
+
+**The supplied network and the boundary.** A professional association helps independent engineers–managers develop their practice. Its account connects personal development, peer examination, creation of reusable methods, delivery of help and cultural continuation among members. Its provider work is distinct from the members' client work. Members are not employees of the association, and their clients have not delegated authority to it.
+
+One member wants to improve decisions in a familiar project setting. Another encounters an unresolved technical relation in a new professional field. A third has successfully changed a practice and wants to explore the next attainable challenge. These are legitimate entry situations for the selected development practice; they are not three instances of the same course.
+
+The association's coordinator can establish contact and obtain a qualified provider, but cannot certify every technical proposal. Examine these three proposals, retaining the missing contributions that can change the decision.
+
+A universal internal expert team would need subject competence and maintained evidence across all requested fields. Those contributions are presently absent and have a substantial carrying cost. A common portal alone would be cheaper, but would leave questions unresolved after intake. A bounded common access function can instead obtain development facilitation from one provider, technical contributions from selected specialists, and research from another where a qualified Method is missing.
+
+The third arrangement is not complete until a request can reach an available contributor and return in a usable form. For the familiar case, the actual subject Method is supplied, the member retains responsibility for their own project choices, and a coach helps them formulate and examine the next change. The client's permission for an intervention must still be obtained where required. An association membership does not supply that permission.
+
+For the unresolved technical relation, the available specialist explains precisely what is not known and proposes an inquiry that could discriminate between two constructions. The association can offer that bounded research contribution if it is strategically included and resourced. It cannot advertise acquisition of a settled mastery before the subject Method exists. If it elects not to enter that field, it can provide an honest referral or decline the unsupported offer. The member's legitimate need and the association's strategic remit remain different questions.
+
+**Follow the moved burden.** The proposed shared service initially assumes that members will donate unlimited specialist review. Looking from the common provider's scale, the arrangement is inexpensive. Looking from each member's client commitments, the same work displaces paid delivery. No enforceable or voluntary contribution has been obtained.
+
+Repair the arrangement with actual bounded commitments: for example, a willing specialist accepts one named contribution within an agreed window, with the permitted source material and an explicit refusal or failure return. The coordinator can use that contribution under its limits, not promise the specialist's continuing unlimited availability. If the provider cannot sustain the receiving work and compensation or reciprocity, narrow the offer rather than treating participation as a moral debt.
+
+For the successful third member, the next development question is constructed from what the successful change made possible. The member may use peers or AI, but the provider must not covertly decide every next challenge if independent self-development is promised. If the member chooses ongoing expert-led development instead, state that different assistance condition openly.
+
+**Change a condition.** A member asks the association to require the same practice in all member firms. The current voluntary network provides no such authority. The provider can explain the proposal, seek agreements and arrange supported trials. A participating firm can then establish its own local assignments and resources. The association cannot skip those local architecture decisions by declaring a common culture.
+
+This changed condition distinguishes cultural availability from corporate enforcement. It also shows why one shared Method and common access do not make all receiving organizations parts of one provider.
+
+#### ME.6:5.6 - Capable AI changes the whole arrangement, not just the coach's speed
+
+Return to the three-team case in :5.4, but change the available means. Stipulate that appropriately configured agents are qualified to help with problem formation, elicit and examine the participant's own judgement, retrieve the approved subject Methods and perform the relevant bounded technical review. They have authorized access to the needed data and can act within specified experiment limits. These are scenario premises to be established before real reliance; cheap tokens alone do not supply them.
+
+The new candidate does not need to route every case through a central human coach. Participants can work with their own authorized agents at the relevant workplace. A maintained common service supplies Method versions, access, evaluation and recovery. A provider may operate that service; it need not be a new internal office. Local managers retain or delegate the actual allocation decisions according to the current authority.
+
+If the human mastery promise is unchanged, the human still has to perform the contribution to be learned. The agent elicits that judgement before supplying answer-bearing help and examines later use under the promised support conditions. It can provide coaching and technical review without requiring a human to repeat each operation solely because the former arrangement used one. The participants' two hours per case remain in the capacity account; cheap AI has not made their practice free.
+
+A materially different candidate gives the agents responsibility for recognizing opportunities, constructing and selecting bounded changes, conducting authorized work and returning results and exceptions. If the recipient needs an organizational development result rather than every employee's independent mastery, this can be a serious arrangement. It changes the human-learning promise and must be compared at that revised strategic result, not credited with human mastery the people did not acquire.
+
+The central-office option can still be better when subject evaluation, confidential information or expensive shared infrastructure must be maintained once for many receivers. Conversely, trustworthy local agents with available common means can eliminate the original coaching bottleneck and its associated coordination. Compare those complete arrangements; neither “keep people in control” nor “replace the office with agents” supplies the configuration.
+
+**Change a condition.** The agents can generate plausible questions but cannot use the decisive field measurements, and those measurements require a scarce physical facility. The bottleneck moves into access and experiment performance. More autonomous reasoning does not increase facility capacity. Recalculate which attempts can be performed, obtain the required access or choose a different question. The AI-rich arrangement remains useful for some work without supporting the original throughput claim.
+
+If an agent proposes to change the very Method or evaluation means on which its qualification depends, separate that development work from ordinary enactment. Obtain the relevant subject and assurance result before extending the permitted use. The common service's role may change from case-by-case help to maintaining qualified means, while the actual authority and receiving conditions remain explicit.
+
 ### ME.6:6 - Bias-Annotation
 
 | Recurring bias | Likely drift | Repair |
@@ -1889,18 +2225,38 @@ In that pre-entry variant, suppose the existing signed-first arrangement has ade
 | local-efficiency bias | Reduced effort in one role hides burden moved to another role or interval. | Show combined peak and total burdens with receiving scopes. |
 | trial-as-reality bias | A selected possible-future synthesis is reported as obtaining practice. | Keep decision, implementation Work, trial Work, observations, and relation truth distinct. |
 
+This Method starts from an intended contribution and can therefore underrepresent people who bear costs without being named as recipients. Recover affected participants when their workload, autonomy, exposure or legitimate interests can change the design. A sponsor's preferred culture is not the whole account of those consequences.
+
+Existing organizational boundaries bias generation toward moving tasks inside the current chart. Existing framework or professional labels can create the opposite bias: every useful distinction becomes a separate permanent specialty. Test actual contribution and interaction before selecting either boundary.
+
+Common-service advocates can count saved duplication while overlooking local interpretation and integration. Local-autonomy advocates can count responsiveness while overlooking common maintenance, incompatible decisions and loss of specialist depth. Apply the same whole-cost comparison to both.
+
+An AI-rich candidate can appear superior by assuming perfect competence, free access or unchanged human learning. A human-centered candidate can appear necessary by retaining reviews whose contribution is no longer established. Qualify actual capability and permissions, preserve the intended holder's result, and compare the best applicable alternatives.
+
+A successful example can hide a narrow assumption: ready-made Methods, an employer's authority, qualified local leaders or stable demand. The Solution allows those conditions to vary and returns the resulting missing contribution. Renaming the example's organization is not a transfer test.
+
 ### ME.6:7 - Conformance Checklist
 
-- [ ] The result names one obtaining or possible-future practice, receiving result, and decision boundary.
-- [ ] Every Method and candidate account keeps its prior status.
-- [ ] Every selected structure can change the decision and is named by its actual structure or relation kind.
-- [ ] Architecture alternatives differ in their underlying proposed relations, not merely in viewpoint or representation format.
-- [ ] Method composition, Method unfolding, Work parthood, Work overlap, first–then guards, allocation, support, description, and cultural relations remain separate.
-- [ ] At least two serious alternatives differ in named relations and include the feasible incumbent when applicable.
-- [ ] Combined capacity, covering assignments, permission, authority, provider/access, evidence, failure routes, and moved burdens are visible where material.
-- [ ] Causal-use results are consumed only within their verdict boundary.
-- [ ] A possible-future decision asserts no obtaining ArchitectureRelation.
-- [ ] The comparison may end with the choice supported by the evidence. Any selected implementation or trial Work has a worthwhile obtainable contribution, feasible conditions, observations, stop and recovery; a later-use result carries the reconsideration condition material to reliance.
+Use these questions on the arrangement being constructed; they do not require a separate record for every local action.
+
+**Recognition and construction**
+
+- [ ] The result names an obtaining or possible-future practice, receiving result and decision boundary; a supplied typical network is distinct from proposed local bindings and actual performance.
+- [ ] Each Method and candidate account keeps its prior status. A missing subject Method or join is an exact return, not a role or office label.
+- [ ] A consequential result can be followed through its subject, applicable Method, intended Work, capable performer, means, authority and receiving condition.
+- [ ] Each selected structure can change the decision. Method composition or unfolding, Work parthood, overlap and first–then guards, allocation, support, description and cultural relations retain their meanings.
+- [ ] Serious alternatives differ in direct relations, not view or format; they retain the feasible incumbent and applicable ordinary-workplace, common, specialized, federated, external or AI-based provision without requiring a new office.
+- [ ] The comparison exposes the interaction or moved burden that can reverse the choice, including qualified shared resources, recurring work, windows, continuing obligations and the transition.
+- [ ] Commitments distinguish who can assess, assign, authorize, supply and accept. Agreements or changed authority remain conditional until effective.
+- [ ] A sufficient current arrangement or realization is preserved. Additional implementation or trial has a worthwhile contribution, feasible conditions, observations, stop and recovery.
+- [ ] The realization receives the exact remaining contribution and return condition; it distinguishes a supplied result, Method enactment, supported capability and unpromised rescue.
+- [ ] A change to a Method, means, provider, demand or authority reaches affected receiving uses without erasing valid independent work or performed history.
+
+**Assurance at the claimed scope**
+
+An architecture comparison needs a credible basis for its inputs and explicit proposed conditions. A choice needs the relevant decider and authority. Actual performance needs its real occurrence and result. Capability needs evidence for the named holder under its support conditions. A causal-use result is consumed only within its verdict boundary. A possible-future decision establishes no obtaining ArchitectureRelation.
+
+When continuing development is promised, keep the return from an achieved result to a further worthwhile question or justified continuation. When human mastery is promised, examine the human's contribution. When cultural continuation is claimed, examine transmission and further use at the stated scale. These assurance questions apply to their respective claims, not automatically to every technical support arrangement.
 
 ### ME.6:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -1913,11 +2269,29 @@ In that pre-entry variant, suppose the existing signed-first arrangement has ade
 | “The trial choice proves the architecture.” | Keep proposed relations, decision, trial Work, observations, and later obtaining claims distinct. |
 | “Recovery means switching to the earlier alternative.” | Preserve already-performed Work and define a separate post-entry recovery branch. |
 
+#### ME.6:8.1 - Performance and support arrangements
+
+| Misuse | Why it fails here | Repair |
+| --- | --- | --- |
+| Choose a CoE, office or federation and allocate the remaining boxes to it. | The form can hide missing Methods, incompatible results or unprovided work. | Recover the network's contributions and the operative difficulty; construct alternative relations before choosing the form. |
+| Treat every Method step as one organizational unit. | Method composition and division of work answer different questions. A performer can use several Methods, and one Method can need several performers. | Preserve the separate structures and explain the necessary correspondences. |
+| Treat every performance difficulty as a skill gap. | Missing access, unsuitable inputs, authority or capacity can defeat competent performance. | Localize the missing contribution before commissioning learning. |
+| Make a shared carrier the universal subject expert. | Routing, maintaining access and scheduling do not supply every professional judgement. | Obtain the actual subject contribution and keep its boundary and failure return visible. |
+| Balance hours while ignoring qualification and timing. | Another person's free hour or a late response may be unusable at the needed point. | Compare qualified demand in the relevant windows and repair the actual overload or incompatibility. |
+| Preserve the promise while cutting the hardest branch. | A cheaper result service can be credited with mastery or cultural continuation it no longer supplies. | Change the commitment explicitly or restore the missing contribution. |
+| Treat a successful pilot as stable cultural reproduction. | One instructed performance can depend on exceptional help and reveal no independent continuation. | Qualify the narrow result and obtain the additional observation only when the broader claim is needed. |
+| Scale participation through assumed authority. | Voluntary members, clients and partner firms may not be subject to the proposed assignments. | Obtain the agreement or other legitimate relation, change provision or narrow the scope. |
+| Automate the old office role by role. | New capability may permit a different organization of the whole work; retained coordination can become unnecessary cost. | Reconstruct the complete AI-enabled alternatives and preserve only justified constraints and contributions. |
+
 ### ME.6:9 - Consequences
 
-Architecture choices become precise enough to implement and reconsider without forcing one universal decomposition. Genuine guards survive concurrency, co-use survives without a fictitious composite, and moved burden is visible before local optimization is accepted.
+Architecture choices become concrete enough to realize and reconsider without forcing one universal decomposition. Genuine guards survive concurrency, co-use survives without a fictitious composite, and moved burden is visible before local optimization is accepted. Missing subject Methods, learning needs, provider gaps and authority questions become different actionable returns.
 
-The cost is explicit recovery of several structures and their truth statuses. Some attractive alternatives will remain only proposed, and a clean relation-only stop may be more truthful than a new Method whole.
+The comparison can expose an unavailable volume, independence level or remit. A smaller complete commitment can be preferable to a broad service that cannot respond. Office creation becomes one possible arrangement choice. A first use can begin while later contributions remain conditional, provided its own conditions and protected work hold.
+
+The cost is attention, consultation, recovery of relevant structures and sometimes modelling or inquiry. Some attractive alternatives remain only proposed. A relation-only stop can be more useful than an unsupported Method whole, and an adequate incumbent can make another comparison or trial wasteful.
+
+Explicit commitments can also make informal help rigid or costly. Preserve useful discretion and change only what the receiving result needs. An architecture description does not itself produce capability, authority or cultural continuation.
 
 ### ME.6:10 - Rationale
 
@@ -1925,23 +2299,73 @@ Method organization, dated Work, subject arrangement, allocation, descriptions, 
 
 Project, process and case views provide a practical test: when several views concern the same Work, their labels do not create architecture alternatives. The alternatives begin where proposed direct relations differ.
 
+**Begin with the work's subject and Method because allocation must preserve an obtaining way.** A staffing chart can name a performer for an operation nobody knows how to perform. A service catalogue can promise a result without explaining the transformation that obtains it. Recovering the supplied network first exposes this difference. It does not require a complete description of every Method before a simple available contribution is used.
+
+**Connect several structures because each can defeat the others.** A valid Method can have unavailable performers; competent performers can lack a usable interface; a reasonable local schedule can exhaust a shared expert; an authorized decision can still rest on an unsupported subject claim. C.32.MWA and C.30.ASV provide the governing distinction. The support question needs their connections made practical through exact receiving results, candidate assignments and joint demand.
+
+**Generate by changing mechanisms because named forms are underdetermined.** A centralized office can perform cases, provide common tools or only maintain access. Each has different consequences. Conversely, the same operative allocation can exist in a formal office or ordinary roles. Specialization, proximity, decision placement, provider relations and common means are useful design variables only through the contributions they change.
+
+**Allow the remit to change because feasibility can expose the wrong promise.** Strategic purpose constrains the architecture, but an unavailable or disproportionate obtaining arrangement can properly return a different result, audience or horizon to that purpose. STR.6/.8 supply this reciprocal connection. The architecture does not grant itself authority to change the promise; it returns the reason to the relevant choice.
+
+**Keep development and support distinct because their recipients and results differ.** A supplier can improve its capability to help while a client learns nothing. A client can develop through an existing provider without the provider changing. A community can transmit a Method without becoming the employer of its carriers. The network can connect those contributions while their Work, rights and evidence remain independent.
+
+**Use finite comparison and selective detail because the architecture itself consumes resources.** The fullest possible model is not the goal. A contradiction that survives a cheap calculation should be repaired before collecting more data. A consequential uncertainty can justify inquiry when its plausible answer changes the choice. C.11.CRC and C.11.DUA preserve that proportionality.
+
+A direct use of existing organization, service-design or operating Methods is preferable when it already supplies this connected answer. ME.6 is useful where the unresolved question is how supplied Methods can be combined or co-used, including their distributed performance and support, without merging their structures or moving a difficulty out of sight. A bigger office model or a longer document has no advantage by itself.
+
 ### ME.6:11 - SoTA-Echoing
 
-| Source | Retained contribution | Use boundary |
-| --- | --- | --- |
-| Current FPF `C.32.MWA`, `C.30`, `A.22`, and `B.1.5` | Several-structure synthesis, architecture truth, selected structure, and Method composition. | ME.6 supplies the specialist Method-architecture comparison and bounded decision. |
+C.32.MWA, C.30, A.22 and B.1.5 supply several-structure synthesis, architecture truth, selected structures and Method composition. ME.6 applies them to construction and bounded comparison of Method arrangements. OCE.3 and OCE.8 already develop organization mechanisms and complete same-result human, AI, internal and external provision; use a sufficient result directly. OCE.9, ME.10 and the introduction Method described in [IS.4](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/PRACTICE-IMPLEMENTATION-SUPPORT-PRINCIPLES-FRAMEWORK.md#is4---introduce-a-method-into-practice-and-decide-what-to-keep-or-change) provide realization at their respective scopes. Section :4.9 gives them the remaining contribution instead of adding another implementation practice.
 
-Reopen when a representative use exposes another non-isomorphic structure that can reverse the decision, a moved burden remains systematically hidden, or an alternative cannot be realized without changing the selected relation set.
+The practice question is how to make a family of Methods performable through a jointly feasible arrangement while preserving subject competence, recipient results and authority. A useful constructive line combines service/component construction, organization design and context-sensitive support. Its alternatives include selecting a named office model, assuming universal decentralization or reducing every gap to training. The synthesis adopts particular operations from that line; it does not claim a comparative experiment proving one general organizational form.
+
+| Source line | Choice used here, its advantage and its limit |
+| --- | --- |
+| [UK Delivery Model Assessment](https://assets.publishing.service.gov.uk/media/60a387d5e90e07357422eb45/Delivery_model_assessment_guidance_note_May_2021.pdf), especially service components and delivery alternatives | Adapt the component-level provision comparison into §§4.5–4.8. It improves on a whole-office make/buy label. Procurement-specific rules and automatic weighted scoring are not imported; the comparison retains actual authority and distinct consequences. |
+| [Microsoft agent CoE operating models](https://learn.microsoft.com/en-us/agents/center-of-excellence/operating-models) and [Fabric CoE roadmap](https://learn.microsoft.com/en-us/power-bi/guidance/fabric-adoption-roadmap-center-of-excellence) | Adapt their separation of common means, delivery and local expertise. Revisit allocation as capability and controls change. Their IT arrangements are useful candidates, not universal office forms; the local Method and receiving result still govern transfer. |
+| [PMI PMO Value Ring overview](https://pmoga.pmi.org/resources/pmo-value-ring/apps) | Retain recipient value and a revisable mix of services when defining the remit. A service portfolio alone does not supply the transformation network or its execution architecture; §§4.1–4.7 make those additional connections. The public overview is the source used here, not an assumed reading of the entire current guide. |
+| [Implementation Support Practitioner Practice Guide](https://cippro.wpengine.com/wp-content/uploads/2022/10/ISP-Practice-Guide-v1-10.27.22.pdf), co-design, tailoring support, teams and capacity | Adopt adaptable help and linked capacity-building while separating intervention-specific expertise from general support. The source's human-services context does not supply every subject Method. Section 4.2 preserves the unknown-method and research branches rather than converting them into adoption. |
+| [Team Topologies: Key Concepts](https://teamtopologies.com/key-concepts) | Adapt distinct collaboration, facilitating help, persistent specialist provision and common platforms into the interaction choices of §4.5. A fixed team-type taxonomy is unnecessary here; the candidate's actual contribution and interaction burden decide. |
+| [IIA, Three Lines Model: Assurance and Advice to Support Effective Governance](https://www.theiia.org/globalassets/site/resources/statements-of-position/tlm_assurance_advice_support_effective_gov_en.pdf), 2026 | Retain the conditional distinction between management monitoring and independent judgement, including mandate, access, conflicts and a protected receiving route. CGOV.10 supplies the corporate obtaining/receiving Method. The model does not mandate three departments, classify all support as risk management, or establish empirical superiority of an office form. |
+| [FinOps Scopes](https://www.finops.org/framework/scopes/) | Adapt decision-driven boundaries and deliberate treatment of overlap into remit revision. A technology label or broad competency category does not choose the boundary. This is a transferred design move, not evidence about every professional culture. |
+| [MIT CISR, Designing Decision Rights for AI](https://cisr.mit.edu/publication/2026_0601_AIDecisionMatrix_SebastianWeillHaskampVomBrocke), June 2026 | Its distinction among framing, acting and learning makes allocation more precise than “AI assistance.” Adapt that distinction to §§4.5 and 5.6. Interview-informed recommendations for current human accountability are not treated as an invariant allocation for every stronger-AI scenario. |
+| [MIT CISR, Establishing Guardrails on the AI Roller Coaster](https://cisr.mit.edu/publication/2026_0901_AIRollerCoaster_ThorogoodReynoldsGill), September 2026 | Its cases make distributed subject work, common controls and their coordination burden visible. Use those as candidate mechanisms and costs, not proof that a permanent central unit is always necessary. Reopen when capability, risk, access or provider conditions change. |
+
+AI performance and human acquisition need different evidence. The [Cybernetic Teammate primary abstract](https://www.nber.org/papers/w33641) supplies a bounded task-performance result, not whole-organization replacement or durable mastery. [Anthropic's skill-formation study](https://www.anthropic.com/research/AI-assistance-coding-skills) supplies immediate learning observations in one programming setting, not a universal prediction of future human–AI work. These limits motivate the separate promises and conditional capability premises in §5.6.
+
+The source contributions justify candidate operations and useful distinctions. Transfer beyond their original fields depends on the actual Method, holder, result and relations recovered here. Reopen the relevant choice when a developed subject practice supplies a better complete construction, when observed work defeats the claimed connection, or when changed means alter the total contribution.
+
+Reopen when a representative use exposes another non-isomorphic structure that reverses the decision, when moved burden remains hidden, or when an arrangement cannot be realized without changing its selected relation set.
 
 ### ME.6:12 - Relations
 
-- ME.5 supplies individually qualified Methods/accounts and whole-independent local connections; it supplies no whole compatibility result.
-- `A.22`, `C.30`, `C.32.MWA`, and `B.1.5` govern selected structures, architecture truth, several-structure synthesis, and Method composition.
-- `C.11` or the applicable domain decision Method governs the bounded choice; `C.28` governs any causal conclusion consumed.
-- ME.7 resolves one proposed Method whole. A relation-only ME.6 result may stop without entering ME.7.
-- ME.19 may supply a differentiation account and separate causal-use result. ME.6 consumes only the causal reliance allowed by its verdict and keeps its own decision authority.
+Use the following suppliers for their actual result. A reference does not supply an unavailable performer, permission or professional judgement.
 
-ME.6.MC develops the mathematical comparison when an arrangement’s combined consequences are not already clear. It constructs the operations, retained information and shared-resource constraints needed to derive a property or counterexample. ME.25 instead constructs a changed way of working from a mathematical transformation; use it when the comparison returns a design question.
+| Supplier | Contribution consumed by this Method and returned use |
+| --- | --- |
+| ME.5 | Supplies individually qualified Methods/accounts and whole-independent local connections, not whole compatibility. Preserve their statuses. |
+| B.1.5 and ME.7 | Establish Method composition or resolve a proposed whole. Co-use can remain plural; a relation-only clarification can finish without ME.7 or an ME.6 comparison. |
+| C.32.MWA, *Practice Architecture Synthesis from Several Structures*, :4.1–4.4 | Provides truthful actual/prospective entry, separation of structures, comparison of changed arrangements and moved burden. ME.6 supplies the Method-arrangement question, including performance and support, and returns the architecture consequence to the real decider. |
+| C.30.ASV, *Architecture Structural View Adequacy*, :4.5a | Distinguishes composition, result use, order, variation, replacement and separate performance/support structures. Use it when “method architecture” hides the relation being changed. |
+| E.18 and E.18.NET; C.30.TFS-REL:4.4–4.4a | Supply a qualified transformation-flow structure or network and its bounded architecture use. Retain member-local identities and relations; a network is neither the performer nor an automatic containing organization. |
+| A.3.4; A.13 and A.15.1 | Govern actual transformation, performer and Work claims when local enactment is asserted. A prospective configuration can be compared without inventing those actual occurrences. |
+| C.39; B.1.5.EW and B.1.5.RS | Supply missing-way construction and the constituent/encompassing-work or replacement questions. Return the actual missing operation or affected receiving use rather than expanding a task label. |
+| STR.6:4 and STR.8:4 | Construct strategic alternatives and explain contribution, sustaining conditions and joint dependencies. An unavailable local architecture can reopen remit, recipient, horizon or promise through that strategic choice. |
+| OCE.3:4.1.1–4.1.2 and OCE.8:4 | Develop organizational mechanisms and compare complete same-result performance arrangements. The selected constraints return to the relevant organization realization and operating practice; comparison is not enactment. |
+| SYSE.2:4 and SYSE.8:4 | Connect concrete receiving use with a provider concept, including partner contributions, continuing Work and authority. Their engineering result does not prove demand, affordability or supplier commitment. |
+| HCD.28:4; HCD.11–13 where their claims are live | Construct the human learning portion and qualify personal performance, transfer or retention under actual support conditions. These contributions do not substitute for the subject Method or an organization's joined capability. |
+| B.5.PI; C.40.CD; the selected development practice | Supply problem formation before a settled task and new questions after an achieved result. This Method arranges their performance and continuation; it does not reduce development to acquiring a known Method. |
+| C.11.CRC:4, C.11 and C.11.DUA:4 | Supply finite contribution comparison, choice and proportionate inquiry/change. Return one warranted commitment or precise missing condition, not an ungrounded scalar ranking. |
+| CGOV.10:4.1–4.5 | Obtain and receive the independent assurance contribution when a corporate decision needs it. Preserve professional scope, access, conflicts and reporting conditions; do not substitute learning assessment or ordinary monitoring. |
+| The applicable community, cultural, governance, operating and subject Methods | Supply participation, transmission, direct rights, continued service and professional adequacy where needed. Their results retain their own bearers, scope and evidence; an architecture proposal does not create them. |
+
+OCE.9:4.1–4.6 supplies the bounded organization-capability realization, ME.10 usable Method materials and support, and [IS.4](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/PRACTICE-IMPLEMENTATION-SUPPORT-PRINCIPLES-FRAMEWORK.md#is4---introduce-a-method-into-practice-and-decide-what-to-keep-or-change) the complete introduction/use/revision Method. Section :4.9 gives each its exact receiving requirement and reuses sufficient implementation.
+
+C.36 and C.36.RP supply the cultural-practice questions alongside the applicable Community Management Methods for actual community participation. A shared Method can continue among independent carriers without making them one community or organization. Their full Methods and evidence boundaries remain with those suppliers.
+
+ME.19 may supply a differentiation account and separate causal-use result. C.28 governs any causal conclusion consumed. ME.6 consumes only the reliance allowed by the verdict and keeps its own decision authority.
+
+ME.6.MC develops the mathematical comparison when an arrangement's combined consequences are not already clear. It constructs the operations, retained information and shared-resource constraints needed to derive a property or counterexample. ME.25 constructs a changed way of working from a mathematical transformation; use it when the comparison returns a design question.
 
 ### ME.6:End
 
@@ -2477,7 +2901,7 @@ Compare the candidate with the incumbent and any serious alternatives under the 
 
 Separate the derived consequence from its working assumptions. A formula can establish the expected number of operations under a supplied distribution. It cannot by itself establish the distribution, actual preparation time or a performer's capability. Retain only the unresolved conditions that matter to the receiving decision.
 
-Choose further work through C.11.DUA. An existing result may support retaining the incumbent, adopting a bounded change where authorized, or keeping a conditional candidate for later use. When a trial can change the decision enough to warrant its cost, ME.11 and ME.13 supply the appropriate trial and fit judgement. ME.16 handles a selected introduction.
+Choose further work through C.11.DUA. An existing result may support retaining the incumbent, adopting a bounded change where authorized, or keeping a conditional candidate for later use. When a trial can change the decision enough to warrant its cost, ME.11 and ME.13 supply the appropriate trial and fit judgement. IS.4 handles a selected introduction.
 
 ME.15 preserves the candidate and its consequential changes when later comparison needs that lineage. No new record is needed merely to say that no trial was commissioned.
 
@@ -2600,7 +3024,7 @@ The serious alternative is to adapt a familiar method directly or use a redesign
 - **C.29** supplies correspondence between a mathematical account and its subject. **C.29.1** transfers the consequence at the justified scope.
 - **MMP** supplies the needed model construction. In particular, **MMP.8** formulates information-dependent choices and **MMP.18** accounts for shared contributions and dependence.
 - **CMP.12** constructs transformations of computations, and **CMP.14** constructs interactions between them when those are the operations being changed.
-- **ME.11/.13** supply a selected trial and fit judgement; **ME.14** evaluates worth, **ME.15** maintains consequential candidate lineage, and **ME.16** handles introduction.
+- **ME.11/.13** supply a selected trial and fit judgement; **ME.14** evaluates worth, **ME.15** maintains consequential candidate lineage, and **IS.4** handles introduction.
 - **C.11.DUA** chooses worthwhile further inquiry; the existing portfolio and improvement methods retain complementary candidates and their development.
 
 ### ME.25:End
@@ -4111,7 +4535,7 @@ Reopen the pattern when a stronger field method changes which situation dimensio
 - ME.14 consumes fit, failure, applicability, burdens, alternatives, and evidence limits for a separate practical-worth decision.
 - ME.15 owns reusable Method variants, provenance, applicability entries, and retirement. A semantic change returns there; a local Work, support, description, or representation change alone need not create a variant.
 - `A.3.1` governs Method admission, `A.15.1` each Work occurrence, `A.2.2` capability inputs, and `A.10` claim-bound evidence. Cite the direct governor for every System, Agent-performed Work, relation, permission, authority, or result claim relied on.
-- ME.16 may later consume a bounded fit or transfer result when introducing a Method in practice; it does not inherit a causal or worth conclusion.
+- IS.4 may later consume a bounded fit or transfer result when introducing a Method in practice; it does not inherit a causal or worth conclusion.
 
 ### ME.13:End
 
@@ -4354,7 +4778,7 @@ Reopen the pattern when a field comparison adds a decision-changing consequence 
 - A possible ME.8 description, ME.9 Method representation profile-row, ME.10 support, or directly governed lower representation contradiction returns as bounded evidence to ME.12, which identifies and rechecks the maintained correction owner.
 - `A.19.CPM` and `A.19.SelectorMechanism` govern non-trivial comparison and selected-set semantics. `A.2.2` governs capability inputs; `A.10` evidence use; `A.15.1` actual Work; direct governors remain authoritative for Systems, Agent-performed Work, relations, assignments, permissions, authority, access, and results.
 - `XRI-14` can supply only bounded Method-worth evidence to a compatible `SYSE.15` repertoire-account decision. It transfers neither action nor authority and does not join Method Engineering and Systems Engineering products.
-- ME.16 may consume the resulting bounded decision when introducing or revising a Method in practice; later observations can reopen ME.14 without retroactively changing the evidence used here.
+- IS.4 may consume the resulting bounded decision when introducing or revising a Method in practice; later observations can reopen ME.14 without retroactively changing the evidence used here.
 
 ### ME.14:End
 
@@ -4557,273 +4981,9 @@ Reopen the pattern when practitioners cannot distinguish reusable semantic chang
 - `A.3.1` governs Method admission. `A.3.1.MR` can recover a candidate Method from Work evidence under its conditions. `C.2.1` governs episteme and edition identity; `A.10` evidence use; `G.5` registered Method-family candidate sets; A.19 comparison and selected-set semantics.
 - ME.15 records local source, evidence, situation, qualification-window, defeating-evidence, currentness, and retirement claims. Open `G.11` refresh orchestration only for one of its named shipped packs, evidence or selected sets, archives or fronts, publication/currentness objects, dependencies on reused A.6.RCD predicate definitions or derived relation kinds, or another G.11-admitted condition.
 - `A.3.4` governs any separate claim that one continuing carrier, organizational System, selected structure, or other subject actually changed across a bounded occurrence. A semantic difference, derivation account, edition relation, or local Work deviation does not by itself establish a `U.Transformation`.
-- ME.16 consumes a maintained admitted variant or status-preserved candidate entry when attempting a bounded introduction. ME.17 uses either an independently admitted Method Engineering Method with actual enactment or a status-preserved candidate or observed-practice branch without Method or enactment inflation; neither inherits admission or worth from the repertoire.
+- IS.4 consumes a maintained admitted variant or status-preserved candidate entry when attempting a bounded introduction. ME.17 uses either an independently admitted Method Engineering Method with actual enactment or a status-preserved candidate or observed-practice branch without Method or enactment inflation; neither inherits admission or worth from the repertoire.
 
 ### ME.15:End
-
-## ME.16 - Introduce a Method into Practice and Decide What to Keep or Change
-
->
-> **Primary working result:** an introduction account that identifies each changed subject and keeps its kind explicit. It records the introduction strategy and its status, separately identified candidate accounts and descriptions, and any WorkPlan. It distinguishes admitted introduction Work from admitted later Work; both enact only independently admitted Methods. The account names assignment, permission, authority, access, use, enactment, and other direct-relation predicates, participants, and relied-on occurrences. It also contains decision-relevant observation positions, separate target and strategy adaptation records, an optional C.28-governed causal-use result, and one bounded `keep`, `revise`, `branch`, `replace`, or `stop` decision, or a retained set with its limitation.
-
-### ME.16:0 - Use This When
-
-Use this pattern when an admitted Method variant or a status-preserved candidate account is ready for a bounded introduction attempt in a real practice and the team must learn which intended Method-related conditions were actually established after people and Systems worked. Begin by separating the Method-related target and direct-relation claims; the introduction strategy and its status; the descriptions and any WorkPlan used to guide it; performed introduction Work; later Work and observations; and the outside result that motivated the attempt.
-
-For a first pass, write one plain row: what the team tried to establish, what Work it actually performed, what was later observed or failed, which maintained claim that observation affects, and what to do next. Add typed subjects, relation predicates, adaptation detail, or causal apparatus only where the decision relies on them.
-
-The first useful result is an introduction-observation row. It names each changed subject or direct-relation occurrence; the introduction strategy, its status, description, and any separate WorkPlan; the bounded setting and period; authorized introduction Work; later actual Work or failed entry; decision-relevant observations; any target or introduction-strategy adaptation; evidence reach; the particular maintained claim or edition affected; the next receiving action; and residual uncertainty.
-
-Here *introduction* is Plain practice wording for authorized performed Work intended to establish named Method-related conditions in a bounded setting. The Work can be completed even when access, usability, later enactment, fit, or an outside result fails. Actual availability, usability, or change comes only from later observations and, when a continuing subject is claimed to have changed, the required A.3.4 result.
-
-Do not use this pattern to develop capability implicitly. When current capability is adequate and no relevant change is required or asserted, retain its `A.2.2` basis and currentness without demanding development. Omit capability detail that cannot change the decision. Consume a named `E.23.CDI` or domain capability-development result only when capability change is required. If it is missing or stale, name the missing result or governing pattern, the receiving Agent when one is current, and the next development or stop action. Use ME.17 when the primary question is a bounded population-level transmission, recognition, selection, memory, retention, loss, or other cultural claim.
-
-#### ME.16:0.1 - Working Distinctions
-
-| Item | Working meaning here | Boundary |
-| --- | --- | --- |
-| introduction target | One named changed subject or one direct-relation claim: for example an admitted Method selection, a separately identified description episteme, support System, capability bearer and capability result, particular Work occurrence, domain entity, organizational System, selected structure, or assignment, permission, authority, access, use, or enactment predicate with named participants. | A mixed list of nouns does not state which things exist, which claims are maintained, or which relations obtain. |
-| candidate account and description | Claim-bearing content about a proposed Method or local change, with candidate status retained, plus any separately identified description or representation. | A candidate account is not a Method, MethodDescription of the candidate whole, Work, or relation occurrence. |
-| bounded setting | The place, period, practitioner population, Work family, identified organizational System or selected structure when one is relied on, participating Systems, obtaining relations, and protected conditions. | A company, team, or discipline label alone does not identify an organizational System or structure. |
-| introduction Method, candidate account, description, plan, and Work | Retain the proposed way of establishing named conditions as a candidate introduction account until A.3.1 admits its Method. Before admission, keep claim-bearing content as that account or another honestly named description episteme; it is not a `U.MethodDescription`. After admission, use `U.MethodDescription` only when A.3.2 classifies an episteme whose one `EntityOfConcern` is that admitted Method. Keep any WorkPlan and authorized performed Work separate in both branches. Performed Work may enact only independently admitted Methods. | A strategy label, candidate account, description episteme, plan, announcement, publication, training invitation, or available tool establishes neither Method admission nor enactment, performed Work, or success. |
-| later practice Work | Actual Work after the introduction in which an admitted Method is enacted, or in which candidate claims are compared while only independently admitted constituent Methods are enacted. | Availability, attendance, access, or one tool interaction does not establish enactment; a candidate account is never enacted. |
-| capability-development input | An independently governed result naming holder, Work family, baseline, target, intervention, representative transfer Work, evidence, and currentness. | ME.16 can rely on the result; it does not perform or certify capability development. |
-| observation position | One decision-relevant observation about acceptability or rejection, appropriateness or fit, feasibility, enactment or fidelity, burden or cost, reach, sustainment, an outside result, or a named changed subject or relation. | Each position has its own subject, claim, evidence, receiving action, and stop; no favourable result fills the others. |
-| adaptation record | What changed, when, whether planned or reactive, the deciding Agent and named authorization predicate with participants, the affected level, why and under which conditions, and whether the modification changed the Method-related target or the introduction strategy, its recorded status, description, WorkPlan, support, or only a local-use condition. | A modification of the introduction strategy is not a modification of the target Method-related subject; an adaptation does not by itself change the status or kind of any account, description, plan, Method, or Work. |
-| contribution or causal-use claim | A separately governed claim that one change participated in or caused an observed result under named conditions. | Temporal order, participant report, association, or a before/after difference supplies no causal reliance by itself. |
-| revision decision | `keep`, `revise`, `branch`, `replace`, or `stop` for this bounded attempt and the particular maintained claims or editions affected. | It grants no authority for the next change and creates no adoption lifecycle. |
-
-### ME.16:1 - Problem Frame
-
-Method introductions bundle many subjects, descriptions, relation occurrences, and Work. A new procedure or description arrives with capability development, expert assistance, a tool, changed assignments, management attention, templates, review forums, and new Work. Later results are then attributed to “the Method”, while failures are blamed on resistance or capability. Neither conclusion shows what actually changed.
-
-The practical question is more demanding: which named subjects and direct-relation occurrences were intended to change; which accounts and descriptions stated the target proposal; what status the introduction strategy and its description had; which separate WorkPlan coordinated intended Work; what authorized introduction Work and later Work occurred or failed; what was observed at each decision-relevant position; what outside result followed; and whether any contribution or causal reliance has a current C.28 basis.
-
-### ME.16:2 - Problem
-
-A rollout plan can be reported as adoption. Training can be reported as capability. Tool availability can be reported as use. A manager's sponsorship can be reported as permission or authority. Later Work can be merged with the introduction Work, and a favourable domain result can be assigned to the Method without an alternative or contribution basis.
-
-When several positions are compressed into one intervention label, the team cannot revise locally. It either repeats the whole programme or rejects it, even when the defect lies in one description, support relation, capability condition, assignment, permission, authority boundary, or outside-result assumption.
-
-### ME.16:3 - Forces
-
-| Force | Tension |
-| --- | --- |
-| Real practice | Natural Work reveals use and consequences, while many conditions change together. |
-| Intervention clarity | Separate intended changes make learning possible, while programmes prefer one headline. |
-| Capability | New Work may need development, while ME.16 must not smuggle training in as capability. |
-| Authority and participation | Local change needs authorization and actual performers, while sponsorship and attendance are weaker facts. |
-| Time | Later observation is needed, while waiting too long can make sources and alternatives stale. |
-| Contribution | A decision needs a plausible account, while causal isolation is often unavailable. |
-| Revision locality | One defeated claim should reopen one result, while bundled rollout invites whole-programme repair. |
-
-### ME.16:4 - Solution
-
-Build a typed account of the target subjects, accounts and descriptions, the introduction strategy and its status, any separate WorkPlan, actual Work occurrences, and named relied-on relations. Perform the bounded introduction attempt, observe later Work and decision-relevant outcomes separately, distinguish target adaptations from introduction-strategy adaptations, invoke C.28 only for a causal reliance, and return each supported correction, refinement or alternative to the maintained result it affects.
-
-#### ME.16:4.1 - Pattern-Use Unfolding
-
-1. **Name the outside result and bounded decision.** Identify the receiving practice, intended outside result, admitted Method or candidate-account status, setting, period, population, qualification window, and what `keep`, `revise`, `branch`, `replace`, or `stop` will change.
-2. **Build the typed target-and-strategy account.** Name changed target subjects separately: admitted Methods; A.3.2-classified MethodDescriptions or other claim-bearing epistemes; representations; Systems; capability bearers and capability results; particular Work occurrences; domain entities; identified organizational Systems or selected structures. Keep candidate target accounts and descriptions separate.
-
-   If A.3.1 has admitted the introduction Method, name it and identify a `U.MethodDescription` only when A.3.2 classifies an episteme whose one `EntityOfConcern` is that Method. Otherwise retain a candidate introduction account and identify its claim-bearing material as a candidate account, description episteme, or other named episteme with status, claims, and maintained result; do not classify it as `U.MethodDescription`. Identify any WorkPlan separately; neither the plan nor performed Work admits or enacts the candidate.
-
-   For every relied-on assignment, permission, authority, access, use, enactment, or other direct relation, name the predicate, participant meanings, participants, and obtaining basis. Omit unclaimed positions.
-3. **Recover each maintained result and receiving action.** For every target, introduction-strategy object, and observation position, record its maintained result, particular claim or edition, current status, evidence, source and qualification window, observation that would support or defeat it, receiving Agent or governing pattern when one is current, and next maintenance, reconsideration, or stop action.
-4. **Select the capability branch.** Omit capability detail that cannot change the attempt, interpretation, or decision. When the decision does rely on capability, recover the `A.2.2` basis: holder, Work family, envelope, measures, qualification window, evidence, and currentness. If existing capability is adequate and no relevant capability change is required or asserted, retain it as a reliance or observation condition; no development result is needed. A missing capability basis returns that `A.2.2` question, not an automatic development prescription. Only when a capability-change claim is needed, consume a compatible `E.23.CDI` or domain development result naming holder, Work family, baseline, target, intervention, representative transfer Work, evidence, and currentness. If that required result is missing or stale, name the gap and the next governing development decision or stop; ME.16 does not fill it.
-5. **Bound authorization and protected conditions.** Identify the change decision-making Agent, A.13 basis, and the named assignment, permission, or authority predicate with participants and scope that permits each intended change. Name participating Systems, confidentiality and safety stops, and protected conditions. Expertise, sponsorship, project position, ownership, tool control, assignment, permission, and authority are not interchangeable bases.
-6. **Plan decision-relevant observations before intervention.** Select only positions that can change the decision: acceptability or rejection; appropriateness or fit; feasibility; enactment or fidelity; burden or cost; reach; sustainment; changes to named targets or to the introduction strategy; and the outside result. Keep acceptability as a stakeholder observation, formal fit or transfer with ME.13, actual enactment with A.15.1, bounded reach as observed participation, and a population-level continuation question with ME.17. Preserve ME.11 trial, ME.13 fit, and ME.14 worth questions as distinct inputs or later uses. Use §4.5 when selecting these observations requires distinguishing delivery, mechanism, adaptation and context explanations.
-7. **Plan separate target and introduction-strategy adaptation records.** First classify every planned or observed modification as a change to the Method-related target or a change to the way it is introduced. Record what changed, when, planned or reactive status, deciding Agent and named authorization predicate, affected level, reason and conditions.
-
-   For a target change, name the affected Method semantics, description, support, capability input, fit claim, cultural question, or local-use condition. For an introduction-strategy change, name the admitted introduction Method or candidate introduction account, its admissibly classified description episteme, and any separate WorkPlan claim.
-
-   Return each modification to its own maintained result or local stop: ME.15 for admitted Method semantics or candidate lineage; ME.8 for a MethodDescription correction or improved candidate-account content, retaining the applicable subject and status; another named episteme or a local ME.16 stop for other content; ME.10 for support; A.15.2 for a WorkPlan; ME.13 for fit; or ME.17 for a population cultural question.
-8. **Perform and admit introduction Work.** Recover actual performers and A.13 bases, the independently admitted Method enacted by the introduction Work, action history, temporal extent, containing System, named changed subjects, used Systems, and relied-on relation occurrences. Record the result as an attempt intended to establish named conditions. A completed failed attempt remains Work even if access, usability, or later enactment did not result. A candidate introduction Method is not enacted; name only the admitted constituent Methods actually followed.
-9. **Observe later actual Work, failed entry, and non-use.** Admit later Work independently. Record which admitted Method was enacted, or preserve candidate status and name only separately admitted constituent Methods. Also record failed entry, rejection, non-use, workaround, adaptation, support demand, and burden when observed; absence of a record is not automatically non-use.
-10. **Compare every selected position.** For each target, introduction-strategy object, and decision-relevant observation, state supported change, no change, uncertainty, inapplicability, or missing evidence. State the particular maintained claim or edition and next action. If a continuing subject is claimed to have changed, use A.3.4; a before/after table or performed Work alone does not establish that transformation.
-11. **Use C.28 for causal reliance.** Return observations or association at their supported strength, with the limit needed by the receiving decision. When that decision relies on a causal or contribution claim, use current C.28 for the bounded causal-use question, supported use, unsupported stronger use, population and conditions, validity threat and reopen trigger. Name a contribution relation or compound claim only with its predicate, participants, applicability, and obtaining basis. C.28 settles causal support; ME.16 still makes the bounded revision decision.
-12. **Decide and return observations.** Return `keep`, `revise`, `branch`, `replace`, `stop`, or a retained set with its limitation and any supported present course. Select a further observation or probe through C.11.DUA only when its obtainable result could change the decision enough to warrant its full burden and the needed window, access and authority are available. Use ME.8 when the observation requires correcting a MethodDescription or candidate Method account. Its candidate branch returns improved content with unresolved identification conditions retained. Other description content returns to its own episteme or a local stop. Send other observations to ME.15, ME.10, A.15.2, ME.13, ME.17, a named capability-development result, another admissible maintained result, or a receiving Agent only when the particular claim or edition and next action are stated; otherwise keep the observation as a local decision or stop.
-13. **State non-use and refresh.** The result establishes neither organization-wide adoption, cultural selection or retention, general effectiveness, causal superiority, nor authorization for another setting. Reopen when the setting, population, target, introduction-strategy or description status, separate WorkPlan, capability and support conditions, named authorization basis, alternative, outside result, evidence window, or maintained claim changes.
-
-#### ME.16:4.2 - Record the Result
-
-| Result position | Required content |
-| --- | --- |
-| introduction use | Receiving practice, outside result, target admitted-Method or candidate-account status, setting, population, period, qualification window, decision, and stop. |
-| changed subjects | Named admitted Method, claim-bearing episteme, representation, System, capability bearer and result, Work occurrence, domain entity, organizational System, or selected structure actually claimed. |
-| candidate accounts and descriptions | Candidate status, proposed claims, separately identified descriptions and representations, and missing admission basis. |
-| relied-on relations | Named predicate, participant meanings, participants, applicability, obtaining basis, interval when material, and unsupported overread for every assignment, permission, authority, access, use, enactment, or other relied-on relation. |
-| maintained results and receiving actions | Maintained result, particular claim or edition, status, evidence, source and window, supporting or defeating observation, receiving Agent or governing pattern when current, and next action or stop. |
-| capability branch | Omit when decision-irrelevant. Otherwise retain the current A.2.2 basis for adequate existing capability without a development requirement, or return the missing capability basis. When a capability-change claim is needed, consume the compatible development result with holder, Work family, baseline, target, intervention, transfer Work, evidence and currentness; if required but missing or stale, name that development gap and next governing decision or stop. |
-| introduction strategy | Admitted introduction Method or status-preserved candidate introduction account; its maintained result; a candidate description episteme before admission, or a `U.MethodDescription` only after A.3.1 admission and A.3.2 classification; any separately governed WorkPlan; intended conditions, version and window, evidence, and strategy modification kept separate from target modification. |
-| introduction and later Work | Separately admitted actual Work, performers, enacted admitted Methods, history, extent, containing Systems, changed subjects, relation occurrences, results, failed entry, non-use, and gaps. |
-| decision-relevant observations | Selected acceptability/rejection, appropriateness/fit, feasibility, enactment/fidelity, burden/cost, reach, sustainment, target-change, and outside-result positions, each with its own subject, claim, evidence, disposition, and next action. |
-| adaptation | Target or introduction-strategy classification; what changed and which target, strategy, description, or separate WorkPlan it changed; the recorded kind and status of each affected item; when; planned/reactive status; deciding Agent and named authorization predicate; affected level; reason and conditions; maintained result; and receiving action or stop. |
-| causal reliance, when needed | C.28 question and result, supported use, unsupported stronger use, conditions, validity threat, residual uncertainty and reopen trigger. Observation or association limits stay in the substantive result where they matter to its use. |
-| return | `keep`, `revise`, `branch`, `replace`, `stop`, or retained set; particular maintained claim or edition affected; local decision, named receiver, or stop; any selected next observation; bounded non-use and reopen condition. |
-
-#### ME.16:4.3 - What Changes in Practice
-
-Teams stop reporting that a Method was “rolled out” and start distinguishing the Method-related target, the introduction strategy and its status, its description, any separate WorkPlan, performed introduction Work, later Work, named relied-on relations, and separate observations. An introduction attempt can be completed without establishing the intended conditions. A favourable outside result can remain useful without filling every observation position or becoming causal proof.
-
-Revision becomes local. A stale target description, unsuitable target variant, failed support relation, missing capability result, weak introduction strategy, stale strategy description, unworkable WorkPlan, or local-use adaptation can be reconsidered through its own maintained claim or edition without repeating or rejecting the entire programme.
-
-#### ME.16:4.4 - Minimal Constructed Introduction Replay
-
-`Calibration-Team-B` wants to reduce mixed-unit release escapes. It selects admitted target Method `M-Unit-Review-1` from ME.15 for a D30–D60 bounded attempt; candidate target `C-M-Unit-Review-Approx-1` remains outside. The changed target subjects are MethodDescription edition 4, its repaired representation, verified conversion-table System `ConversionTable-B`, and the assigned pre-release review Work. Separate claim-bearing results state the intended local selection and support conditions. No new organizational System or selected structure is inferred from the team label.
-
-The introduction strategy is separately admitted Method `M-Introduce-Unit-Review-1`: configure the description and representation, establish and check table access, brief the reviewer on the changed distinctions, and observe one review. `MethodDescription-Intro-B-1` has that admitted Method as its one `EntityOfConcern`, and A.3.2 classifies it as a `U.MethodDescription`; `WorkPlan-Intro-B-1` separately schedules this bounded use. Neither episteme is the target Method or the later review Work.
-
-`CDI-R22-1` names holder `Reviewer-22`, calibration-report-review Work, the mixed-unit report envelope, baseline detection results, target four-of-four seeded unit cases, supervised practice and representative transfer Work, qualification evidence, and currentness through D60. ME.16 consumes this result; it neither treats attendance as capability nor performs the development.
-
-`MethodEngineer-B` is independently admitted as an Agent for local Method-configuration Work. Assignment occurrence `ASG-Intro-B-1(MethodEngineer-B, W-Intro-B-1)` covers only D30–D60. Permission occurrence `PERM-Intro-B-1(MethodEngineer-B, configure, MethodDescription-4, Representation-4, ConversionTable-B)` permits the three named configuration actions. Release authority remains with `ReleaseDecider-B`; neither assignment nor permission transfers it to the reviewer, engineer, or tool.
-
-Authorized `W-Intro-B-1` is admitted as Work performed by `MethodEngineer-B` inside containing System `Calibration-Team-B`; it enacts `M-Introduce-Unit-Review-1`, configures the selected target description and representation, establishes access to `ConversionTable-B`, briefs the reviewer, and records the assignment and authority boundary. The Work is intended to establish those local conditions. If access configuration fails, the introduction Work still occurred but the support condition did not obtain. If the briefing or sequence proves unusable while the target Method remains adequate, the affected result belongs to `M-Introduce-Unit-Review-1`, `MethodDescription-Intro-B-1`, or `WorkPlan-Intro-B-1`, not to `M-Unit-Review-1`.
-
-Later `W-B-Review-1` is independently admitted as Work performed by `Reviewer-22`; it enacts `M-Unit-Review-1`, detects a seeded Celsius/Kelvin mismatch, stops the release recommendation, and records fourteen minutes and one lookup. The observation positions remain separate: the reviewer accepts the local use; appropriateness is supported only for the named report family; table access and completion show bounded feasibility; the recorded operations support enactment for this Work occurrence; fourteen minutes and one lookup are burden observations; reach is one holder and one Work occurrence; sustainment is unknown; and one corrected report is the outside result. No adaptation occurred in this replay.
-
-Return `keep` for the D30–D60 attempt on the observed local conditions, later Work, mismatch detection and corrected report. The result supports that bounded continuation. A later claim that either Method caused fewer release escapes needs C.28 and the evidence for that stronger use.
-
-If table access failed, return the contradicted ME.10 support claim and next support action. If the introduction sequence or briefing failed, return the observation to the maintained claim in `M-Introduce-Unit-Review-1`, `MethodDescription-Intro-B-1`, or `WorkPlan-Intro-B-1` and keep the target result separate. If `CDI-R22-1` expired, name that result and stop pending its governing development decision; if later Work changed reusable target or introduction semantics, reopen ME.15 for the affected Method.
-
-If the failed lookup path has two proposed later repairs that the available evidence cannot distinguish, and no useful comparative observation is obtainable before the current decision, return both options with that limit and keep the failed support route stopped. Return the contradicted support claim and options to ME.10. This completes the current introduction result; further comparison is selected when its obtainable answer warrants the full burden.
-
-In a separate constructed no-development case, the same admitted review Method is introduced to `Reviewer-23` by repairing the conversion-table lookup path. The current `A.2.2` basis `CAP-R23-1` identifies that holder, calibration-report-review Work, the mixed-unit envelope, the required detection measure, representative evidence, and a qualification window covering the attempt. It supports adequate existing capability; no capability change is required or claimed. The engineer repairs and checks the lookup path under separately supported configuration permission, and the independently admitted later review Work uses it successfully. Return `keep` for this bounded support change and preserve `CAP-R23-1` as a reliance condition. No CDI result is missing merely because none was supplied, and no training is commissioned. If the capability basis later expires, return its currentness question to `A.2.2`; if the Work envelope instead changes so that development is needed, open that separately governed question. This case changes neither the reliance on `CDI-R22-1` nor its expiry stop in the preceding case.
-
-#### ME.16:4.5 - Explain a changed result before selecting an adaptation
-
-Use this continuation when an unexpected result, changed setting or proposed adaptation leaves materially different explanations that would change the next application. Existing observations and a supported local correction may already settle the decision; a new study is not required merely because some causal uncertainty remains.
-
-1. **Recover how the proposed contribution is expected to work.** Connect the needed result to the function each relevant contribution serves, the concrete actions or form that supply it, and the conditions under which the proposed mechanism could operate. Read the target and the introduction strategy separately. For example, a rehearsal may be intended to develop recognition of a stop condition, whereas an expert checking the completed result may supply that recognition directly. Use C.28.CM and the relevant subject practice to construct or challenge this explanation. Keep assumptions and unknown functions visible. Preserving a function does not by itself preserve Method identity.
-
-2. **Derive observations that could distinguish the live explanations.** Compare what should be seen if the relevant contribution was not delivered, was delivered but did not activate the proposed mechanism, operated differently in this context, or was supplemented by another contribution. Several explanations may hold together. Link observations of actual actions, the proposed intermediate change and the outside result for the same cases and relevant times. Include failed entry and cases where the result differs. A procedure-completion count alone cannot decide among these explanations. Assess fidelity only against an interpretable baseline and only when that comparison can change the decision; unknown essential functions or an intentionally flexible strategy may support a narrower account of what was done instead.
-
-3. **Select an attainable comparison.** First ask whether existing evidence distinguishes enough for the receiving action. If a further inquiry is worthwhile, pass the competing explanations, expected observations, case differences, timing, available access and whole burden to RMP.2. Its selected design and limits, operationalized through RMP.3, become inputs to the ME.11 trial or other inquiry. Check separately whether the proposed application can be performed and whether the evaluation can obtain an interpretable answer. Specify which changes the design permits: holding a configuration stable and studying an adapting configuration answer different questions. If no useful comparison is attainable, return the supported course or unresolved alternatives with the limitation that matters now.
-
-4. **Combine observations through the explanation.** Use the selected methods to recover what was delivered, how participants used or responded to it, the pertinent context and the resulting benefit, harm or burden. Where broad records show a pattern, selected observations or interviews can investigate the difference; where a particular account suggests a mechanism, look for its expected consequences in the relevant records. Repeated observation can reveal a changed contribution or context. Keep the same cases, periods and measurement meanings recoverable when combining results. Separate an observation, a participant's explanation and the investigator's inference; use C.28 for any resulting causal reliance.
-
-5. **Make each adaptation interpretable.** Compare the actual change with its prior target or introduction-strategy baseline. Recover the affected action or component, proposed function, reason, decision-maker and authorization, conditions, decision time and actual implementation time when their difference matters. Keep coupled changes together when their contributions cannot be separated. Determine what supports a claim that the function was retained, changed or remains unknown. An adaptation description supplies neither that functional conclusion nor an effect estimate. Return changed reusable operations or conditions to ME.15 even if the intended function stays the same.
-
-6. **Return what the evidence changes.** ME.13 receives the conditions and configuration actually examined; ME.14 receives comparable consequences, support demand and displaced work; ME.15 receives the semantic change with separately qualified function and evidence; ME.16 receives the basis to retain, refine, branch, replace or stop the target, its introduction, or their support. A favourable result despite poor delivery may support investigating another contribution; it neither confirms the proposed mechanism nor makes all useful work a failure. A new supported explanation or useful alternative may warrant development without contradicting the earlier bounded account. Revisit uses whose relied-on premises change through their governing patterns. Use ME.24 when the change affects a source-coverage or reconstruction claim.
-
-The result is an explanation sufficient for the named next action, with its evidence and unresolved alternatives. It can be a bounded continuation, a changed introduction strategy, a proposed target variant, a useful refinement of the explanation, or a stop. Additional detail is selected for the decision it can change.
-
-### ME.16:5 - Archetypal Grounding - Workplace Introduction and Revision
-
-The SSFD programme reports a three-year intervention involving more than 300 engineers, training followed by supported four-to-six-month workplace projects, expert assistance, 72 reports recording SSFD use, and 41 reports supporting deeper analysis. Use this account to distinguish the target, strategy, performed Work, observations, adaptations, and outside results; it is not evidence from an isolated causal experiment.
-
-Treat training followed by supported four-to-six-month workplace projects and expert assistance as a source-described candidate introduction strategy unless independent A.3.1 admission is available. Keep that candidate introduction account, its available description epistemes and separate plans, the SSFD target Method or candidate account, capability evidence, project Systems, performed Work, later reports, named assignment or use relations, target adaptations, strategy adaptations, burdens, and domain results separate.
-
-If an observation exposes a content defect in the candidate introduction account, ME.8 can improve that account without classifying it as a `U.MethodDescription`. Other description content returns to its own episteme or a local stop; introduction or use alone requires no revision.
-
-Record acceptability or rejection, appropriateness or fit, feasibility, enactment or fidelity, burden or cost, reach, and sustainment only where the source supports each position. The reports do not admit the candidate introduction Method or make every modification a target-Method change. The bounded ME.16 decision can use observations or association without C.28; any claim that SSFD or its introduction strategy caused the reported benefits needs a current C.28 result.
-
-The Digital Vaccine case supplies three sequential action-research cycles in an operating health-services ecosystem. For each cycle, record the Method-related target, the introduction strategy and its status, its separately identified description, and any separate WorkPlan. Then record prioritization, performed introduction or validation Work, observation, target adaptation, strategy adaptation, and revision for the bounded concern. The evaluation remains ex ante and case-specific and establishes neither Method admission, long-term effect, nor transfer to the other elicited domains.
-
-The Halogen and methodology-spread studies add observed adaptation, project demands, practitioner skills, identified organizational conditions where recoverable, drivers, and barriers. For each adaptation record whether it changed the Method-related target, the introduction strategy, its description, a separate WorkPlan, support, or local use, while preserving the recorded kind and status of each. Also record when, planned or reactive status, deciding Agent and authorization basis, affected level, reason, and conditions. Neither source proves a universal sequence or one causal driver of spread.
-
-Implementation-science comparators sharpen this account without supplying its domain ontology. Proctor et al. motivate separate acceptability, appropriateness, feasibility, enactment/fidelity, burden/cost, reach, and sustainment questions. FRAME motivates recording changes to the Method-related target. FRAME-IS supplies the separate question of what changed in the introduction strategy itself. Updated CFIR motivates context and determinant questions; the 2021 MRC framework motivates iterative refinement around key uncertainty and decision usefulness. ME.16 retains the target-versus-strategy distinction while rejecting health-specific entities, a maturity ladder, phase gate, compulsory adoption sequence, and any inference from those taxonomies to FPF Method admission, Work, relation, capability, authority, or culture.
-
-#### ME.16:5.1 - APP-ME-01 Early Stop
-
-The EC-417 three-release statement remains a WorkPlan. Do not report introduction, release enactment, later revision, cadence effect, or receiving result until the introduction strategy is identified and actual introduction Work and release Work are admitted with performers, enacted admitted constituent Methods, capability inputs, Systems, named Agent-performed Work occurrences, relation occurrences, assignments, permissions, authority, conditions, target and strategy adaptations, burdens, deviations, and domain results.
-
-The ME.10 support-use task observations may supply identified support baselines and gaps. They do not establish an introduction Method, release Work, AI-provider use, feedback Work, capability, or Method fit. Preserve `C-EC-Release-v2` as a target candidate and `CUR-EC417-CadenceEffect-1` as unsupported. The application has no supplied `A.2.2` capability basis, so a receiving decision that relies on capability returns that missing basis first. If a current adequate basis is supplied and no capability change is needed, retain it without requiring development. Name `E.23.CDI` or a domain development result and next action only for an actually needed capability change; do not invent capability or prescribe development from the gap alone.
-
-#### ME.16:5.2 - Correct outputs with an undelivered learning mechanism
-
-In this constructed example, a team introduces a report-review Method requiring the reviewer to trace each measurement to the equipment identifier and check its unit before recommending release. The proposed introduction strategy combines a lesson with individual rehearsal. Its working explanation is that rehearsal will enable newcomers to recognize identifier and unit mismatches independently. Release still requires a separately qualified reviewer; the introduction attempt has no authority to remove that safeguard.
-
-Records show that the lesson occurred, but individual rehearsal was repeatedly cancelled. Reports released during the attempt have the required corrections. Observation of review meetings shows that experienced colleagues identified the mismatches and newcomers then corrected them. The attendance records and corrected reports therefore concern different contributions: neither establishes independent newcomer capability. The proposed learning mechanism remains unsupported, while the experienced reviewers' actual corrections are useful observations.
-
-The method engineer connects delivery records, the sequence of detection and correction, current capability evidence and report outcomes. This supports continuing the existing safeguarded review under its established conditions. It also identifies a rival explanation worth considering: supported joint review may supply the immediate checking function while creating a different opportunity for learning. Whether newcomers learn from that participation remains an open question.
-
-Suppose a receiving decision now concerns assigning newcomers independent reviews next month. A feasible comparison uses archived reports with known mismatches, including an unfamiliar unit convention, and records each newcomer's answer before help, the help actually given and the final correction. The inquiry designer must justify case coverage, comparison, timing, assessment and attainable burden; merely scheduling the exercise is not a result. If the protected inquiry window is unavailable, independent assignment stays unsupported and the existing review can continue.
-
-After such an authorized comparison, suppose the observed records show that newcomers detect familiar identifier mismatches unaided but require expert help for the unfamiliar unit convention. Return that differentiated result to the capability owner and to ME.13; it supports neither a blanket failure nor unrestricted transfer. ME.14 includes the expert's time. ME.16 can develop a proposed introduction variant using joint review and later independent rehearsal. ME.15 determines whether its changed reusable operations constitute a variant; retaining the intended checking and learning functions does not settle that identity question.
-
-The adaptation account records when the joint-review change was chosen and when it actually operated. If rehearsal and coaching change together, the observed benefit belongs to that examined arrangement until a useful comparison separates their contributions. The original lesson remains a delivered event. Its proposed mechanism is reconsidered on the new evidence; the history is not rewritten as if the later strategy had been used from the start.
-
-### ME.16:6 - Bias-Annotation
-
-| Recurring bias | Likely drift | Repair |
-| --- | --- | --- |
-| rollout-compression bias | Target subjects, introduction strategy, descriptions, plans, relations, Work, and observations become one “introduction”. | Keep the typed target account, strategy and its status, description, any separate WorkPlan, performed Work, named direct relations, and observations distinct. |
-| success-presupposition bias | Completed introduction Work is said to make the Method available and usable. | State the intended conditions; later observations may return success, failure, uncertainty, or missing evidence. |
-| training-as-capability bias | Attendance or expert help becomes a holder capability. | Recover the A.2.2 capability basis and currentness. A capability-change claim additionally needs its compatible development result; preserve adequate existing capability without inventing a development need. |
-| availability-as-use bias | Published material or a configured tool becomes later enactment. | Admit actual Work and the named `enactsMethod` or use relation independently. |
-| authorization compression | Expertise, sponsorship, project position, ownership, assignment, permission, and authority become interchangeable. | Name the predicate, participants, scope, and positive basis for each relied-on relation. |
-| outside-result attribution bias | A favourable domain result fills every observation position and becomes causal proof. | Compare each selected position; use C.28 only when the decision relies on causality. |
-| adaptation-smearing bias | A local workaround silently changes the target, introduction strategy, descriptions, WorkPlan, support, and fit together. | Classify the modification as target or introduction-strategy change and return only the maintained account, description, WorkPlan claim, support claim, fit claim, or local decision actually affected. |
-| lifecycle bias | Introduction, reach, and later use become compulsory adoption stages. | Keep ME.16 independently enterable and use ME.17 only for a bounded population-level cultural question. |
-
-### ME.16:7 - Conformance Checklist
-
-- [ ] Target subjects; either the admitted introduction Method with an A.3.2-classified MethodDescription or the candidate introduction account with its description episteme; a separately governed WorkPlan; performed Work; and named relied-on relations are separated by kind. No pre-admission description is classified as `U.MethodDescription`.
-- [ ] Every organizational claim names the organizational System, selected structure, constituent organization, or relation organization actually relied on.
-- [ ] Every observation position names its maintained result and particular claim or edition, receiving Agent or governing pattern when current, and next action or stop.
-- [ ] Introduction Work is stated as an authorized attempt intended to establish named conditions; a failed attempt is recordable without contradiction.
-- [ ] Decision-relevant capability keeps its A.2.2 basis and currentness, or returns the missing basis. Adequate existing capability without a needed change requires no development result. Only a needed capability-change claim consumes a compatible development result or returns its missing/stale basis with a next governing action or stop; irrelevant capability detail is omitted.
-- [ ] Assignment, permission, authority, access, use, enactment, and other relations name predicates, participants, scope, and obtaining basis.
-- [ ] Later Work is independently admitted; candidate accounts are not enacted, and only independently admitted Methods may fill an enactment claim.
-- [ ] Decision-relevant acceptability/rejection, appropriateness/fit, feasibility, enactment/fidelity, burden/cost, reach, sustainment, target-change, and outside-result observations remain separate.
-- [ ] Every adaptation distinguishes target change from introduction-strategy change and records the affected target, strategy and status, identified description episteme, separate WorkPlan, support or local-use condition; time and planned/reactive status; deciding Agent and authorization; level, reason and conditions; maintained result; and receiving action or stop.
-- [ ] A relied-on causal or contribution claim uses C.28 and preserves supported and unsupported uses, validity threat and residual uncertainty. An observational result carries only the qualification needed for its receiving use.
-- [ ] The comparison records the action supported by the available evidence, or the alternatives that remain unresolved and the reason they cannot yet be distinguished. Any further observation or probe has a useful obtainable answer worth its full burden and feasible conditions.
-- [ ] ME.13 receives a bounded fit or transfer question, ME.17 a bounded population-level cultural question, and ME.15/ME.10/A.15.2 a supported correction, refinement or alternative tied to the particular maintained claim or edition it affects. ME.8 receives a needed correction of MethodDescription or candidate-Method-account content and preserves its status; other content returns to its own episteme or a local stop.
-- [ ] The result claims no adoption lifecycle, maturity ladder, phase gate, general effectiveness, causal superiority, or authority outside its boundary.
-
-### ME.16:8 - Common Anti-Patterns and How to Avoid Them
-
-| Anti-pattern | Repair |
-| --- | --- |
-| “We trained everyone and rolled out the Method.” | Name the actual training or development result, introduction Work, later Work, and every unobserved position. |
-| “The tool was available, so the Method was used.” | Recover actual performer Work, enacted Method, direct tool-use relation, and result. |
-| “Management sponsored it, so the team was authorized.” | Recover assignment, permission or authority, Agent basis, and scope separately. |
-| “Results improved after launch, so the Method caused them.” | State timing, alternatives, covarying changes, contribution basis, and residual uncertainty. |
-| “Several projects used it, so the culture adopted it.” | Use ME.17 only when a named cultural relation and population evidence exist. |
-
-### ME.16:9 - Consequences
-
-Method introductions become observable interventions. Teams can learn from use, non-use, adaptation, and outside consequences while keeping the target, introduction strategy and its status, description, any separate WorkPlan, support, capability, authority, identified organizational Systems or selected structures, Work, and domain changes distinct.
-
-The cost is a more explicit baseline and observation design. Some programmes end with bounded association and residual causal uncertainty, and a capability gap can stop introduction even when training was delivered.
-
-### ME.16:10 - Rationale
-
-An intervention can change several subjects, relations, and descriptions at once. Learning requires each claimed change to retain its own subject, governor, baseline, evidence, and receiving use. Otherwise the intervention label becomes a substitute for both Work and explanation.
-
-Separating the Method-related target from the introduction strategy, its status and description, any separate WorkPlan, capability development, and cultural continuation prevents ME.16 from becoming an adoption lifecycle. It remains the practice for introducing one bounded Method-related change, observing later Work and consequences, and using the resulting evidence to correct, refine or develop the particular maintained account or next application.
-
-### ME.16:11 - SoTA-Echoing
-
-| Source | Disposition and contribution | Transfer limit and practitioner implication |
-| --- | --- | --- |
-| Yildirim, Campean, and Uddin, [function-modeling evaluation in industry practice](https://doi.org/10.1017/dsj.2026.10056) | **Adopt:** training, expert assistance, four-to-six-month workplace projects, later report analysis, application variety, limitations, and direct/indirect contribution as separate introduction and observation positions. | One automotive OEM, retrospective reports, and SSFD within a broader methodology establish neither isolated causality nor universal transfer or capability. |
-| Tsai, Zdravkovic, and Söder, [DBE-design Method action research](https://doi.org/10.1007/s10270-022-01068-z) | **Adapt:** prioritization followed by three plan-perform-evaluate cycles as a naturalistic revision structure. | The evaluation is ex ante and case-specific and does not establish long-term organizational effect, causal superiority, or transfer. |
-| Schønheyder and Nordby, [design-Method use and evolution in professional practice](https://doi.org/10.1016/j.destud.2018.04.001), and Hiort af Ornäs et al., [drivers and barriers in methodology spread](https://www.designsociety.org/publication/36298/the_spread_of_product_development_methodology_exploring_drivers_and_barriers_in_swedish_industry) | **Adapt:** observed modifications, project and skill conditions, identified organizational conditions where recoverable, drivers, and barriers as observation and revision questions. | One firm and one interview study supply neither a universal programme nor causal proof of spread. |
-| Proctor et al., [Outcomes for Implementation Research](https://doi.org/10.1007/s10488-010-0319-7) | **Adapt:** keep acceptability/rejection, appropriateness/fit, feasibility, enactment/fidelity, burden/cost, reach, and sustainment as decision-relevant observation positions distinct from the outside result. | **Reject:** health-service/client ontology, adoption as an FPF cultural fact, a compulsory outcome set, and any automatic stage order. Use only positions that can change the bounded decision. |
-| Stirman, Baumann, and Miller, [FRAME](https://doi.org/10.1186/s13012-019-0898-y) | **Adapt:** for a Method-related target, record what changed, when, planned/proactive or unplanned/reactive status, decider and authority, affected level, reason and conditions, and whether Method semantics, description, support, or local use changed. | **Reject:** fidelity labels as Method identity or admission, and do not import healthcare intervention kinds. Return each target modification to its particular maintained claim or local decision. |
-| Miller et al., [FRAME-IS](https://doi.org/10.1186/s13012-021-01105-3) | **Adapt:** distinguish modifications to the introduction strategy from modifications to the Method-related target; for the strategy, record the changed component or function, nature, timing, participants in the modification decision, rationale, and scope. | **Reject:** healthcare intervention and implementation-strategy ontology, automatic Method admission, and a compulsory reporting module. Record the introduction strategy's status and keep its description, any WorkPlan, performed Work, and affected maintained result separate. |
-| Damschroder et al., [updated CFIR](https://doi.org/10.1186/s13012-022-01245-0) | **Adapt:** ask which context and determinant observations can explain anticipated or actual success or failure. | **Reject:** a universal determinant inventory, success score, maturity ladder, or inference from a determinant label to an obtaining FPF relation. |
-| Skivington et al., [2021 MRC complex-intervention framework](https://doi.org/10.1136/bmj.n2061) | **Adapt:** identify key uncertainty, context interaction, refinement, stakeholder perspective, and comparative resource/outcome consequence; permit repeat, reconsider, or stop. | **Reject:** a compulsory phase sequence or gate. The source neither admits FPF Methods and Work nor supplies causal support; C.28 remains conditional. |
-| Moore et al., [MRC process-evaluation guidance](https://doi.org/10.1136/bmj.h1258), and Jolles et al., [core functions and forms](https://dworakpeck.usc.edu/sites/default/files/2020-10/Core%20Functions%20and%20Forms%20of%20Complex%20Health%20Interventions.pdf) | **Adapt:** connect the proposed explanation to observations of implementation, mechanisms, context and outcomes; distinguish a contribution's function from its concrete form. | These are developed comparison sources, not a universal mechanism inventory. Recover the subject-specific function and the evidence for its preservation; an observed benefit does not confirm the originally proposed mechanism. |
-| Current FPF `A.3.1`, `A.3.2`, `A.15.2`, `A.15.1`, `A.13`, `A.2.2`, `E.23.CDI`, `A.3.4`, `A.10`, `C.28`, and direct relation governors | **Adopt:** Method admission, MethodDescription identity, WorkPlan identity, Work admission, Agent basis, capability, capability development, bounded transformation, evidence, causal-use boundary, and relation semantics. | ME.16 contributes the typed attempt, later observations, target-versus-strategy adaptation record, conditional causal branch, and local revision decision; it does not redefine those governors. |
-
-Reopen the pattern when practitioners cannot separate target subjects and accounts, introduction strategy and status, description, any separate WorkPlan, performed Work, relation occurrences, observations, and receiving actions; when stronger cross-domain evidence changes the observation or adaptation positions; when repeated introductions reveal an independent organizational-change problem; or when current FPF Method, description, plan, Work, relation, capability, evidence, or causal-use semantics change the action.
-
-### ME.16:12 - Relations
-
-- ME.1 supplies the Method-of-interest and outside result. ME.15 supplies an admitted variant or status-preserved candidate lineage with applicability and currentness. A candidate account is not enacted; later Work may enact only independently admitted constituent Methods.
-- ME.15 governs admitted Method semantics and candidate lineage, provenance, evidence, applicability, currentness, and retirement claims for both target and introduction accounts. ME.8 authors or revises a MethodDescription of an admitted Method, or improves a candidate Method account while retaining its unresolved status. Other description content stays with its own episteme. A.15.2 governs the separate introduction WorkPlan; ME.10 particular support claims; ME.13 bounded fit and transfer questions; and ME.17 bounded population-level cultural questions. Return a correction, refinement or alternative with the affected maintained claim or edition and the next action.
-- `E.23.CDI` or a domain capability-development pattern governs capability change. `A.2.2` governs the relied-on capability result; ME.16 records it as an input, observation, or named gap.
-- `A.3.1` governs admission of both target and introduction Methods, and `A.3.2` governs `U.MethodDescription` membership. A WorkPlan and performed Work neither admit nor enact a candidate Method. `A.13` governs precise Agent claims and `A.15.1` every introduction and later Work occurrence. Assignment, permission, authority, access, use, enactment, and other direct relations retain their own named predicates, participants, applicability, and obtaining tests.
-- `A.3.4` governs a claimed actual bounded change to a continuing subject. Introduction Work, a before/after account, an adaptation record, or a decision label does not by itself identify a `U.Transformation`.
-- `A.10` governs evidence use. When the ME.16 decision relies on a causal or contribution claim, `C.28` governs the bounded causal-use question, supported and unsupported uses, conditions, validity threats, and reopen trigger. Without that reliance, ME.16 stops at observation or association.
-- C.28.CM develops the proposed causal explanation and its rivals. RMP.2 selects a suitable attainable inquiry; RMP.3 operationalizes it. The selected design and operationalized protocol guide ME.11 or another inquiry. Its actually obtained observations and their limits then inform the bounded introduction decision; ME.16:4.5 explains this connection for adaptation. ME.24 is used when a change affects a source-coverage or reconstruction claim.
-- Proctor, FRAME, FRAME-IS, updated CFIR, and MRC supply bounded comparator questions only. FRAME and FRAME-IS support the target-versus-introduction-strategy distinction; none creates FPF health ontology, adoption lifecycle, maturity ladder, phase gate, Method admission, Work occurrence, relation occurrence, capability, authority, or culture claim.
-
-### ME.16:End
 
 ## ME.17 - Deliberately Continue and Change Method-Engineering Culture
 
@@ -4842,7 +5002,7 @@ When the result must be retained or handed on, use a small cultural account. Nam
 
 Here *culture* is Plain practice wording for bounded claims about how a population generates, transmits, recognizes, selects, remembers, retains, changes, or loses practice. A school label, framework edition, repository, training event, local Method choice, repeated task, or institutional publication does not establish those claims together.
 
-Do not use this pattern for a bounded introduction whose primary result is target changes, later Method use, and outside consequences; use ME.16. Do not infer cultural adoption, retention, relation occurrence identity, selected structure, architecture, or authority from attendance, publication, tool access, one successful project, an organization label, or a stated preference.
+Do not use this pattern for a bounded introduction whose primary result is target changes, later Method use, and outside consequences; use IS.4. Do not infer cultural adoption, retention, relation occurrence identity, selected structure, architecture, or authority from attendance, publication, tool access, one successful project, an organization label, or a stated preference.
 
 #### ME.17:0.1 - Working Distinctions
 
@@ -4963,7 +5123,7 @@ For that changed receiving condition, return `revise`: retain the bounded positi
 
 #### ME.17:4.5 - Make a practice recoverable and changeable by its recipients
 
-**Begin with the receiving work.** Recover what the practitioners need to obtain and which decisions make the difference between a usable result and imitation of an example. A newcomer who must choose and adapt an exercise needs more than the instruction for running one selected exercise. Someone who only needs to perform a familiar operation may need a reminder rather than another course. State which contribution must be available from the practitioner, material, tool or another person under the actual receiving conditions. HCD.1–3 supply the development-versus-support decision; ME.16 handles a bounded introduction when no cultural question is being asked.
+**Begin with the receiving work.** Recover what the practitioners need to obtain and which decisions make the difference between a usable result and imitation of an example. A newcomer who must choose and adapt an exercise needs more than the instruction for running one selected exercise. Someone who only needs to perform a familiar operation may need a reminder rather than another course. State which contribution must be available from the practitioner, material, tool or another person under the actual receiving conditions. HCD.1–3 supply the development-versus-support decision; IS.4 handles a bounded introduction when no cultural question is being asked.
 
 **Recover the reason for the way before preserving its form.** Trace the available explanation from its inputs, through the operations and their dependencies, to the needed result. Ask what each consequential operation makes possible, which conditions must remain true, and which features belong only to the demonstrated situation. A condition protecting the result is not interchangeable with the historical choice of an instrument or presentation. If the source or a competent contributor cannot supply a necessary reason, retain that gap. Do not turn permission to improvise into missing domain knowledge. ME.8 supplies development of the needed explanation; ME.1–7 and C.39 supply construction and comparison when the way itself is still missing.
 
@@ -5114,7 +5274,7 @@ Reopen the pattern when a field case supplies decision-changing evidence for ano
 
 ### ME.17:12 - Relations
 
-- ME.15 supplies either an admitted Method Engineering variant or a status-preserved candidate lineage. ME.16 can supply bounded introduction and later-practice observations. The admitted-Method branch still needs independent A.15.1 enactment; the candidate branch preserves its candidate/source accounts and description epistemes under their own maintained results and asserts neither Method nor enactment. Neither input establishes a cultural predicate.
+- ME.15 supplies either an admitted Method Engineering variant or a status-preserved candidate lineage. IS.4 can supply bounded introduction and later-practice observations. The admitted-Method branch still needs independent A.15.1 enactment; the candidate branch preserves its candidate/source accounts and description epistemes under their own maintained results and asserts neither Method nor enactment. Neither input establishes a cultural predicate.
 - `C.20` governs Discipline recognition and `C.36` the bounded cultural-evolution question. `A.6.RCD` derives the needed bounded relation-bearing claim and stops at the lightest truthful disposition. `A.6.REL` supplies occurrence identity only when a later use must distinguish obtaining occurrences.
 - `A.3.1` governs Method admission, `A.3.2` `U.MethodDescription` membership, `A.13` precise Agent bases, `A.15.1` intervention and receiving Work plus a named `enactsMethod` occurrence, and `A.10` evidence and reliance. Candidate accounts, source labels, carriers, descriptions without that membership basis, and teaching events substitute for none of them.
 - `C.11.DUA` appraises a questionable inquiry or requirement and connects its receiving contribution to its whole burden and feasible continuation. It does not supply permission, domain experimental design, or performed Work.
@@ -5810,7 +5970,6 @@ These sources support a bounded synthesis, not a claim that PLUS-ME invented con
 # Cross-Pattern Application
 
 
-
 ## ME.Application:1 - APP-ME-01 — Choose the Smallest Method-Engineering Result Needed for Release EC-417
 
 The team must release engineering change `EC-417`, but signed supplier pinout evidence is expected thirteen days after the target software-integration slot. The team calls the difficulty its “release methodology”. That label hides several possible subjects: relations among Methods, test-rig support, evidence currentness, human decision authority, and allocation of supplier and safety Work. Choosing the wrong subject can delay the release, overload the safety engineer, expose confidential geometry to an AI provider, or turn an observed timing association into an unsupported causal claim.
@@ -5834,7 +5993,6 @@ The first move is to name the receiving result and ask which result is needed no
 EC-417 continues beyond the early returns because evidence timing, Method relations, allocation, support, authority, and recovery burden jointly change the release decision. All identifiers, dates, observations, capacities, and outcomes below are scenario assumptions for this worked decision.
 
 
-
 ### ME.Application:1.1 - 1. Bound the EC-417 receiving result and recover the subjects of its management accounts
 
 The project must release engineering change `EC-417`: controller firmware `4.8` together with harness revision `H-17`. The receiving result is one released controller change whose affected safety requirements, implementation revisions, supplier pinout, verification results, evidence status, and release authority are traceable.
@@ -5850,7 +6008,6 @@ The project, process, and case questions here concern different subjects. Use th
 | closure of the evidence question | the claim to settle is whether the signed pinout and the version used in integration satisfy this release's evidence condition | the case record establishes neither criterion satisfaction nor the release decision |
 
 These accounts expose connected Method and support questions without sharing one EntityOfConcern. Their correspondence must be recovered wherever the release decision uses it: the signed-evidence date, reusable guard, and claim about the evidence actually used answer different questions. This application does not assert their viewpoint conformance, actual performance, or acceptance from their labels. Later, the completed-trial reading in ME.9 may concern one independently admitted Work; that bounded use does not change the subjects above.
-
 
 
 ### ME.Application:1.2 - 2. Choose the subject before redesigning it
@@ -5869,7 +6026,6 @@ These accounts expose connected Method and support questions without sharing one
 The selected Method-relation focus contains identified Methods `M-HW-Verify`, `M-SW-Integrate`, `M-Supplier-Approve`, and `M-Release-Authorize`, plus candidate accounts `C-Evidence-Reconcile-Internal` and `C-Evidence-Reconcile-Supplier`. No fifth Method, submethod, established family, or composite whole is asserted.
 
 Reopen to the test-rig capability/resource decision if two of the next three comparable delays occur while required evidence is complete and the rig is unavailable. That observation changes the subject rather than merely lowering a Method score.
-
 
 
 ### ME.Application:1.3 - 3. Separate observed differentiation, causal support, and today's decision
@@ -5894,7 +6050,6 @@ No positive interventional causal reliance is supported. The observed timing and
 Today's architecture decision remains separate. `AD-EC417-B2-Trial-1` may consume the non-causal mismatch result, capacity calculation, the covering trace/safety/release assignments, `PERM-TraceAcceptReject-17`, the two independently supported direct authority relations, and reversibility to choose a bounded trial. It may not consume the `unsupported` causal-use result as positive evidence.
 
 
-
 ### ME.Application:1.4 - 4. Recover candidate accounts only when ordinary Method recovery is insufficient
 
 Ordinary `A.3.1.MR` recovery suffices for `M-HW-Verify` and `M-SW-Integrate`. The evidence-reconciliation question enters `ME.18` because oral version judgments and supplier/internal workarounds are absent from the records and the receiving decision needs a stronger account.
@@ -5911,7 +6066,6 @@ Four firmware-only and four internal harness-plus-firmware releases accepted ver
 The thirteenth supplier-originated case is reserved unseen. Before inspection, the internal account predicts that explicit version/uncertainty plus later reconciliation is sufficient; the supplier account predicts that supplier-originated geometry will require the signed-evidence branch; the rig-capacity rival predicts that progress follows rig availability. The held-out case presents supplier-originated geometry, the signed-evidence cue, a decision to wait for the signed branch, the expected branch variation, and a completed result. It supports the supplier account without a load-bearing surprise, contradicts neither account outside its scope, and leaves transfer unresolved.
 
 `C-Evidence-Reconcile-Internal` and `C-Evidence-Reconcile-Supplier` remain scoped candidate Method accounts. No occurrence, interview, event regularity, majority pattern, or held-out fit admits either as a Method or proves effectiveness, population frequency, or causality.
-
 
 
 ### ME.Application:1.5 - 5. Build the repertoire and criteria without preselecting an architecture
@@ -5977,7 +6131,6 @@ Assignment, permission/authority relation, performed Work, and decision result i
 These criteria admit no Method and select no alternative. Signed-first, provisional-first, supplier-preparation, and safety-preparation variants remain serious possibilities.
 
 
-
 ### ME.Application:1.6 - 6. Recover package contributions and qualify individual subjects
 
 The incumbent “release methodology” mixes unlike material. `ME.4` returns open navigation sections while preserving kinds:
@@ -6011,7 +6164,6 @@ Local schema correspondence `A-17` maps signed or explicitly provisional pinout-
 Another project needing only hardware verification can stop with the individual qualification of `M-HW-Verify`; it does not need a package-recovery or architecture-comparison result. A project whose only useful result is the bounded qualification of `C-Checklist-Reconcile` can retain that subject as a candidate account with A.3.1 identity still open and stop without calling it a Method. A project investigating supplier reconciliation can likewise stop with the retained supplier account. EC-417 continues because combined evidence timing, allocation, support, authority, and recovery burden change the release decision.
 
 
-
 ### ME.Application:1.7 - 7. Compare A, B, B2, and R across the structures that change the decision
 
 The alternatives share the receiving result but arrange Work and burden differently:
@@ -6028,7 +6180,6 @@ For this constructed comparison, `2.07 h` is safety-engineer time for traceabili
 The provisional board occurs on `D-21`; the signed-evidence board occurs on `D-8`. Both last 20 minutes and therefore remain under the separate 45-minute limit. They do not occur on the same day. Per-release safety effort is `4.73 h` for B and `3.13 h` for B2 after the separate `D-21` board is included. The selected `D-8` peak-day result and per-release totals answer different burden questions.
 
 
-
 #### ME.Application:1.7.1 - Signed-delta preparation for B2
 
 Under B2, the supplier-configuration role prepares the comparison of the signed supplier pinout received for closure with the exact provisional pinout edition used in `D-21` integration. Retain both edition identifiers and the provisional uncertainty and use history; identify the changes, and use schema correspondence `A-17` to locate the affected integration-bundle fields. `SafetyReviewer-17` checks that comparison and identifies the affected traceability and verification checks for the safety board. The preparation result is a version-linked pinout-difference record with the affected checks, not a B-versus-B2 allocation decision or a release authorization. The assumed preparation burden remains `1.60 h` supplier plus `0.40 h` safety; performing affected verification, deciding safety closure, and any integration rework remain separate. Missing signed evidence invokes R as described in section 8.
@@ -6043,7 +6194,6 @@ Under B2, the supplier-configuration role prepares the comparison of the signed 
 - **cultural relation:** retention of a weekly-integration practice remains a later cultural-continuation question.
 
 `AD-EC417-B2-Trial-1` selects only a prospective three-release B2 trial under `ASG-TraceReview-17`, `ASG-SafetyReview-17`, `ASG-ReleaseDecision-17`, `PERM-TraceAcceptReject-17`, `AUTH-SafetyEvidence-17`, `AUTH-ReleaseDecision-17`, capacity, confidentiality, evidence, and reversibility conditions. It consumes `DC-EC417-CadenceMismatch-1` as a non-causal rationale and treats the causal-use verdict as `unsupported`. A remains a pre-entry alternative. R is a post-entry recovery and can never become a retrospective A occurrence. No obtaining ArchitectureRelation or `methodPartOf` fact is asserted.
-
 
 
 ### ME.Application:1.8 - 8. Return a proposed-whole account and a bounded trial
@@ -6073,11 +6223,9 @@ If closure is still unresolved at `D0`, `ReleaseDecider-17` returns withhold/nex
 These boundaries do not rewrite any earlier Work or evidence basis. Signed evidence supersedes provisional only for safety-closure reliance. For the constructed series of at most three B2 trials, count one failed trial when that release has a capacity or mismatch failure or enters R. Count that trial only once even if several categories or events occur; retain all categories as reasons for analysis. Entering R counts once for its trial even if recovery later succeeds. After two distinct failed trials, `ReleaseDecider-17`, within the applicable `AUTH-ReleaseDecision-17` scope, returns B2 for revision or rejects further B2 use before any fourth release. The required safety-evidence accept/reject remains a separate `SafetyReviewer-17` result under `AUTH-SafetyEvidence-17`; revising the candidate account is separate work, not an authority granted by this release decision. The existing decision covers at most three trials regardless of the failure count: any further release requires a new applicable decision. The immediate confidentiality, assignment, permission, and authority stops above do not wait for two failures.
 
 
-
 ### ME.Application:1.9 - 9. Configure and test the enactment-support arrangement before claiming that a Method Base works
 
 The B2 material now exists, but that does not show that a person can find the current edition, distinguish candidate from admitted content, tailor the live branch, or stop before a tool overreaches. `ME.10` therefore starts from three named user tasks rather than from a repository or platform design. The bounded support use `USE-EC417-B2-Support-1` asks whether `TraceReviewer-17`, `SafetyReviewer-17`, and `ReleaseDecider-17` can use the B2 material for `WP-EC417-B2-Trial-1` under the existing confidentiality, evidence, assignment, permission, authority, reversibility, and `D0` conditions.
-
 
 
 #### ME.Application:1.9.1 - 9.1 Fix the same three task rows before comparing support configurations
@@ -6089,7 +6237,6 @@ The B2 material now exists, but that does not show that a person can find the cu
 | branch selection by `ReleaseDecider-17` | distinguish pre-entry A, bounded B2, and post-entry R; stop B2 when assignment, permission, authority, confidentiality, or reversibility is absent | one performed selection task through `SYS-EC417-PLM-1` |
 
 Published files and manual lookup are candidate configurations with no performed task evidence for these three rows, so those configurations remain untested rather than failed. Adding an interaction with `SYS-EC417-AIProvider-1` and feedback Work or a feedback receiving relation also remains untested: no mandatory row needs either, and this support test contains no provider interaction, used AI suggestion, human review of such a suggestion, feedback Work, feedback SpeechAct, or feedback receiving use. The bounded PLM/CI candidate configuration is the only one with one observation for every current row. The described observations support retrieval, branch selection and the tested tailoring actions; the missing tailoring definition and permission/authority-stop observation prevent a pass for the full tailoring row or complete task set. The configuration is not established as globally smallest or superior to every alternative.
-
 
 
 #### ME.Application:1.9.2 - 9.2 Admit the two entry epistemes to the Method Base
@@ -6106,7 +6253,6 @@ Entry membership is an instituted relation, not a folder listing. `SYS-EC417-MB-
 At `D-21 10:00–10:08`, admitted Work `W-MBA-EC417-ECA-1` applies the operation to the candidate-account episteme. At `10:10–10:18`, admitted Work `W-MBA-EC417-ERP-1` applies it to the WorkPlan episteme. Each Work has its own performance history, extent, `WorkContainedInEC417MethodEngineering` occurrence, A.13 core, A.15.1 admission, post-admission assignment attribution, and `PERM-MBENTRY-EC417-1` exercise. Applications `APPL-MBENTRY-EC417-ECA-1` and `APPL-MBENTRY-EC417-ERP-1` end only at their pair-specific positive approval acts; terminal bindings `RB-MBENTRY-EC417-ECA-ADMIT-1` and `RB-MBENTRY-EC417-ERP-ADMIT-1` carry exact value `MBEDV-EC417-Admit`.
 
 Those facts institute `MBB-EC417-ECA-1` and `MBB-EC417-ERP-1` as the two `MethodBaseEntryBelongsTo@Project` episodes. Each episode is identified by its exact entry, collection, and maximal continuous interval. A repeated positive result during an open episode creates no second membership; removal requires its own permitted negative application and result. No such removal obtains through `D0`.
-
 
 
 #### ME.Application:1.9.3 - 9.3 Test actual use and keep the structure gap separate
@@ -6128,7 +6274,6 @@ Each `SupportSystemUsedInWork@EC417` occurrence requires the independently admit
 The membership episodes, their IBA assertion or evidence epistemes, optional construction account `MBCA-EC417-B2-1`, edition episteme `MBE-EC417-B2-1`, publication occurrence `PUB-MBE-EC417-B2-1`, named-use reliance episteme, proposed organization, selection-gap episteme, and task result remain distinct. Membership and publication do not prove usability; the bounded task results do not prove a general holder capability, Method fit, effectiveness, release performance, or selection of the proposed structure.
 
 
-
 #### ME.Application:1.9.4 - 9.4 Stop separately at the remaining Method Engineering questions
 
 | Pattern question | EC-417 result or stop |
@@ -6136,13 +6281,12 @@ The membership episodes, their IBA assertion or evidence epistemes, optional con
 | ME.8 | `C-EC-Release-v2` remains a candidate account. Improve that account or a description of one admitted constituent Method; do not return a `U.MethodDescription` for the candidate whole. |
 | ME.9 | Profile `MRP-EC417-B2-Review-1` relates the [signed-versus-provisional pinout preparation](#meapplication171---signed-delta-preparation-for-b2) to later reconsideration of the candidate. Preparation and reopening remain unresolved for their separately named missing bases. The full claims, receiving results, missing bases, and cross-use relation are given in §9.4.1 below. |
 | ME.10 | Keep the retrieval and branch-selection passes, described CI/guard observations, missing tailoring definition and tailoring-stop test, `missing-selection-basis`, memberships, edition/publication results and provider/feedback gaps separate. A missing premise blocks only the task or stronger claim that requires it. Optional AI use, feedback or A.22 selection is not a completion condition for the observed PLM/CI uses; the tailoring definition and mandatory stop test are required for the full task-set pass. Actual membership, System-use, Work, permission and task-result claims still need their own obtaining basis. |
-| ME.10–ME.14 and ME.16 capability input | The current application supplies assignments and authority facts but no A.2.2 capability record for a person, AI System, team, or other holder. Any decision that needs holder, Work family, envelope, measures, qualification window, currentness, and evidence returns that missing input. Its absence alone does not establish a need for capability development. |
+| ME.10–ME.14 and IS.4 capability input | The current application supplies assignments and authority facts but no A.2.2 capability record for a person, AI System, team, or other holder. Any decision that needs holder, Work family, envelope, measures, qualification window, currentness, and evidence returns that missing input. Its absence alone does not establish a need for capability development. |
 | ME.11 | The three-release statement remains a WorkPlan. Add a release only after the corresponding dated release Work occurrence, its performers, enacted constituent Methods, Systems, capabilities, relied-on relations, conditions, domain result, burdens, deviations, and authority facts obtain. The Work does not enact the candidate whole. |
 | ME.12–ME.14 | ME.12 returns each correction to the maintained result it can affect. ME.13 stays on the candidate branch and cannot claim transfer before a performed held-out release situation. ME.14 can finish a present comparison of A, B, B2, and stop or next-slot from the available qualified observations and estimates, while preserving burden, confidentiality, capabilities, Systems, Work, relations, recovery, side effects, reversibility and evidence limits. A demonstrated release-worth claim still needs actual release and alternative evidence; any chosen trial retains its entry conditions. `CUR-EC417-CadenceEffect-1` remains `unsupported`. |
 | ME.15 | Maintain editions of `C-EC-Release-v2` as a candidate lineage until A.3.1 independently admits a Method with changed reusable semantics. Constituent Methods, descriptions, tools, and prompts remain separate. |
-| ME.16 | For each release that actually occurs, keep Method or candidate changes separate from description, PLM/CI/AI Systems, support Work, access, capability, assignment, permission, authority, release Work, and release-result changes. Retain decision-relevant adequate existing capability on its current A.2.2 basis without requiring development; return that missing basis when needed. Only a required capability-change claim consumes an independently obtained development result or returns its missing/stale result and next governing action. Omit capability detail that cannot change the decision. |
+| IS.4 | For each release that actually occurs, keep Method or candidate changes separate from description, PLM/CI/AI Systems, support Work, access, capability, assignment, permission, authority, release Work, and release-result changes. Retain decision-relevant adequate existing capability on its current A.2.2 basis without requiring development; return that missing basis when needed. Only a required capability-change claim consumes an independently obtained development result or returns its missing/stale result and next governing action. Omit capability detail that cannot change the decision. |
 | ME.17 | EC-417 supplies no C.20 Discipline recognition, bounded Method Engineering population, enacted Method Engineering variant or cultural-relation evidence. Keep those wider claims unsupported; no cultural inquiry is needed merely to complete the release or support result. If culture becomes the receiving question, use the bounded account and the MeCaMinD, SRA and Essence sources only for the relations they actually support. |
-
 
 
 ##### ME.Application:1.9.4.1 - 9.4.1 Preparation now, reopening after performed trials
@@ -6156,13 +6300,11 @@ Invoke ME.9 only for Method representation profile `MRP-EC417-B2-Review-1`, beca
 **The relation between the uses.** The cross-use profile records the shared evidence-entry, confidentiality, recovery, and stop correspondences, the preparation claim group's missing receiving result, and the reopening claim group's separate missing Work, conformance, and receiving bases; it keeps WorkPlan, any later Work, both actions, candidate readings, conformance judgments, and receiving results separate. It creates no super-view, Method admission, fit, transfer, worth, publication, or mathematical graph.
 
 
-
 ### ME.Application:1.10 - 10. Apply sensitivity without rewriting past Work
 
 If signed supplier pinout is available at `D-21`, the prospective choice reverses to A before integration. A then reaches the target slot with one final board and avoids the provisional board, later signed-delta preparation, and post-entry recovery exposure. B2 remains only if another named conflict justifies its extra branch.
 
 This sensitivity changes the current prospective decision. It does not relabel earlier B2 Work as A, erase a recovery occurrence, or prove that either alternative is generally better.
-
 
 
 ### ME.Application:1.11 - Result and stop
@@ -6187,7 +6329,6 @@ Stop before release when signed evidence, verification, confidentiality, capabil
 Stop only the enactment-support task or claim whose mandatory criterion fails or whose required task result, membership, capability, provider, feedback or selection basis is missing. Retrieval and branch selection retain their passes, and the observed tailoring fixture, signed-before-closure and stale-edition results remain. The missing tailoring definition and untested permission/authority stop prevent a complete task-set pass; unused AI/feedback features and the unselected A.22 proposal do not cancel the supported observations. Membership cannot repair a failed task, and a task pass selects no structure and proves no general capability. Stop Method Engineering at an earlier sufficient result when no whole question remains. Reopen only the affected result when its subject, source, evidence, authority, burden, task, System use, receiving criterion or relation truth changes.
 
 The application establishes no causal effect, Method identity for any candidate account, effective composite Method, universal lifecycle, cross-domain transfer, general holder capability, selected A.22 support structure, AI-provider use or feedback return inside the support test, positive release Work, or broad cultural continuation. It supplies only the bounded support-use facts and pattern stops stated above.
-
 
 
 ## ME.Application:2 - Compare explanations of a pattern language
@@ -6250,7 +6391,6 @@ contribution and its evidence conditions.
 # Framework Boundary and Refresh
 
 
-
 ## ME.Reference:1 - Intended use and ordinary non-use
 
 Use this framework when a Method-related identity, architecture, description, support, evidence, change, or
@@ -6263,14 +6403,12 @@ law, authority, or direct Method. A Method Engineering result can request and us
 does not replace it.
 
 
-
 ## ME.Reference:2 - PatternID and reader order
 
 `ME.*` is this framework's PatternID namespace. The numbers are stable addresses, not steps. The Parts provide
 a reader route over six problem families. Logical dependencies in the Table of Contents mean only that one
 result may consume another. Actual Work can overlap, branch, repeat, omit a result, or begin from a later pattern
 when its inputs already exist.
-
 
 
 ## ME.Reference:3 - Source use and currentness
@@ -6280,7 +6418,6 @@ The framework combines questions about Methods, their descriptions, performed Wo
 Direct Method Engineering sources contribute situation-responsive construction, Method content and ecosystems, representation, verification, validation, evaluation, efficacy, effectiveness, professional Method evolution, organizational introduction, and transmission cases. Their findings remain limited to the studied firm, ecosystem, telecom enterprise, OEM, workshop family, Method family, or institutional publication record. Claims of universal transfer, causal effect, long-term retention, or superiority need further evidence. Each pattern states the exact source use and reopening condition for its claims.
 
 Refresh only the affected pattern when a governing FPF distinction changes, a direct source changes practitioner action or case facts, a worked case can no longer support its branch, or replay exposes a missing independently useful Method Engineering move. A new source does not reopen the entire framework by default. ME.24 follows the changed premise through affected claims and uses; unknown dependency reach widens the question rather than licensing a claim that everything else is unaffected.
-
 
 
 ## ME.Reference:4 - FPF dependency and compatibility
@@ -6300,7 +6437,6 @@ Refresh only the affected pattern when a governing FPF distinction changes, a di
 **Bounded dependency — constituent enactment and replacement.** The Preface, ME.6 and ME.23 additionally select `B.1.5.EW — Recover How Constituent Actions Enact Encompassing Work` and `B.1.5.RS — Replace a Constituent Method in Its Encompassing Uses` from the September 2026 multilevel-methods edition of [FPF Core](https://github.com/ailev/FPF/blob/main/FPF-Spec.md), selected `FPF-Spec.md` SHA-256 `7e5396dc56427e3ae25f1ae0aa79477caa5e93539712dfbf0c65a50537038e54`. B.1.5.EW supplies the recovery of constituent and encompassing work at a selected moment, including the conditions under which the constituent can be performed. B.1.5.RS compares whether a proposed constituent replacement preserves what each encompassing use requires. Other FPF selections above remain unchanged.
 
 **Authority direction.** FPF does not depend on this DPF for the validity of its transdisciplinary results. A transdisciplinary discovery returns to FPF for its own architecture, review, and edition decision; Method Engineering keeps only the specialist remainder. Domain DPF results remain optional specialist returns with their producer's scope, evidence, authority, and stop.
-
 
 
 ## ME.Reference:5 - Representative case coverage
@@ -6325,8 +6461,9 @@ The pattern bodies state which case they consume and the exact result or stop. A
 cases into one population, project history, or stronger evidence claim merely because they appear in one table.
 
 
-
 ## ME.Reference:6 - External result use
+
+The [Practice Implementation Support Principles Framework](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/PRACTICE-IMPLEMENTATION-SUPPORT-PRINCIPLES-FRAMEWORK.md) supplies IS.4 for the introduction and later use of a selected Method, including explanation of changed results and bounded adaptation. Use IS.4 for introduction and adaptation; Method Engineering supplies the subject Method, its qualification, description, trial, worth and maintained variants.
 
 The framework can consume domain results from Systems Engineering, Human Capability Development, Organization
 Change, Operations Management, Music and Dance Practice Engineering, Administration, finance, safety, law,
@@ -6335,14 +6472,20 @@ may offer a reusable route when available; otherwise use the direct Method and s
 the needed specialist result.
 
 
-
 ## ME.Reference:7 - Edition return
 
-**Method Engineering Principles Framework**, identified by the version date at the beginning of this file, designates this framework account: its Readme, Table of Contents, Preface with the PLUS-ME profile and bounded production-MethodDescription, six Parts, the H/L/W worked application, the imported EC-417 cross-pattern application, framework boundary, and the exact pattern-body and application sources selected by the deterministic assembly. The edition name designates that claim-bearing framework account; a file is one carrier of it.
+**Method Engineering Principles Framework**, identified by the version date at the beginning of this file, designates this framework account: its Readme, Table of Contents, Preface with the PLUS-ME profile and bounded production-MethodDescription, six Parts, the H/L/W worked application, the imported EC-417 cross-pattern application, framework boundary, and the complete pattern bodies and applications in this publication. The edition name designates that claim-bearing framework account; a file is one carrier of it.
 
-`METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md` is one generated all-in-one Markdown presentation carrier for the edition. The carrier presents the selected reader form. Publication occurrence, actual access or use, currentness beyond the stated dependency and source windows, Suite membership, another product's availability, source authority, and Work authority each need their own basis.
+`METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md` is one complete Markdown presentation carrier for the edition. The carrier presents the selected reader form. Publication occurrence, actual access or use, currentness beyond the stated dependency and source windows, Suite membership, another product's availability, source authority, and Work authority each need their own basis.
 
 
+**Product series.** The 12 October 2026 edition is the first admitted member of the Method Engineering product series. The series serves practitioners and assisting agents choosing, constructing, describing, comparing, qualifying and improving Methods and their performance and support arrangements. Independently useful Method Engineering results and qualified returns to domain practices govern this scope. An adequate known Method or arrangement can remain unchanged. Replacing Method Engineering with general service provision or whole development identifies another series.
+
+Admit a later edition through an explicit decision when its relation to the actual source edition is established and the complete language is qualified for this purpose. Preserve independently useful operations, needed results and qualified supplier boundaries when refining, splitting or redistributing contributions. Correct false claims and mistaken boundaries. Source derivation alone does not admit an edition to the series.
+
+Review the affected admission or use when a relied-on foundation or source changes, a required contribution becomes unavailable, or use exposes a consequential failure. Loss of qualification calls for a warning and a decision about repair, withdrawal of recommendation or retirement. Superseded, unavailable or retired editions retain their historical membership while the series continues; a false admission claim requires correction. Explicit retirement ends the series and its current belonging occurrences while preserving past facts. A later active collection requires a new constitution.
+
+A change of title, publication home, Suite membership or maintenance alone leaves the series identity unchanged. The constitution establishes no maintenance service, future edition or uninterrupted availability.
 
 ## ME.Reference:8 - Publication boundary
 

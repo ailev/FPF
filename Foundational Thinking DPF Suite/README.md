@@ -51,7 +51,7 @@ Each size covers the full linked Markdown file, including spaces and markup. 1 M
 
 Computational Thinking develops algorithmics within computer science; numerical computation is one of its applications. Notational Engineering develops the expression conventions that make operations interpretable and usable. Current editions and this Reference are published together in this Suite folder.
 
-[FPF](../FPF-Spec.md) supplies the common reasoning methods. The [Engineering DPF Suite](../Engineering%20DPF%20Suite/) supplies collaborating domain methods, including Method Engineering and capability development. These publications can be used with this Suite without becoming its members.
+[FPF](../FPF-Spec.md) supplies the common reasoning methods. The [Engineering DPF Suite](../Engineering%20DPF%20Suite/README.md) supplies collaborating domain methods, including Method Engineering and capability development. These publications can be used with this Suite without becoming its members.
 
 ## Purpose and continuity
 

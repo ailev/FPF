@@ -8182,7 +8182,7 @@ The starting question might be “Why does the support force change while I cont
 
 Coates and Demers' *Physics and Dance* (2019) develops these connections through mechanics, movement explorations, artistic examples and its workbook. Its principal artistic setting is Western concert, modern and postmodern dance. The account below develops usable connections to PHY, SOM, RHY, HCD and MDPE; it does not reproduce the complete teaching practices of the artists discussed in the book. Familiar, suitable movement and competent instruction are inputs when bodily performance is required. A recording, diagram or tabletop representation can support some inquiries when those inputs are unavailable, but cannot establish the corresponding bodily capability.
 
-Use the complete supplying explanations in [Physical Thinking](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/PHYSICAL-THINKING-DPF.md), [Somatic Practice](SOMATIC-MOVEMENT-MODELING-PRINCIPLES-FRAMEWORK.md), [Embodied Rhythmics](EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md) and [Human Capability Development](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) at the particular returns named below.
+Use the complete supplying explanations in [Physical Thinking](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/PHYSICAL-THINKING-DPF.md), [Somatic Practice](SOMATIC-MOVEMENT-MODELING-PRINCIPLES-FRAMEWORK.md), [Embodied Rhythmics](EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md) and [Human Capability Development](../Development%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) at the particular returns named below.
 
 
 

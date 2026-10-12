@@ -1,6 +1,6 @@
 # Checklist Principles Framework
 
-First edition, 2026-09-25. [Edition and citation](#edition-and-citation).
+First edition, 2026-09-25; current version, 12 October 2026. [Edition and citation](#edition-and-citation).
 
 # Table of Contents
 
@@ -18,7 +18,7 @@ Within Checklist Principles Framework, the reference code is **CHK** and numeric
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | [CHK.1 - Select Checklist Questions for a Work Result](#chk1---select-checklist-questions-for-a-work-result) |  | consequential omission; subject; description; useful characteristics. “Which questions deserve attention?” “What does this list leave uncovered?” | ME.3; FPF B.1.5, E.10.D2; CHK.6 when criteria are uncertain |
 | 2 | [CHK.2 - Construct a Checklist Template That Preserves Its Questions](#chk2---construct-a-checklist-template-that-preserves-its-questions) |  | template; instance; table; local view; answer meanings. “Can I transpose or split this list without losing its meaning?” | CHK.1 or an existing question set; ME.8; EXD.1, EXD.6 |
-| 3 | [CHK.3 - Fit a Checklist to Its Occasion of Use](#chk3---fit-a-checklist-to-its-occasion-of-use) | Stable | pause; read-do; do-confirm; assistance; tools; adoption. “Why is this list skipped or prefilled?” | CHK.2 or an existing template; ME.10, ME.11, ME.16 |
+| 3 | [CHK.3 - Fit a Checklist to Its Occasion of Use](#chk3---fit-a-checklist-to-its-occasion-of-use) | Stable | pause; read-do; do-confirm; assistance; tools; adoption. “Why is this list skipped or prefilled?” | CHK.2 or an existing template; ME.10, ME.11, IS.4 |
 | 4 | [CHK.4 - Use a Checklist to Answer Questions and Act on the Results](#chk4---use-a-checklist-to-answer-questions-and-act-on-the-results) |  | observation; reuse; no; unknown; action; changed description. “What can I answer now, and what follows?” | ADM.7; OPS.6, OPS.18; CHK.5 for shared reliance |
 | 5 | [CHK.5 - Reconcile Checklist Results Across Shared Work](#chk5---reconcile-checklist-results-across-shared-work) |  | partial result; whole; conflict; changed premise; resumption. “Do these local answers support our shared result?” | CHK.4; OPS.3, OPS.4; ADM.13; FPF B.1.5, A.15.10 |
 | 6 | [CHK.6 - Qualify Checklist Criteria and Checking Means](#chk6---qualify-checklist-criteria-and-checking-means) |  | counterexample; discrimination; false pass; AI; test; evidence. “Could this check miss the very difference we care about?” | ME.3, ME.11, ME.14; ADM.7; CHK.1 for coverage |
@@ -103,7 +103,7 @@ For a fuller account of change and subject states, return to [FPF A.3.3][A33], [
 
 ## CHK.Preface:4 - Choosing and combining the Methods
 
-For a recurring omission, select a useful question set with CHK.1, express it with CHK.2 and arrange first use with CHK.3. CHK.4 then produces answers on real occasions. Compare the contribution and burden with [ME.14][ME14], and use [ME.16][ME16] to choose a worthwhile change. The result can be a clearer question, a different occasion, new support, or retirement of the aid.
+For a recurring omission, select a useful question set with CHK.1, express it with CHK.2 and arrange first use with CHK.3. CHK.4 then produces answers on real occasions. Compare the contribution and burden with [ME.14][ME14], and use [IS.4][IS4] to choose a worthwhile change. The result can be a clearer question, a different occasion, new support, or retirement of the aid.
 
 For shared work with uncertain criteria, use CHK.6 to challenge those criteria and checking means. CHK.1 retains the useful coverage; CHK.2 and CHK.3 give participants workable local views. CHK.4 supplies local answers. CHK.5 tests their combined use, locates gaps and reopens affected reliance when premises change. Several Methods can be active within the same larger performance; an earlier result is needed only where another action actually consumes it.
 
@@ -473,7 +473,7 @@ Recover the specific capability needed to answer. Counting supplied items may be
 
 For human participants, inspect whether time pressure, hierarchy, mistrust or incentives discourage a truthful response. Explain the practical purpose, involve people who bear the burden, and change the arrangement that prevents use. An instruction to “be more diligent” does not diagnose the obstacle. Where introduction changes established organizational practice, [OCE.6][OCE6] and [OCE.10][OCE10] supply that work beyond this fitting Method.
 
-When the proposed change still needs examination and agreement, [OCE.12:4.3.3][OCE12PREP] connects preparation with relevant advisers, the organizational decision and a shared understanding of the agreed start. Return its accepted contributions and conditions to this work occasion: who supplies the observation, who has time to check, what help is available and who receives an unresolved answer. Confirming those arrangements can support first use; the trial below must still show whether the aid contributes to a useful handover. A new consequential objection or an unavailable resource returns to the affected decision before dependent use.
+When the proposed change still needs examination and agreement, [LDR.4][LDR4PREP] connects preparation with relevant advisers, the organizational decision and a shared understanding of the agreed start. Return its accepted contributions and conditions to this work occasion: who supplies the observation, who has time to check, what help is available and who receives an unresolved answer. Confirming those arrangements can support first use; the trial below must still show whether the aid contributes to a useful handover. A new consequential objection or an unavailable resource returns to the affected decision before dependent use.
 
 For an AI agent, provide the applicable description and criteria, usable tools, relevant retained observations and a way to express uncertainty. Mixed human/AI work needs a clear handover of unresolved judgement.
 
@@ -487,7 +487,7 @@ A first assisted use can reveal unfamiliar wording or a missing observation rout
 
 After the assisted occasion, examine an ordinary later use where continued reliance matters. Compare when the aid influenced the work with the observations and entries actually made. A late record can faithfully report an earlier observation; it is different from inventing answers for omitted checks. Repair the reason for bypassing or fictional completion, including poor fit, missing access or incentives that suppress truthful answers. Choose any continuing oversight through the actual work arrangement; a penalty is not a universal checklist-design remedy.
 
-Return a meaning defect to CHK.2, a coverage defect to CHK.1, an inadequate check to CHK.6, and a missing capability or resource to its supplying practice. Use [ME.14][ME14] to compare worth and [ME.16][ME16] to choose a change or retirement. Stop when the arrangement works at worthwhile cost; do not keep adding ceremony merely because some use remains irregular.
+Return a meaning defect to CHK.2, a coverage defect to CHK.1, an inadequate check to CHK.6, and a missing capability or resource to its supplying practice. Use [ME.14][ME14] to compare worth and [IS.4][IS4] to choose a change or retirement. Stop when the arrangement works at worthwhile cost; do not keep adding ceremony merely because some use remains irregular.
 
 ### CHK.3:5 - Archetypal Grounding
 
@@ -550,7 +550,7 @@ This choice accepts the cost of integration or assistance only for an obstructio
 
 ### CHK.3:12 - Relations
 
-CHK.2 supplies a usable template; CHK.4 enacts it at the arranged occasion. CHK.5 identifies shared contributions whose coordination affects fitting. [ME.10][ME10], [ME.11][ME11], [ME.14][ME14] and [ME.16][ME16] supply enactment preparation, representative trial, worth appraisal and improvement.
+CHK.2 supplies a usable template; CHK.4 enacts it at the arranged occasion. CHK.5 identifies shared contributions whose coordination affects fitting. [ME.10][ME10], [ME.11][ME11], [ME.14][ME14] and [IS.4][IS4] supply enactment preparation, representative trial, worth appraisal and improvement.
 
 [HCD.3][HCD3] supplies capability analysis. Organizational introduction returns to [OCE.6][OCE6] and [OCE.10][OCE10]. [FPF A.15.11][A1511] supplies noticing an applicable Method in the working situation.
 
@@ -989,7 +989,6 @@ CHK.1 supplies proposed work questions and receives coverage corrections. CHK.2 
 # Applications
 
 
-
 ## CHK.Application:1 - From a recurring omission to a useful aid
 
 An organizer repeatedly receives physically complete seminar cards containing wording from an earlier exercise. The facilitator can explain the exercise, and the packer can count and inspect cards; neither currently sees the whole question at the useful moment.
@@ -1008,12 +1007,11 @@ The worked case below explains those conditional moves. Resume at the unresolved
 
 **Use and change.** CHK.4 supplies answers from observations at 10:00, 10:05 and 10:10, entered at 10:12. At 10:15 the description changes to v3. Known unchanged v2 cards already mismatch it. If current cards may differ, current wording is instead unknown. The facilitator decides to keep v3 and replace the affected card, then obtains the changed comparison and any physical checks affected by handling. The old v2 answer remains historical.
 
-**Worth and improvement.** A representative trial through [ME.11][ME11] observes whether the aid catches the wording problem, whether users can interpret the questions, and how much time or duplicated work it adds. [ME.14][ME14] compares that contribution with burden across the preparation work. A timely wording check can avoid reopening, replacing and repacking the set; completing the checklist faster is no gain if it misses that problem or merely moves the delay elsewhere. If a direct conversation at packing already prevents the omission with less cost, retain the conversation and retire the redundant aid. If the aid is useful but its description is hard to find, [ME.16][ME16] selects that focused improvement rather than enlarging the list.
+**Worth and improvement.** A representative trial through [ME.11][ME11] observes whether the aid catches the wording problem, whether users can interpret the questions, and how much time or duplicated work it adds. [ME.14][ME14] compares that contribution with burden across the preparation work. A timely wording check can avoid reopening, replacing and repacking the set; completing the checklist faster is no gain if it misses that problem or merely moves the delay elsewhere. If a direct conversation at packing already prevents the omission with less cost, retain the conversation and retire the redundant aid. If the aid is useful but its description is hard to find, [IS.4][IS4] selects that focused improvement rather than enlarging the list.
 
 Keep use, detected problems and work outcomes distinct. A caught wording mismatch is an observed contribution; it does not establish that the exercise would otherwise have failed. Another participant might have caught it later. Conversely, a session that went well does not establish that every check was sound. When appraising the change, account for the training, support, other changes and case differences accompanying the aid. Staff enthusiasm or a rising count of ticks does not isolate its effect.
 
 The worked route uses CHK.1–4 with Method engineering; uncertain criteria or shared reliance bring in CHK.6 or CHK.5 when needed. It can return at several points: unsupported usefulness calls for domain inquiry; lost references call for template repair; inaccessible information calls for fitting; unchanged adequate grounds support economical reuse. The three physical-set answers never settle the exercise's usefulness by themselves.
-
 
 
 ## CHK.Application:2 - Shared work with uncertain criteria and changed premises
@@ -1044,7 +1042,6 @@ The route uses all six Checklist Methods because this constructed case has uncer
 # Sources and dependencies
 
 
-
 ## CHK.Reference:1 - Source contributions and their limits
 
 These sources inform the Methods in different ways. The historical and conceptual sources support problem recognition and synthesis. Empirical studies and engineering accounts support their stated observations under their own conditions.
@@ -1052,7 +1049,7 @@ These sources inform the Methods in different ways. The historical and conceptua
 | Source and return | Contribution used here | Limit and reconsideration condition |
 | --- | --- | --- |
 | R7, Methodology, connected checklist passages in chapter 6 and their Method, qualification and change context | Questions about work subjects; reusable templates and filled instances; local adaptation; timing, assistance, skill, motivation and worth. | Translate the ideas under current FPF rather than importing meta-level or alpha terminology. Revisit the affected Method if a source distinction lost in translation changes use. |
-| R10, Systems Management, connected operational model, shared-state and administration passages; 10:2 and 10:5 on introducing a practice | Local interpretation, shared views and coordination; preparing an organizational decision and fitting the aid to its first working use. | CHK.3 develops the use occasion and returns organizational preparation to OCE.12:4.3.3; CHK.5 reconciles shared results. A publicly confirmed start or completed representation leaves performed work and the receiving result to establish. |
+| R10, Systems Management, connected operational model, shared-state and administration passages; 10:2 and 10:5 on introducing a practice | Local interpretation, shared views and coordination; preparing an organizational decision and fitting the aid to its first working use. | CHK.3 develops the use occasion and returns organizational preparation to LDR.4; CHK.5 reconciles shared results. A publicly confirmed start or completed representation leaves performed work and the receiving result to establish. |
 | Atul Gawande, *The Checklist Manifesto* (2009; 2010 UK edition), especially the professional-reminder, team-interaction and design/trial cases | Historical practitioner account of selecting attention and arranging real use. | Domain cases and suggested design heuristics do not establish universal list length, timing or causal effect. |
 | [Urbach et al., 2014][URBACH] | A population-level implementation result constraining easy effectiveness claims. | Its before/after setting does not show that every checklist is ineffective. Seek domain-specific evidence when making an outcome claim. |
 | [Facey et al., 2024][FACEY] | Mechanisms by which documentation can diverge from observed checklist practice. | One institutional setting does not establish prevalence elsewhere. Inspect the actual local arrangement. |
@@ -1072,7 +1069,6 @@ These sources inform the Methods in different ways. The historical and conceptua
 The useful synthesis is a short question set with recoverable meaning, an actual occasion and suitable grounds. A checklist does not supply all professional knowledge, prove that its described characteristics are useful, or establish a whole result merely through constituent passes.
 
 
-
 ## CHK.Reference:2 - Relied-on framework content
 
 The Checklist edition relies on the following content for the receiving uses stated here. The direct pattern links identify the supplying text.
@@ -1083,7 +1079,7 @@ The Checklist edition relies on the following content for the receiving uses sta
 | Current FPF: [A.3.3][A33], [A.3.4][A34], [A.22][A22] | Transformation and state-structure distinctions in the Preface and change examples. | A changed governing claim alters what a described state or transformation relation means. |
 | Current FPF: [B.1.5][B15], [A.15.10][A1510], [A.15.11][A1511] | Constituent/encompassing Method use, changed premises and noticing applicable Methods in CHK.1, CHK.3–5. | A changed relation alters the local-to-whole inference, recovery or support arrangement. |
 | Current FPF: [A.19.ULSAM][ULSAM] | Admitted measures and lawful aggregation when CHK.6 examines a numerical total. | Changed measures, inclusion or aggregation meaning defeat the numerical inference. Separate answers need no aggregate. |
-| Method Engineering: [ME.3][ME3], [ME.8][ME8], [ME.10][ME10], [ME.11][ME11], [ME.14][ME14], [ME.16][ME16] | Criterion construction, Method description, enactment arrangement, representative trial, worth and improvement. | A changed supplier result makes the corresponding Checklist action or return unsound. ME.3's generic requirement wording is not imported as deontic force. |
+| Method Engineering: [ME.3][ME3], [ME.8][ME8], [ME.10][ME10], [ME.11][ME11], [ME.14][ME14]; Implementation Support: [IS.4][IS4] | Criterion construction, Method description, enactment arrangement, representative trial, worth and improvement. | A changed supplier result makes the corresponding Checklist action or return unsound. ME.3's generic requirement wording is not imported as deontic force. |
 | Operations Management: [OPS.3][OPS3], [OPS.4][OPS4], [OPS.6][OPS6], [OPS.18][OPS18] | Operating-subject distinctions, shared operating state, case continuation and quality/reliability control used in CHK.3–5. | Changed work or record semantics defeats combined use or recovery. |
 | Organization Administration: [ADM.7][ADM7], [ADM.13][ADM13] | Claim-checking and fit-for-use record distinctions, adapted from administrative practice in CHK.4–6. Administrative authority or institutional rules apply only where independently relevant. | A changed checking or coordination relation alters the supplied result. |
 | Human Capability Development: [HCD.3][HCD3]; Organization Change Engineering: [OCE.6][OCE6], [OCE.10][OCE10] | Capability analysis and organizational introduction when CHK.3 reveals those needs. | The identified capability or introduction arrangement no longer serves the intended work. |
@@ -1091,7 +1087,6 @@ The Checklist edition relies on the following content for the receiving uses sta
 | The particular work domain | Descriptions, usefulness assumptions, competent judgements and observations; separately applicable legislative requirements where relevant. | Changed domain evidence, purpose, subject or applicable law changes the criterion or receiving action. |
 
 This edition uses the supplying text identified in its first-edition source basis. A later date or a working hyperlink does not establish semantic compatibility. Before reusing an answer affected by a supplier change, compare the actual changed content with its named receiving use. Unaffected Methods remain usable.
-
 
 
 ## CHK.Reference:3 - Refresh and improvement
@@ -1107,10 +1102,9 @@ Repeated non-use, prefilled answers, interpretation errors, burdens shifted to o
 
 The public name is **Checklist Principles Framework**. **Checklist DPF** is a descriptive short form; **CHK** is its citation code.
 
-Cite a pattern as “Checklist Principles Framework, CHK.4.” Add “first edition, 2026-09-25” when the reference selects this edition's body. CHK.1–CHK.6 identify the six practical answers collected here; their numeric order is a finding aid. A later title or publication-order change can preserve an identifier while the same practical answer continues. A split, replacement or retirement calls for an explicit reader return rather than reuse of the identifier for an unrelated answer.
+Cite a pattern as “Checklist Principles Framework, CHK.4.” Add “current version, 12 October 2026” when the reference selects this version's body. The first edition was dated 2026-09-25. CHK.1–CHK.6 identify the six practical answers collected here; their numeric order is a finding aid. A later title or publication-order change can preserve an identifier while the same practical answer continues. A split, replacement or retirement calls for an explicit reader return rather than reuse of the identifier for an unrelated answer.
 
 This first edition covers the selection, construction, fitting, use, reconciliation and qualification of checklists in human, AI and mixed professional work. Its Readme, Preface, applications and source account support the same use. Its examples are constructed cases, and any claim of effectiveness in a particular field calls for evidence about that field and arrangement.
-
 
 
 ## CHK.Edition:1 - License and reuse
@@ -1133,14 +1127,14 @@ Copyright (c) Anatoly Levenchuk. The original text and worked examples in this C
 [ME10]: METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me10---configure-an-enactment-support-arrangement-adding-a-method-base-when-needed
 [ME11]: METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me11---trial-the-method-in-representative-work
 [ME14]: METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me14---evaluate-a-methods-practical-worth-against-current-alternatives
-[ME16]: METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me16---introduce-a-method-into-practice-and-decide-what-to-keep-or-change
+[IS4]: https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/PRACTICE-IMPLEMENTATION-SUPPORT-PRINCIPLES-FRAMEWORK.md#is4---introduce-a-method-into-practice-and-decide-what-to-keep-or-change
 [OPS3]: OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops3---distinguish-operating-subjects-cases-queues-resources-and-records
 [OPS4]: OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops4---keep-current-operating-state-recoverable-across-participants
 [OPS6]: OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops6---continue-cases-and-handle-exceptions
 [OPS18]: OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops18---control-operating-quality-and-reliability
 [ADM7]: ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md#adm7---check-the-claim-needed-for-this-administrative-decision
 [ADM13]: ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md#adm13---keep-administrative-records-fit-for-their-uses
-[HCD3]: HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd3--diagnose-whether-a-capability-misconception-or-behaviour-limits-work
+[HCD3]: ../Development%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd3--diagnose-whether-a-capability-misconception-or-behaviour-limits-work
 [OCE6]: ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce6---establish-holder-assignments-and-enabling-relations-for-organization-change
 [OCE10]: ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce10---choose-a-response-to-participation-or-working-culture-difficulties-in-the-target-organization
 [EXD1]: EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#exd1---establish-and-revise-what-a-recipient-needs-explained
@@ -1153,6 +1147,6 @@ Copyright (c) Anatoly Levenchuk. The original text and worked examples in this C
 [ANTHROPIC1]: https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents
 [ANTHROPIC2]: https://www.anthropic.com/engineering/harness-design-long-running-apps
 
-[OCE12PREP]: ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce12433---prepare-a-proposal-for-decision-and-first-use
+[LDR4PREP]: https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/LEADERSHIP-PRINCIPLES-FRAMEWORK.md#ldr4---prepare-a-proposal-for-decision-and-first-use
 
 ## CHK.Edition:End

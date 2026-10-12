@@ -1,8 +1,6 @@
-# Community Building Principles Framework
+# Community Management Principles Framework
 
-Edition: [Community Building — First edition](#edition-and-use).
-
-Publication date: 27 September 2026.
+Edition: [Community Management — Participation and practice-support edition](#edition-and-use), 12 October 2026.
 
 # Table of Contents
 
@@ -10,7 +8,7 @@ CB is this framework's reference code; its numeric local locators give CB.1–16
 
 | Unit | Reader use |
 | --- | --- |
-| [Community Building Readme](#community-building-readme) | Select a practical first entry. |
+| [Community Management Readme](#community-management-readme) | Select a practical first entry. |
 | [Preface](#preface) | Understand and combine the methods. |
 
 ## Part A - Choose the contribution and make entry possible
@@ -57,11 +55,11 @@ CB is this framework's reference code; its numeric local locators give CB.1–16
 | [CB.Reference - Sources, relations and renewal](#sources-relations-and-renewal) | Recover source limits, external contributions and changed-use returns. |
 | [CB.Edition - Edition and use](#edition-and-use) | Identify and cite this edition; find licensing terms. |
 
-# Community Building Readme
+# Community Management Readme
 
 ## Practical entries
 
-Use this framework when you are trying to make a useful cultural or community contribution: help people sustain a practice, obtain something from one another, take part in a valued activity, or make their shared experience useful elsewhere. A community organiser, participant, practitioner, sponsor or assisting agent can enter at the difficulty already present.
+Use this framework when people need useful participation, relationships or joint contributions: help one another, take part in a valued activity, keep shared work feasible, or make their experience useful elsewhere. A community organiser, participant, practitioner, sponsor or assisting agent can enter at the difficulty already present. When the proposed community is meant to support a wider cultural purpose, CB.1 also helps decide whether that purpose needs a community contribution at all.
 
 These are selected examples, not a catalogue or a coverage boundary. Bring the actual question to the [Table of Contents](#table-of-contents) when none fits. Open a pattern's Problem frame, then its Solution and worked case. You can ask an assisting agent: “Explain this and give me your comments in ordinary language, without framework jargon.”
 
@@ -97,13 +95,17 @@ The four Parts group related questions for finding them. They are not stages tha
 
 # Preface
 
-## CB.Preface:1 - Useful cultural and community work
+## CB.Preface:1 - Useful participation and its wider contributions
 
-Community Building concerns the deliberate creation, support and renewal of useful participation, relationships and shared ways of working. Its wider cultural purpose can also be served by people who learn and use a practice independently. A population of carriers of a practice need not communicate, identify with a community or act as one decision-making body.
+Community Management concerns building, sustaining, changing and ending arrangements for useful participation, relationships and joint contributions. Its Methods serve organisers and participants, including people who do this work without a community-manager position. The word management grants no authority over participants: the actual permissions, accepted commitments and common mandate determine who can decide what.
 
-This language serves people constructing or changing such contributions in professional networks, voluntary groups, communities of practice, customer communities and other shared activities. The immediate difficulty may be an unclear offer, an unanswered request, inaccessible participation, exhausted organisers, a disputed rule, a missing shared resource, a practice that nobody can reuse, or a collective view that cannot reach a decision. People may also want more of an already useful activity. The framework helps turn that intent into something people can actually obtain and sustain.
+A community can support a wider cultural purpose. That purpose can also be served by people or agents who obtain and use a practice independently. A population carrying a practice need not communicate, identify with a community or act as one decision-making body. C.36 and C.36.RP address that wider cultural question directly; this framework supplies the community contribution and the qualified alternatives described in its patterns.
+
+This language serves people constructing or changing such contributions in professional networks, employee and customer communities, voluntary groups, communities of practice and other shared activities. The immediate difficulty may be an unclear offer, an unanswered request, inaccessible participation, exhausted organisers, a disputed rule, a missing shared resource, a practice that nobody can reuse, or a collective view that cannot reach a decision. People may also want more of an already useful activity. The framework helps turn that intent into something people can actually obtain and sustain.
 
 Begin by distinguishing the intended change. A repairer may want a justified diagnostic continuation; a neighbour may want enjoyable company; a volunteer may need a manageable contribution; a sponsor may want more capable use of a product. Learning, relationships, cultural continuation and commercial outcomes can coexist, but one does not stand for the others. Their differences can change the offer, the appropriate method and who should bear its cost.
+
+An employee community and the organization employing its participants are different ways of considering their relations. Assignment authority over a job does not automatically settle a community's participation terms; a community mandate does not authorize changes to the employer's production commitments. A provider can contribute to several communities without controlling them. Distinguish these relations when a proposed contribution relies on them.
 
 Use an existing satisfactory arrangement without re-engineering it. When one person needs a dependable professional answer, obtain the service. When an adequate explanation or learning provision lets people perform independently, that can be the whole cultural contribution. When there is no usable professional method, develop or obtain that method before promising its benefits. Community activity can help that work, but does not supply the missing domain knowledge by itself.
 
@@ -141,7 +143,9 @@ An **arrangement based on mutual participation** makes contributions available t
 
 An **arrangement for independent use** makes a practice obtainable and usable in people's separate settings. It may rely on a description, demonstration, exercise, tool and correction route. Cultural continuation then depends on actual acquisition, performance, selection and retention of the practice. A forum is optional. The [independent-use application](#cbapplication3---application-3---extend-a-practice-without-a-discussion-group) shows how a missing resource changes this route even when the learner understands the method.
 
-These alternatives can be combined within one person's changing participation. Someone can learn independently, ask one question, contribute an example and then return to private work. CB.3 supports that change when participation itself needs help. FPF Core's treatment of cultural evolution (C.36) supplies the wider distinctions among cultural transmission, performance, retention and renewal; CB.1 makes a particular cultural offer useful and feasible.
+These alternatives can be combined within one person's changing participation. Someone can learn independently, ask one question, contribute an example and then return to private work. CB.3 supports that change when participation itself needs help. [C.36](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36---cultural-evolution-and-cultural-evolution-engineering) supplies the wider distinctions among cultural transmission, performance, retention and renewal. [C.36.RP](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36rp---sustain-and-renew-shared-ways-of-working) develops how to make a way of working obtainable, usable and renewable across carriers. CB.1 compares the proposed community contribution with serious alternatives. Its independent-learning branch assumes a sufficiently known professional practice and obtainable learning provision; it does not supply every kind of cultural construction.
+
+For example, a capable AI may already perform a selected contribution, while a person needs an explanation, a permitted tool or a professional service rather than learning that performance themselves. Obtain the missing contribution through its actual Method and provider. Use HCD when a human capability is the intended result. Use CB when participation or a joint contribution still needs arranging. C.36.RP keeps the wider acquisition, provision and renewal question available when no such participation is needed.
 
 The language therefore starts from the receiving situation rather than a platform, a membership target or one inherited community model. It retains the useful organising repertoire found in practitioner sources while asking what each move contributes. Communities of practice supply powerful forms for joint learning and stewardship, yet learning together does not define every community or every cultural intervention. Business community methods supply purpose, provision and early organising constructions, while participants' own purposes and voluntary terms remain explicit.
 
@@ -155,7 +159,9 @@ Another condition can change the constituent action without changing its convers
 
 The same relation applies to voluntary activity. Welcoming a newcomer may be part of running a garden session. Safe access to the shared tools, suitable supervision and the session host's available attention constrain the welcome. If the host must simultaneously resolve an urgent access incident, a prepared small task with another capable, willing helper may keep entry feasible; otherwise the session's promise must shrink.
 
-Community Building provides only part of this work. The relevant practice supplies its professional method and correctness criteria. Human Capability Development (HCD) supplies development of a needed human capability and the conditions for practice and feedback. Organization Change Engineering (OCE) and Operations Management (OPS) help establish work arrangements and capacity when those contributions are missing; Management Accounting (MA) helps compare costs created by the chosen promise. Method Engineering (ME) and Research Method Practice (RMP) supply method development or research when those questions are open. The [supplier returns](#cbreference2---actual-supplier-returns) identify where those contributions become useful.
+Community Management provides only part of this work. The relevant practice supplies its professional method and correctness criteria. Human Capability Development (HCD) supplies development of a needed human capability and the conditions for practice and feedback. Organization Change Engineering (OCE) and Operations Management (OPS) help establish work arrangements and capacity when those contributions are missing; Management Accounting (MA) helps compare costs created by the chosen promise. Method Engineering (ME) and Research Method Practice (RMP) supply method development or research when those questions are open. The [supplier returns](#cbreference2---actual-supplier-returns) identify where those contributions become useful.
+
+A community can support a culture of continuing development. Participation, learning a Method and creating a useful repertoire are possible contributions to that purpose; none by itself establishes development of the person, organization or other intended subject. [DOCA.9](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/DEVELOPMENT-AND-SELF-DEVELOPMENT-PRACTICE-PRINCIPLES-FRAMEWORK.md#doca9---construct-and-sustain-a-connected-development-undertaking) supplies the connected development construction, including formation of a worthwhile question, an attainable changed possibility for that subject and continuation after success. Use CB for the participation and joint contributions that construction actually needs. The community may remain useful for ordinary work when no development undertaking is needed.
 
 Replacing a contribution requires examining what it did in the whole. A written answer may replace an explanation of a known procedure while leaving a new case's diagnosis unresolved. Paying a coordinator may supply booking and material preparation while leaving expert capacity unchanged. Keep these differences visible when comparing alternatives and receiving the changed work.
 
@@ -180,7 +186,7 @@ Whose account is easiest to hear can bias the result. Include a consequential mi
 
 ## CB.Preface:7 - What this publication preserves and where to return
 
-This publication selects sixteen recurring community and cultural work problems and develops methods for answering them. The complete bodies preserve their recognition conditions, construction, alternatives, worked cases, costs and return conditions. The ToC compresses each to a search row; the Readme compresses selected uses to entry guidance; the Preface explains connections. None of these compressed forms replaces the body needed to perform or adapt a method.
+This publication selects sixteen recurring problems of community work and its cultural contributions and develops methods for answering them. The complete bodies preserve their recognition conditions, construction, alternatives, worked cases, costs and return conditions. The ToC compresses each to a search row; the Readme compresses selected uses to entry guidance; the Preface explains connections. None of these compressed forms replaces the body needed to perform or adapt a method.
 
 The source basis combines practitioner community-building accounts, the communities-of-practice repertoire, conceptual distinctions about culture and communities, bounded research contributions, and current FPF and domain-method suppliers. The [source-use account](#cbreference1---source-use-and-limits) states what was adopted, adapted or bounded and which changes would reopen it. Each body's SoTA-Echoing section gives the closer comparison and source return.
 
@@ -201,7 +207,7 @@ Unresolved use, repeated misunderstanding, changed provision or new source evide
 
 Use this pattern when you want to help a practice spread, enable people to help one another, or create a place where a particular group can participate meaningfully, and the useful contribution is still unclear. A professional association proposes a forum; a neighbourhood organiser proposes a shared activity; a sponsor offers a platform. Before building the arrangement, determine whose situation it should improve and why this arrangement could do so.
 
-Community Building covers both the development of people who carry a practice and the formation or continuation of relationships among participants. This pattern governs the choice of a contribution within that broad field. Its immediate subject is a proposed change in people's practice, participation or relationships and the arrangement that could support that change. People can adopt a practice without communicating with one another. Where mutual participation matters, its contribution needs an explanation of its own.
+Community Management concerns useful participation, relationships and joint contributions. This pattern begins early enough to discover that a proposed community is unnecessary. Its immediate subject is a proposed change in people's practice, participation or relationships and the contribution that could support that change. Cultural continuation is the wider question supplied by C.36 and C.36.RP. People can adopt a practice without communicating with one another; where mutual participation matters, its contribution needs an explanation of its own.
 
 The first useful result is a bounded, understandable proposal: who could benefit, what would become possible, what participants and organisers would contribute, what conditions must hold, and which first action could test the proposal. A justified choice to use an existing service, improve access to a useful resource, or leave an adequate arrangement alone is also a result.
 
@@ -277,15 +283,15 @@ Compare at the scale of the actual first use. Include preparation, response, cor
 
 For **mutual participation**, name the kinds of people whose contributions can help one another and the activity through which that help becomes possible. Describe the minimum relevant experience or access, the material people can bring, and what someone receiving a contribution will do with it. Membership criteria should follow the work and conditions of participation. A brand preference or friendship with the founder is insufficient when the promise concerns a wider professional group.
 
-For **independent carriers of a practice**, identify the population and later activity to be changed. C.36 helps distinguish transmission, performance, selection and renewal of the practice. Then connect the needed contributions:
+For **independent carriers of a sufficiently known practice who need to learn it**, identify the population and later activity to be changed. C.36 distinguishes transmission, performance, selection and renewal; C.36.RP supplies the broader construction when access, a capable provider, tools or method development may answer the need. The learning branch below connects contributions for its particular result:
 
 1. Make the useful activity and participation demand understandable to potential learners. Show a relevant use and the available means of learning it.
 2. Establish that the domain method and its correctness criteria are available. If experts cannot supply a usable method, return that question to Method Engineering, and to Research Method Practice when unresolved evidence requires inquiry.
-3. Use HCD.5 to select learning activities for the relevant starting conditions and HCD.6 to construct representative practice and changed-condition attempts. Obtain missing material, help or access through HCD.7/8; a teaching publication can use Learning Product LPF (local learning-publication practice; obtain separately).
+3. Use HCD.5 to select learning activities for the relevant starting conditions and HCD.6 to construct representative practice and changed-condition attempts. Obtain missing material, help or access through HCD.7/8; a teaching publication can use Learning Product LPF.
 4. Observe whether people can carry out the target activity under the support conditions of their later work. Keep course participation, helped performance and independent performance distinct.
 5. Arrange how revised instructions, questions or observed failures can reach the people concerned. They may receive these from a provider without joining a discussion group.
 
-This limited composition works when the professional practice is sufficiently known and the learning provision can actually be obtained. If the question is the design of a whole new service, return the contribution and delivery requirements to Systems Engineering. The organiser retains the question of whether the intended population can obtain and use the resulting provision.
+This limited composition works when the professional practice is sufficiently known and the learning provision can actually be obtained. It remains a useful alternative to forming a community. If the needed result is available through direct performance, access or an adequate tool, use that contribution without imposing a learning programme. If the question is the design of a whole new service, return the contribution and delivery requirements to Systems Engineering. For an unavailable or no longer usable shared way, C.36.RP develops acquisition, reconstruction, provision and renewal. The organiser retains the question of whether the intended population can obtain and use the resulting provision; the direct supplier retains its substantive Method.
 
 #### CB.1:4.5 - Make an offer that people can assess
 
@@ -388,12 +394,12 @@ Source returns: [David Spinks, The Business of Belonging (2021)](https://www.wil
 ### CB.1:12 - Relations
 
 - **Supplies CB.2:** a bounded proposal for mutual help, with the first result, participant conditions and organising capacity. A failure to obtain the central contribution returns from CB.2 to the affected choice here.
-- **Uses [C.36](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36---cultural-evolution-and-cultural-evolution-engineering):** the cultural relations and result being sought.
-- **Uses [STR.5](STRATEGY-PRINCIPLES-FRAMEWORK.md#str54---solution):** contrasting useful contributions and their provision conditions when that choice needs further development.
-- **Uses [OCE.2](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce24---solution):** evidence about actual organisational work and relations when the proposal relies on them.
-- **Uses [HCD.5/6](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd54---solution):** selected learning activities and representative tasks for an independent-carrier contribution. HCD.2 serves a person's programme choice; HCD.7/8 serves missing support and access.
+- **Uses [C.36](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36---cultural-evolution-and-cultural-evolution-engineering):** the cultural relations and result being sought. [C.36.RP](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36rp---sustain-and-renew-shared-ways-of-working) supplies the wider Method for making a shared way obtainable, usable and renewable; :4.4 here retains the narrower known-practice learning alternative.
+- **Uses [STR.5](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/STRATEGY-PRINCIPLES-FRAMEWORK.md#str54---solution):** contrasting useful contributions and their provision conditions when that choice needs further development.
+- **Uses [OCE.2](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce24---solution):** evidence about actual organisational work and relations when the proposal relies on them.
+- **Uses [HCD.5/6](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd54---solution):** selected learning activities and representative tasks for an independent-carrier contribution. HCD.2 serves a person's programme choice; HCD.7/8 serves missing support and access.
 
-- **Returns missing contributions to [Method Engineering](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md), [Research Method Practice](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) or [Systems Engineering](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md):** respectively, a usable professional method, an answer requiring inquiry, or a feasible whole provision/service construction. State the exact missing result when making the return.
+- **Returns missing contributions to [Method Engineering](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md), [Research Method Practice](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) or [Systems Engineering](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md):** respectively, a usable professional method, an answer requiring inquiry, or a feasible whole provision/service construction. State the exact missing result when making the return.
 
 ### CB.1:End
 
@@ -408,7 +414,7 @@ Use this pattern when a group could benefit from mutual help or shared activity,
 
 The organiser's task is to arrange a bounded exchange in which someone offers a relevant contribution, another person can use or respond to it, and the participants can understand what happened. The result may be an answer, a comparison, an introduction, an agreed action or a valued conversation. Choose it from the participants' purpose.
 
-This is the mutual-participation branch of Community Building. It begins with a credible purpose and participation conditions, such as those supplied by CB.1. It creates a first workable relationship around an activity; it does not require a formal organisation or equal contributions from every participant.
+This is the mutual-participation branch of Community Management. It begins with a credible purpose and participation conditions, such as those supplied by CB.1. It creates a first workable relationship around an activity; it does not require a formal organisation or equal contributions from every participant.
 
 **First useful result:** a completed exchange with a known use or honest remaining gap, a feasible opportunity to continue, and an account of the help the organiser had to provide.
 
@@ -614,8 +620,8 @@ Source return: [David Spinks, The Business of Belonging (2021)](https://www.wile
 ### CB.2:12 - Relations
 
 - **Uses and returns to CB.1:** the contribution, participation terms and serious alternatives. Failure to obtain the central contribution reopens that choice.
-- **Uses [OCE.2](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce24---solution)** when a relied-on organisational contribution, access or decision relation needs evidence. The participants' actual commitments remain separate from organisation labels.
-- **Uses [HCD.5/6](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd54---solution)** when the intended contribution includes learning or representative practice.
+- **Uses [OCE.2](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce24---solution)** when a relied-on organisational contribution, access or decision relation needs evidence. The participants' actual commitments remain separate from organisation labels.
+- **Uses [HCD.5/6](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd54---solution)** when the intended contribution includes learning or representative practice.
 - **Uses [C.36](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36---cultural-evolution-and-cultural-evolution-engineering)** when the next question concerns how an exchanged practice is transmitted, retained, selected or renewed. Preserving a case is one possible contribution to that larger work.
 
 ### CB.2:End
@@ -812,9 +818,9 @@ Source returns: [Spinks](https://www.wiley-vch.de/en/areas-interest/finance-econ
 
 - **Uses CB.1 and CB.2:** a worthwhile offer and an obtainable first exchange. A failed central offer returns to CB.1.
 - **Supplies CB.4 and CB.5:** understood participation conditions and supported contributors; an interaction or contribution can expose a new entry difficulty.
-- **Uses [OCE.10](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce104---solution):** inquiry and response for a consequential participation gap.
-- **Uses [OCE.6](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce64---solution):** an actual assignment or enabling relation required by the responsibility.
-- **Uses [HCD.3 and HCD.5/6](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md):** qualified diagnosis and preparation when learning a contribution is needed.
+- **Uses [OCE.10](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce104---solution):** inquiry and response for a consequential participation gap.
+- **Uses [OCE.6](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce64---solution):** an actual assignment or enabling relation required by the responsibility.
+- **Uses [HCD.3 and HCD.5/6](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md):** qualified diagnosis and preparation when learning a contribution is needed.
 
 ### CB.3:End
 
@@ -926,7 +932,7 @@ Establish the sharing and participation conditions that the material requires. E
 
 Open by making the purpose, current conditions and next action clear. Give an example when participants cannot cheaply infer how to contribute. Allow a person to pass or take another relevant form of participation where the activity permits it. Do not require personal disclosure or an emotional performance as proof of involvement.
 
-OCE.12 supplies a developed construction for a brief before work, a short reassessment when the situation changes and a debrief afterwards. Use its relevant contribution: confirm what people will do, make an obstacle or change intelligible, and return the needed adjustment to the person who can make it.
+LDR.1 supplies a developed construction for a brief before work, a short reassessment when the situation changes and a debrief afterwards. Use its relevant contribution: confirm what people will do, make an obstacle or change intelligible, and return the needed adjustment to the person who can make it.
 
 During the activity, intervene at the actual difficulty. Ask for the observation behind a conclusion, give a quieter contributor a usable entry, recover a lost question, clarify which configuration an answer concerns or separate clarification from advice. If the selected form is preventing the work, change it openly and preserve the intended result. Breaking a large discussion into smaller groups also requires a way to bring their relevant results back.
 
@@ -1021,7 +1027,7 @@ Preserving the return is as important as producing contributions. Splitting a gr
 | --- | --- | --- |
 | Spinks, The Business of Belonging (2021), physical PDF 139–168 | Connect people, purpose, setting, participation, rules, invitation and intended result; design guidance and timing instead of waiting for spontaneous interaction. | Select size and rhythm from the actual action. Small size, emotional intensity and platform activity supply no general quality or learning guarantee. |
 | Wenger-Trayner et al., Communities of Practice Guidebook, second edition (2023), printed 152–156 and 163–174 | Distinct constructions for a focused discussion, shared conversation, rotating conversations, argument exploration, context comparison and reflection. | These are practitioner methods and cases. Preserve their different results and participation conditions; a forum format or topic selection supplies no independent decision mandate. |
-| OCE.12:4.3 | Brief the work, reassess a changed situation and debrief the episode with an actual return. | Reuse the conversation construction while obtaining competence, permission and authority from their direct sources. |
+| LDR.1:4.4 | Brief the work, reassess a changed situation and debrief the episode with an actual return. | Reuse the conversation construction while obtaining competence, permission and authority from their direct sources. |
 | HCD.5/6 | Select learning activities and representative practice when learning is the receiving use. | An interaction can supply material or help without establishing independent capability. |
 
 Compared with opening a channel or running a familiar event, the construction requires more explicit preparation but can reveal a timing, access or return failure before a recurring commitment is made. Reconsider it when a simpler arrangement supplies the same result, when the support cannot be obtained, or when participant conditions change.
@@ -1032,8 +1038,8 @@ The conversation variants are analytical adaptations of the [Communities of Prac
 
 - **Uses CB.1–3:** the purpose, first exchange and attainable participation conditions.
 - **Supplies and uses CB.5:** the interaction carries a useful contribution; its recipient, material and criteria determine the appropriate form.
-- **Uses [OCE.12](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce124---solution):** the preparation, change-of-situation and debrief conversations.
-- **Uses [HCD.5/6](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd54---solution):** a learning design when that is the promised contribution.
+- **Uses [LDR.1](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/LEADERSHIP-PRINCIPLES-FRAMEWORK.md#ldr14---solution):** the preparation, change-of-situation and debrief conversations.
+- **Uses [HCD.5/6](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd54---solution):** a learning design when that is the promised contribution.
 - **Returns to CB.1:** a changed purpose or an adequate alternative that no longer needs mutual interaction.
 
 ### CB.4:End
@@ -1113,7 +1119,7 @@ The following branches illustrate different contributions. Select the branch tha
 
 **Co-design a result or product.** Choose what contribution is wanted: a use account, requirement, concept, design alternative or tested part. Give contributors the relevant problem, constraints, available material and acceptance question. SYSE.2 helps connect the use situation to a candidate concept and compare changes on either side of the system boundary. The receiving product specialist must examine the contribution and return an adoption, revision, rejection or unresolved question with a reason. A popular proposal still needs the applicable engineering judgement.
 
-**Produce or improve material.** Establish the reader's intended action, the subject method and correctness basis, and the person who can review and maintain the result. Ask participants for useful cases, explanations, corrections or a bounded authored contribution. Inspect the result through a representative use before presenting it as a reusable answer. For a teaching publication, obtain the relevant HCD learning design and use Learning Product LPF for the publication; the subject expert, author, learning designer and provider can be different people. If a necessary contribution cannot be obtained, preserve the gap instead of treating submitted material as a complete learning product.
+**Produce or improve material.** Establish the reader's intended action, the subject method and correctness basis, and the person who can review and maintain the result. Ask participants for useful cases, explanations, corrections or a bounded authored contribution. Inspect the result through a representative use before presenting it as a reusable answer. For a teaching publication, obtain the relevant HCD learning design and use Learning Product LPF for the publication under the access condition in [CB.Reference:2](#cbreference2---actual-supplier-returns); the subject expert, author, learning designer and provider can be different people. If a necessary contribution cannot be obtained, preserve the gap instead of treating submitted material as a complete learning product.
 
 **Maintain an object or a shared resource.** Name what must remain usable and who can authorise the actual work. For technical maintenance, MNT.1 establishes the unit, configuration, required functioning and the question being decided. Obtain the applicable professional method and permissions before an intervention; return functioning evidence and the separate decision to resume use where required. For a knowledge resource, obtain a capable maintainer, correction criteria and a route for obsolete or disputed content.
 
@@ -1270,12 +1276,12 @@ The clinic and external-contribution variants are analytical adaptations of the 
 ### CB.5:12 - Relations
 
 - **Uses CB.1–4:** a worthwhile contribution, first exchange, supported entry and suitable shared activity.
-- **Uses [OCE.6](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce64---solution):** actual assignments and enabling relations when required.
-- **Uses [OPS.6](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops64---solution):** a permissible next action, its performance evidence and the returned case result.
-- **Uses [SYSE.2](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse243---develop-the-use-claim-and-candidate-system-concept-together):** connected use and system-concept proposals for co-design contributions.
-- **Uses [MNT.1](MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#mnt14---solution):** the bounded technical-maintenance question, operating conditions and relevant control.
-- **Uses [HCD](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) and Learning Product LPF (local learning-publication practice; obtain separately):** learning and publication contributions when those are needed.
-- **Returns to [Method Engineering](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md) or [Research Method Practice](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md):** an unavailable professional method or an unresolved inquiry needed by the contribution.
+- **Uses [OCE.6](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce64---solution):** actual assignments and enabling relations when required.
+- **Uses [OPS.6](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops64---solution):** a permissible next action, its performance evidence and the returned case result.
+- **Uses [SYSE.2](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse243---develop-the-use-claim-and-candidate-system-concept-together):** connected use and system-concept proposals for co-design contributions.
+- **Uses [MNT.1](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#mnt14---solution):** the bounded technical-maintenance question, operating conditions and relevant control.
+- **Uses [HCD](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) and Learning Product LPF:** learning and publication contributions when those are needed.
+- **Returns to [Method Engineering](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md) or [Research Method Practice](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md):** an unavailable professional method or an unresolved inquiry needed by the contribution.
 
 ### CB.5:End
 
@@ -1475,7 +1481,7 @@ An incentive also changes what is worth producing under its rules. A measure tha
 | --- | --- | --- |
 | Spinks, The Business of Belonging (2021), physical PDF 119–129 | Return the experienced value of contribution and consider different forms of acknowledgement, status, connection, access and benefits. | Treat these as options. Claims that payment always displaces care, that every community needs status growth or that a peer reward system prevents gaming are too broad for choosing the response. |
 | Self-Determination Theory, especially CET and OIT | Distinguish interest in an activity, instrumental motivation, internalisation and the perceived autonomy or control of social responses. | These distinctions guide questions about the arrangement; they do not predict one person's reaction to a particular award without evidence. |
-| CB.5 and OCE.12:4.3 | Return a contribution's actual result and conduct a task-focused conversation about what helped and what needs changing. | Appreciation has its own purpose; technical acceptance, developmental feedback and an organisational decision retain their criteria. |
+| CB.5 and LDR.1:4.4 | Return a contribution's actual result and conduct a task-focused conversation about what helped and what needs changing. | Appreciation has its own purpose; technical acceptance, developmental feedback and an organisational decision retain their criteria. |
 
 Compared with an unexamined prize or leaderboard, this construction requires more attention to the contribution and recipient but can reveal misleading attribution, unsuitable terms or an absent provider. The simpler alternative is often a specific acknowledgement.
 
@@ -1486,8 +1492,8 @@ Source returns: [Spinks](https://www.wiley-vch.de/en/areas-interest/finance-econ
 - **Uses CB.5:** an account of the contribution and its returned use.
 - **Uses CB.2/4:** a useful connection or shared activity when offered as recognition.
 - **Uses CB.3:** a changed responsibility, support condition or reduced voluntary commitment.
-- **Uses [OCE.12](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce1243---perform-the-working-conversation):** a task-focused conversation and return where organisational work is involved.
-- **Uses [HCD](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md):** the learning contribution or assessment actually promised by an opportunity or qualification claim.
+- **Uses [LDR.1](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/LEADERSHIP-PRINCIPLES-FRAMEWORK.md#ldr144---perform-the-smallest-sufficient-working-conversation):** a task-focused conversation and return when a concrete working contribution is needed.
+- **Uses [HCD](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md):** the learning contribution or assessment actually promised by an opportunity or qualification claim.
 - **Combines with CB.12:** recognition may accompany useful repetition, while the repeatable action and its conditions require their own construction.
 
 ### CB.6:End
@@ -1505,7 +1511,7 @@ The governed work is organising participation through capable, willing people an
 
 **First useful result:** a willing person or temporary participant group can perform an agreed organising contribution at the next relevant occasion, with the access, preparation, time, help and decision boundaries it requires. Where continuity matters, another feasible performer or an honest reduced promise is also available.
 
-Start with the useful activity and the contribution currently missing. A general ambition to "develop leaders" is insufficient to choose whom to involve or what to teach. CB.5 can identify the receiving contribution; OCE.12 develops the explanation, working conversation or preparation that enables it.
+Start with the useful activity and the contribution currently missing. A general ambition to "develop leaders" is insufficient to choose whom to involve or what to teach. CB.5 can identify the receiving contribution; LDR.1 develops the explanation, working conversation or preparation that enables it.
 
 **Ordinary non-use:** a stable small exchange already has sufficient willing support and a workable absence arrangement. Continue it without creating a leadership programme. If the intended result is wider use of a practice among independent people, CB.1 may instead select an explanation or learning provision. Shared decision rights that are absent or contested require CB.13; assigning more organisers alone will not establish them.
 
@@ -1585,7 +1591,7 @@ Recognise the contribution through CB.6 in a form the person values. Distinguish
 
 #### CB.7:4.4 - Prepare the first episode and make support obtainable
 
-Use OCE.12's brief, practice and debrief around the actual next contribution. Explain the purpose and demonstrate the difficult part where that helps. Let the new organiser explain their own next actions and practise a representative difficulty. Return concrete feedback; if a capability must be learned or assessed, obtain the corresponding HCD contribution.
+Use LDR.1's brief, practice and debrief around the actual next contribution. Explain the purpose and demonstrate the difficult part where that helps. Let the new organiser explain their own next actions and practise a representative difficulty. Return concrete feedback; if a capability must be learned or assessed, obtain the corresponding HCD contribution.
 
 Make the working guidance useful at the point of action. A local host may need a room contact, an accessible invitation example, the session's purpose and shape, and a response to an interruption. Put a frequent action near its cue and a consequential exception near the decision it changes.
 
@@ -1731,7 +1737,7 @@ The practice question is how to obtain distributed organising when relationships
 | [Valente, “Network Interventions” (2012)](https://ctbs.fsu.edu/sites/g/files/upcbnu2651/files/Valente_2012%2BScience.pdf), introduction and individual-selection discussion. | :4.2 distinguishes people frequently consulted, connections between groups and groups left outside the initial inquiry. | These are choices for investigation, not a universal ranking of organisers or proof of an effect in this community. |
 | [Maya-Jariego (2025)](https://reference-global.com/download/article/10.2478/connections-2025-0002.pdf), typology and conclusion. | :4.2 separates relationship information used in preparation, changed relationships, shared interpretation and observation of implementation. | The distinction clarifies the work being attempted; effectiveness depends on the actual contribution and conditions. |
 | Wenger-Trayner et al., *Communities of Practice Guidebook*, second edition (2023), printed 83–84 / physical PDF93–94, §3.3. | :4.7 adapts temporary participant groups that confer, support an activity and return suggestions; :5.5 varies available attention and time. | This practitioner construction is optional. The authors' experience claim of accelerated development is not a causal effectiveness result; voluntary participation, available time and actual authority determine the local arrangement. |
-| OCE.2:4 and OCE.12:4.1–4.6. | Recover actual relations; prepare a working contribution; observe a subsequent episode without making one person indispensable. | Use their concrete recovery and preparation Methods. A roster or an agreement alone does not supply the performed result. |
+| OCE.2:4 and LDR.1:4.1–4.6. | Recover actual relations; prepare a working contribution; observe a subsequent episode without making one person indispensable. | Use their concrete recovery and preparation Methods. A roster or an agreement alone does not supply the performed result. |
 
 The temporary-group variant is an analytical adaptation of the [Communities of Practice Guidebook](https://www.wenger-trayner.com/wp-content/uploads/2024/03/24-02-21-CoP-guidebook-second-edition-final-2.pdf) by Etienne Wenger-Trayner, Beverly Wenger-Trayner, Phil Reid and Claude Bruderlein, under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). The repairer cases are constructed explanations.
 
@@ -1744,9 +1750,9 @@ Reopen the arrangement when a relied-on relationship, participant commitment, ac
 - **CB.1/2** identifies the useful offer and helps establish a first exchange; **CB.3** enables entry or a change of responsibility.
 - **CB.4/5** supplies the activity design and receiving contributions; **CB.6** supplies appropriate recognition. **CB.10** investigates the value a participant group observes; its findings and proposals can change the next CB.4 activity.
 - **CB.8** supplies usable participation rules and incident handling. **CB.13** establishes or repairs a missing shared decision mandate.
-- [OCE.2:4](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce24---solution) recovers actual work and relations. [OCE.12:4](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce124---solution) develops the concrete enabling conversation, preparation and next episode.
-- [OCE.6](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce6---establish-holder-assignments-and-enabling-relations-for-organization-change) supplies effective assignments and enabling relations when needed; [HCD](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) supplies the specific learning or assessment contribution.
-- [ECO.7:4](ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco74---solution) supplies rules for an actually constrained shared resource or maintenance contribution.
+- [OCE.2:4](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce24---solution) recovers actual work and relations. [LDR.1:4](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/LEADERSHIP-PRINCIPLES-FRAMEWORK.md#ldr14---solution) develops the concrete enabling conversation, preparation and next episode.
+- [OCE.6](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce6---establish-holder-assignments-and-enabling-relations-for-organization-change) supplies effective assignments and enabling relations when needed; [HCD](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) supplies the specific learning or assessment contribution.
+- [ECO.7:4](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco74---solution) supplies rules for an actually constrained shared resource or maintenance contribution.
 
 ### CB.7:End
 
@@ -1977,9 +1983,9 @@ Reopen the method's local use when reporting becomes inaccessible, an appeal lac
 
 - **CB.3/4** makes entry and shared activity usable; **CB.5** supplies subject contributions that a conduct process cannot judge merely by agreement or tone.
 - **CB.7** prepares and supports organisers. **CB.13** establishes the authority to make rules, assign decisions and review challenges to decision-makers.
-- [OCE.12:4.3](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce1243---perform-the-working-conversation) supplies a task-focused conversation when that is the needed contribution.
-- [OCE.14:4](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce144---solution) supplies a bounded revision of an established organisation; its owner and mandate must already be available.
-- [ECO.7:4](ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco74---solution) supplies combinations of use, upkeep, observation and dispute rules for an actually constrained common resource.
+- [LDR.1:4.4](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/LEADERSHIP-PRINCIPLES-FRAMEWORK.md#ldr144---perform-the-smallest-sufficient-working-conversation) supplies a task-focused conversation when that is the needed contribution.
+- [OCE.14:4](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce144---solution) supplies a bounded revision of an established organisation; its owner and mandate must already be available.
+- [ECO.7:4](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco74---solution) supplies combinations of use, upkeep, observation and dispute rules for an actually constrained common resource.
 
 ### CB.8:End
 
@@ -1994,7 +2000,7 @@ Reopen the method's local use when reporting becomes inaccessible, an appeal lac
 
 Use this pattern when a useful community activity depends on contributions that have not been secured, when organisers are carrying work beyond what they agreed, or when a sponsor's conditions change what participants can expect. A room is paid for but nobody can prepare the session; several departments expect different results from one organiser; a voluntary contribution has become a service with fixed deadlines.
 
-The subject is the arrangement that provides labour, money, access and other resources for cultural or community work. The move is to connect a bounded promise to willing contributions, effective authority and terms that the parties can sustain. Community Building includes independent carriers of practice: maintaining a public guide can need this arrangement even when its users never meet.
+The subject is the arrangement that provides labour, money, access and other resources for cultural or community work. The move is to connect a bounded promise to willing contributions, effective authority and terms that the parties can sustain. The same provision construction can support a community's contribution to independent carriers: maintaining a public guide can need this arrangement even when its users never meet. Their cultural continuation does not thereby become a community-participation process.
 
 The first useful result is an offer that can be delivered for a stated period: what will be provided, by whom, under which conditions, what participants and supporters receive, and what will change if support falls short. A smaller activity, a paid service, a different source of support or a decision to end an unsupported promise can be the result.
 
@@ -2043,9 +2049,9 @@ Walk through an actual or proposed occurrence with those who will perform it. Re
 
 Express consequential requirements in usable units and time windows. Qualified facilitator-hours, a room booking and the organiser's time are different resources. An available room does not supply a facilitator, and eight hours available next month cannot meet a promise due tomorrow. Preserve the capability and timing that constrain the work.
 
-Use [MA.1](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma14---solution) to obtain a missing resource-consumption and cost account. It connects outputs, preparation, attempts and rework to resources and to the applicable payments. Use [MA.2](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma24---solution) when supplied, used, reserved and unavailable capacity have been confused. Keep donated time visible as a constrained contribution. Express its monetary value only when the receiving comparison needs and can justify that valuation.
+Use [MA.1](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma14---solution) to obtain a missing resource-consumption and cost account. It connects outputs, preparation, attempts and rework to resources and to the applicable payments. Use [MA.2](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma24---solution) when supplied, used, reserved and unavailable capacity have been confused. Keep donated time visible as a constrained contribution. Express its monetary value only when the receiving comparison needs and can justify that valuation.
 
-Recover what is already committed elsewhere. [OCE.11](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce114---solution) helps arrange overlap with continuing work; [OPS.5](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops54---solution) supplies admission against the provider's actual commitments. Obtain those results from the people who can change the work or its provision. A community schedule by itself cannot release a contributor from their other duties.
+Recover what is already committed elsewhere. [OCE.11](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce114---solution) helps arrange overlap with continuing work; [OPS.5](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops54---solution) supplies admission against the provider's actual commitments. Obtain those results from the people who can change the work or its provision. A community schedule by itself cannot release a contributor from their other duties.
 
 Use enough detail to decide. A small group may need only the next session's tasks and contributors. A programme with staff, several locations or uncertain demand may need alternative schedules and a fuller account. Deepen a quantity when its plausible range changes the promise or the support decision.
 
@@ -2057,7 +2063,7 @@ For each feasible alternative, compare the received contribution, the burden on 
 
 Separate the resource comparison from the funding mechanism. Membership dues, voluntary contributions, grants, paid services and commercial sponsorship can fund similar work while changing who can enter and whose interests receive attention. Explain these effects to affected participants. A group can choose mutual provision without becoming a business, and a commercial programme can pay for work while retaining a voluntary discussion space.
 
-Use [OPS.14](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops144---solution) for an unresolved operating and financial comparison. It follows the alternatives through actual resource use, displaced work, payment timing and funding. MA supplies the cost relations. A favourable total at the end of a quarter does not pay an earlier room deposit.
+Use [OPS.14](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops144---solution) for an unresolved operating and financial comparison. It follows the alternatives through actual resource use, displaced work, payment timing and funding. MA supplies the cost relations. A favourable total at the end of a quarter does not pay an earlier room deposit.
 
 Choose with the authorised parties. State the accepted loss: fewer sessions, paid coordination, a narrower response promise or less sponsor reporting, for example. Keep the alternative or missing decision that would reopen the choice. Participation in an activity alone does not authorise the organiser to accept a new obligation on members' behalf.
 
@@ -2069,7 +2075,7 @@ Distinguish an invitation to contribute from an accepted assignment. Ask what a 
 
 Agree how benefits and costs are shared. Explain who can use the result, whether someone pays for privileged access, what a sponsor receives and how contributors are credited. Bring a contested distribution to those with the relevant mandate. Agreement can include an accepted asymmetry, such as an employer paying while independent practitioners receive open guidance; equal contributions are not a prerequisite.
 
-When use and renewal of a shared resource are the difficulty, use [ECO.7](ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco74---solution). Its arrangement connects access, use, upkeep, observation, response and adaptation. CB.13 supplies a missing community mandate; resource owners retain their actual rights. A majority vote among users cannot grant access that the owner has not provided.
+When use and renewal of a shared resource are the difficulty, use [ECO.7](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco74---solution). Its arrangement connects access, use, upkeep, observation, response and adaptation. CB.13 supplies a missing community mandate; resource owners retain their actual rights. A majority vote among users cannot grant access that the owner has not provided.
 
 Make sponsor influence legible. Agree who selects activities, who controls contributed material and what information may be returned. Provide a way to raise a conflict without risking loss of ordinary participation. If a proposed condition changes the original offer, return it to affected people before relying on their earlier agreement.
 
@@ -2286,13 +2292,13 @@ Use stories to interpret indicators and indicators to challenge stories. An unex
 
 Treat absent links explicitly. When a result is known but the supposed community contribution cannot be recovered, report the result without attributing it. When a contribution was used but no later outcome can yet be observed, return the use and the remaining question. Lack of a record is not automatically lack of value; it limits what the account can support.
 
-[ME.11](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me114---solution) supplies a formal method-trial contribution when the question requires it, distinguishing intended work, what occurred, conditions, burdens and evidence reach. Its result can feed the community inquiry; retain the evidence scope of any ordinary accounts used alongside it.
+[ME.11](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me114---solution) supplies a formal method-trial contribution when the question requires it, distinguishing intended work, what occurred, conditions, burdens and evidence reach. Its result can feed the community inquiry; retain the evidence scope of any ordinary accounts used alongside it.
 
 #### CB.10:4.5 - Decide what the evidence warrants
 
 State the strongest claim supported at the relevant scope. A report establishes what a person says they experienced. A checked occurrence can establish the action and result observed there. A connected and corroborated account can show which resource a participant used and what the recipient could then do. If that account is used to explain why an outcome changed, examine its causal support.
 
-Recover the causal question: the effect of an intervention, an explanation of an observed difference or a counterfactual. [C.28](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---causaluse-cal-causal-use-questions-identification-and-realizability) helps determine the supported statement, its limits and the next useful evidence question. [RMP.1](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp14---solution) first tests whether an adequate existing source answers that question and then whether the remaining inquiry warrants research. A persuasive story or a correlation between membership and performance does not provide missing identification.
+Recover the causal question: the effect of an intervention, an explanation of an observed difference or a counterfactual. [C.28](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---causaluse-cal-causal-use-questions-identification-and-realizability) helps determine the supported statement, its limits and the next useful evidence question. [RMP.1](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp14---solution) first tests whether an adequate existing source answers that question and then whether the remaining inquiry warrants research. A persuasive story or a correlation between membership and performance does not provide missing identification.
 
 Consider competing explanations that matter here. New participants, seasonal demand, another service, changed incentives or easier cases can alter the interpretation. Compare the conditions that could change the present explanation.
 
@@ -2480,7 +2486,7 @@ Use CB.10's current account or a bounded inquiry to identify what is worth conti
 
 Follow one consequential use through its actual dependencies. A monthly case discussion can depend on a qualified facilitator, permitted case material, access to the venue and a way to return the result. A public guide can depend on a maintainer and a correction route while requiring no continuing meeting.
 
-Use [C.36.RP](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36rp---sustain-and-renew-shared-ways-of-working) when the missing contribution concerns obtaining and using a shared way of working. It locates the gap and compares access, capable help, learning, tools and method development. Retaining a finished answer can leave its interpretation or adaptation unavailable. Obtain the contribution that the later use actually needs.
+Use [C.36.RP](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36rp4---solution) when the missing contribution concerns obtaining and using a shared way of working. It locates the gap and compares access, capable help, learning, tools and method development. Retaining a finished answer can leave its interpretation or adaptation unavailable. Obtain the contribution that the later use actually needs.
 
 Include relationships whose continuation requires willing participation. Ask who wants to remain in contact and through what arrangement. Preserve an available way to reconnect where people agree; do not treat a copied membership list as a renewed relationship.
 
@@ -2503,7 +2509,7 @@ Compare benefit, burden, timing and transition loss with the people affected. In
 
 Separate a promising alternative from a provided one. A person interested in taking over may still lack time, capability or resource permission. Use CB.7 to develop willing organising work and CB.9 to obtain support. If the needed contribution cannot be provided before the old one ends, reduce or suspend the dependent promise.
 
-[ECO.9](ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco94---solution) develops a change to economic rules through the practices people can actually perform, including entry, exit, transition burdens and wider dependencies. Use it when those rules are the obstacle. [OCE.14](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce144---solution) supplies a needed organisational revision.
+[ECO.9](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco94---solution) develops a change to economic rules through the practices people can actually perform, including entry, exit, transition burdens and wider dependencies. Use it when those rules are the obstacle. [OCE.14](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce144---solution) supplies a needed organisational revision.
 
 When the effect is uncertain and reversal is practical, try a bounded continuation before committing the whole arrangement. Name the result and burden that will inform the decision, who can stop the trial and what remains available if it fails. A trial must fit the remaining support period.
 
@@ -2902,8 +2908,8 @@ Source returns: [Spinks](https://www.wiley-vch.de/en/areas-interest/finance-econ
 - **Uses CB.1/5:** a worthwhile result, an available contribution and its returned use.
 - **Uses CB.3/4:** attainable participation and a setting in which the action can be completed.
 - **Combines with CB.6:** a meaningful acknowledgement where useful, without making recognition the whole repeated-action construction.
-- **Uses [HCD.3](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd34---solution):** diagnosis when a possible human limitation must be compared with conditions and non-training explanations.
-- **Uses [HCD.15](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd154---solution):** a continuing professional-development arrangement when later capability is the result.
+- **Uses [HCD.3](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd34---solution):** diagnosis when a possible human limitation must be compared with conditions and non-training explanations.
+- **Uses [HCD.15](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd154---solution):** a continuing professional-development arrangement when later capability is the result.
 - **Returns to CB.1:** a different contribution or simpler route now serves the person better.
 
 ### CB.12:End
@@ -3176,9 +3182,9 @@ Reopen when a mandate expires, a common subject or affected constituency changes
 
 - **CB.1** identifies the useful common activity or independent-practice alternative. **CB.7** prepares organisers to work within the resulting mandate; **CB.8** handles rules and incidents under it.
 - **CB.4/5** supplies discussion and subject contributions for a decision. Receiving those contributions and authorising the decision remain different acts. The Core Protocols option in :4.5.1 supplies a particular decision procedure only within an adopted arrangement.
-- [OCE.2:4](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce24---solution) recovers actual work and authority conditions. [OCE.6](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce6---establish-holder-assignments-and-enabling-relations-for-organization-change) obtains assignments and enabling relations.
-- [OCE.12:4.3](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce1243---perform-the-working-conversation) supplies a working conversation; [OCE.14:4](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce144---solution) revises an existing organisation under its current decision basis.
-- [ECO.7:4](ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco74---solution) supplies common-resource rule construction. Corporate or regulated questions return to their applicable governance and professional authorities.
+- [OCE.2:4](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce24---solution) recovers actual work and authority conditions. [OCE.6](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce6---establish-holder-assignments-and-enabling-relations-for-organization-change) obtains assignments and enabling relations.
+- [LDR.1:4.4](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/LEADERSHIP-PRINCIPLES-FRAMEWORK.md#ldr144---perform-the-smallest-sufficient-working-conversation) supplies a working conversation; [OCE.14:4](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce144---solution) revises an existing organisation under its current decision basis.
+- [ECO.7:4](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco74---solution) supplies common-resource rule construction. Corporate or regulated questions return to their applicable governance and professional authorities.
 
 ### CB.13:End
 
@@ -3193,7 +3199,7 @@ Reopen when a mandate expires, a common subject or affected constituency changes
 
 Use this pattern when practitioners repeatedly encounter a difficulty that their ordinary exchanges do not resolve, useful ways of working remain scattered among participants, or contrasting experience suggests a worthwhile improvement. Several repairers keep reconstructing the same diagnostic explanation. Volunteer organisers have different ways to welcome people with limited time. A profession needs a workable response to changed tools or conditions.
 
-The governed object is the community's joint undertaking to obtain, qualify and maintain a useful repertoire: ways of working and the explanations, cases and support needed to use them. Community Building organises that undertaking and its return to practitioners. Method Engineering supplies the construction and qualification of a reusable method; Research Method Practice supplies inquiry into an unresolved knowledge question when research is needed.
+The governed object is the community's joint undertaking to obtain, qualify and maintain a useful repertoire: ways of working and the explanations, cases and support needed to use them. Community Management organises that undertaking and its return to practitioners. Method Engineering supplies the construction and qualification of a reusable method; Research Method Practice supplies inquiry into an unresolved knowledge question when research is needed.
 
 **First useful result:** a recurring problem has a specific next contribution, a willing and equipped provider, and an intended receiving use. That contribution may be a sufficient existing answer, a bounded comparison, a draft and trial, or a project whose returned result can be judged.
 
@@ -3411,11 +3417,11 @@ Reopen this selection when the recurring use changes, new evidence defeats a met
 
 - **CB.5** supplies immediate peer help and cases that may expose a recurring gap; **CB.7** prepares organisers who support the development work.
 - **CB.13** supplies its collective mandate. **CB.15** connects relevant practices; **CB.16** carries a needed collective request to an external decision.
-- [ME.2](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me24---solution) and [ME.4](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me44---solution) recover source contributions; [ME.5](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me54---solution) qualifies each contribution for its use.
-- [ME.6](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me64---solution) compares arrangements; [ME.7](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me74---solution) develops the proposed method whole; [ME.8](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me84---solution) makes its account usable.
-- [ME.11](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me114---solution) supplies trials. [ME.12](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me124---solution), [ME.13](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me134---solution) and [ME.14](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me144---solution) supply coherence, fit or transfer, and practical-worth judgements respectively; [ME.15](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me154---solution) maintains the repertoire.
-- [RMP.1](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp14---solution) distinguishes a sufficient answer from a research contribution and returns the remaining question.
-- [OCE.11](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce114---solution) supplies workable overlap with continuing commitments; [OPS.5](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops54---solution) supplies admission when an operating provider must accept the work.
+- [ME.2](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me24---solution) and [ME.4](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me44---solution) recover source contributions; [ME.5](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me54---solution) qualifies each contribution for its use.
+- [ME.6](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me64---solution) compares arrangements; [ME.7](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me74---solution) develops the proposed method whole; [ME.8](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me84---solution) makes its account usable.
+- [ME.11](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me114---solution) supplies trials. [ME.12](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me124---solution), [ME.13](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me134---solution) and [ME.14](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me144---solution) supply coherence, fit or transfer, and practical-worth judgements respectively; [ME.15](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me154---solution) maintains the repertoire.
+- [RMP.1](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp14---solution) distinguishes a sufficient answer from a research contribution and returns the remaining question.
+- [OCE.11](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce114---solution) supplies workable overlap with continuing commitments; [OPS.5](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops54---solution) supplies admission when an operating provider must accept the work.
 - **HCD** supplies the particular learning contribution needed to use a known method; **CB.10/11** connects observed value with continuation, transfer or ending.
 
 ### CB.14:End
@@ -3488,7 +3494,7 @@ Ask both sides to refine the first task. Keep it small enough for their actual c
 
 #### CB.15:4.3 - Obtain participants, access and the working agreement
 
-Invite people who can supply the required experience or result. Distinguish the practitioner who explains the work, the facilitator who helps the exchange and the owner who can change an arrangement. OCE.12 supplies the working conversation; OCE.6 supplies a needed assignment or enabling relation.
+Invite people who can supply the required experience or result. Distinguish the practitioner who explains the work, the facilitator who helps the exchange and the owner who can change an arrangement. LDR.1 supplies the working conversation; OCE.6 supplies a needed assignment or enabling relation.
 
 Agree the question, preparations, time, location or channel, usable material and expected return. State who may see, retain or reuse the material and what needs permission. If a confidential case is essential and cannot be shared, choose a permitted alternative or stop that part of the exchange.
 
@@ -3508,7 +3514,7 @@ When a recurring comparison or translation depends on an exact relation between 
 
 Use the difference to change the joint action. Revise the question, add necessary context, obtain an unavailable contributor or keep two outputs for different recipients. Let each side recover the revised arrangement in its own words and apply it to the case.
 
-Separate a misunderstanding from a substantive conflict. One group may understand a request precisely and still be unable to fulfil it because of cost, priorities or professional obligations. OCE.12 helps make those conflicting contributions and choices explicit; the actual owner decides what can change.
+Separate a misunderstanding from a substantive conflict. One group may understand a request precisely and still be unable to fulfil it because of cost, priorities or professional obligations. [LDR.2](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/LEADERSHIP-PRINCIPLES-FRAMEWORK.md#ldr2---agree-feasible-joint-contributions) helps make those conflicting contributions and choices explicit; the actual owner decides what can change.
 
 #### CB.15:4.5 - Perform the action and inspect what each side receives
 
@@ -3627,7 +3633,7 @@ The practice question is how to obtain a useful contribution across communities 
 | Source or developed treatment | Choice and effect in this pattern | Limit and accepted cost |
 | --- | --- | --- |
 | Etienne Wenger-Trayner, Beverly Wenger-Trayner, Phil Reid and Claude Bruderlein, *Communities of practice within and across organizations*, second edition (2023), pp.180–183. | **Adapt** useful initial activities, boundary projects and practitioner-guided visits in :4.1–4.3/:4.5. **Reject** substituting general host presentations for the work the visit needs to reveal. | The guide supplies practical constructions and experience, not a guaranteed trust or performance effect. Obtaining relevant access and returning the result adds preparation. |
-| OCE.12:4.2–4.3 and OCE.11:4. | **Adopt** capable participants, a working brief, handling a changed situation and explicit coexistence with continuing work. :4.3/:4.7 obtains the conditions for the promised contribution. | Obtain the necessary authority and capacity from their actual owners. |
+| LDR.1:4.2–4.4 and OCE.11:4. | **Adopt** capable participants, a working brief, handling a changed situation and explicit coexistence with continuing work. :4.3/:4.7 obtains the conditions for the promised contribution. | Obtain the necessary authority and capacity from their actual owners. |
 | F.9:4 and ME.13:4. | **Adopt** separate local meanings and a bounded translation use when recurring semantic correspondence matters. :4.4/:4.5 preserves the further work needed to use an observed practice. | Formal semantic comparison is needed only for the claim that depends on it; it does not create the social connection or establish professional transfer. |
 
 The Guidebook contribution is an analytical adaptation with attribution to its authors, under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/); see the [source text](https://www.wenger-trayner.com/wp-content/uploads/2024/03/24-02-21-CoP-guidebook-second-edition-final-2.pdf). The constructed cases and supplier connections are this pattern's development.
@@ -3638,9 +3644,9 @@ Reopen the selected approach when the useful task cannot be made small enough, a
 
 - **CB.1 and CB.2** help find the relevant need and people; **CB.4 and CB.5** provide shared activity and a usable contribution when the cross-practice connection is already sufficient.
 - **CB.14** organises development and maintenance of a shared repertoire. **CB.13** supplies a common mandate; **CB.16** carries a collective external voice when needed.
-- [OCE.12:4.3](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce1243---perform-the-working-conversation) supplies working conversations; [OCE.11:4](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce114---solution) supplies coexistence with continuing commitments.
-- [F.9:4](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#f9---relate-local-meanings-across-contexts-alignment-and-bridge) supplies exact semantic comparison and the separate bounded-use question. Its relation is distinct from the connection between the communities.
-- [ME.13](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me13---validate-a-methods-situational-fit-and-transfer) supplies method fit and transfer; **HCD** supplies the learning needed for a later performance.
+- [LDR.1:4.4](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/LEADERSHIP-PRINCIPLES-FRAMEWORK.md#ldr144---perform-the-smallest-sufficient-working-conversation) supplies working conversations; [OCE.11:4](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce114---solution) supplies coexistence with continuing commitments.
+- [F.9:4](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#f94---solution) supplies exact semantic comparison and the separate bounded-use question. Its relation is distinct from the connection between the communities.
+- [ME.13](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me13---validate-a-methods-situational-fit-and-transfer) supplies method fit and transfer; **HCD** supplies the learning needed for a later performance.
 - **CB.8** addresses conduct that prevents the exchange; **CB.10** helps judge the relationship's value and **CB.11** helps decide its continuation.
 
 ### CB.15:End
@@ -3729,7 +3735,7 @@ Give the representative workable discretion. State what they may clarify or nego
 
 Distinguish approval of the position from approval of commitments. The community may authorise a request while each employer, site or individual retains the right to provide its own time or resources. Obtain those decisions when the negotiated action depends on them.
 
-Prepare the spokesperson to use the mandate. They need the reasons, evidence limits, different positions, likely questions and a way to return an unexpected proposal. OCE.12 supplies the working brief and explanation. Where the task needs more than one kind of knowledge, obtain a supporting contributor.
+Prepare the spokesperson to use the mandate. They need the reasons, evidence limits, different positions, likely questions and a way to return an unexpected proposal. LDR.1 supplies the working brief and explanation. Where the task needs more than one kind of knowledge, obtain a supporting contributor.
 
 When a collective mandate cannot be obtained within the decision window, choose a truthful narrower contribution. Named willing contributors may offer their own joint view under their own authority. State whom it represents; a community name or large mailing list does not enlarge that scope.
 
@@ -3855,7 +3861,7 @@ The practice question is how a community can make its expertise and shared inter
 | Source or developed treatment | Choice and effect in this pattern | Limit and accepted cost |
 | --- | --- | --- |
 | Etienne Wenger-Trayner, Beverly Wenger-Trayner, Phil Reid and Claude Bruderlein, *Communities of practice within and across organizations*, second edition (2023), pp.112–115 and 179. | **Adapt** stewardship of a domain and a joint response in :4.1–4.3. Preserve disagreement while articulating the professional contribution a decision could use. | Reputation and a learning opportunity do not establish representation authority. Recovering positions and obtaining a mandate add effort to the source's joint-response form. |
-| STR.5:4 and OCE.12:4.3. | **Adopt** contribution, recipient, support and alternatives, then use a prepared working conversation. :4.1/:4.3/:4.5 makes the request actionable and handles a changed proposal. | A strategic proposal remains conditional where provision is missing; conversation does not make the recipient's decision. |
+| STR.5:4 and LDR.1:4.4. | **Adopt** contribution, recipient, support and alternatives, then use a prepared working conversation. :4.1/:4.3/:4.5 makes the request actionable and handles a changed proposal. | A strategic proposal remains conditional where provision is missing; conversation does not make the recipient's decision. |
 | CB.13:4, compared with an informal spokesperson arrangement. | **Adopt** actual mandate, bounded discretion and reconsideration in :4.4/:4.6. **Reject** inferring community authority from expertise, visibility or an invitation. | The scope must fit the real constituency. A smaller attributed contribution is available when the broader mandate cannot be obtained. |
 
 The Guidebook contribution is an analytical adaptation with attribution to its authors, under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/); see the [source text](https://www.wenger-trayner.com/wp-content/uploads/2024/03/24-02-21-CoP-guidebook-second-edition-final-2.pdf). The constructed cases and mandate connections are developed here.
@@ -3866,8 +3872,8 @@ Reopen the selected approach when the receiving decision changes, a missing cons
 
 - **CB.1** recovers the need and participants; **CB.5/14** supplies the relevant expert or method contribution. **CB.6** recognises a contribution but does not establish a collective voice.
 - **CB.13** supplies the common decision arrangement and representation mandate. **CB.15** connects different communities when they need a shared response.
-- [STR.5:4](STRATEGY-PRINCIPLES-FRAMEWORK.md#str54---solution) develops the worthwhile contribution and supporting conditions.
-- [OCE.12:4.3](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce1243---perform-the-working-conversation) supplies preparation and the working exchange. [OCE.14](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce144---solution) revises an existing arrangement; [OCE.6](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce6---establish-holder-assignments-and-enabling-relations-for-organization-change) obtains assignments and enabling conditions.
+- [STR.5:4](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/STRATEGY-PRINCIPLES-FRAMEWORK.md#str54---solution) develops the worthwhile contribution and supporting conditions.
+- [LDR.1:4.4](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/LEADERSHIP-PRINCIPLES-FRAMEWORK.md#ldr144---perform-the-smallest-sufficient-working-conversation) supplies preparation and the working exchange. [OCE.14](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce144---solution) revises an existing arrangement; [OCE.6](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce6---establish-holder-assignments-and-enabling-relations-for-organization-change) obtains assignments and enabling conditions.
 - **CB.10** connects observed influence and practical results; **CB.11** revisits continuing provision. **HCD** supplies any later learning contribution.
 - **RMP** supplies a needed research result where a consequential claim remains unresolved; a representation mandate does not settle that evidence question.
 
@@ -3876,8 +3882,6 @@ Reopen the selected approach when the receiving decision changes, a missing cons
 # Applications
 
 These constructed applications show how the language can produce different useful results. The observations and outcomes are stipulated to make the choices inspectable. They do not report field tests or estimate an intervention's effect. Each application can be entered through the direct patterns it names.
-
-
 
 ## CB.Application:1 - Application 1 - Obtain useful professional help and develop what recurs
 
@@ -3897,8 +3901,6 @@ Five repairers want the manufacturer to provide a permitted diagnostic-data rout
 
 Finally, CB.10 compares concrete uses, failures, potential later uses and burden. The association retains the low-frequency exchange and preparation aid because the repairers who returned accounts find the next action useful at the agreed cost. It does not claim that attendance, gratitude or three favourable accounts establish a causal business return. If the actual decision later depends on that stronger claim, a suitable inquiry becomes additional work.
 
-
-
 ## CB.Application:2 - Application 2 - Keep a voluntary garden workable through conflict and succession
 
 Twelve neighbours use a shared garden. They value company, access to growing space and occasional shared produce, but do not want the same frequency or kind of participation. The founder has been hosting two sessions a week and will leave in four weeks. A dispute over the shared tools has also made two newcomers reluctant to return.
@@ -3917,8 +3919,6 @@ The first independent session finishes within the available time but reveals fif
 
 The transfer under CB.11 includes the usable key arrangement, remaining supplies, current contact and the receiving session's result. The founder's support ends at the agreed date. One unresolved reimbursement has a named receiver after departure. If the landowner withdraws access or neither host can continue, the group returns to the feasible alternatives; a hopeful roster would not justify keeping the promise. The common activity can shrink or end while the neighbours retain what they learned and any independent relationships they choose.
 
-
-
 ## CB.Application:3 - Application 3 - Extend a practice without a discussion group
 
 A professional association wants more independent repairers to recognise a well-understood fault condition. An adequate method, correctness criteria and authorised examples already exist. [CB.1](#cb1---choose-a-useful-cultural-or-community-contribution) compares a discussion group with making that practice obtainable in individual workshops. The latter fits the receiving situation: people need to choose and perform the action when it arises, without a recurring meeting obligation.
@@ -3932,8 +3932,6 @@ C.36 distinguishes obtaining the practice, performing it, continuing to use it a
 No communication among the learners is required for these results. If unusual cases later need mutual interpretation, CB.2 becomes a serious additional option. If a newcomer wants occasional company, a voluntary activity can serve that separate purpose. If the professional method itself fails in a changed equipment context, ME/RMP work becomes current; enlarging the learner population would not resolve that question.
 
 Later, the association replaces the website hosting the guide. Using CB.11, it obtains permission to move the material and a capable person who accepts correction requests. It updates the directory links it controls and notifies existing users through their usual information channel. After the old host closes, an independent user follows the updated directory, reaches the moved guide and reports a missing example reference; the new maintainer restores it. The practice remains obtainable through this provision.
-
-
 
 ## CB.Application:4 - Application 4 - Separate customer help, learning and provider commitments
 
@@ -3957,8 +3955,6 @@ Continue the group under terms participants can understand and accept. Obtain a 
 
 # Sources, relations and renewal
 
-
-
 ## CB.Reference:1 - Source use and limits
 
 The sources below shaped the connected language. Their practical contributions, evidence and limits remain distinct. The detailed comparisons in each pattern's SoTA-Echoing section should be used when a source-specific choice matters.
@@ -3970,6 +3966,7 @@ The sources below shaped the connected language. Their practical contributions, 
 | Community Canvas Guidebook (2017) | Historical organising questions about common decisions, mandate, mixed local and common responsibility, and conflicts involving decision-makers, developed in CB.8/13. | An informal repertoire supplies options. The actual arrangement needs a valid mandate, feasible operations and correction; a new body is unnecessary where an adequate owner can decide. |
 | Core Protocols, linked in CB.13:4.5.1 | A connected decision option for an adopting small team. | Its participation obligations need explicit acceptance; this is not the default governance of a voluntary community. |
 | A. Levenchuk's community ontology and systemicity essays (September 2024), read with C.36 | Cultural contribution can develop carriers of a practice without a communicating collective or one collective agent. CB.1 and the independent-use branch make that choice practical. | A conceptual distinction does not establish the effectiveness of an intervention. Obtain the method, learning, provision and use observations that the selected contribution needs. |
+| A. Levenchuk, [role communities inside the company](https://ailev.ru/1741032.html) and [role communities around the company](https://ailev.ru/1741983.html), November 2024 | Distinguish an organization, its employee community, external participant communities and populations carrying a practice; preserve participant purposes and the real work transferred to them. These distinctions clarify the field boundary and its organizational and provider relations. | These are conceptual proposals. They do not establish that every enterprise needs an office, that informal participation removes cost, or that one provider can direct the whole recipient organization. |
 | Research and practitioner reports used by individual patterns | Work on participation rules, appeals, context and repeated action qualifies the mechanisms and evidence in CB.8/12/13. The Duolingo contributor-programme announcement gives a historical account of changed production conditions in CB.9. | Retain the actual population, observations and limitations. Moderator reports, written rules, self-reported habits and an organisation's explanation answer different questions from experienced fairness, automatic performance or causal effectiveness. Follow each body's exact source and comparison. |
 | FPF Core and the domain suppliers below | Cultural distinctions, useful-contribution comparison, actual work arrangements, learning provision, professional-method development, evidence, capacity and resource reasoning. | Reuse the needed substantive result. A reference alone does not obtain qualified work, authority, access or an operating service. |
 
@@ -3977,32 +3974,29 @@ Source returns: [The Business of Belonging](https://www.wiley-vch.de/en/areas-in
 
 The Guidebook adaptations are attributed to its four authors and retain [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) as identified in the affected patterns. The constructed cases and connections are developed here. Other third-party contributions retain the terms and qualifications stated at their source returns. The edition's original content has the separate licence stated in [Edition and use](#edition-and-use).
 
-
-
 ## CB.Reference:2 - Actual supplier returns
 
-Use the external contribution when the receiving question requires it. The cited frameworks retain their own content and edition boundaries; these returns do not include them inside Community Building.
+Use the external contribution when the receiving question requires it. The cited frameworks retain their own content and edition boundaries; these returns do not include them inside Community Management.
 
 | Receiving difficulty | Contribution to obtain and its direct supplier |
 | --- | --- |
-| A proposed cultural intervention confuses transmission, performance, retention or renewal | [C.36](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36---cultural-evolution-and-cultural-evolution-engineering) supplies the cultural distinctions. CB.1 selects a useful contribution in the actual participant setting; CB.11/14 apply continuation and renewal choices. |
-| The proposed community benefit lacks a serious alternative or supporting conditions | [STR.5](STRATEGY-PRINCIPLES-FRAMEWORK.md#str5---generate-strategic-directions) develops comparison of useful contributions and provision. CB.1 applies that construction to the cultural or community offer. |
-| Work, help, access or authority is inferred from a role name | [OCE.2](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce2---recover-current-organization-work-and-arrangement) recovers the actual work and relations. OCE.11/12 support provision and coordinated work; OCE.14 revises an established arrangement. CB.13 obtains an initial or renewed common mandate when that is missing. |
-| A person needs to acquire a practice or receive useful learning support | [HCD.5](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd5---select-human-capability-development-methods) and [HCD.6](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd6---design-representative-practice-tasks) supply method selection, representative practice and feedback; [HCD.7](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd7---arrange-providers-access-tools-and-ai-support-for-human-capability-development) and [HCD.8](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd8---obtain-or-build-missing-human-capability-development-support-with-bounded-recursion) help obtain providers, access and missing learning support. [HCD.2](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd2---compose-and-compare-human-capability-development-programmes-for-later-work) compares programmes for a particular person. A complete service may also need SYSE contributions. |
-| A teaching publication in Guide or Slidement form is being produced | Learning Product LPF (local learning-publication practice; obtain separately) is a separate Russian-language rolling publication for those formats. Obtain its text and relevant production practice separately; if they are unavailable, that proposed publication contribution remains unprovided. HCD's learning-method and support contributions remain available for other parts of the arrangement. |
-| A practice is known but poorly expressed, or a new method claim must be developed | [Method Engineering](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md) supplies recovery, description, development, trial, adaptation and maintenance. [RMP.1](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp14---solution) distinguishes sufficient existing knowledge from a research need. CB.14 organises the practitioners' contribution and its use; it does not replace those methods. |
-| A community promise exceeds capable time, access or funding | [OPS.5](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops54---solution) supplies capacity reasoning; OPS.14 handles timing of an actual payment commitment; [MA.1](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma1---build-the-resource-consumption-and-cost-model) and [MA.2](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma2---explain-the-cost-and-use-of-capacity) supply the selected cost object and relevant cost account. CB.9 obtains the actual contributions and terms. |
-| A scarce shared resource requires use and upkeep rules, or a rule must change | [ECO.7](ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco7---coordinate-use-and-renewal-of-a-shared-resource) and [ECO.9](ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco9---decide-whether-and-how-to-change-economic-rules-through-their-working-practices) provide methods for arranging shared use and changing resource rules. CB.8/13 connects them to participation, mandate and correction where those are needed. |
+| The community is intended to support continuing development rather than only repeated participation | [Development and Self-Development Practice](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/DEVELOPMENT-AND-SELF-DEVELOPMENT-PRACTICE-PRINCIPLES-FRAMEWORK.md) supplies the development opportunity, connected undertaking and joint-portfolio Methods. CB supplies the participation, contributions and shared repertoire needed by that use; development of the community, its provider and a participant remain different questions. |
+| A proposed cultural intervention confuses transmission, performance, retention or renewal | [C.36](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36---cultural-evolution-and-cultural-evolution-engineering) supplies the cultural distinctions. [C.36.RP](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36rp---sustain-and-renew-shared-ways-of-working) develops availability, acquisition, use and renewal of a shared way, including across independent carriers. CB.1 compares a community contribution with alternatives; CB.11/14 apply their own continuation and repertoire constructions. |
+| The proposed community benefit lacks a serious alternative or supporting conditions | [STR.5](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/STRATEGY-PRINCIPLES-FRAMEWORK.md#str5---generate-strategic-directions) develops comparison of useful contributions and provision. CB.1 applies that construction to the cultural or community offer. |
+| Work, help, access or authority is inferred from a role name | [OCE.2](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce2---recover-current-organization-work-and-arrangement) recovers the actual work and relations. [OCE.11](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce114---solution) arranges coexistence with continuing service; [LDR.1:4.4](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/LEADERSHIP-PRINCIPLES-FRAMEWORK.md#ldr144---perform-the-smallest-sufficient-working-conversation) supplies working conversations; [OCE.14](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce144---solution) revises an established organizational arrangement from qualified results. CB.13 obtains an initial or renewed common mandate when that is missing. |
+| A person needs to acquire a practice or receive useful learning support | [HCD.5](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd5---select-human-capability-development-methods) and [HCD.6](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd6---design-representative-practice-tasks) supply method selection, representative practice and feedback; [HCD.7](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd7---arrange-providers-access-tools-and-ai-support-for-human-capability-development) and [HCD.8](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd8---obtain-or-build-missing-human-capability-development-support-with-bounded-recursion) help obtain providers, access and missing learning support. [HCD.2](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd2---compose-and-compare-human-capability-development-programmes-for-later-work) compares programmes for a particular person. A complete service may also need SYSE contributions. |
+| A teaching publication in Guide or Slidement form is being produced | Learning Product LPF is a separate Russian-language local practice framework for producing those formats. This publication does not supply its text. Obtain the text and relevant production practice separately; if they are unavailable, that teaching-publication contribution remains unprovided. HCD's learning-method and support contributions remain available for other parts of the arrangement. |
+| A practice is known but poorly expressed, or a new method claim must be developed | [Method Engineering](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md) supplies recovery, description, development, trial, adaptation and maintenance. [RMP.1](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp14---solution) distinguishes sufficient existing knowledge from a research need. CB.14 organises the practitioners' contribution and its use; it does not replace those methods. |
+| A community promise exceeds capable time, access or funding | [OPS.5](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops54---solution) supplies capacity reasoning; OPS.14 handles timing of an actual payment commitment; [MA.1](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma1---build-the-resource-consumption-and-cost-model) and [MA.2](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma2---explain-the-cost-and-use-of-capacity) supply the selected cost object and relevant cost account. CB.9 obtains the actual contributions and terms. |
+| A scarce shared resource requires use and upkeep rules, or a rule must change | [ECO.7](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco7---coordinate-use-and-renewal-of-a-shared-resource) and [ECO.9](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco9---decide-whether-and-how-to-change-economic-rules-through-their-working-practices) provide methods for arranging shared use and changing resource rules. CB.8/13 connects them to participation, mandate and correction where those are needed. |
 | A result is used as a causal explanation | [C.28](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---causaluse-cal-causal-use-questions-identification-and-realizability) distinguishes the causal-use question and necessary support; RMP supplies a fitting inquiry when required. CB.10's account of particular value does not replace that work. |
-| A complete service, tool or provider arrangement is missing | [Systems Engineering](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) provides methods for defining the whole system and choosing how to obtain it. CB.1/9 can identify and arrange the community contribution within that larger provision. |
+| A complete service, tool or provider arrangement is missing | [Systems Engineering](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) provides methods for defining the whole system and choosing how to obtain it. CB.1/9 can identify and arrange the community contribution within that larger provision. |
 
-The domain returns above select these stated public versions: Strategy's first working edition of 20 September 2026; HCD's twenty-pattern version of 22 September 2026; OCE, ME, RMP and OPS versions of 20 September 2026; MA 1.0; ECO's version of 22 September 2026; and SYSE's version of 26 September 2026. Use these version cues when comparing a changed supplier with the contribution relied on here. The table names the relied-on content and receiving use; each remains a contribution from its supplying framework.
+For a reproducible use or comparison, identify the supplying edition or revision actually read. These links provide discovery; the table identifies the relied-on contribution and receiving use. A supplier must still provide the needed result under the conditions of the present work.
 
 A later edition of a supplier reopens only the CB claims and uses that rely on its changed contribution. For example, a change to the qualification of a method trial affects the CB.14 trial claim; it does not by itself reopen the garden's session-time decision. Removing the adequate professional method from the independent-use application would invalidate its chosen learning route: obtain or develop that method before continuing the same promise.
 
 A new or unknown professional method, a complete service and a commercial strategy retain their own development questions. Use the available contributions identified above, and obtain any further result needed by the particular community's promise before relying on it.
-
-
 
 ## CB.Reference:3 - Renew the affected contribution
 
@@ -4012,18 +4006,32 @@ Return to the smallest affected source, method or arrangement. Check the propose
 
 For this pattern language, repeated reader failure should reopen the affected explanation, example or practical entry. A change in the promised field or useful pattern division reopens the framework's organization. A changed source or external method first reopens its particular adopted contribution and dependent CB uses. A broken link first needs a working source return; repairing the link establishes access to text, not the text's adequacy.
 
-Keep a usable return when changing a published pattern's title, order or interpretation. CB.1–16 are stable local addresses within the Community Building framework; Part and section positions are publication navigation. Preserve an old address when the practical answer continues. A different answer needs an explicit replacement or migration explanation so that a previous citation does not silently acquire a new meaning.
+Keep a usable return when changing a published pattern's title, order or interpretation. CB.1–16 retain their local addresses within this framework; Part and section positions are publication navigation. Preserve an old address when the practical answer continues. A different answer needs an explicit replacement or migration explanation so that a previous citation does not silently acquire a new meaning.
 
 ## CB.Reference:End
 
 
 # Edition and use
 
-**Community Building — First edition.**
+## CB.Edition:1 - Edition and citation
 
-This edition contains the sixteen complete CB pattern bodies, its Readme and Preface, the constructed applications, source-use account and supplier returns. It is written for people and assisting agents constructing or changing cultural and community contributions under the conditions each method states. It does not promise a complete professional method, learning product, commercial strategy or research programme for every activity a community undertakes.
+**Community Management — Participation and practice-support edition, 12 October 2026.** Full-text home: [Community Management Principles Framework](https://github.com/ailev/FPF/blob/main/Development%20DPF%20Suite/COMMUNITY-MANAGEMENT-PRINCIPLES-FRAMEWORK.md).
 
-CB is the short reference code of the Community Building Principles Framework. A local numeric locator completes each PatternID, such as CB.14. When citing outside this framework, name Community Building; when a particular published text matters, also name this edition. Authority to act and evidence for an intervention's effect depend on the particular use and its grounds.
+This edition contains the sixteen complete CB pattern bodies, its Readme and Preface, the constructed applications, source-use account and supplier returns. It is written for people and assisting agents constructing or changing community participation and its contributions under the conditions each Method states. The retained independent-use application shows a qualified alternative to community formation, not a promise to contain every cultural Method. It does not promise a complete professional method, learning product, commercial strategy or research programme for every activity a community undertakes.
+
+CB is this framework's reference code; a local numeric locator completes each PatternID, such as CB.14. When citing this publication outside the framework, name Community Management and identify this edition and the particular revision when its text matters. Authority to act and evidence for an intervention's effect depend on the particular use and its grounds.
+
+## CB.Edition:2 - Product-series rule
+
+The **Community Management Principles Framework** product series collects editions for community organisers, participants, practitioners, sponsors and assisting agents who construct, conduct, support and renew useful participation and joint contributions. A product-constitution decision begins this collection by admitting the **Participation and practice-support edition** above as its first edition. Publication and Suite inclusion are separate acts.
+
+Select Methods for offer and exchange, participation and activity, distributed organising, rules and mandates, provision, value, continuation, repertoire work and boundary representation. Admit only complete editions whose independent practical use and required direct suppliers have been qualified. Preserve a sufficient individual or provider alternative, unequal authority and cultural continuation outside community participation. The edition must explain the useful results it supplies and return to obtainable external Methods for stronger or different claims.
+
+Later editions may refine, add, split or redistribute Methods while preserving that participation-and-contribution promise, independent bounded use, practical receiving results and supplier boundaries. Admission requires a supported edition relation to the actual source edition (`EpistemeEditionRelation`), satisfaction of these rules and an effective admission decision. This applies also to a predecessor edition, fork, translation or other derivative. Replacing those identity anchors with another governed practice requires another product series. A different title, publication home, Suite membership or maintenance arrangement alone does not replace them.
+
+Loss of a necessary use, defeated source grounds or a broken direct return requires review of the affected qualification and a decision to repair, correct an unsupported admission claim or retire the affected offering. An admitted edition remains a historical member while this series continues, including when superseded, unavailable or retired. Explicit retirement of the series ends the collection and current belonging while preserving the historical facts; later active use requires a new constitution. A maintaining party, maintenance commitment, future edition or continued availability requires its own grounds.
+
+## CB.Edition:3 - Attribution and use
 
 Original framework content: Anatoly Levenchuk, with AI-assisted development and review. Original content is offered under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Third-party material and adaptations retain their own terms as identified above and in each pattern. Preserve applicable attribution and source boundaries when copying or adapting a standalone publication.
 
