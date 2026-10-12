@@ -14,6 +14,8 @@ Where the environment supports local files, obtain the publication files through
 
 Establish the available publication set once, and update it when files or access change. The full distribution includes FPF Core, the Engineering, Management, Foundational Thinking and Human Capability Engineering DPF Suites, further domain frameworks, and the Architectural References for the Library and its Suites; a downloaded subset or one attached document offers less. The public `Readme.md` and Suite `README.md` files identify the publications. Search the available set together when the question might need contributions from more than one practice. A missing search result means that this search has not found an answer in those sources, not that the ecosystem lacks the method.
 
+In the complete distribution, `FPF-Spec.md` and the [FPF Library Architectural Reference](FPF-LIBRARY-REFERENCE.md) are at the repository root. The [DPF catalogue](DPFs/README.md) lists the Suite subfolders and standalone DPF files under `DPFs/`. This directory groups domain publications; it is not another Suite. The Architectural References explain which disciplines form each Suite and which are used across its boundaries. Using a framework from another Suite does not add it to the receiving Suite.
+
 For development or review, use the edition and candidate selected by the assignment. Distinguish a proposed contribution from published guidance when reporting what the framework already supplies.
 
 ## Keep the receiving work in view
