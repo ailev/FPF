@@ -1,14 +1,16 @@
 # Economic Reasoning and Coordination Principles Framework
 
+**DocID:** `ECO` within **FPF Library**.
+
 > A pattern language for connecting different plans and knowledge with scarce means through calculation, exchange, commitments and economic arrangements.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
 - **Version:** 22 September 2026
 - **License:** © 2026 Anatoly Levenchuk. Original framework text: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Third-party material retains its own terms.
 
-Begin with the contribution your work cannot yet obtain. The Table of Contents locates individual methods; the Readme demonstrates connected uses; the Preface explains the language, prerequisites and limits. **ECO** is the reference code. Pattern numbers identify methods, while Parts organize reading.
+Begin with the contribution your work cannot yet obtain. The Table of Contents locates individual methods; the Readme demonstrates connected uses; the Architectural Reference explains the language, prerequisites and limits. **ECO** is the reference code. Pattern numbers identify methods, while Parts organize reading.
 
-This framework belongs to the [Engineering DPF Suite](https://github.com/ailev/FPF/blob/main/DPFs/Engineering%20DPF%20Suite/README.md). Cite the author, title, version shown here and the relevant PatternID or Preface section.
+This framework belongs to the [Engineering DPF Suite](https://github.com/ailev/FPF/blob/main/DPFs/Engineering%20DPF%20Suite/README.md). Cite the author, title, version shown here and the relevant PatternID or Architectural Reference section.
 
 # Table of Contents
 
@@ -17,7 +19,18 @@ This framework belongs to the [Engineering DPF Suite](https://github.com/ailev/F
 | Unit | Title | Use |
 | --- | --- | --- |
 | Readme | [Economic Reasoning and Coordination Principles Framework Readme](#economic-reasoning-and-coordination-principles-framework-readme) | Connect methods to form a service arrangement, coordinate a shared constraint or use an efficiency gain. |
-| Preface | [Preface](#preface) | Understand the connected methods, their rationale, sources and limits. |
+| Architectural Reference | [Economic Reasoning and Coordination Principles Framework Architectural Reference](#economic-reasoning-and-coordination-principles-framework-architectural-reference) | Understand the connected methods, their rationale, sources and limits. |
+| ECO.Reference:1 | [Problem frame - Make an economically workable contribution](#ecoreference1---problem-frame---make-an-economically-workable-contribution) |  |
+| ECO.Reference:2 | [Problem and forces - Locally sound contributions can fail together](#ecoreference2---problem-and-forces---locally-sound-contributions-can-fail-together) |  |
+| ECO.Reference:3 | [Solution - Connect calculation, exchange and economic arrangements](#ecoreference3---solution---connect-calculation-exchange-and-economic-arrangements) |  |
+| ECO.Reference:3.1 | [Calculation rests on economic relationships](#ecoreference31---calculation-rests-on-economic-relationships) |  |
+| ECO.Reference:3.2 | [Methods are enacted within a vertical](#ecoreference32---methods-are-enacted-within-a-vertical) |  |
+| ECO.Reference:4 | [Archetypal grounding - From a proposed service to a viable arrangement](#ecoreference4---archetypal-grounding---from-a-proposed-service-to-a-viable-arrangement) |  |
+| ECO.Reference:5 | [Consequences and limits](#ecoreference5---consequences-and-limits) |  |
+| ECO.Reference:6 | [Common failures and useful returns](#ecoreference6---common-failures-and-useful-returns) |  |
+| ECO.Reference:7 | [Architectural Rationale](#ecoreference7---architectural-rationale) |  |
+| ECO.Reference:8 | [Source use and currentness](#ecoreference8---source-use-and-currentness) |  |
+| ECO.Reference:9 | [External contributions and entry](#ecoreference9---external-contributions-and-entry) |  |
 
 ## Part I - Calculation and discovery
 
@@ -106,13 +119,13 @@ If the purpose is a resource cap, keep the aggregate limit in the operating plan
 
 ## Using the whole language
 
-Begin at the unresolved contribution and keep already adequate work. A return to an earlier pattern follows a changed premise, not a compulsory cycle. The Preface explains the economic architecture, Method verticals, sources and limits; each pattern provides its own instructions and examples.
+Begin at the unresolved contribution and keep already adequate work. A return to an earlier pattern follows a changed premise, not a compulsory cycle. The Architectural Reference explains the economic architecture, Method verticals, sources and limits; each pattern provides its own instructions and examples.
 
 The [Engineering DPF Suite](https://github.com/ailev/FPF/blob/main/DPFs/Engineering%20DPF%20Suite/README.md) contains the financial, operating, organizational, explanation and development methods used at these boundaries. The [Foundational Thinking DPF Suite](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/README.md) supplies mathematical, physical and computational methods where those contributions are missing.
 
-# Preface
+# Economic Reasoning and Coordination Principles Framework Architectural Reference
 
-## ECO.Preface:1 - Problem frame - Make an economically workable contribution
+## ECO.Reference:1 - Problem frame - Make an economically workable contribution
 
 Economic reasoning asks how different plans, knowledge, purposes and rights can be connected with scarce means. A technically feasible construction can remain unavailable because its inputs cannot be obtained, its participants will not accept the terms or its effects undermine the arrangement on which it depends.
 
@@ -120,7 +133,7 @@ This framework serves engineers, entrepreneurs, managers, institution designers 
 
 A practitioner needs enough knowledge of the work to recognize the intended results and the parties and resources that matter. Financial, technical, legal and statistical expertise may be supplied by others. This framework helps identify and use those contributions under their limits; it does not make them available merely by describing them.
 
-## ECO.Preface:2 - Problem and forces - Locally sound contributions can fail together
+## ECO.Reference:2 - Problem and forces - Locally sound contributions can fail together
 
 A calculation may be correct for its inputs while a quoted resource is unavailable. A prototype may work while no customer will commit. A customer and supplier may agree while imposing a cost on a shared resource. A rule may allocate that resource correctly under one flow and fail when the flow changes. A better technology may use less per result and more in total.
 
@@ -130,7 +143,7 @@ The language uses both formal models and qualitative reasoning where their condi
 
 Further inquiry has its own whole cost, including delay and work displaced. C.11.DUA helps compare it with using adequate current information, changing the action, accepting a bounded uncertainty or stopping. There is no requirement to prove every source anecdote or gather every possible observation before acting.
 
-## ECO.Preface:3 - Solution - Connect calculation, exchange and economic arrangements
+## ECO.Reference:3 - Solution - Connect calculation, exchange and economic arrangements
 
 The ten methods form four connected groups. These groups organize explanation; they do not prescribe stages or fixed levels.
 
@@ -143,7 +156,7 @@ The ten methods form four connected groups. These groups organize explanation; t
 
 The operation and its description remain different. Applying guidance can produce a proposal, a calculation, an agreement or a performed contribution, depending on what the practitioner actually does and what conditions hold. A possible arrangement is not an existing one. The cases below and in the patterns are constructed demonstrations of reasoning; they do not assert observed field effectiveness.
 
-### ECO.Preface:3.1 - Calculation rests on economic relationships
+### ECO.Reference:3.1 - Calculation rests on economic relationships
 
 Mises's calculation argument concerns the basis on which heterogeneous productive means become comparable across exchanges. A computational solver supplied with objectives, prices and feasible operations leaves the formation of those inputs to another contribution. ECO.1 addresses that missing basis where it affects the choice.
 
@@ -151,7 +164,7 @@ A monetary comparison can remain useful without measuring everyone's welfare. Ke
 
 Hayek's knowledge argument explains why a price can support a local adjustment without a complete account of what caused it. ECO.2 uses that economy of knowledge. ECO.3 develops a new combination when the existing alternatives do not serve the participants' plans.
 
-### ECO.Preface:3.2 - Methods are enacted within a vertical
+### ECO.Reference:3.2 - Methods are enacted within a vertical
 
 In a service-development method, interpreting an offer and comparing a supply route can be constituent methods of constructing a feasible service arrangement. While a practitioner checks the relevant delivery condition, that action can simultaneously contribute to the supply comparison, the arrangement and the encompassing development work. The encompassing result determines which condition matters; the constituent ability limits what the larger work can accomplish.
 
@@ -161,7 +174,7 @@ The supplier's manufacturing work is separately connected by a commitment. It do
 
 People and AI can divide contributions where their capabilities and authority permit. A model can calculate a proposal without being authorized to accept it. A human can authorize an arrangement without being able to derive every specialist result. The needed vertical must nevertheless be supported by capabilities, resources and accessible results at the places where the work consumes them.
 
-## ECO.Preface:4 - Archetypal grounding - From a proposed service to a viable arrangement
+## ECO.Reference:4 - Archetypal grounding - From a proposed service to a viable arrangement
 
 A constructed firm proposes a monitoring service. A customer has a use for it, a supplier can prepare equipment and a funder can provide money. The supplier needs dedicated tooling, the customer may cancel early and the funder requires an order. Existing technical and financial accounts leave these economic connections unresolved.
 
@@ -173,7 +186,7 @@ A participant may choose the standard process if it supplies the required result
 
 Changing the case to reusable tooling and interchangeable suppliers changes the dependence question. It need not alter an adequate calculation or create a reorganization. The method language lets the practitioner change only the affected contribution and carry the result forward.
 
-## ECO.Preface:5 - Consequences and limits
+## ECO.Reference:5 - Consequences and limits
 
 The language can improve the construction and comparison of economic arrangements without requiring one actor to know or direct everything. It can also expose an incompatibility that no available arrangement presently resolves.
 
@@ -181,7 +194,7 @@ Its field boundary is economic reasoning and coordination for the described fami
 
 The descriptions provide neither legal rights nor resources. They do not guarantee successful entrepreneurship, consensus, fairness or institutional improvement. A chosen arrangement can serve some purposes and burden others; retain those differences in the actual decision.
 
-## ECO.Preface:6 - Common failures and useful returns
+## ECO.Reference:6 - Common failures and useful returns
 
 | Failure in work | Contribution to recover |
 | --- | --- |
@@ -194,7 +207,7 @@ The descriptions provide neither legal rights nor resources. They do not guarant
 
 Use these returns when the failure occurs. They are not a required audit before every ordinary action.
 
-## ECO.Preface:7 - Architectural Rationale
+## ECO.Reference:7 - Architectural Rationale
 
 The method boundaries follow contributions that can fail independently. Calculation differs from discovery because ranking existing alternatives does not create a new exchange. Understanding a venture differs from being willing or able to commit. Incentive design differs from dependence because an acceptable initial contract can leave costly adaptation after investment. Shared-resource and institutional questions extend beyond the parties to one transaction.
 
@@ -202,7 +215,7 @@ The framework therefore sits alongside Corporate Finance, Management Accounting,
 
 Transdisciplinary agency, Method composition, choice, uncertainty and cultural evolution remain in FPF. Mathematical, physical and computational modeling remain in their supplying frameworks. Their generality is preserved while this language adds the economic mechanisms needed by its users.
 
-## ECO.Preface:8 - Source use and currentness
+## ECO.Reference:8 - Source use and currentness
 
 The language is a conceptual synthesis. Historical sources identify mechanisms and disagreements; later research sharpens particular questions. Source prestige and school membership do not settle whether an operation fits the current situation.
 
@@ -220,7 +233,7 @@ The bodies provide the primary source links and the comparisons that change thei
 
 Revisit an affected method when new evidence changes its mechanism, the institutional or technical conditions no longer fit, a relied-on external method changes, or actual use reveals a missing operation. Preserve unaffected reasoning. A new source alone does not require rewriting the whole language.
 
-## ECO.Preface:9 - External contributions and entry
+## ECO.Reference:9 - External contributions and entry
 
 This DPF relies on the general meanings and selected methods in [FPF Core](https://github.com/ailev/FPF/blob/main/FPF-Spec.md), including B.1.5 for constituent and encompassing methods, C.11 for proportionate inquiry and C.36 for cultural continuation. The dependence is from ECO to Core.
 
@@ -230,7 +243,7 @@ The [Foundational Thinking DPF Suite](https://github.com/ailev/FPF/blob/main/DPF
 
 When a supplying method changes, reconsider the receiving claim whose operation or condition changed. Its publication date alone does not determine compatibility. Begin with the Table of Contents or the connected uses in the Readme; stop when the requested contribution is supplied.
 
-## ECO.Preface:End
+## ECO.Reference:End
 
 # Part I - Calculation and discovery
 

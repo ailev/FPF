@@ -1,5 +1,7 @@
 # Physical Thinking DPF
 
+**DocID:** `PHY` within **FPF Library**.
+
 > A pattern language for forming physical accounts, deriving usable consequences, constructing observations and revising the physical assumptions.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
@@ -8,11 +10,11 @@
 - **License:** © 2026 Anatoly Levenchuk. Original framework text: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Cited sources retain their own terms.
 - **Publication:** [FPF ecosystem repository](https://github.com/ailev/FPF)
 
-Begin with the physical question in your work. Use the Table of Contents to find a relevant method, then open its Problem frame, Solution, worked cases and checklist. The Readme follows worked connections between methods; the Preface explains how the methods connect, which knowledge they require and how to revise a physical account.
+Begin with the physical question in your work. Use the Table of Contents to find a relevant method, then open its Problem frame, Solution, worked cases and checklist. The Readme follows worked connections between methods; the Architectural Reference explains how the methods connect, which knowledge they require and how to revise a physical account.
 
 The reference code **PHY** names this DPF. Its numbers are stable pattern addresses; § shows position within a Part. The methods can be used separately or in longer routes with mathematical and computational contributions.
 
-This publication belongs to the [Foundational Thinking DPF Suite](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/README.md). Its [Reference](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) explains those connections and the available publications. References such as B.5.MPC and C.29 name patterns in [FPF Core](https://github.com/ailev/FPF/blob/main/FPF-Spec.md). Open the cited body when its contribution is needed; revisit a receiving conclusion when that contribution changes.
+This publication belongs to the [Foundational Thinking DPF Suite](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/README.md). Its [Reference (Foundational)](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) explains those connections and the available publications. References such as B.5.MPC and C.29 name patterns in [FPF Core](https://github.com/ailev/FPF/blob/main/FPF-Spec.md). Open the cited body when its contribution is needed; revisit a receiving conclusion when that contribution changes.
 
 To cite this edition: Anatoly Levenchuk, *Physical Thinking DPF*, [FPF ecosystem repository](https://github.com/ailev/FPF). Include the version date shown above.
 
@@ -23,27 +25,37 @@ To cite this edition: Anatoly Levenchuk, *Physical Thinking DPF*, [FPF ecosystem
 | Unit | Title | Use |
 | --- | --- | --- |
 | Readme | [Physical Thinking - Readme](#physical-thinking---readme) | Follow worked connections between physical methods. |
-| Preface | [Physical Thinking - Preface](#physical-thinking---preface) | Understand the connected methods, their rationale, sources and limits. |
+| Architectural Reference | [Physical Thinking DPF Architectural Reference](#physical-thinking-dpf-architectural-reference) | Understand the connected methods, their rationale, sources and limits. |
+| PHY.Reference:1 | [Problem frame - Construct a physical account you can use and change](#phyreference1---problem-frame---construct-a-physical-account-you-can-use-and-change) |  |
+| PHY.Reference:2 | [Problem and forces - Keep the physical question through the calculation](#phyreference2---problem-and-forces---keep-the-physical-question-through-the-calculation) |  |
+| PHY.Reference:3 | [Solution - Connect physical methods through their results](#phyreference3---solution---connect-physical-methods-through-their-results) |  |
+| PHY.Reference:3.1 | [Construct and constrain the account](#phyreference31---construct-and-constrain-the-account) |  |
+| PHY.Reference:3.2 | [Compare, observe and construct another use](#phyreference32---compare-observe-and-construct-another-use) |  |
+| PHY.Reference:3.3 | [Constituent actions in ongoing work](#phyreference33---constituent-actions-in-ongoing-work) |  |
+| PHY.Reference:4 | [Worked connection - From an unknown resistance to a useful comparison](#phyreference4---worked-connection---from-an-unknown-resistance-to-a-useful-comparison) |  |
+| PHY.Reference:5 | [Bias, use checks and recurring failures](#phyreference5---bias-use-checks-and-recurring-failures) |  |
+| PHY.Reference:6 | [Consequences and Architectural Rationale](#phyreference6---consequences-and-architectural-rationale) |  |
+| PHY.Reference:7 | [Shared sources, alternatives and relations](#phyreference7---shared-sources-alternatives-and-relations) |  |
 
 ## Part A - Construct and constrain a physical account
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [PHY.4 - Constrain an Unknown Physical Law by Transforming the Situation](#phy4---constrain-an-unknown-physical-law-by-transforming-the-situation) | Usable, evolving | unknown law; symmetry; physical transformation; dimensions; balance; dissipation. What can be concluded before a full response law is known? | MATH.13 for a symmetry consequence; MMP.11 for an unknown response family. |
-| 2 | [PHY.5 - Choose an Effective Physical Description by Scales and Couplings](#phy5---choose-an-effective-physical-description-by-scales-and-couplings) | Usable, evolving | scale separation; coupling; memory; fluctuation; transient; effective description. Which physical effects can be omitted for the consequence and duration of interest? | MMP.9 for mathematical elimination; PHY.6/.8 when evolution or collective preparation matters. |
-| 3 | [PHY.6 - Construct Physical Evolution from Balances and Response Laws](#phy6---construct-physical-evolution-from-balances-and-response-laws) | Usable, evolving | participants; exchange; balance; constitutive response; preparation; boundary condition. Which physical laws and conditions close the proposed evolution? | C.29.BB for balances; MMP.10 for coupled equations; C.29.2 for computational formulation. |
-| 4 | [PHY.7 - Obtain Motion from a Physical Variational Principle](#phy7---obtain-motion-from-a-physical-variational-principle) | Usable, evolving | physical action; admissible history; constraints; boundary freedom; variation. What physical grounds permit a variational construction, and what motion follows? | MATH.10 for mathematical variation; PHY.6 for the direct balance alternative. |
-| 5 | [PHY.8 - Infer Macroscopic Physical Behavior from Microscopic Alternatives](#phy8---infer-macroscopic-physical-behavior-from-microscopic-alternatives) | Usable, evolving | microstates; preparation; ensemble; correlation; fluctuation; relaxation. Which physical distribution and dynamics support a collective prediction? | MMP.7 for probability composition; MMP.9 for reduction; PHY.6 for the required physical evolution. |
+| 1 | [PHY.4 - Constrain an Unknown Physical Law by Transforming the Situation](#phy4---constrain-an-unknown-physical-law-by-transforming-the-situation) | Stable | unknown law; symmetry; physical transformation; dimensions; balance; dissipation. What can be concluded before a full response law is known? | MATH.13 for a symmetry consequence; MMP.11 for an unknown response family. |
+| 2 | [PHY.5 - Choose an Effective Physical Description by Scales and Couplings](#phy5---choose-an-effective-physical-description-by-scales-and-couplings) | Stable | scale separation; coupling; memory; fluctuation; transient; effective description. Which physical effects can be omitted for the consequence and duration of interest? | MMP.9 for mathematical elimination; PHY.6/.8 when evolution or collective preparation matters. |
+| 3 | [PHY.6 - Construct Physical Evolution from Balances and Response Laws](#phy6---construct-physical-evolution-from-balances-and-response-laws) | Stable | participants; exchange; balance; constitutive response; preparation; boundary condition. Which physical laws and conditions close the proposed evolution? | C.29.BB for balances; MMP.10 for coupled equations; C.29.2 for computational formulation. |
+| 4 | [PHY.7 - Obtain Motion from a Physical Variational Principle](#phy7---obtain-motion-from-a-physical-variational-principle) | Stable | physical action; admissible history; constraints; boundary freedom; variation. What physical grounds permit a variational construction, and what motion follows? | MATH.10 for mathematical variation; PHY.6 for the direct balance alternative. |
+| 5 | [PHY.8 - Infer Macroscopic Physical Behavior from Microscopic Alternatives](#phy8---infer-macroscopic-physical-behavior-from-microscopic-alternatives) | Stable | microstates; preparation; ensemble; correlation; fluctuation; relaxation. Which physical distribution and dynamics support a collective prediction? | MMP.7 for probability composition; MMP.9 for reduction; PHY.6 for the required physical evolution. |
 
 ## Part B - Compare, observe and act
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [PHY.1 - Construct Physical Similarity Across Changed Conditions](#phy1---construct-physical-similarity-across-changed-conditions) | Usable, evolving | scaling; similarity; dimensionless groups; prototype; changed regime. When does a physical result transfer to a different size, material or condition? | PHY.5 for consequential omitted effects; mathematical methods for the resulting comparison. |
-| 2 | [PHY.2 - Construct a Physical Analogue from Interactions](#phy2---construct-a-physical-analogue-from-interactions) | Usable, evolving | physical analogue; mechanism; interaction; preparation; readout. How can another physical arrangement supply a wanted consequence? | PHY.5/.6 for physical description and evolution; PHY.9/.10 for observation and comparison; C.29.3 for computing realization. |
-| 3 | [PHY.9 - Construct a Measuring Interaction for a Physical Distinction](#phy9---construct-a-measuring-interaction-for-a-physical-distinction) | Usable, evolving | measuring interaction; transduction; reference; calibration; disturbance; ambiguity. How can the needed property be made to affect an observable indication? | C.16.MR for the measurement relation; C.16.IR for inference from indications; PHY.10 for competing physical accounts. |
-| 4 | [PHY.10 - Construct a Physical Test That Separates Rival Accounts](#phy10---construct-a-physical-test-that-separates-rival-accounts) | Usable, evolving | rival accounts; physical contrast; preparation; apparatus; parameter freedom; noise. Which feasible comparison separates the consequences that matter? | PHY.9 for a needed readout; PHY.6 for evolution; B.5.TC for theoretical comparison. |
-| 5 | [PHY.3 - Derive a Physical Limit from Permitted Transformations](#phy3---derive-a-physical-limit-from-permitted-transformations) | Usable, evolving | physical limit; impossibility; reversible reference; complete exchanges; changed premise. What can a proposed transformation achieve under the physical laws and resources supplied? | C.29.BB for balances; MATH.11/.20 for invariants or bounds; PHY.2 for another physical construction. |
+| 1 | [PHY.1 - Construct Physical Similarity Across Changed Conditions](#phy1---construct-physical-similarity-across-changed-conditions) | Stable | scaling; similarity; dimensionless groups; prototype; changed regime. When does a physical result transfer to a different size, material or condition? | PHY.5 for consequential omitted effects; mathematical methods for the resulting comparison. |
+| 2 | [PHY.2 - Construct a Physical Analogue from Interactions](#phy2---construct-a-physical-analogue-from-interactions) | Stable | physical analogue; mechanism; interaction; preparation; readout. How can another physical arrangement supply a wanted consequence? | PHY.5/.6 for physical description and evolution; PHY.9/.10 for observation and comparison; C.29.3 for computing realization. |
+| 3 | [PHY.9 - Construct a Measuring Interaction for a Physical Distinction](#phy9---construct-a-measuring-interaction-for-a-physical-distinction) | Stable | measuring interaction; transduction; reference; calibration; disturbance; ambiguity. How can the needed property be made to affect an observable indication? | C.16.MR for the measurement relation; C.16.IR for inference from indications; PHY.10 for competing physical accounts. |
+| 4 | [PHY.10 - Construct a Physical Test That Separates Rival Accounts](#phy10---construct-a-physical-test-that-separates-rival-accounts) | Stable | rival accounts; physical contrast; preparation; apparatus; parameter freedom; noise. Which feasible comparison separates the consequences that matter? | PHY.9 for a needed readout; PHY.6 for evolution; B.5.TC for theoretical comparison. |
+| 5 | [PHY.3 - Derive a Physical Limit from Permitted Transformations](#phy3---derive-a-physical-limit-from-permitted-transformations) | Stable | physical limit; impossibility; reversible reference; complete exchanges; changed premise. What can a proposed transformation achieve under the physical laws and resources supplied? | C.29.BB for balances; MATH.11/.20 for invariants or bounds; PHY.2 for another physical construction. |
 
 # Physical Thinking - Readme
 
@@ -73,7 +85,7 @@ You can ask an assisting agent: “Explain this and give me your comments in the
 
 **4. Check the physical transfer, then reopen only what changed.** The maintained-speed comparison informs coasting only if the instantaneous-response and material premises cover both preparations. [PHY.5](#phy5---choose-an-effective-physical-description-by-scales-and-couplings) examines a consequential wake or relaxation time if that transfer is doubtful; memory can require another state in the evolution rather than a changed coefficient. If the medium's material condition changes between force comparisons, recover its effect before treating the later indication as a test of the original candidates. Their conditional integrals remain correct; their applicability to the changed run has reopened. Neither result establishes behavior at zero speed or in a new physical regime.
 
-[PHY.Preface:4](#phypreface4---worked-connection---from-an-unknown-resistance-to-a-useful-comparison) gives the connected account and division of physical, mathematical and computational work. The same dependence can arise in an unfamiliar transient, a collective response or a physical analogue. The physical laws and observable change with the situation; the contributions still have to support one interpreted answer.
+[PHY.Reference:4](#phyreference4---worked-connection---from-an-unknown-resistance-to-a-useful-comparison) gives the connected account and division of physical, mathematical and computational work. The same dependence can arise in an unfamiliar transient, a collective response or a physical analogue. The physical laws and observable change with the situation; the contributions still have to support one interpreted answer.
 
 ### PH-COLLECTIVE - Choose a collective description for the time that matters
 
@@ -93,9 +105,9 @@ You can ask an assisting agent: “Explain this and give me your comments in the
 
 `partial_t j = -v²*partial_x n - 2*alpha*j`.
 
-The ideal point preparation leaves probability atoms at x=±v*t for particles that have not yet reversed; these density equations are understood in the distributional sense. PHY.8 connects their solution to the observable needed here: mean-square displacement at a specified time. The current carries directional persistence even though the mean position stays zero.
+The ideal point preparation leaves probability atoms at x=±v\*t for particles that have not yet reversed; these density equations are understood in the distributional sense. PHY.8 connects their solution to the observable needed here: mean-square displacement at a specified time. The current carries directional persistence even though the mean position stays zero.
 
-**3. Decide whether the faster response can be omitted.** PHY.5 compares the observation time with the current's relaxation time `1/(2*alpha)` and checks the spatial variation. When the reduction is justified, [MMP.9](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp9---derive-a-reduced-mathematical-model-of-state-evolution) supplies the mathematical reduction: replace the relaxed current by `j approximately -D*partial_x n`, with `D=v²/(2*alpha)`, to obtain a diffusion equation. The question still decides whether its consequence is accurate enough.
+**3. Decide whether the faster response can be omitted.** PHY.5 compares the observation time with the current's relaxation time `1/(2*alpha)` and checks the spatial variation. When the reduction is justified, [MMP / MMP.9](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp9---derive-a-reduced-mathematical-model-of-state-evolution) supplies the mathematical reduction: replace the relaxed current by `j approximately -D*partial_x n`, with `D=v²/(2*alpha)`, to obtain a diffusion equation. The question still decides whether its consequence is accurate enough.
 
 For v=2 cm/s and alpha=1/s, PHY.8's full account gives
 
@@ -117,9 +129,9 @@ A simulation used to obtain these timed predictions must implement the stated re
 
 The reservoirs have fixed absolute thermodynamic temperatures, the device returns to its initial state, and no other resource is consumed. Under the supplied classical second-law account, `W <= (1-300/600)*100 J = 50 J`. Energy balance alone would allow the proposed 60 J and therefore would not settle the question. The bound restricts net work; it neither supplies an attaining design nor its power or cost. External work, a nonthermal resource or an unrestored auxiliary changes the account to be compared, not the arithmetic of the original bound.
 
-# Physical Thinking - Preface
+# Physical Thinking DPF Architectural Reference
 
-## PHY.Preface:1 - Problem frame - Construct a physical account you can use and change
+## PHY.Reference:1 - Problem frame - Construct a physical account you can use and change
 
 You may know a physical definition, solve a supplied equation or run a simulator and still be unable to begin an unfamiliar physical problem. The participants in the definition may be hard to recognize in the observed situation. The equation may omit the interaction that changes the answer. A computed result may concern a different preparation from the one available in the project.
 
@@ -131,7 +143,7 @@ You need to follow what the quantities represent and what the proposed physical 
 
 Use a familiar adequate law and procedure directly when they already answer the question. This language is useful when the physical account, its applicability or its connection with observation and computation still needs work.
 
-## PHY.Preface:2 - Problem and forces - Keep the physical question through the calculation
+## PHY.Reference:2 - Problem and forces - Keep the physical question through the calculation
 
 A physical calculation operates on mathematical objects chosen to describe participants, states, interactions and observations. A consequence of those objects answers the physical question only through the interpretation and premises that connect them. A correct calculation can therefore expose an omitted physical distinction without supplying the law that repairs it.
 
@@ -148,9 +160,9 @@ Several tensions shape the choice of method:
 
 These choices can occur in theory construction as well as in an applied project. An unexplained dependence, a failed comparison or an impossibility can open a useful new question. The next question may seek another law, a different observation, a new way to prepare the system or an application of an established result.
 
-## PHY.Preface:3 - Solution - Connect physical methods through their results
+## PHY.Reference:3 - Solution - Connect physical methods through their results
 
-### PHY.Preface:3.1 - Construct and constrain the account
+### PHY.Reference:3.1 - Construct and constrain the account
 
 [PHY.4](#phy4---constrain-an-unknown-physical-law-by-transforming-the-situation) begins while the response law is still unknown. Recover the participants, transform the relevant situation, and derive the restrictions supplied by symmetry, dimensions, balances and dissipation where their physical grounds hold. The remaining unknown function or state directs further work.
 
@@ -162,7 +174,7 @@ These choices can occur in theory construction as well as in an applied project.
 
 [PHY.8](#phy8---infer-macroscopic-physical-behavior-from-microscopic-alternatives) constructs collective predictions from physically admissible alternatives and their weighting grounds. It retains correlations, preparation and the difference between sampling a distribution and following physical evolution. A distribution or sufficient bound can remain useful when a particular moment or equilibrium approximation is unavailable.
 
-### PHY.Preface:3.2 - Compare, observe and construct another use
+### PHY.Reference:3.2 - Compare, observe and construct another use
 
 [PHY.1](#phy1---construct-physical-similarity-across-changed-conditions) determines which effects and scale relations let a physical result travel to changed conditions. PHY.5 deepens the question when a neglected effect changes that transfer.
 
@@ -176,13 +188,13 @@ These choices can occur in theory construction as well as in an applied project.
 
 These connections form possible routes. They do not prescribe a ten-stage workflow. A known response can enter at measurement; an unknown interaction can enter at law construction; a useful impossibility can end work before a device or computation is built.
 
-### PHY.Preface:3.3 - Constituent actions in ongoing work
+### PHY.Reference:3.3 - Constituent actions in ongoing work
 
 Acquiring a reading can be part of testing a physical account while the discriminating investigation is already under way. If rival accounts agree at equilibrium but differ during a transition, a settled-value observation cannot answer the same question: its timing must change. Instrument use, the mathematical consequence and knowledge of the accounts can be available separately while the coordination of intervention and observation is missing. The domain's observation Method supplies that intermediate contribution and its equipment conditions.
 
 FPF B.1.5.EW helps recover these constituent–whole connections; B.1.5.RS examines a proposed replacement. Use the parts of the vertical that can change the present result. A Method described here can require additional capability, available support and compatible resources at other grains.
 
-## PHY.Preface:4 - Worked connection - From an unknown resistance to a useful comparison
+## PHY.Reference:4 - Worked connection - From an unknown resistance to a useful comparison
 
 Consider a body moving through a medium with positive speed v. The work needs to know how far it travels while slowing from 1 m/s to 0.5 m/s. Use a stipulated effective inertia of 1 kg and no other force along the motion. The proposed account treats resistance as an instantaneous function of relative speed at fixed material conditions.
 
@@ -204,7 +216,7 @@ The steady comparison can inform coasting only if the retained instantaneous-res
 
 The resulting work can be divided. A physical contributor supplies the interaction and preparation account, a mathematical contributor derives the permitted consequences, and a computational contributor obtains them in a useful form. B.5.MPC keeps those contributions connected to the distance question; B.5.MPC.R locates the affected return after the material change.
 
-## PHY.Preface:5 - Bias, use checks and recurring failures
+## PHY.Reference:5 - Bias, use checks and recurring failures
 
 The worked cases use tractable theories and idealized arrangements so that the construction and its changed conditions can be followed. A real material, instrument or field situation can require additional subject knowledge. Astronomical or historical physical questions may offer observations without freely controllable interventions. Their comparison must use the physical grounds available there.
 
@@ -222,7 +234,7 @@ Several failures recur in the bodies:
 
 A learner's ability to repeat one derivation does not establish their ability to choose its physical premises in a new situation. Try changed participants, preparation or observable requirements, and ask what the earlier construction still supports. Explanations and practice can develop that capability; the quality of the explanation and the demonstrated capability are separate questions.
 
-## PHY.Preface:6 - Consequences and Architectural Rationale
+## PHY.Reference:6 - Consequences and Architectural Rationale
 
 This arrangement makes physical construction accessible before a complete equation is supplied. A constraint can guide a model, a balance can locate a missing response, an observable distinction can select an experiment, and a physical limit can redirect development. The cost depends on which contribution is missing. A short derivation may suffice; a new interaction or difficult measurement can require substantial specialist work.
 
@@ -234,7 +246,7 @@ There is no universal order of mathematics, physics and computation. A mathemati
 
 This is also a way to develop methods of work. A team can change who constructs, interprets or computes a contribution, provided the next contribution can still use its result and conditions. New theory, a changed instrument or a better computational construction can reopen a local choice without replacing the whole repertoire.
 
-## PHY.Preface:7 - Shared sources, alternatives and relations
+## PHY.Reference:7 - Shared sources, alternatives and relations
 
 Physical construction and executable mathematical reasoning meet explicitly in [Sussman and Wisdom's Structure and Interpretation of Classical Mechanics](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/9579/sicm_edition_2.zip/preface001.html). PHY.7 adopts the connected recovery of configuration, interaction and permitted variation. Its comparison with the direct balance route in PHY.6 retains the cheaper sufficient construction and the limits of an ordinary action principle. The shared lesson is to expose the physical premises that a compact formalism can hide.
 
@@ -250,14 +262,14 @@ C.29.1 supplies transfer between mathematical accounts, C.29.2 computational for
 
 The ten bodies are one repertoire that can be used in different combinations. The two Parts group their presentation; they do not define two sequential stages or a single Method performed by every user.
 
-## PHY.Preface:End
+## PHY.Reference:End
 
 # Part A - Construct and constrain a physical account
 
 ## PHY.4 - Constrain an Unknown Physical Law by Transforming the Situation
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### PHY.4:1 - Problem frame
@@ -477,7 +489,7 @@ An established constitutive account or reliable analogue is preferable when it a
 ## PHY.5 - Choose an Effective Physical Description by Scales and Couplings
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### PHY.5:1 - Problem frame
@@ -633,9 +645,9 @@ For waves with wavenumber q in `0<q*a<pi`, substitution of a sinusoidal wave giv
 
 For wavelengths long compared with a, expanding the neighboring displacements gives the continuum equation `u_tt=c^2*u_xx` with `c=a*sqrt(kappa/m)`. It predicts both phase and group speed c. The chain's phase speed divided by c is `sin(q*a/2)/(q*a/2)`; its group speed divided by c is `cos(q*a/2)`. Expanding those ratios gives `v_phase/c = 1-(q*a)^2/24+O((q*a)^4)` and `v_group/c = 1-(q*a)^2/8+O((q*a)^4)`, exposing their different first corrections.
 
-At q*a=0.2 these ratios are about 0.99833 and 0.99500. A half-percent allowance for these speeds accommodates this ideal comparison, subject to the question's waveform and other physical premises. The group-speed difference is already larger than the phase-speed difference.
+At q\*a=0.2 these ratios are about 0.99833 and 0.99500. A half-percent allowance for these speeds accommodates this ideal comparison, subject to the question's waveform and other physical premises. The group-speed difference is already larger than the phase-speed difference.
 
-**Changed work.** A disturbance containing wavelengths near the shortest traveling waves of the chain probes q*a near pi. The chain's group speed tends to zero, while the continuum account keeps c. A question about that disturbance's propagation requires retaining the discrete dispersion or an adequate extension. Making the computation of the uncorrected continuum equation more accurate cannot recover the omitted physical dependence.
+**Changed work.** A disturbance containing wavelengths near the shortest traveling waves of the chain probes q\*a near pi. The chain's group speed tends to zero, while the continuum account keeps c. A question about that disturbance's propagation requires retaining the discrete dispersion or an adequate extension. Making the computation of the uncorrected continuum equation more accurate cannot recover the omitted physical dependence.
 
 This case concerns an ideal linear chain. It demonstrates choosing spatial resolution from the wave that matters. It supplies no claim that every material, boundary or large deformation obeys the same chain law.
 
@@ -719,7 +731,7 @@ The synthesis combines controlled omission, retained coupling and use-specific c
 ## PHY.6 - Construct Physical Evolution from Balances and Response Laws
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### PHY.6:1 - Problem frame
@@ -971,7 +983,7 @@ The three worked calculations are constructed examples under their stated ideali
 ## PHY.7 - Obtain Motion from a Physical Variational Principle
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### PHY.7:1 - Problem frame
@@ -1209,7 +1221,7 @@ The worked calculations are constructed consequences of their stated classical d
 ## PHY.8 - Infer Macroscopic Physical Behavior from Microscopic Alternatives
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### PHY.8:1 - Problem frame
@@ -1474,7 +1486,7 @@ The examples are explicit constructions of the method, not reports of validation
 ## PHY.1 - Construct Physical Similarity Across Changed Conditions
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative within the stated use
 
 ### PHY.1:1 - Problem frame
@@ -1713,7 +1725,7 @@ C.11.DUA selects further inquiry by what it could change and what it costs. B.1.
 ## PHY.2 - Construct a Physical Analogue from Interactions
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative within the stated use
 
 ### PHY.2:1 - Problem frame
@@ -1947,7 +1959,7 @@ G.5 distinguishes the results of choosing alternatives or complementary contribu
 ## PHY.9 - Construct a Measuring Interaction for a Physical Distinction
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### PHY.9:1 - Problem frame
@@ -2177,7 +2189,7 @@ The numerical cases are constructed demonstrations under stated laws and idealiz
 ## PHY.10 - Construct a Physical Test That Separates Rival Accounts
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### PHY.10:1 - Problem frame
@@ -2406,7 +2418,7 @@ The three numerical cases are constructed comparisons under stated physical laws
 ## PHY.3 - Derive a Physical Limit from Permitted Transformations
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative within the stated use
 
 ### PHY.3:1 - Problem frame

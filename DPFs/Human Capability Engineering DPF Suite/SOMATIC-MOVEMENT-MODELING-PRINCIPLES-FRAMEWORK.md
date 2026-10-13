@@ -1,5 +1,7 @@
 # Somatic Movement Modeling DPF
 
+**DocID:** `SOM` within **FPF Library**.
+
 A pattern language for understanding, learning and changing the bodily contribution to a skilled human movement.
 
 - **Version:** 23 September 2026
@@ -14,7 +16,14 @@ Original framework text: © 2026 Anatoly Levenchuk, [CC BY 4.0](https://creative
 | Unit | What it helps you do |
 | --- | --- |
 | [Somatic Movement Modeling DPF Readme](#somatic-movement-modeling-dpf-readme) | Choose a direct entry or a connected use. |
-| [Preface](#preface) | Understand the language, its evidence, limits and companions. |
+| [Somatic Movement Modeling DPF Architectural Reference](#somatic-movement-modeling-dpf-architectural-reference) | Understand the language, its evidence, limits and companions. |
+| [SOM.Reference:1](#somreference1---problem-frame-and-scope) | Problem frame and scope |
+| [SOM.Reference:2](#somreference2---how-the-methods-work-together) | How the methods work together |
+| [SOM.Reference:3](#somreference3---a-connected-worked-use) | A connected worked use |
+| [SOM.Reference:4](#somreference4---the-simultaneous-vertical-of-movement) | The simultaneous vertical of movement |
+| [SOM.Reference:5](#somreference5---interpreting-results-and-choosing-further-work) | Interpreting results and choosing further work |
+| [SOM.Reference:6](#somreference6---rationale-source-use-and-alternatives) | Rationale, source use and alternatives |
+| [SOM.Reference:7](#somreference7---companion-publications-and-dependencies) | Companion publications and dependencies |
 
 ## Patterns
 
@@ -60,9 +69,9 @@ The following entries show connected uses across several patterns. Follow a bran
 - **Start with:** [SOM.5](#som5---adapt-bodily-coordination-to-changing-support-and-load): retain the support change, find a performable portion, extend it and join the portions in motion before restoring the whole action. Use SOM.1 when the proposed relation fails, and SOM.2–4 for a missing distinction, regulation or combination.
 - **Stop or return:** Endpoint success and paused or slowed preparation do not establish the required transition. Obtain domain instruction when a suitable response remains unknown.
 
-# Preface
+# Somatic Movement Modeling DPF Architectural Reference
 
-## SOM.Preface:1 - Problem frame and scope
+## SOM.Reference:1 - Problem frame and scope
 
 A movement teacher or experienced practitioner may know the desired result while lacking a usable account of how to change the bodily action. A learner may understand an instruction, possess sufficient strength and remember the movement sequence, yet be unable to coordinate the actions required within that movement. This language helps relate the performer's bodily experience and control to the required movement result, then construct a learning or correction attempt.
 
@@ -72,7 +81,7 @@ Its field is bodily modeling and learning within an already known movement pract
 
 The language concerns human bodily learning. A robot can be assessed against some of the same movement results, but its sensing, controllers, learning procedure and actuators require their own methods. Human practice instructions do not supply that architecture.
 
-## SOM.Preface:2 - How the methods work together
+## SOM.Reference:2 - How the methods work together
 
 Start from the difficulty in the movement you want to perform. SOM.1 connects three accounts: what is experienced, what can be deliberately changed and what happens in the movement. It selects the question for the other methods and receives their results.
 
@@ -82,7 +91,7 @@ This is a repertoire with returns, not a five-stage course. An experienced perfo
 
 The methods also involve different uses of attention. A detailed observation can be distributed across repeated attempts when doing it inside one movement disrupts the action. After learning a bodily difference, test whether attending to it still helps during performance. Keep a suitable cue about the action's effect when that cue gives the needed coordination more simply.
 
-## SOM.Preface:3 - A connected worked use
+## SOM.Reference:3 - A connected worked use
 
 Consider an experienced writer who produces a continuous line in two familiar forearm positions but breaks it while moving between them. The pen and paper have been checked. Checking fingers, wrist and forearm in sequence stops the stroke.
 
@@ -98,7 +107,7 @@ If an earlier comparison had shown that changing paper restored the line without
 
 This is a constructed example of the methods and their branches. It reports no measured learning gain.
 
-## SOM.Preface:4 - The simultaneous vertical of movement
+## SOM.Reference:4 - The simultaneous vertical of movement
 
 A correction participates in work that is already being carried out at other levels. In a salsa turn, the dancer is performing a culturally recognizable figure with a partner while maintaining rhythmic steps, balance and the bodily changes that support them. These are simultaneous contributions, not a list of exercises to complete in order.
 
@@ -117,7 +126,7 @@ Performer, teacher and partner have different access and responsibilities. The p
 
 Human learning can occur during the same attempt that performs the figure. The movement result and capability gain remain different claims. The framework describes part of the needed vertical: using every SOM pattern does not establish that all the other methods, resources and capabilities are available.
 
-## SOM.Preface:5 - Interpreting results and choosing further work
+## SOM.Reference:5 - Interpreting results and choosing further work
 
 Judge a bodily account together with the action it is intended to serve. Ask what the performer can now distinguish or regulate, under which conditions, with what assistance and with what concurrent result. Check the changed condition that matters to the later work rather than adding variation for its own sake.
 
@@ -135,7 +144,7 @@ The intended gain is a proposed correction that can be tested in a suitable atte
 
 Begin within familiar technique and suitable physical limits, or obtain competent instruction. Stop an attempt that produces pain, dizziness or unfamiliar loss of control. Somatic vocabulary does not resolve an injury or establish that a new exercise is suitable.
 
-## SOM.Preface:6 - Rationale, source use and alternatives
+## SOM.Reference:6 - Rationale, source use and alternatives
 
 The language combines bodily modeling with methods of learning, rather than prescribing an exercise catalogue. The [public account of system fitness](https://ailev.livejournal.com/1796805.html) supplies the orientation towards using bodily understanding in other movement cultures. SOM makes the proposed relation between experience, regulation and action explicit and connects it to bodily contrasts, increments, combined recall and changing support. These are teaching constructions open to correction, not comparative or clinical effectiveness claims.
 
@@ -147,21 +156,21 @@ SOM.4 compares detailed bodily monitoring with an available cue about the action
 
 Reconsider a chosen method when it cannot produce an interpretable attempt, when the local result fails in the receiving action, when appropriate instruction supplies a simpler solution, or when better evidence changes the learning choice. A vocabulary that leaves the next bodily or observational action unspecified is insufficient for the promised use.
 
-## SOM.Preface:7 - Companion publications and dependencies
+## SOM.Reference:7 - Companion publications and dependencies
 
 The following contributions remain in their supplying frameworks. The links return to their public texts; a reader can search the stated PatternIDs within each publication.
 
 | Companion | Contribution used here | When it matters |
 | --- | --- | --- |
 | [FPF Core](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) — A.6.P.RI, B.5.EA, B.1.5.EW | Keeping an account tied to its observer, expressing an experience, and recovering simultaneous Method participation | Comparing inside and outside accounts and preserving the encompassing activity |
-| [Human Capability Development](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) — HCD.6, HCD.6.1, HCD.9, HCD.10, HCD.11, HCD.12 | Constructing representative practice, making distinctions learnable, providing feedback, varying and progressing practice, and interpreting performance evidence | Learning design and assessment; HCD.12 is used when the question concerns transfer to unfamiliar work |
-| [Embodied Rhythmics](https://github.com/ailev/FPF/blob/main/DPFs/EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md); [RHY.12](https://github.com/ailev/FPF/blob/main/DPFs/EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md#rhy12---develop-rhythmic-capability-through-representative-practice) for learning | The rhythmic relations used by the receiving activity, with representative rhythmic practice when needed | When timing is rhythmic, as in the salsa example; ordinary bodily regulation need not require this framework |
+| [Human Capability Development (HCD)](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) — HCD.6, HCD.6.1, HCD.9, HCD.10, HCD.11, HCD.12 | Constructing representative practice, making distinctions learnable, providing feedback, varying and progressing practice, and interpreting performance evidence | Learning design and assessment; HCD.12 is used when the question concerns transfer to unfamiliar work |
+| [Embodied Rhythmics (RHY)](https://github.com/ailev/FPF/blob/main/DPFs/EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md); [RHY / RHY.12](https://github.com/ailev/FPF/blob/main/DPFs/EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md#rhy12---develop-rhythmic-capability-through-representative-practice) for learning | The rhythmic relations used by the receiving activity, with representative rhythmic practice when needed | When timing is rhythmic, as in the salsa example; ordinary bodily regulation need not require this framework |
 
 SOM also needs the receiving practice's technique, criteria and physical limits. A dance, musical or tool-use method supplies those domain contributions; SOM's writing and dance examples are not complete instruction in either discipline.
 
 If a companion changes a relied-on operation, revisit the combinations that use it. A selected external teacher or lesson must likewise be suitable for the actual movement task; a link to a school alone does not supply that result.
 
-## SOM.Preface:End
+## SOM.Reference:End
 
 # Patterns
 

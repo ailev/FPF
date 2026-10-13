@@ -1,5 +1,7 @@
 # Operations Management Principles Framework
 
+**DocID:** `OPS` within **FPF Library**.
+
 
 > A domain pattern language for admission, continuation, coordination, service, quality, improvement and performance decisions in continuing operation.
 
@@ -9,7 +11,7 @@
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
 
-Start with the [Readme](#operations-management-principles-framework-readme) for a working difficulty or the [Table of Contents](#table-of-contents) for a familiar question or PatternID. Open the smallest useful pattern, reuse current matching inputs and stop at its sufficient result. For references to this version, use the [Citation](#opsreference11---citation).
+Start with the [Readme](#operations-management-principles-framework-readme) for a working difficulty or the [Table of Contents](#table-of-contents) for a familiar question or PatternID. Open the smallest useful pattern, reuse current matching inputs and stop at its sufficient result. For references to this version, use the [Citation](#opssources2---citation).
 
 # Table of Contents
 
@@ -22,80 +24,109 @@ Use the Readme for worked connections across several operating questions. Use th
 | Unit | Reader use |
 | :--- | :--- |
 | [Operations Management Principles Framework Readme](#operations-management-principles-framework-readme) | Connect readiness, capacity, commitments, service results and changes to operating practice; follow the consequences of a changed condition. |
-| [Preface](#preface) | Keep Work, actual structures, subjects, commitments and units distinct when interpreting views, records and accounts; identify when control relations change an operating decision. |
+| [Operations Management Principles Framework Architectural Reference](#operations-management-principles-framework-architectural-reference) | Keep Work, actual structures, subjects, commitments and units distinct when interpreting views, records and accounts; identify when control relations change an operating decision. |
+| [OPS.Reference:1](#opsreference1---start-from-a-difficulty-in-continuing-operation) | Start from a difficulty in continuing operation |
+| [OPS.Reference:2](#opsreference2---competing-demands-on-one-operation) | Competing demands on one operation |
+| [OPS.Reference:3](#opsreference3---work-descriptions-structures-and-records-remain-distinct) | Work, descriptions, structures, and records remain distinct |
+| [OPS.Reference:4](#opsreference4---demand-commitments-subjects-and-units-remain-distinct) | Demand, commitments, subjects, and units remain distinct |
+| [OPS.Reference:5](#opsreference5---several-management-views-can-coexist-on-the-same-work) | Several management views can coexist on the same Work |
+| [OPS.Reference:6](#opsreference6---shared-attention-is-stronger-than-visibility-and-weaker-than-consensus) | Shared attention is stronger than visibility and weaker than consensus |
+| [OPS.Reference:7](#opsreference7---the-control-branch-is-conditional) | The control branch is conditional |
+| [OPS.Reference:8](#opsreference8---pattern-relations-do-not-prescribe-an-operating-lifecycle) | Pattern relations do not prescribe an operating lifecycle |
+| [OPS.Reference:9](#opsreference9---use-the-methods-together-where-their-results-meet) | Use the Methods together where their results meet |
+| [OPS.Reference:10](#opsreference10---conditions-on-a-whole-combination) | Conditions on a whole combination |
+| [OPS.Reference:11](#opsreference11---check-the-combined-decision-and-its-result) | Check the combined decision and its result |
+| [OPS.Reference:12](#opsreference12---architectural-rationale) | Architectural Rationale |
+| [OPS.Reference:13](#opsreference13---apply-the-repertoire-in-production-and-service-settings) | Apply the repertoire in production and service settings |
+| [OPS.Reference:14](#opsreference14---gains-burden-and-limits-of-combined-use) | Gains, burden and limits of combined use |
+| [OPS.Reference:15](#opsreference15---what-this-publication-covers-and-leaves-outside) | What this publication covers and leaves outside |
+| [OPS.Reference:16](#opsreference16---intended-use-and-ordinary-non-use) | Intended use and ordinary non-use |
+| [OPS.Reference:17](#opsreference17---patternid-and-reader-order) | PatternID and reader order |
+| [OPS.Reference:18](#opsreference18---practical-entry-forms) | Practical entry forms |
+| [OPS.Reference:19](#opsreference19---source-use-and-shared-architectural-choices) | Source use and shared architectural choices |
+| [OPS.Reference:19.1](#opsreference191---operating-aims-and-performance-sources) | Operating aims and performance sources |
+| [OPS.Reference:19.2](#opsreference192---shared-source-choices-for-the-repertoire) | Shared source choices for the repertoire |
+| [OPS.Reference:20](#opsreference20---fpf-dependency-and-compatibility) | FPF dependency and compatibility |
+| [OPS.Reference:21](#opsreference21---sibling-domain-returns-and-availability) | Sibling-domain returns and availability |
+| [OPS.Reference:22](#opsreference22---available-contributions) | Available contributions |
+| [OPS.Reference:23](#opsreference23---representative-case-coverage) | Representative case coverage |
+| [OPS.Reference:24](#opsreference24---edition-return) | Edition return |
+| [OPS.Reference:25](#opsreference25---publication-boundary) | Publication boundary |
+| [OPS.Sources:1](#opssources1---bibliographic-returns-for-shared-sources) | Bibliographic returns for shared sources |
+| [OPS.Sources:2](#opssources2---citation) | Citation |
 | [OPS.Application - Cross-Pattern Application](#cross-pattern-application) | Follow PumpWorks, public-hospital and AI-assisted cases through local coordination, human conditions, service commitments, operating consequences, accounts, Method improvement, quality responses, simultaneous Work and cultural continuation. |
-| [OPS.Reference - Framework Boundary and Refresh](#framework-boundary-and-refresh) | Check available packages, FPF dependency, sibling returns, source limits, representative cases, and edition boundary. |
+| [Operations Management Principles Framework Sources and Edition Notes](#operations-management-principles-framework-sources-and-edition-notes) | Check available packages, FPF dependency, sibling returns, source limits, representative cases, and edition boundary. |
 
 ## Part I — Bound the Operation and Select Coordination Views
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [OPS.1 - Identify the Operating System, Commitments, and Flow Units](#ops1---identify-the-operating-system-commitments-and-flow-units) |  | Which actual operation, commitments, subjects, and units should orient this decision? | FPF A.1.SCR, A.6.REL, C.2.1, A.10 |
-| 2 | [OPS.2 - Select Work-Management Views and Coordination Methods](#ops2---select-work-management-views-and-coordination-methods) |  | Which project, process, case, queueing, control, or mixed views and coordination Methods answer the current questions? | OPS.1; FPF A.22, C.29; conditional C.30.LCA, B.2.5, C.27.TA |
+| 1 | [OPS.1 - Identify the Operating System, Commitments, and Flow Units](#ops1---identify-the-operating-system-commitments-and-flow-units) |  Stable  | Which actual operation, commitments, subjects, and units should orient this decision? | FPF A.1.SCR, A.6.REL, C.2.1, A.10 |
+| 2 | [OPS.2 - Select Work-Management Views and Coordination Methods](#ops2---select-work-management-views-and-coordination-methods) |  Stable  | Which project, process, case, queueing, control, or mixed views and coordination Methods answer the current questions? | OPS.1; FPF A.22, C.29; conditional C.30.LCA, B.2.5, C.27.TA |
 
 ## Part II — Recover Operating Subjects and Maintain Current State
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 3 | [OPS.3 - Distinguish Operating Subjects, Cases, Queues, Resources, and Records](#ops3---distinguish-operating-subjects-cases-queues-resources-and-records) |  | Which exact subjects and relations sit behind the cases, Work items, queues, resources, events, and records? | OPS.1, OPS.2; FPF A.6.REL, C.2.1; conditional B.2.5 |
-| 4 | [OPS.4 - Keep Current Operating State Recoverable Across Participants](#ops4---keep-current-operating-state-recoverable-across-participants) |  | Which qualified current claims let named participants decide, resume, and coordinate? | OPS.2, OPS.3; FPF C.2.1, A.10, A.15.8; conditional C.30.LCA |
+| 3 | [OPS.3 - Distinguish Operating Subjects, Cases, Queues, Resources, and Records](#ops3---distinguish-operating-subjects-cases-queues-resources-and-records) |  Stable  | Which exact subjects and relations sit behind the cases, Work items, queues, resources, events, and records? | OPS.1, OPS.2; FPF A.6.REL, C.2.1; conditional B.2.5 |
+| 4 | [OPS.4 - Keep Current Operating State Recoverable Across Participants](#ops4---keep-current-operating-state-recoverable-across-participants) |  Stable  | Which qualified current claims let named participants decide, resume, and coordinate? | OPS.2, OPS.3; FPF C.2.1, A.10, A.15.8; conditional C.30.LCA |
 
 ## Part III — Admit Demand and Continue Cases
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 5 | [OPS.5 - Admit Work and Limit Starts](#ops5---admit-work-and-limit-starts) |  | Which exact eligible demand may enter now under bounded start conditions? | OPS.2, OPS.3, OPS.4; FPF C.11, A.10 |
-| 6 | [OPS.6 - Continue Cases and Handle Exceptions](#ops6---continue-cases-and-handle-exceptions) |  | What Work may happen next in this admitted case, and what evidence supports progression? | OPS.5; FPF A.15.7, C.11, A.10 |
+| 5 | [OPS.5 - Admit Work and Limit Starts](#ops5---admit-work-and-limit-starts) |  Stable  | Which exact eligible demand may enter now under bounded start conditions? | OPS.2, OPS.3, OPS.4; FPF C.11, A.10 |
+| 6 | [OPS.6 - Continue Cases and Handle Exceptions](#ops6---continue-cases-and-handle-exceptions) |  Stable  | What Work may happen next in this admitted case, and what evidence supports progression? | OPS.5; FPF A.15.7, C.11, A.10 |
 
 ## Part IV — Revise Priority and Existing Commitments
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 7 | [OPS.7 - Manage Aging, Urgency, and Service Commitments](#ops7---manage-aging-urgency-and-service-commitments) |  | Does temporal or consequence evidence revise current priority or an existing bounded commitment? | OPS.6 evidence; FPF C.27.TA; conditional C.27, C.11 |
+| 7 | [OPS.7 - Manage Aging, Urgency, and Service Commitments](#ops7---manage-aging-urgency-and-service-commitments) |  Stable  | Does temporal or consequence evidence revise current priority or an existing bounded commitment? | OPS.6 evidence; FPF C.27.TA; conditional C.27, C.11 |
 
 ## Part V — Coordinate Queues and Treat the Current Constraint
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 8 | [OPS.8 - Coordinate Queues and Buffers](#ops8---coordinate-queues-and-buffers) |  | What is ready for which service, and what should release and protection policy control? | OPS.3, OPS.4; conditional OPS.9–OPS.11; FPF C.16, A.22, E.18 |
+| 8 | [OPS.8 - Coordinate Queues and Buffers](#ops8---coordinate-queues-and-buffers) |  Stable  | What is ready for which service, and what should release and protection policy control? | OPS.3, OPS.4; conditional OPS.9–OPS.11; FPF C.16, A.22, E.18 |
 | 9 | [OPS.8.1 - Choose Work-Release Rules When Earlier Work Can Return](#ops81---choose-work-release-rules-when-earlier-work-can-return) | Stable | When may new work start if an earlier result can return, and what resource time must remain available? | OPS.8, OPS.5; conditional OPS.10.1/.2, OPS.15.1, MMP.8/.8.SD |
 | 10 | [OPS.8.2 - Use Protective Capacity While Keeping It Available](#ops82---use-protective-capacity-while-keeping-it-available) | Stable | Which auxiliary work can use idle reserve while its completion or interruption preserves the required service? | OPS.8; conditional OPS.10.1/.2, OPS.12, C.40.OI and C.40.DC, HCD.2, C.39.MF and A.3.1.WT |
-| 11 | [OPS.9 - Diagnose and Treat the Current Operating Constraint](#ops9---diagnose-and-treat-the-current-operating-constraint) |  | Which current limiting relation and treatment are supported against a serious rival? | OPS.3, OPS.4; conditional OPS.8, OPS.10, OPS.11; FPF C.16, C.28, C.11.CRC |
+| 11 | [OPS.9 - Diagnose and Treat the Current Operating Constraint](#ops9---diagnose-and-treat-the-current-operating-constraint) |  Stable  | Which current limiting relation and treatment are supported against a serious rival? | OPS.3, OPS.4; conditional OPS.8, OPS.10, OPS.11; FPF C.16, C.28, C.11.CRC |
 
 ## Part VI — Qualify Capacity and Coordinate Operating Structures
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 12 | [OPS.10 - Qualify Operating Capacity Under Variability](#ops10---qualify-operating-capacity-under-variability) |  | What fits usable resource windows, and what service claim does the variability basis support? | OPS.3, OPS.4; conditional OPS.8, OPS.9, OPS.11; FPF C.16, C.27.TA, C.11.CRC |
+| 12 | [OPS.10 - Qualify Operating Capacity Under Variability](#ops10---qualify-operating-capacity-under-variability) |  Stable  | What fits usable resource windows, and what service claim does the variability basis support? | OPS.3, OPS.4; conditional OPS.8, OPS.9, OPS.11; FPF C.16, C.27.TA, C.11.CRC |
 | 13 | [OPS.10.1 - Construct and Compare Operating Capacity Models](#ops101---construct-and-compare-operating-capacity-models) | Stable | Which service model answers the capacity question, and how do variation, dependence and the completion criterion change the comparison? | OPS.10, OPS.11.1, OPS.15.1; conditional OPS.10.2, MMP.7/.13, CMP.9; FPF C.29, C.11.CRC |
 | 14 | [OPS.10.2 - Construct and Revise a Feasible Deadline Schedule](#ops102---construct-and-revise-a-feasible-deadline-schedule) | Stable | How can a schedule meet the deadline with precedence, shared resources and calendar gaps; which starts can be delayed, and what must change after a disruption? | OPS.10, OPS.11.1, OPS.15.1; conditional OPS.10.1, OPS.7/.8, MMP.10, CMP.4/.5; FPF C.29 |
-| 15 | [OPS.11 - Coordinate Interacting Operating Structures](#ops11---coordinate-interacting-operating-structures) |  | Which actual couplings can defeat a local plan, and which decisions must be coordinated? | OPS.3, OPS.4; conditional OPS.8–OPS.10; FPF A.22, E.18.NET, C.11.CRC |
+| 15 | [OPS.11 - Coordinate Interacting Operating Structures](#ops11---coordinate-interacting-operating-structures) |  Stable  | Which actual couplings can defeat a local plan, and which decisions must be coordinated? | OPS.3, OPS.4; conditional OPS.8–OPS.10; FPF A.22, E.18.NET, C.11.CRC |
 | 16 | [OPS.11.1 - Construct and Reconcile Operating Models Across Scales](#ops111---construct-and-reconcile-operating-models-across-scales) | Stable | How can local routes, shared resources and order-level completion be modeled together without losing the conditions that decide the plan? | OPS.11, OPS.19; conditional OPS.15.1, MMP.10/.18; FPF A.22.CGUS, E.18.3, C.29 |
 
 ## Part VII — Protect Human Conditions and Establish Service Commitments
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 17 | [OPS.12 - Protect Human Conditions in Operating Decisions](#ops12---protect-human-conditions-in-operating-decisions) |  | Which feasible operating intervention protects affected people and supports the service? | OPS.3; conditional OPS.10, OPS.13–OPS.15; FPF C.16, A.10, A.11.OP |
-| 18 | [OPS.13 - Align Commitments, Resources, and Service Outcomes](#ops13---align-commitments-resources-and-service-outcomes) |  | What service can the authorized parties agree under actual resources, evidence and conditions? | conditional OPS.10, OPS.12, OPS.14, OPS.15, OPS.18; FPF A.10, C.16 |
+| 17 | [OPS.12 - Protect Human Conditions in Operating Decisions](#ops12---protect-human-conditions-in-operating-decisions) |  Stable  | Which feasible operating intervention protects affected people and supports the service? | OPS.3; conditional OPS.10, OPS.13–OPS.15; FPF C.16, A.10, A.11.OP |
+| 18 | [OPS.13 - Align Commitments, Resources, and Service Outcomes](#ops13---align-commitments-resources-and-service-outcomes) |  Stable  | What service can the authorized parties agree under actual resources, evidence and conditions? | conditional OPS.10, OPS.12, OPS.14, OPS.15, OPS.18; FPF A.10, C.16 |
 
 ## Part VIII — Compare Operating Consequences and Build Useful Accounts
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 19 | [OPS.14 - Relate Throughput, Cash, and Operating Consequences](#ops14---relate-throughput-cash-and-operating-consequences) |  | What service, resource, payment and receipt differences change the operating choice? | conditional OPS.10, OPS.12, OPS.13, OPS.15; FPF C.16, A.10, A.11.OP |
-| 20 | [OPS.15 - Build a Decision-Specific Operating Account](#ops15---build-a-decision-specific-operating-account) |  | Which observations and meanings support the receiving operating decision? | OPS.3; conditional OPS.4, OPS.12–OPS.14, OPS.18; FPF C.16, A.10, E.13, A.11.OP |
+| 19 | [OPS.14 - Relate Throughput, Cash, and Operating Consequences](#ops14---relate-throughput-cash-and-operating-consequences) |  Stable  | What service, resource, payment and receipt differences change the operating choice? | conditional OPS.10, OPS.12, OPS.13, OPS.15; FPF C.16, A.10, A.11.OP |
+| 20 | [OPS.15 - Build a Decision-Specific Operating Account](#ops15---build-a-decision-specific-operating-account) |  Stable  | Which observations and meanings support the receiving operating decision? | OPS.3; conditional OPS.4, OPS.12–OPS.14, OPS.18; FPF C.16, A.10, E.13, A.11.OP |
 | 21 | [OPS.15.1 - Derive Operating Quantities from Events](#ops151---derive-operating-quantities-from-events) | Stable | How do events yield waiting, resource occupancy and completion quantities when work overlaps, returns or remains unfinished at the cutoff? | OPS.15; conditional OPS.11.1; FPF C.16, C.29; MMP.7 for an observation model |
 
 ## Part IX — Improve Methods, Control Quality, Reconcile Work, and Continue Practice
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 22 | [OPS.16 - Decide Whether and How to Change an Operating Method](#ops16---decide-whether-and-how-to-change-an-operating-method) |  | What does bounded evidence support: adopting, revising or branching an admitted operating Method; retaining or revising a candidate account; testing Method identity; stopping; or further observation? | OPS.15/.17/.18; applicable OPS.10–OPS.13, OPS.19; conditional OPS.11.1, OCE.11; A.3.1.WT, A.3.1.CC, A.3.1.FT, C.11.MV and A.3.1.MV and A.3.1.MI; FPF A.3.1.MR, A.3.1, A.3.2, A.15.1, A.15.2, A.10, C.16 |
-| 23 | [OPS.17 - Compare and Refresh Operations Methods](#ops17---compare-and-refresh-operations-methods) |  | Which operating moves fit this Work family, and what change reopens their use? | A.3.1.MV; conditional OPS.5–OPS.15, OPS.18, A.3.1.WT, A.3.1.FT, C.11.MV; FPF A.3.1, A.3.2, C.16, G.5, A.11.OP |
-| 24 | [OPS.18 - Control Operating Quality and Reliability](#ops18---control-operating-quality-and-reliability) |  | What continuation, acceptance, containment or recovery action does the evidence support? | conditional OPS.12–OPS.15, OPS.17; FPF C.16, A.10, A.11.OP |
-| 25 | [OPS.19 - Reconcile Simultaneous Operating Work Across Cases and Scales](#ops19---reconcile-simultaneous-operating-work-across-cases-and-scales) |  | Which cross-scale reconfiguration, bounded continuation, or exact unresolved conflict preserves the simultaneous operating results that matter? | OPS.1, OPS.3; conditional OPS.11, OPS.12, OPS.15, OPS.17; FPF C.32.MWA, C.11 |
-| 26 | [OPS.20 - Deliberately Continue and Change Operations Culture](#ops20---deliberately-continue-and-change-operations-culture) |  | How do practitioners in the named population transmit, independently enact, select, retain or lose an Operations practice, and what continuation, change or uncertainty does the evidence support? | OPS.16, OPS.17, OPS.19; FPF C.36; C.36.MC |
+| 22 | [OPS.16 - Decide Whether and How to Change an Operating Method](#ops16---decide-whether-and-how-to-change-an-operating-method) |  Stable  | What does bounded evidence support: adopting, revising or branching an admitted operating Method; retaining or revising a candidate account; testing Method identity; stopping; or further observation? | OPS.15/.17/.18; applicable OPS.10–OPS.13, OPS.19; conditional OPS.11.1, OCE.11; A.3.1.WT, A.3.1.CC, A.3.1.FT, C.11.MV and A.3.1.MV and A.3.1.MI; FPF A.3.1.MR, A.3.1, A.3.2, A.15.1, A.15.2, A.10, C.16 |
+| 23 | [OPS.17 - Compare and Refresh Operations Methods](#ops17---compare-and-refresh-operations-methods) |  Stable  | Which operating moves fit this Work family, and what change reopens their use? | A.3.1.MV; conditional OPS.5–OPS.15, OPS.18, A.3.1.WT, A.3.1.FT, C.11.MV; FPF A.3.1, A.3.2, C.16, G.5, A.11.OP |
+| 24 | [OPS.18 - Control Operating Quality and Reliability](#ops18---control-operating-quality-and-reliability) |  Stable  | What continuation, acceptance, containment or recovery action does the evidence support? | conditional OPS.12–OPS.15, OPS.17; FPF C.16, A.10, A.11.OP |
+| 25 | [OPS.19 - Reconcile Simultaneous Operating Work Across Cases and Scales](#ops19---reconcile-simultaneous-operating-work-across-cases-and-scales) |  Stable  | Which cross-scale reconfiguration, bounded continuation, or exact unresolved conflict preserves the simultaneous operating results that matter? | OPS.1, OPS.3; conditional OPS.11, OPS.12, OPS.15, OPS.17; FPF C.32.MWA, C.11 |
+| 26 | [OPS.20 - Deliberately Continue and Change Operations Culture](#ops20---deliberately-continue-and-change-operations-culture) |  Stable  | How do practitioners in the named population transmit, independently enact, select, retain or lose an Operations practice, and what continuation, change or uncertainty does the evidence support? | OPS.16, OPS.17, OPS.19; FPF C.36; C.36.MC |
 
 ## Part X — Choose Operating Aims and Interpret Performance
 
@@ -110,7 +141,7 @@ Use the Readme for worked connections across several operating questions. Use th
 
 Operations Management connects decisions about continuing service: what may start, what a case needs next, what the available resources can support, what can be promised, and what must change when results fail. These decisions use different results. A capacity calculation can constrain admission; an incident can change priorities; a service promise can remain unresolved after a feasible schedule has been found.
 
-These selected examples show how to combine the methods around a current difficulty; they are not a catalogue or a boundary of the field. Enter where adequate inputs are available and stop at the result the decision needs. The Table of Contents gives direct access to OPS.1–OPS.22 and their nested methods. The [Preface](#preface), including its [conditions on a whole combination](#opspreface10---conditions-on-a-whole-combination), explains why individually useful operating moves can conflict when they use the same resources, authority or evidence.
+These selected examples show how to combine the methods around a current difficulty; they are not a catalogue or a boundary of the field. Enter where adequate inputs are available and stop at the result the decision needs. The Table of Contents gives direct access to OPS.1–OPS.22 and their nested methods. The [Architectural Reference](#operations-management-principles-framework-architectural-reference), including its [conditions on a whole combination](#opsreference10---conditions-on-a-whole-combination), explains why individually useful operating moves can conflict when they use the same resources, authority or evidence.
 
 You can ask an assisting agent to explain a pattern or comment on your case in ordinary language, without framework jargon.
 
@@ -204,7 +235,7 @@ When recovery, review and testing compete for the same people or environment, OP
 3. **Measure both waits from their own events.** OPS.15.1 derives a mean internal residence of four hours and a mean customer wait of six. Across the empty-to-empty nine-hour interval, the corresponding count-time areas are 16 and 24 order-hours. Eight order-hours moved outside the admission boundary. OPS.15 presents that distinction to the decision maker; a lower internal average alone does not establish earlier delivery.
 4. **Return a changed physical premise to the plan.** If one operator must instead perform every A and B operation without overlap, the four orders require twelve operator-hours. The previous nine-hour plan is infeasible. OPS.11.1 revises the shared-resource account; [OPS.10.1 - Construct and Compare Operating Capacity Models](#ops101---construct-and-compare-operating-capacity-models) derives the resource-time obstruction, and OPS.19 reconciles competing work. A promise to deliver all four by hour 10 needs a changed arrangement or a revised commitment through OPS.13.
 
-The [Foundational Thinking Suite Reference](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md#foundationalreference38---change-an-operating-flow-without-hiding-its-waiting) develops this constructed example through the mathematical formulation and its computation. A real WIP limit can improve service through reduced interference or rework; that conclusion needs the corresponding mechanism and comparison.
+The [Foundational Thinking Suite Reference (Foundational / Foundational.Reference:3.8)](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md#foundationalreference38---change-an-operating-flow-without-hiding-its-waiting) develops this constructed example through the mathematical formulation and its computation. A real WIP limit can improve service through reduced interference or rework; that conclusion needs the corresponding mechanism and comparison.
 
 ### OPS-PROTECT-AND-DEVELOP - Prepare or learn while preserving promised service
 
@@ -239,7 +270,7 @@ The [Foundational Thinking Suite Reference](https://github.com/ailev/FPF/blob/ma
 - **Situation:** Reports and lessons are being produced, but their recipients still cannot choose or adapt the described operating method, or different teams offer incompatible advice.
 - **Question:** Is the obstruction in the operating claim, its explanation, the learning arrangement or the later application?
 - **First useful result or blocker:** A corrected claim or explanation, usable support for the recipient's next action, or a clearly bounded learning or transfer question.
-- **Start with:** OPS.1 for the service result, then [EXD.4](https://github.com/ailev/FPF/blob/main/DPFs/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#exd4---co-construct-and-repair-an-explanation-in-dialogue), [A.3.1.CC](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31cc---check-the-coherence-of-a-method-claim), [HCD.19](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd19---evaluate-instructional-material-through-representative-reader-work-and-diagnose-its-repair) or [HCD.12](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd12--test-transfer-to-unfamiliar-work-or-learning-from-a-new-source) according to the difficulty actually found.
+- **Start with:** OPS.1 for the service result, then [EXD / EXD.4](https://github.com/ailev/FPF/blob/main/DPFs/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#exd4---co-construct-and-repair-an-explanation-in-dialogue), [FPF A.3.1.CC](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31cc---check-the-coherence-of-a-method-claim), [HCD / HCD.19](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd19---evaluate-instructional-material-through-representative-reader-work-and-diagnose-its-repair) or [HCD / HCD.12](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd12--test-transfer-to-unfamiliar-work-or-learning-from-a-new-source) according to the difficulty actually found.
 - **Stop or return:** Stop when the intended use is supported. Publishing a correct text, understanding it with help and applying it independently later are different results; pursue the one the service promises.
 
 1. **Follow the recipient's question.** In [the admission example](#ops-release-and-wait---change-admission-without-losing-the-customers-wait), mean internal time is four hours while mean customer waiting remains six. Suppose a reader asks why. EXD.4 uses that question to explain the two starting events: the two-hour average before admission remains part of the customer's wait. The useful result is a correctly bounded comparison, from which the reader can reject an apparent delivery improvement caused only by moving the counting boundary.
@@ -257,15 +288,15 @@ The long applications add case-specific conditions and returns. Use the common O
 - **Start with:** [OPS.21](#ops21---choose-operating-aims-targets-and-comparisons) when the aim or comparison is missing; [OPS.22](#ops22---interpret-operating-performance-and-decide-the-response) when the result needs interpretation. Use an adequate supplied basis directly.
 - **Stop or return:** A target does not authorize a service promise or spending. Return a changed premise to the aim, forecast, provision, commitment or consequence rule it affects.
 
-In the [repair cooperative example](../Engineering%20DPF%20Suite/ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference7---how-should-we-set-a-target-and-judge-a-miss-after-conditions-change), twelve known useful opportunities justify considering an ambition of twelve while bookings and warranted further demand support a forecast of eight. OPS.21 constructs that distinction and chooses what evidence would show a useful result. MA.5–6 preserve the outlook; the operating and financial methods expose staffing and cash conditions before OPS.13 establishes promises. When work becomes harder, OPS.13 and OPS.19 obtain an agreed response rather than merely lowering a number. OPS.22 then retains the factual miss, examines difficulty and shared consequences, and distinguishes the useful response from an unsupported team ranking. An effective change in the local review rule makes the adverse forecast usable for action; changing its label alone would leave the conflict intact.
+In the [repair cooperative example (Engineering / Engineering.Reference:7)](../Engineering%20DPF%20Suite/ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference7---how-should-we-set-a-target-and-judge-a-miss-after-conditions-change), twelve known useful opportunities justify considering an ambition of twelve while bookings and warranted further demand support a forecast of eight. OPS.21 constructs that distinction and chooses what evidence would show a useful result. MA.5–6 preserve the outlook; the operating and financial methods expose staffing and cash conditions before OPS.13 establishes promises. When work becomes harder, OPS.13 and OPS.19 obtain an agreed response rather than merely lowering a number. OPS.22 then retains the factual miss, examines difficulty and shared consequences, and distinguishes the useful response from an unsupported team ranking. An effective change in the local review rule makes the adverse forecast usable for action; changing its label alone would leave the conflict intact.
 
-# Preface
+# Operations Management Principles Framework Architectural Reference
 
 Operations Management begins when the current question is how to coordinate continuing Work, cases, demand, commitments, resources, service, evidence, and decisions in an actual operating System.
 
 The framework begins before optimization. OPS.1–OPS.4 identify the operation and commitments, select views for the current questions, distinguish subjects from records and maintain a usable current account. OPS.5–OPS.7 guide admission, case continuation and local priority or existing commitments. OPS.8–OPS.11 connect those decisions to queues, constraints, capacity and interacting structures. OPS.12–OPS.18 add human-condition interventions, credible service commitments, operating-financial comparisons, decision-specific accounts, evidence-bounded Method improvement, Method-repertoire choices and quality/reliability control. OPS.19 reconciles simultaneous operating results across cases and scales. OPS.20 tests deliberate continuation or change of Operations practice in a bounded practitioner population.
 
-## OPS.Preface:1 - Start from a difficulty in continuing operation
+## OPS.Reference:1 - Start from a difficulty in continuing operation
 
 
 A production coordinator can have a busy cell while promised orders remain unfulfilled. A service lead can see an improving completed-case average while difficult requests remain open. A software team can generate changes faster while qualified review, incident recovery and delivery to users fall behind. In each situation, the question is what the operation can do next while preserving the results people already depend on.
@@ -274,28 +305,28 @@ Use OPS when continuing Work needs an admission, continuation, coordination, ser
 
 The recurring difficulty is that a locally reasonable move can lose its purpose at the receiving boundary. Starting more work can consume the time needed to finish existing commitments. A completed test may still lack the configuration correspondence needed for release. A cheaper method may shift unpaid checking to another participant. Calling all of these situations a flow problem leaves some decisive questions unanswered; ignoring their resource and timing relations can make the proposed service impossible.
 
-## OPS.Preface:2 - Competing demands on one operation
+## OPS.Reference:2 - Competing demands on one operation
 
 
 Operations practitioners choose among consequences that are useful on different subjects and horizons. Earlier service may cost more. A larger ready buffer can protect a scarce resource while increasing waiting and holding burden. A small batch can expose defects sooner while consuming more setup. A Method trial can improve later practice while using the same expertise that current incident recovery needs. OPS keeps those differences visible long enough for the responsible participants to make the choice.
 
 Three conditions shape that choice throughout the repertoire. First, only usable capacity at the required time can support a promise; nominal hours, equipment counts and available money answer different questions. Second, existing commitments and protected human, service and specialist conditions limit which alternatives are feasible. Third, the evidence must fit the claim: a load bound, observed event, forecast and causal explanation support different decisions. Within the feasible alternatives, the responsible decision maker can state a preference for earlier service, lower payment, greater resilience or another relevant gain. The framework supplies no common score that converts every consequence into the same value.
 
-## OPS.Preface:3 - Work, descriptions, structures, and records remain distinct
+## OPS.Reference:3 - Work, descriptions, structures, and records remain distinct
 
 
 Work is admitted under its own conditions. Project, programme, process, case, queueing, and control views describe or coordinate Work for different questions; they do not create rival Work kinds. A selected actual structure consists of its actual constituents and obtaining relations. A board, diagram, mathematical graph, event log, case file, model, or dashboard is a representation or record with a bounded use.
 
 Name the actual structure that changes the decision: transformation-flow, queue/resource-dependency, commitment, event, case-state, control, or another exact structure. Do not call every connected arrangement a graph. A graph is one mathematical lens after its nodes, edges, semantics, and receiving use are selected.
 
-## OPS.Preface:4 - Demand, commitments, subjects, and units remain distinct
+## OPS.Reference:4 - Demand, commitments, subjects, and units remain distinct
 
 
 Demand can enter before Work is admitted. A commitment has parties, content, conditions, horizon, authority, status, and evidence limits. A subject can be a customer, case subject, physical item, release candidate, incident, material, service relation, account, or another exact entity. A Work item, case, batch, transaction, physical item, result, and commitment are not one “flow unit” by default.
 
 Every counted unit needs an identity rule and receiving use. Every measure and queue policy inherits that unit. The foundation patterns therefore make identity and relation gaps visible before later flow, constraint, capacity, quality, or financial decisions use them.
 
-## OPS.Preface:5 - Several management views can coexist on the same Work
+## OPS.Reference:5 - Several management views can coexist on the same Work
 
 
 A project view can expose time-bounded commitments, WorkPlan content, decisions, dates, allocations, and closure. A process view can expose recurring Method, inputs, results, order, and controls. A case view can expose changing subject state, new facts, exceptions, permissible next Work, and closure. A queueing view can expose membership, waiting, order or service relation, and resource demand. A control-structure view can expose observation, actuation, reference, supervision, feedback, and unlike rates.
@@ -304,21 +335,21 @@ These views need not be isomorphic. Co-use requires subject and grain correspond
 
 **Constituent actions in ongoing work.** For example, inspecting a returned item can constitute part of resolving its service case, while resolving that case constitutes part of operating a repair service. All three can be under way during the inspection. A change from cosmetic acceptance to a requirement about intermittent failure changes the inspection needed in that case; faster visual checks alone cannot establish the new result. The operative must have the diagnostic capability and access the case requires, and shared test equipment must fit the combined operating demand. OPS.19 examines simultaneous work and conflicts, using FPF B.1.5.EW to recover these constituent connections when needed. The service commitment is not met merely because one inspection ends.
 
-## OPS.Preface:6 - Shared attention is stronger than visibility and weaker than consensus
+## OPS.Reference:6 - Shared attention is stronger than visibility and weaker than consensus
 
 
 A current operating account carries qualified claims about exact subjects and commitments for named decisions. It includes evidence and provenance, uncertainty and disagreement, permissions and authority, next decisions or permissible Work, and refresh or expiry conditions. Different participants may use different views while preserving subject and claim correspondence.
 
 One source of truth is not required. A visible dashboard is not sufficient. The useful result is that participants can recover what is claimed, by whom or from which source, for which horizon and decision, with which uncertainty and authority, and what must happen next.
 
-## OPS.Preface:7 - The control branch is conditional
+## OPS.Reference:7 - The control branch is conditional
 
 
 Observer, controller, plant, supervisor, observation, actuation, feedback, and rate distinctions enter an Operations decision only when they change its coordination choice. Current FPF supplies generic control relations, selected control-structure views, and rate/dynamics claim discipline. Operations retains the decision-specific operating System, commitments, current state, intervention, authority and evidence for that intervention, and service or production consequences.
 
 A controller product, loop diagram, feedback label, or control room does not make every operation a control loop. A selected control view establishes neither feedback closure, rate adequacy, stability, safety, authority, evidence sufficiency, nor an Operations Method.
 
-## OPS.Preface:8 - Pattern relations do not prescribe an operating lifecycle
+## OPS.Reference:8 - Pattern relations do not prescribe an operating lifecycle
 
 
 `OPS.1 → OPS.2`, `OPS.1 → OPS.3`, `OPS.2 + OPS.3 → OPS.4`, `OPS.2 + OPS.3 + OPS.4 → OPS.5`, `OPS.5 → OPS.6`, and `OPS.6 → OPS.7` are useful result dependencies only where a matching current input changes the receiving decision. They are not a mandatory calendar sequence. A subject account can be repaired while a view is selected; a stale claim can be refreshed without reopening the operating System; admission can start from current OPS.1–OPS.4 inputs; an already admitted case can enter OPS.6 directly; and a temporal or consequence question can enter OPS.7 when its evidence and authority exist.
@@ -335,7 +366,7 @@ OPS.19 opens only when several otherwise valid operating results conflict across
 
 Use the smallest pattern whose result can change the current decision. Stop when the result is sufficient or when the next needed result belongs to another specialist practice or remains unsupported by the current evidence and authority.
 
-## OPS.Preface:9 - Use the Methods together where their results meet
+## OPS.Reference:9 - Use the Methods together where their results meet
 
 
 OPS is a repertoire of related Methods. The Parts group their descriptions for reading; they do not declare one composite Method that every operation must perform. The useful connection is a result needed by another decision. Keep that result's subject, conditions, horizon and evidence when reusing it, and obtain only the missing contribution. The following combinations illustrate where more than one result matters.
@@ -350,7 +381,7 @@ OPS is a repertoire of related Methods. The Parts group their descriptions for r
 
 OPS.11 connects any of these uses to an actual coupling that can defeat it: for example, resource access granted for another interval or test evidence for another configuration. OPS.4 keeps the necessary claims recoverable for the participating decision makers. Neither requires building a complete enterprise model. The detailed input and return conditions remain in the cited bodies' Solutions and Relations.
 
-## OPS.Preface:10 - Conditions on a whole combination
+## OPS.Reference:10 - Conditions on a whole combination
 
 
 When several operating moves are to be used together, judge their combined demands against the same actual operation and interval. OPS.10:4.2–4.4 supplies the resource and timing questions; OPS.12:4.4 supplies the comparison by affected group; OPS.13:4.2–4.4 preserves service and commitment conditions; OPS.14:4.4 preserves payment timing; OPS.17:4.4 and OPS.19:4.4–4.7 resolve consequential co-use conflicts. The whole chosen arrangement must fit the resources actually available, preserve each protected condition, comply with applicable rules and use evidence adequate for the claims on which it relies.
@@ -365,7 +396,7 @@ PumpWorks makes the whole condition tangible. In its stated repeat scenario, two
 
 If a shared condition changes, reopen each combination that relied on it and the specific local result made stale by the change. Keep independent results whose subjects and conditions still match. A new resource window can alter admission and a service offer while leaving a valid subject account and a useful readiness rule available.
 
-## OPS.Preface:11 - Check the combined decision and its result
+## OPS.Reference:11 - Check the combined decision and its result
 
 
 Recognizing that one local gain can damage another result is enough to find a useful entry. Relying on a combined decision requires answers to the following substantive questions. Use the selected bodies' existing answers when they match; investigate a question only where its missing or changed answer can affect this use.
@@ -378,7 +409,7 @@ Recognizing that one local gain can damage another result is enough to find a us
 
 The cases document three consequential misreadings of combined use. Moving incomplete matters out of the ready queue improves that queue's appearance while leaving the recipient's waiting unresolved; OPS.8 retains the earlier waiting origin. Reporting only completed requests can hide due but still-open commitments; OPS.15 reconstructs the receiving population. Extending the rig operator's duty can improve utilization while consuming protected recovery and incident coverage; OPS.12 and OPS.19 change the operating arrangement. These are reasons to inspect the receiving result and affected people in an actual case, not reasons to add every possible measure to every decision.
 
-## OPS.Preface:12 - Architectural Rationale
+## OPS.Reference:12 - Architectural Rationale
 
 
 The repertoire is organized around questions that can close separately. Admission can be decided while a later Work occurrence is still unperformed. A capacity bound can be established while service agreement remains open. An account can be correct while a quality response is undecided. A local Method change can be supported while wider retention remains unknown. Giving each result a direct entry makes those useful stopping points available and lets changed facts reopen only their real consumers.
@@ -398,7 +429,7 @@ The control branch follows the same choice. FPF supplies control relations, view
 
 OPS.11.1 and OPS.15.1 develop two constructions used by these decisions: an operating model connecting resource use, activities and order completion, and quantities calculated from the corresponding events. They retain shared resource use, branch joins, repeated work and unfinished cases where those change the answer. The model can then be compared with observations without mistaking a changed boundary or denominator for better service. Use the construction that supplies the missing model or quantity; reuse one that is already adequate.
 
-## OPS.Preface:13 - Apply the repertoire in production and service settings
+## OPS.Reference:13 - Apply the repertoire in production and service settings
 
 
 The framework has one cross-domain Operations scope. Its three applications are worked uses, not separate factory, healthcare or software profiles. They inherit the same distinction among demand, commitment, Work, accepted result and evidence, the same conditional entry rule, and the same whole-combination condition. What changes is the operating subject, the practical gain, the necessary professional premises and the evidence that can support the result.
@@ -413,28 +444,185 @@ Coordinator, performer, service recipient, resource provider and acceptance auth
 
 OPS.11.1 connects the product transformations, resource use, enabling conditions and commitment or authority relations needed for that decision. Its report-route example compares a new completeness check with unchanged acceptance authority, then contrasts changing who may accept the report. OPS.16 uses such a comparison to bound an improvement or trial. A proposed organization change can require new contribution, assignment or support relations; OCE supplies that work at its own scope. Acquiring and sustaining a new practice can also require development and introduction methods even when job titles stay unchanged. Their actual work competes for resources and belongs in the operating account.
 
-## OPS.Preface:14 - Gains, burden and limits of combined use
+## OPS.Reference:14 - Gains, burden and limits of combined use
 
 
 The combined use makes an operating choice explainable: which result it protects, which demand waits, which resource or authority is missing, what another participant must supply, and what observation will change the decision. It supports a truthful refusal or narrower service offer as well as a new start. Its costs are the observations, correspondence work, coordination and occasionally specialist analysis needed to make those claims. Reuse a current account or direct rule when it already answers the question; a larger model earns its effort only through a decision, assurance or recovery use.
 
 The examples favor operations where cases, commitments, resource windows and result evidence can be recovered. Real operations can have incomplete records, unequal access to information and affected people whose burden is absent from the official account. OPS.12 asks those affected about displaced work and conditions; OPS.15 preserves missing observations and omitted populations. A manager's account alone can therefore be insufficient even when its arithmetic is correct. Retain disagreement and professional limits instead of treating missing information as zero burden or permission to proceed.
 
-The three constructed applications demonstrate the reasoning and its branches. They do not establish comparative effectiveness across domains, future service probabilities, clinical or engineering outcomes, causal superiority of a Method, or sustained population retention. A result that needs any of those claims requires evidence for that use. The [source and refresh account](#opsreference4---source-use-and-currentness) identifies what to reconsider when a professional premise changes.
+The three constructed applications demonstrate the reasoning and its branches. They do not establish comparative effectiveness across domains, future service probabilities, clinical or engineering outcomes, causal superiority of a Method, or sustained population retention. A result that needs any of those claims requires evidence for that use. The [source and refresh account](#opsreference19---source-use-and-shared-architectural-choices) identifies what to reconsider when a professional premise changes.
 
-## OPS.Preface:15 - What this publication covers and leaves outside
+## OPS.Reference:15 - What this publication covers and leaves outside
 
 
 The patterns cover independently enterable questions about operating focus, views, subjects, current state, admission, continuation, priority, queues, constraints, capacity and structural coordination. They connect that work to affected people, supported promises, operating and financial consequences, useful accounts, bounded Method improvement, Method-repertoire selection, quality/reliability responses, reconciliation of simultaneous operating results, and deliberate cultural continuation. OPS.21–22 add the construction of meaningful operating aims and the interpretation of performance under changed conditions, while keeping service promises, capability assessments and reward decisions distinct.
 
 A plan or calculation does not establish performed Work, accepted service, a health effect, field release, Method identity, causal improvement or later use by a practitioner population. Those claims require their own evidence, conditions, authority and specialist results. The package table keeps the Operations questions distinct.
 
-## OPS.Preface:End
+## OPS.Reference:16 - Intended use and ordinary non-use
+
+Use this framework when a decision about continuing Work needs a better operating basis: the operation or subjects are unclear, current evidence cannot support admission or continuation, queues and resources conflict, human conditions, service, financial consequences, Method choice or quality require a decision, several operating results must be reconciled, a bounded population relation about continued practice must be tested, or the operation needs a meaningful aim or a reasoned performance assessment. Use the one pattern or small cooperating set whose result answers that question.
+
+Do not use it merely because a project exists, a process is documented, a board has cards, a dashboard is visible, a controller exists, or a management school is familiar. Return product or asset engineering, organization change, one human's capability, strategy, finance, governance, administration, safety, legal, medical, ecological, security, and other specialist results to their owners.
+
+## OPS.Reference:17 - PatternID and reader order
+
+`OPS.*` is this framework's PatternID namespace. The numbers are stable addresses. The ten Parts organize twenty-eight pattern bodies for reading, including six nested methods. A result dependency applies when one decision needs the matching result; actual Work can overlap, branch, repeat or start from existing inputs.
+
+## OPS.Reference:18 - Practical entry forms
+
+The following stable example keys select ordinary practical entries in the Readme. Each appears there once. They support direct choice and explicit worked continuations; no Practical-Use Card or separate mantra is selected. Questions outside these examples use the Table of Contents and the full pattern bodies.
+
+| Example key | Form |
+| --- | --- |
+| `OPS-PUMPWORKS` | Ordinary practical entry |
+| `OPS-SERVICE-WINDOW` | Ordinary practical entry |
+| `OPS-ACCEPTED-RESULT` | Ordinary practical entry |
+| `OPS-PRACTICE-CHANGE` | Ordinary practical entry |
+| `OPS-RELEASE-AND-WAIT` | Ordinary practical entry |
+| `OPS-PROTECT-AND-DEVELOP` | Ordinary practical entry |
+| `OPS-PREPARE-AND-RESPOND` | Ordinary practical entry |
+| `OPS-ADVICE-IN-USE` | Ordinary practical entry |
+| `OPS-AIMS-AND-PERFORMANCE` | Ordinary practical entry |
+
+## OPS.Reference:19 - Source use and shared architectural choices
+
+The framework connects Methods and Work with resources, transformation flows, queues, constraints and descriptions. Project, process, case, queueing, issue-tracking and operations-management viewpoints can concern the same Work. Changing conditions, improvement cycles and the scale at which a change is made affect which diagnostic and coordination results are useful. Each pattern develops the contribution needed for its operating question.
+
+The Kanban Guide 2025.5, TameFlow sources, Reinertsen, Throughput Accounting and TOC, DEMO, integrated relation-specific structures, CMMN, DCR, OCEL, object-centric process management, layered control and LCA, statistical process control and SRE, DORA, harness engineering, and loop engineering each contribute bounded questions or Methods. No source school organizes the framework. Each body names the contribution it uses, its current limit, and the observation that reopens that use.
+
+The comparisons in `OPS.1:11` through `OPS.7:11` start with capable incumbent arrangements: an explicit workflow, governed case/process integration, subject-correct histories, maintained incident coordination, policy-governed pull, outcome-aware case execution and consequence-aware service policies. OPS.3 retains its separate event/object question. The other bodies identify the decision their added receiving-result, permission, evidence or agreement distinction can change, its full maintenance cost and the sufficient-incumbent boundary. OPS.2 connects actual rule selection and composition to OPS.17; the constructed OPS.5–7 matter connects a permitted start, limited diagnostic result, changed access and effective promise agreement without imposing a lifecycle. Each comparison names its governed loci and smallest reopen condition. The further comparisons in OPS.8:11–OPS.11:11 concern receiver-ready supply and purpose-specific protection, rival-based constraint diagnosis, variability-appropriate capacity/service analysis, and actual cross-structure coordination. Primary queueing and coupled-scheduling sources qualify those uses; the published Whitt–You 2022 model supplies the same bounded network-analysis line as its 2020 preprint. These comparisons do not rank one source family across all eleven questions.
+
+Refresh the affected pattern when a source changes its practitioner action, identity, relation, view, account, or stop. Use the comparison conditions in that pattern's SoTA-Echoing section to decide whether a proposed source change improves the current guidance.
+
+The comparisons in OPS.12:11–OPS.18:11 extend this basis to changes in work demands, staffing and support, supported service promises, incremental cash and constrained-resource models, observation populations, bounded Method trials, conditional Method composition, quality-control questions and incident prevention. HSE and NIOSH contribute work-demand and intervention guidance; ACCA contributes relevant-cost and throughput-accounting reasoning; the SRE Workbook and NIST handbook contribute service-indicator, monitoring, capability and acceptance distinctions. OPS.18 also adapts Ries's chapter 11, LEI's Five Whys guidance and the 2016 SRE postmortem chapter for reconstructing contributing conditions and choosing supported prevention. Their assumptions and professional limits remain explicit in the bodies. Historical methods are identified as such; a source's date or maintained status alone does not establish the strongest answer for the operating question.
+
+OPS.16:11 compares its exact Method or candidate-account return with competent PDSA, preserving prediction, observation, adaptation and the separate implementation decision. OPS.19:11 compares the same cross-scale allocation with a capable bounded integrated arrangement. OPS.20:11 compares bounded cultural continuation with adaptive SRE practice, including receiving support, migration burden and voluntary uptake. Each may reuse a sufficient incumbent account; its added distinctions need a decision-changing contribution worth their total cost. They use several-structure, operating-financial, improvement and service-change sources only at their stated reading and applicability limits. None of these patterns claims a universal school, comparative effectiveness across domains, or transfer beyond the named conditions; each body states the observation that reopens its source use.
+
+OPS.11.1 draws on conceptual modeling to choose scope and detail while representing shared resources and order completion. OPS.15.1 uses relationships between events and their participants to construct intervals and aggregates. Their source discussions distinguish finite event histories from steady means, and modeled capacity from the work and resources actually available.
+
+Queueing and scheduling provide complementary constructions in OPS.10.1/.2. A mean comparison can distinguish fast but variable service from slower predictable service; it does not settle an individual deadline. A finite schedule can establish attainability under shared resources and calendars; protection against uncertain delay additionally needs a disturbance or probability account. The bodies compare these source contributions at the question they answer, retaining the cost and limits of a richer model.
+
+OPS.8.1 compares release signals while retaining known visits and possible returns. OPS.8.2 distinguishes capacity left over after protection from temporarily used reserve, then constructs its return to service. Factory Physics, TameFlow, workload-control studies, interruption research and computational preemption contribute different mechanisms and limits. Together, the two bodies connect the release decision to feasible recovery; they do not make final acceptance a universal release signal or idle time universally available for development.
+
+
+### OPS.Reference:19.1 - Operating aims and performance sources
+
+Bjarte Bogsnes, *Implementing Beyond Budgeting: Unlocking the Performance Potential*, second edition (Wiley, 2016), chapter 4, printed pp.142–159 and 182–190, supplies the developed historical practice account used in OPS.21–22. Jeremy Hope and Robin Fraser, *Beyond Budgeting* (Harvard Business School Press, 2003), chapters 4–5, pp.69–116, connects targets, current outlook, provision, coordinated action and assessment, including implementation failures when the wider management uses remain unchanged. The adopted connection does not prescribe either source's complete organizational model.
+
+[Bukh, Ringgaard and Sandalgaard, “Moving beyond Beyond Budgeting” (2025)](https://doi.org/10.1080/09638180.2024.2362681), pp.1221–1244, examines one Scandinavian bank that abandoned and later reinstated budgets. Its retrospective interviews and documents show changing uses of forecasts alongside retained or restored budget controls. This supports inspecting actual uses and permitting qualified combinations, not a universal verdict for or against budgeting. One author disclosed a board position. The case supplies no general causal estimate of performance gains. OPS.21–22 retain the functional distinctions and reopen the arrangement when practice contradicts its intended use.
+
+The [forecasting text's distinction between forecasting, goals and planning](https://otexts.com/fpp3/planning.html) supports keeping expectation, intended result and action separate. It does not choose the operation's aim or settle an assessment. The repertoire therefore combines those supplied distinctions with a developed construction of the aim and subsequent judgement, rather than asking a forecast to perform every management function.
+
+
+### OPS.Reference:19.2 - Shared source choices for the repertoire
+
+The shared architectural choice is to combine source contributions by the operating question they answer. The following comparisons explain that choice across several bodies; each cited body's SoTA-Echoing section retains the more specific mechanism, worked distinction and reopen condition.
+
+| Professional answer | Contribution adopted or adapted in OPS | Alternative, limit and reason to reconsider |
+| --- | --- | --- |
+| [The Kanban Guide 2025.5](https://kanbanguides.org/the-kanban-guide/2025.5/) defines a workflow, controls started work and relates a service expectation to elapsed time and probability. | OPS.5, OPS.8, OPS.13 and OPS.17 use explicit boundaries and policies for admission, waiting and forecasts. | Retain a bounded Kanban use where it answers the question. For a wider operating decision, also recover case facts, commitment authority and resource conditions. Reconsider the selected policy when item boundaries, demand or the service population change. |
+| TameFlow's complete-kit and constraint-protection mechanisms, Reinertsen's economic flow trade-offs, and the queueing comparisons in OPS.8:11–OPS.10:11 answer different waiting questions. | OPS adapts receiver-ready supply, rival-based diagnosis and analysis chosen for the required service claim. | Replenishment must arrive in time to preserve protection. A pooling change can alter processing behavior; a finite deadline or accumulated waits can favor treatment away from the sustained-throughput constraint. OPS.8–OPS.9 compare these choices and the effort of stronger diagnostics. Retain the cheaper adequate policy or bound, and reopen when behavior, regime or the receiving result changes. |
+| [CMMN 1.1](https://www.omg.org/spec/CMMN/1.1/PDF), the [DCR execution documentation](https://documentation.dcr.design/documentation/dcr-robots/) and [OCEL](https://www.ocel-standard.org/specification/overview/) contribute authorized case planning, outcome-aware execution and multi-object evidence. | OPS.2 and OPS.6 reuse a competent integrated contract and add only a missing subject-state, permission or rule-composition distinction; OPS.3 and OPS.15 retain their event/object contributions. | A fixed subprocedure or sufficient case contract remains in use. An execution outcome supports only the external subject claim justified by its evidence. OPS.3 uses current object-centric data-quality work to correct a faulty relation or time meaning locally, preserving unaffected claims. Reopen when changed facts, permission or a missing relation can alter continuation. |
+| The coupled-scheduling and several-network sources discussed in OPS.11:11 connect material and transaction requirements to shared resources. | OPS.11 and OPS.19 retain a coupling only when it can reverse the operating decision, then coordinate the affected choices. | A full network model may be useful for strongly coupled scheduling; one simple binding condition can suffice for a local decision. The cited industrial models and perspectives do not establish an obtaining relation or autonomous coordination in another operation. |
+| [HSE's work-demand guidance](https://www.hse.gov.uk/stress/standards/demands.htm) and [NIOSH's Total Worker Health hierarchy](https://www.cdc.gov/niosh/twh/php/hierarchy/index.html) address the demands and arrangements that produce human burden. | OPS.12 adapts changing the source of burden; OPS.13, OPS.17 and OPS.19 preserve supplied human conditions in the combined choice. | Individual support can help, but cannot resolve incompatible duties by itself. The sources supply no universal workload threshold. Reconsider the intervention when the affected people, demands, support or qualified protection change. |
+| [ACCA's relevant-cost reasoning](https://www.accaglobal.com/my/en/student/exam-support-resources/fundamentals-exams-study-resources/f5/technical-articles/relevant-costs.html) compares cash consequences that differ because of a choice. | OPS.14 connects incremental payments and receipts to accepted service, displaced uses and timing; OPS.13 and OPS.19 use the resulting financial premise. | A short-horizon throughput model can help with a fitting resource-mix question. Funding, long-lived investment or accounting recognition can require another qualified result. Reopen when avoidability, displacement, acceptance or the horizon changes. |
+| The [SRE Workbook's service-indicator treatment](https://sre.google/workbook/implementing-slos/) distinguishes user-relevant behavior from its measurement; the [NIST process-monitoring and control handbook](https://www.itl.nist.gov/div898/handbook/pmc/pmc.htm) separates statistical monitoring and acceptance questions. | OPS.13, OPS.15 and OPS.18 adapt the observation boundary and select the evidence branch needed for a service, process, lot or recovery decision. | A supplied acceptance rule or direct protection can suffice. A monitoring choice also pays for inspection, false/repeated signals and the actual response; grouped observations or drift can change its detection basis. OPS.13 and OPS.18 work those returns without treating software error budgets as safety permission. Reconsider when the population, response or required decision changes. |
+
+Anderson's *Kanban* (2010) combines operating mechanisms with an approach to evolutionary change; later Kanban principles explicitly distinguish service delivery and change management. OPS uses their contribution to admission, release, queues and flow while separately considering how a changed practice can become usable. Dietz and Mulder's *Enterprise Ontology* (2020), §§4.4.4–4.4.6, helps distinguish product-making from request, promise and acceptance relations. OPS.11.1 retains those relations in the operating model without treating every new assignment as a new authority structure. A source's single programme can therefore contribute to several domains; its title does not allocate all of its methods to one DPF.
+
+Tendon and Doiron's *Tame your Work Flow* (2020), chapters 6–8, connects a proposed production improvement to a package that customers can use and to its financial consequences. OPS.1 and OPS.13 retain the receiving result and commitment; OPS.14 compares the future payments and receipts that differ between feasible alternatives. Shared contributions belong in one combined comparison, with each receipt and payment counted once. The book's instructional cases do not establish that higher physical throughput necessarily increases financial throughput, or that one accounting model resolves participants' disagreements.
+
+Chapter 21 presents its starter patterns as prototypes and an illustrative route. Its organizational vertical slice connects performers and successive management responsibilities; it is a different relation from a method's constituent and encompassing methods. OPS.17 selects usable operating moves and their conditions, while OPS.20 addresses their continuation among practitioners. OPS.13 and OPS.18 connect signals to response timing and supported corrective action. The full starter sequence, CEO participation and financial throughput as a single objective apply only where that organizational arrangement and purpose fit; they are not prerequisites for an ordinary local operating decision.
+
+Tendon's *The Book of TameFlow* (2022), pp. 194-203 and 241-247, contributes the connection between a useful outcome, its work package and preparation involving the people who will perform it. OPS-PREPARE-AND-RESPOND combines that contribution with the current service, resource and financial methods. The package boundary follows the recipient's needed result; a financial throughput measure is useful only where its assumptions fit that decision. Pages 249-269 connect execution changes to future admissions and focused management attention. OPS.13 supplies response timing, and OPS.8.2 checks whether a proposed assisting resource can actually be released and restored. Source-specific prescriptions about immutable queue positions, a compulsory common deadline or a universal ban on concurrent work are replaced by comparison of the affected commitments and feasible arrangements.
+
+These correspondences are source-supported reasons for the Methods' organization, not evidence that the complete OPS repertoire outperforms every other arrangement. A stronger professional result can replace one analysis or coordination contribution while preserving the other Methods. Reopen the architecture itself when repeated use shows that the question boundaries systematically hide a needed operating result, or when an integrated alternative preserves the relevant subjects, commitments, protections and evidence at lower total burden. A changed source title or publication date alone does not establish that gain.
+
+Competent improvement and adoption practices are also reusable sources. [IHI's PDSA testing guidance](https://www.ihi.org/library/model-for-improvement/testing-changes) and [implementation guidance](https://www.ihi.org/library/model-for-improvement/implementing-changes) supply the improvement comparison in OPS.16. [Google SRE's incident management](https://sre.google/sre-book/managing-incidents/) and [organizational-change account](https://sre.google/workbook/organizational-change/) supply maintained coordination and adaptive receiving support for OPS.4 and OPS.20. These contributions may already suffice. OPS adds no separate account unless a missing distinction can change the receiving decision.
+
+The [bibliographic returns](#opssources1---bibliographic-returns-for-shared-sources) identify the complete sources for these architectural choices and their stated limits.
+
+## OPS.Reference:20 - FPF dependency and compatibility
+
+The OPS methods are described in their pattern bodies. The Table of Contents, SoTA-Echoing and Relations identify their external FPF contributions and receiving uses. For an OPS use that requires an FPF contribution, open the [current FPF edition](https://github.com/ailev/FPF/blob/main/FPF-Spec.md), identify the needed pattern edition, and check that its content and use conditions provide the stated contribution. Retain a permanent link or copy of the edition actually used. If the contribution is unavailable or no longer fits, keep the dependent use open and reconsider the affected OPS pattern and dependent conclusions. Unaffected results remain reusable.
+
+**Direct uses.** FPF supplies System recognition, direct relation and selected-structure governors, Work and WorkPlan distinctions, Methods and descriptions, claim-bearing accounts, evidence and provenance, time and currentness, mathematical-lens use, control relations and views, Work-performance recovery, comparison, choice, simultaneous Work, and culture mechanics. Operations Management retains operating subjects, commitments, domain quantities and Methods, evidence, authority, interventions, service and production consequences, and receiving decisions.
+
+**Compatibility.** A compatible FPF change leaves unaffected OPS results reusable. A changed relied-on kind, relation, Solution, predicate, or result form reopens the consuming OPS pattern and its dependency claim. Qualify that affected use before relying on the changed contribution.
+
+**Authority direction.** FPF does not depend on this DPF for its transdisciplinary results. A transdisciplinary discovery returns to FPF through its own decision and review. An Operations-specific remainder found in FPF returns to this DPF and is removed from the general host rather than duplicated.
+
+## OPS.Reference:21 - Sibling-domain returns and availability
+
+The patterns have no mandatory sibling-DPF result for every displayed use. The FPF contributions and direct Operations sources needed for each displayed use are named in its pattern body. Clinical, safety, legal, privacy, security, finance, product-release, capability, and other domain results remain direct returns rather than sibling frameworks silently imported into the edition.
+
+OPS.16 uses the published Method Engineering trial, coherence, fit, worth, lineage and bounded-introduction guidance. OPS.11.1 models the affected transformation network and its proposed change; OPS.10–OPS.13 and OPS.19 can establish the resource and service conditions its trial needs. OCE supplies changed organizational relations and their realization when those are needed, with OCE.11 coordinating change and continuing service. Existing assignments and authorized operating allocations remain inputs to the Operations resource account. OPS.17 uses the published Method Engineering repertoire guidance. OPS.20 uses the current FPF and Method Engineering cultural-continuation contributions while retaining the Operations population, predicate, supported continuation, evidence and needed authority; intervention is conditional on the selected work. OPS.12 can use Organization Change Engineering's consequence comparison when the intervention changes the organization. The supplying methods are available at their own scope. A case-specific capability, staffing, coexistence, cultural, or consequence result must still be established for the receiving Operations decision.
+
+Strategy retains direction and strategic commitments; Corporate Finance financial decisions; Corporate Governance and law authority; Organization Administration enabling conditions; Maintenance restored asset functioning; Systems Engineering product/service engineering and assurance; Human Capability Development one human's capability development; and other specialists their own subjects, Methods, evidence, and authority. Use an available current return, a qualified direct source, or an explicit missing-result blocker.
+
+The following direct returns help when the operating question exposes work owned by a neighboring framework. They are conditional discovery routes, not additional prerequisites for every OPS use. The supplied guidance remains external to this edition; a case-specific result must still satisfy the receiving OPS conditions.
+
+| Missing result in the operating situation | External guidance and practical return |
+| --- | --- |
+| An organization change competes with continuing service for coverage and support. | [OCE / OCE.11](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce11---coordinate-organization-change-work-with-continuing-service) establishes and operates a bounded coexistence arrangement. OPS.16 uses the actual arrangement and observations for its trial conditions; a possible-future plan remains prospective. [OCE / OCE.13](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce13---observe-and-compare-organization-change-consequences) supplies consequence comparison when the changed subject is the organization arrangement. |
+| The required contribution of one human is unclear, or a training proposal is being used as a capacity answer. | [HCD / HCD.1](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd1--derive-human-capability-demand-from-representative-later-work) derives demand from that person's representative later Work and returns diagnosis, profile or non-training questions as appropriate. A demand account supplies neither present capability nor usable staffed capacity; OPS retains the current service and allocation decision. |
+| A changed prompt, tool, procedure or support arrangement may change the reusable Method. | [FPF A.3.1.MV](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31mv---construct-and-maintain-a-method-variant) distinguishes reusable semantic change from description, support and local-Work changes and preserves candidate status. OPS.16–OPS.17 retain the operating effect, feasible use and repertoire decision. |
+| The operation needs a separately prepared inquiry, comparison or recommendation, and the support engagement is unclear. | [PSDA / PSDA.11](https://github.com/ailev/FPF/blob/main/DPFs/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md#psda11---bound-the-decision-support-engagement-and-authority-boundary) bounds the support return, recipient and later choice owner. A formed operating choice with adequate inputs can stay with its direct OPS Method and applicable choice rule. |
+| A wish to develop the operation precedes any clear worthwhile contribution or adequate alternatives. | [FPF C.40.OI](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c40oi---bound-an-opportunity-inquiry) bounds the subject, receiving use, horizon and affordable opportunity inquiry. If the operating difficulty and adequate alternatives already exist, use the direct operating or decision-support result. The opportunity inquiry grants no service commitment or implementation authority. |
+
+Use the linked contribution only while its current content still supplies the stated result and boundaries. Keep the edition or copy actually used with a consequential receiving result. If a supplier's content, availability or case conditions change, requalify the affected return; unrelated OPS uses remain available.
+
+## OPS.Reference:22 - Available contributions
+
+| Package | PatternIDs | Availability in this edition |
+| --- | --- | --- |
+| `OPS-A — Identify operating subjects and coordination form` | `OPS.1`–`OPS.4` | Available authoritative bodies in this edition. |
+| `OPS-B — Admit and progress continuing Work` | `OPS.5`–`OPS.7` | Available authoritative bodies in this edition. |
+| `OPS-C1 — Queue, buffer, and current-constraint decisions` | `OPS.8`, `OPS.8.1`–`OPS.8.2`, `OPS.9` | Available authoritative bodies in this edition. |
+| `OPS-C2 — Capacity, variability, and interacting-structure decisions` | `OPS.10`, `OPS.10.1`–`OPS.10.2`, `OPS.11`, `OPS.11.1` | Available authoritative bodies in this edition. |
+| `OPS-C4 — Human condition, commitment, consequence, account, and operating control` | `OPS.12`–`OPS.15`, `OPS.15.1`, `OPS.18` | Available authoritative bodies in this edition. |
+| `OPS-E1 — Local operating-Method improvement` | `OPS.16` | Available authoritative body in this edition. |
+| `OPS-E2 — Operations Method repertoire` | `OPS.17` | Available authoritative body in this edition. |
+| `OPS-E3 — Simultaneous operating Work` | `OPS.19` | Available authoritative body in this edition. |
+| `OPS-E4 — Operations cultural continuation` | `OPS.20` | Available authoritative body in this edition. |
+| `OPS-F — Operating aims and performance interpretation` | `OPS.21`–`OPS.22` | Bodies with their stated use conditions in this edition. |
+
+These package labels keep the questions and returned results distinct. They do not prescribe an operating lifecycle, maturity ladder, or reader sequence; start from the current question and use the smallest body or exact cooperating set that can change the decision.
+
+## OPS.Reference:23 - Representative case coverage
+
+| Case | What it tests | Boundary retained |
+| --- | --- | --- |
+| PumpWorks continuing controller service | mixed releases and incidents, readiness, rig windows, constraint rivals, recovery reserve, provider/evidence/release couplings, protected human conditions, test-service promises, incremental cash, decision-specific accounts, quality responses, cross-scale reconfiguration, bounded Method trial, and population-level receiving enactment. | Constructed decisions, trials, and observations; no general effectiveness, causal superiority, transfer, performed field release, safety, stability, service fulfilment, or cultural retention is established. |
+| Public-hospital emergency flow | patient/case/queue/resource boundaries, qualified readiness and capacity, case continuation, support burden, service promises, financial alternatives, due-cohort evidence, operating recovery, a pre-admission Method candidate, cross-scale coordination, and bounded receiving-use observation. | Operations supplies no clinical triage, treatment, medical-safety, consent, privacy, legal, labor, patient-outcome, Method-identity, or Method-culture result. |
+| AI-assisted software operation | user issue, candidate and episode distinctions; eligible queues, provider/test/acceptance capacity, retries, human review burden, Method trial and refresh, accepted-output promises, financial consequences, service reliability, cross-scale release coordination, and bounded on-call selection. | System/Agent recognition, security, software assurance, provider/model capability, causal effect, integration, release, human authority, high-risk transfer, and cultural continuation outside the named population retain their owners. |
+
+## OPS.Reference:24 - Edition return
+
+This publication contains the Readme, Table of Contents, Architectural Reference, ten Parts, nine connected practical entries, three extended applications, framework boundary and the pattern bodies listed in the contents.
+
+Use any of the twenty-eight patterns whose working question and conditions match your situation. Combine them when one needs another's result. Each body states the professional contributions, evidence and authority its use requires.
+
+Use the package table and each body's conditions to locate the Operations result that can change the current decision.
+
+## OPS.Reference:25 - Publication boundary
+
+Pattern bodies are the authoritative working references. The Readme, Architectural Reference, Table of Contents, practical entries, and applications help readers enter and combine them; they do not replace conditions, evidence boundaries, stops, or specialist returns.
+
+This publication contains the complete domain framework and its Method bodies for direct use. Its Architectural Reference explains the connected language, the selected arrangement and its grounds, serious alternatives, conditions and consequences; it is not merely a lookup carrier. An educational Guide is organized for learning and memory formation, while a DPF Suite Architectural Reference explains the connections among its included frameworks. These companions do not replace the complete OPS bodies or their direct use.
+
+For source qualifications, citation and edition information, see the [Sources and Edition Notes](#operations-management-principles-framework-sources-and-edition-notes).
+
+## OPS.Reference:End
 
 
 # Part I — Bound the Operation and Select Coordination Views
 
 ## OPS.1 - Identify the Operating System, Commitments, and Flow Units
+
+> **Status:** Stable
 
 
 ### OPS.1:0 - Use This When
@@ -617,6 +805,8 @@ FPF's `A.1.SCR`, `A.6.REL`, `C.2.1` and `A.10` govern System recognition, relati
 ### OPS.1:End
 
 ## OPS.2 - Select Work-Management Views and Coordination Methods
+
+> **Status:** Stable
 
 
 ### OPS.2:0 - Use This When
@@ -806,6 +996,8 @@ OPS adopts CMMN's coexistence of planned and discretionary work, and the DCR tra
 
 ## OPS.3 - Distinguish Operating Subjects, Cases, Queues, Resources, and Records
 
+> **Status:** Stable
+
 
 ### OPS.3:0 - Use This When
 
@@ -987,6 +1179,8 @@ Reopen this choice when the record's meaning, relation history, clock, consumer 
 ### OPS.3:End
 
 ## OPS.4 - Keep Current Operating State Recoverable Across Participants
+
+> **Status:** Stable
 
 
 ### OPS.4:0 - Use This When
@@ -1172,6 +1366,8 @@ FPF `C.2.1`, `A.15.8`, `A.10` and `C.27.TA` supply account, recovery, evidence a
 # Part III — Admit Demand and Continue Cases
 
 ## OPS.5 - Admit Work and Limit Starts
+
+> **Status:** Stable
 
 
 ### OPS.5:0 - Use This When
@@ -1368,6 +1564,8 @@ FPF `C.11` supplies comparison among genuine admissible alternatives; it neither
 
 ## OPS.6 - Continue Cases and Handle Exceptions
 
+> **Status:** Stable
+
 
 ### OPS.6:0 - Use This When
 
@@ -1561,6 +1759,8 @@ FPF `A.15.7` supplies situation-responsive steering and `C.11` the conditional c
 # Part IV — Revise Priority and Existing Commitments
 
 ## OPS.7 - Manage Aging, Urgency, and Service Commitments
+
+> **Status:** Stable
 
 
 ### OPS.7:0 - Use This When
@@ -1764,6 +1964,8 @@ FPF `C.27.TA` qualifies event, interval and currentness claims; `C.27` applies o
 # Part V — Coordinate Queues and Treat the Current Constraint
 
 ## OPS.8 - Coordinate Queues and Buffers
+
+> **Status:** Stable
 
 
 ### OPS.8:0 - Use This When
@@ -2375,6 +2577,8 @@ C.11 supports the choice between useful gain, retained protection and unresolved
 
 ## OPS.9 - Diagnose and Treat the Current Operating Constraint
 
+> **Status:** Stable
+
 
 ### OPS.9:0 - Use This When
 
@@ -2594,6 +2798,8 @@ Current FPF C.16, C.27.TA/C.27, C.28, C.11.CRC and C.11 govern measurement, temp
 # Part VI — Qualify Capacity and Coordinate Operating Structures
 
 ## OPS.10 - Qualify Operating Capacity Under Variability
+
+> **Status:** Stable
 
 
 ### OPS.10:0 - Use This When
@@ -3272,6 +3478,8 @@ MMP.10 supplies the constraint formulation and its interpretation. CMP.4 supplie
 
 ## OPS.11 - Coordinate Interacting Operating Structures
 
+> **Status:** Stable
+
 
 ### OPS.11:0 - Use This When
 
@@ -3710,6 +3918,8 @@ C.32.MWA supplies practice-architecture synthesis. C.29 connects mathematical de
 
 ## OPS.12 - Protect Human Conditions in Operating Decisions
 
+> **Status:** Stable
+
 
 ### OPS.12:1 - Problem frame
 
@@ -3923,6 +4133,8 @@ FPF C.16 supports measurement whose basis matters to the decision. A.10 keeps ev
 ### OPS.12:End
 
 ## OPS.13 - Align Commitments, Resources, and Service Outcomes
+
+> **Status:** Stable
 
 
 ### OPS.13:1 - Problem frame
@@ -4149,6 +4361,8 @@ FPF A.10 governs the fit between evidence and the claim relied on. C.16 supports
 
 ## OPS.14 - Relate Throughput, Cash, and Operating Consequences
 
+> **Status:** Stable
+
 
 ### OPS.14:1 - Problem frame
 
@@ -4367,6 +4581,8 @@ FPF C.16 preserves comparison characteristics, units and model assumptions; A.10
 ### OPS.14:End
 
 ## OPS.15 - Build a Decision-Specific Operating Account
+
+> **Status:** Stable
 
 
 ### OPS.15:1 - Problem frame
@@ -4780,6 +4996,8 @@ MMP.7 accounts for the observation and recording law; MMP.13 supplies inference.
 
 ## OPS.16 - Decide Whether and How to Change an Operating Method
 
+> **Status:** Stable
+
 
 ### OPS.16:0 - Use This When
 
@@ -5053,7 +5271,7 @@ For rapid feedback, DORA's [continuous integration](https://dora.dev/capabilitie
 
 ### OPS.16:12 - Relations
 
-Introduction and later-use support are supplied by [A.3.1.MI in the Implementation Support Principles Framework](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31mi---introduce-a-method-into-practice-and-decide-what-to-keep-or-change). Its result keeps the target practice, introduction strategy and support distinct.
+Introduction and later-use support are supplied by [FPF A.3.1.MI in the Implementation Support Principles Framework](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31mi---introduce-a-method-into-practice-and-decide-what-to-keep-or-change). Its result keeps the target practice, introduction strategy and support distinct.
 
 
 `OPS.15` supplies a decision-specific account when observations, populations, or event relations are not yet trustworthy. `OPS.17` supplies status-preserved admitted Methods, repertoire claims, or candidate-account alternatives. `OPS.18` supplies quality or reliability evidence and its control result.
@@ -5067,6 +5285,8 @@ Current `A.3.1.WT`–`A.3.1.MV` and `A.3.1.MI` govern representative trial evide
 ### OPS.16:End
 
 ## OPS.17 - Compare and Refresh Operations Methods
+
+> **Status:** Stable
 
 
 ### OPS.17:1 - Problem frame
@@ -5268,6 +5488,8 @@ FPF A.3.1/A.3.2 distinguish performed Work, a Method and its description when th
 ### OPS.17:End
 
 ## OPS.18 - Control Operating Quality and Reliability
+
+> **Status:** Stable
 
 
 ### OPS.18:1 - Problem frame
@@ -5509,6 +5731,8 @@ FPF C.16 governs the measures and statistical assumptions relied on, and A.10 pr
 
 ## OPS.19 - Reconcile Simultaneous Operating Work Across Cases and Scales
 
+> **Status:** Stable
+
 
 ### OPS.19:0 - Use This When
 
@@ -5744,6 +5968,8 @@ The full incremental burden of the OPS synthesis is recovering missing owner res
 ### OPS.19:End
 
 ## OPS.20 - Deliberately Continue and Change Operations Culture
+
+> **Status:** Stable
 
 
 ### OPS.20:0 - Use This When
@@ -6052,7 +6278,7 @@ Reopen when a new eligible failure, changed support, authority, population or in
 
 Start with the continuing operation, its recipients and the result worth improving. Translate that result into the team's contribution, choose what to observe and a meaningful comparison, and decide whether a numerical target would help. The first useful result is an aim with an interpretable comparison and a next action, or a specific unresolved choice that prevents agreeing them. It need not be a dashboard.
 
-The wider practice is managing operating performance. This pattern constructs the aims, targets and comparisons used in that work. [OPS.22](#ops22---interpret-operating-performance-and-decide-the-response) interprets subsequent performance; [OPS.13](#ops13---align-commitments-resources-and-service-outcomes) establishes what can actually be promised. Use an existing aim and comparison when they already answer the question. If the worthwhile direction itself remains unsettled, obtain that contribution through [Strategy](STRATEGY-PRINCIPLES-FRAMEWORK.md#str5---generate-strategic-directions) or [problem structuring](../DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md#psda6---represent-values-and-trade-offs) before refining its indicators.
+The wider practice is managing operating performance. This pattern constructs the aims, targets and comparisons used in that work. [OPS.22](#ops22---interpret-operating-performance-and-decide-the-response) interprets subsequent performance; [OPS.13](#ops13---align-commitments-resources-and-service-outcomes) establishes what can actually be promised. Use an existing aim and comparison when they already answer the question. If the worthwhile direction itself remains unsettled, obtain that contribution through [Strategy (STR / STR.5)](STRATEGY-PRINCIPLES-FRAMEWORK.md#str5---generate-strategic-directions) or [problem structuring (PSDA / PSDA.6)](../DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md#psda6---represent-values-and-trade-offs) before refining its indicators.
 
 The intended reader understands the operation and can obtain its participants' evidence and decisions. The method supplies the target construction; it does not supply a missing professional acceptance criterion, authority over another team's work or permission to change pay.
 
@@ -6112,7 +6338,7 @@ Generate candidate aims from the useful change: the recipient need that remains 
 
 Select the degree of ambition through that comparison and discussion with the people whose contributions it needs. A target can exceed the current expectation when there is a worthwhile, intelligible gap to work on. There is no generally correct percentage of stretch. A high number without a plausible way to achieve it is a demand for further construction, not an executable operating instruction. Where the way is unknown, a bounded learning contribution can be the current aim.
 
-Keep the conditional forecast honest through [MA.5](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma5---construct-and-update-an-operating-forecast). Use [MA.1](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma1---build-the-resource-consumption-and-cost-model) and [MA.2](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma2---explain-the-cost-and-use-of-capacity) and [OPS.10](#ops10---qualify-operating-capacity-under-variability) to expose resource and payment implications. A target of twelve repairs, an expectation of eight and resources for ten can be jointly intelligible: the differences locate work and decisions. They do not authorize promising twelve.
+Keep the conditional forecast honest through [MA / MA.5](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma5---construct-and-update-an-operating-forecast). Use [MA / MA.1](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma1---build-the-resource-consumption-and-cost-model) and [MA / MA.2](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma2---explain-the-cost-and-use-of-capacity) and [OPS.10](#ops10---qualify-operating-capacity-under-variability) to expose resource and payment implications. A target of twelve repairs, an expectation of eight and resources for ten can be jointly intelligible: the differences locate work and decisions. They do not authorize promising twelve.
 
 #### OPS.21:4.5 - Reconcile contributions and decide how the aim will be used
 
@@ -6120,7 +6346,7 @@ Check the consequential joins with other participants. Two teams can each claim 
 
 Identify who can choose the aim, assign work, provide resources, change a service promise and decide assessment consequences. These may be different people. Finance can supply an expectation without authorizing staffing. HR can advise on an assessment arrangement without controlling the jobs through which the target could be achieved. Obtain the specific decision from its actual holder; agreement in a meeting supplies only the agreements the participants can make.
 
-Agree the intended interpretation while the grounds are available: the aim, comparison, difficulty, material assumptions, protected conditions, proposed action and reason to reconsider. Explain what an unwelcome forecast will trigger. It should expose a response decision, not silently become a lower target or an automatic adverse judgement of the reporter. If an existing consequence rule defeats that use, take the conflict and proposed change to the person who can change the rule, using [OCE.10](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce10---choose-a-response-to-participation-or-working-culture-difficulties-in-the-target-organization) when the arrangement needs development. Retain the honest account and the unresolved authority condition until that change is effective.
+Agree the intended interpretation while the grounds are available: the aim, comparison, difficulty, material assumptions, protected conditions, proposed action and reason to reconsider. Explain what an unwelcome forecast will trigger. It should expose a response decision, not silently become a lower target or an automatic adverse judgement of the reporter. If an existing consequence rule defeats that use, take the conflict and proposed change to the person who can change the rule, using [OCE / OCE.10](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce10---choose-a-response-to-participation-or-working-culture-difficulties-in-the-target-organization) when the arrangement needs development. Retain the honest account and the unresolved authority condition until that change is effective.
 
 Use the ordinary working record or discussion that can carry these distinctions. No particular scorecard, software or extra annual process is required. The result may be an agreed aim, a proposal conditional on another participant's decision, or a justified choice to monitor without a new target.
 
@@ -6138,7 +6364,7 @@ This constructed cooperative has twelve identified customers whose equipment cou
 
 The team considers eight, ten, twelve and fourteen accepted repairs. Eight is the current expectation and leaves four identified needs beyond the expected result. Ten would serve two more needs and fits the base provision calculated below. Twelve would meet the complete known opportunity if all customers accept and the work can be supported. Fourteen has neither identified demand nor a way to achieve additional useful work in this case. The team provisionally selects twelve as a conditional ambition, with prompt clarification of the seven offers as its first action. It retains eight as the forecast. If customers decline because repair no longer serves them, manufacturing a repair sale would defeat the purpose; reconsider the affected aim.
 
-The base arrangement supplies 36 usable hours after protecting continuing service. Setup needs six hours and each standard repair three. Eight repairs need 30 hours, ten need 36, and twelve need 42. One obtainable extra block of eight hours would give 44. The ambition exposes a resource decision; it does not establish that the block is staffed or funded. The dated financial comparison shows that twelve repairs with this block would leave 20 less in closing cash than ten using the base provision. The cooperative decides that serving the two additional customers is worth that difference, provided the funding needed before customers pay is obtained and continuing service remains protected. This explicit judgement sustains the ambition; if the difference were not worthwhile, ten would be a reasoned alternative. The resource holder still has to authorize and provide the block before anyone promises the additional work. The [connected repair example](../Engineering%20DPF%20Suite/ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference7---how-should-we-set-a-target-and-judge-a-miss-after-conditions-change) carries this result through provision, cash, changed work and assessment.
+The base arrangement supplies 36 usable hours after protecting continuing service. Setup needs six hours and each standard repair three. Eight repairs need 30 hours, ten need 36, and twelve need 42. One obtainable extra block of eight hours would give 44. The ambition exposes a resource decision; it does not establish that the block is staffed or funded. The dated financial comparison shows that twelve repairs with this block would leave 20 less in closing cash than ten using the base provision. The cooperative decides that serving the two additional customers is worth that difference, provided the funding needed before customers pay is obtained and continuing service remains protected. This explicit judgement sustains the ambition; if the difference were not worthwhile, ten would be a reasoned alternative. The resource holder still has to authorize and provide the block before anyone promises the additional work. The [connected repair example (Engineering / Engineering.Reference:7)](../Engineering%20DPF%20Suite/ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference7---how-should-we-set-a-target-and-judge-a-miss-after-conditions-change) carries this result through provision, cash, changed work and assessment.
 
 #### OPS.21:5.2 - Decline a misleading ranking
 
@@ -6189,11 +6415,11 @@ A fixed quota is simpler when a stable, meaningful requirement and its use are a
 
 Bjarte Bogsnes, *Implementing Beyond Budgeting*, second edition (2016), chapter 4, printed pp.142–159, develops translation from direction to local contributions, indicator selection, target difficulty, peer comparison and the possibility of working without numerical targets. Those historical practice accounts inform §§4.1–4.5. This pattern retains their constructive questions while making comparison limits, shared provision and the first supported action explicit. The book supplies neither a universally correct stretch level nor evidence that one scorecard works for every operation.
 
-The [shared source discussion](#opsreference41---operating-aims-and-performance-sources) qualifies this line with the later study of budgets and forecasts. Keep a budget or reporting rhythm when its function remains useful. Reopen the selected construction when ordinary use shows that the aim no longer guides a useful contribution, the comparison conceals changed conditions, or its actual consequences again suppress the information needed for action.
+The [shared source discussion](#opsreference191---operating-aims-and-performance-sources) qualifies this line with the later study of budgets and forecasts. Keep a budget or reporting rhythm when its function remains useful. Reopen the selected construction when ordinary use shows that the aim no longer guides a useful contribution, the comparison conceals changed conditions, or its actual consequences again suppress the information needed for action.
 
 ### OPS.21:12 - Relations
 
-[STR.5](STRATEGY-PRINCIPLES-FRAMEWORK.md#str5---generate-strategic-directions) and [STR.8](STRATEGY-PRINCIPLES-FRAMEWORK.md#str8---relate-capabilities-dependencies-business-models-and-initiatives) supply a worthwhile direction and related contributions when these are unresolved. OPS.15 supplies observation meaning; OPS.10 and OPS.19 supply capacity and joint-work comparisons. MA.5–6 preserve the conditional outlook and distinguish its use from ambition and authorization. OPS.13 establishes service commitments. OPS.22 interprets later performance against the retained basis. OCE supplies an actual organizational change when the needed response exceeds the current arrangement.
+[STR / STR.5](STRATEGY-PRINCIPLES-FRAMEWORK.md#str5---generate-strategic-directions) and [STR / STR.8](STRATEGY-PRINCIPLES-FRAMEWORK.md#str8---relate-capabilities-dependencies-business-models-and-initiatives) supply a worthwhile direction and related contributions when these are unresolved. OPS.15 supplies observation meaning; OPS.10 and OPS.19 supply capacity and joint-work comparisons. MA.5–6 preserve the conditional outlook and distinguish its use from ambition and authorization. OPS.13 establishes service commitments. OPS.22 interprets later performance against the retained basis. OCE supplies an actual organizational change when the needed response exceeds the current arrangement.
 
 ### OPS.21:End
 
@@ -6209,7 +6435,7 @@ The [shared source discussion](#opsreference41---operating-aims-and-performance-
 
 Begin with the decision the assessment must support and recover the aim, observations, relevant conditions and participants' actions. Return a reasoned assessment with the response it warrants, its uncertainty and the person able to act. A conclusion can be mixed: the intended result was not fully obtained, while a timely corrective action was useful and an attribution remains unresolved.
 
-This pattern governs interpretation of operating performance. It does not determine a person's capability, corporate liability or a pay entitlement from an output total. [HCD.11](../Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd11--assess-human-performance-in-representative-work) supplies a capability-assessment contribution; [CGOV.13](CORPORATE-GOVERNANCE-PRINCIPLES-FRAMEWORK.md#cgov13---monitor-corporate-performance-and-require-an-account) supplies corporate oversight when that is the actual decision. A sufficient established interpretation can be used directly. An ordinary service-acceptance decision with an applicable clear rule can finish through [OPS.18](#ops18---control-operating-quality-and-reliability).
+This pattern governs interpretation of operating performance. It does not determine a person's capability, corporate liability or a pay entitlement from an output total. [HCD / HCD.11](../Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd11--assess-human-performance-in-representative-work) supplies a capability-assessment contribution; [CGOV / CGOV.13](CORPORATE-GOVERNANCE-PRINCIPLES-FRAMEWORK.md#cgov13---monitor-corporate-performance-and-require-an-account) supplies corporate oversight when that is the actual decision. A sufficient established interpretation can be used directly. An ordinary service-acceptance decision with an applicable clear rule can finish through [OPS.18](#ops18---control-operating-quality-and-reliability).
 
 The reader needs access to the relevant operating evidence and participants, and enough domain competence to understand the result. Use another qualified contributor for a missing technical or financial judgement; the assessment must not manufacture that competence.
 
@@ -6242,7 +6468,7 @@ Keep an ambition, forecast, resource authorization and service commitment distin
 
 #### OPS.22:4.2 - Establish what was obtained and what remains
 
-Compare observed results with that basis. Keep unfinished cases, excluded populations, quality, timing and relevant later returns visible. Check whether a changed denominator, early closing or transferred task created the apparent gain. [OPS.15](#ops15---build-a-decision-specific-operating-account) develops a missing operating account; [MA.7](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma7---explain-a-cost-or-margin-difference) explains a monetary difference without deciding personal merit.
+Compare observed results with that basis. Keep unfinished cases, excluded populations, quality, timing and relevant later returns visible. Check whether a changed denominator, early closing or transferred task created the apparent gain. [OPS.15](#ops15---build-a-decision-specific-operating-account) develops a missing operating account; [MA / MA.7](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma7---explain-a-cost-or-margin-difference) explains a monetary difference without deciding personal merit.
 
 Follow the result into its intended use. Were repairs accepted and useful, or merely marked complete? Did a faster handover require the receiving team to redo it? Include a delayed consequence when it can change the assessment. A known current result can support action before every future consequence is observed; state what later evidence could reopen the judgement.
 
@@ -6274,7 +6500,7 @@ A single score may be required by an existing system. Explain the translation an
 
 Use the findings to choose the smallest adequate response. Examples include correcting a report, completing deferred service, retaining a useful action, changing an assignment or provision, revising an irrelevant aim, improving a method, or obtaining a needed capability-development result. Select the method for that change rather than asking people to try harder regardless of the cause.
 
-Where the consequence arrangement is itself producing distorted forecasts or easy targets, identify its operative rule and holder. [MA.9](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma9---examine-the-behavioral-effects-of-management-accounting-information) examines the account's behavioral contribution; [OCE.10](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce10---choose-a-response-to-participation-or-working-culture-difficulties-in-the-target-organization) develops an authorized change in access, workload, incentives or consequences. An adviser can propose the change without being able to make it effective.
+Where the consequence arrangement is itself producing distorted forecasts or easy targets, identify its operative rule and holder. [MA / MA.9](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma9---examine-the-behavioral-effects-of-management-accounting-information) examines the account's behavioral contribution; [OCE / OCE.10](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce10---choose-a-response-to-participation-or-working-culture-difficulties-in-the-target-organization) develops an authorized change in access, workload, incentives or consequences. An adviser can propose the change without being able to make it effective.
 
 Keep the operating assessment separate from the applicable reward decision. Use its relevant findings under the actual rule and authority; where that rule prevents the intended response, return the required rule change or exception to its competent holder. A favorable operating assessment creates no payment right by itself, and a framework paragraph cannot waive an existing obligation. Capability development likewise needs its own evidence and work through HCD.
 
@@ -6348,7 +6574,7 @@ Targets and subsequent assessments are independently usable contributions. A tea
 
 Bogsnes, *Implementing Beyond Budgeting*, second edition (2016), printed pp.182–190, develops interpretation of indicator results through objectives, target difficulty, changed assumptions, responsive action and sustainability, together with the tensions among development and reward uses. Sections 4.2–4.5 adapt that connected historical treatment. The source's particular rating scale, delivery/behavior weighting and bonus arrangements are not requirements of this method.
 
-The adaptation retains uncertainty about causation and attribution after the event, and makes the affected participant's evidence and the response authority explicit. The [shared source discussion](#opsreference41---operating-aims-and-performance-sources) explains why changing budgeting labels alone cannot establish changed use. Reopen the method or its support when repeated use still rewards transferred burdens, hides missed needs or leaves a consequential judgement unexplainable to its recipients.
+The adaptation retains uncertainty about causation and attribution after the event, and makes the affected participant's evidence and the response authority explicit. The [shared source discussion](#opsreference191---operating-aims-and-performance-sources) explains why changing budgeting labels alone cannot establish changed use. Reopen the method or its support when repeated use still rewards transferred burdens, hides missed needs or leaves a consequential judgement unexplainable to its recipients.
 
 ### OPS.22:12 - Relations
 
@@ -6499,96 +6725,9 @@ OPS.19 can therefore reduce starts, reserve a compatible test environment, or ho
 ## OPS.Application:End
 
 
-# Framework Boundary and Refresh
+# Operations Management Principles Framework Sources and Edition Notes
 
-
-## OPS.Reference:1 - Intended use and ordinary non-use
-
-Use this framework when a decision about continuing Work needs a better operating basis: the operation or subjects are unclear, current evidence cannot support admission or continuation, queues and resources conflict, human conditions, service, financial consequences, Method choice or quality require a decision, several operating results must be reconciled, a bounded population relation about continued practice must be tested, or the operation needs a meaningful aim or a reasoned performance assessment. Use the one pattern or small cooperating set whose result answers that question.
-
-Do not use it merely because a project exists, a process is documented, a board has cards, a dashboard is visible, a controller exists, or a management school is familiar. Return product or asset engineering, organization change, one human's capability, strategy, finance, governance, administration, safety, legal, medical, ecological, security, and other specialist results to their owners.
-
-
-## OPS.Reference:2 - PatternID and reader order
-
-`OPS.*` is this framework's PatternID namespace. The numbers are stable addresses. The ten Parts organize twenty-eight pattern bodies for reading, including six nested methods. A result dependency applies when one decision needs the matching result; actual Work can overlap, branch, repeat or start from existing inputs.
-
-
-## OPS.Reference:3 - Practical entry forms
-
-The following stable example keys select ordinary practical entries in the Readme. Each appears there once. They support direct choice and explicit worked continuations; no Practical-Use Card or separate mantra is selected. Questions outside these examples use the Table of Contents and the full pattern bodies.
-
-| Example key | Form |
-| --- | --- |
-| `OPS-PUMPWORKS` | Ordinary practical entry |
-| `OPS-SERVICE-WINDOW` | Ordinary practical entry |
-| `OPS-ACCEPTED-RESULT` | Ordinary practical entry |
-| `OPS-PRACTICE-CHANGE` | Ordinary practical entry |
-| `OPS-RELEASE-AND-WAIT` | Ordinary practical entry |
-| `OPS-PROTECT-AND-DEVELOP` | Ordinary practical entry |
-| `OPS-PREPARE-AND-RESPOND` | Ordinary practical entry |
-| `OPS-ADVICE-IN-USE` | Ordinary practical entry |
-| `OPS-AIMS-AND-PERFORMANCE` | Ordinary practical entry |
-
-
-## OPS.Reference:4 - Source use and currentness
-
-The framework connects Methods and Work with resources, transformation flows, queues, constraints and descriptions. Project, process, case, queueing, issue-tracking and operations-management viewpoints can concern the same Work. Changing conditions, improvement cycles and the scale at which a change is made affect which diagnostic and coordination results are useful. Each pattern develops the contribution needed for its operating question.
-
-The Kanban Guide 2025.5, TameFlow sources, Reinertsen, Throughput Accounting and TOC, DEMO, integrated relation-specific structures, CMMN, DCR, OCEL, object-centric process management, layered control and LCA, statistical process control and SRE, DORA, harness engineering, and loop engineering each contribute bounded questions or Methods. No source school organizes the framework. Each body names the contribution it uses, its current limit, and the observation that reopens that use.
-
-The comparisons in `OPS.1:11` through `OPS.7:11` start with capable incumbent arrangements: an explicit workflow, governed case/process integration, subject-correct histories, maintained incident coordination, policy-governed pull, outcome-aware case execution and consequence-aware service policies. OPS.3 retains its separate event/object question. The other bodies identify the decision their added receiving-result, permission, evidence or agreement distinction can change, its full maintenance cost and the sufficient-incumbent boundary. OPS.2 connects actual rule selection and composition to OPS.17; the constructed OPS.5–7 matter connects a permitted start, limited diagnostic result, changed access and effective promise agreement without imposing a lifecycle. Each comparison names its governed loci and smallest reopen condition. The further comparisons in OPS.8:11–OPS.11:11 concern receiver-ready supply and purpose-specific protection, rival-based constraint diagnosis, variability-appropriate capacity/service analysis, and actual cross-structure coordination. Primary queueing and coupled-scheduling sources qualify those uses; the published Whitt–You 2022 model supplies the same bounded network-analysis line as its 2020 preprint. These comparisons do not rank one source family across all eleven questions.
-
-Refresh the affected pattern when a source changes its practitioner action, identity, relation, view, account, or stop. Use the comparison conditions in that pattern's SoTA-Echoing section to decide whether a proposed source change improves the current guidance.
-
-The comparisons in OPS.12:11–OPS.18:11 extend this basis to changes in work demands, staffing and support, supported service promises, incremental cash and constrained-resource models, observation populations, bounded Method trials, conditional Method composition, quality-control questions and incident prevention. HSE and NIOSH contribute work-demand and intervention guidance; ACCA contributes relevant-cost and throughput-accounting reasoning; the SRE Workbook and NIST handbook contribute service-indicator, monitoring, capability and acceptance distinctions. OPS.18 also adapts Ries's chapter 11, LEI's Five Whys guidance and the 2016 SRE postmortem chapter for reconstructing contributing conditions and choosing supported prevention. Their assumptions and professional limits remain explicit in the bodies. Historical methods are identified as such; a source's date or maintained status alone does not establish the strongest answer for the operating question.
-
-OPS.16:11 compares its exact Method or candidate-account return with competent PDSA, preserving prediction, observation, adaptation and the separate implementation decision. OPS.19:11 compares the same cross-scale allocation with a capable bounded integrated arrangement. OPS.20:11 compares bounded cultural continuation with adaptive SRE practice, including receiving support, migration burden and voluntary uptake. Each may reuse a sufficient incumbent account; its added distinctions need a decision-changing contribution worth their total cost. They use several-structure, operating-financial, improvement and service-change sources only at their stated reading and applicability limits. None of these patterns claims a universal school, comparative effectiveness across domains, or transfer beyond the named conditions; each body states the observation that reopens its source use.
-
-OPS.11.1 draws on conceptual modeling to choose scope and detail while representing shared resources and order completion. OPS.15.1 uses relationships between events and their participants to construct intervals and aggregates. Their source discussions distinguish finite event histories from steady means, and modeled capacity from the work and resources actually available.
-
-Queueing and scheduling provide complementary constructions in OPS.10.1/.2. A mean comparison can distinguish fast but variable service from slower predictable service; it does not settle an individual deadline. A finite schedule can establish attainability under shared resources and calendars; protection against uncertain delay additionally needs a disturbance or probability account. The bodies compare these source contributions at the question they answer, retaining the cost and limits of a richer model.
-
-OPS.8.1 compares release signals while retaining known visits and possible returns. OPS.8.2 distinguishes capacity left over after protection from temporarily used reserve, then constructs its return to service. Factory Physics, TameFlow, workload-control studies, interruption research and computational preemption contribute different mechanisms and limits. Together, the two bodies connect the release decision to feasible recovery; they do not make final acceptance a universal release signal or idle time universally available for development.
-
-
-### OPS.Reference:4.1 - Operating aims and performance sources
-
-Bjarte Bogsnes, *Implementing Beyond Budgeting: Unlocking the Performance Potential*, second edition (Wiley, 2016), chapter 4, printed pp.142–159 and 182–190, supplies the developed historical practice account used in OPS.21–22. Jeremy Hope and Robin Fraser, *Beyond Budgeting* (Harvard Business School Press, 2003), chapters 4–5, pp.69–116, connects targets, current outlook, provision, coordinated action and assessment, including implementation failures when the wider management uses remain unchanged. The adopted connection does not prescribe either source's complete organizational model.
-
-[Bukh, Ringgaard and Sandalgaard, “Moving beyond Beyond Budgeting” (2025)](https://doi.org/10.1080/09638180.2024.2362681), pp.1221–1244, examines one Scandinavian bank that abandoned and later reinstated budgets. Its retrospective interviews and documents show changing uses of forecasts alongside retained or restored budget controls. This supports inspecting actual uses and permitting qualified combinations, not a universal verdict for or against budgeting. One author disclosed a board position. The case supplies no general causal estimate of performance gains. OPS.21–22 retain the functional distinctions and reopen the arrangement when practice contradicts its intended use.
-
-The [forecasting text's distinction between forecasting, goals and planning](https://otexts.com/fpp3/planning.html) supports keeping expectation, intended result and action separate. It does not choose the operation's aim or settle an assessment. The repertoire therefore combines those supplied distinctions with a developed construction of the aim and subsequent judgement, rather than asking a forecast to perform every management function.
-
-
-### OPS.Reference:4.2 - Shared source choices for the repertoire
-
-The shared architectural choice is to combine source contributions by the operating question they answer. The following comparisons explain that choice across several bodies; each cited body's SoTA-Echoing section retains the more specific mechanism, worked distinction and reopen condition.
-
-| Professional answer | Contribution adopted or adapted in OPS | Alternative, limit and reason to reconsider |
-| --- | --- | --- |
-| [The Kanban Guide 2025.5](https://kanbanguides.org/the-kanban-guide/2025.5/) defines a workflow, controls started work and relates a service expectation to elapsed time and probability. | OPS.5, OPS.8, OPS.13 and OPS.17 use explicit boundaries and policies for admission, waiting and forecasts. | Retain a bounded Kanban use where it answers the question. For a wider operating decision, also recover case facts, commitment authority and resource conditions. Reconsider the selected policy when item boundaries, demand or the service population change. |
-| TameFlow's complete-kit and constraint-protection mechanisms, Reinertsen's economic flow trade-offs, and the queueing comparisons in OPS.8:11–OPS.10:11 answer different waiting questions. | OPS adapts receiver-ready supply, rival-based diagnosis and analysis chosen for the required service claim. | Replenishment must arrive in time to preserve protection. A pooling change can alter processing behavior; a finite deadline or accumulated waits can favor treatment away from the sustained-throughput constraint. OPS.8–OPS.9 compare these choices and the effort of stronger diagnostics. Retain the cheaper adequate policy or bound, and reopen when behavior, regime or the receiving result changes. |
-| [CMMN 1.1](https://www.omg.org/spec/CMMN/1.1/PDF), the [DCR execution documentation](https://documentation.dcr.design/documentation/dcr-robots/) and [OCEL](https://www.ocel-standard.org/specification/overview/) contribute authorized case planning, outcome-aware execution and multi-object evidence. | OPS.2 and OPS.6 reuse a competent integrated contract and add only a missing subject-state, permission or rule-composition distinction; OPS.3 and OPS.15 retain their event/object contributions. | A fixed subprocedure or sufficient case contract remains in use. An execution outcome supports only the external subject claim justified by its evidence. OPS.3 uses current object-centric data-quality work to correct a faulty relation or time meaning locally, preserving unaffected claims. Reopen when changed facts, permission or a missing relation can alter continuation. |
-| The coupled-scheduling and several-network sources discussed in OPS.11:11 connect material and transaction requirements to shared resources. | OPS.11 and OPS.19 retain a coupling only when it can reverse the operating decision, then coordinate the affected choices. | A full network model may be useful for strongly coupled scheduling; one simple binding condition can suffice for a local decision. The cited industrial models and perspectives do not establish an obtaining relation or autonomous coordination in another operation. |
-| [HSE's work-demand guidance](https://www.hse.gov.uk/stress/standards/demands.htm) and [NIOSH's Total Worker Health hierarchy](https://www.cdc.gov/niosh/twh/php/hierarchy/index.html) address the demands and arrangements that produce human burden. | OPS.12 adapts changing the source of burden; OPS.13, OPS.17 and OPS.19 preserve supplied human conditions in the combined choice. | Individual support can help, but cannot resolve incompatible duties by itself. The sources supply no universal workload threshold. Reconsider the intervention when the affected people, demands, support or qualified protection change. |
-| [ACCA's relevant-cost reasoning](https://www.accaglobal.com/my/en/student/exam-support-resources/fundamentals-exams-study-resources/f5/technical-articles/relevant-costs.html) compares cash consequences that differ because of a choice. | OPS.14 connects incremental payments and receipts to accepted service, displaced uses and timing; OPS.13 and OPS.19 use the resulting financial premise. | A short-horizon throughput model can help with a fitting resource-mix question. Funding, long-lived investment or accounting recognition can require another qualified result. Reopen when avoidability, displacement, acceptance or the horizon changes. |
-| The [SRE Workbook's service-indicator treatment](https://sre.google/workbook/implementing-slos/) distinguishes user-relevant behavior from its measurement; the [NIST process-monitoring and control handbook](https://www.itl.nist.gov/div898/handbook/pmc/pmc.htm) separates statistical monitoring and acceptance questions. | OPS.13, OPS.15 and OPS.18 adapt the observation boundary and select the evidence branch needed for a service, process, lot or recovery decision. | A supplied acceptance rule or direct protection can suffice. A monitoring choice also pays for inspection, false/repeated signals and the actual response; grouped observations or drift can change its detection basis. OPS.13 and OPS.18 work those returns without treating software error budgets as safety permission. Reconsider when the population, response or required decision changes. |
-
-Anderson's *Kanban* (2010) combines operating mechanisms with an approach to evolutionary change; later Kanban principles explicitly distinguish service delivery and change management. OPS uses their contribution to admission, release, queues and flow while separately considering how a changed practice can become usable. Dietz and Mulder's *Enterprise Ontology* (2020), §§4.4.4–4.4.6, helps distinguish product-making from request, promise and acceptance relations. OPS.11.1 retains those relations in the operating model without treating every new assignment as a new authority structure. A source's single programme can therefore contribute to several domains; its title does not allocate all of its methods to one DPF.
-
-Tendon and Doiron's *Tame your Work Flow* (2020), chapters 6–8, connects a proposed production improvement to a package that customers can use and to its financial consequences. OPS.1 and OPS.13 retain the receiving result and commitment; OPS.14 compares the future payments and receipts that differ between feasible alternatives. Shared contributions belong in one combined comparison, with each receipt and payment counted once. The book's instructional cases do not establish that higher physical throughput necessarily increases financial throughput, or that one accounting model resolves participants' disagreements.
-
-Chapter 21 presents its starter patterns as prototypes and an illustrative route. Its organizational vertical slice connects performers and successive management responsibilities; it is a different relation from a method's constituent and encompassing methods. OPS.17 selects usable operating moves and their conditions, while OPS.20 addresses their continuation among practitioners. OPS.13 and OPS.18 connect signals to response timing and supported corrective action. The full starter sequence, CEO participation and financial throughput as a single objective apply only where that organizational arrangement and purpose fit; they are not prerequisites for an ordinary local operating decision.
-
-Tendon's *The Book of TameFlow* (2022), pp. 194-203 and 241-247, contributes the connection between a useful outcome, its work package and preparation involving the people who will perform it. OPS-PREPARE-AND-RESPOND combines that contribution with the current service, resource and financial methods. The package boundary follows the recipient's needed result; a financial throughput measure is useful only where its assumptions fit that decision. Pages 249-269 connect execution changes to future admissions and focused management attention. OPS.13 supplies response timing, and OPS.8.2 checks whether a proposed assisting resource can actually be released and restored. Source-specific prescriptions about immutable queue positions, a compulsory common deadline or a universal ban on concurrent work are replaced by comparison of the affected commitments and feasible arrangements.
-
-These correspondences are source-supported reasons for the Methods' organization, not evidence that the complete OPS repertoire outperforms every other arrangement. A stronger professional result can replace one analysis or coordination contribution while preserving the other Methods. Reopen the architecture itself when repeated use shows that the question boundaries systematically hide a needed operating result, or when an integrated alternative preserves the relevant subjects, commitments, protections and evidence at lower total burden. A changed source title or publication date alone does not establish that gain.
-
-Competent improvement and adoption practices are also reusable sources. [IHI's PDSA testing guidance](https://www.ihi.org/library/model-for-improvement/testing-changes) and [implementation guidance](https://www.ihi.org/library/model-for-improvement/implementing-changes) supply the improvement comparison in OPS.16. [Google SRE's incident management](https://sre.google/sre-book/managing-incidents/) and [organizational-change account](https://sre.google/workbook/organizational-change/) supply maintained coordination and adaptive receiving support for OPS.4 and OPS.20. These contributions may already suffice. OPS adds no separate account unless a missing distinction can change the receiving decision.
-
-
-### OPS.Reference:4.3 - Bibliographic returns for shared sources
+## OPS.Sources:1 - Bibliographic returns for shared sources
 
 The source comparisons above and in the bodies use the following works. The dates identify the editions consulted; the contribution and applicability of each work are explained beside its use.
 
@@ -6600,83 +6739,9 @@ The source comparisons above and in the bodies use the following works. The date
 - **Layered control:** Mung Chiang, Steven H. Low, A. Robert Calderbank and John C. Doyle, [“Layering as Optimization Decomposition”](https://doi.org/10.1109/JPROC.2006.887322) (2007); Gautam Goel, Niangjun Chen and Adam Wierman, [“Thinking Fast and Slow: Optimization Decomposition Across Timescales”](https://arxiv.org/abs/1704.07785) (2017); Nikolai Matni, Aaron D. Ames and John C. Doyle, [“Towards a Theory of Control Architecture”](https://arxiv.org/abs/2401.15185v1) (2024). These papers supply models of decomposition and operating rates. Figure's [Helix report](https://www.figure.ai/news/helix) (2025) describes its own humanoid-control system.
 - **AI-assisted operation:** DORA, [*State of AI-assisted Software Development*](https://dora.dev/research/2025/dora-report/) (2025.2; see the [errata](https://dora.dev/research/2025/errata/)); Hailin Zhong and Shengxin Zhu, [*AI Harness Engineering: A Runtime Substrate for Foundation-Model Software Agents*](https://arxiv.org/abs/2605.13357v1) (2026, v1); Ivan Belcic and Cole Stryker, [“What Is Loop Engineering?”](https://www.ibm.com/think/topics/loop-engineering) (17 July 2026). OPS compares the report, research proposal and provider explanation for their distinct contributions to context, tools, feedback and stopping in software work.
 
+The [shared architectural choices](#opsreference19---source-use-and-shared-architectural-choices) explain how these source contributions shape the OPS language and which changes affect their use.
 
-## OPS.Reference:5 - FPF dependency and compatibility
-
-The OPS methods are described in their pattern bodies. The Table of Contents, SoTA-Echoing and Relations identify their external FPF contributions and receiving uses. For an OPS use that requires an FPF contribution, open the [current FPF edition](https://github.com/ailev/FPF/blob/main/FPF-Spec.md), identify the needed pattern edition, and check that its content and use conditions provide the stated contribution. Retain a permanent link or copy of the edition actually used. If the contribution is unavailable or no longer fits, keep the dependent use open and reconsider the affected OPS pattern and dependent conclusions. Unaffected results remain reusable.
-
-**Direct uses.** FPF supplies System recognition, direct relation and selected-structure governors, Work and WorkPlan distinctions, Methods and descriptions, claim-bearing accounts, evidence and provenance, time and currentness, mathematical-lens use, control relations and views, Work-performance recovery, comparison, choice, simultaneous Work, and culture mechanics. Operations Management retains operating subjects, commitments, domain quantities and Methods, evidence, authority, interventions, service and production consequences, and receiving decisions.
-
-**Compatibility.** A compatible FPF change leaves unaffected OPS results reusable. A changed relied-on kind, relation, Solution, predicate, or result form reopens the consuming OPS pattern and its dependency claim. Qualify that affected use before relying on the changed contribution.
-
-**Authority direction.** FPF does not depend on this DPF for its transdisciplinary results. A transdisciplinary discovery returns to FPF through its own decision and review. An Operations-specific remainder found in FPF returns to this DPF and is removed from the general host rather than duplicated.
-
-
-## OPS.Reference:6 - Sibling-domain returns and availability
-
-The patterns have no mandatory sibling-DPF result for every displayed use. The FPF contributions and direct Operations sources needed for each displayed use are named in its pattern body. Clinical, safety, legal, privacy, security, finance, product-release, capability, and other domain results remain direct returns rather than sibling frameworks silently imported into the edition.
-
-OPS.16 uses the published Method Engineering trial, coherence, fit, worth, lineage and bounded-introduction guidance. OPS.11.1 models the affected transformation network and its proposed change; OPS.10–OPS.13 and OPS.19 can establish the resource and service conditions its trial needs. OCE supplies changed organizational relations and their realization when those are needed, with OCE.11 coordinating change and continuing service. Existing assignments and authorized operating allocations remain inputs to the Operations resource account. OPS.17 uses the published Method Engineering repertoire guidance. OPS.20 uses the current FPF and Method Engineering cultural-continuation contributions while retaining the Operations population, predicate, supported continuation, evidence and needed authority; intervention is conditional on the selected work. OPS.12 can use Organization Change Engineering's consequence comparison when the intervention changes the organization. The supplying methods are available at their own scope. A case-specific capability, staffing, coexistence, cultural, or consequence result must still be established for the receiving Operations decision.
-
-Strategy retains direction and strategic commitments; Corporate Finance financial decisions; Corporate Governance and law authority; Organization Administration enabling conditions; Maintenance restored asset functioning; Systems Engineering product/service engineering and assurance; Human Capability Development one human's capability development; and other specialists their own subjects, Methods, evidence, and authority. Use an available current return, a qualified direct source, or an explicit missing-result blocker.
-
-The following direct returns help when the operating question exposes work owned by a neighboring framework. They are conditional discovery routes, not additional prerequisites for every OPS use. The supplied guidance remains external to this edition; a case-specific result must still satisfy the receiving OPS conditions.
-
-| Missing result in the operating situation | External guidance and practical return |
-| --- | --- |
-| An organization change competes with continuing service for coverage and support. | [OCE.11](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce11---coordinate-organization-change-work-with-continuing-service) establishes and operates a bounded coexistence arrangement. OPS.16 uses the actual arrangement and observations for its trial conditions; a possible-future plan remains prospective. [OCE.13](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce13---observe-and-compare-organization-change-consequences) supplies consequence comparison when the changed subject is the organization arrangement. |
-| The required contribution of one human is unclear, or a training proposal is being used as a capacity answer. | [HCD.1](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd1--derive-human-capability-demand-from-representative-later-work) derives demand from that person's representative later Work and returns diagnosis, profile or non-training questions as appropriate. A demand account supplies neither present capability nor usable staffed capacity; OPS retains the current service and allocation decision. |
-| A changed prompt, tool, procedure or support arrangement may change the reusable Method. | [A.3.1.MV](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31mv---construct-and-maintain-a-method-variant) distinguishes reusable semantic change from description, support and local-Work changes and preserves candidate status. OPS.16–OPS.17 retain the operating effect, feasible use and repertoire decision. |
-| The operation needs a separately prepared inquiry, comparison or recommendation, and the support engagement is unclear. | [PSDA.11](https://github.com/ailev/FPF/blob/main/DPFs/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md#psda11---bound-the-decision-support-engagement-and-authority-boundary) bounds the support return, recipient and later choice owner. A formed operating choice with adequate inputs can stay with its direct OPS Method and applicable choice rule. |
-| A wish to develop the operation precedes any clear worthwhile contribution or adequate alternatives. | [C.40.OI](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c40oi---bound-an-opportunity-inquiry) bounds the subject, receiving use, horizon and affordable opportunity inquiry. If the operating difficulty and adequate alternatives already exist, use the direct operating or decision-support result. The opportunity inquiry grants no service commitment or implementation authority. |
-
-Use the linked contribution only while its current content still supplies the stated result and boundaries. Keep the edition or copy actually used with a consequential receiving result. If a supplier's content, availability or case conditions change, requalify the affected return; unrelated OPS uses remain available.
-
-
-## OPS.Reference:7 - Available packages
-
-| Package | PatternIDs | Availability in this edition |
-| --- | --- | --- |
-| `OPS-A — Identify operating subjects and coordination form` | `OPS.1`–`OPS.4` | Available authoritative bodies in this edition. |
-| `OPS-B — Admit and progress continuing Work` | `OPS.5`–`OPS.7` | Available authoritative bodies in this edition. |
-| `OPS-C1 — Queue, buffer, and current-constraint decisions` | `OPS.8`, `OPS.8.1`–`OPS.8.2`, `OPS.9` | Available authoritative bodies in this edition. |
-| `OPS-C2 — Capacity, variability, and interacting-structure decisions` | `OPS.10`, `OPS.10.1`–`OPS.10.2`, `OPS.11`, `OPS.11.1` | Available authoritative bodies in this edition. |
-| `OPS-C4 — Human condition, commitment, consequence, account, and operating control` | `OPS.12`–`OPS.15`, `OPS.15.1`, `OPS.18` | Available authoritative bodies in this edition. |
-| `OPS-E1 — Local operating-Method improvement` | `OPS.16` | Available authoritative body in this edition. |
-| `OPS-E2 — Operations Method repertoire` | `OPS.17` | Available authoritative body in this edition. |
-| `OPS-E3 — Simultaneous operating Work` | `OPS.19` | Available authoritative body in this edition. |
-| `OPS-E4 — Operations cultural continuation` | `OPS.20` | Available authoritative body in this edition. |
-| `OPS-F — Operating aims and performance interpretation` | `OPS.21`–`OPS.22` | Bodies with their stated use conditions in this edition. |
-
-These package labels keep the questions and returned results distinct. They do not prescribe an operating lifecycle, maturity ladder, or reader sequence; start from the current question and use the smallest body or exact cooperating set that can change the decision.
-
-
-## OPS.Reference:8 - Representative case coverage
-
-| Case | What it tests | Boundary retained |
-| --- | --- | --- |
-| PumpWorks continuing controller service | mixed releases and incidents, readiness, rig windows, constraint rivals, recovery reserve, provider/evidence/release couplings, protected human conditions, test-service promises, incremental cash, decision-specific accounts, quality responses, cross-scale reconfiguration, bounded Method trial, and population-level receiving enactment. | Constructed decisions, trials, and observations; no general effectiveness, causal superiority, transfer, performed field release, safety, stability, service fulfilment, or cultural retention is established. |
-| Public-hospital emergency flow | patient/case/queue/resource boundaries, qualified readiness and capacity, case continuation, support burden, service promises, financial alternatives, due-cohort evidence, operating recovery, a pre-admission Method candidate, cross-scale coordination, and bounded receiving-use observation. | Operations supplies no clinical triage, treatment, medical-safety, consent, privacy, legal, labor, patient-outcome, Method-identity, or Method-culture result. |
-| AI-assisted software operation | user issue, candidate and episode distinctions; eligible queues, provider/test/acceptance capacity, retries, human review burden, Method trial and refresh, accepted-output promises, financial consequences, service reliability, cross-scale release coordination, and bounded on-call selection. | System/Agent recognition, security, software assurance, provider/model capability, causal effect, integration, release, human authority, high-risk transfer, and cultural continuation outside the named population retain their owners. |
-
-
-## OPS.Reference:9 - Edition return
-
-This publication contains the Readme, Table of Contents, Preface, ten Parts, nine connected practical entries, three extended applications, framework boundary and the pattern bodies listed in the contents.
-
-Use any of the twenty-eight patterns whose working question and conditions match your situation. Combine them when one needs another's result. Each body states the professional contributions, evidence and authority its use requires.
-
-Use the package table and each body's conditions to locate the Operations result that can change the current decision.
-
-
-## OPS.Reference:10 - Publication boundary
-
-Pattern bodies are the authoritative working references. The Readme, Preface, Table of Contents, practical entries, and applications help readers enter and combine them; they do not replace conditions, evidence boundaries, stops, or specialist returns.
-
-This is a domain framework Reference carrier. It is neither an educational Guide nor the Engineering DPF Suite Reference. A Guide is organized for learning and memory formation; this Reference is organized for lookup and direct pattern use.
-
-
-## OPS.Reference:11 - Citation
+## OPS.Sources:2 - Citation
 
 ```text
 Anatoly Levenchuk, with AI-assisted development and review.
@@ -6685,4 +6750,6 @@ Operations Management Principles Framework.
 GitHub repository: https://github.com/ailev/FPF
 ```
 
-## OPS.Reference:End
+The [Architectural Reference](#operations-management-principles-framework-architectural-reference) explains the connected language and the consequences of these sources for its use.
+
+## OPS.Sources:End

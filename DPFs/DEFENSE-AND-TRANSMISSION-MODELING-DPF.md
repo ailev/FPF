@@ -1,5 +1,7 @@
 # Defense and Transmission Modeling DPF
 
+**DocID:** `DTM` within **FPF Library**.
+
 A pattern language for explaining how practices continue and spread, how they help or impair work, and how protective action changes those outcomes.
 
 - **Version:** 23 September 2026
@@ -16,7 +18,14 @@ Original framework text: © 2026 Anatoly Levenchuk, [CC BY 4.0](https://creative
 | Unit | What it helps you do |
 | --- | --- |
 | [Defense and Transmission Modeling DPF Readme](#defense-and-transmission-modeling-dpf-readme) | Choose a direct entry or retain a longer cross-pattern inquiry. |
-| [Preface](#preface) | Understand the language, its connected use, assumptions and external contributions. |
+| [Defense and Transmission Modeling DPF Architectural Reference](#defense-and-transmission-modeling-dpf-architectural-reference) | Understand the language, its connected use, assumptions and external contributions. |
+| [DTM.Reference:1](#dtmreference1---the-working-problem-and-field) | The working problem and field |
+| [DTM.Reference:2](#dtmreference2---how-the-language-holds-the-problem-together) | How the language holds the problem together |
+| [DTM.Reference:3](#dtmreference3---a-connected-worked-inquiry) | A connected worked inquiry |
+| [DTM.Reference:4](#dtmreference4---protection-and-the-simultaneous-method-vertical) | Protection and the simultaneous method vertical |
+| [DTM.Reference:5](#dtmreference5---what-counts-as-a-useful-result) | What counts as a useful result |
+| [DTM.Reference:6](#dtmreference6---rationale-synthesis-and-alternatives) | Rationale, synthesis and alternatives |
+| [DTM.Reference:7](#dtmreference7---external-methods-and-publication-use) | External methods and publication use |
 
 ## Part I — Dependence, transmission and continuation
 
@@ -89,9 +98,9 @@ These examples retain longer inquiries across several methods. The repeated word
 - **Start with:** DTM.8 with FPF C.36.RP; DTM.2/.3 connect acquisition and transmission, and DTM.4/.6 test continuation under the changed arrangement.
 - **Stop or return:** A description of the replacement does not establish capability. Obtain the subject method and test it in the whole work before claiming recovery.
 
-# Preface
+# Defense and Transmission Modeling DPF Architectural Reference
 
-## DTM.Preface:1 - The working problem and field
+## DTM.Reference:1 - The working problem and field
 
 A practice can spread without producing its advertised result. A useful tool can create dependence without harming its users. A protective response can preserve one function while disabling another. These situations become difficult when local performance, further transmission and the consequences for different participants are treated as the same thing.
 
@@ -103,7 +112,7 @@ The language foregrounds the connection between local effects and continued use 
 
 The practical gain is a better located modeling or intervention question: what continues, through which relation, with what consequences, and what a feasible change would leave unresolved. Modeling effort, observation cost and uncertain causal relations limit that gain. If a subject method already supplies the needed answer, use it directly.
 
-## DTM.Preface:2 - How the language holds the problem together
+## DTM.Reference:2 - How the language holds the problem together
 
 The first part establishes what is being compared and continued. DTM.1 separates dependence from consequences. DTM.2 constructs the transmission event and any reconstruction of the variant. DTM.3 relates change within a participant to further spread and to conditions changed by that spread. DTM.4 distinguishes establishment, maintained use and return after intervention.
 
@@ -115,7 +124,7 @@ A useful connection carries a result, not just a PatternID. An uptake account su
 
 Three structures can be present together without being identical: simultaneous constituent work, a network of contacts, and units of selection or reproduction. A team may execute one method vertical while its members exchange several procedures across different networks. The method vertical is not a population hierarchy, and a group in a statistical partition is not automatically a reproducing collective.
 
-## DTM.Preface:3 - A connected worked inquiry
+## DTM.Reference:3 - A connected worked inquiry
 
 Consider a group of engineering teams deciding whether to adopt a new method with a different exchange format. Existing conversion permits exchange with old-method partners, but at a cost. Some participants call the resulting delay resistance to innovation; others describe the new format as a threat.
 
@@ -131,7 +140,7 @@ If an admission check rejects the new format to preserve a required exchange res
 
 The question does not require decomposing a change across source groups, and no diversion of support has been identified. DTM.5/.7 therefore add no required step. The first useful result is the conditional compatibility account and a concrete engineering and uptake question. It is not a forecast that the adapter will be adopted.
 
-## DTM.Preface:4 - Protection and the simultaneous method vertical
+## DTM.Reference:4 - Protection and the simultaneous method vertical
 
 A team checks an unfamiliar procedure while continuing to produce work for its customers. At the same moment it is performing several related kinds of work:
 
@@ -150,7 +159,7 @@ FPF B.1.5.EW and C.32.MWA recover the constituent relation and simultaneous supp
 
 The reference of protection remains explicit throughout: who is protected from whose action, which result is preserved, and who bears the response's cost. Incoming and outgoing harm are useful questions in safety/security discussions, not an exhaustive definition of those terms. An aggregate collective advantage does not automatically settle a constituent's interests.
 
-## DTM.Preface:5 - What counts as a useful result
+## DTM.Reference:5 - What counts as a useful result
 
 A first result can be a bounded relation with a discriminating next observation. More detailed modeling is useful when it changes a feasible choice.
 
@@ -169,7 +178,7 @@ Common failures have different repairs. Popularity mistaken for usefulness retur
 
 The numerical examples demonstrate deductions under stipulated assumptions. They do not establish empirical rates, effective organizational policies or comparative learning gains. A real intervention requires evidence for the subject relations, appropriate authority and the relevant practice's assurance.
 
-## DTM.Preface:6 - Rationale, synthesis and alternatives
+## DTM.Reference:6 - Rationale, synthesis and alternatives
 
 The language connects several questions that are often answered in isolation: whether a dependence helps, how a variant is acquired and reconstructed, how local activity affects transmission, why contributions differ across groups, and what protective action changes.
 
@@ -192,7 +201,7 @@ The synthesis does not presume independence is always preferable, novelty is har
 
 Reopen a method when a relied-on source changes a consequential claim, a supported mechanism no longer fits the practice, an omitted interaction reverses the choice, or an existing subject method resolves the whole question with less burden. A new publication date alone is not a reason to replace a working account.
 
-## DTM.Preface:7 - External methods and publication use
+## DTM.Reference:7 - External methods and publication use
 
 These contributions remain external to DTM. The links return to the supplying public frameworks; search the stated PatternIDs within them. Use the currently available body that still supplies the described result, and revisit the combination if that relied-on content changes.
 
@@ -200,11 +209,11 @@ These contributions remain external to DTM. The links return to the supplying pu
 | --- | --- | --- |
 | [FPF Core](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) — A.6.P.RI, C.36, C.36.RP, D.3/D.4 | Reference restoration, cultural continuation and recovery, conflicts of interests and levels | Establish the participant, consequence and cultural relation before characterizing harm or recovery. |
 | FPF Core — C.30.LCA, C.32.MWA, B.1.5.EW | Layered control and simultaneous Method participation | Needed when the explanation or action depends on those relations; a contact network alone does not establish them. |
-| [Mathematical Modeling](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md) — MMP.7/.11/.16/.18/.19 | Observation model, state and law construction, distinguishing explanations, coupling and reduction, counterfactual comparison | Supplies the modeling operations. A subject-supported mechanism and the conditions of causal comparison must still be available. |
-| [Mathematical Thinking](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-PRACTICE-DPF.md) and [Computational Thinking](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/COMPUTATIONAL-THINKING-DPF.md) | Construction, analysis and computational execution of the chosen model | Use the methods needed by the actual representation; a qualitative first result need not require a simulation. |
-| [Economic Reasoning and Coordination](https://github.com/ailev/FPF/blob/main/DPFs/ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md) — ECO.8 | Coordination, authority and cost-bearing distinctions | Relevant to the compatibility and institutional cases; utility comparison does not establish permission to change an arrangement. |
-| [Operations Management](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) — OPS.10/.19 | Usable capacity under the required service conditions; reconciliation with other operating work | DTM.8's review and saturation examples need these results when limited resources change the protective effect or displace other commitments. |
-| [Human Capability Development](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) — HCD.6/.9 | Representative human practice, an attempted action, feedback and retry | Use when acquisition requires more than exposure. The subject movement or work method supplies the technique; HCD.11/.13 address performance and retention or tool dependence when stronger capability claims are needed. |
+| [Mathematical Modeling (MMP)](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md) — MMP.7/.11/.16/.18/.19 | Observation model, state and law construction, distinguishing explanations, coupling and reduction, counterfactual comparison | Supplies the modeling operations. A subject-supported mechanism and the conditions of causal comparison must still be available. |
+| [Mathematical Thinking (MATH)](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-PRACTICE-DPF.md) and [Computational Thinking (CMP)](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/COMPUTATIONAL-THINKING-DPF.md) | Construction, analysis and computational execution of the chosen model | Use the methods needed by the actual representation; a qualitative first result need not require a simulation. |
+| [Economic Reasoning and Coordination (ECO)](https://github.com/ailev/FPF/blob/main/DPFs/ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md) — ECO.8 | Coordination, authority and cost-bearing distinctions | Relevant to the compatibility and institutional cases; utility comparison does not establish permission to change an arrangement. |
+| [Operations Management (OPS)](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) — OPS.10/.19 | Usable capacity under the required service conditions; reconciliation with other operating work | DTM.8's review and saturation examples need these results when limited resources change the protective effect or displace other commitments. |
+| [Human Capability Development (HCD)](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) — HCD.6/.9 | Representative human practice, an attempted action, feedback and retry | Use when acquisition requires more than exposure. The subject movement or work method supplies the technique; HCD.11/.13 address performance and retention or tool dependence when stronger capability claims are needed. |
 
 The subject practice must additionally supply the actual work method, observation, technical feasibility and limits. A model can identify a missing contribution; it cannot create a skill, sensor, adapter or permission by naming one.
 
@@ -212,7 +221,7 @@ DTM belongs in the Engineering DPF Suite because its first use supports inquiry 
 
 This file contains the framework's practical entry, whole-language account and nine pattern bodies. Cite a body by its DTM PatternID, retaining the edition when a changed body could affect the use.
 
-## DTM.Preface:End
+## DTM.Reference:End
 
 # Part I — Dependence, transmission and continuation
 

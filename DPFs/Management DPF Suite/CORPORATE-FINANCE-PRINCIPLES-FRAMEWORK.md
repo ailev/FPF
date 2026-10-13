@@ -1,6 +1,8 @@
 # Corporate Finance Principles Framework
 
-**Edition:** [FIN 1.0](#finreference1---edition-record)\
+**DocID:** `FIN` within **FPF Library**.
+
+**Edition:** [FIN 1.0](#finsources1---edition-record)\
 **Author:** Anatoly Levenchuk, with AI-assisted development and review
 
 Methods for valuing investments, arranging finance, preserving liquidity, managing financial exposure and making corporate-finance decisions.
@@ -12,8 +14,22 @@ Methods for valuing investments, arranging finance, preserving liquidity, managi
 | § | Publication unit | Use |
 | --- | --- | --- |
 | — | [Corporate Finance Readme](#corporate-finance-readme) | Follow connected financial decisions and a direct value calculation. |
-| — | [Preface](#preface) | Understand the language and how its methods connect. |
-| — | [FIN.Reference - References](#references) | Find supplying editions, source guidance and citation information. |
+| — | [Corporate Finance Principles Framework Architectural Reference](#corporate-finance-principles-framework-architectural-reference) | Understand the language and how its methods connect. |
+| FIN.Reference:1 | [Problem frame](#finreference1---problem-frame) |  |
+| FIN.Reference:2 | [Problem](#finreference2---problem) |  |
+| FIN.Reference:3 | [Forces](#finreference3---forces) |  |
+| FIN.Reference:4 | [Solution](#finreference4---solution) |  |
+| FIN.Reference:5 | [Archetypal Grounding](#finreference5---archetypal-grounding) |  |
+| FIN.Reference:6 | [Bias-Annotation](#finreference6---bias-annotation) |  |
+| FIN.Reference:7 | [Conformance Checklist](#finreference7---conformance-checklist) |  |
+| FIN.Reference:8 | [Common Anti-Patterns and How to Avoid Them](#finreference8---common-anti-patterns-and-how-to-avoid-them) |  |
+| FIN.Reference:9 | [Consequences](#finreference9---consequences) |  |
+| FIN.Reference:10 | [Architectural Rationale](#finreference10---architectural-rationale) |  |
+| FIN.Reference:11 | [SoTA-Echoing](#finreference11---sota-echoing) |  |
+| FIN.Reference:12 | [Relations](#finreference12---relations) |  |
+| FIN.Sources:1 | [Edition record](#finsources1---edition-record) |  |
+| FIN.Sources:2 | [Source guidance](#finsources2---source-guidance) |  |
+| — | [FIN.Reference - References](#corporate-finance-principles-framework-sources-and-edition-notes) | Find supplying editions, source guidance and citation information. |
 
 **Part A - Cash and decision accounts**
 
@@ -132,25 +148,25 @@ Before entering a new hedge, FIN.14's [comparison of fixed and optional protecti
 - **Start with:** FIN.6. Use FIN.5 if the required return is unresolved and FIN.2 if the next question is payment capacity.
 - **Stop or return:** Return when cash, timing, risk basis or a competing capital use changes the answer.
 
-# Preface
+# Corporate Finance Principles Framework Architectural Reference
 
-## FIN.Preface:1 - Problem frame
+## FIN.Reference:1 - Problem frame
 
 Use this language when a corporate-finance analyst, treasurer, CFO or manager must answer a financial question about the corporation's investments, funding, liquidity, exposures, distributions or recovery. It assumes ordinary familiarity with financial statements, amounts, percentages and dates. Additional mathematical, market or institutional knowledge is stated with the methods that need it. It supplies procedures and worked cases for making financial consequences usable in decisions.
 
 The governed field is corporate finance. Investor portfolio selection, prudential banking, a complete legal or accounting manual and the broader economics of exchange are outside this edition. A formal valuation, tax conclusion, regulated action or legal process uses the actual applicable professional requirements when that claim is needed.
 
-## FIN.Preface:2 - Problem
+## FIN.Reference:2 - Problem
 
 A corporation can be profitable and unable to pay, buy a valuable business at a destructive price, hedge a currency while retaining collection risk, or improve one financial model while creating incompatible commitments elsewhere. The difficulty is often the connection between valid local calculations and the actual choice they are meant to support.
 
 The language addresses those connections without reducing finance to generic advice about “making better decisions”. Practitioners use the analytical methods to calculate dated cash positions and values, compare financing terms, assess exposures, design protection and prepare recommendations. Treasury methods guide permitted financial actions and verification of their effects.
 
-## FIN.Preface:3 - Forces
+## FIN.Reference:3 - Forces
 
 Financial work balances value, payment continuity, risk, flexibility, control, evidence and limited attention. It must use actual institutional conditions while remaining small enough for a routine decision. A more complete model can be useful, but only when its distinctions can change action or warranted reliance. Uncertainty can justify a range or conditional recommendation without making every question a new research project.
 
-## FIN.Preface:4 - Solution
+## FIN.Reference:4 - Solution
 
 Enter through the missing useful result. Cash and account methods are FIN.1–4; value and allocation are FIN.5–9; financing is FIN.10–12; retention and recovery are FIN.21–22; exposure and execution are FIN.13–15; advice and continuing practice are FIN.16–20. The Parts group these contributions for reading. A pattern can be used in several combinations.
 
@@ -160,45 +176,45 @@ The acquisition and divestment profile is a bounded use of FIN.9. FIN.7 supplies
 
 An adequate supplied result can be used directly. A finance analyst need not reconstruct operating capacity, create a new semantic model or visit every related pattern before calculating. FIN.16 connects completed results to a receiving decision when a direct result is not already enough.
 
-Also ask what larger work a present operation performs when that connection is unclear. In FIN.2's example, solving for a loan's gross draw performs part of sizing the financing, and that sizing performs part of constructing the dated payment plan. The payer, fee, reserve and availability conditions connect these operations. [B.1.5.EW][EW] helps recover such a connection and identify a constituent operation to learn, obtain or correct. The bank's later transfer and another person's use of the completed forecast have their own relations to this analytical work. Use an already understood connection directly.
+Also ask what larger work a present operation performs when that connection is unclear. In FIN.2's example, solving for a loan's gross draw performs part of sizing the financing, and that sizing performs part of constructing the dated payment plan. The payer, fee, reserve and availability conditions connect these operations. [FPF B.1.5.EW][EW] helps recover such a connection and identify a constituent operation to learn, obtain or correct. The bank's later transfer and another person's use of the completed forecast have their own relations to this analytical work. Use an already understood connection directly.
 
-## FIN.Preface:5 - Archetypal Grounding
+## FIN.Reference:5 - Archetypal Grounding
 
 FIN-E1 supplies the whole first-use case. The operating plan and incremental account are already adequate. FIN.2 exposes the gap hidden by the positive contribution; FIN.3 compares an agreed advance with the available loan; the treasurer uses FIN.15 to perform the selected permitted action. When collection moves to day 40, repayment on day 28 becomes unfunded. FIN.17 helps the analyst reconsider the financing recommendation while retaining unaffected operating grounds.
 
 The language also reaches a different result when the financial question changes. FIN.6 calculates positive project NPV without claiming funding. FIN.9's acquisition has equity value 80, additional benefits 30 and costs 15: a price of 100 gives buyer value −5, while 90 gives +5. FIN.22 compares the same expected recovery at different dates. These constructed cases establish how to apply the methods, not evidence of organizational adoption or measured financial improvement.
 
-## FIN.Preface:6 - Bias-Annotation
+## FIN.Reference:6 - Bias-Annotation
 
 The corporation is the usual receiving perspective, but its owners, creditors, employees, customers and providers can bear different consequences. Name those interests and applicable constraints when they change the question. Public-company market evidence may not transfer to a private firm; consolidated accounts may not establish local access to cash; one jurisdiction's financing rule may not apply elsewhere.
 
 All numerical cases are constructed and use the expressly stated terms. They are not quotations of current market offers. Use actual current facts for the corporation's real decision.
 
-## FIN.Preface:7 - Conformance Checklist
+## FIN.Reference:7 - Conformance Checklist
 
-Can the practitioner identify the receiving action, corporation and claim perspective? Does each method supply its promised financial result on stated grounds? Do combined results preserve the joint conditions in FIN.Preface:4, including payment timing and shared resources? Are institutional facts sufficient for the claimed action, and are unresolved ones specific? Can another practitioner replay the decisive case and identify a condition that changes it? Are recommendation, decision and execution distinguished where the result crosses those boundaries?
+Can the practitioner identify the receiving action, corporation and claim perspective? Does each method supply its promised financial result on stated grounds? Do combined results preserve the joint conditions in FIN.Reference:4, including payment timing and shared resources? Are institutional facts sufficient for the claimed action, and are unresolved ones specific? Can another practitioner replay the decisive case and identify a condition that changes it? Are recommendation, decision and execution distinguished where the result crosses those boundaries?
 
 Use each pattern's checklist to examine its narrower claim. A completed direct use does not require evidence for every other pattern.
 
-## FIN.Preface:8 - Common Anti-Patterns and How to Avoid Them
+## FIN.Reference:8 - Common Anti-Patterns and How to Avoid Them
 
 Treating profit as cash hides the first-use gap; use FIN.2. Treating enterprise value as an equity purchase price hides claims and consideration; use FIN.7 and FIN.9. Treating a hedge as a customer guarantee hides the partial-receipt branch; use FIN.14. Treating a new template as improved practice hides actual use; use FIN.20.
 
 Another failure is to turn these corrections into a compulsory chain. Start with an adequate existing question and account, and obtain only the missing contribution.
 
-## FIN.Preface:9 - Consequences
+## FIN.Reference:9 - Consequences
 
 The financial result becomes usable at the place where it can change a decision: the dated shortage, value threshold, price, financing condition, residual exposure or actual settlement. The language also permits a supported continuation or a bounded unresolved condition.
 
 The cost is explicit attention to assumptions, dates and effects that a familiar summary can omit. Preserve that detail when it matters; a routine direct result should remain routine.
 
-## FIN.Preface:10 - Architectural Rationale
+## FIN.Reference:10 - Architectural Rationale
 
 The language retains domain procedures because a general choice method cannot calculate cash conversion, discount a project or reconcile an instrument's proceeds by itself. It reuses Management Accounting, Financial Domain Modeling and Operations Management for their independently useful results instead of making them three sections of a larger finance prerequisite.
 
 Separate patterns distinguish value, allocation, funding and execution because the same case can obtain one result and fail another. In acquisition and divestment comparisons, FIN.9 combines supplied valuations with the price, transaction effects and financing conditions. Distributions and distress retain their own questions about claims and feasible capital routes.
 
-## FIN.Preface:11 - SoTA-Echoing
+## FIN.Reference:11 - SoTA-Echoing
 
 The current professional line used here combines corporate investment and valuation, treasury practice, explicit financial positions and decision-specific accounts. The [CFA 2026 readings][CFA-CAPITAL] contribute finance methods and their comparison limits; [AFP's treasury specification][AFP] contributes the breadth of cash, provider, funding and control responsibilities. A syllabus or task list establishes a professional concern, not proof that one implementation is effective.
 
@@ -206,21 +222,23 @@ The current professional line used here combines corporate investment and valuat
 
 The language adopts these financial contributions and connects them through actual dates, claims, feasible choices and receiving use. It rejects both a finance-only sequence that silently rebuilds all accounting and a generic decision vocabulary that leaves the financial calculation unspecified. Changed professional knowledge, institutional conditions or a case exposing a consequential omission reopens the affected method.
 
-## FIN.Preface:12 - Relations
+## FIN.Reference:12 - Relations
 
 | Supplying language or method | Contribution used here | When to obtain it |
 | --- | --- | --- |
 | [Management Accounting, MA 1.0][MA] | Resource and cost accounts, capacity and assignment meanings, reporting–cash reconciliation, purpose-qualified forecasts and account use. | A required accounting result is missing or its meaning is disputed; primarily FIN.3–4, with reuse elsewhere. |
 | [Financial Domain Modeling, FDM 1.0][FDM] | Parties, financial positions, conditional instruments, descriptions and actual event effects. | A financial object's meaning or effect is unresolved; particularly FIN.1–2, FIN.8, FIN.10 and FIN.13–16. |
-| [Operations Management][OPS] | Feasible operating plans, capacity and service consequences; coordination under existing authority. | A financial alternative's operating feasibility or allocation of work and resources is unresolved. |
-| [Organization Change Engineering][OCE] | Changes to organizational responsibilities and decision rights. | FIN.19 exposes a needed change to that arrangement. |
+| [Operations Management (OPS)][OPS] | Feasible operating plans, capacity and service consequences; coordination under existing authority. | A financial alternative's operating feasibility or allocation of work and resources is unresolved. |
+| [Organization Change Engineering (OCE)][OCE] | Changes to organizational responsibilities and decision rights. | FIN.19 exposes a needed change to that arrangement. |
 | [FPF B.1.5.EW][EW] | Recovery of how constituent actions perform encompassing work. | A calculation or another local operation is known, but its place or needed conditions in the financial work remain unclear; FIN.2 gives an example. |
-| [FPF C.11][CHOICE] and [C.11.DUA][DUA] | Choice among available alternatives; appraisal of advice and evidence demands by receiving use. | The local choice or the value of advice or demanded inquiry needs that general method. |
-| [FPF C.32.MWA][MWA] and [C.36][CULT] | Several interacting structures of practice; cultural continuation and deliberate change. | FIN.19 or FIN.20 needs the corresponding reusable method. |
+| [FPF C.11][CHOICE] and [FPF C.11.DUA][DUA] | Choice among available alternatives; appraisal of advice and evidence demands by receiving use. | The local choice or the value of advice or demanded inquiry needs that general method. |
+| [FPF C.32.MWA][MWA] and [FPF C.36][CULT] | Several interacting structures of practice; cultural continuation and deliberate change. | FIN.19 or FIN.20 needs the corresponding reusable method. |
 
 These are contribution relations, not a mandatory reading order. Reopen a dependency when its supplying result or the receiving use changes materially; unchanged adequate results remain usable.
 
-## FIN.Preface:End
+For source qualifications, citation and edition information, see the [Sources and Edition Notes](#corporate-finance-principles-framework-sources-and-edition-notes).
+
+## FIN.Reference:End
 
 # Part A - Cash and decision accounts
 
@@ -270,7 +288,7 @@ State what counts as a better financial result for this question. Increased tota
 
 Follow the proposed action to the entities that pay, receive, own, owe or bear its consequences. The group, parent, subsidiary, seller and ultimate owner need not have the same answer. For a project carried out by a subsidiary, separate its operating effects from transfers to the parent. In a purchase of shares, identify the interest obtained, the obligations remaining in the company and the amount paid to the seller. FIN.7 supplies the value of that interest; FIN.9 supplies the buyer's comparison including price and transaction effects.
 
-Use the actual [FDM.1–2][FDM] procedures when a position or grouping is unclear. FDM.1 recovers the right or duty from the terms and relates it to the records. FDM.2 distinguishes the criterion for belonging to a group from the relation permitting or requiring support. Their result can establish, for example, that a guarantee gives a creditor a conditional claim while providing the debtor no cash before tomorrow's payment. Reuse a sufficient result; finance framing need not reconstruct the legal account.
+Use the actual [FDM / FDM.1–2][FDM] procedures when a position or grouping is unclear. FDM.1 recovers the right or duty from the terms and relates it to the records. FDM.2 distinguishes the criterion for belonging to a group from the relation permitting or requiring support. Their result can establish, for example, that a guarantee gives a creditor a conditional claim while providing the debtor no cash before tomorrow's payment. Reuse a sufficient result; finance framing need not reconstruct the legal account.
 
 Choose the boundary that fits the receiving question, and retain a second boundary when it could reverse the conclusion. A transfer between two wholly included entities may cancel in a group cash total, yet tax, restrictions, minority interests, fees or timing can prevent cancellation for the actual decision. Eliminating a group entry does not establish that the cash can move. Conversely, charging the group for an internal payment while also counting the recipient's full external cost can count the same resource twice.
 
@@ -307,7 +325,7 @@ Several conclusions can properly coexist: “positive operating NPV,” “not f
 
 Inspect the uncertainty that could change the next action or warranted claim. If a payment cutoff is decisive, establish the cutoff and usable money before building a detailed terminal valuation. If all plausible values exceed a proposed price but a particular financing condition blocks closing, valuation precision may have little immediate value. If the price is close to the range, a focused inquiry into a sensitive operating assumption may be worthwhile.
 
-[C.11.DUA][DUA] supplies the fuller comparison between further inquiry and a feasible continuation: what attainable answer could improve the decision, when it would arrive, and what it costs or displaces. Its method also distinguishes a sensible investigation from a currently binding evidence requirement. Use that contribution where inquiry itself needs a decision; do not turn every uncertain input into a compulsory study.
+[FPF C.11.DUA][DUA] supplies the fuller comparison between further inquiry and a feasible continuation: what attainable answer could improve the decision, when it would arrive, and what it costs or displaces. Its method also distinguishes a sensible investigation from a currently binding evidence requirement. Use that contribution where inquiry itself needs a decision; do not turn every uncertain input into a compulsory study.
 
 Stop framing when the next financial Method has a usable question, adequate inputs or explicit dependent uncertainties, and a receiving use. Return a conditional result where that is the best warranted answer. An analyst's recommendation, an authorized decision and actual execution remain distinct even when routine delegated authority makes them occur close together. Reopen the frame when the alternative, entity, claimant, horizon or purpose changes.
 
@@ -345,11 +363,11 @@ The short route remains valuable when a recurring decision has stable grounds. R
 
 ### FIN.1:11 - SoTA-Echoing
 
-[FDM][FDM] supplies the recovery of positions and actual support between entities; [C.11.DUA][DUA] develops the relation between the receiving question, attainable inquiry and useful continuation. Damodaran's historical [corporate-finance introduction][DAM-INTRO] connects investment, financing and distribution while making the value objective and claimant conflicts explicit. FIN.1 uses those distinctions to frame the actual decision; it does not impose one objective on every corporate action or adopt a general legal duty from that teaching account. A changed entity, alternative or use reopens the frame.
+[FDM][FDM] supplies the recovery of positions and actual support between entities; [FPF C.11.DUA][DUA] develops the relation between the receiving question, attainable inquiry and useful continuation. Damodaran's historical [corporate-finance introduction][DAM-INTRO] connects investment, financing and distribution while making the value objective and claimant conflicts explicit. FIN.1 uses those distinctions to frame the actual decision; it does not impose one objective on every corporate action or adopt a general legal duty from that teaching account. A changed entity, alternative or use reopens the frame.
 
 ### FIN.1:12 - Relations
 
-FIN.2–22 supply the selected financial answers. [C.11][CHOICE] helps choose among available alternatives when that comparison is the current question. [C.11.DUA][DUA] helps appraise advice or an evidence demand. Existing authority and specialist legal or tax results remain external inputs.
+FIN.2–22 supply the selected financial answers. [FPF C.11][CHOICE] helps choose among available alternatives when that comparison is the current question. [FPF C.11.DUA][DUA] helps appraise advice or an evidence demand. Existing authority and specialist legal or tax results remain external inputs.
 
 ### FIN.1:End
 
@@ -384,9 +402,9 @@ Protect payment continuity without keeping unnecessary idle cash. Retain decisio
 5. Calculate each closing balance as opening usable cash plus usable inflows minus payments. For a required reserve, funding need at a date is the positive amount by which the pre-funding balance falls below that reserve. Solve for the gross draw when fees are withheld; include later interest and repayment.
 6. Recalculate the whole timeline with the proposed response. A draw that cures today's gap can create a larger maturity gap. Return the amounts, dates, conditions and affected commitments. Use FIN.3 for working-capital alternatives, FIN.10 for financing terms, or FIN.15 for a selected permitted treasury action.
 
-Stop when the receiving decision can distinguish a funded path from its unresolved conditions. If the right to money or the contract's event behavior is unclear, obtain that specific account through [FDM.1–3][FDM]. If profit and cash disagree materially, use FIN.4 and the applicable [MA.4][MA] reconciliation.
+Stop when the receiving decision can distinguish a funded path from its unresolved conditions. If the right to money or the contract's event behavior is unclear, obtain that specific account through [FDM / FDM.1–3][FDM]. If profit and cash disagree materially, use FIN.4 and the applicable [MA / MA.4][MA] reconciliation.
 
-If you can perform a calculation but cannot explain how it answers this liquidity question, use [B.1.5.EW][EW] to recover the connection. Identify the financial operation being performed through it, the conditions that make it fit the payment plan, and any constituent know-how or contribution still needed. The example below shows that relation.
+If you can perform a calculation but cannot explain how it answers this liquidity question, use [FPF B.1.5.EW][EW] to recover the connection. Identify the financial operation being performed through it, the conditions that make it fit the payment plan, and any constituent know-how or contribution still needed. The example below shows that relation.
 
 
 
@@ -767,7 +785,7 @@ Keep actual observations, estimates, commitments and proposed management actions
 #### FIN.4:4.2 - Obtain the operating construction and translate its drivers
 
 
-[MA.5][MA] develops the demand–work–resource–money forecast, including capacity blocks, payment timing and action-changing uncertainty. [MA.4][MA] reconciles operating, reporting and cash accounts. [MA.6][MA] distinguishes forecasts, targets, requests and authorized allocations. Use their adequate contributions; use MA.1–3 or MA.7–8 only for unresolved resource, attribution or cohort work. [FDM][FDM] supplies disputed positions and conditional instruments. Actual operating feasibility remains an input from the responsible practice.
+[MA / MA.5][MA] develops the demand–work–resource–money forecast, including capacity blocks, payment timing and action-changing uncertainty. [MA / MA.4][MA] reconciles operating, reporting and cash accounts. [MA / MA.6][MA] distinguishes forecasts, targets, requests and authorized allocations. Use their adequate contributions; use MA.1–3 or MA.7–8 only for unresolved resource, attribution or cohort work. [FDM][FDM] supplies disputed positions and conditional instruments. Actual operating feasibility remains an input from the responsible practice.
 
 Translate that operating account into the financial view. Quantity, mix, acceptance and price produce sales; collection terms and customer behavior produce receipts. Resource use, supply commitments and purchasing terms produce expenses, purchases and payments, which need not coincide. Investment and disposal change capacity, cash and carrying amounts through different events. Recover those events before using a historical percentage.
 
@@ -1598,7 +1616,7 @@ Compare value, limited capital, operating dependencies and risk concentration on
 4. For an acquisition, identify the interest and included claims. Compare its standalone value, incremental buyer-specific benefits, integration and other incremental costs, and total consideration. Include the conditions required to obtain benefits and the effect on the buyer's remaining business. Reconcile debt, cash and other claims through FIN.7 before comparing equity value with an equity price.
 5. For a divestment, compare net disposal proceeds plus the value and obligations of the remaining business with the no-sale alternative. Include taxes, transaction costs, lost contribution, retained liabilities and changes to shared operations. Do not count both sale proceeds and continued ownership of what is sold.
 6. Use FIN.10–12 for material financing conditions and FIN.21 for the retain-or-return alternative. Separate a favorable financial comparison from the availability of funds and transaction consents.
-7. State the recommendation, robust alternatives, constraints and facts that can reverse it. [C.11][CHOICE] supplies the general choice contribution over these available alternatives; this pattern supplies their financial consequences and feasible combinations.
+7. State the recommendation, robust alternatives, constraints and facts that can reverse it. [FPF C.11][CHOICE] supplies the general choice contribution over these available alternatives; this pattern supplies their financial consequences and feasible combinations.
 
 
 
@@ -1770,7 +1788,7 @@ The public [CFA capital-allocation][CFA-CAPITAL] and [corporate-restructuring][C
 
 ### FIN.9:12 - Relations
 
-FIN.6–8 supply values; FIN.2 supplies timed funding needs; FIN.10–12 supply financing conditions; FIN.21 supplies retention or payout alternatives. FIN.16 prepares the receiving advice. [C.11][CHOICE] supports the local choice once these financial alternatives exist.
+FIN.6–8 supply values; FIN.2 supplies timed funding needs; FIN.10–12 supply financing conditions; FIN.21 supplies retention or payout alternatives. FIN.16 prepares the receiving advice. [FPF C.11][CHOICE] supports the local choice once these financial alternatives exist.
 
 ### FIN.9:End
 
@@ -2663,7 +2681,7 @@ Use an adequate supplied exposure account directly when its position, outcome, h
 #### FIN.13:4.2 - Build the exposure from positions and operating causes
 
 
-Begin with the positions and operating plan that generate the outcome. [FDM.1–3][FDM] recover who holds each claim or obligation, which entity can use a resource, and how actual terms turn events into changed amounts or duties. FIN.4 supplies the projected flows and balances. Retain the part of those accounts needed to explain the present consequence.
+Begin with the positions and operating plan that generate the outcome. [FDM / FDM.1–3][FDM] recover who holds each claim or obligation, which entity can use a resource, and how actual terms turn events into changed amounts or duties. FIN.4 supplies the projected flows and balances. Retain the part of those accounts needed to explain the present consequence.
 
 For a foreign receipt, recover the currency of the amount actually owed, its amount or amount-setting rule, due date, plausible collection dates and evidence for expected collection. A sale described as “overseas” may be invoiced in home currency, yet still have operating exposure because customers, competitors or imported inputs respond to exchange rates. Conversely, a foreign-currency invoice gives a transaction exposure even if the seller has no foreign subsidiary. A consolidated translation amount is another possible reporting exposure; it is not automatically a remittable balance.
 
@@ -2895,7 +2913,7 @@ For a known foreign receipt Q at time T, a simple money-market construction borr
 
 For an option, FIN.8 supplies valuation when the premium or conditional strategy must be assessed. An actual sufficient price and payoff can be used directly. Do not price protection by discounting a speculative expected payoff at an arbitrary corporate WACC. Similarly, a market forward rate is an executable term only if an actual provider offers it under usable conditions; it is not automatically a forecast of the future spot price.
 
-Obtain the important terms before treating a form as feasible. A contract called a collar can contain a purchased option and a written option that creates a duty in another state. A zero initial premium can be financed by giving up favorable outcomes or accepting that duty. The combined terms, including barriers, limits or cancellation rights where present, determine protection. [FDM.3][FDM] supplies the derivation of duties and state changes from those terms; FIN.14 compares their financial consequences.
+Obtain the important terms before treating a form as feasible. A contract called a collar can contain a purchased option and a written option that creates a duty in another state. A zero initial premium can be financed by giving up favorable outcomes or accepting that duty. The combined terms, including barriers, limits or cancellation rights where present, determine protection. [FDM / FDM.3][FDM] supplies the derivation of duties and state changes from those terms; FIN.14 compares their financial consequences.
 
 
 
@@ -3085,7 +3103,7 @@ Complete the action in time while preserving authorization, account and settleme
 3. Apply the controls relevant to the transaction: validated counterparty and beneficiary, trusted change verification, separation of initiation and approval where required, secure access and applicable account or signatory limits. A provider message alone does not amend those controls.
 4. Execute through the permitted route with the actual price, amount, currency, settlement date and reference terms. If terms leave the authorized bounds or remove the financial rationale, return the changed choice before committing.
 5. Inspect provider confirmations and the actual resulting balances, positions or settlement evidence. Reconcile amount, fees, date and counterparty; prevent duplication when an instruction is pending or its outcome is uncertain.
-6. Resolve a failed or partial execution through the provider's supported recovery and the relevant decision authority. State what changed, what remains owed and the next funded action. Use [FDM.4][FDM] where the effect of a posting or settlement is disputed.
+6. Resolve a failed or partial execution through the provider's supported recovery and the relevant decision authority. State what changed, what remains owed and the next funded action. Use [FDM / FDM.4][FDM] where the effect of a posting or settlement is disputed.
 
 
 
@@ -3096,7 +3114,7 @@ Recover the financial result the action is meant to achieve and the latitude alr
 
 Use sufficient existing authority directly. Determine the actor, account, counterparty or beneficiary, amount and price limits, deadline and any conditions that can change the action. Obtain a missing legal or institutional interpretation when necessary, but do not reopen a settled financing, investment or payout choice merely because it is about to be performed. Conversely, a different collateral promise, beneficiary, settlement date or instrument can be a different financial commitment even if its headline amount is unchanged.
 
-Identify when each step can bind the corporation. Accepting a quote may create contractual duties before either party sends money. An instruction may still be cancellable for a time; a later cancellation request may have no effect unless the provider confirms it under the applicable arrangement. [FDM.3–4][FDM] supply those terms and effect distinctions. Knowledge of the current binding point lets treasury return a changed decision while that choice is still available.
+Identify when each step can bind the corporation. Accepting a quote may create contractual duties before either party sends money. An instruction may still be cancellable for a time; a later cancellation request may have no effect unless the provider confirms it under the applicable arrangement. [FDM / FDM.3–4][FDM] supply those terms and effect distinctions. Knowledge of the current binding point lets treasury return a changed decision while that choice is still available.
 
 Translate the selected result into the provider's actual conventions. Match currency direction, amount, value date, account, beneficiary details, fees and references to the intended obligation. For an exchange quoted as home units per foreign unit, selling foreign currency produces the foreign amount times the executable selling rate; buying it costs the amount times the executable buying rate. The two prices need not be equal. Clarify whether a fee is additional, withheld from proceeds or charged to the recipient before asserting a net amount.
 
@@ -3267,7 +3285,7 @@ The method ends in the financial effect needed by the corporation. Keeping instr
 
 ### FIN.15:11 - SoTA-Echoing
 
-The [AFP treasury task specification][AFP] supplies execution, provider, cash and control responsibilities. [FDM.4][FDM] supplies the distinction between instructions and actual financial effects. FIN.15 combines them around the required settlement result; it rejects submission as sufficient evidence of payment and reopens when actual terms exceed the permitted choice.
+The [AFP treasury task specification][AFP] supplies execution, provider, cash and control responsibilities. [FDM / FDM.4][FDM] supplies the distinction between instructions and actual financial effects. FIN.15 combines them around the required settlement result; it rejects submission as sufficient evidence of payment and reopens when actual terms exceed the permitted choice.
 
 The [FX Global Code, December 2024][FX-CODE], Principles 35 and 42–55, develops settlement-risk reduction, confirmation, authenticated settlement details, funding and reconciliation for wholesale FX. FIN.15 connects those concerns to the corporation's actual receiving result and FDM.4's effect interpretation. The guidance does not supply local law, a usable provider service or evidence that a particular transaction settled. Changed service or contract conditions require their own return.
 
@@ -3310,7 +3328,7 @@ The six steps below provide a short route when the necessary financial grounds a
 #### FIN.16:4.1 - Short working route
 
 
-1. Recover the receiver's actual question and available choices. Use FIN.1 or [C.11.DUA][DUA] if the intended use of advice is unclear.
+1. Recover the receiver's actual question and available choices. Use FIN.1 or [FPF C.11.DUA][DUA] if the intended use of advice is unclear.
 2. Select the material completed financial results and reconcile their shared conditions. Include the recommended action, expected consequence, relevant alternative and the constraint that could change the preference.
 3. Distinguish established facts, model assumptions and unresolved conditions. Retain disagreement when a different value or perspective changes the choice. Do not present an average of incompatible conclusions as consensus.
 4. State a specific information need only when its answer can change the receiving action or warranted reliance. Compare the whole burden, delay and displaced work with the obtainable gain; a supported conditional recommendation may be enough.
@@ -3469,13 +3487,13 @@ Advice becomes useful through its relation to a receiving choice. Its form and l
 
 ### FIN.16:11 - SoTA-Echoing
 
-[C.11.DUA][DUA] supplies the appraisal of advice and demanded evidence by their receiving value. FIN.16 applies it to connected financial results, including funding and valuation conditions. It replaces a collection of correct but unconnected calculations with actionable conditional advice; a changed receiver or choice reopens the recommendation.
+[FPF C.11.DUA][DUA] supplies the appraisal of advice and demanded evidence by their receiving value. FIN.16 applies it to connected financial results, including funding and valuation conditions. It replaces a collection of correct but unconnected calculations with actionable conditional advice; a changed receiver or choice reopens the recommendation.
 
 [AFP's business-partnering explanation][AFP-PARTNER] connects financial analysis to business context and the receiver's decision. FIN.16 uses that professional line while making compatibility, dated feasibility and conditional action explicit. The financial and information-value cases are constructed here; the source supplies neither their offers nor their probabilities. The separation of advice, available continuation and worthwhile inquiry follows C.11.DUA. A new financial premise or receiving decision reopens the affected recommendation.
 
 ### FIN.16:12 - Relations
 
-The selected FIN methods supply the substantive financial results. [C.11][CHOICE] compares available alternatives when necessary. FIN.15 performs permitted treasury actions and FIN.17 refreshes a recommendation whose relied-on grounds change.
+The selected FIN methods supply the substantive financial results. [FPF C.11][CHOICE] compares available alternatives when necessary. FIN.15 performs permitted treasury actions and FIN.17 refreshes a recommendation whose relied-on grounds change.
 
 ### FIN.16:End
 
@@ -3702,7 +3720,7 @@ The six steps below provide a short route when the necessary financial grounds a
 1. Name the financial difficulty, intended gain and current method's observed or otherwise supported limit. State what result or action would change if the proposed method helped.
 2. Compare genuinely different variants, including continued use or a smaller repair. Recover the relevant current professional or research contribution and its conditions; a task syllabus establishes repertoire, not method effectiveness.
 3. Choose a comparison appropriate to the claim. For forecasting, use information available at the forecast date and periods withheld from method selection when estimating predictive performance. Include the errors that change cash or action, not only an aggregate fit measure. For valuation or exposure, compare assumptions, limiting cases and decision reversals on the relevant objects.
-4. Include implementation, data, explanation, review, runtime and participant burdens. If a further trial could change the choice, compare its attainable value with its whole cost and delay using [C.11.DUA][DUA] as needed.
+4. Include implementation, data, explanation, review, runtime and participant burdens. If a further trial could change the choice, compare its attainable value with its whole cost and delay using [FPF C.11.DUA][DUA] as needed.
 5. Select the method, qualify its narrower use, propose a bounded trial or continue the supported method. Preserve unresolved claims instead of calling the new method universally superior.
 6. Make the selected change usable in the actual finance procedure and explain when to reopen it. FIN.17 updates the affected models; FIN.20 addresses transmission and continued use when those become the problem.
 
@@ -3866,7 +3884,7 @@ Method development is governed by the financial problem and the result it must i
 
 ### FIN.18:11 - SoTA-Echoing
 
-[MA's forecasting contributions][MA] make purpose and consequential differences central; [C.11.DUA][DUA] relates demanded inquiry to its receiving value. FIN.18 applies these ideas to current finance methods and relevant professional sources. It rejects novelty or fit alone as a selection rule; a new failure or materially better attainable method reopens the choice.
+[MA's forecasting contributions][MA] make purpose and consequential differences central; [FPF C.11.DUA][DUA] relates demanded inquiry to its receiving value. FIN.18 applies these ideas to current finance methods and relevant professional sources. It rejects novelty or fit alone as a selection rule; a new failure or materially better attainable method reopens the choice.
 
 The current online third edition of [Hyndman and Athanasopoulos, Forecasting: Principles and Practice, §5.8][FPP-ACCURACY] distinguishes genuine forecast errors from fitted residuals and explains several error measures. [§5.10][FPP-CV] develops evaluation at successive forecast origins and the relevant horizon. FIN.18 adopts those information boundaries; its constructed funding comparison adds the actual response and burden. RMSE can support a forecast comparison; the financial choice also depends on the available response and its cost. The direct FIN Methods supply the distinct valuation, exposure and execution comparisons, while C.11.DUA supplies the decision about additional inquiry.
 
@@ -3912,7 +3930,7 @@ The seven steps below provide a short route when the necessary financial grounds
 3. Reconcile the material dates, baselines and claim meanings. Several copies can describe the same financial position and preserve the same subject and use. A monthly plan and daily cash forecast can instead preserve different detail; explain the loss when one is used in place of the other.
 4. First use FIN.2 and FIN.9 to test a common dated constraint and feasible allocation under existing authority. Stop this reconciliation when that resolves the conflict, returning any remaining financial choice. When a conflict remains, compare ways of changing the work: for example, change the sequence of commitments or financing arrangement, or revise who decides a limited allocation. Include the cost and limits of each.
 5. Compare the conflict and burden under each alternative. Use FIN.9 for capital combinations, FIN.2 for payment timing, FIN.12 for access and FIN.16 for the resulting advice as needed. Examine moved delay, risk, reporting effort, authority burden and loss of useful local information.
-6. Select or propose the needed change under the actual authority. Counting assigned work, rescheduling it or allocating resources within that authority can use [Operations Management][OPS]. A change to organizational responsibilities or decision rights calls for [Organization Change Engineering][OCE]. State what each participant now needs to know or do and the result that would show the conflict is resolved. Stop adding views when they cannot change the decision.
+6. Select or propose the needed change under the actual authority. Counting assigned work, rescheduling it or allocating resources within that authority can use [Operations Management (OPS)][OPS]. A change to organizational responsibilities or decision rights calls for [Organization Change Engineering (OCE)][OCE]. State what each participant now needs to know or do and the result that would show the conflict is resolved. Stop adding views when they cannot change the decision.
 7. Reopen when a new entity, horizon, commitment, provider or observed occurrence changes the conflict. Use FIN.20 only when transmission or continued use of the arrangement becomes the question.
 
 
@@ -4055,9 +4073,9 @@ Compare two obtainable arrangements. One requires a central allocator's approval
 
 With A, all-payment approval leaves cash 100 − 60 − 2 − 12 = 26 after the outflows and 45 after the return. Limited approval leaves 27.50 and 46.50. Its net incremental gain is 7 − 0.50 = 6.50, against 5 under all-payment approval. Choosing B under limited approval would leave 45.50 on day 30 and gain 5.50. Both arrangements can meet the dates with the supplied resources; the limited one obtains the common allocation with lower cash cost and participant burden. Select it with A. The 19.50 available after its charge still cannot fund both proposals.
 
-Use [OCE.6][OCE] to obtain the missing assignment and authority before anyone relies on that selection. Under the case's qualified delegation rule, the governing body's adopted amendment takes effect when the named holder accepts and the affected department heads receive it. Those conditions are confirmed on day 6. The finance manager accepts the temporary allocation contribution through day 30; current capability evidence supports choosing and confirming a feasible joint allocation from these appraisals. The amendment makes each exceptional capital commitment conditional on the manager's prior shared allocation, with a shared ceiling of 20 and the lower current cash limit binding. The source owner separately supplies access to the existing dated commitment account. OCE's useful return distinguishes that effective assignment, delegation and access from the time still required to perform the work. Bank-signing authority remains with the existing treasury performers.
+Use [OCE / OCE.6][OCE] to obtain the missing assignment and authority before anyone relies on that selection. Under the case's qualified delegation rule, the governing body's adopted amendment takes effect when the named holder accepts and the affected department heads receive it. Those conditions are confirmed on day 6. The finance manager accepts the temporary allocation contribution through day 30; current capability evidence supports choosing and confirming a feasible joint allocation from these appraisals. The amendment makes each exceptional capital commitment conditional on the manager's prior shared allocation, with a shared ceiling of 20 and the lower current cash limit binding. The source owner separately supplies access to the existing dated commitment account. OCE's useful return distinguishes that effective assignment, delegation and access from the time still required to perform the work. Bank-signing authority remains with the existing treasury performers.
 
-Use [OPS.13][OPS] to support the promised allocation before the offers expire. The parties reserve the initial 30 minutes on day 6. On day 7, treasury supplies the reconciled cash and obligations by 09:30; a preparer uses ten minutes to update the comparison, and the manager uses five minutes to decide and confirm it to both heads by 09:45. The resource owners and the recipients of a displaced internal report agree to move that report to a later feasible slot. Its obligation is retained. This supplies the needed work window under existing authority; assigning the manager alone would not supply it.
+Use [OPS / OPS.13][OPS] to support the promised allocation before the offers expire. The parties reserve the initial 30 minutes on day 6. On day 7, treasury supplies the reconciled cash and obligations by 09:30; a preparer uses ten minutes to update the comparison, and the manager uses five minutes to decide and confirm it to both heads by 09:45. The resource owners and the recipients of a displaced internal report agree to move that report to a later feasible slot. Its obligation is retained. This supplies the needed work window under existing authority; assigning the manager alone would not supply it.
 
 Walk through the proposed commitments. The opening account includes all binding obligations, including the 60 operating payments. After the 0.50 arrangement charge, only 19.50 can support additional commitments while preserving the reserve. Before A becomes binding, the confirmed allocation of 12 reduces the amount available to B to 7.50. B's head therefore cannot commit its 15 under the amended delegation. When A is accepted, replace its reservation with the actual obligation, rather than counting both. The routine operating payments proceed through their existing route. Use FIN.15 to execute the funded payments and FIN.17 to return their actual effects and the later receipt to the shared account.
 
@@ -4085,13 +4103,13 @@ A conflict across claims and horizons cannot always be repaired inside one finan
 
 ### FIN.19:11 - SoTA-Echoing
 
-[C.32.MWA][MWA] supplies synthesis from several actual relations, the practice–description distinction and comparison of moved burdens. FIN.19 applies that contribution to concurrent corporate-finance commitments. It rejects visual tidiness as the selection criterion; a new representative conflict or material horizon changes the synthesis.
+[FPF C.32.MWA][MWA] supplies synthesis from several actual relations, the practice–description distinction and comparison of moved burdens. FIN.19 applies that contribution to concurrent corporate-finance commitments. It rejects visual tidiness as the selection criterion; a new representative conflict or material horizon changes the synthesis.
 
 [ACT's April 2026 treasury-transformation discussion][ACT-TRANSFORM] connects legal entities, accounts, payment flows, systems and local work to the purpose of a proposed change. It supplies practitioner comparison, not a universal centralization rule or causal proof of savings. FIN.19 combines that domain question with C.32.MWA's method for reconstructing relations and comparing the burdens moved by a change. OPS.13 supports commitments matched to resources and response time; OCE.6 supplies a needed assignment or enabling-relation return. The financial allocation and constructed cash cases remain FIN's contribution.
 
 ### FIN.19:12 - Relations
 
-FIN.2, FIN.9, FIN.12 and FIN.16 answer the specific financial conflicts. [FDM][FDM] resolves parties and positions. [C.32.MWA][MWA] supplies the architecture method; [B.1.5.EW][EW] answers the narrower question of how an action performs encompassing work, illustrated in FIN.2. [OPS][OPS] supplies operating coordination; [OCE][OCE] supplies changes to organizational responsibilities and authority. FIN.20 addresses subsequent transmission and retention when needed.
+FIN.2, FIN.9, FIN.12 and FIN.16 answer the specific financial conflicts. [FDM][FDM] resolves parties and positions. [FPF C.32.MWA][MWA] supplies the architecture method; [FPF B.1.5.EW][EW] answers the narrower question of how an action performs encompassing work, illustrated in FIN.2. [OPS][OPS] supplies operating coordination; [OCE][OCE] supplies changes to organizational responsibilities and authority. FIN.20 addresses subsequent transmission and retention when needed.
 
 ### FIN.19:End
 
@@ -4283,36 +4301,34 @@ Finance practice persists through people, incentives and repeated use as well as
 
 ### FIN.20:11 - SoTA-Echoing
 
-[C.36][CULT] supplies the distinctions among cultural variation, transmission, selection, retention and deliberate intervention. [MA.9][MA] connects account use with behavior; its budgeting sources provide a historical anchor for separating forecast, target and allocation. FIN.20 adopts the practical distinction while withholding unsupported adoption and effect claims.
+[FPF C.36][CULT] supplies the distinctions among cultural variation, transmission, selection, retention and deliberate intervention. [MA / MA.9][MA] connects account use with behavior; its budgeting sources provide a historical anchor for separating forecast, target and allocation. FIN.20 adopts the practical distinction while withholding unsupported adoption and effect claims.
 
 MA.6 and MA.9 develop the separation of financial meanings and the examination of an account's behavioral use. [Bogsnes's 2023 Beyond Budgeting paper][BB-2023] retains distinct forecasts, targets and resource decisions and emphasizes coherence with management practice. It supplies a developed practitioner position; its reported survey associations are not adopted as causal proof or a universal mandate to replace budgeting. C.36 supplies the distinction between deliberate intervention and transmission or retention. FIN.20 applies those contributions to the financial work and constructed cases above, retaining the named population and evidence limits.
 
 ### FIN.20:12 - Relations
 
-FIN.18 supplies a selected method change, FIN.17 its model update and FIN.19 a practice reconfiguration when needed. [C.36][CULT] supplies the cultural method and [C.11.DUA][DUA] the appraisal of a demanded inquiry. Existing authority governs any actual intervention.
+FIN.18 supplies a selected method change, FIN.17 its model update and FIN.19 a practice reconfiguration when needed. [FPF C.36][CULT] supplies the cultural method and [FPF C.11.DUA][DUA] the appraisal of a demanded inquiry. Existing authority governs any actual intervention.
 
 ### FIN.20:End
 
-# References
+# Corporate Finance Principles Framework Sources and Edition Notes
 
-Copyright © Anatoly Levenchuk. The original framework text and worked examples are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). The [licensing notice](https://github.com/ailev/FPF/blob/main/LICENSING.md) states scope and attribution terms. Referenced third-party works retain their own terms.
+Copyright © Anatoly Levenchuk. The original framework text and worked examples are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). The [licensing notice (Licensing FPF and its DPF publications)](https://github.com/ailev/FPF/blob/main/LICENSING.md) states scope and attribution terms. Referenced third-party works retain their own terms.
 
 
 
-## FIN.Reference:1 - Edition record
+## FIN.Sources:1 - Edition record
 
 **Framework and edition:** Corporate Finance Principles Framework, FIN 1.0.\
 **Language:** English.\
 **Edition date:** 27 September 2026.\
-**Boundary:** The twenty-two FIN patterns, practical entries, Preface and reference material in this publication.
+**Boundary:** The twenty-two FIN patterns, practical entries, Architectural Reference and reference material in this publication.
 
 For a precise citation, name the framework, FIN 1.0, the edition date and the pattern or section, for example: “Anatoly Levenchuk, Corporate Finance Principles Framework, FIN 1.0 (27 September 2026), FIN.9 — Compare Capital Investments and Allocations.” Mark adaptations and retain the applicable attribution.
 
 Use current market, operating and institutional facts for a real decision. FIN.17 refreshes relied-on financial results; FIN.18 reconsiders their method. Revisit a cited supplying edition when its contribution changes the receiving use. A copied publication preserves its edition's text, not continuing accuracy of the user's data or continuing access to every external source.
 
-
-
-## FIN.Reference:2 - Source guidance
+## FIN.Sources:2 - Source guidance
 
 The pattern bodies state the adopted contribution and comparison. These locators let a reader examine the sources or obtain greater professional depth. They do not claim full access to restricted curricula or compliance with an unread standard.
 
@@ -4352,7 +4368,7 @@ The pattern bodies state the adopted contribution and comparison. These locators
 | [International Valuation Standards Council, standards overview][IVSC] | Public overview of scope, basis, approaches, data, models and reporting. Full engagement requirements must be obtained for an actual standards claim. |
 | [World Bank, A Toolkit for Corporate Workouts, 2022][WB-WORKOUT], sections 2.3 and 2.6–2.9 | Viability and recovery, negotiation and consent, and interim finance. The toolkit does not establish current law for every jurisdiction. |
 | [MA 1.0][MA] and [FDM 1.0][FDM] | The supplied accounting and financial-modeling methods and their qualified source contributions. MA's Bragg, Caspari and Bogsnes sources are historical anchors used for particular distinctions, not labels for the latest line in all finance. |
-| [FPF][FPF], especially [C.11][CHOICE], [C.11.DUA][DUA], [C.32.MWA][MWA] and [C.36][CULT] | General methods reused for the specific relations explained in the Preface and FIN bodies. |
+| [FPF][FPF], especially [FPF C.11][CHOICE], [FPF C.11.DUA][DUA], [FPF C.32.MWA][MWA] and [FPF C.36][CULT] | General methods reused for the specific relations explained in the Architectural Reference and FIN bodies. |
 
 [AFP-PARTNER]: https://www.financialprofessionals.org/glossary/finance-business-partnering
 [ICAEW-MODEL]: https://www.icaew.com/-/media/corporate/files/technical/technology/excel-community/financial-modelling-code.ashx
@@ -4411,4 +4427,6 @@ The pattern bodies state the adopted contribution and comparison. These locators
 [IVSC]: https://ivsc.org/standards/
 [WB-WORKOUT]: https://documents1.worldbank.org/curated/en/982181642007438817/pdf/A-Toolkit-for-Corporate-Workouts.pdf
 
-## FIN.Reference:End
+The [Architectural Reference](#corporate-finance-principles-framework-architectural-reference) explains the connected language and the consequences of these sources for its use.
+
+## FIN.Sources:End

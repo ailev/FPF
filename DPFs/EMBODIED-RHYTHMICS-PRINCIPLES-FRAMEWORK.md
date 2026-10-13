@@ -1,12 +1,14 @@
 # Embodied Rhythmics Principles Framework
 
+**DocID:** `RHY` within **FPF Library**.
+
 > A pattern language for recognizing, representing, shaping, performing, learning and observing rhythmic relations.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
 - **Version:** 7 October 2026 · [Edition and reuse](#edition-and-reuse)
 - **License:** © 2026 Anatoly Levenchuk. Original framework text: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Third-party material retains its own terms.
 
-Begin with the passage and the result you need. The Table of Contents supports direct use; the Readme shows selected combinations; the Preface explains their conditions, sources and architectural reasons. **RHY** is this framework's reference code. Its pattern numbers are addresses; the Parts group reading rather than prescribe work order.
+Begin with the passage and the result you need. The Table of Contents supports direct use; the Readme shows selected combinations; the Architectural Reference explains their conditions, sources and architectural reasons. **RHY** is this framework's reference code. Its pattern numbers are addresses; the Parts group reading rather than prescribe work order.
 
 The framework belongs to the [Engineering DPF Suite](https://github.com/ailev/FPF/blob/main/DPFs/Engineering%20DPF%20Suite/README.md).
 
@@ -17,7 +19,22 @@ The framework belongs to the [Engineering DPF Suite](https://github.com/ailev/FP
 | Unit | Title | Use |
 | --- | --- | --- |
 | Readme | [Embodied Rhythmics Principles Framework Readme](#embodied-rhythmics-principles-framework-readme) | Choose a direct entry or a connected use. |
-| Preface | [Preface](#preface) | Understand the language, prerequisites, shared examples and limits. |
+| Architectural Reference | [Embodied Rhythmics Principles Framework Architectural Reference](#embodied-rhythmics-principles-framework-architectural-reference) | Understand the language, prerequisites, shared examples and limits. |
+| RHY.Reference:1 | [Problem frame - Work with performed rhythm](#rhyreference1---problem-frame---work-with-performed-rhythm) |  |
+| RHY.Reference:2 | [Problem - The useful relation disappears between descriptions and actions](#rhyreference2---problem---the-useful-relation-disappears-between-descriptions-and-actions) |  |
+| RHY.Reference:3 | [Forces - Preserve the relation at an affordable cost](#rhyreference3---forces---preserve-the-relation-at-an-affordable-cost) |  |
+| RHY.Reference:4 | [Solution - Connect the contributions through their results](#rhyreference4---solution---connect-the-contributions-through-their-results) |  |
+| RHY.Reference:5 | [Archetypal Grounding - Connected uses and consequential returns](#rhyreference5---archetypal-grounding---connected-uses-and-consequential-returns) |  |
+| RHY.Reference:5.1 | [An ornament interrupts a partnered figure](#rhyreference51---an-ornament-interrupts-a-partnered-figure) |  |
+| RHY.Reference:5.2 | [A syllable sheet survives, but a phrase does not](#rhyreference52---a-syllable-sheet-survives-but-a-phrase-does-not) |  |
+| RHY.Reference:5.3 | [More appearances do not yet explain a practice's future](#rhyreference53---more-appearances-do-not-yet-explain-a-practices-future) |  |
+| RHY.Reference:6 | [Bias-Annotation - What the examples and sources do not travel with](#rhyreference6---bias-annotation---what-the-examples-and-sources-do-not-travel-with) |  |
+| RHY.Reference:7 | [Conformance Checklist - Check the combination that is being used](#rhyreference7---conformance-checklist---check-the-combination-that-is-being-used) |  |
+| RHY.Reference:8 | [Common Anti-Patterns and How to Avoid Them](#rhyreference8---common-anti-patterns-and-how-to-avoid-them) |  |
+| RHY.Reference:9 | [Consequences - Useful corrections with bounded conclusions](#rhyreference9---consequences---useful-corrections-with-bounded-conclusions) |  |
+| RHY.Reference:10 | [Architectural Rationale - Why the methods are divided this way](#rhyreference10---architectural-rationale---why-the-methods-are-divided-this-way) |  |
+| RHY.Reference:11 | [SoTA-Echoing - Source contributions and their limits](#rhyreference11---sota-echoing---source-contributions-and-their-limits) |  |
+| RHY.Reference:12 | [Relations, source return and renewal](#rhyreference12---relations-source-return-and-renewal) |  |
 | Edition | [RHY.Edition - Edition and reuse](#edition-and-reuse) | Cite, adapt and return to this publication. |
 
 ## Part I - Find and shape the rhythmic relation
@@ -110,9 +127,9 @@ These examples retain longer connections among methods. Start at the first unres
 - **Start with:** MDPE.20 for musical or dance development; RHY.2/.7/.8 for structures and variants, RHY.9–.14 for the performance or response that the decision needs.
 - **Stop or return:** A choice may remain useful with the mechanism unresolved. Reopen when the population, observing procedure, performing constraint or decision changes. Use a suitable field method for cultural claims outside music and dance.
 
-# Preface
+# Embodied Rhythmics Principles Framework Architectural Reference
 
-## RHY.Preface:1 - Problem frame - Work with performed rhythm
+## RHY.Reference:1 - Problem frame - Work with performed rhythm
 
 This language helps performers, teachers, choreographers, musicians and designers of performing systems work on rhythmic relations. A relation may concern attacks and rests, continuing movement, accent, timing, grouping, a shared reference or the coordination of several contributions. The useful question is what somebody needs to do with that relation: recognize it, represent it, alter it, perform it, teach it or obtain an observation that changes a choice.
 
@@ -120,7 +137,7 @@ The reader needs enough knowledge of the activity to recognize the selected pass
 
 Begin with the available material and the next use. A familiar correction can be tried directly. The longer routes help when several plausible corrections, representations or contributing methods must be distinguished.
 
-## RHY.Preface:2 - Problem - The useful relation disappears between descriptions and actions
+## RHY.Reference:2 - Problem - The useful relation disappears between descriptions and actions
 
 A person can count a figure and place the feet on the count while the partner still cannot use its timing. A syllable string can preserve attacks while losing sustain and rest. A mathematically clear variant may require a movement the performer cannot yet execute. A successful assisted attempt may cease to work when the assistance disappears.
 
@@ -128,7 +145,7 @@ These difficulties occur at different connections. A representation must preserv
 
 A surviving description also leaves a cultural question: who can obtain and use the way of working after the original performer or teacher is unavailable? The framework connects its rhythmic results to existing methods for transmission and continuation.
 
-## RHY.Preface:3 - Forces - Preserve the relation at an affordable cost
+## RHY.Reference:3 - Forces - Preserve the relation at an affordable cost
 
 | Requirement | Choice it creates |
 | --- | --- |
@@ -141,7 +158,7 @@ A surviving description also leaves a cultural question: who can obtain and use 
 
 Use these tensions to choose an intervention. They do not require maximizing every property or collecting every kind of evidence.
 
-## RHY.Preface:4 - Solution - Connect the contributions through their results
+## RHY.Reference:4 - Solution - Connect the contributions through their results
 
 The fourteen patterns form a repertoire. The Parts group related reading; work can begin in any Part. A useful path follows the result that the next operation needs, with returns when that result is unavailable.
 
@@ -164,11 +181,11 @@ RHY.12 develops a human rhythmic contribution through representative practice. R
 
 A short mantra can help retain a chosen path: identify the relation, preserve what the next use needs, supply the performing contributions, try the relevant whole, and return to the contribution that fails. It is a reminder of dependencies, not an obligation to apply every pattern.
 
-## RHY.Preface:5 - Archetypal Grounding - Connected uses and consequential returns
+## RHY.Reference:5 - Archetypal Grounding - Connected uses and consequential returns
 
 These cases stipulate their observations to demonstrate decisions. They are not reports of measured training effectiveness.
 
-### RHY.Preface:5.1 - An ornament interrupts a partnered figure
+### RHY.Reference:5.1 - An ornament interrupts a partnered figure
 
 A pair can perform a familiar passage. Adding a foot ornament leaves the recorded contacts on the count, but the partner loses the next transition. Under RHY.1 they compare the familiar and ornamented attempts rather than start by demanding more accurate counting. They find that the ornament interrupts the continuing movement which made the transition readable.
 
@@ -178,7 +195,7 @@ In the stipulated next attempt, the partner can use the transition. That support
 
 Now suppose a related rotating figure still fails. The dancer has enough strength to support the body and remembers the figure, but cannot maintain balance during the turn. At that moment, balancing constitutes part of turning, and turning constitutes part of performing the figure with a partner. These are connected works at several levels, not successive tasks or extra rhythmic lines. Reducing the turn permits an exercise; its success does not establish the original figure. RHY.12 returns the balancing contribution to appropriate technique instruction, then restores it to the turn and figure. The already usable ornamented passage remains available.
 
-### RHY.Preface:5.2 - A syllable sheet survives, but a phrase does not
+### RHY.Reference:5.2 - A syllable sheet survives, but a phrase does not
 
 A group receives a syllable sheet and a recording. The sheet shows attacks at the beginning of a two-second cycle and at the beginning of the next cycle. The recording supplies an additional requirement: sound continues for the first second and stops for the second. RHY.2/.5/.6 preserve that duration and rest through an available demonstration or explicit representation; a beat gesture alone does not supply the release time.
 
@@ -188,7 +205,7 @@ Suppose the group next reproduces and deliberately alters the phrase without the
 
 For continuation, MDPE.19 asks whether the recording, instruction and suitable practice remain available to the next users. Naming another person who can give the demonstration repairs one present access dependence; the plan still needs revision if that contribution becomes unavailable. One receiving success does not establish population-wide survival of the practice.
 
-### RHY.Preface:5.3 - More appearances do not yet explain a practice's future
+### RHY.Reference:5.3 - More appearances do not yet explain a practice's future
 
 A dance group is choosing whether to replace a familiar rhythmic variation with one appearing in more recent videos. Through MDPE.20 it bounds the question: what should this group's next teaching programme retain? RHY.2/.7 distinguish the variants by the relation used in the figure, not merely their shared style label. The group already has an adequate demonstration of each.
 
@@ -196,7 +213,7 @@ Suppose its available observations show that the new variation is convenient in 
 
 RHY.8/.9 make both variants available in the relevant arrangement. The group retains each for the passage where it has a demonstrated use and teaches the difference. This decision does not require first resolving the population mechanism. If a later preservation decision depends on whether practitioners are losing the familiar method, MDPE.20 selects a useful observation of access and receiving performance; a count of visible clips would not answer that different question.
 
-## RHY.Preface:6 - Bias-Annotation - What the examples and sources do not travel with
+## RHY.Reference:6 - Bias-Annotation - What the examples and sources do not travel with
 
 Music and dance provide much of the detailed source material. The general operations also address rhythmic contributions performed with instruments, robots and other embodied systems. A demonstrated technique, perceptual result or learning effect retains the population, apparatus and task in which it was obtained.
 
@@ -204,7 +221,7 @@ Onsets and finite cycles are convenient for calculation. The language also retai
 
 Human practice in RHY.12 assumes obtainable instruction and a manageable performing demand. A written method alone does not give a learner the underlying technique or resources. Cultural transmission and forecasting in the worked cases use the music-and-dance scope of MDPE.17–.20. Other fields need an appropriate contribution for their stronger cultural claims.
 
-## RHY.Preface:7 - Conformance Checklist - Check the combination that is being used
+## RHY.Reference:7 - Conformance Checklist - Check the combination that is being used
 
 - Can the participants recognize the passage and the relation which the next action needs?
 - Does each representation retain that relation, or make the fuller source available where it is omitted?
@@ -216,7 +233,7 @@ Human practice in RHY.12 assumes obtainable instruction and a manageable perform
 
 Answer only the questions made current by the chosen use. A familiar adequate answer is reusable until a relevant condition changes.
 
-## RHY.Preface:8 - Common Anti-Patterns and How to Avoid Them
+## RHY.Reference:8 - Common Anti-Patterns and How to Avoid Them
 
 | Consequential mistake | Practical correction |
 | --- | --- |
@@ -226,7 +243,7 @@ Answer only the questions made current by the chosen use. A familiar adequate an
 | Discard unmatched events and report a good average as a complete performance. | RHY.14 retains omissions, additions and ambiguous matches separately from timing error. |
 | Treat a frequent or geometrically central rhythm as a future cultural attractor. | Compare the mechanisms and receiving decisions through MDPE.20, using the needed RHY results. |
 
-## RHY.Preface:9 - Consequences - Useful corrections with bounded conclusions
+## RHY.Reference:9 - Consequences - Useful corrections with bounded conclusions
 
 The language supports smaller and more specific corrections: change a cue, recover a duration, retain continuing movement, alter the arrangement or develop a missing contribution. A local failure can preserve the results that still work. Representations and calculations become useful for their declared operations without being mistaken for observations of performance.
 
@@ -234,7 +251,7 @@ The cost is attention to the relation that matters and, sometimes, a demonstrati
 
 A reader can stop with a usable action, a narrower result or a named obstacle. Remaining uncertainty does not automatically turn a rehearsal or lesson into a research project.
 
-## RHY.Preface:10 - Architectural Rationale - Why the methods are divided this way
+## RHY.Reference:10 - Architectural Rationale - Why the methods are divided this way
 
 Organizing the language solely by notation systems would repeat common operations and obscure differences between representing and performing. Organizing it solely by discrete attacks would make comparisons convenient while omitting the continuing contribution in brushes, sustained sound and movement. The chosen repertoire separates the operation from the representation and retains the material relation needed by the task.
 
@@ -246,7 +263,7 @@ The language has no fixed number of conceptual levels. A general method can cont
 
 A new pattern is warranted when a recurring rhythmic operation has its own useful result and conditions not supplied by the existing combination. Another example alone does not establish that need.
 
-## RHY.Preface:11 - SoTA-Echoing - Source contributions and their limits
+## RHY.Reference:11 - SoTA-Echoing - Source contributions and their limits
 
 Source accounts inside the patterns give the comparisons which change particular actions. The shared architecture draws on several lines whose contributions remain distinct.
 
@@ -258,23 +275,23 @@ For cultural questions, [Jacoby and colleagues](https://doi.org/10.1038/s41562-0
 
 The resulting synthesis preserves differences that change an action instead of imposing one syllable system, scalar complexity score, training schedule or theory of cultural development. A new comparative result reopens the particular choice it can change; it does not invalidate unrelated performing or representational results.
 
-## RHY.Preface:12 - Relations, source return and renewal
+## RHY.Reference:12 - Relations, source return and renewal
 
 The framework belongs to the [Engineering DPF Suite](https://github.com/ailev/FPF/blob/main/DPFs/Engineering%20DPF%20Suite/README.md). Its relationships are contributions to particular uses:
 
 | Supplier | Contribution and receiving use |
 | --- | --- |
 | [FPF Core](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) | A.22 supplies structure selection; C.16 and A.19.CPM supply measurement and comparison conditions; B.1.5.EW connects constituent and encompassing work; C.36.RP makes ways of working obtainable; C.11.DUA keeps inquiry proportional to its decision. |
-| [Notational Engineering](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/NOTATIONAL-ENGINEERING-DPF.md) | NOT.1/.3/.5/.6/.8 supply general selection, interpretation, translation and complementary representations; RHY.5/.6 apply the needed contributions to rhythmic work. |
-| [Mathematical Thinking](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-PRACTICE-DPF.md) | When a formal comparison is needed, MATH.2 constructs equivalence classes that preserve the operations used by RHY.5; MATH.18 establishes which consequences transfer through an interpretation used by RHY.6. |
-| [Human Capability Development](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) | HCD.6/.9/.10 supply representative task, feedback and practice construction; HCD.12/.13 supply human capability probes. RHY.12/.13 retain the rhythmic task and its limits. |
-| [Music and Dance Practice Engineering](https://github.com/ailev/FPF/blob/main/DPFs/MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | MDPE.3 supplies whole performing configuration, MDPE.12 broader evidence use, and MDPE.17–.20 receiving, source, continuation and forecast methods for the two cultural routes. |
+| [Notational Engineering (NOT)](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/NOTATIONAL-ENGINEERING-DPF.md) | NOT.1/.3/.5/.6/.8 supply general selection, interpretation, translation and complementary representations; RHY.5/.6 apply the needed contributions to rhythmic work. |
+| [Mathematical Thinking (MATH)](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-PRACTICE-DPF.md) | When a formal comparison is needed, MATH.2 constructs equivalence classes that preserve the operations used by RHY.5; MATH.18 establishes which consequences transfer through an interpretation used by RHY.6. |
+| [Human Capability Development (HCD)](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) | HCD.6/.9/.10 supply representative task, feedback and practice construction; HCD.12/.13 supply human capability probes. RHY.12/.13 retain the rhythmic task and its limits. |
+| [Music and Dance Practice Engineering (MDPE)](https://github.com/ailev/FPF/blob/main/DPFs/MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | MDPE.3 supplies whole performing configuration, MDPE.12 broader evidence use, and MDPE.17–.20 receiving, source, continuation and forecast methods for the two cultural routes. |
 
-The Readme foregrounds entry and result connections. This Preface explains their shared conditions and reasons. Pattern bodies preserve the detailed actions, worked cases and source comparisons. They deliberately leave full repertoires of instrumental and dance technique, complete teaching curricula, population-research designs and specialist sensing to their sources and practitioners. Return to those when the next action depends on what has been omitted.
+The Readme foregrounds entry and result connections. This Architectural Reference explains their shared conditions and reasons. Pattern bodies preserve the detailed actions, worked cases and source comparisons. They deliberately leave full repertoires of instrumental and dance technique, complete teaching curricula, population-research designs and specialist sensing to their sources and practitioners. Return to those when the next action depends on what has been omitted.
 
 A change to a notation convention, performance arrangement, support, timing criterion or source result reopens the affected use. A supplier change matters when it changes the contribution relied on here. Repeated reader misunderstanding should repair the relevant explanation and its direct consumers. A missing recurring method should first be compared with the existing suppliers before expanding the language.
 
-## RHY.Preface:End
+## RHY.Reference:End
 
 # Part I - Find and shape the rhythmic relation
 
@@ -1951,7 +1968,7 @@ For the next candidate, the performer uses a smaller already learned articulatio
 
 Now request accents at 0.5 and 2.75 in the following phrase. The performer must prepare those events within the same continuing pulse rather than replay the first combined figure. If the pulse stays regular but an accent slips to a beat, the new choice remains unavailable. If the intended tempo then changes, both supporting intervals and accent locations must change together. Keeping the old absolute accent times would preserve isolation at the expense of synchronization.
 
-This worked construction distinguishes a successful local coordination from an acquired range of choices. The concrete brush and partnered-movement realizations are developed in [MDPE.11:4.5](https://github.com/ailev/FPF/blob/main/DPFs/MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#mdpe1145---balboa-brushes-and-event-timing); their related practice is in MDPE.10:4.6. The particular means, partner response and available recovery decide whether the construction fits each use.
+This worked construction distinguishes a successful local coordination from an acquired range of choices. The concrete brush and partnered-movement realizations are developed in [MDPE / MDPE.11:4.5](https://github.com/ailev/FPF/blob/main/DPFs/MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#mdpe1145---balboa-brushes-and-event-timing); their related practice is in MDPE.10:4.6. The particular means, partner response and available recovery decide whether the construction fits each use.
 
 ### RHY.11:6 - Bias-Annotation
 
@@ -2556,7 +2573,7 @@ RHY.2 and RHY.5–RHY.6 supply the selected rhythmic structure and representatio
 
 # Edition and reuse
 
-This publication contains the fourteen methods of Embodied Rhythmics, RHY.1–RHY.14, with their connected use and source qualifications. The version shown at the beginning identifies the text being cited. Give the author, framework title, that version and the relevant PatternID or Preface address.
+This publication contains the fourteen methods of Embodied Rhythmics, RHY.1–RHY.14, with their connected use and source qualifications. The version shown at the beginning identifies the text being cited. Give the author, framework title, that version and the relevant PatternID or Architectural Reference address.
 
 The [Engineering DPF Suite directory](https://github.com/ailev/FPF/blob/main/DPFs/Engineering%20DPF%20Suite/README.md) provides the public carrier and its neighbouring frameworks. A local copy remains usable when links are unavailable; source-dependent or stronger claims retain the source-return conditions stated in the relevant pattern.
 

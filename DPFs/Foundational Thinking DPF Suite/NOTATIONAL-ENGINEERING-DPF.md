@@ -1,5 +1,7 @@
 # Notational Engineering DPF
 
+**DocID:** `NOT` within **FPF Library**.
+
 > A pattern language for designing expressions that people and computational agents can interpret, manipulate, translate and use together.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
@@ -8,11 +10,11 @@
 - **License:** © 2026 Anatoly Levenchuk. Original framework text: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Cited sources retain their own terms.
 - **Publication:** [FPF ecosystem repository](https://github.com/ailev/FPF)
 
-Begin with something a reader needs to do: distinguish two cases, trace a dependency, change a rule, translate a diagram or follow a score. Use the Table of Contents to find the relevant method, then open its Problem frame, Solution, worked cases and checklist. The Readme follows worked connections between methods; the Preface explains how the methods connect and why they are organized this way.
+Begin with something a reader needs to do: distinguish two cases, trace a dependency, change a rule, translate a diagram or follow a score. Use the Table of Contents to find the relevant method, then open its Problem frame, Solution, worked cases and checklist. The Readme follows worked connections between methods; the Architectural Reference explains how the methods connect and why they are organized this way.
 
 The reference code **NOT** names this DPF. Its numbers are stable pattern addresses; § shows position within a Part. Expressions can use written symbols, spatial arrangement, sound, gesture or a combination. Each method states what its reader must already know or be able to obtain.
 
-This publication belongs to the [Foundational Thinking DPF Suite](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/README.md). Its [Reference](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) explains the mathematical, physical, computational and methodological connections. References such as A.6.3.RT.OE and C.2.8 name patterns in [FPF Core](https://github.com/ailev/FPF/blob/main/FPF-Spec.md). Open a supplier when its contribution is needed, and revisit a dependent conclusion when that contribution changes.
+This publication belongs to the [Foundational Thinking DPF Suite](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/README.md). Its [Reference (Foundational)](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) explains the mathematical, physical, computational and methodological connections. References such as A.6.3.RT.OE and C.2.8 name patterns in [FPF Core](https://github.com/ailev/FPF/blob/main/FPF-Spec.md). Open a supplier when its contribution is needed, and revisit a dependent conclusion when that contribution changes.
 
 To cite this edition: Anatoly Levenchuk, *Notational Engineering DPF*, [FPF ecosystem repository](https://github.com/ailev/FPF). Include the version date shown above.
 
@@ -23,25 +25,40 @@ To cite this edition: Anatoly Levenchuk, *Notational Engineering DPF*, [FPF ecos
 | Unit | Title | Use |
 | --- | --- | --- |
 | Readme | [Notational Engineering - Readme](#notational-engineering---readme) | Follow connected notational work. |
-| Preface | [Notational Engineering - Preface](#notational-engineering---preface) | Understand the connected methods, their rationale, sources and limits. |
+| Architectural Reference | [Notational Engineering DPF Architectural Reference](#notational-engineering-dpf-architectural-reference) | Understand the connected methods, their rationale, sources and limits. |
+| NOT.Reference:1 | [Problem frame and the work of designing a notation](#notreference1---problem-frame-and-the-work-of-designing-a-notation) |  |
+| NOT.Reference:2 | [Forces that shape the choice](#notreference2---forces-that-shape-the-choice) |  |
+| NOT.Reference:3 | [The methods and their connections](#notreference3---the-methods-and-their-connections) |  |
+| NOT.Reference:3.1 | [Design what can be expressed and done](#notreference31---design-what-can-be-expressed-and-done) |  |
+| NOT.Reference:3.2 | [Translate, combine and improve notations](#notreference32---translate-combine-and-improve-notations) |  |
+| NOT.Reference:3.3 | [Constituent actions in ongoing work](#notreference33---constituent-actions-in-ongoing-work) |  |
+| NOT.Reference:4 | [Worked connection - A formula, graph and table must change together](#notreference4---worked-connection---a-formula-graph-and-table-must-change-together) |  |
+| NOT.Reference:4.1 | [Construct the expressions and their interpretation](#notreference41---construct-the-expressions-and-their-interpretation) |  |
+| NOT.Reference:4.2 | [Translate only as far as the receiving question allows](#notreference42---translate-only-as-far-as-the-receiving-question-allows) |  |
+| NOT.Reference:4.3 | [Interpret an edit before propagating it](#notreference43---interpret-an-edit-before-propagating-it) |  |
+| NOT.Reference:4.4 | [Change the operation and revisit the affected construction](#notreference44---change-the-operation-and-revisit-the-affected-construction) |  |
+| NOT.Reference:5 | [Conditions of use, checks and recurring failures](#notreference5---conditions-of-use-checks-and-recurring-failures) |  |
+| NOT.Reference:6 | [Consequences and Architectural Rationale](#notreference6---consequences-and-architectural-rationale) |  |
+| NOT.Reference:7 | [Shared sources, alternatives and refresh](#notreference7---shared-sources-alternatives-and-refresh) |  |
+| NOT.Reference:8 | [Relations to the rest of the Suite](#notreference8---relations-to-the-rest-of-the-suite) |  |
 
 ## Part A - Design what can be expressed and done
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [NOT.1 - Choose the Distinctions and Operations a Notation Must Support](#not1---choose-the-distinctions-and-operations-a-notation-must-support) | Usable, evolving | notation design; reader operation; consequential distinction; expression gallery; requirement. What must a reader distinguish, infer or change using this notation? | C.2.8 for recovered structure; A.6.3.RT.OE for an expression under available rules; NOT.2/.3/.7 for construction and repair. |
-| 2 | [NOT.2 - Define Expression Rules for Recoverable Binding and Composition](#not2---define-expression-rules-for-recoverable-binding-and-composition) | Usable, evolving | syntax; grammar; grouping; binding; scope; reference; composition. Which rules let users form expressions and recover their grouping, name bindings and connections? | NOT.1 for the operation; A.6.3.RT for relation and expression distinctions; NOT.3/.4 and CMP.12 for interpretation and transformation. |
-| 3 | [NOT.3 - Give Expressions an Operative Interpretation](#not3---give-expressions-an-operative-interpretation) | Usable, evolving | semantics; interpretation; tacit operation; diagram reading; consequence; evaluator. Which operations let a prepared reader obtain a result from these signs? | NOT.2 for formed expressions; MATH.18 for mathematical interpretation; CMP.12 when an effective interpreter is needed. |
-| 4 | [NOT.4 - Construct Transformations of Expressions That Preserve Their Use](#not4---construct-transformations-of-expressions-that-preserve-their-use) | Usable, evolving | rewrite; substitution; graph transformation; side condition; preserved observation; equality saturation. Which expression changes preserve the receiving use, and under what conditions? | NOT.2/.3 for binding and meaning; MATH.17/.18 for composition and interpretation; CMP.12 for executable transformation. |
+| 1 | [NOT.1 - Choose the Distinctions and Operations a Notation Must Support](#not1---choose-the-distinctions-and-operations-a-notation-must-support) | Stable | notation design; reader operation; consequential distinction; expression gallery; requirement. What must a reader distinguish, infer or change using this notation? | C.2.8 for recovered structure; A.6.3.RT.OE for an expression under available rules; NOT.2/.3/.7 for construction and repair. |
+| 2 | [NOT.2 - Define Expression Rules for Recoverable Binding and Composition](#not2---define-expression-rules-for-recoverable-binding-and-composition) | Stable | syntax; grammar; grouping; binding; scope; reference; composition. Which rules let users form expressions and recover their grouping, name bindings and connections? | NOT.1 for the operation; A.6.3.RT for relation and expression distinctions; NOT.3/.4 and CMP.12 for interpretation and transformation. |
+| 3 | [NOT.3 - Give Expressions an Operative Interpretation](#not3---give-expressions-an-operative-interpretation) | Stable | semantics; interpretation; tacit operation; diagram reading; consequence; evaluator. Which operations let a prepared reader obtain a result from these signs? | NOT.2 for formed expressions; MATH.18 for mathematical interpretation; CMP.12 when an effective interpreter is needed. |
+| 4 | [NOT.4 - Construct Transformations of Expressions That Preserve Their Use](#not4---construct-transformations-of-expressions-that-preserve-their-use) | Stable | rewrite; substitution; graph transformation; side condition; preserved observation; equality saturation. Which expression changes preserve the receiving use, and under what conditions? | NOT.2/.3 for binding and meaning; MATH.17/.18 for composition and interpretation; CMP.12 for executable transformation. |
 
 ## Part B - Translate, combine and improve notations
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [NOT.5 - Translate between Notations while Tracking Lost Distinctions](#not5---translate-between-notations-while-tracking-lost-distinctions) | Usable, evolving | translation; abstraction; many-to-one mapping; information loss; complement; round trip. What can the receiver recover, and which discarded distinctions must accompany the translation? | NOT.3 for the interpretation; MATH.2/.7/.18 for identification and preserved relations; NOT.6 for continued joint use. |
-| 2 | [NOT.6 - Coordinate Complementary Representations through Shared References](#not6---coordinate-complementary-representations-through-shared-references) | Usable, evolving | multiple representations; shared reference; linked view; synchronization; update intent; constraint conflict. Which correspondences let readers combine results and propagate an intended change between representations? | NOT.5 for translation limits; MATH.18 and C.29 for correspondence; C.37.MP when representations describe a working method. |
-| 3 | [NOT.7 - Redesign a Notation around the Reader's Difficult Operations](#not7---redesign-a-notation-around-the-readers-difficult-operations) | Usable, evolving | notation redesign; cognitive dimensions; dependency; editing burden; preparation; comparison. Which change makes the difficult operation easier, and where does it move effort? | NOT.1–.6 for requirements and operative rules; C.2.8, EXD and HCD for recovery, explanation and capability questions. |
-| 4 | [NOT.8 - Construct Temporal or Embodied Notation with a Reading Procedure](#not8---construct-temporal-or-embodied-notation-with-a-reading-procedure) | Usable, evolving | temporal notation; embodied notation; rhythm; gesture; frame; segmentation; replay; enactment. How can order, duration or movement be expressed with a usable reading procedure? | NOT.1–.7 for design and interpretation; CMP.12 for an effective interpreter; B.5.MPC for physical realization. |
+| 1 | [NOT.5 - Translate between Notations while Tracking Lost Distinctions](#not5---translate-between-notations-while-tracking-lost-distinctions) | Stable | translation; abstraction; many-to-one mapping; information loss; complement; round trip. What can the receiver recover, and which discarded distinctions must accompany the translation? | NOT.3 for the interpretation; MATH.2/.7/.18 for identification and preserved relations; NOT.6 for continued joint use. |
+| 2 | [NOT.6 - Coordinate Complementary Representations through Shared References](#not6---coordinate-complementary-representations-through-shared-references) | Stable | multiple representations; shared reference; linked view; synchronization; update intent; constraint conflict. Which correspondences let readers combine results and propagate an intended change between representations? | NOT.5 for translation limits; MATH.18 and C.29 for correspondence; C.37.MP when representations describe a working method. |
+| 3 | [NOT.7 - Redesign a Notation around the Reader's Difficult Operations](#not7---redesign-a-notation-around-the-readers-difficult-operations) | Stable | notation redesign; cognitive dimensions; dependency; editing burden; preparation; comparison. Which change makes the difficult operation easier, and where does it move effort? | NOT.1–.6 for requirements and operative rules; C.2.8, EXD and HCD for recovery, explanation and capability questions. |
+| 4 | [NOT.8 - Construct Temporal or Embodied Notation with a Reading Procedure](#not8---construct-temporal-or-embodied-notation-with-a-reading-procedure) | Stable | temporal notation; embodied notation; rhythm; gesture; frame; segmentation; replay; enactment. How can order, duration or movement be expressed with a usable reading procedure? | NOT.1–.7 for design and interpretation; CMP.12 for an effective interpreter; B.5.MPC for physical realization. |
 
 # Notational Engineering - Readme
 
@@ -53,7 +70,7 @@ You can ask an assisting agent: “Explain this and give me your comments in the
 
 ## Practical entries
 
-These selected connections show how results pass between methods. They are examples, not a catalogue or a prescribed sequence. Enter where the difficulty occurs and stop when the needed result is available. The Table of Contents and each pattern's `Use this when` provide direct access for other questions. The [Preface](#notational-engineering---preface) explains the repertoire and develops the first connection in greater detail.
+These selected connections show how results pass between methods. They are examples, not a catalogue or a prescribed sequence. Enter where the difficulty occurs and stop when the needed result is available. The Table of Contents and each pattern's `Use this when` provide direct access for other questions. The [Architectural Reference](#notational-engineering-dpf-architectural-reference) explains the repertoire and develops the first connection in greater detail.
 
 ### NT-CHANGE-TOGETHER - Carry a changed request through several representations
 
@@ -73,7 +90,7 @@ These selected connections show how results pass between methods. They are examp
 
 4. **Interpret the request before propagating it.** The group asks for r(1,b)=4 while retaining the coefficient 2. NOT.6 uses the correspondence between that table row and the formula to obtain `2*1 + b = 4`, hence b=2. This new parameter supplies the graph and regenerates the table as `(0,2), (1,4), (2,6)`. The unedited old cells were derived values, not instructions to hold them fixed. If the request also keeps r(0,b)=1, it requires b=1 and conflicts with b=2. Return the two requirements to the group for a decision. If a separate record says that an output of 3 was observed at q=1, keep that observation beside the new prediction of 4. A parameter change does not revise the past event.
 
-5. **Reopen the relevant rule when an occurrence changes meaning.** Suppose each q occurrence now means a fresh sensor read. With successive readings 4 and 5 and b=1, `read() + read() + b` gives 10; `2*read() + b`, using the first reading, gives 9. Return to NOT.3 for the meaning of an occurrence and NOT.4 for the transformation's conditions. If one sample is intended, bind that sample once and reuse it. If two observations are intended, retain both. The measurement method supplies the meaning of a read; [CMP.12 - Construct an Interpreter or a Meaning-Preserving Translation](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/COMPUTATIONAL-THINKING-DPF.md#cmp12---construct-an-interpreter-or-a-meaning-preserving-translation) supplies an effective interpreter when software must execute the expression.
+5. **Reopen the relevant rule when an occurrence changes meaning.** Suppose each q occurrence now means a fresh sensor read. With successive readings 4 and 5 and b=1, `read() + read() + b` gives 10; `2*read() + b`, using the first reading, gives 9. Return to NOT.3 for the meaning of an occurrence and NOT.4 for the transformation's conditions. If one sample is intended, bind that sample once and reuse it. If two observations are intended, retain both. The measurement method supplies the meaning of a read; [CMP / CMP.12 - Construct an Interpreter or a Meaning-Preserving Translation](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/COMPUTATIONAL-THINKING-DPF.md#cmp12---construct-an-interpreter-or-a-meaning-preserving-translation) supplies an effective interpreter when software must execute the expression.
 
 6. **Repair the remaining burden only if it matters.** If common parameter changes are still laborious, [NOT.7 - Redesign a Notation around the Reader's Difficult Operations](#not7---redesign-a-notation-around-the-readers-difficult-operations) compares one accessible definition of b with repeated independent entries. The shared definition makes a common edit local but adds reference-following for individual readings. Keep the table for frequent lookup if that benefit warrants its maintenance. A later local exception returns to the sharing assumption: it cannot be expressed by a global parameter change alone.
 
@@ -103,13 +120,13 @@ This connection applies whenever changing medium or reader can remove references
 
 ## Continue with the contribution the work needs
 
-A notation can support thinking by keeping an assumption, dependency or alternative available for another operation. It can support methodology by making the descriptions of a working method usable together. When those descriptions serve different users, [C.37.MP - Maintain a Method Representation Profile](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c37mp---maintain-a-method-representation-profile) selects and relates the claims those uses need; NOT.6 constructs their notational correspondence.
+A notation can support thinking by keeping an assumption, dependency or alternative available for another operation. It can support methodology by making the descriptions of a working method usable together. When those descriptions serve different users, [FPF C.37.MP - Maintain a Method Representation Profile](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c37mp---maintain-a-method-representation-profile) selects and relates the claims those uses need; NOT.6 constructs their notational correspondence.
 
 A missing inference belongs to the mathematical, physical, computational or other subject method that supplies it. A reader who lacks an available operation may need explanation or capability development. Change the notation when its form, references or interpretation cause the difficulty; obtain the other contribution when that is what prevents the next result.
 
-# Notational Engineering - Preface
+# Notational Engineering DPF Architectural Reference
 
-## NOT.Preface:1 - Problem frame and the work of designing a notation
+## NOT.Reference:1 - Problem frame and the work of designing a notation
 
 Use this language when an expression's conventions need to be constructed or changed so that people or computational agents can work with it. The work may involve mathematical reasoning, a model, an algorithm, a diagram of a method, a movement score or another structured expression. Its subject supplies the distinctions and correct consequences; notational engineering supplies ways to make those distinctions expressible and usable.
 
@@ -119,7 +136,7 @@ Begin with one operation and an expression on which it matters. You need enough 
 
 Keep a sufficient notation when its conventions already serve the work. A.6.3.RT.OE in FPF helps construct an expression around a needed operation under available conventions. This DPF becomes useful when the conventions themselves leave a consequential distinction, interpretation or manipulation unsupported. Repair a mistaken subject account at its source; notation design can make that mistake visible without supplying the subject's answer.
 
-## NOT.Preface:2 - Forces that shape the choice
+## NOT.Reference:2 - Forces that shape the choice
 
 | Requirement | Choice it creates |
 | --- | --- |
@@ -132,15 +149,15 @@ Keep a sufficient notation when its conventions already serve the work. A.6.3.RT
 
 A notation's quality is relative to the work, reader and access conditions. C.2.8 characterizes the structure a reader can recover from a publication under stated resources and preparation. Use that common account when comparing expressions; the number of symbols or successful recognition of their names does not by itself measure useful understanding. C.11.DUA helps decide when an additional comparison can change the choice enough to warrant its cost.
 
-## NOT.Preface:3 - The methods and their connections
+## NOT.Reference:3 - The methods and their connections
 
-### NOT.Preface:3.1 - Design what can be expressed and done
+### NOT.Reference:3.1 - Design what can be expressed and done
 
 [NOT.1](#not1---choose-the-distinctions-and-operations-a-notation-must-support) derives a design requirement from the operation and from cases that need different treatment. [NOT.2](#not2---define-expression-rules-for-recoverable-binding-and-composition) constructs formation, grouping, scope and reference rules. [NOT.3](#not3---give-expressions-an-operative-interpretation) gives the resulting expressions a meaning and a route by which a prepared reader obtains a consequence. These contributions connect what the work needs, what can be written and what the reader can do with it.
 
 [NOT.4](#not4---construct-transformations-of-expressions-that-preserve-their-use) constructs changes to expressions, with their applicability conditions and preserved observations. A mathematical argument may justify a rewrite. A computational procedure may apply it. A surrounding physical or organizational use determines whether the preserved observation is sufficient. The same marks can therefore admit one transformation in a pure calculation and require another treatment when each occurrence performs an interaction.
 
-### NOT.Preface:3.2 - Translate, combine and improve notations
+### NOT.Reference:3.2 - Translate, combine and improve notations
 
 [NOT.5](#not5---translate-between-notations-while-tracking-lost-distinctions) constructs a translation with the receiving question in view. It identifies losses, needed supplements and the limits of returning to the source. [NOT.6](#not6---coordinate-complementary-representations-through-shared-references) keeps several useful forms in joint use: it connects their referents and dependencies, then interprets an edit before propagating its consequences. A derived display value and an independently observed value can require different treatment even when they occupy similar cells.
 
@@ -148,15 +165,15 @@ A notation's quality is relative to the work, reader and access conditions. C.2.
 
 There is no compulsory eight-stage process. Enter where the difficulty occurs. A translation loss can return to the original design requirement. An inconsistent update can expose a reference problem. A reading difficulty can require teaching a missing operation rather than another symbol. The working reminder for a longer combination is: **Recover the operation; make references and interpretation usable; carry the intended change; retain useful differences; repair the remaining burden.** The relevant bodies supply the conditions under which each continuation is needed.
 
-### NOT.Preface:3.3 - Constituent actions in ongoing work
+### NOT.Reference:3.3 - Constituent actions in ongoing work
 
 Defining an operator's binding rule can be part of constructing an expression grammar while a notation for working calculations is being designed. If users must transform an expression without changing its meaning, visually convenient grouping is insufficient: the interpretation of the transformed expression must remain recoverable. Symbol recognition and subject knowledge can both be present while the intermediate ability to follow binding and transformation rules is absent. The notation design must provide those rules and support their use; a successful reading of one expression does not establish the whole notation's suitability.
 
 FPF B.1.5.EW helps recover these constituent–whole connections; B.1.5.RS examines a proposed replacement. Use the parts of the vertical that can change the present result. A Method described here can require additional capability, available support and compatible resources at other grains.
 
-## NOT.Preface:4 - Worked connection - A formula, graph and table must change together
+## NOT.Reference:4 - Worked connection - A formula, graph and table must change together
 
-### NOT.Preface:4.1 - Construct the expressions and their interpretation
+### NOT.Reference:4.1 - Construct the expressions and their interpretation
 
 A group uses a simple rule, `r(q,b) = q + q + b`, over real numbers. Here q is one supplied input value and b is a shared parameter. The immediate work is to obtain values, inspect dependence on b and change that parameter. This stipulated mathematical example supplies its own interpretation; applying it to a price, measurement or other subject would require a separate account of that subject.
 
@@ -166,13 +183,13 @@ For an operation graph, connect the input q to both inputs of one addition, then
 
 NOT.4 permits the transformation `q + q + b` to `2*q + b` under that interpretation. The arithmetic identity supplies preservation for every admitted q and b. A shorter inscription may be useful for changing or explaining the rule, but its symbol count does not establish that every reader will find it easier.
 
-### NOT.Preface:4.2 - Translate only as far as the receiving question allows
+### NOT.Reference:4.2 - Translate only as far as the receiving question allows
 
 NOT.5 translates the rule at b=1 into the table `(0,1), (1,3), (2,5)`. Lookup at those three inputs survives. The table alone does not determine the value at q=3: both `2*q + 1` and `2*q + 1 + q*(q-1)*(q-2)` agree on its rows, but give 7 and 13 respectively at q=3.
 
 If the receiving work needs the general rule, retain that rule or a sufficient construction of it alongside the table. If it only needs the three listed values, the table can suffice. There is no reason to demand recovery of discarded distinctions that cannot affect the requested use.
 
-### NOT.Preface:4.3 - Interpret an edit before propagating it
+### NOT.Reference:4.3 - Interpret an edit before propagating it
 
 Now a participant asks that the output at q=1 become 4 while the coefficient 2 remains fixed. NOT.6 treats this as a constraint on the rule, not as an isolated replacement of a displayed cell. It gives `2*1 + b = 4`, hence b=2. The graph receives the new parameter; the table becomes `(0,2), (1,4), (2,6)`. Its former values were derived outputs, so they are recalculated.
 
@@ -180,7 +197,7 @@ If another participant also requires the old output at q=0 to remain 1, that req
 
 An independent measurement record is different again. If its row says that an observed output was 3, a parameter change does not change that past observation. Keep the record and updated prediction separately so that the difference can inform the subject inquiry. Correspondence between representations does not license overwriting every similarly named value.
 
-### NOT.Preface:4.4 - Change the operation and revisit the affected construction
+### NOT.Reference:4.4 - Change the operation and revisit the affected construction
 
 Suppose a later description replaces each occurrence of q with a fresh sensor read. This changes the operation assumed in :4.1. If consecutive reads return 4 and 5 while b=1, `read() + read() + b` returns 10; `2*read() + b` using the first reading returns 9. The former rewrite is still correct for a single supplied q, but it cannot be transferred to this new interpretation merely by replacing the printed name.
 
@@ -190,7 +207,7 @@ Finally, NOT.7 can compare the group’s editing arrangements. A single named b 
 
 The connected result is a usable rule, its complementary expressions and an account of what the change affects. An adequate answer may be the new table, the conflict, or the need for a different reading operation. This combination also applies to other expression families: the arithmetic and sensor supply the worked conditions, while the transferable work is to recover references, interpretation, loss and intended change.
 
-## NOT.Preface:5 - Conditions of use, checks and recurring failures
+## NOT.Reference:5 - Conditions of use, checks and recurring failures
 
 When a combined use needs checking, ask whether its participants can recover the same subject references, whether each operation has the inputs and interpretation it consumes, and whether a change reaches every dependent expression that matters. Keep independent observations, intended constraints and derived values distinguishable. An unchanged source can retain its previous interpretation; a new receiving question can make a formerly harmless loss important.
 
@@ -202,7 +219,7 @@ Temporal and embodied uses require further care. Recover the reference that dete
 
 Additional assurance should serve the next use. A small construction and its changed-condition case can settle a local design choice. A claim about faster human learning or broad usability requires more than that construction. Seek the corresponding evidence when that stronger claim matters; retain the useful bounded result meanwhile.
 
-## NOT.Preface:6 - Consequences and Architectural Rationale
+## NOT.Reference:6 - Consequences and Architectural Rationale
 
 This repertoire makes the expression and its interpretation available for deliberate work. Practitioners can expose a tacit step, preserve a useful rewrite, return from a lossy summary, coordinate complementary forms or redesign an expensive operation. They can hand a named contribution to another person or computational agent without assuming that the receiving agent reconstructs the same conventions unaided.
 
@@ -214,7 +231,7 @@ Translation and coordination also differ. A one-way translation may deliberately
 
 The two Parts group this presentation. They do not prescribe an order of work or imply that all eight methods are parts of every project. A narrower mathematical, programming or performance profile can reuse several bodies and add the rules peculiar to its practice. Such a profile must state which new operation or distinction it adds. The present language provides no complete grammar for every subject and no general theory of perception or learning.
 
-## NOT.Preface:7 - Shared sources, alternatives and refresh
+## NOT.Reference:7 - Shared sources, alternatives and refresh
 
 The bodies preserve their adopted contributions and limits. Several source lines also explain the arrangement of the language as a whole.
 
@@ -229,24 +246,24 @@ The bodies preserve their adopted contributions and limits. Several source lines
 
 Current rewriting and binding research can improve how expressions are transformed; bidirectional methods can change which updates are recoverable; empirical studies can revise the assumed burden for particular readers and media. Reopen the affected method when such a contribution changes its construction or supported use. A newer source or more familiar convention alone does not establish a better choice.
 
-## NOT.Preface:8 - Relations to the rest of the Suite
+## NOT.Reference:8 - Relations to the rest of the Suite
 
-[Mathematical Thinking](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-PRACTICE-DPF.md) supplies objects, compositions, arguments and interpretations used when the represented construction is mathematical. [Computational Thinking](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/COMPUTATIONAL-THINKING-DPF.md) supplies effective procedures, including interpreters and translations. NOT designs the expression conventions those methods can consume; it does not substitute a mathematical meaning for an algorithm that obtains its consequence.
+[Mathematical Thinking (MATH)](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-PRACTICE-DPF.md) supplies objects, compositions, arguments and interpretations used when the represented construction is mathematical. [Computational Thinking (CMP)](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/COMPUTATIONAL-THINKING-DPF.md) supplies effective procedures, including interpreters and translations. NOT designs the expression conventions those methods can consume; it does not substitute a mathematical meaning for an algorithm that obtains its consequence.
 
-[Mathematical Modeling](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md), [Physical Thinking](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/PHYSICAL-THINKING-DPF.md) and FPF C.29 connect a subject with mathematical constructions and interpreted observations. B.5.MPC coordinates mathematical, physical and computational contributions when they are jointly needed. NOT.5–.6 help express those correspondences while keeping the related objects and claims distinguishable.
+[Mathematical Modeling (MMP)](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md), [Physical Thinking (PHY)](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/PHYSICAL-THINKING-DPF.md) and FPF C.29 connect a subject with mathematical constructions and interpreted observations. B.5.MPC coordinates mathematical, physical and computational contributions when they are jointly needed. NOT.5–.6 help express those correspondences while keeping the related objects and claims distinguishable.
 
 Within [Engineering DPF Suite](https://github.com/ailev/FPF/blob/main/DPFs/Engineering%20DPF%20Suite/README.md), Method Engineering's C.37.MP relates the claims needed when different uses of a working method require complementary descriptions; EXD develops explanations; HCD develops and assesses capabilities. They remain external contributions, used when the work needs that result. A notation repair can help any of them, while an operation missing from the method or from the reader's preparation needs the corresponding method or learning contribution.
 
-The [Suite Reference](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) locates the publications and their shared architecture. Use the cited body's operative rules when its question arises. If an available edition changes those rules or no longer supplies the result your use needs, revisit that dependency rather than assuming that the shared PatternID guarantees compatibility.
+The [Suite Reference (Foundational)](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) locates the publications and their shared architecture. Use the cited body's operative rules when its question arises. If an available edition changes those rules or no longer supplies the result your use needs, revisit that dependency rather than assuming that the shared PatternID guarantees compatibility.
 
-## NOT.Preface:End
+## NOT.Reference:End
 
 # Part A - Design what can be expressed and done
 
 ## NOT.1 - Choose the Distinctions and Operations a Notation Must Support
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### NOT.1:1 - Problem frame
@@ -439,7 +456,7 @@ The contrast-based requirement construction and the two worked cases are the pre
 ## NOT.2 - Define Expression Rules for Recoverable Binding and Composition
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### NOT.2:1 - Problem frame
@@ -661,7 +678,7 @@ Revisit the retained choice when a needed expression cannot recover its referenc
 ## NOT.3 - Give Expressions an Operative Interpretation
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### NOT.3:1 - Problem frame
@@ -849,7 +866,7 @@ Several useful readings may expose the same structure differently. Choosing amon
 ## NOT.4 - Construct Transformations of Expressions That Preserve Their Use
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### NOT.4:1 - Problem frame
@@ -1054,7 +1071,7 @@ The source contributions are combined here with notation requirements and reader
 ## NOT.5 - Translate between Notations while Tracking Lost Distinctions
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### NOT.5:1 - Problem frame
@@ -1261,7 +1278,7 @@ This synthesis adapts those computational constructions to notation design by ma
 ## NOT.6 - Coordinate Complementary Representations through Shared References
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### NOT.6:1 - Problem frame
@@ -1454,7 +1471,7 @@ The synthesis retains cognitive and computational contributions at their own sco
 ## NOT.7 - Redesign a Notation around the Reader's Difficult Operations
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### NOT.7:1 - Problem frame
@@ -1661,7 +1678,7 @@ The synthesis connects those notation-design methods with C.2.8's qualified stru
 ## NOT.8 - Construct Temporal or Embodied Notation with a Reading Procedure
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### NOT.8:1 - Problem frame

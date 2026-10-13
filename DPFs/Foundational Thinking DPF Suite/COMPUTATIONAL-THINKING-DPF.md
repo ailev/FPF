@@ -1,5 +1,7 @@
 # Computational Thinking DPF
 
+**DocID:** `CMP` within **FPF Library**.
+
 > A pattern language for constructing, understanding, analyzing and transforming algorithms, including their interpretation and interaction.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
@@ -8,11 +10,11 @@
 - **License:** © 2026 Anatoly Levenchuk. Original framework text: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Cited sources retain their own terms.
 - **Publication:** [FPF ecosystem repository](https://github.com/ailev/FPF)
 
-Computational Thinking here means algorithmics within computer science. Begin with a question about how to obtain an answer, maintain a required behavior, or change a procedure. Use the Table of Contents to find a relevant method, then open its Problem frame, Solution, worked cases and checklist. The Readme follows worked connections between methods; the Preface explains their rationale, prerequisites and limits.
+Computational Thinking here means algorithmics within computer science. Begin with a question about how to obtain an answer, maintain a required behavior, or change a procedure. Use the Table of Contents to find a relevant method, then open its Problem frame, Solution, worked cases and checklist. The Readme follows worked connections between methods; the Architectural Reference explains their rationale, prerequisites and limits.
 
 The reference code **CMP** names this DPF. Its numbers are stable pattern addresses; § shows position within a Part. Numerical algorithms are one application alongside symbolic, discrete, randomized and learning procedures. A computing device enters when its operations or physical limits matter to the algorithm or its realization.
 
-This publication belongs to the [Foundational Thinking DPF Suite](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/README.md). Its [Reference](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) explains the mathematical, physical, computational and methodological connections. References such as C.29.2 and B.5.MPC name patterns in [FPF Core](https://github.com/ailev/FPF/blob/main/FPF-Spec.md). Open a supplier when its contribution is needed; revisit a receiving conclusion when that contribution changes.
+This publication belongs to the [Foundational Thinking DPF Suite](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/README.md). Its [Reference (Foundational)](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) explains the mathematical, physical, computational and methodological connections. References such as C.29.2 and B.5.MPC name patterns in [FPF Core](https://github.com/ailev/FPF/blob/main/FPF-Spec.md). Open a supplier when its contribution is needed; revisit a receiving conclusion when that contribution changes.
 
 To cite this edition: Anatoly Levenchuk, *Computational Thinking DPF*, [FPF ecosystem repository](https://github.com/ailev/FPF). Include the version date shown above.
 
@@ -23,36 +25,47 @@ To cite this edition: Anatoly Levenchuk, *Computational Thinking DPF*, [FPF ecos
 | Unit | Title | Use |
 | --- | --- | --- |
 | Readme | [Computational Thinking - Readme](#computational-thinking---readme) | Follow worked connections between algorithmic methods. |
-| Preface | [Computational Thinking - Preface](#computational-thinking---preface) | Understand the connected methods, their rationale, sources and limits. |
+| Architectural Reference | [Computational Thinking DPF Architectural Reference](#computational-thinking-dpf-architectural-reference) | Understand the connected methods, their rationale, sources and limits. |
+| CMP.Reference:1 | [Problem frame and the algorithmic difficulty](#cmpreference1---problem-frame-and-the-algorithmic-difficulty) |  |
+| CMP.Reference:2 | [Forces that shape the construction](#cmpreference2---forces-that-shape-the-construction) |  |
+| CMP.Reference:3 | [The methods and their connections](#cmpreference3---the-methods-and-their-connections) |  |
+| CMP.Reference:3.1 | [Construct an algorithm](#cmpreference31---construct-an-algorithm) |  |
+| CMP.Reference:3.2 | [Control error and computational cost](#cmpreference32---control-error-and-computational-cost) |  |
+| CMP.Reference:3.3 | [Interpret, transform and compose computations](#cmpreference33---interpret-transform-and-compose-computations) |  |
+| CMP.Reference:3.4 | [Constituent actions in ongoing work](#cmpreference34---constituent-actions-in-ongoing-work) |  |
+| CMP.Reference:4 | [Worked connection - One best selection becomes every best selection](#cmpreference4---worked-connection---one-best-selection-becomes-every-best-selection) |  |
+| CMP.Reference:5 | [Use checks, assumptions and recurring failures](#cmpreference5---use-checks-assumptions-and-recurring-failures) |  |
+| CMP.Reference:6 | [Consequences and Architectural Rationale](#cmpreference6---consequences-and-architectural-rationale) |  |
+| CMP.Reference:7 | [Shared sources, alternatives and relations](#cmpreference7---shared-sources-alternatives-and-relations) |  |
 
 ## Part A - Construct an algorithm
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [CMP.1 - Solve One Problem through Another or Transfer a Limit (Computational Reduction)](#cmp1---solve-one-problem-through-another-or-transfer-a-limit-computational-reduction) | Usable, evolving | reduction; solver reuse; input conversion; answer recovery; computability; complexity. Can this problem be solved through another one, and in which direction does a limit transfer? | C.29.2 for the required answer and computational model; MATH.17/.18 for composition and interpretation. |
-| 2 | [CMP.2 - Derive a Recursive Procedure from a Problem Decomposition](#cmp2---derive-a-recursive-procedure-from-a-problem-decomposition) | Usable, evolving | recursion; decomposition; induction; sufficient return; termination. What must smaller problems return so that their answers construct the required whole? | MATH.4/.12 for inductive or extracted constructions; C.29.2 for the computational formulation. |
-| 3 | [CMP.3 - Share and Schedule Repeated Subcomputations](#cmp3---share-and-schedule-repeated-subcomputations) | Usable, evolving | memoization; dynamic programming; sharing; dependency order; effects; storage; recomputation. Which repeated subcomputations can share an answer, in what order, and what should be retained or recomputed within the memory limit? | CMP.2 for the recurrence; CMP.10 for representation and operation costs. |
-| 4 | [CMP.4 - Construct Computational Search with Justified Exclusions](#cmp4---construct-computational-search-with-justified-exclusions) | Usable, evolving | search; branch and bound; pruning; witness; completeness; interruption. Which alternatives can be excluded while preserving the requested answer? | MATH.20 for bounds; CMP.5 for relaxation; MMP.10 for a subject constraint formulation when needed. |
-| 5 | [CMP.5 - Bound an Optimum or Recover a Feasible Candidate through a Relaxed Problem](#cmp5---bound-an-optimum-or-recover-a-feasible-candidate-through-a-relaxed-problem) | Usable, evolving | relaxation; feasible recovery; upper and lower bounds; approximation. How can an easier problem improve or bound an answer to the original problem? | MATH.20 for comparison; CMP.4 for bounded search; CMP.8 for controlled approximation. |
-| 6 | [CMP.6 - Derive an Iterative Computational Update from Local Information](#cmp6---derive-an-iterative-computational-update-from-local-information) | Usable, evolving | local search; iterative update; neighborhood; step choice; noisy feedback; stopping. What does an admissible local change improve, and what follows on stopping? | MATH.10/.20/.21 for variation, bounds or convergence; CMP.7 for learning that needs an update. |
-| 7 | [CMP.7 - Construct a Learner from Examples and Feedback](#cmp7---construct-a-learner-from-examples-and-feedback) | Usable, evolving | learning algorithm; rule class; inductive restriction; feedback; training fit; generalization. Which rule should examples select, and what supports its further use? | CMP.4/.6 for selection or updating; MMP.7 for a modeled data source; C.11.DUA for consequential additional inquiry. |
+| 1 | [CMP.1 - Solve One Problem through Another or Transfer a Limit (Computational Reduction)](#cmp1---solve-one-problem-through-another-or-transfer-a-limit-computational-reduction) | Stable | reduction; solver reuse; input conversion; answer recovery; computability; complexity. Can this problem be solved through another one, and in which direction does a limit transfer? | C.29.2 for the required answer and computational model; MATH.17/.18 for composition and interpretation. |
+| 2 | [CMP.2 - Derive a Recursive Procedure from a Problem Decomposition](#cmp2---derive-a-recursive-procedure-from-a-problem-decomposition) | Stable | recursion; decomposition; induction; sufficient return; termination. What must smaller problems return so that their answers construct the required whole? | MATH.4/.12 for inductive or extracted constructions; C.29.2 for the computational formulation. |
+| 3 | [CMP.3 - Share and Schedule Repeated Subcomputations](#cmp3---share-and-schedule-repeated-subcomputations) | Stable | memoization; dynamic programming; sharing; dependency order; effects; storage; recomputation. Which repeated subcomputations can share an answer, in what order, and what should be retained or recomputed within the memory limit? | CMP.2 for the recurrence; CMP.10 for representation and operation costs. |
+| 4 | [CMP.4 - Construct Computational Search with Justified Exclusions](#cmp4---construct-computational-search-with-justified-exclusions) | Stable | search; branch and bound; pruning; witness; completeness; interruption. Which alternatives can be excluded while preserving the requested answer? | MATH.20 for bounds; CMP.5 for relaxation; MMP.10 for a subject constraint formulation when needed. |
+| 5 | [CMP.5 - Bound an Optimum or Recover a Feasible Candidate through a Relaxed Problem](#cmp5---bound-an-optimum-or-recover-a-feasible-candidate-through-a-relaxed-problem) | Stable | relaxation; feasible recovery; upper and lower bounds; approximation. How can an easier problem improve or bound an answer to the original problem? | MATH.20 for comparison; CMP.4 for bounded search; CMP.8 for controlled approximation. |
+| 6 | [CMP.6 - Derive an Iterative Computational Update from Local Information](#cmp6---derive-an-iterative-computational-update-from-local-information) | Stable | local search; iterative update; neighborhood; step choice; noisy feedback; stopping. What does an admissible local change improve, and what follows on stopping? | MATH.10/.20/.21 for variation, bounds or convergence; CMP.7 for learning that needs an update. |
+| 7 | [CMP.7 - Construct a Learner from Examples and Feedback](#cmp7---construct-a-learner-from-examples-and-feedback) | Stable | learning algorithm; rule class; inductive restriction; feedback; training fit; generalization. Which rule should examples select, and what supports its further use? | CMP.4/.6 for selection or updating; MMP.7 for a modeled data source; C.11.DUA for consequential additional inquiry. |
 
 ## Part B - Control error and computational cost
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [CMP.8 - Construct an Approximate Computation with Controlled Error](#cmp8---construct-an-approximate-computation-with-controlled-error) | Usable, evolving | approximation; scaling; discretization; finite stopping; rounding; conditioning. How can a permitted error reduce computation while retaining the answer quality needed next? | MATH.20/.21 for bounds and convergence; CMP.3/.10 for shared computation and representation. |
-| 2 | [CMP.9 - Construct a Randomized Estimator or Sampling Procedure](#cmp9---construct-a-randomized-estimator-or-sampling-procedure) | Usable, evolving | randomized algorithm; sampling; estimator; proposal; dependence; stopping time. Which random procedure supplies the required law or finite-run estimate? | A supplied probability target, with MMP.7 where modeled; CMP.10 for access and storage. |
-| 3 | [CMP.10 - Choose a Computational Representation for Its Access and Update Operations](#cmp10---choose-a-computational-representation-for-its-access-and-update-operations) | Usable, evolving | data structures; representation; queries; updates; conversion; arithmetic; memory. Which representation makes the required operations affordable? | CMP.2/.3 for compositional summaries and shared work; MATH for preserved structure. |
-| 4 | [CMP.11 - Derive a Computational Lower Bound from Indistinguishable Inputs](#cmp11---derive-a-computational-lower-bound-from-indistinguishable-inputs) | Usable, evolving | lower bound; adversary; indistinguishable inputs; decision tree; communication; error. What must every algorithm in this model observe or communicate? | MATH.19/.20 for argument and bound; CMP.1 for reduction; C.29.2 for the cost model. |
+| 1 | [CMP.8 - Construct an Approximate Computation with Controlled Error](#cmp8---construct-an-approximate-computation-with-controlled-error) | Stable | approximation; scaling; discretization; finite stopping; rounding; conditioning. How can a permitted error reduce computation while retaining the answer quality needed next? | MATH.20/.21 for bounds and convergence; CMP.3/.10 for shared computation and representation. |
+| 2 | [CMP.9 - Construct a Randomized Estimator or Sampling Procedure](#cmp9---construct-a-randomized-estimator-or-sampling-procedure) | Stable | randomized algorithm; sampling; estimator; proposal; dependence; stopping time. Which random procedure supplies the required law or finite-run estimate? | A supplied probability target, with MMP.7 where modeled; CMP.10 for access and storage. |
+| 3 | [CMP.10 - Choose a Computational Representation for Its Access and Update Operations](#cmp10---choose-a-computational-representation-for-its-access-and-update-operations) | Stable | data structures; representation; queries; updates; conversion; arithmetic; memory. Which representation makes the required operations affordable? | CMP.2/.3 for compositional summaries and shared work; MATH for preserved structure. |
+| 4 | [CMP.11 - Derive a Computational Lower Bound from Indistinguishable Inputs](#cmp11---derive-a-computational-lower-bound-from-indistinguishable-inputs) | Stable | lower bound; adversary; indistinguishable inputs; decision tree; communication; error. What must every algorithm in this model observe or communicate? | MATH.19/.20 for argument and bound; CMP.1 for reduction; C.29.2 for the cost model. |
 
 ## Part C - Interpret, transform and compose computations
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [CMP.12 - Construct an Interpreter or a Meaning-Preserving Translation](#cmp12---construct-an-interpreter-or-a-meaning-preserving-translation) | Usable, evolving | interpreter; compiler; semantics; binding; environment; control; observable behavior. How does an expression execute, and what must its translation preserve? | MATH.5/.17/.18 for expression composition and interpretation; C.29.3 when realizing the primitives. |
-| 2 | [CMP.13 - Construct a Computational Abstraction for the Property Being Asked](#cmp13---construct-a-computational-abstraction-for-the-property-being-asked) | Usable, evolving | abstract interpretation; reachable states; sound approximation; fixed point; refinement. Which cheaper computation supports this property, and can its counterexample occur? | MATH.2/.18 for identification and interpretation; CMP.3/.4 for scheduling and exploration. |
-| 3 | [CMP.14 - Compose Interacting Computations through Their Required Observations](#cmp14---compose-interacting-computations-through-their-required-observations) | Usable, evolving | concurrent algorithm; shared state; protocol; atomicity; interference; progress. Which interactions preserve the required whole behavior? | CMP.3/.10/.12 for dependencies, representation and semantics; C.29.3 for implementation assumptions. |
+| 1 | [CMP.12 - Construct an Interpreter or a Meaning-Preserving Translation](#cmp12---construct-an-interpreter-or-a-meaning-preserving-translation) | Stable | interpreter; compiler; semantics; binding; environment; control; observable behavior. How does an expression execute, and what must its translation preserve? | MATH.5/.17/.18 for expression composition and interpretation; C.29.3 when realizing the primitives. |
+| 2 | [CMP.13 - Construct a Computational Abstraction for the Property Being Asked](#cmp13---construct-a-computational-abstraction-for-the-property-being-asked) | Stable | abstract interpretation; reachable states; sound approximation; fixed point; refinement. Which cheaper computation supports this property, and can its counterexample occur? | MATH.2/.18 for identification and interpretation; CMP.3/.4 for scheduling and exploration. |
+| 3 | [CMP.14 - Compose Interacting Computations through Their Required Observations](#cmp14---compose-interacting-computations-through-their-required-observations) | Stable | concurrent algorithm; shared state; protocol; atomicity; interference; progress. Which interactions preserve the required whole behavior? | CMP.3/.10/.12 for dependencies, representation and semantics; C.29.3 for implementation assumptions. |
 
 # Computational Thinking - Readme
 
@@ -92,7 +105,7 @@ The same connection can supply a premise about control, binding, errors or effec
 
 First specify whether the result is a value, one selection attaining it, all such selections, or an allowed approximation. [CMP.2 - Derive a Recursive Procedure from a Problem Decomposition](#cmp2---derive-a-recursive-procedure-from-a-problem-decomposition) constructs subproblems with enough returned information to assemble that answer. [CMP.3 - Share and Schedule Repeated Subcomputations](#cmp3---share-and-schedule-repeated-subcomputations) uses their identity and dependencies to decide what can be computed once, when it is needed, and what must remain available for reconstruction.
 
-CMP.Preface:4 supplies a small connected case. Each distinct item may be selected at most once; costs and values add, and capacity is 5.
+CMP.Reference:4 supplies a small connected case. Each distinct item may be selected at most once; costs and values add, and capacity is 5.
 
 | Item | Cost | Value |
 | --- | ---: | ---: |
@@ -130,9 +143,9 @@ Now let a restart preserve the counter but lose completed-request records. Retry
 
 Finally, keep the response question separate. Avoiding repeated effects does not require eventual message delivery. Eventual response does: it needs adequate retry, delivery, processing and retained-state conditions for both request and reply. Those conditions still provide no fixed deadline. Reopen only the affected assumption when it changes. The same separation applies to shared calculations, updates and message protocols beyond this counter example; the direct methods determine their actual identity, atomicity, storage and progress requirements.
 
-# Computational Thinking - Preface
+# Computational Thinking DPF Architectural Reference
 
-## CMP.Preface:1 - Problem frame and the algorithmic difficulty
+## CMP.Reference:1 - Problem frame and the algorithmic difficulty
 
 Use this language when you need to construct, understand, analyze or change an algorithm. The work can concern a finite answer, a continuing response, a learning rule, or several processes whose interaction matters. A practitioner may be designing the procedure, reviewing one produced by an AI agent, explaining why it works, or deciding how to divide the work among implementations and performers.
 
@@ -144,7 +157,7 @@ Start with elementary algorithmic reasoning: inputs, operations, retained state,
 
 Use a known adequate algorithm directly when there is no construction or interpretation difficulty. If the unsettled question is what the subject model means, return to mathematical modeling. If it concerns whether a machine supplies the required operations, timing or physical resources, connect the algorithmic requirements to physical realization. These returns let the relevant specialist or agent work on the missing contribution.
 
-## CMP.Preface:2 - Forces that shape the construction
+## CMP.Reference:2 - Forces that shape the construction
 
 | Requirement | Choice it creates |
 | --- | --- |
@@ -157,9 +170,9 @@ Use a known adequate algorithm directly when there is no construction or interpr
 
 C.29.2 in FPF supplies the computational formulation: what is represented, what answer is required and which operations and resources are available. C.11.DUA helps choose how much additional inquiry or assurance the work warrants. The CMP methods construct the algorithmic contribution needed under that formulation. They do not require a proof or benchmark that cannot change the next useful action.
 
-## CMP.Preface:3 - The methods and their connections
+## CMP.Reference:3 - The methods and their connections
 
-### CMP.Preface:3.1 - Construct an algorithm
+### CMP.Reference:3.1 - Construct an algorithm
 
 [CMP.1](#cmp1---solve-one-problem-through-another-or-transfer-a-limit-computational-reduction) connects a new computational problem to a solver for another one. Its conversion and answer recovery also determine the direction in which an impossibility or resource result can travel. [CMP.2](#cmp2---derive-a-recursive-procedure-from-a-problem-decomposition) constructs a recursive procedure by choosing smaller problems, sufficient returned information and a reason for progress. [CMP.3](#cmp3---share-and-schedule-repeated-subcomputations) turns repeated subcomputations into a shared dependency structure, choosing evaluation order and what to store or recompute.
 
@@ -167,7 +180,7 @@ C.29.2 in FPF supplies the computational formulation: what is represented, what 
 
 [CMP.6](#cmp6---derive-an-iterative-computational-update-from-local-information) constructs an admissible iterative change from local information. The neighborhood and progress argument decide what stopping establishes. [CMP.7](#cmp7---construct-a-learner-from-examples-and-feedback) constructs the procedure that selects or updates a rule from examples and feedback. It separates that procedure from the resulting rule and separates successful optimization from what the rule supports on further cases. Search or iterative updating can supply its obtaining operation.
 
-### CMP.Preface:3.2 - Control error and computational cost
+### CMP.Reference:3.2 - Control error and computational cost
 
 [CMP.8](#cmp8---construct-an-approximate-computation-with-controlled-error) turns a permitted approximation into an effective computation with an error and stopping account. Mathematical convergence supplies part of the reasoning; the algorithm still needs usable operations and a finite return condition. [CMP.9](#cmp9---construct-a-randomized-estimator-or-sampling-procedure) constructs sampling and estimation, retaining the target law, dependence and stopping conditions. A random output, a sample distribution and an estimate have different uses.
 
@@ -175,7 +188,7 @@ C.29.2 in FPF supplies the computational formulation: what is represented, what 
 
 These methods can change the construction in Part A. A prohibitive shared table can motivate scaling, another representation or a weaker answer. A lower bound can redirect the question rather than motivate another attempt at the same impossible guarantee. A randomized construction remains subject to the output conditions the receiving work needs.
 
-### CMP.Preface:3.3 - Interpret, transform and compose computations
+### CMP.Reference:3.3 - Interpret, transform and compose computations
 
 [CMP.12](#cmp12---construct-an-interpreter-or-a-meaning-preserving-translation) constructs an evaluator or a translation by specifying expression meaning, binding, primitive operations and control. The preservation relation follows what the receiving computation can observe. [CMP.13](#cmp13---construct-a-computational-abstraction-for-the-property-being-asked) constructs a cheaper abstract computation for a selected property, with operations that justify its conclusions and a way to reconstruct or refine an apparent counterexample. [CMP.14](#cmp14---compose-interacting-computations-through-their-required-observations) constructs the shared-state or communication behavior needed when computations interact, including the assumptions under which progress follows.
 
@@ -183,13 +196,13 @@ The returned operations can themselves become objects of further work: an algori
 
 There is no compulsory fourteen-stage process. A reader with an adequate formulation can enter at a missing bound or representation. A representation failure can return to the recurrence; a semantic failure can return to interpretation; a communication failure can return to composition. Keep the required result and the assumptions of these connections visible when different agents supply the contributions.
 
-### CMP.Preface:3.4 - Constituent actions in ongoing work
+### CMP.Reference:3.4 - Constituent actions in ongoing work
 
 Updating a visited set can be part of executing a graph-search algorithm while a route-finding task is under way. Changing the required answer from any route to a route with the fewest edges changes which frontier-selection discipline suffices; a successful visited-set update alone does not establish the stronger result. The practitioner needs to connect the local update, the algorithm's invariant and the route requirement, while retaining its representation and memory conditions. Knowing set operations and the desired route can leave that intermediate algorithmic reasoning missing.
 
 FPF B.1.5.EW helps recover these constituent–whole connections; B.1.5.RS examines a proposed replacement. Use the parts of the vertical that can change the present result. A Method described here can require additional capability, available support and compatible resources at other grains.
 
-## CMP.Preface:4 - Worked connection - One best selection becomes every best selection
+## CMP.Reference:4 - Worked connection - One best selection becomes every best selection
 
 Suppose a finite list contains individually identified options. Each may be chosen at most once. Costs are positive integers and values are nonnegative integers. A selection's cost and value are the respective sums for its chosen options; total cost must not exceed capacity W. The first request is the maximum value and one selection achieving it. These are stipulated model conditions; whether they describe an actual investment, experiment or production choice is a separate modeling question.
 
@@ -217,7 +230,7 @@ If the work later permits a near-optimal value, CMP.8 can trade a quantified rou
 
 The same connected method can be used with other finite recurrences and search constructions. Independent additivity and integer capacity belong to this example. A different problem may require different state, recurrence and bounds while preserving the need to connect answer, construction, retained information and cost.
 
-## CMP.Preface:5 - Use checks, assumptions and recurring failures
+## CMP.Reference:5 - Use checks, assumptions and recurring failures
 
 The worked cases use small inputs and explicit operations so that a reader can reconstruct the method and change a premise. A physical machine can provide different arithmetic, atomicity or memory behavior. An empirical data source can violate the probability or feedback assumptions used by an algorithmic argument. Carry those requirements to the appropriate implementation or subject inquiry when they matter to use.
 
@@ -242,7 +255,7 @@ Use the relevant body's checks where its operation enters; an unchanged supplier
 
 Being able to repeat a trace is useful preparation but leaves transfer to be tried. Ask the learner or assisting agent to change an input promise, required output or execution rule and recover the affected construction. Human learning, an AI agent's immediate performance and a learned rule's statistical generalization are different capability questions; their assessment should fit the intended work.
 
-## CMP.Preface:6 - Consequences and Architectural Rationale
+## CMP.Reference:6 - Consequences and Architectural Rationale
 
 The repertoire makes a computational contribution discussable before a finished program exists. A practitioner can construct a recurrence, identify a missing return, derive a bound, change a representation or expose a failing interaction. These results support implementation, explanation, reuse and further inquiry. Their cost ranges from tracing a few states to constructing a substantial new algorithm or proof.
 
@@ -256,7 +269,7 @@ Notations and methods of work also matter. An expression can hide binding or eva
 
 This arrangement permits several routes and several performers. An AI agent can propose code, a specialist can supply a bound and another procedure can check a property. Their contribution remains usable only with the meaning and conditions its receiver needs. A new source or capability can change one construction and the affected connections without replacing the whole language. An unsupported operation becomes a useful next inquiry when resolving it could change what the work can do.
 
-## CMP.Preface:7 - Shared sources, alternatives and relations
+## CMP.Reference:7 - Shared sources, alternatives and relations
 
 Erickson's [algorithm construction material](https://jeffe.cs.illinois.edu/teaching/algorithms/) and Morin's [Open Data Structures](https://opendatastructures.org/) support the connection between a problem, its representations, a constructed procedure and its argument. The bodies retain explicit conversions, recurrences and operation costs. Direct use of a known algorithm remains preferable when constructing another one adds no needed capability.
 
@@ -266,18 +279,18 @@ The approximation and learning sources cited in CMP.5-.9 connect a deliberately 
 
 Lamport's [A Science of Concurrent Programs](https://lamport.azurewebsites.net/tla/science-book.html) and the composition, memory and crash studies discussed in CMP.14 support its separation of observable behavior, permitted interaction and progress. Sequential composition is cheaper when interference is absent. More detailed composition arguments earn their place when shared observations or failures change what the whole computation can do. Each body gives the adopted contribution, serious alternative and conditions that would reopen its selection.
 
-The [Suite Reference](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) locates the related publications and explains their shared architecture. C.29.2 supplies computational formulation; C.29.3 physical realization; C.29.1 the transfer between mathematical accounts; C.29 the model-to-subject correspondence. B.5's inquiry methods support the next question when a limit or failure makes the old one insufficient. Notational Engineering supplies methods of expression design as those contributions become available; the operative rules stated in CMP remain usable without an unwritten supplier.
+The [Suite Reference (Foundational)](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) locates the related publications and explains their shared architecture. C.29.2 supplies computational formulation; C.29.3 physical realization; C.29.1 the transfer between mathematical accounts; C.29 the model-to-subject correspondence. B.5's inquiry methods support the next question when a limit or failure makes the old one insufficient. Notational Engineering supplies methods of expression design as those contributions become available; the operative rules stated in CMP remain usable without an unwritten supplier.
 
 The three Parts group the presentation. The fourteen bodies form a repertoire of related Methods, usable individually or in combinations selected for the question. A particular connected use can describe a composite way of working, but membership in this publication alone does not make every method a mandatory step of that work.
 
-## CMP.Preface:End
+## CMP.Reference:End
 
 # Part A - Construct an algorithm
 
 ## CMP.1 - Solve One Problem through Another or Transfer a Limit (Computational Reduction)
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### CMP.1:1 - Problem frame
@@ -508,7 +521,7 @@ A direct algorithm is preferable when conversion adds effort without improving t
 ## CMP.2 - Derive a Recursive Procedure from a Problem Decomposition
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### CMP.2:1 - Problem frame
@@ -681,7 +694,7 @@ The current [Lean reference on recursive definitions](https://lean-lang.org/doc/
 ## CMP.3 - Share and Schedule Repeated Subcomputations
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### CMP.3:1 - Problem frame
@@ -871,7 +884,7 @@ The working choice in :4.3–4.5 is between retaining all needed intermediate an
 ## CMP.4 - Construct Computational Search with Justified Exclusions
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### CMP.4:1 - Problem frame
@@ -1046,7 +1059,7 @@ For :4.2–4.6, compare justified exclusions with simpler exhaustive exploration
 ## CMP.5 - Bound an Optimum or Recover a Feasible Candidate through a Relaxed Problem
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### CMP.5:1 - Problem frame
@@ -1217,7 +1230,7 @@ For :4.2–4.5, compare relaxation and recovery with a direct algorithm, a cheap
 ## CMP.6 - Derive an Iterative Computational Update from Local Information
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### CMP.6:1 - Problem frame
@@ -1403,7 +1416,7 @@ For a finite discrete neighborhood, direct gain calculation may be simpler than 
 ## CMP.7 - Construct a Learner from Examples and Feedback
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### CMP.7:1 - Problem frame
@@ -1581,7 +1594,7 @@ Revisit the learning construction when the assumed feedback ceases to be availab
 ## CMP.8 - Construct an Approximate Computation with Controlled Error
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### CMP.8:1 - Problem frame
@@ -1637,7 +1650,7 @@ Try the simplest family that can meet the receiving requirement. A parameterized
 
 Relate the computed intermediate object to the original target. MATH.20 supplies comparison arguments; MATH.21 supplies approximation and convergence. The present task must make their sufficient stage obtainable.
 
-For example, if an intermediate approximation has distance at most e from its target and the next operation G obeys `d(G(u),G(v))≤L*d(u,v)` on the relevant inputs, this contribution to final error is at most L*e. Add another error term only when it measures a comparable discrepancy and an argument, such as a triangle inequality, permits that addition. A probability of failure and a numerical error are different quantities.
+For example, if an intermediate approximation has distance at most e from its target and the next operation G obeys `d(G(u),G(v))≤L*d(u,v)` on the relevant inputs, this contribution to final error is at most L\*e. Add another error term only when it measures a comparable discrepancy and an argument, such as a triangle inequality, permits that addition. A probability of failure and a numerical error are different quantities.
 
 For an optimization construction, compare the original objective of the recovered candidate with the original optimum. Follow every inequality in its proper direction. Rounding values can bound objective loss while leaving constraints unchanged; rounding constraint coefficients needs a separate admissibility argument.
 
@@ -1760,7 +1773,7 @@ For the numerical branch, **adopt** Higham's separation of [conditioning](https:
 ## CMP.9 - Construct a Randomized Estimator or Sampling Procedure
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### CMP.9:1 - Problem frame
@@ -1947,7 +1960,7 @@ When the stopping time follows the observations, **adapt** [Howard, Ramdas, McAu
 ## CMP.10 - Choose a Computational Representation for Its Access and Update Operations
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### CMP.10:1 - Problem frame
@@ -2108,7 +2121,7 @@ When memory transfers dominate, **adapt** the external-memory and cache-obliviou
 ## CMP.11 - Derive a Computational Lower Bound from Indistinguishable Inputs
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### CMP.11:1 - Problem frame
@@ -2279,7 +2292,7 @@ The same course's [communication-complexity treatment](https://cs.uwaterloo.ca/~
 ## CMP.12 - Construct an Interpreter or a Meaning-Preserving Translation
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### CMP.12:1 - Problem frame
@@ -2490,7 +2503,7 @@ For larger compositions, **adapt** the choice between operational simulation and
 ## CMP.13 - Construct a Computational Abstraction for the Property Being Asked
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### CMP.13:1 - Problem frame
@@ -2678,7 +2691,7 @@ How should cyclic abstract computations be scheduled? **Adapt** the question rai
 ## CMP.14 - Compose Interacting Computations through Their Required Observations
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### CMP.14:1 - Problem frame

@@ -1,5 +1,7 @@
 # Leadership Principles Framework
 
+**DocID:** `LDR` within **FPF Library**.
+
 First edition, 12 October 2026. [Series, scope and limits](#ldrsource3---series-scope-and-limits).
 
 Helping participants act together, from a needed contribution to its useful performance and continuation.
@@ -13,15 +15,21 @@ Framework text adapted from Anatoly Levenchuk's Organization Change Engineering 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | --- | --- | --- | --- | --- |
 | — | [Leadership Readme](#leadership-readme) | Entry | Where to begin; ordinary coordination; first contribution | Direct patterns below |
-| — | [Leadership Preface](#leadership-preface) | Orientation | Scope; leadership and authority; joint work; competent AI | FPF; domain methods used in the work |
+| — | [Leadership Principles Framework Architectural Reference](#leadership-principles-framework-architectural-reference) | Orientation | Scope; leadership and authority; joint work; competent AI | FPF; domain methods used in the work |
+| — | [LDR.Reference:1 - The working situation and useful result](#ldrreference1---the-working-situation-and-useful-result) | full text |  |  |
+| — | [LDR.Reference:2 - How the three leadership methods and their suppliers connect](#ldrreference2---how-the-three-leadership-methods-and-their-suppliers-connect) | full text |  |  |
+| — | [LDR.Reference:3 - What remains with other practices](#ldrreference3---what-remains-with-other-practices) | full text |  |  |
+| — | [LDR.Reference:4 - Authority, cost and sufficient ordinary work](#ldrreference4---authority-cost-and-sufficient-ordinary-work) | full text |  |  |
+| — | [LDR.Reference:5 - People, organizations and capable AI](#ldrreference5---people-organizations-and-capable-ai) | full text |  |  |
+| — | [LDR.Reference:6 - How to use and question the result](#ldrreference6---how-to-use-and-question-the-result) | full text |  |  |
 
 **Leadership methods**
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | --- | --- | --- | --- | --- |
-| 1 | [LDR.1 - Obtain and Continue the Leadership Contribution Needed for Joint Work](#ldr1---obtain-and-continue-the-leadership-contribution-needed-for-joint-work) | Proposed | Missing help; role conversation; brief; debrief; distributed leadership; continuation without initiator | HCD.1/.3/.4/.7; C.11.DUA; LDR.2, B.5.SD, LDR.4 when their difficulties arise |
-| 2 | [LDR.2 - Agree Feasible Joint Contributions](#ldr2---agree-feasible-joint-contributions) | Proposed | Negotiation; conflicting commitments; representation; joint feasibility; withdrawn support | Relevant domain methods; C.11; D.4; CB.13 when shared-decision mandate is needed |
-| 4 | [LDR.4 - Prepare a Proposal for Decision and First Use](#ldr4---prepare-a-proposal-for-decision-and-first-use) | Proposed | Trusted adviser; proposal preparation; propitka; consequences; objections; actual commitment; shared start; first useful handover | LDR.1, LDR.2, B.5.SD when needed; authority and domain methods; C.41.OF for an execution aid |
+| 1 | [LDR.1 - Obtain and Continue the Leadership Contribution Needed for Joint Work](#ldr1---obtain-and-continue-the-leadership-contribution-needed-for-joint-work) | Stable | Missing help; role conversation; brief; debrief; distributed leadership; continuation without initiator | HCD.1/.3/.4/.7; C.11.DUA; LDR.2, B.5.SD, LDR.4 when their difficulties arise |
+| 2 | [LDR.2 - Agree Feasible Joint Contributions](#ldr2---agree-feasible-joint-contributions) | Stable | Negotiation; conflicting commitments; representation; joint feasibility; withdrawn support | Relevant domain methods; C.11; D.4; CB.13 when shared-decision mandate is needed |
+| 4 | [LDR.4 - Prepare a Proposal for Decision and First Use](#ldr4---prepare-a-proposal-for-decision-and-first-use) | Stable | Trusted adviser; proposal preparation; propitka; consequences; objections; actual commitment; shared start; first useful handover | LDR.1, LDR.2, B.5.SD when needed; authority and domain methods; C.41.OF for an execution aid |
 
 **Use and source returns**
 
@@ -57,7 +65,7 @@ These are selected examples, not a catalogue of leadership situations or a bound
 - **Situation:** Participants have shared views and evidence, but the receiver cannot use them to settle the technical or practical question.
 - **Question:** Which relation or inference is missing, and how will capable participants construct it?
 - **First useful result or blocker:** A connected explanation or proposal for the receiving use, including a justified inquiry proposal when evidence is missing, or the exact unavailable subject contribution.
-- **Start with:** [B.5.SD](../../FPF-Spec.md#b5sd---construct-a-useful-answer-through-substantive-discussion).
+- **Start with:** [FPF B.5.SD](../../FPF-Spec.md#b5sd---construct-a-useful-answer-through-substantive-discussion).
 - **Stop or return:** A competent direct answer needs no workshop. Return when a consequential premise changes or the receiver cannot use the proposed result.
 
 ### JOINT-START — Get from a promising idea to a useful contribution
@@ -68,13 +76,13 @@ Name the receiving work and keep sufficient help. Obtain trusted judgement, exam
 
 Trusted advice can improve a proposal without authorizing it. An answer can be sound without being acceptable to a contributor. Acceptance can be real while its required budget remains unavailable. A shared start can be understood while the first handover still fails.
 
-Begin where the actual gap lies. If a sound proposal is refused because it displaces another obligation, use [LDR.2](#ldr2---agree-feasible-joint-contributions); repeating the explanation adds no missing capacity. If everyone wants to proceed but the technical consequence is unknown, [B.5.SD](../../FPF-Spec.md#b5sd---construct-a-useful-answer-through-substantive-discussion) obtains the missing domain reasoning. [LDR.1](#ldr1---obtain-and-continue-the-leadership-contribution-needed-for-joint-work) arranges the capable help those methods require and returns when continuation fails. Each supplying pattern provides the explanation needed to perform and adapt its Method.
+Begin where the actual gap lies. If a sound proposal is refused because it displaces another obligation, use [LDR.2](#ldr2---agree-feasible-joint-contributions); repeating the explanation adds no missing capacity. If everyone wants to proceed but the technical consequence is unknown, [FPF B.5.SD](../../FPF-Spec.md#b5sd---construct-a-useful-answer-through-substantive-discussion) obtains the missing domain reasoning. [LDR.1](#ldr1---obtain-and-continue-the-leadership-contribution-needed-for-joint-work) arranges the capable help those methods require and returns when continuation fails. Each supplying pattern provides the explanation needed to perform and adapt its Method.
 
 A prepared, authorized routine action can start directly when capable participants understand and accept the arrangement. An unresolved condition blocks only the work that depends on it. First use does not establish independent capability, enduring culture or the next development problem.
 
-# Leadership Preface
+# Leadership Principles Framework Architectural Reference
 
-## LDR.Preface:1 - The working situation and useful result
+## LDR.Reference:1 - The working situation and useful result
 
 A company, volunteer association, client community or temporary collaboration needs participants to act together. The work may already be routine. It may be a finite change or a contribution to continuing development. Someone needs to explain a direction, hear a consequential objection, reconcile contributions, help a person enter or sustain a role, prepare a proposal, or keep the work going after the initiator leaves.
 
@@ -82,7 +90,7 @@ This framework teaches the bounded leadership practice of obtaining those contri
 
 The framework does not define all leadership scholarship or prescribe one leadership style. It does not turn every act of coordination into a development project. Read LDR.1 first if the missing help is unclear. Enter another pattern directly when the difficulty is already recognizable.
 
-## LDR.Preface:2 - How the three leadership methods and their suppliers connect
+## LDR.Reference:2 - How the three leadership methods and their suppliers connect
 
 Joint work fails in several different ways. A participant may lack capable help; available contributions may conflict; a discussion may leave its subject unresolved; a proposal may never pass from plausible explanation to an effective decision and first use. Each failure needs its own construction.
 
@@ -92,13 +100,13 @@ The methods connect conditionally. During negotiation, participants can expose a
 
 A proposal, agreement, plan, instruction, performed contribution and claim of capability are different things. One document can describe several of them, and one performer can perform several methods. Conversely, one method may require several people or agents and several working products. Keep methods, their actual work, capability bearers, organizational parts, resources and powers distinct when constructing the arrangement. FPF C.32.MWA provides the fuller method for relating these objects.
 
-## LDR.Preface:3 - What remains with other practices
+## LDR.Reference:3 - What remains with other practices
 
 The leader obtains the substantive contribution; leadership does not replace the practice that produces it. Engineering supplies a warranted engineering proposal. Strategy supplies a justified direction and portfolio choice. Research supplies an inquiry and its findings. Human Capability Development supplies human learning design and assessment. A helper who can conduct a conversation may lack the ability to judge its technical subject.
 
 In a company, Organization Change Engineering supplies the design and realization of organizational arrangements. Its OCE.9 connects a change to an organization-capability increment; OCE.10 investigates difficulties in participation and recurrent ways of working; OCE.11 reconciles change with continuing service. OCE.6 establishes actual enabling relations and authority. Corporate Governance supplies applicable corporate powers and acts: CGOV.3 resolves who may act and CGOV.11 makes and records a corporate decision. These contributions are needed when the particular work calls for them, not before every conversation.
 
-A person's career transition needs a receiving work opportunity, actual assignment and the conditions for practice alongside current duties. [OCE.18](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce18---arrange-capability-development-and-receiving-work-in-an-organizational-transition) supplies that organizational connection. This framework can help obtain the necessary conversations and contributions; it does not replace that complete method with a leadership course.
+A person's career transition needs a receiving work opportunity, actual assignment and the conditions for practice alongside current duties. [OCE / OCE.18](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce18---arrange-capability-development-and-receiving-work-in-an-organizational-transition) supplies that organizational connection. This framework can help obtain the necessary conversations and contributions; it does not replace that complete method with a leadership course.
 
 Community Management addresses useful participation, relationships and joint contribution over time. CB.13 supplies a workable mandate for shared decisions when that question is live. Participants in a loose collaboration can also perform the leadership methods without first building a community or becoming employees of one organization.
 
@@ -107,7 +115,7 @@ Implementation support addresses a practice in its actual setting. Development a
 FPF Core supplies the connected answer through B.5.SD, including the subject reasoning, objection and changed-premise test. Decision Support supplies professional participation and facilitation through PSDA.12, PSDA.13 when the arrangement needs representation, protected channels, consent, confidentiality or faithful return. Leadership obtains the needed contributions and agreement; it does not acquire their professional or epistemic authority.
 
 
-## LDR.Preface:4 - Authority, cost and sufficient ordinary work
+## LDR.Reference:4 - Authority, cost and sufficient ordinary work
 
 Start with the work needed now and the arrangements already capable of producing it. A competent lead who allocates resources, obtains help, listens, adjusts the plan and checks the result may already satisfy the need. Preserve that arrangement. Add negotiation, specialist inquiry, supported learning or proposal preparation only where its additional contribution is worthwhile.
 
@@ -117,7 +125,7 @@ Consent, authority and feasibility each change the available action. A volunteer
 
 The cost of further discussion is also real. C.11.DUA asks what an attainable answer could change, what it costs and which feasible continuation remains. It supports a smaller probe, an ordinary answer, a narrow authorized action, deferral or stop. An unresolved concern survives as a concern where relevant; it creates no universal obligation to investigate everything.
 
-## LDR.Preface:5 - People, organizations and capable AI
+## LDR.Reference:5 - People, organizations and capable AI
 
 Human learning and agent engineering require different methods. HCD applies when the subject is a human capability. An organization supplies a contribution through its arranged people, agents, resources and authority; it does not acquire a human skill simply because its members attended training. An AI system's qualification, configuration, access and operational support need their own evidence and engineering.
 
@@ -125,7 +133,7 @@ A capable AI may produce the whole leadership contribution, including substantiv
 
 Cheap computation does not make attention, transition, authority, verification or another participant's work free. Nor does it justify preserving human duplication when that work provides no needed guarantee. The constructed application below shows how the comparison can select autonomous performance under one set of conditions and restore a narrower human contribution after a consequential change.
 
-## LDR.Preface:6 - How to use and question the result
+## LDR.Reference:6 - How to use and question the result
 
 Read the Solution and worked case of the pattern that answers the actual difficulty. Use its direct suppliers for a missing professional result. Carry out the chosen contribution and follow it to its receiver. A declined proposal, a protected current arrangement or a precise unresolved condition can be the warranted outcome.
 
@@ -135,13 +143,13 @@ The main costs are competent preparation, participants' time and the work needed
 
 Reconsider the smallest affected part when the task, provider, support, authority, evidence or continuation demand changes. If the methods repeatedly fail to supply the promised contribution, examine whether the missing result belongs here, needs a better domain supplier, or requires a different arrangement. Neither a broad title nor an earlier successful case closes that question.
 
-## LDR.Preface:End
+## LDR.Reference:End
 
 # Leadership patterns
 
 ## LDR.1 - Obtain and Continue the Leadership Contribution Needed for Joint Work
 
-**Kind:** Method pattern. **Status:** Proposed.
+**Kind:** Method pattern. **Status:** Stable.
 
 ### LDR.1:1 - Problem frame
 
@@ -232,7 +240,7 @@ Obtain a qualified learning provider. Through HCD.7, establish that the provider
 
 Construct the learning opportunity around the target. Let the learner see a demonstration with reasons, attempt relevant cases, receive feedback on the missed operation and practise a consequential variation. Observe a new attempt without supplying the very step whose independent performance is being claimed. Explain how these activities address the actual difficulty. A generic course may be a suitable part of that arrangement, but course attendance does not supply the target evidence.
 
-Arrange later work in which the contribution can be used, with access, time, tools and help. Agree the allowed use of learning observations. If failure is punished under the ordinary performance system, recover a protected opportunity or another feasible arrangement before relying on candid practice. [OCE.18](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce18---arrange-capability-development-and-receiving-work-in-an-organizational-transition) supplies the additional connection for a career transition into receiving work; a development target alone is no appointment.
+Arrange later work in which the contribution can be used, with access, time, tools and help. Agree the allowed use of learning observations. If failure is punished under the ordinary performance system, recover a protected opportunity or another feasible arrangement before relying on candid practice. [OCE / OCE.18](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce18---arrange-capability-development-and-receiving-work-in-an-organizational-transition) supplies the additional connection for a career transition into receiving work; a development target alone is no appointment.
 
 Human development may be unnecessary when a qualified colleague, external service or competent AI can supply the required contribution at acceptable total cost. Compare those alternatives against the actual values, including any independent human mastery that the participants deliberately want. Do not call replacement of human performance an increase in that person's skill.
 
@@ -338,19 +346,19 @@ Reopen the arrangement when the receiving work, support, capability evidence or 
 
 LDR.2 supplies a feasible accepted whole when contributions conflict. B.5.SD obtains the connected answer a discussion promises. LDR.4 prepares a proposal through decision and first useful performance. None is mandatory when the ordinary contribution is already adequate.
 
-[A.3.1.QM — Qualify a Method for Its Intended Contribution](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31qm---qualify-a-method-for-its-intended-contribution) qualifies the leadership Method or candidate account for its bounded receiving use and examines independently decidable local connections. Return the actual failed contribution and conditions; obtaining a competent person does not settle the Method's suitability. OCE.15 constructs or specifies the organization-change contribution only when that is the receiving question.
+[FPF A.3.1.QM — Qualify a Method for Its Intended Contribution](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31qm---qualify-a-method-for-its-intended-contribution) qualifies the leadership Method or candidate account for its bounded receiving use and examines independently decidable local connections. Return the actual failed contribution and conditions; obtaining a competent person does not settle the Method's suitability. OCE.15 constructs or specifies the organization-change contribution only when that is the receiving question.
 
-[Human Capability Development](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md), HCD.1/.3/.4/.7 and .8, supplies the human demand, target, work profile, learning-provider conditions and development of a missing provider capability. It does not qualify an AI or constitute an organization's capability.
+[Human Capability Development (HCD)](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md), HCD.1/.3/.4/.7 and .8, supplies the human demand, target, work profile, learning-provider conditions and development of a missing provider capability. It does not qualify an AI or constitute an organization's capability.
 
-[Organization Change Engineering](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md), OCE.4–6 and .9–11, supplies organizational relations, enabling assignments, capability realization and the participation/service connections described above. [OCE.18](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce18---arrange-capability-development-and-receiving-work-in-an-organizational-transition) supplies the career-to-receiving-work connection.
+[Organization Change Engineering (OCE)](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md), OCE.4–6 and .9–11, supplies organizational relations, enabling assignments, capability realization and the participation/service connections described above. [OCE / OCE.18](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce18---arrange-capability-development-and-receiving-work-in-an-organizational-transition) supplies the career-to-receiving-work connection.
 
-FPF [C.11.DUA](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11dua---make-advice-and-evidence-demands-worth-their-burden) appraises additional inquiry and changes against their whole receiving cost and value. C.32.MWA separates methods, work and arrangements; C.36 governs cultural continuation; C.28 governs causal claims. Use their exact fuller accounts only when those questions are current.
+FPF [FPF C.11.DUA](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11dua---make-advice-and-evidence-demands-worth-their-burden) appraises additional inquiry and changes against their whole receiving cost and value. C.32.MWA separates methods, work and arrangements; C.36 governs cultural continuation; C.28 governs causal claims. Use their exact fuller accounts only when those questions are current.
 
 ### LDR.1:End
 
 ## LDR.2 - Agree Feasible Joint Contributions
 
-**Kind:** Method pattern. **Status:** Proposed.
+**Kind:** Method pattern. **Status:** Stable.
 
 ### LDR.2:1 - Problem frame
 
@@ -542,9 +550,9 @@ Reopen the choice of method if participation, representation, professional compe
 
 LDR.1 obtains capable facilitation, expertise and help. B.5.SD constructs missing subject answers. LDR.4 connects agreed proposals to effective decisions and first use.
 
-[CB.13](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/COMMUNITY-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#cb13---establish-a-workable-mandate-for-shared-decisions) supplies representation and shared-decision mandates. [Corporate Governance](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/CORPORATE-GOVERNANCE-PRINCIPLES-FRAMEWORK.md), CGOV.3 and .11, resolves corporate power and the act making a decision; persuasion and informal agreement do not replace them.
+[CB / CB.13](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/COMMUNITY-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#cb13---establish-a-workable-mandate-for-shared-decisions) supplies representation and shared-decision mandates. [Corporate Governance (CGOV)](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/CORPORATE-GOVERNANCE-PRINCIPLES-FRAMEWORK.md), CGOV.3 and .11, resolves corporate power and the act making a decision; persuasion and informal agreement do not replace them.
 
-[Systems Engineering](https://github.com/ailev/FPF/blob/main/DPFs/Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md), SYSE.6/.17/.24, supplies architecture decisions, affected systems and comparison of whole ways to obtain an engineering result. OCE.7 connects product and organizational decisions. [Operations Management](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md), OPS.13, handles commitments and authorized changes.
+[Systems Engineering (SYSE)](https://github.com/ailev/FPF/blob/main/DPFs/Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md), SYSE.6/.17/.24, supplies architecture decisions, affected systems and comparison of whole ways to obtain an engineering result. OCE.7 connects product and organizational decisions. [Operations Management (OPS)](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md), OPS.13, handles commitments and authorized changes.
 
 FPF B.5.QD.CF examines conflicting assumptions, D.4 handles ethical mediation and value premises, and C.11/C.11.DUA supplies decision and inquiry-value reasoning. These are concrete suppliers when their questions arise, not mandatory preliminary stages.
 
@@ -554,7 +562,7 @@ FPF B.5.QD.CF examines conflicting assumptions, D.4 handles ethical mediation an
 
 ## LDR.4 - Prepare a Proposal for Decision and First Use
 
-**Kind:** Method pattern. **Status:** Proposed.
+**Kind:** Method pattern. **Status:** Stable.
 
 ### LDR.4:1 - Problem frame
 
@@ -785,9 +793,9 @@ The added preparation is justified when it can change feasibility, acceptance, a
 
 B.5.SD supplies the substantive answer to an objection; LDR.2 obtains compatible accepted contributions; LDR.1 obtains capable help and later continuation. These are independent methods with direct entry, not hidden stages of a persuasion programme.
 
-[Corporate Governance](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/CORPORATE-GOVERNANCE-PRINCIPLES-FRAMEWORK.md), CGOV.3/.11, supplies effective corporate power and decisions. OCE.6 supplies organizational enabling relations; OCE.7 coordinates product and organization choices; OCE.9–11 supplies organizational capability, participation and service/change connections. [OCE.18](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce18---arrange-capability-development-and-receiving-work-in-an-organizational-transition) supplies the complete career-to-work connection.
+[Corporate Governance (CGOV)](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/CORPORATE-GOVERNANCE-PRINCIPLES-FRAMEWORK.md), CGOV.3/.11, supplies effective corporate power and decisions. OCE.6 supplies organizational enabling relations; OCE.7 coordinates product and organization choices; OCE.9–11 supplies organizational capability, participation and service/change connections. [OCE / OCE.18](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce18---arrange-capability-development-and-receiving-work-in-an-organizational-transition) supplies the complete career-to-work connection.
 
-[C.41.OF](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c41of---fit-a-checklist-to-its-occasion-of-use) fits an execution aid to the actual occasion. The domain method still produces and judges the work. C.11.DUA appraises further preparation and inquiry; C.36/C.36.RP governs cultural continuation; the development practice owns the next worthwhile challenge after success.
+[FPF C.41.OF](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c41of---fit-a-checklist-to-its-occasion-of-use) fits an execution aid to the actual occasion. The domain method still produces and judges the work. C.11.DUA appraises further preparation and inquiry; C.36/C.36.RP governs cultural continuation; the development practice owns the next worthwhile challenge after success.
 
 ### LDR.4:End
 
@@ -871,16 +879,16 @@ The references below return to published methods. They provide descriptions from
 | --- | --- | --- |
 | [FPF](https://github.com/ailev/FPF/blob/main/FPF-Spec.md), C.39:4 | A connected way to obtain a missing result; used when B.5.SD lacks an operative subject construction or connection. | Use an adequate direct method when available. Reopen the construction if the receiving result or needed relation changes. |
 | FPF C.32.MWA:4 | Distinguishes and relates methods, work, capability and arrangements; used in LDR.1's allocation of contributions. | Do not infer one method per job or one performer per pattern. A changed performer configuration can require redesign of the whole arrangement. |
-| [A.3.1.QM — Qualify a Method for Its Intended Contribution](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31qm---qualify-a-method-for-its-intended-contribution) | Bounded qualification of a leadership Method or candidate account and its independently decidable local connections after a doubtful use. | Preserve the subject's status and actual receiving conditions. Retain sufficient current evidence; revise only the failed contribution or select an adequate alternative. OCE.15 supplies construction of an organization-change contribution when that specific question remains. |
+| [FPF A.3.1.QM — Qualify a Method for Its Intended Contribution](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31qm---qualify-a-method-for-its-intended-contribution) | Bounded qualification of a leadership Method or candidate account and its independently decidable local connections after a doubtful use. | Preserve the subject's status and actual receiving conditions. Retain sufficient current evidence; revise only the failed contribution or select an adequate alternative. OCE.15 supplies construction of an organization-change contribution when that specific question remains. |
 | FPF C.11/C.11.DUA:4 and D.4 | A warranted decision or inquiry and value-conflict reasoning; used for alternatives, disputed demands and plural parties. | Retain effective obligations until properly changed. A comparison is not another party's consent. |
-| [Organization Change Engineering](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md), OCE.4–7 and .9–11 | Organizational contribution relations, assignments, coordinated product/organization choices, capability realization, participation inquiry and service/change reconciliation. | Required when the receiving use actually changes or depends on those organizational conditions. A leadership conversation does not supply their results. |
-| [OCE.18](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce18---arrange-capability-development-and-receiving-work-in-an-organizational-transition) | Connects a human career transition to actual receiving work, compatible current work, preparation, time and assignment. | Preserve the person's aims and agreed use of learning observations. Use for that complete organizational question; a leadership-development target alone does not grant an appointment. |
-| [Human Capability Development](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md), HCD.1/.3/.4/.7/.8 | Human demand, target, capability profile, provider/access conditions and development of a missing provider capability. | Needed for a human-learning claim. Do not transfer its learning mechanisms to an organization or AI without their own methods. |
-| [Corporate Governance](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/CORPORATE-GOVERNANCE-PRINCIPLES-FRAMEWORK.md), CGOV.3/.11 | Applicable corporate power and an effective decision with usable conditions. | Use the corporation's actual rules and adequate existing delegation. Consultation and agreement cannot replace a required act. |
-| [Community Building](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/COMMUNITY-MANAGEMENT-PRINCIPLES-FRAMEWORK.md), CB.13 | Representation and a workable shared-decision mandate. | Needed where this is missing in a voluntary or member-governed arrangement; no second protocol when an adequate one exists. |
-| [Systems Engineering](https://github.com/ailev/FPF/blob/main/DPFs/Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md), SYSE.6/.17/.24 | Engineering architecture choice, affected systems and whole-result alternatives. | Use for engineering subject work. Other domains need their own professional method rather than an engineering label. |
-| [Operations Management](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md), OPS.13 | An authorized response to an existing promise or changed commitment. | A proposed new agreement does not automatically cancel a current obligation. |
-| [C.41.OF — Fit a Checklist to Its Occasion of Use](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c41of---fit-a-checklist-to-its-occasion-of-use) | A checklist fitted to its actual occasion and continuation. | Use when an execution aid helps; the aid does not perform the subject reasoning or repair a missing result. |
+| [Organization Change Engineering (OCE)](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md), OCE.4–7 and .9–11 | Organizational contribution relations, assignments, coordinated product/organization choices, capability realization, participation inquiry and service/change reconciliation. | Required when the receiving use actually changes or depends on those organizational conditions. A leadership conversation does not supply their results. |
+| [OCE / OCE.18](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce18---arrange-capability-development-and-receiving-work-in-an-organizational-transition) | Connects a human career transition to actual receiving work, compatible current work, preparation, time and assignment. | Preserve the person's aims and agreed use of learning observations. Use for that complete organizational question; a leadership-development target alone does not grant an appointment. |
+| [Human Capability Development (HCD)](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md), HCD.1/.3/.4/.7/.8 | Human demand, target, capability profile, provider/access conditions and development of a missing provider capability. | Needed for a human-learning claim. Do not transfer its learning mechanisms to an organization or AI without their own methods. |
+| [Corporate Governance (CGOV)](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/CORPORATE-GOVERNANCE-PRINCIPLES-FRAMEWORK.md), CGOV.3/.11 | Applicable corporate power and an effective decision with usable conditions. | Use the corporation's actual rules and adequate existing delegation. Consultation and agreement cannot replace a required act. |
+| [Community Building (CB)](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/COMMUNITY-MANAGEMENT-PRINCIPLES-FRAMEWORK.md), CB.13 | Representation and a workable shared-decision mandate. | Needed where this is missing in a voluntary or member-governed arrangement; no second protocol when an adequate one exists. |
+| [Systems Engineering (SYSE)](https://github.com/ailev/FPF/blob/main/DPFs/Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md), SYSE.6/.17/.24 | Engineering architecture choice, affected systems and whole-result alternatives. | Use for engineering subject work. Other domains need their own professional method rather than an engineering label. |
+| [Operations Management (OPS)](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md), OPS.13 | An authorized response to an existing promise or changed commitment. | A proposed new agreement does not automatically cancel a current obligation. |
+| [FPF C.41.OF — Fit a Checklist to Its Occasion of Use](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c41of---fit-a-checklist-to-its-occasion-of-use) | A checklist fitted to its actual occasion and continuation. | Use when an execution aid helps; the aid does not perform the subject reasoning or repair a missing result. |
 | FPF C.36/C.36.RP and C.28 | Cultural-continuation and causal-claim methods. | Required only for the stronger claims; a first contribution supports neither automatically. |
 
 These are one-way content dependencies of this framework. Their availability as descriptions is distinct from the local availability of capable providers, rights, evidence or resources. If the method needed for a current result is unavailable or incompatible with the local conditions, state that missing contribution and revise the proposed use. A title-level dependency is not closure of the practical question.

@@ -1,6 +1,6 @@
 # Management DPF Suite
 
-> Proposed first Suite edition.
+> First Suite edition.
 
 Management connects direction, commitments, provision and performance so that a collective undertaking can make and sustain promises under actual conditions. The undertaking can be a business, public service, temporary collaboration or voluntary community. A shared employer is unnecessary; the contributions, authority and resources on which others rely must have an actual basis.
 
@@ -10,26 +10,26 @@ When an organization or another established system is the subject of change, man
 
 ## Read the whole and its constituents
 
-The [Management DPF Suite Architectural Reference](MANAGEMENT-DPF-SUITE-REFERENCE.md) explains the field, the relations among its eleven constituent languages, alternatives, limits and returns to external suppliers. Its [voluntary practice network](MANAGEMENT-DPF-SUITE-REFERENCE.md#managementreference51---a-voluntary-practice-development-network) and [operating-business order](MANAGEMENT-DPF-SUITE-REFERENCE.md#managementreference52---a-new-order-in-an-operating-business) show different connected uses. These cases illustrate the architecture; they do not define the Suite's coverage.
+The [Management DPF Suite Architectural Reference](MANAGEMENT-DPF-SUITE-REFERENCE.md) explains the field, the relations among its eleven constituent languages, alternatives, limits and returns to external suppliers. Its [voluntary practice network (Management / Management.Reference:5.1)](MANAGEMENT-DPF-SUITE-REFERENCE.md#managementreference51---a-voluntary-practice-development-network) and [operating-business order (Management / Management.Reference:5.2)](MANAGEMENT-DPF-SUITE-REFERENCE.md#managementreference52---a-new-order-in-an-operating-business) show different connected uses. These cases illustrate the architecture; they do not define the Suite's coverage.
 
 The constituent DPFs provide the full Methods, cases and source grounds:
 
-- [Strategy](STRATEGY-PRINCIPLES-FRAMEWORK.md)
-- [Operations Management](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md)
-- [Organization Administration](ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md)
-- [Corporate Governance](CORPORATE-GOVERNANCE-PRINCIPLES-FRAMEWORK.md)
-- [Management Accounting](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md)
-- [Corporate Finance](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md)
-- [Marketing](MARKETING-PRINCIPLES-FRAMEWORK.md)
-- [Engineering Asset Management](ENGINEERING-ASSET-MANAGEMENT-PRINCIPLES-FRAMEWORK.md)
-- [Leadership](LEADERSHIP-PRINCIPLES-FRAMEWORK.md)
-- [Community Management](COMMUNITY-MANAGEMENT-PRINCIPLES-FRAMEWORK.md)
-- [Organization Change Engineering](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md)
+- [Strategy (STR)](STRATEGY-PRINCIPLES-FRAMEWORK.md)
+- [Operations Management (OPS)](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md)
+- [Organization Administration (ADM)](ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md)
+- [Corporate Governance (CGOV)](CORPORATE-GOVERNANCE-PRINCIPLES-FRAMEWORK.md)
+- [Management Accounting (MA)](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md)
+- [Corporate Finance (FIN)](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md)
+- [Marketing (MKT)](MARKETING-PRINCIPLES-FRAMEWORK.md)
+- [Engineering Asset Management (EAM)](ENGINEERING-ASSET-MANAGEMENT-PRINCIPLES-FRAMEWORK.md)
+- [Leadership (LDR)](LEADERSHIP-PRINCIPLES-FRAMEWORK.md)
+- [Community Management (CB)](COMMUNITY-MANAGEMENT-PRINCIPLES-FRAMEWORK.md)
+- [Organization Change Engineering (OCE)](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md)
 
-OCE connects the construction of organizational relations to feasible commitments and has its complete home in this Suite. [Maintenance Engineering and Management](../Engineering%20DPF%20Suite/MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) connects maintained functioning to policy, support and the service programme; its complete language is in the [Engineering Suite](../Engineering%20DPF%20Suite/README.md). A manager may apply those Methods directly when capable, or obtain a qualified result. The Reference explains [organizational construction and maintenance use](MANAGEMENT-DPF-SUITE-REFERENCE.md#managementreference31---organizational-construction-and-maintenance-use), including why these two complete fields have different direct homes.
+OCE connects the construction of organizational relations to feasible commitments and has its complete home in this Suite. [Maintenance Engineering and Management (MNT)](../Engineering%20DPF%20Suite/MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) connects maintained functioning to policy, support and the service programme; its complete language is in the [Engineering Suite (Engineering DPF Suite)](../Engineering%20DPF%20Suite/README.md). A manager may apply those Methods directly when capable, or obtain a qualified result. The Reference explains [organizational construction and maintenance use (Management / Management.Reference:3.1)](MANAGEMENT-DPF-SUITE-REFERENCE.md#managementreference31---organizational-construction-and-maintenance-use), including why these two complete fields have different direct homes.
 
-A known sufficient Method can be used directly. Corporate Governance and Corporate Finance retain their corporate conditions; other settings need their applicable governing and financial practice. Participation in this Suite does not make every constituent necessary for every undertaking. The Reference states the [coverage limits and continuity conditions](MANAGEMENT-DPF-SUITE-REFERENCE.md#managementreference7---continuity-and-coverage).
+A known sufficient Method can be used directly. Corporate Governance and Corporate Finance retain their corporate conditions; other settings need their applicable governing and financial practice. Participation in this Suite does not make every constituent necessary for every undertaking. The Reference states the [coverage limits and continuity conditions (Management / Management.Reference:7)](MANAGEMENT-DPF-SUITE-REFERENCE.md#managementreference7---continuity-and-coverage).
 
-Use the [Human Capability Engineering Suite](../Human%20Capability%20Engineering%20DPF%20Suite/README.md) when a person's capability must develop. Learning, coaching and organizing a team's work can contribute to the same undertaking while addressing different subjects; a provider's professional title does not decide which result is needed.
+Use the [Human Capability Engineering Suite (Human Capability Engineering DPF Suite)](../Human%20Capability%20Engineering%20DPF%20Suite/README.md) when a person's capability must develop. Learning, coaching and organizing a team's work can contribute to the same undertaking while addressing different subjects; a provider's professional title does not decide which result is needed.
 
-Use [Using FPF](../../USING-FPF.md) for search and connected reading, [FPF Core](../../FPF-Spec.md) for common meanings and general Methods, and the [FPF Library Architectural Reference](../../FPF-LIBRARY-REFERENCE.md) for the relation of this Suite to the rest of the Library. Full external suppliers remain necessary when their contribution is used; a copy of this folder alone does not contain them.
+Use [Using FPF (Using FPF and its DPF Suites)](../../USING-FPF.md) for search and connected reading, [FPF Core](../../FPF-Spec.md) for common meanings and general Methods, and the [FPF Library Architectural Reference](../../FPF-LIBRARY-REFERENCE.md) for the relation of this Suite to the rest of the Library. Full external suppliers remain necessary when their contribution is used; a copy of this folder alone does not contain them.

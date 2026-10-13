@@ -1,5 +1,7 @@
 # Corporate Governance Principles Framework
 
+**DocID:** `CGOV` within **FPF Library**.
+
 > A pattern language for making corporate decisions, arranging governing contributions, protecting rights and improving the ways these works are performed.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
@@ -8,9 +10,9 @@
 
 Begin with the corporate matter and the result you need. A director, company secretary, shareholder, executive or adviser can use the methods to determine who may act, prepare a matter for decision, exercise a right, establish an arrangement or improve an existing practice.
 
-Use the Table of Contents for a direct question. The Readme shows selected combinations of methods; the Preface explains their architecture, prerequisites and limits. **CGOV** is this framework's reference code. Its pattern numbers are stable addresses; the Parts group reading rather than prescribe an order of work.
+Use the Table of Contents for a direct question. The Readme shows selected combinations of methods; the Architectural Reference explains their architecture, prerequisites and limits. **CGOV** is this framework's reference code. Its pattern numbers are stable addresses; the Parts group reading rather than prescribe an order of work.
 
-The framework belongs to the [Engineering DPF Suite](https://github.com/ailev/FPF/blob/main/DPFs/Engineering%20DPF%20Suite/README.md). To cite it, give the author, framework title, version shown here and, where relevant, the PatternID or Preface section.
+The framework belongs to the [Engineering DPF Suite](https://github.com/ailev/FPF/blob/main/DPFs/Engineering%20DPF%20Suite/README.md). To cite it, give the author, framework title, version shown here and, where relevant, the PatternID or Architectural Reference section.
 
 # Table of Contents
 
@@ -19,7 +21,17 @@ The framework belongs to the [Engineering DPF Suite](https://github.com/ailev/FP
 | Unit | Title | Use |
 | --- | --- | --- |
 | Readme | [Corporate Governance Principles Framework Readme](#corporate-governance-principles-framework-readme) | Use selected direct and connected examples to choose contributions and return when conditions change. |
-| Preface | [Preface](#preface) | Understand the connected methods, their rationale, sources and limits. |
+| Architectural Reference | [Corporate Governance Principles Framework Architectural Reference](#corporate-governance-principles-framework-architectural-reference) | Understand the connected methods, their rationale, sources and limits. |
+| CGOV.Reference:1 | [Problem frame - Governing a corporation through particular acts](#cgovreference1---problem-frame---governing-a-corporation-through-particular-acts) |  |
+| CGOV.Reference:2 | [Problem and forces - Joining competent contributions into an effective act](#cgovreference2---problem-and-forces---joining-competent-contributions-into-an-effective-act) |  |
+| CGOV.Reference:3 | [Solution - Choose the receiving result and connect the necessary methods](#cgovreference3---solution---choose-the-receiving-result-and-connect-the-necessary-methods) |  |
+| CGOV.Reference:3.1 | [A vertical of work being performed](#cgovreference31---a-vertical-of-work-being-performed) |  |
+| CGOV.Reference:4 | [Archetypal grounding - A bounded pilot commitment](#cgovreference4---archetypal-grounding---a-bounded-pilot-commitment) |  |
+| CGOV.Reference:5 | [Bias, limitations and consequences](#cgovreference5---bias-limitations-and-consequences) |  |
+| CGOV.Reference:6 | [Questions for use and recurrent failures](#cgovreference6---questions-for-use-and-recurrent-failures) |  |
+| CGOV.Reference:7 | [Architectural Rationale](#cgovreference7---architectural-rationale) |  |
+| CGOV.Reference:8 | [SoTA-Echoing - Source contributions and their limits](#cgovreference8---sota-echoing---source-contributions-and-their-limits) |  |
+| CGOV.Reference:9 | [Relations, dependency and refresh](#cgovreference9---relations-dependency-and-refresh) |  |
 
 ## Part I - Corporation, rights and powers
 
@@ -106,9 +118,9 @@ This use has a vertical as well as a sequence. Identifying an assumption can be 
 
 If the existing preparation method repeatedly hides assumptions until commitment, [CGOV.15](#cgov15---decide-whether-and-how-to-change-corporate-governance-methods) helps change the operations within the available powers. [CGOV.14](#cgov14---decide-whether-and-how-to-change-corporate-governing-instruments-and-arrangements) enters only when the change also requires an instrument or arrangement to be made effective. Use [CGOV.17](#cgov17---deliberately-continue-and-change-corporate-governance-culture) to follow how participants obtain, use and retain the method across succession. A better description, a training event, performed participation and long-term retention are different possible results.
 
-# Preface
+# Corporate Governance Principles Framework Architectural Reference
 
-## CGOV.Preface:1 - Problem frame - Governing a corporation through particular acts
+## CGOV.Reference:1 - Problem frame - Governing a corporation through particular acts
 
 Corporate governance concerns the ways corporate powers, rights and responsibilities are arranged and exercised. This language helps directors, company secretaries, shareholders, executives and advisers work on a proposed transaction, appointment, disclosure, control, account or change to the governing arrangement.
 
@@ -118,7 +130,7 @@ The language covers methods for corporate matters and the arrangements that make
 
 Readers need enough knowledge of their matter to recognize the relevant participants and obtain the applicable rules or qualified interpretation. Specialist financial, technical and legal results can be supplied by others. The framework helps identify their needed contribution and use its limits; it supplies no corporation's missing powers, rights or local legal rule.
 
-## CGOV.Preface:2 - Problem and forces - Joining competent contributions into an effective act
+## CGOV.Reference:2 - Problem and forces - Joining competent contributions into an effective act
 
 A valuation can be sound while the decision participants are ineligible. A majority economic holding can carry a minority of votes. A correctly counted vote can use the wrong denominator. An information right can exist while its holder cannot obtain the information in time. A new charter can describe an arrangement that has not been put into effect.
 
@@ -128,7 +140,7 @@ The methods must accommodate several tensions. Decisions need timely information
 
 The language keeps inquiry proportional to the decision it can change. Use an existing sufficient account directly. When another inquiry is proposed, ask what attainable result could change the next action and whether that benefit warrants its whole cost. FPF's C.11.DUA supplies this method. An applicable act, information obligation or consent remains to be performed where the matter actually requires it.
 
-## CGOV.Preface:3 - Solution - Choose the receiving result and connect the necessary methods
+## CGOV.Reference:3 - Solution - Choose the receiving result and connect the necessary methods
 
 The Parts organize the repertoire for reading. They are neither stages that every corporation must complete nor levels of authority.
 
@@ -145,7 +157,7 @@ Keep the result's kind visible through the connection. An account of authority i
 
 Results also have different recipients. Shareholders may have information and contest rights while a board retains a decision power. An executive may provide analysis and carry out an authorized undertaking. Professional conclusions retain their scope when supplied to the board. [CGOV.4](#cgov4---design-board-and-executive-contributions), [CGOV.8](#cgov8---provide-corporate-information-under-applicable-rights-and-duties), [CGOV.11](#cgov11---make-and-record-a-corporate-decision) and [CGOV.12](#cgov12---protect-corporate-minority-holders-rights-and-enable-contest-or-exit) explain the corresponding work.
 
-### CGOV.Preface:3.1 - A vertical of work being performed
+### CGOV.Reference:3.1 - A vertical of work being performed
 
 Consider voting arithmetic, determination of a resolution's outcome and the corporate decision. In a counted-vote procedure, the arithmetic contributes to applying the governing decision rule while that procedure is part of making the corporate decision. The encompassing rule determines who counts and which denominator applies.
 
@@ -157,7 +169,7 @@ An explanation has a similar connection. A financial analyst supplies a conditio
 
 A DPF describes only part of the needed vertical. Reading, calculation, analysis, explanation and communication may be divided among people and tools. Information access and other required support must be available. Allocate help according to the contribution needed, while retaining any participation and judgement the applicable rules assign to a particular person or organ. [CGOV.17](#cgov17---deliberately-continue-and-change-corporate-governance-culture) addresses how those contributions become obtainable in practice. The texts alone do not provide the capabilities or resources.
 
-## CGOV.Preface:4 - Archetypal grounding - A bounded pilot commitment
+## CGOV.Reference:4 - Archetypal grounding - A bounded pilot commitment
 
 The following case is constructed to show joint use. Its rules are inputs, not a statement of general law.
 
@@ -175,7 +187,7 @@ The worked result is the authorization of bounded preparation, conditional on th
 
 A shareholder's protected challenge can proceed through [CGOV.12](#cgov12---protect-corporate-minority-holders-rights-and-enable-contest-or-exit) without treating every challenge as a veto. A genuine arrangement defect can require [CGOV.14](#cgov14---decide-whether-and-how-to-change-corporate-governing-instruments-and-arrangements). These branches show why the language is a repertoire with connected results rather than one compulsory lifecycle.
 
-## CGOV.Preface:5 - Bias, limitations and consequences
+## CGOV.Reference:5 - Bias, limitations and consequences
 
 The sources emphasize incorporated companies, boards, shareholders and institutionally recognized powers. Concentrated ownership, dispersed ownership, different board structures and minority protections change which problems dominate. The framework keeps those conditions explicit instead of proposing one ideal board or ownership form.
 
@@ -185,7 +197,7 @@ The expected gain is a better-directed next action: use a sufficient delegation,
 
 Specialist legal interpretation, financial analysis, accounting, internal-audit procedures, operational control and organization design remain external contributions where needed. Confidentiality or access limits can leave a question unresolved. State what remains usable and which act still depends on the missing answer.
 
-## CGOV.Preface:6 - Questions for use and recurrent failures
+## CGOV.Reference:6 - Questions for use and recurrent failures
 
 Before relying on a connected result, ask:
 
@@ -205,7 +217,7 @@ Use existing answers when their relied-on conditions remain adequate. The questi
 | Read a charter, control description or training record as performed work. | Needed access, operation or capability can remain absent. | Follow the affected provision, control or receiving use through CGOV.8, CGOV.9 or CGOV.17. |
 | Fix a decision problem solely by correcting its minute. | A missing constitutive act or participation condition remains. | Recover what the applicable procedure makes constitutive with CGOV.11; correct the record within that account. |
 
-## CGOV.Preface:7 - Architectural Rationale
+## CGOV.Reference:7 - Architectural Rationale
 
 The architecture separates contributions whose results can succeed or fail independently. Rights, voting power and authority need separate treatment because holdings, control and capacity to act can diverge. Design is separated from effectivity because a useful board or committee arrangement may still require appointment, consent, amendment, access or resources. Professional review is separated from corporate decision because competence to assess terms and power to decide are different relations.
 
@@ -217,7 +229,7 @@ Method renewal and cultural continuation remain distinct. Use [CGOV.15](#cgov15-
 
 Profiles may be useful for a recurring setting, such as a controlled subsidiary or a particular board structure. The present language explains those differences through supplied conditions and cases; it does not declare every company type a new Method. A profile becomes useful when it preserves a recurring combination and explains the changed operations or results. The Part structure alone establishes no specialization or Method composition.
 
-## CGOV.Preface:8 - SoTA-Echoing - Source contributions and their limits
+## CGOV.Reference:8 - SoTA-Echoing - Source contributions and their limits
 
 The framework synthesizes comparative corporate-governance guidance, actual rule-sensitive corporate methods and FPF's treatment of relations, work, inquiry and culture. The source contributions below are shared; each pattern gives its narrower adoption, alternative and return condition.
 
@@ -232,7 +244,7 @@ The framework synthesizes comparative corporate-governance guidance, actual rule
 
 The conceptual synthesis joins these domain contributions to result-sensitive selection and constituent/encompassing work. It is an authored methodological proposal. Source provenance, a constructed demonstration, actual use and a causal effectiveness finding support different claims.
 
-## CGOV.Preface:9 - Relations, dependency and refresh
+## CGOV.Reference:9 - Relations, dependency and refresh
 
 [FPF Core](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) supplies the general treatment of Methods and their descriptions, rights and assignments, relations, evidence, inquiry, work, cultural evolution and currentness. B.1.5.EW supplies the constituent/encompassing-work method used by CGOV.16; C.11.DUA supplies the optional-inquiry decision; C.36 and C.36.RP supply cultural distinctions and recovery of shared ways of working. The individual bodies identify further relevant contributions.
 
@@ -240,13 +252,13 @@ The [Engineering DPF Suite](https://github.com/ailev/FPF/blob/main/DPFs/Engineer
 
 | Supplying publication | Receiving use |
 | --- | --- |
-| [Organization Change Engineering](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | OCE.4/.5 support contribution and position design in CGOV.4/.5. OCE.13/.14 support CGOV.13/.14 when organization-change comparison or revision is needed. OCE.6 uses a corporate authority result. |
-| [C.32.MWA.PP](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c32mwapp---construct-and-compare-method-performance-and-provision-arrangements) and [A.3.1.MV](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31mv---construct-and-maintain-a-method-variant) | C.32.MWA.PP supports CGOV.15/.16 when alternative connections of contributions need comparison; A.3.1.MV supports the variants maintained through CGOV.15. |
-| [Operations Management](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) | OPS.18 supplies operating-quality or reliability interventions needed by CGOV.9. Allocation under existing powers remains operating work. |
-| [Organization Administration](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md) | ADM.2 identifies participants and organizational relations for administrative action connected to CGOV.3/.8/.12; the corporate basis supplies the right or authority. |
-| [Decision Design](https://github.com/ailev/FPF/blob/main/DPFs/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md) | PSDA.13 and PSDA.6 support claim or value comparison where relevant to CGOV.6/.7; PSDA.14 supplies advice usable in CGOV.11 under its limits. |
-| [Corporate Finance](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md) | FIN.1/.11/.16 supply financial framing, comparison or advice when needed. Use CGOV.2/.3 to identify the relevant rights and powers. |
-| [Systems Engineering](https://github.com/ailev/FPF/blob/main/DPFs/Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | SYSE.4 supplies a scoped engineering conclusion when CGOV.10's matter needs it; the corporate audit engagement has its own method. |
+| [Organization Change Engineering (OCE)](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | OCE.4/.5 support contribution and position design in CGOV.4/.5. OCE.13/.14 support CGOV.13/.14 when organization-change comparison or revision is needed. OCE.6 uses a corporate authority result. |
+| [FPF C.32.MWA.PP](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c32mwapp---construct-and-compare-method-performance-and-provision-arrangements) and [FPF A.3.1.MV](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31mv---construct-and-maintain-a-method-variant) | C.32.MWA.PP supports CGOV.15/.16 when alternative connections of contributions need comparison; A.3.1.MV supports the variants maintained through CGOV.15. |
+| [Operations Management (OPS)](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) | OPS.18 supplies operating-quality or reliability interventions needed by CGOV.9. Allocation under existing powers remains operating work. |
+| [Organization Administration (ADM)](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md) | ADM.2 identifies participants and organizational relations for administrative action connected to CGOV.3/.8/.12; the corporate basis supplies the right or authority. |
+| [Decision Design (PSDA)](https://github.com/ailev/FPF/blob/main/DPFs/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md) | PSDA.13 and PSDA.6 support claim or value comparison where relevant to CGOV.6/.7; PSDA.14 supplies advice usable in CGOV.11 under its limits. |
+| [Corporate Finance (FIN)](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md) | FIN.1/.11/.16 supply financial framing, comparison or advice when needed. Use CGOV.2/.3 to identify the relevant rights and powers. |
+| [Systems Engineering (SYSE)](https://github.com/ailev/FPF/blob/main/DPFs/Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | SYSE.4 supplies a scoped engineering conclusion when CGOV.10's matter needs it; the corporate audit engagement has its own method. |
 
 A description makes a method available to learn or use. A required financial, engineering or other result must still be obtained for the matter and retain its assumptions and limits.
 
@@ -254,7 +266,7 @@ A change to a relied-on operation, result or condition reopens the receiving CGO
 
 Changes to corporate methods belong here. A proposed transdisciplinary correction returns to FPF for its own decision; FPF's general claims do not depend on this DPF.
 
-## CGOV.Preface:End
+## CGOV.Reference:End
 
 # Part I - Corporation, rights and powers
 

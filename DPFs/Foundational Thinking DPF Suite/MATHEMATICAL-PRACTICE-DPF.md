@@ -1,5 +1,7 @@
 # Mathematical Thinking DPF
 
+**DocID:** `MATH` within **FPF Library**.
+
 > A pattern language for constructing mathematical objects, operations and arguments, using their results, and developing the next useful question.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
@@ -8,11 +10,11 @@
 - **License:** © 2026 Anatoly Levenchuk. Original framework text: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Cited sources retain their own terms.
 - **Publication:** [FPF ecosystem repository](https://github.com/ailev/FPF)
 
-Begin with the working question. If you have not yet identified its mathematical contribution, use Readme entry MP-FRAME. Use the Table of Contents to find a relevant pattern, then open its Problem frame, Solution, worked cases and checklist. Readme follows connected mathematical work; Preface explains the methods and when to revise a construction.
+Begin with the working question. If you have not yet identified its mathematical contribution, use Readme entry MP-FRAME. Use the Table of Contents to find a relevant pattern, then open its Problem frame, Solution, worked cases and checklist. Readme follows connected mathematical work; Architectural Reference explains the methods and when to revise a construction.
 
 The reference code **MATH** names this DPF. Its numbers are stable pattern addresses; § shows position in this edition. References such as B.5.RA and C.29.1 name patterns in [FPF](https://github.com/ailev/FPF/blob/main/FPF-Spec.md). Use those patterns when the cited question arises.
 
-When a mathematical result changes a working method, FPF Core provides two further methods: [B.1.5.CM](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b15cm---construct-and-qualify-a-composite-method) helps resolve a proposed composition of methods; [A.3.1.CC](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31cc---check-the-coherence-of-a-method-claim) helps locate an inconsistency between a method, its descriptions, the work performed and its supporting means.
+When a mathematical result changes a working method, FPF Core provides two further methods: [FPF B.1.5.CM](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b15cm---construct-and-qualify-a-composite-method) helps resolve a proposed composition of methods; [FPF A.3.1.CC](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31cc---check-the-coherence-of-a-method-claim) helps locate an inconsistency between a method, its descriptions, the work performed and its supporting means.
 
 Open the cited publications for those pattern bodies. When using another edition, revisit your conclusion if a cited operation or condition has changed.
 
@@ -25,39 +27,55 @@ To cite this edition: Anatoly Levenchuk, *Mathematical Thinking DPF*, [FPF ecosy
 | Unit | Title | Use |
 | --- | --- | --- |
 | Readme | [Mathematical Thinking - Readme](#mathematical-thinking---readme) | Follow connected mathematical work. |
-| Preface | [Mathematical Thinking - Preface](#mathematical-thinking---preface) | Understand the connected methods, their rationale, sources and limits. |
+| Architectural Reference | [Mathematical Thinking DPF Architectural Reference](#mathematical-thinking-dpf-architectural-reference) | Understand the connected methods, their rationale, sources and limits. |
+| MATH.Reference:1 | [Problem frame - Construct mathematics for the question](#mathreference1---problem-frame---construct-mathematics-for-the-question) |  |
+| MATH.Reference:2 | [Problem and forces - Make a usable construction](#mathreference2---problem-and-forces---make-a-usable-construction) |  |
+| MATH.Reference:3 | [Solution - Connect constructions through what they supply](#mathreference3---solution---connect-constructions-through-what-they-supply) |  |
+| MATH.Reference:3.1 | [Form objects, operations and representations](#mathreference31---form-objects-operations-and-representations) |  |
+| MATH.Reference:3.2 | [Obtain an argument and the object it supports](#mathreference32---obtain-an-argument-and-the-object-it-supports) |  |
+| MATH.Reference:3.3 | [Change a construction and develop its theory](#mathreference33---change-a-construction-and-develop-its-theory) |  |
+| MATH.Reference:3.4 | [Return a construction to further work](#mathreference34---return-a-construction-to-further-work) |  |
+| MATH.Reference:3.5 | [Use this contribution within the wider repertoire](#mathreference35---use-this-contribution-within-the-wider-repertoire) |  |
+| MATH.Reference:3.6 | [Constituent actions in ongoing work](#mathreference36---constituent-actions-in-ongoing-work) |  |
+| MATH.Reference:4 | [Worked use - Choose a representation after the question changes](#mathreference4---worked-use---choose-a-representation-after-the-question-changes) |  |
+| MATH.Reference:5 | [Worked use - Construct a choice after finding an obstruction](#mathreference5---worked-use---construct-a-choice-after-finding-an-obstruction) |  |
+| MATH.Reference:6 | [Checks and common failures - Preserve what the next construction needs](#mathreference6---checks-and-common-failures---preserve-what-the-next-construction-needs) |  |
+| MATH.Reference:7 | [Consequences, biases and limits](#mathreference7---consequences-biases-and-limits) |  |
+| MATH.Reference:8 | [Architectural Rationale - Organize by reusable constructions](#mathreference8---architectural-rationale---organize-by-reusable-constructions) |  |
+| MATH.Reference:9 | [Source use and currentness](#mathreference9---source-use-and-currentness) |  |
+| MATH.Reference:10 | [Relations to further reasoning and work](#mathreference10---relations-to-further-reasoning-and-work) |  |
 
 ## Part A - Choose and relate constructions
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [MATH.16 - Choose a Mathematical Construction from Its Required Maps (Universal Property)](#math16---choose-a-mathematical-construction-from-its-required-maps-universal-property) | Usable, evolving | universal property; product; coproduct; pullback; function object; currying. What maps should a new object support, and how can that requirement select a construction? | MATH.2 for quotients; MATH.5 for generator extensions; MATH.7 for reversible representations; C.29 for interpretation in another subject. |
-| 2 | [MATH.17 - Construct Mathematical Spaces of Operations and Operations on Them](#math17---construct-mathematical-spaces-of-operations-and-operations-on-them) | Usable, evolving | operations as objects; admissible functions; closure; higher-order operation; transformation law. How can a rule be constructed, combined or changed while retaining the consequence its use needs? | MATH.16 for function objects; MATH.1/.2 for retained steps or identification; MATH.18 for interpretation between accounts; C.29 for a working-method application. |
-| 3 | [MATH.1 - Build a Mathematical Structure of Composable Paths](#math1---build-a-mathematical-structure-of-composable-paths) | Usable, evolving | generators; paths; endpoints; identity; associativity. Which elementary steps can be composed? When do different sequences need to remain distinct? | MATH.2 when paths will be identified; C.29 when the construction represents another subject. |
-| 4 | [MATH.2 - Treat Objects as the Same While Preserving Operations (Quotient)](#math2---treat-objects-as-the-same-while-preserving-operations-quotient) | Usable, evolving | quotient; congruence; equivalence; partial operation; refinement. Can these objects be treated as the same without losing a later operation or result? | MATH.1 when paths first need construction; MATH.6 for a counterexample to the proposed identification. |
-| 5 | [MATH.5 - Extend a Generator Assignment While Preserving Operations (Homomorphism)](#math5---extend-a-generator-assignment-while-preserving-operations-homomorphism) | Usable, evolving | generators; relations; homomorphism; free structure; extension. How can a choice on generators determine an operation-preserving map on everything they generate? | MATH.1 for paths; MATH.2 when an extension must descend to a quotient. |
-| 6 | [MATH.7 - Transport a Mathematical Structure Through a Bijection](#math7---transport-a-mathematical-structure-through-a-bijection) | Usable, evolving | bijection; transport; inverse map; isomorphism; domain of operation. How can a useful operation, law and answer be carried through a change of representation? | MATH.2 when identification is proposed instead of a bijection; C.29 for interpretation in another subject. |
-| 7 | [MATH.18 - Compare Mathematical Accounts through Interpretations](#math18---compare-mathematical-accounts-through-interpretations) | Usable, evolving | interpretation; primitive operation; preservation; reflection; round trip; equivalence. Which constructions, equations and maps transfer between two mathematical descriptions, and what can be recovered? | MATH.5 for generated interpretations; MATH.7 for bijective transport; MATH.2 for quotients; MATH.17 for transformations of operations. |
+| 1 | [MATH.16 - Choose a Mathematical Construction from Its Required Maps (Universal Property)](#math16---choose-a-mathematical-construction-from-its-required-maps-universal-property) | Stable | universal property; product; coproduct; pullback; function object; currying. What maps should a new object support, and how can that requirement select a construction? | MATH.2 for quotients; MATH.5 for generator extensions; MATH.7 for reversible representations; C.29 for interpretation in another subject. |
+| 2 | [MATH.17 - Construct Mathematical Spaces of Operations and Operations on Them](#math17---construct-mathematical-spaces-of-operations-and-operations-on-them) | Stable | operations as objects; admissible functions; closure; higher-order operation; transformation law. How can a rule be constructed, combined or changed while retaining the consequence its use needs? | MATH.16 for function objects; MATH.1/.2 for retained steps or identification; MATH.18 for interpretation between accounts; C.29 for a working-method application. |
+| 3 | [MATH.1 - Build a Mathematical Structure of Composable Paths](#math1---build-a-mathematical-structure-of-composable-paths) | Stable | generators; paths; endpoints; identity; associativity. Which elementary steps can be composed? When do different sequences need to remain distinct? | MATH.2 when paths will be identified; C.29 when the construction represents another subject. |
+| 4 | [MATH.2 - Treat Objects as the Same While Preserving Operations (Quotient)](#math2---treat-objects-as-the-same-while-preserving-operations-quotient) | Stable | quotient; congruence; equivalence; partial operation; refinement. Can these objects be treated as the same without losing a later operation or result? | MATH.1 when paths first need construction; MATH.6 for a counterexample to the proposed identification. |
+| 5 | [MATH.5 - Extend a Generator Assignment While Preserving Operations (Homomorphism)](#math5---extend-a-generator-assignment-while-preserving-operations-homomorphism) | Stable | generators; relations; homomorphism; free structure; extension. How can a choice on generators determine an operation-preserving map on everything they generate? | MATH.1 for paths; MATH.2 when an extension must descend to a quotient. |
+| 6 | [MATH.7 - Transport a Mathematical Structure Through a Bijection](#math7---transport-a-mathematical-structure-through-a-bijection) | Stable | bijection; transport; inverse map; isomorphism; domain of operation. How can a useful operation, law and answer be carried through a change of representation? | MATH.2 when identification is proposed instead of a bijection; C.29 for interpretation in another subject. |
+| 7 | [MATH.18 - Compare Mathematical Accounts through Interpretations](#math18---compare-mathematical-accounts-through-interpretations) | Stable | interpretation; primitive operation; preservation; reflection; round trip; equivalence. Which constructions, equations and maps transfer between two mathematical descriptions, and what can be recovered? | MATH.5 for generated interpretations; MATH.7 for bijective transport; MATH.2 for quotients; MATH.17 for transformations of operations. |
 
 ## Part B - Construct and criticize arguments
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | [MATH.19 - Construct a Proof through Intermediate Claims](#math19---construct-a-proof-through-intermediate-claims) | Stable | lemma; backward and forward reasoning; generalization; proof dependency. Which intermediate claim connects the available premises to the desired conclusion? | B.5.RA for recovery of a supplied argument; MATH.4 for induction; MATH.6 for a separating case; MATH.12 for obtaining an object from the proof. |
-| 2 | [MATH.4 - Construct a Witness by Induction](#math4---construct-a-witness-by-induction) | Usable, evolving | induction; recursive witness; base and step; representation. How can a proof supply an object for every finite input? Does the construction respect equivalent representations? | MATH.2 when a recursive construction must respect identification; MATH.12 for extracting constructions from other proof rules. |
-| 3 | [MATH.12 - Extract a Construction from a Proof](#math12---extract-a-construction-from-a-proof) | Usable, evolving | constructive proof; witness; function; pair; branch; finite search; computation. Which data-producing operation does a proof supply, and what is needed to execute it? | B.5.RA for an unfamiliar argument; MATH.4 for induction; C.29.2/.3 for formulation or execution questions. |
-| 4 | [MATH.6 - Refute a Mathematical Claim with a Countermodel](#math6---refute-a-mathematical-claim-with-a-countermodel) | Usable, evolving | counterexample; countermodel; quantifiers; finite scope; encoding. What concrete structure refutes the claim? What does an unsuccessful bounded search leave unresolved? | B.5.RA if the claim's argument needs recovery; MATH.2 when the counterexample defeats an identification. |
+| 2 | [MATH.4 - Construct a Witness by Induction](#math4---construct-a-witness-by-induction) | Stable | induction; recursive witness; base and step; representation. How can a proof supply an object for every finite input? Does the construction respect equivalent representations? | MATH.2 when a recursive construction must respect identification; MATH.12 for extracting constructions from other proof rules. |
+| 3 | [MATH.12 - Extract a Construction from a Proof](#math12---extract-a-construction-from-a-proof) | Stable | constructive proof; witness; function; pair; branch; finite search; computation. Which data-producing operation does a proof supply, and what is needed to execute it? | B.5.RA for an unfamiliar argument; MATH.4 for induction; C.29.2/.3 for formulation or execution questions. |
+| 4 | [MATH.6 - Refute a Mathematical Claim with a Countermodel](#math6---refute-a-mathematical-claim-with-a-countermodel) | Stable | counterexample; countermodel; quantifiers; finite scope; encoding. What concrete structure refutes the claim? What does an unsuccessful bounded search leave unresolved? | B.5.RA if the claim's argument needs recovery; MATH.2 when the counterexample defeats an identification. |
 | 5 | [MATH.20 - Bound a Mathematical Unknown by Comparable Constructions](#math20---bound-a-mathematical-unknown-by-comparable-constructions) | Stable | bound; inequality; enclosure; relaxation; attainability; residual and error. Which comparison can answer the question before the whole unknown is obtained? | MATH.19 for an intermediate inequality; MATH.6 for a failed bound; MATH.21 for convergent approximation; FPF for choosing further work. |
 
 ## Part C - Change a construction and develop its theory
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [MATH.11 - Construct an Invariant from Transformation Rules](#math11---construct-an-invariant-from-transformation-rules) | Usable, evolving | invariant; transformation rule; preservation equation; coefficient; reachability. How can a preserved expression be constructed and used to obtain a formula or exclude a target? | MATH.2 for identification; MATH.7 for transport; C.29 for a consequence about the modeled subject. |
-| 2 | [MATH.13 - Derive a Consequence from a Symmetry](#math13---derive-a-consequence-from-a-symmetry) | Usable, evolving | symmetry; uniqueness; fixed point; orbit; conservation; numerical update. What does a transformation preserve, and which conclusion actually follows from that symmetry? | MATH.8 for the full orbit construction; MATH.9 for compatible choice; MATH.10 for admissible variation. |
-| 3 | [MATH.8 - Generate a Solution Family by Symmetry](#math8---generate-a-solution-family-by-symmetry) | Usable, evolving | group action; solution orbit; stabilizer; repetitions; representatives. Which solutions can be generated from one solution, and how much of the solution set does this cover? | MATH.13 for an unresolved symmetry consequence; MATH.9 when one compatible representative is required. |
-| 4 | [MATH.9 - Determine Whether and How a Choice Rule Can Respect Symmetry](#math9---determine-whether-and-how-a-choice-rule-can-respect-symmetry) | Usable, evolving | equivariant choice; stabilizer; symmetry obstruction; additional data. Can one allowed answer be chosen consistently with symmetry? What can replace an impossible choice? | MATH.8 for solution orbits; MATH.13 for an earlier consequence or uniqueness question. |
-| 5 | [MATH.10 - Improve a Mathematical Candidate or Derive a Necessary Condition by Admissible Variation](#math10---improve-a-mathematical-candidate-or-derive-a-necessary-condition-by-admissible-variation) | Usable, evolving | admissible variation; improving change; stationary point; boundary minimum; constraint; first variation. Which change is allowed, can it improve the candidate, and what condition follows? Does that condition establish an optimum? | B.5.RA if the variational argument needs recovery; C.29 when a mathematical variation represents a subject change. |
+| 1 | [MATH.11 - Construct an Invariant from Transformation Rules](#math11---construct-an-invariant-from-transformation-rules) | Stable | invariant; transformation rule; preservation equation; coefficient; reachability. How can a preserved expression be constructed and used to obtain a formula or exclude a target? | MATH.2 for identification; MATH.7 for transport; C.29 for a consequence about the modeled subject. |
+| 2 | [MATH.13 - Derive a Consequence from a Symmetry](#math13---derive-a-consequence-from-a-symmetry) | Stable | symmetry; uniqueness; fixed point; orbit; conservation; numerical update. What does a transformation preserve, and which conclusion actually follows from that symmetry? | MATH.8 for the full orbit construction; MATH.9 for compatible choice; MATH.10 for admissible variation. |
+| 3 | [MATH.8 - Generate a Solution Family by Symmetry](#math8---generate-a-solution-family-by-symmetry) | Stable | group action; solution orbit; stabilizer; repetitions; representatives. Which solutions can be generated from one solution, and how much of the solution set does this cover? | MATH.13 for an unresolved symmetry consequence; MATH.9 when one compatible representative is required. |
+| 4 | [MATH.9 - Determine Whether and How a Choice Rule Can Respect Symmetry](#math9---determine-whether-and-how-a-choice-rule-can-respect-symmetry) | Stable | equivariant choice; stabilizer; symmetry obstruction; additional data. Can one allowed answer be chosen consistently with symmetry? What can replace an impossible choice? | MATH.8 for solution orbits; MATH.13 for an earlier consequence or uniqueness question. |
+| 5 | [MATH.10 - Improve a Mathematical Candidate or Derive a Necessary Condition by Admissible Variation](#math10---improve-a-mathematical-candidate-or-derive-a-necessary-condition-by-admissible-variation) | Stable | admissible variation; improving change; stationary point; boundary minimum; constraint; first variation. Which change is allowed, can it improve the candidate, and what condition follows? Does that condition establish an optimum? | B.5.RA if the variational argument needs recovery; C.29 when a mathematical variation represents a subject change. |
 | 6 | [MATH.21 - Construct an Object through Convergent Approximations](#math21---construct-an-object-through-convergent-approximations) | Stable | limit; completeness; compatible approximation; uniform convergence; error control. How can finite approximations construct an object while retaining the next operation? | MATH.20 for bounds; MATH.19 for convergence and interchange arguments; MATH.2 for classes of representations; computational methods for effective obtaining. |
 | 7 | [MATH.22 - Change Axioms and Trace Their Consequences](#math22---change-axioms-and-trace-their-consequences) | Stable | axiom change; theory; interpretation; model; independence; proof repair. Which constructions and consequences survive when assumptions change? | MATH.18 for interpretations; MATH.19 for replacement proofs; MATH.6 for countermodels; MATH.23 for a further conjecture. |
 | 8 | [MATH.23 - Develop a Conjecture by Changing a Construction](#math23---develop-a-conjecture-by-changing-a-construction) | Stable | conjecture; construction variation; proof and refutation; generalization; next problem. How can a change or obstruction yield a precise useful claim and an attainable next operation? | MATH.19 for proof construction; MATH.6 for refutation; MATH.22 for theory change; B.5.QD/C.40.CD for continued inquiry. |
@@ -80,7 +98,7 @@ You can ask an assisting agent: “Explain this and comment on my proposal witho
 - **Question:** What must become distinguishable or possible for the next answer to be useful?
 - **First useful result or blocker:** A mathematical task with a stated use. For example, a cart's travel log gives total distance, but that total cannot tell whether the cart returned to its start. Identify the position question first. With straight-line motion and known displacements, a sequence of signed displacements supplies an account that can answer it. MATH.1 constructs the sequences and their composition; MATH.5 derives the accumulated displacement from the elementary displacements. A sensor report must first be interpreted as the movement it measures.
 - **Start with:** FPF B.5.FM. State the working question, identify the participants and relations that may change its answer, and build a small account that yields a consequence. If an unfamiliar theory supplies the account, B.5.TU helps construct its application. B.5.MPC connects the physical, mathematical and computational contributions when the difficulty lies between them. Their bodies are in the FPF publication linked above. If the problem is deciding what an object must let you form or recover, use MATH.16. If it is deciding which distinctions can be forgotten, use MATH.2. If an implication is doubtful, use MATH.6. The question determines the construction; an available formula may settle only part of it. C.29 supplies the interpretation through which a mathematical result answers the original question. C.29.2/.3 develop a needed procedure and its execution.
-- **Stop or return:** After the question changes, test whether the summary still determines the answer. If two runs have the same final position but differ in a requested visit, recover the information that separates them. MATH.2 helps locate the failed identification; B.5.QD develops the next useful question. For a working method changed by the result, B.1.5.CM helps describe the proposed operations and their relations; A.3.1.CC checks the claims in that account and its description. The Preface's worked use follows these choices in detail.
+- **Stop or return:** After the question changes, test whether the summary still determines the answer. If two runs have the same final position but differ in a requested visit, recover the information that separates them. MATH.2 helps locate the failed identification; B.5.QD develops the next useful question. For a working method changed by the result, B.1.5.CM helps describe the proposed operations and their relations; A.3.1.CC checks the claims in that account and its description. The Architectural Reference's worked use follows these choices in detail.
 
 ### MP-COMBINE-RESULTS - Change a rule so that separately obtained results can be combined
 
@@ -105,9 +123,9 @@ You can ask an assisting agent: “Explain this and comment on my proposal witho
 
 **6. Develop the next question.** If the answer becomes a median, sum and count no longer suffice: [0,0,6] and [0,3,3] share both but have medians 0 and 3. Return to step 2 and use MATH.23 to construct the new question. A quantile method or a different summary can supply the next contribution.
 
-# Mathematical Thinking - Preface
+# Mathematical Thinking DPF Architectural Reference
 
-## MATH.Preface:1 - Problem frame - Construct mathematics for the question
+## MATH.Reference:1 - Problem frame - Construct mathematics for the question
 
 You may know a formula, a programming technique or a useful physical law and still be unable to formulate the next problem. The objects may have been chosen too coarsely. Two operations may work separately but fail when combined. A plausible statement may need a proof, or a proof may leave you without a way to obtain its promised object.
 
@@ -119,7 +137,7 @@ Begin with the question that is blocked. If its mathematical form is still uncle
 
 The common starting preparation is elementary sets, relations, functions and the ability to follow a short proof. Several examples need only integer arithmetic. Variation of a curve additionally uses differentiation and integration; the relevant pattern states those requirements. A collaborator can provide a mathematical contribution that you cannot yet construct yourself. Retain the inputs, conditions and result of that contribution so that the next part of the work can use it.
 
-## MATH.Preface:2 - Problem and forces - Make a usable construction
+## MATH.Reference:2 - Problem and forces - Make a usable construction
 
 A mathematical description earns its place by making an operation, argument or question possible. Choosing names for objects is often the beginning of that work. The harder part is deciding how the objects can be formed, transformed, compared and used in a subsequent construction.
 
@@ -136,9 +154,9 @@ Several tensions recur:
 
 The same question can have several satisfactory mathematical descriptions. A list of movement steps can show each change; a displacement summary can answer a final-position question with less information. A later question about visiting an intermediate position can require a distinction that the summary discarded. Choose a representation from the answer needed, its further use and the effort available.
 
-## MATH.Preface:3 - Solution - Connect constructions through what they supply
+## MATH.Reference:3 - Solution - Connect constructions through what they supply
 
-### MATH.Preface:3.1 - Form objects, operations and representations
+### MATH.Reference:3.1 - Form objects, operations and representations
 
 [MATH.16](#math16---choose-a-mathematical-construction-from-its-required-maps-universal-property) starts one step earlier, when several constructions seem plausible. Describe the maps the new object must support, then compare arbitrary allowed ways of supplying or processing its data. The resulting universal property distinguishes, for example, carrying both components from accepting either input, and arbitrary pairs from compatible pairs. It can also specify an object that represents a prepared function. A known construction can then supply the object and its maps.
 
@@ -154,7 +172,7 @@ When several descriptions should count as the same input, [MATH.2](#math2---trea
 
 These methods can be used separately. They also connect: form expressions from generators, interpret their operations, identify descriptions that preserve the desired answer, then choose a convenient representation for calculation. When the rule or the whole account changes, use MATH.17 or MATH.18 to construct and examine that change.
 
-### MATH.Preface:3.2 - Obtain an argument and the object it supports
+### MATH.Reference:3.2 - Obtain an argument and the object it supports
 
 [MATH.19](#math19---construct-a-proof-through-intermediate-claims) constructs an argument when the premises and conclusion are known but the connecting steps are missing. Work backward to a sufficient claim and forward to available consequences, then prove a lemma joining them. An unsuccessful induction can require an extra parameter or a stronger intermediate statement. B.5.RA instead helps recover an argument already supplied in another description.
 
@@ -167,7 +185,7 @@ These methods can be used separately. They also connect: form expressions from g
 
 An argument and an obtaining procedure can support each other. Given a finite list, a terminating test and a proof that some listed element passes, testing the entries obtains a witness. If the searched range becomes infinite, the finite-search argument must be reconsidered. The available result may remain a logical conclusion or a procedure for each finite portion.
 
-### MATH.Preface:3.3 - Change a construction and develop its theory
+### MATH.Reference:3.3 - Change a construction and develop its theory
 
 [MATH.13](#math13---derive-a-consequence-from-a-symmetry) establishes how a transformation of the data relates to transformations of admissible candidates and answers. That relation can transfer a solution, constrain a unique answer or expose an impossible choice requirement. [MATH.8](#math8---generate-a-solution-family-by-symmetry) constructs the resulting orbit, removes repetitions and separates one orbit from all solutions. [MATH.9](#math9---determine-whether-and-how-a-choice-rule-can-respect-symmetry) constructs a choice compatible with the transformations when the input's own symmetries permit one.
 
@@ -181,13 +199,13 @@ Symmetry and variation can simplify the same problem while answering different q
 
 [MATH.23](#math23---develop-a-conjecture-by-changing-a-construction) turns a variation, obstruction or unexplained regularity into a next mathematical claim and a proving or refuting operation. If equal weighting of group means fails for unequal groups, restricting all groups to equal size abandons the original need. Retaining sums and counts repairs the construction and opens a general question about combinable summaries. Proof construction, countermodels and changed axioms then provide different continuations.
 
-### MATH.Preface:3.4 - Return a construction to further work
+### MATH.Reference:3.4 - Return a construction to further work
 
 The connecting rule is simple: name what one construction returns and what the next one uses. A set of solutions, one chosen solution, a proof of existence and an executable selection support different continuations. Enter at a contribution already available and stop when the requested mathematical result has been supplied.
 
 For a question about another subject, use FPF C.29 to establish the correspondence through which the mathematical result answers that question. C.29.2 develops a missing computational formulation; C.29.3 connects a computation with the arrangement that prepares its inputs, performs it and exposes an interpretable result. B.5.MPC coordinates mathematical, physical and computational reasoning when their contributions must be developed together.
 
-### MATH.Preface:3.5 - Use this contribution within the wider repertoire
+### MATH.Reference:3.5 - Use this contribution within the wider repertoire
 
 The [Foundational Thinking Suite Reference](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) explains where this mathematical contribution connects with model formulation, physical premises, computation, notation and Method Engineering. A result such as a function object or an interpreted path becomes useful through what the next operation can do with it. Its mathematical laws alone leave the subject interpretation and execution conditions to their respective methods.
 
@@ -196,13 +214,13 @@ The twenty bodies connect formation and interpretation with proof, comparison an
 For example, changing the order of a read and an update can preserve the final stored value but change the reading used by a later decision. MATH.1/.5 supply sequences and their interpretation, and MATH.2 tests the proposed identification. Method Engineering uses that distinction when deciding how work may be rearranged. The mathematical construction and its use in the working method remain separately inspectable.
 
 
-### MATH.Preface:3.6 - Constituent actions in ongoing work
+### MATH.Reference:3.6 - Constituent actions in ongoing work
 
 A symbolic rewrite can be part of proving a lemma while that lemma's proof is part of proving a larger claim. The required domain constrains the rewrite at that same moment: cancelling a factor is permissible only under the relevant algebraic conditions, and excluding zero would change a claim that is meant to include it. Knowing the symbols and the theorem goal can leave the intermediate reasoning unavailable. Recover or obtain that reasoning rather than treat the smaller calculation as proof of the whole.
 
 FPF B.1.5.EW helps recover these constituent–whole connections; B.1.5.RS examines a proposed replacement. Use the parts of the vertical that can change the present result. A Method described here can require additional capability, available support and compatible resources at other grains.
 
-## MATH.Preface:4 - Worked use - Choose a representation after the question changes
+## MATH.Reference:4 - Worked use - Choose a representation after the question changes
 
 A team receives travel logs from a cart moving along a straight line. Two runs have the same recorded distance, yet one ends at the starting point and the other does not. The immediate question is which runs returned to their start. Starting with a familiar distance formula leaves the missing information unresolved.
 
@@ -220,7 +238,7 @@ The method needed an operation on sequences, not just names for two kinds of mov
 
 **Develop the next question.** The failure suggests a further mathematical problem: what smaller summary, if any, preserves both displacement and the requested visit information under concatenation? B.5.QD helps turn that question into a first construction or counterexample. MATH.16 can help specify what a proposed summary must let the next operation recover; the required maps and laws still need to be established. The cart is the worked example. Selecting distinctions by their use, constructing operations, justifying a compression and restoring information after a changed question are the reusable moves.
 
-## MATH.Preface:5 - Worked use - Construct a choice after finding an obstruction
+## MATH.Reference:5 - Worked use - Construct a choice after finding an obstruction
 
 Four positions form a cycle, with costs (1,3,1,3). The required result is one cheapest position. Changing the numbering origin must rotate the selected position along with the input.
 
@@ -234,7 +252,7 @@ A chosen lowest numeral would introduce a preferred origin. It is appropriate on
 
 The result identifies the missing input distinction or output change that permits a construction. The same pattern of work appears in mathematics used for geometric learning, cyclic schedules and other settings, with each setting supplying its own acceptable outputs and additional conditions.
 
-## MATH.Preface:6 - Checks and common failures - Preserve what the next construction needs
+## MATH.Reference:6 - Checks and common failures - Preserve what the next construction needs
 
 For a use spanning several patterns, check the following relations at the joins:
 
@@ -251,7 +269,7 @@ The movement example shows why a representation must be judged against the quest
 
 Another failure arises when mathematical equality is used to reorganize work without examining execution. MATH.12's split-and-join example returns equal values for a fixed function, while repeated evaluation can cost more. If a call changes hidden state, repeated calls can also return different values. Restore the relevant state and use C.29.3 for the execution correspondence before transferring that mathematical transformation.
 
-## MATH.Preface:7 - Consequences, biases and limits
+## MATH.Reference:7 - Consequences, biases and limits
 
 The language makes useful intermediate results available for reuse: composable paths, valid classes, interpreted expressions, witnesses, countermodels, invariant equations, solution families and qualified improvements. Their conditions help divide a larger problem among contributors and locate the part that needs revision.
 
@@ -263,7 +281,7 @@ The starting repertoire concentrates on formation, proof, representation and tra
 
 An assisting agent can propose objects, examples or proofs and execute calculations. Its contribution must be understandable at the join where another contributor uses it. The mathematical statement and its justification remain available for criticism and revision, including when a person delegates the detailed calculation.
 
-## MATH.Preface:8 - Architectural Rationale - Organize by reusable constructions
+## MATH.Reference:8 - Architectural Rationale - Organize by reusable constructions
 
 A single mathematical construction can serve many subjects. A quotient can retain the information used by a later operation; symmetry can organize solutions of a theoretical problem or constrain a learning system. This reuse makes the mathematics valuable across disciplines while leaving its specialized construction methods with mathematical practice.
 
@@ -281,7 +299,7 @@ There can be further useful scales. A geometric-computation profile may reuse sy
 
 Revise this organization when a recurring use needs a construction that no body supplies, when two bodies duplicate the same useful move, or when a changed method makes their joins misleading. Preserve still-useful operations, explanations and source qualifications during that change.
 
-## MATH.Preface:9 - Source use and currentness
+## MATH.Reference:9 - Source use and currentness
 
 
 For formation and composition, Fong and Spivak's [Seven Sketches in Compositionality](https://arxiv.org/pdf/1803.05316), §3.2, supplies paths and imposed equations. The patterns adapt these constructions to explicit enabling states and interpretation of composite operations. Direct enumeration remains useful when a small set of paths already answers the question.
@@ -306,7 +324,7 @@ For invariants, [Bayarmagnai, Mohammadi and Prébet](https://arxiv.org/html/2412
 
 These sources play different roles. Established mathematics supplies definitions and arguments; maintained formal libraries and current research expose further constructions, limits and implementation choices. A publication date alone does not make one answer replace another. Revisit a choice when the receiving question changes, a relied-on assumption fails, or another method obtains a more useful result at acceptable cost. The individual bodies keep the operative source passages and the conditions of that comparison.
 
-## MATH.Preface:10 - Relations to further reasoning and work
+## MATH.Reference:10 - Relations to further reasoning and work
 
 FPF B.5.RC and B.5.RA recover an available construction or argument; B.5.RR follows a changed premise through it. Mathematical Thinking supplies specific constructions that such reasoning can recover, use and revise. B.5.QD develops a further question from an obstruction or a successful result; C.39.RO and C.40.CD support reusable operations and their development. A construction can be worth retaining because it makes another operation or question possible before its final application is known. When choosing which question to pursue, state the work its answer could enable; E.10.INT distinguishes that usefulness from other senses of interest.
 
@@ -316,14 +334,14 @@ For application, the C.29 family and B.5.MPC connect mathematical results, compu
 
 For evaluating alternatives, reuse FPF's characteristic, comparison and improvement methods. C.11 supports a consequential choice; C.11.DUA helps decide whether further calculation or inquiry can change that choice enough to justify its cost. Mathematical Thinking supplies the relevant construction or quantitative relation.
 
-## MATH.Preface:End
+## MATH.Reference:End
 
 # Part A - Choose and relate constructions
 
 ## MATH.16 - Choose a Mathematical Construction from Its Required Maps (Universal Property)
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### MATH.16:1 - Problem frame
@@ -575,7 +593,7 @@ The elementary examples use ordinary equality and functions. If the work changes
 ## MATH.17 - Construct Mathematical Spaces of Operations and Operations on Them
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### MATH.17:1 - Problem frame
@@ -778,7 +796,7 @@ A direct formula is sufficient when one operation settles the task. The structur
 ## MATH.1 - Build a Mathematical Structure of Composable Paths
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### MATH.1:1 - Problem frame
@@ -962,7 +980,7 @@ Section 3.2.2, pp.84-85, supplies the later option of imposing path equations; M
 ## MATH.2 - Treat Objects as the Same While Preserving Operations (Quotient)
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### MATH.2:1 - Problem frame
@@ -1165,7 +1183,7 @@ The serious alternative is an equivalence relation chosen only by a shared prope
 ## MATH.5 - Extend a Generator Assignment While Preserving Operations (Homomorphism)
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### MATH.5:1 - Problem frame
@@ -1397,7 +1415,7 @@ The useful comparison is with a supplied map or independent evaluation of a smal
 ## MATH.7 - Transport a Mathematical Structure Through a Bijection
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### MATH.7:1 - Problem frame
@@ -1607,7 +1625,7 @@ A direct definition or an existing isomorphism can provide the same result with 
 ## MATH.18 - Compare Mathematical Accounts through Interpretations
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### MATH.18:1 - Problem frame
@@ -2061,7 +2079,7 @@ The sources provide construction methods and inspectable formal mechanisms. They
 ## MATH.4 - Construct a Witness by Induction
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### MATH.4:1 - Problem frame
@@ -2274,7 +2292,7 @@ Direct enumeration or a supplied operation can answer a small instance with less
 ## MATH.12 - Extract a Construction from a Proof
 
 > **Type:** Method pattern
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
 ### MATH.12:1 - Problem frame
@@ -2432,7 +2450,7 @@ If the proposed implementation instead reads and increments a hidden counter, re
 
 #### MATH.12:5.3 - Extract a case decision and its answer
 
-For a rational input r=p/q, with integer p and positive integer q, construct either an indication that r=0 or a rational y such that r*y=1.
+For a rational input r=p/q, with integer p and positive integer q, construct either an indication that r=0 or a rational y such that r\*y=1.
 
 The proof examines the decidable integer condition p=0:
 
@@ -2517,7 +2535,7 @@ Reopen the chosen method when a needed proof rule has no available computational
 ## MATH.6 - Refute a Mathematical Claim with a Countermodel
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### MATH.6:1 - Problem frame
@@ -2952,7 +2970,7 @@ The synthesis retains the cheapest comparison that supports the requested result
 ## MATH.11 - Construct an Invariant from Transformation Rules
 
 > **Type:** Method pattern
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
 ### MATH.11:1 - Problem frame
@@ -3024,7 +3042,7 @@ For additive count changes, this gives one linear equation on the weights per ch
 
 For polynomial updates and a rational-coefficient polynomial family, expand the difference and collect like monomials. Setting every resulting coefficient to zero gives a linear system in the unknown ci. Solving it constructs polynomial identities that preserve I for every input. On a state set or enabled region smaller than the full polynomial domain, this identity test is sufficient but can be stronger than the preservation actually required. A relation valid only on the reachable states may therefore need another construction.
 
-For example, let X={0,1}, T(x)=x² and I(x)=c*x+d. Requiring the polynomial identity `c*(x²-x)=0` over all rational x forces c=0. On X the two allowed pairs are 0→0 and 1→1; checking them admits I(x)=x. Starting at 0, this invariant excludes 1. Here inspecting the allowed pairs produces a useful invariant within the same linear family.
+For example, let X={0,1}, T(x)=x² and I(x)=c\*x+d. Requiring the polynomial identity `c*(x²-x)=0` over all rational x forces c=0. On X the two allowed pairs are 0→0 and 1→1; checking them admits I(x)=x. Starting at 0, this invariant excludes 1. Here inspecting the allowed pairs produces a useful invariant within the same linear family.
 
 The simultaneous equations can be solved by substitution in a small case or by linear algebra for a larger one. If several independent solutions are useful, keep them together as a tuple of invariants. A constant solution can be discarded for a target-separation question because it has the same value at every state.
 
@@ -3191,7 +3209,7 @@ The three worked constructions and their changed conditions are derived here. Th
 ## MATH.13 - Derive a Consequence from a Symmetry
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### MATH.13:1 - Problem frame
@@ -3402,7 +3420,7 @@ C.29.1 supplies the general result-transfer comparison. The fixed-point and sele
 ## MATH.8 - Generate a Solution Family by Symmetry
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### MATH.8:1 - Problem frame
@@ -3607,7 +3625,7 @@ Reopen when the action, data, solution relation, equality procedure or requested
 ## MATH.9 - Determine Whether and How a Choice Rule Can Respect Symmetry
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### MATH.9:1 - Problem frame
@@ -3798,7 +3816,7 @@ A symmetry claim also depends on what is actually supplied. Position names used 
 ### MATH.9:7 - Conformance Checklist
 
 - The permitted-answer set and both group actions belong to the declared input range.
-- The solution relation carries A(d) to A(g*d).
+- The solution relation carries A(d) to A(g\*d).
 - A selected representative answer is permitted and fixed by the representative's whole stabilizer.
 - Different transformations reaching the same input return the same answer.
 - The claimed range has the required representative and answer construction.
@@ -3861,7 +3879,7 @@ Reopen when the input attributes, action, permitted answer, demanded regularity 
 ## MATH.10 - Improve a Mathematical Candidate or Derive a Necessary Condition by Admissible Variation
 
 > **Type:** Method
-> **Status:** Usable, evolving
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### MATH.10:1 - Problem frame
