@@ -10,25 +10,29 @@ When an organization or another established system is the subject of change, man
 
 ## Read the whole and its constituents
 
-The [Management DPF Suite Architectural Reference](MANAGEMENT-DPF-SUITE-REFERENCE.md) explains the field, the relations among its eleven constituent languages, alternatives, limits and returns to external suppliers. Its [voluntary practice network (Management.Reference:5.1 in Management)](MANAGEMENT-DPF-SUITE-REFERENCE.md#managementreference51---a-voluntary-practice-development-network) and [operating-business order (Management.Reference:5.2 in Management)](MANAGEMENT-DPF-SUITE-REFERENCE.md#managementreference52---a-new-order-in-an-operating-business) show different connected uses. These cases illustrate the architecture; they do not define the Suite's coverage.
+The [Management DPF Suite Architectural Reference](MANAGEMENT-DPF-SUITE-REFERENCE.md) explains the field, the relations among its eleven constituent languages, alternatives, limits and returns to external suppliers. Its [voluntary practice network (Management.Reference:5.1)](MANAGEMENT-DPF-SUITE-REFERENCE.md#managementreference51---a-voluntary-practice-development-network) and [operating-business order (Management.Reference:5.2)](MANAGEMENT-DPF-SUITE-REFERENCE.md#managementreference52---a-new-order-in-an-operating-business) show different connected uses. These cases illustrate the architecture; they do not define the Suite's coverage.
 
 The constituent DPFs provide the full Methods, cases and source grounds:
 
-- [Strategy (STR)](STRATEGY-PRINCIPLES-FRAMEWORK.md)
-- [Operations Management (OPS)](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md)
-- [Organization Administration (ADM)](ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md)
-- [Corporate Governance (CGOV)](CORPORATE-GOVERNANCE-PRINCIPLES-FRAMEWORK.md)
-- [Management Accounting (MA)](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md)
-- [Corporate Finance (FIN)](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md)
-- [Marketing (MKT)](MARKETING-PRINCIPLES-FRAMEWORK.md)
-- [Engineering Asset Management (EAM)](ENGINEERING-ASSET-MANAGEMENT-PRINCIPLES-FRAMEWORK.md)
-- [Leadership (LDR)](LEADERSHIP-PRINCIPLES-FRAMEWORK.md)
-- [Community Management (CB)](COMMUNITY-MANAGEMENT-PRINCIPLES-FRAMEWORK.md)
-- [Organization Change Engineering (OCE)](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md)
+**Patterns** counts the complete pattern bodies in each linked DPF. **Text, M characters** gives the size of its full Markdown file, including its embedded Reference and supporting sections, in millions of Unicode characters (1 M = 1,000,000), with spaces and original line breaks included and values rounded to three decimals.
 
-OCE connects the construction of organizational relations to feasible commitments and has its complete home in this Suite. [Maintenance Engineering and Management (MNT)](../Engineering%20DPF%20Suite/MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) connects maintained functioning to policy, support and the service programme; its complete language is in the [Engineering Suite (Engineering DPF Suite)](../Engineering%20DPF%20Suite/README.md). A manager may apply those Methods directly when capable, or obtain a qualified result. The Reference explains [organizational construction and maintenance use (Management.Reference:3.1 in Management)](MANAGEMENT-DPF-SUITE-REFERENCE.md#managementreference31---organizational-construction-and-maintenance-use), including why these two complete fields have different direct homes.
+| Constituent DPF | Patterns | Text, M characters |
+| --- | ---: | ---: |
+| [Strategy (STR)](STRATEGY-PRINCIPLES-FRAMEWORK.md) | 16 | 0.486 |
+| [Operations Management (OPS)](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) | 28 | 0.903 |
+| [Organization Administration (ADM)](ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md) | 15 | 0.302 |
+| [Corporate Governance (CGOV)](CORPORATE-GOVERNANCE-PRINCIPLES-FRAMEWORK.md) | 17 | 0.274 |
+| [Management Accounting (MA)](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md) | 9 | 0.163 |
+| [Corporate Finance (FIN)](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md) | 22 | 0.584 |
+| [Marketing (MKT)](MARKETING-PRINCIPLES-FRAMEWORK.md) | 14 | 0.384 |
+| [Engineering Asset Management (EAM)](ENGINEERING-ASSET-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) | 16 | 0.265 |
+| [Leadership (LDR)](LEADERSHIP-PRINCIPLES-FRAMEWORK.md) | 3 | 0.128 |
+| [Community Management (CB)](COMMUNITY-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) | 16 | 0.526 |
+| [Organization Change Engineering (OCE)](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | 17 | 0.697 |
 
-A known sufficient Method can be used directly. Corporate Governance and Corporate Finance retain their corporate conditions; other settings need their applicable governing and financial practice. Participation in this Suite does not make every constituent necessary for every undertaking. The Reference states the [coverage limits and continuity conditions (Management.Reference:7 in Management)](MANAGEMENT-DPF-SUITE-REFERENCE.md#managementreference7---continuity-and-coverage).
+OCE connects the construction of organizational relations to feasible commitments and has its complete home in this Suite. [Maintenance Engineering and Management (MNT)](../Engineering%20DPF%20Suite/MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) connects maintained functioning to policy, support and the service programme; its complete language is in the [Engineering Suite (Engineering DPF Suite)](../Engineering%20DPF%20Suite/README.md). A manager may apply those Methods directly when capable, or obtain a qualified result. The Reference explains [organizational construction and maintenance use (Management.Reference:3.1)](MANAGEMENT-DPF-SUITE-REFERENCE.md#managementreference31---organizational-construction-and-maintenance-use), including why these two complete fields have different direct homes.
+
+A known sufficient Method can be used directly. Corporate Governance and Corporate Finance retain their corporate conditions; other settings need their applicable governing and financial practice. Participation in this Suite does not make every constituent necessary for every undertaking. The Reference states the [coverage limits and continuity conditions (Management.Reference:7)](MANAGEMENT-DPF-SUITE-REFERENCE.md#managementreference7---continuity-and-coverage).
 
 Use the [Human Capability Engineering Suite (Human Capability Engineering DPF Suite)](../Human%20Capability%20Engineering%20DPF%20Suite/README.md) when a person's capability must develop. Learning, coaching and organizing a team's work can contribute to the same undertaking while addressing different subjects; a provider's professional title does not decide which result is needed.
 

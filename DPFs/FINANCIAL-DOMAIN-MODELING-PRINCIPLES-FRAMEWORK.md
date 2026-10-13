@@ -105,9 +105,9 @@ There is also a connection within the modeler's present work. While interpreting
 
 Suppose a lending model stores “loan amount = 100” for the principal, while a payment model requires the amount payable at maturity. Equal-looking field names do not establish an adequate correspondence.
 
-FDM.1 and FDM.2 identify the same lender, borrower and contract. FDM.3 supplies the terms: principal 100, contractual maturity payment 105 in the stated currency on day 30. [SIE.4 in SIE][SIE] can now establish a qualified correspondence: the principal field supplies the principal input; the maturity amount follows from the applicable terms. Replacing the maturity value by 100 would lose the contractual difference of 5.
+FDM.1 and FDM.2 identify the same lender, borrower and contract. FDM.3 supplies the terms: principal 100, contractual maturity payment 105 in the stated currency on day 30. [SIE.4][SIE] can now establish a qualified correspondence: the principal field supplies the principal input; the maturity amount follows from the applicable terms. Replacing the maturity value by 100 would lose the contractual difference of 5.
 
-[SIE.5 in SIE][SIE] preserves the relevant party and contract identities. [SIE.6 in SIE][SIE] combines the statements with their meanings, currency and time. [SIE.3 in SIE][SIE] asks whether the available models are sufficient for the receiving question and directs a necessary extension. The financial distinction and the general integration method have separate contributions.
+[SIE.5][SIE] preserves the relevant party and contract identities. [SIE.6][SIE] combines the statements with their meanings, currency and time. [SIE.3][SIE] asks whether the available models are sufficient for the receiving question and directs a necessary extension. The financial distinction and the general integration method have separate contributions.
 
 For this constructed example, assume that the advance of 100 has actually occurred and is adequately established, creating the obligation to pay 105 on day 30 under the supplied terms.
 
@@ -126,7 +126,7 @@ FDM.4 supplies the answers about the actual advance, payment and remaining oblig
 
 A founder-group account, legal-entity account and portfolio-risk account can all be useful. They answer different questions. A common founder can matter to correlated exposures, governance or expected support; the relation alone does not identify another entity as the debtor or make its funds available.
 
-Keep each grouping's criterion and use explicit. Before summing balances, preserve the parties, dates, currencies, restrictions and any relation needed for the intended aggregate. A single organizational tree can be adequate for one report and inadequate for another question. [SIE.5 through SIE.6 in SIE][SIE] supply unresolved identity and composition work.
+Keep each grouping's criterion and use explicit. Before summing balances, preserve the parties, dates, currencies, restrictions and any relation needed for the intended aggregate. A single organizational tree can be adequate for one report and inadequate for another question. [SIE.5 through SIE.6][SIE] supply unresolved identity and composition work.
 
 The same discipline applies within a loan. The lender's right, the borrower's duty, a bank-account record, usable proceeds and equipment acquired with those proceeds are different subjects. Their relationships explain the financial service.
 
@@ -193,7 +193,7 @@ The position can be clear while its future performance is uncertain. The model m
 
 Ask what someone intends to conclude from the record: who owes, who may receive, who bears a loss, what is available or another specific result. Identify the actual party whose position matters and the counterparty or other participant required to interpret it.
 
-Resolve a material identity or grouping uncertainty through FDM.2 or [SIE.5 in SIE][SIE]. A common trading name, group identifier or database key can help locate the party but cannot settle a disputed entity boundary.
+Resolve a material identity or grouping uncertainty through FDM.2 or [SIE.5][SIE]. A common trading name, group identifier or database key can help locate the party but cannot settle a disputed entity boundary.
 
 #### FDM.1:4.2 - Recover the position from its applicable basis
 
@@ -287,7 +287,7 @@ Reopen the interpretation when actual terms, party identity or event evidence ch
 
 FDM.2 resolves the party or group boundary; FDM.3 derives contractual behavior; FDM.4 establishes actual changes. FDM.5 uses an adequate position model when tracing a service's contribution.
 
-A.2.8 governs the individual-duty question, A.2.8.PER the permission question and A.2.9 communicative work where its occurrence matters. [ADM.2 through ADM.4 in ADM][ADM] supply the corresponding administrative participant, effectivity and account questions. SIE supplies general identity and correspondence methods without replacing the financial terms.
+A.2.8 governs the individual-duty question, A.2.8.PER the permission question and A.2.9 communicative work where its occurrence matters. [ADM.2 through ADM.4][ADM] supply the corresponding administrative participant, effectivity and account questions. SIE supplies general identity and correspondence methods without replacing the financial terms.
 
 ### FDM.1:End
 
@@ -330,7 +330,7 @@ Some relations establish a duty or power; others support a prediction of volunta
 
 State whose payment, position, exposure, control or report is at issue and the relevant time. Identify the actual entities and accounts involved before selecting a group label.
 
-For a payment, find the party that bears the obligation and the funds it can use by the due time. For a portfolio question, identify the investments or exposures being compared and the risk meaning of their aggregation. For a reporting result, establish the reporting framework adopted for the entity and period. The report's purpose and applicable authority select the rule family; a shared owner does not. Use [SIE.5 in SIE][SIE] when the entities themselves or their continuity are disputed.
+For a payment, find the party that bears the obligation and the funds it can use by the due time. For a portfolio question, identify the investments or exposures being compared and the risk meaning of their aggregation. For a reporting result, establish the reporting framework adopted for the entity and period. The report's purpose and applicable authority select the rule family; a shared owner does not. Use [SIE.5][SIE] when the entities themselves or their continuity are disputed.
 
 #### FDM.2:4.2 - State why these members belong together
 
@@ -352,7 +352,7 @@ Combine only amounts whose meaning, time, currency and inclusion rule are adequa
 
 For a reporting result, retrieve the relevant provisions for consolidation, recognition, measurement or elimination, with their scope and exceptions, or obtain the responsible accountant's supported treatment. If the boundary depends on an unresolved control determination, provide the ownership and decision-right facts needed for it and ask which entities enter this reporting boundary for this period. A request for a consolidated number cannot supply that missing conclusion.
 
-Use the returned boundary and treatment to identify included entities, align the relevant accounting bases and perform required adjustments. Explain an unresolved difference rather than combining incompatible values. [MA.4 in MA][MA4] supplies the account-construction and reconciliation work once the responsible treatment is adequate. A valuation, conversion or netting operation likewise needs the rule appropriate to its actual use; the group label does not supply one.
+Use the returned boundary and treatment to identify included entities, align the relevant accounting bases and perform required adjustments. Explain an unresolved difference rather than combining incompatible values. [MA.4][MA4] supplies the account-construction and reconciliation work once the responsible treatment is adequate. A valuation, conversion or netting operation likewise needs the rule appropriate to its actual use; the group label does not supply one.
 
 A useful specialist return supplies the decisive treatment, the parties and period to which it applies, the conditions that change it and the resulting model operation. If only the applicable jurisdiction or reporting basis is missing, ask for that selection. Apply an already adequate treatment directly.
 
@@ -362,7 +362,7 @@ For a payment question, derive the debtor's usable funds at the payment time aft
 
 Return the relevant parties, membership rule, positions and justified aggregate or support conclusion. State what remains unresolved where it affects use: an entity identity, support condition, restriction, payment time or aggregation rule.
 
-Use [SIE.6 in SIE][SIE] to combine the relevant claims into a qualified answer once their financial meanings are established. Its result can retain several claims or report conflict, non-comparability or an unresolved premise. FDM.3 develops conditional support flows; FDM.4 establishes the effects of an actual transfer. A sufficient ordinary boundary can be used without constructing every other group view.
+Use [SIE.6][SIE] to combine the relevant claims into a qualified answer once their financial meanings are established. Its result can retain several claims or report conflict, non-comparability or an unresolved premise. FDM.3 develops conditional support flows; FDM.4 establishes the effects of an actual transfer. A sufficient ordinary boundary can be used without constructing every other group view.
 
 ### FDM.2:5 - Archetypal Grounding
 
@@ -496,7 +496,7 @@ For each such connection, explain how to decide that its condition holds, calcul
 
 Try an available model against these rules before constructing a new one. Select a contract family by behavior: scheduled principal repayment only at maturity, specified principal installments and equal total installments imply different future calculations. The marketing label “loan” does not decide among them. An optional prepayment is also different from a mandatory amortization installment.
 
-Inspect the chosen model's definitions, assumptions and event behavior. Check that it can express the actual allocation, calendar and exercise rules. Use it directly when it fits, extend a separable missing behavior when the other meanings remain valid, or retain the unsupported part explicitly. A software default can be used as an explicit assumption; it does not determine the agreement's meaning. [SIE.3 in SIE][SIE] supplies this reuse decision; SIE.4 supplies a qualified correspondence when two representations use different meanings.
+Inspect the chosen model's definitions, assumptions and event behavior. Check that it can express the actual allocation, calendar and exercise rules. Use it directly when it fits, extend a separable missing behavior when the other meanings remain valid, or retain the unsupported part explicitly. A software default can be used as an explicit assumption; it does not determine the agreement's meaning. [SIE.3][SIE] supplies this reuse decision; SIE.4 supplies a qualified correspondence when two representations use different meanings.
 
 For an [ACTUS][ACTUS] implementation, the useful return is to the chosen contract type's schedule, state initialization, payoff calculations and state transitions, together with the selected dictionary and implementation edition. Supply the operative terms, a supported starting state and any external observations or scenarios that the model needs. Compare its produced events with the agreement-based construction. A successful sample request establishes execution of that sample; it does not establish the mapping for another contract.
 
@@ -530,7 +530,7 @@ For a scenario, state the additional assumptions: market values, exercise, defau
 
 Keep the contractual schedule available alongside expected or scenario flows. An expectation is an account across possible outcomes under a model; it is not another amount that every counterparty must pay. Likewise, an observed payment belongs to the actual-performance account. FDM.4 establishes its effect on remaining positions.
 
-A financial choice or valuation may need discounting, risk treatment or comparison with alternatives. [FIN.10 in FIN][FIN10] consumes the contractual behavior when comparing financing terms; [FIN.2 in FIN][FIN2] uses the amounts and dates with usable funds. Supply the qualified flows to the method answering the financial question. The event model alone does not select its decision rules.
+A financial choice or valuation may need discounting, risk treatment or comparison with alternatives. [FIN.10][FIN10] consumes the contractual behavior when comparing financing terms; [FIN.2][FIN2] uses the amounts and dates with usable funds. Supply the qualified flows to the method answering the financial question. The event model alone does not select its decision rules.
 
 #### FDM.3:4.5 - Return and adapt the model for its receiving use
 
@@ -538,7 +538,7 @@ Return the contractual or conditional flows, relevant parties, time rules and as
 
 Separate a new observation, an exercised existing right, a change to the agreement and correction of an earlier record. A new market fixing supplies a value to an existing rule; an effective amendment can change the rule. A late bank confirmation can establish an earlier receipt. Each calls for a different update.
 
-For a valid prospective amendment, preserve the history already established and apply the changed rule from its effective boundary. Recompute dependent later events. If the amendment's effectivity or treatment of earlier accrual is unclear, obtain that interpretation before rewriting the prior account. [ADM.3 and ADM.10 in ADM][ADM] supply the temporal and performance inquiries.
+For a valid prospective amendment, preserve the history already established and apply the changed rule from its effective boundary. Recompute dependent later events. If the amendment's effectivity or treatment of earlier accrual is unclear, obtain that interpretation before rewriting the prior account. [ADM.3 and ADM.10][ADM] supply the temporal and performance inquiries.
 
 Reopen only the dependent parts when the relevant state, a relied-on scenario premise or the receiving use changes. FDM.4 supplies established effects for updating actual state; FDM.5 examines how using the model contributes to the participant's result. Preserve the source of an opening value or changed rule when later users need it to understand that update.
 
@@ -596,7 +596,7 @@ Change the evidence instead of the term: the 17 April record proves only an inst
 
 If the confirmed 1,000 instead belongs to a refundable collateral arrangement, recover that arrangement's effect under FDM.4. A transfer with the same amount and date can create a collateral position while leaving the loan principal unchanged. FDM.4:5.2 develops this distinction between refundable collateral and repayment.
 
-For the model's use, [FIN.2 in FIN][FIN2] consumes the qualified amount and due date together with B's usable funds; [FIN.10 in FIN][FIN10] can compare a different financing arrangement. FDM.5 asks whether the treasury service used the model to arrange a sufficient payment and what effect followed. The next action and any claimed benefit depend on that receiving use.
+For the model's use, [FIN.2][FIN2] consumes the qualified amount and due date together with B's usable funds; [FIN.10][FIN10] can compare a different financing arrangement. FDM.5 asks whether the treasury service used the model to arrange a sufficient payment and what effect followed. The next action and any claimed benefit depend on that receiving use.
 
 #### FDM.3:5.3 - Constructing the payment conditions of a guarantee
 
@@ -657,13 +657,13 @@ The current [ACTUS analytics account][ACTUS-ANALYTICS] connects contract inputs 
 
 FINOS CDM's [Event Model, version 7.0.0][CDM-EVENT] provides a complementary model of trade state and changes. Terms amendments, observed resets and transfers with different statuses supply different updates. It informs the distinction in §4.5 between changing a rule, obtaining an input and establishing performance. Such a state-and-event representation is useful for lifecycle integration, while contractual payoff logic is useful for deriving amounts. A project can need both; their outputs require a qualified correspondence.
 
-The worked cases use their stated agreement terms. To assess an ACTUS or CDM implementation, compare its result and conventions with that agreement-based model. [SIE.3 through SIE.4 in SIE][SIE] supply the general reuse and correspondence methods, and FDM.4 supplies actual-effect reasoning. Reopen a relied-on mapping when its terms, state, event behavior or implementation edition changes.
+The worked cases use their stated agreement terms. To assess an ACTUS or CDM implementation, compare its result and conventions with that agreement-based model. [SIE.3 through SIE.4][SIE] supply the general reuse and correspondence methods, and FDM.4 supplies actual-effect reasoning. Reopen a relied-on mapping when its terms, state, event behavior or implementation edition changes.
 
 ### FDM.3:12 - Relations
 
 FDM.1–2 supply adequate positions and party boundaries. FDM.4 establishes actual events and their effects; FDM.5 uses the flows relevant to a participant's service result.
 
-SIE.3–6 supply general model construction and connection. [MA.4 in Management Accounting (MA)][MA4] reconciles operating, reporting and cash accounts; [MA.5 in MA][MA5] uses the relevant conditional flows in its forecast. [FIN.10 in FIN][FIN10] uses contractual event behavior to design and compare financing instruments and terms; [FIN.2 in FIN][FIN2] compares dated requirements with usable funds. The responsible financial practice supplies any additional valuation or choice method.
+SIE.3–6 supply general model construction and connection. [Management Accounting (MA.4)][MA4] reconciles operating, reporting and cash accounts; [MA.5][MA5] uses the relevant conditional flows in its forecast. [FIN.10][FIN10] uses contractual event behavior to design and compare financing instruments and terms; [FIN.2][FIN2] compares dated requirements with usable funds. The responsible financial practice supplies any additional valuation or choice method.
 
 ### FDM.3:End
 
@@ -732,7 +732,7 @@ Keep the calculation answerable to that interpretation. If you can perform the a
 
 When the evidence establishes that the required event did not occur, return the supported non-change for that effect. When the rule or occurrence is unresolved, return the exact missing premise. An unresolved result is not proof of either performance or failure.
 
-Relate the records to the resulting position. A necessary correction belongs in the appropriate account through its responsible process; do not silently rewrite history to make sources appear consistent. Use [ADM.4 in ADM][ADM] when the participants' accounts require a broader comparison.
+Relate the records to the resulting position. A necessary correction belongs in the appropriate account through its responsible process; do not silently rewrite history to make sources appear consistent. Use [ADM.4][ADM] when the participants' accounts require a broader comparison.
 
 #### FDM.4:4.5 - Return the result needed by the next user
 
@@ -951,7 +951,7 @@ FDM.1–4, ADM and the relevant decision practice supply the distinctions used i
 
 ### FDM.5:12 - Relations
 
-FDM.1–4 supply the financial positions, boundaries, events and actual effects needed by this service question. [ADM.7 through ADM.10 in ADM][ADM] supply evidence, permission, usable provision and fulfillment where those administrative questions arise.
+FDM.1–4 supply the financial positions, boundaries, events and actual effects needed by this service question. [ADM.7 through ADM.10][ADM] supply evidence, permission, usable provision and fulfillment where those administrative questions arise.
 
 SIE supplies the general model connection. The relevant financial, operating or management practice supplies decision criteria and comparisons. When service design or provider choice is the unresolved task, use the relevant service-design or provider-selection method.
 

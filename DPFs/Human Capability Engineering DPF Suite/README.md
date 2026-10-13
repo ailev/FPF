@@ -8,25 +8,27 @@ Use this Suite when a person needs to become able to do something, recover an ab
 
 ## Start from the missing contribution
 
-If you need to understand what limits a person's work, begin with [Diagnose Whether a Capability, Misconception, or Behaviour Limits Work (HCD.3 in HCD)](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd3--diagnose-whether-a-capability-misconception-or-behaviour-limits-work). The useful answer may be a justified capability-change target, or a return to a missing tool, explanation, condition or specialist contribution.
+If you need to understand what limits a person's work, begin with [Diagnose Whether a Capability, Misconception, or Behaviour Limits Work (HCD.3)](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd3--diagnose-whether-a-capability-misconception-or-behaviour-limits-work). The useful answer may be a justified capability-change target, or a return to a missing tool, explanation, condition or specialist contribution.
 
-If a familiar movement fails because bodily experience, voluntary regulation and the visible action do not yet connect, begin with [Model the Bodily Contribution to a Movement (SOM.1 in SOM)](SOMATIC-MOVEMENT-MODELING-PRINCIPLES-FRAMEWORK.md#som1---model-the-bodily-contribution-to-a-movement). Suitable technique and physical conditions remain necessary.
+If a familiar movement fails because bodily experience, voluntary regulation and the visible action do not yet connect, begin with [Model the Bodily Contribution to a Movement (SOM.1)](SOMATIC-MOVEMENT-MODELING-PRINCIPLES-FRAMEWORK.md#som1---model-the-bodily-contribution-to-a-movement). Suitable technique and physical conditions remain necessary.
 
 A known sufficient Method can be used directly. Read its full conditions and cases, including the required teaching competence.
 
 ## Two complete constituent languages
 
-| DPF | Contribution to the whole |
-| --- | --- |
-| [Human Capability Development — HCD](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) | Relates later work to human capability demand, programme and learning-product construction, practice, support, performance evidence, transfer, retention and revision. |
-| [Somatic Movement Modeling — SOM](SOMATIC-MOVEMENT-MODELING-PRINCIPLES-FRAMEWORK.md) | Constructs bodily distinctions, regulated effort, coordinated change and adaptation to support or load within an already known movement practice. |
+**Patterns** counts the complete pattern bodies in each linked DPF. **Text, M characters** gives the size of its full Markdown file, including its embedded Reference and supporting sections, in millions of Unicode characters (1 M = 1,000,000), with spaces and original line breaks included and values rounded to three decimals.
 
-The [Human Capability Engineering DPF Suite Architectural Reference (HCE)](HUMAN-CAPABILITY-ENGINEERING-DPF-SUITE-REFERENCE.md) explains why these contributions form a useful assembly, how they constrain each other, the alternatives and the limits of this first edition. Its [movement example (HCE.Reference:3 in HCE)](HUMAN-CAPABILITY-ENGINEERING-DPF-SUITE-REFERENCE.md#hcereference3---how-do-the-contributions-meet-in-a-whole-action) shows why a plausible programme and a successful local exercise can still leave the intended action unavailable.
+| DPF | Patterns | Text, M characters | Contribution to the whole |
+| --- | ---: | ---: | --- |
+| [Human Capability Development — HCD](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) | 29 | 1.140 | Relates later work to human capability demand, programme and learning-product construction, practice, support, performance evidence, transfer, retention and revision. |
+| [Somatic Movement Modeling — SOM](SOMATIC-MOVEMENT-MODELING-PRINCIPLES-FRAMEWORK.md) | 5 | 0.069 | Constructs bodily distinctions, regulated effort, coordinated change and adaptation to support or load within an already known movement practice. |
+
+The [Human Capability Engineering DPF Suite Architectural Reference (HCE)](HUMAN-CAPABILITY-ENGINEERING-DPF-SUITE-REFERENCE.md) explains why these contributions form a useful assembly, how they constrain each other, the alternatives and the limits of this first edition. Its [movement example (HCE.Reference:3)](HUMAN-CAPABILITY-ENGINEERING-DPF-SUITE-REFERENCE.md#hcereference3---how-do-the-contributions-meet-in-a-whole-action) shows why a plausible programme and a successful local exercise can still leave the intended action unavailable.
 
 ## Relation to the rest of the Library
 
 This is a specialization of engineering by its human target. The [Engineering Suite (Engineering DPF Suite)](../Engineering%20DPF%20Suite/README.md) supplies the broader account of constructing, changing and sustaining functioning systems. The specialized Suite keeps the complete HCD and SOM descriptions together with the explanation of their human mechanisms. Each description has one home in the Library.
 
-Successful work with external help can be sufficient without the person acquiring the helper's capability. Learning an existing Method can also finish without becoming an open-ended development undertaking. The Architectural Reference explains these [different results (HCE.Reference:1 in HCE)](HUMAN-CAPABILITY-ENGINEERING-DPF-SUITE-REFERENCE.md#hcereference1---what-is-being-changed-and-for-which-result) and the [outside contributions (HCE.Reference:6 in HCE)](HUMAN-CAPABILITY-ENGINEERING-DPF-SUITE-REFERENCE.md#hcereference6---which-needed-contributions-remain-outside-this-edition).
+Successful work with external help can be sufficient without the person acquiring the helper's capability. Learning an existing Method can also finish without becoming an open-ended development undertaking. The Architectural Reference explains these [different results (HCE.Reference:1)](HUMAN-CAPABILITY-ENGINEERING-DPF-SUITE-REFERENCE.md#hcereference1---what-is-being-changed-and-for-which-result) and the [outside contributions (HCE.Reference:6)](HUMAN-CAPABILITY-ENGINEERING-DPF-SUITE-REFERENCE.md#hcereference6---which-needed-contributions-remain-outside-this-edition).
 
 Use [Using FPF (Using FPF and its DPF Suites)](../../USING-FPF.md) for connected reading, [FPF Core](../../FPF-Spec.md) for shared meanings and general Methods, and the [FPF Library Architectural Reference](../../FPF-LIBRARY-REFERENCE.md) for the relation among the Library's languages.
