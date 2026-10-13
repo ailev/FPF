@@ -1,6 +1,6 @@
 # Domain Principle Frameworks
 
-The Library's [document identities and current carriers (Library / Library.Reference:11.1)](../FPF-LIBRARY-REFERENCE.md#libraryreference111---document-identities-and-current-carriers) identify the complete publications by DocID and full title. Use these document qualifiers with complete PatternIDs or SectionRefs when a reference must remain usable beyond its present hyperlink.
+The Library's [document identities and current carriers (Library.Reference:11.1 in Library)](../FPF-LIBRARY-REFERENCE.md#libraryreference111---document-identities-and-current-carriers) identify the complete publications by DocID and full title. Use these document qualifiers with complete PatternIDs or SectionRefs when a reference must remain usable beyond its present hyperlink.
 
 This catalogue lists the Library's complete domain pattern languages. A DPF explains Methods for a field of practice; each framework has one full public home. Four Suite folders describe composite disciplines. Ten further DPFs remain standalone, without a claim that they form another discipline together.
 

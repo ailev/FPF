@@ -1968,7 +1968,7 @@ For the next candidate, the performer uses a smaller already learned articulatio
 
 Now request accents at 0.5 and 2.75 in the following phrase. The performer must prepare those events within the same continuing pulse rather than replay the first combined figure. If the pulse stays regular but an accent slips to a beat, the new choice remains unavailable. If the intended tempo then changes, both supporting intervals and accent locations must change together. Keeping the old absolute accent times would preserve isolation at the expense of synchronization.
 
-This worked construction distinguishes a successful local coordination from an acquired range of choices. The concrete brush and partnered-movement realizations are developed in [MDPE / MDPE.11:4.5](https://github.com/ailev/FPF/blob/main/DPFs/MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#mdpe1145---balboa-brushes-and-event-timing); their related practice is in MDPE.10:4.6. The particular means, partner response and available recovery decide whether the construction fits each use.
+This worked construction distinguishes a successful local coordination from an acquired range of choices. The concrete brush and partnered-movement realizations are developed in [MDPE.11:4.5 in MDPE](https://github.com/ailev/FPF/blob/main/DPFs/MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#mdpe1145---balboa-brushes-and-event-timing); their related practice is in MDPE.10:4.6. The particular means, partner response and available recovery decide whether the construction fits each use.
 
 ### RHY.11:6 - Bias-Annotation
 
