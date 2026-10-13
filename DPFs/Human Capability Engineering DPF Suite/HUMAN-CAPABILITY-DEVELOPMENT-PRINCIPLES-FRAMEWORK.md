@@ -5015,7 +5015,7 @@ Current A.3.1.MV and A.3.1.MI supply the stronger internal alternative for gener
 
 ### HCD.16:12 - Relations
 
-Introduction and later-use support are supplied by [FPF A.3.1.MI in the Implementation Support Principles Framework](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31mi---introduce-a-method-into-practice-and-decide-what-to-keep-or-change). Its result keeps the target practice, introduction strategy and support distinct.
+Introduction and later-use support are supplied by [FPF A.3.1.MI](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31mi---introduce-a-method-into-practice-and-decide-what-to-keep-or-change). Its result keeps the target practice, introduction strategy and support distinct.
 
 
 Observed HCD.15 arrangement use and human-development evidence may supply a compatible HCD.16 input. A designed arrangement, attendance record, community membership, or provider activity does not establish Method fit, transfer, retention, or worth. Equivalent direct evidence permits independent entry.

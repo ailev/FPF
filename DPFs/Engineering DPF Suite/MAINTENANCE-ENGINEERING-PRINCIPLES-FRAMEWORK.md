@@ -1500,11 +1500,11 @@ The maintenance repertoire changes where practical evidence warrants it and rema
 
 ### MNT.14:10 - Architectural Rationale
 
-Method refresh is distinct from changing one policy parameter or executing one repair. It concerns the reusable way of obtaining results and its continued usefulness. Reusing [FPF C.11.MV](../../FPF-Spec.md#c11mv---compare-the-worth-of-a-method-option)/15 prevents duplication of general comparison and variant reasoning; the failure, support and service conditions remain this pattern's domain contribution.
+Method refresh is distinct from changing one policy parameter or executing one repair. It concerns the reusable way of obtaining results and its continued usefulness. Reusing [FPF C.11.MV](../../FPF-Spec.md#c11mv---compare-the-worth-of-a-method-option) and [FPF A.3.1.MV](../../FPF-Spec.md#a31mv---construct-and-maintain-a-method-variant) prevents duplication of general comparison and variant reasoning; the failure, support and service conditions remain this pattern's domain contribution.
 
 ### MNT.14:11 - SoTA-Echoing
 
-The practice question is when a new maintenance approach is worth adopting. This pattern adapts [FPF C.11.MV](../../FPF-Spec.md#c11mv---compare-the-worth-of-a-method-option)/15 and the consequence-oriented line in the [2025 NIST review](https://www.nist.gov/publications/comprehensive-evaluations-condition-monitoring-based-technologies-industrial). Against a predictive-to-autonomous maturity ladder, the Method uses a same-use, whole-burden comparison with retain and branch outcomes. Better prediction remains a possible contribution, not a sufficient adoption argument. The source evidence does not establish universal comparative effectiveness. Reopen with an attainable new capability, changed failure or operating need, or evidence that reverses the practical comparison.
+The practice question is when a new maintenance approach is worth adopting. This pattern adapts [FPF C.11.MV](../../FPF-Spec.md#c11mv---compare-the-worth-of-a-method-option), [FPF A.3.1.MV](../../FPF-Spec.md#a31mv---construct-and-maintain-a-method-variant) and the consequence-oriented line in the [2025 NIST review](https://www.nist.gov/publications/comprehensive-evaluations-condition-monitoring-based-technologies-industrial). Against a predictive-to-autonomous maturity ladder, the Method uses a same-use, whole-burden comparison with retain and branch outcomes. Better prediction remains a possible contribution, not a sufficient adoption argument. The source evidence does not establish universal comparative effectiveness. Reopen with an attainable new capability, changed failure or operating need, or evidence that reverses the practical comparison.
 
 ### MNT.14:12 - Relations
 

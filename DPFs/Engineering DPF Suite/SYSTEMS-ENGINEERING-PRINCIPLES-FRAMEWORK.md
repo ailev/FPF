@@ -3411,7 +3411,7 @@ test, AI-use boundary, or assembly/economic claim when its source or use conditi
   problem, or assurance question is current, apply `SYSE.3`, `SYSE.10`, `SYSE.7`, or `SYSE.4` respectively to
   its own subjects and sources. The realization dependency, evidence claim, description-correspondence problem, and assurance question concern different engineering subjects and require different Work results; Work performed for one does not supply the missing results for the others. A description ensemble remains distinct from candidate Systems, allocations,
   interfaces, and the selected architecture.
-- Under `XRI-03`, practitioners can reuse a compatible `SYSE.5` result in `MDPE.3` when an engineered instrument,
+- Practitioners can reuse a compatible `SYSE.5` result in `MDPE.3` when an engineered instrument,
   robot, hybrid body, venue, or software System is itself an architecture subject in the performing whole. Recheck
   the reused result against the MDPE subjects, authority, conditions, evidence, and current music-and-dance
   sources.

@@ -510,7 +510,7 @@ A direct algorithm is preferable when conversion adds effort without improving t
 ### CMP.1:12 - Relations
 
 - **C.29.2** specifies computational answers, representation, progress, accuracy and resources.
-- **C.29.1** establishes a subject correspondence when the computational problem describes something beyond the mathematical construction.
+- **C.29** establishes a subject correspondence when the computational problem describes something beyond the mathematical construction.
 - **MATH.17 and MATH.18** develop operations on operations, interpretations and their preserved consequences.
 - **MATH.4 and MATH.12** supply induction and constructive argument methods when the reduction needs them.
 - **A.3.3.TR** recovers state and continuation distinctions, including those needed by finite-state restrictions.

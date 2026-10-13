@@ -12,7 +12,7 @@ Begin with the corporate matter and the result you need. A director, company sec
 
 Use the Table of Contents for a direct question. The Readme shows selected combinations of methods; the Architectural Reference explains their architecture, prerequisites and limits. **CGOV** is this framework's reference code. Its pattern numbers are stable addresses; the Parts group reading rather than prescribe an order of work.
 
-The framework belongs to the [Engineering DPF Suite](https://github.com/ailev/FPF/blob/main/DPFs/Engineering%20DPF%20Suite/README.md). To cite it, give the author, framework title, version shown here and, where relevant, the PatternID or Architectural Reference section.
+The framework belongs to the [Management DPF Suite](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/README.md). To cite it, give the author, framework title, version shown here and, where relevant, the PatternID or Architectural Reference section.
 
 # Table of Contents
 
@@ -248,7 +248,7 @@ The conceptual synthesis joins these domain contributions to result-sensitive se
 
 [FPF Core](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) supplies the general treatment of Methods and their descriptions, rights and assignments, relations, evidence, inquiry, work, cultural evolution and currentness. B.1.5.EW supplies the constituent/encompassing-work method used by CGOV.16; C.11.DUA supplies the optional-inquiry decision; C.36 and C.36.RP supply cultural distinctions and recovery of shared ways of working. The individual bodies identify further relevant contributions.
 
-The [Engineering DPF Suite](https://github.com/ailev/FPF/blob/main/DPFs/Engineering%20DPF%20Suite/README.md) provides the following external MethodDescriptions. Their contributions are selected by the matter; they are not additional CGOV bodies or a sequence of compulsory prerequisites.
+The [FPF Library](https://github.com/ailev/FPF/blob/main/FPF-LIBRARY-REFERENCE.md) provides the following external MethodDescriptions. Their contributions are selected by the matter; they are not additional CGOV bodies or a sequence of compulsory prerequisites.
 
 | Supplying publication | Receiving use |
 | --- | --- |

@@ -820,10 +820,7 @@ If the question concerns a style, school, scene, tradition, or practice, state w
 generation, transmission, reconstruction, recognition, selection, retention, loss, or a feedback effect on later
 production. Name the population, place, period, carriers, and observation needed by the decision.
 
-A style name, press attention, official listing, course, archive, platform count, or one performance supplies no
-general continuation claim. Use current `C.36` and `C.36.P` for the cultural-evolution case. Use `MDPE.21` when
-the project must design how a style is produced and reproduced, `MDPE.19` for present continuation, and `MDPE.20`
-for competing future trajectories.
+A style name, press attention, official listing, course, archive, platform count, or one performance supplies no general continuation claim. Use `C.36` to frame the cultural-evolution relations and evidence needed by this decision. If cultural wording still hides the object, relation or claim, use `C.36.P` to clarify it, then return to that decision. Use `MDPE.21` when the project must design how a style is produced and reproduced, `MDPE.19` for present continuation, and `MDPE.20` for competing future trajectories.
 
 #### MDPE.8:2.5 - Keep live alternatives and uncertainty visible
 

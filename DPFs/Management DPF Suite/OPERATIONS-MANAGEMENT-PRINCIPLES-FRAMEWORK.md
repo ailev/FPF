@@ -5271,7 +5271,7 @@ For rapid feedback, DORA's [continuous integration](https://dora.dev/capabilitie
 
 ### OPS.16:12 - Relations
 
-Introduction and later-use support are supplied by [FPF A.3.1.MI in the Implementation Support Principles Framework](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31mi---introduce-a-method-into-practice-and-decide-what-to-keep-or-change). Its result keeps the target practice, introduction strategy and support distinct.
+Introduction and later-use support are supplied by [FPF A.3.1.MI](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31mi---introduce-a-method-into-practice-and-decide-what-to-keep-or-change). Its result keeps the target practice, introduction strategy and support distinct.
 
 
 `OPS.15` supplies a decision-specific account when observations, populations, or event relations are not yet trustworthy. `OPS.17` supplies status-preserved admitted Methods, repertoire claims, or candidate-account alternatives. `OPS.18` supplies quality or reliability evidence and its control result.
