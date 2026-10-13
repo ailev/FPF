@@ -18,7 +18,7 @@ The constituent DPFs provide the full Methods, cases and source grounds:
 
 | Constituent DPF | Patterns | Text, M characters |
 | --- | ---: | ---: |
-| [Strategy (STR)](STRATEGY-PRINCIPLES-FRAMEWORK.md) | 16 | 0.486 |
+| [Strategy (STR)](STRATEGY-PRINCIPLES-FRAMEWORK.md) | 17 | 0.530 |
 | [Operations Management (OPS)](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) | 28 | 0.903 |
 | [Organization Administration (ADM)](ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md) | 15 | 0.302 |
 | [Corporate Governance (CGOV)](CORPORATE-GOVERNANCE-PRINCIPLES-FRAMEWORK.md) | 17 | 0.274 |

@@ -5,7 +5,7 @@
 **Architecture and connected use of the Library's pattern languages**
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development
-- **Date:** 12 October 2026
+- **Date:** 14 October 2026
 - **Use:** Understand the Library's architecture, select the appropriate level of explanation and preserve the relations between contributions from different fields.
 - **Source return:** [FPF Core](FPF-Spec.md), the [domain-framework catalogue (Domain Principle Frameworks)](DPFs/README.md) and the full publications linked below.
 
@@ -28,6 +28,7 @@ This Reference explains how that language is organized and why its boundaries ma
 - [Why some DPFs stand outside the Suites](#libraryreference5---why-some-dpfs-stand-outside-the-suites)
 - [Several relations, not one hierarchy](#libraryreference6---several-relations-not-one-hierarchy)
 - [How the language makes connected work intelligible](#libraryreference7---how-the-language-makes-connected-work-intelligible)
+  - [When a way works in the small but fails in the large](#libraryreference71---when-a-way-works-in-the-small-but-fails-in-the-large)
 - [A worked connection across the Library](#libraryreference8---a-worked-connection-across-the-library)
   - [Different contributions to one useful result](#libraryreference81---different-contributions-to-one-useful-result)
   - [What a changed condition sends back](#libraryreference82---what-a-changed-condition-sends-back)
@@ -199,6 +200,34 @@ The useful connection is more specific than a sequence of titles. A supplying Me
 There is also a connection within ongoing work. While someone checks the units in a calculation, that action can be part of obtaining a model result, comparing a design and supporting a larger engineering decision at the same moment. The encompassing purpose determines which distinctions the check must preserve. [FPF B.1.5.EW](FPF-Spec.md#b15ew---recover-how-constituent-actions-enact-encompassing-work) recovers this constituent-to-whole connection; [FPF B.1.5.RS](FPF-Spec.md#b15rs---evaluate-a-constituent-method-replacement-in-its-encompassing-uses) examines a proposed replacement in its encompassing uses. A missing intermediate capability or unavailable shared resource can defeat the whole even when elementary operations are individually available.
 
 This account applies to human, AI and mixed arrangements. A supplied result and the recipient's own mastery are different goals. [FPF C.32.MWA.PP](FPF-Spec.md#c32mwapp---construct-and-compare-method-performance-and-provision-arrangements) compares complete arrangements, including coordination, checking, waiting and correction; [FPF C.11.DUA](FPF-Spec.md#c11dua---make-advice-and-evidence-demands-worth-their-burden) keeps an additional inquiry or check proportionate to what it could change. Assignment and permission remain separate from capability. The Library supplies ways to reason about the arrangement; the actual situation supplies its facts, powers and available performers.
+
+### Library.Reference:7.1 - When a way works in the small but fails in the large
+
+An analyst's personal tool can work because the analyst interprets its inputs, supplies missing context, checks unusual answers and decides what to do. Asking several units to use the visible calculation autonomously changes that arrangement. More examples of the successful calculation do not establish the meanings, provision, authority or recovery that the new use needs.
+
+“In the small” and “in the large” are useful search expressions for this difficulty, not two sizes to which every Method belongs. One author can create dependencies that require coordinated change; several performers can work independently when the necessary conditions are provided. A larger batch for the same analyst can leave the original way sufficient. Begin with C.39:4.1 to recover what the receiving work needs and what the earlier success depended on. Its remaining Solution constructs the missing contribution and joins it to the useful whole.
+
+The Library keeps the following questions with different fields because their first useful results differ. Use the row that fits the difficulty; the table is not a sequence of prerequisites.
+
+| Difficulty in the receiving work | Read for the needed contribution |
+| --- | --- |
+| A faster local operation leaves the accepted output unchanged or increases waiting elsewhere. | OPS.9 follows accepted output, waiting and resource occupancy to the current constraint. B.1.5.EW recovers how the constituent action participates in encompassing work; B.1.5.RS examines a proposed replacement in those uses. |
+| Independently supplied components or versions do not make one usable configuration. | SYSE.11 develops and qualifies integration for the system's bounded use. For digital executable and documentary components, SYSE.53 selects a compatible configuration. For software and persistent data, SYSE.34 develops coexistence, transition and recovery when versions cannot change together. |
+| Contributors need to vary their work without repeatedly involving a central expert. | SYSE.27 derives the extension boundary from the intended independent variation and supplies a reproducible contribution, examples and repair. SIE.12 provides the common semantics actually needed while preserving local models; SIE.7 uses that agreement in implementation. |
+| The same identifiers or formats conceal different meanings. | SIE.3 constructs sufficient distinctions, SIE.4 qualifies correspondence and substitution, and SIE.5 distinguishes identity from other relations. A.15.9 obtains a missing result from the appropriate practice and uses it within the supported conditions. |
+| Data variants and operations have been extended separately, but their new combination is undefined. | CMP.15 constructs the missing semantic intersection and a composition that reaches it, including nested uses. CMP.12 supplies the interpretation being extended; CMP.14 addresses interaction when state or continuing execution changes the observations. |
+| Individual skills are present, but a whole performance or independent capability is missing. | HCD.3 distinguishes capability from conditions and interference; HCD.9, HCD.10 and HCD.12 develop coordinated performance, useful variation and transfer. An external service's successful result does not establish the recipient's own mastery. |
+| A workable plan depends on actors who have not agreed, or on a community treated as a permanent project team. | ECO.3 and ECO.4 construct feasible proposals and actual commitments; LDR.2 obtains the responses needed for joint contributions. CB.4 and CB.9 organize participation and maintenance under the community's actual terms. Technical compatibility supplies none of those agreements. |
+| Separate accounts of knowledge cannot yet support one warranted conclusion. | F.0.2 compares their claims and meanings; RMP.5 and RMP.6 develop rival explanations and discriminating inquiry. Keep an unresolved difference when the available grounds cannot settle it. |
+| Dividing work among people or AI agents loses context, authority or a usable combined result. | SYSE.44 constructs division and recombination against a one-performer alternative. C.32.MWA.PP compares complete performance and provision, including checking and correction. KCAE.SEARCH and KCAE.DELIVER obtain and supply sufficient material; SYSE.52 chooses what the next operation must actually receive. |
+| A changed technology may remove an old constraint or open a different contribution. | STR.17 investigates technological change separately from public attention. STR.5 uses a qualified possibility to develop a direction; STR.12 reconsiders an existing commitment when its grounds change. |
+| A useful prototype is proposed for a use with different consequences. | C.39 identifies the result needed by the changed use. SYSE.14 develops an engineering release decision with its evidence and authority. For software, SYSE.35 and SYSE.36 qualify bounded exposure and comparison, and SYSE.34 supplies practiced recovery. C.11.DUA helps choose additional inquiry by what it can change, while applicable obligations retain their force. |
+
+Some continuations begin with another representation. To obtain an operational model from documents, use A.3.1.DR for prescribed actions and conditions, SIE.2 and SIE.3 for meanings and the questions the model must answer, NOT.1–NOT.4 for representation and transformation, and CMP.12 for effective interpretation. KCAE.SOURCE preserves the original material for later questions. These results connect through the intended operation; an extracted prescription is not evidence that the described work occurs.
+
+Subject expertise can remain an external contribution. For a production ML change, the general engineering Methods do not teach every test of the relation between an offline score and live effects, differences between training and serving features, or quality loss as a model and its inputs age. Use the external [Google production-ML monitoring guidance](https://developers.google.com/machine-learning/crash-course/production-ml-systems/monitoring) as an entry to that specialist work. Obtain the results needed for the actual system, with their limits, before relying on them; an unresolved result can narrow or stop the affected change. The linked guidance is an instruction source, not a result already supplied by this Reference.
+
+Return each contribution to the original receiving question. If stable inputs, an explicit interpretation and an adequate recovery arrangement restore independent local work, use that arrangement. If only more provision is needed, retain the sufficient Method. If a promised operation is still unwritten, C.39 develops it; a longer list of references does not supply it. The different DPFs keep their own subjects while contributing to this common question, without acquiring additional Suite memberships.
 
 ## Library.Reference:8 - A worked connection across the Library
 

@@ -49,7 +49,7 @@ The five DPFs describe its constituent knowledge and reusable practices. The pub
 | [Mathematical Thinking (MATH)](MATHEMATICAL-PRACTICE-DPF.md) | 20 | 0.480 | Objects, operations, transformations and proof obligations; derive consequences and construct alternatives. |
 | [Mathematical Modeling (MMP)](MATHEMATICAL-MODELING-PRACTICE-DPF.md) | 17 | 0.575 | Build and revise the correspondence between a subject question and a mathematical construction; combine or change models while preserving the needed answer. |
 | [Physical Thinking (PHY)](PHYSICAL-THINKING-DPF.md) | 10 | 0.305 | Physical interactions, preparation and observation, admissible accounts and their limits; derive and test physical consequences. |
-| [Computational Thinking (CMP)](COMPUTATIONAL-THINKING-DPF.md) | 14 | 0.326 | Algorithms, their meaning and correctness, resource demands and interaction; construct an effective way of obtaining a result. |
+| [Computational Thinking (CMP)](COMPUTATIONAL-THINKING-DPF.md) | 15 | 0.371 | Algorithms, their meaning and correctness, resource demands, interaction and independent extensions; construct an effective way of obtaining a result. |
 | [Notational Engineering (NOT)](NOTATIONAL-ENGINEERING-DPF.md) | 8 | 0.221 | Construct usable expression rules, interpretations, transformations and relations between representations, including temporal or embodied notation; make the intended operations performable and changes recoverable. |
 
 The [Foundational Thinking DPF Suite Architectural Reference](FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) explains this whole, its alternatives and limits, and supports selection and connected use of the Methods. It is a publication about the discipline and its language, not a sixth discipline.
