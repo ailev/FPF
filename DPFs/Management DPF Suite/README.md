@@ -10,9 +10,12 @@ When an organization or another established system is the subject of change, man
 
 ## Read the whole and its constituents
 
-The [Management DPF Suite Architectural Reference](MANAGEMENT-DPF-SUITE-REFERENCE.md) explains the field, the relations among its eleven constituent languages, alternatives, limits and returns to external suppliers. Its [voluntary practice network (Management.Reference:5.1)](MANAGEMENT-DPF-SUITE-REFERENCE.md#managementreference51---a-voluntary-practice-development-network) and [operating-business order (Management.Reference:5.2)](MANAGEMENT-DPF-SUITE-REFERENCE.md#managementreference52---a-new-order-in-an-operating-business) show different connected uses. These cases illustrate the architecture; they do not define the Suite's coverage.
+The [Management DPF Suite Architectural Reference](MANAGEMENT-DPF-SUITE-REFERENCE.md) explains the field, the relations among its twelve constituent languages, alternatives, limits and returns to external suppliers. Its [voluntary practice network (Management.Reference:5.1)](MANAGEMENT-DPF-SUITE-REFERENCE.md#managementreference51---a-voluntary-practice-development-network) and [operating-business order (Management.Reference:5.2)](MANAGEMENT-DPF-SUITE-REFERENCE.md#managementreference52---a-new-order-in-an-operating-business) show different connected uses. These cases illustrate the architecture; they do not define the Suite's coverage.
 
 The constituent DPFs provide the full Methods, cases and source grounds:
+
+Use [CUST.1](CUSTOMIZATION-AND-PRODUCTIZATION-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#cust1---manage-client-variation-and-develop-repeatable-offerings) for the connected work from client differences to a maintainable local or repeatable answer. Its constituent Methods can also be applied directly: an offering-family question, a repeated-delivery question and a transition for existing clients need not start a complete new customization programme.
+
 
 **Patterns** counts the complete pattern bodies in each linked DPF. **Text, M characters** gives the size of its full Markdown file, including its embedded Reference and supporting sections, in millions of Unicode characters (1 M = 1,000,000), with spaces and original line breaks included and values rounded to three decimals.
 
@@ -25,6 +28,7 @@ The constituent DPFs provide the full Methods, cases and source grounds:
 | [Management Accounting (MA)](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md) | 9 | 0.163 |
 | [Corporate Finance (FIN)](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md) | 22 | 0.584 |
 | [Marketing (MKT)](MARKETING-PRINCIPLES-FRAMEWORK.md) | 14 | 0.384 |
+| [Customization and Productization Management (CUST)](CUSTOMIZATION-AND-PRODUCTIZATION-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) | 8 | 0.184 |
 | [Engineering Asset Management (EAM)](ENGINEERING-ASSET-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) | 16 | 0.265 |
 | [Leadership (LDR)](LEADERSHIP-PRINCIPLES-FRAMEWORK.md) | 3 | 0.128 |
 | [Community Management (CB)](COMMUNITY-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) | 16 | 0.526 |
