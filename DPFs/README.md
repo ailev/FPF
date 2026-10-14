@@ -4,16 +4,16 @@ The Library's [document identities and current carriers (Library.Reference:11.1)
 
 This catalogue lists the Library's complete domain pattern languages. A DPF explains Methods for a field of practice; each framework has one full public home. Four Suite folders describe composite disciplines. Ten further DPFs remain standalone, without a claim that they form another discipline together.
 
-Use a framework whose Methods answer the working question. A supplying field may be useful in several undertakings without belonging to each undertaking's Suite. The [FPF Library Architectural Reference](../FPF-LIBRARY-REFERENCE.md) explains those distinctions, the boundaries of the four Suites and their relations to transdisciplinary [FPF Core](../FPF-Spec.md). [Using FPF (Using FPF and its DPF Suites)](../USING-FPF.md) explains how to find, read and connect the needed contributions.
+Use a framework whose Methods answer the working question. A supplying field may be useful in several undertakings without belonging to each undertaking's Suite. The [FPF Library Architectural Reference](../FPF-LIBRARY-REFERENCE.md) explains those distinctions, the boundaries of the four Suites and their relations to transdisciplinary [FPF Core](../FPF-Spec.md). [Using FPF and its DPF Suites](../USING-FPF.md) explains how to find, read and connect the needed contributions.
 
 ## Suites
 
 | Suite | Constituents | Architectural explanation |
 | --- | --- | --- |
-| [Engineering DPF Suite](Engineering%20DPF%20Suite/README.md) | Four direct DPFs for constructing, changing and sustaining functioning systems, with routes to organizational and human-capability specialization. | [Engineering Suite Architectural Reference](Engineering%20DPF%20Suite/ENGINEERING-DPF-SUITE-REFERENCE.md) |
-| [Management DPF Suite](Management%20DPF%20Suite/README.md) | Twelve DPFs connecting direction, commitments, resources, client variation, organizational construction and joint work. | [Management Suite Architectural Reference](Management%20DPF%20Suite/MANAGEMENT-DPF-SUITE-REFERENCE.md) |
-| [Foundational Thinking DPF Suite](Foundational%20Thinking%20DPF%20Suite/README.md) | Five DPFs for developing and using mathematical, physical and computational knowledge, models and notation. | [Foundational Thinking Suite Architectural Reference](Foundational%20Thinking%20DPF%20Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) |
-| [Human Capability Engineering DPF Suite](Human%20Capability%20Engineering%20DPF%20Suite/README.md) | Complete HCD and SOM languages for the currently covered learning-and-somatic part of forming, changing, restoring and maintaining human capabilities. | [Human Capability Engineering Suite Architectural Reference (HCE)](Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-ENGINEERING-DPF-SUITE-REFERENCE.md) |
+| [Engineering DPF Suite](Engineering%20DPF%20Suite/) | Four direct DPFs for constructing, changing and sustaining functioning systems, with routes to organizational and human-capability specialization. | [Engineering Suite Architectural Reference](Engineering%20DPF%20Suite/ENGINEERING-DPF-SUITE-REFERENCE.md) |
+| [Management DPF Suite](Management%20DPF%20Suite/) | Twelve DPFs connecting direction, commitments, resources, client variation, organizational construction and joint work. | [Management Suite Architectural Reference](Management%20DPF%20Suite/MANAGEMENT-DPF-SUITE-REFERENCE.md) |
+| [Foundational Thinking DPF Suite](Foundational%20Thinking%20DPF%20Suite/) | Five DPFs for developing and using mathematical, physical and computational knowledge, models and notation. | [Foundational Thinking Suite Architectural Reference](Foundational%20Thinking%20DPF%20Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) |
+| [Human Capability Engineering DPF Suite](Human%20Capability%20Engineering%20DPF%20Suite/) | Complete HCD and SOM languages for the currently covered learning-and-somatic part of forming, changing, restoring and maintaining human capabilities. | [Human Capability Engineering Suite Architectural Reference (HCE)](Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-ENGINEERING-DPF-SUITE-REFERENCE.md) |
 
 ## Further domain frameworks
 

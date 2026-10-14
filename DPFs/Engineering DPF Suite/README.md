@@ -39,11 +39,11 @@ The four direct DPFs in this Engineering Suite edition are:
 
 These descriptions are not project stages or equally general branches. They supply different parts of a system's realization or constrain its continued functioning. A project uses the contributions it needs. Physical equipment, software, people and organizations require different construction knowledge even when the general engineering questions are shared.
 
-The [Management Suite (Management DPF Suite)](../Management%20DPF%20Suite/README.md) describes the organizational specialization of engineering, including [Organization Change Engineering (OCE)](../Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md). OCE constructs changes to contributions, work, positions, information, resources and authority. Organizational realization has its own conditions: a diagram or assigned title does not establish an effective contribution or legitimate power. This Engineering edition obtains that complete construction through Management. Maintenance has its full home in this Engineering Suite, including both its technical and management Methods. The [architecture account (Engineering.Reference:0)](ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference0---engineering-specialization-and-maintenance) explains these choices and their connections.
+The [Management DPF Suite](../Management%20DPF%20Suite/) describes the organizational specialization of engineering, including [Organization Change Engineering (OCE)](../Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md). OCE constructs changes to contributions, work, positions, information, resources and authority. Organizational realization has its own conditions: a diagram or assigned title does not establish an effective contribution or legitimate power. This Engineering edition obtains that complete construction through Management. Maintenance has its full home in this Engineering Suite, including both its technical and management Methods. The [architecture account (Engineering.Reference:0)](ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference0---engineering-specialization-and-maintenance) explains these choices and their connections.
 
 ## Human capability engineering through its specialized Suite
 
-[Human Capability Engineering (Human Capability Engineering DPF Suite)](../Human%20Capability%20Engineering%20DPF%20Suite/README.md) concerns the deliberate formation, change, restoration and maintenance of a person's capabilities. Its first, incomplete Suite edition contains the full HCD and SOM descriptions of learning and somatic contributions. Their engineering contributions remain available through that Suite; they are not additional direct DPFs in the four-entry roster above.
+[Human Capability Engineering DPF Suite](../Human%20Capability%20Engineering%20DPF%20Suite/) concerns the deliberate formation, change, restoration and maintenance of a person's capabilities. Its first, incomplete Suite edition contains the full HCD and SOM descriptions of learning and somatic contributions. Their engineering contributions remain available through that Suite; they are not additional direct DPFs in the four-entry roster above.
 
 | Field | Patterns | Text, M characters | What its Methods help construct | How it contributes to engineering |
 | --- | ---: | ---: | --- | --- |
@@ -70,7 +70,7 @@ The general concepts and construction rules are supplied by [FPF Core](../../FPF
 
 ## Use related disciplines and their results
 
-Engineering projects often need financial analysis, operations management, research, strategy, community management, professional decision support or explanation. Those fields keep their own DPFs in the [Library's domain-framework index (FPF Library)](../../Readme.md). Some contribute specialized engineering knowledge and practice; others supply a result to an engineering use. Their absence from this edition's direct roster does not decide that disciplinary relation. Management, for example, organizes and changes the Work, authority, resources and commitments of a collective undertaking even when its organization chart stays unchanged. Its complete subject is not reduced to OCE.
+Engineering projects often need financial analysis, operations management, research, strategy, community management, professional decision support or explanation. Those fields keep their own DPFs in the [DPF catalogue](../). Some contribute specialized engineering knowledge and practice; others supply a result to an engineering use. Their absence from this edition's direct roster does not decide that disciplinary relation. Management, for example, organizes and changes the Work, authority, resources and commitments of a collective undertaking even when its organization chart stays unchanged. Its complete subject is not reduced to OCE.
 
 For example, an asset-management comparison can justify replacement while Maintenance constructs the intervention and return to use. A financial result can limit feasible designs without becoming the design. A research result can remove an unknown premise without completing realization. The Reference provides these cross-field routes and preserves the separate conditions on their results.
 
@@ -84,7 +84,7 @@ Use [FPF Core](../../FPF-Spec.md) for the general Methods of opportunity constru
 
 ## Work with an AI assistant
 
-Follow [Using FPF (Using FPF and its DPF Suites)](../../USING-FPF.md). Give the assistant the actual situation, constraints, observations and relevant publications. A useful request is:
+Follow [Using FPF and its DPF Suites](../../USING-FPF.md). Give the assistant the actual situation, constraints, observations and relevant publications. A useful request is:
 
 > Help me work through this engineering situation: [describe it]. Read the relevant FPF and DPF patterns, identify the result we need next and help construct it. Explain the reasoning in ordinary engineering language, show the PatternIDs used and identify missing facts that could change the answer.
 
@@ -100,4 +100,4 @@ The DPFs preserve the grounds, competing approaches and limits of their Methods.
 
 Cite the framework as: Anatoly Levenchuk. *Engineering DPF Suite*. [FPF repository](https://github.com/ailev/FPF). Include the date above; for a Method, also cite its DPF, PatternID and edition.
 
-Original content is available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). See the [licensing scope (Licensing FPF and its DPF publications)](../../LICENSING.md) for attribution, third-party and software boundaries.
+Original content is available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). See the [licensing terms](../../LICENSING.md) for attribution, third-party and software boundaries.

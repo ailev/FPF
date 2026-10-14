@@ -27,8 +27,8 @@ The [Human Capability Engineering DPF Suite Architectural Reference (HCE)](HUMAN
 
 ## Relation to the rest of the Library
 
-This is a specialization of engineering by its human target. The [Engineering Suite (Engineering DPF Suite)](../Engineering%20DPF%20Suite/README.md) supplies the broader account of constructing, changing and sustaining functioning systems. The specialized Suite keeps the complete HCD and SOM descriptions together with the explanation of their human mechanisms. Each description has one home in the Library.
+This is a specialization of engineering by its human target. The [Engineering DPF Suite](../Engineering%20DPF%20Suite/) supplies the broader account of constructing, changing and sustaining functioning systems. The specialized Suite keeps the complete HCD and SOM descriptions together with the explanation of their human mechanisms. Each description has one home in the Library.
 
 Successful work with external help can be sufficient without the person acquiring the helper's capability. Learning an existing Method can also finish without becoming an open-ended development undertaking. The Architectural Reference explains these [different results (HCE.Reference:1)](HUMAN-CAPABILITY-ENGINEERING-DPF-SUITE-REFERENCE.md#hcereference1---what-is-being-changed-and-for-which-result) and the [outside contributions (HCE.Reference:6)](HUMAN-CAPABILITY-ENGINEERING-DPF-SUITE-REFERENCE.md#hcereference6---which-needed-contributions-remain-outside-this-edition).
 
-Use [Using FPF (Using FPF and its DPF Suites)](../../USING-FPF.md) for connected reading, [FPF Core](../../FPF-Spec.md) for shared meanings and general Methods, and the [FPF Library Architectural Reference](../../FPF-LIBRARY-REFERENCE.md) for the relation among the Library's languages.
+Use [Using FPF and its DPF Suites](../../USING-FPF.md) for connected reading, [FPF Core](../../FPF-Spec.md) for shared meanings and general Methods, and the [FPF Library Architectural Reference](../../FPF-LIBRARY-REFERENCE.md) for the relation among the Library's languages.
