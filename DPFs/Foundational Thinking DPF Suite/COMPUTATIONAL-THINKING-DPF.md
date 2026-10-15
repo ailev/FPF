@@ -8,7 +8,7 @@
 - **Version:** 14 October 2026
 - **Status:** Eternal alpha: a repertoire open to correction and extension.
 - **License:** © 2026 Anatoly Levenchuk. Original framework text: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Cited sources retain their own terms.
-- **Publication:** [FPF ecosystem repository](https://github.com/ailev/FPF)
+- **Publication:** [FPF Library repository](https://github.com/ailev/FPF)
 
 Computational Thinking here means algorithmics within computer science. Begin with a question about how to obtain an answer, maintain a required behavior, or change a procedure. Use the Table of Contents to find a relevant method, then open its Problem frame, Solution, worked cases and checklist. The Readme follows worked connections between methods; the Architectural Reference explains their rationale, prerequisites and limits.
 
@@ -16,7 +16,7 @@ The reference code **CMP** names this DPF. Its numbers are stable pattern addres
 
 This publication belongs to the [Foundational Thinking DPF Suite](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/README.md). Its [Reference (Foundational)](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) explains the mathematical, physical, computational and methodological connections. References such as C.29.2 and B.5.MPC name patterns in [FPF Core](https://github.com/ailev/FPF/blob/main/FPF-Spec.md). Open a supplier when its contribution is needed; revisit a receiving conclusion when that contribution changes.
 
-To cite this edition: Anatoly Levenchuk, *Computational Thinking DPF*, [FPF ecosystem repository](https://github.com/ailev/FPF). Include the version date shown above.
+To cite this edition: Anatoly Levenchuk, *Computational Thinking DPF*, [FPF Library repository](https://github.com/ailev/FPF). Include the version date shown above.
 
 # Table of Contents
 

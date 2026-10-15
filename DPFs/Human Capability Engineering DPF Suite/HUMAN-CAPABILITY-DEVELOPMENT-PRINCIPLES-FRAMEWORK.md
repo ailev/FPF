@@ -9,7 +9,7 @@ HCD is a pattern language for deriving human capability demand from later Work, 
 > **Version:** 12 October 2026 — twenty-nine-pattern edition
 > **Status:** Eternal alpha: used in working development projects and open to continuing correction.
 > **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
-> **Publication:** [FPF repository](https://github.com/ailev/FPF). [Citation](#hcdsources3---citation).
+> **Publication:** [FPF Library repository](https://github.com/ailev/FPF). [Citation](#hcdsources3---citation).
 
 # Table of Contents
 
@@ -8040,13 +8040,13 @@ The designation identifies the complete HCD pattern set and reader carrier. The 
 
 **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 
-**Publication:** [FPF repository](https://github.com/ailev/FPF).
+**Publication:** [FPF Library repository](https://github.com/ailev/FPF).
 
 Eternal alpha identifies a framework open to continuing correction and development. Individual bodies retain their declared status and claim boundaries. The publication supplies practitioner guidance; evidence for its use in a particular person, provider, programme or population is established at that use.
 
 ## HCD.Sources:3 - Citation
 
-Levenchuk, Anatoly, with AI-assisted development and review. *Human Capability Development Principles Framework*. Version date shown above — twenty-nine-pattern edition. [FPF repository](https://github.com/ailev/FPF).
+Levenchuk, Anatoly, with AI-assisted development and review. *Human Capability Development Principles Framework*. Version date shown above — twenty-nine-pattern edition. [FPF Library repository](https://github.com/ailev/FPF).
 
 For a particular pattern, name the framework and PatternID; include the version date above when the citation must recover the body published in this version.
 

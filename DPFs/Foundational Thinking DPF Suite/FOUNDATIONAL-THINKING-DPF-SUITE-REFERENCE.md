@@ -7,7 +7,7 @@
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
 - **Date:** 12 October 2026
 - **Status:** Eternal alpha. This edition gives working entries through all five member DPFs and FPF, with their methods, conditions and connections.
-- **Publication:** [FPF repository](https://github.com/ailev/FPF)
+- **Publication:** [FPF Library repository](https://github.com/ailev/FPF)
 - **Suite:** [The composite discipline and its five constituent DPFs (Foundational Thinking DPF Suite)](README.md)
 - **Scope:** Mathematical Thinking · Mathematical Modeling · Physical Thinking · Computational Thinking · Notational Engineering
 
@@ -635,6 +635,6 @@ This Reference's availability statements concern the editions listed in the [Sui
 
 Copyright © 2026 Anatoly Levenchuk. Licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/), except separately attributed material; cited works retain their own licenses. Independent DPF and LPF authors choose their own licenses.
 
-**Citation:** Anatoly Levenchuk. *Foundational Thinking DPF Suite Architectural Reference*. [FPF repository](https://github.com/ailev/FPF). Include the date shown at the start of this file. Cite the supplying framework and PatternID when relying on its method.
+**Citation:** Anatoly Levenchuk. *Foundational Thinking DPF Suite Architectural Reference*. [FPF Library repository](https://github.com/ailev/FPF). Include the date shown at the start of this file. Cite the supplying framework and PatternID when relying on its method.
 
 ## Foundational.Reference:End

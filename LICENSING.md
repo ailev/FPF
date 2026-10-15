@@ -1,4 +1,4 @@
-# Licensing FPF and its DPF publications
+# Licensing FPF Library
 
 Copyright (c) Anatoly Levenchuk.
 
@@ -12,7 +12,7 @@ You may copy, redistribute, translate and adapt this material, including commerc
 
 For example:
 
-> Adapted from Anatoly Levenchuk, First Principles Framework (FPF), September 2026, https://github.com/ailev/FPF. Licensed under CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Changes: translated the explanation and replaced the worked example.
+> Adapted from Anatoly Levenchuk, FPF Library, First Principles Framework (FPF Core), September 2026, https://github.com/ailev/FPF. Licensed under CC BY 4.0, https://creativecommons.org/licenses/by/4.0/. Changes: translated the explanation and replaced the worked example.
 
 For a precise citation, we recommend naming the actual framework or pattern, its stated date and a brief description of modifications. These details are citation recommendations; the license defines the required attribution and indication of changes.
 

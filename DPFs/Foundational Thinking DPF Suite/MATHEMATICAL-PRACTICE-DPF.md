@@ -8,7 +8,7 @@
 - **Version:** 20 September 2026
 - **Status:** Eternal alpha: a growing repertoire of methods for mathematical work.
 - **License:** © 2026 Anatoly Levenchuk. Original framework text: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Cited sources retain their own terms.
-- **Publication:** [FPF ecosystem repository](https://github.com/ailev/FPF)
+- **Publication:** [FPF Library repository](https://github.com/ailev/FPF)
 
 Begin with the working question. If you have not yet identified its mathematical contribution, use Readme entry MP-FRAME. Use the Table of Contents to find a relevant pattern, then open its Problem frame, Solution, worked cases and checklist. Readme follows connected mathematical work; Architectural Reference explains the methods and when to revise a construction.
 
@@ -18,7 +18,7 @@ When a mathematical result changes a working method, FPF Core provides two furth
 
 Open the cited publications for those pattern bodies. When using another edition, revisit your conclusion if a cited operation or condition has changed.
 
-To cite this edition: Anatoly Levenchuk, *Mathematical Thinking DPF*, [FPF ecosystem repository](https://github.com/ailev/FPF). Include the version date shown above.
+To cite this edition: Anatoly Levenchuk, *Mathematical Thinking DPF*, [FPF Library repository](https://github.com/ailev/FPF). Include the version date shown above.
 
 # Table of Contents
 

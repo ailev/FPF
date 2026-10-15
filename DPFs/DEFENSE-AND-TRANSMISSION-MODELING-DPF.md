@@ -217,7 +217,7 @@ These contributions remain external to DTM. The links return to the supplying pu
 
 The subject practice must additionally supply the actual work method, observation, technical feasibility and limits. A model can identify a missing contribution; it cannot create a skill, sensor, adapter or permission by naming one.
 
-DTM is published as its own domain framework in FPF Library. It supplies methods for inquiry and intervention concerning how practices persist and spread. It relies on FPF and the Foundational Thinking methods; it does not change their general definitions. Its Parts group publication content rather than declaring three new disciplines.
+DTM is published as its own domain framework in FPF Library. It supplies methods for inquiry and intervention concerning how practices persist and spread. It relies on FPF Core and the Foundational Thinking methods; it does not change their general definitions. Its Parts group publication content rather than declaring three new disciplines.
 
 This file contains the framework's practical entry, whole-language account and nine pattern bodies. Cite a body by its DTM PatternID, retaining the edition when a changed body could affect the use.
 

@@ -24,7 +24,7 @@ You do not need to read the Library from beginning to end. Bring a situation, th
 | Help a person acquire or retain a capability for later work | [Human Capability Engineering](DPFs/Human%20Capability%20Engineering%20DPF%20Suite/). |
 | Investigate a question, design a decision, explain material or work in another field | [Further domain frameworks](DPFs/#further-domain-frameworks), including research, decision design, explanation and narrativization. |
 
-Before applying a method, read [Using FPF and its DPF Suites](USING-FPF.md). It explains how to find a useful contribution, read its conditions, connect it to the rest of the work and distinguish a source citation from a direction to apply another method. An adequate known answer can be used directly; a larger question may need several connected methods. Their order in a file is not an instruction to perform them all.
+Before applying a method, read [Using FPF Library](USING-FPF.md). It explains how to find a useful contribution, read its conditions, connect it to the rest of the work and distinguish a source citation from a direction to apply another method. An adequate known answer can be used directly; a larger question may need several connected methods. Their order in a file is not an instruction to perform them all.
 
 ## From a useful result to further development
 
@@ -57,25 +57,25 @@ Read [Core on fpf.tools](https://fpf.tools/FPF), or choose a [domain publication
 
 For the source, open the [Core Markdown file and its history](FPF-Spec.md) or [download Core as raw Markdown](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md). Framework tables on these pages pair online reading with a Markdown source link. On fpf.tools, **Copy and source** identifies the repository edition behind the displayed passage. Check [source editions and update status](https://fpf.tools/status) when the version matters; the service may lag behind GitHub. [Search](https://fpf.tools/search) and [MCP connection instructions](https://fpf.tools/connect) provide other ways to reach the material.
 
-For local use, download or clone this repository. Keep `FPF-Spec.md`, `FPF-LIBRARY-REFERENCE.md`, `USING-FPF.md`, the licensing files and `DPFs/` in their existing arrangement. A selected subset is also usable: include the actual supplying frameworks needed by your question, not just links to unavailable files. [Using FPF](USING-FPF.md#make-the-publications-available) explains access and selection.
+For local use, download or clone this repository. Keep `FPF-Spec.md`, `FPF-LIBRARY-REFERENCE.md`, `USING-FPF.md`, the licensing files and `DPFs/` in their existing arrangement. A selected subset is also usable: include the actual supplying frameworks needed by your question, not just links to unavailable files. [Using FPF Library](USING-FPF.md#make-the-publications-available) explains access and selection.
 
 ### Work with an AI assistant
 
 Give the assistant access to the full relevant texts, your actual situation, constraints and observations. Put this instruction in the project settings or instruction file the agent actually reads, replacing `fpf/` with your location:
 
-> Use FPF and the relevant DPFs from `fpf/`. Before applying them, read `fpf/USING-FPF.md` and follow its guidance. Help obtain the result our work needs. Explain the reasoning in our working language, identify the patterns used, and distinguish source claims, assumptions and missing evidence.
+> Use FPF Library from `fpf/`. Before applying its methods, read `fpf/USING-FPF.md` and follow its guidance. Help obtain the result our work needs. Explain the reasoning in our working language, identify the patterns used, and distinguish source claims, assumptions and missing evidence.
 
 Then ask a concrete question. For example: “Our team can deliver the current product but not the proposed variant. Help compare acquiring an external result, developing our capability and changing the offering. What information could change that choice?”
 
-An assistant can retrieve methods, calculate, compare alternatives, draft and challenge reasoning. Its fluent answer does not establish an observed fact, a new capability, permission, a commitment or an implemented system. Check the output against the actual work, evidence and applicable decision authority. FPF is a method library, not an agent runtime or a grant of autonomous authority. It is intended for human use as well as AI-assisted work, across physical, organizational, intellectual and embodied practices.
+An assistant can retrieve methods, calculate, compare alternatives, draft and challenge reasoning. Its fluent answer does not establish an observed fact, a new capability, permission, a commitment or an implemented system. Check the output against the actual work, evidence and applicable decision authority. FPF Library is a method library, not an agent runtime or a grant of autonomous authority. It is intended for human use as well as AI-assisted work, across physical, organizational, intellectual and embodied practices.
 
 ## Understand, check or extend a contribution
 
 README pages help you choose; full patterns teach the methods and state their conditions. Read the exact explanation when a recommendation matters. A maintained account of useful approaches can include competing schools, failures and limits; neither the newest standard nor one successful example establishes universal applicability.
 
-For a precise reference, retain the complete PatternID or section address and enough context to identify the publication. [Using FPF: resolve a portable reference](USING-FPF.md#resolve-a-portable-reference) explains how this works across files, search and MCP. You need not learn document codes before choosing what to read.
+For a precise reference, retain the complete PatternID or section address and enough context to identify the publication. [Using FPF Library: resolve a portable reference](USING-FPF.md#resolve-a-portable-reference) explains how this works across files, search and MCP. You need not learn document codes before choosing what to read.
 
-For an issue or proposed improvement, identify the publication and passage, the working situation, what failed or remains unavailable, and the change you propose. Use the relevant Architectural Reference to understand the current design. The broader FPF ecosystem can include independently authored DPFs, local frameworks (LPFs), guides, tools and services; this repository publishes the FPF project's Library.
+For an issue or proposed improvement, identify the publication and passage, the working situation, what failed or remains unavailable, and the change you propose. Use the relevant Architectural Reference to understand the current design. The broader FPF ecosystem can include independently authored DPFs, local frameworks (LPFs), guides, tools and services; this repository publishes FPF Library.
 
 ## Author, status and reuse
 

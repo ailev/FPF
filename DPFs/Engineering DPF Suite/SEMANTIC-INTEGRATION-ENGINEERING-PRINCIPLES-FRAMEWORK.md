@@ -8,7 +8,7 @@
 - **Version:** 20 September 2026
 - **Status:** Eternal alpha: the complete twelve-pattern first edition, open to correction as methods, sources, and applications change. The Methods support use-qualified model reuse or construction, semantic interfaces, affected-use revalidation, and modular semantic commons.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
-- **Publication:** [FPF repository](https://github.com/ailev/FPF)
+- **Publication:** [FPF Library repository](https://github.com/ailev/FPF)
 
 Use the Readme to enter from a working difficulty, or the Table of Contents to open one available pattern. The Architectural Reference explains how the contributions work together and the scope of their use. For references to this version, use the [Citation](#citation).
 

@@ -8,7 +8,7 @@
 - **Version:** 7 October 2026
 - **Status:** Eternal alpha: a published working framework, already used in analyses and worked applications, while continuing to evolve.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
-- **Publication:** [FPF repository](https://github.com/ailev/FPF)
+- **Publication:** [FPF Library repository](https://github.com/ailev/FPF)
 
 Begin with a concrete difficulty in a performance, rehearsal, teaching encounter, style-development project, or the environment that sustains a practice.
 
@@ -667,7 +667,7 @@ This release has one framework-edition dependency. It uses the [First Principles
 Specification, September 2026](https://github.com/ailev/FPF), specifically the use-specific assurance and
 currentness edition `FPF@2026-09-07-EA03-ASSURANCE-CURRENTNESS`. Use that edition's named PatternIDs below;
 its B.3.3 assurance criteria, B.3.4 evidence-applicability result and G.11 currentness result supply the
-MDPE.16/20 receiving use in the second row. The public FPF repository supplies the discovery route; the
+MDPE.16/20 receiving use in the second row. The public FPF Library repository supplies the discovery route; the
 edition designation identifies the content relied on, not whichever revision is newest. FPF remains
 external: this DPF does not copy it or make FPF depend on this domain framework.
 

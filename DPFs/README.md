@@ -2,7 +2,7 @@
 
 **Find a field's methods for the result you need.** These 33 frameworks explain domain practice through connected patterns, with conditions, worked cases and source grounds. Use them for a current task or as contributions to continuing development; applying a method once does not require a development programme.
 
-If you know the field, choose a Suite or framework below. If you only know the difficulty, describe it in ordinary words and search the texts; [Using FPF](../USING-FPF.md#choose-what-to-read) explains how to find and connect useful contributions. The [Library introduction](../) gives the overall purpose and a first-use route.
+If you know the field, choose a Suite or framework below. If you only know the difficulty, describe it in ordinary words and search the texts; [Using FPF Library](../USING-FPF.md#choose-what-to-read) explains how to find and connect useful contributions. The [Library introduction](../) gives the overall purpose and a first-use route.
 
 Framework and method links open readable text on fpf.tools; **Markdown** links open the repository source. GitHub previews can truncate large files. Check the [displayed source edition](https://fpf.tools/status) when the version matters.
 
@@ -46,6 +46,6 @@ Every full framework has one home in the Library. Using its methods elsewhere do
 
 ## Reading and reuse
 
-Before applying the methods, follow [Using FPF and its DPF Suites](../USING-FPF.md). A folder alone does not contain external frameworks its methods may need. [FPF Core](https://fpf.tools/FPF) supplies the common concepts and transdisciplinary methods.
+Before applying the methods, follow [Using FPF Library](../USING-FPF.md). A folder alone does not contain external frameworks its methods may need. [FPF Core](https://fpf.tools/FPF) supplies the common concepts and transdisciplinary methods.
 
 Anatoly Levenchuk, with AI-assisted development and review. Publications evolve with their methods and uses. Original content is available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); see [licensing terms](../LICENSING.md). Cite the framework, edition and full PatternID for a specific method.

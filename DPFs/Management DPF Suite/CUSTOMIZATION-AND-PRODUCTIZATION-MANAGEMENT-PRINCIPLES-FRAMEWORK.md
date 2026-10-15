@@ -72,7 +72,7 @@ Bring the question you are actually trying to answer. These entries are selected
 
 The intended reader manages a product, service, customer delivery, implementation practice or another undertaking with continuing customer commitments. Use the large CUST.1 Method when the customer case and future offering must be developed together. Use a smaller Method when the current problem is already bounded. A supported configuration needs no new productization programme.
 
-Read the [Architectural Reference](#custreference1---field-and-use) for the field, connections and limits. [Using FPF and its DPF Suites](../../USING-FPF.md) explains how to obtain supplying frameworks. Reading a Method supplies neither its required professional capabilities nor permission to perform restricted work.
+Read the [Architectural Reference](#custreference1---field-and-use) for the field, connections and limits. [Using FPF Library](../../USING-FPF.md) explains how to obtain supplying frameworks. Reading a Method supplies neither its required professional capabilities nor permission to perform restricted work.
 
 # Customization and Productization Management Principles Framework Architectural Reference
 
@@ -293,7 +293,7 @@ A link introduced below as a Method is an invitation to obtain its full practica
 
 These are conditional dependencies, not a required reading list. A qualified earlier result can be enough. A missing professional result returns the affected promise or construction to that work; it need not invalidate an unrelated supported local continuation.
 
-FPF supplies the general distinctions among Methods, their descriptions and performed work, and the development of ways to obtain a result through C.39. CUST specializes practical management problems without adding a new universal product kind. Use [FPF](../../FPF-Spec.md) for those general meanings and [Using FPF and its DPF Suites](../../USING-FPF.md) to find the needed contribution.
+FPF Core supplies the general distinctions among Methods, their descriptions and performed work, and the development of ways to obtain a result through C.39. CUST specializes practical management problems without adding a new universal product kind. Use [FPF Core](../../FPF-Spec.md) for those general meanings and [Using FPF Library](../../USING-FPF.md) to find the needed contribution.
 
 ## CUST.Reference:12 - Use and Refresh
 

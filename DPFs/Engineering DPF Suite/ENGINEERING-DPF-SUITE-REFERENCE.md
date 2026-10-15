@@ -8,7 +8,7 @@
 - **Version:** 12 October 2026
 - **Status:** Eternal alpha: a working reference, revised as the Suite and its applications develop.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
-- **Publication:** [FPF repository](https://github.com/ailev/FPF)
+- **Publication:** [FPF Library repository](https://github.com/ailev/FPF)
 - **Suite scope:** [Constituent disciplines and their connections (Engineering DPF Suite — Constituent DPFs and their different contributions)](README.md#constituent-dpfs-and-their-different-contributions)
 
 Use this Reference while working on a problem. Section 0 explains the Suite's composition, specialized disciplines and their connections; the worked cases explain how that architecture affects use. The question index points to a pattern and the result it can help you obtain. The cases explain how to combine contributions when one field cannot answer the whole question. The Engineering Suite edition includes four direct DPFs: Systems Engineering, Maintenance Engineering and Management, Knowledge-Corpus Access Engineering and Semantic Integration Engineering. Management describes the organizational specialization, including Organization Change Engineering; Human Capability Engineering has its own specialized Suite. Some other suppliers are independent DPFs or belong to Foundational Thinking. Following a useful result does not by itself decide a field's disciplinary membership.
