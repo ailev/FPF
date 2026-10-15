@@ -1,34 +1,48 @@
 # Human Capability Engineering DPF Suite
 
-> First Suite edition.
+**Help a person become able to do something, recover an ability or keep it usable.** This Suite connects knowledge of how people change with methods for changing their capabilities and testing them in the work that needs them.
 
-Human Capability Engineering connects knowledge of how people change with Methods for forming, changing, restoring and sustaining their capabilities. The human is the holder whose capability is at issue; a teacher, assisting AI or provider organization may perform part of the work.
+The person is the holder whose capability changes. A teacher, AI assistant or provider organization may perform part of the work. This edition covers learning and somatic contributions through two full frameworks; it does not offer comprehensive methods for the whole organism, personality, health or personal management.
 
-Use this Suite when a person needs to become able to do something, recover an ability or keep it usable, and the required change must be connected to realistic practice, support and evidence. Its first edition covers the learning and somatic contributions described by two complete DPFs. It does not offer comprehensive Methods for the whole organism, personality, health or personal management.
+## Choose an entry
 
-## Start from the missing contribution
+| Your question | Open |
+| --- | --- |
+| Does a person's difficulty actually require a capability change? | [Diagnose whether capability, misconception or behaviour limits work (HCD.3)](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd3--diagnose-whether-a-capability-misconception-or-behaviour-limits-work). The needed result may instead be a tool, condition, explanation or specialist contribution. |
+| How do explanation, varied experience and participation combine in learning? | [Connected learning cases (HCD.Application:10)](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcdapplication10---combine-explanation-experience-and-participation-in-a-changing-practice), covering language, partnered movement, a clerk's work and an engineering team. |
+| Why does a familiar movement fail when bodily experience and voluntary regulation do not connect to the action? | [Model the bodily contribution to a movement (SOM.1)](SOMATIC-MOVEMENT-MODELING-PRINCIPLES-FRAMEWORK.md#som1---model-the-bodily-contribution-to-a-movement). Suitable technique and physical conditions remain necessary. |
 
-If you need to understand what limits a person's work, begin with [Diagnose Whether a Capability, Misconception, or Behaviour Limits Work (HCD.3)](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd3--diagnose-whether-a-capability-misconception-or-behaviour-limits-work). The useful answer may be a justified capability-change target, or a return to a missing tool, explanation, condition or specialist contribution.
+Read the full conditions and cases, including the competence needed to provide the teaching. A course, completed exercise or another performer's output alone does not show the person's capability in later work.
 
-If a familiar movement fails because bodily experience, voluntary regulation and the visible action do not yet connect, begin with [Model the Bodily Contribution to a Movement (SOM.1)](SOMATIC-MOVEMENT-MODELING-PRINCIPLES-FRAMEWORK.md#som1---model-the-bodily-contribution-to-a-movement). Suitable technique and physical conditions remain necessary.
+## Frameworks in this Suite
 
-A known sufficient Method can be used directly. Read its full conditions and cases, including the required teaching competence.
+| Framework | What you can work on | Patterns | Text, M characters |
+| --- | --- | ---: | ---: |
+| [Human Capability Development (HCD)](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) | Connect later work to capability demand, personal programmes, learning products, individual and shared practice, feedback, assessment, transfer and retention. | 29 | 1.140 |
+| [Somatic Movement Modeling (SOM)](SOMATIC-MOVEMENT-MODELING-PRINCIPLES-FRAMEWORK.md) | Connect bodily experience, regulated effort and coordinated movement; adapt within a familiar movement practice as support or load changes. | 5 | 0.069 |
 
-## Two complete constituent languages
+**Patterns** counts full pattern bodies. **Text, M characters** measures each complete Markdown framework, including its embedded Architectural Reference, in millions of Unicode characters with spaces and original line breaks, rounded to three decimals. These are scope indicators, not a required reading load.
 
-**Patterns** counts the complete pattern bodies in each linked DPF. **Text, M characters** gives the size of its full Markdown file, including its embedded Reference and supporting sections, in millions of Unicode characters (1 M = 1,000,000), with spaces and original line breaks included and values rounded to three decimals.
+## Connect the contributions
 
-| DPF | Patterns | Text, M characters | Contribution to the whole |
-| --- | ---: | ---: | --- |
-| [Human Capability Development — HCD](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) | 29 | 1.140 | Relates later work to human capability demand, programme and learning-product construction, practice, support, performance evidence, transfer, retention and revision. |
-| [Somatic Movement Modeling — SOM](SOMATIC-MOVEMENT-MODELING-PRINCIPLES-FRAMEWORK.md) | 5 | 0.069 | Constructs bodily distinctions, regulated effort, coordinated change and adaptation to support or load within an already known movement practice. |
+A learner may understand a movement and succeed in a local exercise yet still fail the intended whole action. HCD connects the capability target, practice, feedback and transfer; SOM supplies particular methods for bodily distinctions and regulation when those are the missing contribution. SOM specializes part of that human subject, rather than forming a second obligatory stage for every learner.
 
-The [Human Capability Engineering DPF Suite Architectural Reference (HCE)](HUMAN-CAPABILITY-ENGINEERING-DPF-SUITE-REFERENCE.md) explains why these contributions form a useful assembly, how they constrain each other, the alternatives and the limits of this first edition. Its [movement example (HCE.Reference:3)](HUMAN-CAPABILITY-ENGINEERING-DPF-SUITE-REFERENCE.md#hcereference3---how-do-the-contributions-meet-in-a-whole-action) shows why a plausible programme and a successful local exercise can still leave the intended action unavailable.
+The [Human Capability Engineering Architectural Reference](HUMAN-CAPABILITY-ENGINEERING-DPF-SUITE-REFERENCE.md) explains the assembly, alternatives and limits. Its [movement example (HCE.Reference:3)](HUMAN-CAPABILITY-ENGINEERING-DPF-SUITE-REFERENCE.md#hcereference3---how-do-the-contributions-meet-in-a-whole-action) follows the contributions into a whole action; its [outside contributions (HCE.Reference:6)](HUMAN-CAPABILITY-ENGINEERING-DPF-SUITE-REFERENCE.md#hcereference6---which-needed-contributions-remain-outside-this-edition) show what this edition does not supply.
 
-## Relation to the rest of the Library
+## Capability and continuing development
 
-This is a specialization of engineering by its human target. The [Engineering DPF Suite](../Engineering%20DPF%20Suite/) supplies the broader account of constructing, changing and sustaining functioning systems. The specialized Suite keeps the complete HCD and SOM descriptions together with the explanation of their human mechanisms. Each description has one home in the Library.
+Successful work with external help may meet the immediate need without the person learning the helper's method. Learning a known method can also be a complete bounded result. Continuing development asks a further question: what new attainable problems and ways of further development does the acquired capability make available?
 
-Successful work with external help can be sufficient without the person acquiring the helper's capability. Learning an existing Method can also finish without becoming an open-ended development undertaking. The Architectural Reference explains these [different results (HCE.Reference:1)](HUMAN-CAPABILITY-ENGINEERING-DPF-SUITE-REFERENCE.md#hcereference1---what-is-being-changed-and-for-which-result) and the [outside contributions (HCE.Reference:6)](HUMAN-CAPABILITY-ENGINEERING-DPF-SUITE-REFERENCE.md#hcereference6---which-needed-contributions-remain-outside-this-edition).
+Use [Core's connected development method (C.40.OD)](../../FPF-Spec.md#c40od---construct-and-continue-open-ended-development) for that wider undertaking and this Suite for its human mechanisms. The Reference distinguishes [the different results (HCE.Reference:1)](HUMAN-CAPABILITY-ENGINEERING-DPF-SUITE-REFERENCE.md#hcereference1---what-is-being-changed-and-for-which-result).
 
-Use [Using FPF and its DPF Suites](../../USING-FPF.md) for connected reading, [FPF Core](../../FPF-Spec.md) for shared meanings and general Methods, and the [FPF Library Architectural Reference](../../FPF-LIBRARY-REFERENCE.md) for the relation among the Library's languages.
+This is the human specialization of [Engineering](../Engineering%20DPF%20Suite/). Use [Management](../Management%20DPF%20Suite/) when the required change concerns an organization's capability, commitments, authority or resources. Arranging shared learning remains within HCD when the intended result is each person's learning: [compare individual and group arrangements (HCD.20)](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd20---compose-and-compare-arrangements-for-individual-and-group-learning) and [form learning work groups (HCD.21)](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd21---form-and-change-learning-work-groups).
+
+Developing an AI or robot requires its own mechanisms; a common capability question does not justify transferring human learning or somatic methods unchanged. For an agent's execution procedure and its testing, the [Engineering entries](../Engineering%20DPF%20Suite/#choose-an-entry) lead to SYSE.47 and SYSE.46. Other technical changes require the methods for the actual system; this is not a promise of complete robot-learning or AI-training coverage.
+
+## Reading, use and reuse
+
+Read [Using FPF and its DPF Suites](../../USING-FPF.md) before applying the methods, with or without an AI assistant. Start from the contribution your work needs; the order of files is not a project sequence. Read a selected pattern's conditions, explanation and worked cases. A checklist helps inspect a result; it does not replace the method.
+
+Anatoly Levenchuk, with AI-assisted development and review. These publications continue to evolve; check the edition when relying on a particular result. Original content is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), subject to the [licensing terms](../../LICENSING.md). For a method, cite its framework, edition and complete PatternID.
+
+[All domain frameworks](../) · [FPF Library](../../)

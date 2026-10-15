@@ -1,19 +1,12 @@
 # Foundational Thinking DPF Suite
 
-**Mathematical Thinking · Mathematical Modeling · Physical Thinking · Computational Thinking · Notational Engineering**
+**Construct, justify and revise models, mathematical and physical accounts, algorithms and notation.** Use this Suite when familiar formulas or operations do not yet connect into the answer you need, or a changed question makes an earlier construction inadequate.
 
-> Construct, justify and revise mathematical and physical accounts, algorithms, models and usable notations; use those results in further inquiry and work.
+A theorem, physical explanation, algorithm, interpreted model or usable notation can itself be the result. These methods also help develop new ways of working. They do not cover all intellectual activity, all mathematics and physics, or the whole of computer science.
 
-- **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Date:** 12 October 2026
-- **Status:** Eternal alpha. All five member DPFs are available and evolve with their methods, sources and uses.
-- **Publication:** [FPF repository](https://github.com/ailev/FPF)
+## Choose an entry
 
-**Start with the [Foundational Thinking Architectural Reference](FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md)** when you need to choose among these contributions or connect them. Open a DPF directly when you already know the contribution you need.
-
-## Start from a connected problem
-
-You may know formulas or individual operations and still be unable to connect them into an answer. The Suite helps make those connections: what information a construction must retain, what another method can do with its result, and where a changed question makes earlier work worth revisiting.
+The following entries contain worked connections, not just pointers to smaller operations. Start from the contribution whose inputs are available; an example's presentation order is not a prescribed project sequence.
 
 | What you need to do | Follow the worked connection |
 | --- | --- |
@@ -27,65 +20,38 @@ You may know formulas or individual operations and still be unable to connect th
 | Connect mathematics to changes in working methods | [Understand and change a construction (Foundational.Reference:3.2)](FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md#foundationalreference32---understand-and-change-a-construction): retain the distinction a later operation uses and connect it to the general Methods of methodological development in Core. |
 | Make reasoning available to other contributors and develop its next use | [Continue and distribute thinking (Foundational.Reference:3.5)](FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md#foundationalreference35---continue-and-distribute-thinking): recover a missing relation, arrange explanation or support, change the work and preserve the method for further development. |
 
+The [Foundational Thinking Architectural Reference](FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) helps choose and combine contributions when no single entry suffices. Its [vertical of ongoing work (Foundational.Reference:3.9)](FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md#foundationalreference39---keep-the-vertical-visible-while-doing-the-work) helps locate missing intermediate methods, abilities or resources between a local action and its larger purpose.
 
-These examples use several patterns together. Their short sequences show dependencies; worked explanations give calculations and return points. Start at a later contribution when its inputs are available. Each DPF's Table of Contents also gives direct help for other questions.
+## Frameworks in this Suite
 
-The [vertical of ongoing work (Foundational.Reference:3.9)](FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md#foundationalreference39---keep-the-vertical-visible-while-doing-the-work) asks a complementary question: what larger work is being performed through this action now, and what constituent abilities and resources make it possible? It helps locate a missing intermediate Method or capability even when the elementary operations and the intended whole are familiar.
+| Framework | What you can work on | Patterns | Text, M characters |
+| --- | --- | ---: | ---: |
+| [Mathematical Thinking (MATH)](MATHEMATICAL-PRACTICE-DPF.md) | Construct mathematical objects, operations and alternatives; derive consequences and meet proof obligations. | 20 | 0.480 |
+| [Mathematical Modeling (MMP)](MATHEMATICAL-MODELING-PRACTICE-DPF.md) | Relate a subject question to mathematics; infer, predict, compare interventions, design observations and revise or combine models. | 17 | 0.575 |
+| [Physical Thinking (PHY)](PHYSICAL-THINKING-DPF.md) | Construct and test physical accounts; select interactions and idealizations, derive consequences and distinguish them by observation. | 10 | 0.305 |
+| [Computational Thinking (CMP)](COMPUTATIONAL-THINKING-DPF.md) | Construct algorithms that obtain the required answer within correctness, resource and interaction conditions. | 15 | 0.371 |
+| [Notational Engineering (NOT)](NOTATIONAL-ENGINEERING-DPF.md) | Design expressions, interpretations and transformations that make operations usable and changes recoverable. | 8 | 0.221 |
 
-## Use the publications
+**Patterns** counts full pattern bodies. **Text, M characters** measures each complete Markdown framework, including its embedded Architectural Reference, in millions of Unicode characters with spaces and original line breaks, rounded to three decimals. These are scope indicators, not a required reading load.
 
-For use with an agent, follow [Using FPF and its DPF Suites](../../USING-FPF.md). Copy this whole folder beside `FPF-Spec.md` in your project's reference folder. The root [Library overview](../../) gives the other files to copy and a paragraph for the agent's instructions. In GitHub, open an example above or a member link below.
+## Connect the contributions
 
-## Constituent disciplines and publications
+Predicting an oscillating system can require a physical account, a model with stated idealizations, a mathematical consequence, an algorithm for the approximation and notation whose variables and units remain interpretable. A measurement that defeats the idealization returns to the physical and modeling premises; computing more accurately cannot repair that defect. Conversely, a numerical error need not invalidate the physical law.
 
-The Suite describes a composite field: constructing, justifying and developing mathematical and physical accounts, computational ways of obtaining results, modeling correspondences and operative expressions. A theorem, physical explanation, algorithm, interpreted model or usable notation can itself be the intended result. Each branch has its own questions and results; modeling and notation are also objects of development, not merely preparation for physical calculation. The field does not cover every form of intellectual work, all of mathematics or physics, or the whole of computer science.
+These are different grounds for a connected result: mathematical validity, physical adequacy, computational feasibility and intelligibility of expression. Each matters only where that claim is made. A pure proof needs no invented physical test, and a notation problem need not start with a physical question. For example, `q + q = 2*q` remains an identity, while `read() + read()` need not equal `2*read()` when each call obtains a new value.
 
-The five DPFs describe its constituent knowledge and reusable practices. The publications themselves are not the discipline parts. Their connections concern what constructions mean, which operations are possible, what follows from them and what must change when their conditions change.
+The Reference explains [how the contributions constrain one another (Foundational.Reference:2.2)](FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md#foundationalreference22---relations-that-form-the-field) and [what preserves or changes the field (Foundational.Reference:2.3)](FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md#foundationalreference23---the-whole-its-continuity-and-its-boundaries). The connected methods remain independently usable.
 
-**Patterns** counts the complete pattern bodies in each linked DPF. **Text, M characters** gives the size of its full Markdown file, including its embedded Reference and supporting sections, in millions of Unicode characters (1 M = 1,000,000), with spaces and original line breaks included and values rounded to three decimals.
+## Develop and use new ways of thinking
 
-| Constituent DPF | Patterns | Text, M characters | Contribution to the field |
-| --- | ---: | ---: | --- |
-| [Mathematical Thinking (MATH)](MATHEMATICAL-PRACTICE-DPF.md) | 20 | 0.480 | Objects, operations, transformations and proof obligations; derive consequences and construct alternatives. |
-| [Mathematical Modeling (MMP)](MATHEMATICAL-MODELING-PRACTICE-DPF.md) | 17 | 0.575 | Build and revise the correspondence between a subject question and a mathematical construction; combine or change models while preserving the needed answer. |
-| [Physical Thinking (PHY)](PHYSICAL-THINKING-DPF.md) | 10 | 0.305 | Physical interactions, preparation and observation, admissible accounts and their limits; derive and test physical consequences. |
-| [Computational Thinking (CMP)](COMPUTATIONAL-THINKING-DPF.md) | 15 | 0.371 | Algorithms, their meaning and correctness, resource demands, interaction and independent extensions; construct an effective way of obtaining a result. |
-| [Notational Engineering (NOT)](NOTATIONAL-ENGINEERING-DPF.md) | 8 | 0.221 | Construct usable expression rules, interpretations, transformations and relations between representations, including temporal or embodied notation; make the intended operations performable and changes recoverable. |
+A useful construction can make a new question approachable; an unexplained observation, counterexample or successful new tool can reveal the next question. This Suite supplies the subject-specific constructions. [FPF Core](../../FPF-Spec.md) supplies general methods for inquiry, methodological development and continuing development. Merely finishing a calculation does not establish that wider continuation.
 
-The [Foundational Thinking DPF Suite Architectural Reference](FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) explains this whole, its alternatives and limits, and supports selection and connected use of the Methods. It is a publication about the discipline and its language, not a sixth discipline.
+Research Method Practice, Decision Design, Explanation Design and Narrativization retain their own subjects in the [DPF catalogue](../). They are not absorbed into this Suite because they involve thinking. [Engineering](../Engineering%20DPF%20Suite/) supplies realization of instruments and other systems; [Human Capability Engineering](../Human%20Capability%20Engineering%20DPF%20Suite/) supplies changes in people's capabilities. Obtaining an intellectual result, constructing its means and learning to obtain it are different contributions.
 
-## How the constituents form a whole
+## Reading, use and reuse
 
-One entry is a physical question. A physical explanation constrains which model relations can describe a phenomenon and what an observation can distinguish. Mathematical construction supplies consequences and proof conditions. A computational construction must obtain the required result within its resource and interaction conditions. Modelling relates that result back to the question; notation lets the participants perform, inspect and alter the constructions without silently changing their meaning.
+Read [Using FPF and its DPF Suites](../../USING-FPF.md) before applying the methods, with or without an AI assistant. Start from the contribution your work needs; the order of files is not a project sequence. Read a selected pattern's conditions, explanation and worked cases. A checklist helps inspect a result; it does not replace the method.
 
-These relations support revision as well as forward calculation. A counterexample can change a mathematical construction; an observational mismatch can reopen a physical premise; non-identifiability can change the requested inference; a computational limit can require a different representation or algorithm. The affected expressions and dependent conclusions then need to change with the premise.
+Anatoly Levenchuk, with AI-assisted development and review. These publications continue to evolve; check the edition when relying on a particular result. Original content is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), subject to the [licensing terms](../../LICENSING.md). For a method, cite its framework, edition and complete PatternID.
 
-The whole makes a construction or consequence jointly interpretable, obtainable and revisable while retaining the different grounds on which its parts rest. Mathematical validity, physical adequacy, computational feasibility and the intelligibility of an expression are different conditions. None substitutes for the others, and each applies only where that kind of claim is made: a pure proof needs no invented physical validation. The [full account (Foundational.Reference:2.2)](FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md#foundationalreference22---relations-that-form-the-field) explains how these conditions constrain and revise one another.
-
-For example, predicting an oscillating system requires a physical account of the interactions, a model with stated idealizations, a mathematical consequence, a way to compute the needed approximation and an expression whose variables and units remain interpretable. A measurement that defeats the idealization returns to the physical and modelling premises; running the same algorithm more accurately cannot repair that defect. Conversely, a numerical error need not invalidate the physical law. The linked DPFs teach the distinct constructions and returns.
-
-This is a field architecture, not a requirement to use all five DPFs for every task. A pure mathematical construction can be complete without a physical example. Algorithm construction can begin with a required witness or cost bound. Notation design can begin with an ambiguous score, diagram or gesture and finish with a usable reading procedure; using notation in music does not bring musical performance into this Suite. A question can also begin with a failed model correspondence or an unexplained physical observation. The constituent repertoires remain independently usable, and applications outside the field remain applications.
-
-For example, replacing one supplied value by two sensor reads changes the meaning of an expression. The identity `q + q = 2*q` remains true, but `read() + read()` need not equal `2*read()`. Notation and computational interpretation expose which operation is intended; a measurement account supplies what a read means. This entry starts with expression use, not with a physical calculation awaiting its suppliers.
-
-The field continues while the five kinds of constructive contribution and their relations remain available: deriving and warranting consequences, establishing their subject correspondence, forming physical accounts, obtaining results through effective operations, and constructing interpretable expressions. New theories, models, algorithms and notation can replace older ones when the affected grounds and couplings remain recoverable. Replacing a constituent requires an adequate contribution in these relations; merely removing its questions changes the field. A broader purpose or a new subject-specific field requires a fresh architecture judgement; a common word such as “model” or “thinking” is insufficient. [The Reference (Foundational.Reference:2.3)](FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md#foundationalreference23---the-whole-its-continuity-and-its-boundaries) develops the continuity rule and possible connections to larger fields.
-
-## Related fields and Core
-
-[FPF Core](../../FPF-Spec.md) supplies the general distinctions and Methods for inquiry, Method development, composition, qualification and continuation. This Suite supplies mathematical, physical, computational and notational constructions with their particular premises and grounds. Broad applicability does not make those constructions generic Core instructions.
-
-Research Method Practice, Decision Design, Explanation Design, Financial Domain Modeling, Defense and Transmission Modeling, and Narrativization have their own subjects and Methods. They can use this Suite or supply a result it needs. Their complete fields are not absorbed under the broad word “thinking”. Find them through the [DPF catalogue](../).
-
-The [Engineering DPF Suite](../Engineering%20DPF%20Suite/) supplies system realization, including instruments and software arrangements when those changes are needed. Human Capability Development supplies changes in human capability when those are needed. An intellectual result, the engineered means for obtaining or using it, and a person's ability to use it remain different contributions.
-
-## The Reference and its editions
-
-The Reference answers working questions about selection, combination, field structure and missing contributions. It leads to the full Methods and evidence. Its answers can also use outside suppliers without making those fields constituents of this Suite.
-
-When a supplying Method changes, reconsider only the answers whose meaning or applicability can change. A Reference edition must distinguish available results, descriptions of Methods and contributions still missing. A date or an accessible title does not establish that an answer remains suitable. A known sufficient DPF contribution can be used directly without a Reference detour.
-
-## Rights and citation
-
-Copyright © 2026 Anatoly Levenchuk. This account and the author's DPF publications are licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/), except material carrying a separate notice. Cited sources retain their own rights. Independent authors choose the licenses for their own DPFs and LPFs.
-
-Cite this account as: Anatoly Levenchuk. *Foundational Thinking DPF Suite*. [FPF repository](https://github.com/ailev/FPF). Include the date shown at the start of this file. For a method, also cite its DPF edition and PatternID.
+[All domain frameworks](../) · [FPF Library](../../)

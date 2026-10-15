@@ -1,43 +1,58 @@
 # Management DPF Suite
 
-> First Suite edition.
+**Connect direction, commitments, resources and collective work.** Use this Suite when a promising direction, an accepted promise and the available means do not yet fit together, or a changed condition calls for a different commitment.
 
-Management connects direction, commitments, provision and performance so that a collective undertaking can make and sustain promises under actual conditions. The undertaking can be a business, public service, temporary collaboration or voluntary community. A shared employer is unnecessary; the contributions, authority and resources on which others rely must have an actual basis.
+The undertaking can be a company, public service, temporary collaboration or voluntary community. A shared employer is unnecessary, but contributions, resources and authority need an actual basis. A smaller promise, sufficient existing arrangement or justified refusal can be the useful result.
 
-Use this Suite when an attractive direction, an accepted promise and available means do not yet fit together, or a changed condition calls for a different commitment. A sufficient existing arrangement, smaller promise or justified refusal can be the useful result.
+## Choose an entry
 
-When an organization or another established system is the subject of change, management can change its functioning by arranging current Work, authority, resources and commitments while retaining its organization chart. That is an engineering contribution without a separate organization-redesign project. For a voluntary community or temporary collaboration, first establish what system and whole, if any, are being changed. OCE develops the deliberate organization-change contribution, while the other management fields retain their own subjects. Management is the organizational specialization of engineering described by this Suite; the broader Engineering edition connects to it without repeating OCE in its direct roster.
+| Your question | Open |
+| --- | --- |
+| Which direction and investment are worth pursuing? | [Strategy](STRATEGY-PRINCIPLES-FRAMEWORK.md). |
+| Can current work meet its promises with the available capacity? | [Operations Management](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md); use [Organization Administration](ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md) for permissions, provision and obligations. |
+| How do we answer different clients without losing repeatability or scale? | [Manage client variation and develop repeatable offerings (CUST.1)](CUSTOMIZATION-AND-PRODUCTIZATION-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#cust1---manage-client-variation-and-develop-repeatable-offerings). Its constituent methods also work for a bounded offering, delivery or transition question. |
+| How do we establish contributions and sustain a shared practice? | [Leadership](LEADERSHIP-PRINCIPLES-FRAMEWORK.md) and [Community Management](COMMUNITY-MANAGEMENT-PRINCIPLES-FRAMEWORK.md), according to the missing result. |
+| Do roles, authority or capability allocations need to change? | [Organization Change Engineering](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md). |
 
-## Read the whole and its constituents
+For a connected case, the [Management Architectural Reference](MANAGEMENT-DPF-SUITE-REFERENCE.md) follows both a [voluntary practice network (Management.Reference:5.1)](MANAGEMENT-DPF-SUITE-REFERENCE.md#managementreference51---a-voluntary-practice-development-network) and [a new order in an operating business (Management.Reference:5.2)](MANAGEMENT-DPF-SUITE-REFERENCE.md#managementreference52---a-new-order-in-an-operating-business). These are contrasting uses, not the limits of the field.
 
-The [Management DPF Suite Architectural Reference](MANAGEMENT-DPF-SUITE-REFERENCE.md) explains the field, the relations among its twelve constituent languages, alternatives, limits and returns to external suppliers. Its [voluntary practice network (Management.Reference:5.1)](MANAGEMENT-DPF-SUITE-REFERENCE.md#managementreference51---a-voluntary-practice-development-network) and [operating-business order (Management.Reference:5.2)](MANAGEMENT-DPF-SUITE-REFERENCE.md#managementreference52---a-new-order-in-an-operating-business) show different connected uses. These cases illustrate the architecture; they do not define the Suite's coverage.
+## Frameworks in this Suite
 
-The constituent DPFs provide the full Methods, cases and source grounds:
+| Framework | What you can work on | Patterns | Text, M characters |
+| --- | --- | ---: | ---: |
+| [Strategy (STR)](STRATEGY-PRINCIPLES-FRAMEWORK.md) | Find a worthwhile direction; compare options, capabilities, investments and business models; revise commitments when conditions change. | 17 | 0.530 |
+| [Operations Management (OPS)](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) | Organize flow, queues, capacity, admission, quality and simultaneous work under actual operating conditions. | 28 | 0.903 |
+| [Organization Administration (ADM)](ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md) | Make requests, permissions, obligations, provision, records and provider coordination effective without unnecessary burden. | 15 | 0.302 |
+| [Corporate Governance (CGOV)](CORPORATE-GOVERNANCE-PRINCIPLES-FRAMEWORK.md) | Constitute and exercise corporate powers, decisions, controls and accountability under applicable governing rules. | 17 | 0.274 |
+| [Management Accounting (MA)](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md) | Construct cost and capacity accounts, forecasts and explanations that inform organizational choices. | 9 | 0.163 |
+| [Corporate Finance (FIN)](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md) | Arrange financing, liquidity and capital allocation; compare value, exposure and financial consequences. | 22 | 0.584 |
+| [Marketing (MKT)](MARKETING-PRINCIPLES-FRAMEWORK.md) | Investigate customers and markets; design, communicate and sustain feasible offers and relationships. | 14 | 0.384 |
+| [Customization and Productization Management (CUST)](CUSTOMIZATION-AND-PRODUCTIZATION-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) | Handle client differences while developing repeatable offerings, delivery and compatible transitions for existing clients. | 8 | 0.184 |
+| [Engineering Asset Management (EAM)](ENGINEERING-ASSET-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) | Compare use, renewal, replacement and other asset changes over time, including shared risk, cost and capacity. | 16 | 0.265 |
+| [Leadership (LDR)](LEADERSHIP-PRINCIPLES-FRAMEWORK.md) | Obtain feasible agreement and contributions to joint work, including preparation through first useful work. | 3 | 0.128 |
+| [Community Management (CB)](COMMUNITY-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) | Develop useful participation, relationships, shared practices and contributions in organizations or voluntary communities. | 16 | 0.526 |
+| [Organization Change Engineering (OCE)](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Construct and qualify organizational changes to contributions, roles, authority, interfaces, capabilities and culture. | 17 | 0.697 |
 
-Use [CUST.1](CUSTOMIZATION-AND-PRODUCTIZATION-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#cust1---manage-client-variation-and-develop-repeatable-offerings) for the connected work from client differences to a maintainable local or repeatable answer. Its constituent Methods can also be applied directly: an offering-family question, a repeated-delivery question and a transition for existing clients need not start a complete new customization programme.
+**Patterns** counts full pattern bodies. **Text, M characters** measures each complete Markdown framework, including its embedded Architectural Reference, in millions of Unicode characters with spaces and original line breaks, rounded to three decimals. These are scope indicators, not a required reading load.
 
+## Connect the contributions
 
-**Patterns** counts the complete pattern bodies in each linked DPF. **Text, M characters** gives the size of its full Markdown file, including its embedded Reference and supporting sections, in millions of Unicode characters (1 M = 1,000,000), with spaces and original line breaks included and values rounded to three decimals.
+An attractive new order can require a revised offering, delivery capacity, a financial commitment and a change in who may authorize work. Each can look feasible alone while the combination exceeds shared capacity. The Suite helps connect those judgements and revise the offer, provision or commitments together. Use only the contributions needed by the undertaking; Corporate Governance and Corporate Finance retain their corporate conditions.
 
-| Constituent DPF | Patterns | Text, M characters |
-| --- | ---: | ---: |
-| [Strategy (STR)](STRATEGY-PRINCIPLES-FRAMEWORK.md) | 17 | 0.530 |
-| [Operations Management (OPS)](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) | 28 | 0.903 |
-| [Organization Administration (ADM)](ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md) | 15 | 0.302 |
-| [Corporate Governance (CGOV)](CORPORATE-GOVERNANCE-PRINCIPLES-FRAMEWORK.md) | 17 | 0.274 |
-| [Management Accounting (MA)](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md) | 9 | 0.163 |
-| [Corporate Finance (FIN)](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md) | 22 | 0.584 |
-| [Marketing (MKT)](MARKETING-PRINCIPLES-FRAMEWORK.md) | 14 | 0.384 |
-| [Customization and Productization Management (CUST)](CUSTOMIZATION-AND-PRODUCTIZATION-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) | 8 | 0.184 |
-| [Engineering Asset Management (EAM)](ENGINEERING-ASSET-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) | 16 | 0.265 |
-| [Leadership (LDR)](LEADERSHIP-PRINCIPLES-FRAMEWORK.md) | 3 | 0.128 |
-| [Community Management (CB)](COMMUNITY-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) | 16 | 0.526 |
-| [Organization Change Engineering (OCE)](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | 17 | 0.697 |
+Management can change an organization's functioning while retaining its organization chart. OCE develops deliberate organizational construction, but does not exhaust management. The [Architectural Reference](MANAGEMENT-DPF-SUITE-REFERENCE.md) explains this organizational specialization of engineering and its [coverage limits (Management.Reference:7)](MANAGEMENT-DPF-SUITE-REFERENCE.md#managementreference7---continuity-and-coverage).
 
-OCE connects the construction of organizational relations to feasible commitments and has its complete home in this Suite. [Maintenance Engineering and Management (MNT)](../Engineering%20DPF%20Suite/MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) connects maintained functioning to policy, support and the service programme; its complete language is in the [Engineering DPF Suite](../Engineering%20DPF%20Suite/). A manager may apply those Methods directly when capable, or obtain a qualified result. The Reference explains [organizational construction and maintenance use (Management.Reference:3.1)](MANAGEMENT-DPF-SUITE-REFERENCE.md#managementreference31---organizational-construction-and-maintenance-use), including why these two complete fields have different direct homes.
+For maintained equipment, [Maintenance Engineering and Management](../Engineering%20DPF%20Suite/MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) supplies its full methods from Engineering. For a person's capability, use [Human Capability Engineering](../Human%20Capability%20Engineering%20DPF%20Suite/). A manager may perform a method when capable or obtain its result from another contributor. Cross-field use does not duplicate framework membership; the [organizational construction and maintenance account (Management.Reference:3.1)](MANAGEMENT-DPF-SUITE-REFERENCE.md#managementreference31---organizational-construction-and-maintenance-use) explains that particular boundary.
 
-A known sufficient Method can be used directly. Corporate Governance and Corporate Finance retain their corporate conditions; other settings need their applicable governing and financial practice. Participation in this Suite does not make every constituent necessary for every undertaking. The Reference states the [coverage limits and continuity conditions (Management.Reference:7)](MANAGEMENT-DPF-SUITE-REFERENCE.md#managementreference7---continuity-and-coverage).
+## Organize conditions for continuing development
 
-Use the [Human Capability Engineering DPF Suite](../Human%20Capability%20Engineering%20DPF%20Suite/) when a person's capability must develop. Learning, coaching and organizing a team's work can contribute to the same undertaking while addressing different subjects; a provider's professional title does not decide which result is needed.
+A development undertaking may need strategy, participation, time, funding and authority as well as learning or research. This Suite helps arrange those conditions. It does not equate everyday operations, implementing a known practice or one organizational change with open-ended development.
 
-Use [Using FPF and its DPF Suites](../../USING-FPF.md) for search and connected reading, [FPF Core](../../FPF-Spec.md) for common meanings and general Methods, and the [FPF Library Architectural Reference](../../FPF-LIBRARY-REFERENCE.md) for the relation of this Suite to the rest of the Library. Full external suppliers remain necessary when their contribution is used; a copy of this folder alone does not contain them.
+Use [Core's connected development method (C.40.OD)](../../FPF-Spec.md#c40od---construct-and-continue-open-ended-development) when acquired capability should open further attainable problems and the means to continue. An office, distributed responsibility at workplaces, an external provider and AI-assisted arrangements are alternatives to examine from the required methods and conditions, not names that settle the design.
+
+## Reading, use and reuse
+
+Read [Using FPF and its DPF Suites](../../USING-FPF.md) before applying the methods, with or without an AI assistant. Start from the contribution your work needs; the order of files is not a project sequence. Read a selected pattern's conditions, explanation and worked cases. A checklist helps inspect a result; it does not replace the method.
+
+Anatoly Levenchuk, with AI-assisted development and review. These publications continue to evolve; check the edition when relying on a particular result. Original content is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), subject to the [licensing terms](../../LICENSING.md). For a method, cite its framework, edition and complete PatternID.
+
+[All domain frameworks](../) · [FPF Library](../../)
