@@ -4,13 +4,15 @@
 
 The person is the holder whose capability changes. A teacher, AI assistant or provider organization may perform part of the work. This edition covers learning and somatic contributions through two full frameworks; it does not offer comprehensive methods for the whole organism, personality, health or personal management.
 
+Framework and method links open readable text on fpf.tools; **Markdown** links open the repository source. GitHub previews can truncate large files. Check the [displayed source edition](https://fpf.tools/status) when the version matters.
+
 ## Choose an entry
 
 | Your question | Open |
 | --- | --- |
-| Does a person's difficulty actually require a capability change? | [Diagnose whether capability, misconception or behaviour limits work (HCD.3)](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd3--diagnose-whether-a-capability-misconception-or-behaviour-limits-work). The needed result may instead be a tool, condition, explanation or specialist contribution. |
-| How do explanation, varied experience and participation combine in learning? | [Connected learning cases (HCD.Application:10)](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcdapplication10---combine-explanation-experience-and-participation-in-a-changing-practice), covering language, partnered movement, a clerk's work and an engineering team. |
-| Why does a familiar movement fail when bodily experience and voluntary regulation do not connect to the action? | [Model the bodily contribution to a movement (SOM.1)](SOMATIC-MOVEMENT-MODELING-PRINCIPLES-FRAMEWORK.md#som1---model-the-bodily-contribution-to-a-movement). Suitable technique and physical conditions remain necessary. |
+| Does a person's difficulty actually require a capability change? | [Diagnose whether capability, misconception or behaviour limits work (HCD.3)](https://fpf.tools/HCD.3). The needed result may instead be a tool, condition, explanation or specialist contribution. |
+| How do explanation, varied experience and participation combine in learning? | [Connected learning cases (HCD.Application:10)](https://fpf.tools/HCD.Application:10), covering language, partnered movement, a clerk's work and an engineering team. |
+| Why does a familiar movement fail when bodily experience and voluntary regulation do not connect to the action? | [Model the bodily contribution to a movement (SOM.1)](https://fpf.tools/SOM.1). Suitable technique and physical conditions remain necessary. |
 
 Read the full conditions and cases, including the competence needed to provide the teaching. A course, completed exercise or another performer's output alone does not show the person's capability in later work.
 
@@ -18,8 +20,8 @@ Read the full conditions and cases, including the competence needed to provide t
 
 | Framework | What you can work on | Patterns | Text, M characters |
 | --- | --- | ---: | ---: |
-| [Human Capability Development (HCD)](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) | Connect later work to capability demand, personal programmes, learning products, individual and shared practice, feedback, assessment, transfer and retention. | 29 | 1.140 |
-| [Somatic Movement Modeling (SOM)](SOMATIC-MOVEMENT-MODELING-PRINCIPLES-FRAMEWORK.md) | Connect bodily experience, regulated effort and coordinated movement; adapt within a familiar movement practice as support or load changes. | 5 | 0.069 |
+| [Human Capability Development (HCD)](https://fpf.tools/HCD) · [Markdown](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) | Connect later work to capability demand, personal programmes, learning products, individual and shared practice, feedback, assessment, transfer and retention. | 29 | 1.140 |
+| [Somatic Movement Modeling (SOM)](https://fpf.tools/SOM) · [Markdown](SOMATIC-MOVEMENT-MODELING-PRINCIPLES-FRAMEWORK.md) | Connect bodily experience, regulated effort and coordinated movement; adapt within a familiar movement practice as support or load changes. | 5 | 0.069 |
 
 **Patterns** counts full pattern bodies. **Text, M characters** measures each complete Markdown framework, including its embedded Architectural Reference, in millions of Unicode characters with spaces and original line breaks, rounded to three decimals. These are scope indicators, not a required reading load.
 
@@ -33,9 +35,9 @@ The [Human Capability Engineering Architectural Reference](HUMAN-CAPABILITY-ENGI
 
 Successful work with external help may meet the immediate need without the person learning the helper's method. Learning a known method can also be a complete bounded result. Continuing development asks a further question: what new attainable problems and ways of further development does the acquired capability make available?
 
-Use [Core's connected development method (C.40.OD)](../../FPF-Spec.md#c40od---construct-and-continue-open-ended-development) for that wider undertaking and this Suite for its human mechanisms. The Reference distinguishes [the different results (HCE.Reference:1)](HUMAN-CAPABILITY-ENGINEERING-DPF-SUITE-REFERENCE.md#hcereference1---what-is-being-changed-and-for-which-result).
+Use [Core's connected development method (C.40.OD)](https://fpf.tools/C.40.OD) for that wider undertaking and this Suite for its human mechanisms. The Reference distinguishes [the different results (HCE.Reference:1)](HUMAN-CAPABILITY-ENGINEERING-DPF-SUITE-REFERENCE.md#hcereference1---what-is-being-changed-and-for-which-result).
 
-This is the human specialization of [Engineering](../Engineering%20DPF%20Suite/). Use [Management](../Management%20DPF%20Suite/) when the required change concerns an organization's capability, commitments, authority or resources. Arranging shared learning remains within HCD when the intended result is each person's learning: [compare individual and group arrangements (HCD.20)](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd20---compose-and-compare-arrangements-for-individual-and-group-learning) and [form learning work groups (HCD.21)](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd21---form-and-change-learning-work-groups).
+This is the human specialization of [Engineering](../Engineering%20DPF%20Suite/). Use [Management](../Management%20DPF%20Suite/) when the required change concerns an organization's capability, commitments, authority or resources. Arranging shared learning remains within HCD when the intended result is each person's learning: [compare individual and group arrangements (HCD.20)](https://fpf.tools/HCD.20) and [form learning work groups (HCD.21)](https://fpf.tools/HCD.21).
 
 Developing an AI or robot requires its own mechanisms; a common capability question does not justify transferring human learning or somatic methods unchanged. For an agent's execution procedure and its testing, the [Engineering entries](../Engineering%20DPF%20Suite/#choose-an-entry) lead to SYSE.47 and SYSE.46. Other technical changes require the methods for the actual system; this is not a promise of complete robot-learning or AI-training coverage.
 

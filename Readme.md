@@ -8,7 +8,7 @@ The Library is developing as a **methodology of open-ended development**. A resu
 
 You can also use one method for one calculation, design, decision or learning need and stop there. A completed task, a new procedure or learning a known method does not by itself establish continuing development.
 
-[Start using the Library](USING-FPF.md) · [Domain frameworks](DPFs/) · [FPF Core](FPF-Spec.md) · [Library Architectural Reference](FPF-LIBRARY-REFERENCE.md)
+[Start using the Library](USING-FPF.md) · [Domain frameworks](DPFs/) · [FPF Core](https://fpf.tools/FPF) · [Library Architectural Reference](FPF-LIBRARY-REFERENCE.md)
 
 ## Start with your work
 
@@ -16,8 +16,8 @@ You do not need to read the Library from beginning to end. Bring a situation, th
 
 | What you are trying to do | Where to begin |
 | --- | --- |
-| Find a way to obtain a result when the familiar answer is insufficient | [Find and develop a way to obtain a result (FPF C.39)](FPF-Spec.md#c39---find-and-develop-a-way-to-obtain-a-result). It connects existing answers, missing constructions and the use that needs the result. |
-| Develop your own, a team's or an organization's ability to continue beyond its present limits | [Construct and continue open-ended development (FPF C.40.OD)](FPF-Spec.md#c40od---construct-and-continue-open-ended-development), together with the domain methods needed for the actual change. |
+| Find a way to obtain a result when the familiar answer is insufficient | [Find and develop a way to obtain a result (FPF C.39)](https://fpf.tools/C.39). It connects existing answers, missing constructions and the use that needs the result. |
+| Develop your own, a team's or an organization's ability to continue beyond its present limits | [Construct and continue open-ended development (FPF C.40.OD)](https://fpf.tools/C.40.OD), together with the domain methods needed for the actual change. |
 | Design, acquire, integrate or maintain a functioning system | [Engineering](DPFs/Engineering%20DPF%20Suite/). |
 | Make direction, promises, resources and collective work fit together | [Management](DPFs/Management%20DPF%20Suite/). |
 | Obtain or check a mathematical or physical answer, model, algorithm or notation | [Foundational Thinking](DPFs/Foundational%20Thinking%20DPF%20Suite/). Apply the needed method yourself or have a capable specialist or AI apply it; learning to perform it yourself is a separate choice. |
@@ -32,13 +32,13 @@ Suppose a team can deliver its current product, but a more demanding order is be
 
 The Library helps connect them without requiring the same arrangement everywhere. A person working with an AI, several collaborating teams and a company with a development office need different domain methods and allocations of work, resources and authority. An office is one possible arrangement, not a prerequisite for development.
 
-The general methods are in **Core**: [connect development work (C.40.OD)](FPF-Spec.md#c40od---construct-and-continue-open-ended-development), [develop a way, its holder and its provision together (C.40.JD)](FPF-Spec.md#c40jd---develop-a-way-its-holder-and-its-provision-together), and [continue from a result to new attainable problems (C.40.NP)](FPF-Spec.md#c40np---continue-from-a-result-to-new-attainable-problems). The DPFs supply the particular mechanisms of learning, research, engineering, management and other practices. Developing a method, changing an agent's capability and actually performing work remain distinct contributions.
+The general methods are in **Core**: [connect development work (C.40.OD)](https://fpf.tools/C.40.OD), [connect a method, the capability to perform it and the conditions for its use (C.40.JD)](https://fpf.tools/C.40.JD), and [continue from a result to new attainable problems (C.40.NP)](https://fpf.tools/C.40.NP). The DPFs supply the particular mechanisms of learning, research, engineering, management and other practices. Developing a method, changing an agent's capability and actually performing work remain distinct contributions.
 
 ## What is available
 
 **FPF Core** contains 397 patterns in 17.616 million characters. It supplies transdisciplinary concepts and methods, including methodological work and open-ended development. **33 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 23 belong to four Suites, and ten have their own files directly in the DPF catalogue.
 
-A DPF describes one field through a connected pattern language. A **Suite** describes a composite discipline through its constituent fields and their relations. A method can be used across Suite boundaries without duplicating its framework or making it a member of both. An **Architectural Reference** explains how the relevant language is arranged and why: within a framework, across a Suite, or across the Library.
+A DPF describes one field through a connected pattern language. A **Suite** describes a composite discipline through its constituent fields and their relations. An **Architectural Reference** explains how the relevant language is arranged and why: within a framework, across a Suite, or across the Library.
 
 | DPF Suite | Working subject | DPFs | Patterns | Text, M characters |
 | --- | --- | ---: | ---: | ---: |
@@ -53,7 +53,9 @@ The [Library Architectural Reference](FPF-LIBRARY-REFERENCE.md) explains the bou
 
 ## Read online or use your own copies
 
-On GitHub, open [Core](FPF-Spec.md) or a [domain folder](DPFs/) and use its contents to reach the full text. [fpf.tools](https://fpf.tools/) offers [browsing](https://fpf.tools/publications), [search](https://fpf.tools/search) and [MCP connection instructions](https://fpf.tools/connect). Check its [source editions and update status](https://fpf.tools/status) when the version matters; a service may not yet reflect the latest repository publication.
+Read [Core on fpf.tools](https://fpf.tools/FPF), or choose a [domain publication](https://fpf.tools/publications) and open the required pattern. The first method links above open that reading service. GitHub cannot display the complete Core and may truncate large DPFs; a link to a valid heading does not remove that limit.
+
+For the source, open the [Core Markdown file and its history](FPF-Spec.md) or [download Core as raw Markdown](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md). Framework tables on these pages pair online reading with a Markdown source link. On fpf.tools, **Copy and source** identifies the repository edition behind the displayed passage. Check [source editions and update status](https://fpf.tools/status) when the version matters; the service may lag behind GitHub. [Search](https://fpf.tools/search) and [MCP connection instructions](https://fpf.tools/connect) provide other ways to reach the material.
 
 For local use, download or clone this repository. Keep `FPF-Spec.md`, `FPF-LIBRARY-REFERENCE.md`, `USING-FPF.md`, the licensing files and `DPFs/` in their existing arrangement. A selected subset is also usable: include the actual supplying frameworks needed by your question, not just links to unavailable files. [Using FPF](USING-FPF.md#make-the-publications-available) explains access and selection.
 
@@ -81,4 +83,11 @@ For an issue or proposed improvement, identify the publication and passage, the 
 
 Original framework content is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). See [licensing terms](LICENSING.md) for attribution, third-party material and software boundaries. Sharing or adapting licensed text requires the applicable attribution and change notices. Independently authored DPFs and LPFs may use their authors' chosen licenses; using the methods or publication form does not by itself impose CC BY.
 
-Suggested citation: Anatoly Levenchuk. *FPF Library*. [FPF repository](https://github.com/ailev/FPF). Add the edition and PatternID for a specific method.
+### Citation
+
+```text
+Levenchuk, Anatoly. FPF Library.
+GitHub repository: https://github.com/ailev/FPF
+```
+
+For a specific claim or method, add the publication, edition and complete PatternID.

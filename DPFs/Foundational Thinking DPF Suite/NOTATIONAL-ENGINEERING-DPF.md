@@ -40,7 +40,7 @@ To cite this edition: Anatoly Levenchuk, *Notational Engineering DPF*, [FPF ecos
 | NOT.Reference:5 | [Conditions of use, checks and recurring failures](#notreference5---conditions-of-use-checks-and-recurring-failures) |  |
 | NOT.Reference:6 | [Consequences and Architectural Rationale](#notreference6---consequences-and-architectural-rationale) |  |
 | NOT.Reference:7 | [Shared sources, alternatives and refresh](#notreference7---shared-sources-alternatives-and-refresh) |  |
-| NOT.Reference:8 | [Relations to the rest of the Suite](#notreference8---relations-to-the-rest-of-the-suite) |  |
+| NOT.Reference:8 | [Relations to other frameworks](#notreference8---relations-to-other-frameworks) |  |
 
 ## Part A - Design what can be expressed and done
 
@@ -246,13 +246,13 @@ The bodies preserve their adopted contributions and limits. Several source lines
 
 Current rewriting and binding research can improve how expressions are transformed; bidirectional methods can change which updates are recoverable; empirical studies can revise the assumed burden for particular readers and media. Reopen the affected method when such a contribution changes its construction or supported use. A newer source or more familiar convention alone does not establish a better choice.
 
-## NOT.Reference:8 - Relations to the rest of the Suite
+## NOT.Reference:8 - Relations to other frameworks
 
 [Mathematical Thinking (MATH)](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-PRACTICE-DPF.md) supplies objects, compositions, arguments and interpretations used when the represented construction is mathematical. [Computational Thinking (CMP)](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/COMPUTATIONAL-THINKING-DPF.md) supplies effective procedures, including interpreters and translations. NOT designs the expression conventions those methods can consume; it does not substitute a mathematical meaning for an algorithm that obtains its consequence.
 
 [Mathematical Modeling (MMP)](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md), [Physical Thinking (PHY)](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/PHYSICAL-THINKING-DPF.md) and FPF C.29 connect a subject with mathematical constructions and interpreted observations. B.5.MPC coordinates mathematical, physical and computational contributions when they are jointly needed. NOT.5–.6 help express those correspondences while keeping the related objects and claims distinguishable.
 
-Within [Engineering DPF Suite](https://github.com/ailev/FPF/blob/main/DPFs/Engineering%20DPF%20Suite/README.md), Method Engineering's C.37.MP relates the claims needed when different uses of a working method require complementary descriptions; EXD develops explanations; HCD develops and assesses capabilities. They remain external contributions, used when the work needs that result. A notation repair can help any of them, while an operation missing from the method or from the reader's preparation needs the corresponding method or learning contribution.
+In FPF Core, C.37.MP relates the claims needed when different uses of a working method require complementary descriptions. Explanation Design (EXD) develops explanations; Human Capability Development (HCD), in the Human Capability Engineering Suite, develops and assesses human capabilities. They remain external contributions, used when the work needs that result. A notation repair can help any of them, while an operation missing from the method or from the reader's preparation needs the corresponding method or learning contribution.
 
 The [Suite Reference (Foundational)](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) locates the publications and their shared architecture. Use the cited body's operative rules when its question arises. If an available edition changes those rules or no longer supplies the result your use needs, revisit that dependency rather than assuming that the shared PatternID guarantees compatibility.
 

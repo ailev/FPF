@@ -10,7 +10,7 @@
 
 Begin with the contribution your work cannot yet obtain. The Table of Contents locates individual methods; the Readme demonstrates connected uses; the Architectural Reference explains the language, prerequisites and limits. **ECO** is the reference code. Pattern numbers identify methods, while Parts organize reading.
 
-This framework belongs to the [Engineering DPF Suite](https://github.com/ailev/FPF/blob/main/DPFs/Engineering%20DPF%20Suite/README.md). Cite the author, title, version shown here and the relevant PatternID or Architectural Reference section.
+This framework has its own publication in the [FPF Library DPF catalogue](https://github.com/ailev/FPF/tree/main/DPFs). Cite the author, title, version shown here and the relevant PatternID or Architectural Reference section.
 
 # Table of Contents
 
@@ -121,7 +121,7 @@ If the purpose is a resource cap, keep the aggregate limit in the operating plan
 
 Begin at the unresolved contribution and keep already adequate work. A return to an earlier pattern follows a changed premise, not a compulsory cycle. The Architectural Reference explains the economic architecture, Method verticals, sources and limits; each pattern provides its own instructions and examples.
 
-The [Engineering DPF Suite](https://github.com/ailev/FPF/blob/main/DPFs/Engineering%20DPF%20Suite/README.md) contains the financial, operating, organizational, explanation and development methods used at these boundaries. The [Foundational Thinking DPF Suite](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/README.md) supplies mathematical, physical and computational methods where those contributions are missing.
+Management supplies financial, operating and organizational methods; Explanation Design (EXD) supplies explanation methods; Human Capability Engineering supplies methods for changing human capabilities. Core supplies the general methods of development. The [Foundational Thinking DPF Suite](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/README.md) supplies mathematical, physical and computational methods where those contributions are missing.
 
 # Economic Reasoning and Coordination Principles Framework Architectural Reference
 
@@ -237,7 +237,7 @@ Revisit an affected method when new evidence changes its mechanism, the institut
 
 This DPF relies on the general meanings and selected methods in [FPF Core](https://github.com/ailev/FPF/blob/main/FPF-Spec.md), including B.1.5 for constituent and encompassing methods, C.11 for proportionate inquiry and C.36 for cultural continuation. The dependence is from ECO to Core.
 
-The [Engineering DPF Suite](https://github.com/ailev/FPF/blob/main/DPFs/Engineering%20DPF%20Suite/README.md) provides the external financial, accounting, operating, asset, organizational, corporate, explanation and capability-development method descriptions cited in the patterns. Their actual results must be obtained where the working case requires them. A conditional reference does not make every method a prerequisite for every ECO use.
+The Management Suite supplies the financial, accounting, operating, asset, organizational and corporate methods cited in the patterns. Explanation Design (EXD) supplies explanation methods, and Human Capability Development (HCD), in the Human Capability Engineering Suite, supplies human learning methods. Their actual results must be obtained where the working case requires them. A conditional reference does not make every method a prerequisite for every ECO use.
 
 The [Foundational Thinking DPF Suite](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/README.md) provides external methods for constructing and using mathematical, physical and computational models. Those methods are needed when the relevant model or interpretation is missing, not merely because the question is economic.
 

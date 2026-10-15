@@ -10,7 +10,7 @@
 
 Begin with the passage and the result you need. The Table of Contents supports direct use; the Readme shows selected combinations; the Architectural Reference explains their conditions, sources and architectural reasons. **RHY** is this framework's reference code. Its pattern numbers are addresses; the Parts group reading rather than prescribe work order.
 
-The framework belongs to the [Engineering DPF Suite](https://github.com/ailev/FPF/blob/main/DPFs/Engineering%20DPF%20Suite/README.md).
+Find this framework in the [FPF Library DPF catalogue](https://github.com/ailev/FPF/tree/main/DPFs).
 
 # Table of Contents
 
@@ -277,7 +277,7 @@ The resulting synthesis preserves differences that change an action instead of i
 
 ## RHY.Reference:12 - Relations, source return and renewal
 
-The framework belongs to the [Engineering DPF Suite](https://github.com/ailev/FPF/blob/main/DPFs/Engineering%20DPF%20Suite/README.md). Its relationships are contributions to particular uses:
+RHY draws on the following contributions when the particular use needs them:
 
 | Supplier | Contribution and receiving use |
 | --- | --- |
@@ -2575,7 +2575,7 @@ RHY.2 and RHY.5–RHY.6 supply the selected rhythmic structure and representatio
 
 This publication contains the fourteen methods of Embodied Rhythmics, RHY.1–RHY.14, with their connected use and source qualifications. The version shown at the beginning identifies the text being cited. Give the author, framework title, that version and the relevant PatternID or Architectural Reference address.
 
-The [Engineering DPF Suite directory](https://github.com/ailev/FPF/blob/main/DPFs/Engineering%20DPF%20Suite/README.md) provides the public carrier and its neighbouring frameworks. A local copy remains usable when links are unavailable; source-dependent or stronger claims retain the source-return conditions stated in the relevant pattern.
+The [DPF catalogue](https://github.com/ailev/FPF/tree/main/DPFs) locates this publication and related frameworks. A local copy remains usable when links are unavailable; source-dependent or stronger claims retain the source-return conditions stated in the relevant pattern.
 
 Original framework text is available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Attribute Anatoly Levenchuk, retain the license reference and identify your changes. Independently created DPFs and LPFs may choose their own licenses; reuse of protected expression follows its applicable terms.
 
