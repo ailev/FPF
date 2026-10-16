@@ -6,7 +6,12 @@ If you know the field, choose a Suite or framework below. If you only know the d
 
 Framework and method links open readable text on fpf.tools; **Markdown** links open the repository source. GitHub previews can truncate large files. Check the [displayed source edition](https://fpf.tools/status) when the version matters.
 
+## How the frameworks fit together
+
+**[Read the Library Architectural Reference](../FPF-LIBRARY-REFERENCE.md)** to understand why these disciplines are grouped into Suites, why other frameworks stand alone, and how to use contributions across their boundaries. Each Suite’s introduction also opens its own Architectural Reference: the explanation of that Suite’s composition, choices and limits. The tables below help you select publications; those accounts explain the arrangement.
+
 ## Suites
+
 
 A Suite brings together constituent disciplines and explains how their knowledge and practices work together. Open its folder for a task-oriented introduction, the framework files and its Architectural Reference.
 

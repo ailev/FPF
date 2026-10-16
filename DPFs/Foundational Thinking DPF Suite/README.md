@@ -6,7 +6,12 @@ A theorem, physical explanation, algorithm, interpreted model or usable notation
 
 Framework and method links open readable text on fpf.tools; **Markdown** links open the repository source. GitHub previews can truncate large files. Check the [displayed source edition](https://fpf.tools/status) when the version matters.
 
+## How this Suite is organized and why
+
+**[Read the Foundational Thinking Architectural Reference](FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md).** It explains why mathematics, physics, modeling, algorithms and notation have distinct frameworks, how their results constrain one another, and how they contribute to inquiry and further development. Read it for the overall design and its alternatives; use a familiar sufficient method directly when that is all your task needs.
+
 ## Choose an entry
+
 
 The following entries contain worked connections, not just pointers to smaller operations. Start from the contribution whose inputs are available; an example's presentation order is not a prescribed project sequence.
 

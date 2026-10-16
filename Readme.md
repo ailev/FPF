@@ -8,7 +8,13 @@ The Library is developing as a **methodology of open-ended development**. A resu
 
 You can also use one method for one calculation, design, decision or learning need and stop there. A completed task, a new procedure or learning a known method does not by itself establish continuing development.
 
-[Start using the Library](USING-FPF.md) · [Domain frameworks](DPFs/) · [FPF Core](https://fpf.tools/FPF) · [Library Architectural Reference](FPF-LIBRARY-REFERENCE.md)
+[Start using the Library](USING-FPF.md) · [Domain frameworks](DPFs/) · [FPF Core](https://fpf.tools/FPF)
+
+## How the Library is organized and why
+
+**[Read the Library Architectural Reference](FPF-LIBRARY-REFERENCE.md).** It explains why general methods belong to Core, why some disciplines form Suites while others have standalone frameworks, and how their contributions work together. Use it to get an overview, understand an apparent overlap or judge a proposed change. It is the explanation of the Library’s design, not a catalogue of filenames.
+
+For a familiar task, you can go straight to a suitable method below.
 
 ## Start with your work
 
@@ -36,7 +42,7 @@ The general methods are in **Core**: [connect development work (C.40.OD)](https:
 
 ## What is available
 
-**FPF Core** contains 397 patterns in 17.616 million characters. It supplies transdisciplinary concepts and methods, including methodological work and open-ended development. **33 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 23 belong to four Suites, and ten have their own files directly in the DPF catalogue.
+**FPF Core** contains 397 patterns in 17.617 million characters. It supplies transdisciplinary concepts and methods, including methodological work and open-ended development. **33 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 23 belong to four Suites, and ten have their own files directly in the DPF catalogue.
 
 A DPF describes one field through a connected pattern language. A **Suite** describes a composite discipline through its constituent fields and their relations. An **Architectural Reference** explains how the relevant language is arranged and why: within a framework, across a Suite, or across the Library.
 
@@ -49,7 +55,7 @@ A DPF describes one field through a connected pattern language. A **Suite** desc
 
 The [DPF catalogue](DPFs/) lists the ten further frameworks and opens each Suite's files. Suite totals sum their constituent framework texts; separate Suite References and README pages are excluded. Character counts include spaces and original line breaks. Counts describe the available material, not how much you must read before using it.
 
-The [Library Architectural Reference](FPF-LIBRARY-REFERENCE.md) explains the boundaries, alternatives and connections when you need to combine contributions or propose a change. For a familiar sufficient method, go directly to its pattern. The Library does not claim to exhaust the disciplines it covers: the current Human Capability Engineering Suite, for example, develops learning and somatic contributions, not all methods concerning a human being.
+The Library does not claim to exhaust the disciplines it covers: the current Human Capability Engineering Suite, for example, develops learning and somatic contributions, not all methods concerning a human being.
 
 ## Read online or use your own copies
 
@@ -75,7 +81,7 @@ README pages help you choose; full patterns teach the methods and state their co
 
 For a precise reference, retain the complete PatternID or section address and enough context to identify the publication. [Using FPF Library: resolve a portable reference](USING-FPF.md#resolve-a-portable-reference) explains how this works across files, search and MCP. You need not learn document codes before choosing what to read.
 
-For an issue or proposed improvement, identify the publication and passage, the working situation, what failed or remains unavailable, and the change you propose. Use the relevant Architectural Reference to understand the current design. The broader FPF ecosystem can include independently authored DPFs, local frameworks (LPFs), guides, tools and services; this repository publishes FPF Library.
+For an [issue or proposed improvement](https://github.com/ailev/FPF/issues), identify the publication and passage, the working situation, what failed or remains unavailable, and the change you propose. Use the relevant Architectural Reference to understand the current design. The broader FPF ecosystem can include independently authored DPFs, local frameworks (LPFs), guides, tools and services; this repository publishes FPF Library.
 
 ## Author, status and reuse
 

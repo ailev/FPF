@@ -6,7 +6,12 @@ The undertaking can be a company, public service, temporary collaboration or vol
 
 Framework and method links open readable text on fpf.tools; **Markdown** links open the repository source. GitHub previews can truncate large files. Check the [displayed source edition](https://fpf.tools/status) when the version matters.
 
+## How this Suite is organized and why
+
+**[Read the Management Architectural Reference](MANAGEMENT-DPF-SUITE-REFERENCE.md).** It explains why strategy, commitments, operations, resources, communities and organizational change belong in one connected management account, what each contributes, and which related disciplines remain outside this Suite. Read it for the overall design and its alternatives; use a familiar sufficient method directly when that is all your task needs.
+
 ## Choose an entry
+
 
 | Your question | Open |
 | --- | --- |

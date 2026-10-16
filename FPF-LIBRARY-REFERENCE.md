@@ -5,7 +5,7 @@
 **Architecture and connected use of the Library's pattern languages**
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development
-- **Date:** 14 October 2026
+- **Date:** 16 October 2026
 - **Use:** Understand the Library's architecture, select the appropriate level of explanation and preserve the relations between contributions from different fields.
 - **Source return:** [FPF Core](FPF-Spec.md), the [domain-framework catalogue (Domain Principle Frameworks)](DPFs/README.md) and the full publications linked below.
 
@@ -54,6 +54,7 @@ This Reference explains how that language is organized and why its boundaries ma
 - [Publications, access and changes of boundary](#libraryreference11---publications-access-and-changes-of-boundary)
   - [Document identities and current carriers](#libraryreference111---document-identities-and-current-carriers)
 - [The Library and its wider ecosystem](#libraryreference12---the-library-and-its-wider-ecosystem)
+- [What grounds the architecture and its methods](#libraryreference13---what-grounds-the-architecture-and-its-methods)
 
 ## Library.Reference:1 - One connected language, several kinds of whole
 
@@ -545,5 +546,22 @@ Public architectural reasons belong where they help readers understand and adapt
 The resulting architecture offers common meanings and reusable general Methods, specialized constructive knowledge and explicit ways to connect them. It also leaves meaningful limits visible: field coverage can be incomplete; source grounds can be disputed or dated; a necessary supplier, capability or authority can be absent. A sufficient answer can be used directly. An unresolved contribution remains a particular work question, rather than being supplied by another label, file or larger diagram.
 
 Original content is published under the terms stated in [LICENSE](LICENSE) and [Licensing FPF Library](LICENSING.md). For a specific Method or architectural claim, cite the supplying publication, its edition and PatternID or section address. Cite this account as *FPF Library Architectural Reference*, using the date at its entry and a `Library.Reference` section when needed.
+
+## Library.Reference:13 - What grounds the architecture and its methods
+
+The division explained in sections 3–6 is an architectural synthesis of this Library. It preserves general constructions in Core, the different subjects and warrants of domain Methods, and the connections that make a Suite useful. The alternatives are consequential: one large framework would still need those distinctions; an unstructured collection would leave readers to reconstruct its shared conditions. These reasons support the selected publication and language architecture. They are not a finding that one universal disciplinary taxonomy has been empirically proved best.
+
+The source question changes with the claim. A professional association can help identify a field without showing that its usual method is the strongest available answer. An experiment can support a method under particular conditions without establishing a whole Suite’s effectiveness. A new tool can change the practical division of work without changing the discipline of the result it supplies. The Library keeps these claims separate so that readers can examine the premise that matters to their use.
+
+| Architectural question | Where the grounds and alternatives are explained |
+| --- | --- |
+| Why connect these engineering contributions while keeping organizational and human specializations distinct? | [Engineering.Reference:0](DPFs/Engineering%20DPF%20Suite/ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference0---engineering-specialization-and-maintenance) explains the subjects and connections; the supplying DPFs give the technical method comparisons. |
+| How do changes in human and AI work affect management without making source prestige the test of a method? | [Management.Reference:8](DPFs/Management%20DPF%20Suite/MANAGEMENT-DPF-SUITE-REFERENCE.md#managementreference8---field-basis-and-further-reading) separates field recognition from comparisons of arrangements and their observed consequences. |
+| Why distinguish mathematical, physical, modeling, computational and notational contributions? | [Foundational.Reference:6–7](DPFs/Foundational%20Thinking%20DPF%20Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md#foundationalreference6---architectural-rationale) compares alternative wholes and explains the adopted source contributions, including their limits. |
+| Why distinguish changing a person’s capability from obtaining an answer through assistance? | [HCE.Reference:8](DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-ENGINEERING-DPF-SUITE-REFERENCE.md#hcereference8---what-grounds-the-subject-and-the-name) connects that boundary to contrasting learning evidence and the full HCD and SOM source accounts. |
+
+For example, [Vaccaro, Almaatouq and Malone’s 2024 meta-analysis](https://doi.org/10.1038/s41562-024-02024-1) distinguishes improvement over a human alone from improvement over the better of human and AI alone. The distinction changes the arrangement comparison in OCE.8: adding a performer is not presumed beneficial. It does not establish the best organization for every activity or a new Suite membership. The relevant whole still has to obtain its intended result under its actual costs and conditions.
+
+An affected Method’s source comparison states the working question, competing answers, useful difference, limits and conditions for reconsideration. The account at the next assembly level explains what that difference changes in their combination. This is the role of SoTA here: a defensible answer to a particular question, open to a stronger rival or counterexample. It is not a single rank attached to every publication in the Library. A missing comparison remains a limitation on the affected claim even when the rest of the language is usable.
 
 ## Library.Reference:End

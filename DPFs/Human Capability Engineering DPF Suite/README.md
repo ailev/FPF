@@ -6,7 +6,12 @@ The person is the holder whose capability changes. A teacher, AI assistant or pr
 
 Framework and method links open readable text on fpf.tools; **Markdown** links open the repository source. GitHub previews can truncate large files. Check the [displayed source edition](https://fpf.tools/status) when the version matters.
 
+## How this Suite is organized and why
+
+**[Read the Human Capability Engineering Architectural Reference](HUMAN-CAPABILITY-ENGINEERING-DPF-SUITE-REFERENCE.md).** It explains why learning and somatic change are connected here, what makes this an engineering specialization, and which needs require other fields. The two available frameworks do not cover every kind of human change. Read it for the overall design and its alternatives; use a familiar sufficient method directly when that is all your task needs.
+
 ## Choose an entry
+
 
 | Your question | Open |
 | --- | --- |

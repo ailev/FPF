@@ -6,7 +6,12 @@ A task can finish with a sufficient analysis, design, recommendation or justifie
 
 Framework and method links open readable text on fpf.tools; **Markdown** links open the repository source. GitHub previews can truncate large files. Check the [displayed source edition](https://fpf.tools/status) when the version matters.
 
+## How this Suite is organized and why
+
+**[Read the Engineering Architectural Reference](ENGINEERING-DPF-SUITE-REFERENCE.md).** It explains how systems engineering, maintenance, knowledge access and semantic integration fit together, why organizational and human specializations have their own Suites, and how these contributions meet in a working system. Read it for the overall design and its alternatives; use a familiar sufficient method directly when that is all your task needs.
+
 ## Choose an entry
+
 
 | Your question | Open |
 | --- | --- |
