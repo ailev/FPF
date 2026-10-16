@@ -102823,6 +102823,11 @@ An informed change proposal supplies an additional test of that understanding. A
 
 #### E.11.DSG:4.2 - Make the public minimum immediately useful
 
+Make the account noticeable from the ordinary entrance to the explained language. A reader who does not know that an architectural explanation exists must be able to recognize its purpose before searching for its title. In a README or equivalent entrance, offer a prominent, ordinary-language question such as “How is this language organized and why?”, link directly to the account, and state what it explains. Place that choice where readers first choose how to enter, alongside the route to a known Method. A link buried among filenames or offered only as an extra worked example does not communicate that purpose.
+
+Test this entrance from the reader's starting situation, without supplying the Reference's name or destination as the answer. Can the reader notice that the explanation exists, tell what question it answers, and choose it when the arrangement is unclear? Can someone with a familiar sufficient Method still proceed directly? Successful filename search or link resolution answers a different question.
+
+
 Make these facts recoverable before the reader chooses an entry. An embedded architectural reference can use the containing publication's edition, date, status and ToC wherever they already identify this unit and its content; do not repeat that front matter or constitute a separate edition solely for the account. A separately carried unit exposes the necessary facts at its own entrance:
 
 - the qualified architectural-reference title and exact edition locator;
@@ -102934,7 +102939,7 @@ In both cases the author first explains an arrangement that the user needs to ap
 
 | ID | Passing condition |
 | --- | --- |
-| `CC-DSG.1` Useful entrance | A cold reader can identify the explained whole, purpose and route into its architecture. Each problem-led entry exposes the working situation, practical question, useful answer or blocker, exact contributions, and stop or return before internal apparatus. |
+| `CC-DSG.1` Useful entrance | From the ordinary entrance, a cold reader who was not given the Reference title can notice that an architectural explanation exists, identify the explained whole and its purpose, and choose that route. A familiar sufficient Method remains directly usable. Each problem-led entry exposes the working situation, practical question, useful answer or blocker, exact contributions, and stop or return before internal apparatus. |
 | `CC-DSG.2` Whole and source return | The architectural reference identifies its subject and edition, supplies the whole's architecture and returns to the full supplying Methods or evidence. For a Suite, constituent frameworks and external suppliers remain distinct. Edition detail appears when the receiving use needs it. |
 | `CC-DSG.3` Different subjects and boundaries | Discipline, Suite edition, constituent DPFs, external frameworks, supporting Reference, available results, MethodDescriptions, lookup Work, answer, publication and access remain distinct. The Reference's product boundary follows its actual use and change needs. |
 | `CC-DSG.4` Progressive detail | Date and actionable status are visible; author, evidence, relation, product-series state, warning, and reopen detail appears only when it changes reader action, truth, or named reliance. |
@@ -102951,6 +102956,7 @@ In both cases the author first explains an arrangement that the user needs to ap
 
 | Misuse | Why it fails | Repair |
 | --- | --- | --- |
+| Unnoticed architectural account | The file and its links work, but the entrance never tells readers that the language’s arrangement is explained or why that explanation matters. | Offer the architectural question and its direct answer at the point of choosing a reading route; test recognition from that entrance, not only retrieval by a supplied title. |
 | DPF list as Reference answer | Titles do not say whether an entry returns an available result, a MethodDescription, source evidence, or a missing result, nor what it contributes. | State the question, classify each return, name its direct contribution or blocker, and stop or return. |
 | Reference hides an unwritten Method | A short answer or application supplies a Solution without a recognizable problem, construction, conditions and cases. | Develop the Method under E.8 in its proper Core, DPF or Suite-level pattern; retain the architectural explanation and a direct return to that Method in the architectural reference. |
 | Reference performs lookup | Publication content is mistaken for dated Work or an operation application. | When a direct claim needs lookup Work, use A.13 to identify its actual performer and A.15.1 to admit the dated occurrence independently. If the claim must also identify the assignment under which the lookup was performed, check that relation separately through F.6. Keep the Method and any A.6.1 application bindings separate. |
