@@ -376,6 +376,8 @@ State what the recipient must connect. In a pooled mean, each group mean multipl
 
 Use a real case when its evidence and complexity fit. A constructed case is useful when its assumptions and answer criterion can be made explicit. Identify which it is.
 
+Choose the example's role in the whole explanation as well as its local correctness. Recover the relations and grounds owed to the recipient from the subject and requested use. A case can help discover them; it cannot silently limit them to what happens in that case. Keep a sufficient direct account when an illustrative instance supplies no additional needed connection. If the account itself is missing, return to its subject source or construction rather than expanding a story in its place.
+
 #### EXD.2:4.2 - Work the correspondence, not only the answer
 
 Show the intermediate quantities, relations and conditions needed to obtain the result. Connect each significant step to the claim: which quantity instantiates which part, why this operation is legitimate, and what condition makes the inference usable.
@@ -396,7 +398,11 @@ Use [EXD.5](#exd5---guide-a-recipients-own-explanation) when a recipient's own a
 
 State the admissible correspondence and the nearest consequential limit. A branch can be a unit in one aggregation question and contain several equally weighted people in another. The same data then support different summaries.
 
-Retain the smallest example or pair that supplies the needed distinction. Add another case only when it can reveal a remaining wrong generalization or support the intended next use. An example is evidence of the particular relation it demonstrates; claims about learning from it need the recipient evidence appropriate to that claim.
+Retain the smallest example or pair that supplies the needed distinction. Add another case only when it can reveal a remaining wrong generalization or support the intended next use.
+
+Continue the same case across explanations when carrying its state, earlier result or known circumstances helps the next connection. At each return, compare that benefit with the relations the next explanation must supply. Change or end the case when it makes an alternative, important condition or claimed kind of application disappear. The account can remain connected through its question and reasoning while its examples change. A varied number inside the same story may test a calculation without testing the wider scope of a general Method.
+
+Judge the resulting explanation by what the recipient can recover and use at the promised scope: the relation, its reason, its conditions and a consequential changed use. Recalling the story or obtaining its correct answer is a narrower result. Repair any missing content even if the illustration is clear. An example is evidence of the particular relation it demonstrates; claims about learning from it need the recipient evidence appropriate to that claim.
 
 ### EXD.2:5 - Archetypal Grounding
 
