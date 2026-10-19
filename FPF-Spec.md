@@ -123,7 +123,7 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | A.1.1 | **Bounded Model-Use Structure: Applicability, Use and Expression Coherence (DDD Bounded Context)** | Stable | Use when a present engineering decision depends on the organization of where one exact model applies, how it is actually used in assigned Work, and whether a concrete expression still agrees with the model's fixed content. Recover the direct relations first; select `BoundedModelUseStructure` only when their joint organization changes the decision. A proposed crossing stays outside until its claim satisfies a compatible direct relation predicate. Keeps the DDD plain name “bounded context” while separating the selected `U.Structure` from systems, Work, epistemes, descriptions, views, representations, and publications. *Queries:* "Which exact applicability, actual-use, and fixed-content coherence facts matter here?", "Do their governed occurrences form one decision-relevant structure?", "Which context object and crossing relation, if any, are actually grounded?" | **Builds on:** A.1, A.22, C.2.1, A.2.6, A.6.REL. **Coordinates with:** A.2, A.2.1, A.3.1, A.3.4, A.14, A.15.1, A.15.PROD, F.9, E.17.0, C.29, E.24.PUB, C.2.P, A.6.0, A.6.5, F.17, F.18. |
 | A.1.SCR | **Finding the Acting or Changed System** | Stable | Use when a decision depends on which entity acts, changes, persists, carries a capability or is proposed as the project target. Keep the proposed subject; distinguish a local system-of-interest from the common target. Resolve a different kind of claim through its governing pattern and evaluate systemhood only when the decision depends on it. *Queries:* "Which exact entity acts or is intended to change?", "Is this proposed whole a System?", "Does the phrase instead name Work, Method, capability, episteme, structure or another relation?" | **Builds on:** A.1. **Routes service and access wording through:** A.6.P:4.11a. **Coordinates with:** A.15.6, A.1.STM, A.6.RCD, E.10, F.18 and the patterns governing the resulting claims. |
 | A.1.CSD | **Discovering Systems That May Bear Consequences** | Stable | Use when proposed or observed Work, realization, operation, use, maintenance, failure, policy, or change may alter Systems omitted from a current decision or investigation. Name the exact focus and receiver, trace supported direct-relation occurrences separately from modal path claims, challenge the boundary, recover exact holons rather than a level ladder, and return the smallest ordinary `C.2.1` affected-System consequence account that serves the decision with a qualified claim, constraint, alternative, material unknown, or stop. Further discovery is selected for its obtainable contribution and whole programme burden. *Queries:* "Which other Systems may undergo a relevant change?", "Which path actually obtains and which remains modal?", "What does the current account support, and which further discovery is worth obtaining?" | **Builds on:** A.1, C.2.1, A.14, B.1, B.1.2, C.13. **Coordinates with:** A.1.SCR, B.2/B.2.2, A.6.RCD, A.10, C.27, C.28, C.29, C.30.ILC, C.11.DUA, A.15.9, C.11.CRC, C.11, and D.1 only when its later value-frame question is current. |
-| A.1.STM | **Keep the Common Project Target in View (System-Thinking Long Mantra)** | Stable | Agree which system the project must make successful in its intended use and explain how local contributions reach that result. Reason from outside effect to functioning, construction, Methods and capable creators; revisit dependent decisions and agreement when the basis changes. A narrower mode locates the first unsupported dependency when the shared basis is sufficient. *Queries:* "Are participants working toward the same target?", "How does our component, model or builder contribute to it?", "Which premise or dependency needs work next?" | **Builds on:** A.1, A.1.SCR, A.15.6. **Coordinates with:** C.32.P2S, the C.30 family, A.2, A.2.1, the A.3 and A.15 families, E.18, E.18.NET, A.10, B.3, C.28 and A.22.CGUS. |
+| A.1.STM | **Connect Project Reasoning (System-Thinking Long Mantra)** | Stable | Connect intended use, functioning, construction, obtaining Methods and creator cooperation into a project account whose answers can be used together. Establish the common target, expose incompatible local assumptions, compare repairs and revise affected answers and agreement. The mantra teaches these dependencies; it is not a fixed work sequence. A narrower mode locates the first unsupported dependency. *Queries:* "Are participants working toward the same target?", "How does our component, model or builder contribute to it?", "Which premise or dependency needs work next?" | **Builds on:** A.1, A.1.SCR, A.15.6. **Coordinates with:** C.32.P2S, the C.30 family, A.2, A.2.1, the A.3 and A.15 families, E.18, E.18.NET, A.10, B.3, C.28 and A.22.CGUS. |
 | A.2 | **System-Role Kinds and Assignments** | Stable | *Keywords:* system-role kind, local System classification, `U.SystemRoleAssignment`, holder System, assignment, work-facing contribution, ambiguous role wording. *Queries:* "Which local system-role kind classifies this System?", "Does an assignment actually obtain, or is this only classification?", "Does role wording instead name participation, a slot, responsibility, capability, Work, or ordinary language?" | **Builds on:** A.1, C.3, C.3.1, C.3.2, A.6.REL. **Leads to:** A.2.1, A.2.5, A.2.7, A.15, F.4-F.6. **Coordinates with:** E.10.ROLE, A.6.RSIR. |
 | A.2.1 | **`U.SystemRoleAssignment` - Contextual System-Role Assignment** | Stable | *Keywords:* direct assignment species, holder System, system-role kind, assignment predicate, identity, maximal interval, `performedUnderAssignment`. *Queries:* "Does this exact System hold this system-role assignment?", "Which direct assignment species and predicate make it obtain?", "Did the assignment persist, or did a participant or predicate change?" | **Builds on:** A.2, A.6.REL, A.6.5, C.2.1. **Coordinates with:** A.2.2, A.2.5, A.2.7, A.15.1, F.6. |
 | A.2.2 | **System Capability: Conditions, Measures and Fit** | Stable | *Keywords:* holder ability, work conditions, attained bounds, support, qualification, currentness, capability fit, Method-relative capability, usable Method structure. *Queries:* "Can this System do the required work?", "Which parts of this Method can the holder use with the available help?", "Did ability, its support or the receiving demand change?" | **Builds on:** A.1, C.2.1, A.2.6. **Informs:** A.15, A.2.3, E.23.CDI. |
@@ -374,7 +374,8 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | C.31 | **Modularity and Reusable Structure Characteristics** | Stable | *Keywords:* modularity characteristics, reusable-structure characteristics, coupling, cohesion, substitutability, interface variation, evidence reuse, bespoke residue, ModularityVectorLite. *Queries:* "Which modularity characteristics change the next architecture repair?", "What improves and what gets worse when we change this structure?", "When does this modularity claim need measurement or comparison?" | **Builds on:** C.16, A.17, A.18, A.19, C.25, C.30, C.30.ASV. **Coordinates with:** A.6.M, C.31.RSA, C.31.ASAP, C.32, C.29, A.10, B.3, G.5, C.11. |
 | C.31.RSA | **Reusable Structure Accounting** | Stable | *Keywords:* reusable-structure accounting, reusable share, bespoke residue, accounting basis, report-only share, source return, refactoring opportunity. *Queries:* "Where is reusable structure located?", "When is a reusable share only report-only?", "What gets worse when we increase reuse?" | **Builds on:** C.31, C.30, C.30.ASV, C.16, A.19. **Coordinates with:** A.6.M, C.31.ASAP, C.29, A.10, B.3, G.6, C.27, C.28, G.5, C.11. |
 | C.31.ASAP | **Which Architecture Is Preferable Under Scale? (Scale Amenability)** | Stable | *Keywords:* architecture scale preference, scale amenability, scale variable, scale window, architecture alternatives, exception growth, waiver, scale probe, coarse-graining. *Queries:* "Which architecture structure remains stable or improves over the declared scale window?", "What evidence or no-probe reason supports the preference?", "When does a local constraint justify an exception?" | **Builds on:** C.31, C.31.RSA, C.16, A.17, A.18, A.19, C.18.1, C.19.1, C.29. **Coordinates with:** C.32, C.32.PAD, A.6.M, C.30, C.30.ASV, C.30.LCA, C.30.ILC, A.10, B.3, G.6, G.5, G.9, C.11. |
-| C.32 | **Architecture Candidate Synthesis** | Stable | *Keywords:* architecture candidate synthesis, CandidateArchitecturePalette@Project, selected structures, architecture characteristics, selected-structure contribution rows, candidate configurations, trade-off front, retained alternatives. *Queries:* "How do I synthesize candidate architecture configurations before comparison?", "Which selected structures and architecture characteristics change?", "When should several practice structures go to C.32.MWA instead?" | **Builds on:** C.30, A.22, A.6.F, A.6.M, C.16, C.25, C.31, C.30.ILC. **Coordinates with:** C.32.MWA, C.32.P2S, C.32.HCS, C.32.ACS, C.32.ACE, C.32.CONWAY, C.32.MLAO, C.32.FAIL, C.32.PAD, A.19.CPM, A.19.SelectorMechanism, C.18, C.19, G.5, C.11, A.10, B.3. |
+| C.32 | **Architecture Candidate Synthesis** | Stable | *Keywords:* architecture candidate synthesis, CandidateArchitecturePalette@Project, selected structures, architecture characteristics, selected-structure contribution rows, candidate configurations, trade-off front, retained alternatives. *Queries:* "How do I synthesize candidate architecture configurations before comparison?", "Which selected structures and architecture characteristics change?", "When should several practice structures go to C.32.MWA instead?" | **Builds on:** C.30, A.22, A.6.F, A.6.M, C.16, C.25, C.31, C.30.ILC. **Coordinates with:** C.32.LCA, C.32.MWA, C.32.P2S, C.32.HCS, C.32.ACS, C.32.ACE, C.32.CONWAY, C.32.MLAO, C.32.FAIL, C.32.PAD, A.19.CPM, A.19.SelectorMechanism, C.18, C.19, G.5, C.11, A.10, B.3. |
+| C.32.LCA | **Construct and Compare a Control Architecture** | Stable | Construct how observations, decisions and interventions obtain a result together under information, time, resource and authority constraints. Compare arrangements, preserve joint conditions and return infeasibility to revision of the goal or means. *Queries:* "How should planning, correction and coordination work together?", "Which division of decisions fits the available information and time?" | **Builds on:** C.32, B.2.5, A.3.3.PI, C.32.MWA.PP. **Uses:** C.30.LCA for the distinct question of control-view adequacy. |
 | C.32.P2S | **Problem-to-Structure Architecturing Unfolding** | Stable | Carry an external-use hypothesis through architecture pressure, structural uncertainty, candidate and selected structures, decision, realization Work and feedback. Keep the local architectural subject connected to the project's common target; use A.1.STM to recover an unsettled shared basis without reopening adequate local answers. *Queries:* "What outside change and use justify this architecture?", "How does this component or builder contribute to the common target?", "What functioning hypothesis must be understood before choosing internal structure?" | **Builds on:** A.1, A.1.SCR, A.15.6, A.1.STM when needed, C.22.2, A.22, the C.30 and C.32 families, C.33–C.35, C.25, C.31, C.29, E.17 and E.24.PUB. **Coordinates with:** the patterns governing selection, decision, Work, transformation, evidence, publication, feedback, refresh and repair. |
 | C.32.HCS | **Architecture-Bearing Family Characteristic Starter Packs** | Stable | *Keywords:* architecture-bearing family, Method, Work, System, starter characteristics, domain transfer. *Queries:* "Which qualities matter for this Method, performed Work or System?", "How do bearer kind, domain and concrete use change the starter questions?", "When do these heads pass to ACS?" | **Builds on:** C.32, C.25, C.16, E.13. **Coordinates with:** E.10.ROLE, C.32.ACS, C.32.ACE, C.30, C.31, A.19, G.5, C.11, C.32.PAD. |
 | C.32.ACS | **Architecture Characteristic Criteria Set** | Stable | *Keywords:* architecture criteria, required result, structural alternatives, attainable observation, Q-Bundle, proxy risk, protected qualities. *Queries:* "Which quality is relevant to this architecture decision?", "Which few indicators guide improvement while all necessary guardrails remain?", "How do criteria feed evaluation and synthesis?" | **Builds on:** C.32.HCS, C.25, C.16, E.13. **Coordinates with:** C.32, C.32.ACE, C.32.PAD, E.22, E.23, A.19.CPM, G.5, C.11, A.10, B.3. |
@@ -1083,9 +1084,9 @@ A quick three-way test is: **same TFS, different valuation; one parent-relative 
 
 FPF can repeat this use as the project changes: ask the current question, compare when needed, inspect a direct pattern description, use its action- or judgement-guiding content, retain the exact subject result and direct basis—or a truthful stop when that basis is missing—and reconsider when a stronger claim, changed basis, or unresolved relation becomes current. Recover a separate Method identity only when the `Solution` actually describes one and the current claim depends on it.
 
-A **mantra** is Plain didactic wording for a repeatable working reminder. It helps the reader recognize a relevant difficulty, recall a useful contribution and find the pattern that supplies it. A **local mantra** keeps one bounded result, often one pattern's contribution, in attention. A **long mantra** keeps the dependencies from a recognizable difficulty to a more distant intended result, its checking and later use across several patterns. A.6.P's reminder to recover a relation, its participants and its defining `ClaimGraph` is local; A.1.STM's map from outside use to recursive builders is long. Phrase length does not decide the scope.
+A **mantra** is Plain didactic wording for a repeatable working reminder. It helps the reader recognize a relevant difficulty, recall a useful contribution and find the pattern that supplies it. A **local mantra** keeps one bounded result, often one pattern's contribution, in attention. A **long mantra** keeps connected reasoning across several areas of knowledge in attention: its questions, grounds, mutually constraining answers, alternatives and returns. It may connect several patterns or several relevant contributions within a larger account. The developed explanation makes those connections understandable; the short formula recalls them. A.6.P's reminder to recover a relation, its participants and its defining `ClaimGraph` is local; A.1.STM's map from outside use to recursive builders is long. Phrase length does not decide the scope.
 
-For a group of jointly used patterns, a mantra works like a table of contents that also reminds the reader how their contributions connect. Its phrases may address the patterns through their `Problem frame` or `Problem`, or through their `Solution`. A question can recall what remains unresolved; an action phrase can recall how to obtain the needed result. Both can point to the same pattern use. For example, these two formulations recall the same contributions to the report-review inquiry developed in §16.1:
+For a group of jointly used patterns, a long mantra can be read as a compact statement of how their subject knowledge fits together. It is more than a table of contents: readers need to understand why an answer constrains another, which answers must hold together, and what changes when a premise fails. A useful explanation may therefore need substantial connected prose as well as direct returns to full pattern bodies. Knowing their names or reaching one locally useful result does not establish that understanding. Its phrases may address the patterns through their `Problem frame` or `Problem`, or through their `Solution`. A question can recall what remains unresolved; an action phrase can recall how to obtain the needed result. Both can point to the same pattern use. For example, these two formulations recall the same contributions to the report-review inquiry developed in §16.1:
 
 | Difficulty or question recalled | Contribution recalled | Pattern |
 | --- | --- | --- |
@@ -1095,7 +1096,7 @@ For a group of jointly used patterns, a mantra works like a table of contents th
 
 Use whichever formulation the intended reader can recognize and apply. A pattern whose title names a difficulty can still be recalled through its Solution. Wording such as “find what the trial establishes” can state both the difficulty and the action intended to resolve it; clarify the difference only when it changes the next useful action. There is no need to give both formulations every time.
 
-A long mantra may arrange these contributions as a happy path for teaching: a deliberately simplified unfolding that makes their connections easy to follow. The order teaches those connections, not a required sequence of performed work. Enter where the needed result is absent, stale, disputed or unsupported. Reuse an adequate result, return when its conditions change, and stop when the intended result is available. On a diagram, name the teaching use and the omitted branches or returns that matter to its intended use; return to the fuller account when those omissions can change the choice. A customer-journey mantra, for example, may show one route to useful product use while omitting a return from an agreed purchase to securing missing operating support.
+A long mantra may arrange these contributions as a logical teaching unfolding that makes their connections easy to follow. A selected happy path can help, but it is not the whole reasoning structure: material alternatives, shared constraints and returns remain part of the developed account. The order teaches those connections, not a required sequence of performed work. Enter where the needed result is absent, stale, disputed or unsupported. Reuse an adequate result, return when its conditions change, and stop when the intended result is available. On a diagram, name the teaching use and the omitted branches or returns that matter to its intended use; return to the fuller account when those omissions can change the choice. A customer-journey mantra, for example, may show one route to useful product use while omitting a return from an agreed purchase to securing missing operating support.
 
 Keep this reminder, the possible continuations it describes, a work plan and the observed work history distinct. A.22.CGUS applies when the underlying structure has the required constituents, relations, constraints, local loci and potential continuations; a shown traversal of a qualified structure may then be a `DemonstrativeUnfoldingSlice@Context`. Qualification concerns that structure, not whether its labels are questions or solution phrases. Ordinary local and long mantras require no formal CGUS qualification. Use `A.1.STM` when the difficulty concerns the system-thinking long map; use `E.10.MOVE` only when wording about a mantra move still hides the intended contribution or claim.
 
@@ -4010,7 +4011,7 @@ These sources converge on path tracing, boundary challenge, proportional inquiry
 
 ### A.1.CSD:End
 
-## A.1.STM - Keep the Common Project Target in View (System-Thinking Long Mantra)
+## A.1.STM - Connect Project Reasoning (System-Thinking Long Mantra)
 
 > **Type:** Part A practitioner application pattern
 > **Status:** Stable
@@ -4018,23 +4019,23 @@ These sources converge on path tracing, boundary challenge, proportional inquiry
 
 **Plain name.** Use the system-thinking long mantra.
 
-*Long mantra* and *attention map* are Plain names for a repeatable reminder and its readable dependency display.
+*Long mantra* and *attention map* are Plain names for a repeatable reminder and its readable display of connected questions. The developed account connects knowledge about use, functioning, construction, creation and cooperation. Its short wording helps keep that account in attention; it does not supply the knowledge that the account needs.
 
 ### A.1.STM:0 - Practitioner entry
 
-**Use this when.** Use this pattern when participants need a common systemic account of a project: which system they intend jointly to create, change, sustain or retire, why its use matters, and how different teams' results help obtain that outcome. Use it when participants say "our system" but mean a component, a provider organization, a tool or the common target without noticing the difference. A narrower use is to locate the first unsupported dependency when that common basis is already usable.
+**Use this when.** Use this pattern when participants have knowledge about parts of a project but need to connect it into one systemic account: what should change in use, which system can make that difference, how it could function and be constructed, how it can be obtained, and how its creators can work together. Their answers must fit together, not merely be plausible separately. Establishing the common project target is one necessary part of that reasoning. Use the pattern also when participants say "our system" but mean a component, a provider organization, a tool or the common target without noticing the difference. A narrower use is to locate the first unsupported dependency when the connected account is already sufficient.
 
-**First useful move.** Ask the participants whose decisions govern the result to describe the system in its intended use: what should become different or remain possible for whom, what system is expected to make that difference, and where its boundary lies. Compare the answers before choosing its internal construction or its builders. If that basis is already shared, take the current local result and name the next fact or justified prospective dependency connecting it to the common target's creation, change or use; then use section 4.4 to locate the first gap.
+**First useful move.** Take the project question now at issue and recover its connection to the intended use: what should become different or remain possible for whom, what system is expected to make that difference, and where its boundary lies. Ask the participants whose decisions govern that result to compare their answers. Use section 4.1 when the common basis is unresolved. When it is already shared, use section 4.3.1 to connect the current answer with the other choices it constrains and the choices on which it relies. Section 4.4 supplies the narrower first-gap inquiry when that is the missing result; there is no requirement to restart every investigation at the beginning of the reminder.
 
 **Memorable reminder.**
 
-> Agree what system must succeed for the project, for whom and in what use. From the needed outside effect, reason to functioning and its role, then to construction, then to methods of making or changing it, then to capable creators and their tools. Repeat for what those creators need. Keep the common target in view while attention moves to a local subject. Follow results forward to their receiving use; when a supporting hypothesis changes, revisit its consequences and renew the affected agreement.
+> Agree what system must succeed for whom and in what use. Connect the needed outside effect, functioning, construction, ways of obtaining it, capable creators and their cooperation. Repeat for the creators that must themselves be obtained. Make the answers fit together while keeping the common target in view. Follow results into use; when a premise changes, revise the answers that depend on it and renew the affected agreement.
 
 This is the Plain long mantra. Section 4 explains why the questions connect and how to use the reminder without treating it as a fixed work sequence.
 
 **Not this pattern when.** A known local system-recognition, service/access, architecture, Method, Work, transformation, evidence or closure question can be answered through its subject pattern. Such a result need not reopen the whole project account. Use this pattern when the common basis or the connection to it is itself at issue.
 
-**What this buys.** Participants can agree a working target and use hypothesis, distinguish it from their own local subjects, justify choices along the dependency, and locate the next unsupported answer. The result can remain ordinary prose and existing project descriptions; no new universal project record is required.
+**What this buys.** Participants can form and criticize a connected project account, justify why its choices belong together, find a consequential incompatibility or missing answer, and revise the affected part without losing the whole. They distinguish the shared target from their local subjects and preserve valid local results. The account can remain ordinary prose and existing project descriptions; no new universal project record is required.
 
 ### A.1.STM:1 - Problem
 
@@ -4042,7 +4043,7 @@ Division of labour lets different participants work on components, methods, desc
 
 Systemic project reasoning therefore needs a common **project target system**: the system whose intended functioning, change or cessation in its environment organizes the participants' joint undertaking. This is a role of a system in that undertaking, not an intrinsic system type or a new U-kind. Its role must be identified even while its future holder is only described. "Which system interests me in this investigation?" is a broader question: the answer may be a test rig or builder whose improvement is only a contribution to the common target.
 
-A project can also get every nearby statement locally right and lose the long dependency. One team improves a component, another produces a builder, and another measures operation, yet nobody can show how those results are expected to reach the target's use or which actual relations now connect them. A diagram arrow, the word *creates*, or a calendar sequence can hide that gap.
+A project can also get every nearby statement locally right and lose the long dependency. A functioning argument can assume one construction while the creation plan can supply only another; capable contributors can require incompatible shared resources. Agreement on the target does not by itself make these answers jointly usable. One team improves a component, another produces a builder, and another measures operation, yet nobody can show how those results are expected to reach the target's use or which actual relations now connect them. A diagram arrow, the word *creates*, or a calendar sequence can hide that gap.
 
 The opposite failure is to turn the reminder into a universal route. Then every result becomes a System, a plan becomes an existing holder, project Work becomes a network, and every arrow appears to be the same relation. A.1.STM develops the shared systemic reasoning while leaving each local truth with its subject pattern.
 
@@ -4113,20 +4114,41 @@ Design reasoning also works with types, variants and repeated provision. A proje
 
 #### A.1.STM:4.3 - Derive the long mantra from the intended use
 
-The questions below follow a dependency of justification. Each answer supplies a reason for the next choice; a later answer can expose a defect in an earlier one.
+The order below teaches the reasons for connecting the questions. An answer supplies requirements, possibilities or limits for other answers; it rarely determines them uniquely. Later construction or capability knowledge can reopen the proposed functioning or use. The project account is assembled by resolving these mutual constraints, not by completing each line once.
 
 1. **From outside need to target functioning.** Describe the change or maintained condition required in the target's environment, then ask what the target must do under the intended conditions for that result to be possible. Work through a use scenario. A required effect becomes a functioning hypothesis to investigate; it does not establish an actual effect.
 2. **From functioning to functional role and construction.** Name the function-bearing role only after its contribution is understood. Compare constructions and materials that could realize it. This is why starting with a favourite component or organization can mislead: its properties matter through the functioning they permit. C.32.P2S and the C.30 family develop the outside-use-to-architecture choice; A.1.SCR tests an actual proposed whole when systemhood matters.
 3. **From construction to ways of obtaining it.** Determine what must be produced, assembled, changed, learned, verified or maintained for the proposed construction to support the intended use. Compare the necessary Methods and their subject matter. For example, choosing a welded assembly, a learned controller or a different service arrangement changes the ways and capabilities needed to obtain it. A.3.1 and the A.15 family distinguish the reusable way, intended work, performed work and its results.
 4. **From Methods to creator roles and capable holders.** Ask which contributions the chosen Methods require and which systems can supply them under the actual conditions. Then choose or develop people, teams, equipment and tools accordingly. A familiar occupation label or an available team is not a substitute for that capability question. Use A.2 and A.2.2 when the role or capability claim matters. Tools can participate in production without being independent agential performers; A.13 and A.15.1 govern any actual performer and Work claims.
-5. **Repeat for the creators that must themselves be obtained.** A missing instrument may need manufacture; a team may need training or organization; a production installation may need redesign. Apply the same questions to that local system while retaining its contribution to the original target. A builder's period of use can be a period in which another system is produced or changed. This connection is not composition: a factory is not a constituent of its product.
-6. **Follow each local result into its receiving use.** State what receives it next and what that use is expected to enable on the way to the common target. Inspect the resulting facts as work proceeds. Failed tests, new interests or an unworkable method may reopen the construction, functioning, target boundary or even the original purpose. Reopen the premise that failed rather than protect the earlier choice because work has already been spent. When the target, intended use, boundary or expected contribution materially changes, compare the affected participants' accounts again and trace which decisions rely on the changed premise. Restore the agreement needed by those decisions and make its revised basis available to the participants who must use it. Agreement between two teams does not update other dependent teams' decisions; resolve or expose that remaining difference before relying on their combined work. Unaffected decisions need not be reopened, and no particular meeting format is required.
+5. **From capable creators to their cooperation.** Determine how their contributions can be made usable together. What must each receive from another, what shared conditions must remain true, and which decisions or changes must be agreed? Separate capability from availability and authority: each contributor may know how to perform its part while their combined work cannot obtain the result. Develop candidate arrangements of contributions, information, resources and decisions through C.32; use B.1.5.EW when the constituent and encompassing work is unclear. A common aim explains why to cooperate but does not settle how. If organization or supporting equipment must change, that becomes another creation question rather than a promise supplied by a team name.
+6. **Repeat for the creators that must themselves be obtained.** A missing instrument may need manufacture; a team may need training or organization; a production installation may need redesign. Apply the same questions to that local system while retaining its contribution to the original target. A builder's period of use can be a period in which another system is produced or changed. This connection is not composition: a factory is not a constituent of its product.
+7. **Follow each local result into its receiving use.** State what receives it next and what that use is expected to enable on the way to the common target. Inspect the resulting facts as work proceeds. Failed tests, new interests or an unworkable method may reopen the construction, functioning, target boundary or even the original purpose. Reopen the premise that failed rather than protect the earlier choice because work has already been spent. When the target, intended use, boundary or expected contribution materially changes, compare the affected participants' accounts again and trace which decisions rely on the changed premise. Restore the agreement needed by those decisions and make its revised basis available to the participants who must use it. Agreement between two teams does not update other dependent teams' decisions; resolve or expose that remaining difference before relying on their combined work. Unaffected decisions need not be reopened, and no particular meeting format is required.
 
 This order is not a waterfall. Discovery can begin with an available person, tool or scientific result and ask where it could be useful; that inverse problem still has to find a supported use and explain the same dependencies. Negotiation, exploration, fabrication and testing may overlap or repeat. Use a WorkPlan for intended execution order and actual histories for what happened.
 
 A local result keeps its own kind and closure. A drawing's content or a research argument can be an episteme; a measurement result can concern a characteristic; a completed workpiece is a separately identified entity. Show the connection through the relation needed by the next receiver, such as use of a description in design, installation of a component, or evidence supporting a decision. A.15.6 recovers the result and closure question; A.15.PROD distinguishes entity inception and production completion from later acceptance or use. The local result need not be a System to matter to the target.
 
 Also separate two questions: **is this Work part of the project Work, and does its result help obtain the target?** Actual Work parthood uses A.15.1. A purchased instrument or a published theory may be useful even though the work that produced it was outside the project; an admitted project Work part may fail to make the expected contribution. Prospective dependencies justify plans under their stated assumptions. Actual relations and outcomes need their own evidence as they occur.
+
+##### A.1.STM:4.3.1 - Assemble and revise a jointly workable account
+
+Begin at the question that can change the current decision. Recover the answers already available and the conditions under which each is supported. A required use, a proposed construction, a demonstrated capability, an agreed resource allocation and an observed result have different grounds. Keep an important unknown or disagreement visible. A drawing that leaves it blank is not evidence that the condition is satisfied.
+
+Explain how the subject matter of each answer constrains the others. The expected outside effect constrains the needed functioning; a construction makes some functioning possible and rules out other functioning; a creation Method requires particular subjects, capabilities and conditions; a cooperation arrangement determines whether those contributions can be available together. These relations need the relevant engineering, research, economic and organizational knowledge. The mantra recalls where that knowledge matters; it cannot deduce an unknown material law or create a missing production technique. Obtain the missing subject answer and bring back its conditions as well as its conclusion.
+
+Compare coherent combinations. Do not combine the performance of one design with the cost of another, the capability of a fully prepared team with the schedule of an unprepared one, or a successful test with a later configuration the test did not examine. For the candidate under consideration, ask why its functioning, construction, obtaining Methods and creator arrangement can jointly serve the intended use. A supported local answer becomes part of this account only with the conditions needed for its use in that combination. The whole may remain a justified proposal; compatibility of the proposal does not establish that it has been realized.
+
+Challenge the connection where a different allowed answer could matter. If a component, operating condition or creator changes, which other answers still hold, which must change and which become uncertain? Follow the material dependencies rather than changing every document or defending every earlier choice. A single defect can have several repairs: revise a construction, obtain another capability, change a way of producing it, or reconsider the promised use with those entitled to make that decision. Each repair has its own conditions and cost. Merely moving to the next phrase of the mantra chooses none of them.
+
+Choose the next inquiry or construction for the consequence it can have. A missing fact may require measurement; incompatible answers may require a new alternative; disagreement may require clarification or negotiation; unavailable capability may require provision or development. Use the relevant subject Method and compare consequential alternatives when necessary. An unresolved release condition can leave release unavailable while inquiry, prototyping or obtaining support remains possible. Several independent questions may be pursued at once. Their results must return to the same candidate assumptions before being relied on together.
+
+This is the useful sense of the analogy with solving simultaneous equations: partial answers restrict one another, and changing one can require changing others. It does not say that all questions have numerical variables, that normative agreement is an equation, or that a unique solution exists. Some hypotheses may remain unresolved; some sets of requirements may be incompatible. A project can responsibly narrow or reject a proposal rather than fill every line with an unsupported answer.
+
+The compact mantra is a logical teaching unfolding of this reasoning. It presents important connections one after another so they can be understood and recalled. Actual reasoning may start with any consequential answer, explore alternatives, return, or develop several answers together. Use A.22.CGUS when the available continuations and their conditions need explicit treatment. Its ordinary branch makes those alternatives and unknowns clear; a formal CGUS claim additionally needs the structure and qualification that pattern defines. A teaching traversal of that structure still does not prescribe the order of Work.
+
+Keep other project inquiries connected through their shared subjects and assumptions. A choice of creation Method affects capability and resource needs; an operational proposal can expose a capacity limit; a strategic change can reopen which result is worth obtaining. These inquiries do not all have the same purpose or one mandatory ordering. Carry a changed answer to the other inquiry only when it changes a premise used there. The result is one mutually intelligible account, not identical documents or one person deciding every question.
+
+For the decision now being made, stop when the necessary answers and their relevant joint conditions are supported, or when the unresolved condition and its consequence are explicit. Preserve accepted local results whose grounds still hold. Continued project reasoning, later operation and further development can open new questions without making every completed local result unfinished.
 
 #### A.1.STM:4.4 - Locate the first unsupported dependency
 
@@ -4155,6 +4177,16 @@ For the controller-production case, the subject and closure basis are explicit. 
 At project level, the team may select TFS members concerning controller production, pump modification, qualification, and pump operation together under E.18.NET only after each member is independently identified and the required production, installation, participation, use, or feedback occurrences and endpoint bindings obtain. Until then the network remains a Plain provisional explanation with the missing link named. Actual facts are then traced forward from fabrication Work and changes, through controller inception and pump modification, to later pump operation. When runtime use is claimed, the already existing `PumpUnit-3` and its direct participation claim remain separate. If dated runtime Work is claimed, recover every performer's A.13 core and independently admit the occurrence under A.15.1; add F.6 only when precise assignment-bound attribution is also current. Keep either actor-side claim separate from any A.3.4 change of one exact continuing delivery-side environment or input referent; the expected reliable-delivery hypothesis alone establishes neither actuality. A failed relation or missing binding stops that claim without erasing the valid local results.
 
 If later operation shows that reliable water delivery depends on an upstream reservoir-control assembly outside the proposed `PumpUnit-3` boundary, the team reopens the outside-use, project designation, and boundary hypotheses before revising the architecture and network selection. It does not preserve the old inside merely because Work has already begun.
+
+##### A.1.STM:5.1.1 - Locally plausible answers that do not fit together
+
+Suppose a proposed pump assembly must meet a stated delivery condition after installation. A functioning argument assumes a calibrated sensor in the completed assembly. The construction encloses that sensor, the production Method closes the housing before the proposed calibration, and the available calibration instrument needs physical access that the closed housing does not provide. Each team's answer may have worked in another configuration. Together, these particular answers leave the proposed qualification impossible as described. A common target and three signed local documents would not repair that incompatibility.
+
+The team can now compare different whole proposals. It could change the housing to preserve calibration access, provided the changed construction still meets its operating requirements. It could propose calibration before closure, but then must establish why closure and installation would preserve the calibrated condition or how a later check can detect a consequential change. It could obtain another measurement arrangement, provided that arrangement can establish the required claim in the completed assembly and can actually be supplied. None is established merely by being imaginable.
+
+The teaching explanation may run from required delivery through functioning, construction, production and calibration capability. The actual discovery began at a calibration question and returned to construction. A drawing, experiment or qualified measurement may supply the missing answer. If the team changes the housing, it reopens the affected operating and production assumptions; if it changes the instrument, it reopens the measurement and provision assumptions. It retains unaffected knowledge and restores agreement among the contributors whose decisions changed.
+
+This case shows why the mantra must connect whole bodies of subject knowledge. Repeating "function, construction, method, creator" cannot supply the missing measurement argument. Conversely, a complete measurement argument for an inaccessible configuration cannot settle the project question. The connected account identifies what must be explained, which alternatives remain open, and where the answer will matter.
 
 #### A.1.STM:5.2 - One-off service: a usable hairstyle
 
@@ -4205,12 +4237,16 @@ A.1.STM consumes only the returned recognition result. It does not repeat the si
 | `CC-A1-STM-8` | An admitted network has independently identified members, exact obtaining cross-member relations, applied constraints, a use frame, and complete endpoint bindings; otherwise that network proposal stays provisional. A shared systemic account does not by itself require this stronger claim. |
 | `CC-A1-STM-9` | Expected environmental effect, actual runtime transformation and system participation, production, identity inception, completion, later change, and use are separately grounded; required behaviour is not actuality, and no not-yet-existing system is transformed. |
 | `CC-A1-STM-10` | Evidence is bound to its claim, assurance is limited to a named reliance use, and changed grounds reopen only the smallest affected answer. |
+| `CC-A1-STM-11` | The account explains why the chosen answers can be used together under their actual shared conditions; it does not combine locally supported answers from incompatible variants. |
+| `CC-A1-STM-12` | The reader can follow a consequential change to the answers it affects, distinguish possible repairs and their conditions, and recover the difference between the teaching unfolding and performed Work. |
 
 ### A.1.STM:9 - Common anti-patterns
 
 | Anti-pattern | Repair |
 | --- | --- |
-| Mantra as algorithm | Use its connected questions to construct and criticize hypotheses; use direct patterns for local truth and WorkPlan for planned order. |
+| Mantra as fixed work sequence | Use its connected questions to construct and criticize hypotheses; use direct patterns for local truth and WorkPlan for planned order. |
+| Correct parts, unsupported whole | Recover the conditions under which the particular answers can be used together; revise the failed connection or candidate rather than counting completed questions. |
+| Short formula replaces knowledge | Return to the developed subject explanation and bring its premises and limits into the common account. |
 | Local subject replaces common target | Locate the team's subject and next receiving use in relation to the shared target; changing focus does not by itself change the project's purpose. |
 | Role becomes an intrinsic system type | Separate the target role from its holder and description; test the actual System under A.1 and any technical role claim under A.2/A.2.1. |
 | Project equals network | Keep actual project as composite `U.Work` and E.18.NET as a selected non-agentive `U.Structure`. |
@@ -4237,6 +4273,7 @@ A.1.STM consumes only the returned recognition result. It does not repeat the si
 | --- | --- | --- |
 | Levenchuk, *Systems Thinking* (R5), “Мантра системного мышления” (“System-thinking mantra”); *Systems Modeling* (R6), “Целевая система и коллективное системное мышление” (“Target system and collective systems thinking”), “Целевая система зависит от того, кто её ищет” (“The target system depends on who seeks it”), and the hair-salon example | A common target sustains collective reasoning across division of labour; intended use grounds functioning, construction, Methods and creator choice. Target discovery requires hypotheses, criticism and agreement, including external participants; design can concern types before individual holders exist. | Sections 4.1–4.3 retain that reasoning while separating the project role, actual holder, future description and local results under current FPF kinds. The examples do not make every intermediate product a System. |
 | Levenchuk, *Methodology* (R7), the system-mantra passage and “Граф создателей” (“Creator graph”) | A builder's use can participate in obtaining another system, and enabling tools need not be independent agential performers. | The recursive step in 4.3 preserves this connection; actual production, participation, performer and Work claims keep their respective FPF predicates. |
+| Levenchuk, 2025 seminar slides on checklists, canvases, systems of equations, mantras and organizational-development plots | A mantra keeps connected questions in attention across areas of knowledge. Its answers are found by proposing, criticizing and revising mutually constrained possibilities; different project mantras must agree where they use the same subjects or assumptions. | Section 4.3.1 develops this reasoning and separates the teaching order from actual inquiry and Work. The equation analogy is explanatory, not a universal solver or an identification of every subject as a type. The source's fixed ordering of particular improvement priorities is not generalized here. |
 | E.18 and E.18.NET | Build-the-builder reasoning must consider operation, production, identity inception, later change, feedback, and builder branches together, while independently identifying the TFS or nested-network members and relations behind any diagram. | The `Joint network and builders` region, section 4.4 steps 2, 5, and 6, and the pump worked use require exact cross-member occurrences and endpoint bindings. Shared identity, a `creates` label, or temporal adjacency does not admit a network or connect two members. |
 | A.15.6, E.18, and E.18.NET | A project team needs both the longer project dependency and a bounded local concern, with separate claims for project Work, network selection, case subject, closure, and later use. | Section 4.4 step 2 and the pump worked use name the exact subject or claim, only the references and direct claims needed now, a separately governed closure basis, and one downstream receiving use that remains outside the closed case. Project-level reasoning may continue to that later use without reopening the closed case. |
 | Deutsch, [*Constructor Theory*](https://arxiv.org/abs/1210.7439), 2012, read with current A.3.4, A.15.PROD, and E.18 | Possible production or change depends on substrate attributes and constructor conditions. | The runtime and making/changing regions, forward trace, and worked use distinguish one continuing changed referent, production participation, identity inception, later use, and system-side participation. Do not infer actual production or change from a requirement, Method, or Work alone. A not-yet-existing system is not transformed. |
@@ -4253,7 +4290,7 @@ The same reasoning applies recursively to builders without making creation a com
 
 - **Builds on:** the Plain long/local boundary in the Architectural Reference; `A.1` and `A.1.SCR` for exact system recognition; and `A.15.6` for target or local system-of-interest designation, actual project Work, and subject- or claim-centred case recovery.
 - **Coordinates with:** `C.32.P2S` and the C.30 family for outside-use-to-architecture reasoning; `A.3.4` and the patterns for exact dynamics, interaction, causality, participation, assignment, Method, and Work claims in runtime change and system participation; `A.2` and `A.2.1` for system-role-kind interpretation and assignment; `A.3.1`, `A.12`, the A.15 family, `A.15.PROD`, `A.15.5`, and `A.21` for Method, Work, production, identity, readiness, and gates; `E.18` and `E.18.NET` for TFS and project-level network selection; `A.15.6` for the minimal case recovery and closure boundary; `A.10` and `B.3` for evidence and assurance; `A.1.CSD` when the missing answer is which other Systems may undergo relevant changes; and `C.28` only for actual causal-use claims.
-- **Optional demonstration:** `A.22.CGUS` may govern a separately admitted demonstrative unfolding slice. Ordinary use of this long mantra requires no CGUS, F.17 row, durable card, or registration.
+- **Logical unfolding and continuation:** `A.22.CGUS` supplies the account of alternatives and conditions when the reasoning structure's continuations matter, and qualification for a formal CGUS or its demonstrative slice. The reminder, developed explanation, described structure and actual Work remain distinct. Ordinary use requires no new F.17 row, durable card or registration.
 - **Does not replace:** any direct pattern named above. A.1.STM connects their results to a shared systemic project account and returns each result or stop to the attention map; it defines no additional world-side predicate.
 
 ### A.1.STM:End
@@ -74117,6 +74154,8 @@ What goes wrong if C.30.LCA is missed: a control diagram becomes the control str
 
 What C.30.LCA buys in practice: the practitioner can keep useful controller, plant, observer, regulator, supervisor, feedback, rate, and control-layer language while recovering a selected control structure, one description episteme, its possible E.17.0 view conformance, and the pattern used to state or test each proof or claim.
 
+When the question is how to construct or change the cooperation of observations, decisions and interventions, use `C.32.LCA`. It develops alternatives with their information, timing, authority and continuation conditions. Supply the recovered control account to that construction; return here when a candidate's description or view needs qualification. An adequate arrangement needing only a clearer account can finish with C.30.LCA.
+
 Not this pattern when the issue under repair is generic stratification or source-label repair, only an E.18 transformation-flow path slice, function description, module boundary, measurement head, causal intervention, or safety case. Use `C.30.STRAT`, `C.30.TFS-REL`, `A.6.F`, `A.6.M`, `C.16`, `C.28`, or the applicable assurance or evidence pattern to state or test the current claim.
 
 The primary EntityOfConcern for a full C.30.LCA description or view is one exact selected control `U.Structure`. The description, selected structure, controlled holon, architecture relation, architecture claim, viewpoint, conformance occurrence, control relations and their participants, any participating Systems, classifications, assignments, Methods or Work, diagram, representation, proof claims, and publication remain separate. Start with the smallest useful note:
@@ -74404,6 +74443,7 @@ This protects subject, structure, episteme, View, representation, and publicatio
 * Uses `A.22` for exact structure identity and structure-kind discipline.
 * Coordinates with `C.30.STRAT` when layer, level, tier, stack, ladder, rung, block, expert, cache, router, gate, or similar source labels must be recovered before control-specific use.
 * Coordinates with `B.2.5` for supervisor-subholon feedback relation recognition.
+* Coordinates with `C.32.LCA` for constructing and comparing control arrangements. C.30.LCA supplies the recovered control account and its use limits; C.32.LCA returns explained alternatives whose descriptions can be examined here. Construction and view qualification retain their different results.
 * Coordinates with E.18 and C.30.TFS-REL when transformation-flow path slices supply structure input to the control view; use E.18.2 for a mathematical description when that description is current.
 * For neighboring claims, use `A.3.3` for dynamics or stability, `C.27.TA` for temporal-aspect or rate-band structure, `C.27` for authored temporal-claim adequacy, `C.28` for causal use, A.10 for bounded source-to-use reliance, G.6 for citable provenance paths, B.3 only for a named assurance claim, A.20 for internal-constraint validity, A.21 for gate decisions, A.15 for Work alignment, A.15.6 for project-Work recovery, E.24.PUB for publication, and C.29 for representation or transferable mathematical-lens use.
 
@@ -76233,6 +76273,8 @@ Use C.32 only for candidate palette construction. Do not use it to ground the ar
 
 Use `C.32.MWA` instead when several structures of Methods, Work, subjects and their descriptions, capabilities and providers, and cultural change do not line up one-for-one and the needed result is one usable practice architecture. Keep C.32 for a palette of candidate configurations for one grounded architecture question.
 
+For control alternatives whose observations, decisions and interventions must work together under information, time, resource and authority constraints, use `C.32.LCA` to construct and compare that connection. Bring its explained alternatives into the wider palette when other selected structures also change. `C.30.LCA` addresses the separate question of which control relations a description represents and what use that description or view supports.
+
 Common exits by claim kind:
 
 - `C.30` grounds the described holon, any obtaining `ArchitectureRelation`, its selected `U.Structure`, and any separate `ArchitectureClaim`; `C.30.ASV`, `A.6.F`, and `A.6.M` recover structural views, function wording, and module-interface relations.
@@ -76377,7 +76419,7 @@ ArchitectureCharacteristicImprovementLoop@Project:
 | Functional demand | `FunctionalStructure` | A.6.F-recovered functional demands, dependencies, constraints, and candidate bearer pressure. | `C.30.ASV`, `A.6.F`, `C.30.TFS-REL` when flow relation is current. |
 | Constructive bearer | `ModuleInterfaceStructure`, material, manufacturing, or component relation. | Candidate modules, interface grammar, substitutability, variation slots, and fabrication burden. | `A.6.M`, `C.31`, `C.30.ASV`. |
 | Placement and locality | `PlacementDeploymentStructure` or `MaterialSpatialStructure`. | Location, latency, access, environment, maintenance, and source-return burden. | `C.30.ASV`, domain pattern when current. |
-| Control and flow | `ControlStructure` and `TransformationFlowStructure`. | Feedback, supervisor relation, rate, flow relation, crossing, and transformation relation. | `C.30.LCA`, `E.18`, `C.30.TFS-REL`, `C.27` when timing is current. |
+| Control and flow | `ControlStructure` and `TransformationFlowStructure`. | Feedback, supervisor relation, rate, flow relation, crossing, and transformation relation. | `C.32.LCA` for constructing and comparing control arrangements; `C.30.LCA` for control-description or view adequacy; `E.18`, `C.30.TFS-REL`, `C.27` when timing is current. |
 | Method, Work, local-kind or assignment, information, and evidence | Method and Work structures; relations among local system-role kinds, classifications, or assignment structures; direct allocation or responsibility relations; information and evidence structures. | Prospective enactment burden, independently established responsibility, data custody, evidence reuse, assurance pressure, and source return. | `E.10.ROLE` for unresolved wording; A.2 and A.2.1 for recovered kind, classification, or assignment; A.15 for actual Work, with F.6 only when precise assignment-bound attribution is expressly consumed; the admitted direct domain predicate or exact missing governor for responsibility; `A.10`, `B.3`, `C.25`, and `C.31` when those claims are current. |
 
 Candidate architecture changes are local C.32 entries for candidate configurations. They are not FPF work occurrences, method steps, or receiving-pattern claims. A change is admissible only when the selected structure being changed is named.
@@ -76544,6 +76586,403 @@ These rows show how source practice contributes to C.32. The opening of each sec
 Use `C.32` to construct a first useful palette of architecture candidate configurations for one grounded architecture question. Later front-policy, selected-set result declaration, actual publication, local choice, architecture-description, decision, gate, release, and authority-relation claims require their own definitions and tests.
 
 ### C.32:End
+
+## C.32.LCA - Construct and Compare a Control Architecture
+
+> **Type:** Method pattern in the C.32 architecture-synthesis family
+> **Status:** Stable
+> **Normativity:** Guidance within the stated applicability
+
+### C.32.LCA:1 - Problem frame
+
+Use this pattern when a result depends on decisions and actions that use different information, take different amounts of time, or belong to participants with different authority, and you need to construct or change how those contributions work together.
+
+A robot can follow a target accurately and still receive a target that exceeds its actuator limit. A production team can respond quickly and still wait for a decision that nobody present may make. In both situations, improving one participant is insufficient: the arrangement must connect what can be observed, decided and done in time.
+
+**First useful move.** Choose one consequential demand or disturbance. Follow it from the information available at the time, through the decision and permitted action, to the receiving result. Check whether the arrangement supplies the conditions along that path. A missing condition directs construction of an alternative; an adequate path can be retained while examining another consequential case or a justified improvement. Follow each proposed change through the same whole.
+
+**What this buys.** The reader obtains comparable control arrangements, the mechanism by which each could obtain the intended result, their conditions and costs, and a reason to retain, select or revise an arrangement. A useful result can be a simpler incumbent, a bounded proposal, a qualified technical construction, or a precise finding that the requested outcome is unavailable under the supplied conditions.
+
+The broad subject is functional organization: how contributions combine to obtain a whole result. This pattern develops its **control-architecture branch**. It constructs the organization of observation, decision and intervention, including coordination needed between controllers or participants. It does not presume a hierarchy, three layers, different update rates, or a correspondence between one function and one physical part. Layered and multirate control are important alternatives within this question.
+
+The primary working reader is an architect, engineer or operations practitioner who can explain the relevant work and obtain the subject knowledge needed for its consequential claims. The common method requires reasoning about dependencies, time and conditions. A numerical stability or safety claim additionally requires the appropriate control-engineering competence and model.
+
+**Ordinary boundaries.**
+
+- If an available controller or working arrangement already answers the question, use it. A new architecture exercise needs a consequential reason.
+- If the question is what control structure a description actually represents, use **C.30.LCA**. Its result can supply the present arrangement here.
+- If the difficulty is functional construction without a control dependence, use **C.32** for the candidate-configuration question or **C.39** for a missing way to obtain the required contribution. Return here when the observation, decision and intervention dependence is the unresolved part.
+- If the task is to establish the purpose or legitimate priority itself, obtain that decision from its governing practice and participants. Here the question is how that decision affects feasible control and when feedback requires its reconsideration.
+- If a project needs a particular controller, estimator or safety proof, construct or obtain that technical result. The common architecture method below identifies and uses its necessary contribution; it does not replace the subject mathematics.
+
+A proposed arrangement and an operating arrangement have different evidence. The explanation can justify a candidate before implementation. Claims about its actual effectiveness require observations of its use under the conditions that matter.
+
+### C.32.LCA:2 - Problem
+
+Separately reasonable choices can be incompatible when connected. A planner assumes immediate execution; an executor receives a stale state; two units allocate the same scarce resource; a requested exception requires authority outside the decision window. Each local description can be correct while the intended result remains unobtainable.
+
+A familiar layered drawing does not resolve these dependencies. Nor does naming “strategy, planning and execution”: the designer still needs to determine which choices belong together, what information crosses a boundary, how long each contribution may take, and what remains possible when a premise fails.
+
+The practical problem is to construct and compare those relations without losing the purpose, physical or organizational constraints, or the costs introduced by separation. The result must explain both how the arrangement can continue and which feedback calls for a different action, goal or architecture.
+
+### C.32.LCA:3 - Forces
+
+| Force | Consequence for the construction |
+| --- | --- |
+| Rapid correction and costly deliberation | Keep a useful immediate response available while slower reasoning proceeds; account for the delay and information it consumes. |
+| Local authority and coupled consequences | Permit decisions where they can be made in time, while preserving shared limits and commitments that local success can violate. |
+| Detailed state and obtainable information | Retain distinctions that change the decision, including relevant history or uncertainty, without demanding an exhaustive model. |
+| Predictive preparation and changed intentions | Early information can remove waiting but can also reserve capacity, cause rework or mislead another decision. |
+| Separate competence and joint performance | Qualified components still need compatible inputs, timing, resources and continuation conditions. |
+| Adaptation and preserved reliance | Changing a goal, policy, model or learned component can invalidate a result used elsewhere even when its interface spelling stays the same. |
+| Strong assurance and affordable use | A conditional calculation may settle one choice; a stronger claim incurs the evidence and modeling burden appropriate to that claim. |
+
+### C.32.LCA:4 - Solution
+
+Construct the arrangement from the result and its causal dependencies, then compare the complete alternatives. The following sections explain connected operations, not a mandatory sequence of meetings or a prescribed stack of controllers. Begin at the first missing contribution; retain an adequate model, decision or component result.
+
+#### C.32.LCA:4.1 - Recover the controlled situation and the consequence that matters
+
+State what is meant to change, for whom, by when, and within which protected conditions. “Make the system faster” leaves the decision unresolved. “Reach the receiving position within two updates without exceeding the actuator limit” identifies a result and a constraint. “Have the approved panel installed by 16:00 without spending an unauthorized budget” identifies a different result and different conditions.
+
+Identify the acting participants, the subject affected, the available interventions, and the observations that can inform their selection. Recover what an existing arrangement does from an actual consequential episode or an adequate model. For a proposed arrangement, explain the intended dependence without describing it as already operating.
+
+A feedback claim needs an observation, an influence returned to the subject, and a rule and case facts coupling that influence to the observation. **B.2.5** supplies this recovery. Use the result here to find which dependence must be constructed or changed. A dashboard that nobody uses to change action supplies information but not that control dependence.
+
+Keep the selected structure and its representation distinct. **C.30.LCA** helps recover the observation, command, reference, feedback and timing relations represented in a view. Use those relations as inputs, then examine their consequences below. An organizational chart may omit an external supplier who controls a needed release; including that relationship does not make the supplier part of the enterprise.
+
+#### C.32.LCA:4.2 - Separate the goal, its realization and the right to revise it
+
+Distinguish the intended outcome, the constraints that remain binding, and the choices available within them. A destination, an allowed operating region, a customer commitment and a preferred cost are different inputs to a decision. Some are negotiable by the present participant; others must be retained or returned to someone with the relevant authority.
+
+Three changes often require different treatment:
+
+- **Change the immediate action while preserving the goal.** Correct a disturbance, choose another route, reschedule an available resource or use an already qualified fallback.
+- **Change an operational goal within the current mandate.** Select the next job, change a waypoint or choose among already authorized service priorities. Recompute the consequences for the work that depends on the earlier choice.
+- **Change the mandate, promised result or architecture.** Renegotiate the deadline, remove a required output, obtain a new allocation right or change the available means. Include the time and conditions needed to make that change effective.
+
+These are choices, not necessarily three organizational levels or three people. One actor can perform several of them; different actors can participate in one choice.
+
+Construct the return from infeasibility to goal revision. Identify the observation or forecast that makes the present goal doubtful, the alternative outcomes still available, and who can select among them. Include the receiving work affected by that revision. A planner's failure to find a plan is evidence about that search under its conditions; it is not, by itself, proof that no feasible plan exists. A physical bound or an exhaustive argument can establish a stronger impossibility result.
+
+While the revised decision is unavailable, specify the continuation that remains permitted. Continuing, holding a command, reducing demand, switching to another qualified method or stopping can each be right under different subject conditions. Stopping is not automatically safe: an aircraft, a chemical process and an unfinished organizational obligation have different consequences.
+
+#### C.32.LCA:4.3 - Construct the information that makes the decision possible
+
+Begin with the future distinction the decision needs. To decide whether work can finish today, a count of unfinished jobs may be insufficient if their remaining effort differs. To constrain a moving system, the last reported position may be insufficient if motion since that observation is unknown.
+
+Specify the state, transition account and future input assumptions used by the prediction. Retain pending actions, occupied resources or accepted commitments when their differences change the continuation. Separate the subject's state from the information available about it.
+
+Use **A.3.3.PI** when the retained information needs construction or repair. Compare two admissible situations that the proposed description merges, under the same future inputs and change rule. If their decision-relevant continuations differ, preserve the missing distinction, use sufficient history, or propagate a set or distribution of possibilities. A bound can settle the decision without identifying the exact state.
+
+Date an observation by when it describes the subject, not only when its message arrived. Bring it to the decision time using the known intervening actions and dynamics, or retain the uncertainty those missing facts create. If a model requires information that cannot arrive in time, compare a different observation arrangement, a more conservative action, another model or a different decision allocation.
+
+Construct the forecast for the actual use. A one-step predictor repeatedly applied, a direct longer-horizon predictor and an upper bound can support different conclusions. The model used for planning may differ from the model needed to qualify rapid correction, but the correspondence between their inputs, outputs and retained distinctions must be explained.
+
+Internal simulation and actual intervention supply different returns. A simulated failure can change the proposed action before execution. An observed result after execution updates the state estimate and may challenge the model. Do not count repeated replanning as progress in the controlled subject.
+
+#### C.32.LCA:4.4 - Derive a division of decisions from the whole dependence
+
+Start with a feasible incumbent or a whole-problem account, not a fixed number of layers. Ask which decisions need which observations, available actions, resources and time. Group decisions when their strong interaction makes separate choice costly or unreliable. Separate them when different information or response demands make one undivided computation or authorization path impractical.
+
+For every proposed separation, recover the dependence it removes from local consideration. Suppose two devices share a power supply limited to 10 kW. Each local plan can meet its device's 8 kW demand while their simultaneous demands total 16 kW. Giving both plans a copy of the resource limit does not preserve the joint constraint. Where the work permits different allocations or times, possible constructions include a shared allocation decision, fixed compatible reservations, a request-and-grant interaction, or staggered work. They have different waiting, utilization and change costs. If both devices must draw 8 kW simultaneously, no allocation fits the 10 kW supply; change the available supply, the demand or the simultaneity requirement.
+
+The same question applies to planning and tracking. A planner that ignores actuator effort or response delay can select references that its tracker cannot realize. The joining contribution must restrict the references, supply a feasible trajectory, change the tracking arrangement, or revise the demand. Merely adding a feedback arrow leaves that work undone.
+
+Recover functional contributions before assigning their bearers. Estimating state, choosing among goals, constructing a trajectory or work plan, correcting a deviation and handling an exception can each contribute without requiring a separate module, department or person. State the effect each must obtain, the inputs and initial conditions it needs, and the conditions it must preserve. Then associate it with a possible System or participant and the means through which that effect could be obtained. One bearer can carry several contributions; several bearers can cooperate in one contribution. Keep existence, capability, access and proposed allocation as separate claims.
+
+Construct the cooperation in both directions. Work back from the required intervention to the decision, information and means that make it possible. Follow each missing intermediate result to a possible producer. Then follow a consequential demand forward from the available observations and initial conditions: what changes, what becomes usable next, and how those changes obtain the receiving effect. Explain where contributions must coincide, wait or retain a result between updates. A state estimate that expires before authorization, or a command whose execution has no available bearer, defeats that candidate even if every named function is sensible.
+
+**C.32.MWA.PP:4.3–4.7** supplies the general construction across Method, Work, performer, means and allocation structures, including their joint demands. Use that account where the proposed division leaves performance or support unresolved. Here the additional connection is control-specific: explain how the joined contributions turn an observation into a permitted influence on the subject, and how the resulting observation can change the next decision. Change the division or its possible realization when that connection fails; preserve already adequate contributions.
+
+For each candidate, explain how a local result becomes usable by the next participant and how a consequential limitation returns. The result is a candidate arrangement with an operating mechanism, not a collection of independently desirable boxes.
+
+#### C.32.LCA:4.5 - Compare serious architectural alternatives
+
+Retain alternatives that change the mechanism, not just the labels. The following are recurring choices, not an exhaustive classification.
+
+A command or reference governor adjusts the requested input to an already qualified closed loop using its current condition and applicable constraints. It is an alternative to redesigning that loop.
+
+| Alternative | When it can answer the question | Cost or limit to examine |
+| --- | --- | --- |
+| One controller or one timely decision point | The needed information and action rights are available together, and the computation or decision fits the useful window. | Information collection, scarce attention, computation and response delay can become limiting. |
+| An already qualified loop with a command or reference governor | The loop's response is adequate, but requested commands can violate its qualified conditions. | The governor can delay or alter the requested outcome; it needs an applicable model and admissible initial situation. |
+| Layered planning and correction | Different decisions need different horizons, representations or response times, and a useful interface can preserve their dependence. | Model mismatch, stale information, repeated computation, interface constraints and delay must be included. |
+| Local decisions with coordination of shared conditions | Participants can act independently within allocations or agreements, while specified interactions need reconciliation. | Negotiation, conflicting commands, duplicated reservations and unavailable authority can defeat apparent autonomy. |
+| Change the work or the physical arrangement | Removing a dependency, changing a capability or changing the demanded result costs less than coordinating the existing arrangement. | Transition cost, lost flexibility, changed commitments and consequences for other users remain part of the comparison. |
+
+Use **C.32** to develop the candidate palette when several structures change together. For an identified conflict across scopes, **C.32.MLAO** helps generate alternatives that reduce it while exposing the burden moved elsewhere. Bring those candidates back to the information, timing and joint-condition construction here.
+
+A lower-level policy need not be less accurate than a higher-level decision. Rapid tracking accuracy, predictive accuracy, semantic understanding, search quality and adaptability are different characteristics. Compare the required characteristics under the actual resource conditions. A rule such as “strategy is slow” is a possible arrangement, not a substitute for that comparison.
+
+#### C.32.LCA:4.6 - Construct the exchange that makes the parts work together
+
+For each consequential connection, explain what the sender supplies, how the receiver interprets it, which action it can change, and which limitation or result returns. Specify the semantics before choosing a message format or transport.
+
+A target value, a trajectory segment and an instruction to achieve an outcome impose different work on the receiver. A target may be held until replaced; a segment can specify its evolution; an outcome request can leave the means open. Determine which interpretation the receiver can realize and which uncertainty remains with the sender. In a technical realization, hold, reset, interpolation and delay rules can change the closed-loop dynamics.
+
+Keep the following meanings distinct when the receiving action depends on them:
+
+- an observation or estimate of what is the case;
+- a prediction of what could or is expected to happen under stated inputs;
+- a decision selecting a continuation;
+- a command or request addressed to a participant;
+- an accepted commitment to supply a result under conditions;
+- a report of the action or result that actually occurred.
+
+A decision does not necessarily authorize its recipient, and a request does not establish acceptance. An organization may require an explicit commitment; a technical protocol may instead have a specified execution rule. Construct the connection that actually governs the case.
+
+Early communication is useful when a receiver can do worthwhile preparation before the final result exists. Name that preparatory action, the information it needs and its reversibility. Reserving a test slot can reduce later waiting while displacing other work. Preparing material can save time while creating waste if the intended design changes. Compare those consequences with waiting for confirmation; do not treat earlier messages as a free acceleration.
+
+Include the response to change. If a plan, estimate or commitment is replaced, identify which pending action must be cancelled, revised or allowed to finish. Distinguish a message received from a message interpreted and used. Where conflicting editions would change execution, establish which instruction applies and how the recipient learns of its replacement.
+
+Connect the proposed exchange to effective action. Identify who can request the result, who can commit the affected means, who can perform the work, and who can accept or return its result. For the needed contribution, state the supplied result, usable inputs, scope, time window, acceptance conditions and response to refusal or failure. A participant's right to choose an action and another participant's commitment to carry it out are distinct conditions; either can be missing.
+
+Use **C.32.MWA.PP:4.7–4.9** to construct and compare the joint workload, commitments and transition. Reuse existing effective arrangements whose scope and conditions fit. When a new permission, reservation or agreement is needed, identify its owner and the obtainable act that could establish it, including the time and participation required. Keep the candidate conditional until that act and its conditions are established. A design specification explains the intended relation; the actual authorization, acceptance or provision supplies a different fact. Return those effective conditions, or their precise unresolved remainder, to the timing analysis and continuation choice.
+
+#### C.32.LCA:4.7 - Derive useful timing from the action window
+
+Start from the last time at which an action can still obtain the required consequence. Work backward through the necessary detection, communication, decision and execution. Include waiting for an available processor, person, authorization or resource, not only active processing time.
+
+For a serial path with applicable upper duration bounds, a sufficient timing condition is
+
+\[
+t_{\mathrm{change}}+
+L_{\mathrm{detect}}+
+L_{\mathrm{deliver}}+
+L_{\mathrm{decide}}+
+L_{\mathrm{execute}}
+\leq t_{\mathrm{needed}}.
+\]
+
+Each bound must cover its whole contribution under the compared conditions. Periodic observation contributes the worst wait until the next observation as well as the observation work. A computation bound must include the resource arrangement under which it can be achieved. A decision bound must include the availability of a participant with the required authority.
+
+This sum applies to the stated serial path. For parallel or returning work, construct the timing from its dependencies and resource occupations. Identify when each required input and permission can be available, which resource each action occupies, and when it releases that resource. Reconcile different names for the same person, device or capacity before assigning intervals. A machine may continue a cycle after its operator is free; an allocation must reflect that actual occupation rather than charging both for the whole elapsed cycle.
+
+Construct a candidate schedule by placing each action after its required inputs and authorizations, in intervals where all the resources it needs are jointly available. Preserve any required uninterrupted duration, overlap, synchronization and recurring demand. At a join requiring all outputs, the receiving action can start only after the latest required output is available; its own duration still contributes to final completion. Use **C.32.MWA.PP:4.7** for the joint workload and commitment construction. A failed placement rejects that schedule; it does not prove that a different order or allocation is impossible. A necessary bound can establish a stronger rejection: required occupation exceeding the available qualified capacity in the same window cannot be repaired by rescheduling within that window.
+
+For example, two otherwise parallel branches each require ten minutes from the same editor before their outputs can be used together. With one continuously available editor and no other required work, serializing the two edits gives a twenty-minute completion. A deadline fifteen minutes after both edits become available is impossible under those conditions, although either branch alone fits. A second qualified and authorized editor, a changed operation or a later deadline changes a different premise of the construction.
+
+Retain a timing summary only when the receiving answer follows from what it keeps. Total free time can conceal incompatible windows; an average rate can conceal a late individual response. Derive the response time or useful bound from the retained dependencies, availability and occupation conditions. If two allowed arrangements share the proposed summary but give different answers, retain the distinguishing condition, derive a bound that covers both, or restrict the claim. Failure to find such a pair does not establish sufficiency. This specializes the information question in :4.3 to the time and capacity needed by the control decision. An average duration does not establish a worst-case deadline.
+
+Choose an observation or decision rhythm from how rapidly a consequential difference can develop and how long a useful response takes. Periodic checking, event-triggered messages and prediction of an approaching limit are alternatives. An event trigger needs an obtainable detector and a response route; otherwise “notify on exception” supplies no timing result.
+
+Separate update period, end-to-end latency and prediction horizon. A planner can update slowly while predicting far ahead; a fast controller can use a delayed estimate. Changing one quantity may change model error, computation, communication load or the available response. Recompute the affected dependence rather than assuming that more frequent updates are better.
+
+Before the next update, specify what the current action may do and why that continuation remains acceptable. If a premise can fail sooner than a response can arrive, obtain a local protective action, shorten the exposure, change the observation or reduce the promised operating region. A monitoring arrangement cannot protect a condition it notices only after the last useful action.
+
+#### C.32.LCA:4.8 - Establish joint conditions and a usable continuation
+
+For each relied-on component or participant result, state its inputs, operating conditions, output and limits. Then check the connection in both directions: does the supplier's result satisfy what the receiver needs, and can the rest of the arrangement keep supplying the conditions on which that result depends?
+
+Begin with a jointly possible situation. Two controllers can each require the other to have already restored the shared condition. Two teams can each promise to start when the other releases the only specialist. Such mutual expectations supply neither an initial action nor a continuation. Construct an initial allocation, a compatible joint condition or another arrangement.
+
+Next follow a consequential action or change through the whole. Establish what remains true, what must be updated and what is available next. A successful isolated execution does not establish repeated continuation.
+
+For a modeled controller interconnection, derive or obtain the joint dynamics rather than combining separate stability labels. Include reference changes, state estimation, hold rules, actuator limits and computational delay. A technical result can establish an admissible region, an error bound, recursive feasibility, stability or goal attainment; retain the property actually established. These results are not interchangeable.
+
+For example, an invariant error bound can justify a margin in a planner constraint while leaving the question of reaching its goal unresolved. A continuous inequality proved only in a region applies until the first exit unless remaining in that region is established separately. Under mode switching, one invariant set respected by every allowed transition is a useful sufficient condition; different invariant sets for individual modes do not establish safe transitions between them.
+
+Organizational continuation needs a different construction. An accepted commitment must have a capable participant, available means, compatible other commitments and the right to perform the promised action. Establish how an unavailable input, refusal, changed priority or missed window is handled. A promise can be part of the plan's basis without becoming a mathematical guarantee of performance. If the plan needs a deterministic deadline, justify the duration bounds and availability it relies on; otherwise retain the appropriate scenario, uncertainty or conditional promise.
+
+Choose the fallback for the protected result. Keeping a previous command can work only while its qualifying conditions remain true. Escalation can work only if the recipient can decide in time. A replacement performer can work only with the required competence, access and capacity. Compare these as actual continuations, not names in an exception list.
+
+If the joint conditions cannot be established, return the exact unresolved or conflicting dependence. It may justify a different interface, smaller demand, different allocation, additional observation or a revised goal. Keep independently usable component results.
+
+#### C.32.LCA:4.9 - Qualify learned contributions by their actual function
+
+Learning is one way to obtain a contribution to the arrangement. Identify which contribution it supplies. A learned state estimate, forecast, action policy, representation or optimization surrogate has different inputs, outputs and failure consequences.
+
+For a predictor, qualify the output, horizon, available observations, future-action assumptions and error relevant to the receiving decision. For a policy, qualify the actions it can select, the states and instructions it can receive, and the constraints of the actual subject. Agreement with recorded demonstrations and a useful closed-loop result are different tests.
+
+Keep training, inference and online adaptation separate. A policy trained slowly can execute rapidly. An online update can change the policy while its input and output formats remain unchanged. Determine whether the relied-on error, timing or constraint result continues to apply to the updated component.
+
+Compare the learned contribution with an adequate programmed or conventional controller at the same receiving use. Include data acquisition, training or calibration, inference resources, monitoring and recovery in the whole cost. Prefer the learned option when its supported capability changes the result enough to justify those burdens, not because the architecture contains a neural network.
+
+If a separate filter or supervisor modifies a learned command, qualify the resulting combination. The modified command can preserve one constraint while changing a tracking or progress result. A human fallback also needs detection, sufficient time, usable information and actual authority.
+
+The output of this operation is a qualified component use or a named missing result. It is not a general method for training every controller. When the application needs a bound that the learned supplier has not established, compare a narrower operating region, an applicable protective construction, a different supplier or a weaker warranted claim. Do not silently replace the missing bound with average benchmark performance.
+
+#### C.32.LCA:4.10 - Compare the whole arrangements and the work of changing them
+
+Compare candidates under the same required outcome, disturbances, resources, observation conditions and relevant horizons. A faster local algorithm evaluated on an easier demand is not a faster realization of the original problem. A delegated decision evaluated without its coordination and training cost is not the same organizational proposal.
+
+Separate an unavailable candidate from a costly feasible one, and both from a candidate whose consequential premise remains unknown. Compare the coordinates that can change the decision: useful result, delay, constraint exposure, effort, computation, scarce capacity, participant burden, flexibility and recovery. A mathematical optimum remains relative to its model and objective; a project choice also has to respect its obligations.
+
+Include the transition. A new controller needs initialization and an admissible switch. A new organizational allocation needs effective authority, informed participants and preserved obligations. Existing work and performed history do not disappear when the new arrangement is selected.
+
+**C.11** supplies the authorized choice among the explained alternatives; use **C.11.DUA** when the value of another observation, calculation or trial is itself unresolved. A constructed case can justify a conditional proposal. An effectiveness claim requires evidence from its intended use. Do not require a new trial when existing adequate evidence settles the decision, and do not count a simulated or taught example as operational evidence.
+
+Return the chosen alternative, accepted trade-off and conditions of use to the receiving engineering or organizational decision. If only a candidate comparison was requested, it can finish here without authorizing implementation.
+
+#### C.32.LCA:4.11 - Make the result usable and revise the affected dependence
+
+Explain the result in the ordinary form needed by its users. It must make recoverable:
+
+- the intended outcome and protected conditions;
+- the participants, decisions and available interventions;
+- the information, exchange and timing that connect them;
+- the jointly feasible conditions, continuation and exception response;
+- the serious alternative, accepted cost and basis of the present choice;
+- the changed observation or condition that requires a different decision.
+
+These are content requirements, not a mandatory record or a demand to model every relationship in the enterprise.
+
+On new evidence, first identify the failed dependence. A fresh observation may only require a new state estimate. A different response can challenge the dynamics or capability. A blocked authorization can require a different allocation or commitment. A changed use can require a revised goal. Alter the architecture when the needed continuation cannot be obtained adequately within the existing arrangement.
+
+Carry the change through its direct consumers. A new estimate can change the admissible command; that command can change arrival time; the changed arrival can defeat an organizational promise. Preserve unaffected results, and requalify the connections that actually changed.
+
+### C.32.LCA:5 - Archetypal Grounding
+
+#### C.32.LCA:5.1 - Retain a qualified loop and change how it receives targets
+
+Consider a constructed discrete model, in normalized units,
+
+\[
+x_{k+1}=x_k+u_k,\qquad
+u_k=\tfrac12(r_k-x_k).
+\]
+
+The actuator condition is \(|u_k|\leq0.06\), and the state must remain in \([-1,1]\). The state is available without delay or error in this first case. The controller computation fits each update. These are premises of the example, not claims about a physical device.
+
+For a fixed target, the error contracts by one half per update. Nevertheless, if \(x_0=0.5\) and a planner immediately applies \(r_0=0.7\), the commanded input is \(0.1\), outside the actuator limit. The separate tracking result did not qualify that reference change.
+
+One alternative is to redesign the controller and planner together. Another candidate retains the controller and limits the applied target from the desired goal \(g_k\in[-1,1]\):
+
+\[
+r_k=x_k+\operatorname{clip}(g_k-x_k,-0.12,0.12).
+\]
+
+Here \(\operatorname{clip}(a,l,h)=\min(\max(a,l),h)\). Substitution gives
+\[
+u_k=\tfrac12\operatorname{clip}(g_k-x_k,-0.12,0.12).
+\]
+Thus the actuator condition holds. The next state lies between \(x_k\) and \(g_k\), so an initial state in \([-1,1]\) stays there. This establishes the stated discrete constraints for this model. It does not establish intersample physical safety or a prescribed arrival time.
+
+For the constant goal \(0.7\), the first three applied targets are \(0.62,0.68,0.7\); the corresponding inputs are \(0.06,0.06,0.04\), and the resulting states are \(0.56,0.62,0.66\). The limiter uses the loop's remaining action capability and returns a different progress forecast to the planner. It is a simple state-dependent governor construction, not a reason to add a new tracking layer.
+
+Now request \(x_2\geq0.68\) from \(x_0=0.5\). Under the actuator bound, even an arbitrary control law can increase the state by at most \(2(0.06)=0.12\), giving \(x_2\leq0.62\). That requirement is impossible under the stated model and limit. The next choice concerns the deadline, attained position or available actuation; faster planning alone cannot obtain it. The participant authorized to change the demanded result must receive this bound.
+
+Change the governor's observation condition instead. Suppose the governor receives only \(\hat x_k\), with a qualified current bound \(|x_k-\hat x_k|\leq0.02\), while the local tracker retains the original state-based feedback law. Limiting \(|r_k-\hat x_k|\) to \(0.12\) would allow \(|r_k-x_k|=0.14\) and input \(0.07\). A sufficient repair is to limit \(|r_k-\hat x_k|\leq0.10\) and require \(r_k\in[-1,1]\). Then \(|r_k-x_k|\leq0.12\), while the original convex update preserves the state interval. The set of targets satisfying both conditions must be nonempty; it is nonempty here when the state lies in the interval and the stated estimate bound holds.
+
+The error bound must describe the current state. A bound for a stale measurement cannot be reused without accounting for intervening motion. If the tracker also loses its state measurement, its response equation and the convexity argument need reconsideration. Replacing it with a learned policy likewise reopens the calculation: the old response equation no longer supplies its proof.
+
+This case shows the common method's contribution: recover the violated join, compare a governor with joint redesign, construct the admissible interface, calculate its consequence for the goal, and reopen the affected condition when observation or policy changes.
+
+#### C.32.LCA:5.2 - Obtain a timely organizational decision
+
+An exhibition panel must be installed by 16:00. Under a constructed operating arrangement, the following bounds are available:
+
+| Contribution | Upper duration and its conditions |
+| --- | --- |
+| Detect a material content change | 20 minutes, including the wait for the scheduled check and the checking work |
+| Deliver the complete change to the editor | 5 minutes through an available channel |
+| Decide and send the approved file | 10 minutes, including waiting; the editor is available and the change is within the editor's authority |
+| Print and install | 25 minutes; material, access and the allocated performer are available |
+
+These contributions are serial for this arrangement. A change occurring by 15:00 can therefore be handled by 16:00. The latest sending time is 15:20; delivery is by 15:25, approval reaches the performer by 15:35, and installation finishes by 16:00. A later change can still succeed in a favorable case, but the hour-long bound no longer establishes the promise.
+
+The useful state includes the current content, its approval status, the required materials and the availability of the people and means. “The file was sent” does not distinguish an approved file from an unapproved proposal, or a delivered message from one awaiting a decision.
+
+Compare three changes to the arrangement.
+
+1. **Shorten detection to five minutes.** If every other premise remains true, the bound becomes 45 minutes. This helps changes that occur by 15:15. It adds observation effort and does not repair a missing decision right.
+2. **Authorize a defined local exception in advance.** If the current change needs an extra expenditure outside the editor's authority, the ten-minute decision premise fails. An effective limited authorization, available reserve and competent decision maker can restore a bounded path. A proposal to delegate does not do so until those conditions hold.
+3. **Retain central authority and change the commitment or work.** Obtain an available central decision window, agree to freeze content earlier, use an already accepted substitute panel, or omit the affected panel where the receiving commitment permits it. Compare the changed result, delay and cost; these are not equivalent ways to meet the unchanged promise.
+
+A forecast of a likely change can allow reversible preparation before approval. Establish which materials or capacity may be reserved, what another job loses, and how the reservation is released if the forecast changes. Printing an unapproved final panel is a different action with different consequences.
+
+The control mechanism is now explicit: a dated observation changes a decision made within actual authority, that decision supplies a usable input to an available performer, and the resulting installation or failure returns to the responsible participants. One person may perform several contributions, provided their demands still fit. No three-level management hierarchy follows from the four duration bounds.
+
+The timing implication is mathematical under its premises. The premises about people, authority, resources and duration need organizational support and observation; they are not supplied by the equation. In actual use, distinguish a committed service bound, an empirical estimate and a planning assumption.
+
+#### C.32.LCA:5.3 - The smaller sufficient result
+
+A machine already has an applicable controller, command range, state estimate, timing qualification and recovery procedure. The proposed change only redraws their representation for a maintenance team. Use C.30.LCA to make the obtaining relations and limits recoverable. Do not repeat architecture synthesis unless that reading exposes a consequential missing or changed relation.
+
+Similarly, a team can retain an adequate allocation when a new report does not change any action, deadline or protected condition. More communication is not a required improvement.
+
+### C.32.LCA:6 - Bias-Annotation
+
+The method can overfavor engineered, explicitly measurable interactions. Human participants can contest the goal, decline a request or hold interests that the model omitted. Recover their actual commitments and protected conditions before treating a proposed arrangement as available.
+
+A layered picture can overfavor hierarchy. Shared resources, peers, external suppliers and overlapping authority may require coordination without one superior controller. Examine the actual influence and decision rights.
+
+A successful demonstration can overfavor its observed conditions. Keep the operating region, information quality, available support and receiving criterion with the result. Compare the whole arrangement, including work displaced elsewhere.
+
+### C.32.LCA:7 - Conformance Checklist
+
+- [ ] The intended result, protected conditions and authority to revise them are recoverable.
+- [ ] The candidate explains observation, decision and intervention dependencies, including the consequential return.
+- [ ] The retained information supports the needed prediction or bound at the actual decision time.
+- [ ] The proposed separation preserves shared constraints through a constructed interaction or allocation.
+- [ ] Serious alternatives include retaining an adequate arrangement or changing the dependency itself.
+- [ ] Timing accounts for waiting, resources, authority and the last useful action, not only message or computation speed.
+- [ ] Initial conditions and continuation are jointly possible; component claims are not silently promoted to whole guarantees.
+- [ ] A learned contribution is qualified for its actual function and its changed use is followed through the arrangement.
+- [ ] The comparison preserves the same demand and includes transition and displaced burden.
+- [ ] The result distinguishes a proposal, a conditional derivation and evidence of actual operation, and names its relevant return condition.
+
+### C.32.LCA:8 - Common Anti-Patterns and How to Avoid Them
+
+| Misuse | Why it fails in this use | Repair |
+| --- | --- | --- |
+| Draw strategy, planning and execution and call the architecture complete | The drawing leaves the connecting information, authority and feasible actions unspecified. | Derive the division from the needed decisions and construct each consequential exchange. |
+| Give every local unit the whole resource limit | Simultaneously valid local choices can exceed the shared capacity. | Establish a joint allocation or coordination rule and its timing. |
+| Forward every update immediately | Irrelevant changes consume attention; premature preparation can waste or reserve scarce resources. | Identify the receiving action and compare early preparation with waiting. |
+| Escalate every exception | A decision can arrive after the last useful action or at a participant without the needed means. | Bound the actual response path or construct a qualified local continuation. |
+| Call separate controller stability a whole-system guarantee | Reference changes, delay, estimation and interactions can violate the individual premises. | Derive or obtain the joint behavior under the real interface. |
+| Treat a promise or benchmark average as a hard bound | The required availability, tail behavior or operating condition may be unsupported. | Use the warranted bound, uncertainty or conditional claim and change the reliance accordingly. |
+| Improve the local rate while weakening the demanded outcome | The comparison changes the task and manufactures a gain. | Hold the receiving demand fixed or make the changed commitment an explicit alternative. |
+
+### C.32.LCA:9 - Consequences
+
+The reader can change the relation that prevents a result: the available information, allocation of a decision, command semantics, timing, shared capacity or the demanded outcome. An adequate incumbent can survive the comparison.
+
+The method makes the price of separation visible. Layers can reduce immediate computation or authorization demand while adding models, interfaces and coordination. Delegation can remove waiting while adding qualification, communication and exposure. A simpler arrangement can be preferable.
+
+Construction itself has a cost. Stop with sufficient grounds for the receiving decision; pursue additional modeling or evidence when a plausible result can change that decision or when a binding obligation requires it.
+
+### C.32.LCA:10 - Architectural Rationale
+
+The arrangement is constructed from joint use because the consequence belongs to the connected system or work. Local correctness is useful only when the receiver can use the result under conditions the rest of the arrangement can supply.
+
+Different time demands justify considering a division, not prescribing one. Separation is advantageous when its saved computation, waiting or coordination exceeds the burden of preserving the lost dependence. The governor case shows that a smaller change can preserve a qualified component. The exhibition case shows that changing a decision right can matter more than increasing message speed.
+
+Goal revision belongs in the architecture because feedback can make the selected outcome unattainable or no longer useful. Its authority remains distinct from the ability to compute another plan. This prevents a fast local optimization from silently changing the promise made to another participant.
+
+Model-based guarantees and organizational commitments remain different contributions. Both can constrain a design, but their grounds and failure responses differ. That distinction makes the common method transferable without importing a control theorem into an enterprise through matching labels.
+
+The current arrangement can itself become the subject of a slower development activity. That does not identify every operational goal revision with architecture development: choosing another authorized destination can preserve the arrangement, whereas moving decision rights or changing the available interventions changes it.
+
+### C.32.LCA:11 - SoTA-Echoing
+
+**Which line answers the working question?** For constructing joint control under different information, timing and authority, this pattern selects a synthesis of whole-arrangement comparison, explicit dynamic and temporal connections, and domain-specific qualification. A fixed three-layer template is cheaper to draw but leaves those connections to the reader. The additional work here is justified when a consequential dependency remains unresolved; :5 shows a changed command interface and an authority-dependent deadline. These are conditional constructions, not measured enterprise benefits. Retain a sufficient incumbent and reopen this choice if its extra analysis cannot change the receiving decision.
+
+**Adopt joint design rather than independent layer tuning.** Matni, Ames and Doyle's [2024 treatment, §§2–3 and 4.5](https://arxiv.org/html/2401.15185) supports reasoning from a whole control problem to interacting layers. This changes :4.4 and :4.8: a removed consistency condition becomes an obligation to construct the connection. The source develops a research programme, not a universal optimal layer count. The common method adapts that question beyond its technical constructions; a claimed transfer still needs the receiving dynamics, conditions and evidence. Reopen when the proposed separation has no supported interface or a simpler controller answers the same demand.
+
+**Adapt quantitative architectural co-design within its class.** [Verhoek et al., 2026, §§2, 5 and 7](https://arxiv.org/html/2610.20900v1) make model order, sampling ratio and controller parameters joint design variables for a two-layer LTI construction with compute constraints. Compared with fixed rate heuristics, this supports the whole comparison in :4.7–:4.10. The accepted cost is a demanding optimization and qualification problem. This is a bounded preprint result; general composition and several extensions remain open. Use a simpler qualified design when sufficient, and reopen on a changed plant, observation regime or implementation premise.
+
+**Retain a governor as a serious alternative.** The [Garone, Di Cairano and Kolmanovsky survey, §§2 and 6](https://merl.com/publications/docs/TR2016-102.pdf) supplies the established alternative of managing commands over a pre-stabilized system. [Castroviejo-Fernandez and colleagues, 2024](https://arxiv.org/html/2401.02054v1), develop a disturbance-observer-based continuation. Their conditions motivate :4.5 and the observation change in :5.1. Adopt the architecture when its qualified loop and admissible-set construction answer the demand; reject treating it as automatic mission achievement. Its price is altered progress and model-dependent qualification. Reopen if those costs or assumptions defeat the receiving use.
+
+**Adapt organizational design and commitment-based coordination.** [Joseph and Sengul's 2025 review](https://journals.sagepub.com/doi/10.1177/01492063241271242) compares organizational-design approaches rather than making decentralization a universal answer. [Guerreiro and Dietz, 2024](https://arxiv.org/pdf/2410.08215), preserve request, promise, declaration, acceptance and exceptional continuations in business-process descriptions. These lines change :4.2, :4.6 and :4.8: the organization must supply decision rights and workable commitments, not merely fast commands. Their use can add negotiation and coordination cost. Reopen when the decisive dependency is an unavailable capability, resource or conflicting interest rather than the proposed information or authority arrangement.
+
+**Use safety analysis for its distinct result.** The [STPA Handbook, Chapters 2–3](https://psas.scripts.mit.edu/home/get_file.php?name=STPA_handbook.pdf), is an established approach to unsafe control actions and inadequate process models. Adapt its attention to timing, missing feedback and conflicting control in :4.3, :4.7 and :4.8. It is a serious alternative to checking only nominal performance when harmful loss is possible; it does not replace performance synthesis or prove absence of loss. Reopen the relevant safety analysis when a control action, model, responsibility or operating condition changes.
+
+**Learned execution does not settle architecture qualification.** Figure's [Helix 02 description](https://www.figure.ai/news/helix-02) gives a concrete comparator: semantic reasoning, 200 Hz joint targets and 1 kHz whole-body execution with a learned lower component. It supports considering different functional and timing demands, not the superiority of that allocation in every system. Adapt the distinction in :4.9; retain a programmed qualified component as a rival. Reopen on a changed policy, observation distribution, latency or relied-on constraint. The vendor demonstration supplies no general enterprise or closed-loop safety theorem.
+
+### C.32.LCA:12 - Relations
+
+- **C.30.LCA** recovers the obtaining or proposed control structure represented in a view and its claim limits. This method consumes that account and returns constructed alternatives whose descriptions can be examined there.
+- **B.2.5** establishes the observation, returned influence and coupling needed for a feedback claim. A new architecture proposal still needs evidence of those relations when put into use.
+- **A.3.3, A.3.3.TR and A.3.3.PI** supply the dynamics, transition rule and predictive information. Their results enter the decisions and timing here; a changed input policy can reopen them.
+- **C.32 and C.32.MLAO** supply candidate generation and changes that address a recovered cross-scope residual. This pattern adds the control-specific construction of information, intervention, timing and continuation.
+- **C.32.MWA.PP:4.3–4.9** supplies construction and comparison of joint performance and provision, including shared means, workload, commitments and transition conditions. This pattern connects those conditions to the observation, decision and intervention that must occur in time. A proposed relation remains prospective until its obtaining conditions are met; changed authority or resource demand returns to the affected comparison.
+- **C.11 and C.11.DUA** supply the authorized choice and the worth of further inquiry. The architecture explanation is their input, not authorization by itself.
+- **C.28** governs reliance on a causal result when an empirical effect is used to justify the change. A conditional calculation retains its model premises.
+- **C.39 and B.1.5.RS** support construction of a missing contribution and preservation of receiving uses when one contribution is replaced. A replacement that changes observations, timing or actions returns to the affected joint-condition analysis here.
+
+### C.32.LCA:End
 
 ## C.32.P2S - Problem-to-Structure Architecturing Unfolding
 
@@ -89589,7 +90028,7 @@ Reopen the pattern when a field case supplies decision-changing evidence for ano
 
 > **Type:** D-family ethical boundary pattern
 > **Status:** Stable
-> **Pattern role:** This compact pattern gives the stable entry boundary and conformance checks for value-plurality use; fuller ethical theory remains outside FPF unless a direct pattern names it.
+> **Pattern role:** This pattern gives the entry boundary and conformance checks for value-plurality use, including conditional reasoning from an explicitly declared value basis. Fuller ethical theory remains outside FPF unless a direct pattern names it.
 
 **Use this when.** Use this pattern when an FPF claim, method, work plan, architecture move, policy, recommendation, model, or system change has ethical force, but the value theory or ethical concern behind the claim is not yet explicit.
 
@@ -89600,7 +90039,7 @@ If that ethical claim is current but a possibly consequence-bearing System has n
 
 **What goes wrong if missed.** FPF looks ethically neutral because it names evidence, method, architecture, or work but leaves the value frame and affected EntityOfConcern implicit.
 
-**What this buys.** The reader can see whose concern is at issue, what is valued, and which ethical question to address next. A judgement additionally states its basis and the use that basis supports.
+**What this buys.** The reader can see whose concern is at issue, what is valued, and which ethical question to address next. For a judgement, the reader can recover how the value premises and relevant facts support the conclusion, what changes when a premise changes, and which use the reasoning warrants.
 
 ### D.1:1 - Problem Frame
 
@@ -89658,6 +90097,62 @@ Include a source-return condition when a particular stronger claim or changed us
 
 This frame makes the value premises inspectable; the ethical judgement still needs its own reasoning. A utilitarian consequence claim, a deontic constraint, a virtue or character claim, a care-ethics concern, a rights claim, a professional-duty claim, and a project-specific value trade-off may all be admissible starting points, but they must not be presented as the same claim merely because the same word "ethical" appears.
 
+#### D.1:2.1 - Make the value premise do explanatory work
+
+A value label identifies a concern; a reason explains why that concern supports the proposed judgement. State the value premise, the relevant facts and the step joining them. For example, a prediction of greater aggregate benefit can support a recommendation only under a premise giving that benefit the relevant priority. A right can constrain the recommendation under a different premise even when the prediction is correct. Use `B.5.RA` when the argument must be recovered from a source, including a rhetorical question or an analogy.
+
+Keep the grounds of acceptance distinct. Evidence can support a claim about consequences or the conditions in which a person agreed. A normative premise states what ought to count, what may be required or which treatment is permissible. Explaining a tradition's history can help interpret its premise; neither that history nor a model of a system establishes the premise's moral authority. When the premise is contested, preserve the conditional conclusion and identify what accepting another premise would change.
+
+The following argument develops one such conditional basis for decisions about people's participation. It supplies reasons that can be examined and applied; FPF does not select this basis as its final ethical doctrine.
+
+#### D.1:2.2 - Personal authority, voluntary participation and reciprocal limits
+
+Use this reasoning when a proposal treats a person's body, work or participation as available because a planner can describe a useful larger system. The question is who may decide that person's contribution, on what grounds and within what limits.
+
+##### D.1:2.2.1 - State the normative starting point
+
+One possible starting point gives each person presumptive moral authority over the use of their own body and participation. On this view, another person's valuable plan creates a reason to request cooperation, but the value of that plan alone does not authorize the required personal contribution. This is a claim about how people should be treated, not a claim that they always control their circumstances.
+
+Some accounts develop this position through **self-ownership**. The working claim here is the stated personal authority; a stronger ownership theory needs its further premises. Whether rights can be transferred, which rights cannot be waived, and which obligations qualify them are substantive ethical questions. A person's moral standing is also distinct from their present ability to decide or act. Children and people temporarily unable to decide do not become resources available to a planner; a protective or representative arrangement needs its own basis and limits.
+
+For this argument, accept a second premise: comparable persons have the same presumptive standing, and a difference in treatment needs a relevant reason. Equal standing does not mean equal knowledge, skill, resources or preferences. Those differences can change who can perform work or give useful advice without establishing a right to command another person.
+
+##### D.1:2.2.2 - Use reciprocity to expose a missing justification
+
+Suppose a designer claims that knowing how to improve a project permits imposing its work on another person, while denying that the other person may impose work on the designer under comparable conditions. With the equal-standing premise, the designer's identity cannot justify this asymmetry. A relevant difference must do the work: for example, an applicable commitment or a justified authority limited to that decision. If no such difference is established, either the special permission must be withdrawn or the equal-standing premise must be rejected and the alternative defended.
+
+This is the useful force of the reciprocal question: what would justify the same rule when the positions are exchanged? Preserve the facts that matter to the rule, including a real mandate, vulnerability and effects on others. Asking only whether the proposer personally likes the treatment is weaker: people have different preferences, and someone willing to endure a burden may still lack permission to impose it on others. Reciprocity examines the consistency and grounds of the proposed rule; it does not independently prove the starting premises or settle every conflict.
+
+Combined with the personal-authority premise, the result is a reason to seek an authorized contribution rather than count the person as already available. When no applicable prior commitment or other justified authority covers the move, a plan requires the person's valid agreement or a different way of obtaining the result. Reusing an adequate existing commitment within its limits does not require asking for permission again.
+
+##### D.1:2.2.3 - Explain what consent can authorize
+
+Consent matters under this value basis because it lets the person exercise the authority the premise assigns to them. It must concern the proposed act or a sufficiently clear class of acts. A signature, silence or presence in a group cannot establish its scope and validity without the circumstances that give that response its meaning.
+
+Examine the information and understanding needed for this choice, the person's decision capacity, the pressure involved and the practical ability to refuse. Where a person's agreement is obtained through a threat of a penalty that the adopted ethical basis does not justify, that compliance does not supply voluntary consent. Dependence or limited alternatives can make voluntariness doubtful; their presence calls for a judgement under the applicable ethical and domain standards, rather than an automatic inference either of valid consent or of its absence.
+
+An agreement to contribute gives the recipient only the authorization it actually supplies. Agreeing to a defined task need not authorize a new purpose, wider disclosure or another person's participation. The applicable basis must also establish the conditions for changing or ending a commitment; permission to begin does not by itself answer every question about withdrawal. Some protections may remain non-waivable under that basis. Consent between two parties cannot by itself dispose of a third party's rights or settle harm imposed on that party.
+
+When consent is absent or insufficient, retain the unmet condition. A narrower task, different terms, supported voluntary participation or another provider can sometimes meet the project's purpose. Where the question is which alternative to choose or how to resolve a conflict with another duty, use `D.3` and `D.4`.
+
+##### D.1:2.2.4 - Keep system structure and rights separate
+
+A person can participate in an organization or be a physical component of a working arrangement while retaining moral claims against what that arrangement demands. Describing the organization's useful function does not establish a duty to serve it. Conversely, a person's refusal does not establish that every obligation they previously undertook has disappeared. Identify the proposed act and the relation that could authorize it.
+
+Ownership of a tool, authority over work, membership in a group and physical part-whole relations answer different questions. Treating possessions as an extension of a person may express a moral argument for protecting them, but extending the personal-authority premise to property requires an account of legitimate possession and its limits. It does not make every owned object a physical part of its owner. Likewise, a sponsor's control of funds or equipment does not confer control over every person the project affects.
+
+Dissolving an organization and killing its members have different consequences. A model that calls both entities living systems cannot supply the missing ethical comparison. Investigate the actual consequences for people, including dependence on the organization and the costs of transition, instead of deriving either unconditional preservation or harmless dissolution from the metaphor.
+
+##### D.1:2.2.5 - Identify the premise that changes the conclusion
+
+A consent-based account can recognize duties to others and limited powers that do not depend on consent to each individual act. Their justification must be supplied rather than hidden in the word "system". A valid employment commitment may authorize a bounded assignment. A protective duty or public authority may be offered as another basis; its source, scope, safeguards and application need the relevant ethical and domain reasoning. Calling compliance consent would conceal the difference.
+
+Other value frames can give different reasons for the same decision. A consequence-based account asks whether the proposed intervention produces better supported outcomes than feasible alternatives, with its chosen treatment of distribution and rights. A public-justification account asks whether the governing rule and its unequal powers can be justified to those subject to it, including a basis for binding dissenters. A care-based account may give special weight to dependence and responsibilities arising from a relationship. These lines can support or oppose a particular use of authority; none follows merely from system scale or the number of supporters.
+
+Locate the disagreement: the standing assigned to persons, the priority of a duty, the validity of an authorization, a predicted consequence or the interpretation of a rule. That tells the practitioner what could change the judgement. A conditional argument for voluntary cooperation establishes neither that all public projects fail nor that every collective decision needs unanimous consent. Whether an artificial system has moral standing is also a separate question from whether it can pursue goals or perform a task.
+
+The practical result is an explained boundary on a proposed action: which contribution may be requested or required under which premises, which agreement or authority supports it, and what remains unresolved. `D.3` describes a resulting value conflict; `D.4` develops and compares ways to continue.
+
 ### D.1:3 - Boundaries
 
 `D.1` keeps value plurality and FPF boundary discipline. It does not replace:
@@ -89678,6 +90173,16 @@ A team says that a triage model is "ethical because it maximizes total benefit."
 
 If the team instead proposes this claim as a reason to adopt the model, identify the affected patients and institutions, the meaning of "total benefit", the consequence theory, the excluded concerns, the evidence relied on, and the use that evidence warrants. `D.3` describes any live conflict over access or harm; `D.4` governs its mediation or decision use.
 
+#### D.1:4.2 - A project needs a person's contribution
+
+A community workshop has adopted a personal-authority premise for voluntary participation. Its coordinator wants members to carry location trackers during a festival so that help can be dispatched quickly. The equipment sponsor approves the plan. Members had agreed to specified volunteer shifts, with no agreement to continuous tracking.
+
+The benefit of faster dispatch gives a reason to propose tracking, while the sponsor's approval covers the supplied equipment. Neither supplies the members' missing agreement. Under the adopted premise, the coordinator must obtain valid agreement to the proposed information use or construct another arrangement. The reciprocal question exposes the missing ground: the coordinator would also need a reason for letting another organizer collect the coordinator's movements merely because it helped that organizer's project.
+
+Suppose members understand the purpose and retention period, can decline without losing access to ordinary workshop services, and can instead report availability at agreed intervals. A member's agreement can authorize the limited tracking described. It does not authorize publishing a route that reveals a nonparticipant's location; that changed effect needs its own consideration. The alternative reporting arrangement also shows why a useful dispatch purpose need not require the initially chosen means.
+
+Now change the question to an ordinary task within a member's already accepted shift. If the established agreement authorizes the coordinator to allocate that task, the personal-authority premise does not require a new consent ceremony. Recover the actual scope and any remaining constraints. If the proposed tracking is instead claimed to be mandatory under an applicable safety rule, establish that rule and its ethical basis; voluntary consent is no longer the explanation for the mandate. These different conclusions arise from changed grounds of authority, not from a change in the person's status.
+
 ### D.1:4.1 - Bias-Annotation
 
 | Bias risk | Failure | Mitigation |
@@ -89693,7 +90198,7 @@ If the team instead proposes this claim as a reason to adopt the model, identify
 | --- | --- | --- |
 | CC-D1-1 | The ethical claim or question, affected EntityOfConcern, value concern, and intended use are named. Relied-on evidence and material uncertainty qualify the answer. Value-frame editions, ClaimScope, qualification window, affected Systems, and direct responsibility relations are added when they change the claim or its warranted use. | Keeps "ethical" from becoming a label without content or a generic context premise. |
 | CC-D1-2 | A judgement of ethical admissibility states its warranted use and any limitation that changes it. A separate frame or stronger-source return serves a particular reasoning or receiving need. | Prevents value wording from authorizing action by itself. |
-| CC-D1-3 | Ethical theory, tradition, or project-specific value frame is named when it changes the claim. | Keeps plural value frames inspectable. |
+| CC-D1-3 | Ethical theory, tradition, or project-specific value frame is named when it changes the claim. A conditional judgement preserves its value premises, relevant facts and inference; a contested premise remains identifiable. | Keeps plural value frames inspectable and reasoning recoverable. |
 | CC-D1-4 | Multilevel conflict, mediation, bias or fairness audit, causal use, evidence, assurance, and architecture residuals use their subject patterns. | Keeps D.1 as boundary pattern rather than universal ethics owner. |
 
 ### D.1:7 - Common Anti-Patterns and How to Avoid Them
@@ -89711,6 +90216,8 @@ This pattern makes ethical claims portable across FPF without pretending that FP
 
 Explicitness follows the claim being used: recognition needs a clear concern and next question, while a judgement needs its supporting basis and use limits. A durable frame earns its effort through the comparison or later reliance it supports.
 
+For decisions about people, the conditional argument in :2.2 makes a practical difference: the planner can distinguish a valued result from authority to require a person's contribution, reuse an adequate commitment, and identify when consent, another justification or a different means is still needed. It also shows which disagreement concerns the normative basis rather than a missing technical fact.
+
 ### D.1:8 - Rationale
 
 `D.1` is an entry boundary for ethical value plurality. It is intentionally modest: it does not settle ethical theory and does not decide an interlevel conflict. It makes the live value frame visible enough for neighboring FPF patterns to carry the next claim without hiding ethics inside technical adequacy, evidence, architecture, method, work, or publication wording.
@@ -89724,6 +90231,7 @@ This keeps FPF usable in engineering, research, organizational, public, and AI-e
 | Value pluralism and applied ethics practice | FPF should not pretend that one ethical doctrine resolves every project claim; it should expose the current value concern, affected EntityOfConcern, and excluded concerns, and qualify the basis of the judgement being used. |
 | Engineering ethics and assurance practice | A method, work plan, architecture move, recommendation, system, or holon can be technically adequate while shifting harm, benefit, responsibility, or coercion elsewhere; technical verification does not settle the ethical claim. |
 | Human-impact, AI governance, and dual-use practice | Fairness, responsibility, alignment, safety, and misuse claims need affected parties, context, and warranted use; relied-on evidence and the consequence horizon qualify that use. |
+| Developed consent reasoning in the [Belmont Report, “Respect for Persons” and “Informed Consent”](https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/read-the-belmont-report/index.html) (1979), [UNESCO bioethics declaration, Articles 5–7](https://www.unesco.org/en/legal-affairs/universal-declaration-bioethics-and-human-rights) (2005), and [Declaration of Helsinki, paragraphs 25–30](https://www.wma.net/policies-post/wma-declaration-of-helsinki/) (2024) | Adapt their distinction between a stated personal concern and valid consent, including capacity, dependence and representation. These developed domain treatments keep consent connected to reasons and limits; they do not establish a universal political doctrine. Section :2.2 uses that explanatory discipline while leaving domain requirements with their sources. |
 | FPF subject-pattern discipline | Ethical entry does not absorb evidence, causality, assurance, architecture, or bias-audit owners. |
 
 ### D.1:10 - Relations
@@ -89731,6 +90239,7 @@ This keeps FPF usable in engineering, research, organizational, public, and AI-e
 - Builds on `A.1` and `A.7` for EntityOfConcern and description distinction.
 - Coordinates with `A.1.CSD` when a current ethical claim still lacks an adequate set of Systems that may bear consequences; D.1 consumes the returned account and does not add value fields to its neutral core.
 
+- Coordinates with `B.5.RA` when the ethical argument must be recovered from a source and with `B.5.RR` when a changed premise requires revising its conclusions.
 - Coordinates with `A.10` for descriptive provenance and bounded reliance on the source or evidence used.
 - Coordinates with `C.11.DUA` when a proposed ethical record or evidence demand needs appraisal of its contribution, feasibility, burden, or requirement merits.
 - Coordinates with `B.3` when an assurance claim is current.
@@ -99412,7 +99921,7 @@ Restore the governed target before choosing replacement wording:
 
 1. Name the exact `GovernedTextSpan`, the `ClaimBeingMade`, and the `ObjectUnderWordingRepair`.
 2. Decide whether the wording is ordinary prose, a quotation, or wording relied on for an FPF-governed claim. Ordinary and quotation uses can close without inventing a technical target.
-3. When the phrase is `mantra move`, first ask which use is present. In a post-qualification A.22.CGUS demonstrative slice that shows pattern use, recover the exact E.11.PUA `PatternUsePracticeContinuationDescription@Context`: its proposed use, expected result and kind, PatternID and name, current condition, and continuation disposition. Keep `mantra move` only as bounded Plain wording for that shown continuation. A.22.CGUS supplies the structure and slice boundary; it does not create a universal displayed-row kind. For a Plain local mantra, name the bounded result and restore the move-like wording through that result's exact predicate or constraint. For a Plain long mantra, name the intended final result and the particular map location whose answer or stop is current, then state the exact answer or blocker and use the subject pattern only as a locator. Do not invent a demonstrated row, collapse the long map into one pattern's Solution, or treat any branch as Work order.
+3. When the phrase is `mantra move`, first ask which use is present. In a post-qualification A.22.CGUS demonstrative slice that shows pattern use, recover the exact E.11.PUA `PatternUsePracticeContinuationDescription@Context`: its proposed use, expected result and kind, PatternID and name, current condition, and continuation disposition. Keep `mantra move` only as bounded Plain wording for that shown continuation. A.22.CGUS supplies the structure and slice boundary; it does not create a universal displayed-row kind. For a Plain local mantra, name the bounded result and restore the move-like wording through that result's exact predicate or constraint. For a Plain long mantra, recover the intended connected reasoning and the particular question now at issue. State the answer or blocker, the subject pattern that supplies it, and the other answers whose use depends on its conditions. A whole-account question may require comparing those answers rather than finding one final result or one missing map location. Do not invent a demonstrated row, collapse the long map into one pattern's Solution, or treat any branch as Work order.
 4. When `move`, `movement`, `direction`, or similar wording predicts a later evaluation result, recover the coordinate-and-scale-qualified prediction, its proposal basis, and protected tradeoffs under `E.23`. Use `ExpectedEvaluationResultChange@Context` only when E.23's conditional account is needed for the receiving use. The prediction is not an operation, transition, movement, work occurrence, or proof of improvement.
 5. For every other governed use, name the exact recovered value or relation, its kind, and its subject pattern. For a relation claim, name the admitted direct predicate and actual participants. Add a `RelationSignature` reference only when an admitted reusable typed declaration is current and the receiving use needs that declaration. If the governed value is already clear, use its pattern directly.
 6. Split the text when one phrase carries more than one governed value. A recommendation, method, transformation, readiness claim or result, gate decision, publication relation, and performed Work do not become one value because the same word was used for them.
@@ -99697,7 +100206,7 @@ The selected line is FPF's direct-claim recovery. The external sources contribut
 ### E.10.MOVE:12 - Relations
 
 - **Builds on:** `F.19`, `E.10`, `E.10.ARCH`, `A.3.4.P`, `A.22.CGUS`, `E.11.PUA`, `E.11.PUR`, `E.23`, `A.15.5`, and `E.24`.
-- **Coordinates with:** `E.11.PUA` for the `PatternUsePracticeContinuationDescription@Context` shown by a qualified practice continuation; `E.11.PUR` for `PatternUseCoordination@Context`, one `PatternUseOrderingRelation@Context`, or the bounded total-order `PatternUseSequence@Context`; `E.10.DEV` when development or evolution wording and trajectory wording carry independent ambiguities; `A.1.STM` for a non-CGUS system-thinking long-mantra map location; `A.3.3`, `A.3.4`, `A.3.4.P`, `B.4`, `C.27.TA`, `C.29`, `C.17`–`C.19`, `C.22.2`, `C.11`, A.15.2, `C.36`, and `A.16.0` for trajectory exits; and `E.18`, `E.18.1`, `A.15`, `A.21`, `C.24`, `C.30`, `E.17`, `F.17`, `F.18`, `G.11`, A.10, and each recovered value's direct subject pattern. `F.18` governs a durable-name decision; `G.11` governs refresh orchestration only when currentness, edition, telemetry, freshness, or decay is the actual claim.
+- **Coordinates with:** `E.11.PUA` for the `PatternUsePracticeContinuationDescription@Context` shown by a qualified practice continuation; `E.11.PUR` for `PatternUseCoordination@Context`, one `PatternUseOrderingRelation@Context`, or the bounded total-order `PatternUseSequence@Context`; `E.10.DEV` when development or evolution wording and trajectory wording carry independent ambiguities; `A.1.STM` for connected system-thinking project reasoning and its long-mantra reminder; `A.3.3`, `A.3.4`, `A.3.4.P`, `B.4`, `C.27.TA`, `C.29`, `C.17`–`C.19`, `C.22.2`, `C.11`, A.15.2, `C.36`, and `A.16.0` for trajectory exits; and `E.18`, `E.18.1`, `A.15`, `A.21`, `C.24`, `C.30`, `E.17`, `F.17`, `F.18`, `G.11`, A.10, and each recovered value's direct subject pattern. `F.18` governs a durable-name decision; `G.11` governs refresh orchestration only when currentness, edition, telemetry, freshness, or decay is the actual claim.
 - **Selected by:** E.10 compact routing when move, readiness, route, path, or trajectory wording still has an unresolved FPF-governed use after the `F.19` reading and no direct subject pattern has already resolved it.
 
 ### E.10.MOVE:End
@@ -101042,6 +101551,8 @@ Keep three reader-facing jobs distinct. A compact locator points to a direct pat
 When a Card or mantra is useful because it keeps material dependencies among several independently reusable recurring problem–move–result contributions in attention, return to the candidate-recognition move in `E.4.DPF:4` before treating the Card as only an access front. Its form is a cue for that comparison, not proof of framework scale or product membership. When no live framework question remains, continue choosing or maintaining the entry form under the tests below.
 
 The displayed entries are examples of how the pattern language can help, not a catalogue or coverage boundary. When both uses matter to discoverability, show at least one ordinary example of cheap direct help and a few cards that demonstrate extended cross-pattern use. Say plainly that many other questions can start from the index, a guide, search, or a small plausible set of direct patterns. Do not turn every useful topic, pattern, or reader-entry set into a public example merely to prove breadth.
+
+The following comparison selects a Practical-Use Card for an entry; it does not select which subject reasoning the language preserves. A long mantra and its developed account can explain the language's architecture even when an ordinary entry is sufficient. Use E.11.PFP:4.7.2 to publish that connected explanation and its overview without forcing it into a card.
 
 Before selecting a card, compare the proposed entry with the same truthful content but no mantra. If a cold reader can still recognize the situation, choose the direct pattern and any plainly conditioned next use, recover the first result or blocker, and return after interruption or repetition just as reliably, keep a locator or ordinary entry. Select a card only when, without the repeatable formula, the reader is materially more likely to lose a choice-changing question, intermediate result, check, branch, or return, and repeating the mantra restores that reasoning. Immediate recognition, repeated exposure, fluent recitation, pattern count, heading depth, an existing label, a quota, or a wish to avoid validation is not evidence. If the mantra crowds out the first result or return, or adds no recall advantage over the same content without it, use the ordinary entry or locator instead. Check declared cards and plausible non-card entries under the same test; the number of cards is an outcome, not a target.
 
@@ -102735,6 +103246,22 @@ Number sibling sections in reading order, starting at 1, and carry the complete 
 The prefix lets a reader distinguish a whole-language Problem frame from the Problem frame of one pattern before choosing what to read or cite. Visible names and numbers also survive copying and printing, where a hidden anchor cannot help.
 
 The visible address and title use the ASCII ` - ` separator. Build each clickable fragment from the complete rendered heading according to the target Markdown carrier's rules, including punctuation removal and duplicate handling. When a heading changes, update its direct links in the publication, source templates and public consumers together. Check that the link resolves to the intended heading, then read that target for the answer the link promises. Keep the visible address usable for search and non-clickable copies. E.8:4.1.1 excludes raw HTML from this form, including compatibility anchors.
+
+##### E.11.PFP:4.7.2 - Make the language's long reasoning visible
+
+Use a long mantra when readers need to keep a substantial connected account in attention across several questions, explanations or pattern contributions. Recover that account before compressing it. Identify what the reader is trying to understand or obtain, the questions that must be related, and why their answers belong together. A result dependency is one possible connection; shared assumptions, jointly necessary conditions, alternative constructions, conflicting demands and returns can be equally important. Recover missing reasons through B.5.RA and develop missing constructive joins through E.4.CM. The presence of one operational step per source topic does not preserve the explanation.
+
+Explain how to assemble and revise the answers. Which partial answers can be used now, what remains unknown, and how do local answers constrain the whole? Which changes reopen which other answers? How can a reader choose the next inquiry or construction without mistaking the teaching order for a work sequence? Use the actual subject knowledge to answer these questions. A drawing of connected boxes or a sequence of PatternIDs cannot provide an absent inference, construction or applicability condition.
+
+Keep the full explanation at the scale that owns its subject. E.4.CM:4.5 distinguishes completing an existing pattern, developing a separately useful recurring Method as a pattern, and explaining the material relations of several Methods in an Architectural Reference. The title or mnemonic form settles none of those choices. A framework can have several long mantras for different questions; a repertoire need not acquire one artificial total sequence. Where an existing explanation is sufficient, preserve it and repair its name or access instead of writing a shorter substitute. Where a source explanation enables readers to understand or adapt the contribution, retaining its thesis alone is insufficient.
+
+Give the contribution a recognizable name, a stable existing kind of address, and both a compact reminder and a reachable developed account. Use F.18 when selecting a durable public name. Use the ordinary pattern or Reference section address that fits its owner; no new markup or universal mantra record is required. The compact expression may use questions, relations or actions. Choose it from the explanation rather than restricting the explanation to what fits one memorable sentence. Preserve the subject and scope across the two forms.
+
+Make the account visible at each assembly level where it helps explain the whole. A Framework Reference explains the framework's connected reasoning and returns to its full pattern bodies. A Suite or Library Reference explains the connections introduced at that wider level and returns to the constituent accounts, without copying all their explanations. In a README, show the most consequential reasoning connection in ordinary language, name the long mantra when one is useful, and give a direct return to its full account. This overview is not necessarily a Practical-Use Card. E.11's comparison of entry forms decides whether a card helps a particular first-entry use; it does not decide whether the underlying subject reasoning is worth publishing.
+
+Treat a compact order as a teaching unfolding of the connected reasoning. Explain material branches and returns, and use A.22.CGUS for the actual continuation and structure questions. A phrase order does not determine Work order or qualify a CGUS by itself. Different long mantras can constrain one another through a shared subject or premise: for example, a system construction changes the means of obtaining it, while a capacity limit can make that construction or its promised use worth reconsidering. State that specific connection; neither co-location in a book nor a universal instruction to read every mantra establishes it.
+
+Check what the reader can reconstruct from the publication. Can the reader explain the needed grounds, recognize locally plausible but jointly incompatible answers, and determine which answers a consequential change reopens? Use materially different circumstances when they expose a hidden restriction. These are questions about recoverable explanation and application; fluent recitation, one completed example and a mnemonic advantage do not answer them. Conversely, a source-grounded explanation can be useful without a measured recall advantage. Claims of improved learning, memory or field performance require their own evidence.
 
 ### E.11.PFP:5 - Archetypal Grounding
 
