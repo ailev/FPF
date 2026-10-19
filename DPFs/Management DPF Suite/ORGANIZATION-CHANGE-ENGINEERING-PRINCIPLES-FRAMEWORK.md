@@ -61,7 +61,7 @@ Search the Keywords & Search Queries column for a difficulty, subject, or result
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | [OCE.1 - Identify the Changed Organization and Intended Contribution](#oce1---identify-the-changed-organization-and-intended-contribution) | Stable | *Keywords:* change focus, organization boundary, outside contribution. *Question:* Which organization are we changing, and what contribution should guide the change? | FPF A.1.SCR, A.1.CSD, A.15.6 |
 | 2 | [OCE.2 - Recover Current Organization Work and Arrangement](#oce2---recover-current-organization-work-and-arrangement) | Stable | *Keywords:* current organization, actual Work, formal and informal arrangements. *Question:* How does the organization get work done, and which relations support or obstruct it? | OCE.1; FPF A.22, A.2.1, A.13, A.15.1 |
-| 3 | [OCE.3 - Generate and Compare Organization Concepts](#oce3---generate-and-compare-organization-concepts) | Stable | *Keywords:* organization concepts, alternatives, exploration. *Question:* Which materially different organization concepts are worth comparing? | OCE.1, OCE.2; FPF A.22, C.17, conditional C.18, C.11 |
+| 3 | [OCE.3 - Generate and Compare Organization Concepts](#oce3---generate-and-compare-organization-concepts) | Stable | *Keywords:* organization concepts, alternatives, coordination, independent decisions, initiative. *Questions:* Which materially different organization concepts are worth comparing? What preparation and interaction let participants make independent decisions whose contributions remain usable together? | OCE.1, OCE.2; FPF A.22, C.17, conditional C.18, C.11 |
 
 **Part II - Design Organization Relations and Work Arrangements**
 
@@ -839,6 +839,8 @@ Use this pattern when one incumbent arrangement, target operating model, topolog
 
 Begin with a compatible `OCE.1` focus and `OCE.2` current account or equivalent content. State which gaps are tolerated and which block comparison.
 
+A bounded question can be how to let contributors act independently while their results still fit, or how to organize inquiry when the tasks and best methods are not yet known. Recover the intended contribution or worthwhile problem, the permitted scope of inquiry and the conditions that any candidate must respect. Enough knowledge to compare a next arrangement need not mean a complete future task plan. Use the coordination derivation in OCE.3:4.1.1.1 when the current arrangement leaves this choice unexplained; an already adequate division and coordination of work needs no redesign.
+
 The first useful result is a small decision set of materially different possible organization concepts. Describe each concept with its assumptions, participant input, supporting evidence, trade-offs and authority conditions. A rejected concept remains useful when it exposes a hidden contribution or burden.
 
 Do not use OCE.3 to realize the proposed configuration, establish a position, assign holders, establish capability, authorize change Work, or prove adoption or effectiveness. Send selected design questions to `OCE.4`–`OCE.8` and realization to `OCE.9`.
@@ -857,6 +859,8 @@ Do not use OCE.3 to realize the proposed configuration, establish a position, as
 | coexistence and change burden | The demands and risks of changing while continuing Work shares the same conditions. These include learning and migration effort, provider and governance demands, service interruption, opportunity costs, and the effort or risk of reversal. |
 | organization-concept comparison | Alternatives, criteria, evidence, uncertainty, consequences, decision or stop, and reopen conditions. It is not a target organization by itself. |
 
+A concept describes an organization and its possible relations. Name the people or other systems expected to enact the relevant roles, the capabilities they need, the methods they can use, and the agreements or decisions that would make their contributions available. A role name does not supply a capable holder; knowledge of a rule does not establish commitment to act under it; an agreement does not perform the work. A shared aim or belief can guide the selection of different methods without itself becoming one method.
+
 ### OCE.3:1 - Problem Frame
 
 Organization concepts arrive with persuasive forms. Charts foreground reporting; team topologies interaction; provider proposals service boundaries; process views recurring contributions. Each can expose a question, but none contains every authority, capability, resource, contribution, or consequence relation.
@@ -869,6 +873,8 @@ A favored concept turns evidence collection into confirmation. Practitioners com
 
 Several diagrams may still be views of one concept. Without a serious alternative and participant contribution, the decision cannot expose which assumption makes the preferred concept better.
 
+Coordination can also remain unexplained inside an apparently complete concept. A common goal, trained team, interface specification or manager is named, yet no one has established which decisions it makes compatible and which still require clarification. More meetings may then repeat known information while a resource conflict or incompatible result goes unresolved. Conversely, a blanket demand for agreement can suppress useful independent initiative.
+
 ### OCE.3:3 - Forces
 
 | Force | Tension |
@@ -879,6 +885,9 @@ Several diagrams may still be views of one concept. Without a serious alternativ
 | Novelty and continuity | New relations may unlock capability, while incumbent relations carry memory, authority, and service continuity. |
 | Product/organization alignment | Mirroring can reduce some coordination, while one-to-one correspondence is contingent. |
 | Decision speed | A bounded selection is useful, while scalar scores create false precision. |
+| Independence and fit | Local choice uses situated knowledge, while its effects must remain compatible with other contributions and shared constraints. |
+| Preparation and adaptation | Prior rules, knowledge and commitments can reduce later coordination, while their applicability can change during the work. |
+| Joint discovery | Combining different knowledge can make a new contribution possible; removing every dependency can remove that possibility with its coordination cost. |
 
 ### OCE.3:4 - Solution
 
@@ -903,6 +912,8 @@ Use `C.17` only after candidates exist, and only for novelty, diversity, value, 
 
 Begin with a short explanation of the work: the receiver needs a particular result under certain conditions; current contributors attempt to obtain it in a known way; a recovered difficulty prevents or burdens that contribution. Keep an explanation that remains uncertain as a hypothesis. If the difficulty is merely a missing permission or an isolated execution error, repairing that condition may be the serious incumbent option. Larger regrouping needs a reason that the local repair leaves unanswered.
 
+For open inquiry, the current arrangement may concern how participants notice difficulties, choose investigations or obtain help, while the method for the future contribution remains unknown. Explain that current work and the unanswered question. The candidate then compares ways to make the inquiry and subsequent method construction attainable, without inventing a complete task sequence in advance.
+
 **Find the contribution that must change.** Follow the receiving result back through the necessary subject work, using `B.1.5.EW` if its constituent connections are unclear. Obtain the relevant professional explanation when “prepare evidence”, “support users” or another label conceals work the designer does not understand. Identify where the current way creates delay, repeated interpretation, loss of information, incompatible demands or another supported difficulty. This yields a concrete design question, such as how Electrical's changing compatibility evidence can reach package assembly early enough, rather than an instruction to become more cross-functional.
 
 **Give a reason for grouping and allocation together.** Use the specialization reasons and contribution-crossing specification in `OCE.4:4.0–4.1` to develop the candidate. Close, frequent mutual adjustment can favor bringing contributors together around a result. Scarce expertise, shared equipment, professional development or independent judgement can favor retaining a specialization and improving its contribution to several receivers. Compare those reasons in this case. Name who would supply each needed result, who would receive it, and how an unusable result returns. A proposed group with an unfilled contribution remains incomplete. C.32:4 supplies functional allocation, retargeting and bearer-feasibility repairs when needed. The draft concept can be refined through OCE.4; a full contribution-architecture decision need not precede generating it.
@@ -915,6 +926,46 @@ Begin with a short explanation of the work: the receiver needs a particular resu
 
 Generate another serious combination by changing a consequential premise of that mechanism. Retaining specialists with a reliable crossing, grouping recurring contributors around a receiving result, and obtaining a contribution from a provider can respond differently to scarcity or delay. A provider/AI branch is useful only when a plausible supplied contribution exists; OCE.8 develops the complete work arrangement. A cosmetic reporting change that leaves the causal difficulty and relevant relations untouched adds no alternative.
 
+###### OCE.3:4.1.1.1 - Derive coordination and the scope of independent decisions
+
+Coordination makes separately undertaken contributions fit in the receiving work. Start from the decisions and dependencies that need this fit, then construct the combination of advance preparation and interaction during performance. The same organization can use different combinations for different contributions. A familiar name for a coordination mechanism helps recall a possibility; it does not determine the combination.
+
+**Find what another contribution can change.** Follow one consequential receiving use through the current or proposed work. Ask which result, timing, resource use or decision by one participant can change what another must do, whether their result can be used, or whether a shared condition remains satisfied. Obtain that answer from the participants and relevant subject methods. A product interface may hide a shared calibration state; separate work packages may compete for one specialist; two autonomous local decisions may together exceed a common resource. Preserve the direction and occasion of each material dependency instead of assuming that everyone depends on everyone in the same way.
+
+Distinguish a dependency of results from a participant's need to anticipate another participant. If a receiver can wait for an accepted input and choose its own action afterwards, the input relation need not require continuous negotiation of both parties' work. If choices must be made simultaneously, information arrives too late, or a participant must commit before another's action is observable, the arrangement needs a usable expectation, a shared decision, or a change that removes the need to decide blindly. Changing the sequence, separating a shared resource or making a result independently usable are candidate changes, with their own delay, cost and consequences. A claim that the dependency has disappeared needs the relevant technical and resource grounds.
+
+**Recover the knowledge and agreement needed before each decision.** For a materially dependent decision, ask what the participant must know, be able to rely on, or be entitled to change at that time. The answer might be an input's meaning and tolerances, another role's expected contribution, a confirmed capacity interval, an applicable response rule, or a limitation that requires a joint decision. Knowledge of all other participants' internal methods is usually unnecessary. Complementary expertise can remain different while the participants understand enough of one another's contributions to combine them.
+
+Separate knowing what another might do from having their commitment, and separate both from knowing who can authorize a change. An accurate prediction of refusal does not make a contribution available. Likewise, communicating an incompatible demand more clearly does not reconcile it. Use OCE.4's result crossing to obtain the required supplied result, receiving conditions and exception return; use the relevant authority and resource owners to obtain the conditions on which reliance would depend. Keep proposed conditions distinguishable from conditions already effective.
+
+When the decision-specific knowledge is missing or inconsistent, use OPS.4:4.1 in the Operations Management Principles Framework to obtain current claims, grounds, uncertainty, permissions and participant views for those decisions. Bring that account back to the candidate. Different views may suffice; copying one dashboard to everyone neither creates the necessary interpretation nor gives everyone the same decision rights.
+
+**Test the scope left for independent choice.** Identify the proposed range of decisions left to each participant. Use the relevant subject and resource grounds to establish where the resulting contributions remain usable together and the shared conditions remain satisfied across that range. Challenge the account with a consequential different choice that another participant is actually permitted and able to make. If it defeats the result, identify what needs to be constrained, known or jointly decided. If the grounds support only a narrower range, retain independence there. The task is to justify the proposed freedom, not to enumerate every imaginable action; a successful example alone does not establish the whole range. A consequential unknown remains an assumption to investigate or a limit on the permitted use.
+
+State the independence in terms of decisions: a producer may choose its internal technique while preserving agreed output and timing; a local organizer may choose a useful subject within an accepted purpose while lacking permission to promise another group's venue. Physical compatibility, applicable protection, resource availability and authority can each limit independence for a different reason. Retain the freedom that remains rather than treating one shared constraint as a reason to centralize every decision.
+
+**Construct advance conditions together with a way to handle what remains uncertain.** For recurrent situations that participants can recognize, a shared procedure can specify actions and handovers. It reduces repeated choice when its conditions hold. Use OPS.2:4–5 to obtain a usable operating method and a bounded exception rather than extending the procedure to a situation it cannot handle. An agreed result specification instead leaves more choice of internal method when compatibility can be established from the supplied result and its conditions. Obtain the needed result and return conditions through OCE.4 and the product/organization compatibility through OCE.7; a specification does not erase a shared state, resource conflict or regulated process condition.
+
+Where experienced participants need to anticipate complementary contributions rapidly, preparation can make their interaction intelligible without detailed instructions on every occasion. Use HCD.22:4.2.1 in the Human Capability Development Principles Framework to obtain preparation for the whole episode, the different role contributions and a consequential exception. Bring the attainable capability and its support conditions into the concept. Similar certificates or identical vocabulary do not establish that these particular holders can interact under the proposed conditions. Training need not make their professional knowledge interchangeable.
+
+For work whose next significant choices cannot be specified in advance, provide interaction where the relevant knowledge can meet. Participants may adjust directly, or an integrator with suitable information, time and decision power may coordinate particular decisions. Give that interaction an actual purpose: resolve a compatibility question, reconcile two uses of a constrained resource, interpret a new observation or revise a shared expectation. Determine which information must reach whom and in time for which decision. A shared meeting is one possible means; an established exchange can be sufficient. Keep independent acceptance and other separately governed decisions with their legitimate owners.
+
+These possibilities can operate together. Trained contributors can follow a routine handover, choose their internal methods, and temporarily clarify an unusual result. An integrator can resolve one conflict without directing every task. Compare changing the dependency itself with supporting more interaction around it. Count preparation and maintenance as well as communication during performance; moving effort earlier does not make it free.
+
+**Use shared purposes and norms to support initiative where tasks remain open.** A common direction can let participants notice opportunities, choose a contribution and devise a method without waiting for a central task list. Make the direction usable through its reasons: which receiving need or possibility matters, why a proposed contribution could help, which consequences are unacceptable, and which uncertainties call for inquiry. STR.5:4.3–4.4 in the Strategy Principles Framework supplies this direction and its use in discriminating proposals. Bring back the grounds for a particular initiative, its open questions and the conditions under which it would no longer fit. Shared slogans alone cannot perform this selection.
+
+Allow a participant to propose an unanticipated task or a different way of obtaining the contribution. If the way is not yet known, use FPF C.39 to construct or obtain it. Where the subject is pursuing continuing development, use FPF C.40.OD for noticing difficulties and opportunities, problematizing them, developing worthwhile challenges and continuing from results. The present organizational comparison asks what participation, knowledge, authority and support make that development attainable. It does not replace development with the execution or acquisition of an already selected method.
+
+Initiative can proceed with the participant's available capability and resources under the effective conditions on their use. When it would change a shared interface, consume another party's resource, create a joint obligation or affect protected work, obtain the corresponding contribution or decision before relying on it. Shared purpose does not require one employer or a common budget, but neither does it establish another participant's consent. In wider exchange, ECO.8:4–5 in the Economic Reasoning and Coordination Principles Framework supplies the boundary between direct cooperation and contractual or rule-based contributions; use its adjustment to avoid promising voluntary help where a paid commitment is needed, or removing discretionary help on which the work depends.
+
+For a norm to support such initiative repeatedly, participants need a way to learn its meaning from actual choices, challenge a poor application and maintain it when conditions change. Use OCE.10 to obtain the participation and cultural support that this arrangement needs. The result may preserve a norm, alter its supporting conditions or expose an incompatible incentive. Agreement on a desirable direction, willingness to contribute, competence and available means remain distinct questions.
+
+**Make the combination actionable and revisable.** For each serious candidate, explain which prior conditions allow which independent decisions, which remaining decisions require interaction, and what observation or exception returns a decision for reconsideration. Reuse ordinary agreements, established practices and available preparation that already provide these conditions.
+
+Compare the combination with a credible incumbent repair at the same receiving use and horizon. Include displaced work, specialist scarcity, preparation, latency, lost local information, upkeep and the cost of a wrong assumption. Shared goals can coexist with conflicting rewards; correctly anticipated actions can still fail to produce the required whole. Bring those failures back to participation, contribution and resource design rather than prescribing more communication by default. Use OCE.3:4.1.2 to challenge the whole combination and retain ties or a justified stop.
+
+After selection, LDR.4:4.5–4.7 in the Leadership Principles Framework can obtain the effective decisions, actual commitments, mutually visible start and first useful handover when those contributions are missing. Return unresolved support or authority to its owner; OCE.9 governs realization of the organizational concept. Neither the comparison nor its shared explanation makes the proposed arrangement actual. During later use, a changed dependency, failed expectation, new capability or changed receiving need reopens the affected choice. Successful delivery can also reveal a new development possibility; it does not require freezing the arrangement or automatically launching another change.
+
 ##### OCE.3:4.1.2 - Challenge the combination and change it
 
 Bring each candidate's prospective result path and assumptions to the general method that answers the unresolved question. `C.30.ASV:4.5a` distinguishes Method composition, work, information, support and other structures when that distinction changes the design; `C.32.MWA:4.1–4.4` combines those accounts and exposes conflict or burden moved between them. Enter MWA with a prospective case for a proposed organization of Method use. Existing observed relations keep their own evidence; missing Work identity does not become an invented obtaining occurrence.
@@ -923,6 +974,8 @@ For the finite change from the incumbent to a candidate, use `C.11.CRC:4` to com
 
 The organization question supplied to these methods is whether the proposed specialization, allocation, decisions, information and participation can jointly deliver the contribution. For example, a common integration queue may reduce duplicated interpretation yet delay local corrections. Keeping local output targets while adding a shared evidence obligation may make the apparently available contributors unavailable in practice. Such an interaction gives a reason to change a relation or support condition, retain a bounded exception, reduce the demand, or reject the candidate. A compensating policy is part of the candidate, with its burden and authority conditions, rather than a free remedy added after comparison.
 
+Challenge the claimed independence as part of that interaction question. A new shared state can defeat an output interface while leaving professional preparation useful. A changed role holder can invalidate an expectation without changing the technical interface. A new resource commitment can block the next occasion without disproving the earlier method. Reopen the condition that changed, including a need for new subject knowledge, instead of replacing the entire coordination combination by habit.
+
 Retain an incumbent repair when it satisfies the needed result at acceptable burden. Retain a tie when the observations do not distinguish the serious configurations. Request only the next result that could change the choice, and return a specific feasibility or authority gap when no candidate can meet the current conditions. Concept comparison can finish with that honest stop; it does not require a workshop, organization-wide agreement or an experiment for every alternative.
 
 #### OCE.3:4.2 - Record the Result
@@ -930,7 +983,7 @@ Retain an incumbent repair when it satisfies the needed result at acceptable bur
 | Result position | Required content |
 | --- | --- |
 | comparison boundary | Organization, contribution, decision, authority, horizon, non-negotiables, and tolerated/blocked gaps. |
-| generation account | Difficulty and surviving explanations; reasons for each combination and its proposed mechanism; changed relations, adverse interaction and revision/rejection; generation stop and any conditional `C.18` use. |
+| generation account | Difficulty and surviving explanations; reasons for each combination and its proposed mechanism; changed relations, adverse interaction and revision/rejection; generation stop and any conditional `C.18` use. For a coordination choice, prior conditions, independent decisions and remaining interaction are explained together. |
 | participant contribution | Participants sought, contribution used, missing voice, protection/burden limit, and effect on alternatives or comparison. |
 | concept structures | Possible supplied-result, Work, eligibility/assignment, authority, access, information-use, service, coordination, capability, and provider relations. |
 | assumptions | Capability, authority, access, commitment, product/service, participation, and service-continuity claims with status. |
@@ -943,7 +996,9 @@ Retain an incumbent repair when it satisfies the needed result at acceptable bur
 
 Teams compare possible organization relations rather than fashionable names. The incumbent can be repaired, product and organization structures can differ deliberately, participants can change the alternatives without receiving an automatic veto, and provider or AI contributions can be designed without pretending that outsourcing or automation supplies authority, capability, or results.
 
-### OCE.3:5 - Archetypal Grounding -- PumpWorks Concepts
+The manager can also explain why particular decisions may be made independently, what the participants must know or agree before acting, and what still needs coordination during performance. This makes a proposed reduction in meetings, an investment in shared preparation or support for independent initiative examinable through its contribution and conditions.
+
+### OCE.3:5 - Archetypal Grounding -- PumpWorks and Other Coordination Concepts
 
 The comparison uses `PumpWorks-EngineeringOrg`, weekly evidenced AI-inspection releases, the `OCE.2` account, and non-negotiable safety authority, evidence traceability, and continuing service.
 
@@ -975,6 +1030,32 @@ If the authorized decision-maker must decide before provider and capacity eviden
 
 **Change the setting and the available evidence.** In a member-governed standards association, the comparable difficulty may be late cross-language evidence in an amendment packet. Missing volunteer activity logs leave the source of delay uncertain, but permitted packet revisions and two contributor accounts show repeated requests for clarification. Retaining language specialists with an explicit clarification return is an incumbent repair. A shared editorial group is another candidate only if volunteers can contribute in compatible windows and the relevant body can establish the proposed arrangement. Suppose the bylaws reserve acceptance to voting members. Giving that decision to a paid coordinator would violate the authority condition; concentrating clarification in one language could also suppress other language groups' concerns. Retain those decisions, compare a bounded editorial contribution with the distributed repair, and carry the unresolved delay explanation forward. The same constructive reasoning yields different arrangements because authority, participation and receiving use differ.
 
+#### OCE.3:5.1 - Preserve independent methods while revising a shared condition
+
+Suppose two language teams prepare versions of the same technical explanation. For this constructed case, an accepted source text, a shared glossary for the consequential terms, the release date and separate review commitments are already available. Each team has the relevant translation capability and its own working time. The receiving publisher needs both versions to convey the same accepted claims, but does not need the teams to use identical drafting tools or sentence construction.
+
+The incumbent requires a joint meeting for every drafting decision. The manager traces what the other language team's choice could change. Routine local phrasing within the accepted meaning does not alter the other team's usable contribution. The candidate retains local drafting, the agreed source and glossary, the review obligations and a return for disputed meaning. Shared preparation supports recognition of that return; it does not require translators to possess the technical reviewer's authority. OPS.4 can make the applicable source revision and unresolved claims available to each team. LDR.4 is needed only if the changed commitments or beginning are not yet established. Under these stipulated conditions, repeated joint approval of routine phrasing adds no required coordination contribution.
+
+Now a source ambiguity is discovered: the same expression could assert either a measured property or a condition assumed only for the calculation. The teams cannot independently choose different readings and still deliver the same accepted claims. They return that subject question to the technical author and authorized reviewer. A temporary joint clarification establishes the intended assertion and its limits; the source owner issues the resulting revision and the affected parties receive it before relying on it. Local drafting then continues on that basis. If the subject question cannot be answered in time, a scoped release or delay must be decided under the actual publication authority.
+
+The new dependency changes the coordination of meaning, not every sentence decision. A shortage of review time would require a different repair: an attainable review commitment, reduced scope or another date. Neither another glossary discussion nor common enthusiasm supplies that time. The case illustrates a changed selection under stated conditions; it does not establish a measured benefit of fewer meetings.
+
+#### OCE.3:5.2 - Support initiative before the tasks and method are known
+
+Consider a volunteer archive group whose accepted direction is to help visitors understand how uncertain historical claims are supported, while preserving the source records and avoiding unsupported certainty. Contributors have different expertise, their own means and no power to allocate one another's work. The group currently waits for a coordinator to list and assign every improvement. The comparison concerns whether bounded independent initiatives could expose useful problems and produce contributions sooner without creating unsupported promises.
+
+A volunteer notices that visitors repeatedly treat a record's entry date as the date of the event described. The problem is not yet a specified correction task: the group does not know how often the distinction matters, which cases have both dates, or what explanation would help. Using the direction's grounds, the volunteer proposes an inquiry into this difficulty rather than simply adding another transcription target. Another contributor can distinguish the archival fields; a third can examine how visitors use a proposed explanation. Combining their knowledge might reveal a problem and a method that none could have specified alone.
+
+The candidate permits the volunteer to examine the permitted public records with their own available time and tools. It keeps participation by the other contributors conditional on their actual offers. The volunteers use C.39 to develop a way to distinguish the claims and try an explanation; C.40.OD supplies the continuing development question rather than presuming that this first idea is the final problem or method. A short exchange is warranted where their interpretations affect one another. There is no reason to require a central decision for every observation or to standardize a procedure before the relevant distinctions are understood.
+
+Suppose the inquiry produces a useful distinction between two dates and a proposed explanatory note, but publishing it would require the archive editor's time and permission to change the public description. The volunteers can develop their proposal independently; they cannot promise that publication. The editor can offer one review interval for a limited set of notes. The candidate therefore combines independent inquiry, optional collaboration, a bounded editorial commitment and an agreed return for unsupported claims. If another initiative requests the same interval, the participants use the actual allocation rule or obtain a decision from its holder. A shared aim cannot make the two commitments fit by itself. Paid specialist work, if needed, enters through its own agreed terms using ECO.8.
+
+The group compares this arrangement with keeping central assignment. A coordinator may still be useful for a shared queue or consequential conflict. What changes is that proposing and investigating a suitable contribution no longer waits for a complete task list. The comparison includes the editor's burden and the cost of discovering that an initiative does not fit. OCE.10 supplies support for the norm of proposing grounded inquiries, returning limitations and recognizing useful challenges; recounting a successful initiative can help later contributors learn that norm.
+
+On these stipulated facts, the participants select a bounded trial of independent inquiry with the editor's offered review interval. They retain the actual allocation rule and decline to require a complete central task list before inquiry can begin. If the editor withdraws the interval, the inquiry and its learning can remain useful, but the planned publication loses its support and must be reconsidered.
+
+After the first note is accepted, further records may expose a different uncertainty, or participants may discover a more valuable way to help visitors. C.40.OD then supplies the next development judgement. The completed note remains a useful finite result; it neither completes development nor obliges the group to pursue every new possibility. This candidate preserves initiative and the growth of knowledge while keeping shared commitments bounded.
+
 ### OCE.3:6 - Bias-Annotation
 
 | Recurring bias | Likely drift | Repair |
@@ -985,6 +1066,8 @@ If the authorized decision-maker must decide before provider and capacity eviden
 | mirroring determinism | Product architecture dictates organization structure one-for-one. | Test named correspondences and deliberate non-mirroring. |
 | resource invisibility | A concept moves scarce capability or burden without showing it. | Compare participants, resource windows, and transferred burden. |
 | selection-as-reality | The chosen concept is reported as the new organization. | Preserve possible status until realization and observation. |
+| communication as the only remedy | More interaction is prescribed for an unavailable resource, incompatible commitment or missing capability. | Identify what decision needs knowledge and obtain the separately missing contribution. |
+| common-purpose overreach | A shared direction is treated as permission to bind another contributor. | Preserve independent initiative within effective conditions and obtain the commitments it actually needs. |
 
 ### OCE.3:7 - Conformance Checklist
 
@@ -993,6 +1076,8 @@ If the authorized decision-maker must decide before provider and capacity eviden
 - [ ] Participants whose Work or burden can change the alternatives contribute under bounded protection and authority.
 - [ ] The set contains materially different combinations and an incumbent-repair branch, with a reason linking each to the recovered difficulty.
 - [ ] Each serious combination has a mechanism hypothesis; a consequential interaction has been examined and its compensation, limit or rejection is visible.
+- [ ] Where coordination is a design question, the combination explains what is prepared or agreed in advance, which decisions remain independent, and which exceptions or changes require interaction.
+- [ ] A shared direction used for initiative has usable grounds for selecting a contribution, while missing methods, capability, resources and authority retain their own needed work.
 - [ ] `C.17` characterizes existing candidates; `C.18` appears only when retained or open-ended exploration is current.
 - [ ] Each concept names possible direct relations; views remain descriptions.
 - [ ] Capability, authority, access, provider commitment, and continuity assumptions remain explicit.
@@ -1009,6 +1094,8 @@ If the authorized decision-maker must decide before provider and capacity eviden
 | “The provider owns the AI part.” | Recover contribution, commitment, access, assurance, recovery, responsibility, and authority separately. |
 | “The workshop generated options, so participation is covered.” | Show whose knowledge changed which alternative and whose absence remains material. |
 | “The highest weighted score wins.” | Preserve non-negotiables, uncertainty, incompatible measures, and authority. |
+| “Everyone has the same goal, so anyone can promise the joint result.” | Identify the actual contributions, resource conditions and effective commitments on which that promise would rely. |
+| “More uncertainty means discard every existing procedure.” | Retain the applicable preparation and routine; obtain the interaction or changed dependency the new situation requires. |
 
 ### OCE.3:9 - Consequences
 
@@ -1019,6 +1106,8 @@ The cost is that a favored concept can remain unresolved. More evidence or a sma
 ### OCE.3:10 - Rationale
 
 Organization concepts are possible relation structures for a named contribution. Several views can help, but the decision turns on relations and consequences. A bounded domain generation move avoids importing open-ended search apparatus into every design while keeping that option available when retained exploration is real.
+
+Preparation and interaction are alternative or complementary ways of obtaining particular coordination conditions. Their adequacy depends on what the participants must decide, know and contribute, not on how many messages they exchange. The design can change those dependencies as well as accommodate them. Yet useful joint discovery can depend on combining different knowledge, so reduced coordination effort is not the sole objective. The concept comparison preserves the receiving contribution together with its feasibility, authority and burden.
 
 ### OCE.3:11 - SoTA-Echoing
 
@@ -1035,6 +1124,18 @@ Organization concepts are possible relation structures for a named contribution.
 
 Reopen when a recurring contribution cannot be constructed through these branches, a serious alternative supplies the same usable combination at lower total effort, a participant reveals an omitted interaction, or realization defeats the stated mechanism or protected condition. A new source changes this selection only through such a substantive difference.
 
+#### OCE.3:11.1 - Coordination under partial knowledge
+
+**Practice question.** Which advance conditions and interactions allow these contributors to act independently where useful and still obtain the intended contribution? OCE.3:4.1.1.1 selects a dependency- and decision-based construction. Its advantage over choosing a familiar mechanism name is that the manager must explain the knowledge, commitments and remaining choices that make the proposed combination work. Its cost is the needed subject inquiry and participant contribution. A sufficient existing procedure, output arrangement or professional collaboration remains an adequate incumbent without reconstructing the whole theory on every occasion.
+
+**Historical foundations.** [Galbraith (1974), *Organization Design: An Information Processing View*, pp. 28–36](https://paperzz.com/doc/8715024/organization-design--an-information-processing-view) explains reducing information-processing demand and increasing capacity under task uncertainty, including the costs of slack, self-contained tasks and lateral relations. **Adapt** the choice between changing a dependency and supporting its coordination; do not adopt an exhaustive strategy list or fixed progression. [Mintzberg and Glouberman (2001), pp. 72–74](https://mintzberg.org/sites/default/files/article/download/4c2.pdf) describe six familiar mechanisms and the limits of relying on standardized professional knowledge. **Adopt** their combination question; **adapt** the healthcare argument as a reason to examine the present preparation and exception, not as a universal prescription.
+
+**The explanatory refinement.** [Puranam, Raveendran and Knudsen (2012), *Organization Design: The Epistemic Interdependence Perspective*](https://doi.org/10.5465/amr.2010.0535), with an [accessible author manuscript](https://www.researchgate.net/publication/228295013_Organization_Design_The_Epistemic_Interdependence_Perspective), distinguishes task dependence from a participant's need for predictive knowledge. **Adapt** that distinction in the decision-timing and independence questions. The model's aligned-incentive and stable-environment assumptions limit its sufficiency here: OCE retains commitment, capability, changing knowledge and resource conditions separately. [Okhuysen and Bechky (2009), pp. 482–491](https://www.researchgate.net/publication/232913984_10Coordination_in_Organizations_An_Integrative_Perspective) explain how different mechanisms support accountability, predictability and common understanding. **Adopt** examining what a mechanism actually supplies; **reject** treating those conditions as a universal sufficient checklist or requiring identical knowledge among specialists.
+
+**Contemporary extension and bounded alternative.** [Raveendran, Silvestri and Gulati (2020)](https://escholarship.org/content/qt4qd2j3xz/qt4qd2j3xz_noSplash_416b2b66ccb3da74c5c7356718aeebed.pdf) distinguishes task, goal and knowledge interdependence and examines how agents can shape work when a complete division is unavailable in advance. **Adapt** that account in the initiative and joint-discovery branches; do not identify common rewards, common goals and technical dependencies. Its open research questions limit general predictions about emerging arrangements. [Worren and Cammelli (2025)](https://link.springer.com/article/10.1007/s41469-025-00189-1) supplies a serious bounded alternative for grouping decisions with given roles and explicit dependencies. **Retain** that experimental comparison where those inputs and its coordination-cost objective fit. **Reject** using its optimized grouping as an answer to the broader question of creating dependencies, establishing commitments and choosing the whole coordination combination.
+
+These sources justify distinctions and conditional design moves, not the effectiveness of the constructed examples. Reopen the selection when new knowledge changes a dependency, a different arrangement supplies the same contribution at lower total burden, or a recurring use requires a coordination construction these branches do not provide.
+
 ### OCE.3:12 - Relations
 
 - `OCE.1` supplies organization, contribution, authority boundary, and affected-System scope. `OCE.2` supplies actual Work, direct relation evidence, and gaps.
@@ -1043,6 +1144,8 @@ Reopen when a recurring contribution cannot be constructed through these branche
 - `C.11.CRC:4` supplies the finite configuration comparison; `B.1.5.RS:4` supplies replacement by receiving use. `OCE.4:4.0–4.1`, `OCE.10:4.1–4.3` and `OCE.11:4.1–4.3` supply contribution-boundary, participation and coexistence results at the points of need.
 - `OCE.4`, `OCE.5`, `OCE.7`, and `OCE.8` consume selected constraints for specialization, positions, product/service alignment, and human–AI/provider configurations. `OCE.11` consumes current and possible relations for coexistence.
 - Use `OCE.9` to realize the selected concept; identify performed Work and changed organization relations from their evidence.
+- For the coordination construction, OPS.2 supplies an operating method with bounded exceptions; OPS.4 supplies the knowledge and views needed for particular decisions. HCD.22:4.2.1 supplies attainable preparation for complementary contributions. STR.5:4.3–4.4 supplies grounds for choosing initiatives; OCE.10 supplies the needed participation and cultural support. ECO.8:4–5 supplies adjustments between direct cooperation and wider exchange. LDR.4:4.5–4.7 supplies effective commitments and the supported first handover after selection when those results are missing.
+- FPF C.39 supplies a way to construct or obtain a missing method; C.40.OD supplies the continuing development practice whose organizational support can be compared here. Their results inform the concept; choosing a concept neither performs that development nor establishes its effectiveness.
 
 ### OCE.3:End
 

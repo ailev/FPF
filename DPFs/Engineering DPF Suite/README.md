@@ -10,6 +10,12 @@ Framework and method links open readable text on fpf.tools; **Markdown** links o
 
 **[Read the Engineering Architectural Reference](ENGINEERING-DPF-SUITE-REFERENCE.md).** It explains how systems engineering, maintenance, knowledge access and semantic integration fit together, why organizational and human specializations have their own Suites, and how these contributions meet in a working system. Read it for the overall design and its alternatives; use a familiar sufficient method directly when that is all your task needs.
 
+## Keep the project reasoning together
+
+The **[system-thinking long mantra (FPF A.1.STM)](https://fpf.tools/A.1.STM)** connects the intended use and common target to functioning, construction, ways of obtaining the system, capable creators and their cooperation. Its questions hold large areas of knowledge together: a good component, capable team and approved plan still have to fit the same project.
+
+Use the [connected explanation in Engineering.Reference:0.5](ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference05---the-system-thinking-long-mantra-across-engineering-contributions) to see how the Suite's contributions constrain one another. The mantra's order helps explain and remember the reasoning; actual work can begin at any consequential question and return as answers change. The full Methods supply the knowledge needed to answer those questions.
+
 ## Choose an entry
 
 
@@ -29,7 +35,7 @@ The [Engineering Architectural Reference](ENGINEERING-DPF-SUITE-REFERENCE.md) he
 
 | Framework | What you can work on | Patterns | Text, M characters |
 | --- | --- | ---: | ---: |
-| [Systems Engineering (SYSE)](https://fpf.tools/SYSE) · [Markdown](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Define the system and intended use; compare designs and ways to obtain them; realize, integrate, qualify and change the result. | 53 | 1.780 |
+| [Systems Engineering (SYSE)](https://fpf.tools/SYSE) · [Markdown](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Define the system and intended use; compare designs and ways to obtain them; realize, integrate, qualify and change the result. | 53 | 1.784 |
 | [Maintenance Engineering and Management (MNT)](https://fpf.tools/MNT) · [Markdown](MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Select maintenance policy from condition and failure knowledge; prepare interventions, restore functioning and qualify return to use. | 16 | 0.244 |
 | [Knowledge-Corpus Access Engineering (KCAE)](https://fpf.tools/KCAE) · [Markdown](KNOWLEDGE-CORPUS-ACCESS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Engineer arrangements for finding, reading and using documentary knowledge, including links back to source passages, delivery and coherent updates. | 11 | 0.241 |
 | [Semantic Integration Engineering (SIE)](https://fpf.tools/SIE) · [Markdown](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Make separately governed meanings usable together through models, mappings, interfaces, validation and response to change. | 12 | 0.276 |

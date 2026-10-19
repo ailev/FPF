@@ -32,6 +32,12 @@ You do not need to read the Library from beginning to end. Bring a situation, th
 
 Before applying a method, read [Using FPF Library](USING-FPF.md). It explains how to find a useful contribution, read its conditions, connect it to the rest of the work and distinguish a source citation from a direction to apply another method. An adequate known answer can be used directly; a larger question may need several connected methods. Their order in a file is not an instruction to perform them all.
 
+## Keep connected reasoning in view
+
+Individual methods answer local questions; **long mantras** help hold their reasons and mutual constraints together. For a project, the **[system-thinking long mantra (FPF A.1.STM)](https://fpf.tools/A.1.STM)** connects intended use, a common target, functioning, construction, ways of obtaining it, capable creators and their cooperation. Its full explanation shows why those answers must fit and what to revisit when one changes.
+
+A mantra is a logical teaching unfolding, not a fixed order of thinking or work. The [Library's account of connected reasoning (Library.Reference:1.1)](FPF-LIBRARY-REFERENCE.md#libraryreference11---long-mantras-and-connected-reasoning) leads to developed connections in several fields. Read the full account to understand and adapt the method; use the short formula to recall it.
+
 ## From a useful result to further development
 
 Suppose a team can deliver its current product, but a more demanding order is beyond its capabilities. Buying a specialist's result might meet the immediate need. Learning to produce it would change what the team can do. Learning how to recognize the next limitation, obtain or invent a needed method and organize its acquisition would change how the team can continue developing. These are different results, with different evidence.
@@ -42,14 +48,14 @@ The general methods are in **Core**: [connect development work (C.40.OD)](https:
 
 ## What is available
 
-**FPF Core** contains 397 patterns in 17.653 million characters. It supplies transdisciplinary concepts and methods, including methodological work and open-ended development. **33 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 23 belong to four Suites, and ten have their own files directly in the DPF catalogue.
+**FPF Core** contains 398 patterns in 17.742 million characters. It supplies transdisciplinary concepts and methods, including methodological work and open-ended development. **33 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 23 belong to four Suites, and ten have their own files directly in the DPF catalogue.
 
 A DPF describes one field through a connected pattern language. A **Suite** describes a composite discipline through its constituent fields and their relations. An **Architectural Reference** explains how the relevant language is arranged and why: within a framework, across a Suite, or across the Library.
 
 | DPF Suite | Working subject | DPFs | Patterns | Text, M characters |
 | --- | --- | ---: | ---: | ---: |
-| [Engineering](DPFs/Engineering%20DPF%20Suite/) | Designing, realizing, changing and maintaining systems; knowledge access and semantic integration. | 4 | 92 | 2.541 |
-| [Management](DPFs/Management%20DPF%20Suite/) | Direction, commitments, operations, resources, markets, communities and organizational change. | 12 | 182 | 4.941 |
+| [Engineering](DPFs/Engineering%20DPF%20Suite/) | Designing, realizing, changing and maintaining systems; knowledge access and semantic integration. | 4 | 92 | 2.544 |
+| [Management](DPFs/Management%20DPF%20Suite/) | Direction, commitments, operations, resources, markets, communities and organizational change. | 12 | 182 | 4.970 |
 | [Foundational Thinking](DPFs/Foundational%20Thinking%20DPF%20Suite/) | Mathematical and physical accounts, models, algorithms and usable notation. | 5 | 70 | 1.951 |
 | [Human Capability Engineering](DPFs/Human%20Capability%20Engineering%20DPF%20Suite/) | Human learning and somatic change, connected to capability in later work. | 2 | 34 | 1.209 |
 

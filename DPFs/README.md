@@ -17,8 +17,8 @@ A Suite brings together constituent disciplines and explains how their knowledge
 
 | Suite | Working subject | DPFs | Patterns | Text, M characters |
 | --- | --- | ---: | ---: | ---: |
-| [Engineering](Engineering%20DPF%20Suite/) | Designing, realizing, changing and maintaining systems; knowledge access and semantic integration. | 4 | 92 | 2.541 |
-| [Management](Management%20DPF%20Suite/) | Direction, commitments, operations, resources, markets, communities and organizational change. | 12 | 182 | 4.941 |
+| [Engineering](Engineering%20DPF%20Suite/) | Designing, realizing, changing and maintaining systems; knowledge access and semantic integration. | 4 | 92 | 2.544 |
+| [Management](Management%20DPF%20Suite/) | Direction, commitments, operations, resources, markets, communities and organizational change. | 12 | 182 | 4.970 |
 | [Foundational Thinking](Foundational%20Thinking%20DPF%20Suite/) | Mathematical and physical accounts, models, algorithms and usable notation. | 5 | 70 | 1.951 |
 | [Human Capability Engineering](Human%20Capability%20Engineering%20DPF%20Suite/) | Human learning and somatic change, connected to capability in later work. | 2 | 34 | 1.209 |
 

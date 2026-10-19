@@ -24,6 +24,7 @@ Section addresses use `Engineering.Reference:n` and nested numbers. They identif
   - [Engineering.Reference:0.2 - Maintenance engineering and management](#engineeringreference02---maintenance-engineering-and-management)
   - [Engineering.Reference:0.3 - Specialization and use across Suite boundaries](#engineeringreference03---specialization-and-use-across-suite-boundaries)
   - [Engineering.Reference:0.4 - Capability development and wider performing practices](#engineeringreference04---capability-development-and-wider-performing-practices)
+  - [Engineering.Reference:0.5 - The system-thinking long mantra across engineering contributions](#engineeringreference05---the-system-thinking-long-mantra-across-engineering-contributions)
 - [Engineering.Reference:1 - Find a starting pattern](#engineeringreference1---find-a-starting-pattern) — System or method? Architecture, alternatives, evidence, organizational change, development advice, music and dance. What useful result should I obtain first?
   - [Engineering.Reference:1.1 - Begin before anyone asks for help](#engineeringreference11---begin-before-anyone-asks-for-help) — Ordinary work, successful adaptations, an unformulated objection, early cues, useful questions and attainable continuations.
   - [Engineering.Reference:1.2 - Understand a problem and prepare a recommendation](#engineeringreference12---understand-a-problem-and-prepare-a-recommendation)
@@ -200,18 +201,53 @@ Section addresses use `Engineering.Reference:n` and nested numbers. They identif
   - [Engineering.Reference:26.3 - Prepare experience that can change the intended choice](#engineeringreference263---prepare-experience-that-can-change-the-intended-choice)
   - [Engineering.Reference:26.4 - Compute the update and use the changed rule](#engineeringreference264---compute-the-update-and-use-the-changed-rule)
     - [Engineering.Reference:26.4.1 - Learn from interleaved actions and observations](#engineeringreference2641---learn-from-interleaved-actions-and-observations)
+      - [Engineering.Reference:26.4.1.1 - Keep the generated choices and their available histories](#engineeringreference26411---keep-the-generated-choices-and-their-available-histories)
+      - [Engineering.Reference:26.4.1.2 - Calculate an outcome update and consume it](#engineeringreference26412---calculate-an-outcome-update-and-consume-it)
+      - [Engineering.Reference:26.4.1.3 - Obtain a separate reason to credit a call](#engineeringreference26413---obtain-a-separate-reason-to-credit-a-call)
+      - [Engineering.Reference:26.4.1.4 - Supply preparation and preference inputs when those branches are selected](#engineeringreference26414---supply-preparation-and-preference-inputs-when-those-branches-are-selected)
+      - [Engineering.Reference:26.4.1.5 - Change the learned objective deliberately](#engineeringreference26415---change-the-learned-objective-deliberately)
     - [Engineering.Reference:26.4.2 - Allocate training attempts and select the update](#engineeringreference2642---allocate-training-attempts-and-select-the-update)
+      - [Engineering.Reference:26.4.2.1 - Obtain a measure that can support the proposed decision](#engineeringreference26421---obtain-a-measure-that-can-support-the-proposed-decision)
+      - [Engineering.Reference:26.4.2.2 - Allocate attempts and reserve the work needed to finish them](#engineeringreference26422---allocate-attempts-and-reserve-the-work-needed-to-finish-them)
+      - [Engineering.Reference:26.4.2.3 - Execute the selected continuations and prepare their learning records](#engineeringreference26423---execute-the-selected-continuations-and-prepare-their-learning-records)
+      - [Engineering.Reference:26.4.2.4 - Select modulation and the backward operation separately](#engineeringreference26424---select-modulation-and-the-backward-operation-separately)
+      - [Engineering.Reference:26.4.2.5 - Run the finite construction and use the changed policy](#engineeringreference26425---run-the-finite-construction-and-use-the-changed-policy)
+      - [Engineering.Reference:26.4.2.6 - Compare another modulation and assess the complete arrangement](#engineeringreference26426---compare-another-modulation-and-assess-the-complete-arrangement)
     - [Engineering.Reference:26.4.3 - Learn a strategy together with its execution](#engineeringreference2643---learn-a-strategy-together-with-its-execution)
+      - [Engineering.Reference:26.4.3.1 - Choose what the strategy score is meant to improve](#engineeringreference26431---choose-what-the-strategy-score-is-meant-to-improve)
+      - [Engineering.Reference:26.4.3.2 - Construct the two learning comparisons](#engineeringreference26432---construct-the-two-learning-comparisons)
+      - [Engineering.Reference:26.4.3.3 - Generate attempts, update and use the result](#engineeringreference26433---generate-attempts-update-and-use-the-result)
+      - [Engineering.Reference:26.4.3.4 - Change the inference when success is not controllable](#engineeringreference26434---change-the-inference-when-success-is-not-controllable)
     - [Engineering.Reference:26.4.4 - Learn actions whose value persists across sessions](#engineeringreference2644---learn-actions-whose-value-persists-across-sessions)
+      - [Engineering.Reference:26.4.4.1 - Obtain continuation credit at the session boundary](#engineeringreference26441---obtain-continuation-credit-at-the-session-boundary)
+      - [Engineering.Reference:26.4.4.2 - Execute continuations, obtain a first update and retain its result](#engineeringreference26442---execute-continuations-obtain-a-first-update-and-retain-its-result)
+      - [Engineering.Reference:26.4.4.3 - Recalculate recurrence and the reliability of help](#engineeringreference26443---recalculate-recurrence-and-the-reliability-of-help)
+      - [Engineering.Reference:26.4.4.4 - Choose a different estimator or a different learned memory operation](#engineeringreference26444---choose-a-different-estimator-or-a-different-learned-memory-operation)
     - [Engineering.Reference:26.4.5 - Transfer a procedure through teacher-guided learning](#engineeringreference2645---transfer-a-procedure-through-teacher-guided-learning)
+      - [Engineering.Reference:26.4.5.1 - Recover the procedure and the observations it needs](#engineeringreference26451---recover-the-procedure-and-the-observations-it-needs)
+      - [Engineering.Reference:26.4.5.2 - Choose the teaching target and its probability domain](#engineeringreference26452---choose-the-teaching-target-and-its-probability-domain)
+      - [Engineering.Reference:26.4.5.3 - Fit a first policy and use the fresh return](#engineeringreference26453---fit-a-first-policy-and-use-the-fresh-return)
+      - [Engineering.Reference:26.4.5.4 - Compute guidance on histories reached by the student](#engineeringreference26454---compute-guidance-on-histories-reached-by-the-student)
+      - [Engineering.Reference:26.4.5.5 - Repair the premise that failed](#engineeringreference26455---repair-the-premise-that-failed)
+      - [Engineering.Reference:26.4.5.6 - Compare the transferred result and retained support](#engineeringreference26456---compare-the-transferred-result-and-retained-support)
     - [Engineering.Reference:26.4.6 - Select what to learn and reassess the support that remains](#engineeringreference2646---select-what-to-learn-and-reassess-the-support-that-remains)
+      - [Engineering.Reference:26.4.6.1 - Compare an intervention that can answer the question](#engineeringreference26461---compare-an-intervention-that-can-answer-the-question)
+      - [Engineering.Reference:26.4.6.2 - Turn selected guidance into a qualified learning target](#engineeringreference26462---turn-selected-guidance-into-a-qualified-learning-target)
+      - [Engineering.Reference:26.4.6.3 - Run the changed performer with its joint remaining support](#engineeringreference26463---run-the-changed-performer-with-its-joint-remaining-support)
+      - [Engineering.Reference:26.4.6.4 - Retain useful external resources and spend effort on the missing contribution](#engineeringreference26464---retain-useful-external-resources-and-spend-effort-on-the-missing-contribution)
+      - [Engineering.Reference:26.4.6.5 - Decide whether the change is worth obtaining](#engineeringreference26465---decide-whether-the-change-is-worth-obtaining)
+      - [Engineering.Reference:26.4.6.6 - Obtain the human development and provision results separately](#engineeringreference26466---obtain-the-human-development-and-provision-results-separately)
   - [Engineering.Reference:26.5 - Derive an audit policy from the real decision times](#engineeringreference265---derive-an-audit-policy-from-the-real-decision-times)
   - [Engineering.Reference:26.6 - Recalculate when auditing is fallible](#engineeringreference266---recalculate-when-auditing-is-fallible)
   - [Engineering.Reference:26.7 - Obtain the measurements and enact the audit](#engineeringreference267---obtain-the-measurements-and-enact-the-audit)
   - [Engineering.Reference:26.8 - Follow the changed condition to the affected method](#engineeringreference268---follow-the-changed-condition-to-the-affected-method)
 - [Engineering.Reference:27 - Construct and reuse an exchange for a receiving decision](#engineeringreference27---construct-and-reuse-an-exchange-for-a-receiving-decision) — Agreed meaning, interpreted or generated routines, consumption, changed conditions and useful reuse.
+  - [Engineering.Reference:27.1 - Work backward from the needed contribution](#engineeringreference271---work-backward-from-the-needed-contribution)
+  - [Engineering.Reference:27.2 - Agree an interpretation, then obtain its implementation](#engineeringreference272---agree-an-interpretation-then-obtain-its-implementation)
+  - [Engineering.Reference:27.3 - Consume a qualified return](#engineeringreference273---consume-a-qualified-return)
+  - [Engineering.Reference:27.4 - Follow a changed meaning through the calculation](#engineeringreference274---follow-a-changed-meaning-through-the-calculation)
+  - [Engineering.Reference:27.5 - Choose reuse and the next supplier by the whole work](#engineeringreference275---choose-reuse-and-the-next-supplier-by-the-whole-work)
 - [Engineering.Reference:28 - Citation](#engineeringreference28---citation) — Cite this Reference or a particular pattern application.
-
 
 ## Engineering.Reference:0 - Engineering, specialization and maintenance
 
@@ -276,6 +312,18 @@ The human holder whose capability is to change, the person or AI supplying instr
 [Embodied Rhythmics (RHY)](../EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md) has rhythmic relations as its subject: attacks and rests, continuous movement, accents, timing, grouping, a common reference and coordination. Its Methods support recognizing, representing, altering, performing, teaching and observing those relations. Some uses develop a person's capability, and some constrain a performing configuration; the full field is not limited to either contribution. Its overlap with bodily learning therefore does not make it a specialization of SOM.
 
 MDPE and RHY retain complete independent descriptions in the Library. Engineering can use the specific constructions and constraints just described while their other results keep their own conditions. The direct returns preserve these engineering contributions without making construction the complete subject of either field. A future change in the described fields or their continuing relations could change this composition; a new performance project or a different physical performer alone does not.
+
+### Engineering.Reference:0.5 - The system-thinking long mantra across engineering contributions
+
+A project can contain sound answers about a design, a production method, maintenance and information access yet still lack a workable whole. Each answer may rely on conditions that another answer removes. The **system-thinking long mantra** keeps the common target and its use connected to functioning, construction, ways of obtaining it, capable creators and their cooperation. FPF A.1.STM:4.1–4.3.1 explains why those questions belong together and how partial answers can be revised. [SYSE.Reference:1.1](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#sysereference11---the-system-thinking-long-mantra-in-engineering) develops the connections inside Systems Engineering.
+
+Across this Suite, the maintenance answer constrains more than a later service schedule. Access, detection, replacement and qualified return to functioning can change the construction that should be chosen. Conversely, a changed construction or operating condition can invalidate a failure model or intervention policy. MNT supplies the maintenance reasoning; the resulting conditions return to the engineering choice rather than remain an independent maintenance document.
+
+Semantic integration similarly constrains what the system can do: compatible message formats do not establish that two participants use the same referent, unit or interpretation. SIE develops the meanings, mappings and validation needed by the receiving operation. A revised interpretation can change an interface or invalidate an earlier system-level conclusion. KCAE supplies access to the documentary knowledge needed for these decisions. Finding a source is insufficient when its conditions or edition cannot be recovered; a correct design argument cannot be used reliably if the evidence it relies on is unavailable or misunderstood. These contributions connect through the actual receiving operation, not merely because all four disciplines appear in the Suite.
+
+The creators' cooperation can require organizational or human-capability contributions from the specialized Suites described above. Those results bring their own conditions: an acquired ability does not itself grant authority, and an organizational assignment does not establish technical capability. A changed division of work can alter the feasible design; a changed design can require different cooperation. The project account has to accommodate both directions.
+
+The reminder's order helps teach these dependencies. It does not prescribe a succession of departments, documents or work stages. Begin with the consequential question, recover the supported answers it relies on, and compare alternatives that can be true together. Use the full supplying Methods where an answer is missing. Neither a repeated formula nor a diagram of links supplies the subject knowledge needed to make the answers fit.
 
 ## Engineering.Reference:1 - Find a starting pattern
 
@@ -3421,7 +3469,7 @@ Use this application when a policy makes several decisions during an attempt, to
 
 The earlier conversion example has one learned choice. Here the choices are separated by an observation. [CMP.7](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/COMPUTATIONAL-THINKING-DPF.md#cmp7---construct-a-learner-from-examples-and-feedback) supplies the learner construction, [SYSE.45:4.2 through SYSE.45:4.3](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse4542---obtain-experience-with-interpretable-feedback) the experience transformation and selected training intervention, and [SYSE.49](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse49---construct-informative-tasks-and-feedback-environments-for-agent-work) the qualification of tasks and feedback. The calculation makes their connection explicit. For an actual calculator service, a direct arithmetic controller is the obvious competing way to obtain the answer; use this deliberately small learner to understand and test the update construction.
 
-##### Keep the generated choices and their available histories
+##### Engineering.Reference:26.4.1.1 - Keep the generated choices and their available histories
 
 The task is to return `(n*m)+k`. The supplied calculator evaluates multiplication or addition exactly. A finite policy has two trainable scalar logits, initially zero. The first chooses `n*m` with probability `sigmoid(z1)` and `n+m` otherwise. After receiving the calculator's return `o`, the second chooses the answer `o+k` with probability `sigmoid(z2)` and `o+k+1` otherwise. The second logit is shared across these histories, but its answer still consumes the actual observation. The input supplies `n`, `m`, `k` and the calculator's meaning. The arithmetic operations and the available choices are provided capabilities; only their choice probabilities are being learned.
 
@@ -3438,7 +3486,7 @@ For B, the first learning record contains the request, tool meaning, selected mu
 
 Select the two generated decisions as policy-output positions. The calculator return stays in the second decision's input and has no policy-output target of its own. For a language model, the same distinction concerns generated tokens and externally supplied tokens; the selected trainer must implement both the mask and the intended loss normalization. A tag that the model can forge does not authenticate a tool result. Obtain observations through the execution interface and preserve their provenance. A missing or altered return requires repairing the experience or defining the resulting different input condition.
 
-##### Calculate an outcome update and consume it
+##### Engineering.Reference:26.4.1.2 - Calculate an outcome update and consume it
 
 Choose a mean of separate generated-decision terms. Let `A_i` be episode i's reward minus the group mean, divided by the population standard deviation. Use zero advantages for a zero-deviation group. For this group the advantages are `(sqrt(3), -1/sqrt(3), -1/sqrt(3), -1/sqrt(3))`. Each episode has two generated decisions. A complete surrogate for this finite adaptation is:
 
@@ -3519,7 +3567,7 @@ Aggregation changes that construction. Including the tool return as a third item
 
 For further training, evaluate current-to-old ratios, clipping and any selected regularization under the actual trainer. Resample under a new rollout policy when that recipe requires it. This first-step derivative cannot be repeated as though every later ratio stayed 1. Retain a recoverable baseline, decide when learned parameters persist or reset, and assess changed and older useful behavior on separate cases as in section 26.4.
 
-##### Obtain a separate reason to credit a call
+##### Engineering.Reference:26.4.1.3 - Obtain a separate reason to credit a call
 
 If the work needs a positive assessment of B's first call, select what that assessment means and obtain its grounds. Three different inputs can support three different operations:
 
@@ -3533,7 +3581,7 @@ The first two rows assess a call against a checked subresult or a qualified anno
 
 [ToolRL, NeurIPS 2025, §§2.1–2.4 and Appendix C](https://papers.nips.cc/paper_files/paper/2025/file/97c5b2707228e7e3fb67e4ecc2e0e607-Paper-Conference.pdf) supplies an annotated-call branch. It turns multi-step records into next-step tasks with preceding history, compares predicted and gold call sets using maximum matching over tool names, parameter keys and values, and normalizes the attainable score before scaling correctness to −3 through +3 and adding format reward. Group-relative advantages feed clipped policy optimization. Thus the first engineering input is a history with qualified call annotations. The source's exact scoring and trainer consume it. If only the four terminal rewards are available, either construct and qualify the additional annotations or continue with the outcome branch; silently calling those rewards gold calls would change the evidence. Call agreement still needs a separate check of the resulting effect in the receiving work.
 
-##### Supply preparation and preference inputs when those branches are selected
+##### Engineering.Reference:26.4.1.4 - Supply preparation and preference inputs when those branches are selected
 
 When the starting policy rarely produces a usable tool interaction, demonstrations can make subsequent exploration feasible. Obtain successful executions with available task inputs, actual observations and checked outcomes. From A, construct a supervised pair from the initial history to the multiplication call, and another from the resulting history including 323 to answer 328. Fit the generated actions; supply the return in the later input. A corrected first call in C would need its own execution or other qualified consequence evidence. A label for that correction may be usable before such evidence exists, but it does not inherit C's return 36. The correction of B's final answer can instead use the already available 323 if the stated method warrants it.
 
@@ -3553,7 +3601,7 @@ Set beta to 0.3. At the reference policy, gradient descent with rate 0.1 changes
 
 [Tool-Star v1, §3.2, Algorithm 1 and Appendices B–E](https://arxiv.org/html/2505.16410v1) combines preparation, masked group-relative training and preference updates. It separates direct successes, tool-assisted successes and intended harder failed questions, then samples candidates after GRPO and uses scores at least 1 for preferred outputs and below 1 for rejected outputs. Keep the actual contrasting candidates and the executable reward grounds. The source's earlier correct-trace filter leaves the supply of both-failed questions underspecified; retaining their question IDs before filtering is an explicit receiving repair. Its printed negative DPO loss and ascent wording also conflict. The finite example above descends that loss: reversing the sign would reduce the preferred answer's probability to 0.496250. These repairs state how this application works without claiming what the authors' code did.
 
-##### Change the learned objective deliberately
+##### Engineering.Reference:26.4.1.5 - Change the learned objective deliberately
 
 A policy may first need to learn the interaction protocol and later to solve the task. Label the stage and its objective when preparing feedback. [R1-Searcher v2, §§2–3](https://arxiv.org/html/2503.05592v2) first gives 0.5 for using retrieval at least once and 0.5 for acceptable format, with no answer reward. Its second stage removes the retrieval bonus, uses answer F1 and penalizes format violations by −2. This is a change in what receives reinforcement. The later policy still needs retrieval and its external evidence; a protocol reward has not taught all the reasoning required for the answer.
 
@@ -3574,7 +3622,7 @@ Use this application when an engineer can collect more interaction experience, b
 
 The construction below connects an affordable allocation to executed continuations, qualified feedback, a masked update and subsequent action. It specializes [ARPO, ICLR 2026, §§2–3 and Algorithm 1](https://proceedings.iclr.cc/paper_files/paper/2026/file/1c58e53bdf1fb045440256fd567531ae-Paper-Conference.pdf) and [AEPO, WWW 2026, §4 and Appendix A](https://playbigdata.ruc.edu.cn/dou/publication/2026_WWW_AEPO.pdf), with explicit receiving choices. The finite calculator and ordinary learning construction are those of [26.4.1](#engineeringreference2641---learn-from-interleaved-actions-and-observations). [SYSE.49](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse49---construct-informative-tasks-and-feedback-environments-for-agent-work) supplies the task and feedback arrangement; SYSE.45 and CMP.7 connect that experience to the chosen learner. The engineer needs probability access and an update implementation in addition to an interface that executes tools. A text-only generation endpoint can still help collect experience. Obtain full distributions and a parameter-update operation through facilities that provide them.
 
-##### Obtain a measure that can support the proposed decision
+##### Engineering.Reference:26.4.2.1 - Obtain a measure that can support the proposed decision
 
 At a model-generated position t, obtain the complete next-token distribution conditioned on the actual history: `p_t(v) = softmax(logits_t / temperature)[v]`. Fix the tokenizer, vocabulary, temperature and history used for the comparison. Shannon entropy in nats is `H_t = -sum_v p_t(v)*log(p_t(v))`, with zero-probability terms taken as zero. It concerns that conditional distribution. For example, several possible phrasings can raise it while all phrasings express the same known answer. The external return belongs in the next history; counting the characters or tokens of that return does not obtain the policy's next-token entropy.
 
@@ -3582,7 +3630,7 @@ Obtain the logits or a facility that returns a qualified estimate before using t
 
 A selected-token log-probability can suffice for a recorded action's importance ratio and still be insufficient for entropy. Suppose a four-outcome interface reports only that the selected outcome had probability 0.5. Its surprisal is one bit. If q is the normalized distribution over the other three outcomes, the complete entropy is `1 + 0.5*H_bits(q)`, between 1 and 1.792481 bits. Both `(0.5, 0.49, 0.005, 0.005)` and `(0.5, 1/6, 1/6, 1/6)` fit the log, but their entropies differ. The same selected probabilities at two histories therefore cannot establish their entropy order. Obtain the missing distribution or a qualified estimator; otherwise retain a feasible fixed or randomized allocation.
 
-##### Allocate attempts and reserve the work needed to finish them
+##### Engineering.Reference:26.4.2.2 - Allocate attempts and reserve the work needed to finish them
 
 Separate a count of complete training trajectories from resource limits such as generated tokens, tool calls and elapsed time. Set aside resources to finish and qualify the original attempts before admitting branches. For example, two extra trajectory places, six extra tool calls and an upper bound of three calls per continuation admit at most two new continuations. With three calls left, at most one fits. Include retries, probability extraction and any pilot in the resource account. Shared prefixes may save work, but their existence does not bound the cost of their continuations. SYSE.51's budgeting principles help retain completion resources; the training sampler described here is a further selected construction.
 
@@ -3594,7 +3642,7 @@ AEPO also proposes choosing the split with a pilot. With B available training tr
 
 The pilot must be affordable before it can inform that choice. Suppose the whole budget permits 48 calls, the completed pilot used three, and each retained training trajectory may require up to three further calls. A conservative count bound is now B=15, so the same rule gives seven starts and eight branch places. Sixteen trajectories plus that pilot would need capacity for 51 calls. This bound deliberately forgoes possible shared-prefix savings; a more precise allocation can use qualified remaining costs. When the pilot or probability extraction cannot fit, the fixed split remains an available baseline. The finite run below uses that fixed split and needs no pilot.
 
-##### Execute the selected continuations and prepare their learning records
+##### Engineering.Reference:26.4.2.3 - Execute the selected continuations and prepare their learning records
 
 Use the same task `(n*m)+k` and exact calculator as in 26.4.1. For this run, the old policy selects multiplication with probability 0.9 and the unshifted answer `observed+k` with probability 0.5. Each choice is one generated position with a binary vocabulary. The first-position entropy is 0.325082973 nats; the answer-position entropy after the tool return is 0.693147181. With K=1 and V=2, delta_H is 0.184032104. The analytic policy supplies both full distributions; no sampled look-ahead or extra tool execution is needed to obtain them in this fixture.
 
@@ -3613,7 +3661,7 @@ Two calculator executions supplied four completed trajectories. A shared prefix 
 
 Choose a mean over the two generated decisions of each of these four trajectories. Keep the actual return in the answer decision's history and exclude it from both the output loss and this denominator. Use the population-standard-deviation convention of 26.4.1: rewards `(1,0,0,0)` give advantages `(sqrt(3),-1/sqrt(3),-1/sqrt(3),-1/sqrt(3))`. The code uses zero advantages when reward dispersion is at most 1e-12, including equal rewards. This convention differs from a sample-standard-deviation implementation, which gives `(1.5,-0.5,-0.5,-0.5)`. Choose one with the learning rate and aggregation that consume it. Reweighting a shared prefix or retaining it only once also changes this construction; averaging descendant advantages is not generally equivalent under signed clipping and unequal lengths.
 
-##### Select modulation and the backward operation separately
+##### Engineering.Reference:26.4.2.4 - Select modulation and the backward operation separately
 
 A later training checkpoint may already differ from the sampling policy. For the same records, take current multiplication probability 0.9 and current unshifted-answer probability 0.65. Keep the old probabilities and reward advantages fixed. For each generated position let r be its current selected-action probability divided by its old selected-action probability. The ordinary contribution to the maximized objective is `min(r*A, clip(r,1-epsilon_low,1+epsilon_high)*A)`. Its sign matters: moving a negative advantage outside the minimum changes the operation.
 
@@ -3641,7 +3689,7 @@ This is an explicitly selected update rule, not ordinary differentiation of an u
 
 Keep the two clipping widths separate. For adjusted advantage −1.2, ratio 0.75, epsilon_low=0.2 and epsilon_high=0.28, the selected term is −0.96 and its gradient is zero. The lower test uses 0.8. Substituting the high width would test against 0.72 and incorrectly allow an update. This receiving case follows the lower-width condition in AEPO's appendix and the displayed objective. For a positive advantage above the upper bound, the ordinary rule has a plateau while the selected backward alternative continues to reinforce it. Preserving that distinction does not establish which intervention improves the receiving task.
 
-##### Run the finite construction and use the changed policy
+##### Engineering.Reference:26.4.2.5 - Run the finite construction and use the changed policy
 
 The code executes the two calculator calls and four answer continuations, checks the results and constructs the reward-relative update. Its two bits are the selected generated positions; the actual return remains in their record and contributes no output term. It keeps the population convention, mean over eight terms, detached modulation and ascent rate 0.1 stated above. The repeated proposal is at the same saved prefix; its changed counter, rather than new probability evidence, changes admission. Terminal children need no further counter decisions in this fixture.
 
@@ -3771,7 +3819,7 @@ Both changed policies still use the calculator. With the new request `(12,13,5)`
 
 Change the probability-access condition before generalizing the example. The binary full distributions above make its entropy calculations possible. If a four-outcome API instead supplies only selected probabilities, the earlier one-bit example shows why an entropy ranking may become unavailable even while recorded action ratios remain usable. Preserve the available outcome update or fixed allocation, and obtain the missing information only if the intended intervention justifies its cost. Change the branch history separately: the same measured delta_H can admit an unbranched lineage and reject another with l=1. These are different reasons for changing the next action.
 
-##### Compare another modulation and assess the complete arrangement
+##### Engineering.Reference:26.4.2.6 - Compare another modulation and assess the complete arrangement
 
 The direction and unit of entropy weighting are design choices. [AEM v3, 8 May 2026, §§3–5 and Algorithm 1](https://arxiv.org/abs/2605.00425v3) proposes a different one: average token entropy within each response ending before an environment transition, then compare those response averages across a prompt's rollout group. With range at least 0.1, min-max normalize the means to u, calculate `w = exp(-u/temperature)`, and divide each weight by the group's mean weight. Hold the resulting positive coefficients fixed and multiply a qualified advantage, using the same coefficient for the response's generated tokens. For example, retain the episode's terminal advantage on those positions; weighting it supplies no new judgement of that response's correctness. A range below 0.1 gives coefficients one. Select numerical stabilizers and response boundaries in the actual implementation.
 
@@ -3790,7 +3838,7 @@ The construction requires a policy that exposes a generated strategy, repeatable
 
 [StraTA v2, §§3–4](https://arxiv.org/pdf/2605.06642v2) supplies the particular combination used here: generate several natural-language strategies from the initial task, keep each strategy fixed during its executions, compare strategies across that task, compare actions within each strategy, and train both. The plan is an input to execution. If observations require changing it during an episode, obtain a revision operation through [SYSE.47](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse47---construct-and-revise-an-agents-execution-procedure); the fixed-plan construction does not perform that revision.
 
-##### Choose what the strategy score is meant to improve
+##### Engineering.Reference:26.4.3.1 - Choose what the strategy score is meant to improve
 
 Begin with the later use. If deployment makes one attempt, its expected return includes the execution policy actually available then. If deployment selects the best of several attempts, retain those attempts, selection facilities and costs in the comparison. Training can use an optimistic score to explore a strategy whose execution may improve, while the receiving assessment still measures ordinary single-use performance.
 
@@ -3800,7 +3848,7 @@ Select the strategy statistic. The mean over all M outcomes estimates performanc
 
 The top-K statistic combines execution opportunity, uncontrolled variation and selection over attempts. To interpret a favorable tail as something the learner can acquire, obtain a discriminating intervention or a qualified consequence model. [MMP.8.SD:4.2 through MMP.8.SD:4.4](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp8sd42---construct-how-an-action-changes-the-world-and-the-available-information) compares actions with their available continuations. [FPF C.40:4.7](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c4047---develop-a-way-by-what-its-use-produces) requires performing allowed inner learning before crediting a candidate with the result it would produce after that learning. Specify that learning procedure and allowance, execute it, then compare its later policy. Declaring a better future action probability supplies no such learning.
 
-##### Construct the two learning comparisons
+##### Engineering.Reference:26.4.3.2 - Construct the two learning comparisons
 
 Let `R_ij` be execution j's reward under strategy i, and `B_i` its chosen strategy statistic. Standardize the N values B to obtain strategy advantages `A_strategy_i`. Separately standardize the M rewards within each strategy to obtain `A_action_ij`. This application uses population standard deviations and zero advantages when dispersion is at most `1e-12`. A group with no variation supplies no relative preference; obtain discriminating experience when that missing preference matters.
 
@@ -3818,7 +3866,7 @@ J = mean_over_N_strategies[f(strategy_ratio, A_strategy)]
 
 Maximize J, keeping the two groupings intact. Their coefficients are both 1 here, with no reference-policy penalty. For a token implementation of this application, replace each strategy term by the mean of f over that strategy's generated tokens, and each execution term by the mean over all its generated action tokens. External observations condition later tokens and contribute no optimized position. This explicitly chosen reduction gives each strategy and each of its completed executions the stated weight. The source trainer's per-step, token-sum reduction is a different choice when lengths vary; select one implementation and carry its actual weighting into the comparison.
 
-##### Generate attempts, update and use the result
+##### Engineering.Reference:26.4.3.3 - Generate attempts, update and use the result
 
 Consider two supplied strategies P and Q, each admitting actions a and b. In the qualified deterministic fixture, P,a returns 1, P,b returns 0, and either Q action returns 0.4. Three independent logits determine `p=Pr(P)`, `s=Pr(a|P)` and `t=Pr(a|Q)`. All start at zero, so the probabilities are 0.5. The choices and their meanings are supplied capabilities; the learner changes how often it selects them.
 
@@ -3913,7 +3961,7 @@ The gradient is `(0.5,sqrt(3)/8,0)`. One ascent step of 0.3 gives `(p,s,t)=(0.53
 
 This run consumes two strategy generations and eight task executions before the two displayed later executions. A language-model trial must also budget generated tokens, resets, feedback and any selected judges. [26.4.2](#engineeringreference2642---allocate-training-attempts-and-select-the-update) makes that allocation explicit. Embedding-based strategy selection or a self-judge adds its own computation and qualification; neither facility is needed by this finite version. Continue training with the actual current-to-old ratios and chosen clipping rule, refreshing rollout policy and experience when required by the recipe.
 
-##### Change the inference when success is not controllable
+##### Engineering.Reference:26.4.3.4 - Change the inference when success is not controllable
 
 Now suppose qualified environment evidence says that P succeeds with probability 0.25 independently of a or b, while Q still returns 0.4. The same eight observations remain possible. The top-half update remains numerically the same, but single-use expected return is now `U=0.4-0.15*p`: it falls from 0.325 to 0.3193855232. Changing P's action distribution cannot raise its success probability under this model.
 
@@ -3931,7 +3979,7 @@ Use this application when a present action costs effort but changes information 
 
 The immediate target here is a policy parameter controlling whether to consult. The consultation supplies an answer, a memory operation retains it, and a later controller uses it when applicable. [SYSE.50](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse50---construct-and-calibrate-an-agents-assistance-policy) qualifies the help and its availability; [SYSE.43](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse43---maintain-external-memory-for-continuing-work) supplies retained information and its further use. Parameter learning uses SYSE.45 and CMP.7. Keeping a new answer in memory can change performance with unchanged weights; train only when that additional intervention is warranted.
 
-##### Obtain continuation credit at the session boundary
+##### Engineering.Reference:26.4.4.1 - Obtain continuation credit at the session boundary
 
 Select the horizon and reward meaning through MMP.8.SD. A session boundary may clear working context while retaining memory. Save the information needed to continue: memory contents and applicability, the next-session information already available, remaining resources and horizon. Two identical text memories can have different values when one has more opportunities for use or a different validity condition. Reset only what the intended later arrangement actually resets.
 
@@ -3948,7 +3996,7 @@ Here `V_old(state)` is expected remaining reward under the frozen old continuati
 
 Partition the collected attempts into sessions with those boundary states. Supply the signal to the generated decisions in the session, preserving their historical inputs and old probabilities. Use a specified update, such as the clipped generated-position mean in [26.4.1](#engineeringreference2641---learn-from-interleaved-actions-and-observations), then recollect experience or refit values as the selected training procedure requires. Sessions remain related through retained state; cutting the transcript into pieces does not make their observations independent. If a discounted criterion is chosen, derive the boundary discount for the elapsed duration instead of reusing the undiscounted equation unchanged.
 
-##### Execute continuations, obtain a first update and retain its result
+##### Engineering.Reference:26.4.4.2 - Execute continuations, obtain a first update and retain its result
 
 The finite fixture has two sessions. In either, the supplied self-answering operation succeeds with probability 0.75. Consulting in the first session obtains a correct answer at cost 0.3 and stores a verified entry. Only this action writes memory. After context reset, the second question is related with probability 0.4. A fixed controller uses the stored answer if related; otherwise it self-answers. There are no other costs or discounts. The learned logit controls only the first consultation probability, initially 0.5; answer generation, retrieval and applicability recognition are supplied operations.
 
@@ -4027,7 +4075,7 @@ The gradient 0.0125 changes the consultation probability to 0.5009374989. Under 
 
 The updated probability persists into the later run; context clears at the boundary and the stored answer persists. That separation is essential when checking which contribution changed. An experiment that removes the expert or changes memory retrieval at the same time needs a comparison that includes those different conditions.
 
-##### Recalculate recurrence and the reliability of help
+##### Engineering.Reference:26.4.4.3 - Recalculate recurrence and the reliability of help
 
 When no later question is related, both after-states have continuation value 0.75. Consulting then totals 1.45 and self-answering 1.5. The code performs a separate update from the original probability, with gradient −0.0125 and result 0.4990625011. Repeatedly paying for information that will not be used has no future benefit in this model. A different horizon, retention cost or query population changes the same continuation calculation.
 
@@ -4043,7 +4091,7 @@ At `s=0.75, r=0.4, c=0.3, q=0.9`, consultation has value 1.41, below 1.5. The co
 
 When the consultation advantage is small compared with plausible value-estimation error, retain a supported baseline or obtain a discriminating continuation sample if its value warrants the work. Qualification of the expert alone cannot settle recurrence, and accurate recall cannot make an inapplicable answer useful.
 
-##### Choose a different estimator or a different learned memory operation
+##### Engineering.Reference:26.4.4.4 - Choose a different estimator or a different learned memory operation
 
 AGILE Appendix B.4 uses a heuristic instead of an estimated continuation value: when a later similar question exists in the training sequence, give bonus `beta/(n+1)`, where n counts previous similar stored questions. In the initial fixture, beta=0.1 and n=0 give consultation proxy 0.8 against self-answering 0.75. With n=3 the proxy is 0.725; with no later recurrence it is 0.7. This bonus is a choice of training signal, not a measured future gain. Use it as an alternative to the value construction, or derive a justified combined objective; adding it to an already credited future benefit would count that presumed benefit twice. Later questions can supply training labels while remaining unavailable during live action selection.
 
@@ -4074,7 +4122,7 @@ The construction needs qualified interaction records, access to change the stude
 
 [FPF C.40:4.7](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c4047---develop-a-way-by-what-its-use-produces) supplies the loop of executing the student, obtaining teaching targets on its reached histories, fitting it and executing again. [CMP.7](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/COMPUTATIONAL-THINKING-DPF.md#cmp7---construct-a-learner-from-examples-and-feedback) constructs the learner; CMP.6 supplies finite update calculation. [MMP.8.SD](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp8sd---construct-a-sequential-decision-model-from-information-and-consequences) determines which information is available before each decision. The additional work here is selecting and connecting hard targets, teacher distributions, outcome feedback and changes to the teaching arrangement.
 
-##### Recover the procedure and the observations it needs
+##### Engineering.Reference:26.4.5.1 - Recover the procedure and the observations it needs
 
 Suppose an assistant must report the checked status of a job. A read-only service returns `pending` or `committed`. A report of completion requires the latter observation; a request to inspect the job is not that observation. If the supplied interface has become obsolete, it returns `schema_error`. A supported recovery can obtain the current interface and inspect again.
 
@@ -4101,7 +4149,7 @@ The job-status example uses four decision histories. It deliberately aggregates 
 
 Each row has its own scalar logit θ_i and probability `p_i = sigmoid(θ_i)` of choice 1. The runner binds the job identifier and implements the supported calls; the policy chooses among the stated actions. Learning argument syntax, identifying a trustworthy service or obtaining permission for a mutation would require additional inputs and operations.
 
-##### Choose the teaching target and its probability domain
+##### Engineering.Reference:26.4.5.2 - Choose the teaching target and its probability domain
 
 Use the information actually supplied:
 
@@ -4127,7 +4175,7 @@ Decide which histories to collect before choosing a curriculum. With a sufficien
 
 When demonstration selection is the difficulty, [SmartAD, §3](https://aclanthology.org/2026.findings-acl.1349.pdf) offers a concrete hard-target alternative: generate several teacher executions per question, admit those passing the chosen correctness/tool checks, score them with the frozen initial student, and select the lowest NLL per question. Average token NLL within each assistant response, then average responses. Its training weights reasoning, intermediate code and final code by 1, 1.5 and 2, normalized by the sum of supervised-token weights. This needs no teacher logits, but requires extra generation and scoring. Low NLL measures compatibility, not correctness. Its tool-failure filter would remove the job-status recovery above; preserve that needed behavior through a revised admission/selection rule.
 
-##### Fit a first policy and use the fresh return
+##### Engineering.Reference:26.4.5.3 - Fit a first policy and use the fresh return
 
 For the four histories, stipulate teacher probabilities of choice 1 `q=(.8,.05,.9,.85)`. The service contract supports these target directions. Generate and qualify the three demonstrations above, then retain one representative per sufficient history. This four-row training set removes duplicate start/pending rows. SmartAD instead selects a demonstration per question by its stated NLL score.
 
@@ -4224,7 +4272,7 @@ With equal probabilities of pending and committed in this stipulated later popul
 
 The printed pending episode uses the same draws (.49,.49). The old policy inspects and falsely reports completion; the soft-trained policy inspects and reports pending. With a fresh committed observation it instead reports complete. In the changed-interface episode, draws (.49,.505,.49) make the old policy repeat the failed call, while the soft-trained policy obtains the current interface, inspects again and reports pending. The repair is performed by the supported runner; the learned decision selects it. The expected probabilities describe the stipulated population.
 
-##### Compute guidance on histories reached by the student
+##### Engineering.Reference:26.4.5.4 - Compute guidance on histories reached by the student
 
 A student can reach histories absent from a fixed teacher dataset. Execute its calls, retain the resulting observations, and score the actions it actually sampled. A teacher's proposed replacement action does not inherit the old action's next observation; SYSE.45:5.2 supplies that return. Keep the rollout probabilities, teacher scores and task outcomes separately.
 
@@ -4282,7 +4330,7 @@ Within the failed episode, the useful inspection still gets combined advantage �
 
 The first-step derivative in the code is specific to theta=theta_old. For another optimization step on this batch, evaluate the stated clipped objective with the stored old probabilities and frozen advantages; do not keep using that initial derivative. For a fresh rollout, recollect histories, outcomes and teacher scores. The finite construction uses pure correctness reward. To reproduce the published SOD recipe, supply its prepared SFT student, selected teacher, tool-turn outcome shaping and overlength penalties.
 
-##### Repair the premise that failed
+##### Engineering.Reference:26.4.5.5 - Repair the premise that failed
 
 Distinguish teacher disagreement from teacher error. The SOD score is an absolute sampled log-ratio statistic, not a calibrated error probability or an ordering of full conditional KL. Its first step always gets weight 1; constant high divergence also gets weight 1 throughout. Confident agreement on a common mistake creates no warning. A meaningful tool error can be useful evidence, and later valid recovery should remain eligible.
 
@@ -4298,7 +4346,7 @@ Choose a different teaching arrangement when it addresses that actual cause:
 
 When collection latency is the problem, [ActFirst-OPD v1, §§3–4](https://arxiv.org/pdf/2609.36608v1) supplies a conditional asynchronous alternative. Fast action-only proposals follow reference next observations while transitions remain compatible; a mismatch permanently switches that rollout to autonomous action-only collection. At each frozen collected context, the student separately generates a full thought/action response without the reference observation, and the teacher scores it. That sampled action may differ from the executed fast action and is not executed. Keep it distinct from the transition and outcome that produced the context. Forced decoding tokens remain context but are excluded from loss and normalization. The optimizer accepts the current or immediately preceding behavior version with stored probabilities and detached signals. Sampling is on-policy conditional on those contexts, while their distribution need not be the deployment policy's. Adopt this construction only with compatible references, transition checks and sufficient serving concurrency; include preparation beyond the reported collection timing.
 
-##### Compare the transferred result and retained support
+##### Engineering.Reference:26.4.5.6 - Compare the transferred result and retained support
 
 Return the trained policy together with its input meaning, action representation, runner and applicable observation/checking conditions. Compare the first learned result and consequential branches through SYSE.45:4.4 and SYSE.46. Count obtaining and qualifying demonstrations, probability queries, scoring candidate demonstrations, training, failed attempts and later execution. For the finite offline construction there are three teacher episodes, seven generated decisions and five service/interface calls; four selected histories receive the update. The online construction separately collects two student episodes with four decisions and two status calls, and scores those four choices with the teacher. Later tests are additional execution.
 
@@ -4312,7 +4360,7 @@ Preserve a direct rule, unweighted learning or an adequate fixed dataset as a se
 
 Start with one receiving result and the contribution that currently limits it. Keep the task population, performer, guide library, routing, execution and result criterion visible. Use C.38/C.11.CRC for the complete alternatives and [SYSE.45](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse45---train-an-llm-policy-from-qualified-interaction-experience) for a selected parameter change. A changing fact needs a current source; a stable interpretation or operation may be a learning target. An inexpensive adequate aid or a one-off task can make further development unnecessary.
 
-##### Compare an intervention that can answer the question
+##### Engineering.Reference:26.4.6.1 - Compare an intervention that can answer the question
 
 Consider a read-only setup assistant. It must express a requested duration in seconds, obtain the current permitted range and report the converted value, rule revision and whether the request is within that range. The duration interpretation recurs; the permitted range can change. The runner supplies arithmetic operations and a current-rule read. Both remain available through the comparison.
 
@@ -4333,7 +4381,7 @@ For an operating comparison, select the intervention before collecting its data.
 
 The primary techniques make different choices at this point. [SKILL0 v2, §3](https://arxiv.org/pdf/2604.02268v2) ranks guidance under a budget scheduled to reach zero; its whole-bank and individual-removal formulations need to be distinguished when implementing the comparison. A zero endpoint can remove still-useful help. [SLIM v2, §3](https://arxiv.org/pdf/2605.10923v2) instead uses exposure, smoothed removal differences and repeated low contribution before retirement, and can add guidance for persistent failures. Freeze the comparison composition, or deliberately assess the changed bundle after each mutation. Neither rule makes individual retirement proof of acquired capability or protects it from later forgetting.
 
-##### Turn selected guidance into a qualified learning target
+##### Engineering.Reference:26.4.6.2 - Turn selected guidance into a qualified learning target
 
 Choose the recurring *operation*, not merely a file with a favorable score. Here `a` and `b` are alternative suppliers of the same interpretation. Retain one while developing that interpretation; keep the current range read and arithmetic execution. Recover a useful action at a history where the intended learner has the inputs that warrant it. Qualify the action against the unit definition and required report. A guide may help a teacher produce that target; its presence does not qualify every resulting action.
 
@@ -4368,7 +4416,7 @@ The target also determines which trace positions enter the loss. Consider a trac
 
 [daVinci-Dev, ICML 2026, §§2–3](https://proceedings.mlr.press/v306/zeng26d.html) uses full-sequence mid-training followed by action-masked fine-tuning. Such a target switch changes what the fit means. A failed attempt can supply a recorded sequence without supplying actions to imitate as successful conduct. Retain whether its context was observed during the attempt or reconstructed with hindsight. A predicted rule remains a prediction; the current-report task consumes an actual current rule. The finite update here fits the two selected interpretation actions.
 
-##### Run the changed performer with its joint remaining support
+##### Engineering.Reference:26.4.6.3 - Run the changed performer with its joint remaining support
 
 Before testing withdrawal, bind the learned actions to the actual runner and define the assistance rule. For the two familiar unit classes, the candidate uses its learned interpretation. A new unit returns the need for its current definition. Every report still needs an applicable current-rule observation; once that evidence is supplied for the task, further retrieval can stop. Use SYSE.50 for the help decision, SYSE.51 for useful effort and completion reserve, and SYSE.47/.52 for the implemented continuation and input. Requalify those decisions when their performer, input or support changes.
 
@@ -4459,7 +4507,7 @@ The learned interpretation produces `15` seconds from `15000 ms`. Under revision
 
 Test the whole candidate on the declared task population and final support conditions through SYSE.46. In the finite model, the two correct-action probabilities can be enumerated exactly. With sampled operating data, retain the sampling, dependence and uncertainty that qualify a claimed rate. Include failed reports, unrecognized inputs, inaccurate help, a changed definition and a formerly retained guide that later becomes necessary. Restore the contribution whose grounds failed; avoid changing the learner merely because the whole report failed.
 
-##### Retain useful external resources and spend effort on the missing contribution
+##### Engineering.Reference:26.4.6.4 - Retain useful external resources and spend effort on the missing contribution
 
 A deployed arrangement may keep a substantial resource after learning. [TInR, ACL 2026, §3](https://aclanthology.org/2026.acl-long.2077.pdf) first selects learned tool tokens, retrieves the selected tools' current descriptions and parameters, then generates arguments. Preserve that document lookup with the executor. [SkillRL v1, §3](https://arxiv.org/pdf/2602.08234v1) trains a policy with a retrieved library and expands it from failures. [SkillForge v1, §3](https://arxiv.org/pdf/2608.24747v1) makes requesting guidance an action and later revises guidance from experience. Return content before the action that needs it: guidance delivered alongside an already executed action can inform only its continuation. SYSE.48 constructs the usable resource, .52 exposes it and .47 consumes the return. Separate bad retrieval, ignored guidance and a faulty instruction before deciding which to repair.
 
@@ -4483,7 +4531,7 @@ Now supply a qualified current snapshot before the effort choice. Finishing from
 
 A direct rule can make one read when current evidence is missing and finish when it is supplied. The following cost comparison uses that rule. If an effort learner is selected for a broader task, include its attempt collection, fitting and assessment in the whole cost.
 
-##### Decide whether the change is worth obtaining
+##### Engineering.Reference:26.4.6.5 - Decide whether the change is worth obtaining
 
 Compare the complete arrangements over the same horizon. Charge discovering and checking a withdrawal schedule, guided targets, teacher or creator work, fitting, failed alternatives, adaptive trials, final assessment and maintenance. C.11.DUA selects further inquiry only when its possible effect on this choice warrants that burden. C.11.MV supplies the situated Method-worth comparison.
 
@@ -4497,7 +4545,7 @@ For the finite fixture, a deterministic converter is also available as a constru
 
 Under the stipulated floor and cost objective, retain the guide for two tasks and obtain the converter for 100. The learned candidate demonstrates an obtainable update and successful later use, but the converter dominates it on these supplied costs and result rates. Keep that alternative when the relevant input envelope really admits it. A broader interpretation problem, unavailable implementation or different preparation burden reopens the comparison. If the evidence needed to choose a withdrawal costs more than retaining adequate help, retain the help for the current horizon.
 
-##### Obtain the human development and provision results separately
+##### Engineering.Reference:26.4.6.6 - Obtain the human development and provision results separately
 
 For a person doing the same preparation, use [HCD.9, HCD.10, HCD.12 and HCD.13](../Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) for the actual attempt, help, correction, support change and later use. C.2.8 can compare how much selected Method-description structure the person recovers under the stated preparation, access, help and budget. Recovery of the sequence, performance with a cue and later uncued performance provide different evidence. HCD.18/.19 connect instruction recovery with development practice.
 

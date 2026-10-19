@@ -30,6 +30,7 @@ Search the Keywords & Search Queries column for the engineering difficulty, subj
 | [Citation](#citation) | Cite this framework or one pattern with its author, title, release date, and publication address. |
 | [Systems Engineering Principles Framework Architectural Reference](#systems-engineering-principles-framework-architectural-reference) | Understand how 53 patterns connect common Systems Engineering, Platform Engineering, selected software Methods and engineering of agent work and support. |
 | [SYSE.Reference:1](#sysereference1---choose-a-useful-result-and-combine-its-needed-contributions) | Choose a useful result and combine its needed contributions |
+| [SYSE.Reference:1.1](#sysereference11---the-system-thinking-long-mantra-in-engineering) | The system-thinking long mantra in engineering |
 | [SYSE.Reference:2](#sysereference2---one-system-can-appear-in-several-engineering-structures) | One System can appear in several engineering structures |
 | [SYSE.Reference:3](#sysereference3---use-and-system-concepts-stay-linked) | Use and System concepts stay linked |
 | [SYSE.Reference:4](#sysereference4---realization-is-recursive-and-continuous) | Realization is recursive and continuous |
@@ -321,6 +322,18 @@ If a current specialist Method or available result already answers the whole que
 Common Systems Engineering becomes useful when the question crosses those local answers or changes their
 receiving use. Stop when the bounded answer is sufficient; a missing premise holds only the conclusion or
 action that depends on it.
+
+### SYSE.Reference:1.1 - The system-thinking long mantra in engineering
+
+The **system-thinking long mantra** holds these engineering questions together: agree the intended use and common target; connect outside effects, functioning, construction, ways of obtaining the system, capable creators and their cooperation; repeat for creators that must themselves be obtained; make the answers fit and follow results into use. The general construction and its reasons are developed in FPF A.1.STM:4.1–4.3.1. Use that pattern when the shared project account is itself unresolved. Here the connections explain how the engineering Methods form a language rather than a sequence of independent tasks.
+
+The needed effect gives a reason to investigate particular functioning, but it does not determine a unique construction. A proposed construction permits some behaviour and requires particular ways of realization. SYSE.2 and SYSE.5 therefore develop related alternatives; SYSE.6 compares whole candidates under the conditions that matter. A proposal cannot borrow performance from one configuration and realization cost from another. SYSE.7 keeps the related engineering descriptions usable together. SYSE.8 develops the offering and provider concept alongside the technical concept, so the promise to a user and the ways of fulfilling it constrain the same proposed result.
+
+Obtaining the chosen system also depends on its creators. SYSE.3 connects recursive realization; SYSE.12 develops the needed engineering environment; SYSE.18 obtains commitments across independently governed contributors. Individual capability does not establish compatible contributions, access to a shared facility or permission to use it. SYSE.20 examines the actual conditions for overlapping work. If a needed capability or commitment is missing, the design can change, another provider can be obtained, or the promised result can be reconsidered; the mantra does not select that repair by itself.
+
+Configuration and evidence keep this reasoning about the same proposed or actual system. SYSE.9 and SYSE.10 connect inquiry and qualification to the claim at issue; SYSE.13 preserves the configuration distinctions on which the claims depend. SYSE.11 and SYSE.14 distinguish obtaining an increment from authorizing its use, while SYSE.19 traces a changed source or description into the engineering decisions that relied on it. SYSE.15 revises the repertoire of engineering Methods when that is the contribution in question. The following Reference sections develop these relations and their limits.
+
+This is a logical teaching unfolding. In actual work, a test result, an available component or a missing production capability can be the first thing known. Its consequences may travel back to functioning or intended use, and several alternatives may develop together. A team needs enough compatible answers for the decision now being made, not a completed answer to every possible project question. Keep supported local results while revising the premises that no longer hold.
 
 ## SYSE.Reference:2 - One System can appear in several engineering structures
 

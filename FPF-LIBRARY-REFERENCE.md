@@ -16,6 +16,7 @@ This Reference explains how that language is organized and why its boundaries ma
 ## Contents
 
 - [One connected language, several kinds of whole](#libraryreference1---one-connected-language-several-kinds-of-whole)
+  - [Long mantras and connected reasoning](#libraryreference11---long-mantras-and-connected-reasoning)
 - [What the names refer to](#libraryreference2---what-the-names-refer-to)
 - [Why general Methods belong in Core](#libraryreference3---why-general-methods-belong-in-core)
 - [Why these Suites form useful wholes](#libraryreference4---why-these-suites-form-useful-wholes)
@@ -67,6 +68,26 @@ FPF Library is an organized collection of related framework publications with th
 Within the Library, a Suite makes a stronger subject claim: it describes a composite discipline through constituent DPFs and their connections. Engineering, Management, Foundational Thinking and Human Capability Engineering each have an account of that whole. A DPF outside those Suites keeps its own subject; its Methods can supply contributions to the same work. Neither arrangement determines how many publications a particular task needs.
 
 This distinction follows [FPF E.4's ecosystem architecture](FPF-Spec.md#e4---fpf-ecosystem-architecture-framework-families-products-and-dpf-suites) and [C.20's construction of a discipline (FPF C.20:4)](FPF-Spec.md#c204---solution---recover-the-whole-from-direct-construction). The requirement for a shared explanation, including alternatives, whole conditions and worked connections, comes from [FPF E.11.PFP:4.7](FPF-Spec.md#e11pfp47---explain-the-methods-at-each-selected-scale).
+
+### Library.Reference:1.1 - Long mantras and connected reasoning
+
+A language of patterns needs more than useful separate Methods. Its reader also needs to understand why particular questions belong together, how their answers constrain one another, which alternatives remain possible and what a changed premise reopens. A **long mantra** gives a memorable traversal of that connected reasoning. The short wording helps hold it in attention; the full explanation supplies its reasons, subject knowledge and limits.
+
+The system-thinking long mantra is one important instance. FPF A.1.STM connects the common project target and use with functioning, construction, ways of obtaining the system, capable creators and their cooperation. These questions connect large areas of engineering and organizational knowledge. The mantra does not derive a material law, a production technique or a cooperation arrangement by reciting their names. It makes clear where those answers are needed and why they must fit together. [Engineering.Reference:0.5](DPFs/Engineering%20DPF%20Suite/ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference05---the-system-thinking-long-mantra-across-engineering-contributions) explains the connection across that Suite.
+
+Other developed accounts retain different subjects. The connections below are examples of full reasoning already available in the Library, not a requirement to give every framework the same formula.
+
+| Connected question | What holds the reasoning together | Full account |
+| --- | --- | --- |
+| Which direction is worth committing to, and under what conditions? | The worthwhile contribution, possible ways of obtaining it, capabilities, resources and bounded commitments constrain one another; changed evidence can reopen the direction. | STR.Reference:4, :11 and :14 in the Strategy Principles Framework. |
+| How can a changing body of knowledge serve real work? | The receiving work determines what must be found, preserved, interpreted and delivered; an answer must retain enough of its grounds to be used and revised. | KCAE.Reference:4 in the Knowledge-Corpus Access Engineering Principles Framework. |
+| How can a customer-specific result preserve a repeatably usable general offer? | Family boundaries, acceptable variation, commitments, economics and the transition of existing customers constrain the same proposed offer. | CUST.1 and CUST.Reference:6 in the Customization and Productization Management Principles Framework. |
+
+These accounts can meet in one undertaking without collapsing into one Method. A strategic decision can change the proposed system's use; an engineering limit can reopen a strategy; changing an offer can alter the knowledge and cooperation needed to fulfil it. Follow the shared subject or premise and bring its changed conditions to the reasoning that uses them. Shared words alone do not establish a dependency.
+
+The teaching order makes a connection understandable one part at a time. Actual reasoning can begin at a later question, develop answers together, discover an incompatibility or return to an earlier assumption. The analogy with simultaneous equations captures mutual constraint, not a universal numerical solver or a guarantee of a unique answer. FPF A.22.CGUS develops the alternatives and conditions when that structure needs to be made explicit; its requirements for a formal claim are additional to using an ordinary reminder.
+
+The general explanation of a mantra stays with the pattern or framework that supplies it. A Framework Architectural Reference connects the language's Methods; a Suite Reference explains the additional connections across its constituent fields; this Library Reference explains connections and boundaries across publications. README pages make the important entry visible. These levels should lead to the full reasoning rather than repeat several competing definitions or hide a missing Method behind a navigation link. FPF E.11.PFP:4.7.2 explains this publication arrangement.
 
 ## Library.Reference:2 - What the names refer to
 
