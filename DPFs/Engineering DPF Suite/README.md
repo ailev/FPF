@@ -16,6 +16,10 @@ The **[system-thinking long mantra (FPF A.1.STM)](https://fpf.tools/A.1.STM)** c
 
 Use the [connected explanation in Engineering.Reference:0.5](ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference05---the-system-thinking-long-mantra-across-engineering-contributions) to see how the Suite's contributions constrain one another. The mantra's order helps explain and remember the reasoning; actual work can begin at any consequential question and return as answers change. The full Methods supply the knowledge needed to answer those questions.
 
+## Reduce avoidable work and repeated firefighting
+
+A faster operation can still produce an unneeded result, repeat an error or leave the result waiting elsewhere. The **[elegance mantra and reducing repeated firefighting](ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference06---the-elegance-mantra-and-reducing-repeated-firefighting)** connects these different causes to the change that can improve the needed result, then returns that change to the next performance. The explanation links engineering, operations and method introduction without imposing one work sequence.
+
 ## Choose an entry
 
 

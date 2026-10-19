@@ -23,12 +23,16 @@ Framework and method links open readable text on fpf.tools; **Markdown** links o
 
 For a connected case, the [Management Architectural Reference](MANAGEMENT-DPF-SUITE-REFERENCE.md) follows both a [voluntary practice network (Management.Reference:5.1)](MANAGEMENT-DPF-SUITE-REFERENCE.md#managementreference51---a-voluntary-practice-development-network) and [a new order in an operating business (Management.Reference:5.2)](MANAGEMENT-DPF-SUITE-REFERENCE.md#managementreference52---a-new-order-in-an-operating-business). These are contrasting uses, not the limits of the field.
 
+## Keep operating decisions connected
+
+The **[operational mantra (OPS.Reference:10.1)](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#opsreference101---operational-mantra-connect-local-work-to-accepted-results)** connects local work to the result the operation must deliver: **accepted result → route and readiness → limiting conditions → release and feasible order → service, money and human conditions → observed result and changed conditions**. Its developed account explains the grounds, branches and returns. Increasing a team's activity can leave delivery unchanged; a changed resource window can require revising both starts and promises. Read this account when those decisions need to be made together, rather than treating the phrase order as a work schedule.
+
 ## Frameworks in this Suite
 
 | Framework | What you can work on | Patterns | Text, M characters |
 | --- | --- | ---: | ---: |
 | [Strategy (STR)](https://fpf.tools/STR) · [Markdown](STRATEGY-PRINCIPLES-FRAMEWORK.md) | Find a worthwhile direction; compare options, capabilities, investments and business models; revise commitments when conditions change. | 17 | 0.530 |
-| [Operations Management (OPS)](https://fpf.tools/OPS) · [Markdown](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) | Organize flow, queues, capacity, admission, quality and simultaneous work under actual operating conditions. | 28 | 0.903 |
+| [Operations Management (OPS)](https://fpf.tools/OPS) · [Markdown](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) | Organize flow, queues, capacity, admission, quality and simultaneous work under actual operating conditions. | 28 | 0.909 |
 | [Organization Administration (ADM)](https://fpf.tools/ADM) · [Markdown](ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md) | Make requests, permissions, obligations, provision, records and provider coordination effective without unnecessary burden. | 15 | 0.302 |
 | [Corporate Governance (CGOV)](https://fpf.tools/CGOV) · [Markdown](CORPORATE-GOVERNANCE-PRINCIPLES-FRAMEWORK.md) | Constitute and exercise corporate powers, decisions, controls and accountability under applicable governing rules. | 17 | 0.274 |
 | [Management Accounting (MA)](https://fpf.tools/MA) · [Markdown](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md) | Construct cost and capacity accounts, forecasts and explanations that inform organizational choices. | 9 | 0.163 |

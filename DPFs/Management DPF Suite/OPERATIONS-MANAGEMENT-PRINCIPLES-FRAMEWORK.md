@@ -6,7 +6,7 @@
 > A domain pattern language for admission, continuation, coordination, service, quality, improvement and performance decisions in continuing operation.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 12 October 2026
+- **Version:** 19 October 2026
 - **Status:** Eternal alpha: the current Methods can be used for their stated operating questions and conditions; the framework continues to develop as practice and evidence change.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF Library repository](https://github.com/ailev/FPF)
@@ -35,6 +35,7 @@ Use the Readme for worked connections across several operating questions. Use th
 | [OPS.Reference:8](#opsreference8---pattern-relations-do-not-prescribe-an-operating-lifecycle) | Pattern relations do not prescribe an operating lifecycle |
 | [OPS.Reference:9](#opsreference9---use-the-methods-together-where-their-results-meet) | Use the Methods together where their results meet |
 | [OPS.Reference:10](#opsreference10---conditions-on-a-whole-combination) | Conditions on a whole combination |
+| [OPS.Reference:10.1](#opsreference101---operational-mantra-connect-local-work-to-accepted-results) | Operational mantra: connect local work to accepted results |
 | [OPS.Reference:11](#opsreference11---check-the-combined-decision-and-its-result) | Check the combined decision and its result |
 | [OPS.Reference:12](#opsreference12---architectural-rationale) | Architectural Rationale |
 | [OPS.Reference:13](#opsreference13---apply-the-repertoire-in-production-and-service-settings) | Apply the repertoire in production and service settings |
@@ -142,6 +143,8 @@ Use the Readme for worked connections across several operating questions. Use th
 Operations Management connects decisions about continuing service: what may start, what a case needs next, what the available resources can support, what can be promised, and what must change when results fail. These decisions use different results. A capacity calculation can constrain admission; an incident can change priorities; a service promise can remain unresolved after a feasible schedule has been found.
 
 These selected examples show how to combine the methods around a current difficulty; they are not a catalogue or a boundary of the field. Enter where adequate inputs are available and stop at the result the decision needs. The Table of Contents gives direct access to OPS.1–OPS.22 and their nested methods. The [Architectural Reference](#operations-management-principles-framework-architectural-reference), including its [conditions on a whole combination](#opsreference10---conditions-on-a-whole-combination), explains why individually useful operating moves can conflict when they use the same resources, authority or evidence.
+
+**Keep the connected operating reasoning in view.** The [operational mantra (OPS.Reference:10.1)](#opsreference101---operational-mantra-connect-local-work-to-accepted-results) relates accepted results, readiness, limiting conditions, feasible starts, commitments and observed consequences. Its developed account explains why these answers must fit together and which ones to revisit when conditions change. Use it to connect local work to the receiving operation; use a sufficient individual method directly for a smaller question.
 
 You can ask an assisting agent to explain a pattern or comment on your case in ordinary language, without framework jargon.
 
@@ -396,6 +399,26 @@ PumpWorks makes the whole condition tangible. In its stated repeat scenario, two
 
 If a shared condition changes, reopen each combination that relied on it and the specific local result made stale by the change. Keep independent results whose subjects and conditions still match. A new resource window can alter admission and a service offer while leaving a valid subject account and a useful readiness rule available.
 
+### OPS.Reference:10.1 - Operational mantra: connect local work to accepted results
+
+Use this long mantra when deciding how a person's or team's work contributes to the continuing operation. The question is what the receiving operation can actually deliver, not how to keep each participant busy. A compact teaching unfolding is:
+
+**Accepted result → route and readiness → limiting conditions → release and feasible order → service, money and human conditions → observed result and changed conditions.**
+
+These are connected questions to keep in attention. Their answers constrain one another; the phrase order is not a required work sequence. Begin with the unresolved question that can change the present decision, retaining adequate answers elsewhere. The full combination is explained in OPS.Reference:8–11 and the supplying Methods below.
+
+**Relate local work to a result the recipient can use.** Identify the operating system, required result, acceptance boundary and commitments through OPS.1 and OPS.3. Follow the work and its required inputs through the relevant workstations or contributors. Locate the person's contribution in that route: producing an intermediate item, making later work ready, handling a return or preserving service can affect the whole differently. A completed local task is useful on this account when the receiving work can use its contribution. OPS.11.1 develops the connection between local routes, shared resources and order-level completion. When the required system or its intended use remains unclear, FPF A.1.STM supplies the connected system-thinking questions; an operating calculation cannot settle that earlier choice by itself.
+
+**Find which condition limits the result under the present demand.** Work can wait because an input or permission is missing, because usable capacity is insufficient, or because the selected order delays a needed completion. OPS.8 and OPS.9 distinguish these causes; OPS.10 qualifies capacity over the relevant interval. Improving an already non-limiting station can increase intermediate inventory without increasing accepted output. Conversely, protecting the limiting station may require work elsewhere. The target matters: shortening the time to a first accepted result and increasing sustained output can require different changes, as OPS.9:5.4 explains. A visible queue or a heavily occupied person alone does not identify the consequential constraint.
+
+**Choose starts and order from those conditions.** Use OPS.2 to select the relevant management view, OPS.8 for release and queue rules, and OPS.10.2 when a deadline needs a feasible schedule. Count waiting from the recipient's relevant starting event; moving an incomplete item off a board does not remove that delay. Include returning work, setup and recovery where they consume the same capacity. A calculation of total required hours supplies a necessary bound, while precedence and simultaneous resource requirements can still prevent a schedule. Priorities need the decision's supported consequences and available authority. OPS.14 compares financial consequences on a common basis; its indivisible-job case shows why a value-per-hour ranking need not select the best feasible set. An unknown monetary estimate does not establish that work has no value.
+
+**Require the combined promise to be feasible.** The whole-combination conditions in OPS.Reference:10 apply to continuing service and the proposed change together. OPS.12 preserves the affected people's required conditions, OPS.13 relates service commitments to available provision, and OPS.14 checks payments when they fall due. OPS.19 reconciles conflicts that otherwise valid local decisions leave unresolved. PumpWorks in OPS.19:5.1 shows the consequence: two test completions and a possible repeat exhaust the same six rig-hours, so a separately feasible Method trial cannot also use that interval. Qualified relief, incident coverage and funding remain separate conditions even if more rig access can be obtained.
+
+**Return observations to the answers they change.** OPS.15 keeps the observed result and its population clear; OPS.18 distinguishes containment, correction and evidence about recurrence. If a constraint moves, a return consumes a reserve or an input becomes unavailable, reconsider the starts, commitments and resource choices that relied on the earlier condition. Keep unrelated valid results. A change to the way of working uses OPS.16 with its own trial conditions, including coexistence with continuing service. This can improve an operation; continued development toward further problems requires its own purpose and means, described in FPF C.40.OD. The operational mantra supplies the operating conditions for that undertaking without making every operating correction a development project.
+
+The connection works at a workplace as well as across an organization. A worker can revise a permissible local choice from the shared operating facts; a change to another person's commitment, resource allocation or protected condition must reach whoever can decide it. The mantra helps keep that shared reasoning recoverable. It neither gives one participant authority over the whole operation nor requires everyone to maintain a complete enterprise model.
+
 ## OPS.Reference:11 - Check the combined decision and its result
 
 
@@ -472,7 +495,7 @@ Do not use it merely because a project exists, a process is documented, a board 
 
 ## OPS.Reference:18 - Practical entry forms
 
-The following stable example keys select ordinary practical entries in the Readme. Each appears there once. They support direct choice and explicit worked continuations; no Practical-Use Card or separate mantra is selected. Questions outside these examples use the Table of Contents and the full pattern bodies.
+The following stable example keys select ordinary practical entries in the Readme. Each appears there once. They support direct choice and explicit worked continuations without a separate Practical-Use Card. The operational mantra in OPS.Reference:10.1 explains the connected reasoning beyond these examples. Questions outside them also use the Table of Contents and the full pattern bodies.
 
 | Example key | Form |
 | --- | --- |
@@ -6746,7 +6769,7 @@ The [shared architectural choices](#opsreference19---source-use-and-shared-archi
 ```text
 Anatoly Levenchuk, with AI-assisted development and review.
 Operations Management Principles Framework.
-12 October 2026.
+19 October 2026.
 GitHub repository: https://github.com/ailev/FPF
 ```
 
