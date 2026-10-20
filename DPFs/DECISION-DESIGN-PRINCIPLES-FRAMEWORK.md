@@ -4643,6 +4643,8 @@ For each arrow, state whether it means a necessary condition, a sufficient alter
 
 #### PSDA.20:4.3 - Show the part of the model needed for the current question
 
+
+
 A view showing only participants and external provision helps locate a missing supplier. Opening the manager's and attendant's internal reasons exposes why the count is needed and what work supports it. Opening the supplier's proposed arrangement becomes useful when installation or later maintenance can change the answer.
 
 In iStar these are the strategic dependency view, strategic rationale view and selective combinations of them. They show different amounts of one model. They are not required stages, and a hidden detail is not an absent condition. Preserve the same identified dependency when changing views; otherwise a convenient simplification can silently replace the thing being examined.
@@ -4650,6 +4652,8 @@ In iStar these are the strategic dependency view, strategic rationale view and s
 For this car park, an overview can show “attendant supplies count”. To examine availability during a shift, open the checking task and its staffing conditions. To compare whole cost, obtain the relevant cost account; opening more circles does not calculate it. The [iStar 2.0 Guide, §§2–8](https://arxiv.org/html/1605.07767v3) supplies the notation, distinctions and integrity rules when an actual iStar model is wanted. This prose walkthrough uses those distinctions without claiming to be a solver-ready model.
 
 #### PSDA.20:4.4 - Turn a working question into an analysis, then recover its meaning
+
+
 
 Define one alternative precisely enough to tell which work and assumptions change. Alternative A retains the existing displays and uses manual correction. Alternative B installs the proposed replacement and uses its automatic counts. For the initial comparison, suppose staffing for A is available and the supplier has described a technically plausible B, while B's installation interval and whole cost remain unknown. Do not compare A in its troublesome current state with B in an unexplained ideal state.
 
@@ -4672,6 +4676,15 @@ Return an answer in the language of the original inquiry:
 This comparison does not yet justify the investment. It identifies what the proposal can improve and which missing facts can change the choice. Obtain a bounded installation and whole-cost answer if its expected contribution warrants the work; otherwise retain the conditional comparison or defer the choice. The answer is not “B has more satisfied goals”.
 
 #### PSDA.20:4.5 - Use surprising results to discover a different problem
+
+An unexpected answer raises two questions: whether the model or its analysis needs correction, and whether the proposed work has a problem that the original question omitted. Trace the answer back to the relations and premises that produced it. Check the inference against its analysis rules and compare the material premises with the participants' accounts and operating conditions. Correct a misrepresented relationship or mistaken premise, then reconsider the affected conclusions. If this resolves the surprise, continue the original inquiry using the repaired model.
+
+When the original question omits a necessary contribution, restate the required joint result and its conditions. A question about improving one contribution can thereby become a question about obtaining several contributions together. Explain that change to the participants: it follows from a dependency of their desired result, rather than from the analyst's preference for a larger model.
+
+Work backward from the joint result to the provisions and conditions that would make it possible. Construct alternatives by changing a provider, the means of producing a provision, its timing or the support available to it. Use PSDA.5 when generating the alternatives needs further development. A proposed relaxation of the required result returns to the people whose need or obligation it changes.
+
+Then work forward through each promising arrangement, checking the contributions together under the same conditions, including competing assignments and shared resources. Revise the affected conclusions when a premise changes; retain relationships and conditional answers whose grounds still hold. The result is a changed problem with a reason for the change and a candidate answer, rejection or next inquiry that its participants can use.
+
 
 Suppose the first model gave A an unqualified favorable result because it represented the round but omitted other assignments. Ask what must be true for that result to hold. Inspecting the rota now reveals that the same attendant must be at the security desk from 10:00 to 10:15, while the modeled correction requires leaving it for a round from 10:00 to 10:10. No substitute is assigned. These stipulated facts defeat the simultaneous arrangement.
 

@@ -387,6 +387,22 @@ For a condition-based candidate, place detection and response on one time basis.
 
 For a hidden protective function, relate the test interval to the period during which the failed function could remain undiscovered and the consequences of a demand during that period. The test's coverage, any exposure it creates and the relevant failure-and-demand account determine whether the interval is acceptable. Continuing normal production supplies no observation of that protective function.
 
+##### MNT.2:4.1.1 - Build and improve a predictive maintenance option
+
+Use this branch to develop a maintenance policy whose response depends on a forecast or other conditional estimate. An adequate existing estimate and decision rule can be used directly. A competent practitioner's condition assessment can supply the estimate; fitting a statistical model is one possible means.
+
+Start with the decisions the estimate should improve. Determine the available interventions and windows, what continued operation may lose, and what an earlier intervention consumes or disrupts. Connect observations available at the decision time to an estimate of the relevant failure or functioning, then to an intervention rule. This makes the forecast useful through the action it permits and the functioning that action can obtain.
+
+Apply each candidate rule to the supported histories described above. Compare the resulting functioning and burden, including consequential early interventions, missed failures and delays. Examine which differences between estimates change the chosen response. A smaller prediction error that leaves every consequential action unchanged may add little maintenance value; an error near an action boundary can reverse the choice. Keep the required service and other binding conditions in that comparison.
+
+Construct a better response where an obtainable support change makes it possible. Use [MNT.5](#mnt5---prepare-maintenance-service-capability-spares-tools-and-authority) to establish how the needed part, provider and preparation can be obtained, and [MNT.7](#mnt7---coordinate-maintenance-intervention-and-continuing-operation) to construct a feasible window and service arrangement. Bring the required lead times, commitments and burdens back into the candidate. Advance preparation can shorten the delay between warning and intervention; another window can make a previously unusable warning actionable. Compare this complete arrangement with the current one, including preparation and recurring support. Recalculate the response rule when those returned conditions change.
+
+When the forecasting or response rule itself needs development, use FPF C.40:4.7. Supply the permitted variations, the observations each variant may use, its feasible interventions and the maintenance consequences by which its use will be judged. Use the consequences to identify estimate errors that change a useful action, then vary the relevant assessment, trigger or response rule. Compare those revisions through the maintenance consequences of their selected actions. Return the forecasting or assessment rule together with its response rule and support conditions. A small comparison of expert assessments or rules can suffice.
+
+If model fitting is useful, one implementation tunes the prognostic model using a loss derived from the interventions selected by a chosen policy. Keep that policy's windows and consequences with the fitted model. Such tuning can improve maintenance decisions while worsening a prediction score; any required probability calibration claim still needs its own support. Use [MNT.3](#mnt3---establish-degradation-and-failure-evidence-for-maintenance) for a supported failure and task-effect account, including lifetimes censored by replacement. Keep consequences estimated through that account distinct from outcomes observed in maintenance.
+
+Select a feasible change when the current observations, applicable model or reasoned expert estimate make its expected benefit worth its complete burden under the relevant uncertainty. Use ranges, scenarios or a qualitative comparison when they are sufficient. Return the policy and the next executable preparation or intervention decision, with the assumptions whose change could reverse the choice. New data or a trial are needed only when their attainable contribution warrants the burden; absence of an already observed improvement does not by itself prevent acting on a reasonable estimate.
+
 #### MNT.2:4.2 - Compare recurring age-replacement costs when that model fits
 
 Suppose replacement restores the component to an as-new state, successive lifetimes `X` are independent with the same distribution, intervention duration is negligible, expected cycle duration is positive and finite, and costs cover the relevant consequences. For replacement at age `a` or earlier failure, derive the two possible endings from the lifetime model, counting a failure at age `a` as corrective:
@@ -424,6 +440,23 @@ In another constructed case, the supported warning bound `W` is 8 hours and the 
 
 If support delay raises `L` to 6.5 hours, the two-hour candidate no longer fits: `2 + 6.5 = 8.5`. Reconsider sampling, support or another admissible policy. The failure threshold has not moved, and the old timing result supplies no permission to extend use. These quantities illustrate construction from a supplied equipment model; they are not operating limits.
 
+#### MNT.2:5.3 - Obtain a useful response from a conditional estimate
+
+Consider a constructed ten-day service horizon. The current arrangement replaces a component on day 5; obtaining a compatible spare and an agreed access window permits replacement on day 1. Suppose untreated failure is on day 2 with conditional probability `p`, and otherwise after day 10. For this comparison, replacement prevents that failure for the remaining horizon. Both options meet the other binding requirements. All distinguishing costs are included: day-5 replacement costs 20 if the component survives, while failure before it costs 100 in total. Day-1 replacement costs 20 plus 10 for advance support and early intervention.
+
+The expected cost of the current arrangement is `100p + 20(1-p) = 20 + 80p`; the prepared early response costs 30. A condition estimate `p = 0.20` therefore favours the new arrangement: 36 versus 30. Even a supported range `0.15 <= p <= 0.25` leaves the current arrangement at 32–40. MNT.5 establishes the spare's readiness and MNT.7 obtains the window; their result makes the day-1 response available. The selected move is to arrange that support and replace on day 1, without requiring another experiment merely because the benefit is still an estimate. An adequate expert condition estimate can supply this input.
+
+To examine improvement of the estimating rule, take two equally common condition groups with probabilities 0.10 and 0.20 in the comparison model. Both forecasting variants use information available before the choice; their development and use costs are equal here. Each selects the lower expected-cost action using its own probability estimate and the same available responses.
+
+| Forecasting variant | Estimates for the two groups | Mean absolute probability error | Selected responses | Mean cost under the comparison model |
+| --- | --- | --- | --- | --- |
+| A | 0.11; 0.12 | 0.045 | Day 5; day 5 | `(28 + 36) / 2 = 32` |
+| B | 0.02; 0.18 | 0.050 | Day 5; day 1 | `(28 + 30) / 2 = 29` |
+
+B has the larger prediction error but selects the more useful response in the second group. Comparing the consequences therefore favours B for this use; it does not establish B as the better probability model for other uses. The probabilities supplying this examination are stipulated model inputs, not information assumed available during a real intervention.
+
+If the added cost of the early arrangement rises from 10 to 25, its total becomes 45. At `p = 0.20`, the day-5 arrangement's 36 now wins. Reopen the response and forecast comparison with that changed support cost, or construct another obtainable arrangement. Under the changed costs, both forecasting variants choose day 5 for both groups and have mean model cost 32, so their earlier cost ranking disappears. These calculations illustrate the construction and return; they are not measured field savings.
+
 ### MNT.2:6 - Bias-Annotation
 
 Breakdowns are conspicuous; unnecessary preventive work and failures introduced by maintenance can disappear into ordinary cost codes. Include those consequences in a comparison. A vendor's technology categories can also favour its own sensor or software offering over a simpler adequate task.
@@ -453,6 +486,8 @@ The task alternatives remain plural because failure visibility, mechanism, conse
 ### MNT.2:11 - SoTA-Echoing
 
 For the question “Which task is worth performing for this failure?”, this pattern adapts the applicable/effective task reasoning of NASA's historical 2008 RCM guide and the mechanism-plus-decision-model line discussed by Arts and colleagues in 2025. It rejects a technology ladder as the policy rule: the comparison table and complete-response reasoning preserve corrective, hidden-function and support-limited cases that the ladder obscures. More demanding models remain useful when their decision gain warrants their effort. Neither source supplies a universal interval or permission rule. Reopen when failure behaviour, warning time, restoration effectiveness or the operating consequence changes. See the [RCM task discussion](https://www.nasa.gov/wp-content/uploads/2023/06/nasa-rcmguide.pdf) and [maintenance optimization account](https://orbilu.uni.lu/bitstream/10993/61558/1/1-s2.0-S0377221724005241-main.pdf).
+
+For improving forecasts through the decisions they induce, [Xie, Abdin and Fang (2025), §§2–5](https://arxiv.org/html/2506.19698v1) supply one ML realization: fine-tune a prognostic model against maintenance consequences under a selected policy and given windows. Their numerical evidence uses NASA C-MAPSS FD001 simulation, not universal field superiority. The extension to changing obtainable support in §4.1.1 combines MNT.5 and MNT.7 with this pattern's policy construction; it is not a result established by that study. C.40:4.7 supplies the general Method of developing a way by what its use produces.
 
 ### MNT.2:12 - Relations
 
@@ -1458,9 +1493,13 @@ State the maintenance result and conditions for the comparison. Recover the fail
 
 Describe the action-changing difference. Is the candidate a different task, a changed trigger, another diagnostic interpretation, a revised response rule or only a different description or software implementation? Keep those objects distinct when continuity, training or evaluation depends on them. A useful Method change should alter what the practitioner notices, decides, does, needs or obtains.
 
+When a useful predictive alternative still has to be constructed, use [MNT.2:4.1.1](#mnt2411---build-and-improve-a-predictive-maintenance-option) to connect the estimate, intervention rule and obtainable support. Bring back an executable option and its consequence comparison. This can include changing preparation or access, or improving the forecasting rule through the interventions it selects. Use already adequate alternatives directly.
+
 Compare practical worth over a relevant horizon. Include preparation, acquisition, configuration, competence, interpretation, false responses, missed conditions, maintenance of the tool, supplier dependence and exit where they matter. Use [FPF C.11.MV](../../FPF-Spec.md#c11mv---compare-the-worth-of-a-method-option) for the practical-worth comparison and [FPF A.3.1.MV](../../FPF-Spec.md#a31mv---construct-and-maintain-a-method-variant) when variant identity or maintenance of the repertoire needs that more general Method.
 
 Test the candidate against a consequential unlike case. A Method useful for a visible degradation trend may not expose a hidden protection failure. An online predictor may improve timing while remaining unusable where the support lead time is longer than its warning. These differences can justify branching the repertoire instead of replacing one Method everywhere.
+
+Choose a feasible change when current observations, an applicable model or a reasoned expert estimate make its expected improvement worth the transition and continuing burden. Name the first executable move and obtain the support it needs. A sufficient comparison can justify beginning the change before its eventual benefit has been observed; retain the distinction between that expected benefit and the outcome subsequently obtained.
 
 Use existing evidence first. If it already establishes that the candidate cannot support the needed response, reject it for that use without a trial. If it supports retaining the current Method, return that decision. When an uncertainty could change the choice, assess what a feasible trial or analysis could actually discriminate and the whole burden of obtaining that result. Do not turn a possible study design into an obligatory next task.
 
