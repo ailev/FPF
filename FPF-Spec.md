@@ -6959,7 +6959,7 @@ An A.10 `pass`, or a B.3 `AssuranceResult` with `disposition=supported-for-use`,
 * **I-LOCAL.** Interpret membership under the effective reference scheme and exact local senses current to the declaration. Translate only through an obtaining F.9 Bridge plus the separate affirmative C.2.1 claim for that translation; keep A.10 or B.3 reliance outside membership truth.
 * **I‑SERIAL.** Serial scope is an **intersection**; it cannot grow by adding dependencies.
 * **I‑PARALLEL.** Parallel scope MAY grow by union, but only where **independently supported**.
-* **I‑WLNK.** Weakest‑link applies to **F** and **R** on dependency paths; **G** follows set rules (∩ / ⋃).
+* **I‑WLNK.** **F** follows the weakest-essential-formal-constituent rule under C.2/C.2.3. **R** follows the justified support-composition model or non-aggregate synthesis under C.2.2/B.3; dependency paths alone supply no default minimum. **G** follows the set rules in §7.2–§7.3.
 * **I‑IDS.** Idempotence: Intersecting or unioning a set with itself does not change it.
 * **I‑EMPTY.** Empty scope is a first‑class value; guards MUST treat it as “not applicable”.
 
