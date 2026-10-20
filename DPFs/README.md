@@ -1,6 +1,6 @@
 # Domain Principle Frameworks
 
-**Find a field's methods for the result you need.** These 33 frameworks explain domain practice through connected patterns, with conditions, worked cases and source grounds. Use them for a current task or as contributions to continuing development; applying a method once does not require a development programme.
+**Find a field's methods for the result you need.** These 34 frameworks explain domain practice through connected patterns, with conditions, worked cases and source grounds. Use them for a current task or as contributions to continuing development; applying a method once does not require a development programme.
 
 If you know the field, choose a Suite or framework below. If you only know the difficulty, describe it in ordinary words and search the texts; [Using FPF Library](../USING-FPF.md#choose-what-to-read) explains how to find and connect useful contributions. The [Library introduction](../) gives the overall purpose and a first-use route.
 
@@ -17,7 +17,7 @@ A Suite brings together constituent disciplines and explains how their knowledge
 
 | Suite | Working subject | DPFs | Patterns | Text, M characters |
 | --- | --- | ---: | ---: | ---: |
-| [Engineering](Engineering%20DPF%20Suite/) | Designing, realizing, changing and maintaining systems; knowledge access and semantic integration. | 4 | 93 | 2.584 |
+| [Engineering](Engineering%20DPF%20Suite/) | Designing, realizing, changing and maintaining systems; knowledge access, semantic integration and control architecture design. | 5 | 98 | 2.731 |
 | [Management](Management%20DPF%20Suite/) | Direction, commitments, operations, resources, markets, communities and organizational change. | 12 | 184 | 5.008 |
 | [Foundational Thinking](Foundational%20Thinking%20DPF%20Suite/) | Mathematical and physical accounts, models, algorithms and usable notation. | 5 | 70 | 1.951 |
 | [Human Capability Engineering](Human%20Capability%20Engineering%20DPF%20Suite/) | Human learning and somatic change, connected to capability in later work. | 2 | 34 | 1.209 |

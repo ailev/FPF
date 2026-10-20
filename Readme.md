@@ -48,13 +48,13 @@ The general methods are in **Core**: [connect development work (C.40.OD)](https:
 
 ## What is available
 
-**FPF Core** contains 399 patterns in 17.784 million characters. It supplies transdisciplinary concepts and methods, including methodological work and open-ended development. **33 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 23 belong to four Suites, and ten have their own files directly in the DPF catalogue.
+**FPF Core** contains 399 patterns in 17.784 million characters. It supplies transdisciplinary concepts and methods, including methodological work and open-ended development. **34 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 24 belong to four Suites, and ten have their own files directly in the DPF catalogue.
 
 A DPF describes one field through a connected pattern language. A **Suite** describes a composite discipline through its constituent fields and their relations. An **Architectural Reference** explains how the relevant language is arranged and why: within a framework, across a Suite, or across the Library.
 
 | DPF Suite | Working subject | DPFs | Patterns | Text, M characters |
 | --- | --- | ---: | ---: | ---: |
-| [Engineering](DPFs/Engineering%20DPF%20Suite/) | Designing, realizing, changing and maintaining systems; knowledge access and semantic integration. | 4 | 93 | 2.584 |
+| [Engineering](DPFs/Engineering%20DPF%20Suite/) | Designing, realizing, changing and maintaining systems; knowledge access, semantic integration and control architecture design. | 5 | 98 | 2.731 |
 | [Management](DPFs/Management%20DPF%20Suite/) | Direction, commitments, operations, resources, markets, communities and organizational change. | 12 | 184 | 5.008 |
 | [Foundational Thinking](DPFs/Foundational%20Thinking%20DPF%20Suite/) | Mathematical and physical accounts, models, algorithms and usable notation. | 5 | 70 | 1.951 |
 | [Human Capability Engineering](DPFs/Human%20Capability%20Engineering%20DPF%20Suite/) | Human learning and somatic change, connected to capability in later work. | 2 | 34 | 1.209 |
@@ -67,7 +67,7 @@ The Library does not claim to exhaust the disciplines it covers: the current Hum
 
 Read [Core on fpf.tools](https://fpf.tools/FPF), or choose a [domain publication](https://fpf.tools/publications) and open the required pattern. The first method links above open that reading service. GitHub cannot display the complete Core and may truncate large DPFs; a link to a valid heading does not remove that limit.
 
-For the source, open the [Core Markdown file and its history](FPF-Spec.md) or [download Core as raw Markdown](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md). Framework tables on these pages pair online reading with a Markdown source link. On fpf.tools, **Copy and source** identifies the repository edition behind the displayed passage. Check [source editions and update status](https://fpf.tools/status) when the version matters; the service may lag behind GitHub. [Search](https://fpf.tools/search) and [MCP connection instructions](https://fpf.tools/connect) provide other ways to reach the material.
+For the source, open the [Core Markdown file and its history](FPF-Spec.md) or [download Core as raw Markdown](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md). Framework tables on these pages provide Markdown source links and, where available, online reading links. On fpf.tools, **Copy and source** identifies the repository edition behind the displayed passage. Check [source editions and update status](https://fpf.tools/status) when the version matters; the service may lag behind GitHub. [Search](https://fpf.tools/search) and [MCP connection instructions](https://fpf.tools/connect) provide other ways to reach the material.
 
 For local use, download or clone this repository. Keep `FPF-Spec.md`, `FPF-LIBRARY-REFERENCE.md`, `USING-FPF.md`, the licensing files and `DPFs/` in their existing arrangement. A selected subset is also usable: include the actual supplying frameworks needed by your question, not just links to unavailable files. [Using FPF Library](USING-FPF.md#make-the-publications-available) explains access and selection.
 
