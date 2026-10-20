@@ -5,7 +5,7 @@
 > A research repertoire for qualifying a question, choosing and conducting a defensible inquiry, examining and returning its knowledge contribution, and retaining or improving the Methods that serve it.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 12 October 2026
+- **Version:** 20 October 2026
 - **Status:** Eternal alpha: a working framework open to correction as methods, sources and uses change. The repertoire supplies RMP.1–RMP.11, with direct entries, useful stops and research-specific Method improvement.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF Library repository](https://github.com/ailev/FPF)
@@ -105,6 +105,8 @@ Use this Table of Contents to find a pattern from your actual question or a know
 ## Practical entries
 
 Research Method Practice helps a practitioner turn an uncertain question into a supported answer, an informative limitation or a decision about further inquiry. The methods connect through results: a question determines what a design must distinguish; operational choices preserve that comparison; actual material supports an analysis; criticism or synthesis can change the claim returned to its user. A later contribution can also expose a failed earlier premise.
+
+If several results do not yet answer the research question, use FPF B.5, **Choose the Next Reasoning Contribution**, to identify what is still missing and connect the next contribution to the answer. [RMP.Reference:6](#rmpreference6---pattern-relations-do-not-prescribe-a-research-lifecycle) explains how the research Methods supply those contributions and which changed conditions require a return.
 
 These are selected examples of that cooperation, not a catalogue or a prescribed research sequence. Start with the contribution whose inputs you have. Use the [Table of Contents](#table-of-contents) for another question and the [Architectural Reference](#research-method-practice-principles-framework-architectural-reference) for the repertoire's reasons and shared conditions. You can ask an assisting agent to explain a pattern or comment on your case in the language of your work, without framework jargon.
 
@@ -212,6 +214,8 @@ Experimental, field/observational, qualitative/reflexive, historical/source-crit
 Real answer-changing alternatives make method capture visible; a numerical quota can invent false alternatives. A missing input holds a particular selection still needed when plausible values change its family, criticism or feasibility. A completed allocation can instead retain that unknown as a limitation of QualifiedNoNewStudy. Obtaining it is a separate commitment. A genuinely post-selection need preserves the selected relation across its full admitted range and the jointly admissible combinations.
 
 ## RMP.Reference:6 - Pattern relations do not prescribe a research lifecycle
+
+FPF B.5 supplies the general Method for choosing and connecting contributions in an inquiry. Apply it to the question the research must answer: establish what the available results support and what contribution is still missing, then use the relevant RMP Method. If a needed observation is absent, RMP.4 establishes what material remains and RMP.5 what claim it supports. If a different receiving use needs a claim the evidence does not support, RMP.1 qualifies that new question; RMP.8 revises the claims affected by the limit. Reuse other adequate results.
 
 `RMP.1 → RMP.2` is a result dependency only when a passing ResearchQuestionBrief and compatible current frame exist. RMP.2 can be entered directly with those supplied inputs. Either pattern can stop. A changed receiving question or frame returns to RMP.1; a changed selection premise reopens RMP.2.
 
@@ -2887,7 +2891,7 @@ Identify the result that depends on the retained or changed Method. Reopen only 
 
 ResearchMethodPracticeRevision communicates the research use, actual subject, supported disposition, necessary basis and limits, change in practice and affected receiving result. It may be a concise conclusion in existing research or Method work. A decision to obtain further evidence identifies that selected work and the still-unresolved qualification; it does not claim an improvement already obtained.
 
-If the Method question becomes a new research question, return to RMP.1's four conditions: unresolvedness against a qualified current frame, non-routine choice under genuine uncertainty, a systematic criticism-ready trace and a bounded communicable episteme contribution. Routine verification remains with its actual owner when those conditions do not hold.
+If the Method question becomes a research question, apply the four conditions in RMP.1:4.2 to the whole inquiry. A fully specified protocol can investigate a disputed knowledge claim; procedural novelty is not required. Routine verification of a known correction remains ordinary Method work when it only checks the corrected result under an accepted rule.
 
 Recognition and assurance remain distinct. A failure, dispute or changed tool helps recognize the question. Adequate retention, a verified correction, a warranted transfer and a causal claim of improvement need the evidence appropriate to their different reaches. Applying this pattern or completing a report supplies none of those conclusions by itself.
 
