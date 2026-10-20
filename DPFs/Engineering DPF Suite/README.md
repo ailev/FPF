@@ -18,7 +18,7 @@ Use the [connected explanation in Engineering.Reference:0.5](ENGINEERING-DPF-SUI
 
 ## Reduce avoidable work and repeated firefighting
 
-A faster operation can still produce an unneeded result, repeat an error or leave the result waiting elsewhere. The **[elegance mantra and reducing repeated firefighting](ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference06---the-elegance-mantra-and-reducing-repeated-firefighting)** connects these different causes to the change that can improve the needed result, then returns that change to the next performance. The explanation links engineering, operations and method introduction without imposing one work sequence.
+A faster operation can still produce an unneeded result, repeat an error or leave the result waiting elsewhere. Use **FPF C.42, Reduce Avoidable Work While Preserving the Needed Result**, to construct a worthwhile change, compare its complete burden and make it usable in later work. Its elegance mantra connects these questions without imposing one work sequence. The **[engineering application](ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference06---the-elegance-mantra-and-reducing-repeated-firefighting)** explains how systems engineering, operations and method introduction contribute.
 
 ## Choose an entry
 
@@ -42,7 +42,7 @@ The [Engineering Architectural Reference](ENGINEERING-DPF-SUITE-REFERENCE.md) he
 | [Systems Engineering (SYSE)](https://fpf.tools/SYSE) · [Markdown](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Define the system and intended use; compare designs and ways to obtain them; realize, integrate, qualify and change the result. | 53 | 1.784 |
 | [Maintenance Engineering and Management (MNT)](https://fpf.tools/MNT) · [Markdown](MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Select maintenance policy from condition and failure knowledge; prepare interventions, restore functioning and qualify return to use. | 16 | 0.244 |
 | [Knowledge-Corpus Access Engineering (KCAE)](https://fpf.tools/KCAE) · [Markdown](KNOWLEDGE-CORPUS-ACCESS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Engineer arrangements for finding, reading and using documentary knowledge, including links back to source passages, delivery and coherent updates. | 11 | 0.241 |
-| [Semantic Integration Engineering (SIE)](https://fpf.tools/SIE) · [Markdown](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Make separately governed meanings usable together through models, mappings, interfaces, validation and response to change. | 12 | 0.276 |
+| [Semantic Integration Engineering (SIE)](https://fpf.tools/SIE) · [Markdown](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Make separately governed meanings usable together through models, mappings, interfaces, validation and response to change. | 13 | 0.315 |
 
 **Patterns** counts full pattern bodies. **Text, M characters** measures each complete Markdown framework, including its embedded Architectural Reference, in millions of Unicode characters with spaces and original line breaks, rounded to three decimals. These are scope indicators, not a required reading load.
 

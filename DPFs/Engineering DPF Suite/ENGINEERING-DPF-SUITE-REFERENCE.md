@@ -328,7 +328,7 @@ The reminder's order helps teach these dependencies. It does not prescribe a suc
 
 ### Engineering.Reference:0.6 - The elegance mantra and reducing repeated firefighting
 
-Use this **elegance mantra** when engineering or operating work repeatedly needs urgent correction, or a local efficiency gain leaves the receiving work no better off. Here *elegance* concerns reducing avoidable work while preserving the needed result and its necessary conditions. Reducing repeated firefighting means changing what recreates a difficulty, alongside any immediate response needed to protect current work.
+When engineering or operating work repeatedly needs urgent correction, or a local efficiency gain leaves the receiving work no better off, use **FPF C.42, Reduce Avoidable Work While Preserving the Needed Result**, for the general method. Its **elegance mantra** connects the questions below. This section explains their engineering application. Here *elegance* concerns reducing avoidable work while preserving the needed result and its necessary conditions. Reducing repeated firefighting means changing what recreates a difficulty, alongside any immediate response needed to protect current work.
 
 > Keep the needed result in view; remove unneeded work, prevent avoidable rework, distinguish waiting from processing, change the cause worth changing, and carry the change into the next performance.
 
