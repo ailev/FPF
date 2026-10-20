@@ -48,14 +48,14 @@ The general methods are in **Core**: [connect development work (C.40.OD)](https:
 
 ## What is available
 
-**FPF Core** contains 398 patterns in 17.742 million characters. It supplies transdisciplinary concepts and methods, including methodological work and open-ended development. **33 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 23 belong to four Suites, and ten have their own files directly in the DPF catalogue.
+**FPF Core** contains 398 patterns in 17.743 million characters. It supplies transdisciplinary concepts and methods, including methodological work and open-ended development. **33 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 23 belong to four Suites, and ten have their own files directly in the DPF catalogue.
 
 A DPF describes one field through a connected pattern language. A **Suite** describes a composite discipline through its constituent fields and their relations. An **Architectural Reference** explains how the relevant language is arranged and why: within a framework, across a Suite, or across the Library.
 
 | DPF Suite | Working subject | DPFs | Patterns | Text, M characters |
 | --- | --- | ---: | ---: | ---: |
 | [Engineering](DPFs/Engineering%20DPF%20Suite/) | Designing, realizing, changing and maintaining systems; knowledge access and semantic integration. | 4 | 92 | 2.544 |
-| [Management](DPFs/Management%20DPF%20Suite/) | Direction, commitments, operations, resources, markets, communities and organizational change. | 12 | 182 | 4.970 |
+| [Management](DPFs/Management%20DPF%20Suite/) | Direction, commitments, operations, resources, markets, communities and organizational change. | 12 | 184 | 5.008 |
 | [Foundational Thinking](DPFs/Foundational%20Thinking%20DPF%20Suite/) | Mathematical and physical accounts, models, algorithms and usable notation. | 5 | 70 | 1.951 |
 | [Human Capability Engineering](DPFs/Human%20Capability%20Engineering%20DPF%20Suite/) | Human learning and somatic change, connected to capability in later work. | 2 | 34 | 1.209 |
 
