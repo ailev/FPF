@@ -1533,8 +1533,9 @@ Retain qualified evidence for unaffected claims while revising the dependent con
   or organization label.
 - `A.22` governs each selected structure. `A.6.F` restores function, bearer, capability, Work, and
   MethodDescription distinctions; `A.6.M` applies only to an obtaining module or interface claim.
-- `E.18.NET` applies when the use needs a transformation-flow network. The network is a representation of
-  selected transformations and dependencies, not the containing whole or a lifecycle.
+- `E.18.NET` applies when the use needs a network of transformation-flow structures. It identifies the
+  selected structure; use `E.18.2` for its graph or other mathematical description. Neither the network nor
+  its description is the containing whole or a lifecycle.
 - Agents applying `SYSE.17`, `SYSE.8`, or `SYSE.2` can use the account's consequence, provider, or concept
   results. Each Agent rechecks subject, configuration, horizon, evidence, and compatibility for the receiving use.
 - Application profiles retain domain Methods and evidence—for example, Methods and results for operating physics,

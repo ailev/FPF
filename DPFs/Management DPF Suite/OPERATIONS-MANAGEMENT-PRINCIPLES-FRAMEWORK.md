@@ -613,7 +613,7 @@ These package labels keep the questions and returned results distinct. They do n
 
 This publication contains the Readme, Table of Contents, Architectural Reference, ten Parts, nine connected practical entries, three extended applications, framework boundary and the pattern bodies listed in the contents.
 
-Use any of the twenty-eight patterns whose working question and conditions match your situation. Combine them when one needs another's result. Each body states the professional contributions, evidence and authority its use requires.
+Use any of the twenty-nine patterns whose working question and conditions match your situation. Combine them when one needs another's result. Each body states the professional contributions, evidence and authority its use requires.
 
 Use the package table and each body's conditions to locate the Operations result that can change the current decision.
 
