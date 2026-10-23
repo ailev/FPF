@@ -5,7 +5,7 @@
 > A domain pattern language for bringing about and changing engineered Systems, from their intended use and architecture to realization, assurance, and continuing development.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 12 October 2026
+- **Version:** 23 October 2026
 - **Status:** Eternal alpha: a published working framework, already used in analyses and worked applications, while continuing to evolve.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF Library repository](https://github.com/ailev/FPF)
@@ -4057,7 +4057,7 @@ combinations at the boundary relevant to the decision.
 
 | Arrangement | Organizing mechanism and useful consequence | What can defeat that consequence |
 | --- | --- | --- |
-| Layers, often within a modular monolith | Responsibilities are separated and allowed dependencies constrained. Presentation changes can remain apart from domain rules; internal calls and a shared transaction can keep a small application straightforward to operate. | A feature cutting across all layers still requires coordinated changes. Pass-through layers add work without isolating a changing decision. Logical layers need not be separate network tiers; adding tiers changes latency and failure handling. |
+| Layers, often within a modular monolith | Responsibilities are separated and allowed dependencies constrained. The responsibility groups are functional layers. Identify separately the modules that realize them and any levels in their dependency or interface structure. Presentation changes can remain apart from domain rules; internal calls and a shared transaction can keep a small application straightforward to operate. | A feature cutting across all layers still requires coordinated changes. Pass-through layers add work without isolating a changing decision. Logical layers need not be separate network tiers; adding tiers changes latency and failure handling. |
 | Pipes and filters | A task becomes transformations with explicit input/output contracts, connected by streams or queues. A filter can be reused or replaced when its contract remains compatible; stages and independent items can execute concurrently. | Global state, order requirements, blocking joins and an expensive serial stage limit concurrency. Serialization, transport and intermediate storage can dominate small transformations. Recovery must distinguish replayable processing from irreversible effects. |
 | Core with plugins, often called microkernel architecture | Stable common responsibilities stay in the core; variable behaviour enters through extension contracts. A document tool can accept another format or analysis without editing every existing extension. | The extension contract may not express the new variation. Core changes then affect many plugins. Loading a plugin into the same process does not isolate a crash, malicious access or resource exhaustion; isolation needs an actual mechanism. |
 | Service-oriented arrangement | Capabilities are accessed through described interfaces, potentially across ownership domains. Consumers can use a capability without taking over its implementation. | A shared database, central orchestration or common schema may create substantial coupling. SOA itself does not require one database, a particular bus or one deployment model. Compare the actual coordination arrangement. |

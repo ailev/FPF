@@ -1,6 +1,6 @@
 # Control Architecture Design Principles Framework
 
-**Edition:** [CAD, 20 October 2026](#cadreference8---names-and-continuing-references).
+**Edition:** [CAD, 23 October 2026](#cadreference8---names-and-continuing-references).
 
 Use this framework when a control design must reconcile what can be observed in time, what the controller must remember, how decisions are divided, which commands remain feasible, and what the implementation can execute. It helps construct and compare those arrangements for an engineered dynamical system, including the choice to keep one sufficient controller.
 
@@ -303,7 +303,7 @@ For the domain construction, a changed plant, measurement model, uncertainty, co
 
 ## CAD.Reference:8 - Names and continuing references
 
-This is the **20 October 2026** edition of **Control Architecture Design Principles Framework (CAD)**, a constituent of the Engineering DPF Suite in FPF Library. Cite the framework and edition together with the full PatternID and section needed for the particular claim or calculation.
+This is the **23 October 2026** edition of **Control Architecture Design Principles Framework (CAD)**, a constituent of the Engineering DPF Suite in FPF Library. Cite the framework and edition together with the full PatternID and section needed for the particular claim or calculation.
 
 *Control architecture design* here means designing the organization of observations, retained information, control decisions, exchanges and execution for the engineered dynamical behavior stated in CAD.Reference:1–2. It does not mean that every controller needs layers. **CAD** is a local reference code for this named framework in FPF Library, not the general engineering abbreviation for computer-aided design.
 
@@ -838,7 +838,7 @@ When a qualified existing loop has adequate tracking and disturbance rejection b
 
 For each consequential decision, ask what it changes, which information it needs, how long its effect persists, how quickly a wrong choice becomes harmful, and what resources its computation consumes. Cluster decisions only when those answers support one useful calculation or law.
 
-A slow planning decision might choose a route, reference segment or allocation. A faster decision might reject local disturbance or track that reference. This does not imply that the faster model is less detailed: a low-level model may retain actuator dynamics omitted by a planning model.
+A slow planning decision might choose a route, reference segment or allocation. A faster decision might reject local disturbance or track that reference. This does not imply that the faster model is less detailed: a tracking model may retain actuator dynamics omitted by a planning model.
 
 Generate materially different candidates. Compare a single loop, a planning-and-feedback split, or another separation motivated by the problem. Do not add a third layer merely because the source diagram contains three. A communication boundary can matter more than a time-scale boundary, and a faster processor can make a proposed split unnecessary.
 
@@ -872,7 +872,7 @@ This is a derivation under a particular model, not a general recipe for plants w
 
 #### CAD.1:4.5 - Preserve the whole question through the next design move
 
-Pass each candidate's controlled behavior, separation reason and lost interactions to CAD.2. A command's type alone is insufficient: a target position, a timed trajectory and a velocity segment imply different lower-level problems.
+Pass each candidate's controlled behavior, separation reason and lost interactions to CAD.2. A command's type alone is insufficient: a target position, a timed trajectory and a velocity segment imply different problems for the tracking layer.
 
 Keep candidates comparable under the same task, disturbance class and resource limits. A slower update with a smaller demanded reference change may look better only because the task was weakened. Retain a whole alternative until its decisive incompatibility or disadvantage is understood.
 
@@ -1083,7 +1083,7 @@ The interface becomes a design object whose consequences can be calculated and t
 
 ### CAD.2:10 - Architectural Rationale
 
-The reconstructed state is a reference for comparing behaviors, not a new physical level. Substitution exposes both the desired correspondence and the residual terms. Making update events part of the same evolution allows feasibility to be established for the connected system.
+The reconstructed state provides a mathematical reference for comparing the planning model with plant behavior. Substitution exposes both the desired correspondence and the residual terms. Making update events part of the same evolution allows feasibility to be established for the connected system.
 
 ### CAD.2:11 - SoTA-Echoing
 

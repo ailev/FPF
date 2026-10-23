@@ -43221,7 +43221,7 @@ A scheduler running on the same machine overlaps the calculation. That overlap a
 
 A delivery team is following a route. Each driving action is part of progressing along that route and performing the delivery. Route planning was done earlier. Its result still constrains driving; the team is not performing the planning Work at every instant.
 
-A newly closed road makes the old reference unusable. Better steering cannot restore feasibility. The team needs a revised route under the actual road and delivery constraints. If the road is open and the driver has merely missed a turn, execution correction may suffice. This distinction locates the useful intervention without imposing a fixed number of control levels.
+A newly closed road makes the old reference unusable. Better steering cannot restore feasibility. The team needs a revised route under the actual road and delivery constraints. If the road is open and the driver has merely missed a turn, execution correction may suffice. This distinction locates the useful intervention without imposing a fixed number of control layers.
 
 ### B.1.5.EW:6 - Bias-Annotation
 
@@ -73198,6 +73198,8 @@ The note is neither the selected structure nor the relation, claim, publication,
 | Evidence, assurance, gate, work, decision, or causal use | `gate`, `proof`, `safety`, `decision`, `work`, `effect`, or any label used as authority | Evidence path, assurance argument, constraint-validity record, gate decision, Work occurrence, decision record, causal-use record, and any limits imposed by the applicable pattern on that claim. | `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15.1`, `C.11`, `C.28`, or the applicable neighboring pattern. |
 | Ordinary source-label non-use | any source label | No FPF claim remains after the sentence is read in context. | No precision-restoration pattern; keep ordinary wording, quote it, reduce its use, or block reliance. |
 
+**Functional layers and modular levels.** When a structure is stratified by functional contribution, call its strata **layers**. When it is stratified by module and interface relations, call its strata **levels**. State the relation that organizes the strata in either case. Relate the two structures through a separately stated allocation or correspondence: one functional layer can involve several modules, and one module can realize contributions in several functional layers. Use A.6.F to recover the functional contributions and A.6.M for the module and interface claims. The table's common source labels retain the vocabulary encountered in sources; recover that vocabulary's local meaning before translating it into this distinction.
+
 **When a level claim matters.** When a later decision or design relies on a sentence such as “X is at level L” or “A is above B,” name the subject at stake (the `EntityOfConcern`), what is being ordered, compared, grouped, or mapped, the relation or scale mapping that gives the claim its meaning, when it applies, and whether the sentence asserts, proposes, assumes, or merely illustrates the claim. Apply the same test when `layer`, `tier`, `band`, `scale`, or `stage` carries the stronger claim. A named model or standard may provide this mapping within its declared use; its status does not extend the claim beyond that use. The source word may remain, but these facts—not the label—carry the claim. A list, diagram row, first-then order, carrier section, curriculum, scale label, stage sequence, or coarse-grained description does not establish a subject level by form. If the facts are missing, keep the wording local or illustrative and block reliance on the stronger level claim.
 
 **When orientation carries the claim.** Recover the structure's subject, the represented relation and the convention that gives vertical or horizontal its meaning through A.22:4.3a. Keep literal spatial directions under their actual reference frame. For a Method-architecture question, C.30.ASV:4.5a helps choose the structure; the axis does not choose it.
@@ -76781,7 +76783,7 @@ A command or reference governor adjusts the requested input to an already qualif
 
 Use **C.32** to develop the candidate palette when several structures change together. For an identified conflict across scopes, **C.32.MLAO** helps generate alternatives that reduce it while exposing the burden moved elsewhere. Bring those candidates back to the information, timing and joint-condition construction here.
 
-A lower-level policy need not be less accurate than a higher-level decision. Rapid tracking accuracy, predictive accuracy, semantic understanding, search quality and adaptability are different characteristics. Compare the required characteristics under the actual resource conditions. A rule such as “strategy is slow” is a possible arrangement, not a substitute for that comparison.
+A policy in a lower control layer need not be less accurate than a decision in an upper control layer. Rapid tracking accuracy, predictive accuracy, semantic understanding, search quality and adaptability are different characteristics. Compare the required characteristics under the actual resource conditions. A rule such as “strategy is slow” is a possible arrangement, not a substitute for that comparison.
 
 #### C.32.LCA:4.6 - Construct the exchange that makes the parts work together
 
@@ -89981,7 +89983,7 @@ Compare the alternatives from the team's present repertoire and commitments. Pra
 
 During implementation, team members examine previously unseen cases, decide which assumption matters and explain the resulting change of diagnosis. The receiving work then checks those judgements with appropriate subject evidence. Suppose they become dependable with a short independent review but not without it. The achieved configuration now includes that review. The next choice can retain it, reduce its burden through further development, or use the supported capability in a new family of diagnoses.
 
-That new family may expose a limit shared by all performers. The next useful intervention can then be development of the diagnostic Method rather than more repetitions of the same exercises. If the recommender repeatedly prescribes exercises for this shared methodological gap, its own diagnostic distinction becomes a candidate for repair. These returns connect development at different subjects without imposing a fixed sequence of levels.
+That new family may expose a limit shared by all performers. The next useful intervention can then be development of the diagnostic Method rather than more repetitions of the same exercises. If the recommender repeatedly prescribes exercises for this shared methodological gap, its own diagnostic distinction becomes a candidate for repair. The observed limitation can therefore redirect development to the team's capability, the diagnostic Method, or the recommender's diagnostic distinction.
 
 #### C.43:5.5 - Explain both effective and ineffective feedback in the same account
 
@@ -90065,7 +90067,7 @@ For the active-inference formulation in §4.7, the source basis is Friston and c
 - Apply **C.30.LCA** to recover a control structure and **C.32.LCA** to construct or change it. Those results can supply the arrangement used here.
 - Apply **C.39** when a needed way to obtain a contribution is missing, **C.28** for a causal question and **C.29** for the mathematical representation that supports a required inference.
 - Apply **C.40.OD** for the whole construction of open-ended development; use **C.40.DC**, **C.40.JD** and **C.40.NP** to construct directions, realize the joined development and continue from its results. §4.8 connects these results to control and recommendation.
-- Use **B.1.5.RS** for the consequences of replacing a constituent Method, **C.32.MWA.PP** for whole performance arrangements, and **C.30.ILC** with **C.32.MLAO** when the intervention addresses an actual inter-level conflict.
+- Use **B.1.5.RS** for the consequences of replacing a constituent Method, **C.32.MWA.PP** for whole performance arrangements, and **C.30.ILC** with **C.32.MLAO** when the intervention addresses an architecture residual between the identified scopes.
 - Use **A.22.CGUS** to retain the connected reasoning through the mantra.
 
 ### C.43:End
@@ -111710,7 +111712,7 @@ When the third case is treated as one giant TFS, local state appears global, an 
 | Force | Tension to hold |
 | --- | --- |
 | Local autonomy vs one engineering question | Members keep their identity and state while a selected structure makes their exact coordination inspectable. |
-| Recursive reuse vs fixed levels | A member may itself be a network, but membership paths must remain finite and acyclic. |
+| Recursive reuse vs finite membership paths | A member may itself be a network, but membership paths must remain finite and acyclic. |
 | Plain diagrams vs exact relations | A readable edge helps recognition, but only an obtaining relation of an admitted kind contributes to identity. |
 | Boundary exposure vs flattening | A parent can use a nested boundary position without copying the nested member's internal structure. |
 | Useful local state vs false global state | Valuation, path slice, and `DesignRunTag` remain local to one leaf TFS position binding. |
@@ -111749,7 +111751,9 @@ Changing only a name, reference designator, record edition, graph layout, mathem
 
 #### E.18.NET:4.3 - Recurse through finite member paths
 
-The selected direct-member nesting is acyclic. No direct or transitive member path from a network resolves back to that network, and every member path used by a reference is finite. This permits build-the-builder and supply-network recursion without inventing level-1, level-2, or level-3 network kinds.
+The selected direct-member nesting is acyclic. No direct or transitive member path from a network resolves back to that network, and every member path used by a reference is finite. The same network kind supports build-the-builder and supply-network recursion at any finite nesting depth.
+
+When functional layers are useful in a flow network, organize them by the contributions that the selected flows make to the stated result. In a build-the-builder case, one flow produces a system that performs work in another flow; recover the production, use and participation relations that connect them. Nesting one selected network inside another records member grouping for the current question. The depth of that nesting does not determine the functional layers or a modular hierarchy. Use C.30.STRAT:4.2 to keep functional layers distinct from levels in a module and interface structure.
 
 Cycles among selected cross-flow relation occurrences remain possible when their applicable predicates and constraints permit them. Feedback from operation or evaluation to development is therefore compatible with acyclic membership: the cycle is among those relation occurrences, not in network containment.
 
@@ -111768,7 +111772,7 @@ ExposedFlowPositionRef := <
 >
 ```
 
-Every hop in `memberPath[]` resolves through the preceding network's direct members. Its final member is the TFS named by `leafFlowPositionRef`. When the path crosses a nested network, the leaf position must be one of the boundary positions that nested network exposes for the current higher-level use. Two different paths to the same leaf TFS position are two different exposures.
+Every hop in `memberPath[]` resolves through the preceding network's direct members. Its final member is the TFS named by `leafFlowPositionRef`. When the path crosses a nested network, the leaf position must be one of the boundary positions that nested network exposes for the current use by the containing network. Two different paths to the same leaf TFS position are two different exposures.
 
 The parent network may compose the finite path and use the exposed boundary. It may not copy or silently flatten the nested member's internal structure. `FlowValuation`, `PathSliceId`, actual fillings, and `DesignRunTag` qualify use of a position; they are not part of `FlowPositionRef` or `ExposedFlowPositionRef` identity.
 
@@ -111776,7 +111780,7 @@ The parent network may compose the finite path and use the exposed boundary. It 
 
 Each `positionBindingRef` cites an E.18 position/valuation binding or a declaration-local binding whose pattern defines the needed participant meanings, value kind, and reference mode. A network introduces no universal cross-flow value kind.
 
-`DesignRunTag` belongs to one exact position binding inside one exact leaf TFS. A network has no network-level `FlowValuation`, global design/run ladder, or automatic crossing that changes the carried entity's kind. If the same episteme fills local positions in different members—for example one position concerned with design work and another with production, verification, or later operation—record each leaf-local binding and the exact relation that obtains between them. Those ordinary member descriptions create no fixed TFS taxonomy or lifecycle phase.
+`DesignRunTag` belongs to one exact position binding inside one exact leaf TFS. A network has no `FlowValuation` for the network as a whole, global design/run ladder, or automatic crossing that changes the carried entity's kind. If the same episteme fills local positions in different members—for example one position concerned with design work and another with production, verification, or later operation—record each leaf-local binding and the exact relation that obtains between them. Those ordinary member descriptions create no fixed TFS taxonomy or lifecycle phase.
 
 #### E.18.NET:4.5 - Preserve the direct cross-flow relations
 
@@ -111905,6 +111909,8 @@ For the compiler-and-application use, identify five TFS values by the questions 
 
 These names designate independently identified TFS values, not lifecycle kinds. They assert no transformation of a not-yet-existing compiler or application. Use E.18 for each TFS, A.15.1 for any current Work occurrence, A.3.4 for a change of a continuing referent, A.15.PROD for production or identity inception, and the applicable relation pattern for each exact cross-member occurrence.
 
+The compiler-producing contribution of `BootstrapCompilerBuildTFS` and the application-producing contribution of `ApplicationBuildTFS` occupy different functional layers in this build-the-builder account. Their connection runs through the produced compiler and its participation in application-building Work. The nested networks below instead group members for successively broader questions. Their four depths are not four functional layers or four levels of a modular structure.
+
 Select the nested network values from those already established inputs:
 
 | Selected network | Direct members | Exact selected cross-member occurrence and ordered endpoint binding | Network use frame |
@@ -111972,7 +111978,7 @@ Bias risks considered: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Sco
 | **CC-E18-NET-01 Three-way discriminator** | The case is explicitly distinguished from several valuations of one exact TFS and from one E.18 `SubflowRef`. | Return to member identity and relation basis; do not decide from diagram shape, team labels, or stage names. |
 | **CC-E18-NET-02 A.22 identity** | Exact direct members, selected obtaining cross-flow occurrences, applied constraints, and one concrete selection-use frame are recoverable. | Recover the missing discriminator or stop at a proposed description. |
 | **CC-E18-NET-03 Independent members** | Every member keeps its own TFS or independently identified E.18.NET-conforming network identity, transformations, Work, valuations, boundaries, and local state. | Split any merged object; reidentify each member under E.18 or E.18.NET and restore its own Work, valuation, boundary, and state. |
-| **CC-E18-NET-04 Finite acyclic membership** | Every member path is finite and no member path returns to the same network. | Repair the selected member set or return the cyclic-membership blocker; do not add level kinds. |
+| **CC-E18-NET-04 Finite acyclic membership** | Every member path is finite and no member path returns to the same network. | Repair the selected member set or return the cyclic-membership blocker; use the same network kind for each nested network. |
 | **CC-E18-NET-05 Exposed position** | Every `ExposedFlowPositionRef` resolves hop by hop to an exposed leaf TFS position. | Recover the missing member hop or boundary exposure; do not flatten the nested network. |
 | **CC-E18-NET-06 Leaf-local state** | Every valuation, path slice, and `DesignRunTag` remains attached to one exact leaf-TFS binding. | Remove the network-global state field and restore the local bindings. |
 | **CC-E18-NET-07 Direct relations** | Every selected cross-flow relation has an admitted kind, applicable predicate, exact positive obtaining occurrence, complete participant order, and grounded endpoint bindings. The governing pattern's relation result remains distinct from E.18.NET selection blockers. | Carry that pattern's exact `missing-governor`, `missing-information`, `factually unsupported`, or positive result; carry an inapplicable or negative result only when that pattern defines it and the case basis establishes it. After a positive result, name a missing endpoint binding separately; do not rewrite it as a relation failure. |
@@ -111980,7 +111986,7 @@ Bias risks considered: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Sco
 | **CC-E18-NET-09 Record and row-locator separation** | Member rows and relation rows describe already identified objects and occurrences; the record does not create them, and every `NetworkCrossFlowRelationRowRef` resolves exactly one nested row by record, occurrence, and ordered endpoint-binding identity. | Separate the C.2.1 episteme from the selected `U.Structure`; repair or remove any locator that resolves zero or several rows. |
 | **CC-E18-NET-10 Non-agentivity** | The selected network is non-agentive. Its identity needs no actor or selection-Work claim; any actual selection Work has a separately identified System performer and occurrence. | Describe the network through direct members, selected obtaining occurrences, endpoint bindings, applied constraints, and its use frame. If actual selection Work is current, cite every precise performer's A.13 core and the independent A.15.1 Work admission; cite F.6 only when exact assignment-bound attribution is also current. Keep result episteme, choice, decision, and accountability relations separate. |
 | **CC-E18-NET-11 Representation boundary** | Mathematical descriptions, graphs, views, publications, and demonstrations are identified separately and state preserved/lost structure when relied on. | Apply E.18.2, C.29, E.17, A.22.CGUS, or E.18.3 as appropriate. |
-| **CC-E18-NET-12 Useful result or stop** | The practitioner receives one exact network ref and return condition, or a proposed description with one exact reason selection cannot close: the governing pattern's relation-claim result, or a separate absent member, applied constraint, use frame, endpoint, or position binding. | Restore the exact result or blocker at its own layer; do not end with a local status taxonomy or make a network-selection blocker change the relation result. |
+| **CC-E18-NET-12 Useful result or stop** | The practitioner receives one exact network ref and return condition, or a proposed description with one exact reason selection cannot close: the governing pattern's relation-claim result, or a separate absent member, applied constraint, use frame, endpoint, or position binding. | Restore the exact result or blocker under the rule that governs it; keep the relation-claim result separate from the network-selection blocker. |
 
 ### E.18.NET:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -112000,7 +112006,7 @@ Bias risks considered: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Sco
 | Gain | Cost or trade-off |
 | --- | --- |
 | Independent flows can be coordinated without losing their identity or local change boundary. | Members and cross-flow relations must be grounded before the network can be claimed. |
-| Recursive networks scale without numbered levels. | Exposed positions require finite path resolution and explicit boundary selection. |
+| The same network kind supports finite recursive membership. | Exposed positions require finite path resolution and explicit boundary selection. |
 | Cross-flow relations keep their participant meanings and n-ary signatures. | A missing relation kind or predicate remains visible instead of being hidden by a convenient generic edge. |
 | Local valuations and tags remain usable without becoming global state. | A network record carries more explicit member and endpoint references than a simple graph. |
 | Graphs and mantras remain useful descriptions. | Their distinct claims use E.18.2 or E.17 for descriptions and publications, A.22.CGUS or E.18.3 for demonstrations, C.30.TFS-REL for architecture use, A.15 for Work, and E.18.NET for the selected network. |
@@ -112009,7 +112015,7 @@ Adoption test: use E.18.NET only when the current question needs independently i
 
 ### E.18.NET:10 - Rationale and naming
 
-The selected head preserves the established `TransformationFlowStructure` name, says that the members are structures rather than valuations, and supports recursion without fixed levels. The shorter cue “transformation-flow network” is retrieval wording only after the governed value is clear.
+The selected head preserves the established `TransformationFlowStructure` name, says that the members are structures rather than valuations, and supports recursive membership at any finite nesting depth. The shorter cue “transformation-flow network” is retrieval wording only after the governed value is clear.
 
 Mint vs reuse: E.18.NET mints the durable names `TransformationFlowStructureNetwork`, `TransformationFlowStructureNetworkRecord@Context`, `ExposedFlowPositionRef`, and `NetworkCrossFlowRelationRowRef` for the governed value family, separate description episteme, and two reference shapes defined here. It reuses `U.Structure`, `U.Episteme`, `TransformationFlowStructure`, `FlowPositionRef`, relation kinds, and relation occurrences without changing their meanings; labels, records, and references create none of those values.
 
@@ -112024,7 +112030,7 @@ NameCard:
   PlainLabel: network of transformation-flow structures
   CandidateSet: TransformationFlowStructureNetwork; TransformationFlowNetwork; CrossFlowRelationStructure; TransformationFlowDependencyStructure; CoupledTransformationFlowStructure; FlowOfFlows; CreatorGraph; CreationStructure
   RejectedCandidates: TransformationFlowNetwork can mean one network-shaped TFS; CrossFlowRelationStructure hides the transformation-flow use; TransformationFlowDependencyStructure narrows to one projection; CoupledTransformationFlowStructure suggests one merged TFS; FlowOfFlows conflicts with FlowValuation; CreatorGraph confuses the ontic structure with a graph and narrows change to creation; CreationStructure excludes operation, repair, modification, and reuse
-  SelectionRationale: preserve the established TransformationFlowStructure head, make structures rather than valuations the members, and permit recursive membership without numbered levels
+  SelectionRationale: preserve the established TransformationFlowStructure head, make structures rather than valuations the members, and permit recursive membership at any finite nesting depth
   LineageEntries: flow-of-flows and creator-graph examples remain retrieval lineage for the stress cases; fixed two-level and one-giant-flow ontic readings are retired
   RefreshCondition: reopen if repeated use cannot distinguish one TFS with several valuations, one subflow, and a recursive network of independently identified TFS values
 ```
@@ -125758,7 +125764,7 @@ Use one bounded reread of the same paragraph or short instruction as the compari
 
 **Purpose.** Provide *one place to find the governing definitions* for Part‑G‑wide invariants (**delegation-first citation and change-control discipline**), plus a typed **RSCR trigger kind catalogue** and a **Default Governing Definition Index**, so Part G can be refactored without semantic drift or public‑ID breakage.
 
-**Pattern placement.** New Part‑G `PatternId`s are permitted when (i) they introduce a genuinely new **kit/pack class** (typically levels `G.2–G.5`), or (ii) they are required to preserve **one governing pattern per wiring extension** and wiring-only separation. Method/discipline/generator specifics SHOULD still default to `GPatternExtension` modules under `G.x:Extensions` (scoped by `PatternScopeId = G.x:Ext.*` and `GoverningPatternId`), rather than adding new Part‑G patterns.
+**Pattern placement.** New Part‑G `PatternId`s are permitted when (i) they introduce a genuinely new **kit/pack class** (typically in `G.2–G.5`), or (ii) they are required to preserve **one governing pattern per wiring extension** and wiring-only separation. Method/discipline/generator specifics SHOULD still default to `GPatternExtension` modules under `G.x:Extensions` (scoped by `PatternScopeId = G.x:Ext.*` and `GoverningPatternId`), rather than adding new Part‑G patterns.
 
 ### G.Core:1 - Problem frame
 
