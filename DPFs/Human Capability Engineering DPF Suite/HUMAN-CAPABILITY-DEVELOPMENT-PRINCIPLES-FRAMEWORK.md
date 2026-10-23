@@ -3453,7 +3453,7 @@ Use this discrimination table:
 | Can the learner perform another episode after a material interval? | spacing | Which repeated episode, separated times, interval rationale, intervening activity, and later observation are used? |
 | Must a contribution be recovered without reopening a source? | retrieval | What is retrieved, what remains supplied, why unaided recovery matters, and what support is still allowed? |
 | Must the learner recognize a shared basis across varied instances? | blocked comparison | Which instances belong together, what common relation must be noticed, and what action reveals it? |
-| Must the learner distinguish which Method or case family applies? | interleaving | Which alternatives are mixed, which similarities cause confusion, and what selection explanation is required? |
+| Must the learner distinguish which Method or case family applies? | interleaving | Which alternatives are mixed, which similarities cause confusion, and what response will reveal the needed discrimination? |
 | Is stable performance ready for a changed level of challenge or help? | progression | Which feature changes, what prior evidence supports the change, and what condition pauses or reverses it? |
 
 Select several changes in one episode only when their contributions and failure interpretations remain recoverable. Otherwise change one feature relevant to the intended comparison at a time or create comparable branches.
@@ -3464,7 +3464,7 @@ Choose a condition that can make the correct action differ: configuration FW7 ve
 
 Alternatively, keep the deciding relation and change a feature on which the learner may wrongly rely, using HCD.6.1:4.4. The correct answer can remain the same while the task tests whether the learner can preserve it for the right reason.
 
-State the expected discrimination before the attempt. A useful variant can require a justified refusal, supported continuation, changed calculation, specific request, different Method, or preservation of the earlier action. Ask for the action and its subject-matter ground so that a rival response can be recognized. Renaming a setting without exposing a needed distinction adds no such test.
+State the expected discrimination and the subject-matter grounds for judging the response before the attempt. A useful variant can require a justified refusal, supported continuation, changed calculation, specific request, different Method, or preservation of the earlier action. Ask for the action that reveals this discrimination; require the learner's own explanation when it is part of the target or needed to resolve a specific question that changes the next move. Renaming a setting without exposing a needed distinction adds no such test.
 
 #### HCD.10:4.4 - Space Repeated Episodes without Smuggling in Other Changes
 
@@ -3501,7 +3501,7 @@ Choose the order from the distinction the learner still needs. Use HCD.6.1:4.2โ€
 
 When the difficulty is recognizing what different instances of one category have in common, keep a short block of those instances together. Vary incidental features while the shared relation remains visible, and ask the learner to identify and use that relation. This can be useful even when the individual operation is already available; its purpose is recognizing the common basis across instances.
 
-When the difficulty is distinguishing similar categories or choosing among competing Methods, place contrasting instances close enough for their deciding difference to be compared, then mix further instances without announcing the required route. Ask why one route fits and a serious neighbor does not. A fixed alternation that predicts the answer would remove the selection being practised.
+When the difficulty is distinguishing similar categories or choosing among competing Methods, place contrasting instances close enough for their deciding difference to be compared, then mix further instances without announcing the required route. Ask for the discriminating choice or action; when ยง4.3 calls for an explanation, ask why one route fits and a serious neighbor does not. A fixed alternation that predicts the answer would remove the selection being practised.
 
 Preserve the comparison while changing order: a short within-category block, a close cross-category comparison, and a later mixed set are possible responses to different observed difficulties, not mandatory stages. After feedback, choose another same-category comparison if the shared basis remains hidden, or another cross-category comparison if the learner still confuses alternatives. If the basic action itself is unavailable, return to a worked example or stable supported practice before adding selection demands.
 
