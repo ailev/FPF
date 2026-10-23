@@ -17,6 +17,7 @@ This Reference explains how that language is organized and why its boundaries ma
 
 - [One connected language, several kinds of whole](#libraryreference1---one-connected-language-several-kinds-of-whole)
   - [Long mantras and connected reasoning](#libraryreference11---long-mantras-and-connected-reasoning)
+    - [Rhythmic coordination across different practices](#libraryreference111---rhythmic-coordination-across-different-practices)
 - [What the names refer to](#libraryreference2---what-the-names-refer-to)
 - [Why general Methods belong in Core](#libraryreference3---why-general-methods-belong-in-core)
 - [Why these Suites form useful wholes](#libraryreference4---why-these-suites-form-useful-wholes)
@@ -79,15 +80,32 @@ Other developed accounts retain different subjects. The connections below are ex
 
 | Connected question | What holds the reasoning together | Full account |
 | --- | --- | --- |
+| How can observations, choices and actions form a usable continuation of control? | The available information, conditional future responses, consequences, timing and means constrain the same continuation; a changed dependency determines what to revise. | FPF C.43 supplies the common Method and control mantra. CAD, OPS and STR provide the specialized constructions described below. |
 | Which direction is worth committing to, and under what conditions? | The worthwhile contribution, possible ways of obtaining it, capabilities, resources and bounded commitments constrain one another; changed evidence can reopen the direction. | STR.Reference:4, :11 and :14 in the Strategy Principles Framework. |
 | How can a changing body of knowledge serve real work? | The receiving work determines what must be found, preserved, interpreted and delivered; an answer must retain enough of its grounds to be used and revised. | KCAE.Reference:4 in the Knowledge-Corpus Access Engineering Principles Framework. |
 | How can a customer-specific result preserve a repeatably usable general offer? | Family boundaries, acceptable variation, commitments, economics and the transition of existing customers constrain the same proposed offer. | CUST.1 and CUST.Reference:6 in the Customization and Productization Management Principles Framework. |
+
+The internal FPF Architectural Reference, FPF.Reference:16.10, explains how the common control construction relates the independently usable Core Methods. Here the question is how their results connect to the subject languages in this Library. Development is also a receiving use of the common control account. FPF C.43:4.8 explains how to choose an intervention from the attained repertoire, trace its effect through related Methods and provision, and use the resulting capability to form a further attainable problem. C.40.OD supplies the whole development construction; C.40.DC constructs directions, C.40.JD connects the Method, developing agent and conditions of use, and C.40.NP develops the continuation after a result. They preserve development of knowledge and possibilities beyond correction of current performance.
+
+A development recommender uses these contributions to form advice rather than merely rank learning materials. Apply PSDA.14 in the Decision Design Principles Framework to obtain a grounded recommendation, and PSDA.15 to connect it to feasible observation and reconsideration. The actual choice, work and capability in receiving use determine what changed. Technical control, economic comparison and developmental recommendation can therefore share a connected reasoning Method while retaining their particular means and conclusions.
 
 These accounts can meet in one undertaking without collapsing into one Method. A strategic decision can change the proposed system's use; an engineering limit can reopen a strategy; changing an offer can alter the knowledge and cooperation needed to fulfil it. Follow the shared subject or premise and bring its changed conditions to the reasoning that uses them. Shared words alone do not establish a dependency.
 
 The teaching order makes a connection understandable one part at a time. Actual reasoning can begin at a later question, develop answers together, discover an incompatibility or return to an earlier assumption. The analogy with simultaneous equations captures mutual constraint, not a universal numerical solver or a guarantee of a unique answer. FPF A.22.CGUS develops the alternatives and conditions when that structure needs to be made explicit; its requirements for a formal claim are additional to using an ordinary reminder.
 
 The general explanation of a mantra stays with the pattern or framework that supplies it. A Framework Architectural Reference connects the language's Methods; a Suite Reference explains the additional connections across its constituent fields; this Library Reference explains connections and boundaries across publications. README pages make the important entry visible. These levels should lead to the full reasoning rather than repeat several competing definitions or hide a missing Method behind a navigation link. FPF E.11.PFP:4.7.2 explains this publication arrangement.
+
+### Library.Reference:1.1.1 - Rhythmic coordination across different practices
+
+The control construction also connects work whose timing must remain coordinated while individual actions vary. Apply FPF C.43:4.5.1 to establish the required temporal relations, fit preparation and recovery around shared means, and repair the particular relation that was lost. The following subject Methods explain different realizations; the common Method is available in Core without requiring any of these DPFs.
+
+In the Embodied Rhythmics Principles Framework, RHY.11:4.4.1 and :5.4 explain how an accent can change its place while a supporting pulse and subsequent action continue. RHY.10 distinguishes phase, tempo, grouping and the delivery of a cue. A delayed accent and an accent that delays the next pulse require different corrections. The shared result is deliberately coupled in time while its actions retain their required variation. If the human performer cannot realize the combination, RHY.12 develops that coordination; a notation or successful machine schedule does not supply the person's skill.
+
+In Control Architecture Design, CAD.2 specifies event order, behavior between updates and reset conditions; CAD.5 relates sampling phase, information age and observation gaps to the model used for control. CAD.4 checks their shared implementation resources. A changed event time can change which information a command uses, so it returns to these constructions and the dependent feasibility or error calculation. The correspondence with rhythmics concerns the required temporal relations and their construction, not an imported model of human timing.
+
+In Operations Management, OPS.13:4.5 selects periodic review, an event signal or their combination from the time and work needed for a useful response. OPS.10.2 supplies joint resource occupations, preparation and recovery, and the revision of the remaining schedule. An exception may need action before the next regular review; providing that response must also account for the work it interrupts and what must continue afterwards. The common choice is which relations to preserve and which to change, not whether all practices should follow a metronome or always react to events.
+
+These connections preserve different outcomes. RHY develops an embodied performance, CAD an engineered control arrangement, and OPS workable organizational commitments and performance. The same timing requirement can reveal a missing relation in another field, while each field supplies the means and evidence that make its realization credible.
 
 ## Library.Reference:2 - What the names refer to
 

@@ -104,6 +104,10 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 | FPF.Reference:16.9.9.4.1 - 9.4.1 Preparation now, reopening after performed trials | full text | 9.4.1 Preparation now, reopening after performed trials. |
 | FPF.Reference:16.9.10 - 10. Apply sensitivity without rewriting past Work | full text | 10. Apply sensitivity without rewriting past Work. |
 | FPF.Reference:16.9.11 - Result and stop | full text | Result and stop. |
+| FPF.Reference:16.10 - Control as a connected transdisciplinary construction | full text | Explains the common control construction and how it connects independently useful Core Methods. |
+| FPF.Reference:16.10.1 - Why the related Methods retain their own results | full text | Explains why comparison, local choice, architecture and development retain separate results. |
+| FPF.Reference:16.10.2 - Common relations and different mechanisms | full text | Relates common control questions to different mechanisms, boundaries and imperfect arrangements. |
+| FPF.Reference:16.10.3 - Grounds and limits of the synthesis | full text | States the source grounds and limits of the synthesis and when its architecture needs revision. |
 | FPF.Reference:17 - Transdisciplinarity As A Meta-Theory Of Thinking | full text | Shows how shared distinctions can connect disciplines without flattening their bounded meanings. |
 | FPF.Reference:18 - The Culinary Architecture Of Collective Thought | full text | Uses an assembly analogy to explain why familiar ingredients still need an explicit architecture and quality discipline. |
 | FPF.Reference:19 - The Intellect Stack As A Pedagogical Map | full text | Gives a teaching map for locating capabilities without turning the map into the ontology or work order. |
@@ -319,7 +323,7 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | **Cluster C.II – Domain‑Specific Patterns** | | | | |
 | C.9 | **Agency Characteristic Profile** | Planned | *Keywords:* agency, autonomy, responsibility threshold, decision capacity, intervention capacity, agentive role. *Queries:* "What agency claim is being made?", "When does a system or role holder count as agentive enough for this decision?", "How should autonomy be characterized without minting a new agent kind?" | **Builds on:** A.13, A.17, A.18, A.19, C.16, A.10. **Coordinates with:** B.3, C.11, C.24, D.2. |
 | C.11 | **Decision Theory (Decsn-CAL)** | Stable | *Keywords:* decision theory, DecisionSubject, OptionSet, comparison basis, ChoiceRule, ChoiceResult, question order, probe-worthiness, non-shared comparison frame, ValueOfInformation, ValueOfComputation, choose now, reject current set, probe again, reroute. *Queries:* "When should one choose now versus probe again?", "What must be explicit before a choice among already-available options is lawful?", "When does a missing finite configuration comparison go first to C.11.CRC?" | **Builds on:** A.6.P, A.6.5, A.13, A.18, A.19. **Coordinates with:** C.11.DUA, C.11.CRC, planned C.9, C.26, C.38, C.39, C.40, C.18, C.19, C.24, G.5. |
-| C.11.CRC | **Configuration-Relative Contribution Comparison** | Stable | *Keywords:* finite change, current configuration S0, candidate configuration S1, result and resource vectors, interactions, constraints, uncertainty, transition, option effects, marginal contribution. *Queries:* "What does this realizable finite change contribute relative to what we have now?", "Which coordinates, interactions, constraints, uncertainty, transition, and future options matter?", "When can the comparison claim return to C.11?" | **Builds on:** C.2.1, A.10, A.19, C.16, C.27, C.28, C.29. **Supplies:** one finite comparison claim to C.11. **Coordinates with:** C.18, C.19, B.3, A.15, and direct field calculations. |
+| C.11.CRC | **Configuration-Relative Contribution Comparison** | Stable | *Keywords:* finite change, current configuration S0, candidate configuration S1, result and resource vectors, interactions, constraints, uncertainty, transition, option effects, marginal contribution. *Queries:* "What does this realizable finite change contribute relative to what we have now?", "Which coordinates, interactions, constraints, uncertainty, transition, and future options matter?", "How does this comparison inform the named choice, design or control question?" | **Builds on:** C.2.1, A.10, A.19, C.16, C.27, C.28, C.29. **Supplies:** a finite comparison claim for the named receiving Method, including C.11 for local choice and C.43 for connected control. **Coordinates with:** C.18, C.19, B.3, A.15, and direct field calculations. |
 | C.11.DBR | **Reconsider a Decision When Its Relied-on Basis Changes** | Stable | Use when a known earlier choice or recommendation meets a later outcome or changed condition. Recover actual reliance, compare at the same use and horizon, preserve unaffected results, and either stop with the retained use or prepare a bounded current-choice input. *Queries:* "Does this outcome change our earlier decision?", "What should be preserved when one premise fails?" | **Uses:** A.10, C.16, C.27. **Coordinates with:** A.10.1, E.18.1, C.11, C.11.DUA and direct subject decisions. **Causal use:** C.28. |
 | C.11.DUA | **Make Advice and Evidence Demands Worth Their Burden** | Stable | Use when advice turns uncertainty or a requirement into costly, infeasible or questionable work for its recipient. Recover the receiving question and demand; distinguish present support, feasible continuation and worthwhile inquiry; appraise disputed requirements and their force; complete the useful answer with only the explanation its use needs. *Queries:* "Will more evidence change this decision?", "What can we reasonably do now?", "Is the requirement itself worth its burden?" | **Uses:** A.10, C.11, C.11.CRC, C.19.2. **Coordinates with:** C.18, C.28, D.4 and domain methods. **Used by:** F.19, E.19, E.11.PUA. |
 | C.11.MV | **Compare the Worth of a Method Option** | Stable | A Method option may cost more than its receiving benefit warrants. Compare attainable results with learning, transition, recurring support and displaced burdens, preserving the current-way alternative. | C.11 and C.11.DUA; C.39.RQ; C.32.MWA.PP; A.3.1.QM/FT for qualification inputs. |
@@ -424,6 +428,7 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | C.41.SR | **Reconcile Checklist Results Across Shared Work** | Stable | Different participants hold local checklist answers that do not yet justify a common result. Reconcile claims, interfaces and dependencies and keep changed conditions visible to the receiving action. | C.41.UA/QC; B.1.5 for a Method whole; A.10 for evidence. OPS.4 is a domain example of a shared operating account. |
 | C.41.QC | **Qualify Checklist Criteria and Checking Means** | Stable | Passing a checklist does not settle whether its criteria or checking means are adequate. Test their meaning, coverage, discrimination and cost against the actual subject and use. | C.41 for the selected questions; C.41.UA/SR for local/shared results; A.10; the applicable subject qualification Method. |
 | C.42 | **Reduce Avoidable Work While Preserving the Needed Result** | Stable | A local cut or faster operation can lose a needed result or move work elsewhere. Construct a worthwhile reduction through its changed condition, complete burden, introduction and later use. The elegance mantra connects these questions without prescribing a fixed sequence. | Uses A.11.OP for contribution, C.11.DUA for worth, C.39 for missing construction, C.28.CM for causal explanation, C.11.CRC for comparison and A.3.1.MI for introduction. |
+| C.43 | **Connect Observation, Choice and Action in Control** | Stable | Join the current situation, available information, possible continuations, their consequences and actual realization. Explain existing control, including distributed and self-changing arrangements, or obtain a suitable continuation and revise it when conditions change. | Uses A.12 for acting and changed participants, C.30.LCA for existing relations, C.32.LCA for architecture, C.11.CRC for comparison, C.11 for local choice, C.11.DBR for changed reliance and C.40.OD for development. |
 | C.36.P | **Clarify Cultural-Evolution Wording for a Claim or Action** | Stable | Use when culture, style, tradition, genre, scene, practice, technique, platform, regime, attractor or developmental-machinery wording hides an object, relation or claim needed for the next action. State what the expression means here, then use C.36 for a cultural-evolution case or the pattern governing the recovered claim. Generic development, evolution or lineage ambiguity uses E.10.DEV first. | **Builds on:** E.10, E.10.ARCH, E.10.DEV, C.36, F.17, F.18, F.9. **Coordinates with:** E.10.MOVE, A.3.1, A.3.2, A.15, C.18, C.19, G.5, G.11. |
 | C.36.RP | **Sustain and Renew Shared Ways of Working** | Stable | Use when changing participants, tools or questions makes a shared method hard to obtain or apply, or a useful discovery needs to become available to others. Locate the missing contribution and arrange access, acquisition or redistribution. Continue through receiving use when implementation is assigned; otherwise return the proposed arrangement and what remains to be carried out. *Queries:* "Who can apply or adapt this method when the device or question changes?", "Which understanding must remain with its receiver?", "How can a discovery become usable by other agents?" | **Specializes:** C.36. **Uses:** E.23.CAE and E.23.CDI for capability questions, B.5.RC, B.5.RA and B.5.MPC for reasoning, and C.40 for further variations, C.18 for retaining possibilities and C.19 for exploration over a live search pool. |
 | C.36.MC | **Qualify and Develop a Method Culture** | Stable | A population claims to generate, transmit, retain or change a way of working. Qualify the actual cultural predicate and connect the available account, recipient performance, adaptation and useful retention. | C.36 and C.36.RP; C.20 only for a Discipline claim; A.6.RCD; A.3.1/A.15.1 for admitted Method enactment; capability-development suppliers. |
@@ -2116,6 +2121,48 @@ Stop before release when signed evidence, verification, confidentiality, capabil
 Stop only the enactment-support task or claim whose mandatory criterion fails or whose required task result, membership, capability, provider, feedback or selection basis is missing. Retrieval and branch selection retain their passes, and the observed tailoring fixture, signed-before-closure and stale-edition results remain. The missing tailoring definition and untested permission/authority stop prevent a complete task-set pass; unused AI/feedback features and the unselected A.22 proposal do not cancel the supported observations. Membership cannot repair a failed task, and a task pass selects no structure and proves no general capability. Stop Method development at an earlier sufficient result when no whole question remains. Reopen only the affected result when its subject, source, evidence, authority, burden, task, System use, receiving criterion or relation truth changes.
 
 The application establishes no causal effect, Method identity for any candidate account, effective composite Method, universal lifecycle, cross-domain transfer, general holder capability, selected A.22 support structure, AI-provider use or feedback return inside the support test, positive release Work, or broad cultural continuation. It supplies only the bounded support-use facts and pattern stops stated above.
+
+### FPF.Reference:16.10 - Control as a connected transdisciplinary construction
+
+The control construction connects what can be known about a present situation, what can influence it, which continuation is suitable, how that continuation can occur and what a later result changes. The subject may be a technical system, a person, an organization or another system. Control can also organize changes to the knowledge, Methods and capabilities used in later work. These common relations do not make their subject mechanisms identical.
+
+**C.43** explains the connected reasoning as a separately usable Method. Its control mantra holds the dependencies together: assess the situation; construct possible continuations; compare and choose; realize the influence; examine its consequences; revise the affected basis. This is a logical unfolding for learning and attention. Actual work proceeds where the required information and means are available, with returns and simultaneous constraints under A.22.CGUS. A result may be a justified continuation, a sufficient explanation of an observed arrangement, or a specific unresolved connection requiring further work.
+
+#### FPF.Reference:16.10.1 - Why the related Methods retain their own results
+
+| Question in the connected construction | Core contribution | Use in the connected account |
+| --- | --- | --- |
+| Who acts on what, including within one whole? | A.12 recovers acting and changed participants and, where supported, Reflexive Split | The rule or purpose of the influence and its effect on future operation |
+| What relations does the actual control arrangement have? | C.30.LCA recovers a control structure and the warranted use of its description | Explanation of its behavior and the judgement of whether to change it |
+| What does a finite proposed change add from the attained situation? | C.11.CRC develops the configuration-relative contribution comparison | Competing uses of means, a receiving choice or construction, and actual realization |
+| Which currently formulated alternative should this chooser select? | C.11 supplies local choice with its stated uncertainty and probing conditions | Construction of alternatives, later contingent action, execution and revision where needed |
+| How must observations, decisions and influences be organized? | C.32.LCA constructs and compares control arrangements | Their realization and continued use under the conditions relied on |
+| Which earlier conclusion needs reconsideration? | C.11.DBR identifies the changed basis, preserves unaffected uses and obtains a current response through its receiving Method | Carry that response and the preserved uses into continued action where their connection remains unresolved |
+| How can current results enable further worthwhile problems and means? | C.40.OD, C.40.DC, C.40.JD and C.40.NP develop connected open-ended development, including selection and realization of interventions | Use the obtained direction, work arrangement and developmental returns to revise the control continuation where the existing development Method leaves a relevant connection unresolved |
+
+These are relations of use among independently useful Methods, with composition where the receiving operation requires it. They are not consecutive levels of one hierarchy. A contribution comparison can serve an experiment, operational action, architecture design or development direction. A local choice can select a whole conditional policy. Development can change the alternatives, criteria and means that a later local choice temporarily holds fixed. Control does not add another universal level to the pedagogical Intellect Stack in §19.
+
+The architecture keeps C.43 distinct from C.11 because ongoing control need not reduce to one local comparison, and distinct from C.32.LCA because useful continuation need not require redesign. Putting the whole only into explanatory prose would leave its practical construction unavailable as an ordinary Method. Conversely, absorbing every specialist method into the common pattern would hide independently useful results and their different assumptions. The present division supplies a common construction with recoverable specializations rather than one universal optimal controller.
+
+#### FPF.Reference:16.10.2 - Common relations and different mechanisms
+
+The common account first recovers what the arrangement does. Open-loop execution within an interval, distributed decisions, a combined physical bearer of several functions and an unsuitable feedback rule can all be described. The distinction between controller and controlled concerns their participation in particular relations; it need not partition the whole into two permanently separate devices. An asserted internal-parts explanation still satisfies A.12's parthood conditions. Controlled self-change additionally connects the intervention to how future action is changed and revised.
+
+Description, explanation and design therefore have different conclusions. A zero coupling can be a justified degenerate case of a model; an unknown relation cannot be filled with zero. A model can explain feedback that increases an unwanted deviation without making that rule desirable. C.43:5.5 demonstrates this distinction and its change when observations are delayed. Different dynamics can require a different subject model while retaining the common control relations.
+
+Technical control can add state-transition equations, admissible inputs, estimation bounds, stability or joint feasibility. Economics can add opportunity cost, preferences, prices, incentives and finite or marginal measures. Biological inquiry can test hypotheses about regulated variables and mechanisms without attributing an explicit optimizer to the organism. The common signature does not import the formulas or evidence of one case into another. C.43:4.7 explains these correspondences; C.11.CRC:4.2 preserves the mathematical and economic meanings of marginal comparison.
+
+For example, a laboratory initially seeks independent capability to handle a new sample family. Its current work relies on external judgement. The connected developmental question includes what the staff and their tools can learn, what working Method must change and what help must remain. If the agreed result changes to reliable delivery with an available qualified service, the previous training programme loses that justification. The receiving capability and retained dependence have changed. A grounded recommender revises its advice from that new configuration. Further development can then form a different attainable problem rather than repeat the abandoned curriculum. C.43:4.8 and C.40 retain these connections without making every service purchase or Method acquisition open-ended development.
+
+The same control relationship can be expressed in the language of operations management, technical regulation or another field. C.43:4.1.4 recovers the actual claim while preserving established discipline names and the organizational or physical relations that make it work. E.10:9.8 makes that recovery findable from the ambiguous wording. This is a semantic connection, not an assertion that every use of the words names the same object.
+
+C.43:4.5.1 constructs the needed temporal coordination. It distinguishes recurring contributions from separately timed actions, relates their preparation and recovery, preserves useful timing references and repairs the particular lost relationship. C.27.TA supplies the temporal-claim discipline; it does not by itself construct that coordination. The control mantra retains the connected questions without imposing a common execution clock.
+
+#### FPF.Reference:16.10.3 - Grounds and limits of the synthesis
+
+This construction combines existing Core Methods with subject contributions whose scope remains explicit. [Matni, Ames and Doyle (2024)](https://arxiv.org/html/2401.15185v1) provide current technical constructions for joining control layers and distributed contributions; their guarantees depend on the specified models. [Brooks, Frankel and Kamenica (2024)](https://benjaminbrooks.net/downloads/bfk_comparisons.pdf) show why information comparison depends on the receiving decision and joint information. [Nuijten and de Vries (2026)](https://arxiv.org/html/2607.19518v1) distinguish incentives to obtain information from the ability to condition future actions on it in a controlled computational comparison. C.32.LCA:11 explains the incorporation and limits of Matni, Ames and Doyle. C.43:11 states how its information, decision and development sources change the Method and where their results stop.
+
+The architectural decision is to share the explained relations whose use survives the change of subject, while retaining the constructions and assumptions that determine performance in each subject practice. A counterexample requiring different information, actuation, purpose formation or developmental connections can reopen this common account. A missing field-specific construction calls for a developed subject contribution, potentially a separate pattern language, rather than a more abstract name for the missing work.
 
 ## FPF.Reference:17 - Transdisciplinarity As A Meta-Theory Of Thinking
 
@@ -28194,6 +28241,8 @@ actingPartOrSubsystemRef != changedPartOrSubsystemRef
 ```
 
 for the current change-bearing claim.
+
+For controlled self-change, this split supplies the internal acting and changed participants. Connect their action to the rule or intended result that selects the intervention, its effect on later operation and the consequences used to revise it. **C.43:4.1.2** develops that account. An updater installing a poor setting can satisfy Reflexive Split; whether the update is suitably controlled and improves the result are further questions. If only roles or successive states are established, retain the supported acting-side account without inventing internal entity parts.
 
 #### A.12:4.3 - Episteme And Publication Cases
 
@@ -56607,6 +56656,8 @@ A conforming Method–Work check SHALL:
 
 **At a glance.** `C.11` is the choice-calculus pattern for the moment when options already exist and the working question is which option to choose, including whether another probe is worth its cost before commitment.
 
+This is a bounded choice use of decision theory, not a claim that all decision problems have one level, a fixed purpose or discrete alternatives. **C.43** connects such a choice to construction of alternatives, conditional future responses, realization and revision in ongoing control. One option here may itself be a policy or trajectory whose construction and qualification belong to the relevant Method.
+
 ### C.11:1 - Problem frame
 
 **When ongoing Work still needs a next action.** If admissible actions still have to be recovered from ongoing Work, its domain Method, and current facts, use `A.15.7` first. Return here only when a current chooser and `OptionSet` exist and comparison can change the result; a mandatory response or one familiar cue need not be inflated into an option set.
@@ -57010,6 +57061,8 @@ The family map is therefore one disciplined set of refinements over the same cho
 
 Use `C.11` while the question remains: from this current `OptionSet`, what should the `DecisionSubject` choose, and is another probe worth its cost before commitment?
 
+A completed `ChoiceResult` answers the local comparison. Return it to the continuation that needs it, preserving the evidence, information and action conditions used in the choice. Under **C.43**, a changed goal, available means or later observation can reopen the appropriate contribution without requiring the whole control task to become one fixed option set. The local next-probe rule below is not a general solution for all sequential information acquisition.
+
 Reroute immediately when the question changes:
 
 - If the current rows are labels or fragments and the hard question is how several complete ways could obtain the same result, leave this pattern and work in `C.38` first.
@@ -57344,13 +57397,13 @@ C.11 may cite `C.26` as the common quantum-like modeling lens only for the resid
 >
 > **Status:** Stable
 >
-> **Placement:** a narrow companion used before `C.11` when its comparison basis is not yet available
+> **Use:** construct a finite contribution comparison for a named choice, design or control question
 
 ### C.11.CRC:0 - Use This When
 
 Use this pattern when a bounded addition, replacement, removal, intervention, experiment, information/computation acquisition, capability-development element, project, or component is being justified by “what it adds,” but the current configuration, interactions, resources, horizon, uncertainty, and receiving decision are not yet part of the comparison.
 
-**First useful result.** Return one ordinary `C.2.1` episteme that compares a realizable finite changed configuration with the current configuration under a declared basis. State the result coordinates and resource coordinates, interactions, uncertainty, option effects, unsupported overreads, and the `C.11` decision that can consume the claim. The comparison does not choose the option.
+**First useful result.** Return one ordinary `C.2.1` episteme that compares a realizable finite changed configuration with the current configuration under a declared basis. State the result coordinates and resource coordinates, interactions, uncertainty, option effects, unsupported overreads, and the named receiving question that can consume the claim. It can supply local choice under `C.11`, construction of a continuation under `C.43`, or a subject Method that compares proposed changes. The comparison does not choose the option.
 
 **Cheap exit.** If a current `A.19`/`C.11` account already states the same finite baseline, change, horizon, result and resource coordinates, interactions, uncertainty, and reopen condition, use that account directly.
 
@@ -57387,9 +57440,9 @@ Without an explicit configuration-relative comparison, practitioners make at lea
 
 ### C.11.CRC:4 - Solution
 
-Construct the smallest finite counterfactual comparison that can change one named decision.
+Construct the smallest finite counterfactual comparison that can change the answer to one named choice or construction question.
 
-1. **Name the receiving decision.** State the deciding System, current `DecisionSubject`, decision deadline, current `OptionSet` or the option-set question that this comparison will inform, and which result could change the decision.
+1. **Name the receiving question.** State who needs the comparison, the choice or construction it informs, when the result must be available, and which consequence could change that work. For a local `C.11` choice, identify its deciding System, `DecisionSubject` and current `OptionSet` or option-set question. For ongoing control, policy design or development, identify the continuation, rule, direction or means being compared and its receiving Method; a local option set need not already exist.
 2. **Freeze the current configuration.** Name the actual or currently relied-on configuration `S0`, system boundary, affected Systems, the holder or beneficiary and what it holds or benefits from, relevant environment, and what is held fixed only for this comparison. If the affected-System coordinate is missing and could change the comparison, use `A.1.CSD` first; bring back only consequence claims compatible with this `S0`/`Δ`/`S1`, horizon, evidence window, and receiving decision. A historical, empty, or ideal configuration is not the default baseline.
 3. **Name the finite change.** State the addition, replacement, removal, intervention, or probe `Δ`, the realizable candidate configuration `S1`, admissibility conditions, implementation capability, planned transition work, reversibility, and excluded variants.
 4. **Fix horizon and scenarios.** State the interval, relevant states or scenarios, timing assumptions, and any decision or evidence window. Do not combine results from incompatible horizons without an explicit mapping.
@@ -57400,14 +57453,14 @@ Construct the smallest finite counterfactual comparison that can change one name
 9. **Qualify evidence and uncertainty.** Identify source claims, currentness, uncertainty, sensitivity/robustness results, transfer limits, rival explanations, and `A.10` reliance dispositions where an evidence-bearing claim is used.
 10. **Write the comparison claim.** State what `S1` contributes relative to `S0` only under the declared coordinates, horizon, scenarios, constraints, interactions, and evidence. Use dominated, non-dominated, beneficial, harmful, or indeterminate wording only when the stated relation supports it; do not force one scalar winner.
 11. **Route mathematical near-misses.** Apply the distinction in `C.11.CRC:4.2`; the finite comparison may consume a derivative, sensitivity, shadow price, variational, or inference result without becoming identical to it.
-12. **Return to `C.11`.** Use `C.11` to combine this claim with preferences, belief state, outcome model, probe worth, and other premises and emit one `ChoiceResult`. State the smallest configuration, horizon, evidence, resource, constraint, or option-set change that reopens this comparison.
+12. **Return to the receiving work.** Supply the comparison to the named question from step 1. Use `C.11` when a local chooser and options are ready: it combines the claim with preferences, belief state, outcome model, probe worth and other premises to obtain a `ChoiceResult`. Use `C.43` when the consequence must first be connected to conditional future action, realization or revision; a subject design or development Method can consume the comparison directly. State the smallest configuration, horizon, evidence, resource, constraint or alternative change that reopens this comparison.
 
 #### C.11.CRC:4.1 - Lightweight comparison form
 
 `ConfigurationRelativeContributionComparison@Context` is a form name for one ordinary comparison episteme. It is not a root U-kind, universal delta value, selector result, or decision.
 
 ```text
-receivingDecisionRef:
+receivingQuestionRef:
 currentConfigurationRef: S0
 candidateFiniteChangeRef: Δ
 candidateConfigurationRef: S1
@@ -57423,10 +57476,10 @@ evidenceAndUncertaintyRefs:
 comparisonClaim:
 unsupportedOverreads:
 reopenCondition:
-nextGoverningPattern: C.11
+nextGoverningPattern: named receiving Method; C.11 when the result supplies its local choice
 ```
 
-Omit a field only when it cannot change this comparison and that omission is apparent from the bounded case. A polished record cannot compensate for a missing current configuration or decision.
+Omit a field only when it cannot change this comparison and that omission is apparent from the bounded case. A polished record cannot compensate for a missing current configuration or receiving question.
 
 #### C.11.CRC:4.2 - Mathematical and model-routing distinction
 
@@ -57464,7 +57517,7 @@ A positive shadow price for one bottleneck supports a local statement about rela
 
 #### C.11.CRC:5.4 - Capital allocation
 
-A project is compared with the current portfolio and financing/operating configuration. The comparison includes cannibalization, shared resources, risk concentration, financing constraints, irreversibility, staging, information gained before later commitments, and displaced options. NPV, real-options, scenario, and portfolio Methods remain Corporate Finance practice; this pattern supplies only the finite comparison grammar returned to `C.11`.
+A project is compared with the current portfolio and financing/operating configuration. The comparison includes cannibalization, shared resources, risk concentration, financing constraints, irreversibility, staging, information gained before later commitments, and displaced options. NPV, real-options, scenario, and portfolio Methods remain Corporate Finance practice; this pattern supplies the finite comparison returned to that practice or to `C.11` when a local choice is the receiving question.
 
 ### C.11.CRC:6 - Bias Annotation
 
@@ -57477,7 +57530,7 @@ A project is compared with the current portfolio and financing/operating configu
 
 ### C.11.CRC:7 - Conformance Checklist
 
-1. Is one receiving decision named?
+1. Is the receiving choice or construction question named, including who needs the comparison and what it can change?
 2. Are `S0`, finite `Δ`, and realizable `S1` explicit?
 3. Are system boundary, affected Systems, horizon, scenarios, and evidence window compatible—and, when a missing bearer could change the comparison, was `A.1.CSD` used before freezing this coordinate?
 4. Are result and resource coordinates explicit, with protected coordinates not silently scalarized?
@@ -57486,7 +57539,7 @@ A project is compared with the current portfolio and financing/operating configu
 7. Are future option effects distinguished from realized results?
 8. Are evidence, uncertainty, sensitivity/robustness, transfer limits, and unsupported overreads visible?
 9. Is each derivative, sensitivity, shadow-price, functional-variation, variational-inference, or evolutionary-variation result used only for its exact question?
-10. Does the output remain a comparison claim, with `C.11` retaining the `ChoiceResult`?
+10. Does the output remain a comparison claim returned to its named use, with `C.11` retaining any `ChoiceResult` sought under that calculus?
 11. Is the smallest reopen condition stated?
 
 ### C.11.CRC:8 - Common Anti-Patterns and Repairs
@@ -57494,7 +57547,7 @@ A project is compared with the current portfolio and financing/operating configu
 | Anti-pattern | Repair |
 | --- | --- |
 | Candidate value is constant across configurations | Name `S0`, interactions, horizon, and affected Systems. |
-| Average benefit chooses the next element | Preserve result/resource vectors and return the comparison to `C.11`. |
+| Average benefit chooses the next element | Preserve result and resource coordinates and return the comparison to the governing choice Method. |
 | Derivative times step equals finite contribution | State smoothness region and remainder or perform the finite comparison. |
 | Shadow price equals asset value | Keep the local active-constraint result and model the finite intervention separately. |
 | Functional stationarity proves physical optimality | Use `C.29`, physical/domain evidence, sufficiency checks, and validation. |
@@ -57503,7 +57556,7 @@ A project is compared with the current portfolio and financing/operating configu
 
 ### C.11.CRC:9 - Consequences and Reopen Condition
 
-**Benefits.** Finite additions, removals, replacements, probes, and investments become comparable without requiring additivity, smoothness, or a universal scalar. Domain calculations can be reused while their validity regions remain visible. The result gives `C.11` a stable comparison input and keeps choice authority there.
+**Benefits.** Finite additions, removals, replacements, probes, and investments become comparable without requiring additivity, smoothness, or a universal scalar. Domain calculations can be reused while their validity regions remain visible. The result supplies a stable comparison input to local choice, design or control while leaving the receiving judgement and its authority to their governing practice.
 
 **Costs.** Practitioners must name a baseline, vectors, interactions, and uncertainty that an isolated score could hide. Some cases remain indeterminate until field evidence or implementation capability is available.
 
@@ -57511,7 +57564,7 @@ Reopen this pattern when repeated cases cannot express their finite comparison w
 
 ### C.11.CRC:10 - Rationale
 
-The pattern is narrow because its result is neither a new value ontology nor a decision. The reusable action is to construct a finite configuration-relative claim before local choice. `A.19` remains the comparison-mechanism owner, `C.29` the mathematical-lens owner, and `C.11` the choice owner.
+The pattern is narrow because its result is neither a new value ontology nor a decision. The reusable action is to construct a finite configuration-relative claim for a receiving choice or construction. The claim can remain useful while alternatives or a conditional policy are still being developed. `A.19` remains the comparison-mechanism owner, `C.29` the mathematical-lens owner, and `C.11` the choice owner.
 
 The selected name follows `F.18`. *Marginal contribution decision* conflates finite difference, derivative, economic terminology, and the later decision; *marginal value* encourages one scalar; *sensitivity analysis* names a different question. `Configuration-Relative Contribution Comparison` names the reference configuration and comparison while leaving domain quantities and choice outside.
 
@@ -57531,7 +57584,7 @@ Refresh only the affected source-use row when a newer result changes one Solutio
 ### C.11.CRC:12 - Relations
 
 - **Builds on:** `C.2.1`, `A.10`, `A.19`, `C.16`, `C.27`, `C.28`, and `C.29`.
-- **Supplies:** one finite comparison claim to `C.11`; it can also supply an input to a field-specific portfolio, programme, intervention, architecture, or experiment decision.
+- **Supplies:** a finite comparison claim to `C.11` for local choice, to `C.43` for a connected control continuation, or directly to a field-specific portfolio, programme, intervention, architecture or experiment Method. The receiving use determines which connection is needed; these are not mandatory successive stages.
 - **Coordinates with:** `A.1.CSD` when affected-System consequence coordinates are missing; `C.18` when the candidate changes the possibility space; `C.19` for pool governance; `B.3` for assurance; `A.15` for the distinction between transition plans (`A.15.2`) and performed transition Work (`A.15.1`); and the direct field practice for calculation and validation.
 - **Keeps outside:** universal marginal value, a new delta kind, domain formulas and thresholds, causal proof, assurance, permission, selected-set declaration, and `ChoiceResult`.
 
@@ -57551,6 +57604,8 @@ Use this pattern when an earlier choice, commitment or recommendation is known, 
 The reader needs access to the earlier basis, the later result and the subject knowledge needed to interpret them. Ask the responsible contributor for an unavailable premise or interpretation; a decision log alone does not supply it. Ordinary prose in the existing discussion can carry the answer. Use a retained account only when another person or later action needs it.
 
 **Use the direct way when it already suffices.** A subject Method that already compares the earlier basis, later outcome, affected uses and current alternatives needs no additional C.11.DBR pass. Use C.11 directly when the current chooser, options and comparison basis are ready. Use A.15.7 for a next action during ongoing Work when no earlier-basis reconstruction is needed. Begin with A.10.1 when a source changed and its actual receiving uses are still unknown.
+
+Within ongoing control, return the affected and preserved uses to **C.43**. A changed observation may require another immediate action; a changed model, goal or means can require rebuilding a different contribution. This Method establishes which relied-on basis changed and where that matters. The receiving control account connects that result to an available intervention and its execution. An adequate subject feedback Method can already supply this comparison without a separate reconstruction.
 
 ### C.11.DBR:2 - Problem
 
@@ -74189,6 +74244,8 @@ When either form includes actual control Work, each Work ref names an occurrence
 
 Use full `ControlStructureView` only when an independently identified architecture-description episteme about the selected control structure satisfies the fixed E.17.0 predicate for one viewpoint. Full use is justified when control-participant meanings, direct relations, rates, recovered control-layer labels, boundary refs, source return, representation or publication, or the patterns used for particular claims matter beyond the note.
 
+An obtaining relation can be ineffective or harmful. Describe the actual command, observation and response, including their delay, rather than supplying missing ideal connections. Distinguish an established absence from a relation not yet known: `oneWay` and `unclear` support different next inquiries. A controller whose feedback amplifies a deviation still has describable feedback; adequacy is a judgement on its behavior for the receiving use. **C.43:4.1.1–4.1.3** connects that description to explanation and a possible change. **C.32.LCA** develops the new arrangement when that is required.
+
 ### C.30.LCA:2 - Problem
 
 Control diagrams are persuasive because they look operational: arrows imply feedback, boxes imply responsibility, and recovered control-layer labels imply separation. In practice that is often enough for orientation, but not enough to identify selected structure, make direct relations obtain, admit the description as `U.View`, or establish architecture adequacy. A control-stack description can quietly overclaim stability, safety, evidence sufficiency, gate validity, assurance, or causality; a non-control `layer`, `level`, `tier`, or `stack` label belongs first to `C.30.STRAT`.
@@ -76650,6 +76707,8 @@ The practical problem is to construct and compare those relations without losing
 
 Construct the arrangement from the result and its causal dependencies, then compare the complete alternatives. The following sections explain connected operations, not a mandatory sequence of meetings or a prescribed stack of controllers. Begin at the first missing contribution; retain an adequate model, decision or component result.
 
+The architectural result changes the organization through which control occurs. **C.43** supplies the broader connection between the current situation, possible continuation, choice, realized influence and revision; use it directly when those answers can be joined within an adequate existing arrangement. The present Method constructs an arrangement when that joining requires different information, timing, allocation, means or interaction. Its result then returns to the ongoing control question.
+
 #### C.32.LCA:4.1 - Recover the controlled situation and the consequence that matters
 
 State what is meant to change, for whom, by when, and within which protected conditions. “Make the system faster” leaves the decision unresolved. “Reach the receiving position within two updates without exceeding the actuator limit” identifies a result and a constraint. “Have the approved panel installed by 16:00 without spending an unauthorized budget” identifies a different result and different conditions.
@@ -76820,7 +76879,7 @@ Separate an unavailable candidate from a costly feasible one, and both from a ca
 
 Include the transition. A new controller needs initialization and an admissible switch. A new organizational allocation needs effective authority, informed participants and preserved obligations. Existing work and performed history do not disappear when the new arrangement is selected.
 
-**C.11** supplies the authorized choice among the explained alternatives; use **C.11.DUA** when the value of another observation, calculation or trial is itself unresolved. A constructed case can justify a conditional proposal. An effectiveness claim requires evidence from its intended use. Do not require a new trial when existing adequate evidence settles the decision, and do not count a simulated or taught example as operational evidence.
+**C.11** supplies a reasoned local choice among the explained alternatives; the right to commit resources or direct action remains separately established under the actual permission and agreement relations; use **C.11.DUA** when the value of another observation, calculation or trial is itself unresolved. A constructed case can justify a conditional proposal. An effectiveness claim requires evidence from its intended use. Do not require a new trial when existing adequate evidence settles the decision, and do not count a simulated or taught example as operational evidence.
 
 Return the chosen alternative, accepted trade-off and conditions of use to the receiving engineering or organizational decision. If only a candidate comparison was requested, it can finish here without authorizing implementation.
 
@@ -76987,7 +77046,7 @@ The current arrangement can itself become the subject of a slower development ac
 - **A.3.3, A.3.3.TR and A.3.3.PI** supply the dynamics, transition rule and predictive information. Their results enter the decisions and timing here; a changed input policy can reopen them.
 - **C.32 and C.32.MLAO** supply candidate generation and changes that address a recovered cross-scope residual. This pattern adds the control-specific construction of information, intervention, timing and continuation.
 - **C.32.MWA.PP:4.3–4.9** supplies construction and comparison of joint performance and provision, including shared means, workload, commitments and transition conditions. This pattern connects those conditions to the observation, decision and intervention that must occur in time. A proposed relation remains prospective until its obtaining conditions are met; changed authority or resource demand returns to the affected comparison.
-- **C.11 and C.11.DUA** supply the authorized choice and the worth of further inquiry. The architecture explanation is their input, not authorization by itself.
+- **C.11 and C.11.DUA** supply the local choice and the worth of further inquiry. The architecture explanation is their input; neither that explanation nor the choice establishes permission to act. **C.43** returns the selected arrangement to the connected continuation it must make possible.
 - **C.28** governs reliance on a causal result when an empirical effect is used to justify the change. A conditional calculation retains its model premises.
 - **C.39 and B.1.5.RS** support construction of a missing contribution and preservation of receiving uses when one contribution is replaced. A replacement that changes observations, timing or actions returns to the affected joint-condition analysis here.
 
@@ -79239,7 +79298,7 @@ If the candidate needs changed authority or a new agreement, include the obtaina
 
 #### C.32.MWA.PP:4.8 - Compare complete changes at proportionate effort
 
-Use one current baseline, declared horizons and decision-changing scenarios. Compare each candidate's result and resource consequences, including the transition from the incumbent. C.11.CRC supplies the comparison; C.11 supplies the authorized choice.
+Use one current baseline, declared horizons and decision-changing scenarios. Compare each candidate's result and resource consequences, including the transition from the incumbent. C.11.CRC supplies the comparison; C.11 supplies the reasoned local choice. The rights and agreements needed to carry it out remain conditions established through §§4.7 and 4.9.
 
 First distinguish an unavailable arrangement from a costly but possible one. Then retain the coordinates that could reverse the choice. These can include useful results, capability retention, delay, participant effort, qualified scarce time, money, continuity, autonomy, dependence, error exposure and future flexibility. Compare contributions to their actual receivers. A lower supplier cost that makes client performance impossible is not a cheaper equivalent service.
 
@@ -87667,6 +87726,8 @@ The Method is usable by a person arranging self-development with assistance, lea
 
 For one adequate bounded improvement with available means and no consequential connection problem, use its direct Method. Do not build a network description merely to redescribe that work. Conversely, a bounded contract may be one contribution to continuing development without promising to provide its whole future.
 
+For directing this development from actual conditions, **C.43:4.8** connects observation, advice, choice and intervention across the working Method, developing capability and provision. Supply it with the present possibilities, proposed directions and the conditions under which contributions can be obtained. C.40.DC supplies alternatives from successive attained configurations; C.40.JD returns the receiving work result, changed capability with retained assistance, and knowledge about the Method and provision. C.40.NP can supply the next worthwhile problem after complete success. The control account returns which dependency, timing, allocation or observation must change for this construction to proceed. This relationship preserves new problem formation and epistemic results rather than treating development as execution toward one permanently fixed target.
+
 ### C.40.OD:2 - Problem
 
 Useful local results can fail to become development. A research finding does not reach an engineering choice; a course supplies knowledge without the conditions for its use; a new arrangement performs well only while its designer supplies every judgement; or support remains organized around an earlier problem after its recipient has changed.
@@ -89612,6 +89673,402 @@ The worked cases establish inspectable consequences of their stipulated premises
 - **C.40.NP** develops a further worthwhile attainable problem from the position reached after a result.
 
 ### C.42:End
+
+## C.43 - Connect Observation, Choice and Action in Control
+
+> **Type:** Method pattern
+> **Status:** Stable
+> **Normativity:** Guidance within the stated applicability
+
+### C.43:1 - Problem frame
+
+Use this pattern when observations, rules for influencing a system, performed actions and their consequences have to be connected to answer a question about control, but the separate accounts do not yet provide that answer. You may need to explain what an existing arrangement does, including why it works badly, or decide how to continue and what to change. The connections matter in both uses; the required results differ.
+
+A researcher can reproduce a recorded response with two different mechanisms and still not know which observation would distinguish them. In practical work, a forecast can be sound while its proposed response arrives too late. A profitable change can consume the capacity needed for another commitment. A useful measurement can arrive when the action it would have changed is no longer available.
+
+**First useful move.** Identify the consequential change or maintained condition and recover how the available arrangement influences it. Ask what information reaches which rule or participant, what action follows, how it affects the system and what can be observed afterward. Keep an unsupported connection as a question to resolve. For explanation, work the proposed relations through to a consequence that could distinguish competing accounts. For a practical continuation, take the next consequential choice: explain what is currently known, what can still be done, what each continuation could change and what would change the choice. Follow the unresolved necessary connection far enough to supply the receiving answer or identify the condition that prevents it.
+
+**What this buys.** An explanatory use returns supported control relations, their consequences under stated conditions and any unresolved alternative. That can explain an unsuitable response without prescribing a redesign. A practical use returns what to do, why it is a suitable continuation, how it can take effect and how later information will change it. It can justify continuing an existing practice, taking a bounded action under uncertainty, obtaining information, or changing the goal, model, method or control architecture. Neither use requires a new document when the working explanation is already available.
+
+The intended reader is a practitioner or researcher who can obtain the subject knowledge required by the question. The common Method organizes that knowledge; a claim about a particular machine, organization or organism still needs the relevant subject explanation and evidence.
+
+Use an adequate controller, plan or established response directly when it already supplies the needed connections. Apply **A.15.7** to select the next action within an understood working Method. Apply **C.32.LCA** when the unresolved result is the construction or alteration of the control arrangement itself. Here the arrangement may remain unchanged: the missing result is a coherent continuation through its observations, choices and actions.
+
+When explaining observed control, an attributed goal or internal model is a hypothesis to test, not an instruction addressed to the observed system. Explaining how a person, animal or organization acts and deciding what it ought to do are different receiving questions.
+
+### C.43:2 - Problem
+
+Useful answers are often developed separately. One account estimates the situation, another predicts consequences, another compares benefits, and another assigns work. Their assumptions about time, available actions, resources and purpose can differ. The reader then has to invent the connections that determine whether the answers can be used together.
+
+The difficulty is not resolved by arranging their titles in a cycle. The practitioner needs to know why one answer is usable by the next, what to do when they disagree, and which earlier conclusion a new observation changes. Otherwise a repeated cycle can reproduce an unsuitable action, and an accurate local calculation can support an infeasible whole.
+
+The same missing connections obstruct explanation. A report of a response does not reveal which information determined it; a stated rule does not establish that the corresponding action occurred; and different mechanisms can produce the same observed trajectory. The investigator needs to derive how a proposed observation-to-action relation produces its consequence and which changed condition would distinguish it from a serious alternative. The resulting conclusion concerns what the arrangement does. Whether to retain or change it additionally depends on the intended outcome and available means.
+
+### C.43:3 - Forces
+
+| Force | Consequence for reasoning |
+| --- | --- |
+| The world changes during deliberation | Relate information and proposed action to the time at which they can matter. |
+| Useful action under incomplete knowledge | Preserve distinctions that could change the action without requiring a complete description of the system. |
+| Present gain and future choice | Compare what a continuation obtains and what it leaves possible, including its informational effects. |
+| Several participants and shared conditions | Keep affected interests, commitments, resources and authority visible before aggregating consequences. |
+| Local correction and structural change | Change the part of the explanation or arrangement whose premise failed; preserve sufficient contributions. |
+| General explanation and specialized construction | Retain a common question while making the additional assumptions of each field recoverable. |
+
+### C.43:4 - Solution
+
+Connect the current situation, available information, the rule or choice that produces an intervention, its realization and its consequences. For an existing arrangement, recover the relations that obtain and derive what they do under the relevant conditions; compare alternative explanations where the evidence leaves them open. For a practical continuation, construct and compare what could be done through that arrangement or a changed one, and establish how the selected action can take effect. An explanatory result can supply a premise for the practical choice without itself selecting that choice.
+
+Use the following operations where their results are missing. Return from a consequence to the observation, rule, execution condition or purpose on which it depends. Preserve a sufficient contribution when the returned question leaves its grounds intact. The order below is a logical unfolding for learning and attention, not a required temporal sequence.
+
+#### C.43:4.1 - Establish what is being controlled and what continuation is needed
+
+Begin with the subject of the intended change and the systems that can realize it. A controlled system can be a machine, a person, an organization or another physically realized system. A controller can be embodied in one participant or distributed across several. These descriptions designate what the systems do in this relationship; they do not introduce essential kinds of system. The change being organized can also concern work, capability, an applied Method or the model used in decisions. Establish separately what content is revised and which systems interpret it, act and produce the intended consequences. A model, goal, command and report are content used in that work, not additional physical plants.
+
+Recover the present conditions from which action must continue. Include completed work, effects still unfolding, resources already occupied, and commitments that constrain what can happen next. The present is not a blank initial condition. Nor is maintaining the current practice equivalent to freezing the system: it is a continuation with its own future consequences.
+
+State the result being sought, the conditions to preserve, the affected participants and the span over which the choice matters. These can be qualitative. An emergency response may need only a justified action until assistance arrives; an investment can require consequences over years. Establish whose decision can change a goal or commitment. Conflicting interests may require agreement, a legitimate governing decision or separate comparisons rather than one invented common preference.
+
+A useful continuation is not always movement toward a fixed target. It can preserve an acceptable range, avoid a loss, keep several futures open, or investigate which outcome is attainable. When the goal itself is unresolved, obtain the missing purpose decision through the governing practice while identifying any bounded action that remains appropriate across the live alternatives.
+
+##### C.43:4.1.1 - Recover control relations before judging their quality
+
+Relate the change being considered to the means of influencing it. Recover both why an input or rule is set in relation to the relevant outcome and how its execution can affect that outcome. The rule can be embodied in a mechanical arrangement, physiological mechanism, program or agreement. It need not represent alternatives explicitly or employ a conscious chooser. In an explanatory inquiry, the proposed regulated characteristic and its relation to the mechanism are claims to investigate. Compare what would happen under a changed reference, observation, available intervention or disturbance. This gives the account explanatory content beyond describing a trajectory after it happened.
+
+Keep three questions available. **Description** recovers the relations that obtain, their participants and the consequential gaps. **Explanation** derives what those relations do under the stated conditions, including an unwanted result. **Design** compares changes that could make the continuation more suitable. A descriptive or explanatory inquiry can finish without prescribing a new arrangement. In design, an intelligible description of the incumbent supplies a comparison basis, not a reason to retain it.
+
+Control can be open over a selected interval. An input is selected or set from the initial situation and then executed without using later observations to correct it within that interval. Establish the conditions under which that choice remains adequate. A later decision can close a wider loop by using the resulting observation. Feedback exists where a subsequent influence depends on returned observations; that dependence can remain operative while the observed value and the resulting input stay unchanged. Whether the response is timely and beneficial requires its own explanation. Use **C.30.LCA** to recover these obtaining relations and **C.32.LCA** when changing their organization is the needed result.
+
+The subject of the decision, the information and interventions available to each participant, and the physical realization can have different boundaries. One device can estimate, choose, act and modify its own means. Several participants can jointly supply one influence, and each can be influenced by the others. Recover the contributions and their actual connection before allocating them to parts. A combined mathematical description can retain joint dynamics when a clean separation of states is unsuitable. Its coordinates do not themselves establish physical parthood.
+
+For distributed control, preserve what each participant can know and do. Writing local rules as `u_i(t) = pi_i(I_i(t))` makes their information dependence explicit; collecting those rules into one notation creates no shared observation, communication channel or authority. Compare their joint effects with shared resources, timing and constraints. The constructive work is obtaining the required cooperation, not merely drawing a larger controller around the participants.
+
+##### C.43:4.1.2 - Explain controlled self-change through its acting and changed sides
+
+A continuation can change the means of later control: a model used for interpretation, a policy, a performer's capability, an allocation of work or the controlled system itself. Identify what is changed, what makes the change, why this intervention is selected or triggered, and how it alters later action. Then connect the resulting observations to the decision to retain, revise or undo that change where those alternatives are available. This extends the same account to changing control arrangements without assuming that their mechanism remains fixed.
+
+Use **A.12** to recover the acting participant and changed subject. Its Reflexive Split applies when both are distinct actual entity parts or subsystems of one containing holon, with established parthood. Shared hardware does not require that their functional contributions collapse, while different roles or successive versions alone do not establish different entity parts. An ordinary account can retain the demonstrated action and change when that stronger internal-parts claim is not available.
+
+Reflexive Split answers who acts on what inside the whole. The control explanation additionally connects the change to its regulating rule or intended result and to the consequences for subsequent work. A perfectly identifiable updater can install an unsuitable setting. Temperature drift can alter the same device without being the intervention selected to obtain that result. Random generation of candidates can be part of controlled search when the generation, examination and retention of variants form the actual arrangement; determinism alone does not establish such an arrangement.
+
+For adaptation, distinguish updating the estimate of the current situation, changing an estimated model, adjusting the controller and changing the actual subject dynamics. Direct adaptation can adjust controller parameters without first constructing a new plant model. When a property depends on those parameters, examine the combined operation of acting and updating under the conditions of the claimed property. A result for a fixed setting answers that fixed-setting question; the technical Method must establish which updates preserve it. Development adds the further question of changed attainable problems and means, developed in §4.8.
+
+##### C.43:4.1.3 - Describe incomplete and unsuitable arrangements without inventing missing parts
+
+Start from the incumbent's actual relations. An unexecuted command, a delayed observation, a response based on a stale assumption and competing local allocations can each explain a different failure. Retain the working contributions and recover the particular connection whose change could improve the receiving result. A globally unsuitable arrangement can contain useful local control.
+
+| Existing arrangement | What the common account retains | What the next judgement needs |
+| --- | --- | --- |
+| A fixed input over the present interval | The way the input was set, its execution and the expected response; later feedback can lie outside this interval | Whether disturbances and uncertainty permit this continuation until another decision |
+| Feedback that amplifies an unwanted deviation | The obtaining observation-to-action relation and its actual dynamics | A change of rule, sign, gain, delay or means whose consequences improve the relevant behavior |
+| Several local controllers with conflicting demands | Each local rule, available information and actual influence | A feasible joint allocation, agreement or changed demand, rather than an assumed central chooser |
+| A proposed action with no available means or authority | A recommendation or selected proposal and the missing realization relation | How to obtain the means or agreement, change the proposal, or state the remaining inability to act |
+| An unexplained gap in the observed arrangement | The supported relation and the uncertainty about another contribution | An observation or source that can distinguish absence from an omitted description |
+
+A mathematically degenerate case is useful when the mapping is justified: a constant policy removes dependence on new observations; a zero coupling removes a specified influence. A missing observation in the evidence is not such a zero. Likewise, a coupled nonlinear arrangement need not be a limiting case of one particular linear model to be describable here. Use the common relations to select an adequate subject model under **C.29**, then establish its relevant behavior. This preserves both an honest description of imperfect control and the stronger question of what should replace it.
+
+##### C.43:4.1.4 - Recover the control claim behind the field wording
+
+Read *control*, *management*, *regulation*, *governance* or *steering* in the claim where it is used. First identify what is being discussed: a field of practice, its methods, the people doing the work, an actual arrangement, an intervention, a power to decide, or information about the result. Then recover the subject being influenced, the condition or change at issue, the available information and means, and how they determine what happens. Preserve the established field name while making this particular relationship explicit.
+
+In operations management, practitioners control how an undertaking produces and delivers its results: they connect demand, capacity, work, commitments and observed performance to changes in what is done. The word *management* does not exclude this practice from the common control construction. The discipline also studies and designs those operations. A calculation, forecast or inspection is a contribution to control when its result is used in that connection; the field name alone does not specify the contribution. The same distinction applies to strategic direction and to control at other horizons.
+
+The organizational account must retain the conditions through which a decision can influence action: commitments, participation, rights, incentives and available resources. A right to issue an instruction and the means to have it carried out are different relations that can both be necessary. *Governance* may concern how such rights, obligations and accountability are constituted or exercised; recover those acts and their effects rather than translating the word into a physical feedback mechanism. *Management* may also designate the people exercising a responsibility. Name those people when they are the claim's subject.
+
+Likewise, an inspection called a *control* can establish a test result without selecting or realizing a corrective action. Identify the response that receives the result when the claim concerns continuing control. In translation, English *control* and Russian *контроль* are not interchangeable by default: the latter can mean checking or monitoring, while *управление* can name the wider arrangement. Preserve a source's intended meaning through the recovered relationship; do not replace every occurrence with one preferred English word.
+
+The result is an ordinary, usable account such as: “The operating team changes job release using queue information, due dates, capacity and existing commitments.” Use C.30.LCA when the resulting observation, command or supervision relations need structural qualification; use the direct authority, commitment, measurement or evidence pattern when that is the remaining question. If the text already makes its intended meaning clear, retain it. No new control kind, universal organizational hierarchy or renaming of a discipline is needed for this recovery.
+
+#### C.43:4.2 - Build the account of the situation needed for the choice
+
+Separate the actual situation from what the decision maker can know about it. Identify observations, their times, relevant past actions and the assumptions used to interpret them. An observation of an earlier state becomes useful for a present choice through an account of what could have changed since then.
+
+Choose the representation by the decisions it must support. A point estimate can suffice when its remaining uncertainty cannot change the response. A set of compatible situations is useful when one action must remain acceptable across them. Probabilities are useful when the evidence and decision justify comparisons of expected consequences. A causal explanation, a production schedule and a physiological model retain different distinctions because different actions depend on them.
+
+Recover what the retained information allows you to infer. If two possible situations require incompatible actions, a representation that treats them as identical is insufficient for that choice. The response can be to obtain a distinguishing observation, retain uncertainty explicitly, select an action acceptable in both, or change the requested outcome. More detailed modeling is only one possibility.
+
+Check the information needed at the moment of action. Prediction can permit a justified action before a delayed measurement arrives, or compensate for some consequences of that delay. Retain the actual delay and the model assumptions that make this response possible. Preserve the effects of actual inputs and relevant history when they affect what the current observation means. Use **C.30.LCA** to recover an unclear control structure and **C.29** to choose a suitable mathematical representation. Neither a mathematical vocabulary nor a detailed model supplies missing observations.
+
+#### C.43:4.3 - Construct possible continuations, including conditional future actions
+
+Construct alternatives from the available situation and from what must be obtained. Reason backward from the required result to the contributions it needs, and forward from available means to the results they could produce. Where the accounts fail to meet, obtain the missing contribution through **C.39**, revise the proposal, or retain the incompatibility as an explicit limit.
+
+A continuation can contain an immediate action, a planned sequence, a rule that selects later actions from later information, or a change that makes new actions available. These have different uses. A fixed sequence is adequate when relevant future differences do not alter it. A conditional policy is needed when later choices should depend on information not yet available. Replanning after each observation can implement such responsiveness, but a present comparison must also anticipate that future responsiveness when it changes the value of the action chosen now.
+
+Include action that obtains information. Its consequences can be both physical and informational: a trial can produce an item, expose a failure mode, consume capacity and change subsequent choices. Explain which possible observation would change which later action, and whether that action will still be available. This is the constructive connection between exploration and control.
+
+Avoid demanding a complete tree of all futures. Begin with contingencies capable of changing the decision, the constraints that protect continuation, and an adequate response to a remaining range of uncertainty. A bounded robust action can be preferable to a costly attempt to identify the exact situation. Conversely, an inexpensive discriminating observation can avoid an unnecessarily restrictive response. The comparison in **C.11.DUA** determines whether further inquiry can earn its burden for this receiving decision.
+
+#### C.43:4.4 - Compare whole continuations from the actual starting conditions
+
+Make alternatives answer the same question. Align the starting conditions, time horizon, outcome descriptions and resource assumptions. Retain differences that matter to affected participants. Apply **C.11.CRC** to construct what a finite change adds relative to the current configuration, and **C.11** to select among the warranted options.
+
+A positive contribution relative to the present configuration is not yet a choice among available continuations. Another attainable use of the same means may be better. Conversely, a locally attractive component can fail when it requires unavailable complements, conflicts with another action or removes a later correction. Compare the connected consequences, including transition work, interactions and remaining choices.
+
+Value information through the decisions it can improve, together with any separately justified use of the knowledge. For one decision maker with a specified probability model, a fixed finite set of available actions A, integrable utility u, and current information I, the gross instrumental value of a signal Y can be written as:
+
+\[
+\mathbb E_Y\!\left[\max_{a\in A}\mathbb E[u(a,\theta)\mid I,Y]\right]
+-\max_{a\in A}\mathbb E[u(a,\theta)\mid I].
+\]
+
+The expression compares choosing after the signal with choosing without it. It assumes the signal can be ignored and the former actions retained. Acquisition, interpretation, delay and displaced opportunities enter the net comparison. If the experiment changes the system or available actions, compare those changed continuations rather than subtracting a price from an otherwise unchanged formula.
+
+The existing information matters. Two signals that are useful separately can repeat one another; a weaker isolated signal can be more useful alongside what is already known. Brooks, Frankel and Kamenica's comparison of signals provides the source basis for this dependence. Entropy reduction is not by itself a substitute for the receiving decision's gain.
+
+Keep feasibility, outcome preference and assurance distinct in the comparison. An option can be preferred but unavailable; an admissible option can be inferior; a feasible finite plan can leave no acceptable continuation. Use the strength of calculation or evidence needed for the actual conclusion. A local estimate supports a local choice under its assumptions; a safety guarantee or optimality claim requires the relevant stronger construction.
+
+#### C.43:4.5 - Connect choice to an effect that can occur in time
+
+Follow the chosen continuation through the participants and means that must realize it. Establish what action is needed, who or what can perform it, what resources and permissions it uses, and when the effect is needed. The calculation, communication, agreement and execution consume time and capacity. Include them when they can change the option's availability or result.
+
+Check coupled uses of scarce means. Two independently feasible actions can compete for the same machine, specialist, energy reserve or decision authority. An action that meets the immediate objective can exhaust the reserve required to respond later. Resolve those interactions in the whole continuation, rather than assuming that local feasibility composes.
+
+Choose the organization of decisions where it is unresolved. One rapid feedback response may protect the system while a slower plan is revised. Alternatively, the relevant decisions may need to be made together. Different timescales do not by themselves require layers, and organizational titles do not establish update rates. Use **C.32.LCA** to construct or change the observation, decision and intervention arrangement when those relations are the limiting condition.
+
+The effects of control can also change its future means. A command can reserve a resource, teach another participant a response, alter an incentive or expose a vulnerable interface. Include a strategic response by another participant when it can alter the assumed action-to-result relation. A participant's agreement to a proposal and their subsequent performance need their own explanation; neither is supplied by treating the person as a technical actuator.
+
+When unauthorized intervention is a credible influence, identify which observations, selection rules, commands, resources or recovery mechanisms it could change. Compare protection by its effect on useful control as well as on the unwanted influence. Restricting access can also remove a necessary observation or delay an authorized response. Specialized security and institutional methods supply the threat model and protective construction; the common question is whether control still obtains the intended consequence under those changed conditions.
+
+##### C.43:4.5.1 - Coordinate recurring work and separately timed actions
+
+Determine which temporal relations make the continuation work. A contribution may continue through an interval, recur at selected times, respond to an observed condition, or calculate its own next useful moment. Identify the receiving action and the reference it needs: an order, a permitted interval, a deadline, a phase relative to another event or a recurring cadence. Use C.27.TA when the bearer, reference or temporal claim is unclear. A common repeating grid is useful only where the work needs one; distributed control can rely on bounded delays and local timing without synchronized clocks.
+
+Choose how observations and responses are initiated from their useful effect and burden. A periodic review sets the next planned opportunity to examine a condition; whether it will detect that condition depends on the available observations and the review itself. The complete response also includes obtaining information, interpreting it, deciding, communicating and acting. A condition-triggered response depends on a functioning detector and enough capacity to handle its notifications. Computing the next useful observation time is another option when a suitable prediction is available. Combine these arrangements where their contributions justify the cost. Specify what continues between updates, which events take precedence when they coincide, and when an update changes the reference used by later work. Neither the word feedback nor the control mantra selects one universal schedule.
+
+Construct the coupling that is actually required. Keep each contribution's needed timing while relating its preparation, execution and recovery to the other contributions and their shared means. For periodic work, the period says how often an event recurs; its phase says where it occurs relative to a reference. An action at another phase need not wait for the next regular event. Conversely, adding that action must leave the resources and time required for the regular continuation. Work backward from the required effect to its preparation and forward through recovery to the next required contribution. Change the means, allocation or commitment when those demands do not fit; changing the event's required time merely to fit an available routine changes the task.
+
+When the combination fails, locate the lost relation. An individual action can be late while the recurring cadence remains correct; the extra action can instead delay the next regular contribution; or a late observation can make both appear jointly on time against an obsolete reference. Correct the affected preparation, execution, information delivery or update rule. Preserve the intended reference while it remains appropriate, rather than silently treating an accidental late event as a new starting point. When the reference or desired cadence genuinely changes, revise the dependent timing together. A reset is an explicit change to those dependencies, not an assumed consequence of every event.
+
+Test the variation the intended use needs. If an extra action must be possible at several phases or under different arrival conditions, examine those required alternatives and the continuation after each. Repeating one successful combination establishes less. The common result is an arrangement that preserves its required temporal relations while allowing the warranted variation. Its realization can use learned bodily coordination, software scheduling, machines or organizational agreements; each needs its own constructive account and qualification.
+
+#### C.43:4.6 - Use subsequent evidence to revise the relevant dependency
+
+Observe what happened at the connection that matters to the next decision. Sometimes the result alone is enough. When it is not, distinguish the issued instruction, performed action and resulting change so that the next move addresses the relevant cause.
+
+Compare the observation with what the continuation relied on. A mismatch can arise from changed conditions, an inadequate account of the state, a false causal expectation, unavailable execution or interference. Investigate the alternatives that lead to different responses. A bounded safe continuation may be available before the full diagnosis; complete explanation is not a universal prerequisite for action.
+
+Use **C.11.DBR** to reconsider a decision whose relied-on basis has changed. The return depends on the failed dependency:
+
+- When the purpose and causal account remain suitable but the situation has changed, update the estimate and select another action or plan.
+- When performed action has different consequences from those expected, examine the observations and causal account; revise the model or Method where that difference warrants it.
+- When execution is unavailable, change the allocation, provision, timing or commitment, or obtain the missing means.
+- When required timing is lost, use §4.5.1 to distinguish action placement, recurring interval, information delay, shared-resource interference and a changed reference; repair the relation on which the continuation depends.
+- When the result is no longer wanted or an accepted constraint has changed, return to the participant or practice that can revise the purpose.
+- When the existing arrangement cannot obtain or use the required information and action in time, reconsider its architecture through **C.32.LCA**.
+
+These are alternatives to distinguish in the actual explanation, not obligatory layers of escalation. A goal can change without prediction error; a better controller can be needed for an unchanged goal. Revise dependent conclusions and preserve those whose grounds remain valid.
+
+These returns can also change the means of further action. When the receiving work develops knowledge, Methods or capability and chooses subsequent attainable problems, connect this control account to **C.40.OD** through §4.8. A bounded control result can close while that development continues; a completed result can itself provide the new possibility, without an execution failure to trigger it.
+
+#### C.43:4.7 - Recover specialized theories without flattening their differences
+
+The common account makes theories comparable through the questions they answer. To use a specialization, identify its representation of the system and information, available actions, outcome criterion, execution assumptions and warranted conclusion. Preserve what its additional assumptions make possible and what it leaves to another contribution.
+
+**Control engineering.** A state-space model specifies how state changes with input and disturbance and how observations depend on state. An estimator supplies a decision-relevant account from observations and applied inputs. A controller selects input; constraints and continuation conditions determine which choices remain permissible. Linear dynamics, bounded disturbances and a specified observation model can support set-based state reconstruction and robust feasibility calculations. These assumptions make a technical construction possible; they leave goal legitimacy, unknown mechanisms and unmodeled interference outside that construction.
+
+Model predictive control repeatedly solves a finite-horizon problem and applies a current part of the result. Its future input representation, feedback design and terminal conditions determine what responsiveness and continued feasibility the calculation actually includes. Adaptive control adjusts controller parameters from observed behavior, directly or through updated parameter estimates or a model. Dual control additionally selects action partly for how its informative consequences can improve later decisions. Updating a model after an incidental observation and deliberately choosing an informative action are therefore different constructive moves.
+
+Economic MPC can optimize an operating cost directly rather than only track a fixed setpoint. It still needs a defensible objective and constraints. The adjective economic does not identify whose consequences are included or supply an economic interpretation of every cost coefficient.
+
+**Economic reasoning.** The common comparison becomes economic when it concerns competing uses of limited means and the consequences for participants with particular preferences and exchange opportunities. The current configuration is the starting condition. The opportunity cost concerns the best genuinely available use displaced by the choice; that use need not be the current practice.
+
+A finite change may be an indivisible contract or a whole machine. A derivative is useful when the model and scale of change justify a local approximation. A shadow price describes sensitivity of an optimized objective to a modeled constraint under the relevant mathematical conditions. A purchase price states an available exchange. These answer related but different questions. A payment already made is not recovered by rejecting the next action, while the acquired asset and surviving obligations remain part of the present situation. A future unavoidable payment can cancel from the difference between alternatives and still matter to solvency.
+
+Retain the participants when comparing consequences: one person's payment can be another's income, and a firm's gain is not an aggregate welfare conclusion. Ordinal preferences support ranking without making utility differences measurable or comparable between people. A scalar objective is an explicit special representation, not a general consequence of using the word value. Economic reasoning can expose a poor use of means; by itself it does not supply the feedback mechanism, authority or physical realization of control.
+
+**Active inference.** In this formulation, a generative model relates hidden states, observations and actions or policies. Inference updates beliefs; prospective evaluation uses preferred outcomes and informational consequences to select action. The real process and its generative model remain different. A probability assigned to a preferred outcome is not the prediction that this outcome will occur.
+
+Expected free energy combines particular preference and uncertainty terms under a declared model. Its technical uses of risk and ambiguity should be recovered from that formulation. They are not automatically monetary risk or every kind of uncertainty. Sophisticated inference considers how future observations change future choices. This supplies one concrete way to represent the conditional continuation in §4.3; it does not make every active-inference calculation closed-loop within its planning horizon.
+
+A preference distribution proportional to exp(−αc(o)) can connect a cost c to negative log preference when the normalization exists: −log P(o) = αc(o) + log Z. That authored correspondence requires a chosen scale α, outcome domain and normalization Z. It does not equate all of active inference with economic maximization: the informational terms, action representation and grounds for the cost still matter.
+
+**Organizations and biological inquiry.** Organizational control adds commitments, participation, authority and strategic responses. A promised resource can become unavailable to others before it is physically consumed. A production forecast, permission to make a promise and the promise itself support different conclusions. Connect them through the actions and obligations they actually establish.
+
+For a natural organism, an engineer's constructive prescription becomes a research question about a mechanism. A model may explain behavior through feedback or inference without establishing that the organism computes the modeler's objective. Compare competing models by observations and interventions that distinguish their predictions. Useful relations can transfer between engineered and biological accounts while their implementation and evidence remain different.
+
+#### C.43:4.8 - Direct development through related methods and capabilities
+
+The controlled continuation can change what an agent will be able to do, including how it obtains further development. The agent may be a person, an AI system, a team or an organization. Begin with the wanted change in possibilities: which work or problem is beyond the attained repertoire, why it matters, and what would make it attainable. **C.40.OD** supplies the full construction of open-ended development. The present operation connects its changing possibilities to observation, recommendation, choice and intervention.
+
+**Recover the achieved configuration.** Include the agent's available Methods and capabilities, retained assistance, instruments, authority, obligations and conditions of use. Use actual work to establish what the agent can obtain under those conditions. A record of training or a recommender's estimate can inform this inquiry; the resulting estimate must say what performance and assistance it represents. This starting account makes a useful existing capability available as a means of developing another, through **C.40.JD:4.2**, without presuming the capability still to be acquired.
+
+**Find what must change in the connection to the wanted result.** Reason backward from that result to the required contributions and forward from the achieved configuration to what it already makes possible. The unmet connection can concern a constituent Method, the way adequate Methods are combined, an unavailable capability, access to help, or the allocation of work and authority. This identifies where an intervention could change the continuation; construct and compare the resulting alternatives before selecting one. For instance, additional practice can develop an absent judgement; a changed division of work can instead obtain that judgement from someone already capable. The two interventions can deliver the same immediate answer while leaving different capabilities and dependencies.
+
+The method stack contains several relations. Recover the relation that makes a proposed change consequential:
+
+| Related structure | Connection to recover | How it guides an intervention |
+| --- | --- | --- |
+| Constituent and encompassing Methods | What contribution a constituent Method supplies to the performance and result of an encompassing Method | Replace or reconstruct the constituent, then derive the consequences for the encompassing uses through **B.1.5.RS**. |
+| Work and its performers | Which occurrences realize the Methods, with what order, overlap, resources and authority | Change allocation, timing or cooperation and compare the whole performance arrangement through **C.32.MWA.PP**. |
+| A Method and the Method used to develop it | How development work constructs, qualifies or changes the former Method | Improve that development work when its result or burden limits the receiving Method; this relation need not be parthood. |
+| Capability and its provision | What the agent can perform or organize with the retained external contributions | Develop the holder, obtain a contribution, change the instrument or combine these through **C.40.JD**. |
+| Observation and decision at different scopes | Which local differences matter to an encompassing choice, and which aggregate hides them | Change the observation or its use; apply **C.30.ILC** and **C.32.MLAO** when the conflict actually crosses the identified scopes. |
+| Changes on different timescales | How long an effect takes to become observable, usable and retained | Coordinate practice, feedback, deployment and reconsideration by those delays rather than by organizational rank. |
+
+One organization can remain the developing subject while it changes a working Method, the preparation of its performers and its way of choosing further development. These changes do not require one universal hierarchy. A service provider can affect an encompassing result without becoming part of its recipient. A Method that improves another can have that Method as its subject rather than its constituent. Explain the actual relation before using a change at one position to predict another.
+
+**Construct a complete intervention.** Explain the causal and constructive connections: the proposed work changes a named subject; that change makes a contribution obtainable; the contribution enables receiving work; the receiving result changes further possibilities. Include the preparation, assistance and transition that make those connections feasible. Retain sufficient parts. If a better instrument removes a difficult operation, reconsider whether acquiring that operation still serves the development aim. If the aim is independent judgement, having an external expert supply every judgement may meet today's delivery need while leaving that aim untouched.
+
+**Recommend and choose from the attained position.** A development recommender performs the work of forming grounded advice about these alternatives. Its useful result can be a preferred direction, several incomparable directions, a discriminating trial, a request for a missing contribution, or an explained reason to retain the current practice. Use **C.40.DC** to construct the directions and **C.11.CRC** to compare their finite contributions; the actual chooser uses **C.11** with the affected interests and authority.
+
+The comparison is marginal in the sense of starting from what is already attained. It includes the best obtainable competing use of scarce means, the transition burden, complementary resources, retained assistance and future options. Buying a result, acquiring a capability and changing the need for that capability can all be serious alternatives. At a later stage, compare from the then-current configuration: capability already acquired and help already secured change what the next intervention can obtain. Do not repeatedly credit the whole programme's gain to each later step. The economic specialization in §4.7 explains the relation to opportunity cost, finite changes and local marginal measures.
+
+**Observe the performed development and its receiving use.** A recommendation passes through an actual choice, available means and work. Recover what was done and under which conditions, then establish what the receiving work obtained, what the agent can now do with the retained help, and what the attempt revealed about the Method and provision. These are the connected results of **C.40.JD:4.3**. The mechanism of acquisition remains specific to the agent and subject: human practice, machine training, software modification and organizational learning can share this signature while requiring different bodies and evidence.
+
+Use the resulting evidence at the relevant return. Revised evidence can change the recommender's estimate while leaving capability unchanged. Changed practice or assistance can change capability; a redesigned working Method can change what capability is needed. A changed purpose can change the preferred continuation. Selecting among those returns is the same dependency-based operation as §4.6, now applied to development. Reconsider the recommender or the development Method itself when repeated misdiagnosis, ineffective interventions or excessive burden make it the consequential object of change. Test the proposed improvement through the development it helps obtain.
+
+**Continue from the new possibility.** A completed project can supply both its promised result and the means to formulate a previously unattainable problem. Use **C.40.NP** to construct that next worthwhile question, including the knowledge, Methods and assistance it needs. It need not be another rung of a fixed ladder. Consolidation, use of the acquired result and ending one local programme can be appropriate. Open-ended development continues the construction of further attainable problems and means of addressing them; an indefinitely repeated operation or a fixed curriculum does not supply that continuation by duration alone.
+
+Multilevel-learning research contributes a useful question: which changes are fast relative to the present decision, which are retained long enough to shape subsequent work, and how does information pass between them? Evolutionary search adds a different construction: create variants, examine their consequences, and preserve or reproduce selected variants. Use it when such variation and retention are actual parts of the Method. Those temporal and selection relations can be connected to the table above, but the connection must be constructed for the work. A richer trajectory or a larger diversity score is useful only through the development result it helps obtain.
+
+#### C.43:4.9 - Use the control mantra to hold the reasoning together
+
+The mantra orders questions for understanding; it gives no common clock to their execution. Use §4.5.1 to construct the timing that the actual work requires.
+
+**Assess the situation → construct possible continuations → compare and choose → realize the action → examine what happened → revise the continuation.**
+
+Each phrase recalls a relation developed above. Assessment is sufficient relative to the choice. Alternatives include future conditional actions. Comparison includes the consequences and means of the whole continuation. Realization connects a decision to actual change. Examination supplies evidence for the next use. Revision follows the dependency whose basis changed.
+
+Use the mantra to locate the unresolved connection, then work there. A new observation can send reasoning to the model, a resource constraint to the alternatives, or a changed purpose to the comparison basis. Several answers can be refined together. The arrows give a teaching order for **A.22.CGUS**, not a one-pass workflow or a required first step. Use the fuller explanation and subject Methods when a remembered phrase no longer supplies the needed operation.
+
+### C.43:5 - Archetypal Grounding
+
+#### C.43:5.1 - A measurement is useful only through an available response
+
+A workshop can run a batch quickly or cautiously. For a constructed comparison, suppose an agreed net outcome score is 100 for fast operation in a good material state, −20 for fast operation in a bad state, and 40 for cautious operation in either. The two material states initially have equal probability. These are illustrative decision values after the included operating costs, not observed production data or interpersonal utility measurements.
+
+Without another observation, either action has expected score 40. A test costing 5 has accuracy 0.8 in each state and does not change the material or delay the decision. A good test result gives probability 0.8 of good material: fast operation then has expected score 76. After a bad test result, its expected score is 4, so cautious operation is preferable at 40. Each result has probability one half. The conditional continuation obtains 0.5 × 76 + 0.5 × 40 − 5 = 53, a gain of 13.
+
+The construction uses more than the test's accuracy. It uses the conditional future choice. If the future action is fixed before the test, either fixed action gives 40 − 5 = 35. If testing instead consumes the only fast-operation window, the available post-test action is cautious and again gives 35. The same informational accuracy then has a different practical value because the continuation changed.
+
+Now suppose outsourcing the batch is feasible, gives 55 under the same basis, and remains available after the test. Without testing, outsourcing is the best available continuation. With testing, choose fast operation after a good result and outsource after a bad one: 0.5 × 76 + 0.5 × 55 − 5 = 60.5. The net informational gain is now 5.5 relative to the best available continuation, not 20.5 relative to current cautious operation. Adding a feasible alternative changes both the conditional policy and the value of testing. If the outsourcing offer instead expires before the test returns, that combined policy is unavailable; compare its immediate 55 with the original test-based 53.
+
+During use, the operator checks the assumption that test delay leaves both actions available and that the observed test characteristics apply to this material. If either premise changes, revise the dependent comparison. The result does not require redesigning the workshop's control architecture.
+
+#### C.43:5.2 - A feasible local correction can defeat the next commitment
+
+A service team has six specialist-hours available before the next deadline. A repair requires four hours; an already accepted obligation requires three. Separate forecasts that assign all six hours to each task make both look feasible. The joint continuation needs seven.
+
+The common Method connects the obligations to the same capacity and time window. It prompts a substantive choice: obtain an additional qualified hour that can actually be used in time, change one scope or deadline with the relevant participant, or choose which consequence to accept under legitimate authority. Merely recalculating a more accurate completion forecast does not create the missing capacity.
+
+If another qualified specialist becomes available, the resource conflict can close without changing the goal. If the client withdraws the obligation, the goal and commitment basis changes even with no forecasting error. If neither remedy can be arranged inside the decision window, the team may need a different standing allocation or authority arrangement. The changed dependency selects the different return.
+
+#### C.43:5.3 - Comparing explanations of an organism's response
+
+A researcher observes rapid corrections of a person's hand movement and wants to distinguish a response to delayed visual position from a response that also predicts the consequences of recent motor commands. The result sought is an explanation of the obtaining control, not a recommendation that the person perform the researcher's algorithm. Use **C.28.CM:4.3–4.6** to construct serious alternative mechanisms, derive their different consequences and qualify the evidence that could distinguish them.
+
+Consider two deliberately simplified hypotheses for a hand moving along one axis toward a target at zero. Positive positions and commands are rightward. The display supplies an earlier position `y`; let `c` be the net displacement that the second model predicts from the motor commands issued since that displayed position was sampled. The hypotheses share a corrective gain `k = 0.5` and a next command expressed as displacement over the same short interval. Their command-to-movement model, observation delay and absence of other corrective inputs are stipulated conditions of this comparison, to be qualified before interpreting an experiment.
+
+| Hypothesized mechanism | How it constructs the next command | With displayed position `y = 2 cm` and predicted intervening displacement `c = -3 cm` |
+| --- | --- | --- |
+| Response to the delayed visual position alone | Use the displayed deviation: `u = -k*y` | Request `-1 cm`, a further leftward correction. |
+| Prediction using the visual position and recent commands | Estimate current position as `x_hat = y + c`, then use `u = -k*x_hat` | Estimate `-1 cm` and request `+0.5 cm`, a rightward correction. |
+
+The display is the same, but the proposed information-to-action relations predict opposite signs. The difference follows from the intermediate state estimate, not from calling one model predictive. With no predicted intervening displacement, both command `-1 cm`; that condition alone cannot distinguish them. The useful experimental contrast therefore combines a controlled display delay with a qualified history of intervening movement, while observing the direction and timing of the ensuing correction. Increasing delay without constructing those different predictions would leave the research question unanswered.
+
+Suppose a rightward correction is observed under the contrasting conditions. It disagrees with the visually driven model's leftward prediction and is compatible with the second model. Before attributing the response to internal prediction, examine how the commands and observations were established and what other information the person could use. A third model that uses current proprioceptive information can also produce a rightward correction. That alternative requires a further discriminating condition or leaves the internal mechanism unresolved; merely fitting the second model cannot remove it. Conversely, an inaccurate command-to-movement model can defeat this particular predictor without defeating prediction as a whole class of explanation.
+
+The common Method has supplied a connected research result: two proposed observation-and-action arrangements, a condition under which their consequences differ, an observable contrast and the remaining alternative that changes the inference. The subject investigation determines which relations actually obtain. This application uses the same control construction with an evidential conclusion instead of an instruction to the organism.
+
+#### C.43:5.4 - Develop a capability rather than repeat a successful delivery
+
+Consider a constructed case. A team produces sound diagnoses with one expert's help. Its other members can calculate candidate explanations, but cannot yet recognize when an important modeling assumption has failed. The current work is successful; the wanted development is the team's ability to handle that judgement when the expert is unavailable.
+
+The recommender recovers the actual connection: calculation is available, assumption recognition is not, and the expert currently supplies it. It constructs three feasible proposals. Continue buying qualified diagnosis as a service; practise contrasting cases and receive feedback on the missing judgement; or change the working Method so ordinary cases are handled locally and exceptional cases obtain a reserved expert contribution. The first can be sufficient if the only retained aim is delivery. The second develops a local capability. The third changes the encompassing Method and its provision. A combination can protect current delivery while development proceeds.
+
+Compare the alternatives from the team's present repertoire and commitments. Practice consumes time that could deliver existing work; the expert must have time to give the proposed feedback; continuing external help remains part of the result where required. Choose the combination only if its additional attainable capability and future uses warrant that burden. An AI assistant can supply contrasts or perform calculation, but the comparison still asks which consequential judgement the resulting team can obtain and under what continuing help.
+
+During implementation, team members examine previously unseen cases, decide which assumption matters and explain the resulting change of diagnosis. The receiving work then checks those judgements with appropriate subject evidence. Suppose they become dependable with a short independent review but not without it. The achieved configuration now includes that review. The next choice can retain it, reduce its burden through further development, or use the supported capability in a new family of diagnoses.
+
+That new family may expose a limit shared by all performers. The next useful intervention can then be development of the diagnostic Method rather than more repetitions of the same exercises. If the recommender repeatedly prescribes exercises for this shared methodological gap, its own diagnostic distinction becomes a candidate for repair. These returns connect development at different subjects without imposing a fixed sequence of levels.
+
+#### C.43:5.5 - Explain both effective and ineffective feedback in the same account
+
+Consider a stipulated discrete-time model `x_(t+1) = x_t + u_t`. Its controlled quantity is deviation from zero, and its available input is `u_t = -k*x_t`. Assume current state observations and immediate execution, without saturation. The resulting update is `x_(t+1) = (1-k)*x_t`.
+
+At `k = 0.5`, successive deviations are one half and one quarter of the initial deviation. At `k = 2.5`, they are `-1.5*x_0` and `2.25*x_0`: the sign alternates and the magnitude grows. Both settings realize observation-dependent feedback in this model. The second is unsuitable for reducing the deviation, even though the description contains a sensor, rule and actuator. At `k = 0`, the input is zero and this correcting dependence disappears. The equation describes that limit; whether holding a zero input is a useful chosen action is a separate question about the situation.
+
+Suppose an actual updating component and parameter memory are distinct parts of the controller assembly. The component selects a new gain from observed behavior and writes it to the memory used by the acting controller. A.12 can expose this internal action. If the update changes the gain from 0.5 to 2.5, its being controlled and traceable does not make the result an improvement. The changed rule must be compared through its consequences for the subsequent operation. A recovery to an earlier qualified setting is available only if the implementation retains and can restore it under the current conditions.
+
+Now change the observation condition: the rule receives a delayed state. The original immediate-observation update no longer describes the joined operation. Recover the delayed information and the implemented rule, then evaluate that model or change the arrangement. Do not fix the explanation by declaring the missing timely observation a zero state. These returns preserve the common control relations while changing the subject calculation actually needed.
+
+### C.43:6 - Bias-Annotation
+
+The construction favors explanations whose consequences can be connected to action. That emphasis can conceal values that are not captured by the selected outcome measure, or treat a participant's resistance as a disturbance rather than a legitimate difference in purpose. Retain the affected interests and authority behind the comparison.
+
+A technical control model can encourage unwarranted confidence in observation, actuation or common objectives when transferred to organizations. A biological analogy can obscure different mechanisms. Keep the added assumptions of each specialization visible and revise the model when they no longer serve the receiving use.
+
+### C.43:7 - Conformance Checklist
+
+A practitioner can use the result when the following questions have content-bearing answers at the depth needed for the choice:
+
+- What actual system and consequential change are being considered, for whom and over what span?
+- What can be known in time, and which remaining uncertainty can change the action?
+- What continuations are available, including conditional future responses and retained adequate practice?
+- How do their consequences, interactions, costs and remaining possibilities compare?
+- How will the chosen response take effect with the available means and authority?
+- Which later difference changes which relied-on conclusion?
+- Where a specialized formalism is used, what assumptions give it its particular result, and what question remains outside it?
+- When development is intended, which intervention changes a capability or Method, how is that change established in receiving use, and which further worthwhile problem becomes attainable?
+
+These answers establish a connected proposal or working account. Effective implementation, empirical performance and formal guarantees require the evidence appropriate to those further claims.
+
+### C.43:8 - Common Anti-Patterns and How to Avoid Them
+
+| Observed or text-invited failure | Repair |
+| --- | --- |
+| Repeating six headings without explaining the links | Work one consequential choice through the needed information, available response and result; repair the missing dependency. |
+| Buying a more informative signal after its response window has closed | Compare the information-bearing continuation, including timing and the actions that remain available. |
+| Calling every change learning or development | Identify what changed: situation estimate, model, policy, goal, means or capability. Use the Method for that result. |
+| Replacing a field's account with the shared word cost, state or policy | Recover the field's quantity, assumptions and conclusion through §4.7 before using the correspondence. |
+| Correcting the model for a failure to carry out the action | Establish which part of the expected action-to-result connection failed before choosing the remedy. |
+
+### C.43:9 - Consequences
+
+The practitioner can combine independently useful contributions into a continuation whose assumptions agree, and can revise that continuation without discarding sound work. The account also exposes a specific unavailable contribution instead of hiding it in a plausible overall narrative.
+
+The cost is attention to dependencies that a familiar routine can leave implicit. Apply the Method at the unresolved connection and reuse an adequate whole. More elaborate representations are worthwhile only when they change the warranted action or assurance.
+
+### C.43:10 - Architectural Rationale
+
+The recurring work is constructing and revising a connected control account. It has a selectable problem and result even when every component Method already exists. **C.11.CRC** supplies a finite contribution comparison; **A.15.7** selects an action within current work; **C.11.DBR** reopens a changed decision basis; **C.32.LCA** constructs a control arrangement. None is required to change its independent purpose to explain this encompassing use.
+
+The common construction belongs at the transdisciplinary level because its relations survive across different controlled systems and implementations. Their mathematical, economic, organizational and biological fillings retain their own Methods and warranted conclusions. A shared term does not make those disciplines identical, and their combination does not impose a single universal controller.
+
+The mantra makes the developed relations easier to retain while each operation remains usable at its actual point of need. A sufficient existing continuation can be kept; a changed dependency reopens the contribution that relied on it. The general explanation supports that selective use across the different subject constructions.
+
+### C.43:11 - SoTA-Echoing
+
+The practice question is how to connect current knowledge, consequential choice and continued action without silently importing one field's assumptions. The selected line is the explained composition in §4: retain the specialist constructions, make future conditional action explicit, compare the whole continuation, and revise the dependency whose basis changes. It is an authored methodological synthesis. Its conditional calculations support the distinctions illustrated here, not an empirical claim that this exposition outperforms every existing practice.
+
+| Question and serious alternative | Selected contribution, source role and limit | Consequence and reconsideration |
+| --- | --- | --- |
+| Can informative action be evaluated as a fixed future action sequence? | Adapt Nuijten and de Vries, *Sophisticated Policies from Epistemic Priors*, arXiv:2607.19518v1, §§2–6. The controlled computational comparison separates information incentive from future state-contingent action; neither alone solves its benchmark. It is a current constructive comparator, not a universal ranking of inference algorithms. | §§4.3–4.4 and §5.1 retain both information and the future response it enables. Reconsider the representation when a receiving problem does not need future conditional action or a cheaper adequate representation is available. [Paper](https://arxiv.org/html/2607.19518v1) |
+| Can information sources be ranked independently of what is already known? | Adopt the dependence on joint information from Brooks, Frankel and Kamenica, *Comparisons of Signals*, AER 114(9), 2024, §§2–3.2, DOI 10.1257/aer.20230430. Their comparison is about instrumental decision value; it does not price acquisition or other uses of knowledge. | §4.4 compares additional information with the current information and actions. Reopen a ranking when the accompanying information or receiving decision changes. [Author text](https://benjaminbrooks.net/downloads/bfk_comparisons.pdf) |
+| Is tracking a fixed target the only adequate economic-control construction? | Adapt Degner and colleagues, *Adaptive Economic Model Predictive Control*, arXiv:2412.13046v3, §§II–IV. The method jointly uses an economic objective, online parameter adaptation and robust constraints under stated model and feasibility assumptions. | §4.7 distinguishes outcome optimization, adaptation and assured feasibility. Retain its technical guarantees only where their assumptions hold; new dynamics or observability conditions require a different construction. [Paper](https://arxiv.org/html/2412.13046v3) |
+| Must controllers be tuned independently after architecture is fixed? | Adapt Verhoek and colleagues, *Co-designing a Layered Control Architecture*, arXiv:2610.20900v1, §§2–5. It jointly chooses architectural and tuning variables for a fixed linear time-invariant plant; it does not prove that every physical plant must be redesigned. | §4.5 makes architecture a possible object of change. Use the joint construction when interactions justify its additional work, and reconsider it when its model or timing assumptions change. [Paper](https://arxiv.org/html/2610.20900v1) |
+| Does ongoing control require one synchronized periodic cycle? | Adapt Dolk, Scheres, Postoyan and Heemels, *Time- and Event-Triggered Communication for Multi-Agent Systems, Part I*, TAC 70(1), 2025, §§I–III, DOI 10.1109/TAC.2024.3427908. Their nonlinear-system framework supports asynchronous communication with bounded delays under stated dissipativity conditions. | §4.5.1 constructs the required timing relations rather than imposing a shared clock. Reconsider the realization when communication, delay or resource assumptions change; technical guarantees do not transfer to organizational work or bodily skill. [Author text](https://heemels.tue.nl/assets/content/papers/DolSch_TAC25a.pdf) |
+| Does control security concern only an external perimeter? | Adapt Pasqualetti, Dörfler and Bullo, *Attack Detection and Identification in Cyber-Physical Systems*, TAC 58(11), 2013, DOI 10.1109/TAC.2013.2266831, as a conditional analytical basis: detectability depends on dynamics, observations and attack model. | §4.5 follows interference through the control relation. The question-relative gain is an explicit detection or protection construction; no universal attack detector is claimed. Reopen with changed attack access or observation capability. [Author preprint](https://arxiv.org/abs/1202.6144) |
+| How can development be directed when both the attained capability and the means of acquiring it change? | Adapt Vanchurin, Wolf, Katsnelson and Koonin, *Toward a theory of evolution as multilevel learning*, PNAS 119(6), 2022, DOI 10.1073/pnas.2120037119, §§3–7. It relates learning and retained information across observation-dependent timescales and proposes evolutionary principles. It is a theoretical basis for distinguishing dynamics and learning, not an established identity between biological evolution and organizational Method structures. | §4.8 connects changes on different timescales to actual interventions and receiving use. Recover the additional mapping before transferring a formal result to another subject. [Paper](https://www.pnas.org/doi/10.1073/pnas.2120037119) |
+| Can the usefulness of evolving Methods be selected by a universal complexity score? | Compare Akhtyrchenko, Katsnelson and Ustyuzhanin, *Directing Open-Ended Evolution in Artificial Life via Multi-Scale Path Divergence*, arXiv:2606.17091v2, §§3–6. Its trajectory criterion directs search in specified artificial-life substrates. The detailed results do not establish stable-role separation or comparable phenotypic richness; dependence on earlier spatial organization remains weak evidence. | Retain the constructive possibility of selecting changes through their subsequent trajectories. For development in §4.8, define the subject-specific receiving capability and burden instead of importing MSPD as a universal value. Reconsider a transfer when the observation, aggregation or selection mechanism changes. [Paper](https://arxiv.org/html/2606.17091v2) |
+| Does a recommended learning item itself establish an acquired capability? | Compare Schaffter, Bounekkar and Negre, *Trajectory-Based Recommender Systems as Control Systems*, arXiv:2606.22957v1, §§III–V. It constructs a model-predictive recommender and explicitly represents the user's selection. Its educational simulation assumes that consuming a resource yields its specified competence. | §4.8 retains recommendation, actual choice, performed development and capability in receiving use. Use the model when those transition assumptions are adequate; otherwise construct and qualify the missing learning relation. [Paper](https://arxiv.org/html/2606.22957v1) |
+
+For the active-inference formulation in §4.7, the source basis is Friston and colleagues, *Active Inference: A Process Theory*, 2017, §§2 and 8; the latter already distinguishes naive from sophisticated future inference. Friston and colleagues' *Sophisticated Inference*, 2021, develops conditional prospective inference. This pattern adapts that constructive distinction while retaining other control and decision formulations as alternatives; it does not infer a unique objective for all living or artificial systems. [2017 paper](https://activeinference.github.io/papers/process_theory.pdf), [2021 paper](https://arxiv.org/abs/2006.04120).
+
+### C.43:12 - Relations
+
+- Apply **C.11.CRC** to construct the contribution of a finite configuration change and **C.11** to choose among warranted alternatives.
+- Apply **C.11.DUA** to decide whether further advice, observation or computation can improve the receiving choice enough to justify its burden.
+- Apply **A.15.7** for the immediate action within an understood working Method; use this pattern when its connected control basis is still unresolved.
+- Apply **C.11.DBR** when subsequent evidence changes a relied-on decision premise.
+- Apply **C.30.LCA** to recover a control structure and **C.32.LCA** to construct or change it. Those results can supply the arrangement used here.
+- Apply **C.39** when a needed way to obtain a contribution is missing, **C.28** for a causal question and **C.29** for the mathematical representation that supports a required inference.
+- Apply **C.40.OD** for the whole construction of open-ended development; use **C.40.DC**, **C.40.JD** and **C.40.NP** to construct directions, realize the joined development and continue from its results. §4.8 connects these results to control and recommendation.
+- Use **B.1.5.RS** for the consequences of replacing a constituent Method, **C.32.MWA.PP** for whole performance arrangements, and **C.30.ILC** with **C.32.MLAO** when the intervention addresses an actual inter-level conflict.
+- Use **A.22.CGUS** to retain the connected reasoning through the mantra.
+
+### C.43:End
 
 ## C.36.P - Clarify Cultural-Evolution Wording for a Claim or Action
 
@@ -97990,6 +98447,7 @@ Keep these cues available while applying `F.19`. They help find candidate spans;
 | --- | --- | --- |
 | Broad or overloaded heads such as `support`, `basis`, `context`, `role`, `process`, `method`, `route`, `record`, `result`, or `status` | What recognizable object, relation, source, use, or state does the sentence actually mean? | An FPF kind, register, relation, source use, or governed value remains unclear. |
 | Development- or evolution-family wording such as `development`, `evolution`, `progress`, `growth`, `adaptation`, or `lineage` | What changed or is represented, what continuity or membership matters, what posture or value claim is current, and which direct owner receives it? | Those values remain action-changing and unresolved; use `E.10.DEV`, then `E.10.MOVE` only for a separate remaining path or trajectory ambiguity. |
+| Control- and management-family wording such as `control`, `management`, `regulation`, `governance` or `steering` | Does this name a discipline, people, an influencing arrangement, observation, a decision right or a particular intervention? Recover what changes or is maintained and how. | The distinction changes the claim or next action; use `E.10:9.8` and the applicable subject rule. |
 | Agentive or causal predicates attached to evidence, documents, patterns, representations, methods, or other doubtful subjects | Can the grammatical subject bear the asserted predicate under the intended literal or ordinary metonymic reading? Check inside negation, modality, and examples. | Precise systemhood, agency, Work, attribution, evidence, or causal use is itself part of the claim. |
 | Negative and contrastive forms such as `not`, `rather than`, `does not mean`, `does not turn`, warnings, and non-use guards | Does a plausible intended reader have an independent local reason to construct the rejected reading, and does the distinction change truth, understanding, or use? | The guard carries an exact FPF admissibility, safety, source-use, or claim boundary. |
 | Verbs with uncertain objects or destinations; relational nouns such as `bearer`, `boundary`, `basis`, `readiness`, or `condition`; vague pronouns and demonstratives | Can one intended operand, other participant, or referent be recovered cheaply and uniquely? | The missing value is an exact FPF participant, relation position, state bearer, or source reference. |
@@ -99367,6 +99825,16 @@ This cross-reference is lexical only. It does **not** create a new repair-side d
 
 Bare claim-bearing *role* is another guarded head and has no default Tech reading. Use `E.10.ROLE` to recover the current object or relation; use `SystemRole` only inside a concrete local system-role-kind designation after that kind is independently admitted.
 
+#### E.10:9.8 - `control`, `management`, `regulation`, `governance`, `steering`
+
+These words locate a possible ambiguity; they are not prohibited words or interchangeable names. Read the complete claim and recover its subject and use. A field name, a group of people, a governing act, an observation and an arrangement that influences what happens can require different explanations despite sharing the same word.
+
+Apply C.43:4.1.4 when the control meaning remains unresolved. It recovers what is influenced, the maintained condition or intended change, the information and means, and the connection to actual action. Operations management can realize this control construction without changing its disciplinary name. Retain its organizational conditions; do not infer a machine-like actuator, an automatic feedback loop or a fixed cadence from the word *control*.
+
+Use the recovered subject directly: C.30.LCA for a control-structure claim, C.32.LCA for constructing its architecture, C.11 for the needed local choice, and the applicable authority, commitment, measurement or evidence rule for those particular relations. A.6.P helps when a direct relation still cannot be stated. Use F.18 only when a reusable name must be settled after its meaning is known. A translation retains the source meaning, including the difference between checking and influencing; a lexical match alone establishes no equivalence.
+
+Do not force a control interpretation onto a field title or an already clear sentence. Repair only the ambiguity that changes understanding or use, then return to the work.
+
 ### E.10:10 - Optional detailed lexical checks *(informative)*
 
 Use this section only after `F.19` and the compact cue surface have selected a lexical, register, morphology, or naming question.
@@ -100736,6 +101204,7 @@ Use this reference table to select or author a shared recovery rule for the unre
 | Method-like wording—for example, method, algorithm, program, solver, proof, recipe, workflow, process, procedure, access path, query plan, control strategy, method algebra, method graph, selector calculus, or programming-paradigm wording; primary recoverable use is one Method or a separate method-side relation, description, mechanism, Work, transformation, result, structure, architecture, representation, or direct relation | `A.3.1` only while the method-side object or relation is hidden; `A.22` only when a named use depends on organization among several exact method-side relations; then use the rule that defines or constrains the recovered object; use `C.2.P.DR` when representation overread is the current problem | algorithm, program, solver, proof, recipe, method, workflow, process, procedure, access path, query plan, control strategy, imperative, functional, logical, constraint, object-centric event, effect-handler, pipeline, orchestration, method algebra, method graph, selector calculus, fallback composition, or similar wording. | One `U.Method`; exact method-side relations; an A.22-selected structure locally designated `MethodRelationStructure`; one `U.MethodDescription` episteme describing one Method; formal-substrate declaration; C.29 representation; mechanism; WorkPlan; dated Work; actual transformation; production, inception, or completion claim; measurement or evaluation result; delivery or acceptance claim; selected structure; architecture relation; architecture-description episteme; or an evidence, source, gate, choice, decision, or other direct relation. Identify each under its predicate and the ClaimGraph that defines or constrains it. | Short object-and-relation sentence under the recovered defining or constraining rule and practical guidance; one `U.Method`, exact method-side relations, optional `MethodRelationStructure`, or one-method `U.MethodDescription`; formal-substrate, mechanism, Work, result, structure, architecture, or C.29 representation result; quote-only cue; grounded non-use disposition; or stop. |
 | Work/method-boundary relation recovery and performed-work naming basis | `A.6.P.WMR` after generic relation recovery only while the exact relation is hidden; `C.2.P` first for epistemic source data or source material; use the defining or testing rule directly when already recoverable; use `F.18` only after the governed value is known | Input, raw material, source data, source material, output, result, outcome, deliverable, handoff, or action-nominal wording whose exact claim about a Method, plan, dated Work, transformation, result, delivery, transfer, representation, or receiving use is hidden | Exact entity and related governed object; claim subject, modality and exact temporal extent, polarity, recovery or support state; and either the exact direct relation or reason-specific non-assertability. A performed-Work name additionally requires its A.15.1 occurrence basis, and neighboring results remain separate. | Exactly one WMR result family: short positive or governed-negative direct subject-relation sentence; exact A.6.1 application binding; exact local A.15.PROD or A.6.RCD claim; or exact non-assertability with its reason and continuation under A.6.P.WMR:4.3. A later occurrence-grounded F.18 name is not a fifth result family. |
 | Declarative representation and imperative-metaphor overread; primary recoverable use is a visible expression or artifact, direct object, claim, graph object, publication face, evidence relation, or pattern relation being treated as action, route, call, dispatch, permission, release, Work, evidence result, or direct relation obtaining | `C.2.P.DR` when no defining or testing rule already closes the claim; otherwise use that rule directly | graph path, `PathSlice`, flow valuation, state predicate, checklist predicate, SQL-like query, table, dashboard, publication face, evidence-path wording, pattern relation, representation, route, path, workflow, lifecycle, dispatch, exit, receiver, call, invoke, run, flow, send, move, or `EvidencePath` wording. | Visible expression or artifact; exact current object, claim, or relation; representation use or explicit correspondence, or `none`; defining or testing rule; retained use; and stop. Add further declaration, occurrence, designation, reference, publication, representation, or grounded non-use detail only when a named receiving use needs it. | `DeclarativeRepresentationRepair`; direct E.18, A.10, E.17, C.29, Method, MethodDescription, Work, gate, authority, or relation result; quote-only cue; grounded non-use disposition; or stop. |
+| Control and management wording; the field, participants, observation, decision right or influencing arrangement is unclear | `E.10:9.8` and `C.43:4.1.4`; use an already known subject rule directly | Control, management, regulation, governance, steering and contextual translations | Recover the subject, intended or maintained condition, information, means and actual influence. Retain organizational relations when they matter; use `C.30.LCA` for the resulting control-structure claim. | A clear ordinary claim and its applicable Method or rule; an identified missing fact; or retained wording when no consequential ambiguity remains. |
 | Architecture and structure; primary recoverable use is a selected structure, obtaining `ArchitectureRelation`, `ArchitectureClaim` episteme, architecture-description use, structural view, or named C.30 subcase | `C.30.P` | Architecture-heavy or structure-heavy wording whose EntityOfConcern, relation, claim, or current use is not yet recoverable. | A.22 selection criterion and selected structure; C.30 `ArchitectureRelation` and separate `ArchitectureClaim`; C.30.ASV structural-view and structure-kind discipline; named C.30 subpattern rules; C.30.AD when full architecture-description use is current. | Architecture-structure repair note; repaired wording; selected structure; obtaining `ArchitectureRelation`; separate `ArchitectureClaim`; structural-view or architecture-description result when current; architecture question; source-return condition; ordinary-prose demotion; or stop. |
 | Stratification and source labels; primary recoverable use is hidden behind `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, `gate`, or close engineering source labels | `C.30.STRAT` while the governed object, claim, or its defining rule is hidden; otherwise use that rule directly | Engineering, mathematical, publication, project, control, module, neural-network, or architecture prose uses a source label as if it named the FPF kind directly. | Source label; literal source wording; candidate primary EntityOfConcern; recovered FPF kind; recovered relation and claim-use; source-relation disposition; defining or testing rule and pattern locator; reader use; and any adjacent rule needed by the current claim. | `StratificationSourceLabelRepairNote`; direct use of the recovered rule; ordinary-prose demotion; quote-only; grounded non-use disposition; or stop. |
 | Characteristic and scale; primary recoverable use is characteristic, scale, coordinate, score, comparison, indicator role, or characteristic-space construction | `C.16.P` | Characteristic, scale, coordinate, value, score, indicator, threshold, comparison, metric, axis, dimension, feature, property, level, strong, weak, robust, or benchmark wording whose construction is not yet recoverable. | `A.17` Characteristic, `A.18` CSLC, `C.16` measurement, unit, evidence stub, `A.19` `CharacteristicSpace`, `C.25` Q-bundle, `C.29` mathematical-lens boundary, and `E.21` pattern-quality coordinate discipline. | Characteristic-scale repair note; declared Characteristic, Scale, Coordinate, Value, and Score construction; use of the rule that defines or tests the recovered value; a grounded comparability, measurement, or gate boundary when it changes use; ordinary-prose demotion; or stop. |
