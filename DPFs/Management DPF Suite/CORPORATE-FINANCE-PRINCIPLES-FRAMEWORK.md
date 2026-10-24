@@ -5,7 +5,7 @@
 **Edition:** [FIN 1.0](#finsources1---edition-record)\
 **Author:** Anatoly Levenchuk, with AI-assisted development and review
 
-Methods for valuing investments, arranging finance, preserving liquidity, managing financial exposure and making corporate-finance decisions.
+The financial relations of corporate activity and methods for valuing investments, constructing financing, preserving liquidity, managing exposure and changing financial arrangements.
 
 # Table of Contents
 
@@ -14,7 +14,7 @@ Methods for valuing investments, arranging finance, preserving liquidity, managi
 | § | Publication unit | Use |
 | --- | --- | --- |
 | — | [Corporate Finance Readme](#corporate-finance-readme) | Follow connected financial decisions and a direct value calculation. |
-| — | [Corporate Finance Principles Framework Architectural Reference](#corporate-finance-principles-framework-architectural-reference) | Understand the language and how its methods connect. |
+| — | [Corporate Finance Principles Framework Architectural Reference](#corporate-finance-principles-framework-architectural-reference) | Understand the financial subject, its knowledge and constructions, and how the methods connect. |
 | FIN.Reference:1 | [Problem frame](#finreference1---problem-frame) |  |
 | FIN.Reference:2 | [Problem](#finreference2---problem) |  |
 | FIN.Reference:3 | [Forces](#finreference3---forces) |  |
@@ -54,29 +54,30 @@ Methods for valuing investments, arranging finance, preserving liquidity, managi
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 10 | [FIN.10 - Design Financing Instruments and Terms](#fin10---design-financing-instruments-and-terms) | Stable | loan; issue fee; maturity; financing terms | FIN.2; FDM when needed |
+| 10 | [FIN.10 - Design Financing Instruments and Terms](#fin10---design-financing-instruments-and-terms) | Stable | financing construction; participant terms; loan; issue fee; maturity | FIN.2; FDM and ECO when needed |
 | 11 | [FIN.11 - Select Capital Structure](#fin11---select-capital-structure) | Stable | debt equity mix; debt capacity; capital structure | FIN.5; FIN.10–12 when needed |
 | 12 | [FIN.12 - Preserve Covenant Headroom and Financing Flexibility](#fin12---preserve-covenant-headroom-and-financing-flexibility) | Stable | covenant; headroom; waiver; refinancing | FIN.2; FIN.10 when needed |
 | 13 | [FIN.21 - Decide How Much Capital to Retain or Return](#fin21---decide-how-much-capital-to-retain-or-return) | Stable | dividend; buyback; retain capital; payout | FIN.2; FIN.7, FIN.9 and FIN.11–12 when needed |
 | 14 | [FIN.22 - Compare Financial Restructuring and Recovery Routes](#fin22---compare-financial-restructuring-and-recovery-routes) | Stable | financial distress; restructuring; recovery; interim finance | FIN.2; FIN.7 and FIN.10–12 when needed |
+| 15 | [FIN.23 - Construct Financing Arrangements Across Group Entities](#fin23---construct-financing-arrangements-across-group-entities) | Stable | group financing; intercompany loan; parent borrowing; cash pool; guarantee | FIN.2, FIN.10, FIN.11; FDM.2 and ECO when needed |
 
 **Part D - Exposure and treasury action**
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 15 | [FIN.13 - Identify and Measure Financial Exposures](#fin13---identify-and-measure-financial-exposures) | Stable | currency; rates; credit; counterparty; financial exposure | FIN.4; FDM when needed |
-| 16 | [FIN.14 - Decide Whether and How to Hedge or Transfer Financial Risk](#fin14---decide-whether-and-how-to-hedge-or-transfer-financial-risk) | Stable | hedge; forward; swap; partial receipt; residual risk | FIN.13; FIN.2 and FIN.8 when needed |
-| 17 | [FIN.15 - Execute Treasury and Liquidity Decisions](#fin15---execute-treasury-and-liquidity-decisions) | Stable | treasury execution; payment; short-term investment; settlement | Selected financial decision; FDM when needed |
+| 16 | [FIN.13 - Identify and Measure Financial Exposures](#fin13---identify-and-measure-financial-exposures) | Stable | currency; rates; credit; counterparty; financial exposure | FIN.4; FDM when needed |
+| 17 | [FIN.14 - Decide Whether and How to Hedge or Transfer Financial Risk](#fin14---decide-whether-and-how-to-hedge-or-transfer-financial-risk) | Stable | hedge; forward; swap; partial receipt; residual risk | FIN.13; FIN.2 and FIN.8 when needed |
+| 18 | [FIN.15 - Execute Treasury and Liquidity Decisions](#fin15---execute-treasury-and-liquidity-decisions) | Stable | treasury execution; payment; short-term investment; settlement | Selected financial decision; FDM when needed |
 
 **Part E - Advice, renewal and continuing practice**
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 18 | [FIN.16 - Prepare a Finance Recommendation and Return It for a Decision](#fin16---prepare-a-finance-recommendation-and-return-it-for-a-decision) | Stable | recommendation; conditional advice; evidence demand | Selected FIN results; C.11.DUA when needed |
-| 19 | [FIN.17 - Refresh Financial Models and Data](#fin17---refresh-financial-models-and-data) | Stable | model refresh; changed data; revised forecast | The affected FIN result |
-| 20 | [FIN.18 - Choose Whether and How to Change Corporate-Finance Methods](#fin18---choose-whether-and-how-to-change-corporate-finance-methods) | Stable | method choice; forecast comparison; trial; model improvement | The direct financial method; C.11.DUA when needed |
-| 21 | [FIN.19 - Reconcile Simultaneous Corporate-Finance Work Across Claims and Horizons](#fin19---reconcile-simultaneous-corporate-finance-work-across-claims-and-horizons) | Stable | concurrent finance work; shared cash; multiple horizons | C.32.MWA; direct FIN methods when needed |
-| 22 | [FIN.20 - Deliberately Continue and Change Corporate-Finance Culture](#fin20---deliberately-continue-and-change-corporate-finance-culture) | Stable | finance culture; forecast use; practice retention | C.36; MA.9 and C.11.DUA when needed |
+| 19 | [FIN.16 - Prepare a Finance Recommendation and Return It for a Decision](#fin16---prepare-a-finance-recommendation-and-return-it-for-a-decision) | Stable | recommendation; conditional advice; evidence demand | Selected FIN results; C.11.DUA when needed |
+| 20 | [FIN.17 - Refresh Financial Models and Data](#fin17---refresh-financial-models-and-data) | Stable | model refresh; changed data; revised forecast | The affected FIN result |
+| 21 | [FIN.18 - Choose Whether and How to Change Corporate-Finance Methods](#fin18---choose-whether-and-how-to-change-corporate-finance-methods) | Stable | method choice; forecast comparison; trial; model improvement | The direct financial method; C.11.DUA when needed |
+| 22 | [FIN.19 - Reconcile Simultaneous Corporate-Finance Work Across Claims and Horizons](#fin19---reconcile-simultaneous-corporate-finance-work-across-claims-and-horizons) | Stable | concurrent finance work; shared cash; multiple horizons | C.32.MWA; direct FIN methods when needed |
+| 23 | [FIN.20 - Deliberately Continue and Change Corporate-Finance Culture](#fin20---deliberately-continue-and-change-corporate-finance-culture) | Stable | finance culture; forecast use; practice retention | C.36; MA.9 and C.11.DUA when needed |
 
 # Corporate Finance Readme
 
@@ -84,7 +85,7 @@ Methods for valuing investments, arranging finance, preserving liquidity, managi
 
 The connected cases below follow a financial question through the results it needs: dated cash into funding and execution, the value of an acquired interest into a transaction comparison, and a changed receipt into a treasury response. Enter where the missing result lies and reuse adequate supplied accounts. The short project-value example at the end also shows where a direct calculation can finish.
 
-These are constructed examples, not market offers or a required sequence. Use the Table of Contents for a known PatternID or another financial question. When working with a colleague or assistant, describe the payment, investment or exposure and the answer you need in ordinary language.
+These constructed examples do not define the framework's coverage. They are not market offers or a required sequence. Use the Table of Contents for a known PatternID or another financial question. When working with a colleague or assistant, describe the payment, investment or exposure and the answer you need in ordinary language.
 
 ### FIN-E1 - A profitable order leaves a day-7 cash gap
 
@@ -140,6 +141,22 @@ FIN.15's [funded continuation](#fin1552---complete-the-partial-receipt-hedge-wit
 
 Before entering a new hedge, FIN.14's [comparison of fixed and optional protection](#fin1451---compare-a-fixed-amount-a-smaller-amount-and-optional-protection) shows how another collection amount can change the preferred design. That comparison does not cancel the already contracted forward in this entry. A changed exposure returns to the actual rights and available modification terms.
 
+### FIN-FUNDING - Develop financing that is not yet an offer
+
+- **Situation:** A worthwhile activity needs money before it generates receipts, and the currently offered finance does not fit its amount, dates or risk.
+- **Question:** Can a different combination of contributions and financial terms make the activity worth financing for the required participants?
+- **First useful result:** A connected financing proposal with each participant's contribution, financial consequence and unresolved commitment; or a reason to change the activity or stop.
+- **Start with:** [FIN.10:4.1.1](#fin10411---recover-the-participants-from-what-the-financing-must-accomplish). Its order case derives a common price interval from a customer advance, limited bank finance and the manufacturer's requirement. Its development case distinguishes first-stage equity from conditional later capital.
+- **Stop or return:** A sufficiently explained negotiating proposal can finish the analysis. Return when a participant's alternative, available amount, risk condition or closing time changes. Count funds as available only when their actual conditions support that use.
+
+### FIN-GROUP - Build the financial connections between companies
+
+- **Situation:** One subsidiary has surplus money and another needs capital, or a new funding arrangement would move claims between the parent, subsidiaries and external providers.
+- **Question:** Which arrangement supplies the needed funds while preserving the participants' own obligations and an acceptable distribution of benefit and risk?
+- **First useful result:** A financing design with entity cash paths, internal and external terms, loss consequences and a feasible transition.
+- **Start with:** [FIN.23](#fin23---construct-financing-arrangements-across-group-entities). Its internal-loan case constructs the transaction and then revises it when the lender's own cash horizon changes.
+- **Stop or return:** Use an adequate existing transfer directly. Return when ownership, service capacity, restrictions or support changes; use FIN.19 for any resulting change to the organization of finance work.
+
 ### FIN-E2 - Value a project before arranging its funding
 
 - **Situation:** A project pays 1,000 now and returns 600 at the end of each of two years. These are complete incremental after-tax operating cash flows, with no terminal value.
@@ -152,15 +169,65 @@ Before entering a new hedge, FIN.14's [comparison of fixed and optional protecti
 
 ## FIN.Reference:1 - Problem frame
 
-Use this language when a corporate-finance analyst, treasurer, CFO or manager must answer a financial question about the corporation's investments, funding, liquidity, exposures, distributions or recovery. It assumes ordinary familiarity with financial statements, amounts, percentages and dates. Additional mathematical, market or institutional knowledge is stated with the methods that need it. It supplies procedures and worked cases for making financial consequences usable in decisions.
+Use this language when a corporate-finance analyst, treasurer, CFO or manager must answer a financial question about the corporation's investments, funding, liquidity, exposures, distributions or recovery. It assumes ordinary familiarity with financial statements, amounts, percentages and dates. Additional mathematical, market or institutional knowledge is stated with the methods that need it. It explains the financial relations of the activity, how their units and warranted claims are constructed, and methods for obtaining, choosing and revising financial arrangements.
 
 The governed field is corporate finance. Investor portfolio selection, prudential banking, a complete legal or accounting manual and the broader economics of exchange are outside this edition. A formal valuation, tax conclusion, regulated action or legal process uses the actual applicable professional requirements when that claim is needed.
+
+### FIN.Reference:1.1 - The activity and the financial relations that make it possible
+
+An organization acquires resources and rights, performs work and supplies results. Those activities have different cash dates and uncertain consequences. Equipment may be paid for before it can produce; customers may receive service before paying; a development programme may consume money without yet having a saleable result. Corporate finance investigates and changes how the organization obtains command over resources through time, shares the resulting gains and losses, and sustains the payments and choices on which its activity depends.
+
+The subject therefore includes both the economic activity and its financing relations. A loan changes who supplies money and what the borrower must later pay; equity changes participation in the residual results and may change control; a guarantee changes who bears a specified failure; a customer advance connects finance with a promised delivery. The resources, work and customer benefit still have to be obtained. Finance can enable their provision, change its scale or timing, and expose an unattractive plan. Issuing a claim alone does not produce the promised business result.
+
+Investment, financing and retention belong together for this reason. Investment commits resources to future consequences. Financing determines whose resources can be used now and which later claims or constraints follow. Retention keeps money inside the organization for specified uses or flexibility; distribution changes the money and claims left with its owners. Each changes the others' possibilities. A valuable investment can remain unfunded, an affordable loan can finance a poor investment, and a distribution can consume the protection that made both appear feasible. FIN.6, FIN.10 and FIN.21 retain their different questions while returning these dependencies to one another.
+
+The organization and the interest being evaluated must be identified. A shareholder's residual value, a creditor's expected recovery, a subsidiary's ability to pay and a customer's continuity of supply can move differently. FIN.1 obtains the actual objective and constraints. Maximizing an identified financial value is a powerful conditional decision criterion; the calculation does not choose society's objectives, remove another party's rights or price every consequence adequately. A business need not grow continuously to have a corporate-finance problem: maintenance, contraction, transfer of ownership and orderly exit also require capital and payment choices.
+
+### FIN.Reference:1.2 - How financial objects and units arise
+
+Begin with who can do what, who must provide what, and what events change those relations. An agreement or applicable rule can create an obligation, an ownership interest or an option. Its description records or helps constitute that relation under the relevant institutions. A copied loan record does not create another loan. A forecast receipt describes an expectation; a contractual receivable identifies a claim; a settlement changes positions. [FDM.1 through FDM.4][FDM] develop these distinctions when they are unresolved. FIN uses them to construct a financial alternative rather than treating every number in a workbook as interchangeable money.
+
+The important units follow from the question and the mechanism:
+
+| Financial unit | How it is obtained | What its abstraction leaves open |
+| --- | --- | --- |
+| Usable cash and a funding need | Identify the payer, currency and payment time; apply actual restrictions and the dated receipts and payments; compare the balance with the required reserve in FIN.2. | An annual net inflow or group balance may hide the paying entity's shortfall. |
+| A capital project and its incremental cash | Delimit the changed activity and a feasible continuation, including shared effects, displacement, investment and endings in FIN.6. | A departmental budget boundary need not contain the project's full economic effects. |
+| A financial claim | Recover the holder, obligor, amount or payoff rule, priority, conditions and relevant rights; project their events through FDM and FIN.10. | Face amount, promised payment, expected receipt and value answer different questions. |
+| Operating, equity or other claim value | Select the interest, date, currency, continuation and risk basis; value its consequences through FIN.5 through FIN.8. | A value estimate supplies neither a purchase price acceptable to both parties nor money at closing. |
+| Financing capacity | Derive service and access under a stated operating path, claim structure, dates and adverse conditions in FIN.11 and FIN.12. | Capacity changes when collateral, information, terms, business exposure or provider willingness changes. |
+| A financial exposure | Select whose outcome and horizon matter, then trace how a specified cause changes that outcome in FIN.13. | Equal sensitivities can still conceal different settlement dates, counterparties or severe outcomes. |
+| A group financial account | Select entities for the receiving question, retain their claims and connect cash through warranted transfer and support relations in FDM.2 and FIN.23. | A common owner or a consolidated total supplies no missing intercompany financing. |
+
+These units can require construction. A project can be a combination of production, delivery and support changes; debt capacity can emerge after a customer commitment changes repayment risk; a group funding route can be created by an intercompany agreement. The boundary or unit is adequate when it retains the distinctions that can change the decision. Adding units or disaggregating every balance is not an end in itself.
+
+Financial amounts also need their measurement conventions. A stock belongs to a date; a flow belongs to an interval or event. A percentage needs its denominator and period. A currency translation, a conversion transaction, an inflation adjustment and discounting have different purposes. For example, translating a foreign receivable into reporting currency does not acquire the currency needed for tomorrow's payment. FIN.4 preserves these meanings when it connects accounts; FIN.5 preserves them when it compares value through time and risk.
+
+### FIN.Reference:1.3 - What financial knowledge can warrant
+
+Different grounds support different conclusions. The cash roll-forward is an accounting identity on a defined boundary: opening cash plus inflows minus outflows equals closing cash. It can reveal an omitted event or inconsistent account, but balanced arithmetic cannot show that a customer will pay. Contractual and institutional knowledge establishes which obligations, permissions and claims apply. Observations of production, customers and markets support estimates whose applicability can change. FIN.4 and FIN.17 keep those sources connected without turning a planning target into a fact.
+
+Valuation adds conditional theoretical reasoning. An opportunity cost compares the forgone attainable use. Discounting relates dated consequences on a specified pricing basis. Replication can determine a contingent claim's price when the required trades and assumptions are available; a nontraded business opportunity instead needs qualified operating expectations and risk treatment. A debt's promised yield, an investor's required expected return and management's acceptance threshold are not the same quantity. FIN.5 and FIN.8 explain the different constructions and their limits. More elaborate mathematics cannot supply missing market access, probabilities or rights.
+
+A design conclusion has another burden: it proposes an arrangement whose conditions must fit together. The corporation may prefer delayed repayment while the provider needs early liquidity. An owner may accept loss exposure in exchange for future participation; a customer may advance money for a price or delivery advantage. The designer must establish a plausible intersection of these interests, cash capacities, information and rights, and then obtain the necessary commitments. FIN.10 explains this construction. A good model of one party does not establish the other party's acceptance.
+
+Practice can change the knowledge as well as its inputs. Repeated late collections may undermine the assumed customer behaviour; a provider's refusal may expose an overlooked condition; a guarantee call may reveal a shared cause of losses; users may suppress bad forecasts when forecasts are used as performance promises. FIN.17 updates the affected result, FIN.18 compares the method that produced it, and FIN.20 addresses how the practice is learned and used. One adverse outcome does not by itself disprove a probabilistic forecast, while one successful closing does not establish that a financing design generalizes. The useful test follows the claim: calculation, institutional applicability, prediction, executable arrangement or improvement in decisions.
+
+### FIN.Reference:1.4 - Analysis and construction inform one another
+
+Financial analysis follows an arrangement toward its consequences. Construction works from a needed consequence toward arrangements that might obtain it, then follows each proposal forward again. A date-specific funding need can lead to a changed delivery schedule, a customer advance, staged investment, new equity or debt with different service terms. Their consequences include fees, risk, ownership, foregone uses and the ability to continue after an adverse event. The same knowledge that explains why an offered loan fails helps design a better proposal; it does not guarantee that such a proposal is obtainable.
+
+This is why the field contains several kinds of work. FIN.3 can change the commercial and operating cash cycle. FIN.8 can compare acquiring, creating or preserving a later choice. FIN.10 can construct financing terms with prospective providers. FIN.11 can change the financing policy and its transition. FIN.23 can change the location and connections of claims across entities. FIN.22 can reconstruct a continuation when the present claims no longer fit viable activity. Their returns can also send work to the people designing the product, operating system or ownership arrangement. Adequate existing contributions remain usable; not every finance question needs a new arrangement.
+
+The disciplined connection is between explanations and reusable practice. Knowledge of cash, claims, valuation and uncertainty constrains what each method may infer. The method makes that knowledge usable in a particular choice or intervention. Its application exposes failed assumptions and missing relations, which can revise the explanation or the way of working. Changing a forecast model, an instrument or a treasury arrangement can preserve this corporate-finance subject while changing its methods. Replacing the subject with investor portfolio selection or prudential banking would require those fields' own questions and knowledge.
+
+This combination makes it possible to reason about financial value, dated ability to pay and the distribution of consequences together. No one ratio, reporting account or contract supplies that whole answer. It also makes finance useful within wider management: operating and strategic work supplies attainable activities; finance returns their funding requirements, financial trade-offs and possible financing constructions. A returned financial constraint can require a different activity. Using accounting, economic or legal knowledge for that exchange does not make those entire disciplines parts of FIN.
 
 ## FIN.Reference:2 - Problem
 
 A corporation can be profitable and unable to pay, buy a valuable business at a destructive price, hedge a currency while retaining collection risk, or improve one financial model while creating incompatible commitments elsewhere. The difficulty is often the connection between valid local calculations and the actual choice they are meant to support.
 
-The language addresses those connections without reducing finance to generic advice about “making better decisions”. Practitioners use the analytical methods to calculate dated cash positions and values, compare financing terms, assess exposures, design protection and prepare recommendations. Treasury methods guide permitted financial actions and verification of their effects.
+A usable financial answer connects those consequences to the arrangement that produces them. Practitioners construct accounts and values, develop financial terms, compare capital uses, design protection and group financing, and prepare recommendations. Treasury methods carry permitted actions through to their actual effects. When an attractive action is unavailable, the work can return to the financial or operating construction that determines availability.
 
 ## FIN.Reference:3 - Forces
 
@@ -168,7 +235,7 @@ Financial work balances value, payment continuity, risk, flexibility, control, e
 
 ## FIN.Reference:4 - Solution
 
-Enter through the missing useful result. Cash and account methods are FIN.1–4; value and allocation are FIN.5–9; financing is FIN.10–12; retention and recovery are FIN.21–22; exposure and execution are FIN.13–15; advice and continuing practice are FIN.16–20. The Parts group these contributions for reading. A pattern can be used in several combinations.
+Enter through the missing useful result. Cash and account methods are FIN.1 through FIN.4; value and allocation are FIN.5 through FIN.9; financing terms, policy and constraints are FIN.10 through FIN.12; group financing is FIN.23; retention and recovery are FIN.21 and FIN.22; exposure and execution are FIN.13 through FIN.15; advice and continuing practice are FIN.16 through FIN.20. The Parts group these contributions for reading. A pattern can be used in several combinations.
 
 When combining results, preserve their material common conditions: corporation and claimant perspective, financial positions, baseline, currency and units, valuation and payment dates, tax and risk treatment, and access to the same money or capacity. Do not count one receipt, benefit or available facility twice. A valid set of local calculations may still fail this joint condition.
 
@@ -178,11 +245,31 @@ An adequate supplied result can be used directly. A finance analyst need not rec
 
 Also ask what larger work a present operation performs when that connection is unclear. In FIN.2's example, solving for a loan's gross draw performs part of sizing the financing, and that sizing performs part of constructing the dated payment plan. The payer, fee, reserve and availability conditions connect these operations. [FPF B.1.5.EW][EW] helps recover such a connection and identify a constituent operation to learn, obtain or correct. The bank's later transfer and another person's use of the completed forecast have their own relations to this analytical work. Use an already understood connection directly.
 
+### FIN.Reference:4.1 - Let the financial relation select the return
+
+The following connections explain which result another method consumes. They are alternative entries into the work, not a requirement to perform every row.
+
+| Current difficulty | Contribution and use | A change that returns the work |
+| --- | --- | --- |
+| A proposed activity has unexplained monetary consequences | MA supplies the needed resource and operating account; FIN.4 translates its events into the financial view, and FIN.6 compares the incremental activity. | Changed scope, capacity or customer terms changes the cash construction, even if the spreadsheet still balances. |
+| Value appears attractive but money is unavailable | FIN.2 specifies the dated need. FIN.10 constructs or compares funding; FIN.3 and FIN.8 can change the cash cycle or staging. FIN.9 then compares the resulting whole alternatives. | The new agreement changes delivery, ownership, future service or access; those consequences return to value and feasibility. |
+| Debt appears cheaper than equity | FIN.11 compares supported financing policies, with FIN.5 re-estimating their risk and valuation effects. | Additional debt changes service, incentives, restrictions or investment; the old rates and operating forecast may no longer fit. |
+| Several companies need a different way to fund their activity | FIN.23 constructs where claims sit and how money and support connect the entities; FIN.10 supplies missing terms and FIN.11 the policy comparison. | Restricted upstream cash, a minority interest or correlated shortfalls changes the proposed structure, even with unchanged group leverage. |
+| A price hedge leaves a cash or credit problem | FIN.13 identifies the relevant outcome; FIN.14 evaluates the underlying activity and protection together; FIN.2 carries their interim funding. | A partial receipt, collateral call or unavailable offset reopens the affected terms and payment path. |
+| The present obligations cannot be sustained | FIN.22 compares viable operating continuations, interim finance and claimant recoveries; FIN.10 and FIN.23 can supply proposed new financing relations. | A necessary claimant rejects the terms or interim money cannot arrive; a favorable total recovery remains a conditional result. |
+| A sound calculation fails to change the work | FIN.16 makes the recommendation usable; FIN.19 resolves interacting commitments; FIN.20 addresses persistent use and transmission. | A missing authority, information path or learned practice calls for its own remedy rather than another valuation. |
+
+The boundaries of knowledge matter to each return. A known payment date may permit a direct calculation. A disputed forecast needs a qualified estimate or conditional range. A missing agreement needs construction and negotiation. An unavailable performer or legal permission needs that particular support. FIN.18 changes the method only when the current way fails the needed use; it does not replace an adequate method merely because one of its inputs changed.
+
 ## FIN.Reference:5 - Archetypal Grounding
 
 FIN-E1 supplies the whole first-use case. The operating plan and incremental account are already adequate. FIN.2 exposes the gap hidden by the positive contribution; FIN.3 compares an agreed advance with the available loan; the treasurer uses FIN.15 to perform the selected permitted action. When collection moves to day 40, repayment on day 28 becomes unfunded. FIN.17 helps the analyst reconsider the financing recommendation while retaining unaffected operating grounds.
 
 The language also reaches a different result when the financial question changes. FIN.6 calculates positive project NPV without claiming funding. FIN.9's acquisition has equity value 80, additional benefits 30 and costs 15: a price of 100 gives buyer value −5, while 90 gives +5. FIN.22 compares the same expected recovery at different dates. These constructed cases establish how to apply the methods, not evidence of organizational adoption or measured financial improvement.
+
+A new venture presents a different construction. It may have no dependable receipts from which to service a conventional loan. FIN.10:5.5 shows how staged equity can finance a useful first result while retaining uncertainty about later funding. FIN.8 values only the later choices the resulting terms actually preserve. Optimistic sales estimates cannot replace the missing first commitment.
+
+For a group, the same total money can support different claims and different losses. FIN.23:5 constructs an internal loan together with external funding, compares both participants with their outside alternatives, and then changes the design when the lending subsidiary needs its own money earlier. FIN.23:5.1 changes the creditor's claim location while retaining the assets. These cases change the object and the operative financial relation; they cannot be reduced to choosing the cheapest rate in the order example.
 
 ## FIN.Reference:6 - Bias-Annotation
 
@@ -212,7 +299,7 @@ The cost is explicit attention to assumptions, dates and effects that a familiar
 
 The language retains domain procedures because a general choice method cannot calculate cash conversion, discount a project or reconcile an instrument's proceeds by itself. It reuses Management Accounting, Financial Domain Modeling and Operations Management for their independently useful results instead of making them three sections of a larger finance prerequisite.
 
-Separate patterns distinguish value, allocation, funding and execution because the same case can obtain one result and fail another. In acquisition and divestment comparisons, FIN.9 combines supplied valuations with the price, transaction effects and financing conditions. Distributions and distress retain their own questions about claims and feasible capital routes.
+Separate patterns distinguish value, allocation, funding and execution because the same case can obtain one result and fail another. FIN.10 owns construction of financing terms; FIN.23 owns the arrangement of financing relations across entities. FIN.19 remains the method for organizing interacting financial work. A different borrower or guarantee can change claims without changing the treasury team, while a new approval procedure can change work without changing any debt. In acquisition and divestment comparisons, FIN.9 combines supplied valuations with the price, transaction effects and financing conditions. Distributions and distress retain their own questions about claims and feasible capital routes.
 
 ## FIN.Reference:11 - SoTA-Echoing
 
@@ -222,17 +309,23 @@ The current professional line used here combines corporate investment and valuat
 
 The language adopts these financial contributions and connects them through actual dates, claims, feasible choices and receiving use. It rejects both a finance-only sequence that silently rebuilds all accounting and a generic decision vocabulary that leaves the financial calculation unspecified. Changed professional knowledge, institutional conditions or a case exposing a consequential omission reopens the affected method.
 
+Financing design also requires a provider's and other participants' perspective. Damodaran's historical [financing-details chapter][DAM-FINANCING] connects cash matching with information and incentives. [World Bank PPP guidance][WB-BANKABILITY] provides a developed financing case in which risk allocation changes debt capacity and equity needs; its public-project setting does not establish a universal corporate-financing prescription. FIN.10 combines these questions with ECO's construction of exchange and its own financial examples.
+
+For groups, the [ACT discussion of group financing][ACT-GROUP] distinguishes debt location and support, while [OECD's 2022 Chapter X][OECD-FIN] distinguishes the transactions and participant consequences of internal finance. FIN.23 uses those distinctions without treating a funding structure as universally cheapest or that chapter as current law in every jurisdiction. ACT's [2025 cash-management discussion][ACT-CASH-2025] reports an instance in which pooling weakened local attention to forecasts; it motivates examining the operating consequences, not a general claim that pooling has that effect.
+
 ## FIN.Reference:12 - Relations
 
 | Supplying language or method | Contribution used here | When to obtain it |
 | --- | --- | --- |
 | [Management Accounting, MA 1.0][MA] | Resource and cost accounts, capacity and assignment meanings, reporting–cash reconciliation, purpose-qualified forecasts and account use. | A required accounting result is missing or its meaning is disputed; primarily FIN.3–4, with reuse elsewhere. |
-| [Financial Domain Modeling, FDM 1.0][FDM] | Parties, financial positions, conditional instruments, descriptions and actual event effects. | A financial object's meaning or effect is unresolved; particularly FIN.1–2, FIN.8, FIN.10 and FIN.13–16. |
+| [Financial Domain Modeling, FDM 1.0][FDM] | Parties, financial positions, conditional instruments, descriptions and actual event effects. | A financial object's meaning or effect is unresolved; particularly FIN.1–2, FIN.8, FIN.10, FIN.13–16 and FIN.23. |
 | [Operations Management (OPS)][OPS] | Feasible operating plans, capacity and service consequences; coordination under existing authority. | A financial alternative's operating feasibility or allocation of work and resources is unresolved. |
 | [Organization Change Engineering (OCE)][OCE] | Changes to organizational responsibilities and decision rights. | FIN.19 exposes a needed change to that arrangement. |
 | [FPF B.1.5.EW][EW] | Recovery of how constituent actions perform encompassing work. | A calculation or another local operation is known, but its place or needed conditions in the financial work remain unclear; FIN.2 gives an example. |
 | [FPF C.11][CHOICE] and [FPF C.11.DUA][DUA] | Choice among available alternatives; appraisal of advice and evidence demands by receiving use. | The local choice or the value of advice or demanded inquiry needs that general method. |
 | [FPF C.32.MWA][MWA] and [FPF C.36][CULT] | Several interacting structures of practice; cultural continuation and deliberate change. | FIN.19 or FIN.20 needs the corresponding reusable method. |
+
+[Economic Reasoning and Coordination (ECO)][ECO] remains an external supplier. ECO.3 explains creation of an exchange from separate plans; ECO.4 connects dependent commitments; ECO.5 constructs terms around information, participation and subsequent choices. FIN.10:4.1.1 through FIN.10:4.1.3 apply those contributions to net finance, service, financial claims and closing. FIN.23 uses that financial construction across entities. Obtain the general economic operation when it is missing; the FIN account supplies the financial consequences and conditions that those general operations need here.
 
 These are contribution relations, not a mandatory reading order. Reopen a dependency when its supplying result or the receiving use changes materially; unchanged adequate results remain usable.
 
@@ -319,6 +412,8 @@ Use FIN.2 for dated liquidity and FIN.10–12 for actual financing possibilities
 Several conclusions can properly coexist: “positive operating NPV,” “not fundable at closing on these terms,” and “fundable if payment is deferred at this additional cost.” FIN.9 can compare the revised whole alternative once the terms are obtainable. FIN.16 combines the warranted contributions for the receiver. The recommendation must say which conditions belong to which alternative; a mixture of the best features from mutually incompatible alternatives is no feasible recommendation.
 
 
+
+When the missing result is an arrangement rather than another estimate, keep that construction in the question. FIN.10 develops contributions and terms with potential financiers and other parties; FIN.23 develops their location and connections across a group. Return their changed service, ownership, risk and commercial conditions to the original choice. The absence of a suitable current offer is evidence about today's available set, not yet a conclusion that no worthwhile financing proposal can be constructed.
 
 #### FIN.1:4.5 - Decide how much unresolved detail matters now
 
@@ -457,7 +552,7 @@ Compare the cost of holding or arranging protection with the consequences it pre
 #### FIN.2:4.5 - Change the attainable plan and keep the return visible
 
 
-If the account fails, construct a remedy that changes a dated receipt, payment or available financing action. Accelerating a customer payment has a price and requires acceptance. Extending a supplier term changes an obligation only when the arrangement permits it. Reducing inventory may undermine delivery and hence later receipts. FIN.3 compares these operating terms; FIN.10 compares finance; FIN.12 identifies restrictions and remedies. Return their actual consequences to the same account before relying on the repair.
+If the account fails, construct a remedy that changes a dated receipt, payment or available financing action. Accelerating a customer payment has a price and requires acceptance. Extending a supplier term changes an obligation only when the arrangement permits it. Reducing inventory may undermine delivery and hence later receipts. FIN.3 compares these operating terms; FIN.10 constructs or compares finance; FIN.12 identifies restrictions and remedies. When another entity's cash could help but no adequate transfer or support exists, FIN.23 constructs that financial relation and tests both entities' needs. Return their actual consequences to the same account before relying on the repair.
 
 Include the decision's execution lead time. An asset sale closing after payroll is not a payroll remedy. A loan with enough face amount but an unsatisfied condition is not yet one either. When no attainable plan covers the obligation, state the uncovered date and amount and the action-changing missing condition; FIN.22 becomes relevant if ordinary adjustment is insufficient. A request for consent is not itself consent.
 
@@ -831,7 +926,7 @@ Match nominal and real amounts and separate currency translation from actual con
 
 Project the cash balance before inventing a funding response. A negative modeled balance identifies an unmet need under those assumptions; it is not a permissible operating cash holding or evidence that a bank has agreed to lend. A desired minimum cash reserve can create an additional need even while the closing balance remains positive.
 
-Use FIN.2 to locate the amount and date of the need, including other receipts, payments, restrictions and available facilities. FIN.10 supplies obtainable financing terms when new finance is considered. Feed a selected feasible financing scenario back into the account: borrowing changes cash and debt, fees and interest change cash and possibly profit and tax, repayments change later money needs. Recalculate until the assumed financing and projected account agree, or return the unresolved condition.
+Use FIN.2 to locate the amount and date of the need, including other receipts, payments, restrictions and available facilities. FIN.10 develops financing terms with potential participants when new finance is considered; FIN.23 supplies a missing group arrangement. Distinguish a proposal from obtainable and committed funding. Feed a selected feasible financing scenario back into the account: borrowing changes cash and debt, fees and interest change cash and possibly profit and tax, repayments change later money needs. Recalculate until the assumed financing and projected account agree, or return the unresolved condition.
 
 Where interest depends on an average or closing debt balance, a model may require iteration or an explicit algebraic solution. State the timing convention and actual terms. Numerical convergence only means that those equations agree; it does not qualify the loan or cure an infeasible covenant. If financing changes the operating plan, update the relevant driver too. Preserve the unfunded alternative so the receiver can see what the proposed financing changes.
 
@@ -1650,6 +1745,8 @@ For divisible independent investments with one initial capital limit, linear sca
 
 
 
+A financing constraint can be either fixed for this decision or open to a worthwhile construction. If useful combinations are excluded by the current funding set, use FIN.10 to develop missing terms or FIN.23 to change group financing when that could improve the choice. Add each proposed arrangement's cost, claims and conditions to its own combination. Continue to distinguish a conditional proposal from a presently available alternative; obtaining more finance cannot rescue an investment whose full consequences remain unattractive.
+
 #### FIN.9:4.3 - Align service lives and preserve later choices
 
 
@@ -1802,27 +1899,27 @@ FIN.6–8 supply values; FIN.2 supplies timed funding needs; FIN.10–12 supply 
 
 ### FIN.10:0 - Use this when
 
-The corporation needs funds and must compare an issue, loan, lease, committed line or other feasible arrangement. Model the terms that determine proceeds, future cash and rights. Use an already adequate committed arrangement directly when the task is only its permitted execution.
+The corporation needs funds, a backstop or refinancing and must construct or compare the terms that could provide them. Use this method when available offers do not fit and a jointly acceptable arrangement still has to be developed, as well as when comparing existing offers. Use an adequate committed arrangement directly when the task is only its permitted execution.
 
 ### FIN.10:1 - Problem frame
 
 Calculating an effective financing rate requires familiarity with compounding and discounting timed payments. Comparing adequate supplied proceeds and payment amounts can be sufficient without solving for that rate.
 
 
-The object is a proposed financing arrangement and its financial consequences for the corporation. Instrument design includes amount, maturity, repayment, priority, collateral, currency, options and control terms. It does not itself secure investor acceptance or establish a disputed legal interpretation.
+The object is a proposed financing arrangement: the contributions, claims and conditions through which identified parties could make funds available. Instrument design includes amount, maturity, repayment, priority, collateral, currency, options and control terms. Its result can be a proposal worth negotiating, an obtainable financing choice or a supported decision to change the underlying plan. A proposal becomes agreed finance only through the required acts of the participants; disputed legal interpretation requires its own qualified result.
 
 ### FIN.10:2 - Problem
 
-The lowest headline rate can produce the highest effective cost, insufficient net proceeds or a maturity the corporation cannot meet. An indicative term sheet can be mistaken for committed funding.
+The lowest headline rate can produce the highest effective cost, insufficient net proceeds or a maturity the corporation cannot meet. Sometimes no offered instrument supplies the required service, even though a different combination of commitments, risk and participation could do so. A borrower-only design can remain unacceptable to the people expected to provide the money. An indicative term sheet can also be mistaken for committed funding.
 
 ### FIN.10:3 - Forces
 
-Balance cost, access, timing, flexibility, control and repayment risk. Retain contractual detail that can change the choice while keeping genuinely comparable alternatives visible.
+Balance cost, access, timing, flexibility, control and repayment risk for the corporation and the consequential other participants. A condition protecting one party can remove another party's willingness or ability to participate. Retain detail that can change the choice while keeping genuinely comparable alternatives visible.
 
 ### FIN.10:4 - Solution
 
 1. Recover the net amount and dates needed, currencies and expected repayment capacity. Include the effect of fees withheld at issue. Use FIN.2 where the funding requirement is unresolved.
-2. Construct obtainable alternatives with their actual potential providers. Specify who supplies funds, who owes what, repayment and draw conditions, ranking, security, restrictions, conversion or exercise rights and required consents. Use [FDM][FDM] for an unresolved position or conditional event.
+2. Recover potential participants' contributions, alternatives and limits. Construct terms through FIN.10:4.1.1 through FIN.10:4.1.3 when no adequate offer exists. Specify who supplies funds, who owes what, repayment and draw conditions, ranking, security, restrictions, conversion or exercise rights and required consents. Use [FDM][FDM] for an unresolved position or conditional event.
 3. Project proceeds and every material payment under each alternative: interest or distribution terms, principal, issue and commitment fees, collateral or margin cash, tax consequences where supported, and contingent payments. Use the stated rate conventions, day counts, resets and settlement dates.
 4. Compare the same funding requirement over the same horizon. Where meaningful, solve for the rate equating net proceeds with the discounted payments; retain any option or contingent risk that a single effective rate cannot represent.
 5. Test refinancing and adverse states, collateral and covenant constraints, currency mismatch and control effects. Compare a long maturity with a rollover plan only if the latter includes its actual access uncertainty.
@@ -1843,6 +1940,36 @@ Form alternatives from sources the corporation could actually use. They can incl
 Distinguish an indicative possibility, a quoted offer subject to conditions, an executed commitment and settled funds. Compare conditional offers when that is the question, but keep their unmet conditions in the recommendation. Useful next work may be obtaining a term, release or commitment that changes the feasible set. It need not be a more precise ranking of offers that cannot fund the action.
 
 
+
+##### FIN.10:4.1.1 - Recover the participants from what the financing must accomplish
+
+When no adequate offer is available, start with the unmet service rather than a preferred security label. Identify who could supply money, absorb a particular loss, change a payment date, provide a verifiable commitment or obtain a benefit from the funded activity. Potential participants can include owners, lenders, customers, suppliers, an asset owner or a partner. A customer may value assured supply; a supplier may value an order; an investor may value participation in future upside. These interests can support different terms without giving the parties one common objective.
+
+For each consequential participant, recover the contribution it can actually make, its available alternative, required benefit, cash dates, risk capacity and decision constraints. Ask what prevents participation on the present terms. A provider may lack information, dislike the proposed risk, have no mandate for that instrument, or need its own money sooner. Those are different obstacles. Obtain only information that can alter the proposal. Use [ECO.3][ECO] when the missing work is discovering and combining separate plans; FIN.10 then converts that result into a financing service and financial claims.
+
+Build each side's dated comparison. For a lender, distinguish promised service from plausible receipts, credit loss and recovery, funding and administration costs, and the opportunity being forgone. For equity, compare the acquired economic and control rights with the price and further funding commitments; a share of a forecast is insufficient without identifying the claim. For a customer or supplier, include commercial value, working-capital use and the exposure transferred by prepayment or deferral. Use FIN.5 through FIN.8 for a valuation that matters; a supported bound can be sufficient before a precise price exists.
+
+Keep conjectured willingness distinguishable from a stated negotiating constraint, a conditional offer and a commitment. A provider's balance sheet or membership in the group does not establish that it will fund this arrangement. If the available participants cannot support a necessary contribution, change the scale, staging, activity or participant set, or return that financing is not presently obtainable.
+
+##### FIN.10:4.1.2 - Construct terms that reconcile the financial constraints
+
+Work back from the date and state in which the current proposal fails. Change the financial term or underlying commitment that governs that failure, then calculate the new consequences for every affected party. If principal is due before cash can be generated, possible constructions include later amortization, a smaller initial draw, equity participation, staged expenditure or a payment commitment from a customer. If loss exposure prevents a loan, compare genuine collateral, a limited guarantee, first-loss capital or a different revenue arrangement. The party taking the risk must have capacity and a reason to accept it; moving the loss does not make it disappear.
+
+Combine terms where one instrument cannot supply the whole service. An owner contribution can absorb initial loss while a lender funds a bounded amount; a customer advance can reduce the draw needed; a lease can give access to an asset while leaving a different ownership and ending arrangement. Specify both initial money and later flows. A discount, guarantee fee or conversion right is consideration for something: account for its cost and the actual benefit it buys. Compare an adequate standard instrument before inventing a more complex combination.
+
+Find terms satisfying the connected comparisons. For example, derive the maximum service the corporation can meet under the selected protection, the amount and terms a provider will consider, and any minimum participation benefit for another party. Vary repayment dates, amount, price or rights within those bounds. If the bounds do not intersect, a more attractive presentation of the same numbers will not repair the arrangement. Change the activity or the allocation of risk, obtain a different provider, retain a conditional result, or stop. An expected-value gain can coexist with an unacceptable shortfall; retain the relevant states as well as the average.
+
+Information and subsequent action can change those bounds. A lender may need evidence of a customer commitment; an investor may require an interpretable milestone before another contribution; an advance payer may need protection against diversion of its money. Specify what is observed, who can change it and what financial consequence follows. Use ECO.5 when participation, private information or incentives require construction. A covenant should address the action or exposure that makes financing difficult, with its actual information, response and cost. A metric that can be improved while destroying repayment capacity fails that purpose. An unobservable or unenforceable trigger cannot carry the claimed protection.
+
+Bring the new terms back to the business. A restrictive delivery commitment can change capacity needs, a customer discount changes proceeds, and a pledge can consume security needed elsewhere. FIN.3, FIN.4, FIN.9, FIN.11 and FIN.12 supply the affected comparisons. The result is one coherent financial alternative, including the consequences that made its funding possible.
+
+##### FIN.10:4.1.3 - Obtain an actionable proposal and a possible closing
+
+Take the connected proposal to the relevant participants through the authorized negotiating process. Obtain the objections and conditions that can change it: amount, service, information, ranking, security, ownership, control or timing. Recalculate a changed package rather than retaining each party's preferred terms from incompatible versions. A rejected proposal can reveal a different source of value or a binding constraint; it need not mean that the underlying activity has no value.
+
+Trace the conditions for the first money and commitment. If a lender pays after a customer advance, while the customer pays only after lender funding, there is no first move unless an actual simultaneous-closing mechanism can satisfy both. [ECO.4][ECO] explains this dependency problem. The financial continuation specifies who commits, whose money is available, what releases it, the settlement order, and what happens if one contribution fails. Escrow, a committed bridge or simultaneous conditional releases are candidates only when the parties and service providers can actually implement them. Include their costs and any refund, priority or cancellation consequences.
+
+Separate the funding needed for the first useful result from funding assumed for later stages. A demonstration may improve the next financing prospect without committing anyone to provide that later capital. Return the funded scope, the remaining condition and the option to stop or resize. FIN.15 carries an authorized financing action into execution; successful negotiation and settlement require their actual participants. A well-founded proposal can finish the analytical task without being reported as money already obtained.
 
 #### FIN.10:4.2 - Translate the instrument into changing claims and cash
 
@@ -1886,7 +2013,7 @@ An option to prepay, extend, convert or redraw has value only on its terms and i
 #### FIN.10:4.5 - Select an obtainable arrangement and return its consequences
 
 
-Compare the feasible offers on financial value, dated coverage, restrictions, exposure and effects on the chosen owners. Explain a trade-off when a cheaper expected arrangement is less dependable or sacrifices an important right. Do not hide it in an unexplained weighted score. The chosen objective and constraints come from FIN.1; the corporation-wide debt/equity policy comes from FIN.11.
+Compare the resulting proposals and feasible offers on financial value, dated coverage, restrictions, exposure and effects on the chosen owners. Keep their different commitment states visible; a promising unagreed package cannot displace a necessary payment with already available money. Explain a trade-off when a cheaper expected arrangement is less dependable or sacrifices an important right. Do not hide it in an unexplained weighted score. The chosen objective and constraints come from FIN.1; the corporation-wide debt/equity policy comes from FIN.11.
 
 Return the selected or conditional terms to FIN.2, FIN.4 and FIN.12. Recalculate cash, interest, tax, debt balances and covenant headroom. If the new financing creates another shortfall, change its amount, timing, instrument or the underlying action; do not retain both an old cash forecast and a new loan recommendation that no longer agree. The result can be a smaller feasible financing package, a negotiation position or an explicit absence of an obtainable offer.
 
@@ -1935,13 +2062,35 @@ In another constructed offer, the existing equity is worth 200 immediately befor
 
 This is a valuation comparison of the offer, not a claim that an investor must accept one third. A changed business value, funding urgency, preference or control right changes the comparison. If the cash funds an investment with its own gain, first include that attainable gain consistently; do not credit it wholly to old owners and also use it to justify the new investor's percentage.
 
+#### FIN.10:5.4 - Construct a package that no participant offered alone
+
+A manufacturer can complete an order for a cash payment of 100 on day 0 and deliver on day 90. It has no money available for that payment. The customer would otherwise buy equivalent delivery for 150 on day 90. The manufacturer also proposes 150, but cannot obtain an unsecured loan of 100. All quantities below are constructed negotiating inputs; there are no taxes, other payments or additional reserve requirements in this bounded case.
+
+Discussions establish three constraints. With the specified customer contract and security, the bank is willing to fund at most 60 on day 0 for repayment of 64 on day 90, subject to its stated closing conditions. The customer can advance at most 40 and requires a total price reduction of at least 3 to compensate for the advance's funding use and assessed exposure. The manufacturer requires at least 40 remaining cash after paying the production and financing costs. Those constraints came from the parties' own comparisons; they are not inferred from a universal interest rate.
+
+The bank limit requires at least 40 from another source. The customer's limit makes an advance of 40 the candidate contribution. Let the price reduction be d. The customer then pays 40 now and 110 − d on delivery. After repaying the bank's 64, the manufacturer retains 46 − d. Its requirement gives d ≤ 6, while customer participation requires d ≥ 3. The common interval is 3 through 6. A proposal with d = 4 provides the initial 100, leaves a delivery payment of 106 and manufacturer cash of 42, and gives the customer a price reduction of 4 against its required 3. This finds mutually compatible candidate terms; it does not establish that the parties have accepted them.
+
+The package also needs a closing. Suppose the customer will release its 40 only when the bank's 60 is committed, and the bank requires the customer contract and advance. The parties can propose a funded escrow that releases the combined 100 to production only when both contributions and the stipulated documentation are in place, with a specified return of funds if closing fails. They must obtain the actual escrow, lender and customer agreements. If that service adds cost, include it and recompute the interval. If it cannot settle before production must begin, the constructed amounts still do not fund the order.
+
+The contract changes the original account: the manufacturer receives total 146, not 150, and owes financing service 64. The customer advance is counted once, against the reduced delivery payment. The bank's 60 is a financing receipt and later principal obligation; it is not sales. FIN.4 preserves these meanings and FIN.2 tests the dates.
+
+Now suppose the customer can pay only 80 on day 90, leaving the rest late. The manufacturer has 16 after bank repayment, below its required 40. If the entire receipt is late, the loan itself is unfunded at maturity. The contractual customer amount, the bank's due date and the loss allocation do not change merely because the forecast did. Return to collection protection, a supported extension or bridge, different terms or a changed production commitment. The proposal's original amounts fitted the stated requirements; its continuing feasibility depends on the credit and timing conditions.
+
+#### FIN.10:5.5 - Finance a learning stage without inventing later capital
+
+A development venture needs 20 for an independent technical trial and, if the result warrants continuation, 80 for deployment. It has no dependable cash from which to promise near-term debt service. A prospective investor can accept first-stage loss for an agreed equity interest, but requires an interpretable trial result before considering the larger exposure. The useful design question is which stage and claim can attract capital now, together with what remains possible later.
+
+Construct the first 20 equity contribution, the interest it buys, the permitted use, the trial result and the consequences of stopping. Then compare two later-capital terms. In one, the investor may consider a further investment after the trial but makes no later funding commitment. In the other, an enforceable commitment supplies 80 when the stated, observable conditions are met, with the later price or share-allocation rule already specified. The second transfers more future funding exposure to the investor and may require different ownership or control terms. The venture must compare that cost with the useful continuation it obtains. Neither party can assume that the other will accept the more protective version at the first version's price.
+
+A successful technical trial does not establish demand or profitable deployment. Keep any remaining commercial conditions and the investor's actual rights. With the first term, FIN.8 can value the venture's opportunity to seek further finance, but FIN.2 cannot count the 80 as committed money. With the second, verify the commitment's availability in the state where the trial passes and bring its resulting ownership and service conditions into FIN.7 and FIN.9. If no later financing is attainable, the first stage may still be worthwhile for its own reusable result or may be rejected. The full development plan remains conditional rather than silently financed by optimistic future receipts.
+
 ### FIN.10:6 - Bias-Annotation
 
 Provider quotations can omit conditions or vary in availability. A rate comparison can understate collateral, control, refinancing and concentrated-provider risks.
 
 ### FIN.10:7 - Conformance Checklist
 
-Does each alternative supply the required net cash at the required time? Are fees, repayment and contingent terms recoverable? Are comparable dates and conventions used? Is each commitment and consent claim supported, and is the residual funding need visible?
+Does each alternative supply the required net cash at the required time? For newly constructed terms, are the participants' contributions, alternatives, risks and reasons for accepting them explicit, and can the closing conditions be satisfied together? Are fees, repayment, rights and contingent terms recoverable? Are comparable dates and conventions used? Is each commitment and consent claim supported, and is the residual funding need visible?
 
 ### FIN.10:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -1949,19 +2098,19 @@ Comparing coupons alone ignores issue economics; compare net proceeds and paymen
 
 ### FIN.10:9 - Consequences
 
-The comparison helps the corporation choose more useful terms or shows that a seemingly cheap offer cannot finance the requirement. It retains meaningful non-rate consequences for the receiving decision.
+The method can produce a financing proposal that was absent from the offered set, select useful existing terms, or explain why the remaining conditions cannot fund the requirement. Constructing the package costs negotiation and verification work; its gain must justify that burden. The returned commitment state and residual exposure determine what the corporation may rely on next.
 
 ### FIN.10:10 - Architectural Rationale
 
-A cash-and-rights comparison connects instrument design to the corporation's actual need. A single cost measure remains a useful projection, while conditions that change availability or control remain explicit.
+Financing exchanges present command over resources for claims, participation and conditions affecting the future. Matching the borrower's cash path is necessary for service, but a provider also needs a worthwhile, bearable and implementable contribution. Combining those perspectives explains why changing timing, risk, information or rights can create a financing possibility that a rate comparison alone leaves unavailable. A single cost measure remains useful when the omitted distinctions cannot change the choice.
 
 ### FIN.10:11 - SoTA-Echoing
 
-The [AFP task domains][AFP] locate professional financing responsibilities. Damodaran's historical [financing-details treatment][DAM-FINANCING] explains how financing design relates to business cash and the transition from a desired mix. FIN.10 develops the obtainable offer, net proceeds, complete service and ownership consequences, using FDM.3 for contractual behavior and FIN.5 for qualified pricing. It retains asset–liability matching as an exposure question without adopting a claim that approximate matching eliminates default. The amortization and equity cases show why coupon or nominal total payment alone cannot rank offers. Current terms, tax and legal conditions require their own sources.
+The [AFP task domains][AFP] locate professional financing responsibilities. Damodaran's historical [financing-details treatment][DAM-FINANCING] explains how financing design relates to business cash and the transition from a desired mix. FIN.10 develops the obtainable offer, net proceeds, complete service and ownership consequences, using FDM.3 for contractual behavior and FIN.5 for qualified pricing. It retains asset–liability matching as an exposure question without adopting a claim that approximate matching eliminates default. The amortization and equity cases show why coupon or nominal total payment alone cannot rank offers. The construction in FIN.10:4.1.1 through FIN.10:4.1.3 also uses ECO.3 through ECO.5 for participant plans, connected commitments and incentives. World Bank's [bankability discussion][WB-BANKABILITY] makes risk allocation, service and equity needs interact in project finance. FIN.10 uses that financial relationship with explicitly constructed corporate cases; it does not import public-project guarantees or a universal debt share. Current terms, tax and legal conditions require their own sources.
 
 ### FIN.10:12 - Relations
 
-FIN.2 supplies funding need; FIN.5 distinguishes required return from financing cost; FIN.11 compares the mix and FIN.12 its restrictions. FIN.13–14 assess financial exposure and protection. FIN.15 carries out the permitted financing action.
+FIN.2 supplies funding need; FIN.5 distinguishes required return from financing cost; FIN.11 compares the mix and FIN.12 its restrictions. FIN.23 constructs financial relations across entities. FIN.3 and FIN.8 develop cash-cycle and staging alternatives. ECO.3 through ECO.5 supply the general exchange, commitment and incentive constructions when needed; FDM supplies the resulting claims and events. FIN.13 and FIN.14 assess financial exposure and protection. FIN.15 carries out the permitted financing action.
 
 ### FIN.10:End
 
@@ -2040,6 +2189,8 @@ The lowest calculated WACC maximizes value only within conditions that make that
 
 
 
+For several entities, a group debt ratio leaves a further design question: which entity borrows, receives the operating cash, supplies equity or guarantees, and services each claim? Use FIN.23 when those connections are unresolved. Compare its structures even when they have the same total debt and operating assets. Restricted upstream cash or changed creditor recourse can alter financing capacity and value without changing that ratio. Carry the resulting entity service and risk back into the policy comparison here.
+
 #### FIN.11:4.4 - Convert an attractive policy into a feasible transition
 
 
@@ -2115,7 +2266,7 @@ Capital structure concerns the joint effects of claims on the corporation. Instr
 
 ### FIN.11:12 - Relations
 
-FIN.5 supplies matching return estimates, FIN.10 feasible terms and FIN.12 access constraints. FIN.21 connects retention and payout to funding; FIN.22 handles a broader recovery problem when ordinary financing alternatives no longer suffice.
+FIN.5 supplies matching return estimates, FIN.10 financing terms and FIN.12 access constraints. FIN.23 constructs the location and connections of finance across entities. FIN.21 connects retention and payout to funding; FIN.22 handles a broader recovery problem when ordinary financing alternatives no longer suffice.
 
 ### FIN.11:End
 
@@ -2505,7 +2656,7 @@ New money creates a claim or ownership interest. Recover its net proceeds, inter
 
 Do not count the same financing effect twice. The advance is a source for the interim cash account, not free value to distribute to old claimants. Its repayment or ownership participation reduces what they can receive. If a supplied enterprise or recovery value is already net of the interim claim or process cost, do not deduct it again. Conversely, if it is a gross value before those claims, make the deduction before comparing old creditors' recoveries.
 
-Debt capacity after restructuring must fit the repaired operation and its uncertainty. Turning unpaid principal into a larger later promise can increase the face claim without increasing expected payment. A debt-for-equity conversion may reduce mandatory service but transfers a residual interest whose value and control differ from cash. FIN.10–11 supply the financing construction; FIN.22 connects it to claimant recovery and the available distress routes.
+Debt capacity after restructuring must fit the repaired operation and its uncertainty. Turning unpaid principal into a larger later promise can increase the face claim without increasing expected payment. A debt-for-equity conversion may reduce mandatory service but transfers a residual interest whose value and control differ from cash. FIN.10 and FIN.11 supply the financing construction; FIN.23 supplies a missing group arrangement, including the effects of internal claims and guarantees. FIN.22 connects those proposals to claimant recovery and the available distress routes. Changing the connection between entities must preserve the affected claims and consents during transition.
 
 
 
@@ -2627,6 +2778,144 @@ The [World Bank's 2022 workout toolkit][WB-WORKOUT], especially its financial-mo
 FIN.2 establishes cash urgency, FIN.7 supports route-specific values, FIN.10–12 supply financing and covenant facts, and FIN.16 returns conditional advice. [FDM][FDM] resolves disputed parties, positions or event consequences. Specialist restructuring and legal methods carry the actual negotiation or proceeding.
 
 ### FIN.22:End
+
+## FIN.23 - Construct Financing Arrangements Across Group Entities
+
+**Type:** Method
+
+**Status:** Stable
+
+### FIN.23:0 - Use this when
+
+Several entities must fund their activity, and the location or connection of cash, borrowing, ownership or support needs to change. Typical situations include funding a new subsidiary, integrating an acquired business's financing, using temporary surplus elsewhere in the group, or keeping one activity's financing exposure within a chosen boundary. The result is a financial arrangement with its terms, participant consequences and transition conditions.
+
+Use FIN.2 directly when an adequate transfer arrangement already supplies the required money. Use FDM.2 for an unresolved account of the present entities or support, and FIN.19 when the difficulty is how people coordinate financial work. A consolidated reporting exercise alone does not require a new funding structure.
+
+### FIN.23:1 - Problem frame
+
+The object is the financial arrangement among specified existing or proposed entities and external providers: where capital enters, which entity owns each financial claim, which entity owes service, and which routes or conditional obligations connect them. Its financial result can be a proposal before incorporation, consent or execution. Legal entity formation, tax treatment and legally effective protection require their own applicable professional results.
+
+An ownership chart supplies only some of these relations. A parent can own a subsidiary without receiving its cash before the parent's debt falls due. An operating subsidiary can owe an external lender while another subsidiary guarantees the same debt. A treasury centre can execute payments without owning the money or being its obligor. Preserve those distinctions in the design.
+
+### FIN.23:2 - Problem
+
+Group totals can show ample cash and acceptable leverage while particular entities cannot pay. A cheaper funding source may create an unavailable transfer, shift loss to a minority owner or expose several activities to one failure. Choosing each loan separately can pledge the same support twice. Changing the organizational chart does not resolve these financial relations.
+
+### FIN.23:3 - Forces
+
+Pooling can reduce external borrowing while consuming a member's liquidity and exposing it to other members' losses. Local funding can preserve access and autonomy while duplicating costs. Guarantees can improve access while concentrating contingent obligations. Tax, creditor rights, minority interests, currency and settlement conditions can constrain a financially attractive design. The arrangement must remain workable through transition as well as in its intended final state.
+
+### FIN.23:4 - Solution
+
+Construct the entities' financial paths, propose different ways of connecting them, and compare the resulting service, risks and participant consequences. Start at the unresolved relation; an adequate part of the present arrangement can remain in place.
+
+#### FIN.23:4.1 - Derive the needs and contributions before choosing a centre
+
+Identify the activity to be funded and the entities that receive its revenue, own its assets, owe payments or hold usable surplus. Use FDM.2 for disputed identity, grouping or support. Prepare FIN.2's dated account for each affected payer, with its operating needs and reserve. Preserve the group view for total external cash and value, but do not use it in place of these accounts.
+
+Separate a temporary mismatch, recurrent seasonal use and capital needed without a supported repayment date. For a proposed internal loan, identify the borrower's actual source of repayment and the lender's next need for its money. A continually renewed deficit may need a term commitment or equity rather than a promise of overnight repayment. Determine who can absorb the corresponding loss and whose consent matters. Include minority owners and existing creditors when their claims or protection change.
+
+Recover the constraints on the proposed financial moves: existing debt, security, distributions, guarantees, transfer timing and currency conversion. Obtain a specific institutional answer when it changes the construction, such as whether this subsidiary may lend this amount on these terms while maintaining its obligations. Use the answer's actual scope. A generic statement that group transfers are permitted cannot establish every proposed route.
+
+#### FIN.23:4.2 - Form materially different financing arrangements
+
+Work back from the required money and risk-bearing capacity. Compare arrangements that change where external claims and internal commitments sit:
+
+- An operating entity raises funds directly, with its own service and security. Group coordination can remain common even when the debt is local.
+- A parent or a financing entity raises funds and provides internal loans or equity. Specify how it obtains the cash needed to service its external claim; ownership alone supplies no timely receipt.
+- A member lends an available surplus to another member, directly or through a treasury entity. Set amount, period, pricing, availability and repayment on the parties' actual needs.
+- A group member guarantees a specified obligation or provides another bounded support commitment while the borrower raises the money. Identify the support beneficiary, trigger, limit and performance time.
+- An arrangement pools temporary cash or offsets eligible payment needs. Identify whose accounts and claims change and which service the bank or treasury provider supplies.
+
+These can be combined. Use FIN.10 to construct missing financial terms and participant willingness, rather than treating the list as available products. An entity created for funding or a particular project can be a proposal when its real contribution justifies its formation and continuing cost. Moving assets, contracts or employees to it introduces additional transactions and operating consequences. Merely forming it does not establish separate loss exposure or access to capital.
+
+For each proposal, describe the claim and cash route in ordinary terms: external lender to borrower; borrower to the operating recipient; operating receipts to the entity entitled to them; service back to the lender; and the applicable failure route. Identify equity separately from a repayable internal loan. A diagram may help, but each arrow must mean a specified payment, claim, ownership or support relation. An arrow labelled “group support” is incomplete if the arrangement depends on its timing or extent.
+
+#### FIN.23:4.3 - Design the internal terms and the allocation of benefit and loss
+
+Apply FIN.10 to the actual participants. Compare an internal lender with retaining usable cash or its attainable external placement, and compare the borrower with its feasible external funding or changed operating plan. Include required liquidity, expected loss and costs, not just interest. The internal price allocates benefit between members; an internal interest payment does not by itself increase the whole group's external resources. Tax and other real effects can prevent cancellation and need their own supported treatment.
+
+An internal loan needs a supportable amount, service dates, currency, rank, terms for early repayment or recall, and consequences if repayment fails. If the lender needs withdrawal on demand while the borrower can repay only after a long investment, identify the party and committed capacity carrying that mismatch. Compare a smaller loan, a longer commitment, external backup or equity participation. A transfer described as a loan but lacking a credible repayment route reopens the form and amount, as well as any required accounting or tax classification.
+
+A guarantee needs a separate account of the guarantor. Calculate when it could have to pay while meeting its own obligations; follow any reimbursement claim and avoid counting its recovery twice. A guarantee payable after default may help the lender but fail to provide the borrower's earlier payroll cash. Correlated deterioration can make both borrower and guarantor weak at the same time. An assessed fee or an owner instruction supplies no missing capacity. Compare a limited amount, different trigger, funded reserve or direct capital contribution when those alter the failing condition.
+
+For cash pooling, distinguish a service that transfers balances and creates internal positions from a bank service that calculates interest across accounts without transferring their balances. Determine the actual draw, set-off, guarantee, membership and exit terms. Size each member's access against simultaneous needs and the pool's committed external support. Provide a response to persistent balances and entry or exit of a member; a short-term liquidity service should not silently become uncommitted long-term funding. Keep the local forecasting and spending incentives in view through FIN.19 and FIN.20.
+
+When related-party pricing or tax treatment matters, obtain the applicable treatment for the specified transactions and functions. A financially acceptable division of savings is not by itself an arm's-length or tax conclusion. Equally, a tax-acceptable price does not establish service capacity or a worthwhile financial arrangement.
+
+#### FIN.23:4.4 - Follow ordinary cash and failure through the whole arrangement
+
+Calculate two connected views. In each entity, carry every receipt, payment, claim and contingent support at its actual dates and conditions. In the group view, eliminate genuinely internal transfers once and retain external service, costs, taxes and economic consequences. The two views answer different questions and must reconcile. An internal debt eliminated in consolidation still has to be serviced or validly changed between the entities.
+
+Test where a loss or delay stops and where it propagates. Follow restrictions on upstream cash, access to pledged assets, guarantees, cross-default or acceleration terms and loss of common bank capacity only as their actual agreements provide. A lender to the parent may depend on value reaching it after subsidiary creditors have been satisfied; direct lending or a guarantee can create a different claim. Obtain the applicable ranking and enforceability before asserting a recovery amount. The label “ring-fenced” is insufficient when another commitment reconnects the exposures.
+
+Stress causes shared by several members as well as a local failure: the same customer, currency movement, collateral decline or bank withdrawal can damage more than one route. A backstop should be available in the state where it is needed. Do not both lend a subsidiary's entire surplus and count that same money as available to meet its guarantee. Compare the group gain with effects on each materially affected participant. A design can lower group cost yet require changed terms or consent because it worsens one entity's position.
+
+#### FIN.23:4.5 - Construct the transition and the usable continuation
+
+Sequence the actual changes: commitments and consents, any entity or account establishment, security releases, new funding, internal transfers and repayment of old claims. Include fees, temporary double funding, trapped balances and the service needed during transition. Use FIN.10:4.1.3 when conditions must close together. A sound final structure can remain unreachable if the old lender must be paid before new money can become available.
+
+Return the proposed arrangement, its reason, participant consequences, funded transition and outstanding conditions. Name the first authorized useful action and what remains conditional. FIN.15 executes the selected transactions; FIN.19 obtains any changed allocation or execution arrangement. A new loan does not automatically require a new department, and centralized payment work does not automatically require centralized borrowing.
+
+Reopen the affected relation when activity, ownership, a member's cash horizon, restrictions or provider access changes. FIN.17 updates the accounts and FIN.11 reconsiders a materially changed financing policy. Retain unaffected contracts and valid forecasts. Stop design when an adequate existing arrangement or one supported proposal answers the receiving decision; additional structural complexity requires a financial gain that justifies its cost.
+
+### FIN.23:5 - Archetypal Grounding
+
+Consider two wholly owned subsidiaries, A and B. A has cash 90, must pay 40 for operations now and retain 20, leaving 30 potentially available. B has cash 10, must pay 70 for an investment now and retain 10, so it needs 70 of finance. B's supported day-90 operating receipt is 100. There are no other cash flows, taxes or fees in this case. Actual institutional review permits the contemplated internal loan and confirms the necessary consents; that permission does not determine its worthwhile amount or price.
+
+The available external comparison is a B loan of 70 requiring 77 on day 90, while A can place its 30 externally and obtain 30.60 on that date. The proposal is to lend A's 30 to B and borrow only 40 externally on terms requiring 44. Let internal interest be i. A requires at least the 0.60 available from its placement on the stipulated comparable risk and liquidity grounds. B's total service is 30 + i + 44 = 74 + i, against 77 externally, so its upper bound is i = 3. The range 0.60 through 3 permits a financial division of the gain. Selecting i = 1.50 gives A more than its comparison and leaves B better off. If risk or liquidity is not comparable, re-estimate that bound before choosing the price; the interval supplies no tax-pricing conclusion.
+
+At initial funding, A pays operations 40 and lends 30, retaining 20. B receives 30 internally and 40 externally, pays 70 and retains 10. On day 90, B has 110, repays 31.50 internally and 44 externally, and retains 34.50; A has 51.50. Under the separate external arrangements, B retains 33 and A 50.60. The combined gain is 2.40: external interest avoided is 3, less the 0.60 placement return forgone. Internal interest 1.50 divides the result without becoming another external cost.
+
+This construction obtains proposed transactions and a mutually acceptable financial range from the two entities' needs and alternatives. It still requires the actual loan terms, lender availability and execution. If the external 40 can be drawn only after A's money arrives, place that transfer and the bank's conditions before B commits to the investment. A promised day-end total cannot support an earlier irrevocable payment.
+
+Change one premise: A must be able to make an additional payment of 25 on day 30 while preserving reserve 20. Its internal lending capacity without another source is now 90 − 40 − 25 − 20 = 5. Making the 30 loan callable does not repair the combination: B has already invested and cannot return 25 then. Compare lending at most 5 with more external funding at B, obtaining an actually committed backup of 25 for A with its later service, or changing the investment timing. Reprice and recalculate the selected alternative. The group still has the same opening cash and ownership, but the appropriate financial connections have changed.
+
+#### FIN.23:5.1 - Change the location of a claim, not merely a reported ratio
+
+In a separate simplified recovery case, parent P owns all of subsidiary S. S has assets realizing 80 and existing external claims of 60; P has no other asset and owes 30 externally. The stipulated ranking pays S's creditors before distributing the residual to P, with no taxes or process costs. S's creditors receive 60, P receives 20, and P's creditor recovers only 20 of its 30. Group assets of 80 and debt of 90 do not tell that creditor's answer.
+
+For comparison, suppose the new 30 had instead been borrowed directly by S and ranked equally with the existing 60 against that same 80. The stipulated pro-rata recovery would be 30/90 × 80 = 26.67 for the new lender and 53.33 for the existing creditors. Location and rank have changed the distribution. The existing creditors' worse recovery is a reason to inspect their restrictions and required consent, not an available free benefit to P. A guarantee or security package would require its own claim and recovery construction; adding a label cannot select the result.
+
+#### FIN.23:5.2 - Distinguish seasonal pooling from permanent capital
+
+Several trading entities have offsetting collection and purchasing cycles. A pool with specified transfer and draw terms can use temporary surpluses against temporary needs, retaining the member limits, external backup and local reserves. Compare its external financing and operating cost with separate arrangements through the dates on which members need their money back.
+
+Now one member begins a development programme that remains in deficit beyond every other member's surplus period. Repeated overnight entries do not create a repayment source. Isolate that enduring amount from the seasonal pool and compare a term loan backed by an appropriate capital provider, equity, staged development or a smaller programme. The seasonal service can continue for the remaining fluctuation. This change in the financial mechanism selects a different construction while preserving the useful part of the pool.
+
+### FIN.23:6 - Bias-Annotation
+
+A group perspective can conceal a member's loss, minority participation or local inability to pay. A central treasury perspective can understate the information and work needed locally. Familiar tax locations or bank products can bias the design before its financial purpose is understood. Treat provider claims as claims about that provider's service, and obtain the actual conditions that affect use.
+
+### FIN.23:7 - Conformance Checklist
+
+Can the reader trace each payer's money, service and reserve as well as total external consequences? Does each proposed internal claim or support obligation have parties, amount or rule, dates, conditions and a credible performance source? Does the comparison include each materially affected participant and its alternative? Are transferred risk, simultaneous demands and failed upstream receipts followed through the arrangement? Can the transition close without relying on absent funds or releases? Are proposal, consent, commitment and settlement supported at the strength claimed?
+
+A worked calculation establishes consequences under its premises. Reliance on a real arrangement additionally needs its current institutional, counterparty and execution facts; it does not require proof that every forecast will occur.
+
+### FIN.23:8 - Common Anti-Patterns and How to Avoid Them
+
+Treating consolidated cash as every entity's money omits the transfer; use the entity paths. Lending all surplus and counting it again as guarantee capacity promises one resource twice; test the joint state. Pricing an internal loan before establishing repayment can formalize an unfunded relationship; first choose its amount and form. Calling temporary sweeps permanent finance conceals withdrawal risk; separate the horizons. Moving all borrowing to a parent without a service route creates a new cash problem; follow receipts to that obligor.
+
+### FIN.23:9 - Consequences
+
+The method produces a financial arrangement that can be compared and implemented at its actual scope, including a supported decision to retain local financing. It exposes where group benefit comes from, who receives that benefit or bears a loss, and what conditions still prevent use. Its cost is the work of resolving the consequential entity, contractual and operational details. A simple internal loan can be sufficient; a group-wide redesign is not the default result.
+
+### FIN.23:10 - Architectural Rationale
+
+Claims and payment capacity attach to participants, while ownership, reporting and operating groupings can cross those participants differently. Constructing the financial connections therefore requires more than aggregating balances or selecting a total debt ratio. It also differs from organizing finance work: the same people can administer several different financial structures. FIN.23 retains FIN.10's instrument construction and FIN.11's policy evaluation while owning the recurring question of how those contributions fit across entities.
+
+### FIN.23:11 - SoTA-Echoing
+
+The [ACT group-financing discussion][ACT-GROUP] supplies the contrast between parent and entity borrowing and the consequences of guarantees and structural subordination. Its general rankings of cost and ease of moving money are not adopted as universal results. The [OECD 2022 guidance, Chapter X][OECD-FIN], supplies a comparison of parties, transactions and effects for internal finance, cash pools and guarantees; its tax purpose and jurisdictional application remain distinct from the financial design here. The worked cases and construction above are this framework's synthesis, not cases reported by those sources.
+
+ACT's [2026 treasury-transformation discussion][ACT-TRANSFORM] connects entities, flows, local work and the scale of change. FIN.23 retains the need to compare the whole arrangement while distinguishing its financing relations from FIN.19's organization of work. Current contracts, law, market access and the participants' own financial needs can change the preferred construction.
+
+### FIN.23:12 - Relations
+
+FDM.2 and FDM.3 supply parties, support and conditional claims when unresolved. FIN.2 supplies entity payment paths; FIN.10 constructs financing terms; FIN.11 evaluates policy; FIN.12 identifies contractual constraints; FIN.13 and FIN.14 assess exposure and protection. FIN.21 addresses a distribution and FIN.22 a broader recovery. FIN.15 executes selected transactions, FIN.17 refreshes their account, and FIN.19 and FIN.20 address work organization and continued practice. ECO.3 through ECO.5 remain external suppliers for exchange, dependent commitments and incentives. Appropriate legal, tax, accounting and entity-formation results remain external where the proposed arrangement needs them.
+
+### FIN.23:End
 
 # Part D - Exposure and treasury action
 
@@ -3991,6 +4280,8 @@ Keep the public rules and conditions that genuinely constrain the choice. Financ
 
 
 
+Distinguish this work arrangement from the financial relations it administers. If the needed change is which entity borrows or lends, how cash reaches the payer, or which entity guarantees a loss, obtain the financial construction through FIN.23. Use that result here to determine any corresponding information, decision and execution work. A new allocation right alone cannot create an intercompany loan; an adequate loan need not require redesigning the finance organization.
+
 #### FIN.19:4.6 - Compare the burden that each remedy moves
 
 
@@ -4322,7 +4613,7 @@ Copyright © Anatoly Levenchuk. The original framework text and worked examples 
 **Framework and edition:** Corporate Finance Principles Framework, FIN 1.0.\
 **Language:** English.\
 **Edition date:** 27 September 2026.\
-**Boundary:** The twenty-two FIN patterns, practical entries, Architectural Reference and reference material in this publication.
+**Boundary:** The twenty-three FIN patterns, practical entries, Architectural Reference and reference material in this publication.
 
 For a precise citation, name the framework, FIN 1.0, the edition date and the pattern or section, for example: “Anatoly Levenchuk, Corporate Finance Principles Framework, FIN 1.0 (27 September 2026), FIN.9 — Compare Capital Investments and Allocations.” Mark adaptations and retain the applicable attribution.
 
@@ -4369,6 +4660,17 @@ The pattern bodies state the adopted contribution and comparison. These locators
 | [World Bank, A Toolkit for Corporate Workouts, 2022][WB-WORKOUT], sections 2.3 and 2.6–2.9 | Viability and recovery, negotiation and consent, and interim finance. The toolkit does not establish current law for every jurisdiction. |
 | [MA 1.0][MA] and [FDM 1.0][FDM] | The supplied accounting and financial-modeling methods and their qualified source contributions. MA's Bragg, Caspari and Bogsnes sources are historical anchors used for particular distinctions, not labels for the latest line in all finance. |
 | [FPF][FPF], especially [FPF C.11][CHOICE], [FPF C.11.DUA][DUA], [FPF C.32.MWA][MWA] and [FPF C.36][CULT] | General methods reused for the specific relations explained in the Architectural Reference and FIN bodies. |
+| [World Bank, PPP Reference Guide, Considerations for Government: Bankability][WB-BANKABILITY] | Public explanation of how service capacity, risk allocation and equity needs interact. FIN.10 uses that connection as a bounded professional comparison; its corporate cases and their numbers are constructed here. |
+| [ACT, Group financing decisions are often governed by circumstance][ACT-GROUP] | Parent and entity borrowing, guarantees and structural subordination. FIN.23 retains these distinctions without adopting universal claims about cheapest funding or easy intragroup movement. |
+| [OECD, Transfer Pricing Guidelines 2022, Chapter X][OECD-FIN], especially paragraphs 10.17 through 10.21, 10.109 through 10.124 and 10.155 through 10.165 | Financial transactions, participant alternatives, cash pooling and guarantees. The chapter's transfer-pricing purpose and institutional applicability remain distinct from a finance design or current local-law conclusion. |
+| [ACT, Roundtable encourages broad assessment of UK business, 15 July 2025][ACT-CASH-2025] | Practitioner observations about payment capacity, forecasting and an unintended pooling consequence. This reported experience is a reason to inspect those conditions, not causal evidence for a general claim. |
+| [Economic Reasoning and Coordination (ECO)][ECO], ECO.3 through ECO.5 | Obtainable public methods for creating exchange, connecting commitments and constructing terms around information and incentives. FIN.10 supplies their financial application and FIN.23 its group use. |
+
+[ECO]: ../ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md
+[WB-BANKABILITY]: https://ppp.worldbank.org/considerations-government
+[ACT-GROUP]: https://www.treasurers.org/hub/treasurer-magazine/group-financing-decisions-are-often-governed-circumstance
+[OECD-FIN]: https://www.oecd.org/content/dam/oecd/en/publications/reports/2022/01/oecd-transfer-pricing-guidelines-for-multinational-enterprises-and-tax-administrations-2022_57104b3a/0e655865-en.pdf
+[ACT-CASH-2025]: https://www.treasurers.org/hub/cash-management/roundtable-encourages-broad-assessment-UK-business
 
 [AFP-PARTNER]: https://www.financialprofessionals.org/glossary/finance-business-partnering
 [ICAEW-MODEL]: https://www.icaew.com/-/media/corporate/files/technical/technology/excel-community/financial-modelling-code.ashx

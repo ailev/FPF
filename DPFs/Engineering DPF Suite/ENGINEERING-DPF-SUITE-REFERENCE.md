@@ -720,7 +720,7 @@ Use [Semantic Integration Engineering (SIE)](SEMANTIC-INTEGRATION-ENGINEERING-PR
 
 ### Engineering.Reference:1.18 - Value investments, arrange finance and manage liquidity
 
-[Corporate Finance (FIN)](../Management%20DPF%20Suite/CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md) provides methods for valuing investments, arranging finance, preserving liquidity and managing financial exposure.
+[Corporate Finance (FIN)](../Management%20DPF%20Suite/CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md) provides methods for valuing investments, arranging finance, preserving liquidity and managing financial exposure. It also explains the financial relations of the activity and constructs financing terms and connections between group entities. The resulting claims and payment paths return to the investment and operating choices they enable.
 
 Choose the question you need to answer, then open the linked method and check its conditions of use.
 
@@ -747,7 +747,8 @@ Choose the question you need to answer, then open the linked method and check it
 
 | Working question | Start with | Result |
 | --- | --- | --- |
-| Which financing terms fit the corporation's funding need? | [Design Financing Instruments and Terms (FIN.10)](../Management%20DPF%20Suite/CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin10---design-financing-instruments-and-terms) | A comparison of arrangements by proceeds, future payments, rights and conditions of access. |
+| Which financing contributions and terms can meet the need and be acceptable to their participants? | [Design Financing Instruments and Terms (FIN.10)](../Management%20DPF%20Suite/CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin10---design-financing-instruments-and-terms) | A constructed or compared proposal with net proceeds, future service, rights, participant consequences and conditions for funding. |
+| How should financing and support connect the group's entities? | [Construct Financing Arrangements Across Group Entities (FIN.23)](../Management%20DPF%20Suite/CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin23---construct-financing-arrangements-across-group-entities) | A financial arrangement with entity cash paths, internal and external claims, loss consequences and transition conditions. |
 | What mix of debt and equity is feasible and useful? | [Select Capital Structure (FIN.11)](../Management%20DPF%20Suite/CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin11---select-capital-structure) | A proposed financing mix compared under cash, tax, control, access and distress conditions. |
 | Could covenants or refinancing remove access to funds? | [Preserve Covenant Headroom and Financing Flexibility (FIN.12)](../Management%20DPF%20Suite/CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin12---preserve-covenant-headroom-and-financing-flexibility) | The applicable covenant or funding test, remaining headroom and available responses. |
 | How much capital should we retain or return to owners? | [Decide How Much Capital to Retain or Return (FIN.21)](../Management%20DPF%20Suite/CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin21---decide-how-much-capital-to-retain-or-return) | A comparison of retention, dividends or repurchases, with an amount and form supported by the funding conditions. |
