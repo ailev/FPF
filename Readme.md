@@ -12,7 +12,7 @@ You can also use one method for one calculation, design, decision or learning ne
 
 ## How the Library is organized and why
 
-**[Read the Library Architectural Reference](FPF-LIBRARY-REFERENCE.md).** It explains why general methods belong to Core, why some disciplines form Suites while others have standalone frameworks, and how their contributions work together. Use it to get an overview, understand an apparent overlap or judge a proposed change. It is the explanation of the Library’s design, not a catalogue of filenames.
+**[Read the Library Architectural Reference](FPF-LIBRARY-REFERENCE.md).** It explains why general methods belong to Core, why some disciplines form Suites while others have standalone frameworks, and how their contributions work together. Use it to get an overview, understand an apparent overlap or judge a proposed change.
 
 For a familiar task, you can go straight to a suitable method below.
 
@@ -34,7 +34,7 @@ Before applying a method, read [Using FPF Library](USING-FPF.md). It explains ho
 
 ## Keep connected reasoning in view
 
-Individual methods answer local questions; **long mantras** help hold their reasons and mutual constraints together. For a project, the **[system-thinking long mantra (FPF A.1.STM)](https://fpf.tools/A.1.STM)** connects intended use, a common target, functioning, construction, ways of obtaining it, capable creators and their cooperation. Its full explanation shows why those answers must fit and what to revisit when one changes.
+**Long mantras** help recall how answers to related questions depend on one another. For a project, the **[system-thinking long mantra (FPF A.1.STM)](https://fpf.tools/A.1.STM)** connects intended use, a common target, functioning, construction, ways of obtaining it, capable creators and their cooperation. Its full explanation shows why those answers must fit and what to revisit when one changes.
 
 The **[control mantra (FPF C.43)](https://fpf.tools/C.43)** connects assessment of the situation, possible continuations, comparison and choice, realization, examination of what happened and revision. Its full Method explains how observations can change later choices, how means and timing constrain them, and how an intervention can develop the capability to address further problems. Technical control, economic choices and developmental recommendation retain their particular mechanisms.
 
