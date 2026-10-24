@@ -303,7 +303,7 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | C.2.P | **Clarify Episteme, Publication, and Source Wording (Epistemic Precision Restoration)** | Stable | Clarifies wording that leaves an episteme, publication, source-to-use, carrier, or use-disposition distinction unresolved. Recover the sentence's function and the missing distinction, then repair it or use the exact subject pattern; stop when that pattern and its current field are already clear. | **Builds on:** E.10, C.2.1, A.7, E.17.0, E.17, A.6.P, F.18. **Coordinates with:** E.8, E.12, E.17.AUD, E.17.EFP, E.17.ID.CR, A.10, A.15, A.20, A.21, B.3, C.11. |
 | C.2.2 | **Reliability R in the F–G–R triad** | Stable | *Keywords:* Reliability (R), warrant, evidence-bound, F–G–R, ClaimScope (G), support dependencies, non-aggregate synthesis, direct relation, Congruence Level (CL / CL^k / CL^plane), weakest-link limits, pathwise justification (PathId), TA/VA/LA lanes. *Queries:* "How strongly is this exact claim warranted for this use?", "Can its support be combined numerically, or should it remain a reasoned synthesis?", "What loss does the actual reuse relation justify?", "What is R in F–G–R?" | **Builds on:** C.2, A.2.6, C.2.3, B.3, B.1.3, C.3, F.9. **Coordinates with:** G.6, G.7, E.14, E.18. **Constrains:** any claim reuse whose actual changed scope, kind, plane, scheme, model use, source-local meaning, notation, or evidence basis changes `R_eff`. |
 | C.2.2a | **`U.LanguageStateSpace` - Language-state chart over `U.CharacteristicSpace`** | Stable | *Keywords:* language-state chart, characteristic space, position claim, partial coordinates, formality, articulation, closure, anchoring, representation, local thresholds, episteme publication. *Queries:* "Which separate facet readings lie behind 'early', 'ready', or 'settled'?", "What position and local threshold does the next action use?", "What is the language-state space in FPF?" | **Builds on:** A.19, E.10, F.18. **Used by:** C.2.LS, A.16, B.4.1, C.16.Q, A.6.A. |
-| C.2.3 | **Unified Formality Characteristic F** | Stable | *Keywords:* Formality, F-scale, F0-F9, rigor, proof, specification, language-state separation. *Queries:* "What is Formality F in FPF?", "How does F differ from articulation, closure, or anchoring?" | **Builds on:** C.2. **Constrains:** all patterns referencing F-G-R or language-state facets. |
+| C.2.3 | **Formality of an Episteme** | Stable | *Keywords:* Formality assessment, expression properties, partial order, local ordinal scale, proof, specification, language-state separation. *Queries:* "What is Formality F in FPF?", "How does F differ from articulation, closure, or anchoring?" | **Builds on:** C.2. **Constrains:** all patterns referencing F-G-R or language-state facets. |
 | C.2.LS | **`U.LanguageStateFacetProfile` - Thin profile bundle for language-state facets** | Stable | *Keywords:* facet profile, articulation, closure, anchoring, representation factors, threshold package. *Queries:* "How are language-state facets named together in FPF?", "What is a LanguageStateFacetProfile?" | **Builds on:** C.2.2a, C.2.4-C.2.7. **Coordinates with:** A.16. |
 | C.2.4 | **`U.ArticulationExplicitness` — How Explicit Is an Episteme's Meaning for Its Use?** | Stable | *Keywords:* articulation explicitness, AE0–AE5, semantic branch, stable cue, branch-appropriate expression, receiving use. *Queries:* "Is the meaning explicit enough for the receiving pattern?", "What is still missing between a stable cue and a complete branch-appropriate expression?", "How does articulation differ from formality and reader-specific structural recovery?" | **Builds on:** C.2.2a. **Coordinates with:** C.2.LS, A.16. |
 | C.2.5 | **`U.LanguageStateClosureDegree` — How Fixed Is the Current Candidate Space?** | Stable | *Keywords:* closure degree, CD0–CD5, candidate-space closure, route space, frame space, reopen, settledness. *Queries:* "How fixed are the current candidates, routes, or frames?", "What remains open, and what would justify reopening?", "How does closure differ from articulation and warrant?" | **Builds on:** C.2.2a. **Coordinates with:** C.2.LS, A.16. |
@@ -6621,7 +6621,7 @@ The sources' transferable contribution is bounded: current action decisions need
 Source words such as *applicability*, *envelope*, *generality*, and *capability envelope* may appear only as explanatory aliases in non-normative notes.
 
 **Cross‑references.**
-- **C.2.3** (Unified Formality **F**) and **C.2.2** (F–G–R): this pattern **defines G** as `U.ClaimScope`.
+- **C.2.3** (Formality assessment **F**) and **C.2.2** (F–G–R): this pattern **defines G** as `U.ClaimScope`.
 - **A.2.2** (Capabilities): capability gating **SHALL** use `U.WorkScope`.
 - **F.9** (Bridges): use an exact obtaining Bridge only when membership content must be translated across exact local senses; a different label or reference scheme alone does not trigger translation. F.9 supplies the direct semantic relation only. The separate C.2.1 claim states the exact translation use, direction, rule, tolerance, and polarity; A.10 or B.3 governs reliance on that claim.
 - **Part E** (Publication discipline; e.g., **E.17 MVPK**): publication views, cards, and lanes MAY declare `U.PublicationScope` to bound **where** a publication is admissible; `U.PublicationScope` MUST NOT widen the underlying `U.ClaimScope`/`U.WorkScope`. (USM supplies the scope calculus; Part E supplies publication discipline.)
@@ -6971,10 +6971,10 @@ Early “G ladders” effectively encoded **abstraction/typing** (instances -> p
 When exact local senses require translation, an obtaining F.9 Bridge establishes their direct semantic relation while a separate C.2.1 claim states the proposed mapping rule and tolerated loss. There is no canonical way to translate an ordinal G level: the mapped area may be narrower or differently factored. USM translates exact sets only through that bounded claim and keeps A.10 or B.3 reliance separate rather than rewriting G.
 
 **5) A G ladder duplicates ESG guards without adding decision power.**
-What teams often want to “compress into a G number” is actually (a) the quality of expression and (b) the completeness of the declared scope. The first is an F threshold; the second is handled by explicit guards: `Scope covers TargetSlice`, `gammaTime is explicit` only when membership varies with time, and a separate freshness-window check when current. A ladder for G adds confusion but no decision power.
+What teams often want to “compress into a G number” is actually (a) the quality of expression and (b) the completeness of the declared scope. The first is a requirement on expression properties under C.2.3; the second is handled by explicit guards: `Scope covers TargetSlice`, `gammaTime is explicit` only when membership varies with time, and a separate freshness-window check when current. A ladder for G adds confusion but no decision power.
 
 **Normative directive.**
-`U.ClaimScope (G)` **SHALL** remain a **set‑valued USM scope object**; **no ordinal or numeric ladder SHALL be defined** for G. If a profile needs scalar reporting, it MAY publish an explicit **report‑only** proxy **`CoverageMetric(G)`**, but **`CoverageMetric(G)` MUST NOT substitute for `G`** in norms, gates, Bridge semantics, bounded-use claims, or reliance decisions. Authoring and gating **SHOULD** use **F thresholds** (C.2.3) and **explicit guard predicates** (A.2.6) rather than pseudo‑levels of G.
+`U.ClaimScope (G)` **SHALL** remain a **set‑valued USM scope object**; **no ordinal or numeric ladder SHALL be defined** for G. If a profile needs scalar reporting, it MAY publish an explicit **report‑only** proxy **`CoverageMetric(G)`**, but **`CoverageMetric(G)` MUST NOT substitute for `G`** in norms, gates, Bridge semantics, bounded-use claims, or reliance decisions. Authoring and gating **SHOULD** use **required expression properties or justified local formality thresholds** (C.2.3) and **explicit guard predicates** (A.2.6) rather than pseudo‑levels of G.
 
 #### A.2.6:7.5 - Translation across exact local senses
 
@@ -7006,7 +7006,7 @@ An A.10 `pass`, or a B.3 `AssuranceResult` with `disposition=supported-for-use`,
 * **I-LOCAL.** Interpret membership under the effective reference scheme and exact local senses current to the declaration. Translate only through an obtaining F.9 Bridge plus the separate affirmative C.2.1 claim for that translation; keep A.10 or B.3 reliance outside membership truth.
 * **I‑SERIAL.** Serial scope is an **intersection**; it cannot grow by adding dependencies.
 * **I‑PARALLEL.** Parallel scope MAY grow by union, but only where **independently supported**.
-* **I‑WLNK.** **F** follows the weakest-essential-formal-constituent rule under C.2:4.3 and C.2.3:15.1. **R** follows the justified support-composition model or non-aggregate synthesis under C.2.2:4.3 and B.3:4.4; dependency paths alone supply no default minimum. **G** follows the set rules in A.2.6:7.2 and A.2.6:7.3.
+* **I‑WLNK.** **F** describes the required expression properties of the essential constituents and their connecting inferences under C.2:4.3 and C.2.3:15.1. The composition must preserve those properties; a minimum applies only under a justified rule on a shared local ordered scale. **R** follows the justified support-composition model or non-aggregate synthesis under C.2.2:4.3 and B.3:4.4; dependency paths alone supply no default minimum. **G** follows the set rules in A.2.6:7.2 and A.2.6:7.3.
 * **I‑IDS.** Idempotence: Intersecting or unioning a set with itself does not change it.
 * **I‑EMPTY.** Empty scope is a first‑class value; guards MUST treat it as “not applicable”.
 
@@ -7061,7 +7061,7 @@ A claim-scope guard starts with one exact judgment:
 membershipResult := evaluateMembership(TargetSlice, ClaimScope, InterpretationBasis)
 ```
 
-Admit the scope condition only when the result is `true`. Stop on `false`. On `unknown`, abstain, obtain the missing input, narrow the attempted use, or apply a separately governed reliance policy. Evaluate any required freshness, formality-threshold, time-currentness and assurance conditions separately. The gate decision remains under A.21.
+Admit the scope condition only when the result is `true`. Stop on `false`. On `unknown`, abstain, obtain the missing input, narrow the attempted use, or apply a separately governed reliance policy. Evaluate any required freshness, formality, time-currentness and assurance conditions separately. The gate decision remains under A.21.
 
 Add a translation branch only when the membership predicate uses exact local senses that ordinary designation resolution cannot align. Require the obtaining F.9 Bridge and the separate affirmative C.2.1 claim for this translation before deriving a scope, then require the current A.10 or B.3 reliance branch before the receiving guard relies on it. A different reference scheme or location label alone is not such a trigger.
 
@@ -7075,7 +7075,7 @@ member(TargetSlice, ClaimScope) = true
 
 Name the exact claim-bearing episteme, exact `U.ClaimScope`, and exact target slice. The episteme, scope, and slice remain different values.
 
-**EG-2 - Formality or evidence, only when current.** A receiving state may separately require a C.2.3 formality threshold or an A.10 freshness judgment.
+**EG-2 - Formality or evidence, only when current.** A receiving state may separately require a C.2.3 condition on expression properties, possibly abbreviated by a justified local threshold, or an A.10 freshness judgment.
 
 **EG-3 - Unknown evaluation.** When a required selector, designation resolution, or translation input is unavailable, return `unknown` as the result binding of the exact `evaluateMembership` application, or as the result of the directly governed evaluation when no reusable application is current. Abstain or follow the exact receiving reliance policy; do not assert `member = false`. Add a C.2.1 result episteme only when a named receiving use needs the conclusion to persist. Use A.15.PROD only when the current claim is that dated work first constituted that episteme.
 
@@ -7225,7 +7225,7 @@ USM counters three recurring biases. First, scope wording can hide a claim that 
 | **CC-USM-9 Translation boundary.** | `translate` uses an exact obtaining F.9 Bridge plus a separate affirmative C.2.1 claim naming the use, direction, rule, and tolerance. A receiving guard requires A.10 `pass` for ordinary reliance or, when an actual named assurance claim is current, a B.3 `AssuranceResult` for the same use with `disposition=supported-for-use`; scheme or label difference, a profile, or a card supplies none of these. |
 | **CC-USM-10 Representation boundary.** | A set expression, query, table, graph, or diagram is a C.29 representation of an independently identified scope or evaluation result. |
 | **CC-USM-11 Time only when material.** | Name `gammaTime` and its membership boundary when time changes membership; never use implicit “latest.” A time-independent predicate need not inspect `gammaTime`; retain every selector already declared in the slice, and do not invent one merely to complete a new declaration. |
-| **CC-USM-12 Separate reliance.** | Evaluate any required freshness, formality-threshold, time-currentness and assurance conditions separately from membership. The gate decision remains under A.21. A.10 governs ordinary reliance on a cross-scheme translation claim; B.3 applies only to an actual named assurance claim. Either result supports only its named use; neither authorizes that use. `unknown` remains an evaluation result used by the receiving guard; it does not change the scope. |
+| **CC-USM-12 Separate reliance.** | Evaluate any required freshness, formality, time-currentness and assurance conditions separately from membership. The gate decision remains under A.21. A.10 governs ordinary reliance on a cross-scheme translation claim; B.3 applies only to an actual named assurance claim. Either result supports only its named use; neither authorizes that use. `unknown` remains an evaluation result used by the receiving guard; it does not change the scope. |
 | **CC-USM-13 Publication and capability specializations.** | `U.WorkScope` and `U.PublicationScope` reuse the same value and membership boundary; their measures, qualification, publication, and carrier relations remain separately governed. |
 
 ### A.2.6:14 - Common Anti-Patterns and How to Avoid Them
@@ -7256,7 +7256,7 @@ A correct USM use makes scope checks reproducible: every judgment names an exact
 2. **Name the target slice.** Bind the full independently identified slice as `targetSlice`; put the selector resolutions and translation inputs needed by this evaluation in `interpretationBasis`.
 3. **Translate only when needed.** Use ordinary designation resolution first. If the membership predicate needs translation between exact local senses, name the obtaining F.9 Bridge and the separate affirmative C.2.1 claim for this translation's direction, rule, and tolerance. Derive the scope for the target reference scheme and establish its A.10 or B.3 reliance branch before using the returned scope.
 4. **Evaluate membership.** Use the returned translated scope when step 3 derived one; otherwise use the named scope. True admits the scope condition; false stops it; unknown calls for abstention, obtaining the missing input, or narrowing the attempted use.
-5. **Keep other checks separate.** Evaluate any required freshness, formality-threshold, time-currentness and assurance conditions separately, along with capability measures and qualification when required. The gate decision remains under A.21.
+5. **Keep other checks separate.** Evaluate any required freshness, formality, time-currentness and assurance conditions separately, along with capability measures and qualification when required. The gate decision remains under A.21.
 6. **Persist only what the use needs.** A C.2.1 result episteme may record the judgment when a named receiving use needs it to persist; a C.29 table may display it. Use A.15.PROD only when the current claim is that the work first constituted that episteme.
 
 #### A.2.6:16.2 - Architect’s design rubric for scopes
@@ -7448,10 +7448,10 @@ A.2.6 needs a scope mechanism to express the set-valued condition under which a 
 |  2 | OMG Essence        | *Alpha State; Work Product State; Level of Detail (LoD)*                    | **Work scope** (guards), **Detail (D)** (LoD), **ESG/RSG**                               | Essence separates **status** (states) and **work evidence**; LoD is **detail**, not scope. USM treats **scope** as guardable membership over slices; states/LoD map to ESG & **D**, not to G. |
 |  3 | NIST AI RMF        | *Context of use; validity, reliability, robustness; monitoring*             | **Claim scope (G)**; **R** freshness/monitoring                                          | “Context of use” = **where a claim/model holds** → maps to **G**. “Validity” is part of **R** vocabulary; we **avoid** naming the characteristic “validity” to prevent LA confusion.          |
 |  4 | ASME V\&V 40 / FDA | *Context of use; credibility factors; verification/validation*              | **Claim scope (G)**; **R** (credibility)                                                 | Direct fit for G via “context of use”. Credibility/evidence freshness contribute to **R**, not to G; USM keeps them separate in guards.                                                       |
-|  5 | W3C SHACL          | *Shapes; targets (sh\:targetClass, sh\:target); constraints*                | **Claim scope** (targets define **where** constraints apply); **F≥4** (predicate form)   | SHACL “target” ≈ **membership predicate** on a dataset context; analogue of **Claim scope** on data slices; constraint language supports **F4**‑style predicates.                     |
+|  5 | W3C SHACL          | *Shapes; targets (sh\:targetClass, sh\:target); constraints*                | **Claim scope** (targets define **where** constraints apply); **F** (explicit predicates with declared interpretation)   | SHACL “target” ≈ **membership predicate** on a dataset context; analogue of **Claim scope** on data slices; constraint language supplies predicates whose actual expression properties are assessed under C.2.3.                     |
 |  6 | OWL 2 practice     | *Class extension; domain/range; imports/version IRI*                        | **Claim scope** as class extension over an ontology context                              | Class extension is set‑semantics by design; **G** maps to extension over a versioned ontology (part of **ContextSlice**).                                                           |
 |  7 | IETF BCP 14        | *MUST/SHALL/SHOULD; requirements language*                                  | **Guard style** (observable predicates)                                                  | BCP 14 doesn’t define scope but dictates how guards are worded; USM aligns by requiring **observable, deterministic** membership checks.                                                      |
-|  8 | DO‑178C / DO‑333   | *Operational conditions; DAL; formal method objectives; TQL*                | **Work scope** (operating conditions); **F** (proof‑grade), **R** (assurance objectives) | Operational applicability = **Work scope**; formal method objectives lift **F**; Tool qualification impacts **TA/R**, not G.                                                                  |
+|  8 | DO‑178C / DO‑333   | *Operational conditions; DAL; formal method objectives; TQL*                | **Work scope** (operating conditions); **F** (expressed formal properties and derivations), **R** (assurance objectives) | Operational applicability = **Work scope**; formal method objectives select needed expression properties; Tool qualification impacts **TA/R**, not G.                                                                  |
 |  9 | ISO 26262          | *Operational situation & operating modes; ASIL; OSED*                       | **Work scope** (operating modes/situations)                                              | OSED/operating modes define **where capability can be exercised** → **Work scope**. Assurance level (ASIL) relates to **R**, not G.                                                           |
 | 10 | IEC 61508          | *SIL; demand mode; proof test interval*                                     | **Work scope** (demand vs continuous mode) + **R freshness**                             | Mode concepts influence **where/how** a function can be claimed → **Work scope**; proof test interval sits in **R** (freshness/decay).                                                        |
 | 11 | ACM Artifacts      | *Available/Evaluated/Reusable; Reproduced/Replicated*                       | **R** signals; **ContextSlice** (reproduction environment)                               | Badges encode **evidence availability and warrant level**; the declared environment maps to a **slice**; scope of claim is often implicit → USM makes it explicit.                                     |
@@ -7510,12 +7510,12 @@ A.2.6 needs a scope mechanism to express the set-valued condition under which a 
 
 * **G is Claim scope.** Use set algebra (∩ / SpanUnion).
 * **F** remains the expression rigor (C.2.3); **R** captures evidence currentness and bounded reliance. Observed loss may bear on the translation-use claim; its permitted-loss tolerance remains in that claim rather than in G or the Bridge profile.
-* **Composition.** F follows C.2.3's weakest-essential-support bound. R follows the justified support-composition model or non-aggregate synthesis under C.2.2. G follows §7.2–§7.3 (set rules).
+* **Composition.** F follows C.2.3:15.1: the essential content and connecting inferences must provide the expression properties claimed for the whole. R follows the justified support-composition model or non-aggregate synthesis under C.2.2. G follows §7.2–§7.3 (set rules).
 
 #### A.2.6:21.2 - With Formality (C.2.3)
 
-* **No conflation.** Raising **F** does not change **G** unless scope predicates change.
-* **Guarding rigor.** ESG may use `Formality >= F_k` alongside scope coverage.
+* **No conflation.** Strengthening an expression property does not change **G** unless scope predicates change.
+* **Guarding rigor.** ESG may require named expression properties alongside scope coverage. A local ordinal threshold abbreviates them only under its declared C.2.3 scale and mapping.
 
 #### A.2.6:21.3 - With Work & Run (A.15)
 
@@ -20393,13 +20393,13 @@ When alternatives remain unresolved, the note may support explanation only. It c
 
 #### A.6.P:4.10 - Classify boundary claims and keep engineered rewriting epistemic
 
-Use `A.6.B` only when a sentence at the boundary does at least one of four things: defines a truth-conditional relation or signature rule (**L**); decides whether one identified mechanism application may start or continue (**A**); states one individual duty whose actual bearer and `U.Commitment` relation are recoverable (**D**); or states which execution effect or evidence can be observed and under which conditions (**E**). A sentence about claim scope or use, when to start or stop A.6.P, how to correct an endpoint kind, or whether a Bridge is needed does not qualify merely because it limits the repair.
+Use `A.6.B` only when a sentence at the boundary does at least one of four things: defines a truth-conditional relation or signature rule (**L**); decides whether one identified mechanism application may start or continue (**A**); states a generic prescription from an exact normative source, an individual duty with its actual bearer and obtaining `U.Commitment`, or a grant under A.6.B:8.4.1's permission-word branch (**D**); or states which execution effect or evidence can be observed and under which conditions (**E**). A sentence about claim scope or use, when to start or stop A.6.P, how to correct an endpoint kind, or whether a Bridge is needed does not qualify merely because it limits the repair.
 
 Before giving a sentence an **A** label, answer two questions: Which mechanism application is about to start or continue? What predicate is checked at that point to admit or reject it? If either answer is missing, do not label the sentence **A**. Keep its scope or use, A.6.P start or stop decision, endpoint-kind correction, and Bridge need with the patterns that define or constrain those questions. Split any mixed sentence before classifying its claims:
 
 - **L** states the direct relation semantics, declaration invariants, polarity, participant meanings, and any reusable `SlotSpec` typing;
 - **A** states one predicate checked when an identified mechanism application starts or runs. Its result says whether that application is admitted, may continue, or is rejected. A condition does not become **A** merely because it limits a claim, tells an author when to enter or stop this pattern, asks for an endpoint-kind correction, or requires a Bridge;
-- **D** states an obtaining individual `U.Commitment` whose actual duty bearer is an admitted System or other party accepted by A.2.8; a system-role kind or assignment may be an applicability ground but is neither the bearer nor the commitment relation;
+- **D** states what an exact normative episteme prescribes, an obtaining individual `U.Commitment` with its actual duty bearer under A.2.8, or a grant selected by A.6.B:8.4.1 under A.2.8.PER. A generic prescription needs no invented individual bearer or commitment. An individual duty names its actual bearer; a system-role kind or assignment may be a rule ground but is neither that bearer nor the commitment relation. A grant retains its beneficiary, action and own obtaining basis; actual admission decisions and exercise remain separate E claims;
 - **E** states work and evidence expectations, witness carriers, observation conditions, and freshness using the patterns that define those work, evidence, and freshness claims.
 
 Scope, `Γ_time`, viewpoint, reference scheme, witnesses, admissible use, any justified non-admissible overread, and stop or return condition stay with the direct relation or claim that actually needs them. They are not a universal qualifier kit. Select a non-admissible overread through F.19's plausible-reader test. An `admissible use` sentence is not an **A** claim unless the reader can point to both the mechanism application and its runtime entry predicate.
@@ -34682,7 +34682,7 @@ To enforce this solution, the following rules apply:
 
 **In a physical system (`U.System`):** Consider a **Distance** Characteristic defined for a pair of physical objects. For example, two machines in a factory have a Distance of 3.5 meters between them. Here _Distance_ is a Relation-Characteristic (applies to the pair), with an associated Scale (e.g. a ratio scale in meters), and the measured 3.5 m is a **Coordinate** on that scale. If we instead look at an **Engine Temperature** Characteristic (unary), a particular engine might have a Temperature of 350 K at some moment – _Temperature_ (the Characteristic) is clearly separated from how it’s measured (Scale in Kelvin) and the reading (350, a Coordinate on that scale). A value of 360 K is hotter than 350 K. Whether it is preferable depends on the intended operation: heating and cooling can prefer opposite changes while using the same temperature Scale.
 
-**In an epistemic context (`U.Episteme`):** Consider a **Formality** Characteristic to rate a documentation episteme's rigor. We might define an ordinal Scale with named Levels such as _Informal_, _Semi-formal_, _Formal_. A given specification document can then be said to have _High Formality_ – meaning it occupies the “Formal” **Level** on the Formality Scale. Here _Formality_ (Characteristic) captures _what_ we measure about the document, while the tiered Scale (with qualitative levels) expresses _how_ we categorize it. Because we use an ordinal scale, we can rank documents by Formality, but we would not average “Semi-formal” and “Formal” (avoiding meaningless arithmetic on an ordinal metric). In another knowledge context example, one could define a Characteristic **Reliability** for a knowledge source with a percentage Scale from 0 to 100%. An article’s reliability might be 85% – which is only interpretable by knowing it refers to “Reliability” on a 0–100% Scale (i.e. a specific Coordinate on that Characteristic’s scale).
+**In an epistemic context (`U.Episteme`):** Consider a local Characteristic describing which requirements of a specification-expression rubric are met. Its ordered levels can require stable terms; stable terms plus explicit acceptance predicates and interpretation; and all those conditions plus expressed derivations for specified obligations. The criteria are nested by declaration. A specification at the last level satisfies the earlier expression requirements, but this supplies neither a universal rank of languages nor evidence that its derivations were checked. C.2.3 governs the formality assessment and any mapping to this local summary. The Characteristic names what is assessed, the Scale defines its levels and order, and the Coordinate reports the document's assessed level. Comparisons use that same rubric; averaging its ordinal levels remains meaningless. In another knowledge context example, one could define a Characteristic **Reliability** for a knowledge source with a percentage Scale from 0 to 100%. An article’s reliability might be 85% – which is only interpretable by knowing it refers to “Reliability” on a 0–100% Scale (i.e. a specific Coordinate on that Characteristic’s scale).
 
 ### A.17:6 - Bias-Annotation
 
@@ -42307,7 +42307,7 @@ When computing **Γ_epist^synth(D_know)**:
    Deduplicate actual evidence, not just citations. Account for overlapping data and shared biases before treating agreement as additional corroboration. State what each live limitation changes in the resulting claim.
 
 **5. Compose under the receiving model, or synthesize without a score.**
-   Keep F ordinal under C.2.3; any minimum for essential formal constituents concerns that formality claim, not R. Form G through the applicable C.2.2/A.2.6 scope rules; adding a study does not by itself extend applicability. For R, name the target quantity, compatible scales, dependencies, and warranted operation under B.3/C.2.2. This can justify a bottleneck minimum, a sufficient-argument choice, a probabilistic calculation, or a statistical synthesis; none is the universal default.
+   Assess F under C.2.3 from the expression properties of essential constituents and their connecting inferences. A minimum applies only under a justified composition rule on a shared local ordered scale; it concerns that expression assessment, not R. Form G through the applicable C.2.2/A.2.6 scope rules; adding a study does not by itself extend applicability. For R, name the target quantity, compatible scales, dependencies, and warranted operation under B.3/C.2.2. This can justify a bottleneck minimum, a sufficient-argument choice, a probabilistic calculation, or a statistical synthesis; none is the universal default.
 
    For a relied-on mapping, retain its CL summary and the actual limitation. A numerical loss function needs a receiving model that establishes its meaning, units, calibration or derivation, and assumptions. An ordinal CL rank, a monotone penalty table, or clipping to [0,1] supplies none of these. If no such calculation is justified, retain the separate support and mapping limitations in a reasoned synthesis; no penalty table or new study is required merely to return that result. A receiving assurance threshold applies only to the quantity and use for which it was justified.
 
@@ -42317,7 +42317,7 @@ When computing **Γ_epist^synth(D_know)**:
 **7. Handling axiomatic and world-facing support.**
    Retain each episteme's declared mode and actual support:
 
-* For an **axiomatic** input, empirical R may be N/A. Keep the proof, its conclusion under the stated axioms, and its formal validity; `line=formal` is a useful tag, not a conversion rule. **Do not set R to F.** An ordinal F-derived proxy describes only its declared ordinal meaning. Any value proposed for an R calculation needs a receiving model establishing meaning, scale, conversion, and assumptions; rescaling F into [0,1] is insufficient.
+* For an **axiomatic** input, empirical R may be N/A. Keep the proof, its conclusion under the stated axioms, and its formal validity; `line=formal` is a useful tag, not a conversion rule. **Do not set R to F.** A local ordinal formality summary describes only its declared ordinal meaning. Any value proposed for an R calculation needs a receiving model establishing meaning, scale, conversion, and assumptions; rescaling a formality rank into [0,1] is insufficient.
 * For a **postulative** input, retain its actual warrant and empirical or other support as applicable. Apply a B.3.4 currentness or decay policy only to the support whose use consumes that policy; changing the mode creates neither evidence nor a conversion model.
 * The aggregate declares its mode. If all its operative inputs are axiomatic, it is axiomatic; if an operative input is postulative, it is postulative. Keep any formal subclaim separately usable. A proof about a model supports a claim about a real system only with the needed model-to-world assumptions; evidence violating those assumptions remains visible.
 * **Constructive derivations.** State the chosen proof basis and the correspondence needed by the conclusion. An induction proof may use its stated non-UF foundation. A UF-based equivalence claim supplies the required equivalence or isomorphism witness and the structure that the receiving theorem needs preserved. A lossy mapping cannot transport a theorem that depends on an erased distinction. If the required proof basis or correspondence is unavailable, leave that inference unresolved while retaining independently supported conclusions. A CL summary describes mapping evidence; it establishes neither equivalence nor theorem transport.
@@ -45997,7 +45997,7 @@ When an inadequate working account requires general diagnostic recovery of the e
 > **Story.** A refinery team publishes `:PumpA ut:ComponentOf :Skid12`.
 
 * **Publication — Working-Model relation layer.**
-  They publish one assertion using the **Working-Model** relation **ComponentOf** and declare its `U.Formality` (typically **F≈F3**, controlled narrative). Only the Working-Model relation is visible to readers.
+  They publish one assertion using the **Working-Model** relation **ComponentOf**, with exact named participants and the relation interpreted under its declared semantics. Those are its relevant expression properties under C.2.3; a universal F rank is unnecessary. Only the Working-Model relation is visible to readers.
 
 * **Constructive grounding (Γₘ).**
   In the background, the published assertion links to `:trace_Γₘ_sum_456`, a C.2.1 episteme that names the exact pump and skid, the direct fastening, coupling, enclosure, terminal, flange, and seal occurrences that obtain, the applicable skid assembly rule, and the skid reidentification rule. An auditor replays that account to inspect the assertion's basis. The same listed parts under a different assembly can form another whole, while a permitted pump replacement can preserve Skid12; the direct relations and reidentification rule, not the trace or input list, decide.
@@ -51271,9 +51271,9 @@ When this work is a decision-support inquiry, PSDA.12 recovers participants and 
 
 > **Status:** Stable
 
-**Scope & exports.** A substrate-neutral calculus for composing **epistemic holons** (`U.Episteme`) and reasoning about their change and equivalence. Exports: (i) three **point-characteristics**—**Formality F**, **ClaimScope G**, **Reliability R**—that locate one exact claim-bearing episteme for a stated use; (ii) a **pairwise ladder** of **Congruence Levels (CL 0…3)**; (iii) four **Δ-moves** (*Formalise, Generalise/Specialise, Calibrate/Validate, Congrue*); (iv) **composition rules** (Γ_epist) for aggregates; and (v) propagation laws for CL through mappings and notation relations. C.2.1 identifies an episteme by its exact claim content, exact EntityOfConcern, and effective `U.ReferenceScheme` under `EpistemeConstitutionRelation`. Empirical grounding and edition are separate C.2.1 relations. Viewpoint selection and `U.View` conformance use E.17.0; mathematical or diagrammatic representation uses C.29 and A.6.3.RT; publication uses E.17/E.24.PUB; a carrier remains a distinct entity. Every F–G–R computation names the exact claim and its `U.ClaimScope`. If a path changes scope, notation, kind, reference plane, source-local meaning, model-use basis, or evidence basis, it names the actual relation traversed and applies only the loss that relation declares; no generic Context, slot umbrella, or Bridge stands in for those different relations.
+**Scope & exports.** A substrate-neutral calculus for composing **epistemic holons** (`U.Episteme`) and reasoning about their change and equivalence. Exports: (i) three distinct **assessment aspects**—**Formality F**, **ClaimScope G**, **Reliability R**—for one exact claim-bearing episteme and stated use; (ii) a **pairwise ladder** of **Congruence Levels (CL 0…3)**; (iii) four **Δ-moves** (*Formalise, Generalise/Specialise, Calibrate/Validate, Congrue*); (iv) **composition rules** (Γ_epist) for aggregates; and (v) propagation laws for CL through mappings and notation relations. C.2.1 identifies an episteme by its exact claim content, exact EntityOfConcern, and effective `U.ReferenceScheme` under `EpistemeConstitutionRelation`. Empirical grounding and edition are separate C.2.1 relations. Viewpoint selection and `U.View` conformance use E.17.0; mathematical or diagrammatic representation uses C.29 and A.6.3.RT; publication uses E.17/E.24.PUB; a carrier remains a distinct entity. Every F–G–R computation names the exact claim and its `U.ClaimScope`. If a path changes scope, notation, kind, reference plane, source-local meaning, model-use basis, or evidence basis, it names the actual relation traversed and applies only the loss that relation declares; no generic Context, slot umbrella, or Bridge stands in for those different relations.
 
-**Formality F** is the rigor characteristic defined **normatively in C.2.3**. All KD‑CAL computations and guards **SHALL** use `U.Formality` (F0…F9) as specified there; **no parallel “mode” ladders** are allowed.
+**Formality F** is the assessment of expression properties governed by **C.2.3**. KD-CAL uses the properties required by the receiving operation, with any local ordered summary explicitly declared. It supplies no universal rank of languages or logics.
 
 ### C.2:1 - Problem Frame
 
@@ -51294,9 +51294,9 @@ Teams routinely entangle **programs, specifications, proofs, and datasets**; a p
 
 #### C.2:4.1 - Coordinates, constitution, and neighboring relations
 
-**KD‑CAL characteristics (single‑episteme, point‑values).**
+**KD-CAL assessments for one exact episteme and use.**
 
-* **Formality F.** From free prose to **machine‑checkable proof/specification**. Litmus: *would a machine reject it if wrong?*
+* **Formality F.** The relevant properties of the expressed claim or argument: terms, predicates, semantics and inferences. Litmus: *does this expression supply what the receiving interpretation, execution or check needs?* An expressed derivation and evidence that it passed a checker remain distinguishable.
 * **Claim scope (G), a set‑valued applicability over `U.ContextSlice`, with ∩/SpanUnion/translate algebra; CL penalties apply to R, not to F/G.** Litmus: *how wide is the declared scope, and under what minimal assumptions does the claim hold?*
 * **Reliability R.** Warrant for this exact claim and receiving use. Litmus: *what supports this conclusion, under which assumptions, and what limits it?* **R-claims MUST bind to their actual formal or empirical support.** A numerical R requires the B.3/C.2.2 meaning, scale, and model; otherwise retain separate support and a bounded reasoned conclusion. A proof under axioms needs no empirical score, and F cannot be substituted for R. Relevance windows and B.3.4 currentness rules apply where the relied-on support consumes them.
 
@@ -51307,7 +51307,7 @@ Teams routinely entangle **programs, specifications, proofs, and datasets**; a p
 
 #### C.2:4.2 - Four Δ‑moves (epistemic motion)
 
-* **ΔF — Formalise.** Rewrite for stricter calculi/grammars; raise proof obligations.
+* **ΔF — Formalise.** Make the expression property needed by the receiving use explicit or stricter: resolve terms, supply a predicate or semantics, or express a required derivation. Name the changed property; a different calculus alone establishes no increase.
 * **ΔG — Generalise / Specialise.** Widen or narrow the **claim scope** (assumptions & scope). Changes to decomposition granularity are an **orthogonal view** and do not change **G** unless they alter the envelope.
 * **ΔR — Calibrate / Validate.** Revise warrant through support that actually bears on the claim: proof or reasoning, calibration, severe tests, or monitoring as applicable. State what the contribution changes. A formalization alone is ΔF, not an R increase; choosing new inquiry is a separate decision.
 * **ΔCL — Congrue.** Establish and record the sameness relation between **two** epistemes (ladder 0→3).
@@ -51318,7 +51318,7 @@ Teams routinely entangle **programs, specifications, proofs, and datasets**; a p
 Let **Γ_epist** compose exact epistemes `{Eᵢ}` for one declared claim and use. B.1.3 supplies the synthesis/compilation Method; B.3 and C.2.2 govern warrant and scale discipline.
 
 * **R (Reliability).** First distinguish indispensable premises, alternative sufficient arguments, complementary evidence, different scope slices, and counterevidence. Identify duplicated data and shared assumptions or bias. A numerical fold requires warranted input meanings, compatible scales, dependencies, and a receiving model. Neither series nor parallel syntax supplies a default minimum or maximum, and there is no universal cap at the best support line. Where no common model is justified, retain separate contributions and limitations in a bounded reasoned synthesis.
-* **F (Formality).** `F(Γ) = minᵢ F(Eᵢ)` over the essential formal constituents of the claim. This is an ordinal formality statement, not an R calculation. Raise F by the actual ΔF move; neither an axiomatic mode nor a `line=formal` tag converts F into empirical warrant.
+* **F (Formality).** Assess the expression properties needed from the essential constituents and their connecting inferences under C.2.3:15.1. The composition must preserve the claimed properties. A minimum is only a conditional bound on a shared local ordered scale with an established composition rule, not a universal value for the whole. Formalization changes its stated properties; neither an axiomatic mode nor a `line=formal` tag converts them into empirical warrant.
 * **G (ClaimScope).** Required premises compose only on their overlapping scope. Distinct supported slices may form `SpanUnion({G_path})` under A.2.6 and C.2.2's type-before-scope rule; retain their support separately and drop unsupported regions. A new source does not by itself generalise the claim. Scope change remains an explicit ΔG± move.
 * **CL (Congruence).** Keep each traversed mapping and the ordered meaning of its declared CL visible. A chain minimum is usable where that relation's congruence rule justifies it. A notation, scope-translation, kind, plane, source-local, model-use, or evidence-reuse relation contributes only its own warranted loss. A numerical Φ needs its receiving model; a monotone table or clipped output does not supply one.
 
@@ -51338,7 +51338,7 @@ For example, two necessary independent conditions with probabilities 0.9 each ha
 
 **System (show, current physical-system lens).** Consider a **battery-pack thermal subsystem** integrating a physics model of heat flow and an operating envelope for fast-charge. As a **system**, it composes pumps, sensors, and controllers through the system, composition, boundary, state, and dynamics guidance in `A.1`, `A.14`, `A.22`, and `A.3.4`, with conservation constraints made explicit; `B.1.6` and `C.16` govern resource and measurement claims as applicable. Planned `C.1` (Sys-CAL) may later consolidate that guidance, but it supplies no current governing semantics. The assurance story depends on epistemes about the model and envelope; the system **acts**, epistemes constrain. (Archetypes and boundary discipline per core.)
 
-**Episteme (show, KD-CAL lens).** Consider a **CMIP-class climate projection episteme** (post-2015 generation): its exact claim content covers PDEs and parameterisations; its EntityOfConcern identifies what the projection claims concern; and its effective reference scheme supplies the interpretation rules. A separate `U.ClaimScope` names historical forcings, resolution, and assumptions. Any empirical-grounding occurrence names the grounding holon and covered claim subgraph separately. Its representation may include domain equations and a tabular schema linked by an explicit notation or representation relation with stated loss. When composing radiation, cloud, and ocean-mixing contributions, identify which assumptions the particular projection requires and what each hindcast actually tests. Shared models or data do not establish independent confirmation. An aggregate R needs the domain quantity and dependency model; otherwise retain the separate tests, assumptions, scope limits, and any disagreements. F remains an ordinal account of the essential formal constituents.
+**Episteme (show, KD-CAL lens).** Consider a **CMIP-class climate projection episteme** (post-2015 generation): its exact claim content covers PDEs and parameterisations; its EntityOfConcern identifies what the projection claims concern; and its effective reference scheme supplies the interpretation rules. A separate `U.ClaimScope` names historical forcings, resolution, and assumptions. Any empirical-grounding occurrence names the grounding holon and covered claim subgraph separately. Its representation may include domain equations and a tabular schema linked by an explicit notation or representation relation with stated loss. When composing radiation, cloud, and ocean-mixing contributions, identify which assumptions the particular projection requires and what each hindcast actually tests. Shared models or data do not establish independent confirmation. An aggregate R needs the domain quantity and dependency model; otherwise retain the separate tests, assumptions, scope limits, and any disagreements. F describes the required expression properties of the essential constituents and their connections, including the interpretation of the coupled equations.
 
 ### C.2:6 - Bias‑Annotation
 
@@ -51349,8 +51349,8 @@ For example, two necessary independent conditions with probabilities 0.9 each ha
 ### C.2:7 - Conformance Checklist
 
 1. **C2-1 (Episteme constitution and neighbors).** Every `U.Episteme` **MUST** satisfy C.2.1 constitution through exact claim content, one exact EntityOfConcern, and one effective `U.ReferenceScheme`. Empirical grounding and edition are stated through their separate C.2.1 relations. Viewpoint selection and `U.View` conformance use E.17.0; representation uses C.29/A.6.3.RT; publication occurrence, form, and carrier use E.17/E.24.PUB. None is treated as an episteme slot or identity component merely because a record or notation places it beside the constitution values.
-2. **C2‑2 (Coordinates).** When a KD-CAL epistemic location is stated or used, `[F,G,R]` **SHALL** be recoverable for one exact claim and use, with a brief rationale. Identifying or publishing an episteme does not by itself require this location; **C.2.3** separately requires an F declaration for normative epistemes. Where R has no justified numerical model, retain its unquantified support and bounded conclusion. Formal validity needs no empirical score; **F** is `U.Formality ∈ {F0…F9}` per **C.2.3**, **exactly one episteme‑level F** computed as the **min over essential parts**. CL is declared for **pairs only**. A named notation scheme **MAY** use sub‑anchors (e.g., `F4[OCL]`, `F7[HOL]`), which **MUST** preserve the global order and **map to their parent anchor** from C.2.3.
-3. **C2‑3 (Composition).** Authors **SHALL** identify support roles and dependencies under B.1.3/C.2.2 before combining inputs. Any numerical R or loss **MUST** have justified meanings, scales, assumptions, and a receiving model under B.3; no universal min/max or F-to-R conversion applies. Otherwise return separate support and a bounded synthesis. F uses the minimum over essential formal constituents; G uses applicable path intersections and supported SpanUnion under A.2.6. Every reuse **MUST** name the actual direct relation and retain its warranted limitation; do not hide contrary evidence or unsupported scope.
+2. **C2-2 (Assessment meaning).** When a KD-CAL epistemic location is stated or used, `[F,G,R]` **SHALL** be recoverable for one exact claim and use, with a brief rationale. Identifying or publishing an episteme does not by itself require this tuple. F names the relevant expression-property assessment under C.2.3; a local rank requires its declared scale and mapping and is not a global F value. Where R has no justified numerical model, retain its unquantified support and bounded conclusion. Formal validity needs no empirical score. CL is declared for **pairs only**.
+3. **C2‑3 (Composition).** Authors **SHALL** identify support roles and dependencies under B.1.3/C.2.2 before combining inputs. Any numerical R or loss **MUST** have justified meanings, scales, assumptions, and a receiving model under B.3; no universal min/max or F-to-R conversion applies. Otherwise return separate support and a bounded synthesis. F requires the properties of the essential constituents and their connections to support the claimed whole under C.2.3; G uses applicable path intersections and supported SpanUnion under A.2.6. Every reuse **MUST** name the actual direct relation and retain its warranted limitation; do not hide contrary evidence or unsupported scope.
 4. **C2‑4 (NotationBridge).** Multi‑notation representation components **SHOULD** register `NotationBridge` edges with CL and loss note; any cross‑notation reasoning **MUST** cite the bridge’s CL.
 5. **C2‑5 (No action).** Epistemes **MUST NOT** be assigned actions; work is executed by systems in role.
 
@@ -51361,7 +51361,7 @@ For example, two necessary independent conditions with probabilities 0.9 each ha
 
 ### C.2:9 - Rationale
 
-KD-CAL turns the coarse legacy semiotic picture into **holonic composition** over exact C.2.1 epistemes and their claims. Exact claim content, EntityOfConcern, and effective reference scheme keep episteme identity stable; formal structure and claim scope (**F,G**), evidence (**R**), and pairwise congruence (**CL**) remain visible and composable without an omnibus slot relation. Direct grounding, edition, view, representation, publication, and carrier patterns prevent category collapse. The resulting characteristics remain **manager-readable** and **formalisation-ready**, with **G** grounded in scope/envelope rather than part count.
+KD-CAL turns the coarse legacy semiotic picture into **holonic composition** over exact C.2.1 epistemes and their claims. Exact claim content, EntityOfConcern, and effective reference scheme keep episteme identity stable; formal structure and claim scope (**F,G**), evidence (**R**), and pairwise congruence (**CL**) remain visible and composable without an omnibus slot relation. Direct grounding, edition, view, representation, publication, and carrier patterns prevent category collapse. The resulting assessments remain **manager-readable** and **formalisation-ready**, with **G** grounded in scope/envelope rather than part count.
 
 ### C.2:10 - Relations
 
@@ -51371,7 +51371,7 @@ KD-CAL turns the coarse legacy semiotic picture into **holonic composition** ove
 
 ### C.2:11 - Worked mini‑examples (post‑2015 flavours)
 
-* **Formal lift (ΔF).** Recasting a 2019 **variational free‑energy** narrative into a typed calculus raises **F**, clarifies scope, and enables CL‑2 bridges between biological and ML formulations—*without* claiming empirical gain (**R** unchanged).
+* **Formalization (ΔF).** Recasting a **variational free-energy** narrative into a typed calculus can make its variables, assumptions and inferential relations explicit. State those changes and any corrected scope. A correspondence between biological and ML formulations still needs its own mapping and preservation basis; formalization alone establishes neither that correspondence nor an empirical gain (**R**).
 * **Complementary hindcast evidence.** Two hindcast lines supporting a climate projection may address different errors, reuse data, or cover different conditions. Identify those relations before combining them; a maximum may select one attested argument only under that declared meaning, not measure their combined corroboration. Keep disagreement and unsupported scope visible. This illustration supplies no climate-specific reliability model.
 * **Notation bridge (CL drop).** A 2021 **type‑theoretic specification** rendered in a semi‑formal DSL requires a `NotationBridge` with a CL<3 note; any theorem transported across must respect the bridge’s declared preservation.
 
@@ -52547,7 +52547,7 @@ An epistemic location for a claim `c` is the tuple:
 
 where:
 
-* `F(c)` is Formality (C.2.3), treated as an **ordinal**.
+* `F(c)` is the assessment of the expression properties needed for this use under C.2.3. It may use a declared profile or a justified local ordered summary; it is not a universal ordinal value.
 * `G(c)` is Claim scope (A.2.6), treated as a **set-like scope object**.
 * `R_eff(c)` names the effective warrant for this claim and use. Its meaning and scale come from the B.3 receiving model, not from the letter R. A probability-like or ratio-scale value in `[0,1]` needs that model; an ordinal proxy keeps its declared ordinal meaning.
   If no common quantitative model is justified, report R as unquantified with the separate support and bounded conclusion, rather than substitute zero or invent a score. When a guard consumes a path-specific value, identify the actual PathId and its model (§4.8.A / G.6); a declared policy name alone does not warrant collapsing paths into one scalar.
@@ -52577,7 +52577,7 @@ In all modes, **R remains warrant**, not ontological truth; “proof ⇒ R=1 in 
 **Prophylactic clarification.**
 
 * A higher `R` means stronger warrant only within the same declared quantity, scale, claim, and receiving model. A number from another model is not automatically comparable.
-* A higher `F` means “the claim’s form is amenable to higher-formality checking and wider reuse,” but does not itself imply the claim is warranted.
+* A change in F identifies changed expression properties or a justified change on a declared local scale. It can enable a particular check or reuse without establishing the claim's warrant or widening its scope.
 * A larger `G` means “the claim applies to more cases,” but does not itself imply the claim is warranted in those cases.
 
 #### C.2.2:4.3 - Dependence-sensitive support composition
@@ -52639,7 +52639,7 @@ For a loss-only interpretation on an ordered scale, worsening fit cannot by itse
 
 #### C.2.2:4.5.A - Formality and scale discipline
 
-* Ordinal F, CL, and ordinal R proxies permit only operations justified for their ordered meanings, not arithmetic pretending they are ratio-scale measurements.
+* A local ordinal formality summary, CL, and ordinal R proxies permit only operations justified for their ordered meanings, not arithmetic pretending they are ratio-scale measurements. A formality profile is not one number to rescale.
 * A numerical R requires a justified receiving model even at high formality. A complete formal proof remains useful with empirical R marked N/A; a missing empirical score does not demote the theorem.
 * When support has no common numerical model, publish its separate contributions, limitations, and the bounded conclusion. Use validity windows, empirical reproducibility information, and B.3.4 decay only where the claim actually consumes them.
 
@@ -52701,7 +52701,7 @@ Informative; non-binding.
 
 > `c1:` “For road friction μ ∈ [0.2, 0.9] and vehicle mass m ∈ [900, 2200] kg, wheel slip stays in [0.05, 0.25] under ABS control.”
 
-* `F(c1)=F5` because the controller and constraints are expressed as a machine-checkable model plus executable test harness (C.2.3).
+* The formality assessment of `c1` identifies the declared model variables, constraint predicates and execution semantics of the test harness under C.2.3. These properties enable the specified checks and tests; their results and the model's fit to the physical plant require the separate evidence below.
 * `G(c1)` has the stated μ/m bounds, but this illustration leaves the speed domain and admissible tire set unspecified. Under A.2.6, those domains and any coupled restrictions are needed to decide membership of a slice satisfying the stated bounds; that membership remains unresolved here. A product set in `(μ, m, speed, tire)` space is justified only if its scope predicate admits every combination of the selected domains.
 * Evidence:
 
@@ -52744,7 +52744,7 @@ Normative.
 | **CC‑C.2.2‑5 (Loss model visibility).** | Any numerical reuse loss SHALL identify its receiving quantity, scale, assumptions, derivation or calibration, and actual functions and versions, including Π where used. | Makes the calculation reproducible and its meaning inspectable. |
 | **CC‑C.2.2‑6 (Type before scope).**           | Authors and validators **SHALL** enforce **WFC‑C2.2‑1** for scope composition operations.                                                                                                                                   | Prevents ill-typed scope algebra from creating incoherent reliability claims. |
 | **CC‑C.2.2‑7 (Evidence binding).**            | Authors **SHALL** bind any asserted `R_eff` to evidence references that enable TA/VA/LA inspection, consistent with the assurance lane discipline (B.3.3) and evidence decay discipline (B.3.4).                            | Keeps R grounded and updateable.                                              |
-| **CC‑C.2.2‑8 (No ordinal arithmetic).** | Validators SHALL reject arithmetic that treats ordinal F, CL, or an ordinal R proxy as ratio-scale values. A receiving conversion model must establish meaning, scale, conversion, and assumptions; a penalty table or rescaling alone is insufficient. Formal validity never supplies empirical reliability by itself. | Preserves scale legality and useful formal conclusions. |
+| **CC‑C.2.2‑8 (No ordinal arithmetic).** | Validators SHALL reject arithmetic that treats a local ordinal formality summary, CL, or an ordinal R proxy as ratio-scale values. A receiving conversion model must establish meaning, scale, conversion, and assumptions; a penalty table or rescaling alone is insufficient. Formal validity never supplies empirical reliability by itself. | Preserves scale legality and useful formal conclusions. |
 | **CC‑C.2.2‑9 (Interpretation conditions declared).** | Authors **SHALL** distinguish design- and run-time assurance and declare `ReferencePlane`, effective scheme, model-use basis, working situation, and `validationMode` where each changes the claim or use.                               | Makes interpretation auditable without a generic Context identity field.     |
 | **CC‑C.2.2‑10 (Dependence and scope).** | Authors SHALL expose actual shared premises, data, assumptions, and biases. Any assumed independence must be justified for the model and use; different path labels do not suffice. Keep distinct scope slices and counterevidence visible; do not fall back to minimum for entangled support. | Prevents double-counting without erasing complementary evidence. |
 
@@ -52759,7 +52759,7 @@ Informative; non-binding.
 | **Scope laundering**       | The claim’s applicability grows by wording changes while `G` is unchanged.                    | It silently widens scope, making comparisons meaningless.        | Use A.2.6 operators and treat scope changes as explicit revisions.                                       |
 | **Relation laundering**    | A claim or its evidence is reused after a changed scope, kind, plane, notation, local meaning, model use, or evidence basis, while `R` is carried over unchanged. | It hides the actual change and its relation-specific loss. | Name the direct relation or scope operation and recompute `R_eff` from its declared loss; stop if that relation is missing. |
 | **DesignRunTag chimera**     | Design-time proofs and run-time telemetry are mixed as if they were the same evidence object. | Evidence belongs to different stances and decays differently.    | Separate lanes and validity windows; treat crossings explicitly.                                         |
-| **Ordinal arithmetic** | F or CL ranks become a probability or loss merely by tagging, tabulating, or rescaling them | Ordered categories are not calibrated ratio quantities | Retain the ordinal meaning; any receiving conversion needs its actual model, meaning, scale, and assumptions. |
+| **Ordinal arithmetic** | Local formality or CL ranks become a probability or loss merely by tagging, tabulating, or rescaling them | Ordered categories are not calibrated ratio quantities | Retain the ordinal meaning; any receiving conversion needs its actual model, meaning, scale, and assumptions. |
 | **Counting support labels** | More reports are treated as independent confirmation, or one weak additional study automatically defeats the whole | Duplicates, shared bias, complementary information, and counterevidence contribute differently | Recover their actual dependencies and effects on the claim; use neither study count nor a universal min/max fallback. |
 
 ### C.2.2:9 - Consequences
@@ -52777,7 +52777,7 @@ Informative; non-binding.
 A triad only works if each coordinate has a single job.
 
 * **G states applicability.** It states where the claim is asserted to apply. If G is implicit, teams argue about “what was meant” instead of updating scope.
-* **F carries checkability.** It states how much the claim’s form supports mechanised scrutiny and reuse. If F is conflated with R, formalisation becomes a rhetorical weapon.
+* **F describes expression properties.** It identifies what the claim's terms, semantics and inferential relations make available for interpretation, scrutiny and reuse. If these properties are conflated with R, formalisation becomes a rhetorical substitute for support.
 * **R carries warrant.** It describes support for this exact claim and use under a named meaning and scale. Its inputs must not erase the distinction between a necessary premise, complementary evidence, and a credible contrary result.
 
 Routing a traversed relation's declared congruence loss into **R only** prevents a subtle failure: a change of scope, kind, plane, notation, source-local meaning, model-use basis, or evidence basis cannot silently rewrite the claim or carry its old warrant forward.
@@ -52875,7 +52875,7 @@ Without an explicit language-state chart:
 ### C.2.2a:4 - Solution
 `U.LanguageStateSpace` is the cluster-local name for the declared language-state chart over `U.CharacteristicSpace` as disciplined by `A.19`.
 
-It is not a second kernel state-space apparatus beside `A.19`. It is the particular declared `U.CharacteristicSpace` whose basis slots are the language-state facets used in this cluster.
+It is not a second kernel state-space apparatus beside `A.19`. It is the particular declared `U.CharacteristicSpace` whose basis slots represent the selected language-state Characteristics. A profile containing several Characteristics expands into their separate slots; it is not one atomic Coordinate.
 
 #### C.2.2a:4.0a - Kind and chart boundary
 
@@ -52898,15 +52898,15 @@ Publish each basis-slot reading as a `ValueSet(slot)`, interval, or other admiss
 `position` language is therefore admissible here only as shorthand for such slot-explicit `A.19` coordinate claims. It does **not** authorize a rival process-sequence or feature-vector story.
 
 #### C.2.2a:4.3 - Facet basis
-The language-state chart is coordinated by explicit facet subject patterns rather than by an informal master progression. In the current cluster the basis is formed by:
+The language-state chart is coordinated by explicit facet subject patterns rather than by an informal master progression. Select the actual Characteristics and Scales needed for the next action from:
 
-- `C.2.3` for `F`;
+- `C.2.3` for the selected expression properties in a formality assessment, or an explicitly justified local summary;
 - `C.2.4` for articulation explicitness;
 - `C.2.5` for language-state closure degree;
 - `C.2.6` for language-state anchoring mode;
 - `C.2.7` for the language-state representation-factor bundle.
 
-`C.2.2a` states that these basis slots together define the chart. It does **not** govern the internal scale semantics of the individual facets.
+The selected basis slots together define the chart under A.19. Each actual Characteristic has its own Scale and slot. In particular, neither a formality profile nor a representation-factor bundle is silently treated as one Coordinate. `C.2.2a` does **not** govern the internal meanings or Scale semantics of those Characteristics.
 
 #### C.2.2a:4.4 - Ontological slot groups
 Within this cluster, keep five slot groups distinct:
@@ -53069,317 +53069,324 @@ After the first useful row is understood, the wider `Language-State & Semantic R
 
 ### C.2.2a:End
 
-## C.2.3 - Unified Formality Characteristic F
+## C.2.3 - Formality of an Episteme
 
 > **Type:** Definitional (D)
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
-**Plain-name.** Formality characteristic.
+**Plain-name.** Formality assessment.
 
-**One-line summary.** `C.2.3` defines **Formality (F)** as one ordinal `U.Characteristic` with polarity `up`, anchored by the default ladder `F0...F9`, and declared for normative epistemes. An assurance argument consumes F only when its named use needs rigor of expression.
+**One-line summary.** Formality concerns how explicitly and precisely an episteme's content is expressed. Assess the properties needed for its use, including the interpretation of terms, constraints, operations and inferences. These properties form a declared profile when several matter together; they do not supply a universal rank of languages, logics or tools.
 
 ### C.2.3:1 - Problem frame
 
-Transdisciplinary work needs one shared way to speak about rigor of expression. A research hypothesis in constrained natural language, a software interface specification with explicit invariants, a controller model checked against hybrid obligations, and a proof-bearing formal development are not comparable by domain lore alone. They are comparable by **how strictly the content is expressed**.
+Use this when a reader, engineer or researcher must decide whether an expression is precise enough to interpret, compute with, combine or check, or what formalization would make that use possible. A research hypothesis, interface specification, controller model, decision policy and formal proof can all need this judgement, but they need different properties of expression.
 
-Historically, that distinction drifts. Teams mix editorial maturity, organizational status, notation choice, proof support, and scope narrowness into one vague story about something being *more formal*. `C.2.3` removes that drift by giving FPF one explicit `U.Characteristic` for rigor of expression.
+The first useful move is to name the expression and the operation it must support. A reviewer may need unambiguous acceptance conditions; an interpreter needs an execution rule; a proof checker needs a statement and derivation in its admitted calculus. This assessment identifies the needed repair without requiring a more elaborate formalism for every task. Use an already sufficient expression directly. Readability alone is a different question; truth, empirical support, organizational approval and permission to act retain their own grounds.
 
 ### C.2.3:2 - Problem
 
-Without one unified `F` characteristic:
+“More formal” can hide several different changes. A document can acquire a clear structure without fixing its ambiguous terms. A precise specification can be non-executable. An executable program can omit the property its user needs established. A checked proof in one logic need not become stricter when translated into another logic. Ranking these changes on one ladder can reject adequate work and reward an irrelevant change of notation or tool.
 
-1. **Rigor is narrated inconsistently.**
-   Different contexts invent local mode/tier language with no shared comparability.
-2. **Status and rigor collapse.**
-   Something accepted, published, or approved is mistaken for something precisely expressed.
-3. **Expression changes are hidden.**
-   A move from sketch to predicates or from executable model to proof is not recorded as a distinct content change.
-4. **Composition becomes unsound.**
-   A composite episteme is treated as highly formal because one segment is highly formal, even when essential support still depends on less formal parts.
-5. **Other characteristics are misused as surrogates.**
-   Authors quietly use scope, evidence, or language-state facets as if they were part of one master formality characteristic.
+Composition adds a further difficulty. Several precisely expressed claims can be connected by an informal inference. Their presence does not make that whole argument a formal derivation. Conversely, an informal observation used as empirical evidence does not make the separately stated mathematical claim less precisely expressed. Without an explicit assessed expression and support relation, “the least formal part” can refer to the wrong object.
+
+The practical problem is therefore to establish which expression properties the receiving operation needs, which are present, which must change and how those properties survive combination or translation.
 
 ### C.2.3:3 - Forces
 
 | Force | Tension |
-|---|---|
-| **Readability vs precision** | Natural language is fast and legible; formal systems are unambiguous and checkable. F needs a gradient, not a cliff. |
-| **Local freedom vs shared comparability** | Contexts need local exemplars and thresholds, but cross-context reasoning requires one stable characteristic. |
-| **Exploration vs assurance** | Early work must be allowed at low F, while high-assurance work needs explicit higher anchors. |
-| **Notation diversity vs semantic stability** | Different symbol systems may express the same rigor level; notation choice alone must not redefine F. |
-| **Thin characteristic vs rich practice** | The core characteristic should stay simple, while still supporting concrete guidance, examples, and review discipline. |
+| --- | --- |
+| Readability and precision | Familiar prose can communicate efficiently; formal syntax and semantics can enable operations that prose does not define. |
+| Shared comparison and different uses | Common property meanings permit comparison; different uses can require different combinations of them. |
+| Exploration and assurance | An early conjecture can be useful before its interpretation or proof is complete; a stronger use needs the missing contribution. |
+| Notation and meaning | Different calculi can express the same required property; they can also differ in assumptions, expressiveness and available proof techniques. |
+| Constituent and whole | Formal constituents help only when their meanings and the connections required by the whole are also established. |
+| Sufficient explanation and assessment burden | A short assessment can settle an ordinary use; repeated comparison or automation may need a declared characteristic basis. |
 
-### C.2.3:4 - Solution - `U.Formality` as one ordinal characteristic
+### C.2.3:4 - Solution - Assess the required properties of expression
 
-`C.2.3` defines `U.Formality` as the single governing characteristic for rigor of expression in FPF.
+Formality is assessed on a named expression of an episteme's content. Establish what its next use requires, recover the relevant interpretation and inferential relations, and inspect the actual expression against those requirements. Keep independent properties distinct. A shared profile makes their combination visible; a local summary is useful only when its declared criteria preserve the distinctions the receiving use needs.
 
-#### C.2.3:4.1 - Identity and typing
+#### C.2.3:4.1 - Subject and representation of the assessment
 
-- **Name:** `U.Formality` (abbreviated `F`)
-- **Type:** `U.Characteristic`
-- **Scale kind:** ordinal
-- **Polarity:** `up`
-- **Carrier:** any `U.Episteme`
-- **Default value family:** `F0...F9`
+**F** names the formality assessment in an account that also uses G and R. It is not a globally ordered atomic `U.Characteristic`, and this pattern supplies no universal `U.Formality` value or `F0...F9` scale. The assessed subject is an exact claim, declaration, model or argument expressed by an episteme. State which parts and connecting inferences belong to that assessment.
 
-`F` states **how strictly the content is expressed**. It does not state whether the content is true, well evidenced, widely applicable, or organizationally accepted.
+An ordinary assessment can be a sentence: “The budget condition has declared units, a typed variable and an explicit predicate; no derivation of its adequacy for the project is supplied.” That is enough when it answers the receiving question. For comparison, automation or repeated use, describe the selected expression properties and their values as a profile. The description remains an episteme; a reference such as `formalityRef` points to that assessment and its basis. This introduces no new root U-kind.
 
-#### C.2.3:4.2 - Place in the typed `F-G-R` tuple
+If a `CharacteristicSpace` is used, each assessed Characteristic has its own declared Scale and slot under A.18 and A.19. A profile is not one Coordinate containing several unnamed characteristics. Record missing or unknown assessments separately from values; unknown precision is not evidence of low precision. Keep the relevant calculus, assumptions and interpretation recoverable alongside the property assessments.
 
-A named assurance argument may consume `F` alongside G or R under B.3. Declaring F for a normative episteme does not itself select an assurance argument or require the current use to consume a universal tuple. The characteristics remain distinct:
+#### C.2.3:4.2 - Place beside G and R
 
-- `F` is **not** `G`; scope remains governed by `U.ClaimScope` and other USM structures.
-- `F` is **not** `R`; evidence, warrant strength, and decay remain assurance concerns.
-- Mapping loss is assessed for the actual receiving use. Any effect on R needs its B.3/C.2.2 basis; an ordinal CL value supplies no automatic penalty and does not change F.
-- Changes in notation, carrier, or rendering form do not change `F` if the formal content is preserved.
+A named assurance argument may consume F alongside G or R under B.3. The notation `[F,G,R]` is a view of distinct assessments, not automatically a point in one numeric space.
 
-#### C.2.3:4.3 - Extensibility and local anchors
+- F concerns expression properties. G concerns applicability or claim scope.
+- A derivation expressed in a calculus is part of the assessed content. Evidence that a particular checker accepted it supports that checking claim. Confidence in the checker, its assumptions and the resulting conclusion belongs to the relevant assurance argument.
+- A fully expressed empirical claim can have weak or missing empirical support. Formal validity under stated premises and applicability to the world answer different questions.
+- Mapping loss is assessed for the receiving use. Any effect on R needs its B.3/C.2.2 basis; an ordinal CL label supplies no automatic penalty.
+- A notation, carrier or rendering change preserves the assessment only when it preserves the expression properties on which that assessment rests.
 
-FPF provides the default anchor ladder `F0...F9`. A context may define sub-anchors or intermediate anchors such as `F4[OCL]` or `F6.5`, but only if:
+#### C.2.3:4.3 - Comparison and local ordered summaries
 
-- global order is preserved,
-- the local anchor is explicitly docked to a parent anchor,
-- the context does not invent a rival ladder or proxy scale.
+Compare profiles only after aligning the assessed properties, their meanings and relevant conditions. One expression can provide a formal predicate while another provides an executable procedure; neither fact alone makes one more formal for every use. A changed use may need both, or may need only one.
 
-#### C.2.3:4.4 - Usage obligations
+When an order is useful, declare its domain and comparison rule. For a fixed compatible basis of independently established requirements, an expression that satisfies all requirements satisfied by another and some additional ones can dominate it under that declared rule. This does not rank the entire languages or establish a preference for every use. Preserve incomparability when different requirements are satisfied; unresolved assessment is a separate result. Use A.19:5.1.3 for an order overlay when a CharacteristicSpace is involved.
 
-- Every normative episteme shall declare one `F` value.
-- Thresholds that depend on rigor should be written explicitly as `F >= Fk` conditions.
-- Any actual raise or lowering of expression rigor is a content change, not a status-only change. Correcting an erroneous `F` attribution changes the assessment, not necessarily the assessed episteme.
-- `F` remains declaration and reasoning infrastructure; it is not itself a governance process.
+A local ordinal summary is possible when its levels have nested criteria. For example, one team's specification-expression scale can require: named objects and stable terms; those conditions plus explicit acceptance predicates and their interpretation; those conditions plus expressed derivations for a specified set of obligations. The last level includes the earlier criteria by declaration. Its proof-checking evidence is still assessed separately. State the exact scale, mapping from the profile, domain and conditions before using its levels or a threshold. Another team's levels are not comparable merely because they use the same numbers.
+
+Arithmetic, averages and numerical differences are not licensed by an ordinal scale. Where a change is described as an increase in formality, identify the strengthened property or the established order that makes that claim meaningful. A new logic, extra subsystem or larger toolchain is not such a property by itself.
+
+#### C.2.3:4.4 - Requirements for a receiving use
+
+Express a formality requirement through what the recipient needs to do. “The invariant has explicit types and semantics, and every inference needed for this proof is expressed in the selected calculus” is a recoverable condition. If checked validity is also required, name that separate evidence requirement. A local ordinal threshold can abbreviate the expression condition only when its named scale captures the required criteria.
+
+Normative content must make the expression conditions needed for its intended use recoverable. A suitable ordinary explanation can do this without a separate score, profile document or formal proof. A richer assessment is required when a comparison, assurance argument or automated consumer actually relies on it. Neither a satisfactory formality assessment nor a threshold result grants permission to act.
+
+Improving the expression changes the assessed content. Correcting an erroneous assessment can instead leave that content unchanged. When the receiving requirement changes, return to the property, formal apparatus, derivation or external support it actually needs; do not automatically raise every part of the expression.
+
+#### C.2.3:4.5 - Assess and improve an expression
+
+1. Identify the exact claim or argument and the next operation: interpretation, execution, combination or checking. Name the required result and any applicable binding requirement.
+2. Recover the terms, domains, variable bindings, constraints, operation meanings and inferential connections needed for that operation. Section 13 supplies common distinctions, not a mandatory assessment form.
+3. Inspect the expression. State which needed properties it provides and where interpretation, an operation or an inference remains unspecified. Keep a proposed derivation separate from the result of checking it.
+4. Test the receiving condition. A sufficient expression ends this inquiry. If a missing property prevents the use, repair that part or obtain a suitable expression. Use C.19.2 to choose and configure formal apparatus when that is the actual question; use C.39 when a way to obtain the needed result still has to be developed.
+5. After the change, repeat the affected use, including any connecting inference. Preserve unchanged scope and support assessments unless their own grounds changed. If the repaired expression reveals a different claim or assumption, assess that change explicitly rather than calling it a purely notational improvement.
 
 ### C.2.3:5 - Archetypal Grounding
 
-**Tell.** `F` does not ask whether a claim is correct. It asks how strictly the claim is expressed.
+**Tell.** Ask what the expression enables its recipient to interpret or do, and which property enables it.
 
-**Show (System).** A system requirement written as controlled natural language with unambiguous acceptance conditions may be `F3`; the same requirement rewritten as explicit typed invariants may become `F4`; a machine-checked proof of a critical invariant may raise the relevant claim core to `F7` or above.
+**Show (System).** A controller requirement in controlled language can state a clear bound. Typed invariants make its variables and condition explicit. An executable model enables simulation. A formal derivation can establish an invariant under declared plant assumptions. These contributions can be connected, but execution is not a required intermediate stage for every proof, and a proof does not establish the plant assumptions empirically.
 
-**Show (Episteme).** A research conjecture can begin at `F1-F3`, then gain explicit predicates at `F4`, executable semantics at `F5`, and proof-bearing core content at `F7-F8`, while remaining recognizably the same evolving claim family.
+**Show (Episteme).** A research conjecture can gain stable terminology, explicit predicates and an expressed argument. Each change removes a particular obstacle to examination. A mathematical conjecture may remain non-executable and unproved while being fully precise about what is conjectured.
 
 ### C.2.3:6 - Bias-Annotation
 
-The pattern biases FPF toward one explicit rigor characteristic and against stories that mix formality with status, publication quality, scope width, or evidence support. That bias is intentional. The price of explicit declaration is smaller than the cost of comparing rigor through folklore.
+The pattern favors recoverable expression properties over a universal prestige ranking. This makes a comparison more explicit but can be unnecessary for an already adequate ordinary use. Keep the assessment as small as that use permits. Do not replace one compulsory score with a compulsory inventory of every possible property.
 
 ### C.2.3:7 - Conformance Checklist
 
-- `CC-F-1` Every normative `U.Episteme` **SHALL** declare exactly one `U.Formality` value, either a default anchor or a local sub-anchor explicitly docked to one.
-- `CC-F-2` `F` **SHALL** be treated as an ordinal characteristic; arithmetic over `F` values is invalid.
-- `CC-F-3` Higher `F` **SHALL** mean greater or equal strictness of expression, not greater truth, trust, or scope.
-- `CC-F-4` Contexts **MUST NOT** publish alternative "formality modes" or "tiers" as surrogates for `F`.
-- `CC-F-5` Local sub-anchors **SHALL** preserve the global ordering and the parent anchor meaning.
-- `CC-F-6` For a composite episteme assessed as one expressed claim or argument, its F **SHALL** be bounded by its least-formal essential content or inference on the declared compositional support path. Identify that assessed bearer and support relation. This expression-wide cap does not extend automatically to external evidence cited as warrant.
-- `CC-F-7` Implementations **MUST NOT** average `F` values numerically.
-- `CC-F-8` Changes in `G`, `R`, or `CL` **SHALL NOT** change `F` unless the expression form itself changes.
-- `CC-F-9` Cross-context transport **SHALL** preserve the attributed `F` when formal content is preserved. If the receiving rewrite changes claim content, EntityOfConcern, or the effective reference scheme under `C.2.1`, the result is a new episteme with its own `F`.
-- `CC-F-10` Translation loss, bridge loss and plane crossings **SHALL** retain their actual receiving-use limitations. Evaluate any assurance effect under its governing model; do not hide it as an F change when the expressed content is preserved.
-- `CC-F-11` Assigned `F` values **SHALL** be justifiable by observable content such as explicit predicates, executable semantics, or machine-checked proofs.
-- `CC-F-12` Declaring a tool or notation **SHALL NOT** by itself justify a higher `F` unless the content satisfies the target anchor semantics.
-- `CC-F-13` Status labels such as `Draft`, `Approved`, or `Published` **MUST NOT** substitute for `F`.
-- `CC-F-14` A context that uses `F` in gates or policies **SHALL** write those thresholds explicitly.
-- `CC-F-15` Language-state facets such as articulation or closure **MUST NOT** be hidden as pseudo-levels of `F`.
+- `CC-F-1` An assessment relied on in use **SHALL** identify the assessed expression, selected properties and their grounds. Normative content **SHALL** make its necessary expression conditions recoverable; a universal F value is not required.
+- `CC-F-2` A local ordinal summary **SHALL** declare its scale and mapping. Arithmetic over its levels is invalid unless a separately justified quantitative scale is established.
+- `CC-F-3` A claim of greater formality **SHALL** name the strengthened property or declared order. It **SHALL NOT** imply greater truth, trust or scope by itself.
+- `CC-F-4` Status, maturity or tool labels **MUST NOT** substitute for the assessment of expression properties.
+- `CC-F-5` A local refinement or sublevel **SHALL** preserve its declared parent criteria; a cross-scale comparison requires an explicit meaning-preserving basis.
+- `CC-F-6` A composite assessment **SHALL** cover the essential content and inferences of the named whole. It **SHALL NOT** inherit a property from constituents without the composition preserving that property.
+- `CC-F-7` Implementations **MUST NOT** average unrelated formality properties or local ranks into an undeclared score.
+- `CC-F-8` Changes in G, R or CL **SHALL NOT** change an expression assessment unless its own grounds change.
+- `CC-F-9` Transport **SHALL** preserve a formality assessment only when its relied-on properties and interpretation are preserved. A receiving rewrite that changes claim content, EntityOfConcern or the effective reference scheme has its own episteme identity under C.2.1.
+- `CC-F-10` Translation and bridge limitations **SHALL** remain explicit for the receiving use. Assess assurance effects under their governing models.
+- `CC-F-11` Assigned properties **SHALL** be supported by the actual terms, predicates, semantics, derivations or other assessed content. A claimed checking result needs its own evidence.
+- `CC-F-12` A named notation, prover, calculus or execution harness **SHALL NOT** by itself establish the required expression property or a successful check.
+- `CC-F-13` Publication and approval status **MUST NOT** substitute for formality.
+- `CC-F-14` A policy consuming formality **SHALL** state the required properties, or a justified threshold on a named local scale, and keep separate assurance and authority conditions explicit.
+- `CC-F-15` Language-state facets **MUST NOT** be hidden inside a formality rank. Each actual Characteristic used in a space retains its own Scale and slot.
 
 ### C.2.3:8 - Common Anti-Patterns and How to Avoid Them
 
-| Anti-pattern | What it looks like | How FPF prevents it |
-|---|---|---|
-| **Status leakage** | An episteme is called highly formal because it is approved or published. | `CC-F-13` keeps status and formality separate. |
-| **Tool-worship** | A notation, prover, or execution harness is named, so the episteme is rated high-F without checking the content. | `CC-F-11` and `CC-F-12` require observable semantic grounds. |
-| **Appendix inflation** | A small high-formality appendix is used to advertise the whole episteme as high-F. | `CC-F-6` scopes the cap to the assessed composite expression and its essential content or inference. |
-| **Proxy ladder** | A local context invents "bronze / silver / gold" or "ready / mature / final" and uses it instead of `F`. | `CC-F-4` rejects rival ladders. |
-| **Characteristic capture** | Articulation, closure, scope, or evidence is spoken of as if it were part of `F`. | `CC-F-8`, `CC-F-10`, and `CC-F-15` keep the characteristics orthogonal. |
+| Anti-pattern | What it looks like | Repair |
+| --- | --- | --- |
+| Status leakage | Approved content is assumed to have a precise interpretation. | Inspect the terms, conditions and inferences needed for the use. |
+| Tool prestige | A prover or fashionable foundation is named in place of a demonstrated property. | Inspect the actual expression and the relevant checking evidence. |
+| Appendix inflation | A formal annex is used to describe the whole argument as formally derived. | Assess the essential connecting inferences as well as the annex. |
+| One ladder for different capabilities | Execution, hybrid modeling and higher-order proof receive successively higher ranks. | Separate their contributions and test the receiving requirement. |
+| Profile as one Coordinate | Several characteristics are concealed inside one atomic F slot. | Declare the real slots or use an ordinary structured assessment. |
+| Assessment replaces improvement | A larger scorecard is produced while a necessary predicate remains unstated. | Supply the missing expression and repeat its receiving use. |
 
 ### C.2.3:9 - Consequences
 
-| Benefit | Trade-off / Mitigation |
-|---|---|
-| **Shared rigor language.** Cross-domain publication units can be compared by one stable expression characteristic. | Authors must learn the anchor ladder and declare `F` explicitly. |
-| **Safer composition.** Composite epistemes stop inheriting a misleadingly high rigor label from one polished segment. | Reviewers must identify essential support rather than read only visible polish. |
-| **Cleaner governance.** Thresholds can be written as explicit `F` conditions instead of vague maturity labels. | Contexts must translate old local language into the canonical characteristic. |
-| **Better interaction with other characteristics.** `F`, `G`, `R`, and language-state facets remain distinct. | Authors lose the convenience of one master-ladder story; that loss is deliberate. |
+| Benefit | Trade-off and response |
+| --- | --- |
+| Adequate expressions remain usable across different formal traditions. | Comparison needs shared property meanings, not only matching numbers. |
+| Formalization work targets the actual obstacle. | The recipient must state the operation and result that matter. |
+| Composite arguments expose missing connections. | The assessment must include the relevant whole and its essential inferences. |
+| Expression, scope and support remain distinct. | A concise assessment sometimes needs more than one sentence; it need not become a universal form. |
 
 ### C.2.3:10 - Rationale
 
-FPF needs a rigor characteristic that is portable across mathematics, software, systems, policy, and research. The smallest stable answer is one ordinal characteristic with clear anchors and explicit composition rules. Anything more fragmented breaks comparability; anything more compressed hides the substantive differences between sketch, predicate, executable model, and machine-checked proof.
+Formality matters because an expression can make interpretations, operations and inferential commitments available for shared examination. The properties that enable these uses are related but not identical. A formal specification can define what is required without giving a procedure; a procedure can run without expressing a proof of the required property. A richer logic can express additional distinctions without improving an already sufficient statement of an ordinary invariant.
+
+A profile preserves these relations without pretending that every pair has one overall order. Declared local chains remain economical when their criteria are genuinely nested. Comparison then rests on the receiving operation and preserved meaning. Composition follows the same reasoning: a whole must supply the connections its result depends on, while evidence about the world retains its separate role.
 
 ### C.2.3:11 - SoTA-Echoing
 
-Post-2015 practice across formal methods, software architecture, safety engineering, verification, computational science, and typed proof environments converges on one broad lesson: rigor is not binary. It rises through explicit structuring, predicate expression, executable semantics, and machine-checked obligations. `C.2.3` adopts that gradient while keeping the characteristic notation-agnostic and transdisciplinary.
+| Source and scope | Contribution used here | Limit of the transfer |
+| --- | --- | --- |
+| Kuhn (2014), [A Survey and Classification of Controlled Natural Languages](https://aclanthology.org/J14-1005/), §§3–3.2 and the qualification at the end of §3.4; established classification basis. | Precision, expressiveness, naturalness and simplicity answer different questions. Even the paper's ordered summaries are deliberate simplifications rather than an overall quality ranking. | PENS classifies languages. It does not directly rate an individual episteme, and its classes are not imported as F values. |
+| ter Beek et al. (2024; volume edition 2025), [Formal Methods in Industry](https://doi.org/10.1145/3689374), §§1–2.2; contemporary account of industrial formal methods. | Formal specification, verification, execution and different verification techniques have distinct roles. Formal reasoning can apply to a non-executable specification; tool choice depends on the question and available support. | The discussion principally concerns computing systems. The profile and transdisciplinary receiving-use rule here are FPF's construction, not a scale claimed by that survey. |
+| [Isabelle overview](https://isabelle.in.tum.de/overview.html), maintained tool documentation, including its HOL and LCF account. | A higher-order environment supplies formal statements and checked reasoning with substantial reusable libraries. | The availability of these capabilities does not establish that a particular submitted expression or proof has passed its required checks. |
+| [The HoTT Book](https://homotopytypetheory.org/book/), authors' description of univalent foundations; foundational source. | Univalence and higher inductive types change what can be expressed and how mathematical reasoning is organized. | A different foundation is not a higher universal formality rank. Its relevance depends on the needed structures and admitted assumptions. |
+
+These sources support distinctions among actual capabilities and formal bases. They do not establish a total order from prose through execution to successive schools of logic. Apply the assessment method above to the expression and use at hand; consult the sources when their particular language or apparatus is in question.
 
 ### C.2.3:12 - Relations
 
-- **Defines:** U.Formality for epistemes, including the F result consumed by an assurance argument when its use requires that characteristic.
-- **Builds on:** characteristic machinery from `A.18` / `A.19` and episteme-level characteristic assignment from Part C.
-- **Coordinates with:** `C.2.2`, `B.3`, `F.9`, `C.2.LS`, `A.16`, `C.2.4`, `C.2.5`, `C.2.6`, and `C.2.7`.
-- **Coordinates with:** `C.19.2` when a declared use asks whether increasing rigor of expression or selecting/configuring a formal apparatus repays application work. `F` measures expression rigor; it does not select the apparatus, plan the work, or establish the problem-facing result.
-- **Constrains:** any pattern, gate, or editorial rule that speaks about rigor of expression.
+- **Uses:** A.18 and A.19 for declared Characteristics, Scales, profiles represented in spaces and any order overlay.
+- **Coordinates with:** C.2 and C.2.2 for epistemic composition and assurance; B.3 when an assurance argument consumes the assessment.
+- **Coordinates with:** C.2.LS, A.16 and C.2.4–C.2.7 for language-state properties that retain their own meanings.
+- **Uses:** C.19.2 when selecting or configuring a formal apparatus is the missing practical contribution; C.39 when a way to obtain the result must be developed.
+- **Coordinates with:** F.9 for a cross-context transfer whose mapping and limitations affect the receiving expression.
 
-### C.2.3:13 - Canonical Anchors `F0...F9`
+### C.2.3:13 - Distinctions for describing expression
 
-> **Reading rule.** Anchors are ordinal. They say what is minimally true of the expression form, not what is true of the world.
+The following descriptions identify common contributions. They are neither mutually exclusive classes nor consecutive levels. Select only distinctions needed by the receiving operation.
 
-#### C.2.3:13.1 - `F0` - Unstructured prose
+#### C.2.3:13.1 - Unstructured prose
 
-Free natural language with unstable vocabulary, implicit assumptions, and no stable internal structure.
+Free natural language may leave vocabulary, assumptions and connections unstable. It can still preserve an observation or start an inquiry. Identify the ambiguity that obstructs the next use before requiring a more elaborate form.
 
-#### C.2.3:13.2 - `F1` - Scoped notes
+#### C.2.3:13.2 - Scoped notes
 
-Still informal, but with stable topic focus and more consistent terminology. Scope is named even though criteria are not yet operationalized.
+A note can identify its topic and use terms consistently while leaving criteria informal. Naming the subject helps interpretation; it does not by itself formalize a predicate or narrow claim scope. Assess scope separately.
 
-#### C.2.3:13.3 - `F2` - Structured outline
+#### C.2.3:13.3 - Structured outline
 
-A recognizable template or full section shape exists. The expression is coherent end-to-end, but acceptance criteria are still largely placeholders or informal.
+A coherent section structure helps readers find claims and their grounds. Placeholder criteria can remain inside a complete outline. Editorial organization is useful, but inspect what the filled content actually defines.
 
-#### C.2.3:13.4 - `F3` - Controlled narrative
+#### C.2.3:13.4 - Controlled narrative
 
-Claims are expressed in constrained prose with stable interpretation. Acceptance or refusal conditions are visible in language, even if not yet fully predicate-like.
+Constrained prose can stabilize interpretation and state acceptance or refusal conditions. This may be sufficient for a competent reader's decision. Automatic interpretation needs an additional mapping or semantics when the prose itself does not supply one.
 
-#### C.2.3:13.5 - `F4` - First-order constraints
+#### C.2.3:13.5 - Explicit predicates and constraints
 
-Critical claims can be rendered as explicit predicates or invariants over typed entities. Consistency and conflict are at least checkable in principle.
+Typed entities, bound variables, units, domains and an interpretation make a predicate recoverable. The claim's consistency or consequence can then be examined under the declared semantics. A written formula with undefined symbols does not supply this contribution; an explicit predicate need not be executable or proved.
 
-#### C.2.3:13.6 - `F5` - Executable math / algorithmics
+#### C.2.3:13.6 - Executable semantics
 
-The expression has declared executable semantics. Running the model, algorithm, or simulation is part of its meaning.
+An expression can define how an interpreter or procedure produces results. Declare the relevant input meanings, operation and output interpretation. This enables a run under those conditions; it does not establish a separate invariant or substitute for its specification. A non-executable formal statement can remain sufficient for a mathematical argument.
 
-#### C.2.3:13.7 - `F6` - Hybrid formalism
+#### C.2.3:13.7 - Coupled formalisms
 
-Several formal layers are coordinated explicitly, typically discrete plus continuous or several tightly coupled formal subsystems, with declared obligations between them.
+A hybrid controller model can relate discrete transitions to continuous evolution; another account can connect several formal subsystems. State their shared meanings and interconnection obligations. Additional formalisms introduce relations to establish, not an automatic increase in rigor. Assess whether the whole preserves the properties its intended use needs.
 
-#### C.2.3:13.8 - `F7` - Higher-order verified
+#### C.2.3:13.8 - Formally expressed derivation
 
-Core claims are encoded in a proof-capable higher-order setting and machine-checked against that logic kernel.
+A derivation states how its conclusion follows from declared premises under an identified calculus. Inspect the essential inferential steps, including their connection to the stated conclusion. A checked derivation in higher-order logic can satisfy this need without translation into dependent type theory.
 
-#### C.2.3:13.9 - `F8` - Dependent / constructive proofs
+#### C.2.3:13.9 - Properties expressed in types and proof terms
 
-Programs-as-proofs or dependent-type expressions carry the relevant property in their types or proof terms.
+A dependent type can express a property of a program or mathematical object; a term can carry a derivation of that property under the calculus. Recover the exact proposition, assumptions and term. Distinguish that expression from evidence that the required checker accepted it. Its usefulness may include preventing a particular invalid construction or connecting a program to its specification.
 
-#### C.2.3:13.10 - `F9` - Univalent / higher foundations
+#### C.2.3:13.10 - Higher equalities and univalent foundations
 
-Higher-equality foundations are load-bearing. The expression relies on a frontier-grade setting where equivalence is handled as structure-level identity.
+When a question needs relationships among equalities or a particular treatment of equivalence, name those structures and the foundation used to express them. This can change the available construction or proof. It does not strengthen every unrelated invariant or make simpler formal foundations inadequate.
 
-#### C.2.3:13.11 - Cross-anchor cautions
+#### C.2.3:13.11 - Keeping the distinctions together
 
-- Execution is not proof.
-- Surface structure is not yet semantics.
-- Publishing or approval is not an anchor.
-- A local sub-anchor does not erase its parent anchor's meaning.
+A useful assessment explains which of these contributions cooperate. A controlled requirement can be related to a formal invariant and an executable model, with a derivation connecting the model to the invariant. The links carry claims of their own. Check the required link when its meaning or assumptions change; do not infer the whole connection from the presence of all three documents.
 
-### C.2.3:14 - Assigning `F` in Practice
+### C.2.3:14 - Assessing formality in practice
 
 #### C.2.3:14.1 - First-pass questions
 
-1. **Can a competent reader misread the claim materially?**
-   If yes, the expression is likely at `F0-F2`; if not, it may be `F3` or above.
-2. **Are the critical claims visible as explicit predicates or invariants?**
-   If yes, the expression is at least `F4`.
-3. **Does the expression have declared executable semantics?**
-   If yes, it is likely in the `F5-F6` region.
-4. **Are proofs of the core claims checked by a logic kernel or a dependent type checker?**
-   If yes, the expression is likely `F7-F8`, or `F9` if higher-equality machinery is essential.
+1. Which claim, declaration or argument must be understood, executed, combined or checked?
+2. Are its terms, domains and interpretation sufficient for that operation?
+3. Are the required predicates, operations and inference steps actually expressed?
+4. Which calculus and assumptions matter, and what checking result is available when required?
+5. Would changing the expression property change the receiving result, or would it only add unused apparatus?
 
-#### C.2.3:14.2 - Quick rubric
+#### C.2.3:14.2 - Short assessment
 
-- No full structure -> `F0-F1`
-- Full structure but mostly placeholder criteria -> `F2`
-- Controlled prose with one stable reading -> `F3`
-- Explicit predicates / invariants -> `F4`
-- Declared executable semantics -> `F5`
-- Hybrid / layered formal obligations -> `F6`
-- Machine-checked proof core -> `F7`
-- Dependent proof-carrying core -> `F8`
-- Higher-equality foundations are essential -> `F9`
+A short assessment names the subject, required properties, observed basis and consequential gap. For example: “The interface condition gives typed inputs and outputs and an explicit postcondition. The procedure has executable semantics. The preservation of this postcondition across the retry branch is not expressed.” The next useful change is the missing retry argument, not the acquisition of a more elaborate specification language.
 
-#### C.2.3:14.3 - Typical delta-`F` moves
+For repeated comparisons, use the same property meanings and conditions for every candidate. A compact profile can record them. Add a local rank only when its declared mapping preserves the distinctions used by the comparison.
 
-- `F2 -> F3`: replace loose prose with controlled phrasing and explicit acceptance statements.
-- `F3 -> F4`: recast acceptance into typed predicates or invariants.
-- `F4 -> F5`: give the expression declared executable semantics.
-- `F5 -> F6`: make multi-layer obligations explicit.
-- `F6 -> F7/F8`: move critical claims into machine-checked proof or dependent-type form.
+#### C.2.3:14.3 - Typical improvements
 
-### C.2.3:15 - Composition and Interaction
+- Replace unstable terms with explicit definitions and consistent references when interpretation is blocked.
+- State a necessary acceptance condition as a predicate with its types, units and meaning when it must be evaluated or reasoned about.
+- Supply operational semantics when the result must be computed.
+- State the relations and obligations joining formal subsystems when the whole must be analysed.
+- Express the missing derivation when the result depends on a conclusion from premises, then obtain the checking evidence required for that use.
 
-#### C.2.3:15.1 - Weakest-essential-support rule
+These changes can occur independently or together. Describe the property changed; use a local rank difference only when the named scale gives it meaning.
 
-Identify the assessed episteme’s expressed claim or argument and the compositional support relation it actually uses. Its F is bounded by the least-formal essential content or inference within that assessed expression. A machine-checked annex does not make an informal connecting inference machine-checked.
+### C.2.3:15 - Composition and interaction
 
-External evidence has a different role. A typed claim supported by an informal observation can remain F4 because its predicates and types are explicit, while its warrant remains weak or unresolved under B.3. If the assessed bearer is instead the whole argument, an essential inference expressed only as controlled prose caps that argument at F3 despite an F7 annex. Name that bearer and inference; do not take a minimum over every external source in an evidence chain.
+#### C.2.3:15.1 - Essential-content and connection rule
 
-#### C.2.3:15.2 - Relation to `G`
+Identify the assessed episteme's expressed claim or argument and its compositional support relation. A property of the whole requires the relevant properties of its essential content and of the inferences that connect it. A machine-checked annex does not make an informal connecting inference machine-checked. Listing common constituent properties is also insufficient when the composition can fail to preserve them.
 
-`F` concerns expression form; `G` concerns applicability or claim scope. Tightening scope may accompany a raise in `F`, but it is a separate change and must remain visible as such.
+External evidence has a different role. A typed claim supported by an informal observation can retain its explicit predicate and interpretation while its empirical warrant remains weak or unresolved under B.3. If the assessed subject is instead the whole argument, include its essential observation-to-conclusion inference in that assessment. Do not take a minimum over every external source in an evidence chain.
 
-#### C.2.3:15.3 - Relation to `R`
+A minimum can abbreviate an upper bound on a local ordered scale only when all assessed parts use that scale and the composition rule establishes the bound, including the connection. A minimum alone does not prove that the whole meets that level; additional joining obligations may remain. Without that basis, inspect the needed properties directly.
 
-Higher `F` often makes evidence easier to formulate, test, or prove, but it does not create warrant strength by itself. Empirical freshness, corroboration, and bridge penalties remain `R` concerns.
+#### C.2.3:15.2 - Relation to G
 
-#### C.2.3:15.4 - Relation to `CL` and Bridges
+Formality concerns expression; G concerns applicability or claim scope. Making an assumption explicit can reveal that the claim applies less widely than expected. Record that scope correction separately from the improvement in expression. A precise claim can still have broad scope.
 
-A bridge may expose loss or mismatch across contexts. Preserve that limitation for the actual receiving use and assess any R effect under its justified model; the loss does not silently lower or raise the attributed F. A receiving rewrite that changes claim content, EntityOfConcern, or the effective reference scheme identifies a new episteme under `C.2.1`; that episteme should be published with its own `F`.
+#### C.2.3:15.3 - Relation to R
 
-### C.2.3:16 - Worked Examples
+An explicit expression can make a claim easier to test or its derivation easier to check. It does not create empirical support. A checked formal argument establishes its conclusion under the admitted premises and calculus; applying that conclusion to the world additionally needs the relevant interpretation and evidence. Assess freshness, corroboration and mapping limitations under their actual assurance models.
+
+#### C.2.3:15.4 - Relation to CL and Bridges
+
+A Bridge may expose loss or mismatch across contexts. Preserve that limitation for the receiving use. Reuse a formality assessment only if the properties and interpretation on which it relies survive the transfer. A receiving rewrite that changes claim content, EntityOfConcern or the effective reference scheme identifies a new episteme under C.2.1; assess the expression of that episteme. A changed carrier alone does not require a new assessment.
+
+### C.2.3:16 - Worked examples
 
 #### C.2.3:16.1 - Research hypothesis
 
-A short note proposing a new scaling law with one stable reading and explicit acceptance conditions in prose is typically `F3`. Rewriting the acceptance conditions as typed predicates would move it toward `F4`.
+A short note proposes a scaling law with stable terms and acceptance conditions in prose. That can be enough to decide which measurement to attempt. Writing the relation with explicit variables, units and parameter conditions enables a quantitative comparison. The expression becomes more determinate in those respects; the fit to observations remains a separate question. A poor fit is not repaired by making the same formula typographically more formal.
 
 #### C.2.3:16.2 - Interface specification
 
-An interface specification with explicit preconditions, postconditions, and invariants is typically `F4`. Adding declared executable semantics in a faithful reference model may move it toward `F5`.
+An interface specification declares preconditions, postconditions and invariants with their types and interpretation. It can be used to compare designs before an implementation exists. A faithful executable reference model adds the ability to run scenarios. A running implementation that omits the postcondition does not dominate that specification: the two expressions supply different contributions. To claim conformance, connect the implementation behavior to the required postcondition and supply the needed argument or test.
 
 #### C.2.3:16.3 - Safety controller
 
-A controller coupled to a plant model with explicit hybrid obligations is typically `F6`. If key invariants are then machine-checked in a higher-order proof environment, those claims move toward `F7`.
+A controller and plant model express discrete transitions, continuous evolution and the obligations connecting them. A proof of an invariant in higher-order logic can satisfy a requirement for an explicitly derived invariant under those assumptions. A checked dependent-type development can satisfy the same requirement. Choose between adequate options by compatibility, available proofs and application cost through C.19.2; there is no general requirement to replace HOL with a supposedly higher foundation. If the plant-assumption evidence is weak, retain that limitation even when the derivation is fully checked.
 
 #### C.2.3:16.4 - Decision policy
 
-A normative policy stating in controlled prose that requests exceeding a thirty-minute planned-duration ceiling fail that budget condition may declare F3 without any B.3 assurance result. An expression with a typed Plan variable p, plannedMinutes(p) in nonnegative real minutes, and meetsBudget(p) iff plannedMinutes(p) ≤ 30 satisfies the F4 predicate/type basis for this condition. The rating follows those observable expression properties, not a software tool or a readability claim. Meeting the expressed budget condition alone supplies neither other eligibility conditions nor permission.
+A policy says in controlled prose that a request exceeding a thirty-minute planned-duration ceiling fails the budget condition. To evaluate that condition automatically, introduce a Plan variable p, define plannedMinutes(p) in nonnegative real minutes and state `meetsBudget(p) iff plannedMinutes(p) <= 30`. The expression now gives the needed domain, unit and predicate. Its evaluation can answer the budget question; it supplies neither the other eligibility conditions nor permission to proceed.
+
+If “duration” later means elapsed duration rather than planned duration, retaining the formula's printed shape is insufficient. The input interpretation and therefore the condition have changed. Return to the affected policy meaning and uses.
 
 #### C.2.3:16.5 - Proof-bearing algorithm
 
-A dependent-typed algorithm whose central property is carried by the type itself is typically `F8`.
+An algorithm's dependent type states a length-preservation property, and its term expresses a derivation under the chosen type theory. Inspect the property and term, then recover the required checking result. A separate HOL proof of the same stated property may be equally sufficient for the recipient. If a new task instead requires reasoning about higher equalities or a specific univalent construction, it changes the apparatus requirement. That new requirement does not retrospectively make the earlier sufficient derivation less rigorous.
 
 #### C.2.3:16.6 - Executable ML recipe
 
-A fully explicit training-and-evaluation recipe with declared execution semantics is typically `F5`. It does not become `F7` merely because the surrounding execution machinery is sophisticated.
+A training-and-evaluation recipe declares the inputs, parameters, operations and output interpretation needed to repeat a run. This supplies executable meaning. It does not express a proof of generalization merely because the harness is sophisticated. If the receiving use needs an empirical performance estimate, obtain the corresponding observations and inference. If it needs a formal property of the procedure, state and derive that property under a suitable model. The two continuations repair different gaps.
 
-### C.2.3:17 - Authoring and Review Guidance
+### C.2.3:17 - Guidance for developing and examining expressions
 
 #### C.2.3:17.1 - For authors
 
-Declare `F` honestly and early. A low `F` declaration is not a defect; it is often the correct statement about an early expression. Raise `F` by changing the expression form itself, not by applying prestige language or by pointing to surrounding machinery.
+Make the expression sufficient for its intended use. State a remaining ambiguity, unspecified operation or missing derivation when it changes what a reader can do. An early informal expression can be the appropriate result. Improve the property that blocks the next use, and preserve its connection to the original question.
 
 #### C.2.3:17.2 - For reviewers
 
-Review the assessed claim or argument and its actual expression. Check the target anchor’s observable predicates, types, semantics and proof terms, and any less-formal essential constituent of that same assessed bearer. A missing proof term required by the claimed anchor matters to F; missing external evidence or lower R is a separate warrant question. Check that status, readability and assurance have not replaced the expression test.
+Read the assessed claim or argument and its actual expression. Check its terms, predicates, semantics and required inferences, including essential connections. Recover the basis for any claimed checking result. Keep missing expression, missing proof, weak empirical support and inadequate readability distinct, because they call for different repairs. A complete template or named tool answers none of those questions alone.
 
 #### C.2.3:17.3 - For integrators and assurance leads
 
-Use `F` explicitly in gates and composition analysis, but do not let it absorb work that belongs to `G`, `R`, `CL`, or `C.2.LS`. Large `F` gaps across collaborating epistemes are signals for explicit formalization work, not excuses for wishful leveling.
+State the expression properties a receiving operation consumes. For a composition or transfer, establish their preservation through its actual connections. Reuse a declared local scale when it captures those needs; retain the underlying meaning when several participants use different scales. Apply separate scope, evidence, authority and language-state conditions where they matter.
 
-### C.2.3:18 - Glossary and Notation
+### C.2.3:18 - Glossary and notation
 
-- **`U.Formality` / `F`.** The rigor-of-expression characteristic governed by this pattern.
-- **Anchor.** A named ordinal milestone on the `F` ladder.
-- **Sub-anchor.** A context-local refinement docked to one parent anchor.
-- **Delta-`F`.** A content change that alters expression rigor.
-- **Essential support for composite F.** Content or inference required by the assessed composite expression under its named compositional support relation; external evidential warrant is assessed separately.
-- **Example notation.** `F = F4`, `F = F7[HOL]`, `requires F >= F6`.
+- **Formality assessment (F).** An assessment of selected properties of an episteme's expression, with its subject, interpretation and basis recoverable.
+- **Formality profile.** A structured account of those selected properties; when represented in a CharacteristicSpace, each actual Characteristic has its own declared slot.
+- **Local ordered summary.** An explicit mapping from such assessments to a named ordinal scale whose levels have justified nested criteria.
+- **Change in formality.** A change in an assessed property or in a justified order, not a numerical difference between unrelated labels.
+- **Essential content and inference.** The content and connecting reasoning required by the assessed whole under its named composition relation; external warrant is assessed separately.
+- **Example notation.** `F: explicit typed invariant; derivation not supplied`, or a threshold on a specifically declared local specification-expression scale.
 
-### C.2.3:19 - Change Log and Patch Notes
+### C.2.3:19 - Reusing an earlier assessment
 
-#### C.2.3:19.1 - Supersession of legacy ladder language
+#### C.2.3:19.1 - Recover the assessed meaning
 
-This pattern supersedes deprecated wording that speaks about alternate formality modes, tiers, or editorial ladders. Forward-looking use should speak in `F` directly.
+An earlier label such as F4 or F8 is a locator for an assessment, not enough information to use it. Recover the actual expression, criteria and basis. Preserve useful properties already established, such as explicit predicates, executable semantics or a checked derivation. Do not infer a new profile or admissibility result from the number alone.
 
-#### C.2.3:19.2 - Migration guidance
+#### C.2.3:19.2 - Reuse a sufficient result
 
-When refreshing legacy material, assign an initial `F` from observable content, replace local maturity labels used as rigor surrogates with explicit `F` declarations, and keep provenance notes only as historical annotations rather than live rigor surrogates.
+When the same expression properties and conditions still answer the receiving question, reuse the assessment. If an earlier requirement was written only as a rank, recover what operation and guarantee it was meant to protect before replacing it with explicit criteria or a justified local threshold. A binding requirement is changed through its governing authority; a revised vocabulary does not silently waive it. Reassess only the properties or dependent conclusions whose basis has changed.
 
 #### C.2.3:19.3 - Boundary to language-state facets
 
-For the language-space extension, `F` does **not** govern `U.ArticulationExplicitness`, `U.LanguageStateClosureDegree`, `U.LanguageStateAnchoringMode`, or `U.LanguageStateRepresentationFactorBundle`. Contexts **MUST NOT** hide thresholds for those facets as pseudo-levels or submodes of `F`; those facets remain explicitly governed by `C.2.LS` and its subordinate patterns.
+This pattern does not redefine `U.ArticulationExplicitness`, `U.LanguageStateClosureDegree`, `U.LanguageStateAnchoringMode` or `U.LanguageStateRepresentationFactorBundle`. C.2.LS and its subordinate patterns govern those facets. A formality assessment can refer to their results when relevant, but must not relabel them as steps of one rigor scale.
 
 ### C.2.3:End
 
@@ -53413,7 +53420,7 @@ Without a dedicated profile bundle, authors blur articulation, closure, anchorin
 ### C.2.LS:4 - Solution
 `U.LanguageStateFacetProfile` is a typed profile bundle that names the facets by which position claims in the declared language-state chart over `U.CharacteristicSpace` are published and interpreted:
 
-- `formalityRef` -> `U.Formality` from `C.2.3`
+- `formalityRef` -> the expression-property assessment governed by `C.2.3`, including its selected basis and any justified local ordered summary
 - `articulationExplicitnessRef` -> `U.ArticulationExplicitness` from `C.2.4`
 - `languageStateClosureDegreeRef` -> `U.LanguageStateClosureDegree` from `C.2.5`
 - `languageStateAnchoringModeRef` -> `U.LanguageStateAnchoringMode` from `C.2.6`
@@ -53421,7 +53428,7 @@ Without a dedicated profile bundle, authors blur articulation, closure, anchorin
 - `thresholdRefs?` -> context-local threshold declarations over the named facets
 - `routeNotes?` -> informative notes that help interpret routing or reopening decisions
 
-`C.2.LS` therefore defines only the **profile bundle**; it defines neither an individual characteristic nor a trajectory. `A.18/A.19` supply characteristic semantics, `A.16` defines admissible moves, and `E.18` governs an independently selected TransformationFlowStructure.
+`C.2.LS` therefore defines only the **profile bundle**; it defines neither an individual characteristic nor a trajectory. A formality assessment or representation-factor bundle can contain several Characteristics. If placed in a CharacteristicSpace, each of those Characteristics receives its own declared Scale and slot; the reference to the assessment is not itself a Coordinate. `A.18/A.19` supply characteristic semantics, `A.16` defines admissible moves, and `E.18` governs an independently selected TransformationFlowStructure.
 
 #### C.2.LS:4.0a - Kind and profile-bundle boundary
 
@@ -53431,7 +53438,7 @@ Without a dedicated profile bundle, authors blur articulation, closure, anchorin
 `C.2.LS` defines only profile composition and requires the language-state facets to remain explicit and non-collapsed. It does **not**:
 
 - redefine `F`;
-- invent a second formality progression;
+- invent a universal formality progression or an undeclared local summary;
 - redefine the scale semantics of `AE`, `CD`, `LanguageStateAnchoringMode`, or `U.LanguageStateRepresentationFactorBundle`;
 - define reopen/backoff moves;
 - define endpoint classification or bridge kinds.
@@ -53476,7 +53483,7 @@ The pattern biases authors toward keeping facets explicit and away from master-s
 
 ### C.2.LS:7 - Conformance Checklist
 - `CC-C.2.LS-1` A language-state facet profile **SHALL** reference the patterns that define its facets rather than invent local unnamed factors.
-- `CC-C.2.LS-2` `C.2.LS` **MUST NOT** redefine `F` or create a second formality progression.
+- `CC-C.2.LS-2` `C.2.LS` **MUST NOT** redefine the C.2.3 assessment or conceal several expression properties in one undeclared rank.
 - `CC-C.2.LS-3` Thresholds that matter for routing, reopening, or lexical repair **SHALL** be published on explicit facets.
 - `CC-C.2.LS-4` Trajectory accounts that rely on facet profiles **SHOULD** reuse A.16 move kinds. Apply E.18 only to an independently selected TransformationFlowStructure; use E.18.2 when its mathematical description is needed.
 - `CC-C.2.LS-5` Composite labels such as `early`, `settled`, or `ready` **SHALL NOT** stand in for the explicit facet bundle when those states matter operationally.
@@ -53520,7 +53527,7 @@ SysML v2 is deliberately excluded from the positive SoTA basis and from useful l
 #### C.2.LS:13.1 - Operator-facing early alert
 A console alert note may be published with a language-state facet profile such as:
 
-- `F = F2/F3` because the note is structurally controlled but still lightweight;
+- its formality assessment states that the alert terms and structure are stable while some acceptance conditions remain informal;
 - `AE = AE2` because candidate anchors are visible but the direct semantic branch or its required structure remains partial;
 - `CD = CD1` because several routes remain live;
 - `LanguageStateAnchoringMode = AM.OperatorLoop` because the note is directly anchored to operator intervention/work;
@@ -53539,10 +53546,10 @@ A felt or trace-anchored mismatch cue in an inquiry note may be:
 That profile explains why the cue should remain in `A.16.1` rather than being forced into `A.6.P` or `B.5.2` immediately.
 
 #### C.2.LS:13.3 - Architecture-description case
-A viewpoint-bound note about the adequacy of an architecture description may be moderately high in `F`, moderately high in `AE`, still mid-level in `CD`, document-mediated in `AM`, and symbolic in its representation-factor bundle. The profile keeps description-side adequacy distinct from system-side engineering quality.
+A viewpoint-bound note about the adequacy of an architecture description may state its constraints through explicit typed predicates, be moderately high in `AE`, still mid-level in `CD`, document-mediated in `AM`, and symbolic in its representation-factor bundle. The profile keeps description-side adequacy distinct from system-side engineering quality.
 
 #### C.2.LS:13.4 - Same `F`, different profile
-Two notes may share the same rough `F` band and still differ sharply in articulation, closure, anchoring, and representation factors. One may be operator-loop anchored and low-closure; another may be document-mediated and comparatively closed. The profile bundle keeps that difference visible instead of letting `F` behave like a master factor.
+Two notes may supply the same required expression properties and still differ sharply in articulation, closure, anchoring, and representation factors. One may be operator-loop anchored and low-closure; another may be document-mediated and comparatively closed. The profile bundle keeps that difference visible instead of letting `F` behave like a master factor.
 
 ### C.2.LS:14 - Authoring and Review Guidance
 
@@ -55377,7 +55384,7 @@ Author a reusable `KindSignature` only when a named receiving use needs the crit
 - the exact `U.ContextSlice` applicability in which the evaluation may be formed;
 - the effective `U.ReferenceScheme`;
 - named assumptions, dependencies, standards, versions, units, and temporal policy;
-- its `U.Formality`; and
+- the expression properties needed for its intended use under C.2.3; and
 - an optional `ExtentRule` for a named extension-consuming use.
 
 In A.6.0 terms, `SubjectKind` is the broad candidate kind and `RangedValueKind` is `{true, false, unknown}`. `not-applicable` is returned before this ranged evaluation. `ExtentRule` is declaration content, not a new ontic relation. Formality characterizes the declaration episteme, not the kind, candidate, truth, or extension. A changed membership condition, candidate-domain declaration, `EntityOfConcern`, applicability, or effective scheme identifies another episteme. Recheck its signature membership under A.6.0 and its `KindSignature` content under this section; claim an edition relation under C.2.1 only when that relation obtains. C.3.1 separately decides kind continuity.
@@ -55567,7 +55574,7 @@ Model theory and type systems distinguish intensional declarations, satisfaction
 - **C.3.2 — Kind intent, admissibility, judgment, and extension:** check `admissible | not-applicable` before a fresh `true | false | unknown` receiving judgment.
 - **A.2.6 — USM:** Claim scope and selected context slices remain separate from kind identity and kind correspondence.
 - **C.2.2 — F–G–R:** justified bridge penalties affect reliance R, not F or G.
-- **C.2.3 — U.Formality:** formality belongs to the declaration or assertion episteme.
+- **C.2.3 — Formality assessment:** the assessed expression properties belong to the declaration or assertion episteme.
 
 **Non-goals.** No repository or notation mandate. No Scope mapping here. No bridge from a locality change alone. No transfer of classification truth. `CL^k` reuses an ordinal congruence anchor for a declared kind-correspondence use without becoming a universal interoperability score.
 
@@ -55645,7 +55652,9 @@ The separate bridge assertion states whether obtaining is affirmed, denied, or u
 
 **KB-08 (Anchor reuse and AT neutrality).** `CL^k` reuses the ordinal anchor semantics of CL but assesses the declared bridge use over kind intent and order. The bridge-assertion episteme labels it kind-congruence. KindAT remains editorial under C.3.5 and independent of `CL^k`.
 **KB-09 (Effect on R only).** After receiving admissibility has been checked and an admissible candidate has received a fresh target judgment, a claim that relies on both that result and an obtaining KindBridge may apply only the bridge assertion's justified monotone `Ψ(CL^k)` consequence to R, alongside any independently established scope-relation consequence. A `not-applicable` candidate forms no judgment; `unknown` stays `unknown`; F and G do not change.
-**KB‑10 (Chaining).** For a chain of bridges, **effective `CL^k` = min** of the links (weakest‑link).
+**KB-10 (Chaining).** A minimum over comparable link assessments reports the lowest link rank on their common scale and calibration question. It does not by itself assess the composed correspondence. For a receiving use that depends on preservation through the chain, recover the exact mappings and intermediate interpretations, establish their joint definedness, and check that the required source distinctions survive every link and the composition. Keep each obtaining KindBridge and its assertion distinct. Return the preserved structure, actual losses and unresolved requirements; use another correspondence, narrower application or additional basis when an essential distinction is unavailable.
+
+Two locally useful mappings can lose different distinctions. For a finite order test on `0 < 1 < 2`, let both monotone maps have values `f(0)=0`, `f(1)=0`, `f(2)=1` and `g(0)=0`, `g(1)=0`, `g(2)=1`. Each preserves a nontrivial distinction in its own domain, but their composition maps every source value to `0`. The lowest link rank cannot establish preservation of the source distinction the final use needs. Conversely, an established composition that preserves the required common structure remains usable. A local law may derive a composition characteristic from a minimum when its domain and preservation argument justify that law; there is no universal chain-minimum rule. Any numerical consequence for R still requires the receiving model under C.2.2 and B.3.
 
 #### C.3.3:6.5 - Loss Notes & Definedness
 
@@ -55740,11 +55749,11 @@ The obtaining bridge relates source kind `AdultPatient` to independently identif
 | **KB-07** | Collapse designates affected source order facts and lost distinctions without rewriting either kind order. |
 | **KB-08** | `CL^k` is an assessment in the bridge assertion and does not alter kind identity, formality, scope, or abstraction facet. |
 | **KB-09** | Reliance applies only justified `CL^k` consequences to R; admissibility, F, G, and classification truth stay unchanged. |
-| **KB-10** | Chained bridge reliance uses the weakest link while keeping occurrences and assertions distinct. |
+| **KB-10** | A comparable-link minimum remains a link summary; a claim about composed correspondence establishes joint definedness and preservation of the distinctions required by the receiving use, keeping occurrences and assertions distinct. |
 | **KB-11** | Loss notes state non-preserved criteria or subkind facts and do not change either kind. |
 | **KB-12** | Definedness is explicit; outside it the guard declines that bridge use while independent receiving classification keeps its own result. |
 
-**Integration requirements with Part B.** Part B distinguishes the C.3.3 kind-correspondence channel from scope and F.9 sense channels, routes justified `CL^k` consequences to R, and retains weakest-link chaining. Templates designate exact relied-on relations and assertions; their fields create none of them.
+**Integration requirements with Part B.** Part B distinguishes the C.3.3 kind-correspondence channel from scope and F.9 sense channels, routes justified `CL^k` consequences to R, and uses KB-10 for composition: comparable-link summaries remain separate from established preservation through the chain. Templates designate exact relied-on relations and assertions; their fields create none of them.
 
 ### C.3.3:End
 
@@ -55884,7 +55893,7 @@ Use an adaptation declaration for procedural tailoring. If the criterion becomes
 
 - The base `KindSignature` episteme supplies the kind criterion and its own F.
 - The separate adaptation declaration supplies additional candidate-feature constraints or vocabulary bindings and may have its own F.
-- The exact `KindUseAdaptationJudgment` pins both editions and preserves `unknown`; neither formality value belongs to the kind, candidate, or truth value.
+- The exact `KindUseAdaptationJudgment` pins both editions and preserves `unknown`; neither formality assessment belongs to the kind, candidate, or truth value.
 - An optional extension-like result remains only a pinned-edition representation of true adaptation judgments.
 
 #### C.3.4:8.3 - With KindBridge
@@ -55977,7 +55986,7 @@ Reviewer questions:
 - **C.3.2:** the separate `KindSignature` declaration episteme, exact four-input classification judgment, and optional pinned-edition extension representation.
 - **C.3.3:** the obtaining `KindBridge` relation and its separate bridge-assertion episteme carrying `CL^k`, loss, evidence, and admitted use.
 - **C.3.4:** the `KindUseAdaptationDeclaration` episteme and exact `KindUseAdaptationJudgment`.
-- **A.2.6, C.2.2, and C.2.3:** Claim/Work scope, F–G–R, and `U.Formality` on the episteme that owns it.
+- **A.2.6, C.2.2, and C.2.3:** Claim/Work scope, F–G–R, and formality assessed on the episteme that owns the expression.
 - **MM-CHR:** the Facet-versus-Characteristic distinction.
 
 **Non-goals.** KindAT supplies no numerical scale, gating rule, composition operator, public-kind admission, classification result, or assurance score.
@@ -55989,7 +55998,7 @@ Teams need a quick answer to a planning question: is this local kind intended as
 KindAT gives that planning vocabulary while keeping the governing objects separate:
 
 - the local kind and its order remain under C.3/C.3.1;
-- the `KindSignature` remains a declaration episteme whose own `U.Formality` may change;
+- the `KindSignature` remains a declaration episteme whose expression properties may change under C.2.3;
 - for an admissible request, `J(candidate, kind, signatureEdition, slice)` remains `true`, `false`, or `unknown`;
 - any `KindExtension` remains a pinned-edition representation of true candidates; and
 - bridge and kind-use adaptation objects retain the ontology assigned by C.3.3 and C.3.4.
@@ -56194,7 +56203,7 @@ Names such as `Guard_TypedClaim` are editorial handles. A context may alias them
 3. require `U.ClaimScope(C)` to cover the exact `TargetSlice` and require an explicit `Gamma_time` selector;
 4. apply only the justified bridge consequences to R;
 5. check evidence freshness separately when the admission implies reliance; and
-6. check a policy-required formality threshold on the exact claim or declaration episteme that owns the value.
+6. check the policy-required expression properties on the exact claim or declaration episteme under C.2.3; a threshold is meaningful only on its named, justified local scale.
 
 The subkind direction above is contravariant only for restricting a universally quantified claim: a claim over `Vehicle` may enter a `PassengerCar`-restricted use when `PassengerCar` is a subkind of `Vehicle`. It is not a generic compatibility direction for producer outputs, operation arguments, mutable positions, or arbitrary typed slots; each such use states its own variance rule. This guard MUST NOT invent an anonymous candidate or infer a candidate classification from declaration compatibility.
 
@@ -56287,7 +56296,7 @@ A source judgment may support reliance but MUST NOT be copied as target truth. W
 
 **E-04 (Fail-closed without truth rewrite).** A required check returning `false`, `unknown`, or `not-applicable`, a missing declaration, non-obtaining relation, unavailable bridge assertion, or uncovered Scope causes refusal. The refusal is not itself a classification value or an assertion that the relevant world-side relation fails to obtain.
 
-**E-05 (Weakest link and bridge consequence).** Chained bridge assessments use the governed weakest-link rule. The receiving R path records each relied-on bridge/assertion; neither F nor G nor a judgment value is modified.
+**E-05 (Bridge composition and consequence).** Apply C.3.3:KB-10 to a relied-on chain. Establish joint definedness and preservation of the source distinctions needed by the receiving use from its actual mappings and intermediate interpretations. A minimum of comparable link ranks is a link summary, not that preservation result. The receiving R path records each relied-on bridge and assertion and applies only its justified consequences; neither F nor G nor a judgment value is modified.
 
 **E-06 (Predicate separation).** Declaration compatibility, candidate admissibility, candidate classification, Scope coverage, evidence freshness, bridge applicability, capability fit, and action disposition SHALL remain separately inspectable predicates.
 
@@ -92427,7 +92436,7 @@ This section defines an **extensible family of autonomy oversight profiles** for
 **Normative requirements by profile.**
 * **Budgets.** Each profile **MUST** declare ceilings for **time / compute / cost / risk** and a FoA descriptor; units must be explicit under **C.16**, planned ceilings remain **A.15.2** WorkPlan content, and run‑time consumption is tied to dated Work, aggregation, and provenance under **A.15.1**, **B.1.6**, and **A.10**. Budgets are **hard gates** at run‑time (**A.21**; C.Agent‑Tools‑CAL **ATC‑3** for stopping or replanning when a ceiling is breached).
 * **Profile binding & change visibility.** Every CallPlan **MUST** declare the active profile id. A profile change **MUST** retain its from/to profiles, policy editions, effective window and A.21 permission result in the DecisionLog. Recompute the decision when its subject, action, rule, checks, scope or window changes. Cite an E.18 GateCrossing only when an independently selected TFS, exact source/receiving positions and changed CtxState bindings establish that structural transition. Add an F.9 Bridge only for its independently obtaining relation between the two F.17 local senses.
-* **Assurance floors.** Apply B.3 to the named assurance claim and receiving use. A required F floor uses C.2.3's ordinal meaning; any R threshold, composition, or CL loss needs its justified quantity, scale, and model under B.3/C.2.2. No universal F/R weakest-link minimum is imposed by an autonomy-profile label, and F does not substitute for R. Any justified profile-specific tightening for broader FoA **MUST** be declared on the profile and pinned by policy-id; the actual protection and decision-authority conditions remain binding. Pre-deployment **assurance deltas** MUST be recorded for L2+.
+* **Assurance floors.** Apply B.3 to the named assurance claim and receiving use. A formality requirement names the expression properties needed under C.2.3, or a justified threshold on a declared local scale; any R threshold, composition, or CL loss needs its justified quantity, scale, and model under B.3/C.2.2. No universal F/R weakest-link minimum is imposed by an autonomy-profile label, and F does not substitute for R. Any justified profile-specific tightening for broader FoA **MUST** be declared on the profile and pinned by policy-id; the actual protection and decision-authority conditions remain binding. Pre-deployment **assurance deltas** MUST be recorded for L2+.
 * **Exploration discipline.** When a still-live C.19 pool constrains the `CallPlan`, cite its `PoolPolicyResult`. Include the exact `EmitterPolicy` and `explore_share` only when the plan uses that profile, including `0` when it explicitly plans no exploration. Apply the declared profile's exception rule to a deviation; do not invent live-pool refs after the action is fixed and pool treatment is irrelevant.
 * **Provenance.** L1+ MUST emit a **CallGraph** with Service/Method editions, any actually used EmitterPolicyRef, budget deltas, and observation hooks (C.Agent‑Tools‑CAL **ATC‑5**).
 * **BLP conformance.** Apply E.2 BLP when selection makes a scale claim or invokes a declared generality policy, retaining its actual α/δ tolerances and conditional debt requirements. L2+ alone does not manufacture a scale claim. A profile that independently requires a fuller comparison or audit must state that trigger and basis; its other budget, oversight and assurance duties remain binding.
@@ -104971,7 +104980,7 @@ The **Working-Model layer remains the canonical publication face** for authors a
 | **CC-E14-9 (Purpose-selected assurance).** | Authors **SHOULD** select the support needed by the current claim and use. The `postulate`, `inferential`, and `axiomatic` modes are permitted justification postures under their applicable profile, not an ordered ladder of confidence or rigor. Use **Empirical Validation** when observation addresses the actual assurance question. | Preserve branch-specific obligations without demanding promotion through mode labels. |
 | **CC-E14-10 (Structural grounding handshake).** | When a publication elects `B.3.5` for a structural parthood or collection-belonging assertion, the author **SHALL** keep the readable claim first, declare `validationMode=axiomatic`, and link through `tv:groundedBy` to exactly one current C.2.1 construction-trace episteme in the applicable C.13 form: `sum` or `slice` for structural parthood, or `set` for collection belonging. Another named current assurance requirement governs its own obligations. Outside those conditions, a direct structural claim has no E.14 mode, link, or trace obligation. In every case, the direct relation pattern and the candidate's identity or reidentification rule decide occurrence and continuity; a trace and mode create neither. | Makes selected construction assurance inspectable while keeping ordinary use, ontology, identity, and currentness separate. |
 | **CC‑E14‑11 (Postulate and empirical-result bindings).** | For `validationMode=postulate`, authors **SHALL** state the target claim and scope and **SHOULD** supply brief empirical cues that would ease later validation. That posture alone requires no dated Work, result, performer basis, provenance path, or assurance claim. When evaluation or measurement actually occurred and the current assurance use relies on its result, authors **SHALL** name the target claim, scope, qualification window, dated Work, every performer System, and at least one Method the Work enacted; each performer has an A.13 core and the Work is independently admitted under A.15.1. They **SHALL** use F.6 only when the assurance use also consumes exact Work-assignment attribution; the assignment species and occurrence remain separate A.2.1 claims. Any current MethodDescription or local system-role-kind classification, direct participants or A.6.1 bindings, domain-local result and result episteme, A.10 evidence-provenance path, and B.3 assurance claim remain separate. Expose only identities the bounded assurance use consumes; another named current assurance requirement keeps its own obligations. | Keeps a scoped working claim distinct from completed empirical Work while preserving replayable support when a result is actually used. |
-| **CC-E14-12 (F-declaration).**             | Normative Working-Model epistemes **SHALL** declare U.Formality = Fk per C.2.3; F ≥ F3 is recommended for controlled expression. Readability remains a separate Working-Model duty. Any composite-F cap applies to the assessed expression and its essential content or inference under C.2.3, not automatically to external evidence. An assurance use consumes F only when its own argument needs it. | Aligns E.14 with the unified Formality characteristic; avoids obsolete “tiers/modes”. |
+| **CC-E14-12 (F-declaration).**             | Normative Working-Model epistemes **SHALL** make the expression conditions needed for their intended use recoverable under C.2.3. Use stable terms and explicit conditions where ambiguity would change that use; a separate profile or local score is needed only when a receiving comparison or check consumes it. Readability remains a separate Working-Model duty. Any composite-F cap applies to the assessed expression and its essential content or inference under C.2.3, not automatically to external evidence. An assurance use consumes F only when its own argument needs it. | Makes required expression properties recoverable without a universal formality rank. |
 | **CC‑E14‑13 (Light records, not thin prose).** | Authors **SHALL NOT** use the Working‑Model-first stance as a reason to strip problem framing, rationale, or worked slices out of the pattern text. Ordinary use may stay light, but readers **MUST** still be able to understand the pattern without nearby project notes. | Keeps human-facing economy from collapsing into under-explained prose. |
 | **CC‑E14‑14 (Recognition text before assurance text).** | When a pattern claims a Working‑Model or other human-facing benefit, authors **SHALL** keep recognition-first working text distinct from the heavier assurance text. The assurance text **MAY** refine and justify the working text, but it **SHALL NOT** silently change the recognition-text claim. If the pattern claims broad or transdisciplinary reach, the working text **SHOULD** show heterogeneous situations early, preferably through an `F.16`-style example matrix or an equally explicit alternative. | Keeps Working‑Model-first drafting from collapsing into either thin prose or late-only universality. |
 
@@ -105061,7 +105070,7 @@ The **Working-Model layer remains the canonical publication face** for authors a
 
 * **E.8 Authoring Conventions & Style Guide** — section order, style principles, and mandatory safety subsections used here.
 * **E.7 Archetypal Grounding** — the Tell‑Show‑Show rule applied in this pattern’s own Grounding section.
-* **C.2.3 Unified Formality Characteristic (F)** — governs rigor of expression and its declaration for normative Working-Model epistemes. A declared F establishes neither readability nor assurance; unchanged formal content retains its F across notation changes.
+* **C.2.3 Formality of an Episteme (F)** — governs assessment of expression properties and any local ordered summary. The assessment establishes neither readability nor assurance; a notation change preserves it when the relied-on properties and interpretation remain unchanged.
 
 **Coordinates with.**
 
@@ -105825,7 +105834,7 @@ The fixed `E17ViewpointSemanticsSlice@FPFEdition` selects the exact FPF and E.17
 | `KS.ViewpointConformanceValue.E17`, carrying `KindSignature(ViewpointConformanceValue@E17)` | the two exact values designated `conforms` and `doesNotConform` | separately performed conformance-evaluation work emits the value and a named A.21 gate or C.11 comparison/selection decision consumes it |
 | `KS.ViewpointOrganizationSatisfactionValue.E17`, carrying `KindSignature(ViewpointOrganizationSatisfactionValue@E17)` | the two exact values designated `satisfiesOrganization` and `doesNotSatisfyOrganization` | separately performed candidate-structure evaluation emits the value and a named C.11 comparison or selection decision consumes it |
 
-The four exact values remain distinct from their designators. Both kinds use F4 formality, deterministic exact-equality membership, no `SubkindOf`, and fail-closed definedness. Incomplete evidence or interpretation leaves the optional evaluation unsupported or undefined; it supplies neither a negative result nor a third `unknown` member.
+The four exact values remain distinct from their designators. Each KindSignature declaration states its admitted value domain and exact-equality predicate with a fixed interpretation under C.2.3. The kinds have deterministic exact-equality membership, no `SubkindOf`, and fail-closed definedness. Incomplete evidence or interpretation leaves the optional evaluation unsupported or undefined; it supplies neither a negative result nor a third `unknown` member.
 
 Omit both local values from P, direct relation obtaining, and—when the structured branch is active—Q_org and structure identity unless the named consumer actually needs one. Without such a consumer, state the direct conformance judgment or the structured branch's Q_org constraint judgment. `KindMembershipJudgment` and `ConcernCoverageJudgment` remain withdrawn and do not return as kinds or result fields.
 
@@ -108741,7 +108750,7 @@ The gain is practical: a team can compare available source epistemes or source p
 | Comparative review units normally stay tied to explicit source, view, and review structure rather than shifting through helpful prose alone. | Architecture-description practice treats views, viewpoints, and comparison units as explicit review targets rather than letting reader-help prose replace structural review. | Joint ISO, IEC, and IEEE 42010:2022; source status = mature standard | This pattern adopts explicit source references, declared comparison criterion, and explicit boundary rules instead of letting comparative fluency define the case. | `E.17.ID.CR:4.3.b.a` rows **Reviewed source**, **Source references**, and **Bounded lift**; `E.17.ID.CR:5.4.5`, `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.6.a` | **Adopt.** |
 | Interpretation and explanation use are use-sensitive and bounded by intended reader and knowledge limits rather than audience-neutral by default. | Explainable-AI guidance distinguishes explanation, meaningfulness for intended users, explanation accuracy, and knowledge limits instead of treating all helpful prose as equally safe. | Phillips et al. (2021), NIST IR 8312, *Four Principles of Explainable Artificial Intelligence*; source status = current government guidance | This pattern adapts that stance into `targetUserModel`, `interactionMode`, `contrastiveQuestion`, `boundedComparativeUse`, and `overreadRisk`, while still keeping explanation-face use discipline with `E.17.EFP`. | `E.17.ID.CR:4.3.d` interpretant-side block, kept subordinate to the ordinary minimum; `E.17.ID.CR:5.4.4`, `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.6.b` | **Adopt and adapt.** |
 | Static comparative notes and interactive comparative aids carry different relation loads. | Static review notes need source references, comparison criterion, bounded lift, blocked downstream claim or effect, and boundary trigger; interactive explanation-system practice becomes relevant only when the aid is actually interactive, stateful, adaptive, or user-model-bearing. | Labarta et al. (2026), *X-SYS: A Reference Architecture for Interactive Explanation Systems*, arXiv:2602.12748v3; source status = emerging preprint, not settled standard. | This pattern keeps the ordinary minimum sufficient for static notes and adds `targetUserModel`, `interactionMode`, state and history, `overreadRisk`, and bounded-use boundary only for actual interactive comparative aids. | `E.17.ID.CR:4.3.b.a` ordinary card; `E.17.ID.CR:4.3.f` static and interactive split; `E.17.ID.CR:5.4.4`, `E.17.ID.CR:5.4.7` | **Adapt conditionally.** Reject importing XAI architecture into ordinary static notes. |
-| Faithful source relation is not the same as merely plausible or persuasive prose. | Current interpretation research distinguishes faithful source relation from attractive but low-source-relation narrative, especially in explanation-like publication. | Jacovi and Goldberg (2020), *Towards Faithfully Interpretable NLP Systems*; source status = research paper as source for evaluation use | This pattern adopts explicit source references, `E.17:5.1b` source-relation class when it governs the claim, blocked downstream claim or effect, and bridge-claim visibility so that bounded comparison is not overread as source relation or governing-pattern authority it does not carry. | `E.17.ID.CR:4.3.b.a` rows **Blocked downstream claim or effect** and **World-contact limit**; `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.9`, `E.17.ID.CR:5.4.10`, `E.17.ID.CR:5.4.11` | **Adopt.** |
+| Reader plausibility, fidelity to a cited text, and faithfulness to a model decision process answer different questions. | NLP interpretation research distinguishes an explanation that convinces people from one that accurately reflects the model's prediction process; this does not establish fidelity to a cited engineering document. | Jacovi and Goldberg (2020), [*Towards Faithfully Interpretable NLP Systems*](https://aclanthology.org/2020.acl-main.386/), §§1–5; research source about NLP-model interpretation. | This pattern adapts the separation of evaluation questions by analogy. Its ordinary comparison of source claims uses its own explicit source references and comparison criterion, with the source-relation meanings in `E.17:5.1b`; it does not import a model-interpretation test. Further bridge, prompt or authority claims retain their own grounds. | `E.17.ID.CR:4.3.b.a` rows **Source references**, **Bounded lift row(s)**, **Blocked downstream claim or effect** and **World-contact limit**; `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.9`, `E.17.ID.CR:5.4.10`, `E.17.ID.CR:5.4.11` | **Adapt a limited analogy.** Keep the paper's model-process subject distinct from this pattern's source-text comparison. |
 | Comparative review units do not become hidden ranking, aggregate recommendation, or false equivalence when a comparison sheet sorts or scores alternatives. | Quality-diversity practice and multi-objective optimization practice preserve diverse candidate sets and non-scalar trade-offs when one scalar score would hide relevant differences. | Mouret and Clune (2015), MAP-Elites; Deb et al. (2002), NSGA-II; source status = adapted design-space analogy, not naming or review standard | This pattern adapts only the anti-scalarization invariant: one comparison sheet can expose row-level comparison criteria, trade-offs, and visible ordering criteria, but it does not add equivalence, substitution, recommendation, method choice, gate passage, or decision authority unless `C.11`, `F.9`, `A.20`, `A.21`, another governing FPF pattern, or a project record named by value supplies that source relation or project record. | `E.17.ID.CR:4.3.b.a` rows **Bounded lift**, **Blocked downstream claim or effect**, and **Boundary trigger**; `E.17.ID.CR:5.4.5`, `E.17.ID.CR:5.4.6.e`, `E.17.ID.CR:5.4.6.f` | **Adapt conditionally.** Reject treating optimization vocabulary, Pareto wording, benchmark tables, or sorted display order as proof of a governing FPF relation. |
 
 **Row 1.** The ISO row matters because this pattern is governing reviewable comparative units, not free comparative commentary. The pattern adopts the explicit-structure lesson directly: comparison criterion, source references, and boundary rules stay visible enough that a reviewer is not forced to infer the real comparison question from tone alone. Ordinary recovery: use the **Reviewed source**, **Source references**, and **Bounded lift** rows together before leaning on the citation. Engineer-manager payoff: a comparison note can help a review meeting move faster without being mistaken for a free-form equivalence judgement. Case linkage: see `E.17.ID.CR:5.4.5`, `E.17.ID.CR:5.4.6`, and `E.17.ID.CR:5.4.6.a`.
@@ -108750,7 +108759,7 @@ The gain is practical: a team can compare available source epistemes or source p
 
 **Row 3.** The interactive-system row matters because bounded comparative aids can become more directive than static prose without crossing into a full new governing pattern of their own. The pattern adapts only the minimal architectural lesson it needs: if interaction mode changes the comparison claim, that fact is explicit and still stops before prompt, ontology, or authority escalation. Assurance recovery: handle that pressure through the interaction fields plus the prompt and authority boundary rows rather than treating the source citation as a licence for action selection, coaching, prompt selection, approval, or other downstream guidance. Engineer-manager payoff: a guided comparative UI can stay useful for review without silently becoming coaching, prompt selection, action selection, or approval machinery. Case linkage: see `E.17.ID.CR:5.4.4` and `E.17.ID.CR:5.4.7`.
 
-**Row 4.** The faithfulness row matters because a comparative review unit can sound careful while still smuggling bridge, prompt, or authority claims. The pattern adopts the demand for explicit grounding, but rejects any shortcut where plausible comparative prose is treated as if it were already a semantic or operational licence. Ordinary recovery: use the **Blocked downstream claim or effect** and **World-contact limit** rows before letting polished prose win the argument by tone. Engineer-manager payoff: polished prose is no longer enough to overrule the underlying source episteme or source publication set or to sneak in a decision claim. Case linkage: see `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.9`, `E.17.ID.CR:5.4.10`, and `E.17.ID.CR:5.4.11`.
+**Row 4.** Jacovi and Goldberg examine whether an interpretation reflects the reasoning behind an NLP model's prediction, separately from whether people find it convincing. A comparative review unit here instead compares claims in available sources under an explicit criterion. Its source-text fidelity follows from comparing what the note says with those sources, keeping their qualifiers, omissions and added contrasts visible under `E.17:5.1b` and this pattern's ordinary working card. A note may reproduce a source accurately while the source's explanation misrepresents a model; a faithful model explanation may also be misquoted in a note. The evaluation question therefore selects what must be checked. Human review of source claims remains useful; this source analogy imposes no NLP-model intervention on an ordinary static comparison. The **Blocked downstream claim or effect** and **World-contact limit** rows keep further bridge, prompt and authority claims subject to their own grounds. This lets an engineer-manager inspect what the comparison actually warrants without giving polished prose authority over the source episteme or publication set. Case linkage: see `E.17.ID.CR:5.4.6`, `E.17.ID.CR:5.4.9`, `E.17.ID.CR:5.4.10`, and `E.17.ID.CR:5.4.11`.
 
 **Row 5.** The anti-scalarization row matters because a comparison sheet often becomes a ranking by layout, sort order, or score aggregation before anyone states a decision. The pattern adapts only the design-space lesson it can honestly use: keep non-scalar trade-offs, row-level comparison criteria, and visible ordering criteria inspectable. It rejects any move where a benchmark table, Pareto label, or sorted order becomes equivalence, recommendation, method choice, gate passage, or decision authority. Ordinary recovery: use **Bounded lift**, **Blocked downstream claim or effect**, and **Boundary trigger** before accepting any ordering as more than a review aid. Engineer-manager payoff: the team can compare alternatives without a quiet scalar score deciding the work. Case linkage: see `E.17.ID.CR:5.4.5`, `E.17.ID.CR:5.4.6.e`, and `E.17.ID.CR:5.4.6.f`.
 
