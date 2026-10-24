@@ -13734,7 +13734,7 @@ FPF can support that use across changing disciplines only if it:
 * **(ii)** *invites*, rather than resists, the continual influx of new disciplinary knowledge; and
 * **(iii)** allows multiple, even competing, explanatory lenses to coexist without forcing a “winner‑takes‑all” unification.
 
-Historically, grand “total” ontologies—Aristotle’s *Categories*, Carnap’s *Logical Construction of the World*, Bunge’s *TOE*—failed precisely because each tried to embed every domain’s primitives directly into a single monolith.  Once the monolith cracked under domain pressure, the whole edifice became unmaintainable.
+Different domains can require different assumptions and laws. Making a domain-specific assumption an unconditional Kernel commitment would impose it on uses where it may not hold and make those uses depend on its revision. Place domain-specific knowledge in extensions by default, with its applicability stated. Use **A.8** to test a U-kind’s cross-domain contribution and **A.11** to test whether a new ontological value is needed. The declaration rules in **A.5:4** expose dependencies so that a changed declaration can be followed to the uses that rely on it.
 
 ### A.5:2 - Problem
 
@@ -63349,9 +63349,11 @@ The reader needs one place where the adaptation claim stays whole. `C.22` keeps 
 
 ### C.22.1:12 - SoTA-Echoing
 
-**Claim 1.** Current frontier adaptation work judges usable specialization by threshold-crossing under bounded resources, not by terminal score alone.
+**Claim 1.** A comparison of specialization acquisition keeps the declared work-measure threshold and prior exposure explicit. It reports time and budget to threshold or states that the threshold was not reached.
 
-**Practice source, local alignment, and adoption decision.** Current QD and agentic-adaptation sources such as `A survey on Quality-Diversity optimization: Approaches, applications, and challenges`, Swarm and Evolutionary Computation 100:102240 (2026), FactorMiner `arXiv:2602.14670v1` (2026-02-16), and SkillOpt `arXiv:2605.23904v2` (2026-05-25) repeatedly separate threshold target, budget burn, transfer evidence, reuse evidence, and changed object/version from one final benchmark score. This pattern **adopts** that practical field set, **adapts** it through one `TaskFamilyRef` or `TaskSignature`-bound adaptation signature, and **rejects** generic `got better` narratives that leave threshold and budget semantics implicit.
+**Practice source, local alignment, and adoption decision.** [FactorMiner v1 (2026-02-16)](https://arxiv.org/html/2602.14670v1), §§4.1–4.4, separates factor quality and redundancy, the effect of experience memory on screening yield, and factor-evaluation computation time. [SkillOpt v2 (2026-05-25)](https://arxiv.org/html/2605.23904v2), §§3.1, 3.4–3.5 and 4.3–4.4, changes an external skill text while holding the task-execution model fixed, selects text revisions through held-out validation, and evaluates transfer and training tokens per test-score gain. This pattern **adopts** these distinctions among the changed object, attained result, evaluation or training cost, and tested reuse.
+
+**The shared field set is an original FPF construction.** For the question in §§1–6, §7 **adapts** those narrower comparisons by connecting the acquisition history to one `TaskFamilyRef` or `TaskSignature` and work-measure threshold. A terminal score and total cost per score gain can describe the attained result and average improvement cost, yet leave the resources needed to reach a particular threshold unresolved. Recording threshold timing and prior exposure adds observation effort but makes histories with the same final score distinguishable; §8 then separates claimed transfer, retention, and downside. The pattern **rejects** substituting either paper's reported metrics for this shared acquisition account. Reopen the comparison if a rival protocol supports the same specialization judgement with less observation, or exposes a consequential difference that these fields cannot express.
 
 **Claim 2.** Current open-ended exploration work treats corridor entry and stepping stones as evidence-bearing novelty signals rather than decorative commentary.
 
@@ -63361,12 +63363,12 @@ The reader needs one place where the adaptation claim stays whole. `C.22` keeps 
 
 **Practice source, local alignment, and adoption decision.** Current FPF selector and parity neighbours keep compared candidates reviewable only when candidates reuse the same published field set for threshold, prior exposure, transfer, retention, downside, and corridor-entry field. This pattern **adopts** that reuse discipline, **adapts** it by publishing one stable adaptation-signature field set here, and **rejects** silent downstream field redefinition in `G.5` or `G.9`.
 
-**Evidence-source note.** Peer-reviewed or archived frontier anchors carry the most direct evidence for threshold, budget, and parity claims. Fast-moving frontier lines remain explicit evidence for corridor-entry and open-ended exploration pressure only when the row names their local contribution; they are not a flattened single evidence status.
+**Evidence-source note.** Use each source result with its measured object and evaluation conditions. Factor admission and skill-edition selection concern different objects from a holder's acquisition of usable specialization. For `timeToThreshold` and `budgetToThreshold`, relate the acquisition evidence named in §11 to the declared threshold and prior exposure; faster evaluation or tokens per score-point gain alone cannot supply that history. Transfer, retention, and corridor-entry claims keep their separately stated evidence requirements.
 
 | Source-bound anchor family | Source-use relation/currentness | What it disciplines in this pattern |
 | --- | --- | --- |
 | `QD` / `OEE` corridor-entry work | Current QD overview plus current FPF OEE/NQD neighbours. | Corridor baseline, descriptor shift, stepping-stone evidence, and whether novelty is reproducible rather than one exotic sample. |
-| Agentic adaptation benchmarks | Current narrow source lines such as FactorMiner and SkillOpt when the task family is comparable. | Threshold target, time-to-threshold, budget-to-threshold, prior exposure, and post-threshold efficiency under a declared task-family anchor. |
+| Agentic adaptation studies | FactorMiner v1 and SkillOpt v2: versioned preprints, used for the bounded comparisons above. | FactorMiner distinguishes factor quality, memory-guided yield, and evaluation cost; SkillOpt distinguishes text revision, validation, transfer, and training cost. The common acquisition field set is constructed in §§7–11. |
 | Transfer / retention evaluation | Source-use relation/currentness supplied by the applying benchmark or neighbour pattern. | Transfer target, retention window, downside, and reuse evidence so specialization speed is not confused with one isolated threshold crossing. |
 ### C.22.1:13 - Relations
 
