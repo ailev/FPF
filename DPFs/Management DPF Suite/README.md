@@ -46,7 +46,7 @@ The **[operational mantra (OPS.23)](https://fpf.tools/OPS.23)** connects local w
 | [Engineering Asset Management (EAM)](https://fpf.tools/EAM) · [Markdown](ENGINEERING-ASSET-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) | Compare use, renewal, replacement and other asset changes over time, including shared risk, cost and capacity. | 16 | 0.265 |
 | [Leadership (LDR)](https://fpf.tools/LDR) · [Markdown](LEADERSHIP-PRINCIPLES-FRAMEWORK.md) | Obtain feasible agreement and contributions to joint work, including preparation through first useful work. | 3 | 0.128 |
 | [Community Management (CB)](https://fpf.tools/CB) · [Markdown](COMMUNITY-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) | Develop useful participation, relationships, shared practices and contributions in organizations or voluntary communities. | 16 | 0.526 |
-| [Organization Change Engineering (OCE)](https://fpf.tools/OCE) · [Markdown](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Construct and qualify organizational changes to contributions, roles, authority, interfaces, capabilities and culture. | 17 | 0.725 |
+| [Organization Change Engineering (OCE)](https://fpf.tools/OCE) · [Markdown](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Construct and qualify organizational changes to contributions, roles, authority, interfaces, capabilities and culture. | 17 | 0.726 |
 
 **Patterns** counts full pattern bodies. **Text, M characters** measures each complete Markdown framework, including its embedded Architectural Reference, in millions of Unicode characters with spaces and original line breaks, rounded to three decimals. These are scope indicators, not a required reading load.
 
