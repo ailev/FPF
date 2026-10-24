@@ -4,7 +4,7 @@
 
 A pattern language for understanding, learning and changing the bodily contribution to a skilled human movement.
 
-- **Version:** 23 September 2026
+- **Version:** 24 October 2026
 - **Status:** Stable
 
 Original framework text: © 2026 Anatoly Levenchuk, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Third-party material retains its own terms.
@@ -29,11 +29,11 @@ Original framework text: © 2026 Anatoly Levenchuk, [CC BY 4.0](https://creative
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | --- | --- | --- | --- | --- |
-| 1 | [SOM.1 - Model the Bodily Contribution to a Movement](#som1---model-the-bodily-contribution-to-a-movement) | Stable | bodily correction; sensation and action; failed movement; external conditions | FPF A.6.P.RI, B.5.EA, B.1.5.EW; SOM.2–5 when their contribution is needed |
+| 1 | [SOM.1 - Model the Bodily Contribution to a Movement](#som1---model-the-bodily-contribution-to-a-movement) | Stable | bodily correction; sensation and action; failed movement; external conditions | FPF A.6.P.RI, B.5.EA, B.1.5.EW; SOM.2–SOM.5 when their contribution is needed |
 | 2 | [SOM.2 - Make a Bodily Change Distinguishable](#som2---make-a-bodily-change-distinguishable) | Stable | cannot feel the difference; direction; support; contrast | SOM.1; HCD.6.1 |
 | 3 | [SOM.3 - Regulate Bodily Effort in Discernible Steps](#som3---regulate-bodily-effort-in-discernible-steps) | Stable | effort increment; release; control; feedback | SOM.1, SOM.2; HCD.9 |
-| 4 | [SOM.4 - Build and Recall a Coordinated Bodily Change](#som4---build-and-recall-a-coordinated-bodily-change) | Stable | serial control interrupts movement; combined action; recall; attention | SOM.1–3 as needed; HCD.6, HCD.10 |
-| 5 | [SOM.5 - Adapt Bodily Coordination to Changing Support and Load](#som5---adapt-bodily-coordination-to-changing-support-and-load) | Stable | transition fails; changing support; load; transfer | SOM.1–4 as needed; HCD.6, HCD.9, HCD.10 |
+| 4 | [SOM.4 - Build and Recall a Coordinated Bodily Change](#som4---build-and-recall-a-coordinated-bodily-change) | Stable | serial control interrupts movement; combined action; recall; attention | SOM.1–SOM.3 as needed; HCD.6, HCD.10 |
+| 5 | [SOM.5 - Adapt Bodily Coordination to Changing Support and Load](#som5---adapt-bodily-coordination-to-changing-support-and-load) | Stable | transition fails; changing support; load; transfer | SOM.1–SOM.4 as needed; HCD.6, HCD.9, HCD.10 |
 
 # Somatic Movement Modeling DPF Readme
 
@@ -66,7 +66,7 @@ The following entries show connected uses across several patterns. Follow a bran
 - **Situation:** The action works on either side of a support change but fails during the transition.
 - **Question:** Which changing relation must be learned together with the continuing action?
 - **First useful result or blocker:** A usable part of the transition with its conditions, or an identified missing response, cue or observation.
-- **Start with:** [SOM.5](#som5---adapt-bodily-coordination-to-changing-support-and-load): retain the support change, find a performable portion, extend it and join the portions in motion before restoring the whole action. Use SOM.1 when the proposed relation fails, and SOM.2–4 for a missing distinction, regulation or combination.
+- **Start with:** [SOM.5](#som5---adapt-bodily-coordination-to-changing-support-and-load): retain the support change, find a performable portion, extend it and join the portions in motion before restoring the whole action. Use SOM.1 when the proposed relation fails, and SOM.2–SOM.4 for a missing distinction, regulation or combination.
 - **Stop or return:** Endpoint success and paused or slowed preparation do not establish the required transition. Obtain domain instruction when a suitable response remains unknown.
 
 # Somatic Movement Modeling DPF Architectural Reference
@@ -288,7 +288,7 @@ In [Pawłowski and colleagues' finger-force experiment](https://doi.org/10.1007/
 
 ### SOM.1:12 - Relations
 
-SOM.2–5 supply bodily learning and coordination operations when the model identifies their need. FPF A.6.P.RI keeps accounts tied to the observer or performer whose access they use; B.5.EA supports expressing a distinction not yet adequately described. B.1.5.EW keeps the bodily action connected to the concurrent encompassing work. HCD.6 and HCD.9 supply practice construction and feedback; the receiving movement discipline supplies technique and success criteria.
+SOM.2–SOM.5 supply bodily learning and coordination operations when the model identifies their need. FPF A.6.P.RI keeps accounts tied to the observer or performer whose access they use; B.5.EA supports expressing a distinction not yet adequately described. B.1.5.EW keeps the bodily action connected to the concurrent encompassing work. HCD.6 and HCD.9 supply practice construction and feedback; the receiving movement discipline supplies technique and success criteria.
 
 ### SOM.1:End
 
@@ -658,7 +658,7 @@ A change in support or load can change which bodily actions must be coordinated.
 
 ### SOM.5:11 - SoTA-Echoing
 
-For carrying coordination through changed conditions, **adapt** HCD.6's preservation of the learning relation and HCD.10's condition-sensitive variation and progression of practice to bodily support, contact and load. The alternative of rehearsing endpoint positions is cheaper but does not answer a failure during motion. The selected construction accepts the additional cost of observing and learning the transition.
+For carrying coordination through changed conditions, **adapt** HCD.6's preservation of the learning relation and HCD.10's condition-sensitive variation and progression of practice to bodily support, contact and load. Rehearsing endpoint positions alone does not answer a failure during motion.
 
 The proposed bodily construction identifies what changes with support and load, prepares the affected regulation, and joins it to the continuing action. A comparative learning advantage for this construction has not been established. Suitable domain instruction can replace its exploratory portion when the needed transition is already taught effectively.
 
@@ -666,6 +666,6 @@ Reopen the choice when a new condition defeats the learned relation, when prepar
 
 ### SOM.5:12 - Relations
 
-SOM.1 frames and revises the relation; SOM.2–3 prepare missing distinction and regulation; SOM.4 learns the combined change. HCD.6, HCD.9 and HCD.10 supply whole-task preparation, feedback and condition-sensitive practice progression. HCD.12 supplies assessment when a claim concerns transfer to unfamiliar work; a return to a longer familiar stroke need not pursue that claim. FPF B.1.5.EW keeps the bodily transition within concurrent encompassing work. RHY is a supplier when the actual use requires rhythmic relations; an ordinary support change does not impose that dependency on every task.
+SOM.1 frames and revises the relation; SOM.2–SOM.3 prepare missing distinction and regulation; SOM.4 learns the combined change. HCD.6, HCD.9 and HCD.10 supply whole-task preparation, feedback and condition-sensitive practice progression. HCD.12 supplies assessment when a claim concerns transfer to unfamiliar work; a return to a longer familiar stroke need not pursue that claim. FPF B.1.5.EW keeps the bodily transition within concurrent encompassing work. RHY is a supplier when the actual use requires rhythmic relations; an ordinary support change does not impose that dependency on every task.
 
 ### SOM.5:End
