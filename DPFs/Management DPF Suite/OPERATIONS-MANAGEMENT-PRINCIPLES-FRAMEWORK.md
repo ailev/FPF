@@ -3,7 +3,7 @@
 **DocID:** `OPS` within **FPF Library**.
 
 
-> A domain pattern language for admission, continuation, coordination, service, quality, improvement and performance decisions in continuing operation.
+> A domain pattern language for understanding, arranging and managing continuing production and service, and for improving the ways that obtain their results.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
 - **Version:** 19 October 2026
@@ -24,8 +24,8 @@ Use the Readme for worked connections across several operating questions. Use th
 | Unit | Reader use |
 | :--- | :--- |
 | [Operations Management Principles Framework Readme](#operations-management-principles-framework-readme) | Connect readiness, capacity, commitments, service results and changes to operating practice; follow the consequences of a changed condition. |
-| [Operations Management Principles Framework Architectural Reference](#operations-management-principles-framework-architectural-reference) | Keep Work, actual structures, subjects, commitments and units distinct when interpreting views, records and accounts; identify when control relations change an operating decision. |
-| [OPS.Reference:1](#opsreference1---start-from-a-difficulty-in-continuing-operation) | Start from a difficulty in continuing operation |
+| [Operations Management Principles Framework Architectural Reference](#operations-management-principles-framework-architectural-reference) | Understand how results, operating units, dependencies and resources give rise to an operating arrangement; connect knowledge, management, performance and improvement. |
+| [OPS.Reference:1](#opsreference1---start-from-a-difficulty-in-continuing-operation) | Start from a difficulty in continuing operation; recover the discipline through results, units, relations, knowledge and change |
 | [OPS.Reference:2](#opsreference2---competing-demands-on-one-operation) | Competing demands on one operation |
 | [OPS.Reference:3](#opsreference3---work-descriptions-structures-and-records-remain-distinct) | Work, descriptions, structures, and records remain distinct |
 | [OPS.Reference:4](#opsreference4---demand-commitments-subjects-and-units-remain-distinct) | Demand, commitments, subjects, and units remain distinct |
@@ -47,6 +47,7 @@ Use the Readme for worked connections across several operating questions. Use th
 | [OPS.Reference:19](#opsreference19---source-use-and-shared-architectural-choices) | Source use and shared architectural choices |
 | [OPS.Reference:19.1](#opsreference191---operating-aims-and-performance-sources) | Operating aims and performance sources |
 | [OPS.Reference:19.2](#opsreference192---shared-source-choices-for-the-repertoire) | Shared source choices for the repertoire |
+| [OPS.Reference:19.3](#opsreference193---grounds-for-the-disciplinary-account) | Grounds for the disciplinary account |
 | [OPS.Reference:20](#opsreference20---fpf-dependency-and-compatibility) | FPF dependency and compatibility |
 | [OPS.Reference:21](#opsreference21---sibling-domain-returns-and-availability) | Sibling-domain returns and availability |
 | [OPS.Reference:22](#opsreference22---available-contributions) | Available contributions |
@@ -103,7 +104,7 @@ Use the Readme for worked connections across several operating questions. Use th
 | 14 | [OPS.10.1 - Construct and Compare Operating Capacity Models](#ops101---construct-and-compare-operating-capacity-models) | Stable | Which service model answers the capacity question, and how do variation, dependence and the completion criterion change the comparison? | OPS.10, OPS.11.1, OPS.15.1; conditional OPS.10.2, MMP.7 and MMP.13, CMP.9; FPF C.29, C.11.CRC |
 | 15 | [OPS.10.2 - Construct and Revise a Feasible Deadline Schedule](#ops102---construct-and-revise-a-feasible-deadline-schedule) | Stable | How can a schedule meet the deadline with precedence, shared resources and calendar gaps; which starts can be delayed, and what must change after a disruption? | OPS.10, OPS.11.1, OPS.15.1; conditional OPS.10.1, OPS.7 and OPS.8, MMP.10, CMP.4 and CMP.5; FPF C.29 |
 | 16 | [OPS.11 - Coordinate Interacting Operating Structures](#ops11---coordinate-interacting-operating-structures) |  Stable  | Which actual couplings can defeat a local plan, and which decisions must be coordinated? | OPS.3, OPS.4; conditional OPS.8–OPS.10; FPF A.22, E.18.NET, C.11.CRC |
-| 17 | [OPS.11.1 - Construct and Reconcile Operating Models Across Scales](#ops111---construct-and-reconcile-operating-models-across-scales) | Stable | How can local routes, shared resources and order-level completion be modeled together without losing the conditions that decide the plan? | OPS.11, OPS.19; conditional OPS.15.1, MMP.10 and MMP.18; FPF A.22.CGUS, E.18.3, C.29 |
+| 17 | [OPS.11.1 - Construct and Reconcile Operating Models Across Scales](#ops111---construct-and-reconcile-operating-models-across-scales) | Stable | How can an operating arrangement be constructed from the needed result, and its local routes, shared resources and receiving completion be modeled together? | OPS.11, OPS.19; conditional OPS.15.1, MMP.10 and MMP.18; FPF A.22.CGUS, E.18.3, C.29 |
 
 ## Part VII — Protect Human Conditions and Establish Service Commitments
 
@@ -142,6 +143,8 @@ Use the Readme for worked connections across several operating questions. Use th
 ## Practical entries
 
 Operations Management connects decisions about continuing service: what may start, what a case needs next, what the available resources can support, what can be promised, and what must change when results fail. These decisions use different results. A capacity calculation can constrain admission; an incident can change priorities; a service promise can remain unresolved after a feasible schedule has been found.
+
+For the broader question of what Operations Management studies and changes, read OPS.Reference:1.1–1.6. That account derives operating units and dependencies from the receiving result, distinguishes knowledge from an arrangement and its actual work, and explains how to construct or revise the means of obtaining the result. OPS.11.1 develops the operating construction when an adequate arrangement is not yet available.
 
 These selected examples show how to combine the methods around a current difficulty. Enter where adequate inputs are available and stop at the result the decision needs. The Table of Contents gives direct access to OPS.1–OPS.23 and their nested methods. The [Architectural Reference](#operations-management-principles-framework-architectural-reference), including its [conditions on a whole combination](#opsreference10---conditions-on-a-whole-combination), explains why individually useful operating moves can conflict when they use the same resources, authority or evidence.
 
@@ -296,7 +299,7 @@ In the [repair cooperative example (Engineering.Reference:7)](../Engineering%20D
 
 # Operations Management Principles Framework Architectural Reference
 
-Operations Management begins when the current question is how to coordinate continuing Work, cases, demand, commitments, resources, service, evidence, and decisions in an actual operating System.
+Operations Management studies and changes how an operation obtains useful production or service results through work over time. Practitioners relate what recipients need to the work that can obtain it, the resources and agreements that make that work possible, and the conditions under which the result remains usable. They use that understanding to arrange provision, manage current work, and improve the ways of working. The operation can be a production facility, a service, a development undertaking or a network of cooperating providers; its relevant boundary follows the result and its dependencies.
 
 The framework begins before optimization. OPS.1–OPS.4 identify the operation and commitments, select views for the current questions, distinguish subjects from records and maintain a usable current account. OPS.5–OPS.7 guide admission, case continuation and local priority or existing commitments. OPS.8–OPS.11 connect those decisions to queues, constraints, capacity and interacting structures. OPS.12–OPS.18 add human-condition interventions, credible service commitments, operating-financial comparisons, decision-specific accounts, evidence-bounded Method improvement, Method-repertoire choices and quality/reliability control. OPS.19 reconciles simultaneous operating results across cases and scales. OPS.20 tests deliberate continuation or change of Operations practice in a bounded practitioner population.
 
@@ -305,11 +308,76 @@ The framework begins before optimization. OPS.1–OPS.4 identify the operation a
 
 A production coordinator can have a busy cell while promised orders remain unfulfilled. A service lead can see an improving completed-case average while difficult requests remain open. A software team can generate changes faster while qualified review, incident recovery and delivery to users fall behind. In each situation, the question is what the operation can do next while preserving the results people already depend on.
 
-Use OPS when continuing Work needs an admission, continuation, coordination, service, quality or improvement decision. The first useful result may be very small: one request deferred with a clear reconsideration condition, one permissible next action in an admitted case, a corrected service denominator, or a feasible response to a conflicting duty. When the required inputs are already clear, use the corresponding Method directly. Otherwise, OPS.1–OPS.4 recover only the operating focus, subjects, views or current claims that the decision needs.
+Use OPS when production or service needs a workable arrangement, or continuing Work needs an admission, continuation, coordination, service, quality or improvement decision. The first useful result may be very small: one request deferred with a clear reconsideration condition, one permissible next action in an admitted case, a corrected service denominator, or a feasible response to a conflicting duty. When the required inputs are already clear, use the corresponding Method directly. Otherwise, OPS.1–OPS.4 recover only the operating focus, subjects, views or current claims that the decision needs.
 
 The recurring difficulty is that a locally reasonable move can lose its purpose at the receiving boundary. Starting more work can consume the time needed to finish existing commitments. A completed test may still lack the configuration correspondence needed for release. A cheaper method may shift unpaid checking to another participant. Calling all of these situations a flow problem leaves some decisive questions unanswered; ignoring their resource and timing relations can make the proposed service impossible.
 
+### OPS.Reference:1.1 - Derive operating objects and units from the result
+
+The starting object is a result somebody can use or a condition that must continue. A recipient may need a repaired device, a warranted answer to an investigated question, an available incident service or a specified amount of material. These results require different completion and observation rules. A physical item can continue through several transformations; a service can change the recipient's system; an investigation can change what is known while leaving the eventual product undecided. An operation's output is therefore identified through its receiving use before a convenient count is chosen.
+
+Work becomes necessary through a difference between that required result and the current situation. Recover the actions that could close the difference from the relevant professional methods and from what competent performers actually do. Work backward to the inputs, intermediate results and conditions each action needs, then forward to check that their combination obtains the receiving result. This is how preparation, production, inspection, correction, transport and support enter the operating account when the result needs them. Examine repeated steps for a contribution that can be omitted without losing the receiving result or a required condition. An unexplained label such as “resolve the problem” leaves a method question open; assigning a duration to it supplies no way to resolve the problem.
+
+Choose working units at the boundaries where a meaningful contribution can become ready, be assigned, be interrupted or completed, and be used by another action. Those boundaries need not coincide. A customer's order can require several components; a machine batch can contain components for several orders; a diagnostic attempt can produce useful evidence without completing the case. The case remains the continuing matter, the attempt is one performance, and the evidence is its result. Combining them under one count loses the relation needed to decide what to do next. OPS.1 and OPS.3 establish the identities; OPS.11.1 constructs the corresponding work and completion relations.
+
+The unit can itself need design. Split a large commitment where a smaller result would be usable, or where a separately ready contribution can be performed without defeating the whole. Keep together contributions that must be obtained or accepted together. Compare the saved waiting with added preparation, coordination, checking and unfinished inventory. In exploratory work, a worthwhile unit can be one interpretable test of a consequential hypothesis; the scientific or engineering method supplies the test and its interpretation, while Operations arranges its performance and use. A time allowance can bound the expenditure without promising that a question will be solved within it.
+
+A resource is relevant through what it can contribute to this work under the required conditions. A qualified person's hour, an available machine interval, information access and a consumable supply impose different constraints. A machine can remain occupied while its operator is free for other work. A person assigned to two departments remains one person. Recover usable capacity through capability, configuration, access and time, and retain the shared identity across the accounts that consume it. An aggregate headcount or equipment count can serve a broad comparison only while it preserves these consequential distinctions.
+
+### OPS.Reference:1.2 - Recover the relations that make an operation possible
+
+Several kinds of dependence connect operating units. A later action may need a result produced earlier. Two actions may compete for the same resource. A permission or state condition may enable an action without being consumed by it. Several outputs may have to be present together before the recipient can accept the result. A commitment connects participants through what they have undertaken to provide. These relations determine which continuations are available; a single sequence or one organization chart may show only some of them.
+
+Describe an operating arrangement by explaining how those dependencies will be satisfied. Identify the contribution of each action, how its result reaches its receiver, what shared means it occupies, and how a return or exception changes the remaining work. For a known manufacturing method this may yield a repeatable route with alternative machines. For a service case, new facts can select the next permitted action. For continuing infrastructure service, maintenance and incident response preserve an operating condition across many episodes. The actual work can overlap, repeat or branch in each arrangement. OPS.2 chooses views for these different questions; OPS.11 and OPS.11.1 recover the dependencies that the views must preserve.
+
+Scope, functional organization and modular organization answer different questions. Bringing an external laboratory into the model widens the operating scope. Distinguishing the contributions of producing a result, maintaining the means of production and improving their method can expose functional **layers**, when their production-and-use relations organize the account. Grouping teams or equipment into modules with interfaces can create modular **levels**. Those levels need their own part and interface relations. One team can contribute in several functional layers, and several modules can jointly perform one function. A longer planning horizon, a higher position in a chart or another row in a diagram establishes neither structure. FPF C.30.STRAT:4.2 supplies this distinction when it matters to the design.
+
+The resulting description is knowledge about a possible or actual arrangement. To realize the arrangement, participants must obtain the needed contributions and access, and establish the necessary agreements. Performing the actions produces dated work and results. A changed description, a changed reusable method, a changed allocation and a changed organization can therefore lead to different next actions even when all are described as “changing the process”. OPS.16 qualifies method change; OCE.4 and OCE.6 supply organization design and effective assignment where those relations must change. An ordinary operating allocation can reuse an already sufficient arrangement.
+
+### OPS.Reference:1.3 - Distinguish the grounds of operating knowledge
+
+Operating knowledge joins professional knowledge of what actions can obtain a result with knowledge of their combined behavior over time. Observations establish what happened under particular conditions. Models expose consequences of selected relations and assumptions. Controlled comparisons, experiments and other suitable inquiries can test an explanation or proposed improvement. Commitments and professional rules establish obligations and permissible actions through their own authority. Each contribution can inform a decision without supplying the others.
+
+Some operating conclusions follow from identities or bounds. For a fixed population with well-defined entry and exit, the number present at the end equals the number present at the start plus entries minus exits. If items split, join, are rejected or re-enter, the account must represent those events under the chosen identity rule. A resource cannot supply more occupied time than its available interval permits. Such relations can disprove a proposed arrangement before detailed scheduling. They cannot establish that the permitted work will be performed correctly, that the recipient will accept it or that a numerical objective is worth pursuing.
+
+Other conclusions depend on a behavioral or statistical model. A service-time distribution, failure model or forecast must fit the work class and conditions to which it is applied. The long-run relation commonly written as Little's law connects consistent averages; a finite reporting interval with unfinished work needs its own boundary treatment. A mean load can conceal a peak that defeats a response promise. OPS.10 and OPS.15.1 develop the appropriate capacity, event and interval reasoning. Choose the representation from the question: an arithmetic bound can settle an impossibility, a schedule can exhibit one feasible order, and a stochastic model may be needed for a probability of timely service.
+
+Practical knowledge grows when observations challenge these grounds. An unexpected wait can expose an omitted approval, a shared operator or a changed demand mix. A disappointing trial can reveal an unsuitable method, a failure to perform it, or a change in the environment. First recover which claim the evidence can change. Correcting the event account, changing an allocation, developing another method and revising an explanatory model are different responses. OPS.15, OPS.16, OPS.18 and OPS.22 give those questions separate treatment. Their results return to the operating account that relied on the defeated premise.
+
+Operations Management connects explanations of operating behavior with reusable ways of arranging and managing production or service. Its knowledge explains why a way can work and where it can fail; its methods make that knowledge usable in practice; the results of practice can revise either. Replacing a queueing approximation or a dispatch policy can preserve that field while changing an important part of its knowledge or practice.
+
+### OPS.Reference:1.4 - Construct an arrangement as well as calculate its consequences
+
+The forward question is what a proposed arrangement can deliver. Follow the required transformations, resource use and receiving conditions to obtain a bound, schedule, forecast or other supported consequence. The constructive question runs in the other direction: given the result and the conditions to preserve, which arrangement could obtain it? Recover the missing contributions, then compare ways to supply and connect them. The two questions inform one another. A failed schedule can expose an allocation to change; a new operating method can change which work needs scheduling at all.
+
+Start that construction from a competent existing way when one is available. Vary a relation that can change the result: prepare a reusable input before demand arrives, separate preparation from case-specific work, change a transfer batch, share a resource, provide an alternative route, reserve response capacity or move an acceptance contribution to a usable time. Follow each alternative through to the recipient. Earlier preparation may create obsolete stock. Smaller transfers may consume more setup. Pooling may require qualification and additional coordination. A proposed improvement is complete enough to compare when these changed demands and dependencies are included with its gain.
+
+Variability makes the choice consequential even when average demand appears to fit capacity. In a continuing production setting, inventory, available capacity and permitted waiting can absorb different effects of uneven demand and processing. Removing one protection changes what the others must absorb. Their usefulness depends on the subject: components may be stored, an unused response interval expires, and an unknown customer's future diagnosis cannot be produced in advance. Product variety and discovery can also be desired sources of variation. Determine what variation can be reduced without losing the sought result, and what must instead be accommodated. OPS.8–OPS.10 compare the relevant protection and service mechanisms; their conditions govern any quantitative choice.
+
+The technical way to obtain the result can be the missing contribution. If no qualified operation can produce the required material property or answer the research question, obtain that engineering or research work before relying on a production rate. A method can also be constructed or adapted from usable contributions. FPF C.39 supplies that construction; C.32.MWA.PP connects available methods to possible performance and provision. OPS.11.1 develops the operating choices of work boundaries, preparation, resource occupancy and timing, and OPS.16–OPS.17 qualify a proposed reusable change and its use. Developing a way, making it available and performing it remain distinct accomplishments.
+
+A new arrangement can reveal a need to change the product, the service offer, an organizational relationship or financing. Return the concrete missing contribution to its provider: for example, a product design that permits delayed customization, authority for another participant to accept the result, or funds available before materials must be purchased. Recalculate the operating alternative with the obtained answer. This is a two-way relation with the other disciplines: their constraints shape operation, while an operating impossibility can motivate their redesign. A cross-domain reference is useful only when its supplied result closes that particular dependence.
+
+### OPS.Reference:1.5 - Relate management practice to its control arrangements
+
+Operations Management is the field that studies, arranges and manages the work described here. Control identifies a relation within that account: information and an embodied rule or participant's choice determine an influence on a subject in relation to an outcome. A temperature regulator, an admission rule using queue state and a manager revising a service offer can each participate in control. Their concrete observations, interventions, delays, commitments and decision rights determine what those relations can achieve. The discipline also develops knowledge and designs operating arrangements; its name alone does not specify any one control mechanism.
+
+Recover the particular claim rather than opposing the two words. A regulator can maintain a chosen condition while the operating offer remains unviable; management can revise that offer or arrange another supplier. Both can be understood through the relevant influence and its consequences, without making organizational commitments identical to a machine's feedback signal. A fixed target and continuous feedback are possible arrangements, not universal conditions of control. A forecast or inspection contributes when its result actually informs the continuing action. FPF C.43:4.1.4 develops this recovery of field wording; its complete Method connects observation, choice, realization and revision. Use OPS.21 for the operating aim, OPS.13 for the promise, and OPS.Reference:7 when the structure of control is the unresolved question. FPF C.32.LCA constructs that arrangement when its observation, influence or timing must change.
+
+Functional separation can make that influence possible. Estimating current state, planning resource use, selecting an immediate response and revising a commitment can need different information and time. Allocate those contributions to capable participants and connect their results; do not infer an organization hierarchy from their different functions or rates. A single participant can perform several of them. The operating decision must still account for the work, resources and authority needed for their combined performance.
+
+### OPS.Reference:1.6 - Use changed conditions to choose and revise the parts
+
+A replacement-parts operation illustrates the construction from a receiving result. Customers need a configured kit soon after ordering. If common preparation remains usable across orders, the operation can prepare that part in advance and retain only the case-specific work after arrival. That choice changes the release boundary, stock exposure and resource calendar; it need not change who accepts the kit. If a new configuration requires all preparation to depend on the customer's serial number, the common-stock premise fails. OPS.11.1:5.5 follows the change into alternative provision and a revised service choice. The old arithmetic can remain correct for the old product while ceasing to answer the new offer.
+
+A live incident service has a different receiving condition: qualified response must remain obtainable during the covered interval. Completed incidents are useful events, but a quiet interval can still provide the promised readiness. Here the operation can prepare tools, access and knowledge, and reserve qualified response; it cannot store a completed future response for an unknown incident. Admission, staffing and scheduled improvement must be compared with that continuing service condition. OPS.8.2 tests whether an assisting resource can actually be released and restored, OPS.12 retains the person's other duties and recovery, and OPS.13 establishes the feasible promise. A rise in demand can require a different reserve or service agreement without changing the incident method.
+
+An investigation instead needs a warranted answer to a question whose solution path is partly unknown. Counting completed experiments as delivered answers would change the result being promised. A failed hypothesis may be valuable if it changes which continuation is justified. Use the research or engineering method to identify that information gain and the next useful inquiry; use OPS to obtain the qualified people, equipment, sequence and support it needs. A new discovery can invalidate the planned work, while the completed experiments remain evidence. Reopen the method or question that changed rather than forcing the investigation to complete an obsolete task list.
+
+These situations share a connection between receiving result, possible action, dependencies, provision and learning from consequences. They require different units, protection and grounds of inference. The common account therefore selects and changes the operating methods; it does not prescribe one production line, one maximized throughput measure or one universal sequence. OPS.23 helps assemble the resulting operating judgement. A direct method remains sufficient when its inputs and receiving connection are already settled.
+
 ## OPS.Reference:2 - Competing demands on one operation
+
 
 
 Operations practitioners choose among consequences that are useful on different subjects and horizons. Earlier service may cost more. A larger ready buffer can protect a scarce resource while increasing waiting and holding burden. A small batch can expose defects sooner while consuming more setup. A Method trial can improve later practice while using the same expertise that current incident recovery needs. OPS keeps those differences visible long enough for the responsible participants to make the choice.
@@ -466,7 +534,7 @@ The three constructed applications demonstrate the reasoning and its branches. T
 ## OPS.Reference:15 - What this publication covers and leaves outside
 
 
-The patterns cover independently enterable questions about operating focus, views, subjects, current state, admission, continuation, priority, queues, constraints, capacity and structural coordination. They connect that work to affected people, supported promises, operating and financial consequences, useful accounts, bounded Method improvement, Method-repertoire selection, quality/reliability responses, reconciliation of simultaneous operating results, and deliberate cultural continuation. OPS.21–OPS.22 add the construction of meaningful operating aims and the interpretation of performance under changed conditions, while keeping service promises, capability assessments and reward decisions distinct.
+The framework explains the construction and revision of operating units, dependencies and arrangements, and connects this knowledge to independently enterable questions about operating focus, views, subjects, current state, admission, continuation, priority, queues, constraints, capacity and structural coordination. They connect that work to affected people, supported promises, operating and financial consequences, useful accounts, bounded Method improvement, Method-repertoire selection, quality/reliability responses, reconciliation of simultaneous operating results, and deliberate cultural continuation. OPS.21–OPS.22 add the construction of meaningful operating aims and the interpretation of performance under changed conditions, while keeping service promises, capability assessments and reward decisions distinct.
 
 A plan or calculation does not establish performed Work, accepted service, a health effect, field release, Method identity, causal improvement or later use by a practitioner population. Those claims require their own evidence, conditions, authority and specialist results.
 
@@ -542,7 +610,18 @@ Competent improvement and adoption practices are also reusable sources. [IHI's P
 
 The [bibliographic returns](#opssources1---bibliographic-returns-for-shared-sources) give edition and publication details for shared works cited here.
 
+### OPS.Reference:19.3 - Grounds for the disciplinary account
+
+The professional field is wider than short-term dispatch. The [Manufacturing & Service Operations Management editorial statement](https://pubsonline.informs.org/page/msom/editorial-statement) includes descriptive, predictive and prescriptive contributions at strategic, tactical and operational scopes. [Charles Fine's MIT course](https://www.ocw.mit.edu/courses/15-760a-operations-management-spring-2002/) is a historical teaching treatment of the connection between product development, process management and supply chains. OPS adopts the need to connect operating design and use while obtaining product engineering, organization design and other specialist results from their actual providers.
+
+[Hopp and Spearman (2004), §§5–6](https://pubsonline.informs.org/doi/pdf/10.1287/msom.1030.0028), supply the manufacturing mechanisms adapted in OPS.Reference:1.4 and OPS.11.1:4.2a: the inventory/order interface, explicit work-in-process limits and alternative buffers. Their production setting leaves the transfer to service or discovery to be established for the receiving subject and result.
+
+[Kim and Whitt (2013), §§1–2](https://www.columbia.edu/~sk3116/index_files/KimWhitt_2013_LL.pdf), show why applying Little's law to finite observations requires attention to interval boundaries and the statistical question. This supports the distinction between an identity, an estimate and a promise in OPS.Reference:1.3. The full event construction remains in OPS.15.1. A reliable accounting relation cannot by itself select a desired result or establish a causal explanation.
+
+These sources support different parts of the account. The construction connecting result, work units, provision and selective revision is the framework's synthesis. Retain an adequate existing professional treatment when it already supplies that connection. Reconsider the account when a different kind of operation defeats its stated relation, when a supplier leaves a promised contribution unavailable, or when another arrangement supplies the same result with a better supported balance of consequences.
+
 ## OPS.Reference:20 - FPF dependency and compatibility
+
 
 The OPS methods are described in their pattern bodies. The Table of Contents, SoTA-Echoing and Relations identify their external FPF contributions and receiving uses. For an OPS use that requires an FPF contribution, open the [current FPF edition](https://github.com/ailev/FPF/blob/main/FPF-Spec.md), identify the needed pattern edition, and check that its content and use conditions provide the stated contribution. Retain a permanent link or copy of the edition actually used. If the contribution is unavailable or no longer fits, keep the dependent use open and reconsider the affected OPS pattern and dependent conclusions. Unaffected results remain reusable.
 
@@ -637,7 +716,7 @@ Use this long mantra when deciding how a person's or team's work contributes to 
 
 These are connected questions to keep in attention. Their answers constrain one another; the phrase order is not a required work sequence. Begin with the unresolved question that can change the present decision, retaining adequate answers elsewhere. The following explanation develops that combination; OPS.Reference:8–OPS.Reference:11 explains its place among the other operating Methods.
 
-**Relate local work to a result the recipient can use.** Identify the operating system, required result, acceptance boundary and commitments through OPS.1 and OPS.3. Follow the work and its required inputs through the relevant workstations or contributors. Locate the person's contribution in that route: producing an intermediate item, making later work ready, handling a return or preserving service can affect the whole differently. A completed local task is useful on this account when the receiving work can use its contribution. OPS.11.1 develops the connection between local routes, shared resources and order-level completion. When the required system or its intended use remains unclear, FPF A.1.STM supplies the connected system-thinking questions; an operating calculation cannot settle that earlier choice by itself.
+**Relate local work to a result the recipient can use.** Identify the operating system, required result, acceptance boundary and commitments through OPS.1 and OPS.3. Follow the work and its required inputs through the relevant workstations or contributors. Locate the person's contribution in that route: producing an intermediate item, making later work ready, handling a return or preserving service can affect the whole differently. A completed local task is useful on this account when the receiving work can use its contribution. OPS.11.1 develops the connection between local routes, shared resources and order-level completion. When the route or work unit is itself missing, its :4.2a constructs operating alternatives from the required result and available professional methods; an unavailable method returns to its subject discipline. The judgement can therefore begin before an adequate operating arrangement exists. When the required system or its intended use remains unclear, FPF A.1.STM supplies the connected system-thinking questions; an operating calculation cannot settle that earlier choice by itself.
 
 **Find which condition limits the result under the present demand.** Work can wait because an input or permission is missing, because usable capacity is insufficient, or because the selected order delays a needed completion. OPS.8 and OPS.9 distinguish these causes; OPS.10 qualifies capacity over the relevant interval. Improving an already non-limiting station can increase intermediate inventory without increasing accepted output. Conversely, protecting the limiting station may require work elsewhere. The target matters: shortening the time to a first accepted result and increasing sustained output can require different changes, as OPS.9:5.4 explains. A visible queue or a heavily occupied person alone does not identify the consequential constraint.
 
@@ -787,7 +866,7 @@ Limit the operating focus to what the current decision needs; identify the actua
 3. **State the continuing result or service.** Name its receiver, conditions, horizon, and the observation that would show interruption or degradation. Keep value, quality, acceptance, fulfilment, safety, and causal effect as separate claims.
 4. **Recover demand and commitments.** Distinguish requests and candidate Work from admitted Work. For each decision-bearing commitment, name parties, promised result or service, conditions, horizon, authority, current status, and evidence gap.
 5. **Name operating subjects.** Identify the customers, cases, physical items, release candidates, incidents, transactions, materials, services, accounts, or other subjects whose state or relation changes action.
-6. **Define every tracked unit.** State the unit's identity rule, start and finish when it is a Work item, subject/result relation, counted interval, and receiving use. Do not call every unit a flow item merely because a board counts it.
+6. **Define every tracked unit.** Derive it from the result and the boundaries at which a contribution can become ready, be assigned or be used. Retain the difference between a customer matter, an operation on it, a processing batch and an accepted result where their events diverge. State the unit's identity rule, start and finish when it is a Work item, subject/result relation, counted interval, and receiving use. If the unit itself needs a different work boundary or preparation arrangement, use OPS.11.1:4.2a; a count on a board alone does not supply that construction.
 7. **Draw the operating boundary.** Include only the Work, resources, relations, environments, and time horizon needed by the decision. Name excluded product, organization, asset, finance, legal, safety, capability, and other specialist questions with their return conditions.
 8. **Check the control branch.** If observation, decision, actuation, supervision, feedback, or rate separation can change coordination, record the control-relevant operating concern for `OPS.2`. Do not construct a control view or infer a feedback relation here.
 9. **Recover authority and evidence limits.** Name who may use the focus for which decision, what evidence supports it, what remains uncertain, and which missing fact blocks reliance.
@@ -3779,11 +3858,11 @@ Organization Change Engineering supplies a relevant organization or coexistence 
 
 ### OPS.11.1:1 - Problem frame
 
-**Use this when** an operating change looks useful in one account of the work but its consequence cannot be recovered in another. A department appears to have spare capacity while the person doing its work is already occupied elsewhere. A laboratory reports completed samples while the customer needs a complete order. A team can describe individual tasks but cannot explain what controls delivery by the wider service.
+**Use this when** the operation needs a way to obtain a required result, or an operating change looks useful in one account of the work but its consequence cannot be recovered in another. A department appears to have spare capacity while the person doing its work is already occupied elsewhere. A laboratory reports completed samples while the customer needs a complete order. A team can describe individual tasks but cannot explain what controls delivery by the wider service.
 
-Construct the operating arrangement needed for the decision, then connect its local and wider accounts. Here a model is a description used to obtain an answer about the operation. A drawing, a set of conditions, a calculation or a simulation can serve that use. The operation is the work being described.
+Construct the operating arrangement needed for the decision, then connect its local and wider accounts. Here a model is a description used to obtain an answer about the operation. A drawing, a set of conditions, a calculation or a simulation can serve that use. Keep the description distinct from the actual work and its arrangement.
 
-**First useful move.** Choose one proposed change and one recipient's result. Follow a case through the resources and completion conditions that the change can affect. Where two descriptions refer to the same worker, order or event, bring those references together before calculating.
+**First useful move.** Choose one recipient's result and the current difficulty in obtaining it. Recover an available way of doing the necessary work, or identify the missing professional contribution. Follow a present or proposed case through its resources and completion conditions, or recover what maintains the required service over its interval. Where two descriptions refer to the same worker, order or event, bring those references together before calculating.
 
 **Practical gain.** The manager can compare feasible arrangements without mistaking local capacity for available shared capacity or local completion for delivery. The result may also identify the particular coupling that makes a proposed change fail.
 
@@ -3795,12 +3874,15 @@ Use an adequate existing operating model directly when its assumptions and retai
 
 Descriptions at different scopes can each look reasonable while making incompatible assumptions about the same operation. A resource appears once in each departmental plan and is then treated as two resources. An internal exit becomes the completion event of an external service, although acceptance still takes time. Several samples are aggregated to one order without retaining which sample prevents delivery.
 
-Adding detail everywhere makes the account harder to build, interpret and maintain. Keeping only totals can erase the dependence that matters. The practitioner needs a way to find and retain that dependence while leaving irrelevant detail out.
+A desired service can also lack an adequate operating arrangement. A deadline names the result but leaves open how work should be divided, prepared and provided. Comparing only schedules for the existing route can miss a useful change to that route; drawing a different route can hide the technical method or provision that it still needs.
+
+Adding detail everywhere makes the account harder to build, interpret and maintain. Keeping only totals can erase the dependence that matters. The practitioner needs a way to construct an attainable arrangement and retain its consequential dependencies while leaving irrelevant detail out.
 
 ### OPS.11.1:3 - Forces
 
 | Force | Tension |
 | --- | --- |
+| Required result and available way | A desired service can motivate another arrangement, but a drawn operation supplies neither a qualified method nor its provision. |
 | Local understanding and shared operation | Each team knows its work; a common resource or receiving condition crosses team boundaries. |
 | Compactness and useful distinction | An aggregate is easy to use until two cases with the same aggregate require different decisions. |
 | Stable account and changing policy | A useful service approximation can cease to apply after routing, release or staffing changes. |
@@ -3809,19 +3891,19 @@ Adding detail everywhere makes the account harder to build, interpret and mainta
 
 ### OPS.11.1:4 - Solution
 
-Construct the needed outside result, recover the work that obtains it, reconcile shared participants, and connect the quantities and events at each useful scale. Refine an account when its omitted distinction can change the proposed action. Return the resulting comparison with the conditions on which it depends.
+Specify the needed outside result, recover the work that obtains or maintains it, reconcile shared participants, and connect the quantities and events at each useful scale. Refine an account when its omitted distinction can change the proposed action. Return the resulting comparison with the conditions on which it depends.
 
 #### OPS.11.1:4.1 - Fix the receiving result and the proposed change
 
-State what the recipient must obtain and which event makes it available. For an order, this may require accepted components, transport and permission to use the result. For a machine service, it may be restored operation. Use the completion condition of the present service.
+State what the recipient must obtain and which event or continuing condition makes it available. For an order, this may require accepted components, transport and permission to use the result. For a machine service, it may be restored operation. An incident service can instead require qualified response to remain obtainable throughout a covered interval. Use the completion or service condition of the present or proposed operation and keep any proposed change to that condition explicit.
 
-Name the alternative under consideration: another release time, a different allocation, a larger transfer batch, changed routing or another operating method. Identify the quantities that would make the alternative preferable and any conditions it must preserve. OPS.1 supplies the operating focus and OPS.19 the wider reconciliation when several results govern the choice.
+Name the alternative under consideration: another release time, a different allocation, a larger transfer batch, changed routing or another operating method. Identify the quantities that would make the alternative preferable and any conditions it must preserve. When no adequate arrangement has yet been proposed, construct alternatives through :4.2a from the result, available methods and missing contributions. OPS.1 supplies the operating focus and OPS.19 the wider reconciliation when several results govern the choice.
 
 Retain the difference between a fixed input and a decision variable. If a contractor's two-day turnaround is a commitment that cannot change, the present model can use it as an input. If the proposal changes how that contractor is used, recover the response to that change rather than assuming the same turnaround.
 
 #### OPS.11.1:4.2 - Recover what obtains the result
 
-Follow one case from its relevant arrival to its receiving completion. At each step, identify the required input, what can happen next, the condition that enables it and what the step produces. Include external work when the result depends on it, even if that work is absent from the organization chart.
+For a case, follow its relevant arrival to its receiving completion. For a continuing service, identify the condition that must be maintained, the work that preserves it and the events that require a response. At each consequential action, identify the required input, what can happen next, the condition that enables it and what it produces. Include external work when the result depends on it, even if that work is absent from the organization chart.
 
 Separate the route from the resources used along it. For each consequential operation, determine which resources it holds and for how long. A machine may hold a part throughout a cycle while needing an operator only for loading and unloading. A person may be shared between apparently separate stations. A pool may provide alternatives only when the members have the needed capability and access.
 
@@ -3835,7 +3917,25 @@ Compare an alternative by stating what changes: a transformation, its required i
 
 A.22.CGUS helps express available continuations and their conditions before fixing a sequence. OPS.8 supplies readiness and release policy. Use the existing description of those relations when it already conveys them; the work does not require a particular diagram.
 
+#### OPS.11.1:4.2a - Construct alternatives when the arrangement is not given
+
+Work back from the recipient's required result to the contributions it needs. For each contribution, recover a qualified way of obtaining it, the input it requires, the result it supplies and the conditions under which the receiver can use it. Use the actual professional explanation or a competent provider's result. Where no adequate way is available, return that method or research question through FPF C.39 and the relevant discipline. A box labeled with the desired outcome cannot yet support a resource estimate or a promise.
+
+Use an existing workable route as the first alternative when one is available. Locate the dependency that prevents it from meeting the present need. Construct another arrangement by changing that dependency while preserving the required result. The following questions expose different ways of doing so:
+
+- **What can be prepared before a particular request is known?** Separate reusable preparation from work that depends on that request. Identify how long the prepared result remains usable, which later work consumes it and what can make it obsolete. Compare stock and preparation burden with the delay avoided after arrival.
+- **Where can a smaller contribution become useful?** Choose work and transfer boundaries from readiness and receiving conditions. Compare smaller transfers with the setup, checking and coordination they add. Keep a required join even when its constituents travel separately.
+- **Which provision can change?** Compare qualified alternative resources, routes or providers, including their setup, response, access and existing load. A shared preparation or support service can replace repeated work only when its result is usable in each receiving case.
+- **Where can the operation accommodate variation?** Compare available capacity, suitable prepared inputs and permitted waiting for the same service question. Include the replenishment or recovery that makes the protection sustainable. Preserve the supplied limit when delay, storage or interruption is inadmissible.
+
+These are possible changes, not required ingredients of every model. Develop the alternative whose mechanism addresses the difficulty. In a familiar case, one changed allocation can suffice. When changes across methods, performers and means must be constructed together, FPF C.32.MWA.PP:4.3–4.7 supplies that comparison. This operating model then retains the particular unit, readiness, occupancy and timing relations needed to calculate its consequences.
+
+Follow the proposed work forward. Show how each intermediate result becomes usable, how common preparation and recurring work are counted, where resources coincide or conflict, and how acceptance is reached or service is maintained. Count displaced work and the transition from the present arrangement. Sections :4.3–4.6 reconcile and compare these accounts. Reject a candidate that merely moves the missing contribution to another participant who cannot supply it.
+
+Separate three possible returns. A rearrangement within established methods and authority can proceed to the operating choice. A changed reusable method needs the method comparison and evidence in OPS.16–OPS.17. Changed organizational contribution or authority relations need OCE.4, OCE.6 and their realization conditions. These contributions can cooperate, but the model keeps each proposed change conditional until its required result is available. When no feasible alternative remains, return the particular requirement or unavailable contribution to its decision maker; a more elaborate model need not be the next useful work.
+
 #### OPS.11.1:4.3 - Reconcile shared participants and operating conditions
+
 
 Compare the local accounts at their connections. Establish whether two resource names denote the same resource, interchangeable members of a pool, or different resources. Do the same for cases, batches, deliveries and completion events.
 
@@ -3953,17 +4053,40 @@ These proposals change different things:
 
 The result is a comparison of identified changes and their consequences, with any missing decision left visible. It need not become a redesign of the whole organization.
 
+#### OPS.11.1:5.5 - Derive preparation and provision from a changed service requirement
+
+Six orders for configured kits arrive together. The service must make all six kits available within two hours. One qualified technician and one workstation are available in that interval. The stipulated method needs 20 minutes of common preparation and 10 minutes of case-specific finishing and acceptance per kit. There is no other work or transfer delay in this constructed comparison. Performing all work after the orders arrive requires 180 technician-minutes, exceeding the available 120.
+
+The current method permits preparation before an order is known: the prepared item remains compatible with any kit in the stated class and remains usable for the whole day. The technician has an otherwise uncommitted two-hour window before order arrival. One candidate therefore prepares six items in that earlier window and performs the six ten-minute finishes after arrival. The last kit is accepted at minute 60. Total labor remains 180 minutes; the arrangement changes when the common work is performed and what is held between performances. If fewer orders arrive, prepared items can remain unused, so inventory and obsolescence belong in the comparison. The two-hour service can be supported for this stipulated six-order case.
+
+Now the product specification changes: preparation must use the actual ordered device's serial-number data, which becomes available only on arrival. The common preparation is no longer usable. Keeping the previous stock or renaming it “ready work” does not remove the 180-minute post-arrival demand. The original service model must be revised because its preparation relation, work boundary and timing premise changed.
+
+A second qualified technician with an independent workstation can provide a different arrangement, if both are actually available under the required authority. Each technician completes three thirty-minute kits; the last kits are accepted at minute 90. Compare the added provision and its displaced work with a later or smaller service offer. If the second provision is unavailable, retain the 180-minute bound for the existing arrangement and return the promise to its owner. Product engineering might supply a genuinely different preparation method, but that result must be obtained before counting its expected saving.
+
+The unit design follows the same change. Initially a prepared common item can exist before any customer case; after the change its preparation belongs to an identified order. OPS.3 preserves that correspondence, OPS.10 supplies the capacity and schedule, OPS.13 forms the possible service agreement and OPS.14 compares consequential payments and unused stock where those matter. Existing acceptance authority and the one-kit result can remain unchanged. The broader account changes only the premise that the new product defeats.
+
+#### OPS.11.1:5.6 - Model a continuing service when no case is completed
+
+A facility buys readiness over a four-hour interval: a qualified responder must be able to begin an incident response within ten minutes of an incident's arrival. The stipulated demand condition permits at most one active incident; the responder remains available for any response owed from that interval. Alerts arrive within one minute. The response method, access and equipment are already qualified.
+
+One arrangement lets the responder perform a records audit while no incident is active. The audit can be left in a resumable state within one minute, and obtaining the response setup takes two more minutes. Even counting those delays consecutively, response can begin within four minutes. The operation can therefore obtain some audit work while preserving the stipulated readiness. A quiet four-hour interval with zero incident completions can still supply the purchased service.
+
+Another proposal assigns the same person to a twelve-minute task that cannot be interrupted. An incident just after that task starts can leave almost fourteen minutes before response begins, including the two-minute setup. Low average incident demand does not make this arrangement satisfy the ten-minute condition. Move that task to other provision, change its interruption method if technically possible, or obtain a different service agreement. OPS.8.2 supplies the fuller release-and-restoration construction.
+
+If demand changes to permit simultaneous incidents requiring separate responders, the single-responder premise fails even though the four-minute return remains attainable. Obtain the required qualified provision or revise the promise. The account keeps availability over an interval, work performed during quiet time and actual incident results distinct; a completed-case count alone cannot express all three.
+
 These are constructed operating cases.
 
 ### OPS.11.1:6 - Bias-Annotation
 
-The examples favor discrete cases and identifiable completion events. Continuous production can require amounts and rates; an incident service can require continuing availability rather than a final case exit. Choose the modeled subjects from the receiving result. Do not force every operation into orders moving through a line.
+Most examples favor discrete cases and identifiable completion events; :5.6 instead retains continuing availability. Continuous production can require amounts and rates. Choose the modeled subjects from the receiving result; a successful discrete-case model supplies no automatic transfer to every operation.
 
 The method also favors consequential detail. That can miss an effect outside the initially named decision. When a participant identifies a plausible displaced burden or failure, include the affected relation before treating the local comparison as sufficient.
 
 ### OPS.11.1:7 - Conformance Checklist
 
 - The model answers a named operating question and uses the recipient's completion or service condition.
+- A needed arrangement is constructed from usable professional contributions; alternatives change an operative dependency and include preparation, recurring work and the receiving connection.
 - Routes, resource occupancy, calendars and eligibility are distinguishable where they change feasibility.
 - Shared participants remain shared across local accounts.
 - Product dependencies, resource use, enabling conditions and authority relations retain their meanings; a proposed change identifies which of them changes.
@@ -3984,7 +4107,7 @@ The method also favors consequential detail. That can miss an effect outside the
 
 ### OPS.11.1:9 - Consequences
 
-Local operating proposals become comparable at the scope where their consequences matter. The account also gives collaborators a definite contribution to obtain: an occupancy interval, service response, completion relation or calculation.
+The practitioner can construct an operating alternative as well as compare a supplied proposal. Local choices become comparable at the scope where their consequences matter. The account also gives collaborators a definite contribution to obtain: a qualified method, effective provision, occupancy interval, service response, completion relation or calculation.
 
 The result remains conditional on the work description and model choices. A more detailed account can cost more without improving the decision; an omitted interaction can invalidate it. Keeping the relationships between accounts visible makes a later correction localizable.
 
@@ -3994,7 +4117,7 @@ Coordination uses several descriptions because the work supports several questio
 
 The outside result selects useful internal detail. The same principle also permits a return from an internal obstruction to a changed promise or wider arrangement. The direction is therefore iterative rather than a one-time decomposition.
 
-The operating contribution is the construction of routes, resource use, joins, calendars and completion relations. General mathematical coupling, constraint formulation and computation remain available through their own methods. This keeps the domain method usable without creating a second general modeling language.
+The operating contribution is the construction of work boundaries, preparation and provision alternatives, routes, resource use, joins, calendars and completion relations. General mathematical coupling, constraint formulation and computation remain available through their own methods. This keeps the domain method usable without creating a second general modeling language.
 
 ### OPS.11.1:11 - SoTA-Echoing
 
@@ -4008,6 +4131,8 @@ Dietz and Mulder's *Enterprise Ontology* (2020), §§4.4.4–4.4.6, distinguishe
 
 Anderson's *Kanban* (2010), chapter 1 and chapter 10's capacity-allocation discussion, combines regulation of work in progress with an approach to introducing changed practice. The [Kanban change principles](https://kanban.university/kanbans-change-management-principles/) explicitly distinguish change management from service delivery. Use the relevant operating rule and assess its introduction separately. In particular, allocating WIP slots among work classes does not by itself establish staffing, elapsed service time or the authority to change a commitment. Those remain modeled conditions.
 
+Constructing an alternative requires more than predicting the incumbent. The production mechanisms compared in OPS.Reference:19.3 support :4.2a's arrangement choices. Section :5.5 derives an alternative from the receiving conditions; its authored numerical case provides no empirical warrant for universal advance preparation. C.32.MWA.PP supplies the general comparison of method, performer and provision; this pattern retains the operating dependencies and calculations.
+
 Reconsider this choice when a changed promise, resource or policy makes an omitted relation affect the answer, or when an alternative construction obtains the same required answers with less inquiry and maintenance. A newly observed coupling reopens the affected account, not every part of the operation.
 
 ### OPS.11.1:12 - Relations
@@ -4016,7 +4141,7 @@ OPS.11 identifies interacting operating structures; this method constructs and r
 
 OPS.3 recovers operating subjects. OPS.8 supplies readiness, release and protection; OPS.10 addresses capacity and service; OPS.15 and OPS.15.1 supply the event-defined account. OPS.16 uses the current and proposed operating networks to bound an improvement or trial. OCE.4 and OCE.6 supply contribution design and effective assignments when those organizational relations must change; OCE.11 coordinates an organization change with continuing service. Existing assignments and their resource consequences can be modeled here without redesigning those relations.
 
-C.32.MWA supplies practice-architecture synthesis. C.29 connects mathematical descriptions to their subjects; C.29.1 develops result preservation between mathematical accounts. MMP.18 constructs mathematical coupling, MMP.10 the joint constraints, and C.29.2 the computational formulation. B.5.MPC and its revision method coordinate a change crossing these contributions.
+C.32.MWA supplies practice-architecture synthesis; C.32.MWA.PP constructs and compares performance and provision across methods, performers, means and allocations. Use C.39 to find or develop a missing way to obtain a required contribution. C.29 connects mathematical descriptions to their subjects; C.29.1 develops result preservation between mathematical accounts. MMP.18 constructs mathematical coupling, MMP.10 the joint constraints, and C.29.2 the computational formulation. B.5.MPC and its revision method coordinate a change crossing these contributions.
 
 ### OPS.11.1:End
 
@@ -5164,7 +5289,7 @@ Start with the existing improvement account. A competent PDSA record may already
 
 Write the hypothesis in operating terms: for the named use and interval, changing the specified action or condition is expected to alter a named operating result without violating stated protections. Name the observation that could defeat the hypothesis and the decision it would change.
 
-Use OPS.11.1 when the question requires reconstructing the current and proposed networks of transformations, resources and enabling conditions. State which operation, input, output, release rule, resource assignment or receiving commitment changes. Preserve the distinction between changing the operating route, changing the reusable way described, and establishing changed relations or capabilities in the organization. A change in one does not establish the other two.
+Use OPS.11.1 when the question requires reconstructing the current and proposed networks of transformations, resources and enabling conditions. Its :4.2a constructs alternative arrangements from a required result and their professional contributions when the proposed way has not yet been supplied. Compare that construction before treating a named change as the only trial candidate. State which operation, input, output, release rule, resource assignment or receiving commitment changes. Preserve the distinction between changing the operating route, changing the reusable way described, and establishing changed relations or capabilities in the organization. A change in one does not establish the other two.
 
 Keep materially different, status-preserved alternatives in view:
 
@@ -5437,7 +5562,7 @@ Read each candidate at the level that could actually be reused. Recover its inpu
 
 For example, an explicit limit on started work requires a start/end definition and a policy for reaching the limit. A rule protecting a scarce resource requires evidence of the resource's limiting role for the named demand and horizon. A case method requires conditions under which a practitioner may choose or change the next action. These are different claims even when one tool presents them together.
 
-The following repertoire supplies starting comparisons. Select only the row needed by the operating question.
+The following repertoire supplies starting comparisons. Select only the row needed by the operating question. If none supplies the needed result, recover or construct the missing contribution through C.39 rather than selecting the nearest school name. OPS.11.1:4.2a can construct a different operating arrangement using adequate methods already available; a new reusable operation retains its candidate status until its own basis is established.
 
 | Operating question | Candidate move | Evidence and limit that change its use |
 | --- | --- | --- |
@@ -6838,6 +6963,7 @@ The source comparisons above and in the bodies use the following works. The date
 - **Flow and operating trade-offs:** Steve Tendon and Daniel Doiron, *Tame your Work Flow* (2020), and Steve Tendon, *The Book of TameFlow* (2022, ISBN 978-99957-44-13-7); Donald G. Reinertsen, *The Principles of Product Development Flow* (2009, ISBN 978-1-935401-00-1). The [TameFlow publication page](https://leanpub.com/tameflow) also carries later revisions. OPS uses the consulted books' option, commitment, constraint and economic-flow mechanisms.
 - **Operating and financial consequences:** Steven M. Bragg, *Throughput Accounting: A Guide to Constraint Management* (Wiley, 2007), and John A. Caspari and Pamela Caspari, *Management Dynamics: Merging Constraints Accounting to Drive Improvement* (Wiley, 2004). These historical sources explain the constraint-accounting mechanisms compared in OPS.14 and OPS.19.
 - **Organizational transactions:** Jan L. G. Dietz and Hans B. F. Mulder, *Enterprise Ontology: A Human-Centric Approach to Understanding the Essence of Organisation*, first edition (2020) and [second edition](https://link.springer.com/book/10.1007/978-3-031-53361-7) (2024). OPS draws on its production, coordination and commitment distinctions.
+- **Operating flow and its empirical use:** Wallace J. Hopp and Mark L. Spearman, [“To Pull or Not to Pull: What Is the Question?”](https://doi.org/10.1287/msom.1030.0028), *Manufacturing & Service Operations Management* 6(2) (2004), 133–148; Song-Hee Kim and Ward Whitt, [“Statistical Analysis with Little's Law”](https://doi.org/10.1287/opre.2013.1193), *Operations Research* 61(4) (2013), 1030–1045. Their distinct contributions and limits are explained in OPS.Reference:19.3.
 - **Coupled operating structures:** Hector D. Perez, Kyle C. Harshbarger, John M. Wassick and Ignacio E. Grossmann, [“Integrating information, financial, and material flows in a chemical supply chain”](https://doi.org/10.1016/j.compchemeng.2023.108363), *Computers & Chemical Engineering* 178 (2023), 108363. Its integrated supply-chain model supports the comparison of connected structures under the case's assumptions.
 - **Case conditions and responses:** Thomas Hildebrandt and Raghava Rao Mukkamala, [“Declarative Event-Based Workflow as Distributed Dynamic Condition Response Graphs”](https://doi.org/10.4204/EPTCS.69.5), EPTCS 69 (2011), 59–73, and the [DCR documentation](https://documentation.dcr.design/documentation/). Read these alongside CMMN's planning model when selecting a representation for case continuation.
 - **Layered control:** Mung Chiang, Steven H. Low, A. Robert Calderbank and John C. Doyle, [“Layering as Optimization Decomposition”](https://doi.org/10.1109/JPROC.2006.887322) (2007); Gautam Goel, Niangjun Chen and Adam Wierman, [“Thinking Fast and Slow: Optimization Decomposition Across Timescales”](https://arxiv.org/abs/1704.07785) (2017); Nikolai Matni, Aaron D. Ames and John C. Doyle, [“Towards a Theory of Control Architecture”](https://arxiv.org/abs/2401.15185v1) (2024). These papers supply models of decomposition and operating rates. Figure's [Helix report](https://www.figure.ai/news/helix) (2025) describes its own humanoid-control system.
