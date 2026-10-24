@@ -4,7 +4,7 @@
 
 First edition, 12 October 2026. [Series, scope and limits](#ldrsource3---series-scope-and-limits).
 
-Helping participants act together, from a needed contribution to its useful performance and continuation.
+Developing direction, participation and responsibility in one's own action and joint work, from an unsettled concern to useful work and renewed practice.
 
 Framework text adapted from Anatoly Levenchuk's Organization Change Engineering framework, with AI assistance. Original and adapted framework text: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Third-party sources retain their own terms.
 
@@ -17,7 +17,7 @@ Framework text adapted from Anatoly Levenchuk's Organization Change Engineering 
 | — | [Leadership Readme](#leadership-readme) | Entry | Where to begin; ordinary coordination; first contribution | Direct patterns below |
 | — | [Leadership Principles Framework Architectural Reference](#leadership-principles-framework-architectural-reference) | Orientation | Scope; leadership and authority; joint work; competent AI | FPF; domain methods used in the work |
 | — | [LDR.Reference:1 - The working situation and useful result](#ldrreference1---the-working-situation-and-useful-result) | full text |  |  |
-| — | [LDR.Reference:2 - How the three leadership methods and their suppliers connect](#ldrreference2---how-the-three-leadership-methods-and-their-suppliers-connect) | full text |  |  |
+| — | [LDR.Reference:2 - How the leadership methods and their suppliers connect](#ldrreference2---how-the-leadership-methods-and-their-suppliers-connect) | full text |  |  |
 | — | [LDR.Reference:3 - What remains with other practices](#ldrreference3---what-remains-with-other-practices) | full text |  |  |
 | — | [LDR.Reference:4 - Authority, cost and sufficient ordinary work](#ldrreference4---authority-cost-and-sufficient-ordinary-work) | full text |  |  |
 | — | [LDR.Reference:5 - People, organizations and capable AI](#ldrreference5---people-organizations-and-capable-ai) | full text |  |  |
@@ -30,6 +30,7 @@ Framework text adapted from Anatoly Levenchuk's Organization Change Engineering 
 | 1 | [LDR.1 - Obtain and Continue the Leadership Contribution Needed for Joint Work](#ldr1---obtain-and-continue-the-leadership-contribution-needed-for-joint-work) | Stable | Missing help; role conversation; brief; debrief; distributed leadership; continuation without initiator | HCD.1, HCD.3, HCD.4 and HCD.7 for the applicable human-development contribution; C.11.DUA; LDR.2, B.5.SD or LDR.4 when the corresponding difficulty arises |
 | 2 | [LDR.2 - Agree Feasible Joint Contributions](#ldr2---agree-feasible-joint-contributions) | Stable | Negotiation; conflicting commitments; representation; joint feasibility; withdrawn support | Relevant domain methods; C.11; D.4; CB.13 when shared-decision mandate is needed |
 | 4 | [LDR.4 - Prepare a Proposal for Decision and First Use](#ldr4---prepare-a-proposal-for-decision-and-first-use) | Stable | Trusted adviser; proposal preparation; propitka; consequences; objections; actual commitment; shared start; first useful handover | LDR.1, LDR.2, B.5.SD when needed; authority and domain methods; C.41.OF for an execution aid |
+| 5 | [LDR.5 - Develop Joint Direction and Participation](#ldr5---develop-joint-direction-and-participation) | Stable | Shared purpose; unsettled concern; initiative; leading and following; motivation; personal aims; voluntary participation | STR.5/.6/.18 for strategic construction; CB.1 and CB.13 for community contribution and mandate; LDR.1/.2/.4; B.5.SD; professional participation when needed |
 
 **Use and source returns**
 
@@ -43,6 +44,14 @@ Framework text adapted from Anatoly Levenchuk's Organization Change Engineering 
 ## Practical entries
 
 These are selected examples, not a catalogue of leadership situations or a boundary on what the methods can help with. Bring the actual difficulty. If none fits, use the Table of Contents and read the relevant pattern's problem frame. An assisting agent can explain the methods in ordinary language: “Explain this and give me your comments without framework jargon.”
+
+### OWN-ACTION — A chosen purpose is not becoming action
+
+You have an undertaking of your own but cannot connect its purpose, actual action and further development. Use [Reference:1.6](#ldrreference16---direct-ones-own-contribution-and-development) to distinguish a direction still needing choice, a missing capability, an unsuitable development arrangement and a condition that prevents work. It returns to the complete Strategy and HCD methods where those results are needed. The next useful result can be a feasible personal continuation, a changed undertaking or a specific request for help; it need not involve forming a group.
+
+### NO-SHARED-DIRECTION — A common concern has not become something people can undertake together
+
+People agree that something matters, but interpret the situation differently or expect someone else to decide what it means for them. Use [LDR.5](#ldr5---develop-joint-direction-and-participation) to develop the direction with the people whose experience and action it needs, obtain its subject grounds, and establish a justified first action with its participation limits. Begin directly with a sufficient agreement or prepared proposal when those results already exist.
 
 ### MISSING-HELP — The work waits for one person to intervene
 
@@ -84,25 +93,96 @@ A prepared, authorized routine action can start directly when capable participan
 
 ## LDR.Reference:1 - The working situation and useful result
 
-A company, volunteer association, client community or temporary collaboration needs participants to act together. The work may already be routine. It may be a finite change or a contribution to continuing development. Someone needs to explain a direction, hear a consequential objection, reconcile contributions, help a person enter or sustain a role, prepare a proposal, or keep the work going after the initiator leaves.
+Leadership concerns how people give direction to their own action and to work with others. It examines how they understand a situation, choose purposes and exercise initiative and responsibility. That work can begin with a settled assignment. It can also begin with a concern that nobody yet knows how to address, an opportunity without a ready group, or participants who no longer accept the old direction. The discipline investigates these relations and develops ways of acting on them. A leadership appointment is one possible condition for that work; leadership also occurs between peers and across organizations.
 
-This framework teaches the bounded leadership practice of obtaining those contributions. Its practical result is a usable arrangement and the ensuing contribution to real work: an objection accurately understood, an agreed support allocation, a justified answer, a prepared decision, a completed handover, or a later episode performed with the stated help. Those results can be obtained by a manager, a colleague, an external specialist, a capable AI agent, or several performers. A leadership title neither supplies them nor is required for every one.
+The useful result is a change in what a person or group can understand, choose and do: a direction they can act on, a contribution they undertake with its limits understood, a challenge that reaches a consequential decision, or a practice that others can continue and improve. These results matter through the work and lives they affect. A tightly coordinated group can pursue a harmful purpose; an enthusiastic group can pursue an impossible one. Judging the purpose and its consequences remains part of responsible use, with the relevant ethical and professional contributions.
 
-The framework does not define all leadership scholarship or prescribe one leadership style. It does not turn every act of coordination into a development project. Read LDR.1 first if the missing help is unclear. Enter another pattern directly when the difficulty is already recognizable.
+This account connects directing one's own contribution with leading and following in joint work, change and continuing development. Its recurring question is how purposes become agency and responsible action under actual conditions. Self-direction, interpersonal influence and collective direction are related branches, not identical operations at different sizes. Strategy, organization engineering, community practice and human development supply their professional results where those results are needed. The account develops these connections for practical use without claiming that one leadership theory explains every setting.
 
-## LDR.Reference:2 - How the three leadership methods and their suppliers connect
+### LDR.Reference:1.1 - People, roles and relations of leading
 
-Joint work fails in several different ways. A participant may lack capable help; available contributions may conflict; a discussion may leave its subject unresolved; a proposal may never pass from plausible explanation to an effective decision and first use. Each failure needs its own construction.
+A participant brings purposes, experience, capabilities and a life beyond the undertaking. A role describes a contribution expected in some work. An assignment gives a particular person or agent a responsibility under an actual arrangement. These descriptions meet in performance, but they need not agree: a qualified employee can reject the proposed purpose, a willing volunteer can lack the means, and a manager can promise a contribution outside their authority.
 
-LDR.1 obtains and continues the needed leadership contribution. It selects and supports capable performers, including the ordinary working conversations that may suffice. LDR.2 constructs an accepted whole from incompatible contributions. FPF Core supplies B.5.SD to construct a substantive answer with the domain expertise that makes it warranted. LDR.4 prepares a proposal through trusted judgement, consequences, objections, revision, commitment, shared start and first use.
+Consider an experienced engineer asked to lead a new service. The organizational view identifies who can assign work, allocate time and decide scope. The work view identifies the explanation, exception handling and handovers the service needs. The person's view may reveal a wish to develop design mastery and a concern that permanent service coordination will remove that opportunity. Asking only whether the engineer is competent misses the participation question. Asking only what motivates the engineer misses the other people's dependencies. LDR.1 relates these views in a role conversation and follows the resulting arrangement into work.
 
-The methods connect conditionally. During negotiation, participants can expose a technical uncertainty and use B.5.SD to obtain an answer; they then return the changed proposal to LDR.2. During proposal preparation under LDR.4, they can use negotiation and the supplied analytical construction without repeating either. If the current arrangement already has a capable person who supplies all the needed contributions, retain it under LDR.1. No separate facilitator, mentor, coordinator or office is required for each method.
+Leading and following are relations in particular activity. One participant can propose a course, obtain attention for a neglected fact, or invite others to take initiative. The others may rely on that contribution, amend it, decline it or lead the next part themselves. A proposal to lead becomes usable through such responses and the conditions of the work. Expertise can warrant reliance on a technical judgement without giving its bearer power to allocate everyone's time. Popularity can create influence without warranting the judgement.
 
-A proposal, agreement, plan, instruction, performed contribution and claim of capability are different things. One document can describe several of them, and one performer can perform several methods. Conversely, one method may require several people or agents and several working products. Keep methods, their actual work, capability bearers, organizational parts, resources and powers distinct when constructing the arrangement. FPF C.32.MWA provides the fuller method for relating these objects.
+Formal authority, actual influence and recognition by participants therefore answer different questions. Authority concerns a valid power to act or decide. Influence concerns what changes people's interpretation or action. Recognition concerns whether they accept this person's initiative or guidance for this matter. They can reinforce one another or diverge. A new manager can possess authority before earning confidence; a trusted peer can help the group reconsider its work while lacking power to bind it. Recover the relation that the next action requires rather than searching for one person who possesses every kind of leadership.
+
+### LDR.Reference:1.2 - Construct the situation instead of assuming a ready group and goal
+
+The relevant group is often itself part of the question. Begin with the work, consequence or concern that connects people. Follow who experiences it, whose knowledge changes its interpretation, whose contribution could change it and whose rights or commitments would be affected. A departmental roster can omit a customer, an absent shift or an external maintainer; an open invitation can include interested people who cannot authorize the proposed action. Include people for the contribution the inquiry needs and distinguish consultation from representation and decision.
+
+Participants can disagree about what is happening before they disagree about a solution. Compare concrete episodes and their interpretations. One participant can call a delayed release laziness while another shows that unresolved integration work repeatedly returns to the same volunteer. That changes the object from individual effort to the relationship between release promises and contribution conditions. A shared description is useful when participants can correct it and use it to consider a next move. Repeating the same phrase is weak evidence of that understanding.
+
+Direction relates a worthwhile change to the people who could undertake it and to the consequences they will accept. It may be a bounded inquiry, a service commitment or a longer ambition. It need not erase different personal purposes. A contributor can support a common repair because it helps users while another values learning, provided the actual arrangement respects both contributions and does not rely on an unstated sacrifice. If the purposes cannot coexist, narrower cooperation, separate work or refusal can be the result.
+
+[LDR.5 — Develop Joint Direction and Participation](#ldr5---develop-joint-direction-and-participation) supplies this construction when the joint purpose and participants' responsibility remain unsettled. Strategic and domain reasoning establish whether a proposed direction is worthwhile and attainable; the leadership work lets the people concerned shape that reasoning, relate it to their own agency and undertake a justified next action. A strategy paper can be sound before anybody accepts responsibility for it. A group can be committed while the proposed strategy remains unsound. Both questions must reach their actual answer.
+
+### LDR.Reference:1.3 - What knowledge permits a leadership choice
+
+Leadership uses knowledge of the work and knowledge of how people interpret and participate in it. Relevant grounds include a participant's account, an observed interaction, the consequences of a previous promise, an effective assignment, and research on comparable work. Their evidential uses differ. A person's explanation gives a reason to investigate or negotiate; it does not identify the sole cause of every missed contribution. An authorized instruction establishes what may be required, not whether it was understood or can be performed. An observed improvement after several changes does not isolate the effect of the conversation.
+
+Construct an explanation at the scale needed for the choice. If a contributor stops raising concerns, compare possible causes that imply different actions: the issue was resolved, the reporting route failed, reporting costs too much, earlier objections were punished, or the contributor no longer supports the work. Ask for a relevant episode, seek the person's account under usable disclosure conditions and inspect the response to the concern. Restore a known broken route directly. Where several explanations support the same warranted repair, act within that basis; a causal research programme is needed only for a stronger claim that depends on it.
+
+Leadership theories can make an overlooked relation visible. The [CCL direction, alignment and commitment account](https://www.ccl.org/articles/leading-effectively-articles/make-leadership-happen-with-dac-framework/) directs attention to collective outcomes and the interactions producing them. Here it is a diagnostic comparison: agreement on direction, compatible work and personal willingness may fail separately. It does not make every participant's sacrifice a virtue or establish that all leadership has exactly three outcomes.
+
+Historical research also constrains easy explanations. [Edmondson's 1999 study](https://web.mit.edu/curhan/www/docs/Articles/15341_Readings/Organizational_Learning_and_Change/Edmondson_1999_Psychological_safety.pdf) connected team learning with perceived interpersonal risk and with structural support. Its cross-sectional study in one company did not establish universal causality. It gives reason to examine what follows a question or error report as well as access and workload. It supplies no guarantee that an invitation to speak creates safety.
+
+The practical return runs both ways. These distinctions select an intervention; the actual response can defeat its explanation. A supported person who still rejects the purpose needs a different continuation from a willing person who cannot obtain a tool. If capable, supported participants repeatedly cannot make the proposed leadership method work, reconsider that method through LDR.1:4.6. Protect a justified disagreement instead of making success mean compliance with the initiator's interpretation.
+
+### LDR.Reference:1.4 - Turn understanding into agency and joint work
+
+Information becomes useful when participants can relate it to a choice they can make. Explain what is happening, why a change matters and what the proposed contribution would involve. Invite their account of its benefits, losses and alternatives. Work with a person's stated concern, not a presumed personality type. Interest can grow when people help shape a worthwhile undertaking and experience a useful contribution, but this is a possibility to establish in the actual relationship, not a guaranteed motivational technique.
+
+Trust concerns reliance under vulnerability. Make the relied-on undertaking specific, keep it or report its failure promptly, and respond to a valid challenge in the promised way. These actions give people grounds for their next reliance. A demand to trust, a confident speech or universal disclosure can instead increase vulnerability without improving the grounds. Some protected information cannot be shared; explain the permitted basis for reliance and obtain a suitable independent contribution when needed.
+
+Commitment has several meanings in ordinary leadership language. A promise to perform work, willingness to support a purpose and effective assignment are distinct. An employee can perform a valid assignment while disagreeing with the policy. A volunteer can enthusiastically support an aim while offering no available time. Clarify the actual contribution and the conditions on which others may rely. LDR.2 constructs compatible terms when such contributions conflict; LDR.4 carries an examinable proposal through the decisions and first performance it still needs.
+
+Shared responsibility adds attention to the receiving whole. A person noticing that their correct output will leave the next participant unable to work can raise the gap, help find a response within their competence, and obtain a changed assignment when necessary. They do not acquire unlimited responsibility to repair everything. Clear interfaces, accessible explanations and a response to exceptions allow this attention to extend beyond one person's task without centralizing every decision. OCE supplies organization design when those relations must change; leadership helps people use and question them.
+
+### LDR.Reference:1.5 - Continue and revise the practice
+
+Repeated leadership is sustained through working relations: who can raise a matter, who responds, how responsibility passes, and what others learn from the response. Meetings, models and reminders can carry these relations. Their contribution depends on what people can do through them. A dashboard that exposes a changed dependency can let peers adjust directly; a dashboard nobody can interpret or act on supplies no such continuation. A recurring meeting can preserve an otherwise lost cross-role judgement or consume time without changing work.
+
+Independent continuation requires more than copying a successful speech or appointing a successor. Other participants need the reasons for the direction, a usable method, opportunities to exercise initiative, relevant powers and support, and ways to question what has become inadequate. LDR.1 supplies the next capable contribution and human learning where valuable. C.36.RP supplies access to and renewal of shared methods; C.36 addresses the stronger claim that a practice persists across participants. These are distinct contributions to a continuing leadership practice, not compulsory stages of every episode.
+
+A later result can change the encompassing account. A successful pilot may show that the shared purpose is worth continuing; it may also expose that the chosen participants cannot represent an affected group, that the apparent motivation depended on a reward, or that a useful exception has become the normal work. Revisit the direction, participation boundary or method affected by that fact. Retain the sound technical result and fulfilled commitments at their actual scope. Leadership develops as a discipline when such experience is made available for criticizing and improving its explanations and methods, while stronger general claims receive the evidence they need.
+
+### LDR.Reference:1.6 - Direct one's own contribution and development
+
+A person can need to understand and influence their own action before asking others to follow. R10's personal development case makes this explicit: choose a worthwhile capability, arrange time and support, use what is learned, and reconsider further learning when its return changes. The historical [self-leadership proposal by Manz, 1986](https://doi.org/10.5465/AMR.1986.4306232) likewise distinguishes self-influence from merely complying with externally supplied standards, including attention to what makes the activity itself worthwhile. Use this theoretical distinction to ask whether the person is choosing the work or merely meeting an imposed standard, while qualifying the proposed method for the actual situation.
+
+Begin with the person's actual undertaking and account of it. A difficulty in choosing a worthwhile direction needs STR.5 and, when the way is unknown, STR.6. Work that the person values but cannot perform raises a different question from work they can perform but have not chosen to undertake. HCD.3 investigates a human limitation against non-training alternatives. For an actual capability-development choice, [HCD.2](../Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd2---compose-and-compare-human-capability-development-programmes-for-later-work) develops and compares complete personal programmes, including practice, feedback, access, unfinished learning and displaced work. Its comparison leaves the person's choice open. [HCD.15](../Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd15--sustain-continuing-human-capability-development) supplies continued learning from experience and changed conditions, with a return to ordinary work when the learning question is answered.
+
+For example, suppose an independent designer keeps buying courses but cannot produce the analysis needed for a chosen kind of project. The next question is whether the missing analysis, its method, a capability gap or unavailable practice conditions explains that difficulty. A qualified analysis method and task comparison reveal that the designer can perform the core operation but has never completed a whole representative case with feedback. The development comparison can then favour finishing that contribution with available qualified help over starting another course. If actual client work removes the needed practice time, change the commitment or timing; buying further instruction has not restored that time. If the intended project ceases to be worthwhile, return to the purpose instead of completing the course only because money has been spent.
+
+For an immediate action the person already knows and can perform, inspect what prevents its occurrence before adding learning. They can inspect a missed episode, identify what interrupted the intended action, and change a condition they control: for example, make the needed material available before a protected work interval or remove a competing demand they have authority to defer. Examine the next episode before attributing the difference to the change. When the problem lies outside their control, obtain help or revise the undertaking. A persistent difficulty with a different professional explanation requires that contribution; calling it weak self-leadership gives no diagnosis.
+
+This personal branch meets the other methods where action depends on another participant: LDR.1 for the role conversation and capable help, LDR.2 for conflicting contributions, LDR.4 for a proposal needing decision and first use, and LDR.5 for direction that must be formed together. Helping another person direct their work requires preserving their purposes and choices, as well as any actual duties. Self-direction does not make a person responsible for conditions that others must supply.
+
+## LDR.Reference:2 - How the leadership methods and their suppliers connect
+
+The methods address different breaks in the relationship between people, purposes and joint work. Their ordering follows what is already available, rather than a fixed leadership lifecycle.
+
+| What the situation leaves unresolved | Useful leadership result | Where the way is explained |
+| --- | --- | --- |
+| People have concerns or ambitions but cannot yet say what they can undertake together or who will carry the initiative. | A direction shaped with the relevant participants, the bounds of their participation and a justified first action or refusal. | LDR.5, with strategic or domain construction where needed. |
+| A needed explanation, role conversation, challenge or continuing initiative lacks a capable performer or usable conditions. | The contribution is performed and its next occasion has the stated help. | LDR.1. |
+| Parties' proposed contributions or terms cannot coexist. | A feasible whole accepted by those whose agreement is required, or a precise impasse. | LDR.2. |
+| An examinable proposal has not reached an effective decision, supported start and useful performance. | The authorized first contribution reaches its receiver, with the remaining conditions visible. | LDR.4. |
+| A person cannot connect their chosen purpose, actual action and further development. | An attainable personal continuation or a reason to change the undertaking. | Reference:1.6 connects the choice to STR.5/.6, the complete HCD.2/.15 methods and the actual work conditions. |
+| Participants cannot obtain a justified subject answer. | A connected answer with its grounds and limits. | FPF B.5.SD and the relevant professional method. |
+
+For example, a designer and service staff can begin from unlike accounts of recurring user difficulty. LDR.5 helps them form a common question and undertake its investigation; the domain method supplies the explanation. If the result supports an improvement but the necessary service hours conflict with existing obligations, LDR.2 obtains compatible contributions. If the proposal still needs a permitted first use, LDR.4 obtains the decisions and follows the use. LDR.1 can supply capable help at any of these points. An already warranted and accepted routine action enters directly at its remaining work.
+
+The same evidence can select a different continuation. New findings can defeat the problem interpretation, returning to LDR.5 and the domain inquiry. A sound shared direction with a withdrawn support offer returns to LDR.2. An effective decision followed by an inaccessible tool needs that access restored. Repeating the direction-setting conversation in the latter cases would add no missing contribution.
+
+These connections make a repertoire usable; they do not make all joint work one leadership Method. A proposal, agreement, plan, instruction, performed contribution and capability claim remain different things. One performer may supply several methods, while one method can require several performers and working products. FPF C.32.MWA provides the fuller account when that distinction changes the arrangement.
 
 ## LDR.Reference:3 - What remains with other practices
 
-The leader obtains the substantive contribution; leadership does not replace the practice that produces it. Engineering supplies a warranted engineering proposal. Strategy supplies a justified direction and portfolio choice. Research supplies an inquiry and its findings. Human Capability Development supplies human learning design and assessment. A helper who can conduct a conversation may lack the ability to judge its technical subject.
+Leadership work helps participants obtain and use a substantive contribution; the professional practice supplies its warranted content. Engineering supplies a warranted engineering proposal. Strategy supplies a justified direction and portfolio choice. Research supplies an inquiry and its findings. Human Capability Development supplies human learning design and assessment. A helper who can conduct a conversation may lack the ability to judge its technical subject.
 
 In a company, Organization Change Engineering supplies the design and realization of organizational arrangements. Its OCE.9 connects a change to an organization-capability increment; OCE.10 investigates difficulties in participation and recurrent ways of working; OCE.11 reconciles change with continuing service. OCE.6 establishes actual enabling relations and authority. Corporate Governance supplies applicable corporate powers and acts: CGOV.3 resolves who may act and CGOV.11 makes and records a corporate decision. These contributions are needed when the particular work calls for them, not before every conversation.
 
@@ -127,7 +207,7 @@ The cost of further discussion is also real. C.11.DUA asks what an attainable an
 
 ## LDR.Reference:5 - People, organizations and capable AI
 
-Human learning and agent engineering require different methods. HCD applies when the subject is a human capability. An organization supplies a contribution through its arranged people, agents, resources and authority; it does not acquire a human skill simply because its members attended training. An AI system's qualification, configuration, access and operational support need their own evidence and engineering.
+Human learning and agent engineering require different methods. HCD applies when the subject is a human capability. An organization supplies a contribution through its arranged people, agents, resources and authority; it does not acquire a human skill simply because its members attended training. An AI system's qualification, configuration, access and operational support need their own evidence and engineering. Human accounts of motive, trust and identity provide questions about the human participants; applying those accounts to an artificial agent requires a separate basis. A qualified agent can conduct the proposed inquiry and carry delegated decisions while obtaining actual human responses where those responses are required.
 
 A capable AI may produce the whole leadership contribution, including substantive integration or a decision delegated to it. Do not freeze the old arrangement and merely insert a drafting assistant. Compare whole alternatives: ordinary human coordination, a person with AI support, autonomous agents under effective mandates, or a changed allocation that removes a previously necessary meeting or intermediate role. Establish actual competence for the task, permitted information use, ability to make the relied-on commitments, operating capacity, exception handling and a receiver able to use the result.
 
@@ -177,7 +257,7 @@ Candour helps expose errors and consequences. Employment, status or dependence o
 
 #### LDR.1:4.1 - Find the contribution through the receiving work
 
-Recover a representative next task, the result it needs and what currently prevents it. Ask the participants what help would change their next action. Useful answers include:
+Recover a representative next task, the result it needs and what currently prevents it. When people cannot yet say what to undertake together, use LDR.5 to form the direction and participation needed for that next task. For an established task, ask the participants what help would change their next action. Useful answers include:
 
 - making the intended result and its grounds understandable;
 - bringing an unvoiced concern into the decision;
@@ -196,7 +276,7 @@ Name the receiving occasion and a small observation that would reveal whether th
 
 #### LDR.1:4.2 - Select a capable arrangement and retain an adequate one
 
-Choose the conversation or practical assistance by the needed result. A short brief can connect familiar contributions before work. A huddle can adjust a shared plan after a change. A role conversation can clarify a participant's responsibility and help. A debrief can examine a completed episode. A disputed whole arrangement needs LDR.2; an unanswered substantive question needs B.5.SD; a proposal not yet connected to its first use needs LDR.4.
+Choose the conversation or practical assistance by the needed result. A short brief can connect familiar contributions before work. If people have lost or never formed a direction they can undertake, LDR.5 addresses that prior question. A huddle can adjust a shared plan after a change. A role conversation can clarify a participant's responsibility and help. A debrief can examine a completed episode. A disputed whole arrangement needs LDR.2; an unanswered substantive question needs B.5.SD; a proposal not yet connected to its first use needs LDR.4.
 
 Identify the actual contributions required to perform the selected method. Facilitation, subject expertise, decision authority, resource allocation, coaching and peer help can come from different providers. One person may supply several when capable and authorized. Select willing, capable participants with time and access for this occasion. A job title, an available calendar slot or general fluency is insufficient evidence of a difficult professional contribution.
 
@@ -231,6 +311,18 @@ A conversation is complete when it supplies its receiving contribution, not mere
 **After an episode, examine what happened.** Reconstruct the relevant actions and results from available evidence. Distinguish an observed event from a proposed explanation. Identify what helped, what failed, what remains uncertain and a useful change for another episode. Obtain the contribution that can make that change and name the next observation. Protect the ability to report errors; blaming a person before understanding the work can conceal the missing condition. Retain an adequate successful practice instead of inventing an improvement to justify the debrief.
 
 A short conversation may settle an objection or a contribution conflict. Use a fuller method only for the result still missing. A facilitated session that promises an explanation is subject to B.5.SD's construction; one that promises accepted commitments is subject to LDR.2.
+
+##### LDR.1:4.4.1 - Relate a person's aims to the role they can undertake
+
+When accepting, sustaining or changing a role is the missing contribution, keep the result expected of the role separate from the person's own purpose. Ask what the person wants to achieve or protect through participation and what they understand the assignment to require. They may value mastery, income, belonging, a useful public contribution or a bounded amount of work. These examples do not constitute a psychological classification. Use the answer the person actually gives and keep private matters outside the work unless they choose to make them relevant.
+
+Compare the two accounts through a real next episode. What would the role require the person to do, what discretion would they have, what would others rely on, and what would happen to their other commitments? A mismatch can justify a clearer explanation, changed scope, different allocation, practical support, a development opportunity or another performer. Generate the alternative that changes the mismatch. If the expected work is necessary and the person legitimately declines it, obtain another contribution or revise the promise. If an effective assignment governs the work, use its actual decision and challenge route rather than disguising that obligation as personal enthusiasm.
+
+Turn the supported choice into a contribution the person can explain and attempt. Connect a personal aim to an action within their control and the result it is meant to help obtain. Distinguish a learning goal, a performance promise and an aspiration. Learning to diagnose an unfamiliar class of faults may justify exploratory attempts; a promised service window requires dependable performance. Select feedback from the receiving work and the particular operation being developed. A numerical indicator can help locate a change, but ask whether it could improve while the needed result deteriorates. That possibility changes the feedback or the proposed goal.
+
+A goal conversation can use a familiar local practice, including suitable OKRs, without adopting a universal target regime. Make clear which result others may rely on, which attempt is exploratory, how the goal will be revisited and how observations may affect the person. The [Google re:Work account](https://rework.withgoogle.com/intl/en/guides/set-goals-with-okrs) is a historical company practice: it combines organizational, team and individual goals, makes progress visible and distinguishes OKRs from employee evaluation. It does not support the proposition that every goal must be individual, unattainable or detached from joint priorities.
+
+Obtain the decisions that make the agreed opportunity real. Review it at an interval where the next observation can still change the work; a calendar ritual without a receiving choice adds little. Use observed performance and the actual assignment to adjust the person's responsibility and support. If the person's purpose, receiving work or available conditions change, reconsider the affected arrangement. Keeping a willing person in an obsolete role is not successful continuation.
 
 #### LDR.1:4.5 - Obtain human development when that additional result is worthwhile
 
@@ -290,6 +382,16 @@ In the next episode the peer raises the missing-source question without the init
 
 If the only problem had been a broken access link, restoring the link would have been sufficient. The brief helps discover that distinction; it does not oblige the group to continue with coaching.
 
+#### LDR.1:5.3 - An experienced engineer can perform a role but does not want its present terms
+
+Suppose a manager asks an experienced engineer to coordinate a new service. The engineer can perform the work but wants to develop design mastery and sees the coordination role as a permanent departure from it. Treating this as missing competence would select the wrong intervention.
+
+The role conversation traces a representative week. Coordination would consume three of the four days available after existing obligations, leaving one day for design. The service needs its coordination result, but it does not require this engineer to supply every recurring handover. A capable operations colleague can cover one day if their manager approves a corresponding allocation. The engineer offers two coordination days and two design days for an eight-week introduction; the operations colleague offers the remaining day under that condition. Their managers and affected receivers accept the actual workload changes through LDR.2 and the assignment process. If that contribution is unavailable, the original three-day demand remains; the attractive two-day offer is not yet a feasible arrangement.
+
+The personal development aim becomes a bounded learning contribution: the engineer will construct and justify a design alternative, with qualified feedback arranged through HCD and with a real receiving design question. Its exploratory result is kept separate from the service's required daily coordination. After the first weeks, inspect both receiving results and the experienced burden. If the service requires four coordination days, reopen the scope and allocation; do not treat the engineer's earlier agreement as consent to give up the design work indefinitely.
+
+Willingness and role terms change this arrangement even when skill is adequate. The personal preference becomes feasible only through the actual allocation and accepted contributions.
+
 ### LDR.1:6 - Bias-Annotation
 
 **Lenses:** Governance, Architecture, Ontology/Epistemology, Pragmatics and Didactics. **Scope:** Joint-work contributions under the authority and participation conditions stated here.
@@ -301,6 +403,7 @@ The method favours an observable contribution over a heroic-person account. That
 A conforming use of this method makes the following questions answerable at the scale the work needs:
 
 - Which receiving task needs help, and what contribution changes its next action?
+- If taking or changing a role is the difficulty, how do the person's purposes, actual assignment and needed work fit, and which goal is exploratory or relied on?
 - Can an existing competent arrangement already supply that result?
 - Who supplies facilitation, subject expertise, authority, time allocation and learning where each is needed?
 - Do the contributions fit together in the relevant time windows, including displaced work?
@@ -344,7 +447,7 @@ Reopen the arrangement when the receiving work, support, capability evidence or 
 
 ### LDR.1:12 - Relations
 
-LDR.2 supplies a feasible accepted whole when contributions conflict. B.5.SD obtains the connected answer a discussion promises. LDR.4 prepares a proposal through decision and first useful performance. None is mandatory when the ordinary contribution is already adequate.
+LDR.5 forms joint direction and participation when the next receiving work remains unsettled. LDR.2 supplies a feasible accepted whole when contributions conflict. B.5.SD obtains the connected answer a discussion promises. LDR.4 prepares a proposal through decision and first useful performance. None is mandatory when the ordinary contribution is already adequate.
 
 [FPF A.3.1.QM — Qualify a Method for Its Intended Contribution](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31qm---qualify-a-method-for-its-intended-contribution) qualifies the leadership Method or candidate account for its bounded receiving use and examines independently decidable local connections. Return the actual failed contribution and conditions; obtaining a competent person does not settle the Method's suitability. OCE.15 constructs or specifies the organization-change contribution only when that is the receiving question.
 
@@ -366,7 +469,7 @@ Use this pattern when participants need one another's contributions but their pr
 
 The useful result is acceptance of the same feasible proposal by the parties whose agreement it requires, with any outstanding condition explicit. A warranted refusal or a specific unresolved contribution is also useful: it prevents unsupported reliance.
 
-A routine exchange with clear terms and available resources may already be agreed. Use it directly. This pattern is a bounded negotiation method for joint contributions. It does not adjudicate a legal dispute or require consensus where an applicable decision rule permits another form.
+A routine exchange with clear terms and available resources may already be agreed. Use it directly. If participants have not yet formed a direction or understood why they would undertake this work, LDR.5 supplies that construction before negotiating detailed terms. This pattern is a bounded negotiation method for joint contributions. It does not adjudicate a legal dispute or require consensus where an applicable decision rule permits another form.
 
 ### LDR.2:2 - Problem
 
@@ -568,7 +671,7 @@ FPF B.5.QD.CF examines conflicting assumptions, D.4 handles ethical mediation an
 
 Use this pattern when a promising proposal must become understandable, examinable and supported by real contributions before joint work can begin, or when an announced decision has not yet reached its first useful result. The proposal may concern a new practice, a one-off collaboration or an ordinary task that needs renewed preparation.
 
-Begin with the receiving work and the result the proposal is meant to improve. Obtain the judgement people actually need, examine consequences and objections, revise the proposal, secure the required decisions and contributions, make the accepted start mutually visible, and follow the first handover into use.
+Begin with the receiving work and the result the proposal is meant to improve. If that direction or the basis for participation is unsettled, use LDR.5 and the necessary subject method rather than assume that preparation will justify the initiator's preferred proposal. Obtain the judgement people actually need, examine consequences and objections, revise the proposal, secure the required decisions and contributions, make the accepted start mutually visible, and follow the first handover into use.
 
 This connected preparation is sometimes called “propitka” in Russian practitioner discussions: the proposal becomes sufficiently understood through repeated explanation, advice and revision. Here it is not a campaign to suppress objections. A real disadvantage, inadequate basis or unavailable resource can warrant a changed proposal, refusal or deferral.
 
@@ -799,11 +902,180 @@ B.5.SD supplies the substantive answer to an objection; LDR.2 obtains compatible
 
 ### LDR.4:End
 
+## LDR.5 - Develop Joint Direction and Participation
+
+**Kind:** Method pattern.
+
+**Status:** Stable.
+
+### LDR.5:1 - Problem frame
+
+Use this when people are connected by a concern, opportunity or changing situation but cannot yet undertake a sufficiently understood course together. There may be no agreed group, ready proposal or recognized person to lead. Alternatively, an established group may keep performing while its members no longer understand or support the direction. The difficulty is to develop joint agency without assuming that the initiator already knows everybody's purpose or possesses their authority.
+
+Begin with a consequential experience or possibility and the people needed to examine it. Construct the problem and a worthwhile direction with them, obtain the subject reasoning it requires, and relate that direction to what they can choose and undertake. The first useful result can be a bounded joint inquiry, a supported course of action, separate continuations or an explicit reason why cooperation cannot yet begin.
+
+A clear, justified direction with willing, capable participants needs no new direction-setting exercise. Use LDR.1 for missing help, LDR.2 for incompatible terms and LDR.4 for a proposal already needing preparation through first use. A binding urgent assignment can require action before a broad conversation is possible; use its actual authority and qualified operating method, preserving the specific questions that can affect the work.
+
+### LDR.5:2 - Problem
+
+An initiator can mistake agreement with a concern for commitment to their preferred solution. Participants can use the same words while anticipating different results, or accept a task publicly while withholding knowledge that would challenge the plan. A group can also wait for a leader to supply an answer that must be constructed through its members' different experience.
+
+Merely explaining the proposed goal more clearly does not settle these difficulties. The purpose, participants' roles in forming it and their grounds for acting may themselves need to change. Conversely, reopening an already adequate direction can delay useful action and erode reliance on valid commitments.
+
+### LDR.5:3 - Forces
+
+A shared direction gives work coherence, while participants retain purposes and responsibilities beyond it. They need enough common understanding to act without pretending to have identical beliefs.
+
+Initiative can make a previously invisible opportunity actionable. Its holder can also define the problem so narrowly that only the preferred answer survives. Opening the question to others needs a real opportunity to change its terms.
+
+Knowledge, commitment and authority have different providers. People closest to the difficulty may have important knowledge but little formal power; those who can authorize a change may have little direct experience of its consequences.
+
+A small action can help people discover what is worth doing together. Its costs and consequences still need acceptance, and the action must be useful or informative enough to justify those costs. Endless inquiry can be as unhelpful as premature commitment.
+
+### LDR.5:4 - Solution
+
+#### LDR.5:4.1 - Find the connection and the people who can examine it
+
+Recover an actual occasion, a changing condition or a credible possibility. Ask who experiences its consequences and who could contribute to understanding or changing them. Describe the connection before declaring a team or collective purpose. Several people using the same tool can have unrelated needs; an absent recipient can be essential to the apparent team's work.
+
+Invite the contribution that is needed now: an account of the difficulty, relevant knowledge, a proposal, permission to use a resource or willingness to explore. State what this exchange can decide and what remains with another person or body. Give people a feasible way to respond, including a different time or permitted narrower example when access or disclosure limits matter. PSDA.12 and PSDA.13 supply professional participation and facilitation when the stakes or protections require that expertise.
+
+The initiator should make their own interest and influence visible. Explain why the matter seems worth pursuing, which decisions are already binding and which are open. When a manager can require attendance or control rewards, a public expression of support is ambiguous. Obtain a way to hear concerns without advertising protection that the manager cannot provide. The existing authority or professional process governs any protection that is needed.
+
+For a simple exchange, a short conversation with the actual participants can be enough. If the missing contribution is representation or a shared decision rule, use CB.13. Inviting a few familiar supporters cannot establish a mandate over everyone affected.
+
+#### LDR.5:4.2 - Build an account that can change the proposed question
+
+Let participants describe what they tried, what happened, what mattered and what they think explains it. Connect their accounts around the same event or anticipated use. Distinguish observations, interpretations, desired consequences and proposed remedies. Ask where the accounts disagree and what difference that disagreement makes to action.
+
+For example, several delayed releases can support a request for more developer discipline. A maintainer may show that each release contains accepted changes that no one has committed to integrate. A user may reveal that frequent releases matter less than a stable version for an existing installation. These facts can change the question from accelerating everybody's work to deciding which contribution the project should undertake and how it can obtain it.
+
+Use B.5.SD when the relationship between claims still needs substantive construction. A technical claim needs the relevant domain method. OCE.2 and OCE.10 can supply investigation of actual organizational work and participation where those are the objects. Do not substitute an attitude diagnosis for an unavailable design or resource answer.
+
+Return the account to participants in terms they can correct. Ask them to apply it to the next consequential choice, not merely affirm that it sounds right. A difference that still changes the choice remains open. A documented account can hold the question across time and participants; writing it does not make it shared or true.
+
+#### LDR.5:4.3 - Construct a worthwhile direction with its actual grounds
+
+Ask what improvement or possibility would matter to the people concerned, why joint action is useful and what an initial contribution could change. Include maintaining something valuable, a smaller inquiry or independent action among the serious alternatives. If no consequential connection requires cooperation, preserve that result rather than inventing a group project.
+
+Work between purposes and possible ways. A promising means can reveal a useful purpose; a desired outcome can expose a missing method. Obtain the relevant subject construction. STR.5 develops worthwhile contributions and direction, STR.6 develops a way to obtain them, and STR.18 relates the strategic answers when their joint coherence remains unresolved. For a community offer, CB.1 develops the participant and sponsor contribution. Leadership helps the people concerned bring their experience, aims and judgement into this work; their endorsement cannot replace its substantive grounds.
+
+Make the proposed direction concrete enough to explain a trade-off. Whose situation should improve, through what result, under which important limits, and why this continuation rather than the serious alternative? Distinguish an ambition from the present commitment. A research collaboration may share a question and an honest stopping rule before it can promise a favourable finding. A service with a settled acceptance condition needs an executable delivery contribution instead.
+
+Compare the full burden of pursuing the direction, including consultation, learning, support and work displaced elsewhere. C.11.DUA helps determine whether another inquiry could improve the choice enough to be worthwhile. A promising future does not supply today's available time. Retain a disagreement over value as such; use D.4 or the applicable institutional decision method when it must be resolved for action.
+
+#### LDR.5:4.4 - Relate the direction to people's purposes and initiative
+
+Ask each necessary contributor what participation would mean for them: the result they value, the work they can undertake, the loss or uncertainty they face, and the conditions under which they would continue. Their reasons can differ. Develop a feasible relation between the joint result and their contribution rather than asking everyone to adopt the initiator's personal motivation.
+
+Show why a person's contribution matters to the others and what discretion it includes. Let them propose how to carry it out within the shared conditions. Where the intended role conflicts with their aims or capabilities, use LDR.1's role conversation and the relevant provider. Where terms conflict, use LDR.2. A necessary participant's refusal may require a different way, smaller scope or stop. Another person's willingness cannot commit the refuser's resources.
+
+Make initiative and reliance explicit in ordinary work. One participant can offer to convene the inquiry; others can accept that contribution while reserving the final decision. Another can lead the technical investigation because the required competence is recognized, with peers retaining the ability to challenge the reasoning. Ask whether the proposed arrangement lets participants bring relevant concerns and actually act. Leadership can pass between people by subject or occasion without creating a new office each time.
+
+For formal assignments, retain the actual power and its limits. A manager can decide within a valid remit despite disagreement; explain that decision and the specific discretion and duties that remain. For voluntary action, obtain the actual willingness on which the next contribution depends. A person who attends, praises the aim or accepts someone as a useful adviser has not thereby accepted every obligation.
+
+#### LDR.5:4.5 - Establish a shared basis for the first action
+
+Have the necessary participants explain the direction through their own intended action: what they will contribute, what they expect from others, what they can decide and what should return for reconsideration. Use a plausible difficulty to expose differences. If a user request conflicts with a proposed stability aim, can contributors explain which request should be deferred and who can make that choice? If not, repair the missing distinction or agreement before relying on it.
+
+Choose the first action at the scope the grounds support. It may obtain a missing observation, supply an initial service or test whether the proposed collaboration is workable. Obtain its time, access, capability and authority. Incompatible offers return to LDR.2; a proposed new arrangement still needing effective decisions and supported first use enters LDR.4. Reuse what has already been obtained instead of repeating it under each pattern's name.
+
+Explain what the action can establish and who will use its result. A trial can answer whether contributors can integrate a small change; it cannot promise long-term maintenance by a wider population. Arrange a response to an obstacle and a timely occasion for the needed judgement. Use the work's ordinary channel or product. The participants need recoverable terms and reasons, not a new leadership reporting system.
+
+#### LDR.5:4.6 - Learn from participation and revise the affected direction
+
+Follow what people actually do and what the receiver obtains. Notice who takes initiative, whose concern gets a response, which commitments hold and which support was decisive. Ask participants about consequential differences between the proposed and experienced work. Inspect non-participation before choosing its explanation: a missing time window, a mistaken promise and rejection of the aim call for different responses.
+
+Reconsider the part whose premise changed. Failed integration can require a better subject method. An accepted workload that no longer fits needs a changed agreement. A useful result for the wrong population can require a revised direction and different participants. If the first experience changes what people consider worth doing, return to that purpose instead of treating their earlier acceptance as permanent consent.
+
+Continue with adequate arrangements and support. Distribute further leadership only where people can and wish to take the contribution and the work permits it. LDR.1 develops or obtains the needed capability; HCD supplies human learning, and CB supplies continuing community participation when that becomes the actual undertaking. End an exhausted or unsupported collaboration while settling its existing commitments through their applicable arrangements.
+
+Return both the useful work and the justified account: what people could undertake together, which conditions made it possible, and what remains unsettled. Evidence of a bounded collaboration supports its warranted continuation. C.28 is needed for a causal-effect claim, and C.36 for a cultural-continuation claim.
+
+### LDR.5:5 - Archetypal Grounding
+
+#### LDR.5:5.1 - A direction before a software project's next release plan
+
+Suppose an open-source project's maintainer proposes a major rewrite after several late releases. Contributors agree that the delays are frustrating, but nobody has agreed to the rewrite. The maintainer controls acceptance into the maintained repository under its existing rules; contributors control their voluntary time, and users decide whether they can adopt a release.
+
+A contributor offers to convene a short inquiry. A documentation author, an integration specialist and two users accept the exchange. One user cannot disclose an installation's data but can describe the required compatibility. The group needs that boundary condition, not the protected data. Their accounts reveal different concerns: the maintainer wants less support work, a contributor wants to try a new design, and users need a stable version. The specialist shows a repeated gap between accepting contributions and having someone available to integrate them.
+
+The proposed explanation changes. The domain comparison finds that an isolated adapter can remove the immediate integration difficulty without a rewrite; the new design remains a possible later undertaking. For this stipulated case, the participants consider maintaining the current release with that adapter, undertaking the rewrite and retiring active support. They choose a bounded maintenance direction because it meets the current users' need at a contribution the volunteers can actually supply. The design enthusiast declines maintenance and continues independent exploration without committing the project's name or release promise.
+
+The integration specialist offers to lead one adapter attempt. The maintainer accepts that technical initiative while retaining release acceptance. The author offers an installation explanation; the users offer permitted compatibility observations. Each can explain why an incompatible new feature will wait. LDR.2 resolves their date and support terms, and LDR.4 supplies any remaining first-use preparation. A capable ordinary exchange can already provide those results.
+
+In the constructed first use, the adapter supports the intended installation. The group has a useful maintenance result and evidence about this collaboration. It has neither a consensus on the rewrite nor an obligation from the participant who declined. The working account now connects an actual user purpose, technical grounds, accepted initiative and feasible contributions. That is more than the original agreement that delays were frustrating.
+
+#### LDR.5:5.2 - Change the consequence, not merely the project name
+
+Now suppose the compatibility inquiry shows that the adapter cannot support the intended installation. The maintenance direction has lost a technical premise. The maintainer returns the finding and its limits; the group reconsiders retirement, a narrower supported installation or a differently resourced rewrite. The previously declined contribution remains declined. A stronger appeal to loyalty supplies no missing technical way.
+
+Change a different condition instead: the adapter remains adequate, but the integration specialist loses the offered time. Keep the technical result and reconsider the contribution through LDR.2 and LDR.1. There is no reason to reopen everybody's purposes unless the changed burden alters the direction they can support.
+
+#### LDR.5:5.3 - A manager's decision with limited room for participation
+
+Suppose a service manager must reduce evening coverage under an already authorized budget decision. The decision about expenditure is outside the team's present remit; the allocation of remaining coverage and the treatment of unanswered requests are open. Pretending that the whole decision awaits consensus would mislead staff.
+
+The manager states those boundaries and obtains accounts from the affected shifts and service recipients. Their concerns show that a proposed uniform reduction leaves one promised receiving window uncovered. The domain and operations work supplies feasible alternatives; the manager obtains the required decisions on the affected promise. Staff can influence the workable arrangement, raise unresolved concerns and understand their actual assignments without being asked to endorse the budget rationale. A staff member's personal development aim enters a role conversation where it changes the allocation.
+
+If the purpose, allocation, authority and receiving conditions were already adequate, perform the ordinary brief and the work. This method would add no useful direction-setting result. Conversely, if the budget decision's premise is defeated by new evidence, return that evidence to the body able to reconsider it; neither the manager nor the team acquires a new power merely by agreeing.
+
+### LDR.5:6 - Bias-Annotation
+
+The method favours participants having a real part in forming what they will do. An initiator can simulate this while keeping every consequential choice closed. An articulate participant can also dominate the account. Use actual decision boundaries, the experience needed for the question and feasible ways for less visible contributors to be heard. Protected work and legitimate urgent authority can limit participation; disclose the resulting limit instead of claiming a fully shared decision.
+
+### LDR.5:7 - Conformance Checklist
+
+- The connection among participants is established from the situation and its consequences; the roster and common purpose are not merely presumed.
+- Observations, interpretations, desired results and remedies can be distinguished and corrected.
+- The direction has a substantive basis and a meaningful alternative; agreement does not supply its professional warrant.
+- Participants can relate the direction to their own purposes, contributions and limits, with formal duties distinguished from voluntary commitments.
+- The first action has the contributions and authority it needs, and participants can explain a consequential choice under its terms.
+- Later responses revise the affected purpose, arrangement or method while preserving valid results and commitments.
+
+### LDR.5:8 - Common Anti-Patterns and How to Avoid Them
+
+| Invited mistake | Better action |
+| --- | --- |
+| Treat a shared complaint as agreement to the founder's solution. | Reconstruct the experience and compare the direction with the people whose action it requires. |
+| Announce consultation after every consequential decision has been made. | State the actual open questions and the binding decisions; let relevant input change the former. |
+| Explain non-participation through a personality or motivation label. | Inspect the actual contribution, participant's account and conditions before choosing a response. |
+| Make an accepted direction permanent consent to later sacrifices. | Return a consequential change in burden or purpose to the affected participants and decision holders. |
+| Require consensus before every valid ordinary action. | Retain adequate agreement and authority, and use the sufficient working conversation. |
+
+### LDR.5:9 - Consequences
+
+Participants can develop a direction and take initiative without first receiving a finished plan from a designated leader. The group can discover that its initial proposal addressed the wrong problem or that only a narrower collaboration is warranted. Obtaining and responding to people's experience costs time and can expose conflicts that the initiator cannot resolve. A sound result may be separate action or refusal.
+
+### LDR.5:10 - Rationale
+
+Joint direction is produced through the relation between an interpreted situation, worthwhile possibilities and people's actual ability and willingness to act. Changing any one can change the others. Constructing these relations before demanding commitment explains why the method can begin without a ready proposal, yet still needs the separate subject, agreement and authority results before action. A later experience returns to the premise it changes, rather than restarting the whole relationship or demanding renewed enthusiasm.
+
+### LDR.5:11 - SoTA-Echoing
+
+**Adapt** [Ganz's 2010 treatment of leadership in social movements](https://dash.harvard.edu/server/api/core/bitstreams/7312037d-c5ad-6bd4-e053-0100007fdf3b/content) as a developed historical comparison: relationships, purposes, strategic reasoning and actual commitments must connect, especially where participation is voluntary. The present method retains those questions while supplying its own bounded construction. It does not transfer movement-specific narrative forms or presume that a founder represents an affected population.
+
+**Use narrowly** [DeRue and Ashford's 2010 theoretical proposal](https://doi.org/10.5465/amr.35.4.zok627) that leadership identity is constructed through claims and grants in interaction. The claim-and-grant distinction directs attention to the other participants' responses; it does not establish that a title or a successful appeal obtains their recognition.
+
+R10's leadership discussion supplies the person–role–work tension and mutual support for joint responsibility. The CCL comparison in LDR.Reference:1.3 supplies a collective-outcome view. These perspectives answer different questions. The construction also retains formal authority, legitimate refusal and independent professional judgement, which the actual setting may require together.
+
+The serious alternatives are a competent direct conversation, an already sufficient strategic process with actual participation, CB.1 for a community contribution, and LDR.2 or LDR.4 for a sufficiently formed proposal. Retain them where they supply the needed result. This method earns its additional work when participants must still construct what they can undertake together and how initiative will be exercised. Its use depends on the stated participation, knowledge and authority conditions. Reopen the method when a simpler available approach supplies that result, an important group or consequence was omitted, or experience defeats its explanation.
+
+### LDR.5:12 - Relations
+
+LDR.1 supplies capable help and the role conversation. LDR.2 constructs compatible accepted contributions; LDR.4 carries an examinable proposal through effective decision and first use. Enter either directly when the prior result is already available.
+
+[Strategy (STR)](STRATEGY-PRINCIPLES-FRAMEWORK.md), STR.5/.6/.18, supplies the worthwhile contribution, obtaining way and coherent strategic judgement. [Community Management (CB)](COMMUNITY-MANAGEMENT-PRINCIPLES-FRAMEWORK.md), CB.1 and CB.13, supplies a useful community contribution and a workable shared-decision mandate. These results can participate in leadership work without becoming substitutes for actual participation.
+
+FPF B.5.SD supplies subject reasoning through discussion; D.4 supplies value-conflict reasoning; C.11.DUA appraises further inquiry. OCE.2/.10 supplies investigation where the subject is organizational work or participation. PSDA.12/.13 supplies professional participation and facilitation. Their wider methods retain their own conditions and results.
+
+### LDR.5:End
+
 # Connected use: a federation begins a joint evidence service
 
 ## LDR.Use:1 - A worthwhile proposal with incompatible contributions
 
-The following is a constructed use of the three leadership Methods and the supplied answer construction. It does not describe an observed organization or claim that these numbers apply elsewhere.
+The following is a constructed use of LDR.1, LDR.2, LDR.4 and the supplied answer construction. Its joint purpose and initial participation are already established; LDR.5 addresses the different starting condition in which they still need construction. It does not describe an observed organization or claim that these numbers apply elsewhere.
 
 Suppose three independent engineering communities want a monthly service in which practitioners bring a difficult evidence package, obtain a qualified diagnosis and leave with an actionable correction. The wider purpose is to help members develop their practice. The present leadership question is narrower: can the communities begin and continue a supported first service?
 
@@ -867,11 +1139,11 @@ Leadership then helps obtain the contributions for whichever next move is warran
 
 ## LDR.Source:1 - What this text depends on
 
-LDR.1, LDR.2 and LDR.4 identify the three leadership patterns in this publication. B.5.SD supplies the separately published intellectual-answer construction. Cite the framework title, edition and pattern when a particular account matters; a short PatternID assumes that its supplying publication is known.
+LDR.1, LDR.2, LDR.4 and LDR.5 identify the four leadership patterns in this publication. B.5.SD supplies the separately published intellectual-answer construction. Cite the framework title, edition and pattern when a particular account matters; a short PatternID assumes that its supplying publication is known.
 
-The four Methods distinguish enabling contribution, feasible agreement, connected subject reasoning, and preparation through first useful performance.
+The leadership repertoire distinguishes developing joint direction and participation, enabling a contribution, agreeing feasible terms, and preparing a proposal through first useful performance. The separately supplied B.5.SD constructs the connected subject answer.
 
-The text uses FPF's distinction between a method, its description, planned work and performed work; the receiving-result construction in C.39; the several-structure synthesis in C.32.MWA; and the cost and inquiry appraisal in C.11.DUA. C.36.RP supplies ways to keep shared methods obtainable and support their renewal. C.36 qualifies cultural-continuation claims, while C.28 qualifies causal claims. The source basis is the FPF edition consulted on 11 October 2026; the direct returns below identify the contributions and conditions used here.
+The text uses FPF's distinction between a method, its description, planned work and performed work; the receiving-result construction in C.39; the several-structure synthesis in C.32.MWA; and the cost and inquiry appraisal in C.11.DUA. C.36.RP supplies ways to keep shared methods obtainable and support their renewal. C.36 qualifies cultural-continuation claims, while C.28 qualifies causal claims. The direct returns below identify the FPF and domain contributions and the conditions used here. Source explanations and the professional results obtained in a particular use remain different grounds.
 
 The references below return to published methods. They provide descriptions from which a practitioner can obtain a result; citation does not mean that a local result, authorization, capability or agreement has already been produced.
 
@@ -886,6 +1158,9 @@ The references below return to published methods. They provide descriptions from
 | [Human Capability Development (HCD)](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md), HCD.1, HCD.3, HCD.4, HCD.7 and HCD.8 | Human demand, target, capability profile, provider capability and access conditions, and development of a missing provider capability. | Needed for a human-learning claim. Do not transfer its learning mechanisms to an organization or AI without their own methods. |
 | [Corporate Governance (CGOV)](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/CORPORATE-GOVERNANCE-PRINCIPLES-FRAMEWORK.md), CGOV.3 and CGOV.11 | Applicable corporate power and an effective decision with usable conditions. | Use the corporation's actual rules and adequate existing delegation. Consultation and agreement cannot replace a required act. |
 | [Community Management (CB)](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/COMMUNITY-MANAGEMENT-PRINCIPLES-FRAMEWORK.md), CB.13 | Representation and a workable shared-decision mandate. | Needed where this is missing in a voluntary or member-governed arrangement; no second protocol when an adequate one exists. |
+| [HCD](../Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md), HCD.2 and HCD.15 | Complete personal development alternatives and continuing learning from actual work; used in Reference:1.6. | Preserve the person's participation, actual work, practice and support conditions; the comparison does not itself choose or demonstrate learning. |
+| [Strategy (STR)](STRATEGY-PRINCIPLES-FRAMEWORK.md), STR.5/.6/.18 | A worthwhile contribution, an obtaining way and a coherent strategic judgement when LDR.5 exposes that question. | Obtain the subject grounds and bring them back to the people whose initiative and participation are needed. A defensible strategy does not establish their agreement. |
+| [Community Management (CB)](COMMUNITY-MANAGEMENT-PRINCIPLES-FRAMEWORK.md), CB.1 | Construction of a useful community or cultural contribution when that is the proposed undertaking. | Preserve participant and sponsor purposes, actual contribution and the possibility that no community is needed. LDR.5 does not require a community to be formed. |
 | [Systems Engineering (SYSE)](https://github.com/ailev/FPF/blob/main/DPFs/Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md), SYSE.6, SYSE.17 and SYSE.24 | Engineering architecture choice, affected systems and whole-result alternatives. | Use for engineering subject work. Other domains need their own professional method rather than an engineering label. |
 | [Operations Management (OPS)](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md), OPS.13 | An authorized response to an existing promise or changed commitment. | A proposed new agreement does not automatically cancel a current obligation. |
 | [FPF C.41.OF — Fit a Checklist to Its Occasion of Use](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c41of---fit-a-checklist-to-its-occasion-of-use) | A checklist fitted to its actual occasion and continuation. | Use when an execution aid helps; the aid does not perform the subject reasoning or repair a missing result. |
@@ -899,7 +1174,7 @@ The pattern comparisons state the claims that change the methods. The following 
 
 - **Organization Change Engineering, historical version of 3 October 2026, OCE.12**, supplies the source treatment of adequate ordinary coordination, human-development cost, negotiated whole proposals, substantive integration, proposal preparation and first-use cases.
 - **R10, Systems Management**, in «Рабочие продукты и корпоративные ритуалы как видимая форма оргизменений» (work products and corporate rituals as visible forms of organizational change) and the preparation and decision passages of «Шаг развития: постановка оргвозможности» (a development step: establishing an organizational capability), supplies working products, trusted advice, proposal preparation and shared start. The present source use is bounded to those connected portions and the already developed OCE account; it is not a review of the whole Guide. The method is taught in LDR.4, so the reader need not reconstruct it from R10. Fixed durations, categorical claims about resistance and claims that all concerns are harmless are not adopted.
-- **CCL, “What Is Leadership?”, 15 March 2026** supplies a relational conceptual comparison. It does not establish a complete leadership ontology or a measured effect of the three leadership Methods and the supplied answer construction.
+- **CCL, “What Is Leadership?”, 15 March 2026** supplies a relational conceptual comparison. It does not establish a complete leadership ontology or a measured effect of these leadership Methods and the supplied answer construction.
 - **CBI, Mutual Gains Approach brief, 2023** supplies the negotiation comparison used in LDR.2. Its short source account is supplemented by the developed joint-feasibility and receiving-use construction here.
 - **IAF Core Competencies, revised 6 December 2021** supplies the competent-facilitation alternative for B.5.SD. A professional competency account is not a domain-specific calculation or an effectiveness study.
 - **AHRQ TeamSTEPPS 3.0 brief, huddle and debrief pages**, reviewed in 2023, supply concrete teamwork comparators for LDR.1 and LDR.4. No healthcare outcome estimate or permission is transferred to the constructed non-clinical cases.
@@ -908,16 +1183,28 @@ The pattern comparisons state the claims that change the methods. The following 
 
 Sources linked in a predecessor's bibliography but not used for a claim here do not silently become evidence for this publication. The conditional cases and arithmetic support the illustrated choices under their stipulated premises. They are not practitioner trials, demonstrations of universal transfer or causal evaluations.
 
+The field explanation also uses the following bounded source comparisons:
+
+- **R10, chapter “Практика лидерства”,** especially “Лидерство как практика изготовления организаций”, “Лидерство для достижения уровней сотрудничества” and “Личное целеполагание как практика лидерства”, connects the person's agency, performed roles, organizational conditions, mutual support and goal conversations. This publication develops those connections beyond a ready organization design. It does not adopt universal claims that good cooperation requires an already good design, that everyone must lead, that goals are exclusively individual, or that a particular goal-setting practice is always best.
+- **[CCL, Direction + Alignment + Commitment, 15 March 2026](https://www.ccl.org/articles/leading-effectively-articles/make-leadership-happen-with-dac-framework/)** supplies the collective-outcome comparison in Reference:1.3. Its model is a useful view, not a universal classification or evidence of this publication's effect.
+- **[Ganz, Leading Change, 2010](https://dash.harvard.edu/server/api/core/bitstreams/7312037d-c5ad-6bd4-e053-0100007fdf3b/content),** the introduction and relationship account, supplies a historical developed treatment of shared purpose and voluntary participation before a settled hierarchy. LDR.5 states the adapted contribution and the boundary of its use.
+- **[Manz, 1986](https://doi.org/10.5465/AMR.1986.4306232), abstract,** supplies the historical distinction between self-influence and merely meeting externally supplied standards. Reference:1.6 connects the personal-development question to the complete Strategy and HCD methods; the abstract supplies no procedural or effectiveness evidence.
+- **[DeRue and Ashford, 2010](https://doi.org/10.5465/amr.35.4.zok627), abstract,** supplies only the claim-and-grant distinction. The abstract is not treated as a complete method or an empirical result.
+- **[Edmondson, 1999](https://web.mit.edu/curhan/www/docs/Articles/15341_Readings/Organizational_Learning_and_Change/Edmondson_1999_Psychological_safety.pdf),** the construct, discussion and limitations, supplies a historical empirical comparison concerning speaking, learning and structural support. The single-company cross-sectional design limits causal and cross-setting inference; this text transfers no measured effect.
+- **[Google re:Work, Set goals with OKRs](https://rework.withgoogle.com/intl/en/guides/set-goals-with-okrs), originally 2016,** supplies the counterexample to treating OKRs as exclusively personal goals and the distinction from employee evaluation. Its company practice is an available option rather than the field's mandatory current method.
+
+These theories, empirical observations and practitioner accounts have different roles. The source comparisons inform the construction and expose alternatives; the conditional cases examine this publication's reasoning. Neither source age nor a current web page establishes universal superiority, effectiveness or learning success.
+
 ## LDR.Source:3 - Series, scope and limits
 
-**Series and current edition.** The first edition dated 12 October 2026 is the first admitted member of the Leadership product series. Its subject is leadership that helps participants produce joint work, including ordinary work, change and development in organizations, communities and arrangements without a common employer. Negotiation, professional facilitation, human capability development, corporate governance, community management, strategy, implementation support and development practice retain their wider fields and direct methods. The three leadership patterns teach the selected constructions and their connections to intellectual and professional suppliers; they do not absorb those fields.
+**Series and scope.** The Leadership product series develops self-direction and relations of leading and following through which people undertake responsible action and joint work. The first edition dated 12 October 2026 is its first admitted member and centres on joint contributions. This account connects that work to the person's own purposes and action, including ordinary work, change and development in organizations, communities and arrangements without a common employer. Negotiation, professional facilitation, human capability development, corporate governance, community management, strategy, implementation support and development practice retain their wider fields and direct methods. The four leadership patterns teach the selected constructions and their connections to intellectual and professional suppliers. The field explanation relates people's own purposes and capabilities, roles, influence, recognized initiative, authority and performed joint work; it does not absorb the supplying professions.
 
 
 The contribution beyond the source organization-change frame is made explicit in the no-common-employer cases, ordinary-work non-use boundaries and qualified-AI alternatives. The same conditions are not presumed across all those settings. Authority, consent, capability, resources and evidence are reconstructed for the receiving use.
 
 The following needs are deliberately not supplied by this framework: choosing an organization's whole strategy or development portfolio; creating every domain's methods; designing human instruction and assessment from scratch; constituting a community; engineering an AI's general competence; making legal or clinical determinations; and proving cultural or causal effects. The dependency returns explain how those results enter the leadership work.
 
-Admit a later edition through an explicit decision when its relation to the actual source edition is established and the complete leadership language is qualified for this use. Retain the contribution-to-joint-work purpose and independently useful entries, sufficient ordinary coordination, real authority and consent, actual capability and joint resource demands, and qualified human/AI allocation. Refinement, splitting or redistribution must preserve useful operations and qualified suppliers or provide qualified replacements. Correct false claims and mistaken boundaries. Source derivation alone does not admit an edition. Replacing this purpose with one of the wider neighboring practices identifies another series.
+Admit a later edition through an explicit decision when its relation to the actual source edition is established and the complete leadership language is qualified for this use. Retain the purpose of enabling responsible action and joint work through self-direction and relations of leading and following. Preserve independently useful entries, sufficient ordinary coordination, real authority and consent, actual capability and joint resource demands, and qualified human/AI allocation. Refinement, splitting or redistribution must preserve useful operations and qualified suppliers or provide qualified replacements. Correct false claims and mistaken boundaries. Source derivation alone does not admit an edition. Replacing this purpose with one of the wider neighboring practices identifies another series.
 
 Review the affected admission or use when a governing distinction or relied-on source changes, a required contribution becomes unavailable, or use exposes a consequential failure. Loss of qualification calls for a warning and a decision about repair, withdrawal of recommendation or retirement. Superseded, unavailable or retired editions retain their historical membership while the series continues; a false admission claim requires correction. Retire the series by an explicit decision when its field and use will no longer be served or when repair after qualification loss is declined. Retirement ends its current belonging occurrences while preserving past facts; a later active collection requires a new constitution. A change of title, publication home, Suite membership or maintenance alone leaves the series identity unchanged. The constitution establishes no maintenance service, future edition or uninterrupted availability.
 
@@ -927,4 +1214,4 @@ Reopen the affected contribution when a direct supplier changes a relied-on meth
 
 Useful feedback identifies the receiving question, what the text enabled, the operation the practitioner still had to invent, the conditions of the attempted use and the consequence of that gap. A successful example does not settle unrelated settings; a failed prerequisite does not by itself refute a method used outside its conditions.
 
-The Readme contains four ordinary practical entries: MISSING-HELP, WHOLE-AGREEMENT, UNANSWERED-QUESTION and the extended joint-use example JOINT-START. Use their situation and missing contribution to choose an entry; return to the complete Method for the explanation needed to adapt it.
+The Readme contains six ordinary practical entries: OWN-ACTION, NO-SHARED-DIRECTION, MISSING-HELP, WHOLE-AGREEMENT, UNANSWERED-QUESTION and the extended joint-use example JOINT-START. Use their situation and missing contribution to choose an entry; return to the complete Method for the explanation needed to adapt it.
