@@ -5,7 +5,7 @@
 > A pattern language for forming physical accounts, deriving usable consequences, constructing observations and revising the physical assumptions.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 22 September 2026
+- **Version:** 24 October 2026
 - **Status:** Eternal alpha: a usable repertoire that remains open to correction and extension.
 - **License:** © 2026 Anatoly Levenchuk. Original framework text: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Cited sources retain their own terms.
 - **Publication:** [FPF Library repository](https://github.com/ailev/FPF)
@@ -14,7 +14,7 @@ Begin with the physical question in your work. Use the Table of Contents to find
 
 The reference code **PHY** names this DPF. Its numbers are stable pattern addresses; § shows position within a Part. The methods can be used separately or in longer routes with mathematical and computational contributions.
 
-This publication belongs to the [Foundational Thinking DPF Suite](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/README.md). Its [Reference (Foundational)](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) explains those connections and the available publications. References such as B.5.MPC and C.29 name patterns in [FPF Core](https://github.com/ailev/FPF/blob/main/FPF-Spec.md). Open the cited body when its contribution is needed; revisit a receiving conclusion when that contribution changes.
+This publication belongs to the [Foundational Thinking DPF Suite](https://github.com/ailev/FPF/tree/main/DPFs/Foundational%20Thinking%20DPF%20Suite). Its [Reference (Foundational)](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) explains those connections and the available publications. References such as B.5.MPC and C.29 name patterns in [FPF Core](https://github.com/ailev/FPF/blob/main/FPF-Spec.md). Open the cited body when its contribution is needed; revisit a receiving conclusion when that contribution changes.
 
 To cite this edition: Anatoly Levenchuk, *Physical Thinking DPF*, [FPF Library repository](https://github.com/ailev/FPF). Include the version date shown above.
 
@@ -192,7 +192,7 @@ These connections form possible routes. They do not prescribe a ten-stage workfl
 
 Acquiring a reading can be part of testing a physical account while the discriminating investigation is already under way. If rival accounts agree at equilibrium but differ during a transition, a settled-value observation cannot answer the same question: its timing must change. Instrument use, the mathematical consequence and knowledge of the accounts can be available separately while the coordination of intervention and observation is missing. The domain's observation Method supplies that intermediate contribution and its equipment conditions.
 
-FPF B.1.5.EW helps recover these constituent–whole connections; B.1.5.RS examines a proposed replacement. Use the parts of the vertical that can change the present result. A Method described here can require additional capability, available support and compatible resources at other grains.
+FPF B.1.5.EW helps recover these constituent–whole connections; B.1.5.RS examines a proposed replacement. Consider the constituent–whole connections that can change the present result. Carrying out a Method described here can require additional capability, available support and compatible resources for its constituent operations or for the larger work it contributes to.
 
 ## PHY.Reference:4 - Worked connection - From an unknown resistance to a useful comparison
 
@@ -346,7 +346,7 @@ If a proposed input was held fixed even though the physical transformation chang
 
 Use the physical restrictions relevant to the requested consequence:
 
-- **Dimensions:** terms combined as one physical quantity need compatible units. Determine the dimensions of remaining coefficients and arguments. PHY.1 supplies dimensionless similarity groups when scale is part of the question.
+- **Dimensions:** terms added together as one physical quantity need compatible units. Determine the dimensions of remaining coefficients and arguments. PHY.1 supplies dimensionless similarity groups when scale is part of the question.
 - **Balance:** account for the relevant quantity retained, transferred, supplied or lost across the chosen boundary. A flux entering and leaving a region can differ when the region stores the quantity.
 - **Dissipation or passivity:** identify the exchange whose sign is constrained and the regime in which the constraint holds. For an instantaneous passive resistive force at relative velocity w, the mechanical power condition is `F(w) dot w <= 0`.
 
@@ -1466,7 +1466,7 @@ Compare the excited-count question in :5.1. A physically appropriate equilibrium
 
 [Korbel and colleagues, *Quo vadis, stochastic thermodynamics?*](https://arxiv.org/abs/2604.26601), 2026, examines hidden variables, memory and limits of thermodynamic interpretation. Sections II and V matter here: a reduced stochastic description may retain memory, and observable irreversibility does not automatically determine physical dissipation. Use a physical energetic account for a heat claim. For the transport question in :5.3, the density-current account and its diffusion reduction answer the same late-time mean-square question; the current adds useful content when the early response is required. A larger microscopic simulation would cost more without improving this already solvable comparison.
 
-The examples are explicit constructions of the method, not reports of validation of particular devices. More demanding equilibrium, quantum or driven-system questions can require specialized physical and mathematical results. Their use retains the preparation, observable and time conditions that make the result transferable.
+The examples are constructions of the method, not reports of validation of particular devices. More demanding equilibrium, quantum or driven-system questions can require specialized physical and mathematical results. Their use retains the preparation, observable and time conditions that make the result transferable.
 
 ### PHY.8:12 - Relations
 
@@ -1662,7 +1662,7 @@ To reproduce the dimensionless evolution with the same D, the smaller model woul
 
 ### PHY.1:6 - Bias-Annotation
 
-The explicit cases use classical continuum laws and positive scale factors because their derivations are easy to inspect. In a new regime, discreteness, quantum effects or a change in material behavior can invalidate such laws. Recover the applicable account before extending their scaling.
+The cases use classical continuum laws and positive scale factors. In a new regime, discreteness, quantum effects or a change in material behavior can invalidate such laws. Recover the applicable account before extending their scaling.
 
 The worked algebra assumes access to the physical laws and a reader able to manipulate them. The prerequisites in :1 help locate a needed contribution. One participant can recover the interaction law while another derives the comparison settings; their shared explanation must preserve what the law describes and which settings the arrangement can supply.
 
@@ -1700,7 +1700,7 @@ The physical and mathematical work remain connected. Physical reasoning supplies
 
 ### PHY.1:11 - SoTA-Echoing
 
-The working question is how to obtain a useful physical result after changing scale or conditions. The selected approach derives and reconciles the relevant physical ratios and preparation, then handles unmatched effects at the output that matters. It combines established similarity reasoning with explicit result-specific transfer and revision.
+The working question is how to obtain a useful physical result after changing scale or conditions. The selected approach derives and reconciles the relevant physical ratios and preparation, then handles unmatched effects at the output that matters. It combines established similarity reasoning with result-specific transfer and revision.
 
 [Mahajan, The Art of Insight in Science and Engineering (2014), sections 5.2-5.3](https://ocw.mit.edu/courses/res-6-011-the-art-of-insight-in-science-and-engineering-mastering-complexity-fall-2014/3bca850386a3005c22134fa62fb3bad5_MITRES_6-011F14_art_insfin.pdf), provides a methodological anchor: dimensionless dependence can expose omitted physics while leaving an unknown coefficient or function. This changes :4.2-4.3 by making physical selection and the remaining unknown explicit. Its examples supply historical grounding rather than a complete current physics inventory.
 
@@ -1942,7 +1942,7 @@ The working question is how to construct a useful physical source when no ready 
 
 [Hangleiter, Carolan and Thebault, Analog Quantum Simulation (2022), sections 8.3.3-8.4](https://arxiv.org/pdf/2303.00814), distinguish the source apparatus, its mathematical description, the formal target and the physical target. Their analysis changes :4.4-4.5 by locating the premise needed for each inference. The general connection is reused from C.29.1 and C.29.3. Their validation discussion is applied according to the conclusion needed; a conditional hypothesis remains a useful result when a stronger target claim is unresolved.
 
-[Angelani (2016), section 2](https://arxiv.org/pdf/1601.04845), supplies a transparent transport-and-switching construction for the second worked case. His tumble events choose a new direction, whereas lambda here counts actual reversals; the rate convention is stated in the case. [Datta, Beta and Grossmann, version 3 of The random walk of intermittently self-propelled particles](https://arxiv.org/html/2406.15277v3), makes richer run/turn dynamics and waiting-time distributions available. Its section II supports the return when the simple switching assumption fails. The one-dimensional shuttle example is a constructed illustration, not a reproduction of those authors' apparatus or a complete active-matter model.
+[Angelani (2016), section 2](https://arxiv.org/pdf/1601.04845), supplies a transport-and-switching construction for the second worked case. His tumble events choose a new direction, whereas lambda here counts actual reversals; the rate convention is stated in the case. [Datta, Beta and Grossmann, version 3 of The random walk of intermittently self-propelled particles](https://arxiv.org/html/2406.15277v3), makes richer run/turn dynamics and waiting-time distributions available. Its section II supports the return when the simple switching assumption fails. The one-dimensional shuttle example is a constructed illustration, not a reproduction of those authors' apparatus or a complete active-matter model.
 
 The dimensional circuit construction and paired changed-condition uses are this publication's synthesis. Revisit a source choice when a new law, available mechanism or observed disagreement changes the correspondence or reveals a useful physical possibility. A new example alone leaves the general method unchanged.
 
