@@ -1576,7 +1576,7 @@ Copyright © Anatoly Levenchuk. The original framework text and worked examples 
 [FDM]: ../FINANCIAL-DOMAIN-MODELING-PRINCIPLES-FRAMEWORK.md
 [FIN6]: CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin6---value-capital-projects
 [EW]: ../../FPF-Spec.md#b15ew---recover-how-constituent-actions-enact-encompassing-work
-[IMA2019]: https://prodcm.imanet.org/-/media/IMA/Files/Home/Insights-and-Trends/Thought-Leadership/Strategic-Cost-Management/Developing-an-Effective-MC-Model_SMA.ashx
+[IMA2019]: https://mc-69e30ef4-758e-4371-ac6f-2657-cdn-endpoint.azureedge.net/-/media/IMA/Files/Home/Insights-and-Trends/Thought-Leadership/Strategic-Cost-Management/Developing-an-Effective-MC-Model_SMA.ashx?rev=dc68712007b94c7e87b94888fc2f07be
 [DUA]: ../../FPF-Spec.md#c11dua---make-advice-and-evidence-demands-worth-their-burden
 [MEAS]: ../../FPF-Spec.md#c16---measurement--metrics-characterization-mmchr
 [IAS2]: https://www.ifrs.org/issued-standards/list-of-standards/ias-2-inventories/
