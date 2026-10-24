@@ -5,7 +5,7 @@
 > A pattern language for constructing mathematical objects, operations and arguments, using their results, and developing the next useful question.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 20 September 2026
+- **Version:** 24 October 2026
 - **Status:** Eternal alpha: a growing repertoire of methods for mathematical work.
 - **License:** © 2026 Anatoly Levenchuk. Original framework text: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Cited sources retain their own terms.
 - **Publication:** [FPF Library repository](https://github.com/ailev/FPF)
@@ -218,7 +218,7 @@ For example, changing the order of a read and an update can preserve the final s
 
 A symbolic rewrite can be part of proving a lemma while that lemma's proof is part of proving a larger claim. The required domain constrains the rewrite at that same moment: cancelling a factor is permissible only under the relevant algebraic conditions, and excluding zero would change a claim that is meant to include it. Knowing the symbols and the theorem goal can leave the intermediate reasoning unavailable. Recover or obtain that reasoning rather than treat the smaller calculation as proof of the whole.
 
-FPF B.1.5.EW helps recover these constituent–whole connections; B.1.5.RS examines a proposed replacement. Use the parts of the vertical that can change the present result. A Method described here can require additional capability, available support and compatible resources at other grains.
+FPF B.1.5.EW helps recover these constituent–whole connections; B.1.5.RS examines a proposed replacement. Examine the constituent–whole relations that can change the present result. Carrying out a Method described here can require additional capability, available support and compatible resources for its constituent operations or for the larger work it contributes to.
 
 ## MATH.Reference:4 - Worked use - Choose a representation after the question changes
 
@@ -320,7 +320,7 @@ For developing a new question, MATH.23 combines Lakatos's proof-and-refutation m
 
 The symmetry bodies compare group-action constructions with equivariant output requirements and their obstructions. MATH.9's source account distinguishes compatible selection from the additional regularity questions studied in geometric learning. MATH.10 and MATH.13 retain the separate assumptions for variation, physical conservation and numerical evolution. Return to their source comparisons when one of those stronger conclusions matters.
 
-For invariants, [Bayarmagnai, Mohammadi and Prébet](https://arxiv.org/html/2412.14043v2) supplies a constructive comparison with polynomial-loop methods. MATH.11 uses unknown coefficients and preservation equations at their stated scope. A global polynomial identity is one useful result; a restricted-state question can call for a different construction. The finite-state countercase shows when a cheaper check is sufficient.
+For invariants, [Bayarmagnai, Mohammadi and Prébet](https://arxiv.org/html/2412.14043v2) supply a constructive comparison with polynomial-loop methods. MATH.11 uses unknown coefficients and preservation equations at their stated scope. A global polynomial identity is one useful result; a restricted-state question can call for a different construction. The finite-state countercase shows when a cheaper check is sufficient.
 
 These sources play different roles. Established mathematics supplies definitions and arguments; maintained formal libraries and current research expose further constructions, limits and implementation choices. A publication date alone does not make one answer replace another. Revisit a choice when the receiving question changes, a relied-on assumption fails, or another method obtains a more useful result at acceptable cost. The individual bodies keep the operative source passages and the conditions of that comparison.
 
@@ -928,7 +928,6 @@ The construction also favors retaining history. This is useful while the role of
 - Does the returned path retain the detail required by its next use? If only a cost, length or class is returned, is that sufficient for the receiving question?
 - When a connection fails, is the missing or incompatible endpoint recoverable without inventing an available generator?
 
-These questions assess the construction in use. They do not require a separate record for each path.
 
 ### MATH.1:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -952,7 +951,7 @@ Generating first and identifying later separates two mathematical decisions: whi
 
 The empty path and endpoint conditions make composition uniform. An already completed segment can be treated like an elementary arrow in a larger composition. This is why the same construction supports words, typed transformations and possible routes through a process.
 
-A concrete transformation structure can be more economical when only its resulting transformations matter. Paths earn their additional detail when the sequence, its formation conditions or its later reinterpretation affects the answer. The examples expose both uses: one generator is recoverable from length, while two generators can lose consequential order.
+A concrete transformation structure can be more economical when only its resulting transformations matter. Paths earn their additional detail when the sequence, its formation conditions or its later reinterpretation affects the answer. The examples expose both uses: with one object and one generating loop, length determines the path; adding a second loop permits paths of equal length with different orders.
 
 This method constructs a particular mathematical structure. FPF B.5.RC helps recover a construction already described, and C.29 helps relate a mathematical structure to another subject. Their results can be used before or after this construction.
 
@@ -2628,7 +2627,7 @@ Return the assumptions that survived, the failed consequence, and the constructi
 
 A repair is a new mathematical question. Restrict the domain, strengthen a justified premise, weaken the requested conclusion, or change the construction according to what the receiving work needs. Establish the revised claim on that scope; merely excluding the exhibited case can leave other failures.
 
-Use B.5.RR to follow the effect through an existing argument. Use MATH.2 or MATH.5 when the affected step forms classes or interprets generating operations. Stop once the countermodel and its intended consequence are usable. No separate report form is needed for an ordinary calculation.
+Use B.5.RR to follow the effect through an existing argument. Use MATH.2 or MATH.5 when the affected step forms classes or interprets generating operations. Stop once the countermodel and its intended consequence are usable.
 
 ### MATH.6:5 - Archetypal Grounding
 
@@ -3371,7 +3370,7 @@ A conserved-looking scalar can also invite the wrong inference from equivariance
 
 ### MATH.13:8 - Common Anti-Patterns and How to Avoid Them
 
-| Text-invited mistake | Repair |
+| Mistake | Repair |
 | --- | --- |
 | Swap components but ignore their different costs. | Apply the transformation to the complete criterion and identify whether the data remain fixed. |
 | Infer a symmetric individual solution from a symmetric solution set. | Establish uniqueness or retain the whole transformed family of solutions. |
@@ -4055,7 +4054,7 @@ For a search procedure, separate a failure to find a better local move from a pr
 
 ### MATH.10:8 - Common Anti-Patterns and How to Avoid Them
 
-| Observed or text-invited mistake | Repair |
+| Mistake | Repair |
 | --- | --- |
 | Vary each allocation independently while retaining a fixed-total claim. | Couple the changes so the total remains fixed and derive their allowed range. |
 | Use a tangent displacement as a finite feasible move on a curved constraint. | Construct a feasible curve or retain only the first-order conclusion supported by the tangent argument. |
@@ -4573,7 +4572,7 @@ Choose an ingredient whose change could affect the wanted relation. Useful mathe
 | The result survives a change of representation. | Construct the interpretation and ask which assertions, operations and equalities it preserves. |
 | An approximation supports a limiting claim. | State the order of its quantifiers and ask which operations or properties survive the limit. |
 
-These are possible operations, not required stages. Choose the one selected by the construction. MATH.8/.11/.13 supplies symmetry or invariant reasoning; MATH.18 supplies interpretations; MATH.22 develops changed assumptions. Use their fuller methods when that mathematical contribution is needed.
+These are possible operations, not required stages. Choose the one selected by the construction. MATH.8, MATH.11 and MATH.13 supply symmetry or invariant reasoning; MATH.18 supplies interpretations; MATH.22 develops changed assumptions. Use their fuller methods when that mathematical contribution is needed.
 
 Keep the original use visible. Requiring equal-sized groups repairs a mean-of-means formula, but leaves a request about arbitrary groups unanswered. The latter needs another construction, as in :5.2.
 
