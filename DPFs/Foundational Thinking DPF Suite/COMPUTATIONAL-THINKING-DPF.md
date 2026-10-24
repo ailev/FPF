@@ -5,12 +5,12 @@
 > A pattern language for constructing, understanding, analyzing and transforming algorithms, including their interpretation and interaction.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 14 October 2026
+- **Version:** 24 October 2026
 - **Status:** Eternal alpha: a repertoire open to correction and extension.
 - **License:** © 2026 Anatoly Levenchuk. Original framework text: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Cited sources retain their own terms.
 - **Publication:** [FPF Library repository](https://github.com/ailev/FPF)
 
-Computational Thinking here means algorithmics within computer science. Begin with a question about how to obtain an answer, maintain a required behavior, or change a procedure. Use the Table of Contents to find a relevant method, then open its Problem frame, Solution, worked cases and checklist. The Readme follows worked connections between methods; the Architectural Reference explains their rationale, prerequisites and limits.
+Computational Thinking here means algorithmics within computer science: reasoning about effective ways to obtain and transform representations and to maintain required behavior. Begin with what the work needs to obtain or do, even when no algorithmic problem has yet been recognized. The Readme shows how to enter that inquiry. The Architectural Reference explains computation, its grounds, and how the methods work together; the Table of Contents gives direct entries to their complete constructions. A description can itself be an input to an interpreter, translator, analyzer or learner. A useful computation can return an answer or continue responding to an environment.
 
 The reference code **CMP** names this DPF. Its numbers are stable pattern addresses; § shows position within a Part. Numerical algorithms are one application alongside symbolic, discrete, randomized and learning procedures. A computing device enters when its operations or physical limits matter to the algorithm or its realization.
 
@@ -27,6 +27,12 @@ To cite this edition: Anatoly Levenchuk, *Computational Thinking DPF*, [FPF Libr
 | Readme | [Computational Thinking - Readme](#computational-thinking---readme) | Follow worked connections between algorithmic methods. |
 | Architectural Reference | [Computational Thinking DPF Architectural Reference](#computational-thinking-dpf-architectural-reference) | Understand the connected methods, their rationale, sources and limits. |
 | CMP.Reference:1 | [Problem frame and the algorithmic difficulty](#cmpreference1---problem-frame-and-the-algorithmic-difficulty) |  |
+| CMP.Reference:1.1 | [A description specifies a family of possible processes](#cmpreference11---a-description-specifies-a-family-of-possible-processes) |  |
+| CMP.Reference:1.2 | [Mathematical, physical and algorithmic grounds cooperate](#cmpreference12---mathematical-physical-and-algorithmic-grounds-cooperate) |  |
+| CMP.Reference:1.3 | [Build a whole, introduce a level, and generalize deliberately](#cmpreference13---build-a-whole-introduce-a-level-and-generalize-deliberately) |  |
+| CMP.Reference:1.4 | [Descriptions can be computed with, and ways can be obtained](#cmpreference14---descriptions-can-be-computed-with-and-ways-can-be-obtained) |  |
+| CMP.Reference:1.5 | [A computation can be part of a larger computational practice](#cmpreference15---a-computation-can-be-part-of-a-larger-computational-practice) |  |
+| CMP.Reference:1.6 | [Use the grounds to choose and revise a method](#cmpreference16---use-the-grounds-to-choose-and-revise-a-method) |  |
 | CMP.Reference:2 | [Forces that shape the construction](#cmpreference2---forces-that-shape-the-construction) |  |
 | CMP.Reference:3 | [The methods and their connections](#cmpreference3---the-methods-and-their-connections) |  |
 | CMP.Reference:3.1 | [Construct an algorithm](#cmpreference31---construct-an-algorithm) |  |
@@ -67,18 +73,41 @@ To cite this edition: Anatoly Levenchuk, *Computational Thinking DPF*, [FPF Libr
 | 2 | [CMP.13 - Construct a Computational Abstraction for the Property Being Asked](#cmp13---construct-a-computational-abstraction-for-the-property-being-asked) | Stable | abstract interpretation; reachable states; sound approximation; fixed point; refinement. Which cheaper computation supports this property, and can its counterexample occur? | MATH.2/.18 for identification and interpretation; CMP.3/.4 for scheduling and exploration. |
 | 3 | [CMP.14 - Compose Interacting Computations through Their Required Observations](#cmp14---compose-interacting-computations-through-their-required-observations) | Stable | concurrent algorithm; shared state; protocol; atomicity; interference; progress. Which interactions preserve the required whole behavior? | CMP.3/.10/.12 for dependencies, representation and semantics; C.29.3 for implementation assumptions. |
 | 4 | [CMP.15 - Compose Independent Extensions of Data Variants and Operations](#cmp15---compose-independent-extensions-of-data-variants-and-operations) | Stable | expression problem; independent extension; data variants; operations; open recursion; joining implementation; dispatch; separate compilation. How can separately added forms and operations work together without changing old modules? | CMP.12 for interpretation; CMP.14 when interactions change observations; NOT.2 and NOT.3 for new expression structure and meaning. |
+| 5 | [CMP.16 - Construct Computational Units and Operations for a Required Whole](#cmp16---construct-computational-units-and-operations-for-a-required-whole) | Stable | computational abstraction; units and operations; constructors; invariant; closure; refinement; composition. How can the units and allowed operations be changed together so that the required whole can be obtained and justified? | C.29.2 for the computational question; MATH.17/.18 for composition and interpretation; CMP.2/.10/.12/.14 for recursive construction, storage, execution meaning and interaction. |
 
 # Computational Thinking - Readme
 
 ## Practical entries
 
-Bring an algorithmic difficulty: how to construct a procedure, preserve its meaning, or make its operations affordable. Computational Thinking concerns the methods of computer science used to answer those questions. Numerical computation is one application alongside symbolic processing, search, program analysis and interacting procedures.
+Bring a need to obtain something, distinguish alternatives, maintain a response or change the way work is done. The computational question is how available operations could produce the required observations across the intended cases. The operations, representation and organization may themselves need to be invented. A mathematical description of the desired answer, a working device and one successful execution each leave different questions open.
+
+Think of a computational description as a way of specifying a family of possible processes. Inputs, retained state, primitive operations and interactions determine which processes can occur; an interpretation says what their observations mean. The description can then be implemented, analyzed, transformed or supplied as data to another computation. This view includes numerical and symbolic work, search and learning, and ongoing interaction. It lets you change the way a result is obtained instead of only executing an existing recipe faster.
+
+If the computational question is not yet clear, use FPF C.29.2 to connect the receiving need to represented information, required observations, available operations and resources. Then follow the difficulty that the formulation exposes. An adequate known algorithm can finish the inquiry. A missing way to assemble useful operations may need [CMP.16](#cmp16---construct-computational-units-and-operations-for-a-required-whole); a missing argument or an unavailable physical operation may need a different supplier. CMP.Reference:1 explains these grounds and their consequences before the method-family map in :3.
 
 The examples below show how one method's result makes another method usable, including where to branch or return when a condition changes. They are selected uses of the pattern language, not a catalogue or a prescribed workflow. Use the Table of Contents and the patterns' own `Use this when` and `Problem frame` for other questions. Open only the contributions the question needs; a sufficient existing answer does not require a new analysis.
 
 For inexpensive direct help, [CMP.10 - Choose a Computational Representation for Its Access and Update Operations](#cmp10---choose-a-computational-representation-for-its-access-and-update-operations) can settle how to make one membership query in an existing unsorted list: a scan may suffice, with no new index to build. Many later queries or a different update workload can change that choice.
 
 You can ask an assisting agent: “Explain this and give me your comments in the language of my work, without framework jargon.” Ask it to follow an input through the proposed operations, retain the assumptions needed by the next method, and explain what the result permits.
+
+### CP-DESCRIPTION-TO-BEHAVIOR - A notification rule becomes an ongoing service
+
+- **Situation:** You want messages from a named sender to trigger an immediate notification, while other messages wait for a later digest. A rule can be stated, but that statement does not yet define the behavior of the service.
+- **Question:** What information and operations make the rule executable, and which changes require another computational organization?
+- **First useful result or blocker:** An executable rule connected to its message and notification operations, with explicit conditions on identity, repetition and timeliness, or the unavailable information or operation that prevents that behavior.
+- **Start with:** C.29.2 for the computational question. Use [CMP.16](#cmp16---construct-computational-units-and-operations-for-a-required-whole) if the units and operations still need construction; use [CMP.12](#cmp12---construct-an-interpreter-or-a-meaning-preserving-translation) when a rule description needs interpretation. A known adequate implementation can be used directly.
+- **Stop or return:** Stop when the required behavior is available with adequate grounds. A different source of messages, required observation or failure condition reopens its dependent construction, rather than automatically requiring every method below.
+
+Start with an admitted event containing a sender identifier, message identifier and content. Suppose sender identity is supplied reliably, events arrive once in order, and a notification operation is available. An interpreter can read a description such as `If(SenderIs(Vasya), Notify, AddToDigest)`: test the supplied identifier and perform the selected action. CMP.12 derives the meaning of those constructors and their composition. Defining the description as data also permits a later tool to translate or analyze rules. It does not make arbitrary natural-language instructions unambiguous.
+
+The word *immediate* introduces a further obligation. Decide whether the receiver needs an eventual response, a bound after receipt, or a bound after the message was sent. The last bound also depends on message transport. An interpreter that selects the correct action does not establish any of these timing guarantees by itself. C.29.3 connects computational operations to an actual executor and readout; the receiving work supplies the useful deadline and the consequences of missing it.
+
+Now the transport may repeat a message. Re-executing `Notify` can duplicate an external effect, even if rule evaluation is a pure function. A message identifier and retained delivery state can support a changed operation, but recording before or after sending leaves different crash cases. CMP.14 develops the interaction and failure conditions; the Readme's retry case below shows why a repeated logical request needs a different argument from a cached function result. CMP.10 helps select storage only after the required identity and retention conditions are known. Deleting delivery state after an arbitrary interval cannot preserve a promise covering later repetitions.
+
+If messages must instead be classified by urgency inferred from content, the known sender test no longer supplies the decision rule. CMP.7 constructs the learner, its candidate rule family, feedback and conditions of further use; CMP.4 or CMP.6 can supply its search or update. Better training fit does not establish the future error rate, and classifier quality does not establish delivery behavior. A change to inference can therefore preserve the notification protocol while reopening the evidence for classification.
+
+This one use can involve an interpreted description, learned behavior and an interacting realization without making all three compulsory. Their connection follows from what the service must do and what its environment supplies. The full methods explain the respective constructions; this entry shows why changing a condition selects a different one.
 
 ### CP-INDEPENDENT-EXTENSIONS - A new data form and a new operation must work together
 
@@ -158,15 +187,67 @@ Finally, keep the response question separate. Avoiding repeated effects does not
 
 ## CMP.Reference:1 - Problem frame and the algorithmic difficulty
 
-Use this language when you need to construct, understand, analyze or change an algorithm. The work can concern a finite answer, a continuing response, a learning rule, or several processes whose interaction matters. A practitioner may be designing the procedure, reviewing one produced by an AI agent, explaining why it works, or deciding how to divide the work among implementations and performers.
+Use this language when you need to obtain, understand, analyze or change an effective way of computing. The work can concern a finite answer, a continuing response, a learning rule, or several processes whose interaction matters. A practitioner may design the way, inspect one proposed by an AI agent, explain its grounds, or change the division of computation among descriptions, implementations and performers. The first difficulty can precede a recognizable algorithm: what should count as an input, an operation, a state or a useful observation is still open.
 
-A mathematical definition can specify the desired object while leaving its obtaining procedure unknown. An algorithm can compute the right value on a small input yet require unaffordable resources on the intended inputs. A program can work in isolation while changing its neighbors' observations when used in a larger computation. These are different difficulties; their remedies can need different mathematical constructions and execution assumptions.
+The domain is algorithmics within computer science. Its connected subject is effective computation: how descriptions and operations generate possible processes, how those processes obtain meaningful results, how computational ways can themselves be obtained and changed, and what limits their use. A repertoire of named algorithms supplies examples and reusable means; it does not replace this subject. The field is also narrower than every question about computers or human thought. A physical mechanism, an organizational responsibility and a subject model need their own explanations when the computational account depends on them.
 
-The domain here is algorithmics within computer science. The methods concern effective operations, their composition, representations, meaning, correctness, termination, continuing progress and resource requirements. Symbolic manipulation, discrete search, numerical approximation, sampling and learning are branches in which those questions arise. Their worked cases show how to use a method; they supply no universal requirement to know a particular physical theory or programming technology.
+### CMP.Reference:1.1 - A description specifies a family of possible processes
 
-Start with elementary algorithmic reasoning: inputs, operations, retained state, outputs and the ability to follow a short procedure. Individual bodies introduce their additional constructions. Recursion uses induction and a progress relation; randomized methods need the relevant probability account; a numerical update can require derivatives or an error bound. A concurrency question needs the proposed shared operations and scheduling assumptions. Obtain a missing contribution or learn it through a suitable example before relying on the result that uses it.
+Distinguish a computational description from an execution. A description gives rules for operations, choices, state change and interaction under a computational model. An execution is one process admitted by those rules with particular inputs and environmental behavior. The same finite description can admit indefinitely many inputs and executions. It can describe a calculation that returns, a generator that yields further values, or a service that remains available for events. A nondeterministic schedule or random choice can admit several executions even for one input.
 
-Use a known adequate algorithm directly when there is no construction or interpretation difficulty. If the unsettled question is what the subject model means, return to mathematical modeling. If it concerns whether a machine supplies the required operations, timing or physical resources, connect the algorithmic requirements to physical realization. These returns let the relevant specialist or agent work on the missing contribution.
+This distinction makes an algorithmic guarantee possible and limits it. A guarantee concerns an admitted family, not just the trace that was inspected. One test can expose a counterexample; a general claim needs an argument appropriate to that family. Conversely, a failure outside the admitted conditions does not establish a failure within them, although it may show that the conditions do not serve the actual work. CMP.1 transfers obtainability or a limit only through its justified conversion; CMP.11 derives a resource limit from what every allowed computation must distinguish.
+
+An effective operation is available at a stated level. Comparing two bounded words, evaluating a supplied function, requesting a remote result and choosing a mathematically existing witness are not interchangeable primitives. If a needed operation is missing, its name is a construction obligation. Another algorithm may implement it, a physical system may supply it under qualified conditions, or no suitable means may yet be known. C.29.2 develops that formulation and returns to it when the proposed operations do not obtain the required answer.
+
+The recipient determines the relevant observations. A final number can suffice for one calculation. Another use needs an attaining object, the order of emitted events, an error, an exception, termination, or continued responsiveness. An abstract step can correspond to several implementation steps, but a correspondence that ignores visible intermediate behavior can fail in an interacting context. CMP.12 develops the execution meaning; CMP.14 handles consequential interaction. Keeping those observations explicit prevents a successful value calculation from being mistaken for the required whole behavior.
+
+### CMP.Reference:1.2 - Mathematical, physical and algorithmic grounds cooperate
+
+Mathematical thinking constructs objects, operations and relations, and establishes consequences under assumptions. It includes synthesis and constructive proof, not only checking a finished proposal. A definition or existence proof can nevertheless leave an effective obtaining operation unspecified. MATH.4 and MATH.12 supply constructive arguments; CMP.2 uses such arguments to obtain base cases, recursive questions and a sufficient join. The computational contribution includes whether the stated choices can be carried out and what their unfolding costs.
+
+Physical thinking investigates possible and actual processes, the interactions and conditions that produce them, and the observations that support or challenge an account. It too constructs explanations and arrangements. A device's physical evolution becomes a realization of a computation only through a justified relation among preparation, evolution and interpreted readout. C.29.3 develops this relation. A formal instruction to perform an indivisible update does not establish that a particular device or service supplies it; a fast measured response does not establish all of the algorithm's permitted behaviors.
+
+Algorithmic thinking concentrates on effective organization: which operations obtain the wanted observations, how their composition and interpretation work, which ways can be generated or transformed, and how information and resource conditions constrain the result. Its arguments can be mathematical, and its implementations physical. These are overlapping contributions with different questions, not exclusive professions or three competing standards of truth.
+
+For example, a mathematical account can prove that a composed operation preserves a quantity. The algorithmic account must obtain that operation from available steps, cover its admitted inputs and account for progress and cost. A physical account must establish that the prepared arrangement supplies those steps and observations at the intended scale. A changed arithmetic primitive, communication delay or observable event can invalidate one connection while leaving the other arguments useful. B.5.MPC coordinates the contributions; C.29 connects the modeled result to the subject work that will use it.
+
+### CMP.Reference:1.3 - Build a whole, introduce a level, and generalize deliberately
+
+Decomposition proposes parts whose results might help. Synthesis constructs their connection so that the required whole is obtained. Ask both directions: what does the whole require from each contribution, and what can the available contributions actually produce together? A set of individually correct components can lose a needed distinction at their join or rely on incompatible states, observations or progress conditions. CMP.2 develops this question for recursive answers; CMP.14 for interacting computations; CMP.15 for independently extended forms and operations. These are different constructions, not instances of an automatic rule that good parts make a good whole.
+
+Abstraction establishes a useful level of objects and operations. The level retains distinctions needed by its uses while hiding how those operations are obtained below it. It can introduce a compound unit and new operations rather than merely remove detail. A queue, an expression with binding and a summary of a sequence have different useful operations; none is selected just by counting stored fields. [CMP.16](#cmp16---construct-computational-units-and-operations-for-a-required-whole) develops the joint construction of units, admissible operations and their whole behavior. CMP.10 can then compare stored representations for those operations. CMP.13 has a distinct purpose: a cheaper analysis that soundly approximates the behavior being investigated. An analysis may deliberately admit extra possibilities; a replacement implementation must preserve the observations its users rely on.
+
+Generalization extends the claim to a family of cases on a stated ground. An invariant, structural argument or qualified statistical account can support such an extension; a broader name or another successful example cannot. If a chunk summary combines correctly for every admitted pair, induction can establish its use for every finite assembly. This still leaves out a new observation that the summary discarded. If an interaction argument assumes one writer, adding writers changes a premise rather than simply making the old example larger. CMP.7 develops the separate statistical question of further use of a learned rule.
+
+Levels can be nested: an operation treated as elementary in one algorithm may be a composite algorithm at another level; an interpreter can itself be interpreted. Composition, generalization and abstraction remain different relations. An implementation is not a smaller subtype of its specification, and representing something does not make that thing a part of the representation. Keep the relation that supports the particular inference instead of using one hierarchy for all of them.
+
+### CMP.Reference:1.4 - Descriptions can be computed with, and ways can be obtained
+
+A computational description can be represented as data. An interpreter executes its rules; a translator produces another description; an analyzer obtains a claim about possible executions. These are different results. CMP.12 constructs interpretation and meaning-preserving translation, while CMP.13 constructs a sound approximation for an analysis question. Binding, state, control and the chosen observations determine their connection. Calling a text a program supplies none of those rules by itself.
+
+This enables more than repeated execution. A search can explore descriptions of candidate algorithms, and a learner can obtain a rule from examples or feedback. The outer computation needs an effective candidate representation, ways to propose or change candidates, and a criterion it can actually evaluate. The resulting rule has another use with its own inputs and consequences. CMP.4 supplies justified search exclusions; CMP.6 develops updates from local information; CMP.7 connects the learner, its selected rule and further use. A good update is one contribution to a learner, not a guarantee about every later prediction or action. The Suite Reference's §3.10 develops this connection for learned controllers and changing computational organizations.
+
+Universal execution, approximation, learning and practical accessibility answer different questions. A universal interpreter can simulate the computations expressible in its admitted model; that claim does not supply a solver for every stated problem or a favorable runtime. An approximation theorem can establish that a representation of sufficient quality exists while leaving its size and obtaining procedure unsettled. A learner's useful generalization depends on restrictions and evidence connecting observed and future cases. A physically available arrangement adds its own preparation, accuracy, energy, storage and communication conditions. Do not use any one of these claims as a substitute for the others.
+
+General search and learning can reduce the amount of case-specific behavior that people must prescribe. They still embody choices of representation, feedback, interaction and resources. More computation can improve a result only through a way that can use it; it cannot recover information absent from the available observations or validate an unrelated objective. A failed attempt can therefore call for another algorithm, another representation, a better source of evidence or a changed useful question. It need not call for a larger run of the same method.
+
+### CMP.Reference:1.5 - A computation can be part of a larger computational practice
+
+Reasoning about one algorithm can isolate its input, operations and result. Reasoning about many computations must also explain their dependencies, communication, effects and joint progress. Development by several contributors introduces another question: what independently supplied descriptions and implementations can be combined without leaving a semantic case missing? CMP.14 addresses interacting execution; CMP.15 addresses independent extension. Multiple authors do not necessarily imply concurrent execution, and multiple executing processes do not establish independent development.
+
+People, machines and groups can supply computational contributions when the corresponding operations, interpretation and support are established. A person following a rule, an AI proposing a description, and a machine running that description make different contributions. No general equivalence of their capabilities follows. The preparation needed to learn a method, access a performer or maintain a working arrangement remains part of the receiving practice; a description's availability does not supply it. Core's Method-development and provision methods handle those questions when they matter.
+
+Algorithmics forms a connected discipline because its knowledge constrains its reusable practice and the results of practice can challenge that knowledge's application. An invariant determines permissible composition; a counterexample can expose an inadequate observation or a false preservation claim; measured costs can challenge a cost model; new algorithms can change what is practically obtainable. A method replacement preserves the field's central inquiry when these connections remain, even if the repertoire changes. Adding unrelated computer topics under one title would not supply that connection. Likewise, use of a mathematical or physical result does not by itself make one discipline a constituent of another; an actual larger assembly needs an explanation of what their connection makes possible.
+
+### CMP.Reference:1.6 - Use the grounds to choose and revise a method
+
+Start with elementary preparation: following operations on inputs and retained state, recognizing an observation, and distinguishing one execution from the intended family. Individual methods supply additional constructions. Recursion needs a progress relation and an inductive argument; randomization needs a probability account; a numerical update can need variation and error bounds. Obtain a missing contribution through its full supplier before relying on the result it supports. Familiarity with a method's name is not that preparation.
+
+Follow the actual missing relation. If the answer can be recovered from another solver, CMP.1 can close the need. If joining smaller answers fails, CMP.2 changes what they return. If the available units and operations make the whole awkward or unobtainable, CMP.16 constructs another organization. If repeated work dominates, CMP.3 asks what can be shared; if operations are expensive because of storage, CMP.10 changes the representation. These choices follow from the problem exposed by the common account, not from the order of the Parts.
+
+A resource limit can reopen the answer condition and select approximation or sampling through CMP.8 or CMP.9. A semantic mismatch calls for CMP.12 or the subject interpretation, not merely more computation. A failed shared history calls for CMP.14. A learned rule failing on new cases returns to the conditions of CMP.7; a noisy proposed update can remain unresolved under CMP.6 rather than being declared an improvement. When a required guarantee is impossible in the chosen model, CMP.1 or CMP.11 can justify changing the model, obtaining information or negotiating another result instead of repeatedly searching for the same guarantee.
+
+Bring the local answer back to the whole. Determine whether it supplies the receiving operation under the same meaning, observations and resource conditions. Preserve the constructions whose premises remain valid; revise the affected connection or boundary when they do not. The result can be a complete computation, a useful qualified contribution, or a precise missing operation. Use a known adequate way directly when no further construction, interpretation or assurance would change the work's continuation.
 
 ## CMP.Reference:2 - Forces that shape the construction
 
@@ -179,9 +260,11 @@ Use a known adequate algorithm directly when there is no construction or interpr
 | Useful results under uncertainty | A conditional answer, bound or heuristic candidate can be enough; stronger assurance should change the receiving choice enough to repay its cost. |
 | Reuse in a changed setting | A different primitive, observation, input promise or interaction can invalidate a formerly correct construction. |
 
-C.29.2 in FPF supplies the computational formulation: what is represented, what answer is required and which operations and resources are available. C.11.DUA helps choose how much additional inquiry or assurance the work warrants. The CMP methods construct the algorithmic contribution needed under that formulation. They do not require a proof or benchmark that cannot change the next useful action.
+C.29.2 in FPF supplies the computational formulation: what is represented, what answer is required and which operations and resources are available. C.11.DUA helps choose how much additional inquiry or assurance the work warrants. The CMP methods construct the algorithmic contribution needed under that formulation and can expose a reason to revise it. A changed unit, observation or available operation returns to the formulation rather than silently retaining its old answer claim. They do not require a proof or benchmark that cannot change the next useful action.
 
 ## CMP.Reference:3 - The methods and their connections
+
+The grounds in §1 explain why these methods belong together. Their connections depend on the result being constructed, not on every method being used. In particular, a change to what counts as an operation can alter a cost bound, an interpretation and a composition argument together. CMP.16 develops that constructive change; the other methods supply the specific obtaining, analysis and interaction contributions it can require.
 
 ### CMP.Reference:3.1 - Construct an algorithm
 
@@ -204,6 +287,8 @@ These methods can change the construction in Part A. A prohibitive shared table 
 [CMP.12](#cmp12---construct-an-interpreter-or-a-meaning-preserving-translation) constructs an evaluator or a translation by specifying expression meaning, binding, primitive operations and control. The preservation relation follows what the receiving computation can observe. [CMP.13](#cmp13---construct-a-computational-abstraction-for-the-property-being-asked) constructs a cheaper abstract computation for a selected property, with operations that justify its conclusions and a way to reconstruct or refine an apparent counterexample. [CMP.14](#cmp14---compose-interacting-computations-through-their-required-observations) constructs the shared-state or communication behavior needed when computations interact, including the assumptions under which progress follows.
 
 [CMP.15](#cmp15---compose-independent-extensions-of-data-variants-and-operations) applies when independently added data variants and operations must work together. It supplies the required combinations, explicit joining implementations, recursive binding and preservation conditions. Use CMP.12 to derive an interpretation that a joining body still needs; use CMP.14 when shared state or changing visible methods introduces interaction. An adequate closed interpreter can remain unchanged when independent extension is unnecessary.
+
+[CMP.16](#cmp16---construct-computational-units-and-operations-for-a-required-whole) constructs units and admissible operations from the required whole behavior. It tests a proposed assembly, changes the information or protocol at a failed join, and connects the resulting abstraction to its implementation. Its result can supply the operations assumed by a recurrence, a representation choice or an interpreter. CMP.13 instead constructs an approximate analysis of a given computation; CMP.14 establishes the joint behavior when the new operations interact. The methods can cooperate without supplying the same result.
 
 The returned operations can themselves become objects of further work: an algorithm can interpret another algorithm's description, a translator can transform it, and an abstract procedure can inspect its possible behavior. Mathematical Thinking supplies constructions of operations and interpretations. CMP adds effective execution and its consequences under the chosen computational model.
 
@@ -282,6 +367,10 @@ Notations and methods of work also matter. An expression can hide binding or eva
 
 This arrangement permits several routes and several performers. An AI agent can propose code, a specialist can supply a bound and another procedure can check a property. Their contribution remains usable only with the meaning and conditions its receiver needs. A new source or capability can change one construction and the affected connections without replacing the whole language. An unsupported operation becomes a useful next inquiry when resolving it could change what the work can do.
 
+The broad account and the local bodies have different jobs. The account explains why execution meaning, construction, learning, composition and limits constrain one another. A body's complete method obtains a particular contribution. Neither can substitute for the other: a field-level assertion does not provide a missing join, while a set of correct local procedures can leave the receiving whole unavailable. CMP.16 gives one constructive return from a whole requirement to the units and operations that make it possible; it is not a compulsory controller for all uses of this language.
+
+This arrangement preserves ordinary direct use and substantial synthesis. A reader can solve one membership query without studying every branch, or develop a new interacting computational way whose semantic, mathematical and physical dependencies require several full contributions. The explanation should support both grains without turning the easier entry into the boundary of algorithmics.
+
 ## CMP.Reference:7 - Shared sources, alternatives and relations
 
 Erickson's [algorithm construction material](https://jeffe.cs.illinois.edu/teaching/algorithms/) and Morin's [Open Data Structures](https://opendatastructures.org/) support the connection between a problem, its representations, a constructed procedure and its argument. The bodies retain explicit conversions, recurrences and operation costs. Direct use of a known algorithm remains preferable when constructing another one adds no needed capability.
@@ -293,6 +382,12 @@ The approximation and learning sources cited in CMP.5-.9 connect a deliberately 
 Lamport's [A Science of Concurrent Programs](https://lamport.azurewebsites.net/tla/science-book.html) and the composition, memory and crash studies discussed in CMP.14 support its separation of observable behavior, permitted interaction and progress. Sequential composition is cheaper when interference is absent. More detailed composition arguments earn their place when shared observations or failures change what the whole computation can do. Each body gives the adopted contribution, serious alternative and conditions that would reopen its selection.
 
 The [Suite Reference (Foundational)](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) locates the related publications and explains their shared architecture. C.29.2 supplies computational formulation; C.29.3 physical realization; C.29.1 the transfer between mathematical accounts; C.29 the model-to-subject correspondence. B.5's inquiry methods support the next question when a limit or failure makes the old one insufficient. Notational Engineering supplies methods of expression design as those contributions become available; the operative rules stated in CMP remain usable without an unwritten supplier.
+
+Wing's [2008 account of computational thinking](https://www.cs.cmu.edu/~CompThink/papers/Wing08a.pdf) is a historical foundation for relating abstraction, its levels and automation beyond one programming notation. Here that relation is developed through explicit operations, interpretation and conditions of use. [SICP's elementary language account](https://sicp.sourceacademy.org/chapters/1.1.html) and [data-abstraction barriers](https://sicp.sourceacademy.org/chapters/2.1.2.html) give historical constructive foundations: primitive means, combination and named abstractions support changes at different levels. CMP.16 develops a construction problem that needs those connections, while CMP.12 supplies interpretation of descriptions themselves.
+
+Cybenko's [1989 approximation theorem](https://papers.baulab.info/papers/Cybenko-1989.pdf) illustrates a necessary boundary. Its stated approximation conditions and existence result do not provide a training algorithm or a feasible network size; the paper separately identifies constructive and resource questions. Sutton's [2019 historical argument about general search and learning](http://incompleteideas.net/IncIdeas/BitterLesson.html) motivates methods that can exploit additional computation rather than prescribing every domain answer. It is not a theorem that one learner dominates on every data source. CMP.7 keeps the representation, evidence and further-use conditions that a practical learning claim needs.
+
+These foundations do not make the repertoire exhaustive. A specialized algorithm, physical realization or learning result can remain external while supplying a consequential operation. Reopen the affected account when such a result changes an obtainable answer, a justified limit or the useful organization of the computation; do not confuse a historical anchor with a current universal performance claim.
 
 The three Parts group the presentation. The bodies form a repertoire of related Methods, usable individually or in combinations selected for the question. A particular connected use can describe a composite way of working, but membership in this publication alone does not make every method a mandatory step of that work.
 
@@ -1317,7 +1412,45 @@ This derives a finite descent step from a bound on the local model's error. When
 
 For constrained problems, use an admissible parameterization, projection or other constraint-preserving update. Reestablish the progress account for that update. Simply clipping a coordinate can change the original unconstrained argument.
 
-With noisy feedback, distinguish realized change from a conditional or expected improvement claim. Repeating a measurement or taking a larger sample is useful only when the additional information changes the step or its warranted use. A deterministic monotone-descent statement cannot be inferred from a noisy sign alone.
+With noisy feedback, first choose what the next action must establish. A comparison of two fixed candidates can support accepting a particular change; a noisy direction can instead support progress in expectation over a sequence. These require different constructions. Repeating a measurement or taking a larger sample is useful only when the additional information changes the step or its warranted use. A deterministic monotone-descent statement cannot be inferred from a noisy sign alone.
+
+##### CMP.6:4.3.1 - Decide a proposed change from uncertain comparisons
+
+For minimization, fix the current candidate x and one admissible proposal y while collecting evidence about `Delta=J(y)-J(x)`. Construct observations whose mean is that difference. For example, if `J(x)=E[l(x,Z)]` and both candidates can be evaluated on a fresh case Z, use `Y=l(y,Z)-l(x,Z)`. This paired difference retains the same target; its variance can differ from that of two independently estimated means. An observation of only the chosen action's consequence does not supply the unchosen value: obtain a compatible observation or estimation procedure before using this construction. MMP.7 supplies a missing account of the observation law.
+
+Use CMP.9 to obtain an interval `[a_n,b_n]` for Delta with the error guarantee needed by the decision. For a fixed sample count, use its fixed-count construction. For repeated inspection, use its simultaneous intervals or another bound valid at the chosen stopping time. Known bounds on Y, independence and a stable target are conditions of that particular construction, not conclusions obtained from the sample itself.
+
+Choose a useful decrease threshold tau >= 0 before inspecting the comparison. Accept y when `b_n < -tau`; on the interval's coverage event, this establishes `J(y)<J(x)-tau`. If `a_n >= -tau`, this comparison rules out a decrease greater than tau. Otherwise it is unresolved: obtain further information when worthwhile, try another proposal, or retain x with that unresolved comparison. A time limit supplies a finite return without pretending that an inconclusive test rejected the proposal.
+
+Repeated adaptation needs error control across comparisons as well as within each comparison. Number proposed comparisons j=1,2,..., assign failure budgets `delta_j=delta/(j*(j+1))`, and let CMP.9 construct a simultaneous interval using delta_j for each. Choose that comparison's candidates from the earlier history, then collect fresh observations satisfying its stated law conditional on that history. The conditional failure bound is at most delta_j; summing these bounds gives probability at least `1-delta` that all comparisons used in the adaptive sequence are covered. Reusing observations to select the proposal and then treating them as fresh comparison evidence needs a different valid argument.
+
+On this joint event, every accepted move decreases the same J. A finite candidate set cannot revisit a candidate through such moves. This does not guarantee that each noisy comparison resolves in finite time, especially at equality. A tau-local conclusion additionally needs every neighbor's comparison to rule out a decrease greater than tau at the returned candidate, or a bound covering the remaining neighbors. Without that coverage, return an improved candidate and the actual unresolved alternatives. A changed objective, admissible set or feedback law reopens the affected comparisons.
+
+##### CMP.6:4.3.2 - Construct progress from a noisy direction
+
+When checking each move costs too much, a stochastic update can trade that per-move claim for an expected result. Derive the trade-off from the information actually supplied. Consider an unconstrained differentiable J with the upper model above and a lower bound `J_low`. Let H_t denote all information available before drawing feedback at iteration t, including x_t. Suppose an obtainable gradient estimate g_t satisfies
+
+`E[g_t | H_t]=grad J(x_t)` and `E[||g_t-grad J(x_t)||^2 | H_t] <= v`.
+
+The first condition concerns the current candidate and its history; an estimate unbiased only before adaptive selection is insufficient. Derive the conditions from the feedback mechanism or use a justified supplier. For example, uniform independent sampling of component gradients from a fixed finite average has the required mean. For an expected loss, interchanging differentiation and expectation needs its own conditions. An empirical variance is not automatically a valid bound v.
+
+Choose a fixed step `0<eta<=1/L` and compute `x_(t+1)=x_t-eta*g_t`. Substituting this step into the upper model and taking conditional expectations gives
+
+`E[J(x_(t+1)) | H_t] <= J(x_t) - eta*||grad J(x_t)||^2 + (L*eta^2/2)*E[||g_t||^2 | H_t]`
+
+`<= J(x_t) - (eta/2)*||grad J(x_t)||^2 + (L*eta^2/2)*v`.
+
+Here `E[||g_t||^2 | H_t] <= ||grad J(x_t)||^2+v`; the zero conditional mean of the error removes its cross term. Thus noise adds a cost to the deterministic decrease, rather than merely changing its wording. A realized update can increase J, and the displayed bound need not certify expected decrease close to a stationary point.
+
+For T such updates, sum the inequalities and use the lower bound. With a known `D >= J(x_0)-J_low`, the result is
+
+`(1/T)*sum_(t=0)^(T-1) E[||grad J(x_t)||^2] <= 2*D/(eta*T) + L*eta*v`.
+
+This is a finite stationarity result, not a global-optimum or distance-error guarantee. For a positive epsilon, to request an expected squared gradient norm at most epsilon^2, choose `eta<=1/L` and, when v>0, `eta<=epsilon^2/(2*L*v)`; choose an integer `T>=max(1,4*D/(eta*epsilon^2))`. Return x_R for an index R chosen uniformly from 0,...,T-1 independently of the update randomness. Its expected squared gradient norm equals the average bounded above. CMP.9's reservoir construction can retain one such iterate without storing the whole trajectory. Selecting the last iterate or the smallest noisy observation does not inherit this particular bound.
+
+If b conditionally independent estimates at the same current candidate each have the stated conditional mean and error second moment at most sigma^2, their average has `v<=sigma^2/b`. Compare a smaller step and more iterations with a larger batch and its extra work; count all Tb gradient observations, not only updates. A batch chosen adaptively using its own observed errors needs an argument preserving the assumed mean and second-moment bound. Known L, D and v give the displayed budget; if they are unavailable, this formula does not invent them. Use a qualified estimate for an exploratory run, a supported bound, or the comparison route above according to the receiving claim.
+
+A constraint-preserving parameterization can make this construction applicable to its unconstrained parameters, with J and L expressed there. Arbitrary clipping or projection does not preserve the displayed derivation; use the corresponding constrained progress result. If feedback has a conditional bias, retain its extra inner-product term in the first inequality or repair the estimator. More samples of the same biased signal do not restore the omitted zero-mean condition.
 
 #### CMP.6:4.4 - Establish what repeated updates imply
 
@@ -1329,6 +1462,7 @@ Select a progress argument appropriate to the state space and update:
 | A decreasing nonnegative integer potential | At most its initial value many decreases of at least one. | The potential's encoded magnitude can be large, and one iteration may be expensive. |
 | A contraction or another quantitative convergence relation | A finite error bound after a chosen number of updates. | A way to compute the required update and connect that error to the requested result. |
 | A descent estimate with a bounded-below objective | Bounds on accumulated improvement and, under appropriate assumptions, stationarity measures. | Convergence to one point or global optimality requires its own additional conditions. |
+| A conditional mean and second-moment bound for a noisy direction, with the smooth upper model | The finite expected stationarity bound in :4.3.2. | A warranted feedback law, admissible updates, step and sampling cost, and the stated output selection. |
 
 Use MATH.20 for the bound and MATH.21 for the convergence construction when needed. If each step improves but there is no useful stopping guarantee, return that limited procedure or change the method. Equal-value moves need their own cycle handling; strict-improvement reasoning does not cover them.
 
@@ -1337,6 +1471,8 @@ Use MATH.20 for the bound and MATH.21 for the convergence construction when need
 Derive the test from the wanted conclusion. Exhausting a discrete neighborhood establishes local optimality for that neighborhood. A residual threshold answers a residual question; a condition or error bound is needed to convert it into distance from a solution. Small successive changes can result from a tiny step even while the candidate remains poor.
 
 For a constrained optimum, the full gradient need not vanish. Use the absence of a feasible improving variation, a suitable projected update or the relevant constrained condition. Report that condition at the scope it establishes.
+
+For noisy comparisons, distinguish a resolved interval test from an exhausted sampling budget. For stochastic directions, the fixed budget in :4.3.2 supports its expected result for the selected output, not an observed certificate for a particular last iterate. An additional assessment can supply a different result when its cost is justified; keep the assessment conditions separate from the update samples used to select that result.
 
 When time runs out, return the best admissible candidate or current approximation together with any supported bound. A tolerance or resource limit belongs to the use that needs the result.
 
@@ -1367,6 +1503,24 @@ Minimize `J(x)=(x-3)²` over real x. Its derivative is `2(x-3)`. The update `x'=
 Choose `η=1/4`. From `x=0`, the iterates are `1.5, 2.25, 2.625, ...`; the objective values are `9/4, 9/16, 9/64, ...`. After k steps from the initial point, the distance to 3 is `3/2^k`. A requested distance at most epsilon therefore has a directly computable iteration bound. This example establishes the update through its algebra rather than through a generic instruction to repeat until the values seem stable.
 
 **Changed constraint:** require `0≤x≤1`. Projection of the same proposed first step onto this interval gives `x=1`. Further projected steps remain at 1. The derivative there is -4, so a full-gradient-zero stopping test would never recognize the constrained optimum. Every feasible point in the interval has `J(x)≥4=J(1)`, establishing the result. The changed feasible set requires a changed stopping argument, even though a related update can still be used.
+
+#### CMP.6:5.3 - Change from exact information to noisy feedback
+
+Keep `J(x)=(x-3)^2`, but replace the exact derivative by `g(x)=2*(x-3)+zeta`, where each fresh zeta independently equals -2 or 2 with equal probability. Its conditional mean is the derivative and its error variance is 4. With `eta=1/4`, the error `e=x-3` becomes `e'=e/2-zeta/4`, so
+
+`E[e'^2 | e] = e^2/4+1/4`.
+
+At e=0, either outcome increases J from zero to 1/4. A claim that every accepted stochastic step improves J would therefore be false. Repetition obeys `E[e_T^2]=4^(-T)*e_0^2+(1/3)*(1-4^(-T))`: the noise contribution remains near 1/3. More iterations with the same step cannot give an arbitrarily small mean squared error.
+
+Average b fresh gradient estimates at the current x before each update. The noise term becomes `1/(4*b)`, giving
+
+`E[e_T^2]=4^(-T)*e_0^2+(1/(3*b))*(1-4^(-T))`.
+
+For x_0=0, the receiving requirement `E[e_T^2]<=0.1` is met by b=4 and T=5: the bound is `9/1024+(1/12)*(1023/1024)`, about 0.092041. This uses 20 gradient observations. Unlike the general stationarity result, this quadratic recurrence directly supports the last iterate's squared-error claim; its special structure supplies that stronger result. A larger batch, a smaller step or another justified construction can compete on total work.
+
+**Change the feedback condition.** Suppose the signal becomes `g(x)=2*(x-3)+1+zeta`. Its mean is the derivative plus 1. The same update now centers on x=2.5, not x=3. Even unlimited averaging removes only zeta's variation, leaving squared error 1/4 at that center. If the offset 1 is known from a valid calibration, subtract it before updating and recover the earlier argument. If it is unknown, obtain its relation to the target or return the unresolved bias; choosing a smaller sampling error does not repair the target.
+
+The comparison route supports a different receiving choice. Suppose a current candidate and one proposal can be compared through fresh bounded loss differences in [-1,1]. A valid simultaneous interval [-0.18,-0.04] permits the proposal for tau=0.02; [-0.05,0.03] leaves that comparison unresolved; [-0.01,0.08] rules out a decrease greater than 0.02. If further proposals are selected from these results, apply the per-comparison budgets in :4.3.1. A fixed-count interval repeatedly inspected until it favors a proposal does not supply the same claim.
 
 ### CMP.6:6 - Bias-Annotation
 
@@ -1412,7 +1566,9 @@ CMP.5 can furnish a bound or an easier update subproblem; CMP.4 explores alterna
 
 [Bottou, Curtis and Nocedal, *Optimization Methods for Large-Scale Machine Learning*](https://leon.bottou.org/publications/pdf/tr-optml-2016.pdf) develops obtaining procedures, step control and the distinction among optimization and statistical errors. Adopt the error-bound-to-update construction and the accounting for inexact information. Its smooth and stochastic analyses have stated assumptions; they do not govern every discrete or learned update.
 
-For the smooth branch, compare a preset step with the upper-model or trial-controlled construction in :4.3 using the same available objective and derivative operations. A known useful L makes the derived step inexpensive; without that information, trial control spends extra evaluations to avoid an unsupported finite step. The quadratic case exhibits a concrete failure of a preset value. Retain a fixed step when its bound already supports the required result; choose trial control when its information gain warrants those evaluations. Under noisy feedback, that deterministic comparison must be replaced by the corresponding stochastic conditions.
+For the smooth branch, compare a preset step with the upper-model or trial-controlled construction in :4.3 using the same available objective and derivative operations. A known useful L makes the derived step inexpensive; without that information, trial control spends extra evaluations to avoid an unsupported finite step. The quadratic case exhibits a concrete failure of a preset value. Retain a fixed step when its bound already supports the required result; choose trial control when its information gain warrants those evaluations.
+
+For noisy feedback, :4.3.1 composes CMP.9's intervals with a finite-change decision and an error budget across adaptive proposals. It is the appropriate alternative when the receiving work needs a warranted decision about each accepted change. Its sampling can be expensive or leave equality unresolved. In :4.3.2, **adapt** the conditional expected-decrease argument and finite stationarity bound of [Bottou, Curtis and Nocedal, sections 4.1 and 4.3](https://arxiv.org/pdf/1606.04838) to obtain an executable noisy-direction procedure and its budget. This established mathematical line trades per-step improvement for an expected finite-output result; it is not a claim that basic stochastic gradients are the best optimizer for every workload. Exact information remains the simpler choice when it is affordable. Larger batches, better estimators or variance-reduction methods deserve comparison when they improve the same requested result per total work. A changed conditional mean, variance bound, feasible region or output selection reopens the affected argument.
 
 For a finite discrete neighborhood, direct gain calculation may be simpler than fitting a continuous model. The cut example derives both update and guarantee from those discrete gains. Revisit the chosen direction, acceptance or stopping rule when feedback, admissible moves or a required progress bound changes, or when another construction obtains the same required result at lower total cost.
 
@@ -1422,6 +1578,7 @@ For a finite discrete neighborhood, direct gain calculation may be simpler than 
 - **MATH.10:** constructs admissible variations; **MATH.20** supplies bounds; **MATH.21** supplies convergence and finite-approximation reasoning.
 - **CMP.4 and CMP.5:** can provide alternative exploration, a relaxed update problem or a useful comparison bound.
 - **CMP.7:** uses updates in a learning algorithm while retaining a separate account of further-case performance.
+- **CMP.9:** constructs estimates and intervals for noisy comparisons, and a uniform retained iterate when the expected-output argument needs one; **MMP.7** supplies a missing observation law.
 - **C.11.DUA and the general improvement methods:** select the value of additional computation, information or a more costly update.
 
 ### CMP.6:End
@@ -3383,3 +3540,249 @@ The semantic rule remains necessary under every realization. The wrong free-vari
 - **SYSE.27:** supplies the reproducible extension contribution and support arrangement when separately maintained modules are needed; the joining semantics remains the computational work described here.
 
 ### CMP.15:End
+
+## CMP.16 - Construct Computational Units and Operations for a Required Whole
+
+> **Type:** Method
+> **Status:** Stable
+> **Normativity:** Normative
+
+### CMP.16:1 - Problem frame
+
+**Use this when** you can state behavior that a computation must obtain, but the available units and operations do not yet give a workable way to obtain it. The difficulty can appear before implementation or after a change: separately sensible steps do not compose, a small unit discards information the join needs, or every client must repair the same invalid intermediate arrangement.
+
+The useful move is to design the units and their permitted operations together. Try constructing the required whole, recover what a failed join needs, and change the unit, the operation or the conditions of assembly. Then connect that computational abstraction to an obtainable implementation. The result is a usable level of operations with grounds for its whole behavior, not merely names for larger objects.
+
+For example, deciding whether each text fragment is locally balanced loses information needed to decide whether their concatenation is balanced. A richer fragment meaning can make the join both simple and general. In a continuing service, exposing separate count reads and writes can invite invalid combinations; a state-changing operation with an explicit admission rule can make a capacity condition maintainable. Neither remedy is selected by choosing a storage format alone.
+
+The reader can follow operations on a state and an elementary invariant argument. C.29.2 supplies the computational question and the available model. MATH.17 supplies composition and its closure conditions; MATH.18 supplies interpretation between levels. CMP.2, CMP.10, CMP.12 and CMP.14 develop particular recursive, storage, interpretation and interaction contributions when the construction below needs them.
+
+Keep known adequate units and operations when they already serve the work. Use CMP.10 directly when the operations are sufficiently known and only their representation needs improvement. Use CMP.13 when the question is how to obtain a cheaper sound analysis of a computation. This method instead constructs the units and operations used to obtain the behavior itself. It does not replace the subject inquiry that determines what behavior is useful, or supply an unavailable physical primitive by naming it.
+
+### CMP.16:2 - Problem
+
+How can units, operations and their assembly be constructed together so that the required computational whole can be obtained, understood and changed without inventing a missing connection at every use?
+
+Starting only from small familiar operations can make the whole unnecessarily difficult. Starting only from an elegant abstract interface can hide an unimplementable operation or an excluded case. The construction must work in both directions: from the whole's requirements to the contributions it needs, and from available contributions to a whole that actually meets those requirements.
+
+### CMP.16:3 - Forces
+
+| Force | What must be reconciled |
+| --- | --- |
+| Small units and sufficient meaning | A simpler unit can make composition cheaper or discard the distinction needed to compose correctly. |
+| Valid construction and required coverage | Restricting constructors can preserve an invariant while excluding a case the work still needs. |
+| A useful level and an obtainable implementation | Hiding detail helps a client only when the promised operations can be supplied below that boundary. |
+| Local guarantees and shared behavior | Individually valid transitions can interfere or fail to make progress when combined. |
+| Generality and cost | A universal interface can impose more work than a restricted one suited to the receiving use. |
+| Preservation and deliberate change | Another representation can preserve behavior; another observation or operation can require a new abstraction. |
+
+### CMP.16:4 - Solution
+
+Construct a provisional whole with proposed units and operations, use its first consequential failure to revise them together, and justify the resulting level against both its clients and its implementation. The moves below can return to one another. An already sufficient interface needs neither reinvention nor an exhaustive search for alternatives.
+
+#### CMP.16:4.1 - Recover the behavior and the freedom to change its construction
+
+State what a recipient must observe or do with the result. Include consequential continuations: a value may later be updated, an object traversed, a description interpreted, or an event acknowledged. Distinguish a finite answer from continuing behavior. For a continuing computation, state what must always hold and what response must eventually occur under which environmental assumptions.
+
+Recover the admitted cases and the available operations through C.29.2. Separate required behavior from an inherited implementation choice. A requirement to preserve order does not require an array; a capacity limit does not necessarily require exposing a mutable counter. Conversely, a physical coupling, a particular external format or an existing client's observation can be binding. Do not change those requirements merely to make the preferred construction easier.
+
+Choose one whole use that exposes the difficulty and a consequential variation. These are design probes, not the scope of the method. If the proposed change would answer a different question, make that difference explicit and return it to the receiver instead of presenting the changed answer as preservation.
+
+#### CMP.16:4.2 - Try the whole before fixing the units
+
+Sketch the computation at a level where its intended effect can be followed. Treat a proposed higher operation as a temporary obligation: say what it receives, what it must return or change, and why the rest of the construction needs it. Do not yet assume that the operation exists or costs one step.
+
+Suppose each proposed part has supplied exactly its promised result. Attempt the next join or continuation. At the first missing contribution, identify the distinction or action that would make the join possible. Typical remedies have different grounds:
+
+- Enrich a returned summary when the join needs information the part discarded. CMP.2 develops this for recursive construction.
+- Introduce a compound unit when a relation between smaller items must be preserved by every permitted assembly. Check that the new constructor still covers the required cases.
+- Change the operation boundary when separately exposed updates permit invalid states or repeated repair. Include the boundary's interruption and visibility assumptions.
+- Pass context or postpone a choice when a part cannot correctly decide without information available at the join.
+- Change the decomposition when obtaining the missing contribution would repeat the original difficulty or exceed the resource limit.
+
+Try a simple alternative alongside the favored design. Keeping the original units and checking the final result can be cheaper when invalid assemblies are rare and harmless. A stronger constructor is useful when it makes repeated use or reasoning materially easier. Neither is universally preferable.
+
+#### CMP.16:4.3 - Give the proposed unit a meaning through its uses
+
+Describe what a unit represents and which operations clients may perform. Include constructors, observations, transformations and combinations needed by the whole. State conditions of use: an operation can be partial, require ownership of a token, depend on an environment, or report failure. Such conditions must be obtainable and respected by the client, not hidden in a proof that the client cannot satisfy.
+
+Decide which distinctions can be hidden. If two lower-level states represent the same unit, the permitted observations and continuations must respect that identification on the promised scope. A summary that forgets the order of items cannot support an arbitrary future order query. A mutable object and an independent copy may have the same current values but differ after a change. MATH.2 and MATH.18 supply the mathematical identification and interpretation questions; the construction here chooses what the computational client needs them to preserve.
+
+For pure composition, state the operations and the laws the intended assembly uses. Associativity permits regrouping, not reordering. An identity supplies an empty case; an inverse is needed only if the proposed operation undoes a contribution. For stateful behavior, state admissible transitions and observations instead of forcing it into a pure algebra. For a language of descriptions, specify constructors and meanings; CMP.12 develops the corresponding interpreter or translation.
+
+This is an abstraction boundary only when clients can use the stated operations without depending on hidden detail. If a client bypasses it by editing internal state or inspecting an undocumented encoding, either include that behavior in the agreement or remove the bypass. Merely putting fields behind a class name does not establish the boundary.
+
+#### CMP.16:4.4 - Obtain the operations and establish usable composition
+
+Construct each required operation from available steps, or obtain a sufficiently qualified supplier. For a constructor, show how it produces a valid unit from admitted input, or how it detects and reports an unsupported input before the client relies on validity. For an update, derive the changed state from the invariant rather than assuming that a familiar assignment preserves it.
+
+Then establish the whole-forming claim. For a pure assembly, show that the join of admissible contributions has the required meaning and remains usable in the next join. Account for base and empty cases. For a transition system, show that initialization establishes the state condition and every permitted transition maintains it; include the environmental actions that can affect that condition. Induction can then cover arbitrary finite assemblies or execution prefixes under those premises. It does not by itself prove eventual response or cover an omitted operation.
+
+Check coverage separately. Can every required input or behavior be obtained with these constructors and operations? Restricting a unit to internally balanced fragments, for example, would exclude valid whole texts split inside a nested expression. An invariant can be perfectly preserved while that restriction makes the construction unsuitable. Broaden the unit, change the assembly or report the actual limitation.
+
+The construction may depend on a supplied primitive. Keep that dependency visible and return to C.29.3 when its realization is unsettled. CMP.14 establishes the permitted interference and progress when an operation must remain indivisible or coordinate participants. An abstract operation is a useful design result before that realization is available, but it is not yet an executable promise in that environment.
+
+#### CMP.16:4.5 - Relate the new level to its implementation
+
+For a deterministic state abstraction, let `I(c)` state that a concrete state `c` is valid, and let `alpha(c)` give its abstract meaning. Explain how initialization obtains a state satisfying `I`. For each abstract operation, begin with a related state and an admitted argument, follow its concrete implementation, and show that the resulting state remains valid and represents a permitted abstract result. Include the observation returned to the caller. This argument can be ordinary prose and equations; a formal notation or proof assistant is chosen when it earns its cost.
+
+For a pure summary `h` and a source composition `*`, a useful obligation is:
+
+`h(x * y) = combine(h(x), h(y))`.
+
+This equation explains why independently obtained summaries can replace the source parts at that join. It is a claim to derive from their meanings, not an instruction to assume a homomorphism. If it fails, identify the lost distinction, strengthen the summary or restrict the proposed use. A relation rather than a single function can be needed for nondeterminism or multiple acceptable implementations; CMP.12 develops behavior preservation and CMP.14 supplies the interaction conditions.
+
+Also connect progress and resource claims. A lower-level operation can preserve every completed observation while looping forever before producing one. A correct response can miss the required deadline. A finite sequence of abstract operations can expand into unaffordable work. Do not transfer termination, responsiveness or unit cost merely because a value correspondence holds.
+
+At the physical boundary, preparation, actual evolution and readout must supply the relation assumed here. A new physical unit may require an engineering change; it is not automatically created by a new encoding. Use C.29.3 to obtain that connection and carry any unresolved condition back to the promised whole.
+
+#### CMP.16:4.6 - Compare the complete work and preserve the useful level
+
+Count constructing and converting units, performing their operations, maintaining their invariants, communicating and obtaining the final observations. Include the information retained for later operations. CMP.10 compares concrete storage and access choices; CMP.3 handles shared subcomputations. A cheap abstract join can still require large construction or output work.
+
+Choose a sufficient implementation without unnecessarily exposing it above the boundary. This permits a later replacement when it preserves the operations and observations on which clients rely. A change from a list to a tree can preserve a sequence interface while changing costs. A change from ordered delivery to unordered delivery does not preserve a client that observes order, however similar the names remain.
+
+When no arrangement satisfies all demands, return the precise conflict: a missing observation, an unsupported operation, an unaffordable construction or an unavailable realization. CMP.1 and CMP.11 can establish relevant impossibility or lower-bound claims; a failed design alone does not establish them. A qualified weaker result is useful only when its receiver accepts the difference.
+
+#### CMP.16:4.7 - Change a condition and reconstruct the affected whole
+
+Vary an input family, required observation, operation, interaction or resource limit that could alter the design. Follow its effect through the abstraction and back to the whole. Ask whether the old unit still retains enough information, whether the allowed operations still preserve its meaning, and whether their implementation still meets the conditions of use.
+
+Preserve unaffected constructions. A new query can require another summary while leaving the source composition intact. A concurrency requirement can preserve abstract operations while invalidating a sequential implementation. A changed subject interpretation can leave an algorithm correct for its earlier mathematical question but unsuitable for the receiving work. These are different returns.
+
+Finish with the usable units and operations, their construction, the reason their permitted assembly obtains the required behavior, and the implementation and resource conditions on which that use depends. The result need not be a new framework or a universal interface. It must let the recipient perform the intended whole without privately inventing its missing join.
+
+### CMP.16:5 - Archetypal Grounding
+
+#### CMP.16:5.1 - Construct a fragment meaning that makes concatenation usable
+
+A text is a finite sequence of opening and closing parentheses. The required answer is whether its parentheses are balanced: every prefix has at least as many openings as closings, and the totals agree at the end. The text arrives as independently obtained fragments, which must be combined in their original order.
+
+The first proposal records only whether each fragment is balanced. It fails on the fragments `(()` and `())`: neither is balanced alone, while their concatenation `(()())` is balanced. Requiring every fragment to be balanced would change the admitted splits rather than solve the original problem.
+
+Recover what the whole needs from a fragment. Treat an opening as `+1` and a closing as `-1`. Let `d` be the total change in balance and `m` the minimum of all prefix balances, including the empty prefix with balance zero. The pair says both where the fragment leaves a caller's balance and how far below that starting balance it can go. For a caller entering with balance `b`, the fragment never becomes negative exactly when `b + m >= 0`; its ending balance is `b + d`.
+
+If fragment `A` is followed by `B`, each prefix lies inside `A` or consists of all of `A` followed by a prefix of `B`. Therefore:
+
+```text
+combine((dA,mA),(dB,mB)) = (dA+dB, min(mA, dA+mB))
+empty = (0,0)
+open  = (1,0)
+close = (-1,-1)
+```
+
+The formula is obtained from the required prefix observation, not guessed from a convenient tuple. It gives the summary of concatenation. Consequently it is associative on summaries of fragments: either grouping describes the same ordered text and the same prefix minimum. It is not commutative. Combining `open` with `close` gives `(0,0)`; reversing them gives `(0,-1)`. The identity `empty` follows from including the empty prefix.
+
+For `(()`, the summary is `(1,0)`; for `())`, it is `(-1,-1)`. Their join is `(0,0)`, so the whole is balanced. A whole summary is balanced exactly when its total is zero and its prefix minimum is nonnegative. A possible implementation is:
+
+```python
+def combine(left, right):
+    dl, ml = left
+    dr, mr = right
+    return dl + dr, min(ml, dl + mr)
+
+def summarize(text):
+    result = (0, 0)
+    for char in text:
+        if char == "(":
+            piece = (1, 0)
+        elif char == ")":
+            piece = (-1, -1)
+        else:
+            raise ValueError("unsupported character")
+        result = combine(result, piece)
+    return result
+
+def is_balanced(summary):
+    total, minimum = summary
+    return total == 0 and minimum >= 0
+```
+
+Character summaries provide the constructors; `combine` supplies the effective join. Its arguments must be summaries of admitted fragments; an arbitrary supplied pair has not acquired that meaning merely by having two integer fields. The semantic equation connects this small computational algebra to arbitrary finite texts. CMP.2 can organize recursive construction, and CMP.10 can choose an aggregate tree when later edits matter. In a word model with sufficiently wide counters, scanning takes linear work and a join takes constant work. Unbounded text length needs a corresponding account of growing counters; the pair is not literally constant storage in every bit model.
+
+**Changed observation.** Now return the position of the first negative prefix, if one exists. The two texts `)()(` and `())(` have the same length four and the same summary `(0,-1)`, but their first negative positions are one and three. The existing pair cannot answer this query. No faster decoding of the pair recovers the lost distinction.
+
+One remedy retains the composition tree, each child's length and pair, and the leaf characters. Enter the root with balance zero. If a left child's minimum plus the incoming balance is negative, descend left. Otherwise add its total to the balance, skip its length and descend right. At a negative leaf, the accumulated position identifies the first offending character. If the root minimum is nonnegative, there is no negative prefix; a positive final total instead reports unmatched openings. A balanced tree gives a descent proportional to its height after the summaries have been maintained. The storage and update obligations belong to the remedy, not to the old two-number claim.
+
+The original balance decision remains valid. The stronger observation changes the retained unit and its operations. This distinguishes generality over all finite admitted fragments from adequacy for every possible later query.
+
+#### CMP.16:5.2 - Construct an operation boundary for a continuing capacity condition
+
+A service grants permission to use at most `K` resource slots at once, where `K` is a fixed nonnegative integer. Its computational responsibility is to track outstanding grants and refuse another when `K` are active. The relation between a grant and actual resource use is a further requirement: cooperating clients begin use under their own grant and release it only after use ends. Authentication against a caller trying to release another caller's grant is a separate requirement. The computation alone cannot prevent an uncooperative client from using a physical resource.
+
+Exposing `read_count` and `write_count` leaves each client to reconstruct admission and release. A more useful unit is the grant service itself, with `acquire` and `release(ticket)` operations. In an initially sequential model, retain a set `active` and a monotonically increasing ticket number. `acquire` returns `Busy` if `len(active) == K`; otherwise it obtains a fresh ticket, adds it to `active` and returns it. `release` removes a ticket only if it is active, otherwise reports that no active grant matches it. The ticket, rather than an unqualified decrement, identifies what can be released.
+
+Initialization establishes `active = {}`. An admitted acquisition changes its size from a number below `K` to at most `K`; release cannot increase it. Thus every permitted sequence preserves `0 <= len(active) <= K`. Fresh tickets ensure that a delayed second release of an old grant cannot release a later grant. The sequence `acquire -> 0`, `release(0)`, `acquire -> 1`, `release(0)` leaves ticket 1 active: the final release reports no matching active grant.
+
+This is a safety argument for the stated operations. It does not establish that a waiting caller eventually receives permission; that requires available releases and a selection policy. Nor does it settle retry after a lost acquisition reply. If the required behavior gives one grant per logical request, request identity and the retry protocol must be added through CMP.14. The old operations still explain their narrower behavior but not that stronger service.
+
+**Changed execution condition.** Two callers now execute the acquisition body concurrently. With `K = 1`, both can observe an empty set before either inserts a ticket, then insert different tickets. The abstract invariant was not wrong; the implementation no longer supplies the atomic transition it assumed. One remedy serializes the check and insertion through an available exclusive mechanism. CMP.14 develops its permitted histories and progress conditions; C.29.3 establishes whether the chosen executor supplies the required operation. Renaming the body `atomic_acquire` supplies neither.
+
+The ticket implementation also has conditions. A bounded counter can wrap, and a restart can forget active grants. Restricting the lifetime, preserving state or changing the ticket construction needs an argument covering the actual use. Those conditions can select another representation without changing the abstract service, or reveal that its former promise cannot be maintained. This is a continuing computational abstraction, not a terminating calculation whose final count alone defines success.
+
+### CMP.16:6 - Bias-Annotation
+
+Familiar abstractions can bias the designer toward a representation before the required observations are understood. A successful small assembly can conceal an excluded case or an expensive constructor. Conversely, fascination with general interfaces can replace a sufficient direct computation with unnecessary machinery. Use a consequential changed condition and a simple alternative to expose these biases; neither forces a universal design.
+
+An implementation specialist may privately supply an atomic operation, a stable identity or an invariant repair that the description omitted. Keep that contribution explicit. A mathematically convenient model and a physical or organizational arrangement can differ at precisely the step the abstraction hides.
+
+### CMP.16:7 - Conformance Checklist
+
+Recognition asks whether the units and operations themselves need construction for the required whole. An existing adequate interface or a pure storage choice can end that question without this method.
+
+For assurance of the selected construction, establish the consequential claims:
+
+- the required observations, admitted continuations and coverage conditions;
+- obtainable constructors and operations, including any required external primitive;
+- the reason their permitted assembly preserves meaning and any claimed invariant;
+- progress and resource conditions distinct from value correspondence;
+- the first changed action or representation under a consequential variation.
+
+Use evidence suited to the conclusion. A trace can refute a claim; a general preservation claim needs its applicable argument; an actual realization needs its implementation basis. Neither a well-named interface nor a correct example establishes all three.
+
+### CMP.16:8 - Common Anti-Patterns and How to Avoid Them
+
+| Failure | Repair |
+| --- | --- |
+| Divide the task and assume the parts reconstruct it | Attempt the join and supply its missing information or operation. |
+| Preserve an invariant by excluding required inputs | Check coverage separately and revise the unit or the receiving promise. |
+| Call a complex operation primitive and count it as free | Obtain its implementation and include its relevant cost and progress conditions. |
+| Hide a state distinction that a later continuation observes | Strengthen the abstraction or explicitly restrict that continuation. |
+| Treat separate correctness as a joint guarantee | Establish the permitted composition and interference through the actual whole. |
+| Treat a new encoding as a new physical arrangement | Obtain the preparation and realization that the proposed operation requires. |
+
+### CMP.16:9 - Consequences
+
+The construction can make a whole easier to obtain, explain and change by moving a repeated obligation into suitable units and operations. A client can then reason at that level while implementations vary within the established correspondence. It can also expose that a proposed abstraction loses coverage, needs unavailable support or costs more than direct work.
+
+The burden is designing and maintaining the boundary, its operations and their grounds. The method supplies no universal algorithm for inventing the best abstraction. Its useful result can be one sufficient construction or a precise unresolved join; a local failure does not prove that no computational way exists.
+
+### CMP.16:10 - Architectural Rationale
+
+The intended whole constrains the units, and attempted composition tests that choice. This makes synthesis and abstraction mutually informative without identifying them. The fragment example constructs a new summary from the observation needed at the join; the grant example constructs an operation boundary from a continuing state condition. A general claim follows only after the allowed constructions and their preservation grounds have been established.
+
+Choosing a data structure is a serious alternative when the operations are already adequate; CMP.10 supplies it. Recursive decomposition is useful when subproblems and sufficient returns yield a finite answer; CMP.2 supplies that construction. Direct validation of a complete candidate can be cheaper than restricting every intermediate state. The present method is needed when units and operations must change together to make the whole obtainable or its repeated use tractable. CMP.13's approximate analysis can help establish a property, but it has a different result from the computational interface being designed.
+
+The method permits several levels and several implementations. It does not require all of a program to use one abstraction style, all operations to be pure, or every implementation detail to be hidden. Reveal the detail that the receiving observation or resource argument needs; keep a boundary only where its promised independence is justified.
+
+### CMP.16:11 - SoTA-Echoing
+
+[Dijkstra's Notes on Structured Programming, EWD249](https://www.cs.utexas.edu/~EWD/transcriptions/EWD02xx/EWD249/EWD249.html) provide a historical argument for developing data organization and operations together and for reasoning across levels while constructing a program. This method retains that constructive coupling without making one sequential programming style the boundary of computational organization.
+
+[SICP's abstraction barriers](https://sicp.sourceacademy.org/chapters/2.1.2.html) give a historical worked account of clients using operations independently of a selected lower representation. Here the boundary is selected from the required whole and includes consequential continuing behavior. A simpler direct representation remains preferable when the boundary adds no useful independence.
+
+The maintained [Verified Functional Algorithms chapter on abstract data types](https://softwarefoundations.cis.upenn.edu/vfa-current/ADT.html) makes interfaces, operation specifications and implementation proof obligations explicit through executable formal examples. It supplies a stronger checking option when those obligations warrant mechanization. A module signature can enforce the exposed structure; the stated behavioral laws still need their proofs. The construction here does not require that proof technology for every ordinary use and does not infer a semantic guarantee from type compatibility alone.
+
+MATH.17 and MATH.18 supply the composition and interpretation grounds used here. CMP.12 and CMP.14 carry the developed alternatives needed when control, effects or interaction change those grounds. Reopen a design when a new required observation, affordable implementation, admissible operation or execution condition changes the balance among these alternatives. These sources support the constituent reasoning; the two worked constructions above make its particular assembly inspectable rather than asserting universal superiority.
+
+### CMP.16:12 - Relations
+
+- **C.29.2** obtains the computational question and model; a changed primitive or observation returns to that formulation.
+- **MATH.2, MATH.17 and MATH.18** supply identification under operations, composition and interpretation. Their applicable premises govern the computational construction.
+- **CMP.2 and CMP.3** construct recursive joins and shared work when these supply operations of the proposed level.
+- **CMP.10** chooses representations and accounts for their reads, updates and retention once the needed operations are known.
+- **CMP.12** supplies interpretation and preservation when units are descriptions or implementations cross execution levels; **CMP.13** supplies approximate analysis for a selected property.
+- **CMP.14 and CMP.15** establish interacting behavior and independently extensible combinations under their respective conditions.
+- **C.29.3** connects operations to an actual prepared executor and interpreted readout. **C.39** supplies the broader construction and change of a way of working when the computational result is only one contribution.
+
+### CMP.16:End
