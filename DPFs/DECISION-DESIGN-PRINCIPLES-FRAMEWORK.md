@@ -4,7 +4,7 @@
 
 A domain pattern language for constructing problem formulations, decision alternatives and models, and qualifying their interpretation and use in bounded inquiry, including professional participation and advice.
 
-Anatoly Levenchuk, with AI-assisted development. [Working edition, 23 October 2026](#psdasources2---citation-and-limits). Original and adapted framework text: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Third-party sources retain their own terms.
+Anatoly Levenchuk, with AI-assisted development. [Working edition, 24 October 2026](#psdasources2---citation-and-limits). Original and adapted framework text: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Third-party sources retain their own terms.
 
 Bring the missing result: a useful formulation, model, alternative, comparison, participation arrangement or qualified return. Use an adequate current answer directly. The Readme gives independent entries; the Architectural Reference explains their connections and limits. Complete patterns carry the operations, cases and source comparisons. One inquiry need not use the whole repertoire.
 
@@ -340,15 +340,11 @@ The present language can supply qualified formulations, value and uncertainty ac
 
 ## PSDA.Reference:6 - Continue and change the practice
 
-A changed source or receiving condition reopens only the dependent claims until evidence warrants a wider revision. Preserve useful earlier results within their actual scope. A professional organization can use PSDA.16, PSDA.17, PSDA.18 for repertoire, simultaneous service work and cultural continuation; an independent intellectual inquiry can use the general Method-development and cultural-reproduction guidance directly. Neither path is a compulsory tail to one calculation.
+A changed source or receiving condition reopens the claims that depend on it; preserve useful earlier results within their actual scope. A corrected concern, altered access condition or new model configuration can require the responsible practitioner to reconsider the answer. Obtain and interpret the relevant observation before choosing a response: a notice that a configuration changed does not establish that it is safe or effective.
 
-The useful change in practice is the ability to reconstruct a consequential distinction, obtain the right model or comparison, and tell what conclusion it actually supports. Successful communication, accepted advice and realized outcomes remain separate results. The next inquiry starts from the changed knowledge and its actual question, not from an obligation to repeat every pattern.
+Use [PSDA.16](#psda16---decide-whether-and-how-to-change-problem-structuring-and-decision-support-methods) when a professional repertoire needs a justified change, [PSDA.17](#psda17---reconcile-simultaneous-problem-structuring-and-decision-support-work) when simultaneous inquiry activities interfere, and [PSDA.18](#psda18---deliberately-continue-and-change-problem-structuring-and-decision-support-culture) when a practice must be continued or changed across practitioners. An independent intellectual inquiry can use the general Method-development and cultural-reproduction guidance directly. These uses are conditional; a sufficient calculation or recommendation can finish without them.
 
-A corrected concern, altered access condition or new model configuration can change the current result. Identify the claims that depend on the change and ask the responsible practitioner to reconsider them. Obtain and interpret the relevant observation before choosing a response; the mere arrival of a notice is not evidence that the new configuration is safe or effective.
-
-A different problem concerns how inquiry itself is conducted. Use [PSDA.16](#psda16---decide-whether-and-how-to-change-problem-structuring-and-decision-support-methods) when the professional repertoire needs a justified change, [PSDA.17](#psda17---reconcile-simultaneous-problem-structuring-and-decision-support-work) when simultaneous inquiry activities interfere, and [PSDA.18](#psda18---deliberately-continue-and-change-problem-structuring-and-decision-support-culture) when a practice must be continued or changed across practitioners. These are conditional uses, not a required tail on every recommendation.
-
-Contemporary source comparisons belong with the pattern claims they support. Earlier traditions remain valuable where their limits are understood. Neither a fashionable school nor an old success is enough to establish the present Method's fit. What changes in practice is the reader's ability to return a useful answer with visible limits—and to change that answer, or the way of obtaining it, when the actual basis changes.
+The useful gain is the ability to reconstruct a consequential distinction, obtain the model or comparison the question needs, and state the conclusion it supports. Successful communication, accepted advice and realized outcomes remain separate results. Continue from the changed knowledge and the actual question. Compare contemporary sources with the claims they support, and retain earlier traditions where their limits are understood: neither a fashionable school nor an old success establishes a Method's present fit.
 
 ## PSDA.Reference:7 - Whose conditions and evidence shape the answer
 
@@ -824,7 +820,7 @@ A later board asks whether the same result establishes readiness for the flood s
 
 ### PSDA.2:7 - Conformance Checklist
 
-- [ ] The boundary is tied to one receiving use, subject, horizon, and authority boundary.
+- [ ] The boundary is tied to one receiving use, subject and horizon, with the authority boundary stated where that use has one.
 - [ ] Current formulations and material participation or affected-System inputs are recoverable.
 - [ ] Included bearers, concerns, relations, conditions, evidence, horizons, and intervention families are stated only at the needed grain.
 - [ ] Material exclusions and unknowns retain reasons, consequences of error, and reopen observations.
@@ -1173,7 +1169,7 @@ Supply this result to facilitated inquiry or the reconciliation of simultaneous 
 
 #### PSDA.4:4.7 - What changes in practice
 
-The practitioner can explain why this way of working fits, which simpler alternative was considered, and where the arrangement would fail. Adaptation becomes a reasoned change of action and conditions instead of an unexamined mixture of workshop exercises.
+The practitioner can explain why this way of working fits, how it compares with the alternatives considered, and where the arrangement would fail. Adaptation becomes a reasoned change of action and conditions instead of an unexamined mixture of workshop exercises.
 
 ### PSDA.4:5 - Archetypal Grounding
 
@@ -1211,14 +1207,14 @@ An operations team has an agreed question, a current qualified calculation Metho
 
 **Scope:** selection and bounded composition of Methods for problem structuring and decision analysis. **Lenses:** **Prag** tests fitness and effort; **Onto/Epist** separates Method, description, plan, enactment, and evidence; **Arch** exposes real joins; **Gov** preserves participation and authority conditions; **Did** makes the reusable action explicit.
 
-Facilitator-familiarity bias favors the method the team can already run. Brand bias mistakes a school name for an identified way of doing. Integration bias treats more techniques as broader competence. Time-pressure bias hides omitted contributions. Counter these with one serious simpler alternative, a result-based contribution comparison, and the exact fragile premise that could reverse selection.
+Facilitator-familiarity bias favors the method the team can already run. Brand bias mistakes a school name for an identified way of doing. Integration bias treats more techniques as broader competence. Time-pressure bias hides omitted contributions. Counter these with a serious alternative, retaining any sufficient simpler route, a result-based contribution comparison, and the fragile premise that could reverse selection.
 
 ### PSDA.4:7 - Conformance Checklist
 
 - [ ] The selection names the missing result and current subject, scope, conditions, and receiving use.
 - [ ] Needed model, participation, expertise, and authority premises are qualified or explicitly missing.
 - [ ] Candidate Methods are recoverable reusable ways, not merely titles, descriptions, plans, or reported workshops.
-- [ ] A serious simpler alternative and the selected trade-off are explicit.
+- [ ] A serious alternative, any sufficient simpler route, and the selected trade-off are explicit.
 - [ ] Each additional Method supplies a distinct material contribution.
 - [ ] Passed results preserve meaning, scope, and limits; conversions requiring new evidence are not hidden.
 - [ ] Real dependence and possible overlap are distinguished from document and calendar order.
@@ -1392,7 +1388,7 @@ Incumbency, sponsor anchoring, technology availability, and novelty bias can eac
 
 ### PSDA.5:7 - Conformance Checklist
 
-- [ ] The recipient question, holder or subject, current arrangement, horizon, and separate choice boundary are recoverable.
+- [ ] The receiving question, holder or subject, current arrangement and horizon are recoverable; the recipient and separate choice boundary are stated where that use requires them.
 - [ ] Formulations, models, and inquiry claims contribute only where they change the candidates.
 - [ ] Alternatives differ in decision-changing contents, not merely names.
 - [ ] The no-change case includes its actual continuing obligations and consequences.
@@ -2653,7 +2649,7 @@ Generic FPF patterns already govern outside-practice results, evidence, permissi
 
 | Practice question | Best-known line | Serious alternative or default | Defect overcome and pattern mutation | Source roles and limits | Reopen condition |
 | --- | --- | --- | --- | --- | --- |
-| How should a practitioner open an ill-structured or contested decision-support situation? | The best-known line is to bind inquiry to a named receiving use while keeping framing plural, contextual, and revisable before committing to one PSM, model, or formulation. | A fixed sponsor brief or Method-first workshop is the serious default; an unbounded “include everything” inquiry is the opposite default. | Both defaults hide the decision-support return: one naturalizes the first frame, the other cannot stop. **Adapt:** `PSDA.11:4.1`–`4.4`, the flood-pump case, and the first seven checklist rows require a receiving use, provisional boundary, plural-formulation return, and local reopen before Method choice. | Smith and Shaw's [2019 PSM review](https://doi.org/10.1016/j.ejor.2018.05.003) is a best-known-line candidate for the continuing PSM branch and its differing characteristics; Kogetsidis's [2025 review](https://doi.org/10.1108/IJOA-08-2024-4746) is an application comparator. Kelly and Gero's [2022 framing review](https://doi.org/10.1017/dsj.2022.25), Litster, Cardoso, and Hurst's [2024 systems-mapping study](https://doi.org/10.1017/S089006042400012X), and Nickel, Hurst, and Duimering's [2024 contextual trade-off study](https://doi.org/10.1017/dsj.2024.34) support explicit candidate framing, contextual comparison, and revision. The reviews are non-exhaustive; the studies establish neither one framing ontology, universal Method, shared frame, prevalence, nor superiority. | Reopen if comparative practice shows a lower-effort opening that preserves the same receiving-use, plurality, authority, stop, and revision value, or if a source changes the conditions under which framing must be reopened. |
+| How should a practitioner open an ill-structured or contested decision-support situation? | The best-known line is to bind inquiry to a named receiving use while keeping framing plural, contextual, and revisable before committing to one PSM, model, or formulation. | A fixed sponsor brief or Method-first workshop is the serious default; an unbounded “include everything” inquiry is the opposite default. | Both defaults hide the decision-support return: one naturalizes the first frame, the other cannot stop. **Adapt:** `PSDA.11:4.1`–`4.4`, the flood-pump case, and the first seven checklist rows require a receiving use and provisional boundary, with plural-formulation and local reopening branches where they can change Method choice. | Smith and Shaw's [2019 PSM review](https://doi.org/10.1016/j.ejor.2018.05.003) is a best-known-line candidate for the continuing PSM branch and its differing characteristics; Kogetsidis's [2025 review](https://doi.org/10.1108/IJOA-08-2024-4746) is an application comparator. Kelly and Gero's [2022 framing review](https://doi.org/10.1017/dsj.2022.25), Litster, Cardoso, and Hurst's [2024 systems-mapping study](https://doi.org/10.1017/S089006042400012X), and Nickel, Hurst, and Duimering's [2024 contextual trade-off study](https://doi.org/10.1017/dsj.2024.34) support explicit candidate framing, contextual comparison, and revision. The reviews are non-exhaustive; the studies establish neither one framing ontology, universal Method, shared frame, prevalence, nor superiority. | Reopen if comparative practice shows a lower-effort opening that preserves the same receiving-use, plurality, authority, stop, and revision value, or if a source changes the conditions under which framing must be reopened. |
 | How should decision-support advice remain useful without becoming the later choice? | The best-known current FPF line is result-first and authority-bounded: name the receiving decision, reuse or request only the outside-practice result it needs, return the recommendation as a premise, and let the authorized chooser produce the separate `ChoiceResult`. | Expert-report, approval, score, or model-output language treated as the decision is the serious default. | The default transfers authority by format and hides blockers. **Adopt:** `PSDA.11:4.1`, `4.2`, `4.5`, the development-direction case, and the authority checks keep performer, recipient, holder, outside-result owner, and choice owner distinct. | Current `A.15.9` supplies the smallest bounded-result return and supplier/receiver authority split; current `C.11` supplies choice over an already-available option set. Neither pattern bounds a professional problem-structuring and decision-support engagement or selects its next field-specific branch. | Reopen if direct choice or outside-result guidance gains the complete engagement-boundary move at equal or lower effort, or if practitioner use shows that the current separation prevents rather than improves a necessary authorized combined role. |
 
 ### PSDA.11:12 - Relations
@@ -3478,8 +3474,8 @@ Outcome bias can rewrite the earlier advice as obviously correct or wrong after 
 | --- | --- |
 | Distinct results | Recommendation, later authorized decision, intended work, implementation and observation are separately established or explicitly unknown. |
 | Material observation | Each selected observation can change a named premise, claim, alternative, condition or boundary; any threshold has a qualified meaning. |
-| Design choice | Feasible arrangements were compared by coverage, delay, burden and receiving use; a PSDA.17 constraint did not preselect the answer. |
-| Viability | Observation, interpretation and return have the necessary performers, access, resources, timing, protection and failure route. |
+| Design choice | When a follow-up arrangement needs to be designed, feasible alternatives were compared by coverage, delay, burden and receiving use; a PSDA.17 constraint did not preselect the answer. |
+| Viability | Any observation, interpretation and return relied on here have the necessary performers, access, resources, timing, protection and failure route. |
 | Current evidence | The actual evidence fits its subject, configuration, interval and intended use; absence or silence is not favourable evidence. |
 | Local consequence | Unchanged, narrowed, blocked, reopened-contributor and later-recommendation conclusions name their exact affected scopes and gaps. |
 | Authority and closure | Operational change and recipient choice retain their direct authority; the follow-up return has a bounded continuation or end condition. |
@@ -4140,7 +4136,7 @@ The following questions help keep different claims apart. Open only those that c
 | Retention or loss | Evidence over the stated interval and relevant opportunities that a contribution continued, changed or ceased to be usable or enacted. | Silence, a missing publication or no opportunity to use the Method does not by itself establish loss. |
 | Mediation | The actual tool, platform, community or publication arrangement and the visibility, interpretation, recognition or selection relation it changes. | A prominent display, recommender output or high access count does not establish value, control or cultural success. |
 
-Keep claim scope smaller than or equal to the observed population and period. A workshop account may show one useful adaptation. A review of published applications may reveal cases to inspect. Neither establishes how every practitioner in a country works.
+State observations for the population and period actually covered. A wider transfer, population or forecast claim needs its own stated basis and uncertainty. A workshop account may show one useful adaptation. A review of published applications may reveal cases to inspect. Neither establishes how every practitioner in a country works.
 
 The `PSDA.16` repertoire supplies a variant, lineage or bounded evidence only when it changes this cultural decision. Its offering status is not evidence of transmission. The `PSDA.17` arrangement result can similarly supply a local change or observation; resolution of one interference is not evidence that another team learned it. If either input is absent, stale, out of scope or incompatible, obtain a compatible result that supports the particular cultural link being claimed, or leave that link unproved.
 
@@ -4563,7 +4559,7 @@ Check whose question is being answered, which disclosure is actually permitted, 
 3. **MUST** bound the offered service, actual competence, applicable professional conditions, exclusions, and referral or closure requirements.
 4. **MUST** establish the relevant participation and information-use basis without inferring consent, capacity, or disclosure permission from a title, payment, or form alone.
 5. **MUST** address material conflicts before relying on the requested advice; disclosure must not substitute for the treatment actually required.
-6. **MUST** distinguish AI assisting the adviser from AI as the developing subject and preserve the respective professional and technical qualification.
+6. When AI is involved, **MUST** distinguish AI assisting the adviser from AI as the developing subject and preserve the respective professional and technical qualification.
 7. **MUST** use qualified external results for specialist premises and state the precise scope blocked when a result is missing.
 8. **MUST** distinguish an admissible engagement question from a warranted recommendation and each later authorized choice or realization.
 9. **MUST** preserve actual professional duties after delivery without inventing an indefinite follow-up service.
@@ -5684,11 +5680,11 @@ When a feasible arrangement has been chosen and authorized, the teams still have
 
 ## PSDA.Sources:1 - Source arguments and refresh
 
-Each full pattern preserves its adopted contribution, serious alternatives, trade-offs and source limitations in SoTA-Echoing. Those arguments govern reuse more precisely than a publication year or an author list. The PSM and decision-analysis studies supply their examined claims and settings; professional sources qualify their own relationships; constructed examples supply transparent demonstrations, not effect estimates.
+Each pattern's SoTA-Echoing section gives the working question, adopted contribution, serious alternatives, trade-offs, source limits and the observation that would reopen its argument. Use that argument before relying on a citation. The map below locates these arguments; it neither surveys the whole field nor independently confirms the cited sources.
 
-Use a source result only for its actual subject, configuration and question. When a source or condition changes, recover which inference depended on it, preserve independent grounds and obtain the smallest further result that can change the answer. FPF A.10 qualifies a known reliance; A.10.1 revalidates affected uses when a changed source requires their discovery; G.11 governs the selected currentness question. Actual scientific, legal, engineering and professional conclusions remain with their practices.
+PSM and decision-analysis studies support the claims and settings they examined; professional sources qualify their own relationships; constructed examples demonstrate reasoning without estimating effects.
 
-Each pattern's SoTA-Echoing section owns its substantive comparison: the working question, selected move, serious rival, trade-off, source limits and observation that would reopen it. Use that argument before relying on a citation. The following map is a return aid, not a second source doctrine, a field census or independent confirmation of the sources it condenses.
+Use a source result for its subject, configuration and question. When a source or condition changes, recover the inferences that depended on it and preserve independent grounds. Obtain a further result only when its attainable contribution to the receiving answer warrants the whole acquisition burden. FPF A.10 qualifies a known reliance; A.10.1 revalidates affected uses when a changed source requires their discovery; G.11 governs the selected currentness question. Actual scientific, legal, engineering and professional conclusions remain with their practices.
 
 | Source-informed contribution | Source line used and substantive limit | Return when the answer changes |
 | --- | --- | --- |
@@ -5707,18 +5703,18 @@ Publication years identify sources; they do not by themselves identify a qualifi
 
 ## PSDA.Sources:2 - Citation and limits
 
-For this working edition, cite Anatoly Levenchuk, *Decision Design Principles Framework*, 23 October 2026, the named PatternID and the actual publication used. This working text contains nineteen complete Methods and the explanations needed to select and combine their contributions. A pattern address identifies a contribution within that publication; its Markdown fragment follows the actual heading. A changed title or source requires checking its maintained return rather than assuming a title-independent URL.
-
-Cite the title, PatternID and edition actually used, with a permanent link or stored copy when the exact wording matters:
+Cite the edition and publication actually used. For this working edition, use:
 
 ```text
 Anatoly Levenchuk, with AI-assisted development and review.
 Decision Design Principles Framework.
-Working edition, 23 October 2026.
+Working edition, 24 October 2026.
 GitHub repository: https://github.com/ailev/FPF
 ```
 
-For a particular pattern, add its PatternID and title, for example: PSDA.14 - Prepare and Return a Decision-Support Recommendation. Retain the release date, and include a permanent link or stored copy when the exact wording matters.
+For a particular contribution, add its PatternID and title—for example, PSDA.14 - Prepare and Return a Decision-Support Recommendation. Keep that edition's date and include a permanent link or stored copy when the exact wording matters.
+
+This edition contains nineteen complete Methods and the explanations needed to select and combine them. Markdown fragments follow the actual headings; when a title or source changes, check its maintained address.
 
 ## PSDA.Sources:3 - Source responsibility and references
 
