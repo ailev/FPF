@@ -30,7 +30,7 @@ Use a public unit for orientation or source access. Search the complete pattern 
 | [EXD.Reference:7](#exdreference7---framework-and-subject-suppliers) | Framework and subject suppliers |
 | [EXD.Sources:1](#exdsources1---relied-on-contributions-and-their-limits) | Relied-on contributions and their limits |
 | [EXD.Profiles - Use profiles](#use-profiles) | Adapt the Methods to instructional, technical/advisory and human–AI explanation. |
-| [Explanation Design Principles Framework Sources and Edition Notes](#explanation-design-principles-framework-sources-and-edition-notes) | Recover relied-on contributions, supplying editions, limits and conditions for reconsideration. |
+| [Explanation Design Principles Framework Sources and Edition Notes](#explanation-design-principles-framework-sources-and-edition-notes) | Recover relied-on research contributions, their limits and conditions for reconsideration. |
 | [EXD.Edition - Name and citation](#name-and-citation) | Cite the framework and recover its local naming settlement. |
 
 **Patterns by working question**
@@ -338,7 +338,7 @@ At the same practical grain, “Why is 5.5 wrong?” and “Which unit receives 
 
 [EXD.4](#exd4---co-construct-and-repair-an-explanation-in-dialogue) uses and revises the question during an exchange. [The supplied-account entry](#exdreference3---obtain-and-carry-the-subject-explanation) obtains the answer's subject relations and conditions.
 
-FPF [FPF A.2.9](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a29--uspeechact--communicative-work-and-its-intended-use) supplies communicative-use distinctions where that analysis is needed. [FPF C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation--structure-this-reader-can-recover) characterizes what a particular observer can recover from an account and form under selected conditions; it does not choose the question's purpose.
+[FPF A.2.9](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a29--uspeechact--communicative-work-and-its-intended-use) supplies communicative-use distinctions where that analysis is needed. [FPF C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation--structure-this-reader-can-recover) characterizes what a particular observer can recover from an account and form under selected conditions; it does not choose the question's purpose.
 
 ### EXD.1:End
 
@@ -753,7 +753,7 @@ At the same local opportunity to respond, repeating the pooled-mean derivation a
 
 [EXD.1](#exd1---establish-and-revise-what-a-recipient-needs-explained) supplies and revises the question. [The supplied-account entry](#exdreference3---obtain-and-carry-the-subject-explanation) provides the subject basis and its return.
 
-FPF [FPF C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation--structure-this-reader-can-recover) qualifies structural recovery at an identifiable point in the exchange by the account, expression, observer and conditions. Changes after help receive their changed conditions. Human capability development supplies task-specific assistance, feedback tied to the task criterion and retry when the receiving purpose is instructional.
+[FPF C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation--structure-this-reader-can-recover) qualifies structural recovery at an identifiable point in the exchange by the account, expression, observer and conditions. Changes after help receive their changed conditions. Human capability development supplies task-specific assistance, feedback tied to the task criterion and retry when the receiving purpose is instructional.
 
 ### EXD.4:End
 
@@ -1042,7 +1042,7 @@ Use this profile when a practitioner or advice recipient needs to understand a r
 
 The common account and recognition/assurance distinction remain as stated in the Architectural Reference. Here subject qualification comes from the relevant technical or advising practice. Core's Method-development patterns supply Method-description content and whole-language rationale through A.3.2.DE and E.8.ML and comparison through C.37.CF. Decision Design supplies the recommendation's grounds, alternatives and reconsideration through PSDA.14. Decision Design supplies engagement, authority and feasibility conditions through PSDA.19.
 
-An engineer asks why source allocation, coherence checking and reconstruction have separate entries and proposes one review procedure. EXD.1 distinguishes wanting one check from wanting the architecture rationale. The supplied E.8.ML account relates three missing results: F.0.2.MA asks which source contributions were carried; A.3.1.CC asks whether a maintained claim agrees with its basis; F.0.2.RC asks which promised source contribution is no longer recoverable. Their different questions and source returns justify direct entries. A diagram may group the entries for navigation without establishing that their subjects are parts of one Method.
+An engineer asks why source allocation, coherence checking and reconstruction have separate entries and proposes one review procedure. EXD.1 distinguishes a request to perform one check from a request to explain the language's architecture. For that explanation, recover three different questions from the supplying Methods: which source contributions are carried and why (F.0.2.MA); whether a maintained Method claim agrees with its basis (A.3.1.CC); and whether the promised source contribution can be reconstructed for the declared use (F.0.2.RC). The reconstruction can confirm usable coverage, expose a missing contribution or leave the basis unresolved. E.8.ML explains why independently useful answers and their returns can justify separate entries without making them compulsory steps of one Method. A diagram can group those entries for navigation while preserving that distinction.
 
 If the engineer only needs to check one maintained claim against an available source, direct A.3.1.CC can suffice. If a required source disappears, return that affected reliance while retaining independently supported results. EXD.3 can change the expression of these same relations; EXD.6 keeps the current E.8.ML account unless a relevant comparison justifies a repair. A publication-authorization question has different grounds from understanding this rationale.
 
@@ -1131,13 +1131,13 @@ Reopen the name when its actual use systematically hides performed interaction, 
 
 ## EXD.Edition:3 - Public term row
 
-The [FPF F.17](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#f17---make-a-settled-naming-decision-recoverable-for-reuse-unified-term-sheet) public row below makes the single local naming settlement available for reuse. Public citation of the framework and its prefix needs this one stable designation; the six ordinary action titles do not require six additional term families. This is the bounded F.14 admission reason. The row's claim content consists of the identity, sense, basis, use and currentness claims stated here; the row and the naming settlement are distinct epistemes about the same governed framework.
+The [FPF F.17](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#f17---make-a-settled-naming-decision-recoverable-for-reuse-unified-term-sheet) public row below makes the single local naming settlement available for reuse. Public citation of the framework and its prefix needs this one stable designation; the six ordinary action titles do not require six additional term families. The row's claim content consists of the identity, sense, basis, use and currentness claims stated here; the row and the naming settlement are distinct epistemes about the same governed framework.
 
 | Row field | Value |
 | --- | --- |
 | UTSRowId; UnificationThreadId | EXD-TERM-01; EXD-NAMING-01, stable local designators. |
 | GovernedValueRef; GovernedValueKindRef | This edition's Explanation Design DPF as specified in the Architectural Reference, EXD.1–EXD.6 and Use profiles; Domain Principle Framework under E.4.DPF. |
-| SubjectPatternLocator | FPF E.4.DPF, at the supplying edition named above. |
+| SubjectPatternLocator | FPF E.4.DPF. |
 | ReferenceScheme | By value: the governed practice constructs and adapts explanations for a recipient's use; subject, question, purpose, warranted account, expression, recipient, contribution and use conditions remain distinct; subject-supplying Methods remain external. |
 | UnifiedTechName; UnifiedPlainName | Explanation Design Principles Framework; Explanation Design. |
 | NameCardRef | EXD-NAME-01 in Naming settlement, this edition. |
