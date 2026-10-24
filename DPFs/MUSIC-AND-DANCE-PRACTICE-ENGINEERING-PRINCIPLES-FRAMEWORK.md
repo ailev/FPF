@@ -29,7 +29,7 @@ Search the Keywords & Search Queries column for the performance, teaching, pract
 | :--- | :--- |
 | [Music and Dance Practice Engineering Principles Framework Readme](#music-and-dance-practice-engineering-principles-framework-readme) | Follow style development, preparation of a performing whole, and transfer with practice continuation. |
 | [Citation](#citation) | Cite this framework or one pattern with its author, title, release date, and publication address. |
-| [Music and Dance Practice Engineering Principles Framework Architectural Reference](#music-and-dance-practice-engineering-principles-framework-architectural-reference) | Understand the distinctions that make the twenty-six patterns work together. |
+| [Music and Dance Practice Engineering Principles Framework Architectural Reference](#music-and-dance-practice-engineering-principles-framework-architectural-reference) | Understand the distinctions that make the twenty-eight patterns work together. |
 | [MDPE.Reference:1](#mdpereference1---a-first-result-and-a-sufficient-combination) | A first result and a sufficient combination |
 | [MDPE.Reference:2](#mdpereference2---several-structures-operate-at-once) | Several structures operate at once |
 | [MDPE.Reference:3](#mdpereference3---performance-recognition-selection-and-continuation-are-different-results) | Performance, recognition, selection, and continuation are different results |
@@ -69,42 +69,44 @@ Search the Keywords & Search Queries column for the performance, teaching, pract
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
 | 5 | [MDPE.9 - Generate and Compare Music-or-Dance Performance Candidates](#mdpe9---generate-and-compare-music-or-dance-performance-candidates) |  Stable  | *Keywords:* performance candidates, composition, choreography, interpretation, movement, instrument, generative model, variation, comparison. *Queries:* "Which materially different candidates expose the current creative assumption?" "What observation involving a performer could change our choice?" Generate and compare possibilities with their bodily, instrumental, partner, venue, and rehearsal conditions, then retain, revise, branch, or reject candidates for the intended use. | MDPE.1; FPF C.40, C.17, C.18, C.19, C.11 |
-| 6 | [MDPE.10 - Develop and Test Music-or-Dance Performing Capability](#mdpe10---develop-and-test-music-or-dance-performing-capability) |  Stable  | *Keywords:* performing capability, rehearsal, learning, representative task, transfer, performer, ensemble, robot, assistance. *Queries:* "Who must become capable of performing what under which conditions?" "Does the ability survive a changed partner, cue, instrument, or setting?" Develop and test the limiting contribution in representative Work, including simultaneous bodily, expressive, instrumental, and coordination demands, and return the demonstrated capability envelope. | MDPE.9; FPF A.2.2, E.23.CDI |
-| 7 | [MDPE.3 - Configure and Coordinate a Music-or-Dance Performing Whole](#mdpe3---configure-and-coordinate-a-music-or-dance-performing-whole) |  Stable  | *Keywords:* performing whole, performer, partner, instrument, prosthesis, robot, venue, sensing, timing, coordination. *Queries:* "Which configuration lets the performers carry out the intended performance with their partners, instruments, and other support?" "Where do individually capable performers or working tools fail through latency, contact, cues, control, or recovery?" Configure the smallest useful whole and its external support relations, and test the interactions that make representative performance possible. | MDPE.9, MDPE.10; FPF A.15.1, A.22 |
-| 8 | [MDPE.26 - Construct and Change a Partnered Movement Organization](#mdpe26---construct-and-change-a-partnered-movement-organization) | Stable | *Keywords:* partnered movement, support, weight transfer, cue, attention, transition, fusion. *Queries:* "How can we obtain a wanted movement quality together?" "Why do two familiar passages fail at the join?" Construct bodily means and a transition that both participants can use while responding to the relevant musical and partner changes. | MDPE.3, MDPE.10, MDPE.11; SOM.5 |
+| 6 | [MDPE.29 - Compose Movement from a Physical Relation or Scientific Image](#mdpe29---compose-movement-from-a-physical-relation-or-scientific-image) | Stable | *Keywords:* choreography, physics, scientific image, phrase, variation, composition, transition. *Queries:* "How can a physical idea become a complete movement composition?" "Which relation should a changed phrase retain?" Construct material, investigate consequential transformations and compose the whole with its joins and viewer relation. | MDPE.9, MDPE.11 |
+| 7 | [MDPE.30 - Construct a Rhythmic Part from a Seed, Phase and Action Rule](#mdpe30---construct-a-rhythmic-part-from-a-seed-phase-and-action-rule) | Stable | *Keywords:* rhythmic part, seed, phase, alternation, hand allocation, toggle rhythm, accompaniment. *Queries:* "How do we turn this rhythmic pattern into a playable part?" "Why does the right sound fail to return at the cycle boundary?" Connect the seed, fixed musical origin, action rule and sounds; adapt the part when its receiving conditions change. | MDPE.9, MDPE.3, MDPE.10; RHY.8 |
+| 8 | [MDPE.10 - Develop and Test Music-or-Dance Performing Capability](#mdpe10---develop-and-test-music-or-dance-performing-capability) |  Stable  | *Keywords:* performing capability, rehearsal, learning, representative task, transfer, performer, ensemble, robot, assistance. *Queries:* "Who must become capable of performing what under which conditions?" "Does the ability survive a changed partner, cue, instrument, or setting?" Develop and test the limiting contribution in representative Work, including simultaneous bodily, expressive, instrumental, and coordination demands, and return the demonstrated capability envelope. | MDPE.9; FPF A.2.2, E.23.CDI |
+| 9 | [MDPE.3 - Configure and Coordinate a Music-or-Dance Performing Whole](#mdpe3---configure-and-coordinate-a-music-or-dance-performing-whole) |  Stable  | *Keywords:* performing whole, performer, partner, instrument, prosthesis, robot, venue, sensing, timing, coordination. *Queries:* "Which configuration lets the performers carry out the intended performance with their partners, instruments, and other support?" "Where do individually capable performers or working tools fail through latency, contact, cues, control, or recovery?" Configure the smallest useful whole and its external support relations, and test the interactions that make representative performance possible. | MDPE.9, MDPE.10; FPF A.15.1, A.22 |
+| 10 | [MDPE.26 - Construct and Change a Partnered Movement Organization](#mdpe26---construct-and-change-a-partnered-movement-organization) | Stable | *Keywords:* partnered movement, support, weight transfer, cue, attention, transition, fusion. *Queries:* "How can we obtain a wanted movement quality together?" "Why do two familiar passages fail at the join?" Construct bodily means and a transition that both participants can use while responding to the relevant musical and partner changes. | MDPE.3, MDPE.10, MDPE.11; SOM.5 |
 
 **Part III - Performance, Observation, Recognition, and Selection**
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 9 | [MDPE.11 - Interpret or Shape Music-or-Dance Material While Performing](#mdpe11---interpret-or-shape-music-or-dance-material-while-performing) |  Stable  | *Keywords:* interpretation, improvisation, live coding, score, choreography, material, cue, responsive performance. *Queries:* "How is prepared material interpreted or new material shaped while performing?" "Which live partner, timing, instrument, or participation constraint changes the move?" Keep the performer's contribution and the actual conditions visible as material is realized, varied, or generated, preserving only traces that a later decision needs. | MDPE.3; FPF A.15.7 |
-| 10 | [MDPE.27 - End Voluntary Partnered Performance](#mdpe27---end-voluntary-partnered-performance) | Stable | *Keywords:* voluntary participation, stop, ending, release, contact, exit. *Queries:* "How do we actually finish when one participant wants to stop?" "Why does a musical ending leave contact or the expectation to continue?" Connect the finishing decision, usable stopping movement, release and onward route. | MDPE.26; MDPE.5; MDPE.10 |
-| 11 | [MDPE.28 - Receive a Declined Invitation and Find an Available Next Action](#mdpe28---receive-a-declined-invitation-and-find-an-available-next-action) | Stable | *Keywords:* declined invitation, refusal, disengagement, next action, participation, help, disappointment. *Queries:* "What do I do after a declined invitation?" "Why does a polite reply still leave me unable to take the next action?" End the invitation without pressure and obtain a wanted continuation or identify the missing help, keeping emotional claims separate. | MDPE.5, MDPE.10, MDPE.25; HCD.6, HCD.9 |
-| 12 | [MDPE.5 - Integrate Production and Presentation for Performed Music-or-Dance Work](#mdpe5---integrate-production-and-presentation-for-performed-music-or-dance-work) |  Stable  | *Keywords:* performed Work, production, presentation, concert, social dance, event, recording, stream, intended use. *Queries:* "Do production and presentation results work together for this performed occurrence?" "What actually happened for the performers and receivers under these conditions?" Integrate the bounded music or dance Work with its production and presentation contributions, retaining the evidence needed to judge the intended use. | MDPE.3, MDPE.11; FPF A.15.1, E.24.PUB |
-| 13 | [MDPE.12 - Observe and Compare Music-or-Dance Performance and Cultural Results](#mdpe12---observe-and-compare-music-or-dance-performance-and-cultural-results) |  Stable  | *Keywords:* performance observation, partner response, listener, judge, sensor, comparison, cultural result, evidence limits. *Queries:* "Which observed difference can change this music or dance decision?" "What can sound, video, interaction, self-report, or population evidence actually show?" Compare the relevant performance and cultural claims for their specific subjects, conditions, populations, and intervals, then return the supported result and remaining uncertainty. | MDPE.5; FPF A.10, A.19.ECS |
-| 14 | [MDPE.23 - Develop and Test Music-or-Dance Recognition Capability](#mdpe23---develop-and-test-music-or-dance-recognition-capability) |  Stable  | *Keywords:* recognition capability, listening, discrimination, timing, style recognition, applicability, cue dependence, transfer. *Queries:* "Can this performer, listener, partner, teacher, or recognizer detect the intended distinction?" "Does recognition work without the training cue and in a changed situation?" Develop and test the exact recognition task, locating the remaining discrimination, retrieval, applicability, or action difficulty for the named holder. | MDPE.12; FPF A.2.2, E.23.CDI |
-| 15 | [MDPE.13 - Design How Music-or-Dance Variants Are Recognized and Selected](#mdpe13---design-how-music-or-dance-variants-are-recognized-and-selected) |  Stable  | *Keywords:* recognition, selection, judging, curation, competition, recommendation, programme, access rule, feedback. *Queries:* "Which variants does this arrangement make visible and reward?" "How do performers and teachers adapt to what is selected?" Compare bounded recognition-and-selection arrangements through their criteria, proxy effects, access consequences, feedback, and retained alternatives for the actual practice and participants. Return a selected design and observation plan, or grounds to retain the current arrangement. | MDPE.12, MDPE.23; FPF C.36, C.11 |
+| 11 | [MDPE.11 - Interpret or Shape Music-or-Dance Material While Performing](#mdpe11---interpret-or-shape-music-or-dance-material-while-performing) |  Stable  | *Keywords:* interpretation, improvisation, live coding, score, choreography, material, cue, responsive performance. *Queries:* "How is prepared material interpreted or new material shaped while performing?" "Which live partner, timing, instrument, or participation constraint changes the move?" Keep the performer's contribution and the actual conditions visible as material is realized, varied, or generated, preserving only traces that a later decision needs. | MDPE.3; FPF A.15.7 |
+| 12 | [MDPE.27 - End Voluntary Partnered Performance](#mdpe27---end-voluntary-partnered-performance) | Stable | *Keywords:* voluntary participation, stop, ending, release, contact, exit. *Queries:* "How do we actually finish when one participant wants to stop?" "Why does a musical ending leave contact or the expectation to continue?" Connect the finishing decision, usable stopping movement, release and onward route. | MDPE.26; MDPE.5; MDPE.10 |
+| 13 | [MDPE.28 - Receive a Declined Invitation and Find an Available Next Action](#mdpe28---receive-a-declined-invitation-and-find-an-available-next-action) | Stable | *Keywords:* declined invitation, refusal, disengagement, next action, participation, help, disappointment. *Queries:* "What do I do after a declined invitation?" "Why does a polite reply still leave me unable to take the next action?" End the invitation without pressure and obtain a wanted continuation or identify the missing help, keeping emotional claims separate. | MDPE.5, MDPE.10, MDPE.25; HCD.6, HCD.9 |
+| 14 | [MDPE.5 - Integrate Production and Presentation for Performed Music-or-Dance Work](#mdpe5---integrate-production-and-presentation-for-performed-music-or-dance-work) |  Stable  | *Keywords:* performed Work, production, presentation, concert, social dance, event, recording, stream, intended use. *Queries:* "Do production and presentation results work together for this performed occurrence?" "What actually happened for the performers and receivers under these conditions?" Integrate the bounded music or dance Work with its production and presentation contributions, retaining the evidence needed to judge the intended use. | MDPE.3, MDPE.11; FPF A.15.1, E.24.PUB |
+| 15 | [MDPE.12 - Observe and Compare Music-or-Dance Performance and Cultural Results](#mdpe12---observe-and-compare-music-or-dance-performance-and-cultural-results) |  Stable  | *Keywords:* performance observation, partner response, listener, judge, sensor, comparison, cultural result, evidence limits. *Queries:* "Which observed difference can change this music or dance decision?" "What can sound, video, interaction, self-report, or population evidence actually show?" Compare the relevant performance and cultural claims for their specific subjects, conditions, populations, and intervals, then return the supported result and remaining uncertainty. | MDPE.5; FPF A.10, A.19.ECS |
+| 16 | [MDPE.23 - Develop and Test Music-or-Dance Recognition Capability](#mdpe23---develop-and-test-music-or-dance-recognition-capability) |  Stable  | *Keywords:* recognition capability, listening, discrimination, timing, style recognition, applicability, cue dependence, transfer. *Queries:* "Can this performer, listener, partner, teacher, or recognizer detect the intended distinction?" "Does recognition work without the training cue and in a changed situation?" Develop and test the exact recognition task, locating the remaining discrimination, retrieval, applicability, or action difficulty for the named holder. | MDPE.12; FPF A.2.2, E.23.CDI |
+| 17 | [MDPE.13 - Design How Music-or-Dance Variants Are Recognized and Selected](#mdpe13---design-how-music-or-dance-variants-are-recognized-and-selected) |  Stable  | *Keywords:* recognition, selection, judging, curation, competition, recommendation, programme, access rule, feedback. *Queries:* "Which variants does this arrangement make visible and reward?" "How do performers and teachers adapt to what is selected?" Compare bounded recognition-and-selection arrangements through their criteria, proxy effects, access consequences, feedback, and retained alternatives for the actual practice and participants. Return a selected design and observation plan, or grounds to retain the current arrangement. | MDPE.12, MDPE.23; FPF C.36, C.11 |
 
 **Part IV - Changed Conditions, Transmission, Memory, and Continuation**
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 16 | [MDPE.6 - Choose Whether and How to Use a Music-or-Dance Result under New Conditions](#mdpe6---choose-whether-and-how-to-use-a-music-or-dance-result-under-new-conditions) |  Stable  | *Keywords:* adaptation, changed instrument, body, partner, venue, medium, reuse, revision, branch, preservation. *Queries:* "Can this music or dance result serve a new receiving use?" "Which timing, interaction, function, or meaning must survive the change?" Compare source and receiving conditions, identify the relations that matter, and choose reuse, revision, branching, a discriminating probe, or a stop for the bounded case. | FPF C.11; conditional C.17, C.11.CRC |
-| 17 | [MDPE.17 - Design and Test Transmission of a Music-or-Dance Method](#mdpe17---design-and-test-transmission-of-a-music-or-dance-method) |  Stable  | *Keywords:* transmission, teaching, receiving enactment, demonstration, imitation, reconstruction, transfer, retention, source contribution. *Queries:* "What Method did the receiving performer's Work actually enact?" "Which contribution from teaching, demonstration, or material to that result does the evidence support?" Design and test receiving enactment under relevant conditions, allowing productive variants and exposing cue dependence, prior capability, and the evidence limits on transmission. | MDPE.6; FPF C.28, A.10 |
-| 18 | [MDPE.18 - Build Usable Music-or-Dance Cultural Memory and Lineage Evidence](#mdpe18---build-usable-music-or-dance-cultural-memory-and-lineage-evidence) |  Stable  | *Keywords:* cultural memory, archive, recording, score, embodied knowledge, lineage, borrowing, reconstruction, provenance. *Queries:* "What can the surviving records and capabilities support for this decision?" "Which lineage claims need another source or reconstruction trial?" Build a usable memory and lineage account that preserves selected traces, embodied gaps, mixed derivations, and source returns for attribution, teaching, restoration, or later performance. | FPF A.3.1.MR, C.2.1, A.10 |
-| 19 | [MDPE.19 - Decide Whether a Music-or-Dance Variant Can Continue and What to Change](#mdpe19---decide-whether-a-music-or-dance-variant-can-continue-and-what-to-change) |  Stable  | *Keywords:* continuation, retention, restoration, loss, reproducibility, replacement performer, teaching, venue, cultural variant. *Queries:* "Can present participants reproduce this variant in representative Work?" "Which failing capability, support, memory, or transmission relation prevents another occurrence?" Use available evidence for a qualified continuation account or decision about retention, restoration, revision, local retirement or bounded loss. Select a new reproduction test only when its attainable contribution warrants the whole burden. Claims of tested continuation, tested replacement or later enactment need representative observed Work; causal-contribution claims need appropriate evidence. | MDPE.17, MDPE.18; FPF C.36, A.10 |
+| 18 | [MDPE.6 - Choose Whether and How to Use a Music-or-Dance Result under New Conditions](#mdpe6---choose-whether-and-how-to-use-a-music-or-dance-result-under-new-conditions) |  Stable  | *Keywords:* adaptation, changed instrument, body, partner, venue, medium, reuse, revision, branch, preservation. *Queries:* "Can this music or dance result serve a new receiving use?" "Which timing, interaction, function, or meaning must survive the change?" Compare source and receiving conditions, identify the relations that matter, and choose reuse, revision, branching, a discriminating probe, or a stop for the bounded case. | FPF C.11; conditional C.17, C.11.CRC |
+| 19 | [MDPE.17 - Design and Test Transmission of a Music-or-Dance Method](#mdpe17---design-and-test-transmission-of-a-music-or-dance-method) |  Stable  | *Keywords:* transmission, teaching, receiving enactment, demonstration, imitation, reconstruction, transfer, retention, source contribution. *Queries:* "What Method did the receiving performer's Work actually enact?" "Which contribution from teaching, demonstration, or material to that result does the evidence support?" Design and test receiving enactment under relevant conditions, allowing productive variants and exposing cue dependence, prior capability, and the evidence limits on transmission. | MDPE.6; FPF C.28, A.10 |
+| 20 | [MDPE.18 - Build Usable Music-or-Dance Cultural Memory and Lineage Evidence](#mdpe18---build-usable-music-or-dance-cultural-memory-and-lineage-evidence) |  Stable  | *Keywords:* cultural memory, archive, recording, score, embodied knowledge, lineage, borrowing, reconstruction, provenance. *Queries:* "What can the surviving records and capabilities support for this decision?" "Which lineage claims need another source or reconstruction trial?" Build a usable memory and lineage account that preserves selected traces, embodied gaps, mixed derivations, and source returns for attribution, teaching, restoration, or later performance. | FPF A.3.1.MR, C.2.1, A.10 |
+| 21 | [MDPE.19 - Decide Whether a Music-or-Dance Variant Can Continue and What to Change](#mdpe19---decide-whether-a-music-or-dance-variant-can-continue-and-what-to-change) |  Stable  | *Keywords:* continuation, retention, restoration, loss, reproducibility, replacement performer, teaching, venue, cultural variant. *Queries:* "Can present participants reproduce this variant in representative Work?" "Which failing capability, support, memory, or transmission relation prevents another occurrence?" Use available evidence for a qualified continuation account or decision about retention, restoration, revision, local retirement or bounded loss. Select a new reproduction test only when its attainable contribution warrants the whole burden. Claims of tested continuation, tested replacement or later enactment need representative observed Work; causal-contribution claims need appropriate evidence. | MDPE.17, MDPE.18; FPF C.36, A.10 |
 
 **Part V - Supporting Environment, Practice Conflicts, Local Change, Alternatives, Trajectories, and Next Work**
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 20 | [MDPE.22 - Test a Support-Environment Change for a Music-or-Dance Practice](#mdpe22---test-a-support-environment-change-for-a-music-or-dance-practice) |  Stable  | *Keywords:* practice environment, venue, school, platform, tools, access, organizer, support Work, resource burden. *Queries:* "Which environmental relation must change for this practice to continue?" "After the support intervention, which surrounding relations hold and what music or dance result was observed?" Test the chosen change through actual practitioner and receiving Work, exposing missing capability, authorization, access, recurring support, or burdens shifted to others. | MDPE.1, MDPE.12; FPF A.2.2, A.22, C.28 |
-| 21 | [MDPE.14 - Choose a Response to Conflicting Music-or-Dance Results](#mdpe14---choose-a-response-to-conflicting-music-or-dance-results) |  Stable  | *Keywords:* conflicting results, local optimization, rhythm, expression, partner response, safety, participation, scale, Work overlap. *Queries:* "Which improvement damages another result that still matters?" "What part-whole, scale-order, simultaneous-Work, slower-constraint, or representation relation creates the conflict?" Recover the actual relationship and choose a bounded response that respects the relevant performer, partner, whole-performance, and practice consequences. | MDPE.12, MDPE.21; FPF C.32.MWA, C.11 |
-| 22 | [MDPE.25 - Renew a Shared Music or Dance Practice](#mdpe25---renew-a-shared-music-or-dance-practice) | Stable | *Keywords:* shared practice, participation, teaching, recognition, provision, renewal, criteria, local arrangement. *Queries:* "How can teaching, recognition and available resources support the participation people value?" "What changes together when a useful variant or lost resource challenges the arrangement?" Construct a supported local arrangement or qualified proposal, realize it when assigned, and revise the affected contribution or criterion while retaining useful results. | MDPE.13, MDPE.14, MDPE.15, MDPE.17, MDPE.21, MDPE.22; FPF C.36, C.39, A.3.1, B.1.5 |
-| 23 | [MDPE.15 - Make and Test a Local Music-or-Dance Practice Change](#mdpe15---make-and-test-a-local-music-or-dance-practice-change) |  Stable  | *Keywords:* local practice change, intervention, trial, revised exercise, rule, tool, Method, observed result. *Queries:* "What exactly changed in this bounded intervention?" "What did the trial establish for the next practice decision?" Perform and test the already-selected local change, observe its direct result under stated conditions, and return the supported revision or next question while retaining unresolved capability and cultural claims. | MDPE.6, MDPE.14; FPF A.15.1, A.10, C.11 |
-| 24 | [MDPE.16 - Keep Music-or-Dance Alternatives Available for Later Use](#mdpe16---keep-music-or-dance-alternatives-available-for-later-use) |  Stable  | *Keywords:* development alternatives, diversity, minority variant, later use, branch, capability, access, archive. *Queries:* "Which materially different alternatives remain usable for a later need?" "Does a changed condition require upkeep, or does current availability still suffice?" Retain supported alternatives with their actual performers, capabilities, relationships, tools, rights and conditions. Select upkeep or trials only when needed, worthwhile and obtainable; an older evidence carrier alone does not end availability. | MDPE.9, MDPE.12; FPF C.18, C.19, B.3.4, G.11 |
-| 25 | [MDPE.20 - Forecast How a Music-or-Dance Practice May Develop](#mdpe20---forecast-how-a-music-or-dance-practice-may-develop) |  Stable  | *Keywords:* practice development, forecast, trajectory, mechanism, cultural change, observation, competing explanation, revision. *Queries:* "How might this practice develop through different mechanisms?" "What preparation or continuation is supported now, and what would justify further observation?" Return qualified trajectories and a current development decision on the available basis. A claimed empirical update names its obtained observation and transfer limits; a sufficient current forecast requires no new trial or renewal record. | MDPE.12, MDPE.16; FPF B.5.2, A.3.3, C.28, C.11, B.3.4 |
-| 26 | [MDPE.7 - Choose the Next Music-or-Dance Development Work](#mdpe7---choose-the-next-music-or-dance-development-work) |  Stable  | *Keywords:* next development Work, choice, probe, refusal, rehearsal, intervention, opportunity cost, current evidence. *Queries:* "Which bounded action is worth doing next in this music or dance project?" "Would a trial, a repair, or keeping a branch available help most, or does a different question need an answer?" Use the actual performance, capability, transmission, support, and development results to select the next useful Work within its conditions. | MDPE.12, MDPE.15, MDPE.20; FPF C.11, C.24 |
+| 22 | [MDPE.22 - Test a Support-Environment Change for a Music-or-Dance Practice](#mdpe22---test-a-support-environment-change-for-a-music-or-dance-practice) |  Stable  | *Keywords:* practice environment, venue, school, platform, tools, access, organizer, support Work, resource burden. *Queries:* "Which environmental relation must change for this practice to continue?" "After the support intervention, which surrounding relations hold and what music or dance result was observed?" Test the chosen change through actual practitioner and receiving Work, exposing missing capability, authorization, access, recurring support, or burdens shifted to others. | MDPE.1, MDPE.12; FPF A.2.2, A.22, C.28 |
+| 23 | [MDPE.14 - Choose a Response to Conflicting Music-or-Dance Results](#mdpe14---choose-a-response-to-conflicting-music-or-dance-results) |  Stable  | *Keywords:* conflicting results, local optimization, rhythm, expression, partner response, safety, participation, scale, Work overlap. *Queries:* "Which improvement damages another result that still matters?" "What part-whole, scale-order, simultaneous-Work, slower-constraint, or representation relation creates the conflict?" Recover the actual relationship and choose a bounded response that respects the relevant performer, partner, whole-performance, and practice consequences. | MDPE.12, MDPE.21; FPF C.32.MWA, C.11 |
+| 24 | [MDPE.25 - Renew a Shared Music or Dance Practice](#mdpe25---renew-a-shared-music-or-dance-practice) | Stable | *Keywords:* shared practice, participation, teaching, recognition, provision, renewal, criteria, local arrangement. *Queries:* "How can teaching, recognition and available resources support the participation people value?" "What changes together when a useful variant or lost resource challenges the arrangement?" Construct a supported local arrangement or qualified proposal, realize it when assigned, and revise the affected contribution or criterion while retaining useful results. | MDPE.13, MDPE.14, MDPE.15, MDPE.17, MDPE.21, MDPE.22; FPF C.36, C.39, A.3.1, B.1.5 |
+| 25 | [MDPE.15 - Make and Test a Local Music-or-Dance Practice Change](#mdpe15---make-and-test-a-local-music-or-dance-practice-change) |  Stable  | *Keywords:* local practice change, intervention, trial, revised exercise, rule, tool, Method, observed result. *Queries:* "What exactly changed in this bounded intervention?" "What did the trial establish for the next practice decision?" Perform and test the already-selected local change, observe its direct result under stated conditions, and return the supported revision or next question while retaining unresolved capability and cultural claims. | MDPE.6, MDPE.14; FPF A.15.1, A.10, C.11 |
+| 26 | [MDPE.16 - Keep Music-or-Dance Alternatives Available for Later Use](#mdpe16---keep-music-or-dance-alternatives-available-for-later-use) |  Stable  | *Keywords:* development alternatives, diversity, minority variant, later use, branch, capability, access, archive. *Queries:* "Which materially different alternatives remain usable for a later need?" "Does a changed condition require upkeep, or does current availability still suffice?" Retain supported alternatives with their actual performers, capabilities, relationships, tools, rights and conditions. Select upkeep or trials only when needed, worthwhile and obtainable; an older evidence carrier alone does not end availability. | MDPE.9, MDPE.12; FPF C.18, C.19, B.3.4, G.11 |
+| 27 | [MDPE.20 - Forecast How a Music-or-Dance Practice May Develop](#mdpe20---forecast-how-a-music-or-dance-practice-may-develop) |  Stable  | *Keywords:* practice development, forecast, trajectory, mechanism, cultural change, observation, competing explanation, revision. *Queries:* "How might this practice develop through different mechanisms?" "What preparation or continuation is supported now, and what would justify further observation?" Return qualified trajectories and a current development decision on the available basis. A claimed empirical update names its obtained observation and transfer limits; a sufficient current forecast requires no new trial or renewal record. | MDPE.12, MDPE.16; FPF B.5.2, A.3.3, C.28, C.11, B.3.4 |
+| 28 | [MDPE.7 - Choose the Next Music-or-Dance Development Work](#mdpe7---choose-the-next-music-or-dance-development-work) |  Stable  | *Keywords:* next development Work, choice, probe, refusal, rehearsal, intervention, opportunity cost, current evidence. *Queries:* "Which bounded action is worth doing next in this music or dance project?" "Would a trial, a repair, or keeping a branch available help most, or does a different question need an answer?" Use the actual performance, capability, transmission, support, and development results to select the next useful Work within its conditions. | MDPE.12, MDPE.15, MDPE.20; FPF C.11, C.24 |
 
 # Music and Dance Practice Engineering Principles Framework Readme
 
@@ -322,6 +324,8 @@ soloists, ensembles, collectives, robots, or hybrid arrangements. Music can be a
 The working cases include classes, parties, concerts, festivals, battles, competitions, recordings, online events,
 archives, and short-video platforms. A pattern that
 works only for its motivating case must be narrowed, repaired, or returned to a direct Method.
+
+[MDPE.29](#mdpe29---compose-movement-from-a-physical-relation-or-scientific-image) constructs choreography from a physical relation or scientific image; [MDPE.30](#mdpe30---construct-a-rhythmic-part-from-a-seed-phase-and-action-rule) constructs a rhythmic part from a seed, phase and action rule. These specialized Methods supply actual material to MDPE.9's comparison. Their worked scores show how changed physical, musical or receiving conditions return to the construction, while MDPE.10 and MDPE.3 supply capability and joint performance when needed.
 
 ## MDPE.Reference:7 - Music, Dance, and overlapping use profiles
 
@@ -690,7 +694,7 @@ A working move whose usefulness survives removal of all Music-and-Dance distinct
 
 ## MDPE.Reference:16 - Publication boundary
 
-This edition contains its Readme, Table of Contents, Architectural Reference, twenty-six pattern bodies, shared cross-pattern
+This edition contains its Readme, Table of Contents, Architectural Reference, twenty-eight pattern bodies, shared cross-pattern
 methods and constructed applications, and Sources and Edition Notes. The boundary and refresh explanations belong to the
 Architectural Reference. Source citations point to external works; the edition does not reproduce those works or the software
 that assembles this file.
@@ -1936,7 +1940,7 @@ Prefer a few candidates that pull the decision in different directions over many
 branch when its trade-off or stepping-stone value may matter later; do not force every difference back into one
 revised identity.
 
-For a connected rhythmic construction, use [Construct a rhythmic part from a seed, phase and action rule](#mdpeapplication4---construct-a-rhythmic-part-from-a-seed-phase-and-action-rule). It derives a small seed, changes its phase against a fixed accompaniment, generates hand/sound parts and adapts them when the receiving entry or phrase span changes.
+For movement made from a physical relation or scientific image, use [MDPE.29](#mdpe29---compose-movement-from-a-physical-relation-or-scientific-image) to construct phrases, transformations and their composition. For a rhythmic part made from a seed, use [MDPE.30](#mdpe30---construct-a-rhythmic-part-from-a-seed-phase-and-action-rule) to place it against the accompaniment, construct the hand and sound allocation and adapt it when the receiving entry or phrase span changes.
 
 For performers who already know the constituent material, [Build and adapt a whole rhythmic performance from learned sections](#mdpe947---build-and-adapt-a-whole-rhythmic-performance-from-learned-sections) explains how to choose the form's sections, connect them and change the arrangement when phrase density, duration or participants change.
 
@@ -2158,6 +2162,381 @@ For a constraint-specification candidate, name participants, proposed relations,
   specialization.
 
 ### MDPE.9:End
+
+## MDPE.29 - Compose Movement from a Physical Relation or Scientific Image
+
+**Type:** Method
+**Status:** Stable
+**Normativity:** Normative
+
+### MDPE.29:1 - Problem frame
+
+**Use this when** a physical relation or scientific image has suggested interesting movement, but you still need a phrase, its variations and a composed whole. The working result is a score or another recoverable organization of movement that a performer can investigate and realize, with its needed transitions and relation to the viewer.
+
+This construction belongs to a technique developed in Western concert, contemporary and postmodern choreography: generate movement material, investigate changes in energy, time and space, then compose the material. It is useful when that technique answers the current creative problem. A ready phrase that already serves the composition can be used directly; other dance traditions and other ways of composing need their own methods.
+
+### MDPE.29:2 - Problem
+
+A source idea does not yet supply a composition. A maker can obtain an attractive pose or gesture while leaving unclear what changes through the phrase, how one phrase enables the next, what the viewer encounters and how the whole ends. Literal illustration can suppress useful artistic development; treating a real mechanical constraint as a free metaphor can produce an unrealizable score.
+
+The practical problem is to turn the source into usable movement material and then into a whole whose relations can be varied, compared and realized. The source's contribution must remain intelligible even when the artistic result departs from its literal form.
+
+### MDPE.29:3 - Forces
+
+| Concern | Consequence for construction |
+| --- | --- |
+| Physical constraint and artistic possibility | A physical premise can rule out a realization; a scientific image can motivate another movement without explaining its mechanism. |
+| Recognizable material and consequential variation | Some relation must remain available for the intended comparison, while other features can change enough to develop the piece. |
+| Phrase and composition | Locally workable phrases can require an additional transition or a different order to form a whole. |
+| Composed score and performance | A precisely specified trajectory helps inspect timing and joins; capability, artistic effect and audience reception require their own observations. |
+
+### MDPE.29:4 - Solution
+
+The source becomes useful by changing what the maker can construct and compare. Keep its role explicit, make a recoverable movement phrase, vary relations that matter to the composition and assemble a whole with workable joins. The following operations can inform one another: an unsuccessful transition can change a phrase, and an emerging composition can change which source relation is worth retaining.
+
+#### MDPE.29:4.1 - Make the source useful to a composition
+
+First decide what the source contributes. A mechanical relation can exclude a movement under named conditions. A scientific image can suggest a movement without explaining its physical mechanism. Keep that decision visible when making the phrase.
+
+Choose a short, recoverable movement seed. Specify its beginning, changes and ending, including what happens between positions. Select a relation worth retaining: an arrival, order of changes, continuing path, response between performers or contrast visible to a viewer. Then change one feature that matters to the intended composition. The same seed can acquire another spatial path, duration distribution or quality. Compare the whole variants, including how each leaves the next action possible.
+
+Use MDPE.9 to make a retain, revise, branch or reject decision for these variants. It supplies the comparison; the phrase construction here supplies the domain generation method. Use MDPE.11 to state what is fixed beforehand and what may be interpreted or generated while performing. Compose a beginning that establishes the relation, a development that changes something consequential and an ending that resolves or deliberately suspends it. Return to movement technique or learning only for a contribution the selected composition actually needs.
+
+#### MDPE.29:4.2 - Investigate the material and compose the whole
+
+Recover the seed well enough to reproduce a meaningful variation. Depending on the movement, this may require a path, support relation, timing distribution, relation between performers or quality of transition. A list of positions is sufficient only when the movement between them is also recoverable. Demonstration, a score, a recording and a parameterized trace offer different ways to retain that information; choose what the intended performers can use.
+
+Use the source to propose an operation on that material. For a mechanical inquiry, derive how the changed quantity affects the movement under the selected model: changing a flight duration, for example, changes the required velocity and height. For an artistic image, define the choreographic operation you take from it, such as compressing one spatial dimension while retaining arrival times. The artistic choice can continue beyond literal illustration. When it does, explain the source accurately and judge the new movement for the composition it is meant to serve.
+
+Investigate alternatives through whole phrases. Changing duration can alter momentum, the perceived emphasis and readiness for a following action. Changing spatial scale can alter visibility and effort. A variation's value therefore depends on what the next phrase and the larger form require. Retain a recognizable relation when comparison needs it; change that relation when the composition calls for a new one. State the changed aim so that a successful departure is not judged as a failed copy.
+
+Compose by relating phrases across the whole: recurrence can establish recognition, contrast can redirect attention, and a changed return can make development perceptible. These are available relations, not a required dramatic arc. Determine where the viewer is, what can be seen from there and how the phrases' placement changes their reception. Construct each necessary transition from the actual ending of one phrase to the required beginning of the next, including timing, position, support and the performers' attention. If a join cannot be made under the chosen means, change the join, phrase, order or means and compare the resulting whole.
+
+The first usable result is the selected material, its transformations, the full composition and the next question that could alter it. Use a score or animation to settle the relationships it can show. Use a suitable realization to investigate bodily feasibility and artistic effect. Develop a missing performing capability only when the chosen composition needs it; an available alternative may already serve the work.
+
+#### MDPE.29:4.3 - Adapt the construction without losing its distinction
+
+When reusing either case, change the seed, retained relation or receiving conditions deliberately. Recompute a physical constraint when mass, contact, height or timing changes. Reconstruct transitions when a transformation changes the state from which the next phrase begins. If the wanted artistic relation survives a different realization, compare that realization rather than treating the original body action as mandatory.
+
+The joint use of PHY, SOM, RHY and HCD is conditional on the difficulty: physical modeling, bodily regulation, rhythmic coordination and human learning supply different results. Use an adequate direct dance or teaching method when it already supplies the needed result. The examples need no new universal hierarchy of those methods, and no single success judgement can substitute for physical correctness, usable movement and the intended artistic effect.
+
+### MDPE.29:5 - Archetypal Grounding
+
+The following are constructed teaching cases. Their conditions and choices are stipulated; they report no dancers, learning experiment or safe-performance qualification. They can first be inspected as scores or animated traces. Any embodied realization uses familiar, individually suitable movement and appropriate instruction; no jump, fall, lift or maximal movement is prescribed.
+
+#### MDPE.29:5.1 - Case A — Keep an apex in the music without demanding a longer flight
+
+**Situation and physical decision.** A maker has a four-second motif: rise and return during its first second, wait during its second, extend sideways during its third and return during its fourth. The intended effect is a brief visible summit at 0.5 seconds followed by a longer low interval. The initial idea assigns the entire first second to a dancer's airborne center of mass. Its idealization neglects air resistance and uses equal takeoff and landing COM heights.
+
+For flight duration T, v_y = gT/2 and the rise is h = gT²/8. At T = 1 s, these are 4.9 m/s and 1.225 m. The supplied capability basis for this fictional brief permits only the already familiar 0.2-second flight variant, not one second. Its idealized rise is 0.049 m. The timing change therefore increases the modeled height twenty-fivefold; slowing the music does not merely slow the same jump. Neither number is a training prescription.
+
+Compare three candidates:
+
+| Candidate | What it retains | What changes the decision |
+| --- | --- | --- |
+| Stretch the airborne interval to one second | The proposed flight and midpoint apex | Reject for the supplied capability basis; the required movement is unsupported. |
+| Place the familiar 0.2-second flight from 0.4 to 0.6 s | The 0.5 s apex and available flight duration | Keep as a separate branch if actual flight matters. It changes the full-second rise-and-return contour. |
+| Keep the body supported and assign the contour to a small hand path | The full-second contour, midpoint summit and following low interval | Select for this brief, which values the visible contour rather than flight itself. |
+
+The selected variant is a changed choreography, not proof that supported hand motion is physically equivalent to an airborne body. If the brief requires actual flight, this selection is unavailable; return to timing, means or the brief.
+
+**Selected phrase.** Use a comfortable supported position with no partner contact and no required weight transfer. For the score, let H be an individually chosen familiar hand-height change and W a familiar sideways reach. Coordinates are relative to the hand's low home position, not prescribed anatomical dimensions. The other hand remains at home.
+
+| Time in the four-second motif | Right-hand path |
+| --- | --- |
+| 0–0.5 s | Rise from (0,0) to (0,H). |
+| 0.5–1 s | Descend to (0,0). |
+| 1–2 s | Remain at home. |
+| 2–3 s | Travel horizontally to (W,0). |
+| 3–4 s | Return to home. |
+
+Join each moving interval with a smooth start and finish; for a drawing or animation, q(u) = 3u² − 2u³, 0 ≤ u ≤ 1, specifies the interpolation between its two endpoints. It is a controlled trajectory with zero endpoint speed, not a ballistic path. The hold is an intentional interruption between the vertical and horizontal gestures. At four seconds the phrase is ready to recur. Repeat the motif with the left hand and the opposite sideways direction to obtain an eight-second phrase A.
+
+Now make phrase B by changing the vertical path into a diagonal: during each rise travel from (0,0) to (W/2,H), then return along that diagonal. Retain every duration, the summit at 0.5 s of each motif and the later horizontal out-and-back. B develops spatial reach without requiring a higher summit or faster sequence. Reject an alternative that moves the summit to one second: it removes the brief's midpoint arrival.
+
+**Composition and continuation.** The selected twenty-four-second score is A, then B, then A with half the hand-path dimensions. The last eight seconds retain timing while contracting visible scale. Each four-second motif ends at home with zero prescribed hand velocity, so the next hand can begin without an unspecified reset. The last return at 24 s is the ending; do not add an unscored retreat. The viewer sits in front with both hands visible. The form establishes a vertical gesture, opens it diagonally and recalls it at reduced scale. Those are chosen compositional relations; whether viewers find the effect compelling remains a receiving-use question.
+
+**Specific practice need.** Suppose a later realization can produce the rise and the horizontal reach separately but rushes the 1–2 s hold. RHY.12 can keep one complete four-second motif, including that hold and the following reach, while making its durations recoverable through a timed demonstration. HCD.9 supplies feedback on the premature reach and a retry; additional strength work does not answer that timing error. If the hand contour instead causes unwanted whole-body bracing, SOM.2–.4 supplies a small perceptible contrast and reintegration under a qualified teacher, while the chosen support stays unchanged. Keep the needed support in the final arrangement. A correct animation settles the score's times and joins, not the performer's ability.
+
+#### MDPE.29:5.2 - Case B — Use relativity to generate a spatial duet, not to explain the dancers' bodies
+
+**Situation and source choice.** A maker wants a duet whose spatial organization becomes unfamiliar while its phrasing remains recognizable. The source is the distinction between proper length and a moving frame's simultaneous length measurement. In the ideal relativistic calculation L = L_0 sqrt(1 − v²/c²); a half-length corresponds to v/c = sqrt(3)/2, approximately 0.866. This is a mathematical source relation. No dancer approaches that speed, and a viewer walking to another seat does not perform that Lorentz measurement.
+
+Take only an artistic operation from it: halve one chosen spatial dimension while preserving the other dimension and the times of arrival. The choice is explicit, so the scientific source can be explained accurately even if the finished dance no longer resembles a textbook diagram.
+
+**Generate the phrase.** Work first with a hand trace in a plane in front of a comfortably supported performer. Choose familiar half-width W and height H. All coordinates below are scaled to that person's chosen range. Make an eight-second closed phrase S through five positions:
+
+| Time | Position (x,y) |
+| --- | --- |
+| 0 s | (−W,0), left-low |
+| 2 s | (+W,0), right-low |
+| 4 s | (+W,H), right-high |
+| 6 s | (−W,H), left-high |
+| 8 s | (−W,0), left-low |
+
+Use the same smooth interpolation q(u) = 3u² − 2u³ on each two-second segment. The selected phrase therefore draws a rectangle with brief zero-speed arrivals, then is ready to repeat. This is one deliberately chosen organization, not a claim that all phrases consist of poses.
+
+Produce C by replacing every x coordinate with x/2. Keep the y coordinates and all five arrival times. Its width becomes W instead of 2W; horizontal path speed and acceleration scale by one half for the same interpolation, while the vertical segments remain unchanged. This construction retains ordering, closure and the two-second arrivals. It is not uniform shrinking.
+
+Compare C with U, which halves both x and y, and F, which traverses S in four seconds. Select C for the brief: it changes only the chosen spatial dimension while retaining the phrase's timing and height. U loses the retained height; F loses the eight-second duration and increases movement-rate demands. They remain possible material for other briefs, not errors in all choreography.
+
+**Compose the duet.** Place two performers in separate non-overlapping hand-reach areas, visible side by side from the front. They share eight-second beginnings but do not touch or exchange weight. Use this thirty-two-second fixed score:
+
+| Interval | Performer A | Performer B | Compositional consequence |
+| --- | --- | --- | --- |
+| 0–8 s | S | S | Establish the common rectangle and arrival times. |
+| 8–16 s | S | S-to-C transition phrase | One width changes while height and shared arrivals persist. |
+| 16–24 s | S | C | Sustain the difference so it can be compared. |
+| 24–32 s | S-to-C transition phrase | C | Resolve into the same compressed phrase; end at its left-low point. |
+
+Define the transition phrase rather than asking performers to jump from one left-low starting point to another. It starts at (−W,0), arrives at (+W/2,0) after two seconds, then (+W/2,H), (−W/2,H), and ends at (−W/2,0), each after another two seconds. This first horizontal segment changes the width and starting offset together; it is not a pure scaled copy of S. Its explicit purpose is to join S's ending to C's starting position. Every segment again has zero prescribed endpoint speed. At the boundary between 16 and 24 s, B's compressed ending already equals C's beginning; A's final transition ends at the same normalized position at 32 s. No hidden repositioning remains.
+
+The maker has chosen establishment, divergence, sustained comparison and convergence, with an exact ending. MDPE.11 keeps this fixed score separate from interpretation: performers may select familiar small ranges before beginning, but they do not improvise new arrival times or path order during this version. Changing ranges independently does not promise equal absolute widths; the retained comparison is within each performer's earlier and later phrase. If equal absolute geometry matters to the brief, select compatible ranges and a common spatial reference before rehearsal.
+
+**Specific practice and observation need.** A useful first reading is an animation or plotted trace of both parts, checking the boundary positions and timing. It can expose an incorrect transition without asking a person to perform it. In bodily practice, suppose a performer makes C by rushing its shorter horizontal segments and waiting early at the corners. The path endpoints are right, but its two-second moving intervals are lost. RHY.3 helps preserve the continuing path; RHY.10 supplies shared landmarks without requiring continuous mutual imitation. HCD.6 constructs one eight-second attempt in which both the segment durations and width change are visible, and HCD.9 gives feedback on the early arrival. If the issue is not timing but inability to vary reach without bracing, use SOM's bodily contrast and return to the same phrase. Removing music or a teacher's count is a separate support change, relevant only if the intended performance omits it.
+
+A front-view trace can confirm the designed geometry; a performer report can inform ease and attention; an audience response can inform the intended perceptual effect. None of those alone establishes the others. The first completed result here is the two selected phrases, the necessary transition, the full score and the next discriminating practice question. Claims about actual performance, learning or artistic success await their corresponding observations.
+
+### MDPE.29:6 - Bias-Annotation
+
+The source tradition emphasizes deliberate phrase generation and manipulation. That is a useful method for this problem, not a description of every dance's origin or value. The hand-trace cases make geometry and joins inspectable with little bodily demand. They do not make small supported hand movement the preferred form of dance, nor do they establish how a performer or audience will experience the result.
+
+### MDPE.29:7 - Conformance Checklist
+
+For a constructed result, check the contributions that its intended use needs:
+
+- The physical source constrains a realization or motivates an artistic operation, and the chosen role is explained accurately.
+- The seed and its consequential changes can be recovered, including transitions within the phrase.
+- The selected variations are compared as parts of the intended whole, with a reason to keep or change their common relation.
+- Phrase joins, viewer placement and the ending are specified wherever they affect the result.
+- Changed timing, scale, support or receiving conditions lead back to the affected reasoning and construction.
+
+A useful score can finish the composing question. Claims about performance capability, learning and reception use observations of those results; they are not extra prerequisites for inspecting a score.
+
+### MDPE.29:8 - Common Anti-Patterns and How to Avoid Them
+
+| Invited mistake | Repair |
+| --- | --- |
+| Stretch a physically constrained action as if changing a drawing's duration | Recompute the relevant physical relation and compare other realizations of the wanted artistic relation. |
+| Keep interesting poses while leaving the movement between them unspecified | Construct the transitions and compare the complete phrase. |
+| Let a scientific image claim to explain the body's actual mechanism | State the artistic transformation taken from the image and use an applicable physical account for realization. |
+| Require every later variation to illustrate the initial source literally | Follow the developing composition, making a changed artistic aim and its consequences explicit. |
+
+### MDPE.29:9 - Consequences
+
+The maker obtains material that can be varied and connected, together with reasons for the chosen composition. This makes revisions more selective: a changed physical premise can return the realization for repair while leaving an artistic relation available through another means. Composing still requires artistic judgement and investigation; the method supplies neither a unique best piece nor audience agreement.
+
+### MDPE.29:10 - Architectural Rationale
+
+Generation, investigation and composition answer different questions but constrain one another. The source supplies a relation or an idea; the phrase makes its consequences available for exploration; the composition gives those explorations a larger use. Explaining this connection lets a maker adapt the construction without copying either worked case.
+
+MDPE.9 compares creative alternatives, and MDPE.11 governs the relation between prepared material and live interpretation. The present method supplies the particular construction they can use when a physical relation or scientific image is the material for choreography.
+
+### MDPE.29:11 - SoTA-Echoing
+
+| Source and use | Adopted or adapted contribution | Boundary and alternative |
+| --- | --- | --- |
+| Coates and Demers, *Physics and Dance*, Yale University Press, 2019, ISBN 9780300195835, “Choreographic Studies”, pp. 177–180 | Adapt the developed construction: generate phrases from sources, investigate changes in energy, time and space, compose through sequence, transition, overall rhythm and viewer placement. Retain the freedom to pursue compelling movement beyond literal illustration. | This is a source-backed choreographic technique, not a demonstrated universal optimum or an account of all dance traditions. Direct use of an adequate existing phrase or another appropriate compositional technique can be sufficient. |
+| MDPE.9 and MDPE.11 | Use the former to compare alternatives for the intended work, and the latter to distinguish fixed material from interpretation during performance. | Their contributions remain independently usable; a successful comparison still needs actual generated material. |
+| PHY, SOM, RHY and HCD, selected by the difficulty | Use physical modeling, bodily investigation, temporal coordination or human learning where the composition needs the result. | A correct model, ease report, timing result and learned capability answer different questions. No compulsory sequence of all four frameworks is implied. |
+
+The worked scores and quantitative comparisons here are constructions of this framework. The cited book supplies their methodological basis, not observations of their effectiveness. Reconsider the selected technique when another source or practical result changes the available way to obtain the intended composition.
+
+### MDPE.29:12 - Relations
+
+- MDPE.1 supplies the intended project result when it needs separate framing.
+- MDPE.9 uses the generated phrases and compositions in a choice among alternatives.
+- MDPE.11 uses the selected score and its permitted variations during performance.
+- MDPE.3 and MDPE.5 connect the performers, means and presentation needed to realize it.
+- MDPE.10 addresses a missing performing capability; MDPE.27 addresses ending voluntary partnered participation when that distinct problem arises.
+- Application 2 connects physical inquiry, movement investigation and perception when those results are needed around this composing work.
+
+### MDPE.29:End
+
+## MDPE.30 - Construct a Rhythmic Part from a Seed, Phase and Action Rule
+
+**Type:** Method
+**Status:** Stable
+**Normativity:** Normative
+
+### MDPE.30:1 - Problem frame
+
+**Use this when** a performer or arranger has promising cyclic rhythmic material but still needs a part that places sounds and actions in the right relation to an accompaniment. The intended result includes the phase, audible pattern, action allocation and instruments, with a reason to use that combination under the receiving conditions.
+
+The construction uses a fixed unit-pulse grid and explores two alternating-hand rules. Begin with an already usable seed or construct one through a method appropriate to the musical task; section 5.1 fully derives the three-onset, eight-pulse seed used here. Other counts can use Toussaint's chapter-21 algorithm or another qualified input. Generating every possible seed is outside this method. If an existing part already serves the musical task, use it.
+
+### MDPE.30:2 - Problem
+
+A cyclic onset pattern leaves several musical decisions open. Its shape does not determine where it begins against another part, which hand produces each sound, whether the action pattern repeats at the same boundary or whether the performer can realize it. A changed accompaniment can invalidate one of these relations while leaving the geometric pattern unchanged.
+
+The problem is to construct their joint realization and revise the affected part when the receiving work changes. Rehearsing an incompatible action rule more carefully cannot produce a sound relation that the rule itself excludes.
+
+### MDPE.30:3 - Forces
+
+| Concern | Consequence for construction |
+| --- | --- |
+| Cyclic shape and fixed musical origin | Rotations can preserve spacing while changing entries, collisions and silences against the accompaniment. |
+| Audible attacks and intervening actions | Alternating attacks and alternating motions on every pulse can produce the same onset pattern with different sounds and bodily demands. |
+| Local phrase and continuing performance | The rule must be continued across the boundary to determine the period of the whole part. |
+| Preserved relation and changed span | Stretching, adding rests and splicing preserve different properties; the wanted musical relation selects the operation. |
+
+### MDPE.30:4 - Solution
+
+Construct the part as a relation between rhythmic material, the receiving musical frame and a way of producing the sounds. Choose only the operations the present difficulty needs. A given seed need not be regenerated, and a sufficient phase or action allocation can remain while another relation changes.
+
+#### MDPE.30:4.1 - Recover the seed and place it in the receiving music
+
+Represent the cycle with its number of unit pulses and the positions of its onsets. Include the gap from the last onset back to the next cycle's first one. Establish the seed's musical purpose: it might preserve a known figure, explore a spacing property or provide material for a changed arrangement. A geometric property by itself does not select a good part for every musical use.
+
+Fix the origin from the receiving work, such as an accompaniment entry or shared phrase boundary. State the sound or silence that matters there and at other consequential landmarks. To try a phase shift of s pulses in an n-pulse cycle, replace each onset position p with (p + s) modulo n. Compare the resulting positions with those landmarks. Moving every onset while leaving the accompaniment fixed changes the musical relation; merely renaming the coordinates does not.
+
+If no phase supplies the needed relation, return to the seed, the receiving constraint or the arrangement. Do not discard useful rhythmic material solely because one placement fails. Conversely, keep a sufficient placement without enumerating all rotations when the choice is already settled.
+
+#### MDPE.30:4.2 - Construct the action and sound allocation across the boundary
+
+Choose which events advance the alternating-hand rule. When hands alternate on audible attacks only, successive onsets take successive hands; silent pulses do not advance it. Continue through the cycle boundary. With an odd number of attacks, the next cycle starts on the other hand, so the hand-labelled assignment returns after two cycles. With an even number, it returns after one cycle. The audible timbral period also depends on whether the instruments and strokes distinguish those hands.
+
+When hands alternate on every pulse, each successive pulse advances the motion, and the onset pattern determines which motions sound. The other motions remain part of the performed method. With an even number of pulses, the hand allocation returns at the cycle boundary; with an odd number, it changes hands there. This rule changes the amount and organization of movement even when the onset positions are unchanged.
+
+Map the actions to available instruments and the wanted audible differences. Examine at least the span needed for the combined sound and action arrangement to recur, including its relation to the accompaniment. Compare a simpler allocation when it serves the same musical result. If the wanted hand or sound at an entry contradicts the chosen rule, change the rule, phase, instrument assignment or receiving condition. If the rule permits it but the performer cannot yet realize it, the next question concerns capability or another playable allocation.
+
+#### MDPE.30:4.3 - Change the span by the relation that must survive
+
+Identify what must remain: exact onset times, relative spacing, hand blocks, transition gaps, entry sound or another musical relation. Scaling all intervals, appending silence and inserting a segment give different answers. Derive their consequences before choosing the operation.
+
+For the smooth-toggle family shown in section 5.4, the wanted relation is a right-hand onset block followed by a left-hand onset block, with a three-pulse gap at each transition. The seed is eight pulses long, with onsets at 0, 2 and 5 under pulse-wise alternation. At each extension, split the current cycle into equal halves. Copy the two pulses immediately before the split and the two immediately after it, and insert that four-pulse segment between the unchanged halves. The even insertion preserves the parity of the shifted motions; it adds one sounded stroke to each block while retaining the two transition gaps. Repeating that construction gives longer members of this family. It is a specific generator for that retained relation, not a rule for lengthening any rhythm.
+
+After changing the span, return to the accompaniment, entry and performing demand. A twelve-pulse part can be arithmetically correct yet unsuitable for an arrangement that still requires the original eight-pulse return. The useful result is the part that serves the joint music, or a concrete reason to revise that music or retain another part.
+
+#### MDPE.30:4.4 - Try the receiving part and retain the usable result
+
+Try the selected arrangement with the tempo, reference cues, instruments and partners that the next use will retain. Listen for the wanted entries and silences and observe the actions needed to sustain them. A wrong sound caused by unintended contact may call for a different realization or practice; a wrong first hand dictated by odd attack count calls for a changed rule. The diagnosis follows the relation that failed.
+
+The usable result identifies the onset pattern and fixed origin, hand/action rule, instruments and audible differences, receiving accompaniment, demonstrated conditions and selected alternative. Timing geometry, a Method for generating or performing it, understanding the construction and acquiring the performance remain different results. The [style and acquisition account](#mdpeapplication53---connect-style-method-structure-and-acquisition) explains this distinction when teaching the operation.
+
+`MDPE.9` can use the generated alternatives, `MDPE.3` their performed combination and `MDPE.10` a missing capability. For broader rhythmic comparison, transformation or coordination, use Rhythmics RHY.7, RHY.8 and RHY.11 or the applicable specialist method. Stop at the playable part and bounded receiving result when no wider practice-development decision is waiting.
+
+### MDPE.30:5 - Archetypal Grounding
+
+The following arrangement, constraints and rehearsal outcomes are constructed examples. Toussaint supplies the rhythmic and action constructions. The examples show how receiving requirements select and change their use; they report no experiment on these performers or universal ranking of musical quality.
+
+#### MDPE.30:5.1 - Generate the small seed and choose its phase
+
+An ensemble wants three audible attacks in a repeating eight-pulse span. Its pulse 0 is fixed by the accompaniment. Another instrument has a cue at pulse 6, where this new part should remain audibly silent. The percussionist has a low-sounding instrument for the right hand and a contrasting high-sounding instrument for the left. The first musical question is whether a two-cycle timbral exchange works with the accompaniment.
+
+Use `x` for an audible onset and `.` for a silent pulse. For this specific seed, begin with three onset columns and five silent pulses. Give each onset one silent pulse, leaving two; append the remaining two to the first two columns. Read each column downwards and concatenate:
+
+```text
+initial groups:       [x]   [x]   [x]     remaining: . . . . .
+after first sharing:  [x .] [x .] [x .]   remaining: . .
+after second sharing: [x . .] [x . .] [x .]
+concatenated:         x . . x . . x .
+positions:            0 1 2 3 4 5 6 7
+```
+
+The onsets are 0, 3 and 6. Their cyclic gaps are 3, 3 and 2, including the return from 6 to the next cycle's 0. There are three onsets, eight positions and gaps differing by at most one pulse. These facts establish the selected construction, not its musical value. For a different number of onsets or pulses, use the chapter-21 repeated-distribution algorithm or an already qualified seed; the particular two-sharing calculation above is not a general formula for every pair of counts.
+
+The seed places an attack on the other instrument's cue at 6. Rotate every onset forward by two positions, wrapping at 8: 0 becomes 2, 3 becomes 5, and 6 becomes 0. The ordered result is 0, 2, 5, with gaps 2, 3, 3. It preserves the cyclic spacing family and attack count, includes the fixed pulse 0 and leaves pulse 6 silent. This rotation changes the relation to the accompaniment even though a comparison of unanchored cyclic shapes treats the two patterns as equivalent. Merely rotating the diagram's labels would not change the performed phase.
+
+#### MDPE.30:5.2 - Turn the onsets into actual hand and sound parts
+
+First alternate hands on **audible attacks only**. Begin with the right hand and continue alternation across the cycle boundary; do not restart the rule at each bar. Three is odd, so the next cycle starts with the other hand.
+
+| Eight-pulse span | Pulse 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| First cycle | R | . | L | . | . | R | . | . |
+| Second cycle | L | . | R | . | . | L | . | . |
+
+Here R and L are audible strokes on the respective instruments. The combined onset pattern repeats after eight pulses, but the hand and timbre assignment repeats after sixteen. In one sixteen-pulse span, right-hand attacks are at 0, 5 and 10, and left-hand attacks at 2, 8 and 13. Those two parts were generated by an action rule; they were not inferred from the onset polygon alone.
+
+The ensemble compares this with playing all three attacks on one sound. The single-sound alternative preserves timing and costs less coordination but removes the proposed timbral exchange. In the constructed rehearsal, the percussionist can perform the alternating-attack version at the agreed 72 pulses per minute with the audible reference retained, and the partner musician reports that pulse 6 remains clear. The ensemble keeps it for the next rehearsal because the two-cycle exchange serves that arrangement. This is a stipulated bounded receiving decision, not a measured long-run reliability or a causal claim that the generation algorithm improved music.
+
+#### MDPE.30:5.3 - Change the receiving condition without confusing the two action rules
+
+The accompaniment is revised: the low right-hand sound must now mark pulse 0 **of every eight-pulse cycle**. The alternating-attack version fails this condition by construction, even when played perfectly. More practice of that same rule cannot fix the alternating first sound.
+
+Compare a second action rule from chapter 32. Alternate the hands on **every pulse**, including silent motions, and sound only positions 0, 2 and 5. Capitals below mean audible strokes; lowercase letters mean the indicated hand moves without an audible attack, stopping short or using an appropriately silent motion.
+
+```text
+pulse:   0 1 2 3 4 5 6 7
+motion:  R l R l r L r l
+sound:   x . x . . x . .
+```
+
+Eight is even, so this hand allocation repeats at the next cycle. The first two audible attacks are right-hand strokes and the last is left-hand: it is the chapter-32 smooth-toggle seed. The audible spacing and silence at 6 remain; the timbral organization and movement demand change. Instead of three audible strokes with alternation between them, the performer maintains eight alternating pulse motions. That can help one performer and burden another. Silent movement is not a silent instruction to skip the movement.
+
+In the constructed return, the percussionist first sounds an unintended stroke at 4. The ensemble slows the passage, separates audible from silent motions, then returns to the same receiving tempo and accompaniment. Once the required sound pattern and entry are demonstrated under those conditions, it selects this version for that use and retains the two-cycle version for the earlier arrangement. If the performer cannot obtain the required silent motion reliably in the available preparation time, choose a playable allocation or change the instrumentation, entry demand or rehearsal commitment. A correct table supplies no missing capability.
+
+#### MDPE.30:5.4 - Extend the phrase while preserving a chosen action relation
+
+Suppose a later arrangement has a twelve-pulse span and still wants a block of right-hand attacks followed by a block of left-hand attacks, with the same three-pulse gaps at the two transitions. Stretching every old interval by 1.5 would move the attacks off the new unit-pulse grid. Adding four rests would keep the old onsets but break the chosen transition spacing. Neither operation supplies the requested relation.
+
+Use chapter 32's splice instead. Cut the eight-pulse motion after position 3. Copy its four-pulse transition segment at original positions 2–5, then insert that copy between the two halves:
+
+```text
+first half       inserted transition    second half
+R l R l          R l r L                r L r l
+
+new positions:   0 1 2 3 4 5 6 7 8 9 10 11
+new motion:      R l R l R l r L r L r  l
+```
+
+The result has right-hand attacks at 0, 2 and 4 and left-hand attacks at 7 and 9. Its cyclic gaps are 2, 2, 3, 2, 3. Five attacks replace three, the span becomes twelve, and the selected hand blocks and three-pulse transitions remain. Inserting an even number of pulses preserves the parity of the shifted hand motions. This is an explicit preservation claim about this construction, not proof that every stylistic or perceived quality survived.
+
+The new part still needs its relation to the revised accompaniment and the performer's capability. If the accompaniment actually keeps an eight-pulse landmark, the twelve-pulse construction is not an adequate replacement merely because the arithmetic works. Retain the eight-pulse part or reconsider the joint arrangement. If twelve pulses are intended, try the new part with those receiving landmarks and compare the audible transition, effort and entry rather than declaring a score of five attacks more complex or better in every sense.
+
+### MDPE.30:6 - Bias-Annotation
+
+The equal-pulse representation makes spacing and alternation calculable. It does not represent every timing nuance or determine a tradition's musical criteria. The two-hand cases are specific action constructions. An electronic instrument can reproduce their sounds through different actions, and a performer with another physical arrangement needs an appropriate realization rather than an automatic transfer of this hand technique.
+
+### MDPE.30:7 - Conformance Checklist
+
+- The seed's onset positions, cycle length and last-to-first gap are recoverable.
+- The phase is related to a fixed receiving origin and the entries or silences that matter.
+- The action rule states whether attacks or all pulses advance it and continues across the boundary.
+- The action allocation and instruments produce the wanted sound relation over the needed repeated span.
+- A changed span preserves the selected relation by a stated construction and is compared with the receiving accompaniment.
+
+Inspecting the score can settle those structural questions. A claim that the performer can use the part requires a receiving trial with the assistance and conditions that will actually remain. A bounded successful trial supports that use; broader reliability or learning claims require their own grounds.
+
+### MDPE.30:8 - Common Anti-Patterns and How to Avoid Them
+
+| Invited mistake | Repair |
+| --- | --- |
+| Treat cyclic rotations as interchangeable against a fixed accompaniment | Compare actual entries and silences with the unchanged receiving origin. |
+| Restart hand alternation at the bar line without changing the stated rule | Continue the rule through the boundary and determine the complete hand-labelled period. |
+| Practice an allocation that structurally gives the wrong entry sound | Change the rule or arrangement; reserve practice for an attainable performing result. |
+| Extend a part by a convenient arithmetic operation that loses its musical relation | Choose the preserved relation first, derive the changed part and check the join with the accompaniment. |
+
+### MDPE.30:9 - Consequences
+
+The arranger obtains a playable candidate whose geometric, timbral and action relations can be explained and changed separately where the music permits. A phase or rule change may solve the problem with the same seed. The cost is considering the combined repeated span and the actual performing demand; mathematical compactness and more attacks do not by themselves mean a better musical result.
+
+### MDPE.30:10 - Architectural Rationale
+
+Rhythmic material becomes a part through its place in the music and the actions that produce it. Keeping these relations together explains why one unchanged onset polygon can support different performances and why a changed receiving condition returns to a particular construction. The method combines specialized generation and allocation with a musical choice; its purpose is the usable part, not an exhaustive catalogue of rhythmic shapes.
+
+### MDPE.30:11 - SoTA-Echoing
+
+| Source and use | Adopted or adapted contribution | Boundary and alternative |
+| --- | --- | --- |
+| Toussaint, *The Geometry of Musical Rhythm*, second edition, 2020, chapter 21, especially Figure 21.2 | Use the explicit three-onset, eight-pulse construction and the distinction between a spacing family and its performed phase. | Other seeds may be supplied by the chapter's general algorithm or another qualified construction. The shown calculation is not that whole algorithm. |
+| Toussaint, chapter 31, “Alternating-Hands Method”, pp. 218–220 | Adapt alternating audible attacks into hand and sound parts, continuing the operation across the boundary. | A known adequate part or simpler allocation can answer the musical task at lower performing cost. |
+| Toussaint, chapter 32, pp. 225–230, especially Figures 32.1–32.2 | Adapt pulse-wise alternation and the smooth-toggle splice into an arrangement with explicit receiving conditions. | The family construction preserves specified relations; it establishes neither universal musical quality nor a performer's capability. |
+| RHY.7, RHY.8 and RHY.11 | Use their structural comparison, transformation and shared-performance methods when the work needs those broader results. | Their general operations do not by themselves select this specialized seed and action construction. |
+
+The receiving constraints, alternatives and revised arrangements are this framework's synthesis of those constructions. The historical and cultural examples in the source are not used as evidence that this particular arrangement will succeed. Reconsider the choice when an available method, instrument or observation changes the attainable musical result or its cost.
+
+### MDPE.30:12 - Relations
+
+- MDPE.9 uses the generated parts in comparing creative alternatives.
+- MDPE.3 obtains the performed combination with the accompaniment and other means.
+- MDPE.10 develops a missing capability when the intended rule is structurally adequate.
+- MDPE.11 determines prepared and live choices within the performance.
+- RHY.7, RHY.8 and RHY.11 provide the broader comparisons, transformations and coordination named above.
+- Application 5.3 connects the recoverable structure of a method, its description and acquisition when this construction is taught.
+
+### MDPE.30:End
 
 ## MDPE.10 - Develop and Test Music-or-Dance Performing Capability
 
@@ -2921,7 +3300,7 @@ Construct backward from the movement the pair needs and forward from what both c
 
 Choose a concrete relation that the passage must produce. For example, both participants should continue a small shared trajectory, perceive when a weight transfer permits the next direction, and respond to a quieter musical phrase without increasing travel. Say which contribution is required and which is optional. An optional flourish can be omitted; a required offbeat cannot be silently removed to make a difficult task appear solved.
 
-Identify the musical material actually used: the pulse or phrase boundary, a selected voice, a change of accent or texture, and the movement relation wanted in response. A change of track or a label such as *tango* leaves these choices unresolved. If the musical relation is unclear, listen to a short passage and mark the event to which the movement should respond. When the purpose permits selecting music, choose or prepare material that makes the intended relation available; MDPE.Application:4 develops rhythmic construction. When the music is given, develop the movement against that material.
+Identify the musical material actually used: the pulse or phrase boundary, a selected voice, a change of accent or texture, and the movement relation wanted in response. A change of track or a label such as *tango* leaves these choices unresolved. If the musical relation is unclear, listen to a short passage and mark the event to which the movement should respond. When the purpose permits selecting music, choose or prepare material that makes the intended relation available; MDPE.30 develops rhythmic construction. When the music is given, develop the movement against that material.
 
 Begin from what both participants can presently do together. Agree on an attainable range of movement and a recognizable request to continue, change or pause. That agreement can use sight, touch or speech during preparation; bodily contact is not a prerequisite for every form of partnering. Consider the space actually available around the pair. A trajectory usable in an empty studio may need a smaller extent or another direction among other participants.
 
@@ -3368,7 +3747,7 @@ Use this method when either participant wants to finish a voluntary partnered en
 
 The ordinary case here is a pair moving on the floor with each person supporting their own weight. Both already have an available small movement and way to stop. A lift, dependent lean or other action in which one person supports the other's weight needs its own practiced disengagement technique. Establish that contribution before rehearsing such an ending; an instruction to release contact does not supply it.
 
-Use Application:3 for a composed musical or movement ending. Use MDPE.26 when the pair lacks the movement organization or transition needed to stop. MDPE.5 supplies usable floor and exit conditions. Those contributions can be needed together: a beautiful final shape can leave a partner held in place, while an ordinary mid-track stop can complete voluntary participation successfully.
+Use MDPE.29 when a movement ending is being composed from a physical relation or scientific image; MDPE.11 addresses how prepared material is interpreted or shaped while performing. Use MDPE.26 when the pair lacks the movement organization or transition needed to stop. MDPE.5 supplies usable floor and exit conditions. Those contributions can be needed together: a beautiful final shape can leave a partner held in place, while an ordinary mid-track stop can complete voluntary participation successfully.
 
 **First useful move.** Make the actual finishing decision understandable while the partner can still change the next movement. Then use the stopping action available to both.
 
@@ -3477,7 +3856,7 @@ A description of the sequence lets a reader recognize and prepare the use. Evide
 - MDPE.26 constructs a needed stopping movement or transition; it does not decide whether a person may end participation.
 - MDPE.5 supplies and tests floor, exit and event conditions that make the ending usable.
 - MDPE.10 derives learning and feedback from the participant action that failed.
-- MDPE.11 and MDPE.Application:3 govern interpretation and composed form when a musical or movement ending is also wanted.
+- MDPE.11 governs interpretation and live shaping; MDPE.29 supplies composed movement from a physical relation or scientific image when that is the source of the wanted ending.
 - MDPE.28 concerns an invitation declined before the proposed encounter, with a different next-action problem.
 
 ### MDPE.27:End
@@ -8920,7 +9299,7 @@ Mutable web-source claims are dated to 2026-08-26. Recheck the affected choice o
 
 # Cross-Pattern Application
 
-Use these connected methods and examples when the useful result depends on several contributions together. The [social-dance and live-music decision](#mdpeapplication1---a-constructed-social-dance-and-live-music-development-decision) connects a showcase to receiving practice. The movement inquiries below develop physical and compositional constructions. [Construct a rhythmic part](#mdpeapplication4---construct-a-rhythmic-part-from-a-seed-phase-and-action-rule) joins an explicit seed calculation, phase, hand allocation and changed-phrase return. [Participation, learning, recognition and renewal](#mdpeapplication5---participation-learning-recognition-and-renewal-in-music-and-movement-practices) develops an event, school and recognition arrangement through changed conditions, followed by domain meaning restoration and the connection between Method structure and acquisition.
+Use these connected methods and examples when the useful result depends on several contributions together. The [social-dance and live-music decision](#mdpeapplication1---a-constructed-social-dance-and-live-music-development-decision) connects a showcase to receiving practice. The movement inquiries below connect physical investigation with [MDPE.29](#mdpe29---compose-movement-from-a-physical-relation-or-scientific-image) for composition. [MDPE.30](#mdpe30---construct-a-rhythmic-part-from-a-seed-phase-and-action-rule) joins an explicit seed calculation, phase, hand allocation and changed-phrase return. [Participation, learning, recognition and renewal](#mdpeapplication5---participation-learning-recognition-and-renewal-in-music-and-movement-practices) develops an event, school and recognition arrangement through changed conditions, followed by domain meaning restoration and the connection between Method structure and acquisition.
 
 
 
@@ -9089,7 +9468,7 @@ For example, borrow the book's room-writing construction: notice a geometric fea
 
 An image can similarly organize attention without prescribing an exact shape. Ask what actions “floating” or “condensing” makes available, then examine the resulting movement. Do not infer microscopic physiology or mechanical energy from the words. If the image closes down movement or produces only a repeated cliché, change the question, scale, moving part or environment. If it yields useful variation, retain the image as a performance instruction or turn one discovered instance into fixed material. These are different choices under MDPE.11. The book's descriptions of Gaga, Hay and Forsythe illustrate such possibilities; they do not supply complete training in those practices.
 
-
+For the complete phrase-to-composition construction, use [MDPE.29](#mdpe29---compose-movement-from-a-physical-relation-or-scientific-image). It develops the source role, variations, transitions and whole form, including the worked physical-constraint and scientific-image cases.
 
 ### MDPE.Application:2.4 - Change quality and relationships, not only positions
 
@@ -9127,186 +9506,47 @@ For an actual teaching design, select the learners, accessible encounters, suppo
 
 ## MDPE.Application:3 - Compose movement from a physical relation or a scientific image
 
-Use this application when a physical idea has produced an interesting gesture but not yet a phrase or composition. It develops a technique used in Western concert, contemporary and postmodern choreography: make movement material under a constraint, investigate transformations, then compose the resulting material through transitions, development and viewer placement. It does not prescribe how every dance tradition creates material.
-
-Coates and Demers' *Physics and Dance* (Yale University Press, 2019, ISBN 9780300195835), particularly its choreographic studies on printed pages 177–180, supplies this construction. The cases below are new, fully specified teaching examples. Their conditions and choices are stipulated; they report no dancers, learning experiment or safe-performance qualification. They can first be inspected as scores or animated traces. Any embodied realization uses familiar, individually suitable movement and appropriate instruction; no jump, fall, lift or maximal movement is prescribed.
-
-
+Use [MDPE.29](#mdpe29---compose-movement-from-a-physical-relation-or-scientific-image) to turn a source idea into movement material, investigate variations and compose the whole. The following questions lead to its complete construction and worked scores.
 
 ### MDPE.Application:3.1 - Make the source useful to a composition
 
-First decide what the source contributes. A mechanical relation can exclude a movement under named conditions. A scientific image can suggest a movement without explaining its physical mechanism. Keep that decision visible when making the phrase.
-
-Choose a short, recoverable movement seed. Specify its beginning, changes and ending, including what happens between positions. Select a relation worth retaining: an arrival, order of changes, continuing path, response between performers or contrast visible to a viewer. Then change one feature that matters to the intended composition. The same seed can acquire another spatial path, duration distribution or quality. Compare the whole variants, including how each leaves the next action possible.
-
-Use MDPE.9 to make a retain, revise, branch or reject decision for these variants. It supplies the comparison; the phrase construction here supplies the domain generation method. Use MDPE.11 to state what is fixed beforehand and what may be interpreted or generated while performing. Compose a beginning that establishes the relation, a development that changes something consequential and an ending that resolves or deliberately suspends it. Return to movement technique or learning only for a contribution the selected composition actually needs.
-
-
+Choose whether the source constrains physical realization or inspires an artistic operation. [MDPE.29:4](#mdpe294---solution) develops the phrase, consequential changes, joins, whole composition and revision of the selected relation.
 
 ### MDPE.Application:3.2 - Case A — Keep an apex in the music without demanding a longer flight
 
-**Situation and physical decision.** A maker has a four-second motif: rise and return during its first second, wait during its second, extend sideways during its third and return during its fourth. The intended effect is a brief visible summit at 0.5 seconds followed by a longer low interval. The initial idea assigns the entire first second to a dancer's airborne center of mass. Its idealization neglects air resistance and uses equal takeoff and landing COM heights.
-
-For flight duration T, v_y = gT/2 and the rise is h = gT²/8. At T = 1 s, these are 4.9 m/s and 1.225 m. The supplied capability basis for this fictional brief permits only the already familiar 0.2-second flight variant, not one second. Its idealized rise is 0.049 m. The timing change therefore increases the modeled height twenty-fivefold; slowing the music does not merely slow the same jump. Neither number is a training prescription.
-
-Compare three candidates:
-
-| Candidate | What it retains | What changes the decision |
-| --- | --- | --- |
-| Stretch the airborne interval to one second | The proposed flight and midpoint apex | Reject for the supplied capability basis; the required movement is unsupported. |
-| Place the familiar 0.2-second flight from 0.4 to 0.6 s | The 0.5 s apex and available flight duration | Keep as a separate branch if actual flight matters. It changes the full-second rise-and-return contour. |
-| Keep the body supported and assign the contour to a small hand path | The full-second contour, midpoint summit and following low interval | Select for this brief, which values the visible contour rather than flight itself. |
-
-The selected variant is a changed choreography, not proof that supported hand motion is physically equivalent to an airborne body. If the brief requires actual flight, this selection is unavailable; return to timing, means or the brief.
-
-**Selected phrase.** Use a comfortable supported position with no partner contact and no required weight transfer. For the score, let H be an individually chosen familiar hand-height change and W a familiar sideways reach. Coordinates are relative to the hand's low home position, not prescribed anatomical dimensions. The other hand remains at home.
-
-| Time in the four-second motif | Right-hand path |
-| --- | --- |
-| 0–0.5 s | Rise from (0,0) to (0,H). |
-| 0.5–1 s | Descend to (0,0). |
-| 1–2 s | Remain at home. |
-| 2–3 s | Travel horizontally to (W,0). |
-| 3–4 s | Return to home. |
-
-Join each moving interval with a smooth start and finish; for a drawing or animation, q(u) = 3u² − 2u³, 0 ≤ u ≤ 1, specifies the interpolation between its two endpoints. It is a controlled trajectory with zero endpoint speed, not a ballistic path. The hold is an intentional interruption between the vertical and horizontal gestures. At four seconds the phrase is ready to recur. Repeat the motif with the left hand and the opposite sideways direction to obtain an eight-second phrase A.
-
-Now make phrase B by changing the vertical path into a diagonal: during each rise travel from (0,0) to (W/2,H), then return along that diagonal. Retain every duration, the summit at 0.5 s of each motif and the later horizontal out-and-back. B develops spatial reach without requiring a higher summit or faster sequence. Reject an alternative that moves the summit to one second: it removes the brief's midpoint arrival.
-
-**Composition and continuation.** The selected twenty-four-second score is A, then B, then A with half the hand-path dimensions. The last eight seconds retain timing while contracting visible scale. Each four-second motif ends at home with zero prescribed hand velocity, so the next hand can begin without an unspecified reset. The last return at 24 s is the ending; do not add an unscored retreat. The viewer sits in front with both hands visible. The form establishes a vertical gesture, opens it diagonally and recalls it at reduced scale. Those are chosen compositional relations; whether viewers find the effect compelling remains a receiving-use question.
-
-**Specific practice need.** Suppose a later realization can produce the rise and the horizontal reach separately but rushes the 1–2 s hold. RHY.12 can keep one complete four-second motif, including that hold and the following reach, while making its durations recoverable through a timed demonstration. HCD.9 supplies feedback on the premature reach and a retry; additional strength work does not answer that timing error. If the hand contour instead causes unwanted whole-body bracing, SOM.2–.4 supplies a small perceptible contrast and reintegration under a qualified teacher, while the chosen support stays unchanged. Keep the needed support in the final arrangement. A correct animation settles the score's times and joins, not the performer's ability.
-
-
+[MDPE.29:5.1](#mdpe2951---case-a--keep-an-apex-in-the-music-without-demanding-a-longer-flight) compares actual flight with a supported hand contour, derives their different physical demands and constructs the full twenty-four-second score. The selected alternative depends on whether flight itself or the visible contour is required.
 
 ### MDPE.Application:3.3 - Case B — Use relativity to generate a spatial duet, not to explain the dancers' bodies
 
-**Situation and source choice.** A maker wants a duet whose spatial organization becomes unfamiliar while its phrasing remains recognizable. The source is the distinction between proper length and a moving frame's simultaneous length measurement. In the ideal relativistic calculation L = L_0 sqrt(1 − v²/c²); a half-length corresponds to v/c = sqrt(3)/2, approximately 0.866. This is a mathematical source relation. No dancer approaches that speed, and a viewer walking to another seat does not perform that Lorentz measurement.
-
-Take only an artistic operation from it: halve one chosen spatial dimension while preserving the other dimension and the times of arrival. The choice is explicit, so the scientific source can be explained accurately even if the finished dance no longer resembles a textbook diagram.
-
-**Generate the phrase.** Work first with a hand trace in a plane in front of a comfortably supported performer. Choose familiar half-width W and height H. All coordinates below are scaled to that person's chosen range. Make an eight-second closed phrase S through five positions:
-
-| Time | Position (x,y) |
-| --- | --- |
-| 0 s | (−W,0), left-low |
-| 2 s | (+W,0), right-low |
-| 4 s | (+W,H), right-high |
-| 6 s | (−W,H), left-high |
-| 8 s | (−W,0), left-low |
-
-Use the same smooth interpolation q(u) = 3u² − 2u³ on each two-second segment. The selected phrase therefore draws a rectangle with brief zero-speed arrivals, then is ready to repeat. This is one deliberately chosen organization, not a claim that all phrases consist of poses.
-
-Produce C by replacing every x coordinate with x/2. Keep the y coordinates and all five arrival times. Its width becomes W instead of 2W; horizontal path speed and acceleration scale by one half for the same interpolation, while the vertical segments remain unchanged. This construction retains ordering, closure and the two-second arrivals. It is not uniform shrinking.
-
-Compare C with U, which halves both x and y, and F, which traverses S in four seconds. Select C for the brief: it changes only the chosen spatial dimension while retaining the phrase's timing and height. U loses the retained height; F loses the eight-second duration and increases movement-rate demands. They remain possible material for other briefs, not errors in all choreography.
-
-**Compose the duet.** Place two performers in separate non-overlapping hand-reach areas, visible side by side from the front. They share eight-second beginnings but do not touch or exchange weight. Use this thirty-two-second fixed score:
-
-| Interval | Performer A | Performer B | Compositional consequence |
-| --- | --- | --- | --- |
-| 0–8 s | S | S | Establish the common rectangle and arrival times. |
-| 8–16 s | S | S-to-C transition phrase | One width changes while height and shared arrivals persist. |
-| 16–24 s | S | C | Sustain the difference so it can be compared. |
-| 24–32 s | S-to-C transition phrase | C | Resolve into the same compressed phrase; end at its left-low point. |
-
-Define the transition phrase rather than asking performers to jump from one left-low starting point to another. It starts at (−W,0), arrives at (+W/2,0) after two seconds, then (+W/2,H), (−W/2,H), and ends at (−W/2,0), each after another two seconds. This first horizontal segment changes the width and starting offset together; it is not a pure scaled copy of S. Its explicit purpose is to join S's ending to C's starting position. Every segment again has zero prescribed endpoint speed. At the boundary between 16 and 24 s, B's compressed ending already equals C's beginning; A's final transition ends at the same normalized position at 32 s. No hidden repositioning remains.
-
-The maker has chosen establishment, divergence, sustained comparison and convergence, with an exact ending. MDPE.11 keeps this fixed score separate from interpretation: performers may select familiar small ranges before beginning, but they do not improvise new arrival times or path order during this version. Changing ranges independently does not promise equal absolute widths; the retained comparison is within each performer's earlier and later phrase. If equal absolute geometry matters to the brief, select compatible ranges and a common spatial reference before rehearsal.
-
-**Specific practice and observation need.** A useful first reading is an animation or plotted trace of both parts, checking the boundary positions and timing. It can expose an incorrect transition without asking a person to perform it. In bodily practice, suppose a performer makes C by rushing its shorter horizontal segments and waiting early at the corners. The path endpoints are right, but its two-second moving intervals are lost. RHY.3 helps preserve the continuing path; RHY.10 supplies shared landmarks without requiring continuous mutual imitation. HCD.6 constructs one eight-second attempt in which both the segment durations and width change are visible, and HCD.9 gives feedback on the early arrival. If the issue is not timing but inability to vary reach without bracing, use SOM's bodily contrast and return to the same phrase. Removing music or a teacher's count is a separate support change, relevant only if the intended performance omits it.
-
-A front-view trace can confirm the designed geometry; a performer report can inform ease and attention; an audience response can inform the intended perceptual effect. None of those alone establishes the others. The first completed result here is the two selected phrases, the necessary transition, the full score and the next discriminating practice question. Claims about actual performance, learning or artistic success await their corresponding observations.
-
-
+[MDPE.29:5.2](#mdpe2952---case-b--use-relativity-to-generate-a-spatial-duet-not-to-explain-the-dancers-bodies) develops a one-dimension compression into two phrases, an explicit transition and a thirty-two-second duet. The artistic operation and the source's physical meaning remain distinguishable.
 
 ### MDPE.Application:3.4 - Adapt the construction without losing its distinction
 
-When reusing either case, change the seed, retained relation or receiving conditions deliberately. Recompute a physical constraint when mass, contact, height or timing changes. Reconstruct transitions when a transformation changes the state from which the next phrase begins. If the wanted artistic relation survives a different realization, compare that realization rather than treating the original body action as mandatory.
-
-The joint use of PHY, SOM, RHY and HCD is conditional on the difficulty: physical modeling, bodily regulation, rhythmic coordination and human learning supply different results. Use an adequate direct dance or teaching method when it already supplies the needed result. The examples need no new universal hierarchy of those methods, and no single success judgement can substitute for physical correctness, usable movement and the intended artistic effect.
-
-
-
+[MDPE.29:4.3](#mdpe2943---adapt-the-construction-without-losing-its-distinction) returns changed physical premises and phrase joins to their construction. PHY, SOM, RHY and HCD contribute when the actual composing or performing difficulty needs their different results.
 
 ## MDPE.Application:4 - Construct a rhythmic part from a seed, phase and action rule
 
-Use this construction when a performer or arranger needs a playable rhythmic part with specified temporal and ensemble relations, but a promising geometric pattern still leaves its phase, sound and action allocation undecided. It connects generation, arrangement and receiving performance. If an existing part already serves the musical task, use it.
-
-The construction below adapts Toussaint's *The Geometry of Musical Rhythm*, second edition (2020): chapter 21, Figure 21.2 for a three-onset/eight-pulse seed; chapter 31's alternating-hands method; and chapter 32, Figures 32.1–32.2 for pulse-wise alternation and extension. The ensemble, constraints and rehearsal outcomes are constructed examples. The book supplies the mathematical and action constructions, not evidence about these performers or a universal ranking of musical quality.
+Use [MDPE.30](#mdpe30---construct-a-rhythmic-part-from-a-seed-phase-and-action-rule) when cyclic material still needs a place in the accompaniment, an action rule and a sound allocation. Its complete method explains what changes when the receiving entry or span changes.
 
 ### MDPE.Application:4.1 - Generate the small seed and choose its phase
 
-An ensemble wants three audible attacks in a repeating eight-pulse span. Its pulse 0 is fixed by the accompaniment. Another instrument has a cue at pulse 6, where this new part should remain audibly silent. The percussionist has a low-sounding instrument for the right hand and a contrasting high-sounding instrument for the left. The first musical question is whether a two-cycle timbral exchange works with the accompaniment.
-
-Use `x` for an audible onset and `.` for a silent pulse. For this specific seed, begin with three onset columns and five silent pulses. Give each onset one silent pulse, leaving two; append the remaining two to the first two columns. Read each column downwards and concatenate:
-
-```text
-initial groups:       [x]   [x]   [x]     remaining: . . . . .
-after first sharing:  [x .] [x .] [x .]   remaining: . .
-after second sharing: [x . .] [x . .] [x .]
-concatenated:         x . . x . . x .
-positions:            0 1 2 3 4 5 6 7
-```
-
-The onsets are 0, 3 and 6. Their cyclic gaps are 3, 3 and 2, including the return from 6 to the next cycle's 0. There are three onsets, eight positions and gaps differing by at most one pulse. These facts establish the selected construction, not its musical value. For a different number of onsets or pulses, use the chapter-21 repeated-distribution algorithm or an already qualified seed; the particular two-sharing calculation above is not a general formula for every pair of counts.
-
-The seed places an attack on the other instrument's cue at 6. Rotate every onset forward by two positions, wrapping at 8: 0 becomes 2, 3 becomes 5, and 6 becomes 0. The ordered result is 0, 2, 5, with gaps 2, 3, 3. It preserves the cyclic spacing family and attack count, includes the fixed pulse 0 and leaves pulse 6 silent. This rotation changes the relation to the accompaniment even though a comparison of unanchored cyclic shapes treats the two patterns as equivalent. Merely rotating the diagram's labels would not change the performed phase.
+[MDPE.30:5.1](#mdpe3051---generate-the-small-seed-and-choose-its-phase) fully derives the three-onset, eight-pulse seed, then changes its phase to keep a fixed entry and another instrument's cue clear. [Section 4.1](#mdpe3041---recover-the-seed-and-place-it-in-the-receiving-music) gives the general placement operation and its input boundary.
 
 ### MDPE.Application:4.2 - Turn the onsets into actual hand and sound parts
 
-First alternate hands on **audible attacks only**. Begin with the right hand and continue alternation across the cycle boundary; do not restart the rule at each bar. Three is odd, so the next cycle starts with the other hand.
-
-| Eight-pulse span | Pulse 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| First cycle | R | . | L | . | . | R | . | . |
-| Second cycle | L | . | R | . | . | L | . | . |
-
-Here R and L are audible strokes on the respective instruments. The combined onset pattern repeats after eight pulses, but the hand and timbre assignment repeats after sixteen. In one sixteen-pulse span, right-hand attacks are at 0, 5 and 10, and left-hand attacks at 2, 8 and 13. Those two parts were generated by an action rule; they were not inferred from the onset polygon alone.
-
-The ensemble compares this with playing all three attacks on one sound. The single-sound alternative preserves timing and costs less coordination but removes the proposed timbral exchange. In the constructed rehearsal, the percussionist can perform the alternating-attack version at the agreed 72 pulses per minute with the audible reference retained, and the partner musician reports that pulse 6 remains clear. The ensemble keeps it for the next rehearsal because the two-cycle exchange serves that arrangement. This is a stipulated bounded receiving decision, not a measured long-run reliability or a causal claim that the generation algorithm improved music.
+[MDPE.30:5.2](#mdpe3052---turn-the-onsets-into-actual-hand-and-sound-parts) continues alternating audible attacks through the cycle boundary and compares the resulting two-cycle timbral exchange with a simpler allocation.
 
 ### MDPE.Application:4.3 - Change the receiving condition without confusing the two action rules
 
-The accompaniment is revised: the low right-hand sound must now mark pulse 0 **of every eight-pulse cycle**. The alternating-attack version fails this condition by construction, even when played perfectly. More practice of that same rule cannot fix the alternating first sound.
-
-Compare a second action rule from chapter 32. Alternate the hands on **every pulse**, including silent motions, and sound only positions 0, 2 and 5. Capitals below mean audible strokes; lowercase letters mean the indicated hand moves without an audible attack, stopping short or using an appropriately silent motion.
-
-```text
-pulse:   0 1 2 3 4 5 6 7
-motion:  R l R l r L r l
-sound:   x . x . . x . .
-```
-
-Eight is even, so this hand allocation repeats at the next cycle. The first two audible attacks are right-hand strokes and the last is left-hand: it is the chapter-32 smooth-toggle seed. The audible spacing and silence at 6 remain; the timbral organization and movement demand change. Instead of three audible strokes with alternation between them, the performer maintains eight alternating pulse motions. That can help one performer and burden another. Silent movement is not a silent instruction to skip the movement.
-
-In the constructed return, the percussionist first sounds an unintended stroke at 4. The ensemble slows the passage, separates audible from silent motions, then returns to the same receiving tempo and accompaniment. Once the required sound pattern and entry are demonstrated under those conditions, it selects this version for that use and retains the two-cycle version for the earlier arrangement. If the performer cannot obtain the required silent motion reliably in the available preparation time, choose a playable allocation or change the instrumentation, entry demand or rehearsal commitment. A correct table supplies no missing capability.
+[MDPE.30:5.3](#mdpe3053---change-the-receiving-condition-without-confusing-the-two-action-rules) changes the allocation when the right-hand sound must return at every eight-pulse beginning. [Section 4.2](#mdpe3042---construct-the-action-and-sound-allocation-across-the-boundary) explains attack-wise and pulse-wise alternation beyond this seed.
 
 ### MDPE.Application:4.4 - Extend the phrase while preserving a chosen action relation
 
-Suppose a later arrangement has a twelve-pulse span and still wants a block of right-hand attacks followed by a block of left-hand attacks, with the same three-pulse gaps at the two transitions. Stretching every old interval by 1.5 would move the attacks off the new unit-pulse grid. Adding four rests would keep the old onsets but break the chosen transition spacing. Neither operation supplies the requested relation.
-
-Use chapter 32's splice instead. Cut the eight-pulse motion after position 3. Copy its four-pulse transition segment at original positions 2–5, then insert that copy between the two halves:
-
-```text
-first half       inserted transition    second half
-R l R l          R l r L                r L r l
-
-new positions:   0 1 2 3 4 5 6 7 8 9 10 11
-new motion:      R l R l R l r L r L r  l
-```
-
-The result has right-hand attacks at 0, 2 and 4 and left-hand attacks at 7 and 9. Its cyclic gaps are 2, 2, 3, 2, 3. Five attacks replace three, the span becomes twelve, and the selected hand blocks and three-pulse transitions remain. Inserting an even number of pulses preserves the parity of the shifted hand motions. This is an explicit preservation claim about this construction, not proof that every stylistic or perceived quality survived.
-
-The new part still needs its relation to the revised accompaniment and the performer's capability. If the accompaniment actually keeps an eight-pulse landmark, the twelve-pulse construction is not an adequate replacement merely because the arithmetic works. Retain the eight-pulse part or reconsider the joint arrangement. If twelve pulses are intended, try the new part with those receiving landmarks and compare the audible transition, effort and entry rather than declaring a score of five attacks more complex or better in every sense.
+[MDPE.30:5.4](#mdpe3054---extend-the-phrase-while-preserving-a-chosen-action-relation) derives a twelve-pulse smooth-toggle part by splicing the transition. It then returns to the receiving accompaniment to decide whether the new part can be used.
 
 ### MDPE.Application:4.5 - Return the useful part and its limits
 
-The usable result identifies the onset pattern and fixed origin, hand/action rule, instruments and audible differences, receiving accompaniment, demonstrated conditions and selected alternative. Timing geometry, a Method for generating or performing it, understanding the construction and acquiring the performance remain different results. The [style and acquisition account](#mdpeapplication53---connect-style-method-structure-and-acquisition) explains this distinction when teaching the operation.
-
-`MDPE.9` can use the generated alternatives, `MDPE.3` their performed combination and `MDPE.10` a missing capability. For broader rhythmic comparison, transformation or coordination, use Rhythmics RHY.7, RHY.8 and RHY.11 or the applicable specialist method. Stop at the playable part and bounded receiving result when no wider practice-development decision is waiting.
-
-
+[MDPE.30:4.4](#mdpe3044---try-the-receiving-part-and-retain-the-usable-result) connects the score to a receiving trial and retains the actual conditions of use. Application 5.3 develops the related distinction between a method's structure, understanding its description and acquiring performing capability.
 
 ## MDPE.Application:5 - Participation, learning, recognition and renewal in music and movement practices
 
@@ -9476,6 +9716,8 @@ A later successful varied performance may support a stronger acquisition claim. 
 
 This connects a Method's structure, a description's recoverable relations and acquisition without treating them as one amount. Different agents can acquire different useful portions, or reach the same capability through different means. Counts become comparable only after their units, granularity, selected set, criteria and conditions are fixed.
 
+Use [MDPE.30](#mdpe30---construct-a-rhythmic-part-from-a-seed-phase-and-action-rule) for the complete rhythmic construction that joins a seed, its phase, the action rule and the receiving part. The present teaching comparison uses one of those operations.
+
 #### MDPE.Application:5.3.7 - Use assisted reach as a question, not a permanent rank
 
 The familiar distinction between what a learner can do without help, can do with suitable help and cannot yet do under the available arrangement is useful here. Each result is relative to the task, preparation, kind of assistance and budget. It is not a permanent level of the person.
@@ -9527,7 +9769,7 @@ Those distinctions determine the contribution to obtain or practise. For a repea
 ## MDPE.Sources:1 - Edition return
 
 **The version date shown above** is the public designation of the framework episteme expressed by the Readme, Table of
-Contents, Architectural Reference, the twenty-six pattern bodies named in that table, the shared cross-pattern methods and constructed
+Contents, Architectural Reference, the twenty-eight pattern bodies named in that table, the shared cross-pattern methods and constructed
 applications, and these Sources and Edition Notes. The pattern bodies and these named support units are the
 claim-bearing source of the edition. The all-in-one Markdown publication is a presentation of the same selected
 content and must agree with it.
