@@ -48,7 +48,7 @@ Bring the question you are actually trying to answer. These entries are selected
 - **Question:** Which work, preparation and help must become available for the next delivery?
 - **First useful result or blocker:** A constructed delivery method with an attainable receiving performance, or the exact missing capability, permission or support.
 - **Start with:** [CUST.6](#cust6---establish-repeatable-deployment-and-service-delivery).
-- **Stop or return:** Retain explicit assisted provision when it fits; return a false family assumption to CUST.3 rather than adding unexplained instructions.
+- **Stop or return:** Retain explicit assisted provision when it fits; return a false family assumption to CUST.3.
 
 ### CUST-ENTRY-CHANGE - Improve the common offering while current customers continue
 
@@ -72,7 +72,7 @@ Bring the question you are actually trying to answer. These entries are selected
 
 The intended reader manages a product, service, customer delivery, implementation practice or another undertaking with continuing customer commitments. Use the large CUST.1 Method when the customer case and future offering must be developed together. Use a smaller Method when the current problem is already bounded. A supported configuration needs no new productization programme.
 
-Read the [Architectural Reference](#custreference1---field-and-use) for the field, connections and limits. [Using FPF Library](../../USING-FPF.md) explains how to obtain supplying frameworks. Reading a Method supplies neither its required professional capabilities nor permission to perform restricted work.
+Read the [Architectural Reference](#custreference1---field-and-use) for the field, connections and limits. [Using FPF Library](../../USING-FPF.md) explains how to obtain supplying frameworks. Perform the work with the required professional capabilities and permissions.
 
 # Customization and Productization Management Principles Framework Architectural Reference
 
@@ -84,30 +84,30 @@ The recurring difficulty is not merely excessive customization. A valuable local
 
 A customer result and a repeatable provider contribution are distinct. A deployment can work for its recipient while depending on exceptional effort, unavailable data or an undocumented specialist. Conversely, a reusable component can be technically sound while leaving the customer's operating change, training or support unresolved. CUST connects these two results without requiring both to succeed in every case.
 
-An **offering** is the result or contribution offered to someone, together with its conditions of provision. A **family** contains offerings or configurations whose common basis, permitted differences and support can be explained together. A **delta** is a consequential difference from the chosen supported basis; it may concern work or obligations as well as an artifact. A **local residue** is a contribution deliberately retained for a particular case rather than admitted to the common family. A promise, contract, component, method description, performed service and provider capability remain different things.
+An **offering** is the result or contribution offered to someone, together with its conditions of provision. A **family** contains offerings or configurations whose common basis, permitted differences and support can be explained together. A **delta** is a consequential difference from the chosen supported basis; it may concern work or obligations as well as an artifact. A **local residue** is a contribution deliberately retained for a particular case rather than admitted to the common family.
 
 “Customer” includes the recipient or party whose work is served; payer, user and beneficiary may differ. Public and nonprofit provision can be valuable without a positive margin on each recipient. Its commitments still require actual resources and support.
 
-The intended practitioner can investigate the customer's work, recover the supported offering and obtain the relevant professional contributions. CUST supplies management Methods at several useful scales. It does not supply every engineering, accounting, safety, legal or subject-specific capability needed to carry them out.
+The intended practitioner can investigate the customer's work, recover the supported offering and obtain the relevant professional contributions. CUST supplies management Methods at several useful scales.
 
 ## CUST.Reference:2 - Boundaries and the Meaning of the Name
 
 The chosen name joins two directions of work. **Customization** develops a fitting result from a supported basis under actual customer conditions. **Productization** develops a sufficiently defined, repeatable offering or reusable contribution from variable work. The second direction can produce an assisted service, a delivery method or a restricted family; it need not produce a standalone artifact or remove every specialist.
 
-**Management** identifies the question of making commitments, contributions, resources and revisions fit together. It does not name a mandatory department. The same person may perform compatible contributions, and a small team may use the full Method without six separate jobs.
+**Management** identifies the question of making commitments, contributions, resources and revisions fit together. It does not name a mandatory department. The same person may perform compatible contributions, and a small team may use the full Method.
 
 | Neighboring field or label | Contribution retained | Boundary of CUST |
 | --- | --- | --- |
 | Marketing | Customer results, meaningful offers, programmes, inquiry and promise–execution alignment. | CUST constructs and governs the relation between actual deltas, a repeatable family, delivery capability and continuing obligations. It does not redefine customer or market inquiry. |
 | Systems Engineering | Product and platform families, supported use paths, integrated offering/provider concepts, compatibility and transition. | CUST uses these engineered results in the wider customer and resource decision. It does not replace technical realization or its qualification. |
-| Operations Management | Actual operating capacity, variability, coordination and feasible service commitments. | CUST explains which local and shared work the operating arrangement must provide. It does not infer capacity from a productization label. |
+| Operations Management | Actual operating capacity, variability, coordination and feasible service commitments. | CUST explains which local and shared work the operating arrangement must provide. |
 | Management Accounting | Customer and product economics over time. | CUST supplies the complete provision boundary and alternatives; accounting supplies their qualified economic treatment. |
 | Implementation Facilitation | Inquiry into implementation difficulties, support construction and actual transfer. | CUST adds the connected local/shared receiving decisions, including whether field experience should change a repeatable offering. |
-| Semantic Integration Engineering | Meaning, correspondence and permitted receiving use across contexts. | CUST uses the qualified meanings to distinguish consequential deltas. A named context or copied schema is not the integration result. |
+| Semantic Integration Engineering | Meaning, correspondence and permitted receiving use across contexts. | CUST uses the qualified meanings to distinguish consequential deltas. |
 
-Several alternative names remain useful for their own scopes. *Productization Management* foregrounds conversion into common provision but can hide the continuing legitimate local result. *Customization Management* can hide the reverse movement into a changed common family. *Mass Customization* supplies a strong line of solution-space development, robust process design and choice navigation, including services; CUST also admits useful local-only provision, non-repeatable residue and refusal. *Solution Business* includes wider commercial and relational questions. *Product and Service Management* is broader than this field, while adding “product and service” to the selected title contributes little once offering and provision are explained. *Forward-Deployed Engineering* names one practice arrangement, not the whole field.
+Several alternative names remain useful for their own scopes. *Productization Management* foregrounds conversion into common provision but can hide the continuing legitimate local result. *Customization Management* can hide the reverse movement into a changed common family. *Mass Customization* supplies a strong line of solution-space development, robust process design and choice navigation, including services; CUST also admits useful local-only provision, non-repeatable residue and refusal. *Solution Business* includes wider commercial and relational questions. *Product and Service Management* is broader than this field. *Forward-Deployed Engineering* names one practice arrangement, not the whole field.
 
-This combined name is a local synthesis, not a claim that an external professional community already uses precisely this umbrella. The practices and source lines remain real at their stated scopes. The name carries no promise that customization will necessarily become scalable.
+This combined name is a local synthesis.
 
 ## CUST.Reference:3 - Methods and Their Connections
 
@@ -127,17 +127,17 @@ Three relations help the reader use this arrangement accurately.
 
 **Method composition** connects ways of obtaining component results into a way of obtaining the whole result. In ongoing work, a selected action can enact contributions to that whole at the same time: while the field team resolves an ambiguous input, it may be performing part of the current customer delivery and part of constructing the repeatable family. The whole constrains that action: the team may use the customer's material for authorized local work but cannot place it in a partner package when that receiving purpose is not permitted. The local action must then produce a qualified conclusion or an independently permitted example, not a copied dataset.
 
-**Use of an earlier result** concerns something already obtained. A qualified semantic mapping, accounting comparison or compatibility result can be consumed without rerunning the supplying Method. Its meaning, conditions and remaining uncertainty travel with it. Changing those conditions reopens the affected use; the mere passage through another pattern does not.
+**Use of an earlier result** concerns something already obtained. A qualified semantic mapping, accounting comparison or compatibility result can be consumed without rerunning the supplying Method. Its meaning, conditions and remaining uncertainty travel with it. Changing those conditions reopens the affected use.
 
 **A repertoire** makes methods available for different situations. It does not require all of them on every occasion. CUST.7 can justify continued bespoke work with no common development. CUST.8 can manage retirement without a new field probe. A supported configuration can finish the customer case without a new family.
 
-The large Method remains useful even when its operations are familiar. It provides the joins, simultaneous conditions, branch choices and returns that would otherwise have to be invented for each case. A list of supplying patterns does not supply those joins. Conversely, the large Method does not make every constituent necessary.
+The large Method remains useful even when its operations are familiar. It provides the joins, simultaneous conditions, branch choices and returns that would otherwise have to be invented for each case. A list of supplying patterns does not supply those joins.
 
 ## CUST.Reference:4 - Make the Whole Arrangement Work
 
 Customer usefulness, common reuse, current service, resources and permission constrain one arrangement. Individually plausible contributions can be impossible together. A customer may accept an outcome target, engineering may produce a working component and accounting may show an attractive unit cost, while the only qualified specialist is already committed elsewhere. The joined promise remains unavailable until that conflict is resolved.
 
-CUST.1:4.3 explains how to make the relevant decisions governable. Recover the needed contributions, actual decision authority and timing, then join the answers before a consequential promise. A shared role holder may supply several answers; a consequential conflict can require separate judgement. Neither a fixed number of contexts nor a fixed number of people establishes adequate governance.
+CUST.1:4.3 explains how to make the relevant decisions governable. Recover the needed contributions, actual decision authority and timing, then join the answers before a consequential promise. A shared role holder may supply several answers; a consequential conflict can require separate judgement.
 
 Meaning differences should be treated where they affect work. The customer's “active” status, the provider's supported calculation, the deployment team's observed records and the commercial promise may differ. Use the full Semantic Integration methods when an adequate correspondence is missing. Separating those viewpoints is a beginning; explain the correspondence needed to use each result.
 
@@ -149,7 +149,7 @@ Before promising scale, specify what grows and what mechanism changes the burden
 
 ## CUST.Reference:5 - Connected Worked Applications
 
-These examples are constructed to show operations and consequential choices. Their numerical assumptions and outcomes are not observations of business performance.
+These examples are constructed to show operations and consequential choices.
 
 ### CUST.Reference:5.1 - A monthly analytical service with a private deployment
 
@@ -157,11 +157,11 @@ A provider offers a hosted monthly eligibility report. A new customer needs priv
 
 CUST.1 first places the existing provision beside the customer's required result. CUST.2 separates the linked deltas. Enterprise sign-on may fit a supported adapter. Private hosting changes preparation and support. The meaning of “active” requires an explained correspondence or a distinct profile. The report layout may remain a local service. Urgent support changes capacity even if no code changes.
 
-CUST.3 constructs a candidate family: a common monthly reporting purpose, qualified input meanings, an ordinary hosted member and a private member with stated access and preparation conditions. A disconnected immediate-response service is excluded because its operation and support do not fit the common basis. This exclusion makes the family usable; it does not deny the other customer's need.
+CUST.3 constructs a candidate family: a common monthly reporting purpose, qualified input meanings, an ordinary hosted member and a private member with stated access and preparation conditions. A disconnected immediate-response service is excluded because its operation and support do not fit the common basis.
 
 CUST.4 helps the customer choose between the hosted and private members and makes the necessary customer work visible. CUST.5 investigates the unsettled access condition through a permitted bounded attempt. The field result supports local use with assistance, but reveals manual input correction that was absent from the shared-delivery claim.
 
-CUST.6 reconstructs that correction, makes input interpretation and exception handling explicit, and supplies preparation and scheduled help. Another prepared performer then performs the work. If extra author assistance remains necessary, the provider can retain it as explicit assisted provision, improve the method or narrow the supported class. Declaring the archive of scripts complete cannot decide among those options.
+CUST.6 reconstructs that correction, makes input interpretation and exception handling explicit, and supplies preparation and scheduled help. Another prepared performer then performs the work. If extra author assistance remains necessary, the provider can retain it as explicit assisted provision, improve the method or narrow the supported class.
 
 CUST.7 compares the full work at the intended volume. Under illustrative assumptions, six bespoke cases at six hours each require 36 hours; twelve hours of common preparation plus six deliveries at three hours each require 30. At two cases the shared arrangement requires 18 hours against 12. A ten-hour transition obligation makes the six-case shared arrangement require 40. These comparisons support only the stated work boundary; they still need timing, capability, funding and service conditions.
 
@@ -171,7 +171,7 @@ Change one premise: the customer's data and worked examples may be used locally 
 
 ### CUST.Reference:5.2 - Repeatable public learning provision
 
-A public library offers digital-skills sessions. Another branch asks for translated materials, evening access, device help and a different route for residents who cannot attend in person. There is no requirement that every participant generate revenue.
+A public library offers digital-skills sessions. Another branch asks for translated materials, evening access, device help and a different route for residents who cannot attend in person.
 
 The useful result is participation in a specified learning activity with the needed help, not merely distribution of a translated deck. CUST.2 distinguishes language, access, device preparation and facilitator capability. CUST.3 constructs a family around the common learning activity and its acceptance basis, with supported language and delivery variations. A need for continuing individual device repair falls outside the session offering and receives a separate service decision.
 
@@ -205,7 +205,7 @@ A symptom selects a useful question. Repeated expert rescue suggests a delivery-
 
 Obtain assurance for the claim actually used. A field attempt qualifies its tested conditions. A delivery trial can show what a prepared performer obtained with specified support. An economic comparison depends on its population, period, resource categories and assumptions. Technical compatibility and authority to change a promise remain different questions. Reuse adequate results where their conditions match.
 
-At the scope of the connected practice, ask whether the customer can obtain the selected result; whether every common contribution has a supported form and receiving use; whether the needed decisions, capabilities and permissions are available together; whether continuing burden is included; and whether changed knowledge reaches the practices that rely on it. These questions inherit the relevant pattern-level answers. They do not require repeating every check for an unchanged contribution.
+At the scope of the connected practice, ask whether the customer can obtain the selected result; whether every common contribution has a supported form and receiving use; whether the needed decisions, capabilities and permissions are available together; whether continuing burden is included; and whether changed knowledge reaches the practices that rely on it. These questions inherit the relevant pattern-level answers.
 
 The principal perspective risk is provider convenience. The payer's value can differ from the user's result, and a recipient can bear work that has disappeared from the provider's estimate. Include those participants when their work changes the answer. Accessible, cooperative customers can also bias field learning; qualify the population rather than claiming universality.
 
@@ -215,21 +215,21 @@ Several failures deserve specific correction. Payment can fund bespoke work but 
 
 The framework can reduce private reconstruction by supplying both a large customer-case Method and directly usable smaller Methods. It makes local-only provision, assisted repetition, a narrower promise and refusal legitimate choices alongside common product development.
 
-It also makes costs harder to hide. Common development, qualified transfer, support and migration can outweigh the benefit of repetition at a small volume or high variety. A constrained offering may be more supportable than a large configurable platform. The Method improves the basis of that choice; it does not guarantee commercial success.
+It also makes costs harder to hide. Common development, qualified transfer, support and migration can outweigh the benefit of repetition at a small volume or high variety. A constrained offering may be more supportable than a large configurable platform.
 
-The additional work should be proportional to the live decision. A sufficient existing result ends that question. A low-risk configuration needs no full field study, and a retained local service needs no forced family admission. The explanation is complete so that readers can take a short justified route, not so every case becomes a large programme.
+The additional work should be proportional to the live decision. A sufficient existing result ends that question. A low-risk configuration needs no full field study, and a retained local service needs no forced family admission.
 
 ## CUST.Reference:9 - Architectural Rationale
 
-One framework serves the connected field because the local/shared decisions repeatedly constrain one another. Splitting customization from productization would put their joins back into each practitioner's private work. Placing all of the account inside Marketing, Systems Engineering or Operations would obscure the other receiving decisions; those frameworks already supply substantial complete Methods at their own scopes.
+One framework serves the connected field because the local/shared decisions repeatedly constrain one another. Splitting customization from productization would put their joins back into each practitioner's private work. Placing all of the account inside Marketing, Systems Engineering or Operations would obscure the other receiving decisions; those frameworks supply Methods at their own scopes.
 
-CUST.1 is deliberately larger than a navigation page. It constructs a compatible continuation through decisions, intermediate results, joint conditions and returns. CUST.2 through CUST.8 retain independent working problems and reusable results, rather than becoming headings inside one oversized checklist. This allows convenient large use and flexible smaller use at the same time.
+CUST.1 constructs a compatible continuation through decisions, intermediate results, joint conditions and returns. CUST.2 through CUST.8 retain independent working problems and reusable results. This allows convenient large use and flexible smaller use at the same time.
 
-The choice does not depend on new elementary operations. Known operations can form a useful new composite Method when their connection changes the first useful action or removes substantial private reconstruction. Nor does the number of supplying frameworks make this framework a new Suite: their contributions are used for this field, not all incorporated as constituent disciplines.
+Known operations can form a useful new composite Method when their connection changes the first useful action or removes substantial private reconstruction. The supplying frameworks contribute results to this field; their disciplines are not all constituents of CUST.
 
 A direct supplier is the better entry when its complete result answers the current question. Use SYSE.8 for an integrated offering/provider concept, IS.3 for constructing implementation support, or MA.8 for customer and product economics when no additional CUST join is missing. CUST explains when those results must be connected to local variation, a common family and continuing obligations.
 
-A later treatment that provides this same connected use more clearly, or evidence that two independently useful fields need separate maintenance, can change the arrangement. Familiar names, pattern counts and publication carriers do not decide that comparison.
+A later treatment that provides this same connected use more clearly, or evidence that two independently useful fields need separate maintenance, can change the arrangement.
 
 ## CUST.Reference:10 - Sources and Synthesis
 
@@ -240,20 +240,20 @@ CUST adopts those contributions at their stated reach. It rejects a universal �
 ### CUST.Reference:10.1 - Productization, families and customer choice
 
 - [Wirtz, Fritze, Jaakkola, Gelbrich and Hartley, “Service products and productization” (2021)](https://web2-bschool.nus.edu.sg/wp-content/uploads/media_rp/publications/sx3Ej1630635520.pdf), DOI 10.1016/j.jbusres.2021.08.033. The abstract, Sections 3–4 and selected discussion in Sections 5–6 support specification of a service product and its organized provision. This is a conceptual contribution, not measured evidence that CUST improves performance. CUST adapts the commercial framing for public and nonprofit provision while retaining actual resource requirements.
-- [Valtakoski and Järvi, “Productization of knowledge-intensive services: Enabling knowledge sharing and cross-unit collaboration” (2016)](https://research.aalto.fi/fi/publications/productization-of-knowledge-intensive-services-enabling-knowledge/), DOI 10.1108/JOSM-01-2015-0004. The primary abstract of two longitudinal cases supports attention to goals, shared understanding and collaboration. It does not supply a fully read transfer procedure; CUST.6 obtains that treatment through Implementation Facilitation.
+- [Valtakoski and Järvi, “Productization of knowledge-intensive services: Enabling knowledge sharing and cross-unit collaboration” (2016)](https://research.aalto.fi/fi/publications/productization-of-knowledge-intensive-services-enabling-knowledge/), DOI 10.1108/JOSM-01-2015-0004. The primary abstract of two longitudinal cases supports attention to goals, shared understanding and collaboration. CUST.6 draws on Implementation Facilitation for its transfer method.
 - [Salvador, de Holan and Piller, “Cracking the Code of Mass Customization” (2009)](https://www.researchgate.net/publication/265498057_Cracking_the_Code_of_Mass_Customization). The article's main text and three-capability account provide the historical anchor for solution-space development, robust process design and choice navigation, including services. CUST.3 and CUST.4 retain the three distinct questions instead of treating customization as a menu of features.
-- [Simpson, Siddique and Jiao, “Platform-Based Product Family Development” (2006)](https://www.me.psu.edu/simpson/courses/me546/Platform.Chp01.w-Refs.pdf). The bounded chapter treatment, especially printed pages 4–6, supports top-down family development and bottom-up consolidation, with a commonality/differentiation tradeoff. It is not a reading of the entire book or a source for every service-family construction.
-- [Bakås, Buer, Skjelstad and Kløve, “A Framework for Solution Space Development in Mass Customization” (2023)](https://www.sintef.no/en/publications/publication/2174785/), DOI 10.1007/978-3-031-34821-1_15. The primary abstract supports a continuing front-end/back-end learning account. It does not support importing the paper's unread full module procedure. The positive family construction here remains explicit in CUST.3 and in its full suppliers.
+- [Simpson, Siddique and Jiao, “Platform-Based Product Family Development” (2006)](https://www.me.psu.edu/simpson/courses/me546/Platform.Chp01.w-Refs.pdf). The bounded chapter treatment, especially printed pages 4–6, supports top-down family development and bottom-up consolidation, with a commonality/differentiation tradeoff.
+- [Bakås, Buer, Skjelstad and Kløve, “A Framework for Solution Space Development in Mass Customization” (2023)](https://www.sintef.no/en/publications/publication/2174785/), DOI 10.1007/978-3-031-34821-1_15. The primary abstract supports a continuing front-end/back-end learning account. Use CUST.3 and its supplying Methods to construct the family.
 
 These contributions favor an explainable common basis and permitted variation over premature standardization. They leave room for useful local residue. When similarity is merely superficial, CUST keeps separate offerings rather than forcing one family.
 
 ### CUST.Reference:10.2 - Differentiation and its operating consequences
 
-- [Olhager, “Strategic positioning of the order penetration point” (2003)](https://www.sciencedirect.com/science/article/pii/S0925527303001191), DOI 10.1016/S0925-5273(03)00119-1. The primary abstract and indexed introduction support the distinction between forecast-driven common work and order-driven work. No complete algorithm is claimed from that bounded reading.
-- [Harfeldt-Berg and Olhager, “The customer order decoupling point in empirical operations and supply chain management research: a systematic literature review” (2024)](https://doi.org/10.1080/00207543.2024.2314164). The primary indexed abstract establishes a broad empirical review and multiple contextual factors; it is not used as a fully read taxonomy or a universal selection rule.
+- [Olhager, “Strategic positioning of the order penetration point” (2003)](https://www.sciencedirect.com/science/article/pii/S0925527303001191), DOI 10.1016/S0925-5273(03)00119-1. The primary abstract and indexed introduction support the distinction between forecast-driven common work and order-driven work.
+- [Harfeldt-Berg and Olhager, “The customer order decoupling point in empirical operations and supply chain management research: a systematic literature review” (2024)](https://doi.org/10.1080/00207543.2024.2314164). The primary indexed abstract establishes a broad empirical review and multiple contextual factors.
 - [Naldi, Galizia and Bortolini, “Balancing storage cost and customization time in product platform design: a bi-objective optimization model” (2025)](https://link.springer.com/article/10.1007/s00170-025-15081-1). Its model and stated assumptions make competing time and storage objectives concrete. Deterministic demand, cost and time, just-in-time custom components, sufficient warehouse space and the treatment of production cost bound the result. CUST.4 retains the tradeoff but does not transfer the model unchanged to software or services.
 
-The serious alternative is early differentiation or entirely order-driven work. CUST.4 compares these with a shared base and later differentiation using the actual delay, resource and variation constraints. The most recent model is not declared best for a different operating setting merely because it is recent.
+The serious alternative is early differentiation or entirely order-driven work. CUST.4 compares these with a shared base and later differentiation using the actual delay, resource and variation constraints.
 
 ### CUST.Reference:10.3 - Field work and return to the common offering
 
@@ -265,35 +265,35 @@ CUST.5 retains the durable field/product connection while bounding each inquiry 
 
 ### CUST.Reference:10.4 - Solutions, provision and outcome promises
 
-- [Tuli, Kohli and Bharadwaj, “Rethinking Customer Solutions: From Product Bundles to Relational Processes” (2007)](https://journals.sagepub.com/doi/pdf/10.1509/jmkg.71.3.001). The primary abstract supports the relation between requirements, integration, deployment and subsequent support. It is not used as a fully read implementation manual.
-- [Storbacka, “A solution business model: Capabilities and management practices for integrated solutions” (2011)](https://www.researchgate.net/publication/251730722_A_solution_business_model_Capabilities_and_management_practices_for_integrated_solutions). The author-posted abstract supports attention to commercialization and industrialization across solution work. It does not justify importing every capability in the unread full model.
-- [Sjödin, Jovanovic, Visnjic and Parida, “Value Creation and Value Capture Alignment in Business Model Innovation: A Process View on Outcome-Based Business Models” (2020)](https://onlinelibrary.wiley.com/doi/full/10.1111/jpim.12516). The abstract and indexed publisher passages support continuing alignment of value creation and capture, rather than relying on contract form alone. The full continuous article was not the basis of this treatment.
-- [Rolls-Royce, TotalCare](https://www.rolls-royce.com/products-and-services/civil-aerospace/services/totalcare.aspx). The official offer illustrates selected engine-life and maintenance responsibilities and payment related to engine flying hours while the customer retains operational responsibilities. It is neither the actual contract nor independent evidence of performance, and it supplies no universal clinical, agricultural or social-outcome recipe.
+- [Tuli, Kohli and Bharadwaj, “Rethinking Customer Solutions: From Product Bundles to Relational Processes” (2007)](https://journals.sagepub.com/doi/pdf/10.1509/jmkg.71.3.001). The primary abstract supports the relation between requirements, integration, deployment and subsequent support.
+- [Storbacka, “A solution business model: Capabilities and management practices for integrated solutions” (2011)](https://www.researchgate.net/publication/251730722_A_solution_business_model_Capabilities_and_management_practices_for_integrated_solutions). The author-posted abstract supports attention to commercialization and industrialization across solution work.
+- [Sjödin, Jovanovic, Visnjic and Parida, “Value Creation and Value Capture Alignment in Business Model Innovation: A Process View on Outcome-Based Business Models” (2020)](https://onlinelibrary.wiley.com/doi/full/10.1111/jpim.12516). The abstract and indexed publisher passages support continuing alignment of value creation and capture, rather than relying on contract form alone.
+- [Rolls-Royce, TotalCare](https://www.rolls-royce.com/products-and-services/civil-aerospace/services/totalcare.aspx). The official offer illustrates selected engine-life and maintenance responsibilities and payment related to engine flying hours while the customer retains operational responsibilities. It is neither the actual contract nor independent evidence of performance.
 
 CUST.4 uses the complete SYSE.8 offering/provider Method for the consequential choice. The provider's influence, other parties' contributions, observation, acceptance, risk and resources must support the promise. Observability alone is insufficient; complete control of every cause is not a universal prerequisite. A narrower supported promise remains an available result.
 
 ## CUST.Reference:11 - Supplying Methods and Reader Returns
 
-A link introduced below as a Method is an invitation to obtain its full practical contribution when the named result is missing. The sources in CUST.Reference:10 instead explain what shaped this treatment and the limits of those claims. Neither use requires reading every linked work in advance.
+A link introduced below as a Method is an invitation to obtain its full practical contribution when the named result is missing. The sources in CUST.Reference:10 instead explain what shaped this treatment and the limits of those claims.
 
 | When the result is missing | Full supplying treatment | What CUST receives and preserves |
 | --- | --- | --- |
 | Meaning or permitted correspondence across sources | [SIE.1 — Bound the Receiving Use and Semantic Contract](../Engineering%20DPF%20Suite/SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md#sie1---bound-the-receiving-use-and-semantic-contract) and [SIE.4 — Judge Cross-Source Correspondences and Their Permitted Uses](../Engineering%20DPF%20Suite/SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md#sie4---judge-cross-source-correspondences-and-their-permitted-uses) | The receiving use, relevant meaning and qualified correspondence; CUST.2 uses them to recover deltas. |
-| An implementation-support undertaking or unresolved difficulty | [IS.1 — Agree a Useful Implementation-Support Undertaking](../IMPLEMENTATION-FACILITATION-PRINCIPLES-FRAMEWORK.md#is1---agree-a-useful-implementation-support-undertaking) and [IS.2 — Find the Implementation Difficulty and Obtain the Next Useful Contribution](../IMPLEMENTATION-FACILITATION-PRINCIPLES-FRAMEWORK.md#is2---find-the-implementation-difficulty-and-obtain-the-next-useful-contribution) | An agreed useful undertaking and the next obtaining contribution; CUST.5 keeps local and shared questions distinct. |
+| An implementation-support undertaking or unresolved difficulty | [IS.1 — Agree a Useful Implementation-Support Undertaking](../IMPLEMENTATION-FACILITATION-PRINCIPLES-FRAMEWORK.md#is1---agree-a-useful-implementation-support-undertaking) and [IS.2 — Find the Implementation Difficulty and Obtain the Next Useful Contribution](../IMPLEMENTATION-FACILITATION-PRINCIPLES-FRAMEWORK.md#is2---find-the-implementation-difficulty-and-obtain-the-next-useful-contribution) | An agreed useful undertaking and the next useful contribution; CUST.5 keeps local and shared questions distinct. |
 | A workable support strategy and actual transfer | [IS.3 — Construct and Adapt a Support Strategy with Its Recipients](../IMPLEMENTATION-FACILITATION-PRINCIPLES-FRAMEWORK.md#is3---construct-and-adapt-a-support-strategy-with-its-recipients) and [IS.5 — Sustain, Transfer, Extend or End Implementation Support](../IMPLEMENTATION-FACILITATION-PRINCIPLES-FRAMEWORK.md#is5---sustain-transfer-extend-or-end-implementation-support) | Obtainable support, receiving capability and remaining assistance; CUST.6 includes them in repeatable provision. |
 | An integrated offering and provider concept, including an outcome branch | [SYSE.8 — Develop an Integrated Offering and Provider Concept for Using an Engineered Result](../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse8---develop-an-integrated-offering-and-provider-concept-for-using-an-engineered-result) | The supported provision, responsibilities, acceptance and risk boundaries; CUST.3, CUST.4, CUST.7 and CUST.8 retain them. |
 | A justified platform change and supported use | [SYSE.23 — Choose What to Change So Later System Changes Become Easier](../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse23---choose-what-to-change-so-later-system-changes-become-easier), [SYSE.25 — Decide Whether and How to Improve a Platform from Practitioner-Task Evidence](../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse25---decide-whether-and-how-to-improve-a-platform-from-practitioner-task-evidence) and [SYSE.26 — Design a Supported Platform-Use Path](../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse26---design-a-supported-platform-use-path) | What improves later change, why practitioner evidence warrants it and how a supported user obtains the result. |
 | Technical compatibility or migration | [SYSE.27 — Evolve Platform Interfaces and Contribution Paths](../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse27---evolve-platform-interfaces-and-contribution-paths) and [SYSE.29 — Decide Whether and How to Migrate or Retire a Supported Platform Path](../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse29---decide-whether-and-how-to-migrate-or-retire-a-supported-platform-path) | Supported old/new behavior, transition, recovery and retirement scope; CUST.8 joins customer obligations and resources. |
 | Customer inquiry, programme or commercial-model repeatability | [MKT.12 — Investigate a Customer or Market Question for a Decision](MARKETING-PRINCIPLES-FRAMEWORK.md#mkt12---investigate-a-customer-or-market-question-for-a-decision), [MKT.13 — Test Commercial Model Repeatability and Deployment Limits](MARKETING-PRINCIPLES-FRAMEWORK.md#mkt13---test-commercial-model-repeatability-and-deployment-limits) and [MKT.14 — Develop and Change a Programme for Selected Customer Organisations](MARKETING-PRINCIPLES-FRAMEWORK.md#mkt14---develop-and-change-a-programme-for-selected-customer-organisations) | Decision-relevant evidence, supportable programme and limits of ordinary repetition, including permitted common preparation. |
-| A promise that actual providers can fulfill | [MKT.11 — Align Promises, Partners and Execution](MARKETING-PRINCIPLES-FRAMEWORK.md#mkt11---align-promises-partners-and-execution) | A supported promise with obtaining work and responsibilities; CUST.1 and CUST.8 retain its conditions. |
-| Organizational contributions cannot be supplied under current arrangements | [OCE.5 — Define Organization Positions](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce5---define-organization-positions) and [OCE.6 — Establish Holder Assignments and Enabling Relations for Organization Change](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce6---establish-holder-assignments-and-enabling-relations-for-organization-change) | Positions, holder assignments and enabling relations when needed; no fixed team size follows. |
+| A promise that actual providers can fulfill | [MKT.11 — Align Promises, Partners and Execution](MARKETING-PRINCIPLES-FRAMEWORK.md#mkt11---align-promises-partners-and-execution) | A supported promise with the work and responsibilities needed to fulfill it; CUST.1 and CUST.8 retain its conditions. |
+| Organizational contributions cannot be supplied under current arrangements | [OCE.5 — Define Organization Positions](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce5---define-organization-positions) and [OCE.6 — Establish Holder Assignments and Enabling Relations for Organization Change](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce6---establish-holder-assignments-and-enabling-relations-for-organization-change) | Positions, holder assignments and enabling relations when needed. |
 | Customer/product economics over time | [MA.8 — Account for Customer and Product Economics Over Time](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma8---account-for-customer-and-product-economics-over-time) | A qualified economic account at the complete CUST.7 provision boundary. |
 | Capacity and operating commitments | [OPS.10 — Qualify Operating Capacity Under Variability](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops10---qualify-operating-capacity-under-variability), [OPS.13 — Align Commitments, Resources, and Service Outcomes](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops13---align-commitments-resources-and-service-outcomes) and [OPS.14 — Relate Throughput, Cash, and Operating Consequences](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops14---relate-throughput-cash-and-operating-consequences) | Capacity under variability, aligned commitments and resource/throughput/cash consequences. |
 | Engineering search must coexist with current service | [Engineering.Reference:22 — How can a team organise search while keeping current service workable?](../Engineering%20DPF%20Suite/ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference22---how-can-a-team-organise-search-while-keeping-current-service-workable) | The complete connected engineering arrangement; CUST.5 adds the distinct local/shared receiving decisions. |
 
 These are conditional dependencies, not a required reading list. A qualified earlier result can be enough. A missing professional result returns the affected promise or construction to that work; it need not invalidate an unrelated supported local continuation.
 
-FPF Core supplies the general distinctions among Methods, their descriptions and performed work, and the development of ways to obtain a result through C.39. CUST specializes practical management problems without adding a new universal product kind. Use [FPF Core](../../FPF-Spec.md) for those general meanings and [Using FPF Library](../../USING-FPF.md) to find the needed contribution.
+FPF Core supplies the general distinctions among Methods, their descriptions and performed work, and the development of ways to obtain a result through C.39. CUST specializes practical management problems. Use [FPF Core](../../FPF-Spec.md) for those general meanings and [Using FPF Library](../../USING-FPF.md) to find the needed contribution.
 
 ## CUST.Reference:12 - Use and Refresh
 
@@ -303,9 +303,7 @@ The Readme selects three ordinary entries: CUST-ENTRY-DELIVERY, CUST-ENTRY-CHANG
 
 Use the complete current supplying treatment when a consequential condition has changed. Reopen the affected CUST contribution when a family invariant no longer holds, ordinary delivery needs different preparation or help, a permission changes, an operating constraint defeats a promise, or an old customer dependency alters the support tail. Preserve adequate unaffected contributions.
 
-External source limits remain part of their use. An abstract can orient a question without supplying an unread procedure. An official offer or job description can change or disappear; verify its current form before relying on that organizational fact. A new date, fashionable label or successful constructed case does not establish a better Method. A relevant new result can instead change a particular construction, boundary or comparison.
-
-The framework makes no empirical claim that its use always reduces cost, increases sales or improves social outcomes. Its practical claims concern the described ways to construct, connect and reconsider results under their conditions. Testing a particular outcome or comparative benefit requires evidence for that claim.
+External source limits remain part of their use. An abstract can orient a question; obtain the full treatment when its procedure is needed. An official offer or job description can change or disappear; verify its current form before relying on that organizational fact. A relevant new result can change a particular construction, boundary or comparison.
 
 ## CUST.Reference:End
 
@@ -326,7 +324,7 @@ If the current offering already fits and can be provided under its ordinary cond
 
 ### CUST.1:2 - Problem
 
-Local urgency tends to make the next delivery decisive. Shared development tends to treat local work as a source of product requests. Neither view alone settles who may promise what, which work is funded, whether another performer can repeat it or what happens to existing customers. The missing result is a jointly supportable continuation, not another list of improvement ideas.
+Local urgency tends to make the next delivery decisive. Shared development tends to treat local work as a source of product requests. Neither view alone settles who may promise what, which work is funded, whether another performer can repeat it or what happens to existing customers. The missing result is a jointly supportable continuation.
 
 ### CUST.1:3 - Forces
 
@@ -350,7 +348,7 @@ Keep any sufficient result already available. An earlier qualified configuration
 
 #### CUST.1:4.2 - Turn the differences into compatible alternatives
 
-Work backward from the missing customer result, then forward through the proposed delivery. Compare inputs, meanings, operations, decisions, access, help, acceptance and support with the supported basis. The constructive method in [CUST.2](#cust2---recover-client-deltas-and-choose-their-disposition) explains this recovery. Its result must tell the receiving decision what differs and why it matters, rather than merely naming a route.
+Work backward from the missing customer result, then forward through the proposed delivery. Compare inputs, meanings, operations, decisions, access, help, acceptance and support with the supported basis. The constructive method in [CUST.2](#cust2---recover-client-deltas-and-choose-their-disposition) explains this recovery. Its result must tell the receiving decision what differs and why it matters.
 
 Develop at least the materially different feasible continuations. These can include the supported offering unchanged, an allowed configuration, a bounded local adaptation, a shared component or family extension, a repeatable service, a partner contribution, a narrower promise and refusal. Combine them when their conditions fit. A partner can perform a repeatable service built around a common component while one report remains local.
 
@@ -369,11 +367,11 @@ Before an irreversible promise, identify who can contribute and decide the follo
 | Resources and economics | The work, capacity, funding and continuing burden of each alternative. | Commercial enthusiasm must not waive an unavailable resource or conceal unfunded work. |
 | Evidence and permitted use | The grounds, permissions and assurance needed for the consequential claim or action. | Delivery success must not certify its own broad repeatability, safety or reuse rights. |
 
-Name the person or group with actual authority for each live decision, the inputs they need, the next decision time and the conditions they may not waive alone. The person making the customer promise needs the joined answer, even when another party supplied each contribution. A roadmap intention is not that answer.
+Name the person or group with actual authority for each live decision, the inputs they need, the next decision time and the conditions they may not waive alone. The person making the customer promise needs the joined answer, even when another party supplied each contribution.
 
 One competent person may supply several contributions. Keep the distinctions visible in the decision itself: “I can implement this locally; I have not committed the product team to support it.” Seek independent judgement when incentives, uncertainty or consequences make self-approval unreliable, or when applicable professional conditions require it. The independence may concern one consequential evidence claim rather than every small change. Reconsider bundled responsibilities when workload, value at risk or disagreement makes the arrangement ineffective.
 
-When actual positions, assignments or enabling relations must change, use [OCE.5 — Define Organization Positions](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce5---define-organization-positions) and [OCE.6 — Establish Holder Assignments and Enabling Relations for Organization Change](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce6---establish-holder-assignments-and-enabling-relations-for-organization-change). Receive an arrangement with real decision rights, capability, time and access, then use it here. Naming six roles does not supply any of those conditions. If a required authority or resource is absent, narrow or defer the dependent promise while preserving independent permitted work.
+When actual positions, assignments or enabling relations must change, use [OCE.5 — Define Organization Positions](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce5---define-organization-positions) and [OCE.6 — Establish Holder Assignments and Enabling Relations for Organization Change](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce6---establish-holder-assignments-and-enabling-relations-for-organization-change). Receive an arrangement with real decision rights, capability, time and access, then use it here. If a required authority or resource is absent, narrow or defer the dependent promise while preserving independent permitted work.
 
 #### CUST.1:4.4 - Obtain the missing contribution without losing the whole
 
@@ -387,7 +385,7 @@ Use [CUST.5](#cust5---run-field-learning-and-return-a-productization-candidate) 
 
 When sharing could help, build the family through [CUST.3](#cust3---develop-a-repeatable-offering-family): common result and conditions, invariants, allowed variations, forbidden combinations and the local residue. The same artifact can belong in one family and be unusable in another because support, permission or customer work differs.
 
-Make a customer choice through [CUST.4](#cust4---configure-a-customer-solution-and-place-differentiation). Join that choice to the actual delivery method through [CUST.6](#cust6---establish-repeatable-deployment-and-service-delivery). The resulting package of explanation, tools, preparation and support must obtain the intended result for another prepared performer; it need not eliminate all assistance.
+Make a customer choice through [CUST.4](#cust4---configure-a-customer-solution-and-place-differentiation). Join that choice to the actual delivery method through [CUST.6](#cust6---establish-repeatable-deployment-and-service-delivery). The explanation, tools, preparation and support must enable another prepared performer to obtain the intended result. Assistance can remain part of that method.
 
 A technical platform decision remains with its engineering method. Obtain the architecture, interface or supported-use result and use it to define the family and delivery conditions. If it supports only a narrower class, narrow the offering rather than treating technical approval as permission for every customer promise.
 
@@ -395,7 +393,7 @@ A technical platform decision remains with its engineering method. Obtain the ar
 
 Compare the complete alternatives on the same result, period and customer set. [CUST.7](#cust7---evaluate-growth-and-customization-with-full-resource-obligations) includes common preparation, local execution, qualification, specialist help, support, migration and retirement. Distinguish an investment from an ordinary delivery charge and from an existing obligation. Confirm that funding and capacity exist when needed.
 
-For a changed engineering offering or outcome arrangement, obtain the complete concept through [SYSE.8 — Develop an Integrated Offering and Provider Concept for Using an Engineered Result](../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse8---develop-an-integrated-offering-and-provider-concept-for-using-an-engineered-result). Bring back the participating systems and parties, contributions, responsibility, operating conditions, observation and acceptance, and the risks retained by each party. Use that result to revise the family, resource comparison and customer agreement. No method here guarantees a social or clinical outcome merely because a technical deployment works.
+For a changed engineering offering or outcome arrangement, obtain the complete concept through [SYSE.8 — Develop an Integrated Offering and Provider Concept for Using an Engineered Result](../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse8---develop-an-integrated-offering-and-provider-concept-for-using-an-engineered-result). Bring back the participating systems and parties, contributions, responsibility, operating conditions, observation and acceptance, and the risks retained by each party. Use that result to revise the family, resource comparison and customer agreement. Obtain the relevant professional method and evidence when the promised result extends beyond engineering.
 
 Use [CUST.8](#cust8---change-the-offering-family-with-compatible-customer-transitions) before a common change affects existing customers. Reconcile their configurations, results, support and promises with the proposed release. A technically compatible interface can still change an agreed operating burden.
 
@@ -419,9 +417,9 @@ The lead and field engineer are the same person, but that person cannot commit t
 
 A successful private-hosting attempt yields a family candidate with two supported environments and an explicit exclusion for disconnected operation. The delivery team receives a rehearsed setup method with scheduled specialist assistance. The report remains local. A wider rollout waits because the support resource cannot yet cover both existing customers and the new response time.
 
-Change the condition: materials obtained for the first customer cannot be shared with a partner. Local provision may continue. The family and delivery work must obtain permitted alternative material or stop that transfer. A technically successful package is not the whole answer.
+Change the condition: materials obtained for the first customer cannot be shared with a partner. Local provision may continue. The family and delivery work must obtain permitted alternative material or stop that transfer.
 
-In a public library service, the same composition can connect local language and accessibility needs with reusable teaching materials and supported facilitators. Funding and workload replace customer margin as the relevant resource questions. Educational effectiveness still requires educational grounds; the framework supplies no guarantee of employment from attendance.
+In a public library service, the same composition can connect local language and accessibility needs with reusable teaching materials and supported facilitators. Funding and workload replace customer margin as the relevant resource questions. Educational effectiveness still requires educational grounds.
 
 ### CUST.1:6 - Bias-Annotation
 
@@ -441,7 +439,7 @@ The examples emphasize observable delivery. Less tangible service results requir
 
 ### CUST.1:8 - Common Anti-Patterns and How to Avoid Them
 
-**One person decides everything implicitly.** Keep the live decisions distinct and obtain a qualified counterview where the consequence warrants it; do not solve the problem by inventing job titles.
+**One person decides everything implicitly.** Keep the live decisions distinct and obtain a qualified counterview where the consequence warrants it.
 
 **A route replaces construction.** “Send to product” says who might receive a question, not what family should be built. Develop the result and its receiving conditions.
 
@@ -465,7 +463,7 @@ A fixed sequence would reopen settled questions and delay urgent responses. Pure
 
 The useful source line combines service productization, bounded solution spaces and continuing field/product learning. Compared with “standardize everything” or “let field teams solve each case,” it preserves explicit variation, assistance and a path back to common development.
 
-Wirtz and colleagues' conceptual account of service productization supports defining and systematizing an offering; Salvador, de Holan and Piller's mass-customization account adds solution-space development, robust processes and choice navigation. Neither supplies this entire commitment-level composition. CUST adapts those contributions and combines them with the full Management, Engineering and Implementation Facilitation methods named above.
+Wirtz and colleagues' conceptual account of service productization supports defining and systematizing an offering; Salvador, de Holan and Piller's mass-customization account adds solution-space development, robust processes and choice navigation. CUST adapts those contributions and combines them with the full Management, Engineering and Implementation Facilitation methods named above.
 
 Official FDE role descriptions and the practitioner account discussed in CUST.Reference:10 support continuing interaction between local delivery and product development. They do not establish that one staffing model causes better results. Reconsider the composition when another available treatment provides the same connected use more adequately or when its own coordination cost exceeds the benefit.
 
@@ -488,7 +486,7 @@ CUST.Reference:2 explains the field boundary; CUST.Reference:3 distinguishes com
 
 Use this method when “the customer needs customization” conceals several different changes, or when a completed deployment contains unexplained local work. You need a supported basis, an intended or observed customer result, and access to the people or material that can reveal the consequential work.
 
-The first useful move is to compare the result and its obtaining conditions with the supported offering. The output is an explained set of differences and compatible dispositions, not a catalogue of every difference between two customers.
+The first useful move is to compare the result and the conditions for obtaining it with the supported offering. The output is an explained set of differences and compatible dispositions, not a catalogue of every difference between two customers.
 
 If an established configuration already explains the case and its obligations, use that configuration. A label such as “enterprise” or “special customer” is not a reason to reconstruct all its details.
 
@@ -503,7 +501,7 @@ Artifact comparison misses work that leaves no code change: interpretation, data
 | Enough detail and decision cost | Split differences only when a decision, dependency, performer or qualification changes. |
 | Local meaning and familiar vocabulary | Preserve the meaning needed for the customer's decision before translating it into provider terms. |
 | Distinct changes and coupled effects | Keep a report, input repair and support obligation separate while preserving their dependence. |
-| Known work and unknown causes | Record an observed extra action without pretending its cause is already established. |
+| Known work and unknown causes | Keep the observed extra action distinct from its possible explanations. |
 
 ### CUST.2:4 - Solution
 
@@ -511,13 +509,13 @@ Artifact comparison misses work that leaves no code change: interpretation, data
 
 Name the supported offering or method from which this case differs. Include the version or effective conditions when they change use. Recover what ordinary delivery assumes about inputs, participants, skills, access, timing, acceptance and support. A marketing description can locate the offering but may not expose its operating basis.
 
-Describe the customer's intended result in their work. Separate what is explicitly required from your inference and from a proposed solution. “Needs a custom dashboard” might mean a decision-maker needs a monthly eligibility answer, or that an operator needs continuous intervention. These imply different differences.
+Describe the customer's intended result in their work. Separate what is explicitly required from your inference and from a proposed solution. “Needs a custom dashboard” might mean a decision-maker needs a monthly eligibility answer, or that an operator needs continuous intervention.
 
 When there is no supported predecessor, use a sufficiently explicit proposed basis and mark it as proposed. You can still compare alternatives; you cannot describe deviations from an imaginary established standard as observed facts.
 
 #### CUST.2:4.2 - Recover changes backward and forward
 
-Work backward from acceptance: what must be true for the customer to use the result? Follow each necessary condition into the obtaining work. Then walk forward through a representative episode, using records, observation or the participants' account. Ask where someone changed an input, made an interpretation, sought help, waited, overrode a default or accepted a continuing duty.
+Work backward from acceptance: what must be true for the customer to use the result? Identify the work needed to establish each condition. Then walk forward through a representative episode, using records, observation or the participants' account. Ask where someone changed an input, made an interpretation, sought help, waited, overrode a default or accepted a continuing duty.
 
 For each consequential difference, state the basis, the changed condition or action and the consequence. Distinguish observation from explanation. “An expert recoded thirty records” is an observation; “the product lacks a general mapping function” is one possible explanation. A legitimate difference in meaning might make general recoding inappropriate.
 
@@ -536,7 +534,7 @@ Use ordinary material already needed for the work. The following form is a remin
 | Supported basis | The service counts active accounts from the monthly batch under the provider's definition. |
 | Customer difference | The customer excludes suspended accounts but includes pending renewals. |
 | Evidence and uncertainty | The operating policy states the first exclusion; treatment of renewals still needs the customer's decision. |
-| Obtaining consequence | Input mapping and acceptance examples must change before results are comparable. |
+| Consequence for the work | Input mapping and acceptance examples must change before results are comparable. |
 | Linked obligation | The customer must supply the status information each month. |
 | Next useful result | An agreed meaning and qualified mapping, then a delivery choice. |
 
@@ -549,7 +547,7 @@ Decide first whether the difference should be accepted at all. A useful customer
 Then distinguish three choices:
 
 - What remains local and what, if anything, should become shared?
-- What realizes and provides the contribution: configuration, code, hardware, procedure, training, assisted service or a partner?
+- How will the contribution be realized and provided? Consider configuration, code, hardware, a procedure, training or an assisted service, and whether a partner should supply it.
 - What is actually promised, to whom, for how long and with which support?
 
 These choices can coexist. A common adapter does not remove a local operating change; a repeatable service can include specialist help; a partner can deliver either a common or bespoke contribution. They are not rungs of a maturity ladder.
@@ -615,7 +613,7 @@ A provider's standard is only the chosen comparison basis, not a judgement that 
 
 The result can reduce unnecessary common changes and expose work that needs separate funding or qualification. It also makes legitimate customer differences harder to dismiss as “nonstandard.”
 
-Recovery takes effort. Use existing adequate evidence and stop when the live disposition can be made; exhaustive documentation is not the result.
+Recovery takes effort. Use existing adequate evidence and stop when the live disposition can be made.
 
 ### CUST.2:10 - Architectural Rationale
 
@@ -623,7 +621,7 @@ The method organizes comparison around consequential work rather than artifact s
 
 ### CUST.2:11 - SoTA-Echoing
 
-Customer-solution research distinguishes the customer's continuing process from a bundle of products. The limited primary reading of Tuli, Kohli and Bharadwaj supports that distinction, not a detailed imported procedure. CUST uses it to inspect requirements, integration, deployment and continuing help.
+Customer-solution research distinguishes the customer's continuing process from a bundle of products. The primary abstract of Tuli, Kohli and Bharadwaj supports that distinction. CUST uses it to inspect requirements, integration, deployment and continuing help.
 
 Compared with a generic request tracker, the stronger receiving-use line in the full SIE and Implementation Facilitation methods changes the first action: recover meaning and obtaining difficulty before allocating a feature. CUST adopts those results and adds the particular local/shared disposition and recombination. Reopen the recovery method if repeated cases reveal a consequential class of difference it cannot expose.
 
@@ -662,7 +660,7 @@ A local solution contains necessary constraints mixed with accidental arrangemen
 
 ### CUST.3:4 - Solution
 
-#### CUST.3:4.1 - Establish the result family is meant to serve
+#### CUST.3:4.1 - Establish the result the family is meant to serve
 
 State the receiving result in terms that survive a change of implementation. For an analytical service, this might be a defensible eligibility decision from supplied records, not “the same dashboard everywhere.” State who uses it, the operating interval, required quality and the limits beyond which another offering is needed.
 
@@ -672,7 +670,7 @@ Do not require an arbitrary number of sales. A qualified design basis can suppor
 
 #### CUST.3:4.2 - Recover the common causal and operating basis
 
-Compare how each case obtains its result. Identify the operation, information or capability that performs the same useful function, then the conditions on which that function depends. Remove local names only after the meaningful role is clear.
+Compare how each case obtains its result. Identify the common useful function, the work needed to perform it, and the information and capabilities that work requires. Then recover the conditions on which the function depends. Remove local names only after the meaningful role is clear.
 
 For example, two deployments both “validate access,” but one checks a monthly file before analysis and another makes a live authorization decision. A shared phrase does not make their timing, failure handling or evidence interchangeable. They may share a narrower operation while needing different offerings.
 
@@ -689,7 +687,7 @@ For each observed or proposed difference, ask whether it changes only a value, s
 | Separate supported profile | Name the distinct combination of assumptions, execution and support. | Profiles share only a label and no useful common basis. |
 | Common component | Extract a function with qualified interfaces and replaceable local inputs. | Useful operation depends on unrepresented local judgement. |
 | Repeatable service method | Explain the work, preparation, choices, help and acceptance that transfer. | Repetition still requires hidden invention or unavailable specialist effort. |
-| Local residue | Bound the case, obligation and reason for not generalizing it. | The residue repeatedly changes the shared basis and is no longer genuinely isolated. |
+| Local residue | Bound the case, obligation and reason for not generalizing it. | The residue repeatedly changes the shared basis and is no longer isolated. |
 
 Compare both directions of development. A top-down family starts from a deliberate platform or common service design and derives permitted members. A bottom-up family extracts a useful common basis from differing local solutions. Neither direction is inherently superior. Use the first when the expected variation and shared investment are sufficiently understood; use the second when actual differences are still teaching you what is common. They can meet as a prospective design is corrected by deployment evidence.
 
@@ -709,11 +707,11 @@ Identify the materials and knowledge proposed for reuse, the next recipient and 
 
 Construct the common contribution from permitted inputs. Options include a separately agreed use, a narrower explanation, independently obtained examples or another allowed component. Removing customer names or calling derived data synthetic does not alone establish that the receiving use is allowed.
 
-If permission or an adequate replacement is absent, preserve the local result and stop that transfer. If a replacement changes the evidence basis, repeat the affected qualification. Do not imply that technical portability supplies a missing right.
+If permission or an adequate replacement is absent, preserve the local result and stop that transfer. If a replacement changes the evidence basis, repeat the affected qualification.
 
 #### CUST.3:4.6 - Make provision part of the family
 
-For each member class, identify who can choose it, perform delivery, obtain help, accept the result and maintain the common and local parts. A technically reusable primitive can be one input; a supported offering also needs the obtaining work.
+For each member class, identify who can choose it, perform delivery, obtain help, accept the result and maintain the common and local parts. A technically reusable primitive can be one input; a supported offering also needs the work required to obtain its result.
 
 Use CUST.6 to develop and transfer that work. Use CUST.7 to compare common preparation, local adaptation, variation qualification, support and changes over the relevant horizon. A broader family can save setup while increasing interaction testing and support. Include that possibility before admitting the breadth.
 
@@ -735,22 +733,22 @@ The common result is a defensible monthly eligibility answer from records interp
 
 The provider constructs two members: hosted batch service and supported private batch service. Both use the same eligibility operation, but their deployment and support procedures differ. The private member includes scheduled access and a named escalation route. The disconnected immediate-decision case fails both the timing and obtaining assumptions. It is not admitted by adding a “disconnected=true” parameter.
 
-A common primitive is extracted as the eligibility operation with explicit input meaning and output basis. A deployment method, not another primitive, carries preparation and private-site setup. A local report service remains separately funded. This is one offering family with different types of contribution, not one kind of object called “product.”
+A common primitive is extracted as the eligibility operation with explicit input meaning and output basis. A deployment method, not another primitive, carries preparation and private-site setup. A local report service remains separately funded. The offering family combines these different types of contribution.
 
 Change the condition: customer samples used to establish the private profile cannot be distributed. The provider may use a qualified permitted explanation and independently obtained examples, then test the profile again. Without that basis the local deployment may remain valid while the proposed common package remains unavailable.
 
-For a physical test-bench family, a common base and interchangeable measurement modules offer another construction. Connector fit does not prove measurement compatibility. A new module combination needs the corresponding calibration and technical qualification before it becomes an offering member. The common method transfers; the physical evidence does not become a software configuration rule.
+For a physical test-bench family, a common base and interchangeable measurement modules offer another construction. Connector fit does not prove measurement compatibility. A new module combination needs the corresponding calibration and technical qualification before it becomes an offering member.
 
 ### CUST.3:6 - Bias-Annotation
 
 Family construction can favor the provider's convenience over meaningful customer differences. Test invariants against the intended result, not only common implementation. Conversely, customer-specific wording can conceal a useful common method.
 
-The cases are constructed. They demonstrate how to discriminate members and exclusions, not the empirical effectiveness of the proposed family.
+The constructed cases illustrate how to distinguish supported members from excluded cases.
 
 ### CUST.3:7 - Conformance Checklist
 
 - Is the shared result defined independently of one convenient artifact?
-- Are invariants justified by obtaining conditions and useful results?
+- Are invariants justified by the useful results and the conditions for obtaining them?
 - Are permitted variations and their interactions explained?
 - Can a member be constructed and a nearby excluded case recognized?
 - Are technical and permission conditions both satisfied for the proposed reuse?
@@ -759,7 +757,7 @@ The cases are constructed. They demonstrate how to discriminate members and excl
 
 ### CUST.3:8 - Common Anti-Patterns and How to Avoid Them
 
-**Commonality by request count.** Compare the result and its obtaining conditions; repeated wording is not a family.
+**Commonality by request count.** Compare the result and the conditions for obtaining it; repeated wording is not a family.
 
 **Everything becomes a parameter.** Use a separate profile or method where the operation changes, and exclude combinations whose conditions do not fit.
 
@@ -781,9 +779,9 @@ Constructing before qualifying makes the admission decision inspectable. Retaini
 
 ### CUST.3:11 - SoTA-Echoing
 
-Simpson, Siddique and Jiao's platform-development account supplies the useful top-down/bottom-up distinction and the commonality/differentiation trade-off. Salvador, de Holan and Piller supply solution-space development as a capability alongside process robustness and choice navigation. Their age does not invalidate these constructions, but neither is treated as proof of the best current implementation.
+Simpson, Siddique and Jiao's platform-development account supplies the useful top-down/bottom-up distinction and the commonality/differentiation trade-off. Salvador, de Holan and Piller supply solution-space development as a capability alongside process robustness and choice navigation. These are historical grounds for the construction.
 
-The service-productization line adds that common provision can consist of a defined service and operating method rather than a manufactured component. CUST adopts that breadth and adds explicit permission, continuing obligation and local-residue decisions. The more recent solution-space framework by Bakås and colleagues supports iterative frontend/backend learning at the abstract-level reading available here; no detailed unexamined algorithm is imported.
+The service-productization line adds that common provision can consist of a defined service and operating method rather than a manufactured component. CUST adopts that breadth and adds explicit permission, continuing obligation and local-residue decisions. The primary abstract of Bakås and colleagues' solution-space framework supports iterative frontend/backend learning.
 
 Compared with a feature catalogue or a gate checklist, this combination changes the work: construct invariants, variations, a member and an exclusion before admission. Reopen the family method when its assumptions fail in an unlike service or when a qualified domain method supplies a better construction.
 
@@ -791,7 +789,7 @@ Compared with a feature catalogue or a gate checklist, this combination changes 
 
 CUST.2 supplies explained differences, but CUST.3 can start from independently obtained cases. CUST.4 uses the admitted solution space; CUST.5 tests consequential unknowns; CUST.6 constructs repeatable provision; CUST.7 supplies the full resource comparison; CUST.8 governs changes affecting present members.
 
-The engineering and marketing methods cited in the Solution retain their full bodies and professional conditions. Their results constrain the family; their entire disciplines do not become parts of this method.
+Use the results from the cited engineering and marketing Methods within their professional conditions when constructing the family.
 
 ### CUST.3:End
 
@@ -871,7 +869,7 @@ Sometimes the live alternatives are not variants of the same service. Buying an 
 
 Use [SYSE.8 — Develop an Integrated Offering and Provider Concept for Using an Engineered Result](../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse8---develop-an-integrated-offering-and-provider-concept-for-using-an-engineered-result) for its full integrated offering and provider-concept method when that engineered-result question applies. Supply the needed use result and candidate arrangement. Receive the contributing systems and parties, required customer participation, operating concept, observation and acceptance, responsibilities and risk conditions. Then test whether this concept fits the family, delivery capacity, resource comparison and existing commitments.
 
-Observation alone is not influence over an outcome. A provider need not control every causal factor, but the promise must be compatible with its actual means, the other parties' contributions, disturbances and the agreed consequences of failure. If the concept cannot support the proposed outcome, choose a narrower contribution, obtain further subject-specific evidence or decline that promise. CUST does not turn an industrial service concept into a general guarantee of health, learning or employment.
+Observation alone is not influence over an outcome. A provider need not control every causal factor, but the promise must be compatible with its actual means, the other parties' contributions, disturbances and the agreed consequences of failure. If the concept cannot support the proposed outcome, choose a narrower contribution, obtain further subject-specific evidence or decline that promise. Obtain the relevant professional method and evidence when the promised result extends beyond engineering.
 
 #### CUST.4:4.6 - Make the selected configuration usable and revisable
 
@@ -918,7 +916,7 @@ The production vocabulary can overfit material flows. Use subject-specific model
 
 The method can make variety usable and reduce premature differentiation. It can also justify earlier preparation, fewer options or assisted selection. Each has operating and maintenance costs.
 
-The supported result is a choice and delivery arrangement under named conditions, not a universal optimum for every demand mix.
+The supported result is a choice and delivery arrangement under named conditions.
 
 ### CUST.4:10 - Architectural Rationale
 
@@ -926,7 +924,7 @@ Configuration and differentiation are joined because a selected option determine
 
 ### CUST.4:11 - SoTA-Echoing
 
-The strongest selected conceptual line joins Salvador, de Holan and Piller's choice navigation and robust process design with the customer order decoupling tradition. The current literature review by Harfeldt-Berg and Olhager broadens the influencing conditions; its abstract-level use here does not import its full empirical taxonomy.
+The method joins Salvador, de Holan and Piller's choice navigation and robust process design with the customer order decoupling tradition. The primary abstract of Harfeldt-Berg and Olhager's 2024 review supports considering multiple contextual factors.
 
 Naldi, Galizia and Bortolini's optimization study shows a concrete storage-cost/customization-time trade-off under explicit demand, availability and cost assumptions. CUST adopts the need for a joint comparison and rejects a universal rule that postponement is best. Use a qualified optimization model when its assumptions fit; use the supported operating comparison when they do not.
 
@@ -934,7 +932,7 @@ The full SYSE.8 method supplies the engineering offering branch. Reopen this met
 
 ### CUST.4:12 - Relations
 
-CUST.3 supplies the supported solution space; CUST.2 receives differences outside it. CUST.6 develops the obtaining route, CUST.7 compares total burden and CUST.8 uses the retained configuration in later transitions. CUST.4 can also be used directly for an already established family without a new CUST.1 programme.
+CUST.3 supplies the supported solution space; CUST.2 receives differences outside it. CUST.6 develops the delivery method, CUST.7 compares total burden and CUST.8 uses the retained configuration in later transitions. CUST.4 can also be used directly for an already established family without a new CUST.1 programme.
 
 ### CUST.4:End
 
@@ -993,7 +991,7 @@ Compare using the current team, a bounded field team and an outside contributor 
 
 Use the decision-bearing contributions in CUST.1:4.3. Field performers may propose a common change without having authority to admit it; the product holder may reject a shared form without cancelling a separately supported local service. An assurance contribution should have the independence required by the consequential claim.
 
-Distinguish permission for local performance, observation, use of findings, disclosure and artifact transfer. State the next recipient and purpose before collecting or transmitting material. Where the product team cannot access underlying customer material, obtain an adequate permitted statement, independently obtained evidence or a qualified contribution. If that cannot be done, leave the shared inference open. Lack of access is not permission to disclose.
+Distinguish permission for local performance, observation, use of findings, disclosure and artifact transfer. State the next recipient and purpose before collecting or transmitting material. Where the product team cannot access underlying customer material, obtain an adequate permitted statement, independently obtained evidence or a qualified contribution. If that cannot be done, leave the shared inference open.
 
 #### CUST.5:4.4 - Perform the attempt and keep deviations interpretable
 
@@ -1007,7 +1005,7 @@ If successive improvisations change the object of the trial, re-establish the qu
 
 For the local receiver, explain whether the intended result is obtainable, what help and conditions it needs, what remains unresolved and what can happen next.
 
-For the shared-development receiver, recover the consequential deltas, the proposed transferable function or method, the supporting conditions, the local residue and the nearest contrary case. Include hidden work, permission limits and a suggested next construction or inquiry. CUST.3 receives a family candidate; CUST.6 receives a delivery-method candidate. Neither receives an automatic admission.
+For the shared-development receiver, recover the consequential deltas, the proposed transferable function or method, the supporting conditions, the local residue and the nearest contrary case. Include hidden work, permission limits and a suggested next construction or inquiry. CUST.3 receives a family candidate; CUST.6 receives a delivery-method candidate.
 
 | Local answer | Shared answer | Valid continuation |
 | --- | --- | --- |
@@ -1023,7 +1021,7 @@ Stopping can protect resources and expose a boundary that prevents a broader fal
 
 Have the receiving practitioner use the answer in a real next decision: revise the family boundary, build a member, change the delivery method, retain a local service or reject a proposed common form. Resolve missing authority or access that prevents this use. “Feedback sent” is not evidence that the receiving work can continue.
 
-A permanent field function repeats this method across changing questions. It needs ongoing connections with product and operating work, not an endless unfinished probe. Review recurring results for general knowledge implications: does the pattern of cases challenge a claim about transfer, support or scale? Keep that knowledge revision distinct from a change to one customer's configuration.
+A permanent field function repeats this method across changing questions. It needs ongoing connections with product and operating work. Review recurring results for general knowledge implications: does the pattern of cases challenge a claim about transfer, support or scale? Keep that knowledge revision distinct from a change to one customer's configuration.
 
 ### CUST.5:5 - Archetypal Grounding
 
@@ -1031,7 +1029,7 @@ A private-hosting attempt initially appears to fail because installation is diff
 
 A permitted simulation and one supervised setup show that the tool works when a named access contribution is supplied. During the local attempt, the author's manual correction also reveals an undocumented input precondition. The local service can continue with that precondition and scheduled assistance. The shared answer is narrower: a private profile is plausible, but its preparation and support are not yet independently repeatable.
 
-CUST.3 receives the access and input constraints; CUST.6 receives the missing preparation operation. The product maintainer does not infer that every private environment is supported. The customer does not receive an unagreed commitment that the supplier will eliminate all manual work.
+CUST.3 receives the access and input constraints; CUST.6 receives the missing preparation operation. The product maintainer does not infer that every private environment is supported.
 
 Change the result: the customer cannot provide the required access. The attempt stops before live deployment. The negative finding still excludes that environment from the proposed family. The local receiver obtains a feasible hosted alternative or an explicit inability to provide the requested service.
 
@@ -1067,17 +1065,17 @@ The method can favor what product teams can incorporate. Preserve local benefits
 
 The method can turn field experience into usable local and shared knowledge while protecting customer work. It adds the cost of interpretable observation and receiving interaction.
 
-It can legitimately conclude that a promising local solution should remain local. That result may be better than supporting an inadequately generalized product.
+It can conclude that a promising local solution should remain local. That result may be better than supporting an inadequately generalized product.
 
 ### CUST.5:10 - Architectural Rationale
 
-Two receiving decisions explain why field work needs both delivery and learning boundaries. A single “handover to product” output loses local continuity; a local-only report loses the transferable conditions. The method joins them without equating them.
+Two receiving decisions explain why field work needs both delivery and learning boundaries. A single “handover to product” output loses local continuity; a local-only report loses the transferable conditions.
 
 ### CUST.5:11 - SoTA-Echoing
 
 Official FDE descriptions from Palantir and OpenAI describe work spanning customer implementation and feedback to product teams. The full-text practitioner account by akshayk emphasizes continuing field/product learning rather than a temporary deployment squad. These sources establish described practice, not comparative effectiveness.
 
-CUST adopts the continuing feedback connection and qualifies it with bounded questions, permissions, current-service protection and all legitimate outcomes. The complete Implementation Facilitation methods and Engineering.Reference:22 already explain substantial inquiry and support work; they are retained instead of reconstructed from job descriptions.
+CUST adopts the continuing feedback connection and qualifies it with bounded questions, permissions, current-service protection and all legitimate outcomes. Use the Implementation Facilitation methods and Engineering.Reference:22 for the relevant inquiry and support work.
 
 Compared with a success-only pilot or a feature-request pipeline, the selected line changes what returns: conditions, hidden assistance, exclusions and the next receiving action. Reopen it when field inquiry repeatedly fails to produce a usable or permitted contribution.
 
@@ -1142,7 +1140,7 @@ For each contribution, compare explaining it, preparing the performer through pr
 
 A rule that is explicit but unfamiliar may need examples and rehearsal. A perceptual or interpersonal skill cannot always be replaced by a written step. A computation may be automated after its input meaning and conditions are settled. Rare, consequential exceptions may be better served by an expert than by a much larger general tool.
 
-Construct the joining operation where an output is not yet usable. If a mapping service returns a qualified correspondence, explain how the deployment performer applies it to the actual input and checks that its conditions still hold. A supplier link alone does not perform that conversion.
+Construct the joining operation where an output is not yet usable. If a mapping service returns a qualified correspondence, explain how the deployment performer applies it to the actual input and checks that its conditions still hold.
 
 Retain the full supplying method where it already explains the contribution. For platform use, [SYSE.26 — Design a Supported Platform-Use Path](../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse26---design-a-supported-platform-use-path) supplies the supported use path; [SYSE.27 — Evolve Platform Interfaces and Contribution Paths](../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse27---evolve-platform-interfaces-and-contribution-paths) supplies interface and contribution-path evolution. Receive their qualification, support and compatibility boundaries. CUST explains how those results join the customer's complete delivery.
 
@@ -1150,13 +1148,13 @@ Retain the full supplying method where it already explains the contribution. For
 
 Build the account in the order the performer needs to understand and act. It should let them recognize fit, prepare, perform the work, make live choices, recognize an adequate result, handle foreseeable exceptions and obtain help. Explain why consequential conditions matter so they can adapt without deleting an invariant.
 
-Supply the means required by that account: accessible tools, permitted templates, appropriate examples, test inputs, training or rehearsal, operating access and support. A useful package can combine several carriers and services. Its contents are selected by the obtaining problem, not by a fixed checklist of file types.
+Supply the means required by that account: accessible tools, permitted templates, appropriate examples, test inputs, training or rehearsal, operating access and support. A useful package can combine several carriers and services. Select its contents from the work needed to obtain the result.
 
 | Missing contribution | Constructive response |
 | --- | --- |
 | The performer cannot recognize a valid input | Explain the relevant meaning, show a valid and an invalid example, and provide the decision or escalation needed for ambiguity. |
 | A local choice has no rule | State the purpose and consequence of the alternatives, the conditions selecting them and when to obtain a qualified decision. |
-| The procedure assumes unavailable access | Change the obtaining route or arrange actual permission and access before promising execution. |
+| The procedure assumes unavailable access | Change the delivery method or arrange actual permission and access before promising execution. |
 | An exception requires author rescue | Explain the repair, prepare a qualified helper or exclude the condition from ordinary use. |
 | A result cannot be accepted | Supply an appropriate acceptance basis and the means to obtain its evidence. |
 
@@ -1166,7 +1164,7 @@ When material comes from a customer case, receive the permitted common contribut
 
 Give another appropriately prepared performer a case within the declared conditions, the intended materials and the support that will actually be offered. Let them perform the work. Keep the original author’s interventions visible instead of using them to make the trial appear smooth.
 
-Distinguish three outcomes. The performer may obtain the result through the intended method; obtain it only through additional help; or fail to obtain it. In the second case, identify the extra contribution. It can become explicit supported assistance, a construction improvement or a reason to narrow the method. It is not automatically evidence that all assistance must be removed.
+Distinguish three outcomes. The performer may obtain the result through the intended method; obtain it only through additional help; or fail to obtain it. In the second case, identify the extra contribution. It can become explicit supported assistance, a construction improvement or a reason to narrow the method.
 
 Use a consequential changed condition to test adaptation. A performer who succeeds only on a copied example has not yet shown how they will handle the claimed variation. Test the operation that changes; do not repeat unrelated qualification merely to increase the number of trials.
 
@@ -1190,13 +1188,13 @@ A second qualified team receives the method, tooling, permitted examples and a s
 
 Change the condition: the second team lacks the skill needed to distinguish a semantic error from a formatting error. Adding another script is insufficient. The provider must develop preparation, obtain the semantic contribution during delivery or narrow who can perform the work.
 
-In a public literacy programme, repeatable delivery may require prepared facilitators, accessible devices, examples that participants can use and ongoing help. A shared slide deck alone is not the service. The method transfers without pretending that educational judgement is a software deployment operation.
+In a public literacy programme, repeatable delivery may require prepared facilitators, accessible devices, examples that participants can use and ongoing help. A shared slide deck alone is not the service.
 
 ### CUST.6:6 - Bias-Annotation
 
 Documentation bias is a major risk: what can be written is easier to package than tacit skill, trust, preparation or maintained support. Examine actual receiving work before deciding the carrier.
 
-The original expert can also overstate uniqueness. Try explaining and practising the operation before concluding that only the author can do it. Preserve specialist help when it is the sound obtaining choice.
+The original expert can also overstate uniqueness. Try explaining and practising the operation before concluding that only the author can do it. Preserve specialist help when it is a suitable way to provide the needed contribution.
 
 ### CUST.6:7 - Conformance Checklist
 
@@ -1220,13 +1218,13 @@ The original expert can also overstate uniqueness. Try explaining and practising
 
 ### CUST.6:9 - Consequences
 
-The result is a delivery method and obtaining arrangement that can be repeated under stated conditions. It may be independent of the original author or deliberately assisted.
+The result is a delivery method and the working arrangements needed to repeat it under stated conditions. It may be independent of the original author or deliberately assisted.
 
 Making hidden help explicit can increase the visible cost of the offering while improving the truth of its promise. The proper response can be investment, a smaller scope, a different provider arrangement or a supported local service.
 
 ### CUST.6:10 - Architectural Rationale
 
-Repeatability belongs to the whole obtaining arrangement. A method description, trained performer, accessible tool and available support can each be adequate while their connection is missing. This method constructs and tests that connection without duplicating the full support or engineering methods.
+Repeatability depends on how the method, preparation, means and support work together. A method description, trained performer, accessible tool and available support can each be adequate while their connection is missing. This method constructs and tests that connection.
 
 ### CUST.6:11 - SoTA-Echoing
 
@@ -1259,7 +1257,7 @@ Use an already adequate accounting and operating result directly when it covers 
 
 A local price can hide common investment, support and migration. A successful deployment can conceal scarce expert time. Outsourcing can move work without reducing it. A proposed productized offering may therefore appear economical while consuming more of the resource that limits total delivery.
 
-The decision needs a supported continuation, not proof that every common contribution lowers marginal cost.
+The decision needs a continuation for which the required resources can be obtained and the obligations met.
 
 ### CUST.7:3 - Forces
 
@@ -1285,7 +1283,7 @@ State the proposed mechanism. Shared preparation may reduce setup per case. Auto
 
 Start from the constructed alternatives, not from an assumed price. Trace preparation, local execution, adaptation, qualification, acceptance, assistance, coordination, updates, support, transition and ending. Include the recipient's work when the alternative transfers effort to them.
 
-Use [MA.8 — Account for Customer and Product Economics Over Time](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma8---account-for-customer-and-product-economics-over-time) for the complete accounting method over customer and product economics. Supply the alternatives and time boundary; receive the relevant cost, capacity, allocation, support-tail and economic results under their stated assumptions. CUST's contribution is to ensure the customization/family alternatives supply the whole relevant work, then use the returned account in the disposition.
+Use [MA.8 — Account for Customer and Product Economics Over Time](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma8---account-for-customer-and-product-economics-over-time) for the complete accounting method over customer and product economics. Supply the alternatives and time boundary; receive the relevant cost, capacity, allocation, support-tail and economic results under their stated assumptions. Describe the whole relevant work for each customization or family alternative, then use the returned account to choose its disposition.
 
 Keep unlike resources distinguishable. An hour of a scarce specialist is not automatically substitutable by an hour of general delivery work. Record when a resource is needed, not only its total amount. Separate committed obligations from optional investment and from work whose funding or provider is still unknown.
 
@@ -1303,9 +1301,9 @@ Compare what changes in the intended growth condition.
 | Longer support and more releases | Common updates and controlled compatibility. | Old branches require continuing separate work or expensive migration. |
 | More partners | Transfer of obtainable delivery work. | Central exceptions and partner coordination retain or worsen the bottleneck. |
 
-Distinguish capacity expansion from economies of scale, economies from shared variety and learning. Hiring proportionally more performers may support more customers without reducing work per customer. That can still be a good decision if its costs and conditions fit the purpose.
+Distinguish capacity expansion, economies of scale, economies from shared variety and gains from learning. Hiring proportionally more performers may support more customers without reducing work per customer. That can still be a good decision if its costs and conditions fit the purpose.
 
-When evidence is uncertain, identify the uncertainty that can change the decision. A small, permitted receiving trial may establish whether ordinary delivery still requires author intervention. It need not establish the whole future demand distribution.
+When evidence is uncertain, identify the uncertainty that can change the decision. A small, permitted receiving trial may establish whether ordinary delivery still requires author intervention.
 
 #### CUST.7:4.4 - Join economic attractiveness with operating feasibility
 
@@ -1337,7 +1335,7 @@ Now include ten hours of transition work for existing customers in the same peri
 
 The provider then proposes partner delivery. Ordinary work moves to the partner, but every exception still needs the same central specialist. CUST.7 separates the useful increase in ordinary delivery capacity from the unresolved specialist constraint and includes coordination. A partner invoice does not show that total work fell.
 
-For a publicly funded literacy programme, compare preparation, facilitator work, translation, devices, ongoing help and participant burden. A shared lesson plan may save preparation while local facilitation remains proportional to attendance. That is a supported finding, not failed productization. The decision concerns attainable public value within funding and capacity, not a fictional price for each participant.
+For a publicly funded literacy programme, compare preparation, facilitator work, translation, devices, ongoing help and participant burden. A shared lesson plan may save preparation while local facilitation remains proportional to attendance. The decision concerns attainable public value within funding and capacity.
 
 ### CUST.7:6 - Bias-Annotation
 
@@ -1371,7 +1369,7 @@ Forecast precision can conceal uncertain demand. Keep the decision-sensitive ass
 
 The method can justify growth, investment, a narrower offering or continued bespoke provision. It can also reveal that a proposed common release is premature.
 
-Its accounting and operating detail has a cost. Obtain the precision needed for the decision rather than imposing a universal financial model on every small adaptation.
+Its accounting and operating detail has a cost. Obtain the precision needed for the decision.
 
 ### CUST.7:10 - Architectural Rationale
 
@@ -1379,9 +1377,9 @@ The burden belongs to the complete provision arrangement over time. CUST uses ac
 
 ### CUST.7:11 - SoTA-Echoing
 
-The selected line combines service-productization work with the full MA.8 and Operations methods. Compared with pricing only the initial customization or counting internal hours after outsourcing, it preserves shared investment, moved work, constrained resources and continuing support.
+The method combines service-productization work with the full MA.8 and Operations methods. Compared with pricing only the initial customization or counting internal hours after outsourcing, it preserves shared investment, moved work, constrained resources and continuing support.
 
-Mass-customization and platform sources support the potential value of common preparation and controlled variation. They do not establish that every added variant lowers cost. Naldi, Galizia and Bortolini provide a bounded example of competing time and storage objectives, not a universal business model.
+Mass-customization and platform sources support the potential value of common preparation and controlled variation. They do not establish that every added variant lowers cost. Naldi, Galizia and Bortolini provide a bounded example of competing time and storage objectives.
 
 CUST adopts the complete-boundary comparison and rejects growth claims based only on a route, fee or provider change. Reopen the answer when actual repetition changes the proposed mechanism or the horizon needed to support it.
 
@@ -1432,7 +1430,7 @@ For each materially different use, recover what the recipient must still obtain,
 
 #### CUST.8:4.2 - Separate the consequences before choosing the transition form
 
-Compare old and proposed provision along the dimensions that change the customer's result. These may include result meaning, permitted inputs, interface behavior, acceptance evidence, performer preparation, timing, access, payment or funding, and continuing support. Do not impose every dimension when it has no bearing on the change.
+Compare old and proposed provision along the dimensions that change the customer's result. These may include result meaning, permitted inputs, interface behavior, acceptance evidence, performer preparation, timing, access, payment or funding, and continuing support.
 
 Obtain technical compatibility through [SYSE.27 — Evolve Platform Interfaces and Contribution Paths](../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse27---evolve-platform-interfaces-and-contribution-paths) when a platform interface or contribution path is involved. Receive the supported combinations, known losses and maintenance conditions. A preserved file format or successful request is insufficient if the recipient interprets the result differently.
 
@@ -1453,7 +1451,7 @@ A rights or permitted-use change can defeat a technically feasible transition. C
 
 Build the receiving path before scheduling its adoption. Name the new result, preparation, available means, actual performers and assistance. Work backward to the old dependencies that remain necessary until that result is obtainable. If a required conversion, explanation or support contribution is missing, construct or obtain it; a migration date does not fill that gap.
 
-For an engineered platform migration or retirement, use the complete [SYSE.29 — Decide Whether and How to Migrate or Retire a Supported Platform Path](../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse29---decide-whether-and-how-to-migrate-or-retire-a-supported-platform-path). It supplies affected-use recovery, transition alternatives, an executable increment, receiving-use and failure checks, and explicit retirement scope. Bring its qualified technical transition into the wider customer arrangement. CUST retains the family choice, promise alignment and resource decision; it does not replace that engineering treatment.
+For an engineered platform migration or retirement, use the complete [SYSE.29 — Decide Whether and How to Migrate or Retire a Supported Platform Path](../Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse29---decide-whether-and-how-to-migrate-or-retire-a-supported-platform-path). It supplies affected-use recovery, transition alternatives, an executable increment, receiving-use and failure checks, and explicit retirement scope. Bring its qualified technical transition into the wider customer arrangement, then settle the family choice, promise alignment and resources.
 
 #### CUST.8:4.4 - Make the selected transition feasible as part of continuing service
 
@@ -1463,11 +1461,11 @@ Agree the work with the parties who must perform it. Include customer preparatio
 
 Compare ordinary service, transition, coexistence and later support together through CUST.7. A specialist cannot be counted as fully available for each at the same time. If the joint demand is infeasible, change the increment, obtain capacity, narrow the new promise or defer the change.
 
-Explain the transition at the customer's point of use: what changes, what they must do, what remains supported, when assistance is available and how to stop a failed move. Information is useful only when the receiving party can act on it.
+Explain the transition at the customer's point of use: what changes, what they must do, what remains supported, when assistance is available and how to stop a failed move.
 
 #### CUST.8:4.5 - Qualify the changed result and expand only within its conditions
 
-Before widening reliance, perform an attainable trial or an explicitly labelled rehearsal of the selected receiving use. Check the actual result and the change-dependent failure branch. Reuse an adequate technical or operational result under its conditions rather than repeat it for each document.
+Before widening reliance, perform an attainable trial or an explicitly labelled rehearsal of the selected receiving use. Check the actual result and the change-dependent failure branch. Reuse an adequate technical or operational result under its conditions.
 
 Different questions need different evidence. A compatibility test can establish an exercised old/new behavior. A recipient's completed task can establish that task under the trial conditions. Actual transition requires evidence that the selected uses moved. None of these alone authorizes ending an obligation.
 
@@ -1491,13 +1489,13 @@ The transition is then constructed. A permitted comparison sample produces both 
 
 Change a condition: the provider has no capacity to maintain both profiles during the promised support interval. Calling the new version compatible does not solve this. The feasible alternatives are to obtain support, defer the shared replacement, offer an agreed narrower arrangement or keep the old operation for that use. If a separate offering is chosen, shared installation tooling can remain common.
 
-For a physical test-bench family, a replacement module can fit the fixture while requiring a different calibration procedure. The customer still needs valid measurements and appropriately prepared operators. Engineering qualifies the physical behavior and transition; management provides the calibration work, operating window and support before withdrawing the old module. Software version labels play no essential role in this application.
+For a physical test-bench family, a replacement module can fit the fixture while requiring a different calibration procedure. The customer still needs valid measurements and appropriately prepared operators. Engineering qualifies the physical behavior and transition; management provides the calibration work, operating window and support before withdrawing the old module.
 
 ### CUST.8:6 - Bias-Annotation
 
 Provider-led change can underrepresent quiet customers, small recipients and future use of retained results. Include the relevant reliance, not only high-volume current requests.
 
-The method assumes access to enough obligation and use evidence to make a bounded decision. Incomplete evidence requires an explicit qualified decision; it does not justify an invented promise to preserve everything forever. Technical, legal, safety and other professional judgements remain with qualified contributors.
+The method assumes access to enough obligation and use evidence to make a bounded decision. Incomplete evidence requires an explicit qualified decision. Technical, legal, safety and other professional judgements remain with qualified contributors.
 
 ### CUST.8:7 - Conformance Checklist
 
@@ -1528,21 +1526,21 @@ The method assumes access to enough obligation and use evidence to make a bounde
 
 The method lets a family evolve while keeping present work supportable. It can also justify separating offerings or retaining a bounded old profile.
 
-The cost is transition work and sometimes temporary complexity. An explicit support tail may make a proposed improvement unattractive at the current volume. That is a useful decision, not a failure to modernize.
+The cost is transition work and sometimes temporary complexity. An explicit support tail may make a proposed improvement unattractive at the current volume.
 
 ### CUST.8:10 - Architectural Rationale
 
 Family evolution changes more than an artifact. The same common operation can be embedded in different customer meanings, delivery arrangements and commitments. CUST therefore connects technical change to the receiving result and to the authority and resources for altering provision.
 
-SYSE.27 and SYSE.29 retain complete engineering Methods. The additional management contribution is the joined choice across the family and customer obligations, including continued local provision.
+SYSE.27 and SYSE.29 provide the complete engineering Methods. The additional management contribution is the joined choice across the family and customer obligations, including continued local provision.
 
 ### CUST.8:11 - SoTA-Echoing
 
-Platform-family work explains why commonality and variation must evolve together; service-productization work makes provision part of the offering. Those sources do not themselves settle a particular customer's transition.
+Platform-family work explains why commonality and variation must evolve together; service-productization work makes provision part of the offering.
 
 The complete SYSE.27 and SYSE.29 methods supply the technical compatibility and migration treatment, while MKT.11 supplies promise–execution alignment. Compared with a release-only decision, CUST adapts these results into one family-level continuation with explicit customer work and a full support tail.
 
-Reopen the selected transition when actual reliance differs from the recovered use, the receiving provision changes, or coexistence consumes resources on which other commitments depend. No constructed example here establishes a universally cheaper migration strategy.
+Reopen the selected transition when actual reliance differs from the recovered use, the receiving provision changes, or coexistence consumes resources on which other commitments depend.
 
 ### CUST.8:12 - Relations
 
@@ -1556,14 +1554,14 @@ CUST.2 identifies consequential differences; CUST.3 receives the revised family;
 
 ## CUST.Reminder:1 - Retain the questions that change the continuation
 
-Use this reminder after reading the relevant Methods. It does not construct a delta, family or delivery method on its own. Keep only the answers needed by the actual decision, in the work products already used; no separate form is required.
+Use this reminder after reading the relevant Methods. It does not construct a delta, family or delivery method on its own. Keep only the answers needed by the actual decision, in the work products already used.
 
 | Question to retain | Receiving use |
 | --- | --- |
 | What useful customer result is needed, for whom, under which conditions and by when? What supported offering is the basis? | CUST.1 establishes the two receiving results. |
-| Where do meanings, work, access, acceptance or promises differ? Which differences are dependent? | CUST.2 reconstructs consequential deltas rather than only assigning route labels. |
+| Where do meanings, work, access, acceptance or promises differ? Which differences are dependent? | CUST.2 reconstructs consequential deltas. |
 | Which local, common, assisted, partner, narrower or stopped continuation is feasible? Which combinations fit? | CUST.1 and CUST.2 keep alternatives and compatible decisions visible. |
-| Who can contribute and decide the customer result, local realization, common family, delivery/support, resources and assurance? Which conflict needs distinct judgement? | CUST.1:4.3 makes the decisions governable without a fixed number of people. |
+| Who can contribute and decide the customer result, local realization, common family, delivery/support, resources and assurance? Which conflict needs distinct judgement? | CUST.1:4.3 connects contributions with decision authority and any required independent judgement. |
 | What common result and invariants make a family? Where may variation live, and what remains local or excluded? | CUST.3 constructs a member, its boundary and supported provision. |
 | Which solution can the customer meaningfully select? What common work can precede the order, and what must wait? | CUST.4 connects choice and differentiation to actual capacity. |
 | What uncertainty can change the next local or shared decision? What may be observed, used and transferred? | CUST.5 obtains two qualified answers and permits negative or local-only outcomes. |
@@ -1573,6 +1571,6 @@ Use this reminder after reading the relevant Methods. It does not construct a de
 | Which present customers, configurations, meanings and obligations change? What continuation can each relevant use obtain? | CUST.8 constructs transition, coexistence, retained provision or an authorized end. |
 | Which general assumption did practice confirm, qualify or challenge, and which Method must change as a result? | CUST.Reference:6 preserves the knowledge–practice connection beyond one case. |
 
-For a productization candidate, retain the proposed common contribution, its scope, supporting conditions, permission limits, local residue and receiving decision. For a delivery candidate, retain the useful result, intended performer, preparation, operation, acceptance, exceptions and support. A completed set of fields establishes none of those results without their construction and appropriate evidence.
+For a productization candidate, retain the proposed common contribution, its scope, supporting conditions, permission limits, local residue and receiving decision. For a delivery candidate, retain the useful result, intended performer, preparation, operation, acceptance, exceptions and support.
 
 ## CUST.Reminder:End
