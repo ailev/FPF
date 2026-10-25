@@ -50,7 +50,7 @@ The general methods are in **Core**: [connect development work (C.40.OD)](https:
 
 ## What is available
 
-**FPF Core** contains 400 patterns in 17.905 million characters. It supplies transdisciplinary concepts and methods, including methodological work and open-ended development. **34 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 24 belong to four Suites, and ten have their own files directly in the DPF catalogue.
+**FPF Core** contains 400 patterns in 17.887 million characters. It supplies transdisciplinary concepts and methods, including methodological work and open-ended development. **34 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 24 belong to four Suites, and ten have their own files directly in the DPF catalogue.
 
 A DPF describes one field through a connected pattern language. A **Suite** describes a composite discipline through its constituent fields and their relations. An **Architectural Reference** explains how the relevant language is arranged and why: within a framework, across a Suite, or across the Library.
 
