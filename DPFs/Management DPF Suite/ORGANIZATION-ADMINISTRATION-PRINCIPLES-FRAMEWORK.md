@@ -47,27 +47,27 @@ ADM helps administrators examine administrative requests, give justified refusal
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| B.1 | [ADM.5 - Design Reusable Instructions for Administrative Requests](#adm5---design-reusable-instructions-for-administrative-requests) | Stable | Repeated request; service instruction; approval and provision; ordinary correction | ADM.1–3 for unsettled inputs; ADM.6–10 for the needed handling actions; [OPS.5 through OPS.6][OPS]. |
-| B.2 | [ADM.6 - Resolve an Administrative Exception](#adm6---resolve-an-administrative-exception) | Stable | Opaque refusal; missing authority; conflicting requirement; competent return | ADM.7–9 for the missing claim, permission or provision; [OPS.6][OPS] for situated continuation. |
+| B.1 | [ADM.5 - Design Reusable Instructions for Administrative Requests](#adm5---design-reusable-instructions-for-administrative-requests) | Stable | Repeated request; service instruction; approval and provision; ordinary correction | ADM.1–ADM.3 for unsettled inputs; ADM.6–ADM.10 for the needed handling actions; [OPS.5 through OPS.6][OPS]. |
+| B.2 | [ADM.6 - Resolve an Administrative Exception](#adm6---resolve-an-administrative-exception) | Stable | Opaque refusal; missing authority; conflicting requirement; competent return | ADM.7–ADM.9 for the missing claim, permission or provision; [OPS.6][OPS] for situated continuation. |
 | B.3 | [ADM.7 - Check the Claim Needed for This Administrative Decision](#adm7---check-the-claim-needed-for-this-administrative-decision) | Stable | Evidence reuse; wrong test; insufficient evidence; unavailable checker | [FPF A.10][A10] for source-to-use recovery; [SYSE.28][SYSE] when check placement needs design. |
-| B.4 | [ADM.8 - Establish and Exercise the Required Permission for an Administrative Action](#adm8---establish-and-exercise-the-required-permission-for-an-administrative-action) | Stable | Standing grant; spending authority; read versus download; conflicting restriction | [FPF A.2.8.PER][PER]; ADM.2–3 for participant or effective-time questions. |
+| B.4 | [ADM.8 - Establish and Exercise the Required Permission for an Administrative Action](#adm8---establish-and-exercise-the-required-permission-for-an-administrative-action) | Stable | Standing grant; spending authority; read versus download; conflicting restriction | [FPF A.2.8.PER][PER]; ADM.2–ADM.3 for participant or effective-time questions. |
 | B.5 | [ADM.9 - Provide a Usable Administrative Result](#adm9---provide-a-usable-administrative-result) | Stable | Approved but unusable; failed access; partial effect; safe recovery | ADM.8 for an unresolved permission; [SYSE.26][SYSE] when supported interaction or recovery needs design. |
-| B.6 | [ADM.10 - Reconcile Administrative Obligations, Performance and Records](#adm10---reconcile-administrative-obligations-performance-and-records) | Stable | Unconfirmed payment; obligation; fulfillment; record correction; gross and net | ADM.3–4 for time and correspondence; ADM.7–9 for a needed check, permission or provision; [OPS.15][OPS]. |
+| B.6 | [ADM.10 - Reconcile Administrative Obligations, Performance and Records](#adm10---reconcile-administrative-obligations-performance-and-records) | Stable | Unconfirmed payment; obligation; fulfillment; record correction; gross and net | ADM.3–ADM.4 for time and correspondence; ADM.7–ADM.9 for a needed check, permission or provision; [OPS.15][OPS]. |
 
 **Part C - Engineer the Administrative Arrangement**
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| C.1 | [ADM.11 - Join Providers Around the Administrative Result](#adm11---join-providers-around-the-administrative-result) | Stable | Provider handoff; local completion; receiving prerequisites; failed join | [SYSE.8][SYSE] and [OPS.8][OPS]; ADM.2–3 and ADM.8 for institutional inputs; [SYSE.24][SYSE] for a complete obtaining choice. |
-| C.2 | [ADM.13 - Keep Administrative Records Fit for Their Uses](#adm13---keep-administrative-records-fit-for-their-uses) | Stable | Earlier decision; correction history; retention; disposal; authorized retrieval | ADM.3–4; [FPF A.10][A10] and [SIE.4 through SIE.6][SIE] for source, meaning and identity questions. |
-| C.3 | [ADM.14 - Connect an Administrative Control to Its Purpose and Competent Decision](#adm14---connect-an-administrative-control-to-its-purpose-and-competent-decision) | Stable | Control purpose; rule owner; wrong proxy; qualified check; remedy | [SYSE.9][SYSE] and [SYSE.28][SYSE]; ADM.6–8 for case use; ADM.15 for consequences. |
+| C.1 | [ADM.11 - Join Providers Around the Administrative Result](#adm11---join-providers-around-the-administrative-result) | Stable | Provider handoff; local completion; receiving prerequisites; failed join | [SYSE.8][SYSE] and [OPS.8][OPS]; ADM.2–ADM.3 and ADM.8 for institutional inputs; [SYSE.24][SYSE] for a complete obtaining choice. |
+| C.2 | [ADM.13 - Keep Administrative Records Fit for Their Uses](#adm13---keep-administrative-records-fit-for-their-uses) | Stable | Earlier decision; correction history; retention; disposal; authorized retrieval | ADM.3–ADM.4; [FPF A.10][A10] and [SIE.4 through SIE.6][SIE] for source, meaning and identity questions. |
+| C.3 | [ADM.14 - Connect an Administrative Control to Its Purpose and Competent Decision](#adm14---connect-an-administrative-control-to-its-purpose-and-competent-decision) | Stable | Control purpose; rule owner; wrong proxy; qualified check; remedy | [SYSE.9][SYSE] and [SYSE.28][SYSE]; ADM.6–ADM.8 for case use; ADM.15 for consequences. |
 
 **Part D - Assess and Change the Arrangement**
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| D.1 | [ADM.15 - Judge Administrative Consequences](#adm15---judge-administrative-consequences) | Stable | Usable result; mistaken refusal; pre-entry failure; T+N; shifted effort | ADM.1 and ADM.7–10; [OPS.12 through OPS.15][OPS] and [OCE.13][OCE] for the relevant consequence question. |
-| D.2 | [ADM.16 - Decide Whether and How to Change an Administrative Arrangement Without Losing Open Cases](#adm16---decide-whether-and-how-to-change-an-administrative-arrangement-without-losing-open-cases) | Stable | Old and new terms; transition authority; open claim; retention; independent handling | ADM.13–15; [SYSE.29][SYSE] for technical transition; [FPF A.3.1.MV](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31mv---construct-and-maintain-a-method-variant) for method variants; [FPF C.36.MC](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36mc---qualify-and-develop-a-method-culture) for Method Engineering culture. |
+| D.1 | [ADM.15 - Judge Administrative Consequences](#adm15---judge-administrative-consequences) | Stable | Usable result; mistaken refusal; pre-entry failure; T+N; shifted effort | ADM.1 and ADM.7–ADM.10; [OPS.12 through OPS.15][OPS] and [OCE.13][OCE] for the relevant consequence question. |
+| D.2 | [ADM.16 - Decide Whether and How to Change an Administrative Arrangement Without Losing Open Cases](#adm16---decide-whether-and-how-to-change-an-administrative-arrangement-without-losing-open-cases) | Stable | Old and new terms; transition authority; open claim; retention; independent handling | ADM.13–ADM.15; [SYSE.29][SYSE] for technical transition; [FPF A.3.1.MV](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31mv---construct-and-maintain-a-method-variant) for method variants; [FPF C.36.MC](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36mc---qualify-and-develop-a-method-culture) for Method Engineering culture. |
 
 **Source return**
 
@@ -81,7 +81,7 @@ ADM helps administrators examine administrative requests, give justified refusal
 
 Organization Administration connects the condition someone needs for their work with the people, rules and providers that can supply it. A correct eligibility result can be reused by a permission decision; that decision gives a provider the bounds of the action; evidence of the actual effect lets the participants determine what was supplied and what remains owed. A failure or changed condition returns to the particular question it affects.
 
-ADM-E2, ADM-E3 and ADM-E7 are ordinary practical entries showing these connections. They are selected examples, not a catalogue or a sequence for every request. An ordinary request with adequate inputs can use its existing instruction directly. For a small ambiguity, [ADM.1 - Frame the Administrative Condition Needed for the Work](#adm1---frame-the-administrative-condition-needed-for-the-work) may suffice: arranged transport and accommodation can be complete even when the traveller's negotiations fail. The next negotiating decision belongs to the person responsible for that work.
+The examples below show how to start from different questions and connect the needed contributions. An ordinary request with adequate inputs can use its existing instruction directly. For a small ambiguity, [ADM.1 - Frame the Administrative Condition Needed for the Work](#adm1---frame-the-administrative-condition-needed-for-the-work) may suffice: arranged transport and accommodation can be complete even when the traveller's negotiations fail. The next negotiating decision belongs to the person responsible for that work.
 
 Use the Table of Contents for other questions. You can ask an assisting agent to explain a pattern or comment on your case in ordinary language, without framework jargon. In `ADM.15:4.3`, `15` identifies the pattern and `4.3` its section; the Parts and `§` positions give publication order.
 
@@ -134,7 +134,7 @@ Use the Table of Contents for other questions. You can ask an assisting agent to
 1. **Use consequences to select the change, not merely a closure count.** [ADM.15 - Judge Administrative Consequences](#adm15---judge-administrative-consequences) separates usable provision, correct and mistaken refusal, unresolved effects and work shifted to applicants. Its access-service case has 70 closures among 80 registered requests, but only 60 confirmed provisions; twenty additional requests failed before registration. Such an account can justify correcting an established defect without waiting for a general effectiveness study. A proposed policy change still needs its own grounds and competent decision.
 2. **Apply the adopted transition to the fact that selects the regime.** In ADM.16's constructed allowance case, journeys authorized before 1 November retain receipt-based terms; later authorizations use the allowance. A journey authorized on 28 October, performed on 3 November and claimed on 6 November therefore keeps the earlier terms. A recorded election before disbursement can select the permitted variant only with the confirmation required by the adopted rule. Unknown authorization or election facts remain specific questions, not guesses from the form version.
 3. **Turn that decision into usable handling.** [ADM.5 - Design Reusable Instructions for Administrative Requests](#adm5---design-reusable-instructions-for-administrative-requests) consumes the policy and transition conditions to specify the minimum request, necessary checks, competent decision, provider action, completion evidence and exceptions. ADM.11 obtains the provider contributions and resolves their joins. If a control gives the wrong response, [ADM.14 - Connect an Administrative Control to Its Purpose and Competent Decision](#adm14---connect-an-administrative-control-to-its-purpose-and-competent-decision) distinguishes a defective test or implementation from a policy requiring authorized change.
-4. **Establish usable handling and preserve unresolved effects.** For the changed provision, perform the bounded trial or rehearsal required before widening reliance: include an old-regime case, a new-regime case and the consequential election or unknown-payment branch. The recipient must obtain the promised result; a converted record is only one input. For an unchanged use, reuse adequate existing observations. A new staff exercise is needed only if its result can change the assignment or support decision. ADM.9/.10 recover an earlier payment effect before another payment or conversion that could duplicate it. ADM.13 retains the grounds needed for active disputes and legitimate historical use. Ending new requests through an old form does not by itself authorize disposal of those records.
+4. **Establish usable handling and preserve unresolved effects.** For the changed provision, perform the bounded trial or rehearsal required before widening reliance: include an old-regime case, a new-regime case and the consequential election or unknown-payment branch. The recipient must obtain the promised result; a converted record is only one input. For an unchanged use, reuse adequate existing observations. A new staff exercise is needed only if its result can change the assignment or support decision. ADM.9 guides recovery of an earlier payment effect before another payment or conversion that could duplicate it; ADM.10 guides reconciliation with the obligation and records when that question remains open. ADM.13 retains the grounds needed for active disputes and legitimate historical use. Ending new requests through an old form does not by itself authorize disposal of those records.
 
 The [Architectural Reference](#organization-administration-principles-framework-architectural-reference) explains the common boundaries and the wider provider relationships. When ordinary handling cannot resolve a missing rule, authority or effect, [ADM.6 - Resolve an Administrative Exception](#adm6---resolve-an-administrative-exception) sends an answerable question to the competent participant while preserving independent permitted work.
 
@@ -164,7 +164,7 @@ For example, a researcher asks for archive access on 25 September to prepare an 
 
 If the researcher separately claims an earlier appointment whose decision and scope are unavailable, that is a different unresolved basis. The issuing appointment office receives the specific question of whether that appointment covers the researcher, relevant work and September date. For a request on 2 October, an effective appointment and valid read grant may already be supplied; if login fails, the next task is to repair provision under that grant.
 
-These results also supply administrative inputs to wider work. ADM.5 helps a service owner design a repeatable instruction for receiving, checking, deciding, providing and recording requests. Its result is the instruction; it neither decides a particular request nor performs its provision. During actual handling, OPS.5–6 can resolve admission or situated continuation questions. When a project must choose how to obtain replacement provision, SYSE.24 compares the complete arrangements using adequate administrative permissions, responsibilities and provider conditions. A routine request through an established provider can use its existing instruction directly.
+These results also supply administrative inputs to wider work. ADM.5 helps a service owner design a repeatable instruction for receiving, checking, deciding, providing and recording requests. Its result is the instruction; it neither decides a particular request nor performs its provision. During actual handling, OPS.5–OPS.6 can resolve admission or situated continuation questions. When a project must choose how to obtain replacement provision, SYSE.24 compares the complete arrangements using adequate administrative permissions, responsibilities and provider conditions. A routine request through an established provider can use its existing instruction directly.
 
 The same distinction matters when a record says “paid” but an earlier payment's effect is unknown. ADM.7 identifies the missing effect claim, ADM.9 recovers the provider attempt, and ADM.10 applies the actual fulfillment rule to the evidenced credit. These are connected questions in that case, not compulsory stages for every payment. A confirmed adequate result can be reused. A sent instruction or a corrected record cannot create a missing credit.
 
@@ -190,7 +190,7 @@ There is also the question of what a handler is doing through an operation. Comp
 
 The first pass can fit in an ordinary request or note: name the action or condition, the participants it concerns, the governing rule when one matters, the relevant time, the available grounds and the next action. Add a timeline, comparison table or explicit event identity only when the receiving decision requires it. A service-level inquiry also names its population and the consequence that could change the decision.
 
-For a consequential use, examine whether the result distinguishes the requested condition from its evidence, identifies who may resolve a missing condition, and preserves any limitation that changes the next action. A claim of completed provision needs the promised usable effect. A supported relation claim needs the applicable rule and facts. A common event account needs enough correspondence to distinguish it from another event. These are different questions, and an adequate answer to one can be reused without pretending that it answers the others.
+For a consequential use, examine whether the result distinguishes the requested condition from its evidence, identifies who may resolve a missing condition, and preserves any limitation that changes the next action. A claim of completed provision needs the promised usable effect. A supported relation claim needs the applicable rule and facts. A common event account needs enough correspondence to distinguish it from another event. These are different questions. An adequate answer can be reused for the question it resolves.
 
 Elapsed delay, labor and money also answer different questions. The laboratory's T+N shorthand needs an explicit starting event and administrative result; reducing that delay can still worsen correctness or shift effort to the applicant. Include relevant unfinished and pre-entry cases before treating a portal indicator as the service outcome. A bounded observed defect may support a correction while a general effectiveness or causal claim remains unresolved.
 
@@ -202,7 +202,7 @@ General operations methods already organize cases and current work; semantic-int
 
 A complete legal, tax, financial, employment or security determination remains with the qualified source and competent decision maker for that question. These patterns explain how to identify, request and use such a result. They do not supply a jurisdiction's substantive rule merely by naming its subject.
 
-A single portal or ledger is a possible implementation. It can reduce duplicate entry but can also conceal distinct meanings, authorities or unresolved provider effects. A whole-problem service boundary is useful when it follows the participant's needed result; it becomes costly when it expands into every related organizational problem. Choose the smallest arrangement that retains the needed relations and practical returns.
+A single portal or ledger is a possible implementation. It can reduce duplicate entry but can also conceal distinct meanings, authorities or unresolved provider effects. A whole-problem service boundary is useful when it follows the participant's needed result; it becomes costly when it expands into every related organizational problem. Choose an arrangement that supplies the required administrative result and preserves its governing conditions, considering the consequences and full burden for affected participants. Use ADM.15 when that comparison remains open.
 
 ## ADM.Reference:6 - Sources, evidence and changed conditions
 
@@ -212,7 +212,7 @@ The Readme selects a few first questions from this field; the Architectural Refe
 
 The source discussions also contain broader accounting ontologies, technology proposals and particular reported incidents. This publication keeps the distinctions needed for administrative decisions and the resulting actions; it does not reproduce those complete source structures. Use the direct sources below when an interpretation, assumption or proposed extension depends on material that the pattern's stated use leaves outside. A local legal, financial, employment or security decision still requires its competent rule and evidence.
 
-The strongest useful synthesis here combines those distinctions with the actual relation, permission, operations and semantic-integration instructions named in the patterns. The Partridge accounting and agentology arguments support preserving participant-relative meanings after event identity is established. Their full ontology and one-database proposals are not needed for that result. NIST's digital-identity guidance contributes a bounded distinction between identity processes and other eligibility or permission questions; its institutional authority does not determine a local entitlement.
+The framework combines those distinctions with the actual relation, permission, operations and semantic-integration instructions named in the patterns. The Partridge accounting and agentology arguments support preserving participant-relative meanings after event identity is established. Their full ontology and one-database proposals are not needed for that result. NIST's digital-identity guidance contributes a bounded distinction between identity processes and other eligibility or permission questions; its institutional authority does not determine a local entitlement.
 
 The worked cases below are constructed. They state the policy and facts needed to reason through the next action. A successful construction shows how the instruction applies under those conditions. A walkthrough of a proposed transition, actual receiving use and later independent handling support different claims. Current adequate evidence can justify retaining the arrangement; an additional observation is selected for the decision it can change. Demonstrating organizational effectiveness requires observations of the actual service and affected participants, including failures, unfinished cases and displaced effort.
 
@@ -220,21 +220,21 @@ Revisit the affected result when the requested action, participant, rule, effect
 
 ## ADM.Reference:7 - Applied framework instructions
 
-The cited methods retain their own scope. Use the named contribution when it answers a live question; the citation is not a requirement to read every framework before handling a request.
+The cited methods retain their own scope. Use the named contribution when it answers a live question.
 
 | Source | Contribution used here |
 | --- | --- |
-| [FPF A.6.REL — Relation Obtaining and Individuation: Distinguish Occurrences When Needed][REL], §§4.2–4.7 | Readable relation use; obtaining versus assertion; occurrence identity only for a receiving use that needs to distinguish episodes; relation change versus description change. ADM.2–4 apply these distinctions to the actual administrative rule and facts. |
+| [FPF A.6.REL — Relation Obtaining and Individuation: Distinguish Occurrences When Needed][REL], §§4.2–4.7 | Readable relation use; obtaining versus assertion; occurrence identity only for a receiving use that needs to distinguish episodes; relation change versus description change. ADM.2–ADM.4 apply these distinctions to the actual administrative rule and facts. |
 | [FPF A.2.8.PER — Granted Permission, Exercise and Non-Prohibition][PER], §§4.1 and 4.3–4.6 | Keep a grant, its exercise and a non-prohibition finding distinct; apply a matching conflict rule or adequate resolving decision before returning a genuine gap. ADM.2 and ADM.8 apply these distinctions to the named administrative action. |
-| [Operations Management (OPS)][OPS], OPS.3–6, OPS.8 and OPS.12–15 | OPS.3–4 distinguish operating subjects and usable claims; OPS.5–6 supply admission and continuation. OPS.8 supplies receiving-action readiness and operational joins. OPS.12–15 supply burden, promises, financial comparison and observations for the actual decision. Administrative eligibility, authority and fulfillment rules remain explicit inputs. |
+| [Operations Management (OPS)][OPS], OPS.3–OPS.6, OPS.8 and OPS.12–OPS.15 | OPS.3–OPS.4 distinguish operating subjects and usable claims; OPS.5–OPS.6 supply admission and continuation. OPS.8 supplies receiving-action readiness and operational joins. OPS.12–OPS.15 supply burden, promises, financial comparison and observations for the actual decision. Administrative eligibility, authority and fulfillment rules remain explicit inputs. |
 | [FPF A.10 — Evidence Graph Referring][A10], §§4.1–4.2 and 4.5–4.6; [FPF B.3 — Trust and Assurance Calculus][B3], §§4.1–4.2 | A.10 recovers the exact claim, source and bounded reliance without supplying the domain result. B.3 is used only for an actual named assurance claim; consequence alone does not create one. ADM.7 retains these limits. |
 | [Organization Change Engineering (OCE)][OCE], OCE.6 and OCE.13 | OCE.6 supplies an effective assignment for its organizational-change question. OCE.13 supplies bounded consequence comparison, population and evidence distinctions, and the limits of a descriptive or causal claim. Adequate results are reused within their actual scope. |
-| [Semantic Integration Engineering (SIE)][SIE], SIE.4–6 | Supplies alignment, cross-source identity and claim composition when the administrative accounts cannot be combined directly. |
+| [Semantic Integration Engineering (SIE)][SIE], SIE.4–SIE.6 | Supplies alignment, cross-source identity and claim composition when the administrative accounts cannot be combined directly. |
 | [FPF C.32.MWA — Practice-Architecture Synthesis from Several Structures][MWA] | Compares several structures when their differing boundaries or relations change the practice decision. |
 | [FPF B.1.5.EW — Recover How Constituent Actions Enact Encompassing Work][EW] | Recovers how an operation performs encompassing work and which conditions connect them. ADM.3:5.4 applies it to temporal checking within request examination. |
 | [Systems Engineering (SYSE)][SYSE], SYSE.24 §§4.1–4.9 | Compares complete obtaining arrangements for a project result. Adequate administrative permissions, responsibilities and provider conditions are inputs; the choice does not itself perform the later provision. |
-| [Systems Engineering (SYSE)][SYSE], SYSE.26 §§4.1–4.5 and SYSE.28 §§4.1–4.5 | SYSE.26 supplies supported interaction, usable result and recovery of uncertain effects. SYSE.28 supplies check placement, condition-bound reuse and distinct outcomes. ADM.7 and ADM.9 use these results without requiring control or platform redesign for each case. |
-| [Systems Engineering (SYSE)][SYSE], SYSE.8–9 and SYSE.29 | SYSE.8 develops provider arrangements with distinct contributions and undertakings; SYSE.9 uses adequate expert results or qualifies worthwhile missing contributions. SYSE.29 supplies actual-use transition, coexistence, recovery and retirement. ADM.11, ADM.14 and ADM.16 connect these results to institutional conditions. |
+| [Systems Engineering (SYSE)][SYSE], SYSE.26 §§4.1–4.5 and SYSE.28 §§4.1–4.5 | SYSE.26 supplies supported interaction, usable result and recovery of uncertain effects. SYSE.28 supplies check placement, condition-bound reuse and distinct outcomes. ADM.7 and ADM.9 can reuse adequate results directly. |
+| [Systems Engineering (SYSE)][SYSE], SYSE.8–SYSE.9 and SYSE.29 | SYSE.8 develops provider arrangements with distinct contributions and undertakings; SYSE.9 uses adequate expert results or qualifies worthwhile missing contributions. SYSE.29 supplies actual-use transition, coexistence, recovery and retirement. ADM.11, ADM.14 and ADM.16 connect these results to institutional conditions. |
 | [Core Method-development patterns (FPF.Reference:16.7)](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#fpfreference167---develop-and-use-methods-with-distinct-claims-and-results), A.3.1.MV and C.36.MC §§0, 4.1 and 4.4 | A.3.1.MV distinguishes actual method variants from changed descriptions, support or other governed objects. C.36.MC governs Method Engineering practice. ADM.16:4.5 adapts its population, interval, independent-use, supported-continuation and selective-inquiry distinctions to administrative case handling, retaining their evidence limits. Direct C.36.MC use concerns a Method Engineering culture question. |
 
 ## ADM.Reference:8 - Enabling provision and decision accounts
@@ -384,7 +384,7 @@ A department-first boundary can be adequate when one provider already supplies t
 
 The practice question is how to define an administrative result at enough scope to help the participant without absorbing the whole business task. Keep the enabling administrative service distinct from the participant's business work, and use OPS.3 to distinguish cases, work and descriptions. Use C.32.MWA when competing structures change the answer.
 
-The serious default is a department or catalogue item whose completion defines success. GOV.UK's whole-problem service guidance is a useful comparator because it expands attention to the user's needed outcome while cautioning against an oversized service. Here that contribution changes §§4.1–4.3: start from the needed condition, follow the relevant provider joins, and keep the business outcome separate. At the same first-pass effort, one condition sentence can expose a missing result that a ticket label conceals; a wider service inquiry is accepted only when that distinction changes action.
+An alternative is to define success by completion of a department's task or delivery of a catalogue item. GOV.UK's whole-problem service guidance is a useful comparator because it expands attention to the user's needed outcome while cautioning against an oversized service. Here that contribution changes §§4.1–4.3: start from the needed condition, follow the relevant provider joins, and keep the business outcome separate. At the same first-pass effort, one condition sentence can expose a missing result that a ticket label conceals; a wider service inquiry is accepted only when that distinction changes action.
 
 The July laboratory, especially 11:56–14:59 and 20:37–30:49, supplies reported situations and conceptual distinctions used in this synthesis. The GOV.UK guidance supplies a service-design comparison. The organization's rules determine local administrative authority; observations of the service are needed to judge an improvement claim.
 
@@ -453,7 +453,7 @@ For the intended action, ask which relation supplies each necessary condition. A
 
 These facts can be supplied together in a well-designed service instruction. Keep them separately recoverable when a failure, restriction or later use depends on the difference. A.2.8.PER supplies the distinctions between granted permission, actual exercise and a finding of non-prohibition. A finding that no prohibition was located cannot fill a missing grant where the applicable rule requires one.
 
-When a grant and another governing requirement imply incompatible conclusions for the same participant's action, identify the conflicting claims and their overlapping scope and time. First apply an existing precedence rule when its stated conditions select which claim governs that use. If the rule does not settle the conflict, reuse an adequate existing authorized decision or ask the person whose authority covers this conflict to decide which claim governs the specified action, scope and interval. Until a rule or such a decision settles it, return that question as unresolved. Do not infer precedence from record recency, seniority or technical capability.
+When a grant and another governing requirement imply incompatible conclusions for the same participant's action, identify the conflicting claims and their overlapping scope and time. First apply an existing precedence rule when its stated conditions select which claim governs that use. If the rule does not settle the conflict, reuse an adequate existing authorized decision or ask the person whose authority covers this conflict to decide which claim governs the specified action, scope and interval. Until a rule or such a decision settles it, return that question as unresolved. Do not infer precedence from record recency, seniority or technical capability alone.
 
 #### ADM.2:4.4 - Return the usable participant account or the specific gap
 
@@ -540,7 +540,7 @@ General relation and permission instructions remain with their FPF suppliers. Th
 
 The practice question is how to use organizational standing without confusing identity, eligibility, decision authority and provision. The selected line adopts A.6.REL's obtaining-versus-assertion distinction and A.2.8.PER's granted-permission distinctions, and adapts the laboratory's rule-owner, handler and provider separation to the administrative request.
 
-The serious default is to infer entitlement from a directory identity, organizational title or technical account. NIST SP 800-63-4 is a bounded comparator: its identity-proofing, authentication and federation model helps identify what a digital-identity result actually establishes. It does not decide this archive's eligibility or read grant. That comparison changes §§4.1–4.3 and the access case: retain the supplied identity result and obtain only the different relation that remains missing. The extra explicitness is justified when that difference changes the action; adequate combined inputs can still be reused directly.
+One alternative is to infer entitlement from a directory identity, organizational title or technical account. NIST SP 800-63-4 is a bounded comparator: its identity-proofing, authentication and federation model helps identify what a digital-identity result actually establishes. It does not decide this archive's eligibility or read grant. That comparison changes §§4.1–4.3 and the access case: retain the supplied identity result and obtain only the different relation that remains missing. The extra explicitness is justified when that difference changes the action; adequate combined inputs can still be reused directly.
 
 The May and June laboratory discussions provide failure examples and the specialist/handler distinction. OCE.6 supplies an actual assignment method for its own organizational-change question. Neither a reported incident nor an identity standard proves that a local authority relation obtains; the supplied rule and case facts do that work.
 
@@ -710,7 +710,7 @@ The same result can be reused while the relation, time, governing conditions and
 
 A time-specific answer can prevent premature action and avoid refusing a valid current relation merely because its usual record lags. It makes historical disagreement more precise: a dispute can concern the effective event, the evidence available then or a later description.
 
-The cost is recovering the rule and enough history for the receiving decision. When that basis is missing, a precise unresolved condition is the truthful result. The pattern does not create the authority to change or retrospectively validate the relation.
+The cost is recovering the rule and enough history for the receiving decision. When that basis is missing, return the precise unresolved condition. The pattern does not create the authority to change or retrospectively validate the relation.
 
 ### ADM.3:10 - Architectural Rationale
 
@@ -722,7 +722,7 @@ Using the latest status alone is adequate when it reliably states the condition 
 
 The practice question is how to distinguish an effective organizational change from a change in what participants know or record. The selected line adopts A.6.REL's direct obtaining and continuity rules, and adapts the laboratories' relation/record distinction to administrative applicability.
 
-The serious default is “use the latest row as the current state”. Its advantage is low handling effort. Its defect appears when that row contains a future appointment, when recording lags, or when registration is itself constitutive. Sections 4.2–4.4 and the paired registration cases retain the rule that determines which interpretation applies. The practitioner can still use an adequate latest account directly; a timeline is added only when it resolves an action-changing difference.
+One alternative is “use the latest row as the current state”. Its advantage is low handling effort. It fails when recording time is taken as effective time without the governing rule—for example, by treating a future appointment as already effective or delayed reporting as a delay in the relation itself. Under a different rule, registration can constitute the relation. Sections 4.2–4.4 and the paired registration cases retain the rule that determines which interpretation applies. The practitioner can still use an adequate latest account directly; a timeline is added only when it resolves an action-changing difference.
 
 The May laboratory's relation/record discussion and the later ADM source pack's effective-condition distinctions supply failure reasoning and synthesis inputs. A.6.REL supplies the general method for relation change and optional occurrence identity. [FPF B.1.5.EW][EW] supplies the explanation of constituent and encompassing work applied in §5.4. This is a selected practical comparison, not empirical proof that one temporal database design is best.
 
@@ -773,7 +773,7 @@ The comparison must also separate representation from effect. A consistent set o
 
 State what each relevant participant needs to decide or perform. A payer may need to establish whether an obligation is discharged; a recipient may need to allocate a receipt to an invoice. The administrative correspondence serves those actions.
 
-Recover each source statement in its own terms. Ask what the participant means by “paid”: an instruction was issued, a transfer settled, or a particular obligation was discharged under an applicable rule. Retain the author, source, intended use and time when those facts affect interpretation. The exact authority of a source matters to the claim for which it is used.
+Recover each source statement in its own terms. Ask what the participant means by “paid”: an instruction was issued, a transfer settled, or a particular obligation was discharged under an applicable rule. Retain the author, source, intended use and time when those facts affect interpretation. A source's authority matters to the claim for which it is used.
 
 Do not demand a universal vocabulary before an ordinary action can proceed. If a supplied statement is already clear and adequate, use it.
 
@@ -885,13 +885,13 @@ The result may remain partial because some meaning, evidence or institutional co
 
 The receiving action comes first because it determines which correspondence matters. Subject identity precedes comparison of participant meanings because a viewpoint label cannot establish that two statements concern the same thing. Institutional consequence follows separately because a common event description cannot determine a rule it does not contain.
 
-The serious alternatives are full normalization into one account and leaving every source separate. Normalization can be economical when meanings and authority already match. It loses useful content when participant-relative meanings or decision conditions differ. Separate sources can remain adequate when one action needs only one account; a bounded correspondence is worthwhile when the participants must act together.
+Alternatives include full normalization into one account and leaving every source separate. Normalization can be economical when meanings and authority already match. It loses useful content when participant-relative meanings or decision conditions differ. Separate sources can remain adequate when one action needs only one account; a bounded correspondence is worthwhile when the participants must act together.
 
 ### ADM.4:11 - SoTA-Echoing
 
-The practice question is how to preserve correct participant-relative accounts while producing an administrative result the parties can use. The selected line adopts SIE.4–6 for real alignment, identity and claim-composition work, and adapts the Partridge accounting and agentology comparison after the administrative subject is established.
+The practice question is how to preserve correct participant-relative accounts while producing an administrative result the parties can use. The selected line adopts SIE.4–SIE.6 for real alignment, identity and claim-composition work, and adapts the Partridge accounting and agentology comparison after the administrative subject is established.
 
-The serious rival is one normalized representation whose terminology replaces all local accounts. The Partridge papers distinguish organizing an account around a participant from describing the common represented event, and separately examine how direction is represented. That contribution changes §§4.2–4.4 and the payer/recipient case: establish the common event, retain how each participant describes it, and keep the next institutional action under its supplied rule. The full BORO ontology and one-database infrastructure are not selected for this bounded result.
+One alternative is a single normalized representation whose terminology replaces all local accounts. The Partridge papers distinguish organizing an account around a participant from describing the common represented event, and separately examine how direction is represented. That contribution changes §§4.2–4.4 and the payer/recipient case: establish the common event, retain how each participant describes it, and keep the next institutional action under its supplied rule. The full BORO ontology and one-database infrastructure are not selected for this bounded result.
 
 Thoroughly Modern Accounting, especially PDF pp. 9–10 and 13–14, and Ontology then Agentology, PDF pp. 5–8, supply conceptual arguments and worked representations. They do not establish the facts of a particular transfer or empirical superiority in every administrative setting. The July laboratory and later source pack supply the distinction between different subjects and different accounts of one subject. Both contributions are needed to avoid treating every disagreement as a viewpoint difference.
 
@@ -901,7 +901,7 @@ At comparable handling effort, a small explicit correspondence retains action-ch
 
 ADM.1 separates the enabled work and administrative result when a broad label hides different subjects. ADM.2 supplies participant standing and authority; ADM.3 supplies effective conditions and relation history. Use their results only when the receiving comparison needs them.
 
-SIE.4–6 supply alignment, identity and claim composition for unresolved semantic integration. OPS.4 supplies usable current claims for ongoing handling. A.6.REL governs a relation occurrence and its distinction from revised descriptions when that history matters.
+SIE.4–SIE.6 supply alignment, identity and claim composition for unresolved semantic integration. OPS.4 supplies usable current claims for ongoing handling. A.6.REL governs a relation occurrence and its distinction from revised descriptions when that history matters.
 
 The responsible handler uses the correspondence with the applicable service or specialist instruction. In the transfer case, P's handler applies the supplied obligation-discharge condition and Q's handler applies the receipt-allocation rule. If a payment or other provision is still needed, the assigned and authorized provider follows the applicable instruction for that action. The provider performs it only when that instruction's prerequisites are met. The handler sends an unresolved substantive question to the specialist or decision maker competent to answer it.
 
@@ -969,7 +969,7 @@ Specify where the request enters, how the applicant can correct an ordinary omis
 
 For each consequential branch, name who applies the rule or makes the decision, the conditions used, and what the next participant receives. A direct policy rule may already determine the required response. A case-specific approval remains a decision when the policy requires an authorized person to make it.
 
-Keep the handler's preparation, a specialist's judgment, the competent person's authorization and the provider's performance distinct. Completing a checklist neither transfers approval authority nor performs payment. ADM.8 resolves a permission question; OPS.5–6 can supply admission or situated continuation when actual handling needs one.
+Keep the handler's preparation, a specialist's judgment, the competent person's authorization and the provider's performance distinct. Completing a checklist neither transfers approval authority nor performs payment. ADM.8 resolves a permission question; OPS.5–OPS.6 can supply admission or situated continuation when actual handling needs one.
 
 State which independent action may proceed while another condition is pending. An instruction for obtaining a price quote need not inherit the spending authorization required for a later booking unless the applicable rule makes that authorization a condition of the inquiry.
 
@@ -993,7 +993,7 @@ For potentially duplicate actions, include recovery of the earlier attempt befor
 
 Walk through a representative supported request with its prospective handler, deciding person, provider and result consumer. Add variations that exercise the actual branches: a correctable omission, a decisive negative condition, an authority gap and an uncertain provider effect.
 
-Ask each participant to recover their next action from the instruction. Repair missing joins and unnecessary requests. A desk walkthrough establishes that the described handling is intelligible under the supplied facts; a trial of actual provision is needed to establish that the provider can deliver the promised condition.
+Ask each participant to recover their next action from the instruction. Repair missing joins and unnecessary requests. A desk walkthrough establishes that the described handling is intelligible under the supplied facts. To establish that the provider can deliver the promised condition, use adequate existing evidence or a trial of actual provision.
 
 Return the instruction with its supported class, applicable policy, effective conditions and known gaps. Use the organization's existing place for such instructions. The first real request then uses the applicable instruction; it does not reopen the design without a changed condition or observed defect.
 
@@ -1058,15 +1058,15 @@ Conditional connections are sufficient. A settled case need not visit every spec
 
 The working question is how to make an administrative service repeatable while keeping institutional decisions and actual provision connected. The June laboratory and ADM source pack distinguish developing a service from using it. Part of this question is how the service supports the participant's intended work and what effort it requires from them. The laboratory material supplies reported situations; assess service effectiveness from its actual use.
 
-The selected synthesis uses the actual [OPS.5 through OPS.6][OPS] instructions for admission and continuation during handling, with ADM's explicit evidence, authority and usable-result joins. [CMMN 1.1][CMMN], §§4.1–4.3, supplies a serious case-model alternative: work toward an outcome can use evolving information and discretionary planning. Its model does not supply the local eligibility policy, appoint the decider or establish real provision.
+The selected synthesis uses the actual [OPS.5 through OPS.6][OPS] instructions for admission and continuation during handling, with ADM's explicit evidence, authority and usable-result joins. [CMMN 1.1][CMMN], §§4.1–4.3, supplies a case-model alternative: work toward an outcome can use evolving information and discretionary planning. Its model does not supply the local eligibility policy, appoint the decider or establish real provision.
 
-An adequate existing service instruction is the strongest low-cost alternative and should be used directly. A process diagram or case model is also sufficient when it already carries the needed conditions and returns. Sections 4.2–4.5 become necessary where the representation omits those joins; no particular notation or CMMN conformance is required.
+Use an adequate existing service instruction directly. A process diagram or case model is also sufficient when it already carries the needed conditions and returns. Sections 4.2–4.5 become necessary where the representation omits those joins; no particular notation or CMMN conformance is required.
 
 Reopen the affected design when policy, supported population, deciding authority, provider capability or a demonstrated handling failure changes it. A new form or software feature alone is not a new administrative result.
 
 ### ADM.5:12 - Relations
 
-ADM.1 supplies the condition the service enables; ADM.2–3 supply participants and effective relations when those are unsettled. The handler uses ADM.7 for a needed claim check, ADM.8 for permission, ADM.9 for usable provision and ADM.10 for reconciliation. A genuine obstacle returns through ADM.6 to the person able to resolve it.
+ADM.1 supplies the condition the service enables; ADM.2–ADM.3 supply participants and effective relations when those are unsettled. The handler uses ADM.7 for a needed claim check, ADM.8 for permission, ADM.9 for usable provision and ADM.10 for reconciliation. A genuine obstacle returns through ADM.6 to the person able to resolve it.
 
 [OPS.5 through OPS.6][OPS] supply decisions during actual handling. [SYSE.26][SYSE] supplies the design of a supported interaction and its failure recovery when that engineering question is live. Neither return is a mandatory preliminary to using an adequate administrative instruction.
 
@@ -1082,7 +1082,7 @@ ADM.1 supplies the condition the service enables; ADM.2–3 supply participants 
 
 Use this pattern when a real obstacle prevents the applicable administrative instruction from producing its ordinary result: a needed fact is disputed, the rule does not cover the case, requirements conflict, authority is unresolved or provision has failed in a way the ordinary recovery cannot resolve.
 
-The first useful move is to state the exact condition preventing the next action and identify the person or source able to resolve it. The result is a resolved condition and usable continuation, or a reasoned disposition with the applicable correction or challenge route. A request for resolution is an intermediate result when the answer is still unavailable.
+The first useful move is to state the condition preventing the next action and identify the person or source able to resolve it. The result is a resolved condition and usable continuation, or a reasoned disposition with the applicable correction or challenge route. A request for resolution is an intermediate result when the answer is still unavailable.
 
 Apply a sufficient existing rule or recovery instruction directly. An ordinary missing-field correction or a negative condition already settled by policy is not automatically an exception. This pattern grants no authority to waive a requirement, invent evidence or extend a permission.
 
@@ -1098,7 +1098,7 @@ Resolution also has several possible stopping points. Finding the competent sour
 
 An opaque refusal leaves the participant unable to correct the case. Repeated transfers between departments can move the request without moving the unresolved question. A handler may compensate by improvising a waiver, treating technical access as permission, or repeating a payment whose earlier effect remains unknown.
 
-At the other extreme, every negative answer is sent to a discretionary decision maker. This delays cases whose governing rule already supplies the response and obscures the genuinely unresolved alternatives that do need judgment.
+At the other extreme, every negative answer is sent to a discretionary decision maker. This delays cases whose governing rule already supplies the response and obscures the unresolved alternatives that do need judgment.
 
 ### ADM.6:3 - Forces
 
@@ -1114,13 +1114,13 @@ At the other extreme, every negative answer is sent to a discretionary decision 
 
 #### ADM.6:4.1 - Recover the blocked action and the actual obstacle
 
-State the intended action, its participant, applicable time and the condition that is not established. Use the existing case facts; reopen ADM.1–3 only when the requested result, relevant relation or effective time is itself unclear.
+State the intended action, its participant, applicable time and the condition that is not established. Use the existing case facts; reopen ADM.1–ADM.3 only when the requested result, relevant relation or effective time is itself unclear.
 
 Separate what is known from what is missing. “No appointment is effective on this date under the supplied decision” is an established result. “An earlier appointment is claimed but its decision cannot be recovered” is a separate unresolved basis. A provider's failure message may establish that a login attempt failed while leaving institutional permission intact.
 
 If the applicable rule already determines the response, apply it. A policy-defined refusal can finish that bounded inquiry and still expose the available correction or challenge route. The existence of that route does not make a challenge mandatory.
 
-#### ADM.6:4.2 - Identify the smallest resolution task
+#### ADM.6:4.2 - Identify the needed resolution task
 
 Locate the missing contribution before choosing a recipient.
 
@@ -1180,19 +1180,19 @@ The requester then identifies a different appointment said to begin on 1 Septemb
 
 ### ADM.6:6 - Bias-Annotation
 
-Handlers often classify an unusual participant as an invalid request or assume that every exception deserves special permission. First distinguish a valid unsupported case, a settled negative condition and a genuine uncertainty.
+Handlers often classify a request from an unusual participant as invalid or assume that every exception deserves special permission. First establish which governing conditions hold, fail or remain unresolved.
 
 A digital route can conceal barriers experienced by people who cannot use that channel. The pattern requires an actual permitted support or redress arrangement when one is supplied; it does not presume universal availability or let the handler invent it.
 
 ### ADM.6:7 - Conformance Checklist
 
-**Recognition.** The handler can name the blocked action, exact obstacle, needed contribution and competent destination. A settled result is applied; an unresolved question remains explicit.
+**Recognition.** The handler can name the blocked action, obstacle, needed contribution and competent destination. A settled result is applied; an unresolved question remains explicit.
 
 **Assurance for reliance.** Trace the actual response back to its authority or evidence and forward to the next action. Verify that an alternative preserves the relevant conditions, that independent permitted work is not blocked by association, and that a request for resolution has not been reported as the received answer or completed provision.
 
 ### ADM.6:8 - Common Anti-Patterns and How to Avoid Them
 
-**Escalation by forwarding** moves the case but supplies no question or capable recipient. Identify the smallest missing contribution and who can return it.
+**Escalation by forwarding** moves the case but supplies no question or capable recipient. Identify the missing contribution and who can return it.
 
 **A negative answer treated as uncertainty** repeats a decision already supplied by the rule. Apply its ordinary response; investigate only a separately live alternative or challenge.
 
@@ -1214,13 +1214,13 @@ The working question is how to restore legitimate continuation when ordinary adm
 
 [NIST SP 800-63-4][NIST]'s redress treatment supplies a bounded comparison for digital-identity failures: accessible issue handling, review, correction and human support. It does not determine a local appointment or entitlement. That limit shapes §§4.2 and 5.1: a qualified identity result is requested from its proper source and then used by the service.
 
-[CMMN 1.1][CMMN] provides a serious alternative for adaptive case planning. Its information and discretionary-work constructs can carry the handling arrangement, but do not by themselves settle institutional authority. An adequate ordinary instruction is the cheaper alternative and remains sufficient when it already resolves the condition.
+[CMMN 1.1][CMMN] provides an alternative for adaptive case planning. Its information and discretionary-work constructs can carry the handling arrangement, but do not by themselves settle institutional authority. Use an adequate ordinary instruction directly when it already resolves the condition.
 
 Reopen the affected instruction when repeated exceptions reveal a missing ordinary branch, an unavailable competent provider or a changed governing rule. Repetition alone does not justify waiving the condition.
 
 ### ADM.6:12 - Relations
 
-ADM.1–3 establish the needed condition and relevant effective relations when those are unclear. ADM.7 specifies the needed factual check; ADM.8 resolves permission within the applicable rule. The handler uses the returned result in continuing the case, while the authorized provider performs provision under ADM.9. ADM.10 supplies reconciliation when an obligation or recorded effect remains disputed.
+ADM.1–ADM.3 establish the needed condition and relevant effective relations when those are unclear. ADM.7 specifies the needed factual check; ADM.8 resolves permission within the applicable rule. The handler uses the returned result in continuing the case, while the authorized provider performs provision under ADM.9. ADM.10 supplies reconciliation when an obligation or recorded effect remains disputed.
 
 ADM.5 is used when the recurring instruction itself needs repair. [OPS.6][OPS] supplies a current continuation decision without requiring redesign of that instruction for every exception.
 
@@ -1236,7 +1236,7 @@ ADM.5 is used when the recurring instruction itself needs repair. [OPS.6][OPS] s
 
 Use this pattern when an administrative action depends on a particular claim and the handler needs to establish whether available evidence adequately supports that claim for this use. Examples include an effective assignment, an expense's eligibility, the identity of the person requesting access or the effect of an earlier payment.
 
-Start by writing the claim and the action that depends on it. The first useful result is a supported answer, a supported negative answer, or the exact missing evidence or competent check. Reuse a sufficient existing result within its conditions.
+Start by writing the claim and the action that depends on it. The first useful result is a supported answer, a supported negative answer, or the missing evidence or competent check. Reuse a sufficient existing result within its conditions.
 
 Do not run an additional check merely because a form has a field for it. A settled decision whose applicable rule requires no further check can use its established basis. This pattern applies an existing qualified check to a case; redesigning a control or inventing a specialist test is a separate task.
 
@@ -1282,7 +1282,7 @@ Distinguish the source's identity from the truth of its content. A signed record
 
 Use ADM.3 for a live effective-time question and ADM.4 when participant accounts or cross-source identity prevent the match. Do not build a larger evidence record when the ordinary source and its conditions already answer the question.
 
-#### ADM.7:4.3 - Reuse the result or perform the smallest competent check
+#### ADM.7:4.3 - Reuse the result or perform the needed competent check
 
 Reuse a result while its subject, criterion and action-changing conditions match the current use. Name the specific change that would defeat reuse: a different person, a revised policy, a revoked grant, an altered subject or a later time outside the result's scope.
 
@@ -1308,7 +1308,7 @@ An unavailable mechanism is a fact about checking, not a negative answer about t
 
 Return the claim, its answer, the material basis and any limitation that changes action. Add enough identity and timing to prevent substitution between check and use. If a payment instruction can change after approval, verify that the provider receives the approved amount and destination under the applicable procedure.
 
-A historical observation cannot establish an indefinitely changing condition. [SYSE.28][SYSE] supplies the engineering question of where a check or enforcement mechanism must act when later changes can defeat it. Use an adequate existing control directly in a case; do not redesign its placement merely because a request arrived.
+An observation that a condition held at one time does not by itself establish that it still holds when the result is used. [SYSE.28][SYSE] supplies the engineering question of where a check or enforcement mechanism must act when later changes can defeat it. Use an adequate existing control directly in a case; do not redesign its placement merely because a request arrived.
 
 The consuming person then applies the governing rule or makes the required decision. Keep that decision and subsequent performance separate from the check. Reopen only a result affected by a material changed condition.
 
@@ -1324,7 +1324,7 @@ The payment log contains an earlier instruction for the same expense, but its ef
 
 The provider confirms that the earlier instruction failed before any credit. That result supports the negative answer to “already reimbursed by this attempt”; the handler still checks the actual policy's required coverage of any other possible reimbursement. Suppose the adequate case records establish none. The finance approver can now make the required decision. The provider then performs any authorized payment. The check neither approved the claim nor paid it.
 
-If the earlier effect remains unknown, the handler preserves that uncertainty. A potentially duplicate payment waits for recovery under ADM.9–10.
+If the earlier effect remains unknown, the handler preserves that uncertainty. A potentially duplicate payment waits for recovery under ADM.9–ADM.10.
 
 #### ADM.7:5.2 - The wrong test and an unavailable test
 
@@ -1342,7 +1342,7 @@ The pattern assumes access to applicable criteria and qualified sources. It cann
 
 ### ADM.7:7 - Conformance Checklist
 
-**Recognition.** A reader can recover the exact claim, dependent action, applicable criterion, subject correspondence and substantive outcome. Existing adequate evidence has an explicit scope of reuse.
+**Recognition.** A reader can recover the claim, dependent action, applicable criterion, subject correspondence and substantive outcome. Existing adequate evidence has an explicit scope of reuse.
 
 **Assurance for reliance.** Examine the actual source and check for this claim. Try a relevant subject substitution, changed effective time or unavailable-check case. Confirm that each produces the correct limitation or next action under the rule. Use the qualified domain procedure for consequential correctness; a well-filled evidence table alone cannot establish it.
 
@@ -1358,7 +1358,7 @@ The pattern assumes access to applicable criteria and qualified sources. It cann
 
 The handler can reduce irrelevant requests and direct missing-evidence work to the source that can answer it. Decisions receive more precise inputs, and a refusal can distinguish a failed condition from an unavailable check.
 
-This may expose a previously hidden method or evidence gap. More precise uncertainty is not a successful check, but it prevents unsupported permission, denial or duplicate action. Actual service observations are needed to establish the effect on errors and participant burden.
+This may expose a previously hidden method or evidence gap. Identifying the gap does not establish the claim; it helps prevent unsupported permission, denial or duplicate action. Actual service observations are needed to establish the effect on errors and participant burden.
 
 ### ADM.7:10 - Architectural Rationale
 
@@ -1368,7 +1368,7 @@ The organizing relation is between one claim, its evidence and its receiving use
 
 The working question is how to check the administrative claim that matters to a particular decision without replacing it by an available proxy. The May laboratory's control-purpose problem supplies the domain failure. [FPF A.10][A10], especially §§4.1–4.2 and 4.5–4.6, supplies source and bounded-use recovery; [FPF B.3][B3] is retained only for an actual separately named assurance question.
 
-The selected synthesis applies that evidence discipline with the actual reuse, outcome and change-before-use instructions in [SYSE.28][SYSE]. A generic checklist is the serious low-cost alternative: it suffices when its items already match the case claims and preserve consequential outcomes. It fails when one “pass/fail” field hides an inapplicable or unavailable check, which motivates §§4.1 and 4.4.
+The selected synthesis applies that evidence discipline with the actual reuse, outcome and change-before-use instructions in [SYSE.28][SYSE]. A generic checklist is an alternative: it suffices when its items already match the case claims and preserve consequential outcomes. It fails when one “pass/fail” field hides an inapplicable or unavailable check, which motivates §§4.1 and 4.4.
 
 [NIST SP 800-63-4][NIST]'s separation of digital-identity functions supports the bounded identity example. It does not supply an expense rule or a universal permission test. The cases are constructed applications, not estimates of checking accuracy.
 
@@ -1376,7 +1376,7 @@ Reopen a result when its relevant subject, rule, evidence or use changes. Reopen
 
 ### ADM.7:12 - Relations
 
-ADM.2–4 supply participant, relation, time and account correspondence when needed. The handler uses the check result in the actual permission or case decision; ADM.8 governs the permission question, and ADM.9 governs provision. An unavailable competent check returns through ADM.6.
+ADM.2–ADM.4 supply participant, relation, time and account correspondence when needed. The handler uses the check result in the actual permission or case decision; ADM.8 governs the permission question, and ADM.9 governs provision. An unavailable competent check returns through ADM.6.
 
 ADM.10 uses effect evidence to reconcile an obligation and performance. [FPF A.10][A10] retains the source-to-use account; [FPF B.3][B3] addresses an actual assurance claim; [SYSE.28][SYSE] designs or repairs a check's placement when that separate question is live.
 
@@ -1406,7 +1406,7 @@ The local policy, agreement or competent decision supplies the substantive grant
 
 ### ADM.8:2 - Problem
 
-Administrative handling often treats all successful preparatory steps as “approval”. A directory entry, supervisor endorsement or enabled button is then used as if it granted the exact action. Conversely, staff repeatedly seek approval already supplied by a standing grant.
+Administrative handling often treats all successful preparatory steps as “approval”. A directory entry, supervisor endorsement or enabled button is then used as if it granted the intended action. Conversely, staff repeatedly seek approval already supplied by a standing grant.
 
 Conflicts create a further error. A handler may assume that a permit overrides a prohibition, or ask another decider despite an applicable precedence rule already settling the case. Both responses lose the actual authority and scope of the decision.
 
@@ -1442,9 +1442,9 @@ If the governing arrangement requires a positive grant, a non-prohibition findin
 
 Determine whether the apparently competing conclusions concern the same beneficiary and action with overlapping scope and time. A download restriction may leave a permitted read untouched. A restriction from 09:00 to 11:00 does not by itself govern an action at noon.
 
-For an actual conflict, follow [FPF A.2.8.PER][PER]'s distinction. First apply a matching current precedence rule when it selects the applicable conclusion. Otherwise reuse an adequate authorized resolving decision for this scope and time. Only a remaining unresolved conflict calls for the competent person to decide the exact question.
+For an actual conflict, follow [FPF A.2.8.PER][PER]'s distinction. First apply a matching current precedence rule when it selects the applicable conclusion. Otherwise reuse an adequate authorized resolving decision for this scope and time. Only a remaining unresolved conflict calls for the competent person to decide that question.
 
-The title of an office, the presence of two records or the handler's preferred outcome supplies no precedence. Preserve the unresolved condition if the authorized answer is unavailable. An authorized variation does not retroactively make a failed factual prerequisite true.
+The title of an office, the presence of two records or the handler's preferred outcome alone supplies no precedence. Preserve the unresolved condition if the authorized answer is unavailable. An authorized variation does not retroactively make a failed factual prerequisite true.
 
 #### ADM.8:4.4 - Return the bounded permission result
 
@@ -1480,7 +1480,7 @@ A researcher has a valid read grant for collection R on 2 October. A security in
 
 At noon the temporary restriction no longer covers the requested action. Suppose the grant and all its other conditions still hold and no other applicable restriction is present. The researcher can exercise the read permission. The earlier conflict does not create an all-day ban.
 
-Now change the case: both conclusions apply at 09:30, but no matching precedence rule or adequate resolving decision is available. The handler returns the exact conflict to the authorized security/access decision maker and preserves the unresolved permission question. Naming that person is not the resolving decision.
+Now change the case: both conclusions apply at 09:30, but no matching precedence rule or adequate resolving decision is available. The handler returns the conflict to the authorized security/access decision maker and preserves the unresolved permission question. Naming that person is not the resolving decision.
 
 #### ADM.8:5.3 - Permission survives a provider failure within its conditions
 
@@ -1526,13 +1526,13 @@ The working question is how to make an administrative action legitimate and exec
 
 [OASIS XACML 3.0][XACML], terminology and §7.2, supplies a comparison between policy information, decisions and enforcement. The base policy enforcement point (PEP) leaves its response to `NotApplicable` and `Indeterminate` undefined; deny-biased and permit-biased PEPs specify different responses. An administrative service obtains its response and authority from the applicable institutional rule. Sections 4.2–4.5 retain that separation without prescribing XML or importing an XACML enforcement operation as a general legal obligation.
 
-A direct standing rule is the strongest simpler alternative and is sufficient when its conditions settle the action. A universal approval workflow adds cost and can misclassify independent actions; an allow/deny interface alone can conceal the missing institutional basis. The constructed cases test these distinctions under supplied rules, not the legality of an actual organization.
+Use a standing rule directly when its conditions settle the action. A universal approval workflow adds cost and can misclassify independent actions; an allow/deny interface alone can conceal the missing institutional basis. The constructed cases test these distinctions under supplied rules, not the legality of an actual organization.
 
 Reopen the affected permission when its beneficiary, action, scope, rule or effective conditions change. Changes to a technical implementation require reconsidering permission only where they change those conditions or the action being performed.
 
 ### ADM.8:12 - Relations
 
-ADM.2–3 establish the relevant participants and effective relations; ADM.7 checks a needed claim without granting permission. ADM.6 supplies a competent return for a genuine unresolved question. The authorized performer uses the applicable permission in acting, and ADM.9 establishes the promised usable condition when provision is the next task.
+ADM.2–ADM.3 establish the relevant participants and effective relations; ADM.7 checks a needed claim without granting permission. ADM.6 supplies a competent return for an unresolved question. The authorized performer uses the applicable permission in acting, and ADM.9 establishes the promised usable condition when provision is the next task.
 
 [FPF A.2.8.PER][PER] governs the grant/exercise/non-prohibition distinction. [OPS.6][OPS] supplies situated continuation when a legitimate next action still needs to be selected.
 
@@ -1548,7 +1548,7 @@ ADM.2–3 establish the relevant participants and effective relations; ADM.7 che
 
 Use this pattern when a participant needs an authorized administrative condition to become usable, or when an approval or completion message does not establish that the promised result is available. Typical cases are access that still fails, accommodation that cannot be occupied or a payment instruction whose effect is unknown.
 
-Start with what the recipient must be able to do and the provider action expected to make that possible. The first useful result is the promised usable condition with adequate evidence, or the exact remaining provision failure and accountable next action.
+Start with what the recipient must be able to do and the provider action expected to make that possible. The first useful result is the promised usable condition with adequate evidence, or the remaining provision failure and accountable next action.
 
 Use an adequate existing provision and recovery instruction directly. A request only for a permission answer can finish under ADM.8; a service whose promised result is a booking can finish with a usable booking. The completion criterion follows the actual promise, not a universal demand to prove all later business outcomes.
 
@@ -1573,8 +1573,8 @@ A blind retry can make matters worse. An unobserved payment may already have occ
 | Recipient use | The beneficiary needs a practical condition, while provider systems expose intermediate activity more readily. |
 | Permission | The authorized action may be clear even when provision fails; a workaround may change its scope. |
 | Recovery | Fast retries can help reversible operations but can duplicate uncertain external effects. |
-| Evidence | Adequate confirmation should support the promised use without demanding an unnecessary ceremony from every recipient. |
-| Continuity | An honest partial or unknown result needs a next action, not merely an accurate failure label. |
+| Evidence | Adequate confirmation should support the promised use without unnecessary work for the recipient. |
+| Continuity | A partial or unknown result needs a next action, not merely an accurate failure label. |
 
 ### ADM.9:4 - Solution
 
@@ -1653,7 +1653,7 @@ If the provider instead confirms failure before any credit, treasury can use its
 
 Provider dashboards favor events inside the provider's control. Recipients may experience a failure after every internal task has succeeded. Observe the condition relevant to the recipient's use without assuming that one person's feedback represents every user or future attempt.
 
-The pattern also resists a universal requirement that every recipient perform a ceremonial acceptance test. Use the evidence adequate for the actual promise, uncertainty and receiving decision.
+Use evidence adequate for the actual promise, uncertainty and receiving decision.
 
 ### ADM.9:7 - Conformance Checklist
 
@@ -1685,7 +1685,7 @@ The working question is how administrative handling reaches the participant's us
 
 The selected instruction uses [SYSE.26][SYSE], §§4.1–4.5: begin with the user's undertaking, distinguish progress from result and uncertainty, recover the same attempt before a consequential replay, and keep support connected to failed use. ADM adds the explicit institutional grant, promised condition and beneficiary correspondence.
 
-A provider completion response is the serious simpler alternative. It is sufficient when its actual semantics and evidence establish the promised effect; it is insufficient when it only acknowledges receipt of an instruction. This comparison determines §§4.3–4.4. No particular portal, persistent job model or universal recipient test is selected.
+One alternative is to rely on a provider completion response. It is sufficient when its actual semantics and evidence establish the promised effect; it is insufficient when it only acknowledges receipt of an instruction. This comparison determines §§4.3–4.4. No particular portal, persistent job model or universal recipient test is selected.
 
 Reopen the affected provision or recovery instruction when the promised use, authorization, provider capability or effect evidence changes, or an actual failure reveals an unsupported transition. The constructed cases establish an intelligible application, not measured service reliability.
 
@@ -1693,7 +1693,7 @@ Reopen the affected provision or recovery instruction when the promised use, aut
 
 ADM.1 supplies the enabled condition and ADM.8 the relevant permission when either is unresolved. ADM.7 checks a needed effect claim; ADM.6 obtains a missing competent contribution. ADM.10 connects the actual effect to an obligation and participant records.
 
-The handler applies an existing service instruction from ADM.5 where one is needed. [SYSE.26][SYSE] supplies supported-interaction and recovery design for a genuine engineering question; engineering realization itself remains with its qualified provider and method.
+The handler applies an existing service instruction from ADM.5 where one is needed. [SYSE.26][SYSE] supplies supported-interaction and recovery design for an engineering question; engineering realization itself remains with its qualified provider and method.
 
 ### ADM.9:End
 
@@ -1707,7 +1707,7 @@ The handler applies an existing service instruction from ADM.5 where one is need
 
 Use this pattern when participants need to determine whether an administrative obligation was fulfilled, yet the obligation, actual performance and records do not line up clearly. A payment record may be closed while part of the credit remains unconfirmed; an access obligation may be recorded as fulfilled while the recipient could not use the permitted resource.
 
-Start with the particular obligation and its applicable fulfillment rule, then compare the performance evidence and records for that same subject and time. The first useful result is a supported reconciliation, or the exact remaining discrepancy and competent next action.
+Start with the particular obligation and its applicable fulfillment rule, then compare the performance evidence and records for that same subject and time. The first useful result is a supported reconciliation, or the remaining discrepancy and competent next action.
 
 Use a sufficient existing reconciliation directly. An isolated spelling correction with no effect on meaning does not require this inquiry. The pattern does not supply statutory accounting, tax, valuation, treasury or legal discharge rules; use the rule actually governing the obligation and obtain a qualified interpretation when that rule is unresolved.
 
@@ -1723,7 +1723,7 @@ Participant-relative descriptions remain legitimate. A payer's outgoing payment 
 
 A handler compares two totals or status fields without establishing their meaning, scope or time. Apparent equality is then reported as settlement, or a harmless difference in recording time is treated as failed performance.
 
-A more serious error turns missing evidence into another payment. The record says 400 remains, so someone instructs 400 again, although the earlier instruction may already have credited the recipient. Correcting the account requires recovering the event before changing the world.
+A handler may treat missing evidence as a reason to repeat a payment. The record says 400 remains, so someone instructs 400 again, although the earlier instruction may already have credited the recipient. Correcting the account requires recovering the event before changing the world.
 
 ### ADM.10:3 - Forces
 
@@ -1731,7 +1731,7 @@ A more serious error turns missing evidence into another payment. The record say
 | --- | --- |
 | Comparable claims | Common amounts and labels can conceal different events, quantities, purposes or periods. |
 | Institutional effect | Actual performance matters under a supplied fulfillment rule; the handler cannot invent that rule. |
-| Honest uncertainty | Unconfirmed effect differs from known nonperformance and may prevent a safe repeat action. |
+| Uncertain effect | Unconfirmed effect differs from known nonperformance and may prevent a safe repeat action. |
 | Participant accounts | Several correct records can coexist while their correspondence needs to remain recoverable. |
 | Corrective authority | A record correction, additional provision and change to an obligation can require different authority. |
 
@@ -1747,7 +1747,7 @@ If the fulfillment rule is unavailable or disputed, obtain its competent interpr
 
 #### ADM.10:4.2 - Align the claims before comparing them
 
-Recover what each record asserts and what evidence supports actual performance. Establish event identity and participant correspondence through ADM.4 when needed. Use [SIE.4 through SIE.6][SIE] for a genuine unresolved source-meaning or identity question.
+Recover what each record asserts and what evidence supports actual performance. Establish event identity and participant correspondence through ADM.4 when needed. Use [SIE.4 through SIE.6][SIE] for an unresolved source-meaning or identity question.
 
 Match quantities, units, direction, gross or net basis, allocation, observation time and coverage where those distinctions can change the conclusion. A debit from the payer and a credit to the recipient may be different observations of a transfer. Two identical amounts may instead belong to two different transfers.
 
@@ -1777,7 +1777,7 @@ For established missing performance, identify the provider action and permission
 
 For an unknown earlier effect, first recover the same attempt through its competent provider. If the effect occurred, reconcile and correct the account. If it did not occur, use the applicable authorized continuation. If it remains unknown, preserve that uncertainty and the next recovery action before any repetition that could duplicate performance.
 
-A real dispute about the obligation or its interpretation returns through ADM.6 to its competent decision maker. The reconciliation cannot settle that dispute by choosing one participant's preferred record.
+A dispute about the obligation or its interpretation returns through ADM.6 to its competent decision maker. The reconciliation cannot settle that dispute by choosing one participant's preferred record.
 
 #### ADM.10:4.5 - Return the reconciled account and remaining action
 
@@ -1853,7 +1853,7 @@ The working question is how to determine fulfillment across participant accounts
 
 The selected synthesis combines that representational contribution with the comparable-observation question in [OPS.15][OPS], the meaning and identity work in [SIE.4 through SIE.6][SIE], and the recovery of uncertain provider effects in [SYSE.26][SYSE]. The substantive fulfillment rule remains an explicit local input.
 
-Direct matching of two records is the serious simpler alternative and suffices when their semantics, coverage and evidence already support the requested conclusion. A universal ledger or wholesale ontology replacement adds no needed result to the worked cases. Sections 4.1–4.4 instead make the institutional rule and unresolved effect visible while retaining adequate existing records.
+Direct matching of two records suffices when their semantics, coverage and evidence already support the requested conclusion. A universal ledger or wholesale ontology replacement adds no needed result to the worked cases. Sections 4.1–4.4 instead make the institutional rule and unresolved effect visible while retaining adequate existing records.
 
 The 2018 representation arguments are conceptual sources, not current evidence that a particular accounting system is superior. Reopen the affected reconciliation when the obligation, source meaning, allocation, evidence or effective-time basis changes. A broader financial or accounting claim needs its qualified method and evidence.
 
@@ -1903,7 +1903,7 @@ Centralizing the form does not necessarily repair these joins. It can hide the d
 | Local competence | Each provider must retain its qualified judgment while returning something another participant can use. |
 | Readiness | Prerequisites belong to the next action; a later result must not be demanded before the action that produces it. |
 | Responsibility | Coordination, performance, ownership, permission and commitment can belong to different participants. |
-| Proportion | One failed join may need one correction; a genuinely different obtaining arrangement requires a wider comparison. |
+| Proportion | One failed join may need one correction; an unresolved choice of a complete obtaining arrangement needs its own comparison. |
 
 ### ADM.11:4 - Solution
 
@@ -1911,7 +1911,7 @@ Centralizing the form does not necessarily repair these joins. It can hide the d
 
 Name the recipient's condition, scope, time and completion evidence. Recover who has undertaken to supply or arrange it and under which terms. Keep a desired target, a forecast and an actual commitment distinct; OPS.13 supplies a live promise question.
 
-Identify only the provider contributions that can change this result. Use existing assignments, permissions and adequate decisions from ADM.2–3 and ADM.8. An unassigned future provider is a proposal, not available capacity or a current undertaking.
+Identify only the provider contributions that can change this result. Use existing assignments, permissions and adequate decisions from ADM.2–ADM.3 and ADM.8. An unassigned future provider is a proposal, not available capacity or a current undertaking.
 
 When nobody is responsible for resolving a combined-service failure, return that assignment or commitment question to the person authorized to settle it. Naming a coordinator in a diagram does not create the missing responsibility.
 
@@ -1937,9 +1937,9 @@ Identify the failure that can defeat the combined result: a missing specialist a
 
 Preserve independent permitted work. A ready price inquiry may proceed while booking authority is pending. Preserve completed contributions within their supported conditions instead of restarting every provider after a local failure.
 
-For overlapping cases, inspect relevant resource windows, priorities, repeated work and existing commitments. OPS.8 supplies operational joins and protection; OPS.12–13 supply material burden and promise questions. A shared specialist already committed elsewhere is not additional simultaneous capacity.
+For overlapping cases, inspect relevant resource windows, priorities, repeated work and existing commitments. OPS.8 supplies operational joins and protection; OPS.12–OPS.13 supply material burden and promise questions. A shared specialist already committed elsewhere is not additional simultaneous capacity.
 
-Unknown external effects require the provider recovery in ADM.9–10 before a potentially duplicate action. The combined service retains a precise unfinished condition even when every internal queue would prefer to close its own item.
+Unknown external effects require the provider recovery in ADM.9–ADM.10 before a potentially duplicate action. Keep the unfinished condition visible until it is resolved, even if the individual providers have closed their tasks.
 
 #### ADM.11:4.5 - Exercise the join and choose the next arrangement decision
 
@@ -1947,7 +1947,7 @@ Walk one supported case through the actual contributions and a material failing 
 
 A description walkthrough tests the arrangement's intelligibility. A bounded operational trial can establish actual transfer, performance and use under its observed conditions. Neither establishes every future provider's reliability.
 
-Return the usable join, its governing undertakings and limitations, or the exact missing provider result. If the existing arrangement cannot supply the condition and a complete obtaining choice is now live, pass these administrative facts to [SYSE.24][SYSE]. That comparison may retain, adapt or replace the arrangement; the join diagnosis does not predetermine centralization or outsourcing.
+Return the usable join, its governing undertakings and limitations, or the missing provider result. If the existing arrangement cannot supply the condition and a complete obtaining choice is now live, pass these administrative facts to [SYSE.24][SYSE]. That comparison may retain, adapt or replace the arrangement; the join diagnosis does not predetermine centralization or outsourcing.
 
 ### ADM.11:5 - Archetypal Grounding
 
@@ -1980,7 +1980,7 @@ The responsible parties use the actual service priorities and commitments to res
 
 The service owner can overvalue the part visible inside their own department. Follow the recipient's failed use and the receiving provider's actual prerequisites.
 
-The pattern can also overfit a single coordinator. Coordination is needed where an unresolved join requires it; an adequate direct provider arrangement may operate without another intermediary. No fixed departmental structure is implied.
+An adequate direct provider arrangement may operate without another intermediary. Arrange coordination where an unresolved join requires it.
 
 ### ADM.11:7 - Conformance Checklist
 
@@ -2000,7 +2000,7 @@ The pattern can also overfit a single coordinator. Coordination is needed where 
 
 The recipient can obtain coordinated provision with fewer unexplained returns, and providers receive narrower, usable requests. Existing specialist results can remain useful through a local failure.
 
-The arrangement requires access to real commitments, resource conditions and recovery capabilities. It may reveal that a promised result is unsupported. That finding enables an honest service or obtaining decision; it is not itself the missing provision.
+The arrangement requires access to real commitments, resource conditions and recovery capabilities. It may reveal that a promised result is unsupported. That finding enables a service or obtaining decision; it is not itself the missing provision.
 
 ### ADM.11:10 - Architectural Rationale
 
@@ -2012,13 +2012,13 @@ The working question is how separate providers supply one administrative conditi
 
 The selected synthesis uses the actual provider-arrangement distinctions in [SYSE.8][SYSE], the receiving-action readiness in [OPS.8][OPS] and the separation of forecasts, objectives and commitments in [OPS.13][OPS]. [GOV.UK Service Standard point 2][GOVUK] contributes a whole-user-problem comparison by analogy; it supplies no local authority or provider commitment.
 
-An adequate direct arrangement is the strongest simpler alternative and remains sufficient. A central portal can improve entry but does not necessarily repair result correspondence or failure responsibility. Sections 4.2–4.4 retain those joins; a whole obtaining comparison stays with SYSE.24 rather than being inferred from a preference for centralization.
+Use an adequate direct provider arrangement. A central portal can improve entry but does not necessarily repair result correspondence or failure responsibility. Sections 4.2–4.4 retain those joins; a whole obtaining comparison stays with SYSE.24 rather than being inferred from a preference for centralization.
 
 Reopen an affected join when a provider, required input, permission, commitment, capability or recipient use changes. The constructed cases explain the method under supplied arrangements and make no general cost-saving claim.
 
 ### ADM.11:12 - Relations
 
-ADM.1 supplies the administrative condition; ADM.2–4 supply participants, effectivity and correspondence when unsettled. ADM.5 carries reusable handling, and ADM.6 returns a genuine provider gap to its competent resolver. The authorized providers use ADM.7–10 for needed checks, permission, provision and reconciliation.
+ADM.1 supplies the administrative condition; ADM.2–ADM.4 supply participants, effectivity and correspondence when unsettled. ADM.5 carries reusable handling, and ADM.6 returns a provider gap to its competent resolver. The authorized providers use ADM.7–ADM.10 for needed checks, permission, provision and reconciliation.
 
 [SYSE.8][SYSE] develops provider concepts, [OPS.8][OPS] supplies operational joins, and [SYSE.24][SYSE] selects a complete obtaining arrangement when that question is live. ADM.15 examines the resulting consequences; ADM.16 governs an actual institutional transition.
 
@@ -2034,7 +2034,7 @@ ADM.1 supplies the administrative condition; ADM.2–4 supply participants, effe
 
 Use this pattern when someone must later establish an administrative relation, decision or provision, and the retained records may not support that use. A handler may need to explain an earlier refusal, recover the terms that governed an open claim, correct a mistaken account or decide what can be disclosed or disposed of.
 
-Start with the later question and its legitimate reader. The first useful result is the smallest adequate record arrangement for that use, including its interpretation, access, correction and retention conditions, or the exact missing source or competent decision.
+Start with the later question and its legitimate reader. The first useful result is an adequate record arrangement for that use, including its interpretation, access, correction and retention conditions, or the missing source or competent decision.
 
 Use an adequate record directly. Do not reconstruct every historical event for an ordinary request that already has a sufficient basis. This pattern supplies no universal retention period, disclosure right or legal priority; apply the governing rule and obtain the qualified answer when its application is unresolved.
 
@@ -2078,7 +2078,7 @@ Keep the relevant source, decision or event identity, meaning, effective time an
 
 Separate what the source asserts, what the handler established and what action occurred. A provider instruction record does not establish its effect. A copied decision retains only the scope its actual authority and conditions support.
 
-Use [FPF A.10][A10] when the source-to-use account must remain recoverable and contestable. Use ADM.3–4 or SIE for a material temporal or cross-source correspondence question. An ordinary case reference and relevant source can suffice; a complete provenance graph is not a prerequisite for every record.
+Use [FPF A.10][A10] when the source-to-use account must remain recoverable and contestable. Use ADM.3–ADM.4 or SIE for a material temporal or cross-source correspondence question. An ordinary case reference and relevant source can suffice; a complete provenance graph is not a prerequisite for every record.
 
 #### ADM.13:4.3 - Make authorized retrieval and interpretation workable
 
@@ -2094,7 +2094,7 @@ Determine whether the defect concerns a description, an absent evidential link, 
 
 For a mistaken description, preserve enough of the original and correction to support the required historical use. State what was corrected and the effective facts the new account describes. A spelling correction does not constitute another appointment or move its effective date.
 
-If the governing rule makes a registration act constitutive, apply that rule to the actual act and its timing. Editing a descriptive field cannot silently perform the required registration. If payment was not performed, a corrected “paid” field cannot supply it; use ADM.9–10.
+If the governing rule makes a registration act constitutive, apply that rule to the actual act and its timing. Editing a descriptive field cannot silently perform the required registration. If payment was not performed, a corrected “paid” field cannot supply it; use ADM.9–ADM.10.
 
 A later source may change what can now be established about an earlier event. Preserve both the earlier decision's actual grounds and the later qualified account. The competent case procedure determines any resulting revision or remedy.
 
@@ -2110,7 +2110,7 @@ Apply authorized disposal only to the eligible scope. Retention for one continui
 
 Try the question that made the record necessary: recover the earlier grounds, identify the effect of a correction, or supply the permitted extract. Include a relevant adverse case such as a changed identifier, unavailable old reader or disputed source.
 
-Return the record arrangement and its applicable limits, or the exact missing capability, source or decision. A representative retrieval establishes that use under its conditions; it does not establish every legal or historical claim concerning the repository.
+Return the record arrangement and its applicable limits, or the missing capability, source or decision. A representative retrieval establishes that use under its conditions; it does not establish every legal or historical claim concerning the repository.
 
 Reopen the affected arrangement when a required use, rule, reader, record meaning, dispute or provider capability changes.
 
@@ -2172,13 +2172,13 @@ The working question is how administrative records remain usable for current and
 
 [ISO 15489-1:2016][ISO]'s public abstract connects records, metadata, responsibilities, business context and controls. That conceptual scope informs §§4.1–4.5. The full paid standard and its clauses are not used here; no retention period or compliance conclusion is derived from the abstract.
 
-A current case database with adequate history and retrieval is the serious simpler alternative and should be used directly. A universal immutable archive or one shared ontology does not by itself answer authorized access, correction or disposal. The selected method follows the actual institutional use and its rule rather than choosing one storage architecture.
+Use an existing case database directly when its history and retrieval are adequate for the required uses. A universal immutable archive or one shared ontology does not by itself answer authorized access, correction or disposal. The selected method follows the actual institutional use and its rule rather than choosing one storage architecture.
 
 Reopen the affected arrangement when its legitimate use, governing restriction, source interpretation or recovery capability changes. The worked examples are stipulated record situations, not jurisdictional advice or measured evidence of a particular system's superiority.
 
 ### ADM.13:12 - Relations
 
-ADM.2–4 establish the relevant relation, time and participant account; ADM.7 supplies a needed evidence check. ADM.9–10 distinguish actual provision from the recorded account. ADM.6 returns an unresolved restriction or authority question to its competent source.
+ADM.2–ADM.4 establish the relevant relation, time and participant account; ADM.7 supplies a needed evidence check. ADM.9–ADM.10 distinguish actual provision from the recorded account. ADM.6 returns an unresolved restriction or authority question to its competent source.
 
 ADM.5 specifies what an ordinary case returns, and ADM.16 preserves required records during transition. [FPF A.10][A10] supplies source-to-use recovery; [SIE.4 through SIE.6][SIE] supplies unresolved meaning or identity work; [SYSE.29][SYSE] supplies the technical provision-retirement question.
 
@@ -2194,9 +2194,9 @@ ADM.5 specifies what an ordinary case returns, and ADM.16 preserves required rec
 
 Use this pattern when an administrative check or restriction is disputed, ineffective or burdensome, and its purpose, governing requirement, competent owner or remedy is unclear. A mandatory field may reject legitimate requests while failing to prevent the problem it was meant to address.
 
-Start with the action the control checks or prevents and the condition that justifies doing so. The first useful result is a defensible connection from the institutional requirement to the needed claim, qualified check, deciding authority and usable failure response, or an exact missing contribution.
+Start with the action the control checks or prevents and the condition that justifies doing so. The first useful result is a defensible connection from the institutional requirement to the needed claim, qualified check, deciding authority and usable failure response, or a missing contribution.
 
-Apply an adequate existing control directly in a case through ADM.7–8. Do not redesign it for every request. A costly or inconvenient control is not thereby invalid, and discovering a questionable requirement does not authorize the handler to suspend it.
+Apply an adequate existing control directly in a case through ADM.7–ADM.8. Do not redesign it for every request. A costly or inconvenient control is not thereby invalid, and discovering a questionable requirement does not authorize the handler to suspend it.
 
 ### ADM.14:1 - Problem frame
 
@@ -2254,15 +2254,15 @@ Specify what the handler or mechanism returns when the condition is satisfied, c
 
 For each failure or uncertainty, name the permitted correction, competent review, existing alternative or reasoned refusal. A technical block should affect the dependent action; it need not cancel an unrelated permitted inquiry or evidence-recovery request.
 
-Connect the returned reason to the source and condition the participant can act on. “Rejected by validation” is insufficient when the participant needs to correct a specific mismatch or challenge the relevant rule. ADM.6–8 supply the case-level resolution, check and permission uses.
+Connect the returned reason to the source and condition the participant can act on. “Rejected by validation” is insufficient when the participant needs to correct a specific mismatch or challenge the relevant rule. ADM.6–ADM.8 supply the case-level resolution, check and permission uses.
 
 #### ADM.14:4.5 - Compare and authorize a change to the right contribution
 
-Compare retaining the current arrangement with the material feasible alternative: clarify a response, reuse an adequate result, change the qualified test or its placement, repair implementation, or ask the authorized rule owner to revise the requirement.
+Compare retaining the current arrangement with relevant feasible alternatives, such as clarifying a response, reusing an adequate result, changing the qualified test or its placement, repairing implementation, or asking the authorized rule owner to revise the requirement.
 
 Keep protected conditions visible before weighing optional speed or cost. Include false rejection, missed violations, unavailable checking, displaced work and recovery where they can alter the choice. ADM.15 supplies the consequence comparison.
 
-Choose the smallest supported change. A correct policy with a defective implementation may need technical repair; a genuinely obsolete policy needs its authorized revision. A proposal or committee discussion does not establish adoption. A case handler uses the current applicable rule or an actual authorized exception while that decision remains open.
+Choose the change justified by that comparison. A correct policy with a defective implementation may need technical repair; an obsolete policy needs its authorized revision. A proposal or committee discussion does not establish adoption. A case handler uses the current applicable rule or an actual authorized exception while that decision remains open.
 
 #### ADM.14:4.6 - Exercise the changed control in its receiving use
 
@@ -2328,13 +2328,13 @@ The working question is how a control remains justified and usable as the admini
 
 [OASIS XACML 3.0][XACML]'s decision/enforcement distinction is a bounded technical comparison. It helps keep an unresolved or inapplicable outcome separate from the policy that governs the response; it does not determine a local requirement or turn an enforcement operation into an institutional duty.
 
-An adequate existing rule and qualified check are the strongest simpler alternative and should be applied. Adding another approval or a more elaborate technical block fails when the actual defect is wrong claim correspondence or missing remedy. Sections 4.1–4.5 therefore locate the governed contribution before choosing a repair.
+Use an adequate existing rule and qualified check directly. Adding another approval or a more elaborate technical block fails when the actual defect is wrong claim correspondence or missing remedy. Sections 4.1–4.5 therefore locate the governed contribution before choosing a repair.
 
 Reopen the affected arrangement when the protected condition, rule, capable source, test applicability, implementation or observed consequences change. The constructed cases demonstrate the distinctions; they do not establish an empirical false-acceptance rate.
 
 ### ADM.14:12 - Relations
 
-ADM.7 applies the established check to a case, ADM.8 supplies its actual permission question and ADM.6 returns a genuine unresolved condition. ADM.13 retains the grounds needed for explanation and correction.
+ADM.7 applies the established check to a case, ADM.8 supplies its actual permission question and ADM.6 returns an unresolved condition. ADM.13 retains the grounds needed for explanation and correction.
 
 [SYSE.9][SYSE] qualifies a needed specialist contribution and [SYSE.28][SYSE] places a supplied control. ADM.15 supplies the administrative consequence question, ADM.5 updates the affected handling instruction, and ADM.16 governs an authorized transition.
 
@@ -2498,7 +2498,7 @@ The observer can also collect excessive detail or convert every uncertainty into
 
 The decision maker can retain an observed benefit, correct a specific loss and limit an unsupported claim without treating the whole service as one success or failure. Participant effort and unresolved outcomes become visible where they affect the choice.
 
-The cost is reconstructing a sufficient observation boundary and, sometimes, obtaining qualified correctness evidence. The result can remain partial. A truthful bounded comparison is more useful than a precise aggregate that answers another question.
+The cost is reconstructing a sufficient observation boundary and, sometimes, obtaining qualified correctness evidence. The result can remain partial. A bounded comparison is more useful than a precise aggregate that answers another question.
 
 ### ADM.15:10 - Architectural Rationale
 
@@ -2510,13 +2510,13 @@ The working question is whether an administrative arrangement supplies its insti
 
 The selected method uses [OPS.12 through OPS.15][OPS] for burden, commitments, financial comparison and observation, together with [OCE.13][OCE] for bounded consequence claims and actual causal-use limits. The TameFlow sources contribute through those qualified operational instructions rather than a universal profit or single-metric rule.
 
-A dashboard of completed requests is the serious cheaper alternative and can answer a completed-request question. It fails for the broader service when entry failures, mistaken refusals or shifted effort change the decision. Sections 4.1–4.5 therefore preserve the actual population and unlike consequences. The [2025 shared-service cost review's author-institution abstract][SSC] also cautions against a general cost-reduction conclusion from weak or unclear company-wide baselines; its full article is not used here.
+A dashboard of completed requests can suffice for a completed-request question. It fails for the broader service when entry failures, mistaken refusals or shifted effort change the decision. Sections 4.1–4.5 therefore preserve the actual population and unlike consequences. The [2025 shared-service cost review's author-institution abstract][SSC] also cautions against a general cost-reduction conclusion from weak or unclear company-wide baselines; its full article is not used here.
 
 Reopen only the affected comparison when the rule, population, service boundary, evidence or receiving decision changes. The constructed counts and estimates demonstrate interpretation; they do not establish organizational effectiveness.
 
 ### ADM.15:12 - Relations
 
-ADM.1 distinguishes the enabled work and administrative condition. ADM.7–10 supply relevant correctness, permission, effect and reconciliation results, while ADM.13 keeps needed grounds recoverable.
+ADM.1 distinguishes the enabled work and administrative condition. ADM.7–ADM.10 supply relevant correctness, permission, effect and reconciliation results, while ADM.13 keeps needed grounds recoverable.
 
 [OPS.12 through OPS.15][OPS] and [OCE.13][OCE] supply the actual consequence and measurement instructions. The authorized owner uses the resulting evidence to repair a control through ADM.14, a provider join through ADM.11 or a selected arrangement through ADM.16.
 
@@ -2564,7 +2564,7 @@ Training and publication can create a further illusion. Staff have received the 
 
 #### ADM.16:4.1 - State what could change the continuation decision
 
-Recover the current arrangement, observed consequences, relevant commitments and protected conditions. Use ADM.14–15 results when they answer the live control or consequence question.
+Recover the current arrangement, observed consequences, relevant commitments and protected conditions. Use ADM.14–ADM.15 results when they answer the live control or consequence question.
 
 Compare retention with the material feasible change. If the current arrangement already meets the relevant conditions and the proposed gain does not warrant its burden, the authorized decision maker can retain it on adequate existing evidence. Do not commission a new trial merely to justify continuing what is already supported.
 
@@ -2576,7 +2576,7 @@ Identify the materially different open and foreseeable case groups, active grant
 
 For each action-changing group, recover the old conditions, intended new result, relevant authority and the fact that will determine its treatment. Preserve an unknown cohort classification when that determining fact is unavailable.
 
-Use ADM.2–3 for a live relation or effectivity question and ADM.13 for required record use. An inventory label is not evidence that a grant expired, an obligation ended or a disputed claim was resolved.
+Use ADM.2–ADM.3 for a live relation or effectivity question and ADM.13 for required record use. An inventory label is not evidence that a grant expired, an obligation ended or a disputed claim was resolved.
 
 #### ADM.16:4.3 - Obtain the competent transition decision
 
@@ -2594,7 +2594,7 @@ Use [SYSE.29][SYSE] when technical provision changes or is retired. Retaining an
 
 Explain the change where participants act. Give the applicable instruction, the fact that selects it and the competent support return. A notice or training invitation does not supply the new provider capability.
 
-Preserve independent unaffected work. For an uncertain payment or other consequential effect, recover what already occurred through ADM.9–10 before repeating, converting or discarding the attempt.
+Preserve independent unaffected work. For an uncertain payment or other consequential effect, recover what already occurred through ADM.9–ADM.10 before repeating, converting or discarding the attempt.
 
 #### ADM.16:4.5 - Establish the receiving use and its important failure branch
 
@@ -2602,19 +2602,19 @@ For an actual transition into changed provision, perform the bounded trial or cl
 
 The receiving participant must obtain the promised condition; a successful conversion job alone is insufficient. Identify the observation that would stop expansion or require repair, and who can authorize the corresponding continuation.
 
-When the remaining question concerns staff handling the administrative cases independently or retaining that ability later, name the handling practice, staff, applicable rule and interval. State the behavior the evidence must establish: correct ordinary disposition, recognition of the relevant legitimate exception, and return of a genuine unresolved condition to its competent owner.
+When the remaining question concerns staff handling the administrative cases independently or retaining that ability later, name the handling practice, staff, applicable rule and interval. State the behavior the evidence must establish: correct ordinary disposition, recognition of the relevant legitimate exception, and return of an unresolved condition to its competent owner.
 
 Reuse adequate existing observations within their scope. Select a new observation only when its attainable result could change the decision or warranted claim enough to justify the work and burden. Publication, attendance and coached performance retain their actual evidence value; they do not automatically establish independent later handling or a causal improvement.
 
 Here the named population and interval, independent-use evidence, supported continuation and selective inquiry are an administrative adaptation of [FPF C.36.MC](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36mc---qualify-and-develop-a-method-culture) §§4.1 and 4.4. C.36.MC itself governs Method Engineering practice. Use it directly when the question concerns how method engineers transmit or retain their practice of constructing, checking or revising methods; apply the administrative instruction above to staff handling the cases.
 
-#### ADM.16:4.6 - Complete the selected scope and retain honest residual work
+#### ADM.16:4.6 - Complete the selected scope and state what remains
 
 Apply the authorized disposition to each materially different remaining use: continued bounded support, qualified transfer, an adequate outside result or an authorized end with its consequences understood.
 
 Separate cessation of new requests, withdrawal of a served interface, ending an undertaking, restricting access and disposing of records. ADM.13 supplies the record-use question. A disabled button or quiet queue does not establish that every obligation and historical use has ended.
 
-Return the actual completed change, supported continued uses, unresolved cases and next responsible action. Reopen the smallest affected condition when later evidence defeats the transition basis. A remaining local gap need not invalidate unaffected provision, but it must not be reported as completed migration.
+Return the actual completed change, supported continued uses, unresolved cases and next responsible action. Reopen the affected conditions when later evidence defeats the transition basis. A remaining local gap need not invalidate unaffected provision, but it must not be reported as completed migration.
 
 ### ADM.16:5 - Archetypal Grounding
 
@@ -2655,13 +2655,13 @@ If the present decision only concerned the two already supported handlers, the n
 
 Change advocates can privilege the new arrangement's visible users and overlook old cases, disputes or infrequent recovery. Defenders of the old arrangement can treat every reference to it as a live dependency. Recover the actual use and its governing condition.
 
-The pattern also guards against treating staff compliance or repeated use as proof of independent understanding. Name the behavior, population and interval the evidence actually covers.
+Do not infer independent understanding from staff compliance or repeated use alone. Name the behavior, population and interval the evidence actually covers.
 
 ### ADM.16:7 - Conformance Checklist
 
 **Recognition.** The result identifies retention or the actual changed object, the competent decision, affected case conditions, executable provider actions and residual uses. It distinguishes proposal, authorization, performance and later evidence.
 
-**Assurance for reliance.** Apply the transition to the relevant old, new, permitted-variant and unresolved-effect cases. Establish actual receiving use and the recovery boundary required by the selected change. For an independent-handling or retention claim, use observations that test that claim in the named population and interval; reuse adequate current evidence without manufacturing another experiment.
+**Assurance for reliance.** Apply the transition to the relevant old, new, permitted-variant and unresolved-effect cases. Establish actual receiving use and the recovery boundary required by the selected change. For an independent-handling or retention claim, use observations that test that claim in the named population and interval; reuse adequate current evidence.
 
 ### ADM.16:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -2689,13 +2689,13 @@ The selected synthesis uses the actual-use, coexistence, receiving-result and re
 
 [FPF C.36.MC](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36mc---qualify-and-develop-a-method-culture) supplies source distinctions about a bounded population and interval, independent-use evidence, sufficient continuation and worthwhile inquiry. Section 4.5 adapts them to administrative case handling under the governing rule; C.36.MC's full method remains a direct return for a Method Engineering practice question. The adaptation preserves the limits on claims of later retention or causal improvement.
 
-A retained arrangement with adequate current evidence is the strongest simpler alternative. A one-date cutover can also suffice when its actual conditions cover every affected use. It fails when authorization dates, valid elections, unresolved effects or record duties still distinguish cases; §§4.2–4.6 preserve those differences.
+Retaining the arrangement can suffice on adequate current evidence. A one-date cutover can also suffice when its actual conditions cover every affected use. It fails when authorization dates, valid elections, unresolved effects or record duties still distinguish cases; §§4.2–4.6 preserve those differences.
 
 The historical TameFlow contributions are reused through qualified operations instructions, including revisable readiness and commitments. No universal meeting rule, irreversible commitment or untested cultural effect is adopted. Reopen the affected decision when the rule, population, evidence, capability or actual transition consequence changes.
 
 ### ADM.16:12 - Relations
 
-ADM.14–15 supply control and consequence questions; ADM.2–3 establish relevant participants and effectivity. ADM.5 carries the changed reusable instruction, ADM.11 connects providers, and ADM.13 preserves required record uses. ADM.6–10 continue individual cases under their actual conditions.
+ADM.14–ADM.15 supply control and consequence questions; ADM.2–ADM.3 establish relevant participants and effectivity. ADM.5 carries the changed reusable instruction, ADM.11 connects providers, and ADM.13 preserves required record uses. ADM.6–ADM.10 continue individual cases under their actual conditions.
 
 [SYSE.29][SYSE] governs technical transition and retirement; [SYSE.24][SYSE] answers a still-open complete obtaining choice. [FPF A.3.1.MV](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31mv---construct-and-maintain-a-method-variant) supplies the actual method-variant question. Section 4.5 adapts selected [FPF C.36.MC](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36mc---qualify-and-develop-a-method-culture) distinctions to administrative independent handling; direct C.36.MC use concerns Method Engineering practice. These contributions leave the institutional transition decision with its competent owner.
 
@@ -2705,7 +2705,7 @@ ADM.14–15 supply control and consequence questions; ADM.2–3 establish releva
 
 ## ADM.Sources:1 - Edition, external source states and refresh
 
-This is the first edition of the **Organization Administration Principles Framework**, with reference code **ADM** and fifteen patterns: ADM.1–11 and ADM.13–16. It offers prospective practitioner guidance for administrative conditions, cases and arrangements under the actual rules of the organization. Its constructed cases explain the instructions; claims about a particular service's effectiveness require that service's evidence.
+This is the first edition of the **Organization Administration Principles Framework**, with reference code **ADM** and fifteen patterns: ADM.1–ADM.11 and ADM.13–ADM.16. It offers prospective practitioner guidance for administrative conditions, cases and arrangements under the actual rules of the organization. Its constructed cases explain the instructions; claims about a particular service's effectiveness require that service's evidence.
 
 Cite the framework name, release date and PatternID when the wording or source basis matters. A pattern address continues across editions only while its practical answer continues. The ToC's Part and position locate the current presentation.
 
@@ -2732,7 +2732,7 @@ ADM relies on the cited FPF relation, permission, evidence and structure distinc
 | [Systems Engineering (SYSE)][SYSE] | `d82c411414e50a001fa9f018b1b8c1039e701435e8cf1b6d8242b229ffed7b87` |
 | Method Engineering (historical source state) | `c7f791f9f6f7ef9899f287335204a2727e35a4bf4a54b611e174c9f79dd5076c` |
 
-A changed source file calls for comparison of the relied-on sections. Unchanged contributions remain usable within their conditions. If a needed external instruction or its source cannot be recovered, retain the exact missing contribution and continue only the questions that do not depend on it. A citation supplies neither the organization's rule nor permission to act.
+A changed source file calls for comparison of the relied-on sections. Unchanged contributions remain usable within their conditions. If a needed external instruction or its source cannot be recovered, retain the missing contribution and continue only the questions that do not depend on it. A citation supplies neither the organization's rule nor permission to act.
 
 Revisit an affected pattern when a real use exposes an unclear action, a missed case, unsupported evidence or an excessive burden. Revisit the connected explanation when an individual result no longer supports the next question it promises to answer. A changed source meaning, organizational rule, population or operating condition reopens only the claims that depend on it. The relevant pattern's source return and stopping conditions identify the first place to work.
 
@@ -2746,24 +2746,24 @@ The following source arguments shaped the working distinctions. The constructed 
 
 The dated laboratory transcripts and ADM-Lab synthesis are working source materials with no public full-text return supplied in this edition. The following accounts give their selected contributions, original locators and limits; the receiving ADM instructions are available in this publication.
 
-- **Administration laboratory, 1 July 2023.** The transcript, especially 11:56–14:59 and 20:37–30:49, distinguishes the journey, work at the destination and administrative case; 30:52–42:21 develops participant and payment descriptions. ADM.1 and ADM.4 retain the subject and participant distinctions; ADM.9–10 connect them to usable provision and reconciliation. Reported situations and proposed ontologies do not establish universal administrative laws.
-- **Administration laboratory, 27 May 2023.** The transcript, especially 14:53–19:40, 49:40–64:24 and 69:14–77:50, connects controls to their purpose, distinguishes relation state from records, and examines usable provision. ADM.2–3 retain the action-changing rule and record distinctions; ADM.6–9 apply the competent-check, permission and usable-provision questions. The T+N discussion at 69:14–77:50 supplies ADM.15's qualified elapsed-delay question.
-- **Administration laboratory, 17 June 2023.** The transcript, especially 44:18–56:43 and 62:15–78:22, separates developing a service from using it and connects substantive judgments, execution and exception resolution. This supports the Architectural Reference's design/handling distinction, ADM.2's competent return and ADM.5–6's reusable instruction and exception resolution. ADM.11 and ADM.13–16 extend the corresponding provider, record, control and transition questions.
+- **Administration laboratory, 1 July 2023.** The transcript, especially 11:56–14:59 and 20:37–30:49, distinguishes the journey, work at the destination and administrative case; 30:52–42:21 develops participant and payment descriptions. ADM.1 and ADM.4 retain the subject and participant distinctions; ADM.9–ADM.10 connect them to usable provision and reconciliation. Reported situations and proposed ontologies do not establish universal administrative laws.
+- **Administration laboratory, 27 May 2023.** The transcript, especially 14:53–19:40, 49:40–64:24 and 69:14–77:50, connects controls to their purpose, distinguishes relation state from records, and examines usable provision. ADM.2–ADM.3 retain the action-changing rule and record distinctions; ADM.6–ADM.9 apply the competent-check, permission and usable-provision questions. The T+N discussion at 69:14–77:50 supplies ADM.15's qualified elapsed-delay question.
+- **Administration laboratory, 17 June 2023.** The transcript, especially 44:18–56:43 and 62:15–78:22, separates developing a service from using it and connects substantive judgments, execution and exception resolution. This supports the Architectural Reference's design/handling distinction, ADM.2's competent return and ADM.5–ADM.6's reusable instruction and exception resolution. ADM.11 and ADM.13–ADM.16 extend the corresponding provider, record, control and transition questions.
 - **ADM-Lab source pack v0.1, 15 July 2026.** The synthesis, especially §§13–21 and 23–27, qualifies the earlier discussions. Section 15 supports the same-subject/participant-account comparison; §§20.1–20.2 propose the T+N delay question and qualify speed by reliability and participant burden. ADM.15 uses OPS.15:4.2–4.3 to make the selected start, usable end, source and time uncertainty recoverable. This is a dependent synthesis and authorial clarification, not independent corroboration.
 
 ## ADM.Sources:3 - Accounting representations and TameFlow
 
 - **Partridge and colleagues, Thoroughly Modern Accounting: Shifting to a de re Conceptual Pattern for Debits and Credits, 2018.** Published in *Advances in Conceptual Modeling, ER 2018*, LNCS 11158, pp. 134–148; [public bibliographic record and abstract][PARTRIDGE-A], DOI 10.1007/978-3-030-01391-2_20. The consulted preprint, PDF pp. 9–10 and 13–14, figures 7–8, supports the comparison of participant-relative and common representations and transaction direction. ADM.4 and ADM.10 adapt the representational contribution after event identity is established, while fulfillment remains governed by the actual obligation. The record identifies the work; its full-text download is restricted.
 - **Partridge and colleagues, Ontology then Agentology, 2018.** The [paper][PARTRIDGE-B], especially PDF pp. 5–8, table 2 and figures 2–4, distinguishes the common represented subject from an actor's position and meaning. ADM.2 and ADM.4 retain the useful correspondence. The conceptual examples do not establish empirical superiority of one database or require adopting the complete source ontology.
-- **Tendon and Doiron, Tame your Work Flow, 2020; Tendon, The Book of TameFlow, version 17 January 2022.** The consulted 2020 book, chapters 6–8 and 21, and the consulted 2022 book, chapters 15–16 and chapter 17 pp. 267–276, supply historical operating arguments about readiness, commitment, financial contribution and recurring problems. ADM.11 and ADM.15–16 use the qualified OPS instructions rather than universal single-metric, fixed-cost or cultural-effect claims. [OPS.14 through OPS.15][OPS] supply the financial comparison and observation methods used here. Public returns are the publisher's [Tame your Work Flow catalogue page](https://leanpub.com/workflow) and [The Book of TameFlow page](https://leanpub.com/tameflow). The first is retired from sale; the second presents the continuing edition. These pages identify the works; the chapter and page locators above refer to the consulted editions.
+- **Tendon and Doiron, Tame your Work Flow, 2020; Tendon, The Book of TameFlow, version 17 January 2022.** The consulted 2020 book, chapters 6–8 and 21, and the consulted 2022 book, chapters 15–16 and chapter 17 pp. 267–276, supply historical operating arguments about readiness, commitment, financial contribution and recurring problems. ADM.11 and ADM.15–ADM.16 use the qualified OPS instructions rather than universal single-metric, fixed-cost or cultural-effect claims. [OPS.14 through OPS.15][OPS] supply the financial comparison and observation methods used here. Public returns are the publisher's [Tame your Work Flow catalogue page](https://leanpub.com/workflow) and [The Book of TameFlow page](https://leanpub.com/tameflow). The first is retired from sale; the second presents the continuing edition. These pages identify the works; the chapter and page locators above refer to the consulted editions.
 
 ## ADM.Sources:4 - Bounded current comparisons
 
 [GOV.UK's Service Standard, point 2][GOVUK] supplies the whole-problem service comparison used in ADM.1 and ADM.11. Its user-problem boundary is useful here; it does not establish the authority, applicability or outcome of a local administrative service.
 
-[NIST SP 800-63-4, Digital Identity Guidelines, July 2025][NIST], particularly its digital-identity model and Redress section, distinguishes identity proofing, authentication and federation and supplies bounded issue-handling and correction guidance. ADM.2 and ADM.6–7 retain the distinction between the needed identity result and a separate eligibility or permission condition. The federal digital-identity scope does not determine local entitlement.
+[NIST SP 800-63-4, Digital Identity Guidelines, July 2025][NIST], particularly its digital-identity model and Redress section, distinguishes identity proofing, authentication and federation and supplies bounded issue-handling and correction guidance. ADM.2 and ADM.6–ADM.7 retain the distinction between the needed identity result and a separate eligibility or permission condition. The federal digital-identity scope does not determine local entitlement.
 
-[OMG CMMN 1.1, 2016][CMMN], §§4.1–4.3, supplies the case-outcome, information and model/execution comparison used in ADM.5–6. It does not supply institutional authority or imply CMMN conformance here.
+[OMG CMMN 1.1, 2016][CMMN], §§4.1–4.3, supplies the case-outcome, information and model/execution comparison used in ADM.5–ADM.6. It does not supply institutional authority or imply CMMN conformance here.
 
 [OASIS XACML 3.0, 2013][XACML], terminology and §7.2, supplies the policy-decision/enforcement comparison in ADM.8 and ADM.14. Its enforcement obligations are operations within that architecture; they are not imported as general legal duties.
 
