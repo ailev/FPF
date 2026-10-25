@@ -6,7 +6,7 @@ Edition: [Community Management — Participation and practice-support edition](#
 
 # Table of Contents
 
-CB is this framework's reference code; its numeric local locators give CB.1–16. The § column gives publication position. Part order helps retrieval and does not prescribe use order. Dependencies name contributions needed under the conditions stated in the bodies.
+CB is this framework's reference code; its numeric local locators give CB.1–CB.16. The § column gives publication position. Part order helps retrieval and does not prescribe use order. Dependencies name contributions needed under the conditions stated in the bodies.
 
 | Unit | Reader use |
 | --- | --- |
@@ -73,7 +73,7 @@ CB is this framework's reference code; its numeric local locators give CB.1–16
 
 Use this framework when people need useful participation, relationships or joint contributions: help one another, take part in a valued activity, keep shared work feasible, or make their experience useful elsewhere. A community organiser, participant, practitioner, sponsor or assisting agent can enter at the difficulty already present. When the proposed community is meant to support a wider cultural purpose, CB.1 also helps decide whether that purpose needs a community contribution at all.
 
-These are selected examples, not a catalogue or a coverage boundary. Bring the actual question to the [Table of Contents](#table-of-contents) when none fits. Open a pattern's Problem frame, then its Solution and worked case. You can ask an assisting agent: “Explain this and give me your comments in ordinary language, without framework jargon.”
+These are selected examples. Bring the actual question to the [Table of Contents](#table-of-contents) when none fits. Open a pattern's Problem frame, then its Solution and worked case. You can ask an assisting agent: “Explain this and give me your comments in ordinary language, without framework jargon.”
 
 ### OFFER — Choose what would help
 
@@ -101,7 +101,7 @@ These are selected examples, not a catalogue or a coverage boundary. Bring the a
 
 ## How to use the language
 
-Use the method that answers your present difficulty. Choose the smallest contribution that can answer the situation, obtain its real inputs, perform the relevant work, and inspect what reached the intended person or action. The [Architectural Reference](#community-management-principles-framework-architectural-reference) explains how to connect methods and why the alternatives matter. The [Applications](#applications) show complete constructed uses across unlike settings.
+Use the method that answers your present difficulty. Choose a contribution that can answer the situation with the available skills, time and means, and whose total burden is acceptable to those undertaking it. Obtain its real inputs, perform the relevant work, and inspect what reached the intended person or action. The [Architectural Reference](#community-management-principles-framework-architectural-reference) explains how to connect methods and why the alternatives matter. The [Applications](#applications) show complete constructed uses across unlike settings.
 
 The four Parts group related questions for finding them. They are not stages that every community must traverse. You can begin with a resource dispute, an incident, a missing contribution or a useful existing practice. Follow another pattern when you need its result. Permission refused, unavailable expertise or a burden that nobody accepts can stop the proposed action.
 
@@ -133,7 +133,7 @@ Evidence also has a cost. A returned account of one application may reveal a rep
 
 ## CB.Reference:3 - Connect the methods through the contribution needed next
 
-Start from the working question and use any relevant results already obtained elsewhere. The following connections explain common choices; they do not prescribe a universal workflow.
+Start from the working question and use any relevant results already obtained elsewhere. The following connections explain common choices.
 
 [CB.1](#cb1---choose-a-useful-cultural-or-community-contribution) compares possible contributions and makes a credible offer. When mutual help is selected, [CB.2](#cb2---arrange-the-first-useful-exchanges) arranges a finishable exchange and obtains the recipient's account of its use. If the central contribution repeatedly cannot be obtained, reconsider the offer before recruiting more people. If the selected route is independent learning or a qualified service, obtain those contributions directly.
 
@@ -159,13 +159,13 @@ These alternatives can be combined within one person's changing participation. S
 
 For example, a capable AI may already perform a selected contribution, while a person needs an explanation, a permitted tool or a professional service rather than learning that performance themselves. Obtain the missing contribution through its actual Method and provider. Use HCD when a human capability is the intended result. Use CB when participation or a joint contribution still needs arranging. C.36.RP keeps the wider acquisition, provision and renewal question available when no such participation is needed.
 
-The language therefore starts from the receiving situation rather than a platform, a membership target or one inherited community model. It retains the useful organising repertoire found in practitioner sources while asking what each move contributes. Communities of practice supply powerful forms for joint learning and stewardship, yet learning together does not define every community or every cultural intervention. Business community methods supply purpose, provision and early organising constructions, while participants' own purposes and voluntary terms remain explicit.
+The language therefore starts from the receiving situation rather than a platform, a membership target or one inherited community model. It retains the useful organising repertoire found in practitioner sources while asking what each move contributes. Communities of practice supply forms for joint learning and stewardship, yet learning together does not define every community or every cultural intervention. Business community methods supply purpose, provision and early organising constructions, while participants' own purposes and voluntary terms remain explicit.
 
-This organization accepts some additional inquiry before choosing a format. It avoids committing people to recurring interaction when an adequate reference or individual service would suffice, and avoids publishing a resource as if it could replace the interpretation or relationship people actually need. When a new case defeats those alternatives, return to the particular contribution and its conditions, not to a universal claim that communities should grow or become more active.
+Comparing these alternatives takes some inquiry before choosing a format. It avoids committing people to recurring interaction when an adequate reference or individual service would suffice, and avoids publishing a resource as if it could replace the interpretation or relationship people actually need. When a new case defeats those alternatives, return to the particular contribution and its conditions.
 
 ## CB.Reference:5 - The work being performed, and the support it needs
 
-A method in this book often describes a constituent of larger work. In the repairer application, asking for a discriminating observation is part of a peer exchange; that exchange is part of an attempt to obtain a diagnostic continuation; and the repairer's diagnostic work serves an actual customer's maintenance need. The customer commitment changes the peer exchange while it is happening. If the answer must be accountable and available within an hour, an optional evening group cannot carry that demand.
+An action guided by a method in this book can be a constituent of larger work. In the repairer application, asking for a discriminating observation is part of a peer exchange; that exchange is part of an attempt to obtain a diagnostic continuation; and the repairer's diagnostic work serves an actual customer's maintenance need. The customer commitment changes the peer exchange while it is happening. If the answer must be accountable and available within an hour, an optional evening group cannot carry that demand.
 
 Another condition can change the constituent action without changing its conversational form. When the needed equipment record is confidential, the case owner first obtains permission or prepares a sufficient shareable case. A facilitator can support clarification but cannot replace the practitioner competent to interpret the observation. If that intermediate competence is absent, an orderly conversation still cannot produce the promised technical result.
 
@@ -198,13 +198,13 @@ Whose account is easiest to hear can bias the result. Include a consequential mi
 
 ## CB.Reference:7 - What this publication preserves and where to return
 
-This publication selects sixteen recurring problems of community work and its cultural contributions and develops methods for answering them. The complete bodies preserve their recognition conditions, construction, alternatives, worked cases, costs and return conditions. The ToC compresses each to a search row; the Readme compresses selected uses to entry guidance; the Architectural Reference explains connections. None of these compressed forms replaces the body needed to perform or adapt a method.
+This framework develops methods for sixteen recurring problems of community work and its cultural contributions. Use a method’s body to recover its recognition conditions, construction, alternatives, worked cases, costs and return conditions. The ToC compresses each to a search row; the Readme compresses selected uses to entry guidance; the Architectural Reference explains connections.
 
 The source basis combines practitioner community-building accounts, the communities-of-practice repertoire, conceptual distinctions about culture and communities, bounded research contributions, and current FPF and domain-method suppliers. The [source-use account](#cbsources1---source-use-and-limits) states what was adopted, adapted or bounded and which changes would reopen it. Each body's SoTA-Echoing section gives the closer comparison and source return.
 
 The framework deliberately leaves the full history and vocabulary of each source, platform-specific implementation, the complete professional methods used by a community, and the full learning, research or commercial product outside this edition. It also coarsens variation across local cultures and institutions. Return to the original source for a claim about its evidence or broader theory; to the domain supplier for work requiring its full method; and to the people and conditions of use before applying a general example as a local arrangement.
 
-Unresolved use, repeated misunderstanding, changed provision or new source evidence should reopen the smallest affected method or relation. Inspect a proposed repair through the actual work and recipient result, including a contrasting condition that could defeat it. Wider causal or general effectiveness claims require further inquiry. The [renewal route](#cbreference9---renew-the-affected-contribution) keeps that work distinct from changing a link, publishing an edition or continuing the activity itself.
+Unresolved use, repeated misunderstanding, changed provision or new source evidence should reopen the affected methods and relations, including connected conditions that must change together. Inspect a proposed repair through the actual work and recipient result, including a contrasting condition that could defeat it. Wider causal or general effectiveness claims require further inquiry. The [renewal route](#cbreference9---renew-the-affected-contribution) keeps that work distinct from changing a link, publishing an edition or continuing the activity itself.
 
 ## CB.Reference:8 - Actual supplier returns
 
@@ -213,16 +213,16 @@ Use the external contribution when the receiving question requires it. The cited
 | Receiving difficulty | Contribution to obtain and its direct supplier |
 | --- | --- |
 | The community is intended to support continuing development rather than only repeated participation | [FPF C.40.OCN](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c40ocn---construct-a-bounded-opportunity), [FPF C.40.OD](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c40od---construct-and-continue-open-ended-development) and [STR.16](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/STRATEGY-PRINCIPLES-FRAMEWORK.md#str16---construct-a-feasible-portfolio-with-shared-or-branch-specific-support) supply the development opportunity, connected undertaking and joint-portfolio Methods. CB supplies the participation, contributions and shared repertoire needed by that use; development of the community, its provider and a participant remain different questions. |
-| A proposed cultural intervention confuses transmission, performance, retention or renewal | [FPF C.36](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36---cultural-evolution-and-cultural-evolution-engineering) supplies the cultural distinctions. [FPF C.36.RP](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36rp---sustain-and-renew-shared-ways-of-working) develops availability, acquisition, use and renewal of a shared way, including across independent carriers. CB.1 compares a community contribution with alternatives; CB.11/14 apply their own continuation and repertoire constructions. |
+| A proposed cultural intervention confuses transmission, performance, retention or renewal | [FPF C.36](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36---cultural-evolution-and-cultural-evolution-engineering) supplies the cultural distinctions. [FPF C.36.RP](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36rp---sustain-and-renew-shared-ways-of-working) develops availability, acquisition, use and renewal of a shared way, including across independent carriers. CB.1 compares a community contribution with alternatives; CB.11 and CB.14 apply their own continuation and repertoire constructions. |
 | The proposed community benefit lacks a serious alternative or supporting conditions | [STR.5](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/STRATEGY-PRINCIPLES-FRAMEWORK.md#str5---generate-strategic-directions) develops comparison of useful contributions and provision. CB.1 applies that construction to the cultural or community offer. |
 | Work, help, access or authority is inferred from a role name | [OCE.2](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce2---recover-current-organization-work-and-arrangement) recovers the actual work and relations. [OCE.11 (OCE.11:4)](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce114---solution) arranges coexistence with continuing service; [LDR.1:4.4](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/LEADERSHIP-PRINCIPLES-FRAMEWORK.md#ldr144---perform-the-smallest-sufficient-working-conversation) supplies working conversations; [OCE.14 (OCE.14:4)](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce144---solution) revises an established organizational arrangement from qualified results. CB.13 obtains an initial or renewed common mandate when that is missing. |
 | A person needs to acquire a practice or receive useful learning support | [HCD.5](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd5---select-human-capability-development-methods) and [HCD.6](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd6---design-representative-practice-tasks) supply method selection, representative practice and feedback; [HCD.7](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd7---arrange-providers-access-tools-and-ai-support-for-human-capability-development) and [HCD.8](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd8---obtain-or-build-missing-human-capability-development-support-with-bounded-recursion) help obtain providers, access and missing learning support. [HCD.2](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd2---compose-and-compare-human-capability-development-programmes-for-later-work) compares programmes for a particular person. A complete service may also need SYSE contributions. |
 | A teaching publication in Guide or Slidement form is being produced | Learning Product LPF is a separate Russian-language local practice framework for producing those formats. This publication does not supply its text. Obtain the text and relevant production practice separately; if they are unavailable, that teaching-publication contribution remains unprovided. HCD's learning-method and support contributions remain available for other parts of the arrangement. |
 | A practice is known but poorly expressed, or a new method claim must be developed | [Core Method-development patterns (FPF.Reference:16.7)](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#fpfreference167---develop-and-use-methods-with-distinct-claims-and-results) supply recovery, description, development, trial, adaptation and maintenance. [RMP.1 (RMP.1:4)](https://github.com/ailev/FPF/blob/main/DPFs/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp14---solution) distinguishes sufficient existing knowledge from a research need. CB.14 organises the practitioners' contribution and its use; it does not replace those methods. |
 | A community promise exceeds capable time, access or funding | [OPS.5 (OPS.5:4)](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops54---solution) supplies capacity reasoning; OPS.14 handles timing of an actual payment commitment; [MA.1](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma1---build-the-resource-consumption-and-cost-model) and [MA.2](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma2---explain-the-cost-and-use-of-capacity) supply the selected cost object and relevant cost account. CB.9 obtains the actual contributions and terms. |
-| A scarce shared resource requires use and upkeep rules, or a rule must change | [ECO.7](https://github.com/ailev/FPF/blob/main/DPFs/ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco7---coordinate-use-and-renewal-of-a-shared-resource) and [ECO.9](https://github.com/ailev/FPF/blob/main/DPFs/ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco9---decide-whether-and-how-to-change-economic-rules-through-their-working-practices) provide methods for arranging shared use and changing resource rules. CB.8/13 connects them to participation, mandate and correction where those are needed. |
+| A scarce shared resource requires use and upkeep rules, or a rule must change | [ECO.7](https://github.com/ailev/FPF/blob/main/DPFs/ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco7---coordinate-use-and-renewal-of-a-shared-resource) and [ECO.9](https://github.com/ailev/FPF/blob/main/DPFs/ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco9---decide-whether-and-how-to-change-economic-rules-through-their-working-practices) provide methods for arranging shared use and changing resource rules. CB.8 and CB.13 connect them to participation, mandate and correction where those are needed. |
 | A result is used as a causal explanation | [FPF C.28](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---causaluse-cal-causal-use-questions-identification-and-realizability) distinguishes the causal-use question and necessary support; RMP supplies a fitting inquiry when required. CB.10's account of particular value does not replace that work. |
-| A complete service, tool or provider arrangement is missing | [Systems Engineering (SYSE)](https://github.com/ailev/FPF/blob/main/DPFs/Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) provides methods for defining the whole system and choosing how to obtain it. CB.1/9 can identify and arrange the community contribution within that larger provision. |
+| A complete service, tool or provider arrangement is missing | [Systems Engineering (SYSE)](https://github.com/ailev/FPF/blob/main/DPFs/Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) provides methods for defining the whole system and choosing how to obtain it. CB.1 and CB.9 can identify and arrange the community contribution within that larger provision. |
 
 For a reproducible use or comparison, identify the supplying edition or revision actually read. These links provide discovery; the table identifies the relied-on contribution and receiving use. A supplier must still provide the needed result under the conditions of the present work.
 
@@ -234,11 +234,11 @@ A new or unknown professional method, a complete service and a commercial strate
 
 Begin with the changed fact and the use it can defeat. A failed invitation may concern access or wording; repeated inability to obtain qualified help may defeat the offer itself. A disputed incident may require correction of one response, a changed rule or a renewed mandate. New evidence about a professional method can invalidate a repertoire entry while leaving the social connection useful.
 
-Return to the smallest affected source, method or arrangement. Check the proposed change through the receiving work and a consequential contrasting condition. Reuse unchanged contributions whose conditions still hold. Obtain the additional evidence required for any stronger causal, professional or population claim. Changes to representation, common commitments or the right to use resources need the relevant people's decisions as well as a revised description.
+Return to the affected sources, methods or arrangements and reconsider any connections the change puts in question. Check the proposed change through the receiving work and a consequential contrasting condition. Reuse unchanged contributions whose conditions still hold. Obtain the additional evidence required for any stronger causal, professional or population claim. Changes to representation, common commitments or the right to use resources need the relevant people's decisions as well as a revised description.
 
 For a reader relying on this pattern language, repeated failure to obtain its promised contribution puts the affected explanation, example or practical entry in question. A change in the promised field or useful pattern division changes the framework's organization. A changed source or external method first affects its particular adopted contribution and dependent CB uses. A broken link prevents the source return; a repaired link establishes access to text, not the text's adequacy.
 
-Continuity of the language includes a usable return when a published pattern's title, order or interpretation changes. CB.1–16 retain their local addresses within this framework; Part and section positions are publication navigation. A preserved old address keeps the continuing practical answer reachable. A different answer requires an explicit replacement or migration explanation, so that a previous citation does not silently acquire a new meaning.
+Continuity of the language includes a usable return when a published pattern's title, order or interpretation changes. CB.1–CB.16 retain their local addresses within this framework; Part and section positions are publication navigation. A preserved old address keeps the continuing practical answer reachable. A different answer requires an explicit replacement or migration explanation, so that a previous citation does not silently acquire a new meaning.
 
 For source qualifications, citation and edition information, see the [Sources and Edition Notes](#community-management-principles-framework-sources-and-edition-notes).
 
@@ -335,7 +335,7 @@ For **independent carriers of a sufficiently known practice who need to learn it
 
 1. Make the useful activity and participation demand understandable to potential learners. Show a relevant use and the available means of learning it.
 2. Establish that the domain method and its correctness criteria are available. If experts cannot supply a usable method, return that question to Method Engineering, and to Research Method Practice when unresolved evidence requires inquiry.
-3. Use HCD.5 to select learning activities for the relevant starting conditions and HCD.6 to construct representative practice and changed-condition attempts. Obtain missing material, help or access through HCD.7/8; a teaching publication can use Learning Product LPF.
+3. Use HCD.5 to select learning activities for the relevant starting conditions and HCD.6 to construct representative practice and changed-condition attempts. Obtain missing material, help or access through HCD.7 and HCD.8; a teaching publication can use Learning Product LPF.
 4. Observe whether people can carry out the target activity under the support conditions of their later work. Keep course participation, helped performance and independent performance distinct.
 5. Arrange how revised instructions, questions or observed failures can reach the people concerned. They may receive these from a provider without joining a discussion group.
 
@@ -357,7 +357,7 @@ Continue when the contribution is sufficiently worthwhile and feasible for the b
 
 Stop or change the proposal when an existing alternative answers the situation better, a necessary contribution cannot be obtained, or the apparent common purpose hides a material unresolved conflict. An unanswered question can itself be the next useful result: who can provide the required access, whether the intended recipient values the proposed result, or whether any capable person wishes to help.
 
-Reopen the smallest affected choice when later responses change the population, desired result, available competence, burden or terms of participation. One failed invitation does not require rethinking the whole cultural purpose; repeated inability to obtain the central contribution may.
+Reopen the affected choices and their dependencies when later responses change the population, desired result, available competence, burden or terms of participation. One failed invitation does not require rethinking the whole cultural purpose; repeated inability to obtain the central contribution may.
 
 ### CB.1:5 - Archetypal Grounding
 
@@ -428,24 +428,24 @@ Comparison also protects legitimate variation. A community for shared company an
 
 ### CB.1:11 - SoTA-Echoing
 
-The practical comparison here is between ways of obtaining the proposed contribution under comparable participant and organiser effort. It is not a claim that one community model has universal superiority.
+The practical comparison here is between ways of obtaining the proposed contribution under comparable participant and organiser effort.
 
 | Source line or developed treatment | Adopted or adapted contribution | Boundary and effect on the method |
 | --- | --- | --- |
 | David Spinks, The Business of Belonging (2021), physical PDF pp.77–100 | Ask whom the arrangement serves, inspect recognisable identities and unmet opportunities, include missing voices, and distinguish industry participation from a product brand. | These are practitioner heuristics and reported cases. The identity cycle does not establish that every participant should become more active or that identity formation is the goal of every cultural intervention. |
 | A. Levenchuk, essays on community ontology and systemicity (27–28 September 2024) | Preserve development of carriers of a practice without requiring mutual communication or a collective agent. | Used as a conceptual distinction and engineering proposal, not evidence of intervention effectiveness. |
 | C.36 and STR.5 | Distinguish cultural relations and construct contrasting accounts of a worthwhile contribution with its supporting conditions. | The community-specific work connects those results to potential participants, a credible offer and an obtainable first action. |
-| HCD.5/6 and OCE.2 | Match learning to the required action; reconstruct actual work, help and access rather than infer them from labels. | Reuse their concrete results. A community offer supplies neither domain correctness nor a missing permission. |
+| HCD.5, HCD.6 and OCE.2 | Match learning to the required action; reconstruct actual work, help and access rather than infer them from labels. | Reuse their concrete results. A community offer supplies neither domain correctness nor a missing permission. |
 
 Source returns: [David Spinks, The Business of Belonging (2021)](https://www.wiley-vch.de/en/areas-interest/finance-economics-law/the-business-of-belonging-978-1-119-76612-4); [community ontology](https://ailev.livejournal.com/1735885.html); [systemicity discussion](https://ailev.livejournal.com/1736164.html). Reconsider the choice when new evidence changes the receiving situation, the useful mechanism or the feasibility of a serious alternative.
 
 ### CB.1:12 - Relations
 
 - **Supplies CB.2:** a bounded proposal for mutual help, with the first result, participant conditions and organising capacity. A failure to obtain the central contribution returns from CB.2 to the affected choice here.
-- **Uses [FPF C.36](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36---cultural-evolution-and-cultural-evolution-engineering):** the cultural relations and result being sought. [FPF C.36.RP](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36rp---sustain-and-renew-shared-ways-of-working) supplies the wider Method for making a shared way obtainable, usable and renewable; :4.4 here retains the narrower known-practice learning alternative.
+- **Uses [FPF C.36](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36---cultural-evolution-and-cultural-evolution-engineering):** the cultural relations and result being sought. [FPF C.36.RP](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36rp---sustain-and-renew-shared-ways-of-working) supplies the wider Method for making a shared way obtainable, usable and renewable; CB.1:4.4 retains the narrower known-practice learning alternative.
 - **Uses [STR.5 (STR.5:4)](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/STRATEGY-PRINCIPLES-FRAMEWORK.md#str54---solution):** contrasting useful contributions and their provision conditions when that choice needs further development.
 - **Uses [OCE.2 (OCE.2:4)](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce24---solution):** evidence about actual organisational work and relations when the proposal relies on them.
-- **Uses [HCD.5:4 and HCD.6](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd54---solution):** selected learning activities and representative tasks for an independent-carrier contribution. HCD.2 serves a person's programme choice; HCD.7/8 serves missing support and access.
+- **Uses [HCD.5:4 and HCD.6](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd54---solution):** selected learning activities and representative tasks for an independent-carrier contribution. HCD.2 serves a person's programme choice; HCD.7 and HCD.8 serve missing support and access.
 
 - **Returns missing contributions to [Method development in Core (FPF C.39)](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c39---find-and-develop-a-way-to-obtain-a-result), [Research Method Practice (RMP)](https://github.com/ailev/FPF/blob/main/DPFs/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) or [Systems Engineering (SYSE)](https://github.com/ailev/FPF/blob/main/DPFs/Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md):** respectively, a usable professional method, an answer requiring inquiry, or a feasible whole provision/service construction. State the exact missing result when making the return.
 
@@ -508,9 +508,9 @@ Approach potential participants with a specific reason their contribution could 
 
 Obtain enough information to make a defensible match. The contributor may need to know the kind of case, the question, the material available and the recipient's starting knowledge. The recipient may need to know the contributor's experience and the limits of the proposed help. Use only information relevant to the match and permissible to share.
 
-Include a consequential contrast when it changes the work: another practice setting, a novice's difficulty, a different schedule, or a perspective the first group lacks. This does not require inviting every stakeholder to the first exchange. It requires not claiming that the first convenient group represents everyone.
+Include a consequential contrast when it changes the work: another practice setting, a novice's difficulty, a different schedule, or a perspective the first group lacks. Limit the conclusion to the perspectives and conditions examined.
 
-Keep the exchange voluntary in its actual terms. A person may ask without yet being able to answer other people's questions. Another may contribute by describing a failure, finding a source, listening carefully or testing an explanation. State the contribution needed for this activity; do not turn every invitation into an obligation to become a leader.
+Keep the exchange voluntary in its actual terms. A person may ask without yet being able to answer other people's questions. Another may contribute by describing a failure, finding a source, listening carefully or testing an explanation. State the contribution needed for this activity.
 
 #### CB.2:4.3 - Prepare the request, material and participation conditions
 
@@ -592,13 +592,13 @@ The proposed live exchange lasts twenty minutes: four minutes to establish the q
 | Contributor B | 10 min | 20 min | 5 min | 35 min |
 | Organiser | 10 min | 20 min | 10 min | 40 min |
 
-The planned activity consumes 145 person-minutes. If a contributor has only twenty minutes including preparation, this arrangement does not fit that person's availability. The organiser can obtain a narrower written contribution, change the window or choose a different capable person; the missing preparation is not made free by calling the event short.
+The planned activity consumes 145 person-minutes. If a contributor has only twenty minutes including preparation, this arrangement does not fit that person's availability. The organiser can obtain a narrower written contribution, change the window or choose a different capable person.
 
 During the exchange, the two proposed next steps turn out to assume different equipment configurations. The group identifies the missing configuration fact and an authorised way for the owner to obtain it. The result is a justified information-gathering next step, not a diagnosis reached by consensus.
 
-The owner later reports that the new information made one of the proposed diagnostic routes inapplicable and allowed the known procedure to continue. Both helpers receive that response. A short conditional note can be retained with the owner's agreement. It says which configuration changes the choice, so the account does not become an unconditional repair recipe.
+The owner later reports that the new information made one of the proposed diagnostic routes inapplicable and allowed the known procedure to continue. Both helpers receive that response. A short conditional note can be retained with the owner's agreement. It says which configuration changes the choice.
 
-For the next exchange, the owner offers to explain this configuration distinction to someone facing a similar question. That is a real contribution to consider. It does not establish that the owner can now judge every unusual fault or lead the whole group.
+For the next exchange, the owner offers to explain this configuration distinction to someone facing a similar question. Consider that offer within the owner’s demonstrated competence.
 
 #### CB.2:5.2 - The same purpose requires asynchronous participation
 
@@ -612,7 +612,7 @@ Several people volunteer to help with a case, but none can explain how the propo
 
 #### CB.2:5.4 - A first social connection can be enough
 
-At a small neighbourhood reading gathering, two newcomers want conversation rather than critique of their reading ability. The host introduces a shared question, makes room for both to speak and checks whether they want another meeting. They agree to exchange recommendations. No completed review or progression into organising work is required for this exchange to be useful.
+At a small neighbourhood reading gathering, two newcomers want conversation rather than critique of their reading ability. The host introduces a shared question, makes room for both to speak and checks whether they want another meeting. They agree to exchange recommendations.
 
 ### CB.2:6 - Bias-Annotation
 
@@ -652,7 +652,7 @@ The approach requires hands-on attention and can establish that the proposed act
 
 An early exchange is often blocked by several modest conditions at once: an unclear question, unknown competence, incompatible availability or an absent return. Deliberate matching and preparation make these conditions tractable. A bounded result keeps the commitment understandable and exposes what the interaction supplied.
 
-Closing the return matters because a contributor otherwise may never learn whether the response could be used. Recording organising support matters for a different reason: it shows which work continuation must preserve. Neither requires equal repayment, compulsory activity or a fixed growth path.
+Closing the return matters because a contributor otherwise may never learn whether the response could be used. Recording organising support matters for a different reason: it shows which work continuation must preserve.
 
 ### CB.2:11 - SoTA-Echoing
 
@@ -661,7 +661,7 @@ Closing the return matters because a contributor otherwise may never learn wheth
 | David Spinks, The Business of Belonging (2021), physical PDF pp.68–76 and 108–111 | Start with a manageable scope, recruit deliberately and supply early organising work where spontaneous exchange is absent. | The life-cycle stages, activity percentages and growth stories are historical heuristics and cases, not universal thresholds. The method chooses support from the actual exchange. |
 | Spinks, physical PDF pp.77–100 | Make the intended participation recognisable and inspect who is missing from the first group. | Identity and belonging can matter without making increasing activity every person's required trajectory. |
 | OCE.2's treatment of actual work, supplied results and constraints | Identify the work that makes an exchange possible and retain uncertainty about unavailable contributions. | CB adapts this to independent participants and voluntary contribution; it does not infer positions or authority from participation. |
-| HCD.5/6's treatment of helped performance and later observation | Keep receiving help, performing an action and developing capability distinguishable. | Use learning methods when learning is the purpose. A community interaction alone supplies no learning verdict. |
+| HCD.5 and HCD.6 on helped performance and later observation | Keep receiving help, performing an action and developing capability distinguishable. | Use learning methods when learning is the purpose. A community interaction alone supplies no learning verdict. |
 
 Source return: [David Spinks, The Business of Belonging (2021)](https://www.wiley-vch.de/en/areas-interest/finance-economics-law/the-business-of-belonging-978-1-119-76612-4). The construction retains the useful manual-start proposal while replacing generic activity targets with the participants' result, acceptable burden and actual support conditions. Prefer an adequate resource, professional service or independent-learning route when it supplies the receiving use more directly.
 
@@ -777,7 +777,7 @@ When stepping back would leave a relied-on activity unsupported, arrange the han
 
 Observe whether the person could carry out the selected action under the offered conditions. Distinguish receiving the invitation, entering a space, obtaining help and producing a useful contribution. Ask what remains confusing or costly when that answer can improve the arrangement.
 
-Continue a working option without requiring increased visibility. Change the smallest defeated condition: clarify the request, repair access, change timing, obtain a suitable helper or revise the responsibility. Return to CB.1 when the available offer itself fails to serve the person's purpose. Use CB.2 for an initial exchange, CB.4 for its interaction design and CB.5 for a specific useful contribution.
+Continue a working option without requiring increased visibility. Change the conditions that defeat the selected action: clarify the request, repair access, change timing, obtain a suitable helper or revise the responsibility. Combine changes when the conditions depend on one another. Return to CB.1 when the available offer itself fails to serve the person's purpose. Use CB.2 for an initial exchange, CB.4 for its interaction design and CB.5 for a specific useful contribution.
 
 An available entry can be recognised in an understandable invitation, material and response path. A stronger claim that people actually participate or feel accepted needs observations appropriate to that claim and those people. Registration, repeated attendance and a welcome message establish different things.
 
@@ -828,7 +828,7 @@ Use the answers to improve the action. A completed orientation checklist alone d
 
 | Wrong turn | Practical repair |
 | --- | --- |
-| Public self-presentation is required before any useful help | Offer the smallest relevant entry and obtain only information needed for it. |
+| Public self-presentation is required before any useful help | Offer an entry suited to the person's useful action, and obtain only information needed for it. |
 | Quiet use is treated as a motivation defect | Ask whether it meets the person's purpose before prescribing more activity. |
 | A reassuring message covers real exclusion or missing support | Change the actual response, access or protection condition. |
 | Subject expertise is treated as organising competence | Prepare and observe the new responsibility with appropriate support. |
@@ -887,7 +887,7 @@ The subject is the arrangement of an interaction: its people, purpose, material,
 
 **First useful result:** participants can perform the intended shared activity under feasible conditions, and its useful result or unresolved question reaches the next person or action that needs it.
 
-The organiser needs a credible purpose and relevant contributions, such as CB.1/2 supply, and an account of participants' access and preparation. CB.3 helps establish entry conditions. The activity's domain supplies the content and criteria for professional conclusions.
+The organiser needs a credible purpose and relevant contributions, such as CB.1 and CB.2 supply, and an account of participants' access and preparation. CB.3 helps establish entry conditions. The activity's domain supplies the content and criteria for professional conclusions.
 
 **Ordinary non-use.** Keep an existing interaction that supplies its result at acceptable burden. Use a resource or individual service when it can answer the receiving need without mutual activity. A missing professional method, authority or permission requires its direct supplier; choosing a more engaging meeting does not obtain it.
 
@@ -994,7 +994,7 @@ Before closing, ask what the activity supplied and who needs it next. The result
 
 Return enough context for the next use. Include the question, relevant conditions, remaining disagreement or uncertainty, and the person who has accepted the next action where one is needed. Obtain agreement before sharing attributable or sensitive material. A private experience can remain private when no further record serves its purpose.
 
-If the activity recurs, choose its rhythm from demand, participants' availability and organising capacity. Keep a familiar entry when it helps, but change the content or support that no longer serves the work. Predictability need not mean daily activity, a universal meeting length or a calendar filled at every frequency.
+If the activity recurs, choose its rhythm from demand, participants' availability and organising capacity. Keep a familiar entry when it helps, but change the content or support that no longer serves the work.
 
 Observe the next use when the claim depends on it. A meeting can establish that participants compared alternatives; later application needs a later observation. Reopen the affected design when people cannot enter, contributions are lost, answers cannot be recovered, burdens exceed capacity or the purpose changes. Use CB.1 if another route now supplies the result more directly.
 
@@ -1026,7 +1026,7 @@ The closing account distinguishes differing experiences and questions for the pe
 
 #### CB.4:5.4 - A demonstration changes the receiving question
 
-A practitioner demonstrates a familiar repair method while explaining why an observation changes the next action. Viewers recover a previously hidden distinction and ask for suitable practice material. CB.4 has arranged a useful demonstration and a return. The subsequent learning design, representative attempts and capability judgement use HCD. If the demonstrated method itself remains unclear, its description or development uses Method Engineering.
+A practitioner demonstrates a familiar repair method while explaining why an observation changes the next action. Viewers recover a previously hidden distinction and ask for suitable practice material. The organiser has arranged a useful demonstration and a return. The subsequent learning design, representative attempts and capability judgement use HCD. If the demonstrated method itself remains unclear, its description or development uses Method Engineering.
 
 ### CB.4:6 - Bias-Annotation
 
@@ -1076,7 +1076,7 @@ Preserving the return is as important as producing contributions. Splitting a gr
 | Spinks, The Business of Belonging (2021), physical PDF 139–168 | Connect people, purpose, setting, participation, rules, invitation and intended result; design guidance and timing instead of waiting for spontaneous interaction. | Select size and rhythm from the actual action. Small size, emotional intensity and platform activity supply no general quality or learning guarantee. |
 | Wenger-Trayner et al., Communities of Practice Guidebook, second edition (2023), printed 152–156 and 163–174 | Distinct constructions for a focused discussion, shared conversation, rotating conversations, argument exploration, context comparison and reflection. | These are practitioner methods and cases. Preserve their different results and participation conditions; a forum format or topic selection supplies no independent decision mandate. |
 | LDR.1:4.4 | Brief the work, reassess a changed situation and debrief the episode with an actual return. | Reuse the conversation construction while obtaining competence, permission and authority from their direct sources. |
-| HCD.5/6 | Select learning activities and representative practice when learning is the receiving use. | An interaction can supply material or help without establishing independent capability. |
+| HCD.5 and HCD.6 | Select learning activities and representative practice when learning is the receiving use. | An interaction can supply material or help without establishing independent capability. |
 
 Compared with opening a channel or running a familiar event, the construction requires more explicit preparation but can reveal a timing, access or return failure before a recurring commitment is made. Reconsider it when a simpler arrangement supplies the same result, when the support cannot be obtained, or when participant conditions change.
 
@@ -1084,7 +1084,7 @@ The conversation variants are analytical adaptations of the [Communities of Prac
 
 ### CB.4:12 - Relations
 
-- **Uses CB.1–3:** the purpose, first exchange and attainable participation conditions.
+- **Uses CB.1–CB.3:** the purpose, first exchange and attainable participation conditions.
 - **Supplies and uses CB.5:** the interaction carries a useful contribution; its recipient, material and criteria determine the appropriate form.
 - **Uses [LDR.1 (LDR.1:4)](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/LEADERSHIP-PRINCIPLES-FRAMEWORK.md#ldr14---solution):** the preparation, change-of-situation and debrief conversations.
 - **Uses [HCD.5:4 and HCD.6](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd54---solution):** a learning design when that is the promised contribution.
@@ -1105,7 +1105,7 @@ The subject is the arrangement for obtaining a useful contribution from particip
 
 **First useful result:** an agreed contribution reaches its recipient in a usable form, with an understandable acceptance, application, revision or limitation returned to the contributor. An unresolved requirement or unavailable supplier can be the warranted result.
 
-The organiser needs access to the receiving question, relevant participants and the person who can judge or accept the contribution. CB.1 helps decide whether this is a worthwhile community contribution; CB.2 obtains an initial exchange; CB.3/4 support participation and the activity's form.
+The organiser needs access to the receiving question, relevant participants and the person who can judge or accept the contribution. CB.1 helps decide whether this is a worthwhile community contribution; CB.2 obtains an initial exchange; CB.3 and CB.4 support participation and the activity's form.
 
 **Ordinary non-use.** If an existing resource or accountable service already supplies the result adequately, use it. If a professional method, mandate or permission is missing, obtain it from the appropriate source. Willing participants cannot make an unsupported technical act fit for use by discussing it.
 
@@ -1149,7 +1149,7 @@ Make the scope negotiable. A person can provide an observation without writing t
 
 Obtain the material, tools, access and permissions needed for the chosen work. OCE.6 supplies the fuller method when actual organisational assignments or enabling relations are current. Its central distinction matters here: selecting a capable person, agreeing a contribution and establishing permission are different achievements.
 
-Provide preparation for the actual gap. A peer can help formulate a case or inspect an example. A qualified HCD contribution can develop missing capability. If the underlying professional method is unavailable, return that development or inquiry question to Method Engineering or Research Method Practice. More reminders cannot replace it.
+Provide preparation for the actual gap. A peer can help formulate a case or inspect an example. A qualified HCD contribution can develop missing capability. If the underlying professional method is unavailable, return that development or inquiry question to Method Engineering or Research Method Practice.
 
 Identify the receiving person before the contribution is made. Agree when and how they will inspect it and give a useful response. An open suggestion box without a receiving decision can invite effort the organisation is not prepared to use.
 
@@ -1231,15 +1231,15 @@ In a constructed repairer association, a participant brings an unusual diagnosti
 
 The first contributor offers a solution immediately. The facilitator returns to clarification: the suggested action applies to one configuration, while the case may have another. The group first establishes the configuration and what observations can be obtained under the available permission. Contributors then explain similar cases and compare the resulting options with the current evidence.
 
-The owner takes away one justified information-gathering action and reports the later result. It excludes one interpretation but leaves another condition uncertain. The returned account helps the contributors refine the advice. The clinic has supplied a useful continuation without claiming that the equipment was repaired or the method was proven in every setting.
+The owner takes away one justified information-gathering action and reports the later result. It excludes one interpretation but leaves another condition uncertain. The returned account helps the contributors refine the advice. The clinic has supplied a useful continuation without claiming that the equipment was repaired.
 
 If nobody can supply the needed technical judgement, the group can still clarify the question and return it to a qualified source. Interest and active discussion do not close that missing contribution.
 
 #### CB.5:5.2 - Twenty minutes broaden a design question
 
-A voluntary community wants to make its shared reference easier to use, but participants work in different settings and cannot inspect the whole resource together. They agree to a twenty-minute design clinic: two minutes for the owner's challenge, four for clarification, five for relevant experiences, six for possible changes and three for the owner's selected takeaways. The allowances sum to twenty.
+A voluntary community wants to make its shared reference easier to use, but participants work in different settings and cannot inspect the whole resource together. They agree to a twenty-minute design clinic: two minutes for the owner's challenge, four for clarification, five for relevant experiences, six for possible changes and three for the owner's selected takeaways.
 
-Participants expose two different difficulties: finding a known answer and recognising whether it applies. The owner retains a clearer index and an applicability example as possibilities for a later trial. No vote selects a final design. A subsequent use test and the resource owner's decision are still needed.
+Participants expose two different difficulties: finding a known answer and recognising whether it applies. The owner retains a clearer index and an applicability example as possibilities for a later trial. A subsequent use test and the resource owner's decision are still needed.
 
 A full case judgement would require more material and examination than this interval permits. The shorter form is useful because it promises a different result.
 
@@ -1323,7 +1323,7 @@ The clinic and external-contribution variants are analytical adaptations of the 
 
 ### CB.5:12 - Relations
 
-- **Uses CB.1–4:** a worthwhile contribution, first exchange, supported entry and suitable shared activity.
+- **Uses CB.1–CB.4:** a worthwhile contribution, first exchange, supported entry and suitable shared activity.
 - **Uses [OCE.6 (OCE.6:4)](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce64---solution):** actual assignments and enabling relations when required.
 - **Uses [OPS.6 (OPS.6:4)](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops64---solution):** a permissible next action, its performance evidence and the returned case result.
 - **Uses [SYSE.2 (SYSE.2:4.3)](https://github.com/ailev/FPF/blob/main/DPFs/Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse243---develop-the-use-claim-and-candidate-system-concept-together):** connected use and system-concept proposals for co-design contributions.
@@ -1456,7 +1456,7 @@ Keep only the account needed for attribution, the offered benefit or later use. 
 
 In a constructed repairer association, one participant corrects a misleading applicability example in a shared reference. Another person confirms that the correction helped them distinguish two equipment configurations. The organiser asks permission to return that account.
 
-The contributor prefers a private message and agrees to a brief credit on the corrected page. The response names the distinction they clarified and the use that the recipient reported. It makes no claim that all later repairs were successful.
+The contributor prefers a private message and agrees to a brief credit on the corrected page. The response names the distinction they clarified and the use that the recipient reported.
 
 A later public summary credits both the person who found the problem and the maintainer who checked and incorporated the correction. If a use report contradicts the correction, the subject review reopens; the acknowledgement of the contributed work does not settle the technical question.
 
@@ -1472,7 +1472,7 @@ If a later formal award is wanted, it uses an account of a contribution and a su
 
 An organiser wants to thank a volunteer by offering a meeting with an experienced practitioner. Before announcing it, they learn what the volunteer would like to discuss and ask the practitioner whether they can help.
 
-The practitioner can offer one bounded conversation but no continuing mentorship. The volunteer accepts that scope, receives preparation guidance and has a useful exchange. The organiser does not advertise a mentor programme from this single contribution.
+The practitioner can offer one bounded conversation but no continuing mentorship. The volunteer accepts that scope, receives preparation guidance and has a useful exchange.
 
 In a changed case, the volunteer has no use for the introduction and prefers access to an existing reference resource. Recognition changes form without reducing their standing in the group.
 
@@ -1480,7 +1480,7 @@ In a changed case, the volunteer has no use for the introduction and prefers acc
 
 A garden association publicly thanks someone who has repeatedly prepared shared equipment. The person explains that the work now exceeds the time they can offer. More praise would make the burden more visible without removing it.
 
-The association keeps the acknowledgement, agrees a smaller voluntary contribution and arranges the remaining maintenance through a responsible provider. Any payment already agreed is settled separately. Recognition and provision both have useful outcomes.
+The association keeps the acknowledgement, agrees a smaller voluntary contribution and arranges the remaining maintenance through a responsible provider. Any payment already agreed is settled separately.
 
 ### CB.6:6 - Bias-Annotation
 
@@ -1538,7 +1538,7 @@ Source returns: [Spinks](https://www.wiley-vch.de/en/areas-interest/finance-econ
 ### CB.6:12 - Relations
 
 - **Uses CB.5:** an account of the contribution and its returned use.
-- **Uses CB.2/4:** a useful connection or shared activity when offered as recognition.
+- **Uses CB.2 and CB.4:** a useful connection or shared activity when offered as recognition.
 - **Uses CB.3:** a changed responsibility, support condition or reduced voluntary commitment.
 - **Uses [LDR.1 (LDR.1:4.4)](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/LEADERSHIP-PRINCIPLES-FRAMEWORK.md#ldr144---perform-the-smallest-sufficient-working-conversation):** a task-focused conversation and return when a concrete working contribution is needed.
 - **Uses [HCD](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md):** the learning contribution or assessment actually promised by an opportunity or qualification claim.
@@ -1593,7 +1593,7 @@ Construct the next organising contribution around the people who can actually su
 
 Describe what participants need to receive. For example, a local session needs an attainable place and a prepared host; new members need an answer from someone who can help; a reference needs corrections returned to its maintainer. Recover what currently happens, including work performed before and after the visible event.
 
-Identify which part depends on a particular person and why. They may hold the only key, know the relevant specialist, settle a disputed responsibility or supply the explanation nobody else can give. These are different replacement problems. Reassigning the meeting chair will not replace an unavailable specialist. When capable organisers cannot notice or support several aspects of the activity at once, consider the variant for temporary participant groups in :4.7.
+Identify which part depends on a particular person and why. They may hold the only key, know the relevant specialist, settle a disputed responsibility or supply the explanation nobody else can give. These are different replacement problems. Reassigning the meeting chair will not replace an unavailable specialist. When capable organisers cannot notice or support several aspects of the activity at once, consider the variant for temporary participant groups in CB.7:4.7.
 
 Make the commitment small enough to understand and large enough to complete. Agree the intended result, next occasion, expected effort, relevant conditions, available support and a point at which the person can reconsider. Name any preparation, follow-up or emotionally demanding incident work; an hour hosting a meeting may require several hours beyond the meeting itself.
 
@@ -1612,7 +1612,7 @@ Use the inquiry to choose an action:
 | What the inquiry reveals | Possible next move |
 | --- | --- |
 | A group already obtains reliable help from a willing local practitioner. | Ask whether that person wants a bounded organising contribution and what support it needs. |
-| Two groups have useful knowledge but no workable exchange. | With their agreement, obtain an introduction or a joint case through CB.2/5. |
+| Two groups have useful knowledge but no workable exchange. | With their agreement, obtain an introduction or a joint case through CB.2 or CB.5, according to the contribution needed. |
 | The central organiser hears only one group's account. | Obtain the missing group's own account before adapting the offer. |
 | Several people rely on one overburdened intermediary. | Reduce the promise, prepare another contributor or provide an additional route that participants can actually use. |
 | People understand the proposal but find the practice unsuitable. | Return the substantive problem to its owner; changing the messenger will not repair the practice. |
@@ -1686,7 +1686,7 @@ At the agreed occasion, compare what members noticed and what it could mean for 
 
 Return what happened to the participants or organisers who can use it. A proposed change to the next agenda or participation format goes to CB.4's activity construction; a question about what the activity helped people do goes to [CB.10](#cb10---understand-the-value-of-participation-and-cultural-work). Keep an observation, its interpretation and a claim of benefit distinct. For example, a newly used question route shows access to that exchange; whether it changed later practice needs the recipient's account and appropriate further observations.
 
-Close the temporary assignment at its agreed limit. Settle unfinished suggestions with a willing receiver, retain only permitted useful material, and decide whether a later occasion needs the task again. If so, agree its burden and performers anew or arrange the handover in :4.6. Reduce or stop it when the observation or conference burden prevents useful participation or nobody can receive its result.
+Close the temporary assignment at its agreed limit. Settle unfinished suggestions with a willing receiver, retain only permitted useful material, and decide whether a later occasion needs the task again. If so, agree its burden and performers anew or arrange the handover in CB.7:4.6. Reduce or stop it when the observation or conference burden prevents useful participation or nobody can receive its result.
 
 ### CB.7:5 - Archetypal Grounding
 
@@ -1714,7 +1714,7 @@ The debrief reveals that returning equipment takes longer than agreed. The group
 
 A professional chapter may choose the timing and examples for an agreed case session. It may also use a shared name under stated conditions. Its host wants to turn the session into a paid service with a new guarantee.
 
-The host can propose that change but cannot establish the guarantee or spend the central association's funds. The relevant decision-makers consider the new commitment under CB.13; the host continues the already supported session while that question is open. Local initiative has produced a proposal with consequences, not an assumed expansion of authority.
+The host can propose that change but cannot establish the guarantee or spend the central association's funds. The relevant decision-makers consider the new commitment under CB.13; the host continues the already supported session while that question is open.
 
 #### CB.7:5.4 - A small exchange needs no leadership programme
 
@@ -1726,11 +1726,11 @@ In another constructed repairer session, eighteen people have ninety minutes to 
 
 Four participants volunteer in two pairs for this session. One pair attends to usable opportunities to contribute. The other attends to time and questions that the agenda is failing to serve. Their scope permits offering the existing written-question route and signalling the agreed time limits. The host retains decisions about changing the agenda. Each pair has five minutes together during a planned pause and ten minutes just after the session; the volunteers accept this burden for one occasion.
 
-One member of the first pair notices that three speakers have taken every turn; the other notices an unused written-question route. During the pause, they compare these observations and ask a quiet newcomer whether the available routes work for them. The newcomer wants to ask a question without interrupting the case. A written question reaches the host, who gives it a place in the remaining discussion. The second pair identifies two related questions that cannot both receive a useful treatment in the remaining time. It proposes a focused next session; the host accepts that proposal through CB.4 and a participant agrees to prepare the shared material. The pairs neither infer everyone's wishes from silence nor grant themselves authority over the community's programme.
+One member of the first pair notices that three speakers have taken every turn; the other notices an unused written-question route. During the pause, they compare these observations and ask a quiet newcomer whether the available routes work for them. The newcomer wants to ask a question without interrupting the case. A written question reaches the host, who gives it a place in the remaining discussion. The second pair identifies two related questions that cannot both receive a useful treatment in the remaining time. It proposes a focused next session; the host accepts that proposal through CB.4 and a participant agrees to prepare the shared material.
 
 At the debrief, the first pair reports that the newcomer received a relevant reference. The second pair confirms the next-session preparation with its willing receiver. Both temporary assignments end; the existing organiser and successor remain responsible for their own agreed contributions. Through CB.10, the organiser later obtains the recipient's account: the reference supplied the previously missing condition needed to select a diagnostic check. This is one bounded account of value, not proof that the group arrangement generally improves repair performance.
 
-The next event is shortened to thirty minutes, and only one participant offers additional help. There is no feasible pair or conference time. The organiser retires the group variant for that event, asks the willing helper to collect unanswered questions for the final three minutes, and defers the wider participation inquiry. The smaller contribution remains useful without claiming that a group performed the task together.
+The next event is shortened to thirty minutes, and only one participant offers additional help. There is no feasible pair or conference time. The organiser retires the group variant for that event, asks the willing helper to collect unanswered questions for the final three minutes, and defers the wider participation inquiry.
 
 ### CB.7:6 - Bias-Annotation
 
@@ -1781,11 +1781,11 @@ The practice question is how to obtain distributed organising when relationships
 
 | Source or developed treatment | Contribution adopted or adapted | Limit that changes use |
 | --- | --- | --- |
-| David Spinks, *The Business of Belonging* (2021), physical PDF 30–32 and 114–118. | Guidance, peer support and local choice help make organising feasible; :4.3–4.6 ties them to a defined contribution. | Historical company programmes illustrate possibilities. Leadership is an optional contribution, and local arrangements need their own resources and authority. |
-| [Valente, “Network Interventions” (2012)](https://ctbs.fsu.edu/sites/g/files/upcbnu2651/files/Valente_2012%2BScience.pdf), introduction and individual-selection discussion. | :4.2 distinguishes people frequently consulted, connections between groups and groups left outside the initial inquiry. | These are choices for investigation, not a universal ranking of organisers or proof of an effect in this community. |
-| [Maya-Jariego (2025)](https://reference-global.com/download/article/10.2478/connections-2025-0002.pdf), typology and conclusion. | :4.2 separates relationship information used in preparation, changed relationships, shared interpretation and observation of implementation. | The distinction clarifies the work being attempted; effectiveness depends on the actual contribution and conditions. |
-| Wenger-Trayner et al., *Communities of Practice Guidebook*, second edition (2023), printed 83–84 / physical PDF93–94, §3.3. | :4.7 adapts temporary participant groups that confer, support an activity and return suggestions; :5.5 varies available attention and time. | This practitioner construction is optional. The authors' experience claim of accelerated development is not a causal effectiveness result; voluntary participation, available time and actual authority determine the local arrangement. |
-| OCE.2:4 and LDR.1:4.1–4.6. | Recover actual relations; prepare a working contribution; observe a subsequent episode without making one person indispensable. | Use their concrete recovery and preparation Methods. A roster or an agreement alone does not supply the performed result. |
+| David Spinks, *The Business of Belonging* (2021), physical PDF 30–32 and 114–118. | Guidance, peer support and local choice help make organising feasible; CB.7:4.3–CB.7:4.6 tie them to a defined contribution. | Historical company programmes illustrate possibilities. Leadership is an optional contribution, and local arrangements need their own resources and authority. |
+| [Valente, “Network Interventions” (2012)](https://ctbs.fsu.edu/sites/g/files/upcbnu2651/files/Valente_2012%2BScience.pdf), introduction and individual-selection discussion. | CB.7:4.2 distinguishes people frequently consulted, connections between groups and groups left outside the initial inquiry. | These are choices for investigation, not a universal ranking of organisers or proof of an effect in this community. |
+| [Maya-Jariego (2025)](https://reference-global.com/download/article/10.2478/connections-2025-0002.pdf), typology and conclusion. | CB.7:4.2 separates relationship information used in preparation, changed relationships, shared interpretation and observation of implementation. | The distinction clarifies the work being attempted; effectiveness depends on the actual contribution and conditions. |
+| Wenger-Trayner et al., *Communities of Practice Guidebook*, second edition (2023), printed 83–84 / physical PDF93–94, §3.3. | CB.7:4.7 adapts temporary participant groups that confer, support an activity and return suggestions; CB.7:5.5 varies available attention and time. | This practitioner construction is optional. The authors' experience claim of accelerated development is not a causal effectiveness result; voluntary participation, available time and actual authority determine the local arrangement. |
+| OCE.2:4 and LDR.1:4.1–LDR.1:4.6. | Recover actual relations; prepare a working contribution; observe a subsequent episode without making one person indispensable. | Use their concrete recovery and preparation Methods. A roster or an agreement alone does not supply the performed result. |
 
 The temporary-group variant is an analytical adaptation of the [Communities of Practice Guidebook](https://www.wenger-trayner.com/wp-content/uploads/2024/03/24-02-21-CoP-guidebook-second-edition-final-2.pdf) by Etienne Wenger-Trayner, Beverly Wenger-Trayner, Phil Reid and Claude Bruderlein, under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). The repairer cases are constructed explanations.
 
@@ -1795,8 +1795,8 @@ Reopen the arrangement when a relied-on relationship, participant commitment, ac
 
 ### CB.7:12 - Relations
 
-- **CB.1/2** identifies the useful offer and helps establish a first exchange; **CB.3** enables entry or a change of responsibility.
-- **CB.4/5** supplies the activity design and receiving contributions; **CB.6** supplies appropriate recognition. **CB.10** investigates the value a participant group observes; its findings and proposals can change the next CB.4 activity.
+- **CB.1** identifies the useful offer and **CB.2** helps establish a first exchange; **CB.3** enables entry or a change of responsibility.
+- **CB.4 and CB.5** supply the activity design and receiving contributions; **CB.6** supplies appropriate recognition. **CB.10** investigates the value a participant group observes; its findings and proposals can change the next CB.4 activity.
 - **CB.8** supplies usable participation rules and incident handling. **CB.13** establishes or repairs a missing shared decision mandate.
 - [OCE.2:4](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce24---solution) recovers actual work and relations. [LDR.1:4](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/LEADERSHIP-PRINCIPLES-FRAMEWORK.md#ldr14---solution) develops the concrete enabling conversation, preparation and next episode.
 - [OCE.6](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce6---establish-holder-assignments-and-enabling-relations-for-organization-change) supplies effective assignments and enabling relations when needed; [HCD](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) supplies the specific learning or assessment contribution.
@@ -1819,7 +1819,7 @@ The governed work is making rules of participation usable and handling an incide
 
 An organiser needs the relevant activity and its conditions, a person able to receive concerns, and the actual scope of the available decision authority. A simple clarification can start with one unclear expectation. A consequential restriction needs grounds and authority proportionate to that action.
 
-**Ordinary non-use:** a civil disagreement about the practice can continue through subject reasoning and CB.4/5 without becoming a conduct case. Existing understood rules may already be sufficient. Use the relevant qualified service for a danger or allegation beyond the community's handling capability.
+**Ordinary non-use:** a civil disagreement about the practice can continue through subject reasoning with CB.4 or CB.5 without becoming a conduct case. Existing understood rules may already be sufficient. Use the relevant qualified service for a danger or allegation beyond the community's handling capability.
 
 ### CB.8:2 - Problem
 
@@ -1870,7 +1870,7 @@ Keep the process small enough to operate. A small group may need two named conta
 
 #### CB.8:4.3 - Establish what happened and what needs action now
 
-Receive the concern without deciding its truth from the reporter's status or tone. Recover the relevant action, context, time, affected participation and requested help. Obtain the smallest evidence that can settle the next decision: a complete exchange rather than one isolated sentence, an account from the people present, or a relevant observation.
+Receive the concern without deciding its truth from the reporter's status or tone. Recover the relevant action, context, time, affected participation and requested help. Use the available evidence when it suffices for the next decision; otherwise obtain the missing evidence and context, such as a complete exchange rather than one isolated sentence, an account from the people present, or a relevant observation.
 
 Separate what was observed, what someone reports, their interpretation and what remains disputed. Retain enough context for later review. Restrict access to sensitive material and avoid reproducing it in a public discussion of the case.
 
@@ -1881,7 +1881,7 @@ Choose the next contribution from the question that needs to be settled:
 | What remains to be settled | Appropriate next contribution |
 | --- | --- |
 | People understood different meanings or lacked relevant information. | Clarify the expectation and context, then check whether the difficulty remains. |
-| People disagree about the practice or a proposed result. | Obtain the subject discussion or qualified judgement through CB.4/5. |
+| People disagree about the practice or a proposed result. | Obtain the subject discussion or qualified judgement through CB.4 or CB.5 as the contribution requires. |
 | An observed action may breach an applicable participation rule. | Compare the action and context with that rule, hear the relevant response and decide within the available authority. |
 | People dispute the rule, decision-maker or mandate itself. | Preserve any currently justified protection and return the governance question to CB.13. |
 | The matter exceeds the community's capability or authority. | Obtain the appropriate service or institutional response and limit the community's own promise. |
@@ -1936,7 +1936,7 @@ The appeal includes the original question and the complete answer. The member di
 
 The alternate reviewer finds that the removal misapplied the rule. The answer and the member's posting access are restored, the moderator's public implication of an undisclosed interest is corrected, and the member receives the reason. The group keeps the rule that separates relevant disclosure from unrelated promotion.
 
-A later post from the same member advertises a discount without answering a current question. Its different content supports moving it to the offer space. Correcting the first decision did not make every later post exempt.
+A later post from the same member advertises a discount without answering a current question. Its different content supports moving it to the offer space.
 
 #### CB.8:5.2 - Receive an offline complaint after the event
 
@@ -1966,7 +1966,7 @@ The member later asks to return. An authorised alternate confirms the original b
 
 The administrator enables submission for approval. In the first answer, the member explains which repair their service cannot perform and supplies a relevant alternative; the moderator approves it. For the second answer, the member removes an unrelated discount before submission; the moderator approves the technical comparison. The questions receive usable answers. After these two exchanges, the moderator confirms the agreed condition and the administrator restores ordinary posting. The earlier advertising and its justified restriction remain in the proportionate account of the case.
 
-This result shows that the offered arrangement worked for those exchanges. Further unrelated advertising would reopen the response from the new conduct and its effect. If the promised moderation support becomes unavailable, the reviewer and member need another workable arrangement before relying on it.
+The two approved answers meet the stated return conditions. Further unrelated advertising would reopen the response from the new conduct and its effect. If the promised moderation support becomes unavailable, the reviewer and member need another workable arrangement before relying on it.
 
 ### CB.8:6 - Bias-Annotation
 
@@ -1984,7 +1984,7 @@ For the present rule or case, ask:
 - Can the affected person obtain an intelligible reason and a reachable, suitably independent review?
 - Has an error been corrected in the access, material or understanding it changed?
 
-Routine recognition can be brief. The evidence, hearing and review needed for a consequential restriction depend on its actual consequences and governing arrangement.
+Recognising a possible participation difficulty can be quick. The evidence, hearing and review needed for a consequential restriction depend on its actual consequences and governing arrangement.
 
 ### CB.8:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -2017,11 +2017,11 @@ The practice question is how to maintain workable participation and correct mist
 
 | Source or developed treatment | Contribution adopted or adapted | Limit that changes use |
 | --- | --- | --- |
-| David Spinks, *The Business of Belonging* (2021), physical PDF 168–172 and 186–197. | Make expectations visible, sustain useful disagreement, explain enforcement and correct an organiser's mistake; :4.1–4.6 gives these actions explicit recipients and returns. | A rule or a friendly tone does not settle a contested fact. A direct call and public transparency are options whose privacy, access and power conditions must fit. |
-| [Leibmann et al., “Reddit Rules and Rulers” (2025, v2)](https://arxiv.org/abs/2501.14163v2), longitudinal rule-change analysis and limitations. | :4.6 distinguishes a written rule, its execution and expressed perceptions of governance. | The study uses public discussion in sampled English-language Reddit communities; it does not observe enforcement or establish the right rule for this case. |
-| [Lee et al., “Mapping Community Appeals Systems” (2025)](https://arxiv.org/html/2509.06557v1), moderator collaboration and offered reintegration. | :4.5 and :5.5 distinguish correcting an error from offering a supported return while retaining a justified restriction's basis. | Accounts from 17 Discord moderators with appeals systems do not demonstrate user-perceived fairness or rehabilitation. Evaluate the next conduct and available support; apology, tone and elapsed time do not supply that evidence. |
-| [Community Canvas Guidebook (2017)](https://github.com/communitycanvas/documents/blob/master/CommunityCanvas-Guidebook.pdf), pp.47–49. | Anticipate conflicts involving members, staff and decision-makers; :4.2/:4.5 requires a real route beyond a conflicted original decision. | This historical repertoire does not itself establish the community's mandate; CB.13 supplies that construction. |
-| OCE.14:4.1–4.6 and ECO.7:4. | Change a failing arrangement with its actual owner, conditions and returned effect; for a constrained common resource, combine use and upkeep rules. | Use OCE.14 for an existing organisation's revision and ECO.7 for the actual resource difficulty, rather than treating every disagreement as either problem. |
+| David Spinks, *The Business of Belonging* (2021), physical PDF 168–172 and 186–197. | Make expectations visible, sustain useful disagreement, explain enforcement and correct an organiser's mistake; CB.8:4.1–CB.8:4.6 give these actions explicit recipients and returns. | A rule or a friendly tone does not settle a contested fact. A direct call and public transparency are options whose privacy, access and power conditions must fit. |
+| [Leibmann et al., “Reddit Rules and Rulers” (2025, v2)](https://arxiv.org/abs/2501.14163v2), longitudinal rule-change analysis and limitations. | CB.8:4.6 distinguishes a written rule, its execution and expressed perceptions of governance. | The study uses public discussion in sampled English-language Reddit communities; it does not observe enforcement or establish the right rule for this case. |
+| [Lee et al., “Mapping Community Appeals Systems” (2025)](https://arxiv.org/html/2509.06557v1), moderator collaboration and offered reintegration. | CB.8:4.5 and CB.8:5.5 distinguish correcting an error from offering a supported return while retaining a justified restriction's basis. | Accounts from 17 Discord moderators with appeals systems do not demonstrate user-perceived fairness or rehabilitation. Evaluate the next conduct and available support; apology, tone and elapsed time do not supply that evidence. |
+| [Community Canvas Guidebook (2017)](https://github.com/communitycanvas/documents/blob/master/CommunityCanvas-Guidebook.pdf), pp.47–49. | Anticipate conflicts involving members, staff and decision-makers; CB.8:4.2 and CB.8:4.5 require a real route beyond a conflicted original decision. | This historical repertoire does not itself establish the community's mandate; CB.13 supplies that construction. |
+| OCE.14:4.1–OCE.14:4.6 and ECO.7:4. | Change a failing arrangement with its actual owner, conditions and returned effect; for a constrained common resource, combine use and upkeep rules. | Use OCE.14 for an existing organisation's revision and ECO.7 for the actual resource difficulty, rather than treating every disagreement as either problem. |
 
 The alternative of informal clarification remains sufficient for an ordinary misunderstanding with limited consequences. A standing incident process becomes useful when consequences, recurrence or multiple decision-makers make that informal response insufficient.
 
@@ -2029,7 +2029,7 @@ Reopen the method's local use when reporting becomes inaccessible, an appeal lac
 
 ### CB.8:12 - Relations
 
-- **CB.3/4** makes entry and shared activity usable; **CB.5** supplies subject contributions that a conduct process cannot judge merely by agreement or tone.
+- **CB.3 and CB.4** make entry and shared activity usable; **CB.5** supplies subject contributions that a conduct process cannot judge merely by agreement or tone.
 - **CB.7** prepares and supports organisers. **CB.13** establishes the authority to make rules, assign decisions and review challenges to decision-makers.
 - [LDR.1:4.4](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/LEADERSHIP-PRINCIPLES-FRAMEWORK.md#ldr144---perform-the-smallest-sufficient-working-conversation) supplies a task-focused conversation when that is the needed contribution.
 - [OCE.14:4](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce144---solution) supplies a bounded revision of an established organisation; its owner and mandate must already be available.
@@ -2143,7 +2143,7 @@ At a useful interval, compare the accepted promise, delivered result, resource u
 
 Distinguish a shortfall in supply from a change in the contribution itself. More applicants may require admission or a smaller promise. A sponsor's new sales objective may require a new agreement. An activity with little practical value needs CB.10 and possibly CB.1; simply funding more of it may preserve the wrong offer.
 
-Revise the affected commitment with its holder and receiver. Obtain the replacement allocation, payment or reduced expectation and communicate it to those who rely on the old one. Record only what people need to act and later settle the arrangement; a small group need not create a permanent reporting system.
+Revise the affected commitment with its holder and receiver. Obtain the replacement allocation, payment or reduced expectation and communicate it to those who rely on the old one. Record only what people need to act and later settle the arrangement.
 
 Before an important support period ends, establish whether renewal is real, conditional or absent. Use CB.11 for continuation, transfer, separation or ending that changes the arrangement as a whole. Preserve useful resources and settle current commitments even when the future programme is reduced.
 
@@ -2159,7 +2159,7 @@ The organiser verifies that the additional coordinator can handle booking confir
 
 The first clinic reveals another hour spent returning tools and resolving an unfinished booking. The group places that work with a willing contributor who has access and time. It also narrows the invitation: specialist advice is available at the clinics, with no promise of continuous replies between them.
 
-When one expert becomes unavailable for a later date, the other cannot safely cover both tables. The organiser uses the agreed response: reduce that clinic to one table and tell booked participants what can be served. The funded venue does not justify preserving the original capacity claim.
+When one expert becomes unavailable for a later date, the other cannot safely cover both tables. The organiser uses the agreed response: reduce that clinic to one table and tell booked participants what can be served.
 
 #### CB.9:5.2 - When a voluntary contribution becomes scheduled production
 
@@ -2175,7 +2175,7 @@ At the first session, the paid booking and cleanup both occur. Later, an additio
 
 #### CB.9:5.4 - Independent users and sufficient existing provision
 
-A small public guide has a willing maintainer, authorised hosting and a clear way to report corrections. Its users apply the practice independently. When the next update fits that established provision, the maintainer makes it under the existing arrangement; no membership programme or new funding exercise is needed. A future loss of hosting or maintenance would reopen the provision question.
+A small public guide has a willing maintainer, authorised hosting and a clear way to report corrections. Its users apply the practice independently. When the next update fits that established provision, the maintainer makes it under the existing arrangement. A future loss of hosting or maintenance would reopen the provision question.
 
 ### CB.9:6 - Bias-Annotation
 
@@ -2203,7 +2203,7 @@ The arrangement can support reliance when the contributions, permissions and ter
 | Treat donated time as unlimited | Agree a contribution and its limit with the person who will perform it. |
 | Promise every department a different benefit from one organiser | Reconcile the receiving results and provide the work each requires. |
 | Use gratitude to carry a continuing service deficit | Provide the missing work, reduce the service or end the unsupported promise. |
-| Count an allocated cost reduction as spendable cash | Obtain the actual capacity and payment consequences through MA/OPS. |
+| Count an allocated cost reduction as spendable cash | Obtain the actual capacity and payment consequences through the applicable MA and OPS methods. |
 | Accept a sponsor's new condition under members' old agreement | Return the changed offer and obtain the affected decisions. |
 | Keep a schedule by silently shifting the burden to the remaining volunteer | Apply the agreed reduction, replacement or postponement and revise the arrangement. |
 
@@ -2221,24 +2221,24 @@ Voluntary and paid contributions can coexist when their terms are clear and work
 
 ### CB.9:11 - SoTA-Echoing
 
-This pattern compares community programme design with the actual operating and accounting methods needed to provide it. The alternatives are compared at the effort of arranging one supported activity or programme period, rather than at the scale of an organisation-wide transformation.
+The method compares ways to support the same community activity or programme period, including the effort of arranging that support. Use operating and accounting methods when unresolved resource, capacity or payment questions can change the choice.
 
 | Source or approach | Adopt, adapt or reject by value | Trade-off and limit |
 | --- | --- | --- |
 | David Spinks, *The Business of Belonging* (2021), physical PDF pp.59, 62–76 and 191–197 | Adapt the connection between objectives, programme work, support and organiser effort. Retain explaining consequential changes to participants. | The business framing makes sponsor support concrete but does not make revenue the purpose of every community. Its lifecycle and numerical anecdotes are historical heuristics, not universal staffing rules. |
 | Duolingo, [announcement ending volunteer course creation](https://blog.duolingo.com/ending-honoring-our-volunteer-contributor-program-2/) | Use the company's explanation of its move to paid production as a bounded contrast: commercial conditions and standardised delivery can change an earlier voluntary arrangement. | This is a historical company account, not an independent finding about contributors' outcomes or a rule that every voluntary contribution must become paid. |
-| MA.1/2 and OPS.5/14 | Adopt actual resource dependencies, available capacity, commitment admission and incremental payment timing when these questions are unresolved. | This adds calculation where it can change the choice; a small already supported activity can use a simpler account. The calculation does not grant authority. |
-| OCE.6/11 and ECO.7 | Adopt actual assignments and enabling relations, compatibility with continuing work, and shared-resource access/upkeep arrangements. | These suppliers develop the organisational and economic work; CB.9 connects it to the participants' offer and the supporters' terms. A common purpose alone supplies none of those permissions. |
+| MA.1, MA.2, OPS.5 and OPS.14 | Adopt actual resource dependencies, available capacity, commitment admission and incremental payment timing when these questions are unresolved. | This adds calculation where it can change the choice; a small already supported activity can use a simpler account. The calculation does not grant authority. |
+| OCE.6, OCE.11 and ECO.7 | Adopt actual assignments and enabling relations, compatibility with continuing work, and shared-resource access/upkeep arrangements. | These suppliers develop the organisational and economic work; CB.9 connects it to the participants' offer and the supporters' terms. A common purpose alone supplies none of those permissions. |
 
-The current useful answer combines a community contribution with effective provision and revisable terms. It retains independent access and non-commercial support as positive options. Current provider terms, payment conditions and applicable rules must be obtained for the particular arrangement; a historical example cannot establish them.
+The method combines a community contribution with effective provision and revisable terms. It retains independent access and non-commercial support as positive options. Current provider terms, payment conditions and applicable rules must be obtained for the particular arrangement; a historical example cannot establish them.
 
 ### CB.9:12 - Relations
 
-- **CB.1** supplies the worthwhile contribution; **CB.2–5** supply the participation and work that consume resources.
-- **CB.6/7** support recognition, willing organisers and succession. CB.9 provides the work without treating recognition as compensation for an unagreed obligation.
-- **CB.8/13** supply workable expectations, complaints and community decision authority.
+- **CB.1** supplies the worthwhile contribution; **CB.2–CB.5** supply the participation and work that consume resources.
+- **CB.6 and CB.7** support recognition, willing organisers and succession. Use CB.9 to obtain the needed work under agreed terms.
+- **CB.8 and CB.13** supply workable expectations, complaints and community decision authority.
 - **CB.10** investigates value and burden; **CB.11** changes or ends an arrangement when support or purpose changes.
-- **MA.1/2**, **OPS.5/14**, **OCE.6/11** and **ECO.7** supply the dependent cost, capacity, assignment and shared-resource results described in the Solution.
+- **MA.1 and MA.2**, **OPS.5 and OPS.14**, **OCE.6 and OCE.11**, and **ECO.7** supply the dependent cost, capacity, assignment and shared-resource results described in the Solution.
 - **CB.14** can require a separately provided development project. Independent carriers can use the resulting practice without joining the funding or discussion group.
 
 ### CB.9:End
@@ -2295,7 +2295,7 @@ Distinguish the claims before selecting observations. Useful questions can conce
 
 For a cultural result, use the distinctions in CB.1 and [FPF C.36](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36---cultural-evolution-and-cultural-evolution-engineering): people carrying a practice, their opportunities to enact it and the continuation of the practice are related but different subjects. A registration or download count alone does not establish any person's capability or later use.
 
-Choose the smallest inquiry that could change the decision. An account of the last failed entry may suffice to repair a confusing invitation. A claim about programme-wide value needs a broader and appropriately selected evidence base. State the scope before a vivid case becomes a statement about everyone.
+Choose further inquiry only when an attainable answer could improve the decision enough to justify the burden of obtaining and using it. An account of the last failed entry may suffice to repair a confusing invitation. A claim about programme-wide value needs a broader and appropriately selected evidence base. State the scope before a vivid case becomes a statement about everyone.
 
 #### CB.10:4.2 - Choose observations and people who can answer
 
@@ -2390,7 +2390,7 @@ The organiser returns these cases, the preparation burden and the unresolved wid
 
 A person rarely posts in an association's forum but uses its public planning guide. An optional conversation recovers a particular plan they prepared and the parts of the guide they used. The receiving team confirms that the plan supplied the information needed for its next decision.
 
-This is useful independent use with a local receiving result. The association keeps the guide accessible and improves its correction route. It does not require the person to post in order to count as a successful user, nor infer that every download produced the same capability or result.
+This is useful independent use with a local receiving result. The association keeps the guide accessible and improves its correction route.
 
 #### CB.10:5.3 - More activity and a less useful answer
 
@@ -2402,7 +2402,7 @@ The organisers use CB.6 to change what receives recognition and CB.5 to improve 
 
 A walking group exists partly for companionship. Members describe feeling welcome, name occasions when they could join a conversation and report that a changed meeting point excluded two regular participants. The organiser checks access with those participants and restores a reachable meeting arrangement.
 
-The inquiry has changed the condition that matters. No claim about workplace performance is needed. If the group later promises a health effect, that new claim needs an appropriate evidence basis.
+If the group later promises a health effect, that new claim needs an appropriate evidence basis.
 
 #### CB.10:5.5 - Sufficient evidence for an ordinary decision
 
@@ -2459,7 +2459,7 @@ The practical comparison is between activity reporting, a bounded inquiry that c
 | Wenger-Trayner, Wenger-Trayner, Reid and Bruderlein, *Communities of Practice within and across organizations*, second edition (2023), printed pp.209–222 | Adapt the four basic value cycles, the additional strategic/enabling/orienting/transformative contributions, and the reciprocal use of stories and independently monitored indicators. Preserve negative value, incomplete stories, learning loops and proportionate collection. | Following a specific use costs more than counting attendance but can explain a contribution. A plausible contribution account is kept distinct from an identified causal effect; the source's reservations about control in complex settings do not establish that causal identification is impossible in every case. |
 | Spinks, *The Business of Belonging* (2021), physical PDF pp.130–137 and 173–175 | Adapt interviews and observations across different participation histories, including quiet users, to diagnose a concrete condition. | Reject universal engagement thresholds and the use of membership or activity correlations as evidence of causal business return. Local observations need their population, period and meaning. |
 | A.3.1.WT with its receiving A.3.1.CC, A.3.1.FT and C.11.MV questions | Adopt the distinction between planned activity, actual occurrence, conditions, burden and evidence reach when a method trial supplies the inquiry. | A formal trial is justified by its receiving question. Ordinary feedback is useful at its own scope and is not silently relabelled as such a trial. |
-| C.36, HCD, MA and C.28/RMP | Retain the distinct cultural, capability, cost and causal questions and obtain the actual supplier result when it is needed. | More specialised evidence can resolve a consequential uncertainty; demanding all of it for a simple local repair would burden participation without changing that decision. |
+| C.36, HCD, MA, C.28 and RMP | Retain the distinct cultural, capability, cost and causal questions and obtain the actual supplier result when it is needed. | More specialised evidence can resolve a consequential uncertainty; demanding all of it for a simple local repair would burden participation without changing that decision. |
 
 Guidebook source: [second-edition text](https://www.wenger-trayner.com/wp-content/uploads/2024/03/24-02-21-CoP-guidebook-second-edition-final-2.pdf), published at the 2024 URL, under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). The account here is an analytical adaptation; examples are constructed and do not imply the source authors' endorsement.
 
@@ -2468,11 +2468,11 @@ The useful contemporary combination preserves the source's positive inquiry meth
 ### CB.10:12 - Relations
 
 - **CB.1** distinguishes the cultural, participant and supporter results whose value is in question.
-- **CB.3–8/12/13** provide entry, activity, recognition, organiser support, expectations, repetition and decision arrangements that an inquiry may improve.
+- **CB.3–CB.8, CB.12 and CB.13** provide entry, activity, recognition, organiser support, expectations, repetition and decision arrangements that an inquiry may improve.
 - **CB.9** supplies resource and burden arrangements; **CB.11** uses the warranted result when choosing continuation or ending.
-- **CB.14** receives useful adaptations and failures for qualification and maintenance of the repertoire; **CB.15/16** can supply contributions whose returns need following.
+- **CB.14** receives useful adaptations and failures for qualification and maintenance of the repertoire; **CB.15 and CB.16** can supply contributions whose returns need following.
 - **C.36** supplies cultural distinctions, **HCD** a needed capability judgement, and **MA** a needed resource or cost account.
-- **A.3.1.WT** supplies formal trial evidence when selected; **C.28/RMP** govern an unresolved causal or research question.
+- **A.3.1.WT** supplies formal trial evidence when selected; **C.28 and RMP** govern an unresolved causal or research question.
 
 ### CB.10:End
 
@@ -2526,7 +2526,7 @@ Recover the affected arrangement. Which work will stop or change? Who relies on 
 
 Distinguish control over components. A platform owner can decide what it provides; an organiser can end their own contribution; an authorised community body can decide matters within its mandate. Independent participants still decide what they are willing and able to do together. Use CB.13 when the collective decision arrangement itself is missing or disputed.
 
-Respond to an immediate harmful or unsupported condition through the applicable owner and CB.8/9. A necessary short-term suspension can protect participants while the larger choice remains open. State what is suspended and where people can obtain the remaining response.
+Respond to an immediate harmful or unsupported condition through the applicable owner, using CB.8 or CB.9 according to the problem. A necessary short-term suspension can protect participants while the larger choice remains open. State what is suspended and where people can obtain the remaining response.
 
 #### CB.11:4.2 - Recover the useful work and the means of obtaining it
 
@@ -2619,7 +2619,7 @@ In the first preparation attempt, the new organiser cannot obtain the room key a
 
 The founder settles the old platform's remaining payment and returns borrowed equipment through their owners. An unfinished participant complaint retains its agreed receiver and response date, with a contact that remains reachable after closure. Before the platform closes, its entry page and a notice to participants give the ending date, the guide's independent address and the optional new group's contact route.
 
-The result is a smaller activity with working support and continued access to the guide. It does not show that every former member moved or that the relationships will persist indefinitely. The new organisers review the next two meetings against their available time.
+The result is a smaller activity with working support and continued access to the guide. The new organisers review the next two meetings against their available time.
 
 #### CB.11:5.2 - Separate purposes with a remaining shared resource
 
@@ -2639,11 +2639,11 @@ The organiser confirms maintenance and correction support for the guide, settles
 
 A seasonal field group cannot obtain the authorised site access needed for its next activity. It pauses field meetings until a named access decision or a stated review date. A willing receiver handles current enquiries and tells participants which alternatives are available.
 
-At the review date, access is still unavailable and no capable host can provide the alternative site. The group ends the field programme for that season, returns the borrowed equipment and leaves permitted guidance accessible. The pause did not become an indefinite promise that nobody could fulfil.
+At the review date, access is still unavailable and no capable host can provide the alternative site. The group ends the field programme for that season, returns the borrowed equipment and leaves permitted guidance accessible.
 
 #### CB.11:5.5 - Ordinary continuation
 
-A reading circle still serves its purpose, its host remains willing, and the room and materials remain available. It continues under the existing terms. A label such as “mature community” supplies no reason to split, professionalise or replace it.
+A reading circle still serves its purpose, its host remains willing, and the room and materials remain available. It continues under the existing terms.
 
 ### CB.11:6 - Bias-Annotation
 
@@ -2679,7 +2679,7 @@ A successful first use establishes that transfer at its observed scope. Continue
 
 ### CB.11:9 - Consequences
 
-Useful work can continue through a smaller arrangement, another host, independent access or different groups. People can leave organising roles without pretending that their former work will perform itself, and an ending can release resources while preserving worthwhile contributions.
+Useful work can continue through a smaller arrangement, another host, independent access or different groups. Organisers can leave with their remaining work transferred or ended, and an ending can release resources while preserving worthwhile contributions.
 
 A transition consumes time and can reduce participation or lose a valued form. Some permissions or capabilities cannot be transferred. Making these limits explicit allows the remaining activity to be credible and gives people a real choice among what is still possible.
 
@@ -2698,7 +2698,7 @@ The comparison concerns the work needed to carry a useful contribution through c
 | Spinks, *The Business of Belonging* (2021), physical PDF pp.68–76 | Adapt the recognition that growing diversity can justify local groups, distributed responsibility and changed support. | Treat the tree/lifecycle account as a historical organising heuristic. Reject mandatory growth, a fixed progression or the assumption that every group should remain under one umbrella. |
 | Wenger-Trayner et al., *Communities of Practice within and across organizations*, second edition (2023), printed pp.118–119 and 125–128 | Adapt attention to relationships and the wider context, and the choice of development that members actually need. | Stronger identity or external alignment can help particular uses while creating burdens or exclusion. Neither is an obligatory maturity destination. |
 | C.36 and C.36.RP | Adopt the distinction between the availability of a result and the means to obtain, interpret and adapt a practice; use a receiving task to expose a missing contribution. | This can require explanation, learning or a different provider. A copied archive is cheaper but may leave the needed work unavailable. Later cultural persistence remains a separate evidence question. |
-| ECO.7/9, OCE.14 and CB.7/9/13 | Use actual resource rules, organisational revision, willing succession, provision and mandate where the transition depends on them. | A supported handover can be small; a change of shared economic rules needs its wider dependencies addressed. |
+| ECO.7, ECO.9, OCE.14, CB.7, CB.9 and CB.13 | Use actual resource rules, organisational revision, willing succession, provision and mandate where the transition depends on them. | A supported handover can be small; a change of shared economic rules needs its wider dependencies addressed. |
 
 Guidebook source: [second-edition text](https://www.wenger-trayner.com/wp-content/uploads/2024/03/24-02-21-CoP-guidebook-second-edition-final-2.pdf), published at the 2024 URL, under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). The treatment here analytically adapts its distinctions; the cases are constructed and do not imply endorsement by the source authors.
 
@@ -2707,11 +2707,11 @@ The useful answer is a choice tied to present work and viable transition, suppor
 ### CB.11:12 - Relations
 
 - **CB.1** reopens a changed purpose; **CB.10** supplies a warranted account of benefit, burden and missing evidence.
-- **CB.7/9** provide willing successors, support and terms; **CB.8/13** supply response to participant matters and legitimate collective decisions.
+- **CB.7 and CB.9** help obtain willing successors, support and terms; **CB.8 and CB.13** guide responses to participant matters and legitimate collective decisions.
 - **CB.14** maintains a shared repertoire; **CB.15** can help establish a useful relation with a successor group; **CB.16** can carry a needed external request.
 - **C.36.RP** develops the means of obtaining and using a shared method; **C.36** supplies the broader cultural-continuation question.
 - **HCD and Core Method-development patterns** supply missing acquisition or method development when a handover exposes that need.
-- **ECO.7/9** and **OCE.14** develop changes to shared resources, economic rules or organisational arrangements.
+- **ECO.7, ECO.9 and OCE.14** develop changes to shared resources, economic rules or organisational arrangements.
 
 ### CB.11:End
 
@@ -2785,7 +2785,7 @@ Ask for the participant's account rather than inferring a motive from silence. A
 
 Where an explanation remains uncertain, choose a small change or observation that can distinguish the live alternatives. For example, making the return link available at case closure can test a findability problem; sending more reminders while the response team is absent tests no useful repair. Preserve the other relevant conditions so that the observation remains interpretable, and keep its conclusion local.
 
-If the expected benefit is unclear, ask what the person hoped the episode would settle and what remained afterwards. Compare plausible results rather than selecting a reward in advance. A maintained explanation may settle one question; another needs a peer to inspect unfamiliar conditions; a desired social encounter can have a different useful result. Agree a small trial of the relevant alternative through CB.1/5, then use the person's account and the receiving result to decide whether the original action is still worth repeating.
+If the expected benefit is unclear, ask what the person hoped the episode would settle and what remained afterwards. Compare plausible results rather than selecting a reward in advance. A maintained explanation may settle one question; another needs a peer to inspect unfamiliar conditions; a desired social encounter can have a different useful result. Agree a small trial of the relevant alternative using the applicable guidance in CB.1 and CB.5, then use the person's account and the receiving result to decide whether the original action is still worth repeating.
 
 Compare episodes that led to useful action with ones that did not. Look for the event that made the need apparent and the conditions in which the person could respond. Distinguish a potentially useful cue from a merely coincident feature: a notification may have arrived every day, while the actual occasion was completion of a case. Choose the next observation to separate the plausible explanations; treat an unresolved pattern as uncertainty rather than a personal defect.
 
@@ -2855,7 +2855,7 @@ One episode can be complete with a short account of what was tried, the resultin
 
 At later relevant closures, the participant can use the link without a separate platform reminder. This supports retaining the simpler arrangement. It shows useful returns under those conditions; it does not establish a general habit-strength value or a community-wide causal effect.
 
-If the participant begins the return but lacks a confirmed outcome, the remedy is to wait for or obtain that information. Another notification cannot supply it.
+If the participant begins the return but lacks a confirmed outcome, the remedy is to wait for or obtain that information.
 
 #### CB.12:5.2 - A rare need requires access, not daily participation
 
@@ -2865,7 +2865,7 @@ The repairer instead needs an easy-to-find request route, a permitted way to pre
 
 The repairer does not visit on days when no such question occurs. When a suitable case does arise, they use the route. A later case needing an urgent response uses the accountable service instead. The arrangement has improved access to help without adopting a daily habit as its objective.
 
-If no one can answer the relevant class of question, the organiser changes the promised scope. Increased reminders would make the unsupported promise more intrusive.
+If no one can answer the relevant class of question, the organiser changes the promised scope.
 
 #### CB.12:5.3 - A changed schedule interrupts completion
 
@@ -2873,7 +2873,7 @@ A volunteer has been checking a shared reference for one obsolete link after a r
 
 They distinguish remembering from completion. The volunteer chooses a different available interval and keeps the bounded task. A maintainer remains available for corrections that the volunteer cannot judge or publish. The next episode supplies a checked correction without increasing the number of reminders.
 
-If the task itself has changed and the person cannot assess the material, the community obtains the needed subject judgement or learning contribution. Repeating the old action more frequently would not restore its adequacy.
+If the task itself has changed and the person cannot assess the material, the community obtains the needed subject judgement or learning contribution.
 
 #### CB.12:5.4 - End a reminder while preserving the useful result
 
@@ -2891,7 +2891,7 @@ They compare recent episodes. The member read an update at home and missed the m
 
 For the next suitable weekly exchange, the member agrees to try a short inspection of their pending case with a competent respondent. The usual invitation, time and place remain; the first part of the meeting is reserved for that case instead of the general round of updates. They judge the trial by whether the member leaves with a usable next step and its limits. If the reference alone settles the question beforehand, they can report that and release the slot.
 
-The trial produces a bounded next step that the member can use. They choose to retain the digest for updates and, at their regular preparation of workshop work, check whether an unsettled case merits a request for the next exchange. The organiser keeps a respondent available for that promised use. They do not make attendance every week the target.
+The trial produces a bounded next step that the member can use. They choose to retain the digest for updates and, at their regular preparation of workshop work, check whether an unsettled case merits a request for the next exchange. The organiser keeps a respondent available for that promised use.
 
 This supplies a practical reason to separate the two actions and occasions. It does not establish that case inspection caused attendance: the participant expected special attention, and personal contact may still matter. A later episode in which a case remains unresolved, no respondent is available or the member wants company rather than advice changes the next arrangement.
 
@@ -2945,7 +2945,7 @@ The person also retains a reason to choose whether the action should continue. A
 | Duhigg, The Power of Habit, reader's appendix, printed 275–286 | A practical historical approach to identifying an existing routine, examining its expected result and occasion, then trying a changed plan. | Use inquiry and revisable trials; the account supplies neither a universal change formula nor a fixed repetition deadline. |
 | Eyal, Hooked for the Enterprise, Trigger–Investment | Connect accessible action with value accumulated through use. | Retain useful material or connections for the person. Commercial retention, induced pressure and compulsory variable rewards are not the criteria for this voluntary practice. |
 | Stojanovic, Grund and Fries (2022), context-stability studies | Distinguish repetition, automaticity, starting context and conditions during performance. | Self-reported intentional habits in the studied populations inform a bounded design question. They do not establish the effect of a community intervention or make attendance an automaticity measure. |
-| HCD.3:4.1–4.3 and HCD.15:4.1–4.7 | Compare human and non-training explanations; connect continuing development with meaningful triggers, support and evidence. | Apply these suppliers when capability or professional development is the receiving question. They do not replace the particular participation arrangement. |
+| HCD.3:4.1–HCD.3:4.3 and HCD.15:4.1–HCD.15:4.7 | Compare human and non-training explanations; connect continuing development with meaningful triggers, support and evidence. | Apply these suppliers when capability or professional development is the receiving question. They do not replace the particular participation arrangement. |
 
 Compared with a general reminder or reward programme, the method asks for more explanation of the wanted action and the failed condition. It can then remove unnecessary prompts or stop an unsupported activity. An existing routine or an accessible one-time route is preferable when it already serves the person adequately.
 
@@ -2953,9 +2953,9 @@ Source returns: [Spinks](https://www.wiley-vch.de/en/areas-interest/finance-econ
 
 ### CB.12:12 - Relations
 
-- **Uses CB.1/5:** a worthwhile result, an available contribution and its returned use.
-- **Uses CB.3/4:** attainable participation and a setting in which the action can be completed.
-- **Combines with CB.6:** a meaningful acknowledgement where useful, without making recognition the whole repeated-action construction.
+- **Uses CB.1 and CB.5:** a worthwhile result, an available contribution and its returned use.
+- **Uses CB.3 and CB.4:** attainable participation and a setting in which the action can be completed.
+- **Combines with CB.6:** a meaningful acknowledgement where useful.
 - **Uses [HCD.3 (HCD.3:4)](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd34---solution):** diagnosis when a possible human limitation must be compared with conditions and non-training explanations.
 - **Uses [HCD.15 (HCD.15:4)](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd154---solution):** a continuing professional-development arrangement when later capability is the result.
 - **Returns to CB.1:** a different contribution or simpler route now serves the person better.
@@ -3010,7 +3010,7 @@ Identify whose work, resources, access or accepted commitments each decision wou
 
 Distinguish a community preference from a separate permission or professional judgement. A group can prefer a venue while its owner determines whether it is available. Members can choose a service aim while a qualified provider determines whether a particular promised performance is supportable. Obtain each result through its actual holder.
 
-Make the smallest useful boundary explicit. State which questions the proposed arrangement can decide, which remain local and which must return elsewhere. If there is no common decision after that separation, use direct agreements or the existing activity owner rather than creating a general governing body.
+State which questions the proposed arrangement can decide, which remain local and which must return elsewhere. If there is no common decision after that separation, use direct agreements or the existing activity owner rather than creating a general governing body.
 
 #### CB.13:4.2 - Recover the authority that already exists
 
@@ -3077,7 +3077,7 @@ An existing small team can consider the Core Protocols' [Decider](https://thecor
 
 Use the complete primary instructions when performing the method. One action proposal receives simultaneous yes, no or support responses. An absolute refusal requires the proposer to withdraw the proposal. Resolution addresses a small remaining dissent when the effort is worthwhile. The proposer asks each dissenter for the precise change needed, adopts it or withdraws the proposal. A simple amendment requires checking that everyone is still in; accepting a complex amendment requires withdrawal and a new proposal containing the change. This supplies a concrete way to handle agreement on an action. The team's mandate, resource permissions and challenge route remain necessary.
 
-Select this option only where those participation terms and limits on discussion fit the decision. If people need to abstain from individual votes, explain their reasons during the vote or avoid obligations for decisions made while absent, choose another agreed method under :4.5. Do not remove such source conditions while claiming to use unchanged Decider. People can decline this arrangement before adopting it without losing their wider community participation.
+Select this option only where those participation terms and limits on discussion fit the decision. If people need to abstain from individual votes, explain their reasons during the vote or avoid obligations for decisions made while absent, choose another agreed method under CB.13:4.5. Do not remove such source conditions while claiming to use unchanged Decider. People can decline this arrangement before adopting it without losing their wider community participation.
 
 #### CB.13:4.6 - Adopt the arrangement and make it effective
 
@@ -3151,7 +3151,7 @@ The proposal and its reasons remain available. The current authorised member bod
 
 Independent repairers use the same published technique and send occasional corrections to its maintainer. They have no joint budget, common service promise or need for decisions binding the users. The maintainer controls the publication under its actual arrangements; each repairer controls their own practice.
 
-Creating a council of all users would add a representational claim and decision work that the present use does not require. They keep the explanation, correction and learning routes from CB.1/5. A later proposal for a joint service would create a new, bounded governance question.
+Creating a council of all users would add a representational claim and decision work that the present use does not require. They keep the explanation, correction and learning routes from CB.1 and CB.5. A later proposal for a joint service would create a new, bounded governance question.
 
 #### CB.13:5.6 - A small team selects the protocol, a wider forum does not
 
@@ -3214,13 +3214,13 @@ The practice question is how to establish a decision arrangement for common work
 
 | Source or developed treatment | Contribution adopted or adapted | Limit that changes use |
 | --- | --- | --- |
-| [Community Canvas Guidebook (2017)](https://github.com/communitycanvas/documents/blob/master/CommunityCanvas-Guidebook.pdf), pp.47–49. | Use its historical repertoire of decision bodies, sources of mandate, mixed local/common decisions and conflicts involving decision-makers to develop :4.1–4.6. | Founder status, election and employment require their actual basis. Claims of universally faster central decisions or more trusted decentralisation do not select the form. |
-| Core Protocols: Decider, Resolution, Pass and the Core Commitments, linked in :4.5.1. | A qualified external option for a small adopting team; :5.6 contrasts it with a wider voluntary forum. | The procedure supplies neither a mandate over non-adopters nor a universal advantage. Its full source obligations remain selection conditions. |
-| OCE.14:4.1–4.6 and its expired-chair case. | Recover a current owner, compare complete alternatives and make an authorised revision effective; :4.2/:4.6–4.7 preserves that boundary. | OCE.14 revises an established organisation. The missing initial or renewed mandate must be established here or through the relevant institution. |
-| ECO.7:4–5. | Test resource-use and upkeep rules with a normal allocation and a changed condition; :4.5 and :5.3 keep that actual resource question. | Copyable knowledge, scarce mentor time and physical resources have different constraints; a resource rule alone creates no general governing right. |
-| [Leibmann et al., “Reddit Rules and Rulers” (2025, v2)](https://arxiv.org/abs/2501.14163v2), discussion and limitations. | Keep stated rules, actual governance and expressed reactions distinct when following :4.7's results. | The study does not select a constitutional form or show that adopting one produces trust. |
+| [Community Canvas Guidebook (2017)](https://github.com/communitycanvas/documents/blob/master/CommunityCanvas-Guidebook.pdf), pp.47–49. | Use its historical repertoire of decision bodies, sources of mandate, mixed local/common decisions and conflicts involving decision-makers when constructing and establishing the decision arrangement. | Founder status, election and employment require their actual basis. Claims of universally faster central decisions or more trusted decentralisation do not select the form. |
+| Core Protocols: Decider, Resolution, Pass and the Core Commitments, linked in CB.13:4.5.1. | A qualified external option for a small adopting team; CB.13:5.6 contrasts it with a wider voluntary forum. | The procedure supplies neither a mandate over non-adopters nor a universal advantage. Its full source obligations remain selection conditions. |
+| OCE.14:4.1–OCE.14:4.6 and its expired-chair case. | Recover a current owner, compare complete alternatives and make an authorised revision effective. | OCE.14 revises an established organisation. The missing initial or renewed mandate must be established here or through the relevant institution. |
+| ECO.7:4–ECO.7:5. | Test resource-use and upkeep rules with a normal allocation and a changed condition. | Copyable knowledge, scarce mentor time and physical resources have different constraints; a resource rule alone creates no general governing right. |
+| [Leibmann et al., “Reddit Rules and Rulers” (2025, v2)](https://arxiv.org/abs/2501.14163v2), discussion and limitations. | Keep stated rules, actual governance and expressed reactions distinct when following CB.13:4.7's results. | The study does not select a constitutional form or show that adopting one produces trust. |
 
-Decider with Resolution offers a specified proposal-and-amendment procedure for a small team that accepts its commitments. The more general construction in :4.5 remains preferable where participants need different deliberation or withdrawal conditions. Neither option gains authority from its procedure alone.
+Decider with Resolution offers a specified proposal-and-amendment procedure for a small team that accepts its commitments. The more general construction in CB.13:4.5 remains preferable where participants need different deliberation or withdrawal conditions. Neither option gains authority from its procedure alone.
 
 An existing adequate owner with consultation is a serious alternative to a new representative body. Independent practice without binding common decisions is another. A more elaborate form earns its cost only by supplying a needed shared decision and workable correction.
 
@@ -3229,7 +3229,7 @@ Reopen when a mandate expires, a common subject or affected constituency changes
 ### CB.13:12 - Relations
 
 - **CB.1** identifies the useful common activity or independent-practice alternative. **CB.7** prepares organisers to work within the resulting mandate; **CB.8** handles rules and incidents under it.
-- **CB.4/5** supplies discussion and subject contributions for a decision. Receiving those contributions and authorising the decision remain different acts. The Core Protocols option in :4.5.1 supplies a particular decision procedure only within an adopted arrangement.
+- **CB.4 and CB.5** supply discussion and subject contributions for a decision. Receiving those contributions and authorising the decision remain different acts. The Core Protocols option in CB.13:4.5.1 supplies a particular decision procedure only within an adopted arrangement.
 - [OCE.2:4](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce24---solution) recovers actual work and authority conditions. [OCE.6](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce6---establish-holder-assignments-and-enabling-relations-for-organization-change) obtains assignments and enabling relations.
 - [LDR.1:4.4](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/LEADERSHIP-PRINCIPLES-FRAMEWORK.md#ldr144---perform-the-smallest-sufficient-working-conversation) supplies a working conversation; [OCE.14:4](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce144---solution) revises an existing organisation under its current decision basis.
 - [ECO.7:4](https://github.com/ailev/FPF/blob/main/DPFs/ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco74---solution) supplies common-resource rule construction. Corporate or regulated questions return to their applicable governance and professional authorities.
@@ -3304,7 +3304,7 @@ Use a stable scale only when its meanings and progression fit a sufficiently sta
 
 #### CB.14:4.3 - Choose work that fits the size of the contribution
 
-Select the smallest undertaking that can obtain the wanted result.
+Select the undertaking from the wanted result, available time and skills, and the total work needed to obtain the contribution and perform any required maintenance. Use an adequate existing account when it already answers the receiving question.
 
 | Situation | Useful undertaking | Return that makes it worthwhile |
 | --- | --- | --- |
@@ -3343,7 +3343,7 @@ Use A.3.1.WT to arrange and observe actual trials when method evidence is needed
 
 Observe the work as well as the verdict. Record what was tried, the result, effort, assistance, departures and unresolved difficulty. An expert's intervention may reveal missing instruction or a needed capability condition. A participant's approval may explain their preference while leaving effectiveness uncertain.
 
-Return observations to the needed Core's Method-development family judgement: A.3.1.CC checks coherence, A.3.1.FT judges fit or transfer, and C.11.MV compares practical worth against current alternatives. For causal explanations, keep the RMP question and evidence requirements in view. The community can coordinate these returns without turning every exchange into a research project.
+Return observations for the applicable judgement in Core's Method-development family: A.3.1.CC checks coherence, A.3.1.FT judges fit or transfer, and C.11.MV compares practical worth against current alternatives. For causal explanations, keep the RMP question and evidence requirements in view. The community can coordinate these returns without turning every exchange into a research project.
 
 Revise the affected explanation or conditions and try the changed use when its earlier result no longer applies. Preserve valid observations from unchanged uses. If the contribution remains unusable, return that result and the exact missing work; do not require the receiving practitioners to adopt it to complete the project.
 
@@ -3443,7 +3443,7 @@ The method consumes time for recovery, disagreement, testing and maintenance. Th
 
 ### CB.14:10 - Rationale
 
-Repeated practical trouble is a useful entry because it links development to a receiving task. Comparing contexts then helps distinguish a missing explanation, a transferable contribution and a condition that belongs to another owner. This avoids asking one document to solve every difficulty.
+Repeated practical trouble is a useful entry because it links development to a receiving task. Comparing contexts then helps distinguish a missing explanation, a transferable contribution and a condition that belongs to another owner.
 
 Community judgement and method evidence have different jobs. Participants can establish priorities and sponsor a contribution. Qualified development and observation establish what users may reasonably expect from the resulting way of working. Connecting those returns preserves both practitioner influence and warranted claims.
 
@@ -3453,8 +3453,8 @@ The practice question is how a community can improve a reusable repertoire witho
 
 | Source or developed treatment | Choice and effect in this pattern | Limit and accepted cost |
 | --- | --- | --- |
-| Etienne Wenger-Trayner, Beverly Wenger-Trayner, Phil Reid and Claude Bruderlein, *Communities of practice within and across organizations*, second edition (2023), pp.112–114 and 157–162. | **Adapt** joint documentation, mutual benchmarking and practice-development projects in :4.2–4.6. Keep practitioners involved while allowing dedicated writing and a temporary team. | This practical repertoire does not establish causal effectiveness or a universal maturity ladder. Stable scales suit stable practices; qualification and contrasting uses add effort. |
-| C.39.RP, A.3.1.DR, A.3.1.QM, C.32.MWA.PP, B.1.5.CM and A.3.2.DE, A.3.1.WT, A.3.1.CC, A.3.1.FT and C.11.MV and A.3.1.MV:4.1–4.3. | **Adopt** recovered source contributions, explicit method proposals, claims qualified for their uses, actionable descriptions, observed trials and bounded maintenance. These repair the gap between agreement to publish and a contribution fit for use. | Invoke the needed contribution; an ordinary advice exchange does not need a complete method-development programme. A candidate retains its unresolved status. |
+| Etienne Wenger-Trayner, Beverly Wenger-Trayner, Phil Reid and Claude Bruderlein, *Communities of practice within and across organizations*, second edition (2023), pp.112–114 and 157–162. | **Adapt** joint documentation, mutual benchmarking and practice-development projects in CB.14:4.2–CB.14:4.6. Keep practitioners involved while allowing dedicated writing and a temporary team. | This practical repertoire does not establish causal effectiveness or a universal maturity ladder. Stable scales suit stable practices; qualification and contrasting uses add effort. |
+| C.39.RP, A.3.1.DR, A.3.1.QM, C.32.MWA.PP, B.1.5.CM, A.3.2.DE, A.3.1.WT, A.3.1.CC, A.3.1.FT, C.11.MV and A.3.1.MV:4.1–A.3.1.MV:4.3. | **Adopt** recovered source contributions, explicit method proposals, claims qualified for their uses, actionable descriptions, observed trials and bounded maintenance. These repair the gap between agreement to publish and a contribution fit for use. | Invoke the needed contribution; an ordinary advice exchange does not need a complete method-development programme. A candidate retains its unresolved status. |
 | RMP.1:4 and OCE.11:4, with OPS.5:4. | **Adopt** a sufficient-source stop and the explicit provision of sustained work. **Reject** starting a study merely because the question is unfamiliar or treating volunteered interest as available capacity. | The community accepts a missing-input or uncertainty return when the required knowledge or provision cannot be obtained. |
 
 The Guidebook contribution above is an analytical adaptation with attribution to its authors, under its [CC BY-NC 4.0 licence](https://creativecommons.org/licenses/by-nc/4.0/). The [source text](https://www.wenger-trayner.com/wp-content/uploads/2024/03/24-02-21-CoP-guidebook-second-edition-final-2.pdf) supplies the practical forms; this pattern adds the constructed cases and supplier connections.
@@ -3470,7 +3470,7 @@ Reopen this selection when the recurring use changes, new evidence defeats a met
 - [A.3.1.WT (FPF A.3.1.WT:4)](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31wt4---solution) supplies trials. [A.3.1.CC (FPF A.3.1.CC:4)](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31cc4---solution), [A.3.1.FT (FPF A.3.1.FT:4)](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31ft4---solution) and [C.11.MV (FPF C.11.MV:4)](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11mv4---solution) supply coherence, fit or transfer, and practical-worth judgements respectively; [A.3.1.MV (FPF A.3.1.MV:4)](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31mv4---solution) maintains the repertoire.
 - [RMP.1 (RMP.1:4)](https://github.com/ailev/FPF/blob/main/DPFs/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp14---solution) distinguishes a sufficient answer from a research contribution and returns the remaining question.
 - [OCE.11 (OCE.11:4)](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce114---solution) supplies workable overlap with continuing commitments; [OPS.5 (OPS.5:4)](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops54---solution) supplies admission when an operating provider must accept the work.
-- **HCD** supplies the particular learning contribution needed to use a known method; **CB.10/11** connects observed value with continuation, transfer or ending.
+- **HCD** supplies the particular learning contribution needed to use a known method; **CB.10 and CB.11** connect observed value with continuation, transfer or ending.
 
 ### CB.14:End
 
@@ -3489,7 +3489,7 @@ The governed object is a bounded connection between practices: the useful joint 
 
 **What changes in practice:** contact develops into work that each side can use. People can discover differences through a concrete case, correct a misunderstanding and choose a proportionate continuation.
 
-A friendly introduction or shared event may already meet the purpose through CB.2/4. A sufficient published answer may need only source use through CB.5. Use this pattern when different practices must contribute to the result and the connection itself needs construction. A joint decision mandate belongs to CB.13; a collective external position belongs to CB.16.
+A friendly introduction or shared event may already meet the purpose through CB.2 or CB.4. A sufficient published answer may need only source use through CB.5. Use this pattern when different practices must contribute to the result and the connection itself needs construction. A joint decision mandate belongs to CB.13; a collective external position belongs to CB.16.
 
 ### CB.15:2 - Problem
 
@@ -3606,7 +3606,7 @@ One practitioner from each group and the intake organiser compare two permitted 
 
 They preserve two states: “information supplied” and “workshop accepted”. The request includes the owner's question and known context, with missing information stated. The workshop's intake owner retains the decision to accept work. Its existing service conditions and available capacity remain applicable.
 
-For the next request, the technician can identify a missing model detail and returns that question through the agreed contact. The volunteer obtains the information, and the workshop then accepts the case. The two groups keep the distinction and contact route. They have improved that referral; they have not committed the workshop to accept every future request.
+For the next request, the technician can identify a missing model detail and returns that question through the agreed contact. The volunteer obtains the information, and the workshop then accepts the case. The two groups keep the distinction and contact route. They have improved that referral.
 
 If demand grows beyond the contact's availability, they revisit provision before promising routine service.
 
@@ -3680,9 +3680,9 @@ The practice question is how to obtain a useful contribution across communities 
 
 | Source or developed treatment | Choice and effect in this pattern | Limit and accepted cost |
 | --- | --- | --- |
-| Etienne Wenger-Trayner, Beverly Wenger-Trayner, Phil Reid and Claude Bruderlein, *Communities of practice within and across organizations*, second edition (2023), pp.180–183. | **Adapt** useful initial activities, boundary projects and practitioner-guided visits in :4.1–4.3/:4.5. **Reject** substituting general host presentations for the work the visit needs to reveal. | The guide supplies practical constructions and experience, not a guaranteed trust or performance effect. Obtaining relevant access and returning the result adds preparation. |
-| LDR.1:4.2–4.4 and OCE.11:4. | **Adopt** capable participants, a working brief, handling a changed situation and explicit coexistence with continuing work. :4.3/:4.7 obtains the conditions for the promised contribution. | Obtain the necessary authority and capacity from their actual owners. |
-| F.9:4 and A.3.1.FT:4. | **Adopt** separate local meanings and a bounded translation use when recurring semantic correspondence matters. :4.4/:4.5 preserves the further work needed to use an observed practice. | Formal semantic comparison is needed only for the claim that depends on it; it does not create the social connection or establish professional transfer. |
+| Etienne Wenger-Trayner, Beverly Wenger-Trayner, Phil Reid and Claude Bruderlein, *Communities of practice within and across organizations*, second edition (2023), pp.180–183. | **Adapt** useful initial activities, boundary projects and practitioner-guided visits in CB.15:4.1–CB.15:4.3 and CB.15:4.5. **Reject** substituting general host presentations for the work the visit needs to reveal. | The guide supplies practical constructions and experience, not a guaranteed trust or performance effect. Obtaining relevant access and returning the result adds preparation. |
+| LDR.1:4.2–LDR.1:4.4 and OCE.11:4. | **Adopt** capable participants, a working brief, handling a changed situation and explicit coexistence with continuing work. | Obtain the necessary authority and capacity from their actual owners. |
+| F.9:4 and A.3.1.FT:4. | **Adopt** separate local meanings and a bounded translation use when recurring semantic correspondence matters; use A.3.1.FT to qualify the fit or transfer of an observed method. | Formal semantic comparison is needed only for the claim that depends on it; it does not create the social connection or establish professional transfer. |
 
 The Guidebook contribution is an analytical adaptation with attribution to its authors, under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/); see the [source text](https://www.wenger-trayner.com/wp-content/uploads/2024/03/24-02-21-CoP-guidebook-second-edition-final-2.pdf). The constructed cases and supplier connections are this pattern's development.
 
@@ -3747,7 +3747,7 @@ Ask practitioners what difference they need. Describe the receiving task or resu
 
 Use STR.5 when the contribution itself is unclear. It connects a recipient's need with a worthwhile result and the capability and resources that could sustain provision. Compare a serious alternative, such as an earlier bounded review, a later specialist service or a different provider. Keep the conditions each proposal needs.
 
-Separate the community's aspiration from the facts on which it relies. Cases may demonstrate a recurring missing input without proving the effect of a proposed new arrangement. Obtain a sufficient source answer or the needed inquiry through CB.14/RMP where that stronger claim determines the choice.
+Separate the community's aspiration from the facts on which it relies. Cases may demonstrate a recurring missing input without proving the effect of a proposed new arrangement. Obtain a sufficient source answer or the needed inquiry through the applicable guidance in CB.14 and RMP where that stronger claim determines the choice.
 
 If the decision is already closed, establish what can still change: implementation, correction, a later review or a new decision. Do not offer participants a choice that the recipient has no authority or opportunity to make.
 
@@ -3853,11 +3853,11 @@ A platform invites comments from repair practitioners on a proposed information 
 
 The willing contributors submit a joint technical account in their own names, stating the settings their examples cover and the limits of their agreement. They make the permitted account available for others to use or challenge. The response is a real contribution; it is not presented as the view of all repairers.
 
-A later proposal to maintain an ongoing representative relationship would require a mandate and provision through CB.13. The earlier signatures do not settle that new question.
+A later proposal to maintain an ongoing representative relationship would require a mandate and provision through CB.13.
 
 #### CB.16:5.4 - A request already within the organiser's assignment
 
-A club needs its existing room booking corrected. The authorised organiser contacts the venue, obtains the correction and informs participants. The task is complete under the existing assignment. It does not need a new collective position or representation process.
+A club needs its existing room booking corrected. The authorised organiser contacts the venue, obtains the correction and informs participants. The task is complete under the existing assignment.
 
 ### CB.16:6 - Bias-Annotation
 
@@ -3908,9 +3908,9 @@ The practice question is how a community can make its expertise and shared inter
 
 | Source or developed treatment | Choice and effect in this pattern | Limit and accepted cost |
 | --- | --- | --- |
-| Etienne Wenger-Trayner, Beverly Wenger-Trayner, Phil Reid and Claude Bruderlein, *Communities of practice within and across organizations*, second edition (2023), pp.112–115 and 179. | **Adapt** stewardship of a domain and a joint response in :4.1–4.3. Preserve disagreement while articulating the professional contribution a decision could use. | Reputation and a learning opportunity do not establish representation authority. Recovering positions and obtaining a mandate add effort to the source's joint-response form. |
-| STR.5:4 and LDR.1:4.4. | **Adopt** contribution, recipient, support and alternatives, then use a prepared working conversation. :4.1/:4.3/:4.5 makes the request actionable and handles a changed proposal. | A strategic proposal remains conditional where provision is missing; conversation does not make the recipient's decision. |
-| CB.13:4, compared with an informal spokesperson arrangement. | **Adopt** actual mandate, bounded discretion and reconsideration in :4.4/:4.6. **Reject** inferring community authority from expertise, visibility or an invitation. | The scope must fit the real constituency. A smaller attributed contribution is available when the broader mandate cannot be obtained. |
+| Etienne Wenger-Trayner, Beverly Wenger-Trayner, Phil Reid and Claude Bruderlein, *Communities of practice within and across organizations*, second edition (2023), pp.112–115 and 179. | **Adapt** stewardship of a domain and a joint response in CB.16:4.1–CB.16:4.3. Preserve disagreement while articulating the professional contribution a decision could use. | Reputation and a learning opportunity do not establish representation authority. Recovering positions and obtaining a mandate add effort to the source's joint-response form. |
+| STR.5:4 and LDR.1:4.4. | **Adopt** contribution, recipient, support and alternatives, then use a prepared working conversation to make the request actionable and handle a changed proposal. | A strategic proposal remains conditional where provision is missing; conversation does not make the recipient's decision. |
+| CB.13:4, compared with an informal spokesperson arrangement. | **Adopt** actual mandate, bounded discretion and reconsideration in CB.16:4.4 and CB.16:4.6. **Reject** inferring community authority from expertise, visibility or an invitation. | The scope must fit the real constituency. A smaller attributed contribution is available when the broader mandate cannot be obtained. |
 
 The Guidebook contribution is an analytical adaptation with attribution to its authors, under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/); see the [source text](https://www.wenger-trayner.com/wp-content/uploads/2024/03/24-02-21-CoP-guidebook-second-edition-final-2.pdf). The constructed cases and mandate connections are developed here.
 
@@ -3918,7 +3918,7 @@ Reopen the selected approach when the receiving decision changes, a missing cons
 
 ### CB.16:12 - Relations
 
-- **CB.1** recovers the need and participants; **CB.5/14** supplies the relevant expert or method contribution. **CB.6** recognises a contribution but does not establish a collective voice.
+- **CB.1** recovers the need and participants; **CB.5 and CB.14** supply the relevant expert or method contribution.
 - **CB.13** supplies the common decision arrangement and representation mandate. **CB.15** connects different communities when they need a shared response.
 - [STR.5:4](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/STRATEGY-PRINCIPLES-FRAMEWORK.md#str54---solution) develops the worthwhile contribution and supporting conditions.
 - [LDR.1:4.4](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/LEADERSHIP-PRINCIPLES-FRAMEWORK.md#ldr144---perform-the-smallest-sufficient-working-conversation) supplies preparation and the working exchange. [OCE.14 (OCE.14:4)](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce144---solution) revises an existing arrangement; [OCE.6](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce6---establish-holder-assignments-and-enabling-relations-for-organization-change) obtains assignments and enabling conditions.
@@ -3973,11 +3973,11 @@ A professional association wants more independent repairers to recognise a well-
 
 The association obtains a clear explanation, demonstration and representative practice through the relevant HCD contributions. In this case, the approved procedure distinguishes a warning at start-up from one after normal operation. The demonstration shows how the permitted event record determines which check to select. Practice changes the equipment example while retaining that distinction. The learner must select the applicable check and identify the record supporting the choice. A qualified provider checks both against the procedure and gives feedback on the missed condition. Learning-product work supplies a readable guide and corrections, while the provider arranges the information and tools needed for performance.
 
-One learner selects the method correctly but cannot access the required equipment information in their workshop. More reminders or discussion cannot repair this condition. The association obtains a permitted data route from the owner. With access supplied, the learner selects the applicable check from a changed example without a prompt. Another learner needs a reminder to inspect when the warning occurred; the provider retains supported use and prepares further practice instead of recording independent capability prematurely.
+One learner selects the method correctly but cannot access the required equipment information in their workshop. The association obtains a permitted data route from the owner. With access supplied, the learner selects the applicable check from a changed example without a prompt. Another learner needs a reminder to inspect when the warning occurred; the provider retains supported use and prepares further practice instead of recording independent capability prematurely.
 
 C.36 distinguishes obtaining the practice, performing it, continuing to use it and selecting or adapting it under changed conditions. The association therefore looks for particular uses and returns, including an occasion when the method did not fit. Through CB.10 it asks a proportionate follow-up question and uses a failed reference lookup to correct the guide. It does not infer cultural retention from downloads or stable independent performance from one supported attempt.
 
-No communication among the learners is required for these results. If unusual cases later need mutual interpretation, CB.2 becomes a serious additional option. If a newcomer wants occasional company, a voluntary activity can serve that separate purpose. If the professional method itself fails in a changed equipment context, Core Method-development patterns and RMP work becomes current; enlarging the learner population would not resolve that question.
+No communication among the learners is required for these results. If unusual cases later need mutual interpretation, CB.2 becomes a serious additional option. If a newcomer wants occasional company, a voluntary activity can serve that separate purpose. If the professional method itself fails in a changed equipment context, work guided by Core's Method-development patterns and, when research is needed, RMP becomes current; enlarging the learner population would not resolve that question.
 
 Later, the association replaces the website hosting the guide. Using CB.11, it obtains permission to move the material and a capable person who accepts correction requests. It updates the directory links it controls and notifies existing users through their usual information channel. After the old host closes, an independent user follows the updated directory, reaches the moved guide and reports a missing example reference; the new maintainer restores it. The practice remains obtainable through this provision.
 
@@ -3998,8 +3998,6 @@ A sales colleague quotes the customer's contribution as an endorsement without a
 Continue the group under terms participants can understand and accept. Obtain a dependable support service through its responsible provider. A proposed course whose complete programme or qualified provision is still missing remains a proposal; this clinic can contribute worked material without supplying that whole product.
 
 ## CB.Application:5 - Connect an external development community with independent workplaces
-
-This is a constructed illustration; its working conditions are stipulated.
 
 A voluntary community brings together practitioners who want to become better at noticing limitations, constructing worthwhile problems and developing usable ways. Some are employees, some independent professionals. The community has capable development contributors but does not claim mastery of every participant's profession. It offers a shared repertoire and a bounded case exchange; a separate paid service can promise individual support under its own terms.
 
@@ -4029,13 +4027,13 @@ The sources below shaped the connected language. Their practical contributions, 
 
 | Source family | Contribution retained in this edition | Boundary, alternative and return |
 | --- | --- | --- |
-| David Spinks, *The Business of Belonging* (2021) | A purposeful offer, manual early organising, workable participation, recognition, organising support, provision and accounts of value. These inform CB.1–12. | Treat numerical anecdotes and company examples as historical source accounts. Growth, commercial retention and visible activity do not define every useful contribution. Compare resources, services and smaller voluntary arrangements against the actual need. |
-| Etienne Wenger-Trayner, Beverly Wenger-Trayner, Phil Reid and Claude Bruderlein, *Communities of practice within and across organizations*, second edition (2023) | Positive forms of learning through practice, activities and relationships, shared repertoire, reciprocal comparison, boundary work, collective stewardship, value inquiry and renewal. Temporary participant groups also supply shared observation and support. These contributions inform the corresponding methods, especially CB.4/5/7/10/11/14–16. | Use these forms when joint participation helps. Their community-of-practice focus does not require communication for every wider cultural purpose. Treat development dimensions as optional, and use C.28/RMP for a question that depends on causal explanation. |
-| Community Canvas Guidebook (2017) | Historical organising questions about common decisions, mandate, mixed local and common responsibility, and conflicts involving decision-makers, developed in CB.8/13. | An informal repertoire supplies options. The actual arrangement needs a valid mandate, feasible operations and correction; a new body is unnecessary where an adequate owner can decide. |
+| David Spinks, *The Business of Belonging* (2021) | A purposeful offer, manual early organising, workable participation, recognition, organising support, provision and accounts of value. These inform CB.1–CB.12. | Treat numerical anecdotes and company examples as historical source accounts. Growth, commercial retention and visible activity do not define every useful contribution. Compare resources, services and smaller voluntary arrangements against the actual need. |
+| Etienne Wenger-Trayner, Beverly Wenger-Trayner, Phil Reid and Claude Bruderlein, *Communities of practice within and across organizations*, second edition (2023) | Positive forms of learning through practice, activities and relationships, shared repertoire, reciprocal comparison, boundary work, collective stewardship, value inquiry and renewal. Temporary participant groups also supply shared observation and support. These contributions inform the corresponding methods, especially CB.4, CB.5, CB.7, CB.10, CB.11 and CB.14–CB.16. | Use these forms when joint participation helps. Their community-of-practice focus does not require communication for every wider cultural purpose. Treat development dimensions as optional, and use the applicable guidance in C.28 and RMP for a question that depends on causal explanation. |
+| Community Canvas Guidebook (2017) | Historical organising questions about common decisions, mandate, mixed local and common responsibility, and conflicts involving decision-makers, developed in CB.8 and CB.13. | An informal repertoire supplies options. The actual arrangement needs a valid mandate, feasible operations and correction; a new body is unnecessary where an adequate owner can decide. |
 | Core Protocols, linked in CB.13:4.5.1 | A connected decision option for an adopting small team. | Its participation obligations need explicit acceptance; this is not the default governance of a voluntary community. |
 | A. Levenchuk's community ontology and systemicity essays (September 2024), read with C.36 | Cultural contribution can develop carriers of a practice without a communicating collective or one collective agent. CB.1 and the independent-use branch make that choice practical. | A conceptual distinction does not establish the effectiveness of an intervention. Obtain the method, learning, provision and use observations that the selected contribution needs. |
 | A. Levenchuk, [role communities inside the company](https://ailev.ru/1741032.html) and [role communities around the company](https://ailev.ru/1741983.html), November 2024 | Distinguish an organization, its employee community, external participant communities and populations carrying a practice; preserve participant purposes and the real work transferred to them. These distinctions clarify the field boundary and its organizational and provider relations. | These are conceptual proposals. They do not establish that every enterprise needs an office, that informal participation removes cost, or that one provider can direct the whole recipient organization. |
-| Research and practitioner reports used by individual patterns | Work on participation rules, appeals, context and repeated action qualifies the mechanisms and evidence in CB.8/12/13. The Duolingo contributor-programme announcement gives a historical account of changed production conditions in CB.9. | Retain the actual population, observations and limitations. Moderator reports, written rules, self-reported habits and an organisation's explanation answer different questions from experienced fairness, automatic performance or causal effectiveness. Follow each body's exact source and comparison. |
+| Research and practitioner reports used by individual patterns | Work on participation rules, appeals, context and repeated action qualifies the mechanisms and evidence in CB.8, CB.12 and CB.13. The Duolingo contributor-programme announcement gives a historical account of changed production conditions in CB.9. | Retain the actual population, observations and limitations. Moderator reports, written rules, self-reported habits and an organisation's explanation answer different questions from experienced fairness, automatic performance or causal effectiveness. Follow each body's exact source and comparison. |
 | FPF Core and the domain suppliers below | Cultural distinctions, useful-contribution comparison, actual work arrangements, learning provision, professional-method development, evidence, capacity and resource reasoning. | Reuse the needed substantive result. A reference alone does not obtain qualified work, authority, access or an operating service. |
 
 Source returns: [The Business of Belonging](https://www.wiley-vch.de/en/areas-interest/finance-economics-law/the-business-of-belonging-978-1-119-76612-4); [Communities of practice guidebook, second edition](https://www.wenger-trayner.com/wp-content/uploads/2024/03/24-02-21-CoP-guidebook-second-edition-final-2.pdf); [Community Canvas](https://github.com/communitycanvas/documents/blob/master/CommunityCanvas-Guidebook.pdf); [community ontology](https://ailev.livejournal.com/1735885.html); [systemicity discussion](https://ailev.livejournal.com/1736164.html).
@@ -4053,7 +4051,7 @@ The [Architectural Reference](#community-management-principles-framework-archite
 
 **Community Management — Participation and practice-support edition, 12 October 2026.** Full-text home: [Community Management Principles Framework](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/COMMUNITY-MANAGEMENT-PRINCIPLES-FRAMEWORK.md).
 
-This edition contains the sixteen complete CB pattern bodies, its Readme and Architectural Reference, the constructed applications, source-use account and supplier returns. It is written for people and assisting agents constructing or changing community participation and its contributions under the conditions each Method states. The retained independent-use application shows a qualified alternative to community formation, not a promise to contain every cultural Method. It does not promise a complete professional method, learning product, commercial strategy or research programme for every activity a community undertakes.
+This edition contains the sixteen complete CB pattern bodies, its Readme and Architectural Reference, the constructed applications, source-use account and supplier returns. It is written for people and assisting agents constructing or changing community participation and its contributions under the conditions each Method states. The independent-use application develops an alternative to forming a community. Complete professional methods, learning products, commercial strategies and research programmes require their relevant domain contributions.
 
 CB is this framework's reference code; a local numeric locator completes each PatternID, such as CB.14. When citing this publication outside the framework, name Community Management and identify this edition and the particular revision when its text matters. Authority to act and evidence for an intervention's effect depend on the particular use and its grounds.
 
