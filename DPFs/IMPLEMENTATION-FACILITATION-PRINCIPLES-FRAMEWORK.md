@@ -58,13 +58,13 @@ Different evidence models, facilitation strategies and provider arrangements can
 
 One possible larger field assembly is implementation science and practice: connecting warranted practice knowledge with its use in receiving settings and returning the consequences to inquiry. Evidence synthesis or translation makes the relied-on practice account and its limits usable; implementation research investigates how delivery, mechanisms and context affect results; the target profession supplies actual delivery and its professional judgement. Facilitation connects those contributions to an obtainable change with the people affected. Their combined contribution is the ability to obtain a justified, usable implementation and revise its grounds from receiving evidence. Neither a sound research account nor successful delivery alone supplies that whole answer.
 
-Within that possible assembly, this same facilitation field receives qualified practice accounts and relevant knowledge of recipients and settings. It supplies adapted, obtainable help and bounded observations of what was delivered, used or prevented. Those observations can challenge a relied-on assumption or identify a research question; the receiving research or synthesis practice determines what broader conclusion they support. Different professions, evidence models or providers preserve the facilitation contribution when this knowledge–help–observation connection, the recipient's practice, and the limits of professional judgement and authority remain. Replacing the helping contribution with research alone or direct delivery changes that constituent. These conditions explain compatibility with a larger assembly; they assert no actual discipline-part relation or Suite membership, and do not require every contribution in every undertaking.
+Within that possible assembly, this same facilitation field receives qualified practice accounts and relevant knowledge of recipients and settings. It supplies adapted, obtainable help and bounded observations of what was delivered, used or prevented. Those observations can challenge a relied-on assumption or identify a research question; the receiving research or synthesis practice determines what broader conclusion they support. Different professions, evidence models or providers preserve the facilitation contribution when this knowledge–help–observation connection, the recipient's practice, and the limits of professional judgement and authority remain. Replacing the helping contribution with research alone or direct delivery changes that constituent. Select the contributions needed by the undertaking.
 
-The language has two useful levels. IS.1–IS.3 and IS.5 explain agreement, diagnosis, strategy and continuation of help. The general Core Method [FPF A.3.1.MI](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31mi---introduce-a-method-into-practice-and-decide-what-to-keep-or-change) supplies introduction and interpretation of later use, including an implementer's direct use without a helping relationship. The broader applicability of these Methods does not make every instance implementation facilitation. IS.6–IS.8 develop three recurring facilitation constructions: make cross-party knowledge affect a practice despite unequal influence; act on the interaction of the proposed practice, participants and context; and develop the recipients' ability to facilitate another change. The latter construction uses human-development and organization-capability Methods rather than substituting a new learning theory.
+The language has two useful levels. IS.1–IS.3 and IS.5 explain agreement, diagnosis, strategy and continuation of help. The general Core Method [FPF A.3.1.MI](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31mi---introduce-a-method-into-practice-and-decide-what-to-keep-or-change) supplies introduction and interpretation of later use, including an implementer's direct use without a helping relationship. The broader applicability of these Methods does not make every instance implementation facilitation. IS.6–IS.8 develop three recurring facilitation constructions: make cross-party knowledge affect a practice despite unequal influence; act on the interaction of the proposed practice, participants and context; and develop the recipients' ability to facilitate another change. The latter construction uses human-development and organization-capability Methods.
 
 For an uncomplicated access failure, use IS.2 or [FPF A.15.8.MS](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a158ms---configure-methodological-support-for-work) and stop when the missing contribution is supplied. For a disagreement whose resolution depends on who can affect the practice, use IS.6. For a practice that must change with its setting, use IS.7. For recipients expected to lead a later change, use IS.8. Existing adequate results can enter any of these Methods directly. There is no required sequence through the local Methods or their Core suppliers.
 
-This field is narrower than all implementation practice and wider than chairing a discussion. A facilitation-only meeting can be enough when discussion is the missing contribution. An undertaking involving evidence interpretation, changed provision, protected participation and later capability needs the corresponding connected work. The facilitator does not perform all of it: [FPF C.32.MWA.PP](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c32mwapp---construct-and-compare-method-performance-and-provision-arrangements) compares whole arrangements, [OCE.6](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce6---establish-holder-assignments-and-enabling-relations-for-organization-change) supplies effective organizational relations, and the target profession supplies its technical judgement. A common office, a specialist, an internal practitioner, an external partner and distributed provision remain alternatives.
+This field is narrower than all implementation practice and wider than chairing a discussion. A facilitation-only meeting can be enough when discussion is the missing contribution. An undertaking involving evidence interpretation, changed provision, protected participation and later capability needs the corresponding connected work. Obtain the required contributions from the relevant practices: [FPF C.32.MWA.PP](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c32mwapp---construct-and-compare-method-performance-and-provision-arrangements) compares whole arrangements, [OCE.6](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce6---establish-holder-assignments-and-enabling-relations-for-organization-change) supplies effective organizational relations, and the target profession supplies its technical judgement. A common office, a specialist, an internal practitioner, an external partner and distributed provision remain alternatives.
 
 Implementation can finish while development continues. A useful result may expose a more demanding attainable problem, a changed aim or a missing Method. [FPF C.40.OD](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c40od---construct-and-continue-open-ended-development) constructs the development opportunity, [FPF C.40.JD](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c40jd---develop-a-way-its-holder-and-its-provision-together) relates changes in the way, its holder and its provision, and [FPF C.40.NP](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c40np---continue-from-a-result-to-new-attainable-problems) continues from a result to another worthwhile problem. Facilitation helps a selected change become useful without turning that open development into a perpetual rollout programme.
 
@@ -94,13 +94,13 @@ The receiving promise also matters:
 | Ability to arrange later implementation | The intended holder's performance of noticing a difficulty, obtaining suitable help, making permitted decisions and using the result, at the promised scope. |
 | Continuation among other carriers | Obtainable material and support, actual receiving uses and the particular cultural relations claimed; publication or a first successful handover is insufficient for a population-wide claim. |
 
-A target need not be an immutable, fully validated manual. Selection, construction and adaptation can remain open. For a particular attempt, recover the intended contribution, the operations actually to be performed, their conditions and the result that can change the next decision. Preserve the status of a proposed method account. A.3.1.MI explains the stronger Method, Work and evidence distinctions when the use relies on them.
+Selection, construction and adaptation of the target practice can remain open. For a particular attempt, recover the intended contribution, the operations actually to be performed, their conditions and the result that can change the next decision. Preserve the status of a proposed method account. A.3.1.MI explains the stronger Method, Work and evidence distinctions when the use relies on them.
 
 If there is no useful target question yet, open inquiry rather than invent an implementation plan. B.5.PI and C.40.CD help form and revise questions; C.40.OD helps construct and compare development opportunities; C.39 and the relevant subject practice develop the obtaining way. Return to implementation support when its help can make a consequential difference. Continued development is wider than successful implementation and can open another worthwhile problem after this undertaking ends.
 
 ## IS.Reference:4 - Use the connected Methods from the contribution that is missing
 
-IS.1 makes the support undertaking intelligible and workable. IS.2 locates the consequential difficulty and obtains the next useful contribution. IS.3 constructs the actual support strategy and its provision. A.3.1.MI performs and examines a bounded introduction, keeping target and support changes separate. IS.5 obtains continuing use, a qualified transfer, expansion or a responsible end. IS.6 makes knowledge from differently influential parties change the implementation; IS.7 acts on the practice–participants–context interaction; IS.8 develops recipients' subsequent facilitation work. These constructions consume the earlier Methods where their results are needed.
+IS.1 makes the support undertaking intelligible and workable. IS.2 locates the consequential difficulty and obtains the next useful contribution. IS.3 constructs the actual support strategy and its provision. A.3.1.MI performs and examines a bounded introduction, keeping target and support changes separate. IS.5 obtains continuing use, a qualified transfer, expansion or a responsible end. IS.6 makes knowledge from differently influential parties change the implementation; IS.7 acts on the practice–participants–context interaction; IS.8 develops recipients' subsequent facilitation work. A Method can use another's result where the work requires it.
 
 Their relations do not prescribe a lifecycle. A sufficient current arrangement can enter at A.3.1.MI. An inherited service can require only an IS.5 handover. A failed attempt can return directly to IS.2 or to the subject method's owner. Existing evidence can settle a question without another trial. Follow an ordinary path only while its next contribution is needed.
 
@@ -132,7 +132,7 @@ Avoid making every unknown a research assignment. C.11.DUA compares what an atta
 
 The Methods connect implementation help to actual work and to the professional contributions on which it depends. A generic catalogue of barriers or strategies can suggest a question, but cannot determine the operation, provider, timing or appropriate result by itself. A target-specific rollout recipe can be enough in a stable setting; use it when it supplies the whole needed contribution. Reopen the support construction when conditions, recipients or the target change.
 
-Implementation-support literature develops a helping practice. The [2020 conceptual account](https://link.springer.com/article/10.1186/s12913-020-05145-1) and [Practice Guide to Supporting Implementation](https://implementation.fpg.unc.edu/wp-content/uploads/ISP-Practice-Guide.pdf) emphasize tailored help and building recipients' implementation capacity in service systems. They distinguish that help from taking over delivery. Here, recipient participation, contextual judgement, actual use and feedback are retained. Continued qualified expert or AI supply is also an option when the receiving practice needs that contribution but personal acquisition is not the promise. This extension depends on the actual provider, capability, permission and receiving-use conditions; it is not an effectiveness result inherited from human-service research. Human learning mechanisms are not models of AI change.
+Implementation-support literature develops a helping practice. The [2020 conceptual account](https://link.springer.com/article/10.1186/s12913-020-05145-1) and [Practice Guide to Supporting Implementation](https://implementation.fpg.unc.edu/wp-content/uploads/ISP-Practice-Guide.pdf) emphasize tailored help and building recipients' implementation capacity in service systems. They distinguish that help from taking over delivery. Here, recipient participation, contextual judgement, actual use and feedback are retained. Continued qualified expert or AI supply is also an option when the receiving practice needs that contribution but personal acquisition is not the promise. This extension depends on the actual provider, capability, permission and receiving-use conditions; it is not an effectiveness result inherited from human-service research. A claim that an AI system's capability changed needs evidence for that system under the stated conditions.
 
 A.3.1.MI supplies a general introduction Method: an implementer can use it directly without a separate helping relationship. Its wider independent use supports this language without making every implementation activity an instance of support. It distinguishes implementation observations, target adaptation, support-strategy adaptation and causal explanation. HCD, OCE, CB and the Core Method-development family remain suppliers of their complete Methods. The constructed cases illustrate reasoning and operations, not empirical effectiveness.
 
@@ -186,7 +186,7 @@ For a local support strategy, the actual target, help and receiving result are e
 
 ## IS.Reference:11 - Supplier availability and independent changes
 
-A practitioner can use a sufficient result from a supplier directly; an inaccessible or inapplicable supplier leaves the dependent result unavailable. Changed evidence can alter the target practice, the facilitating response or the developmental arrangement independently. Preserve those distinctions when revising the language.
+A practitioner can use a sufficient result from a supplier directly; an inaccessible or inapplicable supplier leaves the dependent result unavailable. Changed evidence can alter the target practice, the facilitating response or the developmental arrangement independently.
 
 For source qualifications, citation and edition information, see the [Sources and Edition Notes](#implementation-facilitation-principles-framework-sources-and-edition-notes).
 
@@ -219,7 +219,7 @@ A sponsor can ask for adoption, a learner expect instruction, a manager expect p
 
 Unclear help also creates dependence and mistrust. A person may reveal mistakes to obtain assistance while their helper uses the same information for an undisclosed performance decision. An external provider may promise a result that depends on time the customer has not allocated. A recipient can assume that the provider will make technical decisions the provider is neither qualified nor authorized to make.
 
-The practical problem is to construct a small undertaking that makes useful help obtainable, while allowing the parties to revise an unsuitable request before consuming the larger commitment.
+The practical problem is to construct a small undertaking that makes useful help obtainable, while allowing the parties to revise an unsuitable request before investing in a larger undertaking.
 
 ### IS.1:3 - Forces
 
@@ -280,7 +280,7 @@ Choose an initial result that reaches a receiver. “Hold a meeting” is an act
 
 Name the minimum inputs and contributions needed for that result. Check that they can be supplied together at the relevant time. If they cannot, compare changing the first result, rescheduling, obtaining another supplier, using a qualified incumbent or stopping.
 
-Agree the limit of the first attempt and the conditions that change it. A short engagement can end with a repaired condition. A discovery engagement can end with a qualified question and an available next decision. A larger implementation promise needs IS.3's actual strategy and provision. Keep the smaller undertaking honest when the larger benefit remains conditional.
+Agree the limit of the first attempt and the conditions that change it. A short engagement can end with a repaired condition. A discovery engagement can end with a qualified question and an available next decision. A larger implementation promise needs IS.3's actual strategy and provision. Keep the conditions on the larger benefit explicit.
 
 Put the result where the parties can use it: an existing work note, service request or ordinary agreement can be sufficient. The required content is the receiving result, helper contribution, recipient contribution, effective decisions, protection and next change condition. A new form is not required.
 
@@ -347,7 +347,7 @@ The examples emphasize professional services. In a personal use, the same questi
 
 ### IS.1:9 - Consequences
 
-The parties can begin useful help without pretending that every uncertainty is settled. A smaller undertaking can reveal whether the larger request is appropriate, and a sufficient ordinary service can close the work without a programme.
+The parties can begin useful help before every uncertainty is settled. A smaller undertaking can reveal whether the larger request is appropriate, and a sufficient ordinary service can close the work without a programme.
 
 The cost is some early inquiry and explicit negotiation. Keep it proportionate: an already covered routine request should not acquire a new contracting exercise.
 
@@ -470,7 +470,7 @@ These routes can supply the whole bounded response. Use the returned result, not
 
 #### IS.2:4.5 - Make the returned contribution usable in the next episode
 
-Inspect the returned result against the question that required it. A repaired access claim needs an actually usable route. An explanation needs to settle the disputed interpretation or preserve the exact unresolved question. An agreed allocation needs to be effective when the work occurs.
+Inspect the returned result against the question that required it. A claim that access has been repaired needs an actually usable route. An explanation needs to settle the disputed interpretation or preserve the exact unresolved question. An agreed allocation needs to be effective when the work occurs.
 
 Arrange the receiving action. Place the corrected reference at the point of use, obtain the permitted next case, connect the expert response to the decision or make the protected interval available. IS.3 constructs a larger strategy only when several contributions or alternatives still require it.
 
@@ -632,7 +632,7 @@ Start with the competent current continuation, including its real support and bu
 
 For each serious alternative, follow one case from input to useful result. Describe the critical action rather than its service label. “The coach asks the reviewer to compare the two source editions, identify the changed claim and explain its effect before offering feedback” specifies a contribution. “Provide coaching” does not.
 
-Keep the actual subject Method intact. A learning designer chooses practice and feedback but does not invent an absent engineering criterion. An implementation facilitator can organize discussion while the participants' qualified judgement supplies the subject answer. When the Method itself is missing, C.39 and the relevant profession supply its construction; the support strategy records that dependency honestly.
+Keep the actual subject Method intact. A learning designer chooses practice and feedback but does not invent an absent engineering criterion. An implementation facilitator can organize discussion while the participants' qualified judgement supplies the subject answer. When the Method itself is missing, C.39 and the relevant profession supply its construction; the support strategy records that dependency.
 
 Do not manufacture alternatives whose outcomes cannot change the choice. One adequate way can suffice. More alternatives are useful when they reveal different result, dependence, resource or protection conditions.
 
@@ -676,7 +676,7 @@ First remove alternatives that cannot meet the required result or conditions. Th
 
 When results differ, make the trade-off explicit. A temporary expert service can be preferable for immediate continuity while a learning arrangement remains necessary for the promised later independence. Combine them only if the additional work and transition are actually supplied. The combination is not automatically the best of both.
 
-Select further inquiry only when its attainable answer could reverse the strategy or permitted conclusion enough to justify its full burden. A bounded first attempt can be the comparison when its protection, recovery and receiving conditions are available. Retain alternatives with an honest limit when no useful comparison is obtainable.
+Select further inquiry only when its attainable answer could reverse the strategy or permitted conclusion enough to justify its full burden. A bounded first attempt can be the comparison when its protection, recovery and receiving conditions are available. When a useful comparison cannot be obtained, retain the alternatives and state what remains unresolved.
 
 #### IS.3:4.7 - Provide the bounded start and its return
 
@@ -936,7 +936,7 @@ If a qualified AI service becomes available, the same questions apply to its act
 
 Several independent repair practitioners use a published diagnostic method. They have no common employer and do not communicate as a community. The source publisher maintains the explanation and a correction channel; each practitioner supplies its own tools and follows the method's applicability limits.
 
-The support question is whether those contributions continue to make the practice available. A maintained correction, discoverable source and actual local access can be sufficient. If a new equipment family breaks an assumption, the publisher needs a qualified method revision or an explicit limit; a new discussion group would not repair the missing diagnostic operation.
+The support question is whether those contributions continue to make the practice available. A maintained correction, discoverable source and actual local access can be sufficient. If a new equipment family breaks an assumption, the publisher needs a qualified method revision or an explicit limit; forming a discussion group does not by itself supply the missing diagnostic operation.
 
 A later proposal for peer learning can be useful if its intended contribution warrants the work. It is an additional obtaining way, not evidence that the earlier independent practice was impossible.
 
@@ -967,7 +967,7 @@ Recipients can reasonably prefer dependable provision to mastery of a rare opera
 | Transfer a folder and assume the role has transferred. | Establish that the successor can perform and the receiver can use the contribution. |
 | Scale a successful local strategy unchanged. | Recover the new receiving work and consequential differences. |
 | Close on a calendar date while late cases still depend on the old provider. | Transfer, complete or legitimately withdraw the actual obligation. |
-| Create a community to fix an unavailable technical operation. | Obtain the missing subject contribution first. |
+| Treat community formation as a repair of a missing technical operation. | Identify and obtain the qualified subject contribution; use community work when it helps supply that result. |
 | Turn the next harder development problem into another adoption campaign. | Return the changed target or missing Method to development and subject practice. |
 
 ### IS.5:9 - Consequences
@@ -1017,7 +1017,7 @@ Inviting everyone to a meeting can leave the original distribution of influence 
 | --- | --- |
 | Useful disagreement and unequal exposure | People need a way to make a consequential contribution under an acceptable exposure to risk. |
 | Local experience and technical judgement | A recipient can expose a failed use; the warranted technical response still needs the appropriate expertise. |
-| Distributed decisions | Agreement in one group cannot change another organization's rules, resources or obligations. |
+| Distributed decisions | Obtain the authority and commitments needed for each organization's contribution. |
 | Speed and meaningful influence | Another consultation is wasteful when it cannot change an action; skipping the excluded party can preserve the wrong action. |
 
 ### IS.6:4 - Solution
@@ -1098,7 +1098,7 @@ CB.15 supplies joint work, PSDA.12 and PSDA.13 supply the inquiry and OCE suppli
 
 ### IS.6:11 - SoTA-Echoing
 
-The [2020 ISP Practice Guide](https://implementation.fpg.unc.edu/wp-content/uploads/ISP-Practice-Guide.pdf), in its brokering and power-differential sections, connects otherwise separated participants and gives beneficiary experience a consequential place. This Method adopts that question and develops its receiving connection through the full FPF suppliers above. Its alternative is an adequate direct exchange: that cheaper path remains preferable when influence does not defeat the needed contribution.
+The [2020 ISP Practice Guide](https://implementation.fpg.unc.edu/wp-content/uploads/ISP-Practice-Guide.pdf), in its brokering and power-differential sections, connects otherwise separated participants and gives beneficiary experience a consequential place. This Method adopts that question and develops its receiving connection through the FPF suppliers above. Its alternative is an adequate direct exchange: that cheaper path remains preferable when influence does not defeat the needed contribution.
 
 [Buchanan, Filiatreau and Moore (2024)](https://link.springer.com/article/10.1186/s43058-024-00572-1) argue for a community-oriented relation among implementation actors. This is a field-position argument, not an effect estimate for the present Method. The constructed cases do not establish effectiveness. Reopen the construction when the proposed protection or representation excludes a consequential experience, or when practice evidence supports a better way to carry it into change.
 
@@ -1145,7 +1145,7 @@ Keep three kinds of ground distinguishable. Research can support a claim under s
 
 Follow the episode through the proposed practice, its participants and its setting. Locate the dependence: an action requires a kind of input, judgement, cooperation, protection, permission or provision that is not actually obtainable. Examine local work, the containing organization and external conditions only where their contribution could change the response. A local roster, organizational incentive and external eligibility rule are different conditions with different owners.
 
-Use [FPF C.40.JD](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c40jd---develop-a-way-its-holder-and-its-provision-together) for the complete general construction of changing the way, its holder and its provision together. The facilitation-specific question is how the particular intervention's warranted function, recipient experience and service conditions fit that construction. State the live rival explanations before selecting an adaptation. For example, non-use may reflect an unavailable occasion, a burdensome operation, a justified rejection or a help strategy that failed to deliver its contribution. A.3.1.MI:4.5 supplies the delivery–mechanism–context comparison and the observation needed to distinguish them.
+Use [FPF C.40.JD](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c40jd---develop-a-way-its-holder-and-its-provision-together) for the general construction of changing the way, its holder and its provision together. The facilitation-specific question is how the particular intervention's warranted function, recipient experience and service conditions fit that construction. State the live rival explanations before selecting an adaptation. For example, non-use may reflect an unavailable occasion, a burdensome operation, a justified rejection or a help strategy that failed to deliver its contribution. A.3.1.MI:4.5 supplies the delivery–mechanism–context comparison and the observation needed to distinguish them.
 
 #### IS.7:4.3 - Select what to change and who can change it
 
@@ -1173,7 +1173,7 @@ Decide whether the facilitator should perform a contribution, work alongside the
 
 Work through the selected episode with those who must act and those who receive it. Make the new receiving connections obtainable: inputs, instructions, permissions, timing, equipment and responses. [OCE.6](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce6---establish-holder-assignments-and-enabling-relations-for-organization-change) establishes changed organizational relations; [OCE.11](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce11---coordinate-organization-change-work-with-continuing-service) reconciles the attempt with ongoing service. Obtain outside commitments from their actual owners. If a required condition cannot be supplied, compare a smaller legitimate attempt, another arrangement or a stop.
 
-Use A.3.1.MI for introduction and observation. Keep the target baseline and the facilitating contribution distinct enough to interpret the result. Observe what was delivered and how it was used before attributing an outcome. Where target and facilitation must change together, preserve the coupled account rather than pretend to isolate an effect. A larger research conclusion goes to its own inquiry Method.
+Use A.3.1.MI for introduction and observation. Keep the target baseline and the facilitating contribution distinct enough to interpret the result. Observe what was delivered and how it was used before attributing an outcome. Where target and facilitation must change together, preserve the coupled account and the limits on attributing separate effects. A larger research conclusion goes to its own inquiry Method.
 
 #### IS.7:4.6 - Adapt the exact contribution and return the next question
 
@@ -1255,7 +1255,7 @@ A successful jointly delivered change can conceal dependence on the expert who r
 
 | Force | Practical consequence |
 | --- | --- |
-| Current service and developmental work | A learning attempt needs protection without pretending that protected performance is ordinary provision. |
+| Current service and developmental work | Protect the learning attempt and distinguish its performance conditions from ordinary provision. |
 | Local ownership and specialist contribution | Recipients can own a change while retaining expert work they do not need to learn. |
 | Observable performance and self-report | Confidence can guide discussion; the claimed ability needs the intended holder's relevant contribution. |
 | Immediate success and next challenge | Repeating an already solved case can hide inability to recognize a different difficulty. |
@@ -1276,7 +1276,7 @@ During a suitable joint episode, make the consequential decision inspectable. As
 
 #### IS.8:4.3 - Arrange practice, feedback and real receiving conditions
 
-For a person's acquisition, use [HCD.9](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd9---perform-deliberate-practice-with-feedback) for deliberate practice with feedback and the appropriate programme/provider Methods when a programme is actually needed. Make the learning attempt and its receiving-work criteria available to the person giving feedback. Feedback should change a particular operation: an omitted participant, an unexplained adaptation, an infeasible demand or a conclusion that exceeds the observation. Merely telling the learner to become more collaborative does not supply that correction.
+For a person's acquisition, use [HCD.9](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd9---perform-deliberate-practice-with-feedback) for deliberate practice with feedback and the appropriate programme/provider Methods when a programme is actually needed. Make the learning attempt and its receiving-work criteria available to the person giving feedback. Use feedback to change a particular operation. For example, include a missing participant, explain an adaptation, revise an infeasible demand or limit a conclusion to what the observation supports. Merely telling the learner to become more collaborative does not supply that correction.
 
 Use [OCE.18](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce18---arrange-capability-development-and-receiving-work-in-an-organizational-transition) where an organizational transition must provide protected practice time and real receiving work; use [OCE.11](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce11---coordinate-organization-change-work-with-continuing-service) for coexistence with current service. Agree who supplies fallback or takes over when an attempt exceeds its allowed risk. Keep what the recipient performed distinct from rescue supplied by the mentor. Do not withdraw needed assistance merely to create an examination.
 
@@ -1321,7 +1321,7 @@ An expert may overestimate learning because recipients repeat its vocabulary. Re
 ### IS.8:7 - Conformance Checklist
 
 - The intended holder, subsequent work and retained assistance define the capability claim.
-- Complete facilitation Methods and relevant subject prerequisites are available before their use is taught.
+- Facilitation Methods and relevant subject prerequisites are available before their use is taught.
 - The recipient performs consequential operations with useful feedback and legitimate receiving conditions.
 - Evidence distinguishes the recipient's operation, coordination, specialist supply and hidden rescue.
 - Assistance changes on that basis, and a subsequent worthwhile problem can be recognized without treating every success as mandatory further change.
@@ -1341,7 +1341,7 @@ The recipients can acquire a specified part of the work needed for later change,
 
 ### IS.8:10 - Architectural Rationale
 
-HCD supplies human development and OCE supplies organizational capability. Their complete Methods need a definite subject to teach or realize. This Method supplies that subject-level line of work and its receiving transitions: an experienced facilitation decision becomes inspectable, a recipient performs it, an unfamiliar case tests the intended scope, and changed help preserves continuing work.
+HCD supplies human development and OCE supplies organizational capability. Their Methods need a definite subject to teach or realize. This Method supplies that subject-level line of work and its receiving transitions: an experienced facilitation decision becomes inspectable, a recipient performs it, an unfamiliar case tests the intended scope, and changed help preserves continuing work.
 
 ### IS.8:11 - SoTA-Echoing
 
@@ -1415,7 +1415,7 @@ Harbor Design, the translator, the independent repairers and the other explicitl
 
 ## IS.Sources:2 - Follow the current source questions
 
-IS.6–IS.8 develop the implementation-practice questions in the original helping tradition while keeping the general Core and professional suppliers explicit. Their SoTA sections state the particular source contributions and limits. The 2016 i-PARIHS and 2020 ISP accounts are foundational grounds; later work on actionable facilitation planning, competencies, working alliance and the specification of facilitating arrangements develops different parts of that account. No single source establishes all three new constructions or their effectiveness outside the settings examined.
+IS.6–IS.8 develop the implementation-practice questions in the original helping tradition while keeping the general Core and professional suppliers explicit. Their SoTA sections state the particular source contributions and limits. The 2016 i-PARIHS and 2020 ISP accounts are foundational grounds; later work on actionable facilitation planning, competencies, working alliance and the specification of facilitating arrangements develops different parts of that account. No single source establishes all three constructions or their effectiveness outside the settings examined.
 
 The [Architectural Reference](#implementation-facilitation-principles-framework-architectural-reference) explains the connected language and the consequences of these sources for its use.
 
