@@ -233,7 +233,6 @@ The language is organized around the results that make a receiving use possible.
 | Make a materialized knowledge graph the standard result | Permitted copying, a suitable refresh and correction arrangement, and reproducible queries meet the contract. | A graph is one realization. The live-provider case forbids replication, and useful incompatibility must remain expressible. Conversely, live federation is unsuitable when its access, availability, or repeatability cannot meet the use. |
 | Use one canonical enterprise model and master identity | A responsible domain or MDM authority has supplied a bounded common model, identity, or authoritative-value result that the use can rely on. | Integration alone cannot grant that authority or erase local grains, versions, claims, and incompatible meanings. SIE preserves the supplied result's scope and the source identifiers that make correction possible. |
 | Collapse the work into one prescribed lifecycle | A local team may use a repeatable plan for a recurring, stable situation. | A direct identity question, realization decision, or validation failure has different inputs and stops. The pattern language preserves those entries and conditional result relations; the local plan remains one use of it. |
-| Separate Ontology Engineering, Knowledge Graph Engineering, and Semantic Integration into independent languages | A substantially independent first use, result chain, practitioner community, and source-refresh need would justify reconsidering the split. | The represented uses share receiving contracts, correspondence and mapping work, authority boundaries, and whole-use validation. A different technology or familiar professional name alone does not separate that work. |
 
 The complete repertoire joins model adequacy, semantic interfaces, changed reliance, and commons maintenance through their actual results. Completing a small model or interface question remains useful on its own. A continuing service requires its operational results, and a commons requires the rights and dependencies of its actual users.
 
@@ -253,7 +252,7 @@ Terminology and registry practice, including [ISO 704:2022](https://www.iso.org/
 
 [LOT](https://doi.org/10.1016/j.engappai.2022.104755) contributes ontology requirements, development, publication, and maintenance to SIE.3. Sufficient model reuse remains a completed result. [LOT4KG](https://lot.linkeddata.es/LOT4KG/) distinguishes ontology work from graph construction and relates changes to dependent mappings, constraints, and validation; SIE.11 uses those relationships for graph realizations. [OBO Foundry principles](https://obofoundry.org/principles/fp-000-summary.html) contribute scoped module, term-stability, maintenance, and communication practices to SIE.12, with their community-specific rules qualified in the source account.
 
-Reconsider the affected choice when a simpler qualified contribution supplies the same result, a represented use repeatedly needs a missing Method, or a source or case defeats a relied-on boundary. When the need is a reusable Method repertoire, [FPF C.39.RP](../../FPF-Spec.md#c39rp---organize-a-repertoire-for-method-development) returns inspectable alternatives, source contributions, relations, and gaps for that comparison; the integration-specific question stays in SIE. A substantially independent practice remainder can reopen the field split described above.
+Reconsider the affected choice when a simpler qualified contribution supplies the same result, a represented use repeatedly needs a missing Method, or a source or case defeats a relied-on boundary. When the need is a reusable Method repertoire, [FPF C.39.RP](../../FPF-Spec.md#c39rp---organize-a-repertoire-for-method-development) returns inspectable alternatives, source contributions, relations, and gaps for that comparison; the integration-specific question stays in SIE.
 
 ## SIE.Reference:8 - Costs, perspectives, and correction
 
@@ -278,7 +277,7 @@ These questions address the failures in the applications: field-name equivalence
 
 ## SIE.Reference:10 - Intended use and ordinary non-use
 
-Use this framework when the working result must make separately governed meanings, identities, claims, or representations usable together for a named receiver. Use one pattern or a small cooperating set and stop at the first decision-changing result or honest blocker.
+Use this framework when the working result must make separately governed meanings, identities, claims, or representations usable together for a named receiver. Use one pattern or a small cooperating set and stop at the first decision-changing result or blocker.
 
 Do not use SIE for local modeling with no cross-source receiving-use question, physical data movement, pipeline operation, one application's schema design, master-data authority, product configuration or release, generic representation choice, or the receiver's operational decision. Obtain those results from their owning practices. A local mapping inside one source can remain local unless it changes a cross-source semantic result.
 
@@ -386,7 +385,7 @@ For source qualifications, citation and edition information, see the [Sources an
 
 ### SIE.1:1 - Problem Frame
 
-**Use this when** a request says “integrate the data”, “align the models”, “build the knowledge graph”, or “make one source of truth”, but the intended receiver and decision-changing answer are not yet explicit. The recognizable failure is a technically impressive integration whose values cannot be interpreted, trusted, or used safely by the Work that requested it.
+**Use this when** a request says “integrate the data”, “align the models”, “build the knowledge graph”, or “make one source of truth”, but the intended receiver and decision-changing answer are not yet explicit. The recognizable failure is an integration whose values cannot be interpreted, trusted, or used safely by the Work that requested it.
 
 The primary EntityOfConcern is one semantic-integration use: a named receiver performing a named query, decision, operation, or engineering workflow under stated conditions. The first move is to state that use and the answer claims it needs. The first result is a bounded contract that lets later workers decide which semantic loss, source age, unresolved row, and test outcome are acceptable.
 
@@ -408,7 +407,7 @@ Technology then supplies the hidden contract. A graph platform encourages graph-
 | Freshness and latency | Query-time access can be current but slow or fragile; copied data can be fast but stale and harder to govern. |
 | Authority | Source owners, integrators, and receivers contribute different decisions; visibility or custody does not transfer authority. |
 | Assurance | A finite representative test is needed now, while no test establishes universal semantic correctness. |
-| Reuse | A broad contract appears reusable, while a small contract is easier to validate and honestly reopen. |
+| Reuse | A broad contract appears reusable, while a small contract is easier to validate and reopen. |
 
 ### SIE.1:4 - Solution
 
@@ -501,11 +500,11 @@ The cost is early negotiation about the receiver, evidence, loss, and stop condi
 
 ### SIE.1:10 - Rationale
 
-Semantic adequacy is relative to a use, but relativity does not make it arbitrary. A receiver, answer claim, source context, permitted loss, authority, and representative test together constrain what counts as a successful integration. Beginning there prevents a carrier choice from becoming an implicit ontology, authority model, and acceptance rule.
+Semantic adequacy is relative to a use. A receiver, answer claim, source context, permitted loss, authority, and representative test together constrain what counts as a successful integration. Beginning there prevents a carrier choice from becoming an implicit ontology, authority model, and acceptance rule.
 
 ### SIE.1:11 - SoTA-Echoing
 
-The best-known line for this question combines use-bounded representation selection, situational Method criteria, quality-for-use, and explicit source/provenance practice. The serious default alternative is technology- or source-led integration. Its defect is not the use of a graph, warehouse, or federation; it is allowing that choice to define the answer and loss boundary. SIE.1 mutates the line by making the whole semantic contract, including authorities and legitimate unresolved branches, the first domain result.
+The best-known line for this question combines use-bounded representation selection, situational Method criteria, quality-for-use, and explicit source/provenance practice. The serious default alternative is technology- or source-led integration. Its defect is not the use of a graph, warehouse, or federation; it is allowing that choice to define the answer and loss boundary. SIE.1 applies these contributions by making the whole semantic contract, including authorities and legitimate unresolved branches, the first domain result.
 
 | Source line | Adopt, adapt, or reject | Role and limit |
 | --- | --- | --- |
@@ -574,7 +573,7 @@ Recover source semantics at the smallest grain that can change the receiving ans
 6. **Separate claims, data, and provenance.** Record which claim a data item represents, its scope and time, how it was derived, who or what supplied it, and which uncertainty or status accompanies it. Provenance does not make the claim true.
 7. **Recover authority and access.** Name who may define the scheme, issue identifiers, decide authoritative values, approve local extensions, grant access, and authorize receiving use. Mark unsupported assumptions.
 8. **Assess currentness and use adequacy.** Compare the source premise with the contract. State whether it is adequate, adequate only under conditions, unresolved, obsolete for this use, inaccessible, or missing.
-9. **Return an inadequate model honestly.** If the required distinction cannot be expressed in the available source or supplied semantic model, request `UseFitSemanticModel@Use`; do not hide the gap in a mapping rule.
+9. **Return an inadequate model.** If the required distinction cannot be expressed in the available source or supplied semantic model, request `UseFitSemanticModel@Use`; do not hide the gap in a mapping rule.
 10. **Record dependencies and next results.** Identify the exact definitions, editions, authority facts, and gaps consumed by `SIE.4`–`SIE.10`, plus observations that reopen this inventory.
 
 #### SIE.2:4.2 - Record the Result
@@ -592,7 +591,7 @@ Recover source semantics at the smallest grain that can change the receiving ans
 
 #### SIE.2:4.3 - What Changes in Practice
 
-The team stops mapping from field names. A later correspondence or transformation can point to exact source-local endpoints and editions, and a failure can return to the owner of the missing meaning, authority, access, or model. An inventory row can be useful even when its disposition is unresolved or inaccessible.
+Mappings are grounded in the recovered source meanings. A later correspondence or transformation can point to exact source-local endpoints and editions, and a failure can return to the owner of the missing meaning, authority, access, or model. An inventory row can be useful even when its disposition is unresolved or inaccessible.
 
 ### SIE.2:5 - Archetypal Grounding - AP242 and QIF Source Cut
 
@@ -959,13 +958,13 @@ The set records endpoint editions and counterexamples such as a non-dimensional 
 
 ### SIE.4:9 - Consequences
 
-The correspondence set gives mapping and interface work explicit semantic premises and preserves honest negative results. It makes version and loss dependencies visible and allows a narrow use to proceed while other rows remain unresolved.
+The correspondence set gives mapping and interface work explicit semantic premises and preserves negative results. It makes version and loss dependencies visible and allows a narrow use to proceed while other rows remain unresolved.
 
 The cost is row-level judgment and counterexample work. Automated matchers remain useful for candidate discovery but cannot close the relation or its receiving-use qualification alone.
 
 ### SIE.4:10 - Rationale
 
-A direct relation and permission to use that relation answer different questions. Keeping them separate allows a true relation to be rejected for a loss-sensitive use and a qualified narrow relation to support one operation without being promoted globally. This is the smallest structure that protects both semantic truth and practical action.
+A direct relation and permission to use that relation answer different questions. Keeping them separate allows a true relation to be rejected for a loss-sensitive use and a qualified narrow relation to support one operation without being promoted globally.
 
 ### SIE.4:11 - SoTA-Echoing
 
@@ -984,7 +983,7 @@ Reopen when an endpoint meaning or edition changes, a counterexample defeats the
 ### SIE.4:12 - Relations
 
 - `SIE.2` supplies exact endpoint senses, editions, profiles, authority limits, and model gaps.
-- `SIE.3` is a conditional external return when available models cannot express a required endpoint distinction.
+- `SIE.3` is a conditional return when available models cannot express a required endpoint distinction.
 - `SIE.5` consumes rows that expose a load-bearing cross-source identity question.
 - `SIE.6` uses correspondences to decide which source claims are comparable or composable without erasing scope or conflict.
 - `SIE.7` consumes only accepted rows under their stated use and loss conditions; it adds executable transformation semantics.
@@ -1012,7 +1011,7 @@ The payoff is that the integration can join only warranted cases, return exact u
 
 The same real-world item can carry manufacturer, supplier, enterprise, lot, serial, package, event, and temporary process identifiers. Conversely, the same character string can be reused by different issuers or at different times. Version, configuration, part-whole, and alternate-description relations can be mistaken for identity because they support some joins.
 
-If an integration collapses those distinctions, provenance becomes decorative: the merged record no longer shows which identifier asserted what, when, or under whose rules. Contradictory events appear to concern one thing without evidence, and a master key silently becomes a domain decision.
+If an integration collapses those distinctions, provenance becomes decorative: the merged record no longer shows which source made each claim, the identifier it used, or the time and issuer rules that qualify that use. Contradictory events appear to concern one thing without evidence, and a master key silently becomes a domain decision.
 
 ### SIE.5:3 - Forces
 
@@ -1114,11 +1113,11 @@ The cost is domain evidence and authority work. Some convenient global keys rema
 
 ### SIE.5:10 - Rationale
 
-Identifiers are governed signs, not entities. Cross-source identity is therefore a relation claim that depends on scheme, grain, interval, evidence, and use. Preserving source identifiers and authority makes the claim reversible and prevents integration convenience from becoming a master-data or domain decision.
+Identifier schemes govern how signs identify entities. Cross-source identity is therefore a relation claim that depends on scheme, grain, interval, evidence, and use. Retaining source identifiers lets the claim be revised without losing its source basis. Master-data and domain decisions remain with their responsible authorities.
 
 ### SIE.5:11 - SoTA-Echoing
 
-The best-known line combines explicit identifier ownership and restrictions, provenance-qualified alternate/specialization relations, and domain traceability practice. The serious default is entity resolution that optimizes a match score or golden record. Its defect is not probabilistic matching itself; it is allowing the score or merged record to erase grain, issuer, interval, and decision authority. SIE.5 mutates the line into a bounded disposition consumed explicitly by downstream semantic results.
+The best-known line combines explicit identifier ownership and restrictions, provenance-qualified alternate/specialization relations, and domain traceability practice. The serious default is entity resolution that optimizes a match score or golden record. Its defect is not probabilistic matching itself; it is allowing the score or merged record to erase grain, issuer, interval, and decision authority. SIE.5 uses these contributions to return a bounded disposition for the work that relies on identity.
 
 | Source line | Adopt, adapt, or reject | Role and limit |
 | --- | --- | --- |
@@ -1153,7 +1152,7 @@ Reopen when an identifier scheme or issuer rule changes, new event/configuration
 
 **Use this when** a receiving answer must combine claims from separately governed sources and a simple union, priority rule, average, overwrite, or “golden record” would hide differences in meaning, subject, time, authority, or uncertainty. The recognizable failure is one clean value whose provenance can be displayed but whose conflict or non-comparability can no longer be recovered.
 
-The primary EntityOfConcern is one source-qualified claim composition for a named receiving question. The first move is to state the exact source claims and the subject relation the receiving question requires. The first result is either a qualified view with explicit derivation or an honest conflict, non-comparability, or unresolved branch.
+The primary EntityOfConcern is one source-qualified claim composition for a named receiving question. The first move is to state the exact source claims and the subject relation the receiving question requires. The first result is either a qualified view with explicit derivation or a conflict, non-comparability, or unresolved branch.
 
 The payoff is an answer the receiver can interpret without pretending that integration owns truth or preference. Do not use SIE.6 to decide domain truth, authoritative value, survivorship, risk acceptance, or action. A domain authority or receiving decision may consume the composition and choose; SIE preserves what that choice depends on.
 
@@ -1258,7 +1257,7 @@ The interface can return two qualified provider rows, explicit non-comparability
 
 ### SIE.6:9 - Consequences
 
-Receivers obtain explainable views and honest conflict branches. Corrections can target the source claim, identity premise, composition rule, or receiving use without reconstructing an opaque golden record. Different receivers may lawfully obtain different bounded views from the same preserved claims.
+Receivers obtain explainable views and conflict branches. Corrections can target the source claim, identity premise, composition rule, or receiving use without reconstructing an opaque golden record. Different receiving uses can justify different bounded views of the same preserved claims.
 
 The cost is richer output and explicit rule ownership. Some applications must handle plural, incomplete, or conflicting results instead of one scalar value.
 
@@ -1357,7 +1356,7 @@ Specify semantic mapping rules separately from their implementation. Bind every 
 
 #### SIE.7:4.3 - What Changes in Practice
 
-Semantic decisions leave code and configuration comments and become an independently reviewable specification. Data Engineering can optimize or replace an implementation while preserving the mapping behavior, and a failed output can be traced to a source premise, rule, implementation discrepancy, or receiving-use change.
+Semantic rules and their premises become independently reviewable. Data Engineering can optimize or replace an implementation while preserving the mapping behavior, and a failed output can be traced to a source premise, rule, implementation discrepancy, or receiving-use change.
 
 ### SIE.7:5 - Archetypal Grounding - AP242/QIF Mapping Rules
 
@@ -1401,7 +1400,7 @@ Positive examples cover one known configuration/feature/characteristic/result ch
 
 | Anti-pattern | Repair |
 | --- | --- |
-| SQL is the mapping | Extract the semantic rule, premises, loss, errors, and tests; treat SQL as one implementation. |
+| SQL execution treated as semantic justification | Recover the semantic rule, premises, loss, errors, and tests; check the SQL implementation against them. |
 | Crosswalk equals transformation | Add selection, direction, cardinality, conversions, defaults, errors, trace, and examples. |
 | Null for every failure | Define distinct semantic and operational states and their receiver behavior. |
 | Latest record wins | Use the direct configuration/effectivity or justified interval rule. |
@@ -1420,7 +1419,7 @@ A semantic correspondence states a relation; an executable mapping states how so
 
 ### SIE.7:11 - SoTA-Echoing
 
-The best-known line combines declarative mapping languages, model transformation, traceability, and representation-preservation checks. The serious default is code-first ETL. Code is necessary in many realizations, but as the sole specification it hides semantic premises and loss. SIE.7 adapts the line into a technology-independent, receiving-use mapping contract with explicit negative states.
+The best-known line combines declarative mapping languages, model transformation, traceability, and representation-preservation checks. The serious default is code-first ETL that leaves semantic premises and loss implicit. SIE.7 makes the receiving-use mapping contract independently recoverable, including its negative states. Code and its documentation can carry that contract when the semantic requirements and their grounds remain distinguishable from the implementation being tested.
 
 | Source line | Adopt, adapt, or reject | Role and limit |
 | --- | --- | --- |
@@ -1428,7 +1427,7 @@ The best-known line combines declarative mapping languages, model transformation
 | [R2RML](https://www.w3.org/TR/r2rml/) | adapt | Demonstrates declarative relational-to-RDF mapping structures; RDF and relational sources are optional technology families. |
 | [OMG QVT 1.3](https://www.omg.org/spec/QVT/) | adapt | Contributes model-query/view/transformation and trace forms; MOF/QVT is not mandatory. |
 | [PROV-O](https://www.w3.org/TR/prov-o/) | adapt | Supports derivation and activity/agent/entity trace; provenance does not prove semantic preservation. |
-| code-first ETL as sole contract | reject as sufficient | Execution can be tested only against an independently recoverable rule, loss, and branch contract. |
+| code-first ETL with implicit semantic premises | reject as sufficient | Execution must be checked against an independently recoverable rule, loss, and branch contract. |
 
 Reopen when an input or target scheme changes, a correspondence/identity/composition premise changes, a counterexample defeats the rule, the receiver changes accepted loss, or implementations cannot satisfy the preservation predicate.
 
@@ -1585,7 +1584,7 @@ That rejection completes the Method when it answers the requested question. The 
 
 ### SIE.8:9 - Consequences
 
-The realization becomes a reversible bounded decision with visible source, semantic, and operating trade-offs. Interface designers receive explicit currentness and error behavior, while implementers receive a clear invariant to preserve.
+The bounded realization decision exposes source, semantic, and operating trade-offs and the conditions for reconsidering it. Interface designers receive explicit currentness and error behavior, while implementers receive a clear invariant to preserve.
 
 The cost is comparison beyond the preferred platform and coordination with operational owners. A selected candidate may still stop because access, security, service, provider, or cost evidence is missing.
 
@@ -1595,7 +1594,7 @@ Virtual and materialized are not merely deployment choices: they change when and
 
 ### SIE.8:11 - SoTA-Echoing
 
-The best-known line combines declarative mappings, virtual knowledge-graph systems, data federation, materialized integration, and operational data-product practice. The serious default alternatives are “materialize one canonical graph” and “federate everything live”. Each can be correct under conditions; each is defective as a universal answer because it hides a different set of currentness, access, provenance, and recovery obligations. SIE.8 mutates the line into a whole-arrangement choice around one semantic result.
+The best-known line combines declarative mappings, virtual knowledge-graph systems, data federation, materialized integration, and operational data-product practice. The serious default alternatives are “materialize one canonical graph” and “federate everything live”. Each can be correct under conditions; each is defective as a universal answer because it hides a different set of currentness, access, provenance, and recovery obligations. SIE.8 uses these contributions to compare whole arrangements that supply the same semantic result.
 
 | Source line | Adopt, adapt, or reject | Role and limit |
 | --- | --- | --- |
@@ -1749,7 +1748,7 @@ An integration result has practical value only when it crosses into receiving Wo
 
 ### SIE.9:11 - SoTA-Echoing
 
-The best-known line combines explicit API/data-contract practice, data-on-the-Web provenance/version guidance, event interfaces, and standards-based engineering exchange. The serious default is transport-first interface design. Its defect is that success is reduced to reachability and schema conformance. SIE.9 mutates the line by making semantic branches, currentness, provenance, and challenge paths part of the receiving contract.
+The best-known line combines explicit API/data-contract practice, data-on-the-Web provenance/version guidance, event interfaces, and standards-based engineering exchange. The serious default is transport-first interface design. Its defect is that success is reduced to reachability and schema conformance. SIE.9 uses these contributions to make semantic branches, currentness, provenance, and challenge paths part of the receiving contract.
 
 | Source line | Adopt, adapt, or reject | Role and limit |
 | --- | --- | --- |
@@ -1918,11 +1917,11 @@ The cost is several kinds of evidence and collaboration with domain and receivin
 
 ### SIE.10:10 - Rationale
 
-Semantic integration is a claim chain. Different links require different evidence, and the receiver depends on their composition. Layered validation preserves this structure: no lower layer proves a higher one, while a positive conclusion requires support for every load-bearing premise of the claimed whole use or contract-permitted subset.
+Semantic integration is a claim chain. Different links require different evidence, and the receiver depends on their composition. Layered validation keeps the scope of each test result explicit. A positive conclusion requires support for every load-bearing premise of the claimed whole use or contract-permitted subset.
 
 ### SIE.10:11 - SoTA-Echoing
 
-The best-known line combines constraint validation, ontology-alignment evaluation, provenance, data-quality models, quality management, and user/task validation. The serious defaults are conformance-only testing and aggregate quality scoring. Their defect is not automation or measurement; it is using one layer as a proxy for the whole use. SIE.10 mutates the line into a dependency-aware account with categorical bounded dispositions and representative Work replay.
+The best-known line combines constraint validation, ontology-alignment evaluation, provenance, data-quality models, quality management, and user/task validation. The serious defaults are conformance-only testing and aggregate quality scoring. Their defect is not automation or measurement; it is using one layer as a proxy for the whole use. SIE.10 combines these contributions in a dependency-aware account with categorical bounded dispositions and representative Work replay.
 
 | Source line | Adopt, adapt, or reject | Role and limit |
 | --- | --- | --- |
@@ -2087,7 +2086,7 @@ Finding hidden reliance and interpreting source changes can require domain and r
 
 ### SIE.11:10 - Architectural Rationale
 
-The changed proposition, rather than the changed carrier, determines semantic impact. Direct domain Methods decide the affected result; discovery determines where those questions arise. Keeping those contributions distinct permits reuse, independent completion, and honest limits on wider conclusions.
+The changed proposition, rather than the changed carrier, determines semantic impact. Direct domain Methods decide the affected result; discovery determines where those questions arise. Keeping those contributions distinct permits reuse, independent completion, and limits on wider conclusions.
 
 ### SIE.11:11 - SoTA-Echoing
 
@@ -2160,9 +2159,9 @@ Define the smallest shared module arrangement that serves the actual users. Make
 2. **Set module boundaries.** State the module's domain, concepts and relations, intended uses, material exclusions, and relation to local extensions. Use SIE.3 for content that needs model development and SIE.4 for qualified correspondences between different module meanings.
 3. **Establish identification and dependencies.** Choose namespaces or identification practices that let consumers recover the intended term or module meaning. Identify editions and the dependencies each supported use needs. A permitted version range must have a semantic compatibility basis for its claimed use.
 4. **Assign the decisions and communication.** State who may propose changes, decide module content, release an edition, resolve a disagreement under the community's rules, and communicate with users. Record the actual remit of each responsibility. A source owner retains its source meaning and issuance authority.
-5. **Make contribution workable.** Give a proposer enough guidance to supply the changed meaning, rationale, examples, affected modules, and known consumer consequences. Route the proposal to the people authorized to decide it. Keep an unresolved disagreement explicit and permit a scoped local extension or alternative module when it can serve its users honestly.
+5. **Make contribution workable.** Give a proposer enough guidance to supply the changed meaning, rationale, examples, affected modules, and known consumer consequences. Route the proposal to the people authorized to decide it. Keep an unresolved disagreement explicit and permit a scoped local extension or alternative module when it can serve its users.
 6. **Prepare the release for its consumers.** Identify material semantic changes and use SIE.11 for affected reliance. Provide the edition, access, dependency conditions, and migration or deprecation information needed by those users. Distinguish a clarification from a changed meaning; preserve a way to identify the earlier meaning when consumers still rely on it.
-7. **Notify and maintain at the agreed scope.** Give affected users notice that permits the action required by their dependency and the community agreement. Maintain a responsive contact and a workable path for corrections. An urgent correction may require immediate qualified publication and notification; describe the resulting limits honestly.
+7. **Notify and maintain at the agreed scope.** Give affected users notice that permits the action required by their dependency and the community agreement. Maintain a responsive contact and a workable path for corrections. An urgent correction may require immediate qualified publication and notification; describe the resulting limits.
 8. **Return the usable arrangement.** Show how the named participants can obtain a module, propose a change, decide and release it, and interpret the effect on their supported uses. An unresolved decision right or dependency limits the part of the commons that can be claimed as governed.
 
 These responsibilities can fit a small agreement for a small commons. Broader participation adds work only where additional semantic dependence or decision needs arise.
