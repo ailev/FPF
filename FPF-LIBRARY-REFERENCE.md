@@ -18,6 +18,9 @@ This Reference explains how that language is organized and why its boundaries ma
 - [One connected language, several kinds of whole](#libraryreference1---one-connected-language-several-kinds-of-whole)
   - [Long mantras and connected reasoning](#libraryreference11---long-mantras-and-connected-reasoning)
     - [Rhythmic coordination across different practices](#libraryreference111---rhythmic-coordination-across-different-practices)
+  - [Holonic thinking across different kinds of whole](#libraryreference12---holonic-thinking-across-different-kinds-of-whole)
+    - [Related forms of thinking retain their questions](#libraryreference121---related-forms-of-thinking-retain-their-questions)
+    - [Use and translate the terms through their subject](#libraryreference122---use-and-translate-the-terms-through-their-subject)
 - [What the names refer to](#libraryreference2---what-the-names-refer-to)
 - [Why general Methods belong in Core](#libraryreference3---why-general-methods-belong-in-core)
 - [Why these Suites form useful wholes](#libraryreference4---why-these-suites-form-useful-wholes)
@@ -96,7 +99,7 @@ The teaching order makes a connection understandable one part at a time. Actual 
 
 The general explanation of a mantra stays with the pattern or framework that supplies it. A Framework Architectural Reference connects the language's Methods; a Suite Reference explains the additional connections across its constituent fields; this Library Reference explains connections and boundaries across publications. README pages make the important entry visible. These levels should lead to the full reasoning rather than repeat several competing definitions or hide a missing Method behind a navigation link. FPF E.11.PFP:4.7.2 explains this publication arrangement.
 
-### Library.Reference:1.1.1 - Rhythmic coordination across different practices
+#### Library.Reference:1.1.1 - Rhythmic coordination across different practices
 
 The control construction also connects work whose timing must remain coordinated while individual actions vary. Apply FPF C.43:4.5.1 to establish the required temporal relations, fit preparation and recovery around shared means, and repair the particular relation that was lost. The following subject Methods explain different realizations; the common Method is available in Core without requiring any of these DPFs.
 
@@ -107,6 +110,50 @@ In Control Architecture Design, CAD.2 specifies event order, behavior between up
 In Operations Management, OPS.13:4.5 selects periodic review, an event signal or their combination from the time and work needed for a useful response. OPS.10.2 supplies joint resource occupations, preparation and recovery, and the revision of the remaining schedule. An exception may need action before the next regular review; providing that response must also account for the work it interrupts and what must continue afterwards. The common choice is which temporal relations to preserve and which to change.
 
 These connections preserve different outcomes. RHY develops an embodied performance, CAD an engineered control arrangement, and OPS workable organizational commitments and performance. The same timing requirement can reveal a missing relation in another field, while each field supplies the means and evidence that make its realization credible.
+
+### Library.Reference:1.2 - Holonic thinking across different kinds of whole
+
+Holonic thinking connects a whole with the parts and relations that constitute it, and with its possible contribution to a larger whole. It helps answer a practical question: **what must be connected, retained or changed for the whole to do what the work requires?** System thinking is one important application. The same question also arises when constructing a method, understanding performed work, assembling knowledge or developing a discipline.
+
+Begin with the whole's needed contribution and conditions of use, or with an existing whole whose construction needs explanation. Recover or propose its parts and the relations through which their contributions combine. Then bring the result back to the parts. A requirement on the whole can change the choice of a part or its connection; a limit found in a part can require another whole construction or a narrower use. The useful result is a reason for retaining or changing that construction. Naming the whole and listing its parts leaves this reasoning unfinished.
+
+The construction rule depends on the kind of whole. [FPF A.1](FPF-Spec.md#a1---recognize-a-whole-with-parts-uholon-and-admitted-holon-kinds) supplies the common holon criterion; the subject patterns explain what constitutes each kind.
+
+| Whole being considered | What the holonic reasoning connects | Full contribution |
+| --- | --- | --- |
+| System | Constituents and their organization with functioning and use; the whole's required contribution with choices about its construction. | A.1 and A.1.STM, with the relevant system-composition Methods. |
+| Method | Reusable ways of doing through their prerequisites, results, joins and alternatives; the combined way with the result it must obtain or preserve. | A.3.1 and B.1.5; B.1.5.RS for replacement and B.1.5.EW for constituent Methods in ongoing work. |
+| Performed Work | Actual performance and its admitted sub-occurrences, including their time, performers and relations; the whole history with what the receiving work needs to establish. | A.15.1. |
+| Episteme | Claims and their interpretation with the premises and inferential relations required by a conclusion. | C.2.1 and B.1.3. |
+| Discipline | Knowledge that explains and constrains reusable practice with practice results that can test and revise that knowledge. | C.20. |
+
+These are applications to different kinds of whole, not a closed classification of thinking. A system's components, a Method's constituents and a Work occurrence's parts have different identity and composition conditions. Reasoning across them preserves those differences.
+
+The distinction is especially useful between **methodological thinking** and reasoning about **performed work**. Methodological thinking asks how a way of doing is selected, constructed, combined or changed. Its holonic application concerns a Method whole. An account of performed work asks what actually happened and how its parts belong to that occurrence. A reusable laboratory Method can permit a retry; a particular test can contain an interruption and two attempts. The permitted branch and the performed attempts answer different questions. A five-minute log window alone identifies neither a submethod nor an admitted Work part. Plans and descriptions of future work retain their prospective meaning.
+
+The connections between kinds make the shared account useful. Knowledge supplies grounds and limits for constructing or selecting a Method. Capable Systems perform Work that enacts Methods. Results of that Work can support claims used to revise a Method or a system design. The relevant discipline can organize this continuing relation between knowledge and practice. Each connection needs its own explanation: enactment, production, evidential use and parthood are different relations.
+
+For example, a laboratory Method compares two readings and repeats a reading when their difference exceeds a tolerance. If the receiving scientific claim requires independent measurement paths, two readings from the same dependent path cannot supply that independence. The required conclusion changes the Method and the provision of apparatus. A better account of the Work history helps establish what was performed, but does not make the method or apparatus adequate by itself. The whole's requirement thus changes the parts through a specific reason.
+
+#### Library.Reference:1.2.1 - Related forms of thinking retain their questions
+
+The holonic aspect of system thinking concerns Systems, the holonic aspect of methodological thinking concerns Methods, and the holonic aspect of reasoning about performed work concerns Work. These distinctions help explain the common contribution. The familiar names also have wider uses. A.1.STM connects the proposed system with its intended use, creators, Methods and cooperation; OPS.23 connects work with capacity, commitments, service, money and people's conditions. Neither account becomes complete by identifying one holon kind.
+
+Management and strategic reasoning connect several of these subjects. C.43 relates observations, choices and actions under the conditions of the same continuation. STR.18 relates worthwhile contributions, their obtaining ways, feasible means and commitments. Their holonic questions can concern systems, methods, work and knowledge together. “Strategic” and “operational” name different questions here; the words alone place neither the thinker nor the object at a particular system level.
+
+Mathematical thinking also has several contributions. A proof account or theory can be considered as a connected whole of claims. A reusable proof Method can compose submethods. Mathematical thinking additionally constructs objects, operations, representations, witnesses and countermodels, and develops conjectures. A mathematical object that a claim concerns is different from the claim-bearing Episteme. [MATH.Reference:1–3](DPFs/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-PRACTICE-DPF.md#mathreference1---problem-frame---construct-mathematics-for-the-question) develops that broader repertoire.
+
+This distinction changes the next action. An adequate proof of existence may settle one mathematical question while a later use requires a way to obtain a witness. MATH.12 examines what construction the proof supplies; another mathematical contribution may be needed. Calling the proof an Episteme does not produce that contribution. A constructive account of mathematical work preserves the distinction between existence, a witness-producing operation and its execution; it need not exclude classical reasoning.
+
+The synthesis connects these different contributions through what one supplies and another needs. It does not establish that all their originating disciplines are parts of one further discipline. C.20 supplies the stronger construction when that claim matters.
+
+#### Library.Reference:1.2.2 - Use and translate the terms through their subject
+
+In introductory Russian, «холоническое мышление о системах, методах, выполненных работах, знании и дисциплинах» makes the subjects explicit. The corresponding English phrase is “holonic thinking about systems, methods, performed work, knowledge and disciplines.” Use a familiar shorter adjective where the surrounding explanation preserves that subject and its operation.
+
+Existing usages can differ. English “systematic” can mean methodical organization; it is not a substitute for FPF's “system thinking.” Richmond's [Operational Thinking](https://thesystemsthinker.com/operational-thinking/) concerns how actual processes work and their causal organization. The French historical expression *pensée opératoire* concerns logical operations in [Piaget's account](https://www.unige.ch/piaget/piaget1947PIN_03). Neither expression should be translated into the Work-holon application merely from its word form.
+
+[E.10's lexical guidance](FPF-Spec.md#e1099---thinking-terms-and-the-whole-being-considered) applies the distinction in authoring. Preserve the source meaning, make the intended subject and relation clear, and use the full subject Method when a decision depends on its construction. The shared explanation gives an entry into that work; recognition of a holonic question and assurance that a particular whole satisfies its conditions remain separate results.
 
 ## Library.Reference:2 - What the names refer to
 

@@ -98574,6 +98574,16 @@ Use the recovered subject directly: C.30.LCA for a control-structure claim, C.32
 
 Do not force a control interpretation onto a field title or an already clear sentence. Repair only the ambiguity that changes understanding or use, then return to the work.
 
+#### E.10:9.9 - Thinking terms and the whole being considered
+
+When a thinking term identifies the subject of a holonic question, name the whole and the relation that the reasoning needs. **System thinking** can consider how Systems are constituted and contribute to larger systems. **Methodological thinking** can consider how reusable Methods are constructed and composed. Reasoning about **performed work** can consider how actual Work occurrences and their parts form a performance history. Use A.1, A.3.1/B.1.5 and A.15.1 for their different construction rules.
+
+These are qualified applications, not exhaustive definitions of the familiar forms of thinking. An “operational” judgement can also concern capacity, commitments and service under OPS.23. Management and strategic reasoning can connect Systems, Methods, Work and Epistemes. Mathematical thinking can compose claim-bearing knowledge and proof Methods while also constructing mathematical objects and operations. Keep an object of a mathematical claim distinct from the Episteme making that claim.
+
+Translate the intended subject and operation, not just the adjective. Russian «методологическое мышление» concerns methods and their grounds in this use; English “methodical thinking” can instead mean orderly procedure. “Systematic” does not by itself mean FPF's “system thinking.” For the Work application, “reasoning about performed work” and «мышление о выполненных работах» make the intended subject explicit. Preserve a source's different use when quoting or explaining it.
+
+[Library.Reference:1.2](https://github.com/ailev/FPF/blob/main/FPF-LIBRARY-REFERENCE.md#libraryreference12---holonic-thinking-across-different-kinds-of-whole) develops the common construction and its limits. Apply this distinction with F.19 when authoring or repairing a consequential use. The adjective alone supplies neither holon admission nor a part–whole, level or layer relation.
+
 ### E.10:10 - Optional detailed lexical checks *(informative)*
 
 Use this section only after `F.19` and the compact cue surface have selected a lexical, register, morphology, or naming question.
