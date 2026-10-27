@@ -2562,7 +2562,7 @@ Use this pattern when a complex source structure must be taught, explained, or l
 
 First useful move: begin at one consequential transition. Recover the current question, what the learner has already met, the contribution now needed and the support actually available there. Try the next task with that support, then repair the missing connection or choose the next useful teaching move.
 
-Architecture warning: the source corpus may have a good reference architecture and still make a bad learning route if copied directly into the course. Engineers often make a blocked topic route: one coherent module after another, with each topic concentrated in its own lesson. That can be excellent for a reference manual, API, or architecture description, but weak for learning when learners must discriminate neighboring cases, retrieve earlier distinctions, and transfer the structure under varied cues.
+Choose the learning order from the learner's next action and intended later use. The source organization can support lookup, a first explanation, or a comparison of what several cases share. When later work requires choosing among similar cases, a route that names the topic for every task can leave that choice unpractised. Keep the source organization available and select the comparisons, mixed tasks, or later returns that the learning purpose requires.
 
 What goes wrong if missed: the explanation is engaging and memorable, but learners retain examples, slogans, analogies, and mood while losing architecture, relation records, proof obligations, pattern-use routes, source-return conditions, or improvement cycles.
 
@@ -2572,15 +2572,15 @@ What this buys: a route that helps learners use the source ideas, with the neede
 
 A learning narrative uses sequence, examples, repetition, analogy and motivation to help the learner reconstruct and use source ideas. Those choices can also conceal a prerequisite or make an illustrative route appear to be the only way to perform a method.
 
-A common engineering failure is the reference-manual course. The course follows the module architecture of the source: first all of topic A, then all of topic B, then all of topic C, each with concentrated examples. Learners can follow each block locally, but later fail to choose the right pattern, distinguish nearby structures, remember earlier conditions, or transfer across domains. The repair is not to destroy the source architecture. Keep the source architecture as source return, then design a different learning-route architecture with deliberate interleaving, spaced retrieval, recurring anchors, and transfer tasks.
+A course organized by topic can supply the method choice in each exercise's heading. If later work requires learners to make that choice themselves, successful exercises within those blocks leave an important action unpractised. The author must choose which cases learners need to compare, what material makes the comparison possible, and where independent selection belongs. Grouping episodes by case family and connecting the reasoning within an episode answer different design questions. A useful learning route preserves the relations needed for each action while choosing the order and later returns for the intended learning result.
 
 ### NSTD.8:3 - Forces
 
 | Force | Tension |
 | --- | --- |
 | Didactic route vs source corpus | Learning order may differ from publication order, proof order, architecture order, or framework order. |
-| Source architecture vs learning-route architecture | High cohesion and low coupling can be good for the source corpus but harmful when copied as blocked topic instruction. |
-| Local fluency vs durable discrimination | Blocked topic lessons feel orderly and efficient, while interleaving can feel harder but can improve later choice and transfer. |
+| Source organization vs learning order | Source modules group material for reference and reuse; learning episodes arrange it for a learner's action. The useful grouping can coincide or differ. |
+| Shared basis vs distinguishing cases | A block can make a common relation visible across instances; a close comparison or mixed task can expose differences between similar alternatives. The learner's missing operation determines which arrangement is useful. |
 | Coverage vs spaced retrieval | A course can cover every topic once and still leave learners unable to retrieve earlier structures when they matter later. |
 | Engagement vs reconstruction | Learners may enjoy a story, analogy, example, or lesson without reconstructing source structure. |
 | Local teaching evidence vs package authority | Test-run evidence helps a learning route, but does not by itself make the package authoritative. |
@@ -2626,13 +2626,21 @@ The following design questions connect the route's components. They can be addre
 | Which source ideas will the learner need? | The relations and operations needed for later reconstruction or application. | A memorable example with no usable connection to the subject. |
 | Does the source organization suit learning here? | A reasoned choice of learning order, with the source organization still accessible. | Copying a reference topic map without considering the learning task. |
 | What must be available before the next task? | A sequence or usable return that supplies the prerequisite at that point. | Requiring an operation before its necessary relation is available. |
-| Must learners later distinguish neighboring cases? | Mixed selection or comparisons when the learner has enough support to use them. | Success based on the topic label rather than recognition of the case. |
+| Which comparison or selection does the learner need? | The relevant cases, material sufficient for the intended action, and an order chosen through HCD.10:4.5 when grouping or mixing cases matters. | A needed relation remains hard to notice, or the topic label supplies a choice the learner must later make. |
 | Must the idea remain available after a delay? | Suitable later retrieval attempts and feedback. | Immediate recognition mistaken for durable retrieval. |
 | How does an aid connect to the current question and next use? | A meaningful term, diagram, question or case with its relation recoverable. | Remembering the aid but not what to do with it. |
 | What must the learner recover or perform? | A task that exposes the needed distinction or operation. | Satisfaction mistaken for practical capability. |
 | What result would change the route? | A scoped `NSTD.6` judgement and a worthwhile next repair. | Treating every teaching change as an improvement. |
 
-Do not optimize the learning-route architecture for local neatness. A locally neat blocked route can be globally weak: it gives learners the answer key for the current block, so they do not practice selecting the right owner under mixed cues. Interleaving is useful when the learner must later discriminate similar patterns, methods, proof obligations, architecture structures, or source-return owners. Spacing is useful when the learner must still retrieve a structure after other material has intervened. Use them as design moves with declared learner use, not as decorative variety.
+Start from the intended reconstruction or application task and the learner's available preparation. If learning depends on recognizing a common relation across cases or distinguishing similar alternatives, apply HCD.10:4.5 to choose the comparison and its order. That operation can retain a block, bring contrasting cases together, or mix further cases for selection. Use its result to decide which cases and deciding relations the narrative must make available. When the basic operation still needs explanation or supported practice, supply that contribution through the subject method and §4.1.
+
+Choose the material needed for one learner action or connected attempt as the episode you are arranging. For a direct comparison, two sentences in one paragraph may supply the relevant cases and difference. Applying a method to a system may require a sustained explanation and several cases across multiple pages. Paragraphs and pages carry the material; the intended action and its necessary support determine the extent to keep available together.
+
+Then arrange the episodes and the reasoning within them. Keep the relation between successive claims recoverable: what question they address, what the next claim uses, or how a case changes the current account. Decide any further alternation within an episode from the comparison or reasoning needed there. A mixed sequence of practice tasks can therefore contain sustained explanations, each with its own order of claims.
+
+A question can remain open while intervening cases prepare its later development or resolution. Preserve the question across the switch and arrange the return; make the necessary relation available by the time a task depends on it. Use §4.1 to distinguish this purposeful preparation from a lost connection or an unsupported demand. A short comparison, a sustained explanation and a deliberate later payoff can each preserve the learner's thread.
+
+When later availability matters, select spaced returns through HCD.10:4.4, choosing retrieval and permitted support separately. Keep the members of a comparison jointly accessible when their relation is needed, even if practice with that comparison returns after a delay. Judge the design through the learner action under its actual support, using §4.1 and NSTD.6 for the corresponding observation.
 
 
 
@@ -2919,7 +2927,7 @@ Copying the source corpus's modules into a course can leave later selection unpr
 | `CC-NSTD8-3` | Learner reconstruction tasks test source structure, not only recall of narrative highlights. |
 | `CC-NSTD8-4` | Lessons, exercises and other learning materials make their needed source relations and tasks available at the point of use. |
 | `CC-NSTD8-5` | A claimed improvement identifies the compared route versions, affected outcome, relevant costs and protected qualities; `NSTD.6` supports evaluation and `E.22`/`E.23` the applicable improvement question. |
-| `CC-NSTD8-6` | Source organization and learning order are distinguished. Interleaving, spacing and delayed or mixed tasks are selected for the intended learning outcome and available support. |
+| `CC-NSTD8-6` | Source organization, the order of learning episodes and the reasoning within them are distinguished. The learner's intended action determines the needed comparison, sufficient material and available support. Selected grouping, mixing and later returns serve that action. When spacing is used, its timing is distinguished from retrieval and support choices. |
 | `CC-NSTD8-7` | Material attachments and consequential prefixes connect the current question, available structure/support and next use; missing relations, unsupported demands and deliberate preparatory attempts receive different repairs or continuation. |
 | `CC-NSTD8-8` | First and helped responses, source contribution, prior expertise and human learning or burden claims retain their own evidence boundaries; structural density is not treated as observed cognitive load. |
 
@@ -2965,6 +2973,9 @@ Operational payload:
 The practical result is a route whose explanations, attempts and later returns support the declared learner use. Keep an adequate source-aligned segment; repair a missing connection, an unsupported demand or an unpractised selection only where it changes the intended result.
 
 ### NSTD.8:12 - Relations
+
+Apply HCD.10:4.5 when the route needs a choice between grouping and mixing cases. It returns the comparison and order for the learner's current difficulty; NSTD.8 uses that choice to determine the material and narrative connections needed at the point of use. HCD.10:4.4 selects spaced returns with retrieval and support conditions kept separate.
+
 
 Uses `A.6.3.NAR`, `E.6`, `E.11`, `E.17`, `E.17.AUD`, `NSTD.1`, `NSTD.2`, `NSTD.5`, `NSTD.6`, `E.21`, `E.22`, `E.23`, `B.4`, and `G.11`. `NSTD.5` bounds motivation and interest; `NSTD.6` evaluates one route version; `E.22` frames under-specified quality questions; `E.23` repairs a declared changed slice; `G.11` refreshes source, telemetry, edition, or practice currentness; `B.4` is only for evolution claims over the learning route. Reopen when learner use, source spine, source architecture, learning-route architecture, interleaving plan, spacing or retrieval schedule, teaching-test evidence, source currentness, edition, or evaluation result changes. Support-map entry: open `Architecture and Narrative Work Bridge` when the learning route narrates architecture, copies source architecture as course architecture, uses views, source spine, or actual-structure feedback; open `Semiotic And Language-Precision Bridge` when didactic coarsening, cue or backoff, explanation, style, or language-state choice matters; open `Source Use And Refresh Map` when teaching, memory, cognition, interleaving, spacing, or learner-test source support changes; use the refresh route when learner telemetry changes.
 
