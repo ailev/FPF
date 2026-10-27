@@ -45101,7 +45101,7 @@ B.3's source account and [ISO/IEC/IEEE 15026-2:2022](https://www.iso.org/standar
   1. **`tv:groundedBy`** → points to the support required by the relation's branch: the applicable `sum` or `slice` trace for structural parthood, one current `C.13 set` trace for the collection's belongs-to relation, or an admissible argument or evidence object for another permitted claim.
   2. **`validationMode ∈ {axiomatic, inferential, postulate}`** → declares how the author justifies the assertion.
 
-The pattern that defines the relation still decides when it obtains. CT2R-LOG records the public alias, the branch-specific support link, and the declared assurance posture; Lang-CHR supplies the labels.
+The pattern that defines the relation still decides when it obtains. CT2R-LOG records the branch-specific support link and declared assurance posture. An optional `tv:AliasOf` declaration resolves a local relation label to its accepted Tech designation under E.10 and Lang-CHR.
 
 ### B.3.5:2 - Problem Frame
 
@@ -45121,10 +45121,10 @@ Working-Model relations such as **ComponentOf** and an ordinary belongs-to sente
 
 ### B.3.5:4 - Solution (thumbnail)
 
-CT2R‑LOG introduces a **two‑link discipline** and a **validation flag** around each canonical edge:
+CT2R-LOG distinguishes an optional link between relation designations from the grounding link and validation flag required for each covered assertion:
 
-1. **Alias link (concept‑level).**
-   **Working-Model relations** (e.g., `ut:ComponentOf`) are the public names for their exact direct relation principles. **`tv:AliasOf`** may point from the public relation kind to that principle for comparison and reuse; the alias defines neither an occurrence nor a whole.
+1. **Alias link (lexical).**
+   **`tv:AliasOf`** may link a local relation designation to the accepted Tech designation of the same relation in that use. The definition in :5 fixes both endpoints and the conditions for using this alternative label. Cite the direct relation pattern to recover the relation’s meaning.
 
 2. **Grounding link (assurance level).**
    Each relation assertion covered by this elected profile carries `tv:groundedBy` according to its direct relation kind:
@@ -45176,8 +45176,12 @@ When an inadequate working account requires general diagnostic recovery of the e
 * **Working-Model relations (front‑stage).**
  `ut:ComponentOf`, `ut:PortionOf`, and `ut:AspectOf` are publication-grade part relations under their direct A.14 rules. A collection uses the belongs-to predicate defined by the pattern for that collection; FPF has no public generic `ut:MemberOf` relation. Belonging is not a sub-property of `ut:PartOf`, `ut:StructPartOf`, or `ut:EpiPartOf`, but the same entities may separately stand in a constructive part relation when its own rule and all six A.1 matters pass.
 
-* **Alias principle (lexical).**
-  `tv:AliasOf` links a **public relation type** to the exact direct relation principle whose reading it carries (for example, `ComponentOf` points to the direct structural-component principle). The alias supports comparison; it neither defines an occurrence nor says that a `sum` expression produced the relation.
+* **Alias declaration (lexical).**
+  `a tv:AliasOf t` states that local designation **a** denotes the same direct relation as accepted Tech designation **t** in the stated use. Both endpoints are designations. Identify the source or practice, effective scheme and local meaning under E.10:6.2.1; preserve the relation’s applicability and the roles and order of its participants. The direction points from the local expression to the Tech designation used to recover its meaning. Cite the defining passage, such as A.14 for `ComponentOf`, as the semantic source.
+
+  A glossary sentence can make this declaration once for its stated use. An already clear Tech designation needs no additional alias. Apply F.17/F.18 when the naming task actually requires their records; an alias alone creates no need for a NameCard or SchemeSenseCell. E.10 separately governs the use of a Plain twin.
+
+  To use an alias, recover the declared meaning and participant positions, then apply the direct relation’s rule to the assertion. Recheck the declaration when its meaning or use changes. A broader meaning, or an expression that reverses participant positions, needs its own account: for example, `hasComponent(whole, part)` expresses the inverse of `ComponentOf(part, whole)`. A bare alias declaration does not specify that reversal. When distinct local meanings require an actual semantic correspondence, use F.9; matching words alone leave that correspondence unresolved.
 
 * **Grounding (per‑edge).**
  When this profile is elected for structural parthood, `tv:groundedBy` points to the applicable current C.2.1 construction trace and `validationMode=axiomatic`. When elected for collection belonging, it points to one current `C.13 set` trace under the collection's own rule and also uses `validationMode=axiomatic`. Other epistemic or constitutive claims may use a logical argument or evidence object under their permitted mode. Every target lets a reviewer inspect the assertion's basis.
@@ -45191,6 +45195,10 @@ When an inadequate working account requires general diagnostic recovery of the e
 ### B.3.5:6 - Archetypal Grounding - Running example
 
 > **Story.** A refinery team publishes `:PumpA ut:ComponentOf :Skid12`.
+
+**Optional local wording.** The team’s glossary uses “assembly component of” for A.14 `ComponentOf`, with the component first and its containing whole second. It can state “In this assembly glossary, ‘assembly component of’ is an alias of `ut:ComponentOf` as defined in A.14.” This one declaration lets readers recover the relation intended by “PumpA is an assembly component of Skid12.” Whether PumpA actually satisfies that rule is examined in the account below.
+
+Suppose a later inventory glossary widens that phrase to include uninstalled spares reserved for a skid. The earlier alias no longer covers the widened meaning. Keep the assembly meaning explicit or use the inventory’s separately defined reservation relation. PumpA’s existing component claim can remain valid while it stays installed; the label change alone supplies no new assertion about a reserved spare.
 
 * **Publication — Working-Model relation layer.**
   They publish one assertion using the **Working-Model** relation **ComponentOf**, with exact named participants and the relation interpreted under its declared semantics. Those are its relevant expression properties under C.2.3; a universal F rank is unnecessary. The public view presents the Working-Model relation; a reviewer can follow its grounding link.
@@ -45238,7 +45246,7 @@ When you add or import a relation edge:
 
 ### B.3.5:9 - Rule‑set — CT2R‑LOG (conceptual, human‑first)
 
-**Intent (one line).** Make **Working-Model** relations the canonical relation vocabulary for authors, while providing a clean, purpose-selected bridge to assurance through aliasing and grounding semantics; the bridge is required only for the published assertions covered by an elected B.3.5 profile or named current requirement.
+**Intent (one line).** Publish readable Working-Model relation claims, resolve a useful alternative designation through an optional alias, and supply the assurance account required for assertions covered by an elected B.3.5 profile or named current requirement.
 
 #### B.3.5:9.1 - Vocabulary and meanings in this pattern
 
@@ -45248,15 +45256,15 @@ When you add or import a relation edge:
 
   * **Constructive** grounding: an inspectable account in one of the three C.13 forms (`Γ_m.sum | Γ_m.set | Γ_m.slice`). It names independently grounded participants, direct relation occurrences, the applicable construction rule, and identity or reidentification conditions. No formal notation is required, and the account does not create the relation it reports.
   * **Logical** grounding: a *reasoned* chain (think KD‑CAL style arguments) that shows why the relation follows from stated premises.
-  * **Mapping** grounding: a *relation-label alignment* that shows the domain label truly denotes the intended Working-Model relation (Kind-CAL / Lang-CHR stance).
-    These three grounding modes are *complementary*, not exclusive.
+  * **Mapping** grounding: support for interpreting a relation designation or for a claimed correspondence between meanings. E.10/F.18 govern a same-meaning alias; F.9 governs a required correspondence between distinct local meanings.
+    These contributions can be combined. Mapping supports interpretation or cross-context use; the assertion still needs the construction account, argument or evidence required by its branch in :4.
 
 * **Empirical Validation.** Observations and calibration results support claims about the relation under the applicable conditions. Assess their contribution under B.3.
 
 * **Grounding vocabulary (`tv:`).**
 
-  * `tv:AliasOf` — identifies the direct relation principle whose reading the public relation kind carries.
-  * `tv:groundedBy` — points to the **author's grounding account** (Constructive, Logical, or Mapping, as applicable). When a construction trace is recorded, it is a C.2.1 episteme with its own edition and currentness.
+  * `tv:AliasOf` — links a local relation designation to the accepted Tech designation of that same relation under :5.
+  * `tv:groundedBy` — links the covered assertion to the **author’s grounding account** required by its branch in :4. Interpretation or correspondence support may accompany that account; it cannot replace the branch’s required basis for the asserted relation. When a construction trace is recorded, it is a C.2.1 episteme with its own edition and currentness.
     The `tv:` namespace is part of the Core conceptual lexicon; it is **notation‑agnostic** and **tool‑agnostic**.
 
 * **`tv:validationMode ∈ {postulate, inferential, axiomatic}`.** A **declaration by the author** of the *justification posture* for a relation instance:
@@ -45272,7 +45280,7 @@ When you add or import a relation edge:
 Authors **SHALL** state each covered direct relation claim in Working-Model form. Assurance accounts remain below that public layer. Electing this profile adds branch-specific trace and mode obligations; it is not a precondition for direct use.
 
 **S‑2 (Alias declaration).**
-If a Working‑Model relation follows a known general principle, the author **SHOULD** declare `tv:AliasOf <Principle>`, thereby making the intended *use‑pattern* explicit for reviewers and future readers.
+When an alternative relation designation helps readers and carries the same meaning, the author **SHOULD** declare its `tv:AliasOf` link to the accepted Tech designation under :5. State the local use and cite the defining passage so readers can recover the intended relation. A direct claim using an already clear Tech designation needs no alias.
 
 **S‑3 (Grounding by mode).**
 For every relation instance covered by an elected B.3.5 profile, the author **MUST** set `validationMode` and follow the corresponding grounding stance:
@@ -45301,7 +45309,7 @@ Execution order, parallelism or interval inclusion alone **SHALL NOT** establish
 CT2R‑LOG may *consume* Compose‑CAL and KD‑CAL conceptually; it **SHALL NOT** redefine them. Meaning flows **downward only** (Kernel → Extension → Context → Instance).
 
 **S‑7 (Register discipline).**
-When naming principles in `tv:AliasOf`, authors **SHOULD** use Tech/Plain *twin labels* where available and obey minimal‑generality and rewrite rules (LEX‑BUNDLE), so that aliases are recognisable across contexts of meaning.
+When naming relations in an alias declaration, authors **SHOULD** use the accepted Tech designation and, where available and permitted by E.10, its Plain twin. Obey the minimal-generality and rewrite rules (LEX-BUNDLE). Keep the declared local meaning and use recoverable when comparing labels across contexts.
 
 **S‑8 (No tool talk).**
 Core prose **MUST NOT** introduce CI/CD terms, file formats, APIs, or machine‑oriented notations in place of concepts. If examples are needed, they **MAY** be plain‑language narratives or domain vignettes.
@@ -45309,13 +45317,13 @@ Core prose **MUST NOT** introduce CI/CD terms, file formats, APIs, or machine‑
 #### B.3.5:9.3 - Scope & Non‑Goals (to keep the plane clean)
 
 * **In scope.**
-  Canonical publication of relations for humans; alias‑to‑principle clarity; conceptual grounding stories; author‑declared *validationMode*; separation of structure vs order/time.
+  Canonical publication of relations for humans; clarity of relation designations and their semantic sources; conceptual grounding stories; author‑declared *validationMode*; separation of structure vs order/time.
 
 * **Out of scope.**
   Any machinery that *executes* checks; any binding to specific notations; any process/workflow mechanics; any discussion of file formats. (Those belong to tooling publications, pedagogy publications, and companion records; they SHALL NOT be imported by the Conceptual Core.)
 
 * **Edge placements.**
-  Choose the grounding contribution for the question: **Mapping** for correspondence of meanings across Contexts; **Logical** for an inference from premises; **Constructive** for an account of a whole from its parts. Combine contributions when needed, retaining the construction trace required by an elected structural-parthood or collection-belonging branch.
+  Choose the contribution for the question: resolve a same-meaning alias under E.10/F.18; use **Mapping** under F.9 for a required correspondence between distinct local meanings; use **Logical** grounding for an inference from premises and **Constructive** grounding for an account of a whole from its parts. Combine contributions when needed, retaining the claim support required by the elected branch, including its structural-parthood or collection-belonging trace.
 
 #### B.3.5:9.4 - Author’s working moves (micro‑playbook, notation‑free)
 
@@ -45328,7 +45336,7 @@ Core prose **MUST NOT** introduce CI/CD terms, file formats, APIs, or machine‑
 * For collection belonging covered by the profile, choose **axiomatic** and link one current `C.13 set` trace that reports the already established relation under the collection's own rule.
 * For another permitted epistemic or constitutive claim whose chosen basis is a qualifying C.13 account, choose **axiomatic** and link that account.
 
-**M‑3.** Add `tv:AliasOf` only when a named direct relation principle helps reviewers recognize the intended reading; do not alias the relation to a constructor result.
+**M‑3.** When an alternative designation helps readers, link that designation through `tv:AliasOf` to the accepted Tech designation of the same relation. State its local use and cite the definition; apply :5 when the meaning or participant order differs.
 **M‑4.** If assembly uses two parallel lines, state the actual Method/Work and temporal facts. Add any independently obtaining part relation under its own rule; parallelism alone does not establish it.
 **M‑5.** Stop when the selected readable relation and remaining non-use boundary are clear and, if this profile is elected, its validation mode and required current support are recoverable without guessing.
 
@@ -45388,8 +45396,8 @@ Core prose **MUST NOT** introduce CI/CD terms, file formats, APIs, or machine‑
 **14.1 Why canonical‑first?**
 CT2R-LOG treats the **human-readable, task-appropriate relation** (e.g., `ut:ComponentOf`) as the **canonical publication form** because that is what engineers and managers actually use to reason, decide, and communicate. The formal layers **ground** that form; they do not replace it. Authors state the relation readers need, then point to the support required by the selected assurance use.
 
-**14.2 Why two `tv:` links—and why concept‑only?**
-`tv:AliasOf` and `tv:groundedBy` name **conceptual bridges** from a public Working-Model relation to its direct principle and assurance account. They keep authors explicit about the relation reading, the support being invoked, and when that support must be current. The same conceptual obligations can be expressed in different notations.
+**14.2 Why distinguish the two `tv:` links?**
+`tv:AliasOf` connects designations so a reader can recover which relation an expression names. `tv:groundedBy` connects a covered assertion to the account supporting that assertion. An agreed glossary meaning can remain stable while a component is removed and the earlier construction account ceases to support the current claim. Conversely, a changed glossary can require a new interpretation while the physical assembly stays unchanged. Keeping these subjects distinct tells the author what to re-examine. Both links can be expressed in prose or another suitable notation.
 
 **14.3 Why a triad of `validationMode`?**
 The triad **{postulate, inferential, axiomatic}** distinguishes permitted justification postures, not stages of formality or increasing confidence. The direct relation kind and elected profile determine which posture and support are appropriate for the receiving claim and use. A sufficient calibration account in a branch permitting `postulate` needs no mode promotion; an elected structural-parthood or collection-belonging claim still requires its respective current construction trace. Where a load-bearing claim needs stronger proof or an empirical check, select that contribution for the assurance gap it can resolve, not to advance through the three labels. The mode declaration changes neither the canonical relation nor the strength of its support.
@@ -45405,13 +45413,14 @@ These obligations govern how a relation claim is justified and published: declar
 
 ### B.3.5:14.7 - SoTA-Echoing
 
-The assurance profile uses the three contributions below.
+The assurance profile uses the following contributions. The W3C recommendations supply established semantic distinctions for the alias account; they do not define the FPF-specific predicate.
 
 | Source line | Contribution and boundary | Application in B.3.5 |
 | --- | --- | --- |
 | A.14's current constructional comparison | **Adopt** construction and identity before relation choice. **Reject** both a universal collection-membership predicate and any inference from belonging either to parthood or to the impossibility of parthood. | `S-3.d/e`, `CC-CT2R-3/5/5a`, and the Fleet North case keep collection belonging and a separately grounded part claim distinct. |
-| [ISO/IEC/IEEE 15026-2:2022, *Assurance case*](https://www.iso.org/standard/80625.html) | **Adapt** its separate, maintained assurance-case structure: an elected support account stays inspectable and current beside the claim it supports. **Reject** a mandatory full assurance case for every direct relation. The FPF-specific `validationMode` triad is only the author's declared posture; the standard is not cited as its source. | The Solution, `S-2/S-3`, B.3.4 currentness relation, and conformance rows require support only after profile election and keep claim, support, and posture separate. |
+| [ISO/IEC/IEEE 15026-2:2022, *Assurance case*](https://www.iso.org/standard/80625.html) | **Adapt** its separate, maintained assurance-case structure: an elected support account stays inspectable and current beside the claim it supports. **Reject** a mandatory full assurance case for every direct relation. The FPF-specific `validationMode` triad is only the author's declared posture; the standard is not cited as its source. | The Solution, `S-3`, B.3.4 currentness relation, and conformance rows require support only after profile election and keep claim, support, and posture separate. |
 | NIST's [Digital Thread for Manufacturing](https://www.nist.gov/programs-projects/digital-thread-manufacturing) programme | **Adapt** traceable model-based information, validation, and conformance across engineering, manufacturing, and quality. **Reject** a shared model, thread, exchange, or passing syntax check as proof of a world-side relation. | `tv:groundedBy`, the trace-family rule, and the two worked cases keep the support account versioned and inspectable while the direct relation and its own rule decide what obtains; a trace or evidence item creates neither the relation nor its identity. |
+| [SKOS / SKOS-XL (W3C, 2009)](https://www.w3.org/TR/skos-reference/#xl-label-relations) and [OWL 2 Direct Semantics (W3C, 2012)](https://www.w3.org/TR/owl2-direct-semantics/#Object_Property_Expression_Axioms) | **Adopt** the distinction between labels, relations between labels, and the relations they designate. OWL distinguishes equal property extensions from inverse properties with reversed participants. **Adapt** a directed local alias under E.10; neither a generic SKOS-XL label relation nor property equivalence supplies that declaration’s complete meaning. | :5 defines designation endpoints, local use and participant positions. The assembly-glossary case shows why changing the label’s meaning and changing the actual assembly require different reconsideration. |
 
 At comparable correctness and currentness, always exposing the heavier account costs more to write and read, while a bare direct sentence cannot meet an elected assurance need. B.3.5 therefore starts with one readable relation and adds one branch-specific account only when the publication elects the profile. The cost is that the relation assertion and its support must be checked for currentness separately.
 
@@ -45429,7 +45438,8 @@ Reconsider the affected assertion when its member, rule, trace, or evidence chan
 - **Compose-CAL (`Γ_m`) and `C.13`** — supply current construction accounts for structural parthood and the `set` account for elected assurance of collection belonging. Each trace reports facts whose meanings and conditions come from the pattern that defines the relation.
 - **A.22.CGUS / StructuralCT2RTypingGroundingUnfoldingStructureBlock** — provides the local structural CT2R unfolding block when a constructive trace, working-model relation, target kind or logical representation, bridge, preserved structure, and loss must be inspected together; `A.7.1` is the pattern for general diagnostic return to a subject construction.
 - **KD‑CAL** — provides the **logical** shoulder (inferential justification) when authors pick `validationMode = inferential`.
-- **Kind-CAL / Lang-CHR** — provide the **mapping** shoulder (kind and relation-label alignment) governing alias policies without altering Working-Model relations.
+- **E.10 / Lang-CHR (F.18)** — govern relation designations, local aliases and register use; F.17 supplies naming records when needed.
+- **Kind-CAL / F.9** — govern actual kind correspondences and correspondences between distinct local meanings. A same-meaning alias follows the naming rules above.
 
 **Constrained by**
 - **Notational Independence (E.5.2)** — CT2R‑LOG refuses to prescribe formats, keeping all obligations conceptual.
