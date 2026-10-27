@@ -542,7 +542,7 @@ Narrative purpose is useful because a narrative rendering is made for someone an
 
 Start with a useful reader question and the available material. Select what the account must preserve, choose a provisional order and try a short narrative. Compare it with the source for omitted relations, unsupported additions and misleading connections. Stop when that account serves the intended use, or name the missing source relation that prevents it.
 
-For example, a paragraph states that a valve opens when pressure exceeds a threshold. An operator asks why the valve opened. The first useful account names that condition and the observed pressure, if available. If only the opening was observed, say that the threshold crossing is still unestablished. Filling a record cannot supply that observation.
+For example, a paragraph states that a valve opens when pressure exceeds a threshold. An operator asks why the valve opened. The first useful account names that condition and the observed pressure, if available. If only the opening was observed, say that the threshold crossing is still unestablished.
 
 When selecting the relations presupposes an account that is not yet available, use NSTD.9 to construct and compare it from the material. Its result can change which events, participants or meanings belong in the selection. A supplied diagram, chronology or interpretation is a usable input when its grounds fit; it need not be reconstructed. For a story or hypothetical scenario whose events are still open, NSTD.10 supplies their construction under the selected premises. Return to the reader's purpose after either result: a discovered ambiguity or a new possibility may change what the narrative should make available.
 
@@ -580,7 +580,7 @@ The intake supports these decisions when they matter:
 2. If the account depends on an architecture description, decision or observation record, keep the needed return to that material. A direct explanation of source claims needs no architecture account.
 3. Name the writer's contribution and intended reader in ordinary project terms. Use `NSTD.4` when voice or viewpoint changes what the reader can recover; use `NSTD.7` for a generated draft. A precise system-role classification or assignment uses `A.2` or `A.2.1`. A claimed dated production Work additionally needs the A.13 and A.15.1 grounds for that claim. None of those precise claims is required merely to ask a teacher or agent for an explanation.
 4. Relate the purpose to the selected structure and reader use. Revise the purpose or the selection together when either proves unsuitable.
-5. Identify a likely misleading inference only when it changes this use. For example, a plausible incident chronology still leaves its causal explanation open.
+5. Inspect what the draft leads this reader to infer from the selected material. When a particular inference would change the intended understanding or action, locate its basis in the wording, representation, source or an observed reader response. Apply `F.19:4.4` to choose the smallest useful correction. The optional `likelyMisreading?` field records that inference with its ground when another worker needs it.
 6. Give the source or further question to return to when an omitted relation or stronger claim becomes necessary.
 
 For a difficult intake, these four questions can expose the unresolved choice. Stop once the useful choice is clear; they are not four required documents.
@@ -588,9 +588,9 @@ For a difficult intake, these four questions can expose the unresolved choice. S
 | Pass | Question | Output |
 | --- | --- | --- |
 | Source pass | What selected source material or source pack is being rendered, and which selected source structures must remain recoverable for the declared use? | Source-basis refs or source-pack refs, selected source structure refs, and source-return condition. |
-| Use pass | Who will use the narrative, for what work or understanding, and what must they be able to recover or decide not to decide? | Reader or listener role, reader-interest hypothesis, intended use, and non-use boundary. |
+| Use pass | Who will use the narrative, for what work or understanding, and which distinctions must they recover? | Reader or listener, reader-interest hypothesis, intended use and the distinctions it requires. |
 | Mediation pass | Is the work direct source-structure rendering, architecture-mediated rendering, or mixed? What temporal posture changes source obligations? | Rendering mediation mode, temporal posture, architecture mediation refs, and live telemetry or source-return refs. |
-| Reliance question | Could this account lead the reader to take an unsupported action or conclusion? | Correct that inference and identify the further source or decision needed. |
+| Reliance question | Which claim or feature of this account creates a consequential reliance question for its intended reader? | Apply `F.19:4.4` to a grounded difficulty; repair the claim or expression and supply any condition, source or decision the use needs. |
 
 A draft can help discover the needed selection. Before relying on it, explain which relations or events matter without using their accidental prominence in that draft as the reason. If the reader's purpose is still unclear, ask a question or offer a small orientation account that helps settle it. Broader claims about completeness or fidelity remain open.
 
@@ -598,7 +598,7 @@ Use these contrasts when the purpose remains unclear:
 
 - Admissible: "This route helps new FPF readers reconstruct why `EntityOfConcern`, forces, and neighboring-pattern exits matter during pattern use." The selected structures are named and the use is reconstructive.
 - Below floor for the declared reconstruction lesson: "Make the seminar inspiring so people like FPF." Motivation can help learners continue, but this purpose does not yet identify the source relations they must reconstruct or use. An expressive-only event can have a different sufficient aim.
-- Different task: "Use the narrative to prove FPF is correct." An account can explain an argument, but the argument's premises and inferences still need justification. Choosing a narrative purpose does not supply that justification.
+- Argument explanation: "Help reviewers understand the argument for this proposal." Select its premises, inferences and grounds as the material to explain, together with the consequential uncertainty or competing position.
 
 For prospective or fictional material, select the relevant canon, premises, design constraints or future-state hypotheses. The narrative may add proposed events within those constraints. If a turn conflicts with them, change the turn or explicitly change the premise; excitement alone does not resolve the conflict. A formal source pack is useful when maintaining canon or comparing alternatives requires it.
 
@@ -633,7 +633,6 @@ NarrativePurposeIntake@FPFLearningRoute:
   readerInterestOrUseHypothesis: learner needs usable entry, not complete monolith memory
   intendedReaderOrListenerUse: reconstruct one pattern-use route and apply it to a new case
   narrativePurpose: orient attention and sequence learning tasks around source-returnable pattern use
-  likelyMisreading?: lesson is not evidence that FPF is correct and not replacement for pattern bodies
   sourceReturn: FPF source patterns and teaching publication-carrier relation
   refreshCondition: FPF edition, learner telemetry, or route evaluation changes
 ```
@@ -650,7 +649,6 @@ NarrativePurposeIntake@HomotopyExplanation:
   readerInterestOrUseHypothesis: learner needs recoverable dependency order and analogy boundary
   intendedReaderOrListenerUse: use examples and return to formal statements without treating metaphor as theorem
   narrativePurpose: make abstractions followable while preserving proof-status boundary
-  likelyMisreading?: narrative does not prove the theorem, replace notation, or authorize informal equivalence
   sourceReturn: mathematical source or proof owner
   refreshCondition: source correction, learner failure, or changed learning objective
 ```
@@ -668,7 +666,6 @@ NarrativePurposeIntake@LiveCommentary:
   readerInterestOrUseHypothesis: listener needs distinction between observation, inference, prediction, and official correction
   intendedReaderOrListenerUse: follow the event without treating provisional interpretation as fact
   narrativePurpose: maintain orientation and attention under uncertainty
-  likelyMisreading?: commentary is not official evidence, blame assignment, or final tactical analysis
   sourceReturn: event source owner, official record, recording, telemetry
   refreshCondition: official correction, telemetry, or post-event evidence changes
 ```
@@ -685,7 +682,6 @@ NarrativePurposeIntake@FictionalContinuationProbe:
   readerInterestOrUseHypothesis: reviewer needs to see whether continuity and agency survive the route
   intendedReaderOrListenerUse: private design critique, not publication
   narrativePurpose: develop a continuation whose choices can be compared with the selected premises
-  likelyMisreading?: dramatic appeal alone justifies changing a character's established commitment
   sourceReturn: selected canon and explicit premises of the continuation
   refreshCondition: corrected source material, changed canon selection or revised premise
 ```
@@ -723,15 +719,14 @@ NarrativePurposeIntake@FPFSeminarOrientation:
   readerInterestOrUseHypothesis: reader wants a first usable route through FPF without learning every pattern first
   intendedReaderOrListenerUse: reconstruct one pattern-use route and choose the next governing pattern
   narrativePurpose: orient attention and motivation toward source-returnable pattern use
-  likelyMisreading?: not proof that FPF is correct; not replacement for pattern bodies; not authority for a local project
   sourceReturn: selected FPF pattern body and relation record
   additionalClaimQuestion: none unless the seminar makes assurance, policy, or affected-party claims
   refreshCondition: FPF edition or selected-source pattern changes; learner reconstruction test fails
 ```
 
-The record above makes the choices available to another teacher; the writer can develop them while composing. The first paragraph may be memorable, but every memorable move has a source return. "A pattern is not a recipe" returns to source conditions, forces, and neighboring exits. "Start with the thing being changed" returns to `EntityOfConcern`. "Do not optimize the visible proxy indicator" returns to quality and proxy-risk owners. The seminar publication carrier can be engaging, but the intake prevents it from becoming a local mythology about FPF.
+The record above makes the choices available to another teacher; the writer can develop them while composing. A short opening can ask learners to choose a pattern for a difficulty they recognize. The next passage explains how its conditions, forces and neighboring exits affect that choice, then the exercise returns to the selected pattern. The account connects a memorable question with the source contribution needed to answer it.
 
-Evaluation through `NSTD.6` later asks whether learners can rebuild the route: identify the source structure, say why the selected order was didactic, name what the story intentionally omitted, and return to the pattern body when they need authority. If learners only repeat the slogan "patterns are not recipes", `NSTD.1` did not select enough source structure for the declared use.
+Evaluation through `NSTD.6` later asks whether learners can choose a pattern for another case, explain the conditions affecting that choice and return to its body for the needed method. A response that repeats the opening question without using those conditions identifies a missing contribution to the lesson; the teacher returns to source selection, explanation or practice as appropriate.
 
 If an LLM produces a seminar draft, the intake keeps three positions separate:
 
@@ -748,7 +743,7 @@ One person may operate the tool, choose the voice and decide how to use the resu
 #### NSTD.1:5.2 - Worked slice: architecture-mediated narrative
 
 
-An architect wants a narrative explaining a system's future structure after candidate synthesis. Do not start with "tell the journey from chaos to architecture". Start by deciding whether the narrative is architecture-mediated. If it is, architecture work remains live before narrative work.
+An architect wants to explain a selected system structure to the team that will implement it. The architecture description and decision supply the structure, alternatives and trade-offs; the account must make the implementation-relevant choices recoverable. This is an architecture-mediated narrative.
 
 ```text
 NarrativePurposeIntake@ArchitectureDecisionStory:
@@ -766,12 +761,11 @@ NarrativePurposeIntake@ArchitectureDecisionStory:
   intendedReaderOrListener: developer team; product steward; later evaluator
   intendedReaderOrListenerUse: understand what structure to preserve while implementing and what may be locally detailed
   narrativePurpose: carry structural intent and trade-off rationale into development work
-  likelyMisreading?: not the architecture itself; not implementation order; not assurance that realized structure will match
   sourceReturn: architecture description, architecture decision record, and future telemetry route
   refreshCondition: candidate set, selected architecture, decision, or actual-structure feedback changes
 ```
 
-This case teaches the architecture bridge. The narrative worker is not exempt from architecture owners just because the output is prose. `C.2.8` is live for the amount of structure this reader can extract, applied through `NSTD.6`; `C.33` is live for architecture-description adequacy; `C.34` is live if correspondence between described and realized structure matters; `E.17` is live if the carrier is published; architecture decision owners remain live for decision authority. `NSTD.1` only binds the narrative purpose to selected structures and reader use.
+The team uses this account to recover the selected structure and the reasons for preserving or varying its parts. Return a missing design choice to the architecture work. Use `NSTD.6`, applying `C.2.8`, when the question is what structure the reader can recover; use `C.33` for the adequacy of the architecture description and `C.34` for correspondence with realized structure. `E.17` governs publication when it is needed. `NSTD.1` connects the narrative purpose with those selected structures and the team's use.
 
 
 
@@ -816,7 +810,7 @@ A writer can select only the material that supports a desired conclusion. Compar
 | `CC-NSTD1-3` | Past, live, proposed or fictional status and any intervening description are clear wherever they change interpretation. |
 | `CC-NSTD1-4` | Writing contribution, narrative viewpoint and intended reader are distinguishable when needed. Precise system-role, assignment or dated Work claims receive their own grounds only when asserted. |
 | `CC-NSTD1-5` | The intended use supplies enough direction to choose or improve the account, including an expressive aim when that is the task. |
-| `CC-NSTD1-6` | A likely misleading inference is corrected when it would change understanding or action. No generic list of forbidden uses is required. |
+| `CC-NSTD1-6` | A correction of a misleading inference has the independent ground, plausible reader and useful contribution required by `F.19:4.4`; any recorded difficulty keeps that ground. |
 | `CC-NSTD1-7` | Additional evidence, ethics, authority or production-history claims have the grounds their actual use requires. |
 | `CC-NSTD1-8` | The reader can find the relevant source and knows when to revisit it if currentness or hidden distinctions affect the use. |
 
@@ -1948,6 +1942,8 @@ Narrative rendering quality for declared use is not one property. A narrative ca
 
 Construct and use one narrative rendering quality evaluation characteristic space for one declared use. Reuse a sufficient current specification and result when their object, question and conditions still match.
 
+For explanatory technical prose, apply `F.19` in the same connected reading, with its declared-use and genre conditions. Recover the governing message, compare it with the selected source and test what each optional contrast, caveat or extra proposition contributes to this reader. Use `F.19:4.4` for a proposed warning and `F.19:4.5` for the reading basis needed by the conclusion. This supplies the semantic and pragmatic wording judgement within `LanguageStatePrecisionAndCoarseningFit`.
+
 Establish what counts as a supported answer for this use. For a factual account, its working interpretation must remain answerable to the evidence. For a literary interpretation, compare the reading with the relevant text and serious alternatives. For an intentionally open narrative, correct recovery may include recognising why several interpretations remain possible. For a new fictional construction or hypothetical scenario, inspect the chosen premises and consequences as well as the resulting experience. NSTD.9 and NSTD.10 supply the corresponding interpretive or constructive work when it is missing. Fidelity to one earlier representation alone cannot establish that the representation was adequate, that a new story is worthwhile, or that its audience responded as intended.
 
 For the structural-amount question, `NarrativeRenderingEpiplexity` specializes [FPF `C.2.8 U.ExtractableStructuralInformation`](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation--structure-this-reader-can-recover): the structure this reader or observer can extract. Its three bearers are the receiving narrative episteme, the publication form expressing it, and the specified reader or observer. The selected source structure, correctness criterion, usable prior knowledge, operations, help, access and budget qualify this tuple. An unambiguous rendering reference can identify the account and expression. Use the existing epiplexity basis, scale and evidence fields below to retain the qualifications needed for the comparison; they do not create another bearer or record kind.
@@ -2032,7 +2028,7 @@ NarrativeRenderingQualityEvaluationResult@Context:
   protectedTradeoffSet:
   belowFloorRows:
   candidateImprovementProposalRows?:
-  nonUseBoundary:
+  nonUseBoundary?:
   stopOrReopenCondition:
 ```
 
@@ -2073,7 +2069,7 @@ Use this evaluation sequence:
 
 1. Object-kind fit: which narrative account and version is being assessed? Identify it in its text, slide sequence or other form. A question about the source collection, generator or whole teaching programme returns to the evaluation for that different object.
 2. Evidence fit for the question: for current-product quality, recover selected source structures, ordering, source return and relevant relations from the subject/use basis and present rendering; for promised fidelity, compare the named source and result; for actual construction or repair, recover evidence of the claimed actions. Keep these conclusions distinct.
-3. Declared-use fit: is the reader or listener use narrow enough to evaluate, and are non-admissible downstream uses stated?
+3. Declared-use fit: which reader or listener work is this result to inform, and under what conditions? State a limitation when it changes the use of that result.
 4. Load-bearing characteristics: assign values only to the characteristics needed for the declared use, but include every characteristic whose failure would make the use unsafe or useless.
 5. Low-value repair: for every value below floor, name the smallest repair route before proposing style, drama, or generation retries.
 6. Re-evaluation route: if any repair changes the object version or selected source basis, plan a new `NSTD.6` evaluation before claiming improvement.
@@ -2110,7 +2106,7 @@ Default narrative rendering quality characteristics:
 | `EventMechanismSupport` | Can the reader reconstruct events, mechanisms, dependencies, or state changes when required? | Reopen `NSTD.3`; add mechanism support or lower causal language. |
 | `ViewpointAgencyDiscipline` | Does viewpoint reveal source structure without false agency, capability, responsibility, or permission? | Reopen `NSTD.4`; split protagonist, actant, role, agency, and ethics owners. |
 | `EngagementBoundedness` | Does engagement serve the intended effect while preserving source relations and the conditions needed for the reader's choice? | Reopen `NSTD.5`; restore the missing condition, revise the device or keep a sufficient simpler account. |
-| `LanguageStatePrecisionAndCoarseningFit` | Does the chosen plain, technical, literary, compressed, didactic, or cue-like language state fit the declared use without hiding relation precision, quality sense, source loss, or route authority? | Repair the missing relation or limit. Use the relevant pattern for a remaining question: `C.2.LS` for a threshold-bearing language-state profile, `A.6.3.CSC` for narrowed-use coarsening, `E.17.EFP` for explanation-facing retelling, `A.16.1`/`A.16.2` for cue or backoff, and `E.10`, `A.6.P` or `C.16.Q` for precision restoration. |
+| `LanguageStatePrecisionAndCoarseningFit` | Does the chosen language state make the needed relations, precision and coarsening limits recoverable for this use? In explanatory technical prose, what does each optional rhetorical branch contribute to the intended reader? | Apply the connected `F.19` reading to explanatory technical prose, retaining the distinctions that change its use. For a remaining question, use `C.2.LS` for a threshold-bearing language-state profile, `A.6.3.CSC` for narrowed-use coarsening, `E.17.EFP` for explanation-facing retelling, `A.16.1`/`A.16.2` for cue or backoff, and `E.10`, `A.6.P` or `C.16.Q` for precision restoration. |
 | `EthicsEvidenceAssuranceRouting` | When a consequential value, harm, evidence, assurance or policy claim is made, are its grounds and limits available for the intended use? | Identify the unresolved question, then use the corresponding `D.1`–`D.5`, `A.10`, `B.3` or professional contribution. A generic owner name does not answer the question. |
 | `MediumAndPublicationFit` | Does the carrier fit the reader and use without changing the claim? | Route publication or audience-unit questions to `E.17`, `E.17.AUD`, or `NSTD.8`. |
 | `SourceReturnReadiness` | Does the narrative tell readers when and where to return to the source basis or relevant method? | Add the missing return condition or destination, or narrow the supported use. |
@@ -2131,7 +2127,7 @@ Use this bank when a narrative rendering "sounds good" and therefore tempts the 
 | --- | --- | --- | --- | --- |
 | FPF seminar handout | `NarrativeRenderingEpiplexity` | Qualitative illustration; no numerical amount established | The case assumes learners can recover `EntityOfConcern`, forces, solution and neighboring exits. These aspect names do not define equal semantic units, a denominator or an observed reading protocol. | Retain the stated recovery. If transfer matters, try choosing a governing pattern in a new situation and qualify that separate result; it does not increase the original amount. |
 | FPF seminar handout | `SourceReturnReadiness` | `4` | In this constructed handout, each slogan links to its pattern; the exercise sends the reader to that pattern's conditions before applying the slogan in a new situation. This supplies a when-and-where return, but no changed-condition response or boundary replay for `5`. | Reopen if the task, reader preparation or source access changes, or if the reader cannot locate or use the return. Repair that failure even when the source text is unchanged. |
-| FPF seminar handout | `EngagementBoundedness` | `4` | The constructed failure story is marked as fictional and asks the reader to compare workload conditions; it does not present the anecdote as evidence that FPF guarantees success. This is a design judgement, not an observed attention gain. | Reopen a changed reader effect or stronger benefit claim; restore a condition the persuasive use needs or obtain grounds for that particular claim. |
+| FPF seminar handout | `EngagementBoundedness` | `4` | The constructed failure story invites readers to compare workload conditions and makes the relevant conditions available for that comparison. Its fictional status is clear. The value expresses a design judgement; an attention-gain claim would need an observed comparison. | Reopen a changed reader effect or stronger benefit claim; restore a condition the persuasive use needs or obtain grounds for that particular claim. |
 | Homotopy explanation | `LanguageStatePrecisionAndCoarseningFit` | `3` | Analogy is vivid but learners may not know where formal conditions return. | Add an analogy-stop line and a formal boundary task. |
 | Homotopy explanation | `OrderingRecoverability` | `4` | Didactic order is named and proof order is deferred by value. | To reach `5`, add a second problem where learner maps story order to formal dependency order. |
 | Franchise continuation probe | `SourceReturnReadiness` | `4` | An illustrative repair of the Readme's key case puts this return in the draft: “If a scene assumes access before Wednesday, consult the supplied premise that the character first obtains the key on Wednesday.” The condition and destination are explicit. | If the premise or proposed access changes, reopen that continuity comparison. Check a changed case when robustness matters; private or public use alone does not change this value. |
@@ -2160,7 +2156,7 @@ Failure: engagement and memory are treated as total quality. Source recovery, re
 
 After evaluation statement:
 
-> For the declared onboarding use, the illustrative recovery result is that learners can reconstruct the pattern-use route; a numerical amount needs a specified relation set, conditions and evidence. Source-return readiness receives value `3` because two slogans lack pattern-body refs, and engagement boundary receives value `4` because the failure story is marked as archetypal. The first repair is to add source-return refs for the slogans before changing style.
+> For the declared onboarding use, the illustrative recovery result is that learners can reconstruct the pattern-use route; a numerical amount needs a specified relation set, conditions and evidence. Source-return readiness receives value `3` because two slogans lack pattern-body refs, and engagement boundary receives value `4` because the constructed failure story gives learners a reason to compare load conditions and preserves the conditions needed for that comparison. The first repair is to add source-return refs for the slogans before changing style.
 
 Now `E.23` has a concrete changed slice: add two source-return refs and re-evaluate source-return readiness. Revisit the amount only if the changed access or explanation can change structural recovery. An earlier amount label is reusable only through its recoverable selection, scale, conditions and evidence; an unsupported `4` does not become `4/5`.
 
@@ -2181,7 +2177,7 @@ The other characteristics use their own ordinal quality meanings:
 
 | Characteristic | `3` means | `4` means | `5` means |
 | --- | --- | --- | --- |
-| `OrderingRecoverability` | Order is named, but wrong reconstruction remains likely. | Order, preserved relations, lost relations, and misread block are explicit. | Conflicting order layers are handled and tested. |
+| `OrderingRecoverability` | Order is named, but wrong reconstruction remains likely. | The intended order and relations needed for use are recoverable; consequential losses are clear. | Conflicting order layers are handled and tested. |
 | `EventMechanismSupport` | Events are coherent, but support strength is partly inferred from wording. | Relation strength and reconstruction target are explicit. | A wording or viewpoint change does not change recovered support strength. |
 | `ViewpointAgencyDiscipline` | Viewpoint is useful, but agency or responsibility repair is incomplete. | Viewpoint function and the source of a consequential attribution are recoverable. | Reader can remove or swap viewpoint without losing source structure. |
 | `EngagementBoundedness` | Interest exists, but a needed source relation or condition for informed choice is missing. | Interest supports the declared use while preserving the needed relations and conditions. | A more engaging variant improves attention without lowering source recovery, with the comparison supported under the stated conditions. |
@@ -2214,7 +2210,7 @@ If the change is "regenerate until better", the object version and changed slice
 
 `C.2.8` governs structural amount for architecture and non-architecture narratives alike. `NSTD.6` applies it to the narrative and the selected observer/use conditions. `C.33` retains the separate architecture-description adequacy question. Source-selection fit, source-return readiness, effort and usefulness remain separately judged; a story need not be an architecture description for its structural amount to be compared.
 
-Pass case: an FPF seminar handout narrates how a practitioner moves from problem frame to forces to solution and checks. It names FPF pattern source sections, ordering rule, learner reconstruction task, and source-return points. Its necessary source relations are recoverable under the declared support; the other selected quality characteristics can reach `4` or `5` on their own scales. The handout is not evidence that FPF is correct, and those quality labels do not assign its structural amount.
+Pass case: an FPF seminar handout narrates how a practitioner moves from problem frame to forces to solution and checks. It names FPF pattern source sections, ordering rule, learner reconstruction task, and source-return points. Its necessary source relations are recoverable under the declared support; the other selected quality characteristics can reach `4` or `5` on their own scales. Those quality labels do not assign its structural amount.
 
 Fail despite fluency: a polished architecture story says one chosen architecture "won" because it felt coherent, hides rejected candidates, omits architectural characteristics, and gives no source-return path. The needed architecture relations are missing, so the structural-use condition fails; assign an amount only when its selection and conditions are established. `OrderingRecoverability` and `SourceReturnReadiness` can fall below their own floors even if engagement is high.
 

@@ -10,7 +10,7 @@ Framework and method links open readable text on fpf.tools; **Markdown** links o
 
 ## How this Suite is organized and why
 
-**[Read the Human Capability Engineering Architectural Reference](HUMAN-CAPABILITY-ENGINEERING-DPF-SUITE-REFERENCE.md).** It explains why learning and somatic change are connected here, what makes this an engineering specialization, and which needs require other fields. The two available frameworks do not cover every kind of human change. Read it for the overall design and its alternatives; use a familiar sufficient method directly when that is all your task needs.
+**[Read the Human Capability Engineering Architectural Reference](HUMAN-CAPABILITY-ENGINEERING-DPF-SUITE-REFERENCE.md).** It explains why learning and somatic change are connected here, what makes this an engineering specialization, and which needs require other fields. Read it for the overall design and its alternatives; use a familiar sufficient method directly when that is all your task needs.
 
 ## Choose an entry
 
@@ -46,7 +46,7 @@ Use [Core's connected development method (C.40.OD)](https://fpf.tools/C.40.OD) f
 
 This is the human specialization of [Engineering](../Engineering%20DPF%20Suite/). Use [Management](../Management%20DPF%20Suite/) when the required change concerns an organization's capability, commitments, authority or resources. Arranging shared learning remains within HCD when the intended result is each person's learning: [compare individual and group arrangements (HCD.20)](https://fpf.tools/HCD.20) and [form learning work groups (HCD.21)](https://fpf.tools/HCD.21).
 
-Developing an AI or robot requires its own mechanisms; a common capability question does not justify transferring human learning or somatic methods unchanged. For an agent's execution procedure and its testing, the [Engineering entries](../Engineering%20DPF%20Suite/#choose-an-entry) lead to SYSE.47 and SYSE.46. Other technical changes require the methods for the actual system; this is not a promise of complete robot-learning or AI-training coverage.
+Developing an AI or robot requires its own mechanisms; a common capability question does not justify transferring human learning or somatic methods unchanged. For an agent's execution procedure and its testing, the [Engineering entries](../Engineering%20DPF%20Suite/#choose-an-entry) lead to SYSE.47 and SYSE.46. Other technical changes require the methods for the actual system.
 
 ## Reading, use and reuse
 

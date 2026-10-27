@@ -6,9 +6,9 @@ FPF Library brings together the **First Principles Framework (FPF Core)** and do
 
 The Library is developing as a **methodology of open-ended development**. A result can make a previously unattainable problem approachable; working on that problem can expand both your capabilities and your ways of developing them. The aim is to keep that continuation possible, without a predetermined final level. This includes noticing limitations that have not yet become explicit problems, using existing knowledge, constructing missing methods, and passing useful capabilities and knowledge to others.
 
-It can serve as a **canon for a shared culture of thinking and acting among people and AI agents**, oriented toward their open-ended development. Here, a canon is a common, revisable body of explanations and methods through which participants can organize work, learn from results and improve their practice. People and AI can contribute as assistants or teammates according to their capabilities and roles. The culture takes shape in how they work and develop together; using it does not require every participant to master the entire Library.
+It can serve as a **canon for a shared culture of thinking and acting among people and AI agents**, oriented toward their open-ended development. Here, a canon is a common, revisable body of explanations and methods through which participants can organize work, learn from results and improve their practice. People and AI can contribute as assistants or teammates according to their capabilities and roles. The culture takes shape in how they work and develop together; using the Library does not require every participant to master the entire Library.
 
-You can also use one method for one calculation, design, decision or learning need and stop there. A completed task, a new procedure or learning a known method does not by itself establish continuing development.
+You can also use one method for one calculation, design, decision or learning need and stop there.
 
 [Start using the Library](USING-FPF.md) · [Domain frameworks](DPFs/) · [FPF Core](https://fpf.tools/FPF)
 
@@ -40,13 +40,13 @@ Before applying a method, read [Using FPF Library](USING-FPF.md). It explains ho
 
 The **[control mantra (FPF C.43)](https://fpf.tools/C.43)** connects assessment of the situation, possible continuations, comparison and choice, realization, examination of what happened and revision. Its full Method explains how observations can change later choices, how means and timing constrain them, and how an intervention can develop the capability to address further problems. Technical control, economic choices and developmental recommendation retain their particular mechanisms.
 
-A mantra is a logical teaching unfolding, not a fixed order of thinking or work. The [Library's account of connected reasoning (Library.Reference:1.1)](FPF-LIBRARY-REFERENCE.md#libraryreference11---long-mantras-and-connected-reasoning) leads to developed connections in several fields. Read the full account to understand and adapt the method; use the short formula to recall it.
+A mantra presents logical dependencies in an order useful for explanation and recall. The present problem determines the order of thinking and work. The [Library's account of connected reasoning (Library.Reference:1.1)](FPF-LIBRARY-REFERENCE.md#libraryreference11---long-mantras-and-connected-reasoning) leads to developed connections in several fields. Read the full account to understand and adapt the method; use the short formula to recall it.
 
 ## From a useful result to further development
 
 Suppose a team can deliver its current product, but a more demanding order is beyond its capabilities. Buying a specialist's result might meet the immediate need. Learning to produce it would change what the team can do. Learning how to recognize the next limitation, obtain or invent a needed method and organize its acquisition would change how the team can continue developing. These are different results, with different evidence.
 
-The Library helps connect them without requiring the same arrangement everywhere. A person working with an AI, several collaborating teams and a company with a development office need different domain methods and allocations of work, resources and authority. An office is one possible arrangement, not a prerequisite for development.
+The Library helps connect them without requiring the same arrangement everywhere. A person working with an AI, several collaborating teams and a company with a development office need different domain methods and allocations of work, resources and authority.
 
 The general methods are in **Core**: [connect development work (C.40.OD)](https://fpf.tools/C.40.OD), [connect a method, the capability to perform it and the conditions for its use (C.40.JD)](https://fpf.tools/C.40.JD), and [continue from a result to new attainable problems (C.40.NP)](https://fpf.tools/C.40.NP). The DPFs supply the particular mechanisms of learning, research, engineering, management and other practices. Developing a method, changing an agent's capability and actually performing work remain distinct contributions.
 
@@ -83,11 +83,11 @@ Give the assistant access to the full relevant texts, your actual situation, con
 
 Then ask a concrete question. For example: “Our team can deliver the current product but not the proposed variant. Help compare acquiring an external result, developing our capability and changing the offering. What information could change that choice?”
 
-An assistant can retrieve methods, calculate, compare alternatives, draft and challenge reasoning. Its fluent answer does not establish an observed fact, a new capability, permission, a commitment or an implemented system. Check the output against the actual work, evidence and applicable decision authority. FPF Library is a method library, not an agent runtime or a grant of autonomous authority. It is intended for human use as well as AI-assisted work, across physical, organizational, intellectual and embodied practices.
+An assistant can retrieve methods, calculate, compare alternatives, draft and challenge reasoning. Its fluent answer does not establish an observed fact, a new capability, permission, a commitment or an implemented system. Check the output against the actual work, evidence and applicable decision authority. FPF Library is intended for human use as well as AI-assisted work, across physical, organizational, intellectual and embodied practices.
 
 ## Understand, check or extend a contribution
 
-README pages help you choose; full patterns teach the methods and state their conditions. Read the exact explanation when a recommendation matters. A maintained account of useful approaches can include competing schools, failures and limits; neither the newest standard nor one successful example establishes universal applicability.
+README pages help you choose; full patterns teach the methods and state their conditions. Read the exact explanation when a recommendation matters. A maintained account of useful approaches can include competing schools, failures and limits.
 
 For a precise reference, retain the complete PatternID or section address and enough context to identify the publication. [Using FPF Library: resolve a portable reference](USING-FPF.md#resolve-a-portable-reference) explains how this works across files, search and MCP. You need not learn document codes before choosing what to read.
 
@@ -95,7 +95,7 @@ For an [issue or proposed improvement](https://github.com/ailev/FPF/issues), ide
 
 ## Author, status and reuse
 
-**Anatoly Levenchuk, with AI-agent assistance.** The publications are usable and continuously revised: an “eternal alpha.” That describes continued development, not a guarantee of suitability for every use. Cite the publication, edition and pattern when their identity matters.
+**Anatoly Levenchuk, with AI-agent assistance.** The publications are usable and continuously revised: an “eternal alpha.” Cite the publication, edition and pattern when their identity matters.
 
 Original framework content is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). See [licensing terms](LICENSING.md) for attribution, third-party material and software boundaries. Sharing or adapting licensed text requires the applicable attribution and change notices. Independently authored DPFs and LPFs may use their authors' chosen licenses; using the methods or publication form does not by itself impose CC BY.
 

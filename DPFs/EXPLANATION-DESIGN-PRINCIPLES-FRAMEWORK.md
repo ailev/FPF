@@ -386,7 +386,7 @@ Choose the example's role in the whole explanation as well as its local correctn
 
 Show the intermediate quantities, relations and conditions needed to obtain the result. Connect each significant step to the claim: which quantity instantiates which part, why this operation is legitimate, and what condition makes the inference usable.
 
-For a worked calculation, name the units and what each numerator or denominator counts. For a causal example, distinguish observations from an inferred mechanism. For an analogy, identify the relation that corresponds and a feature that does not transfer. A picture of two similar objects cannot supply that correspondence by itself.
+For a worked calculation, name the units and what each numerator or denominator counts. For a causal example, distinguish observations from an inferred mechanism. For an analogy, identify the corresponding relation and the conditions needed to use it. Explain a non-correspondence when it changes an inference the intended use depends on. A picture of two similar objects cannot supply that correspondence by itself.
 
 If a recipient contribution would help locate the difficulty, first invite a small unassisted mapping: “Which quantity here is the total represented by the group mean?” Retain the response. Then provide targeted component guidance, such as identifying the count and asking how to recover the sum. A recipient with little relevant preparation may instead need the worked relation first.
 
@@ -690,7 +690,7 @@ In advisory use, a recipient may say, “I understand why the assignment fits my
 
 An engineer explains that a proposed service reduces response time from eight minutes to five. A colleague replies: “You keep treating my objection as resistance to speed. I need somebody available throughout the night.” The comparison of response times does not answer that staffing concern.
 
-Use the colleague's stated correction: “You need continuous coverage; the five-minute figure applies only while an operator is present.” The explanation now exposes its condition. If coverage remains the question, return it to staffing and resource work; another account of the speed calculation will not supply an operator. If the colleague instead asks why the time falls to five minutes, provide that derivation under its stated conditions. The two continuations answer different contributions. Neither establishes agreement to deploy the service.
+Use the colleague's stated correction: “You need continuous coverage; the five-minute figure applies only while an operator is present.” The explanation now exposes its condition. If coverage remains the question, return it to staffing and resource work. If the colleague instead asks why the time falls to five minutes, provide that derivation under its stated conditions. The two continuations answer different contributions.
 
 ### EXD.4:6 - Bias-Annotation
 
@@ -1121,9 +1121,9 @@ This local naming settlement concerns this six-pattern Domain Principle Framewor
 
 **NameCard EXD-NAME-01.** The governed value is the Explanation Design DPF specified by this edition's Architectural Reference, six EXD Methods and Use profiles. Its kind is Domain Principle Framework as constrained by E.4.DPF. Its Tech designation is **Explanation Design Principles Framework**; its Plain designation is **Explanation Design**. **EXD** is the local pattern-address prefix.
 
-The effective local reference scheme fixes the governed practice as constructing and adapting explanations for a recipient's use. It distinguishes subject, question, purpose, warranted account, expression, recipient, contribution and use conditions; supplying subject Methods and their outcomes remain external. The local sense of “Explanation Design” is this DPF for that practice, including performed interaction. The expression does not name every theory of explanation or a new FPF kind.
+The effective local reference scheme fixes the governed practice as constructing and adapting explanations for a recipient's use. It distinguishes subject, question, purpose, warranted account, expression, recipient, contribution and use conditions; supplying subject Methods and their outcomes remain external. The local sense of “Explanation Design” is this DPF for that practice, including performed interaction.
 
-“Explanation Practice” was considered because it includes performance, but underexpresses the constructive repertoire. “Explanation and Understanding” was considered because it names both sides of the relation, but suggests broader coverage than this governed practice. The selected name is made precise by the opening scope and the direct dialogue entry. Existing FPF and supplying-DPF designations suffice for their own values; no parallel name family is introduced. This is an initial naming settlement, with no predecessor rename or cross-framework equivalence asserted.
+“Explanation Practice” was considered because it includes performance, but underexpresses the constructive repertoire. “Explanation and Understanding” was considered because it names both sides of the relation, but suggests broader coverage than this governed practice. The selected name is made precise by the opening scope and the direct dialogue entry. Existing FPF and supplying-DPF designations identify their own values. This is an initial naming settlement.
 
 Reopen the name when its actual use systematically hides performed interaction, when the governed practice changes, or when an actual naming collision prevents unambiguous citation. A new source citation alone does not change this value's identity.
 
@@ -1143,12 +1143,9 @@ The [FPF F.17](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#f17---make-a-s
 | NameCardRef | EXD-NAME-01 in Naming settlement, this edition. |
 | SenseCellRefs | EXD-SENSE-01: the local scheme above, the expression “Explanation Design”, and the local sense “this Domain Principle Framework for constructing and adapting explanations for recipient use, including performed interaction”. |
 | LocalSenseBasisRelation | EXD-SENSE-BASIS-01 relates this edition's account in the Architectural Reference, six Methods and Use profiles to EXD-SENSE-01: that account specifies the named practice, repertoire and boundary. This edition is the basis episteme; its section titles locate the supporting content. |
-| RowRationale | Stable public citation is useful; the selected name includes preparation and interaction through its explicit scope. No new foundational kind or equivalence with a supplier is claimed. |
+| RowRationale | Stable public citation is useful; the selected name includes preparation and interaction through its explicit scope. |
 | AdmissibleUse | Refer to this framework and its EXD pattern addresses at this edition and stated scope. |
-| BlockedUse | Infer universal coverage of all explanation or understanding, or supplier membership, from the name. |
 | RowEditionId | EXD-TERM-01@2026-09-09, an edition designator. |
 | CurrentnessCondition | The named value and local sense remain applicable to the receiving citation. Reconsider an affected use if the practice, repertoire identity or collision changes; preserve the distinction between naming, publication availability and substantive adequacy. |
-
-No F.9 Bridge occurrence is asserted: the row publishes the same local naming claim and does not establish a cross-scheme equivalence. Publication and substantive fitness are answered by their own evidence; the row makes neither claim merely by being filled.
 
 ## EXD.Edition:End

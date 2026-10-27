@@ -50,7 +50,7 @@ The [Engineering Architectural Reference](ENGINEERING-DPF-SUITE-REFERENCE.md) he
 
 **Patterns** counts full pattern bodies. **Text, M characters** measures each complete Markdown framework, including its embedded Architectural Reference, in millions of Unicode characters with spaces and original line breaks, rounded to three decimals. These are scope indicators, not a required reading load.
 
-These five frameworks are the current direct coverage, not a claim to cover all engineering branches. Platform Engineering is developed within Systems Engineering. The organizational specialization has its own [Management Suite](../Management%20DPF%20Suite/); the human specialization has its own [Human Capability Engineering Suite](../Human%20Capability%20Engineering%20DPF%20Suite/).
+The Suite currently contains these five frameworks. Platform Engineering is developed within Systems Engineering. The organizational specialization has its own [Management Suite](../Management%20DPF%20Suite/); the human specialization has its own [Human Capability Engineering Suite](../Human%20Capability%20Engineering%20DPF%20Suite/).
 
 ## Connect the contributions
 

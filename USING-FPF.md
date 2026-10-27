@@ -1,6 +1,6 @@
 # Using FPF Library
 
-This is the common working instruction for people and AI agents using FPF Library, including work that develops or reviews the frameworks themselves. Apply it whenever the work relies on their methods, not only when processing an intake. Paths below are relative to the folder containing this file.
+This is the common working instruction for people and AI agents using FPF Library, including work that develops or reviews the frameworks themselves. Apply it whenever the work relies on their methods. Paths below are relative to the folder containing this file.
 
 For an assisting agent, make this instruction part of the project's ordinary instructions: attach the file or link it from `AGENTS.md` or the environment's equivalent. A link in a past conversation does not establish that the current performer can retrieve and apply it. Reuse a current reading while the instruction and access conditions remain unchanged; return to the relevant section when they change or the instruction is no longer available in working context.
 
@@ -20,13 +20,13 @@ For development or review, use the edition and candidate selected by the assignm
 
 ## Resolve a portable reference
 
-A portable reference keeps the complete PatternID or SectionRef and enough context to recover the intended publication set and document. Add a document qualifier only when that identity is not already clear from the complete address and the context that travels with it. In this distribution the publication set is **FPF Library**. Its [document catalogue (Library.Reference:11.1)](FPF-LIBRARY-REFERENCE.md#libraryreference111---document-identities-and-current-carriers) associates declared DocIDs with their full titles and current files. Short navigation and usage publications can be named by their full titles without a DocID. A DocID identifies a whole document; it does not turn its embedded Architectural Reference into a separate framework or identify an edition.
+A portable reference keeps the complete PatternID or SectionRef and enough context to recover the intended publication set and document. Add a document qualifier only when that identity is not already clear from the complete address and the context that travels with it. In this distribution the publication set is **FPF Library**. Its [document catalogue (Library.Reference:11.1)](FPF-LIBRARY-REFERENCE.md#libraryreference111---document-identities-and-current-carriers) associates declared DocIDs with their full titles and current files. Short navigation and usage publications can be named by their full titles without a DocID. A DocID identifies a whole document. Cite an embedded Architectural Reference within its containing document and name an edition separately.
 
 For example, within FPF Library, HCD.12:4.1 locates a section of the Human Capability Development Principles Framework, and Library.Reference:9.1 locates the Library's explanation of connected development. Those complete addresses already identify their declared documents. Use FPF C.39:4.1 when a Core reference needs a document qualifier. These addresses have different structures; resolve each complete address under its declarations. Retain every suffix and every member or endpoint of a referenced list or range. Name a selected edition separately when its exact published content matters.
 
 A whole-document reference can use its declared DocID or full title within the identified publication set. For an unnumbered heading, give its title and enough document context: Practical entries in HCD distinguishes that heading from the heading of the same name in Core.
 
-First look for the declared document among the files available to you. Match its DocID and title, then search for the exact heading address and read the relevant section with its conditions. A GitHub hyperlink can help open a carrier, but its hostname and path are not required to identify the contribution. If local files are unavailable, search by the publication set, document title or DocID, and full local address through the web or an available search, fpf.tools or MCP interface. Use only the access that the present interface actually provides; this instruction does not assert a special API or that any service indexes the complete Library.
+First look for the declared document among the files available to you. Match its DocID and title, then search for the exact heading address and read the relevant section with its conditions. A GitHub hyperlink can help open a carrier, but its hostname and path are not required to identify the contribution. If local files are unavailable, search by the publication set, document title or DocID, and full local address through the web or an available search, fpf.tools or MCP interface. Check which publications and retrieval functions the available interface actually exposes.
 
 Check that the returned text belongs to the intended document and contains the requested target. Keep the complete local address with any extracted fragment and restore any publication-set, document or edition context that will no longer accompany it. A search hit, similarly named pattern or newer edition is not a substitute for an unresolved target or a requested exact edition. State that limit and continue only work whose needed basis is available.
 
@@ -47,13 +47,13 @@ Use an adequate known answer directly. If the available text leaves you inventin
 
 On a return from local work, decide what the recipient can now obtain or do using that result. A checked extraction establishes what the source supplies; an explained general way may still require construction. A reader's private invention can reveal that need without establishing that the publication already supplies it. Follow the source or dependency only as far as the receiving decision requires. State the supported useful answer and the condition that changes its use. When a proposed action or evidence demand has unclear value or feasibility, use [FPF C.11.DUA](FPF-Spec.md#c11dua---make-advice-and-evidence-demands-worth-their-burden) to compare what the demanded work can change with its burden and return warranted advice for the receiving decision. A binding requirement continues to govern until its authority or agreement changes it.
 
-These moves belong to the work itself, not a separate report for each response. Reuse the established receiving use and sound results while their conditions hold. After an interruption or a changed assignment, recover that connection before choosing the next local move.
+Apply these moves within the current work. Reuse the established receiving use and sound results while their conditions hold. After an interruption or a changed assignment, recover that connection before choosing the next local move.
 
 ## Choose what to read
 
 If a pattern is already named, find its body directly. Otherwise search the available publications together, using terms for the difficulty and needed result. Include English technical terms when the user's language differs from the sources. You can find an individual method or a connected application without first choosing a Suite, Reference or pattern file.
 
-When sources or terminology are uncertain, [FPF F.1:4.4](FPF-Spec.md#f1---find-and-select-sources-for-a-current-question) explains how to construct and adapt a search from the available access, preserve the original question, inspect candidates and return consequential limits. Finding alone requires no SourceCutNote; use F.1's source-selection branch only when a justified basis over several sources is needed. A sufficient known source can be used directly.
+When sources or terminology are uncertain, [FPF F.1:4.4](FPF-Spec.md#f1---find-and-select-sources-for-a-current-question) explains how to construct and adapt a search from the available access, preserve the original question, inspect candidates and return consequential limits. Use F.1's source-selection branch when a justified basis over several sources is needed. A sufficient known source can be used directly.
 
 Inspect a promising passage with its enclosing heading. A pattern body supplies its method; a Reference answer can explain how several contributions work together; a README or contents row helps locate that explanation. Open the substantive source and the conditions needed for the present use. When exploring the repertoire without a useful search phrase, start with Core Part headings or the corresponding Suite overview, then retrieve selected entries. Search a large Table of Contents as text and read the matching rows; do not load it in full merely to begin a lookup. Its technical terms, practical questions and dependencies can help reformulate the search.
 
@@ -87,6 +87,8 @@ IDs also occur in contents tables and cross-references. Match a heading at the s
 ## Search and read
 
 Use `rg` (ripgrep), or the environment's equivalent search tool with regular expressions. Run these commands with the public distribution folder as the working directory, or prepend its actual path to the file arguments. In a source repository, limit the search to the selected public publications; campaign notes and historical drafts are not the public corpus.
+
+The examples below use `.` for the public distribution root. In a source repository, replace that operand with the selected publication files or directories in each command. For example, use `FPF-Spec.md FPF-LIBRARY-REFERENCE.md DPFs` when these are the selected public carriers.
 
 Inspect the available Markdown files once to establish the search scope. This lists filenames; it does not search their contents:
 

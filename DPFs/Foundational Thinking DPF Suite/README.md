@@ -2,7 +2,7 @@
 
 **Construct, justify and revise models, mathematical and physical accounts, algorithms and notation.** Use this Suite when familiar formulas or operations do not yet connect into the answer you need, or a changed question makes an earlier construction inadequate.
 
-A theorem, physical explanation, algorithm, interpreted model or usable notation can itself be the result. These methods also help develop new ways of working. They do not cover all intellectual activity, all mathematics and physics, or the whole of computer science.
+A theorem, physical explanation, algorithm, interpreted model or usable notation can itself be the result. These methods also help develop new ways of working.
 
 This Suite contributes ways of constructing and criticizing knowledge to a **shared human–AI culture of thinking and acting**. People and AI agents can use its methods together and develop new constructions, capabilities and methods from the results. The [Library account of this culture](../../FPF-LIBRARY-REFERENCE.md#libraryreference13---a-canon-for-shared-humanai-culture) connects this repertoire to open-ended development.
 
@@ -47,7 +47,7 @@ The [Foundational Thinking Architectural Reference](FOUNDATIONAL-THINKING-DPF-SU
 
 Predicting an oscillating system can require a physical account, a model with stated idealizations, a mathematical consequence, an algorithm for the approximation and notation whose variables and units remain interpretable. A measurement that defeats the idealization returns to the physical and modeling premises; computing more accurately cannot repair that defect. Conversely, a numerical error need not invalidate the physical law.
 
-These are different grounds for a connected result: mathematical validity, physical adequacy, computational feasibility and intelligibility of expression. Each matters only where that claim is made. A pure proof needs no invented physical test, and a notation problem need not start with a physical question. For example, `q + q = 2*q` remains an identity, while `read() + read()` need not equal `2*read()` when each call obtains a new value.
+These are different grounds for a connected result: mathematical validity, physical adequacy, computational feasibility and intelligibility of expression. Each matters only where that claim is made. A pure proof needs no invented physical test, and a notation problem need not start with a physical question. Transferring an algebraic rewrite to a program expression depends on what evaluating that expression does: `q + q = 2*q` remains an identity, while `read() + read()` need not equal `2*read()` when each call obtains a new value.
 
 The Reference explains [how the contributions constrain one another (Foundational.Reference:2.2)](FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md#foundationalreference22---relations-that-form-the-field) and [what preserves or changes the field (Foundational.Reference:2.3)](FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md#foundationalreference23---the-whole-its-continuity-and-its-boundaries). The connected methods remain independently usable.
 

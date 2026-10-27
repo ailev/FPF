@@ -57032,7 +57032,7 @@ These illustrative situations state their conditions for the comparison. Reporte
 
 **Completed answer.** “On your account, the threshold was below the incoming background. That alone does not establish a mistake. A criterion for the operation's added contribution and a criterion for total exposure govern different quantities; the latter can require reducing background too. Compare the protection gained with the feasible treatment burden before judging the threshold.”
 
-That answer supplies the requested distinction and keeps its attribution. It makes no independently verified historical claim and issues no operating permission. The answer itself completes this use; a second account of why archives were not searched adds nothing.
+That answer supplies the requested distinction and keeps its attribution. It makes no independently verified historical claim. The answer itself completes this use; a second account of why archives were not searched adds nothing.
 
 **Changed use.** The recipient now plans to attribute responsibility in a report. Suppose an accessible contemporary record can identify who set the criterion and what it governed. A one-hour record check is feasible and could settle the attribution.
 
@@ -57136,7 +57136,7 @@ The recurring problem is the connection between a qualified claim and the work a
 
 This gives advice authoring and advice review the same method. Both start with what the recipient would do and end with usable advice. A wording repair under `F.19` may make a demand clear while leaving its cost or merits unresolved. A decision calculation may be correct while answering a different question from the one the recipient needs.
 
-The smaller route is direct use of the existing patterns or a short composing entry. Prefer it whenever it reaches the same warranted completion at comparable effort. This companion is useful where recovery of implicit work, requirement appraisal and the connected completion would otherwise have to be reconstructed. It introduces no choice calculus, new U-kind, universal record or exemption.
+The smaller route is direct use of the existing patterns or a short composing entry. Prefer it whenever it reaches the same warranted completion at comparable effort. This companion is useful where recovery of implicit work, requirement appraisal and the connected completion would otherwise have to be reconstructed.
 
 ### C.11.DUA:11 - SoTA-Echoing
 
