@@ -18,6 +18,7 @@
   - [Development through work and further use](#managementreference45---development-through-work-and-further-use)
   - [HR and the provision of development help](#managementreference46---hr-and-the-provision-of-development-help)
   - [Conflicts and changed dependencies](#managementreference47---conflicts-and-changed-dependencies)
+  - [Personnel decisions and supported participation](#managementreference48---personnel-decisions-and-supported-participation)
 - [Connected uses](#managementreference5---connected-uses)
   - [A voluntary practice-development network](#managementreference51---a-voluntary-practice-development-network)
   - [A new order in an operating business](#managementreference52---a-new-order-in-an-operating-business)
@@ -42,7 +43,7 @@ The intended readers are people and capable assisting agents who make, support o
 
 ## Management.Reference:2 - Constituent fields and their contributions
 
-The Suite connects the following twelve DPFs. Each develops knowledge and reusable practices for a particular management subject. The entry patterns below show how their results participate in the larger work; they are selected entries, not a required sequence.
+The Suite connects the following thirteen DPFs. Each develops knowledge and reusable practices for a particular management subject. The entry patterns below show how their results participate in the larger work; they are selected entries, not a required sequence.
 
 | Constituent field | Its own question and useful entry | Connection to the management whole |
 | --- | --- | --- |
@@ -58,6 +59,7 @@ The Suite connects the following twelve DPFs. Each develops knowledge and reusab
 | [Leadership (LDR)](LEADERSHIP-PRINCIPLES-FRAMEWORK.md) — LDR | How can people direct their own action, develop joint direction and participation, and obtain feasible contributions? [LDR.Reference:1.6](LEADERSHIP-PRINCIPLES-FRAMEWORK.md#ldrreference16---direct-ones-own-contribution-and-development) explains the personal branch; [LDR.5](LEADERSHIP-PRINCIPLES-FRAMEWORK.md#ldr5---develop-joint-direction-and-participation) develops direction and participation when these are not yet adequate. [LDR.1](LEADERSHIP-PRINCIPLES-FRAMEWORK.md#ldr1---obtain-and-continue-the-leadership-contribution-needed-for-joint-work), [LDR.2](LEADERSHIP-PRINCIPLES-FRAMEWORK.md#ldr2---agree-feasible-joint-contributions) and [LDR.4](LEADERSHIP-PRINCIPLES-FRAMEWORK.md#ldr4---prepare-a-proposal-for-decision-and-first-use) connect capable help, feasible agreement and a proposal's passage to decision and first use. | A proposal becomes usable through actual contributions and legitimate decisions. A title or an attractive plan leaves that work unanswered. |
 | [Community Management (CB)](COMMUNITY-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) — CB | How can useful participation, relationships and common contributions be arranged and sustained? [CB.7](COMMUNITY-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#cb7---prepare-and-sustain-distributed-organising), [CB.9](COMMUNITY-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#cb9---provide-for-community-work-and-agree-its-terms) and [CB.13](COMMUNITY-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#cb13---establish-a-workable-mandate-for-shared-decisions) connect organising, provision and shared mandates. | Community purposes and voluntary terms constrain commitments and support. Participants' experience can require changes in the offer, burden, representation or continuation. |
 | [Organization Change Engineering (OCE)](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) — OCE | Which organizational relations and capability need deliberate construction or change? [OCE.3](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce3---generate-and-compare-organization-concepts), [OCE.4](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce4---design-an-organizations-contribution-architecture) and [OCE.9](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce9---realize-a-bounded-organization-capability-increment) connect concepts, contribution architecture and realization. | Specialization, information, decision rights, participation and support determine which commitments can be met. Their consequences can reopen the arrangement or the commitment. |
+| [Human Resource Management (HRM)](HUMAN-RESOURCE-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) — HRM | Which workforce arrangement and personnel decisions are warranted and obtainable? HRM.1 connects the configuration; HRM.2 assessment and selection; HRM.3 reward; HRM.4 voice and contested decisions; HRM.5 continuing participation and transitions. | Work and its terms shape one another. Selection, reward, protection and participant response constrain promises and organizational choices; effective acts and provision remain with their owners. |
 
 Corporate Governance and Corporate Finance retain their corporate subject and institutional prerequisites. Other undertakings use the applicable financial and governing practices for their setting. Membership of the Suite does not make every constituent necessary in every case.
 
@@ -261,6 +263,16 @@ Professional conditions have their own returns. A changed employee-information r
 
 The proposal should leave each participant able to identify the result they contribute, the help and conditions they rely on, and the condition that would change their commitment. First useful work supplies evidence for that arrangement; broader learning, causal or cultural claims require their corresponding evidence. This makes development support revisable while preserving what has already become usable.
 
+### Management.Reference:4.8 - Personnel decisions and supported participation
+
+[Human Resource Management](HUMAN-RESOURCE-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) develops the wider workforce contribution alongside the development-help application above. HRM.1 connects actual work, assessment, reward, voice, protection and continuing participation; HRM.2–HRM.5 supply their distinct personnel operations. A person can be capable but not selected, selected but not appointed, appointed but unprovided, or successful under conditions that require protective change. Each difference calls for its own grounds and act.
+
+OPS supplies operating requirements and warranted performance findings. HRM examines the further personnel inference and terms. OCE constructs changed work or provision; ADM makes authorized conditions and obligations effective. A new AI capability can change the work people need to perform and the evidence relevant to selection. It does not itself change a wage obligation or require preservation of every former human skill. Personal and corporate agents can serve different purposes under distinct mandates.
+
+Preventive protection can be needed despite satisfactory output. HRM obtains qualified occupational-health/safety results and turns their conditions into feasible work and terms with OCE/OPS and ADM. For a person's serious functional difficulty, HRM.5 facilitates the applicable medical route, receives the needed work constraints, and constructs actual absence, accommodation or return under the proper grounds. The clinical supplier retains diagnosis and treatment. A return record or motivational intervention cannot supply those results or their implementation.
+
+The constituent belongs to Management through its construction of attainable workforce participation and warranted personnel acts. It neither absorbs Human Capability Development and Community Management nor makes a development office the owner of all HR Methods. The broader cultural application, independently chosen development and proprietary helping practice retain their own receiving purposes.
+
 ## Management.Reference:5 - Connected uses
 
 ### Management.Reference:5.1 - A voluntary practice-development network
@@ -356,7 +368,7 @@ For OCE, a replacement organization model or Method preserves its constituent co
 
 An account that removes authority from the commitment question, separates resource knowledge from the work it explains, or replaces voluntary participation with an assumed right to assign people loses an essential connection of the management field described here. Extending coverage to another management branch can preserve that whole when its distinct subject, contributions and consequential connections are established.
 
-This edition offers a connected selection of management fields. Marketing develops the customer-situation and feasible-offer branch; CUST develops the relation between client variation, repeatable offerings and their continuing obligations; Finance and Governance retain their corporate scope. The Suite does not provide complete coverage of organizational behavior, employment and human-resource management, public administration, international management or supply-chain management. Obtain the appropriate professional contribution when a task depends on those subjects. The boundaries of each included DPF remain applicable.
+This edition offers a connected selection of management fields. Marketing develops the customer-situation and feasible-offer branch; CUST develops the relation between client variation, repeatable offerings and their continuing obligations; Finance and Governance retain their corporate scope. HRM develops the bounded workforce and personnel branch, including its reception of qualified protection and institutional results; it does not supply every employment jurisdiction, clinical discipline or HR specialization. The Suite also does not provide complete coverage of organizational behavior, public administration, international management or supply-chain management. Obtain the appropriate professional contribution when a task depends on those subjects. The boundaries of each included DPF remain applicable.
 
 Each constituent retains its own sources, cases and conditions for reconsideration. New knowledge, a changed institutional condition or a revised Method reopens the other contributions that rely on it. Preserve independently adequate knowledge and practices while correcting the affected connection.
 
