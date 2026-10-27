@@ -258,10 +258,10 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | B.1.5.RS | **Evaluate a Constituent Method Replacement in Its Encompassing Uses** | Stable | Compare a replacement with the results, interactions and resource conditions required by each encompassing use; accept, restrict, adapt or reject the substitution. | **Builds on:** A.3.1, B.1.5. **Coordinates with:** B.1.5.EW, C.11.DUA, C.29. |
 | B.1.5.CM | **Construct and Qualify a Composite Method** | Stable | A proposed combination may be one Method, but cooperation or a shared provider does not establish that whole. Construct constituent contributions, interfaces and relation grounds, or return a useful lower claim. | A.3.1 and B.1.5 for identity/composition; B.1.5.EW and B.1.5.RS for enactment and replacement; C.32.MWA.PP for provision. |
 | B.1.6 | **Work-Resource Aggregation** | Stable | *Keywords:* work-resource aggregation, resource Characteristic, C.16 measurement work/result episteme, typed input, Scale/Unit, dated work set, work parthood/phase/overlap, edition-pinned aggregation policy, allocation/deduplication, aggregation work, typed aggregation result, uncertainty, provenance. *Queries:* "How do I aggregate measured resource use over an exact dated work set without double counting shared stocks, people, meters, tools, data, or time?", "Which measurement results, work/overlap relations, policy edition, actual aggregation work, typed result, result episteme, and provenance must remain separately recoverable?", "What supports the aggregation claim when only a planning or display artifact is presented?" | **Builds on:** A.15.1, A.6.1, C.2.1, C.16. **Coordinates with:** A.3.1, A.3.2, A.15.2, A.15.5, B.1.4, C.27, A.1, B.1, A.14, C.13, A.3.4, A.10, G.6, G.11, C.29, E.17, and the pattern that defines the current comparison, assurance, transformation, reidentification, or decision claim. |
-| B.2 | **Meta-Holon Transition — Whole Reidentification** | Stable | Decide whether the exact existing whole still carries the current subject claim or one exact new whole must be identified. Recover the trigger profile, direct facts that challenge the existing explanation, the proposed new whole, its already admitted public kind, complete A.1 and kind-specific basis, whole-reidentification claim, evidence, currentness, reliance, and blocked overread without treating a record, metric, transformation, or interaction as the new whole. *Queries:* "Which exact existing whole currently explains the claim?", "Which separately governed facts defeat that explanation?", "What exact new whole and admitted kind are proposed?", "Does the complete recognition and reidentification basis pass, fail, or remain unknown?" | **Builds on:** A.1, A.14, B.1, C.13. **Coordinates with:** B.1.2, B.2.P, B.2.2, B.2.3, B.2.4, B.2.5, A.12, A.3.4, A.15.1, C.16, C.29, C.30.ILC, C.2.1, and E.24.UK. |
+| B.2 | **Meta-Holon Transition — Whole Reidentification** | Stable | Compare changed facts with explanations that preserve the existing whole's identity for the receiving use. Keep a sufficient existing whole, resolve a missing decisive basis, or test the proposed new whole under A.1 and its admitted kind before making a reidentification claim. Materialize a comparison or reidentification account when later work needs it. Use B.3 when the receiving claim and use require assurance. For a selected assertion or record edition, use G.11 for currentness; the receiving person or system decides reliance. *Queries:* "Which exact existing whole currently explains the claim?", "Which separately governed facts defeat that explanation?", "What exact new whole and admitted kind are proposed?", "Does the complete recognition and reidentification basis pass, fail, or remain unknown?" | **Builds on:** A.1, A.14, B.1, C.13. **Coordinates with:** B.1.2, B.2.P, B.2.2, B.2.3, B.2.4, B.2.5, A.12, A.3.4, A.15.1, C.16, C.29, C.30.ILC, C.2.1, and E.24.UK. |
 | B.2.P | **Clarify Emergence and Meta-Holon Transition (MHT) Claims** | Stable | Repairs emergence, synergy, higher-level property, MHT, MET, MFT, metric mirage, and collection words entangled with whole-reidentification by recovering the claim kind first. | **Builds on:** E.10, E.10.ARCH, B.2, A.14, C.13, B.3.5. **Coordinates with:** B.2.2, B.2.3, B.2.4, C.16, A.2.2, A.6.F, A.3.4, C.30.ILC. |
-| B.2.2 | **Meta-System Transition: Test the Proposed New Whole as a System** | Stable | Specialize B.2 when its one exact proposed new whole must be recognized under the already admitted `U.System` kind. Apply the complete A.1 construction test and direct system criterion to that same individual; keep delimitation, objective, coordination, capability, system-role kind or assignment, Method, Work, transformation, functioning, architecture, evidence, assurance, and time claims under their direct patterns, and re-base component evidence rather than transferring it by label. *Queries:* "Which exact new whole did B.2 identify?", "Does that same individual pass complete A.1 and the direct U.System criterion?", "Which additional result-system claims independently obtain?", "Which component evidence remains applicable to the recognized result system?" | **Builds on:** B.2, A.1, B.1.2, A.14, C.13. **Coordinates with:** A.12, A.3.4, A.15, A.15.1, A.2.1, A.2.2, A.6.F, A.10, B.3, B.3.5, B.2.4, B.2.5, C.16, C.27, C.30, A.22, and E.24.UK. |
-| B.2.3 | **Meta-Holon Transition With Episteme Result** | Stable | Test whether B.2's proposed new knowledge whole satisfies A.1 and the C.2.1 ClaimGraph–EntityOfConcern–ReferenceScheme constitution. Reassess support for its claims; keep source synthesis, ordinary episteme changes and publication under their direct patterns when no whole-reidentification question remains. *Queries:* "Does this body of results constitute a new theory or knowledge whole?", "Which source evidence still supports the resulting claims?" | **Specializes:** B.2. **Builds on:** A.1, C.2.1, E.24.UK. **Coordinates with:** C.2.P, C.2.P.DR, E.17, A.10, B.3, B.3.5, C.29. |
+| B.2.2 | **Meta-System Transition: Test the Proposed New Whole as a System** | Stable | Specialize B.2 when its one exact proposed new whole must be recognized under the already admitted `U.System` kind. Apply the complete A.1 construction test and direct system criterion to that same individual; keep delimitation, objective, coordination, capability, system-role kind or assignment, Method, Work, transformation, functioning, architecture, evidence, assurance, and time claims under their direct patterns, and re-base component evidence rather than transferring it by label. *Queries:* "Which exact candidate did B.2 identify for recognition?", "Does that same individual pass complete A.1 and the direct U.System criterion?", "Which additional result-system claims independently obtain?", "Which component evidence remains applicable to the recognized result system?" | **Builds on:** B.2, A.1, B.1.2, A.14, C.13. **Coordinates with:** A.12, A.3.4, A.15, A.15.1, A.2.1, A.2.2, A.6.F, A.10, B.3, B.3.5, B.2.4, B.2.5, C.16, C.27, C.30, A.22, and E.24.UK. |
+| B.2.3 | **Meta-Holon Transition With Episteme Result** | Stable | Test whether B.2's proposed new knowledge whole satisfies A.1 and the C.2.1 ClaimGraph–EntityOfConcern–ReferenceScheme constitution. Assess support when the receiving claim or use requires assurance; keep source synthesis, ordinary episteme changes and publication under their direct patterns when no whole-reidentification question remains. *Queries:* "Does this body of results constitute a new theory or knowledge whole?", "Which source evidence still supports the resulting claims?" | **Specializes:** B.2. **Builds on:** A.1, C.2.1, E.24.UK. **Coordinates with:** C.2.P, C.2.P.DR, E.17, A.10, B.3, B.3.5, C.29. |
 | B.2.4 | **Do Capability or Functioning Changes Require Whole Reidentification?** | Stable | B.2 specialization for cases where independently governed capability, functioning, or selected in-life transformation-flow facts leave a whole-reidentification question after direct-owner and existing-whole explanations are tested. Evidence only supports or challenges claims about those facts. | **Specializes:** B.2. **Coordinates with:** A.2.2, C.16, A.6.F, A.3.4, E.18, C.30.TFS-REL, A.15, A.15.1, A.6.M, C.30, C.29. |
 | B.2.5 | **Supervisor-Subholon Feedback Relation** | Stable | States a two-sided feedback relation between one supervising acting System and one or more supervised holons without turning a supervisor label, policy, method, diagram, or loop lens into the supervising actor or the relation. | **Builds on:** B.2, A.1, A.12. **Coordinates with:** A.2.1, A.3.4, C.30.LCA, C.29, A.10, B.3. |
 | B.3 | **Is This Claim Supported for This Use? — Trust and Assurance Calculus** | Stable | States whether one exact target claim is adequately supported for one named assurance use through an inspectable argument and the direct results it uses, with limits and reopen conditions. It defines no universal F-G-R/congruence score and does not turn a badge, record, evidence item, gate, permission, or publication into assurance. *Queries:* "What exact claim and use need assurance?", "Which argument and results support it?", "What remains unsupported and what reopens the conclusion?". | **Builds on:** C.2.1, A.2.4, A.10, G.6, A.2.6, C.16, C.16.Q, and the direct domain patterns for each input. **Coordinates with:** A.15.1, A.6.1, G.11, F.10, A.21, C.28, A.22, E.17, E.24.PUB, C.29, and the direct permission, release, safety, responsibility, and controlled-action patterns. |
@@ -3763,9 +3763,9 @@ Extent-sensitive identity remains useful because it forces the practitioner to s
 
 | External source | Contribution used here | A.1.SCR use and boundary |
 | --- | --- | --- |
-| Florio and Linnebo, [*Introduction to Constructional Ontology*](https://philarchive.org/rec/FLOITC-3), 2024 | Construction choices affect identity and require constructors, inputs, and construction-sensitive distinctions. | Only the system-dependent branch in A.1.SCR:4.3 applies the six-component test. Return `unknown` when missing information prevents determining either satisfaction or failure. |
-| Deutsch, [*Constructor Theory*](https://arxiv.org/abs/1210.7439), 2012 | Possible transformations depend on substrate attributes and constructor conditions. | At A.1.SCR:4.3 and 5.1, test whether facts about the proposed assembly satisfy the applicability and compatibility conditions of a governed larger-assembly construction rule. |
-| Partridge, [*BORO Ontology*](https://borosolutions.net/boro-ontology), C-FORS 2025 | Four-dimensional identity pressure asks what exists through change and across extent. | Use A.1.SCR:4.8 for the entity and kind distinctions; shared extent alone does not establish identity. |
+| Florio and Linnebo, [*Introduction to Constructional Ontology*](https://ceur-ws.org/Vol-3882/foust-5.pdf), JOWO/FOIS 2024, CEUR Workshop Proceedings 3882, §1, pp. 1–3, and §3, p. 4 | Construction choices affect identity and require constructors, inputs, and construction-sensitive distinctions. | Only the system-dependent branch in A.1.SCR:4.3 applies the six-component test. Return `unknown` when missing information prevents determining either satisfaction or failure. |
+| Deutsch, [*Constructor Theory*](https://arxiv.org/abs/1210.7439v1), arXiv:1210.7439v1 (2012), §1.1, pp. 1–4 | Possible transformations depend on substrate attributes and constructor conditions. | At A.1.SCR:4.3 and 5.1, test whether facts about the proposed assembly satisfy the applicability and compatibility conditions of a governed larger-assembly construction rule. |
+| Chris Partridge, [*BORO Ontology*](https://research.borosolutions.net/boro-ontology/), C-FORS Summer School, University of Oslo, 23 May 2025, slides 19, 22–24 and 28 | Four-dimensional identity pressure asks what exists through change and across extent. | Use A.1.SCR:4.8 for the entity and kind distinctions; shared extent alone does not establish identity. |
 
 The conditional method is an FPF synthesis.
 
@@ -4313,12 +4313,12 @@ A.1.STM consumes only the returned recognition result. It does not repeat the si
 
 | Source | Contribution to the pattern | A.1.STM use and boundary |
 | --- | --- | --- |
-| Levenchuk, *Systems Thinking* (R5), “Мантра системного мышления” (“System-thinking mantra”); *Systems Modeling* (R6), “Целевая система и коллективное системное мышление” (“Target system and collective systems thinking”), “Целевая система зависит от того, кто её ищет” (“The target system depends on who seeks it”), and the hair-salon example | A common target sustains collective reasoning across division of labour; intended use grounds functioning, construction, Methods and creator choice. Target discovery requires hypotheses, criticism and agreement, including external participants; design can concern types before individual holders exist. | Sections 4.1–4.3 retain that reasoning while separating the project role, actual holder, future description and local results under current FPF kinds. The examples do not make every intermediate product a System. |
-| Levenchuk, *Methodology* (R7), the system-mantra passage and “Граф создателей” (“Creator graph”) | A builder's use can participate in obtaining another system, and enabling tools need not be independent agential performers. | The recursive step in 4.3 preserves this connection; actual production, participation, performer and Work claims keep their respective FPF predicates. |
-| Levenchuk, 2025 seminar slides on checklists, canvases, systems of equations, mantras and organizational-development plots | A mantra keeps connected questions in attention across areas of knowledge. Its answers are found by proposing, criticizing and revising mutually constrained possibilities; different project mantras must agree where they use the same subjects or assumptions. | Section 4.3.1 develops this reasoning and separates the teaching order from actual inquiry and Work. The equation analogy is explanatory, not a universal solver or an identification of every subject as a type. The source's fixed ordering of particular improvement priorities is not generalized here. |
+| Levenchuk, *Systems Thinking* (R5; source manuscript `SystemsThinking2026_guide_with_assignments_27nov25.docx`), “Мантра системного мышления” (“System-thinking mantra”); *Systems Modeling* (R6; source manuscript `SystemsModeling2026_guide_with_assignments_27nov25.docx`), “Целевая система и коллективное системное мышление” (“Target system and collective systems thinking”), “Целевая система зависит от того, кто её ищет” (“The target system depends on who seeks it”), and “Пример парикмахерской как сервис-провайдера” (“Hair-salon example as a service provider”) | A common target sustains collective reasoning across division of labour; intended use grounds functioning, construction, Methods and creator choice. Target discovery requires hypotheses, criticism and agreement, including external participants; design can concern types before individual holders exist. | Sections 4.1–4.3 retain that reasoning while separating the project role, actual holder, future description and local results under current FPF kinds. The examples do not make every intermediate product a System. |
+| Levenchuk, *Methodology for Engineers and Managers* (R7; source manuscript `Methodology2025_guide_with_assignments_22apr25.docx`), the system-mantra passage in “Жизненный цикл 2.0: от стадий работ к методам разработки” (“Life cycle 2.0: from work stages to development methods”) and “Граф создателей” (“Creator graph”) | Creator graphs connect a builder's period of use with work that creates or develops another system, and include both enterprises and simple tools. | The recursive step in 4.3 preserves this connection; actual production, participation, performer and Work claims keep their respective FPF predicates. |
+| Levenchuk, [“Мантры организационного развития” (“Organizational-development mantras”)](https://systemsworld.club/t/mantry-organizaczionnogo-razvitiya/23391), 13 March 2025 | Mantras retain a logical direction while inquiry is continuously refined; the short system-thinking mantra connects intended value, construction, ways of obtaining it, capable contributors and their cooperation. | Section 4.3.1 develops this reminder into an FPF method for assembling and revising a jointly workable account across connected inquiries. The teaching order remains distinct from actual inquiry and Work. The equation analogy explains this synthesis; it is not a universal solver or an identification of every subject as a type. The source's fixed ordering of particular improvement priorities is not generalized here. |
 | E.18 and E.18.NET | Build-the-builder reasoning must consider operation, production, identity inception, later change, feedback, and builder branches together, while independently identifying the TFS or nested-network members and relations behind any diagram. | The `Joint network and builders` region, section 4.4 steps 2, 5, and 6, and the pump worked use require exact cross-member occurrences and endpoint bindings. Shared identity, a `creates` label, or temporal adjacency does not admit a network or connect two members. |
 | A.15.6, E.18, and E.18.NET | A project team needs both the longer project dependency and a bounded local concern, with separate claims for project Work, network selection, case subject, closure, and later use. | Section 4.4 step 2 and the pump worked use name the exact subject or claim, only the references and direct claims needed now, a separately governed closure basis, and one downstream receiving use that remains outside the closed case. Project-level reasoning may continue to that later use without reopening the closed case. |
-| Deutsch, [*Constructor Theory*](https://arxiv.org/abs/1210.7439), 2012, read with current A.3.4, A.15.PROD, and E.18 | Possible production or change depends on substrate attributes and constructor conditions. | The runtime and making/changing regions, forward trace, and worked use distinguish one continuing changed referent, production participation, identity inception, later use, and system-side participation. Do not infer actual production or change from a requirement, Method, or Work alone. A not-yet-existing system is not transformed. |
+| Deutsch, [*Constructor Theory*](https://arxiv.org/abs/1210.7439v1), arXiv:1210.7439v1 (2012), §1.1, pp. 1–4, read with current A.3.4, A.15.PROD, and E.18 | Possible production or change depends on substrate attributes and constructor conditions. | The runtime and making/changing regions, forward trace, and worked use distinguish one continuing changed referent, production participation, identity inception, later use, and system-side participation. Do not infer actual production or change from a requirement, Method, or Work alone. A not-yet-existing system is not transformed. |
 
 The combination used by this attention map is an FPF synthesis.
 
@@ -33514,7 +33514,7 @@ A trajectory step may reuse one edition in another form, add a successor epistem
 Here `route` names an `A.16` move-family label or a typed upstream publication-form cue. It is not an action route, work sequence, workflow, or transformation-flow path.
 
 #### A.16.0:4.2 - Position-account discipline
-The position read by this pattern is the slot-explicit claim defined in `C.2.2a`: a partial coordinate publication in the declared language-state `U.CharacteristicSpace`, where each basis-slot reading is published as a `ValueSet(slot)`, interval, or other admissible set-valued claim.
+The position read by this pattern is the slot-explicit claim defined in `C.2.2a`: a partial coordinate publication in the declared language-state `U.CharacteristicSpace`, where each basis-slot reading reports one value or a supported set of remaining possible values within the slot's Scale domain. An interval is usable only where that Scale admits it (C.2.2a:4.2).
 
 Early seam publications may leave some slots unknown or wide. That uncertainty is admissible only if it is explicit. A trajectory account therefore records the position claim for the current episteme edition and, when needed, for predecessor or sibling editions that justify the move reading.
 
@@ -43159,6 +43159,8 @@ The following contributions are adapted from the cited editions for work-resourc
 
 Use this pattern when changed facts raise the question whether the existing whole still carries the current claim or a new whole must be identified. The question may concern its delimitation, part relation, constitutive assembly, objective, supervision, capability envelope, agency threshold, or temporal consolidation.
 
+The question can also arise when a whole is first constituted or first recognized. If no prior holon has been established, use A.1 and the applicable construction and kind-specific patterns to recognize the candidate. B.2's comparison begins only when there is an established prior whole to compare with it.
+
 Typical moments:
 
 - a set of coordinated parts becomes a regulated system with its own objective and externally visible commitments;
@@ -43186,7 +43188,7 @@ Typical moments:
 
 A Meta-Holon Transition is a whole-reidentification claim about a holon recognized through A.1 construction, identity, part relations, whole-level characteristics, and a direct kind-specific pattern.
 
-The B.2 comparison determines whether the old whole remains the right EntityOfConcern for the current claim; retain it when its identity rule accommodates the change. The candidate new whole can be recognized as a `U.System`, `U.Episteme`, `U.Method`, `U.Work`, `U.Discipline`, or another holon kind only after `E.24.UK` has admitted that public kind and the exact candidate satisfies A.1 plus the direct kind-specific criterion.
+The B.2 comparison determines whether the receiving use can continue with the old whole or requires a newly identified whole; retain the old whole when its identity rule accommodates the change and it meets that use. The candidate new whole can be recognized as a `U.System`, `U.Episteme`, `U.Method`, `U.Work`, `U.Discipline`, or another holon kind only after `E.24.UK` has admitted that public kind and the exact candidate satisfies A.1 plus the direct kind-specific criterion.
 
 ### B.2:2 - Problem
 
@@ -43213,11 +43215,15 @@ When whole identity and its grounds are unclear:
 
 Use B.2 as a world-side whole-reidentification pattern. Start with the actual wholes and the facts governed by their direct patterns; add records only when a receiving use needs them.
 
-1. Name the exact existing whole, its admitted kind, and its identity or reidentification rule.
+Name what the receiving work needs from a whole: for example, a system bearing an operational capability or an episteme supporting a particular conclusion. Establish which prior whole, if any, is being compared. For a first constitution, obtain the construction facts under the applicable subject pattern and then apply A.1. For a first recognition of an existing whole, apply A.1 to the facts already obtaining; the recognition date does not establish when the whole came into existence. If the prior identity grounds are unavailable, leave that question unresolved. None of these situations supplies a prior holon for `existingWholeRef` by itself.
+
+With an established prior whole:
+
+1. Name the receiving claim or use, the exact existing whole, its admitted kind, and its identity or reidentification rule.
 2. Recover each changed delimitation, constituent, constructive part relation, assembly, supervision, objective, capability, characteristic, or temporal fact under its direct pattern. A cue word, profile field, measurement, or graph edge does not make the fact obtain.
-3. Test whether those facts can be explained as a change of the same whole. If repair, maintenance, changed characteristics, phase coverage, method or work correction, measurement, or architecture-view correction is enough under the existing reidentification rule, keep that whole and stop B.2.
-4. If the existing whole is not enough, identify the exact candidate new whole and execute the complete A.1 criterion. Recover its constituents, obtaining constructive relations, assembly, reidentification rule, and composition-grounded whole characteristic. Also show that the candidate's actual boundary, interfaces, relevant characteristics, and identity-preservation conditions satisfy the applicability and compatibility conditions of at least one governed larger-assembly construction method or rule under which it can remain a constituent. Then name its already admitted holon kind and satisfy the direct kind-specific criterion. If a required condition fails, the candidate fails A.1; if missing evidence or an unavailable dependency prevents a determination, evaluation returns `unknown`.
-5. State the whole-reidentification claim: why the existing whole no longer carries the current subject claim and why the candidate new whole is the EntityOfConcern. This comparison does not itself create, admit, or classify either whole.
+3. Test whether those facts can be explained as a change of the same whole using :4.2. If repair, maintenance, changed characteristics, phase coverage, method or work correction, measurement, or architecture-view correction is enough under the existing reidentification rule, keep that whole and stop B.2. If the comparison is unresolved, identify the deciding fact or rule still needed instead of declaring a new whole necessary.
+4. When the comparison establishes that the existing whole is insufficient, designate the proposed new whole as an exact `U.Entity` and execute the complete A.1 criterion. Recover its constituents, obtaining constructive relations, assembly, reidentification rule, and composition-grounded whole characteristic. Also show that the candidate's actual boundary, interfaces, relevant characteristics, and identity-preservation conditions satisfy the applicability and compatibility conditions of at least one governed larger-assembly construction method or rule under which it can remain a constituent. Then name its already admitted holon kind and satisfy the direct kind-specific criterion. If a required condition fails, the candidate fails the corresponding recognition test; if missing evidence or an unavailable dependency prevents a determination, evaluation returns `unknown`.
+5. State the whole-reidentification claim: why the receiving use cannot retain the existing whole and how the recognized new whole meets that use. A positive classification alone does not establish this comparison. The prior whole may continue to exist and retain a narrower use; reidentification does not require its destruction. This comparison does not itself create, admit, or classify either whole.
 6. Materialize a trigger profile, optional explanation-result episteme, reidentification assertion, or record only when a named receiving use must inspect, cite, compare, or preserve that claim.
 
 The optional `MHTTriggerProfile`, `ExistingWholeExplanationResult`, and `HolonReidentificationRecord` are ordinary C.2.1 epistemes. Their content can designate exact wholes, facts, claims, and relation occurrences; the content fields are not world-side participants and supply no substitute for the preceding move.
@@ -43234,6 +43240,7 @@ The optional `MHTTriggerProfile`, `ExistingWholeExplanationResult`, and `HolonRe
 | `changedDelimitationRelationRefs[]` | References to exact changed delimitation relation occurrences under their direct patterns. |
 | `changedPartRelationRefs[]` | References to exact changed part-relation occurrences. |
 | `changedSupervisionRelationRefs[]` | References to exact changed supervision relation occurrences. |
+| `changedFeedbackClaimRef?` | `U.EpistemeRef` resolving to a B.2.5 compound feedback assertion when the receiving use needs that claim. Its observation and return-influence relations and coupling grounds remain with the assertion. |
 | `changedCoordinationRelationRefs[]` | References to exact changed coordination relation occurrences. |
 | `changedObjectiveClaimRef?` | `U.EpistemeRef` resolving to the exact objective-change claim. |
 | `changedCapabilityClaimRef?` | `U.EpistemeRef` resolving to the exact capability-change claim. |
@@ -43248,6 +43255,16 @@ The profile's exact ClaimGraph and effective `U.ReferenceScheme`, together with 
 
 First perform an ordinary comparison: compare the observed change with direct explanations that preserve the existing whole. Consider better parts, corrected relations, improved measurement, method or Work repair, richer phase coverage, capability change, and architecture-view repair only when their direct patterns make those explanations current. If one explanation is sufficient for the receiving use, keep the existing whole, use that subject pattern, and stop B.2.
 
+For each material explanation, test three things together: whether it covers the change needed by the receiving use, whether the old identity rule permits it, and whether it is compatible with the established facts. When continuity across observations is uncertain, use A.1.RI to construct the possible connections and test them against the subject constraints. A changed part may preserve one whole's identity and defeat another's; the applicable identity rule decides.
+
+| Comparison result | Grounds and next move |
+| --- | --- |
+| `sufficient` | At least one supported explanation meets the receiving use while preserving the existing whole's identity. Keep that whole and continue under the subject pattern. |
+| `insufficient` | An established condition necessary for the receiving use cannot be met while preserving the prior identity; or the governing facts and rules justify a closed set of applicable alternatives and every alternative fails. Proceed to the candidate's A.1 and kind-specific tests. |
+| `unknown` | A deciding fact or rule is unavailable, or material alternatives remain that would change whether a new whole is needed. Obtain that missing basis or retain the unresolved comparison. |
+
+An unsuccessful search for an explanation does not establish `insufficient`. A closed comparison needs a reason why its alternatives cover the named question, not an inventory of every imaginable explanation. If all remaining identity alternatives permit the same needed continuation, A.1.RI allows that continuation without settling the unused identity distinction; this does not establish an MHT claim.
+
 When another use must inspect or cite the outcome, identify an optional `ExistingWholeExplanationResult` episteme whose EntityOfConcern is the existing whole:
 
 | Content field | Value kind and use |
@@ -43255,35 +43272,43 @@ When another use must inspect or cite the outcome, identify an optional `Existin
 | `observedChangeClaimRef` | `U.EpistemeRef` resolving to the exact observed-gain or observed-shift claim. |
 | `candidateExplanationClaimRefs[]` | Exact claims under their direct subject patterns. |
 | `explanationEvidenceRelationRefs[]` | Evidence relations actually used to assess those explanations. |
-| `existingWholeSufficiencyVerdict` | `sufficient | insufficient | unknown` for the named receiving use. |
+| `existingWholeSufficiencyVerdict` | `sufficient`, `insufficient`, or `unknown` for the named receiving use. |
 | `remainingWholeReidentificationQuestionRef?` | The exact residual question when the result is `insufficient` or `unknown`. |
 
 The practitioner performs the comparison; the optional episteme records its outcome. Identity and relation claims still depend on the facts and rules used in that comparison.
 
 #### B.2:4.3 - HolonReidentificationRecord
-`HolonReidentificationRecord` is an optional `U.Episteme` whose EntityOfConcern is the exact new holon. Use it only when a person or system performing later work needs a durable account of why that new holon, rather than the prior whole, is the current EntityOfConcern. Candidate classification remains a separately governed judgment.
+`HolonReidentificationRecord` is an optional `U.Episteme` whose EntityOfConcern is the established new holon. Use it only when a person or system performing later work needs a durable account of why the receiving use requires that new holon rather than the prior whole. Candidate classification remains a separately governed judgment.
 
 | Content field | Value kind and use |
 |---|---|
 | `existingWholeRef` | `U.HolonRef` resolving to the exact prior whole already recognized under an admitted holon kind. |
 | `selectedTriggerProfileRef` | `U.EpistemeRef` resolving to the selected `MHTTriggerProfile`. |
 | `existingWholeExplanationResultRef?` | `U.EpistemeRef` resolving to the optional `ExistingWholeExplanationResult`; omit it when the ordinary comparison sentence is enough. |
-| `resultHolonRef` | `U.HolonRef` resolving to the exact candidate new whole. |
+| `resultHolonRef` | `U.HolonRef` resolving to the established new whole. |
 | `resultHolonKindRef` | `U.KindRef` resolving to its exact admitted holon kind. |
-| `resultHolonClassificationAssertionRef?` | `U.EpistemeRef` resolving, only when a person or system performing later work must inspect or cite the judgment, to a C.2.1 assertion that the candidate new whole satisfies the A.1 criterion under the stated admitted holon kind. |
+| `resultHolonClassificationAssertionRef?` | `U.EpistemeRef` resolving, only when a person or system performing later work must inspect or cite the judgment, to a C.2.1 classification judgment about whether the candidate new whole satisfies the A.1 criterion under the stated admitted holon kind. |
 | `wholeReidentificationClaimRef` | `U.EpistemeRef` resolving to the claim that the candidate new whole, rather than the prior whole, now carries the subject claim. |
 | `changedClaimPatternLocators[]` | `U.EpistemeRef` values resolving to the direct patterns for each changed claim used in the rationale. |
 | `evidenceRelationRefs[]` | References to exact evidence relation occurrences supporting the reidentification claim. |
 | `sourceUseRelationRefs[]` | References to exact source-use relation occurrences when sources are relied on. |
-| `mathLensUseRelationRefs[]` | References to exact C.29 lens-use relations when mathematical results bear on the claim. |
+| `mathLensUseOutputRefs[]?` | `MathLensUseOutputRef` values resolving to C.29 outputs whose mathematical results bear on the claim. |
 
-The record does not make the A.1 criterion true, admit a public kind, or create the candidate new holon. `E.24.UK` is the pattern for public-kind admission; A.1 is the pattern for world-side recognition; C.2.1 is the pattern for the optional classification assertion; its warrant requires exact evidence and assurance relations. Publication of the record is another relation under the publication patterns.
+A referenced C.29 output retains its correspondence, assumptions, omitted detail or loss, and limits on reliance. Select the output under C.29:4.4: a conditional explanation or diagnosis may remain a MiniCard, while reliance on the result as an adequate model of the phenomenon requires the FullCard account. Reuse an adequate existing account. Ordinary local mathematics need not produce a C.29 output, and an output reference does not assert a lens-use relation occurrence.
+
+The record does not make the A.1 criterion true, admit a public kind, or create the candidate new holon. `E.24.UK` is the pattern for public-kind admission; A.1 is the pattern for world-side recognition; C.2.1 is the pattern for the optional classification assertion. Recognition requires the relevant construction and identity grounds. When evidence is relied on, retain the evidence relations supporting the particular claim.
+
+Use B.3 when the receiving question asks whether support is adequate for a named claim and use, or when a binding requirement calls for that assurance. Supply B.3's minimum qualified result, adding Work, performer, or replay information only when that use requires it. Storing an optional classification assertion alone creates no separate assurance duty. Check whether existing support applies to the result claim; adequate support can be reused, while assurance for parts does not automatically transfer to the whole. Publication of the record is another relation under the publication patterns.
 
 #### B.2:4.4 - Candidate New Whole Reference And Kind
 
-Use one `resultHolonRef : U.HolonRef` for the candidate new whole and one `resultHolonKindRef : U.KindRef` for its kind. `E.24.UK` must already have admitted that public kind, and the candidate new whole must satisfy the A.1 constructive criterion plus any kind-specific membership condition. Neither the references nor the record establish those facts.
+Before recognition, designate the candidate as an exact `U.Entity` and name the admitted kind under which it is being tested. A known failure of a necessary A.1 or kind-specific condition yields `false`; unavailable deciding grounds yield `unknown`. Neither result proves that the prior whole is sufficient for the receiving use.
 
-When a person or system performing downstream work must inspect or cite the classification judgment, add the optional `resultHolonClassificationAssertionRef`. That C.2.1 assertion may report a governed evaluation of `true`, `false`, or `unknown`; its evidence, warrant, and G.11 currentness stay separate from world-side criterion satisfaction. B.2 still asks a different question: whether the existing whole can continue to carry the subject claim or a new whole must be identified.
+For the established result, use one `resultHolonRef : U.HolonRef` and one `resultHolonKindRef : U.KindRef` for its kind. `E.24.UK` must already have admitted that public kind, and the candidate new whole must satisfy the A.1 constructive criterion plus any kind-specific membership condition. Neither the references nor the record establish those facts.
+
+When a person or system performing downstream work must inspect or cite a preliminary, failed, or unresolved evaluation, use the optional classification assertion or result episteme governed by A.1 and C.2.1. Its EntityOfConcern is the candidate being evaluated. After establishing the new holon, a needed `HolonReidentificationRecord` may cite the classification judgment through `resultHolonClassificationAssertionRef`.
+
+That C.2.1 assertion may report a governed evaluation of `true`, `false`, or `unknown`; its evidence, warrant, and G.11 currentness stay separate from world-side criterion satisfaction. A false or unresolved assertion does not become a positive result by being cited in a record. A historical record can be preserved when support later becomes unavailable; present reliance must reflect that loss, which alone does not change the object's historical identity. B.2 still asks a different question: whether the existing whole can continue to carry the subject claim or a new whole must be identified.
 
 #### B.2:4.5 - Agency Threshold
 
@@ -43325,11 +43350,13 @@ Parts: plant, sensor, controller, actuator.
 
 Existing-whole repair may be enough if only a sensor improved or a controller parameter changed. B.2 becomes current only when exact constructive relations and a governed assembly close the feedback and supervision around an objective, yielding one exact new whole proposed for recognition under the already admitted `U.System` kind, whose boundary, external commitments, and capability envelope are no longer explainable as changes of the existing whole. That proposed whole can satisfy A.1 only if its actual boundary, interfaces, relevant characteristics, and identity-preservation conditions also satisfy at least one applicable governed larger-assembly construction method or rule—for example, a rule under which the regulated system can remain one constituent of a larger plant or production system. If that compatibility condition does not hold, the proposed whole fails A.1; if the needed evidence or dependency is unavailable, evaluation remains `unknown`. Loop closure, a record, or a measurement supplies none of those facts.
 
+The optional accounts below apply when the plant-plus-devices configuration is already an established holon under its identity rule and the regulated system has passed the comparison and recognition tests. If this is the first constitution of a whole from a collection of devices, use the A.1 construction-and-recognition route in :4 instead.
+
 ```text
 MHTTriggerProfile@Control : U.Episteme
   entityOfConcernRef: plant-plus-devices configuration
   content:
-    changedSupervisionRelationRefs: closed feedback relation
+    changedFeedbackClaimRef: FeedbackClosureClaim under B.2.5
     changedObjectiveClaimRef: maintain output y near reference r
     changedCapabilityClaimRef: capability envelope after closure
 
@@ -43346,11 +43373,13 @@ HolonReidentificationRecord@Control : U.Episteme
     changedClaimPatternLocators: A.1, B.1.2, B.2.2, C.30.LCA, A.2.2
 ```
 
-The exact EntityOfConcern is an actual participant in the C.2.1 `EpistemeConstitutionRelation`; `EntityOfConcernSlot` is only the corresponding declaration-local participant meaning inside `EpistemeConstitutionRelationSignature`. The `entityOfConcernRef` field and indented content fields carry participant or claim designations in each episteme; they are not SlotKinds or participants of a new MHT relation. The feedback and capability relations retain their direct identities, while the optional classification assertion retains its own C.2.1 identity and does not establish world-side holonhood.
+The exact EntityOfConcern is an actual participant in the C.2.1 `EpistemeConstitutionRelation`; `EntityOfConcernSlot` is only the corresponding declaration-local participant meaning inside `EpistemeConstitutionRelationSignature`. The `entityOfConcernRef` field and indented content fields carry participant or claim designations in each episteme; they are not SlotKinds or participants of a new MHT relation. The feedback assertion keeps its observation and return-influence relations and its coupling grounds under B.2.5. Any supervision or capability relations retain their direct identities, while the optional classification assertion retains its own C.2.1 identity and does not establish world-side holonhood.
 
 #### B.2:5.2 - Compendium Becomes Theory
 
-A collection of results can remain a catalogue. B.2 becomes current only when the knowledge body is reidentified as an episteme whole with its own claim-bearing structure, explanatory objective, reference scheme, and evidence relations.
+A collection of results can remain a catalogue. For a first episteme constitution, establish its claim-bearing structure and interpretation under C.2.1 and apply A.1. When an established prior whole is available, compare the changed claim-bearing structure, explanatory use, and reference scheme with its identity rule through :4.2. Evidence supports the comparison; a change in evidence alone does not reidentify the episteme.
+
+B.2.3:5.1 shows a complete constructed comparison: an existing episteme supports a narrower deployment claim, while the required conclusion needs a changed ClaimGraph and ReferenceScheme and hence a different episteme under C.2.1. The prior episteme remains usable for its narrower claim.
 
 `B.2.3` specializes this case when the exact candidate new holon named by the MHT claim is recognized under the already admitted `U.Episteme` kind. C.2.1 defines episteme constitution and identity; E.17 and E.24.PUB define publication occurrences, forms, and carriers; C.2.P recovers source-expression and source-to-use distinctions; use A.10 for bounded evidence reliance and G.6 for its evidence/provenance graph and ledger, retaining each relation's direct governor.
 
@@ -43392,10 +43421,10 @@ Several actual changes during assembly may each be exact `U.Transformation` occu
 
 | Check | Conformance condition |
 | --- | --- |
-| `CC-B2-1` | A B.2 use names the exact existing whole already recognized under an admitted holon kind, its identity rule, current part relations, and kind-specific pattern before declaring whole reidentification. |
+| `CC-B2-1` | A B.2 use names the receiving claim or use, the exact existing whole already recognized under an admitted holon kind, its identity rule, current part relations, and kind-specific pattern before declaring whole reidentification. Without an established prior whole, first constitution or recognition returns to A.1 and the applicable subject pattern. |
 | `CC-B2-2` | `MHTTriggerProfile` is a `U.Episteme` with the existing whole as EntityOfConcern, exact typed content references, and no mandatory bounded-context reference. |
-| `CC-B2-3` | The ordinary existing-whole comparison precedes MHT. An optional `ExistingWholeExplanationResult` episteme is created only when a receiving use must inspect or cite its exact explanations, evidence, and sufficiency verdict. |
-| `CC-B2-4` | `HolonReidentificationRecord` is a `U.Episteme` with one `resultHolonRef` for the candidate new whole, one reference to its admitted public kind, the whole-reidentification claim, direct evidence and subject-pattern references, and only an optional C.2.1 classification-assertion reference when a person or system performing later work needs to inspect or cite that judgment. |
+| `CC-B2-3` | The ordinary existing-whole comparison precedes MHT and distinguishes a supported same-whole explanation, established insufficiency, and an unresolved comparison as in :4.2. An optional `ExistingWholeExplanationResult` episteme is created only when a receiving use must inspect or cite its exact explanations, evidence, and sufficiency verdict. |
+| `CC-B2-4` | `HolonReidentificationRecord` is a `U.Episteme` with one `resultHolonRef` for the established new whole, one reference to its admitted public kind, the whole-reidentification claim, direct evidence and subject-pattern references, and only an optional C.2.1 classification-assertion reference when a person or system performing later work needs to inspect or cite that judgment. |
 | `CC-B2-5` | Agency-threshold claims use the direct characteristic-space and threshold patterns; B.2 uses them only when whole identity changes. The admitted System and characteristic are recovered independently of any optional local system-role classification or assignment, including when the System participates passively. |
 | `CC-B2-6` | Acting-system participation and transformation use A.12 and A.3.4; B.2 does not create `U.Transformer`. |
 | `CC-B2-7` | Mathematical expressions can bear on but do not replace the holon reidentification claim. |
@@ -43551,14 +43580,14 @@ Retain the source phrase beside the recovered claim and replacement only when th
 
 #### B.2.P:4.3 - Whole-Reidentification Recovery
 
-When claim-kind recovery leaves a whole-reidentification question, use B.2 with this account:
+When claim-kind recovery leaves a whole-reidentification question, first establish whether there is a prior holon. For a first constitution or recognition without one, use B.2:4 to return to A.1 and the applicable subject pattern; unavailable prior identity grounds remain unresolved. With an established prior whole, use B.2 with this account:
 
-1. name the exact existing whole, admitted kind, and identity or reidentification rule;
+1. name the receiving claim or use, the exact existing whole, admitted kind, and identity or reidentification rule;
 2. name each changed delimitation, constituent, constructive relation, assembly, supervision, objective, capability, characteristic, or temporal fact and its subject pattern;
-3. try the existing-whole explanation and state whether it preserves the existing whole;
-4. if a new whole is still needed, require B.2 and execute the complete A.1 criterion: name the exact candidate, its constituents, obtaining constructive relations, assembly, reidentification rule, and composition-grounded whole characteristic; show that its actual boundary, interfaces, relevant characteristics, and identity-preservation conditions satisfy at least one applicable governed larger-assembly construction method or rule under which it can remain a constituent; then name its already admitted kind and satisfy the direct kind-specific criterion;
+3. perform B.2:4.2's comparison: retain the whole when a supported explanation meets the use under its identity rule; establish insufficiency from a violated necessary condition or an independently closed comparison; otherwise leave the deciding question unresolved;
+4. when the comparison establishes that the prior whole is insufficient, require B.2 and execute the complete A.1 criterion: designate the candidate as an exact `U.Entity`; recover its constituents, obtaining constructive relations, assembly, reidentification rule, and composition-grounded whole characteristic; show that its actual boundary, interfaces, relevant characteristics, and identity-preservation conditions satisfy at least one applicable governed larger-assembly construction method or rule under which it can remain a constituent; then name its already admitted kind and satisfy the direct kind-specific criterion;
 5. state whether the direct identity rules preserve the same whole or require a new whole for the current subject claim;
-6. only when a specific downstream task must inspect or cite the decision, identify any separate assertion or record, supporting evidence and warrant, G.11 currentness result, and rely, decline, defer, or reopen decision.
+6. only when a specific downstream task must inspect or cite the decision, identify any separate assertion or record, supporting evidence and warrant, G.11 currentness result, and rely, decline, defer, or reopen decision. Follow B.2:4.3–4.4 for conditional assurance and for typed references to an established result; a preliminary, failed, or unresolved evaluation can be retained in the optional assertion without declaring a positive holon result.
 
 Evidence availability, an evaluation value, a record field, and receiving reliance neither construct the candidate nor decide whether the existing whole continues or a new whole must be identified. If the candidate, a required constructive fact, or the larger-assembly compatibility condition lacks a defining rule or needed grounds, stop and name that gap.
 
@@ -43767,7 +43796,7 @@ After B.2 leaves a whole-reidentification question open, continue with the same 
 
 #### B.2.2:4.1 - Reuse The B.2 Candidate And Complete System Recognition
 
-Keep B.2's one `resultHolonRef` for the exact candidate new whole and its one `resultHolonKindRef`, which here resolves to the already admitted `U.System` kind. The references may appear in B.2's optional `HolonReidentificationRecord` when a receiving use needs a durable account; B.2.2 adds no second record.
+Start with B.2's candidate designated as an exact `U.Entity`, proposed for the already admitted `U.System` kind. After the recognition tests below establish the result, use B.2's one `resultHolonRef` for that individual and its one `resultHolonKindRef` resolving to `U.System`. The references may appear in B.2's optional `HolonReidentificationRecord` when a receiving use needs a durable account; B.2.2 adds no second record. Preliminary, failed, and unresolved evaluations follow B.2:4.4.
 
 Before calling the candidate a system result:
 
@@ -43793,7 +43822,7 @@ When the candidate is recognized as `U.System`, state every changed result-syste
 - evidence and assurance through `A.10`, `B.3`, and `B.3.5`;
 - temporal and dynamics claims through `C.27`, `A.19`, and the direct temporal patterns.
 
-Do not reuse old component evidence as if it automatically covered the proposed new whole after recognition under `U.System`. Carry an unchanged component claim only through its exact continuing relation; establish each changed result-system fact under its subject pattern and support the associated claim through a separate evidence or assurance relation.
+Do not reuse old component evidence as if it automatically covered the proposed new whole after recognition under `U.System`. Carry an unchanged component claim only through its exact continuing relation; establish each changed result-system fact under its subject pattern. Where evidence is relied on, recover its relation to the result claim. Apply B.3 for a named assurance use or binding requirement as in B.2:4.3; reuse existing support when it is adequate for that claim and use.
 
 #### B.2.2:4.3 - System Trigger Interpretation
 
@@ -43942,7 +43971,7 @@ Recognizing the candidate requires actual construction and acting eligibility un
 
 Use this pattern when B.2 has identified one exact candidate new whole and that same individual must be recognized under the already admitted `U.Episteme` kind: a theory, model family, standard, doctrine, specification body, research programme, field-level knowledge body, or other claim-bearing non-agentive holon.
 
-Use `B.2` first to decide whether whole reidentification is current and to identify the one candidate new whole. Use `B.2.3` only when its `resultHolonKindRef` resolves to `U.Episteme`.
+Use `B.2` first to decide whether whole reidentification is current and to identify the one candidate new whole. Use `B.2.3` when that candidate is to be tested under `U.Episteme`. For a first constitution or recognition without an established prior whole, use A.1 and C.2.1 as explained in B.2:4.
 
 **First useful move.** For B.2's exact candidate, identify one `U.ClaimGraph`, one exact EntityOfConcern, and one effective `U.ReferenceScheme`, then test whether their `EpistemeConstitutionRelation` obtains under C.2.1. Keep grounding, viewpoint, view, publication, source use, representation, evidence, and assurance in their neighboring direct relations.
 
@@ -43964,7 +43993,7 @@ A collection does not become a theory merely because its items are stored togeth
 
 A group of papers, models, datasets, design notes, forecasts, standards, or local doctrines may remain a collection. B.2.3 becomes current only when B.2's exact candidate new whole can be constructively recognized under A.1 and the current C.2.1 constitution criterion identifies that same individual as one claim-bearing episteme.
 
-B.2.3 introduces no special episteme result object. It retains B.2's one `resultHolonRef` and `resultHolonKindRef`, then requires C.2.1 for episteme constitution and each current neighboring relation's own subject pattern.
+B.2.3 introduces no special episteme result object. It tests B.2's candidate under A.1 and C.2.1, then retains B.2's one `resultHolonRef` and `resultHolonKindRef` for the established result. Each current neighboring relation keeps its own subject pattern.
 
 ### B.2.3:2 - Problem
 
@@ -43984,7 +44013,7 @@ Confusing the episteme with its collection, representation, or publication can p
 | Synthesis vs aggregation | A new episteme whole can integrate claims, but many collections remain indexes, reviews, or portfolios. |
 | Episteme identity vs publication form | The episteme may be published in many forms; no publication form is the episteme by appearance. |
 | Claim organization vs agency | An episteme can organize claims and guide use, but systems perform work with or on it. |
-| Constituent evidence vs result assurance | Evidence for parts may bear on the result, but the result episteme needs its own claim and assurance relations. |
+| Constituent evidence vs result assurance | Evidence for parts may bear on the result. When assurance is required for a result claim, test whether that support applies to the claim and its receiving use. |
 | Source mnemonic vs current ontology | Short labels can aid recognition while hiding whether the current question concerns B.2 whole reidentification, C.2.1 constitution, A.6 morphing, E.17 publication, or source use. |
 
 ### B.2.3:4 - Solution
@@ -43993,18 +44022,18 @@ Use B.2.3 as the `U.Episteme` specialization of B.2. Reuse its existing whole, c
 
 #### B.2.3:4.1 - Reuse The B.2 Candidate And Complete Episteme Recognition
 
-Keep B.2's one `resultHolonRef` for the candidate and its one `resultHolonKindRef`, which here resolves to the already admitted `U.Episteme` kind. Execute the complete A.1 criterion over that candidate, including the larger-assembly applicability and compatibility condition. Then apply C.2.1 to the same individual:
+Start with B.2's candidate designated as an exact `U.Entity`, proposed for the already admitted `U.Episteme` kind. Execute the complete A.1 criterion over that candidate, including the larger-assembly applicability and compatibility condition. Apply C.2.1 to the same individual:
 
 1. identify its exact claim content as one `U.ClaimGraph`;
 2. identify the exact independently governed `U.Entity` that those claims concern;
 3. identify the effective `U.ReferenceScheme` under which the claims are read about that entity; and
 4. test whether the direct `EpistemeConstitutionRelation` among those participants obtains and yields one interpretable claim-bearing whole.
 
-The candidate and its constitution relation are distinct, even though C.2.1 reidentifies them from the same participant triple. A card, tuple, repository, publication set, graph representation, or filled reference does not make the relation obtain. If A.1 or C.2.1 fails, do not identify the candidate as the episteme result; if a required dependency cannot be evaluated, return `unknown`.
+The candidate and its constitution relation are distinct, even though C.2.1 reidentifies them from the same participant triple. A card, tuple, repository, publication set, graph representation, or filled reference does not make the relation obtain. If A.1 or C.2.1 fails, do not identify the candidate as the episteme result; if a required dependency cannot be evaluated, return `unknown`. For an established episteme result, B.2's `resultHolonRef` designates that individual and `resultHolonKindRef` resolves to `U.Episteme`. Preserve a preliminary or unresolved judgment in an optional C.2.1 assertion only when a receiving use needs it; B.2:4.4 governs that distinction.
 
 #### B.2.3:4.2 - Keep Constitution And Neighboring Relations Separate
 
-The exact ClaimGraph, EntityOfConcern, and effective ReferenceScheme are the three participants of C.2.1's `EpistemeConstitutionRelation`. That constitution relation does not by itself identify A.1 constituents or constructive part relations. When A.1 requires those facts, recover them from an exact direct episteme-part or claim-composition pattern. The EntityOfConcern remains an independently governed entity related through aboutness and reference. Keep all other current questions in their direct relations:
+The exact ClaimGraph, EntityOfConcern, and effective ReferenceScheme are the three participants of C.2.1's `EpistemeConstitutionRelation`. C.2.1:4.1 identifies the ClaimGraph and ReferenceScheme as epistemic constituents of the interpretable claim-bearing whole. Establish that constitution for the candidate, and recover any further claimed part or composition relation under its direct pattern. The EntityOfConcern remains an independently governed entity related through aboutness and reference. Keep all other current questions in their direct relations:
 
 - empirical grounding uses `EpistemeEmpiricalGroundingRelation` only when designated empirical claims have current claim-to-world mappings involving the exact grounding holon;
 - viewpoint selection for a describing use follows `E.10.D2`; `U.View` recognition requires `E.17.0` conformance of the exact episteme to an exact viewpoint;
@@ -44022,7 +44051,7 @@ When a receiving use has materialized B.2's optional `MHTTriggerProfile`, interp
 | --- | --- | --- |
 | Delimitation change | The knowledge body now has a stable EntityOfConcern, scope, reference scheme, and claim scope. | `C.2.1`, `A.7`, source-use patterns |
 | Objective or evaluation change | The result episteme contains an answer or evaluation claim for a question that the collection did not answer as one claim-bearing whole. | `C.2.1`, `C.16`, `E.21` or relevant evaluation pattern |
-| Supervision or coordination change | Principles, axioms, invariants, reference schemes, or claim-graph constraints organize how constituent claims are interpreted. | `C.2.1`, `A.6.0`, `A.6.1`, `C.29` when formal lens is current |
+| Supervision or coordination change | Recover an actual supervision or coordination relation under its defining pattern. Principles, axioms, invariants, reference schemes, and claim-graph constraints instead organize claim interpretation; inspect that change as a constitution or claim-composition claim rather than filling a relation-occurrence field with it. | `C.2.1`, `A.6.0`, `A.6.1`, `C.29` when formal lens is current |
 | Capability or closure claim | The candidate episteme supports a new explanatory, predictive, specification, or coordination use; evidence for that claim remains separate. | `C.2.1`, `C.16`, `A.10` for evidence use, and the pattern for that use |
 | Agency threshold | The episteme remains non-agentive. For an agency-characteristic claim, recover the exact System, characteristic predicate, scope, and window and test the characteristic independently; that characteristic claim does not require an assignment. A precise agency claim requires the separate A.13 core. If dated Work is also claimed, recover each exact performer through A.13 and let A.15.1 independently admit the Work. Add F.6 only when the receiving claim expressly consumes precise assignment-bound attribution; missing or failed F.6 leaves the Work intact. | `A.12`, `A.2.1`, `A.13`, `A.19`, `C.16`, `A.15.1`, `F.6` |
 | Temporal consolidation | A chronology or source-currentness change prompts inspection of the knowledge body. Test any changed ClaimGraph, EntityOfConcern or effective ReferenceScheme under C.2.1; currentness alone changes none of those identity values. | `C.2.1`, `C.27`, `G.11`, `E.17`, and source-use patterns |
@@ -44038,16 +44067,51 @@ Recognition of an episteme result establishes neither agency, publication author
 
 #### B.2.3:5.1 - Reliability Doctrine
 
-Before MHT, teams have local runbooks, incident reports, dashboards, and reliability definitions. They may be useful, but they are not yet one episteme.
+Reliability work may begin with local runbooks, incident reports, dashboards, and definitions that remain a collection. A first doctrine constitution requires A.1 and C.2.1; the collection supplies no prior holon merely by being named. The following constructed case instead starts with an already recognized episteme and asks whether it can support a stronger deployment claim.
 
-After MHT, the exact candidate may be a reliability doctrine when it passes A.1 and its ClaimGraph, EntityOfConcern, and effective ReferenceScheme stand in an obtaining C.2.1 constitution relation. Add empirical grounding to operating services, handbook publication, and source-use relations for standards or training materials only when the receiving use needs them.
+**Supplied setting and receiving need.** The example stipulates a modeled deployment `S = Relay-S/D17`, independently identified by its deployment configuration, and a fixed nonempty set of requests. Use classical two-valued logic. `Ack(r)` means that D17 emits an acknowledgement for request `r`; `PrimaryStored(r)` means its primary store holds that request's payload when the acknowledgement is emitted. The already recognized episteme `E0 = <G0, S, R0>` has a ClaimGraph containing the sole premise:
 
-- **Candidate new whole:** the reliability doctrine named by B.2.
-- **A.1 basis:** exact constituents and constructive relations established by an obtaining episteme-part or claim-composition predicate, a governed assembly and reidentification rule, a composition-grounded claim-bearing characteristic, and compatibility with an applicable larger knowledge-body construction rule.
-- **C.2.1 constitution:** the doctrine's exact ClaimGraph states its principles and definitions; its EntityOfConcern is user-visible service harm and reliability; its effective ReferenceScheme supplies the reliability designations and interpretation rules.
-- **Neighboring relations:** empirical grounding to operating services, handbook publication, source use for standards and training materials, and evidence or assurance are added only for the receiving use and do not identify the doctrine.
+```text
+P: for every request r, Ack(r) implies PrimaryStored(r).
+```
 
-Systems use and cite the doctrine, use it in training, and let its claims guide their work; any relevant local system-role kind and assignment remain separate claims.
+`R0` is the complete scheme interpreting this graph, with those request, acknowledgement, and primary-storage designations. The receiving work now needs one episteme whose own stated premises support a derivation of:
+
+```text
+Q: for every request r, Ack(r) implies
+   (PrimaryStored(r) and ReplicaStored(r)).
+```
+
+Here `ReplicaStored(r)` means the replica holds the same payload at acknowledgement time. Q concerns the deployment S. The required new object, if established, is an episteme carrying and supporting Q.
+
+**Compare with E0.** In the comparison vocabulary, retain all R0 meanings and add `ReplicaStored`. Set `Ack(r*) = true`, `PrimaryStored(r*) = true`, and `ReplicaStored(r*) = false` for one request, with `Ack = false` for every other request. This valuation satisfies P and falsifies Q, so G0's stated premise does not entail Q. To obtain the required derivation, supply the additional premise:
+
+```text
+T: for every request r, Ack(r) implies ReplicaStored(r).
+```
+
+T is a stipulated premise of this example, not a reliability fact proved about an operating service. Let G1 contain P, T, Q, and the inference deriving Q from P and T by conjunction introduction under the common antecedent. Let R1 retain R0's meanings and add the replica-storage designation. The candidate is `E1 = <G1, S, R1>`.
+
+Nonentailment alone would not establish a new identity. Here C.2.1's declared identity discriminators are the exact ClaimGraph, EntityOfConcern, and effective ReferenceScheme. Keeping E0 requires retaining G0 and R0. Adding the premise, inference, and effective designation needed for this use changes both G and R, so the result cannot be E0 under that identity rule. This establishes `insufficient` for E0 and this receiving use. E0 still exists and supports P; a different layout or publication of its unchanged triple would leave it E0.
+
+**Recognize the candidate.** The construction supplies each A.1 ground:
+
+| Ground | Supplied fact or demonstrated result |
+| --- | --- |
+| Individuated candidate | E1 is the particular candidate `<G1, S, R1>`. |
+| Constituents | G1 and R1 are its epistemic constituents under C.2.1; S remains the independently identified EntityOfConcern. |
+| Construction | R1 interprets every claim and inference in G1 about S, and G1 organizes P and T as premises for Q. This satisfies the C.2.1 constitution predicate for one interpretable claim-bearing whole. |
+| Identity | C.2.1 reidentifies this episteme by that exact G1/S/R1 triple. A change in one of those values identifies another episteme. |
+| Composition-grounded characteristic | G1 supplies the inference organization and R1 its interpretation about S; together they yield an interpretable derivation of Q. P alone and T alone each leave one of Q's conjuncts unestablished. |
+| Compatibility with a larger assembly | The argument construction below incorporates E1 unchanged and uses Q in a further derivation. |
+
+For the last ground, supply a local argument-assembly rule: retain an interpreted argument as an unchanged constituent, preserve its graph and interpretation, and join its conclusion to an additional compatible premise by a named inference. Construct `E2 = <G2, S, R2>`. G2 contains G1 as an unchanged subargument and adds the supplied lemma `L: (PrimaryStored(r) and ReplicaStored(r)) implies Recoverable(r)` for each request. R2 retains R1 as the fixed local scheme for that subargument and adds the meaning of `Recoverable(r)`: the modeled recovery method can read back r's payload at the stated time. Under the assumption Ack(r), Q gives both storage conditions and L gives Recoverable(r) by modus ponens; discharging the assumption yields `Ack(r) implies Recoverable(r)`. Under this construction rule, E1 is a constituent of E2 with its graph, local scheme, subject, and identity preserved.
+
+E1 therefore satisfies the displayed A.1 grounds and C.2.1 constitution and meets the receiving need. If later work needs a reidentification record, `resultHolonRef` names E1 and `resultHolonKindRef` names `U.Episteme`. The record and any classification assertion concern E1; Q still concerns S. The logical construction establishes the conditional derivation, not the truth of P, T, or L for a real deployment. A use that must rely on those service claims needs their actual grounds and any assurance required under B.3.
+
+**Change the interpretation condition.** Suppose the supplied candidate uses G1 with the complete R0, whose declared vocabulary has no interpretation of `ReplicaStored`. The proposed `<G1, S, R0>` fails constitution: its scheme cannot interpret the whole graph. Supply a scheme that does interpret it and identify the resulting episteme. By contrast, if R1 exists but is unavailable to the evaluator, evaluation is `unknown`; recover the scheme or withhold the classification. Neither result erases E0 or changes the identity of an already constituted E1. A failed or unresolved judgment is not a typed positive result in the optional record.
+
+For a larger reliability doctrine, the same comparison uses its actual claims about user-visible service harm and reliability, its independently identified subject, and its effective designations. Add empirical grounding to operating services, handbook publication, and source use for standards or training materials only when the receiving use needs them. Systems use and cite the doctrine, use it in training, and let its claims guide their work; any relevant local system-role kind and assignment remain separate claims.
 
 #### B.2.3:5.2 - Model Family Becomes Theory
 
@@ -44069,7 +44133,7 @@ The standard is not the committee, the PDF, or the Work of enforcement. The comm
 | Publication as episteme | A publication form or carrier is treated as the claim-bearing episteme. | Keep the episteme, publication form, and carrier distinct under C.2.1, E.17, E.24.PUB, and source-use patterns. |
 | Episteme agency | A theory, standard, or doctrine is described as performing Work or enforcement. | Recover every exact acting System through A.13 and let A.15.1 independently admit the Work. Add F.6 only when the receiving account expressly consumes precise assignment-bound attribution; a missing or failed attribution does not demote the Work. |
 | Morphing as MHT | View, translation, coarsening, or retargeting is called a new episteme whole. | Use A.6 episteme-morphism patterns unless B.2 whole reidentification remains current. |
-| Source trust transfer | Trust in constituent sources becomes assurance for the result episteme. | Re-evaluate assurance and source-use relations for the result episteme; retain only those that still apply to its exact claims. |
+| Source trust transfer | Trust in constituent sources becomes assurance for the result episteme. | For that assurance use, re-evaluate the support and source-use relations against the result claim; retain only those that still apply. |
 
 ### B.2.3:6 - Conformance Checklist
 
@@ -44091,7 +44155,7 @@ The standard is not the committee, the PDF, or the Work of enforcement. The comm
 | PDF as episteme | A PDF carrier or its publication form is used as the theory itself. | Use publication patterns for the PDF and keep B.2's `resultHolonRef` for the independently constituted episteme. |
 | Doctrine receives agency | "The standard enforces..." or "the theory decides..." | For a literal claim of dated enforcement or decision Work, recover its actual performer through A.13 and admit the Work independently under A.15.1; add F.6 only when the use consumes precise assignment-bound attribution. Otherwise use F.19 to retain ordinary guidance wording when its capable user and action are recoverable. |
 | Morphism as MHT | A view, translation, coarsening, or retargeting is called a new episteme whole. | Use A.6.2, A.6.3, A.6.4, or A.6.3.CSC unless B.2 whole reidentification is current. |
-| Synthesis as high trust | A new theory inherits trust because its sources were reliable. | Rebuild assurance for the result episteme through A.10, B.3, B.3.5, C.2.1, and source-use patterns. |
+| Synthesis as high trust | A new theory inherits trust because its sources were reliable. | When this assurance claim is needed, use A.10, B.3, B.3.5, C.2.1, and source-use patterns to assess the result claim; reuse adequate existing support rather than inheriting assurance from the sources. |
 
 ### B.2.3:8 - Consequences
 
@@ -44216,7 +44280,7 @@ Before applying B.2, test whether the exact facts are already explained under a 
 
 #### B.2.4:4.3 - Existing-Whole Explanation
 
-Perform B.2's ordinary existing-whole comparison before claiming whole reidentification. Materialize its optional `ExistingWholeExplanationResult` only when another use must inspect or cite the outcome.
+Perform B.2:4.2's ordinary existing-whole comparison for the named receiving claim or use and the established whole's identity rule. Distinguish a supported explanation, established insufficiency, and an unresolved comparison. Materialize its optional `ExistingWholeExplanationResult` only when another use must inspect or cite the outcome. If no prior holon has been established, use B.2:4's first-constitution or recognition return to A.1 and the applicable subject pattern.
 
 Subject-pattern explanations that often stop B.2.4 include:
 
@@ -44241,7 +44305,7 @@ Use B.2 when the exact direct facts show that the existing whole cannot carry th
 - exact coordination and work facts concerning a team, a toolchain, and the enacted Methods from a method family make a result-system candidate live; or
 - a candidate episteme has exact constitution and explanatory-use facts that leave an episteme whole-reidentification question.
 
-Use B.2 to compare the existing whole with one candidate and, when needed, record the result. The subject patterns define and test the contributing facts; evidence and measurement support the associated claims.
+Use B.2 to compare the existing whole with one candidate. When needed, preserve the comparison in its optional result episteme or an established new whole in its reidentification record. An unresolved comparison requires its missing grounds; it does not establish that a new whole is necessary. B.2:4.4 separates the candidate designation and optional evaluation from typed result references. The subject patterns define and test the contributing facts; evidence and measurement support the associated claims.
 
 ### B.2.4:5 - Archetypal Grounding (Worked Cases)
 
@@ -50568,7 +50632,7 @@ For example, two necessary independent conditions with probabilities 0.9 each ha
 
 #### C.2:4.4 - What **must not** be conflated (normative guards)
 
-* **Representation structure ≠ carrier.** Files, PDFs, or repositories are **carriers** outside the episteme; they never count as parts of `U.Episteme` (**see C.2.1 EP‑1; CC‑EPI‑2/3**).
+* **Representation structure ≠ carrier.** Files, PDFs, or repositories are **carriers** outside the episteme; they never count as parts of `U.Episteme` (**see C.2.1:4.1–4.2, :4.6, and :11 item 11**).
 * **Work and guidance.** **Systems** perform Work. Epistemes can guide or constrain that Work through their claim content; keep the guiding content distinct from its performer.
 * **CL is not a score.** It is a **qualitative ladder** of preservation classes; do not average it.
 
@@ -50828,9 +50892,9 @@ When a ClaimGraph declares no stable intrinsic identity for the needed claim, ci
 
 **Plain reading:** these designated empirical claims of this episteme are inspectable through exact observation, intervention, measurement, or test relations involving this grounding holon.
 
-C.2.1 uses **explicitly designated partial coverage**. For one candidate grounding occurrence, select one exact nonempty claim subgraph `C` from the episteme's already constitutive ClaimGraph. The occurrence says that every empirical claim in `C` is grounded; it says nothing about empirical claims outside `C`. To claim full empirical grounding for the episteme, `C` must contain every empirical claim in that episteme. Purely formal epistemes need no grounding occurrence merely to fill a record.
+C.2.1 uses **explicitly designated partial coverage**. For one candidate grounding occurrence, select one exact claim subgraph `C` from the episteme's already constitutive ClaimGraph. `C` may include formal claims but must contain at least one empirical claim. The occurrence says that every empirical claim in `C` is grounded; it says nothing about empirical claims outside `C`. To claim full empirical grounding for the episteme, `C` must contain every empirical claim in that episteme. Purely formal epistemes or selected claim subgraphs fall outside this relation's applicability; their formal derivation and any assurance remain under their applicable rules.
 
-For every claim in `C`, state a concrete claim-to-world mapping under the episteme's effective ReferenceScheme to independently governed direct observation, intervention, measurement, or test relation occurrences involving the exact grounding holon. The mapping names what observation, intervention outcome, measured characteristic, or test result bears on that claim. One measurement involving the same holon cannot ground an unrelated claim.
+For every empirical claim in `C`, state a concrete claim-to-world mapping under the episteme's effective ReferenceScheme to independently governed direct observation, intervention, measurement, or test relation occurrences involving the exact grounding holon. The mapping names what observation, intervention outcome, measured characteristic, or test result bears on that claim. One measurement involving the same holon cannot ground an unrelated claim.
 
 The selected claim subgraph is by-value predicate content drawn from the episteme's ClaimGraph; it is not a third world-side relation participant, another episteme constituent, or a new U-kind. An assertion about grounding designates that subgraph and the claim-to-world mappings but creates none of the mapped occurrences.
 
@@ -50841,7 +50905,7 @@ Applying the shared declaration rule in 4.2.1, `EpistemeEmpiricalGroundingRelati
 | `GroundedEpistemeSlot` | episteme containing the exact covered claim subgraph | `U.Episteme` | `U.EpistemeRef` |
 | `GroundingHolonSlot` | exact holon involved in the mapped observation, intervention, measurement, or test relations | `U.Holon` | `U.HolonRef` |
 
-`EpistemeEmpiricalGroundingRelation` over participants `(E,H)`, with `covered=C`, obtains exactly while every empirical claim in exact covered claim subgraph `C` has a current claim-to-world mapping to the required independently governed direct observation, intervention, measurement, or test relation structure involving `H` under E's effective ReferenceScheme. Every mapped relation required by that coverage must obtain. An exact direct evaluation relation counts as part of the empirical test only when the mapping states its concrete use in that test; otherwise evaluation and evidence can support or challenge an assertion about grounding but are not its world-side base.
+`EpistemeEmpiricalGroundingRelation` over participants `(E,H)`, with `covered=C`, obtains exactly while exact covered claim subgraph `C` contains at least one empirical claim and every empirical claim in `C` has a current claim-to-world mapping to the required independently governed direct observation, intervention, measurement, or test relation structure involving `H` under E's effective ReferenceScheme. Every mapped relation required by that coverage must obtain. An exact direct evaluation relation counts as part of the empirical test only when the mapping states its concrete use in that test; otherwise evaluation and evidence can support or challenge an assertion about grounding but are not its world-side base.
 
 One occurrence is identified by `<episteme, exact covered claim subgraph, grounding holon, maximal continuous interval during which the complete coverage predicate is true>`. Closing the open end of that interval refines the description of the same occurrence. Demonstrated failure of any required mapping followed by restored complete coverage yields another occurrence. Evidence or evaluation availability alone establishes neither obtaining nor nonobtaining and proves no temporal gap. If the complete coverage predicate is known to obtain, grounding continues without a stored report or work log. If it is known not to obtain, the relation does not obtain. If its truth is unknown, an affirmative grounding assertion has unresolved reliance for the declared use; that posture is not a third world-side grounding state.
 
@@ -50935,7 +50999,9 @@ Description and specification use remain distinct. A Description episteme is adm
 
 #### C.2.1:4.9 - Hand episteme transformations to their subject patterns
 
-**Shared identity-inception boundary.** Work or transformation can explain how an entity came about, but C.2.1 by itself establishes neither when that entity first existed nor that the work caused its inception. Open this boundary only when a current receiving claim asks whether a new entity began. Then use the subject's direct inception rule: its pattern defines the predicate and identity rule, and current case facts must satisfy them. If no such rule is recoverable, return one `missing-governor` blocker naming the entity, work and change facts, required inception predicate, and receiving use. When the current question is only changed episteme identity, form, representation, view, or publication, do not open this boundary.
+**Shared identity-inception boundary.** Work or transformation can explain how an entity came about, but C.2.1 by itself establishes neither when that entity first existed nor that the work caused its inception. Open this boundary only when a current receiving claim asks whether a new entity began. Then use the subject's direct inception rule: its pattern defines the predicate and identity rule, and current case facts must satisfy them. If no such rule is recoverable, return one `missing-governor` blocker naming the entity or candidate basis, available case facts, required inception predicate, and receiving use. When the current question is only changed episteme identity, form, representation, view, or publication, do not open this boundary.
+
+When inception is attributed to Work, apply **A.15.PROD:4.5**. Begin with the subject's exact `productIdentitySpecification` and its named applicability predicate or filled local claim for the candidate basis, subject context, and boundary. Then recover actual Work effects and the declared Work-to-change and change-to-identity bases, locate the earliest satisfying `inceptionBoundary`, and identify exact `identityClosingWork`. Designate the resulting entity only on the after-side of that boundary and retain the exact specification and applicability basis used for the claim. A missing required basis stops the positive claim; missing recoverable Work granularity for `identityClosingWork` returns that section's work-granularity blocker.
 
 A.6.2-A.6.4 define episteme-to-episteme morphing, source-to-receiving viewing construction, and retargeting. Identify every source and receiving episteme independently under C.2.1 before testing the exact transformation relation. Each transformation pattern states which identity discriminator is preserved or changed and names the exact correspondence, reinterpretation, or retargeting relation on which it relies. When a possible Bridge between exact F.17 cells is current, use F.9 to test whether that relation obtains. If the morphism relies on that Bridge for a proposed use, state a separate C.2.1 assertion with the Bridge as EntityOfConcern and `<u,d,r,t>` plus polarity in its ClaimGraph, then use A.10 for ordinary evidence reliance or B.3 only when an actual named assurance claim is current; none of those facts makes the morphism application occur. Categorical function, mapping, or tuple notation creates no direct relation occurrence.
 
@@ -50947,7 +51013,7 @@ For an A.6.3 source-to-receiving viewing construction, the two identified episte
 | --- | --- | --- |
 | `U.Episteme` | one knowledge holon with identity `<claim content, EntityOfConcern, effective ReferenceScheme>` | C.2.1 |
 | `EpistemeConstitutionRelation` occurrence | the obtaining direct relation among the exact claim graph, exact EntityOfConcern, and effective reference scheme that constructively identifies one episteme | C.2.1 and `A.6.REL` |
-| `EpistemeEmpiricalGroundingRelation` occurrence | the direct relation between one identified episteme and one exact grounding holon for one exact nonempty covered claim subgraph, while every empirical claim in that subgraph has a current mapping to the required observation, intervention, measurement, or test relations involving that holon; evaluation or evidence supports an assertion unless explicitly mapped as part of the empirical test | C.2.1 and the governing observation, intervention, measurement, test, evaluation, or evidence patterns |
+| `EpistemeEmpiricalGroundingRelation` occurrence | the direct relation between one identified episteme and one exact grounding holon for one exact covered claim subgraph containing at least one empirical claim, while every empirical claim in that subgraph has a current mapping to the required observation, intervention, measurement, or test relations involving that holon; evaluation or evidence supports an assertion unless explicitly mapped as part of the empirical test | C.2.1 and the governing observation, intervention, measurement, test, evaluation, or evidence patterns |
 | classification assertion episteme needed as a separate claim-bearing object | a claim-bearing episteme whose EntityOfConcern is the exact candidate and whose claim content states a classification judgment under the exact governing criterion: `A.1` for an admitted holon kind or `C.3.2` for a local kind | C.2.1 for assertion identity; the pattern governing the criterion for the judgment; `E.24.UK` only for public U-kind admission |
 | `EpistemeEditionRelation` occurrence | the direct historical continuation relation between one exact earlier episteme and one exact later episteme; exact source use, the applicable continuation policy or rule, and the preserved and deliberately changed claim, EntityOfConcern, and scheme features decide whether it obtains; Work, Method, provenance, and change facts supply case facts only; apply the shared 4.9 inception boundary only when that separate fact is consumed | C.2.1, coordinated with `C.2.P`, A.3.1, A.3.4, and C.2.1:4.9 only for a separately current inception claim |
 | `EpistemeConstitutionRelationSignature`, `EpistemeEmpiricalGroundingRelationSignature`, or `EpistemeEditionRelationSignature` | one C.2.1 declaration episteme whose exact EntityOfConcern is its direct relation kind; the fixed `A.6.0` predicate gives that same individual `U.Signature` membership, and `RelationSignature` is its relation-facing use with complete direct semantics and exact A.6.5 SlotSpecs | C.2.1 for declaration identity, `A.6.0` for membership and reusable vocabulary, and `A.6.5` for SlotSpecs |
@@ -51126,12 +51192,12 @@ Finally, the pattern has a claim-bearing-holon bias. Decodability alone does not
 2. **Direct constitution and case judgment.** `EpistemeConstitutionRelation` has its three identified participants, obtaining predicate, and participant-determined occurrence-identity rule. C.2.1 defines that rule; current case facts satisfy or fail the predicate; an assertion states affirmative or negative polarity; and evaluation or evidence use states reliance only when needed. Designate an occurrence only after positive case facts and the identity rule individuate it.
 3. **Declaration identity and Slot discipline.** Each of the three named relation declarations is first a C.2.1 episteme whose exact EntityOfConcern is its direct relation kind; the fixed `A.6.0` predicate gives that same individual `U.Signature` membership and `RelationSignature` is its relation-facing use. Its complete declaration carries the direct predicate, occurrence identity, applicability, exact A.6.5 SlotSpecs, and only actual dependencies and provided names. Signature-local SlotKinds never become participants, and a one-off assertion needs no signature or manifest.
 4. **Classification discipline.** `A.1` governs recognition under an admitted holon kind, `C.3.2` governs local-kind membership, and `E.24.UK` governs public U-kind admission. A classification assertion needed as a separate claim-bearing object is a C.2.1 episteme about the exact candidate; it states affirmative or negative polarity for the exact classification predicate and keeps supported, refuted, or unresolved reliance separately governed. It neither creates the candidate nor changes the kind's admission.
-5. **Empirical-grounding discipline.** `GroundingHolonSlot` occurs only inside `EpistemeEmpiricalGroundingRelationSignature`. Each occurrence names one exact nonempty covered claim subgraph and maps every empirical claim in it to the required current direct observation, intervention, measurement, or test relations involving the grounding holon. Unlisted claims receive no grounding from that occurrence. One occurrence is reidentified from the episteme, covered claim subgraph, grounding holon, and maximal continuous interval during which the complete coverage predicate is true; demonstrated coverage failure followed by restoration yields another occurrence. Evaluation counts in the empirical base only when its exact direct relation and use in the test are stated; otherwise evaluation and evidence support or challenge an assertion. Availability or loss of a report, store, or Work log alone neither makes nor unmakes grounding.
+5. **Empirical-grounding discipline.** `GroundingHolonSlot` occurs only inside `EpistemeEmpiricalGroundingRelationSignature`. Each occurrence names one exact covered claim subgraph containing at least one empirical claim and maps every empirical claim in it to the required current direct observation, intervention, measurement, or test relations involving the grounding holon. Unlisted claims receive no grounding from that occurrence. One occurrence is reidentified from the episteme, covered claim subgraph, grounding holon, and maximal continuous interval during which the complete coverage predicate is true; demonstrated coverage failure followed by restoration yields another occurrence. Evaluation counts in the empirical base only when its exact direct relation and use in the test are stated; otherwise evaluation and evidence support or challenge an assertion. Availability or loss of a report, store, or Work log alone neither makes nor unmakes grounding.
 6. **Edition discipline.** `EpistemeEditionRelation` has exactly the earlier and later epistemes as participants and is acyclic in that direction. Positive continuity requires exact source use, an applicable edition policy or rule, and preserved and deliberately changed claim, EntityOfConcern, and scheme features satisfying that rule. Fork, translation, retargeting, and independent reconstruction are explicit failure branches. Work, Method, provenance, and change facts supply case facts but no label makes continuity true.
 7. **View and neighboring-relation discipline.** C.2.1 identifies epistemes; E.17.0 alone tests the conformance of fixed E to fixed P and the resulting same-individual `U.View` membership. One named describing use may select one exact viewpoint P, but that selection creates no context value, selects no view, and remains separate from A.6.3 source-to-receiving construction. Several views remain a plurality. Recover a C.13 collection only when the use depends on that plurality as a collection, and an A.22 structure only when it depends on their organization. Cross-view claims use the pattern for their direct subject relation or return an exact blocker naming the participants, required predicate, use, and missing defining or constraining pattern. Use E.17 for view or publication form and E.24.PUB for publication occurrence, form, and carrier, not for view membership or correspondence.
 8. **Description boundary.** Recover the EntityOfConcern and description episteme under their C.2.1 identities. Different constitution triples identify different epistemes. In permitted self-description, the EntityOfConcern designation resolves to that same episteme; self-reference supplies no assurance by itself.
 9. **Specification use.** Specification force is admitted only when the E.10.D2 conditions obtain: checkable claims and a named harness or validation relation. A selected viewpoint is preserved or updated only for the named describing use whose reliance depends on it. Naming and appearance do not grant specification force.
-10. **Agency, work-result, and identity-inception boundary.** Only systems perform Work. `A.6.1` declares typed argument and result positions; neither a position nor its binding says when the bound entity first existed. When a current claim asks that question, the subject's direct inception pattern must define the predicate and identity rule, and the exact work and change facts must satisfy them. If no such governor exists, return one `missing-governor` blocker naming the entity, facts, required predicate, and receiving use. Otherwise do not open the inception boundary. No morphism, heading, representation, form, bare A.6.1 `result`, generic work result, or universal production relation supplies that fact.
+10. **Agency, work-result, and identity-inception boundary.** Only systems perform Work. `A.6.1` declares typed argument and result positions; neither a position nor its binding says when the bound entity first existed. When a current claim asks that question, the subject's direct inception pattern must define the predicate and identity rule, and current case facts must satisfy them. When inception is attributed to Work, apply A.15.PROD:4.5 and retain the exact specification and applicability basis, actual effects, earliest satisfying boundary, and `identityClosingWork`; a missing required basis stops that positive claim. If no subject inception governor exists, return one `missing-governor` blocker naming the entity or candidate basis, facts, required predicate, and receiving use. When no first-existence claim is current, do not open the inception boundary. No morphism, heading, representation, form, bare A.6.1 `result`, generic work result, or universal production relation supplies that fact.
 11. **Publication boundary.** Distinguish the episteme from its publication occurrence, form and carrier. A `U.View` is that same episteme classified under E.17.0's conformance condition. Plain `published episteme` states publication participation; a receiving classification need follows C.3.2 and public-kind admission follows E.24.UK.
 12. **Representation boundary.** Tuple components, graph elements, schema fields, and notation tokens remain representation elements. An explicit correspondence may relate one to an independently recovered object without identifying the two or changing the represented direct relation's participants.
 13. **Transformation and Bridge-use boundary.** A morphing, viewing, or retargeting declaration states which C.2.1 identity discriminators are preserved or changed and names the exact correspondence or retargeting relation used. For cross-context sense use, F.9 separately establishes the exact Bridge; one C.2.1 assertion about that Bridge carries `<u,d,r,t>` and polarity; A.10 handles ordinary evidence reliance; B.3 adds a result only when an actual named assurance claim is current; and the direct receiver defines or tests any actual Work, assertion, publication, relation, or operation application. The mathematical morphism performs no work, and none of these objects authorizes another.
@@ -51147,7 +51213,7 @@ Finally, the pattern has a claim-bearing-holon bias. Decodability alone does not
 | Classification as admission relation | A candidate is said to acquire or lose holonhood when a governing FPF pattern or assertion changes. | Apply the `A.1` constructive criterion for an admitted holon kind; let `E.24.UK` govern only admission of that public kind; identify a separate C.2.1 assertion episteme when project review needs the classification claim. |
 | Dependent kind as second identity | `U.MethodDescription`, `U.View`, or another dependent episteme kind is given an extra identity discriminator merely because its direct pattern supplies a membership condition. | Keep the C.2.1 identity of the same episteme individual. Apply the direct pattern only to judge dependent-kind membership; if work changes a C.2.1 discriminator, identify the resulting episteme through that changed discriminator. |
 | Context identifier in episteme identity by habit | A surrounding project or model-use context identifier is treated as identifying every episteme used there. | Keep the shared C.2.1 identity context-independent; add claim scope, viewpoint, or bounded model-use structure only through the direct relation on which the current use depends. |
-| Grounding by evidence presence | Stored evidence or one unrelated measurement is treated as grounding the whole episteme. | Select the exact covered claim subgraph, map every empirical claim in it to its required observation, intervention, measurement, or test relations involving the grounding holon, and test continuity of that complete coverage predicate. Evaluation or evidence supports the grounding assertion unless an exact evaluation relation is explicitly part of the empirical test; availability alone determines no world-side grounding state. |
+| Grounding by evidence presence | Stored evidence or one unrelated measurement is treated as grounding the whole episteme. | Select the exact covered claim subgraph containing at least one empirical claim, map every empirical claim in it to its required observation, intervention, measurement, or test relations involving the grounding holon, and test continuity of that complete coverage predicate. Evaluation or evidence supports the grounding assertion unless an exact evaluation relation is explicitly part of the empirical test; availability alone determines no world-side grounding state. |
 | Edition work as relation participant | Revision Work is inserted into `EpistemeEditionRelation`, so two Work occurrences appear to create two continuities between the same editions. | Keep earlier and later epistemes as the two participants. Use Work, Method, source use, provenance, and change facts only as case facts for the independently stated continuity rule. |
 | Edition by filename or Method label | `v2`, a later timestamp, or a Method named `revision` is taken as continuity. | Recover both episteme identities, exact source use, the applicable continuity rule, its preserved and deliberately changed features, and its fork, translation, retargeting, and reconstruction failures. |
 | Published-episteme kind | Publication participation alone is treated as sufficient admission of a durable episteme kind. | Keep C.2.1 identity and state the publication occurrence. If the receiving use needs classification by participation, apply C.3.2; E.24.UK separately decides whether a durable public kind is needed. |
@@ -52074,7 +52140,7 @@ The current methodological comparison is [Gutierrez, Glymour and Davey Smith, *E
 Start with the smallest row that can change the next action:
 
 - the exact episteme publication being positioned;
-- only the currently relevant facet values or intervals; mark a decision-relevant unknown as `unknown`;
+- only the currently relevant facet values or supported sets of possible values; use intervals where the Scale admits them and mark a decision-relevant unknown as `unknown`;
 - the grounds for those readings;
 - any local threshold used by the named next action and whether the readings meet it, fail it, or leave the result undecided;
 - publication form, face, or carrier only when that distinction changes interpretation, preservation, or the next action.
@@ -52131,7 +52197,7 @@ It is not a second kernel state-space apparatus beside `A.19`. It is the particu
 #### C.2.2a:4.2 - Position reading under `A.19`
 A language-state position is a partial, slot-explicit coordinate claim in the declared language-state `U.CharacteristicSpace`.
 
-Publish each basis-slot reading as a `ValueSet(slot)`, interval, or other admissible set-valued claim. Early seam publications may leave some slots unknown or wide, but that uncertainty must be declared rather than hidden inside one stage word.
+`ValueSet(Scale)` in A.19 is the full Scale domain. Publish each selected slot's reading as one value or as a supported set of remaining possible values within that domain. This set describes incomplete information about the slot's value. Use an interval only where the Scale admits it; state a decision-relevant `unknown` separately when the available information does not determine the needed reading. For anchoring, `{AM.TraceAnchored, AM.OperatorLoop}` can report two remaining possibilities; `AM.Mixed` instead requires identified component modes that both matter substantively (C.2.6:4.3).
 
 `position` here abbreviates these slot-explicit `A.19` coordinate claims.
 
@@ -52193,9 +52259,9 @@ If no Bridge obtains, preserve both local positions. Name the actual comparison 
 Compare the relevant readings with the local threshold named by the next action. Use the result to decide whether to keep the publication where it is, route it through a seam or prompt pattern, open a facet or endpoint question, or stop because a required reading is unknown. The receiving pattern governs the actual route, comparison, or publication decision; the chart row supplies only the position facts that decision uses.
 
 ### C.2.2a:5 - Archetypal Grounding
-**Tell.** One note can have high operator-loop anchoring yet still low closure. Another can be document-mediated and symbol-heavy while still open on route choice. Both notes have positions in one language-state chart, but not on one maturity progression.
+**Tell.** One note can have operator-loop anchoring yet still low closure. Another can be document-mediated and symbol-heavy while still open on route choice. Both notes have positions in one language-state chart, but not on one maturity progression.
 
-**Show (System).** A service disturbance is a system-side phenomenon. The positioned governed `U.Episteme` publication is the alerting episteme published from that disturbance; its position claim may identify a declared observation vocabulary and unit-bearing values, alongside low closure, high operator-loop anchoring, and mixed representation because terse codes and natural-language hints coexist.
+**Show (System).** A service disturbance is a system-side phenomenon. The positioned governed `U.Episteme` publication is the alerting episteme published from that disturbance. In `Pump-alert-21` (:13.2), its position combines declared observation terms and unit-bearing values, `CD1`, `AM.OperatorLoop`, and local/sparse/symbolic readings for the defined indicator code.
 
 **Show (Episteme).** A model-vs-observation discrepancy is a witness-level tension, not the positioned episteme publication itself. Once preserved as a cue pack, the resulting governed `U.Episteme` may be low in articulation, low in closure, trace-anchored, and only partly symbolic even when rendered into prose.
 
@@ -52205,7 +52271,7 @@ The pattern favors separate facet readings over one stage adjective when a decis
 ### C.2.2a:7 - Conformance Checklist
 - `CC-C.2.2a-1` `U.LanguageStateSpace` **SHALL** be treated as the declared language-state chart over `U.CharacteristicSpace`, not as a rival kernel space and not as a disguised `F` progression.
 - `CC-C.2.2a-2` Published positions **SHALL** cite explicit facet subject patterns when those positions matter for movement, routing, or endpoint entry.
-- `CC-C.2.2a-3` Position claims **SHALL** use slot-explicit values, `ValueSet` claims, or intervals; uncertainty **SHALL NOT** be hidden inside stage words such as `ready`, `early`, or `mature`.
+- `CC-C.2.2a-3` Position claims **SHALL** use slot-explicit values, supported sets of remaining possible values, or intervals admitted by the slot's Scale; uncertainty **SHALL NOT** be hidden inside stage words such as `ready`, `early`, or `mature`.
 - `CC-C.2.2a-4` A position claim in the chart **MUST NOT** be conflated with the current ground, witness, publication form (including an MVPK face), or carrier.
 - `CC-C.2.2a-5` Comparison or reuse that depends on distinct local meanings **SHALL** recover the two exact F.17 local senses and test the direct F.9 predicate. Cite a Bridge only when it obtains; keep the bounded-use claim, reliance, and any optional loss note separate. If it does not obtain, keep the local positions distinct and name the missing comparison or translation governor.
 - `CC-C.2.2a-6` Corridor and navigation notes **MUST NOT** be read as relocation of facet, seam, bridge, or downstream subject-pattern semantics into the chart subject-pattern set.
@@ -52253,21 +52319,21 @@ A position claim for a research cue note may state:
 - `F`: the terms needed for the inquiry are defined, while the proposed inferences remain in prose,
 - low articulation explicitness,
 - low closure,
-- strong embodied or trace-based anchoring,
+- `AM.EmbodiedFelt` or `AM.TraceAnchored`, according to the cue's actual anchor,
 - and mixed representation factors.
 
 Keep these readings explicit when testing entry into `A.6.P` or `C.25`; the note should remain upstream while the relevant receiving pattern's entry conditions remain unmet, even if its prose happens to look polished.
 
 #### C.2.2a:13.2 - Routed operator alert note
-A routed operational alert may have:
+Use `Pump-alert-21` from C.2.LS:13.1 to compare the three stated diagnostic alternatives before selecting a check. The alert names Pump P7, its indicated pressure of 70 kPa, the alarm condition `p_indicated(P7,t21) < 90 kPa`, and the contrasting implications of sensor bias, low supply, and an open bypass. Its chart readings are:
 
-- `F`: the alert condition has unit-bearing variables and an explicit threshold predicate,
-- medium articulation,
-- low closure because several responses remain live,
-- high operator-loop anchoring,
-- and mixed symbolic and natural-language representation.
+- `F`: the pressure variables and units are defined, the alarm predicate is explicit, and the question and diagnostic contrasts are expressed in prose;
+- `AE = AE4`: the diagnostic question has the participants, conditions, and bounds needed for this comparison;
+- `CD = CD1`: the three alternatives have explicit contrasts, but none has yet been excluded and no diagnostic route has been selected;
+- `LanguageStateAnchoringMode = AM.OperatorLoop`: the alert is connected to the operator's console acknowledgement and diagnostic-check selection;
+- `RepresentationFactorBundle = {local, sparse, symbolic}` for the alert's indicator-code component only: one of eight named units is active, the fixed decoder gives its report label, and the active fraction `1/8` meets the example's local sparse criterion. C.2.LS:13.1 supplies the unit order, decoder, and criterion.
 
-Keep the live responses explicit in the route-bearing seam publication. Before publishing an endpoint-subject-qualified work record or reliance record, test the applicable downstream pattern's conditions; these chart readings do not decide that result.
+If an accepted reference-gauge reading of 72 kPa for the same sample t21 excludes sensor bias under the stated case rule while the other two alternatives remain, update `CD` to `CD2`. The question remains fully stated and the code, expression properties, and operator-loop connection are unchanged. Keep the live responses explicit in the route-bearing seam publication. Before publishing an endpoint-subject-qualified work record or reliance record, test the applicable downstream pattern's conditions; these chart readings do not decide that result.
 
 #### C.2.2a:13.3 - Viewpoint-bound adequacy note
 A document-mediated adequacy note about an architecture description may state an explicit vocabulary and predicates for its claims, with articulation sufficient for the described comparisons, mid-level closure, document-mediated anchoring and symbolic representation. That position remains within the same language-state chart even though its carrier lane differs from an embodied inquiry cue.
@@ -52704,7 +52770,7 @@ That map does not change this boundary: `C.2.LS` still does not define cue prese
 
 **Show (System).** An operator alert note can have stable alert terms and structure, `AM.OperatorLoop` anchoring and low closure.
 
-**Show (Episteme).** An inquiry note can be low articulation yet already tightly anchored to exemplars and traces.
+**Show (Episteme).** An inquiry note can be low articulation yet anchored to exemplars and traces.
 
 ### C.2.LS:6 - Bias-Annotation
 Making selected facet readings explicit costs more than using one stage adjective. It lets the receiving reader test the actual threshold; retain the ordinary wording or existing reading when that already serves the use.
@@ -52749,15 +52815,33 @@ The profile brings together the references needed to interpret facet readings an
 ### C.2.LS:13 - Worked Examples and Composition Notes
 
 #### C.2.LS:13.1 - Operator-facing early alert
-A console alert note may be published with a language-state facet profile such as:
+In this constructed case, the console publishes `Pump-alert-21` for an operator comparing diagnostic alternatives before selecting a check:
 
-- its formality assessment states that the alert terms and structure are stable while some acceptance conditions remain informal;
-- `AE = AE2` because candidate anchors are visible but the direct semantic branch or its required structure remains partial;
-- `CD = CD1` because several routes remain live;
-- `LanguageStateAnchoringMode = AM.OperatorLoop` because the note is directly anchored to operator intervention/work;
-- `RepresentationFactorBundle = {local, sparse, mixed-symbolic}` because alert text and compact codes coexist.
+> At sample t21, Pump P7 indicates 70 kPa, below its alarm threshold of 90 kPa: `p_indicated(P7,t21) < 90 kPa`. Which of sensor bias, low supply, or an open bypass explains this indication? Keep these three alternatives live until an observation distinguishes them.
 
-This example shows why no one facet can replace the others. The note is not `simply early`; it is early in a specific, decomposable way.
+For this comparison, the three candidates have these stated implications:
+
+| Candidate | Distinguishing implication in this case |
+|---|---|
+| Sensor bias | An accepted independent reference gauge would read at least 90 kPa despite the indicated 70 kPa. |
+| Low supply | The reference gauge would read below 90 kPa and the upstream pressure below 80 kPa. |
+| Open bypass | The reference gauge would read below 90 kPa and the bypass would be open. |
+
+Initially no reference-gauge reading, upstream-pressure reading, or bypass-state observation is available. The alert makes the contrasts explicit without excluding a candidate or selecting a diagnostic route. Its receiving use is comparison within this stated candidate field. The console connects the alert to the operator's acknowledgement and selection of the next diagnostic check.
+
+The alert's code component uses eight indicator units in this order: `NORMAL`, `LOW_PRESSURE`, `HIGH_PRESSURE`, `LOW_FLOW`, `HIGH_TEMPERATURE`, `VIBRATION`, `SENSOR_FAULT`, `LINK_LOSS`. Exactly one unit is active at a time. The fixed decoder assigns the active unit its corresponding report label; `LOW_PRESSURE` denotes the alarm predicate above. Thus `[0,1,0,0,0,0,0,0]` denotes this low-pressure alert. For this code comparison, the local criterion calls an active-unit fraction at most `1/4` sparse and a greater fraction dense.
+
+The profile states:
+
+- its formality assessment covers the displayed alert condition and question: the pressure variables and units are defined, the threshold predicate is explicit, and the question and diagnostic contrasts are expressed in prose;
+- `AE = AE4` for the initial diagnostic question, because its subject, indicated condition, alternatives, contrasting implications, and bounded receiving use give a complete branch-appropriate expression (C.2.4:4.2);
+- `CD = CD1`, because the contrasts weakly stabilize the stated candidate field while all three alternatives remain live and no route is selected (C.2.5:4.2);
+- `LanguageStateAnchoringMode = AM.OperatorLoop`, because the alert is directly connected to the operator's acknowledgement and diagnostic-check selection (C.2.6:4.1);
+- `RepresentationFactorBundle = {local, sparse, symbolic}` for the indicator-code component: one unit identifies the report, the active fraction `1/8` satisfies the stated local criterion, and the named units have an explicit decoding rule (C.2.7:4.1). These readings concern the code; assess the surrounding prose separately if its representation factors matter.
+
+**Changed condition.** Suppose an accepted reference-gauge reading for the same sample t21 becomes available: 72 kPa. Under the stated case implications it excludes sensor bias, while low supply and an open bypass remain live. The meaningful reduction from three candidates to two supports `CD2`; it selects neither remaining route. The updated diagnostic question still has its complete expression, and the pressure vocabulary, alarm predicate, indicator code, and operator-loop connection are unchanged. Apply the receiving pattern's own conditions when choosing the next question, check, or endpoint use.
+
+The alert has a complete question and still-open diagnostic alternatives. Its code factors and operator-loop connection answer different questions; no one facet replaces the others.
 
 #### C.2.LS:13.2 - Research cue before lexical repair
 A felt or trace-anchored mismatch cue in an inquiry note may be:
@@ -52826,23 +52910,23 @@ A publishable `U.LanguageStateFacetProfile` carries what its receiving use needs
 One-line publication is admissible only if the facet definitions and tests remain legible.
 
 #### C.2.LS:16.2 - Partial-profile rule
-A partial profile identifies its selected facets and any missing reading that could change the receiving judgement. Publishing `AE` and `CD` can suffice when anchoring is irrelevant to that use. If the use depends on anchoring and its value is unavailable, state that unknown; a readiness label cannot fill it.
+A partial profile identifies its selected facets and any missing reading that could change the receiving judgement. Publishing `AE` and `CD` can suffice when anchoring is irrelevant to that use. When anchoring matters, report its value, a supported set of remaining possible modes, or a decision-relevant `unknown` under C.2.2a:4.2; `AM.Mixed` requires the identified components under C.2.6.
 
 One facet can be sufficient for the named use. Refer to other readings only when that use needs them; no note about irrelevant omissions is required.
 
 #### C.2.LS:16.3 - Overlay discipline
-Local overlays such as "explicit-but-open", "trace-heavy", or "operator-tight" are admissible only when they dock to explicit facet refs. Overlays remain secondary to the declared profile and must not replace the facet bundle.
+Local overlays such as "explicit-but-open", "trace-anchored", or "operator-loop anchored" are admissible only when their meanings are recoverable from the explicit facet readings and refs. Overlays remain secondary to the declared profile and must not replace the facet bundle.
 
 ### C.2.LS:17 - Cross-Facet Reading Rule
 
 #### C.2.LS:17.1 - No master-facet reading
-Do not infer the whole language-state profile from one facet. High `AE` does not entail high `CD`; strong `AM.OperatorLoop` does not fix `AE` or `CD`; symbolic representation does not establish the expression properties needed by the receiving use; low `CD` does not imply low operational consequence.
+Do not infer the whole language-state profile from one facet. High `AE` does not entail high `CD`; `AM.OperatorLoop` does not fix `AE` or `CD`; symbolic representation does not establish the expression properties needed by the receiving use; low `CD` does not imply low operational consequence.
 
 #### C.2.LS:17.2 - Threshold interaction rule
 When a threshold is expressed over one facet, say whether the other facets are merely informative or also constraining. An applicable local rule may allow entry into `B.5.2.0` once `AE` suffices for an explicit open question while still capping `CD` so rival answers remain live; it may allow entry into `A.6.P` at `AE3+` while still capping `CD` so the move remains exploratory rather than endpoint-binding.
 
 #### C.2.LS:17.3 - Transition reading rule
-Read profile transitions facetwise. A note may become more explicit without becoming more closed, more document-mediated without changing closure, or more symbolic without adding the expression properties needed by its receiving use. `A.16`, `A.16.1`, `A.16.2`, `B.4.1`, and `B.5.2.0` should therefore cite the facet transition that actually justifies the move.
+Read profile transitions facetwise. A note may become more explicit without becoming more closed. A shift from trace anchoring to document mediation can leave closure unchanged. A representation may become more symbolic without adding the expression properties needed by its receiving use. `A.16`, `A.16.1`, `A.16.2`, `B.4.1`, and `B.5.2.0` should therefore cite the facet transition that actually justifies the move.
 
 ### C.2.LS:18 - Review Matrix and Migration Tests
 
@@ -103782,7 +103866,7 @@ The **Working-Model layer remains the canonical publication face** for authors a
 | --------------------------------- | ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
 | **Formalism capture**             | Treating a constructive narrative as “the real thing,” with **ut:\*Of** reduced to a label. | Re‑assert Working‑Model primacy: publish in **ut:\*Of**; attach assurance **downwards** only when needed.                                      | E.8 template; Notational‑Independence guard‑rail.                    |
 | **Canonical inversion**           | Demanding constructive grounding for epistemic links by default.                            | Keep the **progressive** stance: prefer Logical/Mapping assurance for knowledge claims; raise to Constructive only when structure is at issue. | Authoring template; Working‑Model pattern family.                    |
-| **Layer leakage (order and time)** | Encoding sequence or phase as part-whole to "strengthen" claims. | Keep **order** and **time** in their own relation families; do not smuggle them into structure. | Temporal and ordering patterns. |
+| **Layer leakage (order and time)** | Inferring parthood from sequence, phase labels, or temporal coverage alone. | Establish a Work-part claim under A.15.1 or a proper-phase claim under A.14; keep order and temporal claims separate. | A.15.1, A.14, and the applicable temporal or ordering pattern. |
 | **Collection and composition swap** | Using a collection's belongs-to claim as if it implied **ComponentOf**, or treating a `set` narrative as the source of belonging. | Keep collection identity and belonging separate from integrated assembly; a C.13 account reports those facts and creates none of them. | Working-Model mereology guidance in Parts B and C. |
 | **Notation lock‑in**              | Letting a diagram or syntax define meaning.                                                 | Apply **Notational Independence**: explain interpretation and any operative use; mark illustrative renderings informative, and retain reasoning or construction steps under E.5.2.                               | Notational‑Independence guard‑rail.                                  |
 | **Backwards dependency**          | Letting an assurance publication or record redefine public terms.                                        | Preserve **unidirectional dependence**: Working-Model terms do not derive their meaning from assurance publications or records.                              | Part E guard‑rails (dependency discipline).                          |
@@ -103797,7 +103881,7 @@ The **Working-Model layer remains the canonical publication face** for authors a
 | **CC‑E14‑1 (Working‑Model primacy).**      | Authors **SHALL** publish claims in **Working‑Model** form (human‑oriented **ut:\*Of** relations or equivalent domain statements) as the canonical publication face for readers.          | Preserve human‑first canon and didactic clarity.              |
 | **CC-E14-2 (Grounding and correction).** | When assurance is attached, authors **SHALL** keep its basis recoverable beneath the readable Working-Model claim and **SHALL NOT** let its notation or record structure dictate the public vocabulary. If the support defeats or narrows the claim, revise the recognition text under its direct governing pattern and expose the change. | Preserve readable presentation and prevent divergence between the public claim and its warranted support. |
 | **CC-E14-3 (Assurance posture).** | For a claim covered by an elected `B.3.5` profile or another named current assurance requirement, the author **SHALL** declare the posture required there. Under `B.3.5`, covered claims declare `validationMode`; a direct claim outside such a profile needs no E.14 mode. | Make selected assurance intent explicit without taxing ordinary direct use. |
-| **CC-E14-4 (No order or time in structure).** | Authors **SHALL NOT** encode execution order, parallelism, or temporal coverage as part-whole; keep them adjacent in their own relation families. | Prevent layer leakage and category errors. |
+| **CC-E14-4 (Grounds for temporal parthood).** | Authors **SHALL NOT** infer parthood from execution order, parallelism, or temporal coverage alone. Independently established Work-part relations under A.15.1 and proper-phase relations under A.14 remain admissible; keep order and temporal claims in their own relation families. | Prevent layer leakage while preserving independently established temporal parts. |
 | **CC‑E14‑5 (Collection differs from composition).** | Authors **SHALL** keep a collection's identity rule and its own belongs-to occurrences distinct from component relations and integrated assembly. A gathering description or `set` trace creates neither belonging nor component status. | Preserve the direct relation and identity boundaries. |
 | **CC‑E14‑6 (Notational independence).**    | Core meaning **MUST** remain recoverable independently of one specific notation. Illustrative expressions **SHALL** be marked informative. An expression carrying a reasoning or construction step **SHALL** explain its operation and prerequisites or cite their subject guidance; comparisons and substitutions retain the E.5.2 semantic-mapping duty.                                                          | Ensure longevity and cross‑discipline portability.            |
 | **CC‑E14‑7 (Layer direction).**            | Authors **SHALL** avoid back-defining Working-Model terms by their assurance publications or records; dependence is one‑way (Working‑Model → Assurance).                                       | Preserve unidirectional dependence of layers.                 |
@@ -103856,7 +103940,7 @@ The **Working-Model layer remains the canonical publication face** for authors a
 | Machinery-first working text | The reader meets constructor traces, proof apparatus, or evidence ids before the working model. | Put the recognition text and chosen Working-Model labels first; keep assurance below. |
 | Assurance leakage upward | Mapping, proof, or empirical records rename the public working vocabulary. | Preserve downward grounding: Working-Model terms are not back-defined by assurance publications. |
 | Slash-label compromise | Several source labels are displayed because no model value was chosen. | Use Mapping to record source labels and show one chosen Working-Model label. |
-| Structure-time collapse | Order, phase, or execution is encoded as part-whole structure. | Keep time and order in their own relation families. |
+| Structure-time collapse | Sequence, phase labels, or temporal coverage are treated as sufficient grounds for parthood. | Recover the Work-part or proper-phase relation under A.15.1 or A.14 respectively, and keep order and temporal claims separate. |
 | Forever-light prose | Human-facing prose becomes so small that the reader cannot recover the problem, payoff, or assurance boundary. | Keep recognition text concise but still include problem framing, rationale, and worked slices. |
 
 ### E.14:10 - Consequences
@@ -103865,7 +103949,7 @@ The **Working-Model layer remains the canonical publication face** for authors a
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Human-first clarity.** Readers see the **Working-Model layer** as the canonical publication form. Direct claims carry no assurance fields by default; selected assurance remains purpose-driven and below the claims. | **Extra author discipline only when assurance is current.** Declaring the required posture and writing a short grounding account takes effort; the authoring template and style guide keep that addition bounded. |
 | **Progressive assurance.** Teams can start with the direct claim and add Mapping, Logical, Constructive, or Empirical support deliberately without changing the visible relation. | **Risk of “forever-light.”** Some models may remain weakly assured; formal maturity checks and assurance prompts show where risk warrants more support. |
-| **Layer hygiene.** Order and time remain outside mereology; structural identity is neither overloaded nor diluted. | **Split attention.** Authors must learn to keep relation families distinct; mitigated by the Tell-Show-Show pedagogy across architectural patterns. |
+| **Layer hygiene.** Order and temporal claims remain distinct from parthood, while independently grounded Work parts and proper phases remain admissible. | **Split attention.** Authors must learn to keep relation families distinct; mitigated by the Tell-Show-Show pedagogy across architectural patterns. |
 | **Spec cohesion.** The same section order and safety subsections (Bias‑Annotation, Conformance Checklist) keep patterns comparable and auditable.             | **Tighter prose.** Patterns grow by a few concise checks; mitigated by the canonical template.                                                                               |
 
 ### E.14:11 - Rationale
