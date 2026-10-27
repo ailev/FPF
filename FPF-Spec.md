@@ -464,7 +464,7 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | E.5.1 | **DevOps Lexical Firewall** | Stable | Keep incidental implementation paths, commands and runnable teaching code outside normative Core, citing executable illustrations by conceptual name. Retain the exact syntax needed by a governed publication form, protocol or grammar, and operative mathematics under E.5.2. Use this lexical rule with E.5.2 for notation and E.5.3 for semantic dependency; an optional linter is not the rule. | **Refines:** E.5. **Constrains:** All Core patterns. |
 | E.5.2 | **Notational Independence** | Stable | Keep FPF meaning recoverable while choosing a useful expression. Explain interpretation and any reasoning or construction operation; state correspondences and losses when translating, comparing or substituting expressions. A semantic mapping preserves only its named claims and conditions, not equal reader preparation, capability or effort. Use A.6.3.RT for a representation transition and A.6.3.RT.OE for an operative expression. | **Refines:** E.5. **Constrains:** All Core patterns. |
 | E.5.3 | **Unidirectional Dependency between FPF Families** | Stable | Constrain an already identified framework-family dependency: imports must form an acyclic graph and point toward greater semantic stability. Pedagogy may use Tooling and Core; Tooling may use Core; Core imports neither. Keep specialization separate. E.4.PFR determines whether a framework-edition dependency actually obtains. | **Refines:** E.5. **Constrains:** E.4. |
-| E.5.4 | **Cross-Disciplinary Bias Audit** | Stable | Inspect a normative pattern through Gov, Arch, Epist, Prag and Did lenses for a source-discipline bias or an unjustified imbalance. Repair the explanation or state the intended scope, and retain the useful Bias-Annotation. Use D.5 for bias, fairness or human-impact audit; use A.8 only for universal-core placement of an admitted durable U-kind candidate. | **Refines:** E.5. **Constrains:** All Core patterns. **Links to:** Part D. |
+| E.5.4 | **Cross-Disciplinary Bias Audit** | Stable | Inspect a normative pattern through Gov, Arch, Epist, Prag and Did lenses for a source-discipline bias or an unjustified imbalance. Repair the explanation or state the intended scope, and retain the useful Bias-Annotation. Use D.5 for bias, fairness or human-impact audit; use A.8 only for universal-core placement of a durable U-kind candidate governed by E.24.UK. | **Refines:** E.5. **Constrains:** All Core patterns. **Links to:** Part D. |
 | **Cluster E.II — The Author’s Handbook** | | | | |
 | E.6 | **Didactic Architecture of the FPF Specification** | Stable | *Keywords:* didactic, pedagogy, structure, narrative flow, on-ramp, learning. *Queries:* "How is the FPF specification structured for learning?", "What is the 'On-Ramp first' principle?". | **Builds on:** E.2 (P-2 Didactic Primacy). |
 | E.7 | **Archetypal Grounding: Explain Rules of FPF Architectural Patterns through Cases** | Stable | Make an architectural rule and its applicability concrete through System and Episteme cases. Use both where the rule spans both; state and justify a genuine single-substrate boundary. The cases show application and expose limits; universality needs its own warranted basis. E.8 supplies the section form, E.5.4 the bias lenses, and A.8 the distinct universal-core U-kind test. | **Builds on:** E.6. **Constrains:** All architectural patterns. |
@@ -26251,12 +26251,12 @@ Typical moments:
 
 - a candidate U-kind is proposed because several domains use similar words;
 - a local subject value starts being treated as universal because it is useful in one field;
-- `E.24.UK` admits a durable U-kind candidate, and the remaining question is whether it belongs in the universal core;
+- a new U-kind proposal includes a universal-core claim, or an already admitted kind is being considered for kernel placement;
 - source or draft type wording claims kernel-level status and must be recovered into current U-kind governance.
 
 **Primary EntityOfConcern.** The EntityOfConcern is the universal-core admission claim for one candidate U-kind.
 
-**First useful move.** Apply `E.24.UK` first. If the candidate survives as a durable U-kind and claims kernel-level status, test whether it makes the same abstract contribution in at least three foundationally different domain families.
+**First useful move.** Recover the candidate and its proposed membership or identity rule through `E.24.UK`. If kernel-level status is claimed, test whether it makes the same abstract contribution in at least three foundationally different domain families. Use the applicable accepted admission result for an already admitted kind; a new proposal supplies the shared decision's independently recovered candidate inputs.
 
 **Not this pattern when.**
 
@@ -26290,7 +26290,12 @@ Without A.8:
 
 ### A.8:3 - Solution
 
-Use the three-domain falsification test only after `E.24.UK` has admitted the candidate as a durable U-kind candidate.
+Recover the basis for the three-domain falsification test through `E.24.UK`:
+
+- **Already admitted kind.** Use its applicable accepted admission result and the candidate facts it establishes. Reconsider kernel placement at the claimed scope; an unchanged, still-applicable admission does not need to be repeated.
+- **New admission proposal.** Use the independent candidate inputs of the shared decision in `E.24:4.0a`: governed individuals, proposed membership or identity rule, intended extent, nearest non-member and receiving use. Complete the A.8 test alongside the other applicable admission tests, before E.24.UK closes the decision. The projections provide evidence for the core-placement claim; the complete E.24.UK test decides admission.
+
+In either case, the candidate description and the domain evidence must support the comparison independently of the conclusion being sought.
 
 The candidate passes A.8 only when all four conditions hold:
 
@@ -26304,7 +26309,7 @@ Use the following fields to make each projection inspectable. Equivalent prose o
 ```text
 UniversalCoreProjection:
   CandidateUKind:
-  UKindAdmissionResultRef: exact accepted E.24.UK output; follow it to the shared decision only when common inputs or decision mode are needed.
+  UKindAdmissionResultRef: exact accepted E.24.UK output, when available; follow it to the shared decision only when common inputs or decision mode are needed.
   DomainFamily:
   DomainTerm:
   LocalEoC:
@@ -26312,6 +26317,8 @@ UniversalCoreProjection:
   DifferenceOrLoss:
   EvidenceRef:
 ```
+
+For a new proposal, `CandidateUKind` identifies the candidate under consideration. Keep its projection findings with the shared decision's ClaimGraph. Supply `UKindAdmissionResultRef` when an applicable accepted result exists; a pending decision reference is not an accepted-result reference. The other projection values can be supplied and tested before that result exists.
 
 At least three supported projections are required. Try to defeat the proposed universal-core claim: a supported counterexample within its claimed scope refutes that form of the claim. A misidentified local object or invalid projection first needs correction. Three successful cases support this admission test; they do not prove universality over every future case.
 
@@ -26323,7 +26330,7 @@ Test one proposed contribution across different domain families. If it fails a v
 | --- | --- | --- | --- |
 | `U.System` | thermodynamic control volume; biological cell or organism; cyber-physical system | acting physical or operational holon satisfying all six constructive components and the applicable kind-specific condition in A.1:4.2–4.3 | boundary physics, substrate, observability, and control style |
 | `U.Episteme` | theorem or proof text; clinical guideline; model card or safety case | claim-bearing non-agentive knowledge object that can be used, cited, revised, or published | carrier, notation, authority source, and assurance regime |
-| `U.Work` | machining run; lab assay; review or approval act | dated performed occurrence: A.13 identifies the actual performer and A.15.1 independently admits the Work from that performer basis plus its Method, history, extent, and obtaining containing-System relation; F.6 adds an assignment check only when the current use must also say under which assignment the Work was performed | physical medium, institutional form, measurement trace, and evidence carrier |
+| `U.Work` | machining run; lab assay; review or approval act | dated performed occurrence: use the complete A.15.1 admission, including A.1:4.2's six common constructive components, A.13's actual-performer basis, grounded performance history, enacted Method and extent, and facts establishing containment of the complete occurrence under a declared System boundary; F.6 adds an assignment check only when the current use must also say under which assignment the Work was performed | physical medium, institutional form, measurement trace, and evidence carrier |
 
 These rows identify candidate comparisons, not completed admissions. Each needs an E.24.UK basis, actual projection evidence and stated differences or losses.
 
@@ -26339,6 +26346,8 @@ The three cases test distinct warrant and application conditions while preservin
 
 Now strengthen the proposed core definition to “every episteme is experimentally verified.” The mathematical case supplies a counterexample within the intended scope: its warrant is derivation, not an experiment. Reject that stronger core claim, retain the supported contribution, and keep experimental verification under the subject and evidence rules that require it. A new counterexample reopens the affected universality claim and uses that depend on it; independently supported claims remain reusable.
 
+**First-admission replay.** Stipulate a proposed edition in which this claim-bearing kind has no accepted admission result. Its candidate description and the independently identified source objects, claims and schemes above supply inputs to the shared E.24 decision. The same projection test can establish the supported core contribution from those inputs. Keep that finding in the decision while the other admission conditions are examined. If the required by-value dependence of downstream uses remains unsupported, admission remains unresolved despite the successful projections. After all conditions for the selected positive form pass, the accepted E.24.UK result supplies `UKindAdmissionResultRef` and naming can proceed. The existing-kind example instead consumes its already applicable result.
+
 Record domain-family coverage, each distinct test, and the differences or losses needed to assess the comparison. Quality-diversity telemetry such as `Diversity_P` or `IlluminationSummary` can contribute only under its governing C.17, C.19 or direct rule; it does not itself admit a U-kind or establish the projection.
 
 ### A.8:3.2 - Bias-Annotation
@@ -26349,7 +26358,7 @@ A.8 resists kernel growth based on familiar names because downstream patterns ma
 
 | Check | Requirement |
 | --- | --- |
-| `CC-A8-1` | The candidate has an `E.24.UK` durable U-kind admission basis before A.8 is applied. |
+| `CC-A8-1` | The test uses the applicable accepted E.24.UK result for an already admitted kind, or the independent shared-decision candidate inputs for a new proposal. `UKindAdmissionResultRef` identifies only an actual accepted result. A new proposal completes the other applicable admission conditions before admission. |
 | `CC-A8-2` | The A.8 claim is kernel-level universal-core admission, not C.3 typed reasoning. |
 | `CC-A8-3` | At least three domain-family projections are recorded. |
 | `CC-A8-4` | Each valid projection tests the same abstract contribution and contributes distinct evidence; repair a misidentified object or invalid projection before judging the candidate. Successful cases support the test rather than proving all future applications. |
@@ -27337,9 +27346,9 @@ These are continuation alternatives, not a single admission-result vocabulary. A
 | Provenance-chain wording | Use A.10 for one source-to-use account and bounded reliance. Open G.6 when the use needs path identity, slicing, citation, or local refresh through already established objects and relations. Continue a new durable-value proposal only if the direct evidence or provenance patterns cannot express the needed claim without material loss; complete admission remains separately required. | Parsimony tries subject patterns before minting a kernel addition; a chain label does not itself require an addressable path. |
 | `SmallPart` or similar vague size class | Reject or keep local. | The boundary depends on private scale expectations unless a direct measurement or classification pattern supplies a crisp rule. |
 
-**Worked case: retain a local classification.** A maintenance inventory needs to select the installed pumps whose specified function is coolant circulation in Loop-L. The stated project facts admit P-17 as a `U.System` and establish that it is an installed pump with that function. P-18 is also an installed pump, but its specified function is fuel supply. The project already has a C.3 local kind `CoolingPumpInLoopL` whose membership rule is exactly the inventory selection condition; its classification admits P-17 and excludes P-18.
+**Worked case: retain a local classification.** A maintenance inventory needs to select the installed pumps whose specified function is coolant circulation in Loop-L. The stated project facts admit P-17 as a `U.System` and establish that it is an installed pump with that function. P-18 is also an installed pump, but its specified function is fuel supply. The project already has a C.3.2 declaration of the local kind `CoolingPumpInLoopL` whose membership rule is exactly the inventory selection condition; its classification admits P-17 and excludes P-18.
 
-The proposal is to add a root `U.CoolingPumpInLoopL` with the same membership rule. The four gates give one result. Composition already expresses the selection without loss; the proposed extension coincides with the local kind; the new root admits no additional claim or maintenance action; and the P-18 boundary is already supplied by the local rule. Return **reuse** of the local kind, with no new U-kind admission. If later work needs a claim the local classification cannot express, reopen that particular loss and the applicable admission test; the useful project label remains available in the meantime.
+The proposal is to add a root `U.CoolingPumpInLoopL` with the same membership rule. The four gates give one result. Composition already expresses the selection without loss; the proposed extension coincides with the local kind; the new root admits no additional claim or maintenance action; and the P-18 boundary is already supplied by the local rule. Retain that local classification. If the proposal is carried into an E.24.UK decision, record `local-kind` through the existing C.3.2 declaration. If later work needs a claim the local classification cannot express, reopen that particular loss and the applicable admission test; the useful project label remains available in the meantime.
 
 A retained addition also needs a reopen condition. Reconsider the parsimony finding and admission under its governing rule when usage collapses, overlap is discovered, an existing expression becomes adequate, the boundary becomes fuzzy, or the name hides the underlying claim. A scheduled review is useful only when it helps detect such a change.
 
@@ -27385,9 +27394,11 @@ The practical criterion is not abstract minimalism. A candidate earns a positive
 
 ### A.11:8 - SoTA-Echoing
 
-Ontology-engineering approaches to modularity, reuse and explicit competency questions supply the comparison discipline used here. A.11 asks whether the candidate changes admissible claims, boundaries or work-facing use, beyond whether a class can be defined.
+**Receiving use and reuse.** Two historical ontology-engineering contributions supply concrete comparison methods. Noy and McGuinness, [*Ontology Development 101* (2001), §3](https://protege.stanford.edu/publications/ontology_development/ontology101.pdf), use competency questions to specify the intended application and test whether an ontology supplies enough information, and recommend considering existing ontologies for reuse. Shimizu, Hirt and Hitzler, [*MODL: A Modular Ontology Design Library* (2019), §§3.2–3.3](https://arxiv.org/pdf/1904.05405), develop reusable, adaptable modules whose competency questions identify the intended answers. A.11 applies this comparison to the receiving claim or use and the best existing FPF expression.
 
-Constructional-ontology and BORO-like source lines contribute the separation of identity, construction, dependency and part-whole relations. A.11 uses those distinctions to recover what a candidate denotes before testing whether it needs a new durable kind; U-kinds remain subject to their complete FPF admission conditions.
+**Construction and identity.** Florio and Linnebo, [*Introduction to Constructional Ontology* (2024), §§1 and 3](https://www.utwente.nl/en/eemcs/fois2024/resources/papers/florio-linnebo-introduction-to-constructional-ontology.pdf), distinguish constructors, inputs and constructional processes, and show how construction choices bear on identity: a set has its particular elements, while the same sum can have different decompositions. Borgo and Righetti, [*Towards Applied Constructional Ontology* (2025), §§3–5](https://journals.sagepub.com/doi/full/10.3233/FAIA250480), explore reconstructions of BFO, DOLCE and UFO with explicit choices about dependence, parthood, inherence and participation. Their exploratory comparison helps expose which construction and relation account a candidate uses.
+
+**FPF synthesis.** Recovering a candidate's construction and identity establishes what the proposed addition concerns. A.11 then asks whether a new durable kind changes admissible claims, boundaries or work-facing use. Its four gates combine material loss, non-redundancy, action-facing contribution and a sharp boundary for the same candidate, use and facts. The complete E.24.UK admission decides the proposed U-kind's disposition and root or dependent form.
 
 ### A.11:9 - Relations
 
@@ -94917,7 +94928,7 @@ Bias in wording, examples, unit choices or principle weighting can make a rule a
 | **CC‑BA.1** | Each Core pattern **SHALL** include a *Bias‑Annotation* listing the five lenses and any declared scope limitation. | Ensures explicit reflection on bias. |
 | **CC‑BA.2** | A pattern labelled “universal” **MUST NOT** privilege a single lens without justification or scoping note. | Preserves trans‑disciplinary integrity. |
 | **CC‑BA.3** | If scope is declared, the pattern **SHALL** state its rationale. When cross-domain translation is claimed or required, it **SHALL** reference the mapping or rationale supporting that translation and state its limits. | Keeps pathways open for other calculi. |
-| **CC‑BA.4 Universality claim and applicable evidence** | A pattern labelled **“universal”** states the exact ClaimScope, population or bearer, qualification window, and intended use of that claim. When the claim is universal-core placement for a durable U-kind candidate admitted through **E.24.UK**, apply **A.8:3**'s complete cross-domain projection test. `Diversity_P` or `IlluminationSummary` supports that test only through its governing C.17, C.19, or direct pattern; it is not a standalone gate. | Keeps the claimed scope and its applicable evidence explicit. |
+| **CC‑BA.4 Universality claim and applicable evidence** | A pattern labelled **“universal”** states the exact ClaimScope, population or bearer, qualification window, and intended use of that claim. When the claim is universal-core placement for a durable U-kind candidate governed by **E.24.UK**, apply **A.8:3**'s complete cross-domain projection test. `Diversity_P` or `IlluminationSummary` supports that test only through its governing C.17, C.19, or direct pattern; it is not a standalone gate. | Keeps the claimed scope and its applicable evidence explicit. |
 
 ### E.5.4:7 - Consequences
 
@@ -115507,7 +115518,7 @@ The decision and its two outputs are three distinct C.2.1 epistemes. Each output
 2. **Try an admitted durable kind.** If one accepted result already preserves those individuals, the criterion, extent, boundary, and use, record `reuse` through that exact result and stop.
 3. **Try bounded classification.** If one project or context needs only typed membership or quantification, record `local-kind` through one exact C.3.2 declaration and stop.
 4. **Test the need for a new durable kind.** Continue only when repeated cross-pattern use needs one stable membership law that existing durable kinds and direct relations cannot preserve. Run the eight tests and name each downstream question, its defining or testing rule, and the PatternID that locates that rule.
-5. **Choose the positive form.** Use `root` for independently identified individuals, `same-individual-dependent` when one root individual gains an additional stable membership predicate and inclusion law, or `identity-dependent` when a distinct individual has an already governed dependence relation to one root individual plus all discriminators. Fill the shared E.24-family decision and separately test the need for additional durable coordination. Direct-rule sufficiency permits positive kind admission with an explicit no-additional-ontic conclusion; use atomic co-decision only when both new outputs are needed. Apply A.11 and A.8 when kernel status is claimed.
+5. **Choose the positive form.** Use `root` for independently identified individuals, `same-individual-dependent` when one root individual gains an additional stable membership predicate and inclusion law, or `identity-dependent` when a distinct individual has an already governed dependence relation to one root individual plus all discriminators. Fill the shared E.24-family decision and separately test the need for additional durable coordination. Direct-rule sufficiency permits positive kind admission with an explicit no-additional-ontic conclusion; use atomic co-decision only when both new outputs are needed. Apply A.11 and A.8 when kernel status is claimed. A fresh kernel proposal supplies A.8 with the independent candidate inputs of the shared decision; its projection finding contributes to that decision before step 6. An already admitted kind uses its applicable accepted result when its kernel placement is reconsidered.
 6. **Close or leave unresolved, then name.** Record the positive admission when the selected form passes every condition. A missing branch law or fact leaves admission unresolved. Use `reject` only when no classificatory distinction survives, and recover the non-kind object under the rule that defines or tests it. Only after one disposition and governed object are stable may F.8, F.5, F.18, or F.17 expose a public name.
 
 The PatternID locates the applicable rule content: C.3 states the membership and continuity rules for kinds; A.6.REL states the common relation-occurrence discipline; each direct relation pattern states participant meanings, obtaining, applicability, and occurrence identity; A.6.0/A.6.5 define reusable declarations; E.24 defines ontic-settlement predicates; and F.8/F.5/F.18/F.17 constrain names after ontology is settled.
