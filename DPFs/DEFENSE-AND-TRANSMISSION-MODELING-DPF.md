@@ -55,7 +55,7 @@ Original framework text: © 2026 Anatoly Levenchuk, [CC BY 4.0](https://creative
 
 ## Practical entries
 
-These are selected examples, not a catalogue or a prescribed workflow. Bring the work, question and observed difficulty you actually have. If none fits, use the Table of Contents and the direct patterns.
+These are selected examples. Bring the work, question and observed difficulty you actually have. If none fits, use the Table of Contents and the direct patterns.
 
 You can ask an assisting agent: “Explain this and give me comments in the language of my work, without framework jargon.” Use the equations only when their assumptions fit; a short causal account can already settle the next action.
 

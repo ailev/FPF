@@ -43,7 +43,7 @@ Framework text adapted from Anatoly Levenchuk's Organization Change Engineering 
 
 ## Practical entries
 
-These are selected examples, not a catalogue of leadership situations or a boundary on what the methods can help with. Bring the actual difficulty. If none fits, use the Table of Contents and read the relevant pattern's problem frame. An assisting agent can explain the methods in ordinary language: “Explain this and give me your comments without framework jargon.”
+These are selected examples. Bring the actual difficulty. If none fits, use the Table of Contents and read the relevant pattern's problem frame. An assisting agent can explain the methods in ordinary language: “Explain this and give me your comments without framework jargon.”
 
 ### OWN-ACTION — A chosen purpose is not becoming action
 

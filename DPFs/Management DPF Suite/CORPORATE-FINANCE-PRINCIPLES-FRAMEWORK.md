@@ -85,7 +85,7 @@ The financial relations of corporate activity and methods for valuing investment
 
 The connected cases below follow a financial question through the results it needs: dated cash into funding and execution, the value of an acquired interest into a transaction comparison, and a changed receipt into a treasury response. Enter where the missing result lies and reuse adequate supplied accounts. The short project-value example at the end also shows where a direct calculation can finish.
 
-These constructed examples do not define the framework's coverage. Use the Table of Contents for a known PatternID or another financial question. When working with a colleague or assistant, describe the payment, investment or exposure and the answer you need in ordinary language.
+These are constructed examples. Use the Table of Contents for a known PatternID or another financial question. When working with a colleague or assistant, describe the payment, investment or exposure and the answer you need in ordinary language.
 
 ### FIN-E1 - A profitable order leaves a day-7 cash gap
 

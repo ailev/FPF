@@ -40,7 +40,7 @@ Search by the working question or required result. CUST identifiers are stable p
 
 ## Practical entries
 
-Bring the question you are actually trying to answer. These entries are selected examples, not a catalogue or a coverage boundary. If none fits, search the Table of Contents or enter a pattern directly. You can ask an assisting agent: “Explain this and give me your comments in ordinary language, without framework jargon.”
+Bring the question you are actually trying to answer. These entries are selected examples. If none fits, search the Table of Contents or enter a pattern directly. You can ask an assisting agent: “Explain this and give me your comments in ordinary language, without framework jargon.”
 
 ### CUST-ENTRY-DELIVERY - Turn a successful delivery into an obtainable method
 

@@ -52,7 +52,7 @@ Methods for designing, using and changing access to documentary knowledge.
 
 ## Practical entries
 
-These are selected examples of entry, not a catalogue or the coverage boundary. Bring the actual question. Use the index, a direct pattern or search across the publication when neither example fits. You can ask an assisting agent: “Explain this and comment in ordinary language, without framework jargon.”
+These are selected examples of entry. Bring the actual question. Use the index, a direct pattern or search across the publication when neither example fits. You can ask an assisting agent: “Explain this and comment in ordinary language, without framework jargon.”
 
 ### changed-reading - A search opens the wrong edition
 

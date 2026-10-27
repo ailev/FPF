@@ -91,7 +91,7 @@ The methods in this language work together through the results they produce. A f
 
 Enter where the difficulty occurs and reuse results you already have. If the question is not yet mathematical, FPF B.5.FM helps choose participants and propose relations; B.5.TU helps interpret an unfamiliar theory. C.29 connects the construction with what it represents. For example, a cart's total distance does not determine its final position. Signed displacements and a starting position answer that question on a straight path; a question about visits along the way needs further information. Once the needed objects are recognizable, MMP.10 expresses their constraints; MMP.11 constructs a family when a relation remains unknown.
 
-The worked connections below show how an intermediate result changes the next operation. They are selected examples, not a catalogue or a prescribed modeling process. Use the Table of Contents for other questions and the pattern bodies for the methods, prerequisites and further examples. FPF supplies shared reasoning methods; Mathematical Thinking supplies reusable mathematical constructions.
+The worked connections below show how an intermediate result changes the next operation. Use the Table of Contents for other questions and the pattern bodies for the methods, prerequisites and further examples. FPF supplies shared reasoning methods; Mathematical Thinking supplies reusable mathematical constructions.
 
 You can ask an assisting agent: “Explain the result and give feedback in the language of my work, without framework jargon.”
 

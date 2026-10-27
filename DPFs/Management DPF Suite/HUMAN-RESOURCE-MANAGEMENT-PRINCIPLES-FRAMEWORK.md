@@ -31,7 +31,7 @@ Anatoly Levenchuk, with AI-assisted development. Original framework text: [CC BY
 
 ## Practical entries
 
-These practical examples illustrate ways to enter the framework; they are neither a catalogue nor a boundary of its coverage. If your question does not fit an example, use the [Table of Contents](#table-of-contents), search the complete text, or follow [Using FPF Library](../../USING-FPF.md) to find the relevant contribution.
+These practical examples illustrate ways to enter the framework. If your question does not fit an example, use the [Table of Contents](#table-of-contents), search the complete text, or follow [Using FPF Library](../../USING-FPF.md) to find the relevant contribution.
 
 ### Connected conditions — One personnel change defeats another commitment
 

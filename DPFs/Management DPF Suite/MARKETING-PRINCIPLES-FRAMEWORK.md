@@ -57,7 +57,7 @@ Search by the working question or required result. MKT identifiers are stable pa
 
 ## Practical entries
 
-Bring the question you are actually trying to answer. These entries are selected examples, not a catalogue or a coverage boundary. If none fits, search the Table of Contents or enter a pattern directly. Each body explains its situation, construction, limits, worked cases and source returns. You can ask an assisting agent: “Explain this and give me your comments in ordinary language, without framework jargon.”
+Bring the question you are actually trying to answer. These entries are selected examples. If none fits, search the Table of Contents or enter a pattern directly. Each body explains its situation, construction, limits, worked cases and source returns. You can ask an assisting agent: “Explain this and give me your comments in ordinary language, without framework jargon.”
 
 ### MKT-ENTRY-QUESTION - Find out enough to make the next decision
 

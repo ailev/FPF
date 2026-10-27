@@ -70,7 +70,7 @@ You can ask an assisting agent: “Explain this and give me your comments in the
 
 ## Practical entries
 
-These selected connections show how results pass between methods. They are examples, not a catalogue or a prescribed sequence. Enter where the difficulty occurs and stop when the needed result is available. The Table of Contents and each pattern's `Use this when` provide direct access for other questions. The [Architectural Reference](#notational-engineering-dpf-architectural-reference) explains the repertoire and develops the first connection in greater detail.
+These selected connections show how results pass between methods. Enter where the difficulty occurs and stop when the needed result is available. The Table of Contents and each pattern's `Use this when` provide direct access for other questions. The [Architectural Reference](#notational-engineering-dpf-architectural-reference) explains the repertoire and develops the first connection in greater detail.
 
 ### NT-CHANGE-TOGETHER - Carry a changed request through several representations
 

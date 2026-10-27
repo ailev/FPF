@@ -75,7 +75,7 @@ Find this framework in the [FPF Library DPF catalogue](https://github.com/ailev/
 
 ## Practical entries
 
-These are selected examples of using the language, not a catalogue or a coverage boundary. Bring the question from your work. If none fits, use the Table of Contents to find the relevant action, difficulty or result and open the pattern directly.
+These are selected examples of using the language. Bring the question from your work. If none fits, use the Table of Contents to find the relevant action, difficulty or result and open the pattern directly.
 
 You can ask an assisting agent: “Explain this and give me your comments in ordinary language, without framework jargon.” Describe the passage, what you need to do and what happens now. A short demonstration may communicate a rhythmic relation better than another label.
 

@@ -74,7 +74,7 @@ The framework belongs to the [Management DPF Suite](https://github.com/ailev/FPF
 
 ## Practical entries
 
-These are selected examples of using the language, not a catalogue of everything it covers. Bring the question from your work. If no example fits, search the Table of Contents by the difficulty, action or result and open the corresponding pattern.
+These are selected examples of using the language. Bring the question from your work. If no example fits, search the Table of Contents by the difficulty, action or result and open the corresponding pattern.
 
 You can ask an assisting agent: “Explain this and give me your comments in ordinary language, without framework jargon.” Supply the facts and applicable rules needed for your question; the agent must preserve uncertainty where those inputs do not settle the answer.
 

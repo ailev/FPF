@@ -32,7 +32,7 @@ Further architectural and source sections: [IS.Reference:11 - Supplier availabil
 
 # IS.Readme - Find the first useful contribution
 
-Implementation Facilitation helps practitioners, organizations and affected people make an evidence-informed practice usable in its setting and develop their ability to conduct subsequent changes. Enter at the missing contribution; a sufficient local answer can be enough. The examples below show ordinary entries, not a catalogue or the field boundary. Use the [pattern index](#table-of-contents) for a different question.
+Implementation Facilitation helps practitioners, organizations and affected people make an evidence-informed practice usable in its setting and develop their ability to conduct subsequent changes. Enter at the missing contribution; a sufficient local answer can be enough. The examples below show ordinary entries. Use the [pattern index](#table-of-contents) for a different question.
 
 **A tool is available but cannot be used.** A practitioner tries to compare two source editions and discovers that the older one cannot be opened. Start with IS.2. Recover the failed input and obtain the source owner's access result. If that makes the already understood operation possible, the useful answer can stop there. If the source does not exist, return the target operation to its subject owner; another invitation to use the tool will not supply it.
 
@@ -138,7 +138,7 @@ A.3.1.MI supplies a general introduction Method: an implementer can use it direc
 
 This framework does not supply each target profession's technical Method, a universal learning theory, every organization's design or a general development strategy. It tells the support practitioner how to obtain and use the needed contribution, keep its conditions intact, and return the work when it cannot be supplied. A provider should reduce a promise that depends on unavailable expertise rather than fill the gap with a procedure name.
 
-The short entry routes foreground the receiving work, helper contribution and next decision. They omit the detailed technical, learning and organizational constructions supplied by the pattern bodies and the external practices in IS.Reference:1. Return to those bodies when the shorter account leaves an operation, condition or evidence claim unresolved. The examples illustrate selected ways of combining the Methods; they do not define the field's coverage.
+The short entry routes foreground the receiving work, helper contribution and next decision. They omit the detailed technical, learning and organizational constructions supplied by the pattern bodies and the external practices in IS.Reference:1. Return to those bodies when the shorter account leaves an operation, condition or evidence claim unresolved. The examples illustrate selected ways of combining the Methods.
 
 ## IS.Reference:8 - Obtain the external contribution
 

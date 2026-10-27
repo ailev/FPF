@@ -39,7 +39,7 @@ Original framework text: © 2026 Anatoly Levenchuk, [CC BY 4.0](https://creative
 
 ## Practical entries
 
-These are selected examples of use, not a catalogue or a prescribed course. Bring the movement and question you actually have. Use the Table of Contents to find a pattern when none of these examples fits.
+These are selected examples of use. Bring the movement and question you actually have. Use the Table of Contents to find a pattern when none of these examples fits.
 
 You can ask an assisting agent: “Explain this and give me comments in the language of my work, without framework jargon.” The agent works from your descriptions and observations, including what you feel and do. Choosing an unfamiliar exercise requires appropriate movement instruction.
 

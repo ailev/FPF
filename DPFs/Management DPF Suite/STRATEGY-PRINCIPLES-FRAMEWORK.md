@@ -82,7 +82,7 @@ Search the Keywords & Search Queries column for the working difficulty or result
 
 ## Practical entries
 
-These selected examples show how strategic work uses results from several methods. Enter with the question and results already available; follow a dependency only when its missing contribution can change the answer. The examples do not cover the repertoire or prescribe a project sequence. For a direct question, use the PatternID and title in the Table of Contents.
+These selected examples show how strategic work uses results from several methods. Enter with the question and results already available; follow a dependency only when its missing contribution can change the answer. For a direct question, use the PatternID and title in the Table of Contents.
 
 You can ask an assisting agent to explain or apply these methods in the language of your work, without framework jargon.
 
