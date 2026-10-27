@@ -328,7 +328,7 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | C.11.DUA | **Make Advice and Evidence Demands Worth Their Burden** | Stable | Use when advice turns uncertainty or a requirement into costly, infeasible or questionable work for its recipient. Recover the receiving question and demand; distinguish present support, feasible continuation and worthwhile inquiry; appraise disputed requirements and their force; complete the useful answer with only the explanation its use needs. *Queries:* "Will more evidence change this decision?", "What can we reasonably do now?", "Is the requirement itself worth its burden?" | **Uses:** A.10, C.11, C.11.CRC, C.19.2. **Coordinates with:** C.18, C.28, D.4 and domain methods. **Used by:** F.19, E.19, E.11.PUA. |
 | C.11.MV | **Compare the Worth of a Method Option** | Stable | A Method option may cost more than its receiving benefit warrants. Compare attainable results with the demands of learning, transition and recurring support, including work they displace, while preserving the current-way alternative. | C.11 and C.11.DUA; C.39.RQ; C.32.MWA.PP; A.3.1.QM and A.3.1.FT for qualification inputs. |
 | **Cluster C.III – Meta‑Infrastructure CALs** | | | | |
-| C.13 | **Constructional Mereology (Compose‑CAL)** | Stable | *Keywords:* mereology, part-whole, composition, sum, set, slice, construction account. *Queries:* "How can I show, without creating it by notation, how already identified constituents and relations assemble a whole, form a collection, or distinguish an aspect?", "What is Compose-CAL?". | **Builds on:** A.14 and direct part-relation patterns. **Coordinates with:** C.2.1. **Is used by:** A.1, B.3.5, and subject patterns needing a compact construction account. |
+| C.13 | **Constructional Mereology (Compose‑CAL)** | Stable | *Keywords:* mereology, part-whole, composition, sum, set, slice, construction account. *Queries:* "How can I show how already identified constituents and relations assemble a whole, form a collection, distinguish an aspect, or delimit a measured portion?", "What is Compose-CAL?". | **Builds on:** A.14 and direct part-relation patterns. **Coordinates with:** C.2.1. **Is used by:** A.1, B.3.5, and subject patterns needing a compact construction account. |
 | **Cluster C.IV – Composite & Macro‑Scale** | | | | |
 | C.14 | **System-of-Systems and Infrastructure Calculus (M-Sys-CAL)** | Planned | *Keywords:* system-of-systems, infrastructure, inter-system dependency, service network, infrastructure boundary, operational coupling. *Queries:* "How to model a complex infrastructure such as a power grid?", "Which cross-system dependency changes the claim?", "When is this a system-of-systems rather than one system?" | **Builds on:** planned C.1, B.2.2, A.22, C.30, B.1.6. **Coordinates with:** C.30.ILC, planned C.5, D.2, G.6, B.3. |
 | C.16 | **Measurement & Metrics Characterization (MM‑CHR)** | Stable | *Keywords:* measurand, measurement subject, Characteristic, Scale, Level/Coordinate, Unit, Scale order, measurement-model construction, indication-producing procedure, method, model, calibration, dated measurement work, actual bindings, input/output quantities, uncertainty, measurement result, C.2.1 result episteme, comparability, provenance, bounded later use. *Queries:* "How do I construct a measurement relation and find what an indication can resolve?", "How do I recover a complete measurement chain from a reading, score, rating, sensor indication, dashboard value, or claimed comparison?", "How do I distinguish emitted output, indication, actual subject state, measurement result, result episteme, diagnosis, criterion verdict, and decision?", "When should ambiguous measurement wording go first to C.16.P, comparison or selection go to A.19, and provenance go to A.10 or G.6?" | **Builds on:** A.17, A.18; uses A.15.1 for dated work, A.6.1 for actual bindings and C.2.1 for the result episteme. **Coordinates with:** C.16.P, A.19, C.28, A.10, G.6, G.11, B.3, G.4, C.11, C.29. **Used by:** patterns that consume typed measurement-result epistemes, including G.4 and B.1.6. |
@@ -28232,6 +28232,8 @@ The classical pair **ComponentOf** (structural, discrete) and **ConstituentOf** 
 * **POR‑4 (Kind integrity).** x and y must share the same **measure kind** and **unit** (or a declared conversion).
 * **POR‑5 (Boundary compatibility).** For physical wholes, the whole’s boundary encloses the union of its portions; cross‑boundary “leaks” are interactions, not portions.
 
+Check POR-2 separately for the chosen measure: additivity alone supplies only non-strict monotonicity. One sufficient practical case is an admitted disjoint decomposition `y = x ⊔ r` with finite `μ(y)` and positive `μ(x)` and `μ(r)`; additivity then gives strict dominance. If a proposed proper part has zero measure or the same measure as the whole, use a measure that distinguishes the portion and remainder, or retain the separately justified part relation under its own pattern.
+
 **Didactic tests.**
 
 - ✔ “5 kg from a 20 kg billet” — PortionOf.
@@ -28269,7 +28271,7 @@ Either object may also support a separate PortionOf claim when it satisfies the 
 
 #### A.14:5.3 - AspectOf — bearer-dependent structural part under one named facet rule
 
-**Intent.** State that one identified bearer-dependent part is an aspect of its bearer without turning a Characteristic, viewpoint, representation, concern, partition, or time window into a part.
+**Intent.** State that one identified bearer-dependent structural part is an aspect of its bearer under a named facet rule.
 
 **Participants and qualifier.** `x` and `y` occupy the `U.Holon` parthood domain: `x` is the aspect and `y` its bearer. Each must already satisfy its applicable holon-kind and identity rule; `AspectOf` does not grant systemness, agency, or independent-whole status. The qualifier `f` names the facet rule used in this occurrence; it does not introduce a universal `U.Facet` kind.
 
@@ -28292,7 +28294,8 @@ Either object may also support a separate PortionOf claim when it satisfies the 
 #### A.14:5.4 - CT2R-LOG and Compose-CAL handshake
 
 - A direct structural parthood claim is usable without this assurance handshake. If the publication elects B.3.5 or a named current requirement demands it, link the claim through `tv:groundedBy` to its applicable current C.2.1 `Γ_m.sum` or `Γ_m.slice` construction-trace episteme and declare `validationMode=axiomatic`. The direct relation pattern decides whether the occurrence obtains and how it is identified; the relevant entity pattern decides identity through change. The trace only reports that basis.
-- **AspectOf** uses one current `C.13 slice` trace when that assurance branch is elected. The trace names the aspect, bearer, facet rule, relation occurrence, and identity conditions; it creates none of them.
+- **PortionOf** uses the measured-portion `slice` account in `C.13:4.1.1` when B.3.5 is elected: identify the portion and whole, delimiting boundary, same-stuff/content basis, extensive measure and compatible unit. The aspect profile of `slice` has different conditions.
+- **AspectOf** uses one current `C.13 slice` trace when that assurance branch is elected. The trace names the aspect, bearer, facet rule, relation occurrence, and identity conditions.
 - **PhaseOf** is temporal parthood and shall not be grounded through `Γ_m`. Its assurance follows the same-holon and proper-interval criteria, the separately declared selected-partition rule when one is claimed, and `Γ_time` ordering (`B.1.4`).
 - A collection's own belongs-to relation remains distinct from constructive parthood (`CC-MEM-2`). State its participants, what makes it obtain, and whether later belonging is the same occurrence or a new one under the collection's pattern. A direct claim needs no B.3.5 fields. If B.3.5 assurance is elected, link `validationMode=axiomatic` to one current `C.13 set` trace that reports the relation that already obtains. The trace supports neither a ComponentOf inference nor a universal prohibition on separately grounded parthood.
 
@@ -28344,7 +28347,7 @@ It also corrects analysis and representation bias. A Characteristic, viewpoint, 
 
 | ID                                 | Requirement                                                                                                                                                               | Purpose                                 |
 | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
-| **CC‑POR‑1 (Domain)**              | `PortionOf(x,y)` is valid only if the modelling scope declares at least one **extensive measure** μ for y (mass, volume, token count, byte size, wall‑time budget, etc.). | Prevents “portion” without a measure.   |
+| **CC‑POR‑1 (Domain)**              | `PortionOf(x,y)` is valid only if the modelling scope declares an **extensive measure** μ for y. `ProperPortionOf` additionally requires the strict inequality in :5.1/POR-2; check it independently of additivity. | Prevents “portion” without a measure.   |
 | **CC‑POR‑2 (Kind)**                | x and y **SHALL** share the same μ‑kind and compatible units (or an explicit conversion).                                                                                 | Prevents apples‑to‑oranges addition.    |
 | **CC-POR-3 (Monotone additivity)** | For disjoint portions `x ⟂ z` with `PortionOf(-,y)`, whose join is admitted under the same measure and boundary rule: μ(x ⊔ z) = μ(x)+μ(z). | Justifies the additive measure of that admitted join; additions, removals and boundary flows still need their applicable conservation account. |
 | **CC‑POR‑4 (Boundary)**            | For physical systems, the whole’s boundary encloses the union of portions; cross‑boundary flows are **not** portions.                                                     | Distinguishes stock vs flow.            |
@@ -28373,7 +28376,7 @@ It also corrects analysis and representation bias. A Characteristic, viewpoint, 
 
 | ID | Requirement | Purpose |
 | --- | --- | --- |
-| **CC-GND-1** | A direct `ut:StructPartOf` assertion is usable without this assurance profile. When its publication elects B.3.5 or a named current requirement demands that profile, the assertion must use `validationMode=axiomatic` and link through `tv:groundedBy` to its applicable current C.2.1 `sum` or `slice` construction trace. The trace reports independently grounded participants, direct relation occurrences, the construction rule, and identity or reidentification conditions; it creates none of them. | Makes an elected assurance basis inspectable without making it the relation's truth-maker. |
+| **CC-GND-1** | A direct `ut:StructPartOf` assertion is usable without this assurance profile. When its publication elects B.3.5 or a named current requirement demands that profile, the assertion must use `validationMode=axiomatic` and link through `tv:groundedBy` to its applicable current C.2.1 `sum` or `slice` construction trace. The trace reports independently grounded participants, direct relation occurrences, the construction rule, and identity or reidentification conditions. | Makes an elected assurance basis inspectable without making it the relation's truth-maker. |
 | **CC-GND-2** | For epistemic edges (`ut:EpiPartOf` and its sub-types), retain the independently established content-part basis. When a publication choice or named current requirement elects B.3.5, supply the support references and `validationMode` required by the applicable epistemic branch. Preserve any evidence reference independently required by the receiving use. | Harmonises evidence treatment for epistemic edges. |
 | **CC-GND-3** | The public query Standard remains `?x ut:PartOf+ ?y`; every result still depends on its direct relation semantics and identity. Alias, trace, or validation mode creates or reidentifies no occurrence. | Preserves one query surface without moving authority into assurance apparatus. |
 
@@ -28385,20 +28388,20 @@ It also corrects analysis and representation bias. A Characteristic, viewpoint, 
 | --- | --- | --- |
 | **CC-MEM-1** | State collection belonging with the predicate defined for that subject. Name the entity, collection, collection identity rule, what makes belonging begin and end, whether it can recur, and how past belonging is said. | Keeps unlike fleets, corpora, communities, populations, products, and Suites under their own rules. |
 | **CC-MEM-2** | From collection belonging alone infer neither a constructive part relation nor holonhood. Also do not infer that either is impossible. | Separates non-implication from universal prohibition. |
-| **CC-MEM-3** | If the same collection independently passes all six `A.1` matters and a constructive part relation obtains, publish that second claim under its direct pattern. A direct belonging sentence needs no B.3.5 fields. When B.3.5 assurance is elected for it, use `validationMode=axiomatic` and one current `C.13 set` trace; the trace reports the collection, entities, relation occurrences, rule, and identity conditions and creates none of them. | Keeps collection belonging, constructive parthood, assurance, and collective action separate. |
+| **CC-MEM-3** | If the same collection independently passes all six `A.1` matters and a constructive part relation obtains, publish that second claim under its direct pattern. A direct belonging sentence needs no B.3.5 fields. When B.3.5 assurance is elected for it, use `validationMode=axiomatic` and one current `C.13 set` trace; the trace reports the collection, entities, relation occurrences, rule, and identity conditions. | Keeps collection belonging, constructive parthood, assurance, and collective action separate. |
 
 #### A.14:9.7 - CT2R‑LOG handshake (Working‑Model → Assurance)
 
 | ID                 | Requirement                                                                                                                                                              | Purpose                                                                                 |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------- |
-| **CC-A14-10** | A published direct relation may remain usable without B.3.5 fields. When its publication elects B.3.5, follow the relation's branch: structural parthood links its current `sum` or `slice` construction trace, while collection belonging links one current `C.13 set` trace under the collection's own rule; both declare `validationMode=axiomatic`. The direct relation and identity tests remain decisive; trace and mode create neither occurrence nor identity. | Keeps direct use lightweight while making an elected assurance posture inspectable. |
+| **CC-A14-10** | A published direct relation may remain usable without B.3.5 fields. When its publication elects B.3.5, follow the relation's branch: structural parthood links its current `sum` or `slice` construction trace, while collection belonging links one current `C.13 set` trace under the collection's own rule; both declare `validationMode=axiomatic`. The direct relation and identity tests remain decisive. | Keeps direct use lightweight while making an elected assurance posture inspectable. |
 | **CC‑A14‑11**      | **PhaseOf** edges **SHALL NOT** use Γ_m for grounding. The relation record **SHALL** provide identity and proper-interval criteria per **CC‑PHA‑1/2**; a selected exhaustive partition additionally follows **CC‑PHA‑3** and references **Γ_time** when ordering matters. | Keeps temporal parthood distinct from construction and partition-specific constraints.       |
 
 #### A.14:9.8 - Relation-use decision procedure
 
 **Step 0 — Recover the claim.** If the sentence concerns system-role-kind classification or assignment, Method, Work, evidence, a Characteristic, viewpoint, view, projection, partition, or temporal claim without parthood, use that direct pattern. A.14 is not selected merely because ordinary speech says *part* or *aspect*. State different obtaining relations as separate claims.
 
-**Step 1 — Does the claim concern measured stuff or extent?** If yes, use **PortionOf**. Declare μ, unit, boundary, and additivity conditions.
+**Step 1 — Does the claim concern measured stuff or extent?** If yes, use **PortionOf** after declaring μ, unit, boundary and additivity conditions. For **ProperPortionOf**, also check the strict inequality in :5.1/POR-2 independently of additivity.
 
 **Step 2 — Does the claim concern a discrete integrated or conceptual part?** If yes, use **ComponentOf** or **ConstituentOf**. Do not use PortionOf merely because the part can also be measured.
 
@@ -28492,12 +28495,13 @@ The resulting collection alternatives are deliberately distinct:
 
 A.14 supplies no immediate cross-domain query key for all belongs-to relations; use `F.18` to name a narrower relation when repeated query, comparison, or declaration use justifies that extra vocabulary.
 
-The rest of the catalogue retains its own governing source lines:
+The other relations draw on the following bounded contributions. The cited models have different domains and identity commitments; A.14's rules are FPF adaptations.
 
-- **Metrical mereology** advances motivate **PortionOf** with explicit μ and Σ-laws, preventing the classic “stuff as components” fallacy.
-- **Temporal parts and identity through change** motivate **PhaseOf** as transitive proper temporal parthood, with nesting and overlap allowed, partition-specific coverage and non-overlap, and escalation when identity criteria fail.
-- **Engineering product models**, including the ISO 15926 family, pressure authors to keep functional classification, physical product breakdown, and stocks or consumables distinct; A.14 routes those claims to their direct relations instead of one part tree.
-- **Knowledge-episteme edition histories** in contemporary MBSE and open-science practice motivate explicit endpoint identities and provenance-preserving composition. FPF uses the C.2.1 identity triple and independently obtaining `EpistemeEditionRelation` for distinct editions; A.14 retains `PhaseOf` only for a proper temporal restriction of one unchanged episteme.
+- **Measured parts.** Krifka's historical [*Nominal Reference, Temporal Constitution and Quantification in Event Semantics* (1989)](https://semantics.uchicago.edu/kennedy/classes/s13/aspect/krifka89.pdf), §2, ties measurement to a specified part structure and restricts addition to non-overlapping parts. Tao's [*An Introduction to Measure Theory*](https://terrytao.wordpress.com/wp-content/uploads/2012/12/gsm-126-tao5-measure-book.pdf), §1.4.3, supplies the general limit: a nonempty set can have zero measure, so proper inclusion need not give strictly smaller measure. **Adapt:** :5.1 keeps POR-2 as an independent condition and gives one sufficient finite-measure case; POR-3 applies only to admitted disjoint joins. Same-stuff/content, compatible units, boundary identity and any conservation law remain separately stated conditions of the FPF use.
+- **Temporal parts.** [BFO 2020](https://raw.githubusercontent.com/BFO-ontology/BFO-2020/master/21838-2/owl/bfo-core.owl), `BFO_0000139`, defines transitive temporal parthood between occurrents. The [OWL-Time Recommendation (2017)](https://www.w3.org/TR/2017/REC-owl-time-20171019/), §§4.2.23–4.2.35, distinguishes strict interval inclusion, equality and overlap. **Adapt:** :5.2 applies proper temporal restriction to a continuing holon under its own identity rule. That holon domain, identity condition, partition-only coverage and non-overlap, and identity-failure return are FPF choices. OWL-Time supplies interval relations; the subject pattern supplies holon identity.
+- **Engineering product identity and composition.** [ISO 15926-2:2003](https://www.iso.org/standard/29557.html), §5.2.6 (accessible [standard excerpt](https://www.normsplash.com/Samples/ISO/123263834/ISO-15926-2-2003-en-2.pdf), pp. 108–113), distinguishes simple composition from arrangement and assembly, and functional continuity from matter/energy continuity. The same tank can satisfy both object criteria; a stream can instead have path-based identity. Its temporal-whole-part relation belongs to its own 4D model of possible individuals. **Adapt:** choose the identity criterion and composition relation before asserting a part claim. FPF's specific PortionOf conditions and resource conservation accounts come from :5.1 and the applicable domain, not from a blanket rule about all stocks or consumables in ISO 15926.
+- **Engineering-model versions.** OMG's [*Systems Modeling API and Services 1.0* (March 2026)](https://www.omg.org/spec/SystemsModelingAPI/1.0/PDF), §§7.1.1–7.1.2 and 7.2.3, distinguishes a continuing `DataIdentity`, separately identified `DataVersion` values and commit history. **Adapt:** identify the compared endpoints and the history being asserted. These software identities do not supply C.2.1's episteme-identity test.
+- **Provenance and research versions.** The historical [PROV-DM Recommendation (2013)](https://www.w3.org/TR/2013/REC-prov-dm-20130430/), §§5.2, 5.4 and 5.5, distinguishes revision, derivation, alternate and specialization relations. [Zenodo versioning](https://zenodo.org/help/versioning) distinguishes a version DOI from the concept DOI for all versions; its [file-correction policy](https://help.zenodo.org/docs/deposit/manage-files/#modify-files-after-publication) also permits bounded corrections without changing the DOI. **Adapt:** recover the content and provenance of each endpoint. FPF uses the C.2.1 identity triple and independently obtaining `EpistemeEditionRelation` for distinct epistemes; A.14 reserves `PhaseOf` for a proper temporal restriction of one unchanged episteme.
 
 The catalogue keeps direct component, constituent, portion, bearer-dependent aspect, phase, and collection-belonging claims distinct, while a separately grounded constructive part claim remains possible without another universal relation vocabulary.
 
@@ -28505,7 +28509,7 @@ The catalogue keeps direct component, constituent, portion, bearer-dependent asp
 #### A.14:14.1 - Aspect branch application
 
 
-For AspectOf, the BORO and CCO rows above supply the constructor-sensitive question: which bearer, facet rule, dependent aspect, and identity conditions make this structural part? Fine's composition-first pressure blocks a bare *aspect* label from deciding parthood. A.14 adapts that line in `A.14:5.3`, the decision procedure, and `CC-ASP-1` through `CC-ASP-4`; `C.13 slice` remains an optional report, not the constructor of the aspect. The serious alternatives are routed rather than renamed: measured Characteristic (`C.16`/`A.19`), viewpoint or view (`E.17`), representation or projection (`C.29` or its direct pattern), selected partition, and temporal restriction (`PhaseOf`/`C.27.TA`). Identify the actual relation before reusing the word *aspect*.
+For AspectOf, A.14 adapts the constructor-and-identity questions of Partridge et al. and Florio and Linnebo's Core Constructional Ontology: which bearer, facet rule, dependent aspect and identity conditions make this structural part? The bearer/facet conditions and required `StructPartOf` relation are FPF choices. Fine's historical composition-first treatment motivates identifying the composition operation before the part claim. A.14 adapts that line in `A.14:5.3`, the decision procedure, and `CC-ASP-1` through `CC-ASP-4`; `C.13 slice` remains an optional report, not the constructor of the aspect. The serious alternatives are routed rather than renamed: measured Characteristic (`C.16`/`A.19`), viewpoint or view (`E.17`), representation or projection (`C.29` or its direct pattern), selected partition, and temporal restriction (`PhaseOf`/`C.27.TA`). Identify the actual relation before reusing the word *aspect*.
 
 
 ### A.14:15 - Relations
@@ -45073,7 +45077,7 @@ B.3's source account and [ISO/IEC/IEEE 15026-2:2022](https://www.iso.org/standar
 
 **At a glance.** Use B.3.5 when a human-facing structural relation or a collection's own belongs-to relation has been selected for an additional assurance account without exposing constructive machinery as the public vocabulary.
 
-**Use this when.** Use this assurance profile only when a publication choice or named current requirement elects it for a direct relation claim. State the readable relation first. After election, structural parthood and collection belonging follow separate trace and `validationMode` obligations. The trace reports independently grounded facts for inspection; it creates neither the relation occurrence nor the entity it describes.
+**Use this when.** Use this assurance profile only when a publication choice or named current requirement elects it for a direct relation claim. State the readable relation first. After election, structural parthood and collection belonging follow separate trace and `validationMode` obligations. The trace reports the relation facts and their grounds for inspection.
 
 **What goes wrong if missed.** The readable relation and its assurance account collapse: authors either lose usable relation sentences, treat collection belonging as parthood, prohibit separately grounded parthood by label, or make a trace look like the cause of the claim.
 
@@ -45082,7 +45086,7 @@ B.3's source account and [ISO/IEC/IEEE 15026-2:2022](https://www.iso.org/standar
 **Not this pattern when.** Not this pattern when a direct relation claim is sufficient and no publication choice or current requirement elects this assurance profile. Also not this pattern when the current question is how to construct the trace (`C.13`), which mereology relation kind is intended (`A.14`), whether a whole must be reidentified (`B.2`), or whether a candidate name deserves durable U-kindhood (`E.24.UK`).
 
 > **One‑line summary.**
-> CT2R-LOG keeps **ComponentOf**, ordinary belongs-to sentences, **PortionOf**, and **AspectOf** readable while respecting their different relation kinds. When this assurance profile is elected, structural parthood uses its applicable construction account; collection belonging uses a current `C.13 set` trace. Neither branch changes what makes the direct relation obtain, and neither trace decides whether a separate part relation is possible.
+> CT2R-LOG keeps **ComponentOf**, ordinary belongs-to sentences, **PortionOf**, and **AspectOf** readable while respecting their different relation kinds. When this assurance profile is elected, structural parthood uses its applicable construction account; collection belonging uses a current `C.13 set` trace. The direct relation pattern supplies the conditions for each relation, including any separately claimed parthood.
 
 ### B.3.5:1 - Intent
 
@@ -45101,7 +45105,7 @@ The pattern that defines the relation still decides when it obtains. CT2R-LOG re
 
 ### B.3.5:2 - Problem Frame
 
-B.3.5 exists where a readable Working-Model relation must remain usable by practitioners while assurance readers still need a grounding relation and declared validation stance. The EntityOfConcern is not a notation, trace file, or tool output. It is the relation-use discipline that keeps the public relation layer and assurance grounding layer distinct.
+B.3.5 exists where a readable Working-Model relation must remain usable by practitioners while assurance readers still need a grounding relation and declared validation stance. The pattern governs how a public relation claim connects to the support required by its selected assurance use.
 
 ### B.3.5:3 - Problem
 
@@ -45125,9 +45129,9 @@ CT2R‑LOG introduces a **two‑link discipline** and a **validation flag** arou
 2. **Grounding link (assurance level).**
    Each relation assertion covered by this elected profile carries `tv:groundedBy` according to its direct relation kind:
 
-   * **Structural parthood** (`ComponentOf`, `PortionOf`, or `AspectOf`) requires one current C.2.1 construction-trace episteme in the applicable `sum` or `slice` form and `validationMode=axiomatic`. `postulate` is not available for this branch.
+   * **ComponentOf, PortionOf, or AspectOf** requires one current C.2.1 construction-trace episteme in the applicable `sum` or `slice` form and `validationMode=axiomatic`. PortionOf uses the measured-portion profile in `C.13:4.1.1`; AspectOf uses the facet profile. This requirement follows the asserted relation, including measured text portions, and does not make those two profiles interchangeable.
    * **Collection belonging under the collection's own rule** requires one current C.2.1 `C.13 set` trace and `validationMode=axiomatic`. The trace reports the collection, the entity, the already established relation, the rule for belonging, and the identity conditions. It does not make the entity a constructive part, make belonging obtain, or prove that separately grounded parthood is impossible.
-   * **Other epistemic or constitutive edges** may use an admissible evidence object or logical argument under `validationMode ∈ {inferential, postulate}` when no constructive trace is appropriate.
+   * **Other epistemic or constitutive edges** use the support appropriate to their claim: an admissible evidence object for `postulate`, a followable argument for `inferential`, or a qualifying C.13 construction account for `axiomatic`. Constructive grounding is optional in this branch; select the mode from the basis actually used for this assertion.
 
 3. **Validation flag (author intent).**
    Every relation or aggregation rule covered by this profile carries `tv:validationMode` with one of:
@@ -45135,7 +45139,7 @@ CT2R‑LOG introduces a **two‑link discipline** and a **validation flag** arou
    * **`inferential`** — reasoned consequence with a followable argument; or
    * **`axiomatic`** — one inspectable construction account is the declared assurance basis.
 
-The direct branch above selects which modes and grounding targets are allowed. The flag is an assurance posture, not a species of world-side relation and not an identity or timelessness guarantee.
+The applicable branch above selects the allowed modes and grounding targets. The mode declares the author's justification posture; B.3.3 judges what that support establishes for the receiving use.
 
 > **Relation, grounding, and assurance.**
 > **Published relation claim:** `:PumpA ut:ComponentOf :Skid12`. Assess its expression properties under C.2.3 when that assessment matters to the use.
@@ -45170,16 +45174,16 @@ When an inadequate working account requires general diagnostic recovery of the e
 ### B.3.5:5 - Vocabulary & notation (normative)
 
 * **Working-Model relations (front‑stage).**
- `ut:ComponentOf`, `ut:PortionOf`, and `ut:AspectOf` are publication-grade structural relations under their direct A.14 rules. A collection uses the belongs-to predicate defined by the pattern for that collection; FPF has no public generic `ut:MemberOf` relation. Belonging is not a sub-property of `ut:PartOf`, `ut:StructPartOf`, or `ut:EpiPartOf`, but the same entities may separately stand in a constructive part relation when its own rule and all six A.1 matters pass.
+ `ut:ComponentOf`, `ut:PortionOf`, and `ut:AspectOf` are publication-grade part relations under their direct A.14 rules. A collection uses the belongs-to predicate defined by the pattern for that collection; FPF has no public generic `ut:MemberOf` relation. Belonging is not a sub-property of `ut:PartOf`, `ut:StructPartOf`, or `ut:EpiPartOf`, but the same entities may separately stand in a constructive part relation when its own rule and all six A.1 matters pass.
 
 * **Alias principle (lexical).**
   `tv:AliasOf` links a **public relation type** to the exact direct relation principle whose reading it carries (for example, `ComponentOf` points to the direct structural-component principle). The alias supports comparison; it neither defines an occurrence nor says that a `sum` expression produced the relation.
 
 * **Grounding (per‑edge).**
- When this profile is elected for structural parthood, `tv:groundedBy` points to the applicable current C.2.1 construction trace and `validationMode=axiomatic`. When elected for collection belonging, it points to one current `C.13 set` trace under the collection's own rule and also uses `validationMode=axiomatic`. Other epistemic or constitutive claims may use a logical argument or evidence object under their permitted mode. Every target supports replay of the assertion's basis; it creates neither the direct occurrence nor entity identity.
+ When this profile is elected for structural parthood, `tv:groundedBy` points to the applicable current C.2.1 construction trace and `validationMode=axiomatic`. When elected for collection belonging, it points to one current `C.13 set` trace under the collection's own rule and also uses `validationMode=axiomatic`. Other epistemic or constitutive claims may use a logical argument or evidence object under their permitted mode. Every target lets a reviewer inspect the assertion's basis.
 
 * **Trace family.**
-  `Γ_m.sum`, `Γ_m.set`, and `Γ_m.slice` are the C.13 forms used by the covered branches. `sum` and `slice` report structural-parthood constructions; `set` reports an already grounded collection and the belongs-to occurrences established under its own rule. No form creates the facts it reports, and no temporal or workflow form is added.
+  `Γ_m.sum`, `Γ_m.set`, and `Γ_m.slice` are the C.13 forms used by the covered branches. `sum` and `slice` report structural-parthood constructions; `set` reports an already grounded collection and the belongs-to occurrences established under its own rule. Temporal and workflow claims retain their own patterns.
 
 * **Validation flag.**
  `tv:validationMode ∈ {postulate, inferential, axiomatic}` is required on every claim covered by this elected profile. Structural parthood and collection belonging use `axiomatic` with their branch-specific current trace. A direct relation outside the profile has no B.3.5 field obligation.
@@ -45195,7 +45199,7 @@ When an inadequate working account requires general diagnostic recovery of the e
   In the background, the published assertion links to `:trace_Γₘ_sum_456`, a C.2.1 episteme that names the exact pump and skid, the direct fastening, coupling, enclosure, terminal, flange, and seal occurrences that obtain, the applicable skid assembly rule, and the skid reidentification rule. An auditor replays that account to inspect the assertion's basis. The same listed parts under a different assembly can form another whole, while a permitted pump replacement can preserve Skid12; the direct relations and reidentification rule, not the trace or input list, decide.
 
 * **Assurance stance & R-lane.**
-Because the assertion is linked to the construction account required by its elected branch, authors set `tv:validationMode=axiomatic`. The account makes the relation's basis inspectable; the declaration does not strengthen that relation, fix identity or make it timeless. B.3.3 considers the actual grounding and its currentness for the receiving claim and use.
+Because the assertion is linked to the construction account required by its elected branch, authors set `tv:validationMode=axiomatic`. The account makes the relation's basis inspectable. B.3.3 considers the actual grounding and its currentness for the receiving claim and use.
 
 * **Contrast (epistemic).**
 When the same team asserts `:MassFlowRepresentation RepresentationOf :FlowModel`, they declare `validationMode=postulate` and attach a calibration dataset instead of a Γₘ trace. Judge that empirical basis for the claimed representation and receiving use; the declared mode alone does not establish lower confidence. Under B.3.4, a changed configuration, calibration qualification or other relevant premise can reopen the claim. The dataset's age alone does not defeat still-applicable support.
@@ -45204,7 +45208,11 @@ Result: **one** visible relation for engineers, a grounding reference and a vali
 
 **Collection case — Fleet North.** First publish the ordinary sentence: “Vehicle 12 belongs to Fleet North under its registration rule.” Under that rule, the occurrence begins when Fleet North accepts the vehicle's registration, ends on withdrawal or transfer, and a later accepted registration begins another occurrence. If no current publication choice or requirement elects this profile, the direct sentence is sufficient and the author stops.
 
-Here the fleet publication elects the profile. It links the assertion to one current C.13 `Γ_m.set` trace that names Fleet North and its identity rule, Vehicle 12, the obtaining registration occurrence, the registration rule, and its ending and recurrence conditions; it declares `validationMode=axiomatic`. If a vehicle enters or leaves the fleet, or the rule changes, the earlier trace remains an account of its earlier state but is not current support for the later assertion. The register and trace report the relation; neither creates it. They prove neither `ComponentOf` nor that a separately grounded constructive part relation is impossible.
+Here the fleet publication elects the profile. It links the assertion to one current C.13 `Γ_m.set` trace that names Fleet North and its identity rule, Vehicle 12, the obtaining registration occurrence, the registration rule, and its ending and recurrence conditions; it declares `validationMode=axiomatic`. If a vehicle enters or leaves the fleet, or the rule changes, the earlier trace remains an account of its earlier state but is not current support for the later assertion. The register and trace report this registration history. Any separately claimed ComponentOf relation needs its own grounds.
+
+**Epistemic constituent case.** A proof of “the product of consecutive integers is even” uses the lemma “one of the two integers is even.” Inspection of that proof establishes `Lemma A ConstituentOf Proof P`. With no elected B.3.5 profile, the relation can be stated directly. A recipient may still require access to the proof under its own evidence requirement.
+
+If that recipient elects B.3.5 and the basis is the followable argument, link the assertion through `tv:groundedBy` to that argument and choose `inferential`. If a qualifying C.13 account instead explains the proof's independently established constituent relations and assembly, it can supply an `axiomatic` basis. A later proof that omits the lemma requires a fresh content-part judgement; the earlier support remains about Proof P. Select and assess the support for the claim actually being used.
 
 ### B.3.5:7 - Author Standard (at a glance)
 
@@ -45216,7 +45224,7 @@ When you add or import a relation edge:
 
    * Structural parthood → the applicable current construction trace and `validationMode=axiomatic`.
    * Collection belonging under the collection's own rule → one current `C.13 set` trace and `validationMode=axiomatic`.
-   * Another permitted epistemic or constitutive claim → the branch's logical argument or evidence object and allowed mode.
+   * Another permitted epistemic or constitutive claim → the evidence object, argument or qualifying C.13 account actually used, with its corresponding mode from :4.
 3. **Declare the selected `tv:validationMode`** for every covered claim.
 
 
@@ -45251,10 +45259,10 @@ When you add or import a relation edge:
   * `tv:groundedBy` — points to the **author's grounding account** (Constructive, Logical, or Mapping, as applicable). When a construction trace is recorded, it is a C.2.1 episteme with its own edition and currentness.
     The `tv:` namespace is part of the Core conceptual lexicon; it is **notation‑agnostic** and **tool‑agnostic**.
 
-* **`tv:validationMode ∈ {postulate, inferential, axiomatic}`.** A **declaration by the author** of the *confidence stance* for a relation instance:
+* **`tv:validationMode ∈ {postulate, inferential, axiomatic}`.** A **declaration by the author** of the *justification posture* for a relation instance:
   *postulate* — a pragmatic working claim;
   *inferential* — a reasoned consequence;
-  *axiomatic* — the author declares that a constructive account is the assurance basis for this assertion. The mode does not classify the world-side relation and guarantees neither identity nor timelessness.
+  *axiomatic* — the author declares that a constructive account is the assurance basis for this assertion. Assess that account under the relation's conditions and its receiving use.
 
 > Use these terms consistently across notations; their meanings do not depend on one notation or execution environment.
 
@@ -45269,11 +45277,11 @@ If a Working‑Model relation follows a known general principle, the author **SH
 **S‑3 (Grounding by mode).**
 For every relation instance covered by an elected B.3.5 profile, the author **MUST** set `validationMode` and follow the corresponding grounding stance:
 
-* **S‑3.a `postulate`.** For a branch that permits it, the author may omit constructive grounding, state the working scope, and give the empirical cues that would challenge the claim.
+* **S‑3.a `postulate`.** For a branch that permits it, state the working scope, link `tv:groundedBy` to an admissible evidence object, and give the empirical cues that would challenge the claim. No construction trace is required by this mode.
 
-* **S‑3.b `inferential`.** For a branch that permits it, the author gives a short reasoned chain from admitted statements that a peer can follow.
+* **S‑3.b `inferential`.** For a branch that permits it, link `tv:groundedBy` to a short reasoned chain from admitted statements that a peer can follow.
 
-* **S‑3.c `axiomatic`.** The author links the assertion to the current C.2.1 trace episteme required by its branch. A competent peer can recover the exact participants, direct relation occurrence, applicable rule, and identity or reidentification conditions. The account supports inspection; it creates none of those facts.
+* **S‑3.c `axiomatic`.** The author links the assertion to the current C.2.1 trace episteme required by its branch. A competent peer can recover the exact participants, direct relation occurrence, applicable rule, and identity or reidentification conditions. The account makes those facts inspectable.
 
 * **S‑3.d Structural parthood.** A covered `ComponentOf`, `PortionOf`, or `AspectOf` assertion requires `validationMode=axiomatic` and the applicable current C.13 construction account; `postulate` is not available.
 
@@ -45314,10 +45322,11 @@ Core prose **MUST NOT** introduce CI/CD terms, file formats, APIs, or machine‑
 **M‑1.** State the relation in **Working‑Model** form (e.g., “Impeller `ComponentOf` Pump”).
 **M‑2.** If a publication choice or named current requirement elects this profile, pick `validationMode`; otherwise keep the direct relation claim and stop:
 
-* For a permitted exploratory claim, choose **postulate** and state scope plus challenge cues.
-* For a permitted conclusion from known statements, choose **inferential** and list the short argument.
+* For a permitted exploratory claim, choose **postulate**, link its empirical support, and state scope plus challenge cues.
+* For a permitted conclusion from known statements, choose **inferential** and link the short argument.
 * For structural parthood covered by the profile, choose **axiomatic** and link the applicable current construction account.
 * For collection belonging covered by the profile, choose **axiomatic** and link one current `C.13 set` trace that reports the already established relation under the collection's own rule.
+* For another permitted epistemic or constitutive claim whose chosen basis is a qualifying C.13 account, choose **axiomatic** and link that account.
 
 **M‑3.** Add `tv:AliasOf` only when a named direct relation principle helps reviewers recognize the intended reading; do not alias the relation to a constructor result.
 **M‑4.** If assembly uses two parallel lines, state the actual Method/Work and temporal facts. Add any independently obtaining part relation under its own rule; parallelism alone does not establish it.
@@ -45341,10 +45350,10 @@ Core prose **MUST NOT** introduce CI/CD terms, file formats, APIs, or machine‑
 | ----------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | **CC-CT2R-1 (Canonical-first).**                | A relation published for readers **SHALL** be stated in Working-Model terms, such as `ut:ComponentOf` or an ordinary belongs-to sentence, as the canonical form; any constructive or logical justification is recorded as **grounding** (not as the definition).                                         | Preserve human-first canon and didactic primacy.                          |
 | **CC‑CT2R‑2 (Mode declaration).**               | For every relation or rule covered by an elected B.3.5 profile, the author **SHALL** declare `tv:validationMode ∈ {postulate, inferential, axiomatic}` in prose. A direct relation outside the profile needs no B.3.5 mode. | Make elected assurance intent explicit without taxing ordinary direct use. |
-| **CC‑CT2R‑3 (Structural axiomatic grounding).** | A covered structural parthood assertion uses `validationMode=axiomatic` and links to its applicable current C.2.1 `sum` or `slice` construction trace. The account reports independently grounded participants, occurrences, rule, and identity conditions; it creates none. | Make elected structural assurance inspectable without turning it into a truth-maker. |
+| **CC‑CT2R‑3 (Structural axiomatic grounding).** | A covered structural parthood assertion uses `validationMode=axiomatic` and links to its applicable current C.2.1 `sum` or `slice` construction trace. The account reports independently grounded participants, occurrences, rule, and identity conditions. | Make elected structural assurance inspectable without turning it into a truth-maker. |
 | **CC‑CT2R‑4 (No parthood from order/time alone).** | Authors **SHALL NOT** infer parthood from sequence, parallelism or temporal slicing alone. Any Work-part or proper-phase claim satisfies A.15.1 or A.14 independently; Method order and temporal relations use their direct patterns. | Preserve distinct relation meanings while allowing independently established temporal parts. |
 | **CC‑CT2R‑5 (Collection vs part).** | Authors keep collection belonging under the collection's own rule distinct from every `PartOf` branch. A direct claim needs no profile fields; after B.3.5 election it uses `validationMode=axiomatic` and one current `C.13 set` trace. If constructive parthood also obtains, state and support that claim separately. | Prevent category errors without taxing ordinary belongs-to prose or prohibiting a stronger independently grounded claim. |
-| **CC‑CT2R‑5a (Set trace reports).** | The elected set trace names the collection, the entity said to belong, the already established occurrence, the collection's own belongs-to rule, and the identity conditions. It creates none of them and supplies no structural-composition reliability. | Keeps optional assurance from becoming ontology. |
+| **CC‑CT2R‑5a (Set trace reports).** | The elected set trace names the collection, the entity said to belong, the already established occurrence, the collection's own belongs-to rule, and the identity conditions. The set trace supplies no structural-composition reliability. | Keeps optional assurance from becoming ontology. |
 | **CC‑CT2R‑6 (Fit is explicit).** | Where a claim relies on a mapping or alignment, the author **SHALL** state its actual applicability, preserved/lost distinctions and consequence for this claim. Any quantitative reliability adjustment needs a justified receiving model, compatible Scale and calculation; a CL label alone supplies none. | Keep integration limits inspectable without invented reliability arithmetic. |
 | **CC‑CT2R‑7 (Notational independence).**        | Core meaning **MUST NOT** hinge on any specific diagram or syntax; illustrative renderings, if present, are labelled *informative*.                                                                                                           | Ensure longevity and cross‑discipline portability.                        |
 | **CC‑CT2R‑8 (Layer direction).**                | Grounding flows **downwards** from Working‑Model to Assurance layers (Mapping/Logical/Constructive). Authors **SHALL** avoid back‑defining the canonical relation by its Mapping, Logical, Constructive, or Empirical grounding.                                                  | Preserve unidirectional dependence of layers.                             |
@@ -45380,7 +45389,7 @@ Core prose **MUST NOT** introduce CI/CD terms, file formats, APIs, or machine‑
 CT2R-LOG treats the **human-readable, task-appropriate relation** (e.g., `ut:ComponentOf`) as the **canonical publication form** because that is what engineers and managers actually use to reason, decide, and communicate. The formal layers **ground** that form; they do not replace it. Authors state the relation readers need, then point to the support required by the selected assurance use.
 
 **14.2 Why two `tv:` links—and why concept‑only?**
-`tv:AliasOf` and `tv:groundedBy` name **conceptual bridges** from a public Working-Model relation to its direct principle and assurance account. They mandate no notation. They keep authors explicit about the relation reading, the support being invoked, and when that support must be current, without letting an alias, trace, or mode define the world-side occurrence.
+`tv:AliasOf` and `tv:groundedBy` name **conceptual bridges** from a public Working-Model relation to its direct principle and assurance account. They keep authors explicit about the relation reading, the support being invoked, and when that support must be current. The same conceptual obligations can be expressed in different notations.
 
 **14.3 Why a triad of `validationMode`?**
 The triad **{postulate, inferential, axiomatic}** distinguishes permitted justification postures, not stages of formality or increasing confidence. The direct relation kind and elected profile determine which posture and support are appropriate for the receiving claim and use. A sufficient calibration account in a branch permitting `postulate` needs no mode promotion; an elected structural-parthood or collection-belonging claim still requires its respective current construction trace. Where a load-bearing claim needs stronger proof or an empirical check, select that contribution for the assurance gap it can resolve, not to advance through the three labels. The mode declaration changes neither the canonical relation nor the strength of its support.
@@ -45389,7 +45398,7 @@ The triad **{postulate, inferential, axiomatic}** distinguishes permitted justif
 Order and temporal coverage answer different questions from parthood. A chronology or diagram supplies no part relation by itself. A.15.1 can independently establish a Work temporal part, and A.14 a proper temporal phase of an unchanged non-Work carrier. Preserve those relations alongside the applicable Method and temporal claims; B.1.4 aggregates only the relations already recovered.
 
 **14.5 Why point to `Γ_m.sum | set | slice` (Compose‑CAL) for constructive grounding?**
-The three C.13 forms—**sum, set, slice**—are sufficient to report the recurring construction accounts for integrated assemblies, collections, and aspects without expanding the kernel. They are not identity functions. A truthful account carries exact participants, direct relation occurrences, the applicable rule, and identity or reidentification conditions: the same inputs under another assembly can form another whole, while a permitted replacement can preserve one whole.
+The three C.13 forms—**sum, set, slice**—are sufficient to report the recurring construction accounts for integrated assemblies, collections, aspects and measured portions without expanding the kernel. They are not identity functions. A truthful account carries exact participants, direct relation occurrences, the applicable rule, and identity or reidentification conditions: the same inputs under another assembly can form another whole, while a permitted replacement can preserve one whole.
 
 **14.6 Why mental obligations rather than process mandates?**
 These obligations govern how a relation claim is justified and published: declare a permitted mode for an elected profile, supply the branch's required support, and keep order and temporal claims distinct from parthood. A tool can help inspect that account; its successful execution does not replace the relation's grounds. The requirements concern the claim's justification, not attainment of an axiomatic strength level.
@@ -57393,21 +57402,21 @@ The five actions distinguish maintenance from change. `Keep` preserves a situate
 > **Status:** Stable
 > **Type:** Pattern
 
-**At a glance.** Use C.13 when a practitioner must show how identified entities and relations that obtain form one whole, collection, or aspect. The account explains how those facts support the whole, collection, or aspect; writing a `sum`, `set`, or `slice` expression does not create the entities or relations.
+**At a glance.** Use C.13 when a practitioner must show how identified entities and relations that obtain form one whole, collection, aspect, or measured portion. The account names the relations and conditions on which that construction or delimitation depends.
 
-**Use this when.** Use this pattern after the direct relation patterns have identified the participants and relations that obtain, when you need a compact, inspectable account of how they assemble a whole, form a collection, or distinguish an aspect. Reuse an existing ordinary account when it already supplies those facts and their construction rule; the notation is optional.
+**Use this when.** Use this pattern after the direct relation patterns have identified the participants and relations that obtain, when you need a compact, inspectable account of how they assemble a whole, form a collection, distinguish an aspect, or delimit a measured portion. Reuse an existing ordinary account when it already supplies those facts and their construction rule; the notation is optional.
 
-**First useful move.** Name the whole, collection, or aspect whose construction you must explain; then name its inputs, the constructive part relations or the collection's own belongs-to relations, and the rule by which those facts form it. Choose `sum`, `set`, or `slice` as the shortest truthful construction narrative.
+**First useful move.** Name the object whose construction or delimitation you must explain; then name the participants, the direct relations that obtain, and the construction or delimitation rule. Choose `sum`, `set`, or `slice` as the shortest truthful construction narrative.
 
 **What goes wrong if missed.** A readable component, belongs-to, or aspect statement may lack its construction account; or the opposite mistake occurs and a diagram, list, or `Γ_m` expression is treated as if it created a whole, a relation, or a holon.
 
-**What this buys.** A compact three-form construction discipline that keeps integrated assembly, collection, and aspect distinct while leaving relation conditions, whole identity, evidence, and public relation names with the patterns that define them.
+**What this buys.** A compact three-form construction discipline that keeps integrated assembly, collection, aspect, and measured-portion accounts distinct while leaving relation conditions, whole identity, evidence, and public relation names with the patterns that define them.
 
 **Not this pattern when.** Not this pattern when the current question is only relation vocabulary, evidence or assurance without a structural claim, epistemic representation, a selected dependent `U.Structure`, temporal phase without an aspect claim, public-kind admission, or transformation composition without a direct transformation-composition governor.
 
 ### C.13:1 - Intent
 
-Provide one minimal calculus for narrating three kinds of construction: how constituents assemble an integrated whole, how entities form a collection under that collection's own belongs-to rule, and how an aspect is distinguished from one bearer under one facet. The calculus records how already identified entities and obtaining relations support that named whole, collection, or aspect. It is not a second source of relation obtaining and does not make any of them exist by notation.
+Provide three forms of construction account: how constituents assemble an integrated whole, how entities form a collection under that collection's own belongs-to rule, and how an aspect or measured portion is distinguished from its bearer or whole under its own rule. The calculus records how already identified entities and obtaining relations support that named object.
 
 Also known as *“Γₘ mereology”* and *“constructor-based composition”*.
 
@@ -57419,7 +57428,7 @@ Compose-CAL keeps exactly three narrative forms—`sum`, `set`, and `slice`. A m
 
 ### C.13:2 - Problem Frame
 
-FPF needs both readable structural relations and a recoverable account of how constituents assemble a whole, entities form a collection under its belongs-to rule, or a facet distinguishes an aspect. A relation name alone may leave the construction opaque. A constructor expression alone can commit the opposite error by treating syntax as the source of entities, relation obtaining, or whole identity.
+FPF needs both readable structural relations and a recoverable account of how constituents assemble a whole, entities form a collection under its belongs-to rule, a facet distinguishes an aspect, or a boundary delimits a measured portion. A relation name alone may leave the construction opaque. A constructor expression alone can commit the opposite error by treating syntax as the source of entities, relation obtaining, or whole identity.
 
 ### C.13:2.1 - Problem
 
@@ -57428,7 +57437,7 @@ A bare list of `ComponentOf`, collection-specific belongs-to, or `AspectOf` clai
 ### C.13:3 - Forces
 
 * **Parsimony vs truth.** Three construction forms are easier to reuse than an open constructor catalogue, but no form may replace a missing direct relation or assembly rule.
-* **Readable statement vs constructive account.** Practitioners need ordinary component, belongs-to, and aspect statements; reviewers may also need to inspect how those relations support the named whole, collection, or aspect.
+* **Readable statement vs constructive account.** Practitioners need ordinary component, belongs-to, and aspect statements; reviewers may also need to inspect how those relations support the described construction.
 * **Input set vs assembly.** The same entities can be assembled through different obtaining relations and can therefore yield different wholes.
 * **Continuity vs extensional snapshots.** Constituents and part-relation occurrences can change while the same whole continues when its direct reidentification rule permits the phase change.
 * **Construction vs evidence.** A trace states the construction account; evidence and assurance separately support or warrant the claim content.
@@ -57438,25 +57447,37 @@ A bare list of `ComponentOf`, collection-specific belongs-to, or `AspectOf` clai
 
 #### C.13:4.1 - Solution sketch
 
-Use the coarsest of three construction narratives that fits the named whole, collection, or aspect. In each case, write the shorthand only after the required facts are recoverable.
+Use the coarsest of three construction narratives that fits the object being described. In each case, write the shorthand only after the required facts are recoverable.
 
 | Form | Practical reading | Facts required before the trace is truthful | What the form does not establish |
 | --- | --- | --- | --- |
 | `Γ_m.sum(parts)` | These exact constituents are assembled as this integrated whole. | one exact candidate whole; exact constituent entities; exact obtaining constructive part-relation occurrences; the assembly rule or method and its applicability; the candidate's identity or reidentification rule | that proximity, one drawing, a parts list, or the constituent set alone makes the whole; that every constituent change ends the whole |
 | `Γ_m.set(elems)` | These entities belong to this collection under the collection's own rule. | one identified collection; identified entities; the belongs-to occurrences that obtain; the collection's belongs-to and identity rules | that the notation creates the collection or relation; component integration, acting-system organization, agency, A.1 holonhood, constructive parthood, or transitive belonging |
-| `Γ_m.slice(entity, facet)` | This exact aspect is distinguished from this bearer under this facet. | one exact bearer; one exact aspect; the governed facet; an exact obtaining aspect or portion relation and its identity rule | an arbitrary view, time window, selected concern, or label becoming a world-side part |
+| `Γ_m.slice(entity, facet)` for an aspect; `Γ_m.slice(whole, portionBoundary)` for a measured portion | This aspect or portion is distinguished under the rule for its own relation. | For an aspect: the aspect, bearer, facet rule, obtaining AspectOf occurrence and identity rule. For a portion: the portion, whole, same-stuff/content basis, boundary, extensive measure and unit, obtaining PortionOf relation and identity conditions; see :4.1.1. | a facet establishing a measured portion, or an amount identifying a particular part without its boundary |
 
-The familiar argument lists are readable shorthand, not complete ontological signatures. A complete use names the whole, collection, or aspect and states the direct facts beside the shorthand. Input order does not matter to the list of designated inputs, but assembly relations, rules, facets, and identity conditions do matter. The same input set under a different assembly can yield another whole.
+The familiar argument lists are readable shorthand, not complete ontological signatures. A complete use names the described object and states the direct facts beside the shorthand. Input order does not matter to the list of designated inputs, but assembly relations, rules, facets, portion boundaries and identity conditions do matter. The same input set under a different assembly can yield another whole.
 
-A construction may obtain in the world even when no trace episteme has been written. When another piece of work needs an inspectable trace, materialize a C.2.1 episteme whose claim content names the whole, collection, or aspect; its constituents, entities that belong, or bearer; the relation occurrences that obtain; the construction rule; and the identity conditions. Creating, editing, publishing or losing the account does not, by itself, establish a change in the construction it describes. A register update that also changes belonging must be assessed under the collection's constitutive rule.
+A construction may obtain in the world even when no trace episteme has been written. When another piece of work needs an inspectable trace, materialize a C.2.1 episteme whose claim content names the described object; its constituents, entities that belong, bearer, or containing whole; the relation occurrences that obtain; the construction rule; and the identity conditions. Creating, editing, publishing or losing the account does not, by itself, establish a change in the construction it describes. A register update that also changes belonging must be assessed under the collection's constitutive rule.
 
 Do not add a fourth constructor merely to carry time, execution order, parallelism, representation, evidence, or a domain label. Keep those claims with their direct patterns beside the construction account.
+
+##### C.13:4.1.1 - A measured-portion account
+
+Use the portion profile of `slice` when the receiving work needs to inspect a `PortionOf` claim. First identify the portion x and whole y under A.14:5.1. State what delimits x within y, why they are the same kind of stuff or content, the extensive measure μ and its unit or declared conversion, and the conditions under which both identities and the relation hold. An amount alone leaves the particular portion unidentified. These facts support the ordinary sentence “x is a portion of y under this measure and boundary rule.”
+
+`Γ_m.slice(y, portionBoundary)` is optional shorthand for that account. Its second argument identifies the delimiting rule; it is not the aspect profile's facet argument. The result describes x and its already established PortionOf relation. For `ProperPortionOf`, also check `0 < μ(x) < μ(y)` under A.14:5.1; additivity alone does not establish it. For a joined portion, apply A.14's disjointness and admitted-join conditions before adding measures. A boundary, unit or measure change reopens the affected account; the direct identity rule decides whether the portion or whole continues.
+
+In this constructed example, Billet-20 is an identified 20 kg stock. EndPortion-5 is the same material between its left end face and a specified cross-section inside that billet; its mass is 5 kg under the same measurement conditions. The account names both objects, those boundaries and the identity conditions of the stock and portion, so it supports `ProperPortionOf(EndPortion-5, Billet-20)` and the ratio 5/20 = 25%. An AspectOf or integrated ComponentOf claim requires its own relation grounds. If the indicated cross-section is unknown, “5 kg of Billet-20” gives an amount but leaves this particular portion unresolved. After physical separation, inspect the new boundaries and stock identity before carrying the earlier relation into the new state.
+
+The same operation can describe identified report text spanning pages 1–10 of a 120-page edition under fixed pagination. That account establishes the text extent; a claim that those pages form a logical constituent needs its separate content relation. Repagination requires recovering the same text span and recalculating its page measure. The text may remain the same while its page-count account changes.
+
+When B.3.5 is elected for the PortionOf assertion, link `tv:groundedBy` to this C.2.1 account and declare `validationMode=axiomatic`. Evidence needed to establish its boundary, mass or other facts remains subject to the receiving assurance question. Without that profile election, the direct relation remains usable under A.14.
 
 #### C.13:4.2 - Normative Standard (high‑level)
 
 * **C13-N1 — Direct facts first.** A C.13 trace is conformant only when every named constituent or collection entity and every named part, collection-belonging, or aspect occurrence is independently identified under its direct pattern.
 * **C13-N2 — Whole identity stays direct.** The candidate whole follows its direct identity and reidentification rule. Equality of an input list or trace does not decide whether the existing whole continues or a new whole must be identified; a permitted constituent replacement can preserve one whole, while the same constituents under another assembly can form another whole.
-* **C13-N3 — Construction form.** `sum`, `set`, and `slice` are the only C.13 forms. Reordering or duplicate designation does not change the listed inputs; it does not merge distinct entities or relation occurrences and does not erase assembly or facet differences.
+* **C13-N3 — Construction form.** `sum`, `set`, and `slice` are the only C.13 forms. Reordering or duplicate designation does not change the listed inputs; it does not merge distinct entities or relation occurrences and does not erase assembly, facet, or portion-boundary differences.
 * **C13-N4 — Mereological discipline.** Direct part patterns and A.14 govern acyclicity, antisymmetry, transitivity where applicable, recurrence, and occurrence identity. C.13 does not strengthen a direct relation by calculus convention.
 * **C13-N5 — Trace separation.** A materialized trace is a C.2.1 episteme. Its notation or publication alone establishes neither the described entities and relations, their construction and identity rules, nor holonhood.
 * **C13-N6 — A collection account is not component assembly.** `set` supports a collection account; it does not imply integrated assembly, `ComponentOf`, system agency, or A.1 recognition. Use `sum` only when constructive part relations and assembly are independently grounded.
@@ -57466,20 +57487,20 @@ Do not add a fourth constructor merely to carry time, execution order, paralleli
 
 #### C.13:4.3 - Scope, applicability, terms & notation
 
-Use Compose-CAL when the current claim concerns the construction of one exact system, episteme, method, work occurrence, discipline, collection, or aspect and its direct part patterns already supply the required participants and obtaining relations. Do not apply it merely because a sentence contains `part`, a diagram groups nodes, or a selected structure organizes relations.
+Use Compose-CAL when the current claim concerns the construction of one exact system, episteme, method, work occurrence, discipline, collection, aspect, or measured portion and its direct part patterns already supply the required participants and obtaining relations. Do not apply it merely because a sentence contains `part`, a diagram groups nodes, or a selected structure organizes relations.
 
 - **`Γ_m`** — the three-form notation for a C.13 construction narrative.
-- **construction trace** — claim content that names the whole, collection, or aspect; its inputs; the direct relations that obtain; its construction rule; and its identity conditions; when materialized, it is a C.2.1 episteme.
+- **construction trace** — claim content that names the object being described; its inputs; the direct relations that obtain; its construction rule; and its identity conditions; when materialized, it is a C.2.1 episteme.
 - **constructive part relation** — an exact world-side relation occurrence governed by its direct pattern; it is designated by the trace but not created by it.
-- **assembly rule or method** — the rule by which the named constituents assemble the whole, the members form the collection, or the bearer and facet distinguish the aspect; a rule-description episteme is not the assembly, collection, or aspect itself.
-- **identity or reidentification rule** — the direct rule that identifies the whole, collection, or aspect and says which changes preserve or end it.
+- **assembly rule or method** — the rule explaining the construction: assembly from constituents, collection belonging, aspect distinction under a facet, or portion delimitation under a measure. The account cites that rule separately from the object it describes.
+- **identity or reidentification rule** — the direct rule that identifies the described object and says which changes preserve or end it.
 
 **Alias readiness.** These are common readable projections only when their direct relation meanings match the case:
 
 - `ComponentOf` may accompany a `sum` construction;
 - an ordinary belongs-to sentence may accompany a `set` construction; the collection's own pattern supplies its meaning, occurrence history, and any recurrence rule;
 - `AspectOf` may accompany a `slice` construction;
-- `PortionOf` needs the direct portion relation and metrical semantics in A.14, not a facet spelling alone;
+- `PortionOf` uses the measured-portion profile of `slice` in :4.1.1, with A.14's same-stuff/content, measure and boundary conditions;
 - `ConstituentOf` needs the direct logical or content-part relation; material mixtures use their exact portion or component owner.
 
 The readable label and the trace answer different questions. The label states which direct relation obtains; the trace explains how the exact relation set supports this construction. Neither one is evidence merely by being present.
@@ -57502,9 +57523,9 @@ The same parts unconnected on a pallet do not form the skid. A bill of materials
 
 #### C.13:5.2 - Collection And Aspect
 
-A fleet register can identify one collection and the vehicles that belong to it under the registration rule. `Γ_m.set{Vehicle-1, Vehicle-2, ...}` reports that collection only after the fleet identity, registration rule, and each belongs-to fact have been established. It creates neither the fleet nor those facts. It establishes no vehicle integration, constructive parthood, collective agency, acting system, or A.1 holonhood. If the same candidate later passes all six A.1 matters, a separate `sum` account may report its independently grounded constructive parts and assembly.
+A fleet register can identify one collection and the vehicles that belong to it under the registration rule. `Γ_m.set{Vehicle-1, Vehicle-2, ...}` reports that collection only after the fleet identity, registration rule, and each belongs-to fact have been established. If the same candidate later passes all six A.1 matters, a separate `sum` account may report its independently grounded constructive parts and assembly.
 
-Reuse the filled Reactor-7 case in `A.14:5.3`: `Γ_m.slice(Reactor-7, thermal-boundary)` reports ThermalEnvelope-7, the insulation panels, seals, and boundary interfaces picked out by the thermal-boundary rule, the obtaining `AspectOf` occurrence, and the enclosure identity and ending conditions. A permitted panel replacement can preserve the aspect while requiring a current trace; dismantling the enclosure, changing the facet rule, or reidentifying Reactor-7 ends the reported occurrence. The slice reports these facts and creates none of them. A dashboard view, selected concern, or time window is not that aspect by display.
+Reuse the filled Reactor-7 case in `A.14:5.3`: `Γ_m.slice(Reactor-7, thermal-boundary)` reports ThermalEnvelope-7, the insulation panels, seals, and boundary interfaces picked out by the thermal-boundary rule, the obtaining `AspectOf` occurrence, and the enclosure identity and ending conditions. A permitted panel replacement can preserve the aspect while requiring a current trace; dismantling the enclosure, changing the facet rule, or reidentifying Reactor-7 ends the reported occurrence.
 
 #### C.13:5.3 - Episteme, Method, Work, And Discipline Holons
 
@@ -57522,14 +57543,14 @@ Mounting, wiring, fluid-connection, and configuration changes may each be indepe
 
 #### C.13:5.5 - Scope Justification
 
-The same three forms work across mechanical, biological, informational, Method, Work, and Discipline cases because they keep three questions apart: integrated assembly, collection belonging, and aspect distinction. Using them does not replace the patterns that define the particular entities and relations. Order and timing remain with Method and temporal patterns; evidence and warrant remain with assurance patterns; public kind admission remains with E.24.UK; the direct identity rule decides whether the existing whole continues or a new whole must be identified, with B.2 used when reidentification is current.
+The same three forms work across mechanical, biological, informational, Method, Work, and Discipline cases: `sum` reports integrated assembly, `set` collection belonging, and `slice` either an aspect or a measured portion under its distinct profile. Using them does not replace the patterns that define the particular entities and relations. Order and timing remain with Method and temporal patterns; evidence and warrant remain with assurance patterns; public kind admission remains with E.24.UK; the direct identity rule decides whether the existing whole continues or a new whole must be identified, with B.2 used when reidentification is current.
 
 ### C.13:6 - Bias-Annotation *(cognitive anti-patterns and counter-moves)*
 
 | Bias | Symptom | Counter-move |
 | --- | --- | --- |
 | **Constructor-centrism** | The trace is treated as the real structure and the direct relation as decorative. | Recover exact entities and obtaining direct relations first; use the trace only as their construction account. |
-| **Declaration-centrism** | A readable part edge is accepted without identifying the assembly, collection rule, facet, or identity conditions. | Name the whole, collection, or aspect and its construction facts, then add the shortest truthful trace. |
+| **Declaration-centrism** | A readable part edge is accepted without identifying the assembly, collection rule, facet, or identity conditions. | Name the object and the facts needed by its construction account, then add the shortest truthful trace. |
 | **Collection mistaken for composition** | A belongs-to statement or `set` trace is used to infer an integrated assembly or acting system. | Keep collection identity and belonging separate; use `sum` only with independently obtaining constructive part relations and an assembly. The same candidate may have both accounts when both claims pass. |
 | **Snapshot extensionalism** | Any constituent replacement is taken to end the whole, or the same input set is taken to guarantee the same whole. | Apply the candidate's direct identity and reidentification rule; include assembly relations and conditions. |
 | **Temporal leakage** | Sequence, phase, or work order is encoded as structural construction. | Keep order and time with their direct method and temporal patterns. |
@@ -57543,14 +57564,14 @@ The following regulate a C.13 use.
 | ID | Requirement | Purpose |
 | --- | --- | --- |
 | **CC-C13-1 — Three forms.** | Use only `sum`, `set`, or `slice` for the C.13 construction narrative. | Preserve a small cross-domain calculus. |
-| **CC-C13-2 — Exact direct basis.** | Name the whole, collection, or aspect; its inputs; the direct relation occurrences that obtain; its construction rule; and its identity or reidentification rule. | Prevent notation-created entities and relations. |
-| **CC-C13-3 — Assembly-sensitive identity.** | Do not infer the identity of a whole, collection, or aspect from the input list alone; preserve assembly relations, rule conditions, and the direct reidentification law. | Distinguish the same inputs under different assemblies, and one whole surviving a permitted constituent change. |
+| **CC-C13-2 — Exact direct basis.** | Name the object being described; its inputs; the direct relation occurrences that obtain; its construction rule; and its identity or reidentification rule. | Prevent notation-created entities and relations. |
+| **CC-C13-3 — Assembly-sensitive identity.** | Do not infer the identity of the described object from the input list alone; preserve assembly relations, rule conditions, and the direct reidentification law. | Distinguish the same inputs under different assemblies, and one whole surviving a permitted constituent change. |
 | **CC-C13-4 — No order or time by constructor.** | Keep execution order, parallelism, temporal coverage, and phase with their direct patterns. | Preserve the boundary among structural construction, temporal extent, and method order. |
 | **CC-C13-5 — Narratability.** | State the construction in ordinary language before or beside the shorthand. | Keep the construction usable without notation. |
 | **CC-C13-6 — Direct-relation discipline.** | Use ComponentOf, a collection's own belongs-to predicate, AspectOf, PortionOf, or ConstituentOf only with the meaning defined for that relation; the trace defines none of them. | Keeps public relation meanings with the patterns that define them. |
 | **CC-C13-7 — Trace separation.** | Treat a materialized trace as a C.2.1 episteme about construction. A change to the account alone establishes no change in the described construction; any constitutive effect requires its direct rule. | Keep ontology and epistemics separate. |
 | **CC-C13-8 — Collection belonging is not component parthood.** | A `set` construction establishes no integrated assembly, acting eligibility, or holonhood. | Prevent collection-to-system drift. |
-| **CC-C13-9 — Facet explicitness.** | A `slice` use names the exact aspect, bearer, governed facet, direct relation, and identity rule; a temporal window is not a structural facet here. | Prevent arbitrary slicing. |
+| **CC-C13-9 — Facet or portion-boundary explicitness.** | An aspect `slice` names the aspect, bearer, facet rule, AspectOf occurrence and identity rule. A portion `slice` names the portion and whole, same-stuff/content basis, delimiting boundary, extensive measure, compatible unit and identity conditions under :4.1.1. Keep temporal windows with their temporal pattern. | Make each slice reconstructible under its own relation. |
 | **CC-C13-10 — Subject owner.** | Apply C.13 to method, work, or discipline holons only after their direct patterns identify exact parts and whole-forming relations. | Permit accepted holon construction without generic decomposition. |
 | **CC-C13-11 — Published-edge boundary.** | A direct structural Working-Model edge remains usable without a trace. If its publication elects B.3.5 or a named current requirement demands that profile, the edge follows B.3.5 for the required trace link and validation mode; C.13 does not treat that publication apparatus as the world-side relation, assembly, or identity rule. | Keep direct use, construction, and elected publication assurance distinct. |
 | **CC-C13-12 — Dependent structure stop.** | A selected `U.Structure` is not a holon, agent, or a new whole named by an MHT claim merely by selection, label, or diagram. | Preserve the dependent-structure boundary. |
@@ -57570,11 +57591,11 @@ The following regulate a C.13 use.
 
 **Benefits**
 
-- **Inspectable construction.** A practitioner can recover which exact inputs, relations, and rule support one assembly, collection, or aspect.
+- **Inspectable construction.** A practitioner can recover which exact inputs, relations, and rule support the described construction or delimitation.
 - **Identity clarity.** The account distinguishes the input list from the assembly and keeps whole reidentification with the direct identity rule.
-- **Human-first use.** Ordinary ComponentOf, belongs-to, and AspectOf sentences remain readable; notation is optional shorthand for a named construction use.
+- **Human-first use.** Ordinary component, belongs-to, aspect and measured-portion sentences remain readable; notation is optional shorthand for a named construction use.
 - **Plane separation.** Order, time, evidence, representation, kind admission, and receiving reliance keep their direct owners.
-- **Cross-domain reuse.** The same three forms can describe system, episteme, method, work, discipline, collection, and aspect cases without claiming one universal part relation.
+- **Cross-domain reuse.** The same three forms can describe system, episteme, method, work, discipline, collection, aspect and measured-portion cases without claiming one universal part relation.
 - **Truthful stops.** Missing direct part or transformation-composition governors remain visible instead of being hidden by a trace.
 
 **Costs and mitigations**
@@ -57583,7 +57604,7 @@ The following regulate a C.13 use.
 - A world-side construction can obtain before anyone writes a trace, and its direct relation claim can remain usable without an assurance profile. When its publication elects B.3.5 or a named current requirement demands it, materialize the required trace and validation mode without treating publication as the cause of construction.
 - The same inputs can support different assemblies, and one whole can survive permitted replacements. Always carry the direct reidentification rule.
 
-> **One-line takeaway.** `sum`, `set`, and `slice` explain an already grounded construction; they do not create its entities, relations, identity, evidence, or holonhood.
+> **One-line takeaway.** `sum`, `set`, and `slice` explain identified construction facts in a form another reader can inspect.
 
 ### C.13:9 - Rationale (informative)
 
@@ -57593,7 +57614,7 @@ The following regulate a C.13 use.
 
 - `sum` asks how exact constituents and constructive relations assemble an integrated whole;
 - `set` asks which entities belong to a collection under that collection's identity and belongs-to rule;
-- `slice` asks which exact aspect is distinguished from one bearer under a governed facet.
+- `slice` asks which aspect is distinguished under a facet rule, or which measured portion is delimited under a boundary rule. These profiles keep their different relation conditions.
 
 The forms are intentionally small, but their inputs do not determine ontology by themselves. An assembly is more than a set of part names; a collection is not automatically a holon or agent; and a facet label is not an aspect occurrence. The direct patterns provide relation obtaining and occurrence identity, while the candidate's direct pattern decides whether the existing whole continues or a new whole must be identified.
 
@@ -57607,7 +57628,7 @@ Constructional ontology and applied mereology both require explicit choices abou
 
 Model-based engineering likewise separates a readable structural model from the physical, operational, informational, method, or work organization it describes. C.13 keeps that model useful while routing representation, evidence, assurance, and currentness to their direct patterns.
 
-`A.14:14` supplies the source decision used by the `set` and `slice` forms. For `set`, it requires the collection's own belongs-to rule and blocks both automatic parthood and the conclusion that separate parthood is impossible. For `slice`, it requires an obtaining `AspectOf` relation with its bearer, facet rule, and identity conditions; a Characteristic, view, projection, partition, or time window does not substitute. An ordinary change to a collection rule or occurrence, aspect or bearer, facet rule, identity condition, or materialized trace reopens only that construction account and the claim it reports.
+`A.14:14` supplies the source decision used by the `set` and `slice` forms. For `set`, it requires the collection's own belongs-to rule and blocks both automatic parthood and the conclusion that separate parthood is impossible. For the aspect profile of `slice`, it requires an obtaining `AspectOf` relation with its bearer, facet rule, and identity conditions. The portion profile instead uses A.14:5.1's same-stuff/content, extensive-measure and boundary conditions; it introduces no AspectOf claim. An ordinary change to a collection rule or occurrence, aspect or bearer, facet rule, portion boundary or measure, identity condition, or materialized trace reopens the affected construction account and the claim it reports.
 
 ### C.13:10 - Relations
 
@@ -57631,7 +57652,7 @@ Model-based engineering likewise separates a readable structural model from the 
 **Constrains**
 
 - A pattern that relies on a constructive whole states that whole, its constituents, the part relations that obtain, the assembly rule, and the identity rule rather than relying on a list or diagram.
-- Collection, aspect, method, work, discipline, selected-structure, and transformation cases keep their direct owners and stop at missing governors.
+- Collection, aspect, portion, method, work, discipline, selected-structure, and transformation cases keep their direct owners and stop at missing governors.
 - New construction forms require a separate parsimony and use argument; ordinary time, order, evidence, representation, and domain labels do not justify one.
 
 **Provides**
