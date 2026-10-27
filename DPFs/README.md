@@ -2,6 +2,8 @@
 
 **Find a field's methods for the result you need.** These 35 frameworks explain domain practice through connected patterns, with conditions, worked cases and source grounds. Use them for a current task or as contributions to continuing development; applying a method once does not require a development programme.
 
+Together with FPF Core, these domain frameworks can provide the repertoire for a **shared human–AI culture of thinking and acting**, oriented toward open-ended development. Each field contributes its own methods and standards of judgement. Participants select and connect them for their work, develop the capabilities they need, and return useful improvements to the shared repertoire. The [Library Architectural Reference](../FPF-LIBRARY-REFERENCE.md#libraryreference13---a-canon-for-shared-humanai-culture) explains this cultural use.
+
 If you know the field, choose a Suite or framework below. If you only know the difficulty, describe it in ordinary words and search the texts; [Using FPF Library](../USING-FPF.md#choose-what-to-read) explains how to find and connect useful contributions. The [Library introduction](../) gives the overall purpose and a first-use route.
 
 Framework and method links open readable text on fpf.tools; **Markdown** links open the repository source. GitHub previews can truncate large files. Check the [displayed source edition](https://fpf.tools/status) when the version matters.

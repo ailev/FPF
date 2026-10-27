@@ -9,7 +9,7 @@
 - **Use:** Understand the Library's architecture, select the appropriate level of explanation and preserve the relations between contributions from different fields.
 - **Full publications:** [FPF Core](FPF-Spec.md), the [domain-framework catalogue](DPFs/) and the publications linked below.
 
-FPF Library gives people and assisting AI agents a connected language for reasoning about work, constructing useful results and developing better ways to obtain them. Its common distinctions and general Methods meet specialized knowledge in domain frameworks. A reader can use one sufficient contribution directly or follow a larger question across several publications.
+FPF Library gives people and AI agents a connected language for reasoning about work, constructing useful results and developing better ways to obtain them. As a methodology of open-ended development, it can serve as a canon for a shared culture of thinking and acting. Its common distinctions and general Methods meet specialized knowledge in domain frameworks. A reader can use one sufficient contribution directly or follow a larger question across several publications.
 
 This Reference explains how that language is organized and why its boundaries matter. It develops the shared account across individual frameworks: what the larger wholes are, how their contributions connect, which alternatives explain the arrangement and what changes when a relied-on premise changes. The full patterns supply the Methods, cases and source grounds. For practical search and reading, use [Using FPF Library](USING-FPF.md); the [FPF Library overview](./) gives the short introduction.
 
@@ -21,6 +21,7 @@ This Reference explains how that language is organized and why its boundaries ma
   - [Holonic thinking across different kinds of whole](#libraryreference12---holonic-thinking-across-different-kinds-of-whole)
     - [Related forms of thinking retain their questions](#libraryreference121---related-forms-of-thinking-retain-their-questions)
     - [Use and translate the terms through their subject](#libraryreference122---use-and-translate-the-terms-through-their-subject)
+  - [A canon for shared human–AI culture](#libraryreference13---a-canon-for-shared-humanai-culture)
 - [What the names refer to](#libraryreference2---what-the-names-refer-to)
 - [Why general Methods belong in Core](#libraryreference3---why-general-methods-belong-in-core)
 - [Why these Suites form useful wholes](#libraryreference4---why-these-suites-form-useful-wholes)
@@ -158,6 +159,16 @@ In introductory Russian, «холоническое мышление о сист
 Existing usages can differ. English “systematic” can mean methodical organization; it is not a substitute for FPF's “system thinking.” Richmond's [Operational Thinking](https://thesystemsthinker.com/operational-thinking/) concerns how actual processes work and their causal organization. The French historical expression *pensée opératoire* concerns logical operations in [Piaget's account](https://www.unige.ch/piaget/piaget1947PIN_03). Neither expression should be translated into the Work-holon application merely from its word form.
 
 [E.10's lexical guidance](FPF-Spec.md#e1099---thinking-terms-and-the-whole-being-considered) applies the distinction in authoring. Preserve the source meaning, make the intended subject and relation clear, and use the full subject Method when a decision depends on its construction. The shared explanation gives an entry into that work; recognition of a holonic question and assurance that a particular whole satisfies its conditions remain separate results.
+
+### Library.Reference:1.3 - A canon for shared human–AI culture
+
+The Library articulates a culture of thinking and acting oriented toward the open-ended development of people, AI agents and their joint practice. It can serve as that culture’s **canon**: a common, revisable body of explanations, methods, worked cases and grounds for judgement. Participants can use this repertoire to choose and perform work, examine its results and develop better ways of continuing. The canon makes the shared practice recoverable and revisable across different situations.
+
+People and AI agents can both sustain and renew this culture through their work. An AI contribution may be assistance with one operation or participation as a teammate responsible for an agreed contribution. The working arrangement determines who can perform, decide, check and change what. Shared use therefore combines different capabilities and responsibilities; each participant needs access to the contributions relevant to its work. No individual has to internalize the whole Library. [C.32.MWA.PP](FPF-Spec.md#c32mwapp---construct-and-compare-method-performance-and-provision-arrangements) explains how to construct and compare such arrangements.
+
+Acquiring and sustaining the practice requires different means for different participants. People may need explanation, repeated practice, feedback and support for participation. AI agents need suitable capabilities, access to the relevant material, execution support and continuity of attention and task context. Giving an agent a text can enable a contribution; its subsequent work shows whether it actually used the method and obtained a useful result. [C.36.RP and C.36.MC](#libraryreference917---how-does-a-useful-episode-become-a-renewable-cultural-contribution) connect the shared repertoire to these different ways of obtaining, reconstructing and renewing practice.
+
+For example, a person and an AI teammate can use the same engineering methods while dividing model construction, criticism and decisions according to capability and authority. A changed requirement calls for recovering the affected assumptions and revising their connected work. The person may need to learn a missing judgement; the agent may need better access to evidence or a changed execution procedure. A useful result can then expose a further attainable problem or a better method. [The connected development account](#libraryreference91---open-ended-development-through-connected-contributions) explains that continuation and the distinctions between assistance, learning, cultural renewal and development. A publication supplies the canon; actual use, retention and renewal establish the culture in practice.
 
 ## Library.Reference:2 - What the names refer to
 

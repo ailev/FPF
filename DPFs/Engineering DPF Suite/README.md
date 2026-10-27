@@ -4,6 +4,8 @@
 
 A task can finish with a sufficient analysis, design, recommendation or justified decision to keep the current arrangement. An actual system change requires evidence of that change; approving a model or specification does not establish it.
 
+This Suite contributes engineering methods to a **shared culture of thinking and acting among people and AI agents**. Its repertoire helps them connect design, realization and sustained functioning, then use the result to develop further capabilities and ways of working. The [Library account of this culture](../../FPF-LIBRARY-REFERENCE.md#libraryreference13---a-canon-for-shared-humanai-culture) explains how a shared canon supports that continuation.
+
 Links to fpf.tools open readable text; **Markdown** links and the CAD entries below open the repository source. GitHub previews can truncate large files. Check the [displayed source edition](https://fpf.tools/status) when the version matters.
 
 ## How this Suite is organized and why

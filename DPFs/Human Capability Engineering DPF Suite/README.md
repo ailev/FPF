@@ -4,6 +4,8 @@
 
 The person is the holder whose capability changes. A teacher, AI assistant or provider organization may perform part of the work. This edition covers learning and somatic contributions through two full frameworks; it does not offer comprehensive methods for the whole organism, personality, health or personal management.
 
+Within a **shared human–AI culture of thinking and acting**, this Suite develops the human capabilities needed for joint practice and further development. People may learn with AI contributions while retaining the judgements and skills their own roles require. Changing an AI agent’s capabilities or execution conditions calls for the appropriate engineering methods. The [Library account of this culture](../../FPF-LIBRARY-REFERENCE.md#libraryreference13---a-canon-for-shared-humanai-culture) connects these different contributions.
+
 Framework and method links open readable text on fpf.tools; **Markdown** links open the repository source. GitHub previews can truncate large files. Check the [displayed source edition](https://fpf.tools/status) when the version matters.
 
 ## How this Suite is organized and why

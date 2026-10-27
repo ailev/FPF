@@ -4,6 +4,8 @@
 
 A theorem, physical explanation, algorithm, interpreted model or usable notation can itself be the result. These methods also help develop new ways of working. They do not cover all intellectual activity, all mathematics and physics, or the whole of computer science.
 
+This Suite contributes ways of constructing and criticizing knowledge to a **shared human–AI culture of thinking and acting**. People and AI agents can use its methods together and develop new constructions, capabilities and methods from the results. The [Library account of this culture](../../FPF-LIBRARY-REFERENCE.md#libraryreference13---a-canon-for-shared-humanai-culture) connects this repertoire to open-ended development.
+
 Framework and method links open readable text on fpf.tools; **Markdown** links open the repository source. GitHub previews can truncate large files. Check the [displayed source edition](https://fpf.tools/status) when the version matters.
 
 ## How this Suite is organized and why

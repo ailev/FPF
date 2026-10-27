@@ -6,6 +6,8 @@ FPF Library brings together the **First Principles Framework (FPF Core)** and do
 
 The Library is developing as a **methodology of open-ended development**. A result can make a previously unattainable problem approachable; working on that problem can expand both your capabilities and your ways of developing them. The aim is to keep that continuation possible, without a predetermined final level. This includes noticing limitations that have not yet become explicit problems, using existing knowledge, constructing missing methods, and passing useful capabilities and knowledge to others.
 
+It can serve as a **canon for a shared culture of thinking and acting among people and AI agents**, oriented toward their open-ended development. Here, a canon is a common, revisable body of explanations and methods through which participants can organize work, learn from results and improve their practice. People and AI can contribute as assistants or teammates according to their capabilities and roles. The culture takes shape in how they work and develop together; using it does not require every participant to master the entire Library.
+
 You can also use one method for one calculation, design, decision or learning need and stop there. A completed task, a new procedure or learning a known method does not by itself establish continuing development.
 
 [Start using the Library](USING-FPF.md) · [Domain frameworks](DPFs/) · [FPF Core](https://fpf.tools/FPF)

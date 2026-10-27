@@ -6,6 +6,8 @@
 
 This account explains the [Human Capability Engineering DPF Suite](README.md) to people and capable assisting agents choosing or connecting its Methods. It describes the learning and somatic part supplied by HCD and SOM, the larger engineering subject to which that part contributes, and the boundaries that change a user's next move. A familiar Method can be used directly without reading the account in order.
 
+The Suite contributes to the Library’s [canon for a shared human–AI culture of thinking and acting](../../FPF-LIBRARY-REFERENCE.md#libraryreference13---a-canon-for-shared-humanai-culture) by developing people’s capabilities for present work and open-ended development. Its receiving result can be a person’s better participation in a team whose AI agents perform other contributions. Specify the capability the person needs and the support that remains available. Human learning and somatic change retain their own methods; developing an AI agent or maintaining its attention and execution requires the appropriate engineering contribution. A successful joint performance and a person’s acquired capability are distinct results.
+
 ## Contents
 
 - [HCE.Reference:1 — What is being changed, and for which result?](#hcereference1---what-is-being-changed-and-for-which-result)
