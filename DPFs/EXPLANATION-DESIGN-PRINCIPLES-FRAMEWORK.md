@@ -114,6 +114,7 @@ A recipient who only needs an already understood fact can use it directly. Creat
 
 The **subject** is what the explanation concerns. The **question** selects the connection sought; the **purpose** explains why that question matters here. The **account** supplies the selected claims, relations and conditions. Its **expression** is the prose, formula, table, diagram, demonstration or combination through which it is available. The **recipient** interprets and may contribute under particular preparation, access, assistance and effort conditions.
 
+When an explanation teaches a Method, distinguish that reusable way, an actual or stipulated performance of it, and the material used in the performance. For example, an explainer selects unequal groups so that two averaging rules give different answers. The arithmetic is the material being explained to the recipient; selecting and working the contrast illustrates an operation of explanation design. State that correspondence where the reader needs it. A mathematically correct answer and a usable account of how to construct explanations have different criteria.
 These distinctions support concrete diagnoses:
 
 | What changes | Example | Consequence for the explanation |
@@ -380,11 +381,11 @@ State what the recipient must connect. In a pooled mean, each group mean multipl
 
 Use a real case when its evidence and complexity fit. A constructed case is useful when its assumptions and answer criterion can be made explicit. Identify which it is.
 
-Choose the example's role in the whole explanation as well as its local correctness. Recover the relations and grounds owed to the recipient from the subject and requested use. A case can help discover them; it cannot silently limit them to what happens in that case. Keep a sufficient direct account when an illustrative instance supplies no additional needed connection. If the account itself is missing, return to its subject source or construction rather than expanding a story in its place.
+Choose the example's role in the whole explanation as well as its local correctness. Recover the relations and grounds owed to the recipient from the subject and requested use. Derive meaningful variation from differences in objects, conditions, available grounds and receiving work. A case can help discover these distinctions; carry the discovery into the common account. Keep a sufficient direct account when an illustrative instance supplies no additional needed connection. If the account itself is missing, return to its subject source or construction rather than expanding a story in its place.
 
 #### EXD.2:4.2 - Work the correspondence, not only the answer
 
-Show the intermediate quantities, relations and conditions needed to obtain the result. Connect each significant step to the claim: which quantity instantiates which part, why this operation is legitimate, and what condition makes the inference usable.
+Show the intermediate quantities, relations and conditions needed to obtain the result. Connect each significant step to the claim: which quantity instantiates which part, why this operation is legitimate, and what condition makes the inference usable. When illustrating an explanatory Method, also show the explainer's choice and its reason. Selecting unequal counts to distinguish rules is such a choice; the subsequent multiplication is part of the mathematical account used to perform it.
 
 For a worked calculation, name the units and what each numerator or denominator counts. For a causal example, distinguish observations from an inferred mechanism. For an analogy, identify the corresponding relation and the conditions needed to use it. Explain a non-correspondence when it changes an inference the intended use depends on. A picture of two similar objects cannot supply that correspondence by itself.
 
@@ -398,13 +399,17 @@ Inspect the rule as well as the number. Equal group counts allow an unweighted a
 
 Use [EXD.5](#exd5---guide-a-recipients-own-explanation) when a recipient's own account and supported correction serve a learning purpose. Use [EXD.4](#exd4---co-construct-and-repair-an-explanation-in-dialogue) when the response changes the question, premise or next explanation.
 
+Build a family of materially different examples when the explanation promises several kinds of relation, grounds or use. Retain ordinary cases as well as informative contrasts, and show what stays common across them. A mathematical derivation, a causal account supported only conditionally and a recommendation under competing preferences need different subject grounds. Their shared explanatory operations remain visible through those differences. For human learning of a family of regularities, HCD.6.1:4.2.2 supplies qualified encounters, contextual variation and focused returns; it does not require inventing one verbal rule for the family.
+
+Keep the grounds of generalization explicit. A worked instance can reveal a missing condition or suggest a wider account. Determine through the subject practice whether the wider claim follows from a definition or argument, is supported by observations, or remains a proposal. Bring that result back to the explanation with its conditions. The examples ground and discriminate the account while retaining their own evidential roles.
+
 #### EXD.2:4.4 - Bound the example and stop at its useful result
 
 State which relation the example preserves and where that correspondence stops. A branch can be a unit in one aggregation question and contain several equally weighted people in another. The same data then support different summaries.
 
-Retain the smallest example or pair that supplies the needed distinction. Add another case only when it can reveal a remaining wrong generalization or support the intended next use.
+Retain the examples and comparisons needed to make the relation and its claimed variation usable. For a local distinction, one example or a pair can suffice. For a broader account, preserve the materially different cases that make its generality understandable, even when each local case is simple. Remove incidental detail when it adds no needed connection.
 
-Continue the same case across explanations when carrying its state, earlier result or known circumstances helps the next connection. At each return, compare that benefit with the relations the next explanation must supply. Change or end the case when it makes an alternative, important condition or claimed kind of application disappear. The account can remain connected through its question and reasoning while its examples change. A varied number inside the same story may test a calculation without testing the wider scope of a general Method.
+Continue the same case across explanations when carrying its state, earlier result or known circumstances helps the next connection. At each return, identify the relation or operation being explained and the contribution the case supplies. Change or end the case when it makes an alternative, important condition or claimed kind of application disappear. The account can remain connected through its question and reasoning while its examples change. A varied number inside the same story may test a calculation without testing the wider scope of a general Method.
 
 Judge the resulting explanation by what the recipient can recover and use at the promised scope: the relation, its reason, its conditions and a consequential changed use. Recalling the story or obtaining its correct answer is a narrower result. Repair any missing content even if the illustration is clear. An example is evidence of the particular relation it demonstrates; claims about learning from it need the recipient evidence appropriate to that claim.
 
@@ -428,6 +433,18 @@ The useful outcome is a justified choice of rule, including when a convenient sh
 
 For a constructed technical example, a manual states that a batch of twelve parts costs 30 currency units. A guide promises to explain the cost per part without requiring that manual. It correctly repeats the batch price but omits the batch size. The quoted claim agrees with the source, yet the reader cannot recover the promised calculation: 30 / 12 = 2.50 per part. Supplying the batch size repairs that omission. In a second guide the calculation is fully shown as 36 / 12 = 3, but the price 36 is attributed to the same manual. The calculation can be followed; its price claim contradicts the source. These cases distinguish agreement with a source from recovery of a promised contribution. Both questions matter when both defects occur.
 
+#### EXD.2:5.1 - Keep the explanatory Method visible across different subject grounds
+
+The averaging case illustrates how an explainer selects circumstances that separate plausible rules, works their correspondence and varies a deciding condition. Its mathematical definition supplies the answer criterion. To explain that Method across a wider subject range, vary the kind of ground as well as the numbers.
+
+In a stipulated technical account, two pumps share one power supply. The recipient asks why adding the second pump does not provide pumping after loss of that supply. The explainer chooses a dependency sketch that shows both power connections, then follows the stated loss through them. A contrasting arrangement gives the second pump an independently available supply under the same stipulated loss. This contrast makes the dependency usable; checking an actual installation's independence remains engineering work. The explanation-design operation is selecting and working the decisive correspondence. The pumps and their supply relations are its subject material.
+
+In a causal account, a software revision is followed by fewer recorded failures, while traffic and logging also change. The recipient asks why the revision caused the fall. The explainer juxtaposes two accounts compatible with the stated observation: the revision prevents failures; or fewer occasions for failure and less complete recording reduce the observed count. This comparison makes the missing discrimination visible. Return the causal question to subject inquiry while preserving the observed fall. Drawing a cleaner arrow from revision to improvement would add an unsupported connection. The common Method still selects and works a revealing comparison, but the current useful result is an explicit gap in the causal basis rather than a proved cause.
+
+In the advisory case developed in the technical and advisory profile, protected time is a decisive premise for the recommended assignment. Contrast that available arrangement with withdrawal of the time, and separately with the recipient understanding the rationale but preferring the course's social setting. The first change defeats a premise; the second changes the decision through a preference. The explainer makes those different relations usable and returns the appropriate question to advising. Agreement is not the criterion of a successful explanation.
+
+These constructions retain the same explanatory choices while changing what warrants the subject answer and what result is currently attainable. The reader can recover the Method through the correspondences among the cases, rather than infer that every explanation must end in a numerical answer. They are stipulated applications, not observations of learning or effectiveness.
+
 ### EXD.2:6 - Bias-Annotation
 
 Expert familiarity can hide intermediate relations a recipient cannot yet supply. Inspect the needed mapping at the actual task grain. A familiar story may also smuggle in a causal or normative assumption absent from the subject account; retain only the correspondence the explanation can justify.
@@ -436,7 +453,7 @@ Expert familiarity can hide intermediate relations a recipient cannot yet supply
 
 Recognition asks whether a particular instance or comparison can make the needed connection usable.
 
-For assurance, inspect whether the example has a warranted basis, an explicit correspondence, a correct worked result and an action-changing boundary. Check that any recipient response retains the help available for it. A matching answer with a wrong rule remains a reason to inspect the explanation.
+For assurance, inspect the subject basis, explicit correspondence, worked result and conditions of each relied-on example. Compare the family with the material variation of the promised explanation, and recover the common Method or relation across the cases. For an explanatory-Method illustration, distinguish the explainer's choices from the domain work used as material. Check that any recipient response retains the help available for it. A matching answer with a wrong rule remains a reason to inspect the explanation.
 
 ### EXD.2:8 - Common Anti-Patterns and How to Avoid Them
 

@@ -401,6 +401,8 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | C.37.CF | **Compare Content and Form Changes** | Stable | A changed explanation appears better, but changed content and changed form are conflated. Construct a bounded comparison for the actual reader and action, preserving assistance and limits of inference. | C.37; C.2.8; A.3.2.DE; RMP design when a stronger empirical question is needed. |
 | C.38 | **Construct Comparable Ways to Obtain One Result** | Stable | Use when labels such as *build*, *buy*, *reuse*, *provider*, *internal*, *outsource*, or *AI* do not yet describe comparable complete ways to obtain the same result. Fix one result, use, situation, horizon, and acceptance basis; construct at least two materially different complete-enough ways on one parity basis; keep supported, proposed, and unknown premises visible; then hand the finite set to C.11 without claiming actual Work, provision, acceptance, or availability. | **Builds on:** the direct pattern for the sought result, A.10, and C.2.1 when a standalone comparison is needed. **Coordinates with:** A.15.9, A.19.CPM, A.19.SelectorMechanism, C.18, C.19, C.11, C.32, and direct domain realization and assurance Methods. |
 | C.39 | **Find and Develop a Way to Obtain a Result** | Stable | Use when a needed result lacks an explained obtaining way, connection to another use, or adaptation after change. Reuse an adequate Method and stop. Otherwise construct the missing join, distinguish composition and result use, explain the way for its next practitioner, and change only affected connections while retaining qualified uses. No framework-author role or pattern format is required. | **Uses:** professional Methods, F.0.1, F.1 and C.39.RO. **Coordinates with:** C.38, C.40, C.30.ASV, C.32.MWA and C.11. B.1.5, B.1.5.EW, B.1.5.RS, A.22.CGUS, A.3.1 and A.3.2 govern stronger relation or Method claims. E.4.CM applies the general construction to framework authoring. |
+| C.39.QR | **Return Results to the Original Question** | Stable | Partial work through a case, model, part, sample or delegated contribution leaves its return to the original question uncertain. Recover that question, identify the relation and warrant, establish the obtained result, construct the missing contribution and settle what the receiving work can now do. | C.39 and subject Methods for construction; C.39.WA for a whole-subject account; C.41 for attention aids; C.11.DUA for the useful continuation. |
+| C.39.WA | **Develop an Account of the Whole Subject** | Stable | An explanation or review concerns an organized whole or broad field. Develop its common grounds and relations, bring them back to choices about parts, connect varied cases to the explicit subject, and compare the actual account with the original question. | C.39.QR for the return to the original use; C.20 for disciplines; subject composition and inference Methods; E.8 and EXD.2 for explanation design; C.41 for attention aids. |
 | C.39.RO | **Turn a Construction into a Reusable Operation** | Stable | Use when a working case must become an operation that later work can vary or combine. Recover the construction, separate variable inputs from retained conditions, parameterize or connect operations, justify the supported result and examine a changed use. *Queries:* "How can this successful case become a reusable operation?", "Which premises survive generalization?", "What changes when the objective or physical condition changes?" | **Uses:** B.5.RC, B.5.TU and subject Methods. **Coordinates with:** C.39, B.5.RR and B.5.QD; A.3.1 and A.3.2 for formal Method claims; C.40 for further material development. |
 | C.39.MF | **Choose and Reopen a Method Development Focus** | Stable | A Method proposal or difficulty has not yet been separated from a support, capability, description or resource problem. Recover the actual subject and choose the Method-development question worth pursuing. | C.39 and A.15.6 for the receiving result; A.3.1 for identity; C.11 for choice; G.5 for a maintained repertoire. |
 | C.39.WI | **Discover Worthwhile Method Improvements** | Stable | Work consumes substantial resources, causes avoidable loss or leaves a useful result unattainable, and the worthwhile change is unclear. Follow the receiving work, compare complete consequences and burden, distinguish Method, explanation, access, provision and execution remedies, and select an attainable contribution or continued practice. | C.39.MF for an ambiguous focus; C.39 for a missing way; C.11.MV and C.11.DUA for comparison and inquiry; C.40.NP for continuation from the position reached. |
@@ -614,6 +616,8 @@ The entries below illustrate questions that FPF can help answer. Bring the actua
 The ordinary examples start with one direct pattern and retain any conditions for a later use. They can stop at the first useful result without a mantra. The Practical-Use Cards show another use: a difficult question whose answer normally draws on several pattern contributions. Their mantras show in compact form how that answer unfolds through those contributions, without turning the unfolding into a fixed workflow.
 
 To find which costly or unavailable work deserves improvement, use [C.39.WI](#c39wi---discover-worthwhile-method-improvements). Follow one consequential result, compare real alternatives and their complete burden, and distinguish a missing way from an explanation, access, provision or execution problem. The first result can be a warranted improvement undertaking, a retained possibility or a reasoned decision to continue current practice. An already understood, worthwhile and authorized remedy can be performed directly.
+
+When a correct local result leaves the original request unresolved, use [C.39.QR](#c39qr---return-results-to-the-original-question). Recover what the recipient needs, identify how the partial work relates to it, and justify the returned conclusion. Then obtain the missing contribution or settle the qualified result. When the requested contribution is an explanation of a whole subject, [C.39.WA](#c39wa---develop-an-account-of-the-whole-subject) develops its organizing grounds and connections and shows how they guide choices about parts. Examples make these operations concrete; varied cases reveal differences within the stated range.
 
 ### LIVE-WORK-STEERING — Choose the next action while Work is changing
 
@@ -1621,6 +1625,12 @@ Conceptual compactification here keeps a developed connection available for reus
 These connected questions help a reader improve a way of working without treating its description, support or observed performance as the same result. The full Methods retain their individual entries; the explanation below shows why their answers can differ and when they need to be used together.
 
 When it is unclear which work deserves improvement, `C.39.WI` follows work that consumes substantial resources, causes avoidable loss or cannot yet supply a useful result. It compares complete consequences and burden, then selects an attainable Method, explanation, access, provision or execution change, a retained possibility or continuation of current practice. Use `C.39.MF` when the selected development question still has an ambiguous subject. An adequate professional improvement Method can be used directly.
+
+Partial work earns its contribution through a particular relation to the originating question. A model calculation requires a justified return to its subject; a component result requires the whole's composition and operating conditions; a worked case requires an explicit operation and grounds for its wider use. C.39.QR recovers the original question, establishes that relation and its warrant, and separately judges which part of the requested result is now available. A valid subject inference can still leave an explanation or operating capability to be constructed. The next move follows that remaining need.
+
+When the missing result is an account of an organized whole or broad field, C.39.WA develops the common grounds, constituent contributions and relations that make the account useful together. Those grounds explain choices about parts and which choices change with a premise. Findings in the parts can in turn change the common explanation. A discipline's knowledge–practice organization, a Method's obtaining relations and a system's functioning call for different subject constructions. The relevant subject patterns supply them; the common Method preserves the question through their use.
+
+Grounding makes an explicitly explained construction concrete. In a Method explanation, distinguish the reusable operation, its displayed performance and the material worked on during that performance. Choose varied cases for consequential differences within the claimed range, and return from each to what it reveals about the operation and its conditions. Generalization also needs the elements and relations being generalized, the wider class and the grounds for that extension. E.8 and EXD.2 develop these explanatory moves; E.19 and E.21 connect their examination with the promised subject and use.
 
 #### FPF.Reference:16.7.1 - Method, MethodDescription, WorkPlan, and Work remain distinct
 
@@ -82156,6 +82166,9 @@ Reopen this line when a current direct Method supplies the entire use with less 
 
 ### C.39:12 - Relations
 
+C.39.QR returns work through a part, case, model or other intermediate construction to the original question. It distinguishes what the obtained result warrants about the subject from what it completes for the requested use, and brings a missing obtaining way here. C.39.WA develops the common grounds and organizing relations of a whole-subject account, follows them into choices about parts, and revisits its scope after consequential findings.
+
+
 C.39.MC continues a connected Method-development question after a result or changed condition. It preserves applicable qualification, composition, description and support results while returning only the affected question to its supplier. Use it when that continuation is unresolved; an adequate direct MethodDescription remains the sufficient return.
 
 - C.39.RO constructs a reusable operation from a working case, retaining input meanings, application conditions and the reason for its result.
@@ -82170,6 +82183,484 @@ C.39.MC continues a connected Method-development question after a result or chan
 - C.11 supports a local choice about the next inquiry or use. The direct professional Method supplies realization and its subject-specific checks.
 
 ### C.39:End
+
+## C.39.QR - Return Results to the Original Question
+
+> **Type:** Method pattern
+> **Status:** Stable
+
+### C.39.QR:1 - Problem frame
+
+**Use this when** work proceeds through a part, model, example, sample, summary, proxy or delegated contribution, and someone must decide what its result establishes for the original question. The need arises in development, explanation, investigation and appraisal, especially when several transformations or handovers separate the question from the final conclusion.
+
+Recover the original subject and required result, explain what the intermediate work establishes, and supply the grounds for returning that result to the original use. Where the return exposes missing work, develop that contribution or obtain its supplier. The first useful result is a warranted answer to the original question, or a precise account of what has been obtained and what still has to be done.
+
+Use an already adequate direct answer. A local operation can finish under its own established criterion when the assignment is local. This Method is useful where a consequential return remains uncertain; ordinary continuation under unchanged, understood conditions needs no repeated reconstruction.
+
+### C.39.QR:2 - Problem
+
+A team can produce a correct result and still lose the work it was asked to do. An example answers a question about that example. A component test answers its stated test question. A model calculation answers a question within the model. The contribution to the originating question depends on further relations and grounds.
+
+Two judgements are involved. One concerns what a result obtained through a working construction warrants about the subject. The other concerns whether the work result answers the original question sufficiently for its intended use. A sound first judgement may leave the second unresolved: an accurate estimate can be useful while the requested explanation, decision or operational capability is still missing.
+
+The loss can persist through review when later performers inherit the smaller question from the candidate, task breakdown or earlier verdict. Repair requires recovering the encompassing question and constructing its missing answer. Another correct local result can contribute to that work, provided its actual role and limits remain visible.
+
+### C.39.QR:3 - Forces
+
+| Tension | Consequence for the work |
+| --- | --- |
+| Tractable partial work and an encompassing purpose | Give the contribution a bounded question and retain the result it must help obtain. |
+| Useful representation and justified inference | Recover the correspondence and inference rule needed for the particular returned claim. |
+| Stable commitments and learning during work | Improve the proposed way and expectation while explaining any change to the agreed result. |
+| Independent appraisal and its cost | Recover the original expectation independently where inherited narrowing could affect the judgement; reuse sound grounds. |
+| Missing content and limited resources | Choose the next constructive move by its attainable contribution and full burden. |
+| Repeated attention and uninterrupted work | Place the return at consequential decisions and handovers, with a cheap exit when the connection already holds. |
+
+### C.39.QR:4 - Solution
+
+Keep the original question available beside the partial work. Establish the result of that work at its actual scope, justify the transition back to the subject, and compare the available result with what the original use requires. Develop the missing connection or contribution. Arrange these operations where their answers can change action.
+
+C.39 supplies construction of an obtaining way; the subject practice supplies its inference and composition rules. C.41 supplies the attention aid and its use. The operations below connect those contributions for this recurring return.
+
+#### C.39.QR:4.1 - Recover the question independently of the proposed answer
+
+Read the initiating request and applicable clarifications. Recover the subject, the question about it, the result needed by the recipient and the conditions that make that result sufficient. Include a source-coverage commitment, time horizon or authority boundary when it affects the answer. An example in the request can locate a difficulty while leaving the assigned scope broader.
+
+Distinguish the actual requirement from the author's proposed decomposition or solution. Derive an initial expectation from the requested use and competent subject knowledge. A proposal to explain a discipline needs its organizing problems, principles, Methods and relations at a suitable depth. A proposal to restore a service needs the relevant functioning and operating conditions. These expectations have different substantive bases.
+
+Keep consequential uncertainty explicit. Obtain a clarification when materially different readings require an authorized choice; meanwhile continue the content required under the viable readings. A provisional expectation can change as the subject becomes better understood. Explain that correction and preserve the original commitment unless its authorized basis also changes.
+
+A reviewer at risk of inheriting a narrowed question forms this expectation before relying on the candidate's outline or earlier verdict. The expectation states indispensable content or conditions, not a second complete solution.
+
+**Questions:** What must become understood, decided or obtainable? For whom and under which conditions? What boundaries were actually assigned? Which expectations come from the subject, and which are only a proposed way?
+
+#### C.39.QR:4.2 - Identify the relation used by the partial work
+
+Name the original subject and the working construction in ordinary subject language. Establish how work on the latter can contribute to the former. Use the specific relation needed for the next judgement.
+
+| Relation used | Grounds needed for the return |
+| --- | --- |
+| Case and kind; narrower and broader kind | Membership criteria or a directed generality relation, and separate grounds for any claim about the wider range. C.3 and C.3.1 supply the relevant distinctions. |
+| Constituent and whole | The subject's composition, interactions and shared conditions. A.14, B.1.5, C.2.1 and C.20 govern different kinds of whole. |
+| Method and performed work | The reusable operation, this occurrence, performer, inputs and conditions. A.3.1 and A.15.1 distinguish them. |
+| Description, diagram or model and its subject | What is preserved, omitted or introduced, the correspondence being used, and the rule permitting the proposed inference. C.37 supports representation choice; C.29 supports mathematical model use. |
+| Sample and target population | The selection process, target and conditions of the statistical inference supplied by the relevant statistical practice. |
+| Measure and valued result | What the measure tracks, under which conditions, and which value judgement remains. E.13 supports the return from a proxy to the value it is meant to serve. |
+| Compressed and fuller account | The questions and meaning retained, consequential omissions and the return to the fuller basis. A.6.3.CSC supplies that scoped compression. |
+
+Several relations can occur in the same work. A model of a component is a representation of that component; the component's relation to a system is composition. Keep both when the conclusion traverses both. An example can be an instance of a kind and illustrate an operation, with different consequences for each use.
+
+Tracing a relation back identifies its other participant. Inferring a property of that participant requires an applicable rule. A correspondence can warrant selected inferences while leaving others open. For a many-to-one abstraction, recover the omitted distinctions when the returned question depends on them. The subject practice determines whether a deduction, empirical inference, construction or qualified analogy supplies the needed warrant.
+
+**Questions:** What are the actual participants and relation? Which claim is being carried across it? What permits that inference under these conditions? What has been left out?
+
+#### C.39.QR:4.3 - Establish what the performed work obtained
+
+Examine the actual contribution and its grounds. State the claim or result it supports, its subject and conditions, and what was supplied by another source, performer or tool. A reader's additional construction can be useful; identify it as that reader's contribution when deciding what the received material supplied.
+
+Carry a conclusion to the original subject only through the applicable relation and inference from section 4.2. If that inference is unsupported, repair it, obtain the missing ground or retain the narrower warranted conclusion. Preserve sound local work.
+
+Then make the distinct comparison with the original task. Ask whether the result now available supplies the required answer, explanation or ability to continue. For example, a valid estimate of a system's load can support sizing while leaving a requested operating arrangement undeveloped. Conversely, an adequately supported narrow estimate may fully answer a request for that estimate.
+
+Keep the two conclusions explicit when they differ: what is established about the subject, and what part of the assigned work is thereby completed. Truth, membership, fidelity, coherence, coverage, usability and beneficial effect require the grounds appropriate to each judgement.
+
+**Questions:** What did this work establish, about what, and under which conditions? What is justified about the original subject? What required result remains unavailable?
+
+#### C.39.QR:4.4 - Reconstruct the encompassing result
+
+Compare the result now available with the expectation recovered in section 4.1. Examine the relations needed to obtain the encompassing result as well as the contributions themselves. Follow inputs and intermediate outputs, shared conditions, alternatives and returns at the level where they affect the requested use.
+
+Use C.39:4.2–4.5 to construct a missing obtaining way or join. When the requested result is an explanation of an organized subject, C.39.WA develops its common grounds and organization, then brings those grounds back to choices about the parts. A whole can contain several independently usable Methods; a connected account need not force them into one sequence.
+
+For promised source recovery, apply F.0.2.RC to the promised contribution and scope. For a system or service, use its engineering and operating methods to establish the relevant whole conditions. Where the missing contribution is capability, equipment, access or authority, obtain or revise that support through its responsible practice.
+
+Distinguish synthesis, generalization and abstraction. Connecting contributions to obtain a result, widening a claim's warranted range, and selecting distinctions for a description are different operations. Choose the one the gap requires, and explain its result. A wider field name cannot supply a missing connection.
+
+Follow a changed encompassing condition to the contributions that relied on it. Follow a consequential finding in a contribution back to the encompassing account. Retain unaffected uses on the basis of their actual dependencies.
+
+**Questions:** Which organization or connection does the requested result need? What governs the choice and change of the contributions? What missing content or support prevents the return?
+
+#### C.39.QR:4.5 - Perform the useful continuation and settle its reach
+
+Choose the continuation from the actual gap: develop content, correct the relation or inference, recover a source, obtain support, compare an alternative way, or seek an authorized change of the task. C.11.DUA compares further inquiry or change with continuing on the available basis, including the effort of learning, coordination, execution and displaced work.
+
+Complete the selected contribution and return its result through sections 4.2–4.4. A changed original requirement can require a different comparison; make that change recoverable. A missing contribution keeps the corresponding requirement open even when another useful part is finished.
+
+At a handover or acceptance decision, give the recipient the warranted result, the use it now supports and the consequential remainder. Reconcile several returns through their actual joins and shared conditions. C.41.SR supports this reconciliation. The recipient can accept a sufficient result, request a definite missing construction, retain a qualified partial result or decide a justified stop within its authority.
+
+The work ends for this occasion when that decision is supported at the requested scope and the chosen continuation has actually been performed or transferred to its responsible recipient. A partial return can complete an assigned subtask while leaving the encompassing assignment open.
+
+#### C.39.QR:4.6 - Put the return into ordinary work
+
+Use the questions where a difference in their answers can change the work:
+
+- Before a consequential decomposition or representation choice, recover the original question and the contribution expected from the smaller work.
+- At a scope-changing inference or handover, establish what the partial result warrants and what the recipient still needs.
+- Before a whole-result judgement, compare actual content and joint conditions with the original requirement.
+- After an interruption or a changed condition, recover the affected connection and continue from it.
+
+C.41.OF arranges the occasion, access and competent participation. C.41.UA connects obtaining an answer, deciding what to do and performing the action. Keep the subject material and these operations available at that occasion; a remembered slogan may be insufficient when several relations are being traversed.
+
+Use another suitably competent reader when independence or an unprompted initial judgement is needed. Give that reader the original question and necessary subject grounds before earlier verdicts or a suggested defect. Freshness can expose an inherited narrowing; domain competence supplies the grounds for the expectation. Select the arrangement by the judgement required, and reuse sound prior results at their actual scope.
+
+For recovery after interruption, A.15.10 returns the purpose, operative method, established results, unfinished work and changed conditions to a useful continuation. For people and AI agents, examine separately recognition of this difficulty, performance of the relevant operations, and benefit in the receiving work. Reopen the aid when it repeatedly fails to expose a consequential loss or creates work without improving the answer.
+
+### C.39.QR:5 - Archetypal Grounding
+
+#### C.39.QR:5.1 - A field question receives a true calculation
+
+An assignment asks for an account of mathematics and an appraisal of its completeness. The contribution is a correct multiplication. Its membership in mathematics and correctness support conclusions about that calculation. The required field account has a different subject and adequacy criterion.
+
+Recover the intended reader and depth, then develop an account of relevant mathematical objects, questions, forms of construction and proof, and relations among branches. The multiplication can illustrate part of that account. C.39.WA supplies the constructive return from the missing organization to an explanation. A review of the calculation remains useful within its scope while the broader assignment continues.
+
+If the original request instead asked only for the multiplication, its correct answer can finish the work. The difference lies in the governing question. The same content has different adequacy in the two assignments.
+
+#### C.39.QR:5.2 - An aggregate estimate leaves operating coverage open
+
+An internal support team asks for an operating arrangement that keeps two qualified responders available throughout 09:00–12:00. A staffing spreadsheet sums the available person-hours and compares them with the six person-hours required. It finds 6.5 available. The sum is correct for the declared intervals. It establishes an aggregate capacity condition; the receiving question also requires simultaneous coverage, the needed access and an authorized allocation of the people.
+
+In this constructed case, A is available 09:00–12:00 with a fixed break at 10:00–10:30; B is available 09:00–11:00; C is available 10:00–12:00. All three have the required working capability, but C initially lacks access to the service system. The service manager has authority to allocate their stated time. Recover the required whole condition: at every point in the interval, at least two assigned, qualified and equipped responders must be available. Total hours alone leave the time overlap and access conditions unresolved.
+
+Working backwards from that condition exposes the first unsupported connection: B and C must cover A's break, and A and C must cover the final hour. The manager obtains C's role-appropriate access from its responsible administrator and verifies that C can perform the required service operation. The manager then makes the allocation explicit: A+B from 09:00 to 10:00, B+C from 10:00 to 10:30, A+B from 10:30 to 11:00, and A+C from 11:00 to 12:00. C's remaining half-hour is unallocated. Each interval has the required two contributors, with the fixed break, availability and access conditions respected.
+
+The completed contribution is this jointly feasible arrangement and its provisioned access. The manager communicates the assignments, obtains the performers' acknowledgement and hands the arrangement to the duty lead for the stated period. Within the case's supplied facts, the answer to the original coverage question is supported. The spreadsheet remains a useful capacity calculation; the interval construction and completed provisioning supply the previously missing grounds. Actual service quality during operation requires its own observation.
+
+Now suppose C's access becomes unavailable from 11:00. The available person-hours and their arithmetic are unchanged, while the final interval has only one equipped responder. Return to that connection. If an already qualified D is available and provisioned for 11:00–12:00, the manager assigns D alongside A and confirms the changed handover. Earlier intervals remain valid. If no such contribution can be obtained, the duty lead receives a precise uncovered interval and the original commitment remains unresolved; changing that commitment requires its authorized recipient. This is a different continuation from recalculating the unchanged aggregate hours.
+
+#### C.39.QR:5.3 - Obtain a warranted population claim and use it for the agreed decision
+
+An audit lead is asked whether this month's completed records meet an agreed criterion for commissioning a cause investigation. The criterion is a defect proportion above 5%, supported by a two-sided 95% confidence interval whose lower limit exceeds 5%. The commissioned decision concerns that population and criterion.
+
+An analyst supplies a correct calculation: 40 defective inspections among 400, or 10%. Before returning it to the decision, the audit lead establishes what the inspected records represent. The register is reconciled with all completed records for the month. The selection log shows 400 independent uniform draws with replacement from that register. Every selected record was accessible. Inspectors applied the agreed defect definition, resolving ambiguous classifications against the records. In this constructed case these conditions are established; together they supply the sampling and measurement grounds that the ratio alone did not carry.
+
+Each draw therefore has the same defect probability: the unknown fraction of defective records in the fixed target population. The analyst applies the [Wilson interval for a binomial proportion](https://www.itl.nist.gov/div898/handbook/prc/section2/prc241.htm). For 40 of 400, its nominal 95% interval is approximately 7.43%–13.33%. The returned population claim is an estimate with that qualification, supported by the selection process and measurement. The confidence qualification belongs to the statistical procedure's repeated-sampling performance.
+
+The audit lead then makes the second judgement. The agreed criterion compares the interval's lower limit with 5%; 7.43% exceeds it. The owner receives the population, estimate, interval, sampling basis and criterion comparison, and commissions the investigation under the existing authority. The statistical result and the task's decision rule have supplied different contributions to this completed answer.
+
+Changing the decision rule would leave the population inference intact while changing its use for the task. For example, a rule requiring the same interval's lower limit to exceed 8% would not authorize commissioning on this evidence: 7.43% is below that threshold. The estimate and interval would remain the same. Conversely, a selection log covering only one office would change the population inference itself and require a return to the sample design. The two returns have different objects and useful continuations. The established relation, the permissible inference and the receiving requirement determine which work to retain and which to reopen.
+
+### C.39.QR:6 - Bias-Annotation
+
+A visible, easy-to-check result can shape the next performer’s understanding of the question. An author can also supply missing connections from memory while appraising the text. Recover the original use and distinguish the received contribution from that added work.
+
+The observed substitution identifies a failure in the reasoning. Its psychological or computational cause requires separate evidence; the repair can operate on the question, relation, inference and receiving use that are available for examination.
+
+### C.39.QR:7 - Conformance Checklist
+
+At the relevant occasion in section 4.6, answer from the work and its grounds:
+
+1. What is the original question, subject, required result and scope?
+2. What relation connects the working construction to that subject?
+3. What does the partial result warrant, and what grounds permit the returned inference?
+4. Does that warranted result supply the original use, including necessary connections and shared conditions?
+5. What constructive continuation follows from any gap, and has that contribution or responsible transfer occurred?
+
+A maintained aid uses these questions with the needed subject criteria. C.41.QC applies when the questions or means of answering them remain doubtful.
+
+### C.39.QR:8 - Common Anti-Patterns and How to Avoid Them
+
+| Failure | Useful return |
+| --- | --- |
+| The candidate's outline becomes the original assignment. | Recover the initiating question and subject-grounded expectation, then compare the outline with them. |
+| Correctness of a fragment becomes adequacy of the requested whole. | Retain the local judgement and establish the missing adequacy relation. |
+| A model-to-subject inference is treated as complete task fulfilment. | Assess its warranted subject claim and its contribution to the required work separately. |
+| A detected gap repeatedly generates another inspection. | Select and perform the construction, support or authorized decision that can resolve it. |
+
+### C.39.QR:9 - Consequences
+
+The recipient obtains a qualified answer and a usable connection between the contributions and the encompassing result. The operation can expose missing content early enough to change authoring, assignment or acceptance.
+
+Its burden is recovery of the question, examination of the consequential relation and grounds, and any warranted construction. Keep an adequate direct connection and reuse valid results. The benefit and cost in repeated work depend on actual execution and should be observed at the receiving use.
+
+### C.39.QR:10 - Rationale
+
+The Method separates two relations: the warranted use of a result to make a claim about a subject, and the adequacy of a work result for a question and intended use. Each can hold without settling the other. This separation permits retaining valid contributions while exposing the work still needed.
+
+The encompassing question constrains decomposition and the choice of representations. Their results can in turn revise the proposed understanding and obtaining way. Making that exchange explicit gives the procedure its constructive part: a failed return becomes a definite content, inference or support problem.
+
+### C.39.QR:11 - SoTA-Echoing
+
+The practice question is how to preserve an encompassing question through partial work and warranted appraisal at a burden suitable for repeated use. The selected line is the explicit connection in section 4 of question recovery, typed inference, adequacy comparison, constructive return and attention at consequential occasions.
+
+A serious alternative is a competent practitioner's direct composition of C.39, the relevant subject methods, C.37 or C.29, C.41, and the receiving work's acceptance rule. That arrangement can supply the same valid result. Use it when its connections are already understood and available. The additional contribution here is a reusable explanation of the two distinct judgements and their constructive continuation, so the recipient can obtain that connection without devising it anew.
+
+The trade-off is another description to learn and maintain. The selected arrangement keeps the detailed whole-account construction in C.39.WA and uses subject methods for their actual questions. Section 4.6 places the short questions at consequential returns; it does not add an independent check to every local operation. Its logical distinctions and explicit operations are inspectable in the text; reduced omissions, learning effort and useful effect require evidence from use.
+
+Frigg and Nguyen's [DEKI and the Mislocation of Justification](https://romanfrigg.org/wp-content/uploads/writings/deki_justification.pdf) distinguishes derivational correctness from justified claims about a target. This distinction is adapted in sections 4.2–4.3; a semantic account of representation leaves empirical justification to the relevant practice. The present Method adds the distinct comparison with the originating assignment and a constructive continuation.
+
+Reopen the arrangement when a simpler available composition supplies the same needed connection at lower total burden, when the additional entry obstructs use, or when actual work reveals a consequential return that its operations fail to handle.
+
+### C.39.QR:12 - Relations
+
+- C.39 develops a missing obtaining way and its explanation; C.39.WA develops an account of a whole subject.
+- C.3/C.3.1, A.14, B.1.5, C.2.1 and C.20 govern the distinct membership, generality and composition questions.
+- C.37, C.29 and A.6.3.CSC support representation choice, mathematical model use and scoped compression; E.13 returns a proxy to the value it serves.
+- F.0.2.RC tests promised source recovery through a receiving explanation.
+- C.41 and its use profiles support the attention questions and reconciliation of returns.
+- A.15.10 supplies recovery of interrupted work; C.11.DUA appraises demanded inquiry and change.
+
+### C.39.QR:End
+
+## C.39.WA - Develop an Account of the Whole Subject
+
+> **Type:** Method pattern
+> **Status:** Stable
+
+### C.39.WA:1 - Problem frame
+
+**Use this when** an explanation, proposal or review must answer a question about an organized whole or a broad field, and work on its parts can lose that question. The difficulty often becomes visible after a useful decomposition, a sequence of local corrections, a change of representation or a handover. An author may explain several operations accurately while leaving their common grounds and connections for the reader to invent.
+
+Begin with the question the account must answer and the use it must enable. Recover the subject and required depth from that question and its substantive grounds. Then develop the organization that makes the contributions answer it together.
+
+The result is an account whose relevant parts, relations, grounds and limits can be followed, together with a justified judgement about its adequacy for the original use. A review can instead return an exact missing construction and the work needed to obtain it. Retain an already adequate account. A calculation or a local correction with an established question can finish under its own criterion.
+
+### C.39.WA:2 - Problem
+
+A correct contribution can become the basis of a conclusion about a larger result through an unnoticed change of subject. “This is mathematical content” becomes “this explains mathematics”; a valid example becomes the explanation of a Method; a collection of individually useful Methods becomes an account of a discipline.
+
+Three things have changed in that move: the subject being explained, the property being judged, and the scope supported by the grounds. A later reviewer can inherit the substituted question from the author's outline or earlier positive judgement. Further checking of the same fragment then leaves the original need unanswered.
+
+The missing work is constructive as well as evaluative. The author has to obtain the relations, general grounds and choices that organize the subject, and explain how they govern its parts. The reviewer needs an independently grounded expectation of that account. Acceptance must preserve the relation between the received contribution and the encompassing request.
+
+### C.39.WA:3 - Forces
+
+| Tension | Consequence for the work |
+| --- | --- |
+| Useful decomposition and the original question | Derive component work from the needed whole and return its results to that question. |
+| General explanation and varied particulars | Explain common grounds and retain the cases that reveal consequential differences. |
+| Scope and attainable depth | Choose detail by the intended use while preserving the assigned subject. |
+| Existing knowledge and a new construction | Reuse adequate suppliers; explain the joins and inferences that the receiving account adds. |
+| Independent judgement and duplicated authorship | A reviewer reconstructs the expectation and appraises the account; the author supplies the missing explanation. |
+| Reliable attention and its burden | Put questions where their answers can change work, and preserve valid earlier grounds. |
+
+### C.39.WA:4 - Solution
+
+Keep the original subject available throughout construction, comparison and correction. Develop its organization, distinguish the relations used in consequential inferences, and follow the general grounds into choices about parts. Compare the actual account with the original question. Return a missing contribution to the operation that can supply it.
+
+C.39 supplies general construction and explanation; C.41 supplies the design and use of an attention aid. This Method connects those contributions for accounts of a whole subject. The subject practice supplies its own knowledge, construction rules and evidence. C.39.QR supplies the broader return of partial work to an originating question. When that return exposes a missing whole-subject account, carry its question, scope, reader and available contributions into section 4.1 here; return the developed account or precise gap to the originating use. Use this Method directly when building the account is already the assigned work.
+
+#### C.39.WA:4.1 - Recover the subject before accepting its decomposition
+
+Read the initiating question and applicable clarifications. State in ordinary subject language what must become understandable or obtainable, for which reader or receiving action, and at which scope. Recover the source commitment when the task includes restoration of a body of knowledge.
+
+Derive an initial expectation from the question and the subject's organization. For an account of a discipline, ask which recurrent problems, objects, principles, Methods and relations the reader needs. For a proposed composite Method, ask what it obtains and which connections make that possible. For an existing system, recover its boundary, functioning, constituents and interactions relevant to the question. Different subjects require different grounds of unity.
+
+This expectation is a proposal that substantive inquiry can correct. Keep its basis available so a change of scope or criterion can be explained. When depth is unclear, identify the consequential uncertainty and proceed with the content already required under the plausible readings. An unspecified depth in “explain mathematics” still permits recognizing that a single multiplication does not provide an account of the field.
+
+The reviewer forms this expectation from the request and necessary subject grounds before relying on the author's readiness judgement. It can be a concise explanation of indispensable constructions and connections; it need not reproduce the author's final text.
+
+**Questions:** What was asked about? Which question about that subject must be answered? What scope and limits were actually assigned? What would let the receiving reader continue?
+
+#### C.39.WA:4.2 - Construct the organization the account must explain
+
+Recover or propose what connects the relevant contributions. Follow the required understanding or result backward to the objects, actions, relations and conditions on which it depends, then explain the proposed organization forward. C.39:4.2–4.3 supplies this constructive return when an operation or join is missing.
+
+For a Method, explain inputs, actions, choices, intermediate results, common conditions, alternatives and returns. A branch is usable when the reader can distinguish its applicability; an iteration needs a reason to continue and a condition for stopping.
+
+For a discipline, recover its field question and boundary, the knowledge contributions that explain or constrain reusable practice, and the methods by which practice tests and changes that knowledge. Explain how those contributions form the field's assembly and what their coupling makes possible. Distinguish a constituent from a supplier whose result the field uses. Retain competing explanations or methods with their conditions of use. A changed claim or method must reconnect to that assembly; C.20:4.1–4.5 supplies its construction and continuity criteria. Several independently usable Methods can belong in the account without being forced into one sequence.
+
+For an existing whole, establish its relevant constituents and organizing relations under its subject rule. For a proposed whole, explain how the arrangement could obtain the needed property and which premises remain to be established. A knowledge claim, a physical object and a reusable Method have different conditions of composition and identity.
+
+Develop the relations at the scale where their consequences arise. A field account may need several layers of explanation: a common problem and principles, families of Methods, connections among those families, and particular enactments. Library.Reference:6 distinguishes composition levels, functional layers, abstraction, detail and scale. Select the structure that changes this account's reasoning. A longer list of local activities can leave the organizing relation absent.
+
+A useful general explanation supplies reasons for choices. It lets the reader say why these contributions belong together, what their connection makes possible, and what a changed condition would reopen. Where the available description says only “coordinate,” recover what must be made compatible, who or what supplies it, and how the resulting relation affects the whole.
+
+**Questions:** What makes this the whole under discussion? Which relations explain the relevant property or result? Why this composition or organization? Which external conditions and alternatives matter?
+
+#### C.39.WA:4.3 - Give each consequential transition its actual relation
+
+Identify the subjects on both sides of a transition and the relation that permits the next claim. Use the following distinctions where they change the explanation or its appraisal.
+
+| Transition | What must be recovered |
+| --- | --- |
+| A candidate falls under a kind | The candidate, the kind's criterion and the basis for applying it; C.3 governs membership. |
+| A narrower kind falls under a broader kind | The directed relation between criteria or the relevant exhaustive finite comparison; C.3.1 governs SubkindOf. |
+| Contributions constitute a whole | The subject-specific composition relation, grounds of unity and conditions of the whole; A.14, B.1.5, C.2.1 and C.20 supply different constructions. |
+| One contribution uses another's result | The supplied result, receiving operation and conditions of use. This dependency has its own meaning alongside any composition. |
+| Work enacts a Method | The reusable Method and the actual performer, occurrence and conditions; A.3.1 and A.15.1 govern these different subjects. |
+| A description or model represents a subject | The original subject, representation objects and relations, claims, correspondence and the returned inference. C.2.1 and, for mathematical model use, C.29/C.29.1 preserve these distinctions. |
+| A particular construction supports a more general operation | The retained premises, variable inputs, operation and grounds for the wider application; C.39.RO develops the generalization. |
+| An abstraction serves a selected question | The retained distinctions and relations, the omitted detail, and the questions the selected representation can answer. |
+
+A relation identifies how its participants are connected. A returned claim also needs an applicable inference rule. Separately, the resulting work must be compared with the original account question; C.39.QR:4.2–4.4 develops these two judgements. These relations can coexist. A reusable calculation can be a constituent of one Method and supply a result to another. A discipline can contain other disciplines and use results from fields that are not its constituents. A representation can preserve some structure, omit some and introduce useful constructed objects. Explain the relevant correspondence before returning a conclusion to the represented subject.
+
+Grounding connects a case with an explained construction. Identify that construction and make its relevant objects, relations, operations and grounds available to the reader. Show which consequential moves in the case instantiate which operations, why the conditions select them, and what a change would reopen. In an account of a Method, distinguish the explained Method, its displayed performance and the subject worked on during that performance. For example, when explaining how to design an explanation, a calculation can be the material; selecting a contrast and revising the explanation are performances of the explained Method. E.8:4.2.1.1–1.3 and EXD.2 develop this correspondence for authoring explanations.
+
+Choose meaningful variety from the account's declared subject and use. Differences in objects, relations, premises or available means can require different branches. Retain cases that make those differences understandable. A running case helps trace connected operations; add or change cases where it hides a consequential distinction, and return from each application to what it reveals about the general account. The choice of examples follows the work they must do, with no fixed number applying to every account.
+
+When generalizing, state what elements and relations are being generalized, the wider class, retained premises and grounds for the extension. Varied cases can support construction, expose limits and contribute evidence under the relevant inference method. A general proof, a qualified empirical inference and a demonstrated performance have different warrants. Explain the general contribution and the role of the cases in obtaining or understanding it.
+
+**Questions:** What was the subject before this transition, and what is it now? Which relation connects them, and what inference does it support? What explained construction is grounded by the cases? Which material differences do their variations reveal? What is generalized, over which range and on what grounds?
+
+#### C.39.WA:4.4 - Return the general grounds to the parts
+
+Use the account's general construction to choose, interpret, connect or revise its parts. Follow a consequential change of condition: which constituent action changes, which connection fails, which alternative becomes appropriate, and which contributions remain usable?
+
+This is the constructive role of the whole explanation. For a family of Methods, a shared principle can explain why different branches use different means. For a composite Method, a whole requirement can constrain several concurrent actions. For a discipline, a changed knowledge claim can alter a practice's applicability and create a new inquiry. These are different returns with different grounds.
+
+Then follow particular findings back into the common account. An unexpected case can reveal a missing premise, a new problem family or an incorrect connection. Revise the affected explanation and its uses. Keep the source's useful constructions while critically examining its claimed generality.
+
+Distinguish three moves when developing that return. Synthesis connects contributions into an organized account or way. Generalization extends the range for which a claim or operation is warranted. Abstraction selects a representation's distinctions for a question. One piece of work can need all three, with each contribution explained.
+
+**Questions:** Which choices about parts follow from the common grounds? What changes when a consequential condition changes? What do varied cases reveal about the common explanation? Which general contribution still has to be invented by the reader?
+
+#### C.39.WA:4.5 - Compare the actual account with the original question
+
+Describe what the candidate actually explains, temporarily setting aside its title, field label and declaration of completeness. Compare that content with the expectation from section 4.1 across the assigned scope. Inspect the general construction and its relations as well as local claims. Recover what the cases concretize and which consequential variations of the declared subject they expose. Compare the knowledge and operations available in the general account with those displayed in its cases. If following a running case has shifted attention to its application domain, restore the explanation of the Method being taught and the return from its performance. Retain the useful case content.
+
+For each consequential conclusion, retain its subject, property, scope and grounds. Truth of a claim, membership in a field, coherence of a construction, coverage of an assigned account, usability by a reader and effect in work answer different questions. Select the conclusion the assignment needs and obtain its basis.
+
+When source preservation is promised, F.0.2.RC tests whether the action, conditions, qualifications and returns can be reconstructed through the receiving explanation. Its source cut follows the promise: a commitment to a whole corpus requires that recovery basis. For a new synthesis, identify what the author constructed and how it is supported. A reader's own successful invention locates a useful contribution but does not make it content of the candidate.
+
+Return one of the substantive outcomes the evidence supports: an adequate account for the named use; a precise missing construction; a contradicted inference; an unavailable ground; or a changed, explicitly agreed question. Preserve a useful fragment with its qualified conclusion. Keep the original task open while a required contribution remains unavailable.
+
+**Questions:** What does this text actually explain? Which required constructions and connections are supplied? Which are missing, unsupported or still unexamined? Did the subject or criterion change, and on what authority?
+
+#### C.39.WA:4.6 - Arrange independent appraisal and complete the return
+
+Select independence according to the intended conclusion and the observed difficulty. A reviewer who must judge the author's construction keeps authorship separate. A fresh reading context is useful when earlier narrowing or a disclosed expected answer could shape recognition. Supply the original question and necessary subject grounds before the candidate and earlier verdicts. A domain specialist can still be needed; freshness does not supply subject competence.
+
+The reviewer compares the account with an independently grounded expectation and explains the missing relation or contribution in subject terms. The author develops that content or obtains its missing supplier. Reconsider the affected conclusion and dependent uses after repair. A coordinator accepting several contributions compares their actual coverage and joint conditions with the original result; C.41.SR supports that reconciliation.
+
+Use the six question groups as an aid at the actual work occasions:
+
+- **Before decomposition, read-do:** recover the subject and develop the expected organization in the current explanation.
+- **During construction, read-do:** follow the questions at a consequential join and construct or correct the missing content.
+- **Before an adequacy claim, do-confirm:** use the performed work and its grounds to answer the questions about the complete relevant account.
+- **At independent review:** recover the expectation first, then compare it with the full relevant candidate.
+- **At acceptance:** connect the warranted contributions and unresolved conditions to the original requested result.
+
+C.41.OF arranges access, timing and competent participation. C.41.UA separates obtaining an answer, deciding what to do and performing the resulting action. A negative or unresolved answer must have a useful continuation. Put the relevant outcome in the explanation, review or handoff already needed by the work.
+
+Use C.41.QC when the question set or checking means is itself doubtful. A useful appraisal must distinguish a correct fragment from an account that supplies the required whole. A criterion that asks only whether the fragment is correct cannot support that decision.
+
+After interruption, recover the original question, the relevant whole construction, the last supported contribution and the unresolved return. Reuse earlier grounds while their subjects, conditions and conclusions remain applicable. For an AI agent, keep the operative questions and subject material available in the working context. For people, provide the necessary time, access and help. Observe understanding, performance of the operation and the resulting benefit separately when deciding whether the arrangement works.
+
+### C.39.WA:5 - Archetypal Grounding
+
+The following constructed cases expose different transitions in the Method. Their purpose is to make the common operation and its returns inspectable.
+
+#### C.39.WA:5.1 - Mathematics replaced by a multiplication
+
+The request is to explain mathematics and judge the completeness of the account. The submitted text is “2 × 2 = 4.” The reviewer establishes that the equality is true and concerns mathematics, then accepts the request as completed.
+
+Recovering the subject immediately changes the judgement. The submitted text explains at most a particular calculation. An account of the field needs a chosen depth and reader, but it must develop mathematical objects and questions, ways of constructing and proving, and relevant relations among its branches. The precise breadth of a future overview remains a design question; the absence of that account in the submitted equality is already apparent.
+
+The wrong inference joins two different relations: the statement's membership in the field and the account's adequacy for the requested subject. Retain the valid calculation as a possible illustration. Return the missing field explanation to authorship.
+
+Suppose the author next provides ten correct calculations. This supplies more instances of calculation. Their contribution to the field account depends on an explained organization: what questions the operations answer, which structures and rules support them, how proof and construction differ, and how the selected branches connect. Diversity of examples can support that explanation while its organizing claims still require their own grounds.
+
+The approving coordinator repeats the comparison with the original question. The previous reviewer has supplied a local truth judgement. Acceptance of the requested account remains unsupported until its substantive construction is provided and assessed.
+
+#### C.39.WA:5.2 - Rebuild an explanation around the conditions of recovery
+
+A technical author is asked to explain how a specified service design can resume within 60 seconds of a primary-server interruption while preserving acknowledged updates. The reader must be able to assess the proposed recovery and revise that assessment when the time requirement changes. The available draft describes the primary and backup servers and reports a successful backup start-up test.
+
+The author first tries to order the account by those components. Returning to the reader's question reveals what that order leaves unexplained: how the acknowledged state reaches the new writer, and when clients may safely use it. The design supplies three relevant facts: acknowledgement follows replication of the log entry; the old writer's authority is removed before the backup receives authority; the client route opens after restoration of the required state. The author connects these facts through the conditions that each transition needs and produces. This gives the account its organization: preservation of acknowledged state, transfer of authority, and restoration of usable service.
+
+That organization changes the text. The replication rule moves next to the claim about preserved updates, where it supplies the claim's premise. Authority transfer is explained between detection and recovery by the new writer. The start-up test stays with the narrower claim it supports. The new connecting explanation tells the reader why an available process, correct state and permission to write must coincide before the service can resume. A list of servers could not explain that coincidence.
+
+The author then develops the timing paragraph from the same dependencies. In this constructed design, supported upper bounds are 8 seconds for detection, 12 for authority transfer, 15 for restoration and 5 for opening the route. The specified sequential order warrants a 40-second upper bound. The text attaches the conclusion to that order and to the replication, authority and timing premises. A reviewer can now follow both questions in the commission: what preserves the acknowledged updates, and what supports the recovery bound. A missing deployment test remains identifiable as a missing premise rather than disappearing behind the successful start-up test.
+
+A new requirement of 30 seconds changes the author's comparison. Forty seconds no longer supports it, while the upper bound alone leaves the original design's actual feasibility unresolved. The author obtains the designers' alternative: maintained warm state reduces the restoration bound to 4 seconds, with continuous compute and state-maintenance provision. The account is revised at the affected join: 29 seconds is supported under the new provision, and the state and authority explanation now includes that provision's role. Detection's established bound is retained. If the provision is unavailable, the explanation exposes the unresolved timing or support question for the designers; it does not invent a completed service.
+
+The revision follows the account's organizing grounds. It changes the premises, connection and qualified claim that depend on restoration, while preserving the still-supported contributions. This is the author's construction the reader can reuse when another whole-subject account consists of accurate component descriptions with its decisive relations missing.
+
+#### C.39.WA:5.3 - Build a disciplinary account through knowledge and practice
+
+An author is preparing the common entry to an operations-management guide. Its reader needs to choose and revise ways of obtaining continuing production or service under competing demands and changing conditions. The supplied chapters explain admission of work, capacity allocation, development of operating methods and review of results. The initial entry groups them by department. That arrangement helps locate a chapter but leaves the reader to discover why a finding in one chapter changes work in another.
+
+The author recovers the field question and reads the knowledge–practice connections in OPS.Reference:1.1–1.6. Two different grounds in the source are particularly consequential. With a consistently identified work population, opening unfinished work plus entries minus exits gives closing unfinished work. A completion forecast additionally depends on premises about capacity, work mix, variability and dependencies. The author uses this difference to construct the entry's organizing explanation: operating knowledge both constrains the arrangement and supplies revisable grounds for anticipating its results; performed work can reveal errors in the account, failed premises or a need for a different Method.
+
+This explanation reorganizes the connections among the four chapters. Admission and allocation now return a jointly supportable arrangement. Review compares its predicted and observed consequences, identifies which ground is affected, and returns that question either to the operating account, to provision or to development of the Method. The author writes the reasons for those different returns alongside the connection. An arithmetic discrepancy requires recovering the event account; a defeated forecast premise requires revising the forecast or arrangement. The shared field question holds these contributions together while their different grounds explain why they remain distinct Methods.
+
+To check whether this connection is actually available in the guide, the reviewer follows a supplied report of growing unfinished work. The report counts only items awaiting technicians and explains delay by technician capacity. Completion also requires specialist approval. The author recovers that omitted transition and revises the account's work population and exit condition. The guide's diagnosis paragraph now explains how more technician output can increase the approval queue, and directs the reader to establish the approval contribution or revise admission. These details are needed to show the author's repair: changing the represented operating unit changes the explanation and the Method choice together.
+
+A second supplied situation concerns readiness for an unknown future incident. The initial entry treats every operating result as an item that can be completed and stored. The author discovers that this common assumption cannot organize the readiness chapters: the required capability must remain available during the covered interval. The entry is revised to explain the relation between receiving result, operating unit and commitment. Its production branch follows completed items; its readiness branch follows maintained availability. Their shared principles concern obtaining usable results under joint conditions, while their different objects select different operating Methods.
+
+The completed entry contains that field explanation and the connections at the four chapter entrances. The reviewer reads those actual connections against the original commission, including how a changed knowledge claim returns to practice and how a practice finding revises knowledge. The guide now supplies the joins that its departmental outline had left to the reader. Further chapters receive their own place through the same field question and their actual knowledge–practice relations.
+
+#### C.39.WA:5.4 - Organize a theoretical account by the questions its structures answer
+
+A mathematics author is commissioned to explain finite-dimensional linear maps to readers who can solve elementary linear equations. The account must connect maps, equations and matrix calculations so that readers can reason about existence and uniqueness of solutions. This scope is part of the commission. The available notes define a map, introduce a matrix, and then present successful calculations in that order.
+
+The author recovers what must be explained before choosing a more elaborate calculation. Two questions organize the subject: which outputs can a map attain, and which inputs it treats alike? In the standard theory, the image answers the first question. Linearity gives the second a common construction: \(T(x)=T(y)\) exactly when \(x-y\) lies in the kernel. Consequently, \(T(x)=b\) is solvable when \(b\) is in the image; after one solution \(x_0\) is found, all solutions have the form \(x_0+k\) with \(k\) in the kernel. The [UCL account of linear maps](https://www.homepages.ucl.ac.uk/~ucahmto/0007_2021/3-3-linear-maps.html) supplies the definitions and structural grounds.
+
+These relations give the author a reason to change the exposition. The new opening states the two questions and derives their connection through linearity. The kernel and image definitions now perform identifiable explanatory work. A solved equation is placed after the solution-set construction, so the reader can see which features of that calculation arise from the common relation. The matrix section explains how selected bases represent the map and make calculation possible. A change of basis can change the matrix while retaining the map and the two structural questions.
+
+The reviewer then examines a transition the draft had left implicit: the claim that a map reaches every output. Two maps can have the formula \(T(x,y)=(x,0)\) and different codomains. With codomain \(\mathbb{R}^2\), some outputs are unattainable; with the first coordinate axis as codomain, every allowed output is attained. The formula alone leaves this judgement underdetermined. The author repairs the general explanation by including the declared codomain in the attainable-output question, and updates the affected statements and examples. The kernel argument remains valid. This local finding has changed the common account and selected its dependent revisions.
+
+The reviewer returns to the commissioned use. Existence is explained through image membership; freedom among solutions through the kernel; matrix computation through the chosen representation. The text now gives their connecting grounds before asking the reader to interpret particular calculations. These grounds also let the author select useful contrasts: a different codomain tests the scope of the attainable-output claim, whereas changing only a matrix entry may exercise the same calculation again.
+
+Here the whole account is organized by mathematical structures and justified implications. The author obtained that organization from the questions and theory, used it to choose and arrange the parts, then revised it when a particular judgement exposed a missing participant.
+
+### C.39.WA:6 - Bias-Annotation
+
+An author can carry the missing general explanation in memory and see it in a text that supplies only cases. A reviewer can adopt the author's decomposition as the scope of the assignment. A coordinator can extend a warranted local conclusion when combining reports.
+
+Restore the subject from the initiating question and subject grounds at the relevant decision. Track what the text supplies and what its reader has added. Preserve meaningful examples and partial results while constructing the missing explanation.
+
+### C.39.WA:7 - Conformance Checklist
+
+At a claim about the whole account, answer the following from the actual content and grounds:
+
+1. What was the original subject and required use?
+2. Which constructions and relations organize that subject at the required scope?
+3. What relation supports each consequential transition between kinds, parts, levels, representations and claims? What general construction do the examples ground, which significant variations do they reveal, and what warrants any generalization?
+4. How do the common grounds govern the parts, and how do particular findings revise the common account?
+5. What does the candidate actually supply, and what remains missing or unexamined?
+6. Which result of appraisal or repair permits the proposed use of the whole account?
+
+Arrange these questions at the work occasions in section 4.6. Preserve an unresolved answer and its continuation instead of manufacturing a positive one.
+
+### C.39.WA:8 - Common Anti-Patterns and How to Avoid Them
+
+| Observed form of failure | Constructive return |
+| --- | --- |
+| A correct example is accepted as the requested field account. | Restore the original subject, retain the example and develop the missing general construction. |
+| Author, reviewer and coordinator use the same reduced question. | Independently recover the expected subject before relying on the candidate's outline or verdict. |
+| A relation is inferred from a shared word such as “level” or “part.” | Recover the actual participants, direction and governing relation. |
+| The checklist is complete but its detected repair remains only proposed. | Perform the content repair and reconsider the affected conclusion. |
+| A reader supplies the missing explanation from expertise. | Identify that contribution and make it accessible under the promised reader conditions. |
+
+### C.39.WA:9 - Consequences
+
+The account can supply the connections and grounds that let a reader use and change its parts. Appraisal preserves the assigned subject across handovers and qualifies local successes at their actual scope.
+
+The work costs subject recovery, construction, connected reading and repair. Reuse adequate explanations and valid earlier grounds. Select further inquiry by its attainable contribution and total burden through C.11.DUA. Ordinary use provides evidence about whether the arrangement reduces consequential omissions and rework.
+
+### C.39.WA:10 - Rationale
+
+Adequacy is a relation among the account, the question, its intended use and the available grounds. Accurate local content is one possible contribution to that relation. The required organization depends on the subject: Method composition, discipline composition, system functioning and representation each supply different rules.
+
+The Method joins construction with appraisal because missing content must be obtained, while an adequate account should remain usable. Independent expectation helps expose a substituted subject; the two-way return between whole and parts gives the repair its constructive operation. C.41 makes the questions usable at consequential work occasions.
+
+### C.39.WA:11 - SoTA-Echoing
+
+The practice question is how an author or reviewer can develop an account of an organized subject that answers the whole assigned question. The selected line is the connected operation in section 4: independently recover the subject and expected organization, construct its grounds and relations, bring those grounds into choices about parts, and compare the actual account with the original use.
+
+A serious alternative is a competent author's direct use of C.39 with the relevant subject patterns and C.41. That arrangement can supply the same account when the author already knows how to connect its operations. This profile supplies that connection as reusable content, including the discipline/Method/system differences, the whole-to-parts return and the question groups at their use occasions. It accepts additional reading and maintenance in exchange for making that construction available to readers who would otherwise have to develop it themselves. Use the direct arrangement when it is already adequate; the profile adds no further work by virtue of being available.
+
+[Paul E. Newton's 2026 Ofqual account of qualification design](https://www.gov.uk/government/publications/designing-qualifications-that-will-be-fit-for-their-purposes--2/designing-qualifications-that-will-be-fit-for-their-purposes-accessible) explains construct underrepresentation and how systematic omissions from assessment can narrow enacted teaching. Adapt that distinction to section 4.1 and section 4.5: derive the expected account from the subject and intended use, then inspect which constructions the appraisal actually elicits. The report concerns qualification design; it does not evaluate this authoring Method.
+
+[NASA's Systems Engineering Handbook, section 2.4](https://www.nasa.gov/reference/2-0-fundamentals-of-systems-engineering/), supplies the distinction between conformity to requirements and suitability for the intended purpose and environment. Adapt it to the separate questions about a local criterion and the whole use. Section 5.2 makes those different conditions visible in one conditional service construction.
+
+C.39.QR owns the wider return from any partial result to its originating question. This profile supplies the detailed account-building branch. The difference from direct supplier use is the available explanation of their connection, not a new inference rule. Its usefulness to ordinary readers and its effect in work require evidence from those uses. Reopen the arrangement when an existing account supplies the same connection more simply, when the additional description causes avoidable work, or when an important subject cannot be handled by the stated operations.
+
+### C.39.WA:12 - Relations
+
+- C.39.QR returns partial work to its original question and uses this Method when the missing result is a whole-subject account.
+- A.6.H recovers the exact subject and relations of a holism claim.
+- A.14, B.1.5, C.2.1 and C.20 govern different constructions of wholes.
+- C.3/C.3.1 and A.3.1 distinguish kind relations and Method variation from composition.
+- C.29/C.29.1 govern mathematical representation and returned inference.
+- C.39/C.39.RO supply construction and generalization; E.4.CM applies them to framework publication.
+- F.0.2.RC supplies source-coverage reconstruction and affected refresh.
+- C.41 with OF/UA/SR/QC supplies selection, fitting, execution, reconciliation and qualification of the attention aid.
+- F.19 repairs wording whose meaning or contribution obstructs the account.
+- Library.Reference:6 explains the different structures needed to select the relevant levels and layers.
+
+### C.39.WA:End
 
 ## C.39.RO - Turn a Construction into a Reusable Operation
 
@@ -96028,13 +96519,21 @@ The raw/result prototype, the source-qualified comparison and the reduced single
 
 Determine the content owed to the reader from the subject, declared scope and receiving work. Include the relations, grounds, alternatives and conditions needed for that work; do not let the circumstances of a convenient example decide which of them to explain. This is a priority in deciding adequacy, not a compulsory order of discovery or presentation. A case, sketch or attempted calculation can reveal a missing relation before the general account is finished. Carry that discovery back into the account and distinguish a reusable condition from an incidental feature of the case.
 
+**Keep the explained subject and its example distinguishable.** When teaching a Method, identify the reusable way, the actual or stipulated performance that illustrates it, and the material on which that performance works. Show which choice or action in the example enacts which operation and why its result is usable next. In an explanation-design pattern, a calculation of a mean can be material supplied to the explainer; selecting unequal groups to expose a misleading shortcut illustrates the explainer's Method. Correct arithmetic supplies the mathematical result. The account of selecting and using the contrast explains the teaching move. These contributions can appear together without changing the pattern's subject to arithmetic.
+
+Make the common claim, its scope and its grounds available in the explanation. It may be expressed alongside cases, through a derivation or through a named accessible supplier. State what may vary and which conditions make the relation or operation applicable. When cases suggest a new general claim, develop and qualify that claim through the relevant subject Method. A constructed instance can demonstrate an operation, a counterexample can defeat a universal claim, and observed cases can contribute empirical evidence; the wider inference retains the grounds appropriate to that use.
+
 Select an example for a particular contribution: making an unfamiliar relation inspectable, exposing an intermediate operation, distinguishing plausible rules, showing a boundary, or connecting several Methods in use. Work the correspondence between the account and the instance. A correct answer can fit more than one rule; choose values or a comparison that lets the reader distinguish the intended relation. Preserve adequate direct explanation when an additional example would contribute nothing to the declared use. Archetypal Grounding remains a content function of a canonical pattern; it is not a requirement to insert an example into every paragraph, slide or section derived from that pattern.
 
-**Decide whether to continue the same case.** Continuity can make an earlier result, a changing state or the consequences of a choice available to the next operation. It can also avoid reintroducing circumstances the reader already understands. Retain that benefit when the case still shows the relations now needed. If a new question needs different objects, a competing method or a condition the case cannot represent faithfully, change the case, juxtapose a contrasting one or use a direct explanation. Shorten or end the illustration when continuing it would displace necessary content. Several cases are not inherently better: retain the comparisons that expose a consequential relation, rather than changing settings for variety alone.
+**Choose meaningful variety from the promised subject.** Recover the differences in objects, relations, conditions, available grounds and receiving work that the account must handle. Select cases that make those differences intelligible, including ordinary applications as well as contrasts and limits. A numerical derivation, a causal explanation with uncertain evidence and a recommendation under competing purposes can require different explanatory moves. Changing numbers within a derivation does not supply the other two. Several materially different examples may be necessary to ground a general account even when each example is locally simple. Explain what remains common across them and what changes for a subject-specific reason.
 
-**Check the account at its promised scope.** Compare what the explanation lets the intended reader recover with what the subject and receiving work require. The reader should be able to explain the governing relation, its grounds and conditions, and use it in a relevant changed situation without merely retelling the story. Choose that variation from the promised scope, not only from what is easy to change inside the chosen setting. A change of numbers within one kind of object may settle a numerical question while leaving a claimed change of object kind or Method combination unexamined. Supply the missing explanation or accessible supplier; another example does not repair an absent operation by itself. Use F.19's evidence and coverage conditions for a reader-recovery conclusion. A correct illustration, its presence in the expected section and a successful local reading establish only their respective contributions.
+For human learning, HCD.5:4.2.1 and HCD.6.1:4.2.2 connect explanations with a distribution of qualified encounters and focused contrasts. Use that contribution when a learner must recognize or use a family that one pair cannot expose. A demonstrated distinction can be available before a complete verbal rule; preserve its qualified examples and conditions instead of inventing a formula. The framework author's obligation is to make the claimed commonality and its basis usable, including the limits of what has been explained.
 
-For example, a continuing transaction can show why a later update must use the state produced by an earlier one: retaining the same transaction makes that dependency visible. In an account of resource use across Methods, however, a single consumable specimen cannot also stand for reusable information without further explanation. Explain consumption and reuse, then use cases that distinguish those relations. Reusing the specimen story for every step would hide a condition of the general Method. A reader who already understands a short algebraic derivation may instead need no narrative case for that inference. These are choices about the contribution required, not a fixed allocation of examples.
+**Decide whether to continue the same case.** Continuity can make an earlier result, a changing state or the consequences of a choice available to the next operation. It can also avoid reintroducing circumstances the reader already understands. Retain that benefit when the case still shows the relations now needed. At each consequential transition, return to the subject being explained: which operation or principle is this instance making usable? If a new question needs different objects, a competing method or a condition the case cannot represent faithfully, change the case, juxtapose a contrasting one or use a direct explanation. Keep the general reasoning connected while examples change. Retain the varied cases needed for that account; shorten incidental story development when it displaces the next required connection.
+
+**Check the account at its promised scope.** Compare what the explanation lets the intended reader recover with what the subject and receiving work require. The reader should be able to explain the governing relation, its grounds and conditions, and use it across the material variations included in the promise. Choose those variations from the subject, not only from what is easy to change inside the chosen setting. Inspect the correspondence back to the Method or principle being taught as well as the correctness of the example's domain result. Supply a missing general operation, explanation or accessible supplier; add or revise cases when the required correspondence or variation remains hard to recover. Use F.19's evidence and coverage conditions for a reader-recovery conclusion.
+
+For example, a continuing transaction can show why a later update must use the state produced by an earlier one: retaining the same transaction makes that dependency visible. In an account of resource use across Methods, show the different relations of a consumable specimen and reusable information. Explain consumption and reuse, then show how each changes the receiving operation. The author's reusable move is to select and connect cases by the relations owed to the reader; the transaction, specimen and information are the material used to perform that move. A reader who already understands a short algebraic derivation may need no narrative case for that inference. These are choices about the contribution required, not a fixed allocation of examples.
 
 ##### E.8:4.2.2 - Package-form and neighboring-pattern reference discipline
 
@@ -96201,15 +96700,31 @@ Apply §4.2.3 to place this edition's drafting, review and landing history in it
 
 If a pattern or example claims **autonomy**, name the admitted `U.System` whose freedom of action is being evaluated and use the current `E.16` pattern that defines or tests the claim. Add another relation only when it is current under its own governing pattern. Admit dated Work under the A.13-first and independent A.15.1 rule in `E.8:0.3`, adding `F.6` only for current assignment-bound attribution. Add autonomy apparatus or a vignette only when it helps the reader use that claim. Apply `F.19` after recovery; if the corpus supplies no direct governor, return `A.6.RCD missing-governor`.
 
-### E.8:5 - Archetypal Grounding (System and Episteme)
+### E.8:5 - Archetypal Grounding
 
-| Template element | `U.System` illustration | `U.Episteme` illustration |
-|------------------|------------------------|---------------------------|
-| Section order | Pump‑assembly pattern follows sections **1–13** and ends with its required `:End` sentinel. | Meta‑analysis pattern follows the same sections and sentinel rule. |
-| S-1 Density w/o Jargon | “The pump casing seals at this face.” | “The claim states its predicates explicitly.” |
-| Governing-claim flow | Opens with the pump's working situation and required claim, then adds only context needed to act. | Opens with the research question and evidence claim, then adds only context needed to interpret it. |
+#### E.8:5.1 - Turn a framework outline into a usable common account
 
-*Note:* Use C.2.3 for a claim about **F (Formality)** and state the expression-rigor criterion it satisfies.
+An author has three short chapters about selecting a source, reusing a rule and refreshing a decision. The commissioned introduction must explain how readers can keep source-based decisions justified as their sources change. The draft says: "Find a source. Record its title and date. Apply the rule. Review the decision whenever a new edition appears." Its sequence names the activities but leaves their connection unexplained.
+
+The author follows the required decision back through the material. A source is useful here because a particular claim, under stated conditions, contributes to the decision. Its title and date enable recovery of that claim. A later edition matters through a change to that contribution. This dependence gives the common account its organizing ground. The author writes:
+
+> Begin with the question the decision must answer and recover the source claim that can contribute to it. Establish whether the claim's conditions hold for this use, then make its effect on the decision explicit. Keep enough source identity to recover that basis. When the source changes, compare the used claim, its conditions and limitations; reconsider the decisions whose grounds are affected. An already adequate source or unchanged contribution can continue to serve its existing use.
+
+That paragraph changes the organization of the three chapters. Selection now returns a qualified contribution to a question. Reuse explains how that contribution enters the decision. Refresh follows the resulting dependence, returning to selection when a usable source is lost or to application when its conditions change. Each chapter can still serve an independently arising question. Their common account explains how their results connect.
+
+The author distributes the remaining content by function. The Problem explains why a title and date can coexist with an unsupported decision. The Solution supplies the operations and their returns. The Rationale compares dependence-based refresh with redoing every source-based decision after any edition change, including the cost and the risk of overlooking an affected use. Grounding shows an actual dependence; the Conformance Checklist asks whether the used claim, applicability and affected decision can be recovered. These functions guide what is written, rather than providing places for repeated assurances that the account is complete.
+
+In the constructed case, a handbook's rule sets a maximum reporting interval of seven days, and a team has chosen weekly reporting on that basis. One new edition changes the chapter title while preserving the rule and its conditions; the common account leads the author to retain the decision and update its recovery route. Another edition shortens the applicable maximum to five days; the author shows the reviewer returning the weekly decision for revision. The difference supplies the reason for selective refresh and explains which earlier contributions remain useful.
+
+Suppose the commission expands to recommendations whose suitability also depends on the recipient's preferences. The current source account leaves that additional ground implicit. The author adds the recipient's objective and preference to the common decision basis and connects their change to the relevant reconsideration. Merely adding a fourth chapter called "preferences" would leave the return unexplained. The existing source-recovery operations remain usable, while the expanded account makes another condition of reliance explicit.
+
+#### E.8:5.2 - Keep expression, organization and evidence in their roles
+
+The date-conversion repair in section 4.2.1.2 shows a different authoring choice: how to preserve an operation, its conditions and a return to fuller explanation when changing the reading arrangement. Use that case for the form-and-access question and section 5.1 for construction of a common account and its constituent explanations. Their different contributions follow the authoring work the reader needs.
+
+Small subject sentences can illustrate density without jargon: "The pump casing seals at this face" names the relevant action and location; "The claim states its predicates explicitly" names an epistemic subject and its property. Their role is to illustrate expression. The organizing explanation and performed authoring choices in section 5.1 carry the larger construction.
+
+An individual pattern uses the canonical sections and required `:End` sentinel. A whole-framework account uses the publication arrangement in E.11.PFP:4.7 while answering the relevant content questions. For a claim about **F (Formality)**, use C.2.3 and state the expression-rigor criterion it satisfies.
 
 ### E.8:6 - Bias-Annotation
 Lenses: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Universal** for the authoring conventions in this pattern.
@@ -96229,7 +96744,7 @@ Passing a Conformance Checklist supports the selected conformance claims, not a 
 | **CC-SG.0 (Heading discipline).** | Pattern and subsection headings **SHALL** follow **H-1 … H-9** (FullId prefix, reserved punctuation, heading levels, ellipsis discipline). The Footer marker **SHALL** follow **H-9**. | Makes chunks self-contained; reduces ambiguity between author elision and retrieval truncation. |
 | **CC-SG.1** | Every new pattern **SHALL** follow the section order defined in the Canonical Template (Title block -> … -> Footer marker). | Guarantees structural comparability. |
 | **CC-SG.1a (Initial pattern draft shape).** | The first non-empty authored version of a pattern **SHALL** already use the canonical section frame (Title block -> Footer marker). Authors **MUST NOT** start from one pre-template opening memo and promise to backfill canonical sections later. | Prevents large late-stage structural rewrites and keeps drafting aligned with `E.8` from the first substantive pass. |
-| **CC-SG.2 (Grounding required).** | Every pattern **MUST** include an *Archetypal Grounding* section with at least one content-bearing Tell, Show, reduced grounding case, or ordinary/non-use boundary. A placeholder saying that grounding is absent is nonconforming. | Keeps patterns teachable and reduces "definition-only" ambiguity. |
+| **CC-SG.2 (Grounding required).** | Every pattern **MUST** include content-bearing *Archetypal Grounding*. Apply §4.2.1.3 to connect its cases or demonstrations to the explained relations and to supply the material variation required by the declared use. A reduced case or ordinary/non-use boundary can serve a bounded grounding question; the complete explanation still supplies its common grounds and the correspondences needed for its promised scope. An omission placeholder is nonconforming. | Makes the subject and its applications inspectable without treating a section or fixed example count as sufficient grounding. |
 | **CC-SG.3** | The *Bias-Annotation* section **SHALL** cite the five Principle-Taxonomy lenses and declare either “Universal” or an explicit scope limitation. | Keeps cross-disciplinary neutrality explicit (ties to Guard-Rail 4). |
 | **CC-SG.4** | Deontic normative sentences **MUST** use only RFC-style keywords (see **H-8**); RFC keywords **MUST NOT** appear inside `Definition:`/`Invariant:`/`Well-formedness constraint:` blocks. When enforceable, admissibility/validity predicates **SHOULD** be referenced by id from the Conformance Checklist (rather than duplicated as “X MUST …”). Informal deontic verbs are prohibited in normative clauses. | Prevents ambiguity between obligation language and model validity; improves auditability. |
 | **CC-SG.5** | Pattern prose **SHOULD** demonstrate adherence to Style Principles **S-0 … S-19**; reviewers are empowered to request revision when clarity or didactic quality suffers. | Embeds common narrative voice without rigid policing. |
@@ -97928,6 +98443,7 @@ When the wording concerns representation, publication or reliance, classify the 
 
 Use the ordinary word once the surrounding text makes the intended object and use clear. Add an FPF kind name when that distinction changes the claim or the next action.
 
+
 ##### E.10:0.2c.10 - `reader`, `reviewer`, `author`, `operator`
 
 Do not use people-position words as hidden kind names.
@@ -98044,12 +98560,12 @@ Do not fill one authoring union-field position with whichever nearby FPF kind is
 
 ##### E.10:0.2c.17 - Coordination and FPF-governed lists
 
-Apply `F.19` first: ask whether the receiving use needs a series at all. If one governing claim, relation, or representative case would do, write it and remove the catalogue. A broader umbrella head is not a repair.
+Apply F.19:4.3, step 6, to recover the series' governing proposition, scope and membership semantics before choosing its form. When the series is unnecessary, preserve that content in the direct claim or relation; use cases for their contribution to its explanation.
 
 When a series is needed and its FPF meaning remains unresolved, distinguish the current use:
 
 - a closed set, with its classified kind, membership rule, and closure;
-- illustrative examples, with the proposition or kind first and a non-exhaustive cue when completeness is plausibly ambiguous;
+- illustrative examples, with their connection to the proposition or kind and a non-exhaustive cue when completeness or applicability is plausibly ambiguous;
 - explicit alternatives or a sequence;
 - several obtaining direct relations, each with its actual participants;
 - a reusable relation declaration, with its `RelationSignature` and A.6.5 `SlotSpec` values; or
@@ -99078,6 +99594,14 @@ These are qualified applications, not exhaustive definitions of the familiar for
 Translate the intended subject and operation, not just the adjective. Russian «методологическое мышление» concerns methods and their grounds in this use; English “methodical thinking” can instead mean orderly procedure. “Systematic” does not by itself mean FPF's “system thinking.” For the Work application, “reasoning about performed work” and «мышление о выполненных работах» make the intended subject explicit. Preserve a source's different use when quoting or explaining it.
 
 [Library.Reference:1.2](https://github.com/ailev/FPF/blob/main/FPF-LIBRARY-REFERENCE.md#libraryreference12---holonic-thinking-across-different-kinds-of-whole) develops the common construction and its limits. Apply this distinction with F.19 when authoring or repairing a consequential use. The adjective alone supplies neither holon admission nor a part–whole, level or layer relation.
+
+#### E.10:9.10 - `present`, `represent`, `representation`, `representative`
+
+Recover what is being shown, described, modelled, instantiated, sampled or acted for, and which relation the current sentence asserts. The shared word can conceal different questions. A presentation can be an act of communicating or its material; a representation can be an expression used to reason about a subject; a representative can be a selected case, a statistical sample or an authorized participant.
+
+When the intended participants and predicate are already clear, keep ordinary wording and use the subject rule. For a remaining ambiguity, E.10.ARCH:3 recovers them. C.2.P supplies source, content and publication distinctions; C.37 supplies representation choice; C.29 supplies mathematical correspondence and returned inference. Kind membership, composition, statistical inference and acting under an assignment retain their own governing rules.
+
+When a sentence relies on a “representative” example or fragment, recover the claim it supports and the basis of that support. A case chosen to illustrate an operation and a sample used for population inference have different grounds. Use C.39.QR when the unresolved question is what the obtained result establishes for the originating assignment; use C.39.WA when that assignment requires the still-missing explanation of a whole subject. Select a useful case by its contribution to the explanation, while preserving the general proposition and its grounds.
 
 ### E.10:10 - Optional detailed lexical checks *(informative)*
 
@@ -111302,7 +111826,7 @@ prioritize the FPF-governed sections and enforceable requirements in E.19:4.2.1.
 4. **Cross-pattern compatibility & impact radius**
    Relations are consistent with declared dependencies and dependents; declared scope/impact is compatible or explicitly limited.
 5. **Didactic grounding**
-   Archetypal Grounding is present and teaches the concept with concrete cases or references, not only abstractions.
+   Apply E.8:4.2.1.3 to the connected explanation and its cases. Recover the common relation or Method being taught, its grounds, and the correspondence to the example. For a Method example, distinguish the reusable way, the depicted performance and its subject material. Inspect whether the cases make the material variation of the declared use intelligible; a correct result in the example's domain answers only that part of the review.
 6. **Reader-fit**
    The pattern body addresses the intended FPF user in the working role governed by that pattern. FPF developers, package architects, reviewers, and evaluators are appropriate readers when they occupy that role. FPF-governed sections explain admissible use, costs, boundaries, the concrete definitions, constraints, tests, or other contributions used from FPF patterns named by value, project-side FPF kinds and references named by value, and related relations named by value in user terms. Architecture placement, freeze or merge state, package-boundary rationale, reference boilerplate, quality or projection evidence, corpus-entry evidence, `PatternQualityStatus`, monolith-parity evidence, landing evidence, and broader package-development rationale stay in `DRR`, architecture documents, review handoff, `E.21` result, `E.19` findings, README, ToC, `E.11`, cards, retrieval or projection carriers, release or landing evidence carriers, companions, or ordinary references unless they change the working reader's first admissible move.
 7. **Template & section integrity**
@@ -111355,11 +111879,12 @@ When E.21 is active, its `PrecisionRestorationProfile` carries the quality resul
 Check these connected uses:
 
 * **Recognition and first action:** an early `Use this when` or equivalent, a recognizable working situation, the cost of missing it, practical gain, first admissible action and ordinary non-use boundary.
-* **Performable guidance:** a minimally viable example, with a worked slice when misuse is likely; useful Consequences and Anti-Patterns; and a clear adoption test.
+* **Performable guidance:** a worked application that makes the Method's own choices, intermediate results and continuation recoverable; useful Consequences and Anti-Patterns; and a clear adoption test. Select additional materially different applications when the declared use requires them.
 * **Subject and reader:** a short account of the primary EntityOfConcern, relation or claim record and any minimal modeling lens needed by typed declaration content. Give early technical terms nearby plain glosses. When several reader situations are served, state the primary working reader, concern and viewpoint.
 * **Recognition and assurance:** put first-use guidance before the declaration, modeling and review/check material needed for assurance. Keep its scope consistent with the recognition claim.
 * **Grounding and breadth:** connect explanatory SoTA rows to their working-reader implication and the cases or boundaries they discipline. A universal or transdisciplinary claim needs heterogeneous recognition situations adequate to that breadth; F.16 is the preferred compact example-matrix template.
 
+Compare the account with the promised subject before using a successful case as an adequacy result. Identify which general grounds explain the choices across the required variations and which differences change the action. Follow a continuing case back to that account when its application problem begins to determine what the pattern teaches. Preserve its useful grounding, then obtain the missing explanation or varied application. Use E.21's scope and case-coverage coordinates when a quality value is required; a local demonstration does not settle a broader scope.
 When admission or refresh includes precise-language repair, apply `CC-E19-7a`. It preserves practical guidance and the Plain/Tech relation under `E.2` `P-2` and `E.12`, with formal identity and dated-Work checks only under the conditions stated there. `F.19` governs the whole-span repair; `E.10` supplies compact cues and FPF routing.
 
 For a broad cleanup across several patterns, or any cleanup that touches FPF-governed Problem frames, Problem sections, first-use recognition text, archetypal grounding, examples, or worked slices, check whether the didactic function was harmed. In inspect-repair-verify, restore the working situation, first useful move, and the definition, constraint, test, or other pattern contribution needed by the claim; in independent findings, record the exact harm and repair direction. A positive `improved` or `preserved` account is required only when another evaluation makes that value one of its substantive results, and it belongs in that evaluation.
@@ -111797,11 +112322,33 @@ If a governing admission, refresh, `E.21`, `DRR`, publication, or release decisi
 
 **Ordering and effort.** Put ontology, semantics, modularity, and SoTA defects in FPF-governed sections before compact low-signal formatting findings. If semantic defects are present, address them before mechanical edits; formatting and micro-typos must not dominate the work by volume.
 
-### E.19:5 - Archetypal Grounding — transfer across three pattern subjects
+### E.19:5 - Archetypal Grounding — perform the selected review
 
-The three worked situations in §0.2 use the same review move: name the exact pattern edition and review question, apply `PCP-BASE` plus only the live risk profiles, inspect the complete selected scope, and either repair and recheck the defects or return one complete actionable findings set.
+The situations in section 0.2 help a reviewer recognize which questions to select. The following constructed reviews show the comparison, conclusion and return for two different kinds of defect.
 
-**Transfer result.** Profile selection and the two review forms transfer unchanged. Each subject keeps its own correctness question: system requirements agree with their conformance claims; episteme and publication uses keep claims, source use/currentness, publication occurrences, and carriers distinct; and Method guidance is distinguished from performed Work. A successful example from one case cannot stand in for either of the others.
+#### E.19:5.1 - Review and repair a source-change instruction
+
+E.21:5.0 supplies the complete compact pattern `EX.1@source-pin-1`. It asks the user to record a source edition, the rule used and its effect on a decision, then concludes: "Reopen the decision whenever the source publishes any new edition." The present E.19 question is a bounded refresh review of that last instruction, read with the whole quoted pattern. The relying use is to keep a decision connected to its source grounds.
+
+The reviewer selects PCP-BASE and PCP-REFRESH. The edition-change instruction can repeatedly create work and can also determine which decisions receive attention; its semantic condition therefore needs examination. The small scope permits inspect-repair-verify within the reviewer's authority.
+
+The reviewer compares the trigger with the reliance described earlier in the pattern. In one constructed new edition the title changes while the used rule, applicability and limitations remain the same. The instruction reopens a decision whose stated ground is unchanged. In another edition the relied-on maximum inspection interval becomes shorter, affecting the chosen interval. Here reconsideration is needed. The difference identifies the defect: publication of an edition is being used in place of a material change to the decision's basis.
+
+The reviewer replaces the last instruction with:
+
+> When a source changes, compare the used rule, its applicability and its stated limitations. Reopen the relying decision where that comparison changes its grounds. Retain decisions whose grounds remain applicable. If the used rule or edition cannot be recovered, apply the existing stop-and-retrieve instruction before relying on it.
+
+Focused verification applies the two changes to the revised instruction. The title change now calls for preserving the recovery route while retaining the decision. The shortened interval sends the affected decision back for reconsideration. The source-identity and stop-and-retrieve contributions remain intact. The review can close this bounded refresh question with the repaired instruction and that comparison. E.21's evaluation of the deliberately defective quoted edition remains an evaluation of its original text.
+
+#### E.19:5.2 - Keep a pattern-quality conclusion within its authority
+
+A different candidate adds this claim to its otherwise developed review guidance: "An admitted deployment pattern authorizes the team to deploy the system." The requested review concerns this new authority claim; the preceding account already explains the Method and its conditions.
+
+PCP-BASE identifies a change from the quality of guidance to permission for a particular operation. PCP-NORM is selected because the new sentence asserts authority. The reviewer locates no project decision or authorization relation in the candidate's grounds: the supplied conclusion concerns the pattern edition. The claim therefore lacks the contribution that would permit the asserted deployment.
+
+Under independent findings, the reviewer leaves the candidate unchanged and returns the exact repair: state that the admitted pattern supplies guidance for the deployment work, and identify the project's governing authorization before claiming permission to perform that work. The author replaces the sentence with: "Use the admitted pattern as guidance for preparing deployment. The project's responsible authority decides whether this deployment may proceed under its governing conditions." Focused rereading preserves the useful Method guidance and separates the permission decision and its needed basis.
+
+This defect requires a different comparison from section 5.1. There the relation from source change to decision grounds selected the refresh; here the subject and authority of the returned conclusion select its permissible use. Both reviews choose their depth from an actual claim, carry out the selected comparison and complete a repair or findings return. Their reasoning is available for analogous questions under the applicable profiles; observation of transfer by other reviewers requires those actual uses.
 
 ### E.19:6 - Bias-Annotation
 
@@ -112606,7 +113153,7 @@ For every conforming E.21 result, an admitted evaluator `U.System` applies the e
 | `RepairLocalityAndChangeImpactPredictability` | Whether repairs have the smallest locus and predictable downstream impact. |
 | `ProxyForValueSubstitutionResistance` | Whether the assessment question and coordinate-result rationale state what became worse when visible quality coordinates improved, and keep any use of a visible quality value, metric, review result, or release cue as practical value under an exact `E.13` application/result. |
 | `ClaimJustificationTraceabilityCurrentnessAndReplayability` | Whether the claim is replayable from pinned text, scope, evidence, currentness basis, limitations, status, and stop reason. |
-| `CaseCountercaseAndTransferCoverage` | Whether positive cases, near-misses, anti-cases, and transfer cases match the breadth claimed. |
+| `CaseCountercaseAndTransferCoverage` | Whether the explicit correspondences between the common account and its positive cases, contrasts, limits and transfer cases make the material variation of the claimed use recoverable. Needed diversity follows the subject and scope rather than a fixed count. |
 | `MaturePatternParityAndSelectedContentSufficiency` | Whether selected mature-pattern ingredients are present in the body or related patterns for this `EntityOfConcern` and use. |
 | `SoTABindingAndCurrentness` | Whether the pattern's positive SoTA claim satisfies the canonical definition and comparison contract in `E.8:11` and binds that selected answer into exact pattern loci. Source identity/currentness, officiality, prevalence, and praise are supporting context and cannot raise this coordinate; an official source may still win from its substantive answer. |
 | `FormalClaimAdmissibilityAndLensFit` | Whether measurement, scale, comparison, formal model, simulation, causal, mathematical, QL, or learned-lens claims are admissible for their stated use, connected to the pattern content that defines, constrains, or tests their admissibility at the precision the claim needs, or correctly absent. |
@@ -112625,7 +113172,7 @@ These rows calibrate common disagreements. They do not replace the coordinate de
 | Coordinate family | 3 is typical when | 4 is typical when | 5 is typical when |
 |---|---|---|---|
 | `WorkingSituationAndUseBoundaryRecognizability` | The situation is recoverable but late, abstract, or missing its practical gain, harm, first move, or action boundary. | The situation, intended use, first move, practical consequence, and stop or return are early and clear; any non-use distinction has a locally grounded plausible reading. | Early recognition is reinforced by a filled or replayable first-use slice showing that a cold practitioner can enter correctly. |
-| `EntityOfConcernAndClaimScopeStability` | The primary object is named but related record, evidence, lens, or project claims keep pulling the scope. | The primary `EntityOfConcern` and claim scope stay stable, with bounded related-pattern material. | Scope stability is reinforced across title, recognition text, Solution, worked or replayable case material, checklist, relations, and any independently grounded non-use boundary without any local apparatus stealing attention. |
+| `EntityOfConcernAndClaimScopeStability` | The primary object is named but related record, evidence, lens, project or example-domain claims keep pulling the scope. | The primary `EntityOfConcern` and claim scope stay stable, with bounded related-pattern material. A Method, its depicted performance and the material used in that performance remain distinguishable where their confusion would change the explanation; the cases connect back to the governing subject and its grounds. | Reinforcing connections across title, recognition text, Solution, worked or replayable cases, checklist, relations and grounded boundaries make the same scope particularly easy to recover through difficult contrasts or combinations of Methods. |
 | `PatternApplicationGuidance` | The first action is named but only partly executable, or the Solution mostly assigns governing loci instead of giving this pattern's own action. | The first action and continuation are executable in this pattern's own subject terms; related-pattern statements are declarative, compact, and late. | The application guidance is demonstrated by a filled worked slice or equivalent replayable evidence. |
 | `ClosureAndBoundedNonUseRecoverability` | Stop, repair, return, or related-pattern contribution is present but does not yet select the next action. | Stop, repair, return, reopen, and concrete defining, constraining, testing, or restoration contributions are recoverable for the declared use; any non-use boundary has an independent local ground. | A worked stop, overturn, return, or grounded non-use case shows how closure changes status or the next applicable pattern relation. |
 | `NeighborAuthorityAndBoundedUseFit` | Related patterns are named but their contribution remains generic, future-pattern-like, ambiguous, hidden behind an unresolved *role* nickname, or too early in the Solution; or a separately asserted authority relation lacks its own basis. | Related patterns are named by value with limited declarative relations and the concrete definition, constraint, test, or repair contribution used here; use of each contribution stays within its stated scope, and related-pattern content does not replace the pattern's own content. | Those contributions and their limits remain replayable across cases, relations, and grounded boundary cases, with pattern application and any independently asserted authority relation explicit. |
@@ -112635,7 +113182,7 @@ These rows calibrate common disagreements. They do not replace the coordinate de
 | `RepairLocalityAndChangeImpactPredictability` | Repair conditions or related-pattern relations are named but downstream impact is not shown. | Repairs have local loci and predictable impact for declared use. | A worked repair or downstream-impact slice shows the smallest locus and changed related-pattern relation. |
 | `ProxyForValueSubstitutionResistance` | Proxy risks are named but "what got worse" is not applied. | The pattern blocks visible proxy substitutions and asks what worsened. | A proxy-failure case shows a visible improvement damaging intended value, and the pattern prevents that proxy substitution. |
 | `ClaimJustificationTraceabilityCurrentnessAndReplayability` | Fields or sources exist but replayability and currentness basis are incomplete. | The claim can be replayed from pinned text, evidence, currentness basis, status, and stop reason. | A filled evidence and currentness slice shows how the claim is replayed and when it reopens. |
-| `CaseCountercaseAndTransferCoverage` | Archetypes are listed, but no filled worked case or near-miss exercises the claim. | At least one filled worked case plus a near-miss or anti-case covers the declared use. | Heterogeneous cases, countercases, and transfer slices cover the breadth claimed. |
+| `CaseCountercaseAndTransferCoverage` | Case names or worked instances leave an important correspondence, ordinary application, contrast or material variation of the declared use unexplained. | The common account and worked correspondences cover the material variation required by the declared use. A narrow use may need a small comparison; a broad use requires the heterogeneous cases that make its different objects, conditions, grounds and choices intelligible. | Beyond that sufficient coverage, discriminating comparisons resolve difficult confusions or make the same breadth easier to reconstruct and apply. Any claimed observed transfer retains its task, reader, help and evidence conditions; necessary diversity is already required at 4. |
 | `MaturePatternParityAndSelectedContentSufficiency` | Mature comparators are named or implied, but selected mature ingredients are not discharged by value. | Mature comparators are named and selected ingredients are discharged by value in the body or related patterns named by value. | Mature parity is shown across reinforcing body sections, related patterns, omissions, cases, and lowering conditions without copying irrelevant apparatus. |
 | `SoTABindingAndCurrentness` | A source set or currentness account is relevant, but the positive claim does not yet satisfy the `E.8:11` comparison; identity/currentness alone remains below the ordinary floor. | One complete `E.8:11` comparison is present by value, its selected line defeats or bounds a serious alternative at comparable effort, and the decision changes exact governed pattern loci. | A replayable comparison across reinforcing loci shows why `4` understates the binding; a longer, newer, more official, or more popular bibliography supplies no increase. |
 | `FormalClaimAdmissibilityAndLensFit` | Formal, scale, lens, or measurement terms are bounded but not exercised. | Formal, lens, and measurement claims are admissible for their stated use, bounded, and connected to the concrete pattern content that defines, constrains, or tests their admissibility when the evaluated pattern makes such claims; exact predicates are required only when the claim or named reliance needs them. | A worked formal, lens, or scale comparison shows what is preserved, lost, admissible, and not proved. |
@@ -112796,7 +113343,7 @@ PrecisionRestorationProfile:
 | `RepairLocalityAndChangeImpactPredictability` | `4` | One last-sentence condition is the exact repair locus and its effect is predictable, so `3` understates locality; `5` lacks a replay through several dependent decisions. |
 | `ProxyForValueSubstitutionResistance` | `3` | The source pin has a stated traceability use, so `2` understates proxy resistance; `4` would require a near-miss where a visible pin is wrongly treated as approval. |
 | `ClaimJustificationTraceabilityCurrentnessAndReplayability` | `4` | Title, edition, rule, effect, decision, and stop are recoverable, so `3` understates replayability; `5` lacks a worked replay across two source editions. |
-| `CaseCountercaseAndTransferCoverage` | `4` | The filled inspection-interval case and background-reading near-miss meet the declared small use, so `3` understates coverage; `5` would require heterogeneous transfer cases. |
+| `CaseCountercaseAndTransferCoverage` | `4` | The filled inspection-interval case and background-reading boundary support the declared diagnostic use, so `3` understates coverage. A worked comparison of changed source wording with unchanged reliance, and unchanged rule wording with changed applicability, could make the difficult material-change judgement easier within this same scope; the present edition supplies no such discriminating comparison to support `5`. |
 | `MaturePatternParityAndSelectedContentSufficiency` | `3` | `comparator=E.2.DA and G.11; selectedIngredient=pinned source use plus bounded currentness; currentLocus=sentences 2-3 and 7; missingOrLowering=sentence 7 lacks a material-change test`; this makes `2` too low, while the missing selected ingredient prevents `4`. |
 | `SoTABindingAndCurrentness` | `3` | The edition makes no positive SoTA claim and supplies no `E.8:11` comparison, so its source pin and currentness rule cannot raise this coordinate; `2` would understate the explicit source-use scope, while `4` requires one complete comparison result that this diagnostic example expressly lacks. |
 | `FormalClaimAdmissibilityAndLensFit` | `4` | The edition makes no measurement, scalar, causal, or formal-model claim and assigns the pin only its traceability use, so `3` understates the fit; `5` lacks a formal near-miss. |
@@ -124553,7 +125100,7 @@ Use `OntologyFirstPlainRewrite` as one connected reading and repair over a natur
 3. **Check predicate compatibility.** Recover what the complete claim asserts under its negation, modality, or conditions, and test the subject and participants under the intended literal or metonymic reading. A positive assertion must assign its predicate to a compatible kind. A denial may correct an evidenced type mistake under the plausible-reader test below; without that ground, “evidence does not notice the error” introduces an idle alternative. Keep ordinary metonymy when the relation is established and the capable participant or work remains recoverable: a diagram may show, a framework may help, a reminder may cue, and a constraint may limit.
 4. **Resolve referents and kinds.** Pronouns, demonstratives, omitted heads, and repeated labels must select one locally appropriate referent. Preserve the object kind, claim or relation kind, slot or relation position, use and publication boundary, and flow distinction whenever one changes the claim. A shared grammatical position does not make different FPF kinds interchangeable.
 5. **Test contribution.** Try deleting every optional contrast, guard, modifier, example, coordinated member, and extra proposition. Remove it when the plausible intended reader can still recognize, understand, decide, and act in the same way. Local truth and grammatical fit do not earn a phrase a place by themselves.
-6. **Resolve coordination and lists on two axes.** First ask whether the receiving use needs a series at all. A list or parallel construction earns its form only when the reader must distinguish or retain its members together; otherwise select the governing claim, relation, or representative case. If a series is needed, determine its membership semantics. State the proposition or action it serves; use one kind or predicate only when it fits every member; distinguish a closed set, illustrative examples, alternatives, a sequence, several direct relations, and a failed ontology. A closed set needs its kind, membership rule, and closure. Illustrative examples need the proposition or kind first and a non-exhaustive cue when a plausible reader could mistake them for a classification. Then test discourse load: keep a member only when it adds a distinct consequence; reduce coordination repeated at several grammatical levels and modifier chains that make the reader retain needless branches or postpone the governing message. Length is evidence to inspect, not a verdict. If a list hides an FPF kind, relation, or structure that ordinary reading cannot recover, use the pattern that defines or tests it, or return the unresolved meaning as a blocker.
+6. **Resolve coordination and lists on two axes.** Recover the proposition or action served by the series, its intended scope, and the relation among its members before choosing the form. Use one kind or predicate only when it fits every member. Distinguish a closed set, illustrative examples, alternatives, a sequence, several direct relations, and a failed ontology. A closed set needs its kind, membership rule, and closure. Connect illustrative examples to the proposition or kind they illustrate, with a non-exhaustive cue when a plausible reader could mistake them for a classification or a boundary of applicability. Usually state the proposition first. When an explanation starts from cases, make the transition to its general claim explicit and supply grounds for that claim's scope. Then decide whether the reader needs to distinguish or retain the members together. If so, preserve the series and the differences that matter to understanding or action. Otherwise state the governing claim or relation directly, retaining its scope and needed grounds. A question about one case may be answered by that case; a general explanation retains its general proposition and reasoning when illustrations are shortened. Test discourse load: keep each optional member for its distinct contribution; reduce repeated coordination and modifier chains that make the reader retain needless branches or postpone the governing message. Length is evidence to inspect, not a verdict. If a series hides an FPF kind, relation, or structure that ordinary reading cannot recover, use the pattern that defines or tests it, or return the unresolved meaning as a blocker.
 7. **Foreground, rewrite, and compare.** Put the governing event, claim, requested action, or decision before optional atmosphere, examples, caveats, and catalogues. A prerequisite may come first when it is needed for safe interpretation or action. Write the shortest ordinary technical sentence that preserves every live predicate and participant, established term, polarity, and action-changing detail. Such detail can include quantity or threshold, sequence or timing, criterion or tolerance, exception, and applicability. Compare before and after: any unsupported change of kind, relation, scope, use, currentness, or operational effect is a loss and blocks the rewrite unless another accepted decision authorizes it.
 
 Keep ontology visible only where it carries the sentence. A term-source or type annotation is needed only when it changes how the reader identifies the object, kind, relation, slot, use, publication boundary, admissible use, or applicable rule. A record, card, table, schema, data structure, dashboard, or named form remains apparatus unless it carries one of those values. If ordinary domain wording already preserves them, keep the ordinary sentence. "The aircraft flies" is better than a typed expansion unless the flight function, system kind, or slot relation is under repair.
@@ -124688,7 +125235,7 @@ These cases show repairs and situations in which ordinary wording should remain.
 | Incomplete relational noun | “Give the bearer to the next stage.” | Name what is borne and the transfer relation, or use the ordinary domain noun. |
 | False common head | “The method selects, publishes, and evaluates the alternatives,” where the text combines unrelated activities and supplies no common Method or capable participant. | Recover the separate claims and participants. When the context instead supplies one Method and its capable executor, the same wording may be ordinary metonymy; the verb list alone is not a defect. |
 | Catalogue instead of proposition | “Goals and objectives, forms and methods, quality and efficiency are supported.” | State the actual capability or decision. Keep only members with distinct consequences. |
-| Illustrative list read as classification | A bare plural head is followed by many instances with no signal that the list is partial. | Put the proposition or kind first, mark the cases as examples when completeness is plausibly ambiguous, and retain only representative cases. |
+| Illustrative list read as classification | A bare plural head is followed by many instances with no signal that the list is partial. | Make the illustrated proposition or kind and its relation to the cases clear. Mark the cases as examples when completeness or applicability is plausibly ambiguous. Retain cases for the differences they help the reader understand or act upon, together with the general claim and its needed grounds. |
 | Delayed governing event | An emergency report describes birds, wind, birches, heat, mist, and animals before saying that a house-museum is burning and a fire engine is no longer needed. | Put the event, location, safety consequence, and requested response first. Keep only detail that changes dispatch, safety, evidence, or identification. |
 | Material negation | “Do not energize the unit while the cover is open.” | Retain when the open-cover state creates the named risk and the stop changes action. The polarity is the instruction. |
 | Ordinary metonymy | “The diagram shows the dependency.” | Retain when the diagram depicts it and the reader can recover the represented relation; do not expand a clear sentence into a Method and Work trace. |
@@ -124740,7 +125287,7 @@ These questions guide one connected reading; they do not require separate record
 | `CC-F19-20` Predicate and kind fit | Interpret the complete predicate with its negation and modality. Positive assignments are kind-compatible under the intended literal or metonymic reading; a denial of a type mistake passes the grounded-contribution test. Preserve object kind, claim or relation kind, slot, relation position, use, and publication boundary where they change meaning. |
 | `CC-F19-21` Meaning and loss preservation | The rewrite preserves every live term, polarity, quantity, threshold, temporal or ordering condition, criterion, tolerance, exception, applicability boundary, and other action-changing detail. Any accepted change of kind, relation, scope, currentness, or use has its own decision. |
 | `CC-F19-22` Grounded contribution | Every optional guard, contrast, modifier, example, and coordinated member changes recognition, understanding, evidence, decision, safety, stop, reliance, or action for a plausible intended reader. A negative alternative has an independent local ground and is the smallest clear correction. |
-| `CC-F19-23` Coordination and foregrounding | A list states the proposition or action it serves; its kind, predicate, membership semantics, and closure are not fabricated; illustrative status is clear when needed; and coordination or modifiers do not postpone the governing message. |
+| `CC-F19-23` Coordination and foregrounding | The span makes recoverable the proposition or action served by a series, its scope, membership semantics and needed closure. The relation between examples and the general claim is clear in the chosen order of explanation. Shortening or removing the series preserves that claim, its needed grounds and the distinctions required for use. Coordination and modifiers contribute without postponing the governing message. |
 | `CC-F19-24` Plain result | A cold intended reader can recover the repaired claim and next useful action under F.19:4's selected evidence basis and coverage. The ordinary output is repaired text or a blocker, not a mandatory form or ledger. |
 | `CC-F19-25` Local revalidation | Any changed wording or syntax has been reread with only its meaning-dependent neighbours. An older semantic verdict is reused only for unchanged text. |
 

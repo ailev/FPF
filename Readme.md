@@ -25,6 +25,7 @@ You do not need to read the Library from beginning to end. Bring a situation, th
 | What you are trying to do | Where to begin |
 | --- | --- |
 | Find a way to obtain a result when the familiar answer is insufficient | [Find and develop a way to obtain a result (FPF C.39)](https://fpf.tools/C.39). It connects existing answers, missing constructions and the use that needs the result. |
+| Bring partial findings back to the original question or develop an account of a whole subject | [Return results to the original question (FPF C.39.QR)](https://fpf.tools/C.39.QR) connects the obtained result, its grounds and the receiving use. [Develop an account of the whole subject (FPF C.39.WA)](https://fpf.tools/C.39.WA) supplies the common explanation and relations when that is the missing contribution. |
 | Develop your own, a team's or an organization's ability to continue beyond its present limits | [Construct and continue open-ended development (FPF C.40.OD)](https://fpf.tools/C.40.OD), together with the domain methods needed for the actual change. |
 | Design, acquire, integrate or maintain a functioning system | [Engineering](DPFs/Engineering%20DPF%20Suite/). |
 | Make direction, promises, resources and collective work fit together | [Management](DPFs/Management%20DPF%20Suite/). |
@@ -52,7 +53,7 @@ The general methods are in **Core**: [connect development work (C.40.OD)](https:
 
 ## What is available
 
-**FPF Core** contains 401 patterns in 17.826 million characters. It supplies transdisciplinary concepts and methods, including methodological work and open-ended development. **35 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 25 belong to four Suites, and ten have their own files directly in the DPF catalogue.
+**FPF Core** contains 403 patterns in 17.917 million characters. It supplies transdisciplinary concepts and methods, including methodological work and open-ended development. **35 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 25 belong to four Suites, and ten have their own files directly in the DPF catalogue.
 
 A DPF describes one field through a connected pattern language. A **Suite** describes a composite discipline through its constituent fields and their relations. An **Architectural Reference** explains how the relevant language is arranged and why: within a framework, across a Suite, or across the Library.
 
