@@ -29,6 +29,7 @@ You do not need to read the Library from beginning to end. Bring a situation, th
 | Develop your own, a team's or an organization's ability to continue beyond its present limits | [Construct and continue open-ended development (FPF C.40.OD)](https://fpf.tools/C.40.OD), together with the domain methods needed for the actual change. |
 | Design, acquire, integrate or maintain a functioning system | [Engineering](DPFs/Engineering%20DPF%20Suite/). |
 | Make direction, promises, resources and collective work fit together | [Management](DPFs/Management%20DPF%20Suite/). |
+| Construct, coordinate, pursue or revise goals, including a complete OKR practice | [Goal Construction and Regulation (GOALS)](DPFs/GOAL-CONSTRUCTION-AND-REGULATION-PRINCIPLES-FRAMEWORK.md), with organizational, human and AI applications. |
 | Obtain or check a mathematical or physical answer, model, algorithm or notation | [Foundational Thinking](DPFs/Foundational%20Thinking%20DPF%20Suite/). Apply the needed method yourself or have a capable specialist or AI apply it; learning to perform it yourself is a separate choice. |
 | Help a person acquire or retain a capability for later work | [Human Capability Engineering](DPFs/Human%20Capability%20Engineering%20DPF%20Suite/). |
 | Investigate a question, design a decision, explain material or work in another field | [Further domain frameworks](DPFs/#further-domain-frameworks), including research, decision design, explanation and narrativization. |
@@ -53,7 +54,7 @@ The general methods are in **Core**: [connect development work (C.40.OD)](https:
 
 ## What is available
 
-**FPF Core** contains 403 patterns in 17.923 million characters. It supplies transdisciplinary concepts and methods, including methodological work and open-ended development. **35 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 25 belong to four Suites, and ten have their own files directly in the DPF catalogue.
+**FPF Core** contains 403 patterns in 17.923 million characters. It supplies transdisciplinary concepts and methods, including methodological work and open-ended development. **36 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 25 belong to four Suites, and eleven have their own files directly in the DPF catalogue.
 
 A DPF describes one field through a connected pattern language. A **Suite** describes a composite discipline through its constituent fields and their relations. An **Architectural Reference** explains how the relevant language is arranged and why: within a framework, across a Suite, or across the Library.
 
@@ -64,7 +65,7 @@ A DPF describes one field through a connected pattern language. A **Suite** desc
 | [Foundational Thinking](DPFs/Foundational%20Thinking%20DPF%20Suite/) | Mathematical and physical accounts, models, algorithms and usable notation. | 5 | 71 | 2.017 |
 | [Human Capability Engineering](DPFs/Human%20Capability%20Engineering%20DPF%20Suite/) | Human learning and somatic change, connected to capability in later work. | 2 | 34 | 1.207 |
 
-The [DPF catalogue](DPFs/) lists the ten further frameworks and opens each Suite's files. Suite totals sum their constituent framework texts; separate Suite References and README pages are excluded. Character counts include spaces and original line breaks. Counts describe the available material, not how much you must read before using it.
+The [DPF catalogue](DPFs/) lists the eleven further frameworks and opens each Suite's files. Suite totals sum their constituent framework texts; separate Suite References and README pages are excluded. Character counts include spaces and original line breaks. Counts describe the available material, not how much you must read before using it.
 
 The Library does not claim to exhaust the disciplines it covers: the current Human Capability Engineering Suite, for example, develops learning and somatic contributions, not all methods concerning a human being.
 

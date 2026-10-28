@@ -259,12 +259,13 @@ The qualification Capability distinguishes this target from the human–system i
 
 A standalone DPF is an independently usable domain language whose own subject and useful results warrant its boundary, without a demonstrated constituent relation to one of the described assemblies in this Library edition. It is not a lesser framework or an item waiting for a folder to complete a classification.
 
-The ten standalone languages have the following distinct contributions:
+The eleven standalone languages have the following distinct contributions:
 
 | DPF | Contribution that retains its own boundary |
 | --- | --- |
 | [Decision Design (PSDA)](DPFs/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md) | Constructing a decision situation, ends and possible means, alternatives, consequence and uncertainty accounts and warranted recommendations, together with the engagement, participation and facilitation that make them usable. |
 | [Research Method Practice (RMP)](DPFs/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) | Inquiry and criticized knowledge contributions, including source recovery, observation, research design and evidence limits. |
+| [Goal Construction and Regulation (GOALS)](DPFs/GOAL-CONSTRUCTION-AND-REGULATION-PRINCIPLES-FRAMEWORK.md) | Constructing worthwhile goals and their achievement evidence, coordinating their pursuit under shared conditions, revising them and acquiring the corresponding practice. Organizational OKR and human and AI applications retain their own conditions. |
 | [Explanation Design (EXD)](DPFs/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md) | Making warranted relations recoverable and usable by an intended recipient. |
 | [Narrativization and Narrative Studies (NSTD)](DPFs/Narrativization-and-Narrative-Studies-Principles-Framework.md) | Constructing and interpreting narratives: forming working accounts and fictional or hypothetical events, choosing purpose, viewpoint and presentation, and examining their use with recoverable source relations. |
 | [Implementation Facilitation (IS)](DPFs/IMPLEMENTATION-FACILITATION-PRINCIPLES-FRAMEWORK.md) | Agreeing, constructing, adapting and continuing facilitation through which participants make an interpretable practice workable under actual conditions, including brokerage and their further facilitation capability. |
@@ -277,6 +278,8 @@ The ten standalone languages have the following distinct contributions:
 Within Decision Design, construction of alternatives and professional engagement have different completion conditions. A sound comparison can exist while representation, consent or the conditions for useful advice remain unresolved. Conversely, a well-conducted engagement does not supply a missing mathematical or empirical argument. One language keeps these Methods independently selectable while explaining their necessary connections. Its warranted recommendation is not the authorized choice, implementation of that choice, or engineering of an operational decision service.
 
 Narrativization supplies another case. A narrative can serve inquiry, management, teaching or artistic practice, but its purposes and viewpoint choices are not exhausted by any of those uses. Putting it under every consuming field would confuse use with composition. Leaving it standalone preserves the whole narrative question and its returns to source.
+
+Goal construction and regulation connects the desired result, the reliance created by a goal, evidence, feasible means and reconsideration. Its professional practice includes acquiring and sustaining that connection. Management supplies strategic direction, commitments and capacity. Human capability development supplies learning, practice and assessment of the required personal performance; engineering supplies realized and checked systems, instruments and execution support. GOALS connects these contributions with the choice and pursuit of the goal. The GOALS language develops these joins and the complete OKR application while keeping those professional contributions available at their owners.
 
 Standalone placement is open to substantive revision. A newly established larger discipline could include a field under [FPF C.20](FPF-Spec.md#c20---composition-of-udiscipline-discipline-cal); a changed problem family could justify repartition.
 
@@ -680,7 +683,7 @@ The consequential comparison is what each boundary changes in obtaining, underst
 
 ## Library.Reference:11 - Publications, access and changes of boundary
 
-The public arrangement gives Core its full home in [FPF-Spec.md](FPF-Spec.md). The [DPFs catalogue](DPFs/) locates four Suite folders and ten standalone DPFs. Engineering has five direct constituent descriptions, Management thirteen, Foundational Thinking five and Human Capability Engineering two: together with the ten standalone languages, these are thirty-five distinct DPF descriptions. Each Suite has its own entry and Architectural Reference and identifies every full description it includes. This root Reference carries the Library-wide explanation. Each complete supplying text has an identifiable public home; this arrangement is a publication view of the richer relations described above.
+The public arrangement gives Core its full home in [FPF-Spec.md](FPF-Spec.md). The [DPFs catalogue](DPFs/) locates four Suite folders and eleven standalone DPFs. Engineering has five direct constituent descriptions, Management thirteen, Foundational Thinking five and Human Capability Engineering two: together with the eleven standalone languages, these are thirty-six distinct DPF descriptions. Each Suite has its own entry and Architectural Reference and identifies every full description it includes. This root Reference carries the Library-wide explanation. Each complete supplying text has an identifiable public home; this arrangement is a publication view of the richer relations described above.
 
 For connected use, the receiving arrangement needs the full relevant texts, including external suppliers. A Suite directory is not necessarily a self-contained distribution: its constituent descriptions can rely on Core, specialized Suites and outside suppliers. A link names a destination; usable access requires that the reader or assisting agent can obtain its relevant explanation. [Using FPF Library](USING-FPF.md) supplies the ordinary search and reading method. An unavailable source narrows the supported answer until the required contribution can be recovered.
 
@@ -716,6 +719,7 @@ Refer to a document or contribution in ordinary prose, adding only the context n
 | `FDM` | Financial Domain Modeling Principles Framework | [FINANCIAL-DOMAIN-MODELING-PRINCIPLES-FRAMEWORK.md](DPFs/FINANCIAL-DOMAIN-MODELING-PRINCIPLES-FRAMEWORK.md) |
 | `FIN` | Corporate Finance Principles Framework | [CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md](DPFs/Management%20DPF%20Suite/CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md) |
 | `Foundational` | Foundational Thinking DPF Suite Architectural Reference | [FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md](DPFs/Foundational%20Thinking%20DPF%20Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) |
+| `GOALS` | Goal Construction and Regulation Principles Framework | [GOAL-CONSTRUCTION-AND-REGULATION-PRINCIPLES-FRAMEWORK.md](DPFs/GOAL-CONSTRUCTION-AND-REGULATION-PRINCIPLES-FRAMEWORK.md) |
 | `HCD` | Human Capability Development Principles Framework | [HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md](DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) |
 | `HRM` | Human Resource Management Principles Framework | [HUMAN-RESOURCE-MANAGEMENT-PRINCIPLES-FRAMEWORK.md](DPFs/Management%20DPF%20Suite/HUMAN-RESOURCE-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) |
 | `HCE` | Human Capability Engineering DPF Suite Architectural Reference | [HUMAN-CAPABILITY-ENGINEERING-DPF-SUITE-REFERENCE.md](DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-ENGINEERING-DPF-SUITE-REFERENCE.md) |
