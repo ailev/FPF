@@ -60,6 +60,8 @@ This Reference explains how that language is organized and why its boundaries ma
     - [Covered work and independent entry](#libraryreference9114---covered-work-and-independent-entry)
     - [Results supplied by other practices](#libraryreference9115---results-supplied-by-other-practices)
     - [Requalification and guidance refresh](#libraryreference9116---requalification-and-guidance-refresh)
+  - [Help, enablement and the organization of professional support](#libraryreference92---help-enablement-and-the-organization-of-professional-support)
+  - [Acquiring, sustaining and changing a shared human–AI professional culture](#libraryreference93---acquiring-sustaining-and-changing-a-shared-humanai-professional-culture)
 - [What justifies another pattern, DPF, Suite or LPF](#libraryreference10---what-justifies-another-pattern-dpf-suite-or-lpf)
 - [Publications, access and changes of boundary](#libraryreference11---publications-access-and-changes-of-boundary)
   - [Document identities and current carriers](#libraryreference111---document-identities-and-current-carriers)
@@ -172,6 +174,8 @@ Acquiring and sustaining the practice requires different means for different par
 
 For example, a person and an AI teammate can use the same engineering methods while dividing model construction, criticism and decisions according to capability and authority. A changed requirement calls for recovering the affected assumptions and revising their connected work. The person may need to learn a missing judgement; the agent may need better access to evidence or a changed execution procedure. A useful result can then expose a further attainable problem or a better method. [The connected development account](#libraryreference91---open-ended-development-through-connected-contributions) explains that continuation and the distinctions between assistance, learning, cultural renewal and development. A publication supplies the canon; actual use, retention and renewal establish the culture in practice.
 
+For the connected practical account, section [9.2](#libraryreference92---help-enablement-and-the-organization-of-professional-support) explains how to choose and organize help, and section [9.3](#libraryreference93---acquiring-sustaining-and-changing-a-shared-humanai-professional-culture) explains how people and AI acquire, sustain and renew their shared practice. Its [forecast case](#libraryreference9321---derive-the-next-contribution-from-the-result-and-its-conditions) shows how available conditions change the useful continuation.
+
 ## Library.Reference:2 - What the names refer to
 
 The same word can name a field, a framework about it or a file. Keep the subject of the claim recoverable before relying on its name.
@@ -220,7 +224,7 @@ The [Engineering Reference](DPFs/Engineering%20DPF%20Suite/ENGINEERING-DPF-SUITE
 
 ### Library.Reference:4.2 - Management connects direction to jointly supportable commitments
 
-The [Management Suite](DPFs/Management%20DPF%20Suite/) concerns directing and sustaining joint activity through worthwhile direction, legitimate and feasible commitments, provision, performance and warranted reconsideration. Its thirteen constituent languages are Strategy, Operations Management, Organization Administration, Corporate Governance, Management Accounting, Corporate Finance, Marketing, Customization and Productization Management, Engineering Asset Management, Leadership, Community Management, Organization Change Engineering and Human Resource Management.
+The [Management Suite](DPFs/Management%20DPF%20Suite/) concerns directing and sustaining joint activity through worthwhile direction, legitimate and feasible commitments, provision, performance and warranted reconsideration. Its fourteen constituent languages are Strategy, Goal Construction and Regulation, Operations Management, Organization Administration, Corporate Governance, Management Accounting, Corporate Finance, Marketing, Customization and Productization Management, Engineering Asset Management, Leadership, Community Management, Organization Change Engineering and Human Resource Management.
 
 A customer promise constrains operating work. Capacity and existing obligations constrain the promise. Resource and monetary accounts connect that work to funding choices. Authority determines which proposed act can become effective. Participation conditions determine which contributions can actually be relied on. A locally sound answer can therefore fail in the whole: the budget, schedule and promise may depend on the same unavailable resource or on an agreement that has not been made.
 
@@ -228,6 +232,8 @@ A customer promise constrains operating work. Capacity and existing obligations 
 
 
 [Human Resource Management (HRM)](DPFs/Management%20DPF%20Suite/HUMAN-RESOURCE-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) connects actual work and participation terms through justified assessment and selection, reward, employee voice, protection and work transitions. Adequate output can coexist with conditions requiring preventive change; a personnel recommendation still needs its effective act and actual provision. HRM obtains qualified professional results for those decisions while Human Capability Development, Community Management, OCE, OPS and ADM retain their own contributions. The relation explains its Management membership without putting all people, culture or development work inside HR.
+
+[Goal construction and regulation (GOALS)](DPFs/Management%20DPF%20Suite/GOAL-CONSTRUCTION-AND-REGULATION-PRINCIPLES-FRAMEWORK.md) connects the desired result, the reliance created by a goal, evidence, feasible means and reconsideration. Its professional practice includes acquiring and sustaining that connection. Within Management, STR supplies strategic direction and commitments, OPS supplies operating conditions and capacity, and LDR/HRM retain participation and qualified personnel decisions. Human capability development supplies learning, practice and assessment of the required personal performance; engineering supplies realized and checked systems, instruments and execution support. GOALS connects these contributions with the choice and pursuit of the goal. The GOALS language develops these joins and the complete OKR application while keeping those professional contributions available at their owners. Its whole contribution belongs in Management because the undertaking must construct and reconsider those goals as part of its own direction, commitments, provision and performance. Changes in achievement evidence constrain the work; changed means or participation constrain the goals. [Management.Reference:3.4](DPFs/Management%20DPF%20Suite/MANAGEMENT-DPF-SUITE-REFERENCE.md#managementreference34---goals-are-part-of-the-management-arrangement) explains the common grounds, substitution condition and distinction from full external use. The complete GOALS language retains its direct human and AI applications outside collective management.
 
 The composite contribution is a jointly supportable management arrangement, with a return from actual performance to the premise that needs reconsideration. The same construction accommodates a business, public service, temporary collaboration or voluntary community. Corporate Finance and Corporate Governance retain their corporate conditions; membership of the Suite does not impose those conditions on every undertaking.
 
@@ -259,13 +265,12 @@ The qualification Capability distinguishes this target from the human–system i
 
 A standalone DPF is an independently usable domain language whose own subject and useful results warrant its boundary, without a demonstrated constituent relation to one of the described assemblies in this Library edition. It is not a lesser framework or an item waiting for a folder to complete a classification.
 
-The eleven standalone languages have the following distinct contributions:
+The ten standalone languages have the following distinct contributions:
 
 | DPF | Contribution that retains its own boundary |
 | --- | --- |
 | [Decision Design (PSDA)](DPFs/DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md) | Constructing a decision situation, ends and possible means, alternatives, consequence and uncertainty accounts and warranted recommendations, together with the engagement, participation and facilitation that make them usable. |
 | [Research Method Practice (RMP)](DPFs/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) | Inquiry and criticized knowledge contributions, including source recovery, observation, research design and evidence limits. |
-| [Goal Construction and Regulation (GOALS)](DPFs/GOAL-CONSTRUCTION-AND-REGULATION-PRINCIPLES-FRAMEWORK.md) | Constructing worthwhile goals and their achievement evidence, coordinating their pursuit under shared conditions, revising them and acquiring the corresponding practice. Organizational OKR and human and AI applications retain their own conditions. |
 | [Explanation Design (EXD)](DPFs/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md) | Making warranted relations recoverable and usable by an intended recipient. |
 | [Narrativization and Narrative Studies (NSTD)](DPFs/Narrativization-and-Narrative-Studies-Principles-Framework.md) | Constructing and interpreting narratives: forming working accounts and fictional or hypothetical events, choosing purpose, viewpoint and presentation, and examining their use with recoverable source relations. |
 | [Implementation Facilitation (IS)](DPFs/IMPLEMENTATION-FACILITATION-PRINCIPLES-FRAMEWORK.md) | Agreeing, constructing, adapting and continuing facilitation through which participants make an interpretable practice workable under actual conditions, including brokerage and their further facilitation capability. |
@@ -278,8 +283,6 @@ The eleven standalone languages have the following distinct contributions:
 Within Decision Design, construction of alternatives and professional engagement have different completion conditions. A sound comparison can exist while representation, consent or the conditions for useful advice remain unresolved. Conversely, a well-conducted engagement does not supply a missing mathematical or empirical argument. One language keeps these Methods independently selectable while explaining their necessary connections. Its warranted recommendation is not the authorized choice, implementation of that choice, or engineering of an operational decision service.
 
 Narrativization supplies another case. A narrative can serve inquiry, management, teaching or artistic practice, but its purposes and viewpoint choices are not exhausted by any of those uses. Putting it under every consuming field would confuse use with composition. Leaving it standalone preserves the whole narrative question and its returns to source.
-
-Goal construction and regulation connects the desired result, the reliance created by a goal, evidence, feasible means and reconsideration. Its professional practice includes acquiring and sustaining that connection. Management supplies strategic direction, commitments and capacity. Human capability development supplies learning, practice and assessment of the required personal performance; engineering supplies realized and checked systems, instruments and execution support. GOALS connects these contributions with the choice and pursuit of the goal. The GOALS language develops these joins and the complete OKR application while keeping those professional contributions available at their owners.
 
 Standalone placement is open to substantive revision. A newly established larger discipline could include a field under [FPF C.20](FPF-Spec.md#c20---composition-of-udiscipline-discipline-cal); a changed problem family could justify repartition.
 
@@ -487,6 +490,8 @@ The general construction remains incomplete for a concrete use until its needed 
 
 Repeated delivery, a new version or a higher current score alone does not establish this continuation. The useful claim concerns the growth actually obtained, the problems it enables and the conditions supporting further development. A bounded service or project can end while its result supports that wider practice.
 
+Sections [9.2](#libraryreference92---help-enablement-and-the-organization-of-professional-support) and [9.3](#libraryreference93---acquiring-sustaining-and-changing-a-shared-humanai-professional-culture) develop the help, learning and cultural relations within this wider account. They explain both a sufficient current contribution and the conditions for continuing development.
+
 ### Library.Reference:9.1 - Open-ended development through connected contributions
 
 Development can begin with a faint difficulty in ordinary work, a possibility that changes what is worth attempting, or a newly noticed limit after success. The problem, the way forward and the means of development can all need construction. The Methods connected by this account help people conduct that work, join its necessary contributions and continue from the position actually reached. It also retains independently useful opportunity inquiry and advice: a bounded useful result can finish such an undertaking without pretending that development itself is complete.
@@ -662,6 +667,423 @@ For a changed source claim with several receiving uses, A.10.1 supplies bounded 
 
 When a source or practitioner result defeats the guidance itself, send the precise failed move, receiving use, source difference and candidate repair to the responsible framework maintainer. Change only the dependent body, relation, entry or example unless the field or branch boundary is genuinely defeated. Updating a client account is not automatically a framework revision; updating a publication date is not a new qualification.
 
+### Library.Reference:9.2 - Help, enablement and the organization of professional support
+
+A capable person can be unable to act because the needed information, time or authority is missing. Another person can obtain the same result from an expert without acquiring the expert's skill. A third wants to learn but needs practice and useful feedback. A team may need someone to make a contribution worth accepting, or to resolve conflicting commitments, before additional instruction can help. These are different occasions for help.
+
+This account connects the Library's Methods for obtaining contributions, developing capability, introducing practices and organizing their provision. It is for a practitioner arranging help with professional work: a recipient, colleague, leader, teacher, service provider or organizer of an office. It explains how their contributions fit together. The professional content remains necessary: this account does not teach metrology, project management, teaching reading or the technical discipline an office serves.
+
+The same arrangement can serve a quality culture, project management, agile work, scientific reasoning, literacy, engineering or another professional practice. An office of development is a thematic application. A team without an office can use the same distinctions. Begin with a current difficulty and the result the next use requires; an adequate familiar service needs neither a new office nor a development programme.
+
+#### Library.Reference:9.2.1 - Different changes can make the next use possible
+
+Help is a contribution intended to make a recipient's wanted or otherwise legitimately undertaken result obtainable. Its intended benefit and its actual effect are different. The recipient's account of the difficulty, the provider's diagnosis and a sponsor's request can disagree. Establish whose result is at issue and which claims each can make before selecting an intervention.
+
+Five common results help discriminate the choice:
+
+| Needed change | What would be obtained | A misleading substitute |
+| --- | --- | --- |
+| A contribution to current work | A usable analysis, action, decision input or completed operation | An explanation that leaves the required operation undone |
+| Role entry or participation | An appropriate undertaking, with understood responsibilities and feasible conditions | Attendance, acquiescence or a role title without the contribution |
+| The recipient's own capability | The recipient can perform the required class of work under its intended conditions | A correct product supplied by somebody else |
+| Available provision | Time, information, equipment, assistance, access or authority becomes usable when needed | A resource listed in a catalogue but unavailable at the moment of use |
+| A changed way or shared practice | A better Method, explanation, coordination arrangement or continuing repertoire | Repeated encouragement to follow an unsuitable way |
+
+These results can coexist. An expert and novice can jointly complete today's work while the novice learns. Their shared hour is one expenditure, but the work and learning claims require different grounds. A repaired access arrangement can make existing skill usable without changing that skill. A new team procedure can alter collective capability without making every participant able to perform every role.
+
+C.32.MWA.PP supplies the comparison of whole configurations of performance and provision. C.40.JD supplies joint development when a way, its holder and its provision must change together. IS.3 supplies construction and adaptation of support for establishing, using or revising a target practice. LDR.1 supplies work on participation and role contribution. Use the actual result from each Method; their names are not a sequence that every request must traverse.
+
+Consider a project planner who submits a poor forecast. Before enrolling the planner in training, examine the receiving decision, forecast construction and conditions. Missing supplier dates call for information or an explicitly qualified estimate. A misunderstood dependency may call for explanation and practice. An unrealistic commitment imposed by the sponsor calls for work on the commitment. A sound forecast rejected because it is unwelcome calls for an accountable disagreement. The same visible defect does not establish the same cause.
+
+#### Library.Reference:9.2.2 - The recipient and helper perform different Methods
+
+Receiving help is active work. The recipient may identify a difficulty, expose a representative attempt, choose among offers, provide access, make an undertaking, use a supplied contribution and judge what it now makes possible. The helper may elicit the receiving need, distinguish causes, offer a bounded contribution, perform or arrange it, inspect the return and revise the help. Neither position has complete access to the other's knowledge, constraints or intentions.
+
+A first-person account therefore differs from the helper's account:
+
+| Moment | Recipient's operative question | Helper's operative question | What an observer can establish |
+| --- | --- | --- | --- |
+| Recognizing the need | What am I trying to obtain, and where does my present way stop? | What is the recipient's work, and what evidence locates the difficulty? | The stated result, available attempt and missing contribution; motives may remain unknown |
+| Choosing help | Do I need an answer, participation, my own capability or better conditions? What am I willing and able to contribute? | Which contribution can I actually supply, and which professional judgement is still needed? | Whether the proposed contribution matches the receiving use and has a feasible provider |
+| Agreeing the engagement | What do I accept, retain authority over, provide and get to question? | What do I undertake, need from others and return if the conditions fail? | The actual undertakings and permission, not agreement inferred from silence |
+| Working | What must I do myself, what can I use from the helper, and when should I ask again? | When should I explain, demonstrate, perform, ask, provide feedback or change the arrangement? | Actual actions, support and results, with the relevant division of work |
+| Continuing | What can I now do under the next conditions? What help remains useful? | Has this engagement supplied its result, and what continuing provision is justified? | Supported continuation, unresolved result or changed condition; no automatic claim of personal mastery |
+
+This is a referent index of a Method account: whose action and access the description concerns. It is not U.ReferenceScheme. A person can switch positions, and reciprocal help can connect several such relations. Self-help can combine the positions without eliminating the need to distinguish a desired result from evidence that it was obtained.
+
+These positions can be occupied by people, AI systems and organizations where the particular action and authority permit it. A human may help an AI system recover relevant context; an AI may explain a task to a person; agents may compare interpretations and exchange results. An AI's first-person report does not by itself establish introspective access, durable memory or a human form of motivation. Check the action through the system and conditions that actually produce it.
+
+A recipient is not necessarily the purchaser, employer, sponsor or downstream user. For a sponsored course, the employer may want reliable work, the person may want career development and the teacher may need a feasible practice commitment. Obtain a compatible undertaking or expose the disagreement. A sponsor's payment does not make every personal disclosure available to the sponsor. An employee's participation requirement does not establish a desire to learn. Legitimate duties, personal choices and the help arrangement need their own grounds.
+
+#### Library.Reference:9.2.3 - Choose the form of help by the missing contribution
+
+The useful choice concerns what changes in the work, not which professional label sounds most supportive.
+
+**Expert performance and a continuing service.** A qualified provider performs an operation or supplies its result. This is appropriate when the receiving work needs that result and personal acquisition is unnecessary, too costly or too late. Explain the input, response window, usable output and exception return. The recipient must still be able to supply the input and use the result, or obtain help with those operations. A permanent specialist service is a legitimate arrangement. Its dependence becomes a defect when it defeats the intended result, exceeds the agreed burden or leaves no viable continuation under a consequential interruption.
+
+**Joint work.** The participants combine their contributions while producing the current result. Use it when the needed interpretation or construction cannot yet be divided into independent service requests, or when working together can reveal the decisive operation. Make each participant's contribution visible. The expert can demonstrate, ask the recipient to perform a part, compare the two attempts and return control. If learning is also wanted, the learner needs a later opportunity to perform the relevant operation; being present while the expert acts is insufficient.
+
+**Teaching and coached practice.** The intended result is a change in the learner's capability. Explain the target operation, obtain an attempt, diagnose the difference, provide useful feedback and arrange another relevant attempt. Demonstration, explanation, exercises and workplace practice have different contributions. The Human Capability Development patterns supply the professional development arrangement, including preparation, motivation, feedback, transfer and retention. Use a competent teacher when those operations cannot be supplied locally. Subject expertise alone does not establish an ability to teach.
+
+**Mentoring and developmental guidance.** A person may need an experienced interlocutor for choices across assignments, professional standards, opportunities and a longer development route. Make the particular contribution explicit: a demonstration, an assessment of an attempted solution, access to a practice community, a comparison of routes or help interpreting experience. A mentor's seniority is not evidence that every recommendation fits this recipient. Preserve the recipient's own direction and distinguish advice from authority over work.
+
+**Coaching and facilitation.** Some help enables a person or group to articulate a difficulty, examine assumptions, choose and coordinate its own action. Questions and dialogue can be appropriate when the participants possess or can obtain the relevant subject knowledge. They cannot substitute for a missing technical calculation or a required professional judgement. Group facilitation, implementation facilitation and a coaching profession have overlapping activities but different promises and qualifications. IS.3 addresses support for a target practice; its use does not qualify every professional coaching intervention.
+
+**Leadership in participation.** A contribution may fail because the role is unclear, unattractive, unsupported or disputed. LDR.1 connects its purpose, the participant, conditions and legitimate undertaking. The leader can explain why the contribution matters, alter an infeasible role, provide conditions or accept a different allocation. Encouragement cannot create a missing resource, and labelling an objection as resistance does not answer it. Leadership may include a justified role assignment; it does not turn a coerced declaration of enthusiasm into evidence of commitment.
+
+**Provision and condition repair.** Access, time, tools, decision rights, usable explanations and timely specialist help can make an already available capability effective. Change the missing condition and observe the relevant work before prescribing more learning. If several recipients repeatedly need the same provision, compare a shared service or platform with repeated individual help. Qualified judgement and local interpretation may remain necessary even when the common input is standardized.
+
+A change of form is often the useful move. A team initially works alongside a specialist to discover what information matters, later uses a stable service, and learns a bounded operation when repeated use makes local capability worthwhile. Another team retains expert provision because rare, difficult cases do not justify broad training. For each transition, name the changed result, the new division of work and the conditions of continued use. Do not assume that every engagement must end in complete independence.
+
+#### Library.Reference:9.2.4 - Make the engagement intelligible and revisable
+
+Use IS.3 with the recipient to construct a support strategy when establishing or changing the practice is the question. For ordinary recurring provision, use the selected performance-and-provision arrangement directly. In either case, a short conversation over a real input should establish what the recipient will receive, what the helper will do, what the recipient must contribute and which exceptions return the question.
+
+Suppose an analyst asks for help with a report. “Review it with me” can mean that the expert corrects this report, that the analyst learns to judge future reports, or that the pair develops a new review Method. Work through one consequential defect. If the analyst only needs a report tomorrow, expert correction may be sufficient. If next month's report must be produced without immediate help, ask the analyst to identify and repair a comparable defect, explain the reason and arrange an appropriate later attempt. If both encounter an unresolved validity question, obtain the subject investigation; extra practice cannot settle a defective criterion.
+
+An agreement should make consequences usable, not create paperwork for its own sake. For simple help, an explicit exchange may suffice. For continuing services, clarify the class of requests, response conditions, responsibilities, access, escalation, costs and the way either party can seek revision. Keep the service promise distinct from the learner's capability promise and from an employer's role obligation.
+
+A request is not an accepted promise, and a declaration of completion is not acceptance of the result. Dietz and Mulder's account of coordination makes these differences operational: the parties can discuss feasibility and can dispute the grounds of a claim or obligation. Its human social premises do not automatically apply to every employment relationship or technical agent. Engineering.Reference:21.3 supplies the Library's treatment of permissible continuation; ECO.5–6 supply economic relations where private information, incentives and dependence affect the arrangement.
+
+Both parties can make errors, lack capability or act opportunistically. A provider can conceal inability or manufacture dependence. A principal can withhold promised inputs, change the acceptance criterion after delivery, use disclosed vulnerability against the recipient or refuse agreed compensation. Diagnose the actual action and evidence. More obedience does not repair an abusive demand, and attributing bad intent does not establish it.
+
+When a party requests a change, determine what has already happened, which commitments remain and what cannot be undone. A cancelled analysis can leave expert time spent and a consequential decision already made. Agree a feasible continuation, compensation or termination within the actual authority. Where the authority itself is disputed, provide a route for a competent decision; another coaching session is not that decision.
+
+#### Library.Reference:9.2.5 - Separate the helping episode from its continuing provider
+
+One useful engagement does not establish how to provide help repeatedly. A continuing provider needs a way to recognize demand, maintain relevant expertise, make help available, protect time for its development and learn from recurring difficulties. The receiving work also needs a way to reach that provider and continue when it is unavailable.
+
+A help episode can reveal several different improvements. A repeatedly missing input may justify a shared data service. A repeated interpretation error may call for a better explanation and practice. A slow response may reflect too much demand for scarce expertise. Contradictory answers may reveal a disputed Method. Send each observation to the owner that can change its cause. Creating a larger office does not by itself repair any of them.
+
+Team Topologies contributes a useful distinction between collaboration, service provision and facilitation of another team's capability. Its original setting is software delivery. The distinction is useful here because those interactions produce different results and dependencies. A permanent provider can conduct temporary enabling engagements, and a capable team can still consume a continuing platform service. Neither an office's permanence nor its organizational chart determines the interaction for each request.
+
+For example, a quality specialist first collaborates with production staff to establish a measurement procedure. The resulting calibration service can then become a recurring provision. A short training engagement can prepare local staff to recognize an exception and use the service correctly. These are connected contributions, not three names for the same work. The quality culture additionally requires that people and agents continue to use, question and renew the procedure; section 9.3 explains that relation.
+
+A platform can carry standardized knowledge, tools, access and routine operations. It still needs maintenance, feedback from use and a provider for exceptional judgement. A library of templates is provision for a possible action. It becomes useful only when recipients can select, interpret and apply it under their conditions. The KCAE and implementation-facilitation contributions address these different questions; a download count answers neither.
+
+#### Library.Reference:9.2.6 - Compare dedicated, common and distributed offices
+
+Thematic breadth and organizational concentration are independent decisions. A narrow quality service can be distributed across plants. A broad development office can retain local specialists. An organization can centralize infrastructure while keeping professional judgement close to each receiving activity.
+
+An office or centre of excellence is an organizational arrangement with an actual mandate, personnel or technical means, resources and service relations. The name alone establishes none of them. Distinguish at least these functions when their allocation changes the result: perform specialist work; help others participate and learn; provide common infrastructure; develop professional Methods; maintain a repertoire; advise on standards; and make an authorized assurance or control judgement.
+
+| Arrangement | When it can supply the result well | Main burden or failure to examine | A condition that can change the choice |
+| --- | --- | --- | --- |
+| A dedicated thematic office | Demand repeatedly needs deep related expertise, a stable professional judgement or close contact with one practice | Idle rare capacity, separation from local work, duplication of common provision | Demand becomes too varied or too sparse to sustain the specialist service |
+| A common office with professional directions | Several practices share intake, scheduling, infrastructure or development support while retaining qualified domain judgement | A generic front door can misdiagnose requests; pooled queues and competing priorities can erase local responsiveness | One direction needs materially different authority, response time or preparation |
+| Distributed provision | Local context changes rapidly, local practitioners can supply much help and immediate access matters | Uneven quality, repeated invention, hidden peer workload, weak continuity when a specialist leaves | Repeated common problems justify a shared supplier or a scarce expert cannot be replicated |
+| A hybrid with external specialists | Common provision and local action are both needed; rare expertise can be obtained across organizational boundaries | Coordination, access, handover and dependence on response commitments | The external provider cannot meet the receiving window or retain needed context |
+
+Compare complete arrangements under C.32.MWA.PP and, where they must be developed together, C.40.JD. Include recipient preparation, local time, travel or context reconstruction, continuing maintenance, queues, coordination and exception handling. Shared preparation is counted once at the comparison boundary. Professional interpretation required for every case remains recurring demand. Saving the helper's time by shifting unexplained work to recipients is not a whole saving.
+
+The office's name should follow its mandate. A PMO may provide scheduling tools, portfolio information, project expertise, development or assurance in different combinations. An agile office may support experimentation and coordination without owning every team's method choice. A literacy initiative needs to specify the literacy and the recipient's real tasks: understanding a maintenance instruction, evaluating a scientific claim and operating a digital tool have different content. A general support function can organize access and learning conditions, but it cannot substitute one subject competence for another.
+
+Professional sources expose further differences that a common office must preserve. [RUSA's 2025 reference-service competencies](https://www.ala.org/rusa/resources/guidelines/professional) distinguish assistance with an information need from formal instruction, while connecting user collaboration, maintained resources and service development. [UNESCO's adult-learning recommendation](https://www.unesco.org/en/legal-affairs/recommendation-adult-learning-and-education) treats literacy within wider participation and flexible learning provision; a digital-skills course does not exhaust that scope. [NASA's engineering arrangements](https://nodis3.gsfc.nasa.gov/displayDir.cfm?Internal_ID=N_PR_7120_005F_&page_name=Chapter3) distinguish working-level engineering support from formally delegated technical authority and retain a route for dissent. These are different professional and institutional constructions. They support explicit allocation of service, learning and judgement; they do not establish a universal office design.
+
+This is a comparison of organizational alternatives, not a claim that one universal office is best. Domain sources describe particular arrangements, including contemporary AI centres of excellence. Their experience can supply mechanisms and useful contrasts; a vendor operating model does not establish the optimum for every institution.
+
+#### Library.Reference:9.2.7 - Help and assurance can require different relations
+
+Help often depends on exposing uncertainty and an unfinished attempt. An assurance judgement may need independence, a defined standard and an accountable acceptance decision. The same institution can provide both, but their authority, information use and conflicts must be clear.
+
+A specialist who coached a team may have excellent knowledge of the work while lacking the independence required for a particular judgement. A learner may withhold difficulties if every coaching exchange automatically changes a performance rating. Conversely, a recipient may incorrectly expect confidential help to exempt an unsafe or otherwise impermissible action from the institution's actual duties.
+
+Establish who receives which information, who makes the judgement and whether the applicable obligation permits the same performer to occupy both roles. Separate people, access or providers when the required independence cannot otherwise obtain. Do not promise confidentiality that the provider cannot maintain. The right separation depends on the actual work and governing obligation; a universal ban on sharing an office can waste scarce expertise without resolving the real conflict.
+
+The same question applies to AI assistance. A system that helped create an answer may also supply a useful check, but the same system's confidence is not independent evidence. Use a distinct basis or another qualified checker when the receiving claim needs one. Routine low-consequence help need not acquire a costly review ceremony.
+
+#### Library.Reference:9.2.8 - Work through the capacity and participation together
+
+Consider a constructed comparison for three teams introducing the same reporting practice. Each needs one specialist judgement a week for four weeks. A dedicated specialist engagement takes two hours per team per week: one hour of local preparation and one hour of discussion. The specialist has eight hours a week, of which two are committed to maintaining the service and handling exceptions.
+
+The separate arrangement consumes six hours of specialist time each week and fits exactly beside the two continuing hours. It leaves no reserve for additional local difficulty. A proposed common clinic replaces the three preparation hours with one shared preparation hour, retains three one-hour team discussions and adds one hour of weekly coordination. Its request-related demand is five hours; together with continuing work it uses seven. The nominal saving is one specialist hour a week. It is a saving only if the shared preparation supplies the same relevant grounds and each team can provide its local information without hidden extra expert work.
+
+The calculation selects a possible shared service, not yet an organizational unit. A dedicated reporting office can supply it when the specialist judgement and mandate need a stable home. A professional direction in a common office can supply it when existing scheduling, intake and infrastructure serve these requests and preserve that judgement. Distributed local hosts can supply the same arrangement when they can prepare and interpret their cases, with the specialist serving only the remaining need. Compare the setup, continuing coordination and qualification needed by each form over the four-week horizon. In this example those quantities have not been supplied, so the organizational choice remains conditional even though the one-hour service comparison is determinate. Do not create an office on the strength of a saving calculated for only one of its functions.
+
+Now distinguish three possible promises. If the teams need only qualified reports, the clinic can be a continuing service. If each team must later produce its own report, allocate learner attempts and feedback, verify the relevant later performance and count the additional instructional effort. If the reporting Method is disputed, allocate method development and do not treat the clinic's popularity as its validity.
+
+Suppose one team cannot disclose its project data to the other teams. Shared preparation may remain possible, while the discussions require separate access. Suppose another team needs a decision before the clinic meets. Retain a response route for that window, stagger the work or obtain another provider. A shared calendar does not make the request timely. If the changed arrangement consumes the saved hour, the original cost advantage disappears without disproving all shared provision.
+
+The sponsor must also make the recipients' time available. A specialist can hold a perfectly staffed clinic that nobody can use. LDR.1 and the organizational-change Methods address the needed participation and duties; Human Capability Development addresses an actual acquisition goal. The organizer returns a feasible allocation and its limits, rather than promising all three results from the office's existence.
+
+#### Library.Reference:9.2.9 - Use an unlike case to expose the boundary
+
+A volunteer association wants members to interpret technical documents and discuss proposals. It has no common employer, no authority to assign study and no predictable stream of cases. A permanent corporate training office is a poor default.
+
+A workable arrangement can combine an accessible explanation, a recurring discussion with actual documents, peer attempts and an obtainable expert for unresolved technical questions. Participants choose the contribution they want. A member who asks for an interpretation today need not become a learner; another who wants future independence needs an attempt and feedback. The organizer should explain which results are offered and which expertise is unavailable.
+
+If the discussion repeatedly reveals the same misconception, improve the explanation or learning activity. If the problem is that the documents omit necessary facts, return the omission to their authors. If members disagree about a proposal's values or authority, a better glossary alone will not settle it. Community Building supplies the participation and continuing community relations; it does not turn membership into acquired competence.
+
+Compare this case with the office case. Both need a useful contribution, actual capability, conditions, an intelligible interaction and a justified continuation. Their authority, participation, funding, professional content and capacity are different. That shared structure supports transfer of the organizing explanation; the corporate numbers and role assignments do not transfer.
+
+#### Library.Reference:9.2.10 - Return the result to the recipient's next use
+
+Close the particular question at the strength of what happened. A delivered contribution may complete urgent work. A supported attempt may establish a usable arrangement. A later performance may support a capability claim under its actual conditions. Repeated independent use, adaptation and transmission may support a broader cultural claim. None is an automatic substitute for the others.
+
+Keep useful continuing help where the intended practice relies on it. Reduce or withdraw help when that is a justified change, with a way to detect failure and recover. Reopen the choice when the target, recipient, demand, provider, authority or available technology changes. A departure of the only specialist can change the best arrangement even when the Method remains sound.
+
+The practical result is an arrangement the participants can actually use and revise: a recognized need, an appropriate contribution, understood reciprocal actions, available conditions and a warranted continuation. Section 9.3 explains what must additionally happen when the intended result is a shared professional culture.
+
+### Library.Reference:9.3 - Acquiring, sustaining and changing a shared human–AI professional culture
+
+A professional culture is visible in what participants notice, explain, attempt, accept, challenge, repair and pass on. Its written canon is an important source of common distinctions and Methods. The culture also depends on how people and technical agents actually use that source, work with one another and reproduce or change the practice. Publication, membership, a completed course and one good team result establish different facts.
+
+Use this account when people and AI are expected to share a professional practice, or when a practice fails to survive a change of participant, context or conditions. It joins the cultural Methods in C.36 with Human Capability Development, agent engineering, coordination and the organization of help. It also applies when an existing culture contains useful contributions and harmful habits together. The aim is a warranted continuation or change, not uniformity for its own sake.
+
+A professional culture may span organizations and communities that never form one team. Conversely, one team can use several professional cultures. Specify the practice and the participants relevant to the current question. Neither an organization chart nor a universal human–AI label gives that boundary.
+
+#### Library.Reference:9.3.1 - A shared repertoire with different holders and different claims
+
+A repertoire includes available ways of recognizing and dealing with situations, their explanations and working examples, expectations about good work, and ways of obtaining help and handling exceptions. Some of this may be explicit in a canon; some may be carried by competent participants, tools and arrangements. Make tacit contributions explicit when their loss or transfer matters. Do not suppose that putting all material in one repository makes every contribution available in work.
+
+People and AI can participate in one cultural process without acquiring or retaining the repertoire through the same mechanism. A person can develop understanding, skill, habits and a professional identity through learning and participation. An AI system can select relevant material, execute procedures, use tools, retain information in an external memory and alter its working configuration; a model's parameters may or may not change. State which system, configuration and mechanism the claim concerns.
+
+Keep four results separate:
+
+| Result | What would support the claim | What remains open |
+| --- | --- | --- |
+| A useful current output | Appropriate examination of this result under its actual production conditions | Who acquired a capability and whether another case will succeed |
+| A holder's capability | Relevant performance of that holder with the intended available support | Team coordination, wider distribution and retention after change |
+| A team's joint capability | The participants can combine their contributions under the required conditions | Whether every member can perform every part, or whether newcomers can join |
+| Cultural continuation or change | The particular generation, transmission, recognition, selection, memory, retention or loss relation is supported for the named participants and interval | Other cultural relations and effects not examined |
+
+C.36.MC supplies these bounded cultural judgements. C.36.RP supplies reconstruction, use and renewal of a repertoire. A claim of stable shared practice can require several of their results, but a practical decision need not wait for every imaginable cultural measurement. Keep a supported local use and an unresolved wider claim separate.
+
+For example, a person and an AI can produce an excellent analysis because the person continually repairs the agent's interpretation. The output supports the work claim. It does not establish that the agent can sustain the same practice after a restart, or that the person learned the analysis Method. The observed dependence can be a suitable working arrangement. It becomes a development question when the intended next use requires a different allocation.
+
+#### Library.Reference:9.3.2 - The transformations form a network, not a funnel
+
+The phrase “produce mastery” can help draw attention to a real change in a capability holder. It becomes misleading when it treats the learner as passive material, assumes that the course itself changes the person, or makes all development follow a fixed manufacturing sequence.
+
+The relevant transformations have different direct subjects:
+
+| Work and its changed subject | Contribution to another use | A return that can change the work |
+| --- | --- | --- |
+| Investigate, construct or revise a professional Method | A warranted way and its limits for practitioners, explainers and tool designers | Work reveals an invalid premise, missing operation or useful variation |
+| Develop a Method account and learning material | An intelligible explanation, contrasting cases, tasks and feedback grounds | Recipients cannot recover the reason or distinguish the relevant cases |
+| Arrange and perform human learning | A change in this person's capability, with its actual support conditions | Attempts reveal a misconception, unavailable practice, motivational difficulty or transfer failure |
+| Engineer and configure an AI system | Available execution under a particular model, context, procedure, memory, tool and permission arrangement | Traces and results reveal a missing input, failed operation, context loss or capability limit |
+| Organize participation, work and provision | Compatible contributions and usable conditions at the required time | Demand, authority, workload or a participant's undertaking changes |
+| Perform the professional work | The receiving result and observations of actual use | Results or outside effects call the way, allocation or accepted goal into question |
+| Preserve, transmit and renew the repertoire | An obtainable contribution for later participants and situations | A carrier disappears, a newcomer interprets it differently or the practice becomes unsuitable |
+
+These rows are not mandatory stages. A sufficiently qualified Method can be used directly. A person can learn while contributing to real work. A technical agent can supply an explanation while a human tests it. Development of the Method, learning material, platform and teaching practice can proceed together, with their actual dependencies and changes kept coherent. A later observation returns to the affected subject; it need not restart every branch.
+
+For a training programme, the methodological work establishes what competent performance requires. Instructional design establishes how this audience can acquire the needed capability. Teaching and coached practice realize that learning arrangement. A platform makes material, practice, assistance and feedback available. Organizational work makes the time and roles feasible. None of these results automatically supplies the others.
+
+Anatoly Levenchuk's Person Engineering (R9) usefully separates the developing person, learner, developmental guide and teaching team. It distinguishes work on the professional content, didactics, programme architecture, subject teaching, participation and provision. These are functions that can be combined or distributed, not a compulsory staffing chart. Its account of concurrent development also prevents a false waterfall from finished theory through finished course to finished people. Its engineering metaphors remain useful only with the learner's agency and the actual change mechanism explicit.
+
+A learner journey is one participant's changing trajectory through this network. It can include work, a consultation, practice, a pause, a new responsibility, return to a prerequisite or no further course. The journey must explain what each encounter supplies and why it is needed now. An acquisition funnel describes population movement toward an offer or conversion; it cannot by itself explain capability acquisition, reciprocal work or cultural transmission.
+
+Nor does a graph of skills establish a universal learning order. Distinguish a prerequisite for acquiring an operation, a component used during performance, a tool or expert contribution available at use, and a skill merely correlated with another in employment data. HCD.2 supplies composition and comparison of development programmes. Its result should preserve existing capability and obtain only the missing preparation, rather than require every person to repeat the same course sequence.
+
+##### Library.Reference:9.3.2.1 - Derive the next contribution from the result and its conditions
+
+The learning purpose here is to derive a useful continuation from the required result, the relations between its parts and the conditions now available. Start with those relations before choosing a course, helper or tool. The same position can permit several continuations; a missing condition can block one and leave another useful.
+
+Consider a constructed case extending the forecast example in section 9.2. A team needs a justified forecast of what it can deliver by Friday. Two independent jobs each require six hours from the same specialist; eight hours of that specialist's time are available before the deadline. The jobs are otherwise ready, their estimates are accepted for this simplified case, and this specialist is the only constrained resource. A correct forecast must account for the shared demand and expose any unresolved choice about scope or capacity.
+
+The human planner can estimate an individual job and read the resource calendar. In an observed attempt, however, the planner judges each six-hour job separately against the eight available hours and concludes that both fit. The AI assistant retrieves the same facts and makes the same comparison in its job-by-job procedure. Neither attempt combines the twelve hours of demand on the shared resource. The missing contribution is the joint feasibility judgement. It forms part of making this forecast; listing or estimating the jobs has not supplied it.
+
+A qualified colleague has agreed to supply today's forecast and can work with the planner in the available time. The planner wants to acquire the missing judgement and has agreed time for practice with feedback. The delivery manager decides which jobs to commit; the resource owner determines what specialist time can be allocated. Someone has suggested obtaining four additional specialist hours, but the resource owner has not yet confirmed their availability. These facts support the following alternatives at this position:
+
+| Continuation | What must be available | Present judgement and contribution |
+| --- | --- | --- |
+| Release the planner's current forecast, assisted by the unchanged AI. | A forecast that accounts for the shared resource. | Blocked: the observed procedure omits the joint constraint. Access to the facts and correct individual estimates remain useful. |
+| Have the qualified colleague produce the forecast. | The colleague's capability, time, inputs and agreement to supply it. | Available on the stated facts. The colleague can establish that twelve required hours exceed eight and return the shortfall to the delivery manager, who can consider a scope change or request additional capacity. |
+| Work through the forecast together. | The same qualified judgement and the planner's participation. | Available. It can produce today's forecast while exposing why the separate comparisons fail. The planner's own later attempt is still needed for an acquisition claim. |
+| Practise the missing comparison with feedback. | A suitable task, the planner's attempt and obtainable feedback. | Available under the agreed learning conditions. It aims to change the planner's capability and must return to a complete forecast. |
+| Obtain four more specialist hours and revise the forecast. | Four usable hours before Friday, without displacing another required commitment, and the responsible owner's agreement. | Unknown: the suggestion establishes none of those resource facts. Ask that owner whether the hours can actually be provided before relying on this continuation. |
+
+These are alternatives for obtaining different contributions, with some possible combinations. They are not stages through which everyone must pass. The specialist hours govern performance of the jobs; the colleague's time and the planner's practice conditions govern production and learning of the forecast. Adding job capacity would change the delivery possibilities without by itself repairing either forecaster's procedure.
+
+If the undertaking requires only today's justified forecast, the colleague's sufficient performance can complete the help. The planner can use that result without first becoming an independent forecaster. If personal acquisition is also promised, the same delivered forecast leaves that promise open. A provider and recipient can agree both results, or choose one; the declared result determines what remains to do.
+
+For the human learning branch, the colleague asks the planner to identify where both jobs draw on the same capacity, make the combined comparison and explain the consequence. Feedback addresses the missing relation. The planner then applies it in a complete forecast, retaining the known individual estimates, checking the shared calendar and distinguishing a forecast from the delivery manager's scope decision and the resource owner's allocation decision. Correct addition alone would leave the encompassing task unfinished. A later case with another shared resource tests recognition beyond the familiar display. HCD supplies the design and assessment of that practice; the arithmetic here makes the intermediate contribution visible.
+
+The AI repair targets the job-by-job procedure that missed the shared demand. The engineer examines that procedure and introduces a step that groups demand by shared resource, retrieves the available capacity for the same interval and compares the totals before drafting the forecast. A representative run and a contrasting case can establish what this configuration now does. After a restart, the procedure and task facts must still be available at the point of use; A.15.10 and the engineering Methods address a failure there. Judge the changed execution support by the performance it produces. A successful configured run does not establish that the underlying model acquired a durable new capability. The human branch changes the person's performance through attempts and feedback; the technical branch changes the agent system's access and execution arrangement.
+
+Now change one condition: the resource owner confirms four additional usable hours before Friday, with no displaced commitment in this case. The accepted job estimates, the shared-resource relation and the required justified forecast remain. Twelve hours are now available for twelve hours of demand, so the capacity condition no longer excludes completion of both jobs. The earlier eight-hour forecast remains a correct account of its earlier conditions; a new forecast is needed for the changed calendar. The planner's learned comparison and the repaired AI procedure should both use the new capacity rather than repeat the old conclusion. If the owner's answer instead denies the extra hours, the unknown provision branch becomes blocked, while a forecast exposing the shortfall remains obtainable. The delivery manager can then decide which work to defer. The next action follows the resource owner's answer.
+
+This episode connects the transformations in section 9.3.2 through their actual contributions. The forecasting Method supplies the relevant feasibility relation. The explanation makes that relation intelligible. Human practice and AI engineering obtain different performer changes. Organizational work obtains time and authority. Joint performance returns a forecast to the team's delivery decision. The planner's learner journey follows the missing judgement into practice and back into forecasting; another recipient who only needs the colleague's output can leave after that sufficient result.
+
+A useful return to the shared repertoire is the instruction to account for shared resource demand before making a delivery commitment, together with the example, its conditions and the procedure that uses it. A newcomer or replacement agent must recover that relation in its own work. Observing this transmission supports that bounded cultural claim; it does not establish all of the team's culture. Where the deficiency is intermediate coordination during performance rather than resource aggregation, A.22.CGUS:5.1 supplies the dancer's case: practising the missing coordination must likewise return to the whole figure. A.22.CGUS:4.1 explains the ordinary comparison of available, blocked and unknown continuations used here. Its contribution is to make the conditions of the next move explicit; the subject Methods still supply the professional work and its learning or engineering.
+
+#### Library.Reference:9.3.3 - Human acquisition requires the person's learning work
+
+Start with the work the person wants or legitimately needs to do, the capability they already have and the conditions of its use. Ask for an informative attempt where it can change the diagnosis. A fluent explanation, a training attendance record and a failure in a hostile work setting are weak substitutes for this information.
+
+A useful learning arrangement connects six contributions. The learner recognizes the relevant situation and intended result. An explanation or demonstration exposes the consequential operation and its reason. The learner attempts that operation. Feedback identifies what changed the result and why. Another appropriate attempt allows the learner to use the feedback. Later use in the required conditions establishes what can be continued and what still needs support.
+
+The content and difficulty of each contribution matter. A novice may need a worked example and a bounded part before constructing the whole. A capable practitioner may need one contrast that repairs a misconception. Repeating the same exercise can improve familiarity while leaving the ability to recognize and adapt the Method untested. Variation should preserve the learning purpose while changing a consequential condition, rather than add random difficulty.
+
+Motivation and participation are part of the actual arrangement. “Wants to learn” does not supply time, energy, equipment or a safe opportunity to attempt. A person can value the capability and still reject a particular course, provider or role. Recover the reason for the difficulty before intensifying persuasion. Agree a feasible commitment, change the support or retain an explicit unmet condition. LDR.1 addresses the role contribution; HCD supplies the learning response. Their results can be needed together.
+
+Transfer into work requires more than success in the instructional setting. The learner must recognize when the Method is relevant, obtain its inputs, adapt it within its limits and perform it amid the workplace's actual consequences and constraints. Compare projects and circumstances under HCD.25. Use the intended supports in the comparison. If the job includes reference material or a qualified colleague, removing them tests a different capability unless independence is the requirement.
+
+A learner may understand the Method but be unable to use it because a supervisor rewards the old practice or denies the necessary time. That calls for a change in work or participation, not another explanation. Another learner may use a familiar classroom cue and fail to recognize the same relation in a new project. That calls for discriminating practice and feedback. The same “no transfer” report can conceal these different causes.
+
+AI can provide examples, questions, feedback and accessible practice. Assign it the contribution it can actually supply and examine representative results. The person should still perform the operation whose acquisition is wanted. If an AI generates every diagnosis and repair, a correct final product can conceal that the person never made the decisive judgement. Conversely, banning AI from all learning can remove useful explanation or access without improving the learning design.
+
+HCD.7 and HCD.8 address obtainable support and missing development provision; HCD.26 addresses regulation of shared learning. HCD.28 addresses a learning product for a future audience. Use those Methods at their proper scale. A complete learning product requires an audience, explanation, practice, feedback and provision that this cross-Library account does not invent for every profession.
+
+Embodied practice makes the holder distinction particularly visible. In a partner dance, the learner needs to perceive timing, move, coordinate with a partner and adapt physically. An AI may supply an explanation, analyse a recording or help arrange practice within its qualified capabilities. A good textual account does not establish the person's movement skill, and a text-only system does not become a physical dance partner by describing that role. A robotic or other embodied system would require qualification of its own sensing, control and interaction. Preserve the actual professional Method and conditions of the embodiment rather than transfer a document-work result by analogy.
+
+Maintain the capability through use and appropriate renewal. Decide what must remain available after a gap, what changes require new preparation and where the person can obtain assistance. The relevant claim concerns a particular person and work family under stated conditions. It is not established by a prediction that all human learning follows one neural mechanism.
+
+#### Library.Reference:9.3.4 - AI acquisition requires a change in available execution
+
+Treat the operative participant as the selected model within an agent system: instructions, context, retrieval, memory, tools, permissions, orchestration and available computation all affect what it can do. The same model name can appear in materially different arrangements. A successful prompt does not qualify every later invocation.
+
+For the present question, distinguish these interventions:
+
+| Intervention | What actually changes | Evidence needed for the receiving use |
+| --- | --- | --- |
+| Supply or retrieve relevant canon | The system can access the selected explanation or evidence in this execution | It selects and uses the relevant grounds in the actual operation |
+| Change instructions or working procedure | The way the system organizes and performs its work | The relevant action changes, including the branch or return previously omitted |
+| Preserve and recover task state | The system can recover the goal, decisions, performed work, unresolved questions and side effects after interruption | A resumed execution continues the actual assignment without repeating uncertain effects or silently narrowing the goal |
+| Provide an external memory | Information or experience can be selected again under defined conditions | Appropriate retrieval, use, revision and removal; stale or irrelevant memory does not control the work |
+| Change tools, access or orchestration | A required operation becomes available, or contributions are combined differently | The operation succeeds under the real interface and permission conditions |
+| Change or train a model | A different parameterized system is used | Qualification of the changed system for the relevant work, with the support and limits retained |
+
+These interventions can interact. An instruction may correctly require a source that retrieval never exposes. A memory may retrieve an old decision that was superseded. A stronger model may still act on the wrong objective. A familiar reminder can help one failure while obscuring another. Diagnose the first unsupported contribution from the actual input, actions and result.
+
+SYSE.46 supplies the comparison of unaided, supplied and agent-selected support and the distinction between missing input, failed selection, missed execution and a remaining capability problem. Its related agent-engineering Methods supply the corresponding repairs. KCAE.MEMORY supplies selective, qualified memory use. A.15.10 supplies recovery of interrupted purposeful work. These are substantial professional suppliers, not instructions merely to read a canon.
+
+Attention in this practice means keeping the governing task, applicable Method and current work connected while acting. The practical question is whether the agent performs the required operation under those grounds. If it repeatedly replaces a request for a whole explanation with the latest local correction, restore the original receiving question, inspect what the correction supplies and construct the remaining whole. More context alone may not change that working habit; a procedure or other causal repair may be needed.
+
+After an interruption, recover the actual instruction and consequential updates, what has already happened and what remains uncertain. A summary can help locate the record, but it may omit a correction or the outcome of a side effect. Where an action may already have taken effect, establish its state before repeating it. Recovery is a return to the task and Method, not a compulsory recitation of every historical message.
+
+When a failure recurs, use the actual traces and conditions to compare causes. Did the agent never obtain the instruction, misunderstand its object, fail to call the needed tool, ignore its return, lose the goal, encounter a denied permission or lack the capability to perform the operation? Change the implicated source of the failure. A new warning appended to every output is not a causal repair unless it changes the relevant action under the conditions that produced the failure.
+
+Qualify the repair on the receiving work. Preserve a supported prior success. Use another representative task, interruption, delayed return or changed condition when the next claim requires it. Record whether help was supplied or selected, and whether a person continually supplied the missing judgement. A bounded operational success is useful even when the long-term mechanism remains uncertain.
+
+Do not equate these changes with human learning. Contextual adaptation can be temporary; external memory can persist outside the model; parameter learning has a different change process. Equally, do not assume that AI participants cannot originate variations, coordinate, criticize a canon or maintain conventions. Observe those contributions under their actual conditions and qualify their meaning through C.36.
+
+#### Library.Reference:9.3.5 - Common meaning is an achievement of joint work
+
+Two participants can use the same professional term while selecting different actions. Shared vocabulary is therefore a useful resource, not proof of shared understanding.
+
+Expose a consequential interpretation in a small piece of the actual work. Ask each participant to identify the relevant object, explain a proposed continuation or apply the distinction to a contrasting case. Compare what follows. When the interpretations diverge, locate the difference in source, referent, scope, criterion or intended contribution. Revise the explanation or arrangement and try the relevant continuation again. Engineering.Reference:19.6 supplies this work on understanding a partner's contribution.
+
+For example, “review the report” may mean check arithmetic, challenge its causal conclusion, judge compliance or help its author learn. A human who expects one operation and an AI configured for another can both appear cooperative while failing the receiving use. Explicitly selecting the operation is often enough. If the criterion itself is unclear, recover or develop that criterion instead of testing whether the participants can repeat the phrase.
+
+Private shorthand can reduce effort among familiar participants. It also creates a transfer condition. A newcomer needs access to the meaning, examples and a way to ask for clarification. If agents invent a compact code that their human colleagues cannot interpret, AI–AI coordination may improve while the joint practice deteriorates. If the code carries a valid distinction, preserve or translate that distinction; if it hides an unsupported decision, recover the basis.
+
+A shared culture should make legitimate clarification and correction practicable. This requires time, access and a response from someone who can resolve the issue. Merely telling participants to “speak up” is inadequate if their objection is ignored or punished. Conversely, endless clarification can prevent a sufficient bounded action. Use the consequential uncertainty: obtain what can change the next choice and proceed within the supported conditions.
+
+#### Library.Reference:9.3.6 - Assistant, teammate, principal and agent describe different relations
+
+An assistant helps with another participant's work. A teammate contributes within a joint undertaking. These descriptions can apply to the same participant. Neither label fixes initiative, expertise, permission, dependence, accountability or the right to change a Method.
+
+Principal–agent analysis addresses a delegated relation in which interests, information and incentives can differ. Collaboration toward a common purpose does not remove that relation, and a contract does not exhaust the team's joint practice. An AI can be a delegate for one operation and a delegator for another. Identify the actual parties, the authority they can transfer and the responsibility for the combined result.
+
+Use a concrete undertaking. Who requests which result? Who accepts which work? What inputs and conditions are promised by the requester? Who can judge completion, permit a change, cancel, dispute or continue? What happens to already incurred effort and outside effects? A technical acknowledgement is evidence of a protocol event; establish what commitment that event actually represents in this arrangement.
+
+Dietz and Mulder distinguish production from coordination, request from promise and declaration from acceptance. In their human account, feasibility problems can lead to discussion of the product or timing, while challenged grounds of rightness or sincerity lead to discourse. These distinctions help locate a disagreement. Their premise of free human coordination cannot simply be assumed in relations of dependence or mapped unchanged onto a technical agent.
+
+For an AI participant, establish whether it acts within an accepted organizational undertaking, is authorized to make a bounded commitment through a protocol, or merely proposes a continuation for an authorized party. Name the party or organization responsible for the relevant consequence. This preserves useful technical agency without inferring human social or legal status from fluent dialogue.
+
+Apply reciprocal scrutiny. A delegate may conceal missing capability, misuse access or substitute its own easier target. A principal may make an infeasible demand, withhold agreed conditions, move the acceptance criterion or exploit dependence. The recipient of help may be harmed by a sponsor's objective; the helper may be pressured to certify an unsupported success. Preserve an evidence-based objection and return the contested authority or condition to the appropriate decision.
+
+A justified objection, an honest mistake, a technical failure and opportunism require different responses. First identify the disputed proposition, promised act or observed action. Correct a false fact, repair an unavailable means, renegotiate a feasible undertaking or obtain a competent ruling on the contested ground. A performance failure alone does not prove intent. An agent's explanation of its intent does not settle the causal question.
+
+Revision also has a history. The 2024 second edition of Enterprise Ontology explicitly includes reconsidering earlier decline and reject acts. Agreement on a return in the coordination process does not erase production costs or other effects. The practical continuation must account for those facts, including a separate compensating undertaking where appropriate. “Reset the task” is not an adequate model of every relationship.
+
+#### Library.Reference:9.3.7 - Preserve and revise the canon through actual use
+
+A canon can provide authoritative distinctions and reusable Methods while remaining open to correction. Establish what status a particular claim has, where it applies and who may change the maintained source. A local permission to edit a working note does not authorize changing the profession's standard. A useful local variation does not need to be misrepresented as an already adopted norm.
+
+When experience challenges the practice, recover the relevant input, operation, result and conditions. Decide which subject needs change. An inaccessible explanation calls for access repair. A misleading account calls for explanation repair. A person's misconception calls for learning. A failed agent procedure calls for an engineering change. An unsuitable Method calls for subject development. A conflict of purpose or authority calls for its own accountable resolution. Several repairs may be needed, but name their actual dependence.
+
+C.36.MC connects the cultural claim and continuation; C.36.RP connects recoverable repertoire and future use. C.40.JD connects a changing Method, holder and provision. Method-development and variation patterns qualify changes to the way itself. Use these results together when the cultural practice depends on them. Preserve sufficient current work while an unresolved improvement is developed, unless the current use is no longer justified.
+
+A community can contribute examples, criticism, novice questions, new variations and expertise. It can also reproduce prestige bias, obsolete conventions or unexamined shortcuts. Popularity, longevity and frequency of use establish neither validity nor usefulness. Make the reason for selection and the route for a contrary finding available to later participants.
+
+The retained contribution may need several forms: a developed account for learning or adaptation, a short cue during familiar work, examples that expose a distinction, and technical material usable by an agent. Preserve their correspondence to the same governed Method or claim. A short cue should not become an independent authority that silently drops a condition. An AI-specific instruction can differ from a human teaching explanation because the receiving operations differ.
+
+Cultural continuity requires renewing carriers and capability. If the only expert leaves, a repository may retain documents while losing the interpretation that made them useful. If a model or tool changes, old evaluations may no longer qualify the same performance. If the professional domain changes, faithfully reproducing the old canon can be the failure. Reopen the affected use, obtain the missing contribution and retain the justified remainder.
+
+#### Library.Reference:9.3.8 - A worked corporate culture project
+
+Consider a constructed application to a company that wants a more reliable practice of explaining decisions and using professional Methods. The initial service offer supplies twelve contact hours of a mentor per month for four months, with possible monthly continuation. Those numbers define part of the provider's capacity; they do not define the culture, the company's total effort or a guaranteed result.
+
+Begin with a representative piece of company work, such as a project decision whose grounds must be understood by operations and engineering. The participants identify the decision, relevant Methods, actual difficulties and desired later capability. They distinguish immediate assistance with the decision, staff development, agent configuration and changes to the company's working conditions. An urgent decision can use expert help while the longer development proceeds.
+
+A possible first-month contact allocation is two hours to establish the work and undertakings, four hours of supported work on two real decisions, two hours of feedback on participant attempts, two hours with the people responsible for AI configuration and two hours to examine the resulting continuation. This totals twelve contact hours. Preparation, participant practice, technical changes, access administration and review outside those contacts require their own feasible provision. If the commercial offer includes some of that work, make the included scope explicit rather than counting it as free.
+
+For the human branch, choose a consequential operation: distinguish a claim from its supporting observation and state the condition that would change the decision. Staff explain a worked contrast, attempt the operation on their own case and use feedback. A later case asks whether they recognize the distinction with the support the job actually permits. Attendance and agreement with the mentor do not settle that question.
+
+For the AI branch, choose the same receiving contribution but a different intervention. Configure access to the current Method and relevant task facts; establish how the agent recovers the original decision question after an interruption; examine whether it uses the evidence and returns unresolved claims. If it repeatedly converts uncertainty into a confident recommendation, locate the source of that behaviour before adding a generic instruction. The technical provider implements and qualifies the selected change.
+
+The joint branch asks whether the staff and AI understand one another's contribution. A human tests the agent's interpretation of “support this conclusion”; the agent exposes which observation it used and which inference remains. The team agrees who may request another source, who accepts the decision input and how a disagreement returns. A good combined result can be retained while one participant's independent capability remains unresolved.
+
+At the end of an early period, compare actual work, participant capability, available provision and the particular cultural claims. The company may have two usable decisions and a promising learning arrangement without a demonstrated company-wide culture. Continue the useful contribution and name what the next month must obtain. A plausible four-month plan can adapt as the real demand and difficulty become known.
+
+Now change a condition: the sponsor requires independent staff performance at renewal. An offer that previously supplied expert-assisted results no longer answers the full question. Allocate the requisite attempts and examination, reduce the number of supported cases, obtain more qualified support or revise the promise. The twelve-hour limit cannot be overcome by relabelling mentoring as cultural transformation.
+
+Change another condition: the sponsor wants a continuing decision-support service and does not require every employee to master the analysis. Retaining an expert or AI service may be appropriate. The company still needs enough capability to request, interpret and contest its contributions. This is a different justified outcome, not failure because the provider remains involved.
+
+This example illustrates a bounded arrangement. The four months, contact hours and B2B relationship do not transfer to every office or culture. The organizing distinctions also apply to the volunteer case in section 9.2, a quality service, a project office or a distributed professional community.
+
+#### Library.Reference:9.3.9 - Variation that changes the continuation
+
+| Observed difficulty | First distinction to resolve | Consequential continuation |
+| --- | --- | --- |
+| A skilled participant cannot perform | Capability versus available time, input, tool or authority | Repair the missing condition; use learning only for an actual capability gap |
+| A willing learner does not practise | Intention versus feasible participation and a useful attempt | Change the practice arrangement or commitment, then examine the attempt |
+| Classroom performance does not transfer | Recognition and adaptation versus workplace constraints | Vary relevant contexts and feedback, or change the work conditions, according to the cause |
+| A team succeeds while one member remains dependent | Joint output versus the member's required capability | Preserve justified joint work; add development only if later use requires that capability |
+| An AI cites the canon but omits the operation | Source access versus interpretation, selection and execution | Inspect the decisive trace and repair the implicated procedure, tool or capability |
+| An AI loses the whole task after interruption | A usable record versus actual recovery and resumed action | Apply A.15.10 to the actual assignment and effects; then test the required continuation |
+| Participants use identical words differently | Vocabulary versus shared referent and intended action | Work through a discriminating case and repair the consequential interpretation |
+| A participant objects to an instruction | False premise, infeasibility, disputed authority or opportunism | Obtain the corresponding factual repair, feasible undertaking or accountable decision |
+| A sponsor asks a helper to certify success | Assistance versus an assurance claim and its independence | Establish the qualified judge and evidence; preserve conflicts and unresolved claims |
+| New participants cannot use a successful practice | Available carrier versus explanation, capability and access | Reconstruct the missing contribution and qualify its use by the new recipients |
+| The canon is faithfully followed but unsuitable | Execution fidelity versus validity and present fit | Revise or replace the affected Method or conditions through its subject owner |
+| Everyone needs the same scarce helper | Local difficulty versus common provision and total demand | Compare shared provision, distributed capability, external help and revised scope |
+
+This table is an entry into explanation, not a substitute for diagnosis. Several rows can apply together. Use the smallest sufficient return and retain the unaffected contributions. In particular, a technical intervention can change a team's capability without changing a human's skill, and a human learning success can leave a cultural transmission problem unresolved.
+
+#### Library.Reference:9.3.10 - Sources, currentness and the strength of the claims
+
+The general explanation joins conceptual distinctions, professional Methods and bounded empirical findings. These have different evidential roles.
+
+Anatoly Levenchuk's Person Engineering (R9) supplies a useful role and transformation account. The account here preserves developing person's agency, the distinction between professional content and didactics, the contribution of teaching and provision, and concurrent development. It does not adopt a universal learning sequence, quantitative promises of accelerated learning or the claim that a motor-learning mechanism has already explained every kind of professional acquisition.
+
+Dietz and Mulder's [Enterprise Ontology, second edition, 2024](https://doi.org/10.1007/978-3-031-53361-7) supplies the coordination distinctions and their human social premises. It helps analyse what was requested, promised, declared, accepted or reopened. [Wagner's account of the opportunistic principal](https://onlinelibrary.wiley.com/doi/10.1111/kykl.12213) supplies a conceptual counterweight to treating only delegates as possible opportunists. Neither source makes every participant selfish or settles the governing obligations of a particular institution.
+
+[Team Topologies](https://teamtopologies.com/key-concepts/) supplies professional distinctions among interactions in software delivery. The current [ETAP account](https://teamtopologies.com/news-blogs-newsletters/accelerating-value-delivery-how-enabling-teams-and-the-etap-dynamic-drive-scale) relates enabling work to platform improvement. The [AI-era discussion](https://teamtopologies.com/news-blogs-newsletters/team-topologies-for-the-ai-age-stewardship-of-value-flow) motivates attention to continuing value and accountability. Its analogy between human cognitive load and AI context is not an established equivalence of mechanisms. The present account therefore keeps human and technical interventions distinct.
+
+[Microsoft's AI centre-of-excellence operating models](https://learn.microsoft.com/en-us/agents/center-of-excellence/operating-models) provide a contemporary professional comparison of centralized, hybrid and federated arrangements in that domain. They inform the organizational alternatives without proving a best arrangement for quality, project management or literacy.
+
+[Intelligent AI Delegation](https://arxiv.org/html/2602.11865v1) proposes a framework connecting capability, authority, monitoring, adaptation and accountability across delegation. It is a design proposal, not a validated universal protocol. Use its questions to expose a needed condition; do not infer that a signed event or a technical verification proves the full professional result.
+
+[The Cybernetic Teammate](https://pubsonline.informs.org/doi/10.1287/orsc.2025.20702) reports a bounded workplace innovation experiment. Its team-performance findings do not establish long-term culture or personal learning. [Shen and Tamkin](https://arxiv.org/html/2601.20245v1) distinguish immediate task performance from acquisition in a short study of developers learning a new library. That result motivates separate examination of learning; it does not prove inevitable deskilling with AI.
+
+[SCARCE](https://arxiv.org/html/2610.21029v1) examines conventions and relationships among agents competing for a resource. Whether the emerging arrangements improve collective task performance remains a separate question. [GlossoGen](https://arxiv.org/html/2609.01491v1) examines formation and transmission of communication conventions under particular agent and memory conditions. [Jones and colleagues](https://arxiv.org/html/2602.08208v1) show that mixed human–AI pairs in a reference game can improve while still coordinating less well than homogeneous pairs. These results justify examining actual transmission and mixed interaction; they establish neither a single mechanism of all culture nor a ceiling on later models.
+
+Keep model, configuration, task, permitted assistance and observation interval with any AI performance claim. A benchmark's human-time horizon is not the agent's elapsed run time or a universal limit on organizational work. [METR's account of its time-horizon measurements](https://metr.org/time-horizons/) explains that boundary. Refresh the particular premise when the model, tool or receiving task changes; a later publication date alone does not qualify the new use.
+
+#### Library.Reference:9.3.11 - Obtain the supplying Methods at the point of need
+
+| Needed result | Public supplier | What returns to this account |
+| --- | --- | --- |
+| Select a configuration of performance and provision; develop the way, holder and provision together | [FPF Core, C.32.MWA.PP and C.40.JD](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) | A complete comparison or development construction, including shifted burden and joint conditions |
+| Construct help for establishing, using or revising a practice | [Implementation Facilitation, IS.1–IS.3](https://github.com/ailev/FPF/blob/main/DPFs/IMPLEMENTATION-FACILITATION-PRINCIPLES-FRAMEWORK.md) | An undertaking, response to the actual difficulty and obtainable support strategy |
+| Obtain a legitimate, feasible role contribution | [Leadership, LDR.1](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/LEADERSHIP-PRINCIPLES-FRAMEWORK.md) | Understood participation and its conditions, including unresolved refusal or unavailable provision |
+| Diagnose and develop human capability, support and transfer | [Human Capability Development](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md), especially HCD.2, HCD.7–HCD.8, HCD.25–HCD.26 and HCD.28 at their stated scopes | An appropriate development arrangement and evidence about the particular human result |
+| Diagnose and change an agent's available execution | [Systems Engineering, SYSE.46 and its related agent Methods](https://github.com/ailev/FPF/blob/main/DPFs/Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | The implicated mechanism, a selected engineering change and qualified subsequent performance |
+| Supply selective, maintained memory | [Knowledge Corpus and Access Engineering, KCAE.MEMORY](https://github.com/ailev/FPF/blob/main/DPFs/Engineering%20DPF%20Suite/KNOWLEDGE-CORPUS-ACCESS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | A warranted memory contribution with its access, revision and use conditions |
+| Recover interrupted purposeful work | [FPF Core, A.15.10](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) | The actual assignment, performed effects, justified continuation and unresolved state |
+| Establish mutual understanding and permissible continuation | [Engineering Architectural Reference, 19.6 and 21.3](https://github.com/ailev/FPF/blob/main/DPFs/Engineering%20DPF%20Suite/ENGINEERING-DPF-SUITE-REFERENCE.md) | A repaired interpretation or an explicit dispute and its authorized continuation |
+| Reconstruct a repertoire and judge a cultural change | [FPF Core, C.36.RP and C.36.MC](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) | A bounded supported cultural claim, useful retained contribution and continuation or precise uncertainty |
+| Establish continuing organizational and community conditions | [Management DPF Suite](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/MANAGEMENT-DPF-SUITE-REFERENCE.md), with the actual organization-change and community Methods | The arrangement and commitments needed for the practice to remain obtainable |
+
+These suppliers retain their independently useful problems and results. The connections explained here concern result use, shared conditions, different holder mechanisms, changes of allocation and selective returns. They do not make every engagement one composite Method or every professional field part of a new discipline.
+
+The practitioner should finish with a way that the relevant participants can use, question and renew: appropriate help, actual acquisition or available execution where required, shared interpretation and obligations, and a justified cultural continuation. A precise unmet condition remains a useful result. Calling the arrangement a culture does not supply the missing contribution.
+
 ## Library.Reference:10 - What justifies another pattern, DPF, Suite or LPF
 
 The Library's boundaries follow useful constructions and their subjects. A new topic or an awkward folder location is a reason to inspect the architecture, not a sufficient reason for another framework.
@@ -683,7 +1105,7 @@ The consequential comparison is what each boundary changes in obtaining, underst
 
 ## Library.Reference:11 - Publications, access and changes of boundary
 
-The public arrangement gives Core its full home in [FPF-Spec.md](FPF-Spec.md). The [DPFs catalogue](DPFs/) locates four Suite folders and eleven standalone DPFs. Engineering has five direct constituent descriptions, Management thirteen, Foundational Thinking five and Human Capability Engineering two: together with the eleven standalone languages, these are thirty-six distinct DPF descriptions. Each Suite has its own entry and Architectural Reference and identifies every full description it includes. This root Reference carries the Library-wide explanation. Each complete supplying text has an identifiable public home; this arrangement is a publication view of the richer relations described above.
+The public arrangement gives Core its full home in [FPF-Spec.md](FPF-Spec.md). The [DPFs catalogue](DPFs/) locates four Suite folders and ten standalone DPFs. Engineering has five direct constituent descriptions, Management fourteen, Foundational Thinking five and Human Capability Engineering two: together with the ten standalone languages, these are thirty-six distinct DPF descriptions. Each Suite has its own entry and Architectural Reference and identifies every full description it includes. This root Reference carries the Library-wide explanation. Each complete supplying text has an identifiable public home; this arrangement is a publication view of the richer relations described above.
 
 For connected use, the receiving arrangement needs the full relevant texts, including external suppliers. A Suite directory is not necessarily a self-contained distribution: its constituent descriptions can rely on Core, specialized Suites and outside suppliers. A link names a destination; usable access requires that the reader or assisting agent can obtain its relevant explanation. [Using FPF Library](USING-FPF.md) supplies the ordinary search and reading method. An unavailable source narrows the supported answer until the required contribution can be recovered.
 
@@ -719,7 +1141,7 @@ Refer to a document or contribution in ordinary prose, adding only the context n
 | `FDM` | Financial Domain Modeling Principles Framework | [FINANCIAL-DOMAIN-MODELING-PRINCIPLES-FRAMEWORK.md](DPFs/FINANCIAL-DOMAIN-MODELING-PRINCIPLES-FRAMEWORK.md) |
 | `FIN` | Corporate Finance Principles Framework | [CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md](DPFs/Management%20DPF%20Suite/CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md) |
 | `Foundational` | Foundational Thinking DPF Suite Architectural Reference | [FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md](DPFs/Foundational%20Thinking%20DPF%20Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) |
-| `GOALS` | Goal Construction and Regulation Principles Framework | [GOAL-CONSTRUCTION-AND-REGULATION-PRINCIPLES-FRAMEWORK.md](DPFs/GOAL-CONSTRUCTION-AND-REGULATION-PRINCIPLES-FRAMEWORK.md) |
+| `GOALS` | Goal Construction and Regulation Principles Framework | [GOAL-CONSTRUCTION-AND-REGULATION-PRINCIPLES-FRAMEWORK.md](DPFs/Management%20DPF%20Suite/GOAL-CONSTRUCTION-AND-REGULATION-PRINCIPLES-FRAMEWORK.md) |
 | `HCD` | Human Capability Development Principles Framework | [HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md](DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) |
 | `HRM` | Human Resource Management Principles Framework | [HUMAN-RESOURCE-MANAGEMENT-PRINCIPLES-FRAMEWORK.md](DPFs/Management%20DPF%20Suite/HUMAN-RESOURCE-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) |
 | `HCE` | Human Capability Engineering DPF Suite Architectural Reference | [HUMAN-CAPABILITY-ENGINEERING-DPF-SUITE-REFERENCE.md](DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-ENGINEERING-DPF-SUITE-REFERENCE.md) |

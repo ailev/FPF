@@ -6,11 +6,11 @@ The undertaking can be a company, public service, temporary collaboration or vol
 
 This Suite contributes methods for organizing a **shared culture of thinking and acting among people and AI agents**: connecting their direction, contributions, commitments and conditions of work. Its methods can help sustain both current performance and open-ended development. The [Library account of this culture](../../FPF-LIBRARY-REFERENCE.md#libraryreference13---a-canon-for-shared-humanai-culture) explains the common canon; actual roles and authority follow the working arrangement.
 
-Framework and method links open readable text on fpf.tools; **Markdown** links open the repository source. GitHub previews can truncate large files. Check the [displayed source edition](https://fpf.tools/status) when the version matters.
+Framework and method links open readable text on fpf.tools or Markdown sources in the repository. GitHub previews can truncate large files. For fpf.tools, check the [displayed source edition](https://fpf.tools/status) when the version matters.
 
 ## How this Suite is organized and why
 
-**[Read the Management Architectural Reference](MANAGEMENT-DPF-SUITE-REFERENCE.md).** It explains why strategy, commitments, operations, resources, communities and organizational change belong in one connected management account, what each contributes, and which related disciplines remain outside this Suite. Read it for the overall design and its alternatives; use a familiar sufficient method directly when that is all your task needs.
+**[Read the Management Architectural Reference](MANAGEMENT-DPF-SUITE-REFERENCE.md).** It explains why strategy, goals, commitments, operations, resources, communities and organizational change belong in one connected management account, what each contributes, and which related disciplines remain outside this Suite. Read it for the overall design and its alternatives; use a familiar sufficient method directly when that is all your task needs.
 
 ## Choose an entry
 
@@ -18,6 +18,7 @@ Framework and method links open readable text on fpf.tools; **Markdown** links o
 | Your question | Open |
 | --- | --- |
 | Which direction and investment are worth pursuing? | [Strategy](https://fpf.tools/STR). |
+| How do we construct, pursue and revise goals or use a complete OKR/CFR practice? | [Goals and OKR (GOALS)](GOAL-CONSTRUCTION-AND-REGULATION-PRINCIPLES-FRAMEWORK.md); [GOALS.6](GOAL-CONSTRUCTION-AND-REGULATION-PRINCIPLES-FRAMEWORK.md#goals6---make-a-professional-goal-workable-for-the-person-pursuing-it) for a human professional goal and [GOALS.7](GOAL-CONSTRUCTION-AND-REGULATION-PRINCIPLES-FRAMEWORK.md#goals7---assign-and-continue-goal-directed-ai-work) for AI work. |
 | How can production or service be arranged, and current work meet its promises? | [Operations Management](https://fpf.tools/OPS); use [Organization Administration](https://fpf.tools/ADM) for permissions, provision and obligations. |
 | How do we answer different clients without losing repeatability or scale? | [Manage client variation and develop repeatable offerings (CUST.1)](https://fpf.tools/CUST.1). Its constituent methods also work for a bounded offering, delivery or transition question. |
 | How do we connect hiring, pay, employee voice, protection and work transitions? | [Human Resource Management (HRM)](HUMAN-RESOURCE-MANAGEMENT-PRINCIPLES-FRAMEWORK.md). |
@@ -39,6 +40,7 @@ The **[operational mantra (OPS.23)](https://fpf.tools/OPS.23)** connects local w
 | Framework | What you can work on | Patterns | Text, M characters |
 | --- | --- | ---: | ---: |
 | [Strategy (STR)](https://fpf.tools/STR) · [Markdown](STRATEGY-PRINCIPLES-FRAMEWORK.md) | Find a worthwhile direction; compare options, capabilities, investments and business models; revise commitments when conditions change. | 18 | 0.550 |
+| [Goal Construction and Regulation (GOALS)](GOAL-CONSTRUCTION-AND-REGULATION-PRINCIPLES-FRAMEWORK.md) | Construct worthwhile goals and achievement evidence, coordinate their pursuit and revise the practice; complete OKR/CFR and human and AI applications. | 9 | 0.150 |
 | [Operations Management (OPS)](https://fpf.tools/OPS) · [Markdown](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) | Understand, construct and revise operating arrangements; manage work, provision, service and improvement under actual conditions. | 29 | 0.966 |
 | [Organization Administration (ADM)](https://fpf.tools/ADM) · [Markdown](ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md) | Make requests, permissions, obligations, provision, records and provider coordination effective without unnecessary burden. | 15 | 0.302 |
 | [Corporate Governance (CGOV)](https://fpf.tools/CGOV) · [Markdown](CORPORATE-GOVERNANCE-PRINCIPLES-FRAMEWORK.md) | Constitute and exercise corporate powers, decisions, controls and accountability under applicable governing rules. | 17 | 0.272 |
@@ -57,6 +59,8 @@ The **[operational mantra (OPS.23)](https://fpf.tools/OPS.23)** connects local w
 ## Connect the contributions
 
 An attractive new order can require a revised offering, delivery capacity, a financial commitment and a change in who may authorize work. Each can look feasible alone while the combination exceeds shared capacity. The Suite helps connect those judgements and revise the offer, provision or commitments together. Use only the contributions needed by the undertaking; Corporate Governance and Corporate Finance retain their corporate conditions.
+
+[GOALS](GOAL-CONSTRUCTION-AND-REGULATION-PRINCIPLES-FRAMEWORK.md) keeps the desired results, achievement evidence, shared means and revisions connected within this arrangement. Its full language is part of the Suite, while a person or an AI can use a sufficient Method directly without an organization or an OKR cycle. The [goal account (Management.Reference:3.4)](MANAGEMENT-DPF-SUITE-REFERENCE.md#managementreference34---goals-are-part-of-the-management-arrangement) explains the membership and its limits.
 
 Management can change an organization's functioning while retaining its organization chart. OCE develops deliberate organizational construction, but does not exhaust management. The [Architectural Reference](MANAGEMENT-DPF-SUITE-REFERENCE.md) explains this organizational specialization of engineering and its [coverage limits (Management.Reference:7)](MANAGEMENT-DPF-SUITE-REFERENCE.md#managementreference7---continuity-and-coverage).
 
