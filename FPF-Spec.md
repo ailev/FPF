@@ -12,6 +12,8 @@ Begin with the working question in your project; FPF helps make the reasoning ex
 
 Before selecting framework guidance, read and apply [Using FPF Library](https://github.com/ailev/FPF/blob/main/USING-FPF.md). It explains how to search the Table of Contents and available publications, then read and apply the relevant pattern to your project question. If a reading test explicitly limits its reader to an isolated excerpt, use only the materials supplied for that test; do not add USING-FPF.md unless the test includes it.
 
+Check that a link has opened the intended pattern or section. If it has not, treat that return as unresolved and follow [Resolve a portable reference](https://github.com/ailev/FPF/blob/main/USING-FPF.md#resolve-a-portable-reference) with the complete PatternID or SectionRef and any requested edition.
+
 The public FPF readme section after the Table of Contents provides one `Practical entries` set: ordinary examples show direct one-pattern help, while selected Practical-Use Cards show extended reasoning through several pattern contributions. For other FPF, DPF or LPF questions, use the Table of Contents and direct patterns. The FPF Architectural Reference explains the cross-cutting ideas and the ordinary pattern-use rhythm. **Big FPF Storylines** connects a worked question to the framework's Architectural Rationale, shared sources, profile choices and whole-combination conditions. Pattern bodies carry the normative Solutions, boundaries, worked slices, and checks. Pattern form is governed by E.8; concrete pattern application and pattern-use coordination are governed by E.11.PUA and E.11.PUR when those relations are current.
 
 # Table of Contents
@@ -302,11 +304,11 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | C.2.1 | **`U.Episteme`: Constitution, Empirical Grounding, and Edition Relations** | Stable | Identifies one episteme through exact claim content, exact EntityOfConcern, and effective ReferenceScheme under EpistemeConstitutionRelation; governs its empirical-grounding and edition relations while keeping declarations, views, publications, carriers, and representations separate. | **Builds on:** A.1, A.6.REL, A.6.0, A.6.5, A.7, C.29. **Coordinates with:** C.3.2, E.17.0, E.24.UK, E.24.PUB, A.10, B.3, G.11. |
 | C.2.P | **Clarify Episteme, Publication, and Source Wording (Epistemic Precision Restoration)** | Stable | Clarifies wording that leaves an episteme, publication, source-to-use, carrier, or use-disposition distinction unresolved. Recover the sentence's function and the missing distinction, then repair it or use the exact subject pattern; stop when that pattern and its current field are already clear. | **Builds on:** E.10, C.2.1, A.7, E.17.0, E.17, A.6.P, F.18. **Coordinates with:** E.8, E.12, E.17.AUD, E.17.EFP, E.17.ID.CR, A.10, A.15, A.20, A.21, B.3, C.11. |
 | C.2.2 | **Reliability R in the F–G–R triad** | Stable | *Keywords:* Reliability (R), warrant, evidence-bound, F–G–R, ClaimScope (G), support dependencies, non-aggregate synthesis, direct relation, Congruence Level (CL / CL^k / CL^plane), weakest-link limits, pathwise justification (PathId), TA/VA/LA lanes. *Queries:* "How strongly is this exact claim warranted for this use?", "Can its support be combined numerically, or should it remain a reasoned synthesis?", "What loss does the actual reuse relation justify?", "What is R in F–G–R?" | **Builds on:** C.2, A.2.6, C.2.3, B.3, B.1.3, C.3, F.9. **Coordinates with:** G.6, G.7, E.14, E.18. **Constrains:** any claim reuse whose actual changed scope, kind, plane, scheme, model use, source-local meaning, notation, or evidence basis changes `R_eff`. |
-| C.2.2a | **`U.LanguageStateSpace` - Language-state chart over `U.CharacteristicSpace`** | Stable | *Keywords:* language-state chart, characteristic space, position claim, partial coordinates, formality, articulation, closure, representation, source and use conditions, local thresholds, episteme publication. *Queries:* "Which separate facet readings lie behind 'early', 'ready', or 'settled'?", "What position and local threshold does the next action use?", "What is the language-state space in FPF?" | **Builds on:** A.19, E.10, F.18. **Used by:** C.2.LS, A.16, B.4.1, C.16.Q, A.6.A. |
+| C.2.2a | **Language-State Chart over `U.CharacteristicSpace`** | Stable | *Keywords:* language-state chart, characteristic space, position claim, partial coordinates, formality, articulation, closure, representation, source and use conditions, local thresholds, episteme publication. *Queries:* "Which separate facet readings lie behind 'early', 'ready', or 'settled'?", "What position and local threshold does the next action use?", "What is the language-state space in FPF?" | **Builds on:** A.19, E.10, F.18. **Used by:** C.2.LS, A.16, B.4.1, C.16.Q, A.6.A. |
 | C.2.3 | **Formality of an Episteme** | Stable | *Keywords:* Formality assessment, expression properties, partial order, local ordinal scale, proof, specification, language-state separation. *Queries:* "What is Formality F in FPF?", "How does F differ from articulation, closure, or source and use claims?" | **Builds on:** C.2. **Constrains:** all patterns referencing F-G-R or language-state facets. |
 | C.2.LS | **Language-State Facet Profile: Publish Readings and Use Conditions Together** | Stable | *Keywords:* facet profile, articulation, closure, representation factors, source and use claims, local thresholds. *Queries:* "How are language-state facets named together in FPF?", "What is a LanguageStateFacetProfile?" | **Builds on:** C.2.2a, C.2.4-C.2.7. **Coordinates with:** A.16. |
-| C.2.4 | **`U.ArticulationExplicitness` — How Explicit Is an Episteme's Meaning for Its Use?** | Stable | *Keywords:* articulation explicitness, AE0–AE5, semantic branch, stable cue, branch-appropriate expression, receiving use. *Queries:* "Is the meaning explicit enough for the receiving pattern?", "What is still missing between a stable cue and a complete branch-appropriate expression?", "How does articulation differ from formality and reader-specific structural recovery?" | **Builds on:** C.2.2a. **Coordinates with:** C.2.LS, A.16. |
-| C.2.5 | **`U.LanguageStateClosureDegree` — How Fixed Is the Current Candidate Space?** | Stable | *Keywords:* closure degree, CD0–CD5, candidate-space closure, route space, frame space, reopen, settledness. *Queries:* "How fixed are the current candidates, routes, or frames?", "What remains open, and what would justify reopening?", "How does closure differ from articulation and warrant?" | **Builds on:** C.2.2a. **Coordinates with:** C.2.LS, A.16. |
+| C.2.4 | **Articulation Explicitness — How Explicit Is an Episteme's Meaning for Its Use?** | Stable | *Keywords:* articulation explicitness, AE0–AE5, semantic branch, stable cue, branch-appropriate expression, receiving use. *Queries:* "Is the meaning explicit enough for the receiving pattern?", "What is still missing between a stable cue and a complete branch-appropriate expression?", "How does articulation differ from formality and reader-specific structural recovery?" | **Builds on:** C.2.2a. **Coordinates with:** C.2.LS, A.16. |
+| C.2.5 | **Language-State Closure Degree — How Fixed Is the Current Candidate Space?** | Stable | *Keywords:* closure degree, CD0–CD5, candidate-space closure, route space, frame space, reopen, settledness. *Queries:* "How fixed are the current candidates, routes, or frames?", "What remains open, and what would justify reopening?", "How does closure differ from articulation and warrant?" | **Builds on:** C.2.2a. **Coordinates with:** C.2.LS, A.16. |
 | C.2.6 | **Sources, Evidence and Conditions for Using an Episteme** | Stable | *Keywords:* provenance, evidence use, bodily observation, model derivation, document access, operator interaction, changed use. *Queries:* "What produced this claim and what supports it?", "What must remain available for its intended use?", "Which conclusion or action changes when a source or use condition changes?" | **Builds on:** C.2.1, C.2.P, A.2.4, A.10; A.6.6 and A.6.P for relation recovery. **Coordinates with:** C.2.2a, C.2.LS, C.2.7, A.16, F.9. |
 | C.2.7 | **`LanguageStateRepresentationFactorBundle` — How Is the Representation Organized?** | Stable | *Keywords:* representation factors, locality, sparsity, symbolicity, factor bundle, representation organization. *Queries:* "How does FPF describe representation factors in language-state work?", "What is the representation-factor bundle?" | **Builds on:** C.2.2a. **Coordinates with:** C.2.LS, C.2.6. |
 | C.2.8 | **`U.ExtractableStructuralInformation` — Structure This Reader Can Recover** | Stable | *Keywords:* extractable structure, reader preparation, bounded observer, structural information, epiplexity, description comparison, reading budget. *Queries:* "How much selected structure can this reader recover?", "How does structural amount differ from explicit articulation or reading effort?" | **Builds on:** A.17, A.18, C.2.1, C.16. **Coordinates with:** C.2.4, C.29, C.33, A.6.3.NAR, E.17.EFP; A.2.2 and E.23.CDI when recovered Method structure must be used or acquired. |
@@ -14563,7 +14565,7 @@ The following sources contribute to cue economy, recoverable definition and boun
 
 **Use this when.** Use `A.6.B` when boundary wording mixes definitions, runtime entry conditions, generic prescriptions, individual duties or grants, actual work or evaluation results, and evidence.
 
-**First useful move.** Split the live passage into atomic claims, classify each claim by its job and recover its adjudication basis, and replace any consequential paraphrase dependency with an ID or canonical-location reference.
+**First useful move.** Identify what the reader needs to decide or understand about the boundary. Use §4.4 to select the claims and grounds needed for that answer; split mixed claims, classify their jobs, and name consequential dependencies by ID or canonical location.
 
 **What changes in practice.** Laws, gates, governance, and work-and-evidence claims can change without silently changing one another; publication faces reuse the canonical claims instead of restating them.
 
@@ -14660,6 +14662,22 @@ The quadrants have canonical placements in the boundary stack:
 * **E → Work-Effects & Evidence layer:** truth-conditional claims whose satisfaction requires actual work, evaluation, observation, or produced carriers.
 
 A publication face **MUST NOT** introduce new semantic claims outside this L/A/D/E-classified claim set. **E.17 (MVPK)** enforces this rule for publication faces and their selected profiles.
+
+#### A.6.B:4.4 - Develop a boundary explanation for its receiving use
+
+Start with the boundary passage, its available sources and the reader's question. The square helps recover what each claim contributes and what would settle it. The explanation connects the claims needed for the reader to interpret, use or change that boundary.
+
+**1. Recover the question and the claims already made.** Establish which understanding or decision the text must support. Interpreting a metric, deciding whether a request may enter and determining whether a duty was fulfilled need different answers. Recover the draft's asserted content, modality and scope. If a word such as *guarantees* leaves the intended assertion open, use A.6.C:4.3 with the author or source to resolve that meaning. Keep a consequential unresolved meaning explicit until its source is available.
+
+**2. Establish the grounds of the answer.** Split independently asserted jobs and classify them through §§4.1–4.3. Use the detailed procedure and conditional permission-word branch in §8.4.1 where needed. Recover the definition for a meaning claim, the declared predicate for an entry condition, the normative or constitutive basis for a duty or grant, and the facts for an occurrence or finding. Preserve the source's conditions and qualifications. A missing ground requires a targeted return to the source or the responsible practice. If the work calls for a new rule or commitment, develop and establish it through its governing practice before treating it as current boundary content.
+
+**3. Select the claims and detail on which the reader's answer depends.** Work backward from that answer. A reported measurement needs its quantity, population, conditions and interpretation; judging fulfilment of a commitment additionally needs that commitment and its comparison rule. Follow such dependencies until the remaining premises are supplied by the text or by references the intended reader can obtain and understand. Use §6 for their actual relations. Include a detail when changing it could change the answer, when it explains why a step follows, or when the reader needs it to perform the stated use. A complete four-quadrant account is warranted when the question actually crosses all four jobs. Keep other valid claims in their canonical sources for their own uses.
+
+**4. Compose the explanation around that reasoning.** State the answer in the reader's working terms, connect its supporting claims, and make the conditions that limit its use recoverable. Place a definition beside the claim that needs it and an observation beside the inference it supports. IDs or canonical locations preserve material dependencies under §6.1; the accompanying explanation supplies their meaning for this reader. Use a Claim Register or separate Tech and Plain forms when the reuse or publication conditions call for them. Selection and recomposition preserve the source claims; a new semantic constraint first needs its own canonical claim.
+
+**5. Return the text to the reader's work.** Follow the intended interpretation or decision using the explanation. Identify any consequential premise the reader would still have to invent, obtain that premise or state the precise unresolved question, and revise the affected connection. Consider a relevant change of condition: show which claim must be reconsidered and which grounds remain usable. Stop when the text supports the assigned understanding or decision with its actual limits. A later question can require a different selection from the same canonical claims.
+
+The cases in §8.4 show these authoring choices. Their claims about latency, coaxiality and project entry are the material being explained; the reusable operation is selecting and connecting that material for a reader's question.
 
 ### A.6.B:5 — Quadrant specifications
 
@@ -14924,11 +14942,11 @@ The square keeps “must use dataset vX” (D) separate from “evaluation is ad
 
 #### A.6.B:8.4 — Worked Rewrite Kit (informative, recommended)
 
-> **Informative.** This kit is a worked, copy‑pasteable restatement of A.6.B’s rules (atomicity, L/A/D/E classification, explicit references, triangle decomposition, and grounded dependencies). If anything here conflicts with A.6.B, **A.6.B is authoritative**.
+> **Informative.** These cases apply the authoring method in §4.4 and the rules for atomicity, L/A/D/E classification, explicit references, triangle decomposition and grounded dependencies. Use the case whose receiving question matches the present work. If anything here conflicts with A.6.B, **A.6.B is authoritative**.
 
 ##### A.6.B:8.4.0 - Goal
 
-Convert a boundary-ish sentence that mixes “laws / gates / duties / evidence” into:
+For the receiving question established in §4.4, recover the meaning of a boundary sentence that mixes “laws / gates / duties / evidence” and produce:
 
 1. **atomic L/A/D/E-classified claims** (L/A/D/E),
 2. **explicit references by claim ID or canonical location** (no paraphrase duplication),
@@ -14936,6 +14954,8 @@ Convert a boundary-ish sentence that mixes “laws / gates / duties / evidence�
 4. **a minimal anti-pattern lint** (things we reject / flag).
 
 ##### A.6.B:8.4.1 - Micro-procedure (Atomize → Classify → Triangle → Link → Bind References → Recompose)
+
+Use this procedure to recover and express the claims selected through §4.4. The permission-word branch below supplies the detailed distinctions when permissive wording matters to that answer.
 
 **Step 1 — Atomize.** Split mixed prose into atomic claims; each must classify to exactly one quadrant.
 
@@ -14996,8 +15016,10 @@ exception for L references to A/D/E. Same-quadrant references remain available.
 **Optional drift-control.** Add each L/A/D/E-classified claim verbatim to a Claim Register row (A.6.B:7) with its canonical location and references when this helps maintain faithful faces.
 
 **Step 6 — Recompose into readable text.**
-Include only the claim classes present in the source. Use separate Tech and Plain
-forms when their readers need them; both may also serve as a teaching aid.
+Select the source claims and supporting detail needed for the receiving question
+under §4.4. Include only the claim classes present in the source. Use separate
+Tech and Plain forms when their readers need them; both may also serve as a
+teaching aid.
 
 * **Tech recomposition**: a short **L/A/D/E-classified claim bundle** listing the
   present claims and their ID or canonical-location references.
@@ -15028,20 +15050,34 @@ forms when their readers need them; both may also serve as a teaching aid.
 
 ###### A.6.B:8.4.3.2 - Atomize + Classify (L/A/D/E)
 
-The draft alone leaves open whether the author means a latency target, an obtaining duty, or an observed result, and under which measurement rule and operating conditions. With only that cue, return those questions. For the expanded worked case below, take the referenced definitions and envelope, the independently obtaining duties, and the dated evaluation and carrier-use facts as additional premises.
+The draft leaves open whether *guarantees* states a target, an obtaining duty or an observed result. The author first recovers the receiving question: the service reader wants to know what the dated evaluation established about latency. Recover the measurement definition, admitted operating envelope, actual evaluation and evidence support from the named sources. These are additional premises of this constructed case; the draft alone leaves them unresolved.
+
+**Explain the dated measurement.** Under steps 2–3 of §4.4, the observed value requires its computation meaning, operating conditions and actual basis. The author therefore selects these claims:
 
 **L-API-01 (Definition).**
 `p95_latency(window W, population P, unit U, method M)` is defined as … (formal measurement definition).
 *(Lives in Signature.Laws or a referenced measurement definition pack.)*
 
-**L-API-02 (Interface signature).**
-The API endpoints and parameters are as declared (including parameter passing discipline / units).
-*(Signature-level structure.)*
-
 **A-API-01 (Gate predicate: admissibility).**
 In this expanded case, the evaluation mechanism admits assessment of “p95 < 200ms” only under its declared load profile, deployment region, sampling method and window. Its entry predicate is:
 `AdmissibleLatencyClaim := (region=US) ∧ (concurrency≤X) ∧ (payload≤Y) ∧ (W=5m) ∧ (M=HDRHistogram@v…) ∧ (P=requests that match filter F)`
 *(References L-API-01 for definition.)*
+
+**E-API-01 (Evidence / carriers).**
+For `LatencyEvaluation-T1` over `Γ_time=[t1..t2]`, actual carriers `TraceBatch-T1`, `Histogram-H1`, `DashboardSnapshot-D1`, and `SamplingConfiguration-S1` were produced or observed under the operating and sampling conditions in `A-API-01`, using the metric and computation definition in `L-API-01`. An A.10 evidence-provenance path links those exact carriers to `LatencyEvaluation-T1` and its `LatencyResult-T1`.
+*(References `A-API-01` and `L-API-01` for the operating conditions and metric definition.)*
+
+**E-API-02 (Observed value claim).**
+For interval `Γ_time = [t1..t2]` under conditions pinned to `A-API-01` and using carriers in `E-API-01`, `LatencyEvaluation-T1` produced `LatencyResult-T1` with observed `p95_latency = 173ms` (computed per `L-API-01`).
+*(References A-API-01, L-API-01 and E-API-01.)*
+
+**Return to the measurement question.** The author writes: “During `[t1..t2]`, the observed p95 latency was `173ms` under the operating and sampling conditions in **A-API-01**, using the definition in **L-API-01** and the evaluation evidence in **E-API-01** (**E-API-02**).” This connects the value to the conditions under which the reader can interpret it. The endpoint declaration and duty bearers do not change this bounded measurement answer. If the reader asks about another region or sampling method, return to the applicability of **A-API-01** and the basis of the corresponding evaluation.
+
+**Changed question: explain the service assurance arrangement.** The reader now needs the interface being covered, who owes the latency performance, who must publish incident notes and how the supporting evidence remains available. The author recovers the declared interface and the separately obtaining commitments. Those premises select the following additional claims; their inclusion follows the new question:
+
+**L-API-02 (Interface signature).**
+The API endpoints and parameters are as declared (including parameter passing discipline / units).
+*(Signature-level structure.)*
 
 **D-API-01 (Commitment).**
 Admitted service-maintaining system `ServiceOperations-A` is the actual duty bearer of separately obtaining `LatencyCommitment-API-01 : U.Commitment`; under that commitment it SHALL meet `p95_latency < 200ms` when `A-API-01` holds, adjudicated per `L-API-01` using the carriers and observation conditions in `E-API-01`.
@@ -15051,19 +15087,13 @@ Admitted service-maintaining system `ServiceOperations-A` is the actual duty bea
 Admitted operations system `SRE-A` is the actual duty bearer of separately obtaining `IncidentNoteCommitment-API-02 : U.Commitment`; it SHALL publish incident notes when `LatencyCommitment-API-01` is violated and SHALL avoid claiming compliance outside `A-API-01`.
 *(References D-API-01 and A-API-01 by ID.)*
 
-**E-API-01 (Evidence / carriers).**
-For `LatencyEvaluation-T1` over `Γ_time=[t1..t2]`, actual carriers `TraceBatch-T1`, `Histogram-H1`, `DashboardSnapshot-D1`, and `SamplingConfiguration-S1` were produced or observed under the operating and sampling conditions in `A-API-01`, using the metric and computation definition in `L-API-01`. An A.10 evidence-provenance path links those exact carriers to `LatencyEvaluation-T1` and its `LatencyResult-T1`.
-*(References `A-API-01` and `L-API-01` for the operating conditions and metric definition.)*
-
 **D-API-03 (Duty-to-evidence linkage).**
 Admitted telemetry-maintaining system `TelemetryOperations-A` is the actual duty bearer of separately obtaining `TelemetryRetentionCommitment-API-03 : U.Commitment`; it SHALL retain or expose the actual carriers referenced in `E-API-01` for the audit window required by policy.
 *(References E-API-01 by ID.)*
 
-**E-API-02 (Observed value claim).**
-For interval `Γ_time = [t1..t2]` under conditions pinned to `A-API-01` and using carriers in `E-API-01`, `LatencyEvaluation-T1` produced `LatencyResult-T1` with observed `p95_latency = 173ms` (computed per `L-API-01`).
-*(References A-API-01, L-API-01 and E-API-01.)*
-
 ###### A.6.B:8.4.3.3 - Triangle decomposition (explicit)
+
+For that assurance question, the author uses §6 to connect the declared condition, the duties and the actual observations. Each link explains one dependency of the assurance account:
 
 * **A-API-01** is “the predicate”.
 * **D-API-01 → A-API-01** states the commitment under the gate or envelope.
@@ -15072,8 +15102,11 @@ For interval `Γ_time = [t1..t2]` under conditions pinned to `A-API-01` and usin
 
 ###### A.6.B:8.4.3.4 - Readable recomposition
 
+The broader assurance question uses the following selection. The earlier measurement answer remains sufficient for its narrower question. A changed commitment requires reconsidering the duty and compliance conclusion while retaining an applicable measurement and its grounds.
+
 **Tech recomposition (L/A/D/E-classified claim bundle, short):**
 
+* `L-API-02` identifies the covered API endpoints and parameters.
 * `L-API-01` defines p95 latency computation.
 * `A-API-01` specifies when the latency claim is admissible.
 * `D-API-01` states the commitment under that envelope.
@@ -15083,7 +15116,7 @@ For interval `Γ_time = [t1..t2]` under conditions pinned to `A-API-01` and usin
 * `E-API-02` reports observed performance under `A-API-01` for `Γ_time=[t1..t2]`.
 
 **Plain recomposition (one paragraph, readable):**
-“In this expanded case, the API’s latency target uses the p95 definition in **L-API-01**, and the mechanism admits its evaluation only under operating envelope **A-API-01**. `ServiceOperations-A` has the latency duty stated in **D-API-01**. Adjudication uses the telemetry carriers listed in **E-API-01**; `TelemetryOperations-A` has the retention duty in **D-API-03**, and `SRE-A` has the incident-note duty in **D-API-02**. Under that envelope, the observed p95 over `Γ_time=[t1..t2]` was `173ms` (**E-API-02**).”
+“For the API endpoints and parameters declared in **L-API-02**, the latency target uses the p95 definition in **L-API-01**, and the mechanism admits its evaluation only under operating envelope **A-API-01**. `ServiceOperations-A` has the latency duty stated in **D-API-01**. Adjudication uses the telemetry carriers listed in **E-API-01**; `TelemetryOperations-A` has the retention duty in **D-API-03**, and `SRE-A` has the incident-note duty in **D-API-02**. Under that envelope, the observed p95 over `Γ_time=[t1..t2]` was `173ms` (**E-API-02**).”
 
 ##### A.6.B:8.4.4 - Example 2 — Mechanical engineering (fit / coaxiality)
 
@@ -15093,7 +15126,7 @@ For interval `Γ_time = [t1..t2]` under conditions pinned to `A-API-01` and usin
 
 ###### A.6.B:8.4.4.2 - Atomize + Classify
 
-First ask whether the draft concerns a geometric constraint, a process duty, or a measured result, and recover the datum, tolerance and applicable conditions. For the expanded worked case below, take the referenced definition and process envelope, the independently obtaining process and retention duties, and the dated measurement facts as additional premises.
+First recover which assertion *ensures* is meant to express. In this constructed case, a reader initially needs to interpret the geometric requirement at the shaft–bushing boundary. The author obtains the declared datum, tolerance and measurement convention, then uses steps 2–3 of §4.4 to select the two definitions that make that requirement interpretable:
 
 **L-FIT-01 (Definition).**
 `coaxiality` is defined relative to a declared base axis and measurement method (datum scheme, instrument, tolerance zone).
@@ -15103,27 +15136,37 @@ First ask whether the draft concerns a geometric constraint, a process duty, or 
 The boundary relation involves shaft, bushing, datum axis, tolerance class, temperature window, assembly procedure class.
 *(Signature-level arity recovery / slots.)*
 
+**Return to the interpretation question.** The author writes: “Interpret the coaxiality requirement for the shaft–bushing boundary using its declared datum scheme, measurement method and tolerance zone (**L-FIT-01**), with the participants and applicable temperature and assembly conditions in **L-FIT-02**.” The reader can now locate what the geometric requirement means. A measured claim about a particular lot needs a further answer.
+
+**Changed question: determine what was established for lot L123.** The author obtains the evaluation rule and the dated measurement facts. The admissible process envelope and actual evaluation connect the geometric meaning to this lot. Their source recovery supplies the next three claims:
+
 **A-FIT-01 (Gate predicate).**
 In this expanded case, the evaluation mechanism admits assessment of the coaxiality claim only when manufacturing and assembly satisfy the declared process envelope: material batch, temperature window, tool calibration validity, surface finish class and alignment procedure version.
 *(Gate predicate; can be checked using evidence, but is not itself evidence.)*
-
-**D-FIT-01 (Duty).**
-Admitted production-engineering system `ProcessEngineer-A` is the actual duty bearer of separately obtaining `ProcessEnvelopeCommitment-FIT-01 : U.Commitment`; it SHALL ensure `A-FIT-01` holds for the production lot and SHALL not release the lot for use when `A-FIT-01` is false.
-*(References A-FIT-01.)*
 
 **E-FIT-01 (Evidence carriers).**
 For `CoaxialityEvaluation-L123` over lot `L123` and `Γ_time=[t1..t2]`, actual carriers `CMMReport-L123`, `CalibrationCertificate-C7`, `AssemblyLog-L123`, `TemperatureTrace-L123`, and `DatumSchemePin-D4` were produced or observed. An A.10 evidence-provenance path links those exact carriers to `CoaxialityEvaluation-L123` and its `CoaxialityResult-L123`.
 *(References `A-FIT-01` and `L-FIT-01`; avoids RFC deontics.)*
 
-**D-FIT-02 (Duty-to-evidence linkage).**
-Admitted quality-engineering system `QualityEngineer-A` is the actual duty bearer of separately obtaining `FitEvidenceRetentionCommitment-02 : U.Commitment`; it SHALL retain or expose the carriers referenced in `E-FIT-01` for the production lot.
-*(References E-FIT-01 by ID.)*
-
 **E-FIT-02 (Observed).**
 For lot `L123` and window `Γ_time=[t1..t2]`, under conditions pinned to `A-FIT-01` and using carriers in `E-FIT-01`, `CoaxialityEvaluation-L123` produced `CoaxialityResult-L123`: measured coaxiality was within tolerance zone `T` (interpreted per `L-FIT-01`).
 *(References A-FIT-01, L-FIT-01, and E-FIT-01.)*
 
+The resulting account states: “For lot `L123` during `[t1..t2]`, the evaluation under **A-FIT-01** found coaxiality within tolerance zone `T`, interpreted through **L-FIT-01** and supported by the carriers in **E-FIT-01** (**E-FIT-02**).” If the datum scheme changes, the author reopens the interpretation and fitness of the measurement for that scheme. The earlier finding retains its stated datum and conditions.
+
+**Further question: explain the production and evidence duties.** A reader arranging release and later reliance also needs to know who is bound to maintain the process envelope and retain its evidence. Recovering the separately obtaining commitments supplies these additional claims:
+
+**D-FIT-01 (Duty).**
+Admitted production-engineering system `ProcessEngineer-A` is the actual duty bearer of separately obtaining `ProcessEnvelopeCommitment-FIT-01 : U.Commitment`; it SHALL ensure `A-FIT-01` holds for the production lot and SHALL not release the lot for use when `A-FIT-01` is false.
+*(References A-FIT-01.)*
+
+**D-FIT-02 (Duty-to-evidence linkage).**
+Admitted quality-engineering system `QualityEngineer-A` is the actual duty bearer of separately obtaining `FitEvidenceRetentionCommitment-02 : U.Commitment`; it SHALL retain or expose the carriers referenced in `E-FIT-01` for the production lot.
+*(References E-FIT-01 by ID.)*
+
 ###### A.6.B:8.4.4.3 - Readable recomposition
+
+For this broader question the author connects the definition, admissibility, duties and observation. This selection lets the reader distinguish what the lot evaluation established from what each duty requires.
 
 **Tech bundle:**
 
@@ -15134,7 +15177,7 @@ For lot `L123` and window `Γ_time=[t1..t2]`, under conditions pinned to `A-FIT-
 * What we observe and keep as carriers: `E-FIT-01` and measured outcome `E-FIT-02` (with retention duty `D-FIT-02`).
 
 **Plain paragraph:**
-“In this expanded case, ‘ensures coaxiality’ is made precise by fixing the definition and datum scheme (**L-FIT-01**) and by making the boundary participants explicit (**L-FIT-02**). The mechanism admits this coaxiality evaluation only under the declared manufacturing and assembly envelope (**A-FIT-01**). `ProcessEngineer-A` has the process-envelope duty stated in **D-FIT-01**. Compliance is adjudicated using the measurement and process carriers listed in **E-FIT-01**; for lot `L123` over `Γ_time=[t1..t2]`, the observed coaxiality was within tolerance **E-FIT-02**.”
+“In this expanded case, ‘ensures coaxiality’ is made precise by fixing the definition and datum scheme (**L-FIT-01**) and by making the boundary participants explicit (**L-FIT-02**). The mechanism admits this coaxiality evaluation only under the declared manufacturing and assembly envelope (**A-FIT-01**). `ProcessEngineer-A` has the process-envelope duty stated in **D-FIT-01**. `QualityEngineer-A` has the evidence-retention duty in **D-FIT-02**. Compliance is adjudicated using the measurement and process carriers listed in **E-FIT-01**; for lot `L123` over `Γ_time=[t1..t2]`, the observed coaxiality was within tolerance **E-FIT-02**.”
 
 ##### A.6.B:8.4.5 - Example 3 — Management (project “approved or aligned”)
 
@@ -15144,7 +15187,7 @@ For lot `L123` and window `Γ_time=[t1..t2]`, under conditions pinned to `A-FIT-
 
 ###### A.6.B:8.4.5.2 - Atomize + Classify
 
-With only the draft, ask which approval is claimed, which subsequent action depends on it, and what rule and actual result support that use. For the expanded worked case below, take the named sponsor-approval definition, gate profile, independently obtaining coordinator duty, four actual check-application results and evidence path as additional premises.
+With only the draft, ask which approval is claimed and which subsequent action the reader needs to decide. Here the question is whether the project may start execution. Recover the sponsor-approval definition, entry predicate, four actual check-application results and evidence path from the named sources. These additional premises let the author connect the prerequisite meanings to a current entry decision. The separately obtaining coordinator duty is needed for the broader question of who is bound to maintain this arrangement; it is also supplied in the constructed case below.
 
 **L-PRJ-01 (Definition).**
 For this case, the project-entry policy defines `RequiredProjectApproval(project)` as sponsor sign-off on the identified project. Risk-review completion, budget availability and staffing are separate prerequisites.
@@ -15167,6 +15210,10 @@ For reliance on `E-PRJ-01`, the exact observed carrier set is `{DecisionRecord-R
 
 ###### A.6.B:8.4.5.3 - Readable recomposition
 
+**Answer the entry question.** The author uses **L-PRJ-01** and **A-PRJ-01** to interpret the prerequisites, **E-PRJ-01** for the actual decision and **E-PRJ-02** for the support needed before reliance. The answer is: “At snapshot `t`, the project-entry decision is `pass`, allowing `StartExecution-P` within the stated window (**E-PRJ-01**, supported by **E-PRJ-02**). Recheck when a prerequisite or the decision's profile, scope or window changes.” A changed budget check returns the reader to the affected admission decision. The definition of sponsor approval remains usable.
+
+**Explain the wider arrangement when requested.** Adding **D-PRJ-01** answers who has the project-entry and registry-maintenance duties. The following recomposition addresses that wider question:
+
 **Tech bundle:**
 
 * The required sponsor approval is defined by `L-PRJ-01`; risk review, budget and staffing remain separate prerequisites.
@@ -15178,6 +15225,8 @@ For reliance on `E-PRJ-01`, the exact observed carrier set is `{DecisionRecord-R
 “In this expanded case, the required sponsor approval has the meaning defined in **L-PRJ-01**. Together with the separate risk-review, budget and staffing prerequisites, it supplies the inputs to the entry predicate **A-PRJ-01**. `ProjectCoordinator-A` has the project-entry and registry-maintenance duties stated in **D-PRJ-01**. At snapshot `t`, the current A.21 profile application maps every required check-application result to `pass`; **E-PRJ-01** records `decisionValue=pass` with the action consequence ‘start `StartExecution-P` within the stated window’, and **E-PRJ-02** supplies the evidence path for reliance on that result.”
 
 ###### A.6.B:8.4.5.4 - Filled permission case (each sentence classified)
+
+Apply §4.4 to each receiving question in this case. To explain the current grant, connect its instituting basis **E-CAL-01** to **D-CAL-01**. For an entry decision, also recover the entry predicate and the actual decision with its applicable inputs. A question about whether the technician used the grant selects **E-CAL-02–03**; later compliance and renewed entry require their own findings below. The detailed permission branch in §8.4.1 explains these selections. Preserve the distinct claims so a later question can use its own grounds.
 
 **E-CAL-01 (Instituting communicative Work).** Admitted system `MaintenanceCoordinator-A` performed dated `CalibrationGrantAct-17 : U.SpeechAct` under `MaintenanceCoordinator-A@DayShift`; that obtaining assignment has the system as holder and covers the act. In this filled case, `CalibrationGrantPolicy-v4` does not require a separate authority relation, so none is asserted. The assignment supplies no authority and performs no act. `CalibrationGrantAct-17` satisfies the policy in `PlantCalibrationContext` and is the actual instituting Work. A policy variant that does require grant authority must cite one exact obtaining authority relation under its direct predicate or stop at `missing-governor[grant authority]`.
 
@@ -15205,8 +15254,12 @@ For reliance on `E-PRJ-01`, the exact observed carrier set is `{DecisionRecord-R
 
 ##### A.6.B:8.4.6 - A compact recomposition aid
 
-Include only the claim classes present in the source; use separate Tech and Plain
-forms when their readers need them. Cite claim IDs or canonical locations.
+Select the source claims needed for the receiving question through §4.4. Cite
+claim IDs or canonical locations. For a measurement account, connect the value
+to its definition, conditions and actual basis; for an entry answer, connect the
+entry rule to its evaluated inputs and current decision. Use the broader forms
+below when the question also needs the normative arrangement and its evidence.
+Use separate Tech and Plain forms when their readers need them.
 
 ###### A.6.B:8.4.6.1 - Tech register
 
@@ -43224,7 +43277,7 @@ Typical moments:
 - separately governed structure, functioning, method, and work facts support a capability envelope that the existing whole cannot explain; evidence separately supports the claim about those facts;
 - an architecture residual cannot be explained inside the existing whole.
 
-**First useful move.** Compare the observed gain or shift with explanations that preserve the existing whole. If better parts, corrected relations, improved measurement, Method or Work repair, richer phase coverage, or architecture-view repair is sufficient, stay with the existing whole and use that subject pattern. Proceed to a new-whole claim only when that comparison leaves whole reidentification necessary.
+**First useful move.** Compare the observed gain or shift with explanations that preserve the existing whole. If better parts, corrected relations, improved measurement, Method or Work repair, richer phase coverage, or architecture-view repair is sufficient, stay with the existing whole and use that subject pattern. Proceed to a new-whole claim only when that comparison leaves whole reidentification necessary. When the identity grounds themselves are missing or disputed, start with :4.0.
 
 **What goes wrong if missed.** Emergence becomes rhetoric, ordinary improvement is overclaimed as a new whole, or a genuinely new whole remains hidden under old part, evidence, assurance, architecture, or responsibility claims.
 
@@ -43270,7 +43323,7 @@ When whole identity and its grounds are unclear:
 
 Use B.2 as a world-side whole-reidentification pattern. Start with the actual wholes and the facts governed by their direct patterns; add records only when a receiving use needs them.
 
-Name what the receiving work needs from a whole: for example, a system bearing an operational capability or an episteme supporting a particular conclusion. Establish which prior whole, if any, is being compared. For a first constitution, obtain the construction facts under the applicable subject pattern and then apply A.1. For a first recognition of an existing whole, apply A.1 to the facts already obtaining; the recognition date does not establish when the whole came into existence. If the prior identity grounds are unavailable, leave that question unresolved. None of these situations supplies a prior holon for `existingWholeRef` by itself.
+Name what the receiving work needs from a whole: for example, a system bearing an operational capability or an episteme supporting a particular conclusion. Establish which prior whole, if any, is being compared. For a first constitution, obtain the construction facts under the applicable subject pattern and then apply A.1. For a first recognition of an existing whole, apply A.1 to the facts already obtaining; the recognition date does not establish when the whole came into existence. When the prior identity grounds are unavailable or disputed, use :4.0 to recover or compare their basis. Keep the identity question unresolved until that work supplies the deciding grounds. None of these situations supplies a prior holon for `existingWholeRef` by itself.
 
 With an established prior whole:
 
@@ -43282,6 +43335,20 @@ With an established prior whole:
 6. Materialize a trigger profile, optional explanation-result episteme, reidentification assertion, or record only when a named receiving use must inspect, cite, compare, or preserve that claim.
 
 The optional `MHTTriggerProfile`, `ExistingWholeExplanationResult`, and `HolonReidentificationRecord` are ordinary C.2.1 epistemes. Their content can designate exact wholes, facts, claims, and relation occurrences; the content fields are not world-side participants and supply no substitute for the preceding move.
+
+#### B.2:4.0 - Establish the identity grounds for the comparison
+
+Use this branch when the comparison needs an identity criterion that is unavailable or contested. A sufficient criterion already supplied by the admitted kind and subject practice can be used directly in :4.2. Here the useful result is a justified rule for the whole being compared, or the particular missing ground that prevents choosing one.
+
+**Recover the subject of the identity claim.** State what continuing whole the receiving question concerns and which construction makes it that whole. A commissioned installation, the resources currently performing an order and a supervisor's jurisdiction can overlap materially while answering different questions. Recover their constituents, organizing relations and relevant occasions before treating their descriptions as rival accounts of one individual. Use A.1 and the kind-specific pattern for the corresponding recognition question. When two accounts concern different subjects, keep each subject and its own continuity conditions.
+
+**Recover what warrants each proposed rule.** Find the domain account that makes the proposed conditions relevant to this whole: for example, the constitutive organization described by a design, an established lifecycle practice, or a theory of the object's persistence. Follow its reasons into what may change and what ends the individual. Distinguish a condition sufficient for continuity from one merely necessary for it. An identifier, observation or test can help recognize that condition; recover the connection that gives it identifying force. For an institutionally constituted object, the applicable constituting rule can itself supply identity conditions. For a physical organization, a proposed rule also has to fit the actual organization and changes. A convenient model boundary answers only the questions warranted by its correspondence to that subject.
+
+**Compare the consequential alternatives through B.5.TC.** Give each proposed account the same identity question and corresponding facts; recover its reasoning, then vary the condition on which the accounts disagree. Choose variations from the disputed claim. Replacement can expose whether the criterion preserves an organization or requires a fixed collection of parts. A temporary loss of functioning tests whether incapacity has been confused with the end of its bearer. A transfer of control tests whether the question follows the installation or a particular control relationship. Two independently constituted systems with the same output test whether a proposed condition distinguishes individuals or only capability. Division, merger or reconstruction matters when one of those events changes the receiving decision. For an episteme, compare its ClaimGraph, EntityOfConcern and effective ReferenceScheme under C.2.1 even when its carriers differ.
+
+Locate the first reason for disagreement, as B.5.TC:4.4 explains. It may be a different subject, an incompatible domain premise or a missing fact about one continuing whole. A counterexample can defeat a proposed criterion; the surviving proposal still needs the positive domain grounds that license its continuity claims. When a theory's application is unclear, B.5.TU supplies that recovery. Obtain a specialist result or further inquiry only for the consequential ground still missing, using C.11.DUA to judge its attainable contribution and burden.
+
+**Return the criterion to the identity comparison.** State the selected subject, the rule and its grounds, the changes it permits, and the event or condition that would end continuity. Keep a qualified or partial rule at the strength actually supported. Feed those results into :4.2 and use A.1.RI when observations still need to be associated under the rule. Complementary accounts keep their different subjects; unresolved competing criteria for the same subject retain their conditional answers and the fact or domain commitment needed to decide between them. If their difference cannot affect the receiving work, continue that work at its supported scope. A broader identity conclusion remains open.
 
 #### B.2:4.1 - MHTTriggerProfile
 
@@ -43391,7 +43458,7 @@ Keep these five distinctions explicit:
 
 - the existing whole and candidate new whole, their constituents, obtaining constructive relations, assemblies, characteristics, and identity rules are world-side objects and facts under their direct patterns;
 - a B.2 whole-reidentification assertion is a C.2.1 episteme about those objects;
-- evidence and assurance relations support or warrant the assertion's claim content but create neither whole and decide neither identity rule;
+- evidence and assurance relations support or warrant claims about construction and identity grounds, including the reasoned choice of an applicable criterion in :4.0;
 - use G.11 to determine whether the selected assertion or record edition is current for the receiving use;
 - a person or system performing the receiving work decides whether to rely, decline to rely, defer, or reopen.
 
@@ -43462,6 +43529,20 @@ A selected `BoundedModelUseStructure` organizes exact model-use relations. It is
 
 Several actual changes during assembly may each be exact `U.Transformation` occurrences. B.2 does not treat them as constituents of one composite transformation. If whole reidentification would require positive transformation composition, transformation parthood, or composite-transformation identity and no direct governor supplies contribution, compatibility, boundary, interfaces, and reidentification, retain the exact blocker and the independently identified changes. The missing composition facts do not show that any change is atomic.
 
+#### B.2:5.7 - Obtain a criterion before judging a production-cell change
+
+In this constructed case, a maintenance engineer must decide whether replacing a robot and transferring supervision continues the commissioned production cell or requires identifying another whole. Three proposed accounts track the listed components, the achieved output and the installed organization. The receiving question concerns the maintained installation; scheduling separately needs the resources currently assigned to an order.
+
+The available engineering material provides grounds for comparison. The design makes the robot exchangeable through specified mechanical, safety and control connections to the retained base, guards and fixtures. The maintenance procedure isolates the installation, replaces that module and tests those connections before return to service. The control arrangement permits supervision to be reassigned through the same interface. Separately commissioning another installation gives it its own construction and maintenance history. The practitioner must turn these commitments and the actual construction facts into a continuity rule for the installation.
+
+Apply B.5.TC to the three proposals. Requiring the same component individuals throughout conflicts with the design's exchangeable-module construction: it would terminate the cell's identity at the very substitution that the maintenance operation performs within the retained organization. Preserved output is also inadequate as an identity criterion. The isolated cell temporarily produces nothing, and a second independently assembled cell can produce the same output at the same time. A named supervisor identifies a control participant; the design permits that participant to change while retaining the installation and its control interface.
+
+The supported criterion therefore follows continuity of the installed assembly and its organizing connections, allowing the component substitutions those connections and the maintenance practice support. Its grounds are the design's organization and the lifecycle operations on that organization. Component serial numbers, production measurements and supervisor assignments supply different facts needed by that account; none of the three alone identifies the continuing installation.
+
+Now inspect the change. The base, guards and fixtures remain; the replacement robot fits the specified connections; the required connection checks pass; supervision transfers through the retained interface. Under the recovered criterion, the replacement is an admitted constituent change of the same cell. In :4.2, that supported maintenance explanation is sufficient, so keep the cell and update the changed component and responsibility claims under their subject patterns. The scheduling account can separately change its resource membership.
+
+Change the conditions. If the commissioned installation is dismantled and an independently assembled cell supplies the same output elsewhere, output recovery leaves the earlier installation's continuity unestablished. Recover the new assembly and its identity grounds under A.1 before claiming a new whole. If only output logs are available and the construction and maintenance grounds cannot be recovered, state the missing connection: whether the actual change preserves the installed organization under an applicable lifecycle rule. Retain the conditional identity alternatives. The logs can still support their bounded production claims.
+
 ### B.2:6 - Bias-Annotation
 
 | Bias risk | Failure | Mitigation |
@@ -43529,13 +43610,14 @@ Holonic work needs a way to recognize when the prior EntityOfConcern no longer c
 | How should agency bear on whole reidentification? | Michael Levin, [*Technological Approach to Mind Everywhere*](https://www.frontiersin.org/journals/systems-neuroscience/articles/10.3389/fnsys.2022.768201/full) (2022). | **Adopt** non-binary, multi-characteristic, empirically tested agency and multi-scale competency as possible evidence about a system. **Reject** an agency label or threshold as a root kind or automatic new-whole result. | Section 4.5 keeps agency as one possible trigger whose direct characteristics must affect closure, objective, supervision, or identity. |
 | What can a multiscale mathematical signal contribute? | Akhtyrchenko, Katsnelson, and Ustyuzhanin, [*Directing Open-Ended Evolution in Artificial Life via Multi-Scale Path Divergence*](https://arxiv.org/abs/2606.17091) (v2, 3 August 2026), defines MSPD over realized trajectories as a multiscale analytical and optimization measure. | **Adopt** MSPD as a possible exact analytical input when its trajectory assumptions match the case. **Reject** a high MSPD, RG-like score, graph pattern, or benchmark jump as whole reidentification. | Sections 0, 4.7, and 8 route the mathematical result through C.29 and still require the B.2 identity comparison. |
 
-These sources answer different questions. Use each contribution within its stated scope; the whole-reidentification conclusion still requires the comparison of identity and construction facts.
+Constructional ontology makes the identity consequences of inputs and organizing relations inspectable. Its applied use depends on the intended ontology and domain commitments; those grounds determine which proposed construction answers the identity question. Section :4.0 connects their recovery with B.5.TC's comparison of competing accounts. The manufacturing studies contribute reasons for control organization and reconfiguration; a production or recovery result supports the corresponding behavioral claim. Identifying the continuing individual additionally needs its construction and continuity grounds. The case in :5.7 develops that connection under explicit engineering premises.
 
 ### B.2:12 - Relations
 - **Builds on:** `A.1` for world-side holon recognition, `B.1` for part-whole construction, `A.14` and `C.13` for relation and constructional grounding, and `E.24.UK` for one-time public-kind admission.
 - **Coordinates with:** `A.12` and `A.3.4` for acting-side and transformation, `A.3.1` and `A.15.1` for Method and Work, `A.15` when their alignment is the current question, `C.16` and `A.19` for characteristic space and threshold, `C.2.1` for optional claim and record epistemes, `A.10` and `B.3` for evidence and warrant, `G.11` for edition currentness, `C.29` for mathematical lenses, and `C.32.P2S` when architecturing pressure becomes whole reidentification rather than local structure repair.
 - **Specialized by:** `B.2.2` when the candidate new whole is a system, `B.2.3` when it is recognized under the admitted `U.Episteme` kind, and `B.2.4` when capability or functioning facts require whole reidentification.
 - **Can use neighboring evidence from:** `B.2.5` when a supervisor-subholon feedback relation is part of the B.2 case evidence or neighboring structure; that does not make B.2.5 a specialization for the candidate new holon's kind.
+- **Uses for disputed identity grounds:** `B.5.TC` for the comparison and `B.5.TU` when an application of a proposed account must first be constructed; :4.0 explains the identity-specific return.
 - **Uses:** `B.2.P` when emergence-family, MHT, MET, MFT, synergy, or metric-mirage wording hides which claim kind is current before B.2 is applied.
 
 ### B.2:End
@@ -52212,13 +52294,13 @@ The current methodological comparison is [Gutierrez, Glymour and Davey Smith, *E
 
 ### C.2.2:End
 
-## C.2.2a - `U.LanguageStateSpace` - Language-state chart over `U.CharacteristicSpace`
+## C.2.2a - Language-State Chart over `U.CharacteristicSpace`
 
 > **Type:** Architectural (A)
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
-**Plain-name.** Language-state space.
+**Plain-name.** Language-state chart.
 
 **Builds on.**
 `A.19`, `E.10`, `F.18`.
@@ -52276,16 +52358,16 @@ Without an explicit language-state chart:
 | **Bridge reuse vs local authority** | Cross-context work benefits from a stable upstream chart, yet each context keeps local threshold authority. |
 
 ### C.2.2a:4 - Solution
-`U.LanguageStateSpace` is the cluster-local name for the declared language-state chart over `U.CharacteristicSpace` as disciplined by `A.19`.
+A language-state chart is a declared `U.CharacteristicSpace` whose basis slots use selected language-state Characteristics and Scales under `A.19`. A profile containing several Characteristics expands into their separate slots; it is not one atomic Coordinate.
 
-It is not a second kernel state-space apparatus beside `A.19`. It is the particular declared `U.CharacteristicSpace` whose basis slots represent the selected language-state Characteristics. A profile containing several Characteristics expands into their separate slots; it is not one atomic Coordinate.
+#### C.2.2a:4.0a - Chart, position claims and publication
 
-#### C.2.2a:4.0a - Kind and chart boundary
+The space declaration identifies the chart and makes its basis, optional overlays and typing hooks recoverable under A.19. A position claim states facet readings about the selected published `U.Episteme` edition; the E.24.PUB publication occurrence remains separate. A score table or local route map can express the declaration and position claims. Its reusable form and carrier remain distinct from those contents.
 
-`U.LanguageStateSpace` is a dependent durable chart value under `U.CharacteristicSpace` and the episteme language-state boundary, not a new root state-space U-kind. Its identity is the declared characteristic-space chart for governed episteme publication positions. Here, the positioned episteme publication is the selected published `U.Episteme` edition being assessed; the E.24.PUB publication occurrence remains separate. Practitioners can publish or use the chart through score tables, publication forms, local route maps, and carriers, which remain distinct from the chart.
+Changing a slot's Characteristic, Scale or position requires a changed space declaration under A.19. Revising a reading changes the position claim and can use the same space. Changing a threshold changes the predicate under A.19:5.1.8. Changing only the form or carrier of these unchanged contents changes neither the space, reading nor predicate.
 
 #### C.2.2a:4.1 - Core use
-`U.LanguageStateSpace` gives FPF an explicit declared chart for answering five questions:
+Use the declared chart to answer five questions:
 
 - which basis slots define where the governed episteme stands;
 - what a position claim in that chart means;
@@ -52318,7 +52400,7 @@ Keep the positioned episteme publication separate from the grounds for its asses
 - **publication forms** - arrangements or notations used for publications such as cue packs, prompts, typed projections, partial normal forms and endpoint records; an MVPK face is a selected publication form, identified when that distinction matters;
 - **carriers** - physical or digital media, such as a paper sheet, file or console display, that bear the selected form.
 
-`U.LanguageStateSpace` governs only the coordinate reading of the position claim. Keep that claim distinct from its grounds, publication form and carrier. C.2.6 also distinguishes a reading's derivation from evidence for its target claim and from the conditions under which someone uses it.
+C.2.2a governs the coordinate reading of the position claim. Keep that claim distinct from its grounds, publication form and carrier. C.2.6 also distinguishes a reading's derivation from evidence for its target claim and from the conditions under which someone uses it.
 
 #### C.2.2a:4.5 - Position publication rule
 
@@ -52367,7 +52449,7 @@ Compare the relevant readings with the local threshold named by the next action.
 The pattern favors separate facet readings over one stage adjective when a decision depends on them. Ordinary descriptions remain sufficient under the non-use boundary in :0.
 
 ### C.2.2a:7 - Conformance Checklist
-- `CC-C.2.2a-1` `U.LanguageStateSpace` **SHALL** be treated as the declared language-state chart over `U.CharacteristicSpace`, not as a rival kernel space and not as a disguised `F` progression.
+- `CC-C.2.2a-1` The language-state chart **SHALL** be a declared `U.CharacteristicSpace` under A.19, not a rival kernel space or a disguised `F` progression.
 - `CC-C.2.2a-2` Published positions **SHALL** cite explicit facet subject patterns when those positions matter for movement, routing, or endpoint entry.
 - `CC-C.2.2a-3` Position claims **SHALL** use slot-explicit values, supported sets of remaining possible values, or intervals admitted by the slot's Scale; uncertainty **SHALL NOT** be hidden inside stage words such as `ready`, `early`, or `mature`.
 - `CC-C.2.2a-4` A position claim in the chart **MUST NOT** be conflated with the current ground, witness, publication form (including an MVPK face), or carrier.
@@ -52776,7 +52858,7 @@ When the same expression properties and conditions still answer the receiving qu
 
 #### C.2.3:19.3 - Boundary to language-state facets
 
-This pattern does not redefine `U.ArticulationExplicitness`, `U.LanguageStateClosureDegree`, the source and use claims recovered through C.2.6 or `LanguageStateRepresentationFactorBundle`. C.2.LS and its subordinate patterns govern those facets. A formality assessment can refer to their results when relevant, but must not relabel them as steps of one rigor scale.
+C.2.4 governs articulation explicitness, C.2.5 governs closure degree, C.2.6 recovers source and use claims, and C.2.7 governs the representation-factor readings. C.2.LS brings selected results together in an optional profile. A formality assessment can refer to these results when relevant, but must not relabel them as steps of one rigor scale.
 
 ### C.2.3:End
 
@@ -53066,7 +53148,7 @@ Compare profiles on the named facets. A missing reading leaves that facet's comp
 
 ### C.2.LS:End
 
-## C.2.4 - `U.ArticulationExplicitness` — How Explicit Is an Episteme's Meaning for Its Use?
+## C.2.4 - Articulation Explicitness — How Explicit Is an Episteme's Meaning for Its Use?
 
 > **Type:** Definitional (D)
 > **Status:** Stable
@@ -53094,19 +53176,35 @@ When articulation explicitness stays implicit, authors either overstate readines
 | **Branch readiness vs exploratory openness** | Say when a direct semantic branch can receive the episteme without forcing every cue through relation repair. |
 
 ### C.2.4:4 - Solution
-`U.ArticulationExplicitness` is an ordinal characteristic of the degree to which a governed episteme's semantic structure is explicitly articulated for its branch and receiving use. It orders progression from a cue to a complete branch-appropriate expression whose meaning remains stable in a named receiving use. The common direction is independent of the semantic branch.
+Articulation explicitness (`AE`) characterizes how explicitly an episteme's semantic structure is expressed for its semantic branch and receiving use. Its ordinal Scale orders progression from a cue to a complete branch-appropriate expression whose meaning remains stable in that use. The common direction is independent of the semantic branch.
 
-#### C.2.4:4.0a - Kind and characteristic boundary
+#### C.2.4:4.0a - Characteristic, reading and assessment
 
-`U.ArticulationExplicitness` names the Characteristic assessed here. The `AE0`–`AE5` readings belong to its declared ordinal Scale. A language-state chart binds that Characteristic and Scale in a basis slot under A.19; the Characteristic, a value on its Scale and the chart slot remain distinct. Local thresholds, route labels and table columns may reference them without introducing another U-kind.
+Articulation explicitness is the Characteristic; `AE0`–`AE5` name values on its ordinal Scale (:4.2). An `AE` reading attributes a supported value, or a set of remaining possible values, to an identified episteme edition within a stated assessment scope. Identify a selected fragment when only that fragment is assessed. The branch and receiving use determine which semantic structure must be recoverable. For a cue-bearing account, assess the meaning needed for the intended next use; the underlying observation or felt tension is part of its grounds.
+
+A.18 distinguishes the Characteristic from its Scale and values. A chart slot binds that Characteristic and Scale under A.19; an assessment states the reading and its grounds. A note, table or C.2.LS profile can express the assessment. Its form does not determine the reading.
+
+#### C.2.4:4.5 - Choose a sufficient articulation claim
+
+Start with the intended question or action and the meaning it requires. Read the available expression to recover its subject, semantic branch, and the participants, conditions and bounds that matter to that use. State what is already explicit and what is still missing. A direct condition can be sufficient for the next action; in that case, use it without assigning an `AE` level.
+
+Use an `AE` reading when the receiving work needs comparison on this Scale, a position in a declared chart, or a test against a declared `AE` threshold. Match the available content to the anchors in :4.2 and state the grounds for the reading. Reuse an applicable assessment when its edition, scope, branch and receiving conditions still match. If the grounds do not determine the needed value, retain the supported possibilities or a decision-relevant unknown. The applicable rule for the receiving action supplies its condition; an `AE` value supplies only the articulation input that condition uses.
+
+#### C.2.4:4.6 - Develop and revise the content in writing
+
+Writing can help obtain the meaning that will later be assessed. Put the cue or earlier wording beside a proposed statement, question or plan. Try to make the missing participant, distinction or condition explicit, then compare the expressions with the observations and reasons that motivated them. Retain what supports the next use and expose a gap that still prevents it. Use the relevant subject pattern when developing the missing content requires its method.
+
+Assess closure separately under C.2.5 when the use depends on which alternatives remain live or which route is fixed. Making a claim explicit can raise `AE` while leaving its warrant weak; restoring a lost alternative can improve the articulation while reducing closure. Preserve the observations, qualifications and rivals needed to reconsider the conclusion. A.16.0:14 shows this comparison across three written accounts; use a separate history account only when that history changes the next use.
+
+When the content, scope, branch or receiving use changes, reconsider the affected assessment and any decision that relied on it. A changed receiving requirement can make the earlier reading inapplicable even when the assessed episteme is unchanged. C.2.1 governs any claim-content or episteme-identity change; A.16 and A.16.2 govern a selected publication move or retreat.
 
 #### C.2.4:4.1 - Characteristic specification
-- **Kind:** CHR characteristic.
+- **Assessed subject:** the identified episteme edition, with assessment scope and receiving use stated.
 - **Scale discipline:** ordinal.
 - **What rises:** semantic shape becomes more explicit.
 - **What does not follow automatically:** truth, trust, closure, admissibility, or formality.
 
-`AE` is therefore independent from `F`, from `LanguageStateClosureDegree`, and from endpoint authority.
+`AE` is therefore independent from `F`, from closure degree (`CD`, C.2.5), and from endpoint authority.
 
 Use `C.2.8` to compare how much selected structure a reader can correctly extract under stated preparation, access and budget, including when both expressions already meet the same `AE` threshold. Reader recovery supports an `AE` judgment about explicit articulation; it does not turn the `AE0`–`AE5` progression into a scale of extractable structural amount.
 
@@ -53176,11 +53274,19 @@ A template may enforce precise syntax while leaving the meaning needed by the re
 #### C.2.4:13.2 - Plain plan, high articulation
 The note `At 14:00, Maintenance Team 2 will isolate Pump P-17, replace Seal S-4, and restore service only after Leak Test LT-9 passes` uses ordinary language and little formal notation. It can still reach `AE4`: the planned actor, affected entity, ordered actions, time, and completion condition are explicit enough for the planning branch. It routes to `A.15`; the note describes planned actions, while `A.15.1` governs any admitted Work occurrence. The note needs no relation repair merely to count as explicit.
 
+For a planning check whose required content is exactly those items, inspect them directly. Add the `AE4` reading only when a comparison, chart or declared threshold needs that Scale. The plan's explicitness still leaves the planned action and any authorization for it to their own tests.
+
 #### C.2.4:13.3 - Relation-looking but wrongly routed
 A row `Maintenance Team 2 | Pump P-17 | isolate | 14:00` looks slot-shaped. If it records intended action, however, it is a compact plan row rather than proof of a durable relation. Its layout does not raise `AE` until the planning meaning and conditions are recoverable, and it does not select `A.6.P`.
 
 #### C.2.4:13.4 - Threshold edge case
 A cue with a stable trigger and candidate anchors may still sit between `AE2` and `AE3` because its direct branch is unresolved. Keep the cue recoverable in `B.4.1` or `A.16.1` and state what is missing. An applicable first recognition or clarification step can help select the branch; use its required inputs and apply the receiving branch's threshold before claiming that result. There is no universal relation threshold.
+
+#### C.2.4:13.5 - Recovering what a clearer summary lost
+
+In the constructed case in A.16.0:14, an initial note preserves three timeouts just after a restart, a later successful request, and two rival explanations. A summary says that the system is permanently undersized and recommends adding replicas. That diagnosis and action are more explicit, but comparison with the original note reveals the lost observation window, success and rivals.
+
+The revised account returns to the original observations, withdraws the permanent-capacity conclusion and formulates a question about an observation that could distinguish the rivals. Under the case's stated readings, the summary raised `AE` from `AE2` to `AE3` and `CD` from `CD2` to `CD3`; the revision keeps `AE3` while reopening to `CD2`. Comparing the written contents supplies the reason for revision. The levels report different aspects of that change; neither a clearer summary nor its higher closure establishes the capacity claim. The full case distinguishes the supported edition-continuation claim from the rejected one and identifies the permitted next use.
 
 ### C.2.4:14 - Authoring and Review Guidance
 
@@ -53205,7 +53311,7 @@ If `AE` determines whether an episteme stays in `A.16.1`, passes through `B.4.1`
 Contexts may refine the starter anchor set with subanchors, but the refinement must preserve the ordinal direction and the distinction from `F` and `CD`.
 
 #### C.2.4:15.2 - Migration from vague articulation prose
-When routing or use depends on articulation, statements such as "still vague", "more explicit now", or "ready for formalization" should be migrated into explicit `AE` claims plus the corresponding move or routing claim.
+When routing or use depends on words such as "still vague", "more explicit now", or "ready for formalization", recover the meaning already explicit, the missing content and the condition for the next use. Use that direct condition when it is sufficient. Add an `AE` reading only when the receiving work needs its Scale, with the grounds and any declared threshold. A claim about the resulting move or route still follows its own governing pattern.
 
 #### C.2.4:15.3 - Boundary reminder
 `AE` does not govern closure, confidence, or warrant. If authors want those meanings, they must publish them through their own governing patterns.
@@ -53271,7 +53377,7 @@ Rigid templates, capitalized labels, or tidy sentence rhythm can simulate articu
 
 ### C.2.4:End
 
-## C.2.5 - `U.LanguageStateClosureDegree` — How Fixed Is the Current Candidate Space?
+## C.2.5 - Language-State Closure Degree — How Fixed Is the Current Candidate Space?
 
 > **Type:** Definitional (D)
 > **Status:** Stable
@@ -53299,14 +53405,24 @@ Closure is often hidden inside vague words such as "ready", "settled", or "open"
 | **Authority vs explicit retreat** | Let strong closure matter, but keep visible the moves that relax it. |
 
 ### C.2.5:4 - Solution
-`U.LanguageStateClosureDegree` is an ordinal characteristic over how fixed the current candidate set, framing, and admissible next moves are in a published position claim in the declared language-state chart over `U.CharacteristicSpace`.
+Language-state closure degree (`CD`) characterizes how firmly a specified candidate space is fixed in the position expressed by an episteme for a named use. The candidates may be answers, frames or possible next moves. Identify which choice is being assessed and which alternatives remain live. The ordinal Scale in :4.2 describes the progression from open exploration to stronger fixation.
 
-#### C.2.5:4.0a - Kind and characteristic boundary
+#### C.2.5:4.0a - Characteristic, reading and assessment
 
-`U.LanguageStateClosureDegree` names the Characteristic assessed here. The `CD0`–`CD5` readings belong to its ordinal Scale. A language-state chart binds that Characteristic and Scale in a basis slot under A.19; the Characteristic, a value on its Scale and the chart slot remain distinct. Claims about local route commitments, gates, or authority states remain separate from the closure-degree claim. When one matters to the current use, test it against its applicable rule and current case facts.
+Closure degree is the Characteristic; `CD0`–`CD5` name values on its ordinal Scale. A reading attributes a supported value, or a set of remaining possible values, to an identified episteme edition within a stated assessment scope and receiving use. A language-state chart binds the Characteristic and Scale in a slot under A.19. The Characteristic, its Scale values, a reading and the chart slot remain distinct under A.18/A.19.
+
+A closure assessment states the actual fixity and its grounds. Claims about a binding route commitment, gate or authority relation follow their own rules and case facts. A note or C.2.LS profile can express the closure assessment; its reusable form and the filled assessment remain distinct.
+
+#### C.2.5:4.5 - Recover the choice before assigning a level
+
+Name the question or choice whose candidate space matters. Recover the live alternatives, any selected route or frame, and the reason that limits further choice. State the scope of that fixation and what would justify reopening it. The different sources of narrowing in :16.2 determine what must be reconsidered when conditions change.
+
+Use that ordinary account directly when it supplies the receiving decision's condition. Assign a `CD` reading when the work needs comparison on this Scale, a chart position or a test against a declared threshold. Match the actual narrowing and reopening conditions to :4.2; retain an unresolved reading when the available grounds do not establish them. A level does not replace the surviving alternatives or the reason for their treatment.
+
+The Scale's order describes greater fixity, not a universal improvement. Inquiry may need several alternatives kept live; a particular operational use may need one route fixed under a separately justified rule. C.2.4 assesses how explicit this content is. Writing out the alternatives and the decision rule can improve articulation without changing closure. New evidence or a changed use can instead reopen one choice while other commitments remain fixed. Preserve the supported observations and surviving choices, then revise only the conclusions affected by the change, using A.16.2 when a publication move is needed.
 
 #### C.2.5:4.1 - Characteristic specification
-- **Kind:** CHR characteristic.
+- **Assessed subject:** the identified episteme edition, with the candidate space, assessment scope and receiving use stated.
 - **Scale discipline:** ordinal.
 - **What rises:** the candidate space or selected route becomes more fixed for the named use. Any binding force comes from its separately established rule.
 - **What does not follow automatically:** truth, trust, formality, or quality.
@@ -53374,7 +53490,9 @@ The facet aligns with iterative design, open-world reasoning, and exploratory se
 ### C.2.5:13 - Worked Examples and Retreat Cases
 
 #### C.2.5:13.1 - Explicit but still open
-A note may sit at `AE4` yet only `CD1` because rival explanatory frames are still live. Explicit publication does not imply settled closure.
+The constructed `Pump-alert-21` in C.2.LS:13.1 makes its diagnostic question and the contrasting implications of three alternatives explicit. It has `AE4` for that question and `CD1` because all three alternatives remain live. When an accepted reference-gauge reading excludes one alternative, the candidate field narrows to `CD2`; neither remaining route is selected. The question remains fully articulated at `AE4`.
+
+A practitioner choosing the next diagnostic question can use the stated alternatives and observations directly. A chart or comparison that needs both Scales can use the separate readings. The full case supplies the observations and discrimination rule; the two levels alone would not justify excluding a candidate.
 
 #### C.2.5:13.2 - Strong closure under policy guard
 An operator rule may be only moderate in `AE` but high in `CD` because policy already fixes the next step under the current horizon. This shows why closure is governance-facing, not merely stylistic.
@@ -53459,7 +53577,7 @@ An assurance reader should ask:
 When a receiving action relies on "final", "settled", or "decided", check the actual scope and source of fixation and any applicable guard. A final-sounding word alone does not establish those conditions.
 
 #### C.2.5:18.3 - Cross-facet reminder
-Low `CD` does not imply low articulation, low anchoring, or poor representation.
+Assess articulation under C.2.4 and representation under C.2.7 independently of closure. Source, evidence, access and action conditions retain their separate claims under C.2.6.
 
 #### C.2.5:18.4 - Split-closure review case
 A publication may be closed enough for immediate local work use or reliance use while remaining open about broader explanation, long-horizon consequences, or alternative classification. Allow the split when locality is explicit; reject prose that advertises whole-case finality when only one language-state segment is fixed.
@@ -53958,7 +54076,7 @@ Use epiplexity as a formal specialization where that correspondence holds. Other
 
 #### C.2.8:4.7 - Articulation, effort and useful change
 
-C.2.4 `U.ArticulationExplicitness` orders progression from a cue to explicit branch-appropriate meaning and stable receiving use. ESI compares the selected structure extractable by an observer under a budget. Two complete descriptions at the same AE level can have different ESI; a reader's difficulty alone does not establish that the semantic branch was left unarticulated.
+Articulation explicitness (`AE`, C.2.4) orders progression from a cue to explicit branch-appropriate meaning and stable receiving use. ESI compares the selected structure extractable by an observer under a budget. Two complete descriptions at the same AE level can have different ESI; a reader's difficulty alone does not establish that the semantic branch was left unarticulated.
 
 Measure or compare extraction effort separately. Two expressions may expose the same structure at different cost. Additional selected structure may also be irrelevant to the next task or displace more valuable work. C.11.CRC/C.11 make the marginal choice using the structural result, cost, protected results and receiving value. The chosen result may be the current sufficient explanation.
 
@@ -106242,7 +106360,7 @@ After a recurring family-level use is established, the pattern biases FPF toward
 
 ### E.17.1:10 - Rationale
 
-`MultiViewDescribing` supports viewpoint plurality. `E.17.1` supplies packaging and provenance discipline for that plurality, including cases where viewpoints are used to re-express positions in `U.LanguageStateSpace` or language-state history accounts through the `LanguageStateMoveTrajectory` form under `A.16.0`. It makes member provenance explicit across repeated uses. Semantic correspondence is a separate result: same-scheme comparison states its exact predicate and participants, while cross-context comparison uses F.9 and a bounded-use reliance path.
+`MultiViewDescribing` supports viewpoint plurality. `E.17.1` supplies packaging and provenance discipline for that plurality, including cases where viewpoints are used to re-express positions in a language-state chart declared under C.2.2a or language-state history accounts through the `LanguageStateMoveTrajectory` form under `A.16.0`. It makes member provenance explicit across repeated uses. Semantic correspondence is a separate result: same-scheme comparison states its exact predicate and participants, while cross-context comparison uses F.9 and a bounded-use reliance path.
 
 ### E.17.1:11 - Source status, local rationale, and reopen condition
 
