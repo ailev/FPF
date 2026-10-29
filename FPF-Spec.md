@@ -1272,41 +1272,53 @@ The useful next result may be a clearer problem, a justified comparison, a worka
 
 ## FPF.Reference:9 - Thinking Through Writing
 
-FPF uses written forms when reasoning needs to remain inspectable. Conversation, memory, chat logs, sketches or tool outputs can suffice for immediate work. Addressable records become useful when delegation, review, reuse, publication, AI assistance or delay requires durable access.
+Writing can help obtain an understanding as well as make its grounds inspectable. Putting claims beside one another, making a relation explicit or trying a provisional formulation can reveal a distinction that conversation or memory had left unclear. The useful result may be a better question, an alternative worth considering, a reasoned decision or a precise limit on what is known.
 
-Written forms can help develop reasoning as well as record it. For example:
+Choose the written form by the work it should help perform. When the subject is unclear, compare the relevant statements and what each would imply; use the difference to develop the question. When choosing, keep the alternatives and grounds comparable. When another person must continue or a premise may change, retain enough of the subject, reasoning and conditions to recover the affected conclusion. Revise the form if it hides the distinction that this work needs. Filling every field is not the purpose of these operations.
+
+Conversation, memory, chat logs, sketches or tool outputs can suffice for immediate work. Addressable records become useful when delegation, review, reuse, publication, AI assistance or delay requires durable access. An exploratory note can help develop the subject even when it does not constitute one episteme under C.2.1. A filled card can be an episteme; its selected layout can serve as a publication form under E.24.PUB. The claims and their form of expression remain different objects.
+
+Written forms support different reasoning actions. For example:
 
 - developing a problem card can turn an initial complaint into a formulation whose subject, constraints and unresolved relations later work can use;
 - a TaskSignature makes an accepted problem usable by later eligibility, acceptance, and method-family selection without selecting the method or planning the work inside the problem record;
 - a comparison frame makes explicit what is being compared, by which characteristics and under which conditions;
-- a characteristic space supplies dimensions and scales for a declared evaluation or comparison;
+- declaring a CharacteristicSpace makes its selected characteristics and Scales recoverable before their values are used in an evaluation or comparison;
 - a term sheet keeps local meanings from being flattened across teams;
 - a DRR makes the decision, its reasons and its intended consequences inspectable;
 - a pattern body explains reusable guidance for a recurring problem, with the conditions and limits of its use.
 
-The medium is not prescribed. A team may use paper, markdown, a wiki, a spreadsheet, a model repository, or a specialized tool. FPF is tool-agnostic. What matters is the conceptual structure of the durable publication unit and the relations it makes recoverable.
+Consider two handover statements that use the word *complete*. Placing them side by side may show that one refers to sending and the other to acceptance. The writer can now formulate the question of which event the receiving work requires and what supports the claim that it occurred. C.22.2 develops this move from an initial signal to a usable problem formulation. If examination shows that both statements mean the same event, the proposed contrast loses its ground: revise the question rather than preserve it because a ProblemCard has been filled. The written comparison helps obtain the next inquiry, and a changed premise sends that choice back.
 
-For an AI-generated proposal that needs inspection or reuse, identify what result it offers and its grounds—for example, an option comparison, an architecture question or a qualified model-use claim. Choose a form that keeps the necessary distinctions recoverable; completing that form does not supply missing support.
+The medium is not prescribed. Use paper or a digital tool that keeps the needed claims and relations recoverable. Changing the layout can preserve this work; removing a comparison or its grounds can lose it even when all the old field names remain.
 
-
+For an AI-generated proposal that needs inspection or reuse, identify what result it offers and its grounds—for example, an option comparison, an architecture question or a qualified model-use claim. Choose a form that keeps the necessary distinctions recoverable; completing that form does not supply missing support. The next section explains when the recovered subject needs classification or shared ontological coordination, and when an ordinary statement already suffices.
 
 ## FPF.Reference:10 - Thinking-Oriented Architecture, Not A Descriptive Upper Ontology
 
-FPF shares one ambition with upper ontologies: it tries to make reasoning travel across domains. But its primary task is different.
+FPF uses ontological distinctions to make reasoning usable across domains. Its practical question is what a person or agent must understand, distinguish, decide or do, and which meanings must remain stable for that use. The architecture connects distinctions with guidance for obtaining a result, inspecting its grounds and reconsidering it when conditions change.
 
-A descriptive upper ontology tries to give a consistent inventory of what exists. It asks "what kind of entity is this?" and gives a taxonomy, axioms, and relations. That work is valuable. FPF uses ontological discipline constantly. But FPF is not only an inventory of entities.
+Start from the receiving use and recover the subject and claim it needs. Identify what is being asserted, about which entities, between which participants and under which conditions. Writing can help obtain this meaning before a stable name or classification is available. F.19 restores the predicates and participants compressed by wording; E.10 directs an unresolved meaning to its subject pattern. A common heading or a list of values does not by itself establish one property or relation. For a Characteristic, A.18 requires a defined aspect and Scale; A.19 organizes already defined characteristics and Scales without supplying their missing subject meaning.
 
-FPF is a thinking-oriented architecture. It asks:
+When a current pattern already gives the needed claim or action, apply it directly. E.24.CD helps find that sufficient use. Several claims may need to be read together without requiring another kind or ontic. A single episteme must satisfy C.2.1; otherwise the claims can remain in separate epistemes or working notes. This choice preserves the subject and useful reasoning without making every statement undergo an ontology-introduction procedure.
 
-- what project entity is under concern in this project moment;
-- which claim, relation, decision, evidence path, work object or publication use is current;
-- which distinction needs to remain visible for an action to be responsible;
-- what action- or judgement-guiding content is needed for the next use, and, when actual method identity matters, what exact Method and pattern-description rule content are current;
-- what would make the result reviewable and reopenable.
+Classification becomes useful when the work needs to distinguish members from non-members under a stable criterion. C.3 and C.3.1 recover the candidate domain, membership condition and boundary; C.3.2 governs the relevant candidate judgement. The individual kind is an instance of `U.Kind`. A `KindSignature` describing its criterion, a judgement about a candidate and a representation of its members remain different objects. Use a reusable signature when a later use needs that declaration. Distinguish a supported non-member judgement from an unknown result or a candidate outside the declared applicability. A local kind can serve its context without acquiring a new public U-name.
 
-A taxonomy can distinguish a method description from performed Work. FPF also develops guidance for what a practitioner should do when they are confused: recover which object is current, state its supporting facts or missing basis, and use the pattern that answers the resulting question.
+E.24.UK governs the stronger proposal to introduce a durable U-kind. It requires an independently identified subject of classification, a defining identity or membership rule, practical need and dependent use, and comparison with sufficient existing expressions. Its root and two dependent-kind dispositions have different grounds: an additional classification may concern the same individual, or a distinct individual may have a separately defined identity dependence. Use that pattern for the full admission conditions. The prefix, a repeated form and the word *dependent* do not supply them.
 
-The ontology therefore serves action guidance. FPF does not replace domain ontologies, mathematics, standards, or evidence. It gives them a place in project reasoning so they can be used without collapsing local meanings or publication forms.
+An ontic answers a different question: which identity or constitution rule and which relations must remain coherent across named dependent uses? E.24 defines this connected ontology unit through its primary subject, the smallest necessary relation set, the defining rules and the reliance of its consumers. This lets several patterns reuse compatible meanings instead of repeatedly redefining them. A shared topic or nearby list of kinds does not establish that contribution. When existing direct rules already close the uses, keep those rules; when several governed claims need only a bounded joint account, use that account. Concrete cross-pattern disagreement or duplication can justify opening E.24 to determine whether a durable ontic is needed.
+
+A kind and an ontic are therefore not paired one for one. An ontic can coordinate several admitted kinds; a newly admitted kind can use existing coordination or sufficient direct rules. Where both are needed, E.24 and E.24.UK return separately grounded results in one decision. A card can help develop that decision without itself becoming the ontology unit it describes.
+
+These distinctions lead to different useful outcomes:
+
+- **Recorded values.** An evaluation may need several characteristic values, each on its declared Scale, together with the conditions for interpreting them. A selected space or a profile of those values can be named and reused without thereby admitting a new kind of spaces or profiles. Classifying such constructions is a further question only when a receiving use needs it.
+- **An admitted dependent kind.** B.5.2.0 defines `U.AbductivePrompt` as an additional classification of the same episteme about an unresolved explanatory question. Its consumers need the shared entry distinction and the returns when the question, account or grounds change; the general `U.Episteme` classification alone does not express that distinction. The subject pattern supplies membership and exclusion conditions. A blank prompt form does not satisfy them. This use retains an admitted kind without adding another ontic.
+- **Shared ontological coordination.** A.19 keeps a CharacteristicSpace's basis, characteristic-to-Scale bindings and Coordinate meanings coherent. A.19.ECS uses that organization to construct evaluations, while E.21, E.9.DA and E.2.DA keep their different evaluated subjects, evidence requirements and results. Reusing the common rules makes their meanings recoverable without making their evaluations interchangeable. Changing a selected Scale requires a changed space and reconsideration of comparisons that used the old one; it does not by itself change the common ontic.
+
+When revising any of these expressions, establish what changed. A clearer name or another publication form may preserve the subject and claims. A changed membership condition reopens dependent classifications; a changed characteristic, Scale or relation rule reopens the comparisons and actions that relied on it. Preserve unaffected results whose grounds still hold, and retain the written reasoning needed to locate the affected use. If the necessary subject meaning or evidence is missing, keep that specific question open rather than let a new name settle it.
+
+Ontology thus serves practical reasoning together with the writing described in section 9. It helps distinguish a method description from performed Work, a claim from its grounds and a subject from its presentation, then directs the practitioner to the contribution needed next. FPF uses domain ontologies, mathematics, standards and evidence with their own meanings and limits; it does not replace their subject knowledge.
 
 ## FPF.Reference:11 - When A Scale Claim Calls For Comparison
 
@@ -99499,7 +99511,7 @@ IDs and instances: **flat with delimiters** chosen by the exact local naming sch
 
 #### E.10:8.3 - Prefix discipline
 
-**M-P1 (Reserved prefixes).** `U.` is reserved for admitted U-kinds and dependent `U.*` forms admitted under their definitions; `Γ_` for algebraic operators; `CAL, LOG, and CHR` for **pattern packages**. A local glossary, scheme, source label, or use never mints `U.*`.
+**M-P1 (Reserved prefixes).** `U.` is reserved for U-kinds admitted under E.24.UK; `Γ_` for algebraic operators; `CAL, LOG, and CHR` for **pattern packages**. A local glossary, scheme, source label, or use never mints `U.*`.
 
 **M-P2 (Edition and version markers).** Use a model-use marker only when A.1.1's direct model-use relations or a selected `BoundedModelUseStructure` require it. Select one exact episteme edition only through a typed reference whose referent is that exact `U.Episteme`, with a narrow selector defined at its reference-pattern locator. Do not attach an edition selector to an EntityOfConcern-side `Method`, Space, system, bare `Service`, or their references. When a use depends on a defining, describing, CG-Spec, service-description, or service-offer episteme, reference that episteme separately. A service-access publication, publication occurrence, publication form, and carrier retain their own references and do not inherit the episteme selector. Tool and carrier versions remain separate. Authors may annotate local service labels for didactics only after every named value is recoverable.
 **Norms (edition, release, and version).**
@@ -101540,7 +101552,7 @@ Within FPF, E.10 and E.10.ARCH define trigger recognition and recovery distribut
 5. **Scope.** Prefixes are **globally reserved** within the Core; domain patterns **MAY** mint local shorthands only within a named local glossary and its effective scheme and **MUST NOT** collide with this registry.
 
 **Registered conceptual prefixes (Core).**
-* `U.` — namespace for admitted U-kinds and dependent `U.*` forms; spelling alone does not prove kindhood. *Anchors:* E.10:8.3, M-P1, reserves the namespace; E.24.UK:4.1 supplies the U-kind admission test. Each named value retains the identity or membership rule in its defining subject pattern.
+* `U.` — namespace for U-kinds admitted under E.24.UK, whose dispositions cover root and dependent kinds. Spelling, dependence or reuse alone does not establish U-kind admission. *Anchors:* E.10:8.3, M-P1, reserves the namespace; E.24.UK:4.1–4.3 governs admission. Each kind retains the identity or membership rule in its defining subject pattern.
 * `Γ_` — **calculus-operator notation**, for example `Γ_epist`, `Γ_ctx` and `Γ_time`. *Anchors:* E.10:8.3, M-P1, reserves the prefix; B.1.3:4.2 defines the synthesis and compilation operators; B.1.4:3 defines the optional notation for contextual and temporal aggregation. Other flavours cite their own operator definitions. For a system aggregation or delimitation decision, use B.1.2:4 to recover the separately governed results and any missing basis.
 * `ut:` — **Universal relation family** (e.g., `PartOf` sub‑relations). *Anchor:* A.14 (Mereology) — informative alias vocabulary.
 * `tv:` — **Trace & Validation vocabulary** (CT2R‑LOG): `tv:AliasOf`, `tv:groundedBy`. *Anchor:* B.3.5 (CT2R-LOG).
