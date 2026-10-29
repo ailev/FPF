@@ -13826,10 +13826,9 @@ This placement supports change through the actual dependencies:
 
 A.6.B defines the matrix and cross-quadrant reference rules. Use the following summary to classify a claim and the examples to distinguish a source clause from added case assumptions.
 
-The **2×2 matrix** crosses **two independent distinctions**:
+The matrix distinguishes four jobs in a boundary account: defining meaning, declaring admission conditions, stating normative content or a deontic position, and reporting occurrences or evidence. Classify the exact claim by that job, then recover the conditions that settle it under A.6.B.
 
-* **Modality family:** truth-conditional versus governance content. For permission-looking wording, the selected `A6-AW-*` row states which side applies; A.2.8.PER membership alone does not.
-* **Adjudication position:** in-description versus in-work/in-execution. The latter includes actual evaluation or observation under the subject predicate; it does not require inventing Work for a non-Work change.
+A declared admission predicate and its evaluation have separate jobs: the predicate is A; a particular evaluation result is E. D includes both generic normative content and a claim about an individually obtaining duty or grant, with different grounds for each. These distinctions let the same subject appear in several connected claims. The selected `A6-AW-*` row supplies the corresponding permission-word distinction. Actual evaluation or observation does not require inventing Work for a non-Work change.
 
 Operational summary (quadrant → canonical claim layer in the stack):
 * **L** (Laws & Definitions) → `Signature.Laws` (truth‑conditional semantics, in‑description)
@@ -14011,6 +14010,18 @@ These are *writing diagnostics*, not tool requirements.
 - **A face introduces new L/A/D/E content not present in the canonical claim set** → view-fork. Recover the direct object and classify the new claim—duty/commitment/grant in D; exercise/evaluated finding/evidence in E; gate in A—then add it to its canonical source before face publication. Informative commentary may explain existing claims without adding boundary semantics.
 - **“The system or service SHALL …” where the phrase does not name a direct behavior claim, general prescription, or exact individual commitment with its actual bearer and constitutive basis** → unresolved subject and modality. Recover the System or other party, state an actual `E-*` behavior claim separately only when its actual basis is supplied, and state either the normative content or the direct A.2.8 commitment. A service label, system-role kind, or assignment proves none of these claims.
 
+#### A.6:4.7 - Use the claim dependencies to judge a boundary change
+
+Start with the receiving use: which clients, operations and observations must continue to work, under which conditions? Read the existing boundary claims and the proposed change against that use. The stack makes the different constraints findable; compatibility depends on their content and connections.
+
+1. **Recover what the receiver relies on.** Include the meaning of inputs and results, admitted inputs, relevant interaction order and state changes. Add a duty, grant or evidence requirement when this use depends on it. Preserve the conditions and exceptions attached to each claim.
+2. **Identify what changes.** Distinguish changing a definition, an admission condition, normative content, an implementation or an observation method. A change can affect several of these. Use the claim references to follow the consequences to the receiving use, including an A predicate that consumes a current D grant or E finding under A.6.B:6.4.
+3. **Compare the old and proposed behavior in that use.** For a replacement offered to existing clients, determine whether previously admitted inputs remain admitted and whether the results, interactions and state changes still satisfy the old claims. When representations differ, state the correspondence used for this comparison. A stronger entry condition can exclude an old valid call; a weaker result condition can remove a property its client needs. Preserving a protocol or mutable state also requires its own sequence or history conditions.
+4. **Establish the affected claims on their own grounds.** A declaration comparison can establish a conditional compatibility argument. Claims about an actual implementation, obtained grant, observed result or retained evidence need their corresponding grounds. A changed telemetry format can leave the operation semantics intact while breaking the auditor's ability to check a result.
+5. **Choose and communicate the continuation.** Preserve the old boundary, adapt the receiver or supply an adapter with a justified correspondence, or expose a changed contract and its affected uses. Reuse unaffected claims and evidence while their conditions hold. Keep an unresolved compatibility premise explicit.
+
+Use the smallest description that carries these dependencies. For one operation whose meaning and use are already clear, its existing preconditions, postconditions and invariants can supply the comparison. A protocol specification can carry the interaction constraints; a policy and its evaluation interface can carry an authorization decision. Add the L/A/D/E organization where connected semantic, admission, governance and evidence claims otherwise obscure what a change affects. The labels organize those claims; the relevant contract, protocol, policy or subject Method supplies the actual preservation test.
+
 ### A.6:5 - Archetypal Grounding
 
 > **Informative.** Worked examples for learning the L/A/D/E claim-classification discipline; they do not add requirements beyond A.6:7.
@@ -14047,13 +14058,17 @@ The two cases below distinguish declaration, admissibility, governance and actua
   * InteropCard: machine‑exchange oriented boundary details (canonical field names, schema refs, transport bindings).
   * AssuranceLane: evidence bindings (which carriers exist, how to adjudicate `E-*` claims, retention and access duties by reference).
 
-**Effects-and-handlers analogy.** In this software example, the signature exposes the operation interface. A.6.1 governs declared operation semantics and the separate realization relation; the realizing entity supplies the concrete handler implementation. Implementations can change while preserving the declared operation meanings and applicable constraints.
+**Effects-and-handlers analogy.** In this software example, the signature exposes the operation interface. A.6.1 governs declared operation semantics and the separate realization relation; the realizing entity supplies the concrete handler implementation. An effect interface can have handlers with different behavior. For a substitutable realization here, compare that behavior with the declared operation meanings and applicable constraints.
 
 **Classification example:**
 
 * “A request is admissible iff `tokenValid ∧ merchantActive ∧ amountWithinLimit`” belongs in Quadrant A (the declared admissibility gate).
 * “Clients MUST include Idempotency-Key” is a D prescription. If an admission rule also requires that header, reference that rule’s predicate; the three-condition predicate above does not include it. An obtaining individual `U.Commitment` additionally needs the actual bearer, constitutive rule, instituting basis and direct predicate under A.2.8.
 * “System emits AuthorizationRecord” is ambiguous between a generic emission rule and an actual event report. Only the actual-event reading belongs in E, with its occurrence basis supplied; the wording alone does not choose that reading.
+
+**Changing this API.** Suppose the proposed replacement keeps the fields and the three-condition admission predicate above, but changes `APPROVED` to mean only that a request was queued. Apply §4.7 to an existing client that relies on the stated reservation law. That law is no longer met at the response, so preserving the message type is insufficient for this replacement. Keeping `APPROVED` for an actual reservation preserves this particular claim; introducing `PENDING` requires an explicit protocol and changed client handling. Other compatibility conditions remain to be checked.
+
+Alternatively, suppose the replacement adds `hasHeader(Idempotency-Key)` to the admission predicate. The existing D prescription already requires that header, but the old A predicate admits requests without it. For clients promised the old admitted-input set, the added condition is a restriction. For a use explicitly limited to requests that already carry the header, this particular restriction excludes no additional input. The compatibility conclusion therefore names the receiving population. Changing only the `AuthorizationRecord` schema instead returns to its consumers and evidence links; it need not change either the reservation law or admission rule.
 
 #### A.6:5.3 - Published evaluation protocol
 
@@ -14089,7 +14104,7 @@ This protocol description connects metric definitions with conditions for an eva
 | ID                                       | Requirement                                                                                                                                                                                                                                                                                    | Purpose                                                             |
 | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
 | **CC‑A.6.1 (Stack declaration).** | A conforming boundary description **SHALL** identify placements for the claims it makes, distinguishing declaration, mechanism, governance, actual-occurrence/consequence/evidence and publication uses when present. A dated Work claim **SHALL** remain separate from any application result, production, change, delivery/transfer, evidence, or acceptance claim selected through `A.15.1:4.6`. | Preserves the distinct claims without requiring absent objects or intrinsic Work outputs. |
-| **CC‑A.6.2 (Square discipline).** | A conforming boundary description **SHALL** classify each atomic claim by its own modality and adjudication position. Every permission-looking claim **SHALL** cite one selected `A6-AW-*` row and that row's direct object; the selected subject pattern or kind of direct object alone never sets the quadrant. | Makes one actionable choice replace repeated permission catalogues. |
+| **CC‑A.6.2 (Square discipline).** | A conforming boundary description **SHALL** classify each atomic claim by its job and recover its own adjudication conditions under A.6.B. Every permission-looking claim **SHALL** cite one selected `A6-AW-*` row and that row's direct object; the selected subject pattern or kind of direct object alone never sets the quadrant. | Makes one actionable choice replace repeated permission catalogues. |
 | **CC‑A.6.5 (Actual-occurrence, description, and carrier separation).** | An `E-*` claim **SHALL** identify the exact actual occurrence or evaluated finding under its subject pattern and **SHALL NOT** infer Work merely because change or a carrier exists. Any carrier used for reliance **SHALL** enter the exact evidence relation. | Preserves non-Work change and blocks carrier-as-effect errors. |
 | **CC‑A.6.6 (Viewpoint accountability).** | Every published MVPK face use **SHALL** identify the selected episteme and bounded reader/use. When `U.View` membership or viewpoint identity is used, the face **SHALL** identify the exact `viewpointRef`. `U.View` membership still requires E.17.0 conformance. Normative face content **MUST** cite canonical L/A/D/E claims by ID or canonical location and name their direct objects; meaning-preserving prose may explain them. Face content **MUST NOT** introduce a new commitment or any new object or claim selected through `A6-AW-*`. | Preserves viewpoint discipline without letting a publication face create governance or permission claims. |
 | **CC‑A.6.6a (MVPK face‑kind discipline).**  | A publication that claims MVPK alignment **MUST** use E.17’s declared `publication-face kind` values: **publication face/form** and **interop publication form**. `PlainView`, `TechCard`, `InteropCard`, and `AssuranceLane` are face designators, with profiles selected under E.17. A publication **MUST NOT** mint additional MVPK face kinds. Local “cards” may exist only as headings or sections inside the selected faces. | Aligns with MVPK and publication-face or publication-form discipline; prevents new‑face drift.            |
@@ -14101,7 +14116,7 @@ This protocol description connects metric definitions with conditions for an eva
 
 | Anti‑pattern                   | Symptom                                                         | Why it fails                                                                     | How to avoid / repair                                                                        |
 | ------------------------------ | --------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| **Gate‑as‑law**                | Preconditions written as “laws” in the signature                | Breaks substitution; violates A.6.0’s separation of signature vs mechanism gates | Move predicates to Mechanism.AdmissibilityConditions; keep signature laws truth‑conditional. |
+| **Gate‑as‑law** | Preconditions written as “laws” in the signature | Violates A.6.0’s separation of signature and mechanism gates | Move predicates to Mechanism.AdmissibilityConditions; keep signature laws truth‑conditional. Assess behavioral compatibility by the conditions and outcomes in §4.7. |
 | **RFC‑keywords in invariants** | “MUST” appears inside `Definition:` blocks                      | Confuses deontics with mathematical admissibility; undermines auditability       | Rewrite as declarative predicate; reference predicates by ID or canonical location from CC when needed.               |
 | **Paraphrase drift** | Same constraint restated across faces with changed meaning | Creates hidden divergence; breaks L/A/D/E claim-classification discipline and evidence accountability | Cite claim IDs or canonical locations and preserve their meaning in readable face prose. Use a Claim Register when stable reuse needs it. |
 | **Interface-as-promiser and Work-result bundle** | “The interface promises delivery” assigns an individual commitment to the interface description, or “A.15.1 delivered the result” identifies Work with its result | A description is made an agent, while Work, result, transfer, evidence, and acceptance lose their own identity conditions | Name the actual bearer of the individual commitment; use A.6.C when ambiguity about promise, utterance, or governance changes interpretation or use. Use A.15.1 for dated Work; then exactly one applicable `A.15.1:4.6` row for each separate result, delivery, evidence, or acceptance claim. |
@@ -14135,21 +14150,25 @@ Reusable declarations constrain their realizations, while observations and evalu
 
 ### A.6:11 - SoTA-Echoing
 
-> **Informative.**
+> **Informative.** The sources below supply distinct techniques for declaration, substitution, interaction and observation. The L/A/D/E organization is FPF's authoring choice for keeping their boundary claims and dependencies recoverable. Historical foundations retain their stated scope; current documentation is identified where used.
 
-* **Algebraic effects and handlers / effect systems.** Effect systems distinguish operation signatures from handler semantics (e.g., Koka’s effect typing; effect handlers in OCaml 5). In this analogy, `U.Signature` carries the boundary declaration, A.6.1 governs operation declarations and their realization relation, and the realizing entity supplies the implementation. Substitution requires the declared meanings and applicability to be preserved.
+* **Algebraic effects and handlers / effect systems.** [Leijen (2017)](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/12/algeff.pdf) and [Hillerström and Lindley (2018)](https://www.pure.ed.ac.uk/ws/files/76099718/shallow_effect_handlers.pdf) distinguish declared operations, effect typing and handler semantics. A common interface permits different handlers, so behavior preservation needs the operation's semantic contract. [OCaml 5.4, §12.24](https://ocaml.org/manual/5.4/effects.html) also distinguishes runtime protocol enforcement from static effect safety. A.6 uses the declaration/realization distinction; provider duties and SLA claims require their separate FPF grounds.
 
-* **Session and behavioural types for protocol boundaries.** Behavioural typing treats boundaries as typed interaction protocols with progress and safety properties. A.6’s classification matrix makes protocol laws (Quadrant L) explicit and separates entry gates (Quadrant A) from general prescriptions or exact individual commitments (Quadrant D) and runtime evidence (Quadrant E), reducing ambiguity.
+* **Contracts and behavioral substitution.** [Meyer, *Applying “Design by Contract”* (1992)](https://www.kth.se/social/files/59526bfb56be5b4f17000807/meyer-92-contracts.pdf), pp. 40–42 and 46–49, develops preconditions, postconditions, invariants and optional runtime monitoring. [Liskov and Wing, *A Behavioral Notion of Subtyping* (1994)](https://www.cs.columbia.edu/~wing/publications/LiskovWing94.pdf), §§1–2 and 5.2, adds preservation of invariant and history properties under a stated abstraction. These historical foundations supply concrete preservation questions for §4.7. Their formal conclusions apply under their computational assumptions; an API replacement also needs its actual interaction and receiving-use conditions.
+
+* **Session types for protocol boundaries.** [Scalas and Yoshida (2019)](https://www.doc.ic.ac.uk/~ascalas/papers/scalas-yoshida-popl19.pdf) connects global protocols, participant types and process properties under explicit conditions. [Hou, Yoshida and Kuhn (2026)](https://mrg.cs.ox.ac.uk/publications/less_is_more_revisited_association_with_global_protocols_and_multiparty_sessions/main.pdf) revisits the association and liveness reasoning. This helps compare changed message order, choice and retry behavior. Safety, deadlock-freedom and liveness have different conditions; a protocol theorem supplies only its stated property. A.6 separately locates admission, duties and actual-result claims.
 
 * **Categorical optics, lenses, and bidirectional transformations.** Lenses supply useful construction expressions with coherence laws. FPF uses that lesson only for explicit A.6.3 construction or C.29 representation: a projection expression, publication face, and `U.View` remain different objects, while any cross-context reuse stays explicit.
 
-* **Model-based views-as-queries practice.** Query and projection operations can construct candidate epistemes and make omissions inspectable. E.17.0 still tests each candidate independently against one exact viewpoint episteme; generation, selection, or a `viewpointRef` alone supplies no `U.View` membership.
+* **Views and viewpoints.** [ISO/IEC/IEEE 42010:2022](https://www.iso.org/standard/74393.html), particularly its concepts in §5, distinguishes an architecture, its description, viewpoints, views and correspondences. That supports organizing an API description around concerns and relating its parts. FPF's particular stack and face rules are additional choices. Query and projection operations can construct candidate epistemes and make omissions inspectable; E.17.0 supplies the separate FPF test against the exact viewpoint episteme.
 
 * **DDD bounded contexts and microservice contract-language practice.** Architecture practice keeps meaning local and makes crossings explicit. A.6’s stack and L/A/D/E claim-classification discipline provide a precise placement scheme for what belongs to the context boundary claim set, what belongs at the entry gate, what belongs to governance duties, and what belongs to observability evidence.
 
-* **Observability as evidence discipline.** Traces, logs and metrics can supply evidence inputs for an exact claim. Use A.10 for the evidence-provenance relation and bounded reliance.
+* **Observability as evidence discipline.** [OpenTelemetry Trace API](https://opentelemetry.io/docs/specs/otel/trace/api/) and [Trace SDK](https://opentelemetry.io/docs/specs/otel/trace/sdk/) distinguish span identity, recording and export; sampling or dropped records can limit available observations. The [Metrics Data Model](https://opentelemetry.io/docs/specs/otel/metrics/data-model/) makes aggregation explicit. These are current specification contributions, not proof of a particular payment result. [Google SRE, *Monitoring Distributed Systems* (2016)](https://sre.google/sre-book/monitoring-distributed-systems/) supplies a historical practical distinction between a successful transport response and correct service content. A.10 connects the chosen observations to the exact claim and use; retention and exposure prescriptions belong to their own D claims.
 
-* **Zero Trust, dynamic authorization, and policy-as-code practice.** Authorization practice separates policy, API, or schema text from a decision over subject, requested policy operation or work class, affected resource or work target, context, policy or gate version, decision source, and evidence. Cedar-style policy language and Zanzibar-style relation authorization are useful practice references for this split: the wording is not the decision. A.6 keeps policy, API, or schema wording in classified `L-*`, `A-*`, `D-*`, and `E-*` claims and uses `A.15.4` while appearance hides a prerequisite for work or reliance; `A.15` retains the enactment-alignment question.
+* **Zero Trust, dynamic authorization, and policy as code.** Authorization practice separates policy, API, or schema text from a decision over subject, requested policy operation or work class, affected resource or work target, context, policy or gate version, decision source, and evidence. [Cedar's authorization semantics](https://docs.cedarpolicy.com/auth/authorization.html) separates a request's principal, action, resource and context from policies and entity data, policy evaluation, and the combined `Allow` or `Deny` response with diagnostics. The historical architecture in [NIST SP 800-207 (2020), §2.1 and §3](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-207.pdf) also distinguishes the policy decision from administration and enforcement, using policy and observable state as inputs. An institutional grant used by an FPF gate retains its own obtaining conditions. A.6 keeps the corresponding L/A/D/E claims connected; use A.15.4 when appearance leaves an action prerequisite unrecovered, and A.15 for enactment alignment.
+
+* **Relation-based authorization and consistent evaluation.** The historical Zanzibar design, described by [Pang et al. (2019), §§2.1–2.3 and 2.4.4](https://www.usenix.org/system/files/atc19-pang.pdf), combines relation tuples with configured rules to determine effective permissions. Its access checks use a consistent snapshot constrained by the relevant content version. This supplies a concrete reason to recover the decision's inputs and currentness conditions when reusing an authorization result after an access relation or protected content changes. The relation definitions, stored tuples, evaluation and returned decision make different contributions to that judgement.
 
 * **Markov blankets and active inference as probabilistic boundary views only after restoration.** Markov-blanket thinking can help pick observables and diagnose boundary-condition failures, but the source phrase must be restored before it carries an A.6 boundary claim. It may name accepted local Markov dynamics, a mathematical or probabilistic lens, a holon delimitation or crossing relation, an interface, an interface module, a physical component, a boundary description, or an agency-threshold claim. A.6 uses the phrase only after the boundary claim set is recovered; it does not replace deontics, invariants, admissibility gates, or the subject pattern of the physical or mathematical claim.
 
@@ -14540,11 +14559,11 @@ The following sources contribute to cue economy, recoverable definition and boun
 > **Normativity:** Normative (unless explicitly marked informative)
 > **Placement:** Part A → A.6.B (matrix module; referenced by A.6 cluster overview)
 > **Builds on:** E.8 (authoring template), A.6.0 (`U.Signature`), A.6.1 (`U.Mechanism`), A.6.3 (`U.EpistemicViewing`), E.17.0/E.17 (MVPK + “no new semantics” faces), A.7 (EntityOfConcern and Description-episteme boundary; specification-use and publication-carrier distinction), A.2.3 (promise content when contract language is current), A.2.8 (`U.Commitment`), A.2.8.PER (subject pattern selected by the permission-word branch), A.2.9 (`U.SpeechAct`), E.10.D2 (EntityOfConcern and Description-episteme boundary; specification-use and refinement discipline), E.10 publication face, form, unit, and carrier discipline
-> **Purpose (one line):** Provide a canonical 2×2 norm square that classifies boundary statements (L/A/D/E), constrains how each quadrant is written, and defines explicit cross‑quadrant reference rules to support later boundary evolution and audit.
+> **Purpose (one line):** Provide a canonical four-way boundary-claim classification that classifies boundary statements (L/A/D/E), constrains how each quadrant is written, and defines explicit cross‑quadrant reference rules to support later boundary evolution and audit.
 
 **Use this when.** Use `A.6.B` when boundary wording mixes definitions, runtime entry conditions, generic prescriptions, individual duties or grants, actual work or evaluation results, and evidence.
 
-**First useful move.** Split the live passage into atomic claims, classify each claim by modality and adjudication position, and replace any consequential paraphrase dependency with an ID or canonical-location reference.
+**First useful move.** Split the live passage into atomic claims, classify each claim by its job and recover its adjudication basis, and replace any consequential paraphrase dependency with an ID or canonical-location reference.
 
 **What changes in practice.** Laws, gates, governance, and work-and-evidence claims can change without silently changing one another; publication faces reuse the canonical claims instead of restating them.
 
@@ -14569,17 +14588,11 @@ These labels are **claim-classification labels for statements**, not MVPK face d
 
 **Atomic claim.** An **atomic claim** is a sentence (or bullet) that performs exactly one logical role and is classifiable under exactly one quadrant. If a sentence mixes roles, it is **not atomic** and **MUST** be split before it can be classified.
 
-**Adjudication substrate (for classification).** For the purposes of this square, an atomic claim is classified by where its own truth condition or governance content is settled. This tells you how to classify the sentence; it does not make an individual commitment, grant, or finding exist.
+**Claim job and adjudication basis.** A quadrant identifies what a boundary claim contributes. Its adjudication basis states how that claim can be settled. Definitions and declared entry predicates are both description content. Generic normative content is recovered from its exact source; an individual duty or grant requires its actual constitutive basis. An occurrence or evaluated-result claim requires the facts specified by its subject predicate.
 
-* **In-description or in-theory**: an `L-*` truth condition is settled by inspecting, proving, or type-validating the description; a generic `D-*` claim states exact normative content, while an individual `D-*` claim names the commitment or grant it concerns.
-* **In-work or in-execution**: satisfaction depends on actual work, evaluation, observation or produced carriers under the claim’s subject predicate.
+**Deontic claims.** Writing a `D-*` claim records either generic normative content or a claim about an individual duty, commitment, or grant. When the wording is about permission, use the permission-word branch in §8.4.1 to recover the exact object, what makes it obtain, and the evidence needed before reliance. The instituting act and any compliance finding have their separate claims.
 
-**Note (important).** Writing a `D-*` claim records either generic normative content or a claim about an individual duty, commitment, or grant; it does not institute an individual relation or establish compliance. When the wording is about permission, use the permission-word branch in §8.4.1 to recover the exact object, what makes it obtain, and the evidence needed before reliance.
-
-**Modality family.** A claim is either:
-
-* **Truth-conditional**: definitions, invariants, typing rules and claims about actual results or observations.
-* **Governance**: prescriptions, individual obligations or commitments, grants, and exclusions (the RFC keywords `MUST`, `SHOULD`, and `MAY`, “is admissible”, “is blocked”, “commits to”).
+**Modality.** Preserve whether a sentence defines, prescribes, permits, hypothesizes or reports. Use that meaning together with the claim's job under §4; a modal word alone leaves the classification unresolved.
 
 ### A.6.B:1 — Problem frame
 
@@ -14591,8 +14604,8 @@ The classification connects the strata already distinguished in FPF: Signature a
 
 When authors cannot reliably answer two questions—
 
-1. “Is this a truth‑conditional statement or a governance statement?”
-2. “Is its content settled in the description, or does satisfaction depend on actual work, evaluation or observation?”
+1. “What does this claim contribute: meaning, an admission condition, normative content or a deontic position, or an occurrence/evidence account?”
+2. “What grounds are needed to settle this exact claim?”
 
 —then boundary statements drift across layers, faces fork semantics, and “compliance” becomes a matter of interpretation rather than a property that can be checked.
 
@@ -14612,21 +14625,20 @@ A boundary needs a minimal, stable classification that:
 
 ### A.6.B:4 - Solution — the Boundary Norm Square
 
-#### A.6.B:4.1 - Two independent distinctions
+#### A.6.B:4.1 - Four claim jobs and their grounds
 
-The **Boundary Norm Square** is the cross product of two independent distinctions:
+The **Boundary Norm Square** distinguishes four jobs in a boundary account. A definition can remain fixed while a gate changes; a duty can obtain while its bearer fails to perform it. An earlier observation may still be valid evidence when a changed admission condition leads to refusal. Establish the observation’s fitness for the new check, then apply that condition to decide admission. Keeping those claims distinct makes their actual dependencies available for a change or audit decision.
 
-1. **Modality family:** Truth‑conditional vs Governance
-2. **Adjudication position:** In-description vs in-work
-
-The square yields four quadrants that are *mutually exclusive for atomic claims*.
+Classify what the exact sentence asserts, then establish its grounds. For example, a declared entry predicate belongs in A and the result of applying it to one request belongs in E. A claim that a grant currently permits an action belongs in D; the instituting act, an evaluation of that grant and an actual exercise of it have their own E claims. The predicate definition and the individual claims remain description content, with different subjects and adjudication conditions.
 
 #### A.6.B:4.2 — The square
 
-|                                | **Truth‑conditional** (definitions & invariants) | **Governance** (governance conditions & obligations) |
-| ------------------------------ | ------------------------------------------------ | ------------------------------------------ |
-| **In-description or in-theory** | **L — Laws & Definitions**                       | **D — Deontics & Commitments**             |
-| **In-work or in-execution**     | **E — Work‑Effects & Evidence**                  | **A — Admissibility & Gates**              |
+| Quadrant | Job of the claim | What settles it |
+| --- | --- | --- |
+| **L — Laws & Definitions** | Defines vocabulary, a semantic constraint, invariant or typing rule. | The declared definition or assumptions and the corresponding inspection, proof, type validation or model reasoning. |
+| **A — Admissibility & Gates** | Declares the condition for a mechanism application to enter. | The exact admission rule and its input meanings. A particular application's satisfaction or decision is a separate E claim. |
+| **D — Deontics & Commitments** | States generic normative content or a claim about an individual duty or grant. | The exact normative source for generic content; the subject pattern's constitutive conditions and actual basis for an individual relation. |
+| **E — Work‑Effects & Evidence** | Reports an occurrence, evaluated finding, observed condition or evidence support. | The actual facts and subject-specific conditions for that claim, with evidence support when the receiving use requires it. |
 
 **Clarification (classify the claim by its job, not by its subject pattern).**
 
@@ -14634,9 +14646,9 @@ The square yields four quadrants that are *mutually exclusive for atomic claims*
 * The exact ClaimGraph located through the subject pattern supplies the referenced object's predicate and obtaining conditions; it does not choose the claim's quadrant.
 * When permission wording is present, use the single permission-word branch in §8.4.1. It separates the possible jobs of that wording without inventing a common “permission result” kind.
 
-**Normative rule (single quadrant).** Each **atomic** claim **MUST** be classifiable under exactly one quadrant **L/A/D/E**.
+**Normative rule (single quadrant).** Each **atomic** boundary claim **MUST** be assigned exactly one job under L/A/D/E. Recover an unresolved meaning before assigning it. A condition or reference within one coherent claim does not by itself add another asserted claim.
 
-**Normative rule (no mixed sentences).** A conforming boundary text **SHALL** decompose any sentence that bundles multiple quadrants (typical form: “MUST … if … then … and it is logged …”) into multiple atomic claims before those claims are treated as normative.
+**Normative rule (mixed claims).** A conforming boundary text **SHALL** separate independently asserted claims with different jobs. For example, a duty to enforce an entry rule and a report of one enforcement result have separate D and E claims referring to the A rule. Preserve the logical connection when splitting the wording.
 
 #### A.6.B:4.3 — Canonical placements in the Signature Stack
 
@@ -14679,7 +14691,7 @@ EntityOfConcern need not itself be a description and may be Work.
 
 **Applicability and admissibility.** Signature `Applicability` scopes intended use and bounded context; runtime entry predicates belong in `U.Mechanism.AdmissibilityConditions` as `A-*`. If prose says “clients must satisfy the applicability”, first recover whether it means the declared scope or an actual entry condition. State the generic `D-*` prescription, or the independently instituted individual duty, separately and reference the condition it actually requires. Classify that condition as `A-*` only when it is an entry predicate.
 
-**Adjudication.** In‑work: evaluated at mechanism entry (or operationally at the point the mechanism is applied).
+**Adjudication.** Inspect the declared entry rule and its inputs to establish the A claim. Evaluate that predicate at mechanism entry or the stated application point to obtain a particular satisfaction or gate-decision result; report that result separately in E.
 
 **Canonical form.** Predicate style, e.g.:
 
@@ -14735,7 +14747,7 @@ The assertion states and supports a claim about the relation. Its fields, public
 
 #### A.6.B:5.4 — Quadrant E: Work‑Effects & Evidence
 
-**Intent.** State a truth-conditional result that can be settled only from actual work, evaluation, observation, or produced carriers.
+**Intent.** State an actual occurrence, evaluated finding, observed condition or evidence-support claim. Settle it from the actual work, evaluation, observation, or carrier conditions required by its predicate.
 
 **Adjudication.** From actual work, evaluation or observation under the claim’s subject predicate. A record can support that judgment through its evidence relation; its presence alone does not settle the claim.
 
@@ -14820,6 +14832,10 @@ When a generic prescription or individual obligation relies on precise term or m
 
 This keeps governance text from accidentally redefining semantics in prose.
 
+##### A.6.B:6.2.6 - (A → D/E) Normative or evaluated input to a gate
+
+When entry depends on a current grant or a separately established finding, reference that exact D or E claim and state how its subject enters the predicate. For example, `A-CAL-01` in §8.4.5.4 requires the grant stated by `D-CAL-01` to cover the plan and time, together with the required conflict finding. The grant, finding and entry decision retain their own obtaining conditions. A changed input reopens the admission evaluation that consumed it.
+
 #### A.6.B:6.3 — The “triangle decomposition” for mixed sentences
 
 **Normative rule (decomposition).** A conforming boundary text **SHALL** decompose
@@ -14836,21 +14852,21 @@ Preserve an expectation or plan as such; leave the actual E result absent until
 its basis exists. This repairs mixed validity, authorization, compliance, audit,
 and security claims without manufacturing a third claim.
 
-#### A.6.B:6.4 — Dependency direction (no “upward” imports)
+#### A.6.B:6.4 — Ground each dependency
 
-The square keeps laws and admissibility predicates independent of governance prose. An evidence or result claim may concern a prescription, duty, or grant, but its truth is settled by its own predicate and actual basis.
+Reusable laws retain their declared meaning, while an admission predicate can consume a normative position or an evaluated result. For each material link, state what it supplies: meaning, an input condition, an evaluation target or evidence support. Settle each depended-on claim under its own rule.
 
 These are cross-quadrant restrictions. They do not prohibit same-quadrant
 references, such as `L-* → L-*` or `E-* → E-*`.
 
-**Normative rule (no upward dependencies).**
+**Normative rule (dependency grounds).**
 
 * `L-*` claims **MUST NOT** depend on or reference `A-*`, `D-*`, or `E-*` claims (except for purely informative notes explicitly marked informative).
-* `A-*` claims **MUST NOT** depend on or reference `D-*` claims. (`A-*` may reference `L-*` for defined terms or invariants.)
+* An `A-*` claim **MAY** reference a `D-*` claim for the normative content, duty or grant used by its entry predicate, and an `E-*` claim for a separately established finding or observation. It **MUST** identify the actual input and required scope or currentness under §5.2; deciding that entry is permitted still requires the predicate to be satisfied. `A-*` may reference `L-*` for defined terms or invariants.
 * An `E-*` claim **MAY** reference a `D-*` claim as its evidence target or to identify the norm, duty, or grant used by its evaluation. The `E-*` result **MUST** still satisfy its own predicate and the actual-work, evaluation, or observation requirements of §5.4; the `D-*` claim alone establishes no result or compliance. (`E-*` may also reference `A-*` for conditioning and `L-*` for metric or term meanings.)
 * `D-*` claims **MAY** reference `L-*`, `A-*`, and `E-*` claims when needed, and **SHOULD** do so by ID or canonical location rather than restating content.
 
-**Rationale (informative).** Laws (L) and admission predicates (A) retain their own meanings. Governance (D) states prescriptions, duties, and grants. Evidence and results (E) may report on those claims or evaluate conduct against them; a prescribed result is not inferred from the prescription.
+**Rationale (informative).** The L restriction keeps the reusable definition or law independent of a particular gate application, deontic claim or observation. Expose a varying policy or state as a declared parameter; bind it where the particular condition or claim uses it. A and D may refer to one another for different reasons: a duty can require enforcing a gate, while that gate consumes a separately obtaining grant. Examine those reasons rather than treating every reference as one ordering relation. A grant justified only by a gate result that itself assumes that grant would leave both claims ungrounded. Evidence and results may report on normative claims or evaluate conduct against them under their own predicates.
 
 ### A.6.B:7 — Mini-register: Claim Register (informative, recommended)
 
@@ -14886,9 +14902,9 @@ later boundary evolution and audit.
 
 #### A.6.B:8.2 - Show #1: Effect signature vs handler (post‑2015 effect systems)
 
-A service boundary naturally mirrors **algebraic effects & handlers** practice (popularized broadly in the post‑2015 era, with mainstream effect handlers becoming especially prominent around OCaml 5):
+An effect interface declares operations; handlers supply computation behavior. To describe a deployed service using that interface, recover the additional semantic, admission, normative and observation claims that its use needs:
 
-* **L:** defines the operation vocabulary and laws (effect signature semantics).
+* **L:** defines the operation vocabulary and the semantic laws required of this service's realizations.
 * **A:** defines when the operation is admissible (runtime guard predicates).
 * **D:** states who must enforce guards and what the provider commits to (operator and implementer duties; SLAs).
 * **E:** ties “what happened” to observable carriers (traces, logs, metrics, and events) so commitments can be adjudicated.
@@ -14908,7 +14924,7 @@ The square keeps “must use dataset vX” (D) separate from “evaluation is ad
 
 #### A.6.B:8.4 — Worked Rewrite Kit (informative, recommended)
 
-> **Informative.** This kit is a worked, copy‑pasteable restatement of A.6.B’s rules (atomicity, L/A/D/E classification, explicit references, triangle decomposition, and no‑upward dependencies). If anything here conflicts with A.6.B, **A.6.B is authoritative**.
+> **Informative.** This kit is a worked, copy‑pasteable restatement of A.6.B’s rules (atomicity, L/A/D/E classification, explicit references, triangle decomposition, and grounded dependencies). If anything here conflicts with A.6.B, **A.6.B is authoritative**.
 
 ##### A.6.B:8.4.0 - Goal
 
@@ -14927,12 +14943,12 @@ Convert a boundary-ish sentence that mixes “laws / gates / duties / evidence�
 
 * **L** if the claim is **truth‑conditional** and adjudicable *in‑description* (inspection, proof or type validation, or model reasoning **over declared assumptions**): definitions, invariants, typing and well-formedness constraints.
   **Guardrails:** `L-*` MUST NOT (i) use RFC deontic keywords as operators, (ii) encode runtime entry predicates (those are `A-*`), or (iii) assert evidence existence or measurement outcomes (those are `E-*`).
-* **A** if it is an *in‑work* **gate predicate**: what the mechanism admits at application time (“admissible iff …”). It is not a duty and MUST NOT be phrased as one.
+* **A** if it declares a **gate predicate**: what the mechanism admits at application time (“admissible iff …”). State the condition as a predicate; a duty to satisfy or enforce it is a separate D claim.
   **Guardrails:** `A-*` SHOULD be written in predicate form and MUST NOT (i) use RFC deontic keywords as if it were an agent obligation, (ii) claim that evidence carriers exist (that is `E-*`), or (iii) assign responsibility or enforcement (that is `D-*`).
   *(Do not confuse this with `Signature.Applicability`: applicability scopes intended meaning and intended use; it is not a runtime entry gate.)*
 * **D** if the exact atomic statement states either a generic prescription or an individual duty, recommendation-as-duty, prohibition, or commitment. A permissive sentence enters D only through the **Grant or norm** row below.
   **Guardrails:** a generic claim names the exact normative episteme and applicable rule content without inventing an individual relation. An individual-duty claim names its actual bearer and exact separately obtaining A.2.8 commitment. A grant claim instead follows the participant and ground test in the **Grant or norm** row. A system-role kind or assignment may be a rule ground but is neither bearer nor deontic relation. Writing any claim does not make its object obtain.
-* **E** if it is an *in-work* truth-conditional claim whose satisfaction requires actual work, evaluation, observation, or produced carriers.
+* **E** if it reports an actual occurrence, evaluated finding, observed condition or evidence support under §5.4. A claim stating the normative content or obtaining duty or grant itself follows D; an evaluation or occurrence concerning it has its separate E claim.
   **Predicate-specific minimum:** name the exact `E-*` predicate and object, then the actual work, evaluation, or observation, scope/window, comparison frame, and other settling conditions that this predicate needs. Add an evidence or source-use relation, carrier/schema, viewpoint, or consumer only when the receiving gate, plan, audit, assurance, or other reliance decision depends on that support.
   **Guardrails:** `E-*` SHOULD NOT use RFC deontic keywords and MUST NOT hide a gate predicate (that is `A-*`). A reference to `D-*` follows §6.4: identify the evidence target or normative evaluation input, then establish the E result under its own predicate.
   *(If the source sentence is “Role SHALL measure, retain, or expose …”, first decide whether it is a generic prescription about an exact system-role kind or a claim about one actual bearer. Classify either as **D**, but assert an individual commitment only on the second route.)*
@@ -14942,7 +14958,7 @@ and modality under §6.3. Use the A/D/E triangle only when the source states an
 entry condition, a generic prescription or individual duty, and an actual
 observation or result:
 
-* **A**: the admissibility predicate (what must be true to treat the claim as applicable),
+* **A**: the condition under which the mechanism admits this application,
 * **D → A**: which exact policy prescribes keeping or enforcing the predicate, or which actual bearer has that separately instituted duty; any responsibility relation is stated separately under its direct domain predicate
 * **E → A**: the actual observation or result and, when needed, the evidence or
   traces used to adjudicate the predicate.
@@ -14969,7 +14985,7 @@ Choose one row. If one sentence answers two questions, split it before classific
 cross-quadrant restrictions in §6.4, including its explicitly informative-note
 exception for L references to A/D/E. Same-quadrant references remain available.
 
-**Common link motifs (informative).** The most reusable boundary rewrites use `D→A`, `E→A`, `D→E`, `A/E→L`, and `D→L`; `E→D` identifies an evidence target or normative evaluation input under §6.4.
+**Common link motifs (informative).** Boundary rewrites use `D→A`, `E→A`, `D→E`, `A/E→L`, and `D→L`; `A→D/E` supplies a stated gate input, while `E→D` identifies an evidence target or normative evaluation input under §6.4.
 
 **Step 5 — Bind references (minimal A.7 discipline).**
 
@@ -15213,12 +15229,12 @@ Scope: **Universal** for boundary descriptions.
 | ID                                       | Requirement                                                                                                                                                                                                      | Purpose                                                  |
 | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
 | **CC‑A.6.B.1 (Atomicity).**              | A conforming boundary text **SHALL** decompose mixed sentences into **atomic claims** such that each atomic claim belongs to exactly one quadrant **L/A/D/E**.                                                    | Makes L/A/D/E classification unambiguous; prevents contract soup.       |
-| **CC‑A.6.B.2 (Quadrant classification).** | Each atomic claim **MUST** be classified by its own modality and adjudication position, not by its subject-pattern family. When permission wording is present, the single branch in §8.4.1 **MUST** select the claim's job before assigning L/A/D/E. | Prevents one pattern catalogue from replacing the square's decision. |
+| **CC‑A.6.B.2 (Quadrant classification).** | Each atomic claim **MUST** be classified by its job under §4 and have its own adjudication basis recovered, rather than taking a quadrant from its subject-pattern family. When permission wording is present, the single branch in §8.4.1 **MUST** select the claim's job before assigning L/A/D/E. | Prevents one pattern catalogue from replacing the square's decision. |
 | **CC‑A.6.B.3 (Form and obtaining constraints).** | `L-*` and `A-*` claims **MUST NOT** use RFC deontic keywords as operators. A generic-prescription `D-*` claim **MUST** name its exact normative source and applicable rule content without inventing an individual occurrence; an individual-duty `D-*` claim **MUST** name its actual bearer and exact separately obtaining `U.Commitment`; a grant `D-*` claim **MUST** satisfy §8.4.1. No claim text makes its relation obtain. Responsibility uses its direct predicate or exact missing governor. An `E-*` claim **MUST** name the work, evaluation, or observation that settles it and any evidence used for reliance. | Keeps normative content, individual institution, responsibility, and evaluated results distinct. |
 | **CC‑A.6.B.4 (Explicit references).** | Where a claim materially depends on another L/A/D/E-classified claim, that dependency **MUST** be expressed by explicit ID or canonical-location reference. An accompanying explanation must preserve the referenced meaning. | Makes the governing claim recoverable across layers and faces. |
 | **CC‑A.6.B.5 (E‑claim adjudicability).** | Each `E-*` claim names its exact predicate and object plus the actual work, evaluation, or observation, scope/window, comparison frame, and other conditions required to settle that predicate. It adds an evidence/source-use relation, carrier/schema, viewpoint, and consumer only when the receiving reliance decision depends on that support. | Makes work-effects adjudicable without forcing unrelated carrier apparatus into every result claim. |
 | **CC‑A.6.B.6 (No gate smuggling).**      | Operational admissibility predicates **MUST NOT** appear as `L-*` laws in the signature layer; they **MUST** be `A-*` claims in the mechanism layer.                                                             | Preserves substitution and signature stability.          |
-| **CC‑A.6.B.7 (No upward dependencies).** | `L-*` claims **MUST NOT** reference `A-*`, `D-*`, or `E-*`, except for purely informative notes explicitly marked informative; `A-*` claims **MUST NOT** reference `D-*`. An `E-*` reference to `D-*` **MUST** meet §6.4's evidence-target or evaluation-input rule and **MUST NOT** treat the D claim alone as an E result. | Keeps laws and gates independent while permitting evidence about normative claims. |
+| **CC‑A.6.B.7 (Dependency grounds).** | `L-*` claims **MUST NOT** reference `A-*`, `D-*`, or `E-*`, except for purely informative notes explicitly marked informative. An `A-*` reference to `D-*` or `E-*` **MUST** meet §6.4's input and scope/currentness conditions. An `E-*` reference to `D-*` **MUST** meet §6.4's evidence-target or evaluation-input rule and **MUST NOT** treat the D claim alone as an E result. | Keeps reusable laws stable and makes gate inputs and evaluation grounds explicit. |
 
 ### A.6.B:11 - Common Anti‑Patterns and How to Avoid Them
 
@@ -15241,25 +15257,17 @@ Scope: **Universal** for boundary descriptions.
 
 ### A.6.B:13 — Rationale
 
-The square is an authoring primitive that forces an explicit choice across two distinctions that are otherwise routinely conflated:
+Boundary changes need different comparisons. Changing an admission condition affects which applications can enter; changing a normative rule affects what is required or granted; changing an implementation can affect the result while leaving both declarations intact. The four claim jobs keep these questions and their connections recoverable. A.6:4.7 explains how to use them for a change decision.
 
-* **Truth vs governance** (what is the case vs what is required or committed), and
-* **Description vs actual application** (content settled in the description versus satisfaction dependent on actual work, evaluation or observation).
+The classification is an authoring convention, with one job assigned to each atomic claim. Modality and adjudication help recover that job, but neither supplies a two-way partition of every claim. In particular, A predicates are declarations, and an individual D claim requires actual constitutive grounds. The practical benefit comes from exposing the different grounds and preserving their dependencies across uses and publication faces.
 
-By requiring atomicity and explicit cross‑quadrant references, the square converts “contract talk” into a set of classified, evolvable claims with clear adjudication semantics.
+For a small boundary, ordinary atomic prose and its existing contract or policy can be sufficient. Claim IDs, a register and additional faces earn their cost when several uses need to refer to the same content or follow a consequential change. Keep the direct subject conditions available in either form.
 
 ### A.6.B:14 — Source contributions
 
-The following contributions help explain the separation; they do not replace the subject conditions of an FPF claim.
+A.6:11 gives the exact source contributions and their limits. Effects and handlers distinguish declared operations from handler semantics; contract and behavioral-subtyping work supplies preservation questions; session types supply protocol-specific conditions. ISO/IEC/IEEE 42010 supports concern-oriented descriptions and correspondences. OpenTelemetry and SRE distinguish the observations available from the service property being examined; Cedar gives an explicit rule-evaluation and decision construction.
 
-**Representative sources.** See also A.6:11.
-* ISO/IEC/IEEE 42010:2022 (`U.View` and `U.Viewpoint` discipline).
-* Leijen (2017) / Hillerström & Lindley (2018) (effects & handlers).
-* OpenTelemetry Specification (v1.0+, 2021–) (evidence carriers as traces, logs, and metrics).
-
-* **Effect systems & handlers:** clear separation between operation signature (L), handler and runtime behavior (A/E), and generic prescriptions or separately instituted duties (D); only the latter name an actual operating or implementing System as bearer.
-* **Behavioural and session typing:** protocol laws (L), admissibility (A), commitments (D) and runtime traces (E) answer distinct questions when interpreting progress or safety guarantees.
-* **SRE and observability:** traces, logs and metrics can support evaluated results, while retention and exposure duties are separate D claims. The support still requires the relevant evidence relation.
+FPF uses these contributions to organize boundary claims. The four jobs, their FPF placements and §6.4's dependency rules are the construction explained here. In particular, provider duties require their governing normative source or individual instituting basis, and evidence support uses A.10. A source's typing or telemetry guarantees retain their own stated scope.
 
 ### A.6.B:15 — Relations
 
