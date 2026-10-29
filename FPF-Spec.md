@@ -302,13 +302,13 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | C.2.1 | **`U.Episteme`: Constitution, Empirical Grounding, and Edition Relations** | Stable | Identifies one episteme through exact claim content, exact EntityOfConcern, and effective ReferenceScheme under EpistemeConstitutionRelation; governs its empirical-grounding and edition relations while keeping declarations, views, publications, carriers, and representations separate. | **Builds on:** A.1, A.6.REL, A.6.0, A.6.5, A.7, C.29. **Coordinates with:** C.3.2, E.17.0, E.24.UK, E.24.PUB, A.10, B.3, G.11. |
 | C.2.P | **Clarify Episteme, Publication, and Source Wording (Epistemic Precision Restoration)** | Stable | Clarifies wording that leaves an episteme, publication, source-to-use, carrier, or use-disposition distinction unresolved. Recover the sentence's function and the missing distinction, then repair it or use the exact subject pattern; stop when that pattern and its current field are already clear. | **Builds on:** E.10, C.2.1, A.7, E.17.0, E.17, A.6.P, F.18. **Coordinates with:** E.8, E.12, E.17.AUD, E.17.EFP, E.17.ID.CR, A.10, A.15, A.20, A.21, B.3, C.11. |
 | C.2.2 | **Reliability R in the F–G–R triad** | Stable | *Keywords:* Reliability (R), warrant, evidence-bound, F–G–R, ClaimScope (G), support dependencies, non-aggregate synthesis, direct relation, Congruence Level (CL / CL^k / CL^plane), weakest-link limits, pathwise justification (PathId), TA/VA/LA lanes. *Queries:* "How strongly is this exact claim warranted for this use?", "Can its support be combined numerically, or should it remain a reasoned synthesis?", "What loss does the actual reuse relation justify?", "What is R in F–G–R?" | **Builds on:** C.2, A.2.6, C.2.3, B.3, B.1.3, C.3, F.9. **Coordinates with:** G.6, G.7, E.14, E.18. **Constrains:** any claim reuse whose actual changed scope, kind, plane, scheme, model use, source-local meaning, notation, or evidence basis changes `R_eff`. |
-| C.2.2a | **`U.LanguageStateSpace` - Language-state chart over `U.CharacteristicSpace`** | Stable | *Keywords:* language-state chart, characteristic space, position claim, partial coordinates, formality, articulation, closure, anchoring, representation, local thresholds, episteme publication. *Queries:* "Which separate facet readings lie behind 'early', 'ready', or 'settled'?", "What position and local threshold does the next action use?", "What is the language-state space in FPF?" | **Builds on:** A.19, E.10, F.18. **Used by:** C.2.LS, A.16, B.4.1, C.16.Q, A.6.A. |
-| C.2.3 | **Formality of an Episteme** | Stable | *Keywords:* Formality assessment, expression properties, partial order, local ordinal scale, proof, specification, language-state separation. *Queries:* "What is Formality F in FPF?", "How does F differ from articulation, closure, or anchoring?" | **Builds on:** C.2. **Constrains:** all patterns referencing F-G-R or language-state facets. |
-| C.2.LS | **`U.LanguageStateFacetProfile` - Thin profile bundle for language-state facets** | Stable | *Keywords:* facet profile, articulation, closure, anchoring, representation factors, threshold package. *Queries:* "How are language-state facets named together in FPF?", "What is a LanguageStateFacetProfile?" | **Builds on:** C.2.2a, C.2.4-C.2.7. **Coordinates with:** A.16. |
+| C.2.2a | **`U.LanguageStateSpace` - Language-state chart over `U.CharacteristicSpace`** | Stable | *Keywords:* language-state chart, characteristic space, position claim, partial coordinates, formality, articulation, closure, representation, source and use conditions, local thresholds, episteme publication. *Queries:* "Which separate facet readings lie behind 'early', 'ready', or 'settled'?", "What position and local threshold does the next action use?", "What is the language-state space in FPF?" | **Builds on:** A.19, E.10, F.18. **Used by:** C.2.LS, A.16, B.4.1, C.16.Q, A.6.A. |
+| C.2.3 | **Formality of an Episteme** | Stable | *Keywords:* Formality assessment, expression properties, partial order, local ordinal scale, proof, specification, language-state separation. *Queries:* "What is Formality F in FPF?", "How does F differ from articulation, closure, or source and use claims?" | **Builds on:** C.2. **Constrains:** all patterns referencing F-G-R or language-state facets. |
+| C.2.LS | **Language-State Facet Profile: Publish Readings and Use Conditions Together** | Stable | *Keywords:* facet profile, articulation, closure, representation factors, source and use claims, local thresholds. *Queries:* "How are language-state facets named together in FPF?", "What is a LanguageStateFacetProfile?" | **Builds on:** C.2.2a, C.2.4-C.2.7. **Coordinates with:** A.16. |
 | C.2.4 | **`U.ArticulationExplicitness` — How Explicit Is an Episteme's Meaning for Its Use?** | Stable | *Keywords:* articulation explicitness, AE0–AE5, semantic branch, stable cue, branch-appropriate expression, receiving use. *Queries:* "Is the meaning explicit enough for the receiving pattern?", "What is still missing between a stable cue and a complete branch-appropriate expression?", "How does articulation differ from formality and reader-specific structural recovery?" | **Builds on:** C.2.2a. **Coordinates with:** C.2.LS, A.16. |
 | C.2.5 | **`U.LanguageStateClosureDegree` — How Fixed Is the Current Candidate Space?** | Stable | *Keywords:* closure degree, CD0–CD5, candidate-space closure, route space, frame space, reopen, settledness. *Queries:* "How fixed are the current candidates, routes, or frames?", "What remains open, and what would justify reopening?", "How does closure differ from articulation and warrant?" | **Builds on:** C.2.2a. **Coordinates with:** C.2.LS, A.16. |
-| C.2.6 | **`U.LanguageStateAnchoringMode` — How Is the Episteme Anchored?** | Stable | *Keywords:* anchoring mode, embodiment, trace, model state, document, operator loop, source anchoring, receiving-episteme anchoring, mixed modes. *Queries:* "Does this episteme depend on bodily cues, traces, model state, documents, or an operator loop?", "Did publication change the anchoring visible to the receiving use?", "Which modes matter in a mixed regime?" | **Builds on:** C.2.2a. **Coordinates with:** C.2.LS, F.9.1. |
-| C.2.7 | **`U.LanguageStateRepresentationFactorBundle` — How Is the Representation Organized?** | Stable | *Keywords:* representation factors, locality, sparsity, symbolicity, factor bundle, representation organization. *Queries:* "How does FPF describe representation factors in language-state work?", "What is the representation-factor bundle?" | **Builds on:** C.2.2a. **Coordinates with:** C.2.LS, C.2.6. |
+| C.2.6 | **Sources, Evidence and Conditions for Using an Episteme** | Stable | *Keywords:* provenance, evidence use, bodily observation, model derivation, document access, operator interaction, changed use. *Queries:* "What produced this claim and what supports it?", "What must remain available for its intended use?", "Which conclusion or action changes when a source or use condition changes?" | **Builds on:** C.2.1, C.2.P, A.2.4, A.10; A.6.6 and A.6.P for relation recovery. **Coordinates with:** C.2.2a, C.2.LS, C.2.7, A.16, F.9. |
+| C.2.7 | **`LanguageStateRepresentationFactorBundle` — How Is the Representation Organized?** | Stable | *Keywords:* representation factors, locality, sparsity, symbolicity, factor bundle, representation organization. *Queries:* "How does FPF describe representation factors in language-state work?", "What is the representation-factor bundle?" | **Builds on:** C.2.2a. **Coordinates with:** C.2.LS, C.2.6. |
 | C.2.8 | **`U.ExtractableStructuralInformation` — Structure This Reader Can Recover** | Stable | *Keywords:* extractable structure, reader preparation, bounded observer, structural information, epiplexity, description comparison, reading budget. *Queries:* "How much selected structure can this reader recover?", "How does structural amount differ from explicit articulation or reading effort?" | **Builds on:** A.17, A.18, C.2.1, C.16. **Coordinates with:** C.2.4, C.29, C.33, A.6.3.NAR, E.17.EFP; A.2.2 and E.23.CDI when recovered Method structure must be used or acquired. |
 | C.2.P.DR | **Repair Claims Based on Declarative Form Alone (Declarative Representation Precision Restoration)** | Stable | Repairs declarative-shape overread by separating the visible expression or artifact, the exact current direct object or relation, an exact representation/correspondence use or `none`, and the blocked stronger action claim. Applies to graph and evidence paths, queries, dashboards, schemas, formal substrates, method descriptions, publication faces, tables, and pattern relations; uses four plain questions and exact direct owners. Procedure/code/solver/recipe form establishes no `U.MethodDescription`; required or desired change remains claim content, while an actual `U.Transformation` needs its independent A.3.4 basis. | **Builds on:** C.2.P, E.10, E.10.ARCH, F.19, C.29, C.2.1, A.3.1, A.3.2, A.3.4. **Coordinates with:** E.18, E.18.1, A.10, E.17, A.6.1, E.20, A.15.1, A.15.2, C.16, A.19, A.21. |
 | C.3 | **Kinds, Intent and Extent, and Typed Reasoning** | Stable | *Keywords:* admitted U.Kind individual, membership distinction, KindSignature, admissibility, true/false/unknown judgment, optional extension, SubkindOf preorder, distinct-kind KindBridge. *Queries:* "What makes this the same kind?", "Is this candidate applicable before I judge it?", "Did the kind definition change, or only its locality, declaration, scheme, or slice?" | **Builds on:** A.1, A.2.6, C.2.1, E.24.UK. **Coordinates with:** C.3.1, C.3.2, C.3.3, F.9. |
@@ -19728,7 +19728,7 @@ Boundary rules:
 - if the receiving use requires a mapping, correspondence or route-equivalence claim whose direct governor is missing, resolve that missing basis before relying on the claim;
 - if the EntityOfConcern is preserved and the receiving item is useful only under narrower declared use with visible loss and source-bearing reopen, use `A.6.3.CSC`;
 - if a `StructuralReinterpretation`, `PathSliceId`, `CrossingRef`, or `DecisionLogRef` is present, use `E.18`, `A.20`, or `A.21` for graph, path, constraint, and gate relations. Those references do not prove semantic continuity or retargeting admissibility by themselves;
-- for decoded or latent output, use C.2.6 and C.2.7 for the anchoring mode and representation factors; keep the output report-only or exploratory until its exact source or model-state relation, decode or probe relation, recoverability evidence, admissible use, and source-return action are stated under their current governors;
+- for decoded or latent output, use C.2.6 for source and use claims and C.2.7 for representation-factor readings; keep the output report-only or exploratory until its exact source or model-state relation, decode or probe relation, recoverability evidence, admissible use, and source-return action are stated under their current governors;
 - B.5.2 governs changes within its abductive loop, including its prompt, candidate and rival sets, selected prime hypothesis, plausibility filtering, and reopen. Apply A.6.4 additionally only for an independently established EntityOfConcern change and bounded receiving use;
 - keep any other independently current claim under the pattern that defines or tests it; the Relations section names the main neighboring owners.
 
@@ -19828,7 +19828,7 @@ When you think you need retargeting, ask:
 
 * **Builds on.** A.6.0 for a reusable FormalSubstrate declaration; A.6.2 for the local arrow discipline; A.6.3 for the preserved-EntityOfConcern neighboring branch; C.2.1 for episteme, EntityOfConcern, and use-assertion identity; C.29 for mathematical-lens use; A.6.3.RT for preserved-EntityOfConcern representation transitions; A.6.5 for SlotSpecs inside a reusable direct-relation declaration; A.7 and E.10.D2 for Description and specification-use boundaries; C.2 and C.3 or the relevant domain pattern for the invariant; and F.9 only for a separately claimed relation between exact local senses.
 * **Consumed by.** E.18 may place r and q at a `StructuralReinterpretation` locus; A.20 may test the exact proposition carried by q; E.17 may publish an episteme that describes the case; KD-CAL and LOG-CAL may reason over a stated invariant. None redefines r or q.
-* **Neighbor boundaries.** `A.6.1` and `A.15` govern an actual application and Work; `A.10` governs evidence; `B.3` governs assurance and reliance; `A.21` governs gate decisions; `C.27` governs temporal adequacy; `A.3.3` governs dynamics; the applicable direct control pattern governs control; and `E.24.PUB` governs publication. C.2.6 and C.2.7 govern language-state anchoring and representation factors; B.5.2 governs its abductive-loop state.
+* **Neighbor boundaries.** `A.6.1` and `A.15` govern an actual application and Work; `A.10` governs evidence; `B.3` governs assurance and reliance; `A.21` governs gate decisions; `C.27` governs temporal adequacy; `A.3.3` governs dynamics; the applicable direct control pattern governs control; and `E.24.PUB` governs publication. C.2.6 recovers source and use claims, and C.2.7 governs representation factors; B.5.2 governs its abductive-loop state.
 
 ### A.6.4:End
 
@@ -21729,7 +21729,7 @@ When the result selects a Method for enactment, identify that admitted U.Method.
 This recovery lets ecological psychology, phenomenology, active inference, control, interface design and robotics keep their distinct subject meanings while comparing a concrete action question.
 
 **Coordinates with.**
-**C.16.Q** for evaluative-language repair; **C.2.2a, A.16, A.16.1, A.16.2, and B.4.1** for language-state chart positions, articulation and closure coordination, admissible moves, early cue classification, next-use docking, and admissible retreat when a published recovery result must be reopened; use **A.16.0** only when lineage, branch, loss, or an actual responsibility-handoff history itself must be published as an explicit trajectory account; **B.5.2.0** when the recovered result is an explanatory question or candidate inquiry; **C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** for articulation, closure, anchoring, and representation-factor facets referenced but not governed here; **A.10** and **B.3** for evidence and assurance; **B.4** and **B.5** for anomaly-driven cycles; **E.17.0**, **E.17**, and **E.18** for viewpoint reference resolution, independent view conformance, and viewpoint publication; **F.9** for Bridges and bounded-use claims; **F.9.1** for optional stance notes about those claims; **C.3.3** for kind-bridge repair when endpoint kind mismatches appear.
+**C.16.Q** for evaluative-language repair; **C.2.2a, A.16, A.16.1, A.16.2, and B.4.1** for language-state chart positions, articulation and closure coordination, admissible moves, early cue classification, next-use docking, and admissible retreat when a published recovery result must be reopened; use **A.16.0** only when lineage, branch, loss, or an actual responsibility-handoff history itself must be published as an explicit trajectory account; **B.5.2.0** when the recovered result is an explanatory question or candidate inquiry; **C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** for articulation and closure readings, source and use claims, and representation-factor readings referenced but not governed here; **A.10** and **B.3** for evidence and assurance; **B.4** and **B.5** for anomaly-driven cycles; **E.17.0**, **E.17**, and **E.18** for viewpoint reference resolution, independent view conformance, and viewpoint publication; **F.9** for Bridges and bounded-use claims; **F.9.1** for optional stance notes about those claims; **C.3.3** for kind-bridge repair when endpoint kind mismatches appear.
 
 **E.10.ARCH relation.**
 A.6.A supplies the wording-recovery method when an `E.10` or `E.10.ARCH` use leaves an affordance-like or action-first phrase ambiguous. Recover the actual claim or question and then its direct governor. Evaluative content goes to `C.16.Q`; ability, Method, Work, duty, evidence, assurance, gate and decision claims use their own patterns. Keep a recovery note only when a later reader needs the interpretation or its grounds.
@@ -22294,7 +22294,7 @@ Reopen the affected recovery when a source-specific meaning or physical criterio
 * **Uses:** **A.6.P** when the recovered content is a relation claim; **A.6.REL** for its direct predicate and any needed occurrence identity.
 * **Builds on:** **A.3** and **A.7** for enactor discipline and EntityOfConcern and Description-episteme plus publication and carrier separation; **A.15** for keeping invitation distinct from enactment; **A.6.B** for boundary claim classification; **E.17.0**, **E.17**, and **E.18** for viewpoint reference resolution, independent view conformance, and viewpoint publication.
 * **Works alongside:** **C.16.Q** for evaluative language; the two are siblings, not substitutes.
-* **Coordinates with:** **C.2.2a, A.16, A.16.1, A.16.2, and B.4.1** for language-state chart positions, admissible moves before post-threshold repair, and retreat when a published recovery result must be reopened; use **A.16.0** only when lineage, branch, loss, or an actual responsibility-handoff history itself must be published as an explicit trajectory account; **B.5.2.0** for probe-question cases that are still prompt-shaped; **C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** for language-state facet governance.
+* **Coordinates with:** **C.2.2a, A.16, A.16.1, A.16.2, and B.4.1** for language-state chart positions, admissible moves before post-threshold repair, and retreat when a published recovery result must be reopened; use **A.16.0** only when lineage, branch, loss, or an actual responsibility-handoff history itself must be published as an explicit trajectory account; **B.5.2.0** for probe-question cases that are still prompt-shaped; **C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** for language-state readings and the source or use claims required beside them.
 * **Must not replace:** **C.2.3** as the single subject pattern for **F**.
 * **Uses for shared naming:** **E.10, F.17, and F.18** when an interpretation label or reusable recovery designation needs a shared name.
 
@@ -22310,7 +22310,7 @@ Use this method when the wording can support a useful interpretation or a questi
 Apply `A.6.B` when the recovered claim is boundary-bearing and `A.15` when a Method, plan or performed Work question is live. Keep an alert-intervention or operator-intervention reading distinguishable from a generic interface cue when human factors, authority or the policy rule change the result. A common invitation record is not a prerequisite.
 
 #### A.6.A:12.3 - Governance boundary
-This pattern may cite an F.9 Bridge and bounded-use claim, an optional F.9.1 stance note, an A.16 articulation-state result, authority-reference fields, or language-state facet characteristics from `C.2.LS`, `C.2.4`, `C.2.5`, `C.2.6`, and `C.2.7`; it does not redefine any of them.
+This pattern may cite an F.9 Bridge and bounded-use claim, an optional F.9.1 stance note, an A.16 articulation-state result, authority-reference fields, language-state Characteristic readings from `C.2.4`, `C.2.5` and `C.2.7`, source and use claims recovered through `C.2.6`, or their joint profile under `C.2.LS`; it does not redefine any of them.
 
 ### A.6.A:End
 
@@ -33301,7 +33301,7 @@ Do not use A.16 to decide measurement admissibility, Bridge substitution, endpoi
 
 #### A.16:4.2 - Guard discipline
 
-State the guard through named language-state facets and the route condition that matters. Use `AE` from `C.2.4`, `CD` from `C.2.5`, `LanguageStateAnchoringMode` from `C.2.6`, and `LanguageStateRepresentationFactorBundle` from `C.2.7`, separately or through one published facet profile. Add witnesses, scope, and `GammaTime` selectors when needed. “The idea matured” is not a guard.
+State the guard through named language-state facets and the route condition that matters. Use `AE` from `C.2.4`, `CD` from `C.2.5` and the representation-factor readings from `C.2.7`. State required source, evidence, access or action conditions separately under C.2.6. A guard can use both readings and direct relation claims, cited separately or through one published profile; a relation account is not a CharacteristicSpace slot. Add witnesses, scope, and `GammaTime` selectors when needed. “The idea matured” is not a guard.
 
 A summarized chain may omit repeated unchanged fields, but it must leave every move identity, endpoint-rule change, loss, and status change that affects interpretation reconstructible. A later higher-closure publication does not retroactively strengthen an earlier cue; later retreat does not erase the earlier publication.
 
@@ -33458,7 +33458,7 @@ Use this one checklist for authoring and review:
 
 ### A.16:11 - Relations
 
-- **Builds on:** `C.2.1` for episteme identity; `C.2.2a` for language-state positions; `C.2.LS` for facet profiles; `C.2.4` for articulation, `C.2.5` for closure, `C.2.6` for anchoring, and `C.2.7` for representation-factor readings; `A.18` for Scale semantics; and `A.19` for CharacteristicSpace and Coordinate semantics.
+- **Builds on:** `C.2.1` for episteme identity; `C.2.2a` for language-state positions; `C.2.LS` for facet profiles; `C.2.4` for articulation, `C.2.5` for closure, `C.2.6` for source and use conditions, and `C.2.7` for representation-factor readings; `A.18` for Scale semantics; and `A.19` for CharacteristicSpace and Coordinate semantics.
 - **Coordinates with:** `A.16.0` for accountable trajectories; `A.16.1` for early preservation; `A.16.2` for retreat and respecification; `B.4.1` for route publication; `B.5.2.0` for abductive prompting; `A.6.P`, `A.6.A`, `C.16.Q`, and `C.25` for endpoint-local questions; `E.11.PUR`, `A.15.5`, `A.15.1`, and `A.15.2` for non-A.16 move wording and project action; `E.24.PUB` for bounded publication availability; `E.18` for an independently selected TransformationFlowStructure and `E.18.2` for its mathematical description; and `E.10.MOVE` when source wording does not mean this local move.
 - **Constrained by:** A.2/A.2.1 and the applicable deontic or authority pattern for any actual relation change; A.13 followed by independent A.15.1 for precise performed Work, F.6 only afterward when precise assignment-bound attribution is current, A.15.PROD for production or inception, and the applicable domain predicate for result claims.
 
@@ -33839,7 +33839,7 @@ Use `primaryWitnessRef` or `primaryAnchor` when one witness or anchor carries th
 
 `laneCandidates` and `routeCandidateHints` are early directional hints only. They are **not** a selected route, route rationale, or route-selection status. Those belong to `RoutedCueSet` under `B.4.1`.
 
-The referenced facets keep their own definitions. `primaryAnchor`, `candidateAnchors`, contrasts, and exemplars commonly provide anchor material for `AE` under `C.2.4`; `languageStateClosureDegreeRef` docks to `C.2.5`; anchoring and representation-factor refs dock to `C.2.6` and `C.2.7`; `languageStateFacetProfileRef` may bundle them through `C.2.LS`.
+The referenced facets keep their own definitions. `primaryAnchor`, `candidateAnchors`, contrasts, and exemplars commonly provide anchor material for `AE` under `C.2.4`; `languageStateClosureDegreeRef` docks to `C.2.5`; source and use claims follow `C.2.6`, and representation-factor refs follow `C.2.7`; `languageStateFacetProfileRef` may bundle them through `C.2.LS`.
 
 In this cluster, a cue is a salient epistemic nucleus extracted from witnesses, traces, felt tensions, model outputs, work-possibility hints, reliance-possibility hints, contrasts, or other grounds and made preservable as a pack. A raw signal-like trace counts as a cue only when that salience and preservability have been made explicit; otherwise it remains a trace, not yet a cue. Any evidence use is separately qualified under A.10 for a named target claim.
 
@@ -33861,7 +33861,7 @@ A cue pack may admissibly feed:
 
 **Show (System).** A console alert with traces and tension indicators may be worth preserving as a cue pack before anyone can honestly publish route selection, gate logic, or work execution.
 
-**Show (Episteme).** A researcher's stabilized felt or trace-anchored discrepancy cue with exemplars and contrasts can be published as a cue pack before it becomes a routed cue set, an abductive prompt, or an anomaly statement.
+**Show (Episteme).** A researcher's stabilized discrepancy cue from bodily observation or inspection of a trace with exemplars and contrasts can be published as a cue pack before it becomes a routed cue set, an abductive prompt, or an anomaly statement.
 
 ### A.16.1:6 - Bias-Annotation
 This pattern biases authors toward preserving low-articulation meaningful cues instead of discarding them or disguising them as later publication forms with higher closure, a selected route, or a passed endpoint test. The counter-bias is deliberate as well: a cue pack must still name what is being preserved and why.
@@ -33872,7 +33872,7 @@ This pattern biases authors toward preserving low-articulation meaningful cues i
 - `CC-A.16.1-3` When one witness or anchor carries the preservation need, `primaryWitnessRef` or `primaryAnchor` **SHALL** be explicit. When several grounds are jointly essential, their joint contribution **SHALL** remain recoverable.
 - `CC-A.16.1-4` `laneCandidates` and `routeCandidateHints` **MAY** be published early, but `selectedRoute`, `routeRationale`, and route-selection status **SHALL NOT** be smuggled into the cue pack.
 - `CC-A.16.1-5` If route-candidate hints are not yet nameable, publication is still admissible only when `preservationRationale` and grounding make the preservation need explicit.
-- `CC-A.16.1-6` Language-state, anchoring, and representation-factor details **MAY** be referenced; use `C.2.LS` for the facet profile, `C.2.4` for articulation explicitness (`AE`), `C.2.6` for anchoring mode, `C.2.5` for closure degree, and `C.2.7` for representation factors.
+- `CC-A.16.1-6` Language-state readings, source and use claims, and representation-factor details **MAY** be referenced; use `C.2.LS` for the facet profile, `C.2.4` for articulation explicitness (`AE`), `C.2.6` for source and use conditions, `C.2.5` for closure degree, and `C.2.7` for representation factors.
 - `CC-A.16.1-7` A cue pack **SHALL NOT** claim that an endpoint test passed or that a stronger use is admitted; use the applicable endpoint pattern to test and publish that later result.
 
 ### A.16.1:8 - Common Anti-Patterns and How to Avoid Them
@@ -33908,7 +33908,7 @@ If an existing incident note already carries this content and the source return,
 
 
 #### A.16.1:13.2 - Inquiry cue pack
-An inquiry cue pack may preserve exemplars, contrasts, a felt or trace-anchored discrepancy cue nucleus, and candidate anchor fragments. This is admissible even before route publication is needed or an under-specified relation-bearing claim requires `A.6.P`.
+An inquiry cue pack may preserve exemplars, contrasts, a discrepancy cue nucleus from bodily observation or inspection of a trace, and candidate anchor fragments. This is admissible even before route publication is needed or an under-specified relation-bearing claim requires `A.6.P`.
 
 #### A.16.1:13.3 - Invalid publication to reject
 It is invalid to publish a cue pack and then cite it as if it were already an anomaly statement, a routed cue set, an explanatory bundle, or a control obligation. The cue pack is only the preservation form.
@@ -45834,7 +45834,7 @@ A conforming routed cue set may publish:
 - `scope?`
 - `GammaTime?`
 
-`RoutedCueSet` is not itself the late endpoint. `articulationThresholdStatus` and `closureStatus` report guard state only; their governance remains with `C.2.4` and `C.2.5`, and route discrimination may additionally cite `C.2.6` or `C.2.7` when anchoring or representation-factor differences are load-bearing.
+`RoutedCueSet` is not itself the late endpoint. `articulationThresholdStatus` and `closureStatus` report guard state only; their governance remains with `C.2.4` and `C.2.5`, and route discrimination may additionally cite `C.2.6` or `C.2.7` when source or use conditions or representation-factor differences affect the route choice.
 
 `candidateRouteSet` is the load-bearing core here. `routeDecision`, `selectedRoute`, `routeRationale`, and `routeSelectionStatus` belong here when route selection is explicit. They do **not** belong in `PreArticulationCuePack`. The status says only whether plurality remains open or a route has been selected; endpoint admission, publication availability, current use or retirement, and any actual authority relation remain separate claims under A.16 and their direct patterns. Use `sourceCuePackRef` when the originating early form is a cue pack; otherwise identify the equivalent early form and the stabilized cue it preserves.
 
@@ -52208,9 +52208,9 @@ The current methodological comparison is [Gutierrez, Glymour and Davey Smith, *E
 
 **Use this pattern when.** A team is about to route, compare, or publish a note by calling it `early`, `ready`, or `settled`, and the next action depends on what is actually known.
 
-**First question.** Which of the five aspects can change the next action—formality, articulation, closure, anchoring, or representation—and which readings or unknowns does that action need?
+**First question.** Which expression, articulation, closure or representation readings can change the next action, and which source or use conditions must be stated beside them?
 
-**What goes wrong if missed.** Teams flatten those five aspects, the grounds for judging them, and the publication lane into one maturity adjective. A polished document can then look ready although the claim is still open, or a useful early cue can be rejected because it is not yet polished.
+**What goes wrong if missed.** Teams flatten the relevant Characteristics, source and use conditions, grounds for assessment and publication lane into one maturity adjective. A polished document can then look ready although the claim is still open, or a useful early cue can be rejected because it is not yet polished.
 
 **What this buys.** One small chart row that shows only the distinctions needed by the next action while keeping the episteme publication separate from its grounds, publication form and carrier.
 
@@ -52220,11 +52220,11 @@ Start with the smallest row that can change the next action:
 
 - the exact episteme publication being positioned;
 - only the currently relevant facet values or supported sets of possible values; use intervals where the Scale admits them and mark a decision-relevant unknown as `unknown`;
-- the grounds for those readings;
+- the grounds for those readings, with any source, evidence, access or action conditions on which the next use depends;
 - any local threshold used by the named next action and whether the readings meet it, fail it, or leave the result undecided;
 - publication form, face, or carrier only when that distinction changes interpretation, preservation, or the next action.
 
-**Filled example.** `Pump-alert-17` is the alerting episteme publication being positioned. Its affected asset and discrepant reading are visible, but the claim structure is not yet complete; rival diagnostic routes remain open; the alert is anchored in the operator loop; and its representation mixes text with telemetry. Formality is omitted because the present routing decision does not depend on it. The grounds are trace `T-17` and operator note `N-4`. The local rule permits routing to the diagnostic-question seam once the affected asset and discrepant reading are explicit. Form, face, and carrier are omitted because none changes that decision.
+**Filled example.** `Pump-alert-17` is the alerting episteme publication being positioned. Its affected asset and discrepant reading are visible, but the claim structure is not yet complete; rival diagnostic routes remain open; the alert enters the operator's acknowledgement-and-check procedure; and its representation mixes text with telemetry. Formality is omitted because the present routing decision does not depend on it. The grounds are trace `T-17` and operator note `N-4`. The local rule permits routing to the diagnostic-question seam once the affected asset and discrepant reading are explicit. Form, face, and carrier are omitted because none changes that decision.
 
 **Non-use.** If an existing chart already supplies the applicable values and threshold for the same next action, cite it instead of publishing another row. If `early` or `ready` is only ordinary prose and no routing, comparison, publication, or threshold decision depends on it, leave it as ordinary prose rather than creating a governed position.
 
@@ -52241,7 +52241,7 @@ Practitioners still have to determine the relevant readings, any threshold used,
 Without an explicit language-state chart:
 
 1. teams collapse several facets into one maturity story;
-2. `F` is silently misused as a surrogate for articulation, closure, anchoring, and representation factors;
+2. `F` is silently misused as a surrogate for articulation, closure, source and use conditions, and representation factors;
 3. thresholds are published as vague readiness statements instead of explicit facet conditions;
 4. source phenomena, governed epistemes, publication forms, publication faces, and carriers are conflated;
 5. bridge and endpoint work inherit under-described upstream states.
@@ -52276,7 +52276,7 @@ It is not a second kernel state-space apparatus beside `A.19`. It is the particu
 #### C.2.2a:4.2 - Position reading under `A.19`
 A language-state position is a partial, slot-explicit coordinate claim in the declared language-state `U.CharacteristicSpace`.
 
-`ValueSet(Scale)` in A.19 is the full Scale domain. Publish each selected slot's reading as one value or as a supported set of remaining possible values within that domain. This set describes incomplete information about the slot's value. Use an interval only where the Scale admits it; state a decision-relevant `unknown` separately when the available information does not determine the needed reading. For anchoring, `{AM.TraceAnchored, AM.OperatorLoop}` can report two remaining possibilities; `AM.Mixed` instead requires identified component modes that both matter substantively (C.2.6:4.3).
+`ValueSet(Scale)` in A.19 is the full Scale domain. Publish each selected slot's reading as one value or as a supported set of remaining possible values within that domain. This set describes incomplete information about the slot's value. Use an interval only where the Scale admits it; state a decision-relevant `unknown` separately when the available information does not determine the needed reading. For closure, `{CD1, CD2}` can report two remaining possible values while the assessment is incomplete. Separate source and use claims follow C.2.6:4.3: two unresolved possible sources differ from an established contribution by both.
 
 `position` here abbreviates these slot-explicit `A.19` coordinate claims.
 
@@ -52286,10 +52286,9 @@ The language-state chart is coordinated by explicit facet subject patterns rathe
 - `C.2.3` for the selected expression properties in a formality assessment, or an explicitly justified local summary;
 - `C.2.4` for articulation explicitness;
 - `C.2.5` for language-state closure degree;
-- `C.2.6` for language-state anchoring mode;
 - `C.2.7` for the language-state representation-factor bundle.
 
-The selected basis slots together define the chart under A.19. Each actual Characteristic has its own Scale and slot. In particular, neither a formality profile nor a representation-factor bundle is silently treated as one Coordinate. `C.2.2a` does **not** govern the internal meanings or Scale semantics of those Characteristics.
+The selected basis slots together define the chart under A.19. Each actual Characteristic has its own Scale and slot. In particular, neither a formality profile nor a representation-factor bundle is silently treated as one Coordinate. `C.2.2a` does **not** govern the internal meanings or Scale semantics of those Characteristics. C.2.6 supplies the source, evidence, access and action-condition account needed beside the coordinates. That account contributes no slot by itself. A local summary contributes a slot only when its one aspect and Scale are defined under C.2.6:15.1 and A.18/A.19; changing that basis requires an explicit chart change.
 
 #### C.2.2a:4.4 - Position, grounds and publication
 Keep the positioned episteme publication separate from the grounds for its assessment and from its publication form and carrier:
@@ -52299,13 +52298,13 @@ Keep the positioned episteme publication separate from the grounds for its asses
 - **publication forms** - arrangements or notations used for publications such as cue packs, prompts, typed projections, partial normal forms and endpoint records; an MVPK face is a selected publication form, identified when that distinction matters;
 - **carriers** - physical or digital media, such as a paper sheet, file or console display, that bear the selected form.
 
-`U.LanguageStateSpace` governs only the coordinate reading of the position claim. Keep that claim distinct from its grounds, publication form and carrier.
+`U.LanguageStateSpace` governs only the coordinate reading of the position claim. Keep that claim distinct from its grounds, publication form and carrier. C.2.6 also distinguishes a reading's derivation from evidence for its target claim and from the conditions under which someone uses it.
 
 #### C.2.2a:4.5 - Position publication rule
 
 A published position states the exact episteme publication, the facet readings that matter to the present use, and the grounds for those readings. A decision-relevant unknown is stated as `unknown`; unrelated facets need not be filled merely to complete a form.
 
-Add the local threshold and named next action only when the row is used for movement, routing, comparison, or endpoint entry. Add publication form, MVPK face, carrier, or SCR/RSCR lane only when that distinction affects interpretation, preservation, distribution, or the next action.
+Add the local threshold and named next action only when the row is used for movement, routing, comparison, or endpoint entry. If that action also requires a source, evidence or interaction condition, state or cite its predicate beside the coordinate test; the condition does not become a Coordinate by being included in the same row. Add publication form, MVPK face, carrier, or SCR/RSCR lane only when that distinction affects interpretation, preservation, distribution, or the next action.
 
 The position is reviewable when the named or inherited episteme publication, relevant readings, grounds, and any relied-on threshold are recoverable, and when any form, face, or carrier actually mentioned remains distinct from the positioned episteme publication. A polished note or better carrier does not by itself prove a new chart position.
 
@@ -52315,7 +52314,7 @@ The formality assessment supplies the selected expression Characteristics, each 
 A conforming account shall not infer:
 
 - closure from formality alone;
-- anchoring from publication-face format alone;
+- source or use relations from publication-face format alone;
 - representation factors from articulation alone;
 - or routing admissibility from a lone `F` statement.
 
@@ -52338,11 +52337,11 @@ If no Bridge obtains, preserve both local positions. Name the actual comparison 
 Compare the relevant readings with the local threshold named by the next action. Use the result to decide whether to keep the publication where it is, route it through a seam or prompt pattern, open a facet or endpoint question, or stop because a required reading is unknown. The receiving pattern governs the actual route, comparison, or publication decision; the chart row supplies only the position facts that decision uses.
 
 ### C.2.2a:5 - Archetypal Grounding
-**Tell.** One note can have operator-loop anchoring yet still low closure. Another can be document-mediated and symbol-heavy while still open on route choice. Both notes have positions in one language-state chart, but not on one maturity progression.
+**Tell.** One note can be used in an operator's acknowledgement procedure yet still have low closure. Another can report an architecture document's assertions in symbolic form while its route choice remains open. Both notes have positions in one language-state chart, but not on one maturity progression.
 
-**Show (System).** A service disturbance is a system-side phenomenon. The positioned governed `U.Episteme` publication is the alerting episteme published from that disturbance. In `Pump-alert-21` (:13.2), its position combines declared observation terms and unit-bearing values, `CD1`, `AM.OperatorLoop`, and local/sparse/symbolic readings for the defined indicator code.
+**Show (System).** A service disturbance is a system-side phenomenon. The positioned governed `U.Episteme` publication is the alerting episteme published from that disturbance. In `Pump-alert-21` (:13.2), its position combines declared observation terms and unit-bearing values, `CD1`, and local/sparse/symbolic readings for the defined indicator code. The account separately states the operator acknowledgement and diagnostic-check condition.
 
-**Show (Episteme).** A model-vs-observation discrepancy is a witness-level tension, not the positioned episteme publication itself. Once preserved as a cue pack, the resulting governed `U.Episteme` may be low in articulation, low in closure, trace-anchored, and only partly symbolic even when rendered into prose.
+**Show (Episteme).** A model-vs-observation discrepancy is a witness-level tension, not the positioned episteme publication itself. Once preserved as a cue pack, the resulting governed `U.Episteme` may be low in articulation, low in closure, derived from an identified trace, and only partly symbolic even when rendered into prose.
 
 ### C.2.2a:6 - Bias-Annotation
 The pattern favors separate facet readings over one stage adjective when a decision depends on them. Ordinary descriptions remain sufficient under the non-use boundary in :0.
@@ -52357,8 +52356,8 @@ The pattern favors separate facet readings over one stage adjective when a decis
 - `CC-C.2.2a-7` If a position claim is used for routing, endpoint entry, or gate-adjacent reasoning, its relied-on threshold **SHALL** remain explicit or recoverable from the cited applicable upstream publication. The positioned episteme publication **SHALL** remain identifiable. Include form, MVPK face or carrier distinctions when they affect interpretation or the next action, as in :4.5.
 
 ### C.2.2a:8 - Common Anti-Patterns and How to Avoid Them
-- **Maturity monism.** Replace five facets with one stage word. Repair by publishing explicit slot placement.
-- **Formality capture.** Use `F` to stand in for articulation, closure, or anchoring. Repair by naming the actual facet subject pattern.
+- **Maturity monism.** Replace the needed distinctions with one stage word. Publish the relevant slot values and state any required source or use condition separately.
+- **Formality capture.** Use `F` to stand in for articulation, closure, or source and use conditions. Repair by naming the actual facet subject pattern.
 - **Carrier collapse.** Treat a document, cue pack, or routed note as if it were the position itself. Repair by distinguishing the position claim, publication form (including an MVPK face) and carrier.
 - **Threshold folklore.** Speak of readiness without any explicit threshold declaration. Repair by publishing relevant local threshold notes on explicit slots.
 - **Bridge by vibe.** Similar stage language is treated as equivalence. Recover the two exact F.17 local senses and test F.9; cite a Bridge only when its predicate obtains. Otherwise keep both positions local and route the actual comparison or translation question.
@@ -52381,7 +52380,7 @@ The external comparisons below concern publication distinctions and scoped profi
 
 **Architecture-description contribution.** Keep the position claim and the form and carrier through which it is published distinguishable when their identity changes interpretation or use.
 
-**Characteristic-space and profile discipline.** The multi-facet chart is grounded in FPF `A.19` and the current `C.2.3`–`C.2.7` facet patterns; it is not imported from an external modeling language. Current governance practice contributes the narrower discipline of publishing scoped profiles and thresholds.
+**Characteristic-space and profile discipline.** The multi-facet chart is grounded in FPF `A.19` and the Characteristics defined in `C.2.3`–`C.2.5` and `C.2.7`; it is not imported from an external modeling language. Current governance practice contributes the narrower discipline of publishing scoped profiles and thresholds.
 
 **Local stance.** The load-bearing architecture decision is FPF-native: governed language-state uses a multi-facet chart with explicit thresholds and the publication distinctions needed by the receiving use, not one maturity progression or one polished publication face. The external rows support the narrower view, publication, profile, and threshold disciplines stated above.
 
@@ -52398,24 +52397,24 @@ A position claim for a research cue note may state:
 - `F`: the terms needed for the inquiry are defined, while the proposed inferences remain in prose,
 - low articulation explicitness,
 - low closure,
-- `AM.EmbodiedFelt` or `AM.TraceAnchored`, according to the cue's actual anchor,
+- the relevant bodily observation or trace derivation, stated as a separate claim under C.2.6,
 - and mixed representation factors.
 
 Keep these readings explicit when testing entry into `A.6.P` or `C.25`; the note should remain upstream while the relevant receiving pattern's entry conditions remain unmet, even if its prose happens to look polished.
 
 #### C.2.2a:13.2 - Routed operator alert note
-Use `Pump-alert-21` from C.2.LS:13.1 to compare the three stated diagnostic alternatives before selecting a check. The alert names Pump P7, its indicated pressure of 70 kPa, the alarm condition `p_indicated(P7,t21) < 90 kPa`, and the contrasting implications of sensor bias, low supply, and an open bypass. Its chart readings are:
+Use `Pump-alert-21` from C.2.LS:13.1 to compare the three stated diagnostic alternatives before selecting a check. The alert names Pump P7, its indicated pressure of 70 kPa, the alarm condition `p_indicated(P7,t21) < 90 kPa`, and the contrasting implications of sensor bias, low supply, and an open bypass. Its chart readings and separate use condition are:
 
 - `F`: the pressure variables and units are defined, the alarm predicate is explicit, and the question and diagnostic contrasts are expressed in prose;
 - `AE = AE4`: the diagnostic question has the participants, conditions, and bounds needed for this comparison;
 - `CD = CD1`: the three alternatives have explicit contrasts, but none has yet been excluded and no diagnostic route has been selected;
-- `LanguageStateAnchoringMode = AM.OperatorLoop`: the alert is connected to the operator's console acknowledgement and diagnostic-check selection;
+- use condition under C.2.6: the console connects the alert to the operator's acknowledgement and diagnostic-check selection; this is stated beside the coordinates;
 - `RepresentationFactorBundle = {local, sparse, symbolic}` for the alert's indicator-code component only: one of eight named units is active, the fixed decoder gives its report label, and the active fraction `1/8` meets the example's local sparse criterion. C.2.LS:13.1 supplies the unit order, decoder, and criterion.
 
 If an accepted reference-gauge reading of 72 kPa for the same sample t21 excludes sensor bias under the stated case rule while the other two alternatives remain, update `CD` to `CD2`. The question remains fully stated and the code, expression properties, and operator-loop connection are unchanged. Keep the live responses explicit in the route-bearing seam publication. Before publishing an endpoint-subject-qualified work record or reliance record, test the applicable downstream pattern's conditions; these chart readings do not decide that result.
 
 #### C.2.2a:13.3 - Viewpoint-bound adequacy note
-A document-mediated adequacy note about an architecture description may state an explicit vocabulary and predicates for its claims, with articulation sufficient for the described comparisons, mid-level closure, document-mediated anchoring and symbolic representation. That position remains within the same language-state chart even though its carrier lane differs from an embodied inquiry cue.
+An adequacy note using identified assertions from an architecture description may state explicit vocabulary and predicates, articulation sufficient for the described comparisons, mid-level closure and symbolic representation. Its account names the document edition and accessible assertions needed for that judgement under C.2.6. Its position can be compared in the same chart as a bodily-observation cue when the selected Characteristics and Scales have the same meanings; source and access claims remain separate.
 
 #### C.2.2a:13.4 - Polished prose is not closure
 A prose rewrite may look cleaner, more compact, or more manager-readable than the source cue and still remain low in closure or articulation explicitness. If the underlying slot values, uncertainty, and route plurality remain unchanged, then publication polish changes the rendering or carrier lane, not the chart position by itself.
@@ -52757,11 +52756,11 @@ When the same expression properties and conditions still answer the receiving qu
 
 #### C.2.3:19.3 - Boundary to language-state facets
 
-This pattern does not redefine `U.ArticulationExplicitness`, `U.LanguageStateClosureDegree`, `U.LanguageStateAnchoringMode` or `U.LanguageStateRepresentationFactorBundle`. C.2.LS and its subordinate patterns govern those facets. A formality assessment can refer to their results when relevant, but must not relabel them as steps of one rigor scale.
+This pattern does not redefine `U.ArticulationExplicitness`, `U.LanguageStateClosureDegree`, the source and use claims recovered through C.2.6 or `LanguageStateRepresentationFactorBundle`. C.2.LS and its subordinate patterns govern those facets. A formality assessment can refer to their results when relevant, but must not relabel them as steps of one rigor scale.
 
 ### C.2.3:End
 
-## C.2.LS - `U.LanguageStateFacetProfile` - Thin profile bundle for language-state facets
+## C.2.LS - Language-State Facet Profile: Publish Readings and Use Conditions Together
 
 > **Type:** Definitional (D)
 > **Status:** Stable
@@ -52769,7 +52768,9 @@ This pattern does not redefine `U.ArticulationExplicitness`, `U.LanguageStateClo
 
 **Plain-name.** Language-state facet profile.
 
-**Use this pattern when.** Use C.2.LS when the next use of a published `U.Episteme` needs an explicit profile of selected language-state readings and local thresholds. Select from formality, articulation, closure, anchoring and representation factors.
+**Technical alias.** `LanguageStateFacetProfile` names the optional record form below. A filled profile is an assessment account governed by C.2.1.
+
+**Use this pattern when.** Use C.2.LS when the next use of a published `U.Episteme` needs an explicit profile of selected language-state readings and local thresholds. Select the required formality, articulation, closure and representation readings, together with any source or use conditions needed to interpret or apply them.
 
 **Sufficient result and non-use.** The profile can point to existing readings and include only the facets needed together. If ordinary wording, one direct facet reading or an applicable existing profile already serves the receiving use, use it without constructing another bundle.
 
@@ -52781,7 +52782,7 @@ This pattern does not redefine `U.ArticulationExplicitness`, `U.LanguageStateClo
 To publish or compare position claims in the language-state chart over `U.CharacteristicSpace`, collect the needed facet references and readings in one profile. This makes the readings and their contribution to a receiving threshold inspectable while each facet pattern supplies its own definition.
 
 ### C.2.LS:2 - Problem
-Without a dedicated profile bundle, authors blur articulation, closure, anchoring, and representation into one vague maturity story, or they silently reuse `F` as a surrogate. That blocks admissible threshold publication, undercuts `A.16` move guards, and makes school-to-school bridge work harder than it needs to be.
+When authors need several facet readings together, a vague maturity label can conceal their different contributions, or `F` can become their surrogate. That blocks admissible threshold publication, undercuts `A.16` move guards, and makes school-to-school bridge work harder than it needs to be.
 
 ### C.2.LS:3 - Forces
 | Force | Tension |
@@ -52791,38 +52792,46 @@ Without a dedicated profile bundle, authors blur articulation, closure, anchorin
 | **Local thresholds vs cross-context comparability** | Contexts need local thresholds, but the facet names must stay stable enough for bridge work and viewpoint bundles. |
 
 ### C.2.LS:4 - Solution
-`U.LanguageStateFacetProfile` is a typed profile bundle that names the facets needed to publish and interpret a position claim in the declared language-state chart over `U.CharacteristicSpace`. Select the applicable references from:
+A language-state facet profile records the selected readings and use conditions about one identified episteme edition. Characteristic readings use the declared language-state chart over `U.CharacteristicSpace`; a separate relation account keeps its own predicates. Use C.2.2a:0 and :4.2–4.5 to select the needed facets, obtain readings and grounds, and identify any conditions used by the receiving action. The profile brings those results together. Its fields can refer to existing readings or to the source and use account supplied by C.2.6. A reading reference makes its Characteristic, Scale, value and assessment scope recoverable; a reference to a source or use claim makes the predicate, participants and grounds recoverable. Select the applicable fields from:
 
 - `formalityRef` -> the expression-property assessment governed by `C.2.3`, including its selected basis and any justified local ordered summary
-- `articulationExplicitnessRef` -> `U.ArticulationExplicitness` from `C.2.4`
-- `languageStateClosureDegreeRef` -> `U.LanguageStateClosureDegree` from `C.2.5`
-- `languageStateAnchoringModeRef` -> `U.LanguageStateAnchoringMode` from `C.2.6`
-- `languageStateRepresentationFactorBundleRef` -> `U.LanguageStateRepresentationFactorBundle` from `C.2.7`
+- `articulationExplicitnessRef` -> the articulation reading governed by `C.2.4`
+- `languageStateClosureDegreeRef` -> the closure reading governed by `C.2.5`
+- `languageStateAnchoringModeRef` -> the source, evidence, access or action-condition claims selected under `C.2.6`; cite their account or an explicitly defined local summary with its criterion
+- `languageStateRepresentationFactorBundleRef` -> the selected representation-factor readings governed by `C.2.7`
 - `thresholdRefs?` -> context-local threshold declarations over the named facets
 - `routeNotes?` -> informative notes that help interpret routing or reopening decisions
 
-`C.2.LS` therefore defines only the **profile bundle**; it defines neither an individual characteristic nor a trajectory. A formality assessment or representation-factor bundle can contain several Characteristics. If placed in a CharacteristicSpace, each of those Characteristics receives its own declared Scale and slot; the reference to the assessment is not itself a Coordinate. `A.18/A.19` supply characteristic semantics, `A.16` defines admissible moves, and `E.18` governs an independently selected TransformationFlowStructure.
+`C.2.LS` therefore defines only the **profile bundle**; it defines neither an individual characteristic nor a trajectory. A formality assessment or representation-factor bundle can contain several Characteristics. If placed in a CharacteristicSpace, each of those Characteristics receives its own declared Scale and slot; the reference to the assessment is not itself a Coordinate. The C.2.6 account is likewise separate from those slots; a local summary needs its own declared Characteristic and Scale before it can supply a Coordinate. `A.18/A.19` supply characteristic semantics, `A.16` defines admissible moves, and `E.18` governs an independently selected TransformationFlowStructure.
 
 #### C.2.LS:4.0a - Kind and profile-bundle boundary
 
-`U.LanguageStateFacetProfile` is a dependent durable profile-bundle value under the declared `U.LanguageStateSpace` and `U.CharacteristicSpace` boundary, not a root U-kind. Its identity is the explicit bundle of language-state facet refs used for position reading and threshold publication. A dashboard or table can publish the bundle; its display or label does not determine the facet readings or their admissible use.
+The optional `LanguageStateFacetProfile` form expresses an ordinary C.2.1 assessment account. The episteme edition being assessed is its EntityOfConcern. Its claims give the selected readings under their chart and scope, their grounds, any required source or use conditions, and any thresholds used in the assessment. C.2.1 governs the account's identity; E.24.PUB governs its expression and publication. No additional profile individual or dependent U-kind is needed for this use.
+
+Distinguish the **selection of facets** from the **filled assessment**. A selection identifies the Characteristics and Scales in the A.19 basis and any separate C.2.6 questions needed by the receiving use. The same selection can be used for several assessments, just as the same record form can express them. A filled assessment states readings about its identified episteme edition and scope; changing a reading or a stated relation changes that claim content even if every definition reference stays the same. A threshold predicate has its own by-value identity under A.19:5.1.8. Reusing readings with a different predicate requires a new evaluation of that predicate, while the readings can remain unchanged.
+
+For reuse, recover the assessed edition, chart meanings, scope, readings and relied-on grounds from the profile or its applicable cited source. Recover a threshold or a separate source or action condition and its receiving use when the conclusion relies on it. Saying which of the selection, readings, threshold or whole assessment is being reused prevents an unchanged label from concealing changed content. Rearranging the same claims in a dashboard or table leaves their meanings available under the same account-identity rule.
+
+**Choose direct readings or a shared profile.**
+
+Use direct facet readings when they already provide the inputs for the receiving judgement. A shared profile is useful when several readings and their conditions must be interpreted, compared or reused together: the reader can recover their joint scope and see which of them a local threshold actually uses. This saves reassembling dispersed references. The profile adds no stronger warrant to the readings. Keep it partial when the task needs only part of the facet family, and reuse an existing applicable assessment rather than writing another.
 
 #### C.2.LS:4.1 - Contribution boundary
 `C.2.LS` defines only profile composition and requires the language-state facets to remain explicit and non-collapsed. It does **not**:
 
 - redefine `F`;
 - invent a universal formality progression or an undeclared local summary;
-- redefine the scale semantics of `AE`, `CD`, `LanguageStateAnchoringMode`, or `U.LanguageStateRepresentationFactorBundle`;
+- redefine the scale semantics of `AE`, `CD` or the representation factors in `C.2.7`, or replace the direct predicates recovered through C.2.6;
 - define reopen/backoff moves;
 - define endpoint classification or bridge kinds.
 
 #### C.2.LS:4.2 - Threshold publication discipline
-Any threshold used to choose a next question, constrain an admissible move, or begin `A.6.P` recovery shall be published on explicit named facets in the profile. Do not describe hidden sub-levels of `F` when the real issue is articulation, closure, anchoring, or the representation-factor bundle.
+Any threshold used to choose a next question, constrain an admissible move, or begin `A.6.P` recovery shall be published on explicit named facets in the profile. Do not describe hidden sub-levels of `F` when the real issue is articulation, closure, a source or use condition, or the representation-factor bundle. A required relation is tested under its direct predicate; only a declared Characteristic reading participates as a slot value in an A.19 threshold.
 
 #### C.2.LS:4.2.a - Local profile-reading witness
 For this pattern, a published facet profile is reviewable when:
 
-- the selected facet refs and readings are explicit or recoverable from a cited applicable upstream publication;
+- the assessed episteme edition, chart, scope, selected refs, readings and any relied-on source or use claims are explicit or recoverable from a cited applicable upstream publication;
 - any threshold-bearing use names the facet whose threshold is being invoked;
 - route notes or local overlays remain informative and visibly docked to the explicit facet bundle;
 - and any claimed move, Bridge, gate state or downstream result retains its own governing definition and test.
@@ -52834,7 +52843,7 @@ A language-state judgement may be composite, but the composite shall be decompos
 
 - low `AE`,
 - medium `CD`,
-- `AM.TraceAnchored`,
+- derived from an identified trace, with any evidential use separately qualified,
 - and representation-wise mixed rather than purely symbolic.
 
 A conforming profile makes this decomposition visible rather than hiding it under one stage label such as "early" or "raw".
@@ -52845,11 +52854,11 @@ A conforming profile makes this decomposition visible rather than hiding it unde
 That map does not change this boundary: `C.2.LS` still does not define cue preservation, route-bearing publication, prompt entry, or downstream endpoint use.
 
 ### C.2.LS:5 - Archetypal Grounding
-**Tell.** A team may say a draft is "still forming" for different reasons. `U.LanguageStateFacetProfile` forces the team to say whether the issue is low articulation, low candidate-space closure, an anchoring mismatch, or an unresolved representation-factor bundle.
+**Tell.** A team may say a draft is "still forming" for different reasons. The profile lets the team identify whether the issue is low articulation, low candidate-space closure, an unavailable observation or use condition, or an unresolved representation-factor bundle.
 
-**Show (System).** An operator alert note can have stable alert terms and structure, `AM.OperatorLoop` anchoring and low closure.
+**Show (System).** An operator alert note can have stable alert terms and structure and low closure, while participating in an operator acknowledgement-and-check procedure.
 
-**Show (Episteme).** An inquiry note can be low articulation yet anchored to exemplars and traces.
+**Show (Episteme).** An inquiry note can be low articulation while reporting identified exemplars and observations.
 
 ### C.2.LS:6 - Bias-Annotation
 Making selected facet readings explicit costs more than using one stage adjective. It lets the receiving reader test the actual threshold; retain the ordinary wording or existing reading when that already serves the use.
@@ -52866,7 +52875,7 @@ Making selected facet readings explicit costs more than using one stage adjectiv
 ### C.2.LS:8 - Common Anti-Patterns and How to Avoid Them
 - **Shadow progression.** Treating `early/late` as a master scale. Split the judgement into the named facets.
 - **Formality capture.** Letting `F` stand in for closure or articulation. Publish those facets explicitly.
-- **Bundle inflation.** Turning `U.LanguageStateFacetProfile` into a second `A.19`. Keep it thin and referential.
+- **Bundle inflation.** Turning the profile into a second `A.19`. Keep it thin and referential.
 - **Opaque readiness.** Using words such as `ready` or `mature` without naming which facet justifies the claim.
 - **Route-note capture.** Letting an informative route note act as a move rule, gate state, or endpoint rule. Keep route notes informative. Use `A.16` for admissible moves, the applicable pattern for a downstream definition or test, the applicable gate or Work pattern for those claims, and an `authoritySourceRef` only when an external authority actually supplies the rule.
 
@@ -52888,7 +52897,7 @@ The profile brings together the references needed to interpret facet readings an
 **Local stance.** The useful bounded result is a small explicit facet profile with local thresholds and decomposable readings, not one maturity adjective or one route-coloured bundle label.
 
 ### C.2.LS:12 - Relations
-- Builds on: `A.18`, `A.19`, `C.2.2a`, `C.2.3`.
+- Builds on: `A.18`, `A.19`, `C.2.1`, `C.2.2a`, `C.2.3`, `E.24.PUB`.
 - Coordinates with: `C.2.4`, `C.2.5`, `C.2.6`, `C.2.7`, `A.16.0`, `A.16`, `A.16.1`, `A.16.2`, `B.4.1`, `B.5.2.0`, `E.18`, `F.9` for any Bridge and bounded-use claim, and `F.9.1` only for an optional stance note about that claim.
 - Constrains: language-state threshold publication and profile composition.
 ### C.2.LS:13 - Worked Examples and Composition Notes
@@ -52915,7 +52924,7 @@ The profile states:
 - its formality assessment covers the displayed alert condition and question: the pressure variables and units are defined, the threshold predicate is explicit, and the question and diagnostic contrasts are expressed in prose;
 - `AE = AE4` for the initial diagnostic question, because its subject, indicated condition, alternatives, contrasting implications, and bounded receiving use give a complete branch-appropriate expression (C.2.4:4.2);
 - `CD = CD1`, because the contrasts weakly stabilize the stated candidate field while all three alternatives remain live and no route is selected (C.2.5:4.2);
-- `LanguageStateAnchoringMode = AM.OperatorLoop`, because the alert is directly connected to the operator's acknowledgement and diagnostic-check selection (C.2.6:4.1);
+- the C.2.6 account states that the console connects the alert to the operator's acknowledgement and diagnostic-check selection; this action condition is separate from the chart readings;
 - `RepresentationFactorBundle = {local, sparse, symbolic}` for the indicator-code component: one unit identifies the report, the active fraction `1/8` satisfies the stated local criterion, and the named units have an explicit decoding rule (C.2.7:4.1). These readings concern the code; assess the surrounding prose separately if its representation factors matter.
 
 **Changed condition.** Suppose an accepted reference-gauge reading for the same sample t21 becomes available: 72 kPa. Under the stated case implications it excludes sensor bias, while low supply and an open bypass remain live. The meaningful reduction from three candidates to two supports `CD2`; it selects neither remaining route. The updated diagnostic question still has its complete expression, and the pressure vocabulary, alarm predicate, indicator code, and operator-loop connection are unchanged. Apply the receiving pattern's own conditions when choosing the next question, check, or endpoint use.
@@ -52923,20 +52932,26 @@ The profile states:
 The alert has a complete question and still-open diagnostic alternatives. Its code factors and operator-loop connection answer different questions; no one facet replaces the others.
 
 #### C.2.LS:13.2 - Research cue before lexical repair
-A felt or trace-anchored mismatch cue in an inquiry note may be:
+An inquiry note reporting a mismatch noticed through bodily observation may state:
 
 - low `AE`,
 - very low `CD`,
-- `AM.EmbodiedFelt`,
+- the observer, bodily observation and reported mismatch, with a trace reference if an instrumental observation also contributes,
 - and representation-wise mixed because the cue is partly verbal, partly kinesthetic, partly exemplar-based.
 
 Use the profile to identify what the next question still needs. `A.16.1` preserves the cue; `A.6.P` can recover an unclear relation, and `B.5.2` starts from an admissible `U.AbductivePrompt`. Apply the receiving pattern's conditions when choosing the move.
 
 #### C.2.LS:13.3 - Architecture-description case
-A viewpoint-bound note about the adequacy of an architecture description may state its constraints through explicit typed predicates, be moderately high in `AE`, still mid-level in `CD`, document-mediated in `AM`, and symbolic in its representation-factor bundle. The profile keeps description-side adequacy distinct from system-side engineering quality.
+A viewpoint-bound note about the adequacy of an architecture description may state its constraints through explicit typed predicates, be moderately high in `AE`, still mid-level in `CD` and symbolic in its representation-factor bundle. Its C.2.6 account identifies the document edition and assertions used for the adequacy judgement. The profile keeps description-side adequacy distinct from system-side engineering quality.
 
 #### C.2.LS:13.4 - Same `F`, different profile
-Two notes may supply the same required expression properties and still differ sharply in articulation, closure, anchoring, and representation factors. One may be operator-loop anchored and low-closure; another may be document-mediated and comparatively closed. The profile bundle keeps that difference visible instead of letting `F` behave like a master factor.
+Two notes may supply the same required expression properties and still differ sharply in articulation, closure, source and use conditions, and representation factors. One may be used in an operator's check procedure with diagnostic alternatives still open; another may assess a document's assertions with comparatively closed alternatives. The profile bundle keeps that difference visible instead of letting `F` behave like a master factor.
+
+#### C.2.LS:13.5 - Reuse the selection while readings or thresholds change
+
+In :13.1, the facet definitions and record form remain available after the reference-gauge reading arrives. The closure assessment changes from `CD1` to `CD2`; retain the assessed alert edition and the new grounds in the updated assessment. This is reuse of the facet selection with changed claim content, not reuse of the earlier closure reading.
+
+Now consider two stipulated receiving rules for that same assessment. A diagnostic-comparison meeting requires an explicit question and contrasting alternatives; it can use the available `AE4` reading. An action-selection rule additionally requires a selected diagnostic route. `CD2` still leaves two alternatives live, so that rule's condition is not met. The same readings support these different conclusions because the receiving conditions differ. If both assessments publish their threshold conditions, their full contents differ; the common readings may be cited once. Neither rule changes what `AE4` or `CD2` means, and each applies only to the stated receiving use.
 
 ### C.2.LS:14 - Authoring and Review Guidance
 
@@ -52965,47 +52980,51 @@ Integrators should preserve the profile references. A local alias is acceptable 
 Contexts may extend the profile with local threshold refs, route notes, or additional descriptive aids, but they shall not add a new master facet that collapses the named facet set into one summary factor.
 
 #### C.2.LS:15.2 - Migration from surrogate prose
-When a stage label carries a claim used in routing, comparison or another decision, recover the readings it abbreviates. Examples include:
+When a stage label carries a claim used in routing, comparison or another decision, recover the readings and conditions it abbreviates. Examples include:
 
 - "the episteme is still early",
 - "the issue is not mature enough",
 - "the note is ready",
 - "the cue is still raw".
 
-For that use, state the facet reading and its grounds, whether any relied-on threshold is met, and the governing rule for the resulting move. An ordinary description with no such operational claim needs no profile expansion.
+For that use, state the relevant readings or relation claims and their grounds, whether any relied-on threshold is met, and the governing rule for the resulting move. An ordinary description with no such operational claim needs no profile expansion.
 
 #### C.2.LS:15.3 - Boundary reminder
 Use the profile to refer to facet readings and applicable thresholds. Definitions and tests for moves, Bridges, Scales and bundles remain with their governing patterns.
+#### C.2.LS:15.4 - Use a facet selection in an assessment
+
+A record containing only references to facet definitions supplies a selection of Characteristics and any separate source or use questions to be answered. To use it for a position assessment, add or cite the required readings and relation claims, identify the episteme edition being assessed and state the assessment scope. Retain the definition references so the meaning of each reading remains recoverable.
+
 ### C.2.LS:16 - Profile Publication Package Discipline
 
 #### C.2.LS:16.1 - Minimal publishable profile package
-A publishable `U.LanguageStateFacetProfile` carries what its receiving use needs:
+A publishable `LanguageStateFacetProfile` carries what its receiving use needs:
 
-- the selected facet refs from :4, with their readings or references to those readings;
+- the selected refs from :4, with the relevant readings or relation claims, stated here or cited;
 - any threshold refs that substantively affect routing, repair, bridge interpretation, or review load;
 - the relation to `F` when readers might otherwise treat `F` as a surrogate;
-- any missing or unknown reading that could change the receiving judgement.
+- any missing or unknown reading or unresolved source or use condition that could change the receiving judgement.
 
-One-line publication is admissible only if the facet definitions and tests remain legible.
+One-line publication is admissible only if the applicable facet definitions and tests, and the grounds of any relation claims, remain recoverable.
 
 #### C.2.LS:16.2 - Partial-profile rule
-A partial profile identifies its selected facets and any missing reading that could change the receiving judgement. Publishing `AE` and `CD` can suffice when anchoring is irrelevant to that use. When anchoring matters, report its value, a supported set of remaining possible modes, or a decision-relevant `unknown` under C.2.2a:4.2; `AM.Mixed` requires the identified components under C.2.6.
+A partial profile identifies its selected facets and any missing reading that could change the receiving judgement. Publishing `AE` and `CD` can suffice when a source or interaction condition is irrelevant to that use. When such a condition matters, state the relation and its grounds or the decision-relevant unknown under C.2.6:4.3. For an independently defined local Characteristic, use C.2.2a:4.2 for its reading and uncertainty.
 
 One facet can be sufficient for the named use. Refer to other readings only when that use needs them; no note about irrelevant omissions is required.
 
 #### C.2.LS:16.3 - Overlay discipline
-Local overlays such as "explicit-but-open", "trace-anchored", or "operator-loop anchored" are admissible only when their meanings are recoverable from the explicit facet readings and refs. Overlays remain secondary to the declared profile and must not replace the facet bundle.
+Local overlays such as "explicit-but-open", "derived from trace T", or "requires operator acknowledgement" are admissible only when their meanings are recoverable from the readings or relation claims stated or cited in the profile. Overlays remain secondary to the declared profile and must not replace the facet bundle.
 
 ### C.2.LS:17 - Cross-Facet Reading Rule
 
 #### C.2.LS:17.1 - No master-facet reading
-Do not infer the whole language-state profile from one facet. High `AE` does not entail high `CD`; `AM.OperatorLoop` does not fix `AE` or `CD`; symbolic representation does not establish the expression properties needed by the receiving use; low `CD` does not imply low operational consequence.
+Do not infer the whole language-state profile from one facet. High `AE` does not entail high `CD`; an operator acknowledgement condition does not fix `AE` or `CD`; symbolic representation does not establish the expression properties needed by the receiving use; low `CD` does not imply low operational consequence.
 
 #### C.2.LS:17.2 - Threshold interaction rule
 When a threshold is expressed over one facet, say whether the other facets are merely informative or also constraining. An applicable local rule may allow entry into `B.5.2.0` once `AE` suffices for an explicit open question while still capping `CD` so rival answers remain live; it may allow entry into `A.6.P` at `AE3+` while still capping `CD` so the move remains exploratory rather than endpoint-binding.
 
 #### C.2.LS:17.3 - Transition reading rule
-Read profile transitions facetwise. A note may become more explicit without becoming more closed. A shift from trace anchoring to document mediation can leave closure unchanged. A representation may become more symbolic without adding the expression properties needed by its receiving use. `A.16`, `A.16.1`, `A.16.2`, `B.4.1`, and `B.5.2.0` should therefore cite the facet transition that actually justifies the move.
+Read changes in the profile's readings and source or use conditions separately. A note may become more explicit without becoming more closed. Replacing direct access to an observation with access to its written report can leave closure unchanged while changing which check the recipient can perform. A representation may become more symbolic without adding the expression properties needed by its receiving use. `A.16`, `A.16.1`, `A.16.2`, `B.4.1`, and `B.5.2.0` should therefore cite the change in a reading or in a source or use condition that justifies the move.
 
 ### C.2.LS:18 - Review Matrix and Migration Tests
 
@@ -53020,7 +53039,7 @@ An assurance reader should ask:
 - if viewpoint conformance is claimed, was it tested under `E.17.0`?
 
 #### C.2.LS:18.2 - Migration test for source prose
-When a receiving use depends on a source phrase such as "still immature" or "already stable enough", recover the claimed facet reading, its grounds, any threshold or route consequence, and the cited rule that warrants that consequence. Add an external `authoritySourceRef` only when an external authority actually supplies the rule.
+When a receiving use depends on a source phrase such as "still immature" or "already stable enough", recover the claimed reading or relation, its grounds, any threshold or route consequence, and the cited rule that warrants that consequence. Add an external `authoritySourceRef` only when an external authority actually supplies the rule.
 
 #### C.2.LS:18.3 - Comparative profile use
 Compare profiles on the named facets. A missing reading leaves that facet's comparison unresolved. A reporting aggregate needs a declared local model and operations admissible for the actual Scales under A.18/A.19; publishing an aggregation rule alone does not establish that basis. The aggregate remains secondary and must not replace the profile in norms, thresholds, or Bridge claims.
@@ -53427,182 +53446,190 @@ A publication may be closed enough for immediate local work use or reliance use 
 
 ### C.2.5:End
 
-## C.2.6 - `U.LanguageStateAnchoringMode` — How Is the Episteme Anchored?
+## C.2.6 - Sources, Evidence and Conditions for Using an Episteme
 
-> **Type:** Definitional (D)
+> **Type:** Architectural (A)
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
-**Plain-name.** Language-state anchoring mode.
+**Plain-name.** Sources and conditions of episteme use.
 
-**Use this pattern when.** Use C.2.6 when how an episteme is anchored changes its interpretation, comparison or use. The mode can distinguish bodily enactment, traces, model state, document mediation, an operator loop or an explicit mixture. An ordinary description of the anchor is sufficient unless the receiving use needs a declared mode.
+**Use this pattern when.** A claim or cue is being reused, translated or published elsewhere, and the receiving work needs to know what produced it, what supports it, or how someone can use it. An analyst reading an operator's vibration report, for example, may need the operator's observation and its circumstances before treating the report as evidence about a machine.
 
-**What goes wrong if missed.** A prose note hides an embodied, trace-based, model-latent, or operator-loop cue; bridge-loss notes disappear; and the final publication face is mistaken for the original anchoring regime.
+**Sufficient result and non-use.** State the relations and conditions that can change the intended interpretation, check or action. Use an already sufficient description directly. A new account, classification or chart is unnecessary when the receiving work can recover those facts and conditions from the available text.
 
-**What this buys.** A nominal Characteristic for comparing how epistemes are anchored, independently of their publication forms. Evidence and loss accounts can then address the actual anchoring relation.
+**What goes wrong if missed.** A report can preserve a sentence while losing access to the observation, model state or interaction needed to use it. An unspecified claim that it is "anchored" leaves the reader to infer whether this means derivation, evidence or an actual condition of action.
+
+**What this buys.** The recipient can identify which conclusions remain supported, which action conditions still hold and what must be recovered before the intended use can continue.
 
 ### C.2.6:1 - Problem frame
-Published position claims in the declared language-state chart over `U.CharacteristicSpace` differ not only by articulation and closure, but by how the `U.Episteme` named in that claim is anchored to bodies, traces, model states, documents, or operator loops.
+A `U.Episteme` may be produced from observations, refer to a model state, report another document's assertions and participate in an operator's decision. These facts answer different questions about the same episteme. Their importance changes with the receiving use.
 
 ### C.2.6:2 - Problem
-When a comparison or use depends on anchoring, leaving it implicit can hide the difference between a bodily cue, a trace and a description of either. A representation label alone may leave that difference unresolved.
+A common label can conceal the particular relation on which a use depends. Knowing that a reading was computed from a trace establishes its provenance; using that trace as evidence for a claim also requires the relevant observation and target claim to match. Publishing the reading in a document supplies access to its expression. A separate interaction may make the reading available for an operator's next check.
 
 ### C.2.6:3 - Forces
 | Force | Tension |
 |---|---|
-| **Embodiment vs abstraction** | Preserve embodied and operator-facing cases while making their anchoring explicit. |
-| **Small core vs real diversity** | Keep the core compact while allowing multiple admissible anchoring regimes. |
-| **Comparability vs oversimplification** | Compare anchoring regimes while retaining distinctions that a text-vs-nontext split hides. |
+| **Embodiment vs abstraction** | Preserve bodily observations and operator participation while making their contribution explicit. |
+| **Compact description vs relevant detail** | Keep only the relations needed by the receiving use, with enough detail to establish them. |
+| **Comparability vs oversimplification** | Compare a shared aspect without treating different relations as values of one unspecified Scale. |
 
 ### C.2.6:4 - Solution
-`U.LanguageStateAnchoringMode` is a nominal characteristic that states the primary anchoring regime of the `U.Episteme` named by the current position claim: bodily enactment, trace, model state, document, operator loop, or an explicit mixed regime. When a receiving episteme has a different anchoring regime from its source, distinguish both. A change of publication form alone does not establish that difference.
+Recover the claims about sources, evidence, access and action conditions that the receiving work actually needs. State each with its participants and grounds. Then determine what publication, translation or a changed use preserves, changes or leaves unknown. The result is an ordinary account of those facts and conditions; C.2.1 governs the account and E.24.PUB governs its publication.
 
-#### C.2.6:4.0a - Kind and characteristic boundary
+#### C.2.6:4.0a - Relations, readings and a shared account
 
-`U.LanguageStateAnchoringMode` is the Characteristic of an episteme assessed in the declared language-state chart. Its readings belong to a nominal Scale; the chart slot binds that Characteristic to its Scale under A.18/A.19. The mode identifies how the episteme is anchored. Any evidence, currentness or action claim still needs the relation and conditions that establish it.
+A source relation, an evidence-use claim and an operator's use of an alert can hold together. Each keeps its own predicate and grounds. For empirical grounding, apply C.2.1:4.3 to the designated claim coverage and observation or test; apply A.2.4 to the relation between the evidence episteme and its target claim, and A.10 when provenance or bounded reliance must be established. Use C.2.P to distinguish the epistemic objects. When basedness is hidden by an umbrella word, apply A.6.6:4.0; A.6.P supplies the wider route to an unclear direct relation. Return their exact assertion or unresolved condition to the receiving use. An ordinary adequate statement can supply this account without a new formal record.
 
-#### C.2.6:4.1 - Starter family
-| Mode | Reading | Possible witness of anchoring |
+An account collecting several such statements is not one Coordinate. A language-state profile may cite it beside its Characteristic readings. A local summary can occupy a chart slot only when its single measured aspect, subject/input signature and Scale are defined under A.18/A.19, as :15.1 explains. The account's component relations remain recoverable.
+
+#### C.2.6:4.1 - Distinctions that can change use
+The following are recurring examples of questions to resolve, not a closed taxonomy or alternatives on one Scale. Select a question because its answer can change the intended use.
+
+| Working question | Claim to recover | Possible basis |
 |---|---|---|
-| `AM.EmbodiedFelt` | bodily or kinesthetic anchoring matters directly | embodiment note, felt trace, human witness |
-| `AM.TraceAnchored` | traces or observations anchor the episteme | trace references, measured events, observations |
-| `AM.ModelLatent` | latent or internal model state is the key anchor | model-state refs, probe results, latent summaries |
-| `AM.DocumentMediated` | document or description is the principal anchor | documents, cards, method-description text |
-| `AM.OperatorLoop` | the episteme is directly tied to operator intervention or console control | operator witness, console event, policy hook |
-| `AM.Mixed` | more than one anchoring mode matters substantively | explicit component list and why the mix matters |
+| What did someone experience or do? | The person's bodily sensation, observation or enactment, and what the resulting cue reports. | Witness account, observation circumstances or an observed performance. |
+| Where did this reading come from? | The source trace and the operation that produced the reading. If evidence is needed, separately establish what observation supports which target claim. | Trace references, measured events and the calculation or other derivation; evidence qualification for the target claim. |
+| What does this model-derived account report? | The identified model state, probe or decoding operation and its output; the grounds for the interpretation made from that output. | Model-state references, probe conditions and results, and interpretation evidence. |
+| What can the recipient recover from the document? | The particular assertions available to that recipient, and any source or evidence claim on which their use depends. | The identified document edition, accessible content and relevant cited sources. |
+| How is the information used in an operator's work? | Who acknowledges, interprets or acts on it, and which actual interaction or rule connects that act to a check or control action. | Operator observation, console event or an applicable action rule, with the implementation or performance needed for the claimed connection. |
+
+##### C.2.6:4.1.1 - Recover the relations needed for one receiving use
+
+1. Identify the episteme edition, the claim or cue being used and the receiving judgement or action. Keep a source episteme and an analyst's resulting account distinct under C.2.P when their contents or concerns differ.
+2. Ask which facts the receiving work needs: for example, the source of a reading when diagnosing a calculation, the relevant observation when checking a pressure claim, or an acknowledgement condition when arranging an operator's next check. Obtain only the relations that can change that work. The table in :4.1 helps locate common questions; the subject of the work determines the answer and can require another relation.
+3. State each needed relation with its actual participants, applicable scope and grounds. When a trace is used as evidence, establish its relation to the target claim as well as its provenance. When an action is claimed, establish the actual interaction or governing condition and the relevant performer. Preserve a consequential unknown instead of filling it from a neighbouring fact.
+4. Compare the source situation with the receiving situation. Identify what remains accessible and applicable, what changed and what those changes permit or prevent. Retain supported claims and return to a missing observation, interpretation or action condition where the proposed use depends on it.
+
+For example, an alert can be computed from a measurement, delivered in a report and acknowledged by an operator. Replacing the report file while preserving the accessible assertions can leave the derivation and evidence unchanged. Discovering that the measurement concerned another pump changes its evidential use for the pressure claim. Disabling an acknowledgement channel changes the interaction available to the operator. These changes call for different continuations, so the account must keep their predicates distinct.
 
 #### C.2.6:4.2 - Contribution boundary
 
-The mode characterizes anchoring of the episteme named in the position claim. Representation factors describe how information is represented; closure describes fixity. Neither follows from an anchoring mode. Apply the rule for any further claim, such as an evidence relation or permission to act.
+This pattern organizes the source and use questions; their direct patterns establish the individual claims. Representation factors describe how information is represented; closure describes fixity of the current candidate space. Assess those Characteristics under their own definitions. A required bodily observation or operator participation is stated here or in the cited account, with its actual contribution to the receiving work.
 
-If embodiment matters, it shall be declared here or immediately beside this characteristic rather than being hidden inside representation talk.
-
-#### C.2.6:4.3 - Mixed-mode rule
-`AM.Mixed` is admissible only when the component modes are named explicitly. "Mixed" shall not stand in for an undetermined anchoring mode.
+#### C.2.6:4.3 - Several relations and incomplete information
+When several relations matter together, name each and explain its contribution. Distinguish their established conjunction from alternatives left unresolved by the available evidence. For example, "the source was either a sensor reading or a simulation" leaves provenance uncertain; it does not establish that both sources contributed. A generic "mixed" label supplies neither the missing facts nor their conjunction.
 
 #### C.2.6:4.4 - Bridge implications
-An anchoring shift can matter when a receiving use needs a semantic relation between local senses from different semantic contexts. A receiving episteme anchored in a document may depend on a source anchored in bodily experience or model state. That difference may affect the evidence or loss account for the semantic correspondence. Use F.9 to state and test the Bridge and the separate bounded-use claim, with its evidence and loss account. Use F.9.1 only for a separate optional stance note about that claim.
+A receiving use may need a semantic relation between local senses from different semantic contexts. The recipient's access to a report can differ from the source practitioner's bodily observation or access to model state. That difference may affect the evidence or loss account for the proposed semantic correspondence. Use F.9 to state and test the Bridge and the separate bounded-use claim, with its evidence and loss account. Use F.9.1 only for a separate optional stance note about that claim.
 
 ### C.2.6:5 - Archetypal Grounding
-**Tell.** A felt cue, a controller-side probe score, and a textual design note may all be early cues, but they are anchored differently.
+**Tell.** A felt cue, a controller-side probe score and a textual design note can all help begin an inquiry. Recover the observation, computation or reported assertions that the intended inquiry needs.
 
-**Show (System).** An alert episteme directly tied to operator intervention or console control has mode `AM.OperatorLoop`, even when displayed as text.
+**Show (System).** A console alert is used in an acknowledgement-and-check procedure. Its use account identifies the operator's acknowledgement and how the next diagnostic check is selected. A text display can carry the alert while these action conditions remain essential.
 
-**Show (Episteme).** An episteme published from a model-probe cue grounded in latent state has mode `AM.ModelLatent` even when rendered into prose.
+**Show (Episteme).** A model probe produces a score from an identified internal state. A later prose account reports that result. Recovering the state and probe establishes the derivation; the account's interpretation needs its own stated grounds.
 
 ### C.2.6:6 - Bias-Annotation
-The pattern prompts authors to declare anchoring when wording such as "the system wants" or "the note suggests" leaves the anchor unclear.
+The questions favour explicit source and use claims when they affect a decision. Statements about bodily experience need an obtainable witness or other appropriate basis for the claim being made; describing that experience does not require reducing it to a document property.
 
 ### C.2.6:7 - Conformance Checklist
-- `CC-C.2.6-1` Anchoring mode **SHALL NOT** be inferred from publication phrasing alone when it matters for source use, reliance, or bridge interpretation.
-- `CC-C.2.6-2` Embodiment-sensitive or operator-loop cases **SHOULD** declare the embodiment or operator anchor explicitly.
-- `CC-C.2.6-3` `U.LanguageStateAnchoringMode` **MUST NOT** be collapsed into `U.LanguageStateRepresentationFactorBundle`.
-- `CC-C.2.6-4` Mixed-mode declarations **SHALL** list their component modes explicitly.
+- `CC-C.2.6-1` Source, evidence or action relations **SHALL NOT** be inferred from publication phrasing alone when they matter for source use, reliance or Bridge interpretation.
+- `CC-C.2.6-2` Embodiment-sensitive or operator-loop cases **SHOULD** declare the relevant observation, enactment or operator interaction explicitly.
+- `CC-C.2.6-3` Source and use claims **MUST NOT** be collapsed into the representation-factor readings governed by C.2.7.
+- `CC-C.2.6-4` A declaration that several relations jointly matter **SHALL** identify those relations and their contribution explicitly.
 
 ### C.2.6:8 - Common Anti-Patterns and How to Avoid Them
-- **Text-only illusion.** Treating every cue as document-mediated because it has been written down.
-- **Representation capture.** Using symbolic/distributed labels to hide world-anchoring distinctions.
-- **Embodiment mystification.** Treating bodily or operator-loop cues as beyond explicit publication.
+- **Text-only illusion.** Treating a written report as a sufficient account of the observation or interaction that its use needs. Recover the relevant claim and its basis.
+- **Representation capture.** Using symbolic/distributed labels to conceal a source or use condition. State that condition separately.
+- **Embodiment mystification.** Treating bodily or operator-loop cues as beyond explicit publication. Publish the relevant observation or action account and the limits of its recovery.
+- **Common-word classification.** Grouping provenance, evidence and interaction as alternative values because each has been called "anchoring". Establish the actual predicate before choosing a Scale.
 
 ### C.2.6:9 - Consequences
-The mode makes differences in anchoring available to comparison and use. Establishing a mode requires enough information about its anchor; a shift involved in a semantic Bridge also needs the applicable loss account.
+The recipient can inspect the facts that make the proposed use possible and return to the particular missing basis. This requires enough source and interaction detail for that use. An account can cite existing adequate descriptions; repeating them or filling every row of :4.1 adds no necessary assurance.
 
 ### C.2.6:10 - Rationale
-The declared language-state chart over `U.CharacteristicSpace` needs one explicit anchoring basis slot so that `A.16.0`, `A.16.1`, `B.4.1`, and `F.9.1` can refer to anchoring regime without redefining it.
+`A.16.0`, `A.16.1`, `B.4.1` and an applicable F.9 use need to preserve different facts when a cue is expressed or used elsewhere. An observation may remain the source after it is reported in text, while the recipient has access only to that report. An operator's interaction can change independently of either. Direct statements preserve these distinctions and explain which continuation changes. A common nominal summary is useful only when a specified comparison really consumes it and its criterion consistently measures one aspect (:15.1).
 
 ### C.2.6:11 - SoTA-Echoing
-The facet is motivated by embodied cognition, operator-facing interaction practice, active inference, and modern model-probing practice, all of which distinguish cue content from anchoring regime.
+The following sources contribute particular distinctions and alternatives for the use questions in :4.1.1. They do not establish one universal classification of the listed relations.
+
+| Source and status | Contribution and boundary |
+|---|---|
+| [Hutchins, *How a Cockpit Remembers Its Speeds* (1995)](https://pages.ucsd.edu/~c8johnson/COGS102B/Hutchins95.pdf), historical account, pp.13–16 | Coordinated instrument settings, spoken reports and pilot actions show why the actual working connections matter. This supports recovery of operator interaction and its conditions. |
+| [W3C PROV-DM (2013)](https://www.w3.org/TR/prov-dm/#term-Derivation), §§2.2.1.2 and 5.2.1, stable provenance comparator | Derivation exposes the entities, activity, usage and generation involved. Such explicit relations preserve the dependency needed to inspect where a result came from. |
+| [Fraser-Taliente et al., *Natural Language Autoencoders* (2026)](https://transformer-circuits.pub/2026/nla/index.html), Method and Discussion | Activation verbalization distinguishes model-state input from its textual explanation. Reported confabulations require a separate basis for the explanation's claims; identification of the input establishes the source connection only. |
+| [Denamganaï (October 2026)](https://arxiv.org/html/2610.18727v1), §§6.2–7, exploratory preprint | In limited transcript-level tests, activation identification and true-account discrimination differ. This reinforces the boundary between recovering a source connection and warranting an interpretation; processing-level claims remain untested. |
 
 ### C.2.6:12 - Relations
-- Builds on: `A.18`, `A.19`, `C.2.P`, `C.2.2a`, `C.2.LS`.
-- Coordinates with: `A.7`, `A.16.0`, `A.16`, `A.16.1`, `B.4.1`, `B.5.2.0`, `C.2.7`, `F.9` for any Bridge and bounded-use claim, and `F.9.1` only for an optional stance note about that claim.
-- Constrains: cue publication and bridge loss notes.
+- Builds on: `C.2.1`, `C.2.P`, `A.2.4` and `A.10` for the relevant direct claims; `A.6.6` and `A.6.P` when the relation needs recovery; `A.18/A.19` for an independently defined local Characteristic.
+- Coordinates with: `A.7`, `A.16.0`, `A.16`, `A.16.1`, `B.4.1`, `B.5.2.0`, `C.2.2a`, `C.2.LS`, `C.2.7`, `F.9` for any Bridge and bounded-use claim, and `F.9.1` only for an optional stance note about that claim.
+- Constrains: source and use accounts in cue publication and Bridge loss notes.
 ### C.2.6:13 - Worked Examples and Bridge-Loss Cases
 
-#### C.2.6:13.1 - Embodied-to-document shift
-An operator first notices vibration through bodily sensation. That cue has `AM.EmbodiedFelt` anchoring even after it is described in prose. A later analyst who has only the written account may form a receiving episteme anchored in that document, with mode `AM.DocumentMediated`. Distinguish the source cue from the analyst's episteme and assess any loss that matters to the intended comparison or use. Apply F.9 when the use claims a semantic correspondence between local senses from different semantic contexts.
+#### C.2.6:13.1 - Bodily observation and its written report
+An operator first notices vibration through bodily sensation. A prose report describes that observation. A later analyst who has only the report can recover its assertions but cannot repeat the operator's sensation from the text. Distinguish the source cue from the analyst's episteme; identify which observation circumstances the intended comparison or check needs and whether the report preserves them. Apply F.9 when the use claims a semantic correspondence between local senses from different semantic contexts.
 
-#### C.2.6:13.2 - Model-latent to operator-loop case
-An episteme recording a latent probe score is anchored in model state (`AM.ModelLatent`). A receiving alert episteme can have `AM.OperatorLoop` anchoring when it is directly tied to operator intervention or console control. Keep the model-side source and the operator-loop anchor visible. Merely displaying the score on a console does not establish the operator-loop relation.
+#### C.2.6:13.2 - Model-derived score used by an operator
+An episteme records a probe score obtained from a model state. A receiving alert reports that score in a procedure that requires operator acknowledgement before selection of the next diagnostic check. Keep both the source/probe derivation and the acknowledgement condition visible. A console display establishes the latter connection only when the required interaction is actually provided; the displayed score alone does not show that.
 
-#### C.2.6:13.3 - Mixed-mode publication
-An alert note may admissibly be `AM.Mixed` when it combines operator-loop anchoring, trace anchoring, and document mediation. The declaration must name each component mode explicitly.
+#### C.2.6:13.3 - Provenance, evidence and interaction in one alert
+An alert E asserts that Pump P's pressure is below 90 kPa. The software produced E from trace T. An operator has acknowledged E and selected a diagnostic check under the stated procedure. Inspection then shows that T was a measurement of Pump Q.
+
+The derivation from T remains established. T supplies no measurement of P for the claimed pressure: return to an appropriate observation of P before using that measurement as support for this claim. The acknowledgement and selected check remain facts about the operator's work. Whether to continue, suspend or change that check follows its actual rule and purpose; neither derivation nor acknowledgement settles the truth of the pressure claim. A report can publish all these statements together with their different grounds.
 
 ### C.2.6:14 - Authoring and Review Guidance
 
 #### C.2.6:14.1 - Author prompt
-When declaring anchoring mode, ask:
-
-- what is the primary anchor kind?
-- does bodily or operator participation matter directly?
-- is the key anchor trace-based, model-internal, or document-based?
-- if multiple modes matter, which ones and why?
+Start from the receiving judgement or action. Identify the particular claim, source or observation it needs and the conditions of access or interaction that can change its use. State several relations separately when each contributes; leave a consequential missing fact unresolved.
 
 #### C.2.6:14.2 - Review prompt
-Check whether a mode attributed to a prose publication describes its actual anchor or merely its format.
+Check that each relation attributed to a published account has the needed participants and grounds. Then change one condition in the case and determine which claim or continuation changes. If the wording cannot distinguish the changed relation from the retained ones, recover the objects through C.2.P and the relation through A.6.6 or A.6.P as applicable.
 
 #### C.2.6:14.3 - Bridge note
-If anchoring changes across publication or translation and the receiving use needs a semantic relation between local senses from different contexts, use F.9 for the Bridge, bounded-use claim, and its evidence and loss account. Use F.9.1 only when a separate stance note about that claim helps replace silent equivalence language with a bounded reading.
+If a changed source, access or interaction raises a semantic-correspondence question between local senses from different contexts, use F.9 for the Bridge, bounded-use claim and its evidence and loss account. Use F.9.1 only when a separate stance note helps explain that claim.
 
-### C.2.6:15 - Extension and Migration Notes
+### C.2.6:15 - Local Summaries and Precision Restoration
 
-#### C.2.6:15.1 - Local extension rule
-Contexts may add local anchoring modes, but they should do so by extension of the starter family rather than by collapsing the family into a text-vs-world binary.
+#### C.2.6:15.1 - Local summary rule
+A repeated comparison may benefit from a nominal Characteristic summarizing one aspect of the recovered facts. Define that aspect and its subject/input signature, the Scale, the rule mapping the relevant facts to a value, and the receiving comparison that uses it under A.18/A.19. Account for jointly satisfied conditions and keep incomplete information separate from a value. A new relation is not automatically a new value of an existing Scale.
 
-#### C.2.6:15.2 - Migration from metaphorical prose
-When wording such as "the system wants", "the note suggests", or "the operator-facing publication says" leaves anchoring unclear, it should be repaired by naming the anchoring mode and any detector, enactor, or witness needed to explain it.
+For example, a team comparing access to a designated primary check can define one nominal Characteristic for the tuple (claim, designated check, recipient, time): the recipient can perform that check at that time, or cannot. Establish the capability and access required by the check before assigning either value; otherwise leave the reading unknown. The value helps choose between performing the check and arranging the missing access. This local comparison concerns availability of that check; it does not classify the claim's provenance or evidence quality.
+
+Declare such a Characteristic as its own chart slot. A changed aspect or Scale changes the chart meaning under A.19:5.1.2; preserve or establish an explicit mapping when an old position must be compared with it. C.3.2 governs any separate classification using these readings.
+
+#### C.2.6:15.2 - Recover a relation hidden by metaphor
+When wording such as "the system wants" or "the note suggests" leaves the intended action or claim unclear, identify what the system does, what the note asserts, or who makes the interpretation. Recover the relevant detector, performer or witness through the direct subject pattern. An ordinary understood metaphor needs no expanded record.
 
 #### C.2.6:15.3 - Boundary reminder
-`U.LanguageStateAnchoringMode` does not decide representation, articulation, closure, or trust by itself. It only names how the episteme is anchored.
-### C.2.6:16 - Anchoring Publication Package Discipline
+Source and use relations answer their stated questions. Representation, articulation, closure and trust retain their own definitions and tests.
+### C.2.6:16 - Publishing the Required Account
 
-#### C.2.6:16.1 - Minimal anchoring package
-A publishable `U.LanguageStateAnchoringMode` claim should normally identify:
+#### C.2.6:16.1 - Minimal account
+Identify the episteme and the receiving use, then state or cite only the source, evidence, access or action conditions that use needs. Make their participants, grounds and any consequential uncertainty recoverable. Include a source transformation when it changes the claim or its use. For one unchanged relation, its adequate existing description can suffice.
 
-- the primary anchor kind;
-- any directly relevant embodiment, operator, trace, model, or document witness;
-- the source and transformations that affect the current anchoring claim;
-- any secondary modes that remain load-bearing.
+#### C.2.6:16.2 - Source-versus-form rule
+Distinguish the source episteme, any receiving episteme and their publication forms under C.2.P. State provenance, evidence and use claims about the actual participants. A prose form alone establishes neither a document as the original source nor a change in the observation or interaction being reported.
 
-For a single unchanged anchor, its identification and any witness needed by the use can suffice.
+#### C.2.6:16.3 - Joint-use account
+When several relations jointly enable the use, identify their separate contributions and which facts establish each. Retain the known relations while recovering a missing one; uncertainty about one does not erase the others or establish a mixture.
 
-#### C.2.6:16.2 - Source-versus-face rule
-Distinguish the source episteme, any receiving episteme and their publication forms under C.2.P. Assign anchoring modes to the epistemes. A prose form by itself establishes neither `AM.DocumentMediated` nor a shift from the source mode.
+### C.2.6:17 - Changed Sources, Access and Use
 
-#### C.2.6:16.3 - Mixed-mode decomposition rule
-`AM.Mixed` is admissible only when its component modes are named and the reason for the mixture is operationally real. The component modes must be determined before the mixed-mode declaration is used.
-
-### C.2.6:17 - Anchoring Shift and Transport Discipline
-
-#### C.2.6:17.1 - Shift declaration rule
-When the anchor changes, state the consequences for the intended comparison or use. In a report derived from an operator-loop cue, timing or bodily load may be omitted; identify the actual omission and its effect. If only the publication form changes, do not infer an anchoring shift or loss from that change alone.
+#### C.2.6:17.1 - State the change and its consequence
+When a source, access condition or interaction changes, state the consequences for the intended comparison or action. A report derived from an operator's cue may omit timing or bodily load; identify the actual omission and its effect. A change of publication form alone does not establish such an omission.
 
 #### C.2.6:17.2 - Bridge-loss rule
-If an anchoring shift raises a semantic-correspondence question between local senses from different contexts, use F.9 to state and test the Bridge and its bounded-use claim, with the loss account; add an F.9.1 stance note only when it helps explain that claim. `C.2.6` only requires the shift to be noticed and not misrepresented as lossless.
+If that change raises a semantic-correspondence question between local senses from different contexts, use F.9 to state and test the Bridge and its bounded-use claim, with the loss account; add an F.9.1 stance note only when it helps explain that claim. C.2.6 requires the relevant change to be noticed and represented accurately.
 
-#### C.2.6:17.3 - Same-content illusion test
-Two cues may be paraphrased into the same sentence while remaining differently anchored. If the anchoring regime differs, the cues are not automatically substitutable.
+#### C.2.6:17.3 - Same-content substitution test
+Two cues may be paraphrased into the same sentence while being produced by different observations or available under different conditions. Establish the relations required by the receiving use before substituting one for the other.
 
-### C.2.6:18 - Review Matrix and Extension Tests
+### C.2.6:18 - Review and Extension Tests
 
 #### C.2.6:18.1 - Review matrix
-An assurance reader should ask:
-
-- what the original anchoring regime was;
-- how the current episteme is anchored;
-- which source transformations affect that anchoring;
-- whether a semantic-correspondence claim needs an F.9 loss account and whether an optional stance note adds a useful qualification;
-- whether a declared mixed mode names its actual components.
+For the stated use, check the original source and relevant transformations, what the recipient can recover or do now, and the grounds for the resulting claims. Include the separate F.9 question when a semantic correspondence is claimed. A joint-use account identifies each relation that matters.
 
 #### C.2.6:18.2 - Local extension test
-A new local anchoring mode is justified only when it answers a distinct anchoring question that the starter family cannot express without distortion.
+Add another direct relation when the receiving work needs it. Introduce a nominal summary only when :15.1's aspect, mapping and comparison are actually supplied; a common word for several dependencies is insufficient.
 
 #### C.2.6:18.3 - Cross-facet reminder
-Anchoring mode often correlates with representation and articulation changes, but it does not define or test them. Reject prose that uses `AM.ModelLatent`, `AM.EmbodiedFelt`, or `AM.OperatorLoop` as shorthand for being vague, early, trustworthy, or closed.
+A changed source or interaction can accompany a change in representation or articulation. Test those changes separately. A model-derived score, a bodily observation or an operator's acknowledgement supplies no reading of vagueness, closure or trust without the corresponding criterion and grounds.
 
 ### C.2.6:End
 
-## C.2.7 - `U.LanguageStateRepresentationFactorBundle` — How Is the Representation Organized?
+## C.2.7 - `LanguageStateRepresentationFactorBundle` — How Is the Representation Organized?
 
 > **Type:** Definitional (D)
 > **Status:** Stable
@@ -53612,9 +53639,9 @@ Anchoring mode often correlates with representation and articulation changes, bu
 
 **Use this pattern when.** Use C.2.7 when a comparison or use depends on how an episteme is represented: the distribution of its code, its sparsity or its symbolic structure. Identify the representation and the units being assessed. An ordinary description can suffice when the receiving use needs no factor-bundle claim.
 
-**What goes wrong if missed.** One representation label such as `symbolic`, `distributed`, or `encoding basis` starts doing too much work: it hides articulation, closure, anchoring, bridge loss, or comparison assumptions.
+**What goes wrong if missed.** One representation label such as `symbolic`, `distributed`, or `encoding basis` starts doing too much work: it hides articulation, closure, source or use conditions, Bridge loss, or comparison assumptions.
 
-**What this buys.** A comparison of representation factors on explicit bases, without deriving articulation, closure or anchoring from a single label.
+**What this buys.** A comparison of representation factors on explicit bases, while keeping articulation, closure and source or use claims independently grounded.
 
 ### C.2.7:1 - Problem frame
 Published position claims in the declared language-state chart over `U.CharacteristicSpace` must keep representation factors such as locality, sparsity, and symbolicity distinct.
@@ -53627,20 +53654,20 @@ Using `EncodingBasis` without its underlying factors collapses several independe
 |---|---|
 | **Comparability vs reductionism** | Allow comparison while preserving the distinctions among factors. |
 | **Compact core vs extensibility** | Keep a minimal starter bundle while leaving room for domain-specific refinements. |
-| **Representation vs anchoring** | Describe how the current episteme is represented without hiding what it is anchored to. |
+| **Representation vs source and use** | Describe how information is represented while retaining the distinct claims about its source and use conditions. |
 
 ### C.2.7:4 - Solution
-`U.LanguageStateRepresentationFactorBundle` is a factor bundle, not one scalar characteristic. The minimal core starter set is:
+`LanguageStateRepresentationFactorBundle` is a factor bundle, not one scalar characteristic. The core starter set for the comparison questions below is:
 
-- `U.LocalityDistribution`
-- `U.Sparsity`
-- `U.Symbolicity`
+- `LocalityDistribution`
+- `Sparsity`
+- `Symbolicity`
 
 A local alias such as `EncodingBasis` shall identify the factors and readings it summarizes.
 
-#### C.2.7:4.0a - Kind and factor-bundle boundary
+#### C.2.7:4.0a - Factors and their readings
 
-`U.LanguageStateRepresentationFactorBundle` groups readings of distinct representation Characteristics. Each factor needs its own meaning and Scale, and the declared chart binds these under A.18/A.19. The bundle describes the representation identified in the position claim; a factor reading is distinct from that representation or its publication form.
+`LanguageStateRepresentationFactorBundle` groups readings of distinct representation Characteristics. Each factor needs its own meaning and Scale, and the declared chart binds these under A.18/A.19. The bundle describes the representation identified in the position claim; a factor reading is distinct from that representation or its publication form.
 
 #### C.2.7:4.1 - Minimal factor readings
 | Factor | Question it answers | Typical values |
@@ -53657,15 +53684,23 @@ In the second scheme, `[0,1,0,0,0,0,1,0]` and the list of active positions `{2,7
 
 When the list travels separately, supply the unit order and decoding rule needed for its next use, directly or through an accessible return to the exact source content. Counting written marks instead of active units requires a different comparison basis.
 
+##### C.2.7:4.1.1 - Why begin with these factors?
+
+The starter set separates three questions that often change how a representation can be read or transferred. **LocalityDistribution** concerns whether one selected unit distinguishes a represented value or whether a combination is needed. **Sparsity** concerns how much of the declared unit set is active or used; its reading depends on what is counted and on the local comparison criterion. **Symbolicity** concerns the explicit tokens and structures available to the receiving interpretation, including the applicable decoding or composition rules. These questions can matter separately: locating a report, estimating the units used to express it and recovering its interpretation require different information.
+
+The pair code in :4.1 explains why a count of active units cannot settle locality and why a compact inscription needs its decoder. The starter bundle keeps these distinctions available without requiring a complete model of the representation. Select only the factors that affect the receiving question, as :16.1 permits. Preserve the representation and unit basis for each reading; factors of a source model and factors of its explanation concern different representations.
+
+An assessment aimed at reconstruction error, robustness or the effect of a causal intervention may need other Characteristics directly. Use those Characteristics when they answer the question; retain a starter factor only when its reading contributes. The gain from the shared triple is a reusable starting vocabulary for code organization, use of units and explicit symbolic structure. It is not an exhaustive representation-quality model, and it supplies no universal thresholds or empirical claim that the factors are statistically independent. Add a needed factor under :4.3 while keeping the meanings of the factors already used.
+
 #### C.2.7:4.2 - Non-collapse rules
 
-Representation organization, anchoring, articulation and closure answer different questions. A distributed code can be trace-anchored; a symbolic note can leave its meaning unclear; a sparse representation can express a claim that remains open. Assess each relevant facet on its own grounds. The representation factors alone establish neither evidence for the claim nor permission to act on it.
+Representation organization, articulation and closure are assessed under their own Characteristics; source and use claims retain their direct predicates. A distributed code can be computed from an identified trace; a symbolic note can leave its meaning unclear; a sparse representation can express a claim that remains open. Assess each relevant facet on its own grounds. The representation factors alone establish neither evidence for the claim nor permission to act on it.
 
 #### C.2.7:4.3 - Extension rule
 Authors may add extra local representation factors only if the extension is published as a factor addition rather than as a new master factor that erases the core factor bundle.
 
 ### C.2.7:5 - Archetypal Grounding
-**Tell.** A model-state cue can be highly distributed but still trace-anchored; a symbolic note can be low articulation if its semantics are still vague.
+**Tell.** A model-state cue can use a highly distributed representation and be obtained from an identified recorded state; a symbolic note can be low articulation if its semantics are still vague.
 
 **Show (System).** An operator decision aid may mix sparse alert codes and symbolic method-description text.
 
@@ -53677,7 +53712,7 @@ The pattern resists folk theories that try to line up one representation factor 
 ### C.2.7:7 - Conformance Checklist
 - `CC-C.2.7-1` `LanguageStateRepresentationFactorBundle` **SHALL** be published as a factor bundle, not as a hidden scalar.
 - `CC-C.2.7-2` Local aliases such as `EncodingBasis` **MAY** exist only with an explicit docking to the governed factors.
-- `CC-C.2.7-3` Representation factors **MUST NOT** silently replace `LanguageStateAnchoringMode` or `LanguageStateClosureDegree`.
+- `CC-C.2.7-3` Representation factors **MUST NOT** silently replace the source and use claims recovered through C.2.6 or `LanguageStateClosureDegree`.
 - `CC-C.2.7-4` New local factors **SHALL** preserve the factor-bundle discipline.
 
 ### C.2.7:8 - Common Anti-Patterns and How to Avoid Them
@@ -53689,10 +53724,15 @@ The pattern resists folk theories that try to line up one representation factor 
 The benefit is cleaner comparison across schools, substrates, and publication forms. The trade-off is the effort needed to make the relevant factor readings explicit.
 
 ### C.2.7:10 - Rationale
-Separate representation factors let the reader compare code organization while assessing articulation, closure and anchoring on their own grounds.
+Separate representation factors let the reader compare code organization while assessing articulation and closure and establishing the required source or use claims on their own grounds. The starter triple earns its place through the three receiving questions in :4.1.1. A direct selection of other representation Characteristics is preferable when it answers the actual task with less irrelevant assessment.
 
 ### C.2.7:11 - SoTA-Echoing
-This factorization fits current work on sparse distributed representations, hybrid symbolic/neuro-symbolic representation practices, and interpretability practice.
+The triple is an FPF starting choice for :4.1.1, with bounded external comparisons:
+
+| Source and status | Contribution and boundary |
+|---|---|
+| [Elhage et al., *Toy Models of Superposition* (2022)](https://transformer-circuits.pub/2022/toy_model/toy_model.pdf), pp.1–5, historical research basis | Feature directions can differ from neuron basis directions. This supports identifying the units and basis before interpreting locality or sparsity; the toy models do not establish the FPF triple for all representations. |
+| [Fraser-Taliente et al., *Natural Language Autoencoders* (2026)](https://transformer-circuits.pub/2026/nla/index.html), Method and Discussion | The method maps activations to text and reconstructs activations from that text. Reconstruction and the interpretation of the explanation require their own assessment. This is a current case for selecting task-specific Characteristics alongside, or instead of, starter factors. |
 
 ### C.2.7:12 - Relations
 - Builds on: `A.18`, `A.19`, `C.2.2a`, `C.2.LS`.
@@ -53723,7 +53763,7 @@ To publish a representation-factor bundle, ask separately:
 Check whether the reported factors support the intended comparison. Do not infer unreported factors from one label without a relation that establishes them.
 
 #### C.2.7:14.3 - Cross-facet reminder
-Assurance readers should also watch for silent replacement of `LanguageStateAnchoringMode`, `AE`, or `CD` by representation talk.
+Assurance readers should also watch for silent replacement of the source and use claims recovered through C.2.6, `AE`, or `CD` by representation talk.
 
 ### C.2.7:15 - Extension and Migration Notes
 
@@ -53734,7 +53774,7 @@ Authors may add extra local factors, but each added factor should answer a disti
 Aliases such as `EncodingBasis` or similar should be unfolded into explicit factor dockings before they are relied upon for comparison, bridge claims, or downstream use.
 
 #### C.2.7:15.3 - Boundary reminder
-`U.LanguageStateRepresentationFactorBundle` describes representational organization only. It does not determine admissible use, closure, or anchoring by itself.
+`LanguageStateRepresentationFactorBundle` describes representational organization only. Admissible use, closure and source or interaction claims retain their own conditions and grounds.
 ### C.2.7:16 - Factor-Bundle Publication Discipline
 
 #### C.2.7:16.1 - Minimal representation package
@@ -53752,7 +53792,7 @@ Local aliases such as `EncodingBasis` are admissible only when their docking to 
 Representation factors may be related under a particular code or model. State that relation and its conditions before inferring one reading from another. Locality and active-unit fraction are distinct, as :4.1 shows. Publish the readings needed for the comparison; assess articulation independently under C.2.4.
 
 #### C.2.7:17.2 - Cross-facet non-substitution
-Representation talk must not silently replace `AE`, `CD`, or `LanguageStateAnchoringMode`. A symbolic account of a distributed code may be easier to read while leaving interpretation unclear, closure open or anchoring operator-bound.
+Representation talk must not silently replace `AE`, `CD`, or the source and use claims recovered through C.2.6. A symbolic account of a distributed code may be easier to read while leaving interpretation unclear, closure open or an operator acknowledgement still required.
 
 #### C.2.7:17.3 - Bridge reminder
 If a representation shift matters in transport across contexts, note that the shift may alter what is preserved or salient. Use `F.9` for the Bridge and its bounded-use claim when the receiving use needs a semantic relation between local senses from different contexts; use `F.9.1` only for a separate optional stance note about that claim.
@@ -53765,7 +53805,7 @@ An assurance reader should ask:
 - are all claimed factors visible in the publication or cited source;
 - does any alias hide the factor bundle;
 - is one factor being used as if it summarized the whole representation state;
-- has representation talk started to replace articulation, closure, or anchoring claims.
+- has representation talk started to replace articulation, closure, or source and use claims.
 
 #### C.2.7:18.2 - Local extension test
 An additional factor is justified only if it captures a distinct representational question that cannot be reduced to locality, sparsity, or symbolicity. The extra factor should extend the bundle, not become a rival master factor.
