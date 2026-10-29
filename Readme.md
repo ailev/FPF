@@ -54,7 +54,7 @@ The general methods are in **Core**: [connect development work (C.40.OD)](https:
 
 ## What is available
 
-**FPF Core** contains 403 patterns in 17.928 million characters. It supplies transdisciplinary concepts and methods, including methodological work and open-ended development. **36 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 26 belong to four Suites, and ten have their own files directly in the DPF catalogue.
+**FPF Core** contains 403 patterns in 17.944 million characters. It supplies transdisciplinary concepts and methods, including methodological work and open-ended development. **36 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 26 belong to four Suites, and ten have their own files directly in the DPF catalogue.
 
 A DPF describes one field through a connected pattern language. A **Suite** describes a composite discipline through its constituent fields and their relations. An **Architectural Reference** explains how the relevant language is arranged and why: within a framework, across a Suite, or across the Library.
 
@@ -65,7 +65,7 @@ A DPF describes one field through a connected pattern language. A **Suite** desc
 | [Foundational Thinking](DPFs/Foundational%20Thinking%20DPF%20Suite/) | Mathematical and physical accounts, models, algorithms and usable notation. | 5 | 71 | 2.017 |
 | [Human Capability Engineering](DPFs/Human%20Capability%20Engineering%20DPF%20Suite/) | Human learning and somatic change, connected to capability in later work. | 2 | 34 | 1.207 |
 
-The [DPF catalogue](DPFs/) lists the eleven further frameworks and opens each Suite's files. Suite totals sum their constituent framework texts; separate Suite References and README pages are excluded. Character counts include spaces and original line breaks. Counts describe the available material, not how much you must read before using it.
+The [DPF catalogue](DPFs/) lists the ten further frameworks and opens each Suite's files. Suite totals sum their constituent framework texts; separate Suite References and README pages are excluded. Character counts include spaces and original line breaks. Counts describe the available material, not how much you must read before using it.
 
 The Library does not claim to exhaust the disciplines it covers: the current Human Capability Engineering Suite, for example, develops learning and somatic contributions, not all methods concerning a human being.
 
