@@ -3261,14 +3261,16 @@ Scope delimitation is not another direct relation kind here. The `U.ClaimScope` 
 
 **Local predicate-value declaration.** `ModelExpressionCoherencePredicate` is an A.1.1-local `ValueKind`, not a U-kind and not an evaluation procedure. A by-value candidate belongs to this kind only when it declares (1) the ordered model-content and expression-content input meanings, (2) the exact comparison domain and local senses, (3) a Boolean truth condition, (4) the treatment of required congruence and permitted loss, and (5) every dependency whose absence makes application stop rather than return `false`. Two predicate values are identical exactly when those five by-value components are identical. A changed input meaning, domain, truth condition, congruence or loss rule, or dependency identifies another predicate value; a changed label, evaluator, evidence set, result episteme, representation, or publication does not. A label or procedure lacking the complete five-part declaration is not a member.
 
-**`ModelExpressionCoherenceRelation`.** Its participants are one exact model episteme, one exact expression episteme, one by-value criterion admitted as `ModelExpressionCoherencePredicate`, and one exact `U.ReferenceScheme` used as the comparison basis.
+**`ModelExpressionCoherenceRelation`.** Its participants are one exact model episteme, one exact expression episteme, one by-value criterion admitted as `ModelExpressionCoherencePredicate`, and one exact abstract rule-collection entity belonging to `EpistemeInterpretationScheme` under C.2.1:4.1.2, used as the comparison basis.
 
 | SlotKind | ValueKind | refMode | Participant meaning |
 |---|---|---|---|
 | `CoherenceModelEpistemeSlot` | `U.Episteme` | `U.EpistemeRef` | The model episteme whose fixed claims supply one side. |
 | `CoherentExpressionEpistemeSlot` | `U.Episteme` | `U.EpistemeRef` | The expression episteme assessed against that model. |
 | `ModelExpressionCoherencePredicateSlot` | `ModelExpressionCoherencePredicate` | `ByValue` | The admitted five-part criterion value; its label, evaluator, result, or evidence cannot substitute for it. |
-| `ModelExpressionCoherenceReferenceSchemeSlot` | `U.ReferenceScheme` | `ByValue` | The shared scheme or the receiving comparison basis used by the admitted bridged branch. |
+| `ModelExpressionCoherenceReferenceSchemeSlot` | `EpistemeInterpretationScheme` (C.2.1:4.1.2) | `ByValue` | The shared scheme or the receiving comparison basis used by the admitted bridged branch. |
+
+R is the abstract rule-collection entity individuated under C.2.1:4.1.1 and classified by the entity ValueKind in :4.1.2. That entity, rather than its description or designation, is the actual participant. Carrying its designation `ByValue` supplies the rules directly; a document or name for them is insufficient. Range membership does not establish scheme equality, the required correspondence, or P. Changing R changes the participant tuple; changing only its expression while preserving all operative rules does not.
 
 **Well-formedness constraint `WF-A1.1-COH`.** `ModelExpressionCoherenceRelation(M,E,P,R)` obtains exactly when either (a) `R` equals the C.2.1 effective schemes of both epistemes, or (b) `P` resolves every differing source and receiving F.17 `SchemeSenseCell` pair and names an obtaining F.9 `Bridge` for each required correspondence; and, after that semantic branch is established, the fixed predicate value `P` returns true for the fixed claim contents of `M` and `E` under `R`. An unresolved cell, missing Bridge, shared spelling, common label, Bridge Card, or mere interpretability establishes no bridged branch.
 
@@ -3326,7 +3328,7 @@ When the question is local meaning rather than joint model-use organization, rec
 
 | Exact practitioner question | Direct governed result | Subject pattern | Stop or return condition |
 |---|---|---|---|
-| What does this term or predicate mean here? | one exact claim-bearing episteme, its C.2.1 effective `U.ReferenceScheme`, and the needed F.17 `SchemeSenseCell` values | C.2.1 and F.17 | Return to the source expression or scheme when the exact meaning or a required sense-cell value is unavailable. |
+| What does this term or predicate mean here? | one exact claim-bearing episteme, its C.2.1 effective reference scheme, and the needed F.17 `SchemeSenseCell` values | C.2.1 and F.17 | Return to the source expression or scheme when the exact meaning or a required sense-cell value is unavailable. |
 | Over which slices is this claim made, and which slices belong? | one `U.ClaimScope` and its A.2.6 `member(slice, scope)` facts | A.2.6 | Keep the scope and membership facts as this result; select a structure separately only when its organization changes a receiving decision. |
 | Which system-role kind is assigned to which system, and when? | First recover the assignment occurrence and its declared `U.SystemRoleAssignment` species. The species declares participant meanings and rules; the occurrence supplies the holder System, assigned local system-role-kind value, and any other participant values that distinguish the occurrence. If the question also needs a reportable time, recover a separate assignment assertion or occurrence-description episteme whose content states the currently known `AssignmentInterval`. | A.2 and A.2.1; A.2.7 only for an independently current relation among system-role kinds | Return until the assignment species, all declared participant values, obtaining predicate, and any needed occurrence-description episteme are recovered. The occurrence retains its maximal uninterrupted extent. Context, scheme, and interval are not generic assignment participants; an organizational title supplies no assignment. |
 | Which rule, policy, invariant, or inference is local? | one C.2.1 episteme with the exact ClaimGraph and effective scheme, the A.2.6 claim scope, and the truth or admissibility predicate defined or constrained in the exact subject-pattern description | C.2.1, A.2.6, that exact predicate and its `SubjectPatternLocator` | If no exact predicate states when the rule or inference holds, preserve the claim at its current scope and stop. |
@@ -6726,7 +6728,7 @@ Here `T : ContextSliceSet` is a finite target set, `F : Set[U.Scope]` is a finit
 **A.6.1 declaration A — `ScopeMembershipEvaluationMechanism`.**
 
 - `EntityOfConcernRef`: exact operation family `ScopeMembershipEvaluationOperationFamily = {evaluateMembership}`.
-- effective `U.ReferenceScheme`: the scheme under which this mechanism's argument, result, and application meanings are interpreted.
+- effective reference scheme: the scheme under which this mechanism's argument, result, and application meanings are interpreted.
 - `SubjectKind`: `U.Scope`.
 - `RangedValueKind`: `U.ContextSlice`.
 - `ResultKind`: declaration-local finite `U.Kind` `MembershipEvaluationValue = {true, false, unknown}` under C.3. Its membership rule admits exactly those three values. It is not a world-side third truth value, public U-kind, gate decision, or result episteme.
@@ -6762,7 +6764,7 @@ Here `T : ContextSliceSet` is a finite target set, `F : Set[U.Scope]` is a finit
 **A.6.1 declaration B — `ScopeDerivationMechanism`.**
 
 - `EntityOfConcernRef`: exact operation family `ScopeDerivationOperationFamily = {deriveIntersectionScope, deriveSpanUnionScope, deriveTranslatedScope}`.
-- effective `U.ReferenceScheme`: the scheme under which this mechanism's operation meanings and returned scopes are interpreted.
+- effective reference scheme: the scheme under which this mechanism's operation meanings and returned scopes are interpreted.
 - `SubjectKind`: `U.Scope`.
 - `RangedValueKind`: `U.Scope`; each derivation operation still returns a `U.Scope`, so no distinct mechanism-level `ResultKind` is current.
 - `SliceSet` and `ExtentRule`: absent for the same A.6.0 reason stated above.
@@ -6777,8 +6779,10 @@ Here `T : ContextSliceSet` is a finite target set, `F : Set[U.Scope]` is a finit
 | `deriveTranslatedScope` | argument `sourceScope` | exact source scope whose extension is mapped | `U.Scope` | `ByValue` | this application maps the bound scope value | exactly 1 |
 |  | argument `bridgeOccurrence` | exact obtaining F.9 Bridge whose direct semantic relation is used | `U.Relation` | `ByGovernedReference` | the reference resolves to the exact obtaining occurrence actually used by this application; it carries no use-specific rule, tolerance, or reliance | exactly 1 |
 |  | argument `scopeTranslationClaim` | exact current C.2.1 claim that says the bound Bridge is suitable for this named scope translation | `U.Episteme` | `ByGovernedReference` | the reference resolves to the exact affirmative claim whose EntityOfConcern is the bound Bridge and whose content names this use, direction, rule, and tolerance | exactly 1 |
-|  | argument `targetReferenceScheme` | exact scheme under which target slices and their local senses are interpreted | `U.ReferenceScheme` | `ByValue` | this application interprets the returned target-slice extension under the bound scheme | exactly 1 |
+|  | argument `targetReferenceScheme` | exact scheme under which target slices and their local senses are interpreted | `EpistemeInterpretationScheme` (C.2.1:4.1.2) | `ByValue` | this application interprets the returned target-slice extension under the bound scheme | exactly 1 |
 |  | result `derivedScope` | exact extensional scope returned for the target image selected by the claim's rule and tolerance | `U.Scope` | `ByValue` | this application returns this independently identifiable scope value | exactly 1 |
+
+The target scheme is the exact rule collection classified by C.2.1:4.1.2, including the rules needed to read the target slices and local senses. A scheme can pass that range test while the proposed translation lacks its required mapping or bounded-use basis. Apply the translated-scope law to the actual bound value; range membership supplies neither that mapping nor any additional scope support.
 
 **ApplicationPredicate rules.** `deriveIntersectionScope` returns the scope represented under C.29 by `intersection of extension(S) for S in scopeFamily`. `deriveSpanUnionScope` implements the already established `SpanUnion`: it is admitted only when `independenceBasis` establishes the section 7.3 independence condition and returns the scope represented by `SpanUnion(scopeFamily)`. `deriveTranslatedScope` is admitted only when the bound Bridge obtains and the bound C.2.1 claim has that Bridge as EntityOfConcern, affirmative polarity, and content naming this scope-translation use, its direction, rule, and tolerance. The application applies that rule within that tolerance and returns the scope represented by `translate(bridgeOccurrence, scopeTranslationClaim, sourceScope, targetReferenceScheme)`. The formulae and claim alone declare no application or result binding.
 
@@ -16311,7 +16315,9 @@ State a relation between two signatures directly as refinement, conservative ext
 
 #### A.6.0:4.6a - Rule-content actual-use predicate declaration
 
-`RuleContentBasisFindingDefinition@R7` is one ordinary `U.Signature` for two reusable predicates over claim content. Its exact EntityOfConcern is the reusable predicate definition; both `SubjectKind` and `RangedValueKind` are `U.ClaimGraph`. No distinct result kind is current because an ordinary C.2.1 assertion states whether a predicate obtains. The declaration is not a `RelationSignature`: `dependentContent` and `baseContent` are semantic parameters, not world-side relation participants or A.6.5 SlotSpecs.
+`RuleContentBasisFindingDefinition@R7` is one ordinary `U.Signature` for two reusable predicates over claim content. Its exact EntityOfConcern is the reusable predicate definition; both `SubjectKind` and `RangedValueKind` are `NonemptyClaimContent` under C.2.1:4.1.2. No distinct result kind is current because an ordinary C.2.1 assertion states whether a predicate obtains. The declaration is not a `RelationSignature`: `dependentContent` and `baseContent` are semantic parameters, not world-side relation participants or A.6.5 SlotSpecs.
+
+The C.2.1 range criterion identifies eligible semantic inputs; it establishes neither actual use nor candidate sufficiency. This range declaration leaves an earlier exact episteme-edition pin at its original source. Before reusing an earlier assertion with the present declaration, compare its exact dependent and base values, interpretation and applicable predicate law; carry forward only the conclusion that this comparison supports. The names R7 and R8 alone do not identify an unchanged declaration episteme or transfer acceptance.
 
 Its vocabulary includes `SelectedRuleContentSubgraphDesignation@RuleContentBasisFindingDefinition-R7`, `derivedUsingRuleContent@RuleContentBasisFindingDefinition-R7`, and `evaluatedAgainstRuleContent@RuleContentBasisFindingDefinition-R7`. The designation resolves one exact nonempty base subgraph selected for one identified use. `RuleContentDerivationProfile@R7`, `RuleContentEvaluationProfile@R7`, and `RuleContentBasisFamilyAlgebra@R7` are named subgraphs of this signature's ClaimGraph.
 
@@ -16496,7 +16502,7 @@ The examples deliberately span physical modeling, medicine, learning, and formal
 12. **Progressive elaboration.** A direct assertion suffices when the task only asks whether the predicate holds. A signature opens when a receiving use needs reusable declaration content. Occurrence identity opens for same-occurrence reference, comparison, qualification, history/change or relation participation. A log or assertion identifier alone opens none of them.
 13. **CGUS boundary.** Judge any condition-governed unfolding claim through A.22.CGUS, using the independently identified structure and continuation conditions stated in §4.
 14. **Profile boundary.** FormalSubstrate and PrincipleFrame remain profiles of `U.Signature` rather than new root kinds. A PrincipleFrame names its postulates and the observable distinctions needed to check them, leaves operation and gate admission with their subject patterns, and uses F.9 for a relation between two exact F.17 local senses, citing a Bridge only when its direct predicate obtains.
-15. **Changed object.** Changed exact claim content carried by the `U.ClaimGraph`, exact EntityOfConcern, or effective reference scheme identifies another episteme. Judge A.6.0 membership for that episteme independently, and assert edition, refinement, supersession, or another continuity relation only when its own predicate obtains. A changed use, identifier, publication form, carrier, provider currentness, or G.11 refresh state does none of those things by itself.
+15. **Changed object.** Changed exact claim content carried by the ClaimGraph, exact EntityOfConcern, or effective reference scheme identifies another episteme. Judge A.6.0 membership for that episteme independently, and assert edition, refinement, supersession, or another continuity relation only when its own predicate obtains. A changed use, identifier, publication form, carrier, provider currentness, or G.11 refresh state does none of those things by itself.
 16. **F.19 self-application and reader use.** Apply F.19 by value to every materially changed technical declaration, mantra, checklist instruction, and worked case; revalidate the changed span with its meaning-dependent neighbours. The cold intended reader must be able to recover the same governed object, subject pattern, admissible use, and practical claim or action, including any result that changes that use. Keep ordinary technical wording when it already carries the needed distinctions; unpack terms or add an explanation only when recovery needs it. Use E.10:11 item 16 when the value-substitution question is selected. State a nearby non-use or contrasting case only when F.19:4's full guard test warrants it. A `Plain` label without that reader-visible recovery does not pass.
 17. **Case-level witness.** Each worked case names its exact EntityOfConcern, the direct pattern that defines or constrains the claim being made, and what the practitioner can now write, decide, or inspect. State the nearest category error it rejects only when F.19:4's full guard test warrants that contrast. A domain label or the presence of several case headings is not evidence of cross-domain fit.
 
@@ -17226,12 +17232,14 @@ For any arrow `f : X→Y` presented as an effect-free episteme morphism:
 1. **Typed epistemes.** `X` and `Y` are epistemes of declared kinds `K_X, K_Y : U.EpistemeKind`, each identified under C.2.1 by exact claim content, one EntityOfConcern, and one effective ReferenceScheme. Grounding and representation relations are added only when current; a viewpoint selected for a named describing use remains outside episteme identity.
 
 2. **Value and use projection.** For each episteme `E`—and separately for a named describing use when one is current—EFEM laws may refer to:
-   * `content(E) : U.ClaimGraph` — E's exact identity-bearing claim content;
+   * `content(E)` — E's exact identity-bearing claim content recovered under C.2.1:4.1.1;
    * `entityOfConcernRef(E) : U.EntityRef` — designates E's exact EntityOfConcern;
    * `selectedViewpointRef?(use) : U.ViewpointRef` — only when the named describing use selects one exact viewpoint; this is not a component of E's identity;
-   * `referenceScheme(E) : U.ReferenceScheme` — E's effective designation and interpretation scheme;
+   * `referenceScheme(E)` — the effective designation and interpretation rules recovered for E under C.2.1:4.1.1;
    * `representationSchemeRef?(E) : U.RepresentationSchemeRef` — only when an exact representation scheme and its correspondence relation are current for E under their direct governors; C.29 governs any mathematical-lens use; this is not a C.2.1 identity component;
    * a separately current neighboring fact — name the exact `EpistemeEditionRelation`, exact A.10 evidence or provenance relation, or other governed predicate and its participants when the arrow family reads or compares it; do not collect these facts in a generic projection. If E asserts such a fact, that assertion is already part of `content(E)`.
+
+   These are projections of the identified endpoint values. The arrow family's declared endpoint kinds and predicates determine admissibility. If its law additionally classifies content or scheme candidates for substitution, recover that classification's own domain and criterion; endpoint membership supplies no general constituent ValueKind. C.2.1:4.2.1 governs that stronger typed use.
 
    When grounding matters, name the exact grounding relation, its grounding holon, and the claims it covers; grounding is not another component of episteme identity.
 
@@ -17339,8 +17347,10 @@ The examples below show how EFEM is intended to be used across the EntityOfConce
 
 *Shape.*
 
-* Domain: exact episteme `X : U.MethodDescription` with `entityOfConcernRef(X) : U.MethodRef`, `content(X) : U.ClaimGraph_D`, and `ReferenceScheme_D`; when the named engineering validation use selects viewpoint P, identify that selection separately.
-* Codomain: exact episteme `Y : U.MethodSpec` concerning the same Method, with more structured `content(Y) : U.ClaimGraph_S` and a more explicit ReferenceScheme. If the same named validation use continues, it preserves its selected viewpoint P separately.
+* Domain: exact episteme `X : U.MethodDescription` with `entityOfConcernRef(X) : U.MethodRef`, its complete content `content_D = content(X)`, and effective rules `scheme_D = referenceScheme(X)`; when the named engineering validation use selects viewpoint P, identify that selection separately.
+* Codomain: exact episteme `Y : U.MethodSpec` concerning the same Method, with `content_S = content(Y)` and `scheme_S = referenceScheme(Y)`. Recover whether the effective rules stay the same or change; writing an existing rule more explicitly does not itself change it. If the same named validation use continues, it preserves its selected viewpoint P separately.
+
+The suffixes D and S distinguish these endpoint values. They declare no constituent kinds. Judge endpoint admissibility under the relevant description and specification-use criteria, compare complete identity under C.2.1, and test P2 separately. A checkable new requirement can satisfy the receiving specification-use conditions while changing the episteme and failing conservativity.
 
 `Specify_DescEp_SpecDesc` is a species of EFEM only when all of these hold:
 
@@ -17390,13 +17400,13 @@ The details belong to A.6.4 and E.18; EFEM provides the generic discipline.
 
 To make the C.2.1 value and EFEM law discipline concrete, consider an engineering episteme of a dependent system-description kind whose exact EntityOfConcern is one `U.System`:
 
-| Value named by the EFEM species | Kind or reference form | Use |
+| Value named by the EFEM species | How it is identified | Use |
 | --- | --- | --- |
 | exact EntityOfConcern | `U.Entity` constrained to `U.System`; designated by `U.EntityRef` | identifies the system that the claims concern |
-| claim content | `U.ClaimGraph` | carries the description or specification claims |
-| effective ReferenceScheme | `U.ReferenceScheme` | makes the claims and their designations interpretable |
+| claim content | the complete semantic content recovered under C.2.1:4.1.1 | carries the description or specification claims |
+| effective ReferenceScheme | the operative designation and interpretation rules recovered under C.2.1:4.1.1 | makes the claims and their designations interpretable |
 
-This table names the three values that identify an episteme; it is not a `RelationSignature` or SlotSpec table. `EntityOfConcernSlot`, `ClaimGraphSlot`, and `ReferenceSchemeSlot` are declaration-local SlotKinds only when the reusable C.2.1 `EpistemeConstitutionRelationSignature` is being inspected. An EFEM species states how the endpoint values compare. If its rule uses a selected viewpoint, empirical-grounding relation, or representation relation, it names the exact occurrence or use qualification separately and reads or compares the endpoint facts without changing the occurrence.
+This table names the three values that identify an episteme; it is not a `RelationSignature` or SlotSpec table. C.2.1:4.2.1 supplies `EntityOfConcernSlot` when a receiving use needs a designation of kind `U.EntityRef` that resolves to a `U.Entity`. A claim-content or scheme comparison uses the exact values above; additional typed substitution needs its own independently governed range and SlotSpec. An EFEM species states how the endpoint values compare. If its rule uses a selected viewpoint, empirical-grounding relation, or representation relation, it names the exact occurrence or use qualification separately and reads or compares the endpoint facts without changing the occurrence.
 
 Two typical EFEM species over this kind are:
 * `Specify_DescEp_SpecDesc_Sys : SystemDescription → SystemSpec` — an `EntityOfConcernChangeMode = preserve` species that:
@@ -21310,7 +21320,7 @@ If neither the exact subject nor the exact reusable predicate definition is the 
 
 #### A.6.RCD:4.5a - Reusable rule-content predicates stop before relation-kind admission
 
-`RuleContentBasisFindingDefinition@R7` is the disposition-3 declaration for two repeated cross-subject predicate semantics: `derivedUsingRuleContent(dependentContent, baseContent)` and `evaluatedAgainstRuleContent(dependentContent, baseContent)`. Its exact EntityOfConcern is that reusable predicate definition. Its `SubjectKind` and `RangedValueKind` are both `U.ClaimGraph`; satisfaction of either predicate is asserted in a C.2.1 episteme, so no separate result kind is introduced. The declaration may satisfy ordinary A.6.0 `U.Signature` membership. It is not a `RelationSignature`, relation kind, relation occurrence, registry, or claim that every definition or constraint was actually used.
+`RuleContentBasisFindingDefinition@R7` is the disposition-3 declaration for two repeated cross-subject predicate semantics: `derivedUsingRuleContent(dependentContent, baseContent)` and `evaluatedAgainstRuleContent(dependentContent, baseContent)`. Its exact EntityOfConcern is that reusable predicate definition. Its `SubjectKind` and `RangedValueKind` are both `NonemptyClaimContent` under C.2.1:4.1.2; satisfaction of either predicate is asserted in a C.2.1 episteme, so no separate result kind is introduced. The declaration may satisfy ordinary A.6.0 `U.Signature` membership. It is not a `RelationSignature`, relation kind, relation occurrence, registry, or claim that every definition or constraint was actually used.
 
 Use the first predicate only when an identified derivation claim names the exact nonempty base subgraph as a formal premise under a declared inference rule or application producing the exact dependent content. Use the second only when an identified criterion-selection claim selects that base for an exact bounded evaluation claim concerning the dependent content. The dependent and base values are predicate parameters, not A.6.5 SlotSpecs. Assertions of these predicates remain ordinary C.2.1 epistemes; consultation, influence, provenance, evidence, evaluation Work, and later sufficiency remain separate.
 
@@ -23708,7 +23718,7 @@ Different exact local kinds, F.17 senses, scopes, or ReferencePlanes are handled
 
 #### A.6.6:4.4a - Claim-scoped non-kind predicate-base branch
 
-When one identified derivation or criterion-selection claim uses exact claim content as its base, reuse A.6.6's endpoint, scope, time, witness, Bridge/loss, change, and overread discipline without pretending that a new relation kind or special base-declaration occurrence has been admitted. Identify the exact dependent `U.ClaimGraph`, exact nonempty selected base subgraph by value, the `derive` or `evaluate` mode, exact derivation or evaluation-and-selection claim identity, bounded receiving use, and effective reference scheme. Add an exact A.2.6 ClaimScope, temporal policy/domain, source or witness qualification, or cross-scheme Bridge and loss account only when that independently varying fact changes the assertion.
+When one identified derivation or criterion-selection claim uses exact claim content as its base, reuse A.6.6's endpoint, scope, time, witness, Bridge/loss, change, and overread discipline without pretending that a new relation kind or special base-declaration occurrence has been admitted. Identify the dependent ClaimGraph and selected nonempty base subgraph as exact by-value `NonemptyClaimContent` values under C.2.1:4.1.2. State the `derive` or `evaluate` mode, exact derivation or evaluation-and-selection claim identity, bounded receiving use, and effective reference scheme. Add an exact A.2.6 ClaimScope, temporal policy/domain, source or witness qualification, or cross-scheme Bridge and loss account only when that independently varying fact changes the assertion.
 
 The assertion is ordinary C.2.1 claim content under `derivedUsingRuleContent` or `evaluatedAgainstRuleContent`. The dependent and base are predicate parameters, not automatically A.6.5 SlotSpecs, participants of a reusable relation occurrence, or an intrinsic `rule-bearing` classification. Same-scheme use adds no Bridge. A source edition, designation, acceptance/currentness fact, trace, or witness qualifies the assertion but does not enter semantic-base identity. Equal graphs under the same scheme count as one semantic base with multiple qualifications; a changed graph is another base.
 
@@ -38821,7 +38831,7 @@ This pattern defines (governing-pattern, wiring‑friendly):
 
 * **EntityOfConcernRef:** the comparison operation family declared by `Compare` and `CompareEligibility` in this section.
 
-* **Effective `U.ReferenceScheme`:** the CHR suite reference scheme in which the A.19.CHR SlotKind lexicon, CN-Spec, CG-Spec, and ComparatorSpec tokens are interpreted.
+* **Effective reference scheme:** the CHR suite reference scheme in which the A.19.CHR SlotKind lexicon, CN-Spec, CG-Spec, and ComparatorSpec tokens are interpreted.
 
 * **Direct signature components:**
 
@@ -38847,11 +38857,13 @@ Each argument meaning is declared separately for Compare and CompareEligibility.
 | Argument | claimScope | U.ClaimScope delimiting this profile pair and comparison claim | ByRef; 1 |
 | Argument | selectedSlices | Set of selected U.ContextSlice members of claimScope under A.2.6 | ByValue set of exact slice references; 1 set |
 | Argument | characteristicPredicate | A.19 CharacteristicSpacePredicate used to restrict this comparison, if any | ByValue; 0..1, explicitly absent when unused |
-| Argument | referenceScheme | Effective U.ReferenceScheme used to interpret the comparison | ByRef; 1 |
+| Argument | referenceScheme | `EpistemeInterpretationScheme` (C.2.1:4.1.2), governing this comparison | ByRef through C.2.1 SchemeDesignation; 1 |
 | Argument | referencePlane | CHR:ReferencePlane value qualifying the comparison | ByValue; 1 |
 | Argument | evaluationTime | Evaluation point or interval in the declared time basis, qualifying what is compared | ByValue; 1 |
 | Compare result | ComparisonResultSlot | Set of relation or poset tokens returned by the declared comparator | ByValue; 1 set on completed admitted comparison, 0 without a result |
 | CompareEligibility result | GuardDecision | Judgment determined by the eligibility predicates: pass, degrade or abstain | ByValue; 1 on completed evaluation |
+
+Resolve the scheme designation under C.2.1:4.2.6 to one exact rule collection, then check its C.2.1:4.1.2 range and the rules needed by these actual comparison inputs. The reference token is not the bound scheme. An unresolved required interpretation cannot support a completed admitted comparison; apply the guard and abstention rules below. Membership alone supplies neither successful comparison nor a cross-scheme correspondence. The application and result bindings below remain independently required.
 
 The **argument bindingPredicate** for each row holds when that application actually uses the resolved value for the row's meaning: operand, comparison/admission rule, evidence condition or explicit comparison-use restriction. In particular, a scope, predicate or time appearing in nearby metadata is not bound unless it qualifies this comparison/evaluation. Each indicator-derived profile retains its selected UINDM positions and exact A.19 basis; equal indices or Characteristic names alone do not establish the comparator's required position/Scale match.
 
@@ -38970,7 +38982,7 @@ Apply the declaration checks to a CPM publication and the application checks to 
 
 | Check Id | Requirement (normative) | Notes (didactic and evidence) |
 | :--- | :--- | :--- |
-| **CC-A19CPM-0** | **Mechanism declaration completeness.** One `U.Mechanism` episteme, its exact comparison-operation-family `EntityOfConcernRef`, effective `U.ReferenceScheme`, operation-local argument/result declarations, `OperationAlgebra`, `LawSet`, `AdmissibilityConditions`, Applicability, and optional `SignatureManifest` are recoverable. | An obtaining F.9 `Bridge`, its separate C.2.1 bounded-use claim when consumed, any applicable ReferencePlane relation and policy, dated `U.Work`, actual operation application and result binding, any result episteme, A.10 evidence-provenance, G.11 currentness, and G.9 parity objects remain separate. |
+| **CC-A19CPM-0** | **Mechanism declaration completeness.** One `U.Mechanism` episteme, its exact comparison-operation-family `EntityOfConcernRef`, effective reference scheme, operation-local argument/result declarations, `OperationAlgebra`, `LawSet`, `AdmissibilityConditions`, Applicability, and optional `SignatureManifest` are recoverable. | An obtaining F.9 `Bridge`, its separate C.2.1 bounded-use claim when consumed, any applicable ReferencePlane relation and policy, dated `U.Work`, actual operation application and result binding, any result episteme, A.10 evidence-provenance, G.11 currentness, and G.9 parity objects remain separate. |
 | **CC‑A19CPM‑1** | **Single governing pattern.** The canonical CPM intension is governed here (`A.19.CPM:4.1`); other descriptions cite this section rather than restating the kernel law. | Prevents near-duplicate comparison semantics from drifting. |
 | **CC‑A19CPM‑2** | **Suite stage alignment.** `Compare` is the canonical stage‑op for CHR stage `compare`; ordering and optionality are taken only from `A.19.CHR:4.5`. | Never infer order from `mechanisms[]`. |
 | **CC‑A19CPM‑3** | **SlotKind discipline.** SlotKind tokens follow the suite lexicon (`A.19.CHR:4.2.1`). | No SlotKind drift across specializations and wiring. |
@@ -39197,7 +39209,7 @@ Method semantics and SoTA algorithm families do not live inside the kernel: they
 
 * **EntityOfConcernRef:** the selection operation family declared by `Select` and `SelectEligibility` in this section.
 
-* **Effective `U.ReferenceScheme`:** the CHR suite reference scheme in which the A.19.CHR SlotKind lexicon, CN-Spec, CG-Spec, and any current TaskSignature tokens are interpreted.
+* **Effective reference scheme:** the CHR suite reference scheme in which the A.19.CHR SlotKind lexicon, CN-Spec, CG-Spec, and any current TaskSignature tokens are interpreted.
 
 * **Direct signature components:**
 
@@ -39226,13 +39238,15 @@ Each argument below is declared separately for Select and SelectEligibility, exc
 | Argument | claimScope | U.ClaimScope delimiting candidate universe and selection use | ByRef; 1 |
 | Argument | selectedSlices | Set of selected U.ContextSlice members of claimScope under A.2.6 | ByValue set of exact references; 1 set |
 | Argument | characteristicPredicate | A.19 CharacteristicSpacePredicate basis shared as required with the relevant CPM members | ByValue; 0..1, explicitly absent when none governs the use |
-| Argument | referenceScheme | Effective U.ReferenceScheme used to interpret the selection | ByRef; 1 |
+| Argument | referenceScheme | `EpistemeInterpretationScheme` (C.2.1:4.1.2), governing this selection | ByRef through C.2.1 SchemeDesignation; 1 |
 | Argument | referencePlane | CHR:ReferencePlane value qualifying selection | ByValue; 1 |
 | Argument | evaluationTime | Selection-evaluation point or interval in the declared time basis | ByValue; 1 |
 | Argument | selectorPolicy | Effective selection policy and resolved defaults, including exact candidate-level failure behavior when degrade is used | ByRef to the declared policy; 1, resolved through TaskSignature when it supplies that policy |
 | Select argument | eligibility | GuardDecision actually determined by SelectEligibility for these same proposal arguments, used to admit this selection | ByValue; 1, with its exact producing guard-result binding recoverable |
 | Select result | SelectionSlot | Set of candidate values selected under those criteria and policy | ByValue; 1 set on completed admitted selection, 0 on abstain |
 | SelectEligibility result | GuardDecision | Judgment determined by the eligibility predicates: pass, degrade or abstain | ByValue; 1 on completed evaluation |
+
+Resolve the scheme designation under C.2.1:4.2.6 to one exact rule collection, then check its C.2.1:4.1.2 range and the rules needed by these actual selection inputs. The reference token is not the bound scheme. An unresolved required interpretation cannot support a completed admitted selection; apply the guard and abstention rules below. Membership alone supplies neither successful selection nor a cross-scheme correspondence. The application and result bindings below remain independently required.
 
 For each argument row, its **bindingPredicate** holds when that application actually uses the resolved value for its stated purpose: candidates supply the selection universe, criteria/policy supply the choice rule, specifications/evidence requirements govern admission, and the basis, coverage and provenance supply the comparisons on which the choice relies. Scope, slices, predicate, scheme, plane and time bind only when they qualify that application. A nearby policy or copied comparison record does not supply those bindings.
 
@@ -39380,7 +39394,7 @@ This pattern intentionally biases selection authoring toward explicitness and ad
 
 | ID | Requirement |
 | --- | --- |
-| **CC-A19SelectorMechanism-0** | **Mechanism declaration completeness:** one `U.Mechanism` episteme, its exact selection-operation-family `EntityOfConcernRef`, its effective `U.ReferenceScheme`, the operation-local argument/result declarations, `OperationAlgebra`, `LawSet`, `AdmissibilityConditions`, and Applicability are recoverable under A.6.1. |
+| **CC-A19SelectorMechanism-0** | **Mechanism declaration completeness:** one `U.Mechanism` episteme, its exact selection-operation-family `EntityOfConcernRef`, its effective reference scheme, the operation-local argument/result declarations, `OperationAlgebra`, `LawSet`, `AdmissibilityConditions`, and Applicability are recoverable under A.6.1. |
 | **CC‑A19SelectorMechanism‑1** | **Single governing pattern:** the canonical SelectorMechanism `U.Mechanism` declaration is governed by `A.19.SelectorMechanism:4.1`; other descriptions cite this section rather than restating the kernel law. |
 | **CC‑A19SelectorMechanism‑2** | **Set‑return default:** a conformant `Select` MUST be set‑returning by default; it MUST NOT silently collapse partial orders or incomparabilities to a single winner. |
 | **CC‑A19SelectorMechanism‑3** | **No hidden thresholds or constants:** a conformant SelectorMechanism publication MUST NOT smuggle thresholds, weights, dominance rules, tie‑breakers, or default `PortfolioMode` fields. Selection‑level commitments MUST be explicit in `CriteriaSlot` and explicit policy defaults when used (e.g., via `TaskSignatureSlot`). Acceptance thresholds remain governed by `AcceptanceClauses`, `TaskSignature`, or `GateProfile` records and MUST be applied only via `SelectEligibility`. |
@@ -41613,7 +41627,8 @@ Naive aggregation of knowledge holons causes recurring failures:
 
 #### B.1.3:4.1 - Terms (didactic recap)
 
-* **U.Episteme** — a claim-bearing knowledge holon. C.2.1 identifies it through the participant-determined `EpistemeConstitutionRelation` over `<claim content, exact EntityOfConcern, effective ReferenceScheme>`. `ClaimGraphSlot`, `EntityOfConcernSlot`, and `ReferenceSchemeSlot` name participant meanings only inside that relation's reusable declaration; they are not internal slots of the episteme. Empirical grounding uses the separate `EpistemeEmpiricalGroundingRelation`, while text, code, figures, datasets, SCR/RSCR references, publication forms, and presentation carriers remain separately governed provenance, representation, publication, or carrier material.
+* **U.Episteme** — a claim-bearing knowledge holon. C.2.1 identifies it through the participant-determined `EpistemeConstitutionRelation` over `<claim content, exact EntityOfConcern, effective ReferenceScheme>`. These three actual constituents determine its identity. Empirical grounding uses the separate `EpistemeEmpiricalGroundingRelation`, while text, code, figures, datasets, SCR/RSCR references, publication forms, and presentation carriers remain separately governed provenance, representation, publication, or carrier material.
+* **Constitution participants and typed positions.** When the receiving use needs a reusable designation of the EntityOfConcern, C.2.1:4.2.1 supplies `EntityOfConcernSlot` with `ValueKind=U.Entity` and `refMode=U.EntityRef`. It is a participant meaning in the relation declaration, not an internal slot of the episteme. Exact claim content and effective interpretation rules remain necessary constituents without being additional SlotKinds. A receiving relation declaration that needs `ClaimGraphSlot` or `ReferenceSchemeSlot` must supply each independently governed ValueKind and complete A.6.5 SlotSpec; the constituent name alone provides neither.
 * **Evidence/Provenance Graph** — an A.10 descriptive account whose edges cite independently established direct support, source, measurement or use relations. Display labels such as `evidences` do not create generic relation kinds.
 * **Semantic mapping** — the exact correspondence rule used by this composition. When it crosses semantic contexts, identify the source and receiving F.17 `SchemeSenseCell` values and an obtaining F.9 `Bridge`; keep the proposed use, direction, use-specific rule, permitted loss, reliance, and **CL** evidence summary separate. F.9 does not require CL for every Bridge; B.1.3 requires the summary for a mapping used in its support account. CL alone neither grants the use nor supplies a numerical penalty.
 * **SCR** — a `U.SCR` that lists all symbol carriers included in the aggregate; **never dropped**.
@@ -41639,15 +41654,18 @@ When one particular operation application matters, use A.6.1 for that applicatio
 * **Domain.** `D_know` designates exact source epistemes and the governed **ConstituentOf**, **UsageOf**, **ReferenceTo**, **evidences**, **derivesFrom**, and collection-specific belongs-to relations that obtain among them, together with the mappings used by the fold. The graph represents those objects and relations; it does not make them obtain.
 * **Result.** One synthesized episteme whose claim content, exact EntityOfConcern, and effective reference scheme satisfy C.2.1. Its ClaimGraph integrates the retained content; provenance and SCR keep contributing sources and carriers traceable. State its formal basis, scope, and supported conclusion with limitations. Calculate an aggregate R only where B.3 and C.2.2 establish the input meanings, scales, and dependency model. Otherwise keep support separate and return a bounded reasoned synthesis. Neither a higher formality level nor an axiomatic mode requires an invented numerical score or an irrelevant empirical study.
 
-**Compilation (target-scheme fold).** Map one synthesized episteme into one exact target reference scheme.
+**Compilation (target-scheme fold).** Map one synthesized episteme into one exact target reference scheme. Recover the operative target rules through C.2.1:4.1.1 and fix them as `S` for this compilation operation. A journal's name or the document describing its rules does not by itself identify those rules.
 
-```
-Γ_epist^compile : ( E_synth    : U.Episteme,
-                    TargetScheme : U.ReferenceScheme ) → U.Episteme
+```text
+Γ_epist^{compile,S} : ( E_synth : U.Episteme ) ⇀ U.Episteme
 ```
 
-* **Domain.** One synthesized episteme and the exact target reference scheme used to read the compiled claims—for example, the scheme used by a journal, standard, or program specification. For every meaning that crosses semantic contexts, the fold also relies on exact source and receiving `SchemeSenseCell` values, an obtaining F.9 Bridge, and a separately stated bounded-use claim; any relied-on use must pass A.10 or B.3.
-* **Result.** One compiled, target-scheme episteme with explicit mapping and loss information and a C.2.1 identity determined by its claim content, exact EntityOfConcern, and effective reference scheme. The result is not thereby a publication, release, carrier, or accepted artifact.
+`S` is fixed in the operation's declaration. The declaration states how input claims are mapped into `S` and the conditions for admitting the result. The partial arrow means that an identified input episteme alone does not establish an admissible compilation: the mapping, preservation, and reliance conditions in :4.5 must hold. An unresolved interpretation or required mapping leaves the affected compilation unresolved.
+
+* **Domain.** One synthesized episteme whose retained claims can be interpreted in `S` under the declared mapping. For every meaning that crosses semantic contexts, the fold also relies on exact source and receiving `SchemeSenseCell` values, an obtaining F.9 Bridge, and a separately stated bounded-use claim; any relied-on use must pass A.10 or B.3.
+* **Result.** One compiled episteme with explicit mapping and loss information and a C.2.1 identity determined by its claim content, exact EntityOfConcern, and effective target scheme `S`. The result is not thereby a publication, release, carrier, or accepted artifact.
+
+**When the target must be replaceable.** A receiving use that selects or substitutes a target scheme within one operation needs an independently governed range for that argument. Use C.3 to identify the candidate rules, their identity criterion, and the membership condition required by that use; then declare the argument and its binding conditions under A.6.1. Range membership does not establish that the chosen scheme can express this input's claims or that a proposed mapping preserves the required meaning. Those application conditions still need :4.5. E.24.UK:4.2c supplies no admitted general `U.ReferenceScheme` range. Fixing one `S` permits the compilation above without claiming that general range; changing the fixed rules requires reconsidering the declaration, mappings, and affected results.
 
 **Relationship to Γ_ctx / Γ_time.**
 If the knowledge fold explicitly depends on **argument order** (for example, a derivation), the internal fold uses **Γ_ctx** for the sequence. If a **temporal storyline** matters, first identify each exact episteme and any obtaining C.2.1 edition relation; then use B.1.4/**Γ_time** to aggregate only the recovered temporal restrictions, relation order, or applicability windows required by the use. Γ_epist composes exact selected episteme inputs, not a label-defined current slice. If the result changes claim content, EntityOfConcern, or effective reference scheme, C.2.1 identifies another episteme. Use B.2 only when exact construction facts leave a separate existing-whole versus candidate-new-whole question.
@@ -41712,13 +41730,13 @@ When computing **Γ_epist^synth(D_know)**:
 
 #### B.1.3:4.5 - Core rules for target-scheme compilation
 
-When computing **Γ_epist^compile(E_synth, TargetScheme)**:
+When computing **Γ_epist^{compile,S}(E_synth)**, retain the fixed rules `S` and the mapping used for this input:
 
 **1. Reference-scheme bindings.**
-   Map every operative concept, unit, and claim into **TargetScheme** and record the exact mapping and its **CL** evidence summary. For a meaning that crosses semantic contexts, name the source and receiving `SchemeSenseCell` values, the obtaining F.9 Bridge, the proposed use, direction, use-specific rule, and permitted loss; establish reliance separately. C.2.1 identifies the compiled episteme from its resulting claims, exact EntityOfConcern, and target scheme. A changed identity discriminator identifies another episteme; it does not by itself open a whole-reidentification question.
+   Map every operative concept, unit, and claim into **S** and record the exact mapping and its **CL** evidence summary. For a meaning that crosses semantic contexts, name the source and receiving `SchemeSenseCell` values, the obtaining F.9 Bridge, the proposed use, direction, use-specific rule, and permitted loss; establish reliance separately. C.2.1 identifies the compiled episteme from its resulting claims, exact EntityOfConcern, and target scheme. A changed identity discriminator identifies another episteme; it does not by itself open a whole-reidentification question.
 
 **2. Re-express the assurance basis.**
-   Re-express F, G, and the support account in **TargetScheme**. Preserve the formal conclusion and empirical limitations separately. Recalculate R or a mapping loss only if the target use has the required meanings, scales, and model under B.3/C.2.2; a change of vocabulary or increased formality is not additional warrant. Without a justified aggregate, carry the separate support and bounded synthesis. A quantitative or formal result needs grounds for its claimed calculations or derivations; its mode alone requires no additional numerical tuple.
+   Re-express F, G, and the support account in **S**. Preserve the formal conclusion and empirical limitations separately. Recalculate R or a mapping loss only if the target use has the required meanings, scales, and model under B.3/C.2.2; a change of vocabulary or increased formality is not additional warrant. Without a justified aggregate, carry the separate support and bounded synthesis. A quantitative or formal result needs grounds for its claimed calculations or derivations; its mode alone requires no additional numerical tuple.
 
 **3. Compilation trace.**
    Produce the compiled episteme's SCR and the carrier hashes needed to reconstruct this application. Require independent re-hash verification when the receiving claim needs independent carrier-integrity evidence under B.3 or an applicable B.3.3 assurance profile. A level label alone does not select that check. The trace establishes neither publication nor release.
@@ -41755,6 +41773,8 @@ For **Γ_epist^compile**, map the retained claims into the journal's scheme, car
 
 For **Γ_epist^compile**, map the retained claims to the certification scheme. Where local meanings differ, identify exact source and receiving `SchemeSenseCell` values, test the F.9 Bridge, state the bounded certification use and permitted loss, and establish relied-on use separately. C.2.1 identifies the resulting episteme. Certification, authorization, a publication occurrence, and actual system protection remain separate claims.
 
+To make the target choice explicit, fix `S_cert` with two interpretation rules: “proved under A” states `A ⇒ P` in the named model; “protection established in service” states that the installed system delivers the protective function in the named operating conditions. The proof input can be compiled into the first statement with A retained. It cannot supply the second statement without the model-to-world and assurance basis already identified above. Reformatting the document that describes these two rules leaves `S_cert` unchanged. If another target reads “proved” as an unconditional claim about the installed system, that is a different scheme: the earlier mapping of the proof is inadmissible there, while the original theorem remains available. Selecting that target within one replaceable-scheme argument also requires the declared range membership; matching its document format establishes neither membership nor an admissible mapping.
+
 #### B.1.3:5.3 - Contrast (didactic)
 
 | Aspect | Knowledge composition (B.1.3:4) | System aggregation decisions (B.1.2:4) |
@@ -41779,7 +41799,7 @@ For **Γ_epist^compile**, map the retained claims to the certification scheme. W
 
 **At compilation (Γ\_epist^compile):**
 
-1. **PO-COMP-SCHEME.** The exact target reference scheme **MUST** be declared. Every active concept and unit **MUST** have an explicit mapping; a cross-context meaning use **MUST** name the exact F.9 Bridge, separate bounded-use claim, permitted loss, and any relied-on A.10 or B.3 result.
+1. **PO-COMP-SCHEME.** The operative target rules **MUST** be identified and fixed in the compilation declaration. If the receiving operation instead accepts a replaceable scheme argument, its independently governed range and binding conditions **MUST** be declared and satisfied for that use. Every active concept and unit **MUST** have an explicit mapping; a cross-context meaning use **MUST** name the exact F.9 Bridge, separate bounded-use claim, permitted loss, and any relied-on A.10 or B.3 result.
 2. **PO-COMP-ASSUR.** The formal basis, scope, and support account **MUST** be re-expressed in the target scheme without losing their limitations. Any recalculated R or loss **MUST** satisfy the receiving model; otherwise preserve the separate support and bounded conclusion.
 3. **PO-COMP-SCR.** The compiled episteme **MUST** retain an SCR with the hashes, versions, and dates required to reconstruct the application. This obligation does not assert release or publication.
 4. **PO-COMP-ID.** The output **MUST** be identified through its C.2.1 claim content, exact EntityOfConcern, and effective target scheme. A changed discriminator identifies another episteme. B.2 is opened only for an independently current existing-whole versus candidate-new-whole question, never as a substitute for this identity rule.
@@ -41789,7 +41809,7 @@ For **Γ_epist^compile**, map the retained claims to the certification scheme. W
 
 | ID            | Requirement                                                                                                                                                         | Purpose                        |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
-| **CC‑B1.3.1** | Inputs to Γ\_epist MUST be `U.Episteme` holons; **ComponentOf** is forbidden; use **ConstituentOf**, **UsageOf**, or **ReferenceTo** for their different claims; use a collection's own belongs-to predicate only for collections. | Prevent category errors. |
+| **CC‑B1.3.1** | Every knowledge constituent supplied to Γ\_epist MUST be a `U.Episteme` holon; **ComponentOf** is forbidden; use **ConstituentOf**, **UsageOf**, or **ReferenceTo** for their different claims; use a collection's own belongs-to predicate only for collections. | Prevent category errors. |
 | **CC‑B1.3.2** | Provenance and **SCR** MUST be preserved in the aggregate; dropping sources or methods is non‑conformant.                                                      | Enforce Evidence Graph Referring.    |
 | **CC‑B1.3.3** | Any aggregate R MUST follow the justified input meanings, scales, support dependencies, and receiving model. No default min, max, or F-to-R conversion is supplied; absent a common model, retain a bounded synthesis and separate support. | Prevent unsupported assurance and preserve useful non-aggregate results. |
 | **CC-B1.3.4** | Contrary evidence MUST remain visible. An established scope or interpretation difference may separate claims; an unresolved conflict must qualify, narrow, or defeat the affected conclusion. Use B.2 only for a separately grounded whole-reidentification question. | Keep the practical effect of disagreement visible. |
@@ -50870,9 +50890,9 @@ KD-CAL composes C.2.1 epistemes through the relations among their claims and sup
 
 **Use this pattern when.** You need to identify or compare a body of knowledge: what it claims, the exact entity those claims concern, and the rules under which they are interpreted. A pump specification with a changed pressure threshold carries different claims. Publishing the same claims about the same pump under the same interpretation in another file preserves the episteme.
 
-**First useful move.** Ask: what is claimed; what exact entity are the claims about; and what designation and interpretation rules make those claims readable about that entity? Include measurement, comparison or evaluation rules where the claims use them. If identity is all the task needs, stop after those answers. Otherwise name the concrete receiving use and open only the corresponding branch in :4.0. An unresolved uncertainty or choice is needed only when the use involves a real inquiry or decision.
+**First useful move.** If the claim is still taking shape, use :4.1.1 to develop it in writing. Ask: what is claimed; what exact entity are the claims about; and what designation and interpretation rules make those claims readable about that entity? Include measurement, comparison or evaluation rules where the claims use them. If identity is all the task needs, stop after those answers. Otherwise name the concrete receiving use and open only the corresponding branch in :4.0. An unresolved uncertainty or choice is needed only when the use involves a real inquiry or decision.
 
-**One-line summary.** A `U.Episteme` is a knowledge holon identified by exact claim content, one exact EntityOfConcern, and the effective `U.ReferenceScheme` that makes the claims interpretable about that entity. Changing any of these three discriminators identifies another episteme.
+**One-line summary.** A `U.Episteme` is a knowledge holon identified by exact claim content, one exact EntityOfConcern, and the effective `ReferenceScheme` that makes the claims interpretable about that entity. Changing any of these three discriminators identifies another episteme.
 
 **Primary working reader and viewpoint.** The engineer or researcher comparing, revising, teaching, grounding or publishing that knowledge object. The working concern is to reidentify it through those uses and locate a change when it occurs.
 
@@ -50889,7 +50909,7 @@ A theory, model, specification, proof or diagnosis can be an episteme when the s
 FPF treats an episteme as a holon, not as a document class or a filled record. It is a claim-bearing whole about an exact EntityOfConcern under an effective reference scheme. Carriers, notations, and admissible operations can differ; the identity question is what makes this one episteme and what changes it.
 
 
-The core constructive question is whether an exact `U.ClaimGraph`, exact `U.Entity`, and effective `U.ReferenceScheme` stand in the relation that makes the claim content interpretable and evaluable as claims about that entity. When they do, their selected organization yields a whole-level epistemic characteristic: the resulting holon can be used as one defeasible or deductive body of knowledge. That characteristic is not supplied by any one participant alone.
+The core constructive question is whether an exact `ClaimGraph`, exact `U.Entity`, and effective `ReferenceScheme` stand in the relation that makes the claim content interpretable and evaluable as claims about that entity. When they do, their selected organization yields a whole-level epistemic characteristic: the resulting holon can be used as one defeasible or deductive body of knowledge. That characteristic is not supplied by any one participant alone.
 
 Any exact `U.Entity` can participate as the EntityOfConcern. An episteme can therefore concern another episteme or itself without changing the constitution relation.
 
@@ -50930,13 +50950,13 @@ The mantra is a recall aid, not a work plan. The application method and stop con
 
 #### C.2.1:4.0 - First-use completeness questions
 
-Begin with the three questions that identify the episteme. They are identity questions, not fields to fill.
+Begin with the three questions that identify the episteme. They are identity questions, not fields to fill. When the answers are still being developed, :4.1.1 connects the writing work in C.2.4:4.6 to the resulting constitution judgment.
 
 | Always ask | Exact object recovered |
 | --- | --- |
-| What is being claimed? | the exact claim content carried by one `U.ClaimGraph` |
+| What is being claimed? | the exact claim content carried by one `ClaimGraph` |
 | What exact entity do those claims concern? | one identified `U.Entity` participating as the EntityOfConcern |
-| Under which designation and interpretation rules are the claims read, and, where the claims use them, which measurement, comparison, or evaluation rules apply? | the effective `U.ReferenceScheme` |
+| Under which designation and interpretation rules are the claims read, and, where the claims use them, which measurement, comparison, or evaluation rules apply? | the effective `ReferenceScheme` |
 
 If the task needs only the episteme's identity, stop after the three answers. Otherwise state the concrete receiving use. Ask for an unresolved uncertainty or choice only when that use is a real inquiry or decision.
 
@@ -50946,6 +50966,7 @@ Open a row below only when its first column names the reader's next sentence or 
 | --- | --- | --- |
 | A claim or relation must cite the exact constitution occurrence, not merely say that the episteme exists. | one exact obtaining `EpistemeConstitutionRelation` occurrence, reidentified by the participant triple; designate it when an epistemic receiver needs a reference, or use the occurrence itself as a participant when another direct relation is the receiver | C.2.1:4.2.3 and `A.6.REL` |
 | A reader must cite one exact claim inside one exact episteme edition, rather than the whole episteme. | one `ClaimAddress`: an exact episteme-edition reference plus an intrinsic claim identity declared by that edition's exact ClaimGraph; if no such identity resolves uniquely, cite the whole episteme or identify the claim as a separate episteme | C.2.1:4.2.5 |
+| A typed interface needs replaceable interpretation rules or exact content, or must recover that value from an addressable episteme. | the receiving range, exact constituent value and any required designation/resolution; keep membership separate from successful use | C.2.1:4.1.2 and :4.2.6 |
 | An observer must inspect designated empirical claims against current observation, intervention, measurement, or test relations involving one exact holon. | one exact `EpistemeEmpiricalGroundingRelation` occurrence, its covered claim subgraph, claim-to-world mappings, and grounding holon; recover supporting evaluation or evidence use separately | C.2.1:4.3 and the direct observation, intervention, measurement, test, evaluation, or evidence pattern |
 | A description must state the concern from which this episteme is read. | one exact `U.Viewpoint` episteme P and the named describing use that selects P; keep the episteme, its EntityOfConcern, the use, and P distinct | `E.10.D2` and `E.17.0` |
 | A team will validate a Description as a specification before relying on it. | the exact Description episteme, checkable claims, and named harness or validation relation; preserve or update the named describing-use viewpoint only when that selection affects reliance | `E.10.D2` and C.2.1:6 |
@@ -50974,19 +50995,64 @@ The shared C.2.1 identity of one `U.Episteme` is:
 <claim content, exact EntityOfConcern, effective ReferenceScheme>
 ```
 
-`claim content` is the identity-bearing `U.ClaimGraph` carried as the episteme's constitutive claim structure. Each episteme selects one exact `U.Entity` as the EntityOfConcern of the current claim-bearing whole. Its ClaimGraph may also designate other independently governed entities as participants in relational, comparative, negative, counterfactual, or modal claims.
+`claim content` is the identity-bearing `ClaimGraph` carried as the episteme's constitutive claim structure. Each episteme selects one exact `U.Entity` as the EntityOfConcern of the current claim-bearing whole. Its ClaimGraph may also designate other independently governed entities as participants in relational, comparative, negative, counterfactual, or modal claims.
 
 When the subject really is an admitted relation kind, an already individuated obtaining relation occurrence, an admitted collection-as-whole, or another independently identified joint entity, that object may be the EntityOfConcern. Several participant designations do not by themselves constitute such an object. A negative or counterfactual relation claim can designate the relation kind and its participants in the ClaimGraph without requiring an obtaining world-side occurrence.
 
 Split the ClaimGraph only when it combines independent subjects in a way that makes the selected EntityOfConcern untruthful or breaks the intended identity or comparison use; do not split merely because one predicate connects several participants. The reusable predicate-definition boundary is stricter: before publication, name one truthful exact EntityOfConcern and state what the definition claims about it. If no such single concern can be selected, remain at local compound-claim level.
 
-The effective `U.ReferenceScheme` supplies the designation and interpretation rules needed to read this ClaimGraph as claims about this EntityOfConcern. Add measurement, comparison, or evaluation rules only when the claims' meaning uses them. The corresponding measurement or evaluation entities and relation occurrences remain under their direct patterns.
+The effective `ReferenceScheme` supplies the designation and interpretation rules needed to read this ClaimGraph as claims about this EntityOfConcern. Add measurement, comparison, or evaluation rules only when the claims' meaning uses them. The corresponding measurement or evaluation entities and relation occurrences remain under their direct patterns.
 
 A theorem read under a formal vocabulary and calculus needs designation and interpretation rules; it needs measurement or evaluation rules only if its meaning uses them. By comparison, a pump-tolerance episteme uses the applicable units, measurement procedure, and pass/fail criterion to make its claim meaningful; the actual measurement and evaluation occurrences remain neighboring objects rather than episteme constituents.
 
 Changing any identity discriminator yields another episteme. Changing a carrier, layout, rendering, publication occurrence, evidence item, viewpoint assignment, or model-use setting does not by itself yield another episteme. A direct pattern may recognize the same individual as a dependent episteme kind through its stable membership condition, but it does not add another identity discriminator. `A.3.2` governs `U.MethodDescription` membership; `E.17.0` governs `U.Viewpoint` and `U.View` membership through fixed predicates over already identified epistemes. `A.6.3` governs an optional viewing construction between source and receiving epistemes, not view membership. If any work or construction changes claim content, EntityOfConcern, or effective reference scheme, those changed C.2.1 discriminators identify the resulting episteme, not the dependent-kind label.
 
 This identity is constructive. The claim graph and reference scheme are epistemic constituents; the EntityOfConcern remains an independently governed entity related through aboutness and reference. When `EpistemeConstitutionRelation` obtains, their organization yields the whole-level characteristic of being one interpretable claim-bearing whole. The relation occurrence and the resulting episteme are distinct but reidentified from the same three discriminators.
+
+##### C.2.1:4.1.1 - Obtain the content, recover its interpretation, and compare a change
+
+Writing can help obtain the content before it is a finished knowledge object. Following C.2.4:4.6, put the cue or earlier expression beside a proposed claim. Recover what it is about, what is asserted, and the conditions that make that assertion meaningful. Compare the proposal with the observations and reasons that prompted it; use the subject's Method when a missing distinction requires further investigation. Keep unresolved alternatives visible when they affect the next use. A note or partial card can support this work before its content satisfies the episteme-constitution predicate.
+
+**Recover the whole asserted content.** `ClaimGraph` names the semantic claim content organized as a whole: the claims, their participants and predicates, polarity, conditions, and the asserted relations among claims. Include quantification, modal force, and grounds asserted as part of that account where they change what it says. A field named `claim` may carry only part of this content. A graph representation can express it, but graph nodes and edges have the identity of that representation. An episteme describing this content is another object, with the described content as its EntityOfConcern. A separately obtaining justification or evidence relation remains separate unless the account also asserts something about it.
+
+**Recover the effective rules.** `ReferenceScheme` names the rules that actually govern designation and interpretation of this content about its EntityOfConcern. Recover what the expressions designate and how their combinations, qualifications, and inferential uses are read. Include measurement, comparison, or evaluation rules only where the claim's meaning uses them. A document describing those rules is an expression of the scheme; a rule elsewhere in that document enters the effective scheme only when it governs this account. A citation can identify the rules when its selected content is unambiguous; otherwise state the missing rule. An unresolved choice between materially different readings leaves that part of the constitution unresolved.
+
+**Individuate content and rules before assigning a kind.** An exact body of interpreted claim content and an exact collection of operative rules are abstract `U.Entity` individuals under A.1:4.1. For the content, the discriminator is the complete selected claims with their interpreted meanings and asserted organization; for the rule collection, it is the operative rules with their application domains and interpreted dependencies. These discriminators identify the individual independently of the text, graph, document or episteme through which a reader obtains it. Giving those claims or rules under an unambiguous interpretation can designate the individual directly; :4.2.6 also permits designation through an exact episteme edition and selection. Different such designations can return the same individual. Changing any of these identity discriminators identifies another content or rule collection; an expression change that preserves them does not.
+
+This individuation and reference basis permits the content or rules to be an actual relation participant or the EntityOfConcern of an episteme about them. Neither a slot assignment nor a classification judgment supplies that basis. Entity status alone establishes no holonhood, episteme membership or obtaining relation. When the needed interpretation or identity remains unresolved, preserve the partial written result and recover the missing distinction before using it as an exact participant. That limit on the exact use does not prevent writing from helping obtain the content.
+
+**Choose the precision the receiving work needs.** Express the claim and rules well enough to perform the named comparison, interpretation, or revision. Ordinary prose, a diagram with a clear interpretation, or a partial written comparison can be sufficient. Add a C.3.2 classification only when the receiver needs a membership, substitution, or quantified-range judgment; identify the candidates and criterion for that particular classification. Classifying whole epistemes does not establish a kind for each of their constituents. Section :4.2.1 governs a receiving use that specifically needs typed constitution participants.
+
+**Judge identity separately from admissibility and use.** For full episteme identity, compare the complete claim content and its semantic organization, the exact EntityOfConcern, and the effective interpretation rules. Supply the correspondence that makes the preserved claims and their conditions recoverable on both sides. In a formal subject, the declared semantics and a proof or exhaustive comparison may supply it. In ordinary language, use the subject's distinctions and stated bounds to compare what each account commits to; expose an ambiguity that prevents the comparison. Agreement on selected questions establishes only that bounded agreement. A conservative derivation may omit content and therefore does not by itself establish full identity.
+
+A change to asserted meaning or grounds is a content change even if the principal sentence remains. Choosing a different interpretation rule changes the effective scheme even if all signs remain. Making an already determined meaning easier to recover can preserve both; adding a previously unsettled condition or commitment requires a new identity judgment. When only part of the account has been compared, preserve that partial result without asserting equality of the whole. There is no general procedure here for deciding equality of arbitrary natural-language meanings.
+
+**Reconsider what depended on the changed value.** Use :4.8 to locate the change. A :4.2.5 ClaimAddress continues to designate its claim in the original exact episteme while the edition reference resolves and that ClaimGraph declares exactly one claim with the intrinsic identity. To use corresponding content in another episteme, establish the claim-to-claim correspondence and resolve an address in that episteme; the old address remains an address in the original episteme. Changed claims or interpretation can defeat a proposed transfer of empirical coverage, an A.6.6 claim selection, or a predicate evaluation. Retest the affected viewpoint-conformance, edition-continuity, or receiving-use conclusion under its own rule. Reuse an unaffected part only with the correspondence and conditions that support that reuse. A different expression or carrier with the same complete content and scheme leaves episteme identity intact, while its suitability for the receiving action still needs that action's criterion.
+
+##### C.2.1:4.1.2 - Declare the range needed by a receiving interface
+
+Use an exact value directly when the receiving question concerns that value alone. A fixed-scheme operation can put its rules in the operation declaration, as in B.1.3. A reusable typed interface with a variable argument or replaceable participant needs a range: the receiver must be able to distinguish an eligible replacement from an expression that merely looks similar. State that distinction before choosing a type name.
+
+For the recurring interpretation and claim-content uses below, the following declarations identify two C.3 kind individuals over the abstract entities individuated under :4.1.1. The candidate domains retain the distinction between those entities and their documents, graph representations or describing epistemes. Each row supplies the candidate interpretation and membership rule of its C.3.2 KindSignature; no context-slice-dependent extension is needed for these content-fixed individuals.
+
+| Kind individual and candidate domain | Operative membership condition | Value identity and relevant boundary |
+| --- | --- | --- |
+| `EpistemeInterpretationScheme`: abstract rule-collection entities, identified with their application domains | The collection contains rules determining designation or interpretation of claim expressions: what a designation refers to, how a predicate or combination is read, or how a qualification or inference contributes to the claim's meaning. Its rule domains and imported semantic dependencies belong to the identified collection. | Identify a value by the operative rules, their domains and interpreted dependencies. A collection prescribing only font, page placement or file encoding is a non-member. A document describing a scheme is not the rule collection. A precisely specified partial scheme can be a member while lacking a rule needed by a particular receiver. |
+| `NonemptyClaimContent`: abstract content entities, identified as collections of interpreted claims and their selected semantic relations | The collection contains at least one claim with its participant and predicate meanings, polarity, qualifications and asserted interclaim relations. A whole ClaimGraph or an exact nonempty semantic subgraph can satisfy this condition. | Identify a value by that content and semantic organization under the declared interpretation. An empty collection is a non-member. An uninterpreted graph, a carrier and an episteme about the content are not candidates of this content-entity domain. False, conflicting or insufficiently supported claims can still be members. |
+
+Under these candidate interpretations, `EpistemeInterpretationScheme` is a subkind of `U.Entity`, and `NonemptyClaimContent` is a subkind of `U.Entity`. C.3.1's criterion-entailment branch applies: every member must have the independent semantic identity and reference basis in :4.1.1 and therefore satisfies A.1:4.1. A.6.5 can use either range as an entity ValueKind; actual participation still requires the receiving relation's predicate to obtain.
+
+Recover the candidate independently of the classification. C.3.2 first checks that the proposed candidate is a value in the stated domain; then it judges membership as true, false or unknown. Missing knowledge of a needed rule or content relation leaves that judgment unknown. It does not turn a known document into a rule collection, nor turn an unidentified expression into a fully identified value.
+
+For scheme identity, compare the actual rules and domains, including the dependencies that determine their meaning. A restatement can preserve the scheme when an explicit alignment preserves those rules; agreement on a few outputs cannot establish that identity. A changed interpretation rule or domain identifies another scheme even if its name and document remain. For content identity, apply :4.1.1 to the whole selected content. Two designations from different source editions may return the same content under the same scheme. Source, acceptance, currentness and witness qualifications attached to a designation do not enter the designated semantic base merely because they accompany it, as in A.6.6. When the selected content itself asserts such a fact, that assertion belongs to the content being compared. A change of graph encoding preserves content only when the interpretation supplies the complete correspondence; graph shape alone supplies none.
+
+The kinds themselves continue when their candidate domains and operative membership distinctions remain the same under C.3.1's comparison. Rewording the declaration or citing it from another pattern need not create another kind. Replacing the semantic rule/content criterion with the presence of a schema label would create another classification distinction. A change of one member's rules or claims instead identifies another value; it need not change the kind.
+
+These declarations supply a shared range for the receiving interfaces that cite them. A.1.1 uses `EpistemeInterpretationScheme` for its coherence participant R; A.2.6, A.19.CPM and A.19.SelectorMechanism use it for a bound scheme argument. A.6.0's R7/R8 predicates use `NonemptyClaimContent` for exact dependent content and semantic bases. Reusing one criterion preserves the same meaning of admissible input across those interfaces. A receiver adds any narrower language, semantic-domain or representation condition its operation actually needs; that condition does not become another kind merely because another pattern states it. A recurring independently different classification requires its own C.3 declaration.
+
+**Test replacement in the receiving use.** Resolve the proposed value, check the declared range and any narrower input conditions, then apply the receiver's own predicate or operation law. An eligible scheme need not interpret every actual input. Two eligible schemes need not be equal or admit a meaning-preserving translation. An eligible content value need not be a sufficient basis or an actually used premise. Missing interpretation stops the dependent operation; a false subject predicate remains a different result. For a cross-scheme use, establish the required correspondence, F.9 Bridge and bounded-use assertion where the receiving rule requires them, with A.10 reliance or B.3 assurance only under their own conditions. Membership supplies none of these results.
+
+Retest dependent bindings and conclusions when the resolved value or a used rule changes. Reuse unchanged content only with its established correspondence and applicability. Keep the old value and its qualified conclusions available instead of rewriting them as statements about the replacement. These bounded C.3 declarations do not admit public `U.ReferenceScheme` or `U.ClaimGraph`; E.24.UK governs any separately needed durable U-kind proposal.
 
 #### C.2.1:4.2 - Govern the core direct relation
 
@@ -50996,19 +51062,27 @@ This identity is constructive. The claim graph and reference scheme are epistemi
 
 ##### C.2.1:4.2.1 - Participants and the shared reusable-declaration rule
 
-Before using any signature-local table, identify the declaration itself. Each of `EpistemeConstitutionRelationSignature`, `EpistemeEmpiricalGroundingRelationSignature`, and `EpistemeEditionRelationSignature` is first one exact C.2.1 episteme: its own `U.ClaimGraph` carries the declaration claims, its exact EntityOfConcern is the direct relation kind, and its effective `U.ReferenceScheme` makes those claims interpretable. For each of these three declarations the fixed `A.6.0` membership predicate obtains, so `A.6.0` independently recognizes that same episteme individual as a `U.Signature`. `RelationSignature` names the relation-facing use of that same individual; it is neither another U-kind nor another identity.
+The constitution predicate uses three actual participants, each an exact `U.Entity`. The content and rule collection have the independent semantic identities given in :4.1.1; the EntityOfConcern has its own subject-governed identity. Recover each before judging whether the relation obtains:
 
-A complete declaration claim names the direct relation-kind designator, the exact `A.6.5` SlotSpecs needed by reusable typed uses, the obtaining predicate, the occurrence-identity rule, applicability, and only its actual dependencies and provided names. The direct relation kind, its actual participants, an obtaining occurrence, an assertion about it, a relation-occurrence description episteme, the declaration episteme, its publication, and a representation of any of these remain distinct. A receiving need may justify typed reuse but does not identify the declaration. One readable assertion needs no signature or manifest. An A.6.0 manifest is optional and is used only when actual dependencies or provided names must be exposed; a manifest row, list, citation, identifier, or edition marker creates neither episteme identity nor dependency.
+| Relation-participant meaning | What identifies the participant for this constitution |
+| --- | --- |
+| constitutive claim content | the abstract content entity identified by its complete semantic content and organization under :4.1.1; a selected graph representation supplies an expression, not its identity by itself |
+| exact EntityOfConcern | one entity independently identified under its subject's rule |
+| effective reference scheme | the abstract rule-collection entity identified by the designation and interpretation rules governing this account, with their domains and dependencies, under :4.1.1 |
 
-Applying that shared rule locally, typed reuse of `EpistemeConstitutionRelation` uses the one declaration episteme `EpistemeConstitutionRelationSignature`, whose exact EntityOfConcern is `EpistemeConstitutionRelation` and whose declaration includes these SlotSpecs:
+This is sufficient for a direct constitution judgment with exact values. A reusable typed interface has an additional question: which candidates may replace a participant under its declared range? For that use, A.6.5 requires a complete SlotSpec with an independently governed ValueKind and designation mode. State the candidate domain, membership criterion, identity rule, and applicability needed by the receiver; use C.3.2 for a local classification and E.24.UK for a proposed public U-kind. Carrying the designation ByValue does not remove the membership requirement.
+
+For reusable designation of the EntityOfConcern, `EpistemeConstitutionRelationSignature` declares `EpistemeConstitutionRelation` as its subject and `U.Entity` as the ranged kind for that participant. Its vocabulary includes the relation designator and the SlotSpec below; its laws are the obtaining and participant-determined identity rules in :4.2.2. Its applicability is the reusable designation and typing of the EntityOfConcern in a constitution assertion or description whose claim content and effective rules are recovered under :4.1.1. This declaration's own claim content, relation-kind EntityOfConcern, and effective FPF interpretation identify one declaration episteme; these subject, range, vocabulary, laws, and applicability contents satisfy A.6.0's `U.Signature` predicate.
 
 | SlotKind | Relation-participant meaning | ValueKind | refMode |
 | --- | --- | --- | --- |
-| `ClaimGraphSlot` | constitutive claim content | `U.ClaimGraph` | `ByValue` |
 | `EntityOfConcernSlot` | exact entity the claims concern | `U.Entity` | `U.EntityRef` |
-| `ReferenceSchemeSlot` | effective designation and interpretation scheme | `U.ReferenceScheme` | `ByValue` |
 
-The SlotKinds belong only to this declaration. An actual claim graph, EntityOfConcern, or reference scheme is an actual relation participant under its independently governed kind. A card field or assertion designation corresponds to a SlotKind but does not become the participant.
+Use this SlotSpec for the EntityOfConcern designation in A.6.REL:5.5 or B.2:5.1. An eligible designation must resolve to an independently identified entity; that typing alone does not establish that the claims concern it or that the constitution predicate obtains. The other two participants remain necessary exact constituents. Section :4.1.2 supplies bounded C.3 ranges for a receiving typed use; this EOC declaration does not thereby acquire further SlotSpecs. A use that additionally needs `ClaimGraphSlot` or `ReferenceSchemeSlot` must select the range appropriate to its participants and complete its declaration under A.6.5. If the available range does not cover that use, establish the missing criterion before claiming the stronger interface. E.24.UK:4.2c separately retains the public U-kind questions. A card field or tuple position acquires none of this declaration meaning by its label alone.
+
+The separately needed `EpistemeEmpiricalGroundingRelationSignature` and `EpistemeEditionRelationSignature` remain declarations over the governed episteme and holon kinds stated in :4.3 and :4.5. Each declaration is first a C.2.1 episteme: its own claim content declares the relation, its EntityOfConcern is that direct relation kind, and its effective scheme gives those declarations meaning. The A.6.0 predicate judges that same individual's `U.Signature` membership; `RelationSignature` is its relation-facing use, with no second identity.
+
+A complete declaration states its relation-kind designator, the SlotSpecs required by its typed use, direct predicate, occurrence identity, applicability, and any actual dependencies or provided names. A manifest may expose those dependencies or names when a consumer needs them. A readable one-off assertion needs neither a signature nor a manifest; assertion wording does not make its relation obtain.
 
 ##### C.2.1:4.2.2 - Obtaining and occurrence identity
 
@@ -51067,6 +51141,36 @@ When a ClaimGraph declares no stable intrinsic identity for the needed claim, ci
 
 `C.2.1 ClaimAddress` designates claim content carried by the exact edition. It is neither a U-kind nor a RefKind, turns no claim content into a `U.Entity` or another `U.Episteme`, and carries none of the claim content itself. Use `U.EpistemeRef` for the whole episteme and the admitted reference kind for an independently identified entity or relation occurrence.
 
+##### C.2.1:4.2.6 - Resolve a constituent designation to its exact value
+
+Use a constituent designation when the receiving work needs to recover content or rules from an addressable episteme instead of carrying them by value. Ordinary writing can continue with the expressions and rules available in :4.1.1; it need not create a reference or a finished episteme merely to fit these forms.
+
+```text
+C.2.1 ClaimContentDesignation ::= <
+  exactEpistemeEditionRef: U.EpistemeRef,
+  selection: wholeClaimContent | intrinsic semantic selection declared by that ClaimGraph
+>
+
+C.2.1 SchemeDesignation ::= <
+  exactEpistemeEditionRef: U.EpistemeRef,
+  selection: effectiveScheme | schemeDefinedBy(intrinsic semantic selection)
+>
+```
+
+Resolve the exact episteme first under :4.2.5. For `ClaimContentDesignation`, recover its whole claim content or the uniquely declared selection, retaining the selected claims' semantic qualifications and selected interclaim relations. A single intrinsic claim can use a :4.2.5 ClaimAddress as the selection. A subgraph selection must likewise be declared by the exact ClaimGraph and resolve uniquely across its admissible representations. A row number, heading or diagram position alone supplies no such identity. When that selection is unavailable, carry the exact content by value, cite the whole episteme, or constitute the needed content as its own episteme.
+
+For `SchemeDesignation`, `effectiveScheme` selects the rules governing the source episteme itself. `schemeDefinedBy` selects content that defines one exact rule collection, with its domain and semantic dependencies; interpret that defining content under the source episteme's own effective scheme. A document can describe a different scheme from the one under which the document is read. A mention, name or example of a scheme is insufficient to select all of its rules. Follow an imported rule only through its exact source and interpretation; an unresolved or circular definition with no independently recoverable rules does not resolve the scheme.
+
+Resolution succeeds only when the exact edition, selection and interpretation determine one value. Preserve an unresolved result when the source is absent, selection is ambiguous or a required rule is missing; do not silently choose the latest edition or a nearby document. The receiving interface then checks its declared range and use conditions under :4.1.2. Resolution alone establishes neither membership nor successful use.
+
+These are composite designation values, not new U-kinds or RefKinds. Use an explicit designation field, such as `claimContentDesignation` or `schemeDesignation`, with the applicable C.2.1 form; an A.6.1 `ByRef` argument can specify this resolution method while keeping the resolved value as its argument range. The admitted `U.EpistemeRef` inside the form retains its own referent range. Two designations are the same designation only when they select the same constituent through the same exact episteme edition and selection. Different designations can resolve the same semantic value. Retargeting changes the designation and requires resolution again; it changes neither the old episteme nor the old value.
+
+**Apply the distinctions together.** A declaration D describes a rule set S in ordinary mathematical prose, while S declares a propositional language with material implication and the inference rule that permits `q` from `p` and `p => q`. Selecting D's `effectiveScheme` returns the rules for reading D; selecting the exact content that defines S returns S. A formatting-only stylesheet is an identified rule collection but fails `EpistemeInterpretationScheme` membership. An exact partial S can pass membership and still leave `unless` uninterpreted in a proposed input; a consuming operation requiring that interpretation stops.
+
+For an A.1.1 comparison, let R be the complete S and let M and E have the same effective S. Here the actual participant R is S, the abstract rule collection described by D. R passes the declared range; the coherence claim still requires its independently admitted predicate P to hold for the exact M and E content. Changing the interpretation of `=>` while retaining the signs yields another R and requires a new coherence judgment, including the bridged branch if its conditions now apply. Reprinting D while preserving its complete defining content changes no R.
+
+For an A.6.0 basis use, let the exact dependent content be `q` and the selected base be the two claims `p` and `p => q`, under the stated inference rule. Both are `NonemptyClaimContent`. The base can be sufficient for deriving `q`, but R7 actual use additionally needs the identified derivation claim that used those premises. Replacing the base with the single claim `p` preserves membership and loses that sufficiency under the stated rule. Adding an asserted new reason to the dependent account changes its content even if the field still displays `q`. Two exact editions that designate the same unchanged base under S provide two source qualifications of that semantic base, not two bases merely because the addresses differ. An episteme asserting that this two-claim base is sufficient for deriving `q` under S can take that exact abstract content entity as its EntityOfConcern. That assertion has its own claim content and effective scheme; it does not replace the base it concerns.
+
 #### C.2.1:4.3 - Add empirical grounding through its own relation
 **Tech name:** `EpistemeEmpiricalGroundingRelation`.
 
@@ -51078,7 +51182,7 @@ For every empirical claim in `C`, state a concrete claim-to-world mapping under 
 
 The selected claim subgraph is by-value predicate content drawn from the episteme's ClaimGraph; it is not a third world-side relation participant, another episteme constituent, or a new U-kind. An assertion about grounding designates that subgraph and the claim-to-world mappings but creates none of the mapped occurrences.
 
-Applying the shared declaration rule in 4.2.1, `EpistemeEmpiricalGroundingRelationSignature` is one declaration episteme whose exact EntityOfConcern is `EpistemeEmpiricalGroundingRelation`; the same individual has `U.Signature` membership and relation-facing `RelationSignature` use only under `A.6.0`. Its complete declaration includes the covered-claim-subgraph rule, obtaining predicate, maximal-continuous-interval identity rule, applicability, actual dependencies and provided names, and these participant SlotSpecs:
+Applying the declaration rule in 4.2.1, `EpistemeEmpiricalGroundingRelationSignature` is one declaration episteme whose exact EntityOfConcern is `EpistemeEmpiricalGroundingRelation`; the same individual has `U.Signature` membership and relation-facing `RelationSignature` use only under `A.6.0`. Its complete declaration includes the covered-claim-subgraph rule, obtaining predicate, maximal-continuous-interval identity rule, applicability, actual dependencies and provided names, and these participant SlotSpecs:
 
 | SlotKind | Relation-participant meaning | ValueKind | refMode |
 | --- | --- | --- | --- |
@@ -51114,7 +51218,7 @@ Names ending in `Slot` are admissible here only as SlotKinds inside the exact `R
 
 **Plain reading:** this later episteme continues this earlier episteme as an edition under one applicable continuity rule.
 
-`EpistemeEditionRelation` has exactly two direct participants. Applying the shared declaration rule in 4.2.1, `EpistemeEditionRelationSignature` is one declaration episteme whose exact EntityOfConcern is `EpistemeEditionRelation`; the same individual has `U.Signature` membership and relation-facing `RelationSignature` use only under `A.6.0`. Its complete declaration includes the direct predicate, participant-determined identity, applicability, actual dependencies and provided names, and these SlotSpecs:
+`EpistemeEditionRelation` has exactly two direct participants. Applying the declaration rule in 4.2.1, `EpistemeEditionRelationSignature` is one declaration episteme whose exact EntityOfConcern is `EpistemeEditionRelation`; the same individual has `U.Signature` membership and relation-facing `RelationSignature` use only under `A.6.0`. Its complete declaration includes the direct predicate, participant-determined identity, applicability, actual dependencies and provided names, and these SlotSpecs:
 
 | SlotKind | Relation-participant meaning | ValueKind | refMode |
 | --- | --- | --- | --- |
@@ -51153,7 +51257,7 @@ One completed inspection card shows why the distinctions matter. Its filled clai
 
 Republishing the same claims about the same subject under the same effective scheme with another form or carrier preserves the episteme. Changed claim content, subject or effective scheme identifies another episteme. If the account also needs the rendering Work, use the conditional Work branch in :4.0.
 
-A tuple can represent the identity triple and a graph or hypergraph can represent claim, justification, dependency, or relation structure. Use `C.29` for an unresolved mathematical-lens choice, transfer or reliance question. `U.ClaimGraph` and `JustificationGraph` remain graph-valued epistemic structures. Their nodes and edges remain representation elements. An explicit correspondence can relate one selected representation element to an independently recovered object, but it neither identifies the two nor makes the representation element a participant of the represented direct relation.
+A tuple can represent the identity triple and a graph or hypergraph can represent claim, justification, dependency, or relation structure. Use `C.29` for an unresolved mathematical-lens choice, transfer or reliance question. `ClaimGraph` names the semantic content being represented; `JustificationGraph` names the separately governed inferential organization. Nodes and edges in a selected graph remain representation elements. An explicit correspondence can relate one selected representation element to an independently recovered object, but it neither identifies the two nor makes the representation element a participant of the represented direct relation.
 
 #### C.2.1:4.7 - Preserve description and meta-description recursion
 
@@ -51196,10 +51300,11 @@ For an A.6.3 source-to-receiving viewing construction, the two identified episte
 | `EpistemeEmpiricalGroundingRelation` occurrence | the direct relation between one identified episteme and one exact grounding holon for one exact covered claim subgraph containing at least one empirical claim, while every empirical claim in that subgraph has a current mapping to the required observation, intervention, measurement, or test relations involving that holon; evaluation or evidence supports an assertion unless explicitly mapped as part of the empirical test | C.2.1 and the governing observation, intervention, measurement, test, evaluation, or evidence patterns |
 | classification assertion episteme needed as a separate claim-bearing object | a claim-bearing episteme whose EntityOfConcern is the exact candidate and whose claim content states a classification judgment under the exact governing criterion: `A.1` for an admitted holon kind or `C.3.2` for a local kind | C.2.1 for assertion identity; the pattern governing the criterion for the judgment; `E.24.UK` only for public U-kind admission |
 | `EpistemeEditionRelation` occurrence | the direct historical continuation relation between one exact earlier episteme and one exact later episteme; exact source use, the applicable continuation policy or rule, and the preserved and deliberately changed claim, EntityOfConcern, and scheme features decide whether it obtains; Work, Method, provenance, and change facts supply case facts only; apply the shared 4.9 inception boundary only when that separate fact is consumed | C.2.1, coordinated with `C.2.P`, A.3.1, A.3.4, and C.2.1:4.9 only for a separately current inception claim |
-| `EpistemeConstitutionRelationSignature`, `EpistemeEmpiricalGroundingRelationSignature`, or `EpistemeEditionRelationSignature` | one C.2.1 declaration episteme whose exact EntityOfConcern is its direct relation kind; the fixed `A.6.0` predicate gives that same individual `U.Signature` membership, and `RelationSignature` is its relation-facing use with complete direct semantics and exact A.6.5 SlotSpecs | C.2.1 for declaration identity, `A.6.0` for membership and reusable vocabulary, and `A.6.5` for SlotSpecs |
-| `SlotSpec` | one declaration-content component of that `RelationSignature` | `A.6.5` |
+| `EpistemeConstitutionRelationSignature` | the declaration episteme for reusable EntityOfConcern designation under :4.2.1, with `EntityOfConcernSlot`, `U.Entity`, and `U.EntityRef`; typed replacement of claim content or effective scheme needs additional independently governed ranges and SlotSpecs | C.2.1:4.2.1, `A.6.0`, and `A.6.5` |
+| `EpistemeEmpiricalGroundingRelationSignature` or `EpistemeEditionRelationSignature` | one C.2.1 declaration episteme whose EntityOfConcern is its direct relation kind; A.6.0 judges same-individual `U.Signature` membership, and `RelationSignature` is its relation-facing use with the complete semantics and SlotSpecs stated in :4.3 or :4.5 | C.2.1 for declaration identity, `A.6.0` for membership and reusable vocabulary, and `A.6.5` for SlotSpecs |
+| `SlotSpec` | one declaration-content component of an identified complete `RelationSignature` | `A.6.5` |
 | assertion or description episteme | a claim-bearing episteme that states or describes one of the direct relations | C.2.1 and the direct claim or description pattern |
-| `U.MethodDescription` | the same `U.Episteme` individual when A.3.2 recognizes one admitted `U.Method` as its exact EntityOfConcern and its claims, interpreted under the effective `U.ReferenceScheme`, make at least one substantive claim about that method as a way of doing; mention, bibliographic metadata, or approval alone does not establish membership, and adequacy for a receiving use is evaluated separately | C.2.1 for episteme identity; `A.3.2` for dependent-kind membership |
+| `U.MethodDescription` | the same `U.Episteme` individual when A.3.2 recognizes one admitted `U.Method` as its exact EntityOfConcern and its claims, interpreted under the effective `ReferenceScheme`, make at least one substantive claim about that method as a way of doing; mention, bibliographic metadata, or approval alone does not establish membership, and adequacy for a receiving use is evaluated separately | C.2.1 for episteme identity; `A.3.2` for dependent-kind membership |
 | `U.View` | the same `U.Episteme` individual when it conforms to at least one exact `U.Viewpoint` episteme; formally, when `EpistemeViewpointConformanceRelation(E,P)` obtains for that pair | C.2.1 for episteme identity; `E.17.0` for dependent-kind membership; `A.6.3` only when source-to-receiving construction is current. Conformance of E to P, that construction, current-use selection, and publication remain separate. |
 | describing-use viewpoint selection | one named describing use selects one already identified `U.Viewpoint` episteme through an exact reference; it selects no view | `E.10.D2` and `E.17.0` |
 | multi-view collection or organization | an exact C.13 collection only when a receiving use depends on the plurality as a collection, and an exact A.22 `U.Structure` only when that use additionally depends on organization among those views | `C.13`, `A.22`, and the direct organizing relations |
@@ -51218,7 +51323,7 @@ The Symbol-Concept-Object triangle is a teaching projection, not the episteme on
 | Triangle corner | C.2.1 projection | What the projection suppresses |
 | --- | --- | --- |
 | Symbol | selected representation elements and any publication carrier | representation scheme, admitted operations, publication occurrence, and correspondence to the episteme |
-| Concept | `U.ClaimGraph` interpreted under an effective `U.ReferenceScheme` | claim scope, justification, viewpoint, and edition relations |
+| Concept | `ClaimGraph` interpreted under an effective `ReferenceScheme` | claim scope, justification, viewpoint, and edition relations |
 | Object | exact EntityOfConcern and any current `EpistemeEmpiricalGroundingRelation` | the difference between what claims concern and the holon through which they are empirically inspectable |
 
 A triangle diagram may be used to introduce expression, meaning, and subject if its caption says that it compresses the C.2.1 episteme ontology. Its corners and arrows are representation elements. They supply no SlotKinds, direct relation occurrences, or identity rules.
@@ -51234,7 +51339,7 @@ For a description use, keep these values recoverable:
 | Value | Meaning | Identity status |
 | --- | --- | --- |
 | `entityOfConcernRef` | designation of the exact EntityOfConcern in the description episteme's constitution relation | its resolved exact EntityOfConcern, not the reference value or designation, is C.2.1 identity-bearing |
-| effective `U.ReferenceScheme` | rules by which the description claims refer to and can be checked against that entity | C.2.1 identity-bearing |
+| effective `ReferenceScheme` | rules by which the description claims refer to and can be checked against that entity | C.2.1 identity-bearing |
 | `viewpointRef`, when current | governed reference resolving to the exact `U.Viewpoint` episteme selected for this describing use under E.17.0 | use qualifier outside episteme identity; work that changes an identity discriminator identifies another episteme independently |
 | `claimScopeRef`, when current | designation of the exact `U.ClaimScope` under A.2.6 | claim-use qualifier |
 | `modelUseStructureRef`, when current | designation of one independently selected `BoundedModelUseStructure : U.Structure` | optional interpretation qualifier, not a context root |
@@ -51345,6 +51450,15 @@ Wiring-model episteme `E1` concerns exact harness `H` under reference scheme `S1
 
 The wiring-diagram representation under its stated diagram scheme represents the connectivity of `H`; its mapping resolves connector marks and pin marks to the independently identified connectors and pins. A layout-only transition preserves connector identity, pin identity, and connection predicates. If the diagram omits a connection that remains in `E1`'s ClaimGraph, that representation loses one connection predicate. If a revised legend no longer resolves an earlier mark to its connector, that mark-to-connector reference is lost. The diagram remains admissible for maintenance diagnosis only while the connections on which that diagnosis depends are preserved and recoverable; stop that use or return to the source relation structure when they are not.
 
+For a concrete typed receiving use, let local kind `K_H` admit already identified epistemes about H whose complete content consists of affirmative or negative physical-connectivity claims between identified pins under S1. The criterion excludes other subjects, proximity readings, and additional claim families; it classifies whole epistemes, not claim-content or scheme individuals. C.3.2 judges candidates against that criterion. Let E1 assert that pin P1 is connected to pin P2.
+
+| Proposed replacement | Constitution and receiving-use result |
+| --- | --- |
+| a layout change preserving every connector, pin, connection claim, and S1 rule | the same E1; the receiver still checks that its representation exposes the connections needed for diagnosis |
+| the same claim field now denies that P1 is connected to P2 | a different episteme that still meets K_H; admissible input does not mean equal content or a conservative replacement of E1 |
+| the same marks now mean spatial proximity under S2 | a different episteme because interpretation changes; it fails K_H's fixed physical-connectivity criterion |
+| a proposed input whose governing legend is unavailable | membership and any identity comparison depending on that legend remain unresolved; a PDF carrier alone is not an episteme candidate |
+
 A readability score can improve while the diagram makes the connections needed for diagnosis harder to recover. When that score is used as the practical value, apply `E.13`: name the intended diagnostic value, the readability proxy, and what became worse. Use the representation branch in :4.0 for the transition and its preserved or lost structure.
 
 #### C.2.1:9.8 - Trained or probe-derived representation and tool-using inference
@@ -51357,6 +51471,12 @@ An answer may carry a proposed solution, while an evaluation report states wheth
 
 When a changed tool regime changes inference behavior, locate the changed method, Work or representation and the evidence used to assess it. Update the grounding occurrence if its coverage predicate changes. Reidentify an episteme only when claim content, EntityOfConcern or effective reference scheme changes.
 
+#### C.2.1:9.9 - Develop a naming claim in writing
+
+A naming note starts with a concern that the proposed name hides a distinction. Following C.2.4:4.6, the author writes competing interpretations, identifies what the name would designate, and states the reason for preferring one reading. The note helps obtain the claim; a completed NameCard is useful only when the naming work needs its arrangement and comparison. Identify the resulting claim-bearing whole under :4.1.1 once its content, subject, and interpretation are recoverable.
+
+Suppose the designation claim in that card stays the same, but `SelectionRationale` now asserts a different reason for the choice. The complete asserted content changed, so the card's episteme changed. Merely reordering fields or making the same reason easier to read can preserve it. A newly asserted reason needs its own support; preserving the designation does not transfer the earlier justification. If only an external evidence-use relation changes while every assertion in the card stays fixed, reconsider that relation and reliance without automatically changing the card's episteme.
+
 ### C.2.1:10 - Bias-Annotation  *(informative)*
 
 
@@ -51368,9 +51488,9 @@ Finally, the pattern has a claim-bearing-holon bias. Decodability alone does not
 
 ### C.2.1:11 - Conformance Checklist  *(normative)*
 
-1. **Episteme identity.** Claim content, exact EntityOfConcern, and effective `U.ReferenceScheme` are recoverable, and the text states what changes each discriminator. A dependent episteme kind such as `U.MethodDescription` or `U.View` adds a governed membership judgment for the same individual, not another identity discriminator.
+1. **Episteme identity.** Complete claim content, exact EntityOfConcern, and effective `ReferenceScheme` are recoverable under :4.1.1. Distinguish obtaining that content in writing, candidate admissibility, full identity, and suitability for the receiving action. A dependent episteme kind such as `U.MethodDescription` or `U.View` adds a governed membership judgment for the same individual, not another identity discriminator.
 2. **Direct constitution and case judgment.** `EpistemeConstitutionRelation` has its three identified participants, obtaining predicate, and participant-determined occurrence-identity rule. C.2.1 defines that rule; current case facts satisfy or fail the predicate; an assertion states affirmative or negative polarity; and evaluation or evidence use states reliance only when needed. Designate an occurrence only after positive case facts and the identity rule individuate it.
-3. **Declaration identity and Slot discipline.** Each of the three named relation declarations is first a C.2.1 episteme whose exact EntityOfConcern is its direct relation kind; the fixed `A.6.0` predicate gives that same individual `U.Signature` membership and `RelationSignature` is its relation-facing use. Its complete declaration carries the direct predicate, occurrence identity, applicability, exact A.6.5 SlotSpecs, and only actual dependencies and provided names. Signature-local SlotKinds never become participants, and a one-off assertion needs no signature or manifest.
+3. **Declaration identity and Slot discipline.** A complete reusable declaration is first a C.2.1 episteme; A.6.0 independently judges its `U.Signature` membership. Grounding and edition declarations use the ranges in :4.3 and :4.5. The constitution declaration supplies the EntityOfConcern SlotSpec; any additional typed participant use needs its independently governed range and complete SlotSpec; a direct exact-value constitution judgment alone supplies no general ClaimGraph or ReferenceScheme ValueKind. Preserve predicate, occurrence identity, applicability, and actual dependencies. Signature-local SlotKinds never become participants, and a one-off assertion needs no signature or manifest.
 4. **Classification discipline.** `A.1` governs recognition under an admitted holon kind, `C.3.2` governs local-kind membership, and `E.24.UK` governs public U-kind admission. A classification assertion needed as a separate claim-bearing object is a C.2.1 episteme about the exact candidate; it states affirmative or negative polarity for the exact classification predicate and keeps supported, refuted, or unresolved reliance separately governed. It neither creates the candidate nor changes the kind's admission.
 5. **Empirical-grounding discipline.** `GroundingHolonSlot` occurs only inside `EpistemeEmpiricalGroundingRelationSignature`. Each occurrence names one exact covered claim subgraph containing at least one empirical claim and maps every empirical claim in it to the required current direct observation, intervention, measurement, or test relations involving the grounding holon. Unlisted claims receive no grounding from that occurrence. One occurrence is reidentified from the episteme, covered claim subgraph, grounding holon, and maximal continuous interval during which the complete coverage predicate is true; demonstrated coverage failure followed by restoration yields another occurrence. Evaluation counts in the empirical base only when its exact direct relation and use in the test are stated; otherwise evaluation and evidence support or challenge an assertion. Availability or loss of a report, store, or Work log alone neither makes nor unmakes grounding.
 6. **Edition discipline.** `EpistemeEditionRelation` has exactly the earlier and later epistemes as participants and is acyclic in that direction. Positive continuity requires exact source use, an applicable edition policy or rule, and preserved and deliberately changed claim, EntityOfConcern, and scheme features satisfying that rule. Fork, translation, retargeting, and independent reconstruction are explicit failure branches. Work, Method, provenance, and change facts supply case facts but no label makes continuity true.
@@ -51413,7 +51533,7 @@ Finally, the pattern has a claim-bearing-holon bias. Decodability alone does not
 
 The three constitution discriminators identify the knowledge holon; empirical grounding, viewpoint, scope, edition, and publication remain separately governed. A change in one of those neighboring relations can therefore be examined without reidentifying an unchanged episteme.
 
-The constitution relation explains how the identity-bearing participants are organized. The episteme is the resulting holon with a whole-level capacity to carry interpretable claims. A relation declaration is first its own C.2.1 episteme; `A.6.0` independently recognizes that same individual as a `U.Signature`, and `RelationSignature` names its relation-facing use. Its claims declare the direct relation for typed reuse; an assertion claims that the relation obtains, and a publication occurrence makes a selected episteme edition available. None replaces another.
+The constitution relation explains how the identity-bearing participants are organized. The episteme is the resulting holon with a whole-level capacity to carry interpretable claims. A relation declaration is first its own C.2.1 episteme; `A.6.0` judges whether its complete content satisfies `U.Signature` membership, including the declared range, and `RelationSignature` names its relation-facing use. A complete declaration carries the direct relation for its stated typed reuse; an assertion claims that the relation obtains, and a publication occurrence makes a selected episteme edition available. None replaces another.
 
 ### C.2.1:14.1 - SoTA-Echoing
 
@@ -72036,7 +72156,7 @@ How can an engineer assemble a usable built-asset architecture description from 
 
 Start with one intended architecture use, not with the available tool outputs. Name the exact built asset and selected A.22 structures that matter. Recover subject-relation occurrences when making actual-relation claims; a proposed arrangement can remain candidate content. Cite an obtaining `ArchitectureRelation` only when its C.30 predicate holds; otherwise keep required, desired, expected, candidate, negative, or unresolved content in a bounded `ArchitectureClaim`.
 
-Constitute each architecture description under C.2.1 about exactly one EntityOfConcern: the built asset, one obtaining `ArchitectureRelation` occurrence, or one exact selected structure. Keep its exact ClaimGraph and effective `U.ReferenceScheme` recoverable. The same episteme is a `U.View` only while a separately identified E.17.0 conformance relation to one exact viewpoint episteme obtains. Then recover reference designation, model exchange, source use, representation, publication, and currentness through their own objects and relations.
+Constitute each architecture description under C.2.1 about exactly one EntityOfConcern: the built asset, one obtaining `ArchitectureRelation` occurrence, or one exact selected structure. Keep its exact ClaimGraph and effective reference scheme recoverable. The same episteme is a `U.View` only while a separately identified E.17.0 conformance relation to one exact viewpoint episteme obtains. Then recover reference designation, model exchange, source use, representation, publication, and currentness through their own objects and relations.
 
 For a first use, make the relevant descriptions, structures, reference designations, sources and allowed use recoverable. Ordinary wording is sufficient when it answers the question; stop there. The following record can organize the references when that helps the receiving work:
 
@@ -72045,12 +72165,12 @@ BuiltAssetArchitectureDescriptionUse@Project:
   projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
   builtAssetDescriptionProjectUseRelationRef?: U.RelationRef governed by the exact description-use or work-use pattern
   architectureDescriptionRef: U.EpistemeRef constrained to ArchitectureDescription
-  descriptionClaimGraphRef: U.ClaimGraphRef
+  descriptionContentDesignation: C.2.1 ClaimContentDesignation, selecting the whole content of architectureDescriptionRef
   descriptionEntityOfConcernRef:
     exactly one builtAssetRef |
       ArchitectureRelation occurrence ref |
       selected U.Structure ref
-  effectiveReferenceScheme: U.ReferenceScheme, byValue
+  effectiveReferenceScheme: exact C.2.1 interpretation rules, byValue
   builtAssetRef: U.HolonRef
   architectureRelationOccurrenceRefs?: FinSet(U.RelationRef)
   architectureClaimRefs?: FinSet(U.EpistemeRef)
@@ -72077,6 +72197,8 @@ BuiltAssetArchitectureDescriptionUse@Project:
   nextGoverningPatternApplicationRef?:
   nonAdmissibleUse:
 ```
+
+Resolve `descriptionContentDesignation` under C.2.1:4.2.6 to the whole content of the same exact episteme selected by `architectureDescriptionRef`. Its by-value effective scheme must be the rules governing that content, not the rules of a document that merely describes the scheme. A missing or conflicting resolution leaves this use record unresolved; it does not reidentify the asset or establish view conformance.
 
 This is a project-side use record, not a description identity constructor or a new root kind. `@Project` is a compatibility and retrieval cue and establishes no project entity, Work occurrence, authority, context, viewpoint, parthood, or use relation. When the use is genuinely local to one actual project, `projectWorkOccurrenceRef` identifies the exact composite `U.Work`, and `builtAssetDescriptionProjectUseRelationRef` identifies the separately governed obtaining relation by which this description use concerns that Work. Otherwise both remain absent.
 
@@ -72113,7 +72235,7 @@ A reference designation is useful because it makes information about an entity r
 ```text
 BuiltAssetReferenceDesignationUse:
   designationValue: local designation value, byValue
-  referenceDesignationScheme: U.ReferenceScheme, byValue
+  referenceDesignationScheme: exact designation rules and their domain, byValue
   designatedEntityRef: U.EntityRef
   selectedAspectStructureRef: U.StructureRef
   designationOrReferenceRelationRef?: U.RelationRef
@@ -72207,7 +72329,7 @@ When the operator compares an original design description with the as-maintained
 
 | ID | Check | Repair when absent |
 | --- | --- | --- |
-| `BA-1` | The exact built asset is recoverable, and every used architecture description has one exact ClaimGraph, one EntityOfConcern—built asset, obtaining `ArchitectureRelation`, or selected structure—and effective `U.ReferenceScheme`. | Recover the asset under `A.1`, subject relations and architecture relation under `C.30`, selected structure under `A.22`, and description identity under C.2.1; do not derive the subject from an optional architecture-claim field. |
+| `BA-1` | The exact built asset is recoverable, and every used architecture description has one exact ClaimGraph, one EntityOfConcern—built asset, obtaining `ArchitectureRelation`, or selected structure—and effective reference scheme. | Recover the asset under `A.1`, subject relations and architecture relation under `C.30`, selected structure under `A.22`, and description identity under C.2.1; do not derive the subject from an optional architecture-claim field. |
 | `BA-2` | Every asserted architecture structural view is the same exact description episteme whose selected-structure EntityOfConcern, structure kind, exact viewpoint, and independently obtaining E.17.0 conformance relation are named. | Apply `A.22`, `E.17.0`, and `C.30.ASV`; do not use the file, bundle, dashboard, representation, publication, or current use as the structure or view constructor. |
 | `BA-3` | Every relied-on designation names its scheme, designated entity, selected aspect structure, qualification window, and exact designation/reference relation when one is claimed; design/realization correspondence remains a separate claim or relation. | Recover the direct designation/reference owner and occurrence, or keep a bounded designation-use claim; never use repeated spelling as entity identity or parthood proof. |
 | `BA-4` | Exchange checking and architecture evaluation have different evaluated objects and governors; source episteme, representation, publication occurrence, form, carrier, actual subject relations, selected structures, and descriptions remain distinct. | Keep description conformance with the exchange use; return relation truth, architecture adequacy, evidence, and assurance to their direct patterns. |
@@ -102611,13 +102733,16 @@ ToC and lexical-query phrases remain finding aids, not alternate names, semantic
 
 When more than one selectable entry remains plausible, compare four things: recognizable-situation fit, difference among first results or exact public blockers, direct pattern, and stop or return condition. Keep the comparison in conversation for ordinary bounded use. Open the most promising direct pattern before constructing a project candidate.
 
+In the optional forms below, `claimGraph` carries the episteme's complete asserted content, including the reasons and qualifications that change what it says. The scheme designation resolves under C.2.1:4.2.6 to the rules actually governing that account. It can select another episteme's effective scheme or exact content defining those rules; a reference to a document alone does not choose between them. Preserve an unresolved interpretation rather than filling the field with a nearby name. These forms organize addressable writing when needed; ordinary conversation and partial notes remain sufficient under the entry conditions above.
+
 Materialize the rationale only when a named later use needs addressable comparison history; then it has one public-guidance subject and no fabricated project result:
+
 
 ```text
 PracticalUseEntryComparisonRationale@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing one PracticalUseGuidance@FPFReadme
-  claimGraph: U.ClaimGraph by value
-  effectiveReferenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  effectiveSchemeDesignation: C.2.1 SchemeDesignation
   editionId
   recognitionReasonDescriptionRef: U.Episteme
   firstResultDifferenceDescriptionRef: U.Episteme
@@ -102631,8 +102756,8 @@ Materialize comparison history only when a named receiving use relies on it:
 ```text
 PracticalUseEntryComparisonAccount@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing the exact PracticalUseQuestion@Context being compared
-  claimGraph: U.ClaimGraph by value
-  effectiveReferenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  effectiveSchemeDesignation: C.2.1 SchemeDesignation
   editionId
   claimScopeRef?: U.EntityRef, referencing one U.ClaimScope
   modelUseStructureRef?: U.EntityRef, referencing one BoundedModelUseStructure
@@ -102646,8 +102771,8 @@ PracticalUseEntryComparisonAccount@Context <: U.Episteme:
 
 PracticalUseEntryComparison@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing one PracticalUseGuidance@FPFReadme
-  claimGraph: U.ClaimGraph by value
-  effectiveReferenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  effectiveSchemeDesignation: C.2.1 SchemeDesignation
   editionId
   comparisonAccountRef: PracticalUseEntryComparisonAccount@Context
   recognizableSituationFitRationaleRef: PracticalUseEntryComparisonRationale@Context
@@ -103011,12 +103136,14 @@ In `ordinaryBounded` use, the subject, practical question, inspected pattern, us
 
 In `relianceBearing` use, materialize only the distinctions that the named reliance will use. Another reader may need a candidate basis and rationale. Automation may need an exact result kind, predicate, pattern locator, `ClaimGraph`, relative object, and category-correct basis. Delayed review may need a descriptive flow position and a separate later-use disposition. A receiver appears only for an actual communication or admitted route relation; an ordinary return needs only its condition and optional next-pattern locator. No profile causes every support record to be materialized.
 
+In the optional forms below, `claimGraph` carries the episteme's complete asserted content, including the reasons and qualifications that change what it says. The scheme designation resolves under C.2.1:4.2.6 to the rules actually governing that account. It can select another episteme's effective scheme or exact content defining those rules; a reference to a document alone does not choose between them. Preserve an unresolved interpretation rather than filling the field with a nearby name. These forms organize addressable writing when needed; ordinary conversation and partial notes remain sufficient under the entry conditions above.
+
 ```text
 CompactPatternUseTrace@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef
   entityOfConcernKindRef: U.KindRef
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  schemeDesignation: C.2.1 SchemeDesignation
   claimScopeRef?: U.EntityRef, referencing one U.ClaimScope
   modelUseStructureRef?: U.EntityRef, referencing one BoundedModelUseStructure
   projectWorkRef?: U.EntityRef, referencing one composite U.Work
@@ -103079,8 +103206,8 @@ The defining `ClaimGraph` located at PUA states the practical-question, optional
 PracticalUseQuestion@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef
   entityOfConcernKindRef: U.KindRef
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  schemeDesignation: C.2.1 SchemeDesignation
   claimScopeRef?: U.EntityRef, referencing one U.ClaimScope
   modelUseStructureRef?: U.EntityRef, referencing one BoundedModelUseStructure
   projectWorkRef?: U.EntityRef, referencing one composite U.Work
@@ -103089,8 +103216,8 @@ PracticalUseQuestion@Context <: U.Episteme:
 
 PatternUseBoundaryCondition@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing the CandidatePatternUse@Context or PracticalUseQuestion@Context whose use is bounded
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  schemeDesignation: C.2.1 SchemeDesignation
   editionId
   boundaryConditionKind: candidateAdmission | minimumUsableResult | stop | return | wrongTurnRecovery | strongerNeighbor | missingGovernor | missingInformation | costEscalation | reversibilityEscalation | receivingPatternContinuation
   conditionDescriptionRef: U.EpistemeRef
@@ -103102,8 +103229,8 @@ PatternUseBoundaryCondition@Context <: U.Episteme:
 
 PatternUseResultExpectation@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing the CandidatePatternUse@Context whose result is expected
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  schemeDesignation: C.2.1 SchemeDesignation
   editionId
   expectedResultKindRef: U.KindRef
   expectedResultPatternLocator: U.EntityRef, locating one exact FPF pattern episteme
@@ -103133,8 +103260,8 @@ An optional representation of the basis claim is:
 ```text
 Candidate basis claim:  // ordinary C.2.1 episteme; local description, no new U-kind
   entityOfConcernRef: U.EpistemeRef, referencing the exact CandidatePatternUse@Context
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  schemeDesignation: C.2.1 SchemeDesignation
   directPatternRef: U.EpistemeRef
   directSolutionContentRef: exact content supporting this candidate
   supportingClaimRefs[]?: U.EpistemeRef
@@ -103150,8 +103277,8 @@ Reference respelling that still designates the same source changes no source ref
 CandidatePatternUse@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef
   entityOfConcernKindRef: U.KindRef
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  schemeDesignation: C.2.1 SchemeDesignation
   claimScopeRef?: U.EntityRef, referencing one U.ClaimScope
   modelUseStructureRef?: U.EntityRef, referencing one BoundedModelUseStructure
   projectWorkRef?: U.EntityRef, referencing one composite U.Work
@@ -103173,8 +103300,8 @@ The public template is absent when the candidate was formed by direct pattern in
 ```text
 CandidatePatternUseRationale@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing one CandidatePatternUse@Context
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  schemeDesignation: C.2.1 SchemeDesignation
   editionId
   rationaleDescriptionRef: U.EpistemeRef
   rationaleBasisEpistemeRefs[]: U.EpistemeRef
@@ -103203,8 +103330,8 @@ PUA introduces no actual-result relation and no universal actual-use relation. K
 PatternUseResultClosureFinding@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing the independently identified result entity or obtaining relation occurrence
   entityOfConcernKindRef: U.KindRef
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  schemeDesignation: C.2.1 SchemeDesignation
   editionId
   candidatePatternUseRef: U.EpistemeRef, referencing one CandidatePatternUse@Context
   resultExpectationRef: U.EpistemeRef, referencing one PatternUseResultExpectation@Context
@@ -103233,8 +103360,8 @@ Record receiving-use disposition separately, and only for a named reliance:
 ```text
 PatternUseReceivingUseDispositionFinding@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing the same result entity or relation occurrence as the closure finding
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  schemeDesignation: C.2.1 SchemeDesignation
   editionId
   resultClosureFindingRef: U.EpistemeRef, referencing one PatternUseResultClosureFinding@Context
   receivingUseRealizationState: realized | intendedNotYetRealized
@@ -103269,8 +103396,8 @@ GroundingBasisPair:
 PreExistingResultGroundingFinding@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing the pre-existing entity
   entityOfConcernKindRef: U.KindRef
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  schemeDesignation: C.2.1 SchemeDesignation
   editionId
   candidatePatternUseRef: U.EpistemeRef, referencing one CandidatePatternUse@Context
   resultExpectationRef: U.EpistemeRef, referencing one PatternUseResultExpectation@Context
@@ -103292,8 +103419,8 @@ Use this test when the declared teaching, rehearsal, or evaluation use is to est
 ```text
 PatternUsePracticeContinuationDescription@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing the selected CandidatePatternUse@Context
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  schemeDesignation: C.2.1 SchemeDesignation
   editionId
   actionOrProposedUseDescriptionRef: U.EpistemeRef
   expectedResultDescriptionRef: U.EpistemeRef
@@ -103305,8 +103432,8 @@ PatternUsePracticeContinuationDescription@Context <: U.Episteme:
 
 FinalPracticePatternUseTestResult@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing the selected CandidatePatternUse@Context
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  schemeDesignation: C.2.1 SchemeDesignation
   editionId
   practicalUseQuestionRef: U.EpistemeRef, referencing one PracticalUseQuestion@Context
   selectedCandidateBasisClaimRef: U.EpistemeRef, whose EntityOfConcern is the selected CandidatePatternUse@Context and whose ClaimGraph states the §4.4 basis
@@ -103525,6 +103652,8 @@ Evaluate candidate uses against five distinct fit aspects. An ordinary reversibl
 
 #### E.11.PUR:4.1 - Fit and applicability
 
+In the optional forms below, `claimGraph` carries the episteme's complete asserted content, including the reasons and qualifications that change what it says. The scheme designation resolves under C.2.1:4.2.6 to the rules actually governing that account. It can select another episteme's effective scheme or exact content defining those rules; a reference to a document alone does not choose between them. Preserve an unresolved interpretation rather than filling the field with a nearby name. These forms organize addressable writing when needed; ordinary conversation and partial notes remain sufficient under the entry conditions above.
+
 ```text
 PatternUseFitCriterionValue =
   problemFrame | forces | solutionConditions | ordinaryBoundary | resultAndReceivingUse
@@ -103534,8 +103663,8 @@ PatternUseApplicabilityResultValue = applicable | inapplicable | insufficientBas
 
 PatternUseFitFinding@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing one CandidatePatternUse@Context
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  schemeDesignation: C.2.1 SchemeDesignation
   editionId
   fitCriterion: PatternUseFitCriterionValue
   fitResult: PatternUseFitResultValue
@@ -103543,8 +103672,8 @@ PatternUseFitFinding@Context <: U.Episteme:
 
 PatternUseApplicabilityFinding@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing one CandidatePatternUse@Context
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  schemeDesignation: C.2.1 SchemeDesignation
   editionId
   fitFindingRefs[5]: U.EpistemeRef, each referencing one PatternUseFitFinding@Context
   applicabilityResult: PatternUseApplicabilityResultValue
@@ -103571,8 +103700,8 @@ PatternUseRecommendationSupportProfileValue = ordinaryCompact | relianceBearing
 PatternUseRecommendation@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing the selected CandidatePatternUse@Context
   entityOfConcernKindRef: U.KindRef
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  schemeDesignation: C.2.1 SchemeDesignation
   editionId
   recommendationSupportProfile: PatternUseRecommendationSupportProfileValue
   applicabilityResult: PatternUseApplicabilityResultValue
@@ -103613,8 +103742,8 @@ PatternUseOrderingModeValue = unordered | partialOrder | totalOrder
 
 PatternUseCoordinationRationale@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing the coordination-question episteme
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  schemeDesignation: C.2.1 SchemeDesignation
   editionId
   subjectCandidatePatternUseRefs[2..*]: U.EpistemeRef, each referencing one CandidatePatternUse@Context
   coordinationRationaleDescriptionRef: U.EpistemeRef
@@ -103624,8 +103753,8 @@ PatternUseCoordinationRationale@Context <: U.Episteme:
 PatternUseCoordination@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing the coordination-question episteme
   entityOfConcernKindRef: U.KindRef
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
+  claimGraph: exact whole C.2.1 claim content, by value
+  schemeDesignation: C.2.1 SchemeDesignation
   editionId
   memberCandidatePatternUseRefs[2..*]: U.EpistemeRef, each referencing one CandidatePatternUse@Context
   orderingMode: PatternUseOrderingModeValue
@@ -115270,7 +115399,7 @@ Reopen this comparison when a direct-source correction removes a load-bearing co
 
 ### E.24:0 - Use This When
 
-Use this pattern when FPF work appears to need a durable ontic: a connected action-facing ontology unit whose stable identity and admissible uses depend on keeping several direct relation kinds, their relation-participant meanings and admitted actual-participant kinds, reusable declarations, and neighboring subject patterns coherent.
+Use this pattern when FPF work appears to need a durable ontic: a connected action-facing ontology unit whose stable identity and admissible uses depend on keeping several direct relation kinds, their participant identities and meanings, any required kind conditions, reusable declarations, and neighboring subject patterns coherent.
 
 Characterize the current candidate or source claim and run the existing-rule-content, identity, relation-or-constitution, dependent-use, and non-duplication tests below. Only then record the **ontology disposition**: introduce a durable ontic, coordinate already defined claims in a bounded local episteme, rely directly on current exact subject assertions and their `ClaimGraph` sources, or stop unresolved. A current source-use record states quote-only, reduced use, or a selected stronger source use with its exact provenance; omit it when source use is not current. Source use can accompany any resolved ontology disposition, but it is not a fourth ontology branch. Use source-only as a stop only when no exact payload assertion has been selected.
 
@@ -115338,10 +115467,12 @@ The defining `ClaimGraph` located here states `U.Ontic` as the FPF kind for a co
 
 Keep two layers explicit:
 
-1. **Instance layer.** For each included direct relation kind, name the actual participant meanings and admitted actual-participant kinds supplied by its exact defining `ClaimGraph`. An obtaining occurrence relates the actual participants admitted by that predicate. Kinds or declaration epistemes can themselves participate when the direct rule admits them; citing them in the decision establishes no such occurrence.
+1. **Instance layer.** For each included direct relation kind, state how its actual participants are identified under their subject rules, how they contribute to the obtaining predicate, and which kind conditions that predicate requires. The defining `ClaimGraph` supplies those conditions and the occurrence-identity rule. An obtaining occurrence relates the actual participants satisfying that predicate. Kinds or declaration epistemes can themselves participate when the direct rule admits them; citing them in the decision establishes no such occurrence.
 2. **Ontology and declaration layer.** The ontic-introduction decision episteme states which subject kind, identity rule, relation kinds, declaration epistemes, rule-content locators, and dependent-use reliance claims belong in this ontology unit. Those are typed claims in the decision episteme unless an independently defined declaration-dependency, inclusion, or reliance relation is actually current. Do not call them world-side direct relations merely because the ontology unit coordinates them.
 
-The ontology unit is connected when every included relation kind has its instance-layer participants, exact predicate, and defining `ClaimGraph`, every included declaration is tied to the relation use it declares, and every dependent use names the exact identity rule, direct relation rule, or declaration it relies on. The decision marks any identity-bearing edge explicitly. This typed account establishes ontology-level coordination; it fabricates no relation occurrence among kinds, declarations, pattern descriptions, or the ontic.
+The ontology unit is connected when every included relation kind has its instance-layer participants, exact predicate, and defining `ClaimGraph`, every included declaration is tied to the relation use it declares, and every dependent use names the exact identity rule, direct relation rule, or declaration it relies on. The decision marks any identity-bearing edge explicitly. This account of identities, relations, and dependencies establishes ontology-level coordination; it fabricates no relation occurrence among kinds, declarations, pattern descriptions, or the ontic.
+
+Precise coordination does not require a new public kind for every participant. It does require a rule that recovers which object participates, what counts as the same or a different participant, and how it contributes to the relation. Apply an existing kind criterion wherever the predicate depends on that classification. When a receiver additionally needs typed membership or substitution, A.6.5 requires independently established ValueKinds and complete SlotSpecs; an exact-value example cannot establish the whole range. A missing identity or obtaining basis blocks the affected relation claim. A missing required range blocks its typed use while leaving separately warranted exact-value uses available. An ontic supplies neither missing basis by being declared.
 
 Named dependent-use reliance states each dependent use, its pattern-description locator when useful, and the identified ontic identity, direct relation rule, or `RelationSignature` declaration on which it relies. A pattern name without that reliance basis is insufficient.
 
@@ -115399,10 +115530,10 @@ Build the decision evidence in this order; do not select a disposition first and
 1. **Current case and stable decision subject.** State the working expression or source claim, one independently identified pre-judgment candidate entity, proposal episteme, or source-construct entity with its direct identity governor, and the named receiving use. Use that fixed object as the decision episteme's EntityOfConcern. Record source-use status and provenance here when current; they do not settle the ontology disposition.
 2. **Existing-governor reuse and non-duplication.** Name the current direct patterns checked by value. State which current claim they already close, or the exact coordination they fail to supply. Reject a new umbrella when it would merely rename those governed objects or copy their rules.
 3. **Identity, constitution, or recognition.** State the exact rule supplied by the subject pattern and what would reidentify the subject across the receiving use. Do not replace several required facts with an invented universal relation.
-4. **Typed connectivity and dependent use.** Use `E.24:4.3a` to classify only the objects that the dependent use consumes. Name each needed direct relation, its exact predicate and definition source, any identity-bearing relation selected by its occurrence-identity rule, each declaration actually reused, and each dependent assertion's exact reliance basis. Omit every neighboring map row whose selection question is false.
+4. **Identity, relations, and dependent use.** Use `E.24:4.3a` to classify only the objects that the dependent use consumes. Name each needed direct relation, its exact predicate and definition source, any identity-bearing relation selected by its occurrence-identity rule, each declaration actually reused, and each dependent assertion's exact reliance basis. Omit every neighboring map row whose selection question is false.
 5. **Disposition, branch result, and boundary—fill last.** Keep the decision EntityOfConcern from step 1. From steps 1–4, record exactly one branch payload: the closing assertions and direct patterns; the bounded episteme, its declared use, and stop; the selected ontology-unit individual and subject pattern; or the unresolved reason and missing evidence. Add an explanatory overread only when it passes F.19:4's full independent-ground, plausible-reader, contribution, and smallest-clear-correction test.
 
-A relation-participant meaning belongs in one selected direct relation only when that relation's predicate depends on an actual participant having that meaning and the exact defining `ClaimGraph` states the admitted kind of that participant. When typed reuse is needed, a compatible `RelationSignature` declares that admitted kind as the SlotSpec's `ValueKind`. Another entity remains under its own direct relation when that relation already expresses the needed use. Reuse pressure can justify a `RelationSignature`; it cannot turn a neighboring relation, record field, or mathematical operand into a participant or SlotKind of another relation.
+A relation-participant meaning belongs in one selected direct relation only when its predicate depends on an actual participant making that contribution. The defining `ClaimGraph` must state how the participant is identified independently of a declaration field and state any classification condition the predicate uses. When typed reuse is needed, a compatible `RelationSignature` additionally declares an independently governed participant kind as the SlotSpec's `ValueKind`. Another entity remains under its own direct relation when that relation already expresses the needed use. Reuse pressure can justify a `RelationSignature`; it cannot turn a neighboring relation, record field, or mathematical operand into a participant or SlotKind of another relation.
 
 Optional-in-use status belongs to a declaration or description. It does not mean that a world-side relation occurrence has an unfilled participant. A missing designation leaves the assertion incomplete or the participant unknown to the current user. It does not show that the participant is absent, and it does not make the direct predicate obtain or cease.
 
@@ -115445,7 +115576,8 @@ E24FamilySettlementDecision:
     ExistingGovernorAndNonDuplicationResult:
     MinimalGovernedRelationSet:
       DirectRelationKind:
-      ParticipantMeaningsAndAdmittedActualParticipantKinds:
+      ParticipantMeaningsAndIdentificationRules:
+      KindConditionsRequiredByPredicate:
       ObtainingAndOccurrenceIdentityRule:
       DirectGovernor:
       DependentUseEnabled:
@@ -115595,7 +115727,7 @@ Open only rows whose selection question is true for the chosen branch. Later sec
 
 | Object class | Selection question | Record by value and subject pattern |
 | --- | --- | --- |
-| World-side participant | Does an obtaining predicate require this actual object in one participant meaning? | actual object, admitted kind, participant meaning, and the direct relation pattern; a SlotSpec or designation is not the participant |
+| World-side participant | Does an obtaining predicate require this actual object in one participant meaning? | actual object and its independent identity rule, participant meaning, any kind condition required by the predicate, and the direct relation pattern; a SlotSpec or designation is not the participant |
 | Relation occurrence | Is the current claim that one direct predicate obtains among actual participants? | relation kind, participants, obtaining condition, occurrence identity, and direct governor; use this row for the one readable claim that closes direct use |
 | Reusable declaration | Does another use need the same participant typing without asserting an occurrence? | `RelationSignature` episteme and only the reused `SlotSpec = <SlotKind, ValueKind, refMode>` declarations under A.6.5 |
 | Claim-bearing episteme | Does the receiving use need an assertion, description, decision, or several governed claims read together? | C.2.1 identity, exact EntityOfConcern, ClaimGraph, effective ReferenceScheme, declared use, and stop; a bounded episteme governs no new ontology |
@@ -115632,9 +115764,9 @@ OnticIntroductionDecisionReplay:
     existingUKindAdmissionResultRef: `E24UK-AR-UEPISTEME-RG-01`.
     onticSettlementResultRef: `E24-OS-EPISTEME-ONTIC-01`.
     atomicCoDecisionRef: none; no new public U-kind is proposed in this replay.
-  onticRootIfSelected: `EpistemeOntic`, one explicitly designated ontology-unit individual of kind `U.Ontic`. E.24 reidentifies it from the primary governed subject kind `U.Episteme` and the identity-bearing direct relation kind `EpistemeConstitutionRelation`, including that relation's predicate, participant meanings, and admitted actual-participant kinds. It is neither the `U.Episteme` kind nor any PumpStation37 episteme.
-  identityBearingDirectRelationIfSelected: `EpistemeConstitutionRelation`, governed by C.2.1. Its participant meanings are constitutive claim content, exact EntityOfConcern, and effective reference scheme; its admitted actual-participant kinds are `U.ClaimGraph`, `U.Entity`, and `U.ReferenceScheme`. It obtains when the scheme makes the claim graph interpretable and evaluable as claims about the exact entity and the three participants form one claim-bearing whole; the participant triple identifies the occurrence. The PumpStation37 consuming witness is the distinct occurrence among `MaintenanceClaims_v7`, `PumpStation37`, and `StationMaintenanceReferenceScheme_2026`; that project occurrence neither is nor identifies `EpistemeOntic`.
-  reusableDeclarationsIfNeeded: `EpistemeConstitutionRelationSignature` with the three SlotSpecs declared in `C.2.1`, only where another pattern needs reusable participant typing.
+  onticRootIfSelected: `EpistemeOntic`, one explicitly designated ontology-unit individual of kind `U.Ontic`. E.24 reidentifies it from the primary governed subject kind `U.Episteme` and the identity-bearing `EpistemeConstitutionRelation`: its participant meanings, participant-identification rules, obtaining predicate, and participant-determined occurrence identity. It is neither the `U.Episteme` kind nor any PumpStation37 episteme.
+  identityBearingDirectRelationIfSelected: `EpistemeConstitutionRelation`, governed by C.2.1. Its participants are the complete semantic claim content, one independently identified EntityOfConcern, and the effective designation and interpretation rules. C.2.1:4.1.1 recovers and compares the two epistemic constituents; the subject pattern identifies the entity. The relation obtains when the scheme makes that content interpretable and evaluable as claims about the entity and the three participants form one claim-bearing whole; their triple identifies the occurrence. The PumpStation37 witness uses the exact content `MaintenanceClaims_v7`, entity `PumpStation37`, and effective rules `StationMaintenanceReferenceScheme_2026`. Those labels require the corresponding content, entity identity, and rules; they are not a classification test for all claim contents or schemes. That project occurrence neither is nor identifies `EpistemeOntic`.
+  reusableDeclarationsIfNeeded: C.2.1:4.2.1 supplies the constitution declaration for reusable EntityOfConcern designation with `EntityOfConcernSlot`, `U.Entity`, and `U.EntityRef`; :4.3 and :4.5 supply grounding and edition declarations. Reuse each only when its stated interface is needed. Typed replacement of claim content or effective scheme requires additional independently governed ranges and A.6.5 SlotSpecs. The open `U.ClaimGraph` and `U.ReferenceScheme` admissions cannot supply those ranges, and no such general typing is a premise of this ontic settlement.
   minimalGovernedRelationSet:
     instanceLayer: `EpistemeConstitutionRelation` among actual claim graph, EntityOfConcern, and reference scheme is identity-bearing; `EpistemeEmpiricalGroundingRelation`, `EpistemeEditionRelation`, `EpistemeViewpointConformanceRelation`, and `EpistemePublicationRelation` retain the actual participants and predicates supplied by C.2.1, E.17.0, and E.24.PUB when their named use is current. A.6.3 construction and A.10 evidence use remain separate and join only under their own current governors.
     ontologyDeclarationLayer: this decision episteme says that `EpistemeOntic` coordinates the `U.Episteme` identity rule and those exact relation rules and declarations for the named dependent patterns. It asserts no world-side relation whose participants are `EpistemeOntic`, `U.Episteme`, a relation kind, a signature, or a pattern.
@@ -115710,13 +115842,14 @@ OnticIntroductionDecision:
     BranchSpecificResultRefIfRequired: the exact membership, dependence, reused-kind, local-declaration, or recovered-object result required by that disposition.
     LocalGainCostAndDuplicateOntologyRisk: the decision-changing rationale; not another disposition or decision form.
   MinimalGovernedRelationSet:
-    InstanceLayer: for every included direct relation, its actual participant meanings and kinds, predicate, occurrence identity, direct governor, and the named use it enables.
+    InstanceLayer: for every included direct relation, its actual participants and independent identity rules, participant meanings, required kind conditions, predicate, occurrence identity, direct governor, and named receiving use.
     OntologyDeclarationLayer: the exact decision claims that include each kind, relation rule, declaration, or pattern and state each dependent reliance; an actual declaration-side relation is named only when independently governed.
   IdentityBearingDirectRelationIfSelected:
     DirectRelationKind:
     DirectGoverningPattern:
     ParticipantMeanings:
-    AdmittedActualParticipantKinds:
+    ParticipantIdentificationRules:
+    KindConditionsRequiredByPredicate:
     ObtainingCondition:
     OccurrenceIdentityRule:
     RelationSignatureIfNeeded:
@@ -115797,6 +115930,11 @@ Use these slices as archetypes for the ontic-introduction decision. They are not
 
 The ontology-unit individual `EpistemeOntic` passes because multiple patterns reuse C.2.1 episteme identity and its exact direct relation rules without copying them. E.24.UK retains `U.Episteme` as the root kind, C.2.1 identifies each particular episteme, and neither is `EpistemeOntic`. The PumpStation37 specification is a consuming witness. Descriptions, availability, views, and representations use their rows in `E.24:4.3a` and do not change that identity.
 
+The coordination is needed because these uses must agree on which episteme they concern. Empirical grounding selects claims of that episteme; edition continuity compares distinct episteme identities; viewpoint conformance tests an identified episteme against an identified viewpoint; publication makes a selected edition available. C.2.1's constitution rule provides their common subject identity, while each direct pattern retains its own predicate. A content or interpretation change therefore reopens the dependent conclusions that use it, whereas a carrier change alone leaves that identity fixed. Without this shared rule, those patterns could silently evaluate, continue, or publish different knowledge objects under one name.
+
+This establishes useful `EpistemeOntic` coordination without assuming public admission of every possible constituent kind. Exact content and effective rules must still be recoverable under C.2.1. A receiver requiring general typed substitution of those constituents needs the additional classification basis in C.2.1:4.2.1 and E.24.UK:4.2c. The ontic does not grant it, and that open question does not cancel the common identity and the separately governed dependencies above.
+
+
 #### E.24:5.2 - Multi-Pattern Subject Matter as an Ontic-Candidate Archetype
 
 A project phrase such as "algorithm", "process", "solver", "workflow", "system", "quality", "time", "source", or "architecture" can point to one recognizable subject that is spread across several FPF values and patterns. The point of this archetype is not that all such subjects are one kind. The E.24 decision instead settles the status of the cross-pattern subject before patterns rely on it.
@@ -115819,7 +115957,7 @@ The fact that changes the result is one closing claim, several claims for one us
 The E.24 move is:
 1. name the working expression and identify the pre-judgment candidate entity, proposal episteme, or source-construct entity under its direct rule; keep that fixed object as the decision episteme's EntityOfConcern. If none is identifiable, retain inquiry material; a missing governed payload instead permits an unresolved result about the identified decision subject;
 2. list the direct entities and relations that currently carry the subject; for every reused declaration, separately list its RelationSignature and SlotSpecs;
-3. run the existing-rule-content, exact-identity, typed-connectivity-or-constitution, dependent-use, and non-duplication tests, then select one ontology disposition for the recovered payload—direct subject-assertion use, bounded local episteme under C.2.1, durable ontic, or unresolved stop—and record source-use status separately;
+3. run the existing-rule-content, exact-identity, relation-or-constitution, dependent-use, and non-duplication tests, then select one ontology disposition for the recovered payload—direct subject-assertion use, bounded local episteme under C.2.1, durable ontic, or unresolved stop—and record source-use status separately;
 4. if a durable ontic is selected, write or cite its exact defining or constraining `ClaimGraph` before dependent uses rely on it.
 
 The workflow fixture needs its method description, plan, Work, and structure because each changes the scheduling use. Select the objects needed by another case through `E.24:4.3a`; their co-occurrence alone supplies no durable-ontic result.
@@ -115862,13 +116000,13 @@ Activation rule: every candidate uses the cheap-card checks `CC-E24-1`, `CC-E24-
 | Check | Observable conformance condition |
 | --- | --- |
 | `CC-E24-1` | The cheap card names the recognizable situation, one exact receiving use, one ontology disposition, any current source use, and one independently identified pre-judgment EntityOfConcern with its identity governor. That subject stays fixed; exactly one typed result points to the closing assertions, bounded episteme, durable ontic, or unresolved reason. Ordinary direct, bounded, and unresolved cases close here unless a stated full-form guard is true. Work and decision are examples of receiving use, not universal prerequisites. A working phrase, topic cluster, heading, or list is never accepted as the EntityOfConcern merely because it opened the inquiry. |
-| `CC-E24-1a` | The decision keeps two layers explicit. At the instance layer, every included direct relation names actual participant meanings and kinds plus its direct governor. At the ontology/declaration layer, typed decision claims state why each kind, relation rule, declaration, pattern, and dependent reliance belongs; no world-side occurrence among those declaration-level objects is implied. Any identity-bearing relation is marked explicitly. |
-| `CC-E24-1b` | The author characterizes the current case, runs existing-governor reuse, exact-identity, typed-connectivity-or-constitution, dependent-use, and non-duplication tests, and fills the ontology disposition last. Its summary placement near the top of a card is not evidence that it was selected first. |
+| `CC-E24-1a` | The decision keeps two layers explicit. At the instance layer, every included direct relation names actual participant identities and meanings, any kind conditions required by its predicate, and its direct governor. At the ontology/declaration layer, typed decision claims state why each kind, relation rule, declaration, pattern, and dependent reliance belongs; no world-side occurrence among those declaration-level objects is implied. Any identity-bearing relation is marked explicitly. |
+| `CC-E24-1b` | The author characterizes the current case, runs existing-governor reuse, exact-identity, relation-or-constitution, dependent-use, and non-duplication tests, and fills the ontology disposition last. Its summary placement near the top of a card is not evidence that it was selected first. |
 | `CC-E24-1c` | Direct use is selected when one readable governed claim closes the receiving use; bounded episteme when that use needs several governed claims read together but no pattern consumes their package as ontology; durable ontic only when multiple current patterns must reuse one independently identified ontology unit and would otherwise duplicate or disagree about identity, constitution, or the minimal relation set. |
 | `CC-E24-1d` | One boundary fixture keeps the source expression, provenance, and independently identified decision subject fixed while showing the receiving use, changed evidence, exact branch payload, and stop for direct use, bounded episteme, the stronger durable-ontic threshold, and unresolved inquiry. |
 | `CC-E24-2` | Existing exact rule content is checked by value before a new ontic is selected. For a relation-kind candidate, the decision cites the exact direct relation pattern passage, which states participant meanings, obtaining, applicability, and occurrence identity, or an `A.6.RCD` result that returns a derived or primitive candidate with that proposed direct subject settlement. Local claim and predicate-definition results are not admitted as relation kinds. |
 | `CC-E24-3` | When the durable branch is selected, the decision states the proposed ontic's stable identity criteria and says what does and does not change that identity. |
-| `CC-E24-4` | A durable ontic names the subject's exact identity, constitution, or recognition rule and its minimal governed relation set. For every included relation it names the direct governor; when one is identity-bearing, it also names participant meanings, admitted actual-participant kinds, obtaining condition, and occurrence-identity rule. RelationSignatures and SlotSpecs are added only for typed reuse. |
+| `CC-E24-4` | A durable ontic names the subject's exact identity, constitution, or recognition rule and its minimal governed relation set. For every included relation it names the direct governor; when one is identity-bearing, it also names participant meanings, independent participant-identification rules, required kind conditions, obtaining condition, and occurrence identity. A typed use additionally requires independently governed participant ranges and complete A.6.5 SlotSpecs; ontic settlement supplies no missing kind admission. |
 | `CC-E24-4a` | When constructive grounding is claimed, the text names the direct grounding rule. Structural identity claims use the `E.14 -> B.3.5 -> C.13` chain with Working-Model, `tv:groundedBy`, and `Γ_m`; non-structural ontics use the identity, grounding, or recognition rule of their subject pattern. |
 | `CC-E24-4b` | Ontic introduction creates no project-side relation occurrence. A designator designates and a governed reference resolves only after the direct predicate and identity rule reidentify the occurrence; an assertion or description episteme carries the claim and designation. A publication occurrence makes a selected episteme edition available and neither designates nor creates the world-side occurrence. |
 | `CC-E24-4c` | E.24 and E.24.UK use one `E24FamilySettlementDecision`. Independent positive kind admission may return the explicit direct-use or bounded-coordination conclusion that no additional durable ontic is needed, with no `OnticSettlementResult`. When both new outputs are independently needed, one atomic decision returns separate result references from common inputs; neither is prior evidence for the other and both remain provisional while a required branch is unresolved. An empty relation set or a nearby relation added for form supplies no coordination contribution. |
@@ -116749,16 +116887,18 @@ Each R5 or bootstrap result is a C.2.1 episteme about the pre-judgment subject c
 
 ##### E.24.UK:4.2c - Open Prerequisites, Blocked Candidates, and Non-admission Results
 
-The shared decision can also encounter public kind names that do not yet have a resolvable accepted admission result. They remain explicit prerequisites rather than being smuggled into the accepted registry. Existing by-value use of an exact current value may continue under its subject pattern, but no new admission may cite the unsettled kind itself as already accepted.
+The shared decision can also encounter public kind names that do not yet have a resolvable accepted admission result. They remain explicit prerequisites rather than being smuggled into the accepted registry. C.2.1:4.1.1 supplies the practical route for obtaining claim content in writing, recovering its effective interpretation, and comparing exact values. Such use can remain sufficient without a classification of all possible constituents. C.2.1:4.1.2 supplies the positive C.3 declarations `EpistemeInterpretationScheme` and `NonemptyClaimContent` for the receiving ranges stated there. C.2.1:4.2.6 supplies exact constituent designations and their resolution without admitting another RefKind. A receiver needing a different membership or substitution distinction must state its candidate domain and criterion under C.3.2; a reusable typed relation declaration must supply the independently governed ValueKinds required by A.6.5. ByValue is a designation mode, not an exemption from those conditions. No new admission may cite an unsettled public kind as already accepted.
 
 | Exact result or blocker reference | Current disposition | Exact missing or closing basis |
 | --- | --- | --- |
-| `E24UK-OPEN-UREFERENCESCHEME-01` | `U.ReferenceScheme` prerequisite unsettled | F.18 identifies the current `FPFCoreReferenceScheme` value and C.2.1 consumes an effective scheme, but no current subject pattern and accepted result state the kind's identity, extent, and non-use boundary |
-| `E24UK-OPEN-UCLAIMGRAPH-01` | `U.ClaimGraph` prerequisite unsettled | C.2.1 consumes exact claim content and distinguishes it from graph representations, but no current accepted admission result and direct kind-admission pattern are resolvable from this host set |
+| `E24UK-OPEN-UREFERENCESCHEME-01` | `U.ReferenceScheme` prerequisite unsettled | C.2.1 governs precise use and comparison of effective interpretation rules; its :4.1.2 `EpistemeInterpretationScheme` declaration supplies the bounded C.3 range used by the named relation and mechanism interfaces. F.18 uses the concrete `FPFCoreReferenceScheme`. A general public classification still needs a demonstrated receiving need, a defined candidate range with identity and membership criteria, member/non-member and non-use boundaries, and an accepted admission result. A document describing rules is not automatically an instance of that proposed kind. |
+| `E24UK-OPEN-UCLAIMGRAPH-01` | `U.ClaimGraph` prerequisite unsettled | C.2.1 governs exact semantic content and distinguishes it from its graph expression and an episteme about it; its :4.1.2 `NonemptyClaimContent` declaration supplies the bounded C.3 range used by the R7/R8 predicates. General public typed reuse still needs a demonstrated classification need, a defined candidate range with identity and membership criteria, member/non-member and non-use boundaries, and a direct kind settlement with an accepted admission result. An endpoint episteme class supplies none of those constituent-kind grounds. |
 | `E24UK-NAR-U-CAPABILITY-01` | `U.Capability`; `reject` | A.2.2 planning, promise, fit and development uses require a holder System and qualified ability claims, not another individual or classificatory distinction. Use `U.System` and C.2.1 epistemes when an assertion needs an identified account. |
 | `E24UK-NAR-LSMT-01` | `U.LanguageStateMoveTrajectory`; `reject` | A.16.0 needs an ordinary C.2.1 history account and an E.24.PUB expression/publication form. The recovered branch, loss, lineage and responsibility uses require no additional individual or durable classification. |
 | `E24UK-NAR-AIPR-01` | `U.ActionInvitationPrecisionRestoration`; `reject` | A.6.A governs a precision-restoration move; the title admits no further kind, and any exact relation claim still needs its direct obtaining predicate and identity rule |
 | `E24UK-NAR-EPUB-01` | `U.EpistemePublication`; `reject` | for the availability-only use in section 5.0, C.2.1 identity and the exact E.24.PUB participation claim suffice; no additional classification is needed. A receiving classification use is assessed separately under C.3.2 and the admission tree. |
+
+E.24 may coordinate exact constitution and dependent relation rules in `EpistemeOntic` while these two admissions remain open. Its positive basis is the shared identity and the named cross-pattern dependencies, subject to E.24's participant-identification and predicate tests. That coordination admits neither proposed constituent kind and does not complete a typed interface whose required range is missing.
 
 Generic `reuse` and `local-kind` are decision exits, not accepted example results. Close `reuse` only with an exact `ReusedUKindRef` that resolves to this registry; close `local-kind` only with one exact current C.3.2 `LocalKindDeclarationRef`. If either reference is absent, keep the candidate unsettled.
 
