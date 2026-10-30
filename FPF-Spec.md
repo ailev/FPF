@@ -3332,7 +3332,7 @@ When the question is local meaning rather than joint model-use organization, rec
 | Over which slices is this claim made, and which slices belong? | one `U.ClaimScope` and its A.2.6 `member(slice, scope)` facts | A.2.6 | Keep the scope and membership facts as this result; select a structure separately only when its organization changes a receiving decision. |
 | Which system-role kind is assigned to which system, and when? | First recover the assignment occurrence and its declared `U.SystemRoleAssignment` species. The species declares participant meanings and rules; the occurrence supplies the holder System, assigned local system-role-kind value, and any other participant values that distinguish the occurrence. If the question also needs a reportable time, recover a separate assignment assertion or occurrence-description episteme whose content states the currently known `AssignmentInterval`. | A.2 and A.2.1; A.2.7 only for an independently current relation among system-role kinds | Return until the assignment species, all declared participant values, obtaining predicate, and any needed occurrence-description episteme are recovered. The occurrence retains its maximal uninterrupted extent. Context, scheme, and interval are not generic assignment participants; an organizational title supplies no assignment. |
 | Which rule, policy, invariant, or inference is local? | one C.2.1 episteme with the exact ClaimGraph and effective scheme, the A.2.6 claim scope, and the truth or admissibility predicate defined or constrained in the exact subject-pattern description | C.2.1, A.2.6, that exact predicate and its `SubjectPatternLocator` | If no exact predicate states when the rule or inference holds, preserve the claim at its current scope and stop. |
-| Which unit or measurement reading is local? | one C.16 measurement basis naming bearer, characteristic, scale, coordinate or level, `U.Unit` when applicable, polarity, and evidence stub | C.16 | Return to the C.16 measurement basis when only a displayed label or value is available. |
+| Which unit or measurement reading is local? | one C.16 measurement basis naming bearer, characteristic, scale, coordinate or level, the measurement unit when applicable, polarity, and evidence stub | C.16 | Return to the C.16 measurement basis when only a displayed label or value is available. |
 | How is an episteme used as evidence, or how is a status consumed? | the exact episteme or status bearer, target claim, scope, polarity or status value, relevance window, provenance constraint, and intended use | A.2.4 and A.10 for evidence use; F.10 for status family and status use; B.3 only for assurance | Return to the exact evidence or status relation when only its presentation is known. For a permission, gate, or assurance claim, use its own subject pattern. |
 | Can a field, department, technology, or shared spelling choose the local semantics? | no; restate the live question and recover its exact model-use structure, scheme and sense cells, system-role kind or assignment, rule or status, or Bridge from the corresponding row above | the pattern selected by that question | Restate the live question and use its corresponding row; a broad label alone leaves the selection unresolved. |
 | Which admitted holon grounds a description's empirical claims? | one exact C.2.1 `EpistemeEmpiricalGroundingRelation` | C.2.1 | Return to C.2.1 until the grounding relation is recovered. |
@@ -5795,7 +5795,7 @@ Every promise content names its effective `U.ReferenceScheme`, `promisedOutcomeS
 
 **CC-A2.3-4 (Acceptance).**
 `acceptanceSpec` **MUST** be present and **MUST** define how delivered `U.Work` is judged as pass, fail, or a declared grade against named evaluation criteria and target values. Any SLA deontics are represented through `U.Commitment`. The promise content **MUST** declare **Claim scope (G)** where operating conditions, populations, locales, or another claim extent matter. Every verdict cites an explicit **Gamma_time** window.
-If the acceptance criteria mention measurable characteristics such as availability, latency, accuracy, cost, or safety, each characteristic MUST be introduced through C.16 with its scale, unit when applicable, and `U.DHCMethod` measurement template. A relied-on measured verdict additionally names its supporting evidence and direct evidence relations. When a quality-family label hides several possible contributors, use C.25 to retain the one characteristic or structured bundle that the acceptance claim needs. If the reading depends on a particular way of measuring, cite the `U.MethodDescription` that describes that measurement method. The characteristic is referenced by its exact identifier rather than by an unqualified KPI label.
+If the acceptance criteria mention measurable characteristics such as availability, latency, accuracy, cost, or safety, each characteristic MUST be introduced through C.16 with its scale, unit when applicable, and measurement specification under C.16:5.2. A relied-on measured verdict additionally names its supporting evidence and direct evidence relations. When a quality-family label hides several possible contributors, use C.25 to retain the one characteristic or structured bundle that the acceptance claim needs. If the reading depends on a particular way of measuring, cite the `U.MethodDescription` that describes that measurement method. The characteristic is referenced by its exact identifier rather than by an unqualified KPI label.
 
 **CC‑A2.3‑5 (Access).**
 When the promised use relies on a request-facing access Method, `accessSpec` **MUST** identify the A.3.2-admitted `U.MethodDescription` that describes it. Separately recover the endpoint, desk, manifold, or other exact bearer through A.6.P:4.11a. Apply A.1 or A.1.SCR only when a current claim depends on that bearer being an access-point `U.System`; otherwise keep the bearer without the stronger claim. If no access-method description is current because access is ambient, `accessSpec` may be omitted. In either branch, keep an eligibility predicate in the promise content when eligibility is promised; when eligibility depends on a separately obtaining admission relation, identify that relation and use the pattern that defines or tests it.
@@ -5908,7 +5908,7 @@ Until the membership judgements required by the selected counting rule and repor
 * **Availability and uptime claims:** select one declared characteristic instead of treating the labels as synonyms. Derive its observed characteristic value from selected work facts and telemetry observations through its C.16 measurement template, `Gamma_time` policy, and evidence relations; cite a `U.MethodDescription` when a particular measurement method affects the reading.
 * **Cost‑to‑serve:** sum of `Γ_work` over `W✓` per resource category (A.15.1).
 
-Each resulting `U.Measure` claim is derived from selected facts about `U.Work` occurrences through its C.16 measurement template and named A.10 evidence relations; when a particular measurement method matters, its `U.MethodDescription` is cited. Resource and time actuals belong to the performed `U.Work` occurrences.
+Each resulting measurement-result claim is derived from selected facts about `U.Work` occurrences through its C.16 measurement template and named A.10 evidence relations; when a particular measurement method matters, its `U.MethodDescription` is cited. Resource and time actuals belong to the performed `U.Work` occurrences.
 Aggregation across time uses the `Gamma_time` policy referenced by the named C.16 measurement template or acceptance specification; an unqualified KPI label does not select that policy. When a measure needs a B.1.4 temporal-phase aggregation of one carrier, name one `ContextTemporalAggregation@Context` record and its exact selected policy—for example, union of observed values or their convex hull—together with carrier identity, time window, coverage and non-overlap conditions, and admissible use. If those one-carrier conditions do not hold, this example is inapplicable; state the aggregation actually required and apply its defining rule. Union and convex hull are policy choices, not defaults; `Gamma_time` does not select either by itself.
 
 ### A.2.3:9 - Common misclassification repairs
@@ -9300,7 +9300,11 @@ A.3 supplies grounded actor-side facts and exact Work occurrences; receiving ass
 
 Use this pattern when a project needs to say **how something is done in principle**.
 
-When several observed Work occurrences or named sources may show a reusable way but Method identity is still only a candidate, use `A.3.1.MR` first. It returns one source-traceable account per candidate, a distinguishing question, a record-only result, or a named blocker. Return here only when one candidate reusable way is ready for the `U.Method` identity test.
+When observed performances or evidence about performances may show a reusable way that still needs recovery, use `A.3.1.MR` first. It returns one source-traceable provisional account per candidate, a record-only result, or a named blocker. Include a distinguishing question only when it changes recovery or the receiving use.
+
+For reusable-way claims proposed or described in documentary guidance, use `A.3.1.DR` when their source meaning or status needs recovery. Choose by the source's role in the question: a document can contain both guidance and performance evidence.
+
+When one candidate reusable way is ready for the `U.Method` identity test, apply this pattern directly.
 
 Typical moments:
 
@@ -34287,6 +34291,8 @@ When measurement concepts are not kept rigorously distinct, several issues arise
 
 **Establish “Characteristic” as the one canonical construct for “what is measured.”** In every FPF context, the _aspect or trait_ being measured MUST be referred to as a **Characteristic**. This term replaces “axis” or “dimension” when they are used as names for the measured aspect; Plain aliases must keep that mapping clear. By fixing a single name and schema, we cleanly separate a **Characteristic** from its **Scale** (and **Unit**), and from any observed **Value/Level** on that scale. The solution also differentiates single-entity vs multi-entity cases and binds all measurements to the standard CSLC sequence.
 
+**Recover the same aspect.** Identify a Characteristic by the aspect it distinguishes, the domain and arity of its possible subjects, the roles of an ordered subject tuple when relevant, and the conditions constitutive of that aspect. A changed reading, bearer, observation window or description does not by itself define a new Characteristic. A different Scale can express the same aspect through a justified conversion. Conversely, an unchanged name does not preserve the Characteristic if it now distinguishes another aspect or changes the subject roles. Preserve the original definition and establish the correspondence needed by the receiving comparison; unresolved equivalence is not identity. A content evaluation and a physical observation can both use this rule without being the same measurement practice.
+
 To enforce this solution, the following rules apply:
 
 -   **A17-R1 (Canonical term).** In all normative models and specifications, the measured aspect **SHALL** be referred to as a **Characteristic**. “Axis” and “Dimension” are not technical substitutes for the measured aspect.
@@ -34303,7 +34309,7 @@ To enforce this solution, the following rules apply:
 
 - **A17-R7 (Scoring against preference).** A ScoringMethod **SHALL** state how its score order represents the declared preference. Where one input is higher-is-better or lower-is-better, improving that input while holding the others fixed **MUST NOT** worsen the score, for admissible inputs under the stated conditions. Target-based preference is checked against its declared target or loss rule; the preferred direction may change across the target. A quantity calculation or unit conversion uses its measurement relation and Scale rules under A.18/C.16.
 
-- **A17-R8 (Arity declaration).** Authors **SHALL** mark a Characteristic as **`U.EntityCharacteristic`** (applies to exactly one bearer) or **`U.RelationCharacteristic`** (applies to an ordered tuple of two or more bearers). Examples: *Cohesion* → entity‑level; *Coupling* → relation‑level.
+- **A17-R8 (Arity declaration).** Authors **SHALL** identify whether a Characteristic applies to exactly one bearer or to an ordered tuple of two or more bearers, and declare the tuple roles. Examples: *Cohesion* is unary; *Coupling* is relational. This arity declaration suffices for direct use; a receiving typed interface can require a C.3 classification when it needs a recurring membership decision.
 
 - **A17-R9 (Relational scale anchors).** For relation‑level cases, the Scale’s admissible values **SHALL** be defined over the **tuple** domain (e.g., distances, similarities, inter‑role latencies). Ambiguity that re‑reads a relational Characteristic as unary is **forbidden**.
 
@@ -34315,7 +34321,7 @@ To enforce this solution, the following rules apply:
 
 **R18 - Allowed changes and state recognition.** For a model of change, state the allowed continuations and their conditions through A.3.3. Use a state predicate or checklist when the receiving use needs to recognize a condition. A.2.5 governs the particular case of a condition on an assignment to a system role; a gate or assurance use supplies its own required support.
 
-**I7 — Vector interpretation.** A **U.Coordinate** vector may collect multiple coordinates for multi‑Characteristic reasoning; composition into a single Score, if desired, is an **explicit new 𝒢** on that vector.
+**I7 — Vector interpretation.** A vector may collect multiple Scale-specific Coordinates for multi‑Characteristic reasoning; composition into a single Score, if desired, is an **explicit new 𝒢** on that vector.
 
 ### A.17:5 - Archetypal Grounding (System & Episteme Examples)
 
@@ -34461,7 +34467,15 @@ For a magnitude comparison, interpret values under the Characteristic and Scale,
 
 A mathematical relation can combine quantities into another quantity, as a measurement model does in C.16. Identify that relation, its conditions and the Scale of the resulting quantity. A unit conversion expresses the same quantity on another compatible Scale. A ScoringMethod instead supplies a Score for a declared evaluation and follows A.17-R7's preference rule. For example, multiplying resistance by current gives voltage; ranking designs by cost and reliability requires a choice of preference.
 
-For evaluative comparison or combination across different CSLC templates, the ScoringMethod must declare a bounded output range for its Score.
+For evaluative comparison or combination across different CSLC templates, the ScoringMethod must declare its Score Scale and output range. Supply finite bounds when the method or receiving use requires boundedness, as specified in A.19.USCM; do not invent bounds for a lawfully unbounded score.
+
+#### A.18:4.3 - Preserve value meaning through change
+
+A Scale is identified by its interpreted values and their domain, the equality or order structure it supplies, and, where applicable, its unit, reference and origin. A label or numeral alone supplies none of these. A Level denotes a value or declared category within that Scale; changing its spelling can preserve the Level, while moving a category boundary changes what it denotes. A Coordinate is a value of that particular Scale, not an independently measured object or the content that attributes the value to a subject. Keep the declared Scale recoverable when writing, comparing or passing Coordinates.
+
+A measurement unit is an adopted reference for expressing quantities of the applicable kind. Its symbol is a representation of that reference. A change of unit can preserve the quantity through an established conversion while changing the Scale-specific Coordinate; an unchanged symbol does not establish that the unit, quantity kind or Scale is the same. A changed measurement model or calibration can change the attributed result without changing the Scale. Recover which interpretation or assertion changed before revising a dependent calculation.
+
+For a proposed replacement, establish the required correspondence of Characteristics and Scales, then apply the conversion or evaluation rule actually used by the receiver. Being a Coordinate on some Scale is insufficient for filling a position on another Scale. Where no classification decision is needed, this exact declaration and correspondence suffice; recurring typed receivers can use the content and space ranges in C.16:5.5.1 and A.19:5.1.1.1. Membership in those ranges does not establish comparability or authorize arithmetic.
 
 ### A.18:5 - Archetypal Grounding (System & Episteme Examples)
 
@@ -34489,7 +34503,7 @@ When defining a new metric template or using measurements, practitioners **SHALL
 
 5.  **No bare numbers:** Never present a raw number or value without its context of Characteristic and Scale. If someone sees “42” in your output, they should _also_ see or know “42 of what, measured how.” A reader who is not aware of the metric’s template should not be left guessing what a given value signifies. In practice, this means labeling reports and data with the metric name or identifier so that values can be traced back to their meaning.
 
-6. **Cross-template operations:** For a conversion, recover the relation between compatible Scales, including units. For a quantity calculation, recover the model and its conditions under C.16. For an evaluative comparison or combination, state the ScoringMethod, its preference under A.17-R7 and its bounded Score output range. For example, converting 0.5 minutes to 30 seconds preserves duration; combining cost and reliability into a score needs an evaluation rule.
+6. **Cross-template operations:** For a conversion, recover the relation between compatible Scales, including units. For a quantity calculation, recover the model and its conditions under C.16. For an evaluative comparison or combination, state the ScoringMethod, its preference under A.17-R7 and its Score Scale and output range, including any required bounds. For example, converting 0.5 minutes to 30 seconds preserves duration; combining cost and reliability into a score needs an evaluation rule.
 
 7.  **Level optionality respected:** If your Characteristic doesn’t naturally have tiers, don’t force it to have **Level** names (you can leave the Level concept unused). Conversely, if your Characteristic is commonly described in categories, it’s fine to define Levels for clarity. The key is to use the Level field intentionally: either not at all (for truly continuous measures) or in a fixed, **non-overlapping** way (for discrete categories). Do not use “Level” for something that behaves like a continuous value (it would be confusing to assign a label where a number would do, or vice versa).
 8. **Comparability test:** For a direct magnitude comparison, use the same Characteristic and Scale, with compatible measurement conditions under C.16. A declared conversion can establish that common basis. A preference judgement additionally uses its declared preference; changing that preference alone does not change the measurement Scale.
@@ -34596,7 +34610,7 @@ If none of those questions is current, stop with the space and predicate above.
 
 **Scope.** Pattern A.19 defines:
 - the declared `U.CharacteristicSpace` value as a finite product of slot value sets under A.18;
-- the slot construct that binds one `U.Characteristic` to one selected scale and value set;
+- the slot construct that binds one Characteristic to one selected scale and value set;
 - the typed unary `CharacteristicSpacePredicate` over declared Coordinates, including its input variable, domain and coordinate projection, Scale meanings, any A.19.UNM normalization used to obtain its inputs, Boolean expression, cut or band, composition, and polarity;
 - optional order, topology, and distance overlays that downstream patterns may use when declared; and
 - the typing hook `U.Dynamics.stateSpace : CharacteristicSpace`.
@@ -34634,7 +34648,7 @@ FPF already standardizes what is characterized through A.17 and how one characte
 
 ##### A.19:5.1.1 - Type signature
 
-Each slot `i` names one `U.Characteristic` and one chosen `Scale`:
+Each slot `i` names one Characteristic and one chosen `Scale`:
 
 > `slot_i = (Characteristic_i, Scale_i)`.
 
@@ -34649,6 +34663,18 @@ A point `x` in `CS` supplies one Coordinate `x(i)` from `ValueSet(Scale_i)` for 
 A complete state is total over the selected basis. An observation or evaluation input may instead be partial: it supplies Coordinates only for a subset of slots and records `missing`, `censored`, `unknown`, or another observation status separately. A consumer applies its own applicability and tri-state or error rule before treating such input as a state. `not-applicable` is normally an applicability fact, not a Scale value; a domain may use it as a genuine value only when the Scale explicitly defines that meaning.
 
 Any `U.Dynamics.stateSpace` refers to a declared `CharacteristicSpace`. The dynamics model states the constraints selecting its admitted states within that product, and its trajectories use points satisfying the applicable state constraints. A.3.3.CC constructs the configuration description; A.3.3 supplies additional state information, the dynamic law, time base, observation relation and prediction-use conditions.
+
+###### A.19:5.1.1.1 - Identity, classification and resolution of a declared space
+
+A declared CharacteristicSpace is an abstract mathematical entity individuated by a finite ordered basis of interpreted Characteristic/Scale pairs, the product of those Scales, and any declared structural overlays with their domains. Its description expresses these components; the description is not the space. The empty ordered basis is permitted and has the singleton product containing the empty tuple. It is not a missing declaration. A point in the product, a partial observation and a dashboard displaying observations are also distinct from the space.
+
+`DeclaredCharacteristicSpace` is a C.3 kind individual over independently identified abstract spaces. Its membership criterion requires the finite ordered Characteristic/Scale basis, the product structure, and an interpretation of any structural overlays on declared domains. A mathematical space without such a basis is a non-member. An unlabelled tuple, document or partial observation is outside this candidate space-entity domain. When the components needed to decide the criterion have not been recovered, membership remains unknown. This content-fixed criterion concerns the declared structure, not whether an observation is complete, a threshold is met or an action is eligible. Pin its declaration edition and the C.3.2 evaluation slice with explicit versions and temporal selector; applicability requires the A.17/A.18 interpretation of its components. An out-of-domain candidate or interpretation gives not-applicable; missing knowledge for an admitted classification gives unknown.
+
+The space satisfies A.1's entity criterion through this individuation and the identity-preserving transformations of its construction; `DeclaredCharacteristicSpace` is consequently a C.3 subkind of `U.Entity`. Changing a basis position, Scale interpretation or constitutive overlay changes the space; changing the notation or description edition can preserve it when those components are preserved. Adding a Characteristic/Scale position yields a different space, not a new membership criterion. The kind continues while its candidate domain and membership distinction remain unchanged. Neither this local classification nor the word “space” establishes admission of another universal kind.
+
+A `CharacteristicSpaceRef` resolves to that exact declared space and any requested edition of its description. A document return must identify the space it describes. A path that now contains different defining components does not silently retarget the reference. After resolving it, check the receiver's required basis positions, Scale semantics, projection and other operation conditions. Membership alone does not make two spaces interchangeable.
+
+An exact construction can be used directly without a separate classification declaration. When replacing a space, preserve the previous declaration, identify what changed, and map or re-obtain the affected observations and predicates; a retained number alone cannot establish the new position meaning. Keep C.16's measurement grounds and A.6.1's actual bindings available for the uses that need them. These common rules coordinate space, reading and transformation without requiring a new ontic or a new record for every calculation.
 
 ##### A.19:5.1.2 - Slot discipline (invariants)
 
@@ -34677,7 +34703,7 @@ A CharacteristicSpace has no default order, topology, or distance. Declare only 
 
 The declaration of every overlay is optional. Once a consumer relies on one, however, it names the exact overlay and stays within its domain and applicability conditions; any claimed order preservation, continuity, convergence, sensitivity, robustness, or stability must satisfy the laws of that overlay. An overlay adds analysis structure and cannot redefine a slot's Characteristic, Scale, admissible operations, or Coordinate meaning.
 
-Here **distance** means a mathematical distance function, not a performance measure or a C.16 measurement method. Use `U.DHCMethod` for the measurement definition and `U.DHCMethodRef` to refer to it.
+Here **distance** means a mathematical distance function, not a performance measure or a C.16 measurement method. Use a measurement specification under C.16:5.2 for the measurement definition and its `DHCMethodRef` for exact reference resolution.
 
 ##### A.19:5.1.4 - Dynamics hook (typing only)
 
@@ -34842,7 +34868,7 @@ A view, comparison result, selection, portfolio, distance-based neighborhood, or
 
 ### A.19:5.6 - Bias-Annotation
 
-A.19 corrects feature-vector bias: a list of numbers, labels, or dashboard fields is not yet a `CharacteristicSpace`. The space exists only when each slot binds a `U.Characteristic` to a Scale and genuine Scale value set with declared meaning and optional overlays. Partial-observation and applicability statuses remain with the consumer.
+A.19 corrects feature-vector bias: a list of numbers, labels, or dashboard fields is not yet a `CharacteristicSpace`. The space exists only when each slot binds a Characteristic to a Scale and genuine Scale value set with declared meaning and optional overlays. Partial-observation and applicability statuses remain with the consumer.
 
 It also corrects consumer-pattern bias. A.19 is the pattern for the reusable space and semantic predicate values. Each current gate, evaluation, comparison, selection, assurance, dashboard, or portfolio claim binds its own application, scope, window, result, evidence use, and publication consequences under the applicable pattern; consuming the A.19 values creates no private space or predicate kind.
 
@@ -36431,8 +36457,8 @@ CN‑Spec {
   reference_or_comparison_basis : <corpus, baseline, reference state, or declared comparison set>
   cs_basis          : [{
     slot_id         : <tech-token>,
-    characteristic  : <U.Characteristic>,
-    scale           : { type: nominal|ordinal|interval|ratio, unit?: <U.Unit>, bounds?: <…> },
+    characteristic  : <Characteristic defined under A.17>,
+    scale           : { type: nominal|ordinal|interval|ratio, unit?: <measurement unit under A.18/C.16>, bounds?: <…> },
     polarity        : up|down|target-range|none,
     // if needed: missingness?, admissible_domain? (MM‑CHR-consistent metadata)
   }]
@@ -37381,7 +37407,7 @@ The two primary specifications are source models and a serious comparator; the c
 
 ### A.19.UNM:0 - At a glance — didactic, informative
 
-**Intent.** Provide a single, explicit normalization mechanism for **coordinate values** in a `U.CharacteristicSpace`, so that **comparability** and downstream characterization steps can be stated as “**normalize-then-compare**” (governance), rather than as hidden arithmetic inside scoring/selection.
+**Intent.** Provide a single, explicit normalization mechanism for **coordinate values** in a `DeclaredCharacteristicSpace`, so that **comparability** and downstream characterization steps can be stated as “**normalize-then-compare**” (governance), rather than as hidden arithmetic inside scoring/selection.
 
 **Where it sits.**
 - **CN-frame governance card:** `CN_Spec.normalization` + `CN_Spec.comparability.mode` route whether comparison is `coordinatewise` or `normalization-based`.
@@ -37463,7 +37489,7 @@ Select the configured method and apply the declaration below:
 **NormalizationMethodDescription.** An editioned epistemic description of a normalization method (bounds, validity region/window, scope constraints, and evidence links governed by `C.16`). For an A.3.2 `U.MethodDescription` claim, its exact EntityOfConcern must be an independently admitted A.3.1 Method and its content must make a substantive claim about that Method as a way of doing.
 **NormalizationMethodDescriptionRef.** A ref to an editioned `NormalizationMethodDescription`, used in `CN_Spec.normalization.method_descriptions`.
 
-**NormalizationMethodInstanceId.** A stable token naming a normalization method configured for specific coordinates in a base `U.CharacteristicSpace`, with a named validity window and (when required) evidence pins. One such configuration can be used by several distinct `apply` occurrences; this identifier does not identify a calculation invocation. Used in `CN_Spec.normalization.instances`.
+**NormalizationMethodInstanceId.** A stable token naming a normalization method configured for specific coordinates in a base `DeclaredCharacteristicSpace`, with a named validity window and (when required) evidence pins. One such configuration can be used by several distinct `apply` occurrences; this identifier does not identify a calculation invocation. Used in `CN_Spec.normalization.instances`.
 
 **NormalizationMethodInstance.** That configured method, referenced by `NormalizationMethodInstanceId`. Its coordinate qualification and validity window are separate from the extent of a calculation that uses it.
 
@@ -37517,13 +37543,16 @@ A different realizer of the same declaration changes no suite member. A correcte
 
 **SubjectBlock**
 - `SubjectKind`: declared normalization methods, with their actual domains, output kinds and preserved/lost distinctions; functional methods may additionally supply `≡_UNM` over their admitted inputs
-- `RangedValueKind`: coordinate values (`CV`) for named measurable slots in the exact `U.CharacteristicSpace` and CN-Spec editions; UNM normalizes **values**, not characteristics
+- `RangedValueKind`: coordinate values (`CV`) for named measurable slots in the resolved `DeclaredCharacteristicSpace`, with its description and CN-Spec editions pinned; UNM normalizes **values**, not characteristics
 - `BearerAndUseBoundary`: the exact bearer, scope and window, reference or comparison basis, evidence, and intended comparison declared for those values
 - Input qualification: coordinate values admitted by the selected CN-Spec for this bearer and use, within the configured method's declared validity window. This is not an operation-application extent or an A.6.1 slice-membership `ExtentRule`.
 - `ResultKinds`:
   - `NormalizedCharacteristicValue (NCV)`
   - optional function-kernel equivalence (`≡_UNM`) and its set of classes; a congruence claim only for separately checked operations
   - optional quotient objects and/or `Normalization-fixed` representatives (via `NormalizationFixSpec`)
+
+**Space range and resolution.** Use the `DeclaredCharacteristicSpace` criterion and reference resolution in A.19:5.1.1.1. Membership establishes the input's space structure; the selected operation must still resolve its actual positions, Scales and applicable use conditions. A changed basis requires a new resolution, even if its label or document path is unchanged.
+
 **Operation-local argument and result declarations**
 
 The names below are declaration-local designators. `ByValue` carries the stated value; each named Ref resolves to one exact value and edition under this declaration's effective reference scheme. Cardinality is per application. The first four arguments are shared declarations instantiated separately for `apply` and `UNM_Eligibility`.
@@ -37532,7 +37561,7 @@ The names below are declaration-local designators. `ByValue` carries the stated 
 | --- | --- | --- | --- |
 | apply / UNM_Eligibility argument | NormalizationMethodInstanceSlot | Configured normalization method selected for the value; NormalizationMethodInstanceId | ByValue; 1 for apply, 0..1 for eligibility |
 | apply / UNM_Eligibility argument | CoordinateValueSlot | Coordinate value to transform or assess; CV in the named chart | ByValue; 1 for apply, 0..1 for eligibility |
-| apply / UNM_Eligibility / compose argument | CharacteristicSpaceSlot | Space that supplies the coordinate meanings and Scales; U.CharacteristicSpace | U.CharacteristicSpaceRef; 1, or 0..1 for eligibility |
+| apply / UNM_Eligibility / compose argument | CharacteristicSpaceSlot | Space that supplies the coordinate meanings and Scales; DeclaredCharacteristicSpace | CharacteristicSpaceRef; 1, or 0..1 for eligibility |
 | apply / UNM_Eligibility / compose argument | CNSpecSlot | CN-Spec used for the bearer, scope/slices, qualification window, basis, evidence requirements and intended comparison | CNSpecRef; 1, or 0..1 for eligibility |
 | apply result | NCVSlot | Transformed value returned under the selected method's domain and preservation/loss basis; NCV | ByValue; 1 on successful return, 0 without a defined/admitted result |
 | UNM_Eligibility result | GuardDecision | Eligibility judgment under the predicates below; pass, degrade or abstain | ByValue; 1 on completed evaluation |
@@ -37630,7 +37659,7 @@ UNM is typically skipped when `comparability.mode = coordinatewise` (unless an e
 - When a comparison actually relies on a relation between different planes, cite that exact relation, its direction and loss, and keep its use separate from the normalization result.
 **Audit**
 Audit records MUST include:
-- `CNSpecRef.edition` + `comparability.mode`, the exact `U.CharacteristicSpace` edition, and the evaluated bearer
+- `CNSpecRef.edition` + `comparability.mode`, the exact `CharacteristicSpaceRef` with its pinned description edition, and the evaluated bearer
 - (when present) `CN_Spec.normalization.UNM_id` (the selected UNM declaration identity for this CN-Spec)
 - chosen `NormalizationMethodInstanceId`, its validity window, and any `NormalizationMethodDescriptionRef.edition`
 - declared `NormalizationInvariant[*]` and `NormalizationFixSpec` (if used)
@@ -37814,7 +37843,7 @@ At comparable effort, both choices use the same declared transform and query. On
 ### A.19.UINDM:0 - At a glance (didactic, informative)
 
 * **Suite stage:** `indicatorize` (ordering lives only in `A.19.CHR:suite_protocols`).
-* **Inputs (conceptual):** exact `U.CharacteristicSpaceRef`, `CNSpecRef`, and `IndicatorChoicePolicyRef`, with the bearer, claim scope and selected slices, qualification window, evidence basis, and intended use declared by those editions; when the selected policy is evidence-gated, also supply `CGSpecRef` and, optionally, a `MinimalEvidenceRef` override.
+* **Inputs (conceptual):** exact `CharacteristicSpaceRef`, `CNSpecRef`, and `IndicatorChoicePolicyRef`, with the bearer, claim scope and selected slices, qualification window, evidence basis, and intended use declared by those editions; when the selected policy is evidence-gated, also supply `CGSpecRef` and, optionally, a `MinimalEvidenceRef` override.
 * **Output:** `IndicatorSetSlot` = `S⊆I`, a set of positions in the exact A.19 space declaration's ordered basis I. Each position retains its Characteristic, Scale and meaning. The selection is not a measurement or conversion.
 * **Non‑goals:** does **not** normalize, score, compare, aggregate, threshold, publish, or emit telemetry; it only selects a subset under explicit policy.
 * **P2W seam:** the A.15.2 baseline records concrete space/spec/policy editions; A.15.3 typed filling applies only to independently declared positions. Actual use retains its effective refs and pins in Audit.
@@ -37828,7 +37857,7 @@ Suite membership is a **set** (order has no semantics); any intended ordering is
 
 Within the canonical suite‑closed protocol, UINDM appears as the `indicatorize` stage (after `normalize`, before `score/compare/select`; optional stages remain explicitly optional per `suite_protocols`).
 
-UINDM is governed by CN-Spec and, for an evidence-gated policy, CG-Spec: it selects an **indicator subset** over an existing `U.CharacteristicSpace` under `CN‑Spec.indicator_policy`, using the suite-wide SlotKind lexicon to prevent SlotKind drift across the CHR mechanism chain and across SoTA wiring modules.
+UINDM is governed by CN-Spec and, for an evidence-gated policy, CG-Spec: it selects an **indicator subset** over an existing `DeclaredCharacteristicSpace` under `CN‑Spec.indicator_policy`, using the suite-wide SlotKind lexicon to prevent SlotKind drift across the CHR mechanism chain and across SoTA wiring modules.
 A “subspace view” (if needed) is treated as a **derived support view** over the chosen set (see `A.19.UINDM:4.2`), not as an extra mandatory output of the kernel signature.
 
 ### A.19.UINDM:2 - Problem
@@ -37870,23 +37899,26 @@ Use the operation and guard declarations below for eligibility and actual bindin
 * **Scope note:** A.6.1 governs this declaration's operations, arguments, results, application identities and laws. An A.15.2 plan can select its editions; typed filling under A.15.3 is needed only for an independently declared receiving position. Actual application bindings are governed below. Indicatorization returns S; its guard and audit remain separate from GateDecision/GateLog.
 * **IntensionHeader:** `id = UINDM`, `version = 1.0.0`, `status = stable`.
 * **IntensionRef:** `UINDM.IntensionRef` (canonical target for the suite member named in `A.19.CHR:4.2`).
-* **Tell.** Policy‑bound indicatorization: select an indicator subset over an existing `U.CharacteristicSpace` under `CN‑Spec.indicator_policy`.
+* **Tell.** Policy‑bound indicatorization: select an indicator subset over an existing `DeclaredCharacteristicSpace` under `CN‑Spec.indicator_policy`.
 * **Purpose:** freeze a policy‑bound indicator subset early so downstream CHR mechanisms can assume a declared indicator profile (or explicitly `degrade/abstain`) rather than silently “choosing indicators” inside scoring/comparison/selection.
 * **Imports:** `A.19.CN (CN‑Spec.indicator_policy)`, `A.6.1 (operation declarations and actual bindings)`, `A.19.CHR:4.2.1 (CHR SlotKind Lexicon)`, and (when evidence‑gated) `G.0 (CG‑Spec.MinimalEvidence)`.
 * **SubjectBlock:**
 
-  * **SubjectKind:** `U.CharacteristicSpace`, supplied by CharacteristicSpaceSlot.
+  * **SubjectKind:** `DeclaredCharacteristicSpace`, supplied by CharacteristicSpaceSlot.
   * **RangedValueKind:** declaration-local basis positions of that space. Indicatorize selects from them; IndicatorizeEligibility assesses their selection under the policy.
   * **SliceBasis:** the declared `U.ClaimScope` and its selected `U.ContextSlice` members, together with the qualification window and intended use.
   * **Input qualification:** indicatorization ranges over the declared characteristic-space basis `CNSpecSlot.cs_basis` (within `CNSpecSlot.chart`) for the exact bearer, claim scope and selected slices, qualification window, evidence basis, and intended use; it never enlarges that basis.
   * Result kinds are declared per operation: a finite basis-position subset and a separate guard judgment.
+
+**Space range and resolution.** Use the `DeclaredCharacteristicSpace` criterion and reference resolution in A.19:5.1.1.1. Membership establishes the input's space structure; the selected operation must still resolve its actual positions, Scales and applicable use conditions. A changed basis requires a new resolution, even if its label or document path is unchanged.
+
 **Operation-local declarations**
 
 Each argument row declares the same meaning separately for Indicatorize and IndicatorizeEligibility. References identify one exact value and edition under the declaration's effective reference scheme. Cardinalities below are for Indicatorize; the guard can assess a proposal with a missing required argument, which then has no binding and yields abstain.
 
 | Direction | Local designator | Meaning and ValueKind | Designation; cardinality |
 | --- | --- | --- | --- |
-| Argument | CharacteristicSpaceSlot | U.CharacteristicSpace whose exact basis I supplies the candidate positions, their Characteristic and Scale | CharacteristicSpaceRef; 1 |
+| Argument | CharacteristicSpaceSlot | DeclaredCharacteristicSpace whose exact basis I supplies the candidate positions, their Characteristic and Scale | CharacteristicSpaceRef; 1 |
 | Argument | CNSpecSlot | CN-Spec used to delimit that basis and the bearer, scope/slices, qualification window and intended use | CNSpecRef; 1 |
 | Argument | IndicatorChoicePolicySlot | IndicatorChoicePolicy whose rules select positions in I and govern unresolved choices and evidence failure | IndicatorChoicePolicyRef; 1 |
 | Argument | CGSpecSlot | CG-Spec supplying evidence conditions when the selected policy is evidence-gated | CGSpecRef; 0..1, required for evidence-gated use |
@@ -37967,7 +37999,7 @@ UINDM selects basis positions. A projection to those positions retains their coo
 
 #### A.19.UINDM:5.2 - Show (U.System) — cross‑unit engineering dashboard
 
-A program manager maintains a `U.CharacteristicSpace` for manufacturing sites, including ~30 characteristics (quality, safety, cost, throughput, sustainability).
+A program manager maintains a `DeclaredCharacteristicSpace` for manufacturing sites, including ~30 characteristics (quality, safety, cost, throughput, sustainability).
 
 * The CN‑Spec’s `indicator_policy` for the “weekly executive dashboard” selects a subset:
   `{DefectRate, IncidentRate, UnitCost, LeadTime, EnergyPerUnit, OnTimeDelivery}`.
@@ -38191,11 +38223,13 @@ Method semantics (“how to score”) remain out of suite core: they belong in S
 
 * **SubjectBlock:**
 
-  * **SubjectKind:** `U.Measure`, supplied by the measures in InputProfileSlot; each measure retains its bearer, Characteristic and Scale.
-  * **RangedValueKind:** `U.Measure`; Score transforms the admitted profile under the selected method, and ScoreEligibility assesses that proposed transformation.
+  * **SubjectKind:** `ReadingContent`, supplied by the reading contents in InputProfileSlot; each retains its bearer, Characteristic and Scale.
+  * **RangedValueKind:** `ReadingContent`; Score transforms the admitted profile under the selected method, and ScoreEligibility assesses that proposed transformation.
   * **SliceBasis:** the declared `U.ClaimScope` and selected `U.ContextSlice` members, together with the qualification window and intended result use.
   * **Input qualification:** scoring ranges over the admitted indicator or NCV profile for the exact evaluated bearer, criteria, claim scope and selected slices, qualification window, comparison or reference basis, and intended result use; `CN-Spec.comparability` routes comparison and `CG-Spec.SCP` gates admissibility.
   * Results are declared per operation: the score-measure profile and the eligibility judgment.
+
+**Reading range.** `ReadingContent` and profile interpretation come from C.16:5.5.1. Resolve each component's subject, Characteristic, Scale, attribution and conditions before using its values. A content member can be conditional or insufficiently supported; this operation's eligibility and evidence rules still decide whether it may be used. Profiles retain the positions or contributor identities, ordering and multiplicity required by their declared basis. An independently materialized result episteme is distinct from the calculated Coordinate and the bound reading content.
 
 **Operation-local argument and result declarations**
 
@@ -38203,12 +38237,12 @@ Each input meaning is declared separately for Score and ScoreEligibility. ByRef 
 
 | Direction | Local designator | Meaning and ValueKind | Designation; cardinality |
 | --- | --- | --- | --- |
-| Argument | InputProfileSlot | Admitted set of U.Measure values to score; each UINDM-derived value retains its exact basis position, Characteristic and Scale | ByValue; 1 profile |
+| Argument | InputProfileSlot | Admitted profile of ReadingContent components to score; each UINDM-derived value retains its exact basis position, Characteristic and Scale | ByValue; 1 profile |
 | Argument | CNSpecSlot | CN-Spec used for the bearer, basis, scope/slices, qualification window, intended use and comparability routing | CNSpecRef; 1 |
 | Argument | CGSpecSlot | CG-Spec supplying the SCP restrictions and default evidence requirement for this scoring use | CGSpecRef; 1 |
 | Argument | ScoringMethodDescriptionSlot | ScoringMethodDescription supplying the selected Coordinate→Score rule, domain, codomain, Scale, polarity and use-required properties | ScoringMethodDescriptionRef; 1 |
 | Argument | MinimalEvidenceSlot | MinimalEvidence override used in place of CGSpecSlot.MinimalEvidence | MinimalEvidenceRef; 0..1 |
-| Score result | ScoreProfileSlot | Set of U.Measure values actually returned by the declared scoring rule | ByValue; 1 profile on completed admitted scoring, 0 on abstain or termination without a result |
+| Score result | ScoreProfileSlot | Profile of ReadingContent components actually returned by the declared scoring rule | ByValue; 1 profile on completed admitted scoring, 0 on abstain or termination without a result |
 | ScoreEligibility result | GuardDecision | Eligibility judgment under the predicates below: pass, degrade or abstain | ByValue; 1 on completed evaluation |
 
 An argument's **bindingPredicate** holds when this Score or ScoreEligibility application actually uses the resolved value for that row's purpose: the profile supplies the operands, the method supplies the transformation, CN-Spec delimits its use and routing, and CG-Spec plus any override supplies its admission and evidence conditions. Mere inclusion in an Audit record is insufficient. The ScoreProfileSlot **bindingPredicate** holds when that Score application returns the profile obtained by applying the bound method lawfully to those operands, with the declared scalar/vector cardinality. The guard's result binding holds when that ScoreEligibility application returns its evaluated judgment. Each binding follows A.6.1 identity and continuous extent within the application; the result begins to bind at return.
@@ -38269,7 +38303,7 @@ For the Celsius example in §4.2, two separate calculations of (20−0)/(40−0)
 
 * **Selected-input basis.** Consume the exact UINDM S and space declaration when an indicator profile is used. For CS7 in A.19.UINDM §5.4, the Celsius policy selects i1 and the declared Celsius scoring rule reads 20, giving 0.5. It cannot read the kelvin position's 293.15 under that rule. After a basis change, resolve the selected positions and the scoring method's input requirements again; keep any projection in the original basis order.
 
-* **A score profile retains its component meanings.** `ScoreProfileSlot` is a `U.Set (of U.Measure)`, with each component's score Characteristic and Scale recoverable. An ordered vector rendering retains the correspondence between positions and those components. Several score dimensions are different from uncertainty expressed by an interval or set for one component. A scalar score, or an interval-valued result, requires its own declared meaning and admissible operations.
+* **A score profile retains its component meanings.** `ScoreProfileSlot` is a declared profile of `ReadingContent` components, with each component's score Characteristic and Scale recoverable. An ordered vector rendering retains the correspondence between positions and those components. Several score dimensions are different from uncertainty expressed by an interval or set for one component. A scalar score, or an interval-valued result, requires its own declared meaning and admissible operations.
 
 * **USCM does not order; it scores.** USCM produces score measures. Any ordering, dominance, or set‑valued comparison is performed by CPM and SelectorMechanism (and any optional aggregation is made explicit via ULSAM). Treating the score as “the decision” is a category error in CHR terms.
 
@@ -38523,11 +38557,13 @@ Method semantics (“which aggregation family to use”) remain out of suite cor
 * **Imports:** `G.0 (CG‑Spec.Γ_fold, CG‑Spec.SCP, CG‑Spec.MinimalEvidence)`, `A.18 (CSLC)`, `A.19.CN (CN‑Spec.acceptance + aggregation routing)`, `A.6.1 (operation declarations and actual bindings)`, `B.3 (justified quantity and dependency model for any R_eff fold)`, `A.19.CHR:4.2.1 (CHR SlotKind Lexicon)`.
 
 * **SubjectBlock:**
-  * **SubjectKind:** `U.Measure`, supplied by the members of MeasureSetSlot.
-  * **RangedValueKind:** `U.Measure`; Fold_Γ aggregates the admitted measures, and FoldEligibility_Γ assesses that proposed aggregation.
+  * **SubjectKind:** `ReadingContent`, supplied by the reading contents carried by the contributor entries in MeasureSetSlot.
+  * **RangedValueKind:** `ReadingContent`; Fold_Γ aggregates the admitted measures, and FoldEligibility_Γ assesses that proposed aggregation.
   * **SliceBasis:** the declared `U.ClaimScope` and selected `U.ContextSlice` members, together with the qualification window and intended result use.
   * **Input qualification:** aggregation ranges over the admitted measure set and its declared grouping or membership basis, scope and window, evidence basis, contributors, and intended result; `CNSpecSlot.acceptance` routes admission while `CG-Spec.Γ_fold` and `CG-Spec.SCP` govern admissibility.
   * Results are operation-local: aggregate, optional contributors and separate eligibility judgment.
+
+**Reading range.** `ReadingContent` and profile interpretation come from C.16:5.5.1. Resolve each component's subject, Characteristic, Scale, attribution and conditions before using its values. A content member can be conditional or insufficiently supported; this operation's eligibility and evidence rules still decide whether it may be used. Profiles retain the positions or contributor identities, ordering and multiplicity required by their declared basis. An independently materialized result episteme is distinct from the calculated Coordinate and the bound reading content.
 
 **Operation-local argument and result declarations**
 
@@ -38535,13 +38571,13 @@ Each input is declared separately for Fold_Γ and FoldEligibility_Γ. References
 
 | Direction | Local designator | Meaning and ValueKind | Designation; cardinality |
 | --- | --- | --- | --- |
-| Argument | MeasureSetSlot | Set of U.Measure values offered for aggregation, retaining contributor identities and its declared grouping or membership basis | ByValue; 1 set |
+| Argument | MeasureSetSlot | Set of contributor entries carrying ReadingContent, retaining contributor identities and its declared grouping or membership basis | ByValue; 1 set |
 | Argument | CNSpecSlot | CN-Spec whose acceptance conditions delimit the admitted portion, scope/window and intended aggregate use | CNSpecRef; 1 |
 | Argument | CGSpecSlot | CG-Spec supplying SCP, the declared fold and default evidence conditions | CGSpecRef; 1 |
 | Argument | GammaFoldSlot | ΓFold actually selected through CGSpecSlot.Γ_fold or an explicit admitted override | ΓFoldRef; 1 |
 | Argument | MinimalEvidenceSlot | MinimalEvidence override used in place of CGSpecSlot.MinimalEvidence | MinimalEvidenceRef; 0..1 |
-| Fold_Γ result | AggregatedMeasureSlot | U.Measure returned by applying the effective fold to its admitted contributors | ByValue; 1 on completed admitted folding, 0 without a result |
-| Fold_Γ result | ContributorSetSlot | Set of U.Measure values actually used as contributors to that aggregate | ByValue; 0..1 set, optional |
+| Fold_Γ result | AggregatedMeasureSlot | ReadingContent returned by applying the effective fold to its admitted contributors | ByValue; 1 on completed admitted folding, 0 without a result |
+| Fold_Γ result | ContributorSetSlot | Set of contributor entries carrying ReadingContent actually used in that aggregate | ByValue; 0..1 set, optional |
 | FoldEligibility_Γ result | GuardDecision | Eligibility judgment under the predicates below: pass, degrade or abstain | ByValue; 1 on completed evaluation |
 
 An argument's **bindingPredicate** holds when that application uses the resolved value in the row's stated role: as offered measures, acceptance/use conditions, fold/admissibility declaration or evidence override. The AggregatedMeasureSlot **bindingPredicate** holds when that Fold_Γ application returns the measure it computes using its bound effective fold and admitted contributors. The ContributorSetSlot binding holds only when the same application also returns that actual contributor set; Law 5 requires both its subset condition and equality of the aggregate to the effective fold of that subset. An omitted contributor result creates no contributor binding. The guard result binds when that FoldEligibility_Γ evaluation returns its determined judgment. A.6.1 governs binding identity and maximal continuous extent within the application, with result binding beginning at return.
@@ -38598,7 +38634,7 @@ For example, two separate lawful sums of admitted 2 kg and 3 kg measurements und
 - **Identify the fold and its governing conditions.** The fold is the aggregation rule; ΓFoldRef identifies the selected rule. Its use is a policy-level commitment: `GammaFoldSlot` MUST be resolvable to `CGSpecSlot.Γ_fold` routing or an explicit pinned override. An actual calculation can still have occurred without that citation, but its conformance and reuse basis remain unresolved until the rule is recovered.
 - **ULSAM is not normalization.** ULSAM does not establish comparability by itself: it does not normalize, rescale, or “align units” as a hidden convenience. If a compare‑on‑invariants surface is required, invoke UNM explicitly upstream and cite the effective pins in Audit.
 - **Prefer vector semantics when possible.** If you do not strictly need one aggregated measure, keep measures separate and let `CPM` + `SelectorMechanism` operate on a partial order (set-return semantics). A fold can discard distinctions; state which distinctions the declared fold preserves and loses.
-- **Recover the actual contributors.** Existing input and calculation content may already establish the contributor subset; use the optional ContributorSet output when it supplies needed recoverability. Equal numbers from different contributors remain distinct measures: two boxes each measured as 2 kg contribute twice to their total, rather than collapsing to the bare set {2}. Any ordering, multiplicity or weight consumed by the fold must be declared in its grouping basis or rule. Excluding a contributor may change a total into a partial total; retain that distinction in the result instead of treating missing input as zero.
+- **Recover the actual contributors.** Existing input and calculation content may already establish the contributor subset; use the optional ContributorSet output when it supplies needed recoverability. Equal numbers from different contributors remain distinct measures: two boxes each measured as 2 kg contribute twice to their total, rather than collapsing to the bare set {2}. Conversely, copying the assertion about one box does not make two boxes or authorize counting its mass twice. Any ordering, multiplicity or weight consumed by the fold must be declared in its grouping basis or rule. Excluding a contributor may change a total into a partial total; retain that distinction in the result instead of treating missing input as zero.
 - **Time-fold is a specialization, not a loophole.** The base ULSAM declares `Γ_timePolicy` and allows time-fold only via explicit windowing policy. If a project needs an explicit `FoldTime_Γ` operator, declare it with its additional operation and arguments, preserve inherited meanings and test the claimed extension under A.6.1 §4.8. The local `⊑⁺` label alone establishes no preservation result.
   - Use the suite lexicon token `GammaTimeRuleSlot` for the additional windowing rule input; do not overload `GammaFoldSlot` or invent a generic context input to carry time semantics.
 
@@ -38835,12 +38871,14 @@ This pattern defines (governing-pattern, wiring‑friendly):
 
 * **Direct signature components:**
 
-  * **SubjectKind:** `U.Measure`, supplied by the measures in the left and right profiles.
+  * **SubjectKind:** `ReadingContent`, supplied by the reading contents in the left and right profiles.
   * **RangedValueKind:** CHR-typed profile values in a CG-Frame (see `CG-Spec.ComparatorSet`).
   * Results are declared per operation: a set of relation/poset tokens and a separate eligibility judgment.
   * Input qualification: comparison ranges over admitted left/right profiles in one exact U.ClaimScope. The selected U.ContextSlice values are its members under A.2.6; these qualifications do not define the calculation extent or add a duplicate membership relation.
 
   These are direct A.6.0 declaration components. They do not form an additional comparison-content container, and they do not absorb comparator admission, evaluation, evidence-use, or replay relations.
+
+**Reading range.** `ReadingContent` and profile interpretation come from C.16:5.5.1. Resolve each component's subject, Characteristic, Scale, attribution and conditions before using its values. A content member can be conditional or insufficiently supported; this operation's eligibility and evidence rules still decide whether it may be used. Profiles retain the positions or contributor identities, ordering and multiplicity required by their declared basis. An independently materialized result episteme is distinct from the calculated Coordinate and the bound reading content.
 
 **Operation-local argument and result declarations**
 
@@ -38848,7 +38886,7 @@ Each argument meaning is declared separately for Compare and CompareEligibility.
 
 | Direction | Local designator | Meaning and ValueKind | Designation; cardinality |
 | --- | --- | --- | --- |
-| Argument | LeftProfileSlot | Left operand: set of U.Measure values with their exact basis positions, Characteristic and Scale | ByValue; 1 profile |
+| Argument | LeftProfileSlot | Left operand: profile of ReadingContent components with their exact basis positions, Characteristic and Scale | ByValue; 1 profile |
 | Argument | RightProfileSlot | Right operand of the same kind, matched by the comparator or a separately justified basis mapping | ByValue; 1 profile |
 | Argument | CNSpecSlot | CN-Spec governing admission and comparability of the operand pair | CNSpecRef; 1 |
 | Argument | CGSpecSlot | CG-Spec governing comparator admission, SCP and default evidence conditions | CGSpecRef; 1 |
@@ -54128,7 +54166,7 @@ Stop when that structural comparison answers the current question. If the select
 
 **Tech name:** `ExtractableStructuralInformation`. **Plain name:** structure this reader or observer can extract. `ESI` is an abbreviation after the full name has been introduced.
 
-This is an A.17 `U.RelationCharacteristic`, with arity three over the ordered tuple:
+This is a relation Characteristic under A.17, with arity three over the ordered tuple:
 
 ```text
 (expressed episteme E, expressing publication form P, reader or observer O)
@@ -58205,7 +58243,7 @@ Model-based engineering likewise separates a readable structural model from the 
 
 **Local designators.** `MeasurementSpecification`, `MeasurementMethod`, `MeasurementModel`, `MeasurementWork`, `MeasurementResult`, and `MeasurementResultEpisteme` name exact objects in one case; they are not new public U-kinds or universal relation types. `MeasurementMethod` is one exact `U.Method`; `MeasurementWork` is one dated `U.Work`; `MeasurementResultEpisteme` is one C.2.1 episteme.
 
-**Compatibility with the retained measurement family.** `U.DHCMethod` remains the durable measurement-definition value that fixes the Characteristic, Scale and applicable unit and cites the method and model. A preference rule belongs to the evaluation that uses the result, when one is being made. `U.Measure` remains the durable reading claim: when persisted, it is the C.2.1 result episteme that states the C.16 measurement result. `U.Unit` carries quantity-kind and conversion semantics when the Scale requires them. `U.EvidenceStub` is only a compact locator into A.10/G.6 provenance; it is not the measurement result, an evidence carrier, a work record, or a relation that establishes measurement.
+**Objects used together.** A measurement specification fixes the Characteristic, Scale and applicable unit, and states which method, model and interpretation conditions govern the result. A reading attributes values to a subject under those conditions. Section :5.5.1 supplies `ReadingContent` when a reusable interface needs to classify that content; an episteme stating it has its separate C.2.1 identity. A unit supplies the adopted quantity reference and conversion meaning. An evidence stub is an optional compact locator into A.10/G.6 provenance. These objects can be expressed together while retaining the distinct specification, value, claim, episteme and performed measurement.
 
 ### C.16:2 - Scope and result boundary (Normative)
 
@@ -58254,7 +58292,11 @@ If a fact needed for that interpretation is unavailable, state which conclusion 
 
 #### C.16:5.2 - Fix Characteristic, Scale, unit and time stance
 
-**M‑CSLC‑1.** One `U.DHCMethod` binds exactly one Characteristic to exactly one Scale. A reading names its Coordinate or value on that Scale, and a Level when the Scale supplies that named category or tier.
+**M‑CSLC‑1.** One measurement specification binds exactly one Characteristic to exactly one Scale. A reading names its Coordinate or value on that Scale, and a Level when the Scale supplies that named category or tier.
+
+**Specification identity and resolution.** Identify the specification by its operative content: the selected Characteristic and Scale, applicable unit convention, method/model requirements, applicability, calibration and uncertainty rules, and time interpretation. A description expresses that content; its filename or template label does not identify it. A changed requirement produces a changed specification. An application can instead bind a new specimen, instrument, calibration instance or observation window under an unchanged specification when its rules permit that variation. Retain those actual bindings in the measurement account. A `DHCMethodRef`, when used as a measurement-definition reference, resolves to this exact specification and any requested description edition, rather than to the enacted Method or dated Work.
+
+Start writing before every choice is settled: identify the wanted distinction, possible Scales, alternative models and the observations that would discriminate them. Revise that account as the model is tested in :5.3.1. A draft with an unresolved choice remains useful inquiry material; a consumer that depends on that choice needs it before using the draft as a completed specification.
 
 **M‑CSLC‑2.** When units apply, name the quantity kind and presentation Unit. Conversions are admissible only when they preserve the quantity kind and the Scale supports the operation. Nominal and ordinal labels do not acquire interval or ratio arithmetic by being encoded as numbers.
 
@@ -58294,13 +58336,31 @@ When an observed discrepancy matters, compare its plausible sources in the subje
 
 **M‑RES‑1.** `MeasurementResult` is the value or set of values attributed to the measurand together with relevant information needed to interpret them. At minimum, recover the measurand, Characteristic, Scale, attributed value or values, Unit when relevant, uncertainty, method, model, calibration basis, time stance, and exact measurement work.
 
-**M‑RES‑2.** `MeasurementResultEpisteme` is one exact C.2.1 episteme. Its ClaimGraph states the C.16 result, subject, interpretation basis, polarity or domain status when current, and uncertainty. `U.Measure` may designate this retained reading claim. The episteme is not the measurand, actual subject state, raw output, indication, diagnosis, or criterion verdict.
+**M‑RES‑2.** `MeasurementResultEpisteme` is one exact C.2.1 episteme. Its ClaimGraph states the C.16 result, subject, interpretation basis, polarity or domain status when current, and uncertainty. The episteme is not the measurand, actual subject state, raw output, indication, diagnosis, or criterion verdict.
 
 **M‑RES‑3.** When exact work and governed actual changes first establish the episteme's identity and that inception matters, A.15.PROD supplies the local entity-identity inception claim. C.16 does not introduce a work-to-result relation.
 
+##### C.16:5.5.1 - Reading content and the range required by a receiver
+
+A Coordinate supplies a value on a Scale. To use it as a reading, recover what receives that value, which Characteristic is attributed, and under which interpretation and conditions. Write the attribution with its basis: observation, measurement model, prediction, content evaluation, normalization, scoring or another stated derivation. These bases support different conclusions. A conditional calculation may already answer the question; a claim that measurement occurred additionally needs :5.3–:5.5. A receiving comparison or transformation also supplies its own admission and operation rules.
+
+An ordinary sentence or existing table can express this content. Obtain the missing subject, Scale or interpretation by comparing the available records and their premises. Keep unresolved alternatives visible while doing so. A new form or finished result episteme is unnecessary merely to develop the account. When a claim-bearing episteme is needed, identify it through C.2.1 and distinguish its content from its EntityOfConcern, effective scheme, expression and external evidence.
+
+**The recurring typed range.** `ReadingContent` is a C.3 kind individual over the `NonemptyClaimContent` entities identified in C.2.1:4.1.1–:4.1.2. Its KindSignature uses that candidate domain and the following membership criterion under the FPF interpretation supplied by A.17, A.18 and this section: the content makes one identifiable principal attribution of a value, admissible value set or distribution on one declared Scale to one Characteristic of an identified subject, ordered subject tuple or specified modeled case. It includes the qualifications that determine that attribution's meaning, including the time/population interpretation, conditional premises and uncertainty interpretation when used. A supporting equation or referenced input can concern other Characteristics; a bundle of independent principal attributions is a profile of readings.
+
+This content-fixed criterion needs no extension enumeration. For a judgment, pin the candidate, this declaration edition and a C.3.2 slice with explicit versions and temporal selector. It applies where the candidate retains the interpretation of C.2.1, A.17 and A.18 used here; an unestablished interpretation alignment cannot support that classification. The criterion is not a measurement-validity test. A false or insufficiently supported attribution can be a member. A bare Coordinate, a graph encoding and a document carrier are outside the candidate content-entity domain and give C.3.2 not-applicable, not false. An interpreted claim that a measurement is required, without any value attribution, is a non-member. Missing knowledge needed to recover the attribution leaves membership unknown. A missing reading is an input status; it supplies no zero, category or fictitious Coordinate. An explicitly stated set of possible Scale values can be a reading when its interpretation is given, even if it leaves the receiving question unresolved.
+
+**Identity and replacement.** Apply C.2.1's content-identity rule to the whole selected attribution and its asserted qualifications. A change of subject, Scale meaning, attributed values, conditional premises or an asserted basis changes that content. A new encoding or wording can preserve it through an established interpretation correspondence. New external evidence for the unchanged claim need not change its content; adding or changing an assertion about that evidence does. The `ReadingContent` kind itself continues while its candidate domain and membership distinction remain the same; changing one reading does not change the kind.
+
+For a proposed replacement, first resolve its content and check membership. Then check the receiver's actual subject, basis position, Scale, scope/window, input domain and evidence conditions. Two members need not be equal or interchangeable. A unit conversion can provide a usable replacement on another Scale through its declared map; it does not make the two Scale-specific Coordinates identical. Preserve the original reading and the conversion or derivation used. An unresolved required condition blocks that dependent use, while a satisfied input test still does not perform the transformation or establish its result.
+
+**Profiles and calculation.** A profile keeps each component's reading content and the position or contributor by which the receiver uses it. Equal numeric values do not merge different subjects, basis positions or contributions. When the operation depends on multiplicity or order, retain it in that existing profile/grouping basis; do not reduce the operands to a bare set of numbers or content values. A copied assertion about one contributor supplies no additional physical contribution. Distinct observation occurrences or repeated uses count separately only when the declared aggregate meaning requires them. Repeating a calculation can return equal content while remaining another application under A.6.1; neither a new application nor a new result-episteme identifier creates another contributing subject. A reference to a reading resolves to the selected content, with its interpretation and any required source edition. A reference to its result episteme instead resolves that episteme; extracting its relevant content is a separate, explicit use.
+
+USCM reads the admitted Coordinates and conditions from `ReadingContent` and returns content attributing its declared Score. ULSAM does the same for a lawful aggregate, retaining the grouping basis; CPM consumes the interpreted profiles to return its own comparison result. UNM transforms a Scale-specific Coordinate; retaining its result as a reading also retains the subject, target Scale and transformation basis. UINDM chooses positions and supplies no missing reading. These are direct uses of shared rules. The bounded content range does not admit a universal measure kind or require another measurement ontic.
+
 #### C.16:5.6 - Keep comparability and scoring bounded
 
-**M‑CMP‑1.** Direct comparability is conservative: two readings cite the same `U.DHCMethodRef`, Characteristic, Scale and Unit semantics, compatible model and calibration regime, and a compatible time or population basis. Similar labels or units are insufficient.
+**M‑CMP‑1.** Direct comparability is conservative: two readings cite the same resolved measurement specification, Characteristic, Scale and unit semantics, compatible model and calibration regime, and a compatible time or population basis. Similar labels or units are insufficient.
 
 **M‑CMP‑2.** Cross-template conversion, normalization, scoring, aggregation, comparison, selection, or cross-context transport names its method, declaration, and loss or uncertainty consequence under the pattern for that operation. Name an F.9 Bridge when cross-context semantic correspondence is required. C.16 does not mint a common scale or corpus-wide migration relation.
 
@@ -58308,7 +58368,7 @@ When an observed discrepancy matters, compare its plausible sources in the subje
 
 #### C.16:5.7 - Route provenance and later use outward
 
-`U.EvidenceStub` may carry a type-of-ground and identifier that lead to the exact A.10/G.6 provenance path. The path can cite the method description, model, calibration, work, inputs, output, result episteme, source publications, and transformations. Neither the stub nor a graph edge establishes those objects or their obtaining relations.
+An evidence stub may carry a type-of-ground and identifier that lead to the exact A.10/G.6 provenance path. The path can cite the method description, model, calibration, work, inputs, output, result episteme, source publications, and transformations. Neither the stub nor a graph edge establishes those objects or their obtaining relations.
 
 A later comparison, diagnosis, criterion evaluation, acceptance action, or decision is a separately governed use of the measurement result. Recover its actual operation and any result under the direct pattern. Ground dated `U.Work` when the account asserts it or the receiving use requires it. The use relies on the result episteme through an exact premise, reference, operation-argument, decision-use, or other direct relation. Currentness belongs to G.11; bounded reliance to A.10 or B.3 under their entry conditions.
 
@@ -58341,7 +58401,7 @@ G‑5 (Target polarity). If polarity is targeted, comparisons use distance‑fro
 
 #### C.16:7.1 - What an EvidenceStub is and is not
 
-`U.EvidenceStub` is an optional compact locator from the reading claim to an exact provenance path. It may identify a source publication, calibration record, instrument output, model edition, work occurrence, transformation, or other ground, but A.10/G.6 govern the path and its citations.
+An evidence stub is an optional compact locator from the reading claim to an exact provenance path. It may identify a source publication, calibration record, instrument output, model edition, work occurrence, transformation, or other ground, but A.10/G.6 govern the path and its citations.
 
 - The stub is not evidence in the abstract, a result, an instrument output, a work record, an assurance claim, or a provenance-as-result object.
 - Several stubs form a list of locators, not a measurement algebra. Their union is not uncertainty propagation and does not guarantee stronger warrant.
@@ -58391,6 +58451,14 @@ With a=0.9 and b=0.1, the relation is q=0.1+0.8p. An observed positive fraction 
 
 Now allow hints during the assessment. The earlier a and b may no longer describe the procedure. With the changed rates unknown, the positive fraction alone no longer determines p. If the independent-performance claim is still needed, return to that performance condition or obtain a calibration applicable to the changed procedure. The model explains which inference is available; it uses the subject's account of the capability and its assessment.
 
+### C.16:12 - Carry a reading into a calculation and revise its basis
+
+A retained account attributes temperature `20 °C ± 1 °C` to Pump P over window W under a named specification and model; the interval is a bound for this example. Its content is a `ReadingContent` member. Relying on it as a measurement result still needs the performed-measurement and uncertainty grounds above. The Coordinate 20 on the Celsius Scale, the interval, the reading content and an episteme stating that content answer different questions.
+
+A declared scoring rule reads that Celsius position and assigns `g(c)=c/40` on `[0,40]`, with higher temperature preferred in this illustrative use. With the required admission grounds, it returns score content for P at W: `0.5`, bounded by `[0.475,0.525]` under this interval-propagation rule. That content can pass to a comparator accepting this score Scale and bound. The scoring calculation supplies no second temperature measurement. If an upstream UNM instead supplies `293.15 K`, the number cannot fill the Celsius argument. Apply the declared inverse conversion, or select a kelvin-input scoring rule whose correspondence is established.
+
+Now comparison of the written model and calibration record reveals that the measurement needs a `+2 °C` correction not included before. The corrected account attributes `[21,23] °C`, and this same scoring rule gives `[0.525,0.575]`. Recover whether the specification already permitted this calibrated correction or must itself change. Preserve the earlier assertion and its basis, then reconsider the scores and comparisons that relied on it. A new window W2 instead needs a new attribution for W2; it can leave the Characteristic, Scale, specification and scoring rule unchanged. These returns follow from the general identity and replacement rules, not from the displayed numbers alone.
+
 ### C.16:9 - Bias-Annotation
 
 | Bias | Symptom | Correction |
@@ -58418,10 +58486,10 @@ For a proposed model, apply the subject, scale, model and applicable calibration
 
 ### C.16:11 - Common Anti-Patterns and How to Avoid Them
 
-- **Template as occurrence.** A reusable `U.DHCMethod`, model, signature, or calibration procedure is treated as proof that work occurred. Ground dated work and actual bindings.
+- **Template as occurrence.** A reusable measurement specification, model, signature, or calibration procedure is treated as proof that work occurred. Ground dated work and actual bindings.
 - **Generic result field.** A record has `result=...` without saying whether it is output, indication, measurement result, diagnosis, verdict, or decision. Name the direct result kind and governor.
 - **Evidence algebra.** Evidence locators are unioned as though idempotence or count determined uncertainty or warrant. Use measurement-model uncertainty propagation and exact A.10/B.3 reliance separately.
-- **Scale drift.** A template id survives changed Scale, model, unit, or calibration semantics. Publish a successor and state the relation; do not mutate historical readings.
+- **Scale drift.** A template id is reused as though changed Scale, model, unit, or calibration requirements preserved the same specification. Publish a successor and state the relation; do not mutate historical readings.
 - **Arithmetic on ordinal.** Encoded levels are averaged or ratio-compared. Stay with order-preserving operations or introduce a separately governed scoring method and Scale.
 - **Multi-Characteristic stuffing.** One reading carries a vector while pretending to be one measurement. Create separate results and declare any later aggregation.
 - **Result-to-verdict shortcut.** A value inside a tolerance is called accepted without performed criterion evaluation. Ground the separate evaluation work, exact clause application, verdict episteme, and later decision.
@@ -58449,6 +58517,8 @@ These sources contribute different parts of measurement interpretation. Their qu
 | [ISO 80000-1:2022, *Quantities and units — Part 1: General*](https://www.iso.org/standard/76921.html) and [ISO/IEC 25024:2015, *Measurement of data quality*](https://www.iso.org/standard/35749.html) | Quantity, unit and data-quality-measure definitions can supply the terms used by a measurement. | A standard label alone establishes neither Scale-compatible arithmetic nor comparability, acceptance or a C.16 result. |
 | [QUDT Schema 3.4.0, June 2026 catalogue](https://www.qudt.org/catalog/qudt-catalog.html) | Citable identifiers distinguish quantity kinds, units, dimensions and datatypes. Source-local citation needs no additional semantic mapping; a different intended local sense does. | A shared URI does not establish the same measurand, Scale, model, calibration regime or direct comparability. |
 | [W3C/OGC SOSA/SSN Recommendation, 19 October 2017](https://www.w3.org/TR/vocab-ssn/), and [2023 Edition First Public Working Draft, 16 September 2025](https://www.w3.org/TR/vocab-ssn-2023/) | Observation and procedure accounts can supply relevant subject, property and measurement information. Interpret each claim under its cited edition; a draft proposal carries its stated draft status. | An observation graph does not by itself establish FPF Work identity, actual bindings, a measurement result, its episteme or a later use. A correspondence claim needs its own basis. |
+
+**Value and result distinctions.** [VIM3 entry 1.1](https://jcgm.bipm.org/vim/en/1.1.html), [entry 1.9](https://jcgm.bipm.org/vim/en/1.9.html) and [entry 1.27](https://jcgm.bipm.org/vim/en/1.27.html) distinguish a quantity, its adopted unit reference and a quantity-value scale; [entry 2.9](https://jcgm.bipm.org/vim/en/2.9.html) includes attributed values and the information needed to interpret a measurement result. These distinctions support the separation used here. FPF also uses nominal Scales and non-measurement evaluations; VIM terminology does not classify all such readings or admit an FPF kind. `ReadingContent` is the bounded FPF interface construction in :5.5.1.
 
 **Constructing and revising the model.** GUM-6:2020, §§7, 9-10 and 12, supplies the distinction between the measurement principle, effects of implementation and adequacy for use. Section :5.3.1 turns that distinction into a construction and an ambiguity test. The circuit and assessment cases work this instruction using their stated subject models.
 
@@ -61878,9 +61948,9 @@ Each whole-forming statement stays at the lightest truthful disposition supplied
 
 The assembly rule names the exact current part relations, contribution meanings, whole-forming claims, permitted alternatives, incompatibilities, boundary conditions, failure conditions, and substitution conditions. A C.13 `Gamma_m.sum` construction trace may report those facts when a named use needs an inspectable account. The trace is a C.2.1 episteme and creates none of the parts, relations, assembly, identity, or characteristic.
 
-The historical signature was `Γ_disc : ⟨EpistemeCanon, StandardsSet, OrgCarriers, {Bridges}, Policy⟩ → U.Discipline`. Read it only as a map into the direct construction account. Its useful intent was to assemble a reviewable field-level whole account, preserve provenance, support separately governed publication of that account, and enable admissible comparison; none of those receiving functions creates the whole.
+A construction account lets the reader review the field as a whole, trace the provenance of its claims, and use it in separately governed publication and admissible comparison. A Discipline Card or another readable form can present this account. Its completeness depends on the parts, obtaining relations, assembly and identity grounds above.
 
-Every former argument remains available but loses automatic constructor and identity force: `EpistemeCanon` routes to exact canon epistemes and their claims; `StandardsSet` to exact standard epistemes, Methods, and practice claims; `OrgCarriers` to independently identified systems, system-role kinds and assignments, and Work; `{Bridges}` to exact F.9 occurrences and bounded-use propositions; and `Policy` to exact comparison, evidence, assurance, and acceptance declarations under their subject patterns. Section 4.6 gives the complete intake prompts for those families. Historical `Gamma_disc` expressions are therefore only incomplete shorthand for a C.13 construction account. A five-field argument list, Discipline Card, or filled schema does not complete the account and does not have constructor force.
+Identify canon contributions as exact epistemes and claims, and distinguish standard epistemes, Methods and practice claims. Identify the organizations supporting the discipline as systems, and recover their relevant system-role kinds, assignments and Work separately. Identify semantic crossings through exact F.9 occurrences and separate bounded-use propositions, and comparison, evidence, assurance and acceptance policies through their declarations. Section 4.6 supplies intake prompts and subject patterns for these objects. Their place in a card or argument list establishes neither discipline parthood nor identity.
 
 #### C.20:4.4 - Identity, continuity, and change
 
@@ -61911,7 +61981,7 @@ C.21 is the pattern for discipline-health characteristics such as reproducibilit
 
 Keep the three boundaries explicit. A **domain** is a subject-area or catalogue designation. A **semantic locality** is the bounded use of exact local meanings under its effective ReferenceScheme, ClaimScope, and direct F.17 pattern; it is not another holon or a discipline constituent by locality alone. A **discipline** is the exact field-level practice-and-knowledge whole recognized by the C.20 construction test. The same or similar word across domains or semantic localities establishes none of shared meaning, one discipline, parthood, or identity. When a use relies on a semantic crossing, state the two exact local senses and cite an F.9 Bridge only if its predicate obtains; field or locality difference alone creates no Bridge. Then test each discipline candidate independently; even an obtaining high-congruence Bridge does not merge its endpoints.
 
-The historical five-position card remains a useful intake palette only if every member keeps its subject pattern and receives no automatic part or identity status. Its complete prompts were:
+Use these intake prompts to recover candidate contributions and surrounding dependencies, keeping each item under its subject pattern:
 
 - **canon candidates:** theories, models, reference works, definitions, proof traditions, benchmark descriptions, and other epistemes treated as canonical;
 - **practice and standard candidates:** accepted Methods, norms, standard procedures, measurement conventions, and admissible comparison rules;
@@ -61965,7 +62035,11 @@ For ordinary evidence reliance, use the exact A.10 evidence-provenance relation 
 
 **Crossing visibility and presentation checks.** Keep an exact Bridge and separate bounded-use proposition discoverable in an account that relies on that obtaining semantic relation. For a ReferencePlane-only crossing, keep the applicable plane relation and policy discoverable instead; if both facts are current, keep both under their own predicates. Materialize an E.18 `CrossingBundle` only when an independently current E.18 structural `GateCrossing` exists and a named downstream use relies on durable evidence for that structural crossing; if it also relies on cross-semantic correspondence, add E.18's separate F.9 block. E.17 governs publication packaging and A.21 governs any actual GateCheck or GateDecision. For lane purity, inspect the current B.3 result by value: every characteristic keeps its bearer and scale, and any aggregation cites its domain model and assumptions; there is no universal F-G-R-CL fold. Apply E.10 lexical checks to the published labels, keep normative prose notation-neutral, and treat every discipline column as didactic only.
 
-**Comparison or aggregation.** A.17 identifies every exact Characteristic; A.18 supplies its Scale, Unit and legal operations; C.16 supplies a measurement result only when an actual measurement chain exists. A mean over an ordinal Scale and an aggregation that mixes unconverted or incommensurable Units are inadmissible: stop that operation, establish a lawful transformation or comparison scheme, or retain the separate values rather than manufacturing an aggregate. One actual A.19.CPM comparison application binds the profile pair, comparator, claim scope and selected slices, optional predicate, reference scheme and plane, evaluation point or interval, dated comparison Work, operation application, set-valued result, and evidence policy; CPM does not fold or aggregate. Any numeric or profile aggregation is a separate explicit A.19.ULSAM or applicable B.1 `Γ-fold` operation with its own dated Work and result binding. Before either operation, the applicable G.0 CG-Spec route names the exact Characteristic ids, `ScaleComplianceProfile` with Scale, Unit, polarity and legal-operation conditions, `MinimalEvidence`, and either the admitted `ComparatorSet` member for comparison or the declared `Γ-fold` and contributors for aggregation. This pre-operation admissibility check fails closed on missing or unknown declarations or evidence and creates neither equality, an aggregate, nor a winner. An operation that relies on an obtaining F.9 Bridge between two exact F.17 `SchemeSenseCell` values uses the separate Bridge, bounded-use-claim, and reliance branch above; a crossing of exact ReferencePlanes instead cites the applicable plane relation and policy. If both facts are current, state both under their own predicates. A scheme, cell, or plane difference alone creates neither relation. Neither branch supplies the comparison or aggregation scope, predicate, comparator, plane, time, result, or selection.
+**Comparison or aggregation.** A.17 identifies every exact Characteristic; A.18 supplies its Scale, Unit and legal operations; C.16 supplies a measurement result only when an actual measurement chain exists. A mean over an ordinal Scale and an aggregation that mixes unconverted or incommensurable Units are inadmissible: stop that operation, establish a lawful transformation or comparison scheme, or retain the separate values rather than manufacturing an aggregate. One actual A.19.CPM comparison application uses the bound profile pair, comparator, claim scope and selected slices, optional predicate, reference scheme and plane, evaluation point or interval, and evidence policy, and binds its returned set-valued result; CPM does not fold or aggregate. Any numeric or profile aggregation is a separate explicit A.19.ULSAM or applicable B.1 `Γ-fold` operation with its own result binding and recoverable inputs, fold and contributors.
+
+Ordinary comparison or folding mathematics needs no asserted dated `U.Work`. When the account asserts dated comparison or aggregation Work, or the receiving use consumes it, recover its A.13 core and independent A.15.1 admission; use F.6 only for precise assignment-bound attribution. A calculation application and its qualification window do not by themselves establish a dated Work occurrence.
+
+Before either operation, the applicable G.0 CG-Spec route names the exact Characteristic ids, `ScaleComplianceProfile` with Scale, Unit, polarity and legal-operation conditions, `MinimalEvidence`, and either the admitted `ComparatorSet` member for comparison or the declared `Γ-fold` and contributors for aggregation. This pre-operation admissibility check fails closed on missing or unknown declarations or evidence and creates neither equality, an aggregate, nor a winner. An operation that relies on an obtaining F.9 Bridge between two exact F.17 `SchemeSenseCell` values uses the separate Bridge, bounded-use-claim, and reliance branch above; a crossing of exact ReferencePlanes instead cites the applicable plane relation and policy. If both facts are current, state both under their own predicates. A scheme, cell, or plane difference alone creates neither relation. Neither branch supplies the comparison or aggregation scope, predicate, comparator, plane, time, result, or selection.
 
 **Evidence, currentness, and assurance.** Use A.10 for source use and the evidence-provenance path, and G.11 for selected-edition currentness. When an imported source claim supports a construction, classification, comparison, publication, or assurance use, keep the exact source and edition plus only the lane tags, freshness window, or validity conditions that the receiving use consumes. Claims that need no such reliance acquire none of this apparatus merely because they concern a discipline. Open B.3 only for an actual named assurance claim. Its `AssuranceResult` identifies the target claim, assurance use, basis, disposition, limits, and reopen condition. If the argument consumes a characteristic or calculation, name its bearer, property, scale, unit, interpretation, basis, dependency model, assumptions, rule, and rival as applicable. C.20 supplies no default F/G/R/CL lanes, weakest-link fold, `SpanUnion`, congruence penalty, plane penalty, or assurance arithmetic. A Bridge-related penalty is current only when an actual named B.3 assurance claim uses an applicable declared domain model whose current facts and rule yield it; that value belongs only to the calculated `AssuranceResult` for that named use. State `ReferencePlane` only when it changes an exact input or interpretation; when an exact plane crossing is current, cite the applicable plane relation and policy. The selected plane and its relation identify neither a discipline part nor a part relation. Insufficient or unknown support narrows, abstains, requests evidence, reopens, or blocks the attempted assurance use under B.3; it does not make a part relation or whole obtain or cease.
 
@@ -61984,7 +62058,7 @@ The examples distinguish the field candidate from a system, episteme and the rel
 | **Exact object** | One production line with hazardous operations is an exact `U.System` under A.1; its work and state remain separate. | One exact canon or discipline-description `U.Episteme` states accident-model and tolerable-risk claims about its declared EntityOfConcern under its effective ReferenceScheme. The `SafetyEngineering-SE` field candidate remains another entity. | Neither the system nor one episteme is the discipline; identify the field candidate and test its construction independently. |
 | **Concept contribution** | Acceptance clauses and evaluation templates bound to exact rigs and windows are epistemes used by the plant system and its Work, not concepts owned by the system. | Canon content can include causality models, design rules, proofs, benchmarks, formal knowledge bases, proof carriers, and concept schemas under their direct episteme, form, or representation patterns. | Ask which exact claim-bearing contribution is constitutive and which whole-forming claim states how it connects to the assembly; conceptual relevance alone creates no part. |
 | **Symbolic representation** | Local SOP and checklist notation can express plant procedures for one bounded use. | CLIF, RDF/TriG, proof scripts, diagrams, and other notation packages can express or represent canon content. | E.17/E.24.PUB and C.29 govern form, carrier, publication, and representation; symbolic appearance identifies none of System, Episteme, or Discipline. |
-| **Assembly contrast** | A line-specific standard, plant procedures, and a certifying unit are exact epistemes, Methods, systems, system-role kinds or assignments, or Work inputs around a possible `Safety-Plant-A` field candidate. | Canon papers, formal models, a journal or committee, and system-safety or resilience-engineering tradition claims are likewise separately governed around `SafetyEngineering-SE`. | A list or historical `Gamma_disc` fold constructs neither candidate. For either scene, recover exact parts, obtaining `disciplinePartOf` occurrences, whole-forming couplings, assembly, reidentification, whole characteristic, and larger-assembly compatibility. |
+| **Assembly contrast** | A line-specific standard, plant procedures, and a certifying unit are exact epistemes, Methods, systems, system-role kinds or assignments, or Work inputs around a possible `Safety-Plant-A` field candidate. | Canon papers, formal models, a journal or committee, and system-safety or resilience-engineering tradition claims are likewise separately governed around `SafetyEngineering-SE`. | A list or formula alone establishes neither candidate's construction. For either scene, recover exact parts, obtaining `disciplinePartOf` occurrences, whole-forming couplings, assembly, reidentification, whole characteristic, and larger-assembly compatibility. |
 | **Evidence-lane contrast** | LA test campaigns with freshness windows, VA design proofs, and TA tool qualifications can support exact plant-side claims. | VA proofs over kinds, LA replications or meta-analyses, and TA evidence for checkers can support exact canon or construction claims. | A.10 keeps the exact source, currentness, and reliance needed by the use. When an actual named assurance claim is current, B.3 adds only the characteristics and result fields that its argument consumes. Evidence changes no System, Episteme, or Discipline identity and creates no part relation. |
 
 #### C.20:5.1 - Safety engineering as a positive construction
@@ -62067,7 +62141,7 @@ These questions expose different ways a field account can acquire unsupported me
 | `CC-C20-12` | A field, scheme, cell, or plane difference alone creates no F.9 Bridge. A use that relies on an obtaining Bridge separates it from its bounded-use proposition, direction, rule, tolerance, polarity, A.10 reliance or actual named B.3 assurance branch, observed loss when relevant, and actual comparison; a ReferencePlane-only crossing instead cites the applicable plane relation and policy. |
 | `CC-C20-13` | Comparison declares characteristic, scale, unit, polarity, comparator, scope, window, and admissible operation under C.16/A.19.CPM; C.20 performs no comparison and defines no reliability fold. |
 | `CC-C20-14` | A health value, state label, evidence profile, registry row, description edition, publication occurrence, form, or carrier changes no discipline construction fact by itself. |
-| `CC-C20-15` | Any C.13 trace names the already grounded candidate, exact parts, direct occurrences, assembly, identity rule, and whole characteristic; `Gamma_m.sum` or historical `Gamma_disc` syntax creates none of them. |
+| `CC-C20-15` | Any C.13 trace names the already grounded candidate, exact parts, direct occurrences, assembly, identity rule, and whole characteristic; `Gamma_m.sum` syntax creates none of them. |
 | `CC-C20-16` | Core prose and labels follow E.10 and remain notation- and tool-neutral; a didactic discipline column carries no hidden semantics. |
 
 ### C.20:7.1 - Common Anti-Patterns and How to Avoid Them
@@ -62123,7 +62197,7 @@ This separation keeps every discipline-related claim local to an exact EntityOfC
 
 **Conditional branches.** F.9 for exact Bridges; A.10 for ordinary evidence-bearing reliance and B.3 only for an actual named assurance claim; C.21 for discipline health; A.19.CPM for comparison and G.0 for its CG-Spec admissibility declaration; G.4 for acceptance thresholds; E.24.PUB for publication; G.5 for selector use of independently grounded discipline or method claims.
 
-**G.2 source-pack boundary.** When one current G.2 harvest or synthesis informs a discipline account, preserve the anti-monoculture intent by keeping plausible rival lineages and the semantic localities relevant to that named synthesis visible, with an explicit coverage or omission rationale and explicit crossings where needed. C.20 sets no minimum number of Traditions, local frames, cards, contexts, or matrix rows; G.2 alone governs conformance of its pack. A plural or conforming pack, `TraditionPalette`, `BridgeMatrix`, or historical `Gamma_disc` expression still constructs no discipline and supplies no part relation.
+**G.2 source-pack boundary.** When one current G.2 harvest or synthesis informs a discipline account, preserve the anti-monoculture intent by keeping plausible rival lineages and the semantic localities relevant to that named synthesis visible, with an explicit coverage or omission rationale and explicit crossings where needed. C.20 sets no minimum number of Traditions, local frames, cards, contexts, or matrix rows; G.2 alone governs conformance of its pack. A plural or conforming pack, `TraditionPalette`, or `BridgeMatrix` supplies neither a discipline construction nor a part relation.
 
 **Constrains.** A C.13 discipline trace consumes C.20 facts and creates none. C.21 evaluates an already identified discipline. G.5 may consume an independently identified Method together with exact discipline-relevant construction or classification, Characteristic, and evidence or assurance claims only through its own declared predicate. An ungrounded discipline name supplies none of field belonging, comparison value, evidence strength, selection, or truth. A registry or family row, selector request, policy, result or shortlist, CG-Spec reference, and EvidenceGraph row can make an actual G.5 use auditable; none lets G.5 infer Method membership, discipline parthood, actual selector application or selection, or claim truth. A selected structure, Bridge, comparison, publication, evidence graph, health reading, or label never supplies a missing C.20 part occurrence.
 
@@ -95032,7 +95106,7 @@ These names are local record and claim shapes, not new U-kinds. `DeclaredVisible
 
 The characteristic table and this specification describe how to evaluate; the semantic Method, evaluator action, dated Work, A.6.1 application, and result keep their own identities. A practitioner may make an ordinary package-adequacy judgement without classifying it as `U.Work` or asserting an A.6.1 application. Such an application exists here only when one exact operation declared by a separately admitted Mechanism is actually used and the receiving claim depends on its bindings; Work admission neither creates nor requires it. If the account instead claims dated assessment Work, recover the exact actual evaluator System through A.13 and cite one independently valid A.15.1 Work account. Only when the result expressly represents precise assignment-bound attribution does it also cite the same obtaining A.13 assignment and applicable F.6 relation occurrences. F.6 identifies neither assignment nor performer, and missing or failed F.6 leaves the Work intact. The evaluator System acts. A local evaluator system-role classification is an optional neighboring claim. The local account exposes assignment or F.6 references only for that attribution branch. Constitute the coordinate claims and aggregate result under §4.3, and establish each later receiving use through its own relation under §4.5.
 
-Each coordinate value is an ordinal content-evaluation quality ascription about the same exact framework episteme edition under the declared ReferenceScheme, ClaimScope, use, and qualification window. It is not a `U.Measure`, measurement output, average, vote, maturity stage, or status use. The aggregate result episteme has its own C.2.1 identity; empirical grounding, witness presence, evidence use, publication, and evaluator identity remain neighboring relations or objects rather than identity slots.
+Each coordinate value is an ordinal content-evaluation quality ascription about the same exact framework episteme edition under the declared ReferenceScheme, ClaimScope, use, and qualification window. It is not a C.16 measurement result, measurement output, average, vote, maturity stage, or status use. The aggregate result episteme has its own C.2.1 identity; empirical grounding, witness presence, evidence use, publication, and evaluator identity remain neighboring relations or objects rather than identity slots.
 
 #### E.4.DPF.DA:4.1 - Ordinal scale
 
@@ -95082,7 +95156,7 @@ The aggregate E.4.DPF.DA result episteme carries twelve coordinate-result claims
 
 For values `1..4`, explain why the lower adjacent value would understate the evidence and the higher adjacent value would overstate it. For `0`, explain why `1` would overstate the evidence and what would raise the value or reopen it. For `5`, explain why `4` would understate the evidence and what would lower the value or reopen it.
 
-Each row is one ordinal content-evaluation quality ascription about the same exact framework episteme edition and keeps recoverable the effective ReferenceScheme, characteristic, scale value, evaluation rule or probe, ClaimScope/use/window, assessment account and any asserted Mechanism-operation application, short rationale, evidence locus, and repair or no-proposal. A prose verdict, checklist-count result, table without evidence loci, average of `E.21` pattern values, favorable status label, or table detached from an aggregate C.2.1 result episteme is only assessment material. None is a `U.Measure`, measurement output, performed assessment, admission, or authority.
+Each row is one ordinal content-evaluation quality ascription about the same exact framework episteme edition and keeps recoverable the effective ReferenceScheme, characteristic, scale value, evaluation rule or probe, ClaimScope/use/window, assessment account and any asserted Mechanism-operation application, short rationale, evidence locus, and repair or no-proposal. A prose verdict, checklist-count result, table without evidence loci, average of `E.21` pattern values, favorable status label, or table detached from an aggregate C.2.1 result episteme is only assessment material. None is a C.16 measurement result, measurement output, performed assessment, admission, or authority.
 
 #### E.4.DPF.DA:4.3a - DPF-wide package-form checks
 
@@ -113531,7 +113605,7 @@ An unfinished table, prose summary, or record with missing coordinate claims rem
 | 4 | `wellExpressedForDeclaredUse` | It is clear, evidenced, and bounded for the declared scope. |
 | 5 | `exceptionallyExpressedForDeclaredUse` | It is exceptional for the declared use across reinforcing loci and cases, without hidden cost or neighbour loss. |
 
-Values are ordinal content evaluations. They are not `U.Measure`s, averages, percentages, maturity-ladder steps, review votes, or landing status.
+Values are ordinal content evaluations. They are not C.16 measurement results, averages, percentages, maturity-ladder steps, review votes, or landing status.
 
 The result-bearing coordinate row has exactly this shape:
 
@@ -116893,12 +116967,14 @@ The shared decision can also encounter public kind names that do not yet have a 
 | --- | --- | --- |
 | `E24UK-OPEN-UREFERENCESCHEME-01` | `U.ReferenceScheme` prerequisite unsettled | C.2.1 governs precise use and comparison of effective interpretation rules; its :4.1.2 `EpistemeInterpretationScheme` declaration supplies the bounded C.3 range used by the named relation and mechanism interfaces. F.18 uses the concrete `FPFCoreReferenceScheme`. A general public classification still needs a demonstrated receiving need, a defined candidate range with identity and membership criteria, member/non-member and non-use boundaries, and an accepted admission result. A document describing rules is not automatically an instance of that proposed kind. |
 | `E24UK-OPEN-UCLAIMGRAPH-01` | `U.ClaimGraph` prerequisite unsettled | C.2.1 governs exact semantic content and distinguishes it from its graph expression and an episteme about it; its :4.1.2 `NonemptyClaimContent` declaration supplies the bounded C.3 range used by the R7/R8 predicates. General public typed reuse still needs a demonstrated classification need, a defined candidate range with identity and membership criteria, member/non-member and non-use boundaries, and a direct kind settlement with an accepted admission result. An endpoint episteme class supplies none of those constituent-kind grounds. |
+| `E24UK-OPEN-UMEASURE-01` | `U.Measure` public-kind admission unsettled | C.16:5.5.1 supplies the positive C.3 `ReadingContent` range for USCM, ULSAM and CPM, distinguishing interpreted attribution, Coordinate, result episteme and actual measurement grounds. These uses need that range, not an additional universal kind. Any broader public-kind proposal still needs its own candidate domain, membership, identity, non-duplication grounds and accepted admission result. |
+| `E24UK-OPEN-UCHARACTERISTICSPACE-01` | `U.CharacteristicSpace` public-kind admission unsettled | A.19:5.1.1.1 supplies independently identified spaces and the positive C.3 `DeclaredCharacteristicSpace` range for UNM/UINDM and receivers requiring that same criterion. Direct construction and this typed range remain usable. A public spelling or description edition supplies no further kind admission; a different receiving classification requires its own criterion and grounds. |
 | `E24UK-NAR-U-CAPABILITY-01` | `U.Capability`; `reject` | A.2.2 planning, promise, fit and development uses require a holder System and qualified ability claims, not another individual or classificatory distinction. Use `U.System` and C.2.1 epistemes when an assertion needs an identified account. |
 | `E24UK-NAR-LSMT-01` | `U.LanguageStateMoveTrajectory`; `reject` | A.16.0 needs an ordinary C.2.1 history account and an E.24.PUB expression/publication form. The recovered branch, loss, lineage and responsibility uses require no additional individual or durable classification. |
 | `E24UK-NAR-AIPR-01` | `U.ActionInvitationPrecisionRestoration`; `reject` | A.6.A governs a precision-restoration move; the title admits no further kind, and any exact relation claim still needs its direct obtaining predicate and identity rule |
 | `E24UK-NAR-EPUB-01` | `U.EpistemePublication`; `reject` | for the availability-only use in section 5.0, C.2.1 identity and the exact E.24.PUB participation claim suffice; no additional classification is needed. A receiving classification use is assessed separately under C.3.2 and the admission tree. |
 
-E.24 may coordinate exact constitution and dependent relation rules in `EpistemeOntic` while these two admissions remain open. Its positive basis is the shared identity and the named cross-pattern dependencies, subject to E.24's participant-identification and predicate tests. That coordination admits neither proposed constituent kind and does not complete a typed interface whose required range is missing.
+E.24 may coordinate exact constitution and dependent relation rules in `EpistemeOntic` while these two constituent admissions remain open. Its positive basis is the shared identity and the named cross-pattern dependencies, subject to E.24's participant-identification and predicate tests. That coordination admits neither proposed constituent kind and does not complete a typed interface whose required range is missing.
 
 Generic `reuse` and `local-kind` are decision exits, not accepted example results. Close `reuse` only with an exact `ReusedUKindRef` that resolves to this registry; close `local-kind` only with one exact current C.3.2 `LocalKindDeclarationRef`. If either reference is absent, keep the candidate unsettled.
 
@@ -131016,7 +131092,7 @@ G.9 conforms only if it satisfies the **effective** set of `CC‑GCORE‑*` decl
 * **AP‑3 Comparator semantics are “whatever the code did”.** Remedy: `ComparatorSpecRef.edition` (and any normalization/comparability refs) must be cited and pinned.
 * **AP‑4 Cross-sense or reference-plane reuse without its obtaining relation and visible pins.** Remedy: recover the exact F.17 cells and cite the obtaining F.9 relation when local meanings differ; cite the exact reference-plane crossing basis and visibility records when planes differ (delegated to G.Core).
 * **AP‑5 Parity report becomes a hidden scoring sheet.** Remedy: preserve CSLC-admissible outcome shape and keep telemetry as telemetry unless explicitly policy‑promoted by the governing policy pattern.
-* **AP‑6 “Metric” as a primitive in Tech.** Remedy: name the exact `CharacteristicRef`, `ScaleRef`, `UnitRef` when applicable, `DHCMethodRef`, `MethodRef`, and `U.Measure` or result episteme; add `DistanceDefRef` only when used. “Metric” may appear only in Plain with a pointer to those canonical objects.
+* **AP‑6 “Metric” as a primitive in Tech.** Remedy: name the exact `CharacteristicRef`, `ScaleRef`, `UnitRef` when applicable, `DHCMethodRef`, `MethodRef`, and the C.16 reading content or its result episteme; add `DistanceDefRef` only when used. “Metric” may appear only in Plain with a pointer to those canonical objects.
 * **AP‑7 Hidden DHC replay drift.** Remedy: carry every active field of the C.21 replay basis and refuse parity reuse when a required field is unresolved or differs across the compared readings. Register refresh tests only for a named receiver that consumes those changes.
 
 ### G.9:8 — Archetypal grounding
