@@ -311,7 +311,7 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | C.2.5 | **Language-State Closure Degree — How Fixed Is the Current Candidate Space?** | Stable | *Keywords:* closure degree, CD0–CD5, candidate-space closure, route space, frame space, reopen, settledness. *Queries:* "How fixed are the current candidates, routes, or frames?", "What remains open, and what would justify reopening?", "How does closure differ from articulation and warrant?" | **Builds on:** C.2.2a. **Coordinates with:** C.2.LS, A.16. |
 | C.2.6 | **Sources, Evidence and Conditions for Using an Episteme** | Stable | *Keywords:* provenance, evidence use, bodily observation, model derivation, document access, operator interaction, changed use. *Queries:* "What produced this claim and what supports it?", "What must remain available for its intended use?", "Which conclusion or action changes when a source or use condition changes?" | **Builds on:** C.2.1, C.2.P, A.2.4, A.10; A.6.6 and A.6.P for relation recovery. **Coordinates with:** C.2.2a, C.2.LS, C.2.7, A.16, F.9. |
 | C.2.7 | **`LanguageStateRepresentationFactorBundle` — How Is the Representation Organized?** | Stable | *Keywords:* representation factors, locality, sparsity, symbolicity, factor bundle, representation organization. *Queries:* "How does FPF describe representation factors in language-state work?", "What is the representation-factor bundle?" | **Builds on:** C.2.2a. **Coordinates with:** C.2.LS, C.2.6. |
-| C.2.8 | **`U.ExtractableStructuralInformation` — Structure This Reader Can Recover** | Stable | *Keywords:* extractable structure, reader preparation, bounded observer, structural information, epiplexity, description comparison, reading budget. *Queries:* "How much selected structure can this reader recover?", "How does structural amount differ from explicit articulation or reading effort?" | **Builds on:** A.17, A.18, C.2.1, C.16. **Coordinates with:** C.2.4, C.29, C.33, A.6.3.NAR, E.17.EFP; A.2.2 and E.23.CDI when recovered Method structure must be used or acquired. |
+| C.2.8 | **`ExtractableStructuralInformation` — Structure This Reader Can Recover** | Stable | *Keywords:* extractable structure, reader preparation, bounded observer, structural information, epiplexity, description comparison, reading budget. *Queries:* "How much selected structure can this reader recover?", "How does structural amount differ from explicit articulation or reading effort?" | **Builds on:** A.17, A.18, C.2.1, C.16. **Coordinates with:** C.2.4, C.29, C.33, A.6.3.NAR, E.17.EFP; A.2.2 and E.23.CDI when recovered Method structure must be used or acquired. |
 | C.2.P.DR | **Repair Claims Based on Declarative Form Alone (Declarative Representation Precision Restoration)** | Stable | Repairs declarative-shape overread by separating the visible expression or artifact, the exact current direct object or relation, an exact representation/correspondence use or `none`, and the blocked stronger action claim. Applies to graph and evidence paths, queries, dashboards, schemas, formal substrates, method descriptions, publication faces, tables, and pattern relations; uses four plain questions and exact direct owners. Procedure/code/solver/recipe form establishes no `U.MethodDescription`; required or desired change remains claim content, while an actual `U.Transformation` needs its independent A.3.4 basis. | **Builds on:** C.2.P, E.10, E.10.ARCH, F.19, C.29, C.2.1, A.3.1, A.3.2, A.3.4. **Coordinates with:** E.18, E.18.1, A.10, E.17, A.6.1, E.20, A.15.1, A.15.2, C.16, A.19, A.21. |
 | C.3 | **Kinds, Intent and Extent, and Typed Reasoning** | Stable | *Keywords:* admitted U.Kind individual, membership distinction, KindSignature, admissibility, true/false/unknown judgment, optional extension, SubkindOf preorder, distinct-kind KindBridge. *Queries:* "What makes this the same kind?", "Is this candidate applicable before I judge it?", "Did the kind definition change, or only its locality, declaration, scheme, or slice?" | **Builds on:** A.1, A.2.6, C.2.1, E.24.UK. **Coordinates with:** C.3.1, C.3.2, C.3.3, F.9. |
 | C.3.1 | **Kind Identity and Subkind Relations (U.Kind and U.SubkindOf)** | Stable | *Keywords:* kind identity, membership criterion, continuity, U.SubkindOf direct relation, criterion entailment, closed finite domain, preorder, classification equivalence, participant-determined occurrence. *Queries:* "What makes this subkind relation obtain?", "Can the subkind relation hold in both directions while the kinds remain distinct?", "Does this declaration change preserve the same kind?" | **Builds on:** A.1, A.2.6, A.6.REL, C.2.1, E.24.UK. **Prerequisite for:** C.3.2, C.3.3. |
@@ -54076,7 +54076,7 @@ Representation bundles may be compared across contexts only after the compared f
 
 ### C.2.7:End
 
-## C.2.8 - `U.ExtractableStructuralInformation` — Structure This Reader Can Recover
+## C.2.8 - `ExtractableStructuralInformation` — Structure This Reader Can Recover
 
 > **Type:** Definitional (D)
 > **Status:** Stable
@@ -54126,7 +54126,7 @@ Stop when that structural comparison answers the current question. If the select
 
 #### C.2.8:4.2 - Characteristic and arity
 
-**Tech name:** `U.ExtractableStructuralInformation`. **Plain name:** structure this reader or observer can extract. `ESI` is an abbreviation after the full name has been introduced.
+**Tech name:** `ExtractableStructuralInformation`. **Plain name:** structure this reader or observer can extract. `ESI` is an abbreviation after the full name has been introduced.
 
 This is an A.17 `U.RelationCharacteristic`, with arity three over the ordered tuple:
 
@@ -54134,7 +54134,7 @@ This is an A.17 `U.RelationCharacteristic`, with arity three over the ordered tu
 (expressed episteme E, expressing publication form P, reader or observer O)
 ```
 
-Its aspect is the amount of selected structure correctly extractable from E through P by O under stated comparison conditions. The characteristic is a dependent characteristic, not a root U-kind.
+Its aspect is the amount of selected structure correctly extractable from E through P by O under stated comparison conditions.
 
 E retains its C.2.1 identity. P is the entity expressing that episteme in the applicable E.24.PUB publication-form relation and retains the more specific kind supplied by its form pattern. O is the specified human or computational observer. An estimate about a reader class states the relevant preparation and variation among its members; it does not treat the class as another individual reader.
 
@@ -81876,7 +81876,7 @@ Ask the reader to obtain the first useful result, not to rate which document loo
 - the source returns needed to support or correct it; and
 - the observed burden when time, source openings, attempts or other relevant effort were actually recorded.
 
-When the question is how much selected structure the reader can extract, use [`C.2.8 U.ExtractableStructuralInformation`](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation--structure-this-reader-can-recover). Identify the expressed account, its publication form and the reader, with selected relations, correctness criterion, prior knowledge, operations, help, access and budget qualified for this comparison. A qualitative account of recovered and missing relations often suffices. A number needs a declared structural scale and fixed units or denominator, not counts of words or arrows.
+When the question is how much selected structure the reader can extract, use [`C.2.8 ExtractableStructuralInformation`](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---extractablestructuralinformation--structure-this-reader-can-recover). Identify the expressed account, its publication form and the reader, with selected relations, correctness criterion, prior knowledge, operations, help, access and budget qualified for this comparison. A qualitative account of recovered and missing relations often suffices. A number needs a declared structural scale and fixed units or denominator, not counts of words or arrows.
 
 Keep a design estimate separate from an actual recovery observation or a mapped formal estimate. A response establishes recovery in that trial, not a maximum or population reliability. State what changed in content, what changed in expression, and what preparation, actual help or a source return supplied. Familiar relations can count; a reader's independent correction of false or absent instruction is not credited to the expression. Missing basis is not zero. A successful changed-condition return supports its own condition rather than increasing the original amount.
 

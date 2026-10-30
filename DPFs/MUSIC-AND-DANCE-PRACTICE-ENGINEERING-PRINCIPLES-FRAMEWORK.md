@@ -1557,7 +1557,7 @@ later performance while remaining an episteme used by Agents and Systems rather 
 Two expensive errors follow:
 
 1. **Premature enlargement.** The project invents governance, measures, maintenance, ownership, or causal powers
-   for a “new level” that is only a label, a local `U.SystemRole` kind, a classification under that kind, an analytical grouping, or an influential participant.
+   for a “new level” that is only a label, a local system-role kind, a classification under that kind, an analytical grouping, or an influential participant.
 2. **Missed reidentification.** The project continues optimizing isolated classes, artifacts, or events although a
    persistent network now has its own architecture, constraints, risks, memory, and recurring Work.
 
