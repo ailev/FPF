@@ -19441,7 +19441,7 @@ StructureToNarrativeRenderingCase:
 
 Resolve `X` and `Y` to their complete C.2.1 identities and use this record only for the construction account. When actual production history matters, recover each precise performer's A.13 core and independently admit dated narrative-construction Work under A.15.1; add F.6 afterward only when precise assignment-bound attribution is current. `readerInterestOrUseHypothesis` remains the working hypothesis. Include each optional System, system-role-kind, or assignment reference only when its exact referent and direct claim obtain independently. Connect source epistemes, parameters, methods, tools, and `Y` through exact direct relations or A.6.1 bindings. If the Work first constitutes `Y` and that inception claim matters, use A.15.PROD to test that separate local claim.
 
-`epiplexityOrStructuralInformationRef?` refers to a qualified `C.2.8` comparison or estimate when the narrative use depends on structural amount. Identify the receiving narrative episteme, its expressing form, the observer and relevant preparation, access and budget. A formal epiplexity or other mathematical estimate uses the `C.29` model-to-characteristic correspondence; a domain estimate retains its scale and evaluation conditions. The field remains optional for the ordinary narrative and note.
+`epiplexityOrStructuralInformationRef?` refers to a qualified `C.2.8` comparison or estimate when the narrative use depends on structural amount. Identify the receiving narrative episteme, its particular expression, the observer and relevant preparation, access and budget. A formal epiplexity or other mathematical estimate uses the `C.29` model-to-characteristic correspondence; a domain estimate retains its scale and evaluation conditions. The field remains optional for the ordinary narrative and note.
 
 `nonAdmissibleDownstreamUse?`, also named `groundedNonAdmissibleDownstreamUse?`, is one optional explanatory field governed by F.19:4's plausible-reader test.
 
@@ -54431,9 +54431,9 @@ Representation bundles may be compared across contexts only after the compared f
 
 Use this pattern when an explanation, pattern text, architecture account or another expressed description must make selected structure recoverable by a particular reader or computational observer. You may be comparing two forms of the same account, deciding whether an added explanation exposes a missing dependency, or checking what an observer can extract with the available preparation and time.
 
-**First useful move.** Name the relation or distinction the reader needs, identify the available account and its form, and state the preparation, source access and budget that can change recovery. Compare what the reader can correctly recover under those conditions. A useful result can be two sentences: “Both accounts expose the dependency on a durable write. Only the second account exposes why the reporting replica was chosen; this is an author estimate for readers familiar with replication, with the same source access and three-minute budget.”
+**First useful move.** Name the relation or distinction the reader needs, identify the available account and its particular expression, and state the preparation, source access and budget that can change recovery. Compare what the reader can correctly recover under those conditions. A useful result can be two sentences: “Both accounts expose the dependency on a durable write. Only the second account exposes why the reporting replica was chosen; this is an author estimate for readers familiar with replication, with the same source access and three-minute budget.”
 
-The primary subject is **extractable structural information**: how much selected structure this reader or observer can correctly extract from this episteme through this form under the stated conditions. Here an *episteme* is the claim-bearing account; its *form* is how those claims are expressed. Prose, a diagram and a combined presentation may express the same claims differently.
+The primary subject is **extractable structural information**: how much selected structure this reader or observer can correctly extract from this episteme through this particular expression under the stated conditions. Here an *episteme* is the claim-bearing account; its *expression* is the particular arrangement of signs conveying those claims. A reusable *form* supplies rules that different expressions can follow. Two texts can follow the same form and arrange the same claims differently.
 
 **What goes wrong if missed.** Complete sentences or a shorter explanation can hide a needed condition. An expert may supply it from memory, so a correct answer can conceal what the account failed to explain. Comparing readers with different preparation or assistance can then make one text appear to expose more structure.
 
@@ -54463,7 +54463,7 @@ A diagram may make dependencies visible without changing the described system. A
 
 Begin with the reader's needed understanding or action. Select the structure that matters to it: for example, a distinction between two alternatives, the dependency that orders two actions, or the reason a design choice changes under a new condition. A study of structural information may instead select a structure family for that research question. Selection need not assign task utility.
 
-Identify the account and form being used. State only the conditions that could change the comparison: relevant concepts and notation the reader can use, available inference or inspection operations, accessible sources and help, and the effort or computation budget. A qualification or course title may locate evidence of preparation; it does not specify the usable knowledge by itself.
+Identify the account and the particular expression being used. State only the conditions that could change the comparison: relevant concepts and notation the reader can use, available inference or inspection operations, accessible sources and help, and the effort or computation budget. A qualification or course title may locate evidence of preparation; it does not specify the usable knowledge by itself.
 
 Then recover or estimate the selected structure and compare it with the relevant source or correctness criterion. Retain what each expression contributes, what remains missing and what a source return or prerequisite supplies. Reuse a sufficient current result. A new reading trial is useful when its possible outcomes could change the explanation or receiving decision.
 
@@ -54476,18 +54476,20 @@ Stop when that structural comparison answers the current question. If the select
 This is a relation Characteristic under A.17, with arity three over the ordered tuple:
 
 ```text
-(expressed episteme E, expressing publication form P, reader or observer O)
+(expressed episteme E, particular expression X, reader or observer O)
 ```
 
-Its aspect is the amount of selected structure correctly extractable from E through P by O under stated comparison conditions.
+Its aspect is the amount of selected structure correctly extractable from E through X by O under stated comparison conditions.
 
-E retains its C.2.1 identity. P is the entity expressing that episteme in the applicable E.24.PUB publication-form relation and retains the more specific kind supplied by its form pattern. O is the specified human or computational observer. An estimate about a reader class states the relevant preparation and variation among its members; it does not treat the class as another individual reader.
+E retains its C.2.1 identity. X is an independently identified `U.Entity`: the particular sign construction that expresses E, identified under its expression domain's formation and equality rules. If reading order affects the selected operation, those rules must preserve order as part of X. O is the specified human or computational observer. An estimate about a reader class states the relevant preparation and variation among its members; it does not treat the class as another individual reader.
 
-Where exact notation helps, write `ESI_C(E, P, O)`. C fixes the selected structure, correctness criterion, relevant prior knowledge, usable operations, available assistance and tools, access conditions, budget and any other qualification that changes interpretation. These conditions qualify the characteristic of the tuple; they are not an additional bearer or a universal record kind.
+Where exact notation helps, write `ESI_C(E, X, O)`. C fixes the selected structure, correctness criterion, relevant prior knowledge, usable operations, available assistance and tools, access conditions, budget and any other qualification that changes interpretation. These conditions qualify the characteristic of the tuple; they are not an additional bearer or a universal record kind.
 
-Changing only expression can retain E. Adding, omitting or changing substantive claims can identify another episteme; use C.2.1 and the applicable source-to-target rule for that claim. In an explanation use, E.17.EFP's first screen distinguishes those branches when the difference matters. A comparison of forms alone holds the expressed claims constant.
+E.24.PUB:4.1–4.2 distinguishes the particular expression X, reusable publication form F and carrier. When a comparison relies on F, identify its rules and how the selected X conforms to them. Several different expressions can follow the same F and yield different recovery results. A conclusion about a reusable form requires a stated selection of expressions and grounds for extending their results to that form. An unpublished draft can also supply X for an ESI comparison; identify the expression and available access directly.
 
-The presentation carrier belongs in the access conditions when rendering, resolution, searchability or availability affects extraction. Changing access can change the qualified result while E and P remain the same. Attribute that difference to the changed access conditions. Ordinary references to a page, diagram or file are sufficient when they identify the required account and expression without ambiguity.
+Changing only expression can retain E. Adding, omitting or changing substantive claims can identify another episteme; use C.2.1 and the applicable source-to-target rule for that claim. In an explanation use, E.17.EFP's first screen distinguishes those branches when the difference matters. A comparison intended to isolate a change of form holds the expressed claims constant and identifies the particular expressions compared.
+
+The presentation carrier belongs in the access conditions when rendering, resolution, searchability or availability affects extraction. Changing access can change the qualified result while E and X remain the same. Attribute that difference to the changed access conditions. Ordinary references to a page, diagram or file are sufficient when they identify the required account and expression without ambiguity.
 
 #### C.2.8:4.3 - Correct recovery and the expression's contribution
 
@@ -54525,17 +54527,17 @@ Absence of human validation restricts empirical claims about people. It does not
 
 A formal structural-information estimate is useful when a mathematical model can represent the selected account, observer and extraction question. Use C.29 for that correspondence and its preserved and lost structure.
 
-Finzi et al.'s computational epiplexity selects a time-bounded probabilistic program by a two-part coding criterion:
+Finzi et al.'s computational epiplexity selects a time-bounded probabilistic program by a two-part coding criterion. Writing D for the model's data variable gives:
 
 ```text
-P* = argmin over P in P_T of ( |P| + E[-log2 P(X)] )
-S_T(X) = |P*|
-H_T(X) = E[-log2 P*(X)]
+P* = argmin over P in P_T of ( |P| + E[-log2 P(D)] )
+S_T(D) = |P*|
+H_T(D) = E[-log2 P*(D)]
 ```
 
 Ties select the shorter program. The model term describes structural information; the residual is time-bounded entropy. Conditional versions allow side information, and practical estimators have their own assumptions. The execution bound and the effort of finding or estimating a model are distinct costs. [Finzi et al., v2, §3–4](https://arxiv.org/pdf/2601.03220v2)
 
-For an ESI estimate, explain how the episteme and expression map to X, how the model class represents the observer's available operations, and which selected structure the model term estimates. State how prior knowledge is represented. Conditional model description given side information need not count all familiar structure a reader can recover.
+For an ESI estimate, explain how the episteme E and expression X map to the data D, how the model class represents the observer's available operations, and which selected structure the model term estimates. State how prior knowledge is represented. Conditional model description given side information need not count all familiar structure a reader can recover.
 
 Use epiplexity as a formal specialization where that correspondence holds. Otherwise it motivates the structural-information question without supplying its value. Total code length, text length and arbitrary model size are not interchangeable ESI measures. Ordinary description comparisons may use an adequate domain method without a coding model.
 
@@ -54547,7 +54549,7 @@ Measure or compare extraction effort separately. Two expressions may expose the 
 
 Use the method appropriate to the proposed change: C.37 for selecting representations, A.6.3.NAR for narrative ordering and source carry-through, or the applicable domain description or instructional method. ESI states the aspect being compared; it does not prescribe adding a diagram, example or lesson.
 
-When the account describes a Method, carry the recovered operations and relations into A.2.2:2.1 if the next question is which of them the holder can use. Keep the extraction result about the episteme, form and observer: correctly explaining a rule supplies different evidence from performing it with specified support. E.23.CDI:4.2.1 uses the Method-relative profile to choose learning or provision and to revise an acquisition arrangement when its feedback and receiving result disagree. Stop at the ESI result when structural recovery alone answers the question.
+When the account describes a Method, carry the recovered operations and relations into A.2.2:2.1 if the next question is which of them the holder can use. Keep the extraction result about the episteme, expression and observer: correctly explaining a rule supplies different evidence from performing it with specified support. E.23.CDI:4.2.1 uses the Method-relative profile to choose learning or provision and to revise an acquisition arrangement when its feedback and receiving result disagree. Stop at the ESI result when structural recovery alone answers the question.
 
 ### C.2.8:5 - Archetypal Grounding
 
@@ -54564,7 +54566,7 @@ API --write--> Store --update--> Replica --read by--> Reports
 API <--durable-write confirmation-- Store
 ```
 
-The reader is an engineer familiar with durable writes and replicas. Select the acknowledgment dependency, report-source/lag relation, rejected alternative with its reason, and reconsideration condition. Both forms expose the same claims; the described architecture is unchanged. Compare recovery with the same three-minute budget and source access. The diagram's presence alone establishes no advantage.
+The reader is an engineer familiar with durable writes and replicas. Select the acknowledgment dependency, report-source/lag relation, rejected alternative with its reason, and reconsideration condition. Both expressions expose the same claims; the described architecture is unchanged. Compare recovery with the same three-minute budget and source access. The diagram's presence alone establishes no advantage.
 
 Suppose a reading trial recovers three selected relations from the prose and all four from the combined expression. Report that bounded observed difference and identify the additional relation. If a source paragraph was supplied only before the second reading, the comparison also changed assistance. If the same reader encountered both forms, previous reading may contribute. These conditions prevent attributing the whole difference to form alone.
 
@@ -54578,11 +54580,11 @@ If the selected use is carrying out that test, the applicable procedure must be 
 
 #### C.2.8:5.3 - An observer with a two-statement budget
 
-Let E describe edges A→B, B→C, A→D and D→C. Form P1 lists them in that order. Form P2 lists A→B, A→D, B→C, D→C. Observer O reads the first two edge statements and returns every two-edge path supported by those edges. Select the paths A→B→C and A→D→C as the structural denominator.
+Let E describe edges A→B, B→C, A→D and D→C. Expression X1 lists them in that order. Expression X2 lists A→B, A→D, B→C, D→C. Here statement order is part of expression identity. Both expressions conform to the same reusable edge-list form F: one directed-edge statement per line, in any order.
 
-P1 gives O the edges needed for A→B→C; P2 gives two edges leaving A and no complete selected path. Under the declared count, the results are 1 and 0 out of two selected paths. With four statement reads, the same procedure recovers both paths from both forms.
+Observer O reads the first two edge statements and returns every two-edge path supported by those edges. Select the paths A→B→C and A→D→C as the structural denominator. X1 gives O the edges needed for A→B→C; X2 gives two edges leaving A and no complete selected path. Under the declared count, the results are 1 and 0 out of two selected paths. With four statement reads, the same procedure recovers both paths from both expressions.
 
-This result follows from the stated algorithm and budget. It is neither a human-comprehension observation nor a Finzi estimate. It shows one characteristic applied to the same expressed claims under a precisely bounded computational observation.
+The result follows from the stated algorithm and budget. It compares two X values at the same E, F and O, showing why selecting F alone leaves the supplied material unresolved. This is a bounded computational derivation; a claim about human comprehension or a Finzi estimate needs its own corresponding basis.
 
 #### C.2.8:5.4 - A whole-framework architectural rationale
 
@@ -54604,9 +54606,9 @@ Use this checklist when a characteristic claim or comparison must be relied on o
 
 | Check | Required content |
 | --- | --- |
-| `CC-C.2.8-1` Aspect and arity | An ESI claim SHALL retain the episteme, expressing form and observer, with the selected structure and material comparison conditions recoverable. |
+| `CC-C.2.8-1` Aspect and arity | An ESI claim SHALL retain the episteme, particular expression and observer, with the selected structure and material comparison conditions recoverable. |
 | `CC-C.2.8-2` Correctness | The claim SHALL state the relevant source or criterion and distinguish content recovery from a stronger warranted-world conclusion when that distinction matters. |
-| `CC-C.2.8-3` Comparison | A claimed difference SHALL identify changed claims, form, preparation, access, help, operations or budget where they can explain the result. |
+| `CC-C.2.8-3` Comparison | A claimed difference SHALL identify changed claims, expression, reusable-form rules, preparation, access, help, operations or budget where they can explain the result. |
 | `CC-C.2.8-4` Scale | A numerical value SHALL name its scale, structural unit or denominator and method. Ordered scales SHALL retain the positive structural direction; missing basis SHALL remain distinct from zero. |
 | `CC-C.2.8-5` Grounds | An observation, design estimate or formal-model estimate SHALL retain its grounds and their actual scope. Prior-expertise correction and additional assistance SHALL be attributed separately where consequential. |
 | `CC-C.2.8-6` Formal estimate | An epiplexity or other mathematical estimate used as ESI SHALL have the applicable C.29 correspondence; a claimed measurement SHALL satisfy C.16. |
@@ -54632,11 +54634,11 @@ The practical cost is making material preparation, selection and access conditio
 
 An additional example, prerequisite, diagram or changed order is useful when it exposes worthwhile structure under the actual conditions. Sometimes the current expression already supplies the needed structure. Both outcomes are compatible with this characteristic.
 
-Reconsider the qualified result when the account, form, selected structure, observer preparation, available operations, help, carrier access, budget or correctness basis changes. Reuse an unchanged result for a matching use.
+Reconsider the qualified result when the account, expression, applicable form rules, selected structure, observer preparation, available operations, help, carrier access, budget or correctness basis changes. Reuse an unchanged result for a matching use.
 
 ### C.2.8:10 - Architectural Rationale
 
-The three-bearer definition explains why the same account can support different structural recoveries. The episteme distinguishes a content change, the form distinguishes expression, and the observer distinguishes who or what can extract the structure. Qualification conditions make comparison possible without inventing a new bearer for every resource limit.
+The three-bearer definition explains why the same account can support different structural recoveries. The episteme identifies the expressed account, the particular expression identifies the sign construction available for extraction, and the observer identifies who or what can extract the structure. Reusable-form conformance can hold for several such constructions; the two-statement case shows why those constructions need separate recovery comparisons. Qualification conditions retain the resources and access that make each comparison meaningful.
 
 Articulation explicitness, structural amount and task adequacy answer different questions. A plan can state its action condition completely while its reader lacks the prerequisite procedure. A diagram can expose additional relations while remaining insufficient for a design decision. Keeping these results separate preserves both the useful gain and the precise next question.
 
@@ -54657,7 +54659,7 @@ At comparable effort, ordinary source-based reconstruction often answers which n
 ### C.2.8:12 - Relations
 
 - **A.17/A.18 and C.16:** arity, characteristic/scale legality and the measurement chain for an actual measurement claim.
-- **C.2.1 and E.24.PUB:** identity of the expressed episteme, publication form and presentation carrier.
+- **C.2.1 and E.24.PUB:** identity of the expressed episteme and the distinctions among its particular expression, reusable publication form and presentation carrier.
 - **C.2.4:** degree of explicit articulation and its receiving-use thresholds.
 - **C.29:** mathematical-lens correspondence for a formal structural-information estimate.
 - **A.2.2:2.1 and E.23.CDI:4.2.1:** Method-relative capability and the acquisition or provision choice that can consume a recovered Method structure.
@@ -69057,7 +69059,7 @@ When expected information gain determines which observation to obtain, choose a 
 
 Use this subcase when a mathematical lens estimates, compresses, codes, compares, or otherwise exposes how much selected structure a bounded observer can recover from a description, relation trace, generated graph, model, or reusable-structure accounting result. Typical examples include MDL-like two-part codes, epiplexity-style extracted-structure estimates, compression-complexity comparisons, and information-functionals over relation graphs.
 
-`C.2.8` defines extractable structural information for the episteme, expressing form and observer under stated conditions. When this lens output is used to estimate that characteristic, state how its mathematical objects, admissible models, selected structure and resource bound correspond to those conditions. A comparison that uses an adequate domain method directly needs no mathematical lens.
+`C.2.8` defines extractable structural information for the episteme, the particular expression conveying it and the observer under stated conditions. When this lens output is used to estimate that characteristic, state how its mathematical objects, admissible models, selected structure and resource bound correspond to that expressed account, observer and comparison conditions. A comparison that uses an adequate domain method directly needs no mathematical lens.
 
 For an epiplexity estimate, distinguish the selected model's description length from the residual data description, the model-execution bound from estimation effort, and conditional model information from all familiar structure a reader can recover. Use the existing source, mapping, preserved/lost-structure and stop fields to state the correspondence. The formal model and its application conditions are explained in `C.2.8:4.6`; a numerical measurement claim also uses `C.16`.
 
@@ -82262,7 +82264,7 @@ Ask the reader to obtain the first useful result, not to rate which document loo
 - the source returns needed to support or correct it; and
 - the observed burden when time, source openings, attempts or other relevant effort were actually recorded.
 
-When the question is how much selected structure the reader can extract, use [`C.2.8 ExtractableStructuralInformation`](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---extractablestructuralinformation--structure-this-reader-can-recover). Identify the expressed account, its publication form and the reader, with selected relations, correctness criterion, prior knowledge, operations, help, access and budget qualified for this comparison. A qualitative account of recovered and missing relations often suffices. A number needs a declared structural scale and fixed units or denominator, not counts of words or arrows.
+When the question is how much selected structure the reader can extract, use [`C.2.8 ExtractableStructuralInformation`](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---extractablestructuralinformation--structure-this-reader-can-recover). Identify the expressed account, its particular expression and the reader, with selected relations, correctness criterion, prior knowledge, operations, help, access and budget qualified for this comparison. A qualitative account of recovered and missing relations often suffices. A number needs a declared structural scale and fixed units or denominator, not counts of words or arrows.
 
 Keep a design estimate separate from an actual recovery observation or a mapped formal estimate. A response establishes recovery in that trial, not a maximum or population reliability. State what changed in content, what changed in expression, and what preparation, actual help or a source return supplied. Familiar relations can count; a reader's independent correction of false or absent instruction is not credited to the expression. Missing basis is not zero. A successful changed-condition return supports its own condition rather than increasing the original amount.
 
@@ -97814,7 +97816,7 @@ When the promised use includes performing or learning a Method, show its relevan
 
 Use all twelve substantive E.8 functions for the connected account: working situation, problem, forces, selected solution, grounding, bias, practical checks, recurring failure, consequences, Architectural Rationale, source comparison and relations. E.11.PFP governs where readers reach those answers. An inherited answer can be cited precisely; shared whole conditions and profile-specific consequences still need an explanation.
 
-If a language is claimed to expose more structure to its reader, use C.37.CF with [C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation--structure-this-reader-can-recover) for that specific comparison. Select the dependencies, alternatives or stops the reader needs, and distinguish new content from a different expression of the same claims. Identify the actual preparation, help and source returns. More patterns or links do not establish more extractable structure, and a larger amount does not establish that the language is worth its reading burden. Keep the direct description or smaller language when it suffices.
+If a language is claimed to expose more structure to its reader, use C.37.CF with [C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---extractablestructuralinformation--structure-this-reader-can-recover) for that specific comparison. Select the dependencies, alternatives or stops the reader needs, and distinguish new content from a different expression of the same claims. Identify the actual preparation, help and source returns. More patterns or links do not establish more extractable structure, and a larger amount does not establish that the language is worth its reading burden. Keep the direct description or smaller language when it suffices.
 
 Distinguish relations across scales. A specialization narrows conditions while retaining the relevant general claims. A bounded-use projection selects claims for a reader. Reuse can connect several profiles. Method composition establishes actual parts. A publication group provides navigation. There is no fixed maximum number of scales, and overlap does not establish a mathematical lattice; use C.29 only for that qualified representation.
 

@@ -125,7 +125,7 @@ These distinctions support concrete diagnoses:
 | Assistance | A hint directs attention to the unit counted by the denominator. | Preserve the help when interpreting the response. |
 | Required outcome | The task changes from following today's calculation to doing a new one next week. | Select later evidence at the required assistance and delay conditions. |
 
-[FPF C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation--structure-this-reader-can-recover) characterizes extractable structural information for an expressed account, its expressing form and an observer under selected conditions. For an explanation, state which relations the recipient should recover, what counts as a correct reconstruction, and which preparation, operations, help, access and budget matter. The question is “How much of the selected structure can this recipient recover at these conditions?” A useful local answer can identify correctly reconstructed relations and consequential omissions. A numeric comparison needs a justified scale and comparable conditions.
+[FPF C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---extractablestructuralinformation--structure-this-reader-can-recover) characterizes extractable structural information for an expressed account, its particular expression and an observer under selected conditions. For an explanation, state which relations the recipient should recover, what counts as a correct reconstruction, and which preparation, operations, help, access and budget matter. The question is “How much of the selected structure can this recipient recover at these conditions?” A useful local answer can identify correctly reconstructed relations and consequential omissions. A numeric comparison needs a justified scale and comparable conditions.
 
 This structural characterization is relational. The same text may make a connection available to an expert and leave a novice unable to reconstruct it at the same effort. Repetition may assist access or retention while introducing no new relation into the account. A familiar relation still belongs to the recoverable structure; recoverability is not a novelty score. For human recipients, attention and memory inform the use conditions and selected outcome.
 
@@ -339,7 +339,7 @@ At the same practical grain, “Why is 5.5 wrong?” and “Which unit receives 
 
 [EXD.4](#exd4---co-construct-and-repair-an-explanation-in-dialogue) uses and revises the question during an exchange. [The supplied-account entry](#exdreference3---obtain-and-carry-the-subject-explanation) obtains the answer's subject relations and conditions.
 
-[FPF A.2.9](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a29--uspeechact--communicative-work-and-its-intended-use) supplies communicative-use distinctions where that analysis is needed. [FPF C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation--structure-this-reader-can-recover) characterizes what a particular observer can recover from an account and form under selected conditions; it does not choose the question's purpose.
+[FPF A.2.9](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a29--uspeechact--communicative-work-and-its-intended-use) supplies communicative-use distinctions where that analysis is needed. [FPF C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---extractablestructuralinformation--structure-this-reader-can-recover) characterizes what a particular observer can recover from an account and its expression under selected conditions; it does not choose the question's purpose.
 
 ### EXD.1:End
 
@@ -608,7 +608,7 @@ FPF C.37 and C.37.CF preserve the general selection and content/form comparison.
 
 [EXD.2](#exd2---build-and-bound-an-explanatory-example) supplies a worked correspondence and boundary. [EXD.4](#exd4---co-construct-and-repair-an-explanation-in-dialogue) can expose the local expression difficulty during use. [EXD.6](#exd6---compare-explanations-for-the-recipients-use-and-decide-whether-a-repair-is-worthwhile) compares a candidate with a sufficient incumbent.
 
-[FPF C.37](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c37---select-and-use-representations-for-one-action) governs representation selection and co-use. [FPF C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation--structure-this-reader-can-recover) characterizes selected structural recovery under explicit conditions. The [instructional profile](#exdprofiles1---instructional-explanation) qualifies human learning and assistance uses.
+[FPF C.37](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c37---select-and-use-representations-for-one-action) governs representation selection and co-use. [FPF C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---extractablestructuralinformation--structure-this-reader-can-recover) characterizes selected structural recovery under explicit conditions. The [instructional profile](#exdprofiles1---instructional-explanation) qualifies human learning and assistance uses.
 
 ### EXD.3:End
 
@@ -770,7 +770,7 @@ At the same local opportunity to respond, repeating the pooled-mean derivation a
 
 [EXD.1](#exd1---establish-and-revise-what-a-recipient-needs-explained) supplies and revises the question. [The supplied-account entry](#exdreference3---obtain-and-carry-the-subject-explanation) provides the subject basis and its return.
 
-[FPF C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation--structure-this-reader-can-recover) qualifies structural recovery at an identifiable point in the exchange by the account, expression, observer and conditions. Changes after help receive their changed conditions. Human capability development supplies task-specific assistance, feedback tied to the task criterion and retry when the receiving purpose is instructional.
+[FPF C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---extractablestructuralinformation--structure-this-reader-can-recover) qualifies structural recovery at an identifiable point in the exchange by the account, expression, observer and conditions. Changes after help receive their changed conditions. Human capability development supplies task-specific assistance, feedback tied to the task criterion and retry when the receiving purpose is instructional.
 
 ### EXD.4:End
 
@@ -1023,7 +1023,7 @@ The serious alternative is to select the most fluent, extensive or visually attr
 
 [EXD.1](#exd1---establish-and-revise-what-a-recipient-needs-explained) establishes the receiving question. [EXD.2](#exd2---build-and-bound-an-explanatory-example), [EXD.3](#exd3---coordinate-the-expression-of-an-explanation) and [EXD.5](#exd5---guide-a-recipients-own-explanation) construct candidate repairs. [EXD.4](#exd4---co-construct-and-repair-an-explanation-in-dialogue) exposes changes during the exchange.
 
-[FPF C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation--structure-this-reader-can-recover), [FPF C.11.CRC](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11crc---configuration-relative-contribution-comparison) and [FPF C.11](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11---decision-theory-decsn-cal) retain their defining questions. The [source and dependency account](#explanation-design-principles-framework-architectural-reference) names the actual Core's Method-development family and HCD receiving uses.
+[FPF C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---extractablestructuralinformation--structure-this-reader-can-recover), [FPF C.11.CRC](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11crc---configuration-relative-contribution-comparison) and [FPF C.11](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11---decision-theory-decsn-cal) retain their defining questions. The [source and dependency account](#explanation-design-principles-framework-architectural-reference) names the actual Core's Method-development family and HCD receiving uses.
 
 ### EXD.6:End
 

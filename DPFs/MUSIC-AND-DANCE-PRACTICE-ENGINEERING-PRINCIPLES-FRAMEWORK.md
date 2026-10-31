@@ -9626,7 +9626,7 @@ State what each comparison retains. A coarser classification can group distinct 
 
 #### MDPE.Application:5.3.5 - Separate recoverable structure from acquired capability
 
-C.2.8 characterizes selected structure extractable from an expressed episteme through its publication form by a specified observer under stated conditions. It can be used for a MethodDescription: which branches, dependencies or reasons the reader correctly recovers, with what preparation, accessible help and budget.
+C.2.8 characterizes selected structure extractable from an episteme through its particular expression by a specified observer under stated conditions. It can be used for a MethodDescription: which branches, dependencies or reasons the reader correctly recovers, with what preparation, accessible help and budget.
 
 Applying the Method is another result. A reader may recover the instruction for response timing without acquiring the coordination needed to enact it. A skilled performer may already enact a relation that they cannot yet explain from the supplied description. Better access to an expert may make an operation obtainable without transferring it to the receiving person.
 
