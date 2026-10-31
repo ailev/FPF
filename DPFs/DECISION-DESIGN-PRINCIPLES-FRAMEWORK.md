@@ -1107,7 +1107,7 @@ A source is useful only for its named subject, condition, and evidence window. I
 
 For each serious candidate, describe the action in plain language: what participants do, with what accepted inputs, to produce which result under which conditions. When the proposed reusable way is already recoverable, use `A.3.1` to identify it.
 
-Use `A.3.1.MR` only when several grounded occurrences or direct sources create a candidate-recovery question about what reusable way the material may show, and no Method has yet been established. It returns provisional source-traceable candidate accounts, a distinguishing question, or an honest lower result; Method identification remains a separate `A.3.1` question.
+Use `A.3.1.MR` only when observations or evidence about performances leave a reusable way to recover and no Method has yet been established. It returns provisional source-traceable candidate accounts, a distinguishing question when useful, or an honest lower result; Method identification remains a separate `A.3.1` question. For a proposed way in documentary guidance, use `A.3.1.DR` when its source meaning or status needs recovery.
 
 If the way is known and only its wording is unclear, clarify the statement; use `E.10` only if an FPF kind or relation question remains. If a prospective recipe lacks a decision about its intended action or applicability, return that missing design question to the person designing the inquiry Method. A missing design choice is not by itself a reason to reconstruct past practice.
 
@@ -1252,7 +1252,7 @@ Method fit is relational: it depends on what the inquiry needs and what its cond
 
 - `PSDA.2` supplies the scope/result frame for the same subject and decision. `PSDA.3` supplies model contributions only where they discriminate Method alternatives. Either needed input can be replaced only by a qualified direct result or returned as an exact gap.
 - `PSDA.13` and `PSDA.17` may consume the selected Method and limits for the named situation and qualification window. Availability establishes neither fit nor enactment or cultural uptake.
-- `A.3.1.MR` supplies provisional accounts only when several grounded occurrences or direct sources create a reusable-way recovery question and no Method is yet established; `A.3.1` identifies a recoverable proposed way without making that recovery compulsory. `A.3.2` governs a description of one identified Method; `B.1.5` governs the composite qualification when needed.
+- `A.3.1.MR` recovers provisional candidate accounts from performance evidence; `A.3.1.DR` recovers the source meaning and status of documentary contributions when needed. `A.3.1` identifies a ready candidate way without making either recovery compulsory. `A.3.2` governs a description of one identified Method; `B.1.5` governs the composite qualification when needed.
 - `A.15.2` governs intended Work and `A.15.1` actual Work and its enactment relation. Direct competence, participation, authority, evidence, and safety practices govern their own premises.
 - This selection can request a missing domain result; it cannot manufacture that result by choosing a better workshop format.
 
@@ -3589,7 +3589,7 @@ Use C.39.RP when the offered repertoire and its missing contributions need const
 
 State each serious candidate as a way of doing: its entry conditions, participant meanings, actions, input/result commitments, required joins, allowed variation, and stop. Use `A.3.1` for Method identification. Keep an unresolved proposal as a candidate account; an attractive name, complete document or parent Method does not admit it.
 
-When several grounded occurrences or direct sources leave the reusable way genuinely unclear, `A.3.1.MR` can help recover candidate accounts. It is not the route for filling a missing design choice in a prospective recipe. Ask the designer to state the proposed action and its conditions.
+When observations or evidence about performances leave the reusable way unclear, `A.3.1.MR` can help recover candidate accounts. Use `A.3.1.DR` when a proposed way in documentary guidance needs its source meaning or status recovered. If a prospective recipe lacks a design choice, ask the designer to state the proposed action and its conditions; reconstructing past practice does not make that choice.
 
 Decompose a heavyweight school or package only far enough to compare contributions. The following contrasts are useful starting questions, not an exhaustive taxonomy or automatic assignment rule.
 
@@ -3811,7 +3811,7 @@ The practice question is **how to develop a usable professional repertoire under
 - `PSDA.15` supplies bounded follow-up evidence only when it can change the repertoire decision under the same relevant conditions and horizon. A local observation neither entails nor authorizes the repertoire result.
 - `PSDA.4` chooses and combines Methods for an engagement; this pattern develops and maintains the reusable offerings and their limits. It does not require a new repertoire cycle before every selection.
 - `PSDA.13`, `PSDA.5`, `PSDA.6`, `PSDA.7`, `PSDA.8`, `PSDA.9`, `PSDA.14`, `PSDA.15` and `PSDA.17` expose participation, alternative, comparison, recommendation, follow-up and arrangement requirements that a Method offering may need to preserve. Their available descriptions are not evidence of this particular Method's enactment or effectiveness.
-- `A.3.1` governs Method identification; `A.3.1.MR` supplies candidate recovery only under its actual source/occurrence conditions; `A.3.2` governs a MethodDescription rather than admitting every multi-Method package.
+- `A.3.1` governs Method identification; `A.3.1.DR` recovers documentary contributions when their source meaning or status is unclear; `A.3.1.MR` recovers candidate ways from performance evidence. `A.3.2` governs a MethodDescription rather than admitting every multi-Method package.
 - `A.3.1.MV` can supply qualified generic variant, derivation and non-variant maintenance guidance. Resemblance or shared repertoire vocabulary does not by itself establish a formal Method-specialization relation.
 - `A.10` and `A.15.9` qualify and obtain exact source or specialist results. `A.10.1` and `G.11` apply to their respective affected-use and currentness questions, not as substitutes for the field repertoire decision.
 - `G.5` declares a selector-facing result when that claim is live over identified members and grounds; it supplies neither a universal Method-family classification nor professional fit.

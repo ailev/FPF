@@ -5645,7 +5645,7 @@ Provider Work, receiving Work, and observation Work can overlap or occur at diff
 
 Use the direct Music, Dance, teaching, rehearsal, reconstruction, robotics, machine-learning, event-programming, or community Method without `MDPE.17` when it already returns the receiving Method variant, representative enactment, transfer limits, source-contribution boundary, and a supported continuation decision. Use this pattern when those results remain collapsed or missing after direct Work.
 
-Do not use this pattern merely to decide whether to reuse a result before receiving Work (`MDPE.6`), to recover a candidate Method from records (`A.3.1.MR` or `MDPE.18`), to develop general human capability, or to claim population continuation (`MDPE.19`).
+Use `MDPE.6` to decide whether to reuse a result before receiving Work. When source recovery is the missing contribution, use `A.3.1.DR` for documentary guidance whose meaning or status needs recovery, `A.3.1.MR` for a candidate way in performance evidence, or `MDPE.18` for a needed cultural-memory or lineage account. General human capability development and population continuation (`MDPE.19`) remain different questions.
 
 #### MDPE.17:0.1 - Working Distinctions
 
@@ -5854,7 +5854,9 @@ If the technical system produces output under another Agent's control, identify 
 
 *The Call* provides a songbook, exercises, recordings, datasets, choral AI models, an installation, and governance experiments. These are valuable source materials and project results. The project page does not by itself supply one complete reusable Method for a later choir–model project.
 
-Recover or select the needed candidate Method first through direct inquiry or `A.3.1.MR`/`MDPE.18`. Then use `MDPE.17` only when a receiving choir, organizer, model-development team, or configured performing whole performs representative Work under an admitted receiving Method.
+First name what the later choir–model project needs to do. Apply `A.3.1` directly if the material already states a candidate way ready for its Method identity test. Use `A.3.1.DR` when an instruction or proposed exercise needs its source meaning or status recovered; use `A.3.1.MR` when the question is what reusable way observations or evidence about performances support. A written report can serve as performance evidence: choose by its contribution to this question. `MDPE.18` supplies a cultural-memory or lineage account when that historical question matters. If the needed way is unavailable, select another adequate way or obtain its construction through an applicable Music-or-Dance Method or Method Engineering.
+
+Then use `MDPE.17` only when a receiving choir, organizer, model-development team, or configured performing whole performs representative Work under an admitted receiving Method.
 
 #### MDPE.17:4.5 - Music: choose turns at a shared instrument
 
@@ -5935,7 +5937,10 @@ Recheck the result when the receiving use, Agent, Method, performing configurati
 | Relation | Use in this pattern |
 | --- | --- |
 | `MDPE.6` | May supply a receiving-use choice and acceptable variation; it does not establish receiving enactment. |
-| `MDPE.18`, `A.3.1.MR` | Supply source and candidate-Method recovery when the Method is not yet admitted. |
+| `A.3.1` | Identifies a candidate way that is ready for the Method identity test. |
+| `A.3.1.DR` | Recovers documentary contributions when their source meaning or status needs recovery. |
+| `A.3.1.MR` | Recovers provisional candidate ways from observations or evidence about performances. |
+| `MDPE.18` | Supplies a needed cultural-memory or lineage account. |
 | `MDPE.10`, `MDPE.3` | Supply performer capability and the configured performing whole when those results change the test. |
 | `MDPE.11`, `MDPE.5`, `MDPE.12` | May supply receiving Work, performance occurrence, observation, and comparison results. |
 | Method Engineering or an applicable direct Music-or-Dance Method | May supply a changed Method, MethodDescription, material, or configuration intended for another receiving Agent and guide the Work that makes the change. |

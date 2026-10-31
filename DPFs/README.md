@@ -20,7 +20,7 @@ A Suite brings together constituent disciplines and explains how their knowledge
 | Suite | Working subject | DPFs | Patterns | Text, M characters |
 | --- | --- | ---: | ---: | ---: |
 | [Engineering](Engineering%20DPF%20Suite/) | Designing, realizing, changing and maintaining systems; knowledge access, semantic integration and control architecture design. | 5 | 99 | 2.791 |
-| [Management](Management%20DPF%20Suite/) | Direction, goals, commitments, operations, resources, markets, communities, workforce participation and organizational change. | 14 | 201 | 5.496 |
+| [Management](Management%20DPF%20Suite/) | Direction, goals, commitments, operations, resources, markets, communities, workforce participation and organizational change. | 14 | 201 | 5.497 |
 | [Foundational Thinking](Foundational%20Thinking%20DPF%20Suite/) | Mathematical and physical accounts, models, algorithms and usable notation. | 5 | 71 | 2.017 |
 | [Human Capability Engineering](Human%20Capability%20Engineering%20DPF%20Suite/) | Human learning and somatic change, connected to capability in later work. | 2 | 34 | 1.207 |
 
@@ -41,7 +41,7 @@ These ten fields have their own files here. They are not a fifth Suite: research
 | [Financial Domain Modeling (FDM)](https://fpf.tools/FDM) · [Markdown](FINANCIAL-DOMAIN-MODELING-PRINCIPLES-FRAMEWORK.md) | Model financial positions, rights, obligations, events and payment flows without confusing their different effects. | 5 | 0.105 |
 | [Defense and Transmission Modeling (DTM)](https://fpf.tools/DTM) · [Markdown](DEFENSE-AND-TRANSMISSION-MODELING-DPF.md) | Explain how practices persist and spread, how they help or impair work, and how protective action changes those outcomes. | 9 | 0.158 |
 | [Embodied Rhythmics (RHY)](https://fpf.tools/RHY) · [Markdown](EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md) | Recognize, represent, alter and perform rhythmic relations; coordinate sound, movement, reference and simultaneous layers. | 14 | 0.271 |
-| [Music and Dance Practice Engineering (MDPE)](https://fpf.tools/MDPE) · [Markdown](MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Create, configure, perform, learn and transmit music and dance practices, including changes in tools, environments and styles. | 28 | 1.031 |
+| [Music and Dance Practice Engineering (MDPE)](https://fpf.tools/MDPE) · [Markdown](MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Create, configure, perform, learn and transmit music and dance practices, including changes in tools, environments and styles. | 28 | 1.032 |
 
 **Patterns** counts full pattern bodies. **Text, M characters** measures each complete Markdown framework, including its embedded Architectural Reference, in millions of Unicode characters with spaces and original line breaks, rounded to three decimals. These are scope indicators, not a required reading load. Suite totals sum their constituent frameworks and exclude the separate Suite Reference.
 
