@@ -7779,7 +7779,7 @@ The proposed Q2 unfamiliar-Method instrument remains a distinct design task:
 | 15 | Adaptation to a material changed condition. |
 | 10 | Checking, correction and explanation, with first and helped performance kept separate. |
 
-These sixty minutes replace the existing one-hour task; they do not add an hour to the 340-hour design. The designer must still show that the tasks fit. A proposed C.11.MV task must test its new practical-disposition contribution against current alternatives; a SYSE.23 task must distinguish target-system change from enabling-platform change and test the anticipated future benefit. Familiar cost arithmetic or reused C.11 comparison alone cannot demonstrate acquisition of either whole contribution.
+These sixty minutes replace the existing one-hour task; they do not add an hour to the 340-hour design. The designer must still show that the tasks fit. A proposed C.11.MV task must test its new practical-disposition contribution against current alternatives; a SYSE.23 task must distinguish change to the project's system-of-interest from change to its enabling platform and test the anticipated future benefit. Familiar cost arithmetic or reused C.11 comparison alone cannot demonstrate acquisition of either whole contribution.
 
 Retain recognition, first and corrected performance, new-source contribution, help, time, material errors and unfinished attempts separately. “Faster learning at unchanged correctness” needs actual comparable observations; different Methods at weeks 17 and 34 do not isolate a training effect. The three-to-five-hour instrument-authoring estimate is not the cost of a learner experiment. These specifications supply no Q2 result, pilot extension or actual learner trial.
 

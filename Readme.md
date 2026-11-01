@@ -38,7 +38,7 @@ Before applying a method, read [Using FPF Library](USING-FPF.md). It explains ho
 
 ## Keep connected reasoning in view
 
-**Long mantras** help recall how answers to related questions depend on one another. For a project, the **[system-thinking long mantra (FPF A.1.STM)](https://fpf.tools/A.1.STM)** connects intended use, a common target, functioning, construction, ways of obtaining it, capable creators and their cooperation. Its full explanation shows why those answers must fit and what to revisit when one changes.
+**Long mantras** recall how answers to related questions depend on one another. [B.5.PI](https://fpf.tools/B.5.PI) explains how a suitable mantra can help find a consequential problem before it is felt: examine its connected questions in a case and investigate a consequential gap when one appears. For a systemic project question, **[A.1.STM](https://fpf.tools/A.1.STM)** first examines receiving use and encompassing functioning at the operating time, then construction, obtaining Methods and creators. Systems-of-interest retain their project contexts and receiving connections. The full account explains how a noticed difficulty reaches those same grounds and what to revise when a premise changes.
 
 The **[control mantra (FPF C.43)](https://fpf.tools/C.43)** connects assessment of the situation, possible continuations, comparison and choice, realization, examination of what happened and revision. Its full Method explains how observations can change later choices, how means and timing constrain them, and how an intervention can develop the capability to address further problems. Technical control, economic choices and developmental recommendation retain their particular mechanisms.
 
@@ -54,13 +54,13 @@ The general methods are in **Core**: [connect development work (C.40.OD)](https:
 
 ## What is available
 
-**FPF Core** contains 403 patterns in 18.221 million characters. It supplies transdisciplinary concepts and methods, including methodological work and open-ended development. **36 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 26 belong to four Suites, and ten have their own files directly in the DPF catalogue.
+**FPF Core** contains 403 patterns in 18.251 million characters. It supplies transdisciplinary concepts and methods, including methodological work and open-ended development. **36 Domain Principle Frameworks (DPFs)** supply subject-specific methods: 26 belong to four Suites, and ten have their own files directly in the DPF catalogue.
 
 A DPF describes one field through a connected pattern language. A **Suite** describes a composite discipline through its constituent fields and their relations. An **Architectural Reference** explains how the relevant language is arranged and why: within a framework, across a Suite, or across the Library.
 
 | DPF Suite | Working subject | DPFs | Patterns | Text, M characters |
 | --- | --- | ---: | ---: | ---: |
-| [Engineering](DPFs/Engineering%20DPF%20Suite/) | Designing, realizing, changing and maintaining systems; knowledge access, semantic integration and control architecture design. | 5 | 99 | 2.791 |
+| [Engineering](DPFs/Engineering%20DPF%20Suite/) | Designing, realizing, changing and maintaining systems; knowledge access, semantic integration and control architecture design. | 5 | 99 | 2.793 |
 | [Management](DPFs/Management%20DPF%20Suite/) | Direction, goals, commitments, operations, resources, markets, communities and organizational change. | 14 | 201 | 5.497 |
 | [Foundational Thinking](DPFs/Foundational%20Thinking%20DPF%20Suite/) | Mathematical and physical accounts, models, algorithms and usable notation. | 5 | 71 | 2.017 |
 | [Human Capability Engineering](DPFs/Human%20Capability%20Engineering%20DPF%20Suite/) | Human learning and somatic change, connected to capability in later work. | 2 | 34 | 1.207 |

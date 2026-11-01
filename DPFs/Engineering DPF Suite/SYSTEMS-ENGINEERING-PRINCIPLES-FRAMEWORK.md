@@ -325,7 +325,7 @@ action that depends on it.
 
 ### SYSE.Reference:1.1 - The system-thinking long mantra in engineering
 
-The **system-thinking long mantra** holds these engineering questions together: agree the intended use and common target; connect outside effects, functioning, construction, ways of obtaining the system, capable creators and their cooperation; repeat for creators that must themselves be obtained; make the answers fit and follow results into use. The general construction and its reasons are developed in FPF A.1.STM:4.1–4.3.1. Use that pattern when the shared project account is itself unresolved. Here the connections explain how the engineering Methods form a language rather than a sequence of independent tasks.
+The **system-thinking long mantra** first looks toward intended receiving use and upward to the relevant encompassing functioning at the operating time. Recover the systems-of-interest and project contexts involved. Then look inward to construction and backward to obtaining Methods, capable creators and their cooperation; repeat for needed creators while retaining the results they serve. Make the answers fit and follow results into use. A proposed future use gives a reason for inquiry; its mechanism and conditions need engineering grounds. The general construction and its reasons are developed in FPF A.1.STM:4.1–4.3.1. Use that pattern when the shared project account is itself unresolved. Here the connections explain how the engineering Methods form a language rather than a sequence of independent tasks.
 
 The needed effect gives a reason to investigate particular functioning, but it does not determine a unique construction. A proposed construction permits some behaviour and requires particular ways of realization. SYSE.2 and SYSE.5 therefore develop related alternatives; SYSE.6 compares whole candidates under the conditions that matter. A proposal cannot borrow performance from one configuration and realization cost from another. SYSE.7 keeps the related engineering descriptions usable together. SYSE.8 develops the offering and provider concept alongside the technical concept, so the promise to a user and the ways of fulfilling it constrain the same proposed result.
 
@@ -333,7 +333,7 @@ Obtaining the chosen system also depends on its creators. SYSE.3 connects recurs
 
 Configuration and evidence keep this reasoning about the same proposed or actual system. SYSE.9 and SYSE.10 connect inquiry and qualification to the claim at issue; SYSE.13 preserves the configuration distinctions on which the claims depend. SYSE.11 and SYSE.14 distinguish obtaining an increment from authorizing its use, while SYSE.19 traces a changed source or description into the engineering decisions that relied on it. SYSE.15 revises the repertoire of engineering Methods when that is the contribution in question. The following Reference sections develop these relations and their limits.
 
-In actual work, a test result, an available component or a missing production capability can be the first thing known. Its consequences may travel back to functioning or intended use, and several alternatives may develop together. A team needs enough compatible answers for the decision now being made, not a completed answer to every possible project question. Keep supported local results while revising the premises that no longer hold.
+In actual work, a test result, an available component or a missing production capability can be the first thing known. The mantra can also expose an unanswered question before any difficulty is felt. A.1.STM:4.0 connects these entries: recover or reuse the grounds in intended use and wider functioning, then investigate the consequential construction or creation dependency. New evidence can reopen those grounds, and alternatives may develop together. A team needs enough compatible answers for the decision now being made, not a completed answer to every possible project question. Keep supported local results while revising the premises that no longer hold.
 
 ## SYSE.Reference:2 - One System can appear in several engineering structures
 
@@ -875,8 +875,9 @@ changes later questions about use, boundary, architecture, realization Work, evi
 The first result is a **project-system choice account** stating the selected actual System or intended referent,
 the current reason for that decision, and what may reopen the choice.
 
-First useful move: name one candidate actual System or intended referent, state the present use or change reason
-for choosing it, and write the main unresolved assumption. An individual can use this provisional choice to ask
+First useful move: recover the present use or change reason, then name a candidate actual System or intended
+referent and the main unresolved assumption. For a systemic project choice, A.1.STM recovers the intended
+use and wider functioning before construction and choices about creators are justified. An individual can use this provisional choice to ask
 the next use-and-system concept question. Before coordinated Work relies on a common focus, compare the
 participants' intended referents and how their contributions connect, as in §4.4.1. Expand the account only when
 disagreement, a valuable alternative, or a later answer can change its use.
@@ -895,10 +896,14 @@ description, a collection, a structure, or a transformation—keep that subject 
 or constrains its claim. If the issue is only whether a named entity is a System, use `A.1.SCR`. If the System
 has already been selected and the live question is how it participates in use, continue with `SYSE.2`.
 
-At the first consequential use of source wording such as *system of interest*, *target system*, *our system*,
-*product*, or *solution*, ask one question: **is the project choosing which actual System or intended referent
-it will change?** If yes, state the candidate and its current use or change reason. *Project
-system-of-interest* names the designation made for this project; it is not another System kind.
+At the first consequential use of wording such as *system of interest*, *our system*, *product*,
+*solution*, or the source phrase *target system*, ask: **which actual System or intended referent
+occupies the project system-of-interest role, and what use or other agreed trajectory gives it that role?**
+State the candidate and its current reason. *Project system-of-interest* names the system's place relative
+to this undertaking and its contributions, not another System kind. A designation expresses that choice;
+A.1.STM explains its relation to local attention and the participants' shared reasoning. One designation
+settles the selected question, not a universal limit of one SOI per project. Keep additional systems and
+related projects separately identifiable where their uses or shared conditions constrain the decision.
 
 ### SYSE.1:2 - Problem
 
@@ -937,6 +942,13 @@ Keep related projects separate. A manufacturer's planning-improvement project, a
 project, and an integration provider's deployment project may use the same software and evidence without making
 the same project-system choice. A programme or portfolio may coordinate shared matters—for example, priority,
 resources, investment, risk, or evidence—without thereby becoming a composite acting System.
+
+Keep the reason connecting these undertakings visible. A planning or organization improvement can have its
+own result and completion while serving the manufacturer's products and their use. Its separate budget or
+project name alone does not replace those products in the grounds for allocating resources. Likewise,
+inspecting or repairing the vendor's software does not change the manufacturer's common purpose. Use
+A.1.STM:4.1 when the project role, receiving use or changed purpose is in doubt; preserve legitimate
+separate product projects and their actual contributions to one another.
 
 #### SYSE.1:4.2 - Recover the direct subject before forcing a System choice
 
@@ -9450,7 +9462,7 @@ basis.
 
 ### SYSE.23:11 - SoTA and Source Use
 
-Continued engineering can require changes in a target System, its builder platform or both. Relate those alternatives to product and problem portfolios, characterize the changes they make possible, and examine reversibility and the observations that would reopen a choice. Apply the builder question recursively when changing a builder requires changing its own means of construction.
+Continued engineering can require changes in a project system-of-interest, its builder platform or both. Relate those alternatives to product and problem portfolios, characterize the changes they make possible, and examine reversibility and the observations that would reopen a choice. Apply the builder question recursively when changing a builder requires changing its own means of construction.
 
 
 
