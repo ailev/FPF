@@ -578,15 +578,6 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | G.12 | **DHC Dashboards (Discipline-Health Time Series and Views)** | Stable | *Keywords:* dashboard, DHC, discipline health, coordinate results, DHCReplayBasis, DHCSeries, time series, views, optional publication, selective refresh. *Queries:* "How can I arrange exact discipline-health results across windows without losing their comparison basis?", "When is a local dashboard view sufficient?", "How do I publish or refresh a view when a receiving use needs it?" | **Builds on:** G.Core, C.21, G.6, G.11, A.19, G.0, F.17/F.18, E.5.2, E.10. **Coordinates with:** G.5 (selector set-result outputs), G.7 (crossings/CL/Φ_plane pins), G.8 (maturity ladder panel), G.10 (shipping inclusion), C.18 and C.19 (QD/OEE telemetry), G.2 (SoTA palette hooks). |
 | G.13 | **External Interop Hooks for SoTA Discipline Packs (conceptual; normative when used)** | Stable | *Keywords:* interop, external index, claim mapper, mapping policy, plane map, embedding spec, `ExternalIndexCard@Context`, `ClaimMapperCard@Context`, `InteropSurface@Context`, CHR-typed SoS features, edition pins, UTS twins, RSCRTriggerKindId, telemetry pin. *Queries:* "How does FPF integrate external scholarly indexes into Part G?", "What is an ExternalIndexCard / ClaimMapperCard / InteropSurface in FPF?", "How to make interop refreshable with RSCR trigger kinds and edition pins?" | **Builds on:** G.Core, G.2–G.7, G.9–G.12, A.19, A.18, G.0, F.17, E.5.2, E.18. |
 
-
-[fpf-b5-4-ref]: #b54---recognize-a-reusable-concept-in-a-concrete-situation
-[fpf-a15-9-ref]: #a159---use-or-request-a-bounded-result-from-another-practice
-[fpf-b5-5-1-ref]: #b551---a-counterexample-becomes-a-constructive-mathematical-question
-[fpf-b5-4-1-1-ref]: #b5411---propose-a-first-model
-[fpf-f0-2-5-5-ref]: #f0255---compare-causal-accounts-on-one-sensor-case
-[fpf-a6-3-rt-4-1-ref]: #a63rt41---ordinary-representation-move
-[fpf-c28-4-4-ref]: #c2844---identification-result
-
 # First Principles Framework (FPF) Readme
 
 The Library's [document identities and current carriers (Library.Reference:11.1)](https://github.com/ailev/FPF/blob/main/FPF-LIBRARY-REFERENCE.md#libraryreference111---document-identities-and-current-carriers) identify the complete publications by DocID and full title. Keep complete PatternIDs or SectionRefs and enough context to identify the document when a reference must remain usable beyond its present hyperlink. Add a document qualifier only when that identity is not already clear.
