@@ -14,7 +14,7 @@ Links to fpf.tools open readable text; **Markdown** links and the CAD entries be
 
 ## Keep the project reasoning together
 
-The **[system-thinking long mantra (FPF A.1.STM)](https://fpf.tools/A.1.STM)** starts with receiving use and encompassing functioning at the operating time, then connects construction, ways of obtaining the system, capable creators and their cooperation. Project systems-of-interest can differ across related undertakings; their contributions must fit the receiving conditions. The mantra can expose a consequential gap before anyone complains, while its developed explanation connects a noticed difficulty to the same project reasoning.
+The **[system-thinking long mantra (FPF A.1.STM)](https://fpf.tools/A.1.STM)** starts with receiving use and encompassing functioning at the operating time, then connects construction, ways of obtaining the system, capable creators and their cooperation. The system-of-interest (SoI) keeps the product purpose in view while the creators and their means receive full engineering treatment. An independent supplier's product can be a means for another producer; a separate contract to improve the same creator keeps the existing product reference. Local work has its own scope and acceptance conditions. The mantra can expose a consequential gap before anyone complains, while its developed explanation connects a noticed difficulty to the same project reasoning.
 
 Use the [connected explanation in Engineering.Reference:0.5](ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference05---the-system-thinking-long-mantra-across-engineering-contributions) to see how the Suite's contributions constrain one another. The mantra's order helps explain and remember the reasoning; actual work can begin at any consequential question and return as answers change. The full Methods supply the knowledge needed to answer those questions.
 
@@ -42,7 +42,7 @@ The [Engineering Architectural Reference](ENGINEERING-DPF-SUITE-REFERENCE.md) he
 
 | Framework | What you can work on | Patterns | Text, M characters |
 | --- | --- | ---: | ---: |
-| [Systems Engineering (SYSE)](https://fpf.tools/SYSE) · [Markdown](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Define the system and intended use; compare designs and ways to obtain them; realize, integrate, qualify and change the result. | 54 | 1.835 |
+| [Systems Engineering (SYSE)](https://fpf.tools/SYSE) · [Markdown](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Define the system and intended use; compare designs and ways to obtain them; realize, integrate, qualify and change the result. | 54 | 1.841 |
 | [Maintenance Engineering and Management (MNT)](https://fpf.tools/MNT) · [Markdown](MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Select maintenance policy from condition and failure knowledge; prepare interventions, restore functioning and qualify return to use. | 16 | 0.252 |
 | [Knowledge-Corpus Access Engineering (KCAE)](https://fpf.tools/KCAE) · [Markdown](KNOWLEDGE-CORPUS-ACCESS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Engineer arrangements for finding, reading and using documentary knowledge, including links back to source passages, delivery and coherent updates. | 11 | 0.242 |
 | [Semantic Integration Engineering (SIE)](https://fpf.tools/SIE) · [Markdown](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Make separately governed meanings usable together through models, mappings, interfaces, validation and response to change. | 13 | 0.315 |

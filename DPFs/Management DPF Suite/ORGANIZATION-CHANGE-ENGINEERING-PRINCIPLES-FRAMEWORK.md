@@ -59,9 +59,9 @@ Search the Keywords & Search Queries column for a difficulty, subject, or result
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [OCE.1 - Identify the Changed Organization and Intended Contribution](#oce1---identify-the-changed-organization-and-intended-contribution) | Stable | *Keywords:* change focus, organization boundary, outside contribution. *Question:* Which organization are we changing, and what contribution should guide the change? | FPF A.1.SCR, A.1.CSD, A.15.6 |
+| 1 | [OCE.1 - Identify the Changed Organization and Intended Contribution](#oce1---identify-the-changed-organization-and-intended-contribution) | Stable | *Keywords:* change focus, organization boundary, enterprise, internal enterprise, extended enterprise, shared service, product use. *Question:* Which organization are we creating or changing, and which contributions and obligations should guide its design? | FPF A.1.SCR, A.1.CSD, A.15.6 |
 | 2 | [OCE.2 - Recover Current Organization Work and Arrangement](#oce2---recover-current-organization-work-and-arrangement) | Stable | *Keywords:* current organization, actual Work, formal and informal arrangements. *Question:* How does the organization get work done, and which relations support or obstruct it? | OCE.1; FPF A.22, A.2.1, A.13, A.15.1 |
-| 3 | [OCE.3 - Generate and Compare Organization Concepts](#oce3---generate-and-compare-organization-concepts) | Stable | *Keywords:* organization concepts, alternatives, coordination, independent decisions, initiative. *Questions:* Which materially different organization concepts are worth comparing? What preparation and interaction let participants make independent decisions whose contributions remain usable together? | OCE.1, OCE.2; FPF A.22, C.17, conditional C.18, C.11 |
+| 3 | [OCE.3 - Generate and Compare Organization Concepts](#oce3---generate-and-compare-organization-concepts) | Stable | *Keywords:* organization concepts, alternatives, coordination, independent decisions, economic mandate, initiative. *Questions:* Which materially different organization concepts are worth comparing? What authority, preparation and support let participants make independent decisions whose contributions remain usable together? | OCE.1, OCE.2; FPF A.22, C.17, conditional C.18, C.11 |
 
 **Part II - Design Organization Relations and Work Arrangements**
 
@@ -106,6 +106,14 @@ Organization Change Engineering connects a proposed contribution with the relati
 These are selected examples of the language at work. Enter where you have adequate inputs, and stop at the result your decision needs. The [Table of Contents](#table-of-contents) gives direct access to the methods; the [Architectural Reference](#organization-change-engineering-principles-framework-architectural-reference) explains their boundaries and shared conditions. You can ask an assisting agent to explain a pattern or comment on your case in the language of your work, without framework jargon.
 
 The cases are constructed illustrations. Their authority, service, learning and protection results are supplied premises, not evidence about actual organizations. In a real application, obtain the professional contribution or decision from the participant who can supply it.
+
+### OCE-CREATOR - Develop an organization for the products it must support
+
+- **Situation:** A new unit, shared service or outsourced reorganization is proposed, but its structure and budget are clearer than the products and uses it must support.
+- **Question:** What must this organization be able to provide, who can make the necessary decisions, and what finite result can its change project accept?
+- **First useful result or blocker:** A bounded organization-change focus with the relevant product uses, obligations, capability and local acceptance; or the specific product, authority or evidence question still open.
+- **Start with:** [OCE.1:4.1.1](#oce1411---derive-the-organization-change-focus-from-product-use) for that focus. Use [OCE.3:4.1.1.2](#oce34112---make-an-economic-mandate-work-through-actual-authority) when economic authority changes the arrangement. The [shared-laboratory case](#oce354---keep-two-product-lines-in-a-shared-laboratory-decision) shows a resource conflict resolved without erasing either product.
+- **Stop or return:** Reuse an adequate existing focus. A routine capacity decision can finish in Operations; enter organization design only when a changed arrangement is needed. A new contractor or contract for the same organization work preserves its product basis.
 
 ### OCE-PUMPWORKS - Compare weekly AI-inspection work arrangements while service continues
 
@@ -191,7 +199,7 @@ The language offers related Methods that can be used in different combinations. 
 
 Continuing organization development concerns how an organization can keep making worthwhile contributions as its situation changes. OCE supplies the deliberate change of organization relations and capability within that broader work. Strategy can change the intended direction; Operations can reveal an unworkable commitment; human learning can supply a needed capability; product or platform engineering can change what support is possible. Each contribution retains its own result and professional basis.
 
-A bounded increment can therefore lead to further development without turning into one indefinitely continuing project. In the [PumpWorks application](#oceapplication1---app-oce-01---pumpworks-weekly-ai-inspection-releases), weekly evidence work becomes possible under additional conditions. Later observations show fewer late evidence returns alongside more late service follow-ups. The next change concerns a support assignment and its work interval. The organization can retain the useful contribution while repairing that relation, then observe what follows. A revisable programme can connect such efforts through actual commitments and dependencies; its description does not make future work performed or require a fixed maturity ladder.
+A project is a temporary body of work with a beginning and a completion or termination condition. The organization performs projects and continuing operational work; it can outlast both a change project and a particular product. Actual performances are Work, while intended future work remains in plans. A bounded increment can therefore lead to further development without turning into one indefinitely continuing project. In the [PumpWorks application](#oceapplication1---app-oce-01---pumpworks-weekly-ai-inspection-releases), weekly evidence work becomes possible under additional conditions. Later observations show fewer late evidence returns alongside more late service follow-ups. The next change concerns a support assignment and its work interval. The organization can retain the useful contribution while repairing that relation, then observe what follows. A revisable programme can connect such efforts through actual commitments and dependencies; its description does not make future work performed or require a fixed maturity ladder.
 
 Keep the subject of development explicit:
 
@@ -203,6 +211,10 @@ Keep the subject of development explicit:
 | OCE practitioners must continue a useful way of doing organization-change work across cases. | OCE.17 examines how the operative Method is encountered, criticized, selected, enacted, retained or lost. OCE.15 and Method Engineering receive a Method defect; HCD receives a human-development question. A source collection or workshop can support continuation, but later practice supplies its evidence. |
 
 Use these distinctions to connect development contributions: later work can expose a learning need, improved support can make existing capability usable, and criticism of an OCE case can improve the Method. The relevant result crosses between practices only when it changes the receiving question.
+
+Creating or changing an organization concerns a creator with its own functions, architecture, means, constraints and acceptance. The product-side system-of-interest (SoI) remains the common reference for why those capabilities are needed. OCE.1:4.1.1 develops that focus, including several products and a supplier's bounded contribution; OCE.3 compares arrangements; OCE.9 establishes and accepts the supported capability. An organization-change project can finish before the future product is used. Its completion establishes the agreed contribution and limits, while product acceptance and later use retain their own grounds.
+
+OCE.1:0.2 distinguishes organization, organizational unit, enterprise, internal enterprise and extended enterprise. Use the distinction when it changes a decision about an offering, commitment, resource or consequence. OCE.3:4.1.1.2 develops the corresponding mandate through the actual holders of authority. A service can remain an ordinary unit with useful local discretion; it need not become an internal enterprise to do its work well.
 
 ## OCE.Reference:2 - Actual, formal, and possible claims remain distinct
 
@@ -312,7 +324,7 @@ This publication contains all seventeen pattern bodies. For the selected use, ga
 
 | Working question | Start or continue with | First returned result | Main return or continuation |
 | --- | --- | --- | --- |
-| Which organization and contribution are being changed? | `OCE.1` | Bounded organization-change focus | `OCE.2`, `OCE.3`, or the direct owner of a non-OCE question |
+| Which organization are we creating or changing, and which product uses and contributions govern that decision? | `OCE.1` | Bounded organization-change focus, including the relevant obligations and local completion | `OCE.2`, `OCE.3`, or the direct owner of a non-OCE question |
 | What Work and relations obtain now? | `OCE.2` | Grounded current organization account | `OCE.3` or the exact missing evidence/relation owner |
 | Which materially different organization concepts deserve comparison? | `OCE.3` | Status-preserving concept set and decision | `OCE.4`, conditional `OCE.5`, `OCE.7`, or `OCE.8` |
 | Which contribution paths and specialization boundaries should guide design? | `OCE.4` | Contribution-architecture decision and possible-future description, including relation specifications | `OCE.5`, `OCE.7`, `OCE.9` for realization, or the owner of the needed relation |
@@ -341,6 +353,8 @@ Choose the next pattern from the result needed, not from a presumed lifecycle. O
 Recover a Method across descriptions, instruments, practitioners and variants while distinguishing it from performed Work and capability. Recover each project, process or case account's direct subject first: a plan, reusable procedure and unresolved authority claim can contribute to the same change without describing the same Work. Common-Work viewpoints are useful when that Work is actually their shared subject. Use only the correspondences needed for assignments, participation or capability development. Learning, professional Work, organization and platform development, and inquiry can contribute at different scales; distinguish their results when choosing or revising a change.
 
 Each pattern's SoTA-Echoing section relates its working answer to sources, alternatives and limits. OCE.1–OCE.3 compare their focus, reconstruction and concept-generation methods at a bounded common effort and identify the affected body sections. The summaries below highlight contributions that span several decisions or impose a significant reliance boundary.
+
+The organizational distinctions also draw on Anatoly Levenchuk's *Systems Modeling* (2026 guide), in its discussions of system-in-hand and organizational units, and *Systems Management* (2023 guide), in its discussions of management as engineering organizations, entrepreneurship and the firm as a product. They supply the connection between product use and the organization as creator, organization through effective obligations and authority, and separation of product, firm and assets. These source accounts contain differing uses of system-of-interest in engineering and investment discussion. OCE selects the product-side reference for organization engineering while keeping a firm available for economic appraisal. Its enterprise definition retains commercial purpose but permits an internal unit with an actual economic mandate; that extension is the Library's synthesis, not the older source's legal-entity definition. The organization-design sources below inform the comparison of arrangements.
 
 For the early design questions, the [Star Model](https://jaygalbraith.com/wp-content/uploads/2024/03/StarModel.pdf) supplies a serious policy-fit alternative. OCE.3 adapts its constructive lesson: grouping, information, decisions, participation and support must work together, and compensation for an adverse interaction belongs in the compared candidate. The [current Team Topologies concepts](https://teamtopologies.com/key-concepts) supply a serious conditional team/interaction alternative; their scope is tested against the actual contribution, independent authority and continuing-service conditions. These comparisons do not establish empirical superiority of OCE.
 
@@ -447,15 +461,15 @@ For source qualifications, citation and edition information, see the [Sources an
 > **Type:** Method pattern
 > **Status:** Stable
 >
-> **Primary working result:** a **bounded organization-change focus** naming the actual organization System, intended outside contribution, changed Work and capability questions, consequence-bearing Systems, decision and authority boundary, evidence gaps, next result, and one observation that reopens the focus.
+> **Primary working result:** a **bounded organization-change focus** naming the organization to create or change, its actual or proposed status, the outside contributions and obligations relevant to the decision, changed Work and capability questions, consequence-bearing Systems, authority, local completion, evidence gaps, next result, and one observation that reopens the focus.
 
 ### OCE.1:0 - Use This When
 
-Use this pattern when a request says “transform the organization”, “change the operating model”, “reorganize the team”, or “become AI-first”, but nobody can yet state which organization is changing or what outside contribution should improve. Enter when a chart, programme name, leader’s remit, or population label is standing in for the organization and the affected Work.
+Use this pattern when a request says “set up a shared service”, “transform the organization”, “change the operating model”, “reorganize the team”, or “become AI-first”, but nobody can yet state which organization is needed or what outside contribution should improve. Enter when a chart, programme name, leader’s remit, or population label is standing in for the organization and the affected Work.
 
-Begin with the decision that needs the focus and the contribution expected outside the organization boundary. Identify the actual organization System when systemhood matters. Keep the actual organization distinct from a possible future organization, a target chart and the programme for changing it. Treat a coalition, provider network or list of people as that organization only when the required System and relation claims are supported.
+Begin with the decision that needs the focus and what the organization must make possible outside its boundary. For work on a creator, recover the relevant products in their intended use before choosing the creator's arrangement. Identify an existing organization or describe the organization to be created; keep its actual or proposed status explicit. A chart and a plan for realizing the organization are descriptions. Treat a coalition, provider network or list of people as an organization only when its System and organizing relations are supported.
 
-The first useful result is small: one organization, one intended outside contribution, the Work and capability questions that may need to change, the authority under which the focus can be used, and a bounded affected-System account or explicit discovery gap.
+The first useful result is as small as the decision permits: the organization, the intended contribution or related contributions it must provide, the Work and capability questions that may need to change, the applicable authority, and affected Systems or an explicit discovery gap. One contribution can suffice. A shared capability decision must retain the different product uses and obligations that can change it.
 
 Do not use OCE.1 to choose strategy, grant corporate or legal authority, manage continuing operations, design a product, develop one person’s capability, or decide a target organization. Obtain the specialist result when it is the current blocker. Return to OCE.1 only if it changes the organization, contribution, affected Work, authority, or consequence boundary.
 
@@ -463,14 +477,32 @@ Do not use OCE.1 to choose strategy, grant corporate or legal authority, manage 
 
 | Name used here | Meaning |
 | --- | --- |
-| changed organization | The actual organization System selected for one change decision. A business-unit name or chart box may help locate it but does not establish its boundary or relations. |
-| intended outside contribution | The contribution the organization is intended to make to a containing, using, receiving, or neighboring System under stated conditions. It orients change; assess its value and achievement separately. |
+| changed organization | The organization selected for creation or change, with its actual or proposed status stated. A business-unit name or chart box helps locate it; its boundary and organizing relations require their own basis. |
+| intended outside contribution | A result or preserved condition the organization is intended to supply to a containing, using, receiving, or neighboring System. Several such contributions can govern one shared-capability decision. Assess their value and achievement separately. |
 | changed Work question | A question about the actual or intended Work whose result, performer, coordination or conditions may need to change. Distinguish this Work from the Work of the change programme. |
 | organization capability question | A question about the named organization’s ability to perform a named Work family under stated conditions. Capability is not a position, tool, training event, resource, assignment, or isolated result. |
 | decision-relevant organization facts | Separately governed claims about actual Work occurrences or intended Work, supplied results and contributions, holder assignments, decision authority, resource access, information use, material transfer, service provision, coordination, and participation. These fact questions help choose what to investigate next. |
 | affected-System account | The ordinary `A.1.CSD` result for Systems whose decision-relevant characteristics may change through supported relations or modal paths. Assess harm, benefit, interest and causal effect separately. |
 | authority boundary | The independently supported relation under which a named System may issue or use the current organization-change decision. Sponsorship, responsibility, capability, budget, and assignment do not imply it. |
 | organization-change focus | The bounded result returned by this pattern. It selects attention and downstream questions; it does not select an organization concept or authorize change Work. |
+
+#### OCE.1:0.2 - Organizations, enterprises and joint work
+
+An **organization** is a System of agents and the means of their work, organized through effective, recognized obligations and authority. These relations establish who may decide, use means, assign and accept work, and enter commitments. An organization has an actual ability to coordinate work; a common name or chart alone does not establish it. A proposed organization remains a design until the needed relations and means are established.
+
+An **organizational unit** is an organized constituent of another organization. A department, council, temporary project group, or one agent with assigned means can be a unit. Its functional roles, institutional positions, holders and assignments remain different matters. A unit can perform several roles, and a position can continue while its holder changes.
+
+An **enterprise**, in this Library, is an organization pursuing a defined product direction with a commercial purpose: an expected positive economic result from its offering. It has a mandate to form or change the offering, undertake economic obligations for providing it, choose means within permitted limits, and bear the assigned consequences for continuing that direction. Identify to whom receipts, material costs and risks accrue when judging the result. An actual loss does not by itself end enterprise status; purpose, arrangement and achieved return are different claims. Noncommercial organizations remain organizations without needing this classification.
+
+An **internal enterprise** is such an enterprise that is an organizational unit of another organization. Its mandate specifies the offering and commitments it may change, means it may use, how receipts and costs are attributed, who accepts its result and who can continue, revise or stop the direction. It can operate through the containing organization's legal arrangements. A separate legal entity and unrestricted independence are unnecessary; the containing organization's reserved rights and other participants' obligations still apply.
+
+A service department performing assigned work within an externally set budget remains an ordinary unit when others retain the offering and economic decisions. A manager, internal tariff or profit-centre label supplies no missing mandate. If that unit receives the relevant rights and consequences, its arrangement changes and internal-enterprise classification can become warranted. Freedom to choose a technical method or save some budget is insufficient by itself.
+
+An **extended enterprise** is an organization of joint work by several organizations that retain their own boundaries. Their mutual obligations, decision rights, result transfers and resource arrangements enable coordinated work for named systems and uses. Recover that organization from the actual agreements and work. A supplier graph, common owner or sequence of purchases alone does not establish it. Participants can belong to several such arrangements without committing all their work and means to one project.
+
+These distinctions use different grounds. Enterprise concerns economic purpose and mandate; extended enterprise concerns the organization of joint work across organizations; internal concerns a constituent relation. An extended enterprise also qualifies as an enterprise only when its economic arrangement meets that definition. Legal-entity status is a separate institutional matter. A common boss, legal entity or budget is not required for coordinated joint work, and a participant's commercial purpose need not be shared by every other participant.
+
+Use ordinary names and questions first: which product, which unit, whose promise, whose decision, whose means? Classify only where the difference affects the work. OCE.2 recovers evidence of existing relations. For a proposed organization, recover the contributors and relations the concept would reuse, keeping unestablished contributions as assumptions. OCE.3:4.1.1.2 develops a proposed mandate, and OCE.6 establishes the necessary assignments and enabling relations.
 
 ### OCE.1:1 - Problem Frame
 
@@ -490,14 +522,14 @@ The change effort then has no truthful stop because neither the receiving contri
 | --- | --- |
 | Urgency | Leaders want a target quickly, while a false organization boundary makes later speed expensive. |
 | Familiar labels | Charts and programme names aid orientation, while they can hide the actual System and relations. |
-| Outside contribution | One contribution should orient the focus, while an organization can make several contributions to several receivers. |
+| Outside contribution | The focus must be bounded, while a shared organization decision can depend on several products and receivers with different obligations. |
 | Consequence breadth | Employees and customers are visible, while providers, service Systems, products, natural Systems and future users may also bear consequences. |
 | Authority | A bounded decision needs a legitimate issuer, while responsibility, influence, sponsorship, and access can be mistaken for authority. |
 | Reopening | The focus must be useful now, while evidence about Work, contribution, authority, or affected Systems can defeat it. |
 
 ### OCE.1:4 - Solution
 
-Select the smallest organization-and-contribution focus that can orient the current change decision. Recover the actual organization through `A.1.SCR` when needed, use `A.1.CSD` for affected-System discovery, then state the intended contribution, Work and capability questions, authority, participation questions and result needed by downstream patterns.
+Select the smallest organization-and-contribution focus that can orient the current change decision without dropping an obligation that could change it. Establish the product uses and contributions needed, then locate the organization and capability to create or change. Use `A.1.SCR` when an actual System claim needs recovery and `A.1.CSD` for affected-System discovery. Return the Work and capability questions, authority, participation questions and local result needed by downstream patterns.
 
 Use an adequate existing strategy or organization-change brief as input. If it already establishes the contribution, organization, authority and consequence boundary needed here, reuse that content. Obtain a strategy result when the direction itself is disputed; only a changed organization question returns here.
 
@@ -506,13 +538,31 @@ An ambiguous transformation request is enough to enter when the receiving decisi
 #### OCE.1:4.1 - Pattern-Use Unfolding
 
 1. **Name the receiving decision and first user.** State who needs the focus, what decision it enables, the horizon, and what useful result permits a stop.
-2. **List materially different organization candidates.** Consider a formal entity or unit, an organization spanning cross-boundary Work, or one including providers when each is plausible. Keep a return to a non-organization question available. Use `A.1.SCR` only when System identity changes the decision.
-3. **State the intended outside contribution.** Name the receiver, relevant conditions, and supplied result or preserved condition. Keep strategy, value, benefit, and performance as separate questions.
+2. **Recover the intended outside contributions.** Name the products or other results, receivers, uses, conditions and commitments that can change the decision. For creator work, follow §4.1.1 from product use to needed capability and local completion. Reuse a sufficient account; obtain a missing strategy or subject result when it changes the focus.
+3. **List materially different organization candidates.** Consider a formal entity or unit, an organization spanning joint work, or one including providers when each is plausible. Use §0.2 to distinguish the arrangement where that matters and `A.1.SCR` when System identity changes the decision. Keep actual organizations, proposed organizations and a return to a non-organization question distinct.
 4. **Recover changed Work and capability questions.** Name the Work families, result or contribution relations, performer or coordination facts, and capability claims that could change. Do not infer them from a chart, proposed position, plan, or tool.
 5. **Name other decision-relevant organization facts.** Ask which holder assignments, authority relations, resource-access relations, information-use relations, material transfers, service provisions, coordination occurrences, and participation facts must be recovered next. If a source calls these an “interface”, select the boundary and direct relations before relying on it.
 6. **Discover consequence-bearing Systems.** Use `A.1.CSD` from the organization, contribution, affected Work, horizon, and decision. Include employees, providers, customers, products, service Systems, neighboring organizations and other material Systems when supported.
 7. **Recover authority and specialist returns.** Name the authority subject, decision scope, window, and basis. Return unresolved strategy, governance, legal, safety, labor, operations, engineering, finance, or person-capability results to their owners.
-8. **Select, return, and reopen.** State the organization, contribution, included questions, affected-System scope, exclusions, rejected candidates, next result, and one observation that reopens the focus.
+8. **Select, return, and reopen.** State the organization and its status, contributions and obligations, included questions, affected-System scope, exclusions, rejected candidates, local completion and next result. Name an observation that reopens the focus, such as a changed product use, commitment or authority.
+
+##### OCE.1:4.1.1 - Derive the organization-change focus from product use
+
+Start with what should become possible or remain possible when the product is used. Name the system being created, maintained or changed, its users and relevant surrounding conditions. In a service, identify the system whose condition the service changes or preserves. Recover the obligations that depend on this use: a promised delivery, acceptable result, response interval or continuing availability. The user, beneficiary, buyer, payer and investor can be different parties. Funding makes work possible; usefulness and fitness for use need their own grounds.
+
+Then work back to what the creator must be able to supply and which organizational change could obtain that ability. The reason for a workshop can be repeatable production of a surface suitable for a customer's assembly under an agreed order flow. For this machining service, the changed part in use is the system-of-interest (SoI); the workshop is the creator. The workshop needs the relevant technique, people, measurement, material and equipment together. Purchasing a machine closes a supply contribution; it leaves workshop capability open if the machinist, measurement or material access is missing. This order of justification permits iteration when a product or means proves infeasible; it is not a calendar waterfall.
+
+**Keep the product and the organization in view together.** In creating or changing an organization as creator, retain the product-side SoI as the common reference for the work. Name the organization as the creator being engineered, or the system-in-hand, and design it fully: its use, functions, arrangement, characteristics, limits, means of realization and its own creators. These engineering questions do not require renaming it SoI. Its project can have a separate budget, contract and acceptance. Outsourcing the same reorganization, opening a new contract or calling the contractor a producer of enterprises leaves this product basis unchanged.
+
+**Retain several uses when the decision is shared.** For a common laboratory, recover the test regimes, result requirements, timing and obligations of the product lines that use it. Keep differences that alter capacity, equipment, competence or priority. Group common demands, then examine their joint use of scarce means. Neither a single convenient product nor an undifferentiated name such as "pump products" is sufficient when the differences change the design. The focus need not cover unrelated product work. OCE.3:5.4 shows how two uses alter a shared laboratory decision.
+
+**Distinguish a supplier's product from the same creator work under a new contract.** A machine-tool maker can have the tool as its SoI while the receiving factory uses it as a creator. An engine maker can supply an engine for a stated aircraft application or class of applications while an aircraft maker treats it as a subsystem. Recover the supplier's substantive obligation for a usable supply, the receiving use, actual decision boundaries and acceptance. A customer may specify the design and use concept; owning the whole product strategy is not a prerequisite. These are grounds for judgement, not an automatic test for assigning SoI. Keep the supplier's responsibility within its agreed scope. Moving the factory's existing organization-change work to a consultant leaves it work on the aircraft's creator. Renaming that work or its payment does not create the supplier case.
+
+A firm can itself be bought, sold or valued, and its assets can have value separately from continued production. Keep that economic object and decision available. In engineering the operating organization, justify its capability through the products or classes of future use it is to support. A price or transaction does not replace this basis. A real change of product direction requires its own decision and revised grounds.
+
+**Make local completion finite.** Identify the capability or other contribution this project must deliver, who may accept it, the conditions to demonstrate and the obligations that continue afterwards. OCE.9 qualifies the realized capability. Acceptance can occur before future product operation when the agreed evidence supports the local claim. Preserve assumptions about future use, accepted risks and who will decide when new evidence arrives; the contractor's responsibility stays within its agreed scope.
+
+When intended use is uncertain, retain specific possibilities and the inquiry needed to distinguish them. A bounded research project can finish with a warranted answer or a reason to stop expenditure. Independent research retains its own knowledge question and subject standards; research for a capability decision additionally establishes what that answer warrants for the decision. A research result is not realized organization capability. Noncommercial contributions, preservation of an existing service and preparation for future use can justify work without an immediate sale or an invented finished product.
 
 #### OCE.1:4.2 - Record the Result
 
@@ -520,16 +570,16 @@ An ambiguous transformation request is enough to enter when the receiving decisi
 | --- | --- |
 | use boundary | First user, receiving decision, horizon, and useful stop. |
 | organization candidates | Candidate Systems or intended referents, supporting and missing relations, rejected alternatives, and selected organization. |
-| intended contribution | Receiver, contribution claim, conditions, and unresolved value or performance questions. |
+| intended contribution | Relevant product uses or other results, receivers, obligations, conditions, and unresolved value or performance questions; retain several where the decision depends on them. |
 | changed Work and capability | Work families, current or intended status, supplied-result or contribution relations, and capability questions. |
 | organization facts to recover | Named assignment, authority, access, information-use, transfer, service, coordination, and participation questions; no catch-all relation. |
 | affected Systems | `A.1.CSD` reference or bounded Systems, supported relations or modal paths, possible changed characteristics, gaps, and specialist returns. |
 | authority | Subject, decision scope, window, basis, and evidence boundary; otherwise an authority blocker. |
-| continuation | Next useful result and one observable reopen condition. |
+| continuation | Local result, acceptance boundary and remaining obligations; next useful result and one observable reopen condition. |
 
 #### OCE.1:4.3 - What Changes in Practice
 
-The practitioner stops treating “the organization” as self-evident. Every downstream concept or intervention must answer to one contribution, actual Work and capability questions, affected Systems, and a real authority boundary. The focus remains small without erasing providers, customers, continuing service, or specialist constraints.
+The practitioner can explain which organization is being engineered, which product uses or other contributions justify its capability, and what its change project can finish. Downstream concepts answer to those contributions, Work and capability questions, affected Systems and actual authority. The focus remains bounded while retaining the products, providers and continuing obligations that can change the decision.
 
 ### OCE.1:5 - Archetypal Grounding -- PumpWorks AI-Inspection Releases
 
@@ -548,7 +598,7 @@ Changed Work questions concern product definition, electrical and software integ
 
 Affected-System discovery includes the contributing practitioners, provider, customers and service personnel, released products, service Systems, and other Systems reached through supported safety, information, Work, or use relations. The focus records unknown customer-use and provider-authority paths.
 
-The engineering director’s sponsorship is not universal authority. The next `OCE.2` account must recover actual Work, supplied-result and information-use relations, holder assignments, safety and release authority, rig access, provider service and support relations, participation, and evidence windows. Reopen the focus if field-service or provider Work makes another organization System the decision-bearing subject.
+The engineering director’s sponsorship is not universal authority. The product-side SoI remains the inspection-equipped pump installations in their intended operation. Engineering is the creator being changed; a consultant hired to perform the same reorganization would keep that basis. The next `OCE.2` account must recover actual Work, supplied-result and information-use relations, holder assignments, safety and release authority, rig access, provider service and support relations, participation, and evidence windows. Reopen the focus if field-service or provider Work makes another organization System the decision-bearing subject.
 
 ### OCE.1:6 - Bias-Annotation
 
@@ -564,8 +614,10 @@ The engineering director’s sponsorship is not universal authority. The next `O
 ### OCE.1:7 - Conformance Checklist
 
 - [ ] The opening names a receiving decision, first user, horizon, and useful stop.
-- [ ] The changed organization is selected from materially different candidates with supported System status.
-- [ ] The intended contribution names its receiver and conditions without claiming value or achievement by declaration.
+- [ ] The organization is selected from materially different candidates; actual and proposed status remain explicit.
+- [ ] The contributions name their receivers, relevant product uses, conditions and obligations without claiming value or achievement by declaration.
+- [ ] Work on a creator retains the product-side SoI; any claimed supplier distinction is grounded in the substantive supply, use, decision and acceptance boundaries.
+- [ ] Several products remain distinguishable when their differences or shared demands change the decision, and local completion has a bounded acceptance basis.
 - [ ] Work, capability, assignment, authority, access, participation, and supplied-result claims remain separately governed.
 - [ ] Affected-System discovery uses supported relations or modal paths and states uncertainty and specialist returns.
 - [ ] Claims about assignment, responsibility, sponsorship, permission, capability and authority have their respective support; none is inferred from another category alone.
@@ -600,7 +652,7 @@ A serious alternative is the strategy-led framing in Galbraith's [Star Model](ht
 
 Compare the two on the same bounded task, with the same existing strategy, permitted records, participants and decision deadline. Either can identify the weekly evidenced release in the PumpWorks case. OCE.1:5 additionally makes the competing organization referents and separate safety/release authority inspectable before the concept is built. This is useful where those claims are unsettled; it costs explicit boundary and evidence work. A strategy-led inquiry is shorter when those premises are already clear, and an adequate result from it is reused under OCE.1:4. The selection accepts the extra work only when it can change the focus. The constructed comparison establishes that distinction, not measured superiority in organizations.
 
-[Albert's 2023 online/2024 issue account](https://doi.org/10.1007/s41469-023-00152-y) supplies another serious starting point: choose among activity, decision-representation and legal-entity perspectives. **Adopt** their possible divergence and **adapt** them to the candidate-boundary questions in OCE.1:4.1, steps 2 and 5. A perspective-led focus can suffice for a known entity. For a provider-spanning proposal, the selected OCE answer adds the System question from `A.1.SCR` and consequence discovery from `A.1.CSD`, rather than inferring a whole from one representation. Albert's point-of-view argument is not an exhaustive organization ontology or empirical validation of this method; requiring all three perspectives for every small use is rejected.
+[Albert's 2023 online/2024 issue account](https://doi.org/10.1007/s41469-023-00152-y) supplies another serious starting point: choose among activity, decision-representation and legal-entity perspectives. **Adopt** their possible divergence and **adapt** them to the candidate-boundary questions in OCE.1:4.1, steps 3 and 5. A perspective-led focus can suffice for a known entity. For a provider-spanning proposal, the selected OCE answer adds the System question from `A.1.SCR` and consequence discovery from `A.1.CSD`, rather than inferring a whole from one representation. Albert's point-of-view argument is not an exhaustive organization ontology or empirical validation of this method; requiring all three perspectives for every small use is rejected.
 
 The [work-design review by Fraccaroli, Zaniboni and Truxillo](https://doi.org/10.1146/annurev-orgpsych-081722-053704) provides a consequential limit on a focus confined to output and structure: the work people perform and their outcomes also matter. **Adapt** that concern in OCE.1:4.1, steps 4 and 6, through separate Work and affected-System questions. The accessible abstract of [Aust et al. (2023)](https://doi.org/10.5271/sjweh.4097) supports outcome-specific caution, not a ranking of interventions. Neither source turns consequence discovery into proof of benefit or effectiveness; OCE.1:0 and OCE.1:5 keep those questions separate. No fuller Aust result is relied on here.
 
@@ -609,7 +661,7 @@ Reopen when a recurring case cannot be bounded this way, a credible alternative 
 ### OCE.1:12 - Relations
 
 - `A.1.SCR` governs System recognition when systemhood is load-bearing; `A.1.CSD` governs affected-System discovery. Use their results to define the organization and consequence boundary for OCE.1.
-- `A.15.6` keeps project System, use, Work, Method, support, and development subjects distinct; `A.10` governs evidence reliance.
+- `A.1.STM` supplies the product-use-to-creator reasoning used in §4.1.1. `A.15.6` distinguishes the systems involved, temporary project work, plans, Methods, support and continuing development; `A.10` governs evidence reliance.
 - Strategy supplies direction and strategic commitments. Corporate Governance and specialist legal practices supply their authority results. Obtain the applicable authority result before relying on the focus for that decision.
 - `OCE.2` consumes the selected organization, contribution, Work questions, named organization-fact questions, affected-System gaps, and authority boundary. `OCE.3` receives the focus only with a grounded current account or explicit tolerated gap.
 - Use `OCE.10` for target-organization working-culture questions arising from participation or adoption gaps; use `OCE.17` for the culture of OCE practice among practitioners.
@@ -839,7 +891,7 @@ Use this pattern when one incumbent arrangement, target operating model, topolog
 
 Begin with a compatible `OCE.1` focus and `OCE.2` current account or equivalent content. State which gaps are tolerated and which block comparison.
 
-A bounded question can be how to let contributors act independently while their results still fit, or how to organize inquiry when the tasks and best methods are not yet known. Recover the intended contribution or worthwhile problem, the permitted scope of inquiry and the conditions that any candidate must respect. Enough knowledge to compare a next arrangement need not mean a complete future task plan. Use the coordination derivation in OCE.3:4.1.1.1 when the current arrangement leaves this choice unexplained; an already adequate division and coordination of work needs no redesign.
+A bounded question can be how to let contributors act independently while their results still fit, how to give a unit an economic mandate, or how to organize inquiry when the tasks and best methods are not yet known. Recover the intended contribution or worthwhile problem, the permitted scope of inquiry and the conditions that any candidate must respect. Enough knowledge to compare a next arrangement need not mean a complete future task plan. Use the coordination derivation in OCE.3:4.1.1.1 when the current arrangement leaves this choice unexplained; an already adequate division and coordination of work needs no redesign.
 
 The first useful result is a small decision set of materially different possible organization concepts. Describe each concept with its assumptions, participant input, supporting evidence, trade-offs and authority conditions. A rejected concept remains useful when it exposes a hidden contribution or burden.
 
@@ -966,6 +1018,24 @@ Compare the combination with a credible incumbent repair at the same receiving u
 
 After selection, LDR.4:4.5–LDR.4:4.7 in the Leadership Principles Framework can obtain the effective decisions, actual commitments, mutually visible start and first useful handover when those contributions are missing. Return unresolved support or authority to its owner; OCE.9 governs realization of the organizational concept. Neither the comparison nor its shared explanation makes the proposed arrangement actual. During later use, a changed dependency, failed expectation, new capability or changed receiving need reopens the affected choice. Successful delivery can also reveal a new development possibility; it does not require freezing the arrangement or automatically launching another change.
 
+###### OCE.3:4.1.1.2 - Make an economic mandate work through actual authority
+
+Use this branch when a proposed arrangement changes who may shape an offering, commit resources or bear its economic consequences. Begin with the product uses and obligations from OCE.1 and the actual rights recovered through OCE.2. A familiar label is optional; the needed result is a workable allocation of decisions and means.
+
+**Recover the mandate by decision.** Establish who can form or change the offering, accept a request, promise its result and timing, choose means, incur costs, and decide continuation or termination. Identify who can accept the supplied result and who can amend an existing obligation. Rights can be divided among a unit, product leaders, procurement, finance and the containing organization's governing body. State the limits and the way their decisions combine. A missing decision right remains a missing condition; it is not repaired by calling someone the owner or entrepreneur.
+
+**Connect means and incentives to that mandate.** Compare what the unit is expected to provide with the people, equipment, information, funding and provider commitments actually available. Trace a conflict to the affected uses and consequences. For example, rewarding a laboratory solely for internal bench utilization can discourage an outside test that preserves two product deliveries. Include the useful receiving result and displaced burden when designing measures and recognition. Use OCE.10 if a participation difficulty needs explanation; changing a reward formula alone does not establish its effect.
+
+For economic comparison, distinguish shared costs from costs caused by a particular product, attribute material receipts and risks, and identify who bears them. An internal payment finances a contribution; changing its allocation does not create additional customer receipts. Obtain the needed Finance or economic analysis rather than infer profit from a saved departmental budget. A permitted subsidy or exploratory loss retains its purpose, limit and decision-maker.
+
+**Test a feasible decision under divided rights.** Work through one ordinary request and one consequential conflict. Ask whether the proposed holder can make the promised choice with the available means while preserving other commitments. Use §4.1.1.1 to establish the scope of independent action. A manager may book an approved outside laboratory within a reserve while lacking authority to change a product's promised delivery or test requirement. In the concept comparison, show which choice that holder could make and which decision would need another holder's authority. General agreement by every department is unnecessary when the required rights are already effective. For a service promise in actual operations, use OPS.13 to obtain the supported commitment or the decision still needed, and return any changed organizational condition to this comparison.
+
+**Choose the arrangement and its local acceptance.** Compare an ordinary service unit, an internal enterprise and an outside provision where they are serious alternatives. Apply OCE.1:0.2's definitions to the resulting relations. A unit with assigned work and a budget can remain the sufficient design. An internal enterprise needs the actual offering, economic obligations, permitted means and attributed consequences together; it can have bounded rights and share decisions. Where several organizations must act together, recover the mutual commitments that would make their joint work an extended enterprise while preserving each participant's boundary and other obligations.
+
+Specify the capability to realize, its acceptance and the continuing obligations. OCE.6 supplies missing effective assignments and enabling relations; OCE.9 realizes and qualifies the capability. A proposal or selected concept remains such until those conditions obtain. Retain a precise unresolved right, resource or product-use assumption when it prevents the preferred arrangement.
+
+**Separate the contributions called entrepreneurship.** Identify the work actually needed: product vision and strategy, appraisal of the firm's economic future, organization design, customer development, financing or fulfilment of commitments. Obtain the relevant contribution and its authority from the responsible practice; Management.Reference:3.2.2 explains these connections. One person may perform several, but "Entrepreneur" is not a single assignable role that supplies them all. An initiative can lead to an inquiry, a temporary project, an internal enterprise or a separate firm; a sponsor or founder title does not decide which arrangement exists.
+
 ##### OCE.3:4.1.2 - Challenge the combination and change it
 
 Bring each candidate's prospective result path and assumptions to the general method that answers the unresolved question. `C.30.ASV:4.5a` distinguishes Method composition, work, information, support and other structures when that distinction changes the design; `C.32.MWA:4.1–C.32.MWA:4.4` combines those accounts and exposes conflict or burden moved between them. Enter C.32.MWA with a prospective case for a proposed organization of Method use. Existing observed relations keep their own evidence; missing Work identity does not become an invented obtaining occurrence.
@@ -1056,6 +1126,30 @@ On these stipulated facts, the participants select a bounded trial of independen
 
 After the first note is accepted, further records may expose a different uncertainty, or participants may discover a more valuable way to help visitors. C.40.OD then supplies the next development judgement. The completed note remains a useful finite result; it neither completes development nor obliges the group to pursue every new possibility. This candidate preserves initiative and the growth of knowledge while keeping shared commitments bounded.
 
+#### OCE.3:5.3 - From a pump-service initiative to an internal enterprise
+
+An engineer at PumpWorks proposes condition-based servicing of customers' installed pumps. The proposal is an initiative. Inquiry first establishes the relevant outages, operating conditions, user result and buyer's willingness to pay. Product strategy, engineering and economic appraisal supply different grounds for deciding whether to proceed. A launch project can finish with a tested possibility and a continuation decision, or with the agreed ability to service a first class of installations.
+
+Compare keeping a service department with creating an internal enterprise. Under the first arrangement, another product authority defines the offer and commitments; the department performs assigned work within its budget. Under the second, the unit receives a bounded mandate to form or change its service offer, enter economic commitments through the firm's authorized arrangements, choose permitted means and bear attributed consequences for the direction. Its manager can commission approved diagnostics within a reserve; a new customer guarantee still needs the holder of that right. The split preserves a real mandate without pretending that the unit is independent of the firm.
+
+In this service use, the maintained or changed pump installations in operation are the SoI. The service unit is their creator in the relevant work. Its launch project can close while the continuing unit performs service operations and further projects. A sensor supplier, the service unit and a customer operator can form an extended enterprise for agreed joint work if their actual obligations and resource arrangements support it; their other products and commitments remain outside that arrangement.
+
+The internal payment makes the unit's work fundable. Usefulness to the operator, customer receipts and the distribution of costs and risks need their own grounds. If the evidence supports only a subsidized trial, authorize that bounded trial rather than claim a profitable continuing service. If a consultant performs the same organizational setup, the product basis and local capability acceptance remain. A substantive change in the offered service reopens those grounds.
+
+#### OCE.3:5.4 - Keep two product lines in a shared laboratory decision
+
+Suppose one laboratory serves water-supply pump stations and seasonal-irrigation installations. In the selected applications, the first line needs tests under frequent starts and the second under sustained load. Each has its own deliveries, result requirements and dates. The laboratory's design must support both. These stipulated regimes illustrate the distinction; real regimes come from the intended uses.
+
+Tomorrow the internal bench has eight available hours, already allocated to one four-hour test for each line. An unexpected failure leads the first line to request another four hours of diagnosis. The laboratory manager recovers what delay would change: diagnosis is needed for the agreed commissioning decision, while postponing the second line's test would miss its promised delivery. The resulting twelve-hour demand cannot fit the same eight-hour interval. Bench utilization alone does not select the useful response.
+
+The manager compares postponement, outside testing and an extra shift. No qualified person is available for an extra shift tomorrow. A previously qualified outside laboratory confirms an appropriate method, a free interval and a result by the required date including sample transport. The second line's agreed conditions permit that site and preserve its result requirements. The manager has authority to commission these tests from a reserve, and the confirmed price fits it.
+
+The manager orders the second line's outside test and obtains confirmation that the sample and result can be handled as agreed. The internal bench now supplies four hours for the first line's planned test and four for its diagnosis. Both receiving teams obtain the revised schedule; their requirements and dates remain intact. This choice uses existing rights. Changing a promised date or requirement would instead need the holder of that obligation's amendment authority.
+
+The order resolves this shortage. A recurring pattern of shortages can justify a different capacity arrangement, but first compare the expected requests, conflicts, delays, costs and alternatives. If an organizational change is warranted, frame a finite project to obtain the ability to provide both test families under an agreed demand range. Acceptance examines the regimes, equipment, qualified performers, result delivery, exception handling and capacity limits. It can finish before the future pumps operate; a test report, laboratory capability and a pump's fitness in use retain different acceptance grounds.
+
+Attribute shared and product-specific laboratory costs to the parties that bear them. Charging everything to the first line would hide what supporting the second costs; changing an internal allocation would not create more customer revenue. An investment decision needs both product uses, expected obligations, attainable capacity and economic assumptions. The manager can do this work with ordinary names for the tests, promises, people and means. Whether the laboratory is an ordinary unit or an internal enterprise matters only when its economic mandate changes the decision.
+
 ### OCE.3:6 - Bias-Annotation
 
 | Recurring bias | Likely drift | Repair |
@@ -1081,6 +1175,8 @@ After the first note is accepted, further records may expose a different uncerta
 - [ ] `C.17` characterizes existing candidates; `C.18` appears only when retained or open-ended exploration is current.
 - [ ] Each concept names possible direct relations; views remain descriptions.
 - [ ] Capability, authority, access, provider commitment, and continuity assumptions remain explicit.
+- [ ] Where an economic mandate changes, offering rights, commitments, permitted means, receipts, costs, risks and continuation decisions are assigned to their actual holders; a shared-resource conflict preserves the affected product obligations.
+- [ ] The selected organizational form follows those relations, and local capability acceptance remains distinct from later product use.
 - [ ] The decision does not convert selection into an obtaining organization.
 - [ ] Downstream constraints and reopen evidence are explicit.
 
@@ -1822,7 +1918,7 @@ Reopen when a recurring assignment species or enabling relation lacks an applica
 
 Use this pattern when a product or service architecture and an organization design constrain each other strongly enough that deciding one side alone would create avoidable coordination, evidence, provider, safety, or evolution burden. Enter when “the organization should mirror the product”, “teams own services end to end”, or “change the platform to fit the organization” is being used as the decision.
 
-Begin with one bounded contribution and at least one organization-side structure or candidate from `OCE.3` or `OCE.4`. Recover the product-or-service focus, concept, architecture claims, and qualified specialist contributions from Systems Engineering or another owning practice when available. State missing inputs and what they block.
+Begin with a bounded contribution question and at least one organization-side structure or candidate from `OCE.3` or `OCE.4`. When the organization serves several products, retain the product-specific constraints and shared demands that can change this question. Recover the product-or-service focus, concept, architecture claims, and qualified specialist contributions from Systems Engineering or another owning practice when available. State missing inputs and what they block.
 
 The first useful result can be a bounded mismatch: two separately governed decisions that say which structures will align, which will remain deliberately non-isomorphic, what burden is accepted, and what observation will reopen that choice.
 
@@ -1866,7 +1962,7 @@ Mirroring language hides these facts when it treats similarity as adequacy or in
 
 ### OCE.7:4 - Solution
 
-Frame one exact organization/product-or-service architecture pair and generate four candidate forms: change the organization side, change the product-or-service side, change both, or keep a bounded mismatch. Compare complete candidates across the declared evolution window. Make the organization and product-or-service decisions under their own authorities, then connect them through explicit constraints, accepted burdens, realization returns, and shared reopen conditions.
+Frame the organization/product-or-service architecture pair needed for the decision and generate four candidate forms: change the organization side, change the product-or-service side, change both, or keep a bounded mismatch. For a shared creator, connect the relevant pairs through their actual common resources and obligations; a choice for one product must preserve or explicitly revise the other affected commitments. Keep product-side SoI and organization-as-creator distinct while making both architecture decisions. Compare complete candidates across the declared evolution window. Make the organization and product-or-service decisions under their own authorities, then connect them through explicit constraints, accepted burdens, realization returns, and shared reopen conditions.
 
 Recognition is cheap: one architecture choice whose feasibility depends on an unlike structure on the other side is enough to enter. Assurance is stronger: actual correspondence claims require the exact holons, selected structures, direct influence predicate and occurrence, conditions, evidence, and window. Modal material remains in the synthesis frame.
 
@@ -2333,7 +2429,7 @@ When a changed source or specialist result alters an assumption, obligation or c
 > **Type:** Method pattern
 > **Status:** Stable
 >
-> **Primary working result:** a tested, condition-qualified ability of an organization to obtain one contribution through representative work, or the exact unrealized condition and next repair that prevent it.
+> **Primary working result:** a tested, condition-qualified ability of an organization to obtain a bounded contribution or related contributions through representative work, or the exact unrealized condition and next repair that prevent it.
 
 ### OCE.9:0 - Use This When
 
@@ -2375,7 +2471,7 @@ Name the changed organization, receiving user, contribution, current arrangement
 
 Choose a slice that reaches an actual receiving decision or useful output. “Install the repository” is a support task. “Supply a version-bound evidence package, obtain acceptance or a reasoned return, and recover a missing-source case” is a candidate organization-capability slice.
 
-State the permitted variation, observation window, protection and recovery conditions. Use a short existing work note if it carries these facts; no new record format is required.
+State the permitted variation, observation window, protection and recovery conditions. When the increment serves several product uses, retain the differences and joint demands that qualify its capability. A demonstration for one line does not cover a different regime or concurrent demand merely because the same equipment is used. Use a short existing work note if it carries these facts; no new record format is required.
 
 First compare available implementation, integration or introduction results with this receiving use. A competent effort may already have established the contribution and its ordinary and exception paths, with current participants, support, protection and observation limits. If that result is sufficient and the receiving owner accepts its service consequences, use it and return the bounded result in step 4.6. Do not repeat tracing, practice, an integrated attempt or later observation simply to run this pattern.
 
@@ -2424,6 +2520,8 @@ Choose repetition and observation strength from the consequence and variability 
 #### OCE.9:4.6 - Return a bounded capability result and usable hand-back
 
 State the contribution now supported, configuration, participants or qualified substitutions, work family, observed window, retained support, failures, limits and next reconsideration. The receiving Operations owner must accept the service and support consequences through its own decision.
+
+Close the organization-change project against its agreed local result and acceptance conditions. The contractor can finish the supported capability contribution before the products it will help create enter future use. Carry the relevant use assumptions, accepted risks, continuing obligations and the participant who will act on later evidence into the receiving work. This keeps the contractor's responsibility finite without treating an installation, payment or signed report as proof of capability. The product's acceptance and later performance require their own grounds. OCE.3:5.4 illustrates laboratory acceptance for two product lines under a stated demand range.
 
 Alternatively return the exact unresolved condition, who can supply it, the dependent action stopped, and the observation that permits another attempt. A useful realization result need not be positive.
 
@@ -2505,6 +2603,7 @@ A sponsor can choose an easy demonstration or hide exceptional assistance. Inclu
 - When adequate separate actions fail to form the intended contribution, the needed constituent/encompassing connection and the supported repair are explained.
 - Failed attempts, repairs, assistance and later-use conditions remain visible.
 - The conclusion states its configuration, work family, window, support and limits; stronger reliance has its own evidence.
+- Local acceptance closes the agreed capability contribution at its supported scope, with future-use assumptions and continuing obligations handed to their responsible participants; it does not claim the future product result.
 - The receiving operation has an explicit hand-back or a named remaining gap.
 
 ### OCE.9:8 - Common Anti-Patterns and How to Avoid Them
