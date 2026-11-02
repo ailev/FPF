@@ -137,7 +137,7 @@ Recover the account that supports the connection the recipient needs. It may be 
 
 For the mean of a finite list, the subject basis is its sum divided by its count. If A has two values, 2 and 4, its sum is 6 and mean is 3. If B has six values of 8, its sum is 48 and mean is 8. Across individuals, the sum is 54 and the count is eight, giving 6.75. Giving the two group means equal weight instead gives 5.5. Both results have explicit rules; the recipient's task selects which question to answer.
 
-When a required connection lacks a warrant, state what is missing and which subject work could supply it. An unsupported causal claim needs subject inquiry. An unexplained recommendation needs its decisive premises, alternatives and conditions. A missing mathematical step needs its definition or derivation. An explanation can preserve a useful conditional answer while that input is recovered.
+When a required connection lacks a warrant, state what is missing and which subject work could supply it. Relying on a causal claim requires an adequate subject basis. An unexplained recommendation needs its decisive premises, alternatives and conditions. A missing mathematical step needs its definition or derivation. An explanation can preserve a useful conditional answer while that input remains unresolved.
 
 Follow the proposed explanation from its answer back to the premises and operations needed to obtain it, then forward again. Locate the first consequential link that the material does not supply. Is the input absent, the operation unexplained, the inference unsupported, or the connection to the recipient's question missing? Use that difference to select the subject work. A clear description can reveal the gap; changing its layout cannot supply the missing operation or reason.
 
@@ -145,7 +145,7 @@ For a Method account, A.3.2.DE:4.1 recovers what acts on which input, what resul
 
 Other subjects need their own construction. RMP.2:4.4 turns a scientific question into an investigation that can distinguish proposed answers. PSDA.14:4.2–4.4 builds a recommendation from its premises, alternatives and comparison; PSDA.19 supplies the advising engagement's conditions. HCD.6, HCD.9 and HCD.10 supply representative instructional tasks, feedback and task-specific assistance. A.6.3.NAR connects supplied source relations when narrative rendering helps. Select the contribution actually missing rather than performing every listed Method.
 
-The research return can itself produce useful progress. For example, a research exercise can move from a puzzling observation to a question, two or three rival hypotheses, criticism before experiment and an initial report. Select further empirical work when it can change the answer. The RMP methods qualify a research question, choose a design or sufficient-evidence stop, and revise the affected claims. Communicating an available account does not replace these subject contributions.
+The research return can itself produce useful progress. For example, a research exercise can move from a puzzling observation to a question, two or three rival hypotheses, criticism before experiment and an initial report. Select further empirical work when its attainable contribution to the answer warrants its burden. The RMP methods qualify a research question, choose a design or sufficient-evidence stop, and revise the affected claims. Communicating an available account does not replace these subject contributions.
 
 This entry carries supplied subject results into explanation work. The six constructive Methods address the remaining explanatory difficulties.
 
@@ -260,7 +260,7 @@ When interaction is unavailable, prepare from the known audience and task. State
 
 State the target relation, relevant conditions and the needed answer. A short sentence usually suffices: “For these eight values, why does equal weight per individual require weighting the group means by their counts?” Obtain its subject basis through [Obtain and Carry the Subject Explanation](#exdreference3---obtain-and-carry-the-subject-explanation).
 
-If the requested connection lacks a warranted account, return that question to the relevant subject work. A causal claim may need an investigation; a recommendation may need another premise; a mathematical answer may need a definition or proof. Keep the question available while that work proceeds. Polished wording cannot close a missing warrant.
+If the requested connection lacks a warranted account, return that question to the relevant subject work. A causal claim may need an investigation; a recommendation may need another premise; a mathematical answer may need a definition or proof. Keep the question available while its needed subject basis remains unresolved. Polished wording cannot close a missing warrant.
 
 #### EXD.1:4.4 - Revise when a contribution changes the target
 
@@ -299,7 +299,7 @@ For assurance of this question result, check that:
 - the question and the purpose can be distinguished;
 - the selected relation and action-changing conditions are explicit enough to choose a subject account;
 - any preparation claim has an actual task basis or is stated as an assumption;
-- a new contribution changes the appropriate question, premise, help or interpretation;
+- the response to a new contribution revises the question, premise, help or interpretation where needed and preserves what remains adequate;
 - an unresolved input has a specific return, or the current question has a usable next answer.
 
 These checks concern the question and its use. Retention and transfer need their corresponding evidence.
@@ -354,7 +354,7 @@ Use this pattern when a recipient needs to connect a principle, definition or cl
 
 Start by naming the relation the instance must show. Choose values or circumstances for which the intended rule and a plausible alternative lead to a consequential difference. The first useful result is a worked instance, its correspondence to the claim and the condition that bounds its use.
 
-A recipient who already has a sufficient direct account may need no further example. When the claim itself lacks a warrant, obtain that subject basis before choosing an illustrative instance.
+A recipient who already has a sufficient direct account may need no further example. When the claim itself lacks a warrant, obtain the needed subject basis before presenting an instance as support for that claim; an example may instead expose the gap or illustrate a conditional account.
 
 ### EXD.2:2 - Problem
 
@@ -627,7 +627,7 @@ A clear lookup answered sufficiently by a short message can end there. Select a 
 
 ### EXD.4:2 - Problem
 
-A sequence of alternating messages can leave the explanation unchanged. The explainer may treat every objection as a lack of knowledge, respond to every acknowledgement as proof of understanding, or repeat a valid account after the recipient changes the question.
+The explainer may treat every objection as a lack of knowledge, respond to every acknowledgement as proof of understanding, or repeat a valid account after the recipient changes the question.
 
 Explanatory dialogue needs a constructive link between the recipient's contribution and the next move. It also needs a stopping point. Keeping someone talking, agreeing or completing exercises is not the purpose of every explanation.
 
@@ -762,7 +762,7 @@ The current *Social Explainable AI* chapters on [Practices, §5.3](https://link.
 
 [Fichtel et al., 2025, §§5–6](https://aclanthology.org/2025.sigdial-1.1/) found that enhanced prompting elicited more co-constructive behavior in a bounded Llama 3.1 70B study without a significant mean objective-understanding advantage. Keep that limit when designing human–AI explanatory interaction. More interaction is not an effectiveness measure.
 
-For repairing a misrepresented concern, **adapt** the explicit acknowledgement and engagement examined by [Yeomans et al., 2020](https://www.mikeyeomans.info/papers/receptiveness.pdf), Study 4 and §6.2. Their written-message study concerns perceived receptiveness, persuasiveness and intentions to collaborate; it does not establish subject correctness, understanding or actual later cooperation. The contribution used here is making the addressed concern inspectable before adding a rebuttal. Against applying a linguistic recipe, keep actual agreement and uncertainty truthful and retain the subject criterion. A polite response can still answer the wrong question. Reopen this repair when the response shows that the concern remains misrepresented or the exchange no longer serves an explanatory purpose.
+For repairing a misrepresented concern, **adapt** the explicit acknowledgement and engagement examined by [Yeomans et al., 2020](https://www.mikeyeomans.info/papers/receptiveness.pdf), Study 4 and §6.2. Their written-message study concerns perceived receptiveness, persuasiveness and intentions to collaborate; it does not establish subject correctness, understanding or actual later cooperation. The contribution used here is making the addressed concern inspectable before adding a rebuttal. Keep actual agreement and uncertainty truthful and retain the subject criterion. A polite response can still answer the wrong question. Reopen this repair when the response shows that the concern remains misrepresented or the exchange no longer serves an explanatory purpose.
 
 At the same local opportunity to respond, repeating the pooled-mean derivation answers the old question. Using the recipient's explicit change of weighting rule supplies the requested branch-mean answer and preserves the earlier result under its original condition. This comparison explains the proposed move in the worked case. Reopen it when actual recurring interactions expose a different diagnostic or repair need.
 
@@ -874,7 +874,7 @@ The learner's product becomes usable evidence for targeted support and correctio
 
 ### EXD.5:10 - Architectural Rationale
 
-This pattern owns explanation-specific product and prompt construction. Human Capability Development supplies broader task design, feedback, assistance and progression. The learner's product and its discrepancy connect that broader instructional work to the explanatory contribution.
+This pattern owns explanation-specific product and prompt construction. Human Capability Development supplies broader task design, feedback, assistance and progression. The learner's product and any discrepancy from the task criterion connect that broader instructional work to the explanatory contribution.
 
 ### EXD.5:11 - SoTA-Echoing
 
@@ -1017,13 +1017,13 @@ FPF C.2.8 supplies the common structural characteristic; C.11.CRC/C.11 supply th
 
 [Mengelkamp et al., 2025](https://doi.org/10.1002/acp.70036) distinguish comprehension and metacomprehension outcomes for informative narratives and exposition under reading-goal conditions. Their mixed results qualify any fixed genre or goal recipe. [Fichtel et al., 2025](https://aclanthology.org/2025.sigdial-1.1/) likewise distinguish more co-constructive behavior from a significant mean objective-understanding advantage.
 
-The serious alternative is to select the most fluent, extensive or visually attractive explanation without a receiving comparison. In the worked case, the smallest account/form/help distinction can change the repair while leaving a sufficient incumbent available. Reopen when the task, subject basis, recipient, assistance, budget or relied-on evidence changes.
+In the worked case, the smallest account/form/help distinction can change the repair while leaving a sufficient incumbent available. Reopen when the task, subject basis, recipient, assistance, budget or relied-on evidence changes.
 
 ### EXD.6:12 - Relations
 
 [EXD.1](#exd1---establish-and-revise-what-a-recipient-needs-explained) establishes the receiving question. [EXD.2](#exd2---build-and-bound-an-explanatory-example), [EXD.3](#exd3---coordinate-the-expression-of-an-explanation) and [EXD.5](#exd5---guide-a-recipients-own-explanation) construct candidate repairs. [EXD.4](#exd4---co-construct-and-repair-an-explanation-in-dialogue) exposes changes during the exchange.
 
-[FPF C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---extractablestructuralinformation--structure-this-reader-can-recover), [FPF C.11.CRC](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11crc---configuration-relative-contribution-comparison) and [FPF C.11](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11---decision-theory-decsn-cal) retain their defining questions. The [source and dependency account](#explanation-design-principles-framework-architectural-reference) names the actual Core's Method-development family and HCD receiving uses.
+[FPF C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---extractablestructuralinformation--structure-this-reader-can-recover), [FPF C.11.CRC](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11crc---configuration-relative-contribution-comparison) and [FPF C.11](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11---decision-theory-decsn-cal) retain their defining questions. The [source and dependency account](#explanation-design-principles-framework-architectural-reference) names Core's Method-development family and HCD receiving uses.
 
 ### EXD.6:End
 
@@ -1067,7 +1067,7 @@ In a second, stipulated case, Mira asks why a bounded coordination assignment is
 
 If Mira understands these grounds but values the course's social setting, EXD.4 treats the contribution as relevant preference or disagreement. Decision Design work can reconsider the recommendation. If the sponsor withdraws protected time, the changed premise also returns there. A recital exercise contributes nothing to the immediate advising question. The explanation can succeed in making the rationale usable while Mira declines the recommendation.
 
-Recognize a usable explanatory move by the recipient's actual question and the supplied rationale. Assure subject claims against their sources and conditions, and examine the response needed for this use: for example, distinguishing which Core's Method-development family entry answers the missing question, or recognizing how loss of protected time affects the advice. Verbal agreement does not prove understanding, and understanding does not supply consent, resources or decision authority.
+Recognize a usable explanatory move by the recipient's actual question and the supplied rationale. Assure subject claims against their sources and conditions, and examine the response needed for this use: for example, distinguishing which of the named Core patterns answers the missing question, or recognizing how loss of protected time affects the advice. Verbal agreement does not prove understanding, and understanding does not supply consent, resources or decision authority.
 
 The principal costs are unnecessary elicitation, an overlong justification and exposing more detail than the recipient needs. The principal bias is to interpret an unfamiliar question or disagreement as inability. Fisher's consultation analysis and Axelsson and colleagues' contextual feedback distinctions inform the dialogue; they are adapted to these constructed cases without claiming a universal sequence or outcome. The practical gain is a qualified rationale and correct next entry or return. A separate instructional need can select HCD and the instructional profile, but is not inferred merely from receiving advice.
 
@@ -1103,10 +1103,10 @@ This edition connects formal and pragmatic explanation, empirical work on learni
 | Source and access | Contribution adopted or adapted here | Limit on reliance |
 | --- | --- | --- |
 | [Galbraith and Khalifa, 2026](https://link.springer.com/article/10.1007/s11098-025-02477-8), especially §§2, 5 | Interrogative treatment of understanding informs question selection and revision in EXD.1/.4. | Their theoretical focus does not settle every epistemic correctness or grasping question, nor certify an instructional intervention. |
-| [Fisher, 2022](https://link.springer.com/article/10.1007/s13218-022-00787-1) | Natural consultations inform the joint organization and changing explanatory contributions in EXD.4. | Eleven consultations support the reported analysis; their phases are not a compulsory order or universal effect. |
+| [Fisher, 2022](https://link.springer.com/article/10.1007/s13218-022-00787-1) | Natural consultations inform the joint organization and changing explanatory contributions in EXD.4. | The eleven consultations support the reported analysis; a compulsory phase order for other exchanges does not follow from it. |
 | [Axelsson, Buschmeier and Skantze, 2022, §2](https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2022.744574/full) | Contextual feedback distinctions support interpretation of contact, perception, understanding and attitude. | A surface signal alone does not identify a recipient's internal state. |
 | [Social Explainable AI, 2026, ch. 5](https://link.springer.com/chapter/10.1007/978-981-96-5290-7_5), [ch. 12](https://link.springer.com/chapter/10.1007/978-981-96-5290-7_12), [ch. 13](https://link.springer.com/chapter/10.1007/978-981-96-5290-7_13) | Explaining practices (§5.3), incremental explanation (§12.3.1–3) and adaptation (§13.2–3) inform co-construction. | Their AI-oriented realization is adapted by actual role and subject; interaction is not evidence of general learning benefit. |
-| [Liao and colleagues, 2021](https://arxiv.org/pdf/2104.03483); [Schmude and colleagues, 2025](https://doi.org/10.1016/j.ijhcs.2024.103380) | Elicit questions and purposes before choosing explanatory support; use a question bank for relevant clarification. | A design method or the latter study's 24 participants and two contexts do not establish a complete universal question inventory. |
+| [Liao and colleagues, 2021](https://arxiv.org/pdf/2104.03483); [Schmude and colleagues, 2025](https://doi.org/10.1016/j.ijhcs.2024.103380) | Clarify the recipient's question or purpose when needed to choose explanatory support; a question bank can help with that clarification. | A design method or the latter study's 24 participants and two contexts do not establish a complete universal question inventory. |
 | [Fichtel and colleagues, 2025](https://aclanthology.org/2025.sigdial-1.1/) | Compare co-constructive interaction and objective understanding separately. | The study used two prompting conditions with Llama 3.1 70B, three topics and 277 retained participants. No significant mean objective-understanding advantage was found; this does not establish impossibility of a benefit in other conditions. |
 | [Relational-mapping study, 2023](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1241873/full) | Principle–example and example–example mapping, with free and component-guided contributions, inform EXD.2. | Probability-learning conditions do not select one universally superior sequence or require unassisted failure. |
 | [Fiorella, 2023](https://link.springer.com/article/10.1007/s10648-023-09769-7) | Explaining, visualizing and enacting make different contributions; modeled, focused and partial guidance inform EXD.2/.5. | Requesting an explanation from every recipient is not implied. |
