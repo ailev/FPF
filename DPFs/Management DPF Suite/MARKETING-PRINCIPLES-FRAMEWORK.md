@@ -386,9 +386,9 @@ Keep the observed cases, the hypothesis about a wider group and the estimate of 
 
 Compare plausible groups under the same intended investment and horizon. Ask how important and poorly served the result appears, how the relevant people can be reached, which alternative must be improved upon, whether the contribution can be supplied, and what learning or preparation it needs. Include the cost of discovering and serving the group as well as attracting it.
 
-A material unknown is a reason for a bounded inquiry when its answer could change the choice. It is not automatically a zero value, a high score or grounds for rejecting a genuine customer problem. Where criteria conflict, state the trade-off: a small reachable group may be preferable for a trial, while a larger group with unresolved delivery conditions remains a later hypothesis. Do not hide a necessary condition inside an average score.
+A material unknown is a reason for a bounded inquiry when its answer could change the choice. Where criteria conflict, state the trade-off: a small reachable group may be preferable for a trial, while a larger group with unresolved delivery conditions remains a later hypothesis. Do not hide a necessary condition inside an average score.
 
-Select one of the live results:
+Choose the next move supported by the comparison:
 
 - construct or test an offer for a supported group and stated use;
 - obtain a specified missing answer before selecting the group;
@@ -497,7 +497,7 @@ Construct the contribution, its context of comparison and its supply conditions 
 | Tension | Required response |
 | --- | --- |
 | A simple explanation helps recognition; qualifications can change the promise. | Make consequential limits visible with the claim they limit. |
-| Different roles value different results. | Preserve their separate contributions within one compatible proposal. |
+| Different roles value different results. | Keep the results sought by the different roles distinct while constructing a compatible proposal. |
 | Differentiation attracts attention; the alternative may already be adequate. | Compare actual options and identify a worthwhile difference, including convenience or access when those matter. |
 | A customer can want a result outside the supplier's control. | Promise the supported contribution and identify the other work and conditions it needs. |
 | Testing costs attention and preparation. | Test the uncertainty that changes the proposal, and reuse an already sufficient answer. |
@@ -548,7 +548,7 @@ Where an intermediary participates, identify whose offer this is. A provider's o
 
 #### MKT.2:4.4 - Obtain a supply answer before relying on the promise
 
-Ask the responsible supplier for the result that can actually be provided under the named conditions: configuration, available capability, people, time, access, dependencies, support and unresolved constraints. Separate a planned improvement from an available contribution. Include preparation and continuing support when comparing feasible versions.
+Ask the responsible supplier to identify the result it can provide and the conditions for doing so: configuration, available capability, people, time, access, dependencies, support and unresolved constraints. Separate a planned improvement from an available contribution. Include preparation and continuing support when comparing feasible versions.
 
 For each important promise, follow the required contribution to a responsible provider or to an explicit gap. Resolve incompatible timings, shared scarce resources and conflicting claims made to different roles. A technically possible service can still be unavailable in the proposed window. Return an unsupported part for engineering, operational or organisational work, or reduce the proposal to a supported part.
 
@@ -586,7 +586,7 @@ Positioning it as a file-mapping trial makes the relevant comparison intelligibl
 
 Now the available operator cannot inspect outputs during the trial window. The same technical mapping no longer supports the proposed arrangement. Possible responses include another qualified operator, another window, an actually supported additional service or no trial now. Removing inspection from the description would conceal the missing contribution. MKT.4 must receive the revised feasible choice.
 
-For a learning product, the analogous distinction is between supplying worked material and helping someone acquire a contribution to later work. A generated explanation can serve the former. An offer of the latter must include the needed practice, feedback and capability observation from HCD, with the learner's required work visible.
+For a learning product, the analogous distinction is between supplying worked material and helping someone develop a capability needed for later work. A generated explanation can serve the former. An offer of the latter must include the needed practice, feedback and capability observation from HCD, with the learner's required work visible.
 
 ### MKT.2:6 - Bias-Annotation
 
@@ -730,7 +730,7 @@ Continue, revise or stop at the scale the evidence supports. Retain working part
 
 A provider can help an operations team map one approved file into a periodic report. A staff member at Sever has asked about reducing repeated entry. The provider wants to establish whether an approved sample and an operator's time can be available before offering a trial date. Its first draft says, “Automate your reporting; book a demo.” A purchaser reads that as a promise of unattended recurring reports.
 
-The team changes the invitation to an assisted file-mapping trial for a periodic report. It states that the trial uses one approved sample, needs an operator for one agreed session and does not establish continuous integration. The requested reply is whether those conditions can be met or which one needs discussion. A named person can receive the answer and offer one of the sessions actually available. A public upload is unnecessary; sample transfer will use the agreed means if the trial proceeds.
+The team changes the invitation to an assisted file-mapping trial for a periodic report. It states that the trial uses one approved sample, needs an operator for one agreed session and does not include continuous integration. The requested reply is whether those conditions can be met or which one needs discussion. A named person can receive the answer and offer one of the sessions actually available. A public upload is unnecessary; sample transfer will use the agreed means if the trial proceeds.
 
 In a constructed probe, the provider uses requested email so contacts can clarify the conditions with colleagues before scheduling a session. It sends individually relevant invitations to eight contacts who have agreed to receive this information. Delivery is confirmed for six addresses. Four people send substantive replies: two can provide the required contributions, one needs access approval, and one declines because continuous integration is essential. Two intended recipients who discuss the message can explain the assisted scope. The remaining contacts' understanding and reasons for silence are unknown. Four substantive replies out of eight invitations describe this attempt; they do not establish market demand or a superior channel.
 
@@ -2222,7 +2222,7 @@ These routes can inform each other. A choice history can expose the wrong activi
 
 Start with an executor and an activity described independently of a preferred product. Ask the person to walk through a concrete attempt: what started it, what they did, what they tried to achieve, what made success difficult and what happened afterward. Observe the relevant work or inspect its permitted traces where that can challenge the account. Separate a requested feature from the result it is expected to improve.
 
-Use the attempt to sketch what must be accomplished for the activity to succeed. Start with its central work, then recover the preparation and completion it depends on. Ask what each part achieves and whether it is merely a feature of the present solution. "Open spreadsheet A" may serve "establish which source values are valid"; another solution can perform that purpose differently. A small map or list helps retain these relations. Keep the boundary tied to the decision instead of expanding into everything the person does.
+Use the attempt to sketch what must be accomplished for the activity to succeed. Start with its central work, then recover the preparation and completion it depends on. Ask what each part achieves and whether it is merely a feature of the present solution. "Open spreadsheet A" may serve "establish which source values are valid"; another way of performing the activity can obtain that result. A small map or list helps retain these relations. Keep the boundary tied to the decision instead of expanding into everything the person does.
 
 Challenge the sketch with a materially different attempt, including an interrupted or unsuccessful one when it could expose a missing part. Examine handovers and combinations of tools that the initial account treated as incidental. Ask what was omitted, repeated or repaired and what outcome mattered there. Test a proposed addition against an actual attempt or relevant participant; a suggested possibility alone does not establish an unmet need. If the addition describes another activity, either revise the inquiry's boundary explicitly or leave it outside this answer.
 
@@ -2288,7 +2288,7 @@ In a learning-service case, the paying employer's reason for enrolling staff can
 
 Suppose the same service team has only praise after onboarding and little subsequent use; it cannot yet formulate useful alternatives. With permission, it follows an operator's reporting attempt. Entry itself is quick, but the operator spends most of the attempt checking which source values have been superseded. A contrasting attempt uses already confirmed values and finishes without that repeated checking. These episodes reveal a candidate difficulty: obtaining valid inputs, rather than entering them faster.
 
-The team can now compare supplying source validation with retaining the existing validation arrangement, and ask which version information each requires. The observations justify that local question; they do not establish its market prevalence or the causal effect of a new service. If the relevant source history cannot be obtained, retain the discovered difficulty and leave the affected offer comparison unresolved. An existing sufficient validation service could instead answer the question without further interviews.
+The team can now compare supplying source validation with retaining the existing validation arrangement, and ask which version information each requires. The observations justify that local question; they do not establish its market prevalence or the causal effect of a new service. If the relevant source history cannot be obtained, retain the discovered difficulty and leave the affected offer comparison unresolved. The specification or a demonstrated use of an existing validation service may already show which version information it requires; use that answer without another interview.
 
 ### MKT.12:6 - Bias-Annotation
 
