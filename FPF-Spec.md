@@ -147,9 +147,9 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | A.3.1.MR | **Candidate-Method Recovery from Work Evidence** | Stable | Use when observations or evidence about several performances may show a reusable way but Method identity remains a candidate. Returns one source-traceable account per candidate, real rivals and relevant gaps—or an honest record-only result. A useful distinguishing question is retained when it can change recovery or receiving use; completion requires no irrelevant follow-up study. | **Builds on:** C.2.1, A.3.1, A.15.1, A.10. **Coordinates with:** A.3.2, A.15.6, C.32.MWA, RMP.10 for a needed empirical programme and RMP.11 for historical inquiry. |
 | A.3.1.DR | **Recover Method Contributions from Documentary Sources** | Stable | Documents contain useful ways of working, but names and summaries do not recover their actions, conditions or limits. Reconstruct the source contribution while distinguishing an author claim from practice evidence. | F.0.1 for source meaning; A.3.1.MR for recovery from Work; F.0.2 for synthesis; A.3.1.QM for qualification. |
 | A.3.1.QM | **Qualify a Method for Its Intended Contribution** | Stable | One Method or candidate must supply a named contribution. Qualify its result, applicability, evidence and limits without inferring the adequacy of a combined arrangement. | A.3.1 for identity; A.3.1.DR and A.3.1.MR for recovered accounts; C.39.RQ; A.3.1.WT, A.3.1.CC and A.3.1.FT for the relevant check. |
-| A.3.1.WT | **Design and Interpret a Method Work Trial** | Stable | An unresolved Method question needs evidence from Work. Design the trial, variation, observation and stop, then interpret only the conclusion the observed occurrence supports. | A.15.1 for Work; A.10 for evidence; A.3.1.QM, A.3.1.CC and A.3.1.FT for distinct qualification questions. |
-| A.3.1.CC | **Check the Coherence of a Method Claim** | Stable | A Method-related claim may contradict its maintained basis. Compare the exact claim, source and use, then return correction to the responsible description, representation or support result. | A.10; A.3.1 and A.3.2; C.37; A.15.8.MS; the direct governor of the contradicted claim. |
-| A.3.1.FT | **Qualify Method Fit and Transfer** | Stable | A successful Method use is being carried to another situation. Compare source and receiving conditions, adaptations and retained evidence; return fit, a bounded transfer or the unresolved condition. | A.3.1 for identity; C.39.RQ; A.3.1.QM/WT; C.11 for a later choice. |
+| A.3.1.WT | **Design and Interpret a Method Work Trial** | Stable | An unresolved Method question needs evidence from Work. Use suitable existing Work evidence or design a trial with relevant variation, observations and stops; interpret only the conclusion the evidence supports. | A.15.1 for Work; A.10 for evidence; A.3.1.QM, A.3.1.CC and A.3.1.FT for distinct qualification questions. |
+| A.3.1.CC | **Check the Coherence of a Method Claim** | Stable | A Method-related claim may contradict its maintained basis. Compare the exact claim, source and use, then return any needed correction to the maintained result that owns the claim. | A.10; A.3.1 and A.3.2; C.37; A.15.8.MS; the direct governor of the contradicted claim. |
+| A.3.1.FT | **Qualify Method Fit and Transfer** | Stable | A practitioner must decide whether a Method fits a named situation, where its applicability stops, or whether a claim transfers to another situation. Assess relevant actual Work and the required result; compare situations when the selected claim needs it, preserving Method status, adaptations and evidence limits. | A.3.1 for identity; C.39.RQ; A.3.1.QM/WT; C.11 for a later choice. |
 | A.3.1.MV | **Construct and Maintain a Method Variant** | Stable | A reusable way changes, but the change may concern only its description, tool, support or one Work occurrence. Construct a semantic variant and maintain its evidence, applicability and relation to other variants. | A.3.1:4.7–4.8 for Method identity; B.1.5.RS; A.3.1.QM; A.3.1.MI and C.36.MC for distinct receiving uses. |
 | A.3.1.MI | **Introduce a Method into Practice and Decide What to Keep or Change** | Stable | Bring a selected Method into actual practice, distinguish Method use from changes in descriptions or provision, observe receiving results, and decide what to retain, revise or stop. | **Uses:** A.3.1, A.3.1.WT, A.3.1.FT, C.11.MV, C.32.MWA.PP. |
 | A.3.2 | **U.MethodDescription: Description Episteme for a Way of Doing** | Stable | *Keywords:* method-description membership, claim-bearing episteme, exact `U.Method` EntityOfConcern, substantive way-of-doing claim, same method versus equivalent descriptions, representation versus publication versus plan versus Work. *Queries:* "When does an episteme qualify as `U.MethodDescription`?", "Do these descriptions concern the same method, and are their claims equivalent?", "How do I keep a recipe or code artifact separate from enactment?" | **Builds on:** C.2.1, A.3.1, E.24.UK. **Coordinates with:** A.1.1 only when bounded model use is current, A.6.1, A.6.5, A.15.1, A.15.2, A.22, B.1.5, C.29, E.24.PUB, F.9. |
@@ -9889,7 +9889,7 @@ The practical gap lies between two existing results. `A.15.1` can identify what 
 
 ### A.3.1.MR:4 - Solution
 
-For every materially different reusable way that still fits the evidence, write a separate candidate account. Treat each account as one `U.Episteme`, keep it provisional until `A.3.1` admits the candidate as a Method, and keep MethodDescription membership separate until the account concerns that admitted Method and passes `A.3.2`.
+For every materially different reusable way that still fits the evidence, write a separate candidate account. Treat each account as one `U.Episteme`; use `A.3.1` to decide the candidate's Method identity while retaining the account's source support and limits. Apply `A.3.2` when the account concerns that admitted Method and a MethodDescription membership claim is needed.
 
 #### A.3.1.MR:4.1 - Identify each candidate account truthfully
 
@@ -9910,7 +9910,7 @@ If no candidate entity or truthful effective scheme can be recovered, lower the 
 5. **Distinguish each candidate subject.** For every materially different possible reusable way, state the provisional identity and scheme from §4.1. If two candidates cannot be told apart without unsupported claims, retain the ambiguity or lower the result.
 6. **Write one account per candidate.** Ask the `A.3.1` questions without granting Method membership: applicability, participant meanings, preconditions, intended result or preserved condition, reusable actions, supported parts or interfaces, allowed variation, and stops. Mark every unsupported position unknown rather than filling a familiar template.
 7. **Compare stability, variation, and alternatives.** Ask what recurs across independently grounded occurrences, what changes with the situation, what may be a performer-specific habit or local workaround, and whether another account explains the same evidence. Frequency alone establishes neither a Method part nor its value.
-8. **State a distinguishing question when it changes use.** If separating, repairing or lowering the candidates matters to the receiving use, identify the meaningful difference and the representative occurrence, trial, comparison or additional source that could expose it. A held-out question preserves its independence from account construction. The question need not be answerable now and is not a study commitment. A source-traceable provisional account can finish without designing unavailable or irrelevant follow-up. Separately select investigation only when its attainable contribution warrants its whole design, acquisition, interpretation and displaced-Work burden.
+8. **State a distinguishing question when it changes use.** If separating, repairing or lowering the candidates matters to the receiving use, identify the meaningful difference and the representative occurrence, trial, comparison or additional source that could expose it. When using held-out evidence to answer the question, keep it out of account construction. The question need not be answerable now and is not a study commitment. A source-traceable provisional account can finish without designing unavailable or irrelevant follow-up. Separately select investigation only when its attainable contribution warrants its whole design, acquisition, interpretation and displaced-Work burden.
 9. **Return the result warranted for the receiving use.** Return one or more candidate accounts ready for `A.3.1` identification or specialist work, with a separate comparison only when needed; or lower to a Work-related record, local regularity, performer-specific habit, observed sequence, or unresolved cue. Prepare MethodDescription-authoring input separately. The same account can qualify as `U.MethodDescription` only after its `EntityOfConcern` is admitted as one `U.Method` and its claims pass `A.3.2`.
 
 #### A.3.1.MR:4.3 - Select the result branch
@@ -9920,7 +9920,7 @@ If no candidate entity or truthful effective scheme can be recovered, lower the 
 | Several occurrences support one reusable account at the required grain, with visible source limits | One source-traceable candidate-account episteme about one independently distinguished possible reusable way. No answerable held-out question is required unless that answer is needed by the receiving claim. |
 | Several accounts still explain the observations | One account episteme per candidate with source support, gaps and real ambiguity; add a distinguishing question only when it changes recovery or downstream use, and a separate comparison episteme only for a named retained use. |
 | The material shows only what happened or one local regularity | A Work-related record, local regularity, observed sequence, or habit claim; no Method or MethodDescription. |
-| Candidate identity, scheme, Work occurrence, source support, or evidence construction cannot be grounded | The missing information, relation, Method, configuration, source, or interpretation rule and the blocked receiving use. |
+| A required candidate identity, scheme, claimed Work occurrence, source support, or evidence-construction premise cannot be grounded | The missing information, relation, Method, configuration, source, or interpretation rule and the dependent claim or receiving use it blocks. Retain any independently supported account or record-only result. |
 
 #### A.3.1.MR:4.4 - Keep process-mining contributions separate
 
@@ -9928,9 +9928,9 @@ Treat evidence preparation, process discovery, and candidate-Method recovery as 
 
 1. Named data-preparation Method or Methods select source events, name activities, correlate records and objects, choose event-state or start/complete encodings, and apply abstraction. Dated preparation Work uses named source data and produces an event-log episteme about the identified event-data collection or structure described by the log.
 2. A named discovery Method may return a behavioural-model episteme. Conformance checking may compare a log with a separate descriptive or normative model. Enhancement may add timing, organizational, performance, or prediction claims. Object-centric mining may preserve several typed objects and qualified relations.
-3. This recovery Method uses those well-scoped results with other evidence to return candidate reusable-way accounts, unrecorded contributions, lowering and a distinguishing question only when it changes the intended use.
+3. This recovery Method uses those well-scoped results with other evidence to return candidate reusable-way accounts or a narrower supported result, with any source-supported claims or gaps about unrecorded contributions. Include a distinguishing question only when it changes the intended use.
 
-None of the earlier contributions automatically recovers a Method. A discovered process model remains a `U.Episteme` about selected evidence unless another rule establishes a different kind or use. A conformance result relates a log and model; it does not prove that the model describes the obtaining Method or that every deviation is defective. Executability and visual process form do not satisfy `A.3.2`.
+None of the earlier contributions automatically recovers a Method. Identify the discovered model's claim-bearing episteme and its actual `EntityOfConcern`; keep that subject distinct from its evidential basis. A conformance result relates a log and model; it does not prove that the model describes the obtaining Method or that every deviation is defective. Executability and visual process form do not satisfy `A.3.2`.
 
 Treat *process*, *actual process*, *case*, *activity*, *event*, *variant*, *deviation*, and *process model* as cues to recover the direct subject, not as types supplied by the words. Use `E.10` and `A.15.6` when the source remains ambiguous.
 
@@ -9956,7 +9956,7 @@ If that held-out occurrence and the remaining evidence support the cue-responsiv
 
 The same team names its event-data preparation Method: select inspection start and completion events from the source files, name activities under the plant vocabulary, correlate records by pump and maintenance visit, and collapse duplicate sensor bursts under a stated rule. It cites the selected configuration because that configuration affects the result. Dated preparation Work on the named files produces an event-log episteme about the selected event-data collection.
 
-If the correlation key, configuration, or source window cannot be recovered, the result is that limitation—not a raw-fact log. A separately named discovery Method returns a behavioural-model episteme with observed variants. Candidate-Method recovery then adds the two candidate reusable-way accounts, the missing tactile contribution, the record-only branch, and the fifth-occurrence question.
+If the correlation key, configuration, or source window cannot be recovered, the result is that limitation—not a raw-fact log. A separately named discovery Method returns a behavioural-model episteme with observed variants. Candidate-Method recovery then adds the two candidate reusable-way accounts, the gap concerning the tactile check absent from the video, the record-only branch, and the fifth-occurrence question.
 
 #### A.3.1.MR:5.3 - Record-only lowering
 
@@ -9974,7 +9974,7 @@ If the receiving use changes to deciding whether to retain the fixed inspection 
 - **Frequency bias:** repeated order is evidence to examine, not a reusable Method part by count alone.
 - **Success bias:** favorable outcomes without failed or atypical cases may hide the real limits of the reusable way.
 - **Record bias:** unrecorded perceptual, embodied, conversational, and discretionary contributions remain possible gaps.
-- **Single-tradition bias:** process mining, routine dynamics, interviews, and Method Engineering each expose different evidence limits; none alone is sufficient for complete reconstruction.
+- **Single-tradition bias:** check whether the selected approach supplies what the receiving reconstruction needs; obtain another contribution only for a material remaining gap.
 - **Template-completion bias:** unsupported account positions remain unknown rather than being completed from familiar practice.
 
 ### A.3.1.MR:7 - Conformance Checklist
@@ -9985,7 +9985,7 @@ If the receiving use changes to deciding whether to retain the fixed inspection 
 - **CC-A3.1.MR-4 — Evidence construction.** Are selection, naming, correlation, abstraction, configuration, window, and likely missing contributions explicit when they matter?
 - **CC-A3.1.MR-5 — One candidate per account.** Does every candidate-account episteme have one candidate reusable-way EntityOfConcern and effective scheme?
 - **CC-A3.1.MR-6 — Rival retained.** Are real competing accounts or unresolved ambiguity visible without inventing a rival to complete the form?
-- **CC-A3.1.MR-7 — Useful distinguishing question.** Where discrimination changes recovery or downstream use, is the question clear and, if held out, independent of account construction? Does the account remain usable when no answerable investigation is needed or available, with stronger dependent claims withheld?
+- **CC-A3.1.MR-7 — Useful distinguishing question.** Where discrimination changes recovery or downstream use, is the question clear and any held-out evidence kept out of account construction? Does the account remain usable when no answerable investigation is needed or available, with stronger dependent claims withheld?
 - **CC-A3.1.MR-8 — Result branch.** Does the result stop at candidate account, separate comparison, record-only result, or named blocker without granting Method or MethodDescription membership?
 - **CC-A3.1.MR-9 — Specialist exit.** Is `RMP.10` used for complete reconstruction only when the receiving use needs its larger burden?
 - **CC-A3.1.MR-10 — Plain use.** Can a cold practitioner explain the candidate, evidence, real rivals, gaps and supported current use without a mandatory next-test plan?
@@ -9995,12 +9995,12 @@ If the receiving use changes to deciding whether to retain the fixed inspection 
 | Anti-pattern | Repair |
 | --- | --- |
 | “The common sequence is the Method.” | Recover applicability, participant meanings, intended result, variation, limits, rivals, and missing contributions first. |
-| “The mined model is the MethodDescription.” | Keep the model as a claim-bearing result about selected evidence until one Method is admitted and the episteme passes `A.3.2`. |
+| “The mined model is the MethodDescription.” | Keep the model as an episteme with its actual subject and claims. Apply `A.3.2` only when that same episteme concerns an admitted Method and makes a substantive claim about it as a way of doing. |
 | “Several candidates form one concern.” | Return one account per candidate; create a separate comparison subject only for a named use. |
 | “One expert performance proves the reusable way.” | Use it to open a hypothesis; seek several grounded occurrences or lower the result. |
 | “The log is raw fact.” | Name preparation Method, configuration, source, dated Work, correlation, encoding, window, and resulting event-log episteme. |
 | “Unknown means fill the standard field.” | Keep unsupported positions unknown and preserve their use limits. Add a distinguishing question only when it changes the receiving use; a missing field does not commission evidence collection. |
-| “Every recovery needs a full study.” | Stop at the smallest source-traceable candidate or record-only result; enter `RMP.10` only for specialist reconstruction. |
+| “Every recovery needs a full study.” | Stop when the source-traceable candidate or record-only result is sufficient for the receiving use; otherwise state its limit. Enter `RMP.10` only when that use needs specialist reconstruction. |
 
 ### A.3.1.MR:9 - Consequences
 
@@ -10025,7 +10025,7 @@ The one-account-per-candidate rule protects episteme subject truthfulness when e
 | Feldman and Pentland, [*Routine dynamics: Toward a critical conversation*](https://journals.sagepub.com/doi/10.1177/14761270221130876) (2022) | Separates particular performances from enduring or emergent patterns and keeps variation visible. | The performance/pattern distinction matters here: Repeated Work can support a candidate account without itself becoming the Method. |
 | Stacey et al., [*Methods as a form of engineering knowledge*](https://www.cambridge.org/core/journals/design-science/article/methods-as-a-form-of-engineering-knowledge/D126E520FCE6935C3DCBA703F89C24E4) | Distinguishes descriptive reconstruction from prescriptive method content and shows why the distinction can be difficult to maintain. | Coherent description does not establish Method admission or MethodDescription membership. |
 | Process-mining reference: [*Process Mining Handbook*](https://doi.org/10.1007/978-3-031-08848-3) (2022); exchange-format boundary: [OCEL 2.0 semantics and the 2.1 serialization revision](https://www.ocel-standard.org/specification/overview/) | Supplies preparation, discovery, conformance, enhancement, and multi-object event representation capabilities. | Event extraction, naming, correlation, object identity, encoding, abstraction, windows, and serialization remain modeling choices; mining alone establishes no applicability, intention, authority, tacit contribution, causal value, or Method identity. |
-| Object-centric recovery alternatives: [Adams et al., *Defining Cases and Variants for Object-Centric Event Data*](https://arxiv.org/abs/2208.03235) and [Küsters and van der Aalst, *OCPQ*](https://arxiv.org/abs/2506.11541) | Real event data may relate one event to several objects; selecting one case key or flattening can discard information, while queries and constraints produce use-bounded results. | Preserve the multi-object evidence and state the selected grouping, query, or constraint when it changes the candidate account. A graph-shaped execution, query result, or constraint result is still evidence or an episteme, not the reusable Method. |
+| Object-centric recovery alternatives: [Adams et al., *Defining Cases and Variants for Object-Centric Event Data*](https://arxiv.org/abs/2208.03235) and [Küsters and van der Aalst, *OCPQ*](https://arxiv.org/abs/2506.11541) | Real event data may relate one event to several objects; selecting one case key or flattening can discard information, while queries and constraints produce use-bounded results. | Preserve the multi-object evidence and state the selected grouping, query, or constraint when it changes the candidate account. Keep an execution, its representation, and any query or constraint result distinct. Their form alone does not identify the reusable Method. |
 
 ### A.3.1.MR:12 - Relations
 
@@ -10098,12 +10098,12 @@ Build a source-traceable dossier around the receiving decision. Recover each doc
 
 1. **Bound the receiving use and sources.** Name the decision, relevant viewpoint, scope, and exclusions. For each documentary source give its exact edition or snapshot, source-return locator, role in this use, selected recovery profile, and currentness or reopening condition. One package normally needs one compact source/use statement, not a separate register.
 2. **Choose how much to recover.** Use the profiles below. A maintained source's source-local recovery and comparison with current alternatives answer different questions; do not let the comparison erase a source contribution before it has been understood.
-3. **Read source meaning before placement.** For each selected contribution retain the source term and locator, difficulty or opportunity, asserted reusable action or change, first useful result or blocker, and receiving use. Keep its original status, limits, purpose, and explicit or implied relations. A source ambiguity remains an ambiguity.
+3. **Read source meaning before placement.** For each selected contribution retain the source term and locator, difficulty or opportunity, any asserted reusable action or change, any first useful result or blocker, and receiving use. Keep its original status, limits, purpose, and explicit or implied relations. A source ambiguity remains an ambiguity.
 4. **Preserve the subject and evidence role.** Distinguish identified Methods, individually scoped candidate accounts, MethodDescriptions or other epistemes, Systems and support/access, capabilities and assignments, inputs/results/premises, and direct relations. A source's report of evidence is recovered as that report, not as independently established Work or effectiveness. Send a new question about a reusable way in occurrence evidence to A.3.1.MR; specialist RMP.10 follows only under its entry condition.
 5. **Record intended use and possible loss.** Say what the receiving use proposes to keep, change, reject, or leave unresolved and what source meaning or context would be lost. These are source-local recovery dispositions. Do not yet assert cross-source sameness, perform semantic merging, allocate a remainder to a supplier, or design the resulting pattern language.
 6. **Recover direct relations and small dependency slices.** Retain supported production/use, schema correspondence, provider access, allocation, responsibility, authority, or other relevant relations. A line, container, chapter, lane, or local section supplies no relation. Attach only the source claims, conditions, and returns needed for the next judgement.
 7. **Prepare the actual downstream subjects.** A.3.1.QM receives only identified Methods and individually scoped candidate Method accounts, each with the smallest slice needed to judge contribution, inputs/results, applicability, burden, capability, support, authority/access, and evidence. B.1.5.CM receives a proposed-whole account when whole identity and relations are the question; retain its proposed semantics, participant statuses, relation boundary, and source slices. Other kinds remain in the dossier or accompany those subjects without becoming Methods.
-8. **Return the dossier and any blocking gaps.** Use open navigation sections when they help retrieval. Stop when the receiving decision can recover its subjects and source basis. If edition, role, receiving use, a needed current comparator, source return, kind, relation, or evidence is missing, name the affected contribution and the missing basis. Continue unaffected recovery when it can still serve the receiving decision; do not claim completeness beyond the recovered boundary.
+8. **Return the dossier and any blocking gaps.** Use open navigation sections when they help retrieval. Stop when the subjects and source basis needed for the receiving decision are recoverable. If edition, role, receiving use, a needed current comparator, source return, kind, relation, or evidence is missing, name the affected contribution and the missing basis. Continue unaffected recovery when it can still serve the receiving decision; do not claim completeness beyond the recovered boundary.
 
 ##### A.3.1.DR:4.1.1 - Select the Recovery Profile Per Source
 
@@ -10124,12 +10124,12 @@ For an ordinary package, the default is **decision-bounded recovery**: inspect o
 | --- | --- |
 | recovery boundary | Receiving decision, source set and exact editions/snapshots, viewpoint, scope, and exclusions. |
 | source/use statement | Per source: locator, role, recovery profile, receiving use, and currentness or reopening condition; combine this with the boundary for one ordinary package. |
-| entries | Local reference, source locator and meaning, difficulty/opportunity, asserted action/change, first result/blocker, existing kind or unresolved status, bounded use, and loss. |
+| entries | Local reference, source locator and meaning, difficulty/opportunity, any asserted action/change, any first result/blocker, existing kind or unresolved status, bounded use, and loss. |
 | direct relations | Related subjects, relation, source or evidence basis, truth status, and unresolved condition. |
 | occurrence-evidence return, when current | The A.3.1.MR or RMP.10 result with its own candidate statuses, real rivals, gaps and evidence limits. Include a distinguishing question only when it changes the receiving use, or a held-out result only when actually obtained. An ordinary account needs no prospective study to fill this row; raw observations are not documentary Method entries. |
 | navigation | Open local sections used only for finding contributions. |
 | downstream subjects | Identified Methods and individually scoped accounts with dependency slices for A.3.1.QM; a proposed-whole account with its identity/relation boundary for B.1.5.CM when needed. |
-| stop and return | Missing source, role, use, comparator, kind, relation, evidence, or the next receiving question. |
+| stop and return | Supported result for the receiving decision; any missing source, role, use, comparator, kind, relation, or evidence; any further question the decision requires. |
 
 Keep these distinctions in the dossier already being used; they are not a requirement for one file or row per field. A short one-source result can carry the source/use statement in its opening sentence.
 
@@ -10173,7 +10173,7 @@ This constructed case concerns a change to the release-assurance arrangement. Ha
 | C/2 §2; current comparator; SoTA-first for this decision; return if a rival or the comparison basis changes. | A separately reviewed evidence bundle is proposed to reduce reliance on one supplier account. Its first result is a reviewed bundle or a named evidence gap. The claim's tested reach is limited to the comparison's cases. | Retain this alternative and its limits separately from H. Do not decide that two differently supported activities are one Method or that either replaces the other. |
 | I/D1; occurrence evidence, not a third documentary recovery profile. | The interview reports one release episode but does not yet distinguish a reusable way from a one-off response. | For the one-occurrence question use A.15.1. If several occurrences create a candidate-recovery question, use A.3.1.MR; keep a record-only lower result when that is all the evidence supports. RMP.10 is not an automatic next step. |
 
-The first result is the two-source documentary dossier plus the honest occurrence-evidence return, not a merged release Method. A later semantic comparison must decide whether the two documentary contributions overlap, conflict, or complement one another.
+The first result is the two-source documentary dossier plus the honest occurrence-evidence return, not a merged release Method. When the receiving decision needs a semantic comparison, examine whether the two documentary contributions overlap, conflict or complement one another; leave unresolved relations explicit.
 
 If C's full argument becomes unavailable but a page-located excerpt remains, retain the excerpt and reopen only entries whose receiving use depends on the missing context. H's independent source-local result remains usable. Do not turn unavailable support into proof that C was false, or continue a gap-only recovery without its baseline.
 
@@ -10208,13 +10208,13 @@ If C's full argument becomes unavailable but a page-located excerpt remains, ret
 | Everything actionable becomes a Method candidate. | Require a reusable way-of-doing account; keep support, capability, evidence, and authority under their direct kinds. |
 | The package is reduced to a procedure. | Recover rationale, framing, intended use, inputs/results, support, evidence, and authority only where they change the receiving decision. |
 | The whole package is copied for provenance. | Attach a bounded dependency slice to each Method/account and retain a source return to the package edition. |
-| Unknown relation is inferred from adjacency. | Record the relation as unresolved and state what observation or source would settle it. |
+| Unknown relation is inferred from adjacency. | Record the relation as unresolved and name any known source or observation that could settle it. |
 
 ### A.3.1.DR:9 - Consequences
 
 The package becomes selectively reusable while its provenance and the kinds of its contributions remain explicit. Later qualification can inspect one Method or account together with the dependencies that make its use meaningful.
 
-The cost is explicit kind and relation recovery. Some familiar package headings will disappear from the action path, while important support, authority, or evidence conditions may become more visible than the source's headline procedure.
+The cost is explicit kind and relation recovery. Important support, authority, or evidence conditions may become more visible than the source's headline procedure.
 
 ### A.3.1.DR:10 - Architectural Rationale
 
@@ -10286,7 +10286,7 @@ The project then believes the architecture problem is solved even though no resu
 
 | Force | Tension |
 | --- | --- |
-| Early rejection | Individual defects should stop early, while whole conflicts must remain visible for C.32.MWA.PP. |
+| Early rejection | An individual condition can rule out a subject for the receiving use before whole comparison; combined conflicts remain visible for C.32.MWA.PP. |
 | Status preservation | Candidate accounts need useful assessment, while qualification cannot identify their Methods. |
 | Comparable questions | A common set of questions aids choice, while not every question applies to every subject. |
 | Evidence proportionality | A bounded use may need little evidence, while safety, authority, or high burden can require stronger support. |
@@ -10304,9 +10304,9 @@ Qualify one subject at a time against the bounded receiving use. Preserve status
 2. **Bind the use.** State the receiving Work or result, situation family, scope, time window, non-negotiable criteria, acceptable variation, and decision that will consume the qualification.
 3. **Recover the individual contribution.** Name the input, result or preserved condition, procedure or invariant as far as known, applicability, and important source meaning. Do not credit the subject with another Method's result.
 4. **Check attributable conditions.** Inspect the conditions relevant to this contribution: timing and burden attributable to this subject; performer capability; support and provider access; authority or responsibility; evidence; and source or transfer limits.
-5. **Test local connections only.** Check an input/result handoff, schema correspondence, or adapter feasibility when it can be supported independently. Record its scope and failure case.
+5. **Test local connections only.** Check an input/result handoff, schema correspondence, or adapter feasibility when it can be assessed independently of a whole synthesis. Record its scope and any known failure condition relevant to the receiving use.
 6. **Return the truthful branch.** An identified Method is qualified or not qualified for the bounded use. For a not-qualified result, distinguish a failed criterion from an insufficient basis to judge it. A candidate account is retained or excluded *as an account*, with unresolved identification conditions unchanged. A local connection is supported, unsupported, or unresolved.
-7. **Choose the stop.** Stop after one usable Method, one retained account, or several independently usable subjects when no whole question remains. Enter C.32.MWA.PP only when a several-structure choice can change the decision.
+7. **Choose the stop.** Stop when the individual qualification or local-connection result is sufficient for the receiving decision and no whole question remains. Enter C.32.MWA.PP only when a several-structure choice can change the decision.
 
 #### A.3.1.QM:4.2 - Record the Result
 
@@ -10316,12 +10316,12 @@ Qualify one subject at a time against the bounded receiving use. Preserve status
 | bounded use | Receiving result or Work, situation, scope, window, criteria, and consuming decision. |
 | contribution | Inputs, result or preserved condition, known procedure/invariant, applicability, and variation. |
 | attributable conditions | Time/burden, capability, support/provider access, authority/responsibility, evidence, and source limits attributable to this subject and relevant to the receiving use. |
-| local connections | Independently tested input/result, schema, or adapter claims with scope and status. |
+| local connections | Independently assessed input/result, schema, or adapter claims with scope and status. |
 | verdict and stop | Qualified/not-qualified Method or retained/excluded account, failed criteria or missing qualification basis, open identity conditions, remaining whole question, and next action. |
 
 #### A.3.1.QM:4.3 - What Changes in Practice
 
-Teams stop scoring a methodology bundle as one object. They can reject one Method, retain a promising account without admitting it, and prove one schema mapping without calling the whole arrangement compatible. C.32.MWA.PP then receives only the genuinely combined timing, allocation, support, authority, or composition questions.
+Teams can use individual qualifications without treating them as a verdict on the whole arrangement. They can reject one Method, retain a promising account without admitting it, and prove one schema mapping without calling the whole arrangement compatible. C.32.MWA.PP then receives only the genuinely combined timing, allocation, support, authority, or composition questions.
 
 ### A.3.1.QM:5 - Archetypal Grounding — EC-417 Individual Stops
 
@@ -10375,7 +10375,7 @@ Two honest stops are now available. A project needing only hardware verification
 
 ### A.3.1.QM:9 - Consequences
 
-Weak subjects fail early, promising accounts remain usable without ontological promotion, and local handoffs become inspectable. Architecture comparison is smaller because it receives only retained subjects and unresolved combined questions.
+Subjects can be excluded early when a relevant criterion rules out their use; promising accounts remain usable without ontological promotion, and local handoffs become inspectable. Architecture comparison uses the retained subjects and unresolved combined questions.
 
 The cost is keeping the different conditions visible even when a project needs one overall choice. Several qualified individual results may still leave no acceptable synthesis.
 
@@ -10411,13 +10411,13 @@ Revisit an individual qualification when its conclusion turns out to depend on a
 
 ### A.3.1.WT:0 - Use This When
 
-Use this pattern when a Method or candidate Method account is ready for a trial in actual Work and the next decisions need observations from named situations rather than another plan, demonstration, or document review. Begin with one trial question: what must be learned from actual Work for a later coherence, fit, transfer, or worth decision?
+Use this pattern when a Method or candidate Method account is ready for a trial in actual Work and the next decisions need observations from named situations. Begin with one trial question: what must be learned from actual Work for a later coherence, fit, transfer, or worth decision?
 
-The first useful result is an account of the selected trial Work and observations. It names the subject and its status, the situation-selection reason, the planned task, the Work that actually occurred, actual performers and enacted admitted Methods, relied-on Systems and capabilities, observations, gaps, and the later decision that may use them. A result that returns `missing-performed-work` is useful when the trial remains only planned.
+The first useful result is an account of the selected trial Work and observations. It names the subject and its status, the situation-selection reason, the task and any available plan, the Work that actually occurred, actual performers and enacted admitted Methods, relied-on Systems and capabilities, observations, gaps, and the later decision that may use them. A result that returns `missing-performed-work` is useful when the trial remains only planned.
 
 Here *trial* is Plain practice wording for intentionally selected Work and observation. It is not a new subtype of `U.Work`, a Method admission, an evaluation result, or a claim that the situation statistically represents a population.
 
-Do not use this pattern to declare description coherence, situational fit, transfer, practical worth, capability, causal contribution, or general effectiveness. A.3.1.WT makes later judgments possible; A.3.1.CC, A.3.1.FT, and C.11.MV make those judgments under their own questions and evidence.
+Do not use this pattern to declare description coherence, situational fit, transfer, practical worth, capability, causal contribution, or general effectiveness. It returns evidence for separately governed judgments, including A.3.1.CC coherence, A.3.1.FT fit or transfer, and C.11.MV practical worth.
 
 #### A.3.1.WT:0.1 - Working Distinctions
 
@@ -10428,7 +10428,7 @@ Do not use this pattern to declare description coherence, situational fit, trans
 | discriminating situation | A situation selected because one changed condition can expose a claimed limit, burden, or failure. | Difference alone is insufficient; state which claim the changed condition can test. |
 | WorkPlan | Intended performers, tasks, Methods, situations, observations, and stops. | A plan, script, simulation description, or scheduled demonstration is not performed Work. |
 | admitted Work | One dated Work occurrence admitted under `A.15.1` from its actual performers, action history, enacted Method, temporal extent, and required containing-System relation. | A report, trace, attendance record, or output can support the claim but does not create the occurrence. |
-| candidate-account trial branch | Actual Work is admitted separately while claims in a candidate Method account are compared with observations. | The candidate whole is not said to have been enacted. Only separately admitted constituent Methods may obtain in `enactsMethod` relations. |
+| candidate-account trial branch | Actual Work is admitted separately while claims in a candidate Method account are compared with observations. | The candidate whole is not said to have been enacted. Name each independently admitted Method actually followed and its grounded `enactsMethod` relation. |
 | capability input | A claim about a holder System, Work family or result class, operating envelope, measures, qualification or currentness window, and evidence used for reliance. | Training, availability, assignment, permission, authority, or one success does not substitute for it. |
 | trial evidence | Occurrence-level observations, source relations, burdens, adaptations, results, and gaps qualified for named later uses. | It is not itself coherence, fit, transfer, worth, contribution, or causal proof. |
 
@@ -10460,30 +10460,30 @@ These moves produce a positive story but weak evidence. Later reviewers cannot r
 
 A.15.1 identifies performed Work and A.10 governs a claimed evidence use. The trial construction below determines which Work, variation, observation and stopping condition can answer the unresolved Method question. Its result is distinct from coherence, transfer and comparative worth; reuse a matching existing observation before commissioning a trial.
 
-Select situations from the later evidence questions, arrange and observe actual Work, preserve every subject's status, and return occurrence-level evidence with explicit gaps and limits on the conclusions it supports.
+Select situations from the later evidence questions, use matching observations of existing Work or arrange and observe a new trial, preserve every subject's status, and return occurrence-level evidence with explicit gaps and limits on the conclusions it supports.
 
 #### A.3.1.WT:4.1 - Pattern-Use Unfolding
 
 1. **Name the later decisions and trial questions.** Separate the questions that may feed A.3.1.CC coherence, A.3.1.FT situational fit or transfer, and C.11.MV practical worth. Do not hide several conclusions inside “does the Method work?”.
-2. **Preserve the subject branch.** Identify the admitted Method under `A.3.1`, or keep the proposed whole as a candidate account. In the candidate branch, state which candidate claims are being compared and which constituent Methods, if any, are separately admitted and may be enacted.
-3. **Select one representative situation.** Name the intended-use characteristics that matter to the question: task purpose, development phase, technical or domain conditions, performer population, holder capabilities, participating Systems, direct relations, constraints, and qualification window. State why this situation covers the current question without claiming population representativeness.
+2. **Preserve the subject branch.** Identify the admitted Method under `A.3.1`, or keep the proposed whole as a candidate account. In the candidate branch, state which candidate claims are being compared and which Methods, if any, are separately admitted and may be enacted.
+3. **Select a representative situation when the trial question needs one.** Name the intended-use characteristics that matter to the question: task purpose, development phase, technical or domain conditions, performer population, holder capabilities, participating Systems, direct relations, constraints, and qualification window. State why this situation covers the current question without claiming population representativeness.
 4. **Select a discriminating situation when the decision needs one.** Change or seek one condition whose outcome can show whether a live claim holds in that situation: unfamiliar technical coupling, another domain, missing support relation, changed capability envelope, stale material, or another named alternative. State the claim that could fail. Do not require every trial to contain an artificial stress case.
-5. **Write the WorkPlan without backdating Work.** State intended tasks, performers, admitted Methods, support conditions, observation points, protected conditions, burdens to record, stop rules, and the later use of each observation. Keep simulation and demonstration as planned or separately typed activities unless independently admitted Work occurs.
+5. **Keep intention and performance distinct.** For a new trial, write the WorkPlan with intended tasks, performers, admitted Methods, support conditions, observation points, protected conditions, burdens to record, stop rules, and the later use of each observation. For existing Work, recover any available plan and leave unsupported claims about prior intentions unresolved. Distinguish planned or described activity from what was performed. A performed simulation or demonstration may itself be admitted as Work under §4.1(7); distinguish what was actually performed from what was only represented or planned.
 6. **Check capability and support inputs separately.** When reliance on capability changes interpretation, identify the holder System, Work family or result class, operating envelope, measures, qualification or currentness condition, and evidence. Recover only A.15.8.MS material, access, tool, provider, feedback, and decision conditions supported for the relevant task rows; preserve retained candidates, split boundaries, untested conditions, and gaps rather than treating them as configured inputs.
 7. **Admit only Work that occurred.** For each occurrence, recover every actual performer System and its A.13 basis, the action history, at least one admitted Method actually followed, temporal extent, and required containing-System relation under `A.15.1`. Use F.6 through the same obtaining A.13 assignment only when precise assignment-bound attribution is needed. Add System use, operation binding, affected referent, resource use, or result relations only when the claim needs them and their own predicates obtain.
-8. **Record conditions and departures.** For each Work occurrence, record the situation, relied-on Systems and direct relations, holder capabilities used in interpretation, deviations from the WorkPlan, adaptations, burdens, stops, domain results, and observations. Keep the domain result, report, log, and evidence-use relation separate from Work.
+8. **Record conditions and departures.** For each Work occurrence, record the situation, relied-on Systems and direct relations, holder capabilities used in interpretation, departures from any available WorkPlan, adaptations, burdens, stops, domain results, and observations. Keep the domain result, report, log, and evidence-use relation separate from Work.
 9. **Qualify the evidence reach.** Distinguish direct observation, participant report, source interpretation, observed association, contribution claim, and causal claim. Return the supported level needed by the receiving claim and name missing comparison, temporal, capability, relation, or alternative evidence.
-10. **Return evidence by later use.** For each selected receiving question, send contradicted description or relation claims to A.3.1.CC, situation comparisons and an unlike-situation result to A.3.1.FT, and results, burdens, alternatives, side effects, and evidence limits to C.11.MV. Return `missing-performed-work`, `missing-method-admission`, `missing-capability-basis`, `missing-direct-relation`, or the named missing premise when a required condition is absent.
+10. **Return evidence by later use.** For each selected receiving question, send description or relation evidence to A.3.1.CC, the situation evidence and any comparison needed for the selected fit or transfer question to A.3.1.FT, and results, burdens, alternatives, side effects, and evidence limits to C.11.MV. Return `missing-performed-work`, `missing-method-admission`, `missing-capability-basis`, `missing-direct-relation`, or the named missing premise when a required condition is absent.
 
 #### A.3.1.WT:4.2 - Record the Result
 
 | Result position | Required content |
 | --- | --- |
 | trial use | Later decision, bounded trial question, qualification window, and stop. |
-| subject status | Admitted Method, or candidate account plus each separately admitted constituent Method whose enactment is claimed. |
-| situations | Representative and any discriminating situation, selection criteria, matched conditions, changed conditions, and claim each can test. |
-| plan baseline | Intended Work, performers, Methods, support conditions, observations, burdens, protected conditions, and stop rules. |
-| actual Work | Each admitted Work occurrence, actual performers, enacted admitted Methods, temporal extent, containing System, and deviations from plan. |
+| subject status | Admitted Method, or candidate account plus each separately admitted Method whose enactment is claimed. |
+| situations | Representative or discriminating situations selected for the question, selection criteria, any relevant matched or changed conditions, and the question or claim each addresses. |
+| plan baseline | Available plan for existing Work, or intended Work for a new trial, with performers, Methods, support conditions, observations, burdens, protected conditions, stop rules and any missing plan basis relevant to the question. |
+| actual Work | Each admitted Work occurrence, actual performers, enacted admitted Methods, temporal extent, containing System, and departures from any available plan. |
 | relied-on conditions | Holder capabilities, Systems, Agent-performed Work, direct relations, access, assignments, permissions, authority, tools, providers, and support conditions that actually obtain or remain missing. |
 | observations | Domain results, burdens, adaptations, failures, participant reports, direct observations, and their source or evidence-use relations. |
 | reach and gaps | Supported observation level, missing evidence, material limits on contribution or causal claims, and conditions that would reopen the slice. |
@@ -10493,7 +10493,7 @@ Keep these distinctions in the account and its referenced records. A table is us
 
 #### A.3.1.WT:4.3 - What Changes in Practice
 
-Teams stop calling a scheduled exercise or positive report “the trial”. They can point to the actual Work, the admitted Method that was enacted, the conditions on which the result depended, and the named later question each observation can answer.
+Teams distinguish a planned or reported trial from the Work that actually occurred. They can point to the actual Work, the admitted Method that was enacted, the conditions on which the result depended, and the named later question each observation can answer.
 
 A failed or incomplete occurrence remains useful. It can expose a description defect, a representation difficulty, a missing support relation, a capability condition, or a situation boundary without being inflated into a universal verdict on the Method.
 
@@ -10523,14 +10523,14 @@ The published paper supplies report evidence. A local application admits a parti
 
 #### A.3.1.WT:5.1 - Preserve the Status Branch
 
-Before using the replay, establish whether SSFD is an admitted Method for the current FPF use. If it is, each supported project occurrence may be tested for its own obtaining `enactsMethod` relation. If it is not, admit the workplace Work independently, retain the SSFD account as a candidate, and name only separately admitted constituent Methods as enacted. The report statement “used SSFD” does not perform either admission automatically.
+Before using the replay, establish whether SSFD is an admitted Method for the current FPF use. If it is, each supported project occurrence may be tested for its own obtaining `enactsMethod` relation. If it is not, admit the workplace Work independently, retain the SSFD account as a candidate, and name the independently admitted Methods whose enactment relations obtain. The report statement “used SSFD” does not perform either admission automatically.
 
 #### A.3.1.WT:5.2 - Representative and Discriminating Slices
 
 | Slice | Reported project facts used | Evidence returned | Stop retained |
 | --- | --- | --- | --- |
-| Project 11 | The report concerns functional analysis of a new by-wire steering system and records 48 failure modes for four system functions, 44 new requirements and design rules, 44 test cases for individual systems, and 33 requirements and test cases for the overall system. | One bounded application account for checking whether description, representation, and support claims were usable in that project situation, plus the reported results and burdens available from the source. | Do not infer that this project caused or preceded Project 32, that every programme participant had the same capability, or that the reported benefits came from SSFD alone. |
-| Project 32 | The report exposes difficulty representing the relation between a closed-loop sensor and controller. | A discriminating representation difficulty for A.3.1.CC and an unlike-situation comparison for A.3.1.FT. A.3.1.CC uses C.37 and the direct representation governor for one action; when several unlike Method-related actions are current, it checks the affected action and cross-use dependency in the complete C.37.MP profile defined in C.37.MP:4.2. The report establishes neither selection result by itself. | Do not turn the difficulty into general Method failure or claim that Project 11 supplies the counterfactual. |
+| Project 11 | The report concerns functional analysis of a new by-wire steering system and records 48 failure modes for four system functions, 44 new requirements and design rules, 44 test cases for individual systems, and 33 requirements and test cases for the overall system. | One bounded application account for checking whether description, representation, and support claims were usable in that project situation, plus the reported results and burdens available from the source. | Do not infer that every programme participant had the same capability or that the reported benefits came from SSFD alone. |
+| Project 32 | The report exposes difficulty representing the relation between a closed-loop sensor and controller. | A discriminating representation difficulty for A.3.1.CC and an unlike-situation comparison for A.3.1.FT. A.3.1.CC uses the direct representation governor for the affected action and C.37 when a selection question remains; when a Method-specific cross-use profile is needed, it checks the affected action and cross-use dependency under C.37.MP:4.2. The report establishes neither selection result by itself. | Do not turn the difficulty into general Method failure or claim that Project 11 supplies the counterfactual. |
 | 41-report evidence set | The review identifies 95 examples of evidenced individual benefits across business results, process improvement, and product-development-team capability improvement, while separating direct and indirect contribution. | Bounded report and review evidence for later comparison of results, burdens, and evidence strength in C.11.MV. | Counts and source classifications do not establish causality, universal superiority, transfer, or current capability for every participant. |
 
 The useful A.3.1.WT result is therefore not “SSFD works”. It is a set of reported workplace-project accounts, situation and support conditions, observed representation difficulties, reported results and burdens, evidence-source qualifications, and explicit gaps for three separate later judgments.
@@ -10547,9 +10547,9 @@ For a release trial, apply §4.1(6–9) to the release's own occurrence, support
 
 | Bias | Likely drift | Repair |
 | --- | --- | --- |
-| plan-completion bias | A scheduled or demonstrated task is recorded as trial Work. | Admit each actual Work occurrence separately; otherwise return `missing-performed-work`. |
+| plan-completion bias | Planned or represented activity is reported as performed trial Work. | Admit each actual Work occurrence separately; otherwise return `missing-performed-work`. |
 | candidate-laundering bias | Constituent activity is reported as enactment of the candidate whole. | Preserve the candidate account and name only separately admitted enacted Methods. |
-| success-selection bias | Convenient positive occurrences stand in for the intended situation family. | State representative criteria and add a discriminating situation when the later question needs one. |
+| success-selection bias | Convenient positive occurrences stand in for the intended situation family. | State the situation-selection criteria and select a discriminating situation when the later question needs one. |
 | instrument bias | Logs, reports, or telemetry are treated as the Work or result. | Keep the occurrence, result, record, and evidence-use relation separate. |
 | capability inflation | Training or one success becomes a holder capability claim. | Require the A.2.2 holder, Work family, envelope, measures, window, and evidence. |
 | causal inflation | Reported benefit or association becomes Method-caused effect. | State the observation level and missing comparison or causal basis. |
@@ -10560,8 +10560,8 @@ For a release trial, apply §4.1(6–9) to the release's own occurrence, support
 - [ ] One later decision and bounded trial question are stated before the trial design.
 - [ ] The Method is admitted, or the proposed whole remains a candidate account throughout.
 - [ ] Every claimed enacted Method is independently admitted; no candidate whole is said to be enacted.
-- [ ] Representative criteria are named, and every discriminating situation states the claim it can distinguish.
-- [ ] WorkPlan, demonstration, simulation, report, trace, result, and actual Work remain separate.
+- [ ] Situation-selection criteria are named, and every discriminating situation states the claim it can distinguish.
+- [ ] Plans, reports, traces and results remain distinct from Work; for a simulation or demonstration, distinguish what was actually performed from what was only represented or planned.
 - [ ] Each claimed Work occurrence independently satisfies the admission basis in §4.1(7).
 - [ ] Capability, System use, assignment, permission, authority, support, operation binding, and result relations are asserted only from their own bases.
 - [ ] Conditions, deviations, adaptations, burdens, observations, and domain results are recorded per occurrence.
@@ -10573,7 +10573,7 @@ For a release trial, apply §4.1(6–9) to the release's own occurrence, support
 | Anti-pattern | Repair |
 | --- | --- |
 | “The rehearsal ran, so the Method was trialled.” | Recover actual Work and its enacted admitted Method; otherwise keep the rehearsal at its supported status. |
-| “The team enacted the candidate Method.” | Admit the Work, preserve the candidate account, and name only admitted constituent Methods whose enactment relations obtain. |
+| “The team enacted the candidate Method.” | Admit the Work, preserve the candidate account, and name only independently admitted Methods whose enactment relations obtain. |
 | “Everyone was trained, so capability was controlled.” | Record training separately and recover the holder capability input actually used in interpretation. |
 | “The log proves the task occurred and succeeded.” | Use the log as evidence for independently admitted Work and a separately established task result. |
 | “Most reports were favourable, so the Method transfers.” | Send the occurrence evidence and situation differences to A.3.1.FT; do not make the transfer judgment here. |
@@ -10589,7 +10589,7 @@ The cost is more explicit occurrence recovery and narrower conclusions. Projects
 
 Actual Work is the shared empirical base, but coherence, fit, transfer, worth, capability, contribution, and causality are different claims. Keeping them separate lets the same occurrence inform several decisions without allowing one decision to inherit another's conclusion.
 
-Representative situations answer typical-use questions; discriminating situations test a stated difference or boundary. Select the former for the intended use and add the latter when the decision requires it. Their selection does not create statistical representativeness or a universal situation taxonomy.
+Representative situations answer typical-use questions; discriminating situations test a stated difference or boundary. Select either or both according to the receiving question. Their selection does not create statistical representativeness or a universal situation taxonomy.
 
 ### A.3.1.WT:11 - SoTA-Echoing
 
@@ -10605,7 +10605,7 @@ Representative situations answer typical-use questions; discriminating situation
 - A.3.2.DE supplies MethodDescription content or candidate-account content for the trial question. A.15.8.MS supplies supported material and task conditions or a retained configuration set, split boundary, or gap; A.3.1.WT consumes only the obtaining support inputs and preserves every unresolved status. Neither pattern establishes trial Work or its result.
 - RMP.10 may supply a reconstructed candidate account and a trial question while preserving the candidate branch.
 - `A.3.1` governs Method admission; `A.15.2` keeps the WorkPlan separate; `A.15.1` governs each Work occurrence; `A.2.2` governs capability inputs; `A.10` governs relied-on evidence paths.
-- A.3.1.CC consumes evidence for construction and description coherence, A.3.1.FT consumes situation comparisons for fit or transfer, and C.11.MV consumes results, burdens, alternatives, and evidence strength for practical worth. None of those conclusions is returned by A.3.1.WT.
+- A.3.1.CC consumes evidence for construction and description coherence, A.3.1.FT consumes situation evidence and any comparisons needed for the selected fit or transfer question, and C.11.MV consumes results, burdens, alternatives, and evidence strength for practical worth. None of those conclusions is returned by A.3.1.WT.
 
 ### A.3.1.WT:End
 
@@ -10618,7 +10618,7 @@ Representative situations answer typical-use questions; discriminating situation
 
 Use this pattern when Method construction commitments, a MethodDescription, a selected representation, an enactment-support result, or trial evidence no longer agree well enough for a named use. Begin with the possible contradiction and the decision it blocks: which maintained claim may be wrong, incomplete, stale, or unsupported?
 
-The first useful result is a bounded coherence finding. It names the claim being checked, its maintained owner and edition, the comparison basis, the observed agreement or defect, the one result to reconsider, and the stop. A truthful `owner-not-recoverable` or `missing-comparison-basis` result is better than declaring the whole Method incoherent.
+The first useful result is a bounded coherence finding. It names the claim being checked, its maintained owner and edition, the comparison basis, the observed agreement or defect, and any correction or stop required. A truthful `owner-not-recoverable` or `missing-comparison-basis` result is better than declaring the whole Method incoherent.
 
 Here *coherence* is Plain practice wording for checking whether claims relied on for the declared use agree where they should. It is not a new FPF relation, Method admission, fit result, effectiveness result, or universal consistency proof.
 
@@ -10634,7 +10634,7 @@ Do not use this pattern to decide whether the Method fits another situation, tra
 | support claim | One A.15.8.MS task, configuration, A.22 proposal or selection position, collection, membership, edition, publication, direct-relation, test, or reliance claim. | A repository or successful tool task cannot repair a contradiction in another maintained result by being convenient. |
 | trial evidence | A.3.1.WT occurrence-level observations and gaps qualified for a named later use. | An observation can bear on a claim. Any correction belongs in the maintained result that owns that claim. |
 | coherence finding | A bounded agreement, contradiction, missing-information, failed-declared-conformance, or currentness result about one named claim. | “The Method is coherent” is too broad unless every claim relied on and its qualification window are actually in scope. |
-| maintained owner | The result whose claim must change if the finding is sustained: B.1.5.CM, A.3.2.DE, C.37.MP, one exact A.15.8.MS result, or another named governor. | The file that displays a claim is not necessarily its owner. |
+| maintained owner | The maintained result whose claim is being checked and where any warranted correction belongs: B.1.5.CM, A.3.2.DE, C.37.MP, one exact A.15.8.MS result, or another named governor. | The file that displays a claim is not necessarily its owner. |
 | declared conformance | A conformance claim with its named scheme, criteria, represented entity, use, and qualification window. | Passing description-side conformance does not establish Method fit, Work performance, or worth. |
 
 ### A.3.1.CC:1 - Problem Frame
@@ -10671,15 +10671,15 @@ When the parts appear locally consistent but the required whole result still has
 
 #### A.3.1.CC:4.1 - Pattern-Use Unfolding
 
-Use steps 4–8 only for the claims and evidence that the named coherence question depends on.
+Use steps 4–8 only for the claims and evidence that the named coherence question depends on. Use steps 10–11 only when the finding warrants a correction; agreement or an unresolved gap can be returned at step 12.
 
 1. **Name the blocked use and possible contradiction.** Identify the reader or decision, the claim needed, its qualification window, and what would count as agreement, contradiction, missing information, or a stop. Do not begin with “verify the Method”.
 2. **Preserve the subject and status branch.** Identify the admitted Method under `A.3.1`, or keep the proposed whole as a candidate account. Keep Work, WorkPlan, description, representation, support, evidence, publication, and structure claims at their current statuses.
 3. **Recover the maintained claim and owner.** Record the claim text or predicate, owning result, edition or occurrence, source or construction basis, intended use, and currentness condition. If ownership cannot be recovered, return `owner-not-recoverable` before editing several carriers.
 4. **Check construction claims at B.1.5.CM.** Test construction requirements, component decisions, operation declarations, and obtaining-relation claims separately. Cite the governing FPF predicate where needed rather than recreating its admission test. A failed construction claim returns to that exact B.1.5.CM result.
 5. **Check MethodDescription claims at A.3.2.DE.** Test coverage, internal consistency, correspondence with admitted Method claims, navigation for the named use, stated evidence limits, omissions, stops, and any declared description-side conformance. Do not make section count or scheme passage a proxy for useful coverage.
-6. **Check representation-use results at the right owner.** For one action, recover its complete representation-use result under C.37 and stop without C.37.MP. For several unlike Method-related actions, recover the [complete C.37.MP profile](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c37mp42---record-the-result), including its shared source and separate cross-use result. Test the contradicted action's claim group and whether the profile relation still holds. The direct FPF governor owns view, mathematical-lens, publication, and structure conformance; if a governed result fails, return that lower result and reopen only the affected use result and cross-use relations that actually depended on it.
-7. **Check support results at A.15.8.MS.** Use A.15.8.MS's result distinctions to locate the specific support claim contradicted by the evidence and the result that owns it. Return the repair there; one defeated claim is not a verdict on the whole support configuration.
+6. **Check representation-use results at the right owner.** Start from the affected representation result and its direct governor. Recover a C.37 selection account when the claimed use relies on one or still needs a cross-kind selection account. When the claim concerns a Method-specific organization of several uses, recover the [complete C.37.MP profile](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c37mp42---record-the-result), including its shared source and separate cross-use result. Test the affected claim group and any profile relation that depends on it. The direct FPF governor owns view, mathematical-lens, publication, and structure conformance; if a governed result fails, return that lower result and reopen only the affected use result and cross-use relations that actually depended on it.
+7. **Check support results at A.15.8.MS.** Use A.15.8.MS's result distinctions to identify the support claim being checked and the result that owns it. Test that claim against the evidence and return any needed repair there; one defeated claim is not a verdict on the whole support configuration.
 8. **Use trial evidence to check the maintained claim.** From A.3.1.WT, recover the actual Work occurrence, performer, enacted admitted Method, situation, capability and support conditions, direct relations, result, burden, observation source, and evidence reach. Ask which named claim the observation bears on. A success or failure does not by itself identify the owner.
 9. **Classify the finding.** Distinguish: `agreement-within-window`; `contradicted-claim`; `missing-information`; `failed-declared-conformance`; `stale-source-or-edition`; and `owner-not-recoverable`. Do not turn uncertainty into contradiction or a local defect into a whole-Method verdict.
 10. **Select one correction owner.** Return the smallest correction to B.1.5.CM construction, A.3.2.DE description, one direct C.37 use row, one complete C.37.MP Method representation profile, one exact A.15.8.MS result, or the direct governor of a lower representation result. If one observation defeats several independent claims, create separate findings with separate owners; do not copy one vague correction into every upstream result.
@@ -10732,9 +10732,9 @@ Return `CORR-C37-UR-1`: revise governed representation result `REP-UR-Flow-4` an
 
 The SSFD workplace evidence reports that Project 32 had difficulty representing the relation between a closed-loop sensor and controller. This is a useful coherence trigger because the difficulty may concern Method semantics, a MethodDescription claim, a selected representation, support material, or a situation-specific applicability boundary.
 
-The report does not by itself identify which maintained result owns the defect. Recover the receiving action, contradicted claim and its complete use basis through §4.1(3,6) before choosing a correction owner.
+The report does not by itself establish a defect in a maintained claim. Recover the receiving action, the claim that may be contradicted and its complete use basis through §4.1(3,6) before choosing a correction owner.
 
-For one sensor-controller representation use, inspect C.37 and the direct representation governor without invoking C.37.MP. If several unlike Method-related actions are current, use the complete C.37.MP profile identified in §4.1(6) and locate the affected action and dependent cross-use relation. The report does not establish that profile by itself.
+For the sensor-controller representation use, start from the direct representation result and its governor. Inspect C.37 when the use relies on its selection account or that account is still needed. If the claim concerns a Method-specific organization of several unlike actions, inspect the complete C.37.MP profile identified in §4.1(6) and locate the affected action and dependent cross-use relation. The report does not establish that profile by itself.
 
 If the facts locate a failed exposure claim, return the owning row and only the cross-use relations that depended on it; if they locate a construction or description contradiction, return it to B.1.5.CM or A.3.2.DE. If the report cannot distinguish the owner, return `owner-not-recoverable` rather than calling SSFD incoherent.
 
@@ -10746,7 +10746,7 @@ The [full EC-417 application](https://github.com/ailev/FPF/blob/main/FPF-Spec.md
 
 `C-EC-Release-v2` remains a candidate account and the three-release statement remains a WorkPlan. A.3.1.CC may check current description, representation, A.15.8.MS task, collection, edition, reliance, permission, application, Work, result-binding, and proposed-organization claims against their own bases. It must not verify planned releases as performed Work or call the candidate whole coherent as a Method.
 
-For every correction, name the exact maintained position. A stale method-base edition returns to that edition result. A failed viewpoint rule returns the lower episteme and failed `E.17.0` rule to their direct governor. Recheck the action's complete C.37 basis when that use relied on the failed result. For a C.37.MP profile, follow §4.1(6) and recheck only its actually dependent cross-use relations. A missing A.22 selection-use basis remains the already named gap. Keep the observed support results separate from the missing tailoring definition and untested permission/authority stop; none supplies release evidence.
+For every correction, name the exact maintained position. A stale method-base edition returns to that edition result. A failed viewpoint rule returns the lower episteme and failed `E.17.0` rule to their direct governor. Recheck any C.37 use result that relied on the failed result. For a C.37.MP profile, follow §4.1(6) and recheck only its actually dependent cross-use relations. A missing A.22 selection-use basis remains the already named gap. Keep the observed support results separate from the missing tailoring definition and untested permission/authority stop; none supplies release evidence.
 
 ### A.3.1.CC:6 - Bias-Annotation
 
@@ -10764,8 +10764,8 @@ For every correction, name the exact maintained position. A stale method-base ed
 - [ ] The blocked use and one claim relied on for that use are named.
 - [ ] The Method is admitted or the proposed whole remains a candidate account.
 - [ ] Construction, MethodDescription, representation, support, Work, and evidence results retain separate identities and statuses.
-- [ ] The claim owner, edition or occurrence, intended use, source, and currentness window are recoverable.
-- [ ] Trial evidence is qualified, and the claim's maintained owner remains explicit.
+- [ ] The claim owner, edition or occurrence, intended use, source, and currentness window are recoverable, or the missing owner or comparison basis is explicitly returned.
+- [ ] Any trial evidence used is qualified for the named claim.
 - [ ] Agreement, contradiction, missing information, failed declared conformance, staleness, and missing owner are not merged.
 - [ ] Every correction returns to one maintained result and preserves unaffected claims.
 - [ ] A repaired claim is rechecked against the same basis, or a changed basis starts a new use.
@@ -10775,9 +10775,9 @@ For every correction, name the exact maintained position. A stale method-base ed
 
 | Anti-pattern | Repair |
 | --- | --- |
-| “The trial failed, so rewrite the Method.” | Locate the contradicted claim and rule out situation, capability, support, and relation gaps first. |
+| “The trial failed, so rewrite the Method.” | Identify which maintained claim, if any, the trial evidence contradicts, considering the relevant situation, capability, support and direct-relation conditions. |
 | “The standard checklist passed, so the Method is coherent.” | State the declared conformance use and its limits relevant to the intended decision. |
-| “Fix the diagram and the description together.” | Determine whether one or two independent claims are contradicted and route each separately. |
+| “Fix the diagram and the description together.” | Determine which claims, if any, are contradicted and route each correction to its owner. |
 | “Project 32 proves SSFD is inconsistent.” | Treat the reported representation difficulty as evidence that opens an owner-specific check. |
 | “No contradiction was observed, so coherence is proven.” | Return agreement only for the claims, evidence, and window actually checked. |
 
@@ -10799,7 +10799,7 @@ The same evidence may support several checks, but its use relation is different 
 | --- | --- | --- |
 | Ralyté, Koutsopoulos, and Stirna, [verification, validation, and evaluation of modeling methods](https://doi.org/10.1007/s10270-025-01304-2) | Keep verification, validation, and evaluation questions separate and use evidence to locate the claim under check. | The source is modeling-Method focused and does not supply one universal FPF owner map or prove practical worth. |
 | [ISO/IEC/IEEE 24774:2021](https://www.iso.org/standard/78981.html) | Use description elements, rules, views, and declared description-side conformance as selectable comparison bases. | The standard does not make description conformance a Method admission, fit, or performance result and is not imported as FPF ontology. |
-| Cash, Daalhuizen, and Hekkert, [method efficacy and effectiveness](https://doi.org/10.1016/j.destud.2023.101204) | Preserve the difference between internal or use-side adequacy questions and practical effect questions. | The contribution does not supply a universal coherence score or make one successful occurrence decisive. |
+| Cash, Daalhuizen, and Hekkert, [method efficacy and effectiveness](https://doi.org/10.1016/j.destud.2023.101204) | Preserve the difference between internal or use-side adequacy questions and practical effect questions. | The contribution does not make one successful occurrence decisive. |
 
 ### A.3.1.CC:12 - Relations
 
@@ -10818,11 +10818,11 @@ The same evidence may support several checks, but its use relation is different 
 
 ### A.3.1.FT:0 - Use This When
 
-Use this pattern when actual Work has supplied evidence in one or more situations and a practitioner must decide whether an admitted Method fits a named receiving situation, where its applicability stops, or whether a supported claim transfers from a source situation family. Begin with the source and receiving situations and the claim whose truth could change between them.
+Use this pattern when actual Work has supplied evidence in one or more situations and a practitioner must decide whether an admitted Method fits a named situation, where its applicability stops, or whether a supported claim transfers from a source situation family. Begin with the required result and the conditions of the situation in which the Method will be used. For a transfer question, also name the source situation and the claim whose support is being carried into the receiving situation.
 
-The first useful result is a bounded comparison of the source and receiving situations. It names the Method or candidate status, source and receiving situation families, actual Work used as evidence, matched and changed conditions, holder capabilities, Systems and direct relations, adaptations, domain results, semantic changes, evidence reach, and the bounded result or missing premise.
+The first useful result is a bounded assessment of fit, an applicability limit, or transfer, with the evidence used and any missing premise. Identify the Method or candidate status, the situation and required result, relevant actual Work, adaptations and evidence reach. Where the question requires comparison, also distinguish source and receiving situations, matched and changed conditions, and material differences in capability, support, domain results and burdens.
 
-Here *fit* and *transfer* are Plain practice names for two different decisions. Fit concerns a Method and a bounded situation or situation family. Transfer concerns whether a supported claim survives a stated move from source to receiving conditions. Neither word creates a universal FPF predicate or statistical generalization.
+Here *fit* and *transfer* are Plain practice names for two different decisions. Fit concerns a Method and a bounded situation or situation family. Transfer concerns whether a supported claim survives a stated move from source to receiving conditions.
 
 Do not use this pattern to infer practical worth, causal contribution, general effectiveness, capability, or cultural adoption. A Method can fit and still be a poor choice against current alternatives. C.11.MV owns that comparison. An account is never enacted, and a candidate whole remains a candidate even when separately admitted Work succeeds.
 
@@ -10843,7 +10843,7 @@ Do not use this pattern to infer practical worth, causal contribution, general e
 
 Methods are often moved by name: a team says that a Method worked in one project, industry, or organization and applies it to another. The label hides the conditions that mattered—project purpose, development phase, technical problem, performer capability, support Systems, direct relations, adaptations, and the domain result being judged.
 
-The reverse inference can also fail. Any adaptation or local failure is treated as evidence that the Method cannot transfer, even when the changed condition, support defect, or altered Method semantics has not been identified. A useful validation result must show what stayed the same, what changed, what actual Work occurred, and what claim survives.
+The reverse inference can also fail. Any adaptation or local failure is treated as evidence that the Method cannot transfer, even when the changed condition, support defect, or altered Method semantics has not been identified. A useful transfer result must show what stayed the same, what changed, what actual Work occurred, and what claim survives.
 
 ### A.3.1.FT:2 - Problem
 
@@ -10865,20 +10865,20 @@ These shortcuts produce confident but unreplayable applicability claims. Practit
 
 ### A.3.1.FT:4 - Solution
 
-Method identity under A.3.1 and one successful Work occurrence do not establish fit in another situation. The operation below compares source and receiving conditions, necessary adaptations and retained evidence, so that an independently usable transfer conclusion can be returned without silently inheriting the source qualification.
+Method identity under A.3.1 does not establish fit for a particular use. Assess the required result against relevant actual Work and the conditions under which it occurred. A local fit result can be sufficient for the named decision. To claim transfer or a broader applicability boundary, recover the additional situation evidence and comparison on which that claim depends.
 
-Compare actual source and receiving Work through a decision-relative situation account, include one condition capable of defeating the claim, preserve Method semantics and status, and return only the fit or transfer result supported by that comparison.
+Preserve Method semantics and status throughout. Compare source and receiving conditions when carrying a claim between them; use a situation capable of testing the asserted limit when qualifying an applicability boundary. Return the supported result at that scope, or the specific missing basis.
 
 #### A.3.1.FT:4.1 - Pattern-Use Unfolding
 
-1. **Name the decision, subject, and status.** State whether the question concerns fit in one receiving situation, an applicability boundary, or transfer of one supported claim. Identify the `A.3.1`-admitted Method, or preserve the candidate account and name only separately admitted constituent Methods whose enactment is claimed.
-2. **Bound the source and receiving situation families.** Record the conditions that matter to this claim: project purpose, development phase, technical or domain problem characteristics, performer population, holder capabilities, participating Systems, Agent-performed Work, direct relations, constraints, support conditions, qualification window, and the domain result relevant to the claim.
-3. **Recover source Work and evidence.** Use A.3.1.WT evidence only for actual Work whose performers, enacted admitted Method, temporal extent, containing System, conditions, deviations, burdens, adaptations, results, and evidence path are recoverable. A report can support the account but does not admit Work by citation.
-4. **Select a receiving or held-out situation that can discriminate.** Select or seek one named condition change capable of defeating the claim: technical coupling, project phase, domain, performer or capability envelope, support relation, organizational condition, information availability, authority boundary, or another named condition. State why it matters. If minimality matters, name the alternatives, ordering criterion, and basis for treating one change as smaller or weaker; otherwise record concurrent changes and unknowns without ranking them.
-5. **Separate matched, changed, and unknown conditions.** Do not call conditions controlled unless the basis supports it. Record concurrent changes and missing facts; use `missing-comparability-basis` when the comparison cannot distinguish the claimed boundary.
-6. **Recover receiving Work independently.** Admit the receiving Work occurrence and every claimed enacted Method under their direct governors. Preserve WorkPlan, simulation, demonstration, report, training, and support tasks as separate results. If receiving Work did not occur, return `missing-performed-work` rather than a transfer claim.
+1. **Name the decision, subject, and status.** State whether the question concerns fit in one receiving situation, an applicability boundary, or transfer of one supported claim. Identify the `A.3.1`-admitted Method, or preserve the candidate account and name only separately admitted Methods whose enactment is claimed.
+2. **Bound the situations needed for the decision.** For local fit, name the situation or situation family and required result. For transfer, name both source and receiving families; for an applicability boundary, name the situations that can establish that limit. Record the conditions that matter to the claim, such as project purpose, development phase, technical or domain problem, performer population, holder capabilities, participating Systems, direct relations, constraints, support, qualification window and domain result.
+3. **Recover the relevant Work and evidence.** Use A.3.1.WT evidence only for actual Work whose performers, enacted admitted Method, temporal extent, containing System, conditions, deviations, burdens, adaptations, results, and evidence path are recoverable. Recover capability inputs and other direct relations on which the assessment relies. A report can support the account but does not admit Work by citation.
+4. **Select discriminating evidence when the claim needs it.** To test a transfer or applicability boundary, select or seek a receiving or held-out situation with a condition capable of defeating the claim: technical coupling, project phase, domain, performer or capability envelope, support relation, organizational condition, information availability, authority boundary, or another named condition. State why it matters. If minimality matters, name the alternatives, ordering criterion, and basis for treating one change as smaller or weaker; otherwise record concurrent changes and unknowns without ranking them.
+5. **Qualify comparability when making a comparison.** Separate matched, changed, and unknown conditions. Do not call conditions controlled unless the basis supports it. Record concurrent changes and missing facts; use `missing-comparability-basis` when the comparison cannot distinguish the claimed boundary.
+6. **Establish any required receiving performance independently.** Admit receiving Work and every claimed enacted Method under their direct governors. Distinguish plans and reports from performed activity. For simulation, demonstration, training or support tasks, identify what was actually performed and what was only represented or planned; a demonstration may itself perform the Method in the required receiving situation. If the Work needed for the selected conclusion did not occur, return `missing-performed-work`.
 7. **Track adaptations and Method semantics.** Record changes to operations, dependencies, participant or responsibility conditions, stops, representations, support, and local Work. Ask whether reusable Method semantics stayed within the admitted Method. If they changed, return `variant-question[...]` to A.3.1.MV and evaluate the unchanged and changed branches separately.
-8. **Compare domain results and evidence reach.** Compare the result relevant to the fit claim together with burdens, deviations, failures, and limitations needed to interpret it. Distinguish direct observation, report, association, contribution, and causality. Do not use immediate self-report as long-term transfer without the missing time evidence.
+8. **Assess domain results and evidence reach.** Assess the required result and the burdens, deviations, failures and limitations that affect the fit decision. Compare results across situations when the selected claim requires it. Distinguish direct observation, report, association, contribution, and causality. Do not use immediate self-report as long-term transfer without the missing time evidence.
 9. **Classify the bounded result.** Return `fit-within[...]`, `failure-within[...]`, `applicable-if[...]`, `transfer-supported-between[...]`, `transfer-not-supported`, `missing-performed-work`, `missing-comparability-basis`, or the named missing premise. Plain labels may be used, but the situation, claim, evidence, and window must remain inspectable.
 10. **Route a defeated claim by result kind.** Return a failure directly only to the C.39.RQ situational requirement, C.32.MWA.PP architecture decision, B.1.5.CM construction result or admitted Method claim, or A.3.1.MV applicability or variant entry that the evidence contradicts. When the evidence may contradict an A.3.2.DE description, direct C.37 representation-use result or C.37.MP Method representation profile row, or A.15.8.MS support claim, return the bounded observation to A.3.1.CC; A.3.1.CC identifies and rechecks the maintained correction owner, including the direct governor of any lower representation result. Do not reopen every carrier.
 11. **State non-transfer and reopen conditions.** State the supported applicability boundary and any uncovered use that matters to the receiving decision. Reopen when one condition crosses the declared boundary, Method semantics change, evidence currentness expires, or a new unlike situation defeats the claim.
@@ -10888,19 +10888,19 @@ Compare actual source and receiving Work through a decision-relative situation a
 | Result position | Required content |
 | --- | --- |
 | validation use | Fit, applicability, or transfer question; receiver; decision; claim; qualification window; stop. |
-| subject status | Admitted Method, or candidate account plus separately admitted enacted constituent Methods. |
-| source situation | Situation-family conditions, actual Work, performers, capability inputs, Systems, Agent-performed Work, direct relations, adaptations, domain results, burdens, and evidence reach. |
-| receiving situation | The same positions for actual receiving or held-out Work, including missing facts. |
-| discrimination | Condition selected to challenge the claim, why it matters, matched conditions, changed conditions, and unknowns. |
+| subject status | Admitted Method, or candidate account plus separately admitted enacted Methods. |
+| situation and Work evidence | Conditions of the situation being assessed, actual Work, performers, relied-on capability inputs, Systems and direct relations, adaptations, domain results, burdens and evidence reach. |
+| source and receiving situations | For transfer, identify both families and their Work evidence independently. For a broader applicability boundary, identify the situations needed to test it. Preserve missing facts. |
+| discrimination | When a boundary or transfer claim needs a discriminating situation, state the selected condition and why it matters. In a comparison, separate matched, changed and unknown conditions. |
 | semantic continuity | Preserved Method semantics, local Work or support changes, and any reusable semantic change returned as a variant question. |
-| comparison | Result differences, burdens and deviations needed for interpretation, evidence strength, and material limits on contribution or causal claims. |
+| assessment | Result against the local fit criteria; differences across situations when needed; burdens and deviations needed for interpretation, evidence strength, and material limits on contribution or causal claims. |
 | return | Bounded fit, failure, applicability, transfer, or missing-evidence result; direct C.39.RQ, C.32.MWA.PP, B.1.5.CM, or A.3.1.MV return, or a bounded A.3.1.CC observation for a possible A.3.2.DE description, direct C.37 representation-use result, C.37.MP Method representation profile-row, or A.15.8.MS support contradiction; non-transfer and reopen conditions; unaffected results preserved. |
 
-Keep these distinctions in the comparison and its referenced evidence. A table is optional; no separate record is needed for each position.
+Keep the distinctions needed for the selected decision in the assessment and its referenced evidence. A table is optional; no separate record is needed for each position.
 
 #### A.3.1.FT:4.3 - What Changes in Practice
 
-Teams stop transferring a Method by title or rejecting it after an unexplained local failure. They can show the source conditions, receiving conditions, actual Work, semantic continuity, one discriminating change, and the exact claim that survived or failed.
+Practitioners can use a sufficient local fit result without arranging an unrelated comparison. When they transfer a claim or qualify an applicability boundary, they can show the relevant source and receiving conditions, actual Work, semantic continuity, discriminating evidence, and the exact claim that survived or failed.
 
 A narrow result such as “Fits this decision for this holder and support window; transfer untested” can support a decision to use the Method now while protecting later teams from a universal claim.
 
@@ -10912,15 +10912,17 @@ Continue the constructed A.3.1.WT evidence for admitted `M-Unit-Review-1`. The i
 
 Return `fit-within[Reviewer-17, temperature-sensor reports, edition 4, manual conversion table, through D30]` for the named release-review decision. Also return `transfer-not-tested` for other holders, product families, support routes, qualification windows, or organizations. The two occurrences do not establish causal superiority or practical worth.
 
+For the narrower decision about the same-unit report already reviewed in `W-Rep-1`, its observed acceptance can support fit for that named situation, reviewer and support window. `W-Disc-1` is not a prerequisite for this narrower result. Evidence about mixed-unit handling is needed when that condition enters the receiving question.
+
 If the reviewer had changed the reusable operation from unit normalization to an approximation rule absent from `M-Unit-Review-1`, preserve the observed Work but return `variant-question[approximation-rule]` to A.3.1.MV. Do not call the changed branch successful transfer of the unchanged Method.
 
 ### A.3.1.FT:5 - Archetypal Grounding - SSFD Situation Boundaries
 
 The SSFD workplace evidence supplies varied actual-project reports and a decision-relevant unlike-situation probe. Project 11 concerns functional analysis of a new by-wire steering system and reports 48 failure modes, 44 requirements and design rules, 44 individual-system test cases, and 33 overall-system requirements and test cases. Project 32 reports difficulty representing the relation between a closed-loop sensor and controller.
 
-Use Project 11 as a source situation only after the SSFD Method or candidate status, relevant Work evidence, performer and capability facts, support conditions, and relied-on claim are recovered. Use Project 32 as a discriminating unlike situation because the closed-loop relation can challenge a representation or applicability claim. Do not infer that Project 11 caused or preceded Project 32, that the same performers and capabilities were present, or that a difficulty establishes whole-Method failure.
+Use Project 11 as a source situation only after the SSFD Method or candidate status, relevant Work evidence, performer and capability facts, support conditions, and relied-on claim are recovered. Use Project 32 as a discriminating unlike situation because the closed-loop relation can challenge a representation or applicability claim. Do not infer that Project 11 preceded Project 32, that the same performers and capabilities were present, or that a difficulty establishes whole-Method failure.
 
-A defensible result may be narrow: Project 11 supplies bounded evidence for one functional-analysis situation; Project 32 defeats or leaves unsupported a broader representation claim until the owner-specific A.3.1.CC correction and receiving Work basis are recovered. The 41-report set broadens the evidence pool but does not establish transfer across every project stratum or causal contribution by SSFD alone.
+A defensible result may be narrow: Project 11 supplies bounded evidence for one functional-analysis situation; Project 32 raises a question about a broader representation claim. A.3.1.CC can determine whether correction is needed when the relevant claim and evidence are recoverable; a transfer conclusion still requires the receiving Work and comparison basis. The 41-report set broadens the evidence pool but does not establish transfer across every project stratum or causal contribution by SSFD alone.
 
 #### A.3.1.FT:5.1 - Unlike-Domain and Current-Alternative Probes
 
@@ -10932,9 +10934,9 @@ The sustainable-design workshops supply bounded applications of The Natural Step
 
 The [full EC-417 application](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#fpfreference169---choose-the-method-development-result-needed-for-release-ec-417) supplies the receiving problem, alternatives, calculations and the distinct limits used below.
 
-`C-EC-Release-v2` remains a candidate account. The three support-use Work occurrences from A.15.8.MS do not perform a release and cannot support release fit or transfer. Before any such result, recover one actual release Work occurrence, its performers, separately admitted enacted constituent Methods, capability inputs, Systems, Agent-performed Work, direct relations, support conditions, domain result, burdens, deviations, authority facts, and a performed held-out release situation.
+`C-EC-Release-v2` remains a candidate account. The three support-use Work occurrences from A.15.8.MS do not perform a release and cannot support release fit or transfer. To assess local release fit, recover actual release Work, its performers, separately admitted enacted Methods, capability inputs, Systems and direct relations, support conditions, domain result, burdens, deviations and authority facts needed for that decision. A transfer or applicability-boundary claim additionally requires the receiving or held-out release evidence capable of testing that claim.
 
-Until then return `missing-performed-work` and `missing-held-out-situation`. Preserve the candidate branch and the unsupported `CUR-EC417-CadenceEffect-1`; no cadence or transfer claim becomes supported by planning three releases.
+While the required release Work is absent, return `missing-performed-work`. Return `missing-held-out-situation` only when the selected boundary or transfer claim needs that missing situation. Preserve the candidate branch and the unsupported `CUR-EC417-CadenceEffect-1`; no cadence or transfer claim becomes supported by planning three releases.
 
 ### A.3.1.FT:6 - Bias-Annotation
 
@@ -10944,18 +10946,18 @@ Until then return `missing-performed-work` and `missing-held-out-situation`. Pre
 | success-generalization bias | One favourable occurrence becomes a situation-family claim. | Return the narrow fit result and name transfer evidence still missing. |
 | uncontrolled-sameness bias | Unrecorded capability, support, and organizational conditions are called matched. | Separate matched, changed, and unknown positions with their bases. |
 | adaptation laundering | Changed reusable semantics are called local tailoring. | Return an A.3.1.MV variant question and preserve both branches. |
-| failure-totalization bias | One difficulty becomes whole-Method failure. | Identify the claim, situation boundary, and repair owner actually defeated. |
+| failure-totalization bias | One difficulty becomes whole-Method failure. | Determine which claim, if any, the evidence contradicts, and identify that claim's situation boundary and correction owner. |
 | fit-as-worth bias | Usability in one situation becomes a keep or adoption decision. | Send results, burdens, alternatives, and evidence limits to C.11.MV. |
-| account-enactment bias | A candidate account is said to be enacted in receiving Work. | Admit Work and enacted constituent Methods separately; preserve candidate status. |
+| account-enactment bias | A candidate account is said to be enacted in receiving Work. | Admit Work and enacted Methods separately; preserve candidate status. |
 
 ### A.3.1.FT:7 - Conformance Checklist
 
 - [ ] The decision is explicitly fit, applicability, or transfer for one claim.
 - [ ] The Method is admitted or the proposed whole remains a candidate account.
-- [ ] Source and receiving situation families name decision-relevant conditions rather than labels alone.
-- [ ] Actual source and receiving Work, performers, enacted admitted Methods, capability inputs, Systems, direct relations, results, and evidence paths are recoverable or returned as gaps.
-- [ ] One changed condition is selected because it can expose a limit in the claim.
-- [ ] Matched, changed, and unknown conditions are separate.
+- [ ] The situation being assessed names decision-relevant conditions; transfer identifies source and receiving families, and an applicability boundary identifies the situations needed to test it.
+- [ ] Actual Work needed for the conclusion, performers, enacted admitted Methods, relied-on capability inputs, Systems, direct relations, results and evidence paths are recoverable or returned as gaps.
+- [ ] Any required discriminating situation is selected because its condition can expose a limit in the claim.
+- [ ] When situations are compared, matched, changed and unknown conditions are separate.
 - [ ] Adaptations are recorded, and reusable semantic change opens a variant question.
 - [ ] Direct observation, self-report, association, contribution, and causality are not merged.
 - [ ] The result is bounded by holder, situation, support, time, and evidence.
@@ -10968,8 +10970,8 @@ Until then return `missing-performed-work` and `missing-held-out-situation`. Pre
 | “It worked in automotive, so it transfers to health services.” | Recover evidence for the same Method under the receiving conditions. Tests of another Method in health services do not establish this transfer. |
 | “Project 32 proves the Method failed.” | Identify the representation or applicability claim and the missing receiving evidence first. |
 | “We tailored it, therefore it transferred.” | Check whether reusable semantics changed; if so, return a variant question. |
-| “The workshop participants liked it, so transfer is established.” | Preserve immediate self-report and return missing long-term Work and result evidence. |
-| “The candidate was enacted successfully.” | Admit the Work and enacted constituent Methods, not the candidate account. |
+| “The workshop participants liked it, so transfer is established.” | Return only what the immediate self-report supports; identify any missing Work, result or time evidence required by the transfer claim. |
+| “The candidate was enacted successfully.” | Admit the Work and enacted Methods, not the candidate account. |
 
 ### A.3.1.FT:9 - Consequences
 
@@ -10988,13 +10990,13 @@ Separating semantic continuity from local Work and support changes protects Meth
 | Source | Contribution | Boundary and practitioner implication |
 | --- | --- | --- |
 | Yildirim, Campean, and Uddin, [function-modeling evaluation in industry practice](https://doi.org/10.1017/dsj.2026.10056) | Workplace-project strata, reported applications and limitations, later report analysis, and the comparison of Project 11 and Project 32 supply an unlike-situation probe. | One automotive OEM, retrospective reports, and SSFD use within a broader methodology establish neither SSFD-only causality nor general transfer. |
-| Schønheyder and Nordby, [design-Method use and evolution in professional practice](https://doi.org/10.1016/j.destud.2018.04.001) | Project demands, practitioner skill sets, organization, and cyclic adaptation are conditions that can change a fit or variant decision. | One multidisciplinary design firm supplies no universal situation taxonomy, causal result, or admitted variant family. |
+| Schønheyder and Nordby, [design-Method use and evolution in professional practice](https://doi.org/10.1016/j.destud.2018.04.001) | Project demands, practitioner skill sets, organization, and cyclic adaptation are conditions that can change a fit or variant decision. | Keep the findings bounded to the studied firm and conditions; establish any causal claim or Method-variant identity separately. |
 | Tsai, Zdravkovic, and Söder, [DBE-design Method action research](https://doi.org/10.1007/s10270-022-01068-z) | Repeated plan-perform-evaluate cycles in an operating health-services ecosystem provide an unlike-domain example for the comparison method. | The evaluation is ex ante and case-specific; it does not prove long-term effect or transfer to the other elicited domains. |
 | Faludi, Yiu, and Agogino, [empirical tests of sustainable-design Methods](https://doi.org/10.1017/dsj.2020.17) | Several Methods, industries, activities, and immediate participant reports supply bounded situation-comparison inputs. | Immediate self-report establishes neither long-term product results nor causal superiority or transfer of recombined variants. |
 
 ### A.3.1.FT:12 - Relations
 
-- A.3.1.WT supplies occurrence-level source and receiving evidence and explicit gaps. It does not make the fit or transfer conclusion.
+- A.3.1.WT supplies occurrence-level evidence for the selected situations and explicit gaps. It does not make the fit or transfer conclusion.
 - A.3.1.CC consumes any bounded observation that may contradict an A.3.2.DE description, direct C.37 representation-use result, C.37.MP Method representation profile row, A.15.8.MS support claim, or directly governed lower representation result; it identifies and rechecks the maintained correction owner. Passing coherence does not establish fit.
 - C.11.MV consumes fit, failure, applicability, burdens, alternatives, and evidence limits for a separate practical-worth decision.
 - A.3.1.MV owns reusable Method variants, provenance, applicability entries, and retirement. A semantic change returns there; a local Work, support, description, or representation change alone need not create a variant.
@@ -11014,7 +11016,7 @@ Use this pattern when a Method has been adapted, branched, recombined, or revise
 
 For a first pass, state what reusable way of doing changed, if any; and, if none did, which object changed, which maintained result and exact claim or edition it affects, and what to maintain, reconsider, or stop. Use the fuller account only when later selection, reuse, comparison, or retirement needs it.
 
-The first useful result is an account of the variant and its derivation. It names the parent Method or candidate, the proposed child and status, preserved semantics, changed semantics, derivation basis, applicable situation claim, supporting and defeating evidence, descriptions and support editions, current selection uses, currentness, retirement condition, and the next decision. If the visible change is not a Method variant, the account instead names the changed object, the separately governed maintained result, the exact claim or edition affected, and the next maintenance, reconsideration, or stop action.
+The first useful result is an account of the variant decision and any derivation needed for the maintained use. A fuller account, when needed, names the parent Method or candidate, the proposed child and status, preserved semantics, changed semantics, derivation basis, applicable situation claim, available supporting and defeating evidence, relied-on descriptions and support editions, current selection uses, currentness, retirement condition, and the next decision. If the visible change is not a Method variant, the account instead names the changed object, the separately governed maintained result, the exact claim or edition affected, and the next maintenance, reconsideration, or stop action.
 
 Here *variant* is Plain practice wording for a Method whose reusable semantics differ in a way relevant to a named use while its derivation from another Method remains useful. The label alone does not admit a `U.Method`, establish provenance, or prove fit, worth, reuse, or superiority.
 
@@ -11056,7 +11058,7 @@ The resulting repertoire cannot guide selection. Users cannot tell which semanti
 | Evidence | Fit and worth results should follow the right semantics, while evidence often bundles Method, support, capability, and organization. |
 | Currentness | Users need current entries and editions, while retirement from one use must not erase history. |
 | Candidate continuity | Proposed changes need traceability, while detailed lineage can launder candidate status. |
-| Recombination | Components can inspire new Methods, while untested hybrids do not inherit component admission or worth. |
+| Recombination | Components can inspire new Methods, while hybrids do not inherit component admission or worth. |
 
 ### A.3.1.MV:4 - Solution
 
@@ -11069,14 +11071,14 @@ Identify variants only through changed reusable Method semantics, preserve admis
 1. **Name the maintenance use.** Identify the practitioner or decision that needs the repertoire, the Method family or candidate lineage in scope, the situation and qualification window, and what selection, reuse, comparison, or retirement action the entry must support.
 2. **Recover each subject and status.** Identify every `A.3.1`-admitted Method and every candidate account separately. A parent Method, candidate child, MethodDescription, representation, support configuration, and Work occurrence keep different identities and statuses.
 3. **Recover the semantic baseline.** From the parent or earlier candidate, record the reusable operations, dependencies, entry and stop rules, participant conditions, required relations, and applicability claims that matter to the maintenance use. Include the inclusion and decision rules that make professional judgments operational when those rules affect the reusable way of doing. Do not use a file diff as the semantic baseline.
-4. **Classify the observed change.** Separate changed reusable Method semantics from description wording, representation, publication, tool, prompt, support, capability, organizational System or selected structure, assignment, permission, authority, and local Work deviations. For every non-semantic change, name the changed object, the separately governed maintained result, the exact claim or edition affected, and the next maintenance, reconsideration, or stop action. For a representation change, locate the affected claim in the one-action C.37 result or, when several unlike Method-related actions are related, in the C.37.MP profile. Use step 8 for the complete maintained profile basis. Name a direct predicate and its participants only when the disposition relies on that obtaining relation; otherwise assert no path or relation occurrence.
+4. **Classify the observed change.** Separate changed reusable Method semantics from description wording, representation, publication, tool, prompt, support, capability, organizational System or selected structure, assignment, permission, authority, and local Work deviations. For every non-semantic change, name the changed object, the separately governed maintained result, the exact claim or edition affected, and the next maintenance, reconsideration, or stop action. For a representation change, locate the affected claim in its direct result, in a C.37 selection result when that selection is needed, or in a C.37.MP profile when several unlike Method-related uses must remain connected. When a profile is involved, use step 8 for its complete maintained basis. Name a direct predicate and its participants only when the disposition relies on that obtaining relation; otherwise assert no path or relation occurrence.
 5. **Construct the proposed child account.** State preserved semantics, changed semantics, reason for change, intended situations, required capability and support conditions, and the limits of the available evidence. A traceable candidate entry can complete the maintenance use. Select further evidence or a trial through C.11.DUA only when its obtainable result could change the receiving decision enough to warrant the full burden. If no reusable semantic difference remains, maintain an edition, support, or Work result rather than a variant.
 6. **Establish derivation without inheriting admission.** Record the source Method or candidate, change Work or source account, changed positions, chronology when relevant, and evidence supporting the derivation claim. Then admit the proposed child independently under `A.3.1` or keep it as a candidate.
 7. **Bind evidence to the right semantics and situation.** Attach available A.3.1.WT trial observations, A.3.1.CC corrections, A.3.1.FT fit or transfer results, and C.11.MV worth decisions only to the Method or candidate semantics, situation, support, capability, alternative set, and window they actually concern. Parent evidence does not automatically cover the child.
-8. **Maintain descriptions, representations and support relations separately.** Name the MethodDescription editions, direct one-action C.37 results or complete C.37.MP profiles, and A.15.8.MS method-base or support results relied on by the maintained use. Include publications, tools, prompts and access or use relations only when that use depends on them. For every [C.37.MP profile](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c37mp42---record-the-result) retain the shared MethodDescription or candidate-account source, one complete C.37 claim group for each unlike action, cross-use correspondences, conflicting omissions, edition relations, decisions to keep representations separate, and conditions for reconsidering several selections. A changed result, edition, or relation does not by itself change variant identity.
-9. **State applicability and selection uses.** Record supported situations, defeated situations, missing evidence, capability and support conditions, current alternative set, and the receiving decision that may use the entry. Use A.19 selected-set semantics for a non-trivial repertoire choice; the entry itself selects nothing.
+8. **Maintain descriptions, representations and support relations separately.** Name the MethodDescription editions, direct representation results, any needed C.37 selection results or C.37.MP profiles, and A.15.8.MS method-base or support results relied on by the maintained use. Include publications, tools, prompts and access or use relations only when that use depends on them. For every [C.37.MP profile](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c37mp42---record-the-result) retain the shared MethodDescription or candidate-account source, one complete C.37 claim group for each unlike action, cross-use correspondences, conflicting omissions, edition relations, decisions to keep representations separate, and conditions for reconsidering several selections. A changed result, edition, or relation does not by itself change variant identity.
+9. **State applicability and selection uses.** Record supported situations, situations in which an applicability claim is contradicted, missing evidence, capability and support conditions, current alternative set, and the receiving decision that may use the entry. Use A.19 selected-set semantics for a non-trivial repertoire choice; the entry itself selects nothing.
 10. **Maintain currentness and retirement.** State source, evidence, edition, situation, and qualification windows; superseding or defeating evidence; review trigger; and what retirement means for this use. Preserve historical and other-use access when the Method or candidate still matters elsewhere.
-11. **Return the maintained repertoire and non-variant dispositions.** Report admitted variants, candidate lineages, applicability and evidence gaps, current entries, retired entries, and the smallest repertoire claim reopened by defeated applicability, evidence, currentness, or retirement evidence. For every non-variant, report the changed object, separately governed maintained result, exact affected claim or edition, and next maintenance, reconsideration, or stop action. Do not assign repair authority or invent a relation when the governing result and next action are sufficient.
+11. **Return the maintained repertoire and non-variant dispositions.** Report admitted variants, candidate lineages, applicability and evidence gaps, current entries, retired entries, and the specific repertoire claim, if any, that findings about applicability, evidence, currentness or retirement require reconsidering. For every non-variant, report the changed object, separately governed maintained result, exact affected claim or edition, and next maintenance, reconsideration, or stop action. Do not assign repair authority or invent a relation when the governing result and next action are sufficient.
 
 #### A.3.1.MV:4.2 - Record the Result
 
@@ -11089,7 +11091,7 @@ Identify variants only through changed reusable Method semantics, preserve admis
 | derivation | Parent, proposed child, change basis, chronology when material, preserved semantics, changed semantics, and evidence reach. |
 | admission branch | Independent Method admission or status-preserved candidate account and missing admission basis. |
 | applicability and evidence | Situations, capability and support conditions, the available evidence and decisions from step 7, alternatives, gaps and qualification windows, all bound to the right semantics and receiving use. |
-| edition and support links | Relied-on descriptions; direct one-action C.37 results or C.37.MP profiles with the complete basis named in step 8; method-base editions, publications, tools, prompts, and support results for each maintained use. |
+| edition and support links | Relied-on descriptions; direct representation results and, when needed, C.37 selections or C.37.MP profiles with the complete basis named in step 8; method-base editions, publications, tools, prompts, and support results for each maintained use. |
 | currentness and retirement | Current selection uses, source and evidence windows, defeating conditions, retirement meaning, retained history, and reopen trigger. |
 | return | Maintained admitted-variant repertoire and candidate lineages; non-variant dispositions in the same four-part shape; the smallest defeated repertoire claim when one exists; and limits on what the repertoire establishes. |
 
@@ -11097,7 +11099,7 @@ Identify variants only through changed reusable Method semantics, preserve admis
 
 Teams stop using version labels and project names as Method identities. They can show which reusable semantics changed, which evidence belongs to which branch, why a child is admitted or still a candidate, and which description or support edition serves each use.
 
-The repertoire becomes smaller and more useful. Local departures can remain Work evidence, descriptions can evolve without multiplying Methods, and real semantic branches receive applicability, evidence, currentness, and retirement conditions.
+Local departures can remain Work evidence, descriptions can evolve without multiplying Methods, and real semantic branches receive applicability, evidence, currentness, and retirement conditions.
 
 #### A.3.1.MV:4.4 - Constructed Variant Case
 
@@ -11105,15 +11107,15 @@ Continue the temperature-sensor review chain. `M-Unit-Review-1` is admitted with
 
 A team proposes an approximation rule for missing conversion metadata: infer a likely scale from sensor range, mark the inference, and continue only when the tolerance decision is unchanged under both plausible scales. This is not merely a new checklist. It changes the reusable operation and stop conditions, so create candidate account `C-M-Unit-Review-Approx-1` derived from `M-Unit-Review-1`. Preserve identification, explicit normalization when metadata exists, tolerance comparison, and unresolved-mismatch stop; add the bounded inference operation and a two-scale invariance stop.
 
-Do not admit the candidate from parent status. Link candidate-account content `CA-M-Unit-Review-Approx-Content-1`, proposed representation `C-REP-Approx-1` of that candidate account, and the same conversion-table support result only as candidate-serving material; none is a `U.MethodDescription` for the candidate whole. Keep performance on missing-metadata reports unresolved. Retain that limit, the reviewer capability conditions and the comparison against stopping or metadata recovery where they matter to the entry’s use. To maintain the catalogue, record the proposed approximation rule, its origin in `M-Unit-Review-1`, its two-scale stopping condition and its untested candidate status. This is enough to retain the proposal in the catalogue. Choose a trial only when its useful attainable answer warrants the work and delay. Until independent admission and evidence exist, the repertoire contains admitted `M-Unit-Review-1` plus candidate lineage `C-M-Unit-Review-Approx-1`; no Work is said to enact the candidate whole.
+Do not admit the candidate from parent status. Link candidate-account content `CA-M-Unit-Review-Approx-Content-1`, proposed representation `C-REP-Approx-1` of that candidate account, and the same conversion-table support result only as candidate-serving material; none is a `U.MethodDescription` for the candidate whole. Keep performance on missing-metadata reports unresolved. Retain that limit, the reviewer capability conditions and the comparison against stopping or metadata recovery where they matter to the entry’s use. To maintain the catalogue, record the proposed approximation rule, its origin in `M-Unit-Review-1`, its two-scale stopping condition and its untested candidate status. This is enough to retain the proposal in the catalogue. Choose a trial only when its useful attainable answer warrants the work and delay. Until independent Method admission, the repertoire contains admitted `M-Unit-Review-1` plus candidate lineage `C-M-Unit-Review-Approx-1`; no Work is said to enact the candidate whole.
 
-If the team only updates the diagram to show the already-required normalization step, first identify its exact action. For one action, maintain the complete C.37 representation-use result and the diagram under its direct governor; C.37.MP is not invoked. When that result belongs to a complete C.37.MP profile for several unlike actions, also maintain only the cross-use correspondences, conflicting omissions, edition relations, decisions to keep representations separate, and conditions for reconsidering several selections affected by the diagram change. Neither case creates a variant. If the team replaces the manual table with a verified tool while operations and stops remain unchanged, maintain the A.15.8.MS support result and no variant.
+If the team only updates the diagram to show the already-required normalization step, first identify its exact action. For one action, maintain the diagram and the affected result under their direct governors; use C.37 only if a selection question remains. C.37.MP is not invoked for that one-action case. When that result belongs to a complete C.37.MP profile for several unlike actions, also maintain only the cross-use correspondences, conflicting omissions, edition relations, decisions to keep representations separate, and conditions for reconsidering several selections affected by the diagram change. Neither case creates a variant. If the team replaces the manual table with a verified tool while operations and stops remain unchanged, maintain the A.15.8.MS support result and no variant.
 
 ### A.3.1.MV:5 - Archetypal Grounding - Adaptation and Recombination
 
 The Halogen design-practice case reports conscious cyclic evolution and adaptation of Methods across safety-critical projects, practitioner skill sets, and organization of design activity. Use the evidence to recover proposed semantic changes, local Work deviations, situation conditions, and lineage candidates. The source concerns one 52-person multidisciplinary firm and does not supply a universal variant family or automatic Method admission.
 
-When reusable semantics can be recovered and a Method is independently admitted, maintain the variant with its derivation and applicability. When interviews, observations, or documents show only local departures or cannot distinguish changed Method semantics from changed support, capability, or organization, maintain a candidate lineage or return the missing semantic basis.
+When reusable semantics can be recovered and a Method is independently admitted, maintain the variant with its derivation and applicability. When the recovered change is only a local Work departure, retain the Work evidence and return the non-variant disposition. When the material leaves it unresolved whether Method semantics or support, capability, or organization changed, maintain a candidate lineage only if the proposed reusable semantic differences and derivation can be stated; otherwise return the missing semantic basis.
 
 The sustainable-design study reports activity- and mindset-level observations from separate workshops using The Natural Step, Whole System Mapping, or Biomimicry. Companies chose workshops, order varied, and participants could differ, so the publication supplies neither one current-alternative decision nor matched Work across the three Method families. Those immediate participant reports can motivate recombination candidates, but a preferred component set is not an admitted hybrid Method. Record the proposed preserved and changed semantics, parent contributions, situations and evidence limits; do not inherit worth or transfer from the source Methods.
 
@@ -11169,8 +11171,8 @@ A later change to the canvas alone returns to its representation owner. A change
 | --- | --- |
 | “Version 2.1 is a new Method variant.” | Show the changed reusable Method semantics or maintain an edition only. |
 | “The team adapted it, so the variant is admitted.” | Preserve the Work evidence and candidate account until independent admission. |
-| “The AI prompt defines the new Method.” | Recover the way of doing and support relation; a prompt can serve but not identify the Method by itself. |
-| “The hybrid inherits evidence from all three parent Methods.” | Preserve candidate status and bind each relied-on result to the hybrid’s own semantics and situation. Select a trial when its useful attainable answer warrants its full burden. |
+| “The prompt changed, so the Method changed.” | Recover the reusable semantics expressed by the prompt. Use A.3.1 to decide whether Method identity changed; maintain any separate support change under its own pattern. |
+| “The hybrid inherits evidence from all three parent Methods.” | Preserve the hybrid’s actual admission status and bind each relied-on result to the hybrid’s own semantics and situation. Select a trial when its useful attainable answer warrants its full burden. |
 | “Retired means obsolete everywhere.” | Name the selection use and defeating condition; preserve other supported uses and history. |
 
 ### A.3.1.MV:9 - Consequences
@@ -11253,7 +11255,7 @@ When several positions are compressed into one intervention label, the team cann
 | Intervention clarity | Separate intended changes make learning possible, while one programme label can hide those changes. |
 | Capability | New Work may need development, while A.3.1.MI must not smuggle training in as capability. |
 | Authority and participation | A governed change needs its applicable authorization and actual performers, while sponsorship and attendance are weaker facts. |
-| Time | Later observation is needed, while waiting too long can make sources and alternatives stale. |
+| Time | Observation timing must fit the receiving decision, while delay can make sources and alternatives stale. |
 | Contribution | A decision needs a plausible account, while causal isolation is often unavailable. |
 | Revision locality | A defeated claim should reopen its owner and affected dependents, while bundled rollout invites whole-programme repair. |
 
@@ -11278,12 +11280,12 @@ Prepare and perform a bounded introduction, observe its later use, and decide wh
    For a target change, name the affected Method semantics, description, support, capability input, fit claim, cultural question, or local-use condition. For an introduction-strategy change, name the admitted introduction Method or candidate introduction account, its admissibly classified description episteme, and any separate WorkPlan claim. An adaptation does not by itself change the kind or status of an account, description, plan, Method or Work.
 
    Return each modification to its own maintained result or local stop: A.3.1.MV for admitted Method semantics or candidate lineage; A.3.2.DE for a MethodDescription correction or improved candidate-account content, retaining the applicable subject and status; another named episteme or a local A.3.1.MI stop for other content; A.15.8.MS for support; A.15.2 for a WorkPlan; A.3.1.FT for fit; or C.36.MC for a population cultural question.
-8. **Perform and admit introduction Work.** Recover actual performers and A.13 bases, the independently admitted Method enacted by the introduction Work, action history, temporal extent, containing System, named changed subjects, used Systems, and relied-on relation occurrences. Use F.6 through the same obtaining A.13 assignment only when precise assignment-bound attribution is needed. Record the result as an attempt intended to establish named conditions. A completed failed attempt remains Work even if access, usability, or later enactment did not result. A candidate introduction Method is not enacted; name only the admitted constituent Methods actually followed.
-9. **Observe later actual Work, failed entry, and non-use.** Admit later Work independently. Record which admitted Method was enacted, or preserve candidate status and name only separately admitted constituent Methods. Also record failed entry, rejection, non-use, workaround, adaptation, support demand, and burden when observed; absence of a record is not automatically non-use.
+8. **Perform and admit introduction Work.** Recover actual performers and A.13 bases, the independently admitted Method enacted by the introduction Work, action history, temporal extent, containing System, named changed subjects, used Systems, and relied-on relation occurrences. Use F.6 through the same obtaining A.13 assignment only when precise assignment-bound attribution is needed. Record the result as an attempt intended to establish named conditions. A completed failed attempt remains Work even if access, usability, or later enactment did not result. A candidate introduction Method is not enacted; name only the admitted Methods actually followed.
+9. **Observe later actual Work, failed entry, and non-use.** Admit later Work independently. Record which admitted Method was enacted, or preserve candidate status and name only separately admitted Methods actually enacted. Also record failed entry, rejection, non-use, workaround, adaptation, support demand, and burden when observed; absence of a record is not automatically non-use.
 10. **Compare every selected position.** For each target, introduction-strategy object, and decision-relevant observation, state supported change, no change, uncertainty, inapplicability, or missing evidence. State the particular maintained claim or edition and next action. If a continuing subject is claimed to have changed, use A.3.4; a before/after table or performed Work alone does not establish that transformation.
 11. **Use C.28 for causal reliance.** Return observations or association at their supported strength, with the limit needed by the receiving decision. When that decision relies on a causal or contribution claim, use current C.28 for the bounded causal-use question, supported use, unsupported stronger use, population and conditions, validity threat and reopen trigger. Name a contribution relation or compound claim only with its predicate, participants, applicability, and obtaining basis. C.28 settles causal support; A.3.1.MI still makes the bounded revision decision.
 12. **Decide and return observations.** Return `keep`, `revise`, `branch`, `replace`, `stop`, or a retained set with its limitation and any supported present course. Select a further observation or probe through C.11.DUA only when its obtainable result could change the decision enough to warrant its full burden and the needed window, access and authority are available. Use A.3.2.DE when the observation requires correcting a MethodDescription or candidate Method account. Its candidate branch returns improved content with unresolved identification conditions retained. Other description content returns to its own episteme or a local stop. Send other observations to A.3.1.MV, A.15.8.MS, A.15.2, A.3.1.FT, C.36.MC, a named capability-development result, another admissible maintained result, or a receiving Agent only when the particular claim or edition and next action are stated; otherwise keep the observation as a local decision or stop.
-13. **State non-use and refresh.** The result establishes neither organization-wide adoption, cultural selection or retention, general effectiveness, causal superiority, nor authorization for another setting. Reopen when the setting, population, target, introduction-strategy or description status, separate WorkPlan, capability and support conditions, named authorization basis, alternative, outside result, evidence window, or maintained claim changes.
+13. **State limits and refresh.** State the scope supported by this introduction account, keeping the separate grounds of any causal, cultural or authorization claim used in the decision. Reopen when the setting, population, target, introduction-strategy or description status, separate WorkPlan, capability and support conditions, named authorization basis, alternative, outside result, evidence window, or maintained claim changes.
 
 #### A.3.1.MI:4.2 - Record the Result
 
@@ -11326,9 +11328,9 @@ Later `W-B-Review-1` is independently admitted as Work performed by `Reviewer-22
 
 Return `keep` for the D30–D60 attempt on the observed local conditions, later Work, mismatch detection and corrected report. The result supports that bounded continuation. A later claim that either Method caused fewer release escapes needs C.28 and the evidence for that stronger use.
 
-If table access failed, return the contradicted A.15.8.MS support claim and next support action. If the introduction sequence or briefing failed, return the observation to the maintained claim in `M-Introduce-Unit-Review-1`, `MethodDescription-Intro-B-1`, or `WorkPlan-Intro-B-1` and keep the target result separate. If `CDI-R22-1` expired, name that result and stop pending its governing development decision; if later Work changed reusable target or introduction semantics, reopen A.3.1.MV for the affected Method.
+If table access failed, return the support-gap account and any warranted correction to the maintained A.15.8.MS result. If the introduction sequence or briefing failed, return the observation to the maintained claim in `M-Introduce-Unit-Review-1`, `MethodDescription-Intro-B-1`, or `WorkPlan-Intro-B-1` and keep the target result separate. If `CDI-R22-1` expired, name that result and stop pending its governing development decision; if later Work changed reusable target or introduction semantics, reopen A.3.1.MV for the affected Method.
 
-If the failed lookup path has two proposed later repairs that the available evidence cannot distinguish, and no useful comparative observation is obtainable before the current decision, return both options with that limit and keep the failed support route stopped. Return the contradicted support claim and options to A.15.8.MS. This completes the current introduction result; further comparison is selected when its obtainable answer warrants the full burden.
+If the failed lookup path has two proposed later repairs that the available evidence cannot distinguish, and no useful comparative observation is obtainable before the current decision, return both options with that limit and keep the failed support route stopped. Return the account of the support failure, any contradicted claim and the options to A.15.8.MS. This completes the current introduction result; further comparison is selected when its obtainable answer warrants the full burden.
 
 In a separate constructed no-development case, the same admitted review Method is introduced to `Reviewer-23` by repairing the conversion-table lookup path. The current `A.2.2` basis `CAP-R23-1` identifies that holder, calibration-report-review Work, the mixed-unit envelope, the required detection measure, representative evidence, and a qualification window covering the attempt. It supports adequate existing capability; no capability change is required or claimed. The engineer repairs and checks the lookup path under separately supported configuration permission, and the independently admitted later review Work uses it successfully. Return `keep` for this bounded support change and preserve `CAP-R23-1` as a reliance condition. No CDI result is missing merely because none was supplied, and no training is commissioned. If the capability basis later expires, return its currentness question to `A.2.2`; if the Work envelope instead changes so that development is needed, open that separately governed question. This case changes neither the reliance on `CDI-R22-1` nor its expiry stop in the preceding case.
 
@@ -11364,7 +11366,7 @@ The Digital Vaccine case supplies three sequential action-research cycles in an 
 
 The Halogen and methodology-spread studies add observed adaptation, project demands, practitioner skills, identified organizational conditions where recoverable, drivers, and barriers. For each adaptation record whether it changed the Method-related target, the introduction strategy, its description, a separate WorkPlan, support, or local use, while preserving the recorded kind and status of each. Also record when, planned or reactive status, decision-maker and any applicable authorization basis, affected level, reason, and conditions. Neither source proves a universal sequence or one causal driver of spread.
 
-Implementation-science comparators sharpen this account without supplying its domain ontology. Proctor et al. motivate separate acceptability, appropriateness, feasibility, enactment/fidelity, burden/cost, reach, and sustainment questions. FRAME motivates recording changes to the Method-related target. FRAME-IS supplies the separate question of what changed in the introduction strategy itself. Updated CFIR motivates context and determinant questions; the 2021 MRC framework motivates iterative refinement around key uncertainty and decision usefulness. A.3.1.MI retains the target-versus-strategy distinction while rejecting health-specific entities, a maturity ladder, phase gate, compulsory adoption sequence, and any inference from those taxonomies to FPF Method admission, Work, relation, capability, authority, or culture.
+Implementation-science comparators sharpen this account without supplying its domain ontology. Proctor et al. motivate separate acceptability, appropriateness, feasibility, enactment/fidelity, burden/cost, reach, and sustainment questions. FRAME motivates recording changes to the Method-related target. FRAME-IS supplies the separate question of what changed in the introduction strategy itself. Updated CFIR motivates context and determinant questions; the 2021 MRC framework motivates iterative refinement around key uncertainty and decision usefulness. A.3.1.MI uses these comparators to distinguish the target, the introduction strategy and their observed effects. Method admission, Work, relation, capability, authority and cultural claims retain their separate FPF grounds.
 
 #### A.3.1.MI:5.1 - APP-ME-01 Early Stop
 
@@ -11384,7 +11386,7 @@ Suppose a receiving decision now concerns assigning newcomers independent review
 
 After such an authorized comparison, suppose the observed records show that newcomers detect familiar identifier mismatches unaided but require expert help for the unfamiliar unit convention. Return that differentiated result to the capability owner and to A.3.1.FT; it supports neither a blanket failure nor unrestricted transfer. C.11.MV includes the expert's time. A.3.1.MI can develop a proposed introduction variant using joint review and later independent rehearsal. A.3.1.MV determines whether its changed reusable operations constitute a variant; retaining the intended checking and learning functions does not settle that identity question.
 
-The adaptation account records when the joint-review change was chosen and when it actually operated. If rehearsal and coaching change together, the observed benefit belongs to that examined arrangement until a useful comparison separates their contributions. The original lesson remains a delivered event. Its proposed mechanism is reconsidered on the new evidence; the history is not rewritten as if the later strategy had been used from the start.
+The adaptation account records when the joint-review change was chosen and when it actually operated. If rehearsal and coaching change together, report the benefit observed under that examined arrangement; distinguish their contributions only to the extent supported by the evidence. The original lesson remains a delivered event. Its proposed mechanism is reconsidered on the new evidence; the history is not rewritten as if the later strategy had been used from the start.
 
 ### A.3.1.MI:6 - Bias-Annotation
 
@@ -11403,7 +11405,7 @@ The adaptation account records when the joint-review change was chosen and when 
 
 - [ ] Claimed target subjects, the admitted introduction Method or candidate introduction account, any relied-on description, any separate WorkPlan, performed Work and relied-on relations are distinguished. A description is classified as `U.MethodDescription` only when A.3.2 establishes membership for an admitted Method.
 - [ ] Every organizational claim names the organizational System, selected structure, constituent organization, or relation organization actually relied on.
-- [ ] Every observation position names its maintained result and particular claim or edition, receiving Agent or governing pattern when current, and next action or stop.
+- [ ] For each decision-relevant observation, state what it supports and the next action or stop; name a maintained result, particular claim or edition, and receiving Agent or governing pattern when that return is current.
 - [ ] Introduction Work is stated as an attempt intended to establish named conditions, with any applicable authorization basis kept separate. A failed attempt remains recordable as Work.
 - [ ] Decision-relevant capability keeps its A.2.2 basis and currentness, or returns the missing basis. Adequate existing capability without a needed change requires no development result. Only a needed capability-change claim consumes a compatible development result or returns its missing/stale basis with a next governing action or stop; irrelevant capability detail is omitted.
 - [ ] Assignment, permission, authority, access, use, enactment, and other relations name predicates, participants, scope, and obtaining basis.
@@ -11413,7 +11415,7 @@ The adaptation account records when the joint-review change was chosen and when 
 - [ ] A relied-on causal or contribution claim uses C.28 and preserves supported and unsupported uses, validity threat and residual uncertainty. An observational result carries only the qualification needed for its receiving use.
 - [ ] The comparison records the action supported by the available evidence, or the alternatives that remain unresolved and the reason they cannot yet be distinguished. Any further observation or probe has a useful obtainable answer worth its full burden and feasible conditions.
 - [ ] A.3.1.FT receives a bounded fit or transfer question, C.36.MC a bounded population-level cultural question, and A.3.1.MV/A.15.8.MS/A.15.2 a supported correction, refinement or alternative tied to the particular maintained claim or edition it affects. A.3.2.DE receives a needed correction of MethodDescription or candidate-Method-account content and preserves its status; other content returns to its own episteme or a local stop.
-- [ ] The result claims no adoption lifecycle, maturity ladder, phase gate, general effectiveness, causal superiority, or authority outside its boundary.
+- [ ] The introduction account and any causal, cultural or authorization conclusions retain their own grounds and scope.
 
 ### A.3.1.MI:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -11447,20 +11449,20 @@ Separating the Method-related target from the introduction strategy, its status 
 | Proctor et al., [Outcomes for Implementation Research](https://doi.org/10.1007/s10488-010-0319-7) | keep acceptability/rejection, appropriateness/fit, feasibility, enactment/fidelity, burden/cost, reach, and sustainment as decision-relevant observation positions distinct from the outside result. | The source categories do not establish FPF health-service/client kinds, cultural adoption or a compulsory outcome set or stage order. Use only positions that can change the bounded decision. |
 | Stirman, Baumann, and Miller, [FRAME](https://doi.org/10.1186/s13012-019-0898-y) | for a Method-related target, record what changed, when, planned/proactive or unplanned/reactive status, decision-maker and applicable authority, affected level, reason and conditions, and whether Method semantics, description, support, or local use changed. | Fidelity labels do not establish Method identity or admission, and healthcare intervention kinds do not become FPF kinds. Return each target modification to its particular maintained claim or local decision. |
 | Miller et al., [FRAME-IS](https://doi.org/10.1186/s13012-021-01105-3) | distinguish modifications to the introduction strategy from modifications to the Method-related target; for the strategy, record the changed component or function, nature, timing, participants in the modification decision, rationale, and scope. | Healthcare intervention and implementation-strategy kinds are not imported as FPF kinds; neither Method admission nor a compulsory reporting module follows. Record the introduction strategy's status and keep its description, any WorkPlan, performed Work, and affected maintained result separate. |
-| Damschroder et al., [updated CFIR](https://doi.org/10.1186/s13012-022-01245-0) | ask which context and determinant observations can explain anticipated or actual success or failure. | These questions establish no universal determinant inventory, success score, maturity ladder or obtaining FPF relation. |
+| Damschroder et al., [updated CFIR](https://doi.org/10.1186/s13012-022-01245-0) | ask which context and determinant observations can explain anticipated or actual success or failure. | Select context and determinant questions for the receiving use; establish any claimed FPF relation through its own predicate and grounds. |
 | Skivington et al., [2021 MRC complex-intervention framework](https://doi.org/10.1136/bmj.n2061) | identify key uncertainty, context interaction, refinement, stakeholder perspective, and comparative resource/outcome consequence; permit repeat, reconsider, or stop. | The framework does not impose a phase sequence or gate on this Method. The source neither admits FPF Methods and Work nor supplies causal support; C.28 remains conditional. |
-| Moore et al., [MRC process-evaluation guidance](https://doi.org/10.1136/bmj.h1258), and Jolles et al., [core functions and forms](https://dworakpeck.usc.edu/sites/default/files/2020-10/Core%20Functions%20and%20Forms%20of%20Complex%20Health%20Interventions.pdf) | connect the proposed explanation to observations of implementation, mechanisms, context and outcomes; distinguish a contribution's function from its concrete form. | These are developed comparison sources, not a universal mechanism inventory. Recover the subject-specific function and the evidence for its preservation; an observed benefit does not confirm the originally proposed mechanism. |
+| Moore et al., [MRC process-evaluation guidance](https://doi.org/10.1136/bmj.h1258), and Jolles et al., [core functions and forms](https://dworakpeck.usc.edu/sites/default/files/2020-10/Core%20Functions%20and%20Forms%20of%20Complex%20Health%20Interventions.pdf) | connect the proposed explanation to observations of implementation, mechanisms, context and outcomes; distinguish a contribution's function from its concrete form. | Recover the subject-specific function and the evidence for its preservation; an observed benefit does not confirm the originally proposed mechanism. |
 
 ### A.3.1.MI:12 - Relations
 
-- C.39.MF supplies the Method-of-interest and outside result. A.3.1.MV supplies an admitted variant or status-preserved candidate lineage with applicability and currentness. A candidate account is not enacted; later Work may enact only independently admitted constituent Methods.
+- C.39.MF supplies the Method-of-interest and outside result. A.3.1.MV supplies an admitted variant or status-preserved candidate lineage with applicability and currentness. A candidate account is not enacted; later Work may enact only independently admitted Methods.
 - A.3.1.MV governs admitted Method semantics and candidate lineage, provenance, evidence, applicability, currentness, and retirement claims for both target and introduction accounts. A.3.2.DE authors or revises a MethodDescription of an admitted Method, or improves a candidate Method account while retaining its unresolved status. Other description content stays with its own episteme. A.15.2 governs the separate introduction WorkPlan; A.15.8.MS particular support claims; A.3.1.FT bounded fit and transfer questions; and C.36.MC bounded population-level cultural questions. Return a correction, refinement or alternative with the affected maintained claim or edition and the next action.
 - `E.23.CDI` or a domain capability-development pattern governs capability change. `A.2.2` governs the relied-on capability result; A.3.1.MI records it as an input, observation, or named gap.
 - `A.3.1` governs admission of both target and introduction Methods, and `A.3.2` governs `U.MethodDescription` membership. A WorkPlan and performed Work neither admit nor enact a candidate Method. `A.13` governs precise Agent claims and `A.15.1` every introduction and later Work occurrence. Assignment, permission, authority, access, use, enactment, and other direct relations retain their own named predicates, participants, applicability, and obtaining tests.
 - `A.3.4` governs a claimed actual bounded change to a continuing subject. Introduction Work, a before/after account, an adaptation record, or a decision label does not by itself identify a `U.Transformation`.
 - `A.10` governs evidence use. When the A.3.1.MI decision relies on a causal or contribution claim, `C.28` governs the bounded causal-use question, supported and unsupported uses, conditions, validity threats, and reopen trigger. Without that reliance, A.3.1.MI stops at observation or association.
 - C.28.CM develops the proposed causal explanation and its rivals. A.3.1.WT can construct the bounded Method trial; a different or more extensive inquiry needs its own qualified design and operational protocol. A.15.9 obtains and qualifies any missing outside-practice result for this use. The selected design and protocol guide the actual trial or inquiry. Its actually obtained observations and their limits then inform the bounded introduction decision; A.3.1.MI:4.5 explains this connection for adaptation. F.0.2.RC is used when a change affects a source-coverage or reconstruction claim.
-- Proctor, FRAME, FRAME-IS, updated CFIR, and MRC supply bounded comparator questions only. FRAME and FRAME-IS support the target-versus-introduction-strategy distinction; none creates FPF health ontology, adoption lifecycle, maturity ladder, phase gate, Method admission, Work occurrence, relation occurrence, capability, authority, or culture claim.
+- The implementation-science comparators inform the selected introduction and observation questions. FRAME and FRAME-IS distinguish target changes from changes in their introduction; the corresponding FPF subjects and claims retain their own identification and evidential grounds.
 
 ### A.3.1.MI:End
 
