@@ -79,7 +79,7 @@ Its field is bodily modeling and learning within an already known movement pract
 
 *Somatic* concerns the body as experienced and regulated from within. That account differs from what another person observes and from an anatomical explanation. They can inform the same correction, but one does not automatically supply the others. For example, a teacher can see that contact is lost while the performer reports no noticed change of effort. The difference is a reason to investigate their relation.
 
-The language concerns human bodily learning. A robot can be assessed against some of the same movement results, but its sensing, controllers, learning procedure and actuators require their own methods. Human practice instructions do not supply that architecture.
+The language concerns human bodily learning.
 
 ## SOM.Reference:2 - How the methods work together
 
@@ -118,7 +118,7 @@ A correction participates in work that is already being carried out at other lev
 | Turning while changing support | Balance, direction and transition between contacts | The movement continues through the support change. |
 | Regulating the participating bodily action | Distinguishable, controllable and coordinated changes under those conditions | The upper contributions remain possible while the change is made. |
 
-The example selects useful relations in this activity; it is not a fixed hierarchy of tissues or four universal movement levels. The same bodily skill can participate in other activities.
+The example selects useful relations in this activity; it does not define four universal movement levels. The same bodily skill can participate in other activities.
 
 Adequate strength and figure recall do not guarantee the intermediate coordination. Conversely, refining a sensation will not supply missing strength, a dance technique or knowledge of the musical relation. The teacher locates the contribution that limits the whole and selects a preparation that retains its important connection. A reduced task can temporarily remove partner or timing demands, but the later combination still has to be learned and tested.
 
@@ -371,7 +371,7 @@ A contrast ties an expression to recoverable experience. The return to the first
 
 For making an unavailable bodily distinction usable, **adapt** HCD.6.1's contrast-and-return construction to support, direction and experienced change. The alternative is repeated verbal or anatomical explanation. That can suffice when the referent is already known; when it is not, this pattern requires an encounter with a bodily difference.
 
-Supported direction and effort contrasts supply a bodily instance of that learning construction. No fixed training quantity or tissue mechanism is required to use it. This is a proposed teaching construction, not a demonstrated advantage over all movement schools. The unresolved comparative question is which contrasts and supports best serve a particular learner and task. A suitable domain method that supplies that answer changes the contrast selected here, rather than requiring the learner to complete a universal sequence.
+Supported direction and effort contrasts supply a bodily instance of that learning construction. This is a proposed teaching construction. The unresolved comparative question is which contrasts and supports best serve a particular learner and task. A suitable domain method that supplies that answer changes the contrast selected here, rather than requiring the learner to complete a universal sequence.
 
 The trade-off is preparation time and support in exchange for a referent that can guide the next attempt. Reopen the selection if the contrast cannot be recovered, fails to connect to the target action, or suitable movement instruction supplies that connection with less burden.
 
@@ -420,7 +420,7 @@ Practise regulating while the effort develops. A report after release can help l
 
 Observe the result the receiving task needs: security of a held tool, continuity of contact, position or another relevant effect. Where suitable, an instrument may make that external effect easier to observe. Keep its resolution and what it measures explicit.
 
-Keep a sensation report distinct from a force measurement. Compare the two accounts to decide whether the intended regulation occurred. A constant-looking instrument reading also cannot tell you which bodily change produced it.
+Compare the sensation report with the observed task result to decide whether the intended regulation occurred. When force is measured, keep the report distinct from the measurement. A constant-looking instrument reading cannot tell you which bodily change produced it.
 
 #### SOM.3:4.4 - Restore the conditions of use
 
@@ -430,7 +430,7 @@ Restore movement and the other contributions that must continue. Use SOM.4 when 
 
 ### SOM.3:5 - Archetypal Grounding
 
-With the forearm in a familiar writing position, a writer can distinguish a small release of the pen hold. The writer tries a slightly smaller release, observes whether the pen remains secure and makes a short familiar mark. If the next reduction makes guidance unreliable, the writer returns to the preceding available hold. The useful result is a controllable range for this action, not the smallest achievable squeeze.
+With the forearm in a familiar writing position, a writer can distinguish a small release of the pen hold. The writer tries a slightly smaller release step, observes whether the pen remains secure and makes a short familiar mark. If a reduction in holding effort makes guidance unreliable, the writer returns to the preceding available hold. The useful result is a controllable range for this action, not the smallest achievable squeeze.
 
 In a separate constructed force task, a learner holds a force reading near its target while watching the display, but the reading drifts when feedback is hidden. The learner reports the same effort. Force control with visual feedback has been demonstrated; control without that feedback has not. The teacher can retain feedback when the work permits it, revise the bodily contrast, or continue practice. None of those observations identifies a particular muscle as the cause.
 
@@ -515,7 +515,7 @@ Attend to how a workable combined change starts, develops and releases. Practise
 
 When combining portions, let them overlap and check the overlap in motion. Pauses can support preparation; they do not demonstrate a continuously coordinated action. Use SOM.5 when the connection between portions depends on changing support or load.
 
-When a contribution is added or changed, learn the expanded combination. Check what happened to the earlier contributions instead of assuming that their former availability survived.
+When a contribution is added or changed, learn the revised combination. Check what happened to the earlier contributions instead of assuming that their former availability survived.
 
 #### SOM.4:4.4 - Return to whole performance
 
@@ -533,7 +533,7 @@ In a salsa figure, the dancer and teacher select the combination needed during t
 
 ### SOM.4:6 - Bias-Annotation
 
-The teacher can mistake a tidy description for a usable coordination. The performer can favor a familiar feel even after conditions have changed. Preserve the required result and allow different bodily organizations to serve it. Select the participating regions and their effort from the receiving movement, rather than imposing an equal-effort template.
+The teacher can mistake a tidy description for a usable coordination. The performer can favor a familiar feel even after conditions have changed. Preserve the required result and allow different bodily organizations to serve it. Select the participating regions and their effort from the receiving movement.
 
 ### SOM.4:7 - Conformance Checklist
 
@@ -644,7 +644,7 @@ The application investigates the changing relation, preserves it in the reduced 
 
 **Two postures substitute for a transition.** Both endpoints work, so the performer is told only to repeat them. Construct and test the intervening relation.
 
-**The easy exercise removes the relevant change.** Preparation is successful under fixed support, although support transfer causes the failure. Retain that transfer in a suitably reduced task.
+**The easy exercise removes the relevant change.** Preparation is successful under fixed support, although the failure occurs during support transfer. Retain that transfer in a suitably reduced task.
 
 **A timing cue is treated as the missing bodily response.** The performer can notice when to act but cannot produce the change. Prepare or obtain the response before asking for earlier execution.
 
