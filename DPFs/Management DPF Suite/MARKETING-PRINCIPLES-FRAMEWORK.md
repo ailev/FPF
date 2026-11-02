@@ -62,8 +62,8 @@ Bring the question you are actually trying to answer. These entries are selected
 ### MKT-ENTRY-QUESTION - Find out enough to make the next decision
 
 - **Situation:** A team disagrees about why customers decline an offer, and another round of interviews has been proposed.
-- **Question:** What answer could change our next action, and how can we obtain it?
-- **First useful result or blocker:** A bounded inquiry tied to that action, or an existing qualified answer sufficient to stop investigating.
+- **Question:** What do actual customer attempts reveal, which alternatives does that make worth comparing, and what further answer would change the choice?
+- **First useful result or blocker:** A grounded difficulty and candidate alternatives, a bounded inquiry for an established choice, or an existing qualified answer sufficient to stop investigating.
 - **Start with:** [MKT.12](#mkt12---investigate-a-customer-or-market-question-for-a-decision); use MKT.1 when relevant customer differences remain unclear.
 - **Stop or return:** Stop when the decision has a sufficient answer. Return a missing permission, unavailable service or disputed objective to its owner.
 
@@ -2166,7 +2166,7 @@ SYSE constructs the offering and provider arrangement; C.32.MWA.PP compares how 
 
 ### MKT.12:1 - Problem frame
 
-Use this pattern when a product, offer or customer decision depends on something you do not yet understand about people's work, choice, use or experience. Perhaps customers praise a service but stop using it, apparently similar buyers choose differently, or a team cannot decide which difficulty to address. Start by stating the decision and the answer that could change it.
+Use this pattern when a product, offer or customer decision depends on something you do not yet understand about people's work, choice, use or experience. Perhaps customers praise a service but stop using it, apparently similar buyers choose differently, or a team cannot decide which difficulty to address. Start with the receiving decision as far as it is understood. If its relevant alternatives or distinctions are not yet known, develop them from an actual customer episode through §4.2–§4.3 before asking which answer would change the choice.
 
 The useful result is an answer with a stated reach, or a precisely bounded unanswered question, delivered to someone who can use it. That can come from existing information, ordinary information gathering, or a deliberately designed inquiry. A new survey is not the default result.
 
@@ -2178,7 +2178,7 @@ Use an existing sufficient answer directly. Repair an already established servic
 
 An organisation can collect abundant feedback without learning what its next decision requires. A buyer's stated preference may concern acquisition rather than use. A score after delivery may omit a difficulty that appears later. A striking interview may reveal a possible explanation while leaving its prevalence unknown. Combining these observations into one customer metric loses the question each can answer.
 
-The remedy is to construct the inquiry backward from a receiving decision, then forward from obtainable observations to a warranted answer. Keep the work being studied, the person reporting it, the observation and the inference distinct.
+Construct the inquiry from the receiving decision and the available customer material. When the decision is still poorly understood, examining an actual attempt can first reveal the relevant difficulty and alternatives. When those are established, work backward to the answer needed, then forward from obtainable observations to a warranted answer. Keep the work being studied, the person reporting it, the observation and the inference distinct.
 
 ### MKT.12:3 - Forces
 
@@ -2194,7 +2194,9 @@ The remedy is to construct the inquiry backward from a receiving decision, then 
 
 #### MKT.12:4.1 - Define the receiving question and try the existing answer
 
-Name who must decide, what alternatives remain live, when the decision matters and what answer would change it. Replace “understand our customers” with, for example, “decide whether the next offer needs an easier acquisition route or a different way of performing the work”. Ask what observation would distinguish those alternatives. If no plausible answer changes the move, revise the question or stop collecting.
+Name who must decide and when. If the relevant difficulty or alternatives cannot yet be stated, select an accessible episode through §4.2 and examine the actual attempt through §4.3, or the matching observation route. Recover what the person tried to achieve, the operations and conditions involved, and a relevant contrast. That work can produce the previously unknown distinction and candidate alternatives. Bound it by the material, attainable contribution and participant burden; it need not promise a particular discovery. Return what it establishes to this comparison.
+
+When alternatives can be stated, name which remain live and what answer would change the choice. Replace “understand our customers” with, for example, “decide whether the next offer needs an easier acquisition route or a different way of performing the work”. Ask what observation would distinguish those alternatives. If the obtained grounds leave no plausible answer that could change the bounded move, revise the question or stop collecting. Not yet having grounds to formulate alternatives is the earlier construction question, not evidence for this stop.
 
 Inspect available service records, previous inquiries, current customer accounts and relevant external sources. Check their subject, period and conditions before reuse. An old answer about individual buyers may not answer a current question about organisations with a separate access authority. Conversely, age alone does not defeat an answer whose conditions still hold.
 
@@ -2281,6 +2283,12 @@ The returned answer is bounded: retain reduced entry and valid source selection 
 Now management asks whether the trial reduced total reporting time. The earlier accounts do not identify that causal effect: workload or another process change may have altered the result. Define the comparison and competing explanations before choosing an evaluation design. Existing observations remain useful for constructing that question; they are not upgraded into its answer.
 
 In a learning-service case, the paying employer's reason for enrolling staff can be studied through the same question discipline. Whether each learner can subsequently perform the work needs an HCD task and observation under stated assistance conditions. A favourable buying story cannot supply that capability judgement.
+
+#### MKT.12:5.3 - Find the missing question before comparing offers
+
+Suppose the same service team has only praise after onboarding and little subsequent use; it cannot yet formulate useful alternatives. With permission, it follows an operator's reporting attempt. Entry itself is quick, but the operator spends most of the attempt checking which source values have been superseded. A contrasting attempt uses already confirmed values and finishes without that repeated checking. These episodes reveal a candidate difficulty: obtaining valid inputs, rather than entering them faster.
+
+The team can now compare supplying source validation with retaining the existing validation arrangement, and ask which version information each requires. The observations justify that local question; they do not establish its market prevalence or the causal effect of a new service. If the relevant source history cannot be obtained, retain the discovered difficulty and leave the affected offer comparison unresolved. An existing sufficient validation service could instead answer the question without further interviews.
 
 ### MKT.12:6 - Bias-Annotation
 

@@ -20,7 +20,7 @@ A Suite brings together constituent disciplines and explains how their knowledge
 | Suite | Working subject | DPFs | Patterns | Text, M characters |
 | --- | --- | ---: | ---: | ---: |
 | [Engineering](Engineering%20DPF%20Suite/) | Designing, realizing, changing and maintaining systems; knowledge access, semantic integration and control architecture design. | 5 | 99 | 2.813 |
-| [Management](Management%20DPF%20Suite/) | Direction, goals, commitments, operations, resources, markets, communities, workforce participation and organizational change. | 14 | 201 | 5.549 |
+| [Management](Management%20DPF%20Suite/) | Direction, goals, commitments, operations, resources, markets, communities, workforce participation and organizational change. | 14 | 201 | 5.551 |
 | [Foundational Thinking](Foundational%20Thinking%20DPF%20Suite/) | Mathematical and physical accounts, models, algorithms and usable notation. | 5 | 71 | 2.017 |
 | [Human Capability Engineering](Human%20Capability%20Engineering%20DPF%20Suite/) | Human learning and somatic change, connected to capability in later work. | 2 | 34 | 1.207 |
 
@@ -33,7 +33,7 @@ These ten fields have their own files here. They are not a fifth Suite: research
 | Framework | What you can work on | Patterns | Text, M characters |
 | --- | --- | ---: | ---: |
 | [Decision Design (PSDA)](https://fpf.tools/PSDA) · [Markdown](DECISION-DESIGN-PRINCIPLES-FRAMEWORK.md) | Formulate a decision problem, construct alternatives, compare consequences and uncertainty, and connect a recommendation to its use. | 19 | 0.843 |
-| [Research Method Practice (RMP)](https://fpf.tools/RMP) · [Markdown](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) | Frame and design research, obtain and criticize evidence, synthesize sources, and return a warranted knowledge contribution. | 11 | 0.557 |
+| [Research Method Practice (RMP)](https://fpf.tools/RMP) · [Markdown](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) | Frame and design research, obtain and criticize evidence, synthesize sources, and return a warranted knowledge contribution. | 11 | 0.562 |
 | [Explanation Design (EXD)](https://fpf.tools/EXD) · [Markdown](EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md) | Design an explanation, worked example or dialogue that helps its recipient understand and perform the needed operation. | 6 | 0.139 |
 | [Narrativization and Narrative Studies (NSTD)](https://fpf.tools/NSTD) · [Markdown](Narrativization-and-Narrative-Studies-Principles-Framework.md) | Develop and interpret followable narratives; construct working accounts and fictional or hypothetical events; preserve relations, uncertainty and useful returns to source material. | 10 | 0.396 |
 | [Implementation Facilitation (IS)](https://fpf.tools/IS) · [Markdown](IMPLEMENTATION-FACILITATION-PRINCIPLES-FRAMEWORK.md) | Help participants put an evidence-informed practice to use under local conditions, adapt the assistance and develop their capacity for further change. | 7 | 0.196 |
