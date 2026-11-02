@@ -46303,7 +46303,7 @@ Use this pattern when an engineer or researcher has a question, surprising resul
 
 When work continues without a question because its outcomes are treated as ordinary, B.5.PI provides an earlier entry. An ordinary handover or demonstration can yield a question or an early cue without an already recognized anomaly. Use that contribution here when reasoning can take it further.
 
-**First useful move.** State what you want to understand or make possible. Ask whether an available result already answers that question. If it does not, name the missing result and try one operation that could obtain it. Return what that operation established and the next question, if one remains.
+**First useful move.** State what you want to understand or make possible. Ask whether an available result already answers that question. If it does not, name the missing result and try one operation that could obtain it. Return what that operation established and the next question, if one remains. If the needed distinction or possible continuation is itself unknown, §4.1.2 explains how to develop that basis from accessible material before comparing inquiries.
 
 For example: “We need the highest component temperature, but our model reports a mean. Two states with the same mean can have different maxima. Next, determine which temperature differences this arrangement admits.” This already redirects the inquiry before another model fit.
 
@@ -46368,6 +46368,45 @@ When the situation has no usable model yet, begin with the contrast the answer m
 4. **Challenge a consequential choice.** Ask what observation, omitted interaction or changed condition could defeat the answer. Compare a plausible alternative when the observations leave materially different explanations. Revise the model or obtain the missing observation when that difference matters.
 
 Return the provisional model and what follows under its assumptions. If a missing domain account or formal construction prevents the next contribution, use A.15.9 to request that specific help from the working description. Section 5.6 shows this entry before a heat-transfer calculation has been formulated. **B.5.FM** shows how to choose the model's participants and relations and use them to derive a consequence, in physical and formal problems.
+
+##### B.5:4.1.2 - Develop grounds and possible continuations from incomplete material
+
+Sometimes neither the decisive distinction nor a useful set of alternatives is known. Asking which answer would change the work then leaves the practitioner to invent the very basis they need. Begin with something accessible: an episode of work, an artifact, an observation, a source argument, a proposed use or an available capability. The first result can be a better question or a conditional account. It need not be a forecast of the eventual discovery.
+
+The connection is constructive. Material lets the practitioner propose participants and relations; following a relation yields a consequence; a contrast or trial challenges that consequence; the changed account makes further inquiries or actions expressible. Their conditions and significance can then be examined. A new finding can return the work to any earlier contribution. Use an adequate supplied result at its point of entry instead of reproducing the whole connection.
+
+**Obtain a first basis through an accessible encounter.** State the current purpose as far as it is understood: what is to be explained, used, made possible or explored? Keep that purpose revisable. Select an encounter that can expose how the subject works, using one of these entries where it fits:
+
+- Follow one actual episode. Observe what arrives, what participants do or change, what result leaves, and how someone uses it. Ask about the adjustments that made the episode work. B.5.PI supplies this entry when no problem is yet felt.
+- Recover the operation behind an existing answer, design or source example. Find what it takes as given, what it does with that input and what its result establishes. Work a small application through §4.3 or B.5.TU. A hidden assumption may become visible before its practical significance is known.
+- Try a proposed use, or reason forward from an available capability. Identify the interaction by which it could produce an effect. Reason back from that effect to the contributions it would require. The two directions can revise both the intended use and the proposed means; neither needs a complete future plan.
+- Where the subject is unfamiliar, inspect a representative case with a practitioner or seek an explanatory source through F.1. Ask for help identifying what happens and which distinctions the practice uses. A request to help formulate the question is legitimate before a request for a specific answer is possible.
+
+Choose an entry because the material and the way of examining it are accessible and relevant to the present direction. Do not require a known action-changing finding before an exploratory encounter. Do not treat every conceivable examination as worthwhile either: compare its likely kind of contribution and burden with a smaller encounter or use of an adequate existing answer.
+
+Separate what was observed or supplied from the interpretation being proposed. A source description says what its author asserts; observing one episode says what happened there. A theory, calculation or domain Method supplies candidate relations and conditions for inference. None of these alone establishes that the same relation holds throughout a wider proposed use.
+
+**Make a relation do work.** Use B.5.FM to distinguish the participants and propose how they are related. Explain a local transition: this operation needs that input; this quantity changes that effect under these conditions; this person's contribution makes that next operation possible. Use subject knowledge to justify the transition. Where it is missing, retain a question for observation, a source or a qualified contributor. Naming two boxes or drawing an arrow does not supply their relation.
+
+Follow one relation to a small consequence, and use that consequence to seek a revealing contrast. For example, a calculation may assume a constant load, a handover may require a readable representation, or an experiment may rely on a measurement remaining comparable. The relation tells the practitioner what to vary or inspect. Trace what would follow with and without that premise, or compare two actual episodes in which it differs. Show the intermediate reason for any different result. A thought experiment creates a conditional implication; establish which conditions actually obtain through the appropriate subject inquiry.
+
+A useful contrast can also come from a failed attempt, an unfamiliar use, another participant's interpretation or two cases that the current representation merges. A relevant conceptual scheme or mantra can direct attention to such relations before anyone feels a problem. Apply its substantive questions to the available case; an empty slot in a scheme is not evidence of a defect. When neither a consequence nor a useful contrast can yet be constructed, return to a smaller case, another representation or subject assistance. Guessing possible answers does not replace that missing work.
+
+**Construct the continuations that the changed account permits.** Keep four things distinguishable when they matter: an alternative action, an uncertain condition, a consequence under that condition, and an action chosen after an observation. They can be connected, but they are different answers. A participant being available is a condition; requesting their help is an action; a qualified answer is a possible result; changing the later choice in response is a further conditional action.
+
+Build a continuation by identifying an operation or inference whose input the present account supplies. Follow its result to the receiving question. Alternatively, work back from a desired result and seek a missing operation or join through C.39. Compare retaining the present way, altering an exposed premise, using another available means or obtaining the specific missing contribution. A changed operation can create an option that did not previously exist; it need not merely reveal which predetermined future will occur. B.5.QD and C.40.CD develop the question and the way together when either changes.
+
+Qualify a proposed continuation at the condition that remains unresolved. Its logical consequence may be established while feasibility, a person's agreement or applicability to the actual situation remains unknown. Distinguish an unknown condition of an already described continuation from not yet having a way to construct a useful continuation. The second calls for further construction, description or help; labeling it “unknown” does not perform that work. Several compatible contributions can be needed together. Do not turn them into mutually exclusive branches merely to draw a tree.
+
+**Establish significance and select the next attainable contribution.** Return the new distinction or possibility to the original purpose. Does it change an answer, attainable result, supported claim, admissible use or worthwhile research direction? Show the consequence through the relation just developed. If a provisional distinction makes no difference to this purpose, it need not be elaborated. This is a reason to stop the present line, not evidence that no other consequential distinction exists.
+
+Now use C.11.DUA to compare an attainable further inquiry with continuing on the present basis or a narrower sufficient use. Include finding and learning the Method, obtaining help, access, waiting and checking. Where later action depends on an observation, C.43 relates the observation to the action that will still be available. An inquiry may instead change only what can responsibly be claimed. Keeping the same physical action can therefore accompany a useful change in its grounds.
+
+For open research, the attainable contribution may be a new description, candidate explanation, observation technique or question. Explain why the chosen material and operation could yield that kind of contribution and why this bounded effort is worthwhile. Do not promise an identified discovery or require its practical consequences in advance. After the attempt, use the actual result to choose continuation, reformulation or stop. Discovery and justification remain separate: a newly generated explanation still needs its applicable criticism and evidence.
+
+**Use help without inventing its delivery.** Ask for the missing contribution in terms of the available material and intended use; A.15.9 develops that exchange. When another person's work or response is unavailable, identify what can still be examined independently and what conclusion must remain conditional. A smaller supported answer, a different available source, an agreed joint attempt or a deferred dependent choice can be useful. Do not attribute a completed judgement or commitment to an unavailable person. If independent mastery is the purpose, obtaining an external answer alone does not fulfil it.
+
+Return the supported result, the reasoning that connects it to the purpose and the remaining consequential uncertainty. A failed premise sends the affected inference back to the model or source; an unavailable contribution sends the dependent continuation back to provision; an unexpected possibility can change the question. A sufficient answer ends the present inquiry. This connection does not guarantee discovery of every important alternative, and it does not replace domain competence or validation.
 
 #### B.5:4.2 - Perform the contribution that is missing
 
@@ -46551,6 +46590,28 @@ Now the requested sum has n terms beginning at 3: 3 + 5 + ... + (2n + 1). Recove
 
 The reusable contribution is the initial-value and increment argument. It lets the reader obtain the changed sum by identifying the changed range and reusing the already established result. A different progression would require recovering its increment before selecting another formula.
 
+#### B.5:5.8 - An available report exposes a previously unknown condition of use
+
+In a constructed case, a coordinator asks whether an automatically produced attendance report can be sent to course leaders. The available material consists of one report, a copy of its source data and the documented transformation. No list of possible defects has been supplied.
+
+Read one row and recover how it was produced. The transformation counts attendance records grouped by the participant's displayed name. Ask a course leader to demonstrate the intended use: deciding whom to contact about missing sessions. This makes the relevant unit a participant, while the calculation groups by a name. The first question is now whether those identify the same thing in this use.
+
+Construct a small contrast from that relation. Two different participants called Alex, each present once, yield the same name and count as one Alex present twice. The report alone cannot tell the leader whom to contact. This conclusion follows from the grouping rule; it does not establish that a collision occurred in the actual course. A source check can establish whether that condition holds for the present cohort. The data documentation also describes a stable participant identifier, making a previously unconsidered continuation expressible: group by that identifier and retain a suitable display label.
+
+The correction needs its own conditions: the identifier must track the participant for the relevant period, and the receiving leader must be permitted to see the resulting information. Those are questions for the data owner and the actual arrangement. If the owner is unavailable today, the analyst can inspect the transformation and prepare a proposed change; that work supplies neither the missing qualification nor permission. A qualified manual source may support today's contact decision, or the dependent decision may have to wait. The total attendance count can remain usable if it is all the recipient needs and its own conditions hold.
+
+Suppose the owner later establishes that names are unique within this cohort. The current report can then support this cohort's participant distinction under that premise. The collision counterexample still exposes the limitation of a general claim about other cohorts; it does not oblige a redesign of every bounded use. Comparing those claims prevents both an unwarranted release and unnecessary work.
+
+The reusable move was to recover an operation from accessible material, connect its output with a demonstrated use, derive a contrast from the mismatched identities and construct a changed continuation. Neither the receiving criterion nor the alternatives had to be fully specified beforehand.
+
+#### B.5:5.9 - Inquiry obtains a distinction before there is an intervention to choose
+
+In a second constructed case, a researcher has measurement traces with an occasional unexplained step. There is no proposed intervention, known cause or useful list of future actions. A small accessible inquiry is to inspect one raw trace and reconstruct how the instrument's software obtains the displayed quantity. This can reveal a measurement operation or a distinction that the present account omits; it does not promise an explanation of the phenomenon.
+
+In this case the reconstruction finds that the display subtracts a reference value which can be updated during recording. Holding the raw reading fixed while changing the reference produces a step in the displayed quantity. This derives a candidate explanation from an exposed operation. It is not evidence that such an update caused the observed event. The next useful contribution is to compare the reference-update record and raw readings with the display at that event, accounting for timing and measurement conditions. If those records do not exist, arranging to retain them in a later observation may make the distinction testable. B.5.2 and the domain research Method govern rival explanations and their assessment.
+
+Had the software exposed no such operation, the inspection could finish with a more precise measurement account and an unresolved question. Further work would need its own attainable contribution and grounds. The value of the initial inspection was its plausible access to the measurement process at modest cost, not advance knowledge of the reference update. The inquiry's result concerns understanding; an operational change need not follow.
+
 ### B.5:6 - Bias-Annotation
 
 The examples favor discrete construction and a simple physical representation. Other fields may need probabilistic, interpretive, historical or other arguments with different criticism demands. Select the contribution by the actual question and discipline.
@@ -46575,6 +46636,7 @@ Easy-to-produce outputs can dominate attention. Recover the intended epistemic o
 | Repeatedly improve the fit of a model that omits the intended quantity. | Test the representation against a small action-changing counterexample; recover the missing distinction or qualify a sufficient bound. |
 | Treat exploratory regularities as if they were independently predicted and tested. | Preserve their origin and use a design and inference that account for the selection and dependence. |
 | Produce an argument whose receiver cannot identify what the crucial step establishes. | Work backward from the needed conclusion and recover the decisive transition and its premises. If a premise changes, follow its effect through the argument. |
+| Demand a useful future branch before supplying any way to discover one. | Examine available material, recover a subject relation and derive a consequence or revealing contrast through §4.1.2; appraise further inquiry on the basis obtained. |
 | Generate more answers after the important question has changed. | State the changed formulation and which prior results still answer it before selecting further production. |
 
 ### B.5:9 - Consequences
@@ -46599,12 +46661,17 @@ Question formation belongs here because the result of one reasoning contribution
 
 **How can an inquiry begin before equations are available?** Adapt the qualitative entry described by Etkina and Brookes in [the ISLE method explanation](https://www.islephysics.net/why-isle.html): observations can lead to proposed mechanisms, consequences and discriminating tests before quantitative formalization. Section 4.1.1 makes a first provisional account available; section 5.6 works an engineering model choice. ISLE supplies an instructional method in a supported learning setting.
 
+**How do grounds and alternatives arise before a testable hypothesis?** Adapt [Ott and Hannah (2024), Emergent Findings and tables 3–4](https://doi.org/10.1287/stsc.2024.0178): open encounters, mental trials and interpretation can reveal participants and dependencies before a specific test is formulated. Their longitudinal study of nine ventures describes contingent combinations of practices, not a universally validated algorithm. Section 4.1.2 connects such constructive work to the existing first-model, reasoning and inquiry-appraisal Methods; that general connection is a methodological synthesis, with domain qualification still required.
+
+**What does exploring an intended use contribute?** Adapt [NASA's Stakeholder Expectations Definition, §4.1.1.2.4](https://www.nasa.gov/reference/4-1-stakeholder-expectations-definition/): exercising a concept of operations can expose missing interactions and return them to expectations. The engineering practice supports working through a use to discover conditions; it does not establish that a generic scheme finds all consequential distinctions in other fields.
+
 Reopen these choices when a better method at comparable effort changes the attainable result, a receiving use needs a different explanation or criticism regime, or changed tools alter the useful division of contributions.
 
 ### B.5:12 - Relations
 
 - **B.5.2** supplies the explanation-led abductive Method; **B.5.1** coordinates development states when that separate question is current.
 - **C.22.2** supplies an inspectable problem formulation and next use. **C.29** supplies mathematical-lens selection and correspondence, including preserved and lost structure.
+- **B.5.PI, B.5.EA and B.5.FM** supply inquiry entry, an expressible distinction and a first model. **B.5.QD, C.39 and C.40.CD** develop questions, missing operations and their connections. **C.11.DUA** appraises attainable further inquiry; **C.43** constructs observation-dependent action where control is the receiving use.
 - **A.15.9** supplies bounded use or acquisition of another practice's result, including help with a missing formulation.
 - **A.6.3.RT** prepares and compares an expression when its representation hinders the needed operation. The construction or argument obtained through that expression remains the result of the applicable subject Method.
 - **B.3, B.3.3 and A.10** govern claim-and-use-specific assurance and evidence reliance.
@@ -57918,6 +57985,8 @@ Keep three answers distinct:
 These are questions to resolve where live, not three mandatory output fields. A source limitation qualifies the attempted claim. It does not by itself choose evidence acquisition.
 
 #### C.11.DUA:4.2 - Compare attainable inquiry with its receiving value
+
+If the relevant distinction or possible result is not yet expressible, use B.5:4.1.2 to develop grounds from an accessible episode, source or attempt. The immediate comparison can concern a bounded exploration likely to improve the description or reveal a dependency. It need not promise a particular discovery. Return with the basis actually obtained before demanding a specific action-changing answer. Appraising an already formulated inquiry and constructing its missing basis are different contributions.
 
 When an inquiry is proposed or a consequential uncertainty, anomaly or applicable requirement makes one live, identify a plausible result that would change the conclusion, choice or warranted use. Compare obtaining that result with the feasible alternatives. These may include using present knowledge, a smaller reversible step, a different source, a narrower claim, deferral or stopping.
 
@@ -90473,6 +90542,8 @@ Recover what the retained information allows you to infer. If two possible situa
 Check the information needed at the moment of action. Prediction can permit a justified action before a delayed measurement arrives, or compensate for some consequences of that delay. Retain the actual delay and the model assumptions that make this response possible. Preserve the effects of actual inputs and relevant history when they affect what the current observation means. Use **C.30.LCA** to recover an unclear control structure and **C.29** to choose a suitable mathematical representation. Neither a mathematical vocabulary nor a detailed model supplies missing observations.
 
 #### C.43:4.3 - Construct possible continuations, including conditional future actions
+
+When you cannot yet formulate relevant alternatives or the conditions that would distinguish them, B.5:4.1.2 develops that basis from available material, a subject relation and a revealing consequence or trial. Use that construction here. An unknown condition of a described continuation differs from not yet having a useful continuation to describe; a classification of conditions alone cannot supply the latter.
 
 Construct alternatives from the available situation and from what must be obtained. Reason backward from the required result to the contributions it needs, and forward from available means to the results they could produce. Where the accounts fail to meet, obtain the missing contribution through **C.39**, revise the proposal, or retain the incompatibility as an explicit limit.
 
