@@ -858,6 +858,8 @@ Use [Semantic Integration Engineering (SIE)](SEMANTIC-INTEGRATION-ENGINEERING-PR
 
 [Corporate Finance (FIN)](../Management%20DPF%20Suite/CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md) provides methods for valuing investments, arranging finance, preserving liquidity and managing financial exposure. It also explains the financial relations of the activity and constructs financing terms and connections between group entities. The resulting claims and payment paths return to the investment and operating choices they enable.
 
+When the proposed payment depends on an engineering result or its acceptance, [SYSE.8:4.4](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse844---connect-the-offering-to-conditional-finance) develops the receiving connection. Compare the same promise, configuration, evidence and funding dates; then return a changed term or technical arrangement to both accounts. Its replenishment case shows how a qualified temporary operating method can support a different advance-payment proposal, why delayed readiness removes that proposal's early funding, and when independently available finance permits retaining the original technical design. FIN.10 remains the owner of financing construction and participant terms.
+
 Choose the question you need to answer, then open the linked method and check its conditions of use.
 
 **Part A - Cash and decision accounts**
