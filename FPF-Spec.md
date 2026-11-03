@@ -233,13 +233,13 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | A.19.SPR | **Repair State and Status Wording** | Stable | Repair state, status, posture, readiness, stance and currentness wording by recovering the bearer, actual claim and governing rule. Stop with a clear ordinary sentence when that is enough; recover a formal state frame, value set, bounded use and reopen condition only when the claim requires them. | **Builds on:** E.10, E.10.ARCH, A.19, A.3.3, C.2.2a, `A.16.*`, A.10, B.3, A.20, A.21, C.27, C.29, E.17, E.9.DA, E.21, F.18. **Coordinates with:** A.17, A.18, C.16, C.16.P, C.16.Q, A.6.P, C.2.P, C.30.P, E.8, E.19, E.11. |
 | A.19.SOURCE-SET-SPACE-SUBSTRATE | **Source-Set and Search/Outcome-Space Substrate** | Stable | *Keywords:* source set, search-side space ref, outcome-side space ref, source-set/space substrate, SpaceRefRelationKind, SourceToOutcomeRelation, DistortionPosture, SourceSetRef, sameDeclaredSpaceAs, distinctDeclaredSpaceFrom. *Queries:* "How do I declare one source set plus search-side and outcome-side refs?", "How do I keep source-to-outcome relation and distortion posture explicit?", "When do search and outcome refs resolve to the same declared CharacteristicSpace?" | **Builds on:** A.19, A.17, A.18. **Coordinates with:** C.18, C.19, G.5, G.10, A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW, A.6.P, A.0. **Specialized by:** A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW and later interpretive-view or atlas specializations. |
 | A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW | **Interpretive Views of Declared Source Sets and Search/Outcome Spaces** | Stable | *Keywords:* declared-substrate interpretive view, thin interpretation, atlas-form interpretation, DeclaredSubstrateInterpretiveView, DeclaredSubstrateAtlasView, TraditionAtlasView, TypedSetViews, interpretive qualifiers, interpretive-only reading. *Queries:* "When do I use an interpretive view over an already-declared substrate?", "When is thin interpretation enough and when do I need atlas form?", "How does TraditionAtlasView stay a local specialization instead of the generic head?" | **Builds on:** A.19.SOURCE-SET-SPACE-SUBSTRATE, A.19, A.6.3, E.17.0, E.17. **Coordinates with:** G.2, G.5, G.10, C.19, C.24, A.6.P, A.0. **Specialized locally by:** DeclaredSubstrateAtlasView and `TraditionAtlasView` under G.2. |
-| A.19.CN | **CN-frame: Specify and Maintain Comparability and Normalization** | Stable | *Keywords:* CN-frame, CN-Spec, chart, comparability modes, normalization refs, indicator policy refs, Γ-fold governance, registry, bridges, CL/loss notes, WLNK discipline, conformance checklist, SCR/RSCR harness, RSG admission hooks. *Queries:* "What is a CN-frame in FPF?", "How does CN-Spec govern comparability and normalization by reference?", "How do CN-frames use bridges and CL for cross-context reuse?", "What are the conformance and regression checks for CN-frames?" | **Builds on:** A.19. **Coordinates with:** A.6.1 (mechanism intension cards), C.16 (evidence/backing), F.9 (Bridges & CL), G.0 (CG-Spec admissibility gate). |
-| A.19.CHR | **CHRMechanismSuite: Shared Rules for Characterization and Selection** | Stable | *Keywords:* CHR suite, characterization core, CN-Spec, CG-Spec, admissibility gate, suite obligations, set-return selection, tri-state guard decision, crossing visibility, Bridge-only transport, penalties→R_eff, planned baseline, `SlotFillingsPlanItem`, P2W seam, no hidden scalarization, no hidden thresholds. *Queries:* "What is CHRMechanismSuite in FPF?", "How do CHR mechanisms cite CN-Spec/CG-Spec?", "How to enforce planned slot filling in WorkPlanning only?", "How to keep UNM/UINDM/ULSAM explicit (no hidden tails)?" | **Builds on:** A.6.7, A.15.3, A.6.1, A.6.5, A.19, G.0, E.18, E.10, E.19. **Coordinates with:** A.21, G.5, G.10, C.23. **Used by:** Part G universalization; CHR mechanism stacks. |
-| A.19.UNM | **Normalize Coordinate Values under Declared Invariants (UNM)** | Stable | *Keywords:* normalization, `CV→NCV`, `≡_UNM`, `NormalizationMethodId`, `NormalizationMethodInstanceId`, `NormalizationInvariant[*]`, `NormalizationFixSpec`, validity window (no implicit “latest”), fail-closed tri-state guard (`pass|degrade|abstain`), `CN-Spec.normalization`, `CN-Spec.comparability.mode`, declared bearer, comparison basis, scope/window, independently obtaining semantic or plane relation, separate receiving use. *Queries:* "What is UNM in FPF?", "How does FPF normalize coordinate values (CV→NCV)?", "What is ≡_UNM and why quotients/fix matter?", "How does CN-Spec.comparability.mode route normalization-based comparability?" | **Builds on:** A.19.CN, A.6.1, A.6.5, A.19.CHR, A.17–A.18, C.16, G.0, E.18, E.20, F.18. **Used by:** A.19.CHR, A.19.USCM, A.19.CPM, A.19.SelectorMechanism. **Coordinates with:** G.2, B.3. |
+| A.19.CN | **CN-frame: Specify and Maintain Comparability and Normalization** | Stable | *Keywords:* CN-frame, CN-Spec, chart, comparability modes, normalization refs, indicator policy refs, Γ-fold governance, maintained editions, semantic relations, separate use claims, loss evidence, optional CL, WLNK discipline, conformance checklist, SCR/RSCR harness, RSG admission hooks. *Queries:* "What is a CN-frame in FPF?", "How does CN-Spec govern comparability and normalization by reference?", "Which correspondence and reliance grounds does this cross-local reuse need?", "What are the conformance and regression checks for CN-frames?" | **Builds on:** A.19. **Coordinates with:** A.6.1 (mechanism operation contracts), C.16 (evidence/backing), F.9 (semantic relations and bounded-use claims), G.0 (CG-Spec admission conditions). |
+| A.19.CHR | **CHRMechanismSuite: Shared Rules for Characterization and Selection** | Stable | *Keywords:* CHR suite, characterization core, CN-Spec, CG-Spec, admissibility conditions, suite obligations, set-return selection, tri-state guard decision, crossing visibility, applicable correspondence and crossing conditions, model-bound assurance penalties, planned baseline, `SlotFillingsPlanItem`, P2W seam, no hidden scalarization, no hidden thresholds. *Queries:* "What is CHRMechanismSuite in FPF?", "How do CHR mechanisms cite CN-Spec/CG-Spec?", "How do I record the planned baseline, and when is typed filling needed?", "How to keep UNM/UINDM/ULSAM explicit (no hidden tails)?" | **Builds on:** A.6.7, A.15.2, A.15.3, A.6.1, A.19, G.0, E.18, E.10, E.19. **Coordinates with:** A.21, G.5, G.10, C.23. **Used by:** Part G universalization; CHR mechanism stacks. |
+| A.19.UNM | **Normalize Coordinate Values under Declared Invariants (UNM)** | Stable | *Keywords:* normalization, `CV→NCV`, `≡_UNM`, `NormalizationMethodId`, `NormalizationMethodInstanceId`, `NormalizationInvariant[*]`, `NormalizationFixSpec`, validity window (no implicit “latest”), fail-closed tri-state guard (`pass|degrade|abstain`), `CN-Spec.normalization`, `CN-Spec.comparability.mode`, declared bearer, comparison basis, applicable scope/window, independently obtaining semantic or plane relation, separate receiving use. *Queries:* "What is UNM in FPF?", "How does FPF normalize coordinate values (CV→NCV)?", "What is ≡_UNM and why quotients/fix matter?", "How does CN-Spec.comparability.mode route normalization-based comparability?" | **Builds on:** A.19.CN, A.6.1, A.19.CHR, A.17–A.18, C.16, G.0, E.18, E.20, F.18. **Used by:** A.19.CHR, A.19.USCM, A.19.CPM, A.19.SelectorMechanism. **Coordinates with:** G.2, B.3. |
 | A.19.UINDM | **Indicatorization (UINDM): Select Indicators Under a Declared Policy** | Stable | *Keywords:* indicatorization, indicator set, `IndicatorChoicePolicy`, `CN-Spec.indicator_policy`, CHR suite stage `indicatorize`, tri-state admissibility (`pass|degrade|abstain`), evidence-gated indicator choice, Bridge+CL transport visibility, “no NCV⇒indicator”. *Queries:* "What is UINDM in FPF?", "How does FPF choose indicators?", "Difference between measurable characteristic and indicator", "How to make indicator choice auditable?" | **Builds on:** A.19.CN, A.6.1, A.6.5, A.19.CHR. **Used by:** A.19.CHR. **Coordinates with:** G.0, G.2, E.20, F.18. |
-| A.19.USCM | **Unified Scoring Mechanism (USCM)** | Stable | *Keywords:* scoring, score profile, `ScoringMethodDescription`, ScaleComplianceProfile (SCP), CSLC-lawful transforms, `CG-Spec.MinimalEvidence`, tri-state admissibility (`pass|degrade|abstain`), “no implicit UNM”, vector scores by default, CHR suite stage `score`. *Queries:* "What is USCM in FPF?", "How does FPF do lawful scoring (SCP-first)?", "How are scoring methods pinned and audited in CHR?", "How does USCM handle unknowns and evidence?" | **Builds on:** A.19.CN, A.6.1, A.6.5, A.19.CHR, G.0, A.18, C.16. **Used by:** A.19.CHR. **Coordinates with:** A.19.UNM, A.19.ULSAM, A.19.CPM, A.19.SelectorMechanism, G.2, E.20, F.18. |
-| A.19.ULSAM | **Unified Lawful Scale Aggregation Mechanism (ULSAM)** | Stable | *Keywords:* lawful aggregation, scale-lawful fold, `fold_Γ?`, `ΓFoldRef`, `CG-Spec.Γ_fold`, `CG-Spec.SCP`, `MinimalEvidence`, tri-state guard (`pass|degrade|abstain`), contributor set, no hidden aggregation, penalties→`R_eff` only. *Queries:* "What is ULSAM in FPF?", "How does FPF do lawful aggregation / Γ-fold?", "Why is fold_Γ a separate CHR stage?", "How to avoid ordinal averaging in FPF?" | **Builds on:** A.19.CN, G.0, A.18, A.6.1, A.6.5, A.19.CHR, B.3. **Used by:** A.19.CHR. **Coordinates with:** G.2, E.20, F.18. |
-| A.19.CPM | **Compare Admitted Profiles under a Declared Comparator (CPM)** | Stable | *Keywords:* comparison, comparator, `ComparatorSpecRef`, `ComparatorSet`, set-valued comparison outcome, partial order, tri-state admissibility (`pass|degrade|abstain`), `MinimalEvidence`, “no hidden scalarization/totalization”, obtaining F.9 Bridge and separate bounded-use claim when needed, applicable ReferencePlane relation, assurance only for a named assurance claim. *Queries:* "What is CPM in FPF?", "How do I compare two admitted profiles under a declared comparator?", "Why comparison outputs are set-valued?", "How does CPM handle unknown evidence?" | **Builds on:** A.19.CN, A.6.1, A.6.5, A.19.CHR, G.0, A.18. **Used by:** A.19.CHR. **Coordinates with:** A.19.UNM, A.19.USCM, A.19.ULSAM, A.19.SelectorMechanism, G.2, G.5, G.9, E.20, F.18. |
+| A.19.USCM | **Unified Scoring Mechanism (USCM)** | Stable | *Keywords:* scoring, score profile, `ScoringMethodDescription`, ScaleComplianceProfile (SCP), CSLC-lawful transforms, `CG-Spec.MinimalEvidence`, tri-state admissibility (`pass|degrade|abstain`), “no implicit UNM”, vector scores by default, CHR suite stage `score`. *Queries:* "What is USCM in FPF?", "How does FPF do lawful scoring (SCP-first)?", "How are scoring methods pinned and audited in CHR?", "How does USCM handle unknowns and evidence?" | **Builds on:** A.19.CN, A.6.1, A.19.CHR, G.0, A.18, C.16. **Used by:** A.19.CHR. **Coordinates with:** A.19.UNM, A.19.ULSAM, A.19.CPM, A.19.SelectorMechanism, G.2, E.20, F.18. |
+| A.19.ULSAM | **Unified Lawful Scale Aggregation Mechanism (ULSAM)** | Stable | *Keywords:* lawful aggregation, scale-lawful fold, `fold_Γ?`, `ΓFoldRef`, `CG-Spec.Γ_fold`, `CG-Spec.SCP`, `MinimalEvidence`, tri-state guard (`pass|degrade|abstain`), contributor set, no hidden aggregation, model-qualified assurance penalties. *Queries:* "What is ULSAM in FPF?", "How does FPF do lawful aggregation / Γ-fold?", "Why is fold_Γ a separate CHR stage?", "How to avoid ordinal averaging in FPF?" | **Builds on:** A.19.CN, G.0, A.18, A.6.1, A.19.CHR, B.3. **Used by:** A.19.CHR. **Coordinates with:** G.2, E.20, F.18. |
+| A.19.CPM | **Compare Admitted Profiles under a Declared Comparator (CPM)** | Stable | *Keywords:* comparison, comparator, `ComparatorSpecRef`, `ComparatorSet`, set-valued comparison outcome, partial order, tri-state admissibility (`pass|degrade|abstain`), `MinimalEvidence`, “no hidden scalarization/totalization”, obtaining F.9 Bridge and separate bounded-use claim when needed, applicable ReferencePlane relation, assurance only for a named assurance claim. *Queries:* "What is CPM in FPF?", "How do I compare two admitted profiles under a declared comparator?", "Why comparison outputs are set-valued?", "How does CPM handle unknown evidence?" | **Builds on:** A.19.CN, A.6.1, A.19.CHR, G.0, A.18. **Used by:** A.19.CHR. **Coordinates with:** A.19.UNM, A.19.USCM, A.19.ULSAM, A.19.SelectorMechanism, G.2, G.5, G.9, E.20, F.18. |
 | A.19.SelectorMechanism | **Unified Selection Kernel (SelectorMechanism)** | Stable | *Keywords:* selection kernel, SelectorMechanism, selected candidate set, explicit criteria, finite basis of binary CPM applications, required comparison coverage, ComparisonResultSlot, SelectEligibility, pass/degrade/abstain. *Queries:* "How do I select a candidate set from already established comparisons?", "Which comparisons must be available for this selection?", "When may missing evidence permit a reduced set, and when must selection abstain?" | **Builds on:** A.6.1, A.6.5, A.19.CHR, A.19.CN, G.0, G.5, C.22. **Used by:** A.19.CHR, G.5, E.18. **Coordinates with:** A.19.USCM, A.19.ULSAM, A.19.CPM (comparison stage). |
 | A.20 | **Constraint Validity for Transformation Steps** | Stable | Tests one transformation, operation application, or A.6.4 bounded-use proposition against one applicable internal constraint for one case and window, returning an exact `ConstraintValidityResult`. Applicability, `notRun`, `satisfied`, `violated`, `unknown`, and `error` remain distinct; a gate, path, publication, refresh, assurance, or Work is a separate result. *Queries:* "Which constraint applies to this subject and case?", "What did the test return?", "Which later gate or assurance use may consume that result?". | **Builds on:** E.18 for placement, A.6.1 and E.20 for operation or mechanism content, A.6.4 for a retargeting-use proposition, and C.2.1 for result-episteme identity. **Coordinates with:** A.21, E.17, G.11, C.27, A.10, B.3, A.15, and F.9 only for a separately claimed semantic correspondence. |
 | A.21 | **Gate Decisions from Independent Check Results** | Stable | Applies one named gate profile rule to every required independently defined check result for one bounded action or transition. It preserves each source result, maps each under that rule, and lets the worst mapped value determine `abstain`, `pass`, `degrade`, or `block`; a gate decision is not readiness, a path, Work, or publication. *Queries:* "Which action is being decided?", "Which profile rule and required check results apply?", "How does each result map and what does the worst value require?". | **Builds on:** independently defined check results and the direct pattern that defines each check; A.20 supplies internal-constraint results. **Coordinates with:** E.18, A.15.5, A.10, B.3, A.2, C.3.2, A.2.1, F.6, A.2.6, F.9, F.17, E.17, G.6, G.11, and F.19. |
@@ -2314,7 +2314,7 @@ This glossary names the generative terms in **Plain** register and ties them to 
 | **Constraint‑Fit (C)**    | *Satisfies must‑constraints (Resource/Risk/Ethics)*; legality via **CG‑Spec**; **unknowns propagate** (never coerce to zero).                                | C.18, G.4  |
 | **Diversity_P (declared retained set)** | Coverage or dispersion of the declared retained set under a named measurement policy; declare **ReferencePlane**. Its change on adding one candidate is **DeltaDiversity_P**. | C.17, C.18 |
 | **E/E‑LOG**               | *Named, versioned **explore↔exploit** policy*; governs when to widen space vs refine candidates; **policy‑id is published**.                                   | C.19       |
-| **ReferencePlane**        | *Where a value lives:* **world** (system), **concept** (definition), **episteme** (about a claim). For a plane relation, retain its source/target planes and basis. Cite **CL^plane** for a used or required calibration and the **Φ_plane** policy and loss model for a used or required loss calculation; supported penalties affect **R only**. | F.9, G.Core:4.2.3 |
+| **ReferencePlane**        | *Where a value lives:* **world** (system), **concept** (definition), **episteme** (about a claim). For a plane relation, retain its source/target planes and basis. Cite **CL^plane** for a used or required calibration and the **Φ_plane** policy and loss model for a used or required loss calculation; any numerical assurance penalty requires an applicable B.3 model. | F.9, G.Core:4.2.3 |
 | **Scale Variables (S)**  | *The **monotone knobs** along which improvement is expected* (e.g., parameterisation breadth, data exposure, iteration budget, resolution). **Declare S** for any generator/selector claimed to scale. | C.18.1       |
 | **Scale Elasticity (χ)** | *Qualitative class of improvement when moving along S* (e.g., **rising**, **knee**, **flat** in the declared window). Used as a **selection lens**; numeric laws live in domain contexts.              | C.18.1       |
 | **BLP (Bitter‑Lesson Preference)** | A preference supported by a comparable, uncertainty-qualified scale comparison; begin with a **cheap scale-claim probe**. **No scale claim yet** or **no scale-based preference** are valid results. A local generality policy is a separate declared basis. | C.19.1, C.24 |
@@ -2378,11 +2378,11 @@ Co‑evolve declared `{environment, method}` sets; publish **coverage/regret** a
 | **CC‑A0‑4** | Where the G‑kit requires parity, **publish an Illumination Map** (coverage per niche); **single‑number leaderboards are non‑conformant** on the Core surface when a ParityReport is required. | Declared-set-first / typed portfolio-publication posture; avoids single‑winner bias.                         |
 | **CC‑A0‑5** | Keep **illumination/coverage** as **report‑only telemetry**; **dominance policy defaults to `ParetoOnly`**; any change is CAL‑authorised and cited by policy‑id.                                          | Separates fit from exploration; preserves auditability.                         |
 | **CC‑A0‑6** | Apply **E.7/E.8**: include a **U.System** and a **U.Episteme** illustration when claiming generative behaviour; obey **E.10** register hygiene; use the exact subsection title **“Archetypal Grounding.”** | Locks didactic primacy; prevents jargon drift.                                  |
-| **CC-A0-7** | **ReferencePlane declared** for every reported N/U/C/Diversity_P head. For an actual plane relation, retain its source/target planes and basis under **G.Core:4.2.3**; cite **CL^plane** for a used or required calibration and the **Φ_plane** policy and loss model for a used or required loss calculation. Supported penalties **route to R only**. | Prevents plane/stance category errors while preserving applicable crossing and receiving-use grounds. |
+| **CC-A0-7** | **ReferencePlane declared** for every reported N/U/C/Diversity_P head. For an actual plane relation, retain its source/target planes and basis under **G.Core:4.2.3**; cite **CL^plane** for a used or required calibration and the **Φ_plane** policy and loss model for a used or required loss calculation. Numerical assurance penalties follow an applicable B.3 model. | Prevents plane/stance category errors while preserving applicable crossing and receiving-use grounds. |
 | **CC‑A0‑8** | **Diversity_P ≠ Illumination.** Diversity_P measures the retained set; DeltaDiversity_P measures a candidate's marginal contribution to it. Either requires a declared `PromotionPolicy` before entering dominance. **Illumination** remains **report‑only telemetry** unless explicitly promoted by a CAL-authorized policy-id.                                         | Matches QD triad semantics and parity defaults.                                 |
 | **CC‑A0‑9** | For any generator/selector **scale-behaviour claim**, declare **S (Scale Variables)**, its **ScaleWindow**, and an **E/E-LOG scale policy-id**. Mark **S = N/A** only when no scale-behaviour claim is made. | Keeps a negative scale result within its declared comparison basis. |
 | **CC‑A0‑10** | For scale-behaviour claims, execute a **scale-probe** (≥ 2 points along S within the declared ScaleWindow) and report the **supported Scale Elasticity class** (*rising/knee/flat/declining*), or leave **χ unassigned** and state what remains unresolved, under **C.18.1**. Use a UTS row only when **F.17**'s naming and reuse conditions hold. | Distinguishes supported declining response from unresolved classification and N/A. |
-| **CC‑A0‑11** | Apply **Iso‑Scale Parity** in parity runs when S is declared; where infeasible, state the **loss notes** and treat results as **non‑parity**. For a penalty calculated or required by the receiving use, cite its model and policy; supported penalties affect **R only**. | Keeps comparisons fair and auditable under scale constraints. |
+| **CC‑A0‑11** | Apply **Iso‑Scale Parity** in parity runs when S is declared; where infeasible, state the **loss notes** and treat results as **non‑parity**. For a penalty calculated or required by the receiving use, cite its model and policy; numerical assurance penalties require an applicable B.3 model. | Keeps comparisons fair and auditable under scale constraints. |
 | **CC‑A0‑12** | Record a **BLP-waiver** only when overriding an actual declared generality preference that would otherwise decide the use. Apply **C.19.1**'s governed grounds: admissibility override, parity-supported scale-probe overturn, or non-blocking complementary bias. Bounded specialization alone requires no waiver. | Makes an actual policy override transparent without imposing one on ordinary bounded tactics. |
 
 ### A.0:8 - Consequences
@@ -24128,7 +24128,7 @@ The suite user needs one description that can:
    Suites must cite governing spec refs as pins, not duplicate their internals, otherwise multiple competing admissibility centers arise.
 
 4. **Transport and crossing visibility discipline.**
-   A claimed semantic correspondence between different local interpretation bases needs its obtaining F.9 Bridge; a kind correspondence needs its C.3.3 basis; a plane relation retains its own defining rule. Expose the anchors required by each actual relation and receiving use. An independently governed E.18 crossing or A.21 gate retains its required bundle or gate evidence. Any applicable penalty routes to `R/R_eff` only; suites do not embed CL/Φ/Ψ/Φ_plane tables.
+   A claimed semantic correspondence between different local interpretation bases needs its obtaining F.9 Bridge; a kind correspondence needs its C.3.3 basis; a plane relation retains its own defining rule. Expose the anchors required by each actual relation and receiving use. An independently governed E.18 crossing or A.21 gate retains its required bundle or gate evidence. Assess loss under the receiving-use rule; apply the model-bound penalty conditions in §4.2(2). Suites do not embed CL/Φ/Ψ/Φ_plane tables.
 
 5. **Guard vs gate separation.**
    Mechanisms can output tri-state guard outcomes and explanations; **gate decisions** (including `block`) and `DecisionLog` remain gate-level (`OperationalGate(profile)`). A suite must not collapse these layers.
@@ -24237,7 +24237,7 @@ A MechSuiteDescription may state additional shared obligations within the member
    * Well-formedness constraint: suite obligations do not embed CL/Φ/Ψ/Φ_plane conversion or penalty tables. Transport obligations cite the applicable rules, pins and anchors; E.18 accounts for changed use bindings, and the applicable gate owns its decision. Distinct direct predicates retain their meanings and occurrence rules. Drawing an edge or declaring a suite obligation does not establish a relation, conversion or penalty.
 
 2. **`penalties_route_to_r_eff_only`.**
-   Well-formedness constraint: CL/Φ/Ψ/Φ_plane penalties associated with crossing discipline route to `R/R_eff` only; suites do not define transport penalties that alter `F/G`.
+   Well-formedness constraint: loss is assessed under the receiving-use rule and any tolerance it requires; a supported qualitative assessment can suffice. A numerical assurance penalty is used only when a named assurance claim consumes it under an applicable domain model in B.3:4.3–4.4, with the required dependency, calibration and unit assumptions. The selected model determines which result or results the penalty affects; apply an `R/R_eff`-only restriction only when that model establishes it. A penalty alone changes no legality, invariant or `U.ClaimScope` fact; those retain their own governing rules.
 
 3. **`guard_decision_tristate(pass|degrade|abstain)` and `unknown_never_coerces_to_pass`.**
    Well-formedness constraint: admissibility/eligibility outcomes use a tri-state guard result `GuardDecision := {pass|degrade|abstain}`. Unknown/insufficient evidence is not coerced to `pass`; it resolves to `{degrade|abstain}` under declared failure behavior (e.g., probe-only as a SoS‑LOG branch id, not as a new decision value).
@@ -24419,7 +24419,7 @@ A `MechSuiteDescription` is conformant iff all applicable items hold:
 
 **CC‑A.6.7‑5a (CN+CG pins for admissibility-gated characterization).** If the suite is admissibility-gated for characterization, it MUST require both `CNSpecRef` and `CGSpecRef` as pins (references), consistent with A.6.7:4.3.
 
-**CC‑A.6.7‑6 (Transport discipline preserved).** The suite MUST NOT introduce transport exceptions. An actual semantic crossing must recover its obtaining Bridge and bounded use under its direct rule, with any applicable penalties routed to `R/R_eff` only. Entity, scheme, plane or notation changes alone establish no Bridge.
+**CC‑A.6.7‑6 (Transport discipline preserved).** The suite MUST NOT introduce transport exceptions. For an actual semantic crossing, it MUST require the obtaining Bridge and bounded-use grounds under the direct rule, with loss assessed for that receiving use and any numerical assurance penalty satisfying §4.2(2). Entity, scheme, plane or notation changes alone establish no Bridge.
 
 **CC‑A.6.7‑7 (Tri-state guard discipline when used).** If the suite declares admissibility/eligibility semantics, it MUST use `GuardDecision := {pass|degrade|abstain}` and MUST NOT coerce unknown to pass.
 
@@ -24479,7 +24479,7 @@ A `MechSuiteDescription` is conformant iff all applicable items hold:
 Characterization and admissibility-gated selection pipelines are unified by:
 
 * shared governing spec refs (e.g., CN‑Spec / CG‑Spec),
-* shared conditions for actual semantic, kind and plane relations, independently governed flow/gate crossings, and any penalties routed to `R_eff`,
+* shared conditions for actual semantic, kind and plane relations, independently governed flow/gate crossings, and loss assessed under the receiving-use rule,
 * shared guard semantics (tri-state, no coercion),
 * and explicit protocol constraints (allowed pipelines).
 
@@ -35068,7 +35068,7 @@ Recurring failures:
 |---|---|
 | **evaluated-object-kind discrimination vs broad reuse** | The evaluation must fit the evaluated object kind, but it should reuse existing FPF characteristic and scale discipline where possible. |
 | **Small first version vs enough coordinates** | A useful first evaluation can be compact, but it needs enough coordinates to block false improvement and wrong-kind comparison. |
-| **Measurement admissibility and scale lawfulness vs ordinal judgment** | Some coordinates are measured through `C.16`; others are evidence-backed ordinal content values. The evaluation must say which is which. |
+| **Measurement admissibility and scale lawfulness vs content judgment** | Some coordinates are measured through `C.16`; others are evidence-backed content values. The evaluation must say which is which. |
 | **Improvement direction vs trade-off protection** | Preferred movement must be visible without turning every coordinate into an optimization command. |
 | **Contrast cases vs overfitting** | Contrast cases are needed to test the scale set, but the evaluation must not become a list of examples only. |
 | **Reusable specification vs local use** | A reusable evaluation must make the same evaluation characteristic-space elements recoverable across uses. A local project can use a smaller specification when the use is bounded and non-reusable. |
@@ -35084,27 +35084,27 @@ Construct an evaluation specification that declares an A.19 `CharacteristicSpace
 
 | Local name | Use | Non-use boundary |
 |---|---|---|
-| `EvaluationCharacteristicSpaceSpec` | Local specification for constructing one evaluation `CharacteristicSpace`. | Not a score sheet, review packet, work plan, gate, evidence record, or project approval. |
-| `EvaluatedObjectKindRef` | Exact kind of object the evaluation evaluates. | Not a vague artifact, file bundle, campaign, chat, or source collection. |
+| `EvaluationCharacteristicSpaceSpec` | Local specification for constructing one evaluation `CharacteristicSpace`. | Declaring an evaluation alone establishes neither a value for the evaluated object nor permission to act. |
+| `EvaluatedObjectKindRef` | Exact kind of object the evaluation evaluates. | — |
 | `DeclaredUseScope` | Use for which the evaluated object is being judged or improved. | Not all possible uses. |
 | `DiscriminatingCaseSet` | Positive, below-floor, and outside-declared-object-kind boundary cases used to test whether the characteristic space distinguishes the evaluated object kind and use. | Not a substitute for the coordinate set. |
 | `ObjectKindFitRule` | Rule for admissible evaluated object, below-floor evaluated object, and outside-declared-object-kind boundary case. | Not permission to omit declared coordinates after an evaluation has been invoked. |
 | `CharacteristicSlotSet` | The grouped slots, each binding one characteristic to one scale. | Not an arbitrary checklist and not hidden aggregation. |
-| `ScaleBindingSet` | The chosen scale and value meaning for each characteristic slot. | Not a metric dashboard unless a distance or measurement claim is explicitly declared by the neighbour. |
+| `ScaleBindingSet` | The chosen scale and value meaning for each characteristic slot. | — |
 | `PolarityAndPreferredMovement` | Direction of preferred movement for each coordinate, or a statement that the coordinate has no simple preferred direction. | Not permission to optimize one coordinate while damaging protected trade-offs. |
-| `FloorAndExceptionalMeaningSet` | Viable-for-use and exceptional-for-use value meanings for declared coordinates. | Not a maturity ladder and not proof that future improvement is impossible. |
+| `FloorAndExceptionalMeaningSet` | Viable-for-use and exceptional-for-use value meanings for declared coordinates. | An exceptional value does not establish that future improvement is impossible. |
 | `EvaluationEvidenceBasisRule` | The checked evidence loci required for the result: object version, corpus/projection loci when corpus-facing, source-currentness loci when currentness is valued, comparator loci when parity is valued, worked-case loci when case coverage is valued, and any missing or unchecked basis that limits the conclusion. | An unchecked premise leaves its dependent value unestablished; it supplies neither a low property value nor a positive evaluation. Do not infer values from reputation, review state, or absence of visible defects. |
-| `EvidenceAndMissingnessRule` | What justifies a value and how missing, censored, unknown, object-kind-fit, or boundary-return cases are handled. | Not project evidence, assurance, or gate proof by itself. |
+| `EvidenceAndMissingnessRule` | What justifies a value and how missing, censored, unknown, object-kind-fit, or boundary-return cases are handled. | Claiming a property value still requires the evidence specified by the rule. |
 | `ResultRowShape` | Required result content: coordinate, value and a short rationale, with evidence loci or payload when needed. | A paragraph or table is sufficient when it carries that content; a value list without its basis is insufficient. |
 | `AdjacentValueRationaleRule` | For a discrete ordered Scale, explain why adjacent alternatives misstate the evidence; at the top value, state what would lower or reopen it. For a continuous Scale, justify the value or interval at the applicable resolution and uncertainty. | Do not invent adjacent values for a dense Scale or order for nominal categories. |
 | `CalibrationPointSet` | Reusable cases and reference values for common disagreements, including 3/4/5 or equivalent adjacent values when the Scale has them. | Calibration uses the declared Scale and supplies no second score system. |
-| `CoordinateSpecificEvidencePayloadRule` | Extra payload that a coordinate needs when a category label can fake discharge: comparator plus selected ingredient plus current locus, source plus adopted payload plus currentness window, projection locus plus retrieval cue, or another payload named by value. | Not administrative burden, not the evaluated object's method, and not live evaluated-object text unless the evaluated object itself is an evaluation result or projection carrier. |
+| `CoordinateSpecificEvidencePayloadRule` | Extra payload that a coordinate needs when a category label can fake discharge: comparator plus selected ingredient plus current locus, source plus adopted payload plus currentness window, projection locus plus retrieval cue, or another payload named by value. | Not the evaluated object's method, and not live evaluated-object text unless the evaluated object itself is an evaluation result or projection carrier. |
 | `ProtectedTradeoffSet` | Qualities or neighbour claims that must be checked when visible coordinates improve. | Not a hidden veto without a declared evaluation pattern or value meaning. |
-| `PrecisionRepairKindRule` | Rule for checking pre-repair and post-repair evaluated object kind, characteristic kind, relation or claim kind, current ontic slot, relation position, use relation, admissible use, and scope when coordinate or evaluation wording is repaired; cite another pattern's definition or constraint when it governs that meaning; name an exact ClaimGraph only when its identity or edition changes the use. | Not a lexical substitution table and not permission to change object kind or slot, relation position, use relation, or claim kind by cleaner wording. |
+| `PrecisionRepairKindRule` | Rule for checking pre-repair and post-repair evaluated object kind, characteristic kind, relation or claim kind, current ontic slot, relation position, use relation, admissible use, and scope when coordinate or evaluation wording is repaired; cite another pattern's definition or constraint when it governs that meaning; name an exact ClaimGraph only when its identity or edition changes the use. | Not permission to change object kind or slot, relation position, use relation, or claim kind by cleaner wording. |
 | `StatusValueSet` | Local admissible-use result values for the evaluation. | Not release state, gate status, or evaluator praise. |
-| `E23StartCondition` | Minimum condition for using this evaluation inside `E.23`. | Not the improvement loop itself. |
+| `E23StartCondition` | Minimum condition for using this evaluation inside `E.23`. | — |
 
-These names are local to this pattern. They do not mint kernel `U.*` kinds, measurement templates, gate states, evidence kinds, or release states.
+These names are local to this pattern.
 
 #### A.19.ECS:4.2 - Construction moves
 
@@ -35113,7 +35113,7 @@ Use these moves when constructing or repairing an evaluation. They are not a man
 1. **Name the evaluated object kind and use.** Say what object kind is being evaluated and for which declared use. If the evaluated object kind is not recoverable, stop before choosing coordinates.
 2. **Build the discriminating cases.** Include at least one evaluated object that should pass, one object of the same general family that should fail the floor, and one different object kind that should return to evaluation selection before opening or receive an explicit object-kind-fit defect/value if this evaluation has already been invoked.
 3. **Choose candidate characteristics.** Draw candidates from the object kind's real failure modes, first-principles structure, user or operator harms, domain tradition, current `SoTA`, existing evaluations, and FPF neighbouring patterns named by value.
-4. **Bind each slot.** For each candidate, state the characteristic, chosen scale, value set, admissible domain, missingness semantics, and whether the value is a measurement claim or an ordinal content evaluation. Keep the property value, object-kind fit, and missing observation distinct. An observed absence of required support can justify a low value; an unperformed check cannot establish that absence. A local diagnostic code such as `0` may represent missing basis only when explicitly declared as a code, without the arithmetic or comparison rights of a measured zero. Preserve already supported values while leaving dependent conclusions open.
+4. **Bind each slot.** For each candidate, state the characteristic, chosen scale, value set, admissible domain, missingness semantics, and whether the value is a measurement claim or a content evaluation. Keep the property value, object-kind fit, and missing observation distinct. An observed absence of required support can justify a low value; an unperformed check cannot establish that absence. A local diagnostic code such as `0` may represent missing basis only when explicitly declared as a code, without the arithmetic or comparison rights of a measured zero. Preserve already supported values while leaving dependent conclusions open.
 5. **Remove false coordinates.** Drop coordinates that do not change admissible action, do not discriminate the evaluated object, duplicate another coordinate without a different repair action, or belong to another exact evaluation.
 6. **Split compound coordinates.** If a coordinate mixes two repair actions, two object kinds, or two incompatible scales, split it or assign one part to the neighboring pattern that governs that claim.
 7. **State preferred movement and trade-offs.** For each declared coordinate, state the preferred direction or explain why no simple direction exists. Name the protected trade-offs that must be checked when the coordinate improves.
@@ -35129,13 +35129,13 @@ A.19.ECS does not prescribe a publication or record form. It states which evalua
 | Specification item | Required content |
 |---|---|
 | `Evaluation problem frame` | Evaluated object kind, declared use, first useful move, existing-evaluation boundary, and what goes wrong if no evaluation exists. |
-| `Non-use boundary` | Boundaries to single-characteristic, measurement, Q-Bundle, naming, evidence, assurance, gate, work, decision, publication, and loop-method patterns. |
-| `Local names and kind settlement` | Local field names, use named by values, and non-use boundaries. |
+| `Non-use boundary` | Boundaries that distinguish this evaluation from other questions or claims relevant to its declared use. |
+| `Local names and kind settlement` | Any local names used, their meanings, and the boundaries needed to interpret or apply them. |
 | `Evaluation expression` | How the required evaluation content is made recoverable in the chosen form. |
 | `Object-kind fit rule` | Admissible evaluated object, below-floor evaluated object, and outside-declared-object-kind boundary handling before and after invocation. |
 | `Evaluation evidence basis` | Loci named by value that must be checked or named when a value depends on object version, corpus projection, source currentness, mature comparator, worked case, retrieval, or other external evidence. |
 | `Result-row shape` | Coordinate, value and short rationale, plus the evidence locus or payload required for that value. These are content requirements, independent of table or prose layout. |
-| `Coordinate set` | Coordinate heads, properties of the evaluated object, evaluated-object properties and use conditions, scale/value meanings, evidence loci, and protected trade-offs. |
+| `Coordinate set` | Coordinate heads, evaluated-object properties and use conditions, scale/value meanings, evidence loci, and protected trade-offs. |
 | `Calibration and payload rules` | Scale-appropriate calibration cases and required coordinate-specific payloads; use adjacent 3/4/5 cases only where the Scale has those values. |
 | `Status and stop condition` | Admissible-use statuses, local stop meanings, and reopen conditions. |
 | `Worked slices` | At least one passing evaluated object, one below-floor evaluated object, and one outside-declared-object-kind boundary case. |
@@ -35144,7 +35144,7 @@ A.19.ECS does not prescribe a publication or record form. It states which evalua
 
 This minimum is a content requirement, not a file-format requirement. For an FPF pattern publication form, `E.8` still governs the authoring form. `A.19.ECS` only states what the evaluation must make recoverable so that `E.22` can frame an improvement-oriented quality evaluation and `E.23` can run a repeated improvement loop.
 
-When construction or repair changes coordinate wording or evaluation wording, the evaluation characteristic-space specification records `PrecisionRepairKindRule` or an equivalent result-row requirement. Compare the pre-repair and post-repair evaluated object kind, characteristic kind, relation or claim kind, current ontic slot, relation position, use relation, admissible use, and scope. Cite the relevant definition or constraint from another pattern. Identify its exact ClaimGraph only when identity or edition matters to the repaired use. A cleaner phrase that changes those items, treats a coordinate position as an object kind, or loses the value's slot, relation position, use relation, or claim kind is a changed evaluation decision, not a wording repair.
+When construction or repair changes coordinate wording or evaluation wording, compare the pre-repair and post-repair evaluated object kind, characteristic kind, relation or claim kind, current ontic slot, relation position, use relation, admissible use, and scope. Cite another pattern's definition or constraint when it governs the repaired meaning. Identify its exact ClaimGraph only when identity or edition matters to the repaired use. A cleaner phrase that changes those items, treats a coordinate position as an object kind, or loses the value's slot, relation position, use relation, or claim kind is a changed evaluation decision, not a wording repair.
 
 #### A.19.ECS:4.4 - Discriminating-case test
 
@@ -35212,7 +35212,7 @@ It also corrects evaluation-reuse bias. A reusable evaluation is useful only whe
 | `CC-A19ECS-14` | It SHALL define the evaluation evidence basis and any coordinate-specific evidence payload needed for source-currentness, comparator, corpus-projection, worked-case, retrieval, or external-currentness claims. Apply the declared missingness rule when evidence is missing or unchecked. Lower a value for that absence only when the coordinate's value rule evaluates evidence adequacy or otherwise makes that absence a lower value; do not infer a low property value merely from an unknown value. | Makes values replayable while preserving missingness and the declared coordinate coverage. |
 | `CC-A19ECS-15` | When different evaluators will reuse it, the specification SHALL provide calibration cases for common disagreements: adjacent-value cases where the Scale has them, or the applicable reference values, resolution and uncertainty for continuous readings. | Keeps calibration compatible with the Scale. |
 | `CC-A19ECS-16` | It SHALL declare where result evidence, corpus-projection evidence, retrieval evidence, comparator evidence, currentness evidence, and quality-status evidence live. These payloads SHALL stay in the evaluation result, evidence basis, projection carrier, or selected publication carrier unless the evaluated object itself is that carrier. If the payload implies a user-facing action for another evaluated object, publish that move or boundary, not the carrier proof. This is an evaluation-payload placement rule, not a lexical ban: evidence-use payloads do not enter live evaluated-object text merely because they are true or useful to authors or evaluators. | Prevents evaluation evidence from leaking into the evaluated object's method or live text. |
-| `CC-A19ECS-17` | If construction or repair changes coordinate wording or evaluation wording, the specification SHALL require a pre/post kind-restoration check for evaluated object kind, characteristic kind, relation or claim kind, current ontic slot, relation position, use relation, admissible use, and scope, plus the relevant definition or constraint from another pattern, with exact ClaimGraph identity only when that identity or edition affects use. | Prevents coordinate cleanup from changing what the evaluation evaluates. |
+| `CC-A19ECS-17` | If construction or repair changes coordinate wording or evaluation wording, perform a pre/post check of evaluated object kind, characteristic kind, relation or claim kind, current ontic slot, relation position, use relation, admissible use, and scope. Use the relevant definition or constraint from another pattern when it governs the repaired meaning; identify an exact ClaimGraph only when its identity or edition affects use. | Prevents coordinate cleanup from changing what the evaluation evaluates. |
 
 ### A.19.ECS:7 - Common Anti-Patterns and How to Avoid Them
 
@@ -35233,7 +35233,7 @@ It also corrects evaluation-reuse bias. A reusable evaluation is useful only whe
 
 A conforming `A.19.ECS` result lets `E.22` ask a useful improvement-oriented quality-evaluation question and lets `E.23` run a repeated improvement loop without inventing values during the loop. It also gives object-specific evaluation patterns such as `E.21`, `E.9.DA`, `E.2.DA`, and `F.18` a common construction shape: evaluated object kind, use, contrast cases, coordinates, value meanings, evidence basis, result-row shape, calibration points, coordinate-specific payloads, protected trade-offs, status meanings, and local stop or reopen condition.
 
-The cost is intentional. A reusable evaluation is heavier than a local checklist, because it must prevent wrong-kind use, hidden value drift, proxy-for-value substitution, neighbour theft, and false stop claims. When a local rubric is enough, keep the rubric local. When reuse is needed, carry the evaluation by value.
+Reuse may require additional explanation of the evaluation's applicability, value meanings, evidence requirements and limits. When a local rubric is enough, keep the rubric local. When reuse is needed, carry the evaluation by value.
 
 ### A.19.ECS:9 - Rationale
 
@@ -35245,10 +35245,10 @@ An evaluation used to justify improvement must distinguish practical gains from 
 
 | Claim | Cited practice line | Adoption in A.19.ECS | Boundary |
 |---|---|---|---|
-| Evaluation artifacts must declare intended use, object, criteria, and missingness before their values are useful. | Cited reporting approaches: BenchmarkCards/EvalCards practice for evaluation-card structure, model-card lineage for intended-use and performance-characteristic reporting, and HELM/VHELM/AHELM-style evaluation suites for scenario, metric, raw-result, and modality-extension transparency. | `A.19.ECS` starts from evaluated object kind, use scope, contrast cases, coordinate meanings, evidence rule, and missingness rule. | It is not a benchmark harness, automated judge, or publication format by itself. |
+| Evaluation artifacts must declare intended use, object, criteria, and missingness before their values are useful. | Cited reporting approaches: BenchmarkCards/EvalCards practice for evaluation-card structure, model-card lineage for intended-use and performance-characteristic reporting, and HELM/VHELM/AHELM-style evaluation suites for scenario, metric, raw-result, and modality-extension transparency. | `A.19.ECS` starts from evaluated object kind, use scope, contrast cases, coordinate meanings, evidence rule, and missingness rule. | A.19.ECS does not prescribe a publication format. |
 | Multicriteria evaluation needs preserved dimensions and protected trade-offs. | Cited QD overview: `A survey on Quality-Diversity optimization: Approaches, applications, and challenges`, Swarm and Evolutionary Computation 100:102240 (2026); retained design lineage: MCDA and value-focused thinking for criterion separation and trade-off visibility. | The pattern requires coordinate values, polarity or no-simple-direction value rule, protected trade-offs, status meanings, and stop or reopen conditions. | Scalarization belongs only to a neighboring pattern governing the claim or explicitly declared local method. |
 | Improvement concern can damage the intended value when the evaluation is a weak proxy. | Cited proxy-risk studies: `Goodhart's Law in Reinforcement Learning` (ICLR 2024) and catastrophic-Goodhart reward-misspecification work (NeurIPS 2024); retained lineage: Goodhart taxonomy. | `A.19.ECS` requires evidence rules, missingness rules, protected trade-offs, and lowering/reopen conditions before a loop can treat a value as improved. | It is not an anti-measurement rule; it makes the measurement or ordinal evaluation explicit enough to be challenged. |
-| OEE and NQD work keeps the quality side distinct from novelty, diversity, archive, pool, and selected-set semantics. | QD, OEE, and NQD neighbour basis: quality-diversity work evaluates quality together with novelty and diversity, while archive and front are separate relations. Use `C.17` for novelty and diversity retention, `C.18` for archive and front relations, `C.19` for pool treatment, `G.5` for selected-set result declaration, `G.9` for parity, and `G.11` for currentness and refresh. When audience availability is current, use `E.17` for a source-backed publication face and return to source and `E.24.PUB` for the publication occurrence, form, carrier, audience, bounded use, and availability. | An evaluation may supply `Q` values. It does not thereby establish neighboring search, selection, retention, currentness, or publication claims. Examples include novelty, diversity, archive, front, pool, selected-set, parity, refresh, and publication claims; apply the named definitions and tests only when the corresponding claim is current. | `A.19.ECS` constructs an evaluation `U.CharacteristicSpace`; using it neither performs nor establishes OEE or NQD generation, selection, archive, publication, parity, or refresh. |
+| OEE and NQD work keeps the quality side distinct from novelty, diversity, archive, pool, and selected-set semantics. | QD, OEE, and NQD neighbour basis: quality-diversity work evaluates quality together with novelty and diversity, while archive and front are separate relations. Use `C.17` for novelty and diversity characterization, `C.18` for archive and front relations, `C.19` for pool treatment, `G.5` for selected-set result declaration, `G.9` for parity, and `G.11` for currentness and refresh. When audience availability is current, use `E.17` for a source-backed publication face and return to source and `E.24.PUB` for the publication occurrence, form, carrier, audience, bounded use, and availability. | An evaluation may supply `Q` values. It does not thereby establish neighboring search, selection, retention, currentness, or publication claims. Examples include novelty, diversity, archive, front, pool, selected-set, parity, refresh, and publication claims; apply the named definitions and tests only when the corresponding claim is current. | `A.19.ECS` constructs an evaluation `U.CharacteristicSpace`; using it neither performs nor establishes OEE or NQD generation, selection, archive, publication, parity, or refresh. |
 | Evaluator quality must be connected to the decisions it improves. | Kim et al., [*Rethinking Reward Model Evaluation Through the Lens of Reward Overoptimization*](https://arxiv.org/abs/2505.12763v1) (2025), studies reward-model evaluation in bounded mathematical tasks. HCD.18/.19 supply developed domain treatments of criterion error and support conditions; C.11.MV supplies the general comparison of a Method option's practical worth. | **Adapt:** §4.5 compares missed defects, admissible difficult cases, proposed repairs and cost. This evaluation construction requires its own subject grounds: HCD's treatments provide domain examples, while C.11.MV supplies the practical-worth comparison without establishing the evaluation criteria or their validity. | Reward-model correlation, evaluator agreement and a better specification do not establish general decision usefulness. Reopen when a target use cannot obtain the independent basis the comparison needs. |
 | Adaptive reuse can turn adoption cases into tuning material. | Dwork et al., [*Generalization in Adaptive Data Analysis and Holdout Reuse*](https://arxiv.org/abs/1506.02629) (2015), is statistical lineage; Iacob et al., [*The Red Queen Gödel Machine*](https://arxiv.org/abs/2606.26294v2) (2026), is cited bounded research on evolving evaluation. | **Adapt:** separate known-case development from independent adoption, preserve scope and expose cost in §4.5. | Neither statistical holdout guarantees nor benchmark improvement transfers automatically to qualitative framework evaluation. Reopen if leakage, a new population or comparison burden defeats the intended use. |
 
@@ -35267,8 +35267,8 @@ An evaluation used to justify improvement must distinguish practical gains from 
 | `E.2.DA` | Existing evaluation for FPF-level Pillar adequacy. `A.19.ECS` explains why it must publish evaluated object, coordinates, values, evidence loci, status, and stop meanings. |
 | `F.18` | Existing naming discipline with a grouped lexical quality vector. Use `F.18` for durable term and name improvement. |
 | `C.16.P`, `C.16.Q`, `E.10`, `A.6.P`, `C.2.P` | Repair overloaded characteristic/scale/score, quality, lexical, relation, and source-use wording before it becomes a coordinate or status value. |
-| `C.18`, `C.19`, `G.5`, `G.9`, `G.11` | Govern OEE/NQD novelty, diversity, archive, pool, selected-set, parity, and refresh semantics. An evaluation may supply `Q` values, but it does not govern the rest of OEE/NQD. |
-| `C.29` | Governs mathematical-lens use when a mathematical structure is used to define or justify coordinates. |
+| `C.17`, `C.18`, `C.19`, `G.5`, `G.9`, `G.11` | Govern OEE/NQD novelty, diversity, archive, pool, selected-set, parity, and refresh semantics. An evaluation may supply `Q` values, but it does not govern the rest of OEE/NQD. |
+| `C.29` | Use C.29 when defining or justifying coordinates leaves a mathematical representation or transfer question unresolved. An adequate local calculation or domain model needs no separate C.29 result. |
 | `A.10`, `B.3`, `A.20`, `A.21`, `A.15` | Govern evidence, assurance, local CV, gates, and work when an evaluation result is reused for those claims. |
 
 ### A.19.ECS:End
@@ -36443,7 +36443,7 @@ That is why `DeclaredSubstrateAtlasView` appears here as one richer interpretive
 
 > **Status:** Stable
 
-> **Scope.** Use a CN-frame to state which values may be compared for one bearer and intended use. Declare the characteristic space, chart, normalization and comparison basis in CN-Spec; maintain its editions and apply the conditions for each proposed reuse.
+> **Scope.** Use a CN-frame to state which values may be compared for one bearer and intended use. Declare the characteristic space, chart and comparison basis in CN-Spec, adding normalization when needed. Maintain editions retained for later reuse or shared use, and apply the conditions for each proposed reuse.
 >
 > **Use this when** readings need a recoverable comparison basis or a changed basis may affect their reuse. Keep the bearer, Characteristic and Scale meanings, observation or evaluation basis and intended comparison together. An already sufficient account can serve as CN-Spec; its notation is unrestricted. Apply the corresponding `A.19` mechanism pattern when normalization, indicatorization, scoring, aggregation, comparison or selection is actually needed. C.16 governs measurement backing and G.0 governs the applicable admission conditions.
 >
@@ -36457,25 +36457,25 @@ That is why `DeclaredSubstrateAtlasView` appears here as one richer interpretive
 
 A.19 established a substrate‑neutral picture:
 
-* a **CN‑frame** = a selected **CharacteristicSpace (CS)** + **chart** (coordinate patch and value basis, with Units where applicable) + a referenced **Normalization mechanism (UNM)** when the use needs normalization, for one named bearer, comparison basis, scope/window, and intended use. A.19.UNM defines directed normalization, its preservation/loss basis and any separately justified `≡_UNM` class use;
+* a **CN‑frame** = a selected **CharacteristicSpace (CS)** + **chart** (coordinate patch and value basis, with Units where applicable) + a referenced **Normalization mechanism (UNM)** when the use needs normalization, for one named bearer, comparison basis, intended use, and any scope/window that qualifies it. A.19.UNM defines directed normalization, its preservation/loss basis and any separately justified `≡_UNM` class use;
 * **operators** (subspace, product, pullback/pushforward) and **comparability** (coordinatewise vs **normalization‑based (normalize‑then‑compare)**);
 * **RSG touch-points**: state predicates use observable characteristics; an evaluation establishes whether their conditions hold for the named bearer and window;
-* **entity/relational mixtures** across CN‑frames via minimal schemas and bridges.
+* **entity/relational mixtures** across CN‑frames, represented by the schemas in §8.4, with each required correspondence grounded under its own rule.
 
-**Terminology guard.** *CN‑frame* is the **lens** (I); *CN‑Spec* is the specification (S) that fixes the bearer, characteristic and scale editions, chart, comparison basis, scope/window, normalization references, comparability rule, aggregation choice, and intended use; *CN‑Description* is the didactic surface (D) with worked examples and anti-patterns. Mechanism-level term cards such as `NormalizationMethod`, `NormalizationMethodInstance`, `NCV`, `≡_UNM`, and `IndicatorChoicePolicy` remain defined by the corresponding `A.19.<MechId>` patterns and are only cited here.
+**Frame, specification and explanation.** A *CN‑frame* is the selected basis for interpreting and comparing the readings. Its *CN‑Spec* fixes the bearer, characteristic and scale editions, chart, comparison basis, comparability rule, intended use and qualifying scope/window, with normalization and aggregation choices when used. A *CN‑Description* explains that basis through worked examples and anti-patterns. Mechanism-level terms such as `NormalizationMethod`, `NormalizationMethodInstance`, `NCV`, `≡_UNM`, and `IndicatorChoicePolicy` retain the definitions supplied by the corresponding `A.19.<MechId>` patterns.
 
 **Normalization names.** Use A.19.UNM’s method and instance identifiers to identify the selected normalization. Ordinary mathematical “mapping” describes its function; it does not assert a specialized FPF `Map` kind or an F.9 Bridge. Resolve a legacy identifier through F.18 alias docking when needed.
 
-A.19.CN makes this *operational and auditable*.
+The practitioner can compare values within this declared basis and identify which conclusions need reconsideration when it changes.
 
 ### A.19.CN:2 - Problem
 
-Absent a governance layer, four failure modes recur:
+When the comparison basis is missing or changes silently, these failures can occur:
 
 1. **Chartless numbers.** Measures move between teams without units, reference states, or declared normalization → **illusory comparability**.
 2. **Hidden normalization changes.** Re-parameterisation, such as normalising by batch size, can change the quantity being compared while a trend line still appears continuous.
 3. **CN-frame sprawl.** Unrelated dashboard definitions can leave receivers unable to establish a shared comparison basis.
-4. **Un‑bridgeable reports.** Cross‑team roll‑ups average **incongruent** CN‑frames, without a justified common comparison/aggregation model under B.3.
+4. **Incompatible roll-ups.** Cross-team roll-ups average **incongruent** CN-frames without a justified common comparison or aggregation model. Use B.3 when the result serves a named assurance claim.
 
 ### A.19.CN:3 - Forces
 
@@ -36486,7 +36486,7 @@ Absent a governance layer, four failure modes recur:
 | **Local truth vs federation** | Keep meanings tied to their exact schemes and claims; still allow explicit relations and bounded receiving uses. |
 | **Minimalism vs safety**      | Few mandatory slots; enough structure to forbid silent normalization drift.                  |
 
-### A.19.CN:4 - Solution — **The CN‑Spec** (CN‑Spec) + **Registry** + **Bridges**
+### A.19.CN:4 - Solution — Specify the comparison basis and maintain it when reused
 
 #### A.19.CN:4.1 - The **CN‑Spec** (comparability and normalization specification)
 
@@ -36506,7 +36506,7 @@ CN‑Spec {
     slot_id         : <tech-token>,
     characteristic  : <Characteristic defined under A.17>,
     scale           : { type: nominal|ordinal|interval|ratio, unit?: <measurement unit under A.18/C.16>, bounds?: <…> },
-    polarity        : up|down|target-range|none,
+    polarity?       : <preference rule when ranking desirability; e.g. up, down or target-range>,
     // if needed: missingness?, admissible_domain? (MM‑CHR-consistent metadata)
   }]
   chart             : { reference_state, coordinate_patch, measurement_protocol_ref?, value_ascription_basis? }
@@ -36524,18 +36524,18 @@ CN‑Spec {
   indicator_policy? : { IndicatorChoicePolicyRef, scope, edition }
   acceptance        : { checklist_for_admission, window?, evidence_anchors }
   aggregation?      : { Γ_fold, selected WLNK/COMM/LOC/MONO claims, time_policy }
-  alignment?        : [{ bridge_ref, direction, correspondence_rule, tolerated_loss, reliance_ref? }]
-  maintenance?      : { source_maintenance_assignment, DRR_links, deprecation_plan }
+  alignment?        : { semantic_uses?: <Bridges and separate bounded-use claims under §4.3>, plane_relation_refs?: <applicable plane relations> }
+  maintenance?      : { responsibility, DRR_links?, applicable_deprecation_arrangement }
 }
 ```
 
-**Reading:** the CN-frame is the selected characteristic space and chart for one named bearer and use. The normalization block is needed for normalization-based comparison; direct coordinatewise comparison can omit it. Add maintenance arrangements when the specification is retained for later reuse or maintained as a shared edition. `CN‑Spec` pins the editions, comparison basis, scope and window, normalization references, aggregation choice, and admission evidence that make that use auditable. A.19.UNM still defines normalization semantics, A.19.UINDM defines indicatorization, C.16 supplies measurement and evidence backing, and G.0 supplies admissibility gates. CN‑Spec records the values used; it does not make a source, scope, or Bridge into a universal container. An actual `Γ_fold` cites its law and applicability basis. Its property codes express only the claims needed by this use; A.9 supplies an unresolved law choice or property check, while ULSAM retains the actual CHR fold and admissibility rules.
+**Reading:** the CN-frame is the selected characteristic space and chart for one named bearer and use. The normalization block is needed for normalization-based comparison; direct coordinatewise comparison can omit it. Add maintenance arrangements when the specification is retained for later reuse or maintained as a shared edition. `CN‑Spec` fixes the editions, comparison basis, qualifying scope/window and admission evidence needed by that use, with normalization references and aggregation choices when used. A.19.UNM defines normalization semantics, A.19.UINDM defines indicatorization, C.16 supplies measurement and evidence backing, and G.0 supplies the applicable admission conditions. An actual `Γ_fold` cites its law and applicability basis. Its property codes express only the claims needed by this use; A.9 supplies an unresolved law choice or property check, while ULSAM retains the actual CHR fold and admissibility rules.
 
 The space reference selects the space itself. Add `characteristicSpaceDescriptionRef` when the selected use needs one exact definition or description edition; UNM and UINDM require this pin for their applications. Resolve the pair under A.19:5.1.1.1 and check that the description supplies the basis of that same space. An unchanged space may have a different description episteme, and a changed basis may require a different space even when the description retains its familiar title.
 
 **Mechanism-reference note.** `UNM_id` identifies the admitted normalization mechanism. `NormalizationMethodId` and `NormalizationMethodInstanceId` retain the meanings declared by A.19.UNM, and evidence for a relied-on instance remains with C.16. CN‑Spec neither redefines those terms nor implies transport or a cross-local relation.
 
-**L‑CN‑Spec‑NORM‑IDs (by reference).** Cite the normalization identifiers defined by A.19.UNM. Reference fields follow A.6.5: `*Ref` names a reference field and `*Slot` names a SlotKind.
+**L‑CN‑Spec‑NORM‑IDs (by reference).** Cite the normalization identifiers defined by A.19.UNM.
 
 #### A.19.CN:4.2 - CN-frame registry and conditional independent certification
 
@@ -36555,22 +36555,26 @@ These are different conclusions, not interchangeable registry labels. The regist
 
 #### A.19.CN:4.3 - **Bridges between exact local meanings**
 
-When two CN-frame uses rely on different exact F.17 local senses, cite an obtaining F.9 Bridge between those cells. A compact record can expose the information needed by the receiving use:
+When a comparison or reuse needs a semantic correspondence or difference between two exact F.17 local senses, test the direct F.9 predicate. Cite a Bridge only when it obtains; otherwise retain the actual F.9 exit and its reason. A use that needs an absent or unresolved correspondence remains unsupported. A coordinate mapping or plane relation keeps its own grounds. A compact account may show an obtaining Bridge and its separate bounded-use claim together:
 
 ```
-Bridge <source F.17 cell> → <target F.17 cell>
-  direction: <source-to-target use>
-  correspondence_rule: <how the local claims correspond>
-  applicable_use: <the receiving comparison or aggregation>
-  kept_characteristics: [… ]
-  lost_characteristics: [… ]
-  tolerated_loss: <declared limit>
-  transform: {pullback | pushforward | re-scaling | re-binning | … }
+Bridge: <obtaining occurrence between exact source and receiving F.17 cells>
+  predicate_profile: <relation kind, endpoint readings and obtaining condition>
+BoundedUseClaim:
+  applicable_use: <the receiving comparison, admission or aggregation>
+  direction: <source-to-receiving use>
+  correspondence_rule: <how the local claims are used together>
+  tolerated_loss: <declared limit for this use>
+  polarity: affirmative | negative
+  grounds: <kept/lost distinctions and other support or counterevidence>
+  coordinate_transform?: <separately justified pullback, pushforward, re-scaling, re-binning, etc.>
   plane_relation_ref?: <only when a separately defined plane relation obtains>
+  reliance_ref?: <required reliance judgement for this use>
+  assurance_ref?: <result for a current named assurance claim>
   extra_guards?: {additional evidence, required review, or an authorized exception within its applicable scope}
 ```
 
-The Bridge establishes only the exact sense relation. A claim that uses it for comparison, admission, or aggregation remains a separate C.2.1 use claim with its direction, rule, and tolerated loss, together with the A.10 provenance account and any B.3 assurance result required for that use. No Bridge follows from matching names, and no reverse direction follows automatically. B.3 supplies any current loss effect on assurance; CN‑Spec may add operational guards but does not redefine that calculus.
+The Bridge is only the exact sense relation. The separate C.2.1 claim states whether it suits the named use, direction, rule and tolerated loss. For reliance on an affirmative claim, obtain or reuse the A.10 disposition required by F.9:4.2; a negative or unresolved claim supplies no positive use basis. Add a B.3 result only for a current named assurance claim. Matching names establish no Bridge, and a reverse use needs its own justified direction. B.3 determines any assurance consequence under the selected argument or model; CN-Spec may state additional receiving-use conditions.
 
 ### A.19.CN:5 - Conformance Checklist (normative)
 
@@ -36578,25 +36582,25 @@ The Bridge establishes only the exact sense relation. A claim that uses it for c
 
 **CC‑A19.D1‑1 (Local identity and scope).** Every CN-frame **MUST** identify its name and edition, bearer, characteristic space, reference or comparison basis, intended use, and any scope/window that qualifies the readings. The same label under another scheme or edition is not evidence of the same frame.
 
-**CC‑A19.D1‑2 (Scales, units and preferred direction).** Each characteristic slot in `cs_basis` **MUST** declare its Scale and value meanings, its Unit when that Scale has one, and the polarity or target rule used by the comparison. State when no simple preferred direction applies.
+**CC‑A19.D1‑2 (Scales, units and preference).** Each characteristic slot in `cs_basis` **MUST** declare its Scale and value meanings, and its Unit when that Scale has one. A comparison that ranks values by desirability **MUST** state its preference rule. Descriptive comparisons need no preference rule.
 
 **CC‑A19.D1‑3 (Chart).** `chart` **MUST** name its reference state and coordinate patch. For measured values, cite the applicable measurement method and protocol under C.16; for evaluated or otherwise ascribed values, cite the rule and basis that establish those values.
 
 **CC‑A19.D1‑4 (Normalization references, not redefinition).** When normalization is used, `normalization` **MUST** identify the admitted mechanism and provide the normalization references required by the A.19.UNM governing pattern (methods / invariants / fix, and instances when used) so that any normalization‑based comparison is auditable. This pattern does not define what a “NormalizationMethod” is — it requires that CN‑Spec can point to the governing pattern that does.
 
-**CC‑A19.D1‑5 (Comparability mode).** `comparability.mode` **MUST** be either **coordinatewise** (same chart & units) or **normalization‑based** (“normalize‑then‑compare” via the declared **UNM**). Mixed/implicit modes are prohibited. A.19.UNM governs the directed result and any optional classes. The receiving comparison must retain its required distinctions; equality of normalized outputs alone establishes no operational congruence. CN-Spec pins the chosen result branch and its basis.
+**CC‑A19.D1‑5 (Comparability mode).** `comparability.mode` **MUST** be either **coordinatewise** (same chart, Scales and applicable Units) or **normalization‑based** (“normalize‑then‑compare” via the declared **UNM**). Mixed/implicit modes are prohibited. A.19.UNM governs the directed result and any optional classes. The receiving comparison must retain its required distinctions; equality of normalized outputs alone establishes no operational congruence. CN-Spec pins the chosen result branch and its basis.
 
 **CC‑A19.D1‑6 (Admission checklist).** `acceptance.checklist_for_admission` **MUST** state testable conditions and any interval needed for the intended use. Each admitted datum **SHALL** have the measurement, evaluation or other value-ascription basis required by that use. Cite a StateAssertion when a state claim is being made; a datum is not automatically such a claim.
 
 **CC‑A19.D1‑7 (Aggregation discipline).** When aggregation is used, `aggregation.Γ_fold` **MUST** identify the declared scale-lawful fold, its applicable algebraic properties and any required time policy. G.0 and A.19.ULSAM govern admissibility and the fold; B.3 applies when the fold serves an assurance claim. Keep the values separate when no fold is needed.
 
-**CC‑A19.D1‑8 (Relation and use discipline).** When reuse depends on different exact F.17 local senses, the receiving claim **MUST** cite an obtaining F.9 Bridge with exact endpoints, direction, correspondence rule, applicable use, and tolerated loss. The comparison or aggregation remains a separate C.2.1 use claim, with the A.10 provenance account and any B.3 assurance result required by that use. Coordinate-by-name without that relation and use account fails.
+**CC‑A19.D1‑8 (Relation and use discipline).** When reuse depends on a semantic correspondence or difference between two exact F.17 local senses, test the F.9 predicate and cite a Bridge only when it obtains. To use an obtaining Bridge, the receiving C.2.1 claim **MUST** separately state the use, direction, correspondence rule, tolerated loss and polarity. Reliance on an affirmative claim requires the A.10 disposition under F.9:4.2; a named assurance use also requires its B.3 result. Missing or unresolved required correspondence blocks the dependent use. A coordinate mapping and any applicable plane relation retain their separate grounds.
 
 **CC‑A19.D1‑9 (Conditional non-self-certification).** When the receiving claim or control requires independent certification, the certifying holder **MUST NOT** have authored or materially selected the exact CN-Spec edition or admission basis being certified, including relevant retained earlier content. Apply §4.2 to holder/Work/history, required authority and examination. Unknown history is unresolved. An adequate use with no such requirement may remain explicitly uncertified.
 
 **CC‑A19.D1‑10 (Maintenance, deprecation, and DRR).** A CN-Spec maintained for later reuse or as a shared edition **MUST** make its maintenance responsibility, applicable deprecation arrangement and consequential decisions recoverable. Use E.9 for decisions that need a DRR. A one-use comparison need not invent a maintenance assignment or retirement plan.
 
-**CC‑A19.D1‑11 (Evidence for the receiving use).** An admission later used for comparison or aggregation **SHALL** retain the independently established measurement or evaluation results and support relations that the receiving use needs, including applicable currentness and validity windows. Use A.10 to recover their provenance and bounded use. Add B.3 assurance lanes and an assurance result only when the receiving use makes that assurance claim. Missing required inputs have the disposition declared by the comparison or aggregation rule.
+**CC‑A19.D1‑11 (Evidence for the receiving use).** An admission later used for comparison or aggregation **SHALL** retain the independently established measurement, evaluation or other value-ascription results and support relations that the receiving use needs, including applicable currentness and validity windows. Use A.10 when their provenance or bounded reliance must remain replayable. Add B.3 assurance lanes and an assurance result only when the receiving use makes that assurance claim. Missing required inputs have the disposition declared by the comparison or aggregation rule.
 
 **CC‑A19.D1‑12 (Notation independence).** CN‑Spec content **MUST NOT** depend on a tool or file format; semantics precede notation (E.5.2 Notational Independence).
 
@@ -36608,16 +36612,16 @@ The Bridge establishes only the exact sense relation. A claim that uses it for c
 | --------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | **Auditable comparability**       | Chart and any required normalization expose the basis on which equal numbers may be compared; changes to that basis remain visible.                   |
 | **Safe roll‑ups**                 | Γ-folds preserve only the properties justified by the named quantity, operation and dependency model.                                    |
-| **Pluralism without incoherence** | Obtaining Bridges and separately grounded use claims support the stated cross-local reuse; apply CL and loss rules when that use requires them.                                |
+| **Pluralism without incoherence** | Obtaining Bridges and separately grounded use claims support the stated cross-local reuse. Retain the observed losses and required reliance; use CL only as optional evidence shorthand. |
 | **RSG‑ready**                     | Admission checklists let **RSG** states reference **CN‑frame‑backed** facts (e.g., *Ready* requires characteristics within bounds). |
 
 ### A.19.CN:7 - Rationale (informative)
 
 A comparison depends on the meaning and basis of its values. Keeping that basis with the CN-Spec makes a changed chart, normalization or intended use visible to the receiver. A claimed aggregation also needs its justified model; a required assurance claim retains its applicable loss policy under B.3.
 
-### A.19.CN:8 - Archetypal Grounding *(Tell‑Show‑Show)*
+### A.19.CN:8 - Archetypal Grounding
 
-> **Same slots, three arenas; no tooling implied.** The examples below use plain-language normalization descriptions as placeholders; any normative use must cite A.19.UNM-governed ids/refs (A.19.UNM) and evidence pins (C.16), not invent new terminology here.
+> The cases use plain-language normalization descriptions to illustrate the choices. Applying a selected normalization requires its A.19.UNM method and instance references and the backing required by C.16.
 
 #### A.19.CN:8.1 - **Industrial line** — *Weld‑quality CN‑frame* (`AssemblyLine_2026`)
 
@@ -36657,7 +36661,7 @@ A comparison depends on the meaning and basis of its values. Keeping that basis 
 * `normalization`: the named propensity-score case-mix adjustment uses its declared covariates and target population to estimate the specified ΔBP contrast. Preserve the estimand, adjustment assumptions and residual limitations; the adjusted estimate is an output, not an invariant guaranteed by the method name.
 * `comparability`: **normalization‑based (UNM)** (post‑adjustment)
 * `aggregation`: recombine subcohorts only under the declared population and weighting model; select the law or supported bound for each named safety outcome under its own justified dependency model.
-* **RSG hook**: evidence-use validation of an admission requires CN‑frame acceptance; **Assurance** pulls CL from any Bridge used.
+* **RSG hook**: evidence-use validation of an admission requires CN-frame acceptance. A named assurance claim uses B.3 and the relation or bounded-use evidence its argument needs; CL may summarize that evidence but supplies no automatic assurance result.
 
 #### A.19.CN:8.4 - Worked mini-schemas (entity and relation mixtures across CN-frames, informative)
 
@@ -36683,13 +36687,13 @@ _Relational stub:_
 | Table | Key columns (essential) |
 |---|---|
 | **ROLE_ASSIGNMENT** | `RA_ID`; `HOLDER_SYSTEM_ID`; `SYSTEM_ROLE_KIND_ID`; `REFERENCE_SCHEME_ID`; `SCOPE_REF?`; `WINDOW_FROM`; `WINDOW_TO` |
-| **RCS_SNAPSHOT** | `SNAP_ID`; `RA_ID`; `WINDOW_FROM`; `WINDOW_TO`; `CHAR_ID`; `VALUE`; `UNIT`; `SCALE_TYPE`; `RESULT_REF` |
+| **RCS_SNAPSHOT** | `SNAP_ID`; `RA_ID`; `WINDOW_FROM`; `WINDOW_TO`; `CHAR_ID`; `VALUE`; `UNIT?`; `SCALE_TYPE`; `RESULT_REF` |
 | **RSG_STATE** | `STATE_ID`; `SYSTEM_ROLE_KIND_ID`; `NAME`; `ENACTABLE` |
 | **CHECKLIST** | `CHK_ID`; `STATE_ID`; `PREDICATE_TYPE`; `PREDICATE_SPEC` |
 | **STATE_ASSERTION** | `SA_ID`; `RA_ID`; `STATE_ID`; `CHK_ID`; `WINDOW_FROM`; `WINDOW_TO`; `VERDICT`; `NORMALIZATION_INSTANCE_ID?`; `BRIDGE_USE_CLAIM_REF?` |
 | **WORK** | `WORK_ID`; `PERFORMER_SYSTEM_ID`; `METHOD_ID`; `WINDOW_FROM`; `WINDOW_TO`; result and evidence refs as needed |
 
-The RCS snapshot keeps the characteristic, value, unit, scale, window, and result identity visible. A StateAssertion separately identifies any normalization instance and any claim that uses a Bridge. An enactment query can therefore ask whether the latest admissible assertion for this assignment has an enactable state and a passing verdict without treating a role label, CN-frame, or Bridge as the acting System.
+The RCS snapshot keeps the characteristic, value, any applicable unit, scale, window, and result identity visible. A StateAssertion separately identifies any normalization instance and any claim that uses a Bridge. An enactment query can therefore ask whether the latest admissible assertion for this assignment has an enactable state and a passing verdict without treating a role label, CN-frame, or Bridge as the acting System.
 
 ##### A.19.CN:8.4.2 - Assurance CN‑frame — evidence freshness and related local meanings
 
@@ -36710,11 +36714,12 @@ _Relational stub:_
 |---|---|
 | **NORMALIZATION_METHOD** | `NORMALIZATION_METHOD_ID`; `KIND`; `DESCRIPTION_REF` |
 | **NORMALIZATION_INSTANCE** | `NORMALIZATION_INSTANCE_ID`; `NORMALIZATION_METHOD_ID`; `SRC_CHAR_ID`; `TGT_CHAR_ID`; `FORMULA_SPEC_OR_LUT_REF`; `VALIDITY_WINDOW`; `EVIDENCE_REF` |
-| **BRIDGE** | `BRIDGE_ID`; `SOURCE_CELL_REF`; `TARGET_CELL_REF`; `DIRECTION`; `CORRESPONDENCE_RULE`; `APPLICABLE_USE`; `TOLERATED_LOSS` |
-| **COMPARISON_USE** | `USE_CLAIM_ID`; `RESULT_REF`; `NORMALIZATION_INSTANCE_ID?`; `BRIDGE_ID?`; `EVIDENCE_USE_REF`; `ASSURANCE_REF?` |
+| **BRIDGE** | `BRIDGE_ID`; `SOURCE_CELL_REF`; `TARGET_CELL_REF`; `PREDICATE_PROFILE` |
+| **BRIDGE_USE_CLAIM** | `BOUNDED_USE_CLAIM_ID`; `BRIDGE_ID`; `DIRECTION`; `CORRESPONDENCE_RULE`; `APPLICABLE_USE`; `TOLERATED_LOSS`; `POLARITY` |
+| **COMPARISON_USE** | `USE_CLAIM_ID`; `RESULT_REF`; `NORMALIZATION_INSTANCE_ID?`; `BRIDGE_USE_CLAIM_REF?`; `EVIDENCE_USE_REF`; `ASSURANCE_REF?` |
 | **ASSURANCE_EVENT** | `AE_ID`; `USE_CLAIM_ID`; `EFFECT`; `DETAILS`; `WINDOW` |
 
-The table content can express the relevant claims and their audit path; the presence of the table supplies no missing evidence. A low-assurance relation, stale normalization instance, or refreshed evidence can be recorded as a distinct event and can reopen only the comparisons that rely on it.
+The table can express the relevant claims and their audit path; its presence supplies no missing evidence. A changed assurance result, stale normalization instance, or revised evidence can reopen only the comparisons whose grounds it changes.
 
 ##### A.19.CN:8.4.3 - Alignment CN‑frame — design-time reuse across local schemes
 
@@ -36722,20 +36727,20 @@ _Entity graph view:_
 
 ```
 Checklist for target state ← re-expression (N when normalization is used) ─ Checklist for source state
-source F.17 cell ── Bridge with direction and loss ──> target F.17 cell
+source F.17 cell ── obtaining Bridge under its predicate profile ──> receiving F.17 cell
 SystemRoleKind' ── stated refinement relation ──> SystemRoleKind
 ```
 
-A checklist re-expression cites the normalization instance when it uses normalization. If reuse depends on different exact local senses, it also needs the obtaining F.9 Bridge and separate use claim. A stated refinement between system-role kinds records how their state distinctions correspond; it must preserve the entailment needed for enactability rather than relying on similar role names.
+A checklist re-expression cites the normalization instance when it uses normalization. When it also needs a semantic correspondence or difference between exact local senses, apply §4.3: test the F.9 predicate, retain any missing or unresolved required correspondence, and separately ground the use of an obtaining Bridge. A stated refinement between system-role kinds records how their state distinctions correspond; it must preserve the entailment needed for enactability rather than relying on similar role names.
 
 _Relational stub:_
 
 | Table | Key columns (essential) |
 |---|---|
 | **RSG_REFINEMENT** | `REFINEMENT_ID`; `SOURCE_SYSTEM_ROLE_KIND_ID`; `TARGET_SYSTEM_ROLE_KIND_ID`; `SOURCE_STATE_ID`; `TARGET_STATE_ID`; `ENTAILMENT_RULE`; `EVIDENCE_REF` |
-| **CHECKLIST_REEXPRESSION** | `REEXPRESSION_ID`; `SRC_STATE_ID`; `TGT_STATE_ID`; `NORMALIZATION_INSTANCE_ID?`; `BRIDGE_USE_CLAIM_REF?`; `SOURCE_EDITION`; `TARGET_EDITION`; `VALIDITY_WINDOW` |
+| **CHECKLIST_REEXPRESSION** | `REEXPRESSION_ID`; `SRC_STATE_ID`; `TGT_STATE_ID`; `NORMALIZATION_INSTANCE_ID?`; `BRIDGE_USE_CLAIM_REF?`; `SOURCE_EDITION`; `TARGET_EDITION`; `VALIDITY_WINDOW?` |
 
-At least one enactable source state must correspond under the stated rule to an enactable target state when that is the promised refinement. The re-expression record fixes the two editions and validity window so later changes can reopen the affected alignment rather than silently changing an old checklist.
+At least one enactable source state must correspond under the stated rule to an enactable target state when that is the promised refinement. The re-expression record fixes the two editions and any validity window required by the re-expression or receiving use, so later changes can reopen the affected alignment rather than silently changing an old checklist. A referenced UNM instance retains its required validity window.
 
 #### A.19.CN:8.5 - Same basis, different holder and timing cases
 
@@ -36751,18 +36756,18 @@ In an ordinary comparison with no independent-certification requirement or claim
 | ----------------------- | ----------------------------------------- | ---------------------------- | --------------------------------------- |
 | **Chartless number**    | “Latency = 120”                           | No unit/vantage → untestable | Fill `cs_basis` + `chart`                          |
 | **Normalization smuggling**     | Quiet “per‑unit” normalisation mid‑stream | Trend reversal               | Declare UNM normalization references (`NormalizationMethodId` / `NormalizationMethodInstanceId`) + named invariants (see A.19.UNM)        |
-| **Bridge-by-name**      | Reusing equal labels under different schemes | False comparability | Establish the exact F.9 relation and state the separate receiving use and tolerated loss |
+| **Bridge-by-name** | Reusing equal labels under different schemes | False comparability | Test the needed F.9 predicate; cite a Bridge only when it obtains, then ground the separate receiving-use claim and reliance. An unsupported required correspondence blocks that use. |
 | **Free-hand averaging** | An arithmetic mean is used without a model for the intended risk result | The number can answer the wrong question | Use A.9 to select a justified law, bound or separate-input result; declare an actual `Γ_fold` only for the selected fold |
-| **CN‑frame sprawl**        | Ten nearly‑identical CN‑frames               | Cognitive debt               | Use Registry + DRR; prefer reuse        |
+| **CN‑frame sprawl** | Overlapping definitions obscure which comparison basis to use | Avoidable reconstruction and maintenance | Reuse a sufficient basis and retain differences that change the use. A registry supports maintained editions; use E.9 when a consequential decision needs a DRR. |
 | **Self-certification hidden by assignments** | A holder authors the basis and later certifies it under a new role | A required independent check still examines that holder's own basis | Apply §4.2 to actual participation in the exact edition; separate authority and examination, and keep uncertified use explicit when certification is not required |
 
 ### A.19.CN:10 - Didactic quick cards (one‑liners teams reuse)
 
-1. **Numbers travel with their basis.** Cite the characteristic and scale editions, bearer, reference or comparison basis, scope/window, and result.
+1. **Numbers travel with their basis.** Cite the characteristic and scale editions, bearer, reference or comparison basis, any qualifying scope/window, and result.
 2. **Expose a normalization used by the trend.** An undisclosed change leaves the comparison basis unresolved.
 3. **The intended result selects the law.** Use a weakest-part bound only when its declared dependency model justifies it; a safety label alone selects no fold.
-4. **Admit → Assert → Act.** (CN‑frame admission → RSG StateAssertion → Method step).
-5. **Relate before reuse.** When local meanings differ, establish the exact Bridge, then state the separate receiving use, direction, rule, and tolerated loss.
+4. **Ground an RSG-based Work-admission decision.** Establish the required state assertion before relying on it for admission; establish the other Work-admission conditions separately under A.15.1.
+5. **Ground the semantic correspondence needed by reuse.** Test the F.9 predicate between exact local senses; use an obtaining Bridge only through the separate bounded-use claim and required reliance. Retain a false or unresolved result when no positive relation is established.
 6. **When independence is required, check who made the basis.** A later role assignment does not remove self-certification; a sufficient uncertified comparison remains possible when no independent certification is required.
 7. **Ground each chart value.** Name the reference state and coordinate patch. For measured values, cite the applicable measurement method and protocol; for evaluated or otherwise ascribed values, cite their rule and basis.
 8. **Make deprecation recoverable.** A maintained edition identifies its retirement conditions and any supported successor relation.
@@ -36775,12 +36780,12 @@ In an ordinary comparison with no independent-certification requirement or claim
 
 #### A.19.CN:11.1 - **SCR — Acceptance (first introduction)**
 
-* **SCR‑A19.4‑S01 (Completeness).** CN-Spec has every applicable mandatory value. Each cs_basis position declares its Scale and value meanings, Unit when that Scale has one, and the comparison's polarity or target rule, including no preferred direction when appropriate. The chart names its reference state and coordinate patch; measured values cite their C.16 measurement method/protocol, while evaluated or otherwise ascribed values cite the rule and basis that establish them, as required by CC-A19.D1-2 and CC-A19.D1-3.
+* **SCR‑A19.4‑S01 (Completeness).** CN-Spec has every applicable mandatory value. Each cs_basis position declares its Scale and value meanings, Unit when that Scale has one, and any preference rule used for desirability ranking. Descriptive comparisons need no preference rule. The chart names its reference state and coordinate patch; measured values cite their C.16 measurement method/protocol, while evaluated or otherwise ascribed values cite the rule and basis that establish them, as required by CC-A19.D1-2 and CC-A19.D1-3.
 * **SCR‑A19.4‑S02 (Normalization clarity).** When normalization is used, `normalization` identifies the admitted mechanism and provides the normalization references required by the A.19.UNM governing pattern (methods / invariants / fix, and instances when used). If instances are referenced in assurance logs, their evidence/backing and validity constraints are handled by the governing evidence pattern (C.16), not by A.19.CN.
 * **SCR‑A19.4‑S03 (Comparability test).** Provide one worked coordinatewise or normalization-based comparison and the source/evaluation basis needed for its result. Use an Evidence Graph reference when that is how the required basis is represented.
 * **SCR‑A19.4‑S04 (Γ‑fold audit).** When aggregation is used, the rule states the intended result, law and applicability basis, with only the required property claims; the reviewer reconstructs the result on a toy set under that model.
-* **SCR‑A19.4‑S05 (Required certification).** Identify the exact receiving claim/control and relied-on CN-Spec edition or admission basis. If independent certification is required, check the actual certifier against authoring/material-selection history, then the independently applicable authority and examination conditions. Replay both successive same-holder assignments and overlapping different-holder assignments. If certification is not required, keep the adequate comparison explicitly uncertified.
-* **SCR‑A19.4‑S06 (bearer and anchors surfaced).** For each CN-Spec characteristic used in the worked example, cite its bearer, Characteristic and Scale editions, reference/comparison basis, scope/window, and the A.10 evidence anchors that support the reading.
+* **SCR‑A19.4‑S05 (Required certification).** Identify the exact receiving claim/control and relied-on CN-Spec edition or admission basis. If independent certification is required, check the actual certifier against authoring/material-selection history, then the independently applicable authority and examination conditions. Replay both successive same-holder assignments and overlapping different-holder assignments. When neither an independent-certification claim nor a control applies, keep the sufficiently grounded comparison; add a certification status only when it matters to the receiving use.
+* **SCR‑A19.4‑S06 (Bearer and basis recoverable).** For each CN-Spec characteristic used in the worked example, retain its bearer, Characteristic and Scale editions, reference/comparison basis, any qualifying scope/window, and the measurement, evaluation or other value-ascription grounds required for the reading. Shared frame-level values need not be repeated for every characteristic. Use A.10 when provenance or bounded reliance must remain replayable.
 
 #### A.19.CN:11.2 - **RSCR — Regression (on change)**
 
@@ -36788,7 +36793,7 @@ In an ordinary comparison with no independent-certification requirement or claim
 * **RSCR‑A19.4‑R02 (Slot or basis change).** A changed definition receives a new edition. Preserve old results with their original basis; their present admissibility still depends on their evidence and intended use. A display-only correction that preserves the definition is handled as such.
 * **RSCR‑A19.4‑R03 (Chart drift).** Updating measurement protocol bumps edition; **historic Work** keeps old edition link.
 * **RSCR‑A19.4‑R04 (Fold change).** A changed fold requires reassessment of roll-ups that rely on the changed rule. Recompute dependent results; reuse unaffected results and retain historical outputs with their original rule.
-* **RSCR‑A19.4‑R05 (Bridge health).** After either endpoint's scheme, claim, or edition changes, revalidate the Bridge direction, correspondence, and loss before relying on it again; reopen only the claims that use it.
+* **RSCR‑A19.4‑R05 (Changed relation or use basis).** After either endpoint or its relation-semantic basis changes, test the applicable F.9 predicate for the new candidate. Reassess the separate use direction, correspondence rule, loss tolerance and reliance when their grounds change; reopen only dependent claims.
 * **RSCR‑A19.4‑R06 (Deprecation rule).** On deprecating a CN-frame, the registry gives any supported successor relation, or states that no successor is established when that matters to reuse. Reconsider affected Bridges and uses; preserve historical relations instead of silently changing their endpoints.
 * **RSCR‑A19.4‑R07 (Certification basis).** A change to the relied-on basis, relevant participation history or applicable control reopens only the certification and receiving conclusions it can change. A registry display change alone does not.
 
@@ -36796,12 +36801,12 @@ In an ordinary comparison with no independent-certification requirement or claim
 
 * **A.2 / A.2.5 (Roles / RSG).** RSG **checklists** quote **CN‑Spec.acceptance**; enactment gates rely on **admitted** CN‑frame data.
 * **B.1 and A.9.** B.1 supplies any claimed whole/part construction; A.9 supplies an unresolved aggregation-law choice or property check. CN-Spec records the justified `Γ_fold`, including its model and time policy.
-* **B.3 (Assurance).** Where the receiving assurance use requires it, Bridge CL enters the **R** term; a safety roll-up requires the law or bound justified for its named outcome and dependency model.
-* **Current proof/inference support and the C.16/A.19 characterization stack.** Units, scales, and measurement templates come from C.16, A.17, A.18, and A.19. Claims about folds currently use C.2.1 for claim/episteme identity, A.10 for evidence and provenance, B.3 for assurance, and C.23 when method-family evidence or maturity is at issue.
+* **B.3 (Assurance).** For a named assurance claim, retain the relation and use evidence consumed by its argument. CL may serve as evidence shorthand; any quantitative effect needs a declared Scale and model. A safety roll-up requires the law or bound justified for its named outcome and dependency model.
+* **Current proof/inference support and the C.16/A.19 characterization stack.** Scales, applicable Units and measurement guidance come from C.16, A.17, A.18 and A.19. Claims about folds use C.2.1 when claim/episteme identity matters, A.10 when evidence or provenance must remain replayable, B.3 for a named assurance claim, and C.23 when method-family evidence or maturity is at issue.
 
 ### A.19.CN:13 - Minimal CN‑Spec template (copy/paste, informational)
 
-**Template note (refs-only).** This template shows *slot placement* for governance. Token semantics for normalization belong to the A.19.UNM governing pattern (A.19.UNM); indicatorization semantics belong to the indicatorization governing pattern (e.g., A.19.UINDM); evidence/backing semantics belong to C.16; admissibility/evidence gates belong to G.0.
+**Template note.** This example arranges the information needed to specify the comparison basis. A.19.UNM defines normalization terms; A.19.UINDM defines indicatorization; C.16 governs measurement and evidence backing; G.0 supplies the applicable admission conditions.
 
 ```
 CN‑frame: <Name>      Edition: <edition>      Bearer: <bearer ref>
@@ -36809,7 +36814,7 @@ ComparisonBasis: <corpus, baseline, reference state, or declared comparison set>
 ScopeAndWindow: <scope ref and qualification interval, when used>
 IntendedUse: <claim, comparison, admission, or aggregation use>
 characteristics:
-  - <CharacteristicName> : <Scale; Unit when applicable>  [Polarity: up|down|target-range|none]
+  - <CharacteristicName> : <Scale; Unit when applicable>  [Polarity, when used: <preference rule>]
 Chart:
   reference_state: <text>
   coordinate_patch: <domain/subset>
@@ -36826,23 +36831,24 @@ Indicators (optional):
   resulting_indicators: [<IndicatorId>… ] // selection is policy‑defined; NCVs alone do not make an Indicator (see A.19.UINDM)
 Comparability:
   mode: coordinatewise | normalization-based
-  minimal_evidence: <what must be observed to compare>  # admissibility/evidence gate surface (see G.0 and C.16)
+  minimal_evidence: <basis required for this comparison>  # admission conditions under G.0; measurement/evidence backing under C.16
 Aggregation (when used):
   fold: <Γ_fold expr>   time_policy: <window, statistic>
   WLNK/COMM/LOC/MONO: <only selected property claims, with their model and applicability basis>
 Acceptance:
   checklist: [<observable criterion>… ]
   window?: <qualification interval when required>
-  evidence_anchors: [<Observation/Evaluation ids>… ]
+  evidence_anchors: [<required observation, evaluation or other support refs>… ]
 Alignment (optional):
-  bridges: [<BridgeId, CL, kept/lost characteristics, extra guards>… ]
+  semantic_uses: [<obtaining Bridge, separate use claim, required reliance, kept/lost distinctions, applicable guards, optional CL>… ]
+  plane_relations: [<applicable plane relation>… ]
 MaintenanceAndDeprecation (for a maintained edition):
-  source_maintenance_role_assignment: <RoleAssignmentRef>
-  DRR_links: [<DRR ids>… ]
+  responsibility: <responsible holder or maintenance arrangement>
+  DRR_links?: [<DRR ids for decisions that need them>… ]
   deprecation_plan: <short note>
 ```
 
-**Implementation note (non‑normative): conceptual audit fields.** (For implementation completeness only; not part of the CN‑Spec normative surface.) The goal is *auditability*: any implementation should be able to cite the relevant refs (CN‑Spec edition, evidence anchors, UNM instance refs, Bridge ids) when producing a `StateAssertion`. The normative semantics of normalization and evidence/backing are governed by the corresponding mechanism and evidence patterns (e.g., A.19.UNM and C.16). A.19.CN does not prescribe storage formats.
+
 
 ### A.19.CN:14 - SoTA-Echoing — enough basis to compare coordinate values
 
@@ -36861,7 +36867,7 @@ Reopen when a proposed comparison changes the property, value-producing rule, re
 ### A.19.CN:Close - Closing perspective
 
 
-A CN-Spec keeps the comparison basis with the readings. Reuse it while that basis remains sufficient; revise it and the dependent conclusions when the Characteristic, chart, normalization or intended use changes. A registry supports maintained editions, and cross-local reuse keeps its exact relation and separate use claim recoverable.
+A CN-Spec keeps the comparison basis with the readings. Reuse it while that basis remains sufficient; revise it and the dependent conclusions when the Characteristic, chart, normalization or intended use changes. A registry supports maintained editions. Cross-local reuse retains the coordinate mapping, semantic relation or plane relation it actually needs, with any separate bounded-use claim and required reliance.
 
 ### A.19.CN:End
 
@@ -36929,7 +36935,7 @@ Use `CHRMechanismSuiteSlotFillingsPlanItem` under A.15.3 only when a selected op
 
 #### A.19.CHR:4.2 - Canonical mechanism membership
 
-**Tell.** Select one exact A.6.1 declaration contract for each of the following six CHR roles. The resulting `mechanisms` set contains six distinct declaration epistemes, not implementations or unqualified operation-family names:
+Select one exact A.6.1 declaration contract for each of the following six CHR roles. The resulting `mechanisms` set contains six distinct declaration epistemes, not implementations or unqualified operation-family names:
 
 1. `UNM` — Unified Normalization Mechanism
 2. `UINDM` — Unified Indicatorization Mechanism
@@ -36938,7 +36944,7 @@ Use `CHRMechanismSuiteSlotFillingsPlanItem` under A.15.3 only when a selected op
 5. `CPM` — Unified Comparison Mechanism
 6. `SelectorMechanism` — universal set‑returning selection kernel
 
-**Show.**
+
 
 ```
 CHRMechanismSuiteDescription.mechanisms :=
@@ -36957,7 +36963,7 @@ CHRMechanismSuiteDescription.mechanisms :=
 
 ##### A.19.CHR:4.2.1 - CHR SlotKind Lexicon (suite‑wide minimum)
 
-**Tell.** To prevent SlotKind drift across the CHR mechanism chain and across SoTA wiring modules, CHR mechanism declarations SHOULD use the SlotKind tokens from this lexicon whenever they refer to the corresponding semantic roles. New SlotKinds MAY be introduced, but only by first extending this lexicon (suite‑governed), then citing the new SlotKind from the affected mechanism card.
+To prevent SlotKind drift across the CHR mechanism chain and across SoTA wiring modules, CHR mechanism declarations SHOULD use the SlotKind tokens from this lexicon whenever they refer to the corresponding semantic roles. New SlotKinds MAY be introduced, but only by first extending this lexicon (suite‑governed), then citing the new SlotKind from the affected mechanism card.
 
 **Lexicon (minimum).** Tokens below are **SlotKind** names (not types). Concrete meanings, `ValueKind` / reference designation and binding rules come from the governing A.6.1 operation-local declarations; A.19 and G.0 constrain their domain use. A.6.5 relation SlotSpecs are not the source of these operation positions.
 
@@ -37002,7 +37008,7 @@ CHRMechanismSuiteDescription.mechanisms :=
 
 ##### A.19.CHR:4.2.2 - Canonical Intension targets (no dangling refs)
 
-**Tell.** Each `…IntensionRef` resolves through its governing pattern below to one exact A.6.1 declaration edition. These targets locate the declaration; the selected suite/WorkPlan baseline supplies edition resolution for use. A draft stub can locate unfinished work but cannot resolve an operation contract it does not declare.
+Each `…IntensionRef` resolves through its governing pattern below to one exact A.6.1 declaration edition. These targets locate the declaration; the selected suite/WorkPlan baseline supplies edition resolution for use. A draft stub can locate unfinished work but cannot resolve an operation contract it does not declare.
 
 **Canonical targets (normative anchors).**
 
@@ -37039,7 +37045,7 @@ CHRMechanismSuiteDescription.mechanisms :=
 * **`semantic_correspondence_requirements`:** for a semantic correspondence between different local interpretation bases, recover the exact F.17 endpoint cells, the obtaining F.9 Bridge, and the bounded-use/reliance basis required for this use.
 * **`independent_correspondence_requirements`:** a C.3.3 kind correspondence retains its own endpoints, obtaining and receiving-use conditions. If an F.9 correspondence is also used, establish it independently. EntityOfConcern change alone supplies neither relation. Plane-only claims stay under their direct governor.
 * **`transport_declarative_only`:** the suite does not embed CL/Φ/Ψ/Φ_plane conversion or penalty tables. It states the refs, pins and anchors consumed by its obligation; applicable rules and E.18 crossings or gate decisions remain with their owners. Distinct directly governed relation kinds may participate in the selected structure. A graph label or suite obligation supplies neither an obtaining relation nor a hidden conversion, penalty or gate decision.
-* **`penalties_route_to_r_eff_only`:** CL/Φ/Ψ/Φ_plane penalties route to `R/R_eff` only; `F/G` are invariant under penalty routing.
+* **`penalties_route_to_r_eff_only`:** apply the model-bound condition in A.6.7:4.2(2). Its applicability and result meaning come from the selected assurance model; the same clause governs loss assessment and separation from legality, invariant and claim-scope judgments.
 * **`crossing_visibility_required`:** an actual E.18 crossing in an independently selected TransformationFlowStructure retains any CrossingBundle required for a named downstream use of durable crossing evidence under E.18:5.1; an A.21 work-entry gate retains its applicable gate anchors. A changed edition pin triggers the recheck required by its receiving use, but does not itself create a crossing, Bridge or gate.
 
 ##### A.19.CHR:4.3.2 - Guards and gate separation
@@ -37104,7 +37110,7 @@ The existing claim identifiers resolve to the rules below. The rules are stated 
    * `editions{CG‑Spec, ComparatorSet, UNM.TransportRegistryΦ, …}` when the chosen protocol path is edition‑sensitive,
    * policy‑id pins for Φ/Ψ/Φ_plane when crossings are expected.
 
-**Tell (discipline).** Spec pins are **anchors**; they do not embed tables (CL ladders, Φ registries) and do not introduce transport edges.
+Spec pins are **anchors**; they do not embed tables (CL ladders, Φ registries) and do not introduce transport edges.
 
 #### A.19.CHR:4.5 - Suite protocols
 
@@ -37125,7 +37131,7 @@ The declaration-local bindings for the canonical stages are:
 
 Resolve each cited edition before applying these bindings; a changed designator or contract requires a revised binding. A list of source pins alone selects no operation. If two editions remain eligible, the suite baseline must state the condition that selects one, or stop that dependent step with the unresolved choice.
 
-**Show (canonical suite-closed protocol).**
+**Canonical suite-closed protocol.**
 
 ```
 normalize (UNM) →
@@ -37136,7 +37142,7 @@ compare (CPM) →
 select (SelectorMechanism)
 ```
 
-**Tell.**
+
 
 * The `fold_Γ` step is optional (explicitly optional, not implicit inside `score/compare/select`).
 * `suite_protocols` encodes a pipeline/Uses contour between mechanisms; it does **not** define a specialisation relation (`⊑/⊑⁺`). A claimed refinement, conservative extension or equivalence uses its own `A.6.1 §4.8` content-preservation test, exact predicate and endpoint facts, including the applicable A.6.RCD missing-governor/substrate branch. Project extensions retain their independently declared restrictions; a pipeline order or ⊑/⊑⁺ label establishes no such comparison.
@@ -37152,7 +37158,7 @@ When a downstream claim needs a typed planned filling, apply §4.1.2 and A.15.3 
 
 ##### A.19.CHR:4.7.1 - `CHRMechanismSuiteDescription` as a concrete `MechSuiteDescription`
 
-**Show (canonical skeleton; refs only).**
+**Canonical skeleton (references only).**
 
 ```
 CHRMechanismSuiteDescription := ⟨
@@ -37254,21 +37260,21 @@ For an Archive-mode use, retain the selected set under the explicitly selected s
 
 ### A.19.CHR:5 - Archetypal Grounding
 
-#### A.19.CHR:5.1 - `U.System` vignette (Tell–Show–Show)
+#### A.19.CHR:5.1 - `U.System` vignette
 
-**Tell.** A system-level decision must select a declared set of options when measurable evidence comes from multiple slices (test rigs, simulations, field trials). Measurements are multi-scale and not always comparable without explicit normalization, and some evidence is missing or stale. The team needs lawful comparison and selection without forcing a single scalar “fitness”.
+A system-level decision must select a declared set of options when measurable evidence comes from multiple slices (test rigs, simulations, field trials). Measurements are multi-scale and not always comparable without explicit normalization, and some evidence is missing or stale. The team needs lawful comparison and selection without forcing a single scalar “fitness”.
 
-**Show.** Use the filled reference selection in §4.8.1 as the baseline: exact contracts, scales, methods, time rule and policies yield a retained set of two offers. When the inputs instead come from tests or field trials, replace the stipulated case evidence with the evidence required by the actual CN-Spec/CG-Spec; incomplete evidence follows the declared failure rule. A claimed dated Work and any launch witness require their independent enactment basis. Any actual semantic/kind/plane relation or flow/gate crossing retains its own required anchors.
+Use the filled reference selection in §4.8.1 as the baseline: exact contracts, scales, methods, time rule and policies yield a retained set of two offers. When the inputs instead come from tests or field trials, replace the stipulated case evidence with the evidence required by the actual CN-Spec/CG-Spec; incomplete evidence follows the declared failure rule. A claimed dated Work and any launch witness require their independent enactment basis. Any actual semantic/kind/plane relation or flow/gate crossing retains its own required anchors.
 
-**Show.** If the team instead embeds normalization inside scoring (“we always normalize to [0,1]”) or collapses a partial order into a single weighted sum, the suite protocol explicitness and “no silent scalarization/totalization” obligations make the violation legible at review time, and the planned baseline cannot honestly pin the missing UNM/ULSAM steps.
+If a required UNM operation is hidden inside scoring, or an undeclared weighted sum replaces the selected partial-order comparison, the protocol no longer identifies the operations and comparison rule actually used. Make each required operation explicit and select a lawful scoring or comparison rule. Keep `Fold_Γ` optional unless the chosen method uses it.
 
-#### A.19.CHR:5.2 - `U.Episteme` vignette (Tell–Show–Show)
+#### A.19.CHR:5.2 - `U.Episteme` vignette
 
-**Tell.** A research episteme compares methodological claims across traditions where some evaluation scales are ordinal (rank-based) and others are interval or ratio. The group wants to select a method family for a task while keeping uncertainty explicit and avoiding illicit aggregation (e.g., averaging ranks).
+A research episteme compares methodological claims across traditions where some evaluation scales are ordinal (rank-based) and others are interval or ratio. The group wants to select a method family for a task while keeping uncertainty explicit and avoiding illicit aggregation (e.g., averaging ranks).
 
-**Show.** The comparison cites `CNSpecRef` (comparability mode and indicator policy) and `CGSpecRef` (SCP, ComparatorSet, MinimalEvidence and Γ_fold when used). On a P2W path these references belong to the planned baseline. The application uses the selected `UINDM` operation to choose indicators, `USCM` to compute scale-lawful scores, `ULSAM` only for a selected fold, and `CPM` to preserve the comparison distinctions. The selector returns a selected set rather than forcing a single winner.
+The comparison cites `CNSpecRef` (comparability mode and indicator policy) and `CGSpecRef` (SCP, ComparatorSet, MinimalEvidence and Γ_fold when used). On a P2W path these references belong to the planned baseline. The application uses the selected `UINDM` operation to choose indicators, `USCM` to compute scale-lawful scores, `ULSAM` only for a selected fold, and `CPM` to preserve the comparison distinctions. The selector returns a selected set rather than forcing a single winner.
 
-**Show.** If a draft evaluation writes “take the mean rank and pick the minimum”, replace that step with a scale-lawful comparator declared in CG-Spec. For report-only telemetry, retain the rank distribution or another summary justified by the declared ordinal scale, such as a median when applicable. An arithmetic mean requires a separately justified quantitative model; calling it telemetry does not make ordinal averaging lawful.
+If a draft evaluation writes “take the mean rank and pick the minimum”, replace that step with a scale-lawful comparator declared in CG-Spec. For report-only telemetry, retain the rank distribution or another summary justified by the declared ordinal scale, such as a median when applicable. An arithmetic mean requires a separately justified quantitative model; calling it telemetry does not make ordinal averaging lawful.
 
 ### A.19.CHR:6 - Bias-Annotation
 
@@ -37389,11 +37395,11 @@ If a face publishes an edition reference, retain that exact reference. For a com
 
 ### A.19.CHR:10 - Rationale
 
-This pattern deliberately fixes the CHR core as a **description object** rather than a new “meta-mechanism” so that:
+The suite description records membership and shared conditions, while each member declaration supplies its own operation contract. This arrangement has four consequences:
 
-1. **Level separation stays clean.** The suite is a D-episteme that enumerates mechanisms and obligations; the mechanisms remain A.6.1 declaration epistemes with their own arguments, results, laws and admission conditions. This prevents a “god object” that re-implements A.6.1 inside a new container.
+1. **Member contracts remain distinct.** The suite is a D-episteme that enumerates mechanisms and obligations. Each A.6.1 member declaration retains its arguments, results, laws and admission conditions.
 
-2. **Spec refs remain centralized.** CN-Spec and CG-Spec state the applicable comparison, normalization, indicator-choice and numeric-admission conditions. The suite requires those specs as pins and forbids duplicating them, making “one center of gravity” operational rather than rhetorical.
+2. **Spec refs remain centralized.** CN-Spec and CG-Spec state the applicable comparison, normalization, indicator-choice and numeric-admission conditions. The suite cites those specifications without copying their content.
 
 3. **P2W integration becomes explicit without turning planning into execution.** Ordinary A.15.2 content records the edition/reference baseline. Typed A.15.3 filling is needed only for an independently declared position; only enactment supplies actual bindings and launch witnesses.
 
@@ -37450,16 +37456,16 @@ The two primary specifications are source models and a serious comparator; the c
 **For a claimed normalization, recover:**
 1) Which **`UNM_id`** (if applicable) and which **`NormalizationMethodInstanceId`** (and its validity window) was used?
 2) Which **`NormalizationInvariant[*]`** were declared (i.e., *what is preserved*)?
-3) Which **bearer, scope/window, reference or comparison basis, evidence, and intended comparison** were recorded, and does this use actually rely on an F.9 Bridge, kind relation, or plane relation?
+3) Which **bearer, reference or comparison basis, evidence and intended use** qualify the value, including any applicable scope or data window? Does the receiving use rely on an obtaining F.9 Bridge, kind relation or plane relation?
 
 **Mental model.** UNM applies a declared directed transformation from an input coordinate value (`CV`) to an output (`NCV`). State its domain, target and preserved or lost distinctions. An inverse, an equality-of-output class or an operation on those classes is a narrower result requiring its own conditions.
 
-### A.19.UNM:0 - At a glance — didactic, informative
+### A.19.UNM:0 - At a glance — informative
 
-**Intent.** Provide a single, explicit normalization mechanism for **coordinate values** in a `DeclaredCharacteristicSpace`, so that **comparability** and downstream characterization steps can be stated as “**normalize-then-compare**” (governance), rather than as hidden arithmetic inside scoring/selection.
+**Intent.** Declare how coordinate values in a `DeclaredCharacteristicSpace` are normalized for a chosen comparison or characterization, including the transformation, admissibility conditions and preserved or lost distinctions.
 
 **Where it sits.**
-- **CN-frame governance card:** `CN_Spec.normalization` + `CN_Spec.comparability.mode` route whether comparison is `coordinatewise` or `normalization-based`.
+- **CN-Spec:** `normalization` and `comparability.mode` select the normalization and whether comparison is `coordinatewise` or `normalization-based`.
 - **CHR suite role:** stage `normalize` (first-stage, when enabled by the suite protocol / comparability routing).
 
 **Key outputs.**
@@ -37467,40 +37473,40 @@ The two primary specifications are source models and a serious comparator; the c
 - When requested for a function `n:D→N`, the equality-of-output relation `x ≡_UNM y` iff `n(x)=n(y)` on its actual domain D. Its classes form a set quotient; preserving further operations or answers needs the additional tests below.
 - An inverse only on the stated image of an invertible transformation; an operational quotient only for compatible operations and recoverable queries; a `NormalizationFixSpec` only when a representative of an established class is needed.
 
-**Two IDs (do not conflate).**
+**Declaration and configured-method identifiers.**
 - `UNM_id?` identifies the selected UNM declaration episteme and its edition under A.6.1; it is distinct from the configured method and from an operation application.
 - `NormalizationMethodInstanceId` selects the **normalization method instance** applied to specific coordinate(s), with its validity window and evidence pins (configured-method level).
 
-**Minimum declaration set (didactic).**
+**Minimum declaration set.**
 - In `CN_Spec.comparability`: set `mode`, and (when UNM participates in acceptance/comparison) set `minimal_evidence`.
 - In `CN_Spec.normalization`: declare `UNM_id?`, `methods`, `instances`, `method_descriptions`, `invariants`, and (if representatives are required) `fix`.
-- In Audit: cite the chosen `NormalizationMethodInstanceId`, `NormalizationMethodDescriptionRef.edition`, characteristic space, its separately referenced description episteme and the CN-Spec edition, bearer, scope/window, reference or comparison basis, invariants, evidence, and intended comparison. Cite a Bridge, kind relation, or plane relation only when the result or receiving use actually relies on it.
+- For the actual normalization or eligibility evaluation, recover the available inputs, selected method and specification editions, preservation conditions and result or reason for abstaining under Audit below. Retain a separate record when the receiving use requires one.
 
 **Non-goals.**
 - Not indicator selection (that is **UINDM**).
 - Not scoring, aggregation, comparison, selection (USCM / ULSAM / CPM / SelectorMechanism).
-- Not a data governance system: UNM is a concept-level mechanism with an explicit governing pattern and auditability.
+
 
 ### A.19.UNM:1 - Problem frame
 
-FPF needs a disciplined way to talk about **measurable slots** (coordinates/scales) such that engineers can reason about:
+To compare coordinate values, engineers need to establish:
 - **What it means** to compare values across charts, slices, bearers, or reference bases, and
-- **Where the “meaning-preserving” transformations live**, so comparisons are lawful and explainable.
+- **Which transformations preserve the required distinctions**, with their conditions and losses.
 
 In practice, teams routinely face a mismatch between:
 - values that look comparable (“they’re numbers”), and
 - values whose comparison basis differs, such as units, observation populations or validity windows. A supported normalization may make the needed values comparable; some differences instead require new measurements or evaluation grounds, a different comparison, or an unresolved result.
 
-FPF’s CHR family explicitly separates stages (normalize → indicatorize → score → fold → compare → select). UNM is the *normalization* stage, and its job is to make “compare-on-invariants” explicit and auditable.
+CHR distinguishes normalization, indicatorization, scoring, aggregation, comparison and selection. The chosen protocol determines which stages are needed; UNM supplies normalization when that comparison or characterization requires it.
 
 ### A.19.UNM:2 - Problem
 
-Without an explicit UNM governing pattern:
+Hidden or inadequately specified normalization causes four recurring difficulties:
 
 1) **Normalization drifts into hidden places.** It gets embedded inside scoring, comparison, or selection, making admissibility and governance non-local.
 
 2) **Comparability becomes rhetorical.** People say “we normalize” but cannot answer:
-   *Which method? Which invariants? Which bearer, comparison basis, scope and window? Which evidence? Does the receiving comparison rely on an actual Bridge, kind relation, or plane relation?*
+   *Which method and invariants? Which bearer, comparison basis and applicable scope or window? Which evidence? Does the receiving comparison rely on an obtaining Bridge, kind relation or plane relation?*
 
 3) **Basis and relation changes become invisible.** Teams reuse normalizations for another bearer, comparison basis, source-local meaning, or reference plane without naming what changed or the relation on which the new use depends.
 
@@ -37510,11 +37516,11 @@ Without an explicit UNM governing pattern:
 
 | Force | Tension |
 |---|---|
-| **Evolvability vs Usability** | Stable mechanism surface ↔ method families evolve; single place to read ↔ modular wiring. |
+| **Evolvability vs Usability** | A stable operation contract supports evolving method families; readers still need to find the selected method and its conditions. |
 | **Semantic precision vs Cognitive load** | Formal invariants/quotients ↔ a mechanism description that engineers can act on. |
-| **Governing-pattern discipline vs Cross-cutting reality** | UNM touches CN, CG, transport, and plane claims ↔ avoid “shadow specs” and duplicate centers of gravity. |
-| **Trustworthiness vs Overreach** | “Normalization is legitimate” must be evidence-backed ↔ UNM must not pretend to define measurement meaning itself. |
-| **Locality vs Reuse** | A normalized value is valid for a declared bearer, basis, scope, window, and use ↔ a later use may need a separately supported relation or a new normalization. |
+| **Shared definitions vs Connected use** | UNM uses CN-Spec, CG-Spec and any required relation claims; each retains its own governing definition. |
+| **Trustworthiness vs Overreach** | Evidence must support the normalization used; measurement meaning and calibration retain their own grounds. |
+| **Locality vs Reuse** | A normalized value retains its declared bearer, basis, applicable scope/window and use; a later use may require another relation or normalization. |
 | **Fail-closed safety vs Convenience** | Unknown/insufficient evidence must not coerce ↔ teams want “a number anyway”. |
 
 ### A.19.UNM:4 - Solution
@@ -37524,7 +37530,7 @@ UNM declares directed normalization operations. For an admitted input in the sel
 Select the configured method and apply the declaration below:
 - **Routing** lives in `CN_Spec.normalization` and `CN_Spec.comparability.mode`.
 - **Evidence/calibration legitimacy** lives in `C.16 (MM‑CHR)`.
-- **Method families** can be supplied by SoTA packs and wired via extensions, without mutating UNM’s surface.
+- **Method definitions** come from the selected normalization methods and their descriptions. G.2 can supply method families; extensions identify the methods and references used.
 
 #### A.19.UNM:4.0 - Vocabulary (normative)
 
@@ -37533,7 +37539,7 @@ Select the configured method and apply the declaration below:
 **NormalizationMethod.** The method *kind* (class) that defines:
 1) its input/output domains, the directed transformation and the **invariants** it preserves (`NormalizationInvariant[*]`), with any distinctions it loses,
 2) its **closure rules** (composition, and inverses where defined), and
-3) its **validity rules** (admitted bearer, scope, qualification window, reference or comparison basis, and intended-use constraints).
+3) its **validity rules** (admitted bearer, reference or comparison basis, intended use, and any scope or qualification window that constrains them).
 
 **NormalizationMethodDescription.** An editioned epistemic description of a normalization method (bounds, validity region/window, scope constraints, and evidence links governed by `C.16`). For an A.3.2 `U.MethodDescription` claim, its exact EntityOfConcern must be an independently admitted A.3.1 Method and its content must make a substantive claim about that Method as a way of doing.
 **NormalizationMethodDescriptionRef.** A ref to an editioned `NormalizationMethodDescription`, used in `CN_Spec.normalization.method_descriptions`.
@@ -37560,7 +37566,7 @@ Select the configured method and apply the declaration below:
 **UNM_id.** An optional identifier in `CN_Spec.normalization.UNM_id?` selecting the UNM declaration episteme used by this CN-frame. Resolve its edition; it is distinct from `NormalizationMethodInstanceId` (configured normalization method).
 **ValidityWindow.** A named validity window attached to a `NormalizationMethodInstanceId`, bounding where/when the instance is admissible (no implicit “latest”).
 
-**Relation and reuse boundary.** A normalized value remains tied to the exact normalization-method instance and edition, characteristic space, its separately referenced description episteme and the CN-Spec edition, bearer, scope and window, reference or comparison basis, evidence, and intended comparison. Reusing it does not by itself establish a transfer relation. Cite an F.9 Bridge or a plane relation only when that relation actually obtains, and state the receiving use separately.
+**Relation and reuse boundary.** A normalized value remains tied to the selected normalization-method instance and edition, characteristic space, its separately referenced description episteme, CN-Spec edition, bearer, reference or comparison basis, evidence and intended use. Retain any scope, slices or data window that qualify that use, as well as the configured method's declared validity window. Reuse does not establish a transfer relation. Cite an obtaining F.9 Bridge or plane relation when needed, and assess the receiving use separately.
 **Lexical discipline.** Name a UNM operation as normalization, re-parameterization or a coordinate mapping under its declared invariants. Use a specialized FPF `Map` designation only when its defining conditions apply; an ordinary mathematical mapping does not thereby assert that specialized kind or an F.9 Bridge.
 Legacy κ‑notation for normalization is retired; do not re‑introduce it.
 
@@ -37570,7 +37576,7 @@ Legacy κ‑notation for normalization is retired; do not re‑introduce it.
 
 A different realizer of the same declaration changes no suite member. A corrected layout or citation can preserve its C.2.1 identity. A changed argument, law or guard changes the declaration contract and must be selected explicitly in the suite and protocol. For example, replacing `pass|degrade` admission with `pass` only would change whether `apply` may produce an NCV for degraded evidence; that hypothetical revision cannot enter through the unqualified name UNM. Whether two declarations concern the same operation family is a separate claim requiring that subject's direct kind and identity rule; the UNM label supplies neither.
 
-**Scope note.** This operation declaration uses the `U.Mechanism` content rules governed by `A.6.1`. It defines only UNM’s stable *semantic surface*. It does **not** bind project pins (editions/policy‑ids), which belong to the selected use baseline, with A.15.2 on a P2W path and A.15.3 typed filling only for independently declared positions under A.19.CHR, and it does **not** emit `GateDecision`/`GateLog`. It may emit tri‑state `GuardDecision` and Audit pins.
+**Scope note.** A.6.1 governs this operation declaration. The selected use baseline supplies the project editions and policy references; A.15.2 governs a P2W baseline, and A.15.3 typed filling applies only to independently declared positions. UNM returns the declared operation results and tri-state `GuardDecision`; gate decisions remain with their governing pattern. Audit below states the information needed to recover an actual application.
 
 **IntensionHeader**
 - `IntensionId`: `UNM`
@@ -37593,7 +37599,7 @@ A different realizer of the same declaration changes no suite member. A correcte
 **SubjectBlock**
 - `SubjectKind`: declared normalization methods, with their actual domains, output kinds and preserved/lost distinctions; functional methods may additionally supply `≡_UNM` over their admitted inputs
 - `RangedValueKind`: coordinate values (`CV`) for named measurable slots in the resolved `DeclaredCharacteristicSpace`, with `characteristicSpaceDescriptionRef` and the CN-Spec edition pinned; UNM normalizes **values**, not characteristics
-- `BearerAndUseBoundary`: the exact bearer, scope and window, reference or comparison basis, evidence, and intended comparison declared for those values
+- `BearerAndUseBoundary`: the exact bearer, reference or comparison basis, evidence and intended use, with any scope, slices or data window that qualify those values
 - Input qualification: coordinate values admitted by the selected CN-Spec for this bearer and use, within the configured method's declared validity window. This is not an operation-application extent or an A.6.1 slice-membership `ExtentRule`.
 - `ResultKinds`:
   - `NormalizedCharacteristicValue (NCV)`
@@ -37611,7 +37617,7 @@ The names below are declaration-local designators. `ByValue` carries the stated 
 | apply / UNM_Eligibility argument | NormalizationMethodInstanceSlot | Configured normalization method selected for the value; NormalizationMethodInstanceId | ByValue; 1 for apply, 0..1 for eligibility |
 | apply / UNM_Eligibility argument | CoordinateValueSlot | Coordinate value to transform or assess; CV in the named chart | ByValue; 1 for apply, 0..1 for eligibility |
 | apply / UNM_Eligibility / compose argument | CharacteristicSpaceSlot | Space that supplies the coordinate meanings and Scales; DeclaredCharacteristicSpace | CharacteristicSpaceRef; 1, or 0..1 for eligibility |
-| apply / UNM_Eligibility / compose argument | CNSpecSlot | CN-Spec used for the bearer, scope/slices, qualification window, basis, evidence requirements and intended comparison | CNSpecRef; 1, or 0..1 for eligibility |
+| apply / UNM_Eligibility / compose argument | CNSpecSlot | CN-Spec used for the bearer, basis, evidence requirements and intended comparison, including any applicable scope, slices or qualification window | CNSpecRef; 1, or 0..1 for eligibility |
 | apply result | NCVSlot | Transformed value returned under the selected method's domain and preservation/loss basis; NCV | ByValue; 1 on successful return, 0 without a defined/admitted result |
 | UNM_Eligibility result | GuardDecision | Eligibility judgment under the predicates below; pass, degrade or abstain | ByValue; 1 on completed evaluation |
 | compose argument | NormalizationMethodInstancePairSlot | Ordered pair of configured methods, first inner and second outer; NormalizationMethodInstanceId[2] | ByValue; 1 pair |
@@ -37632,12 +37638,12 @@ For each result row, its **bindingPredicate** obtains exactly when that applicat
 **OperationAlgebra**
 1) `apply`
    - Preconditions: `UNM_Eligibility(…) ∈ {pass, degrade}` (fail‑closed; `abstain` ⇒ no NCV output).
-   - Inputs: `NormalizationMethodInstanceSlot`, `CoordinateValueSlot`, `CharacteristicSpaceSlot`, `CNSpecSlot`; the selected CN-Spec supplies the exact bearer, scope/window, basis, evidence requirements, and intended comparison.
+   - Inputs: `NormalizationMethodInstanceSlot`, `CoordinateValueSlot`, `CharacteristicSpaceSlot`, `CNSpecSlot`; the selected CN-Spec supplies the exact bearer, basis, evidence requirements, intended comparison and applicable scope or data window.
    - Outputs: `NCVSlot` for an input in the selected transformation's actual domain, with the declared preservation/loss basis. Undefined inputs produce no NCV; an eligibility result cannot create a transformation value. The optional class/operation results follow their separate conditions below.
 
 2) `compose`
    - Purpose: build a composed method when the inner outputs lie in the outer operation's actual domain and the claimed preservation laws compose. Losses and receiving-use restrictions remain explicit.
-   - Inputs: `NormalizationMethodInstancePairSlot` (roles = {inner, outer}), `CharacteristicSpaceSlot`, `CNSpecSlot`; both instances must be admitted for the same declared bearer, scope/window, basis, and intended use.
+   - Inputs: `NormalizationMethodInstancePairSlot` (roles = {inner, outer}), `CharacteristicSpaceSlot`, `CNSpecSlot`; both instances must be admitted for the same declared bearer, basis, intended use and any applicable scope/window.
    - Output: `NormalizationMethodInstanceSlot` (new composed `NormalizationMethodInstanceId`), with an explicit validity window and evidence pins.
 
 3) `quotient(≡_UNM)` (optional)
@@ -37666,22 +37672,22 @@ For example, with fixed method `n(x)=x/10`, domain [0,100] and the same CN-Spec,
 - **UNM‑L1 (Declared method class gate).** A normalization method instance is admissible only if its method is declared in the allowed method class set: `{ratio:scale, interval:affine, ordinal:monotone, nominal:categorical, tabular:LUT(+uncertainty)}`.
 - **UNM‑L1a (Method semantics are governed by the method).** `NormalizationMethod` defines invariants, closure (composition / inverses where defined), and validity rules. UNM consumes these declarations; it does not invent extra admissibility.
 - **UNM-L2 (Directed result before narrower claims).** Return the defined transformed value with its domain and preserved/lost distinctions. Functional equality of outputs forms equivalence classes on that domain. A receiving operation descends only after compatibility and, for a partial operation, representative-independent availability hold. A query descends only when constant on the classes; otherwise retain/refine the input or return the missing distinction.
-- **UNM-L2a (Declared-basis locality).** Every transformed value, function-kernel equivalence and stronger operation/query claim retains the selected method, actual domain, characteristic space, its separately referenced description episteme and the CN-Spec edition, bearer, scope/window and comparison basis. Reusing an unchanged equivalence for a new query does not make that query recoverable; assess its own constancy/compatibility and the receiving-use conditions.
+- **UNM-L2a (Declared-basis locality).** Every transformed value, function-kernel equivalence and stronger operation/query claim retains the selected method, actual domain, characteristic space, its separately referenced description episteme, CN-Spec edition, bearer and comparison basis. Keep the applicable scope and data window and the method's declared validity window. Reusing an unchanged equivalence for a new query does not make that query recoverable; assess its own constancy/compatibility and the receiving-use conditions.
 - **UNM‑L3 (Fail‑closed).** If admissibility/evidence is insufficient (or required inputs are missing/stale), UNM does not silently coerce; it yields `abstain` or `degrade` (tri‑state guard discipline) and may surface an explicit freshness/work request (see A.19.UNM:4.5).
   *Didactic reading:* `abstain` ⇒ no admitted NCV from this proposed application, so a comparison depending on that output cannot proceed on this basis; `degrade` ⇒ NCV may be produced but must be treated as policy‑gated and auditable (never “quietly good enough”).
 - **UNM‑L4 (No implicit indicatorization).** `NCV` does not imply “indicator”; indicator status is a separate policy step (UINDM).
-- **UNM-L5 (Relation before reuse).** When a receiving comparison depends on an F.9 Bridge, kind relation, or plane relation, cite the exact obtaining relation, its direction, what it preserves or loses, and the receiving use. A change of bearer, scope, corpus, scale, method, or window is not by itself such a relation. Supported penalties route to the **R-lane only** (never to F/G; if scalarized, into `R_eff`).
+- **UNM-L5 (Relation before reuse).** When a receiving comparison depends on an F.9 Bridge, kind relation or plane relation, establish that relation under its own rule and separately assess the receiving use. For an F.9 use, retain its direction, correspondence rule, loss tolerance and required reliance disposition. A change of bearer, scope, corpus, scale, method or window does not itself establish a relation. Assess losses under the receiving rule; a numerical assurance penalty requires an applicable domain model under B.3.
 - **UNM‑L6 (Time explicitness).** Validity windows are named; no implicit “latest”.
-- **UNM‑L7 (Auditability).** The applied method and CN-Spec editions, normalized values, bearer, scope and window, comparison basis, evidence pins, intended comparison, and any actually relied-on Bridge, kind relation, or plane relation must be auditable as refs or pins.
-- **UNM-L8 (No shadow writers).** Downstream patterns cite the exact method, CN-Spec, basis, and evidence editions they use; they do not re-author those anchors or make a registry substitute for them.
-- **UNM‑L9 (No publish/telemetry ops).** UNM defines no publish/telemetry step. Any publication/telemetry is out of suite closure and does not mutate UNM semantics (`NCV`, `≡_UNM`, quotient/fix); only Audit pins are produced here.
+- **UNM-L7 (Auditability).** The actual application's selected specifications, supplied inputs, method, conditions, evidence, returned result and any relied-on relation must be recoverable under Audit below. Missing inputs or unresolved references remain explicit when eligibility abstains.
+- **UNM-L8 (Source references).** Downstream uses cite the method, CN-Spec, basis and evidence editions on which they rely; a registry helps locate those sources but does not supply their content.
+- **UNM-L9 (Publication boundary).** Publication and telemetry remain outside these operation declarations; any published normalization result retains the meaning defined here. The Audit information is separately recoverable.
 
 **AdmissibilityConditions**
 Definition (UNM‑Eligibility):
 `UNM_Eligibility(NormalizationMethodInstanceSlot, CoordinateValueSlot, CharacteristicSpaceSlot, CNSpecSlot) → GuardDecision`
 where `GuardDecision ∈ {pass | degrade | abstain}` and follows this predicate semantics:
 - **pass** iff all of the following hold:
-  - (**CN-Spec binding**) the selected `NormalizationMethodInstanceId` is declared in `CN_Spec.normalization.instances` (or an equivalent declared surface), its method kind is included in `CN_Spec.normalization.methods`, and (if present) it satisfies `normalization.admissible_reparameterizations`; the exact characteristic space, its separately referenced description episteme and the CN-Spec edition, bearer, claim scope and selected slices, qualification window, reference or comparison basis, and intended comparison are recoverable;
+  - (**CN-Spec binding**) the selected `NormalizationMethodInstanceId` is declared in `CN_Spec.normalization.instances` (or an equivalent declaration), its method kind is included in `CN_Spec.normalization.methods`, and (if present) it satisfies `normalization.admissible_reparameterizations`; the exact characteristic space, its separately referenced description episteme, CN-Spec edition, bearer, reference or comparison basis and intended comparison are recoverable, together with any scope, selected slices or qualification window required by those declarations or that use;
   - (**Target coordinate binding**) the input `CV`’s `slot_id` belongs to the method instance’s declared bound coordinate set and its value lies in the selected transformation's actual input domain;
   - (**Scale‑regime compatibility**) the method kind is compatible with the coordinate’s regime (`ratio:scale | interval:affine | ordinal:monotone | nominal:categorical | tabular:LUT(+uncertainty)`) and preserves the declared `NormalizationInvariant[*]` (from `CN_Spec.normalization.invariants` and/or the method description);
   - (**Validity window**) the method instance’s validity window covers the active slice/time policy (no implicit “latest”);
@@ -37696,9 +37702,9 @@ UNM is applicable when:
 UNM is typically skipped when `comparability.mode = coordinatewise` (unless an explicit downstream step requires a declared quotient/fix anyway).
 
 **Relation and reuse boundary**
-- A normalized value remains local to the exact method instance and edition, characteristic space, its separately referenced description episteme and the CN-Spec edition, bearer, scope and window, reference or comparison basis, evidence, and intended comparison recorded for it.
+- A normalized value retains the method instance and edition, its declared validity window, characteristic space, separately referenced description episteme, CN-Spec edition, bearer, reference or comparison basis, evidence and intended comparison, with any applicable scope or data window.
 - If a receiving use depends on a relation between distinct source-local meanings, cite the exact F.9 Bridge, its direction, what it preserves or loses, and that receiving use. If reference planes differ and the comparison depends on their relation, cite the exact plane relation as a separate claim.
-- A changed bearer, scope, corpus, scale, method, or window does not by itself establish either relation. If the receiving use relies on a correspondence between bearer kinds, establish that kind relation separately; a changed bearer kind alone supplies no such relation. Any loss penalty remains on the R-lane and is used only when the corresponding relation claim supports it.
+- A changed bearer, scope, corpus, scale, method or window does not by itself establish either relation. A correspondence between bearer kinds has its own grounds. Retain the receiving-use rule and its loss limits; quantify an assurance effect only under an applicable B.3 domain model.
 **Γ_timePolicy**
 - Default: `point` (no implicit “latest”).
 - If normalization relies on time windows, the validity window is part of the method instance and must be declared.
@@ -37707,24 +37713,24 @@ UNM is typically skipped when `comparability.mode = coordinatewise` (unless an e
 - A normalized value keeps the reference plane declared for its input and intended comparison; normalization creates no implicit plane crossing.
 - When a comparison actually relies on a relation between different planes, cite that exact relation, its direction and loss, and keep its use separate from the normalization result.
 **Audit**
-Audit records MUST include:
-- `CNSpecRef.edition` + `comparability.mode`, the exact `CharacteristicSpaceRef`, the separate `characteristicSpaceDescriptionRef: U.EpistemeRef` pinned in CN-Spec, and the evaluated bearer
+Make the following information recoverable from the specifications, inputs, evidence and results actually used. Retain a separate record when the receiving use requires one. For an incomplete eligibility proposal, identify missing inputs or unresolved references and the resulting `abstain`; do not invent an `apply` occurrence or an NCV.
+- for a supplied and resolved CN-Spec, `CNSpecRef.edition` + `comparability.mode`, the exact `CharacteristicSpaceRef`, the separate `characteristicSpaceDescriptionRef: U.EpistemeRef` pinned there, and the evaluated bearer
 - (when present) `CN_Spec.normalization.UNM_id` (the selected UNM declaration identity for this CN-Spec)
-- chosen `NormalizationMethodInstanceId`, its validity window, and any `NormalizationMethodDescriptionRef.edition`
+- the selected `NormalizationMethodInstanceId`, when resolved, its validity window and any `NormalizationMethodDescriptionRef.edition`
 - declared `NormalizationInvariant[*]` and `NormalizationFixSpec` (if used)
 - any declared admissible re-parameterizations (if present in `CN_Spec.normalization`)
-- claim scope and selected slices, reference or comparison basis, intended comparison, and all evidence pins used by the instance
+- reference or comparison basis, intended comparison, all evidence pins used, and any claim scope, selected slices or data window that qualify this use
 - an exact F.9 Bridge, kind relation, or plane relation only when the recorded result or receiving use actually relies on it, including direction, preserved or lost meaning, and the receiving use
-- any emitted `FreshnessRequest` / work request identifiers (when applicable; see A.19.UNM:4.5)
+- the operation actually evaluated or applied, its returned value or absence of a result, and any emitted `FreshnessRequest` / work request identifiers (see §4.5)
 
 #### A.19.UNM:4.2 - CN-frame wiring: `normalization` and comparability routing (normative-by-reference)
 
-**Tell.** CN-frame does not “do normalization”; it **routes** normalization.
+CN-Spec selects normalization and the basis of comparison:
 - `comparability.mode ∈ {coordinatewise, normalization-based}` governs whether comparisons are done directly or “normalize-then-compare”.
 - `normalization.UNM_id?` selects the UNM declaration episteme and its edition for this CN-frame.
 - `normalization.methods / instances / method_descriptions / invariants / fix` provide the declared surface that UNM consumes.
 (If present) `normalization.admissible_reparameterizations` constrain which re‑parameterizations count as “admissible” under the declared invariants.
-(See CN-frame definition in `A.19.CN`; `A.19.CN` remains the governing pattern of the CN-frame surface. This section only states the UNM consumption/interpretation constraints and does not introduce a shadow spec.)
+A.19.CN defines these CN-Spec fields; this section states how UNM uses them.
 
 #### A.19.UNM:4.3 - Evidence and calibration are governed by MM‑CHR (normative-by-reference)
 
@@ -37741,36 +37747,36 @@ Form classes only when their set-level result is useful. For an operation on cla
 When UNM is used inside transformation-flow structures/graphs (e.g., `E.18`):
 - UNM occurs **before** selection/decision steps.
 - If required measurements are **missing or stale**, apply the declared `abstain` or `degrade` rule and state the gap. The receiving practitioner first checks whether an adequate current basis is already available and whether obtaining new evidence is worth doing. Any chosen acquisition is separately planned and performed under its applicable method; UNM itself neither obtains measurements nor mandates new Work.
-- A receiving step cites the exact normalized values, method and CN-Spec editions, bearer, scope/window, comparison basis, evidence and intended use. It cites a Bridge, kind relation or plane relation only when its conclusion actually relies on that obtaining relation and keeps any supported loss on the R-lane.
+- A receiving step cites the normalized values, method and CN-Spec editions, bearer, comparison basis, evidence, intended use and applicable scope/window. Establish any relation and its receiving-use conditions under UNM-L5; an assurance penalty follows the applicable B.3 domain model.
 - Downstream consumers cite editioned method, basis and evidence anchors as refs and do not re-author them.
 
-### A.19.UNM:5 - Archetypal Grounding (Tell–Show–Show)
+### A.19.UNM:5 - Archetypal Grounding
 
-**Tell.** Use the normalization declaration to re-express raw coordinate values with their preserved and lost distinctions:
+Use the normalization declaration to re-express coordinate values with their preserved and lost distinctions:
 1) Choose an admissible configured method with its evidence and validity window.
 2) Apply it to produce NCVs.
 3) Return an inverse, equivalence, class-level operation or query result only when its additional conditions hold for the receiving use.
 
-**Show (System).** A team compares alternatives using `normalization-based` comparability:
+**Normalization before comparison.** A team compares alternatives using `normalization-based` comparability:
 - CN-Spec declares:
   - `comparability.mode = normalization-based`
   - `normalization.invariants = {unit-alignment, polarity}`
   - a method instance `M_unitScale` with validity window `VW_2026Q1` and evidence pins.
 - UNM applies `M_unitScale` to each coordinate value, producing NCVs.
 - CPM compares the NCV-profiles (not raw profiles).
-- If evidence pins are missing for a slice, UNM returns `GuardDecision = abstain`, preventing “fake comparability”.
+- If required evidence pins are missing for a slice, UNM returns `GuardDecision = abstain`; this comparison cannot rely on a new admitted NCV.
 
-**Show (Episteme) — a many-to-one LUT.** Let D be `{0,1,2}` and `n(0)=0`, `n(1)=n(2)=1`. Applying n to 2 returns the transformed value 1. Equality of outputs partitions D into `{0}` and `{1,2}`: it is reflexive, symmetric and transitive. The directed edge `2→1` supplies no edge `1→2`.
+**A many-to-one LUT.** Let D be `{0,1,2}` and `n(0)=0`, `n(1)=n(2)=1`. Applying n to 2 returns the transformed value 1. Equality of outputs partitions D into `{0}` and `{1,2}`: it is reflexive, symmetric and transitive. The directed edge `2→1` supplies no edge `1→2`.
 
 The query `x>0` is constant on each class and can be answered from the class. The query `x>1` is false at 1 and true at 2, so no function of their common class can recover it. Retain x, split that class with the needed distinction, or return the unresolved answer set `{false,true}` when that set answers the receiving question. Selecting 1 as a representative would answer a question about the representative, not the lost original input.
 
 Now let a partial operation f be defined at 0 and 1 but not at 2, with `f(1)=0`. Because `1 ≡_UNM 2` while availability differs, f cannot descend to a representative-independent operation on these classes. Matching only the outputs that happen to exist would miss the failure. Preserve the distinguishing input or refine the class before applying f.
 
-**Show — reversible conversion and partial normalization.** For exact temperature values in the declared physical domain, Celsius-to-kelvin conversion `n(c)=c+273.15` has inverse `c=k-273.15` on its image. For example, 20 °C maps to 293.15 K and back to 20 °C. Measurement uncertainty remains governed by its measurement result; the exact coordinate law does not remove it. More generally, a strictly monotone encoding has an inverse on its image, not automatically everywhere in the named target.
+**Reversible conversion and partial normalization.** For exact temperature values in the declared physical domain, Celsius-to-kelvin conversion `n(c)=c+273.15` has inverse `c=k-273.15` on its image. For example, 20 °C maps to 293.15 K and back to 20 °C. Measurement uncertainty remains governed by its measurement result; the exact coordinate law does not remove it. More generally, a strictly monotone encoding has an inverse on its image, not automatically everywhere in the named target.
 
 Restrict the LUT above to D=`{0,1}`. Input 2 is then undefined, has no NCV and belongs to no kernel class of that partial normalizer. A policy's degraded-evidence allowance does not define n(2). Likewise, an idempotence claim needs composability and `n(n(x))=n(x)` on the named domain; a function's fibers do not prove it.
 
-**Show (P2W and transformation flow).** Missing/stale inputs:
+**Missing or stale inputs in a transformation flow.**
 - A selector (or comparator) requires comparability under `normalization-based` mode.
 - UNM finds that a required coordinate value is missing/stale for the current slice and the instance validity window.
 - UNM returns `GuardDecision = abstain` (fail-closed) and identifies the missing current measurement. The receiver may reuse an adequate existing result, choose a justified acquisition, or leave this comparison unresolved; any acquisition has its own planning and enactment basis.
@@ -37792,13 +37798,13 @@ Mitigation: enforce explicit `NormalizationMethodInstance` + validity window + e
 - [ ] **Fail-closed:** eligibility is tri-state and never coerces unknown to pass.
 - [ ] **Lawfulness classes declared:** method class is one of `{ratio:scale, interval:affine, ordinal:monotone, nominal:categorical, tabular:LUT(+uncertainty)}` and the instance's validity window is named.
 - [ ] **No indicator conflation:** does not treat NCV as automatically implying indicator status.
-- [ ] **Relation and reuse discipline:** every NCV names the method and CN-Spec editions, bearer, scope/window, reference or comparison basis, evidence and intended comparison; cite a Bridge, kind relation, or plane relation only when the use actually relies on it, with any supported loss on `R`/`R_eff`.
+- [ ] **Relation and reuse discipline:** recover each NCV's method and CN-Spec editions, bearer, basis, evidence, intended comparison and applicable qualifications. Any relied-on relation and its receiving use satisfy UNM-L5; an assurance penalty has a justified domain model.
 - [ ] **Result branch:** the actual domain, directed output and preserved/lost distinctions are explicit. An inverse is claimed only on its stated image. A set quotient uses equality of function outputs on that domain; an inherited operation also passes compatibility and partial-availability checks, and a recovered query is constant on each class. A required representative has a declared fix and is not treated as the lost original input.
-- [ ] **Auditability:** method and CN-Spec editions, bearer, scope/window, basis, evidence, intended comparison, and any actually used relation are recorded as refs or pins.
-- [ ] **No shadow writers:** downstream consumers cite the exact method, basis, and evidence editions and do not re-author them or replace them with a generic registry.
+- [ ] **Auditability:** the actual inputs, method and specification editions, evidence, conditions, result or reason for abstaining, and any relied-on relation are recoverable under Audit in §4.1. A separate record is retained when required by the receiving use.
+- [ ] **Source references:** downstream uses cite the method, basis and evidence editions they need, preserving the source definitions.
 - [ ] **Missing or stale inputs:** apply the declared abstain/degrade rule and name the gap. An undefined transformation input has no NCV. Reuse an adequate existing basis or plan a justified acquisition under its own method; normalization alone mandates no new Work.
 - [ ] **SlotKind discipline:** SlotKind tokens reuse the CHR SlotKind lexicon where applicable; UNM‑specific SlotKinds are docked into the suite lexicon before use (no ad‑hoc drift).
-- [ ] **No proxy registry:** no registry key stands in for the exact normalized values, method, CN-Spec, bearer, scope/window, basis, evidence, intended comparison, or actually obtaining relation.
+
 
 ### A.19.UNM:8 - Common Anti‑Patterns and How to Avoid Them
 
@@ -37812,7 +37818,7 @@ Mitigation: enforce explicit `NormalizationMethodInstance` + validity window + e
    Avoid by naming the actual domain, transformation, preserved invariants and lost distinctions; supply a class or congruence claim only under its additional conditions.
 
 4) **Reusing a normalized value after its basis changed**
-   Avoid by checking the exact bearer, method and CN-Spec editions, scope/window, comparison basis, evidence, and intended use again; cite a Bridge, kind relation, or plane relation only when the new use actually relies on it.
+   Recover the bearer, method and CN-Spec editions, comparison basis, evidence, intended use and applicable scope/window. Recheck the conditions that changed, including any relation required by the new use.
 
 5) **Choosing a representative implicitly**
    Avoid by either keeping quotient objects abstract or declaring `NormalizationFix`.
@@ -37829,9 +37835,9 @@ Mitigation: enforce explicit `NormalizationMethodInstance` + validity window + e
 ### A.19.UNM:9 - Consequences
 
 **Benefits**
-- Makes “normalize-then-compare” a first-class governance choice.
-- Centralizes governing-pattern assignment, improving usability and reducing drift.
-- Supports evolvability: method families can evolve via packs/extensions without mutating the mechanism surface.
+- Makes the selected normalization and comparison basis inspectable.
+- Separates the common operation contract from each method's definition and applicability.
+- Allows a method family to change without changing the common operation contract when its meanings and conditions remain compatible.
 - Makes known admission failures explicit through the declared guard result; correctness still depends on the grounds used by the evaluation.
 
 **Costs**
@@ -37840,13 +37846,13 @@ Mitigation: enforce explicit `NormalizationMethodInstance` + validity window + e
 
 ### A.19.UNM:10 - Rationale
 
-UNM is designed as a **minimal canonical semantic surface**:
-- Enough structure to prevent illegal comparisons and hidden transformations.
-- Explicit routing in CN-frame so normalization is governance, not an algorithmic trick.
-- Evidence/calibration are delegated to MM‑CHR to avoid redefining measurement meaning.
-- Exact bearer, basis, scope/window and intended-use checks prevent accidental global normalization; actual Bridge, kind, and plane relations are cited only when a conclusion relies on them.
+UNM separates three contributions needed to justify a normalized value:
+- The selected transformation defines its actual domain, output and preservation/loss conditions.
+- CN-Spec states when normalization is needed and which configured method applies to the comparison.
+- C.16 supplies measurement and calibration grounds for that use.
+The receiving use determines which distinctions must survive and whether a relation to another meaning, kind or plane is required. Those relations and any assurance calculation retain their own conditions; a common numeric range supplies none of these grounds.
 
-This balances evolvability (methods evolve) with didactic usability (one place to read what UNM is).
+
 
 ### A.19.UNM:11 - SoTA-Echoing — preserve the answer needed after normalization
 
@@ -37864,7 +37870,7 @@ At comparable effort, both choices use the same declared transform and query. On
 
 **Builds on / cites**
 - `E.8` (pattern template)
-- `E.20` (governing-pattern discipline for mechanism‑intension content)
+- `E.20` for introduction or revision of a mechanism definition and its governing-pattern assignment
 - `A.15.2` for the edition/reference baseline on a P2W path; `A.15.3` only for typed planned filling of an independently declared position
 - `F.18` (alias docking / token continuity, when renaming or retiring legacy UNM tokens)
 - `A.6.1` (U.Mechanism shape; specialization discipline)
@@ -37874,7 +37880,7 @@ At comparable effort, both choices use the same declared transform and query. On
 - `G.0` (CG-frame admissibility gates used downstream)
 - `G.2` (SoTA synthesis packs as the method‑family ingress; wiring‑only integration)
 - `E.18` (when UNM is used in transformation-flow structures/graphs; P2W freshness/work routing)
-- `C.29` for the mathematical account of the chosen function, equivalence or quotient; `B.3` only for an actual named assurance claim
+- `C.29` when the chosen function, equivalence or quotient leaves an unresolved representation or transfer question; use an adequate local calculation directly. `B.3` applies to an actual named assurance claim.
 
 **Used by**
 - CHR suite protocols (normalize stage), when `comparability.mode` requires normalization-based comparability.
@@ -38012,7 +38018,7 @@ For example, select Celsius temperature twice from CS7 under the same policy in 
   * Intended to be used before any scoring/comparison/selection that assumes an indicator profile, while remaining a distinct step (no hidden indicatorization inside downstream mechanisms).
   * Reuse for another bearer, source-local meaning, scope and window, evidence basis, reference plane, or intended use requires a new eligibility decision. Cite an F.9 Bridge, kind relation, or plane relation only when the new use actually relies on it.
   * Pin-binding note: a P2W path records intended policy editions in its planned baseline. Every application consumes resolved references and keeps the effective ones in Audit; a direct use needs no invented WorkPlan.
-* **Relation boundary:** indicatorization creates no transfer relation. When a receiving use relies on an obtaining F.9 Bridge, kind relation, or plane relation, cite it with direction, preserved or lost meaning, and receiving use; supported penalties route to **`R_eff` only**.
+* **Relation boundary:** indicatorization creates no transfer relation. When a receiving use relies on an obtaining F.9 Bridge, kind relation, or plane relation, cite it with direction, preserved or lost meaning, and receiving use; assess loss for the receiving use and apply any numerical assurance penalty under A.6.7:4.2(2).
 * **Γ_timePolicy:** `point` by default (no implicit “latest”).
 * **PlaneRegime:** the indicator set keeps the reference plane declared by the characteristic space, its separately referenced description episteme and the CN-Spec edition; UINDM introduces no plane shift.
   When a receiving conclusion depends on a relation between different planes, cite that exact plane relation, its direction and loss, and keep its use separate from the indicator set.
@@ -38100,7 +38106,7 @@ A UINDM publication or use is conformant if it satisfies:
 5. **Evidence gating is explicit.** When the chosen `IndicatorChoicePolicy` is evidence‑gated, `CGSpecSlot` is present and the effective MinimalEvidence is explicit and auditable
    (`MinimalEvidenceSlot` when provided; otherwise `CGSpecSlot.MinimalEvidence`); insufficient/unknown evidence must yield `degrade/abstain` per the effective failure‑behavior policy, never a silent `pass`.
 
-6. **Reuse is explicit.** Another bearer, scope and window, basis, plane, or intended use gets a fresh eligibility decision; any F.9 Bridge, kind relation, or plane relation is cited only when the conclusion relies on that obtaining relation, with supported loss routed to `R_eff`.
+6. **Reuse is explicit.** Another bearer, scope and window, basis, plane, or intended use gets a fresh eligibility decision; any F.9 Bridge, kind relation, or plane relation is cited only when the conclusion relies on that obtaining relation, with loss assessed under the receiving-use rule and any numerical assurance penalty applied under A.6.7:4.2(2).
 
 7. **Gate/guard separation + lexeme discipline.** UINDM uses `…Eligibility` returning `GuardDecision ∈ {pass|degrade|abstain}` and does not embed GateDecision/GateLog in suite steps.
    Reserved gate‑lexemes (e.g., `…Guard`) are not used for mechanism‑level predicates; the mechanism stays at the guard/admissibility layer.
@@ -38191,10 +38197,10 @@ The trade-off is deliberate: a purpose-led policy makes the required indicator m
 ### A.19.USCM:0 - At a glance — didactic, informative
 
 * **Suite stage:** `score` (ordering lives only in `A.19.CHR:4.5` / `suite_protocols`; suite membership is a set in `A.19.CHR:4.2`).
-* **Inputs, conceptual:** an admitted measure profile for the exact evaluated bearer, plus `CNSpecRef`, `CGSpecRef`, and `ScoringMethodDescriptionRef`; their editions name the criteria, claim scope and selected slices, qualification window, comparison or reference basis, evidence policy, and intended result use. `MinimalEvidenceRef` may override the CG-Spec minimum.
+* **Inputs, conceptual:** an admitted measure profile for the exact evaluated bearer, plus `CNSpecRef`, `CGSpecRef`, and `ScoringMethodDescriptionRef`; their editions name the criteria, comparison or reference basis, evidence policy, intended result use, and any claim scope, selected slices or qualification window that qualify that use. `MinimalEvidenceRef` may override the CG-Spec minimum.
 * **Output:** `ScoreProfileSlot` = a set of score measures (vector scores are first‑class; a scalar score is allowed only if explicitly declared).
 * **Non‑goals:** does **not** normalize (UNM), aggregate (ULSAM), compare (CPM), select (SelectorMechanism), issue a gate decision, publish, or emit telemetry; it is a scoring step with explicit admissibility and evidence surfaces.
-* **P2W seam:** an A.15.2 baseline selects editions and policies, including ScoringMethodDescriptionRef when USCM is used. A.15.3 typed filling applies only to independently declared receiving positions under A.19.CHR:4.7.2. Actual Score bindings obtain under §4.1; Audit records the effective refs and pins.
+* **P2W seam:** an A.15.2 baseline selects editions and policies, including ScoringMethodDescriptionRef when USCM is used. A.15.3 typed filling applies only to independently declared receiving positions under A.19.CHR:4.7.2. Actual Score bindings obtain under §4.1; Audit makes the effective refs and pins recoverable.
 * **Failure mode:** tri‑state guard (`pass|degrade|abstain`); unknown never coerces to `pass`, and MUST NOT be coerced to `0/false`.
 * **Quick rule of thumb:** if `CGSpecSlot.SCP` is missing → `ScoreEligibility = abstain` (fail‑closed); if `ScoringMethodDescriptionSlot` is missing → `ScoreEligibility = abstain` (no implicit scoring method); if `CN‑Spec.comparability` requires normalization‑based comparability → normalization MUST be explicit in choreography (Uses/pins), never hidden inside `Score`.
 
@@ -38216,17 +38222,17 @@ so that each commitment has a single place to live, can be audited, and can evol
 
 ### A.19.USCM:2 - Problem
 
-Engineering teams often need to convert an admitted (indicator or NCV) profile into one or more **score measures** for downstream comparison and selection. If scoring is not given a **first‑class mechanism boundary** with explicit admissibility and evidence surfaces, the following failure modes are common:
+Engineering teams often need to convert an admitted (indicator or NCV) profile into one or more **score measures** for downstream comparison and selection. When the scoring rule, scale constraints or input basis remain implicit, the following failures can occur:
 
 * **Illicit arithmetic by convenience:** teams apply weighted sums, averages, or nonlinear transforms across mixed scale kinds without an explicit admissibility profile, creating scores that are not CSLC‑lawful.
 * **Hidden normalization:** scoring implementations silently normalize, align, or flip polarities, collapsing the distinction between “normalize” and “score” and making downstream reasoning non‑reproducible.
 * **Silent scalarization:** multi‑criteria realities (vector scores, partial‑order comparability) are reduced to a single scalar via hidden tie‑breakers, producing an apparent total order that is not justified.
 * **Unknown coercion:** missing or insufficient evidence is coerced into `0/false` or treated as “good enough,” yielding scores that look precise while being epistemically unsafe.
-* **Drift and non-auditability:** different teams score the same admitted scoring target differently because admissibility constraints and effective policies (editions, evidence rules, crossings) are not explicit and not recorded.
+* **Drift and non-auditability:** differences between teams' scores for the same admitted target cannot be explained or replayed when the effective admissibility constraints and policies (editions, evidence rules, used relations) are not recoverable.
 
 ### A.19.USCM:3 - Forces
 
-1. **Admissibility discipline vs operational pressure.** Scoring is where "just compute a number" pressure is strongest, but admissibility must remain explicit and checkable: SCP and CSLC constraints must bound permissible transforms.
+1. **Admissibility discipline vs operational pressure.** Admissibility must remain explicit and checkable under operational pressure: SCP and CSLC constraints must bound permissible transforms.
 
 2. **Method diversity vs stable mechanism boundary.** Scoring methods evolve rapidly; USCM’s signature must remain stable so method families can be wired through SoTA packs and extensions without mutating the mechanism boundary.
 
@@ -38248,11 +38254,11 @@ USCM is the **canonical scoring mechanism** in the CHR suite. It defines:
 * a stable **SlotKind surface** (via the suite lexicon),
 * an admissibility‑first **LawSet** anchored in `CG‑Spec.SCP` and CSLC,
 * an explicit **anti‑smuggling rule** (no implicit normalization), and
-* an **audit minimum** (the evaluated bearer and input profile, exact editions, criteria, scope and window, comparison basis, evidence used, effective evidence policy, result use, and any relation actually used).
+* an **audit minimum** (the evaluated bearer and input profile, exact editions, criteria, comparison basis, evidence used, effective evidence policy, result use, any scope or window that qualifies that use, and any relation actually used).
 
-USCM preserves the suite obligations by construction: it does not embed GateDecision/GateLog, it does not perform publish/telemetry steps, and it cites relation pins only when the score or its receiving use actually depends on an obtaining relation; supported loss stays in `R_eff`.
+USCM does not embed GateDecision/GateLog or perform publish/telemetry steps. It cites relation pins only when the score or its receiving use actually depends on an obtaining relation; assess loss under the applicable receiving-use rule.
 
-Method semantics (“how to score”) remain out of suite core: they belong in SoTA packs (`G.2`) and wiring‑only extension modules (`GPatternExtension` blocks), while USCM remains the stable conceptual mechanism boundary.
+Scoring-method semantics remain outside the suite core. The selected `ScoringMethodDescription` supplies them; `G.2` packs can provide method choices, while wiring-only `GPatternExtension` modules cite the corresponding governing content and required pins.
 
 #### A.19.USCM:4.1 - Operation declaration
 
@@ -38274,8 +38280,8 @@ Method semantics (“how to score”) remain out of suite core: they belong in S
 
   * **SubjectKind:** `ReadingContent`, supplied by the reading contents in InputProfileSlot; each retains its bearer, Characteristic and Scale.
   * **RangedValueKind:** `ReadingContent`; Score transforms the admitted profile under the selected method, and ScoreEligibility assesses that proposed transformation.
-  * **SliceBasis:** the declared `U.ClaimScope` and selected `U.ContextSlice` members, together with the qualification window and intended result use.
-  * **Input qualification:** scoring ranges over the admitted indicator or NCV profile for the exact evaluated bearer, criteria, claim scope and selected slices, qualification window, comparison or reference basis, and intended result use; `CN-Spec.comparability` routes comparison and `CG-Spec.SCP` gates admissibility.
+  * **SliceBasis:** any declared `U.ClaimScope`, selected `U.ContextSlice` members or qualification window that qualify the scoring result or its intended use.
+  * **Input qualification:** scoring ranges over the admitted indicator or NCV profile for the exact evaluated bearer, criteria, comparison or reference basis and intended result use, under any scope, slice or window conditions required by that use; `CN-Spec.comparability` routes comparison and `CG-Spec.SCP` gates admissibility.
   * Results are declared per operation: the score-measure profile and the eligibility judgment.
 
 **Reading range.** `ReadingContent` and profile interpretation come from C.16:5.5.1. Resolve each component's subject, Characteristic, Scale, attribution and conditions before using its values. A content member can be conditional or insufficiently supported; this operation's eligibility and evidence rules still decide whether it may be used. Profiles retain the positions or contributor identities, ordering and multiplicity required by their declared basis. An independently materialized result episteme is distinct from the calculated Coordinate and the bound reading content.
@@ -38287,7 +38293,7 @@ Each input meaning is declared separately for Score and ScoreEligibility. ByRef 
 | Direction | Local designator | Meaning and ValueKind | Designation; cardinality |
 | --- | --- | --- | --- |
 | Argument | InputProfileSlot | Admitted profile of ReadingContent components to score; each UINDM-derived value retains its exact basis position, Characteristic and Scale | ByValue; 1 profile |
-| Argument | CNSpecSlot | CN-Spec used for the bearer, basis, scope/slices, qualification window, intended use and comparability routing | CNSpecRef; 1 |
+| Argument | CNSpecSlot | CN-Spec used for the bearer, basis, intended use and comparability routing, including any scope/slices or qualification window required by that use | CNSpecRef; 1 |
 | Argument | CGSpecSlot | CG-Spec supplying the SCP restrictions and default evidence requirement for this scoring use | CGSpecRef; 1 |
 | Argument | ScoringMethodDescriptionSlot | ScoringMethodDescription supplying the selected Coordinate→Score rule, domain, codomain, Scale, polarity and use-required properties | ScoringMethodDescriptionRef; 1 |
 | Argument | MinimalEvidenceSlot | MinimalEvidence override used in place of CGSpecSlot.MinimalEvidence | MinimalEvidenceRef; 0..1 |
@@ -38321,32 +38327,32 @@ For the Celsius example in §4.2, two separate calculations of (20−0)/(40−0)
 * **AdmissibilityConditions** (tri‑state guard; fail‑closed on missing admissibility/evidence):
 
   * `ScoreEligibility(InputProfileSlot, CNSpecSlot, CGSpecSlot, ScoringMethodDescriptionSlot, MinimalEvidenceSlot?) → GuardDecision ∈ {pass|degrade|abstain}`.
-  * `pass` requires: (i) `CGSpecSlot.SCP` is present, (ii) the scoring method and edition are explicit, (iii) the input profile is admitted for the exact bearer and criteria, (iv) the cited specs apply to the exact claim scope and selected slices, qualification window, comparison or reference basis, and intended result use, (v) the evidence supporting the admitted profile passes the effective minimum, and (vi) `CN-Spec.comparability` routing is satisfied, including explicit UNM when needed, and (vii) the declared transformation is defined on the input profile and satisfies the applicable SCP/CSLC restrictions.
+  * `pass` requires: (i) `CGSpecSlot.SCP` is present, (ii) the scoring method and edition are explicit, (iii) the input profile is admitted for the exact bearer and criteria, (iv) the cited specs apply to the comparison or reference basis and intended result use, including any required claim-scope, slice or window qualifications, (v) the evidence supporting the admitted profile passes the effective minimum, (vi) `CN-Spec.comparability` routing is satisfied, including explicit UNM when needed, and (vii) the declared transformation is defined on the input profile and satisfies the applicable SCP/CSLC restrictions.
   * If `MinimalEvidenceSlot` is absent, the guard MUST evaluate evidence against `CGSpecSlot.MinimalEvidence` (by explicit rule), and MUST NOT return `pass` when evidence is missing/unknown.
   * If `ScoringMethodDescriptionSlot` is missing or unresolved or ambiguous under the selected use baseline, the guard MUST return `abstain` (fail‑closed), not “assume a default”.
   * `degrade` requires every non-evidence condition above and an effective failure policy that permits the stated degraded result when evidence is insufficient. `abstain` applies otherwise, including an undefined transformation or missing required input. A degrade policy supplies no undefined value.
 
 * **Applicability:**
 
-  * Intended to be used after indicatorization (when indicator profiles are used) and before comparison/selection.
-  * Applicable only when admissibility/evidence surfaces are present via `CGSpecSlot` (fail‑closed otherwise).
-  * Applicable only when a scoring method is explicitly declared via `ScoringMethodDescriptionSlot` (edition‑pinned when reproducibility matters). A “do nothing / identity scoring” intent (if ever needed) MUST still be declared as an explicit scoring method description, not as an implicit default.
+  * Score is intended to be used after indicatorization (when indicator profiles are used) and before comparison/selection.
+  * Score is applicable only when admissibility/evidence surfaces are present via `CGSpecSlot` (fail-closed otherwise).
+  * Score is applicable only when a scoring method is explicitly declared via `ScoringMethodDescriptionSlot` (edition-pinned when reproducibility matters). A “do nothing / identity scoring” intent (if ever needed) MUST still be declared as an explicit scoring method description, not as an implicit default.
 
-* **Relation boundary:** scoring creates no transfer relation. If the input profile or receiving use relies on an F.9 Bridge, kind relation, or plane relation, cite that exact obtaining relation, its direction and loss; supported penalties route to **`R_eff` only**.
+* **Relation boundary:** scoring creates no transfer relation. If the input profile or receiving use relies on an F.9 Bridge, kind relation, or plane relation, cite that exact obtaining relation, its direction and loss. Establish the bounded-use and reliance grounds required for that proposed use, and assess loss against its receiving rule and tolerance. Apply a numerical assurance penalty only when a named assurance use consumes it and an applicable B.3 domain model warrants it under its declared assumptions.
 
-* **Γ_timePolicy:** `point` by default (no implicit “latest”).
+* **Γ_timePolicy:** when a temporal qualification is needed, `point` by default (no implicit “latest”).
 
 * **PlaneRegime:** each admitted input and score keeps its declared reference plane; USCM introduces no plane crossing. When a conclusion depends on a relation between planes, cite that relation, its direction and loss, and keep the receiving use separate.
 
-* **Audit:**
+* **Audit:** Make the application basis below recoverable from the specifications, inputs, evidence and results actually used. For ScoreEligibility, identify missing or unresolved required inputs and policies, and apply the following requirements to the values supplied or resolved. Retain a separate record when the receiving use requires one.
 
-  * MUST record: the exact evaluated bearer and admitted input profile; `CNSpecRef.edition`, `CGSpecRef.edition`, and `ScoringMethodDescriptionRef.edition`; criteria, claim scope and selected slices, qualification window, comparison or reference basis, and intended result use.
-  * MUST record the evidence refs used to admit the input profile and evaluate `ScoreEligibility`.
-  * MUST record the **effective evidence policy**:
-    * if `MinimalEvidenceSlot?` is present → record `MinimalEvidenceRef` as effective;
-    * otherwise → cite `CGSpecSlot.MinimalEvidence` as effective.
-  * SHOULD record the realized `GuardDecision` for `ScoreEligibility`, and (when `degrade`/`abstain`) the referenced failure behavior / downstream handling policy id (e.g., SoS‑LOG branch id) when such a policy is in scope.
-  * SHOULD record: a stable description of `ScoreProfileSlot`; any F.9 Bridge, kind relation, or plane relation only when the score or receiving use actually relies on it; and, when normalization-based comparability was required, the explicit upstream UNM ref or pin.
+  * MUST make recoverable: the exact evaluated bearer, input profile and its admission status; `CNSpecRef.edition`, `CGSpecRef.edition`, and `ScoringMethodDescriptionRef.edition`; criteria, comparison or reference basis and intended result use; and any claim scope, selected slices or qualification window that qualify that use.
+  * MUST make recoverable the evidence refs used for input admission or the `ScoreEligibility` evaluation.
+  * MUST make the **effective evidence policy** recoverable:
+    * if `MinimalEvidenceSlot?` is present → identify `MinimalEvidenceRef` as effective;
+    * otherwise → identify `CGSpecSlot.MinimalEvidence` as effective.
+  * SHOULD make recoverable the realized `GuardDecision` for `ScoreEligibility`, and (when `degrade`/`abstain`) the referenced failure behavior / downstream handling policy id (e.g., SoS-LOG branch id) when such a policy is in scope.
+  * SHOULD make recoverable: a stable description of `ScoreProfileSlot`; any F.9 Bridge, kind relation, or plane relation only when the score or receiving use actually relies on it; and, when normalization-based comparability was required, the explicit upstream UNM ref or pin.
 
 #### A.19.USCM:4.2 - Interpretation notes — informative
 
@@ -38362,7 +38368,7 @@ For the Celsius example in §4.2, two separate calculations of (20−0)/(40−0)
 
 * **Evidence policy is explicit and auditable.** `MinimalEvidenceSlot?` is an optional override; otherwise the effective policy is `CGSpecSlot.MinimalEvidence`. Failures do not disappear; they must show up as `degrade/abstain` and be traceable.
 
-* **Relations are explicit and loss stays in `R_eff`.** When a score or receiving conclusion depends on another source-local meaning, bearer kind, or reference plane, cite the exact obtaining relation and supported loss. A changed bearer, scope, method, basis, or use is not by itself a crossing.
+* **Relations are explicit; loss is judged for the receiving use.** When a score or receiving conclusion depends on another source-local meaning, bearer kind, or reference plane, cite the exact obtaining relation and supported loss. Apply the receiving rule and tolerance; a numerical assurance penalty needs the applicable B.3 domain model. A changed bearer, scope, method, basis, or use is not by itself a crossing.
 
 ### A.19.USCM:5 - Archetypal Grounding — informative
 
@@ -38370,12 +38376,12 @@ For the Celsius example in §4.2, two separate calculations of (20−0)/(40−0)
 
 Think of USCM as **admissibility‑gated scoring**:
 
-* Input: “an admitted profile of measures for this exact bearer, criteria, scope and window, comparison basis, evidence policy, and result use, plus the CN-Spec and CG-Spec editions that declare those bounds”
+* Input: “an admitted profile of measures for this exact bearer, criteria, comparison basis, evidence policy and result use, with any scope or window that qualifies that use, plus the CN-Spec and CG-Spec editions that declare those bounds”
 * Output: “a set of score measures that downstream steps may compare/select on”
 
 The key didactic boundary is: **USCM is allowed to transform measures only within the admissibility surface (SCP+CSLC), and it must not hide normalization, aggregation, or ordering.**
 
-#### A.19.USCM:5.2 - Show — U.System
+#### A.19.USCM:5.2 - Show — rollout-plan evaluation
 
 A program manager evaluates competing rollout plans for a product launch.
 
@@ -38396,7 +38402,7 @@ A research lead compares several model families for deployment across heterogene
 
 ### A.19.USCM:6 - Bias-Annotation — informative
 
-* **Gov (governance).** Bias toward explicit admissibility and evidence surfaces (`CGSpecRef`, `SCP`, `MinimalEvidence`) rather than "standard practice" arithmetic. Risk: perceived overhead. Mitigation: keep the kernel signature small and push method specifics into SoTA packs and wiring modules.
+* **Gov (governance).** Bias toward explicit admissibility and evidence surfaces (`CGSpecRef`, `SCP`, `MinimalEvidence`) rather than "standard practice" arithmetic. Risk: perceived overhead. Mitigation: keep the shared signature small; use the selected ScoringMethodDescription for method-specific rules and wiring modules for their references and pins.
 
 * **Arch (architecture).** Bias toward stable interfaces and strict step boundaries (no implicit UNM; no hidden scalarization). Risk: reduced room for ad‑hoc shortcuts. Mitigation: allow richer scoring method families via wiring, without mutating the USCM intension.
 
@@ -38424,9 +38430,9 @@ A USCM publication or use is conformant if it satisfies:
 
 7. **Unknown and evidence handling is explicit.** Unknown / insufficient evidence is not coerced to `0/false`. Eligibility uses `GuardDecision ∈ {pass|degrade|abstain}` and evaluates evidence against the effective policy (`MinimalEvidenceSlot` override or `CGSpecSlot.MinimalEvidence`).
 
-8. **Planning and actual binding remain separate.** On a P2W path, A.15.2 carries the intended edition/policy baseline; A.15.3 governs typed filling only for independently declared positions. The actual application uses its effective bindings under §4.1, and Audit records their refs and pins. Planned selection alone does not establish actual use.
+8. **Planning and actual binding remain separate.** On a P2W path, A.15.2 carries the intended edition/policy baseline; A.15.3 governs typed filling only for independently declared positions. The actual application uses its effective bindings under §4.1, and Audit makes their refs and pins recoverable. Planned selection alone does not establish actual use.
 
-9. **Relation and plane discipline.** Another bearer, scope and window, basis, method, plane, or result use gets a fresh eligibility decision. Any F.9 Bridge, kind relation, or plane relation is cited only when the score or conclusion relies on that obtaining relation, and supported loss routes to `R_eff`.
+9. **Relation and plane discipline.** Another bearer, scope and window, basis, method, plane, or result use gets a fresh eligibility decision. Any F.9 Bridge, kind relation, or plane relation is cited only when the score or conclusion relies on that obtaining relation. Judge loss under the receiving-use rule; a numerical assurance penalty requires an applicable B.3 domain model.
 
 10. **Specialization discipline, if extended.** Retain inherited operation-position meanings, add no mandatory input to the inherited Score operation, and declare extra outputs or operations explicitly using the local extension notation `⊑⁺`. A claimed refinement, conservative extension or equivalence additionally needs its exact A.6.1 §4.8 predicate, endpoint facts and applicable preservation test; `⊑/⊑⁺` alone establishes none of them.
 
@@ -38434,7 +38440,7 @@ A USCM publication or use is conformant if it satisfies:
 
 * **Hidden normalization inside scoring.** Scoring silently normalizes or aligns measures. Avoid by making UNM explicit in choreography and keeping Score as the declared scoring transformation under its admission conditions.
 
-* **Weighted sum across mixed or non-admissible scales.** Treating “weights + sum” as universal. Avoid by requiring SCP+CSLC admissibility; if the scale operation is not scale-admissible, it is not admissible.
+* **Weighted sum across mixed or non-admissible scales.** Treating “weights + sum” as universal. Avoid by requiring SCP+CSLC admissibility.
 
 * **Silent scalarization.** Collapsing vector scores or partial orders into a single “overall score” via an untracked tie‑breaker. Avoid by leaving vector scores intact, and making scalarization an explicit declared commitment.
 
@@ -38464,14 +38470,14 @@ A USCM publication or use is conformant if it satisfies:
 
 ### A.19.USCM:10 - Rationale
 
-Scoring is a frequent source of semantic precision loss: it is easy to smuggle normalization, illegal arithmetic, implicit thresholds, and uncertainty coercion into “a simple scoring function.” USCM prevents that by forcing a clean boundary:
+Scoring can lose semantic precision through hidden normalization, illegal arithmetic, implicit thresholds or uncertainty coercion. USCM requires the following commitments to remain explicit:
 
 * **Admissibility first:** all transforms are justified by `CG‑Spec.SCP` and CSLC.
 * **No hidden steps:** normalization is explicit (UNM), aggregation is explicit (ULSAM), ordering is explicit (CPM/SelectorMechanism).
 * **Uncertainty is visible:** admissibility is tri‑state; unknown is not coerced.
-* **Audit is minimal yet decisive:** effective editions and effective evidence policy are always traceable.
+* **Recoverable audit basis:** effective editions and the effective evidence policy remain traceable.
 
-This increases both evolvability (stable interface, externalized method semantics) and didactic usability (a single place to learn USCM’s boundary and obligations).
+
 
 ### A.19.USCM:11 - SoTA-Echoing
 
@@ -38491,9 +38497,9 @@ The following research and architecture-description lines inform distinct choice
 **Notes per row**
 
 1. USCM does not "implement a particular scoring model"; it preserves a stable, admissibility‑gated surface on which such models can be wired.
-2. Calibration is treated as a lawful transform family that must live within SCP+CSLC; the kernel does not mandate a specific calibration method.
+2. A calibration transform must satisfy SCP+CSLC; USCM does not mandate a specific calibration method.
 3. A prediction interval and a vector of score measures carry different meanings. A downstream CPM/SelectorMechanism use needs a declared comparator for whichever result it consumes; neither form supplies an ordering automatically.
-4. Governing-pattern traceability is used here to keep the spec teachable and non-duplicative; it does not add new governance cards or admissibility gates.
+
 
 ### A.19.USCM:12 - Relations
 
@@ -38515,7 +38521,7 @@ The following research and architecture-description lines inform distinct choice
 
   * `UNM` when `CN‑Spec.comparability` requires normalization‑based comparability (explicit choreography, no hidden UNM).
   * `ULSAM` when folding/aggregation is needed as a distinct, explicit step.
-  * `G.2` and `GPatternExtension` wiring modules for post‑2015 method families, without mutating the USCM kernel.
+  * `G.2` for scoring-method choices and `GPatternExtension` modules for their wiring, without mutating the USCM kernel.
   * `E.20` (governing-pattern discipline) and `F.18` (alias docking) for governing-source references and designation continuity.
 
 ### A.19.USCM:End
@@ -38664,7 +38670,7 @@ For example, two separate lawful sums of admitted 2 kg and 3 kg measurements und
   * Applicable only when CG-Spec supplies SCP and the effective fold resolves through its Γ_fold or an admitted explicit override (fail-closed otherwise).
   * If comparability routing is UNM-based, applicability requires the explicit upstream result and preservation/loss basis needed by the fold. A fold inherited on classes requires equivalent outputs and representative-independent availability; a requested aggregate answer must be recoverable. Otherwise retain/refine the original inputs or return the missing distinction.
 
-* **Relation boundary:** folding creates no transfer relation. If the admitted set or receiving use relies on an F.9 Bridge, kind relation, aggregation or membership relation, or plane relation, cite the exact obtaining relation, its direction and loss; supported penalties route to **`R_eff` only**.
+* **Relation boundary:** folding creates no transfer relation. If the admitted set or receiving use relies on an F.9 Bridge, kind relation, aggregation or membership relation, or plane relation, cite the exact obtaining relation, its direction and loss; assess loss for the receiving use and apply any numerical assurance penalty under A.6.7:4.2(2).
 * **Γ_timePolicy:** `point` by default; time‑fold requires explicit windowing policy (if an explicit operator is needed, introduce `FoldTime_Γ` as an `⊑⁺` extension using `GammaTimeRuleSlot` from the CHR SlotKind Lexicon).
 * **PlaneRegime:** each contributor and aggregated measure keeps its declared reference plane; ULSAM introduces no plane crossing. When a result depends on a relation between planes, cite that relation, its direction and loss, and keep the receiving use separate.
 
@@ -38826,11 +38832,11 @@ CPM is the CHR comparison kernel: it compares two admitted profiles under an exp
 
 **One-screen purpose (manager-first).** CPM answers: "Given two admitted profiles and an explicit comparator, what relation holds under the declared admissibility frame?" It does **not** answer: "Which one should we pick?" (selection) nor "What is the score?" (scoring).
 
-**Use this when.** Two admitted profiles must be compared under a declared rule. Recover their value meanings, select the admitted comparator and test its use conditions, then return only the justified relation tokens. If this comparison answers the receiving question, stop without adding selection or authorization.
+**Use this when.** Two admitted profiles must be compared under a declared rule. Recover their value meanings, select the admitted comparator and test its use conditions. Return only justified relation tokens when comparison proceeds; retain the eligibility judgment and withhold a comparison result when it must abstain. If this answers the receiving question, stop without adding selection or authorization.
 
-**What this buys.** The practitioner gets one set-valued comparison outcome that downstream selection can consume. The actual `Compare` application keeps the profile pair, comparator, claim scope and selected context slices, optional A.19 predicate, reference plane, evaluation window, policies, and output binding recoverable. Partial order, incomparability, missing evidence, and scale limits remain explicit instead of becoming a hidden scalar winner.
+**What this buys.** A completed admitted comparison gives the practitioner one set-valued outcome that downstream selection can consume. The actual `Compare` application keeps the profile pair, comparator, claim scope and selected context slices, optional A.19 predicate, reference plane, evaluation window, policies, and output binding recoverable. Partial order, incomparability, missing evidence, and scale limits remain explicit instead of becoming a hidden scalar winner.
 
-**First output.** Read the by-value set bound to `ComparisonResultSlot`: only the relation or poset tokens. Read comparator, comparison scope, predicate when used, plane, window, eligibility value, and evidence use from the actual operation application and their direct neighboring relations; they are not fields hidden inside the output.
+**First output.** When comparison returns a result, read the by-value set bound to `ComparisonResultSlot`: only the relation or poset tokens. Read comparator, comparison scope, predicate when used, plane, window, eligibility value, and evidence use from the actual operation application and their direct neighboring relations; they are not fields hidden inside the output.
 
 **Manager quick checklist (before you trust a comparison):**
 * **Comparator is explicit:** do we have a `ComparatorSpecRef`, and is it admitted by `CG‑Spec.ComparatorSet`?
@@ -38840,7 +38846,7 @@ CPM is the CHR comparison kernel: it compares two admitted profiles under an exp
 
 * **Suite stage:** `compare` (pipeline order lives in `A.19.CHR:4.5`, not in the `mechanisms[]` enumeration).
 * **Input (conceptual):** left profile, right profile, `CN-Spec`, `CG-Spec`, an explicit `ComparatorSpec`, one `U.ClaimScope` with selected A.2.6 `U.ContextSlice` members, an optional A.19 `CharacteristicSpacePredicate` when the comparison depends on one, effective reference plane, explicit evaluation window, and optional explicit `MinimalEvidence` override.
-* **Output (conceptual):** the by-value `ComparisonResultSlot` set of relation or poset tokens. It is not a score, selected set, result episteme, work-result relation, evidence record, or container for replay metadata.
+* **Output (conceptual):** the by-value `ComparisonResultSlot` set of relation or poset tokens.
 * **Planned use:** an A.15.2 baseline selects ComparatorSpecRef editions and policy ids. A.15.3 and SlotFillingsPlanItem apply only to independently declared receiving positions under A.19.CHR:4.7.2. The actual Compare application carries its argument and result bindings under §4.1. Any dated comparison Work and A.10 evidence-provenance account retain their independent grounds.
 * **Reproducible comparisons:** for parity and benchmark style runs that require a stable run package plus report record (editions, windows, parity pins), use `G.9` (Parity and Benchmark Harness). CPM stays kernel-only.
 * **Core safety commitments:** admissibility gate via `CG-Spec.ComparatorSet` + `CG-Spec.SCP` + CSLC; tri-state admissibility (`pass|degrade|abstain`); unknown never coerces to “pass” or to a fabricated outcome; no silent scalarization or totalization.
@@ -38853,7 +38859,7 @@ FPF's Characterization (CHR) suite treats comparison as a **distinct** mechanism
 
 * a **mechanism** (an operation declaration under `A.6.1`),
 * that is **suite‑conformant** (per CHR obligations and protocol closure in `A.19.CHR`),
-* and **governing-spec-ref-respecting** (comparability and admission are governed by `CN-Spec` and admissibility is gated by `CG-Spec` rather than re-invented locally).
+* whose profile admission and comparability follow `CN-Spec`, and whose comparator admissibility follows `CG-Spec`.
 
 Within suite protocols, CPM appears as the explicit `compare` stage: it consumes admitted left and right profiles, including scores and folded measures when those upstream stages are present, and produces an admissible, replayable comparison result that downstream selection can consume without CPM smuggling selection or scoring semantics into comparison.
 
@@ -38876,9 +38882,9 @@ CPM exists to make comparison explicit, admissibility-gated, set-valued, and rep
 1. **Usability vs correctness:** engineers want a "simple compare" function; correctness demands explicit admissibility, explicit comparator choice, and explicit handling of incomparability and unknown evidence.
 2. **Total order convenience vs partial order truth:** total orders simplify downstream selection; partial orders are often the faithful representation (especially in multi‑criteria settings).
 3. **Evolvability vs stability:** comparator methods evolve (SoTA churn); kernel semantics and slot field sets must remain stable and wiring‑friendly.
-4. **Replayability vs speed of discussion:** teams want fast decisions; replay requires the actual `Compare` operation application with exact edition, policy, argument, and result bindings. Recover dated comparison `U.Work` and the A.10 evidence-provenance path when the account asserts them or the receiving use consumes them, under §4.1.
+4. **Replayability vs speed of discussion:** teams want fast decisions; replay requires the actual `Compare` or `CompareEligibility` application, its edition, policy and argument bindings, and its returned value or explicit absence. Recover dated comparison `U.Work` and the A.10 evidence-provenance path when the account asserts them or the receiving use consumes them, under §4.1.
 5. **Cross-scheme reasoning vs Bridge and ReferencePlane discipline:** a comparison that relies on a semantic relation between two exact F.17 `SchemeSenseCell` values requires an obtaining F.9 `Bridge` and a separate C.2.1 bounded-use claim; a plane-only crossing requires the applicable ReferencePlane relation and policy. Neither branch supplies scope, predicate, plane, or time from an umbrella context label.
-6. **Avoiding “second centers of gravity”:** mechanism semantics must have a governing pattern; otherwise the suite, `A.6.1` archetypes, and Part‑G wiring drift apart.
+6. **Semantic consistency vs duplicate definitions:** suite references, `A.6.1` archetypes and Part G wiring need one governing CPM definition.
 
 ### A.19.CPM:4 - Solution
 
@@ -38889,11 +38895,11 @@ CPM is an exact A.6.1 U.Mechanism declaration whose core commitments are:
 * **Admissibility is tri‑state and fail‑closed** on missing admissibility and evidence; unknown never coerces into a fabricated outcome.
 * **Comparison remains distinct from selection**; CPM produces relation outcomes; `SelectorMechanism` consumes them.
 
-This pattern defines (governing-pattern, wiring‑friendly):
+This pattern defines:
 1. a **stable mechanism boundary** for admissible comparison: `Compare(...) → ComparisonResultSlot` plus a tri‑state `CompareEligibility` guard;
 2. a **stable SlotKind field set** (by suite lexicon tokens) that downstream selection and Part‑G wiring can rely on without SlotKind drift;
 3. an **admissibility and evidence responsibility split**: admissibility is gated by `CG-Spec` (and CSLC), while admission and comparability relations are cited from `CN-Spec`;
-4. a minimal **replay basis**: the identified Compare application, its actually bound arguments and returned ComparisonResultSlot value, with an A.10 evidence-provenance path when the receiving reliance requires it;
+4. a minimal **replay basis**: the identified `Compare` or `CompareEligibility` application, its actually bound arguments and returned value or explicit absence, with an A.10 evidence-provenance path when the receiving reliance requires it;
 5. **planned and actual use:** on a P2W path an A.15.2 plan selects editions and policies; A.15.3 typed filling applies to independently declared receiving positions. Actual arguments and results belong to the comparison application; a dated U.Work claim is independently governed;
 6. an explicit **comparison-use boundary**: claim scope, selected A.2.6 context slices, optional A.19 predicate, reference plane, and evaluation window are occurrence bindings, not generic context, comparator content, output fields, or an optional model-use structure.
 
@@ -38901,7 +38907,7 @@ This pattern defines (governing-pattern, wiring‑friendly):
 
 `CPM.IntensionRef` cites the exact A.6.1 declaration episteme presented here. CHR resolves compare to its local Compare operation. A changed argument, comparator law or guard requires explicit selection of the changed declaration; another realizer of the same declaration changes no suite member.
 
-* **Declaration boundary:** this A.6.1 mechanism intension declares `Compare` and `CompareEligibility`; it does not publish telemetry or create dated work, an actual operation application, comparison scope, result episteme, evidence use, provenance path, currentness relation, or publication relation. Each neighboring object or relation uses its direct governor.
+* **Declaration boundary:** this A.6.1 mechanism intension declares `Compare` and `CompareEligibility`. Actual applications and their bindings are established separately under the rules below.
   * **Planned use:** A.15.2 selects the editions and policies for a proposed comparison. If a receiving position is independently declared, A.15.3 can specify its planned filling. Neither plan asserts an actual Compare argument or result binding.
 
 * **IntensionHeader:** `id = CPM`, `version = 1.0.0`, `status = stable`.
@@ -38925,7 +38931,7 @@ This pattern defines (governing-pattern, wiring‑friendly):
   * Results are declared per operation: a set of relation/poset tokens and a separate eligibility judgment.
   * Input qualification: comparison ranges over admitted left/right profiles in one exact U.ClaimScope. The selected U.ContextSlice values are its members under A.2.6; these qualifications do not define the calculation extent or add a duplicate membership relation.
 
-  These are direct A.6.0 declaration components. They do not form an additional comparison-content container, and they do not absorb comparator admission, evaluation, evidence-use, or replay relations.
+  These are direct A.6.0 declaration components.
 
 **Reading range.** `ReadingContent` and profile interpretation come from C.16:5.5.1. Resolve each component's subject, Characteristic, Scale, attribution and conditions before using its values. A content member can be conditional or insufficiently supported; this operation's eligibility and evidence rules still decide whether it may be used. Profiles retain the positions or contributor identities, ordering and multiplicity required by their declared basis. An independently materialized result episteme is distinct from the calculated Coordinate and the bound reading content.
 
@@ -38996,18 +39002,18 @@ For example, an admitted Pareto comparison takes supplier A with cost 10 and qua
 
 * **Neighboring F.9 Bridge, C.2.1 bounded-use claim, and ReferencePlane relation and policy:**
 
-  When profiles require interpretation across different semantic contexts, resolve the two exact F.17 `SchemeSenseCell` endpoints and test one F.9 `BridgePredicateProfile`. For an obtaining Bridge, state its exact endpoints and profile separately, then state suitability for the named comparison use in a C.2.1 assertion whose EntityOfConcern is that Bridge and whose ClaimGraph carries `<u,d,r,t>` and polarity. Include `CL` or an observed-loss note only when the receiving use consumes it; permitted loss remains `t` in the bounded-use claim. For a ReferencePlane crossing, cite the applicable plane relation and policy separately. Open A.10 only when bounded reliance is current and B.3 only when an actual named assurance claim is current. If that assurance argument consumes a locally declared `R_eff` calculation, cite its applicable domain model and calculation; neither the Bridge nor `CL` creates a penalty. Adding or changing any of these neighboring facts does not by itself change the CPM declaration.
+  When profiles require interpretation across different semantic contexts, resolve the two exact F.17 `SchemeSenseCell` endpoints and test one F.9 `BridgePredicateProfile`. For an obtaining Bridge, state its exact endpoints and profile separately, then state suitability for the named comparison use in a C.2.1 assertion whose EntityOfConcern is that Bridge and whose ClaimGraph carries `<u,d,r,t>` and polarity. Include `CL` or an observed-loss note only when the receiving use consumes it; permitted loss remains `t` in the bounded-use claim. For a ReferencePlane crossing, cite the applicable plane relation and policy separately. Use A.10 when the bounded source-to-use account must remain replayable, and B.3 when an actual named assurance claim is current. If that assurance argument consumes a locally declared `R_eff` calculation, cite its applicable domain model and calculation; neither the Bridge nor `CL` creates a penalty. Adding or changing any of these neighboring facts does not by itself change the CPM declaration.
 
 * **Neighboring dated work, operation application, result binding, and evidence relations:**
 
-  The identified Compare application binds the profile pair, comparator, comparison-use arguments, policies and returned ComparisonResultSlot. If the account also asserts dated comparison U.Work, first establish its complete A.13 core: the performing System, exact local agential-role kind and membership criterion, and an obtaining assignment of its declared direct species for the relevant scope and time. A.15.1 independently admits that performance; F.6 applies afterward only for precise assignment-bound attribution. Work identity and extent are not automatically those of one Compare application. When the account asserts them or the receiving use consumes them, A.2.4 governs evidence use with its own evidence claim scope and relevance window, A.10 governs the evidence-provenance path and local `RelianceDisposition` for the same bounded use, and G.11 governs source or assertion-edition currentness. A durable result episteme, when needed, is governed by C.2.1, and any current entity-identity inception claim by A.15.PROD. No universal work-result or comparison-result relation is presumed. To replay the comparison, recover:
+  The actual `Compare` or `CompareEligibility` application carries its bound argument values and the corresponding result binding, when returned. If the account also asserts dated comparison U.Work, first establish its complete A.13 core: the performing System, exact local agential-role kind and membership criterion, and an obtaining assignment of its declared direct species for the relevant scope and time. A.15.1 independently admits that performance; F.6 applies afterward only for precise assignment-bound attribution. Work identity and extent are not automatically those of one operation application. A.2.4 governs any asserted or consumed evidence use with its own evidence claim scope and relevance window. Use A.10 for the evidence-provenance path and local `RelianceDisposition` when the bounded source-to-use account must remain replayable, and G.11 for any asserted or consumed source or assertion-edition currentness claim. A durable result episteme, when needed, is governed by C.2.1, and any current entity-identity inception claim by A.15.PROD. No universal work-result or comparison-result relation is presumed. To replay the comparison or eligibility evaluation, recover:
 
-  * the two profile values or exact upstream refs, one `U.ClaimScope`, selected A.2.6 context slices, optional A.19 predicate, effective reference scheme and plane, and evaluation point or interval;
-  * `CNSpecRef.edition`, `CGSpecRef.edition`, and the effective `ComparatorSpecRef`;
-  * the effective MinimalEvidence policy, either the explicit override or `CGSpecSlot.MinimalEvidence`;
-  * the realized `GuardDecision` and, for `degrade` or `abstain`, any current downstream-handling policy;
-  * the effective upstream normalization dependency, or the explicit absence that caused degradation or abstention;
-  * the comparison result; any obtaining F.9 `Bridge` and separate C.2.1 bounded-use-claim refs actually consumed by this occurrence; any optional `CL` or observed-loss-note ref actually used; any applicable ReferencePlane relation and policy refs; and, only when the comparison consumes an actual named assurance claim, that claim's B.3 `AssuranceResult` and declared domain-model and calculation refs.
+  * the profile values or exact upstream refs, `U.ClaimScope`, selected A.2.6 context slices, optional A.19 predicate, effective reference scheme and plane, and evaluation point or interval that were actually bound; identify any missing required argument;
+  * the bound `CNSpecRef.edition`, `CGSpecRef.edition`, and effective `ComparatorSpecRef`, identifying any required reference that was missing;
+  * the effective MinimalEvidence policy, either the explicit override or `CGSpecSlot.MinimalEvidence`, or the absence of a required policy;
+  * the returned `GuardDecision` or its explicit absence and, for `degrade` or `abstain`, any current downstream-handling policy;
+  * any upstream normalization dependency the comparison uses, or the absence of a required normalization result that caused degradation or abstention;
+  * the `ComparisonResultSlot` value, or its explicit absence; any obtaining F.9 `Bridge` and separate C.2.1 bounded-use-claim refs actually consumed by this occurrence; any optional `CL` or observed-loss-note ref actually used; any applicable ReferencePlane relation and policy refs; and, only when the comparison consumes an actual named assurance claim, that claim's B.3 `AssuranceResult` and declared domain-model and calculation refs.
 
   Use G.9 when a parity or benchmark use requires a stable run package and report record. These neighboring records support replay; none is CPM declaration content.
 
@@ -39017,7 +39023,7 @@ For example, an admitted Pareto comparison takes supplier A with cost 10 and qua
 * **Set-valued output is the default, not a loophole.** “Set‑valued” means CPM preserves incomparability, ties, and partiality as first‑class outcomes; it does not authorize silent post‑processing into a scalar or a single winner.
 * **Total orders are allowed only if declared by the comparator.** If a `ComparatorSpec` defines a total order, CPM still outputs a (singleton) set of relation tokens; the totalization is a property of the declared comparator, not an implicit kernel default.
 * **Normalization is not smuggled into comparison.** If `CN‑Spec.comparability` declares normalization‑based invariants for comparison, that dependence must be represented explicitly via the suite protocol and, where needed, explicit Uses contours (CPM consumes admitted profiles; it does not silently normalize them).
-* **Thresholds and tie-breakers are never kernel constants.** If thresholds exist, they belong to explicit policies or specs such as `ComparatorSpec` and `AcceptanceClauses`, are edition-pinned, and are recorded by the dated comparison occurrence for replay.
+* **Thresholds and tie-breakers are never kernel constants.** If thresholds exist, they belong to explicit policies or specs such as `ComparatorSpec` and `AcceptanceClauses`. Keep their editions and effective use recoverable from the actual comparison application for replay.
 
 ### A.19.CPM:5 - Archetypal Grounding — informative
 
@@ -39045,12 +39051,12 @@ A program manager compares Supplier‑A vs Supplier‑B for a safety‑critical 
 
 #### A.19.CPM:5.3 - Show (U.Episteme) — uncertainty‑aware comparison with set‑valued outcomes
 
-A research lead compares two proposed methods for a system component. Both methods have performance estimates with uncertainty bounds (e.g., distributions or prediction intervals). The team uses a SoTA uncertainty quantification package (post‑2015 conformal families are a common example) to avoid overstating confidence.
+A research lead compares two proposed methods for a system component. Both methods have performance estimates with uncertainty bounds (e.g., distributions or prediction intervals). The team uses a SoTA uncertainty quantification package (for example, a conformal prediction method) to avoid overstating confidence.
 
 * `USCM` produces score profiles that are interval‑valued (or otherwise uncertainty‑annotated) rather than point estimates.
 * The chosen comparator is uncertainty‑aware and declared as a `ComparatorSpec` (edition‑pinned) in `CG‑Spec.ComparatorSet`.
 * `CompareEligibility` returns its guard value separately. If comparison proceeds, CPM returns justified relation tokens such as `not worse` or `incomparable`; if it abstains, no `abstain` token is smuggled into `ComparisonResultSlot`.
-* The actual comparison or eligibility application, its effective comparator and evidence policy, and its returned value or explicit absence make the outcome recoverable. Use A.10 for the bounded reliance at issue. A dated Work account is additional only when asserted and independently grounded under §4.1.
+* The actual comparison or eligibility application, its effective comparator and evidence policy, and its returned value or explicit absence make the outcome recoverable. Use A.10 when the bounded source-to-use account must remain replayable. A dated Work account is additional only when asserted and independently grounded under §4.1.
 
 ### A.19.CPM:6 - Bias-Annotation — informative
 
@@ -39069,7 +39075,7 @@ Apply the declaration checks to a CPM publication and the application checks to 
 
 | Check Id | Requirement (normative) | Notes (didactic and evidence) |
 | :--- | :--- | :--- |
-| **CC-A19CPM-0** | **Mechanism declaration completeness.** One `U.Mechanism` episteme, its exact comparison-operation-family `EntityOfConcernRef`, effective reference scheme, operation-local argument/result declarations, `OperationAlgebra`, `LawSet`, `AdmissibilityConditions`, Applicability, and optional `SignatureManifest` are recoverable. | An obtaining F.9 `Bridge`, its separate C.2.1 bounded-use claim when consumed, any applicable ReferencePlane relation and policy, dated `U.Work`, actual operation application and result binding, any result episteme, A.10 evidence-provenance, G.11 currentness, and G.9 parity objects remain separate. |
+| **CC-A19CPM-0** | **Mechanism declaration completeness.** One `U.Mechanism` episteme, its exact comparison-operation-family `EntityOfConcernRef`, effective reference scheme, operation-local argument/result declarations, `OperationAlgebra`, `LawSet`, `AdmissibilityConditions`, Applicability, and optional `SignatureManifest` are recoverable. | Actual applications, bindings and neighboring claims are checked separately under §4.1. |
 | **CC‑A19CPM‑1** | **Single governing pattern.** The canonical CPM intension is governed here (`A.19.CPM:4.1`); other descriptions cite this section rather than restating the kernel law. | Prevents near-duplicate comparison semantics from drifting. |
 | **CC‑A19CPM‑2** | **Suite stage alignment.** `Compare` is the canonical stage‑op for CHR stage `compare`; ordering and optionality are taken only from `A.19.CHR:4.5`. | Never infer order from `mechanisms[]`. |
 | **CC‑A19CPM‑3** | **SlotKind discipline.** SlotKind tokens follow the suite lexicon (`A.19.CHR:4.2.1`). | No SlotKind drift across specializations and wiring. |
@@ -39080,10 +39086,10 @@ Apply the declaration checks to a CPM publication and the application checks to 
 | **CC‑A19CPM‑8** | **MinimalEvidence defaulting is explicit.** If `MinimalEvidenceSlot?` is absent, the effective evidence policy is `CGSpecSlot.MinimalEvidence` by explicit rule. | Avoid “implicit evidence policy.” |
 | **CC‑A19CPM‑9** | **Gate and guard separation + lexeme discipline.** CPM does not publish `GateDecision` nor `DecisionLog`; mechanism predicates use `…Eligibility` (not reserved gate `…Guard`). | Aligns with suite obligations (`gate_decision_separation`, `guard_lexeme_reservations`). |
 | **CC-A19CPM-10** | **Bridge and reference-plane discipline.** A comparison that relies on a semantic relation between two exact F.17 `SchemeSenseCell` values cites an obtaining F.9 `Bridge` under a satisfied `BridgePredicateProfile` and a separate C.2.1 bounded-use claim; a plane-only crossing cites the applicable ReferencePlane relation and policy; both are stated when both facts are current. | `CL` is optional. CPM supplies no default assurance penalty, fold, or `R_eff`; a local `R_eff` is admissible only for an actual named assurance claim under its declared domain model and calculation. These neighboring facts are not CPM declaration content. |
-| **CC-A19CPM-11** | **Replay basis completeness.** The actual `Compare` application and its profile, comparator, `U.ClaimScope`, selected A.2.6 context-slice, optional A.19 predicate, reference-scheme and plane, evaluation-window, policy, eligibility and returned `ComparisonResultSlot` bindings (or explicit absence) are recoverable. | If asserted or consumed, independently recover dated comparison Work through the A.13 core and A.15.1 admission in §4.1, evidence use under A.2.4, reliance and provenance under A.10, currentness under G.11 and a result episteme under C.2.1. These facts remain outside the output value. |
+| **CC-A19CPM-11** | **Replay basis completeness.** The actual `Compare` or `CompareEligibility` application and its actually bound profile, comparator, `U.ClaimScope`, selected A.2.6 context-slice, optional A.19 predicate, reference-scheme and plane, evaluation-window and policy arguments are recoverable, together with the corresponding returned `ComparisonResultSlot` or `GuardDecision` value or its explicit absence. | If asserted or consumed, independently recover dated comparison Work through the A.13 core and A.15.1 admission in §4.1, evidence use under A.2.4, currentness under G.11 and a result episteme under C.2.1. Use A.10 when the bounded source-to-use account must remain replayable. These facts remain outside the output value. |
 | **CC-A19CPM-12** | **Planned-filling separation.** On a P2W path, an A.15.2 baseline selects intended editions and policies; A.15.3 typed filling applies only to independently declared positions. Actual Compare applications carry their effective argument and result bindings. | A dated comparison Work and any relied-on A.10 provenance remain separately established. |
-| **CC-A19CPM-13** | **No implicit UNM.** CPM uses the explicit upstream directed result and preservation/loss basis. A class-level comparison also passes its query/operation conditions under A.19.UNM; a reference or equal normalized numeral alone is insufficient. Unsupported comparisons follow `abstain` or the declared narrower `degrade` use. | Keeps compare-on-invariants explicit. |
-| **CC-A19CPM-14** | **Comparison-scope completeness.** Every actual application binds one exact profile pair, `U.ClaimScope`, selected A.2.6 context slices, optional A.19 predicate, effective reference scheme and plane, and explicit evaluation point or interval. | No generic context input, optional model-use structure, or label supplies these values. |
+| **CC-A19CPM-13** | **No implicit UNM.** When comparability depends on normalization, CPM uses the explicit upstream directed result and preservation/loss basis. A class-level comparison also passes its query/operation conditions under A.19.UNM; a reference or equal normalized numeral alone is insufficient. Unsupported comparisons follow `abstain` or the declared narrower `degrade` use. | Keeps compare-on-invariants explicit. |
+| **CC-A19CPM-14** | **Comparison-scope completeness.** Every actual `Compare` application binds one exact profile pair, `U.ClaimScope`, selected A.2.6 context slices, optional A.19 predicate, effective reference scheme and plane, and explicit evaluation point or interval. | No generic context input, optional model-use structure, or label supplies these values. |
 | **CC-A19CPM-15** | **Outcome separation.** `ComparisonResultSlot` contains only the by-value set of relation or poset tokens; `GuardDecision` remains the separate eligibility value, and abstention fabricates no output token. | Comparator, scope, plane, window, evidence, provenance, currentness, result episteme, and selection remain separate. |
 | **CC-A19CPM-16** | **No generic result relation.** The actual A.6.1 operation application binds the output; C.2.1 governs a durable result episteme when needed; direct subject patterns govern any other result relation. | CPM mints no universal comparison-result or work-result link. |
 
@@ -39099,11 +39105,11 @@ Apply the declaration checks to a CPM publication and the application checks to 
 
 * **Anti-pattern: Implicit comparator choice.**
   *Symptom:* comparator choice is implicit (e.g., “we usually do lexicographic by safety then cost”), not edition‑pinned.
-  *Avoid:* require an explicit `ComparatorSpecRef` from `CG-Spec.ComparatorSet`; the actual `Compare` application binds the effective edition. Recover dated comparison `U.Work` and the A.10 evidence-provenance path under their independent grounds when asserted or consumed (§4.1).
+  *Avoid:* require an explicit `ComparatorSpecRef` from `CG-Spec.ComparatorSet`; the actual `Compare` application binds the effective edition.
 
 * **Anti‑pattern: “GateDecision leakage.”**
   *Symptom:* the `compare` step emits or assumes GateDecision, GateLog, or DecisionLog records as part of suite closure, or uses reserved gate‑lexemes (`…Guard`) for mechanism‑level predicates.
-  *Avoid:* keep `CompareEligibility` as the mechanism-level tri-state predicate and assign gate decisions to their governing pattern. Keep dated comparison `U.Work`, the actual `Compare` operation application and its result binding, any result episteme, A.10 evidence-provenance, G.11 currentness, and publication relations separate from CPM declaration content.
+  *Avoid:* keep `CompareEligibility` as the mechanism-level tri-state predicate and assign gate decisions to their governing pattern.
 
 * **Anti‑pattern: “SlotKind drift.”**
   *Symptom:* renaming or re‑purposing `LeftProfileSlot`, `RightProfileSlot`, `ComparatorSpecSlot`, or `ComparisonResultSlot` across specializations or across CHR layers.
@@ -39111,11 +39117,11 @@ Apply the declaration checks to a CPM publication and the application checks to 
 
 * **Anti‑pattern: “Smuggling plan‑binding into CPM.”**
   *Symptom:* hard‑coding comparator editions, policy ids, or “launch values” inside the CPM intension or pattern prose.
-  *Avoid:* resolve the intended editions and policies, recording them in A.15.2 on a P2W path; use A.15.3 typed filling only for independently declared positions. Establish actual Compare bindings under §4.1 and cite Work/provenance only under their own grounds.
+  *Avoid:* resolve the intended editions and policies, recording them in A.15.2 on a P2W path; use A.15.3 typed filling only for independently declared positions. Establish actual Compare bindings under §4.1.
 
 * **Anti‑pattern: “Tie‑breakers as hidden constants.”**
   *Symptom:* forced total order via untracked thresholds, epsilons, or “if equal then compare cost” logic.
-  *Avoid:* make tie-break policy part of explicit comparator and acceptance policies, pin their editions, and record their effective use in the dated comparison occurrence.
+  *Avoid:* make tie-break policy part of explicit comparator and acceptance policies, pin their editions, and keep their effective use in the actual `Compare` application recoverable.
 
 * **Anti‑pattern: “Unknown coerces to outcome.”**
   *Symptom:* missing evidence treated as equal, zero, or worse, producing decisive comparisons from absent information.
@@ -39127,7 +39133,7 @@ Apply the declaration checks to a CPM publication and the application checks to 
 
 * **Anti-pattern: Using one F.9 Bridge rule for both semantic and ReferencePlane crossings.**
   *Symptom:* an F.9 Bridge is required merely because reference schemes or planes differ; the separate C.2.1 bounded-use claim is absent; or `CL` and a bare `R_eff` penalty are treated as mandatory.
-  *Avoid:* cite an obtaining F.9 Bridge and separate bounded-use claim only for the semantic branch; cite the applicable ReferencePlane relation and policy for the plane branch; state both when both facts are current. Make only actually consumed refs recoverable for the actual `Compare` application. Recover dated `U.Work` when the account asserts it or the receiving use consumes it. Add `CL` only when needed. Open B.3 only for an actual named assurance claim, and use a local `R_eff` only if its declared domain model and calculation define it. Use A.10 for evidence provenance and ordinary bounded reliance, not to establish either crossing relation.
+  *Avoid:* cite an obtaining F.9 Bridge and separate bounded-use claim only for the semantic branch; cite the applicable ReferencePlane relation and policy for the plane branch; state both when both facts are current. Make only actually consumed refs recoverable for the actual `Compare` application. Add `CL` only when needed. Open B.3 only for an actual named assurance claim, and use a local `R_eff` only if its declared domain model and calculation define it. Use A.2.4 for evidence-use classification and A.10 when the bounded source-to-use account must remain replayable; the direct crossing patterns establish their relations.
 
 ### A.19.CPM:9 - Consequences
 
@@ -39143,7 +39149,7 @@ Apply the declaration checks to a CPM publication and the application checks to 
 2. **ComparatorSet gating:** declaring which comparisons are admissible, and under what scale or evidence rules, prevents “algorithm by convenience”.
 3. **Tri‑state guards:** explicit `pass|degrade|abstain` preserves epistemic honesty: unknown is not silently converted into an outcome.
 4. **Strict distinction:** separating compare from score and select prevents hidden semantic coupling and improves evolvability (methods change via wiring; kernel stays stable).
-5. **Single governing pattern:** keeping one governing pattern eliminates near-duplicate comparison descriptions that drift apart and destroy usability.
+5. **Single governing pattern:** one governing definition lets other descriptions cite the comparison semantics they use.
 
 ### A.19.CPM:11 - SoTA-Echoing
 
@@ -39155,7 +39161,7 @@ Concrete comparator-family SoTA packages are cited through their current Part G 
 | ----------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | **Fair ranking and constrained ranking** (e.g., Zehlike et al., 2017; Biega et al., 2018)                                             | Reinforces the “no hidden tie‑breaks and thresholds” stance: fairness constraints belong in explicit comparator and acceptance policies, not as silent kernel constants. | Integrate via `ComparatorSpec` editions in `CG‑Spec.ComparatorSet` + policy pins; CPM remains unchanged.              |
 | **Uncertainty-aware and set-valued inference** (e.g., Romano et al., 2019; Barber et al., 2021)                                       | Prediction intervals or other uncertainty results retain their own semantics. A declared comparator determines which relation tokens follow; an interval is neither a CPM token set nor by itself a reason for abstention.                         | Model as comparator families (or supporting method families) packaged in `G.2`; wired into declared `ComparatorSpec`. |
-| **Differentiable sorting and learned comparators** (e.g., Grover et al., 2019; Blondel et al., 2020) | When comparators are learned, explicit comparator specs, edition and policy bindings in the actual operation application, its `ComparisonResultSlot` binding, and A.10 evidence-provenance become even more important for replay and drift control. | Use a sorting or learned-comparison component only under a ComparatorSpec that establishes the returned relation semantics and required conditions; an algorithm label is insufficient. |
+| **Differentiable sorting and learned comparators** (e.g., Grover et al., 2019; Blondel et al., 2020) | Replay and drift assessment use the learned `ComparatorSpec` edition and the actual comparison's policy, argument and result bindings. Add an A.10 evidence-provenance account when the bounded source-to-use grounds must remain replayable. | Use a sorting or learned-comparison component only under a ComparatorSpec that establishes the returned relation semantics and required conditions; an algorithm label is insufficient. |
 
 ### A.19.CPM:12 - Relations
 
@@ -39174,9 +39180,9 @@ Concrete comparator-family SoTA packages are cited through their current Part G 
 * `A.2.4`, `A.10`, and `G.11` for evidence-use scope, provenance, and currentness, separately from comparison scope and outcome
 * `E.10` (lexical and ontological authoring rules; kind suffix discipline)
 * `E.19` (checks; authoring discipline)
-* `E.20` (governing-pattern discipline)
+* `E.20` for mechanism introduction or revision and governing-definition assignment
 * `F.18` (alias docking; ID continuity)
-* `E.18` (project transformation-flow structures consume CPM instances; CPM does not create a parallel “card deck”)
+* `E.18` for a selected transformation-flow structure that includes a CPM comparison
 
 **Relates to (typical named patterns in the CHR Uses contour):**
 
@@ -61399,7 +61405,7 @@ Notation independence vs useful scaling heuristics; local context vs cross‑con
 * **ScaleWindow.** Declared range of `S` values for which behaviour claims hold (editioned). This is **distinct from** **FreshnessWindow** used by parity.
 * **Scale‑Probe.** At least **two** (preferably **≥ 3**) **parity‑respecting** points in `S` within the ScaleWindow, recorded with **replicates/seeds** and **CI/error bars** to support elasticity classification. Pick points via a **small factorial or Latin‑hypercube** when multiple knobs vary.
 * **ElasticityClass** `χ ∈ {rising, knee, flat, declining}` — a **qualitative** class supported by the probe over the declared ScaleWindow. Leave `χ` unassigned when the observations and their uncertainty do not support a class, and state what remains unresolved. Numeric exponents/fits live in domain annexes, not Core.
-* **ParityNotes.** `iso‑scale parity?` flag and **loss notes** if not achieved, plus applicable **Bridge**, **Φ**, and **Ψ** IDs for actual crossings under **G.9**; penalties affect `R` only.
+* **ParityNotes.** `iso‑scale parity?` flag and **loss notes** if not achieved, plus applicable **Bridge**, **Φ**, and **Ψ** IDs for actual crossings under **G.9**; any numerical assurance penalty follows its applicable B.3 model.
 
 #### C.18.1:4.3 - Norms (SLL).
 
@@ -61442,7 +61448,7 @@ Notation independence vs useful scaling heuristics; local context vs cross‑con
 
 1. `S` declared **or** `S = N/A` with rationale.
 2. **Scale-probe** performed; the supported **χ** or unresolved classification recorded with **replicates and CI**; invariants disclosed.
-3. **iso-scale parity** or **loss notes**; any applicable penalties **→ R only**; editions/seeds pinned; ComparatorSet cited.
+3. **iso-scale parity** or **loss notes**; any numerical assurance penalty justified by its receiving B.3 model; editions/seeds pinned; ComparatorSet cited.
 4. If illumination is used as a tie-breaker, the selector cites the admitting policy, **χ** and **lens id** in **E/E-LOG** provenance.
 5. Knee claims cite the **policy threshold** and CI level used.
 
@@ -61462,7 +61468,7 @@ Here `χ?` means that the class is omitted when unresolved; uncertainty is not a
 
 ### C.18.1:11 - Consequences
 
-**Benefits.** SLL prevents scale claims from becoming rhetoric. A comparison can show which knobs were scaled, what window is covered, how much probe evidence supports the slope class, and what parity or normalization losses are declared, with any assurance penalties affecting `R` only rather than silently changing dominance.
+**Benefits.** A comparison can show which knobs were scaled, what window is covered, how much probe evidence supports the slope class, and what parity or normalization losses are declared, with any numerical assurance penalties justified by the receiving B.3 model. Dominance changes require their own admitting policy.
 
 **Trade-offs.** A supported scale claim needs observations at at least two scale points and recoverable invariants, phase, seeds, uncertainty and any applicable policy thresholds. Reuse of an applicable account can avoid new probing. The gain is that selectors, parity harnesses, refresh telemetry, and mathematical-lens uses can cite one bounded scale claim instead of guessing whether the observed behavior transfers.
 
@@ -64414,7 +64420,7 @@ Unstructured “readiness” stories and undisciplined evidence lead to:
 * (ii) ambiguous gating conditions that a dispatcher cannot apply,
 * (iii) reuse after the family, evidence profile, claim scope, qualification window, or comparison basis changed, or reliance on an unstated source-local, kind, or plane relation, and
 * (iv) Immature families leaking into production.
-  We need a **notation‑independent LOG layer** whose **executable rules** use **TaskSignature (S2)** + **EvidenceProfiles** to return *admit / degrade / abstain*, **routing CL penalties selected under R4 to `R_eff` only** (never mutating **F/G**).
+  We need a **notation‑independent LOG layer** whose **executable rules** use **TaskSignature (S2)** + **EvidenceProfiles** to return *admit / degrade / abstain*, retaining relation losses and any justified assurance consequences under R4.
 
 ### C.23:3 - Forces
 
@@ -64462,7 +64468,7 @@ with the following **branch obligations**:
 
 **R3 — Abstain.** If S2 violates **Eligibility** or R0 fails, return `Abstain` with the failed rule, reasons, and available policy, evidence-profile, scope, and qualification-window basis. Report missing references and unperformed judgements under §4.2.1. Abstain is mandatory for illegal CHR operations and when a conclusion depends on an F.9 Bridge, kind relation, or plane relation that has not been established.
 
-**R4 — Relation and loss routing.** Cite an F.9 Bridge, kind relation, or plane relation only when the admission decision actually relies on that obtaining relation. Record its participants, direction, what meaning is preserved and what is lost, receiving use, and applicable policy edition. When the admission use makes a separate named assurance claim, identify its exact target claim and receiving use under B.3. Apply a supported loss penalty only under that assurance policy's declared rule; route it to `R_eff` only, leaving `F` and `G` unchanged. A changed registry row, evidence profile, claim scope, qualification window, or intended use is not by itself a crossing.
+**R4 — Relation and loss routing.** Cite an F.9 Bridge, kind relation, or plane relation only when the admission decision actually relies on that obtaining relation. Record its participants, direction, what meaning is preserved and what is lost, receiving use, and applicable policy edition. When the admission use makes a separate named assurance claim, identify its exact target claim and receiving use under B.3. Assess loss under the receiving-use rule. A numerical assurance penalty requires an applicable domain model under B.3:4.3–4.4 and affects that model's declared assurance result. Expression properties, claim scope and admission conditions retain their own governing rules. A changed registry row, evidence profile, claim scope, qualification window, or intended use is not by itself a crossing.
 
 **R5 — Proof hooks.** Every branch **MUST** retain its **A.10 evidence/source basis** for the conclusion it makes. For an early `Abstain`, cite the available basis for the failed prerequisite and name the required evidence that could not be recovered. Evidence used by a branch retains the lane tags (TA/VA/LA) and freshness windows required by its CG-Spec.MinimalEvidence and EvidenceProfile; missing requirements remain explicit gaps under §4.2.1. Cite **Bridge ids + loss notes** when the branch relies on a Bridge; the decision is **SCR‑visible**. When **G.6 EvidenceGraph** is present, also **publish EvidenceGraph path id(s)** for the branch (admit/degrade/abstain). **A branch verdict is not its own evidence basis**.
 
@@ -64514,9 +64520,9 @@ When a maturity judgement is established for an admission use, publish or cite i
 **M1.** The ladder is **lane‑aware** (TA/VA/LA) and **freshness‑aware**; it is **not** a global numeric score. Declare **Scale kind=ordinal** and the **closed enumeration** of rungs; register the enum at **UTS** (twin labels; editioned).
 **M2.** Transitions **MUST** be justified by **EvidenceGraph** paths (once G.6 is available) and published at UTS; missing anchors ⇒ no advance.
 **M3.** Any maturity floor used for admission—for example, a run-critical selector use requiring at least L2—MUST be authored as a CAL.AcceptanceClause and cited by R1 with its policy edition, claim scope, qualification window, and verdict; SoS-LOG does not embed acceptance thresholds.
-**M4.** Declare the MaturityCard reference plane. If an admission decision relies on a relation to another plane, cite that exact obtaining plane relation, its direction and loss, and the applicable policy edition; a supported loss penalty selected under R4 affects `R_eff` only.
+**M4.** Declare the MaturityCard reference plane. If an admission decision relies on a relation to another plane, cite that exact obtaining plane relation, its direction and loss, and the applicable policy edition; any loss assessment or assurance penalty follows R4.
 
-> *Rationale note.* Treating maturity as a **poset** aligns with B.3's requirement for lawful comparisons and avoids **scalarisation across ordinal/ratio** scales; assurance penalties selected under R4 affect **`R_eff`**, never **F/G**.
+> *Rationale note.* Treating maturity as a **poset** aligns with B.3's requirement for lawful comparisons and avoids **scalarisation across ordinal/ratio** scales; assurance calculations follow R4; maturity and admission retain their separate rules.
 
 #### C.23:4.4 - Unknowns & Shift classes (tri‑state discipline)
 
@@ -64585,7 +64591,7 @@ Maturity is evidence-relative: a rung established for one family, scope and use 
 | **CC-C23.2** | Each `AdmissibilityLedger` row MUST identify the exact MethodFamilyId and registry edition, S2, rule edition, intended use, claim scope, qualification window, decisive branch, and decision result. It MUST retain the consulted policy editions, established or applicable reused Eligibility, CG-Spec, evidence-profile and Acceptance results, and Γ-fold contributors where used; required missing bases and unperformed judgements are reported under §4.2.1. The A.10 source basis and any G.6 path ids follow R5; relation and loss-policy ids appear only when relied on. | Keeps the premises of each actual branch reconstructable, including early refusal. |
 | **CC‑C23.3** | Enumerations used by the rules (**Degrade(mode)**; Maturity rungs) **SHALL** be **closed** and **UTS‑registered** (twin labels). | |
 | **CC‑C23.4** | **Unknowns** in live S2 fields **SHALL** map to `Degrade(mode)` (including `sandbox`) or `Abstain` with explicit **branch‑ids**; no `unknown→0/false` coercions.                                                          | Tri‑state discipline.                          |
-| **CC-C23.5** | If a branch relies on an F.9 Bridge, kind relation, or plane relation, it MUST cite that exact obtaining relation, direction, what meaning is preserved and what is lost, receiving use, and applicable loss policy; supported penalties selected under R4 affect `R_eff` only. A changed family, evidence profile, claim scope, qualification window, or use is not by itself a crossing. | Keeps `F` and `G` invariant and relation claims truthful. |
+| **CC-C23.5** | If a branch relies on an F.9 Bridge, kind relation, or plane relation, it MUST cite that exact obtaining relation, direction, what meaning is preserved and what is lost, receiving use, and applicable loss policy; loss assessment and any assurance penalty follow R4. A changed family, evidence profile, claim scope, qualification window, or use is not by itself a crossing. | Keeps relation, loss, assurance and admission claims separate. |
 | **CC‑C23.6** | **No acceptance thresholds** in CHR or Maturity; acceptance thresholds **live only** in **AcceptanceClauses** (G.4).                                                                                             | Separation of concerns.                       |
 | **CC‑C23.7** | `MaturityCard` **SHALL NOT** be turned into a global scalar; treat as **poset**; any ordering **MUST** be lawful over CHR types.                                                           | Forbids cross‑scale scalarisation.            |
 | **CC‑C23.8** | Publish to **UTS** with twin labels. Run **GateCrossing visibility checks** only for a cited crossing of a selected **E.18** transformation-flow structure. Require **CrossingBundle** attestation only when the named receiving use needs it; apply **E.18/F.9/F.17/E.17** under their respective current uses. Apply **LanePurity** and **Lexical SD** (**E.10**); use GateChecks/GateProfile (**A.21**) only when a named gate decision is current. | Publication & crossing visibility hygiene. |
@@ -64601,7 +64607,7 @@ Maturity is evidence-relative: a rung established for one family, scope and use 
 
 * **Explainable admission.** Every *Admit/Degrade/Abstain* is backed by **anchored** evidence and explicit unknown handling (selector reports are SCR‑linked).
 * **Run‑safe pluralism.** Multiple families can co‑exist with **policy‑governed** exploration (E/E‑LOG) and maturity‑aware gating.
-* **Portable governance.** Bridge hygiene makes cross‑Tradition reuse **deliberate**; when a supported penalty is selected under R4, declared CL routing makes it **costed** through **`R_eff`** only.
+* **Cross-Tradition reuse.** The account identifies the obtaining relation, its limitations, and any justified assurance penalty under R4.
 
 ### C.23:9 - Rationale
 
@@ -113016,7 +113022,7 @@ Checks include:
 * membership has **set semantics**: `mechanisms` is duplicates-free and order carries no semantics; any intended ordering is expressed only in `suite_protocols`,
 * suite protocols satisfy **A.6.7 WF-MS-2**: if `suite_protocols` is present, each step resolves to a selected member edition and a declaration-local operation in that edition; membership alone does not resolve the step,
 * the suite is not a family of implementations: it MUST NOT be encoded as a `MechFamilyDescription` (families remain “many realizations of one mechanism”, not “many mechanisms”),
-* the suite creates no transport exception. Apply `A.6.7:4.2` to the actual claim: an F.9 semantic correspondence needs its obtaining Bridge, a C.3.3 kind correspondence needs its own basis, and a separately claimed plane relation keeps its direct governor. A changed entity, edition, plane or notation alone creates none of those relations. Retain every activated channel's references and receiving-use conditions under `G.Core:4.2.3`; loss penalties remain in `R/R_eff`, and the suite carries pins rather than CL/Φ/Ψ/Φ_plane tables,
+* the suite creates no transport exception. Apply `A.6.7:4.2` to the actual claim: an F.9 semantic correspondence needs its obtaining Bridge, a C.3.3 kind correspondence needs its own basis, and a separately claimed plane relation keeps its direct governor. A changed entity, edition, plane or notation alone creates none of those relations. Retain every activated channel's references and receiving-use conditions under `G.Core:4.2.3`; loss assessment follows the receiving-use rule, numerical assurance penalties satisfy A.6.7:4.2(2), and the suite carries pins rather than CL/Φ/Ψ/Φ_plane tables,
 * CG/CN authority pins remain explicit references to the single governance card and legality gate: if suite protocols include numeric comparison/aggregation/scoring, they cite `CG‑Spec` (SCP + Γ-fold + MinimalEvidence) and (where applicable) `CN‑Spec`, rather than duplicating “local CG‑Spec-like” content,
 * suite protocols contain **no hidden tails**: if UNM/UINDM/ULSAM are required, the protocol expresses them as explicit `Uses` steps and suite audit requirements cite the chosen mechanism ids/refs (no “implicit normalization/aggregation inside score/compare/select”),
 * gate separation is preserved: mechanisms and guards use tri-state `GuardDecision := {pass|degrade|abstain}` and MUST NOT publish `GateDecision` or `DecisionLog`; `block` remains gate-level only (`OperationalGate(profile)`),
@@ -126620,7 +126626,7 @@ For each Part G invariant already defined elsewhere, `G.Core`:
 | `crossing_visibility_required` | E.18 (CrossingBundle) + A.6.7 | When a named downstream use requires durable E.18 crossing evidence, publish the required **CrossingBundle**. `edition_key` changes on **crossing‑relevant artefacts** (Bridge/CL surfaces, BridgeCards, CrossingBundle registries, and UTS rows for crossing artefacts) are treated as crossing-bundle edits. If the bundle required by that use is missing/non‑conformant, downstream consumers MUST **abstain** from that cross-Context or cross-plane use (no silent crossings). |
 | `independent_correspondence_requirements` | A.6.7 + C.3.3 | When a use actually relies on correspondence between distinct kinds, cite the obtaining KindBridge and separately check receiving admissibility and classification. A changed entity alone establishes no kind or semantic Bridge. |
 | `guard_decision_tristate(pass|degrade|abstain)` + `unknown_never_coerces_to_pass` | A.6.7 + C.23 | `GuardDecision := {pass|degrade|abstain}` only; `unknown` maps to `degrade`/`abstain` via explicit SoS‑LOG branch/policy pins. |
-| `penalties_route_to_r_eff_only` | A.6.7 | Penalties affect the **R lane (R_eff)** only; **F/G invariants** must not be altered by penalties. |
+| `penalties_route_to_r_eff_only` | A.6.7:4.2(2) | Model-bound penalty condition: apply the named model's result meaning and applicability; loss assessment and numerical assurance penalties follow that governing clause. |
 | `no_silent_scalarisation_of_partial_orders` + `no_silent_totalisation` | A.6.7 | Partial-order results stay set‑valued; no silent scalar ranks or “helpful” totalisation. |
 | `planned_filling_in_workplan` + `actual_launch_facts_and_witness` + `gate_decision_separation` | A.15.2 + A.15.3 + A.19.CHR + A.6.7 + E.18:5.6 | Edition/reference baselines are A.15.2 WorkPlan content; A.15.3 applies only to independently declared members. Preserve the planned values. An actual launch claim requires independently admitted Work and obtaining direct relations or exact application bindings; any FinalizeLaunchValues witness is a separate episteme. GateDecision/DecisionLog semantics remain with their gate governor. |
 | `DefaultGoverningDefinitionIndex.single_governing_definition_per_DefaultId` | this pattern | Any default names exactly one governing definition; `G.Core.DefaultGoverningDefinitionIndex` is an index, not a second spec. |
@@ -126695,7 +126701,7 @@ A `GCorePinSetId` is a stable identifier for a named set of commonly recurring *
 | F.9 semantic correspondence | the obtaining Bridge and its BridgeCard/source basis required by F.9; CL when the use reports or consumes that calibration |
 | C.3.3 kind correspondence | exact kind endpoints and KindBridge assertion/basis; CL^k when its governing calibration or receiving rule uses it |
 | Separately governed plane relation | its exact relation reference, source/target planes and direct rule; CL^plane only for a defined calibration used here |
-| Numerical loss or assurance calculation | the exact Φ, Ψ or Φ_plane policy and model actually applied; penalties remain in R/R_eff |
+| Numerical loss or assurance calculation | the applicable domain model and policy actually used; include Φ, Ψ or Φ_plane references when the model uses them. Any numerical assurance penalty satisfies A.6.7:4.2(2). |
 | E.18 flow crossing, A.21 gate, public naming or path-citable reliance | the bundle, gate, UTS and path anchors required by that independently applicable rule; an edition change alone supplies none of these objects |
 
 When more than one channel is used, retain every channel's independently required basis. A no-crossing use has no crossing pins; a same-kind new entity or changed source edition alone creates no Bridge. The conditional marks permit omission only for an inactive condition, not omission of a reference required by a real calibration, assurance or gate claim.
@@ -126899,7 +126905,7 @@ Conformance items are authoring obligations and are enforced transitively by `CC
 | **CC‑GCORE‑OBL‑1**   | A conforming `G.Core` SHALL treat the obligation vocabulary in `A.6.7:4.2` as the canonical naming surface for Part‑G‑wide obligations and SHALL NOT introduce competing obligation names for the same norms. |
 | **CC‑GCORE‑CROSS‑1** | A Part-G pattern SHALL apply A.6.7's correspondence and visibility obligations only to the actual relations and receiving uses defined there. An F.9 correspondence, C.3.3 kind correspondence and separately governed plane relation keep their own bases; an actual E.18 flow crossing or A.21 gate keeps its required bundle/gate anchors. Changes to crossing-relevant artefacts trigger RSCRTriggerKindId.CrossingBundleEdit and, for a changed edition pin, EditionPinChange under multi-cause discipline. A changed entity, context/plane label or edition alone creates neither Bridge nor crossing. |
 | **CC‑GCORE‑GUARD‑1** | A Part‑G pattern SHALL treat `GuardDecision := {pass|degrade|abstain}` as the only admissibility/eligibility decision domain (`SuiteObligations.guard_decision_tristate(pass|degrade|abstain)`); `unknown` SHALL NOT silently coerce to `pass` (`SuiteObligations.unknown_never_coerces_to_pass`); “sandbox/probe‑only” SHALL be expressed via SoS‑LOG branch pins (policy/FailureBehavior) (see `C.23`), not as an extra decision value. |
-| **CC‑GCORE‑PEN‑1**   | A Part‑G pattern SHALL route penalties/assurance loss to the **R lane (`R_eff`) only** (`SuiteObligations.penalties_route_to_r_eff_only`) and SHALL preserve **F/G invariants** under penalties (penalties do not alter legality/invariant lanes). |
+| **CC‑GCORE‑PEN‑1**   | A Part-G pattern SHALL apply A.6.7:4.2(2) to its loss and assurance-penalty claims (`SuiteObligations.penalties_route_to_r_eff_only`), including that clause's model-bound applicability and separation from legality, invariant and claim-scope judgments. |
 | **CC‑GCORE‑SET‑1**   | A Part‑G pattern SHALL preserve set-return semantics for partial orders and SHALL prohibit silent scalarization/totalization (`SuiteObligations.no_silent_scalarisation_of_partial_orders`, `SuiteObligations.no_silent_totalisation`); any scalar summary SHALL be report-only unless declared as an admissible comparator surface. |
 | **CC‑GCORE‑SKP‑1**   | A Part‑G pattern SHALL preserve the suite/kit/pack distinction (A.19.CHR) and SHALL keep shipping concerns governed by their canonical governing patterns (e.g., G.10) rather than embedding shipping semantics into unrelated kits or core invariants. |
 | **CC‑GCORE‑P2W‑1**   | A Part-G pattern identifies an ordinary edition/reference baseline through its exact A.15.2 WorkPlan and local content locator. A.15.3 typed planned filling applies only to an independently declared argument or relation position, with its own meaning and binding rule. Final launch values and actual bindings remain enactment claims; gate decisions keep their own governor. |
@@ -127111,9 +127117,9 @@ CG‑Spec :=
            ⟩,
 
   // Penalty routing and plane policies are by explicit policy ids.
-  // For semantics (tri-state, penalties→R_eff-only, crossing visibility, set-return), cite G.Core and the governing definitions it identifies.
-  CL‑Routing := ⟨policy_id, map Bridge.CL → penalty_spec⟩,
-  Φ := ⟨phi_policy_id, phi_table_ref?, psi_policy_id?, phi_plane_policy_id?⟩,
+  // For semantics (tri-state, receiving-use loss, model-bound assurance penalties, crossing visibility, set-return), cite G.Core and its governing definitions. The policy fields below are conditional; supply every reference required by the selected use or model.
+  CL‑Routing? := ⟨policy_id, map Bridge.CL → penalty_spec⟩, // when the selected use or model maps Bridge.CL to a penalty
+  Φ? := ⟨phi_policy_id?, phi_table_ref?, psi_policy_id?, phi_plane_policy_id?⟩, // when any of these policies is used
 
   AcceptanceStubs := [AcceptanceStubId…],     // templates only; thresholds remain governed by CAL (G.4)
 
@@ -127126,7 +127132,7 @@ CG‑Spec :=
   ⟩,
 
   RSCR := ⟨
-  RSCRTestId[]?,             // SHOULD cover: illegal_op_refusals; unit and scale legality checks; freshness windows; // partial-order scalarisation refusals; threshold semantics; CL→R_eff routing;
+  RSCRTestId[]?,             // SHOULD cover: illegal_op_refusals; unit and scale legality checks; freshness windows; // partial-order scalarisation refusals; threshold semantics; declared-model penalty calculations when used (including a selected CL→R_eff model);
                             // and refusal of degrade.order on unit mismatches (MM‑CHR).
     RSCRTriggerKindId[]
   ⟩,
@@ -127279,9 +127285,9 @@ All blocks below are `GPatternExtension` modules (PatternScopeId; not new Patter
 | CC‑G0‑04 | `SCP` declares, per characteristic, the lawful operation regime needed for each referenced comparator (scale/unit/polarity constraints and any required proofs/refs). |
 | CC‑G0‑05 | `MinimalEvidence` is declared per characteristic and includes explicit lane/carrier requirements, freshness window references (if any), and explicit failure behavior wiring (tri-state semantics delegated). If freshness windows are used, a stable reference making the applicable window recoverable (e.g., a `PathSliceId` with its declared time window) MUST be pinned for audit. |
 | CC‑G0‑06 | The edition-addressable Γ-fold segment **MUST** cite `DefaultId.GammaFoldForR_eff` at `G.5 CC‑G5.4`. Pin any numerical model/policy actually used, with its receiving quantity, input meanings and scales, dependencies, operation and proof/justification refs as required by that governing rule and B.3/C.2.2. With no justified numerical fold, retain the separate support permitted by the governing rule; the segment is not a demand for a score. |
-| CC‑G0‑07 | If crossing penalties are used, `CL‑Routing` and `Φ` policy ids are explicit and auditable (policy ids are exposed as pins/refs) **and are required pins for downstream SCR publication on penalised claims** (see `G.6`). |
+| CC‑G0‑07 | If crossing penalties are used, all policy ids used by the selected model are explicit and auditable (exposed as pins/refs, including applicable `CL‑Routing` and `Φ` entries) **and are required pins for downstream SCR publication on penalised claims** (see `G.6`). |
 | CC‑G0‑08 | `AcceptanceStubs` in `CG‑Spec` are templates only; any context-local thresholds/acceptance policies are governed by CAL acceptance artefacts (G.4) and are cited, not duplicated. |
-| CC‑G0‑09 | RSCR tests and triggers for edits to legality surfaces and evidence minima are present and use canonical `RSCRTriggerKindId`s. The RSCR test set SHOULD cover at least: illegal_op_refusals; unit and scale legality checks; freshness windows; partial-order scalarisation refusals; threshold semantics; CL→`R_eff` routing; refusal of `degrade.order` on unit mismatches (MM‑CHR). |
+| CC‑G0‑09 | RSCR tests and triggers for edits to legality surfaces and evidence minima are present and use canonical `RSCRTriggerKindId`s. The RSCR test set SHOULD cover at least: illegal_op_refusals; unit and scale legality checks; freshness windows; partial-order scalarisation refusals; threshold semantics; declared-model penalty calculations when used (including a selected CL→`R_eff` model); refusal of `degrade.order` on unit mismatches (MM‑CHR). |
 | CC‑G0‑10 | `PublicIdContinuity` is declared: governing definition, DRR link, refresh cadence, decay and aging policy, and deprecations. Deprecations preserve lexical continuity (Δ-discipline; delegated to `CC‑GCORE‑ID‑*`). |
 | CC‑G0‑11 | *(Conditional)* If `Illumination` / QD hooks are present, `DescriptorMapRef.edition`, `DistanceDefRef.edition`, and any `InsertionPolicyRef` / promotion policy ids are pinned (or explicitly marked absent) and are recorded in provenance/audit pins. |
 | CC‑G0‑12 | *(Conditional)* If freshness windows influence gating/selection, they are published and enforced, and references making the relevant windows recoverable (`PathSliceId` with a declared time window, or equivalent) are recorded in SCR/audit pins. |
@@ -128008,7 +128014,7 @@ A conforming `G.2` pack publication is built by iterating the following conceptu
 6. **(Alias: G.2‑F) Construct a needed synthesis and record asserted fusion/substitution.**
    Use B.1.3:4.4 to construct a joint conclusion from the source claims when the receiving question needs one. Recover their support and conflict relations, shared dependencies, subject and applicability before composing. A qualified synthesis with separately stated support can suffice when no common numerical model is justified.
 
-   If a `G.2` pack publication asserts fusion or substitution across sources or across `Tradition` records (beyond mere “parallel divergent claims”), it **MUST** emit `GammaEpistSynthId` records per `G.2:Ext.GammaEpistSynthesis` (provenance union + explicit object alignment refs + assurance tuple refs), and it **MUST** keep penalties routed to `R_eff` only by delegation (`CC‑GCORE‑PEN‑1`).
+   If a `G.2` pack publication asserts fusion or substitution across sources or across `Tradition` records (beyond mere “parallel divergent claims”), it **MUST** emit `GammaEpistSynthId` records per `G.2:Ext.GammaEpistSynthesis` (provenance union + explicit object alignment refs + assurance tuple refs), and it **MUST** apply `CC‑GCORE‑PEN‑1` to its loss assessment and any numerical assurance penalty.
 
 7. **Publish teachable micro‑groundings.**
    Attach worked micro-examples to load-bearing claims, each tied to the exact source and edition, claim region, EntityOfConcern, comparison basis, intended use, and evidence carrier or A.10 evidence-provenance path.
@@ -129150,7 +129156,7 @@ The pattern mitigates these by requiring typed acceptance clauses, explicit poli
 | **CC‑G4‑04** | Every reusable `CAL.Acceptance` binds the exact Characteristic and exact A.6.1 `resultInputDeclarationRef` values that declare the admissible C.16 measurement-result episteme inputs; the exact current result episteme is bound only in an actual application. A clause marked one-off may additionally cite `fixedResultEpistemeRefs[]?`. Every clause also declares its predicate or threshold, `ClaimScope`, evaluation window, any separate qualification window that limits use, unknown handling, and failure behavior. A statistically risk-controlled clause also names its loss, target, calibration population and window, sampling or exchangeability assumptions, declared treatment of shift, and the exact policy that states or defines the guarantee. Inputs with distinct source-local meanings cite the exact F.17 cells and obtaining F.9 relation; cross-plane or cross-edition inputs cite their applicable crossing records. None of these declarations establishes performed evaluation or a verdict. |
 | **CC‑G4‑05**      | If an acceptance clause, operator, or flow induces numeric comparison or aggregation, it cites the relevant `CG‑Spec.characteristic` ids and links to legality proof refs (CSLC) in the ProofLedger; otherwise it must be authored so that downstream can degrade or abstain rather than perform illegal operations. |
 | **CC‑G4‑06**      | Every `CAL.Flow` declares its result kind and the set of gating acceptance clauses; any thinning/selection‑aid policies (e.g., ε‑front selection) are explicitly policy‑bound and do not silently replace the underlying result kind.                                                                      |
-| **CC‑G4‑07** | Every `CAL.EvidenceProfile` declares the provenance anchors, evidence lanes, and currentness or loss-policy pins its use needs. It cites `DefaultId.GammaFoldForR_eff` for B.3/C.2.2 support-model discipline and pins any numerical Γ-fold actually used. That calculation must preserve input meanings, scales, dependencies, formal/empirical distinctions, and mapping limits; absent a common model, retain separate support and a bounded synthesis. Losses affect R only and do not define dominance or an acceptance threshold. |
+| **CC‑G4‑07** | Every `CAL.EvidenceProfile` declares the provenance anchors, evidence lanes, and currentness or loss-policy pins its use needs. It cites `DefaultId.GammaFoldForR_eff` for B.3/C.2.2 support-model discipline and pins any numerical Γ-fold actually used. That calculation must preserve input meanings, scales, dependencies, formal/empirical distinctions, and mapping limits; absent a common model, retain separate support and a bounded synthesis. The selected receiving model determines which results a numerical loss consequence affects, including whether an R-only restriction applies. Loss assessment alone defines neither dominance nor an acceptance threshold. |
 | **CC‑G4‑08** | `CAL.ProofLedger` links each operator, flow, or clause to its required proof or justification and explicit failure behavior. A numerical Γ-fold or loss includes its receiving quantity, input scales, dependency model, derivation or calibration, assumptions, and boundary behavior; monotonicity and boundedness alone are insufficient. A missing required model cannot be repaired by F-to-R conversion or an invented default score. |
 | **CC‑G4‑09**      | CAL publication includes RSCR tests and Worked‑Examples sufficient to detect illegality (incl. unit laundering / ordinal arithmetic), to exercise authored acceptance/flow behavior, and to validate the authored freshness envelope when it is part of admissibility; missing tests/examples are treated as an auditable gap, not as “assumed OK”. |
 | **CC‑G4‑10**      | Each `TaskMapRef = <taskMapId, taskMapEdition>` resolves one immutable map edition containing the exact `CALCharterRef`, task, C.22 `TaskSignatureRef`, and edition-bearing acceptance-clause, operator, flow, and evidence-profile refs used by selection. Changing the charter, task, signature edition, or a cited component creates a new map edition. When G.4 gates are current, G.5 consumes this exact map alongside the same `TaskSignatureRef`; a mismatch or unresolved ref blocks that gated selector use. The map neither constructs the TaskSignature nor embeds thresholds or duplicates acceptance semantics. |
@@ -130501,7 +130507,7 @@ For a stated F.9 correspondence, optional CL shorthand means: `0` contradicted, 
 
 A receiving policy may impose an additional threshold for one named use. Cite that use, the policy's justification and authority, and its other necessary premises. The threshold is an additional policy condition, not F.9's general law. A `WaiverRef` identifies an authorized exception to that policy only: it supplies no missing correspondence, target fact, suitable-use claim or evidence. Preserve any narrower allowed use and its independently supported conditions.
 
-**Plane and loss policies.** When a receiving use relies on a plane relation, name the source and target planes, its predicate, calibration basis and applicable policy. Missing required plane information leaves that use unresolved. Keep any downstream `abstain` or policy-bound `degrade` under its receiving guard. Plane evidence does not rewrite CL or CL^k; a numerical loss requires its own receiving model and policy, with the consequence in R only.
+**Plane and loss policies.** When a receiving use relies on a plane relation, name the source and target planes, its predicate, calibration basis and applicable policy. Missing required plane information leaves that use unresolved. Keep any downstream `abstain` or policy-bound `degrade` under its receiving guard. Plane evidence does not rewrite CL or CL^k; a numerical loss requires its own receiving model and policy.
 
 **(D) SentinelSet & BridgeSentinel — object.**
 A `SentinelSet` is a watch‑list that connects bridge calibration changes to RSCR‑ready triggers scoped to downstream consumption.
@@ -130526,7 +130532,7 @@ For each correspondence selected for calibration, grouped by Tradition pair and 
 2. **Record row scope and losses.** Author a `RowScopeId` and record loss notes as first‑class citations (e.g., `LossNoteRef[]`), not as informal footnotes.
    Record the calibration basis and any meaningful channel summary under §4.2.1. If a receiving use is named, cite its separate suitability/classification and reliance results. Cite a waiver only for its exact authorized policy exception; it does not repair missing evidence.
 3. **Resolve any plane claim.** If the row or receiving use consumes a plane relation, record its exact reference, source and target planes, governing rule and any plane policy actually applied. A kind-only or sense-only row creates no plane claim.
-4. **Expose policies actually used.** Record policy and model references for a named threshold, exception, numerical loss or assurance calculation. Calibration without such a receiving use needs no invented Φ/Ψ/Φ_plane policy. Applied penalties retain G.Core's R/R_eff-only rule.
+4. **Expose policies actually used.** Record policy and model references for a named threshold, exception, numerical loss or assurance calculation. Calibration without such a receiving use needs no invented Φ/Ψ/Φ_plane policy. Apply the loss and model-qualified assurance conditions of `CC‑GCORE‑PEN‑1` to the actual use.
 5. **Summarize only a common calibration basis.** Use the minimum only under §4.2.1's shared-scale and shared-question conditions. Retain each actual loss and counterexample; otherwise report the separate cell results or the unresolved basis.
 6. **Regression and sentinel wiring.** Create/update the `RegressionSet` and `SentinelSet`. Any calibration change that can affect downstream audit (CL/CL^k/plane pins, relevant policy ids, edition pins for involved telemetry surfaces, freshness window) emits typed RSCR triggers (canonical ids; scope + payload pins).
    If the regression harness is run, record a citable `RegressionRunRef` (or equivalent run/delta reference) and attach it to the relevant ledger entries (pin‑first; no narrative-only deltas).
@@ -130963,7 +130969,7 @@ SoS-LOGBundle@Context :=
 **Binding obligations B1–B5 (packaging‑only; wiring‑only; semantics delegated):**
 
 * **B1 — Evidence wiring.** At packaging time the bundle SHOULD provide resolvable evidence refs (typically `A10EvidenceGraphRef?[]` and/or `EvidenceGraphId?`). At run time, admissibility outcomes SHOULD cite `PathId/PathSliceId` when available (`G.6`), so rung transitions and `degrade/abstain` traces are audit‑stable.
-* **B2 — CL/plane routing pins.** When reuse depends on a sense, kind or plane correspondence, the bundle/ledger MUST cite its obtaining relation and receiving-use grounds under G.Core:4.2.3. An F.9 use keeps its separate bounded-use claim and reliance basis through `G.8:Ext.BridgeReuseWiring`; kind and plane uses retain their direct governing conditions. The bundle/ledger MUST pin the Bridge/CL/Φ/Ψ/Φ_plane references actually required by that use (reference-only; policy ids resolvable per `F.8:8.1`). CL and loss-policy pins are mandatory only when required by the actual calibration or separate named assurance account. Any supported penalty MUST follow that assurance policy's declared rule and respect the core penalty routing (penalties affect `R_eff` only; `F/G` invariance via `G.Core`).
+* **B2 — CL/plane routing pins.** When reuse depends on a sense, kind or plane correspondence, the bundle/ledger MUST cite its obtaining relation and receiving-use grounds under G.Core:4.2.3. An F.9 use keeps its separate bounded-use claim and reliance basis through `G.8:Ext.BridgeReuseWiring`; kind and plane uses retain their direct governing conditions. The bundle/ledger MUST pin the Bridge/CL/Φ/Ψ/Φ_plane references actually required by that use (reference-only; policy ids resolvable per `F.8:8.1`). CL and loss-policy pins are mandatory only when required by the actual calibration or separate named assurance account. Any numerical assurance penalty MUST satisfy `CC‑GCORE‑PEN‑1`, including its model applicability and declared-result conditions.
 * **B3 — Retention policy and QD fields.** Record `PortfolioMode` and dominance inputs under CC-G8-5 and their G.5 definitions. When the bundle or ledger actually binds a QD or QD-using generator branch, pin the descriptor, distance, insertion and emitter definitions required for that use under CC-G8-6. `PortfolioMode=Archive` alone preserves evidence and requires no QD definitions. Any illumination telemetry remains report-only unless a `G.4` governing-pattern policy authorises its dominance contribution and that policy id is recorded in the run-time trace.
 * **B4 — Open‑ended fields.** If the bundle binds an open‑ended generator family, it MUST pin `GeneratorFamilyRowRef` and `TransferRulesRef.edition` (and any validity region/coupler policy ids when used). Unknown transfer validity MUST be recorded as `degrade`/branching, not as an ad‑hoc fourth status.
 * **B5 — Telemetry hooks.** On any material telemetry event (illumination increase, archive insertion, probe accounting update, open‑ended coverage/regret proxy update), the emitted telemetry pins SHOULD include the controlling policy ids plus the relevant edition pins (e.g., `DescriptorMapRef.edition`, `DistanceDefRef.edition`, `TransferRulesRef.edition`) and, when available, `PathSliceId` to keep RSCR planning auditable.
@@ -131056,7 +131062,7 @@ This card is a **description** suitable for dispatch/audit and refresh; it is no
 **RSCRTriggerSetIds:** `{GCoreTriggerSetId.BridgeCalibrationKit}` *(only if the bundle/ledger explicitly binds calibration records by id)*
 **Notes (wiring‑only):**
 * Present when `SoS-LOGBundle@Context` actually uses an F.9 sense correspondence. A combined kind or plane use retains its separate relation and receiving conditions under G.Core:4.2.3.
-* The wiring MUST keep the obtaining Bridge reference, the separate bounded-use claim (use, direction, rule, and tolerated loss), and the `A.10` reliance basis citable. A separate named assurance use also cites its exact target claim, receiving use, and `B.3` assurance basis/result. Required CL values, policy editions, and evidence remain mandatory for that account; a supported loss penalty is applied only under the assurance policy's declared rule, to `R_eff` only. Ordinary supported reuse does not require a CL shorthand, calibration record, loss-policy id, or assurance claim merely to fill the package.
+* The wiring MUST keep the obtaining Bridge reference, the separate bounded-use claim (use, direction, rule, and tolerated loss), and the `A.10` reliance basis citable. A separate named assurance use also cites its exact target claim, receiving use, and `B.3` assurance basis/result. Required CL values, policy editions, and evidence remain mandatory for that account; any numerical assurance penalty satisfies the model applicability and declared-result conditions of `CC‑GCORE‑PEN‑1`. Ordinary supported reuse does not require a CL shorthand, calibration record, loss-policy id, or assurance claim merely to fill the package.
 
 #### G.8:5.4 - `G.8:Ext.QDArchiveTelemetry`
 
@@ -131444,7 +131450,7 @@ Planning records the conditions needed to repeat and interpret the parity run:
 7. **Bind comparator choice to CG-Spec (CSLC comparability and admissibility).** Any numeric comparison or aggregation MUST be CSLC‑admissible and cite the corresponding CG‑Spec entry (via `ComparatorSpecRef`). If Characteristics differ by unit, scale, or space, the plan MUST declare the ids used for “normalize, then compare” (`UNM_id?`, `NormalizationMethodId[]?`, `NormalizationMethodInstanceId[]?`) — ids only; semantics are defined elsewhere.
 8. **Declare order & PortfolioMode semantics.** Parity MUST preserve set‑return semantics; `PortfolioMode` and `DominanceRegime` are either explicitly pinned or cited through `G.Core.DefaultGoverningDefinitionIndex`. IlluminationSummary/coverage/regret remain telemetry unless a CAL policy explicitly promotes them (policy‑id pinned & recorded).
 9. **Attach planned fillings when applicable.** If parity depends on planned slot fillings, this WorkPlan contains the relevant A.15.3 rows in `PlannedFillingRows[]`; each row points to a declaration member defined by its own pattern and has no independent reference or identity. Omit the field when no such row is needed.
-10. **Publish the relation and its receiving use (when invoked).** For distinct recovered F.17 meanings, establish the F.9 relation and the separate bounded-use claim and matching reliance. Cite G.7 calibration, CL and policy pins when that account uses them; its summary does not decide parity admissibility. Kind correspondence also requires receiving admissibility and fresh target classification under C.3.3. A plane relation keeps its own basis. Supported penalties affect R only under the receiving model.
+10. **Publish the relation and its receiving use (when invoked).** For distinct recovered F.17 meanings, establish the F.9 relation and the separate bounded-use claim and matching reliance. Cite G.7 calibration, CL and policy pins when that account uses them; its summary does not decide parity admissibility. Kind correspondence also requires receiving admissibility and fresh target classification under C.3.3. A plane relation keeps its own basis. Any numerical assurance penalty follows the applicable B.3 model for the named use.
 
 #### G.9:4.3 — Execution protocol (run‑time / selector‑adjacent)
 
@@ -132569,7 +132575,7 @@ For a later decision that requires V2, the team compares using a qualified indep
 | **CC‑G11.1 (Slice-scoped planning).** | A conforming `RefreshPlan@Context` **SHALL** name its complete affected scope as `PathSliceId[]` (preferred where graph-expressed) or `PatternScopeId[]` and record canonical `RSCRTriggerKindId` for each planned cause. Its closure rationale **SHALL** account for all actual dependent uses that can change within the declared coverage, including shared-premise branches and combining uses. Pack-wide reruns **MAY** occur only if that closure spans all slices. | Prevents both unrelated reruns and omission of another dependent use. |
 | **CC‑G11.2 (Edition discipline; QD and OEE wiring).**     | When QD, OEE, or both are active, a conforming `RefreshPlan@Context` and `RefreshReport@Context` **SHALL** satisfy the required pin, edition, and policy wiring of the applicable extension blocks: `G.11:Ext.QDRefreshWiring`, `G.11:Ext.OEERefreshWiring`, or both. **`.edition` SHALL apply only on `…Ref`.** Missing required pins **SHALL** block publication. | Keeps replayability strict while keeping method-specific pin lists inside the applicable extension blocks.                  |
 | **CC‑G11.3 (Telemetry-metric admissibility).** | A refresh **SHALL** retain the metrics and pins required by the applicable subject method and receiving contract. Any Q, D, QD-score, coverage or regret it publishes **SHALL** be published as telemetry metrics, and any published IlluminationSummary as a telemetry summary. These values **SHALL** be excluded from dominance unless a CAL policy explicitly promotes them, and the promoting policy id **SHALL** be recorded in SCR-visible evidence bindings through the cited subject patterns. | Preserves required telemetry and prevents covert scalarisation. |
-| **CC‑G11.4 (Bridge penalties).** | Any refresh reacting to a sense or kind correspondence change or to a change in an independently governed plane relation **SHALL** satisfy `CC‑GCORE‑PEN‑1`. It **SHALL** preserve the obtaining relation under its direct governor, cited calibration basis and losses, and the separate receiving-use and reliance claims consumed by the refreshed result. It **SHALL** publish the `CL`, `CL^k`, `CL^plane` values and policy/model pins required by the actual calibration or receiving use, including any required `Φ`, `Ψ` and `Φ_plane` policy ids. Any supported loss penalty **SHALL** follow its declared assurance rule and affect `R_eff` only (F and G invariant). | Keeps the actual relation, calibration and assurance grounds recoverable during refresh. |
+| **CC‑G11.4 (Bridge penalties).** | Any refresh reacting to a sense or kind correspondence change or to a change in an independently governed plane relation **SHALL** satisfy `CC‑GCORE‑PEN‑1`. It **SHALL** preserve the obtaining relation under its direct governor, cited calibration basis and losses, and the separate receiving-use and reliance claims consumed by the refreshed result. It **SHALL** publish the `CL`, `CL^k`, `CL^plane` values and policy/model pins required by the actual calibration or receiving use, including any required `Φ`, `Ψ` and `Φ_plane` policy ids. Any numerical assurance penalty **SHALL** satisfy the model applicability and declared-result conditions of `CC‑GCORE‑PEN‑1`. | Keeps the actual relation, calibration and assurance grounds recoverable during refresh. |
 | **CC‑G11.5 (Selector invariants).**                   | Any orchestrated re‑selection or selected-set or archive update **SHALL** (i) satisfy `CC‑GCORE‑SET‑1` (delegation), and (ii) cite the selector governing definition (`G.5`) with the comparator admitted for that use at its applicable edition, and preserve the actual declared outcome: the relevant selected-set kind, narrowed handoff, abstention, or escalation. A changed comparator basis must be explicit under its own governor; G.11 introduces no scalarisation or replacement result semantics.                                                                                                                       | Prevents refresh from changing order semantics.                                                                            |
 | **CC‑G11.6 (Crossing visibility).** | Refresh actions that touch cross-context reuse **SHALL** satisfy `CC‑GCORE‑CROSS‑1` under the obtaining relation's direct governor, retaining its relation reference and the separate receiving-use and reliance grounds required by that governor. An independently governed E.18 flow crossing or A.21 gate that consumes the refreshed content **SHALL** retain its required harness, pins, lexical constraints and lane checks. Missing required grounds or pins **SHALL** block the affected publication. | Makes reuse and actual flow crossings or gates checkable under their own requirements. |
 | **CC‑G11.7 (Use-qualified currentness).** | A freshness or decay trigger SHALL be interpreted under B.3.4 for the relied-on claim/use and affected dependencies. Continue on sufficient applicable support without mandatory refresh, deprecation, waiver, WorkPlan or omission certificate. A later receiver SHALL receive the minimum action-changing limitation or reason with the existing result/publication. Publish `DeprecationNotice@Context` only for actual deprecation; an exception requires actual authority and scope. | Preserves useful currentness warnings without treating age as lost assurance or manufacturing a completion artefact. |
@@ -132781,7 +132787,7 @@ DashboardSlice := <
 1. **Start from exact results.** Select persisted C.21 coordinate-result refs for one already identified discipline.
 2. **Fix use, scope, and windows.** Name IntendedUse and ClaimScope. Add a `TargetSliceRef` only when the computation or publication really consumes it, and state its relation to the scope.
 3. **Check replay identity.** For every coordinate, resolve the C.21 `DHCReplayBasis`: Characteristic, Scale, Unit when current, `DHCMethodRef.edition`, exact Method, MethodDescription edition when used, model or calibration pins when used, time or population basis, and any active distance or definition-set edition.
-4. **Choose the comparison branch.** Directly comparable C.16 readings need no Bridge. Actual distinct-local-sense use cites the obtaining F.9 relation, observed loss, and a separate affirmative bounded-use claim naming direction, use rule, and loss tolerance, with the current supporting reliance required by F.9. Add reference-plane routing only when a real plane crossing is used; cite its exact basis, and keep any assurance consequence in R only.
+4. **Choose the comparison branch.** Directly comparable C.16 readings need no Bridge. Actual distinct-local-sense use cites the obtaining F.9 relation, observed loss, and a separate affirmative bounded-use claim naming direction, use rule, and loss tolerance, with the current supporting reliance required by F.9. Add reference-plane routing only when a real plane crossing is used; cite its exact basis, and assess any numerical assurance consequence under the applicable B.3 model for the named use.
 5. **Open optional panels only when used.** Portfolio, QD, open-ended, maturity, SoTA, shipping, and advanced-view fields appear only through their extension blocks.
 
 **Stage B — Construct or update content**
