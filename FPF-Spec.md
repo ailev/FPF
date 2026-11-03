@@ -264,7 +264,7 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | B.2.P | **Clarify Emergence and Meta-Holon Transition (MHT) Claims** | Stable | Repairs emergence, synergy, higher-level property, MHT, MET, MFT, metric mirage, and collection words entangled with whole-reidentification by recovering the claim kind first. | **Builds on:** E.10, E.10.ARCH, B.2, A.14, C.13, B.3.5. **Coordinates with:** B.2.2, B.2.3, B.2.4, C.16, A.2.2, A.6.F, A.3.4, C.30.ILC. |
 | B.2.2 | **Meta-System Transition: Test the Proposed New Whole as a System** | Stable | Specialize B.2 when its one exact proposed new whole must be recognized under the already admitted `U.System` kind. Apply the complete A.1 construction test and direct system criterion to that same individual; keep delimitation, objective, coordination, capability, system-role kind or assignment, Method, Work, transformation, functioning, architecture, evidence, assurance, and time claims under their direct patterns, and re-base component evidence rather than transferring it by label. *Queries:* "Which exact candidate did B.2 identify for recognition?", "Does that same individual pass complete A.1 and the direct U.System criterion?", "Which additional result-system claims independently obtain?", "Which component evidence remains applicable to the recognized result system?" | **Builds on:** B.2, A.1, B.1.2, A.14, C.13. **Coordinates with:** A.12, A.3.4, A.15, A.15.1, A.2.1, A.2.2, A.6.F, A.10, B.3, B.3.5, B.2.4, B.2.5, C.16, C.27, C.30, A.22, and E.24.UK. |
 | B.2.3 | **Meta-Holon Transition With Episteme Result** | Stable | Test whether B.2's proposed new knowledge whole satisfies A.1 and the C.2.1 ClaimGraph–EntityOfConcern–ReferenceScheme constitution. Assess support when the receiving claim or use requires assurance; keep source synthesis, ordinary episteme changes and publication under their direct patterns when no whole-reidentification question remains. *Queries:* "Does this body of results constitute a new theory or knowledge whole?", "Which source evidence still supports the resulting claims?" | **Specializes:** B.2. **Builds on:** A.1, C.2.1, E.24.UK. **Coordinates with:** C.2.P, C.2.P.DR, E.17, A.10, B.3, B.3.5, C.29. |
-| B.2.4 | **Do Capability or Functioning Changes Require Whole Reidentification?** | Stable | B.2 specialization for cases where independently governed capability, functioning, or selected in-life transformation-flow facts leave a whole-reidentification question after direct-owner and existing-whole explanations are tested. Evidence only supports or challenges claims about those facts. | **Specializes:** B.2. **Coordinates with:** A.2.2, C.16, A.6.F, A.3.4, E.18, C.30.TFS-REL, A.15, A.15.1, A.6.M, C.30, C.29. |
+| B.2.4 | **Do Capability or Functioning Changes Require Whole Reidentification?** | Stable | B.2 specialization for cases where independently governed capability, functioning, or selected in-life transformation-flow facts leave a whole-reidentification question after direct-owner and existing-whole explanations are tested. Evidence bears on claims about those facts. | **Specializes:** B.2. **Coordinates with:** A.2.2, C.16, A.6.F, A.3.4, E.18, C.30.TFS-REL, A.15, A.15.1, A.6.M, C.30, C.29. |
 | B.2.5 | **Supervisor-Subholon Feedback Relation** | Stable | States a two-sided feedback relation between one supervising acting System and one or more supervised holons without turning a supervisor label, policy, method, diagram, or loop lens into the supervising actor or the relation. | **Builds on:** B.2, A.1, A.12. **Coordinates with:** A.2.1, A.3.4, C.30.LCA, C.29, A.10, B.3. |
 | B.3 | **Is This Claim Supported for This Use? — Trust and Assurance Calculus** | Stable | States whether one exact target claim is adequately supported for one named assurance use through an inspectable argument and the direct results it uses, with limits and reopen conditions. It defines no universal F-G-R/congruence score and does not turn a badge, record, evidence item, gate, permission, or publication into assurance. *Queries:* "What exact claim and use need assurance?", "Which argument and results support it?", "What remains unsupported and what reopens the conclusion?". | **Builds on:** C.2.1, A.2.4, A.10, G.6, A.2.6, C.16, C.16.Q, and the direct domain patterns for each input. **Coordinates with:** A.15.1, A.6.1, G.11, F.10, A.21, C.28, A.22, E.17, E.24.PUB, C.29, and the direct permission, release, safety, responsibility, and controlled-action patterns. |
 | B.3.3 | **Assurance Subtypes & Levels** | Stable | *Keywords:* use-qualified assurance, conceptual correspondence, verification, empirical validation, constructive support, assurance profile. *Queries:* "Does this evidence support the claim and use we actually rely on?", "What does this assurance level establish, and under which profile?" Distinguish support contributions without a universal maturity ladder or an irrelevant proof requirement. | **Builds on:** B.3. **Coordinates with:** A.10, C.28, B.3.4, B.3.5. |
@@ -29315,9 +29315,9 @@ Preparation is classifiable as one Work individual under `U.Work` only after it 
 
 #### A.15.1:4.5 - Crossing visibility for work publications
 
-When a work publication relies on another selected method-description episteme, name that episteme and the relation the publication actually uses; do not infer an edition from a version label or later date. For a semantic crossing, name the two F.17 sense cells and test the F.9 Bridge predicate profile, then state the proposed action, direction, rule, and tolerated loss in a separate C.2.1 bounded-use claim. For a reference-scheme, claim-scope, model-use, reference-plane, unit, or publication change, cite the direct relation that the publication actually uses. State reliance through the applicable A.10 account of independently established evidence-use relations or the B.3 assurance result.
+When a work publication relies on another selected method-description episteme, name that episteme and the relation the publication actually uses; do not infer an edition from a version label or later date. For a semantic crossing, name the two F.17 sense cells and test the F.9 Bridge predicate profile, then state the proposed action, direction, rule, and tolerated loss in a separate C.2.1 bounded-use claim. For a reference-scheme, claim-scope, model-use, reference-plane, unit, or publication change, cite the direct relation that the publication actually uses. State ordinary evidence reliance through the applicable A.10 account of independently established evidence-use relations, including the same-use RelianceDisposition required by F.9:4.2 for reliance on an affirmative Bridge-use claim. Add a B.3 assurance result only when an actual named assurance claim is current.
 
-When a Work assessment applies a penalty, cite the applicable rule, the conditions under which it applies, and the assessment value it changes. For a calculated adjustment, retain the value's bearer, characteristic, scale and unit, the required calibration or calculation, and the resulting value. Use B.3:4.3–4.4 when an assurance argument consumes that calculation. If its required rule or calibration is unavailable, report the available inputs and leave the adjustment unresolved. These assessments concern the same independently admitted Work occurrence.
+When a Work assessment applies a penalty, cite the applicable rule, the conditions under which it applies, and the assessment value it changes. For a calculated adjustment, retain the value's bearer, characteristic, scale and applicable unit, the required calibration or calculation, and the resulting value. Use B.3:4.3–4.4 when an assurance argument consumes that calculation. If its required rule or calibration is unavailable, report the available inputs and leave the adjustment unresolved. These assessments concern the same independently admitted Work occurrence.
 
 A claim that a planned, gate-selected, or launch-labelled value was actually used requires a named direct predicate with its actual participants to obtain, or an exact A.6.1 operation-application binding to connect one identified application to that value. If the required predicate or binding rule is undefined, keep the planned designation and return `missing-governor[actual-use]`. If the rule exists but its positive test fails or lacks a deciding fact, keep the planned designation and return `factually unsupported` or `missing-information`, respectively. Do not back-fill a plan or infer an actual binding from shared wording. Pre-state and post-state references remain with an independently governed transformation or comparison claim; bracketing the Work interval does not bind them to the occurrence.
 
@@ -29556,7 +29556,7 @@ A conforming assertion or description about one Work occurrence designates a wor
 **CC-A15.1-4 (Interpretation and policy basis).**
 A load-bearing work claim names direct occurrence facts first. It cites `workContinuityPolicyRef`, its effective reference scheme, and applicable scope or qualification window only when a named identity, episode, retry, resumption, or aggregation use must resolve an ambiguous segmentation. Any selected method-description episteme, aggregation-policy episteme, selected model-use structure, acceptance criterion, evaluation work, result episteme, and evidence use remains a neighboring claim rather than a work-identity field.
 
-If two local senses must be related, F.9 receives two exact `SchemeSenseCell` endpoints and one `BridgePredicateProfile`; a Bridge is positive only when that profile's predicate obtains. State the proposed comparison, substitution, translation, or publication separately in a C.2.1 bounded-use claim, with its action, direction, correspondence rule, and tolerated loss. State reliance through the applicable A.10 account of independently established evidence-use relations or the B.3 assurance result. A different reference scheme, system-role assignment, selected description episteme, or model-use structure alone establishes none of these facts.
+If two local senses must be related, F.9 receives two exact `SchemeSenseCell` endpoints and one `BridgePredicateProfile`; a Bridge is positive only when that profile's predicate obtains. State the proposed comparison, substitution, translation, or publication separately in a C.2.1 bounded-use claim, with its action, direction, correspondence rule, and tolerated loss. State ordinary evidence reliance through the applicable A.10 account of independently established evidence-use relations, including the same-use RelianceDisposition required by F.9:4.2 for reliance on an affirmative Bridge-use claim. Add a B.3 assurance result only when an actual named assurance claim is current. A different reference scheme, system-role assignment, selected description episteme, or model-use structure alone establishes none of these facts.
 **CC-A15.1-4b (No mandatory state-plane or delta).**
 A Work claim needs no `StatePlaneRef`, pre-state, post-state, or delta merely to establish occurrence identity. If the receiving claim says that a referent changed, A.3.4 identifies the transformation and its state or boundary facts. Connect it to Work only through a declared domain predicate with exact W and T participants, or one C.2.1 local compound claim under A.6.RCD disposition 2 with a recoverable constructor, governed base predicates, actual participants, and case facts; otherwise return `missing-governor[work-to-change]`.
 **CC-A15.1-5 (SystemRoleAssignment interval coverage).**
@@ -42916,13 +42916,13 @@ Formal compositional contracts offer a stronger alternative where the constituen
 > **Type:** Method pattern
 > **Status:** Stable
 
-> **Primary working result:** either a bounded composition result whose whole, participants, and load-bearing relations are independently supported, or a **prospective candidate Method account** with proposed relation sets, guards, variation, recovery, stops and unresolved conditions needed by its receiving use. Writing the account creates neither the Method nor an obtaining architecture.
+> **Primary working result:** a bounded composition result whose whole, participants, and load-bearing relations are independently supported; a **prospective candidate Method account**; or a useful narrower claim. Include the proposed relation sets, conditions and unresolved questions needed by the receiving use. Writing the account creates neither the Method nor an obtaining architecture.
 
 ### B.1.5.CM:0 - Use This When
 
 Use this pattern when a proposal names an intended Method whole, such as a methodology or playbook, and the next decision depends on what is already established about that whole.
 
-Begin with the proposal's intended result, participants, relation claims, guards, burdens, unresolved conditions, and selection reason. Recover the whole semantics needed for identification before choosing the result branch.
+Begin with the proposal's intended result, participants and relation claims. Recover the available whole semantics and the guards, burdens, unresolved conditions and selection reason that matter for the receiving use. Test the identity and relation grounds required for the conclusion sought.
 
 The first useful result is deliberately two-branched. If the whole and participant Methods are identified and the required relations are shown to obtain, record the bounded composition result. Otherwise return the prospective account or partial claim supported by the evidence. That account can finish a present design comparison while whole identity or relation truth remains unresolved. Select later realization or testing only when its obtainable contribution warrants the full burden and is feasible.
 
@@ -42938,7 +42938,7 @@ Do not require prior performance of C.32.MWA.PP when equivalent proposal content
 | obtaining composition result | A result about an identified whole and identified participant Methods whose required `B.1.5` relations are independently shown to obtain for the bounded claim. |
 | prospective candidate account | An episteme proposing a possible reusable whole while identity or relation conditions remain unresolved. |
 | relation set | Named proposed or obtaining composition, order, result-use, allocation, support, authority, or other relations. Their truth statuses remain explicit. |
-| realization/test WorkPlan | A plan for later Work that could implement the proposal and return observations. It is not performed Work or evidence that the Method exists. |
+| realization/test WorkPlan | A plan for later Work that could implement the proposal and return observations. It is not performed Work and does not by itself establish that the Method exists. |
 
 ### B.1.5.CM:1 - Problem Frame
 
@@ -42948,7 +42948,7 @@ A proposal can state an invariant, guards, variants, participant contributions, 
 
 ### B.1.5.CM:2 - Problem
 
-One failure declares a whole whenever a document gives several steps a shared name. Another refuses to state anything useful until a mature Method has already been identified. A third treats participant co-use, Work order, or a successful tool integration as `methodPartOf` evidence.
+One failure declares a whole whenever a document gives several steps a shared name. Another refuses to state anything useful until a mature Method has already been identified. A third treats participant co-use, Work order, or a successful tool integration as sufficient evidence for `methodPartOf`.
 
 The first error overclaims, the second prevents learning, and the third confuses several relation structures. A prospective or partial account can support present comparison or later realization while keeping uncertainty explicit.
 
@@ -42970,25 +42970,25 @@ Recover the proposed whole's semantics, test whole and participant identity sepa
 
 #### B.1.5.CM:4.1 - Pattern-Use Unfolding
 
-1. **Name the receiving use.** State the result or preserved condition, situation family, intended users or performers, consuming decision, configuration or edition, and time window.
-2. **Recover whole semantics.** State the reusable operations or invariant, entry and exit, applicability, participants, permitted variation, bounds, stops, and reidentification rule. If these cannot be stated, return the missing-account question.
+1. **Name the receiving use.** State the result or preserved condition, situation family, intended users or performers, and consuming decision. Identify the configuration or edition and time window when they change the claim or its use.
+2. **Recover whole semantics.** Recover the proposed whole's reusable operations or invariant, applicability, participant contributions, and the entry/exit, variation, bounds, stops and reidentification conditions needed for the claim. Keep proposed content, supported facts and unresolved grounds distinct. Missing content blocks only conclusions that require it; a supported prospective account or partial result may still complete the receiving use.
 3. **Preserve participant statuses.** Identify each Method under `A.3.1` where supported. Keep candidate accounts and other subjects at their existing statuses.
 4. **Name the relation sets.** State every load-bearing proposed or obtaining relation, including Method composition, Work order or overlap, result use, allocation, support/provider access, authority, and description correspondence as applicable. Do not infer one relation from another.
 5. **Test the positive branch.** Record an obtaining composition only when the whole and parts are identified as Methods and the required `B.1.5` relations are shown to obtain within the bounded claim.
 6. **Return the prospective branch when needed.** State the candidate whole, participant statuses, proposed relation sets, guards, adapters, alternatives, recovery, variation points, burdens and unresolved conditions needed for the receiving use. A traceable proposal can answer that use while its stronger whole claim remains unresolved.
 7. **Return a supported partial result.** When missing whole semantics, identity, or a relation prevents a useful candidate account, return the supported fragment, relation claim, WorkPlan question, or stop. Keep the missing grounds explicit.
-8. **Choose a useful continuation when needed.** Use C.11.DUA to compare the result a realizable implementation or trial could add with its full burden, including access, allocation, authority and the available window. When that Work is selected, name its observations, acceptance and failure conditions, authority and reconsideration rule; prepare a WorkPlan where coordination needs one. Otherwise finish with the supported account or lower result and the limitation that matters to its recipient.
+8. **Choose a useful continuation when needed.** Use C.11.DUA to compare the result a realizable implementation or trial could add with its full burden, including access, allocation, authority and the available window. When that Work is selected, name its observations, acceptance and failure conditions, any required authority, and the reconsideration rule; prepare a WorkPlan where coordination needs one. Otherwise finish with the supported account or lower result and the limitation that matters to its recipient.
 
 #### B.1.5.CM:4.2 - Record the Result
 
 | Result position | Required content |
 | --- | --- |
-| use and whole semantics | Intended result/preserved condition, situation, operations or invariant, applicability, participants, variation, bounds, and reidentification. |
+| use and whole semantics | Intended result or preserved condition and receiving use; the whole semantics needed for the returned claim, including operations or invariant, applicability, participants and any relevant variation, bounds or reidentification conditions. A prospective or partial result keeps missing identity or relation grounds explicit. |
 | participant account | Each subject, kind or status, identity basis or open condition, and proposed contribution. |
-| relation sets | Each direct relation, truth status, evidence, guard, and receiving use. |
+| relation sets | Each load-bearing direct relation, its participants, truth status, grounds and any guard required for its receiving use. |
 | branch verdict | Obtaining composition result, prospective candidate account, or lower return with decisive reason. |
-| prospective content | Guards, adapters, alternatives, recovery, stops, burdens, and variation points when the lower branch applies. |
-| continuation, when selected | Later Work and observations, authority, acceptance/failure and reconsideration condition; a realization/test WorkPlan where its coordination needs one. |
+| prospective content | The guards, adapters, alternatives, recovery, stops, burdens, variation points and unresolved conditions that change the intended contribution or receiving use. |
+| continuation, when selected | Later Work and observations, any required authority, acceptance/failure and reconsideration condition; a realization/test WorkPlan where its coordination needs one. |
 
 #### B.1.5.CM:4.3 - What Changes in Practice
 
@@ -43023,17 +43023,21 @@ The four participant Methods are identified, but the proposed whole is not. Thei
 
 For this selected trial, B.1.5.CM returns a prospective candidate account with a WorkPlan covering at most three B2 releases. The whole and relation claims remain proposed.
 
-Before each entry, `SafetyReviewer-17` performs `W-SafetyEvidenceDecision-17` under `ASG-SafetyReview-17` and `AUTH-SafetyEvidence-17` to accept or reject the named evidence conditions; `ReleaseDecider-17` then performs `W-ReleaseDecision-17` under `ASG-ReleaseDecision-17` and `AUTH-ReleaseDecision-17` to decide branch entry and release, withhold, or next-slot disposition. Neither decision or authority relation substitutes for the other.
+At each proposed release's `D-21` entry checkpoint, `SafetyReviewer-17` accepts or rejects the entry evidence under `ASG-SafetyReview-17` and `AUTH-SafetyEvidence-17`; `ReleaseDecider-17` then decides branch entry under `ASG-ReleaseDecision-17` and `AUTH-ReleaseDecision-17`. The filled entry case identifies these decisions as `W-SafetyEvidenceDecision-17` and `W-ReleaseDecision-17`.
+
+For closure or recovery, the two decision-makers use the evidence then available to decide safety-evidence acceptance and release, withhold, or next-slot disposition under the applicable assignments and authorities. Each performed later or repeated decision is a distinct dated Work occurrence with its own inputs and result. Neither decision or authority relation substitutes for the other.
 
 In B2, `TraceReviewer-17` accepts or rejects each AI trace suggestion used by the release branch under `ASG-TraceReview-17` and `PERM-TraceAcceptReject-17`. [The full EC-417 application, §16.9.5](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#fpfreference1695---5-build-the-repertoire-and-criteria-without-preselecting-an-architecture) records the one permission grant and the dated Work `W-TraceAcceptReject-17-01` that returns acceptance in the filled case. The separate relation `PEX-TraceAcceptReject-17-01` connects that dated Work to the permission it exercised. `EV-PEX-TraceAcceptReject-17-01` supplies evidence about this exercise. Each additional used suggestion requires its own dated decision Work and result, confirmation that the permission applies at that time, and its own Work-to-permission exercise relation.
 
-Missing signed evidence after early integration triggers recovery R. In R, preserve the performed-integration record and evidence history. Repeat the evidence comparison and affected verification when evidence arrives by `D0` while the existing evidence and reversibility guards still hold. Record whether early integration is retained, rolled back, or repeated, and the added burden. If closure remains unresolved at `D0`, the release result is withhold/next-slot and this R occurrence ends as a failed B2 trial.
+If signed evidence is missing at the `D-8` closure checkpoint, withhold release and enter recovery R. In R, preserve the performed-integration record and evidence history. Repeat the evidence comparison and affected verification when evidence arrives by `D0` while the existing evidence and reversibility guards still hold. Record whether early integration is retained, rolled back, or repeated, and the added burden. If closure remains unresolved at `D0`, the release result is withhold/next-slot and this R occurrence ends as a failed B2 trial.
 
 `ASG-TraceReview-17` and `PERM-TraceAcceptReject-17` end at `D0`; continuing safety or release relations extend neither. This trial provides no post-`D0` AI-supported continuation and asserts no later Work or recovery WorkPlan. Unresolved R may motivate separate later planning.
 
 When later non-AI recovery needs coordination, the project may create a new `A.15.2` WorkPlan; `A.15.2` itself does not require planning before every otherwise valid later Work. Planned or unplanned Work would still need its separate qualification/currentness, readiness, assignment, permission/authority, and `A.15.1` occurrence as applicable. These stops preserve all earlier Work and evidence history. A is only a pre-entry alternative.
 
-Acceptance observations include whether each trial respects confidentiality and authority, remains below the `D-8` capacity bound, preserves evidence/version correspondence, and reaches a truthful release or recovery result by `D0`. An attempted post-`D0` AI-supported continuation, or an assertion of later Work without a separately admitted `A.15.1` dated Work occurrence, is an explicit stop and failed trial observation. The withhold/next-slot result preserves earlier Work and may motivate later planning. Those observations may support, narrow, split, or reject the account. They do not by themselves identify the whole; `A.3.1` remains the identity owner.
+Acceptance observations include whether each trial respects confidentiality and authority, remains at or below the `D-8` capacity bound, preserves evidence/version correspondence, and reaches a truthful release or recovery result by `D0`. An attempted post-`D0` AI-supported continuation, or an assertion of later Work without a separately admitted `A.15.1` dated Work occurrence, is an explicit stop and failed trial observation. The withhold/next-slot result preserves earlier Work and may motivate later planning. Those observations may support, narrow, split, or reject the account. They do not by themselves identify the whole; `A.3.1` remains the identity owner.
+
+For this series, a release counts once as a failed trial if it has a capacity or supplier-pinout/integration-bundle mismatch failure or enters R, even if recovery later succeeds; keep all failure reasons. After two distinct failed trials, `ReleaseDecider-17`, within `AUTH-ReleaseDecision-17`, returns B2 for revision or rejects further use. That disposition retains the separate safety decision and grants no authority to revise the account. The immediate confidentiality, assignment, permission and authority stops still apply to the first breach. The existing decision covers at most three trials; a further release needs a new applicable decision.
 
 #### B.1.5.CM:5.1 - Finish a Design Comparison Before a Trial Is Available
 
@@ -43053,14 +43057,14 @@ A later opportunity with useful obtainable observations can warrant implementati
 
 ### B.1.5.CM:7 - Conformance Checklist
 
-- [ ] The proposed whole has an intended result or preserved condition, situation, reusable operations/invariant, applicability, participants, variation, bounds, and reidentification rule.
-- [ ] Whole identity and every participant status are independently stated.
+- [ ] The returned claim states the whole semantics it needs: intended result or preserved condition, situation, reusable operations/invariant, applicability, participants and relevant variation, bounds and reidentification conditions. Missing grounds remain explicit in a prospective or partial result.
+- [ ] Whole and participant identification are judged separately; candidate and unresolved statuses remain explicit.
 - [ ] Method composition, Work order/overlap, result use, allocation, support, authority, and description relations are not inferred from one another.
 - [ ] The positive branch requires identified whole and parts plus obtaining `B.1.5` relations.
-- [ ] The prospective branch preserves proposed truth and names guards, adapters, alternatives, recovery, stops, burdens, and unresolved conditions.
+- [ ] The prospective branch preserves proposed truth and includes the guards, adapters, alternatives, recovery, stops, burdens and unresolved conditions needed by the receiving use.
 - [ ] WorkPlan, performed Work, observations, MethodDescription, and Method identity remain distinct.
 - [ ] The result can lower below a candidate whole when load-bearing semantics or relations are missing.
-- [ ] A supported account or lower result can complete its receiving use. Any selected continuation has a worthwhile feasible contribution and names the needed later Work, observations, authority, acceptance/failure and reconsideration.
+- [ ] A supported account or lower result can complete its receiving use. Any selected continuation has a worthwhile feasible contribution and names the needed later Work, observations, any required authority, acceptance/failure and reconsideration.
 
 ### B.1.5.CM:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -43465,13 +43469,13 @@ The profile's complete interpreted claim content and effective reference scheme,
 
 #### B.2:4.2 - Existing-whole comparison and optional result
 
-First perform an ordinary comparison: compare the observed change with direct explanations that preserve the existing whole. Consider better parts, corrected relations, improved measurement, method or Work repair, richer phase coverage, capability change, and architecture-view repair only when their direct patterns make those explanations current. If one explanation is sufficient for the receiving use, keep the existing whole, use that subject pattern, and stop B.2.
+First perform an ordinary comparison: compare the observed change with direct explanations that preserve the existing whole. Consider better parts, corrected relations, improved measurement, method or Work repair, richer phase coverage, capability change, and architecture-view repair only when their direct patterns make those explanations current. If one explanation is sufficient for the receiving use, keep the existing whole and stop B.2. Use the direct subject pattern for any remaining question.
 
 For each material explanation, test three things together: whether it covers the change needed by the receiving use, whether the old identity rule permits it, and whether it is compatible with the established facts. When continuity across observations is uncertain, use A.1.RI to construct the possible connections and test them against the subject constraints. A changed part may preserve one whole's identity and defeat another's; the applicable identity rule decides.
 
 | Comparison result | Grounds and next move |
 | --- | --- |
-| `sufficient` | At least one supported explanation meets the receiving use while preserving the existing whole's identity. Keep that whole and continue under the subject pattern. |
+| `sufficient` | At least one supported explanation meets the receiving use while preserving the existing whole's identity. Keep that whole; continue under the subject pattern only for a remaining question. |
 | `insufficient` | An established condition necessary for the receiving use cannot be met while preserving the prior identity; or the governing facts and rules justify a closed set of applicable alternatives and every alternative fails. Proceed to the candidate's A.1 and kind-specific tests. |
 | `unknown` | A deciding fact or rule is unavailable, or material alternatives remain that would change whether a new whole is needed. Obtain that missing basis or retain the unresolved comparison. |
 
@@ -43972,7 +43976,7 @@ Use this pattern when B.2 has identified one exact candidate new whole and that 
 
 **First useful move.** Test the candidate against A.1's six common components. Then test whether its physical or operational organization makes it eligible to act in work or transformation while preserving its identity—the direct `U.System` criterion. After those two tests, recover only the additional facts used by the concrete case, such as delimitation, an objective or commitment, coordination, capability, system-role kind or assignment, method, work, transformation, functioning, architecture, evidence, assurance, or time. State each fact or claim through the pattern that defines its object or relation. Do not make an objective or commitment a condition for `U.System` recognition; require it only for the separate objective or commitment claim being made.
 
-Use `B.2` first to decide whether whole reidentification is needed and to identify the one candidate new whole. Use `B.2.2` only when that candidate is to be tested under the already admitted `U.System` kind.
+Use `B.2` to recover the whole-reidentification question and identify the candidate new whole. Use `B.2.2` when that candidate is to be tested under the already admitted `U.System` kind, then return its recognition result to B.2's comparison.
 
 **What goes wrong if missed.** A real operating whole is still managed through old component claims, or a mere collection is declared a new system without establishing its A.1 basis and acting eligibility.
 
@@ -43981,7 +43985,7 @@ Use `B.2` first to decide whether whole reidentification is needed and to identi
 **Not this pattern when.**
 
 - If the result whole is claim-bearing and non-agentive, use `B.2.3` and the episteme family.
-- If the evidence is only a capability or functioning gain without whole reidentification, use `A.2.2`, `C.16`, `A.6.F`, `A.3.4`, `C.30.TFS-REL`, and `A.10`.
+- If capability or functioning facts are sufficiently explained without whole reidentification, use their direct subject patterns. `A.2.2` governs capability, `C.16` measured characteristics, `A.3.4` actual transformations, and `C.30.TFS-REL` the selected flow structure's bounded architecture use. Use `A.6.F` for unresolved function-like wording and `A.10` for a needed replayable source-to-use account.
 - If the claim is ordinary system aggregation or delimitation, use `B.1.2`, `A.1`, `A.14`, and `C.13`.
 - If the claim concerns a mathematical, simulation, graph, benchmark, or scaling expression, use its mathematical or subject pattern, with `C.29` for an unresolved representation-choice, transfer or reliance question. Use the relevant description or publication pattern when that claim is current; return to B.2 only for a whole-reidentification question.
 - If the claim is only supervisor-subholon feedback relation inside an already admitted system whole, use `B.2.5`.
@@ -43992,7 +43996,7 @@ Use `B.2` first to decide whether whole reidentification is needed and to identi
 
 B.2.2 tests whether B.2's exact proposed new whole satisfies A.1 and has a physical or operational organization through which it is eligible to act causally in work or transformation while preserving its identity—the direct `U.System` criterion. If it does, recover the separately governed system-level claims needed by the case, such as delimitation, objective, coordination, capability, functioning, architecture, transformation, work, assurance, or time. The old constituent systems may remain parts, participants, resources, or interacting neighbors, but their claims do not automatically become claims about that recognized result system.
 
-A collection of systems is not thereby a system MHT. B.2.2 carries B.2's existing-whole/new-whole comparison through complete A.1 recognition and the direct `U.System` criterion; it does not create a system-specific result object or record schema.
+A collection of systems is not thereby a system MHT. B.2.2 carries B.2's existing-whole/new-whole comparison through complete A.1 recognition and the direct `U.System` criterion.
 
 ### B.2.2:2 - Problem
 
@@ -44020,7 +44024,7 @@ After B.2 leaves a whole-reidentification question open, continue with the same 
 
 #### B.2.2:4.1 - Reuse The B.2 Candidate And Complete System Recognition
 
-Start with B.2's candidate designated as an exact `U.Entity`, proposed for the already admitted `U.System` kind. After the recognition tests below establish the result, use B.2's one `resultHolonRef` for that individual and its one `resultHolonKindRef` resolving to `U.System`. The references may appear in B.2's optional `HolonReidentificationRecord` when a receiving use needs a durable account; B.2.2 adds no second record. Preliminary, failed, and unresolved evaluations follow B.2:4.4.
+Start with B.2's candidate designated as an exact `U.Entity`, proposed for the already admitted `U.System` kind. After the recognition tests below establish the result, use B.2's one `resultHolonRef` for that individual and its one `resultHolonKindRef` resolving to `U.System`. The references may appear in B.2's optional `HolonReidentificationRecord` when a receiving use needs a durable account. Preliminary, failed, and unresolved evaluations follow B.2:4.4.
 
 Before calling the candidate a system result:
 
@@ -44034,17 +44038,17 @@ If a required A.1 component or the acting-eligibility criterion fails, do not id
 
 #### B.2.2:4.2 - Carry Result-System Claims Through Subject Patterns
 
-When the candidate is recognized as `U.System`, state every changed result-system fact or claim under its subject pattern:
+When the candidate is recognized as `U.System`, state each additional result-system fact or claim needed by the concrete use under the pattern that defines or tests it:
 
 - system-role assignments through `A.2.1`, relations among system-role kinds through `A.2.7`, and other relations through the patterns that define them;
 - capabilities through `A.2.2` and their measured-characteristic claims through `C.16`;
 - methods through `A.3.1`, their descriptions through `A.3.2`, and mechanisms through `A.6.1`; use `A.15` when their alignment with roles and work is the question;
 - transformations through `A.3.4`;
 - work occurrences through `A.15.1`;
-- functioning and functional-structure wording through `A.6.F` to its direct subject pattern; selected transformation-flow structures through `E.18` and their bounded architecture use through `C.30.TFS-REL`;
-- architecture through `C.30`, `A.22`, and `C.30.ASV`;
-- evidence and assurance through `A.10`, `B.3`, and `B.3.5`;
-- temporal and dynamics claims through `C.27`, `A.19`, and the direct temporal patterns.
+- functioning claims through their direct subject patterns; use `A.6.F` for unresolved function-like wording, `E.18` for a selected transformation-flow structure, and `C.30.TFS-REL` for its bounded architecture use;
+- architecture through `C.30` and its selected `A.22` structure; use `C.30.ASV` when a structural description must also be assessed as a `U.View`;
+- evidence under its direct subject pattern; use `A.10` when a replayable source-to-use account is needed, `B.3` for a named assurance use or binding requirement, and `B.3.5` only when its additional relation-assurance profile is elected;
+- temporal claims under their direct patterns, with `C.27` for a dynamics question and `A.19` for a characteristic-space claim.
 
 Do not reuse old component evidence as if it automatically covered the proposed new whole after recognition under `U.System`. Carry an unchanged component claim only through its exact continuing relation; establish each changed result-system fact under its subject pattern. Where evidence is relied on, recover its relation to the result claim. Apply B.3 for a named assurance use or binding requirement as in B.2:4.3; reuse existing support when it is adequate for that claim and use.
 
@@ -44055,9 +44059,9 @@ When a receiving use has materialized B.2's optional `MHTTriggerProfile`, read i
 | Cue recorded in `MHTTriggerProfile` | System-case reading | Subject pattern kept visible |
 | --- | --- | --- |
 | Delimitation change | The operating whole now has an external delimitation and crossing relations that differ from the old aggregate. | `A.1`, `B.1.2`, `A.14`, `C.13` |
-| Objective or evaluation change | Recover the system-level objective, mission, or SLO used as an evaluation criterion; distinguish any safety case or viability claim from that criterion. | `C.16`, `E.13`, `A.10`, decision or assurance patterns |
+| Objective or evaluation change | Recover the system-level objective, mission, or SLO used as an evaluation criterion; distinguish any safety case or viability claim from that criterion. | `C.16`, `E.13`, decision or assurance patterns; `A.10` for a needed replayable source-to-use account |
 | Supervision or coordination change | Recover how constituent behavior is regulated for the result whole, including controller or distributed-coordination facts; name any protocol or governance claim separately. | `B.2.5` only for supervisor-subholon feedback; `A.12`, `A.3.4`, `A.15.1` for their separately current claims |
-| Capability or closure claim | Recover the exact capability envelope and closure relations of the proposed new whole after recognition under `U.System`; keep supporting evidence separate. | `A.2.2`, `C.16`, `A.10` for evidence use, and `B.2.4` when whole reidentification is current |
+| Capability or closure claim | Recover the exact capability envelope and closure relations of the proposed new whole after recognition under `U.System`; keep supporting evidence separate. | `A.2.2`, `C.16`, `B.2.4` when whole reidentification is current; `A.10` for a needed replayable source-to-use account |
 | Agency threshold | The result whole crosses a concern-specific agency threshold in characteristic space. | `A.13`, `A.19`, `C.16` |
 | Temporal consolidation | A commissioning, phase, release, or operating-time consolidation changes the current system identity claim. | `C.27`, `A.15.1`, temporal patterns |
 | Context reframe | A changed question or selected model-use structure changes which exact whole is under concern; it does not itself change that whole's identity. | `A.1.1`, `A.22`, `B.2`, and the whole's direct identity pattern |
@@ -44077,7 +44081,7 @@ A lathe making a workpiece, a controller steering a plant, or a teacher changing
 
 #### B.2.2:4.5 - Assurance Re-Basing
 
-When the exact candidate new whole is recognized as `U.System`, test old assurance against that system rather than transferring it by name.
+When a receiving use or binding requirement needs assurance about the recognized `U.System`, test whether existing support applies to that system and claim. Reuse a current applicability assessment when its claim, use and conditions match.
 
 Ask:
 
@@ -44086,7 +44090,7 @@ Ask:
 - Which assurance claims must be rewritten for the result system?
 - Which architecture, capability, functioning, work, temporal, or evidence claims now have different subject patterns?
 
-A claim about the recognized result system may reuse component evidence only through an exact correspondence or source-use relation and a fresh evaluation of applicability. That system does not inherit safety, reliability, responsibility, or performance claims by label.
+A claim about the recognized result system may reuse component evidence where its actual evidence or source-use relation supports that claim and applicability is established for the receiving use. Reuse a matching current judgment; reassess when the claim, basis or relevant conditions change. That system does not inherit safety, reliability, responsibility, or performance claims by label.
 
 ### B.2.2:5 - Archetypal Grounding (Worked Cases)
 
@@ -44097,13 +44101,13 @@ Before MHT, the project has individual drones with local navigation and maintena
 - **Candidate new whole:** the search-and-rescue swarm named by B.2.
 - **A.1 basis:** exact drone constituents, obtaining formation and coverage-coordination relations, the governed swarm assembly, the swarm reidentification rule, and the whole-level area-search characteristic; its boundary, command and mission interfaces, operating characteristics, and identity-preservation conditions also fit the applicable larger rescue-system construction rule.
 - **System criterion:** the swarm has acting eligibility. This case also has its own command-and-operating-area delimitation, mission objective, coordination relations, and external commitments.
-- **Assurance:** swarm-level tests support claims about the candidate; individual drone certificates remain component evidence and do not establish the swarm facts.
+- **Assurance:** swarm-level tests support claims about the candidate; individual drone certificates remain component evidence. Their contribution to a swarm-level claim depends on that claim and the evidence's applicability.
 
 The old drone evidence remains relevant, but it is not enough for the swarm-level assurance claim.
 
 #### B.2.2:5.2 - Cloud Platform
 
-Independent services become a platform only if the current claim concerns a result system: a shared control plane, system-level SLO, deployment and rollback coordination, platform-level evidence, and external commitments.
+Consider independent services proposed as one platform with a shared control plane, system-level SLO, deployment and rollback coordination, platform-level evidence, and external commitments. Establish those case facts under their direct patterns and test the proposed whole under :4.1.
 
 If a better dashboard or an additional service is sufficiently explained as a change of the existing whole under its identity rule, use the relevant architecture-description, publication, measurement, or component pattern. Use B.2.2 when B.2 identifies the operating platform itself as the exact candidate new whole to be tested under A.1 and the direct `U.System` criterion. Claim a system result only after those tests pass; retain a failed or unresolved evaluation under :4.1.
 
@@ -44118,10 +44122,10 @@ A fixture being manufactured as a workpiece is not part of the machine merely be
 | Bias risk | Failure | Mitigation |
 | --- | --- | --- |
 | Named aggregate as system | A fleet, platform, or cell name is treated as system recognition. | Apply B.2 to one exact candidate; require the complete A.1 criterion and the direct `U.System` criterion. |
-| Component evidence transfer | Component certificates are read as assurance for the proposed new whole after its recognition under `U.System`. | Re-test each claim against that exact recognized system and use exact evidence or assurance relations; do not transfer support by label. |
+| Component evidence transfer | Component certificates are read as assurance for the proposed new whole after its recognition under `U.System`. | Assess applicability to the result-system claim through the actual evidence or assurance relations; reuse a matching current assessment, rather than transferring support by label. |
 | Coordination as whole | A controller, protocol, or coordination relation is treated as automatic system MHT. | Recover the obtaining relation, then require B.2 whole reidentification plus complete A.1 and `U.System` recognition; keep any support separate. |
 | Description as system | Dashboard, simulation, model, twin, or bill is treated as the operating system. | Use episteme, publication, source-use, and architecture-description patterns for description objects. |
-| Transformation as containment | An external system changes a holon and is treated as its part or containing whole without a separately obtaining part-whole relation. | Use A.12, A.3.4, A.15.1, B.2.5, and part-whole patterns separately. |
+| Transformation as containment | An external system changes a holon and is treated as its part or containing whole without a separately obtaining part-whole relation. | Use A.12 for the acting side, A.3.4 for the transformation, and A.15.1 for any claimed Work. Use B.2.5 when supervisor-subholon feedback is the question and a part-whole pattern when parthood is claimed. |
 
 ### B.2.2:6 - Conformance Checklist
 
@@ -44129,8 +44133,8 @@ A fixture being manufactured as a workpiece is not part of the machine merely be
 | --- | --- |
 | `CC-B2.2-1` | B.2 has already left a whole-reidentification question before B.2.2 is used. |
 | `CC-B2.2-2` | A positive system-result claim requires B.2's exact candidate new whole to pass the complete A.1 criterion and the direct `U.System` criterion. Failed or unresolved recognition follows :4.1. |
-| `CC-B2.2-3` | No system-specific result reference, context-shaped slice, or second reidentification record is introduced; any optional durable account remains B.2's C.2.1 episteme. |
-| `CC-B2.2-4` | Result-system delimitation and crossing relations are named without creating `U.Boundary` or `U.Interaction`. |
+| `CC-B2.2-3` | Use B.2's references for the candidate and established result. Any durable account remains an optional C.2.1 episteme under B.2. |
+| `CC-B2.2-4` | Identify the result-system delimitation and any crossing relations needed by the claim under their direct predicates. |
 | `CC-B2.2-5` | An obtaining supervision or coordination relation is not treated as automatic system recognition, and evidence for it is not treated as safety warrant. |
 | `CC-B2.2-6` | Acting-system participation, transformation, and work are separated from parthood. |
 | `CC-B2.2-7` | Component assurance is not silently transferred to the result system. |
@@ -44142,7 +44146,7 @@ A fixture being manufactured as a workpiece is not part of the machine merely be
 | --- | --- | --- |
 | Named aggregate as system | "The platform" or "the fleet" is treated as a system because it has a name. | Identify one exact candidate and apply the complete A.1 and direct `U.System` criteria; if either fails or cannot be determined, withhold system-result recognition and return that failure or `unknown` to B.2 without inferring that the old whole is sufficient. |
 | Component certificate transfer | Individual part certificates are used as result-system assurance. | Re-base assurance through B.2.2:4.5 and evidence-use patterns. |
-| Controller as containing whole | A controller or external system is treated as the new whole because it changes the parts. | Use A.12, A.3.4, B.2.5, and part-whole patterns separately. |
+| Controller as containing whole | A controller or external system is treated as the new whole because it changes the parts. | Use A.12 and A.3.4 for the acting-side and transformation claims. Use B.2.5 for a supervisor-subholon feedback question and a part-whole pattern for the claimed parthood. |
 | Dashboard as system | A monitoring model is treated as the operating system. | Use episteme, publication, source-use, C.30.AD, or digital-twin description patterns. |
 | Capability jump as system MHT | A metric improves and the result is called a new system. | Perform B.2's ordinary existing-whole comparison; return to capability, characteristic, Method, Work, or architecture patterns if the existing whole remains sufficient. |
 
@@ -44168,7 +44172,7 @@ Recognizing the candidate requires actual construction and acting eligibility un
 
 ### B.2.2:10 - SoTA-Echoing
 
-A new coordinated whole can become the relevant operating object. FPF's construction here uses B.2 for whole reidentification, then applies complete A.1 and `U.System` recognition to the same candidate (B.2.2:4.1). B.2.2 keeps the direct facts with their subject patterns when the claim concerns changed operational closure, coordination, external commitments, or assurance at the level of the exact new whole proposed for and then recognized under `U.System`. Each assurance claim is tested against that exact recognized system instead of transferring component support.
+A new coordinated whole can become the relevant operating object. Within B.2's whole-reidentification comparison, B.2.2 applies complete A.1 and `U.System` recognition to the same proposed candidate (B.2.2:4.1). B.2.2 keeps the direct facts with their subject patterns when the claim concerns changed operational closure, coordination, external commitments, or assurance at the level of the exact new whole proposed for and then recognized under `U.System`. Component support contributes to assurance for that recognized system only where it applies to the result claim.
 
 A historical comparison clarifies the coordination question. [Maier (1998), *Architecting Principles for Systems-of-Systems*, §§1 and 2.6–2.7](https://asymmetricleadership.com/wp-content/uploads/2020/04/architectingprinciplesofsystemofsystemsMAIER.pdf) distinguishes systems-of-systems whose components retain operational and managerial independence. In his collaborative category, central management lacks coercive power to run the system; treating it as a directed system can lead to unwarranted assumptions about component cooperation. FPF adapts this distinction in B.2.2:4.3 by recovering the actual controller or distributed-coordination facts and naming any protocol or governance claim separately. Maier's taxonomy does not supply the A.1 or `U.System` recognition tests.
 
@@ -44205,7 +44209,7 @@ Use `B.2` first to decide whether whole reidentification is current and to ident
 **Not this pattern when.**
 
 - If the result whole is a physical or operational holon eligible to act, use `B.2.2`.
-- If the question is episteme constitution, empirical grounding, publication, source use, view, viewpoint, ClaimGraph, reference scheme, or description use without MHT, use `C.2.1`, `C.2.P`, `C.2.P.DR`, `E.17`, and the direct episteme-family pattern.
+- When no whole-reidentification question remains, use the direct episteme, publication or source-use pattern for the remaining question; :4.2 and `CC-B2.3-4` distinguish these uses.
 - If the question is effect-free episteme morphing, viewing, retargeting, or controlled semantic coarsening, use `A.6.2`, `A.6.3`, `A.6.4`, or `A.6.3.CSC`.
 - If the question is synthesis work, use `A.15.1` for performed work and `A.12` or `A.3.4` for acting-side and transformation claims.
 - If the wording is ambiguous emergence-family language, use `B.2.P` before selecting B.2.3.
@@ -44216,16 +44220,16 @@ A collection does not become a theory merely because its items are stored togeth
 
 A group of papers, models, datasets, design notes, forecasts, standards, or local doctrines may remain a collection. Use B.2.3 when B.2's exact candidate new whole is to be tested under A.1 and the current C.2.1 constitution criterion for one interpretable claim-bearing episteme.
 
-B.2.3 introduces no special episteme result object. It tests B.2's candidate under A.1 and C.2.1, then retains B.2's one `resultHolonRef` and `resultHolonKindRef` for the established result. Each current neighboring relation keeps its own subject pattern.
+B.2.3 tests B.2's candidate under A.1 and C.2.1, then retains B.2's one `resultHolonRef` and `resultHolonKindRef` for the established result. Each current neighboring relation keeps its own subject pattern.
 
 ### B.2.3:2 - Problem
 
 Confusing the episteme with its collection, representation, or publication can produce these errors:
 
-1. **Catalogues become theories.** Aggregated publications or dashboards are treated as a new episteme because they are stored together.
+1. **Collection as MHT.** Storing publications together is treated as sufficient for an episteme-result MHT without testing the candidate's constitution and the B.2 comparison.
 2. **Publication form becomes episteme.** A carrier or publication form is mistaken for the claim-bearing episteme it presents.
 3. **Episteme receives agency.** The theory, standard, or doctrine is described as if it performs work or enforces behavior by itself.
-4. **Morphing becomes MHT.** A view, retargeting, coarsening, translation, or model transformation is treated as a new episteme whole.
+4. **Morphing becomes MHT.** A view, retargeting, coarsening, translation, or model transformation is treated as establishing B.2 whole reidentification by itself.
 5. **Assurance is inherited silently.** Trust in constituent sources is treated as trust in the reidentified episteme whole.
 6. **Generic emergence replaces claim structure.** "Emergent theory" hides the actual claim graph, reference scheme, and grounding relation.
 
@@ -44237,7 +44241,7 @@ Confusing the episteme with its collection, representation, or publication can p
 | Episteme identity vs publication form | The episteme may be published in many forms; no publication form is the episteme by appearance. |
 | Claim organization vs agency | An episteme can organize claims and guide use, but systems perform work with or on it. |
 | Constituent evidence vs result assurance | Evidence for parts may bear on the result. When assurance is required for a result claim, test whether that support applies to the claim and its receiving use. |
-| Source mnemonic vs current ontology | Short labels can aid recognition while hiding whether the current question concerns B.2 whole reidentification, C.2.1 constitution, A.6 morphing, E.17 publication, or source use. |
+| Source mnemonic vs current ontology | Short labels can aid recognition while hiding whether the current question concerns B.2 whole reidentification, C.2.1 constitution, A.6 morphing, E.24.PUB publication, an E.17 reader face, or source use. |
 
 ### B.2.3:4 - Solution
 
@@ -44252,7 +44256,7 @@ Start with B.2's candidate designated as an exact `U.Entity`, proposed for the a
 3. identify the effective reference scheme: the designation and interpretation rules under which those claims are read about that entity; and
 4. test whether the direct `EpistemeConstitutionRelation` among those participants obtains and yields one interpretable claim-bearing whole.
 
-The candidate and its constitution relation are distinct, even though C.2.1 reidentifies them from the same participant triple. A card, tuple, repository, publication set, graph representation, or filled reference does not make the relation obtain. If A.1 or C.2.1 fails, do not identify the candidate as the episteme result; if a required dependency cannot be evaluated, return `unknown`. For an established episteme result, B.2's `resultHolonRef` designates that individual and `resultHolonKindRef` resolves to `U.Episteme`. Preserve a preliminary or unresolved judgment in an optional C.2.1 assertion only when a receiving use needs it; B.2:4.4 governs that distinction.
+The candidate and its constitution relation are distinct, even though C.2.1 reidentifies them from the same participant triple. A reference or representation alone does not establish that the constitution relation obtains. If A.1 or C.2.1 fails, do not identify the candidate as the episteme result; if a required dependency cannot be evaluated, return `unknown`. For an established episteme result, B.2's `resultHolonRef` designates that individual and `resultHolonKindRef` resolves to `U.Episteme`. Preserve a preliminary or unresolved judgment in an optional C.2.1 assertion only when a receiving use needs it; B.2:4.4 governs that distinction.
 
 #### B.2.3:4.2 - Keep Constitution And Neighboring Relations Separate
 
@@ -44262,9 +44266,9 @@ The exact ClaimGraph, EntityOfConcern, and effective ReferenceScheme are the thr
 - viewpoint selection for a describing use follows `E.10.D2`; `U.View` recognition requires `E.17.0` conformance of the exact episteme to an exact viewpoint;
 - publication occurrence, publication form, carrier, source use, and C.29 representation remain distinct from the episteme and its constitution;
 - an exact acting System first has the A.13 core and A.15.1 independently admits its synthesis Work under a Method; F.6 enters only if the receiving transition account also consumes precise assignment-bound attribution through the same obtaining A.13 assignment, while any actual transformation remains a separate claim; and
-- evidence and assurance support or challenge exact claims but do not enter episteme identity or establish constitution.
+- evidence and assurance support or challenge the claims being made, including claims about constitution; they add no identity discriminator to C.2.1's ClaimGraph/EntityOfConcern/ReferenceScheme triple.
 
-Add only the neighboring object or relation required by the receiving use. Do not infer any of them from a publication set, and do not turn them into extra identity positions.
+Add only the neighboring object or relation required by the receiving use. Establish each such relation under its own predicate and participants; keep it separate from the episteme's identity positions.
 
 #### B.2.3:4.3 - Episteme Trigger Interpretation
 
@@ -44272,10 +44276,10 @@ When a receiving use has materialized B.2's optional `MHTTriggerProfile`, interp
 
 | Cue recorded in `MHTTriggerProfile` | Episteme-case reading | Subject pattern kept visible |
 | --- | --- | --- |
-| Delimitation change | The knowledge body now has a stable EntityOfConcern, scope, reference scheme, and claim scope. | `C.2.1`, `A.7`, source-use patterns |
+| Delimitation change | Recover what changed in claim content, EntityOfConcern or effective ReferenceScheme. Identify a claim scope when the current claim requires one. | `C.2.1`, `A.7`, source-use patterns |
 | Objective or evaluation change | The result episteme contains an answer or evaluation claim for a question that the collection did not answer as one claim-bearing whole. | `C.2.1`, `C.16`, `E.21` or relevant evaluation pattern |
 | Supervision or coordination change | Recover an actual supervision or coordination relation under its defining pattern. Principles, axioms, invariants, reference schemes, and claim-graph constraints instead organize claim interpretation; inspect that change as a constitution or claim-composition claim rather than filling a relation-occurrence field with it. | `C.2.1`, `A.6.0`, `A.6.1`, `C.29` when formal lens is current |
-| Capability or closure claim | The candidate episteme supports a new explanatory, predictive, specification, or coordination use; evidence for that claim remains separate. | `C.2.1`, `C.16`, `A.10` for evidence use, and the pattern for that use |
+| Capability or closure claim | The candidate episteme supports a new explanatory, predictive, specification, or coordination use; evidence for that claim remains separate. | `C.2.1`, `C.16`, the pattern for that use; `A.10` for a needed replayable source-to-use account |
 | Agency threshold | The episteme remains non-agentive. For an agency-characteristic claim, recover the exact System and characteristic predicate, with any scope and window required by the receiving use, and test the characteristic independently; that characteristic claim does not require an assignment. A precise agency claim requires the separate A.13 core. If dated Work is also claimed, recover each exact performer through A.13 and let A.15.1 independently admit the Work. Add F.6 only when the receiving claim expressly consumes precise assignment-bound attribution; missing or failed F.6 alone leaves independently admitted Work intact. If the same finding also invalidates a premise actually consumed by the A.13 or A.15.1 admission, recheck that premise and its dependent conclusions. | `A.12`, `A.2.1`, `A.13`, `A.19`, `C.16`, `A.15.1`, `F.6` |
 | Temporal consolidation | A chronology or source-currentness change prompts inspection of the knowledge body. Test any changed ClaimGraph, EntityOfConcern or effective ReferenceScheme under C.2.1; currentness alone changes none of those identity values. | `C.2.1`, `C.27`, `G.11`, `E.17`, and source-use patterns |
 | Context reframe | New terms, reference schemes, or EntityOfConcern mapping reframe the knowledge body. | `C.2.1`, `A.6.3`, `A.6.4`, `F.18` |
@@ -44340,23 +44344,23 @@ For a larger reliability doctrine, the same comparison uses its actual claims ab
 
 A model family can remain a toolbox. It becomes an episteme-result MHT only if B.2's candidate passes A.1 and one exact ClaimGraph, EntityOfConcern, and effective ReferenceScheme stand in an obtaining C.2.1 constitution relation. Empirical grounding and explanatory or predictive use are checked through neighboring direct relations when the receiving use needs them; they are not extra identity constituents.
 
-If the change is only a new model publication or benchmark score, use publication, source-use, measurement, evidence-use, and mathematical-lens patterns instead.
+If the change is only a new model publication or benchmark score, use the direct publication, source-use or characteristic pattern for that claim. Use `A.10` when its source-to-use account must be replayable and `C.29` for an unresolved representation-choice, transfer or reliance question.
 
 #### B.2.3:5.3 - Standard Body
 
 A set of clauses, examples, and annexes can become a standard episteme only when the candidate passes A.1 and its exact ClaimGraph, EntityOfConcern, and effective ReferenceScheme satisfy C.2.1 constitution. Recover its terms, references, scope, and conformance claims under that constitution; identify publication forms separately.
 
-The standard is not the committee, the PDF, or the Work of enforcement. The committee may be an acting System. If committee or enforcement Work is claimed, recover each exact performer through A.13 and admit the Work independently under A.15.1. Add F.6 only if the account expressly consumes precise assignment-bound attribution; a missing or failed relation leaves the Work intact. The PDF file is a presentation carrier; its layout may supply a publication form.
+The standard is not the committee, the PDF, or the Work of enforcement. The committee may be an acting System. If committee or enforcement Work is claimed, recover each exact performer through A.13 and admit the Work independently under A.15.1. Add F.6 only if the account expressly consumes precise assignment-bound attribution; missing or failed attribution alone leaves independently admitted Work intact. If the same finding invalidates an admission premise, apply `CC-B2.3-5`. The PDF file is a presentation carrier; its layout may supply a publication form.
 
 ### B.2.3:5.4 - Bias-Annotation
 
 | Bias risk | Failure | Mitigation |
 | --- | --- | --- |
-| Library as theory | A repository, dashboard, or reading list is treated as one claim-bearing episteme. | Identify B.2's exact candidate, execute A.1, and test its C.2.1 ClaimGraph/EntityOfConcern/ReferenceScheme constitution. |
+| Library as MHT | A repository, dashboard, or reading list is taken as sufficient for an episteme-result MHT. | Recover the candidate's claims and constitution under A.1/C.2.1, then test the B.2 whole-reidentification claim. Ordinary episteme constitution alone does not establish that claim. |
 | Publication as episteme | A publication form or carrier is treated as the claim-bearing episteme. | Keep the episteme, publication form and carrier distinct under C.2.1 and E.24.PUB. |
 | Episteme agency | A theory, standard, or doctrine is described as performing Work or enforcement. | Recover every exact acting System through A.13 and let A.15.1 independently admit the Work. Add F.6 only when the receiving account expressly consumes precise assignment-bound attribution; a missing or failed attribution alone leaves independently admitted Work intact. For an admission premise invalidated by the same finding, apply `CC-B2.3-5`. |
-| Morphing as MHT | View, translation, coarsening, or retargeting is called a new episteme whole. | Use A.6 episteme-morphism patterns unless B.2 whole reidentification remains current. |
-| Source trust transfer | Trust in constituent sources becomes assurance for the result episteme. | For that assurance use, re-evaluate the support and source-use relations against the result claim; retain only those that still apply. |
+| Morphing as MHT | View, translation, coarsening, or retargeting is taken as sufficient for B.2 whole reidentification. | Use the direct A.6 operation; C.2.1 decides whether its source and target are different epistemes. Use B.2 when the whole-reidentification question remains. |
+| Source trust transfer | Trust in constituent sources becomes assurance for the result episteme. | Assess the support and source-use relations against that result claim; reuse a matching current applicability judgment and retain only support that applies. |
 
 ### B.2.3:6 - Conformance Checklist
 
@@ -44364,7 +44368,7 @@ The standard is not the committee, the PDF, or the Work of enforcement. The comm
 | --- | --- |
 | `CC-B2.3-1` | B.2 has left a whole-reidentification question before B.2.3 is used. |
 | `CC-B2.3-2` | A positive episteme-result claim requires B.2's exact candidate new whole to pass the complete A.1 criterion and current C.2.1 constitution under the already admitted `U.Episteme` kind. Failed or unresolved recognition follows :4.1. |
-| `CC-B2.3-3` | No episteme-specific result reference, context-shaped slice, second result schema, or extra episteme identity positions are introduced. |
+| `CC-B2.3-3` | Retain B.2's candidate and established-result references. C.2.1's ClaimGraph, EntityOfConcern and effective ReferenceScheme remain the identity discriminators; neighboring relations and any optional durable account stay separate. |
 | `CC-B2.3-4` | Use C.2.1 for constitution and the direct patterns in :4.2 for current neighboring claims. Use E.24.PUB for publication availability, form or carrier distinctions and E.17 for a needed reader face of an accepted account. Use C.2.P for unresolved source-expression or source-to-use wording, and C.2.P.DR for claims inferred from declarative form alone. |
 | `CC-B2.3-5` | The episteme is non-agentive. Acting Systems first satisfy A.13, and synthesis or enforcement Work is independently admitted through A.15.1. F.6 enters only for an expressly consumed precise assignment-bound attribution; missing or failed F.6 alone leaves independently admitted Work intact. If the same finding also invalidates a premise actually consumed by the A.13 or A.15.1 admission, recheck that premise and its dependent conclusions. Agency-characteristic evaluation remains independent of assignment. |
 | `CC-B2.3-6` | Assurance for the result episteme is not silently inherited from constituent epistemes or publications. |
@@ -44374,11 +44378,11 @@ The standard is not the committee, the PDF, or the Work of enforcement. The comm
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| Library as theory | A repository or reading list is treated as one episteme. | Recover one exact candidate and test A.1 plus the C.2.1 constitution relation; if either test fails, withhold episteme-result recognition. Keep any independently established collection claim without inferring that it is sufficient for the current use; report `unknown` when a required test cannot be evaluated. |
+| Collection as MHT | Aggregation is taken as sufficient for an episteme-result MHT. | Recover the candidate and test A.1 plus C.2.1 constitution and the B.2 comparison; if recognition fails, withhold episteme-result recognition. Keep any independently established collection or ordinary episteme claim without inferring that it is sufficient for the current use; report `unknown` when a required test cannot be evaluated. |
 | PDF as episteme | A PDF carrier or its publication form is used as the theory itself. | Use publication patterns for the PDF and keep B.2's `resultHolonRef` for the independently constituted episteme. |
 | Doctrine receives agency | "The standard enforces..." or "the theory decides..." | For a literal claim of dated enforcement or decision Work, recover its actual performer through A.13 and admit the Work independently under A.15.1; add F.6 only when the use consumes precise assignment-bound attribution. Otherwise use F.19 to retain ordinary guidance wording when its capable user and action are recoverable. |
-| Morphism as MHT | A view, translation, coarsening, or retargeting is called a new episteme whole. | Use A.6.2, A.6.3, A.6.4, or A.6.3.CSC unless B.2 whole reidentification is current. |
-| Synthesis as high trust | A new theory inherits trust because its sources were reliable. | When this assurance claim is needed, use A.10, B.3, B.3.5, C.2.1, and source-use patterns to assess the result claim; reuse adequate existing support rather than inheriting assurance from the sources. |
+| Morphism as MHT | A view, translation, coarsening, or retargeting is taken as sufficient for B.2 whole reidentification. | Use A.6.2, A.6.3, A.6.4 or A.6.3.CSC for that operation and C.2.1 for episteme identity; use B.2 for a remaining whole-reidentification question. |
+| Synthesis as high trust | A new theory inherits trust because its sources were reliable. | When this assurance claim is needed, assess it under B.3 and retain the actual source-use relations. Use A.10 for a needed replayable source-to-use account, B.3.5 only when its profile is elected, and C.2.1 for a live constitution question. Reuse adequate existing support rather than inheriting assurance from the sources. |
 
 ### B.2.3:8 - Consequences
 
@@ -44391,7 +44395,7 @@ Positive consequences:
 Costs:
 
 - A claimed synthesis must identify and test the current C.2.1 constitution, not only cite a portfolio.
-- Result-episteme assurance requires a fresh applicability judgment for the exact result claim; existing relations may be reused where that judgment warrants it.
+- Result-episteme assurance needs warranted applicability to the exact result claim and receiving use. A matching current applicability judgment may be reused; reassess when the claim, basis or relevant conditions change.
 - Some "new theory" claims return to publication, source-use, morphism, benchmark, or evidence-use patterns.
 
 ### B.2.3:9 - Rationale
@@ -44428,7 +44432,7 @@ A standard, report, model, or dashboard use may concern claim content, a represe
 
 Use this pattern when capability, functioning, or transformation-flow facts, established under their subject patterns, raise a B.2 whole-reidentification question.
 
-The first useful question is whether those facts can still be explained by the existing whole. If they can, keep that whole and use the direct pattern for the capability, functioning relation, transformation, Method, Work, module, characteristic, or architecture claim. If they cannot, use B.2 for the residual question. Evidence and measurement support, challenge, or leave unresolved the claims about those facts. Use the supported facts in B.2's comparison of the existing and candidate wholes.
+The first useful question is whether those facts can still be explained by the existing whole. If that explanation is sufficient for the receiving use, retain the whole; use the direct pattern for any remaining capability, functioning, transformation, Method, Work, module, characteristic, or architecture question. Use B.2 for a remaining consequential whole-reidentification question, including one whose deciding grounds are unresolved. Evidence and measurement support, challenge, or leave unresolved the claims about those facts. Use the supported facts in B.2's comparison of the existing and candidate wholes.
 
 **What goes wrong if missed.** A genuine new whole is hidden under ordinary capability improvement; or every impressive capability, function, method chain, module allocation, or metric gain is overclaimed as emergence.
 
@@ -44441,14 +44445,14 @@ The first useful question is whether those facts can still be explained by the e
 - If the claim is transformation or transformation-flow structure, use `A.3.4` or `E.18` respectively; use `C.30.TFS-REL` for the selected structure's bounded architecture use.
 - Use `A.3.1` for Method identity, `B.1.5` for Method composition, `A.3.2` for a MethodDescription, `A.15.2` for a WorkPlan, and `A.15.1` for a Work occurrence; `A.15` aligns roles, Methods, and Work.
 - If bearer allocation is the question, use the direct allocation or parthood pattern. Use `A.6.M` only for unresolved module/interface wording, and `C.30`, `A.22` or `C.30.ASV` only for the current architecture, selected-structure or architectural-view claim.
-- If the claim is measurement, threshold, score, robustness, quality, or a whole-level characteristic, use `C.16` and `A.19` for that claim and `A.10` only when evidence use is current.
+- If the claim is measurement, threshold, score, robustness, quality, or a whole-level characteristic, use `C.16` and `A.19` for their respective subject questions. Use `A.10` when a replayable source-to-use account is needed.
 - If the wording is ambiguous emergence, synergy, or title-mnemonic language, use `B.2.P` before selecting B.2.4.
 
 ### B.2.4:1 - Problem Frame
 
 A new capability is not automatically a new whole. A function-like relation is not automatically a part-whole relation. A transformation-flow structure is not automatically MHT.
 
-B.2.4 is the narrow B.2 specialization for cases where exact capability, functioning, or transformation-flow facts raise a consequential question about retaining or reidentifying the existing whole. Evidence bears on claims about those facts; it does not make the explanation fail by itself.
+B.2.4 is the narrow B.2 specialization for cases where exact capability, functioning, or transformation-flow facts raise a consequential question about retaining or reidentifying the existing whole. Evidence bears on claims about those facts.
 
 ### B.2.4:2 - Problem
 
@@ -44479,7 +44483,7 @@ Use the capability and functioning facts to decide whether B.2 whole reidentific
 
 1. Name the exact existing whole and its direct identity or reidentification rule.
 2. Identify each exact capability envelope, obtaining functioning relation, or selected in-life transformation-flow structure under its subject pattern. Keep method, method description, work plan, work occurrence, module allocation, characteristic, and architecture facts separate when they are current.
-3. State the exact claim made about those facts. Name evidence or measurement only as a separate relation that supports, challenges, or leaves that claim unresolved.
+3. State the exact claim made about those facts. For any relied-on evidence or measurement result, identify whether and how it supports or challenges that claim, retaining any unresolved conclusion. Keep the measurement and its result distinct from the evidence-use relation.
 4. Perform B.2's ordinary existing-whole comparison. Better measurement, component improvement, Method or Work repair, allocation repair, or architecture-view repair can leave the same whole in place.
 5. Use B.2 for a remaining whole-reidentification question, including an unresolved deciding ground. When the comparison establishes that the existing whole is insufficient, B.2 identifies an exact candidate new whole, applies the complete A.1 and kind-specific criteria, and tests whether it meets the receiving use before claiming whole reidentification.
 
@@ -44491,14 +44495,14 @@ Begin by testing whether the exact facts are already explained under an applicab
 
 | Exact fact or claim under concern | Subject pattern if sufficient | B.2.4 remains current only when |
 | --- | --- | --- |
-| Capability envelope | `A.2.2` for the capability of an exact System holder, `C.16` for measured characteristics; `A.10` only for evidence use | the exact envelope and holder facts leave a consequential question about whether the existing whole still carries the receiving claim |
-| Function or functioning relation | `A.6.F` recovers the exact claim and its direct subject pattern; `A.3.4` for an actual transformation and `C.16` for a measured characteristic | the obtaining relation and whole-level facts leave a residual new-whole question |
+| Capability envelope | `A.2.2` for the capability of an exact System holder, `C.16` for measured characteristics; `A.10` when a replayable source-to-use account is needed | the exact envelope and holder facts leave a consequential question about whether the existing whole still carries the receiving claim |
+| Function or functioning relation | The direct pattern for the functioning claim; `A.6.F` for unresolved function-like wording, `A.3.4` for an actual transformation and `C.16` for a measured characteristic | the obtaining relation and whole-level facts leave a residual new-whole question |
 | Transformation-flow structure | `E.18` for the selected structure, `A.3.4` for actual transformations, `C.30.TFS-REL` for bounded architecture use; `C.29` for an unresolved representation-choice, transfer or reliance question | the selected in-life structure leaves a consequential question about which whole can carry the current claim |
 | Method relation or method family | `A.3.1` for Method identity, `B.1.5` for composition, `A.15` for role–Method–Work alignment, and `G.5` for registry or selector-facing use; use the direct pattern for any separately claimed family relation and `C.29` for an unresolved representation-choice, transfer or reliance question | the exact method facts leave a consequential question about whether the existing whole still carries the receiving claim |
 | Method description or procedure text | `A.3.2` and `C.2.1` distinguish the MethodDescription and its episteme identity; use `E.24.PUB` for a publication availability, form or carrier question, `E.17` for a needed reader face of the accepted account, and `C.2.P` for unresolved source-expression or source-to-use wording. Use `A.10` when bounded reliance needs a source-to-use account and `G.6` when a provenance chain must be citable or replayable, preserving each direct relation and its governor | an in-life whole-reidentification question remains after the description is separated |
 | Work plan or work occurrence | `A.15.2`, `A.15.1` | exact planned or performed work facts leave a new-whole question; the plan or occurrence is not the whole by label |
 | Module, component, or bearer allocation | The direct allocation or parthood pattern; `A.6.M` for unresolved module/interface wording; `C.30`, `A.22` or `C.30.ASV` only for the corresponding claim | exact allocation and architecture facts leave a consequential question about retaining or reidentifying the whole |
-| Metric, score, threshold, robustness, or quality claim | `C.16`, `A.19`; `A.10` only for evidence use | the underlying characteristic facts leave a consequential question about whether the existing whole still carries the receiving claim |
+| Metric, score, threshold, robustness, or quality claim | `C.16` and `A.19` for their respective subject questions; `A.10` when a replayable source-to-use account is needed | the underlying characteristic facts leave a consequential question about whether the existing whole still carries the receiving claim |
 
 #### B.2.4:4.3 - Existing-Whole Explanation
 
@@ -44516,7 +44520,7 @@ Subject-pattern explanations that often stop B.2.4 include:
 - architecture-view or transformation-flow-structure repair;
 - better evidence, measurement, or source currentness for an unchanged world-side claim.
 
-If one of these explanations is sufficient, finish B.2.4 by retaining the existing whole and continue with the subject pattern.
+If one of these explanations is sufficient for the receiving use, retain the existing whole and finish B.2.4. Use the direct subject pattern for any remaining question.
 
 #### B.2.4:4.4 - When B.2.4 Requires B.2
 
@@ -44533,9 +44537,9 @@ Use B.2 for the remaining comparison and, when required, the test of an exact ca
 
 #### B.2.4:5.1 - Production Cell Capability
 
-A milling machine, robot arm, fixture, and inspection station can remain a collection of assets even when a scheduling rule for their use is available. A new production-cell candidate becomes current only when exact capability, functioning, coordination, and transformation-flow facts cannot be explained by any single component or the old aggregate. Cell-level cycle time and tolerance measurements may support the claim; they do not create the candidate or those facts.
+A milling machine, robot arm, fixture, and inspection station can remain a collection of assets even when a scheduling rule for their use is available. A proposed production-cell whole becomes current for B.2's comparison when the capability, functioning, coordination and transformation-flow facts leave a consequential question about retaining or reidentifying the existing whole. Cell-level cycle time and tolerance measurements may support the claim; they do not create the candidate or those facts.
 
-Use A.6.F for function-like wording, A.3.4 for transformations, E.18 for transformation-flow structure and C.30.TFS-REL for its bounded architecture use, A.15.1 for performed work, C.16 for cycle-time and tolerance characteristics, and B.2 when those facts leave a consequential question about retaining or reidentifying the cell whole.
+Use A.6.F for unresolved function-like wording, A.3.4 for transformations, E.18 for transformation-flow structure and C.30.TFS-REL for its bounded architecture use, A.15.1 for performed work, C.16 for cycle-time and tolerance characteristics, and B.2 when those facts leave a consequential question about retaining or reidentifying the cell whole.
 
 #### B.2.4:5.2 - CI/CD Capability
 
@@ -44554,8 +44558,8 @@ A new theory may explain phenomena that the source portfolio did not explain. Us
 | Capability as emergence | A new capability label or supporting report declares a new whole. | Recover the exact capability facts and direct pattern, separate their evidence, and perform B.2's ordinary existing-whole comparison. |
 | Function as part | A function block or functioning relation becomes physical or organizational parthood. | Separate functioning relation, bearer allocation, selected structure, and part-whole claims. |
 | Method chain as whole | A sequence of methods or work stages is called a new holon. | Keep method, method description, work plan, and work occurrence with subject patterns. |
-| Diagram as flow structure | A diagram or graph is treated as the in-life transformation-flow structure. | Use the mathematical, description, publication, and selected-structure patterns before B.2. |
-| Metric jump as MHT | A benchmark, KPI, robustness, or threshold gain declares whole reidentification. | Use C.16, A.19, A.10, and B.2 existing-whole explanation before MHT. |
+| Diagram as flow structure | A diagram or graph is treated as the in-life transformation-flow structure. | Recover the described flow and distinguish it from its representation. Use description, publication or mathematical-lens guidance for a live question about those subjects; use E.18 for the selected structure and B.2 for a remaining whole-reidentification question. |
+| Metric jump as MHT | A benchmark, KPI, robustness, or threshold gain declares whole reidentification. | Recover the characteristic/value claim and its grounds, then perform B.2's existing-whole comparison. Use A.10 when a replayable source-to-use account is needed. |
 
 ### B.2.4:6 - Conformance Checklist
 
@@ -44566,17 +44570,17 @@ A new theory may explain phenomena that the source portfolio did not explain. Us
 | `CC-B2.4-3` | A capability or function label does not substitute for the subject-pattern facts or B.2 whole comparison. |
 | `CC-B2.4-4` | Method, method description, work plan, and work occurrence remain separate. |
 | `CC-B2.4-5` | Mathematical or publication descriptions of transformation-flow structure do not replace the in-life structure. |
-| `CC-B2.4-6` | If B.2 remains current, it handles the remaining whole comparison, tests an exact candidate new whole under the complete A.1 and direct kind criteria when required, and supplies any optional record needed by the receiving use; B.2.4 introduces no result species. |
+| `CC-B2.4-6` | If B.2 remains current, it handles the remaining whole comparison, tests an exact candidate new whole under the complete A.1 and direct kind criteria when required, and supplies any optional record needed by the receiving use. |
 
 ### B.2.4:7 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| Capability by declaration | A leader names a new capability, but the exact capability facts remain component-level or unknown. | Use A.2.2 for the capability facts, C.16 for their measured characteristics, and A.10 for support; use B.2 if a consequential whole-reidentification question remains. |
-| Function as part | A function block is treated as a physical or organizational part. | Use A.6.F for function-like wording, E.18 for transformation-flow structure and C.30.TFS-REL for its bounded architecture use, A.6.M for module wording, and C.30, A.22, or C.30.ASV for the current architecture, selected structure, or structural-view claim. |
+| Capability by declaration | A leader names a new capability, but the exact capability facts remain component-level or unknown. | Test the capability claim under A.2.2; use C.16 for a measured-characteristic claim and A.10 when a replayable source-to-use account is needed. Use B.2 if a consequential whole-reidentification question remains. |
+| Function as part | A function block is treated as a physical or organizational part. | Recover the actual functioning, allocation or parthood claim under its direct pattern. Use A.6.F or A.6.M for unresolved function-like or module/interface wording; use E.18, C.30.TFS-REL, C.30, A.22 or C.30.ASV only for the corresponding live flow, architecture, selected-structure or view claim. |
 | Method chain as whole | A sequence of methods is called a new holon. | Recover the exact method relation and any current work occurrence; use B.2 when those facts leave a consequential whole-reidentification question. |
 | Diagram as flow structure | A diagram or graph is treated as the transformation-flow structure itself. | Use the applicable description, publication, mathematical-lens, or selected-structure pattern; use B.2.4 only after the selected structure is recovered and a whole-reidentification question remains. |
-| Metric jump as whole | A KPI improves and MHT is declared. | Use C.16, A.10, and existing-whole explanation first. |
+| Metric jump as whole | A KPI improves and MHT is declared. | Test the characteristic claim under its subject pattern and perform the existing-whole comparison. Use A.10 when a replayable source-to-use account is needed. |
 
 ### B.2.4:8 - Consequences
 
@@ -44604,7 +44608,7 @@ FPF's construction in B.2.4 preserves capability and functioning claims while de
 
 Obtaining functioning relations and selected in-life flow structures can make a new-whole question live; descriptions and diagrams remain distinct from those facts. Method, method description, work plan, and performed work occurrence must stay separate when capability evidence is interpreted.
 
-When a receiving use consumes agency-characteristic values, interpret the agency-like evidence through A.13's multi-characteristic profile and C.16's measurement discipline, with thresholds stated for that concern. B.2.4 does not create a binary agency kind. A.13:8 identifies the profile's FPF engineering choices and its research motivation.
+When a receiving use consumes agency-characteristic values, select the needed characteristics from A.13's profile and retain the grounds and uncertainty of those values. Use the applicable characteristic and measurement patterns; an actual measurement keeps C.16's measurement conditions. State a concern-specific threshold when the use makes a threshold judgment. B.2.4 does not create a binary agency kind. A.13:8 identifies the profile's FPF engineering choices and its research motivation.
 
 ### B.2.4:11 - Relations
 
@@ -44860,11 +44864,11 @@ For an operational claim, both approaches can reuse the same controller rule and
 
 **Use this when.** Use B.3 when an actual named assurance claim is current: for example, a claim that an exact model claim is credible for one decision, or that an exact safety claim is adequately supported for one release use.
 
-**First useful move.** Write the target claim and the assurance use in one sentence. Then ask which direct results and argument make that use supportable. If there is no assurance claim, stop and use the pattern that defines or tests the actual evidence, status, gate, permission, safety, release, work, or domain-result claim.
+**First useful move.** State the target claim and the assurance use. Then ask which direct results and argument make that use supportable. If there is no assurance claim, stop and use the pattern that defines or tests the actual evidence, status, gate, permission, safety, release, work, or domain-result claim.
 
 **What goes wrong if missed.** A visible label or a convenient score starts raising trust without an exact target, argument, basis, limitation, and use. At the other extreme, a modest assurance question is forced through a universal score and a large record whose fields do not affect the decision.
 
-**What this buys.** The user gets the smallest assurance result that changes the named use, with enough basis and limits to inspect or reopen it. Domain-specific characteristics and calculations remain usable without pretending that unlike measures share one scale.
+**What this buys.** The user gets the smallest assurance result sufficient for the named use, with enough basis and limits to inspect or reopen it. Domain-specific characteristics and calculations remain usable without pretending that unlike measures share one scale.
 
 **Not this pattern when.** Stay with `A.2.4` for the classification of an episteme as evidence, `A.10` and `G.6` for source recovery and bounded reliance, `G.11` for currentness, `F.10` for a status value and its use, `A.21` for a gate decision, and the direct domain pattern for safety, permission, access, responsibility, release, compliance, or controlled action. Consequence alone does not create an assurance claim. A direct domain rule may require one, but the claim must be stated before B.3 is applied.
 
@@ -44940,7 +44944,7 @@ AssuranceResult:
   reopenCondition:
 ```
 
-`targetClaimRef` identifies the exact C.2.1 episteme or one exact C.2.1 `ClaimAddress` when the use concerns one addressed claim inside a larger episteme. `basisRefs` cite the direct results, evidence-use relations, provenance paths, argument claims, or domain rules actually used. A compact result is complete when these fields decide the named use and another person can see why the stronger use is not carried.
+`targetClaimRef` identifies the exact C.2.1 episteme or one exact C.2.1 `ClaimAddress` when the use concerns one addressed claim inside a larger episteme. `basisRefs` cite the direct results, evidence-use relations, provenance paths, argument claims, or domain rules actually used. A compact result is complete when these fields decide the named use and its basis and limits are recoverable.
 
 Keep the assurance argument readable beside its result or through references that let the recipient inspect it. Explain why the cited basis supports the target claim for this use, including applicable assumptions, limitations and relevant contrary results. This written account is an **assurance case**. Develop it while reasoning: start with the claim and use, state the proposed support, and revise the argument when a premise or inference proves inadequate. A short coherent paragraph can suffice; add detail when review, transfer or later reconsideration needs it.
 
@@ -44974,7 +44978,7 @@ The letters `F`, `G`, `R`, and `CL` may appear inside a declared local scheme, b
 
 - **Formality or inspectability.** Formal structure can make assumptions and inference steps easier to check. It raises assurance only when the named argument explains which uncertainty or verification need it closes. Making a wrong model proof-grade does not improve truth or empirical adequacy.
 - **Claim scope.** `U.ClaimScope` stays an A.2.6 value. It is not a quality coordinate. Widening or narrowing scope changes the claim and its applicable use under the declared scope rules.
-- **Reliability-like characteristics.** Use the exact domain definition, bearer, population or trials, conditions, scale, unit, and qualification window. A system reliability measure and an evidence-quality judgment are not interchangeable.
+- **Reliability-like characteristics.** Use the exact domain definition, bearer and scale, with any applicable unit and the population or trials, conditions and qualification window required by that definition or the receiving use. A system reliability measure and an evidence-quality judgment are not interchangeable.
 - **Relation congruence.** Characterize one exact mapping, calibration, interface, or other relation occurrence only under a declared scale and interpretation. The value neither changes the participants nor supplies a universal penalty.
 
 Never average ordinal values. Do not subtract an ordinal value from a ratio quantity. Thresholds and order comparisons are valid only under the scale that defines them.
@@ -44986,15 +44990,17 @@ B.3 supplies no default fold. When the assurance argument combines quantitative 
 1. the exact result claims being combined;
 2. the dependency or alternative-path structure;
 3. the domain aggregation rule or model;
-4. independence, dependence, calibration, and unit assumptions;
+4. the assumptions required by the rule or model, including any independence, dependence, calibration or unit assumptions;
 5. the calculation or ordered comparison;
-6. the rival rule that would matter if an assumption fails.
+6. any rival rule that is plausible at comparable effort and could change the result or its warranted use.
 
 Use `min` only when the cited domain rule makes the weakest input a lower bound or bottleneck for the exact quantity. It is not universally conservative. If no applicable aggregation rule is available, report the inputs separately and return a bounded, non-positive, or unresolved disposition. Do not manufacture one score to make the result look complete.
 
 Several independent evidence lines may strengthen an argument only through the rule that states how their dependence and coverage are handled. Claim-scope intersection or union follows A.2.6 and the relevant evidence model; it is not an assurance arithmetic shortcut.
 
-#### B.3:4.5 - Choose one of three proof paths
+#### B.3:4.5 - Add the proof detail the assurance use needs
+
+Add calculated or model-bearing details, replay details, or both to the compact result when the named assurance use needs them.
 
 **Compact path.** Use the six-field result in 4.2. Stop when it decides the named use.
 
@@ -45008,7 +45014,7 @@ Do not select the replay path merely because the use is important. Importance ma
 
 A visible artifact, such as an attestation or dashboard tile, contributes to assurance only through a claim and basis relation used by the argument. Establish whether the artifact supplies a cue, source, evidence item, or representation for that use.
 
-If the visible item only reports a status, gate decision, permission, warning, or source location, use its direct pattern and produce no B.3 result. If an assurance claim is current, cite the item only for the property it actually establishes. A valid signature or provenance chain can establish origin and integrity without establishing safety, truth, compliance, or readiness.
+If the current question concerns only a status, gate decision, permission, warning, or source location, use its direct pattern and produce no B.3 result. If an assurance claim is current, cite the item only for the property it actually establishes. A valid signature or provenance chain can establish origin and integrity without establishing safety, truth, compliance, or readiness.
 
 #### B.3:4.7 - Leave domain obligations with their direct patterns
 
@@ -45040,7 +45046,7 @@ Every positive or narrowed B.3 result:
 
 1. identifies the exact target claim and named assurance use;
 2. cites only basis results and relations that actually bear on that use;
-3. states assumptions, limitations, and unsupported stronger uses;
+3. states applicable assumptions and limitations, including any unsupported stronger use relevant to the receiving decision;
 4. keeps target fact, claim, evidence, assessment, result, record, publication, and later use distinct;
 5. names a reopen condition;
 6. uses the direct domain rule for every safety, permission, access, status, release, responsibility, or controlled-action premise;
@@ -45048,7 +45054,7 @@ Every positive or narrowed B.3 result:
 
 #### B.3:5.2 - Additional obligations for a calculated result
 
-A calculated result also names every bearer, characteristic, scale, unit, dependency, calibrated mapping, aggregation rule, and calculation. It shows at least one assumption whose failure changes the result. If a rival rule is plausible at comparable effort, show why the selected rule fits the declared dependency structure.
+A calculated result also names every bearer, characteristic, scale, applicable unit, dependency, calibrated mapping, aggregation rule and calculation it uses. Explain sensitivity to assumption failures when it matters for the named assurance use. If a rival rule is plausible at comparable effort and could change the result or its warranted use, show why the selected rule fits the declared dependency structure.
 
 #### B.3:5.3 - Additional obligations for replay
 
@@ -45108,14 +45114,14 @@ An assurance argument relies on a manufacturing sequence whose result changes wh
 | `CC-B3-2` | The compact result contains target, use, basis, disposition, limits, and reopen condition; optional fields appear only when they change the conclusion or its replay. |
 | `CC-B3-3` | Every characteristic has one bearer, property, scale and unit where applicable, interpretation, and basis. |
 | `CC-B3-4` | Formality is not treated as monotone truth, empirical adequacy, or warrant. |
-| `CC-B3-5` | Aggregation cites the domain model, dependencies, assumptions, units, calculation, and relevant rival; no default `min`, mean, penalty, or ordinal arithmetic is used. |
+| `CC-B3-5` | Aggregation cites the domain model, dependencies, required assumptions, applicable units, calculation or ordered comparison, and any relevant rival; no default `min`, mean, penalty, or ordinal arithmetic is used. |
 | `CC-B3-6` | Design and run results remain separate when their conditions or evidence differ. |
 | `CC-B3-7` | Target fact, target claim, evidence use, assessment Work, input results, assurance result, witness, note, publication, and later reliance or decision remain recoverable separately. |
 | `CC-B3-8` | A label, dashboard, card, provenance mark, attestation, or publication contributes only the exact property established through a cited relation. |
 | `CC-B3-9` | Safety, rights, access, responsibility, contest, redress, status, permission, release, and controlled action remain with their direct patterns. |
 | `CC-B3-10` | A causal-use premise cites the exact C.28 result. A Method premise cites its direct composition, selection or other result; add an A.22 structure only when independently selected organization changes the assurance question, with all four identity discriminators recoverable. |
 | `CC-B3-11` | Work, performer, Method, bindings, witnesses, reusable notes, and an optional F.6 assignment check are added only for an actual replay, competence, independence, timing, contest, or redress need. Every Work follows the §4.5 A.13 then independent A.15.1 route. |
-| `CC-B3-12` | A positive result states the unsupported stronger use and exact reopen condition. |
+| `CC-B3-12` | A positive result states its exact reopen condition and any unsupported stronger use relevant to the receiving decision. |
 
 ### B.3:8 - Common anti-patterns and repairs
 
@@ -45144,7 +45150,7 @@ An assurance argument relies on a manufacturing sequence whose result changes wh
 
 - B.3 supplies no convenient universal number. A project must use the domain model that gives its inputs meaning.
 - Some assurance questions remain unresolved until a dependency model, calibrated mapping, or direct domain requirement is supplied.
-- Reusable replay records cost more than a compact result and therefore require an actual receiver.
+- Reusable replay records can add cost; include them when the receiving use needs them.
 
 ### B.3:10 - Rationale
 
@@ -45214,7 +45220,7 @@ Terms such as `FV`, `EV` or `CL` can be used only with the bearer, scale and int
 
 #### B.3.3:3.2 - Use a level only through its justified profile
 
-A domain may define an assurance profile or ordered levels when a recurring receiving decision benefits from that comparison. Its definition states the claim class and use, relevant conditions, meaning of each level, evidence rules, threshold basis and reconsideration conditions. Keep the measure and its scale explicit where a threshold is used. Establish the ordering from these meanings; the numerals in `L0–L2` supply no ordering of trust across unlike uses.
+A domain may define an assurance profile or ordered levels when a recurring receiving decision benefits from that comparison. Its definition states the claim class and use, relevant conditions, meaning of any levels used, evidence rules, the basis for any thresholds, and reconsideration conditions. Keep the measure and its scale explicit where a threshold is used. Where levels are ordered, establish that ordering from their meanings; the numerals in `L0–L2` supply no ordering of trust across unlike uses.
 
 Publish `AssuranceLevel` only with the applicable profile and a result showing why the target meets its criteria. The legacy names `Unsubstantiated`, `Substantiated` and `Axiomatic` do not supply default criteria. In particular, an axiomatic or constructive justification concerns a particular consequence or construction, not a universally higher assurance state than empirical support. A conjecture's origin in abduction likewise does not assign it `L0`.
 
@@ -45246,7 +45252,7 @@ A Target of Assurance (ToA) denotes the claim being assessed for the named use, 
 - **CC-B3.3.2 (Needed correspondence):** Where differing terms or participants can change the argument, the assessor MUST resolve the load-bearing correspondence through the applicable bridge. Other judgements have no general term-mapping prerequisite.
 - **CC-B3.3.3 (Qualified levels and thresholds):** A published level MUST have an applicable profile, interpreted criteria and a supported assignment. Formal, empirical and constructive evidence requirements MUST follow the specific claim and receiving use. A generic score threshold or positive validation score cannot substitute for the required protective argument.
 - **CC-B3.3.4 (Bridge scope):** A required bridge MUST cover the differences on which the conclusion depends. It SHALL NOT demand mapping every mechanism term to FPF as the price of an otherwise sufficient ordinary judgement.
-- **CC-B3.3.5 (Scope separation):** Design-time and run-time assurance claims MUST retain their distinct subjects, evidence and conditions. A design result SHALL NOT be published as evidence that the corresponding Work performed successfully.
+- **CC-B3.3.5 (Scope separation):** Design-time and run-time assurance claims MUST retain their distinct subjects, evidence and conditions. A design result alone SHALL NOT establish that the corresponding Work performed successfully.
 - **CC-B3.3.6 (CT2R-LOG grounding):** When B.3.5's profile is elected, the structural and collection branches MUST retain their distinct current construction traces and declared modes. A level assignment SHALL NOT replace the required grounding or impose the profile on unrelated claims.
 - **CC-B3.3.7 (Downward-only dependence):** Assurance publications or records SHALL NOT impose vocabulary or layout back onto the Working-Model surface.
 
@@ -45261,7 +45267,7 @@ A Target of Assurance (ToA) denotes the claim being assessed for the named use, 
 
 ### B.3.3:6 - Consequences
 
-Recipients can inspect what an assurance result supports and why a stronger use remains open. Teams direct effort towards relevant gaps and can reuse evidence that covers the claim.
+Recipients can inspect which claim and use an assurance result supports, its grounds and its limits. Teams direct effort towards relevant gaps and can reuse evidence that covers the claim.
 
 Comparability becomes profile-specific. Defining a useful shared profile takes judgement about consequences, criteria and evidence; routine uses avoid that overhead.
 
@@ -45333,7 +45339,7 @@ Where a required review period applies, follow it until it is changed by someone
 
 #### B.3.4:4.3 - Treat epistemic debt as an optional planning indicator
 
-A team may call its outstanding evidence-review or maintenance obligations **epistemic debt (ED)**. If it needs a number, define the counted entities, dependency treatment, scale and unit, policy purpose, and meaning of the action threshold. An `epistemic_debt_budget` is then a named planning-policy limit, not a universal allowance of harm.
+A team may call its outstanding evidence-review or maintenance obligations **epistemic debt (ED)**. If it needs a number, define the counted entities, dependency treatment, scale and applicable unit, policy purpose, and meaning of any action threshold. An `epistemic_debt_budget` is then a named planning-policy limit, not a universal allowance of harm.
 
 For example, a team may count distinct overdue review obligations to plan assessor capacity. Ten duplicate paths to one obligation do not create ten obligations. Separate obligations consuming the same source may still require different judgements for different uses.
 
@@ -45347,7 +45353,7 @@ Determine which continuation the available support and applicable rules permit. 
 | --- | --- | --- |
 | Continue on applicable support | Available information is sufficient for the unchanged bounded use. A scoped reconsideration, if needed, has found no relevant loss. | Retain the qualified result. No new experiment, waiver or separate no-refresh record is required merely to continue. |
 | Narrow or restrict the use | Support remains sufficient for a smaller envelope or less demanding claim. | State the usable boundary and the limitation that changes the recipient's action. |
-| Refresh or inspect | An obtainable check can resolve a material uncertainty or meet a justified current requirement. | Choose that check with regard to what its result can change, its cost, delay and displaced work; perform and assess it only when actually undertaken. |
+| Refresh or inspect | An obtainable check can resolve a material uncertainty or fulfil a binding review requirement. | Choose that check with regard to what its result can change, its cost, delay and displaced work; assess its result if the check is performed. |
 | Suspend reliance or deprecate the affected result | The necessary support is absent or defeated and no permitted continuation carries the requested use. | Remove or qualify that reliance and communicate the affected reach. A status downgrade does not accept the underlying harm. |
 | Apply an authorized exception | An applicable rule permits a bounded exception and a competent authority can grant it for this case. | Follow the actual mandate, scope, conditions and accountability. A senior title alone grants no authority over affected risk bearers. |
 
@@ -45361,7 +45367,7 @@ Trace a changed premise to the claims and uses that actually depend on it. Reope
 
 Keep actual physical and institutional conditions intact. Expired calibration qualification, an unavailable configuration, ended resource support or an elapsed rights window can block the corresponding use even when the old report remains an accurate record of an earlier state. A justified deterioration model can make elapsed time material; cite that model rather than inferring universal decay.
 
-A dashboard should distinguish a review due, a defeated premise and a restricted use. Its colour reports the declared indicator or disposition, not the truth of the underlying claim. A failing test is a potentially relevant adverse result to assess now, not merely another overdue date.
+A dashboard should distinguish a review due, a defeated premise and a restricted use. Its colour reports the declared indicator or disposition; that report alone does not establish the underlying claim. A failing test is a potentially relevant adverse result to assess now, not merely another overdue date.
 
 #### B.3.4:4.6 - Worked cases: the same age, different decisions
 
@@ -45374,7 +45380,7 @@ Suppose the available inspection team can either inspect a suspected load-bearin
 ### B.3.4:5 - Conformance Checklist
 
 - **CC-ED.1 (Use-qualified currentness):** A currentness conclusion MUST identify the relied-on claim/use and the conditions or temporal boundary that change it. A carrier's age or absent date SHALL NOT alone establish loss of support.
-- **CC-ED.2 (Interpreted planning measure):** A numerical ED or debt budget MUST define its counted entities, dependency treatment, scale/unit, purpose and threshold meaning. No project has a default obligation to adopt one.
+- **CC-ED.2 (Interpreted planning measure):** A numerical ED or debt budget MUST define its counted entities, dependency treatment, scale, applicable unit, purpose and the meaning of any action threshold. No project has a default obligation to adopt one.
 - **CC-ED.3 (Affected reach):** Reconsideration MUST follow the actual support dependencies. Any aggregation MUST use an applicable interpreted model and avoid counting duplicate paths as additional evidence or risk.
 - **CC-ED.4 (Qualified disposition):** A trigger MUST be interpreted for the receiving use; it SHALL NOT automatically downgrade a level or require Refresh/Deprecate/Waive. Preserve a sufficient current result without a separate renewal or no-refresh certificate. Preserve real qualification, rights and resource-use expiry.
 - **CC-ED.5 (Actual exception authority):** A waiver, when used, MUST have the authority and scope allowed by the applicable rule, a rationale, affected risk bearers and accountability, and its actual ending or reconsideration condition. Keep the auditable exception with the decision that uses it; a title or lowered assurance status does not confer risk-acceptance authority.
@@ -45489,7 +45495,7 @@ The applicable branch above selects the allowed modes and grounding targets. The
 
 #### B.3.5:4.1 - Structural CT2R Typing-Grounding Unfolding Structure Block
 
-When a constructive trace, working-model relation, and target kind or logical representation must be carried together across contexts, use this block or cite an equivalent `A.22.CGUS` specialization. The block is useful when the reader must see the passage from constructional material to a typed or logical claim without treating a readable relation label as proof.
+When a constructive trace, working-model relation, and target kind or logical representation must be inspected together across contexts, explain their correspondence and what structure is preserved or lost. The block below is an optional way to record that account. Use `A.22.CGUS` for a remaining question about potential continuations and their conditions.
 
 ```text
 StructuralCT2RTypingGroundingUnfoldingStructureBlock:
@@ -45502,11 +45508,11 @@ StructuralCT2RTypingGroundingUnfoldingStructureBlock:
   lostOrCollapsedStructure:
   CL_or_CLk?:
   admissibleReuse:
-  blockedSubstitution:
+  blockedSubstitution?:
   evidenceOrProofLinkageRef?:
 ```
 
-`unfoldingStructureRef` names an independently selected A.22 structure; this block is a record describing its use. Recover the exact constituents, obtaining relations, applied constraints and named selection/use frame. `StructuralCT2RTypingGroundingUnfoldingStructure` is a local designator for the selected structure used to inspect this construction-to-typed/logical projection. Any A.22.CGUS qualification is tested separately under its potential-continuation rule; a local name or record does not establish it. C.13 supplies constructive-trace content and C.3 the kind intent, extent and subkind content actually used.
+When the receiving use needs a selected A.22 structure, `unfoldingStructureRef` names it. Recover its exact constituents, obtaining relations, applied constraints and named selection/use frame under A.22. `StructuralCT2RTypingGroundingUnfoldingStructure` is a local designator for that selected structure used to inspect this construction-to-typed/logical projection. Any A.22.CGUS qualification is tested separately under its potential-continuation rule; a local name or record does not establish it. C.13 supplies constructive-trace content and C.3 the kind intent, extent and subkind content actually used.
 
 When an inadequate working account requires general diagnostic recovery of the exact subject construction, use `A.7.1`. That return may stop at a direct relation, system-role assignment, state or capability, Work occurrence, holon recognition, or the pattern for another subject without opening this structural CT2R specialization.
 
@@ -45628,7 +45634,7 @@ For every relation instance covered by an elected B.3.5 profile, the author **MU
 
 * **S‑3.a `postulate`.** For a branch that permits it, state the working scope, link `tv:groundedBy` to an admissible evidence object, and give the empirical cues that would challenge the claim. No construction trace is required by this mode.
 
-* **S‑3.b `inferential`.** For a branch that permits it, link `tv:groundedBy` to a short reasoned chain from admitted statements that a peer can follow.
+* **S‑3.b `inferential`.** For a branch that permits it, link `tv:groundedBy` to a reasoned chain from admitted statements that a peer can follow.
 
 * **S‑3.c `axiomatic`.** The author links the assertion to the current C.2.1 trace episteme required by its branch. A competent peer can recover the exact participants, direct relation occurrence, applicable rule, and identity or reidentification conditions. The account makes those facts inspectable.
 
@@ -45672,14 +45678,14 @@ Core prose **MUST NOT** introduce CI/CD terms, file formats, APIs, or machine‑
 **M‑2.** If a publication choice or named current requirement elects this profile, pick `validationMode`; otherwise keep the direct relation claim and stop:
 
 * For a permitted exploratory claim, choose **postulate**, link its empirical support, and state scope plus challenge cues.
-* For a permitted conclusion from known statements, choose **inferential** and link the short argument.
+* For a permitted conclusion from known statements, choose **inferential** and link the followable argument.
 * For structural parthood covered by the profile, choose **axiomatic** and link the applicable current construction account.
 * For collection belonging covered by the profile, choose **axiomatic** and link one current `C.13 set` trace that reports the already established relation under the collection's own rule.
 * For another permitted epistemic or constitutive claim whose chosen basis is a qualifying C.13 account, choose **axiomatic** and link that account.
 
 **M‑3.** When an alternative designation helps readers, link that designation through `tv:AliasOf` to the accepted Tech designation of the same relation. State its local use and cite the definition; apply :5 when the meaning or participant order differs.
 **M‑4.** If assembly uses two parallel lines, state the actual Method/Work and temporal facts. Add any independently obtaining part relation under its own rule; parallelism alone does not establish it.
-**M‑5.** Stop when the selected readable relation and remaining non-use boundary are clear and, if this profile is elected, its validation mode and required current support are recoverable without guessing.
+**M‑5.** Stop when the selected readable relation and any relevant use limits are clear and, if this profile is elected, its validation mode and required current support are recoverable without guessing.
 
 ### B.3.5:10 - Bias-Annotation (auditable, human-first)
 
@@ -45688,10 +45694,10 @@ Core prose **MUST NOT** introduce CI/CD terms, file formats, APIs, or machine‑
 | **Formalism capture** | A trace, constructor expression, or `validationMode` is treated as the source of the direct relation or whole identity. | Recover the exact participants, direct relation occurrences, construction rule, and identity or reidentification rule first. Treat the trace as a current C.2.1 account and the mode as the author's assurance posture. | CC‑CT2R‑1, CC‑CT2R‑2, CC‑CT2R‑3; C.13 trace separation. |
 | **Canonical inversion** | B.3.5 fields are demanded before direct use, or one assurance branch is imposed on every relation. | Use the direct claim first. After election, use the applicable branch: structural parthood or collection belonging takes its required axiomatic trace; other permitted claims may use inferential or postulate support. | CC-CT2R-2, CC-CT2R-3, CC-CT2R-5. |
 | **Order/time leakage** | Inferring parthood from sequence, parallelism or interval inclusion alone. | Recover the independent part relation under A.15.1 or A.14 when it obtains, and keep Method/order/time claims separate. | B.1.5, C.27 and B.1.4; A.15.1 or A.14 for the exact part/phase claim. |
-| **Notation lock‑in**            | Letting a diagram or syntax define the meaning (“it’s true because the diagram says so”).                                     | Enforce **Notational Independence**: meaning is defined in prose/maths; renderings are illustrative only.                                                                                                         | Part E guard‑rail on notational independence.                        |
+| **Notation lock-in** | Treating one diagram or syntax as sufficient grounds for the relation, or leaving its meaning unrecoverable outside that notation. | Keep the relation's meaning recoverable independently of one notation. Explain the interpretation and any reasoning or construction step carried by the expression under E.5.2. | E.5.2:4 and CC-NI.1–3. |
 | **Unexamined mapping fit** | A composed claim relies on a mapping without inspecting preserved and lost distinctions. | State the exact mapping, its applicability and loss. Use a numeric reliability consequence only when the receiving model establishes its meaning and calculation; ordinal CL alone is insufficient. | B.3 and the direct mapping or representation pattern. |
 | **Collection/composition swap** | A belongs-to predicate is used as `PartOf`, or a part claim is used as collection belonging, and reliability is carried over as if both were one construction. | State collection belonging and constructive parthood separately under A.14. When both obtain, keep both claims and their different `set` and `sum` accounts. | A.14 and C.13. |
-| **DesignRunTag chimera**          | Mixing design‑time and run‑time evidence into one “assurance” line.                                                           | Split the **scope** of the claim: `S ∈ {design, run}`; compare side‑by‑side rather than merging.                                                                                                                  | B.3:4.8 and its “Design/run chimera” anti-pattern. |
+| **Design/run conflation** | Conflating design and run claims or carrying support between them without the needed grounds. | Keep design and run claims, their evidence and conditions distinct; justify any contribution across those scopes. A design result alone does not establish successful performance. | B.3:4.8 and B.3.3:CC-B3.3.5. |
 
 ### B.3.5:11 - Conformance Checklist (normative, author-facing)
 
@@ -45706,16 +45712,16 @@ Core prose **MUST NOT** introduce CI/CD terms, file formats, APIs, or machine‑
 | **CC‑CT2R‑6 (Fit is explicit).** | Where a claim relies on a mapping or alignment, the author **SHALL** state its actual applicability, preserved/lost distinctions and consequence for this claim. Any quantitative reliability adjustment needs a justified receiving model, compatible Scale and calculation; a CL label alone supplies none. | Keep integration limits inspectable without invented reliability arithmetic. |
 | **CC‑CT2R‑7 (Notational independence).**        | Core meaning **MUST NOT** hinge on any specific diagram or syntax; illustrative renderings, if present, are labelled *informative*.                                                                                                           | Ensure longevity and cross‑discipline portability.                        |
 | **CC‑CT2R‑8 (Layer direction).**                | Grounding flows **downwards** from Working‑Model to Assurance layers (Mapping/Logical/Constructive). Authors **SHALL** avoid back‑defining the canonical relation by its Mapping, Logical, Constructive, or Empirical grounding.                                                  | Preserve unidirectional dependence of layers.                             |
-| **CC‑CT2R‑9 (Scope split).**                    | When assurance is discussed, authors **SHALL** state the **typed claim** and **scope** `S ∈ {design, run}` and keep them distinct in reasoning.                                                                                               | Prevent DesignRunTag chimeras.                                              |
+| **CC‑CT2R‑9 (Claim and scope).** | Authors **SHALL** state the assurance claim and its applicable scope. Design and run claims retain their distinct subjects, evidence and conditions. | Prevent unsupported transfer between design and performed Work while retaining relevant evidence contributions. |
 
 ### B.3.5:12 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | What goes wrong | Repair |
 | --- | --- | --- |
-| Trace as relation or truth-maker | A `Gamma_m` trace is treated as the public relation, as proof that the relation obtains, or as the source of whole identity. | Keep the Working-Model relation canonical; recover the direct relation facts and reidentification rule independently; attach the trace only as their inspectable C.2.1 account. |
+| Trace as relation or truth-maker | A `Gamma_m` trace is treated as the public relation or the source of whole identity, or its presence or notation is treated as proof that the relation obtains. | Keep the Working-Model relation canonical; recover the direct relation facts and reidentification rule independently; attach the trace only as their inspectable C.2.1 account. |
 | Unchecked relation label or mode | A familiar relation label or `axiomatic` flag is published as though either settled relation obtaining or identity. | State and test the direct relation first. When B.3.5 is elected, add the branch-specific mode and support account. Stop when a fact required by the direct pattern is missing. |
 | Order/time leakage | Sequence, phase labels or parallel timing are treated as sufficient evidence of parthood. | Recover each direct relation separately: A.15.1 for Work parts, A.14 for a proper phase of an unchanged non-Work carrier, and B.1.4 for aggregation of recovered order or temporal relations. |
-| Assurance by notation | A diagram, graph display, or data format is treated as if it made the relation true. | Use the diagram, graph display, or data format to present the relation claim; keep the grounding relation and validation mode explicit. |
+| Assurance by notation | A diagram, graph display, or data format is treated as if it made the relation true. | Use the display to present the relation claim and establish its grounds under the direct relation rule. When this profile is elected, keep its grounding relation and validation mode explicit. |
 
 ### B.3.5:13 - Consequences (benefits, trade-offs, mitigations)
 
@@ -45763,7 +45769,7 @@ The assurance profile uses the following contributions. The W3C recommendations 
 | NIST's [Digital Thread for Manufacturing](https://www.nist.gov/programs-projects/digital-thread-manufacturing) programme | **Adapt** traceable model-based information, validation, and conformance across engineering, manufacturing, and quality. **Reject** a shared model, thread, exchange, or passing syntax check as proof of a world-side relation. | `tv:groundedBy`, the trace-family rule, and the two worked cases keep the support account versioned and inspectable while the direct relation and its own rule decide what obtains; a trace or evidence item creates neither the relation nor its identity. |
 | [SKOS / SKOS-XL (W3C, 2009)](https://www.w3.org/TR/skos-reference/#xl-label-relations) and [OWL 2 Direct Semantics (W3C, 2012)](https://www.w3.org/TR/owl2-direct-semantics/#Object_Property_Expression_Axioms) | **Adopt** the distinction between labels, relations between labels, and the relations they designate. OWL distinguishes equal property extensions from inverse properties with reversed participants. **Adapt** a directed local alias under E.10; neither a generic SKOS-XL label relation nor property equivalence supplies that declaration’s complete meaning. | :5 defines designation endpoints, local use and participant positions. The assembly-glossary case shows why changing the label’s meaning and changing the actual assembly require different reconsideration. |
 
-At comparable correctness and currentness, always exposing the heavier account costs more to write and read, while a bare direct sentence cannot meet an elected assurance need. B.3.5 therefore starts with one readable relation and adds one branch-specific account only when the publication elects the profile. The cost is that the relation assertion and its support must be checked for currentness separately.
+B.3.5 starts with a readable relation and adds the branch-specific account when the publication elects the profile. Keep the assertion and its support current under their applicable relation and assurance rules.
 
 Reconsider the affected assertion when its member, rule, trace, or evidence changes. Use the applicable relation and assurance rules when their editions change.
 
@@ -45777,7 +45783,7 @@ Reconsider the affected assertion when its member, rule, trace, or evidence chan
 
 **Coordinates with**
 - **Compose-CAL (`Γ_m`) and `C.13`** — supply current construction accounts for structural parthood and the `set` account for elected assurance of collection belonging. Each trace reports facts whose meanings and conditions come from the pattern that defines the relation.
-- **A.22.CGUS / StructuralCT2RTypingGroundingUnfoldingStructureBlock** — provides the local structural CT2R unfolding block when a constructive trace, working-model relation, target kind or logical representation, bridge, preserved structure, and loss must be inspected together; `A.7.1` is the pattern for general diagnostic return to a subject construction.
+- **A.22 / A.22.CGUS** — Use A.22 when the receiving question needs a selected structure. B.3.5:4.1 supplies an optional record of construction-to-typed/logical correspondence and preserved or lost structure. Use A.22.CGUS when potential continuations and their conditions are at issue; `A.7.1` supplies general diagnostic return to a subject construction.
 - **KD‑CAL** — provides the **logical** shoulder (inferential justification) when authors pick `validationMode = inferential`.
 - **E.10 / Lang-CHR (F.18)** — govern relation designations, local aliases and register use; F.17 supplies naming records when needed.
 - **Kind-CAL / F.9** — govern actual kind correspondences and correspondences between distinct local meanings. A same-meaning alias follows the naming rules above.
@@ -58451,7 +58457,7 @@ The readable label and the trace answer different questions. The label states wh
 
 #### C.13:4.4 - Structural CT2R Typing-Grounding Use
 
-When a target kind or logical representation must reuse both a `Γ_m` construction account and an independently grounded Working-Model relation, use `StructuralCT2RTypingGroundingUnfoldingStructureBlock` from `B.3.5` or an equivalent `A.22.CGUS` specialization. The block describes an independently selected `A.22` structure; any CGUS qualification is established separately. C.13 supplies the subject-side construction relations and states which mereological structure the target preserves or loses. Recover any required bridge, kind intent, proof, empirical evidence and admissible reuse under their governing patterns. Apply `A.7.1` when an inadequate working account must be diagnosed against the subject construction.
+When a target kind or logical representation must reuse both a `Γ_m` construction account and an independently grounded Working-Model relation, explain their correspondence and which mereological structure the target preserves or loses. The `StructuralCT2RTypingGroundingUnfoldingStructureBlock` from `B.3.5` is an optional way to record that account. Use `A.22` when the receiving question needs a selected structure and `A.22.CGUS` when potential continuations and their conditions are at issue. C.13 supplies the subject-side construction relations. Recover any required bridge, kind intent, proof, empirical evidence and admissible reuse under their governing patterns. Apply `A.7.1` when an inadequate working account must be diagnosed against the subject construction.
 
 Use this split especially when a readable relation label such as ComponentOf, a collection's belongs-to predicate, AspectOf, ConstituentOf, or RepresentationOf is being reused beyond what its sentence warrants. The label does not by itself prove constructive grounding or a wider structural projection. Name the construction trace and Working-Model relation, the target kind or logical representation, any bridge used, the structure preserved and collapsed, and the proof or evidence relation required by the stronger claim. If the evidence instead diagnoses a mismatch that requires revision of the working ontology, apply `A.7.1`.
 
