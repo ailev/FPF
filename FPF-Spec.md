@@ -286,7 +286,7 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | B.5.QD | **Develop a New Question from a Result or Construction** | Stable | Use when a counterexample, result or newly available operation changes what could be investigated but the next question is unclear. Recover the changed dependency, construct the answer form and work a revealing case before choosing the inquiry. *Queries:* "What useful question follows from this failure?", "What can we now ask using this construction?", "Can a bound answer the need?", "Which next problem opens further work?" | **Coordinates with:** B.5.RA and B.5.RR for reasoning; B.5.MPC for joint contributions; C.39 and C.40 for methods and coupled development; E.10.INT and C.11.DUA for worthwhile inquiry. |
 | B.5.QD.CF | **Reformulate a Problem by Examining Its Conflicting Assumptions** | Stable | Use when needed outcomes appear incompatible and examining their premises could reveal another way. Recover the need, expose an assumed necessity or shared condition, construct a new question or candidate way, and return to the retained requirements. *Queries:* "Which assumption makes these requirements conflict?", "Is this means necessary?", "What remains impossible under the retained conditions?" | **Specializes:** B.5.QD. **Uses:** B.5.FM, B.5.RA and B.5.TC. **Coordinates with:** C.40.CD, C.11.DUA and B.1.5.EW. |
 | B.5.1 | **Coordinate Development States: Explore → Shape → Evidence → Operate** | Stable | Use when a project needs a shared account of whether a system or episteme is being explored, shaped, evaluated or operated. Name the development subject and the prerequisites for its intended transition; assess a claim's support for its use separately. *Queries:* "What development state is this subject in?", "What must hold before its next transition?", "Can a useful result be used before development reaches Operation?" | **Builds on:** B.5. |
-| B.5.2 | **Generate and Compare Candidate Explanations (Abductive Loop)** | Stable | Use when an anomaly, opportunity or probe question needs rival explanations. Frame the question, generate candidates, compare explicit plausibility grounds and return a qualified conjecture or an abort, defer or split result. *Queries:* "What might explain this observation?", "Which rival explanations remain plausible?", "Can I retain a useful conjecture when a discriminating check is unavailable?" | **Builds on:** B.5, B.5.2.0, A.10, B.3.3. **Coordinates with:** B.4.1, A.16, A.6.P. |
+| B.5.2 | **Generate and Compare Candidate Explanations (Abductive Loop)** | Stable | Use when an anomaly, opportunity or probe question needs candidate explanations. Frame the question, generate candidates, compare explicit plausibility grounds and return a qualified conjecture or an abort, defer or split result. *Queries:* "What might explain this observation?", "Which rival explanations remain plausible?", "Can I retain a useful conjecture when a discriminating check is unavailable?" | **Builds on:** B.5, B.5.2.0, A.10, B.3.3. **Coordinates with:** B.4.1, A.16, A.6.P. |
 | B.5.2.0 | **Question Form for Entering Abduction (`U.AbductivePrompt`)** | Stable | Defines the explanatory-question publication that B.5.2 accepts as input to hypothesis work. Recover the prompt species, explanatory question, scope and provenance; keep the question distinguishable from an asserted answer. *Queries:* "What makes this question an admissible abductive prompt?", "Is this an open question or a disguised answer?", "Which prompt species applies?" | **Builds on:** B.4.1, A.16, C.2.2a. **Coordinates with:** A.6.P, A.6.A, C.16.Q. **Used by:** B.5.2. |
 | B.5.2.1 | **Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)** | Stable | Use when candidate explanations need an explicit novelty, quality and diversity search basis. Declare the coordinate and policy basis, generate within a stated budget, and return the declared front with any required exploration archive. Apply B.5.2's plausibility comparison to the hypotheses. *Queries:* "How do I explore varied explanatory hypotheses under a budget?", "Which coordinates define this front?", "Which off-front hypotheses remain worth retaining?" | **Builds on:** B.5.2, A.17, A.18, C.17, C.18, C.19. **Coordinates with:** B.4, C.11, G.5. |
 | B.5.3 | **Interpret Domain Vocabulary for an FPF Claim (Domain-Concept Bridge)** | Stable | *Keywords:* domain vocabulary, source-local meaning, F.17 cell, basis relation, direct relation, bounded use and loss. *Queries:* "Which exact source expression and local claim are current?", "Which FPF value or relation does this use require?", "What obtaining relation, direction, loss boundary, and receiving use may be claimed?" | **Builds on:** A.2, A.6.5, C.3, E.24.UK, F.0.1, F.1, F.2, F.3, F.5, F.8, F.17. **Coordinates with:** E.10.ROLE, F.9. |
@@ -49597,11 +49597,11 @@ This pattern operationalizes the **Principle of State Explicitness (P-9)** for d
 `B.5 Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)`, `B.5.1 Exploration`, `B.5.2.0 U.AbductivePrompt`, `A.10`, `B.3.3`.
 
 **Coordinates with.**
-`B.4.1 Observe-Notice-Stabilize-Route` for pre-abductive routing, `A.16` for admissible language-state moves, `A.6.P` for lexical repair before hypothesis publication, and `C.16.Q` / `A.6.A` when the initiating publication face or cue is evaluative or action-inviting rather than explanatory.
+`B.4.1` for needed route publication, `A.16` for admissible language-state moves, `A.6.P` for unresolved relation wording, `C.16.Q` for unresolved evaluative meaning, and `A.6.A` for unresolved action-first wording. Use these wording-restoration contributions when the unclear meaning affects the explanatory question or its scope.
 
 ### B.5.2:1 - Problem frame
 
-**Use this when.** An anomaly, opportunity or probe question needs candidate explanations that can be compared on their present plausibility. State the question and generate its serious rivals. The first useful result is a qualified conjecture with its supports, fragilities and allowed use, or a justified abort, defer or split outcome.
+**Use this when.** An anomaly, opportunity or probe question needs candidate explanations that can be compared on their present plausibility. State the explanatory question, develop candidates and look for serious alternative explanations. The first useful result is a qualified conjecture with its supports, fragilities and allowed use, or a justified abort, defer or split outcome.
 
 An adequate present answer or action need not enter abduction merely to generate another research task. Use C.11 for a live choice among feasible actions and C.28 when a causal-support claim is needed. Abduction contributes candidate explanatory content; it is not the complete evidence synthesis or action decision.
 
@@ -49632,20 +49632,20 @@ Abductive work can fail in several ways:
 
 ### B.5.2:4 - Solution - Structured abductive micro-cycle
 
-`B.5.2` begins from an admissible `U.AbductivePrompt`, expands a candidate set, compares it under explicit plausibility criteria, and publishes the selected conjecture as a hypothesis-bearing `U.Episteme`. Preserve the supports, rivals, limitations and allowed downstream use. Abduction alone assigns no `AssuranceLevel`.
+`B.5.2` begins from an account that meets `B.5.2.0`'s `U.AbductivePrompt` entry conditions, develops candidate explanations and compares them under explicit plausibility criteria. Return a qualified conjecture when the grounds support it, or an abort, defer or split outcome under §14.2. Preserve the prompt, candidates considered, supports, limitations and allowed downstream use. Abduction alone assigns no `AssuranceLevel`.
 
 #### B.5.2:4.1 - Nature of abduction in FPF
 
-In FPF, abduction proposes a presently most plausible candidate explanation, model or conjecture under a declared prompt. Its plausibility can justify keeping or using that conjecture for a bounded purpose, but does not establish its causal mechanism or a stronger empirical claim. Deduction, evidence synthesis and action choice keep their own questions.
+Abduction develops candidate explanations, models or conjectures for a declared explanatory prompt and compares their plausibility. Prefer a candidate only to the extent that the comparison warrants that preference. A conjecture's plausibility may justify keeping or using it for a bounded purpose; it does not establish its causal mechanism or a stronger empirical claim. Deduction, evidence synthesis and action choice keep their own questions.
 
 #### B.5.2:4.2 - Four-step micro-cycle
 
 | Step | Core activity | Required publication outcome |
 |---|---|---|
-| **1. Frame the prompt** | State the initiating `U.AbductivePrompt` precisely enough that the unexplained contrast, opportunity, or probe pressure is explicit. | A prompt record with open question, scope notes, and provenance. |
-| **2. Generate candidate hypotheses** | Produce multiple candidate conjectures that could resolve the prompt. | A visible candidate set, even if lightweight. |
-| **3. Apply plausibility filters** | Compare candidates against explicit plausibility criteria. | A short rationale that records why some candidates remain live and others are rejected. |
-| **4. Select and publish the prime hypothesis** | Choose the presently preferred conjecture where the comparison warrants one. | A hypothesis-bearing `U.Episteme` with its prompt, selection rationale, live rivals, supports, fragilities and allowed use. No universal level or mandatory next experiment follows. |
+| **1. Frame the prompt** | State the initiating explanatory question precisely enough that the unexplained contrast, opportunity, or probe pressure is explicit. | A prompt account with its open question, species, scope and motivating grounds under `B.5.2.0`; reuse an adequate existing account. |
+| **2. Generate candidate hypotheses** | Develop candidates that could explain the prompt and look for serious rivals. | The candidates actually considered, including any limit from not identifying a serious rival. |
+| **3. Apply plausibility filters** | Compare candidates against explicit plausibility criteria. | A short rationale stating why each considered candidate remains live, is deferred or is rejected, and what comparison those grounds support. |
+| **4. Return the supported result** | Select a conjecture when the comparison warrants it; otherwise return the applicable outcome in §14.2. | A hypothesis-bearing `U.Episteme` with its prompt, selection rationale, any live rivals, supports, fragilities and allowed use when a conjecture is selected; otherwise the justified abort, defer or split outcome. |
 
 The loop is intentionally iterable. A selected prime hypothesis may later be replaced, narrowed, or reopened if deduction, probe work, or evidence reveals a better rival.
 
@@ -49663,13 +49663,13 @@ The filtering step is local and context-sensitive, but the criteria used **SHALL
 - **Falsifiability / probeability.** What implication, deduction or possible observation could discriminate the candidate from its rivals? Keep that question separate from whether a check is obtainable and worth performing now.
 - **Scope fit.** Is the candidate framed for the declared prompt scope rather than for an inflated or shifted target?
 
-No one filter is universally decisive. The pattern only requires that at least two filters be declared when a prime hypothesis is selected.
+Select the filters needed to judge explanatory adequacy and preference for this prompt and intended use. Make their grounds, any decisive comparison and unresolved trade-offs explicit.
 
 When a causal hypothesis cannot yet yield a discriminating implication because its mechanisms and rival accounts are unspecified, use C.28.CM to construct comparable causal models. Return their conditional consequences and unresolved premises to these plausibility filters. A useful hypothesis whose present question is already answered needs no additional model merely to remain a candidate.
 
 #### B.5.2:4.5 - Abductive Unfolding Structure Block
 
-When the question concerns possible continuations of abductive work and their conditions, use A.22.CGUS's ordinary branch. Open its formal branch only when the receiving use needs the structure's identity or replay; reuse of a hypothesis note alone does not require that branch.
+When the question concerns possible continuations of abductive work and their conditions, use A.22.CGUS's ordinary branch. Open its formal branch only when the receiving use depends on the unfolding organization's CGUS identity or membership; reuse of a hypothesis note alone does not require that branch.
 
 ```text
 AbductiveUnfoldingStructureBlock:
@@ -49684,27 +49684,27 @@ AbductiveUnfoldingStructureBlock:
   poolPolicyOrSelectionRef?:
 ```
 
-Use `unfoldingStructureRef` to designate the selected structure. Recover its constituents, obtaining relation occurrences, applied constraints and selection-use frame under A.22; qualify its loci and potential continuations under A.22.CGUS. Keep the describing record separate from that identity. Use `cueSetWithDownstreamPatternAlternativesRef` when the prompt still carries several possible patterns for the next question. Use `rivalHypothesisSetRef` before selecting a prime hypothesis. Use `evidenceReturnLoci[]` to say where later evidence, deduction, probe design, or assurance work can return; do not use those loci as evidence. Abductive plausibility comparison remains here. Use C.18 for archive or front claims, C.19 for live-pool policy, G.5 for a selector's selected-set declaration, or the direct comparison method when that distinct result is needed.
+Use `unfoldingStructureRef` to designate the selected structure. Recover its constituents, obtaining relation occurrences, applied constraints and selection-use frame under A.22; qualify its loci and potential continuations under A.22.CGUS. Keep the describing record separate from that identity. Use `cueSetWithDownstreamPatternAlternativesRef` when the prompt still carries several possible patterns for the next question. Use `rivalHypothesisSetRef` for the candidates actually compared and preserve the comparison limit when no serious rival was identified. Use `evidenceReturnLoci[]` to say where later evidence, deduction, probe design, or assurance work can return; do not use those loci as evidence. Abductive plausibility comparison remains here. Use C.18 for archive or front claims, C.19 for live-pool policy, G.5 for a selector's selected-set declaration, or the direct comparison method when that distinct result is needed.
 
 `AbductiveSearchUnfoldingStructure` is a local designation for an A.22.CGUS structure selected for an abductive-search question; it supplies no additional identity rule.
 
 ### B.5.2:5 - Archetypal Grounding
 
-**Tell.** Abduction develops a candidate conjecture from a typed prompt through explicit rival generation and plausibility comparison.
+**Tell.** Abduction develops candidate conjectures from an admissible prompt through generation, consideration of serious alternatives and plausibility comparison.
 
-**Show (System).** An operations team sees a recurring latency spike that existing explanations do not cover. They publish an `AnomalyStatement`, compare rival causes against current telemetry and mechanism knowledge, and retain a qualified prime conjecture. They name a possible discriminating probe without assigning a maturity level or committing the service team to an experiment.
+**Show (System).** An operations team sees a recurring latency spike that existing explanations do not cover. They publish an `AnomalyStatement`, compare rival causes against current telemetry and mechanism knowledge, and retain a qualified prime conjecture. They name a possible discriminating probe.
 
-**Show (Episteme).** A research group notices that two accepted results no longer fit together under one framing. It publishes a `ProbeCuePrompt`, enumerates several rival explanatory reframings, rejects the ones that fail scope fit or would not generate decisive probes, and advances one candidate explanation as the next working hypothesis.
+**Show (Episteme).** A research group notices that two accepted results no longer fit together under one framing. It publishes a `ProbeCuePrompt`, enumerates several rival explanatory reframings, rejects the ones that fail scope fit or yield no interpretable implication, deduction or possible discriminating contrast, and advances one candidate explanation as the next working hypothesis.
 
 ### B.5.2:6 - Bias-Annotation
 
-This pattern biases authors toward visible candidate plurality, explicit plausibility criteria, and persistent prompt provenance.
+This pattern favors looking for serious alternatives, making plausibility grounds explicit and preserving prompt provenance.
 
 ### B.5.2:7 - Conformance Checklist
 
-- `CC-B.5.2-1` Every abductive run **SHALL** begin from a declared `U.AbductivePrompt`; arbitrary prose fragments are not sufficient prompt-entry forms.
-- `CC-B.5.2-2` A conforming abductive run **SHALL** record at least one rival candidate alongside any selected prime hypothesis, unless the author explicitly justifies why no rival candidate was available.
-- `CC-B.5.2-3` Selection of a prime hypothesis **SHALL** cite at least two explicit plausibility filters.
+- `CC-B.5.2-1` Every abductive run **SHALL** begin from a question account whose content and grounds meet `B.5.2.0`'s `U.AbductivePrompt` entry conditions.
+- `CC-B.5.2-2` A conforming abductive run **SHALL** make the serious candidates actually considered recoverable. When no serious rival has been identified, state that limit and qualify any preference claim by the available comparison.
+- `CC-B.5.2-3` Selection of a prime hypothesis **SHALL** state the applicable plausibility criteria and grounds sufficient to justify its preference for the declared prompt and intended use.
 - `CC-B.5.2-4` The selected prime hypothesis SHALL be published as a hypothesis-bearing `U.Episteme` with its scope, support and limitations. An assurance level, if a receiving use requires one, SHALL follow B.3.3's applicable justified profile rather than the fact that abduction occurred.
 - `CC-B.5.2-5` The prime hypothesis record **SHALL** preserve a link to the initiating prompt and to the filtering rationale that justified selection.
 - `CC-B.5.2-6` A conforming conjecture SHALL expose an interpretable implication, deduction or possible discriminating contrast. The availability and value of a check SHALL be considered separately before selecting evidence acquisition. An unavailable probe neither creates an observation nor by itself forbids a separately supported present decision.
@@ -49713,7 +49713,7 @@ This pattern biases authors toward visible candidate plurality, explicit plausib
 
 | Anti-pattern | What it looks like | How FPF prevents it |
 |---|---|---|
-| **Authority candidate** | One favored conjecture is advanced immediately, with no rival set and no explicit filtering. | `CC-B.5.2-2` and `CC-B.5.2-3` require candidate plurality and visible plausibility grounds. |
+| **Authority candidate** | One favored conjecture is advanced without considering serious alternatives or making its plausibility grounds explicit. | `CC-B.5.2-2` and `CC-B.5.2-3` preserve the candidates actually considered and the grounds for any preference. |
 | **Untestable grand conjecture** | The candidate sounds explanatory but has no interpretable implication or discriminating contrast. | Use CC-B.5.2-6 to make its implications clear or refuse that abductive result. Do not confuse absence of a useful implication with temporary unavailability of a meaningful check. |
 | **Prompt amnesia** | A later reader can see the conjecture but not the initiating anomaly, opportunity, or probe pressure. | `CC-B.5.2-1` and `CC-B.5.2-5` keep prompt provenance attached. |
 | **Symptom patching** | The selected candidate only redescribes a visible symptom and leaves the actual prompt unresolved. | The explicit plausibility filter for explanatory reach forces the candidate to be compared against the whole prompt. |
@@ -49740,8 +49740,8 @@ Iterative comparison keeps a candidate explanation open to revision as rival exp
 - **Supplies explanation-led abduction within:** B.5's hypothesis-led empirical inquiry, before deduction and induction.
 - **Typically operates during:** `B.5.1 Exploration`.
 - **Consumes:** `U.AbductivePrompt` publications from `B.5.2.0`, often reached through `B.4.1` and `A.16`.
-- **Produces:** hypothesis-bearing `U.Episteme` publications with explicit conjectural content, supports, fragilities and allowed use; no automatic `AssuranceLevel:L0`.
-- **Provides inputs for:** deduction, probe design and evidence synthesis when those questions are live. C.11 governs a separate feasible-action or acquisition choice; C.28 supplies needed causal-use support. A possible experiment is not funded or scheduled Work.
+- **Returns:** a hypothesis-bearing `U.Episteme` with explicit conjectural content, supports, fragilities and allowed use when a conjecture is selected; otherwise the justified abort, defer or split outcome.
+- **Provides inputs for:** deduction, probe design and evidence synthesis when those questions are live. C.11 governs a separate feasible-action or acquisition choice; C.28 supplies needed causal-use support. Naming a possible experiment does not by itself fund or schedule its performance.
 - **Uses:** C.28.CM when causal mechanisms and alternatives must be constructed before their implications can inform the plausibility comparison.
 - **Coordinates with:** `A.22.CGUS` when the abductive prompt, `B.4.1` cue publication, rival hypotheses, plausibility constraints, evidence-return loci, and downstream tests must be inspected as an `AbductiveSearchUnfoldingStructure`.
 
@@ -49757,33 +49757,33 @@ Keep the **prompt**, the **candidate set**, and the **selected prime hypothesis*
 
 A conforming prompt package should make explicit:
 
-- the **prompt species** (`AnomalyStatement`, `ProblemCuePrompt`, `OpportunityCuePrompt`, or `ProbeCuePrompt`),
+- the **prompt species** under `B.5.2.0` and its applicable conditions,
 - the **open question** that makes abduction necessary,
 - the **declared scope** under which the question is being posed,
 - the **witnesses or provenance cues** that made the prompt worth preserving,
-- and the **reason the current model is insufficient**.
+- and any **limitation of an existing explanation or model** that motivates the question.
 
-If the initiating publication is still primarily evaluative, action-inviting, or lexically overloaded, it should first be repaired by the relevant A.6 family before it is treated as a stable abductive prompt. `B.5.2` assumes typed entry, not raw lexical ambiguity.
+Use the applicable wording-restoration pattern when the explanatory question, its scope or its intended meanings remain unclear: `A.6.P` for a relation, `A.6.A` for action-first wording, or `C.16.Q` for an evaluative term. Use an already adequate question account directly under `B.5.2.0`'s entry conditions.
 
 #### B.5.2:13.2 - Candidate-set note
 
-A candidate-set note is the minimal record that preserves rival plurality. It need not be heavy, but it should make visible:
+A candidate-set note preserves the candidates actually considered and the comparison they support. Make visible:
 
 - candidate identifiers or short names,
 - the differentiating claim each candidate adds,
 - the principal plausibility supports and liabilities of each candidate,
 - whether the candidate remains live, is deferred, or is rejected,
-- and the implication or possible evidence that would best discriminate among remaining rivals, with an availability limitation when it changes the receiving use.
+- and the interpretable implications, deductions or possible discriminating contrasts relevant to the comparison, with an availability limitation when it changes the receiving use.
 
-Keep the alternatives visible so a later reader can recover what was compared before the preferred candidate was selected.
+Keep the serious alternatives actually considered and the limits of the comparison recoverable, including when no preference is warranted.
 
 #### B.5.2:13.3 - Prime-hypothesis record
 
-A selected prime hypothesis should preserve more than the hypothesis sentence itself. Its record names:
+For a selected prime hypothesis, make these contents recoverable:
 
 - the **selected candidate**,
 - the **prompt** it answers,
-- the **filters** under which it outranked rivals,
+- the **criteria and grounds** supporting its preference, with the limits of that comparison,
 - the **scope** within which it is being advanced,
 - the **allowed downstream use or next question**, which may concern deduction, a possible probe, a separately justified action or reconsideration; include availability limits when they change that use,
 - and any **known fragilities** already visible at selection time.
@@ -49798,16 +49798,16 @@ The abductive loop keeps its outcomes distinct so the recipient can tell whether
 
 `B.4.1` and `A.16` can help preserve and clarify an initiating publication until it supplies an abductive prompt. `B.5.2` begins only once the current publication is ready to function as an abductive prompt. This boundary matters because it prevents two opposite errors:
 
-- **premature abduction**, where a low-articulation cue is treated as if it had already earned hypothesis form;
-- **delayed abduction**, where a now-stable prompt is kept indefinitely in early cue form even though rival conjectures should already be compared.
+- **premature abduction**, where a cue is used to begin rival comparison before its question account meets B.5.2.0's entry conditions;
+- **delayed abduction**, where an admissible prompt still needs candidate comparison for the receiving question but remains in early cue form without that contribution.
 
 #### B.5.2:14.2 - Abort, defer, and split cases
 
 Not every abductive run should end in a prime hypothesis. Three non-selection outcomes are admissible:
 
 1. **Abort.** The prompt dissolves because the initiating anomaly or opportunity was misread, duplicated, or already answered elsewhere.
-2. **Defer.** Several candidates remain live and the available comparison does not justify a winner, for example because a needed discriminator is unavailable. Preserve the unresolved set and its limits without inventing a winning explanation. A separately warranted present action may still proceed under C.11.
-3. **Split.** The original prompt turns out to contain several distinct questions. The run should fork into several narrower prompts rather than select one over-broad conjecture.
+2. **Defer.** The available candidates or grounds do not yet support a qualified conjecture or a warranted preference. Preserve any supported candidates and the unresolved explanatory or comparison question. A separately warranted present action may still proceed under C.11.
+3. **Split.** When distinct questions require separate explanatory comparisons, distinguish those questions and their entry grounds. Continue the needed questions under their own prompt-entry conditions.
 
 
 #### B.5.2:14.3 - Reopening and rival reinstatement
@@ -49866,28 +49866,28 @@ The candidate set includes:
 - mistaken invariance assumption in the second,
 - and a more general missing mediating construct.
 
-The selected prime hypothesis is the mediating construct, but the scope-restriction candidate remains stored as a live rival because it could still outperform if later deductions fail. This example illustrates why `B.5.2` tracks the rival set rather than only the currently favored conjecture.
+Suppose the mediating construct accounts for both claims within their warranted scopes, while the current scope-restriction and invariance alternatives each explain only one side of the mismatch. On those stated grounds, retain it as the provisional prime hypothesis. Keep the scope-restriction rival available for comparison if later deductions expose a failure in that account; revise the preference when the new grounds warrant it.
 
 ### B.5.2:16 - Authoring and Review Guidance
 
 #### B.5.2:16.1 - For abductive-publication authors
 
-For an abductive publication, make the prompt, seriously considered rivals, plausibility grounds and outcome recoverable. If a prime hypothesis is warranted, explain why it is preferred, its allowed use and a meaningful possible discriminator. Otherwise state the abort, defer or split outcome and its grounds under §14.2. Return to prompt-shaping or lexical repair when the question, scope or intended meanings remain unclear.
+For an abductive publication, make the prompt, serious candidates actually considered, plausibility grounds and outcome recoverable. If a prime hypothesis is warranted, explain its preference, allowed use and interpretable implication, deduction or possible discriminating contrast. Otherwise state the abort, defer or split outcome and its grounds under §14.2. Return to prompt-shaping or lexical repair when the question, scope or intended meanings remain unclear.
 
 #### B.5.2:16.2 - For hypothesis reviewers
 
 Hypothesis reviewers should not ask only whether the chosen hypothesis looks plausible. They should also ask:
 
 - whether the prompt was typed in an admissible way,
-- whether at least one real rival was preserved,
-- whether the filters named at selection time actually discriminate among candidates,
-- whether the selected hypothesis has interpretable implications and a meaningful possible discriminator, with actual availability kept separate from that explanatory contribution,
+- whether serious alternative explanations were considered and the actual candidate set and limits of comparison remain recoverable,
+- whether the stated criteria and their grounds support the asserted preference, including any unresolved trade-offs,
+- whether the selected hypothesis has an interpretable implication, deduction or possible discriminating contrast, with the availability and value of any check judged separately,
 - and whether any scope inflation occurred during selection.
 
 
 #### B.5.2:16.3 - For integrators and assurance leads
 
-Integrators receive a qualified conjecture, not early assurance conferred by an `L0` label. Preserve its prompt, rivals, supports, filter rationale and fragilities. Use B.3.3 only for a receiving assurance question, C.11 for a feasible-action or evidence-acquisition choice, and C.28 for causal support when needed. An unavailable probe can leave the explanation unresolved while an independently warranted bounded service action remains useful; do not turn the conjecture into a mandatory work item.
+Integrators receive a qualified conjecture or the justified abort, defer or split outcome. For a conjecture, preserve its prompt, candidates considered, supports, comparison rationale, fragilities and allowed use. Use B.3.3 only for a receiving assurance question, C.11 for a feasible-action or evidence-acquisition choice, and C.28 for causal support when needed. An unavailable probe can leave the explanation unresolved while an independently warranted bounded service action remains useful; do not turn the conjecture into a mandatory work item.
 
 ### B.5.2:17 - Boundaries of abductive use
 
@@ -49908,7 +49908,7 @@ Integrators receive a qualified conjecture, not early assurance conferred by an 
 
 **What goes wrong if missed.** A cue is forced into anomaly form, an opportunity is treated as a hypothesis, or a prompt-like sentence silently smuggles in the preferred answer before rival hypotheses can be compared.
 
-**What this buys.** A small admission form for abduction: prompt species, open question, scope, and provenance stay explicit while the downstream abductive loop remains free to compare rival answers.
+**What this buys.** A common entry criterion for abduction: prompt species, open question, scope and motivating grounds remain recoverable while candidate explanations stay open.
 
 **Not this pattern when.** Not this pattern when the object is still a raw cue (`B.4.1`), a language-state threshold claim (`C.2.4`, `C.2.5`), a chosen hypothesis (`B.5.2`), or a selector decision about methods, substrates, or portfolios.
 
@@ -49917,7 +49917,7 @@ Integrators receive a qualified conjecture, not early assurance conferred by an 
 `U.AbductivePrompt` is a claim-bearing account of one open explanatory question. It records the question, its scope, prompt species and motivating grounds. It is a same-individual-dependent kind under `U.Episteme`: the account keeps C.2.1 identity, and §4.2.2 supplies its prompt-membership test. It may seed `B.5.2` when those grounds and the applicable language-state thresholds support rival comparison. The reusable form expresses the account; it can also express another account of another question.
 
 ### B.5.2.0:1 - Problem frame
-`B.5.2` needs an entry form that preserves a question's motivating grounds, including when they arise from an opportunity or probe rather than an anomaly.
+`B.5.2` needs a question account that preserves its motivating grounds, including when they arise from an opportunity or probe rather than an anomaly.
 
 ### B.5.2.0:2 - Problem
 If anomaly is the only admissible input, pre-anomaly opportunity cues and route-derived prompt forms are excluded or misrepresented. If anything can enter, abduction loses its typed starting discipline.
@@ -49930,7 +49930,7 @@ If anomaly is the only admissible input, pre-anomaly opportunity cues and route-
 | **Prompt vs hypothesis** | Keep the initiating prompt distinct from the downstream abductive outcome. |
 
 ### B.5.2.0:4 - Solution
-`U.AbductivePrompt` classifies the question accounts used for entry into `B.5.2`. Use `A.16`, `A.16.1` and `B.4.1` when the initiating cue needs preservation, clarification or selection of its next reasoning contribution. Use `A.16.0` only when the cue-to-prompt history itself needs an explicit trajectory account. Publish the account through a suitable form and ordinary MVPK faces; account membership and current entry depend on the content and grounds described below.
+`U.AbductivePrompt` classifies the question accounts used for entry into `B.5.2`. Use `A.16`, `A.16.1` and `B.4.1` when the initiating cue needs preservation, clarification or selection of its next reasoning contribution. Use `A.16.0` only when the cue-to-prompt history itself needs an explicit trajectory account. Publish the account in an expression adequate for the receiving use; reuse an adequate existing expression. Select a reusable form or additional publication faces when that use needs them. Account membership and current entry depend on the content and grounds below.
 
 #### B.5.2.0:4.1 - Starter canonical species and conditional extension species
 - starter canonical species:
@@ -49945,9 +49945,9 @@ If anomaly is the only admissible input, pre-anomaly opportunity cues and route-
   - `SubstrateDiversificationPrompt`
 
 ##### B.5.2.0:4.1.1 - Specialization-sensitive prompt species
-These extension species are admissible only when cue provenance or trajectory account already carries the bounded-specialization evidence requirement by value; they are not the starter canonical entry set for ordinary abduction.
+Use an extension species only when the motivating grounds support one of the bounded task-family, adaptation, utility or substrate questions defined below. Preserve the conditions needed to interpret that question; cue provenance or a trajectory account can carry those grounds.
 
-`TaskFamilySpecializationPrompt` asks what explains a performance difference within the declared task family. `AdaptationProbePrompt` asks which rival explanations predict whether a proposed adaptation can reach the stated threshold. `NonHumanUtilityPrompt` asks what could explain the indicated utility advantage of a low-human-overlap approach. `SubstrateDiversificationPrompt` asks what explains the indicated limitation of the current substrate. In each species, B.5.2 returns qualified explanatory conjectures; task family, utility target, threshold, budget and motivating evidence qualify that question.
+`TaskFamilySpecializationPrompt` asks what explains a performance difference within the declared task family. `AdaptationProbePrompt` asks which rival explanations predict whether a proposed adaptation can reach the stated threshold. `NonHumanUtilityPrompt` asks what could explain the indicated utility advantage of a low-human-overlap approach. `SubstrateDiversificationPrompt` asks what explains the indicated limitation of the current substrate. For each species, B.5.2 may return a qualified explanatory conjecture or an abort, defer or split result. Preserve its motivating grounds and all conditions needed to interpret the question, including any applicable task-family, utility, threshold or budget conditions.
 
 #### B.5.2.0:4.2 - Core shape
 A conforming abductive prompt makes `promptSpecies`, its explanatory `openQuestion`, `scope` and motivating provenance explicit. The provenance may be carried by `motivatingCueRef`, `witnessRefs` or `routeProvenance`; include the applicable basis even when no routing history exists. A rendering may additionally include `contrastSet` and `GammaTime`.
@@ -49980,37 +49980,37 @@ Use §4.2 and §17 to judge whether that account supports entry into B.5.2 now. 
 
 The same question may have several accounts with different claims or effective schemes. Additional evidence changes account identity only when it changes one of C.2.1's identity constituents; adding an evidence relation alone need not do so. A reusable publication form can express different accounts. E.24.PUB governs the selected account's expression and publication; A.6.3.RT governs a prose-to-table transfer when that representation changes. A note containing several questions may express several prompt accounts in the same document.
 
-On return to an earlier abductive inquiry, determine what changed before restarting it:
+When returning to an earlier abductive inquiry, determine what changed and what the receiving work still needs before choosing a continuation:
 
 | Finding | Warranted continuation |
 |---|---|
-| Same question and account; different support or candidate ranking | Reconsider the affected rivals under B.5.2. |
-| Same question; changed claims in its account | Identify the revised account under C.2.1 and reassess entry on its current grounds. |
-| Changed explanatory demand, subject or relevant scope | State the new question and its relation to the earlier one; establish its own entry. |
-| Several distinct questions were bundled | Separate their accounts and use B.5.2's split return. |
+| Same question and account; different support or candidate ranking | Reconsider the affected rivals under B.5.2 when further explanatory comparison is needed. |
+| Same question; changed claims in its account | Identify the revised account under C.2.1; reassess current entry if the account will be used in B.5.2. |
+| Changed explanatory demand, subject or relevant scope | State the new question and its relation to the earlier one; establish its entry grounds if it will be used in B.5.2. |
+| Several distinct questions were bundled | Distinguish their accounts. Use B.5.2's split return when separate explanatory comparisons are needed; continue the needed questions under their own entry conditions. |
 | An expression lost a condition needed to recover the question | Restore the expression before reusing the account or its answers. |
 | The initiating ground fails or an adequate answer is already available | Abort or retire the current attempt as appropriate; preserve the earlier account and the reason for stopping. |
 
 #### B.5.2.0:4.3 - Boundary rule
-Only a declared prompt species carrying an explanatory question enters B.5.2 through this form. For a choice among available probes, actions or specialist options, use C.11. Use C.38 to develop incomplete alternatives for the same intended result, C.11.DUA to examine an unclear evidence demand, and C.19 when the question is policy over a still-live candidate pool. C.18 records generation and comparison results; C.22.1 describes an adaptation signature. Neither performs the missing choice. An explanatory subquestion arising during planning can still enter B.5.2 on its own grounds.
+An account enters B.5.2 only when its question and declared prompt species meet the entry conditions in §4.1–4.2 and §17. For a choice among available probes, actions or specialist options, use C.11. Use C.38 to develop incomplete alternatives for the same intended result, C.11.DUA to examine an unclear evidence demand, and C.19 when the question is policy over a still-live candidate pool. C.18 records generation and comparison results; C.22.1 describes an adaptation signature. Neither performs the missing choice. An explanatory subquestion arising during planning can still enter B.5.2 on its own grounds.
 
 ### B.5.2.0:5 - Archetypal Grounding
 **Tell.** An anomaly is one prompt species, not the only one.
 
 **Show (System).** A control observation may raise competing explanations of an apparent response improvement without being framed as an anomaly. The abductive result qualifies those explanations; choosing a discriminating probe is a separate C.11 decision.
 
-**Show (Episteme).** A promising mismatch can begin an opportunity-style abductive prompt rather than only a problem statement.
+**Show (Episteme).** Suppose a revised theory appears to account for two previously separate results. An opportunity-style prompt asks what could explain this apparent gain in explanatory reach.
 
 ### B.5.2.0:6 - Bias-Annotation
-The pattern broadens the entry form to abduction, but still keeps it typed and auditable.
+The pattern admits several prompt species while keeping the explanatory question and its motivating grounds explicit.
 
 ### B.5.2.0:7 - Conformance Checklist
 - `CC-B.5.2.0-1` Every `U.AbductivePrompt` **SHALL** declare its prompt species.
 - `CC-B.5.2.0-2` A prompt **SHALL NOT** be confused with a finished hypothesis.
-- `CC-B.5.2.0-3` Cue-derived prompts **SHOULD** preserve route provenance.
+- `CC-B.5.2.0-3` Cue-derived prompts **SHOULD** preserve route provenance when it exists and contributes to their entry.
 - `CC-B.5.2.0-4` Prompt publication **SHALL** include the explanatory question, its scope and the motivating provenance that make abduction appropriate.
-- `CC-B.5.2.0-5` A publication that already fixes the answer or suppresses plausible rivals **SHALL NOT** remain in prompt status.
-- `CC-B.5.2.0-6` When a specialization-sensitive prompt species is used, the prompt package **SHALL** make explicit the declared task family or utility target, the threshold or success condition being probed, the current budget window, and the route or cue provenance that made the prompt admissible.
+- `CC-B.5.2.0-5` An account that asserts its answer as settled or suppresses plausible rivals **SHALL NOT** be used as the open prompt for that inquiry.
+- `CC-B.5.2.0-6` When a specialization-sensitive prompt species is used, the prompt account **SHALL** make explicit the declared task family or utility target and the grounds for its explanatory question. Include every threshold, budget or other condition needed to interpret that question or its proposed use, and preserve the cue, witness or route provenance actually used.
 - `CC-B.5.2.0-7` Before restarting an inquiry, or reusing its prompt after a change in wording, scope or motivating grounds that may affect the question or account, the user **SHALL** apply §4.2.1–4.2.2 to establish the affected continuity and entry conditions. Already established identity and unaffected grounds remain reusable while their basis holds; comparing another rival with an unchanged prompt requires no new continuity assessment.
 
 ### B.5.2.0:8 - Common Anti-Patterns and How to Avoid Them
@@ -50066,14 +50066,14 @@ An abductive prompt should make explicit:
 
 - the **prompt species**,
 - the **open question**,
-- the **motivating cue or route provenance**,
+- the **motivating provenance actually used**,
 - the **contrast set**, if one is already visible,
 - the **scope** in which the question is being asked,
 - and the **witnesses or cue grounds** that justify beginning abduction.
 
-This package lets downstream conjectures be tested against the same question rather than against a rewritten paraphrase.
+This package lets downstream conjectures be assessed against the same identified explanatory question.
 
-For specialization-sensitive prompt species, the package should also make explicit the declared task family or utility target, the threshold or success condition being probed, the current budget window, the prior route provenance, and the rival prompt shapes still in play.
+For specialization-sensitive prompt species, preserve the declared task family or utility target, the conditions needed for the explanatory question, including any stated threshold or budget, and the motivating provenance actually used. Preserve alternative prompt shapes when they remain live and matter to entry.
 
 #### B.5.2.0:14.2 - Claims about the question and an asserted answer
 
@@ -50096,19 +50096,19 @@ Name each cue-derived entry as a prompt species, preserving the explanatory ques
 
 ### B.5.2.0:16 - Boundary crossing and invalid drift
 
-A prompt should enter `B.5.2` only when the question is explicit enough that rival hypotheses can now be compared against it. If the question is still underspecified, the admissible continuation is further stabilization or routing, not premature abduction.
+Entry into `B.5.2` requires a question explicit enough to compare potential explanations under its scope. An underspecified question needs clarification before that entry. Continue stabilization or routing when needed for the receiving question.
 
-A routed cue may be close to prompt form but still missing one decisive contrast or witness. In such cases the candidate stays outside `U.AbductivePrompt` until its initiating question is stable.
+Determine what a missing contrast or witness prevents. If it leaves the explanatory question or other membership conditions unrecoverable, `U.AbductivePrompt` membership is not established. If the account meets those conditions but lacks grounds for entry now, retain the account with that current-use limit under §4.2.2.
 
 A common failure mode is drift from cue -> prompt -> hypothesis without anyone naming the boundary crossings. `B.5.2.0` blocks that drift by keeping the prompt package distinct from both the earlier cue pack and the downstream prime hypothesis.
 
 ### B.5.2.0:17 - Scope, rival-set, and comparative-validity discipline
 
-A prompt should declare the scope in which its question is being asked: the domain fragment, operational horizon, or inquiry-bounded scope cut that makes the question answerable. If scope remains unbounded, rival hypotheses become incomparable because they are answering different questions.
+A prompt should declare the scope in which its question is being asked: the domain fragment, operational horizon, or inquiry-bounded scope cut that makes the question answerable. If the relevant scope is unresolved, apparent rivals may answer different questions; establish the scope needed for their comparison.
 
-A prompt need not list full hypotheses yet, but it should make visible whether rival answer types are already imaginable. If no rival answer space is even latent, the publication may still be a cue or orientation note rather than a true abductive prompt.
+A prompt need not list hypotheses yet. Its explanatory demand and scope must make clear what a candidate explanation would have to explain; any already identified answer types can help clarify that demand.
 
-A prompt may be narrowed to become more discriminating, but the narrowing must not silently smuggle in the answer it is supposedly asking about. Otherwise the prompt ceases to be an initiating question and becomes a disguised conclusion. If a prompt already excludes every serious rival except one preferred explanatory line, the publication may already be preloading a hypothesis. Review should then either rewrite the prompt back into a real question or explicitly apply the governing pattern that carries the asserted answer.
+A prompt may be narrowed to become more discriminating, but the narrowing must not silently smuggle in the answer it is supposedly asking about. Otherwise the prompt ceases to be an initiating question and becomes a disguised conclusion. If its formulation excludes plausible rivals without grounds, repair that restriction; if it asserts an answer as settled, treat the answer-bearing account under its governing pattern.
 
 Prompts may be compared across contexts only when their species, scope, and provenance are explicit. A probe-shaped question and an opportunity-shaped question are not the same kind of abductive entry merely because both invite explanation.
 
@@ -50118,7 +50118,7 @@ An assurance reader can test prompt readiness with three questions:
 
 1. **Is there an open explanatory question?** An asserted answer is no longer a prompt; narrowing the scope must leave the answer open. An action-choice question needs its own Method.
 2. **Does the prompt species fit its initiating grounds?** If those grounds are an opportunity or a probe-related contrast, forcing anomaly species misclassifies the question.
-3. **Could meaningful rival hypotheses now be compared under the declared scope?** The rival set need not yet be fully written, but possible alternatives and a scope that permits their comparison must be recoverable. Otherwise stabilize the prompt before entering `B.5.2`.
+3. **Is the question explicit enough to generate and compare candidate explanations under its declared scope?** Establish the question and the grounds required for entry before using B.5.2. Identified rival hypotheses are not an entry requirement; their generation and comparison belong to B.5.2.
 ### B.5.2.0:End
 
 ## B.5.2.1 - Instrument Abductive Hypothesis Generation with Novelty–Quality–Diversity (NQD)
@@ -50129,24 +50129,24 @@ An assurance reader can test prompt readiness with three questions:
 
 **Method and records.** Use A.17/A.18 for Characteristics and A.3.1/A.3.2 for the Method and its description. Distinguish its input and seed conditions, conditions for any actual generation Work, and the generated candidate’s later admission to comparison. C.18 records the identified generator and its results; filling that record performs no generation.
 
-**Terminology discipline.** Use **NQD** consistently (Novelty–Quality–Diversity). Treat **S**/**I** as *secondary* metrics unless explicitly promoted by policy (see §3, §5).
+**Terminology discipline.** Use **NQD** consistently (Novelty–Quality–Diversity). Use Surprise and the IlluminationSummary report in comparison only under the declared policy (see §3, §5).
 
 ### B.5.2.1:1 - **Problem Frame**
 * **Conceptual binding:** **B.5.2 Abductive Loop** (this pattern specifies the *how* for Steps 2–3).
 * **Characteristics and records:** use **Creativity‑CHR** under **C.17** for the Characteristics in §3, **C.18** for generation/archive/front records and **C.19 E/E-LOG** for EmitterPolicy.
-* **Manager’s mental model (informative):** “We add measurable characteristics for *newness*, *spread*, and *fit*, then use a generator that explores widely and returns a **front over the declared Q components** together with retained exploration/archive evidence when the policy asks for it, not a single winner and not one bundled `{Q,N,D}` default.”
+* **Manager’s mental model (informative):** Choose measurable characteristics for the quality, newness and spread used by the current exploration. Generate candidates and return their **front over the declared DominanceSet**, together with the exploration archive required by the policy.
 * **Further work:** generated hypotheses may contribute to **B.4 Canonical Evolution Loop** when adaptation is needed. **B.5 Canonical Reasoning Cycle** selects the reasoning contribution needed by the current question.
 * **Decision-subject note.** Later choices are attributed to one declared `DecisionSubject` at explicit `DecisionSubjectGranularity`. The **Context** supplies the measurement spaces and admissible policies that frame the decision.
 
 ### B.5.2.1:2 - Intent & Problem
 
-**Intent.** Turn Step 2 (*generate*) and Step 3 (*filter*) of the Abductive Loop from ad‑hoc brainstorming into a **disciplined, instrumented exploration** that can (i) *produce many* distinct, plausible hypotheses and (ii) *surface the few worth pursuing*; a declared equivalent generator may supply the construction.
+**Intent.** Use this pattern when the explanatory question needs explicit, instrumented exploration of candidate quality and variety. Declare the generation Method, comparison Characteristics and exploration policy; construct candidates and identify those worth pursuing. A declared equivalent generator may supply the construction. Use B.5.2 directly when ordinary generation and plausibility comparison suffice.
 
 **Problem.** Candidate generation can produce too little variety to expose meaningful rivals, or candidates without interpretable implications. **B.5.2** addresses these failures; this method makes candidate construction and comparison explicit through declared operations and Characteristics.
 
 ### B.5.2.1:3 - The **Creativity‑CHR** (references only; no re‑definitions here)
 
-This binding **references** the context‑local **Creativity‑CHR** (see **C.17**) and **does not** restate measurement templates. The primary coordinates are:
+The NQD Characteristics used here are defined by **C.17** and **A.18**:
 
 - **`Novelty@context`** (C.17 §4.1);
 - **`ΔDiversity_P`** (marginal; C.17 §5.1);
@@ -50160,7 +50160,7 @@ For each coordinate actually used, declare its bearer, Characteristic, Scale, po
 > **Lexical discipline.** The items above are **Characteristics** in the sense of **A.17/A.18**; avoid reserved names such as “validity” or “operation.”
 > **Comparison basis.** Compare each Q coordinate under its declared Scale, polarity and admissible order. Different units across coordinates do not by themselves require normalization for componentwise Pareto comparison. If the chosen comparator requires a transformation, declare it and preserve the order distinctions on which dominance depends (see CC-B.5.2.1-6).
 > **D and I.** D = ΔDiversity_P(h | Pool) is a marginal retained-set reading under the same declared measurement policy. It is outside primary dominance unless explicitly promoted. IlluminationSummary reports the retained set; it is not a per-hypothesis primitive coordinate. A C.19 policy may name a tie-break or promoted use with the corresponding report and basis.
-> **Measurement invariants.** Distances, grids, and transforms MUST be declared once per run, versioned, and referenced from provenance (§3, §5).
+> **Measurement invariants.** The grids, distances and transforms used by the run MUST be declared, versioned and cited in provenance.
 
 ### B.5.2.1:4 - Solution — **NQD-Generate and its C.18 records**
 
@@ -50169,7 +50169,7 @@ For each coordinate actually used, declare its bearer, Characteristic, Scale, po
 **Minimal signature.**
 
 * **Inputs (declared in MethodDescription):**
- `HypothesisSpace`, `CharacteristicSpace`, `Seeds?`, `Budget (time/compute)`, `EmitterPolicy` (**E/E-LOG policy id**), `QualityMeasures (Q components)`, `NoveltyMetric`, `CoverageGrid/Granularity`, `CellCapacity K? (default=1)`, `EpsilonDominance ε? (default=0)`, `TieBreakPolicy? (S/I)`, `DedupThreshold?`, `Policy(TimeWindow)`, `DeterminismSeed?`
+ `HypothesisSpace`, `CharacteristicSpace`, `Seeds?`, `Budget (time/compute)`, `EmitterPolicy` (**E/E-LOG policy id**), `QualityMeasures (Q components)`, `NoveltyMetric?` (required when generation, comparison or retention uses novelty), `CoverageGrid/Granularity`, `CellCapacity K? (default=1)`, `EpsilonDominance ε? (default=0)`, `TieBreakPolicy? (S/I)`, `DedupThreshold?`, `Policy(TimeWindow)`, `DeterminismSeed?`
 
 * **Outputs:**
   CandidateSet = {h_i: (desc_i, Q_i, N_i?, D_i?:=ΔDiversity_P(h_i | Pool), S_i?, UseValue_i?), genealogy_i?, provenance_i (including **policyId** from E/E-LOG and, when a DHC coordinate is consumed, **DHCMethodRef.edition** and the other active fields of C.21's `DHCReplayBasis`)} where `Q_i` is a vector and `provenance_i` captures generator settings and evaluation sources. The coordinate entries cite the constituted results actually used. When illumination is reported, carry IlluminationSummary separately as a report about its declared retained set. Unused optional readings need not be produced. If Use-Value is present, identify its objective or acceptance criterion and scope. For a gain claim, also identify the baseline and comparison or counterfactual Method; for a predicted reading, identify the model edition and assumptions under C.17. Note: `N`, `D`, `S`, and `I` are archive, tie-break, telemetry, or policy-promoted signals by default; only the declared `DominanceSet` enters the current front. `Use-Value` is decision-side/supporting unless the current Context explicitly declares it inside the active `Q` tuple / `DominanceSet`; when it is only recorded as a side measure, keep it outside dominance.
@@ -50178,8 +50178,8 @@ For each coordinate actually used, declare its bearer, Characteristic, Scale, po
 
 1. **Seeding and constructors.** Declare the explanatory question, hypothesis space and permitted variation operators in the MethodDescription. Initialize with admissible seeds: known explanations, random draws under that grammar or prior hypothesis-bearing epistemes with their grounds and limits. Name how an operator constructs a changed explanatory claim, for example by replacing a proposed mechanism or combining two mechanisms under a stated interaction assumption. When there are no seeds, use the declared finite enumeration or sampling rule.
 2. **Construct and assess.** Apply the selected variation operators to the seeds or retained candidates within the budget; record each resulting hypothesis and its parent/operator provenance. Then test candidate must-constraints for comparison and evaluate each required Q component. Keep an excluded candidate and its reason distinguishable from a candidate not yet generated. Maintain up to K retained entries per declared cell; obtain only the N, ΔDiversity_P and Surprise readings actually used under C.17, and any required retained-set illumination report. Deduplicate under the declared rule and threshold.
-3. **Budget‑bounded loop.** Iterate until budget or coverage‑convergence; return the **(ε‑)Pareto front** over the declared `DominanceSet`. When the Context consumes the ordinary default, that means the declared `Q` components under `DefaultId.DominanceRegime`. Keep `N`, `D=ΔDiversity_P`, `Surprise`, and `IlluminationSummary` as archive/tie-break/telemetry signals unless one Context policy explicitly promotes one of them into dominance and records the policy id. `Use-Value` enters dominance only when the current Context explicitly declares it inside the active `Q` tuple; otherwise it may appear as one decision-side/supporting side note.
-4. **Traceability.** Emit a **Design Rationale Record (DRR)**: grids/metrics versions, seed(s), policy and `TimeWindow`, which cells were filled, why items were dominated (list **Characteristics**), and how the final set was produced (including `ε`, `K`, and dedup). (Lightweight DRR is permitted per B.4 guidance.)
+3. **Budget‑bounded loop.** Iterate until the budget or declared coverage-convergence condition is reached, or the applicable C.19 policy ends active exploration; return the **(ε‑)Pareto front** over the declared `DominanceSet`. When the Context consumes the ordinary default, that means the declared `Q` components under `DefaultId.DominanceRegime`. Keep `N`, `D=ΔDiversity_P`, `Surprise`, and `IlluminationSummary` as archive/tie-break/telemetry signals unless one Context policy explicitly promotes one of them into dominance and records the policy id. `Use-Value` enters dominance only when the current Context explicitly declares it inside the active `Q` tuple; otherwise it may appear as one decision-side/supporting side note.
+4. **Traceability.** Keep the generator settings, grids/metrics versions, seeds, policy, `TimeWindow`, filled cells and each exclusion’s reason recoverable in the generation and comparison account. Use C.18 for the archive and front returns. State how the final set was produced, including `ε`, `K` and deduplication. Keep any decision rationale required by the current use in that account; reuse an adequate account.
 5. **Algorithmic freedom (informative).** Implementations MAY use MAP‑Elites/illumination, novelty search with local competition, Bayesian/surrogate‑assisted search, or deterministic enumerations; ε‑dominance or knee‑point thinning MAY be used *after* recording the full front in provenance.
 
 ### B.5.2.1:5 - Implementation & Binding into **B.5.2** (two injection points)
@@ -50192,7 +50192,7 @@ When the pattern is imported, use NQD-Generate for the selected generation contr
 **Step 3 — Plausibility filters.** Apply B.5.2’s plausibility criteria, now with explicit hooks:
 
 * **Falsifiability / probeability** → require an interpretable implication or possible discriminating contrast under B.5.2. Keep a meaningful conjecture distinguishable from the present availability or worth of its check.
-* **Explanatory power** → prioritize candidates whose *Q‑improvements* (and attached rationales) align with the framed anomaly.
+* **Explanatory power** → prioritize candidates whose *Q-improvements* and attached rationales address the stated explanatory question.
 
 Apply B.5.2 to return a qualified prime conjecture when its comparison warrants one, or an explicit abort, defer or split result. Deduction, evidence acquisition and action choice remain separate questions.
 
@@ -50203,26 +50203,21 @@ Primary dominance test: compute the (ε-)Pareto front over the declared `Dominan
 > **Tie-breakers:** use only the constituted `Novelty@context`, `ΔDiversity_P` or `Surprise` results named by the active C.19 policy. `IlluminationSummary` remains report-only unless that policy names a tie-break or promoted use. Unused optional readings need not be produced.
 > **Archive:** `K=1`, `ε=0`, deduplication in `CharacteristicSpace`.
 > **Policy family:** one uncertainty-aware explore policy family with one declared regime key; `UCB`-class with moderate temperature and `explore_share ≈ 0.3–0.5` is one didactic starter profile, not the semantic default family.
-> **Provenance (minimum):** record `DescriptorMapRef.edition`, `DistanceDefRef.edition`, `EmitterPolicyRef`, `TimeWindow`, `Seeds`.
+> **Provenance (minimum):** record `DescriptorMapRef.edition`, `EmitterPolicyRef`, `TimeWindow`, and the seeds used; include `DistanceDefRef.edition` when the run uses a distance definition.
 
-“**Scope‑of‑claim annotation (descriptive).** Record the **BoundedContext** and **TimeWindow** that delimit where each **N/Q/D** measurement is intended to hold; this is for reasoning traceability only (no operational gates).”
+**Scope of the coordinate claims.** Record the **BoundedContext** and **TimeWindow** that qualify each coordinate result.
 
 Note — Status `Surprise` (scope and default role):
 Use `Surprise` as a secondary tie-break only when the active C.19 policy names that use, among candidates otherwise Pareto-equivalent on the declared primary characteristics. A policy may explicitly promote `Surprise` into dominance with its constituted basis. If the policy does not use `Surprise`, omit that reading.
 
-#### B.5.2.1:5.1 - Creative-generation consistency with the declared dominance doctrine
+#### B.5.2.1:5.1 - Distinguish the returned results
 
-- When candidate generation speaks about fronts, use the declared `DominanceSet` for the front and keep archive retention separate when archive mode is active.
-- Do not write novelty or diversity terms into the front definition merely because they are important to archive quality or exploration value.
-- If one generator emits both a front-facing result and an archive-facing result, say which surface each result belongs to.
-- If one generator speaks about selected results, keep that language in the shortlist family rather than silently reusing front language.
-- Prefer wording like `front over the declared DominanceSet, plus the corresponding ExplorationArchive when archive mode is active` over wording that folds `Q`, novelty, and diversity into one default front by habit.
-- The local generation story should stay consistent with the declared `Front`, `Archive`, and `Shortlist` language so comparison stays intelligible and lawful.
+Keep three results distinct: the front records non-domination under the declared `DominanceSet`; the `ExplorationArchive` records retention under its policy; a shortlist records the set selected for a named receiving use. Label each result supplied by the generator and preserve the complete front before any thinning.
 
 ### B.5.2.1:6 - Conformance Checklist (normative)
 
 
-**CC‑B.5.2.1‑1 (CHR discipline).** If this pattern is applied in a Context, that Context **SHALL** declare the Creativity‑CHR **Characteristics** with **A.18**‑style templates (type, unit/range, polarity).
+**CC‑B.5.2.1‑1 (CHR discipline).** If this pattern is applied in a Context, that Context **SHALL** declare the Creativity‑CHR **Characteristics** used by the generation and comparison with **A.18**‑style templates (type, unit/range, polarity).
 
 **CC‑B.5.2.1‑2 (Instrumented generation).** Step 2 of **B.5.2** **SHALL** either (a) invoke *NQD‑Generate* or (b) justify a Context‑specific generator of equivalent effect (diversity + quality + novelty with measurable **Characteristics**).
 
@@ -50232,7 +50227,7 @@ Use `Surprise` as a secondary tie-break only when the active C.19 policy names t
 
 **CC‑B.5.2.1‑4 (Non‑dominated candidate front).** The *CandidateSet* **MUST** include the **Pareto front** over the declared `DominanceSet`. If the Context consumes the ordinary default, cite that consumed `DefaultId.DominanceRegime` rather than restating one local default doctrine. Every exclusion SHALL retain its actual reason. A dominance exclusion names the dominating candidate and declared coordinates; deduplication cites its equivalence or distance rule; archive retention and post-front thinning cite their policies. Preserve the complete computed front before thinning and label a thinned result separately. `N`, `D=ΔDiversity_P`, `Surprise`, `IlluminationSummary`, and similar signals enter dominance only under an explicit recorded promotion policy; otherwise they remain archive, tie-break, or telemetry signals.
 
-**CC‑B.5.2.1‑4a (Archive companion when retained exploration is in scope).** If the active policy depends on retained exploration, stepping-stone retention, or open-ended search, the emitted candidate package **MUST** include the corresponding `ExplorationArchive` or cite one explicit policy id that says archive mode is disabled for that run.
+**CC‑B.5.2.1‑4a (Archive companion when retained exploration is in scope).** If the active policy depends on retained exploration, stepping-stone retention, or open-ended search, the emitted candidate package **MUST** include the corresponding `ExplorationArchive`. When archive mode is disabled for a run whose policy does not require that retained result, cite the policy id that establishes that choice.
 
 **CC-B5.2.1-5 (Hypothesis-led testing).** Before claiming empirical corroboration, the practitioner SHALL derive the consequences needed to interpret the test and retain how the tested hypothesis was obtained. Generation SHALL NOT assign an assurance level, require a new experiment or prescribe the next reasoning contribution independently of the receiving question.
 
@@ -50244,7 +50239,7 @@ Use `Surprise` as a secondary tie-break only when the active C.19 policy names t
 
 **CC‑B.5.2.1‑9 (Secondary metrics).** **I (illumination)** and **S (surprise)** SHALL be used only for tie‑breaking/reporting unless explicitly promoted by policy; the **primary dominance test uses the declared `DominanceSet`**, which under the ordinary default means the context-declared `Q` components.
 
-**CC‑B.5.2.1‑10 (Cell capacity & ε).** If `K>1` or `ε>0` are used, the values MUST be declared and recorded in provenance; any thinning AFTER recording the front SHALL be documented in the DRR.
+**CC‑B.5.2.1‑10 (Cell capacity & ε).** If `K>1` or `ε>0` are used, the values MUST be declared and recorded in provenance; any thinning AFTER recording the front SHALL be documented in the generation and comparison account.
 
 **CC-B.5.2.1-11 (Dominance set).** If the Context consumes the ordinary default `DefaultId.DominanceRegime`, the active dominance set **SHALL be the declared `Q` components** and provenance **SHALL** cite that consumed default plus the active C.19 policy or lens id. Any `Novelty@context` or `ΔDiversity_P` tie-break SHALL be named by that policy and use a constituted result on a compatible basis; an unused optional reading need not be produced. Promotion into dominance SHALL be explicit and recorded with the policy id.
 
@@ -50254,7 +50249,7 @@ Use `Surprise` as a secondary tie-break only when the active C.19 policy names t
 
 * *Added steps:* selecting descriptor **Characteristics** and granularity; reading the returned front. Start with front membership; consult dominated entries when their exclusion or retained archive role matters.
 * *Mitigations:* a compact comparison note or table can suffice. Keep the required coordinate meanings and provenance available, and reuse applicable Context grids and metrics.
-* *Reader quickstart (engineer‑manager):* (1) Pick 2–3 **Q** characteristics aligned to the anomaly + a simple **CharacteristicSpace** (2–4 dimensions). (2) Accept defaults for `NoveltyMetric`, grid granularity, and `K=1`. (3) Run **NQD‑Generate** to a fixed budget; inspect the front under its declared Q coordinates. (4) Apply Step 3 filters; log decisions in the DRR.
+* *Reader quickstart (engineer-manager):* (1) Select Q characteristics and descriptors that answer the explanatory question; reuse compatible Context definitions. (2) Declare the generator, policy, budget and stopping rule, and any novelty metric it uses. (3) Run NQD-Generate; inspect the front under its declared coordinates and any retained archive required by the policy. (4) Apply B.5.2’s plausibility criteria and retain the comparison grounds and needed decision rationale.
 
 ### B.5.2.1:8 - Placement in the Reasoning Cycle (ADI)
 
@@ -50267,8 +50262,8 @@ Practitioners may monitor these indicators to improve practice; they do not serv
 1. **Profile-specific assurance progression (optional).** When a receiving domain uses an assurance-level profile, report the fraction of cycles whose candidate meets a named level under that profile within the policy window. Name the claim, use and satisfying evidence; omit this KPI when no such profile is used.
 2. **Frontier‑Hit Rate (FHR).** % of cycles where the chosen candidate lies on the **Pareto front** over the declared `DominanceSet` at selection time; track novelty/diversity contribution separately as archive, tie-break, or policy-promoted evidence.
 3. Coverage Gain (ΔI, report). Change in the *illumination summary* (coverage map/%filled cells) per cycle (how much of the descriptor space is now “lit”).
-4. **Exploration Cost Ratio (ECR).** Compute/time spent in NQD‑Generate divided by downstream Shape/Evidence cost saved (tracks whether the pattern pays for itself).
-5. **Refutation Learning Yield (RLY).** Among *refuted* candidates, % that added new coverage or raised SurpriseScore—turning “failures” into map‑building.
+4. **Exploration Cost Ratio (ECR).** Under one resource metric, divide generation cost by positive downstream analysis or evidence-acquisition cost savings relative to a stated comparison baseline. State whether the savings are measured or estimated and identify the comparison or estimation Method. If positive savings are not established, report the costs and the supported saving result or unresolved saving claim separately.
+5. **Refutation Learning Yield (RLY).** Among *refuted* candidates, report the percentage that added new coverage or contributed a specified increase in Surprise. For the Surprise branch, identify the constituted result and its baseline or reference set, and use a declared comparison rule on a compatible basis to determine whether the candidate counts.
 
 ### B.5.2.1:10 - Worked micro-example: explanatory rivals and a separate next action
 
@@ -50289,21 +50284,21 @@ The declared DominanceSet is exactly the two Q coordinates, with ε=0. Novelty i
 
 The complete front is {A,B,C}: each trades prediction coverage against auxiliary assumptions. C.18 records that front separately from the retained archive {A,B,C,D}, and its generation record names this NQD-Generate procedure and the seed/operator provenance. No front thinning is applied.
 
-**Qualified abductive result.** For the present question about blocked threads, B.5.2 compares candidates that explain O2 with at most one unverified auxiliary assumption. A meets that stated plausibility criterion; C needs two, while B and D leave O2 unexplained. A is the qualified prime conjecture, conditional on the lock-scope assumption. Evidence that the blocked threads never wait on that lock would defeat it. Generation and the coordinate counts supply no assurance level or empirical corroboration.
+**Qualified abductive result.** For a bounded answer to why the blocked threads in O2 occur, B.5.2 compares candidates that explain O2 with at most one unverified auxiliary assumption. A meets that stated plausibility criterion; C needs two, while B and D leave O2 unexplained. A is the qualified prime conjecture, conditional on the lock-scope assumption. A leaves the separate O3 cache-miss question open. Evidence that the blocked threads never wait on that lock would defeat it. Generation and the coordinate counts supply no assurance level or empirical corroboration.
 
 **Next-use choice.** The separate C.11 question is which available diagnostic action fits a one-hour budget. Reading the existing lock traces takes one hour and addresses A’s open assumption; the combined intervention needed for C takes three hours. Under the declared criterion of addressing the current blocked-thread question within that budget, choose the trace reading and decline C’s intervention for this action. C remains a front member and D remains an archive stepping stone. This choice authorizes no performance beyond its independently applicable permission conditions.
 
 ### B.5.2.1:10a - Trade‑offs & mitigations
 
 * **Cognitive effort.** Interpreting Pareto sets and coverage maps adds overhead. Use the compact comparison view in §7 with its coordinate meanings and provenance.
-* **Locality.** Novelty/diversity are **context‑local**; Cross‑context reuse requires **re‑measurement or an explicit mapping**.
-* **Metric gaming & collinearity.** Avoid making **N** and **S** redundant by policy; when strong collinearity is detected, freeze one as informative only and record rationale in the DRR.
+* **Locality.** Reuse novelty/diversity readings only where their declared comparison basis and supported use remain applicable. If a change affects that basis, obtain the needed new reading or establish a suitable mapping and its loss boundary.
+* **Metric gaming & collinearity.** Check whether using correlated Novelty and Surprise readings changes the intended comparison or pool treatment. Preserve both when their distinct meanings matter; revise an unsuitable joint-use rule through the declared policy and record the rationale.
 
 ### B.5.2.1:11 - Related Patterns
 
 * **Extends:** **B.5.2 Abductive Loop** (Step 2/3 operationalization).
 * **Driven by / feeds:** **B.5 Canonical Reasoning Cycle**, **B.4 Evolution Loop** (Observe/Refine).
-* **Uses:** **A.17/A.18** for characteristic discipline and **B.5** for choosing reasoning contributions. **May** refer to Context‑specific MAP‑Elites/novelty‑search implementations in the MethodDescription. **Independent conditions for actual Work remain applicable; this pattern adds no universal gate to theoretical comparison.** C.17 (Use‑Value / ValueGain, normative definition).
+* **Uses:** **A.17/A.18** for characteristic discipline and **B.5** for choosing reasoning contributions. **May** refer to Context‑specific MAP‑Elites/novelty‑search implementations in the MethodDescription. C.17 (Use‑Value / ValueGain, normative definition).
 
 ### B.5.2.1:End
 
@@ -50338,9 +50333,9 @@ Use this bounded interpretation move when domain vocabulary leaves the FPF claim
 
 1. Start from the exact expression, source, edition, and relevant passage. Use F.0.1 to recover the source-local claim. Recover an F.17 cell and test its basis relation when the current claim needs them, including when an F.9 Bridge is claimed. Add a durable term row only when the receiving use needs that packaging under F.17.
 2. Ask which exact FPF value or relation the current claim needs, then use the pattern that defines or constrains it. For example, the answer may concern a System, characteristic, Method, Work occurrence, episteme, system-role assignment, or evidence-use relation.
-3. If the use really needs a new kind, apply E.24.UK and C.3. A label alone supplies no kindhood.
+3. Use C.3 when the claim needs a kind: recover its candidate domain and membership distinction. Use E.24.UK when another durable public FPF U-kind is proposed.
 4. If the recovered source-local claim already answers the question, return it and stop. If a receiving use must relate two distinct local-sense claims, use F.9 to test whether an exact Bridge between their F.17 cells actually obtains. Shared spelling alone proves no such relation.
-5. State the receiving use separately. Name the direction, scope or applicability boundary, tolerated loss, evidence or reliance basis, and reopen condition only when each changes that use. The semantic relation alone neither authorizes nor performs the use.
+5. For an F.9 bounded-use claim, state the proposed use, direction, correspondence rule, loss tolerance, and whether the claim is affirmative or negative. Evidence reliance requires the A.10 path, obtaining relations, and local RelianceDisposition for that same use under F.9:4.2; apply B.3 when an actual named assurance claim is current. State other applicability or reopen conditions when they qualify the use. The semantic relation alone neither authorizes nor performs the use.
 6. When *role* wording is material, use E.10.ROLE and A.2 to distinguish a local system-role kind, classification, assignment, participation, responsibility, or ordinary language before making the direct claim.
 
 The practical result can be one readable sentence. Use a note, row, or card only when a later reader or tool needs durable packaging. The package describes the result; it does not create the FPF value, local meaning, relation, or permitted use.
@@ -50351,9 +50346,9 @@ An alias says only that `L` is another name for `V`. A completed B.5.3 move inst
 
 A thermodynamics team models a heat engine.
 
-* In the cited thermodynamics source, "thermodynamic system" names the engine under concern together with the boundary and state variables relevant to that local claim. Recover the same System already used elsewhere; the expression does not automatically name a kind or assignment.
+* For "thermodynamic system", recover the entity selected by the team's model and its boundary and state-variable claims. If the claim concerns the already identified heat engine, retain that System identity.
 * "Macrostate" makes a source-local claim about a state description or characteristic bundle over, for example, pressure, volume, temperature, and particle amount. State the effective scheme and units directly; recover an F.17 cell and its basis relation when the receiving claim needs them, and add a durable term row only when reuse needs one.
-* "Control volume" may name a boundary or region relation. The claim must say which entity is bounded and which exchanges cross the boundary.
+* In [Reynolds and Colonna's control-volume formulation](https://www.cambridge.org/core/books/abs/thermodynamics/control-volume-energy-analysis/420AFDFE9F5A1CA8ACE69378F42A4F2A), "control volume" denotes a selected region of space. Identify its boundary and the matter and energy transfers across it considered by the model.
 * "Free-energy objective" may name an objective claim, characteristic, or selection criterion. The claim must say which FPF value the decision uses.
 * If the engine control System is assigned a locally defined heat-source-controller system-role kind, establish a separate obtaining occurrence of the declared `U.SystemRoleAssignment` species. The source-local meaning, classification, assignment, Work, claim scope, and time window remain separate.
 
@@ -50373,16 +50368,16 @@ The same expression can be reused in an architecture view, a requirements docume
 **Conformance Checklist**
 
 * **CC-B5.3.1 (Recover the FPF value used by the claim):** The result names the exact FPF value or relation used by the current claim before treating a preferred expression as reusable.
-* **CC-B5.3.2 (No kindhood by spelling):** A local expression, dotted name, table row, or diagram label does not become a U-kind. A needed durable kind requires its own E.24/E.24.UK and C.3 settlement from independent ontic and membership evidence.
+* **CC-B5.3.2 (No kindhood by spelling):** A local expression, dotted name, table row, or diagram label does not become a U-kind. Recover a needed kind's candidate domain and membership distinction under C.3; use E.24.UK for another durable public FPF U-kind.
 * **CC-B5.3.3 (Role boundary):** When *role* wording changes the claim, E.10.ROLE first recovers whether it means a local system-role kind, classification, assignment, participation, responsibility, or ordinary language. Each resulting claim then uses its own FPF pattern.
-* **CC-B5.3.4 (Relation and use boundary):** Claim an F.9 Bridge only when its exact endpoint cells and predicate make it obtain. State the receiving use, direction, applicable scope, tolerated loss, evidence or reliance basis, and return condition separately; shared spelling proves none of them.
-* **CC-B5.3.5 (Description boundary):** If the local expression appears in a requirement, diagram, dashboard, report, or publication, use the direct description and publication patterns to keep the described entity, description episteme, publication form, and carrier distinct.
+* **CC-B5.3.4 (Relation and use boundary):** Claim an F.9 Bridge only when its exact endpoint cells and predicate make it obtain. Judge the named use separately under F.9:4.2, retaining its direction, correspondence rule, loss tolerance, polarity, and any required same-use reliance or assurance result. State other applicability and return conditions when they qualify the use; shared spelling proves none of them.
+* **CC-B5.3.5 (Description boundary):** When the current claim depends on distinguishing the described entity, description episteme, publication form, or carrier, use the applicable description or publication pattern to recover that distinction.
 
 **Common Anti-Patterns and How to Avoid Them**
 
 | Anti-Pattern | What it looks like | Better FPF move |
 | :--- | :--- | :--- |
-| **Subtype explosion** | Every domain expression becomes a new root kind. | Keep the source-local claim as wording unless E.24.UK and C.3 establish a needed kind from independent ontic evidence. |
+| **Subtype explosion** | Every domain expression becomes a new root kind. | Keep the source-local wording when it suffices. Use C.3 for a needed kind and E.24.UK for a proposed durable public FPF U-kind. |
 | **Magic synonym** | A table says "sensor = component" and is treated as identity or permission. | Recover each exact local claim and the FPF value used. If two distinct cells must be related, test the actual F.9 relation and judge the named use separately. |
 | **Role-for-everything** | Evidence, status, local meaning, responsibility, and document use are all called roles. | Apply E.10.ROLE, then name the actual value or relation and use its direct pattern. A local system-role kind or assignment is only one possible result. |
 | **Description collapse** | A diagram label is treated as the entity, interface, or method itself. | Keep entity, description episteme, representation scheme, and publication form distinct. |
@@ -50392,7 +50387,7 @@ The same expression can be reused in an architecture view, a requirements docume
 | Benefits | Trade-offs / Mitigations |
 | :--- | :--- |
 | **Domain language stays usable:** Experts keep familiar words without forcing every word into the kernel. | **Recovery overhead:** A load-bearing expression needs its exact source-local claim and governed value. Keep the returned explanation short; recover F.17 cells and their basis relations for claims that need them, including F.9 Bridges, and add durable rows only when reuse needs them. |
-| **Kind claims have grounds:** New kinds require explicit admission and ontic support. | **More precise modeling choices:** The bridge may reveal that one local word hides several FPF values. That is the point: split them before they drive work. |
+| **Kind claims have grounds:** A kind's candidate domain and membership distinction are recovered under C.3; another durable public FPF U-kind requires E.24.UK admission. | **More precise modeling choices:** The bridge may reveal that one local word hides several FPF values. That is the point: split them before they drive work. |
 | **Cross-document clarity:** Accounts can be compared while keeping their represented values and uses distinct. | **Need for an exact use boundary:** Do not reuse a source-local claim or semantic relation in another project, scheme, scope, or action without checking the actual changed values, tolerated loss, and reliance basis. |
 
 ### B.5.3:7 - **Rationale**
@@ -50440,9 +50435,9 @@ The missing contribution is the passage from the encountered situation to a usab
 
 1. **Name the question.** Say what the interpretation should enable: reducing glare, explaining a changed reading, arranging compatible activities or choosing an observation. This determines which distinctions matter.
 2. **Describe the situation at a useful scale.** Indicate the relevant region, objects, time and conditions. Separate available observations from your proposed explanation. Try another boundary or viewpoint when the first description hides an interaction.
-3. **Recover the candidate concept through its relations.** Consult its explanation, examples and conditions. Identify its participants, how they are related, and a consequence that distinguishes its application from a plausible alternative. Use the domain account to supply knowledge omitted by a short definition.
+3. **Recover the candidate concept through its relations.** Consult its explanation, examples and conditions. Identify its participants, how they are related, and the consequences relevant to the question. When a live alternative would change the answer, identify a consequence that distinguishes them. Use the domain account to supply knowledge omitted by a short definition.
 4. **Construct the correspondence.** Point to what supplies each participant here and explain the relations between them. Use a sketch, gesture, annotated observation or short account. If mathematics helps, connect each variable or mathematical object to its interpretation and identify consequential simplifications.
-5. **Derive and examine a consequence.** Work out what should follow in this situation. Vary one relevant condition and compare the resulting prediction with an available observation, counterexample or inexpensive trial. Where competing interpretations support the same sufficient action, keep that bounded answer.
+5. **Derive and examine a consequence.** Work out what should follow in this situation and compare it with relevant available observations or constraints. When an unresolved correspondence or condition can change the needed answer, examine it through a variation, counterexample or feasible trial, or retain it as unresolved. Where competing interpretations support the same sufficient action, keep that bounded answer.
 6. **Return to the question.** Give the explanation, construction, action or next observation now supported. When a consequence fails, revisit the object boundary, relation, condition, representation or candidate concept that produced it. Identify the missing domain contribution if the available account cannot resolve the question.
 
 The result can be an interpreted sketch and a next action. Record the reasoning when another participant or later use needs to recover it.
@@ -50461,7 +50456,7 @@ The interpretation tells you what to adjust. Moving the viewpoint changes incide
 
 A laboratory must place three tests in two simultaneous-run slots. Its operating conditions say that A and B need the same exclusive fixture throughout a run; B and C need the same exclusive power unit; A and C can run together. There are no other constraints in this constructed case.
 
-Represent tests by vertices and a pairwise inability to share a slot by an edge. The observations supply edges AB and BC. The construction in [B.5:5.1][fpf-b5-5-1-ref] produces slots {A,C} and {B}; reading the result back means that neither exclusive resource is double-booked.
+Represent tests by vertices and a pairwise inability to share a slot by an edge. The operating conditions imply edges AB and BC. The construction in [B.5:5.1][fpf-b5-5-1-ref] produces slots {A,C} and {B}; reading the result back means that neither exclusive resource is double-booked.
 
 Now change the conditions: A and C also require the same observer throughout a run. This adds edge AC. The triangle needs three slots under these conditions; two-colouring no longer supplies an arrangement.
 
@@ -50478,7 +50473,7 @@ When a teacher, colleague or AI supplies the decisive interpretation, retain tha
 - The concrete question determines which distinctions matter.
 - The interpretation identifies the participants, relations and applicable conditions in the encountered situation.
 - A consequence connects the interpretation to an explanation, construction or action.
-- A consequential change is interpreted using the retained relation and its conditions.
+- When a relevant condition changes, recover what follows from the relation in those changed conditions.
 - The domain account, prerequisites and permitted assistance are accessible to the intended reader.
 - An independent-recognition claim is supported by an appropriately uncued attempt.
 
@@ -50492,7 +50487,7 @@ When a teacher, colleague or AI supplies the decisive interpretation, retain tha
 
 ### B.5.4:9 - Consequences
 
-The practitioner obtains an interpretation they can use and revise. A mismatch becomes a particular question about an object, relation, condition or domain account. A later calculation receives identified quantities; a model receives interpretable elements; further inquiry receives a discriminating observation.
+The practitioner obtains an interpretation they can use and revise. A mismatch becomes a particular question about an object, relation, condition or domain account. A later calculation receives identified quantities; a model receives interpretable elements; further inquiry receives a next question or observation to pursue.
 
 The cost is constructing and examining the correspondence. This work can be small when the relevant relations are already clear.
 
