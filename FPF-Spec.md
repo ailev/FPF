@@ -254,12 +254,12 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | B.1.1 | **Dependency Structure and Relation Grounding** | Stable | Resolve what each claimed dependency means and which facts make the relation obtain before using its diagram in an aggregation or whole-level claim. Apply graph checks only through a declared representation and the relation's own rule. *Queries:* "Does this dependency mean parthood, order, supply or representation?", "What makes the relation obtain?", "Which conclusions can this graph check support?" | **Builds on:** B.1, A.14, C.13. **Coordinates with:** C.29, A.10, B.3.5. |
 | B.1.2 | **Coordinate Decisions About System Aggregation and Delimitation** | Stable | Coordinate one named aggregation or delimitation decision for one exact entity recognized as a system under A.1 or still being evaluated there. Recover system identity, obtaining part and assembly relations, exact boundary-crossing relations, any use-relative boundary choice, function/bearer allocations, whole-level characteristics, evidence, descriptions, and blockers from their direct owners; select a non-agentive A.22 U.Structure only when their joint organization changes the decision. *Queries:* "Which exact entity and decision are current?", "Which constituents are parts and which exact relations only cross the selected boundary?", "What direct result makes a use-relative inclusion or exclusion current?", "Does the joint organization itself require an A.22 structure?" | **Builds on:** B.1, A.1, A.14, C.13, A.22, and the direct relation owners selected for the current decision. **Coordinates with:** C.11, C.32.PAD, C.2.1, A.6.F, A.6.M, C.16, A.19, C.29, A.10, B.3, A.3.4, A.12, C.30, E.17, the exact crossing-relation owners, and B.2 when changed facts leave a consequential question about whether the existing whole still carries the claim or a new whole is required. |
 | B.1.3 | **Knowledge Aggregation (Γ_epist): Synthesis and Target-Scheme Compilation** | Stable | Synthesize exact epistemes for a named question, or compile an existing synthesis into one target reference scheme. Preserve source contributions, dependencies, conflicts and mapping limits. Return a justified aggregate calculation or a bounded reasoned synthesis without a common score. *Queries:* "How do I synthesize claims from heterogeneous sources?", "Which support can be combined, and which must stay separate?", "How do I compile the result for another reference scheme?" | **Builds on:** B.1, A.1, C.2. |
-| B.1.4 | **Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)** | Stable | Aggregates already recovered relations over an exact set of ordered positions, phases, or a time window without treating order, phase, time, or process wording as parthood, work, or a generic interaction relation. | **Builds on:** B.1, A.1.1, A.14, C.27.TA. **Coordinates with:** A.15.1, A.3.4, C.29. |
+| B.1.4 | **Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)** | Stable | Specify or compute the required aggregate from exact inputs and independently grounded order or temporal relations. Choose the combining rule and result, preserving temporal references, required identity and coverage/overlap conditions. Return a sufficient ordinary answer or the inspectable account the receiving use needs. | **Builds on:** B.1, A.1.1, A.14, C.27.TA. **Coordinates with:** A.15.1, A.3.4, C.29. |
 | B.1.5 | **Gamma_method - Order-Sensitive Method Composition and Work Enactment** | Stable | *Keywords:* method composition, `methodPartOf`, submethod, order-sensitive method, method relation structure, composite-Method boundary account, typed join, A.6.RCD claim disposition, capability continuity, work enactment, method/work granularity, assurance hooks. *Queries:* "How do I combine methods?", "When is a step a submethod rather than a work part, plan item, or description node?", "Which part Methods stand in `methodPartOf`, and how do other whole-forming claims stop at A.6.RCD's lightest sufficient disposition?", "How do the composite-Method boundary account, typed joins, Gamma_ctx, Gamma_work, and B.3 assurance hooks stay distinct?" | **Builds on:** B.1, B.1.4, A.3.1, A.6.RCD. **Coordinates with:** A.15.1, B.1.6, B.3. |
 | B.1.5.EW | **Recover How Constituent Actions Enact Encompassing Work** | Stable | Start with one action and explain what encompassing work is being performed through it. Vary a whole-work condition to locate a needed change in the action, its coordination or the requested result; recover missing constituent know-how or capability only as far as this use needs. *Queries:* "What larger work am I doing through this action?", "Why does an adequate isolated action fail in this combination?" | **Builds on:** B.1.5, A.15.1. **Coordinates with:** B.1.5.RS, A.22.CGUS, C.30.LCA, C.32.MWA. |
 | B.1.5.RS | **Evaluate a Constituent Method Replacement in Its Encompassing Uses** | Stable | Compare a replacement with the results, interactions and resource conditions required by each encompassing use; accept, restrict, adapt or reject the substitution. | **Builds on:** A.3.1, B.1.5. **Coordinates with:** B.1.5.EW, C.11.DUA, C.29. |
 | B.1.5.CM | **Construct and Qualify a Composite Method** | Stable | A proposed combination may be one Method, but cooperation or a shared provider does not establish that whole. Construct constituent contributions, interfaces and relation grounds, or return a useful lower claim. | A.3.1 and B.1.5 for identity/composition; B.1.5.EW and B.1.5.RS for enactment and replacement; C.32.MWA.PP for provision. |
-| B.1.6 | **Work-Resource Aggregation** | Stable | *Keywords:* work-resource aggregation, resource Characteristic, C.16 measurement work/result episteme, typed input, Scale/Unit, dated work set, work parthood/phase/overlap, edition-pinned aggregation policy, allocation/deduplication, aggregation work, typed aggregation result, uncertainty, provenance. *Queries:* "How do I aggregate measured resource use over an exact dated work set without double counting shared stocks, people, meters, tools, data, or time?", "Which measurement results, work/overlap relations, policy edition, actual aggregation work, typed result, result episteme, and provenance must remain separately recoverable?", "What supports the aggregation claim when only a planning or display artifact is presented?" | **Builds on:** A.15.1, A.6.1, C.2.1, C.16. **Coordinates with:** A.3.1, A.3.2, A.15.2, A.15.5, B.1.4, C.27, A.1, B.1, A.14, C.13, A.3.4, A.10, G.6, G.11, C.29, E.17, and the pattern that defines the current comparison, assurance, transformation, reidentification, or decision claim. |
+| B.1.6 | **Work-Resource Aggregation** | Stable | Justify a typed resource total, vector, interval or bounded estimate from warranted input values, identified accounting subjects, scope, time basis and operative rules. Preserve the grounds of actual Work and non-Work carrier phases; distinguish repeated resource contributions from different uses of one carrier. *Queries:* "Which resource values and subjects support this total?", "Does the account count one contribution twice?", "Which additional occurrence, policy-edition or provenance grounds does this use actually need?" | **Builds on:** A.15.1, C.2.1, C.16. **Coordinates with:** A.6.1, A.3.1, A.3.2, A.15.2, A.15.5, B.1.4, C.27, A.1, B.1, A.14, C.13, A.3.4, A.10, G.6, G.11, C.29, E.17, and the pattern that defines the current comparison, assurance, transformation, reidentification or decision claim. |
 | B.2 | **Meta-Holon Transition — Whole Reidentification** | Stable | Compare changed facts with explanations that preserve the existing whole's identity for the receiving use. Keep a sufficient existing whole, resolve a missing decisive basis, or test the proposed new whole under A.1 and its admitted kind before making a reidentification claim. Materialize a comparison or reidentification account when later work needs it. Use B.3 when the receiving claim and use require assurance. For a selected assertion or record edition, use G.11 for currentness; the receiving person or system decides reliance. *Queries:* "Which exact existing whole currently explains the claim?", "Which separately governed facts defeat that explanation?", "What exact new whole and admitted kind are proposed?", "Does the complete recognition and reidentification basis pass, fail, or remain unknown?" | **Builds on:** A.1, A.14, B.1, C.13. **Coordinates with:** B.1.2, B.2.P, B.2.2, B.2.3, B.2.4, B.2.5, A.12, A.3.4, A.15.1, C.16, C.29, C.30.ILC, C.2.1, and E.24.UK. |
 | B.2.P | **Clarify Emergence and Meta-Holon Transition (MHT) Claims** | Stable | Repairs emergence, synergy, higher-level property, MHT, MET, MFT, metric mirage, and collection words entangled with whole-reidentification by recovering the claim kind first. | **Builds on:** E.10, E.10.ARCH, B.2, A.14, C.13, B.3.5. **Coordinates with:** B.2.2, B.2.3, B.2.4, C.16, A.2.2, A.6.F, A.3.4, C.30.ILC. |
 | B.2.2 | **Meta-System Transition: Test the Proposed New Whole as a System** | Stable | Specialize B.2 when its one exact proposed new whole must be recognized under the already admitted `U.System` kind. Apply the complete A.1 construction test and direct system criterion to that same individual; keep delimitation, objective, coordination, capability, system-role kind or assignment, Method, Work, transformation, functioning, architecture, evidence, assurance, and time claims under their direct patterns, and re-base component evidence rather than transferring it by label. *Queries:* "Which exact candidate did B.2 identify for recognition?", "Does that same individual pass complete A.1 and the direct U.System criterion?", "Which additional result-system claims independently obtain?", "Which component evidence remains applicable to the recognized result system?" | **Builds on:** B.2, A.1, B.1.2, A.14, C.13. **Coordinates with:** A.12, A.3.4, A.15, A.15.1, A.2.1, A.2.2, A.6.F, A.10, B.3, B.3.5, B.2.4, B.2.5, C.16, C.27, C.30, A.22, and E.24.UK. |
@@ -5994,7 +5994,7 @@ Until the membership judgements required by the selected counting rule and repor
 * **Cost‑to‑serve:** sum of `Γ_work` over `W✓` per resource category (A.15.1).
 
 Each resulting measurement-result claim is derived from selected facts about `U.Work` occurrences through its C.16 measurement template and named A.10 evidence relations. Make the measurement Method explicit when it affects interpretation; cite a `U.MethodDescription` only when the result claim depends on that edition's claims. Resource and time actuals belong to the performed `U.Work` occurrences.
-Aggregation across time uses the `Gamma_time` policy referenced by the named C.16 measurement template or acceptance specification; an unqualified KPI label does not select that policy. When a measure needs a B.1.4 temporal-phase aggregation of one carrier, name one `ContextTemporalAggregation@Context` record and its exact selected policy—for example, union of observed values or their convex hull—together with carrier identity, time window, coverage and non-overlap conditions, and admissible use. If those one-carrier conditions do not hold, this example is inapplicable; state the aggregation actually required and apply its defining rule. Union and convex hull are policy choices, not defaults; `Gamma_time` does not select either by itself.
+Aggregation across time uses the `Gamma_time` policy referenced by the named C.16 measurement template or acceptance specification; an unqualified KPI label does not select that policy. When a measure needs a B.1.4 temporal-phase aggregation of one carrier, recover the selected policy—for example, union of covered intervals or their convex hull—together with carrier identity, time window, the coverage and overlap conditions consumed by that policy, and admissible use. An adequate ordinary account can state the result; use a separate `ContextTemporalAggregation@Context` record when the receiving use needs it. If those one-carrier conditions do not hold, this example is inapplicable; state the aggregation actually required and apply its defining rule. Union and convex hull are policy choices, not defaults; `Gamma_time` does not select either by itself.
 
 ### A.2.3:9 - Common misclassification repairs
 
@@ -29375,8 +29375,8 @@ Work identity is occurrence-grounded and 4D. Start from the actual performance h
 #### A.15.1:5.3 - Work-occurrence relations used by Part B roll-ups
 `A.15.1` supplies the identity of each independently identified Work occurrence or Work part and makes its exact temporal and performed resource-use relations recoverable. It does not itself return a temporal aggregate or resource ledger.
 
-* **Temporal coverage.** When a receiving use needs utilization, elapsed time, phase coverage, or another roll-up over Work intervals, open `B.1.4`. Its recovered `ContextTemporalAggregation@Context`, coverage and non-overlap conditions, aggregation policy, and optional `Gamma_time` notation govern union, hull, or another admitted temporal aggregate. The work intervals remain A.15.1 facts.
-* **Resource aggregation.** When a receiving use needs a total over materials, energy, time, money, tool wear, or another performed resource value, open `B.1.6`. Its recovered `WorkResourceAggregation@Context`, typed resource-accounting basis, evidence refs, overlap or deduplication policy, ledger, aggregation rule, and optional `Gamma_work` notation govern the aggregate. Each contributing performed resource-use relation obtains separately with its exact Work occurrence as a participant; any ledger or assertion about that relation is a separate episteme.
+* **Temporal coverage.** When a receiving use needs utilization, elapsed time, phase coverage or another roll-up over Work intervals, apply `B.1.4` to those intervals and the selected combining rule. Preserve the temporal inputs, coverage and overlap conditions consumed by that rule. An adequate ordinary account can state the result; use a separate record or optional `Gamma_time` notation when the receiving use needs it. The Work intervals remain A.15.1 facts.
+* **Resource aggregation.** When a receiving use needs a total over performed resource values, apply `B.1.6` to the attributed inputs, included subjects, accounting scope, time basis and operative rule. Preserve the value-attribution grounds and any overlap, allocation or deduplication conditions used by that account. An adequate statement or existing ledger can convey the result; a separate record and optional `Gamma_work` notation are chosen by the receiving use. Each contributing performed resource-use relation obtains separately with its Work occurrence as a participant; an assertion about that relation remains distinct from the relation.
 
 **Manager's tip:** cite the exact `B.1.4` or `B.1.6` aggregation result and policy beside the KPI. A Work-part list, shared parent, or operator spelling supplies neither the aggregate nor its policy.
 
@@ -29570,16 +29570,16 @@ Any capability threshold relied on for a Work occurrence is the declared bound i
 **CC-A15.1-8 (Acceptance criteria).**
 An acceptance claim names the criterion episteme or comparator specification, applicable conditions, returned verdict and declared acceptance predicate with its actual participants. Identify the evaluation or acceptance Work when its occurrence is claimed; the verdict alone does not require an additional Work identity. A claim of historical criterion continuity needs the C.2.1 `EpistemeEditionRelation`; a version label is insufficient. If no predicate governs acceptance, return `missing-governor[acceptance]`. Success class, measurement, comparison result and acceptance verdict remain distinct; none is a Work field or a condition of Work membership.
 **CC-A15.1-9 (Resource honesty).**
-Performed resource-use facts (energy, materials, machine-time, money, tool wear) are attributed through declared predicates that name the particular Work, resource, amount, unit, and extent participants, not to `U.Method`, `U.MethodDescription`, a system-role kind or assignment, or an assertion of holder ability. If no predicate governs the needed use, return `missing-governor[resource-use]`; estimates remain in Method descriptions or plans. Any aggregate ledger, unit conversion, allocation, or overlap and deduplication result belongs to `B.1.6` and cites the contributing Work occurrences and resource-use facts.
+Performed resource-use facts (energy, materials, machine-time, money, tool wear) are attributed through declared predicates that name the particular Work, resource, amount, unit, and extent participants, not to `U.Method`, `U.MethodDescription`, a system-role kind or assignment, or an assertion of holder ability. If no predicate governs the needed performed-use claim, return `missing-governor[resource-use]`; keep any separately warranted estimates or derived values with their source values, model and conditions. Any aggregate ledger, unit conversion, allocation, or overlap and deduplication result belongs to `B.1.6` and cites the contributing Work occurrences and resource-use facts.
 
 **CC-A15.1-10 (Mereology declared).**
 When exact work-part relations obtain among Work individuals, declare each relation: temporal-part, episode-part, operational-part, or another relation with its own predicate. Ambiguous mixtures lower aggregation and identity claims. Each A.15.1 work-part relation uses two independently admitted Work participants and the predicate and identity rule in §4.1a. A bare interval stays with C.27.TA or its direct domain object. Concurrency adds a separately declared temporal-overlap claim through C.27.TA. If the reader also claims coordination, name its declared predicate and actual participants; overlap alone does not establish it.
 
 **CC-A15.1-11 (Temporal coverage selection).**
-For a temporal roll-up, `B.1.4` names the exact Work refs, aggregation concern, time window, coverage and non-overlap conditions, and policy selecting union, convex hull, or another admitted result. A.15.1 supplies the occurrence intervals but does not own the aggregate.
+For a temporal roll-up, `B.1.4` identifies the participating Work occurrences, their intervals, temporal reference and time window, aggregation concern, selected combining rule, coverage and overlap conditions consumed by that rule, and admissible use. A.15.1 supplies the occurrence intervals but does not own the aggregate.
 
 **CC-A15.1-12 (Resource aggregation).**
-For a resource roll-up, `B.1.6` names the exact Work refs, typed resource basis, units, evidence, delimitation and time window, overlap or deduplication policy, ledger, and aggregation rule. A.15.1 supplies performed resource-use facts but does not own the aggregate ledger.
+For a resource roll-up, `B.1.6` identifies the contributing Work occurrences, typed resource values with applicable units and attribution grounds, accounting scope and time basis, aggregation rule and admissible use. Preserve the delimitation, overlap, allocation or deduplication conditions consumed by that account; an adequate statement or existing ledger can convey the result. A.15.1 supplies performed resource-use facts but does not own the aggregate.
 
 **CC-A15.1-13 (Identity and retries).**
 A distinct actual work-entry after an established completion or termination identifies a later Work occurrence; a proper work part and its parent and independently grounded concurrent performances are also distinct individuals. Add an `EpisodeOf_work` relation only when its §4.1a predicate holds. Add a retry or resumption relation only under an exact locally declared species whose participant meanings, predicate, identity, cardinality, and applicability pass §4.1a; bare `retryOf` and `resumptionOf` are route cues only. An interruption, performer or assignment replacement, method or mode switch, retune, rework, affected-referent change, or binding change is stated as direct history and neither splits nor preserves the parent by itself. Cite `workContinuityPolicyRef` only when a named use needs a branch criterion for that ambiguity. A changed MethodDescription or another policy episteme alone revises at most the dependent description or segmentation judgment. Call the policy an edition only when an exact C.2.1 `EpistemeEditionRelation` obtains; a non-continuing replacement can support a different judgment about the same performance history.
@@ -29636,11 +29636,11 @@ Before a timetable, workflow, or architecture row supports a Work whole, part, o
 
 ### A.15.1:9 - Work-to-aggregation interface
 
-`A.15.1` makes the occurrence-side inputs recoverable without storing them in the occurrence: a separate assertion or description episteme designates exact Work individuals or work parts and states their temporal extents and the separately obtaining resource-use relations selected for aggregation. `B.1.4` identifies the temporal-aggregation claim and result; `B.1.6` identifies the resource-aggregation claim, ledger, and result. Neither becomes a Work field.
+`A.15.1` makes the occurrence-side inputs recoverable without storing them in the occurrence: a separate assertion or description episteme designates exact Work individuals or work parts and states their temporal extents and the separately obtaining resource-use relations selected for aggregation. `B.1.4` identifies the temporal-aggregation claim and result; `B.1.6` identifies the resource-aggregation claim and result; a ledger may convey that account. These aggregation accounts remain distinct from Work-occurrence identity.
 
 #### A.15.1:9.1 - Temporal aggregation return
 
-For utilization, lead time, cycle time, phase coverage, or another temporal roll-up, use `B.1.4`. Name the exact work refs, carrier or aggregation concern, time window, coverage and non-overlap conditions, aggregation policy, and admissible use there. Union, convex hull, and optional `Gamma_time` notation are properties of that recovered temporal aggregation, not fields or identity invariants of a Work occurrence.
+For utilization, lead time, cycle time, phase coverage or another temporal roll-up, use `B.1.4`. Recover the Work intervals, aggregation concern, time basis, selected combining rule, conditions it consumes and admissible use. An adequate ordinary account can state the result; a separate record is needed only by its receiving use. Union, convex hull and optional `Gamma_time` notation concern that temporal aggregation, not Work-occurrence identity.
 
 When the exact `B.1.4` result selects the Work-interval profile, retain these use-specific choices:
 
@@ -29652,7 +29652,7 @@ Never switch union and hull silently between KPIs. The formulas above profile a 
 
 #### A.15.1:9.2 - Resource aggregation return
 
-For a total or ledger over performed resource-use facts, use `B.1.6`. Name the exact work refs, typed resource-accounting basis, units, measurement or evidence refs, holon delimitation, time window, overlap or deduplication policy, aggregation rule, and admissible use there. Additivity, allocation, traceability, the aggregate ledger, and optional `Gamma_work` notation belong to that recovered resource-aggregation claim, not to Work-occurrence identity.
+For a total or ledger over performed resource-use facts, use `B.1.6`. Recover the Work participants, typed resource values with applicable units and attribution grounds, accounting scope, time basis, aggregation rule and admissible use. Establish any holon-delimitation, overlap, allocation or deduplication facts used by the account. An adequate existing statement or ledger can suffice. Additivity, allocation, traceability and optional `Gamma_work` notation concern the resource aggregate, not Work-occurrence identity.
 
 **Filled heterogeneous BuildOps route.** Published case-local specification `BuildOpsResourceUseRelations-v12` declares `BuildWorkUsesResource@BuildOps-v12(work, resource, amount, unit, extent)` with participant order `<work, resource, amount, unit, extent>`. Its test requires the named Work actually to occupy or consume the named resource during that extent, with the amount measured in the named unit. Separate case facts state that `ReleaseBinary12_BuildWork_2026-07-21T0900_0912` occupied `BuildPoolCPU_A` for `24` `runner-core-minute` during `09:00-09:12`, and consumed `0.84` `kWh` of `GridElectricity_BuildZone3` within `BuildService_A_Delimitation-v12` during the same extent. Those facts make relation occurrences `BuildRunUsedCPU_12` and `BuildRunUsedElectricity_12` obtain with those exact participant tuples. `BuildRunnerAllocationEvidence_12` and `BuildZone3EnergyMeasurement_12` support the facts; neither record is the resource use, and neither relation is a field of the Work.
 
@@ -29701,8 +29701,8 @@ These checks tell the reader which description, assignment, criterion, evaluatio
 3. **Record a continuity policy only for an actual ambiguity.** Cite exact `workContinuityPolicyRef` and its named use when an interruption, resumption, replacement, switch, or composite boundary could support more than one segmentation. If direct facts already close a simple uninterrupted case, omit the policy.
 4. **Separate temporal aspect, temporal Work part, episode, and operational part.** Keep a bare interval or aspect with C.27.TA or its direct domain object. Use `TemporalPartOf_work` only between independently admitted Work individuals when the proper temporal-sub-occurrence predicate passes; use `EpisodeOf_work` only for an independently admitted event-bounded Work sub-occurrence; and use `OperationalPartOf_work` only for an independently admitted performed constituent of the whole. Recover any Method factor separately.
 5. **Name only useful Work parts.** Apply §5.1's threshold to the current or later use. Preserve the independently established relation, evidence or telemetry slice when it is sufficient, without adding a Work-part identity.
-6. **Use B.1.4 for temporal roll-up.** Cite the exact temporal aggregation and its union, hull, coverage, and non-overlap policy in the KPI rather than recreating it on Work.
-7. **Use B.1.6 for resource roll-up.** Recover the typed resource ledger, evidence basis, allocation, and overlap or deduplication policy there; each contributing performed resource-use relation remains independently obtaining with an exact Work occurrence as a participant.
+6. **Use B.1.4 for temporal roll-up.** Cite the temporal aggregation's result and selected combining rule, including the coverage and overlap conditions it uses, in the KPI; keep that account separate from Work.
+7. **Use B.1.6 for resource roll-up.** Recover the typed resource result, its attribution basis and the aggregation rule, with any allocation, overlap or deduplication conditions used by that account; an adequate statement or existing ledger can suffice. Each contributing performed resource-use relation remains independently obtaining with a Work occurrence as a participant.
 8. **Pull plans out.** Keep calendars and planned fillings in exact `U.WorkPlan` content; establish performed values only through direct relations in which the Work occurrence participates and through exact A.6.1 bindings.
 9. **Bind actual values directly.** For an operation argument or result, name the identified A.6.1 application and its exact binding. For any other participant or parameter, name the declared subject predicate, participant order, and actual values; return the matching missing-governor result when that predicate is absent. Retain MethodDescription defaults and WorkPlan choices as non-actual neighbors.
 
@@ -41669,7 +41669,7 @@ Naive aggregation of knowledge holons causes recurring failures:
 
 1. **Unsupported confidence folds.** Averaging incomparable scores can hide conflict; a compulsory minimum can discard useful complementary support or overstate the probability of several necessary conditions. Both violate B.3 when their inputs and dependency model are unjustified.
 2. **Provenance erasure.** Merges that drop sources, methods, or links break **A.10 Evidence Graph Referring** and make results unauditable.
-3. **Semantic drift.** Combining mismatched concepts without explicit **mappings** and their **CL** summaries can change or obscure the resulting claim despite its formal appearance.
+3. **Semantic drift.** Combining mismatched concepts without explicit **mappings** and their actual interpretation limits can change or obscure the resulting claim despite its formal appearance.
 4. **Order blindness.** Arguments with essential **dependency order** (premise ⇒ lemma ⇒ conclusion) are treated as sets; non‑commutativity is lost and results become non‑reproducible.
 5. **Semantic-context chimeras.** Combining claims whose local senses or reference schemes differ, without exact mappings and—when meanings cross—an F.9 Bridge plus a separately warranted bounded-use claim, silently corrupts claims and inflates **R**.
 6. **Category errors.** Applying a physical quantity’s addition rule to truth, or averaging ordinal formality, ignores the value’s meaning and scale. Use C.16 for admissible scale operations and B.3 for the warranted support inference.
@@ -41691,14 +41691,12 @@ Naive aggregation of knowledge holons causes recurring failures:
 * **U.Episteme** — a claim-bearing knowledge holon. C.2.1 identifies it through the participant-determined `EpistemeConstitutionRelation` over `<claim content, exact EntityOfConcern, effective ReferenceScheme>`. These three participant identities determine its identity. Claim content and ReferenceScheme are epistemic constituents; EntityOfConcern is the independently governed subject related through aboutness. Empirical grounding uses the separate `EpistemeEmpiricalGroundingRelation`, while text, code, figures, datasets, SCR/RSCR references, publication forms, and presentation carriers remain separately governed provenance, representation, publication, or carrier material.
 * **Constitution participants and typed positions.** When the receiving use needs a reusable designation of the EntityOfConcern, C.2.1:4.2.1 supplies `EntityOfConcernSlot` with `ValueKind=U.Entity` and `refMode=U.EntityRef`. It is a participant meaning in the relation declaration, not an internal slot of the episteme. Exact claim content and effective interpretation rules remain necessary constituents without being additional SlotKinds. A receiving relation declaration that needs `ClaimGraphSlot` or `ReferenceSchemeSlot` must supply each independently governed ValueKind and complete A.6.5 SlotSpec; the constituent name alone provides neither.
 * **Evidence/Provenance Graph** — an A.10 descriptive account whose edges cite independently established direct support, source, measurement or use relations. Display labels such as `evidences` do not create generic relation kinds.
-* **Semantic mapping** — the exact correspondence rule used by this composition. When it crosses semantic contexts, identify the source and receiving F.17 `SchemeSenseCell` values and an obtaining F.9 `Bridge`; keep the proposed use, direction, use-specific rule, permitted loss, reliance, and **CL** evidence summary separate. F.9 does not require CL for every Bridge; B.1.3 requires the summary for a mapping used in its support account. CL alone neither grants the use nor supplies a numerical penalty.
+* **Semantic mapping** — the exact correspondence rule used by this composition. When it crosses semantic contexts, identify the source and receiving F.17 `SchemeSenseCell` values and an obtaining F.9 `Bridge`; keep the proposed use, direction, use-specific rule, permitted loss, and reliance separate. Retain a **CL** summary when the receiving rule uses one, including the applicable KD-CAL substitution or cross-notation reasoning rule in C.2. CL alone neither grants the use nor supplies a numerical penalty.
 * **Source and carrier record (SCR)** — a recoverable account of which sources and concrete carriers materially contributed to one identified synthesis or compilation result, and what each contributed. Keep the source versions, methods and carrier information needed to reconstruct that aggregation. The account may be expressed as prose, a table or a graph. An account meeting C.2.1's episteme criterion is one `U.Episteme`: its claim content records those participation facts, its EntityOfConcern is the aggregate, and its effective ReferenceScheme determines their interpretation. Apply C.2.1 to its identity: a corrected participation claim changes the episteme, while another layout can express the same claims. Working notes can precede that completed account.
 * **Semantic context** — Plain shorthand for the local interpretation basis recovered from one exact F.17 `SchemeSenseCell` as `<ReferenceScheme, LocalSenseClaim>`. It is not another operation argument or entity. Crossing between two such contexts uses F.9 and the separate bounded-use and reliance steps above.
 
 > **Didactic reminders.**
-> • Knowledge does **not** act. A researcher or engineer may use it while performing Work. Recover the exact System and Work only when the receiving claim consumes them; use A.12 only when the acting-side distinction is itself current.
 > • A collection's own rule establishes which epistemes belong to it; belonging is not a semantic argument link and does not by itself make a holon. Use **ConstituentOf** for logical or evidential composition.
-> • `PhaseOf` is only a proper temporal restriction of one unchanged episteme. Changed C.2.1 discriminators identify another episteme; test `EpistemeEditionRelation` separately. Use MHT only for a remaining whole-reidentification question, not as a substitute for C.2.1 identity.
 
 #### B.1.3:4.2 - The operator family (companion flavours)
 
@@ -41706,14 +41704,14 @@ Naive aggregation of knowledge holons causes recurring failures:
 
 When one particular operation application matters, use A.6.1 for that application and its argument and result bindings. A practitioner sentence may still say "the engineer compiled the guidance". If no particular dated `U.Work` claim is current, that ordinary sentence needs no classification or assignment apparatus. If one is current, recover every actual performer System's A.13 core and independently admit the Work under A.15.1 from its performance history, enacted Method, temporal extent, and containing System. Add F.6 afterward only when precise assignment-bound attribution is current. A short B.1.3 projection may omit an assignment identifier unused by its receiver only when every relation it consumes remains recoverable. An operation result binding says which value the application returned; it establishes neither production nor first existence of that value, publication, release, acceptance, nor a carrier. Open A.15.PROD or the publication patterns only when one of those separate questions is current.
 
-**Synthesis (design-time semantic fold).** Compose exact input epistemes into a draft aggregate.
+**Synthesis (design-time semantic fold).** Compose exact input epistemes into a draft aggregate. The displayed signature is a family template. A concrete operation declaration states which receiving claim, use and composition rules are fixed and how varying values are supplied; it determines the result's claim content, EntityOfConcern and interpretation basis from its admitted inputs. Its domain is restricted by the applicable conditions in :4.4. Ordinary bounded synthesis may state this basis in its explanation without a separate operation declaration.
 
 ```
-Γ_epist^synth : ( D_know : DependencyGraph< U.Episteme > ) → U.Episteme
+Γ_epist^synth : ( D_know : DependencyGraph< U.Episteme > ) ⇀ U.Episteme
 ```
 
-* **Domain.** `D_know` designates exact source epistemes and the governed **ConstituentOf**, **UsageOf**, **ReferenceTo**, **evidences**, **derivesFrom**, and collection-specific belongs-to relations that obtain among them, together with the mappings used by the fold. The graph represents those objects and relations; it does not make them obtain.
-* **Result.** One synthesized episteme whose claim content, exact EntityOfConcern, and effective reference scheme satisfy C.2.1. Its ClaimGraph integrates the retained content; provenance and SCR keep contributing sources and carriers traceable. State its formal basis, scope, and supported conclusion with limitations. Calculate an aggregate R only where B.3 and C.2.2 establish the input meanings, scales, and dependency model. Otherwise keep support separate and return a bounded reasoned synthesis. Neither a higher formality level nor an axiomatic mode requires an invented numerical score or an irrelevant empirical study.
+* **Domain.** `D_know` designates exact source epistemes and the relations used in their composition: governed **ConstituentOf**, **UsageOf** and **ReferenceTo** relations; support and derivation relations under their direct predicates; and collection belonging under each collection's own rule. It also identifies the mappings used by the fold. Those relations must independently obtain; graph labels do not establish them.
+* **Result.** One synthesized episteme whose claim content, exact EntityOfConcern, and effective reference scheme satisfy C.2.1. Its ClaimGraph integrates the retained content. Keep material source contributions recoverable, adding the SCR when the receiving use requires reconstruction of the particular aggregation. State its formal basis, scope, and supported conclusion with limitations. Calculate an aggregate R only where B.3 and C.2.2 establish the input meanings, scales, and dependency model. Otherwise keep support separate and return a bounded reasoned synthesis. Neither a higher formality level nor an axiomatic mode requires an invented numerical score or an irrelevant empirical study.
 
 **Compilation (target-scheme fold).** Map one synthesized episteme into one exact target reference scheme. Recover the operative target rules through C.2.1:4.1.1 and fix them as `S` for this compilation operation. A journal's name or the document describing its rules does not by itself identify those rules. Compare S with the source scheme by its interpreted rules, their domains and dependencies under C.2.1:4.1.1. A different spelling or encoding can express the same rules. A changed semantic rule or domain identifies a different target scheme even when a selected answer agrees; this compilation then identifies the result with that target S.
 
@@ -41723,7 +41721,7 @@ When one particular operation application matters, use A.6.1 for that applicatio
 
 `S` is fixed in the operation's declaration. The declaration states how input claims are mapped into `S` and the conditions for admitting the result. The partial arrow means that an identified input episteme alone does not establish an admissible compilation: the mapping, preservation, and reliance conditions in :4.5 must hold. An unresolved interpretation or required mapping leaves the affected compilation unresolved.
 
-* **Domain.** One synthesized episteme whose retained claims can be interpreted in `S` under the declared mapping. For every meaning that crosses semantic contexts, the fold also relies on exact source and receiving `SchemeSenseCell` values, an obtaining F.9 Bridge, and a separately stated bounded-use claim; any relied-on use must pass A.10 or B.3.
+* **Domain.** One synthesized episteme whose retained claims can be interpreted in `S` under the declared mapping. For every meaning that crosses semantic contexts, the fold also relies on exact source and receiving `SchemeSenseCell` values, an obtaining F.9 Bridge, and a separately stated bounded-use claim. Reliance on that claim requires the ordinary A.10 evidence-provenance path and same-use `RelianceDisposition` under F.9:4.2: `pass` supports the named use; `degrade` supports only its named narrower use. An actual named assurance claim additionally requires a B.3 result supporting that same bounded assurance use.
 * **Result.** One compiled episteme with explicit mapping and loss information and a C.2.1 identity determined by its claim content, exact EntityOfConcern, and effective target scheme `S`. The result is not thereby a publication, release, carrier, or accepted artifact.
 
 **When the target must be replaceable.** A receiving use that selects or substitutes a target scheme within one operation needs an independently governed range for that argument. Use C.3 to identify the candidate rules, their identity criterion, and the membership condition required by that use; then declare the argument and its binding conditions under A.6.1. Range membership does not establish that the chosen scheme can express this input's claims or that a proposed mapping preserves the required meaning. Those application conditions still need :4.5. E.24.UK:4.2c supplies no admitted general `U.ReferenceScheme` range. Fixing one `S` permits the compilation above without claiming that general range; changing the fixed rules requires reconsidering the declaration, mappings, and affected results.
@@ -41733,7 +41731,7 @@ If the knowledge fold explicitly depends on **argument order** (for example, a d
 
 #### B.1.3:4.3 - Invariant Standard (how the Quintet applies)
 
-* **IDEM (singleton identity and source-repetition discipline).** Folding a single episteme without a change of claim or scheme returns itself. Repeating the same source or data creates no additional evidence or accidental assurance upgrade.
+* **IDEM (singleton identity and source-repetition discipline).** Folding a single episteme while preserving its complete claim content, exact EntityOfConcern and effective ReferenceScheme returns that same episteme. Repeating the same source or data creates no additional evidence or accidental assurance upgrade.
 * **COMM/LOC (Local commutativity / locality).** Reordering genuinely independent contributions does not change a result under its declared model. A derivation or other order-dependent argument uses **Γ_ctx**; source order does not establish statistical independence.
 * **WLNK (Weakest-link bound).** An unsupported indispensable premise limits the conclusion that needs it. A numerical minimum is appropriate only when the named quantity and dependency model justify a bottleneck or lower-bound interpretation. WLNK does not impose minimum over every cited source or every argument.
 * **MONO (Monotonicity).** A monotonicity claim names the support change and the model under which it holds. Duplicate data, a contrary result, a changed target population, or the failure of a necessary assumption is not simply “more support”.
@@ -41750,12 +41748,12 @@ When computing **Γ_epist^synth(D_know)**:
    The **provenance/evidence graph** is **unioned with de‑duplication**; every claim in the aggregate remains traceable to its sources and methods. No source, method, or dataset that supports a retained claim may be dropped.
 
 **2. SCR construction.**
-   Build the source and carrier record as you develop the aggregate. List all materially participating sources and the concrete carriers through which their relevant content was obtained. Record each source's contribution and the versions, methods and carrier information needed to reconstruct the aggregation. Provenance nodes must be mappable to SCR entries.
+   Keep a recoverable account of every material source contribution, method, mapping and dependency. Include concrete carriers and source versions where their identity, currentness, integrity or actual participation matters to the named use. When that use requires reconstruction of the particular aggregation, retain the SCR and the information needed for that reconstruction.
 
    Use the developing record to expose a missing source, shared data or an unsupported inference. Keep contrary contributions visible under rule 4. Pass the recoverable account with the aggregate or through resolvable references. When a source changes, reconsider the retained claims that actually depended on it.
 
 **3. Object alignment.**
-   Identify the result's one exact **EntityOfConcern**. Reuse the same already identified entity when the inputs concern it. A governed least common ancestor in a domain taxonomy may support that identification, but the calculation does not create the entity. If the claim requires a collection, relation occurrence, or other joint subject, identify that entity under its direct pattern and show that its identity rule obtains. A list, dependency graph, shared label, or mapping cannot create a joint subject; if none is governed, stop with the missing composition governor instead of inventing a generic composite entity. Record the semantic mappings and their **CL** evidence summaries without silently merging homonyms.
+   Identify the result's one exact **EntityOfConcern**. Reuse the same already identified entity when the inputs concern it. A governed least common ancestor in a domain taxonomy may support that identification, but the calculation does not create the entity. If the claim requires a collection, relation occurrence, or other joint subject, identify that entity under its direct pattern and show that its identity rule obtains. A list, dependency graph, shared label, or mapping cannot create a joint subject; if none is governed, stop with the missing composition governor instead of inventing a generic composite entity. Record the semantic mappings, their actual limitations, and any **CL** summary required by the receiving rule, without silently merging homonyms.
 
 **4. Recover the support relation before combining.**
    For the exact claim and scope, distinguish:
@@ -41771,17 +41769,17 @@ When computing **Γ_epist^synth(D_know)**:
 **5. Compose under the receiving model, or synthesize without a score.**
    Assess F under C.2.3 from the expression properties of essential constituents and their connecting inferences. A minimum applies only under a justified composition rule on a shared local ordered scale; it concerns that expression assessment, not R. Form G through the applicable C.2.2/A.2.6 scope rules; adding a study does not by itself extend applicability. For R, name the target quantity, compatible scales, dependencies, and warranted operation under B.3/C.2.2. This can justify a bottleneck minimum, a sufficient-argument choice, a probabilistic calculation, or a statistical synthesis; none is the universal default.
 
-   For a relied-on mapping, retain its CL summary and the actual limitation. A numerical loss function needs a receiving model that establishes its meaning, units, calibration or derivation, and assumptions. An ordinal CL rank, a monotone penalty table, or clipping to [0,1] supplies none of these. If no such calculation is justified, retain the separate support and mapping limitations in a reasoned synthesis; no penalty table or new study is required merely to return that result. A receiving assurance threshold applies only to the quantity and use for which it was justified.
+   For a relied-on mapping, retain its actual use limitations and any CL summary consumed by the receiving rule. A numerical loss function needs a receiving model that establishes its meaning, units, calibration or derivation, and assumptions. An ordinal CL rank, a monotone penalty table, or clipping to [0,1] supplies none of these. If no such calculation is justified, retain the separate support and mapping limitations in a reasoned synthesis; no penalty table or new study is required merely to return that result. A receiving assurance threshold applies only to the quantity and use for which it was justified.
 
 **6. Conflict detection and disposition.**
    Detect contradictions, including overlapping-scope `p` and `¬p`. Resolve a scope or interpretation difference only when the source facts establish it; do not explain away a credible contrary result by an invented subgroup story. Otherwise narrow, qualify, or withhold the affected conclusion and retain explicit conflict edges. A numerical synthesis may represent disagreement only under its justified model, not conceal it. Open B.2 only if exact construction facts leave a separate whole-reidentification question after the existing-whole explanation check.
 
 **7. Handling axiomatic and world-facing support.**
-   Retain each episteme's declared mode and actual support:
+   Retain each episteme's actual support and any mode declaration needed by the receiving use:
 
 * For an **axiomatic** input, empirical R may be N/A. Keep the proof, its conclusion under the stated axioms, and its formal validity; `line=formal` is a useful tag, not a conversion rule. **Do not set R to F.** A local ordinal formality summary describes only its declared ordinal meaning. Any value proposed for an R calculation needs a receiving model establishing meaning, scale, conversion, and assumptions; rescaling a formality rank into [0,1] is insufficient.
 * For a **postulative** input, retain its actual warrant and empirical or other support as applicable. Apply a B.3.4 currentness or decay policy only to the support whose use consumes that policy; changing the mode creates neither evidence nor a conversion model.
-* The aggregate declares its mode. If all its operative inputs are axiomatic, it is axiomatic; if an operative input is postulative, it is postulative. Keep any formal subclaim separately usable. A proof about a model supports a claim about a real system only with the needed model-to-world assumptions; evidence violating those assumptions remains visible.
+* When the receiving use requires a mode classification, apply its rule to the support operative in the claimed conclusion. Under the axiomatic/postulative distinction, if all operative inputs are axiomatic, the conclusion is axiomatic; an operative postulative input makes that conclusion postulative. Keep any formal subclaim separately usable. A proof about a model supports a claim about a real system only with the needed model-to-world assumptions; evidence violating those assumptions remains visible.
 * **Constructive derivations.** State the chosen proof basis and the correspondence needed by the conclusion. An induction proof may use its stated non-UF foundation. A UF-based equivalence claim supplies the required equivalence or isomorphism witness and the structure that the receiving theorem needs preserved. A lossy mapping cannot transport a theorem that depends on an erased distinction. If the required proof basis or correspondence is unavailable, leave that inference unresolved while retaining independently supported conclusions. A CL summary describes mapping evidence; it establishes neither equivalence nor theorem transport.
 
 **8. Order-aware arguments (optional).**
@@ -41789,22 +41787,22 @@ When computing **Γ_epist^synth(D_know)**:
 
 
 **9. Account for resource use separately.**
-   Aggregate resources spent on computation or collection under **Γ\_work**. Reference that account without including resource costs in the epistemic aggregation.
+   When the receiving question requires a resource account for computation or collection, use B.1.6/**Γ\_work** and reference that account separately from the epistemic support.
 
 #### B.1.3:4.5 - Core rules for target-scheme compilation
 
 When computing **Γ_epist^{compile,S}(E_synth)**, retain the fixed rules `S` and the mapping used for this input:
 
 **1. Reference-scheme bindings.**
-   Map every operative concept, unit, and claim into **S** and record the exact mapping and its **CL** evidence summary. For a meaning that crosses semantic contexts, name the source and receiving `SchemeSenseCell` values, the obtaining F.9 Bridge, the proposed use, direction, use-specific rule, and permitted loss; establish reliance separately. C.2.1 identifies the compiled episteme from its resulting claims, exact EntityOfConcern, and target scheme. A changed identity discriminator identifies another episteme; it does not by itself open a whole-reidentification question.
+   Map every operative concept, unit, and claim into **S** and record the exact mapping, its actual limitations and any **CL** summary required by the receiving rule. For a meaning that crosses semantic contexts, name the source and receiving `SchemeSenseCell` values, the obtaining F.9 Bridge, the proposed use, direction, use-specific rule, and permitted loss; establish reliance separately. C.2.1 identifies the compiled episteme from its resulting claims, exact EntityOfConcern, and target scheme. A changed identity discriminator identifies another episteme; it does not by itself open a whole-reidentification question.
 
 **2. Re-express the assurance basis.**
    Re-express F, G, and the support account in **S**. Preserve the formal conclusion and empirical limitations separately. Recalculate R or a mapping loss only if the target use has the required meanings, scales, and model under B.3/C.2.2; a change of vocabulary or increased formality is not additional warrant. Without a justified aggregate, carry the separate support and bounded synthesis. A quantitative or formal result needs grounds for its claimed calculations or derivations; its mode alone requires no additional numerical tuple.
 
 **3. Compilation trace.**
-   Produce the compiled episteme's SCR and the carrier hashes needed to reconstruct this application. Require independent re-hash verification when the receiving claim needs independent carrier-integrity evidence under B.3 or an applicable B.3.3 assurance profile. A level label alone does not select that check. The trace establishes neither publication nor release.
+   Carry the recoverable source-contribution account with the compiled episteme or through resolvable references. Add carrier hashes or other reconstruction details when the receiving claim requires carrier integrity or replay of the particular compilation. Require independent re-hash verification when the receiving claim needs independent carrier-integrity evidence under B.3 or an applicable B.3.3 assurance profile. A level label alone does not select that check. The trace establishes neither publication nor release.
 **4. Order/time hooks.**
-   If the compiled episteme includes an internal derivation, carry the **OrderSpec**. If it selects knowledge for a time-bounded use, name the exact C.2.1 episteme identity and link to the already recovered proper temporal restriction, edition relation order, applicability window, or B.1.4/**Γ_time** aggregation actually used.
+   If the compiled conclusion depends on derivational order, carry the ordered relations, positions and **OrderSpec** required by that use. If it selects knowledge for a time-bounded use, name the exact C.2.1 episteme identity and link to the already recovered proper temporal restriction, edition relation order, applicability window, or B.1.4/**Γ_time** aggregation actually used.
 
 ### B.1.3:5 - Archetypal grounding (worked, didactic)
 
@@ -41813,7 +41811,7 @@ When computing **Γ_epist^{compile,S}(E_synth)**, retain the fixed rules `S` and
 This is a didactic evidence-composition case, not a clinical recommendation. The receiving question concerns a treatment's pain outcome for an identified acute low-back-pain population within six weeks. The exact population and outcome, not a label or taxonomy operation, identify the subject.
 
 * **Inputs:** `E₁` is a randomized trial, `E₂` an observational study, and `E₃` a mechanistic model. Retain their designs, findings, uncertainty, assumptions, and scope. A bare “R=0.84/0.55/0.60” list has no declared common quantity here and cannot support a numerical aggregate. Likewise, “medium/wide/narrow” is not a substitute for actual ClaimScope.
-* **Synthesis:** record the protocols, datasets and analysis scripts used, together with the concrete carriers from which they were obtained, in the SCR. Establish any dosage or outcome mapping from its actual measurement basis; units named mg and IU do not themselves establish a conversion. Keep chronic cohorts and different outcomes separate unless a warranted transport relation supports the receiving claim.
+* **Synthesis:** record the source findings and the protocol, dataset or analysis details on which the synthesis relies. Include carrier information when the receiving use needs it. Establish any dosage or outcome mapping from its actual measurement basis; units named mg and IU do not themselves establish a conversion. Keep chronic cohorts and different outcomes separate unless a warranted transport relation supports the receiving claim.
 * **Necessary-premise case:** if the proposed inference requires an outcome mapping that is unsupported, withhold that mapped inference. Retain the trial's narrower source-scale conclusion rather than discard every source.
 * **Complementary case:** a limited `E₂` may help assess a confounding explanation left open by `E₁`; `E₃` may constrain a mechanism without establishing the clinical effect size. Explain those contributions and their limits. The minimum of three unexplained scores neither captures them nor defeats the existing trial conclusion.
 * **Dependence case:** if two reports reuse a cohort or share an outcome-measurement bias, do not count them as two independent confirmations. Different designs alone are insufficient to establish different biases.
@@ -41822,9 +41820,9 @@ This is a didactic evidence-composition case, not a clinical recommendation. The
 
 **Concrete completion of the case.** Use the following invented findings only to illustrate the synthesis. `P` is the trial's enrolled acute low-back-pain cohort; `S` is its identified high-baseline-severity subgroup. `E₁` reports lower pain at six weeks with intervention X than with its comparator, both in P and in S. `E₂` reports no such benefit in a separately observed cohort matching S; the sources have not resolved whether confounding or another difference explains the disagreement. `E₃` supplies a mechanism compatible with benefit but no clinical effect estimate. No common quantitative support model is available.
 
-The resulting guidance statement is: “The trial supports lower recorded pain at six weeks for X versus its comparator in P. The finding for S conflicts with the observational result and remains unresolved. The mechanism explains how benefit could occur but does not resolve that conflict or establish its magnitude. These sources support neither extrapolation beyond P and six weeks nor a combined reliability score.” The SCR retains all three contributions. A supported explanation of the disagreement or a corrected source result reopens the affected claim. A request for another population opens a separate question and synthesis. Identify the new claim, its subject and scope (C.2.1; A.2.6), and establish the evidence or warranted transport needed for that use. The request alone leaves the result for P unchanged. This is a completed bounded synthesis of the fictional findings, not advice to use X.
+The resulting guidance statement is: “The trial supports lower recorded pain at six weeks for X versus its comparator in P. The finding for S conflicts with the observational result and remains unresolved. The mechanism explains how benefit could occur but does not resolve that conflict or establish its magnitude. These sources support neither extrapolation beyond P and six weeks nor a combined reliability score.” The source-contribution account retains all three contributions. A supported explanation of the disagreement or a corrected source result reopens the affected claim. A request for another population opens a separate question and synthesis. Identify the new claim, its subject and scope (C.2.1; A.2.6), and establish the evidence or warranted transport needed for that use. The request alone leaves the result for P unchanged. This is a completed bounded synthesis of the fictional findings, not advice to use X.
 
-For **Γ_epist^compile**, map the retained claims into the journal's scheme, carry the same limitations and any justified recalculation, and produce the compilation SCR and required hashes. C.2.1 identifies the target-scheme episteme “Guidance Statement v1.0”; later journal publication remains a separate occurrence.
+For **Γ_epist^compile**, map the retained claims into the journal's scheme, carry the same limitations and any justified recalculation, and preserve the source-contribution account with any SCR or carrier-integrity details required by the receiving use. C.2.1 identifies the target-scheme episteme “Guidance Statement v1.0”; later journal publication remains a separate occurrence.
 
 #### B.1.3:5.2 - Episteme — **Controller proof and a real protective function**
 
@@ -41852,19 +41850,19 @@ To make the target choice explicit, fix `S_cert` with two interpretation rules: 
 
 **At synthesis (Γ\_epist^synth):**
 
-1. **PO‑SYN‑PROV.** The **provenance/evidence graph** MUST be preserved (union with de‑duplication); every retained claim is traceable to sources/methods in the **SCR**.
-2. **PO-SYN-OBJ.** The result **MUST** name one exact EntityOfConcern already identified under its direct pattern. If the synthesis depends on several inputs as a joint subject, its collection, relation, or whole identity **MUST** be independently governed; a list, graph, label, or mapping is insufficient. Every semantic mapping used by the fold **MUST** be declared with its **CL** evidence summary.
-3. **PO-SYN-CL.** Every mapping used in the support account **MUST** retain its CL evidence summary and actual use limitation. A numerical loss **MUST** have a receiving model establishing its meaning, scale, derivation or calibration, and assumptions; ordinal ranks and monotonicity alone are insufficient. The summary neither establishes an F.9 Bridge nor grants use.
+1. **PO‑SYN‑PROV.** The **provenance/evidence graph** MUST be preserved (union with de‑duplication); every retained claim remains traceable to its material sources and methods. An SCR MUST be retained when required to reconstruct the particular aggregation for its named use.
+2. **PO-SYN-OBJ.** The result **MUST** name one exact EntityOfConcern already identified under its direct pattern. If the synthesis depends on several inputs as a joint subject, its collection, relation, or whole identity **MUST** be independently governed; a list, graph, label, or mapping is insufficient. Every semantic mapping used by the fold **MUST** be declared with its actual limitations and any **CL** summary required by the receiving rule.
+3. **PO-SYN-CL.** Every mapping used in the support account **MUST** retain its actual use limitations and any CL summary consumed by the receiving rule. A numerical loss **MUST** have a receiving model establishing its meaning, scale, derivation or calibration, and assumptions; ordinal ranks and monotonicity alone are insufficient. The summary neither establishes an F.9 Bridge nor grants use.
 4. **PO‑SYN‑R.** The result **MUST** distinguish indispensable premises, sufficient alternatives, complementary support, scope slices, and counterevidence where present. An aggregate R **MUST** have warranted input meanings, scales, dependencies, and an operation under B.3/C.2.2. Otherwise retain separate support and a reasoned bounded synthesis. Neither F nor a mode tag supplies an R conversion.
 5. **PO-SYN-CONFLICT.** The result **MUST** retain credible contrary evidence and distinguish an established scope or interpretation difference from an unresolved conflict. Narrow, qualify, or withhold the affected conclusion accordingly. B.2 applies only to a separately grounded whole-reidentification question.
 6. **PO-SYN-ORDER.** If the conclusion depends on order, the ordered relations, positions and **OrderSpec** MUST be recorded. The aggregation MUST satisfy B.1.4:4 for its declared use, including applicable branch, join and independence conditions; determinacy is relative to those conditions.
-7. **PO‑SYN‑NOWORK.** Resource spending, yields, and dissipation MUST NOT be computed here; instead, attach references to the aligned **Γ\_work** composition.
+7. **PO‑SYN‑NOWORK.** When a resource account is required, use B.1.6 and reference its result separately; resource expenditure does not itself establish epistemic support.
 
 **At compilation (Γ\_epist^compile):**
 
-1. **PO-COMP-SCHEME.** The operative target rules **MUST** be identified and fixed in the compilation declaration. If the receiving operation instead accepts a replaceable scheme argument, its independently governed range and binding conditions **MUST** be declared and satisfied for that use. Every active concept and unit **MUST** have an explicit mapping; a cross-context meaning use **MUST** name the exact F.9 Bridge, separate bounded-use claim, permitted loss, and any relied-on A.10 or B.3 result.
+1. **PO-COMP-SCHEME.** The operative target rules **MUST** be identified and fixed in the compilation declaration. If the receiving operation instead accepts a replaceable scheme argument, its independently governed range and binding conditions **MUST** be declared and satisfied for that use. Every active concept and unit **MUST** have an explicit mapping; a cross-context meaning use **MUST** name the exact F.9 Bridge, separate bounded-use claim, permitted loss, and the ordinary A.10 path and same-use `RelianceDisposition` required by F.9:4.2. An actual named assurance claim additionally requires its B.3 result for that same bounded assurance use.
 2. **PO-COMP-ASSUR.** The formal basis, scope, and support account **MUST** be re-expressed in the target scheme without losing their limitations. Any recalculated R or loss **MUST** satisfy the receiving model; otherwise preserve the separate support and bounded conclusion.
-3. **PO-COMP-SCR.** The compiled episteme **MUST** retain an SCR with the hashes, versions, and dates required to reconstruct the application. This obligation does not assert release or publication.
+3. **PO-COMP-SCR.** The compiled episteme **MUST** keep its material source contributions recoverable. Retain the SCR and the particular hashes, versions or dates required by a named reconstruction, currentness or carrier-integrity use. This obligation does not assert release or publication.
 4. **PO-COMP-ID.** The output **MUST** be identified through its C.2.1 claim content, exact EntityOfConcern, and effective target scheme. A changed discriminator identifies another episteme. B.2 is opened only for an independently current existing-whole versus candidate-new-whole question, never as a substitute for this identity rule.
 5. **PO‑COMP‑ORDER/TIME.** If derivational order is essential, the **OrderSpec** MUST be referenced. If temporal selection is essential, name the exact C.2.1 episteme identity and reference the already recovered proper restriction, edition-relation order, applicability window, and B.1.4/**Γ\_time** aggregation actually consumed.
 
@@ -41873,11 +41871,11 @@ To make the target choice explicit, fix `S_cert` with two interpretation rules: 
 | ID            | Requirement                                                                                                                                                         | Purpose                        |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
 | **CC‑B1.3.1** | Every knowledge constituent supplied to Γ\_epist MUST be a `U.Episteme` holon; **ComponentOf** is forbidden; use **ConstituentOf**, **UsageOf**, or **ReferenceTo** for their different claims; use a collection's own belongs-to predicate only for collections. | Prevent category errors. |
-| **CC‑B1.3.2** | Provenance and **SCR** MUST be preserved in the aggregate; dropping sources or methods is non‑conformant.                                                      | Enforce Evidence Graph Referring.    |
+| **CC‑B1.3.2** | Material sources, methods and their contributions MUST remain recoverable with the aggregate; preserve any SCR details required by the receiving use. | Preserve source contributions and required reconstruction grounds. |
 | **CC‑B1.3.3** | Any aggregate R MUST follow the justified input meanings, scales, support dependencies, and receiving model. No default min, max, or F-to-R conversion is supplied; absent a common model, retain a bounded synthesis and separate support. | Prevent unsupported assurance and preserve useful non-aggregate results. |
 | **CC-B1.3.4** | Contrary evidence MUST remain visible. An established scope or interpretation difference may separate claims; an unresolved conflict must qualify, narrow, or defeat the affected conclusion. Use B.2 only for a separately grounded whole-reidentification question. | Keep the practical effect of disagreement visible. |
-| **CC‑B1.3.5** | Every `U.Episteme` serving as an input to `Γ_epist` **MUST** declare its `mode` (`axiomatic` or `postulative`). An aggregate holon's mode **MUST** be `postulative` if any of its constituents is `postulative`. | Prevent category errors in reliability calculation. |
-| **CC-B1.3.6** | A cross-context meaning use names explicit mappings, exact source and receiving F.17 cells, an obtaining F.9 Bridge, a separate bounded-use claim and permitted loss, and any reliance result the fold consumes. **CL** alone never grants the use. | Make semantic crossing inspectable. |
+| **CC‑B1.3.5** | Any mode declaration consumed by the receiving use **MUST** follow that use's rule and the support operative in the claimed conclusion. Under the axiomatic/postulative distinction, an operative postulative input makes that conclusion postulative; separately supported formal subclaims remain usable. | Preserve the relevant warrant distinction without substituting a tag for support. |
+| **CC-B1.3.6** | A cross-context meaning use names explicit mappings, exact source and receiving F.17 cells, an obtaining F.9 Bridge, a separate bounded-use claim and permitted loss, and the ordinary A.10 evidence-provenance path and same-use `RelianceDisposition` required by F.9:4.2. An actual named assurance claim additionally requires its B.3 result for that same bounded assurance use. **CL** alone never grants the use. | Make semantic crossing inspectable. |
 | **CC-B1.3.7** | An order-dependent conclusion MUST meet PO-SYN-ORDER and B.1.4:4. If an episteme history matters, exact C.2.1 endpoint identities and any obtaining `EpistemeEditionRelation` MUST be named; any proper restriction or B.1.4/**Γ_time** aggregation MUST cite only already recovered temporal relations. | Preserve order, identity, continuity, and temporal integrity. |
 | **CC-B1.3.8** | Keep design-time synthesis, target-scheme compilation, one actual operation application and its returned value, dated Work, performer and any relied-on assignment, production or first existence, publication, carrier, release, and acceptance separately governed. | Preserve semantic and practical boundaries. |
 
@@ -41887,10 +41885,10 @@ To make the target choice explicit, fix `S_cert` with two interpretation rules: 
 | ------------------------ | ------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | **Unsupported folding** | Incomparable scores are averaged, minimized, maximized, or converted from F | Identify support roles, scales, dependencies, and the receiving model. If none warrants aggregation, retain separate support and a bounded synthesis; do not hide counterevidence. |
 | **Provenance amnesia** | Sources, methods or SCR links disappear | Restore the provenance and reconsider affected reliance. Repeat the affected synthesis when its claims, mappings or support calculation depended on what was lost. |
-| **Homonym merge** | Different concepts with the same name are silently merged | Declare the exact mapping. For cross-context meanings, identify and test the F.9 Bridge, state the bounded use and permitted loss, and keep low-CL or unresolved uses separate or **provisional**. |
-| **Silent semantic crossing** | Local senses or schemes are mixed without a tested correspondence and use boundary | Declare the exact mappings; for cross-context meanings identify the F.9 Bridge, separate bounded-use claim, permitted loss, and any relied-on A.10 or B.3 result. |
+| **Homonym merge** | Different concepts with the same name are silently merged | Declare the exact mapping. For cross-context meanings, identify and test the F.9 Bridge, state the bounded use and permitted loss. Decide the proposed use under its applicable correspondence and reliance rules; leave it unresolved when required grounds are unresolved. |
+| **Silent semantic crossing** | Local senses or schemes are mixed without a tested correspondence and use boundary | Declare the exact mappings; for cross-context meanings identify the F.9 Bridge, separate bounded-use claim, permitted loss, and the ordinary A.10 path and same-use `RelianceDisposition`. Retain the additional B.3 result when an actual named assurance claim is current. |
 | **Version soup** | Labels or time slices mix unchanged epistemes, distinct epistemes, edition continuity, publication, and Work history | Apply the C.2.1 identity triple first; test `EpistemeEditionRelation` separately; use A.14 only for a proper restriction of one unchanged episteme and A.15.1 for Work. Then aggregate only the exact recovered temporal relations the current use needs. |
-| **Work stuffing**        | Compute/curation cost blended into reliability    | Move costs to **Γ\_work**; keep R based on evidence, not spend.                            |
+| **Work stuffing** | Compute/curation cost blended into reliability | Remove the unsupported inference from resource expenditure to warrant. Use B.1.6/**Γ\_work** only when a separate resource-aggregation claim is current. |
 | **Orderless proof**      | Derivation steps treated as a set                 | Add **OrderSpec**; compose with Γ\_ctx inside Γ\_epist.                                    |
 | **Synergy by narrative** | A new theory or whole is claimed from explanatory gain alone | First identify the synthesized episteme through C.2.1. Open B.2 only if exact construction and identity facts leave an existing-whole versus candidate-new-whole question. |
 
@@ -41905,7 +41903,7 @@ To make the target choice explicit, fix `S_cert` with two interpretation rules: 
 
 **Trade‑offs**
 
-* **Mapping overhead.** Declaring mappings and **CL** costs time and makes interpretation differences inspectable.
+* **Mapping overhead.** Establishing correspondences and their actual limitations costs time and makes interpretation differences inspectable.
 * **No forced single score.** Heterogeneous support may remain separate. This makes some comparisons less compact but avoids fictitious assurance and preserves a useful bounded conclusion. B.2 remains specific to a genuinely unresolved whole-reidentification question.
 
 ### B.1.3:10 - Rationale (informative)
@@ -41919,7 +41917,7 @@ To make the target choice explicit, fix `S_cert` with two interpretation rules: 
 
 * **Builds on:** C.2.1 (episteme identity and independently obtaining edition relations), A.6.1 (semantic operation declarations and exact application bindings), A.14 (ConstituentOf, collection belonging under each collection's own rule, and proper temporal restriction of one unchanged carrier), A.7 (Strict Distinction), and A.15/A.15.1 (Method/Work alignment and Work-temporal law). A.12 is used only when an acting-side distinction is current. An ordinary actor sentence needs no classification apparatus. Any particular dated synthesis or compilation `U.Work` first reuses each performer's A.13 core and is independently admitted under A.15.1; F.6 follows only when the receiving claim also needs precise assignment-bound attribution. A short local projection may omit an assignment identifier unused by the receiver only when every consumed relation remains recoverable.
 * **Coordinates with:** B.1.1 dependency-structure and relation-grounding checks, B.1.4 (Γ\_ctx/Γ\_time inside knowledge folds), B.1.6 (Γ\_work for compute/collection spend).
-* **Coordinates with:** F.9 for exact cross-context Bridges and bounded-use claims; A.10 or B.3 for reliance; A.15.PROD when production, first existence, or completion is current; and E.17/E.24.PUB for publication, form, and carrier. B.2 is used only when exact construction facts leave a separate whole-reidentification question after the existing-whole explanation check.
+* **Coordinates with:** F.9 for exact cross-context Bridges and bounded-use claims; A.10 for ordinary reliance accounts and the same-use `RelianceDisposition` required for relied-on Bridge use; B.3 additionally when an actual named assurance claim is current; A.15.PROD when production, first existence, or completion is current; and E.17/E.24.PUB for publication, form, and carrier. B.2 is used only when exact construction facts leave a separate whole-reidentification question after the existing-whole explanation check.
 * **Used by:** B.3 assurance uses the aggregate's exact formal basis, scope, and support account, including any justified R calculation and mapping limitations; C.11 and C.19.2 govern a separately selected inquiry or action decision.
 
 > **One‑sentence takeaway.**
@@ -41939,13 +41937,13 @@ To make the target choice explicit, fix `S_cert` with two interpretation rules: 
 
 **What goes wrong if missed.** A reader may mistake an ordering for parthood, a planned sequence for performed work, a phase for a new whole, or temporal coverage for evidence currentness.
 
-**What this buys.** The practitioner can aggregate order-sensitive and temporal material while keeping method, work, transformation, work-resource, temporal-adequacy, and MHT claims with the patterns that define or test them.
+**What this buys.** The practitioner can specify or compute the order-sensitive or temporal aggregate needed by a receiving use, with its actual combining rule and limits. Method, Work, transformation, work-resource, temporal-adequacy and MHT claims retain the patterns that define or test them.
 
 ### B.1.4:1 - Problem Frame
 
 Many useful aggregates are not simple unordered wholes. A manufacturing sequence changes meaning when steps are swapped. An argument chain depends on which premise is used before which lemma. A turbine or another enduring individual with a stated identity rule may be considered across proper temporal restrictions. An unchanged paper or dataset episteme may also be restricted to a proper interval only while its complete C.2.1 identity triple remains fixed; changed claim content, EntityOfConcern, or effective ReferenceScheme identifies another episteme, with edition continuity tested separately. In these cases the aggregation concerns order or temporal coverage over already recovered relations.
 
-`B.1.4` defines the aggregation claim. It asks which EntityOfConcern is being aggregated, which positions or phases are included, which scope and time window qualify the claim, which ordered or phase relation is being used, what the aggregate may be used for, and which neighboring pattern carries any stronger claim.
+`B.1.4` asks what result the receiving use needs, which exact inputs and independently established relations it uses, and which operation combines them. Order, temporal reference, window, coverage and overlap qualify that operation when they affect its result. A stronger claim keeps its own subject grounds.
 
 ### B.1.4:1.1 - Problem
 
@@ -41965,21 +41963,33 @@ The resulting aggregate is unusable for the proposed claim: the user cannot tell
 
 ### B.1.4:2 - Solution
 
-Recover a `ContextTemporalAggregation@Context` before using the aggregate:
+Start with the receiving question and the result it needs. An already adequate aggregation rule and ordinary explanation can be used directly.
+
+1. **Recover the inputs and relations.** Identify the included positions, values, intervals or phases and the objects they concern. Keep their identity and relations grounded in the subject facts and applicable rules. For a temporal input, recover its bearer, temporal reference and exact interval; relate different references only through a justified conversion.
+2. **Choose the combining rule and result.** State the operation and what it returns: for example, an ordered relation structure, a combined value, the union of covered intervals or their elapsed span. Supply the order, join, independence, coverage and overlap conditions that this operation actually uses. If the rule needed by the question is missing, retain that gap rather than naming an unsupported aggregate.
+3. **Obtain the requested result.** A specification can be sufficient when the task asks how the aggregation is to be performed. When a computed result is needed, apply the selected operation and interpret its result under those conditions. Distinguish an order structure from the result of applying the operations it represents. Section :5 shows why the same inputs can support different warranted results.
+4. **Bound the use and stop.** State the supported use and any condition whose failure or uncertainty changes it. Narrow the result or leave the affected conclusion unresolved when its required basis is missing. Use another pattern when a distinct claim needs that pattern's contribution. Stop with the sufficient ordinary answer.
+
+When the receiving use needs an inspectable account, reuse an adequate account or materialize a `ContextTemporalAggregation@Context` record. It describes the independently established inputs, rule and result; it does not establish their subject facts:
 
 ```text
 ContextTemporalAggregation@Context:
   aggregationConcernRef
   aggregatedEntityOfConcernRef
+  aggregationMode: contextualOrder | temporalAggregation
+  combiningRuleOrOperator
+  resultOrResultSpecification
   includedPositionRefs?
+  includedIntervalRefs?
   includedPhaseRefs?
   claimScopeRef?: U.ClaimScope
-  aggregationMode: contextualOrder | temporalPhase
   orderedRelationRefs?
+  temporalRelationRefs?
   phaseRelationRefs?
   orderSpecRef?
+  temporalReference?
   timeWindowRef?
-  carrierIdentityRef?
+  carrierIdentityRefs?
   independenceOrJoinConditionRefs?
   coverageAndOverlapPolicyRefs?
   boundaryCrossingRelationRefs?
@@ -41989,32 +41999,32 @@ ContextTemporalAggregation@Context:
   relatedWorkResourceAggregationRefs?
   relatedTransformationRefs?
   relatedWholeReidentificationRefs?
-  evidenceOrSourceRefs
+  evidenceOrSourceRefs?
   admissibleUse
-  stopOrReturnCondition
+  stopOrReturnCondition?
   nonAdmissibleOverread?
-  strongerSourceReturnCondition
+  strongerSourceReturnCondition?
 ```
 
-`stopOrReturnCondition` states when to stop aggregating or apply another pattern; `strongerSourceReturnCondition` states the condition for a stronger claim. Include `nonAdmissibleOverread?` only when it passes F.19's plausible-reader test. `groundedNonAdmissibleOverread?` is an alias for that same optional value.
+The aggregation concern is the receiving question; the EntityOfConcern is the independently identified subject of the aggregation claim. Included inputs retain their own bearers and identities. Add each optional value when it changes that claim or its use. Facts and evidence needed to warrant the result remain necessary whether or not a reference field is written.
 
-Use the record to describe the aggregation claim and its independently established relations. Keeping that description distinct from the relations lets a reader inspect what has actually been established.
+`stopOrReturnCondition?` states an action-changing limit; `strongerSourceReturnCondition?` is used only for a distinct stronger claim that the receiving work needs. Include `nonAdmissibleOverread?` only when it passes F.19's plausible-reader test; `groundedNonAdmissibleOverread?` is an alias for that same optional value.
 
 #### B.1.4:2.1 - Two Aggregation Modes
 
 | Mode | Current object | Required relation discipline | Typical use |
 | --- | --- | --- | --- |
-| Contextual order aggregation | An exact set of relation positions whose order, partial order, or join structure changes meaning for the stated use. | Included positions, `OrderSpec`, ordered relation refs, join or independence conditions, and ClaimScope when needed. | Ordered method relation, order-bound argument chain, staged construction description, controlled sequence. |
-| Temporal phase aggregation | One enduring carrier considered through exact proper phases or time slices. | Carrier identity rule, included phases, `PhaseOf` or another direct phase relation, `TimeWindow`, declared coverage rule and overlap policy. For an unchanged episteme, the complete C.2.1 identity triple stays fixed. | Asset history, proper restriction of one unchanged episteme, experimental-carrier phases, dated evidence window. Distinct episteme editions first require C.2.1 identities and an independently obtaining edition relation. |
+| Contextual order aggregation | Exact positions and relation facts whose order, partial order or join structure matters to the stated use. | Included inputs, combining rule and required result, `OrderSpec`, ordered relation refs, join or independence conditions when used, and ClaimScope when needed. | Ordered method relation, order-bound argument chain, staged construction description, controlled sequence. |
+| Temporal aggregation | Exact interval or time-indexed facts about named bearers or occurrences. | Input identities and temporal relations, temporal reference or justified conversion, `TimeWindow`, combining rule, coverage and overlap policy. The proper-phase profile additionally requires one continuing carrier and the direct phase relation. | Work-interval union or elapsed span, asset phases, observation windows, or chronology over exact episteme identities. For proper phases of one episteme, its complete C.2.1 identity triple stays fixed; distinct editions require their own identities and any claimed edition relation. |
 
-If one source phrase mixes both modes, split the record. A Method may have an ordered relation structure; the Work that enacts it may have exact A.15.1 temporal parts, episodes, operational parts, or separate occurrences, while C.27.TA supplies any independently declared overlap or other interval relation the receiving use aggregates. Those are different claims, and generic `PhaseOf` does not replace the Work or temporal relations.
+When a use combines order and temporal claims, distinguish what each contributes and state the correspondence on which the joint result relies; one sufficient account may contain both. A Method may have an ordered relation structure. Work that enacts it may have exact A.15.1 temporal parts, episodes, operational parts or separate occurrences, while C.27.TA supplies any independently declared overlap or other interval relation. Aggregate those actual inputs under the chosen rule. Use `PhaseOf` only for the proper-phase profile of one enduring carrier, not as a substitute for Work or temporal relations.
 
 #### B.1.4:2.2 - Where Stronger Claims Go
 
 | Current claim | Pattern to use |
 | --- | --- |
 | Method as semantic way of doing | `A.3.1` |
-| Method description, SOP, algorithm text, simulator configuration, or formal expression | `A.3.2`, with publication owners when publication use is current |
+| Method-description membership or a description-use question | `A.3.2` defines membership and description boundaries. For SOPs, code or simulator configurations, use A.3.2 when the question is whether the identified episteme has an admitted Method as its exact EntityOfConcern and makes a substantive claim about it as a way of doing; representation form alone does not select the branch. Use the applicable subject or publication pattern for another claim. |
 | Work plan | `A.15.2` |
 | Dated work occurrence, performed episode, or evidence that work happened | `A.15.1` |
 | Work-resource roll-up, spent resource, cost, effort, energy, material, or comparable ledger | `B.1.6` |
@@ -42024,21 +42034,21 @@ If one source phrase mixes both modes, split the record. A Method may have an or
 | Bounded change under conditions | `A.3.4` |
 | Whole reidentification, emergence-family wording, MHT, MET, MFT, synergy, or metric-mirage wording | Use `B.2.P` when emergence-family wording hides the claim kind. If a whole-reidentification question remains, including one raised by an autonomy or capability change, use `B.2`; `B.2.2` and `B.2.3` handle System and Episteme result recognition, and `B.2.4` is the capability/functioning decision bridge. Use `B.2.5` separately for an exact two-sided supervisor-subholon feedback claim, whether or not whole reidentification is current. |
 | Architecture structural view or selected structure | `C.30.ASV`, `A.22`, or the pattern that defines or tests the architecture claim |
-| Mathematical order, graph, algebraic notation, graph path, or morphism used as expression | Use `C.29` when mathematical-lens adequacy, preserved structure, lost structure, payoff, or stop condition is being evaluated. Use `E.18` when the selected transformation-flow structure is current. Use `E.18.2` when the mathematical expression of that selected structure is current. |
+| Mathematical order, graph, algebraic notation, graph path or morphism used as expression | Use the applicable mathematical or subject rule directly when it supplies the result. Use `C.29` for a separate unresolved representation-choice, transfer or reliance question. Use `E.18` when its selected transformation-flow structure is the subject, and `E.18.2` for a mathematical description of that TFS or a selected TFS network. |
 
 ### B.1.4:3 - Optional Operator Notation
 
-`Gamma_ctx` and `Gamma_time` are optional notation for already recovered aggregation claims.
+`Gamma_ctx` and `Gamma_time` are optional notation for a selected aggregation operation and its result. A specification may state such an application without claiming that its result has already been computed.
 
 ```text
-Gamma_ctx(contextualAggregationRecord, orderSpec, independenceAndJoinConditions)
-  -> contextual aggregate record
+Gamma_ctx(selectedInputs, combiningRule, orderSpec, joinOrIndependenceConditions?)
+  -> contextual aggregation result
 
-Gamma_time(temporalAggregationRecord, timeWindow, coverageAndOverlapPolicy)
-  -> temporal aggregate record
+Gamma_time(selectedTemporalInputs, combiningRule, temporalReference, timeWindow, coverageAndOverlapPolicy)
+  -> temporal aggregation result
 ```
 
-The notation expresses how the selected relation set is combined for the current use. Establish the objects and relations independently before using it.
+The notation expresses the selected operation; it supplies no default combining rule. Temporal inputs retain the values and temporal facts consumed by that rule. An optional account can provide the argument values and describe the result. Establish the represented objects and relations under their direct patterns, and check the operation's conditions before relying on that result.
 
 Keep an ordinary statement about who prepared the aggregation ordinary. If the use asserts one exact dated sequencing, combining, measuring or auditing Work, recover the actual performer's A.13 core and admit the Work independently under A.15.1. Use A.3.4 for a separate transformation claim, B.1.6 for resource aggregation, and A.10 to recover provenance and bounded reliance on independently established results. Writing the record does not identify its writer as the transformer of the EntityOfConcern.
 
@@ -42049,38 +42059,42 @@ For contextual order aggregation:
 - the ordered relation refs are named by value;
 - the `OrderSpec` is declared as total order, partial order, or another named relation;
 - independence, branch, or join conditions are named when parallel factors are used;
-- the record names its included positions, ClaimScope when needed, and admissible use; any holon-boundary crossing is named by an exact relation;
+- the claim identifies its included inputs, combining rule, result or result specification, ClaimScope when needed, and admissible use; any holon-boundary crossing it uses has its exact relation basis;
 - method, method-description, work, transformation, and resource claims use the patterns that define or test them.
 
-For temporal phase aggregation:
+For temporal aggregation:
 
-- the carrier identity is recoverable;
-- the time window is declared;
-- the declared coverage and overlap policy holds; account for allowed overlaps and gaps without double counting, or narrow the use;
-- identity change is not hidden as another phase;
-- work-resource claims use `B.1.6`; temporal claims use `C.27`, currentness uses `G.11`, and `A.10` recovers provenance and bounded reliance when needed.
+- each input interval and its bearer or occurrence are identified; a proper-phase claim additionally preserves the one carrier's identity under its direct rule;
+- the temporal reference, any required conversion and the selected time window are established;
+- the selected combining rule and coverage/overlap policy hold; handle allowed overlaps and gaps as that rule requires, or narrow the use;
+- a changed identity is represented as a distinct input when appropriate, rather than hidden as another phase of the same carrier;
+- work-resource claims use `B.1.6`; positive temporal-aspect claims use `C.27.TA`, while a separate temporal-claim adequacy question uses `C.27`. Currentness uses `G.11`, and `A.10` recovers provenance and bounded reliance when needed.
 
-**B.1 invariant carry-through.** Apply a B.1 algebraic law only when the recovered relation and declared operator justify it. Contextual aggregation is deterministic relative to the declared `OrderSpec` and join or independence conditions. Temporal aggregation depends on carrier identity and the declared coverage and overlap policy. A repeated designation creates no additional phase or relation by itself; retain distinct occurrences and ordered positions when the claim distinguishes them. State any singleton or idempotence law for the actual operator. Weakest-link and monotonicity claims name the characteristic and model being bounded or improved; an aggregation record alone establishes no performance, safety or assurance result.
+**B.1 invariant carry-through.** Apply an algebraic law only when the recovered relation and selected operator justify it. A unique computed contextual result requires the operation, permitted order and actual join or independence conditions to determine that result. If admissible orders give different outcomes, retain the supported alternatives or establish the additional ordering or selection needed by the use. An order structure can itself be a sufficient aggregate without asserting a unique execution outcome. Temporal aggregation follows its selected rule, temporal reference, coverage and overlap policy; one-carrier continuity is additionally required by the proper-phase profile. A repeated designation creates no additional occurrence or relation by itself; retain distinct occurrences and ordered positions when the claim distinguishes them. State any singleton or idempotence law for the actual operator. Weakest-link and monotonicity claims name the characteristic and model being bounded or improved; an aggregation record alone establishes no performance, safety or assurance result.
 
 #### B.1.4:4.1 - Compact Obligation Rows
 
 | Obligation | What must be named | Why it matters |
 | --- | --- | --- |
-| Independence and joins | Branch relation refs, join relation refs, and the condition under which branches may be combined. | Prevents an ordered aggregate from silently treating dependent branches as independent evidence or work. |
+| Independence and joins | For branches used in the aggregate, name their relation refs, any join refs and the actual condition under which they may be combined. | Prevents an ordered aggregate from silently treating dependent branches as independent evidence or work. |
 | Order specification | Total order, partial order, precedence relation, or another named relation over the selected positions. | Keeps order-sensitive claims from being read as unordered collection claims. |
-| Decisive dependency relation | The relation that makes one position, delay, or missing step decisive for the aggregate use. | Allows weakest-link claims only when the decisive relation is visible. |
-| Carrier identity | The carrier being followed across phases and the condition under which it remains the same EntityOfConcern. | Prevents temporal aggregation from hiding identity change or MHT. |
-| Temporal coverage | Time window, phase refs, coverage rule, and non-overlap or overlap policy. | Prevents missing phases and double counting. |
-| Chronological discipline | The rule that separates chronological order, logical order, publication order, and performed-work order. | Keeps a document sequence, argument sequence, and work occurrence sequence from substituting for one another. |
-| Monotone characteristic | The exact characteristic that is preserved, bounded, or improved when the aggregate grows. | Blocks generic monotonicity claims over an unspecified aggregate. |
+| Decisive dependency relation | For a weakest-link claim, name the relation that makes one position, delay or missing step decisive for the aggregate use. | Keeps that claim dependent on its actual model and relation. |
+| Bearer identity and phase continuity | Identify each temporal input's bearer. For the proper-phase profile, state which carrier remains the same and under which identity rule. | Keeps separate occurrences distinguishable and prevents a phase account from hiding identity change. |
+| Temporal coverage | Temporal reference, time window, exact intervals or phase refs, combining rule and coverage/overlap policy. | Distinguishes covered time from elapsed span and exposes how gaps and overlaps affect the result. |
+| Chronological discipline | State whether the claim uses chronological, logical, publication or performed-work order, and the correspondence needed when more than one is used. | Keeps a document sequence, argument sequence and work occurrence sequence from substituting for one another. |
+| Monotone characteristic | For a monotonicity claim, name the exact characteristic, comparison and model under which adding inputs preserves or improves the result. | Blocks generic monotonicity claims over an unspecified aggregate. |
 
 ### B.1.4:5 - Archetypal Grounding (Worked Slices)
 
-**Manufacturing sequence.** A frame is prepared, welded, inspected, painted, and packed. `B.1.4` records the contextual order claim: selected steps, order specification, join conditions, and admissible use for planning or comparison. The actual shop-floor work occurrences use `A.15.1`; energy and material roll-ups use `B.1.6`; a changed frame state uses `A.3.4`.
+**Manufacturing sequence.** A frame is prepared, welded, inspected, painted and packed. For a planning or comparison question, specify the selected steps, actual precedence, any joins used and the required result. That order specification can be the sufficient B.1.4 result. Actual shop-floor Work occurrences use `A.15.1`; energy and material roll-ups use `B.1.6`; a changed frame state uses `A.3.4`.
 
-**Paper edition history.** When draft, reviewed, and camera-ready texts change claim content, EntityOfConcern, or effective ReferenceScheme, C.2.1 identifies distinct epistemes and tests each claimed `EpistemeEditionRelation` independently. `B.1.4` may record a bounded chronology over those already recovered identities, relations, applicability windows, or publication windows; it does not turn the editions into phases of one episteme. If one unchanged episteme is genuinely needed over a proper interval, A.14 `PhaseOf` may state only that restriction. Source-currentness and publication-use claims use `A.10`, `G.11`, and `E.17`; chronology establishes none of them.
+**Paper edition history.** When draft, reviewed and camera-ready texts change claim content, EntityOfConcern or effective ReferenceScheme, C.2.1 identifies distinct epistemes and tests each claimed `EpistemeEditionRelation` independently. B.1.4 can return a bounded chronology over those identities, obtaining relations and relevant applicability or publication windows. The editions retain their distinct identities. If one unchanged episteme is needed over a proper interval, A.14 `PhaseOf` states that restriction. Source-currentness and publication-use claims use `A.10`, `G.11` and `E.17` as applicable; chronology establishes none of them.
 
-**Cross-regime evidence window.** A dashboard aggregates observations from two operating regimes. `B.1.4` records the exact observation sets, their subject populations or carriers, the aggregation window, and the admissible use. If the regimes use different measurement bases, use `C.16` or `C.29` for comparability before relying on the aggregate.
+**Cross-regime evidence window.** A dashboard combines observations from two operating regimes. Identify the exact observation sets, their subject populations or carriers, temporal reference and aggregation window. Choose the operation and the claim it is meant to support. Under `C.16`, establish the measurement meanings, specification, scale and unit semantics, model/calibration conditions and population or time basis needed for direct comparability. Any cross-basis conversion or comparison retains its own operation rule and loss or uncertainty conditions. Use `C.29` when a separate mathematical correspondence or reliance question remains. If the required compatibility is unestablished, retain separate results or narrow the claim rather than pool them as one supported aggregate.
+
+**Order-dependent calculation.** In this constructed case, start with `x = 1` and combine `f(x) = x + 1` and `g(x) = 2x` by sequential application. Applying f then g gives `g(f(1)) = 4`; applying g then f gives `f(g(1)) = 3`. An OrderSpec permitting both orders does not establish one numerical answer or the independence needed to ignore order. If the use needs a unique answer, establish the required precedence or a justified operator property that makes all permitted orders equivalent. Otherwise retain the two supported outcomes. If the task needs only the partial-order specification, that specification already answers it.
+
+**Work-interval aggregate.** In this constructed case, independently admitted Work occurrences W1 and W2 occupy `[0,2)` and `[3,5)` hours under one declared clock reference, within window `[0,5)`. For covered time, take the union `[0,2) ∪ [3,5)`: its duration is 4 hours. For elapsed span from first start to last end, take the convex hull `[0,5)`: its duration is 5 hours, including the gap. These are different warranted answers to different questions, following the A.15.1:9.1 Work-interval profile. Union counts a shared instant once when intervals overlap. Its set-based policy and the hull policy are idempotent for duplicate input and independent of input order; another operator needs its own laws. The two occurrences keep their separate identities and require no invented common Work or `PhaseOf` relation.
 
 ### B.1.4:5.1 - Bias-Annotation
 
@@ -42095,12 +42109,12 @@ For temporal phase aggregation:
 
 | ID | Requirement | Purpose |
 | --- | --- | --- |
-| CC-B1.4-1 | The aggregate names the EntityOfConcern, included positions or phases, aggregation mode, ClaimScope when needed, time window when temporal qualification matters, and admissible use. | Prevents a generic context or time label from standing in for the aggregation boundary. |
-| CC-B1.4-2 | Contextual aggregation names ordered relation refs and an `OrderSpec`; temporal aggregation names carrier identity, phase refs, and `TimeWindow`. | Keeps order and time as different relations. |
+| CC-B1.4-1 | The aggregation claim identifies its subject, included inputs and relations, combining rule, required result, aggregation mode, ClaimScope when needed, temporal reference/window when relevant, and admissible use. | Makes the aggregation usable without requiring a separate record when an ordinary answer suffices. |
+| CC-B1.4-2 | Contextual aggregation identifies its ordered relations and OrderSpec. Temporal aggregation identifies its intervals, bearers, temporal reference and TimeWindow; the proper-phase profile also establishes one-carrier identity and the direct phase relations. | Keeps order, temporal aggregation and proper-phase claims distinguishable. |
 | CC-B1.4-3 | Independence, join, coverage, and overlap-policy conditions are present when the claim uses them. | Keeps local composition reviewable. |
 | CC-B1.4-4 | Method, method-description, work-plan, work-occurrence, work-resource, transformation, and whole-reidentification claims use the patterns that define or test them. | Prevents B.1.4 from absorbing neighboring objects. |
 | CC-B1.4-5 | Mathematical notation is treated as a selected lens or expression, not as the in-life object or relation. | Keeps `Gamma_ctx`, `Gamma_time`, graph, and algebra language bounded. |
-| CC-B1.4-6 | If identity changes, coverage breaks, or a new whole is claimed, the record narrows use or names the pattern for the stronger claim. | Prevents temporal aggregation from becoming hidden MHT or transformation. |
+| CC-B1.4-6 | Use stays within the established operation, identity and coverage conditions. When a required condition fails or remains unknown, narrow the result or retain the unresolved conclusion; use the subject pattern for a distinct identity, change or whole-reidentification question. | Preserves actual stops without requiring a stronger claim merely to finish an ordinary aggregate. |
 
 ### B.1.4:7 - Common Anti-Patterns and How to Avoid Them
 
@@ -42109,27 +42123,26 @@ For temporal phase aggregation:
 | A sequence is treated as physical parthood. | Recover ordered relation refs and use contextual aggregation; use part-whole patterns only for part-whole claims. |
 | A phase label is treated as a new system level. | Recover the carrier identity and phase relation. If a clear whole-reidentification question remains, use `B.2` directly; use `B.2.P` first only when emergence-family wording hides the claim kind. |
 | A planning order is treated as performed work. | Use `A.15.2` for work plan and `A.15.1` for dated work occurrence. |
-| A resource total is placed inside temporal aggregation. | Use `B.1.6` for the work-resource ledger. |
-| A diagram or table is treated as the aggregate. | Recover the Description episteme or publication relation and the EntityOfConcern separately. |
+| A resource total is inferred from temporal coverage without its resource-accounting rule. | Establish the resource claim under `B.1.6`. One account may state both the independently supported temporal and resource results. |
+| A diagram or table substitutes for the independently represented object or relation. | Establish that subject and the representation correspondence. A diagram or table may present or return the actual aggregate result; its form alone establishes neither the represented facts nor their identity. |
 
 ### B.1.4:8 - Consequences
 
-The practitioner obtains an inspectable account of ordered or temporal aggregation, with `Gamma_ctx` and `Gamma_time` available to express it. Naming the relations and their conditions takes work, but lets the practitioner distinguish the aggregation result from claims about performed work, resources, transformation, or whole reidentification.
+The practitioner obtains the aggregation specification or result needed by the receiving use, with its rule and conditions recoverable in a sufficient ordinary explanation or an inspectable account. `Gamma_ctx` and `Gamma_time` remain optional expressions. Recovering the actual inputs and conditions takes work, but makes the result distinguishable from claims about performed Work, resources, transformation and whole reidentification.
 
 ### B.1.4:8.1 - Rationale
 
-`B.1.4` exists because contextual order and temporal phase aggregation are neither ordinary part-whole construction nor generic process talk. One enduring carrier with a stated identity rule can be considered through proper temporal restrictions; a selected relation set can be order-sensitive; and both cases need admissible aggregation without inventing a new holon kind. The pattern therefore keeps relation discipline explicit: `PhaseOf` and the carrier's identity rule for legitimate phase aggregation; C.2.1 identity and independently obtaining edition relations for distinct episteme history; A.15.1 relations for Work; ordered relation refs and `OrderSpec` for contextual aggregation; and separate patterns for resource, transformation, evidence, and whole reidentification.
+Order-sensitive and temporal aggregation combine already grounded inputs under a selected operation. One continuing carrier may be considered through proper phases; separate Work occurrences or observations may supply intervals for a different temporal aggregate; and an order structure may be the desired result or an input to a further calculation. Each case keeps its direct grounds: carrier identity and `PhaseOf` for proper phases, C.2.1 identity and obtaining edition relations for episteme history, A.15.1 for Work, C.27.TA for temporal facts, and the actual ordered relations, operation and conditions for the aggregate. Resource, transformation, evidence and whole-reidentification claims retain their own rules.
 
-Keep design-time possible order and run-time history in separate aggregates. If both are needed, make two records and state their correspondence.
+Distinguish design-time possible order from run-time history. When both contribute to one use, state the correspondence between their claims; keep one or several accounts according to what that use needs.
 
 ### B.1.4:8.2 - SoTA-Echoing
 
-| Source line | Practical implication for this pattern |
-| --- | --- |
-| Constructive and mereological treatment of phases and parts | Phase aggregation must preserve carrier identity and coverage conditions; it cannot borrow ordinary parthood when the current relation is temporal. |
-| Engineering process and ordered-method notations | Ordered relations may be useful expressions of method or plan structure, but performed work and resource accounting use their own patterns. |
-| Temporal modeling and evidence-currentness practice | A time window or complete phase list does not by itself prove source currentness, admissible evidence, or causal support. |
-| Mathematical-lens discipline in FPF | Graph, order, and algebra notation are selected expressions over recovered relations, not ontology by spelling. |
+For the question "which aggregate answers this receiving use?", B.1.4 adopts A.15.1:9.1's Work-interval distinction: union answers covered time, while convex hull answers elapsed span. C.27.TA:0 and :4.2 explain how to state the bearer, temporal reference and interval on which either calculation relies. The operation and its conditions, rather than a generic total or operator label, decide the result.
+
+In the Work-interval case above, the same inputs give a justified 4-hour covered duration and a justified 5-hour elapsed span. Either can be sufficient for its question; using an unqualified total would hide which question was answered. The order-dependent calculation similarly distinguishes a usable partial-order specification from a unique numerical result that its permitted orders do not yet determine. Sections :2-:4 therefore require the actual rule, result kind and applicable conditions while allowing the ordinary sufficient answer.
+
+The additional burden is recovering those inputs, rules and conditions; an inspectable record is needed only for a receiving use that consumes it. These constructed comparisons support the stated mathematical and subject distinctions. They do not establish empirical effectiveness or a ranking of external engineering notations. Reopen the operation or result choice when the receiving question, input identities, temporal reference, relation facts or applicable operation law changes.
 
 ### B.1.4:9 - Relations
 
@@ -42137,7 +42150,7 @@ Keep design-time possible order and run-time history in separate aggregates. If 
 - Coordinates with `C.2.1` for exact episteme identities and independently obtaining edition relations; with `A.3.1`, `A.3.2`, `A.15.2`, and `A.15.1` for method, method description, work plan, dated work occurrence, and exact Work-temporal relations.
 - Coordinates with `B.1.6` for work-resource aggregation.
 - Coordinates with `A.3.4` for transformation. Use `B.2` directly for a clear whole-reidentification question; use `B.2.P` first only when emergence-family wording hides the claim kind. The relevant subject pattern defines or constrains the recovered claim.
-- Coordinates with `C.27` for temporal-claim adequacy. When mathematical expression is selected, `C.29` tests lens-use adequacy, `E.18` defines the selected transformation-flow structure, and `E.18.2` defines its mathematical description.
+- Coordinates with `C.27.TA` for positive temporal-aspect facts and `C.27` for a separate temporal-claim adequacy question. Use `C.29` when mathematical representation-choice, transfer or reliance remains unresolved. `E.18` governs an actual selected transformation-flow structure; `E.18.2` governs its mathematical description or that of a selected TFS network.
 
 ### B.1.4:End
 
@@ -42174,7 +42187,7 @@ Typical moments:
 - If the current claim is a claim-bearing episteme that describes a method or relations among methods, use `A.3.2` and `C.2.1`.
 - If the current claim is intended work, use `A.15.2`.
 - If the current claim is a dated occurrence, use `A.15.1`.
-- If the current claim is structural component parthood, use `A.14`, `C.13`, and `B.3.5`.
+- If the current claim is structural component parthood, use `A.14`; use `C.13` for a needed construction account and `B.3.5` only when its additional assurance profile is elected.
 - If the current claim is only a method-family registry, selector, fallback relation, or useful organization of already identified methods without one whole-method construction, use `G.5` or select a `U.Structure` under `A.22`.
 
 #### B.1.5:1.1 - Composition Question And Object Boundaries
@@ -42200,7 +42213,7 @@ When the objects and composition grounds are left unclear:
 1. **Source-wording composition.** A label such as "step", "workflow", or "algorithm" is accepted as method composition without recovering the actual objects.
 2. **Description-as-method.** A workflow diagram, BPMN model, code repository, proof script, table, checklist, or graph path is treated as the composite method itself.
 3. **Order as mereology.** `SerialStepOf`, `ParallelFactorOf`, guarded choice, or fallback relation is placed in a structural part-whole chain.
-4. **Typed joins disappear.** One submethod's intended result is assumed to satisfy the next submethod's precondition without an adapter method, governed correspondence or equivalence, and an explicit failure route.
+4. **Typed joins disappear.** One submethod's intended result is assumed to satisfy the next submethod's precondition without checking their compatibility, any needed adapter Method or governed correspondence, and the applicable failure route.
 5. **Interface exposure is hidden.** Callers rely on internal interactions that should be encapsulated, or fail to see interactions that the composite method must expose.
 6. **Run-time leakage.** Resources, timestamps, telemetry, performed values, and results are baked into the method instead of remaining occurrence-side facts and separately governed resource, result, and evidence relations.
 7. **False whole method.** A method-family registry, fallback table, selector rule, or A.22-selected relation organization is treated as one whole method although no construction or whole identity has been recovered.
@@ -42254,9 +42267,9 @@ Composite-method qualification:
     what keeps this whole the same and what identifies another method
   enactment boundary:
     exact U.Work may enact the method only through A.15.1 enactsMethod
-  lower disposition if construction is incomplete:
-    selected U.Structure | U.MethodDescription | U.WorkPlan | U.Work |
-    G.5 selector | lens | A.15.4 appearance-based reliance repair request
+  other independently supported results if composition is incomplete:
+    for example, a description, plan, selected structure, selector result, or Work claim
+    use A.15.4 when reliance on appearance needs repair
 ```
 
 #### B.1.5:4.1 - Recover Parts Before Composition
@@ -42298,12 +42311,12 @@ State each whole-forming fact in ordinary domain language before choosing its re
 | iteration | which part Method repeats, what establishes another iteration, and the exact stop or failure condition |
 | refinement or substitution | which Method may replace which other Method, for which use, and which whole semantics, joins, and exposed interactions must remain invariant |
 | fallback or dispatch | which primary and alternative Methods are involved, the exact trigger for using the alternative, and whether the statement belongs to this whole or only to a selector registry |
-| adapter or typed join | which exact adapter `U.Method`, upstream result meaning, downstream precondition, conversion condition, and failure route make the join admissible |
+| adapter or typed join | which upstream result meaning satisfies which downstream precondition, which adapter Method or governed correspondence is needed when those meanings differ, and which condition or failure route governs continuation |
 
 Before using a first–then or vertical list as Method architecture, make both checks.
 
 1. **Preserve real order.** Ask what must finish or become true before another Method can start or continue. Name the Methods, the required result or condition, any join or adapter, and the failure or stop route. Keep a genuine first–then result as an unfolding or order claim; its position does not make it a subject level.
-2. **Test simultaneous contribution.** Choose one bounded Work situation and ask whether several Methods contribute during it without all of them falling into one before-after chain. One Work whole may enact several Methods through separate A.15.1 relations. Alternatively, separately identified Work occurrences may overlap while enacting different Methods. State the Work identities and relations that actually obtain. Co-occurrence alone establishes no Method part, composite Method, Work part, or level.
+2. **Test simultaneous contribution.** Choose a representative working situation and ask whether several Methods contribute without forming one before-after chain. They may be enacted in one Work whole or in overlapping Work occurrences. When asserting particular dated occurrences, identify those Work individuals and their obtaining A.15.1 enactment relations. Co-occurrence alone establishes no Method part, composite Method, Work part, or level.
 
 Both answers may be true. A Method can contain a real ordered segment while other Methods contribute during the same broader Work. The source's reading order and the fact that several Methods are used together decide neither which Methods are parts of one whole nor whether any level exists.
 
@@ -42311,7 +42324,7 @@ Then use A.6.RCD. Reuse an existing direct predicate when one already governs th
 
 Keep definition, signature, kind, and edition distinct. A predicate-definition episteme may independently satisfy ordinary A.6.0 `U.Signature` membership. It is not a `RelationSignature`; that specialization opens only for an admitted relation kind. Changed predicate-definition or signature content identifies another episteme under C.2.1. Treat and connect the two epistemes as editions through `EpistemeEditionRelation` only when C.2.1's historical-continuation test passes: exact source use and the applicable continuation rule identify which claim, EntityOfConcern, and scheme features must be preserved or may deliberately change, and the current facts satisfy that rule. Revision or supersession Work, Method, provenance, and change facts are evidence for this test; no label establishes continuity. Otherwise the later episteme is a non-continuing replacement. The changed content triggers review of dependent claims; it does not by itself prove another relation kind or relation occurrence. If a relation kind is independently admitted, its direct pattern or declaration defines applicability and occurrence identity, while current case facts establish obtaining, continuation, or cessation where relevant.
 
-When several admitted order occurrences must be reviewed together, use B.1.4's `OrderSpec`, exact ordered-relation designations, and join or independence conditions in a separate bounded-use aggregation record. The record and optional `Gamma_ctx` notation neither participate in Method identity nor make any relation obtain. When the order statements remain local claims rather than admitted relation occurrences, compare those claim contents directly and do not pretend that an `OrderSpec` has occurrences to aggregate.
+When the receiving use needs to combine order information, apply B.1.4 to the selected inputs, actual combining rule, and required order, join or independence conditions. State the `OrderSpec`, the required ordering over the identified positions, in adequate prose or the representation consumed by the receiver; identify each claimed relation occurrence under its own predicate. An adequate explanation or existing account may suffice. Materialize a separate aggregation record only when the receiver needs it. The account and optional notation describe the composition facts; they add no Method identity discriminator and make no relation obtain.
 
 The composite-method qualification holds only when the candidate Method also has its own reusable semantic action, generic participant meanings, applicability, preconditions, intended effects or preserved conditions, invariants, bounds, accepted inputs and outputs, failure and stop conditions, and interface decisions. Its identity includes the exact part Methods and construction architecture on which those semantics depend. Cite an effective reference scheme or claim scope only when its variation changes a Method meaning or the use of a claim about that Method; neither is a generic container.
 
@@ -42321,9 +42334,9 @@ State the reidentification rule with the qualification. The same exact candidate
 
 Source cues such as `SerialStepOf`, `ParallelFactorOf`, guarded choice, iteration, fallback, adapter, and typed join call attention to possible whole-forming claims. They are not admission evidence, they need not become relation kinds, they are not A.14 component parthood, and they do not make `methodPartOf` obtain by themselves.
 
-Use A.14, C.13, and B.3.5 when the claim is about structural parts of a holon. Use B.1.5 when the claim is about how reusable ways of doing construct a larger reusable way of doing. The same project may need both, but the relation occurrences and truth conditions remain separate.
+Use A.14 for structural parts of a holon, C.13 for their construction account when needed, and B.3.5 when the additional assurance profile is elected. Use B.1.5 for the contribution of reusable ways of doing to a larger reusable way. A project may need both claims; each retains its own participants and truth conditions.
 
-Use B.1.4 when a receiving use needs an inspectable order aggregation, partial-order test, or join/independence account. Its `OrderSpec` and optional notation describe already recovered order occurrences; B.1.5 still decides whether those methods and relations construct one composite `U.Method`.
+B.1.4 can supply an order aggregation, partial-order test, or join/independence account. Recover the selected inputs and combining rule, including the required ordering specified by `OrderSpec`; B.1.5 still decides whether the Methods and their construction facts constitute one composite `U.Method`.
 
 When the current claim is a proper temporal restriction of one unchanged non-Work carrier, apply that subject's direct identity rule and A.14/B.1.4 rather than B.1.5. For MethodDescription history, compare the C.2.1 identity triples and assert `EpistemeEditionRelation` only when its historical-continuation predicate obtains. For Work intervals, episodes, performed parts, retries, resumptions, or later occurrences, apply A.15.1's exact relations; generic `PhaseOf` is not their substitute. A temporal boundary becomes a B.2-family question only when a separate whole-reidentification, closure, or supervision claim remains. Order, temporal restriction, episteme edition, Work segmentation, structural parthood, method composition, and whole reidentification remain different claims even when one source diagram uses one line for all of them.
 
@@ -42339,40 +42352,27 @@ An exposure decision contributes to Method identity whenever changing it changes
 
 ##### B.1.5:4.4.1 - Composite-Method Boundary Account and Publication Form
 
-When a named receiver must reuse the boundary account, first identify one exact claim-bearing `U.MethodDescription` episteme under A.3.2 and C.2.1. Its claim content concerns the exact composite Method and states the exposed, forwarded, and encapsulated interactions. Then keep the publication-side objects and designation content below separate.
+State the boundary decisions in clear sentences: what a caller may request, what it must supply, what result or preserved condition it may rely on, and what stops the interaction. Name any needed adapter, order condition, bound, or assurance limit. Explain an encapsulated interaction when a plausible caller could otherwise rely on it. This can complete an internal boundary account.
 
-In B.1.5, *composite-Method boundary account* is the local Plain phrase for this MethodDescription claim content. A *boundary-account form* is the separately identified reusable arrangement used to present that content when publication is load-bearing. Neither phrase creates a new kind or acronym.
+When a receiver needs the published account, say which MethodDescription edition is available, to which declared audience, for which bounded use, through which expression and carrier. A.3.2 and C.2.1 identify the description; E.24.PUB supplies the publication relations and their progressive explicitness. Name a reusable *boundary-account form* only when its arrangement rules matter. The form, its conforming expression and the carrier retain separate identities.
 
-1. A bounded-use-declaration episteme states the operations or decisions supported by this publication, the conditions of that use, and the excluded stronger use.
-2. An audience-declaration episteme states the audience criterion. The actual audience consists of entities admitted by that declaration; those entities are not substituted for the declaration episteme as a publication-relation participant.
-3. Identify the reusable boundary-account form independently by its rules, then identify the particular expression that follows those rules and expresses the selected description edition for the bounded use. E.24.PUB `PublicationFormExpressionRelation(description edition, boundary-account form, bounded-use declaration)` is the corresponding form-mediated claim; that expression is its witness.
-4. Identify a paper card, poster, page, file, or screen independently under its physical or digital identity rule. `PublicationExpressionBearingRelation(carrier, expression)` states that its actual state or realization yields that exact expression. When the expression conforms to the boundary-account form, it also witnesses `PublicationFormBearingRelation(carrier, boundary-account form)`. Use the same expression witness for both form-mediated claims when establishing availability.
-5. An actual system performs separate rendering, printing, uploading, indexing, or access-granting publication Work. That Work may establish or restore availability, but it is not the publication occurrence or one of its participants.
-6. One `EpistemePublicationRelation` occurrence, with the exact five participants `<description edition, audience-declaration episteme, bounded-use-declaration episteme, particular expression, carrier>`, makes the edition available to the declared audience for the declared use throughout its maximal continuous interval of availability.
-7. Names, labels, and links that designate the Method or description edition remain separately governed designation content. Neither the form nor the carrier establishes designation merely by displaying similar words.
+For disputed availability or publication identity, recover E.24.PUB's five participants `<description edition, audience declaration, bounded-use declaration, expression, carrier>`, its supporting expression and bearing relations, and the maximal continuous availability interval. If form conformance is used, the same expression must support the form-mediated claims. Publication activity is separate; identify dated publication Work only when that occurrence is asserted. Names and links retain their own designation meaning.
 
-```text
-Reader-facing boundary-account prompts:
-  described Method, exact MethodDescription edition, and effective reference scheme when its variation changes the Method meaning or claim use
-  named audience criterion and bounded use, including any excluded stronger use, when publication is load-bearing
-  exposed and forwarded interactions
-  accepted input or call meaning
-  preconditions and intended result or preserved condition
-  failure and stop routes
-  invariants
-  exact B.1.4 order aggregation or OrderSpec only when the receiver relies on its order, join, or independence limits
-  applicability, bounds, and quality or assurance envelope only when they limit the interaction on which the receiver relies
-  adapter, typed-join, and assurance references only when the receiver uses them
-  plain rationale for each encapsulated interaction on which misuse is likely
-```
+Optional prompts for the receiving account:
 
-These prompts organize presentation; they are not direct-relation `SlotSpec`s, relation participants, Method parts, or a schema that creates a Method. None supplies the world-side `methodPartOf` facts or any other whole-forming claim. For a lightweight internal use, state the boundary decisions in clear sentences and stop. Use the publication branch only when a receiver needs that published account.
+- the described Method and the description edition used;
+- exposed and forwarded interactions, accepted input meanings, preconditions, intended results or preserved conditions;
+- required invariants, failure routes and stops;
+- order or join conditions, adapters and applicable bounds that affect the receiver's use;
+- the audience and bounded use when the account is published.
+
+Use an existing adequate account without adding a form. These presentation prompts supply no Method parts or composition facts.
 
 #### B.1.5:4.5 - Keep Method Qualification And Work Occurrence Separate
 
 B.1.5 evaluates and grounds the composite-method qualification of an exact `U.Method` already identified under A.3.1. A separately constituted `U.MethodDescription` may state that composition claim. Neither object creates performed Work.
 
-One dated `U.Work` occurrence enacts one exact `U.Method` only when the A.15.1 method-enactment relation obtains. Recover each exact actual performer through A.13; A.15.1 then independently identifies the Work, time, containing System, and enacted Method. F.6 enters only when the Method-enactment account also consumes precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 leaves the Work and enactment intact. The performing System acts under the recovered relations. An assertion or occurrence description may cite those facts and the MethodDescription used.
+One dated `U.Work` occurrence enacts one exact `U.Method` only when the A.15.1 method-enactment relation obtains. Recover each exact actual performer through A.13; A.15.1 then independently identifies the Work, time, containing System, and enacted Method. F.6 enters only when the Method-enactment account also consumes precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 alone leaves independently grounded Work and enactment intact. If the same finding invalidates a premise consumed by A.13 or A.15.1 admission, recheck that premise and its dependent conclusions while preserving independently grounded history and relations. The performing System acts under the recovered relations. An assertion or occurrence description may cite those facts and the MethodDescription used.
 
 Parameter bindings, affected referents, resource use, telemetry, retries, results, actual transformations, production, evidence, evaluation, delivery, and acceptance remain separate objects and direct relations under their own governors. They do not become method parts, method identity fields, or generic Work outcomes merely because a report places them beside the Work.
 
@@ -42392,8 +42392,8 @@ For an ordinary working question—what larger work is being done through this a
 
 B.1.5 has three common use positions, but they are positions in use, not U-kinds:
 
-- **Planning or description-side use.** A planner system performing planning Work recovers the exact Methods, `methodPartOf` occurrences, whole-forming claims at their A.6.RCD dispositions, any justified order aggregation, typed joins or adapters, interface boundary, invariants, and whole-level commitments. A resulting exact `U.WorkPlan` may cite the MethodDescription edition on which it relies; neither the planning Work nor the plan is the reader that defines Method identity.
-- **Performed-work use.** Recover each exact actual performer through A.13, let A.15.1 independently admit the Work, and recover the exact `enactsMethod` occurrence for the whole Work. Add the exact covering A.2.1 assignment and F.6 relation only when this use expressly consumes precise assignment-bound attribution; missing or failed F.6 leaves the Work and enactment intact. Check capability fit or admission only when the work-entry decision consumes those claims; then check preconditions, order conformance, and exposed or forwarded interactions through their subject patterns. State resource use, evidence, and results only through their own obtaining relations. None becomes part of the method.
+- **Planning or description-side use.** To plan enactment, recover the Methods, `methodPartOf` facts, other whole-forming claims at their A.6.RCD dispositions, needed order and joins, interface boundary, invariants, and whole-level commitments. A resulting `U.WorkPlan` uses A.15.2 and may cite the MethodDescription edition on which it relies. Identify dated planning Work under A.13 and A.15.1 only when that occurrence is asserted; planning and its product remain separate from Method identity.
+- **Performed-work use.** Recover each exact actual performer through A.13, let A.15.1 independently admit the Work, and recover the exact `enactsMethod` occurrence for the whole Work. Add the exact covering A.2.1 assignment and F.6 relation only when this use expressly consumes precise assignment-bound attribution; missing or failed F.6 alone leaves independently grounded Work and enactment intact. If the same finding invalidates a premise consumed by A.13 or A.15.1 admission, recheck that premise and its dependent conclusions while preserving independently grounded history and relations. Check capability fit or admission only when the work-entry decision consumes those claims; then check preconditions, order conformance, and exposed or forwarded interactions through their subject patterns. State resource use, evidence, and results only through their own obtaining relations. None becomes part of the method.
 - **Assurance use.** Identify cutset submethods, fragile typed joins, adapter points, mapping congruence or CL-sensitive edges, and the envelope or scope in which the composite method is expected to hold. B.3 and related assurance patterns evaluate those hooks; B.1.5 only makes them visible.
 
 Useful invariants remain: a single recovered submethod composed alone does not create a surprising new Method; order is deterministic only under the exact order claims and conditions at their selected A.6.RCD dispositions; any throughput or quality bound must name its characteristic, critical path, and weakest-link basis; a claim that improving a submethod, adapter, or typed join improves the composite must name the characteristic and conditions under which that improvement transfers.
@@ -42404,7 +42404,7 @@ Method composition and Work decomposition establish no `U.Transformation` part, 
 
 #### B.1.5:4.6 - Select A Structure Below The Whole-Method Threshold
 
-Use A.22 when independently identified Methods and already obtaining relations are useful to one question or action but do not construct one whole Method. For an actual load-bearing selection, first name the selecting system, selection Method, dated selection Work and bindings, and any result episteme needed to preserve the decision. Then name all four structure discriminators: exact constituents, exact selected obtaining relation occurrences, applied constraints, and the use frame. For a one-off hypothetical comparison, state the comparison and stop without asserting a selected `U.Structure`. `MethodRelationStructure` may be used as a local readable designator only for an actually selected structure; it is not a U-kind, relation kind, Method holon, or identity field.
+When the organization itself answers a needed question, use A.22 to select a `U.Structure` over independently identified Methods and obtaining relations. State its four identity discriminators: constituents, selected relation occurrences, applied constraints, and use frame. Ordinary prose or an existing adequate description can supply them. A deliberately asserted dated selection Work needs its own A.13/A.15.1 grounds; add an operation binding or result episteme when the receiving claim needs one. A local comparison can also suffice without selecting a structure. `MethodRelationStructure` is a local designator for a selected structure, not a new U-kind.
 
 Typical cases:
 
@@ -42435,7 +42435,7 @@ The composite qualification additionally requires the candidate's generic partic
 
 `RegisterPatient`, `AssessVitals`, `ClassifyUrgency`, and `RouteToCare` are independently identified Methods. For a one-off protocol review, the practitioner may state two local claims in ordinary language: the intended vital-sign result meaning of `AssessVitals` must satisfy the admitted input meaning of `ClassifyUrgency`; and the declared triage rule decides which admitted urgency category holds from the declared vital-sign conditions and, when the protocol uses them, the declared symptom conditions, then maps that category to one compatible `RouteToCare`. If no category or several incompatible categories hold, the practitioner stops the routing decision and returns the guard rule for repair. These are useful claim contents, not `MethodResultPreconditionRelation` or `MethodDispatchRelation` admissions.
 
-This review is deliberately hypothetical and non-load-bearing. It compares the four Methods and the two claims but does not assert a persisted `U.Structure` or a selection judgment. If a later receiving use needs an A.22-selected structure, its selection must identify the exact selecting system, selection Method, dated selection Work and bindings, and—where the result must persist—the result episteme. The structure itself is then identified by all four A.22 discriminators: exact constituents, exact independently admitted obtaining relation occurrences, applied constraints, and use frame. The present local claims cannot be relabelled as such occurrences merely to fill that list.
+The two claims can finish this protocol comparison. If the receiving question instead needs a selected `U.Structure`, recover all four A.22 discriminators: constituents, independently obtaining relation occurrences, applied constraints, and use frame. The local claims cannot be relabelled as relation occurrences. Identify dated selection Work only when that occurrence is asserted, and a separate result episteme when the judgment must persist.
 
 The comparison still discriminates the non-composite case. No reusable whole action, complete precondition-to-result boundary, response to every guard conflict, or whole reidentification rule has been established. A wall poster may be a carrier bearing a publication form; an exact `U.MethodDescription` edition is a different claim-bearing episteme, and an actual publication occurrence is what makes that edition available to an audience. For intake Work, recover each actual performer through A.13 and admit the Work independently through A.15.1. Only if this comparison also consumes which assignment covered that Work should it separately check the A.2.1 occurrence and obtaining F.6 attribution; capability or admission claims consumed by entry remain separate. None of these facts is a Method part.
 
@@ -42455,9 +42455,11 @@ Suppose one dated training Work enacts the exact pipeline Method while three ind
 
 A paper draft, workflow diagram, repository, or notebook may be a claim-bearing episteme, a representation, or a carrier; its form does not make it the Method. Publication Work is `U.Work`. Compute, storage, reviewer time, artifact production, release, and acceptance stay with their subject patterns.
 
-`EvidenceSynthesisInterfaceDescription-v3 : U.MethodDescription` may state that the Method exposes `Submit()` and `ReleaseArtifacts()`, forwards `CrossValidate.Folds(k)`, and encapsulates ad hoc scrubbing utilities. Identify `SubmissionReleaseBoundaryAccountForm-v3` independently as the reusable arrangement entity selected as the boundary-account form. Identify `SubmissionReleaseBoundaryAccountExpression-v3 : U.Entity` as the independently specified ordered text that fills that arrangement with these interface claims, and establish its conformance to that form. Identify `EvidenceSynthesisMethodsPage-2026-07 : U.Entity` independently under its digital file-object identity rule as the carrier whose actual state yields that expression. Identify `SubmissionAndArtifactReleaseUse : U.Episteme` as the bounded-use declaration whose claims state the supported submission and artifact-release operations, their conditions, and the excluded stronger use. Identify `SubmittingResearchersAudienceDeclaration-v1 : U.Episteme` as the audience declaration whose claims select the authorized submitting researchers; those researchers are the declared audience, not a participant substituted for the declaration episteme.
+`EvidenceSynthesisInterfaceDescription-v3 : U.MethodDescription` states that the Method exposes `Submit()` and `ReleaseArtifacts()`, forwards `CrossValidate.Folds(k)`, and encapsulates ad hoc scrubbing utilities. A submitting researcher can use this boundary account to distinguish supported calls from internal operations.
 
-`PublicationExpressionRelation(EvidenceSynthesisInterfaceDescription-v3, SubmissionReleaseBoundaryAccountExpression-v3, SubmissionAndArtifactReleaseUse)`, `PublicationExpressionBearingRelation(EvidenceSynthesisMethodsPage-2026-07, SubmissionReleaseBoundaryAccountExpression-v3)`, and `PublicationFormConformanceRelation(SubmissionReleaseBoundaryAccountExpression-v3, SubmissionReleaseBoundaryAccountForm-v3)` must obtain. The same expression witnesses the corresponding `PublicationFormExpressionRelation` and `PublicationFormBearingRelation` claims. `ResearchPublicationSystem` performs the separate `EvidenceSynthesisInterfacePublicationWork-2026-07 : U.Work`, which may establish or restore availability. The distinct `EvidenceSynthesisInterfacePublication-2026-07` occurrence of `EpistemePublicationRelation` has the five fixed participants `<EvidenceSynthesisInterfaceDescription-v3, SubmittingResearchersAudienceDeclaration-v1, SubmissionAndArtifactReleaseUse, SubmissionReleaseBoundaryAccountExpression-v3, EvidenceSynthesisMethodsPage-2026-07>` and carries the description edition's enduring availability to the audience selected by the audience declaration for the bounded use. Publication Work is not a participant of that occurrence. None of these description, declaration, expression, form, carrier, Work, or publication-relation objects creates an interaction, `SlotSpec`, Method part, or composition fact.
+For the published account, `EvidenceSynthesisMethodsPage-2026-07` is the digital carrier of an ordered-text expression of that edition. `SubmittingResearchersAudienceDeclaration-v1` identifies the authorized submitting researchers; `SubmissionAndArtifactReleaseUse` states the supported submission and artifact-release operations, their conditions and any needed stronger-use boundary. If the selected `SubmissionReleaseBoundaryAccountForm-v3` constrains the arrangement, check that this expression conforms to it.
+
+E.24.PUB tests whether the same expression conveys the required claims, is recoverable from that carrier, and is available to the declared audience for that use. Its five participants and maximal continuous availability interval identify the publication occurrence. Uploading or granting access may establish that availability; an assertion of particular publication Work has separate A.13/A.15.1 grounds. Availability alone establishes neither actual use nor the Method's composition facts.
 
 #### B.1.5:5.5 - Ordered Preparation And Simultaneous Performance
 
@@ -42489,11 +42491,11 @@ Explicit construction and boundary accounts are useful when a join or outside re
 | `CC-B1.5-4` | Every serial, parallel, guarded, iterative, fallback, adapter, substitution, or typed-join use states a concrete decidable claim and selects A.6.RCD's lightest sufficient disposition. A relation kind and occurrence are required only after independent admission for a named occurrence-semantics use. |
 | `CC-B1.5-5` | The already identified candidate Method states whole-level participant meanings, applicability, preconditions, intended effects or preserved conditions, invariants, bounds, accepted inputs and outputs, failure and stop conditions, interface decisions, and reidentification rule before its composite qualification is accepted. |
 | `CC-B1.5-6` | Exposed, forwarded, and encapsulated interactions are distinguished because changing the reusable action or admissible boundary changes Method identity. A named caller system, planner system, auditor, substituting-method selection use, or assurance use determines whether the boundary account must be explicit or published; reliance does not create its identity effect. |
-| `CC-B1.5-7` | Exact `U.MethodDescription` edition, independently identified boundary-account form, particular conforming expression and physical or digital carrier, bounded-use- and audience-declaration epistemes, separate publication Work, five-participant `EpistemePublicationRelation` occurrence, raw audience, and designation content remain distinct. `PublicationExpressionRelation` and `PublicationExpressionBearingRelation` state the exact supporting links, while `PublicationFormConformanceRelation` and the shared expression witness preserve the form-mediated claims; a system performs the Work, while the publication occurrence makes the edition available. |
-| `CC-B1.5-8` | A load-bearing A.22 selection names the selecting system, selection Method, dated Work and bindings, any persisted result episteme, and the structure's exact constituents, independently admitted obtaining relation occurrences, constraints, and use frame. A one-off hypothetical comparison asserts no selected `U.Structure`. |
+| `CC-B1.5-7` | A boundary account states the interactions and conditions needed by its receiver. For publication, distinguish the MethodDescription edition, audience declaration, bounded-use declaration, expression and carrier; add a reusable form when its conformance matters. E.24.PUB supplies expression/bearing predicates and availability identity when needed. Publication Work and designation content remain separate claims. |
+| `CC-B1.5-8` | A selected A.22 structure has its four identity discriminators: constituents, obtaining relation occurrences, applied constraints, and use frame. Dated selection Work, an operation binding, or a persisted result episteme has separate grounds when that claim is needed. A sufficient local comparison requires no selected `U.Structure`. |
 | `CC-B1.5-9` | When the composite method needs a separate higher-level reidentification or emergence explanation, use `B.2` in addition to the explicit B.1.5 method reidentification rule. |
 | `CC-B1.5-10` | A temporal slice, episode, event-log segment, telemetry interval, engine stroke, detector component, or `U.WorkPlan` item is neither a Work part nor a Method part by appearance. Keep each with its subject pattern. A genuine Work part enacts a submethod only through a separate exact A.15.1 `enactsMethod` occurrence; whole Work may enact the whole Method without mirrored Work parts. |
-| `CC-B1.5-11` | A receiving use that needs order aggregation names B.1.4's exact ordered relation designations, `OrderSpec`, and join or independence conditions; the aggregation record or notation does not enter method identity or make relations obtain. |
+| `CC-B1.5-11` | A needed order aggregation preserves B.1.4's selected inputs, combining rule, actual order relations and required join or independence conditions. The `OrderSpec` may be stated in ordinary prose; use a separate record when the receiver needs it; neither adds Method identity nor establishes relation facts. |
 | `CC-B1.5-12` | Typed joins name the upstream intended-result meaning and downstream precondition, plus an adapter or governed correspondence when those meanings differ, and a failure route; signatures do not establish the holder's actual ability. |
 | `CC-B1.5-13` | Dated Work, performing Systems, separately declared assignment species, actual assignment occurrences, obtaining F.6 attributions, resource use and costs, yields, dissipation, telemetry, results, and production, together with separate evidence-, publication-use-, evaluation-, delivery-, and acceptance claims, use their subject patterns and do not become Method identity fields. |
 | `CC-B1.5-14` | Assurance hooks name cutsets, fragile joins, adapter points, CL-sensitive mappings, and the exact envelope or claim scope consumed by B.3; no performance or quality claim follows from composition alone. |
@@ -42509,12 +42511,12 @@ Explicit construction and boundary accounts are useful when a join or outside re
 | "Step A is part of the Method because it is a box." | Recover whether the box denotes an exact `U.Method`, description node, plan item, Work occurrence, claim, or lens expression; test `methodPartOf` only for an independently identified Method. |
 | "Parallel branches can join because the picture rejoins." | State the independence, downstream precondition, exact join, any adapter or correspondence, and failure route in ordinary language; use A.6.RCD's lightest sufficient disposition and open a relation kind only for an independently accepted occurrence-semantics need. |
 | "The production plan lists five Methods, so the practice has five stages." | Preserve any real setup, handoff, or continuation order. Then test the representative Work: Methods may contribute together in one Work whole or in overlapping Work occurrences. The plan's row order establishes neither a total sequence nor a subject level. |
-| "The selector table is the Method." | Use `G.5` for the selector. Use A.22 only when an actual selection basis and all four structure discriminators are present; otherwise keep a one-off comparison without asserting a selected `U.Structure`. A composite Method still needs its own exact construction and whole-level commitments. |
+| "The selector table is the Method." | Use `G.5` for the selector. Select an A.22 structure when the receiving use needs that organization and all four discriminators are established; otherwise retain the sufficient local comparison. A composite Method needs its own construction and whole-level commitments. |
 | "The run proved the method structure." | Record the run as `U.Work`; relate it to the method through `enactsMethod` and use evidence only through its governing relation. A successful run neither creates method parts nor settles reidentification. |
 | "The phase is a method step." | Recover the subject: use the carrier's direct identity rule plus proper A.14 `PhaseOf` for one unchanged non-Work individual, C.2.1 for distinct MethodDescription epistemes and any obtaining edition relation, or A.15.1 for Work temporal parts and occurrences. None is a Method part unless an exact `U.Method` and `methodPartOf` independently obtain; use B.2 only for a separately current whole-reidentification, supervision, or closure claim. |
 | "The join improves throughput, so the method has emergence." | Name the measured characteristic, critical path, cutsets, typed joins, and assurance relation; open B.2 only when a separate whole-level reidentification claim remains. |
-| "The boundary-account prompts define the Method." | Identify the exact claim-bearing `U.MethodDescription` edition first. A boundary-account form is identified by its reusable rules; `PublicationFormExpressionRelation` obtains only when an actual conforming expression expresses enough of the selected edition for the bounded use; its prompts create neither the Method nor the expression, form, carrier, declaration epistemes, publication Work, five-participant publication occurrence, or composition facts. |
-| "The boundary account is a nice diagram." | For a load-bearing publication, identify the MethodDescription edition, bounded-use- and audience-declaration epistemes, boundary-account form, and carrier independently; then distinguish the system's publication Work from the five-participant occurrence that makes the edition available. Keep designation content separate. Otherwise state the few boundary decisions directly. |
+| "The boundary-account prompts define the Method." | Recover the Method and its construction facts first. The account describes those facts; a selected form constrains eligible expressions. Use E.24.PUB when the publication relation or form conformance matters. |
+| "The boundary account is a nice diagram." | State the interactions and their conditions. If a receiver depends on publication, identify which description edition is available to which declared audience and use through which expression and carrier. Open E.24.PUB's further predicates for the actual unresolved publication question. |
 | "The same Work and referent make the transformations one composite." | Identify each transformation under A.3.4. Without a direct transformation-composition governor, return `missing-governor[transformation-composition]` for the proposed whole and independently identified changes; infer neither composition nor atomism. |
 
 ### B.1.5:9 - Consequences
@@ -42529,14 +42531,14 @@ The rationale is a strict object separation. Paying this explicitness cost expos
 
 ### B.1.5:11 - SoTA-Echoing
 
-These rows answer the B.1.5 practice question: how to decide and expose order-sensitive Method composition without mistaking descriptions, Work, event records, or construction diagrams for the composite Method.
+The following published treatments provide bounded comparisons for Method composition. Their models illuminate particular distinctions; applying those distinctions to FPF Methods uses the construction and identity tests above.
 
-| Current practice answer | Published source basis | B.1.5 adoption | Rejected shortcut |
-| --- | --- | --- | --- |
-| Current workflow, case, decision, process-mining, and object-centric event-log practice separates process models from event logs, telemetry, and resource records. | `A.15:11` — OMG CMMN 1.1 (2016) and OMG DMN 1.5 (2024); `A.15.1:13.1` — OCEL 2.0 Specification (2024) and OpenTelemetry Specification 1.58.0. | **Adopt and adapt.** Adopt the model, decision, occurrence, log, and telemetry separations; adapt them by requiring exact candidate and part Methods, `methodPartOf`, and separately grounded Work because a review must distinguish modeled composition from what happened. | **Reject.** A workflow notation, event log, trace, or telemetry span is neither the composite Method nor proof of Method parts or dated Work. |
-| Typed functional, scoped-effect, protocol, and workflow-composition practice treats composition as constrained by interfaces, preconditions, intended results, handlers, scope, and admissible order. | `A.3.1:11` — Gogioso et al., “Constructor Theory as Process Theory” (2023); Bosman et al., “A Calculus for Scoped Effects & Handlers” (2024); Matache et al., “Scoped Effects as Parameterized Algebraic Theories” (2024). | **Adapt.** Use preconditions, intended-result meanings, scope, order, typed joins, adapters, and failure routes as concrete tests of the whole-forming claim because a composition label alone cannot show that one reusable whole action works. Use A.6.RCD's lightest sufficient disposition for each resulting claim. | **Reject.** A type signature, handler calculus, process-theory description, edge label, or source-material description alone does not identify a Method part, admit a relation kind, or ground dated Work. |
-| Scoped software semantics makes operation declarations, handler scope, and boundary behavior explicit without supplying a general Method-identity rule. | `A.3.1:11` — Bosman et al., “A Calculus for Scoped Effects & Handlers” (2024), and Matache et al., “Scoped Effects as Parameterized Algebraic Theories” (2024), cited above. | **Adapt and delimit.** Use that boundary visibility to state exposed, forwarded, and encapsulated interactions. The rule that a boundary decision affects Method identity when it changes the reusable action or admissible boundary is an FPF decision; a named receiver triggers explicit statement or publication because callers and substituting-method uses need a stable boundary account. | **Reject.** Handler syntax, planner Work, publication layout, carrier choice, or diagram position does not decide whether an interaction is exposed, forwarded, or encapsulated. |
-| Current constructional-ontology practice requires explicit constituents, constructive relations, dependence, and identity choices rather than inferring a whole from a diagram or label. | `A.1:11` — Florio and Linnebo, *Introduction to Constructional Ontology* (2024), and Borgo and Righetti, “Towards Applied Constructional Ontology” (2025). | **Adapt.** Require exact part Methods, obtaining `methodPartOf` occurrences, other whole-forming claims at their A.6.RCD dispositions, a reusable whole action, and a reidentification rule because constituent names alone do not construct a Method whole. | **Reject.** Method-composition order is not A.14 structural parthood, and neither a C.13 notation nor one shared label creates the Method or a relation kind. |
+| Published treatment and its contribution | Use in B.1.5 | Applicability limit |
+| --- | --- | --- |
+| Case and decision models in [CMMN 1.1](https://www.omg.org/spec/CMMN/1.1/About-CMMN) (2016) and [DMN 1.5](https://www.omg.org/spec/DMN/1.5/About-DMN) (2024), object/event records in [OCEL 2.0](https://www.ocel-standard.org/), and traces in [OpenTelemetry 1.58.0](https://github.com/open-telemetry/opentelemetry-specification/blob/v1.58.0/specification/overview.md) describe different objects. These named editions supply historical comparison examples; A.15 and A.15.1 govern the Work claims. | Distinguish a reusable composition account from records about its enactment. Recover the Methods and construction facts, then use the appropriate Work or evidence predicates for what happened. | A model or telemetry representation can support a claim without itself being the Method or establishing Method parts. |
+| [Bosman et al., “A Calculus for Scoped Effects & Handlers”](https://arxiv.org/abs/2304.09697) (2024) separates syntax from handling semantics and provides explicit forwarding of scoped operations. [Matache et al., “Scoped Effects as Parameterized Algebraic Theories”](https://arxiv.org/abs/2402.03103) (2024) develops equational reasoning for scoped operations. | Use these software examples to examine scope, typed joins, forwarding and boundary behavior. Explain the preconditions, result meanings and failure routes of the proposed Method composition in its own domain. | These calculi supply no general Method identity for manufacturing, clinical or organizational work. An FPF boundary change affects identity when it changes the reusable action or admissible boundary under A.3.1. |
+| [Gogioso et al., “Constructor Theory as Process Theory”](https://arxiv.org/abs/2401.05364) (2023) connects abstract tasks to physical processes through a compositional formal treatment. A.3.1 develops the Method-side comparison. | Retain the distinction between a specified task and a process that realizes it when examining composition and enactment. | The formal bridge does not by itself identify an FPF Method part or dated Work; use their direct predicates. |
+| [Borgo and Righetti, “Towards Applied Constructional Ontology”](https://journals.sagepub.com/doi/10.3233/FAIA250480) (2025) examines choices and difficulties in applying constructional approaches to foundational ontologies. A.1 develops the construction-sensitive comparison. | State constituents, construction facts and identity choices instead of treating a diagram or label as a constructed whole. | Method composition retains its own predicate. Its order is not structural parthood, and the source's exploratory ontology comparison supplies no ready-made Method composition rule. |
 
 ### B.1.5:12 - Relations
 
@@ -42547,18 +42549,18 @@ B.1.5.CM constructs the prospective whole, constituent contributions, joins and 
 - Uses `A.6.RCD` for serial, parallel, guarded, iterative, fallback, adapter, join, substitution, and other whole-forming claims. Existing direct predicates, local compound claims, and reusable predicate definitions are valid stopping results; only a named occurrence-semantics need requires `E.24 for a kind candidate` and `E.24.UK`.
 - Uses `A.6.REL` only when an independently admitted relation kind has an obtaining occurrence whose identity a receiver consumes. B.1.5 does not manufacture occurrence semantics for ordinary claim content.
 - Uses `C.2.1` to identify predicate-definition, signature, and MethodDescription epistemes and any later episteme with changed identity-bearing content. Uses `EpistemeEditionRelation` only when C.2.1's exact historical-continuation predicate obtains; otherwise the later episteme is a non-continuing replacement. A predicate definition may satisfy ordinary A.6.0 `U.Signature` membership; only an admitted relation kind can have a `RelationSignature`.
-- Uses `B.1.4` only when a receiving use needs an explicit aggregation of already admitted, obtaining order relations, an `OrderSpec`, and join or independence conditions.
-- Uses `A.3.2` for each exact claim-bearing `U.MethodDescription` and `E.24.PUB` only when a named use requires publication detail: independently identified bounded-use- and audience-declaration epistemes, particular expression, independently identified carrier and any selected boundary-account form; exact expression, bearing and applicable form-conformance relations, with one shared expression witness for combined form-mediated availability; separate publication Work performed by a system; and the five-participant `EpistemePublicationRelation` occurrence that makes the edition available. Raw audience and designation content remain separately governed.
+- Uses `B.1.4` when the receiving question needs order aggregation or its specification, with the selected inputs, combining rule, order relations and required join or independence conditions. `OrderSpec` states the required ordering; it needs no separate record when ordinary prose suffices.
+- Uses `A.3.2` and `C.2.1` for MethodDescription claims and identity. Uses `E.24.PUB` when publication affects the receiving use: start with the edition, audience, bounded use, expression and carrier; recover further expression, bearing, form-conformance or availability predicates for the question that remains. Publication Work and designation remain separate.
 - Uses `A.22.CGUS` when a real first–then, guarded, branching, or returning unfolding is the useful result; an unfolding position is not a subject level or evidence that all contributions are sequential.
-- Uses `A.15`, `A.15.1`, and `A.15.2` for exact dated `U.Work`, `enactsMethod`, and plans; uses `A.2`, `A.2.1`, and F.6 for local system-role-kind and Method alignment, separately declared assignment species, actual assignment occurrences, and obtaining Work–assignment attributions. The Method does not act, Work is not a relying reader, and neither a system-role kind nor an assignment performs Work.
+- Uses `A.15`, `A.15.1`, and `A.15.2` for exact dated `U.Work`, `enactsMethod`, and plans; uses `A.2`, `A.2.1`, and F.6 for local system-role-kind and Method alignment, separately declared assignment species, actual assignment occurrences, and obtaining Work–assignment attributions. The Method does not act, and neither a system-role kind nor an assignment performs Work.
 - Uses `B.1.6` and `Gamma_work` only for occurrence-side work-resource aggregation after the Work and resource relations are recovered.
 - Uses `B.3` for cutset, weakest-link, CL-sensitive mapping, and assurance claims; composition alone supplies no assurance verdict.
-- Uses `A.22` only for a real selected organization with its selection basis and four identity discriminators. A one-off hypothetical comparison and local whole-forming claims do not assert a selected `U.Structure`.
+- Uses `A.22` when the receiving use needs a selected organization and its four identity discriminators are established. Ordinary comparisons can finish without that claim; a dated selection occurrence has its separate Work grounds.
 - Uses `C.13` only after B.1.5 supplies exact Method parts, whole-forming facts and constraints, and the whole reidentification rule; C.13 consumes those facts but does not create them or require one relation kind per fact.
-- Keeps A.14 structural-component parthood distinct from Method composition; coordinates with `B.3.5` only when a published structural claim and its grounding are current.
+- Keeps A.14 structural-component parthood distinct from Method composition; uses `B.3.5` only when its additional assurance profile is elected for the structural claim.
 - Uses `B.2` when a separate higher-level reidentification or emergence-family explanation is current; ordinary composite-Method identity still needs its explicit B.1.5 rule.
 - Uses `G.5` when a Method-family registry, selector, fallback, or candidate-set decision is current but no whole construction is claimed.
-- Uses `C.29`, `A.6.1`, and `E.20` when a mathematical lens, formal substrate, mechanism, or representation-maintenance claim is current.
+- Use `C.29` for an unresolved mathematical representation, correspondence or transfer question; an adequate local calculation can finish directly. Use `A.6.1` for a needed law-governed operation declaration or actual application binding, and `E.20` when a proposed change affects mechanism meaning, suite semantics, wiring, governing-definition assignment or citeable-token meaning.
 - Uses `E.10` for method, step, process, workflow, ownership/stewardship, requirement, and source wording precision recovery.
 - Stops before any positive transformation-composition or transformation-part claim until a direct governor supplies exact participants, obtaining semantics, and occurrence identity.
 
@@ -43108,13 +43110,13 @@ Reconsider the account when its content fits none of these supported results, wh
 > **Status:** Stable
 > **Normativity:** Normative unless explicitly marked informative
 
-**Use this when.** Use this pattern when the current claim aggregates resources, effort, time, energy, material, information, cost, or another measured resource over exact dated Work occurrences, A.15.1 temporal or operational Work parts, event-bounded episodes, non-Work carrier phases with an established identity and `PhaseOf` relation, boundary partitions, or comparable work-resource ledgers.
+**Use this when.** Use this pattern when the current claim aggregates measured or estimated resource use, such as effort, time, energy, material, information or cost, across identified accounting subjects. These may include dated Work occurrences, A.15.1 temporal or operational Work parts, event-bounded episodes, non-Work carrier phases with an established identity and `PhaseOf` relation, or boundary partitions with the relations needed for their resource account.
 
-**Not this pattern when.** If the current question is the method as a way of doing, use `A.3.1`. If it is a method description, SOP, algorithm text, simulator configuration, or formal expression, use `A.3.2`. If it is a work plan, use `A.15.2`. If it is whether Work occurred or which Work temporal part, episode, operational part, retry, resumption, or later occurrence is current, use `A.15.1`. If it is work-entry readiness, full-kit condition, or resource readiness before work entry, use `A.15.5`. If it is bounded aggregation of already recovered temporal relations without resource accounting, use `B.1.4`. If it is a transformation claim, use `A.3.4`. If resource gain leaves whole identity in question, use `B.2`; use `B.2.P` only when emergence-family wording is unresolved.
+**Not this pattern when.** If the current question is the Method as a way of doing, use `A.3.1`. If it concerns whether an episteme is a MethodDescription, or the use of its claims about a Method as a way of doing, use `A.3.2`. If it is a work plan, use `A.15.2`. If it is whether Work occurred or which Work temporal part, episode, operational part, retry, resumption, or later occurrence is current, use `A.15.1`. If it is work-entry readiness, full-kit condition, or resource readiness before work entry, use `A.15.5`. If it is bounded aggregation of already recovered temporal relations without resource accounting, use `B.1.4`. If it is a transformation claim, use `A.3.4`. If resource gain leaves whole identity in question, use `B.2`; use `B.2.P` only when emergence-family wording is unresolved.
 
-**What goes wrong if missed.** Resource, effort, time, energy, or cost totals are read from methods, plans, dashboards, or phase labels without a dated work occurrence, resource ledger, and overlap policy.
+**What goes wrong if missed.** A convenient resource total is taken from a method description, plan, dashboard or phase label without warranted input values, identified accounting subjects and a combination rule that handles any overlap.
 
-**What this buys.** The practitioner can reconstruct a resource total from its measurements, Work set, overlap facts, policy, and provenance, and check whether shared use has been counted more than once.
+**What this buys.** The practitioner can justify a typed total, vector, interval or bounded estimate from its input values, included subjects, accounting scope, time basis and operative rules, and check whether the same resource contribution has been counted more than once.
 
 ### B.1.6:1 - Problem Frame
 
@@ -43124,27 +43126,29 @@ Use `B.1.6` for the work-resource aggregation claim. Treat dated work occurrence
 
 ### B.1.6:1.0 - Problem
 
-Work-resource totals are often borrowed from plans, method descriptions, dashboards, or phase labels even when no performed-work evidence, resource-accounting basis, holon delimitation, time window, and overlap policy have been recovered. The failure is to treat a convenient total as a work-resource aggregation claim before the dated work occurrences and resource ledger are explicit.
+A convenient total becomes an unsupported resource claim when its input values, included subjects, accounting scope, time basis or combination rule are missing. Claims about performed Work also need evidence for those occurrences and their resource use; accounts that depend on holon delimitation, boundary crossing or stock relations need those relations established.
 
 ### B.1.6:1.1 - Forces
 
 | Force | Tension |
 | --- | --- |
 | Measured work vs. planned work | Expected yield, duration, or resource use helps planning, but cannot prove performed-work resource use. |
-| Typed resources vs. convenient totals | Energy, mass, time, cost, data volume, and attention can be compared only after their resource-accounting basis and conversion relation are declared. |
-| Boundary accounting vs. local convenience | Resource values are useful only when the holon delimitation, boundary-crossing relation, stock relation, and time window are named. |
-| Additivity vs. shared stocks | Disjoint partitions can be added; shared meters, tools, people, inventories, data, or ports need overlap and deduplication policy. |
+| Typed resources vs. convenient totals | Energy, mass, time, cost, data volume and attention need compatible accounting bases and any conversion required for the proposed comparison. |
+| Boundary accounting vs. local convenience | Resource values need an explicit accounting scope and time basis, together with any holon-delimitation, boundary-crossing or stock relations on which that account depends. |
+| Additivity vs. shared contributions | Disjoint resource contributions can be added; repeated inclusion of the same use, stock portion or contribution requires a justified allocation or deduplication rule. |
 | Efficiency vs. whole reidentification | Apparent free gain may be measurement, changed accounting basis, substitution, or a new whole; B.1.6 cannot decide that by resource wording alone. |
 
 ### B.1.6:2 - Solution — separate measurement from aggregation
 
-Start with one direct sentence:
+Start with the resource question and the values needed to answer it. State the result directly:
 
-> Dated aggregation work `W_agg` applied policy `P` to the exact C.16 resource-result epistemes for work set `W_set`, under declared work-part/overlap relations and accounting boundary `B`, and obtained aggregation result `R_agg`; C.2.1 episteme `E_agg` states that result and A.10/G.6 record its provenance.
+> Under rule `P`, the resource values attributed to the included subjects `S` within accounting boundary `B` and time window `T` yield typed result `R`, with the stated qualifications. The result statement identifies those inputs and grounds.
 
-If any referenced resource value lacks its resource Characteristic, measurement work, result episteme, Scale/Unit, uncertainty when current, or provenance, it is not repaired by adding a ledger row.
+A sufficient ordinary sentence or table can state this claim. Stop when it answers the receiving resource question with the required basis. If a needed input or relation remains unresolved, keep the dependent result or use unresolved while retaining supported components or a sufficient narrower result.
 
-`WorkResourceAggregation@Context` is a descriptive account for one aggregation claim:
+For each input, retain its subject, resource Characteristic, Scale, applicable Unit, attribution basis and uncertainty relevant to the use. A claimed performed measurement retains its C.16 Work and result; an estimated or derived value retains the source values, model and conditions that warrant it. A ledger row supplies no missing basis merely by displaying the value.
+
+`WorkResourceAggregation@Context` is one possible descriptive outline for the aggregation claim. Use it when that organization helps the receiving use; ordinary prose or another adequate representation can carry the same content. Fields marked `?` are included when the corresponding claim or use needs them; the conditions below govern their required content:
 
 ```text
 WorkResourceAggregation@Context:
@@ -43152,21 +43156,23 @@ WorkResourceAggregation@Context:
   claimScopeRef?: U.ClaimScope
   accountingBoundaryRefs
   timeWindowRefs
-  aggregatedWorkOccurrenceRefs
-  resourceUseRelationRefs
-  workPartOrOverlapRelationRefs
+  includedSubjectRefs
+  aggregatedWorkOccurrenceRefs?
+  resourceUseRelationRefs?
+  workPartOrOverlapRelationRefs?
   nonWorkCarrierPhaseRelationRefs?
   resourceCharacteristicRefs
-  measurementWorkRefs
-  measurementResultEpistemeRefs
-  aggregationMethodRef
+  resourceValueBasisRefs
+  measurementWorkRefs?
+  measurementResultEpistemeRefs?
+  aggregationMethodRef?
   aggregationOperationDeclarationRef?
   aggregationPolicyRef
   conversionOrNormalizationRefs?
-  aggregationWorkRef
+  aggregationWorkRef?
   aggregationResultRef
-  aggregationResultEpistemeRef
-  provenancePathRefs
+  aggregationResultEpistemeRef?
+  provenancePathRefs?
   admissibleUse
   stopOrReturnCondition
   nonAdmissibleOverread?
@@ -43174,30 +43180,30 @@ WorkResourceAggregation@Context:
 
 `stopOrReturnCondition` states when to stop or return to another pattern. Include `nonAdmissibleOverread?` only when it passes F.19's plausible-reader test. `groundedNonAdmissibleOverread?` is an alias for that same optional value.
 
-Recover each of these objects and claims independently:
+Recover the following content for the claims actually made and the use being proposed:
 
 - a **resource Characteristic** says which quantity or property is accounted for;
-- **measurement work** and a **C.16 measurement-result episteme** supply each attributed resource value, Scale, Unit, uncertainty, model, calibration, and time stance;
-- the **aggregation policy** declares inclusion, conversion, weighting, missing-value, partition, overlap, and deduplication rules;
-- **aggregation work** has its actual performer identified through A.13 and is independently admitted as dated `U.Work` through A.15.1; if the aggregation account must also identify the assignment under which the Work was performed, F.6 checks that relation separately; Method, actual inputs through direct relations or A.6.1 bindings, resources, and temporal extent remain separate;
-- the **B.1.6 aggregation result** is the typed total, vector, interval, or bounded estimate obtained under that policy and work set;
-- a distinct **C.2.1 aggregation-result episteme** states the result, work set, policy, boundary, time window, qualifications, and uncertainty; and
-- **A.10/G.6 provenance** makes the measurement sources, transformations, aggregation work, and result episteme replayable.
+- each **resource value** retains its attribution basis: a claimed performed measurement has C.16 measurement Work and a measurement-result episteme; an estimated or derived value keeps its source values, model and conditions. Retain Scale, applicable Unit, time stance, and the calibration and uncertainty basis needed for the use;
+- the **aggregation policy** states the inclusion rule and output kind, together with the conversion, normalization, weighting, missing-value, allocation, uncertainty and overlap rules needed to interpret or justify this result. Identify the policy edition when the result or its use depends on that edition;
+- when the claim deliberately asserts **dated aggregation Work**, or the receiving use needs that occurrence, A.13 identifies its actual performer and A.15.1 independently admits it as `U.Work`. If assignment-bound attribution is also needed, F.6 checks that relation separately. The Method, actual inputs through direct relations or A.6.1 bindings, resources and temporal extent retain their own grounds;
+- the **B.1.6 aggregation result** is the typed total, vector, interval or bounded estimate warranted by the input values, included accounting subjects and operative rules;
+- the **result statement** conveys the result, included subjects, rule, boundary, time basis, qualifications and relevant uncertainty. When the receiving claim or use needs a claim-bearing episteme, identify it through C.2.1 by its claim content, exact EntityOfConcern and effective ReferenceScheme. Keep the resource value, claim content, episteme and expression distinct; and
+- keep the **source basis** recoverable: the measurement or estimate sources, operative rules and derivations needed to justify the result. Use A.10 when source-to-use reliance must be replayable, and G.6 when that chain needs a stable address for citation, replay, audit or refresh. Apply G.11 when currentness affects the use.
 
-A ledger or other representation may describe this chain. Establish the Work, participation, measurements, aggregation, and result identities from their own grounds before relying on that description.
+A ledger or other representation may describe this account. Establish each Work, participation, measurement, part/overlap or result-identity claim on which the proposed use depends under its own predicate; an adequate existing representation can then carry the warranted result.
 
 #### B.1.6:2.1 - Subject Pattern Map
 
 | Current claim | Subject pattern |
 | --- | --- |
-| Resource Characteristic, Scale, Unit, measurement model/calibration, measurement work and result | `C.16` for measurement; A.13 for each actual performer; A.15.1 for independent Work admission; F.6 when the result must also identify the assignment under which the Work was performed; and A.6.1 for actual bindings |
+| Resource Characteristic, Scale, applicable Unit and value-attribution basis | `C.16` for measurement and derived value attribution; for a claimed measurement Work, A.13 identifies its actual performer and A.15.1 independently admits the occurrence. Add F.6 when assignment-bound attribution is needed, and A.6.1 for actual bindings when used. |
 | Dated aggregation Work and actual performer | A.13 identifies the actual performer, then A.15.1 independently admits the Work. Add F.6 only if the result must also identify the assignment under which the Work was performed. Method enactment and actual inputs remain separately governed, including A.6.1 bindings when used. |
 | Work temporal part, episode, operational part, partition, overlap, retry, resumption, or later occurrence | `A.15.1` and the exact Work relation pattern; use `B.1.4` only to aggregate already recovered temporal relations |
 | Proper temporal restriction of another enduring carrier | that carrier's direct identity pattern plus `A.14` `PhaseOf`; never a substitute for Work relations |
 | Overlap, shared-stock, boundary, and deduplication facts | C.27.TA for interval overlap; the exact stock, resource-use, boundary, or accounting relation pattern for the other fact |
 | Aggregation policy and typed aggregation result | `B.1.6` |
 | Measurement-result and aggregation-result epistemes | `C.2.1`; A.15.PROD only when their inception through work matters |
-| Source recovery and provenance | `A.10` and `G.6`; `E.17` for publication |
+| Source recovery, replayable reliance, provenance or publication | Recover the sources needed for the claim. Use `A.10` for a needed replayable source-to-use reliance account, `G.6` for a needed stable address of that chain, and `E.17` for a publication question. |
 | Edition currentness | `G.11` |
 | Planned work or resource readiness | `A.15.2` or `A.15.5`, never a measured aggregation result |
 | Transformation, whole reidentification, assurance, comparison, or decision | the applicable A.3.4, B.2, B.3, A.19, C.11, or other pattern for that exact claim |
@@ -43208,66 +43214,68 @@ A ledger or other representation may describe this chain. Establish the Work, pa
 
 ```text
 Gamma_work(workResourceAggregationRecord, resourceBasis, aggregationPolicy)
-  -> aggregationResultRef, aggregationResultEpistemeRef
+  -> aggregationResultRef [, aggregationResultEpistemeRef when required by the receiving claim or use]
 ```
 
-The notation applies only after the resource Characteristics, C.16 measurement Work and result epistemes, dated Work set, every A.15.1 Work-part relation used by the aggregation, any C.27.TA overlap fact used by it, any separately current non-Work carrier identity and `PhaseOf` relation, accounting boundary and time window, aggregation policy, and dated aggregation Work have been named. The notation then summarizes that recovered aggregation record.
+The notation summarizes an aggregation whose required basis has been recovered: resource Characteristics and input-value grounds; included accounting subjects and any Work-part, temporal-overlap, resource-use or stock relations used by the account; a non-Work carrier phase's identity and `PhaseOf` grounds when that phase is included; accounting scope, time basis and operative rules; and the typed result with its qualifications. Any deliberately asserted measurement or aggregation Work keeps its independent occurrence grounds. The notation adds none of those facts.
 
 ### B.1.6:4 - Ledger Discipline
 
-The ledger records the grounds needed to reconstruct the aggregation. For every resource component it records:
+A ledger can organize the grounds needed to reconstruct the aggregation. Whether using a ledger or another representation, retain for each resource component:
 
-- resource Characteristic, Scale, Unit, polarity when relevant, and accounting boundary;
-- exact measured or estimated subject, time window, and work occurrence to which the value applies;
-- C.16 measurement work and measurement-result episteme, including model, calibration, uncertainty, and provenance refs when current;
+- resource Characteristic, Scale, applicable Unit, polarity when relevant, and accounting boundary;
+- the measured or estimated subject, time window, and included Work occurrence, non-Work carrier phase or other admitted accounting subject to which the value applies;
+- the actual attribution basis: C.16 measurement Work and its result episteme for a claimed performed measurement, or the source values, model and conditions for an estimated or derived value, including the calibration and uncertainty basis needed for its use;
 - every A.15.1 Work-part relation used by the ledger, every C.27.TA overlap fact used by it, and any separately current non-Work carrier `PhaseOf`, each independently established by its subject pattern;
-- shared resource, meter, person, tool, stock, data, port, or time-window overlap and the exact deduplication rule;
-- conversions, normalizations, imputations, and their declared method/policy refs;
-- the aggregation policy edition and actual aggregation work occurrence;
-- aggregation result and distinct C.2.1 result episteme; and
-- A.10/G.6 source and provenance refs, G.11 currentness when current, admissible use, stop or reopen condition, and any guard justified by F.19's plausible-reader test.
+- whether component values include the same resource use, stock portion or attributed contribution, and the justified allocation or deduplication rule where they do;
+- any conversions, normalizations or imputations used, with the operative methods and rules;
+- the operative aggregation rule, its edition when the result or use depends on it, and the aggregation Work occurrence when that dated occurrence is asserted or required;
+- the typed aggregation result and its statement, with a separately identified C.2.1 result episteme when the receiving claim or use needs one; and
+- sources and derivations needed to justify the result; A.10/G.6 accounts under the conditions in §2; G.11 currentness when it affects use; and the admissible use, stop or reopen condition, with any guard justified by F.19's plausible-reader test.
 
-Measured, estimated, normalized, converted, allocated, and planned values remain visibly different. A planned value does not become a measurement result or performed-work resource use. A citation to a meter or invoice does not establish the measurement work; a ledger row does not establish work parthood or overlap.
+Keep visible which values are measured, estimated or planned, and which normalization, conversion or allocation has been applied. These descriptions can overlap: an estimated value may itself result from an indirect measurement. Its actual basis determines the claim. A planned value does not become a measurement result or performed-work resource use. A citation to a meter or invoice does not establish the measurement Work; a ledger row does not establish Work parthood or overlap.
 
 Use `PortionOf` only for a resource portion with its A.14 measure and additivity basis. Use `PhaseOf` only for a proper temporal restriction of one unchanged non-Work carrier after its direct identity rule and interval conditions hold. For Work, use A.15.1 `TemporalPartOf_work`, `EpisodeOf_work`, `OperationalPartOf_work`, or another admitted Work-part relation only between independently admitted Work participants after its predicate passes. Route interval overlap through C.27.TA. Use retry or resumption only through a locally declared species with the needed participant meanings, predicate, identity, cardinality, and applicability; otherwise keep separately identified occurrences. Belonging to a collection, common timestamps, shared identifiers, a phase label, or co-listing in the ledger establishes none of those relations.
 
 ### B.1.6:5 - Aggregation Rules
 
-**Typed resource basis.** Aggregate only values whose resource Characteristic, Scale, Unit, subject, and accounting boundary are compatible under the declared policy. Joules, hours, kilograms, currency, bytes, and attention do not become one scalar by co-location.
+**Typed resource basis.** Aggregate only values whose resource Characteristic, Scale, applicable Unit, subject and accounting boundary are compatible under the operative rule. Joules, hours, kilograms, currency, bytes and attention do not become one scalar by co-location.
 
 **Measurement before aggregation.** Each measured input points to exact C.16 measurement work and one measurement-result episteme. Raw meter output, indication, resource stock, attributed value, aggregation input, and later efficiency verdict remain distinct.
 
-**Exact Work set.** Name every dated Work occurrence included. Parent–child, `TemporalPartOf_work`, `EpisodeOf_work`, `OperationalPartOf_work`, and other admitted Work-part relations must already obtain between exact Work participants under A.15.1 or their direct subject patterns. Any overlap fact comes through its exact C.27.TA temporal declaration. A Method, plan, epoch or phase label, invoice period, or dashboard grouping does not establish the Work set.
+**Included accounting subjects.** Identify every subject included, including each dated Work occurrence and any non-Work carrier phase. Parent–child, `TemporalPartOf_work`, `EpisodeOf_work`, `OperationalPartOf_work` and other admitted Work-part relations must already obtain between independently admitted Work participants under A.15.1 or their direct subject patterns. A non-Work phase keeps its carrier's identity and `PhaseOf` grounds. For temporal overlap, recover the participants, temporal reference and interval facts under C.27.TA; establish resource-use or stock overlap under its direct accounting rule. A Method, plan, epoch or phase label, invoice period or dashboard grouping does not establish these subjects or relations.
 
-**Exact policy.** The aggregation policy states inclusion/exclusion, conversion, normalization, weighting, missing-value treatment, boundary allocation, uncertainty treatment, overlap/deduplication, and output kind. A policy declaration is not aggregation work or a result.
+**Operative policy.** State inclusion and output kind, and the conversion, normalization, weighting, missing-value, boundary-allocation, uncertainty and overlap/deduplication rules needed to interpret or justify the result. Identify the edition when the result or use depends on it. A policy declaration remains distinct from its application and result.
 
-**Overlap and shared stocks.** Addition is admissible only for disjoint partitions or after an exact policy handles overlap. Shared people, tools, meters, inventories, datasets, ports, and time windows require the direct shared-use/overlap fact and a justified allocation or deduplication rule.
+**Overlap and shared stocks.** Addition is admissible only for disjoint contributions or after a justified policy handles overlap. Determine whether the component values include the same resource use, stock portion or attributed contribution. Apply allocation or deduplication where they do; retain the established disjointness where they do not. Reuse of one person, tool or meter across distinct resource contributions does not by itself duplicate those contributions.
 
-**Aggregation work and result.** Use A.13 to identify the actual performer and A.15.1 to admit the dated aggregation Work independently. If the aggregation account must also identify the assignment under which the Work was performed, check that relation separately through F.6. Keep the Method, actual bindings, resources, and time separate. State the B.1.6 result as a typed total, vector, interval, or bounded estimate under the named policy and Work set; then state it in a distinct C.2.1 episteme.
+**Aggregation result and any asserted Work.** State the typed total, vector, interval or bounded estimate warranted by the input values, included subjects and rule, with the qualifications needed for its use. An ordinary statement or table can convey that result. When a claim-bearing result episteme is needed, identify it through C.2.1 as in §2, retaining the distinction between resource value, claim content and expression. When a dated aggregation occurrence is deliberately asserted or required, use A.13 to identify the actual performer and A.15.1 to admit that Work independently. Add F.6 when assignment-bound attribution is needed. The Method, actual bindings, resources and time retain their separate grounds.
 
-**Uncertainty and provenance.** Propagate measurement uncertainty and model/conversion uncertainty according to the exact aggregation policy. Use A.10/G.6 paths to record the established work, measurements, policy application, transformations, result, and sources.
+**Uncertainty and provenance.** Propagate measurement, model and conversion uncertainty under the operative rule where it affects the result or use. Keep the necessary sources and derivations recoverable. Use A.10 for needed replayable source-to-use reliance and G.6 for a needed stable address of that chain, preserving any Work, measurement, policy-application and transformation facts the use requires.
 
 **Plan/result separation.** Keep expected use from a method description or WorkPlan as planned and resource readiness under A.15.5. Use A.15.1 and the measurement or aggregation predicates for performed Work and measured results.
 
-**Efficiency and yield.** A ratio or yield claim names its input resource results, exact output/domain result, measurement bases, aggregation work, and comparison policy. It does not use a generic output-result relation. Apparent free gain remains a measurement, accounting-boundary, substitution, or whole-reidentification question until its subject pattern is recovered.
+**Efficiency and yield.** A ratio or yield claim names its input resource results, output or domain result, attribution bases and applicable comparison rule. Any asserted dated aggregation Work retains its independent grounds. Explain a claimed gain through the measurement, accounting and domain-result grounds on which it depends; use B.2 when whole identity remains the question.
 
 #### B.1.6:5.1 - Compact Obligation Rows
 
 | Obligation | What must be named |
 | --- | --- |
-| Resource input | Resource Characteristic, Scale/Unit, subject, C.16 measurement work/result episteme, uncertainty, time, and provenance |
-| Work set | Dated Work occurrences, every A.15.1 Work-part relation used by this aggregation, and every C.27.TA overlap fact it uses; any non-Work carrier phase keeps its own identity rule and `PhaseOf` relation |
-| Policy | Edition, inclusion, conversions, weights, missing values, boundary allocation, uncertainty, overlap/deduplication, and output kind |
-| Aggregation execution | Actual performer identified through A.13; dated `U.Work` independently admitted through A.15.1; a separate F.6 check when the result must also identify the assignment under which the Work was performed; separate Method, resources, and actual direct/A.6.1 bindings |
-| Aggregation result | Typed result, work set, policy, boundary, window, qualifications, and distinct C.2.1 episteme |
-| Provenance/currentness | A.10/G.6 paths and G.11 result when currentness affects use |
-| Later use | Exact receiving work and direct premise/reference/argument/decision-use relation |
+| Resource input | Characteristic, Scale, applicable Unit, subject, time basis, attribution grounds and uncertainty relevant to the use. A claimed performed measurement retains its C.16 Work/result; an estimate or derived value retains its sources, model and conditions. |
+| Included subjects | Identified accounting subjects, including each dated Work occurrence; every Work-part, temporal-overlap, resource-use or stock relation used by this aggregation; and the direct identity and `PhaseOf` grounds for any included non-Work carrier phase. |
+| Policy | Inclusion and output kind; every conversion, weighting, missing-value, allocation, uncertainty or overlap rule needed for the result or use; and an edition when either depends on it. |
+| Dated aggregation Work, when asserted or required | Actual performer identified through A.13; dated `U.Work` independently admitted through A.15.1; a separate F.6 check when assignment-bound attribution is needed; separate Method, resources and actual direct/A.6.1 bindings. |
+| Aggregation result | Typed result, included subjects, rule, boundary, time basis and qualifications, conveyed by an adequate statement. When the receiving claim or use needs a result episteme, identify it through C.2.1 as in §2. |
+| Source basis and currentness | Recoverable sources and derivations; A.10 when source-to-use reliance must be replayable, G.6 when that chain needs a stable address, and G.11 when currentness affects use. |
+| Later use | The receiving claim, action or judgement and any premise, reference, argument or decision-use relation it actually requires. |
 
 ### B.1.6:6 - Archetypal Grounding
 
+**Ordinary operator-time total.** Two existing records, with their value-attribution grounds, attribute one hour each to two admitted Work occurrences by the same operator. Their participant and time facts establish that these are distinct, disjoint resource contributions within the chosen accounting period. Addition yields two operator-hours; an existing table can state that result and its basis. This answer need not assert a separate dated occurrence of aggregation Work. If both entries instead copy the same one-hour contribution, adding them would double-count it: recover the common contribution and count it once, or leave the affected total unresolved until that identity is established.
+
 **Engine test programme.** C.16 measurement Work attributes fuel mass, electrical energy, operator time, and emissions values to exact subjects under their Scales, models, calibration bases, windows, and uncertainties. Each has its own result episteme. Exact test-run occurrences and obtaining A.15.1 Work-part relations define the included Work set; independently declared C.27.TA overlap facts state shared timing. A test-cell or engine phase enters only through the carrier's identity rule and proper phase relation. Shared warm-up energy is recorded under the exact temporal and resource-use facts. Dated aggregation Work applies `ProgrammeResourcePolicy-v3`, which allocates warm-up energy once and propagates input uncertainty. The B.1.6 result is a typed resource vector plus qualifications; a C.2.1 episteme states it. A later emissions verdict remains separate evaluation Work and result.
 
-**Manufacturing cell.** Welding and painting are two dated work occurrences. Electricity, gas, consumables, and labor time are separate resource Characteristics with measurement-result epistemes. A shared extraction fan and overlapping operator time require direct shared-use facts and an allocation policy. The resource ledger represents those facts. Establish any separately claimed Work-part relation or frame transformation through its direct pattern.
+**Manufacturing cell.** Welding and painting are two dated Work occurrences. Electricity, gas, consumables and labor time are separate resource Characteristics with measurement-result epistemes. Recover what each component includes: the same fan-energy contribution or operator-time contribution must not be counted twice. For a combined cell total, count a shared contribution once; if the question allocates it to individual jobs, apply a justified allocation rule. Distinct, disjoint uses of the same fan or operator remain separately countable. The resource ledger represents those facts. Establish any separately claimed Work-part relation or frame transformation through its direct pattern.
 
 **Model training.** Epoch labels alone do not establish work parts. Ground the training work and exact slices, then recover C.16 measurements for compute energy, storage traffic, and operator time. Aggregation work applies an edition-pinned policy to those result epistemes. The training Method, any algorithm text that qualifies as its MethodDescription, and the dated training Work remain distinct; trained-model identity, fairness result, provenance, assurance, and deployment decision stay with their subject patterns.
 
@@ -43275,47 +43283,46 @@ Use `PortionOf` only for a resource portion with its A.14 measure and additivity
 
 | Bias risk | Failure | Mitigation |
 | --- | --- | --- |
-| Plan becomes measurement or aggregation | Expected resource use is presented as performed work or an obtained total. | Keep the plan, dated work, C.16 measurement result, aggregation work, and B.1.6 result distinct. |
-| Boundary or phase word carries accounting | A port, interface, team, device, epoch, or phase label is used as Work parthood, overlap, or accounting boundary. | Establish the exact delimitation, A.15.1 Work relation or non-Work carrier identity and phase relation, stock, window, and policy before aggregation. |
+| Plan becomes evidence of actual use | Expected resource use is presented as evidence of performed resource use. | Keep the plan, any claimed dated Work, the actual value-attribution basis and the B.1.6 result distinct. |
+| Boundary or phase word carries accounting | A port, interface, team, device, epoch or phase label is used as Work parthood, overlap or accounting boundary. | Establish the accounting scope, time basis and operative rule, together with any delimitation, Work relation, carrier identity/PhaseOf, crossing or stock relation on which the account depends. |
 | Untyped total hides conversion | Hours, energy, material, money, and data are added as one number. | Keep resource vectors typed until an explicit conversion relation or model is declared admissible under the applicable measurement or mathematical-lens pattern. |
-| Shared stock is double-counted | The same person, tool, inventory, meter, dataset, or port appears in multiple work slices. | Declare overlap and deduplication policy, or narrow admissible use. |
-| Efficiency becomes emergence | Reduced resource use is treated as a new whole or synergy without reidentification. | Use measurement and evidence-use patterns first; use `B.2` when whole identity remains the question; use `B.2.P` for unresolved emergence-family wording. |
+| A resource contribution is double-counted | The same resource use, stock portion or attributed contribution is counted more than once. | Establish the repeated contribution and apply a justified allocation or deduplication rule, or restrict the result to the supported account. |
+| Efficiency becomes proof of a new whole | Reduced resource use is treated as proof of a new whole. | Use measurement and evidence-use patterns for the actual gain; use `B.2` when whole identity remains the question and `B.2.P` for unresolved emergence-family wording. |
 
 ### B.1.6:7 - Conformance Checklist
 
 | ID | Requirement |
 | --- | --- |
-| CC-B1.6-1 | Every resource component names its Characteristic, Scale/Unit, subject, time stance, C.16 measurement work/result episteme, and uncertainty/provenance when current. |
-| CC-B1.6-2 | The included dated Work occurrences, every A.15.1 Work-part relation used by the aggregation, every C.27.TA overlap fact it uses, and every separately used shared-stock relation are independently grounded; a separately used non-Work `PhaseOf` passes that carrier's direct identity rule. |
-| CC-B1.6-3 | The aggregation policy names inclusion, conversion, weighting, missing values, boundary allocation, uncertainty, overlap/deduplication, and output kind. |
+| CC-B1.6-1 | Every resource component names its Characteristic, Scale, applicable Unit, subject, time stance and attribution basis, with uncertainty relevant to use. A claimed performed measurement retains its C.16 Work and result; an estimated or derived value retains its sources, model and conditions. |
+| CC-B1.6-2 | Included accounting subjects and each relation used by the aggregation are independently grounded. Every included Work occurrence and used A.15.1 Work-part relation has its own basis; temporal overlap follows C.27.TA, resource-use or stock overlap follows its direct rule, and an included non-Work phase satisfies its carrier's identity and PhaseOf conditions. |
+| CC-B1.6-3 | The operative policy names inclusion and output kind, every additional rule needed to interpret or justify the result, and an edition when the result or use depends on it. |
 | CC-B1.6-4 | For dated aggregation Work, A.13 identifies the actual performer and A.15.1 independently admits the occurrence. F.6 is present only when the result must also identify the assignment under which that Work was performed. The Method, actual direct/A.6.1 bindings, resources, and temporal extent remain separate. |
-| CC-B1.6-5 | The B.1.6 aggregation result and the distinct C.2.1 result episteme are recoverable; neither is a ledger row or generic result field. |
-| CC-B1.6-6 | A.10/G.6 provenance and G.11 currentness remain separate from measurement and aggregation results. |
+| CC-B1.6-5 | The typed aggregation result and its statement are recoverable. When a claim-bearing result episteme is needed, its claim content, exact EntityOfConcern and effective ReferenceScheme are identified through C.2.1. The resource value, claim content, episteme and expression remain distinct. |
+| CC-B1.6-6 | Sources and derivations needed for the result are recoverable. Any required A.10/G.6 provenance account or G.11 currentness result remains separate from the measurement and aggregation results. |
 | CC-B1.6-7 | Planned values and A.15.5 resource readiness are not presented as measured performed-work aggregation. |
-| CC-B1.6-8 | A ledger, policy, profile, clause, citation, dashboard, or graph edge establishes none of work, participation, measurement, part/overlap, aggregation, or result identity. |
-| CC-B1.6-9 | Any yield, efficiency, comparison, assurance, transformation, whole-reidentification, or decision claim names its exact subject pattern. |
+| CC-B1.6-9 | Any yield, efficiency, comparison, assurance, transformation, whole-reidentification or decision claim names its applicable subject pattern. |
 
 ### B.1.6:8 - Common Anti-Patterns and How to Avoid Them
 
 | Overread | Repair |
 | --- | --- |
-| A method or algorithm is treated as the work-resource roll-up. | Use `A.3.1` or `A.3.2`; use `B.1.6` only for the resource aggregation claim. |
+| A method or algorithm is treated as the work-resource roll-up. | Recover the actual resource claim and its grounds through `B.1.6`. Use `A.3.1` for a separate Method question, or `A.3.2` for a MethodDescription membership or description-use question. |
 | A work plan is treated as measured work. | Use `A.15.2` for the plan and `A.15.1` for performed work evidence. |
 | A phase label or timeline is treated as a resource ledger or as proof of a Work relation. | Recover the exact subject first: A.15.1 for Work temporal parts or occurrences, the carrier's identity pattern plus A.14 for proper non-Work `PhaseOf`, and B.1.4 only for bounded aggregation of already recovered temporal relations. Add B.1.6 only when typed resource values are being aggregated. |
 | A resource gain is treated as emergence. | Use measurement and evidence-use patterns first; use `B.2` when whole identity remains the question; use `B.2.P` for unresolved emergence-family wording. |
-| A ledger, dashboard, or report total is treated as the aggregation result. | Recover the source publications, C.16 measurements, work set and relations, policy, dated aggregation work, B.1.6 result, C.2.1 episteme, and A.10/G.6 provenance. |
+| A ledger, dashboard or report total is relied on without the grounds its use requires. | Recover the existing result statement, input records, included subjects and relations, operative rule and qualifications. Preserve an adequate account; obtain only missing grounds under §§4–5. An asserted dated aggregation Work or a needed replayable provenance account retains its own requirements. |
 
 ### B.1.6:9 - Consequences
 
-This pattern defines a conservative predicate and result form for typed resource aggregation while keeping each input measurement, performed work occurrence, aggregation policy/application, result episteme, work relation, and provenance path distinct.
+This pattern grounds typed resource aggregation in attributed input values, identified accounting subjects, operative rules and the conditions of the receiving use. Measurement, performed Work, aggregation policy/application, result episteme, subject relations and provenance retain their separate grounds whenever claimed or needed.
 
-The cost is establishing the accounting basis. A comparison can then use totals whose measurements, boundaries, and aggregation policies are compatible, within the limits of their evidence.
+The cost is establishing the accounting basis. A comparison can then use totals whose value-attribution bases, boundaries and aggregation rules are compatible, within the limits of their evidence.
 
 ### B.1.6:9.1 - Rationale
 
-`B.1.6` exists because a convenient total can hide several ontically different chains. Its result is obtained only after exact resource measurement, work-set and overlap grounding, an edition-pinned aggregation policy, and dated aggregation work. The ledger represents that recovered account.
+`B.1.6` exists because a convenient total can hide different subjects, repeated contributions or incompatible value bases. A warranted result requires the input-value grounds, included subjects and relations, accounting scope, time basis and combination rule needed for that claim. Policy editions, dated aggregation Work and provenance accounts are added when the claim or receiving use depends on them. An adequate ledger or other expression can state this account.
 
-`Gamma_work` denotes the aggregation described by that account. A MethodDescription or WorkPlan can state expected yield or resource use; a measured aggregation requires evidence of dated Work and its resource use.
+`Gamma_work` denotes the aggregation described by that account. A MethodDescription or WorkPlan can state expected yield or resource use; a claim about actual use needs evidence for the included subjects and their attributed resource contributions. Any claimed performed Work retains its independent occurrence grounds.
 
 ### B.1.6:9.2 - SoTA-Echoing
 
@@ -43323,14 +43330,14 @@ The following contributions are adapted from the cited editions for work-resourc
 
 | Source | Contribution to the method | Use boundary |
 | --- | --- | --- |
-| [ISO 14040:2006 with Amendment 1:2020](https://www.iso.org/standard/37456.html) and [ISO 14044:2006 with Amendments 1:2017 and 2:2020](https://www.iso.org/standard/38498.html) | Adapt goal/scope, system-boundary, inventory, allocation, reporting, and intended-use discipline. Declare the boundary, Work set, allocation and overlap policy, output kind, and intended use before relying on the total. | An LCA boundary or reported total does not establish FPF Work parthood, measurement, aggregation Work, result identity, or admissibility for every later use. |
-| [GHG Protocol, *Product Life Cycle Accounting and Reporting Standard* (2011)](https://ghgprotocol.org/product-standard) | Adapt process subdivision or system expansion before allocation, physical or other justified allocation, and double-count control for shared processes and stocks. Ground the shared-use or overlap facts and apply one identified allocation or deduplication policy. | A common meter or convenient allocation key does not establish disjointness, Work structure, or a universal resource share. |
+| [ISO 14040:2006 with Amendment 1:2020](https://www.iso.org/standard/37456.html) and [ISO 14044:2006 with Amendments 1:2017 and 2:2020](https://www.iso.org/standard/38498.html) | Adapt goal/scope, system-boundary, inventory, allocation, reporting and intended-use discipline. Recover the boundary, included subjects, output kind, intended use and any allocation or overlap rules required by the account before relying on the total. | An LCA boundary or reported total does not establish FPF Work parthood, measurement, aggregation Work, result identity or admissibility for every later use. |
+| [GHG Protocol, *Product Life Cycle Accounting and Reporting Standard* (2011)](https://ghgprotocol.org/product-standard) | Adapt process subdivision or system expansion before allocation, physical or other justified allocation, and double-count control for shared processes and stocks. Recover which resource contributions overlap and apply justified allocation or deduplication where needed. | A common meter or convenient allocation key does not establish disjointness, Work structure or a universal resource share. |
 | [JCGM GUM-6:2020, *Developing and using measurement models*](https://doi.org/10.59161/JCGMGUM-6-2020) | Adapt input-quantity, model-adequacy, covariance, and uncertainty-propagation discipline. Retain input uncertainties, correlations and conversions, the propagation method, and qualified output uncertainty separately from provenance. | Source references and point totals do not propagate uncertainty; aggregation does not make incompatible models or quantities commensurable. |
 | [ISO 80000-1:2022, *Quantities and units — Part 1: General*](https://www.iso.org/standard/76921.html) | Adapt the distinctions among quantity kind, unit, quantity value, and dimension, and the use of coherent units, for typed inputs and outputs. Keep resource quantities distinct unless a conversion or normalization and output kind are justified. | A shared numeral, unit label, normalized score, or vector position does not justify cross-kind addition, scalarization, efficiency, or comparability. |
 
 ### B.1.6:10 - Relations
 
-- Builds on A.13 for actual performers, A.15.1 for independently admitted dated measurement or aggregation Work, F.6 when a result must also identify the assignment under which that Work was performed, and A.6.1 for declarations and actual bindings; C.2.1 governs measurement-result and aggregation-result epistemes.
+- For claims about dated measurement or aggregation Work, A.13 identifies actual performers and A.15.1 independently admits the occurrences. F.6 applies when assignment-bound attribution is needed; A.6.1 governs declarations and actual bindings when used. C.2.1 governs the measurement-result and aggregation-result epistemes.
 - Coordinates with `A.3.1`, `A.3.2`, and `A.15.2` for method, method description, and work plan.
 - Coordinates with `A.15.5` for work-entry readiness, full-kit condition, and resource readiness before work entry; B.1.6 may cite those refs but does not decide readiness.
 - Coordinates with `A.15.1` for exact Work temporal parts, episodes, operational parts, overlaps, retries, resumptions, and later occurrences; with `B.1.4` only for bounded aggregation of already recovered temporal relations; and with `C.27` for temporal-claim adequacy.
