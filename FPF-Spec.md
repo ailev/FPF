@@ -270,8 +270,8 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | B.3.3 | **Assurance Subtypes & Levels** | Stable | *Keywords:* use-qualified assurance, conceptual correspondence, verification, empirical validation, constructive support, assurance profile. *Queries:* "Does this evidence support the claim and use we actually rely on?", "What does this assurance level establish, and under which profile?" Distinguish support contributions without a universal maturity ladder or an irrelevant proof requirement. | **Builds on:** B.3. **Coordinates with:** A.10, C.28, B.3.4, B.3.5. |
 | B.3.4 | **Can Earlier Evidence Still Support This Use? — Evidence Decay and Epistemic Debt** | Stable | *Keywords:* evidence currentness, age, changed premise, qualification window, refresh, epistemic debt. *Queries:* "Can older evidence still support this unchanged use?", "Which changed condition requires reconsideration, narrower use or a worthwhile refresh?" Keep real rights, calibration and promised-use limits; interpret debt only under an adopted planning model, without automatic truth decay or risk acceptance. | **Builds on:** B.3. **Coordinates with:** A.10, C.11, C.19.2, C.27.TA, G.11. |
 | B.3.5 | **Assurance Grounding for Working-Model Relation Claims (CT2R-LOG)** | Stable | Use when a direct readable relation is already selected and you must decide whether a selected assurance profile needs a current support account. Keep collection-specific belonging and structural parthood separate; use the branch's current construction trace or other permitted support and declare its validation posture. If no profile is selected, keep the direct relation and stop. *Query:* "Do I need an additional assurance account for this already selected direct relation, and what current support does its branch require?" | **Builds on:** B.3, E.14, C.13. |
-| B.4 | **Coordinate Repeated Adaptation (Canonical Evolution Loop)** | Stable | Connect a subject's use, observations and cues about it, a proposed or actual change and renewed use. Apply its own identity rule to distinguish continuation, successor and separate Work occurrences; record only the phases that occurred. *Queries:* "How do observations lead to a change that is actually used?", "Did the subject change, or only its description?", "What remains open after deployment?" | **Builds on:** A.4, A.12. **Refined by:** B.4.1. **Carries embedded slices for:** knowledge instantiation and method instantiation. |
-| B.4.1 | **Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)** | Stable | Make possible continuations from a stabilized cue explicit, with their grounds and the missing facts that would distinguish them. Keep several routes live or state a justified selection; enter a downstream pattern only when its conditions hold. *Queries:* "Should this signal lead to intervention, inquiry or a requirement question?", "What would justify choosing one route?" | **Builds on:** A.16, A.16.1, C.2.2a. **Coordinates with:** B.5.2.0, C.16.Q, A.6.A, C.22.1. |
+| B.4 | **Coordinate Repeated Adaptation (Canonical Evolution Loop)** | Stable | Connect a subject's use, observations and cues about it, a proposed or actual change and renewed use. Apply its own identity rule to distinguish continuation, successor and separate Work occurrences; distinguish phases that occurred from proposed steps, and stop at a sufficient answer to the current question. *Queries:* "How do observations lead to a change that is actually used?", "Did the subject change, or only its description?", "What remains open after deployment?" | **Builds on:** A.4, A.12. **Refined by:** B.4.1. **Carries embedded slices for:** knowledge instantiation and method instantiation. |
+| B.4.1 | **Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)** | Stable | Make possible continuations from a stabilized cue explicit, with their grounds and any missing facts needed for use or selection. Keep several routes live or state a justified selection; apply a downstream pattern for a selected further task under its own entry conditions. *Queries:* "Should this signal lead to intervention, inquiry or a requirement question?", "What would justify choosing one route?" | **Builds on:** A.16, A.16.1, C.2.2a. **Coordinates with:** B.5.2.0, C.16.Q, A.6.A, C.22.1. |
 | B.5 | **Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)** | Stable | Use when an engineer or researcher has a question, surprising result or promising construction, but the next useful contribution is unclear. State what you want to understand or make possible; reuse an adequate result or choose the missing reasoning contribution. | **Coordinates with:** B.5.1 for development states, B.5.2 for explanation-led abduction, B.5.4 for situational recognition, B.5.EA for an experiential distinction not yet expressible, C.29 for mathematical-lens use, and A.10 for evidence reliance. |
 | B.5.EA | **Articulate a Working Distinction from Experience** | Stable | Use when a participant recognizes something consequential in their experience but cannot yet express the distinction needed to continue. Return to an accessible episode, develop a correctable expression and use the resulting question or relation. | **Coordinates with:** B.5 and B.5.FM for reasoning and model construction; B.5.4 for situational recognition; B.5.RR for changed premises; C.11.DUA for worthwhile further work. |
 | B.5.WN | **Develop Lines of Thought with Working Notes** | Stable | Use when retained observations, reading or tentative thoughts do not yet help develop a question or argument. Formulate one thought with its grounds, make a consequential connection, follow what changes and leave a usable return. Keep a sufficient project record for ordinary continuation. *Queries:* "How can these notes develop an argument?", "What question emerges from this connection?", "What should remain for a later occasion?" | **Coordinates with:** B.5.EA, B.5.QD and B.5.RR for articulation, question development and revision; A.6.3.RT.OE for an operative expression; A.15.10 and A.15.11 for resumption and encounters; C.2.8 and C.11.DUA for usable recovery and worthwhile effort. |
@@ -45803,44 +45803,46 @@ Reconsider the affected assertion when its member, rule, trace, or evidence chan
 > **Status:** Stable
 > **Type:** Pattern
 
-**Use this when.** Use this pattern when repeated adaptation must keep one exact subject's current identity, an observed basis, a proposed or actual successor, the Systems and dated Work that make the change, and renewed use connected. Name the subject kind first: System, episteme, Method, MethodDescription, or a sequence of distinct Work occurrences.
+**Use this when.** Use this pattern when repeated adaptation needs a connection between a subject's use, observations about it, a proposed or actual change, and renewed use. Identify the subject and its continuity question: a System, episteme, Method, MethodDescription, or sequence of distinct Work occurrences. Describe the activity and results needed for that connection; use the dated Work branch in B.4:4.2 when the receiving claim needs particular `U.Work` occurrences.
 
-**What goes wrong if missed.** Teams treat drift, learning, release, and improvement as unrelated events. Specifications become stale, operational surprises lose their evidence relation, and changes appear without a clear predecessor, successor, performing System, or dated Work. At the opposite extreme, one generic loop is imposed on every subject: a description edit is called a Method change, completed Work is said to be revised, or an internal adaptation is rejected because its acting System is not external.
+**What goes wrong if missed.** Teams treat drift, learning, release, and improvement as unrelated events. Specifications become stale, findings lose the evidence needed for their use, and changes appear without a clear basis or treatment of the subject's continuity. When particular Work is asserted, its performer and admission grounds can also be missing. At the opposite extreme, one generic loop is imposed on every subject: a description edit is called a Method change, completed Work is said to be revised, or an internal adaptation is rejected because its acting System is not external.
 
-**What this buys.** A compact, reviewable adaptation cycle whose identity rule comes from the subject pattern. It keeps observed basis, design-time change, run-time use, acting Systems, dated Work, evidence, publication, acceptance, and responsibility distinct while connecting only the facts needed by the receiving use.
+**What this buys.** An adaptation account whose identity rule comes from the subject pattern. It connects the observed basis, change and use while keeping the activities, evidence, publication, acceptance and responsibility claims that matter distinct.
 
 **Not this pattern when.** Not this pattern when one direct subject-pattern claim answers the change question without a repeated adaptation cycle. Use the direct relation pattern for relation grounding, adding `B.3.5` when its working-model assurance profile is required. Use `B.4.1` to publish candidate routes from a stabilized cue, `B.5.2` for abductive hypothesis work, `C.27` for temporal status, or `A.15` for method/work alignment without an adaptation-loop claim.
 
 ### B.4:1 - **Problem Frame**
 
-The FPF is built on the **Principle of Open-Ended Evolution (P-10)**: continued use can reveal reasons to adapt a System, an episteme, a Method, or a description. The useful commonality is a repeated move from use through an observed basis and an explicit change back to use. The identity question is not common. The same subject may continue through a change, a successor may be identified, or later dated Work may be a distinct occurrence rather than a revision of earlier Work. B.4 therefore supplies a shared cycle only after the relevant subject pattern has supplied that distinction.
+The FPF is built on the **Principle of Open-Ended Evolution (P-10)**: continued use can reveal reasons to adapt a System, an episteme, a Method, or a description. The useful commonality is a repeated move from use through an observed basis and an explicit change back to use. The identity question is not common. The same subject may continue through a change, a successor may be identified, or later dated Work may be a distinct occurrence rather than a revision of earlier Work. Use the relevant subject pattern to settle that distinction or retain the open continuity question while coordinating the next needed contribution.
 
 ### B.4:2 - **Problem**
 
 When use, observation, and change are disconnected, three failures can follow:
 
 1. **Design-reality divergence:** The subject in use diverges from its design-time account. Models and assurance cases can continue to describe conditions that no longer hold.
-2. **Unused findings:** Observation produces valuable findings, but no explicit change path carries them into a revised design or renewed use. "Lessons learned" remain static documents.
+2. **Unused findings:** A finding that calls for a response has no usable path to the needed decision, change or renewed use. "Lessons learned" remain static documents.
 3. **Unexplained change:** Reactive patches have no stated observed basis, identity decision, or return-to-use condition. Hidden dependencies and unintended consequences accumulate.
 
 ### B.4:3 - **Forces**
 
 | Force | Tension |
 | :--- | :--- |
-| **Stability vs. Change** | How to adapt continuously while retaining the identity and assurance commitments that still hold. |
+| **Stability vs. Change** | How to adapt while retaining the identity and assurance commitments that still hold. |
 | **Learning vs. Operating** | How to keep use stable enough to serve its purpose while gathering and acting on evidence. |
 | **Top-Down Intent vs. Bottom-Up Reality** | How to connect intended improvement with what actual use reveals. |
 
 ### B.4:4 - **Solution**
 
-Use the **Canonical Evolution Loop** as a coordinating cycle, not as a universal identity rule. First recover the exact subject and what continuity means for it. Then name the actual Systems and dated Work, traverse only the phases that occurred, and connect the result to renewed use.
+Use the **Canonical Evolution Loop** to connect the parts of repeated adaptation needed by the current question. Recover the subject and its continuity rule, then identify the relevant activities, results and dependencies. Keep proposed steps distinct from phases that occurred; use B.4:4.2 when a claim needs particular dated Work.
+
+Start from the available observations and results. If they answer the receiving question, return that result without requiring another phase. Keep the current subject and use when those grounds support doing so. If a needed premise remains unresolved, state that limit and the contribution still needed. Develop a change or gather further evidence when the remaining decision requires it, reusing adequate results whose conditions still hold.
 
 #### B.4:4.1 - Name the subject and continuity question
 
 | Subject kind | State before using the shared cycle |
 | :--- | :--- |
 | **System** | Name the current System and the relevant continuity or transformation rule. State whether the changed System remains the same System or whether a successor System is identified. Use `A.1` for System recognition, `A.3.4` for an actual bounded change of the continuing System, and `A.15.PROD` when the claim concerns first existence through production Work. |
-| **Episteme** | Identify the earlier and later epistemes under `C.2.1`. Assert an `EpistemeEditionRelation` only when its historical-continuation conditions obtain; otherwise state replacement or another direct relation. |
+| **Episteme** | Identify the episteme or epistemes actually involved under `C.2.1`. Assert an `EpistemeEditionRelation` only when its historical-continuation conditions obtain. State replacement or another direct relation only when its own grounds obtain; retain any unresolved continuity question. |
 | **Method** | Identify the current Method under `A.3.1`. If intended results, participant meanings, admissible conditions, safety bounds, semantic basis, acceptance criteria, or composition change, state whether the result is a refinement, substitute, or distinct successor Method. Use `B.1.5` when order-sensitive composition is current. |
 | **MethodDescription** | Identify each exact claim-bearing episteme under `A.3.2` and `C.2.1`, and any obtaining edition relation. A later description does not by itself change the Method it describes. |
 | **Work** | Identify each dated occurrence under `A.15.1`. Completed Work is not revised: later review, repair, deployment, or follow-up is other Work, even when the occurrences belong to one longer effort. |
@@ -45849,26 +45851,26 @@ Not every holon is an adaptation-loop subject, and the five branches are not int
 
 #### B.4:4.2 - Separate the changed subject from the acting side
 
-Name the acting System separately from the subject being changed. A System performs each actual piece of Work. The changed subject, performing System, dated Work, Method enacted by that Work, and result remain distinct. Practitioner prose can still say "the engineer refined the design" or "the controller adjusted the valve" when that recognizable actor and action are enough. If that ordinary sentence is all the receiver needs, do not open a technical Work account. If B.4 identifies one particular dated `U.Work` occurrence, first recover every actual performer's A.13 core and independently admit the Work under A.15.1 from its performance history, enacted Method, temporal extent, and containing System. Add F.6 only when the receiving claim also needs precise assignment-bound attribution. A short B.4 account may omit an unused assignment identifier or classification only when every relation it consumes remains recoverable.
+Name the acting participant separately from the subject being changed. A System performs each actual piece of Work. The changed subject, performing System, dated Work, Method enacted by that Work, and result remain distinct. Practitioner prose can still say "the engineer refined the design" or "the controller adjusted the valve" when that recognizable actor and action are enough. If that ordinary sentence is all the receiver needs, do not open a technical Work account. If B.4 identifies one particular dated `U.Work` occurrence, first recover every actual performer's A.13 core and independently admit the Work under A.15.1 from its performance history, enacted Method, temporal extent, and containing System. Add F.6 only when the receiving claim also needs precise assignment-bound attribution. A short B.4 account may omit an unused assignment identifier or classification only when every relation it consumes remains recoverable.
 
 The performing System need not be external to the larger holon. For internal adaptation, apply the `A.12` reflexive split: identify the changed subsystem or part and the acting subsystem or part as exact, distinct participants, and establish their parthood in the containing holon independently. Use an external System when the case has one. Apply the same Work-admission and conditional attribution rules above to either acting side. State authority, responsibility, permission, acceptance, or admission through its own direct predicate, actual participants, and applicability basis; neither a phase label nor Work supplies them.
 
 #### B.4:4.3 - Keep the four phase claims distinct
 
-These phases distinguish questions and results, not necessarily disjoint clock intervals. Operation and observation can overlap; state the actual Work occurrences and any result dependencies needed by the transition.
+These phases distinguish questions and results, not necessarily disjoint clock intervals. Operation and observation can overlap. Identify the activities and result dependencies needed for the current transition; qualify particular Work claims under B.4:4.2.
 
 | Phase | Current question | Output and boundary |
 | :--- | :--- | :--- |
 | **1. Operate** | How is the current subject actually operating or being used? | Name the current use or operation and any records that actually exist. Monitoring may occur, but a record does not by itself establish an observation, comparison, or change. |
-| **2. Observe** | What do records, measurements, testimony, or other evidence show for the named use? | Name the observation, comparison, or interpretation Work. Separately identify the observed basis, finding, hypothesis, or still-unclear cue through the direct result or evidence rule that actually applies; Work has no generic result field. Observe does not yet choose a change. |
-| **3. Refine** | What change should be developed and tested in response, and what identity relation would that change have? | Name the design, revision, selection, and testing Work. Separately identify the selected candidate and the subject-specific identity question or intended treatment. State a continuity, successor, substitution, refinement, or edition relation only when its exact endpoints exist and its own conditions obtain. Refine does not make the candidate available for renewed use. |
-| **4. Deploy** | What concrete deployment Work occurred for the selected candidate? | Name that Work. Then state separately what actually happened—for example, a changed or produced entity, publication, configuration, release, or availability—using the rule that establishes that fact. Acceptance, admission, and actual later use remain separate facts. |
+| **2. Observe** | What do records, measurements, testimony, or other evidence show for the named use? | Identify the observation, comparison or interpretation and who carried it out when that matters. State the observed basis, finding, hypothesis or still-unclear cue under the applicable result or evidence rule, including what remains unresolved. A sufficient observation result can finish the current question before a change is selected. |
+| **3. Refine** | What change, if any, does the receiving use need, and what identity relation would it have? | Develop or select a candidate change when needed. Establish the grounds required for its intended use, reusing applicable results and performing any needed revision or tests. State a continuity, successor, substitution, refinement or edition relation only when its endpoints exist and its conditions obtain; otherwise retain the identity question or intended treatment. A selected candidate alone does not establish availability for renewed use. |
+| **4. Deploy** | How was the selected change made available for use? | Identify the actual deployment activity and what it established—for example, a changed or produced entity, publication, configuration, release or availability—under the rule for that fact. Acceptance, admission and actual later use remain separate claims. |
 
 Use explicit transition conditions:
 
 1. **Operate -> Observe:** a named cue, question, monitoring result, or review need requires interpretation.
-2. **Observe -> Refine:** the receiving use has an observed basis or a routed cue from which a change question can be formed.
-3. **Refine -> Deploy:** one candidate is selected and its subject-specific identity question or intended treatment is explicit. State an obtaining continuity, successor, substitution, refinement, or edition relation here only when both endpoints already exist; otherwise keep the question open until the relevant change or production has occurred.
+2. **Observe -> Refine:** the remaining question requires considering a change, and an observed basis or routed cue supports forming that change question.
+3. **Refine -> Deploy:** one candidate is selected, the conditions required for that deployment are met, and its subject-specific identity question or intended treatment is explicit. State an obtaining continuity, successor, substitution, refinement, or edition relation here only when both endpoints already exist; otherwise keep the question open until the relevant change or production has occurred.
 4. **Deploy -> Operate:** actual renewed operation or use begins; availability alone does not close this transition.
 
 Evidence is not a fifth phase. Evidence relations warrant the observed basis, candidate choice, transition, or renewed-use claim when a receiver relies on them. Evidence can be produced or used during several phases without duplicating those phases.
@@ -45877,30 +45879,30 @@ Evidence is not a fifth phase. Evidence relations warrant the observed basis, ca
 
 The Canonical Reasoning Cycle (`B.5`) can supply reasoning Work within Observe and Refine. The B.5.1 development states and B.4 phases coordinate, but they are not a one-to-one implementation: a finding may reopen Exploration or Shaping, evidence use can support Evidence, and renewed use can enter or return to Operation.
 
-When Observe finds only a weakly articulated cue, use the optional `B.4.1` sequence **Notice -> Stabilize -> Route**. Its routed result can return to Refine or enter another subject pattern. That sequence does not replace the four B.4 phases.
+When a preserve-worthy cue needs publication while its interpretation remains open, `A.16.1` supplies a `PreArticulationCuePack`. Use `B.4.1` after stabilization when a recipient needs possible continuations or a route choice made explicit. Its routed result can return to Refine or enter another subject pattern when that pattern's entry conditions hold.
 
-Keep the account proportional. A local repair can name only the current subject, observed basis, actual Work, resulting identity relation, and next use. Expand to a complete cycle trace when a named relying decision, assurance case, audit, or later replay needs it. Never invent phases merely to make the record look complete.
+Keep the account proportional. A local answer can identify the current subject, observed basis, what occurred, the supported identity conclusion or open question, and the next use or contribution still needed. A sufficient answer need not complete another phase. Expand to a complete cycle trace when a named relying decision, assurance case, audit or later replay needs it; retain missing phases as missing.
 
 > **Didactic Note: four practical questions**
 >
 > 1. **Operate:** What exact subject is operating or being used now?
-> 2. **Observe:** What has actual use shown, and through whose Work?
+> 2. **Observe:** What has actual use shown, and who made the observation or interpretation when that matters?
 > 3. **Refine:** What change is being considered, and would it continue or replace the subject?
-> 4. **Deploy:** What deployment Work occurred, and what separately established fact now supports the next use?
+> 4. **Deploy:** How was the selected change made available, and what separately established fact now supports the next use?
 >
-> The gain is a readable connection from an observed basis to a real change and back to use, without losing subject identity, performers, Work, or evidence.
+> The gain is a readable connection from an observed basis to a real change and back to use, preserving the subject's identity, the relevant activities and results, and their grounds.
 
 ### B.4:5 - **Archetypal Grounding**
 
 The phase names can be shared, but each subject branch keeps its own identity and return-to-use rule.
 
-* **B.4.1 - Observe -> Notice -> Stabilize -> Route (optional pre-abductive route):**
+* **Cue preservation and optional B.4.1 routing:**
   * **Context:** A fleet of autonomous delivery drones (`U.System`) is in operation, and operators begin to notice that winter deliveries feel "off" before a clean anomaly statement exists.
   * **Loop Example:**
     1. **Operate:** The drones perform deliveries.
     2. **Observe:** The monitoring service and named operators perform observation Work and find recurring cold-weather battery strain, but the cue still has low articulation.
     3. **Optional B.4.1 route inside Observe:** A named team performs stabilization Work. Under `A.16.1`, a `PreArticulationCuePack` preserves the cue nucleus, primary witness traces, and current language-state position without pretending that a final anomaly or action record exists; when the pack is made available for this use, name the separate publication occurrence under `E.24.PUB`. The same or another team performs routing Work. Under `B.4.1`, a `RoutedCueSet` keeps multiple continuations visible—for example, battery-chemistry investigation or route-planning adjustment; again, name its publication occurrence under `E.24.PUB` when availability matters.
-    4. **Continue the loop:** The selected route enters Refine or another fitting subject pattern. Only a selected and tested change proceeds to Deploy and renewed drone operation.
+    4. **Continue when needed:** When a route is selected and its entry conditions hold, it enters Refine or another fitting subject pattern. While selection remains open, retain the live routes and any unresolved conditions relevant to their use or selection. A selected change proceeds to Deploy when its required deployment conditions have been established; renewed drone operation is a further actual event.
 
 * **Knowledge-instantiation slice (theory refinement loop):**
   * **Context:** A scientific theory of protein folding (`U.Episteme`) is used to predict structures.
@@ -45908,9 +45910,9 @@ The phase names can be shared, but each subject branch keeps its own identity an
     1. **Operate:** Named researchers perform theory-application Work using the current theory episteme.
     2. **Observe:** A research lab performs observation Work. A separately identified `C.2.1` finding episteme states that the current theory fails to predict the structure of a protein class; name separately any `E.24.PUB` publication occurrence that makes this finding available.
     3. **Refine:** A research team performs revision and testing Work. A later theory episteme, identified under `C.2.1` from its changed claim content, includes a term for the new protein class. Assert an edition relation between the two theory epistemes only if that relation obtains.
-    4. **Deploy:** The team performs publication Work for the later theory. The publication occurrence, journal acceptance, admission into a configured knowledge base, and later community use are separate relations. **Note.** If a *chart* or CG-frame readings are derived from this episteme, they MUST cite the `MethodDescription` of the measurement protocol actually used (per A.19.CN CC-A19.D1-3) to keep comparability auditable.
+    4. **Deploy:** The team performs publication Work for the later theory. The publication occurrence, journal acceptance, admission into a configured knowledge base, and later community use are separate relations. **Note.** If a CN-frame is used for a chart or CG-frame readings derived from this episteme, identify the chart's reference state and coordinate patch. For measured values, cite the applicable measurement method and protocol; for evaluated or otherwise ascribed values, cite the rule and basis that establish them, as required by A.19.CN CC-A19.D1-3.
 
-  **Adaptive-specialization note.** When the knowledge-instantiation slice carries a bounded-specialization claim for one declared task family, that claim **SHALL** name the prior basis being refined from, the named work-measure threshold being pursued, the adaptation budget being spent, and the freshness or provenance basis for claiming the specialization is reusable. If the refinement is claimed as one specialization step, it **SHALL** also cite the declared `TaskFamily` or `TaskSignature` anchor consumed by `C.22.1`, `G.5`, and `G.9`. This keeps the refinement legible as contextual task-family specialization rather than vague general capability growth.
+  **Adaptive-specialization note.** For a bounded task-family specialization claim, identify the bearer, declared task family or work target, prior basis and the result the refinement supports. Use `C.22` for the needed `TaskFamily` or `TaskSignature` anchor. Use `C.22.1` when the receiving question concerns specialization acquisition or its claimed transfer, retention, downside or corridor entry; preserve its acquisition fields and any additional claim-specific grounds. Ordinary task-family and threshold anchoring can finish under `C.22` without an acquisition signature.
 
 * **Method-instantiation slice (adaptive method loop):**
   * **Context:** A field-maintenance organization uses a declared inspection-and-repair Method (`U.Method`) described by one current `U.MethodDescription`.
@@ -45920,24 +45922,24 @@ The phase names can be shared, but each subject branch keeps its own identity an
     3. **Refine:** Method maintainers perform revision and testing Work. A wording clarification can yield a later MethodDescription while the same Method remains current. Adding an earlier isolation action or changing a classification checkpoint can instead change identity-bearing Method semantics; decide under `A.3.1` whether the result is a refinement, substitute, or distinct successor Method, and use `B.1.5` if its composition changes. Then identify the MethodDescription episteme that describes the chosen Method.
     4. **Deploy:** A named publishing team performs publication or release Work for the later MethodDescription and, where needed, configuration or training Work for renewed Method use. Decision results, authority, acceptance, admission, and later Work that enacts the Method remain separate. Completed maintenance Work is never revised.
 
-  **Adaptive-specialization note.** When the method-instantiation slice carries a bounded-specialization claim for one declared task family, that claim **SHALL** name the narrower higher-fit specialist method or specialist portfolio being activated, the refinement budget being spent, the escalation or commit checkpoints, and the fallback when that method fails. If the method update is being used as evidence of specialization, the note **SHALL** keep the bearer of that specialization explicit: the holder, dyad, team, or scoped portfolio carries the claim; the method is only one selected vehicle. This keeps method evolution reviewable as bounded specialist acquisition rather than as hidden budget inflation.
+  **Adaptive-specialization note.** When the method-instantiation slice carries a bounded task-family specialization claim, identify the selected specialist Method or portfolio and the grounds for its claimed fit. When the Method update is used as evidence of specialization acquisition, name the holder, dyad, team or scoped portfolio that carries that claim and explain what the Method change contributes. Use the `C.22.1` branch above for the acquisition or reuse question. Retain any budget, escalation or commit checkpoint, and fallback required by the selected plan or use.
 
 ### B.4:6 - **Bias-Annotation**
 
 | Bias | Symptom | Correction |
 | :--- | :--- | :--- |
-| Self-evolution bias | The subject is said to observe, refine, or deploy itself, so the performing System and its Work disappear. | Name the changed subject and distinct acting side. Ordinary actor wording can remain short. When one particular dated `U.Work` is identified, recover each performer's A.13 core and independently admit the occurrence under A.15.1; add F.6 only when precise assignment-bound attribution is current. A short account may omit an unused assignment identifier only when every relation it consumes remains recoverable. The acting side may be external, or it may be an exact distinct subsystem or part established through the `A.12` reflexive split. |
-| Design-time/run-time smear | A live operational change is treated as if it had already updated the design-time episteme, or a design-time edit as if it had already changed the System in operation. | Keep the design-time episteme, run-time System or use, deployment Work, evidence relation, and renewed use distinct. |
+| Self-evolution bias | The subject is said to observe, refine, or deploy itself, so the acting participant and activity disappear. | Name the changed subject and distinct acting side. Ordinary actor wording can remain short. When one particular dated `U.Work` is identified, recover each performer's A.13 core and independently admit the occurrence under A.15.1; add F.6 only when precise assignment-bound attribution is current. A short account may omit an unused assignment identifier only when every relation it consumes remains recoverable. The acting side may be external, or it may be an exact distinct subsystem or part established through the `A.12` reflexive split. |
+| Design-time/run-time smear | A live operational change is treated as if it had already updated the design-time episteme, or a design-time edit as if it had already changed the System in operation. | Keep the design-time episteme, run-time System or use, deployment activity, evidence relation, and renewed use distinct. |
 | Method/description smear | A MethodDescription edit is called a Method change, or a changed Method is hidden as a documentation update. | Test Method identity under `A.3.1` and composition under `B.1.5`; identify MethodDescription editions separately under `A.3.2` and `C.2.1`. |
 
 ### B.4:7 - **Conformance Checklist**
 
-* **CC-B4.1 (Proportional loop integrity):** Record the actual path from observed basis through change to renewed use. A complete phase-by-phase trace is required only when a named relying decision, assurance case, audit, or replay needs it. Do not invent a phase or claim completion merely to fill a loop.
+* **CC-B4.1 (Proportional loop integrity):** Connect the observed basis to the actual change and renewed use where they occurred, or to the sufficient answer or unresolved condition returned by the current question. A complete phase-by-phase trace is required only when a named relying decision, assurance case, audit or replay needs it. Keep proposed phases distinct from actual events.
 * **CC-B4.2 (Subject identity):** Name the exact subject kind and apply its direct continuity rule: System continuity or transformation; episteme predecessor, successor, or edition; Method identity, refinement, substitution, or successor; MethodDescription edition; or separate dated Work occurrences.
 * **CC-B4.3 (Acting-side distinction):** Work that observes or changes a subject **MUST** have an identified performing System distinct from the changed subject in that Work account. Internal adaptation is permitted when `A.12` establishes exact distinct subsystems or parts and their independently obtaining parthood. Every particular dated `U.Work` reuses each performer's A.13 core and is independently admitted under A.15.1; F.6 is added afterward only for precise assignment-bound attribution. Its short B.4 account may omit an assignment identifier unused by the receiver only when every consumed relation remains recoverable.
-* **CC-B4.4 (Adaptive-specialization anchoring):** When the knowledge-instantiation or method-instantiation slice carries a bounded-specialization claim, that claim **MUST** name the declared `TaskFamily` or `TaskSignature`, the work-measure threshold target, the adaptation budget, and the freshness or provenance basis for reuse.
-* **CC-B4.5 (Adaptive-specialization boundary):** The knowledge-instantiation and method-instantiation slices **SHALL NOT** silently re-govern selector or parity semantics. If transfer, retention, downstream exploitation efficiency, corridor entry, or downside cost are comparison-relevant, the pattern-local note **MUST** leave those fields recoverable by the downstream `C.22.1`, `G.5`, and `G.9` patterns.
-* **CC-B4.6 (Phase and transition separation):** Operate, Observe, Refine, and Deploy **MUST** have the distinct outputs and transition conditions stated in B.4:4.3. Evidence use and optional B.4.1 cue routing do not become duplicate phases.
+* **CC-B4.4 (Adaptive-specialization anchoring):** A bounded task-family specialization claim **MUST** identify its bearer, declared `TaskFamily` or `TaskSignature`, work target, claimed result and grounds. When a `C.22.1` adaptation signature is selected, retain its threshold target, `timeToThreshold`, `budgetToThreshold` and `priorExposureDeclaration`, including a not-reached or unresolved result when the history warrants it.
+* **CC-B4.5 (Adaptive-specialization boundary):** Claimed transfer, retention, post-threshold efficiency, corridor entry and downside **MUST** retain the targets, baselines, windows and evidence required by the claim or receiving comparison. `C.22.1` defines the selected adaptation-signature meanings; `G.5` and `G.9` retain their selector and parity rules when consuming that result.
+* **CC-B4.6 (Phase and transition separation):** Each claimed phase and transition **MUST** retain its distinct question, result and applicable conditions from B.4:4.3. Evidence can be used across phases, and cue preservation or routing can contribute within Observe without requiring another phase.
 * **CC-B4.7 (No success inference):** Deployment or publication establishes neither acceptance nor successful renewed use. Record failure, reopening, fallback, or another iteration when that is what occurred.
 
 ### B.4:8 - **Common Anti-Patterns and How to Avoid Them**
@@ -45945,8 +45947,8 @@ The phase names can be shared, but each subject branch keeps its own identity an
 | Anti-pattern | Observable symptom | Repair |
 | :--- | :--- | :--- |
 | **Change without a basis** | A feature or design appears with no observed basis or identity decision. | **CC-B4.1** and **CC-B4.2** connect the change to an observed basis and state whether the subject continues or has a successor. |
-| **Unidentified internal adaptation** | "The system automatically improves itself" hides who or what performed the Work. | **CC-B4.3** requires a distinct acting-side System. An internal control or adaptation loop is valid when exact internal participants, their parthood, the Work, Methods, and phase transitions are identified; physical externality is not required. |
-| **Incomplete hotfix account** | A quick run-time repair is reported as a complete successful loop, although design repair, evidence, or renewed-use confirmation did not occur. | Record only the urgent observation, change Work, deployment, and immediate result that actually occurred. Later description repair, testing, assurance, and follow-up operation are separate Work and may reopen the loop. |
+| **Unidentified internal adaptation** | "The system automatically improves itself" hides who or what performed the activity. | Identify who or what changes which subject. Use **CC-B4.3** for a Work claim. For an internal acting side, recover the distinct participants and their parthood under `A.12`, together with the Work, Method and phase facts the receiving claim consumes; physical externality is not required. |
+| **Incomplete hotfix account** | A quick run-time repair is reported as a complete successful loop, although design repair, evidence, or renewed-use confirmation did not occur. | State only the urgent observation, change activity, deployment and immediate result that occurred. Later description repair, testing, assurance and follow-up operation are subsequent activities and may reopen the loop; qualify any particular Work occurrences under B.4:4.2. |
 
 ### B.4:9 - **Consequences**
 
@@ -45954,17 +45956,17 @@ The phase names can be shared, but each subject branch keeps its own identity an
 | :--- | :--- |
 | **Connects learning to change:** The loop relates an observed basis, a change, and renewed use across repeated adaptations. | **Record overhead:** A full trace is too heavy for many local changes. *Mitigation:* keep the account proportional to the receiver and expand it only for reliance, assurance, audit, or replay. |
 | **Exposes design-reality divergence:** Separate phase outputs make stale descriptions, failed deployment, and missing renewed use visible. | **No automatic success:** The loop cannot guarantee reconciliation. Deployment can fail, evidence can overturn a candidate, and renewed use can reveal another problem. |
-| **Makes evolution auditable:** Named subjects, Systems, Work, identity relations, and evidence let a reviewer reconstruct why a change was made. | **Several patterns remain necessary:** B.4 coordinates their results; it does not replace the subject's identity, Work, evidence, publication, or acceptance patterns. |
+| **Makes adaptation inspectable:** Named subjects, actual activities, identity conclusions and evidence let a reviewer reconstruct why a change was made. | **Needed subject contributions:** B.4 coordinates the identity, Work, evidence, publication or acceptance results on which the current use depends. |
 
 ### B.4:10 - **Rationale**
 
-This pattern operationalizes the **Open-Ended Evolution Principle (P-10)** by connecting use, observation, explicit change, and renewed use. It does not supply one generic ontology of evolution. Subject patterns decide identity and continuity; Systems perform dated Work; evidence supports relied-on claims; and B.4 makes their repeated coordination inspectable.
+This pattern operationalizes the **Open-Ended Evolution Principle (P-10)** by connecting use, observation, explicit change, and renewed use. Subject patterns decide identity and continuity. The account distinguishes actual activities and their results and retains the evidence needed for relied-on claims. B.4 makes their coordination inspectable while permitting a sufficient local answer to stop before another phase.
 
 ### B.4:10.1 - **SoTA-Echoing**
 
-The phase rhythm has historical lineage in iterative cycles such as Plan-Do-Check-Act and Observe-Orient-Decide-Act. B.4 adapts that lineage rather than treating those labels as an ontology: it distinguishes design-time accounts from run-time use, applies a kind-specific identity rule, identifies actual Systems and dated Work, admits internal acting-side splits, and keeps evidence, deployment, publication, acceptance, and renewed use separate.
+The phase rhythm has historical lineage in iterative cycles such as Plan-Do-Check-Act and Observe-Orient-Decide-Act. B.4 adapts that lineage rather than treating those labels as an ontology: it distinguishes design-time accounts from run-time use, applies a kind-specific identity rule, identifies relevant activities and results, admits internal acting-side splits, and keeps evidence, deployment, publication, acceptance, and renewed use separate.
 
-The result is a practical review language for repeated adaptation. It avoids both agentless "self-evolution" stories and the opposite mistake of requiring every acting System to be external. Canonical means the four questions recur; it does not mean every subject or project follows one identical history.
+Canonical means the four questions recur across repeated adaptation; it does not mean every subject or project follows one identical history.
 
 ### B.4:11 - **Relations**
 
@@ -45975,7 +45977,7 @@ The result is a practical review language for repeated adaptation. It avoids bot
 
 #### B.4:11.1 - Pre-abductive seam compatibility
 
-For early language-state routing, Observe does not have to jump directly into anomaly or hypothesis forms. Observe may publish a `PreArticulationCuePack` and a `RoutedCueSet` through `B.4.1`; a selected route then enters Refine or another fitting pattern. A downstream loop consumes the routed cue publication directly or a later typed publication such as `U.AbductivePrompt`, as appropriate.
+During Observe, use `A.16.1` when a cue needs publication while its interpretation remains open, and `B.4.1` when possible continuations or a justified route choice need publication. Keep multiple routes live while selection is unresolved. A selected route can enter Refine or another fitting pattern when the receiving work calls for that continuation and its entry conditions hold. The receiving operation can use the routed cue publication directly or an available later typed publication such as `U.AbductivePrompt`, as appropriate.
 
 ### B.4:End
 
@@ -46017,12 +46019,12 @@ The route publication should identify:
 - the **route decision state**,
 - the **selected route**, if any,
 - the **grounds for each live route**,
-- the **conditions that would change route ranking**,
+- any **conditions that would change the candidate set or its selection**,
 - and any **typed downstream publication** already published.
 
 This keeps later handoff reviewable while leaving downstream claims and results under their applicable subject patterns.
 
-For specialization-sensitive routes, the package should also make explicit the declared task family or utility target, the current budget window, the missing discriminator still needed, and the downstream subject pattern that would become applicable if that discriminator and that pattern's other entry conditions are satisfied.
+For specialization-sensitive routes, make explicit the declared task family or utility target, any budget condition that qualifies the proposed continuation, any unresolved fact needed for its use or selection, and the downstream subject pattern with its entry conditions.
 
 #### B.4.1:4.1 - `RoutedCueSet` shape
 A conforming routed cue set may publish:
@@ -46042,7 +46044,7 @@ A conforming routed cue set may publish:
 
 `RoutedCueSet` is not itself the late endpoint. `articulationThresholdStatus` and `closureStatus` report guard state only; their governance remains with `C.2.4` and `C.2.5`, and route discrimination may additionally cite `C.2.6` or `C.2.7` when source or use conditions or representation-factor differences affect the route choice.
 
-`candidateRouteSet` is the load-bearing core here. `routeDecision`, `selectedRoute`, `routeRationale`, and `routeSelectionStatus` belong here when route selection is explicit. They do **not** belong in `PreArticulationCuePack`. The status says only whether plurality remains open or a route has been selected; endpoint admission, publication availability, current use or retirement, and any actual authority relation remain separate claims under A.16 and their direct patterns. Use `sourceCuePackRef` when the originating early form is a cue pack; otherwise identify the equivalent early form and the stabilized cue it preserves.
+`candidateRouteSet` is the load-bearing core here. `routeDecision`, `selectedRoute`, `routeRationale`, and `routeSelectionStatus` belong here when route selection is explicit. They do **not** belong in `PreArticulationCuePack`. The status reports which candidate routes remain live and any selection made; endpoint admission, publication availability, current use or retirement, and any actual authority relation remain separate claims under A.16 and their direct patterns. Use `sourceCuePackRef` when the originating early form is a cue pack; otherwise identify the equivalent early form and the stabilized cue it preserves.
 
 `publicationFaceRefs` names MVPK faces only when face typing matters for publication or review. Faces are renderings of the routed cue set or of later typed projection publications; they are not the route-bearing form itself.
 
@@ -46066,7 +46068,7 @@ The candidate route set may contain, among others:
 ##### B.4.1:4.2.1 - Specialization-sensitive extension route family
 These four routes are not part of the starter canonical core. Use them only when the cue already carries explicit bounded-specialization pressure, corridor-entry pressure, or substrate-fit doubt that subject patterns must be able to recover by value.
 
-Use `TaskFamilySpecializationRoute` when the cue points toward acquiring one narrower higher-fit specialist lane for one declared task family under budget, where that lane may later resolve into one specialist method, portfolio, or competence bundle. Use `AdaptationProbeRoute` when the next question is whether threshold-reaching specialization is attainable under the current budget. Use `NonHumanUtilityRoute` when the cue suggests a promising utility target outside the current human-default solution corridor but still tied to one declared task family or utility target. Use `SubstrateDiversificationRoute` when the cue says the current method substrate may be too narrow and a broader or different substrate should be tested before commitment.
+Use `TaskFamilySpecializationRoute` when the cue points toward acquiring one narrower higher-fit specialist lane for one declared task family under budget, where that lane may later resolve into one specialist method, portfolio, or competence bundle. Use `AdaptationProbeRoute` when the next question is whether threshold-reaching specialization is attainable under the current budget. Use `NonHumanUtilityRoute` when the cue suggests a promising utility target outside the current human-default solution corridor but still tied to one declared task family or utility target. Use `SubstrateDiversificationRoute` when the cue raises a question about whether the current method substrate, or a broader or different one, can meet the declared task or utility target.
 
 Contexts may refine the route family locally, but they shall keep the distinction between early route publication and endpoint governance.
 
@@ -46082,9 +46084,9 @@ A routed cue set may support these continuations:
 For a proposed downstream projection, if no applicable typed publication form can yet be identified, keep the content in `RoutedCueSet`; an MVPK face alone supplies no such form.
 
 ### B.4.1:5 - Archetypal Grounding
-**Tell.** Observation alone is not yet routing. A route requires at least a stabilized cue plus a declared candidate route set.
+**Tell.** Route publication requires a stabilized cue and an explicit candidate route set.
 
-**Show (System).** An operator alarm may route toward intervention, rollback, or anomaly investigation without yet becoming work or a requirement.
+**Show (System).** An operator alarm may support routes toward intervention, rollback, or anomaly investigation.
 
 **Show (Episteme).** An inquiry cue about a model-vs-observation discrepancy may route toward anomaly framing, opportunity framing, or probe design before a hypothesis exists.
 
@@ -46097,7 +46099,7 @@ The pattern favors preserving low-articulation cues and publishing route plurali
 - `CC-B.4.1-3` When route selection occurs, `routeDecision`, `selectedRoute`, and `routeRationale` **SHALL** be explicit.
 - `CC-B.4.1-4` `publicationFaceRefs` **MAY** be named, but route-bearing form and publication face **SHALL NOT** be collapsed.
 - `CC-B.4.1-5` `RoutedCueSet` **SHALL NOT** be treated as establishing a late endpoint result.
-- `CC-B.4.1-6` When a specialization-sensitive route is kept live, the route package **SHALL** name the declared task family or utility target, the current budget window if known, the missing discriminator still needed, and the downstream subject pattern that would become applicable if the discriminator and that pattern's other entry conditions are satisfied.
+- `CC-B.4.1-6` When a specialization-sensitive route is kept live, the route package **SHALL** name the declared task family or utility target, any budget condition that qualifies the proposed continuation, any unresolved fact needed for its use or selection, and the downstream subject pattern with its entry conditions.
 
 ### B.4.1:8 - Common Anti-Patterns and How to Avoid Them
 - **Anomaly inflation.** Treat every early cue as already an anomaly statement.
@@ -46112,11 +46114,11 @@ Recipients can inspect candidate continuations, their grounds, and any selection
 Cue preservation and route choice answer different questions. A separate route publication makes the proposed continuations inspectable while retaining the cue pack as the account of the stabilized cue.
 
 ### B.4.1:11 - SoTA-Echoing
-This matches practice in incident triage, exploratory design, model probing, and embodied cue work, where routing follows stabilization rather than appearing fully formed at first observation.
+For the operator question in §13.1, the response-time clause and the latency rise support different possible continuations. Calling the alert an established duty would settle clause applicability without grounds; retaining only the cue would leave the proposed continuations implicit. Adapting A.16's distinction between preservation and routing, §4 publishes those continuations and the grounds needed for any choice, while §13.1 retains intervention and inquiry alongside the duty question. This comparison supports that bounded gain at the cost of publishing and maintaining the route account. Existing content can serve as that publication when it already exposes the needed distinctions. Reconsider the route set when its grounds or the receiving question change.
 
 ### B.4.1:12 - Relations
 - Builds on: `B.4`, `C.2.2a`, `A.16`, `A.16.1`, `C.2.LS`.
-- Coordinates with: `A.16.0`, `C.2.4`, `C.2.5`, `C.2.6`, `C.2.7`, `B.5.2.0`, `B.5.2`, `A.6.P`, `A.6.A`, `C.16.Q`, `A.15`, `F.9.1`.
+- Coordinates with: `A.16.0`, `C.2.4`, `C.2.5`, `C.2.6`, `C.2.7`, `B.5.2.0`, `B.5.2`, `A.6.P`, `A.6.A`, `C.16.Q`, `A.15`.
 - Constrains: pre-abductive route publication.
 
 ### B.4.1:13 - Worked Route Sets
@@ -46128,7 +46130,7 @@ An operator alert note records a service-latency rise after a configuration chan
 - `ProblemAbductionRoute`,
 - and `RequirementCommitmentRoute`.
 
-Keep the plurality explicit until a selected route is justified. The missing discriminator for `RequirementCommitmentRoute` is whether the clause covers this service and incident window. If it does, use `A.2.8` for the question of an actual duty; the latency cue can still support intervention and explanatory inquiry.
+Keep the live routes explicit and state any selection with its grounds. The missing discriminator for `RequirementCommitmentRoute` is whether the clause covers this service and incident window. If it does, use `A.2.8` for the question of an actual duty; the latency cue can still support intervention and explanatory inquiry.
 
 #### B.4.1:13.2 - Inquiry case
 A conceptual mismatch may route simultaneously toward:
@@ -46143,7 +46145,7 @@ This is admissible only if the route rationale makes the plurality explicit rath
 It is invalid to treat a routed cue set as if it were already a hypothesis, a gate, or a work plan. The route-bearing publication form records candidate continuations; the applicable subject pattern governs the downstream result.
 
 #### B.4.1:13.4 - Specialization-route and nonhuman-utility split
-A routed cue set for a new task family may admissibly keep `ProblemAbductionRoute`, `TaskFamilySpecializationRoute`, and `NonHumanUtilityRoute` live together. The point is to preserve the declared task family, utility target, current budget window, missing discriminator, and possible corridor-entry load without presenting those candidates as an already justified prompt, selector, or policy choice.
+A routed cue set for a new task family may admissibly keep `ProblemAbductionRoute`, `TaskFamilySpecializationRoute`, and `NonHumanUtilityRoute` live together. The point is to preserve the declared task family, utility target, any qualifying budget conditions, any unresolved facts needed for use or selection, and any relevant corridor-entry conditions without presenting those candidates as an already justified prompt, selector, or policy choice.
 
 ### B.4.1:14 - Keeping route plurality useful
 
@@ -46153,22 +46155,22 @@ A routed cue set stays useful only when route plurality, route grounds, selectio
 Use the minimal route package in §4 (Solution).
 
 #### B.4.1:14.2 - Selected route is not endpoint governance
-Even when one route is selected, the routed cue set states the route choice. Apply a downstream subject pattern when its entry conditions are met; that pattern governs the next claim or result.
+Even when one route is selected, the routed cue set states the route choice. If the receiving work calls for a further claim or result, apply its subject pattern under that pattern's entry conditions. Publishing the routes and selection can be the sufficient result.
 
 #### B.4.1:14.3 - Review prompt and threshold reminder
-A reviewer should check whether the selected route is justified by the published cue pack or equivalent early form and whether suppressed alternative routes were genuinely considered rather than silently erased. If the articulation threshold required for a proposed late prompt, requirement, or work claim is not yet met, keep the publication early.
+Review the cue grounds and any further grounds used to justify the selection, including the reasons for excluding previously live alternatives. If the articulation threshold required for a proposed late prompt, requirement, or work claim is not yet met, keep the publication early.
 
 #### B.4.1:14.4 - Deferred selection and route splitting
-Deferral is admissible when route plurality and missing discriminators are published. It is not admissible when one route is silently assumed while the publication still speaks as if the question were open.
+When selection is deferred, publish the live candidates, their grounds and any unresolved conditions. State an actual selection explicitly.
 
 One cue cluster may also split into several routed cue sets if different sub-cues support different destinations. The split should be published explicitly so that later readers do not assume that one route exhausted the whole original cue complex.
 
 ### B.4.1:15 - Migration and worked continuation boundaries
 
-`B.4.1` governs route publication. Use the applicable subject patterns for abductive reasoning, lexical repair, deontic commitment, and work execution when their entry conditions are met.
+`B.4.1` governs route publication. Use the applicable subject pattern under its entry conditions when the receiving work needs further abductive reasoning, lexical repair, a requirement or commitment claim, or work execution.
 
 #### B.4.1:15.1 - Migration from anomaly-first prose
-If a publication labels a cue as an anomaly before the anomaly's entry conditions hold, recover the stabilized cue and publish its candidate routes.
+If a publication labels a cue as an anomaly before the anomaly's entry conditions hold, recover the stabilized cue. Publish its candidate routes when the receiving question needs them.
 
 #### B.4.1:15.2 - Intervention vs inquiry split
 An operator-facing disturbance may legitimately support both:
@@ -46182,33 +46184,33 @@ An operator-facing disturbance may legitimately support both:
 A route set that includes `RequirementCommitmentRoute` should not be read as if the requirement already exists. The route is one admissible continuation; the requirement or commitment claim is decided under its own subject pattern.
 
 #### B.4.1:15.4 - Leaving the seam
-Continue under a later subject pattern when its own entry conditions are met. Typical questions and entry requirements are:
+For a selected further question or task, continue under the applicable subject pattern when its entry conditions are met. Typical questions and entry requirements are:
 
 - relation-bearing wording whose direct relation, participants, direction, or required detail remain unresolved: `A.6.P`;
-- evaluative wording with enough articulation to name the bearer, effective scheme, probe/model frame, comparison frame or `none`, ClaimScope, and at least one candidate evaluative family: `C.16.Q`;
+- evaluative wording whose sense, bearer, comparison, or consequence remains unclear: `C.16.Q`; use its ordinary repair sequence first, and meet C.16.Q:4.1's articulation and interpretation requirements when a transitional `qualityTermAscription(...)` is needed;
 - affordance-like or action-first wording with enough context to compare its consequential meanings: `A.6.A`; recover the supported claim or question, or the exact fact that would distinguish the alternatives, then apply its subject rule;
 - a declared prompt species, stable open question, scope, and provenance, with the articulation and closure conditions for rival answers to remain live: `B.5.2.0`;
 - an explicit requirement or commitment claim over its actual subject: its requirement-facing pattern; use `A.2.8` for a question about an actual individual duty;
 - or an alignment question involving Method, intended WorkPlan, or actual Work: `A.15`; use `A.3.1`, `A.15.2`, or `A.15.1` directly when only the Method, WorkPlan, or dated Work is in question.
 
-`ActionInvitationRoute` names the route to this wording-recovery use; it does not require an invitation occurrence. A.6.A can return an open question without settling its answer. If the selected next-use entry conditions cannot yet be established, keep the governed publication in this seam with its route plurality visible.
+`ActionInvitationRoute` names the route to this wording-recovery use; it does not require an invitation occurrence. A.6.A can return an open question without settling its answer. If the selected next-use entry conditions cannot yet be established, keep that proposed use unresolved and retain the supported route account.
 
 ### B.4.1:20 - Route Evidence and Discrimination Package
 
 #### B.4.1:20.1 - Evidence-per-route rule
-Each live route in a routed cue set should cite the cue grounds that actually support it. Where those grounds are not yet published, complete the route account so readers can assess the support.
+Each live route in a routed cue set should cite the cue grounds that support it and any further grounds used to keep it live. Where those grounds are not yet published, complete the route account so readers can assess the support.
 
 #### B.4.1:20.2 - Discriminator publication
-When a route set remains plural, authors should name the discriminator they are waiting for: a missing anchor, contrast, measurement, witness, articulation threshold, closure condition, or other explicit facet transition. This tells later readers which fact or facet change would justify reconsidering the route set.
+When further information is needed to decide a route's use or selection, name the missing fact or condition and which question it would resolve. Several routes may remain live because they support different needed contributions.
 
 #### B.4.1:20.3 - Multi-route state is not yet a lineage fork
-One routed cue set may keep several candidate routes live without yet forking lineage. A fork occurs only when distinct successor epistemes or project records are identified under their own identity rules and their preserved and lost content and any exact lineage relations that obtain are stated. Publication availability and any responsibility or authority handoff remain separate claims.
+One routed cue set may keep several candidate routes live without yet forking lineage. A fork claim requires distinct successor epistemes or project records and the obtaining lineage relation under their applicable identity and lineage rules. State the preserved and lost content needed for that claim. Publication availability and any responsibility or authority handoff remain separate claims.
 
 #### B.4.1:20.4 - Projection restraint
-A typed downstream projection publication or prompt may be shown as one admissible continuation; the other live routes and their grounds and discriminators shall remain readable.
+A typed downstream projection publication or prompt may be shown as one admissible continuation; the other live routes, their grounds and any unresolved conditions relevant to their use or selection shall remain readable.
 
 #### B.4.1:20.5 - Review test for false single-route certainty
-Ask: if the selected route were denied, would the publication still contain enough information to explain the other live routes and the discriminator that would separate them? If not, the route set is under-published and has collapsed too early into one favored continuation.
+Ask: if a selected route were excluded, would the publication still explain the other live routes and any unresolved conditions relevant to their use or selection? If that information is missing, restore it before relying on the route set.
 ### B.4.1:End
 
 ## B.5 - Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)
@@ -49542,12 +49544,12 @@ Use the four development states to name the current focus for the episteme or sy
 
 **The Four Development States:**
 
-| State | Core Activity | Manager's View: What It Means | Reasoning Contribution | What the state leaves to the receiving claim and use |
+| State | Core Activity | Manager's View: What It Means | Possible reasoning contributions | What the state leaves to the receiving claim and use |
 | :--- | :--- | :--- | :--- | :--- |
-| **1. Exploration** | **Generating possibilities.** Frame the problem and compare candidate explanations or designs. | "We are looking for a plausible direction and keeping the serious alternatives visible." | **Abduction** (B.5.2) | A qualified conjecture may be sufficient for the present question; its origin does not assign `L0`. |
-| **2. Shaping** | **Defining a coherent form.** Develop the selected direction and derive its relevant consequences. | "We are making the design and its implications clear enough for the next intended use." | **Deduction** | Logical support concerns the consequence under its premises. A coherent design alone does not establish actual performance. |
-| **3. Evidence** | **Evaluating the relevant claims.** Use applicable empirical or formal results and obtain missing evidence when it is required and feasible. | "We are deciding whether the needed claims are supported in the intended conditions." | **Empirical evaluation and applicable formal reasoning** | Relevant existing support can be sufficient. A passed test does not automatically confer a higher assurance level. |
-| **4. Operation** | **Using in a live environment.** Begin or continue the intended operation and monitor what its actual conditions require. | "The system or episteme is in use, with the required operational conditions in place." | **Reasoning about operating observations and needed changes** | Readiness and continuing use depend on the actual qualification, protective and authority conditions, not maintained `L2`. |
+| **1. Exploration** | **Generating possibilities.** Frame the problem and compare candidate explanations or designs. | "We are looking for a plausible direction and keeping the serious alternatives visible." | **Candidate construction; abduction for explanatory conjectures** (B.5.2) | A qualified conjecture may be sufficient for the present question. |
+| **2. Shaping** | **Defining a coherent form.** Develop the selected direction and derive its relevant consequences. | "We are making the design and its implications clear enough for the next intended use." | **Construction and deduction** | Logical support concerns the consequence under its premises. A coherent design alone does not establish actual performance. |
+| **3. Evidence** | **Evaluating the relevant claims.** Use applicable empirical or formal results and obtain missing evidence when it is required and feasible. | "We are deciding whether the needed claims are supported in the intended conditions." | **Empirical evaluation and applicable formal reasoning** | Relevant existing support can be sufficient. |
+| **4. Operation** | **Using in a live environment.** Begin or continue the intended operation and monitor what its actual conditions require. | "The system or episteme is in use, with the required operational conditions in place." | **Reasoning about operating observations and needed changes** | Readiness and continuing use depend on the actual qualification, protective and authority conditions. |
 
 B.3.3 governs any assurance conclusion about the particular claim and receiving use. Retain an applicable domain profile, proof obligation or validation requirement where that use requires it. Existing results count only when they cover the present conditions; a missing required result can block the intended transition. A proposal to improve an excessive requirement does not waive a currently binding condition.
 
