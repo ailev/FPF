@@ -252,7 +252,7 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | :--- | :--- | :--- | :--- | :--- |
 | B.1 | **Holon Aggregation and Part-Whole Construction** | Stable | Recover what the aggregation claim is about before choosing a notation. For a part–whole claim, name the whole, parts, obtaining part relations and construction basis. Route collection belonging, Method composition, performed-Work parts and mathematical representations to their direct patterns; use C.13 for the construction account and B.2 only for whole reidentification. *Queries:* "Is this a part–whole claim or another kind of aggregation?", "What makes these objects parts of this whole?", "Which pattern supplies the construction or calculation?" | **Builds on:** A.1, A.14, C.13. **Coordinates with:** E.10.ROLE, A.2.7, A.15, A.15.1, A.22, C.29, C.30, B.2, B.3.5. |
 | B.1.1 | **Dependency Structure and Relation Grounding** | Stable | Resolve what each claimed dependency means and which facts make the relation obtain before using its diagram in an aggregation or whole-level claim. Apply graph checks only through a declared representation and the relation's own rule. *Queries:* "Does this dependency mean parthood, order, supply or representation?", "What makes the relation obtain?", "Which conclusions can this graph check support?" | **Builds on:** B.1, A.14, C.13. **Coordinates with:** C.29, A.10, B.3.5. |
-| B.1.2 | **Coordinate Decisions About System Aggregation and Delimitation** | Stable | Coordinate one named aggregation or delimitation decision for one exact entity recognized as a system under A.1 or still being evaluated there. Recover system identity, obtaining part and assembly relations, exact boundary-crossing relations, any use-relative boundary choice, function/bearer allocations, whole-level characteristics, evidence, descriptions, and blockers from their direct owners; select a non-agentive A.22 U.Structure only when their joint organization changes the decision. *Queries:* "Which exact entity and decision are current?", "Which constituents are parts and which exact relations only cross the selected boundary?", "What direct result makes a use-relative inclusion or exclusion current?", "Does the joint organization itself require an A.22 structure?" | **Builds on:** B.1, A.1, A.14, C.13, A.22, and the direct relation owners selected for the current decision. **Coordinates with:** C.11, C.32.PAD, C.2.1, A.6.F, A.6.M, C.16, A.19, C.29, A.10, B.3, A.3.4, A.12, C.30, E.17, the exact crossing-relation owners, and B.2 when whole reidentification is needed. |
+| B.1.2 | **Coordinate Decisions About System Aggregation and Delimitation** | Stable | Coordinate one named aggregation or delimitation decision for one exact entity recognized as a system under A.1 or still being evaluated there. Recover system identity, obtaining part and assembly relations, exact boundary-crossing relations, any use-relative boundary choice, function/bearer allocations, whole-level characteristics, evidence, descriptions, and blockers from their direct owners; select a non-agentive A.22 U.Structure only when their joint organization changes the decision. *Queries:* "Which exact entity and decision are current?", "Which constituents are parts and which exact relations only cross the selected boundary?", "What direct result makes a use-relative inclusion or exclusion current?", "Does the joint organization itself require an A.22 structure?" | **Builds on:** B.1, A.1, A.14, C.13, A.22, and the direct relation owners selected for the current decision. **Coordinates with:** C.11, C.32.PAD, C.2.1, A.6.F, A.6.M, C.16, A.19, C.29, A.10, B.3, A.3.4, A.12, C.30, E.17, the exact crossing-relation owners, and B.2 when changed facts leave a consequential question about whether the existing whole still carries the claim or a new whole is required. |
 | B.1.3 | **Knowledge Aggregation (Γ_epist): Synthesis and Target-Scheme Compilation** | Stable | Synthesize exact epistemes for a named question, or compile an existing synthesis into one target reference scheme. Preserve source contributions, dependencies, conflicts and mapping limits. Return a justified aggregate calculation or a bounded reasoned synthesis without a common score. *Queries:* "How do I synthesize claims from heterogeneous sources?", "Which support can be combined, and which must stay separate?", "How do I compile the result for another reference scheme?" | **Builds on:** B.1, A.1, C.2. |
 | B.1.4 | **Specify Order-Sensitive or Temporal Aggregation (Γ_ctx, Γ_time)** | Stable | Aggregates already recovered relations over an exact set of ordered positions, phases, or a time window without treating order, phase, time, or process wording as parthood, work, or a generic interaction relation. | **Builds on:** B.1, A.1.1, A.14, C.27.TA. **Coordinates with:** A.15.1, A.3.4, C.29. |
 | B.1.5 | **Gamma_method - Order-Sensitive Method Composition and Work Enactment** | Stable | *Keywords:* method composition, `methodPartOf`, submethod, order-sensitive method, method relation structure, composite-Method boundary account, typed join, A.6.RCD claim disposition, capability continuity, work enactment, method/work granularity, assurance hooks. *Queries:* "How do I combine methods?", "When is a step a submethod rather than a work part, plan item, or description node?", "Which part Methods stand in `methodPartOf`, and how do other whole-forming claims stop at A.6.RCD's lightest sufficient disposition?", "How do the composite-Method boundary account, typed joins, Gamma_ctx, Gamma_work, and B.3 assurance hooks stay distinct?" | **Builds on:** B.1, B.1.4, A.3.1, A.6.RCD. **Coordinates with:** A.15.1, B.1.6, B.3. |
@@ -40211,7 +40211,7 @@ The applied constraints are the exact constraint claims used in the selection ju
 
 Ordinary structure selection needs the four discriminators below. An account of dated selection Work additionally uses its own admission grounds; a durable result episteme, operation binding, direct participation relation or decision also retains its own identity outside the structure.
 
-A diagram, graph, table, model, description, view, or publication may designate, represent, or describe the selected organization and its already identified constituents. Use C.29, C.2.1, E.17.0, and the exact publication or source-use patterns for those neighboring claims; the direct participant and relation predicates remain the obtaining basis.
+A diagram, graph, table, model, description, view, or publication may designate, represent, or describe the selected organization and its already identified constituents. Use C.2.1 for the describing episteme, E.17.0 for claimed view membership, and the exact publication or source-use patterns for those claims. Use C.29 when a mathematical representation-choice, transfer, or reliance question remains unresolved; the direct participant and relation predicates remain the obtaining basis.
 
 #### A.22:4.1 - Base `U.Structure` Identity and Selection
 
@@ -40234,7 +40234,7 @@ Two references resolve to the same `U.Structure` when all four discriminators re
 
 If no current predicate definition, applicability condition, or occurrence rule can identify the required constituent or test the obtaining-relation claim for this use, stop at the exact description or representation and return `missing-governor`. If the governor exists and the available case basis is sufficient to apply its positive test but that test fails, return `factually unsupported`; if a fact needed to decide the test is unavailable, return `missing-information`. State a negative only when an applicable non-obtaining criterion or complete closure basis and satisfying facts establish it. If the constraints or named use frame are absent, name that exact gap: the material may show an arrangement, but it does not yet support the claimed selected `U.Structure`.
 
-For deliberately asserted dated selection Work, first establish the A.13 core: the performing System, exact local agential-role kind and membership criterion, and an obtaining assignment of its declared direct species for the relevant scope and time. A.15.1 independently admits the performance with its enacted Method and extent; F.6 applies afterward only for precise assignment-bound attribution. Direct participation or A.6.1 operation bindings remain separately established.
+For deliberately asserted dated selection Work, first establish the A.13 core: the performing System, exact local agential-role kind and membership criterion, and an obtaining assignment of its declared direct species for the relevant scope and time. A.15.1 independently admits the performance with its enacted Method and extent; F.6 applies afterward only for precise assignment-bound attribution. Establish any direct participation or A.6.1 operation binding needed by the receiving claim separately.
 
 The following two compact records are recovery aids, not new ontic kinds. In `SelectedStructureBasis`, the selected structure, constituents, selected obtaining relations, applied constraints, and use frame state identity; the preserved/lost and action/stop rows state the use-return boundary rather than adding identity fields.
 
@@ -40255,7 +40255,7 @@ StructureSelectionUse:
   selectingSystemRef:
   selectionMethodRef:
   selectionWorkRef:
-  directParticipationOrOperationBindingRefs:
+  directParticipationOrOperationBindingRefs?, when the receiving claim needs them:
   selectedStructureRef:
   selectionResultEpistemeRef?, when the judgment must persist:
   selectionDecisionRef?, when an accountable choice is current:
@@ -40267,13 +40267,13 @@ A.22 structure-aspect names such as functional, mereological, modular, transform
 
 #### A.22:4.1a - Compact auxiliary boundary
 
-Use description, publication, source-use, evidence, work, gate, decision, release, architecture-description, and mathematical-lens patterns when those claims are being made. The A.22 application contains the selected-structure portion and the structure-use return condition that protects that structure use; use each neighboring pattern only for the definition or test it contributes. A publication, diagram, graph, table, dashboard, file, model card, generated representation, or lens output may make a structural description or view available; it does not become the selected structure or supply neighboring claim authority by appearance.
+Use description, publication, source-use, evidence, work, gate, decision, release, architecture-description, and mathematical-lens patterns when those claims are being made. The A.22 application contains the selected-structure portion and any structure-use return condition required by §4.5; use each neighboring pattern only for the definition or test it contributes. A publication, diagram, graph, table, dashboard, file, model card, generated representation, or lens output may make a structural description or view available; it does not become the selected structure or supply neighboring claim authority by appearance.
 
 #### A.22:4.1b - Constraint-governed unfolding structure
 
-Use `A.22.CGUS` when the current A.22 structure has several locally declared loci whose bindings identify the independently selected constituents for the unfolding question, and when the selected obtaining relation occurrences together with the applied constraint claims define at least two potential continuations across allowed cases. The loci are not free-standing A.6.5 slots. A separate case- and time-indexed result may enable zero, one, or several candidates. This specialization remains `U.Structure`; a Method, plan, Work or present-case continuation result is a separate object.
+Use `A.22.CGUS` to clarify available continuations and their conditions. Use its formal branch when the named use depends on the identity or CGUS membership of the selected organization. Then identify one A.22 structure with several locally declared loci whose bindings identify the independently selected constituents for the unfolding question; its selected obtaining relation occurrences and applied constraint claims must define at least two potential continuations across allowed cases. The loci are not free-standing A.6.5 slots. A separate case- and time-indexed result may enable zero, one, or several candidates. This specialization remains `U.Structure`; a Method, plan, Work or present-case continuation result is a separate object.
 
-Use `A.22.CGUS` only when the candidate has several loci and cross-locus constraints. A route card, table, graph, README entry, narrative, slide, or happy-path example may describe or demonstrate the unfolding structure, but it is not the structure itself.
+A route card, table, graph, README entry, narrative, slide, or happy-path example may describe or demonstrate the unfolding structure, but it is not the structure itself.
 
 #### A.22:4.1c - Bounded And Cross-Context Model-Use Structure Specializations
 
@@ -40315,9 +40315,9 @@ When a structure claim relies on something beyond the selected structure itself,
 | Source-description relation | source episteme, source view, publication form or rendering where relevant, described structure or structure claim, source-basis pins or structure-use return condition, admissible use, and any grounded non-admissible use | `A.7` when nearby objects need distinguishing; `C.2.1` and `E.10.D2` for the episteme and describing use; `E.17.0` for claimed view membership; `A.6.3` for a source-to-receiving construction; `E.17` for a source-backed reader face; `E.24.PUB` and local rules for publication |
 | Base-dependence or basedness | actual dependent and base, named direct predicate, and an optional C.2.1 assertion episteme; scope, time and evidence only when the relation or receiving use needs them; admissible use and any needed return condition | `A.6.6` for direct-relation recovery and optional assertion content; the subject-specific relation pattern supplies participant meanings, applicability, obtaining predicate and any needed occurrence identity |
 | EntityOfConcern or empirical grounding | exact claim-bearing episteme, its EntityOfConcern, and effective ReferenceScheme; when empirical grounding is claimed, the exact grounding holon, covered claim subgraph, and obtaining C.2.1 `EpistemeEmpiricalGroundingRelation`; claim scope, optional model-use structure, describing-use viewpoint, reference plane, and observation or witness condition only when current | `C.2.1`, `A.2.6`, `A.1.1`, `E.17.0`, `A.6.4`, `A.6.3.RT`, and `A.6.6` only for a separate base-dependence claim |
-| Evidence or witness reliance | evidence-use relation, evidence-provenance relation, claim ref, witness publication or observation record, timespan and freshness; if an evidence graph is current, its graph path remains a mathematical or provenance expression rather than an action route | `A.10`, `A.2.4`, `G.6` |
-| Mathematical-lens reliance | lens candidate, lens card, or lens-use record; primary `EntityOfConcern`; relation record or claim record named by value when lens reliance is being claimed; preserved structure; lost structure; stop condition; `MathLensUseOutputRef`; C.29 lens-use result; or `LensUseBoundaryValue` | `C.29`; `C.26` only when a residual contextual-model obstruction calls for its quantum-like lens; `F.9` only for separately needed cross-context semantic correspondence; the named mathematical-lens pattern for its own claims |
-| Simulation, generated representation, model, or extracted trace | exact source episteme and publication when source availability matters, representation or extraction method, validation boundary, preserved structure, lost structure, and structure-use return condition | `C.29` for representation or extraction correspondence; `E.10.D2` and `E.17.0` for description and view claims; `E.17` and `E.24.PUB` for publication; `C.2.1` only for exact episteme identity or an explicitly claimed empirical-grounding relation; `A.10` for evidence; or the pattern that defines or tests the exact simulation, extraction, or validation claim |
+| Evidence or witness reliance | the exact evidence-use relation and target claim; provenance, witness publication or observation record, time and currentness when the receiving use needs them; if an evidence graph is current, its graph path remains a mathematical or provenance expression rather than an action route | `A.2.4` for evidence-use classification; `A.10` when provenance or bounded reliance must remain recoverable; `G.6` when a citable evidence-provenance path is needed |
+| Mathematical-lens reliance | the mathematical object and its correspondence to the named subject, the structure preserved or lost, and the use and stop conditions needed by the receiving claim; when C.29 is applied, retain its result and any output reference required by the receiving use | `C.29` when mathematical representation choice, transfer, or reliance remains unresolved; `C.26` only when a residual contextual-model obstruction calls for its quantum-like lens; `F.9` only for separately needed cross-context semantic correspondence; the named mathematical-lens pattern for its own claims |
+| Simulation, generated representation, model, or extracted trace | exact source episteme and publication when source availability matters, representation or extraction method, validation boundary, preserved structure, lost structure, and any structure-use return condition required by §4.5 | `C.29` when a mathematical representation-choice, transfer, or reliance question remains unresolved; `E.10.D2` and `E.17.0` for description and view claims; `E.17` and `E.24.PUB` for publication; `C.2.1` only for exact episteme identity or an explicitly claimed empirical-grounding relation; `A.10` for evidence; or the pattern that defines or tests the exact simulation, extraction, or validation claim |
 
 If the required reliance relation remains unestablished, retain the usable source description or recognition cue with that limit. Do not create a generic reliance record to make the claim look resolved.
 
@@ -40375,7 +40375,7 @@ Recover the relation before choosing an axis:
 | Actions, result uses, or possible continuations | The named order, dependency, guard, overlap, or return relation. Several relation kinds may require different arrow labels in one picture. |
 | Systems, resources, or performed work in space | Their actual placement, adjacency, or spatial relation in the stated reference frame. Literal vertical and horizontal directions remain spatial claims about these participants. |
 
-A holon can participate in several structures, each with its own relevant relations and constraints. A family of holons drawn as a hierarchy need not be one tree. Calling a representation a *lattice* requires the mathematical claim actually used: a specified order, the requisite meets and joins, and a justified correspondence to the represented subject under C.29. A branching picture or the presence of several encompassing wholes establishes none of these properties.
+A holon can participate in several structures, each with its own relevant relations and constraints. A family of holons drawn as a hierarchy need not be one tree. Calling a representation a *lattice* requires the mathematical claim actually used: a specified order, the requisite meets and joins, and a justified correspondence to the represented subject. Use C.29 when a mathematical representation-choice, transfer, or reliance question remains unresolved. A branching picture or the presence of several encompassing wholes establishes none of these properties.
 
 For a first explanation, a sentence such as “in this diagram of Method composition, upward arrows connect a constituent to its encompassing Method” is sufficient when the relations are already clear. Add a separate structure, view, or mathematical account only when the intended use needs it. C.30.ASV:4.5a develops the selection of structures for Methods; C.30.STRAT recovers an unresolved architecture label.
 
@@ -40396,7 +40396,7 @@ ExtractedStructuralView@Context ::= {
   preservedStructure,
   lostStructure,
   validationBoundary,
-  structureUseReturnCondition,
+  structureUseReturnCondition?,
   admissibleUse,
   nonAdmissibleUse?
 }
@@ -40413,7 +40413,7 @@ StructureExtractionDescription@Context ::= {
   preservedStructureKinds,
   lostStructureKinds,
   validationBoundary,
-  structureUseReturnCondition,
+  structureUseReturnCondition?,
   admissibleUse,
   nonAdmissibleUse?
 }
@@ -40442,7 +40442,7 @@ StructuralCoarseningDescription@Context ::= {
   preservedUnder,
   brokenBy,
   lostStructure,
-  structureUseReturnCondition,
+  structureUseReturnCondition?,
   admissibleUse,
   nonAdmissibleUse?
 }
@@ -40452,7 +40452,7 @@ StructuralCoarseningDescription@Context ::= {
 
 `StructureUseReturnCondition` states when to return to the fuller basis because an extracted, coarsened or reused account hides a distinction needed by the receiving action or judgement. Name the hidden distinction, the use that needs it, and the condition that requires returning before that use proceeds.
 
-Do not make structure-use return mandatory for ordinary local recognition when no hidden distinction is being used for action. The condition is needed only when the repaired text still relies on a hidden selected-structure, source-basis, source-description, evidence, lens, simulation, extraction, or representation distinction.
+Do not make structure-use return mandatory for ordinary local recognition when no hidden distinction is being used for action.
 
 #### A.22:4.6 - Relation to architecture
 `StructuralAspectDescription@Context` describes one selected structural aspect under A.22. It is not an `ArchitectureStructureKindRef` by itself. `ArchitectureStructuralView@Context` is a C.30.ASV view over the architecture claim or selected architecture-relevant structures. An asserted actual architecture relation is an independently obtaining C.30 `ArchitectureRelation` between an exact holon and an exact selected structure.
@@ -40469,7 +40469,7 @@ C.30 and its subpatterns supply the architecture-specific description, view and 
 | --- | --- |
 | The reliance relation is treated as the structure. | Recover the exact constituents, selected obtaining relation occurrences, applied constraints, and named use frame. When a neighboring source-description, source-use, base-dependence, grounding, evidence, lens, simulation, extraction, or representation reliance claim is current, name that exact relation and the content that defines or tests it separately. |
 | The diagram, graph, table, dashboard, or publication form is the structure. | Recover the exact description or view and its publication occurrence, form, or carrier when relevant. If the account claims a source-description, base-dependence, grounding, evidence, lens, simulation, extraction, or representation relation, identify and test that relation separately. |
-| A transformation-flow graph expression is the structure in every sense. | Use `E.18` for one selected TFS and its internal paths, crossings, and valuations; use `E.18.NET` for a selected network of independently identified TFS members and exact cross-member relations; use `E.18.2` and `C.29` for the graph expression. A.22 supplies only the selected-structure identity, and `C.30.TFS-REL` defines and tests the architecture-to-transformation-flow relation claim. |
+| A transformation-flow graph expression is the structure in every sense. | Use `E.18` for one selected TFS and its internal paths, crossings, and valuations; use `E.18.NET` for a selected network of independently identified TFS members and exact cross-member relations; use `E.18.2` for the graph expression and `C.29` only when a mathematical representation-choice, transfer, or reliance question remains unresolved. A.22 supplies only the selected-structure identity, and `C.30.TFS-REL` defines and tests the architecture-to-transformation-flow relation claim. |
 | A mathematical lens output is the structure. | Use `C.29` for lens-use result and admissibility, and cite `MathLensUseOutputRef` only through C.29 lens-use result, preserved structure, lost structure, and stop-condition discipline. |
 | A structure is cited as sufficient basis for evidence reliance, assurance, safety, causality, or gate passage. | Use `A.10` for claim-bound evidence reliance, `G.6` when a citable evidence-provenance path is needed, `B.3` for an actual named assurance claim, the safety pattern for safety, `C.28` for causal use, `A.20` for internal-constraint validity, and `A.21` for an actual gate decision. |
 | A structure is a decision or work record. | Use `C.11` or the project-side decision pattern for the decision, `A.15` for the exact work-family object, and `C.2.1` for an episteme describing it. `A.20` or `A.21` applies only when an internal-constraint result or gate decision is at issue. |
@@ -40529,7 +40529,7 @@ ExtractedStructuralView@Context:
 | --- | --- |
 | Tell | A practitioner sees an arrangement that matters but does not yet know whether it is a diagram, a model, a graph, an architecture claim, a source description, base-dependence relation, evidence relation, lens relation, or decision. A.22 asks first: which exact constituents and obtaining relations are selected, under which applied constraints and named use frame, and what loss changes the next action? |
 | Show: `U.System` | In a plant, vehicle, software system, or neural-network model, the selected structure may be transformation-flow, control, module-interface structure, placement, information, scale, or declared logical structure. The structure record does not become the system and does not prove that the system is safe, maintainable, or ready. |
-| Show: `U.Episteme` | A paper, model, generated relation graph, dashboard, architecture note, or mathematical-lens output may describe or present a description of selected structure. A selected-structure claim may rely on that description through a source-description relation or an A.6.6 base-dependence relation. The episteme, view, and publication remain separate from the structure and from each relied-on relation; name that relation and its validation and structure-use return boundaries. |
+| Show: `U.Episteme` | A paper, model, generated relation graph, dashboard, architecture note, or mathematical-lens output may describe or present a description of selected structure. A selected-structure claim may rely on that description through a source-description relation or an A.6.6 base-dependence relation. The episteme, view, and publication remain separate from the structure and from each relied-on relation; name that relation and any validation boundary required by its definition or intended use; add a structure-use return condition when §4.5 requires it. |
 
 ### A.22:6 - Bias-Annotation
 
@@ -40538,7 +40538,7 @@ ExtractedStructuralView@Context:
 | Architecture bias | Do not make architecture the parent of all structure. A.22 stays upstream; C.30 carries grounded architecture and selected-structure adequacy. |
 | Mathematical-formalism bias | A mathematical lens can expose preserved structure and lost structure, but C.29 still defines the lens-use result, admissibility, and stop condition. |
 | Diagram bias | A useful diagram or generated relation graph is attractive enough to be mistaken for the structure. Description, specification-use, and publication boundaries stay explicit. |
-| Review-only bias | Checks leave a repair action: name the structure, name the structure-claim reliance relation record by value, state a structural view, add a `StructureUseReturnCondition`, or apply the FPF definition or test needed by the claim. |
+| Review-only bias | A check returns the supported recognition, conclusion or action needed for the receiving use. Repair a defect when the check exposes one. |
 
 Use the checklist to inspect the selected structure claim and only the neighboring claims actually made.
 
@@ -40548,36 +40548,36 @@ Use the checklist to inspect the selected structure claim and only the neighbori
 | --- | --- | --- |
 | **CC-A22-1 Base identity.** | The selected `U.Structure` is recoverable from exact independently identified constituents, exact selected obtaining relation occurrences, exact constraints as applied, and one named selection-use frame. | Recover the missing discriminator. If a constituent lacks its defining identity content or a relation lacks its predicate or occurrence rule, stop at that blocker rather than naming a structure from a graph or record. |
 | **CC-A22-1a Independent grounding.** | Every constituent and selected relation occurrence keeps its direct identity; a collection, constraint episteme, graph, table, description, view, or publication neither creates them nor makes a relation obtain. | Apply the constituent and direct relation patterns first; treat the visible artifact as a C.29 representation or C.2.1 episteme only when that is what is present. |
-| **CC-A22-1b Selection work and result separation.** | When dated selection Work is deliberately asserted, establish the complete A.13 core and A.15.1 admission in §4.1, plus the actual method-enactment and direct participation or A.6.1 binding relations. Any durable result is a separate C.2.1 episteme, and any accountable choice uses its decision predicate and test. | Name the acting system, method, work, bindings, and result or decision separately; remove them from structure identity. |
+| **CC-A22-1b Selection work and result separation.** | When dated selection Work is deliberately asserted, establish the complete A.13 core and A.15.1 admission in §4.1 and the actual method-enactment relation. Establish any direct participation or A.6.1 binding relation needed by the receiving claim separately. Any durable result is a separate C.2.1 episteme, and any accountable choice uses its decision predicate and test. | Name the acting system, method and work separately from structure identity; identify any binding, result or decision needed by the current claim under its own grounds. |
 | **CC-A22-1c Reidentification.** | A changed designator, method, work, result episteme, graph, description, or publication leaves the structure unchanged when all four identity discriminators remain unchanged; a changed discriminator reopens identity. | Compare the four discriminators and apply each selected relation occurrence's direct identity rule before reapplying A.22. |
 | **CC-A22-1d Transformation-flow network profile.** | An E.18.NET value applies all four A.22 discriminators to exact TFS or nested-network constituents, exact cross-member relation occurrences satisfying their predicates, the E.18.NET constraints as applied, and one named network-use frame. A constituent row supplies no generic membership occurrence, and A.22 carries no duplicate network fields. | Recover any missing member, relation predicate, or identity rule, then apply E.18.NET. If a separate membership relation is actually needed, state its participants and apply its predicate rather than inferring it from the constituent list or graph. |
 | **CC-A22-2 Non-agentive structure.** | Any claimed action has a recoverable capable actor. Use F.19:4 to test literal or metonymic action wording; apply the relevant proof, decision, warrant, or adaptation predicate when that claim is current. | Recover the actor and action; identify exact System and Work only when the claim needs their identity. For another claim, use the pattern that defines or tests its result. |
-| **CC-A22-3 Structure-claim reliance relation boundary.** | When source-description, source-use, base-dependence, grounding, evidence, lens, simulation, extraction, or representation reliance is claimed, name the concrete relation and the definition or test used for it. | Add the exact relation kind, definition or test, validation boundary, admissible use, and stop or return condition. Test any optional non-admissible use through F.19:4. If no admissible reliance is established, mark the reliance phrase as carrying no admissible reliance. |
+| **CC-A22-3 Structure-claim reliance relation boundary.** | When source-description, source-use, base-dependence, grounding, evidence, lens, simulation, extraction, or representation reliance is claimed, name the concrete relation and the definition or test used for it. | Add the exact relation kind, definition or test, admissible use, and any validation boundary or stop condition required by that relation or receiving use. Add a structure-use return condition when §4.5 requires it. Test any optional non-admissible use through F.19:4. If no admissible reliance is established, mark the reliance phrase as carrying no admissible reliance. |
 | **CC-A22-4 Description and view separation.** | A structural description, structural view, extracted view, diagram, table, graph, dashboard, or publication face is not treated as the structure itself. | Recover any description or view and its publication form or occurrence; resolve any source-description relation or A.6.6 base declaration separately. Name the selected structure separately only if selected organization is being claimed. |
 | **CC-A22-5 Describing-use separation.** | Description epistemes keep exact claim content, EntityOfConcern, and effective scheme under C.2.1. A named describing use may separately select one viewpoint, and a receiving calculation or assertion may separately select one independently identified `BoundedModelUseStructure`. E.17.0 alone supplies the `U.View` conformance test; A.6.3 supplies optional viewing construction. | Remove any compound context field; state only the exact episteme values and the optional use selections that the current action needs. |
 | **CC-A22-6 Structure-use return.** | `StructureUseReturnCondition` is present when hidden selected-structure, source-basis, source-description, evidence, lens, simulation, extraction, or representation distinctions are used for action, assurance, causal use, legal or regulatory review, comparison, or decision reopening. | Add one structure-use return condition or narrow the record's admissible use so the hidden distinction is not relied on. |
 | **CC-A22-7 Non-structure claim kind.** | Evidence, assurance, gate, release, causal, dynamics, measurement, work, decision, publication, bridge, and mathematical-lens claims use the patterns that define or test those claims. | The check passes when that concrete contribution and the claim kind are named, while the A.22 record remains limited to selected-structure use. |
 | **CC-A22-8 Architecture pattern application.** | Architecture claims use `C.30` and `ArchitectureRelation`; A.22 does not treat architecture as a root kind or define C.30-specific records. | Apply C.30 or a C.30 subpattern and keep A.22 only as the selected-structure EntityOfConcern and structure-claim reliance relation. |
 | **CC-A22-9 Plain and Tech recovery.** | Plain structure phrases may remain, but if they carry ontological, evidence, causal, assurance, bridge, gate, work, decision, or admissibility claim, the relevant Tech fields and FPF pattern applications are recoverable. | Add the missing Tech fields or demote the Plain phrase to ordinary recognition wording. |
-| **CC-A22-10 Useful action.** | The repair leaves a remaining admissible practitioner use: name the structure, name the structure-claim reliance relation record by value, state a structural view, add a `StructureUseReturnCondition`, or apply the definition or test needed by the claim. | Restore that use, or classify the phrase as reduced-use cue, quote-only wording, blocked transfer, or incomplete rewrite. |
-| **CC-A22-11 CGUS qualification and case use.** | A constraint-governed unfolding claim identifies one A.22 structure by the four discriminators; its local locus bindings, selected relations, and applied constraints define at least two potential continuations. The present-case result, any description, and every stronger neighboring claim are judged separately. | Use `A.22.CGUS` only after structure identity and CGUS membership are recoverable. If the structure qualifies but case facts are missing, return `unknown` for the affected alternatives. If only a display is present, keep it as an explanation; send description adequacy and stronger claims to their direct patterns. |
+| **CC-A22-10 Useful action.** | The repair preserves the supported recognition, understanding, decision or action the practitioner needs. | Restore the information or action required by that use; keep any unresolved limit explicit. |
+| **CC-A22-11 CGUS qualification and case use.** | A formal CGUS qualification identifies one A.22 structure by the four discriminators; its local locus bindings, selected relations, and applied constraints define at least two potential continuations. The present-case result, any description, and every stronger neighboring claim are judged separately. | Use `A.22.CGUS`'s ordinary branch to clarify available alternatives and their conditions. Use formal qualification when the named use depends on structure identity or CGUS membership. If the structure qualifies but case facts are missing, return `unknown` for the affected alternatives. If only a display is present, keep it as an explanation; send description adequacy and stronger claims to their direct patterns. |
 
 ### A.22:8 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
 | **Structure-as-document** | A diagram, table, dashboard, relation graph, or prose section is called the structure. | Recover publication, publication-form, description, or view relation; name the structure separately only when selected organization is being claimed. |
-| **Reliance-interpretation-as-structure** | A trace used as source basis, benchmark, lens output, model, or simulation is treated as the structure. | Name the exact A.6.6, source-description, evidence, or lens relation and its definition or test; state its validation boundary and stop or return condition, using F.19:4 for any optional explanatory guard. |
-| **Loss-free extraction** | Extracted or coarsened structure is used without lost structure or structure-use return. | Add `preservedStructure`, `lostStructure`, `validationBoundary`, and `structureUseReturnCondition`. |
+| **Reliance-interpretation-as-structure** | A trace used as source basis, benchmark, lens output, model, or simulation is treated as the structure. | Name the exact A.6.6, source-description, evidence, or lens relation and its definition or test; state the validation and stop conditions required by that relation or intended use, and add a structure-use return condition when §4.5 requires it. Use F.19:4 for any optional explanatory guard. |
+| **Loss-free extraction** | An extracted or coarsened account hides a loss that changes the receiving use. | State what is preserved and lost, the supported use and any required validation boundary. Add a structure-use return condition under §4.5 or narrow the use so the hidden distinction is not relied on. |
 | **Architecture root-kind rebound** | Structure work reintroduces `U.Architecture` or treats architecture as parallel to structure. | Use `ArchitectureRelation` and C.30; keep A.22 as the upstream selected-structure EntityOfConcern. |
 | **Lens ontology import** | A mathematical lens output becomes the imported ontology. | Use C.29 for the lens, cite it through C.29 lens-use result, preserved structure, lost structure, and stop-condition discipline. |
-| **Sterile precision rewrite** | The text removes overread but no longer tells the practitioner what to do. | Restore the surviving action: structure card, structure-claim reliance relation, Description or view, `StructureUseReturnCondition`, or FPF pattern application. |
+| **Sterile precision rewrite** | The text removes overread but no longer tells the practitioner what to do. | Restore the information and any action still needed for the practitioner's receiving question. |
 
 ### A.22:9 - Consequences
 
 | Benefit | Cost or trade-off |
 | --- | --- |
-| FPF gains a reusable selected-structure EntityOfConcern without minting architecture, module, interface, platform, or graph as root kinds. | A conforming use recovers the exact constituents, selected obtaining relation occurrences, applied constraints, named use frame, preserved and lost structure, and stop or return condition; one grounded non-admissible use is optional. |
+| FPF gains a reusable selected-structure EntityOfConcern without minting architecture, module, interface, platform, or graph as root kinds. | A conforming use recovers the four structure-identity discriminators, including the question, admissible action and stop or return condition in the named use frame. Extraction, coarsening and reliance claims also retain the preservation, loss, validation and structure-use return information required by their receiving use. |
 | Structural views become usable without confusing the view, publication form, publication, source-use relation, grounding relation, and selected structure EntityOfConcern. | Existing loose prose that says "the structure is the diagram" needs repair. |
 | Structure claims can rely on C.29 mathematical-lens results or E.18 transformation-flow structures through exact, separately established relations, without treating them as the general structure ontology. | FPF pattern applications are named when evidence, assurance, causal-use, gate, work, or decision claims are being made. |
 | Architecture work can start from selected structure through C.30 instead of forcing architecture to be either a document or a module diagram. | Architecture-specific conformance stays outside A.22, so practitioners can require one extra C.30 application when the architecture claim or durable architecture-description use is being made. |
@@ -40596,10 +40596,10 @@ C.30 defines the direct `ArchitectureRelation` between one exact holon and one s
 | --- | --- | --- | --- |
 | FPF `C.2.1` and `E.10.D2` description discipline, `E.17.0` view membership, `A.6.3` construction, and `E.17`/`E.24.PUB` publication discipline | Current FPF separates exact EntityOfConcern, effective reference scheme, viewpoint, grounding holon, view, publication, rendering, and carrier. | A.22 structural descriptions and views reuse those direct relations rather than inventing a local display ontology or mandatory context field. | A description or view does not become the selected structure and supplies no evidence, assurance, gate, or decision authority by form. |
 | Evans, [Context Mapping with an AI-based Component](https://www.domainlanguage.com/articles/context-mapping-an-ai-based-component/), 2026 | The cited DDD case motivates distinguishing model-use boundaries and their relationships from the Context Map used to inspect them; the FPF identities are an adaptation. | A.22 admits the `BoundedModelUseStructure` membership condition and the conditional `CrossContextRelationStructure` membership condition; the latter has no positive member until independently defined crossing occurrences and all four base discriminators exist. A particular mapping Method and any dated Work use their own admission grounds; the product is a C.2.1 episteme concerning a proposed organization until an exact structure can be designated; it becomes `U.View` only under exact E.17.0 conformance. | The DDD terms do not turn a system part, method, proposal, structure, view, and diagram into one object. |
-| C.29 mathematical-lens discipline | Adopt preserved structure, lost structure, lens-use admissibility, and stop-condition discipline when a mathematical lens is used for a structure claim. | Cite C.29 output through C.29 lens-use result, preserved structure, lost structure, stop condition, and structure-use return discipline. | Lens output is not structure, evidence, assurance, causal-use relation, or decision. |
-| [arXiv:2603.00601](https://arxiv.org/abs/2603.00601) code-space architecture relation-graph work and related code-probing practice | Adapt partial-observability, typed-relation, uncertainty, and structure-use return pressure for extracted structural views. | Use extracted structural-view records with validation boundaries and an observation value selected from `observed`, `inferred`, or `unknown` where needed, plus structure-use return conditions. | Do not mint `U.CodeSpace` and do not treat probe output, probe JSON, or benchmark output as structure adequacy, assurance, release evidence, or assurance evidence. |
-| Coarsening, compression, and RG-adjacent traditions | Adopt the need to say what structure is preserved and what is lost. | Use `StructuralCoarseningDescription@Context` and `StructureUseReturnCondition` before relying on a coarsened structure for action. | For RG, epiplexity, structural information, or equivalence reasoning, use C.29, C.16, or the cited pattern that defines or tests the exact claim. |
-| GonzoML neural-network architecture discussions as practitioner-language intake | Adapt block replacement, dataflow change, memory placement, cache placement, path-selection, pruning, distillation, and architecture-search wording as general architecture-operation recognition material. | When such wording is used, keep block, cache, expert, router, gate, and similar words as `C.30.STRAT` source labels until changed structure kind, source-description relation, source-use relation, base-dependence relation, evidence relation, lens output, preserved structure, lost structure, and FPF pattern applications are recovered. | Neural-network labels, benchmark results, ablations, or pruning masks do not become structure ontology, architecture decisions, evidence sufficiency, gate passage, assurance, or architecture adequacy by themselves. |
+| C.29 mathematical-lens discipline | Adopt preserved structure, lost structure, lens-use admissibility, and stop-condition discipline when a mathematical lens is used for a structure claim. | Cite C.29 output through C.29 lens-use result, preserved structure, lost structure, stop condition, and structure-use return discipline. | The lens output remains separate from the selected structure. Its evidential use, any assurance or causal-use claim, and any decision need their own grounds. |
+| [arXiv:2603.00601](https://arxiv.org/abs/2603.00601) code-space architecture relation-graph work and related code-probing practice | Adapt partial-observability, typed-relation, uncertainty, and structure-use return pressure for extracted structural views. | State the extraction basis, its validation boundary and, where needed, whether a relation is `observed`, `inferred`, or `unknown`. Add a structure-use return condition when §4.5 requires it. | Do not mint `U.CodeSpace`. Probe and benchmark outputs may contribute evidence under an established evidence-use relation; their presence alone does not establish structure adequacy, assurance or release readiness. |
+| Coarsening, compression, and RG-adjacent traditions | Adopt the need to say what structure is preserved and what is lost. | Use `StructuralCoarseningDescription@Context` when the receiving use needs that explicit account; add `StructureUseReturnCondition` when §4.5 requires it. | For RG, epiplexity, structural information, or equivalence reasoning, use C.29, C.16, or the cited pattern that defines or tests the exact claim. |
+| GonzoML neural-network architecture discussions as practitioner-language intake | Adapt block replacement, dataflow change, memory placement, cache placement, path-selection, pruning, distillation, and architecture-search wording as general architecture-operation recognition material. | Keep the source's local terms when their meaning is clear. Use `C.30.STRAT` when a label leaves the claimed object or relation unresolved. Recover the selected or proposed organization, and any further relation, only when the current claim needs it. | Neural-network labels, benchmark results, ablations, or pruning masks do not become structure ontology, architecture decisions, evidence sufficiency, gate passage, assurance, or architecture adequacy by themselves. |
 
 **How can an orientation cue preserve a structural claim across different diagrams?** The selected answer in §4.3a uses the named subject, relation and representation convention. The serious default is to read height, nesting or direction as one common relation across holons, kinds and activities. That reading fails when the same Method is shown inside one composition and beside a Method using its result. The FPF construction retains each claim when the drawing rotates or changes layout, at the cost of naming the relation once. [OMG Essence 2.0 beta 2, Figure 7.1](https://www.omg.org/spec/Essence/2.0/Beta2/PDF) is a useful positive comparator: its vertically arranged boxes already have differently labelled relations for composition, description and definition. **Adopt** that relation-sensitive reading; the figure does not establish FPF parthood or a universal holon lattice.
 
@@ -40632,7 +40632,7 @@ Use this pattern when a diagram or explanation shows several possible next actio
 
 Name the decision or question, the visible alternatives, the condition for each alternative, and the facts available now. If a missing fact or rule could change the answer, mark that alternative `unknown`. An established blocking condition may already settle it as unavailable. Stop when this answers the practical question. A useful explanation need not first become a formal record or an admitted structure.
 
-Open the formal branch only when the team must qualify, persist, compare, publish, or rely more strongly on the structure. A `ConstraintGovernedUnfoldingStructure` (CGUS) is one A.22 `U.Structure` whose locally named loci, constituents, obtaining relations, and constraints define at least two potential continuations across the cases allowed by those constraints. A separate result says which alternatives are enabled, disabled, unknown, or error for one case and time window.
+Open the formal branch when a named use needs the identity and qualification of the unfolding organization as a CGUS. A `ConstraintGovernedUnfoldingStructure` (CGUS) is one A.22 `U.Structure` whose locally named loci, constituents, obtaining relations, and constraints define at least two potential continuations across the cases allowed by those constraints. A separate result says which alternatives are enabled, disabled, unknown, or error for one case and time window.
 
 Do not use CGUS merely because a card, graph, table, narrative, prompt path, or README line looks route-shaped. A single recommendation or displayed sequence is not enough. The structure may branch, join, cycle through subject relations, remain partially ordered, or leave several alternatives live at once. A result with zero or one enabled alternative can still concern that same branching structure.
 
@@ -40679,7 +40679,7 @@ For example, a design review has two alternatives: accept the design or repair i
 | Accept the design | Thermal check failed; service check passed. | `blocked — thermal check failed` |
 | Repair the design | A check failed and a repair proposal exists, but the proposal-to-design relation has not been established. | `unknown — proposal target not established` |
 
-That corrected card is already useful. It keeps both potential alternatives visible and refuses to invent the missing relation. Continue only if a named later use needs formal structure identity or replayable results.
+That corrected card is already useful. It keeps both potential alternatives visible and refuses to invent the missing relation. Retain the rules, facts, and result when the ordinary answer must be reconsidered or compared later. Continue into formal qualification only when a named use depends on the organization's CGUS identity or membership.
 
 When retaining or handing over this card separately, include the two rules above or a usable return to them so the recipient can reconsider availability after the facts change.
 
@@ -40794,12 +40794,10 @@ The membership test concerns potential topology. Changed facts, evidence, test o
 
 #### A.22.CGUS:4.3 - Four separate decisions
 
-Do not turn qualification, case evaluation, description adequacy, and downstream reliance into one score.
-
 | Decision | Passing basis | Honest lower result |
 | --- | --- | --- |
 | A.22 identity and CGUS membership | The four A.22 discriminators identify one structure; its local loci, relations, and constraints define at least two potential continuations across allowed cases. | Name the missing discriminator, binding, relation, constraint, or candidate. Keep the artifact as an explanation. |
-| Continuation result for this case | Each candidate has an applicable test or obtaining-relation basis, case inputs, facts, required polarity, time window, and an `enabled`, `disabled`, `unknown`, or `error` result. | Mark the affected candidate unknown when the gap prevents deciding its condition; retain an independently established disabled result. Do not revoke an independently established structure. |
+| Continuation result for this case | Each candidate retains its condition-evaluation and obtaining-relation basis rows as applicable. A condition-evaluation row keeps the test, applicability, inputs, required polarity, and observed outcome; an obtaining-relation row keeps the definition, occurrence, and ordered participants. Keep the relevant facts or evidence, time window, and an `enabled`, `disabled`, `unknown`, or `error` result. | Mark the affected candidate unknown when the gap prevents deciding its condition; retain an independently established disabled result. Do not revoke an independently established structure. |
 | Description or demonstrative-slice adequacy | The description says what it shows and omits for its declared use. Use C.33 only when a carrier's loss affects a declared architecture use within C.33's scope. | Narrow or correct the description. Missing publication or loss material does not deny the structure. |
 | A stronger neighboring claim | The method, Work, evidence, assurance, gate, architecture, publication, currentness, or mathematical claim passes its own definition or test. | Stop only that stronger use and name its missing rule or basis. |
 
@@ -40807,7 +40805,7 @@ Potential branches and joins remain part of the structure even when the present 
 
 #### A.22.CGUS:4.4 - Explanations, descriptions, and the non-workflow boundary
 
-Before qualification, an ordinary explanation is about the domain question or proposed alternatives. If persistence is needed, its C.2.1 `EntityOfConcern` remains that question or proposed set, not a CGUS that has not yet qualified.
+An ordinary explanation keeps the subject actually designated by its claims. When its episteme identity matters, recover that independently identified `EntityOfConcern` under C.2.1. It may already be an A.22 structure whose CGUS membership is unresolved. An assertion of CGUS membership still requires its qualification basis.
 
 After qualification, a whole-structure description may describe loci, bindings, relations, constraints, potential branches, case results, and relevant omissions. A separate demonstrative slice may show one traversal for a declared teaching or comparison use. That slice is a C.2.1 episteme: its exact claim content, the qualified CGUS as `EntityOfConcern`, and its effective reference scheme jointly recover its identity. `DemonstrativeUnfoldingSlice@Context` is readable lineage for this possibility, not a `U.Kind` or an exact slice by itself. The slice neither creates nor reidentifies the structure. Use C.33 only when hidden or lost structure in its carrier matters to a declared architecture use within C.33's scope.
 
@@ -40823,13 +40821,13 @@ If a durable name or a relation between local senses is the question, use F.17, 
 
 #### A.22.CGUS:4.5 - Replay and change localization
 
-Replay structure identity from the four A.22 discriminators. Replay CGUS membership from the local locus bindings and potential topology. Replay the case result from each candidate's basis, inputs, facts, polarity, dependent occurrences, time window, outcome, and reason.
+Replay structure identity from the four A.22 discriminators. Replay CGUS membership from the local locus bindings and potential topology. Replay the case result from each candidate's basis rows, retaining the values required by each applicable condition-evaluation or obtaining-relation branch in `4.2`, the relevant case inputs and facts or evidence, dependent occurrences, time window, continuation result, and reason.
 
 Localize change before reopening wider work. A changed constituent, selected occurrence, constraint, or use frame can reidentify the A.22 structure. A changed locus binding or potential-continuation row reopens CGUS membership. A changed fact, evidence item, test result, or time window normally reopens only the affected judgement and current set. A changed omission reopens the affected description use. A changed neighboring claim stays with the pattern that defines or tests it.
 
 ### A.22.CGUS:5 - Complete Worked Case
 
-Return to the design review from `4.1`. The ordinary card becomes formal only because the team now needs to retain and compare the review basis across editions.
+Return to the design review from `4.1`. The team now needs to determine whether reviews across editions use the same qualified unfolding structure or a different one. Recover the formal basis below for that comparison.
 
 ```text
 selectedCGUSRef: DesignReviewAlternatives@DR-27
@@ -40931,8 +40929,8 @@ When the coordination can be sustained, return to the encompassing figure and va
 | --- | --- | --- |
 | **CC-CGUS-1 Identity and profile.** | The four A.22 discriminators identify one `U.Structure`; local locus bindings, relations, and constraints define at least two potential continuations across allowed cases. | Recover the missing value or keep the artifact as an explanation. |
 | **CC-CGUS-2 Local loci and relation participants.** | Every `CGUSLocusBinding` uses a locus declared inside this CGUS and binds one constituent for a stated meaning. A needed relation participant retains its definition, occurrence, order, and binding; `RelationSignature` and `SlotSpec` appear together only for declaration-level replay. | Restore the locus or complete relation-participant basis. Never use a free-standing `SlotSpec` as a structure position. |
-| **CC-CGUS-3 Explanation and description separation.** | An ordinary or persisted provisional explanation concerns the domain question or proposed alternatives. Post-qualification descriptions and slices concern the CGUS. None is the structure or a membership condition. | Restore the right `EntityOfConcern` or keep the explanation ordinary. |
-| **CC-CGUS-4 Current continuation result.** | Each judgement retains its test or obtaining-relation basis, applicability, inputs, facts, polarity, dependent occurrences, window, outcome, and reason. The enabled set may contain zero, one, or several alternatives. | Apply the candidate’s condition logic; mark it unknown only when the missing value prevents deciding the result, and retain evaluation errors separately. |
+| **CC-CGUS-3 Explanation and description separation.** | An ordinary or persisted provisional explanation concerns the actual subject of its claims; this may be an already identified A.22 structure whose CGUS membership remains unresolved. Post-qualification descriptions and slices concern the CGUS. None is the structure or a membership condition. | Restore the right `EntityOfConcern` or keep the explanation ordinary. |
+| **CC-CGUS-4 Current continuation result.** | Each judgement retains its basis rows with the values required by each applicable condition-evaluation or obtaining-relation branch in `4.2`, the relevant case inputs and facts or evidence, dependent occurrences, window, continuation result, and reason. The enabled set may contain zero, one, or several alternatives. | Apply the candidate’s condition logic; mark it unknown only when the missing value prevents deciding the result, and retain evaluation errors separately. |
 | **CC-CGUS-5 Separate decisions.** | Identity and membership, case result, description adequacy, and each neighboring claim are judged separately. | Reopen only the affected decision. |
 | **CC-CGUS-6 Work-order boundary.** | The selected structure and display expose branches and conditions. | Put any prescribed or performed Work order under the Method, work-plan, or Work pattern that establishes it. |
 | **CC-CGUS-7 Graph-shaped coverage.** | Branches, joins, cycles, partial order, and live alternatives are preserved or explicitly omitted for the declared use. | Keep a chain provisional or state what its demonstrative slice omits. |
@@ -40964,10 +40962,10 @@ The same distinction appears in acausal engineering models: component relations 
 
 | Source or practice anchor | FPF adoption | Boundary |
 | --- | --- | --- |
-| Aaron Küsters and Wil M.P. van der Aalst, [“OCPQ: Object-Centric Process Querying & Constraints”](https://arxiv.org/abs/2506.11541), 2025 | Research comparison for typed objects, joins, many-to-many dependencies and relation-preserving constraint queries in the cited 2025 work. | A query or result is not the CGUS. |
-| JuliaHub, Dyad 3.2 component and analysis documentation, 2026 | Engineering comparison for reusable relation-first components separated from analyses and their solution objects in the cited Dyad 3.2 documentation. | FPF imports neither Dyad ontology nor its tools. Modelica 3.7 is retained only as historical acausal-modeling lineage. |
+| Aaron Küsters and Wil M.P. van der Aalst, [“OCPQ: Object-Centric Process Querying & Constraints”](https://arxiv.org/html/2506.11541v1), 2025 | Comparison for queries and constraint checks over typed objects and events, including linked instances and their qualified relationships in the cited 2025 work. | A query or result is not the CGUS. |
+| JuliaHub, Dyad [Components and Reuse](https://help.juliahub.com/dyad/stable/manual/components.html) and [Analyses](https://help.juliahub.com/dyad/stable/manual/analyses.html) documentation | Engineering comparison for reusable equation-based component models and connections, separately defined analyses, and their solution objects. | FPF imports neither Dyad ontology nor its tools. Modelica 3.7 is retained only as historical acausal-modeling lineage. |
 | Declare/MP-Declare, DCR, artifact-centric/GSM, and CMMN work | Lineage for declarative constraints, live alternatives, stages, guards, and weakly structured case work. | These are not current authority for a universal FPF process calculus; their notation and workflow ontology are not imported. |
-| FPF pattern-language practice | Ordinary explanations may precede qualification; descriptions and demonstrative slices may follow it. | An entry card, example, or publication is neither admission evidence nor the specification. |
+| FPF pattern-language practice | Ordinary explanations may precede qualification; descriptions and demonstrative slices may follow it. | Publication form alone supplies neither CGUS qualification grounds nor specification force. |
 
 
 ### A.22.CGUS:12 - Relations
@@ -41014,8 +41012,8 @@ Typical moments:
 
 - If the question is the local relation word, use `A.14`.
 - If the question is constructive part-whole grounding, use `C.13`.
-- If the question is assurance grounding for a working model, use `B.3.5`.
-- If the question is an exact relation among local system-role kinds, use `A.2.7`; if it is classification, assignment, or a direct participation relation, state that fact through its own pattern and predicate. Send unresolved claim-bearing “role” wording through `E.10.ROLE`. Use the Method patterns for method relation structure and `C.29` when a mathematical lens is relied on for the current claim.
+- If a publication choice or named current requirement elects the Working-Model assurance profile for the relation claim, use `B.3.5`.
+- If the question is an exact relation among local system-role kinds, use `A.2.7`; if it is classification, assignment, or a direct participation relation, state that fact through its own pattern and predicate. Send unresolved claim-bearing “role” wording through `E.10.ROLE`. Use the Method patterns for method relation structure and `C.29` when a separate mathematical representation-choice, transfer or reliance question remains unresolved.
 - If the question is performed-work occurrence parts, use `A.15.1`.
 - If the question is whole reidentification or emergence-family wording, use `B.2` or `B.2.P`.
 
@@ -41053,7 +41051,7 @@ When part-whole construction is current, recover:
 
 ```text
 HolonAggregationClaim@Context:
-  candidateWholeRef: U.Holon
+  candidateWholeRef: U.Entity
   candidatePartRefs:
   aggregationPolicyRef?
   claimScopeRef?: U.ClaimScope
@@ -41073,8 +41071,8 @@ This claim frame identifies the objects, relations, and qualifications needed to
 Use:
 
 - `A.14` for `ComponentOf`, `ConstituentOf`, `PortionOf`, `PhaseOf`, collection belonging under the collection's own rule, aspect, and related vocabulary;
-- `C.13` for constructional grounding such as sum, set, slice, or another accepted construction;
-- `B.3.5` when a working model relies on the part-whole claim for assurance or evidence;
+- `C.13` for constructional grounding through its sum, set or slice accounts;
+- `B.3.5` when a publication choice or named current requirement elects its assurance profile for the relation claim;
 - `C.16` when the current output is a whole-level characteristic;
 - `A.1` and `A.15` when the whole is claimed to be an acting collective system.
 
@@ -41082,13 +41080,13 @@ Use:
 
 | Source claim | Ontology-side recovery | Subject pattern |
 | --- | --- | --- |
-| "This object is made of these parts." | Part-whole construction over admitted holons. | `A.1`, `A.14`, `C.13`, `B.3.5` when assurance is current. |
+| "This object is made of these parts." | Identify the candidate whole and constituents and establish the part relations and construction rule. When holonhood is claimed, apply all six A.1 components and the direct kind-specific conditions. | `A.1` for holon recognition, `A.14`, `C.13`; `B.3.5` when a publication choice or named current requirement elects its assurance profile. |
 | "These items belong to this collection." | The collection's own belongs-to rule or collection-as-whole grounding; no `ComponentOf` inference. | `A.14`, `C.13`, `C.16` for a collection-level or whole-level characteristic. |
-| “This role is combined from role factors.” | Unresolved source wording. It may mean an exact relation among local system-role kinds, a classification or assignment, a direct participation relation, a naming question, or ordinary prose; none is holonic parthood by default. | `E.10.ROLE` first; then `A.2.7` only for the exact relation among local system-role kinds, or the direct pattern for the recovered classification, assignment, participation, or naming claim; use `C.29` only if a mathematical lens is selected. |
-| "This method has steps, parameters, guards, or variants." | Method relation structure, method family, method description, or work plan; not performed work by default. | `A.15`, Method patterns, `C.29` if mathematical lens is selected. |
+| “This role is combined from role factors.” | Unresolved source wording. It may mean an exact relation among local system-role kinds, a classification or assignment, a direct participation relation, a naming question, or ordinary prose; none is holonic parthood by default. | `E.10.ROLE` first; then `A.2.7` only for the exact relation among local system-role kinds, or the direct pattern for the recovered classification, assignment, participation, or naming claim; use `C.29` when a separate mathematical representation-choice, transfer or reliance question remains unresolved. |
+| "This method has steps, parameters, guards, or variants." | Method relation structure, method family, method description, or work plan; not performed work by default. | `A.15`, Method patterns, `C.29` when a separate mathematical representation-choice, transfer or reliance question remains unresolved. |
 | "This run contained episodes or concurrent sub-runs." | Work occurrence holarchy with timing, evidence, occurrence identity, and work-part relation. | `A.15.1`, temporal pattern, evidence-use pattern. |
-| "This graph or algebraic notation represents the structure." | Mathematical or representation description of a selected structure. | `C.29`, `A.22`, architecture or description pattern. |
-| "The whole shows emergence." | Existing-whole explanation first; B.2 only when the whole itself must be reidentified. | `B.2`, `B.2.P`, or the direct characteristic, measurement, architecture, capability, or Work pattern. |
+| "This graph or algebraic notation represents the structure." | Mathematical or representation description of a selected structure. | `A.22` and the applicable architecture or description pattern; `C.29` when a separate mathematical representation-choice, transfer or reliance question remains unresolved. |
+| "The whole shows emergence." | Check applicable explanations within the existing whole first. Use B.2 when changed facts leave a consequential question about whether that whole remains sufficient or a new whole is required. | `B.2`, `B.2.P`, or the direct characteristic, measurement, architecture, capability, or Work pattern. |
 
 #### B.1:4.3 - Work Occurrence Holarchy
 
@@ -41096,7 +41094,6 @@ A Method's composition and the parts of a performed Work require different groun
 
 A dated Work may have independently admitted temporal or operational parts under `A.15.1`. C.27 governs temporal claims, and B.1.4 aggregates recovered order or temporal relations when that is the question. Resource roll-ups use B.1.6; composing effects needs the direct relation and composition rule for those effects. Neither kind of calculation establishes Work parthood or makes a Method or role expression a holonic part.
 
-Use A.15.1 when the claim needs occurrence identity, temporal coverage, `Gamma_time`, `Gamma_work`, episode policy, overlap policy, resource aggregation, or performed-work evidence.
 
 #### B.1:4.4 - Mathematical And Representation Apparatus
 
@@ -41118,7 +41115,7 @@ Blocked uses:
 
 #### B.1:4.5 - Existing-Whole Before MHT
 
-Before declaring B.2 whole reidentification, ask whether the whole-level gain can be explained inside the existing whole:
+To assess whether changed facts require a different whole for the receiving use, first consider applicable explanations within the existing whole, such as:
 
 - better parts;
 - corrected part relation;
@@ -41128,7 +41125,7 @@ Before declaring B.2 whole reidentification, ask whether the whole-level gain ca
 - a correction to the selected functional or architectural structure;
 - source, publication, or representation correction.
 
-Use B.2 only when the whole itself must be reidentified.
+If a supported explanation is sufficient for the receiving use, keep the existing whole and stop. Use B.2 when changed facts leave a consequential question about whether that whole remains sufficient or a new whole is required; retain an unresolved comparison when its deciding grounds are missing.
 
 ### B.1:5 - Archetypal Grounding (Worked Cases)
 
@@ -41148,7 +41145,7 @@ The corpus does not become an acting system. A review board, running review tool
 
 A machining method has ordered steps and parameters. Those steps are method relation or method-description material. They do not prove that a performed machining run occurred, nor that the run had the same parts.
 
-If the current claim is the method structure, use Method patterns and C.29 when algebra is selected. If the current claim is the actual run, use A.15.1.
+If the current claim is the method structure, use Method patterns. Use C.29 when a separate mathematical representation-choice, transfer or reliance question remains unresolved. If the current claim is the actual run, use A.15.1.
 
 ### B.1:6 - Bias-Annotation
 
@@ -41157,7 +41154,7 @@ If the current claim is the method structure, use Method patterns and C.29 when 
 | Apparatus as ontology | A user infers the object kind from the form of a graph or other representation. | Recover the holon, relation, selected structure, and mathematical-lens use separately. |
 | Decomposition as parthood | Source “role” factors, method steps, phases, or work episodes are treated as holonic parts by label. | Use `E.10.ROLE` when the role wording is unresolved, then the direct pattern for the recovered relation; use the Method, temporal, Work, or part-whole pattern for the other claims. |
 | Collection as acting whole | A set, list, batch, fleet, or community receives agency or responsibility by plural naming. | Recover who or what belongs under the collection's own rule and the collection account, or admit the actual collective System under A.1. State responsibility separately by naming its predicate, participants, applicability, and occurrence identity; if no pattern or rule defines the needed claim, return that gap. |
-| Emergence rhetoric | "More than the sum" replaces existing-whole explanation. | Test measurement, architecture, role, method, work, and evidence explanations before B.2 whole reidentification. |
+| Emergence rhetoric | "More than the sum" replaces existing-whole explanation. | Check applicable existing-whole explanations; use B.2 only for a consequential question that remains about keeping or reidentifying that whole. |
 
 ### B.1:7 - Conformance Checklist
 
@@ -41169,8 +41166,8 @@ If the current claim is the method structure, use Method patterns and C.29 when 
 | `CC-B1-4` | Relations among local system-role kinds, classifications, assignments, direct participation relations, and Method relation structures are not treated as holonic parts merely because a label, graph, algebra, or naming convention composes them. `A.2.7` is used only for the first of those branches. |
 | `CC-B1-5` | Performed work occurrence parts require A.15.1. |
 | `CC-B1-6` | Mathematical and representation apparatus is named as lens or expression, not as ontology by spelling. |
-| `CC-B1-7` | B.2 is used only when the whole itself must be reidentified after existing-whole explanations fail. |
-| `CC-B1-8` | No generic `U.Boundary`, `U.Interaction`, `U.Level`, `U.Emergence`, or `U.Frustration` is introduced by aggregation wording. |
+| `CC-B1-7` | B.2 is selected when changed facts leave a consequential existing-whole versus new-whole question. A sufficient existing-whole explanation ends that inquiry; missing deciding grounds leave the comparison unresolved. |
+
 
 ### B.1:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -41180,7 +41177,7 @@ If the current claim is the method structure, use Method patterns and C.29 when 
 | Graph as structure | A diagram or graph is treated as the part-whole structure. | Name the selected structure and relation pattern; keep the graph as representation or math lens. |
 | Method as work | A method decomposition is used as evidence that work occurred. | Use A.15.1 for performed-work occurrence and evidence. |
 | Collection as acting whole | A list or pool decides, acts, or bears responsibility. | Recover who or what belongs under the collection's own rule or its collection-as-whole account, or admit the actual collective System under A.1. A system-role kind, assignment, Method, or Work does not establish responsibility; name the predicate and the pattern or rule that defines it, or state that this is missing. |
-| Emergence by narrative | "More than the sum" replaces existing-whole analysis. | Check existing-whole explanations before B.2. |
+| Emergence by narrative | "More than the sum" replaces existing-whole analysis. | Check applicable existing-whole explanations; stop when sufficient for the receiving use, or use B.2 for the consequential whole-identity question that remains. |
 
 ### B.1:9 - Consequences
 
@@ -41194,26 +41191,25 @@ Positive consequences:
 Costs:
 
 - Users must identify the claim kind before choosing a notation.
-- Using aggregation notation can require further grounds: work occurrence evidence uses `A.15.1`, work-resource aggregation uses `B.1.6`, mathematical-lens reliance uses `C.29`, and whole reidentification first uses `B.2.P` and then `B.2` when the problem remains current.
+- Further grounds depend on the claim: work occurrence evidence uses `A.15.1`; work-resource aggregation uses `B.1.6`; an unresolved mathematical representation-choice, transfer or reliance question uses `C.29`. Use `B.2.P` for unresolved emergence-family wording and `B.2` when changed facts leave a consequential existing-whole versus new-whole question.
 
 ### B.1:10 - Rationale
 
 Whole-level reasoning relies on accepted part-whole relations, constructional grounding, and the applicable subject patterns. This supports reasoning across different kinds of objects while retaining their own admission and relation rules.
 
-Mathematical apparatus remains available. It becomes more useful after the governed object is known: graph for dependency representation, algebra for selected composition rules, tuple for slot relation expression, matrix or embedding for analysis, and C.29 when a mathematical lens is relied on for the current claim.
+Mathematical apparatus remains available. Once the governed object is known, a graph can represent dependencies, an algebra can express selected composition rules, a tuple can express a slot relation, and a matrix or embedding can support analysis. Use C.29 when a separate mathematical representation-choice, transfer or reliance question remains unresolved.
 
 ### B.1:11 - SoTA-Echoing
 
-| Source family | Current lesson for B.1 | FPF decision |
-| --- | --- | --- |
-| Constructional ontology and applied ontology practice | Whole identity, dependency, and construction need explicit grounding rather than unrestricted composition. | B.1 requires A.14 relation vocabulary and C.13 constructional grounding before part-whole claims are relied on. |
-| Systems engineering and digital engineering practice | Whole-level characteristics and architecture views need traceable part relations and selected structures. | B.1 separates part-whole construction from selected-structure descriptions, dashboards, and mathematical representations. |
-| Method and process-modeling traditions | Plans, procedures, and performed occurrences are often conflated. | Method relation structure remains with Method patterns; performed-work holarchy remains with A.15.1. |
-| Emergence and holonic systems practice | Genuine whole-level novelty must be distinguished from measurement, architecture, role, method, or work repair. | B.2 is the pattern for whole reidentification after existing-whole explanations are tested. |
+For the question "does a collection-level calculation warrant treating the collection as a holon?", B.1 uses A.1:4.2's recognition criterion, A.14:4's distinction between belonging and parthood, and C.13:4.1's construction accounts. A collection account and a holon account support different claims; use the lighter account when it supplies the receiving result.
+
+The corpus in B.1:5.2 makes the comparison concrete. Its coverage or diversity can be assessed under the collection's inclusion and characteristic rules while constructive part relations and assembly remain unestablished. Those same collection facts remain insufficient for a holon claim under A.1, even if the aggregate value is correct. B.1:4.1–4.2 therefore preserve the collection result and require the six constructive components and kind-specific conditions for the stronger holon claim. In the pump-skid case, independently grounded component relations and assembly supply the corresponding part-whole basis.
+
+This conceptual comparison settles which account these FPF claims require, with the additional construction and recognition burden made explicit for a holon claim. It does not rank external ontology or engineering methods. Reopen the choice of account when the receiving claim, construction facts or applicable identity criterion changes.
 
 ### B.1:12 - Relations
 
-- **Builds on:** `A.1` for holon admission, `A.14` for relation vocabulary, `C.13` for constructional grounding, and `B.3.5` for Working-Model assurance grounding.
+- **Builds on:** `A.1` for holon recognition, `A.14` for relation vocabulary, and `C.13` for constructional grounding. Use `B.3.5` for Working-Model assurance grounding when a publication choice or named current requirement elects that profile.
 - **Coordinates with:** `A.15` and `A.15.1` for method and work, `A.22` and `C.30` for selected structure and architecture, `C.16` for whole-level characteristics, `C.29` for mathematical lenses, and `B.2` for whole reidentification.
 - **Refined by:** `B.1.1`, `B.1.2`, `B.1.4`, and `B.1.6` for selected dependency, system aggregation, contextual-temporal aggregation, and work-resource aggregation cases.
 
@@ -41320,7 +41316,7 @@ DependencyGraphRepresentation@Context:
   publicationOrViewRef?
 ```
 
-Use the graph to examine properties such as acyclicity, reachability, cutsets, weak links, flow, or traceability. These checks concern the graph expression; their results bear on the selected relation only when its rule admits the mapping. Use C.29 to state the mathematical representation correspondence, preserved and lost distinctions, and validation boundary on which that inference depends.
+Use the graph to examine properties such as acyclicity, reachability, cutsets, weak links, flow, or traceability. These checks concern the graph expression; their results bear on the selected relation only when its rule admits the mapping. State the mathematical representation correspondence, preserved and lost distinctions, and validation boundary on which that inference depends. Use C.29 when a mathematical representation-choice, transfer or reliance question remains unresolved.
 
 #### B.1.1:4.3 - Relation Grounding Guide
 
@@ -41328,10 +41324,10 @@ Use the graph to examine properties such as acyclicity, reachability, cutsets, w
 | --- | --- | --- |
 | part of the whole | part-whole relation over admitted holons | `A.14`, `C.13`, `B.1` |
 | an entity belongs to a world-side collection | the collection's own belongs-to occurrence, or a separately grounded collection-as-whole claim | `A.14`, `C.13`, `C.16`, and the pattern that defines that collection's rule |
-| phase of the same carrier | temporal phase relation | the carrier's identity and phase rules, `A.14`, and `B.1.4` |
-| ordered step or branch | method, process-view, Work, or order relation | `A.3.1`, `A.3.2`, `A.15.1`, or the pattern that defines the order relation; `B.1.4`, and `C.29` when a lens is current |
+| phase of the same carrier | temporal phase relation | the carrier's identity and phase rules and `A.14`; `B.1.4` when the claim aggregates temporal phases |
+| ordered step or branch | method, process-view, Work, or order relation | `A.3.1`, `A.3.2`, `A.15.1`, or the pattern that defines the order relation; `B.1.4` for an order-sensitive or temporal aggregation claim; `C.29` when a mathematical representation-choice, transfer or reliance question remains unresolved |
 | performed work part | work occurrence relation with evidence and timing | `A.15.1` |
-| external influence, signal, supply, measurement, or control | the exact obtaining relation and its participants; recover evidence provenance separately | `A.3.4` for an actual transformation, `C.16` for measurement, and the defining pattern for the particular supply or control relation; `A.10` recovers the independently established support and bounded use |
+| external influence, signal, supply, measurement, or control | the exact obtaining relation and its participants, with the support required by the receiving claim | `A.3.4` for an actual transformation, `C.16` for measurement, and the defining pattern for the particular supply or control relation; `A.10` when the claim needs an explicit source-to-use account for provenance or bounded reliance |
 | representation, dashboard, digital twin, or architecture description | description or representation relation, not parthood | `C.2.1`, `E.17`, `C.30.AD`, `C.30.AD.BA` |
 
 #### B.1.1:4.4 - Graph Checks Are Conditional
@@ -41380,11 +41376,11 @@ If the graph describes a method or process view, use the patterns that define th
 | Check | Requirement |
 | --- | --- |
 | `CC-B1.1-1` | A dependency claim names the relation kind before graph notation is relied on. |
-| `CC-B1.1-2` | Graph, matrix, table, or diagram wording is treated as a mathematical or representation expression unless an exact structure relation makes that expression the structure under concern. |
+| `CC-B1.1-2` | Graph, matrix, table and diagram wording distinguishes a representation from the organization it represents. When the receiving claim selects the representation's own organization as a U.Structure, identify that separate organization by the four A.22 discriminators. |
 | `CC-B1.1-3` | Part-whole edges use A.14 and C.13 discipline. |
 | `CC-B1.1-4` | Boundary-crossing, transformation, evidence, source-use, publication-use, and representation relations are not recast as parthood. |
 | `CC-B1.1-5` | Design description, run occurrence, and evidence are not mixed; the record names their separate patterns and uses a DesignRunTag or equivalent scope discipline when needed. |
-| `CC-B1.1-6` | Graph checks are interpreted only through the selected relation's defining or testing rule and C.29 when the mathematical lens is relied on for the current claim. |
+| `CC-B1.1-6` | Graph checks are interpreted only through the selected relation's defining or testing rule. Use C.29 when a mathematical representation-choice, transfer or reliance question remains unresolved. |
 
 ### B.1.1:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -41417,18 +41413,17 @@ Dependency is a useful starting term for several kinds of connection. To use it 
 
 ### B.1.1:11 - SoTA-Echoing
 
-| Source line | Practical implication for this pattern |
-| --- | --- |
-| Systems engineering dependency modeling | Dependency views are useful only when edge meaning is declared and traceable to the current engineering concern. |
-| Graph theory and mathematical-lens practice | A graph property applies to the graph expression; it bears on the object only through an admitted mapping to the selected relation. |
-| Applied ontology relation discipline | Part-whole, collection-specific belonging, representation, evidence, source-use, and influence relations have different admissibility conditions. |
-| FPF design-description and run-occurrence distinction | A design dependency expression and a performed-Work occurrence use separate patterns and evidence. |
+For the question "what whole-level claim follows from this dependency graph?", a generic graph can answer a reachability or cycle question about its edges. A claim about the represented system additionally needs the edge relation and its correspondence. A.14:4 and C.13:4.1 supply the part-whole and collection criteria used here; A.22:4.1 supplies the selected organization's identity discriminators.
+
+In B.1.1:5.1, the arrow `PowerGrid -> Plant` alone does not distinguish supply from parthood. Supply leaves parthood undecided; an independently grounded internal power subsystem can be both supplier and part. The generic edge account is sufficient for a graph property that does not depend on that distinction, but insufficient for a plant-parthood conclusion. Sections B.1.1:4.1–4.3 retain the graph calculation and add the relation facts, identity rule and correspondence required by the intended inference.
+
+The additional work is to recover those facts and rules, using the diagram or an accompanying explanation when the receiving use needs them inspectable. This conceptual comparison supports the distinction in these cases; it does not establish superiority over named engineering notations. Reconsider the required account when the relation, correspondence or intended inference changes.
 
 ### B.1.1:12 - Relations
 
-- **Builds on:** `B.1`, `A.1`, `A.14`, `C.13`, and `A.6.5`.
+- **Builds on:** `B.1`, `A.1`, `A.14`, and `C.13`.
 - **Coordinates with:** `A.15.1` for work occurrence, `B.1.4` for contextual and temporal aggregation, `C.29` for graph as mathematical lens, `A.22` and `C.30` for selected structure and architecture, `C.30.AD` and `C.30.AD.BA` for architecture description and digital-twin cases.
-- **Can contribute evidence to:** `B.2` when dependency evidence bears on whole reidentification after existing-whole explanations fail.
+- **Can contribute evidence to:** `B.2` when dependency evidence bears on a consequential question about retaining or reidentifying the whole.
 
 ### B.1.1:End
 
@@ -41514,9 +41509,9 @@ Coordinate one named system-aggregation or delimitation decision using the indep
 | Which constituents are parts, portions, phases, or members, and how do they assemble? | `A.14`, the exact part-relation specialization, and `C.13` for constructive assembly grounding | Exact obtaining part-relation occurrences and the assembly they support; otherwise the missing direct governor, participant identity, obtaining fact, or assembly basis. |
 | Which facts and selected boundary-use claim delimit the system for this decision? | `A.1` for system identity; `A.14`, the exact part-relation specialization, and `C.13` for parthood and assembly; every exact crossing-relation pattern for external participants; `C.11` for a local choice among already available boundary readings; `C.32.PAD` for a post-synthesis architecture decision concerning exact project Work; `C.2.1` only for a separately persistent claim | First return exact identity, obtaining parthood and assembly, and crossing facts. If those facts answer the question, stop. If the named use additionally selects a boundary reading, return the C.11 `ChoiceResult` or C.32.PAD `ArchitectureDecisionRelation@Project` that makes its inclusion, exclusion, identity-preservation, and use claim current. Another choice branch passes only after its admitted direct decision predicate, source, and result are named; otherwise return the exact missing predicate or defining pattern, participant, obtaining fact, decision governor, or information blocker. When durable reliance is needed, one separate C.2.1 episteme states that claim and cites its basis; it creates none of the world facts. A selected `U.Structure` remains a separate B.1.2:4.2 branch. |
 | Which relation crosses the selected boundary? | The direct source, supply, flow, coupling, control, measurement, evidence, publication, transformation, commitment, or other relation pattern; `F.9` only for a needed semantic correspondence or difference between two exact F.17 local senses from different semantic contexts | One exact obtaining relation occurrence with its participant bindings and direct predicate; otherwise the missing governor, endpoint, binding, or obtaining fact. |
-| Which function is realized by which bearer? | The direct behavior, realization, allocation or parthood pattern; `A.6.F` or `A.6.M` only for unresolved wording; `C.30.ASV` only for architecture-view qualification | Recover the functional claim, admitted bearer and independently obtaining realization/allocation and parthood relations; otherwise identify the missing predicate, participant or defining source. |
-| Which whole-level characteristic is claimed? | `C.16`, `A.19`, and `C.29` when a mathematical lens is used | Exact bearer, characteristic, assignment or value, scale, threshold or aggregation relation, and lens-use boundary; otherwise the missing bearer, scale, relation, or evidence. |
-| Which evidence, description, representation, or publication supports inspection? | `A.10`, `B.3`, `C.2.1`, `C.29`, `E.17`, and the exact source or architecture-description pattern | The exact episteme and exact evidence, assurance, description, representation, source-use, or publication relation; otherwise the missing identity, relation, applicability, or reliance basis. |
+| Which function is realized by which bearer? | The direct behavior, realization, allocation or parthood pattern; `A.6.F` or `A.6.M` only for unresolved wording; `C.30.ASV` only for architecture-view qualification | Recover the functional claim, admitted bearer and independently obtaining realization or allocation relation. Establish parthood separately when it is claimed. If a relation required by the claim cannot be established, identify the missing predicate, participant or defining source. |
+| Which whole-level characteristic is claimed? | `C.16` and `A.19`; `C.29` when a mathematical representation-choice, transfer or reliance question remains unresolved | Recover the bearer, characteristic, assignment or value, and scale, together with any threshold, aggregation or inference rule, and lens-use boundary required by the claim; identify any missing basis needed for that claim. |
+| Which evidence, description, representation, or publication supports inspection? | `C.2.1` for the account; `A.2.4` for evidence-use or status-use classification. Use `A.10` for an unresolved source-to-use account, `B.3` for a requested assurance claim, `C.29` for an unresolved mathematical-lens question, or `E.17` for a needed publication face; use the applicable source or architecture-description pattern when that relation is the question | The exact episteme and exact evidence, assurance, description, representation, source-use, or publication relation; otherwise the missing identity, relation, applicability, or reliance basis. |
 
 Stop when a missing direct result prevents the named decision, and identify that missing result. Collecting the available results does not supply it.
 
@@ -41543,7 +41538,7 @@ Useful families include:
 - logical or capability claims such as emergency-stop availability or vulnerability exposure;
 - architecture characteristics that depend on selected structure.
 
-Use `C.16`, `A.19`, and `C.29` when characteristic space, scale, threshold, or mathematical lens is relied on for the current claim. Use B.2 when redundancy, closure, or coordination creates or reveals a whole that must be reidentified.
+Use `C.16` and `A.19` for the characteristic, scale and aggregation rule. Retain the correspondence, assumptions and limits needed to rely on a mathematical lens; use `C.29` when its choice, transfer or reliance remains unresolved. Use B.2 when changed facts leave a consequential question about whether the existing whole still supports the claim or a new whole is required. A sufficient existing-whole explanation ends that inquiry; missing deciding grounds leave the comparison unresolved.
 
 #### B.1.2:4.5 - Functional Elements And Bearers
 
@@ -41569,7 +41564,7 @@ A resistor symbol in a circuit diagram is a functional or design-description ele
 
 #### B.1.2:5.3 - Digital Twin Of A Building Asset
 
-A BIM model, asset register, dashboard, or digital twin may describe the built asset and its systems. It is not the asset's part by being linked in a model. Use architecture-description, publication, evidence, source-use, representation, and naming patterns for the description side; use exact part-relation patterns only for admitted system parts of the built asset.
+A BIM model, asset register, dashboard, or digital twin may describe the built asset and its systems. It is not the asset's part by being linked in a model. Identify what the model or account says about the asset; use C.2.1 if that description needs clarification. Follow the further questions in :4.1 only when the use depends on them. Establish any claimed parthood through its own relation.
 
 #### B.1.2:5.4 - Lathe And Workpiece
 
@@ -41582,7 +41577,7 @@ The lathe can change the workpiece through a bounded transformation and work occ
 | Box as ontology | A diagram boundary becomes system delimitation by appearance. | Name the exact system and obtaining part and crossing relations. Stop if they answer the question. If a distinct use-relative boundary choice remains, name the C.11 `ChoiceResult`, C.32.PAD `ArchitectureDecisionRelation@Project`, or another explicitly admitted direct result; otherwise stop with the missing-governor blocker. Use an A.22 selected structure only when its four discriminators are independently grounded. |
 | Interface as part | Supply, signal, measurement, control, publication, or evidence relation becomes a component. | Recover the exact crossing occurrence under its subject pattern and keep it separate from parthood. |
 | Function as bearer | A functional block or symbol is treated as a physical or organizational component. | Recover function, bearer, allocation or correspondence, and any parthood claim separately. |
-| Description as system | BIM model, dashboard, digital twin, register, or source record is treated as the system. | Use description, representation, publication, evidence, source-use, and naming patterns for the description side. |
+| Description as system | BIM model, dashboard, digital twin, register, or source record is treated as the system. | Identify the description and the system it describes; use C.2.1 if that relation is unclear, and the applicable further pattern only for a remaining question. |
 | Transformation as containment | A tool or teacher changes a holon and is read as its part or containing whole. | Use A.3.4, A.15.1, A.12, and the exact participation or crossing pattern; require a separately obtaining part-whole relation for containment. |
 | Coordination as ownership | A convenient B.1.2 record is treated as the source of all named facts. | Use its subject pattern for every row; select an A.22 `U.Structure` only when the organization itself changes the decision. |
 
@@ -41607,8 +41602,8 @@ The lathe can change the workpiece through a bounded transformation and work occ
 | Box as boundary | A diagram rectangle determines system membership. | Recover system identity and every obtaining part and crossing relation; stop if those facts answer the question. If a distinct use-relative boundary choice remains, name the applicable C.11 `ChoiceResult`, C.32.PAD `ArchitectureDecisionRelation@Project`, or another explicitly admitted direct result; otherwise stop with the missing-governor blocker. Add a C.2.1 episteme only when that claim must persist; use an A.22 selected structure only when its four discriminators are independently grounded. |
 | Supplier as component | External supplier or grid is treated as part of the system. | Recover the exact supply, commitment, evidence, source-use, or other crossing relation under its subject pattern; infer no parthood. |
 | Function block as module | A functional block is treated as a physical component. | Recover the exact functional element, proposed bearer, allocation or correspondence, and any obtaining part relation separately. |
-| Digital twin as part | A model or dashboard appears inside the system aggregate. | Use description, representation, publication, evidence, source-use, and naming patterns; add parthood only if its direct predicate independently obtains. |
-| Redundancy as arithmetic | Redundancy is averaged into a better system score. | Check characteristic scale and existing-whole explanation; use B.2 when the whole must be reidentified. |
+| Digital twin as part | A model or dashboard appears inside the system aggregate. | Recover the description relation; add parthood only if its direct predicate independently obtains. Follow :4.1 for a further question about relying on or publishing the description. |
+| Redundancy as arithmetic | Redundancy is averaged into a better system score. | Check the characteristic scale and applicable existing-whole explanations; use B.2 when the decision still depends on whether the existing whole is sufficient. |
 
 ### B.1.2:8 - Consequences
 
@@ -41617,11 +41612,11 @@ Positive consequences:
 - System aggregation remains practical for engineering systems and organizations.
 - Boundary and interface decisions expose the facts and rules they depend on.
 - Practitioners can distinguish functional architecture, module allocation, and physical parthood within a shared diagram.
-- A digital twin or publication remains a description unless a further relation is independently defined and established.
+- The description remains distinct from the system it describes; any further claimed relation between them needs its own grounds.
 
 Costs:
 
-- Engineering diagrams used for decisions need annotations that name the exact relation and its defining pattern or declaration.
+- A decision diagram needs clarification when a relevant relation or its basis cannot be recovered from the diagram and its available explanation.
 - Some familiar component lists must be split into physical parts, functional elements, external systems, sources, and descriptions.
 - Whole-level characteristic claims need scale and relation discipline.
 
@@ -41631,18 +41626,13 @@ An engineering decision may depend on several relations involving the same syste
 
 ### B.1.2:10 - SoTA-Echoing
 
-| Source family | Current lesson for B.1.2 | FPF decision |
-| --- | --- | --- |
-| Systems engineering and digital engineering practice | System breakdowns, interfaces, allocations, views, and digital twins must be coordinated but not identified with one another. | B.1.2 coordinates their exact subject-pattern results and uses A.22 only when one selected organization changes the decision. |
-| Reliability and safety engineering | System-level claims need conservative relation and scale discipline. | Whole-level characteristic roll-up requires C.16, A.19, and C.29 when those claims are relied on for the current use. |
-| Applied ontology and constructional mereology | External dependence and part-whole construction are different relations. | Crossing relations do not become parthood; A.14 and its direct specializations govern exact part relations, while C.13 may ground the assembly they support. |
-| Holonic and cyber-physical systems practice | Coordination and closure can create useful whole-level objects. | B.2 is the pattern for whole reidentification when existing system aggregation is insufficient. |
+The coordination method uses A.1 for system recognition, A.14 and C.13 for parts and assembly, and the applicable characteristic or relation method for each further claim. In the pump-skid case (:5.1), assigning membership from diagram placement can include the external grid and the description. Keeping the independently established relations yields the component inventory and exposes an unresolved component relation while retaining the established ones. This is the bounded comparison the case supports. A comparative claim against a named systems-engineering or reliability-engineering method requires that method's actual delimitation and inference rules, assessed on the same decision at comparable effort.
 
 ### B.1.2:11 - Relations
 
 - **Builds on:** `B.1`, `A.1`, `A.14`, `C.13`, `A.22`, and the direct relation patterns selected for the current decision.
 - **Coordinates with:** `A.6.F` for function wording, `A.6.M` for module/interface wording, direct subject patterns for bearer identity and allocation, `A.22` and `C.30` for selected structure and architecture, `C.16` and `A.19` for characteristics, `C.29` for mathematical lenses, `A.3.4` and `A.12` for transformation and acting-side externalization, and `C.30.AD` or `C.30.AD.BA` for architecture-description cases.
-- **Can contribute evidence to:** `B.2` when system aggregation no longer explains the whole-level claim and whole reidentification is needed.
+- **Can contribute evidence to:** `B.2` when changed system facts raise a consequential question about continuing with the existing whole or identifying a new one.
 
 ### B.1.2:End
 
@@ -41671,7 +41661,7 @@ An engineering decision may depend on several relations involving the same syste
 * **Mereology (A.14).** For knowledge composition we primarily use **ConstituentOf** (logical or semantic parts), **UsageOf** or **ReferenceTo** (external reliance), and each collection's own belongs-to rule for collections such as anthologies or corpora. We do **not** use **ComponentOf** (physical) in Γ\_epist.
   `PhaseOf` may restrict the **same unchanged episteme** to a proper interval when its complete C.2.1 identity triple remains fixed. Distinct labelled versions or revisions require distinct C.2.1 identities when a discriminator changes and an independently obtaining `EpistemeEditionRelation` for any claimed historical continuation. Knowledge does not act and acquires neither a work-facing local system-role kind nor an assignment. Ordinary prose may say, for example, "the researcher synthesized the sources". If the receiving use does not identify that action as one particular dated `U.Work` occurrence, stop with the ordinary sentence. If it does, recover each actual performer's A.13 core and independently admit the occurrence under A.15.1. Add F.6 only when the receiving use also needs precise assignment-bound attribution; a short local projection may omit an unused assignment identifier only when every consumed relation remains recoverable.
 * **Assurance (B.3).** Keep **F** (Formality), **G** (ClaimScope), and **R** (Reliability) distinct. Identify the meaning, scale, and receiving use of each value before calculating with it. A mapping's **CL** summarizes one relation's fit; its ordinal rank is not a numerical loss of reliability. Preserve provenance and make any unsupported inference or semantic crossing visible. Formality or mode does not supply a missing warrant model.
-* **Order/time flavours.** Argument sequences may need **Γ_ctx** (non-commutative ordering of premises to conclusion). Knowledge evolution first uses C.2.1 to identify exact epistemes and any obtaining edition relations; B.1.4/**Γ_time** may then aggregate already recovered temporal restrictions, relation order, deprecation, or update windows for a bounded use. The aggregation creates neither identity nor continuity. Open B.2 only if the synthesis leaves a genuine whole-reidentification question after the existing-whole explanation check and identifies an exact candidate new whole; new wording or explanatory gain alone is not MHT.
+* **Order/time flavours.** Argument sequences may need **Γ_ctx** (non-commutative ordering of premises to conclusion). Knowledge evolution first uses C.2.1 to identify exact epistemes and any obtaining edition relations; B.1.4/**Γ_time** may then aggregate already recovered temporal restrictions, relation order, deprecation, or update windows for a bounded use. The aggregation creates neither identity nor continuity. Open B.2 when the recovered facts leave a question about whether the existing whole still carries the current claim or a new whole must be identified; new wording or explanatory gain alone is not MHT.
 
 ### B.1.3:2 - Problem
 
@@ -43383,7 +43373,7 @@ Typical moments:
 - If the claim is capability without whole reidentification, use the direct capability and characteristic patterns.
 - If the claim is transformation or work, use `A.3.4` for the change and `A.15.1` for the Work; use `A.12` when the acting side needs recovery and `A.15` when alignment across the neighboring objects is the question.
 - If the claim is only wording repair for emergence-family language, use `B.2.P` first.
-- If the claim is graph, RG-like, MSPD, or other mathematical expression, use `C.29` unless whole reidentification is also current.
+- If the claim concerns a graph, RG-like, MSPD or other mathematical expression, use its mathematical or subject pattern, with `C.29` for an unresolved representation-choice, transfer or reliance question. `B.2` applies separately when whole reidentification is also current.
 
 ### B.2:1 - Problem Frame
 
@@ -111852,7 +111842,7 @@ Do not use this pattern merely because a visible record or description is a rout
 
 The first useful move is small and ordinary: name the concrete thing being transformed, mark two recognizable places or states on the flow card in domain language, state the proposed connection or guard, and ask which continuation depends on it. A useful result can be a provisional explanation that names the missing relation, fact, or constraint. It need not yet be asserted as a C.2.1 episteme, E.18 position mapping, or selected A.22 structure. If that explanation answers the current use, stop there.
 
-Only when the team must assert E.18.3 qualification, compare or publish the selected structure, or support a stronger downstream claim should it recover the A.22 identity, CGUS locus bindings and potential continuation rows, the E.18 or E.18.NET positions and bindings, obtaining relations, applied constraints, and current continuation judgements. Add replay fields, C.33 loss notes for a declared architecture use, publication material, or downstream assurance only when that named use needs them. Here `move` is Plain wording for the current action, not a universal kind or relation; a proposal, selection result, or formalized description does not establish that the proposed action was performed.
+Only when a named use depends on the identity and qualification of the unfolding organization as an E.18.3 structure should the team recover the A.22 identity, CGUS locus bindings and potential continuation rows, the E.18 or E.18.NET positions and bindings, obtaining relations, applied constraints, and current continuation judgements. Add replay fields, C.33 loss notes for a declared architecture use, publication material, or downstream assurance only when that named use needs them. Here `move` is Plain wording for the current action, not a universal kind or relation; a proposal, selection result, or formalized description does not establish that the proposed action was performed.
 
 ### E.18.3:1 - Problem Frame
 
@@ -111943,7 +111933,7 @@ There is no generic method-to-work linkage here. When one named use relies on a 
 
 Begin with the ordinary branch: name the concrete thing being transformed, mark two recognizable places or states, state the proposed connection or guard in domain language, and ask which continuation depends on it. Return a provisional explanation that either answers the question or names the missing relation, fact, or constraint. If that is sufficient, stop; neither the explanation nor the flow card must first be constituted as an episteme, position mapping, or selected structure.
 
-Use the numbered recovery branch below only when the use must assert E.18.3 qualification, compare or publish the structure, or support a stronger downstream claim. It preserves the membership and current-result distinctions; it is not a prerequisite for understanding or correcting an ordinary route-like card.
+Use the numbered recovery branch below only when a named use depends on the identity and qualification of the unfolding organization as an E.18.3 structure. Comparison, publication and stronger reliance retain their own requirements for the claims actually made. That recovery preserves the membership and current-result distinctions; it is not a prerequisite for understanding or correcting an ordinary route-like card.
 
 1. Recover one selected A.22.CGUS and its four exact identity discriminators; do not create a reciprocal E.18.3 structure.
 2. Name the current transformation subject or subjects, their kinds and the exact E.18 positions and bindings used by the question.
@@ -112018,7 +112008,7 @@ An ordinary stop uses `stopCondition`; reconsideration uses `reconsiderationCond
 
 Before the selected A.22 structure passes admission and the E.18.3 membership condition, a path fragment, flow card, worked example, or first-use account may remain an ordinary provisional explanation. It can name the concrete subject, recognizable places or states, proposed relations, possible continuations, and the missing fact or constraint without asserting a structure, position, or relation occurrence.
 
-When replay, comparison, publication, or another current use needs that narrower account to persist as a claim, constitute one ordinary C.2.1 provisional episteme. Its exact EntityOfConcern is the actual transformation subject, current question, or proposed continuation set, never a not-yet-admitted structure. Its ClaimContent may name the visible candidate places, proposed relations, presentation form, unresolved coordinates, and the exact condition that would resolve each one. Use the explanation or episteme to guide discovery; any claim that the proposed structure, position, or relation occurrence exists still needs its own identity basis and applicable test.
+When replay, comparison, publication, or another current use needs that narrower account to persist as a claim, constitute one ordinary C.2.1 provisional episteme. Its exact EntityOfConcern is the independently identified subject actually designated by its claims; this may be the transformation subject, current question, proposed continuation set, or an A.22 structure whose CGUS or E.18.3 membership remains unresolved. Its ClaimContent may name the visible candidate places, proposed relations, presentation form, unresolved coordinates, and the exact condition that would resolve each one. Use the explanation or episteme to guide discovery; any claim that the proposed structure, position, or relation occurrence exists still needs its own identity basis and applicable test.
 
 After qualification, a separate ordinary C.2.1 demonstrative-slice episteme may teach one enabled traversal. Its EntityOfConcern is the same selected CGUS recognized by E.18.3. Its ClaimContent cites established `CGUSLocusBinding` values, the relevant current continuation judgements, relation-reference epistemes or obtaining occurrence refs, any omissions that matter to this carrier (under C.33 for a declared architecture use), alternatives, presentation claims, admissible and forbidden uses, and the return condition. The slice creates none of those values.
 
@@ -112046,13 +112036,13 @@ A source phrase or graph enters only through an exact source-to-use claim or rel
 
 E.18.3 recognizes one selected A.22.CGUS `U.Structure`; it is not a second transformation ontology or reciprocal narrower structure. That selected CGUS uses one independently identified E.18 substrate branch and its exact positions, bindings, and already-obtaining occurrences; the substrate is not the selected CGUS. The selected structure is not a workflow, Method, MethodDescription, WorkPlan, performed Work, actual Transformation, mathematical graph, publication, evidence relation, gate decision, architecture decision, or architecture description. It organizes independently identified constituents, already-obtaining relations, and constraints for one transformation-flow unfolding use.
 
-A graph, record, filled table, demonstration, imperative, selected continuation, recommendation, or intended realization is evidence of neither the A.22 identity nor the E.18.3 condition. It admits no MethodDescription or Work. A.3.2, A.15.1, A.3.4 and A.15.PROD supply the applicable membership or occurrence tests; every relation claim still needs its exact predicate definition, applicability conditions and current facts.
+A graph, record, table, or demonstration may carry claims relevant to A.22 identity or E.18.3 qualification. Its form alone supplies neither those grounds nor MethodDescription or Work admission. A.3.2, A.15.1, A.3.4 and A.15.PROD supply the applicable membership or occurrence tests; every relation claim still needs its exact predicate definition, applicability conditions and current facts.
 
 When a continuation is intended to perform work, apply A.22.CGUS:4.1.1 to its relevant constituent and encompassing conditions. The arrangement may need capabilities and shared resources that no single flow position reveals. Recover Method and Work parthood independently through B.1.5.EW; nested transformation-flow positions and temporal arcs retain their own meanings. Local completion supports the whole result only under the required coordination and result-use conditions. A description that omits those conditions answers a narrower question than whether the whole can be performed.
 
 #### E.18.3:4.4 - Replay and change localization
 
-Replay A.22 identity, CGUS membership, and E.18.3 membership separately. The first uses the four A.22 discriminators; the second uses local locus bindings and potential continuation topology; the third maps those bindings to one E.18 substrate case and its positions, bindings, and obtaining occurrences. Replay the current set from each candidate's condition or relation basis, applicability, case inputs, facts or evidence, dependent occurrences, window, outcome, and reason. Description loss and every stronger neighboring claim remain separate uses.
+Replay A.22 identity, CGUS membership, and E.18.3 membership separately. The first uses the four A.22 discriminators; the second uses local locus bindings and potential continuation topology; the third maps those bindings to one E.18 substrate case and its positions, bindings, and obtaining occurrences. Replay the current set from each candidate's basis rows, retaining the values required by each applicable condition-evaluation or obtaining-relation branch in `A.22.CGUS:4.2`, the relevant case inputs and facts or evidence, dependent occurrences, window, continuation result, and reason. Description loss and every stronger neighboring claim remain separate uses.
 
 Localize changes by the value they affect. A changed A.22 discriminator can reidentify the structure. A changed CGUS locus binding or potential row reopens CGUS membership. A changed E.18 substrate, flow position, binding, or selected occurrence reopens E.18.3 membership. A changed test, fact, evidence item, guard event, assignment fact, or window reopens only dependent continuation judgements and the current set unless it also changes one of those membership bases. A changed carrier omission reopens the affected description and, for a declared architecture use, its C.33 episteme; a changed neighboring use reopens its own claim.
 
@@ -112060,9 +112050,9 @@ A changed demonstration, valuation, path slice, local tag, continuation outcome,
 
 ### E.18.3:5 - Archetypal Grounding — Worked Slices
 
-**Ordinary first use — heat-treatment card.** A practitioner reviewing the flow card for `GearBlank@Lot-14` marks “soak complete” and “quench candidate,” writes “quench remains an admissible continuation only when the measured soak state is within the allowed range,” and asks whether the card may show that continuation or which fact or constraint is missing. If the measured-state fact or range rule is unavailable, the useful result is a provisional explanation naming that gap. The team may use it to correct or discuss the card and stop; it authorizes no Work and asserts no C.2.1 episteme, A.22 structure, E.18 position, applied constraint claim, E.18 guard event, or relation occurrence. Continue to formal recovery only when the team must qualify, compare, publish, or rely more strongly on the structure.
+**Ordinary first use — heat-treatment card.** A practitioner reviewing the flow card for `GearBlank@Lot-14` marks “soak complete” and “quench candidate,” writes “quench remains an admissible continuation only when the measured soak state is within the allowed range,” and asks whether the card may show that continuation or which fact or constraint is missing. If the measured-state fact or range rule is unavailable, the useful result is a provisional explanation naming that gap. The team may use it to correct or discuss the card and stop; it authorizes no Work and asserts no C.2.1 episteme, A.22 structure, E.18 position, applied constraint claim, E.18 guard event, or relation occurrence. Continue to formal recovery only when the named use depends on the organization's identity and qualification as an E.18.3 structure.
 
-**Candidate-set replay entry.** When the team must compare or publish the candidate-set repair structure, name one proposed selected-structure use, `CandidateSetComparisonBasis@Review-2026-07` and its kind, then describe candidate `ReferenceEditionChangePosition` and `ComparisonRecalculationPosition` plus the proposed dependency `ComparisonDependsOnAdmittedEdition`. Because this use needs a replayable claim, constitute an ordinary C.2.1 provisional episteme whose EntityOfConcern is that comparison-basis question. Its ClaimContent names the G.11 currentness test and A.19.CPM comparison rule as needed contributions and states that the A.22 identity, exact E.18 bindings, and dependency occurrence remain unresolved. This prevents a stale-edition comparison from looking current without asserting a structure, typed position, or relation prematurely.
+**Candidate-set replay entry.** When the team must determine whether the proposed candidate-set repair organization qualifies as an E.18.3 structure, name one proposed selected-structure use, `CandidateSetComparisonBasis@Review-2026-07` and its kind, then describe candidate `ReferenceEditionChangePosition` and `ComparisonRecalculationPosition` plus the proposed dependency `ComparisonDependsOnAdmittedEdition`. Because this use needs a replayable claim, constitute an ordinary C.2.1 provisional episteme whose EntityOfConcern is the qualification question about that proposed organization. Its ClaimContent names the G.11 currentness test and A.19.CPM comparison rule as needed contributions and states that the A.22 identity, exact E.18 bindings, and dependency occurrence remain unresolved. This prevents a stale-edition comparison from looking current without asserting a structure, typed position, or relation prematurely.
 
 **P2W carry-through.** Accepted problem-side records may name distinctions, constraints and unresolved relation positions that guide later Method selection, planning, Work, interpretation and reconsideration. E.18.3 may organize independently current objects only after the selected A.22 structure, E.18 position bindings and direct relations are recovered. It does not authorize launch or performed Work, does not admit any MethodDescription from intended use, and does not replace E.18.1 carry-through.
 
