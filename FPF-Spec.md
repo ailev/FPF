@@ -173,13 +173,13 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | A.6.0 | **U.Signature - Reusable Law-Governed Declaration Episteme** | Stable | Identifies one reusable declaration episteme by its claim content, exact EntityOfConcern, and effective ReferenceScheme; governs vocabulary, laws, applicability, relation-facing RelationSignature use, and only the specialized typed declarations needed by receiving uses. | **Builds on:** A.7, C.2.1, C.3, A.2.6, A.6.5. **Coordinates with:** A.6.REL, A.6.1, A.3.1, A.15.1, C.29, E.24.UK, E.24.PUB. |
 | A.6.1 | **U.Mechanism - Reusable Law-Governed Operation Declaration** | Stable | Keywords: U.Mechanism, operation declaration, OperationAlgebra, operation application, application binding, LawSet, AdmissibilityConditions, realization. Queries: "How do I declare a reusable operation family?", "When does one exact operation application or binding obtain?", "How do I separate declaration, realization, method, Work, evidence, and publication?" | **Builds on:** A.6.0, C.2.1, A.2.6. **Coordinates with:** A.6.REL for occurrence identity; A.6.5 only for contrasting RelationSignature SlotSpecs; A.3.1 and A.15.1 for method and dated Work; F.9 only for exact cross-context SenseCell correspondence; CHR, A.1.1 and A.22 for selected plane and model-use structure. |
 | A.6.2 | **Effect-Free Episteme Morphing: Laws for Mathematical Relations Between Epistemes** | Stable | A local mathematical discipline for law-constrained arrows between exact epistemes. It compares their claims, EntityOfConcern, and interpreting schemes, declares the allowed ClaimGraph difference and preserve/retarget mode, and keeps the declaration, arrow, use claim, operation application, Work, and publication distinct. EFEM and EpMorphism are local mathematical classes in the selected formal substrate, not admitted durable U-kinds. | **Builds on:** A.6.0, A.6.1, A.6.5, C.2.1, C.29, E.10.D2, C.3, F.9. **Used by:** A.6.3, A.6.4, E.17.0, E.17, E.18, and KD-CAL/LOG-CAL rules. |
-| A.6.3 | **Episteme viewing - EntityOfConcern-preserving episteme construction** | Stable | Derives a smaller, reorganized, translated, or combined episteme from named source epistemes about the same exact EntityOfConcern. It states what is kept or omitted and adds no unsupported claim; view membership, production Work, and publication remain separate. *Queries:* "How was Y constructed from X about the same thing?", "What was kept or omitted?", "Does Y add any unsupported claim?". | **Builds on:** A.6.0, A.6.2, C.2.1, A.6.3.CR, A.6.3.RT, A.6.4, C.29. **Coordinates with:** E.17.0, A.15.1, A.15.PROD, E.24.PUB. **Used by:** E.17, E.17.0, E.18, and domain viewing patterns. |
-| A.6.3.CSC | **Controlled Semantic Coarsening: Shorten an Account for a Bounded Use** | Stable | Shorten a source account for a named present use: write a candidate, compare it with the source, preserve the distinctions needed now, expose loss or unsupported addition, block stronger downstream use, and state when to return. Open exact C.2.1 source and receiving epistemes and the A.6.3 construction only when independent reuse or consequential reliance makes them material; publication occurrence, form, and carrier remain separate under E.24.PUB. | **Builds on:** C.2.1, A.6.3. **Coordinates with:** A.6.3.CR, A.6.3.RT, A.6.3.NAR, E.17.EFP, E.24.PUB, E.17.ID.CR, F.9, F.9.1, A.15, A.6.4, A.20, A.21. |
+| A.6.3 | **Episteme viewing - EntityOfConcern-preserving episteme construction** | Stable | Derives a smaller, reorganized, translated, or combined episteme from named source epistemes about the same exact EntityOfConcern. It states what is kept or omitted and adds no unsupported claim; view membership, production Work, and publication remain separate. *Queries:* "How are Y's claims licensed by X and any additional sources or admitted facts under the viewing rule?", "What was kept or omitted?", "Does Y add any unsupported claim?". | **Builds on:** A.6.0, A.6.2, C.2.1, A.6.3.CR, A.6.3.RT, A.6.4, C.29. **Coordinates with:** E.17.0, A.15.1, A.15.PROD, E.24.PUB. **Used by:** E.17, E.17.0, E.18, and domain viewing patterns. |
+| A.6.3.CSC | **Controlled Semantic Coarsening: Shorten an Account for a Bounded Use** | Stable | Shorten a source account for a named present use: write a candidate, compare it with the source, preserve the distinctions needed now, expose loss or unsupported addition, state the supported-use boundary and when to return. Open exact C.2.1 source and receiving epistemes and the A.6.3 construction when the result must travel independently or their identity matters to the receiving use; publication occurrence, form, and carrier remain separate under E.24.PUB. | **Builds on:** C.2.1, A.6.3. **Coordinates with:** A.6.3.CR, A.6.3.RT, A.6.3.NAR, E.17.EFP, E.24.PUB, E.17.ID.CR, F.9, F.9.1, A.15, A.6.4, A.20, A.21. |
 | A.6.3.CR | **ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression** | Stable | Textual re-expression, summary, report rewrite, translation, or filtering that preserves the same resolved EntityOfConcern, keeps source tether and omission/loss visible, and exits to explanation, representation change, retargeting, bridge, work, evidence, gate, or assurance patterns when those claims are being made. | **Builds on:** A.6.3, A.6.2, A.7, E.10.D2, E.17.0, E.17, F.9, F.18, E.10. **Coordinates with:** A.6.3.CSC, A.6.3.RT, E.17.EFP, E.17.ID.CR, A.6.4, B.5.2, A.15. |
 | A.6.3.RT | **Representation-Scheme Transition: Change Representation of the Same EntityOfConcern** | Stable | Move practical content into a target representation without hiding what changed: name the content to survive and the target/use, produce a target suited to that use, compare it with the source, and state preservation, representation/reasoning-medium delta, loss or unsupported additions, bounded use, and return. Open exact `X`, `Y`, and `v : X -> Y` only when a named reliance-facing receiver makes claim identity material; open `RepresentationSchemeTransitionRelation@Context` only when the historical transition Work and all six exact participants are material. *Queries:* "How do I turn prose, a table, or a diagram into another representation without losing what matters?", "What became easier to inspect, what was lost or added, and when must I return to the source?", "When do I need exact endpoints, and when is the historical transition occurrence itself material?" | **Builds on:** A.6.3, A.6.2, C.2.1; later occurrence uses A.1.1 and A.15.1. **Coordinates with:** A.6.3.CR, A.6.3.NAR, A.6.3.CSC, E.17.EFP, E.17.ID.CR, A.6.4, A.7, F.9, A.15, E.17.0, E.24.PUB, A.10, B.3, C.26, C.29, E.18, A.20, A.21. |
 | A.6.3.RT.OE | **Construct an Operative Expression** | Stable | Use when content must be arranged so a calculation, inference, construction or coordination can be performed, or an exploratory comparison can reveal a still-unknown distinction. Keep shared parts, grouping, scope and references usable; try the subject operation and repair the expression. *Queries:* "What distinction does comparing these records reveal?", "How can the same part connect two relations?", "Which grouping preserves the intended prerequisite?", "How do I coordinate a phrase with its temporal reference?" | **Coordinates with:** A.6.3.RT, E.5.2, B.5.RC, B.5.RA, B.5.RR, B.5.WN, C.37, C.2.8 and the subject Method. |
 | A.6.3.NAR | **Structure-to-Narrative Rendering** | Stable | Turn selected source structure into a reader-useful sequence: choose the reader and use, select and order source structure, draft a narrative that serves the reader's use, compare it with the source, and state preservation, loss, unsupported additions, bounded use, and return. Open exact `X`, `Y`, and `n : X -> Y` only when a named receiving use makes claim identity material; publicness alone does not. *Queries:* "How do I explain tangled structure as a sequence without replacing the source?", "What did this narrative preserve, omit, or add, and when must a reader return?", "When does a narrative need exact source and receiving episteme identity?" | **Specializes:** A.6.3. **Coordinates with:** A.6.3.CR, A.6.3.RT, A.6.3.CSC, A.6.4, E.17.EFP, C.33, C.34, C.35, G.2, E.24.PUB, E.17.0, G.11. |
-| A.6.4 | **EntityOfConcern Retargeting: Judge a Bounded Use Across Different Entities** | Stable | Use when exact source and receiving epistemes concern different exact entities. Identify their exact arrow `r`; state a separate C.2.1 bounded-use assertion `q` whose ClaimGraph contains the invariant, visible loss, named receiving use, conditions, and affirmative or negative polarity; then compare exact facts with `q` in a separate current-case judgement returning `satisfies`, `fails`, or `cannot decide`. For `cannot decide`, name the missing fact and reopen condition. Neighboring claims stay with the owners listed at right. *Queries:* "Do the endpoint epistemes concern different exact entities?", "What identifies `r`?", "What invariant, loss, use, conditions, and polarity does `q` state?", "Which exact facts determine the judgement?" | **Builds on:** A.6.0, A.6.2, A.6.3, C.2.1, C.29, A.6.3.RT, A.6.5, A.7, E.10.D2. **Coordinates with:** C.2, C.3, the direct domain pattern for the invariant, and F.9 only for a separately claimed local-sense Bridge; A.6.1, A.15, A.10, B.3, A.20, E.17, and E.24.PUB keep their neighboring claims. |
+| A.6.4 | **EntityOfConcern Retargeting: Judge a Bounded Use Across Different Entities** | Stable | Use when exact source and receiving epistemes concern different exact entities. Identify their exact arrow `r`. For a claimed receiving use, state a separate C.2.1 bounded-use assertion `q` whose ClaimGraph contains the invariant, visible loss, named receiving use, conditions, and affirmative or negative polarity. When a current-case judgement is needed, compare exact facts with `q` and return `satisfies`, `fails`, or `cannot decide`. For `cannot decide`, name the missing fact and reopen condition. Neighboring claims stay with the owners listed at right. *Queries:* "Do the endpoint epistemes concern different exact entities?", "What identifies `r`?", "What invariant, loss, use, conditions, and polarity does `q` state?", "Which exact facts determine the judgement?" | **Builds on:** A.6.0, A.6.2, A.6.3, C.2.1, C.29, A.6.3.RT, A.6.5, A.7, E.10.D2. **Coordinates with:** C.2, C.3, the direct domain pattern for the invariant, and F.9 only for a separately claimed local-sense Bridge; A.6.1, A.15, A.10, B.3, A.20, E.17, and E.24.PUB keep their neighboring claims. |
 | A.6.P | **Relational Precision Restoration — Recovering Direct Relations from Under-Specified Claims** | Stable | Recover the concrete subject, participants, obtaining condition, and receiving use from under-specified relation wording. For service/access language, first distinguish service provision, Method, promise, bare role wording, system-role kind or assignment, permission, bearer or proposed arrangement, Work, capability, status, evidence, fulfilment, acceptance, and missing governor; the word selects none. *Queries:* "What exact referent or relation does this phrase assert?", "Which E.10.ROLE branch does bare role wording select?", "Did service wording name Work, a Method, promise content, a bearer, an arrangement, status, or another direct claim?", "Does the repaired bearer claim really require A.1 evaluation?" | **Builds on:** A.6.REL, A.6.RCD, A.6.0, A.6.5, C.2.1, E.10, E.10.ARCH. **Coordinates with:** E.10.ROLE, A.1.SCR, A.1.STM, A.6.P.WMR, A.6.RSIR, A.6.B, A.3.4, A.10, C.29, E.17.0, E.24.PUB, F.9, F.18. |
 | A.6.P.RI | **Recover Agent-Relative References for Action** | Stable | Use when passing an account to another participant leaves a reference unclear—for example, whose left side or project is meant. Recover the source reference, what the receiving use must preserve and who will act; derive an interpretation or instruction, or name the missing condition. | **Builds on:** A.6.P. **Coordinates with:** C.2.1, A.6.3.RT, A.6.4, B.5.EA. |
 | A.6.P.WMR | **Exact Relation Recovery for Method and Work Claims** | Stable | Start with one boundary-word sentence about an input, raw material, source data, source material, output, result, outcome, deliverable, or handoff. Name the exact thing, what it is related to, and the direct verb that can safely be said now—or return `factually unsupported`, `missing-information`, or `missing-governor`. Use formal claim dimensions only when they change or check that answer; keep planning, Work, production, delivery, acceptance, transfer, and receiving use separate. | **Specializes:** A.6.P. **Coordinates with:** A.3.1, A.3.2, A.6.1, A.15.1-A.15.3, A.3.4, A.15.PROD, A.6.RCD, C.2.P, E.10, E.10.ARCH, E.18.1, F.18. |
@@ -17605,7 +17605,7 @@ FPF distinguishes actual participants and their references from the declaration-
 
 **First useful result.** Write one source-to-result statement. For example:
 
-> `Result Y is made from source X. Both are about the same named thing. Y keeps [named claims], omits [named claims], and adds no claim unsupported by [named sources].`
+> `Under the declared viewing rule, the claims in result Y are licensed by X together with any additional named sources and admitted facts required by that rule. X and Y are about the same named thing. Y keeps [named claims], omits [named claims], and adds no claim unsupported by those premises.`
 
 Then name or show the rule that selects, rewrites, or combines the claims. Do not call the construction an A.6.3 viewing unless X and Y can be identified separately and this rule can be inspected.
 
@@ -17622,7 +17622,7 @@ Engineering work often needs a different body of claims about the same thing. Ex
 Several neighboring facts can all be true but are not the same fact:
 
 1. X and Y are identified as C.2.1 epistemes;
-2. Y was constructed from X under one declared viewing rule;
+2. a declared viewing rule licenses Y's claims from X and any additional named sources or admitted facts it requires;
 3. X and Y have the same EntityOfConcern;
 4. Y makes no stronger claims than the identified sources license;
 5. Y conforms to an exact viewpoint and is therefore a `U.View`;
@@ -17633,7 +17633,7 @@ Ordinary use may need only items 1 through 4. The remaining claims are opened in
 
 ### A.6.3:2 - Problem
 
-How can a project say that Y was constructed from X about the same thing while making clear what was preserved, what was lost, and why Y adds no unsupported claim?
+How can a project state how X and any additional named sources or admitted facts license Y under a viewing rule while making clear what was preserved, what was lost, and why Y adds no unsupported claim?
 
 Keep that construction separate from the work that produced Y, any publication of Y, and any separate check that Y qualifies as a `U.View`.
 
@@ -17647,7 +17647,7 @@ Without this distinction, a query execution is treated as view membership, a gen
 | Same concern vs changed expression | X and Y share one exact EntityOfConcern, while claim content or effective reference scheme may differ and therefore identify another episteme. |
 | Algebraic composition vs actual work | Viewings should compose and replay as mathematical constructions, while systems and work occurrences remain separate. |
 | Direct source vs several-source correspondence | Some constructions use X alone; others depend on exact relations among several source epistemes. |
-| Construction history vs stable kind membership | Viewpoint conformance depends on Y and the viewpoint, independently of how Y was constructed. |
+| Viewing construction vs stable kind membership | Viewpoint conformance depends on Y and the viewpoint, independently of any source-to-Y viewing claim. |
 | Lightweight assertion vs assurance | A readable source-to-receiving statement often suffices; disputed loss or correspondence requires exact declarations and evidence. |
 
 ### A.6.3:4 - Solution
@@ -17717,7 +17717,7 @@ EpistemeViewpointConformanceRelation(Y,P) obtains
   -> the same episteme Y is a U.View
 ```
 
-Directly authored Y can be a view without any A.6.3 source relation. Conversely, a valid A.6.3 construction can yield Y that fails P's concern-coverage or semantic-form rules and therefore is not a view under P.
+Directly authored Y can qualify as a view without establishing an A.6.3 source-to-Y construction. Conversely, a valid A.6.3 construction can yield Y that fails P's concern-coverage or semantic-form rules and therefore is not a view under P.
 
 #### A.6.3:4.5 - Distinguish direct and correspondence-mediated construction
 
@@ -17763,9 +17763,9 @@ Add a reusable declaration, explicit mathematical arrow, correspondence episteme
 
 X is a rich system-description episteme about exact plant S. Y is a smaller episteme about the same S containing only safety-critical functions, hazards, and mitigations recoverable from X. The viewing declaration names the filter and omitted claim families. A.6.3 construction obtains. Y becomes a `U.View` only after exact safety viewpoint P is resolved and `EpistemeViewpointConformanceRelation(Y,P)` obtains.
 
-#### A.6.3:5.2 - Directly authored view without a source
+#### A.6.3:5.2 - Directly authored view
 
-Architecture episteme E is authored directly against maintainability viewpoint P and passes E.17.0 conformance. E is a `U.View`, but no A.6.3 viewing from another episteme exists. Inventing an identity source merely to satisfy this pattern would falsify the construction history.
+Architecture episteme E is authored directly against maintainability viewpoint P and passes E.17.0 conformance. E is a `U.View` on that basis; no source-to-E viewing claim is needed for this result. A mathematical viewing relation may be established separately, including identity viewing on E. Any claim that the authoring used a source needs its own historical basis; the mathematical arrow does not supply it.
 
 #### A.6.3:5.3 - Query result that fails conformance
 
@@ -17781,13 +17781,13 @@ Requirements episteme R and design episteme D concern exact system S. Exact real
 
 #### A.6.3:5.6 - Retargeting boundary
 
-X concerns pump P-14. A proposed Y concerns the whole cooling skid. Even if every Y claim is derived from X plus neighboring descriptions, A.6.3 does not apply because the exact EntityOfConcern changed. Use A.6.4 and state the retargeting invariant.
+X concerns pump P-14. A proposed Y concerns the whole cooling skid. Even if every Y claim is derived from X plus neighboring descriptions, A.6.3 does not apply because the exact EntityOfConcern changed. If declaring a retargeting arrow, use A.6.4. For a claimed receiving use, separately state its invariant, visible loss, use conditions and affirmative or negative proposition; assess that proposition against particular facts when a current-case judgement is needed.
 
 ### A.6.3:6 - Consequences
 
 | Gain | Cost or boundary |
 |---|---|
-| Construction history is inspectable without defining view membership. | X and Y must be independently identified before the construction is asserted. |
+| The source-to-result construction is inspectable without defining view membership. | X and Y must be independently identified before the construction is asserted. |
 | Direct authoring and generated epistemes coexist. | A generated result needs a separate E.17.0 test before it can be called a view. |
 | Correspondence-mediated constructions can use exact domain relations. | A graph or trace table must supply the relevant claims and grounds; its presence alone does not establish the relation. |
 | Work and publication stay outside the mathematical construction. | Tool execution and availability require their own patterns when current. |
@@ -17842,41 +17842,27 @@ X concerns pump P-14. A proposed Y concerns the whole cooling skid. Even if ever
 
 **Builds on.** `C.2.1` for exact episteme identity and `A.6.3` for the exact same-EntityOfConcern construction `c : X -> Y`.
 
-**Coordinates with.** `A.6.3.CR` for the same-EntityOfConcern rewording boundary; `A.6.3.RT` for a material representation-scheme transition; `E.17.EFP` for an explanation-facing use; `E.24.PUB` for publication occurrence, form, carrier, audience, and bounded use; and `E.17.ID.CR`, `F.9`, `F.9.1`, `A.15`, `A.6.4`, `A.20`, and `A.21` at their own triggers.
 
 ### A.6.3.CSC:1 - Problem frame
 
-**Practical entry; exact identity when material.** For ordinary shortening, begin with the source passage or account, its present reader and use, and the distinctions that use still needs. Write the shorter candidate directly, then compare it with the source: the candidate must neither lose a distinction needed for that use nor add or strengthen anything the source does not support. Record any loss, the non-admissible uses, and the condition for going back. This local, reversible result does not by itself assert an exact A.6.3 construction. When the result must travel, be cited, be disputed, cross a scheme boundary, or support consequential reliance, identify exact source episteme `X`, exact receiving episteme `Y`, and exact `c : X -> Y`. Exact CSC remains a same-EntityOfConcern construction; a changed EntityOfConcern requires A.6.4.
+**Practical entry; exact identity when material.** For ordinary shortening, begin with the source passage or account, its present reader and use, and the distinctions that use still needs. Write the shorter candidate directly, then compare it with the source: the candidate must neither lose a distinction needed for that use nor add or strengthen anything the source does not support. Record any loss, the use boundary, and the condition for going back. This local, reversible result does not by itself assert an exact A.6.3 construction. When the result must travel independently or endpoint or construction identity matters to the receiving use, identify exact source episteme `X`, exact receiving episteme `Y`, and exact `c : X -> Y`. Exact CSC remains a same-EntityOfConcern construction; a changed EntityOfConcern requires A.6.4.
 
 **Use this when.** You need to shorten a text or another account without losing the distinctions needed for its present use or saying more than the source supports—for example, a summary, redacted disclosure, or dashboard account whose omissions must remain visible and bounded. If the live task is only layout, carrier, extraction, or authoring, use E.24.PUB, A.7, or E.8 as appropriate. Identify the exact episteme endpoints under §4.3 when their identity matters.
 
-**Plain recognition line.** Shorten the account and compare it with the source: keep the distinctions needed now, remove anything the source does not support, state what was lost, and say when the reader must go back.
 
-`Controlled Semantic Coarsening` supplies the controlled-loss and use-boundary test for a shorter candidate. In the exact branch it characterizes `c : X -> Y`: a same-EntityOfConcern A.6.3 construction with explicit claim-content rule, endpoint scheme relation, preservation, controlled loss, prohibited strengthening, narrower use, and return.
 
-**Start here.** Compare the source passage or account and shorter candidate for the present use: retain the needed distinctions, identify loss or unsupported addition, and make the use limit and return trigger clear. The ordinary result is the shorter candidate with its adjacent or directly linked source. Use the optional six-row note in §4.1 when the receiving use needs an inspectable comparison. Do not construct C.2.1 identity triples or `c : X -> Y` merely to shorten material for a local, reversible use. Open the exact branch when independent reuse, citation, dispute, cross-scheme interpretation, policy, bridge, work, gate, privacy, engineering justification, or assurance makes endpoint or construction identity matter.
 
-**Neighboring contributions.** Use A.6.3.CR for same-EntityOfConcern rewording, A.6.3.RT when a material representation-scheme change is current, E.17.EFP for an explanation-facing use, and E.17.ID.CR for bounded comparison. Use F.9 for the Bridge and bounded-use claim, and add an F.9.1 stance note only when it helps explain that claim. Use A.6.4 when the EntityOfConcern changes. Use A.15.1 only when the claim depends on actual coarsening Work, and use E.24.PUB to identify an occurrence that makes selected episteme `X` or `Y` available through a form and carrier.
 
 **What goes wrong if missed.** A helpful summary hides a qualifier or distinction needed by its current reader, or adds or strengthens a claim beyond source support. A reader may then rely on the summary for a decision that needs the omitted information. In an exact case, mistaking the publication or representation for its claim-bearing episteme also leaves the endpoint unidentified.
 
-**What this buys.** The practitioner reaches a useful shorter candidate before optional formal apparatus, while the comparison still exposes required distinctions, controlled loss, prohibited strengthening, non-admissible use, and return. When the result becomes load-bearing, reuse that comparison to establish the exact endpoint and construction account.
+**What this buys.** The practitioner reaches a useful shorter candidate before optional formal apparatus, while the comparison still exposes required distinctions, controlled loss, prohibited strengthening, non-admissible use, and return. When endpoint or construction identity becomes material, reuse that comparison to establish the exact endpoint and construction account.
 
-**Working decision sequence.** Name the current reader/use and the distinctions that must survive -> write the shorter candidate -> compare it with the source -> mark retained distinctions, any loss, and anything added or strengthened beyond source support; state non-admissible use and return -> use the candidate for the named orientation, triage, disclosure, retrieval, comparison, or planning-preparation purpose -> stop locally, or open the exact branch if the result must travel or support stronger use.
 
-**Ordinary use.** For orientation, bounded disclosure, retrieval, workshop framing, preliminary triage, comparison, or planning preparation, stop when the source remains adjacent or directly linked, the candidate neither loses a distinction needed for that use nor adds or strengthens anything the source does not support, and no stronger use is attempted.
 
-**Exact reuse or reliance use.** Identify `X`, `Y`, `c`, their C.2.1 identities, preserved claims, controlled loss, prohibited strengthening, and return when the coarsened result will be independently reused, externally relied on, disputed, cited, interpreted across schemes or bounded model-use structures, policy-bearing, bridge-adjacent, work-adjacent, gate-adjacent, privacy-sensitive, or engineering-justification-facing. Add evidence or assurance only when that receiving use requires it.
 
-**Stop condition.** Stop at the ordinary candidate when it is usable only with the adjacent or linked source, it neither loses a material distinction for the present use nor adds or strengthens anything the source does not support, no stronger use is attempted, and the return condition blocks the remaining overread.
 
 State the actual use limit and return through the distinction that was lost or weakened, or the additional support the proposed use requires. Apply `F.19:4` when deciding whether an explicit warning or denied downstream use helps the intended reader. A positive narrower-use statement may already make the boundary clear; the underlying admissibility condition remains in force.
 
-**Admissible-use examples.**
-
-| Admissible project use | Source-finding or reversible probe | Non-admissible downstream use |
-| --- | --- | --- |
-| A shorter incident note, redacted partner note, dashboard wording, lookup form, workshop sheet, or didactic account retains the distinctions needed for its named triage, disclosure, retrieval, coordination, or planning-preparation use. | The note points to the source and makes the reader check both whether needed distinctions survived and whether the candidate added or strengthened anything the source does not support before release, audit, accountability, engineering-justification, or independent reuse. | Neither the shorter candidate nor its publication occurrence, form, or carrier is release authority, evidence, audit closure, accountability finding, bridge or substitution admissibility, work authority, or assurance conclusion. |
 
 **Not this pattern when.** Use A.6.3.CR for ordinary rewording with no narrower-use or controlled-loss question; A.6.3.RT for a representation-medium change whose material issue is the scheme; E.17.EFP for explanation fidelity; E.17.ID.CR for comparison; F.9 for a Bridge and its separately stated bounded-use claim; F.9.1 only for a separate stance note about such a claim; A.6.4 for a changed EntityOfConcern; A.15 for work; and A.20/A.21 for a constraint or gate claim.
 
@@ -17889,8 +17875,8 @@ A coarsened rendering stays usable under these conditions:
 - the source-bearing side retains the fuller claim scope and remains directly reopenable;
 - the coarsened rendering has declared concrete loss or reduced recoverability;
 - the coarsened rendering makes only the narrower use admissible;
-- downstream use is non-admissible from the coarsened rendering alone;
-- downstream use reopens the source-bearing side or uses the pattern that supplies the needed definition, constraint, test, method, evidence rule, or genuine `authoritySourceRef` relation.
+- a use requiring a lost distinction or additional support is not admissible from the coarsened rendering alone;
+- such a use reopens the source-bearing side or uses the pattern that supplies the needed definition, constraint, test, method, evidence rule, or genuine `authoritySourceRef` relation.
 
 Without a named pattern for that relation, neighboring patterns repeat partial coarsening rules locally. The repetition hides the shared constraint and makes it too easy for coarsened renderings to travel as if they were the source-bearing side.
 
@@ -17899,14 +17885,14 @@ Without a named pattern for that relation, neighboring patterns repeat partial c
 | Force | Tension |
 | --- | --- |
 | Reader economy vs source relation | Readers need short, useful renderings, but shortness must not erase the source-bearing side or its limits. |
-| Ordinary use vs exact reuse or reliance | A small summary should stay cheap, while independent transfer, dispute, citation, policy, bridge, work, gate, privacy, or consequential reliance needs the exact branch. Add evidence or assurance only if and to the extent the receiving use materially requires it. |
+| Ordinary use vs exact reuse or reliance | Independent transfer requires the exact branch; other reuse or reliance opens it when endpoint or construction identity matters. Add evidence or assurance only to the extent required by that use. |
 | Helpfulness vs non-admissible authority interpretation | A reader may propose the same short account for orientation and for a decision requiring evidence, a Bridge or substitution claim, approval, or execution authority. Those uses need their own support. |
 | Coarsening-chain reuse vs provenance reset | Reusing one coarsened rendering to make another saves effort, but it must not reset source path, loss envelope, uncertainty, or reopen duty. |
-| Neighbor clarity vs family sprawl | One shared controlled-coarsening account should prevent local repetition without stealing ordinary rewrite, representation, explanation, comparison, bridge, stance, work, or gate questions from the patterns that define or test them. |
+
 
 ### A.6.3.CSC:4 - Solution
 
-Begin with direct semantic compression. Name the present reader or use, point to the source passage or account, list the distinctions that use needs, write the shorter candidate, and compare candidate with source. Make clear what survived, what was omitted, weakened, aggregated, redacted, or made harder to recover, and what the candidate added or strengthened without support in the source; then state which stronger use remains non-admissible and what makes the reader return. The ordinary result is the shorter candidate and its directly reachable source; the surrounding text may already make the use, loss, and return clear. Use §4.1 only when a separate comparison record helps the receiving use.
+Begin with direct semantic compression. Name the present reader or use, point to the source passage or account, list the distinctions that use needs, write the shorter candidate, and compare candidate with source. Make clear what survived, what was omitted, weakened, aggregated, redacted, or made harder to recover, and what the candidate added or strengthened without support in the source; then make the supported use and return condition clear. Apply F.19:4 to any explicit excluded-use statement. The ordinary result is the shorter candidate and its directly reachable source; the surrounding text may already make the use, loss, and return clear. Use §4.1 only when a separate comparison record helps the receiving use.
 
 The ordinary result is deliberately provisional: it can support the named local, reversible use while the source remains adjacent or directly linked, but it does not yet assert an exact CSC relation or make the candidate independently transferable. When endpoint or construction identity changes interpretation, comparison, migration, conflict, publication, reuse, or reliance, identify exact A.6.3 construction `c : X -> Y`. `X` and `Y` are then independently constituted C.2.1 epistemes about the same exact EntityOfConcern. State the exact claim-content rule from `X` and any named additional source epistemes to `Y`, the relation between their effective reference schemes, preserved claims, controlled loss, prohibited strengthening, applicability, narrower admissible use, and return.
 
@@ -17917,7 +17903,7 @@ Use these Plain terms with that progressive boundary:
 - **Present or narrower admissible use** means the practical use for which the candidate is being made, such as orientation, retrieval, bounded disclosure, workshop framing, or preliminary triage. In the exact branch this becomes the explicitly bounded use of `Y`.
 - **Non-admissible downstream use** means the use the candidate or `Y` does not make admissible alone, such as approval, audit closure, release gate, work plan, equivalence, bridge/substitution, accountability finding, or canonical technical claim.
 - **Return trigger** means the condition that requires the source, local re-expansion, exact `X`, an exact source relation, or the pattern that supplies the needed definition, constraint, test, or method.
-- **Exact reuse or reliance case** means a coarsening result that will travel independently, be cited or disputed, cross schemes, support external reliance, or become policy-, bridge-, gate-, work-, privacy-, engineering-justification-, or assurance-facing.
+- **Exact reuse or reliance case** means a coarsening result that must travel independently or whose endpoint or construction identity matters to the receiving use.
 
 Producing an ordinary candidate does not require a Work record. When the current claim needs the history of actual coarsening, use A.13 to establish each performer's agential basis and A.15.1 to admit the dated Work independently, including at least one Method actually followed. Add F.6 only if that use must also state exactly under which assignment the Work was performed. Name a separate capability claim, an additional enacted Method, source-use or A.6.1 bindings, and any A.15.PROD inception claim only when the receiving claim depends on them. Establish conservativity or controlled loss through the source-to-candidate comparison.
 
@@ -17936,7 +17922,7 @@ Use this optional six-row aid when the receiving use needs an inspectable compar
 | Non-admissible downstream use | What downstream claim, effect, work, or reliance use is not admissible from this candidate alone? |
 | Return trigger | What demand forces comparison with the source, re-expansion, or use of the pattern that supplies the needed stronger claim? |
 
-When a card is useful, keep it inline with the adjacent or directly linked source and candidate. The comparison makes only the named local use admissible and cannot be detached as evidence, authority, a bridge, a work plan, or a settled exact CSC account.
+When a card is useful, keep it inline with the adjacent or directly linked source and candidate.
 
 If no required distinction was lost, no claim was added or strengthened beyond what the source licenses, the non-use boundary is clear, and the return remains cheap, stop. Do not create another durable coarsening object or an identity dossier solely for local orientation. If the candidate must travel independently or the exact content identity changes the receiving use, carry the already recovered source, candidate, use, loss, and return into the exact branch instead of starting a second account.
 
@@ -17947,10 +17933,10 @@ Before using the shorter candidate, ask:
 1. Is the present reader or use explicit, and are the distinctions needed for that use named before shortening?
 2. Can the source passage or account be reached directly, and does the candidate preserve every named distinction?
 3. Are all omissions and weakenings identified, and is every candidate claim supported by the source rather than added or strengthened by fluent prose—for example a number, classification, temporal statement, approval status, causal claim, modal claim, or authority claim?
-4. Is the stronger downstream use that remains non-admissible stated together with a practical return trigger?
+4. Are the supported use and any required source return clear, with any explicit exclusion justified under F.19:4?
 5. Are the source material, candidate content, publication occurrence, form, carrier, actual Work, evidence, assurance, authority, and gate claim kept separate whenever one of those distinctions is current?
 
-This first check tests only source-to-candidate fidelity; it establishes neither that the source claims are true nor that the source or candidate is adequate for a later decision. If any answer is no, revise the candidate or return to the source. Use A.6.3.CR when no controlled-loss or narrower-use issue remains, A.6.3.RT when representation-scheme change is primary, A.6.4 when the EntityOfConcern changes, and E.8, A.7, or E.24.PUB when the live object is authoring, extraction/carrier behavior, or publication. A repair request describes future work. Resume a blocked use only after the required repair is complete and verified.
+This first check tests only source-to-candidate fidelity; it establishes neither that the source claims are true nor that the source or candidate is adequate for a later decision. If any answer is no, revise the candidate or return to the source. Use A.6.3.CR when no controlled-loss or narrower-use issue remains, A.6.3.RT when representation-scheme change is primary, A.6.4 when the EntityOfConcern changes, and E.8, A.7, or E.24.PUB when the live object is authoring, extraction/carrier behavior, or publication. Resume a blocked use only after the required repair is complete and verified.
 
 #### A.6.3.CSC:4.3 - Ordinary vs exact reuse or reliance account
 
@@ -17972,7 +17958,7 @@ Keep only entries that change the current use or next action:
 - one exact source-relation reference, `projectSourceRecordRef`, or privileged reopen path, with any cited pattern named for the concrete definition, constraint, test, method, or source relation it supplies, so a coarsened rendering cannot reset its own provenance;
 - optional `coarseningBranch` only when it selects one additional branch-specific rule in `A.6.3.CSC:4.4`; ordinary direct semantic compression remains unlabelled;
 - every concrete lost or weakened distinction, with several recorded when several coexist; no single loss tag may substitute for this account;
-- `recoverabilityAfterCoarsening` only when recovery changes the next action, using exactly one immediate-action value from `A.6.3.CSC:4.5` for the proposed use;
+- `recoverabilityAfterCoarsening` only when the proposed use needs recovery, stating the recovery requirements and selected next move under `A.6.3.CSC:4.5`;
 - at least one kept claim or distinction bundle, one coarsened or dropped bundle, and one reopen-only bundle when the case is disputed or later cited;
 - an exact `E.17:5.1b` literal in a local field permitted by `E.17:5.1e` only when that source-relation status changes the next bounded use; CSC keeps no local paraphrase catalog;
 - uncertainty or abstention state when branch interpretation, preserved distinctions, source pin, or named narrower use cannot yet be stated stably;
@@ -17980,15 +17966,15 @@ Keep only entries that change the current use or next action:
 - `audienceOverReadRisk`, plus a light reader-reliance or user-evidence check when readers may mistake the coarsened rendering for authority it does not carry; and
 - whether local re-expansion is enough or the proposed use still requires return to exact `X`, an exact source relation, a genuine `authoritySourceRef`, or the pattern that supplies the needed definition, constraint, test, method, evidence rule, or gate rule.
 
-The concrete named narrower use, non-admissible downstream use, and return trigger are authoritative and are stated once. Do not add a disposition label that repeats or mixes those decisions.
+The concrete narrower-use boundary and return trigger govern the current use and are stated once. Name an excluded use only when that explanation passes F.19:4's guard test; keep the underlying admissibility condition in force.
 
 #### A.6.3.CSC:4.4 - Optional branch rules and named-use discipline
 
-Ordinary direct semantic compression needs no `coarseningBranch`: state its concrete narrower use, blocked use, and return directly. In an exact case, the optional branch cue is used only when it selects one of the additional rules below. It is non-exhaustive, grants no authority, and does not replace concrete loss or use; `aggregation` is not a catch-all name for a summary.
+Ordinary direct semantic compression needs no `coarseningBranch`: state its concrete narrower-use boundary and return directly. In an exact case, the optional branch cue is used only when it selects one of the additional rules below. It is non-exhaustive, grants no authority, and does not replace concrete loss or use; `aggregation` is not a catch-all name for a summary.
 
 | Optional branch cue | Additional rule it selects |
 | --- | --- |
-| source-pinned surrogate, index, or handle | Keep the named source directly reachable and limit the candidate to source-finding, retrieval, or orientation. Naming an `authoritySourceRef` only routes return to its governed relation; the candidate does not become that authority, evidence, gate, or work source. |
+| source-pinned surrogate, index, or handle | Keep the named source directly reachable and limit the candidate to source-finding, retrieval, or orientation. Naming an `authoritySourceRef` only routes return to its governed relation. |
 | privacy or redaction | Name the sharing boundary, every concrete withheld or weakened distinction, the re-identification or accountability risk being reduced, the exact source review path, and the accountability or gate uses that remain blocked. |
 | exceptional interop-facing simplification | Keep exact `X`, exact `Y`, and `c` recoverable and name the exact operative relation claim, such as bounded contrast, broader/narrower, partial overlap, proxy, or lossy normalization. Use E.17.ID.CR when bounded comparison is primary. For an equivalence, substitution, or projection claim, establish the operative relation and support its bounded use under the pattern that governs that relation. Use F.9 when the claim requires a Bridge between exact local senses with different interpretation bases, and state its bounded-use claim separately; an F.9.1 stance note is optional reader help about that claim. |
 | genuine aggregation or quotient condition | Name the distinctions combined and the aggregation rule while exact `Y` still concerns the same exact EntityOfConcern as `X`. A bounded selected set may appear inside `Y`'s claim content but is not an endpoint by itself. If several entities or alternatives become a new class-level or proxy EntityOfConcern, use A.6.4. |
@@ -17999,16 +17985,16 @@ A branch cue changes only the additional rule named in its row. Scheme differenc
 
 Name every concrete distinction omitted, weakened, aggregated, redacted, narrowed in scope, made harder to recover, or lost through representation change. Several losses can coexist and all decision-relevant ones remain visible. Redaction and aggregation describe how a loss arose; neither substitutes for the lost qualifier, uncertainty, alternative, evidence path, relation, scope, trace, or inspection possibility. No loss tag is required when the concrete account already changes every relevant decision. If a publication-facing case also needs an E.17 source-relation status, use the exact literal `source-loss-declared`; that literal says that loss was declared and does not say what was lost.
 
-Recoverability and admissible use remain separate. After naming all losses, read the rows in order and take the first action whose condition holds for the proposed use. If several losses would suggest different actions, choose the action required by the most restrictive unresolved loss.
+Recoverability and admissible use remain separate. Use the choices below only when the proposed use needs a lost distinction; otherwise retain the sufficient bounded result. Name every required recovery, then read the rows in order for that proposed use. Keep all unmet requirements visible even when one of them determines the next move.
 
 | Immediate next action | Use it only when |
 | --- | --- |
 | recover from the candidate | the candidate itself carries the information and method needed to recover the distinction now and is sufficient for the proposed use |
-| return to the named source | the candidate is not sufficient, and the named source-bearing side can restore the distinction without new reconstruction, test, or validation |
-| perform named reconstruction, test, or validation before use | neither the candidate nor the named source is sufficient, and a specific new recovery or validation action is available and must complete before the proposed use proceeds |
+| return to the named source | the candidate is not sufficient, and the named source-bearing side can restore all lost distinctions required by the proposed use and is sufficient for that use without new reconstruction, test, or validation |
+| decide whether to obtain the needed reconstruction, test, or validation result | neither the candidate nor the named source is sufficient, and a specific new recovery or validation action is available. Use C.11.DUA to choose that work, a narrower use, or stopping; resume the proposed use only after all its required results are obtained. |
 | block or drop the current use | neither the candidate nor the named source is sufficient, and no specific new recovery or validation action is currently available for this use; independent new evidence may later reopen and reclassify the case, but it does not change the immediate block |
 
-The four rows are mutually exclusive descriptions of the next move, not a strength scale. A recoverable candidate is not automatically admissible for downstream use, and a blocked use is not repaired merely by saying the source might exist.
+The four rows distinguish mutually exclusive recovery conditions for the proposed use; they are not a strength scale. A recoverable candidate is not automatically admissible for downstream use, and a blocked use is not repaired merely by saying the source might exist.
 
 A coarsening chain may not reset provenance. For `X -> Y1 -> Y2`, identify all three epistemes and both constructions, carry forward every earlier loss and uncertainty, and state only the added loss at the second step. If that cannot be done, return to exact `X`.
 
@@ -18032,9 +18018,9 @@ Neighboring guidance may cite CSC when controlled loss, narrower use, and source
 
 #### A.6.3.CSC:4.7 - Well-formedness constraints
 
-**Well-formedness constraint CSC-WF-0 (ordinary bounded use).** An ordinary local candidate is usable only while its source is adjacent or directly linked, the present use and must-retain distinctions are explicit, any loss and anything added or strengthened beyond source support are visible together with the non-admissible use, and return remains cheap. This provisional comparison asserts neither exact endpoint identity nor an independently transferable CSC construction.
+**Well-formedness constraint CSC-WF-0 (ordinary bounded use).** An ordinary local candidate is usable only while its source is adjacent or directly linked, the present use and must-retain distinctions are explicit, any loss and anything added or strengthened beyond source support are visible together with the supported-use boundary, and return remains cheap. This provisional comparison asserts neither exact endpoint identity nor an independently transferable CSC construction.
 
-**Well-formedness constraint CSC-WF-1 (exact controlled-coarsening construction).** An exact or independently reused CSC account is well formed only when it identifies exact `X`, exact `Y`, and exact `c : X -> Y`; the same EntityOfConcern; one declared narrower admissible use; one non-admissible downstream use; controlled loss; and one visible return to exact `X`, established source relations, or the pattern that supplies the needed definition, constraint, test, or method. A source publication, declared set, model, graph, state representation, evidence set, open corpus, folder, topic, search cluster, form, or carrier cannot substitute for either endpoint.
+**Well-formedness constraint CSC-WF-1 (exact controlled-coarsening construction).** An exact or independently reused CSC account is well formed only when it identifies exact `X`, exact `Y`, and exact `c : X -> Y`; the same EntityOfConcern; one declared narrower admissible use; controlled loss; and one visible return to exact `X`, established source relations, or the pattern that supplies the needed definition, constraint, test, or method. A source publication, declared set, model, graph, state representation, evidence set, open corpus, folder, topic, search cluster, form, or carrier cannot substitute for either endpoint.
 
 **Well-formedness constraint CSC-WF-2 (no authority upgrade).** A coarsened rendering does not gain evidence, bridge, work, approval, gate, or adjudication authority by repetition, fluency, audience convenience, citation, or publication on a more visible publication face or channel.
 
@@ -18042,7 +18028,7 @@ Neighboring guidance may cite CSC when controlled loss, narrower use, and source
 
 ### A.6.3.CSC:5 - Archetypal Grounding
 
-**Tell.** Controlled semantic coarsening begins by comparing a shorter candidate with its source for the present use: it must neither lose a needed distinction nor add or strengthen anything the source does not support, while any loss, non-use, and return remain visible. When the result travels independently or becomes load-bearing, the exact account is `c : X -> Y` under same EntityOfConcern, declared loss, narrower use, prohibited strengthening, and return.
+**Tell.** Controlled semantic coarsening begins by comparing a shorter candidate with its source for the present use: it must neither lose a needed distinction nor add or strengthen anything the source does not support, while any loss, non-use, and return remain visible. When the result must travel independently or endpoint or construction identity matters to the receiving use, the exact account is `c : X -> Y` under same EntityOfConcern, declared loss, narrower use, prohibited strengthening, and return.
 
 **Show (System).** Exact incident episteme `IR-42-X` contains trace, confidence-band, and alternative-branch claims. Exact orientation episteme `IR-42-Manager-Y` carries a controlled subset. Use a dashboard tile exposing `Y` for planning orientation. For release approval, audit closure, causal justification, or a Work order, return to `X` and apply the evidence, Work, or gate rule that governs that use; for an authority-looking claim, select the matching A.6 `A6-AW-*` row and follow its direct subject pattern.
 
@@ -18050,25 +18036,25 @@ Neighboring guidance may cite CSC when controlled loss, narrower use, and source
 
 #### A.6.3.CSC:5.1 - Worked slices
 
-**Direct text shortening (ordinary form).** The source paragraph says: `Release only after a current smoke-test pass; rollback must remain available; a designated approver must approve any exception. The deployment guide then gives six implementation details not needed by the current planner.` The practitioner marks the three decision conditions as must-retain and writes: `Release only after a current smoke-test pass; keep rollback available; every exception needs approval by a designated approver.` Comparison records the omitted implementation details, confirms that the candidate adds or strengthens no unsupported claim, blocks audit/evidence/release-authority use from the candidate alone, and points back to the paragraph on dispute or independent reuse. A variant that keeps all three conditions but adds `therefore release is approved` is rejected at the same comparison: the source states preconditions and an exception rule, not current approval status. The faithful candidate remains with its linked source, and the invented-status variant is discarded; the local comparison needs no separate card or C.2.1 dossier. If the faithful candidate will be cited in a release decision, the exact branch identifies `X`, `Y`, and `c` and adds only the source, work, evidence, gate, or assurance relations that decision needs.
+**Direct text shortening (ordinary form).** The source paragraph says: `Release only after a current smoke-test pass; rollback must remain available; a designated approver must approve any exception. The deployment guide then gives six implementation details not needed by the current planner.` The practitioner marks the three decision conditions as must-retain and writes: `Release only after a current smoke-test pass; keep rollback available; every exception needs approval by a designated approver.` Comparison records the omitted implementation details, confirms that the candidate adds or strengthens no unsupported claim, keeps the stated preconditions separate from claims that they have been met or that release is approved, and points back to the paragraph on dispute or independent reuse. A variant that keeps all three conditions but adds `therefore release is approved` is rejected at the same comparison: the source states preconditions and an exception rule, not current approval status. The faithful candidate remains with its linked source, and the invented-status variant is discarded; the local comparison needs no separate card or C.2.1 dossier. If the faithful candidate will be cited in a release decision, the exact branch identifies `X`, `Y`, and `c` and adds only the source, work, evidence, gate, or assurance relations that decision needs.
 
-**Manager orientation summary.** Exact source episteme `IR-42-X` states trace, confidence-band, alternative-branch, and incident claims about exact incident `IR-42` under its effective incident-analysis scheme. Exact coarsened episteme `IR-42-Manager-Y` states the narrower cache-failover orientation claim about the same incident under its effective briefing scheme. `ManagerCoarsening : X -> Y` preserves the leading-concern claim, drops confidence bands and alternatives, blocks approval/audit/release/causal/work-order use, and returns to `X`. A dashboard tile and its carrier merely expose `Y`.
+**Manager orientation summary.** Exact source episteme `IR-42-X` states trace, confidence-band, alternative-branch, and incident claims about exact incident `IR-42` under its effective incident-analysis scheme. Exact coarsened episteme `IR-42-Manager-Y` states the narrower cache-failover orientation claim about the same incident under its effective briefing scheme. `ManagerCoarsening : X -> Y` preserves the leading-concern claim, drops confidence bands and alternatives, and returns to `X`. A dashboard tile and its carrier merely expose `Y`.
 
-**Redacted partner note.** Exact source episteme `IncidentDisclosure-X` and exact receiving episteme `PartnerDisclosure-Y` concern the same incident. Their declared coarsening omits actor identity and trace path for bounded disclosure, preserves coordination claims, blocks accountability/legal/audit/readiness/gate use, and returns to `X` or the exact authority destination. The note form, redaction layout, and carrier are not either episteme.
+**Redacted partner note.** Exact source episteme `IncidentDisclosure-X` and exact receiving episteme `PartnerDisclosure-Y` concern the same incident. Their declared coarsening omits actor identity and trace path for bounded disclosure, preserves coordination claims, and returns to `X` or the exact authority destination. The note form, redaction layout, and carrier are not either episteme.
 
-**Redacted functional-description publication.** Exact source episteme `FunctionalArchitecture-X` states flow relations, method-selection limits, work-plan prerequisites, result-measurement requirements, and two exception claims about one exact system. Exact partner episteme `FunctionalPartner-Y` concerns the same system; `PartnerFunctionalCoarsening : X -> Y` preserves the main flow claim, removes exceptions and measurement detail, permits bounded coordination orientation, blocks work/gate/evidence/justification/control/release use, and returns to `X`. A partner table and carrier expose `Y` through E.24.PUB.
+**Redacted functional-description publication.** Exact source episteme `FunctionalArchitecture-X` states flow relations, method-selection limits, work-plan prerequisites, result-measurement requirements, and two exception claims about one exact system. Exact partner episteme `FunctionalPartner-Y` concerns the same system; `PartnerFunctionalCoarsening : X -> Y` preserves the main flow claim, removes exceptions and measurement detail, permits bounded coordination orientation, and returns to `X`. A partner table and carrier expose `Y` through E.24.PUB.
 
-**Coarsened narrative briefing.** Exact source episteme `ArchitectureCandidates-X` states three candidate, two trade-off, and one unresolved-constraint claims about one exact system. Exact briefing episteme `CandidateBriefing-Y` concerns the same system. NAR supplies the narrative-ordering account; CSC supplies the declared omission of alternatives, orientation-only use, blocked selection/decision/implementation/evidence use, and return to `X`. The briefing form is neither endpoint.
+**Coarsened narrative briefing.** Exact source episteme `ArchitectureCandidates-X` states three candidate, two trade-off, and one unresolved-constraint claims about one exact system. Exact briefing episteme `CandidateBriefing-Y` concerns the same system. NAR supplies the narrative-ordering account; CSC supplies the declared omission of alternatives, orientation-only use, and return to `X`. The briefing form is neither endpoint.
 
 **Exceptional interop-facing simplification.** Exact source episteme `ExchangeComparison-X` states the bounded source-local claims and exact comparison or Bridge dependencies. Exact orientation episteme `ExchangeGloss-Y` states the narrower broader-than gloss about the same comparison EntityOfConcern. `InteropCoarsening : X -> Y` does not establish equivalence, projection, substitution, or a Bridge; establish the operative relation and support its bounded use under its governing pattern, or return to `X`. When the claim needs a Bridge between exact local senses with different interpretation bases, use F.9 and a separate bounded-use claim. An F.9.1 stance note may explain that claim but cannot replace it.
 
-**Bad fit: hidden work authority.** `Deployment may proceed; see summary S-3.` The sentence claims permission to deploy on the basis of a summary. Select the matching `A.6` `A6-AW-*` row for that permission assertion and follow its direct subject pattern; use the applicable `A.15` pattern if a Work plan or actual Work is also claimed. Reopen the source-bearing side before any work or approval claim proceeds.
+**Bad fit: hidden work authority.** `Deployment may proceed; see summary S-3.` The sentence claims permission to deploy on the basis of a summary. Select the matching `A.6` `A6-AW-*` row for that permission assertion and follow its direct subject pattern; use the applicable `A.15` pattern if a Work plan or actual Work is also claimed. Before relying on that deployment-permission claim, recover its governing source and the facts required by its direct predicate.
 
 ### A.6.3.CSC:6 - Bias-Annotation
 
 Scope: **Universal** for source-to-rendering relations that claim controlled semantic coarsening inside FPF.
 
-This pattern favors **Prag** and **Did** by reaching a useful shorter candidate through direct comparison before optional identity work. It also favors **Gov** and **Arch** by requiring non-admissible downstream use, source reopen, and the concrete neighboring definition, test, method, evidence rule, work rule, or gate rule when release, policy, assurance, adjudication, bridge, work, evidence, or gate use is attempted. The mitigation for over-formalization is the ordinary source-to-candidate comparison, with a mini-card only when useful: exact endpoints, construction, Work, publication, evidence, and assurance open only when the receiving use makes them material.
+This pattern favors **Prag** and **Did** by reaching a useful shorter candidate through direct comparison before optional identity work. It also favors **Gov** and **Arch** by keeping a proposed use that needs lost distinctions or additional support dependent on the required source return or neighboring contribution. The mitigation for over-formalization is the ordinary source-to-candidate comparison, with a mini-card only when useful: exact endpoints, construction, Work, publication, evidence, and assurance open only when the receiving use makes them material.
 
 ### A.6.3.CSC:7 - Conformance and counterexample replay
 
@@ -18078,11 +18064,11 @@ A check is retained only if it changes the next admissible use, blocks a concret
 
 | ID | Requirement | Purpose |
 | --- | --- | --- |
-| **CC-CSC-0 (Ordinary entry).** | The practitioner names the present use and must-retain distinctions, writes the shorter candidate, compares it with the source, rejects unsupported additions or strengthening, and records loss, non-use, and return before optional identity work. | Makes direct semantic compression the first useful move without admitting a fluent invention. |
+| **CC-CSC-0 (Ordinary entry).** | The practitioner names the present use and must-retain distinctions, writes the shorter candidate, compares it with the source, rejects unsupported additions or strengthening, and makes loss, the supported-use boundary, and return clear before optional identity work. | Makes direct semantic compression the first useful move without admitting a fluent invention. |
 | **CC-CSC-1 (Exact endpoints when material).** | When the candidate must travel independently or exact content identity changes the receiving use, exact `X` and `Y` each have recoverable claim content, EntityOfConcern, and effective interpretation rules (`ReferenceScheme`). | Blocks a source set, model, graph, evidence set, publication, form, carrier, or readable tile from replacing an episteme. |
 | **CC-CSC-2 (Exact construction when material).** | The same trigger requires exact `c : X -> Y` with same EntityOfConcern, claim construction, endpoint-scheme relation, preservation, controlled loss, prohibited strengthening, applicability, and return. | Makes a load-bearing coarsening claim testable without making the formal account the ordinary entrance. |
 | **CC-CSC-3 (Admissible use).** | The ordinary candidate names its present use; exact `Y` has one stated narrower admissible use. | Keeps convenience from becoming broad authority. |
-| **CC-CSC-4 (Non-admissible use).** | The stronger downstream use that needs more than the ordinary candidate, exact `Y`, or its publication is explicit, together with the limiting loss or missing support. Apply `F.19:4` to how that boundary is expressed; retain the actual admissibility condition. | Blocks authority laundering. |
+| **CC-CSC-4 (Non-admissible use).** | The use boundary is clear. Where a proposed stronger use needs lost distinctions or additional support, its limiting condition remains explicit; express the boundary under `F.19:4`. | Blocks authority laundering. |
 | **CC-CSC-5 (Return).** | Ordinary return resolves to the directly linked source; an exact account resolves to exact `X`, an established source relation, a genuine authority source, or the concrete neighboring contribution needed by the stronger claim. | Prevents provenance reset and fictive routing. |
 | **CC-CSC-6 (Neighbor separation).** | Actual Work, additional source epistemes, correspondence, representation, mathematical-lens use under C.29, viewpoint/`U.View`, grounding, publication occurrence, form, carrier, audience, and bounded use remain separate and use their own definitions, tests, or methods when current. | Prevents a filled coarsening card from becoming an omnibus ontology. |
 | **CC-CSC-7 (Ordinary economy).** | Ordinary cases return the shorter candidate with its directly reachable source after comparison; a separate six-row note is optional. Exact endpoint and construction identity open only when independent transfer or the receiving use makes them material. | Preserves usability without deleting the exact branch. |
@@ -18091,8 +18077,8 @@ A check is retained only if it changes the next admissible use, blocks a concret
 
 | ID | Requirement | Purpose |
 | --- | --- | --- |
-| **CC-CSC-8 (Optional branch/named-use split).** | The concrete narrower use, non-admissible use, and return are stated once; optional `coarseningBranch` appears only when it selects a branch-specific rule, and no duplicate disposition or mandatory loss tag repeats them. | Keeps compact aids action-selecting rather than authority-looking. |
-| **CC-CSC-9 (Loss/recoverability).** | Exact reuse or reliance cases state every concrete decision-relevant loss and select exactly one immediate recoverability action for the proposed use. | Preserves multiple losses while making the next move unambiguous. |
+| **CC-CSC-8 (Optional branch/named-use split).** | The concrete narrower-use boundary and return are stated once; optional `coarseningBranch` appears only when it selects a branch-specific rule, and no duplicate disposition or mandatory loss tag repeats them. | Keeps compact aids action-selecting rather than authority-looking. |
+| **CC-CSC-9 (Loss/recoverability).** | Exact reuse or reliance cases state every concrete decision-relevant loss. When a proposed use needs recovery, identify its recovery requirements and the selected next move. | Preserves multiple losses while making the next move unambiguous. |
 | **CC-CSC-10 (Chain continuity).** | Every coarsening chain keeps exact original source episteme, each intermediate episteme, each construction, accumulated loss, and return; otherwise reopen exact `X`. | Prevents summarization from resetting source identity. |
 | **CC-CSC-11 (Privacy).** | Redaction cases name sharing boundary, withheld claims, risk rationale, blocked accountability/gate uses, and exact source review path. | Prevents redaction-as-closure. |
 | **CC-CSC-12 (Interop).** | Interop simplification names the operative relation and supports its bounded use under that relation's governing pattern. When that relation is a Bridge between exact local senses with different interpretation bases, name the exact F.9 Bridge and separate bounded-use claim; an optional F.9.1 stance note stays separate. | Prevents simplified wording or a stance word from asserting correspondence. |
@@ -18125,7 +18111,7 @@ A check is retained only if it changes the next admissible use, blocks a concret
 | Stance cure | `projection` or `nonEquivalent` is used instead of establishing the operative relation, supporting its bounded use, or stating loss and source return. | Recover the operative relation under its governing pattern, support its bounded use, and keep the CSC loss account and source return. For a Bridge between exact local senses with different interpretation bases, use F.9 with a separate bounded-use claim; an F.9.1 stance note remains optional reader help. |
 | Briefing-as-work | A reader treats a summary as sufficient basis for a work plan, execution cue, gate decision, or approval. | Use the applicable `A.15` pattern for the Work plan or actual Work. For an authority-looking claim, select the matching `A.6` `A6-AW-*` row by the assertion and follow its direct subject pattern; use `A.20` or `A.21` for the actual constraint or gate claim. |
 | Summary-chain source loss | A note summarizes an already coarsened note and loses the original source and loss envelope. | Keep the same source-bearing side and added loss delta visible, or reopen that source-bearing side. |
-| Aggregation EntityOfConcern shift | A quotient or bundle turns several entities or alternatives into one new proxy EntityOfConcern. | Apply `A.6.4` rather than treating EntityOfConcern shift as a same-lineage source-to-rendering case. |
+| Aggregation EntityOfConcern shift | A quotient or bundle turns several entities or alternatives into one new proxy EntityOfConcern. | Apply `A.6.4` rather than treating EntityOfConcern shift as a same-EntityOfConcern source-to-rendering case. |
 
 ### A.6.3.CSC:9 - Consequences
 
@@ -18155,11 +18141,11 @@ Keep exact source episteme `X` recoverable when using or further coarsening `Y`.
 | --- | --- | --- | --- | --- |
 | Fluent summaries and generated renderings can be useful without preserving every source distinction or carrying an adequate source relation. | Current long-document summarization work shows that factual inconsistency is sensitive to discourse structure and that widely used automatic metrics can be unstable under meaning-preserving compression and other perturbations. | Maynez et al. (2020), *On Faithfulness and Factuality in Abstractive Summarization*; FActScore and RAGAS (2023) as evaluation lineage; Zhong and Litman (2025), *Discourse-Driven Evaluation: Unveiling Factual Inconsistency in Long Document Summarization*; Mujahid, Wright, and Augenstein (ACL 2026), *Stress Testing Factual Consistency Metrics for Long-Document Summarization*; source maturity = peer-reviewed current evaluation pressure plus lineage. | The ordinary comparison checks source and candidate at the distinctions needed by the present use; the exact branch separates source pointer, availability, retrieval, source use, source faithfulness, claim admissibility, omission, added commitment, independent verification, admissible use, non-admissible use, and return when those distinctions matter. | **Adopt or adapt.** Adopt direct distinction-level and source-context comparison; adapt it to a lightweight local comparison with an optional card. Reject fluency or an automatic factuality score as proof that required distinctions survived or that a stronger use is admissible. |
 | Redaction and de-identification reduce exposure without deleting accountability, utility, or audit questions. | Current privacy guidance ties de-identification and formal privacy guarantees to the intended sharing model, utility, measurable privacy loss, residual hazards, and re-identification or inference risk. | NIST SP 800-188, *De-Identifying Government Datasets: Techniques and Governance* (2023); NIST SP 800-226, *Guidelines for Evaluating Differential Privacy Guarantees* (2025), when a differential-privacy guarantee is actually claimed; source maturity = current government guidance. | The privacy and redaction branch requires sharing boundary, withheld distinctions, intended use, source review path, residual risk, and non-admissible accountability or gate uses; a claimed differential-privacy guarantee retains its own exact parameters and evaluation. | **Adapt.** Use privacy guidance to bound disclosure while rejecting redaction, masking, or a privacy label as closure, zero risk, or authority for a stronger use. |
-| Claims about views, representations, and their correspondence to a described subject do not become mere formatting claims when a publication face or rendering is made easier to read. | Architecture-description practice makes viewpoint, view, model kind, and correspondence explicit rather than treating a clearer view as neutral formatting. | ISO/IEC/IEEE 42010:2022; source maturity = current architecture-description standard. | The pattern keeps coarsening distinct from representation-scheme transition, explanation profiling, comparative review, an F.9 Bridge and bounded-use claim, an optional F.9.1 stance note, and work and gate authority. | **Adopt or adapt.** Adopt explicit view and correspondence discipline; adapt it to same-lineage coarsened renderings and neighboring-pattern boundaries. |
+| Claims about views, representations, and their correspondence to a described subject do not become mere formatting claims when a publication face or rendering is made easier to read. | Architecture-description practice makes viewpoint, view, model kind, and correspondence explicit rather than treating a clearer view as neutral formatting. | ISO/IEC/IEEE 42010:2022; source maturity = current architecture-description standard. | The pattern keeps coarsening distinct from representation-scheme transition, explanation profiling, comparative review, an F.9 Bridge and bounded-use claim, an optional F.9.1 stance note, and work and gate authority. | **Adopt or adapt.** Adopt explicit view and correspondence discipline; adapt it to same-EntityOfConcern coarsened renderings and neighboring-pattern boundaries. |
 | Data and interoperability publication practice distinguishes discoverability, metadata, validation, and exchange from authority to substitute one object for another. | Web-data and semantic-web standards separate catalog metadata, provenance, structural metadata, and validation conditions from the data or relation itself. | W3C Data on the Web Best Practices (2017); W3C SHACL (2017); W3C DCAT v3 (2024); source maturity = mature web standards and recommendations for metadata, validation, and catalog interoperability. | Exceptional interop simplification must name its relation kind. Use `E.17.ID.CR` when bounded comparison is primary. For an equivalence, substitution, or projection claim, establish the relation and support its bounded use under its governing pattern. Apply F.9 when the claim requires a Bridge between exact local senses with different interpretation bases, and state its bounded-use claim separately; F.9.1 is used only for an optional stance note about that claim. | **Adapt or reject.** Adapt explicit metadata and validation discipline; reject using a simplified relation gloss or stance word as Bridge or substitution admissibility. |
 | Explanation usefulness depends on the user and can be over-read as authority it does not carry. | Explainable-AI practice treats explanation as audience-facing explanation with limits, not as a universal guarantee. | NIST IR 8312, *Four Principles of Explainable Artificial Intelligence* (2021); source maturity = mature government guidance for bounded explanation principles. | `audienceOverReadRisk` and source reopen keep helpful prose subordinate to the source-bearing side when stakes rise. | **Adopt or adapt.** Adopt user-sensitive explanation limits; adapt them to FPF coarsening cases where a rendering is useful but not authoritative for downstream use. |
 
-The practical implication is the same across these traditions: coarsened readable publication faces or renderings are valuable, but their admissible use depends on source relation, relation kind, validation evidence, audience, and reopen path. The worked slices in `A.6.3.CSC:5.1` are the nearest recovery loci for those SoTA rows.
+The practical implication is the same across these traditions: coarsened readable publication faces or renderings are valuable, but their admissible use depends on source relation, relation kind, any validation evidence required by the declared use, audience, and reopen path. The worked slices in `A.6.3.CSC:5.1` are the nearest recovery loci for those SoTA rows.
 
 **Semantic-web boundary.** In the W3C row, Data on the Web, SHACL, and DCAT describe publication metadata, provenance, validation, cataloging, and interoperability. For an operative equivalence or substitution claim, establish the relation and support its bounded use under the pattern that governs that relation; apply F.9 when it is a Bridge between exact local senses with different interpretation bases.
 
@@ -18167,8 +18153,7 @@ The practical implication is the same across these traditions: coarsened readabl
 
 - **Specializes:** `A.6.3 U.EpistemicViewing` as exact same-EntityOfConcern controlled-loss construction `c : X -> Y` between independently constituted epistemes.
 - **Coordinates with:** `A.6.3.CR`, `A.6.3.RT`, `A.6.3.NAR`, `E.17.EFP`, `E.17.ID.CR`, F.9 for the Bridge and bounded-use claim, F.9.1 for an optional stance note about that claim, `A.15`, `A.6.4`, `A.20`, and `A.21`.
-- **Does not replace:** conservative retextualization, representation-scheme transition, structure-to-narrative rendering, explanation profiling, bounded comparative review, F.9 Bridge and bounded-use discipline, an optional F.9.1 stance note, changed-EntityOfConcern discipline, work authority, gate authority, or adjudication authority.
-- **Entry relation:** open CSC when a shorter candidate needs an explicit account of needed distinctions, any loss, anything added or strengthened beyond source support, narrower use, non-admissible use, and source return. Exact `Y` and `c` are required only when the result travels independently or their identity changes the receiving use; a readable form alone establishes neither.
+- **Entry relation:** open CSC when a shorter candidate needs an explicit account of needed distinctions, any loss, anything added or strengthened beyond source support, the supported-use boundary and source return. Exact `Y` and `c` are required only when the result travels independently or their identity changes the receiving use; a readable form alone establishes neither.
 - **Concrete contribution:** CSC is a `specialization under A.6.3` that supplies the controlled-loss, narrower-use, non-use, and source-return account. Use `F.19:4` to express a use boundary without adding unsupported warnings.
 
 ### A.6.3.CSC:12a - Boundary with quantum-like state-representation coarsening
@@ -18223,7 +18208,7 @@ Without a dedicated pattern for conservative textual re-expression:
 ### A.6.3.CR:3 - Forces
 
 - **Same entity, different wording.** Readers need different textual forms without reopening the EntityOfConcern.
-- **Compression vs loss visibility.** Shorter or plainer forms are often useful, but omissions and source-loss modes must stay explicit.
+- **Compression vs loss visibility.** Shorter or plainer forms are often useful, but omissions and source-loss modes that affect interpretation or intended use must stay visible.
 - **Direct vs correspondence-mediated rewrites.** Some rewrites use one source episteme; others depend on claims about relations among sources.
 - **Restatement vs another construction.** Explanation, a material representation change and retargeting need their own conditions even when their outputs include text.
 - **Publication discipline.** Admissible MVPK faces and publication renderings still matter even when the transform looks like "just a rewrite."
@@ -18294,7 +18279,7 @@ Only after these questions are answered does a fuller review record usually beco
 
 #### A.6.3.CR:4.3 - Working-model first; explicit review record only when the case needs fuller review
 
-Follow **E.14’s working-model-first discipline**: an ordinary report, summary, or translation states what stayed the same, what was omitted, when the rewrite stops being conservative, and which pattern to use next. Put only the support needed for the current review or reliance question beneath that account.
+Follow **E.14’s working-model-first discipline**: an ordinary report, summary, or translation keeps the source claims, preserved meaning and material omissions recoverable. When a changed claim needs another pattern, name that claim and its route. Put only the support needed for the current review or reliance question beneath that account.
 
 **Ordinary case (default).** For everyday entityOfConcernRef-preserving rewrites, it is usually enough that the text or its surrounding publication keeps explicit:
 - which source `U.Episteme` claims are being re-expressed;
@@ -18349,7 +18334,7 @@ Each example remains under A.6.3 only while the same-entity and conservativity l
 
 ##### A.6.3.CR:4.5.a. - Preservation rule
 
-A case under `ConservativeRetextualization` preserves the same resolved EntityOfConcern, the declared bounded context, and the already available claim-bearing source while changing wording, register, language, ordering, or density. It states what remains preserved about claim scope, publication scope, pins, provenance, grounding, and ontic scaffold, and it says whether the case is `Direct` or `Correspondence`.
+A case under `ConservativeRetextualization` preserves the same resolved EntityOfConcern, the declared bounded context and support from the identified available source claims while changing wording, register, language, ordering, or density. Keep conditions on claim scope, publication scope, pins, provenance, grounding and ontic scaffold recoverable where they affect interpretation or intended use. State whether the case is `Direct` or `Correspondence` when that distinction is not already obvious.
 
 ##### A.6.3.CR:4.5.b. - Loss and reliability rule
 
@@ -18361,7 +18346,7 @@ A case reviewed under this pattern stays about the same entity and remains an ep
 
 ##### A.6.3.CR:4.5.d. - Composition and reopen rule
 
-A repeat claim follows A.6.3:4.7: identify the first and next rewrite arrows, establish the same resulting episteme and the required composite equivalence, and supply a fixture or proof. Different rewrite orders may yield different results. Reopen the affected claims when a needed source, correspondence witness, provenance, publication-form condition or preservation basis is no longer recoverable. Revalidate them when such a dependency changes materially, even if it remains explicit; unaffected claims retain their grounds. E.17:5.1b–c supplies the applicable reopen conditions.
+For deterministic replay or composition, use A.6.3:4.7. To claim that a further normalization leaves the result unchanged, identify the first and next rewrite arrows, establish the same resulting episteme and the required composite equivalence, and supply a fixture or proof. Different rewrite orders may yield different results. Reopen the affected claims when a needed source, correspondence witness, provenance, publication-form condition or preservation basis is no longer recoverable. Revalidate them when such a dependency changes materially, even if it remains explicit; unaffected claims retain their grounds. E.17:5.1b–c supplies the applicable reopen conditions.
 
 ##### A.6.3.CR:4.5.e. - Correspondence and its receiving use
 
@@ -18407,7 +18392,7 @@ This stays ordinary `ConservativeRetextualization` because the omission is decla
 
 **Published summary slice.** `For small-batch mixing, choose method family MF-2 when material X remains below T. Selected method M-2 still requires work plan WP-17 and result measurement RM-4.`
 
-This remains `ConservativeRetextualization` because it is a textual restatement of the same source-episteme claims and it keeps the work-planning and result-measurement requirements visible. It is admissible for interpretation and source-finding. It does not by itself provide performed `U.Work`, evidence, gate passage, engineering justification, or control architecture. If the summary drops WP-17 or RM-4, or makes the selected method look executable by summary alone, restore those requirements before presenting it as a faithful summary or executable guidance. A deliberately coarsened version needs `A.6.3.CSC Controlled Semantic Coarsening` with narrower admissible use, forbidden stronger use, and source-bearing return. For stronger use, apply the exact governing requirement to the current facts; the CSC label or a reference alone does not satisfy it.
+This remains `ConservativeRetextualization` because it restates the source's selection rule and preserves its planning and measurement requirements. The summary supports interpretation and source-finding. Keep WP-17 and RM-4 recoverable whenever they affect the stated interpretation, decision or performance; actual use must satisfy the applicable requirements. A shorter summary used only to select a method family may omit requirements for performing the selected method when that omission does not mislead the reader about the summary's scope or make M-2 appear ready for execution. If material loss is admissible only with a narrower use and return to the source, use `A.6.3.CSC Controlled Semantic Coarsening` with that narrower admissible use, forbidden stronger use, and source-bearing return. For stronger use, apply the exact governing requirement to the current facts; the CSC label or a reference alone does not satisfy it.
 
 #### A.6.3.CR:5.1.d - Generated-summary source-relation variant
 
@@ -18416,7 +18401,7 @@ A generated summary follows the same source, EntityOfConcern and conservativity 
 | Source-relation question | CR-local meaning |
 | --- | --- |
 | source pointer present | The summary points to the source slice or source bundle it claims to restate. |
-| source actually used | The inspectable source relation shows that the generation or rewrite actually used the named source, not merely a similar topic or remembered background. If that relation is unavailable, source use remains unresolved; retain only the justified source-pointer or orientation use until the relation is recovered. |
+| source actually used | The inspectable source relation shows that the generation or rewrite actually used the named source, not merely a similar topic or remembered background. If that historical relation is unavailable, leave it unresolved and block only claims or uses that require it. Retain independently established claim support and uses whose own requirements are satisfied. |
 | claim recoverable from source | Each summary assertion can be recovered from the source claims or admitted correspondence witness under the declared rule. |
 | claim merely plausible | A sentence sounds likely but is not recoverable from the source. Do not present it as source-backed: retain only a justified source-finding or orientation pointer, or explicitly separate the unsupported proposition and repair it or handle it under the pattern for the new claim. |
 | omission or loss | Relevant omitted qualifiers, alternatives, caveats, uncertainty, or conditions are visible enough for the admissible use. |
@@ -18474,10 +18459,10 @@ This pattern intentionally biases toward same-entity conservativity and away fro
    The EntityOfConcern values independently resolved by the source and receiving `entityOfConcernRef` values are equal.
 2. **CC-CR-2 — Textual re-expression remains the right family.**
    Textual restatement remains primary; explanation or a material representation-scheme change is not the primary move.
-3. **CC-CR-3 — Loss, provenance, pinning, and reliability are explicit or inherited by pinned reference.**
-   The case states these explicitly or inherits them through already-pinned content that remains visible to review.
-4. **CC-CR-4 — Direct vs correspondence split is explicit.**
-   The direct-vs-correspondence split is explicit and justified.
+3. **CC-CR-3 — Material loss, provenance, pinning, and reliability conditions remain recoverable.**
+   The case makes conditions that affect interpretation or intended use recoverable from the text, its surrounding publication, or the source references on which that use depends.
+4. **CC-CR-4 — Direct or correspondence-mediated construction is identifiable.**
+   The source relations make the profile recoverable; state and justify the distinction explicitly when it is not obvious.
 5. **CC-CR-5 — Correspondence witness is named where needed.**
    If correspondence-mediated, identify the relations and supporting claims; use `CorrespondenceModelRef` when their describing episteme must be cited.
 6. **CC-CR-6 — Local conservativity witness remains satisfied.**
@@ -18491,7 +18476,7 @@ This pattern intentionally biases toward same-entity conservativity and away fro
 
 | Anti-pattern | Why it is wrong | How to avoid it |
 |---|---|---|
-| Treating every summary as automatically conservative | summary demand hides omission and claim shift | publish loss and provenance discipline explicitly |
+| Treating every summary as automatically conservative | summary demand hides omission and claim shift | compare receiving claims with the sources and the declared rule; expose material loss and provenance conditions |
 | Hiding correspondence in plain paraphrase | the relations and claims needed to support the rewrite disappear into prose | identify those relations and claims, and cite their describing episteme when needed |
 | Letting a rewrite become explanation | explanation work quietly becomes a textual "rewrite" | apply explanation governance once didactic or explanatory work dominates |
 | Letting the EntityOfConcern shift by topic similarity | same topic is not the same EntityOfConcern | independently resolve the source and receiving `entityOfConcernRef` values; apply `A.6.4` if the resolved entities differ |
@@ -18500,7 +18485,7 @@ This pattern intentionally biases toward same-entity conservativity and away fro
 
 - Readers can inspect the connection between the source claims and the rewritten text.
 - Direct and correspondence-mediated variants stay visibly separated.
-- Loss, provenance, and reliability transport become explicit instead of implicit editorial judgement.
+- Loss, provenance, and reliability conditions that affect interpretation or intended use remain recoverable.
 - Ordinary working-model use stays lightweight, while cases needing fuller review get the additional record content their risk and use warrant.
 - The pattern remains bounded by `A.6.3`, `A.6.4`, explanation-facing work, and representation-shift work.
 
@@ -18658,7 +18643,7 @@ The six SlotSpecs and direction are the exact `RelationSignature`. `X` and `Y` h
 A positive occurrence obtains only when all of the following hold together:
 
 1. all six participants resolve exactly, and the `BoundedModelUseStructure` was independently selected because its model-use organization changes this transition use;
-2. A.13 identifies the actual performer, and A.15.1 independently admits the dated representation-transformation Work. If the current use also needs to say exactly which assignment covered that Work, F.6 checks that separate relation against the same A.13 assignment; F.6 identifies neither performer nor assignment, and a missing or failed attribution leaves the Work intact. The Work uses all six participant values collectively through its governed inputs, result, references, A.6.1 bindings, or a combination of these;
+2. A.13 identifies the actual performer, and A.15.1 independently admits the dated representation-transformation Work. If the current use also needs to say exactly which assignment covered that Work, F.6 checks that separate relation against the same A.13 assignment; F.6 identifies neither performer nor assignment, and a missing or failed attribution alone does not overturn independently admitted Work. If the finding also invalidates a premise consumed by A.13 or A.15.1, recheck that premise and the claims that depend on it. The Work uses all six participant values collectively through its governed inputs, result, references, A.6.1 bindings, or a combination of these;
 3. exact `v : X -> Y` states claim construction, endpoint-scheme relation, same EntityOfConcern, preservation, loss or recoverability, prohibited strengthening, applicability, use, and return; and
 4. every depended-on correspondence is an exact separately governed relation or claim.
 
@@ -18750,7 +18735,7 @@ State which distinctions, inspection possibilities, uncertainty cues, or local q
 
 ##### A.6.3.RT:4.5.c - Decode-mediated entry
 
-A latent or decode-mediated case stays bounded until it has source material for the same concern, a decoding or access relation, recoverability evidence for the intended use, admissible and non-admissible use, remaining user action, and source return. When exact reliance is claimed, recover exact source episteme `X`, receiving episteme `Y`, construction `v`, and the source dependencies of `v` defined in §4.2.
+A latent or decode-mediated case stays bounded until it has source material for the same concern, a decoding or access relation, recoverability evidence for the intended use, and a supported use. State any needed user action, excluded use or source-return condition under §4.1. When exact reliance is claimed, recover exact source episteme `X`, receiving episteme `Y`, construction `v`, and the source dependencies of `v` defined in §4.2.
 
 A latent region, embedding, probe result, decoded rendering or publication may help locate the case. To use an episteme endpoint, recover its C.2.1 identity rather than inferring it from a label or readable output. Missing recovery evidence leaves the affected use exploratory, report-only or unavailable, according to what the remaining grounds support.
 
@@ -18767,7 +18752,7 @@ Reopen the affected account when source content, endpoint identity, recovery ass
 | Same-regime wording only | Use A.6.3.CR. |
 | Reader-useful ordering into a narrative path | Use A.6.3.NAR; keep RT only for a remaining material scheme shift. |
 | Explanation adequacy of an existing face | Use E.17.EFP. |
-| Receiving episteme has an independently identified different exact EntityOfConcern | Use A.6.4 for the retargeting arrow, its separate C.2.1 bounded-use assertion, and the current-case judgement `satisfies`, `fails`, or `cannot decide`. |
+| Receiving episteme has an independently identified different exact EntityOfConcern | Use A.6.4 to classify the retargeting arrow. For a claimed receiving use, establish its separate C.2.1 bounded-use assertion. When evaluating that assertion in a current case, judge it as `satisfies`, `fails`, or `cannot decide`. |
 | Changed kind, ontology frame, predicate set, mathematical domain, or notation without an established EntityOfConcern change | Repeat the C.2.1 identity test and use the exact ontology pattern for any changed claim. Stay in RT when the same EntityOfConcern remains current and representation is the primary change. |
 | Same-signal time/frequency or another mathematical representation change | Stay in RT when the same EntityOfConcern remains current and representation is the primary change. Add C.29 only when the use depends on a contested or claim-bearing mathematical lens. A.6.4 opens only after C.2.1 independently identifies a different receiving entity. |
 | Carrier rendering, export or serialization of a chosen representation; OCR or parsing that extracts carrier content without yet constituting a receiving episteme | Use A.7 or the corresponding carrier/extraction pattern. |
@@ -18815,7 +18800,7 @@ For this identity-and-obtaining illustration, take the stated endpoint, scheme, 
 
 Exact source episteme `CoolingLoopRelationTable-X` and exact receiving episteme `CoolingLoopDependencyDiagram-Y` state the same two connection claims about `CoolingLoop-7` under effective schemes `TabularPlantScheme-5` and `DirectedDiagramPlantScheme-3`. `Y` is a candidate episteme, not automatically a `U.View`.
 
-Scheme-description epistemes `TabularPlantSchemeDescription-5` and `DirectedDiagramPlantSchemeDescription-3` concern their respective schemes and state their interpretation rules. Independently selected `CoolingLoopReviewModelUseStructure` satisfies A.1.1 because its model-use organization changes this review. A.13 identifies `PlantModelingTool-2` as the actual performer through the exact covering assignment. A.15.1 independently admits dated `CoolingLoopDiagrammingWork-18`. Because this example states precise assignment-bound attribution, its direct case fact says that the Work was performed under the same exact A.13 assignment, so the F.6 check is positive. If that direct fact were missing, attribution would remain unresolved. If the facts refuted an F.6 condition, that attribution would fail. The independently admitted Work would remain intact in either case. The Work's A.6.1 bindings use all six participants. `DiagramCoolingLoop : X -> Y` is the exact construction; it states claim construction, endpoint-scheme relation, same exact EntityOfConcern, preserved connection claims, omitted table qualifiers and their recoverability, prohibited strengthening, applicability, topology-inspection use, and return to `X`.
+Scheme-description epistemes `TabularPlantSchemeDescription-5` and `DirectedDiagramPlantSchemeDescription-3` concern their respective schemes and state their interpretation rules. Independently selected `CoolingLoopReviewModelUseStructure` satisfies A.1.1 because its model-use organization changes this review. A.13 identifies `PlantModelingTool-2` as the actual performer through the exact covering assignment. A.15.1 independently admits dated `CoolingLoopDiagrammingWork-18`. Because this example states precise assignment-bound attribution, its direct case fact says that the Work was performed under the same exact A.13 assignment, so the F.6 check is positive. If that direct fact were missing, attribution would remain unresolved. If the facts refuted an F.6 condition, that attribution would fail. Neither outcome alone overturns the independent Work admission. A finding that also invalidates a premise consumed by A.13 or A.15.1 reopens that premise and the dependent claims. The Work's A.6.1 bindings use all six participants. `DiagramCoolingLoop : X -> Y` is the exact construction; it states claim construction, endpoint-scheme relation, same exact EntityOfConcern, preserved connection claims, omitted table qualifiers and their recoverability, prohibited strengthening, applicability, topology-inspection use, and return to `X`.
 
 Only then does this occurrence obtain:
 
@@ -18873,11 +18858,11 @@ A local reliability note about Pump P-2 becomes a comparison claiming operationa
 
 #### A.6.3.RT:5.4.b - Boundary to carrier work
 
-A table is exported as CSV and dashboard PNG after its representation scheme was chosen. The later Work produces the CSV and PNG carriers by formatting, exporting, packaging, or rendering the already chosen representation; it is not another RT merely because the visible form changed.
+A table is exported as CSV and dashboard PNG after its representation scheme was chosen. The later activity produces the CSV and PNG carriers by formatting, exporting, packaging, or rendering the already chosen representation; it is not another RT merely because the visible form changed.
 
 #### A.6.3.RT:5.4.c - Boundary to coarsened dashboard view
 
-An incident worksheet carries three causal branches, two confidence bands, and an open ambiguity; a dashboard tile foregrounds only cache-failover evidence. If the tile needs a declared narrower use, non-admissible action, and explicit return to the worksheet, A.6.3.CSC is primary. The tile is not causal proof, service-status verdict, or action cue.
+An incident worksheet carries three causal branches, two confidence bands, and an open ambiguity; a dashboard tile foregrounds only cache-failover evidence. If the tile is useful only under a declared narrower use and explicit return to the worksheet, A.6.3.CSC is primary. Its retained evidence can cue inspection of the cache-failover branch; the tile alone leaves the three-branch causal comparison unresolved.
 
 #### A.6.3.RT:5.4.d - Boundary to structure-to-narrative rendering
 
@@ -19144,7 +19129,7 @@ Read the prepared expression using the selected conventions. Compare its partici
 
 Pay particular attention to a relation conveyed by position, enclosure, adjacency, repetition or timing. State its meaning when the convention does not already supply it. An arrow can mean implication, temporal order, a permitted transition or material flow; use the relation needed by this expression.
 
-Test a small case that would distinguish the intended reading from a plausible changed one. In :5.2, the continuation C distinguishes two groupings because one requires A first and the other permits C on its own. The test exposes a change in permitted work that a list of retained letters would miss.
+When a plausible alternative interpretation would change the operation, test a small case that distinguishes it from the intended reading. In :5.2, the continuation C distinguishes two groupings because one requires A first and the other permits C on its own. The test exposes a change in permitted work that a list of retained letters would miss.
 
 When the expression is used as a replacement for another, A.6.3.RT compares the content carried between them. A coarsened or partial expression may still be useful for the selected operation; retain a way to recover a distinction that a later use needs.
 
@@ -19380,7 +19365,7 @@ Plain starting vocabulary:
 
 **What this buys.** Narrative ordering can make tangled structure usable while selection, sequence, loss and unsupported additions remain inspectable. Any proof, evidence or authority claim still needs its own grounds.
 
-**Ordinary use.** For low-reliance teaching, orientation, or internal explanation, the useful narrative and compact note are enough. Exact endpoint identities and a formal construction record are not prerequisites for this first result.
+**Ordinary use.** For low-reliance teaching, orientation, or internal explanation, the useful narrative with the needed source and ordering information is enough. Exact endpoint identities and a formal construction record are not prerequisites for this first result.
 
 **Reliance-facing use.** Open the exact branch only when the receiving use makes claim-level identity and preservation evidence material: for example, the narrative must travel independently, be cited or disputed, cross a material representation-scheme boundary for consequential use, enter generated-output admission under an identity-bearing receiver, support consequential reliance, or satisfy another named receiver that requires exact identity. A public context is a cue to ask which receiving requirement applies; publicness alone is not sufficient. Then recover exact source episteme `X`, receiving narrative episteme `Y`, and construction `n : X -> Y`, together with the additional source dependencies, scheme relation, loss, evidence, or assurance actually required by that receiving use.
 
@@ -19422,7 +19407,7 @@ Produce the ordinary useful result first:
 6. Compare the draft back to the source material. Record what it preserves and foregrounds, what it omits or weakens, and which connective or interpretive statements are not source claims.
 7. State the supported narrative use. When omitted structure or a changed question requires return, identify the source to restore or the stronger claim-specific question and its governing pattern. Any excluded use follows F.19:4's full guard test.
 
-Use this compact note for ordinary work. Fill only entries that affect use or block a likely overread:
+Use this compact note when it helps make the source-to-narrative comparison inspectable; otherwise keep the needed information in the narrative and its source references. Include only entries that affect use or block a locally grounded overread:
 
 | Narrative note entry | Practical question |
 | --- | --- |
@@ -19449,7 +19434,7 @@ Then establish exact A.6.3 construction `n : X -> Y`:
 
 Recover `X` as the exact source episteme whose claim content and EntityOfConcern supply the narrative source, and recover `Y` as the exact receiving narrative episteme. Treat input models and publications according to their source claims and keep forms and carriers in their direct roles. If the receiving item lacks recoverable claim content, an exact EntityOfConcern, or an effective reference scheme, keep it as candidate prose or a carrier and stop before asserting exact NAR.
 
-Use this fuller local record for the construction account only when the trigger above is present:
+When the exact branch is needed, use this fuller local record if the receiving use needs this explicit form; otherwise retain the required construction information in the account already being used:
 
 ```text
 StructureToNarrativeRenderingCase:
@@ -19472,7 +19457,7 @@ StructureToNarrativeRenderingCase:
   readerOrListenerSystemRefs[]?: U.EntityRef values resolving to admitted systems
   readerOrListenerSystemRoleKindRefs[]?: U.KindRef values resolving to exact local system-role kinds
   readerOrListenerSystemRoleAssignmentRefs[]?: U.RelationRef values constrained to U.SystemRoleAssignment
-  readerInterestOrUseHypothesis:
+  readerInterestOrUseHypothesis?:
   intendedReaderOrListenerUse:
   orderingRationaleOrTraversalRule:
   preservedStructure:
@@ -19490,7 +19475,7 @@ StructureToNarrativeRenderingCase:
 
 `selectedSourceStructureRefs` identifies the selected structures. A PatternID mentioned in `sourceStructureSelectionRationale` or surrounding prose only locates the content used to recognize or test them; it is not another structure reference. Include `sourceStructureDefinitionClaimEpistemeRefs` or `sourceStructureConstraintClaimEpistemeRefs` only when the exact identity of one or more definition or constraint claims changes reconstruction, comparison, dispute, or reliance. Both lists may be present and each resolves only to claim-bearing C.2.1 epistemes of the named kind.
 
-Resolve `X` and `Y` to their complete C.2.1 identities and use this record only for the construction account. When actual production history matters, recover each precise performer's A.13 core and independently admit dated narrative-construction Work under A.15.1; add F.6 afterward only when precise assignment-bound attribution is current. `readerInterestOrUseHypothesis` remains the working hypothesis. Include each optional System, system-role-kind, or assignment reference only when its exact referent and direct claim obtain independently. Connect source epistemes, parameters, methods, tools, and `Y` through exact direct relations or A.6.1 bindings. If the Work first constitutes `Y` and that inception claim matters, use A.15.PROD to test that separate local claim.
+Resolve `X` and `Y` to their complete C.2.1 identities and use this record only for the construction account. When actual production history matters, recover each precise performer's A.13 core and independently admit dated narrative-construction Work under A.15.1; add F.6 afterward only when precise assignment-bound attribution is current. Include `readerInterestOrUseHypothesis` only when an assumption about the reader affects selection or ordering; retain it as a hypothesis. Include each optional System, system-role-kind, or assignment reference only when its exact referent and direct claim obtain independently. Connect source epistemes, parameters, methods, tools, and `Y` through exact direct relations or A.6.1 bindings. If the Work first constitutes `Y` and that inception claim matters, use A.15.PROD to test that separate local claim.
 
 `epiplexityOrStructuralInformationRef?` refers to a qualified `C.2.8` comparison or estimate when the narrative use depends on structural amount. Identify the receiving narrative episteme, its particular expression, the observer and relevant preparation, access and budget. A formal epiplexity or other mathematical estimate uses the `C.29` model-to-characteristic correspondence; a domain estimate retains its scale and evaluation conditions. The field remains optional for the ordinary narrative and note.
 
@@ -19514,13 +19499,13 @@ NarrativeUnfoldingStructureBlock:
   blockedOverread?: optional explanatory guard under F.19:4's plausible-reader test
 ```
 
-`structureBeingRenderedRef`, `narrativeOrderingStructureRef`, and any receiving narrative episteme occupy different positions. Use `unfoldingStructureBeingRenderedRef` only when the source structure is itself a constraint-governed unfolding structure. Treat the block as an A.22.CGUS `U.Structure` specialization only when CGUS admission and identity tests pass; ordinary NAR does not require it. `returnCondition` names the same value as `narrativeStructureUseReturnCondition`, not a second return rule.
+`structureBeingRenderedRef`, `narrativeOrderingStructureRef`, and any receiving narrative episteme occupy different positions. Use `unfoldingStructureBeingRenderedRef` only when the source structure is itself a constraint-governed unfolding structure. Apply A.22.CGUS identity and membership tests to the particular source or narrative-ordering structure whose CGUS membership is claimed. The block records references to those structures; ordinary NAR does not require such a qualification. `returnCondition` names the same value as `narrativeStructureUseReturnCondition`, not a second return rule.
 
 #### A.6.3.NAR:4.1 - Ordinary and reliance-facing cases
 
-An internal explanation, teaching example, orientation narrative, or early team account normally closes with the compact note and a source comparison. Its first useful result is the narrative itself, not an exactness form.
+An internal explanation, teaching example, orientation narrative, or early team account normally closes with the narrative and its source comparison. A compact note is useful when it makes their relation inspectable.
 
-Move progressively. Add temporal posture, event-model support, mediation, viewpoint, engagement, or worker history only when each distinction changes the use or blocks a likely error. Open the exact construction branch only at its declared trigger. A reliance-facing case then carries forward the ordinary narrative and note; it does not replace them with a dossier.
+Move progressively. Add temporal posture, event-model support, mediation, viewpoint, engagement, or worker history only when each distinction changes the use or blocks a likely error. Open the exact construction branch only at its declared trigger. A reliance-facing case then carries forward the ordinary narrative and its source comparison, adding only the exact account required by the receiving use.
 
 #### A.6.3.NAR:4.2 - Exact same-EntityOfConcern and correspondence-mediated profiles
 
@@ -19573,11 +19558,11 @@ An ordinary narrative remains fit while its source material, selected structures
 
 | Trigger | Required move |
 | --- | --- |
-| Source material or selected structures change | Recompare the narrative with the changed source, revise ordering, preservation, loss, unsupported additions, and return, and lower use until the useful path is honest again. |
+| Source material or selected structures change | Compare the narrative with the changed source. Retain it when the change leaves its selected structures, claims and supported use unchanged; otherwise repair the affected ordering, preservation, loss, unsupported additions or return, and restrict only uses no longer supported. |
 | An exact discriminator of `X`, `Y`, an additional source episteme, or a depended-on relation changes | Reidentify only the changed exact object; restate the affected part of `n`, preservation, loss, and return. Use C.33 only for architecture-relevant captured/lost structure and G.2 only for its SoTA harvesting/synthesis claims. |
-| Intended reader or listener use becomes stronger, broader, or more reliance-facing | Lower the existing narrative to its supported use. Open the exact branch only if the changed receiver now makes claim identity material, and add only the identity, source-chain, evidence, assurance, ethics, publication, or policy account that receiver requires; otherwise revise the ordinary note and stop there. |
+| Intended reader or listener use becomes stronger, broader, or more reliance-facing | Reassess the narrative for the changed use and retain any already supported use. Open the exact branch only if the changed receiver now makes claim identity material, and add only the identity, source-chain, evidence, assurance, ethics, publication, or policy account that receiver requires; otherwise revise the ordinary account only as needed. |
 | Ordering rationale or connective account changes | Reopen the ordering and visible-loss account. Use RT as well when a material representation-scheme shift remains after narrative ordering is accounted for; use CSC when a narrower-use coarsened episteme is primary. |
-| Exact source material is missing, stale, or unreachable, or a stronger claim still lacks its claim-specific result | Lower downstream use. Restore access to the exact source material; when the stronger claim is current, apply the pattern whose Solution answers that question and keep the claim unresolved until its result is available. Use G.11 when currentness or freshness is the live defect. |
+| Exact source material is missing, stale, or unreachable, or a stronger claim still lacks its claim-specific result | Identify and restrict the uses that depend on the missing, stale or unreachable source or absent claim-specific result. Restore source access or obtain the needed result when the receiving task requires it; preserve already supported uses. Use G.11 when currentness or freshness is the live defect. |
 | Generated output, source-pack plan, schema, or admission result changes | Use C.35 for admission of an affected generated result to architecture use and G.2 for its SoTA harvesting/synthesis claims; reopen NAR only for the affected source-to-narrative relation, loss, and return. |
 | Domain narrative vocabulary or relevant narrative, NLG, or cognitive SoTA changes a relied-on field | Refresh that domain basis and replay the affected use; do not enlarge Core vocabulary merely to mirror the domain source. |
 | Downstream use requires evidence, assurance, ethics, publication, policy, decision, or work authority that NAR does not supply | Keep NAR as the narrative construction account and state the stronger claim under `A.10`, `B.3`, `D.1`–`D.5`, `E.24.PUB`, or the exact pattern that defines the needed decision or Work relation. |
@@ -19622,7 +19607,7 @@ Later analysis, statistics, rule disputes, injuries or official-result use retur
 
 A team orders selected FPF claims for learners: EntityOfConcern discipline, problem frames, pattern use, relation records, source return, framework authoring, and improvement loops. The first result is a teachable route whose note records prerequisite order, deferred detail, reconstruction tasks, and return to exact FPF passages.
 
-Teaching these claims does not establish that FPF is correct. A separate E.24.PUB occurrence may make a selected narrative episteme available through a teaching form and carrier; publication neither constitutes the narrative episteme nor establishes the NAR construction.
+A separate E.24.PUB occurrence may make a selected narrative episteme available through a teaching form and carrier; publication neither constitutes the narrative episteme nor establishes the NAR construction.
 
 #### A.6.3.NAR:5.4 - Franchise-continuation storycraft boundary
 
@@ -19632,7 +19617,7 @@ For an exact same-entity continuity account, identify the source episteme descri
 
 #### A.6.3.NAR:5.5 - Homotopy-theory explanation boundary
 
-A teacher turns graph-heavy mathematical material into a didactic sequence of definitions, dependencies, examples, counterexamples, theorem prerequisites, and proof-status boundaries. The ordinary note records which structures a learner can reconstruct, which proof details or generalizations are deferred, and when to return to formal statements. Recalling an analogy alone does not establish a proof or recovery of the mathematical structure being taught.
+A teacher turns graph-heavy mathematical material into a didactic sequence of definitions, dependencies, examples, counterexamples, theorem prerequisites, and proof-status boundaries. The ordinary note records which structures a learner can reconstruct, which proof details or generalizations are deferred, and when to return to formal statements.
 
 When a mathematical use needs exact preservation, identify `HomotopySource-X` and `HomotopyNarrative-Y` about the same mathematical EntityOfConcern and state the construction, ordering and loss. Mathematical-lens, proof, source-use, publication and teaching-evaluation claims retain their applicable tests.
 
@@ -19640,7 +19625,7 @@ When a mathematical use needs exact preservation, identify `HomotopySource-X` an
 
 An LLM or NLG system uses source claims designating an event graph, agent goals, constraints, and a domain schema, then performs generation Work and proposes the resulting story-scene carrier. The first inspection compares the proposed sequence with the selected event relations, marks preserved constraints, omissions, and hallucinated connective claims, and limits use to candidate review.
 
-Generated prose is not an admitted narrative episteme merely because it is fluent. Use C.35 when the generated result is intended to inform architecturing; it tests that exact result's next architecture use. If reliance-facing use later opens exact NAR, independently identify `EventPlan-X` and `StoryScene-Y`, then state `EventNarrativization : EventPlan-X -> StoryScene-Y`, the additional source dependencies, loss, prohibited strengthening, and return. The graph and schema are not `X`; the system's generation Work, evidence, assurance, and publication remain separate.
+Use C.35 when the generated result is intended to inform architecturing; it tests that exact result's next architecture use. If reliance-facing use later opens exact NAR, independently identify `EventPlan-X` and `StoryScene-Y`, then state `EventNarrativization : EventPlan-X -> StoryScene-Y`, the additional source dependencies, loss, prohibited strengthening, and return. The graph and schema are not `X`; the system's generation Work, evidence, assurance, and publication remain separate.
 
 ### A.6.3.NAR:6 - Bias-Annotation
 
@@ -19669,7 +19654,7 @@ Generated prose is not an admitted narrative episteme merely because it is fluen
 | `CC-NAR-9` | In that branch, `X` and `Y` are independently identified by claim content, EntityOfConcern and effective interpretation rules (`ReferenceScheme`); a model, file or prose label alone supplies none of those identities. |
 | `CC-NAR-10` | Exact `n : X -> Y` states same EntityOfConcern, claim construction, endpoint scheme relation, ordering, preservation, loss, prohibited strengthening, applicability, and return. |
 | `CC-NAR-11` | Additional source epistemes and correspondence dependencies are exact when used; actual Work, system, system-role kind or assignment, method, publication, carrier, evidence, assurance, and `U.View` membership remain separately identified and must satisfy their own definitions or tests. Completing the exact record does not itself authorize reliance. |
-| `CC-NAR-12` | Reuse is lowered or locally repaired when the source, selected structure, order, loss, use, exact identity, depended-on relation, or return changes. |
+| `CC-NAR-12` | Changes to the source, selected structure, order, loss, use, exact identity, depended-on relation or return are checked for their effect on the narrative. Preserve unaffected uses; repair affected content or restrict only uses no longer supported. |
 
 Counterexample replay:
 
@@ -19690,12 +19675,12 @@ Counterexample replay:
 | Anti-pattern | What fails | Repair move |
 | --- | --- | --- |
 | Identity dossier before narrative | Ordinary teaching or orientation stalls before anyone receives a useful account. | Draft the smallest reader-useful sequence and source comparison first; open exact identity only when a named receiving use triggers it. |
-| Good story as source replacement | The narrative is memorable, but later users cannot recover the selected source structure. | Add the compact note or exact case appropriate to the use: selected structures, preservation/loss, bounded use, and source return. |
-| Tacit selection as narrative success | The author or model picked structures, but no one can explain why they serve this reader. | Reconstruct the selection rationale and reader-use hypothesis; keep the output orientation-only until they are clear. |
+| Good story as source replacement | The narrative is memorable, but later users cannot recover the selected source structure. | Restore the selected structures, preservation/loss, bounded use and source return in the narrative or its source comparison; add an exact construction account only when the receiving use requires it. |
+| Tacit selection as narrative success | The author or model picked structures, but no one can explain why they serve this reader. | Recover the selection rationale and intended reader use. Retain only a use supported by that account; if none is established, keep the narrative as a draft for revision. |
 | Sequence by habit | Chronology, textbook order, or dramatic order is used without saying why it helps or what it hides. | State the ordering/connective account and compare it with the source. |
 | Engagement as evidence | Attention, transportation, or emotional uptake is treated as stronger truth or permission. | Keep engagement as a bounded use effect; use A.10, B.3, or D.1–D.5 only for the specific evidence, assurance, or ethics claim. |
 | Narratology word import | Plot, focalization, voice, protagonist, suspense, or narrator are treated as automatic Core kinds. | Keep domain vocabulary in narrative practice unless a separate Core decision admits a reusable distinction. |
-| Generated narrative by fluency | LLM output is accepted because it reads coherently. | Compare it with admitted source claims, use C.35 when the generated result is intended to inform architecturing, and open exact NAR only if the receiving use requires it. |
+| Generated narrative by fluency | LLM output is accepted because it reads coherently. | Compare it with selected source claims, use C.35 when the generated result is intended to inform architecturing, and open exact NAR only if the receiving use requires it. |
 
 
 ### A.6.3.NAR:9 - Consequences
@@ -19712,7 +19697,7 @@ Costs and trade-offs:
 
 - Authors must compare the narrative with the source rather than judging it by fluency alone.
 - Reliance-facing narratives require exact identity and preservation work proportionate to the receiver's use.
-- Some attractive narratives must be limited to orientation because selected structure or return is not recoverable.
+- If missing selected structure or source return makes the stated use unsupported, narrow the use to one whose requirements still hold, or keep the narrative as a draft.
 - Evidence, assurance, ethics or policy claims add their own required work.
 
 ### A.6.3.NAR:10 - Rationale
@@ -19725,9 +19710,9 @@ The narrow reusable move is therefore reader-first and progressive. Choose struc
 
 | Source or practice anchor | Contribution | NAR use | Scope and limits |
 | --- | --- | --- | --- |
-| Roald Hoffmann, “The Tensions of Scientific Storytelling” (American Scientist, 2014) | Adopt as practice grounding: scientific narratives order calculations, failed attempts, mechanisms, unresolved tensions, and discoveries rather than merely decorating results. | Grounds the discovery-order worked case and the need to retain unresolved tension and source return. | Historical practice anchor, not current cognitive SoTA or authority over FPF ethics. |
+| Roald Hoffmann, “The Tensions of Scientific Storytelling” (American Scientist, 2014) | Adopt as practice grounding: scientific narratives order calculations, failed attempts, mechanisms, unresolved tensions, and discoveries rather than merely decorating results. | Grounds the discovery-order worked case and the need to retain unresolved tension and source return. | Historical practice anchor, not current cognitive SoTA. |
 | Wolf Schmid, `Narratology: An Introduction` (2010), and Matei Chihaia, `Introductions to Narratology: Theory, Practice and the Afterlife of Structuralism` (2012) | Adapt source material, selection, composition, order, viewpoint, and presentation as domain distinctions. | Grounds the ordering/connective account and viewpoint-sensitive loss. | Historical domain anchors; fiction-specific vocabulary does not become FPF Core ontology. |
-| Tan T. Nguyen, “A Review of Mechanistic Models of Event Comprehension” (2024); Lijuan Chen and Xiaodong Xu, “Neural and Behavioral Evidence for Differential Processing of Narrative Perspective in Novel Reading” (2026); Christoph Mengelkamp, Stefanie Golke, and Markus Appel, “Effects of Reading Goal Instructions on the Comprehension and Metacomprehension of Informative Narratives” (2025); Antonios Georgiou, Tankut Can, Mikhail Katkov, and Misha Tsodyks, “Large-scale study of human memory for meaningful narratives” (2025) | The named studies examine event models, prediction and update, reading-goal effects, reconstruction, memory loss, metacomprehension error, and viewpoint-sensitive recovery. | Supports triggered event-model/viewpoint fields, reader-use entry, source comparison, and return. | These studies inform narrative use; they do not supply evidence, assurance, ethics, or policy authority for a particular narrative. |
+| Tan T. Nguyen, “A Review of Mechanistic Models of Event Comprehension” (2024); Lijuan Chen and Xiaodong Xu, “Neural and Behavioral Evidence for Differential Processing of Narrative Perspective in Novel Reading” (2026); Christoph Mengelkamp, Stefanie Golke, and Markus Appel, “Effects of Reading Goal Instructions on the Comprehension and Metacomprehension of Informative Narratives” (2025); Antonios Georgiou, Tankut Can, Mikhail Katkov, and Misha Tsodyks, “Large-scale study of human memory for meaningful narratives” (2025) | The named studies examine event models, prediction and update, reading-goal effects, reconstruction, memory loss, metacomprehension error, and viewpoint-sensitive recovery. | Supports triggered event-model/viewpoint fields, reader-use entry, source comparison, and return. | These studies inform narrative use. A claim about a particular narrative's effects, assurance, ethical permissibility or policy authority requires grounds applicable to that claim. |
 | Albert Gatt and Emiel Krahmer, “Survey of the State of the Art in Natural Language Generation” (2018); Amal Alabdulkarim, Siyan Li, and Xiangyu Peng, “Automatic Story Generation: Challenges and Attempts” (2021); Rogelio E. Cardona-Rivera, Arnav Jhala, Julie Porteous, and R. Michael Young, “The Story So Far on Narrative Planning” (2024); Vikram Kumaran, Jonathan Rowe, Bradford Mott, and James Lester, “SceneCraft: Automating Interactive Narrative Scene Generation in Digital Games with Large Language Models” (2023), DOI `10.1609/aiide.v19i1.27504`; Yuan Ma, Richard Susilo, Patrik Haslum, and Hanna Suominen, “Text-to-Text Automatic Story Generation: A Survey” (2026); Aynigar Rahman, Aihe Yu, and Kyungeun Cho, “Game Knowledge Management System: Schema-Governed LLM Pipeline for Executable Narrative Generation in RPGs” (2026) | Adopt content and narrative planning, grounding, controllability, schema constraints, repair, and evaluation limits for automated cases. | Grounds the generated event-graph case, generated-fluency boundary, source comparison, and conditional C.35 architecture-use exit. | The 2018/2021 surveys are historical anchors; the 2024/2026 planning, survey and schema-governed work supplies the later sources used here. |
 | Melanie C. Green and Timothy C. Brock, “The Role of Transportation in the Persuasiveness of Public Narratives” (2000); Michael F. Dahlstrom and Shirley S. Ho, “Ethical Considerations of Using Narrative to Communicate Science” (2012); Hanna Meretoja, “Narrative and Human Existence: Ontology, Epistemology, and Ethics” (2014, background only); FPF `D.1` through `D.5` | Adapt engagement as a real effect with a bounded-use and ethical boundary. | Grounds the engagement check and the anti-pattern against treating engagement as evidence or permission. | Historical/background anchors. Current evidence, assurance, ethics, and policy claims still require their own exact sources and FPF patterns. |
 
@@ -19736,11 +19721,11 @@ The narrow reusable move is therefore reader-first and progressive. Choose struc
 - **Specializes:** `A.6.3` for structure-to-sequence narrative construction. The ordinary entry exposes selection, ordering, loss, use, and return; the triggered exact branch states same-EntityOfConcern `n : X -> Y` and any exact correspondence dependencies.
 - **Coordinates with:** `A.6.3.CR` for same-regime textual re-expression, `A.6.3.RT` for a material representation-scheme transition, `A.6.3.CSC` for controlled semantic coarsening, `A.6.4` for changed EntityOfConcern, and `E.17.EFP` for explanation-use adequacy.
 - **Uses when current:** `C.2.8` for extractable structural amount, the applicable domain evaluation for its local scale, `C.29` for a mathematical estimate's correspondence, `C.33` for captured and lost architecture-relevant structure, and `C.34` for an exact correspondence claim needed by architecture work.
-- **Coordinates with:** `A.22.CGUS` only when the structure being rendered is independently admitted as a constraint-governed unfolding structure or the optional unfolding block passes CGUS admission and identity tests.
+- **Coordinates with:** `A.22.CGUS` for its ordinary branch when continuation conditions need clarification. For a claimed source or narrative-ordering CGUS, establish that particular structure's identity and membership; the optional unfolding block records references to that structure.
 - **Coordinates with:** `C.35` for generated results entering architecture work, `G.2` for its SoTA harvesting/synthesis claims, `E.6` and `E.11` for learning order and first-entry publication questions, and `E.17` for publication-form use, `E.17.0` for viewpoint conformance, `E.17.AUD` for audience, and `E.24.PUB` for publication questions.
 - **Uses when current:** `G.11` for source-return currentness; `D.1`–`D.5`, `A.10`, and `B.3` for the particular ethics, evidence, or assurance claims they define.
 - **Uses when current:** `F.19` for precise plain language in technical narrative and for the plausible-reader test of an optional explanatory guard.
-- **Boundary:** NAR defines the structure-to-sequence construction, preservation, loss, and return boundary. It does not let a model, graph, stream, source pack, publication, form, carrier, or readable prose substitute for an exact episteme; grant `U.View` membership; authorize reliance; prove source claims; admit generated output; decide ethics; or turn domain narrative vocabulary into FPF Core.
+- **Boundary:** NAR defines the structure-to-sequence construction, preservation, loss, and return boundary.
 
 ### A.6.3.NAR:End
 
@@ -19748,7 +19733,7 @@ The narrow reusable move is therefore reader-first and progressive. Choose struc
 > **Status:** Stable
 > **Type:** Definitional pattern
 
-**One-line summary.** Use EntityOfConcern retargeting when one episteme concerns one entity and another concerns a different entity, yet a stated invariant remains useful across that change for one named purpose.
+**One-line summary.** Use EntityOfConcern retargeting to classify an arrow between epistemes about different entities. A claimed receiving use needs a separate bounded-use assertion; a current-case judgement compares that assertion with the relevant facts.
 
 **Retargeting in plain terms.** The two epistemes concern different things. One named receiving use is admitted only when exact facts establish the stated invariant and show that the visible loss remains acceptable under named conditions.
 
@@ -19756,7 +19741,7 @@ The narrow reusable move is therefore reader-first and progressive. Choose struc
 
 **What goes wrong if missed.** A changed EntityOfConcern is treated as “the same thing in another form”, so claims, evidence, gate results, work authority, or currentness are carried forward without their own direct predicates or current results. The opposite error is to demand a semantic Bridge or reversible mapping when the case needs neither.
 
-**First useful move.** Identify r by its exact endpoint epistemes, arrow rule or designator, and the selected formal substrate's equivalence criterion. Name both EntitiesOfConcern. Then state the invariant, visible loss, named receiving action, conditions, and exact facts used to judge the case.
+**First useful move.** Identify r by its exact endpoint epistemes, arrow rule or designator, and the selected formal substrate's equivalence criterion. Name both EntitiesOfConcern. For a claimed receiving use, state the invariant, visible loss, named use and conditions in a separate bounded-use assertion q. When judging a current case, compare its exact facts with q.
 
 **What this buys.** The reader can decide one receiving use from the bounded-use assertion q and current facts; source-claim survival, performed Work, and EntityOfConcern identity retain their separate bases.
 
@@ -19768,7 +19753,7 @@ Several familiar moves can hide a real change of EntityOfConcern, but none prove
 
 * **Physical cabinet and selected functional structure.** An episteme about cabinet `Cab-7` and one about selected functional `U.Structure` `Route-A` concern different entities when C.2.1 identifies them independently. A behavior-test result can supply facts for a bounded retargeting judgement. The expression `Realises(Cab-7, Route-A)` contributes only if its own relation and obtaining conditions are established; §5 shows a case whose judgement needs no such relation.
 * **Signal and spectrum.** The ordinary Fourier case often concerns one signal in two representations. Use A.6.3.RT when the EntityOfConcern is preserved. Add C.29 only when the needed mathematical correspondence or its limits remain unsettled. A.6.4 opens only if the receiving episteme concerns a separately identified spectrum object and the use explains why that object, rather than the original signal under another representation, is current.
-* **Observations and fitted model.** A dataset and a learned model can be different exact entities. An affirmative q may state a predictive invariant and name a prediction use; exact fit and held-out test outcomes then supply current-case facts for the separate judgement. Individual observations and unmodelled distinctions remain visible losses. Model fitting itself is separate Work.
+* **Observations and fitted model.** A dataset and a learned model can be different exact entities. An affirmative q may state a predictive invariant and name a prediction use; exact fit and held-out test outcomes then supply current-case facts for the separate judgement. Individual observations and unmodelled distinctions remain visible losses. Model fitting is a separate activity.
 
 For a case used positively, the local arrow r relates two epistemes with different EntitiesOfConcern, q affirmatively states the bounded-use proposition, and the case facts satisfy it. Any claimed operation application or actual Work is identified separately under its own conditions.
 
@@ -19809,7 +19794,7 @@ Keep four things distinct:
 3. **The current-case judgement.** Compare the exact current facts with q's conditions and proposition, and report `satisfies`, `fails`, or `cannot decide`. That result is not q's polarity and does not reidentify q or r. Use A.20 only when the case raises an internal-constraint check, A.10 only for a current evidence-use claim, and B.3 only for a current assurance claim or its material-reliance threshold. Otherwise the named rule and direct case facts are enough.
 4. **Any application occurrence.** If a system actually computes, authors, or otherwise produces or changes an episteme by using the declared operation, identify that A.6.1 application, its argument and result bindings, the performing system, and any Work separately. The mathematical statement `r : X -> Y` alone names no occurrence.
 
-The smallest useful practitioner account still asks six questions:
+For a current-case judgement of a receiving-use assertion, ask:
 
 | Question | What it recovers |
 | --- | --- |
@@ -19895,15 +19880,15 @@ Boundary rules:
 - if the receiving use requires a mapping, correspondence or route-equivalence claim whose direct governor is missing, resolve that missing basis before relying on the claim;
 - if the EntityOfConcern is preserved and the receiving item is useful only under narrower declared use with visible loss and source-bearing reopen, use `A.6.3.CSC`;
 - if a `StructuralReinterpretation`, `PathSliceId`, `CrossingRef`, or `DecisionLogRef` is present, use `E.18`, `A.20`, or `A.21` for graph, path, constraint, and gate relations. Those references do not prove semantic continuity or retargeting admissibility by themselves;
-- for decoded or latent output, use C.2.6 for source and use claims and C.2.7 for representation-factor readings; keep the output report-only or exploratory until its exact source or model-state relation, decode or probe relation, recoverability evidence, admissible use, and source-return action are stated under their current governors;
-- B.5.2 governs changes within its abductive loop, including its prompt, candidate and rival sets, selected prime hypothesis, plausibility filtering, and reopen. Apply A.6.4 additionally only for an independently established EntityOfConcern change and bounded receiving use;
+- for decoded or latent output, use C.2.6 for source and use claims; use C.2.7 when representation-factor readings matter. For the named use, establish the source or model-state relations, decode or probe relations, and recoverability evidence it requires. Retain supported claims and uses; resolve a missing premise before relying on a use that depends on it. State any source-return action that use requires under its direct governor;
+- B.5.2 governs changes within its abductive loop, including its prompt, candidate and rival sets, selected prime hypothesis, plausibility filtering, and reopen. Apply A.6.4 additionally only for an independently established EntityOfConcern change. State q when a receiving use is claimed, and judge a current case when that result is needed;
 - keep any other independently current claim under the pattern that defines or tests it; the Relations section names the main neighboring owners.
 
 A.6.4 defines arrow r, bounded-use assertion q, and the separate current-case judgement that E.18 may place at a `StructuralReinterpretation` locus. That placement identifies none of them and does not make the judgement `satisfies`.
 
 ### A.6.4:5 - Archetypal Grounding (Tell-Show-Show)
 
-**Tell.** Retargeting means “different EntityOfConcern, one stated invariant, visible loss, one named use, and exact current facts for judging it”.
+**Tell.** Retargeting relates epistemes about different EntitiesOfConcern. For a claimed receiving use, state the invariant, visible loss and conditions; judge a current case from its exact facts when that judgement is needed.
 
 **Show 1 — Physical cabinet to selected functional structure.** Take `Cab-7` and functional `U.Structure` `Route-A` as independently identified entities. Under an explicit finite-routing scheme, source episteme X states two observations of `Cab-7` in configuration K: input L routed to output 1, and input R routed to output 2. X also identifies cabinet layout `Layout-7` and manufacturer `Maker-7`. A separate definition episteme Z specifies `Route-A` with those pairs and a third pair M→3. Receiving episteme Y concerns `Route-A` and selects only its declared L→1 and R→2 pairs. C.2.1 distinguishes X, Y and Z by their complete claims, concerns and effective schemes.
 
@@ -19917,11 +19902,11 @@ The unused expression `Realises(Cab-7, Route-A)` has no supplied direct predicat
 
 A positive A.6.4 branch opens only if C.2.1 separately identifies, for example, exact signal run `Signal-17` and exact spectral-distribution object `Spectrum-17` as the two EntitiesOfConcern. The receiving use must actually concern `Spectrum-17`—for example, comparing its peak distribution with another spectrum—rather than merely read another representation of `Signal-17`. Then r relates the two epistemes; affirmative q states the spectral-comparison proposition and may cite the Fourier relation and Parseval test. The current-case judgement is `satisfies` only when the named facts meet q's conditions and criterion while lost time localization remains visible.
 
-**Show 3 — Dataset to model.** X concerns dataset D; Y concerns fitted model M, independently identified under the applicable model pattern. Affirmative q states the predictive invariant, visible losses, named prediction use, and conditions. The exact fit result and held-out test outcome are current-case facts; the judgement is `satisfies` when those facts meet q's conditions and invariant criterion. Individual observations and unmodelled distinctions remain visible losses, and any other dataset claim needs its own transfer basis. The fitting application and Work remain separate from r, q, and the judgement.
+**Show 3 — Dataset to model.** X concerns dataset D; Y concerns fitted model M, independently identified under the applicable model pattern. Affirmative q states the predictive invariant, visible losses, named prediction use, and conditions. The exact fit result and held-out test outcome are current-case facts; the judgement is `satisfies` when those facts meet q's conditions and invariant criterion. Individual observations and unmodelled distinctions remain visible losses, and any other dataset claim needs its own transfer basis. Identify any fitting application and performed Work separately under ER-6.
 
 ### A.6.4:6 - Bias-Annotation
 
-A.6.4 deliberately foregrounds the exact source and receiving entities when the EntityOfConcern changes. Recover that pair, q's invariant and visible loss, the named receiving use, and the current-case basis. Open a neighboring branch only when a separately current claim needs its direct pattern.
+A.6.4 deliberately foregrounds the exact source and receiving entities when the EntityOfConcern changes. Recover that pair. For a claimed receiving use, state q's invariant, visible loss, use and conditions. When judging a current case, recover the facts needed for that judgement. Open a neighboring branch only when a separately current claim needs its direct pattern.
 
 ### A.6.4:7 - Conformance Checklist (normative)
 
@@ -19929,7 +19914,7 @@ A.6.4 deliberately foregrounds the exact source and receiving entities when the 
 
 **CC-A.6.4-2 - Arrow identity.** The selected formal substrate supplies r's exact endpoints, arrow rule or designator, and equivalence criterion. Same endpoints, a diagram, or a use claim alone does not identify r.
 
-**CC-A.6.4-3 - Separate use proposition and case judgement.** One C.2.1 assertion q names r, one receiving use, the invariant, visible loss, conditions, and affirmative or negative polarity. A separate current-case judgement reports `satisfies`, `fails`, or `cannot decide` from exact current facts. The same r may have another q and judgement for another use.
+**CC-A.6.4-3 - Separate use proposition and case judgement.** For a claimed receiving use, one C.2.1 assertion q names r, the receiving use, invariant, visible loss, conditions, and affirmative or negative polarity. When evaluating a current case, a separate judgement reports `satisfies`, `fails`, or `cannot decide` from exact current facts. The same r may have another q and judgement for another use.
 
 **CC-A.6.4-4 - Conservative receiving claim.** Every assertion in Y satisfies A.6.2 P2. For an affirmative q, `satisfies` additionally requires enough case basis for q's invariant, loss condition and stated use. For either polarity, facts contrary to q yield `fails`; a missing deciding fact yields `cannot decide` and names that fact and the reopen condition. Neither result changes q's polarity.
 
@@ -19981,7 +19966,7 @@ The A.6.4 split among r, q, and any application occurrence is a bounded FPF synt
 
 ### A.6.4:12 - Mini-checklist (for use)
 
-When you think you need retargeting, ask:
+Start with questions 1–2 to classify the arrow. Questions 3–4 concern a claimed receiving use; question 5 concerns its evaluation in a current case. Questions 6–7 apply when those additional claims are current.
 
 1. **Does the EntityOfConcern change?** If no, use A.6.3 or another preserving pattern.
 2. **Which exact arrow, endpoint epistemes and EntitiesOfConcern are involved?** Name them before naming a mapping technology.
@@ -19989,7 +19974,7 @@ When you think you need retargeting, ask:
 4. **What is lost, and which receiving use tolerates that loss?** A broad "same meaning" answer is insufficient.
 5. **What witnesses the invariant and loss judgement?** If the witness is missing or contradicted, stop or reopen.
 6. **Is a relation between two local senses also claimed?** Only then test F.9 separately; no Bridge follows merely from retargeting.
-7. **Was computation or other Work performed?** When an A.6.1 operation declaration is current, identify the exact application and its argument and result bindings. Identify any performed Work separately from r and q.
+7. **Was computation or another activity performed?** When an A.6.1 operation declaration is current, identify the exact application and its argument and result bindings. Identify any performed Work separately from r and q.
 
 ### A.6.4:13 - Relations
 
@@ -23290,7 +23275,7 @@ The pattern deliberately keeps measurement out of the first move. A module relat
 
 **Primary EntityOfConcern.** One `SlotSpec` declaration in one exact `RelationSignature`.
 
-**First useful move.** Write the readable relation sentence, identify the relation kind and relation-participant meanings, and name where its predicate, applicability and any identity rule needed by the receiving use are defined. For every relation-participant meaning whose reusable typed declaration is current, add one SlotSpec to the `RelationSignature`, using the compact declaration notation `SlotSpec = <SlotKind, ValueKind, refMode>`. `refMode` states how an assertion or relation-occurrence description episteme carrying a relation-participant designation denotes the entity named under that meaning. When a reference is used, it retains its RefKind and its referent retains the declared ValueKind; the SlotSpec remains declaration content. If the direct relation or its relation obtaining predicate is still unclear, stop and use `A.6.P` or `A.6.RSIR`; declaration notation cannot recover a missing ontology.
+**First useful move.** Write the readable relation sentence, identify the relation kind and relation-participant meanings, and name where its predicate, applicability and occurrence-identity rule are defined. For every relation-participant meaning whose reusable typed declaration is current, add one SlotSpec to the `RelationSignature`, using the compact declaration notation `SlotSpec = <SlotKind, ValueKind, refMode>`. `refMode` states how an assertion or relation-occurrence description episteme carrying a relation-participant designation denotes the entity named under that meaning. When refMode is a RefKind, the reference retains that RefKind and its referent retains the declared ValueKind; the SlotSpec remains declaration content. If the direct relation or its relation obtaining predicate is still unclear, stop and use `A.6.P` or `A.6.RSIR`; declaration notation cannot recover a missing ontology.
 
 **First-minute result.** For `Robot_7 is assigned to InspectorSystemRole for this inspection shift`, start from an independently defined species under `U.SystemRoleAssignment`, here illustrated as `InspectionShiftAssignment`, and use its predicate and case facts to determine whether a shift occurrence obtains. When reusable participant typing is needed, give `HolderSystemSlot` the value kind `U.System` and entity-reference mode; give `AssignedSystemRoleKindSlot` the value domain `InspectorSystemRoleKindDomain` and `ByValue` designation mode. Add another participant only when it changes the predicate or occurrence identity. An assertion designates the occurrence's participants and states its `assignmentInterval` separately. Stop there unless later work must substitute a participant, distinguish this assignment episode from another, or test an A.2.5 state condition.
 
@@ -23300,7 +23285,6 @@ The pattern deliberately keeps measurement out of the first move. A module relat
 
 **Not this pattern when.** Use `A.6.P` or `A.6.RSIR` first while the relation kind or its participants remain unresolved. Use `A.6.REL` for relation-occurrence identity, `A.6.0` for the containing `U.Signature`, `C.2.1` for an assertion or description, and `C.3` for a local kind needed by membership, substitution, typed quantification, or subkind use; use `C.3.2` for its declaration, membership judgment, or optional extension. In every other case, find the direct relation's accepted definition before applying this slot discipline.
 
-The worked cases below are contrasts only; none supplies another relation's predicate or definition.
 
 The following objects meet at this boundary and remain distinct:
 
@@ -23329,7 +23313,7 @@ These errors do more than blur terminology. They change which substitutions are 
 | Local SlotKind and durable participant | A SlotKind is local to one declaration, while the relation participant keeps the identity and kind defined elsewhere. |
 | Exact range and open-ended ontology | A ValueKind needs enough precision for the predicate without forcing every participant into a newly minted U-kind. |
 | Embedded value and stable reference | An assertion or description may designate an entity by value or reference. When the relation obtains, that entity participates directly; the designation mode does not change the participant. |
-| Logical form and constructive grounding | Predicate and slot discipline help review a relation, while FPF still needs grounded participants, a relation obtaining predicate, and an occurrence-identity rule when that identity is needed. |
+| Logical form and constructive grounding | Predicate and slot discipline help review a relation, while FPF still needs grounded participants and direct rules for obtaining and occurrence identity. |
 | Grammatical verb and ontological kind | A verb can express a relation predicate without turning the relation into work, method, transformation, agency, or a holon. |
 
 ### A.6.5:4 - Solution
@@ -23338,7 +23322,7 @@ Apply relation-declaration slot discipline only after the direct relation and it
 
 #### A.6.5:4.0 - Ontological status of the discipline
 
-Relation-declaration slot discipline is a rule set, not a durable U-kind. This pattern reuses `RelationSignature`, `SlotSpec`, `SlotKind`, `ValueKind`, and `RefKind` from the existing signature and relation vocabulary; it introduces no U-kind. A.6.5 constrains one `SlotSpec` declaration belonging to one exact `RelationSignature`. Operation argument and result declarations remain under `A.6.1`; mathematical operands and their order remain representation elements; use `C.29` when that representation is used as a declared mathematical lens.
+A.6.5 constrains one `SlotSpec` declaration belonging to one exact `RelationSignature`. Operation argument and result declarations remain under `A.6.1`; mathematical operands and their order remain representation elements; use `C.29` when that representation is used as a declared mathematical lens.
 
 A.15.3 may cite one exact SlotSpec as the target of a planned participant designation inside a `U.WorkPlan`. That citation does not fill the SlotSpec, extend SlotSpec to another description family, make the planned designation an actual participant, or make the direct relation obtain. Planned operation arguments and results instead cite their exact A.6.1 declarations. Only a declaration-local participant specification inside one exact `RelationSignature` is a SlotSpec. Method-description, plan, work, evaluation, card, schema, and record fields retain the kinds and declaration rules supplied by their defining patterns. A field that receives relation semantics follows the applicable declaration or representation correspondence route in §4.2; the field, SlotSpec, designation, and actual participant remain distinct.
 
@@ -23398,7 +23382,7 @@ A6.5-S4 HonestReference:
 
 A6.5-S5 DirectPredicateDefinition:
   the identified direct-relation definition states the predicate,
-  applicability, and any relation occurrence-identity rule.
+  applicability, and the direct occurrence-identity rule.
 
 A6.5-S6 NoHiddenUnion:
   one ValueKind does not hide participant kinds for which the direct
@@ -23409,7 +23393,7 @@ A6.5-S7 RepresentationBoundary:
   world-side participant or relation occurrence by form.
 ```
 
-A system performing typed substitution keeps the SlotSpec fixed, resolves any reference under its declared scheme, and checks the designated entity against the exact ValueKind; the designation must still satisfy the declared refMode and, when applicable, RefKind. A system performing retargeting changes a reference value in an assertion or description while preserving SlotKind, ValueKind, and RefKind. Neither designation operation by itself changes a world-side participant or makes the direct predicate true. The identified direct-relation definition supplies that predicate and identity rule; the current case must supply the relevant facts or constituting history. A system applies the direct obtaining test to those facts or constituting history, and a claim-bearing episteme records the warranted affirmative or negative claim, or leaves the factual question unresolved. Only when an explicit reliance judgment is current does `A.10` or the receiving evaluation separately record supported, refuted, or unresolved reliance. Type compatibility and assertion form do not by themselves establish obtaining or occurrence identity. Evidence supporting the case conclusion and any constitutive contribution are governed separately by the relevant evidence and direct-relation rules.
+A system performing typed substitution keeps the SlotSpec fixed, resolves the designation under its declared scheme when refMode is a RefKind, and checks the designated entity against the exact ValueKind; the designation must still satisfy the declared refMode and, when applicable, RefKind. A system performing retargeting changes a reference value in an assertion or description while preserving SlotKind, ValueKind, and RefKind. Neither designation operation by itself changes a world-side participant or makes the direct predicate true. The identified direct-relation definition supplies that predicate and identity rule; the current case must supply the relevant facts or constituting history. A system applies the direct obtaining test to those facts or constituting history, and a claim-bearing episteme records the warranted affirmative or negative claim, or leaves the factual question unresolved. Only when an explicit reliance judgment is current does `A.10` or the receiving evaluation separately record supported, refuted, or unresolved reliance. Type compatibility and assertion form do not by themselves establish obtaining or occurrence identity. Evidence supporting the case conclusion and any constitutive contribution are governed separately by the relevant evidence and direct-relation rules.
 
 #### A.6.5:4.4 - Distinguish predicate grammar from holonhood and agency
 
@@ -23430,7 +23414,7 @@ Predicate grammar also decides neither claim polarity nor reliance. An ordinary 
 
 A reusable predicate definition may be an ordinary A.6.0 `U.Signature` without being a `RelationSignature`. Its semantic parameters are not SlotSpecs unless an independently admitted direct relation kind has world-side participant meanings that a typed receiver must reuse. In particular, the `dependentContent` and `baseContent` parameters of `RuleContentBasisFindingDefinition@R7` are `NonemptyClaimContent` values (C.2.1:4.1.2) in a predicate declaration, identified by their interpreted claims and selected semantic relations. They do not name relation participants, `SlotKind`s, occurrence positions, or a new relation kind.
 
-A C.2.1 assertion of `derivedUsingRuleContent` or `evaluatedAgainstRuleContent` designates those exact values and its exact derivation or criterion-selection claim. A record or formula may represent the parameters; use C.29 when that representation is used as a declared mathematical lens. Table shape does not turn the parameters into SlotSpecs. If later work proposes a relation kind, it needs an independent A.6.RCD account of participant meanings, obtaining, applicability and any required occurrence identity. E.24 governs a proposed framework pattern, and E.24.UK applies when a new U-kind is proposed; the predicate declaration supplies none by implication.
+A C.2.1 assertion of `derivedUsingRuleContent` or `evaluatedAgainstRuleContent` designates those exact values and its exact derivation or criterion-selection claim. A record or formula may represent the parameters; use C.29 when that representation is used as a declared mathematical lens. Table shape does not turn the parameters into SlotSpecs. If later work proposes a relation kind, it needs an independent A.6.RCD account of participant meanings, obtaining, applicability and a direct occurrence-identity rule. E.24 governs a proposed framework pattern, and E.24.UK applies when a new U-kind is proposed; the predicate declaration supplies none by implication.
 
 #### A.6.5:4.5 - Use progressive elaboration
 
@@ -23490,8 +23474,8 @@ Keep recognizable source words such as **interface**, **port**, **endpoint**, **
 | Operation | Exact change | Relevant defining or constraining content |
 |---|---|---|
 | supply a designation under one SlotSpec in an assertion or description | carry a value or reference that designates an entity of the declared ValueKind, without thereby asserting participation | A.6.5 supplies designation typing; the direct-relation definition supplies the participant meaning and predicate |
-| replace a participant designation in an assertion or description | change the designation associated with one SlotSpec while preserving that SlotSpec | resolve the new designation, then let a system apply the direct obtaining test to the relevant facts or constituting history before recording assertion polarity and any separate reliance posture |
-| substitute a participant designation in typed reasoning | replace one designation with another while preserving the SlotSpec, resolving any reference under its declared scheme, and checking the designated entity against the ValueKind while the designation satisfies refMode and, when applicable, RefKind; designation substitution by itself does not replace a world-side participant or establish predicate truth | A.6.5; C.3/C.3.1 only when a local participant-kind or subkind use is current, and C.3.2 for that kind's membership judgment |
+| replace a participant designation in an assertion or description | change the designation associated with one SlotSpec while preserving that SlotSpec | identify the entity designated under the SlotSpec's refMode, then let a system apply the direct obtaining test to the relevant facts or constituting history before recording assertion polarity and any separate reliance posture |
+| substitute a participant designation in typed reasoning | replace one designation with another while preserving the SlotSpec, resolving the designation under its declared scheme when refMode is a RefKind, and checking the designated entity against the ValueKind while the designation satisfies refMode and, when applicable, RefKind; designation substitution by itself does not replace a world-side participant or establish predicate truth | A.6.5; C.3/C.3.1 only when a local participant-kind or subkind use is current, and C.3.2 for that kind's membership judgment |
 | retarget a reference | replace one reference value in an episteme with another of the same RefKind | the receiving episteme's definition states how it carries the designation; the effective reference scheme supplies the resolution rules and the RefKind declaration constrains the referent range; F.18 enters only when a durable name changes; world-side change is a separate claim |
 | resolve a reference | obtain the designated referent from a reference under its reference scheme | the effective reference scheme supplies the resolution rules and the direct RefKind pattern constrains the referent range; F.18 enters only when durable naming is current |
 | revise or re-edition a referent | change the referred object or episteme under its own continuity rules | direct object and edition patterns |
@@ -23545,19 +23529,19 @@ Only the direct relation selected by one of those concrete sentences receives a 
 
 #### A.6.5:5.5 - Formal reduced case
 
-The expression `3 < 5` is notation in a mathematical assertion. Its numerals, comparison sign and operand places are representation elements; they are not thereby SlotSpecs. An ordinary comparison can stop with its mathematical meaning. Suppose a later FPF use needs to substitute operands under one reusable typed lesser-than declaration. The direct-relation definition must then supply the entities denoted by the numerals, the lesser-number and greater-number participant meanings and the obtaining condition. A compatible `RelationSignature` may declare `LesserNumberSlot` and `GreaterNumberSlot`, with a correspondence from the representation's operand places and designations. Operand order remains local to the representation. The mathematical interpretation and applicable rule supply the comparison's grounds; notation shape alone supplies no FPF relation declaration. This receiving use needs typed substitution but no explicit occurrence identity, so the engineer stops there.
+The expression `3 < 5` is notation in a mathematical assertion. Its numerals, comparison sign and operand places are representation elements; they are not thereby SlotSpecs. An ordinary comparison can stop with its mathematical meaning. Suppose a later FPF use needs to substitute operands under one reusable typed lesser-than declaration. The direct-relation definition must then supply the entities denoted by the numerals, the lesser-number and greater-number participant meanings, obtaining condition and direct occurrence-identity rule. A compatible `RelationSignature` may declare `LesserNumberSlot` and `GreaterNumberSlot`, with a correspondence from the representation's operand places and designations. Operand order remains local to the representation. The mathematical interpretation and applicable rule supply the comparison's grounds; notation shape alone supplies no FPF relation declaration. This receiving use needs typed substitution but no explicit occurrence individuation, so the engineer stops there.
 
 ### A.6.5:6 - Bias-Annotation
 
 This pattern has a typed-declaration bias because it serves relation uses that depend on reusable participant typing. Progressive elaboration limits that bias: ordinary users stop at a readable relation sentence when no receiving use depends on SlotSpecs.
 
-It also has a logic-facing bias because predicates and typed declarations make substitution and comparison reviewable. Constructive FPF adds what that logical form alone cannot supply: grounded participants, a direct obtaining condition, and an occurrence identity rule when identity is needed.
+It also has a logic-facing bias because predicates and typed declarations make substitution and comparison reviewable. Constructive FPF adds what that logical form alone cannot supply: grounded participants and direct rules for obtaining and occurrence identity.
 
 A declaration episteme describes reusable relation semantics; a separate representation episteme may represent an assertion or relation-occurrence description. Neither episteme is the world-side relation occurrence by form. Publishing an unchanged episteme preserves its C.2.1 identity; any effect on a world-side occurrence follows that occurrence's direct rule.
 
 ### A.6.5:7 - Conformance Checklist
 
-1. The direct relation kind and the definition of its predicate, applicability, participant meanings, and any identity rule needed by the receiving use are named before SlotSpecs are declared.
+1. The direct relation kind and the definition of its predicate, applicability, participant meanings, and occurrence-identity rule are named before SlotSpecs are declared.
 2. Every participant meaning needed by reusable typed use has one complete `<SlotKind, ValueKind, refMode>` SlotSpec in the `RelationSignature`.
 3. Each SlotKind is local to the one exact `RelationSignature` that contains its SlotSpec.
 4. World-side relation prose names participant meanings and actual participants. Declaration prose uses `SlotSpec` for the complete declaration and `...Slot` for its declaration-local SlotKind. Receiving-episteme prose distinguishes a designation from its referent, using `...Ref` for the reference kind or value. For a field receiving relation semantics, apply the §4.2 declaration or representation-correspondence rule. Position and place remain ordinary representation words unless a specific declaration establishes a SlotSpec.
@@ -23571,20 +23555,18 @@ A declaration episteme describes reusable relation semantics; a separate represe
 12. The direct-relation definition supplies the obtaining predicate and occurrence-identity rule; current-case facts or constituting history supply the factual basis; a claim-bearing episteme records polarity; and evidence or reliance remains a separate judgement.
 13. A declaration, assertion, description, representation, or publication episteme does not create the world-side relation by form.
 14. Ordinary use can stop before signatures, explicit occurrence identity, or C.3 kind derivation when the receiving use depends on none of them; typed reuse, occurrence identity, and local-kind quantification are independent thresholds, and none is a prerequisite for another.
-15. Relation-declaration slot discipline remains a rule set; its pattern name does not admit another U-kind.
-16. A relation fact, an episteme claim, and a locally derived kind are handled by the patterns that define those respective objects.
-17. A SlotSpec declares one direct-relation participant meaning inside one exact `RelationSignature`. Method-description, operation, plan, work, evaluation, representation, card, schema, and record fields retain the kinds and declaration rules supplied by their defining patterns; a field that receives relation semantics uses the applicable §4.2 route.
-18. An A.15.3 planned-filling row may cite an exact SlotSpec, but the planned designation remains plan content and establishes neither an actual participant nor relation obtaining.
-19. Interface, port, endpoint, API, and signature language remains available for recognition. The text states what connects, crosses, or is transferred between which entities and recovers the direct-relation definition before declaring SlotSpecs; an unresolved case requires A.6.RSIR or an exact missing-relation result.
-20. When result wording leaves continuation or inception unresolved, determine whether the same entity continued or a new entity began. Recover a separately asserted delivery, acceptance or evaluation relation from its predicate and participants; clear wording needs no additional history inquiry. A catalogue or generic result kind cannot supply a missing relation.
+15. A relation fact, an episteme claim, and a locally derived kind are handled by the patterns that define those respective objects.
+16. A SlotSpec declares one direct-relation participant meaning inside one exact `RelationSignature`. Method-description, operation, plan, work, evaluation, representation, card, schema, and record fields retain the kinds and declaration rules supplied by their defining patterns; a field that receives relation semantics uses the applicable §4.2 route.
+17. An A.15.3 planned-filling row may cite an exact SlotSpec, but the planned designation remains plan content and establishes neither an actual participant nor relation obtaining.
+18. Interface, port, endpoint, API, and signature language remains available for recognition. The text states what connects, crosses, or is transferred between which entities and recovers the direct-relation definition before declaring SlotSpecs; an unresolved case requires A.6.RSIR or an exact missing-relation result.
+19. When result wording leaves continuation or inception unresolved, determine whether the same entity continued or a new entity began. Recover a separately asserted delivery, acceptance or evaluation relation from its predicate and participants; clear wording needs no additional history inquiry. A catalogue or generic result kind cannot supply a missing relation.
 
 ### A.6.5:8 - Common Failure Modes and Repairs
 
 | Failure | Why it matters | Repair |
 |---|---|---|
-| Rule set treated as a root kind | A rule set is promoted into an unsupported world-side entity. | Keep A.6.5 as the rule set that constrains `SlotSpec` declarations; apply E.24.UK to any future U-kind candidate. |
 | Generic `byRef` without an exact RefKind | A later use cannot tell what referent kind can be resolved. | Declare the exact RefKind, or expand the compact sketch next to its use. |
-| Reference treated as the relation participant | A storage or publication choice changes the claimed world-side ontology. | Keep the referent as participant; state refMode only for the receiving assertion or description episteme that carries the designation. |
+| Reference substituted for the referent required by the direct participant meaning | A storage or publication choice changes the claimed world-side participant. | Keep that referent as participant; state refMode for the designation carried by the receiving assertion or description episteme. |
 | One SlotSpec contains a ValueKind written as a list of unrelated alternatives | Different predicate semantics are hidden behind one participant meaning. | Recover the real common ValueKind when one exists; otherwise split the relation kind. |
 | One source word names a SlotKind, participant ValueKind, reference and field | A reader cannot tell what may be substituted, resolved or renamed. | Distinguish the declaration, designation and referent. For example, HolderSystemSlot is local to the declaration, Robot_7_Ref is an entity reference and Robot_7 is its System referent. Keep the source field name and state the applicable correspondence. |
 | Active grammar treated as proof of literal agency | A grammatical subject is assumed to be the acting System without grounds. | Recover the actor when the claim depends on literal action. Keep clear ordinary metonymy; use the defining patterns only for a remaining relation, Work, Method or transformation question. |
@@ -23631,7 +23613,7 @@ The predicate boundary prevents a second collapse. Natural language often verbal
 - `A.15.3` may cite an exact RelationSignature SlotSpec for a planned participant designation; A.15.2/A.15.3 define the planned claim, the direct-relation definition supplies the participant meaning and later actual-participation predicate, and A.6.5 supplies only SlotSpec declaration discipline. Operation arguments and results remain A.6.1 declarations.
 - `A.15.1` and `A.3.1` define the constructive holonhood and identity of Work and Methods; `A.3.4` defines the actual-bounded-change identity of transformations; `E.18` defines selected transformation-flow structures over those independently defined transformations and adjacent loci.
 - `A.1`, `A.2`, `A.2.1`, and `A.15` keep acting systems, exact local system-role kinds, system-role assignments, Methods, and performed Work distinct.
-- Use `A.2.4` for compact episteme evidence-use and status-use relation SlotSpecs, `A.10` for the full evidence-provenance path, and `F.10` for durable status semantics. A.6.5 does not duplicate those relations or make an episteme the holder system, assigned system-role kind, assignment occurrence, or assignment-state relation.
+- Use `A.2.4` for compact episteme evidence-use and status-use relation SlotSpecs, `A.10` for the full evidence-provenance path, and `F.10` for durable status semantics.
 - A named C.30 architecture-relation pattern supplies the rule for its relation. `A.6.M` repairs module-interface claims and specifications; it admits no general direct module relation. After A.6.RSIR recovery, a direct relation needs its own definition before A.6.5 declares its SlotSpecs.
 - `C.29` governs a declared mathematical-lens use of tuple, graph, database, or mathematical representations of a relation, assertion, signature, or occurrence description.
 - `E.10` supplies wording-use recovery, `E.24.UK` supplies the U-kind admission test, and `F.18` supplies designation guidance after the object is known.
@@ -23785,7 +23767,7 @@ Calibration, attribution, policy dependence, constructive grounding, and other c
 
 #### A.6.6:4.3 - Reusable declaration only for a named reuse
 
-Use the direct relation's A.6.0 `RelationSignature` only after its kind is admitted and a named receiving use needs reusable participant typing or declaration content. An observed second consumer is not required; a concrete anticipated use can justify the declaration. The signature states participant meanings, predicate, applicability and any needed occurrence-identity rule. A.6.5 SlotSpecs belong inside it; an ordinary one-case assertion may need none.
+Use the direct relation's A.6.0 `RelationSignature` only after its kind is admitted and a named receiving use needs reusable participant typing or declaration content. An observed second consumer is not required; a concrete anticipated use can justify the declaration. The signature restates the direct relation kind's participant meanings, predicate, applicability and occurrence-identity rule for reuse. A.6.5 SlotSpecs belong inside it; an ordinary one-case assertion may need no signature or explicit occurrence individuation.
 
 If no direct pattern supplies the relation kind, participants, or predicate, keep the exact local claim or return the A.6.RCD `missing-governor` result. Do not repair the gap by minting a generic `BaseRelation` kind or token, SlotSpecs, or a scoped-record type.
 
@@ -23795,7 +23777,7 @@ For a named receiving use that genuinely needs a `RelationSignature`, the direct
 
 - the dependent and base participant meanings and direction or symmetry;
 - the obtaining predicate and applicability;
-- the occurrence-identity rule when the receiving use needs that identity;
+- the occurrence-identity rule, without requiring a particular occurrence to be explicitly individuated;
 - admissible participant kinds and reference modes;
 - any scope, time, evidence, or cross-local condition that changes this predicate or the named reuse; and
 - the direct continuity or change rules, when that history is current.
@@ -23869,15 +23851,15 @@ When umbrella wording leaves the relation unclear, recover the direct meaning th
 | “This result bears on that claim” | **Evidence use** under A.2.4, with A.10 only when replayable provenance or reliance is needed | result or other evidence episteme and target claim, with the evidence-use direction defined by A.2.4 | exact evidence-use relation; producing Work, result binding, carrier, provenance, currentness, and reliance remain separate |
 | “This edge is grounded in construction” | **Constructive grounding** (`tv:groundedBy`) | dependent: WM edge; base: constructor trace (`Γ_m`) | trace pins, edition pins |
 | “This description is about X” | **Ordinary aboutness** under A.7/C.2.1 | description episteme and its exact EntityOfConcern X; aboutness alone does not establish a source-to-receiving construction | the source or describing relation required by the use |
-| “Construct a view of the same entity” | **Viewing** (`viewedVia`) under A.6.3 | separately identified source and receiving epistemes, the same exact EntityOfConcern, and the construction rule | viewing pins |
-| “Retarget a description to another entity” | **Retargeting** (`retargetedAlong`) under A.6.4 | separately identified source and receiving epistemes with different exact EntitiesOfConcern, the retargeting arrow `r`, and separate bounded-use assertion `q` | exact `r` and `q`, and a separate current-case judgement when that case is evaluated |
+| “Construct a view of the same entity” | **Viewing arrow** under A.6.3 | separately identified source and receiving epistemes, the same exact EntityOfConcern, and the construction rule | viewing pins |
+| “Retarget a description to another entity” | **Retargeting arrow** under A.6.4 | separately identified source and receiving epistemes with different exact EntitiesOfConcern, and the retargeting arrow `r` | exact `r`; a separate assertion `q` for a named receiving use, and a current-case judgement when that case is evaluated |
 | “Allowed only under policy P” | **Constraint / policy** (`constrainedBy`, `permittedUnder`) | dependent: work-step / publication item; base: policy/rule | policy pin, waiver/work ref |
 | “Property belongs to object” | **Attribution / aboutness** (`attributedTo`, `aboutEntity`, `characterises`) | dependent: property/abstraction; base: object | observation/derivation witnesses |
 | “This expression means … in this source” | **Source-local meaning lane** (F.0.1; F.17 only when a durable address or basis relation is needed) | local expression and local-sense claim | exact source passage and, when current, an obtaining basis relation |
 
 This table is illustrative. Each row keeps its own direct relation and governor; it is not a list of species of one universal base relation or record. Grammatical subject and object expose a sentence's direction but do not by themselves determine dependent/base allocation. Where the domain predicate or participant allocation is not supplied, recover it from the source or leave that local choice open; this guide does not define it. Ordinary aboutness and source-local meaning do not by themselves select a basedness or construction branch.
 
-*Note.* A.6.3 defines the viewing arrow. A.6.4 keeps the retargeting arrow `r`, bounded-use assertion `q`, and current-case judgement separate: `q`'s ClaimGraph contains the invariant, visible loss, named receiving use, conditions, and affirmative or negative polarity; the judgement compares exact facts with `q` and returns exactly `satisfies`, `fails`, or `cannot decide`. A `cannot decide` judgement names the missing fact and reopen condition. This table directs those construction cases to their own patterns; it defines no second operator, arrow, assertion, judgement, application, or Work.
+*Note.* A.6.3 defines the viewing arrow. A.6.4 distinguishes the retargeting arrow `r` from a bounded-use assertion `q` and a current-case judgement. When a named receiving use is claimed, `q`'s ClaimGraph contains that use, its invariant, visible loss, conditions, and affirmative or negative polarity. When a particular case is evaluated, the judgement compares its exact facts with `q` and returns exactly `satisfies`, `fails`, or `cannot decide`. A `cannot decide` judgement names the missing fact and reopen condition. This table directs those construction cases to their own patterns; it defines no second operator, arrow, assertion, judgement, application, or Work.
 
 #### A.6.6:4.7a - Support wording selection test
 
@@ -23925,7 +23907,7 @@ gammaTime          = interval[2025-09-01, 2026-03-01] 〉
 
 When a later decision relies on this assertion, identify the calibration-certificate episteme and its A.2.4 evidence-use relation to the assertion. Use A.10 when the decision needs a bounded-reliance judgment or the producing Work, operation result, carrier, provenance or currentness path. Distinguish changes by what actually changed:
 
-* New standard ⇒ **rebase** + **refreshWitnesses**.
+* New standard ⇒ **rebase**; establish the evidence-use relation required for the new assertion, reusing suitable witnesses or refreshing them when needed.
 * Wider applicability window ⇒ **retime** and likely **refreshWitnesses**.
 * Relation-kind change (“not calibration, just normalisation”) ⇒ **changeDirectRelationKind** is not an edit; mint a new assertion or declaration. Claim continuity with the prior episteme only when that history is needed and C.2.1:4.5's rule and case facts establish it.
 
@@ -23990,7 +23972,7 @@ An A.6.6 use conforms when the checks for its selected branch pass:
 | **Umbrella “anchored/attached/grounded” with no direct relation** | Hides relation kind and predicate | Name the participants, use the relation-specific verb, and apply its direct predicate |
 | **Perspective flip without recoverable participants** | Direction and typing become ambiguous | Keep the same participants and direction in both active and passive wording; add formal endpoint names only when reused |
 | **Work or carrier treated as evidence relation** | Collapses producing Work, result episteme, carrier, provenance, evidence use, and reliance | State the exact A.2.4 evidence-use relation; open A.10 only for the replayable provenance or reliance path |
-| **Unclear temporal applicability** | Current or latest leaves the intended time-dependent claim ambiguous | State the applicable interval or temporal rule, using explicit Γ_time when the governing use needs it. Check witness freshness separately. |
+| **Unclear temporal applicability** | Current or latest leaves the intended time-dependent claim ambiguous | State the applicable interval or temporal rule, using explicit Γ_time when the governing use needs it. Apply the evidence-use or reliance rule's freshness check when that use requires it. |
 | **Decision use without its actual basis** | A relied-on assertion cannot be checked | Cite the exact evidence-use, provenance, currentness, or assurance relations required by that decision; do not add a generic witness field or new document |
 | **Semantic meaning expressed as basedness** | Confuses source-local meaning with another relation | Recover the source-local claim under F.0.1 and add an F.17 cell or basis relation only when needed |
 | **Relation-kind change presented as an edit** | A semantic shift masquerades as continuity | State the new direct relation and use the applicable continuity rule when that history matters |
@@ -24064,7 +24046,7 @@ When that history is needed, explicit change classes distinguish rebase, retime,
 
 **Coordinates with A.14 and C.2.1.** Constructive grounding and empirical grounding retain their exact direct predicates and participants. Their assertion epistemes and evidence remain separate from the world-side relations.
 
-**Coordinates with A.6.3 and `A.6.4`.** A.6.3's viewing construction keeps the source and receiving epistemes distinct with the same exact EntityOfConcern. A.6.4 retargets between different exact EntitiesOfConcern; its retargeting arrow `r`, bounded-use assertion `q`, current-case judgement, operation application, and Work remain distinct. Ordinary aboutness alone selects neither construction. A.6.6 adds no second arrow or universal relative-to object.
+**Coordinates with A.6.3 and `A.6.4`.** A.6.3's viewing construction separately identifies the source and receiving endpoints with the same exact EntityOfConcern; the endpoints may identify the same episteme in identity viewing. A.6.4 retargets between different exact EntitiesOfConcern; its retargeting arrow `r`, bounded-use assertion `q`, current-case judgement, operation application, and Work remain distinct. Ordinary aboutness alone selects neither construction. A.6.6 adds no second arrow or universal relative-to object.
 
 **Coordinates with F.9 and ReferencePlane rules conditionally.** F.9 applies only to an obtaining Bridge between two exact F.17 cells and keeps its bounded-use claim separate. A ReferencePlane crossing uses its applicable plane relation. If both are current, state both; if only one is current, introduce no object from the other branch.
 
@@ -24084,13 +24066,13 @@ When that history is needed, explicit change classes distinguish rebase, retime,
 > **Status:** Stable.
 > **Normativity:** Normative [A] (Core).
 
-**Use this when.** Several distinct operation declarations must be used together under shared conditions. Select their exact contracts, cite the required specifications, and state the permitted operation order.
+**Use this when.** Several distinct mechanism declarations must be used together under shared conditions. Select their exact contracts and cite the required specifications. State a permitted operation order when joint use needs a protocol.
 
-**First useful result.** Each protocol step resolves to one declaration edition and one operation in that declaration. Two implementations of the same declaration do not become two members.
+**First useful result.** The distinct member declarations, their joint conditions and required specification references are recoverable. Each declared protocol step also resolves to one member declaration edition and one operation in that declaration. Two implementations of the same declaration do not become two members.
 
-**Not this pattern when.** Use A.6.1 for one operation declaration, A.3.1 for a way of doing, and A.15.2 for an ordinary plan or edition baseline. A suite is useful only when several declarations have joint conditions to express.
+**Not this pattern when.** Use A.6.1 for one reusable operation-family declaration, A.3.1 for a way of doing, and A.15.2 for an ordinary plan or edition baseline. A suite is useful only when several declarations have joint conditions to express.
 
-A `MechSuiteDescription` describes a finite set of distinct mechanism declaration contracts, their shared obligations, required specification references and permitted protocols. Two realizations of one contract remain one member. The description is distinct from a MechFamilyDescription and a publication Pack.
+A `MechSuiteDescription` describes a finite set of distinct mechanism declaration contracts, their shared obligations and required specification references, with any declared protocols and audit requirements. Two realizations of one contract remain one member. The description is distinct from a MechFamilyDescription and a publication Pack.
 
 **Plain-name.** mechanism suite description; mechanism suite passport.
 
@@ -24150,7 +24132,7 @@ The suite user needs one description that can:
    Suites must cite governing spec refs as pins, not duplicate their internals, otherwise multiple competing admissibility centers arise.
 
 4. **Transport and crossing visibility discipline.**
-   An asserted semantic correspondence needs its F.9 Bridge; a kind correspondence needs its C.3.3 basis; a plane relation retains its own defining rule. Expose the anchors required by each actual relation and receiving use. An independently governed E.18 crossing or A.21 gate retains its required bundle or gate evidence. Any applicable penalty routes to `R/R_eff` only; suites do not embed CL/Φ/Ψ/Φ_plane tables.
+   A claimed semantic correspondence between different local interpretation bases needs its obtaining F.9 Bridge; a kind correspondence needs its C.3.3 basis; a plane relation retains its own defining rule. Expose the anchors required by each actual relation and receiving use. An independently governed E.18 crossing or A.21 gate retains its required bundle or gate evidence. Any applicable penalty routes to `R/R_eff` only; suites do not embed CL/Φ/Ψ/Φ_plane tables.
 
 5. **Guard vs gate separation.**
    Mechanisms can output tri-state guard outcomes and explanations; **gate decisions** (including `block`) and `DecisionLog` remain gate-level (`OperationalGate(profile)`). A suite must not collapse these layers.
@@ -24170,8 +24152,8 @@ Declare the members and their shared conditions in a `MechSuiteDescription`:
 2. **Membership:** a finite set of distinct mechanism declarations.
 3. **Suite obligations:** shared invariants that every member (and any permitted composition of members) must respect.
 4. **Suite spec pins:** required citations/pins to governing spec refs and other “anchor” references.
-5. **Suite protocols:** allowed pipelines of use (permitted ordering and optional steps), expressed at the descriptive level.
-6. **Suite audit obligations:** required audit/pin visibility for downstream uses (UTS/Path pins, crossing pins, guard pins), expressed as required anchors (not run-time values).
+5. **Suite protocols, when needed:** allowed pipelines of use (permitted ordering and optional steps), expressed at the descriptive level.
+6. **Suite audit obligations, when needed by downstream use:** required audit/pin visibility (UTS/Path pins, crossing pins, guard pins), expressed as required anchors (not run-time values).
 7. **Notes:** optional explanations or boundaries needed to interpret or use the suite.
 
 A minimal canonical form:
@@ -24181,8 +24163,8 @@ MechSuiteId := Identifier  // PascalCase; stable citation handle. Versioning MAY
 
 SuiteObligation := declared suite-level obligation
 // Canonical reusable names (not exhaustive):
-//   bridge_only_crossings,
-//   two_bridge_rule_for_described_entity_change,
+//   semantic_correspondence_requirements,
+//   independent_correspondence_requirements,
 //   transport_declarative_only,
 //   penalties_route_to_r_eff_only,
 //   guard_decision_tristate(pass|degrade|abstain),
@@ -24194,8 +24176,8 @@ SuiteObligation := declared suite-level obligation
 //   no_silent_totalisation,
 //   no_thresholds_in_suite_core,
 //   crossing_visibility_required,
-//   planned_slot_filling_in_work_planning_only,
-//   finalize_launch_values_in_work_enactment_only,
+//   planned_filling_in_workplan,
+//   actual_launch_facts_and_witness,
 //   implementation_export_discipline_when_cited
 
 SuiteObligations := { SuiteObligation[*] } // clause set; duplicates-free.
@@ -24214,7 +24196,7 @@ MechSuiteDescription := ⟨
 **Norms.**
 
 * **Suite identifier.**
-  `mech_suite_id` MUST be present and stable: it is the citation handle for downstream planning and `U.Work.Audit`.
+  `mech_suite_id` MUST be present and stable: it is the citation handle for downstream planning and audit.
 
 **Well-formedness constraints (admissibility; non-deontic).**
 
@@ -24248,10 +24230,10 @@ A MechSuiteDescription may state additional shared obligations within the member
 
 **Obligation meanings (normative).**
 
-1. **`bridge_only_crossings`.**
+1. **`semantic_correspondence_requirements`.**
    For an actual semantic correspondence between distinct recovered local senses, recover the F.17 endpoints and an obtaining F.9 Bridge, then the bounded-use and reliance claims required for this use. A suite creates none of those facts. A changed entity, reference scheme, plane or notation alone establishes no semantic crossing under A.6.4.
 
-   1.1. **`two_bridge_rule_for_described_entity_change`.**
+   1.1. **`independent_correspondence_requirements`.**
 
    * When both an F.9 semantic correspondence and a C.3.3 kind correspondence are claimed, establish each under its direct rule. Any separately claimed plane relation keeps its own governor. Changing the EntityOfConcern alone creates neither relation. Retain the separate use conditions and applicable penalty policy; do not invent a second Bridge from the change label.
 
@@ -24284,11 +24266,11 @@ A MechSuiteDescription may state additional shared obligations within the member
    Apply E.18 only for an independently selected TransformationFlowStructure and its actual governed crossing; apply A.21 for a current work-entry gate. An edition, entity or notation change alone supplies neither that crossing nor a semantic Bridge.
    Suites may require `CrossingBundleRef` / UTS / Path pins and policy-id pins as anchors, and MUST NOT embed CL/Φ/Ψ/Φ_plane tables.
 
-10. **`planned_slot_filling_in_work_planning_only`.**
-    Well-formedness constraint: any planned slot filling used as a baseline for suite use is authored in `WorkPlanning` as a planned baseline (no run-time slot instances; no launch values).
+10. **`planned_filling_in_workplan`.**
+    Any planned filling used as a baseline for suite use is content of an A.15.2 `U.WorkPlan`; A.15.3 applies only to independently declared members. These are intended values under the plan's conditions, preserved separately from later actual-use facts.
 
-11. **`finalize_launch_values_in_work_enactment_only`.**
-   Well-formedness constraint: `FinalizeLaunchValues` (and any witness of actual launch values) occurs only in `U.WorkEnactment`; neither the suite nor any planned-baseline WorkPlanning plan item is a place for launch values.
+11. **`actual_launch_facts_and_witness`.**
+   For an actual launch claim under E.18:5.6, establish one independently admitted A.15.1 Work occurrence and the actual launch values through independently obtaining direct relations or exact A.6.1 application bindings. A separate `FinalizeLaunchValues` episteme may then designate that occurrence and those facts. A plan or suite requirement supplies none of those actual facts by itself.
 
 #### A.6.7:4.3 - SuiteSpecPins
 
@@ -24308,7 +24290,7 @@ SuiteSpecPins := ⟨
 * If the suite is admissibility-gated for characterization, `CNSpecRef` and `CGSpecRef` MUST be required (as references/pins).
 * Spec pins are citations and anchors. They do not replace the underlying `…Spec` objects.
 * A suite may require an edition/reference baseline in ordinary A.15.2 WorkPlan content. Address it through the exact plan and its local content locator; it supplies no launch value or gate decision.
-* Use A.15.3 typed planned filling only when an existing declaration member independently supplies the position meaning, designation, cardinality and actual-use predicate. A suite Description field is not a SlotSpec or operation argument merely because a plan names it. Missing planned information can remain unknown in the plan; a missing governor requires recovery or definition of that member before typed filling. Actual launch bindings and any FinalizeLaunchValues witness remain with actual enactment.
+* Use A.15.3 typed planned filling only when an existing declaration member independently supplies the position meaning, designation, cardinality and actual-use predicate. A suite Description field is not a SlotSpec or operation argument merely because a plan names it. Missing planned information can remain unknown in the plan; a missing governor requires recovery or definition of that member before typed filling. Actual application bindings retain their A.6.1 predicates; Work admission is additionally needed when the claim consumes a dated Work occurrence. An actual launch claim and any separate `FinalizeLaunchValues` witness follow E.18:5.6.
 
 #### A.6.7:4.4 - SuiteProtocols
 
@@ -24400,13 +24382,13 @@ CHRMechanismFamily : MechFamilyDescription := { UNM, UINDM, USCM, ... }
 
 This is a level error: `MechFamilyDescription` is reserved for realizations of a single mechanism declaration.
 
-**Example 3 (non-conformant).** Turning a suite into a hidden gate:
+**Example 3 (non-conformant).** Conflating suite conditions with decisions, governing rules or relation facts:
 
 * The suite declares `GateDecision` values or embeds a `DecisionLog`.
 * The suite defines acceptance thresholds (“pass score ≥ 0.7”) as part of suite obligations.
 * The suite embeds conversion or penalty tables, invents relation facts from a graph label, or treats referenced transport pins as an applied conversion or gate decision.
 
-All violate the separation between mechanism/suite descriptions and gate-level operational control.
+Gate decisions remain at the gate; acceptance clauses, task signatures or gate profiles state thresholds; and the applicable specifications, policies and direct predicates govern conversions, penalties and relation facts. A suite states the requirements on their use.
 
 ### A.6.7:5 - Archetypal Grounding
 
@@ -24459,7 +24441,7 @@ A `MechSuiteDescription` is conformant iff all applicable items hold:
 
 **CC‑A.6.7‑14 (Protocol closure & explicitness).** Each step resolves to one member declaration edition and one operation designator in that declaration (WF‑MS‑2). The operation's argument, result, law and admission meanings are recoverable. No unresolved edition choice, implicit operation or implicit crossing can supply that resolution.
 
-**CC‑A.6.7‑15 (P2W split preserved when applicable).** If the suite requires a planned-baseline pin, that baseline MUST be a `WorkPlanning` plan item and MUST NOT contain launch values or `FinalizeLaunchValues` witnesses; such witnesses remain `U.WorkEnactment`-only.
+**CC‑A.6.7‑15 (P2W split preserved when applicable).** If the suite requires a planned-baseline pin, that baseline MUST be content of an A.15.2 `U.WorkPlan`. Preserve its intended values and references. Actual launch values require independently established facts under E.18:5.6; any `FinalizeLaunchValues` witness remains a separate episteme.
 
 ### A.6.7:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -24505,7 +24487,7 @@ Characterization and admissibility-gated selection pipelines are unified by:
 * shared guard semantics (tri-state, no coercion),
 * and explicit protocol constraints (allowed pipelines).
 
-Encoding this unity as “one mechanism” or “one family” forces false commonality and invites hidden semantics. A dedicated **suite descriptor** preserves modularity and keeps the level separation clean.
+A suite descriptor keeps distinct contracts and their joint conditions explicit. Shared conditions alone establish neither one A.6.1 operation-family declaration nor realizations of one contract; assess any separately proposed mechanism declaration under A.6.1.
 
 ### A.6.7:11 - SoTA-Echoing
 
@@ -36938,7 +36920,7 @@ This pattern applies when a workflow (especially in Part G) needs lawful charact
 
 ### A.19.CHR:4 - Solution
 
-Select the six declarations, cite one CN-Spec and CG-Spec baseline, and state the protocol under §§4.2–4.5. Check the arguments and result of each used operation against that baseline. Record planned editions in A.15.2 when a P2W path is involved; add A.15.3 typed filling only for an independently declared position. Actual launch values and any `FinalizeLaunchValues` witness belong to enactment.
+Select the six declarations, cite one CN-Spec and CG-Spec baseline, and state the protocol under §§4.2–4.5. Check the arguments and result of each used operation against that baseline. Record planned editions in A.15.2 when a P2W path is involved; add A.15.3 typed filling only for an independently declared position. For an actual launch claim, establish the Work occurrence and its launch facts under E.18:5.6; any `FinalizeLaunchValues` witness is a separate episteme about those facts.
 
 The suite contains membership, shared obligations, references and permitted protocols. It supplies no operation result or gate decision.
 
@@ -37056,8 +37038,8 @@ CHRMechanismSuiteDescription.mechanisms :=
 
 `CHRMechanismSuiteDescription.suite_obligations` MUST be written using the **canonical obligation vocabulary** from A.6.7:4.2 and MUST include the following clauses (duplicates-free set semantics; order carries no meaning):
 
-`{ bridge_only_crossings,
-   two_bridge_rule_for_described_entity_change,
+`{ semantic_correspondence_requirements,
+   independent_correspondence_requirements,
    transport_declarative_only,
    penalties_route_to_r_eff_only,
    guard_decision_tristate(pass|degrade|abstain),
@@ -37069,17 +37051,17 @@ CHRMechanismSuiteDescription.mechanisms :=
    no_silent_totalisation,
    no_thresholds_in_suite_core,
    crossing_visibility_required,
-   planned_slot_filling_in_work_planning_only,
-   finalize_launch_values_in_work_enactment_only,
+   planned_filling_in_workplan,
+   actual_launch_facts_and_witness,
    implementation_export_discipline_when_cited }`.
 
 ##### A.19.CHR:4.3.1 - Crossings, visibility, and penalties
 
-* **`bridge_only_crossings`:** a semantic correspondence between distinct recovered local senses requires the obtaining F.9 Bridge and the bounded-use/reliance basis consumed by this use.
-* **`two_bridge_rule_for_described_entity_change`:** a C.3.3 kind correspondence retains its own endpoints, obtaining and receiving-use conditions. If an F.9 correspondence is also used, establish it independently. EntityOfConcern change alone supplies neither relation. Plane-only claims stay under their direct governor.
+* **`semantic_correspondence_requirements`:** for a semantic correspondence between different local interpretation bases, recover the exact F.17 endpoint cells, the obtaining F.9 Bridge, and the bounded-use/reliance basis required for this use.
+* **`independent_correspondence_requirements`:** a C.3.3 kind correspondence retains its own endpoints, obtaining and receiving-use conditions. If an F.9 correspondence is also used, establish it independently. EntityOfConcern change alone supplies neither relation. Plane-only claims stay under their direct governor.
 * **`transport_declarative_only`:** the suite does not embed CL/Φ/Ψ/Φ_plane conversion or penalty tables. It states the refs, pins and anchors consumed by its obligation; applicable rules and E.18 crossings or gate decisions remain with their owners. Distinct directly governed relation kinds may participate in the selected structure. A graph label or suite obligation supplies neither an obtaining relation nor a hidden conversion, penalty or gate decision.
 * **`penalties_route_to_r_eff_only`:** CL/Φ/Ψ/Φ_plane penalties route to `R/R_eff` only; `F/G` are invariant under penalty routing.
-* **`crossing_visibility_required`:** an actual E.18 crossing in an independently selected TransformationFlowStructure retains its required CrossingBundle; an A.21 work-entry gate retains its applicable gate anchors. A changed edition pin triggers the recheck required by its receiving use, but does not itself create a crossing, Bridge or gate.
+* **`crossing_visibility_required`:** an actual E.18 crossing in an independently selected TransformationFlowStructure retains any CrossingBundle required for a named downstream use of durable crossing evidence under E.18:5.1; an A.21 work-entry gate retains its applicable gate anchors. A changed edition pin triggers the recheck required by its receiving use, but does not itself create a crossing, Bridge or gate.
 
 ##### A.19.CHR:4.3.2 - Guards and gate separation
 
@@ -37098,8 +37080,8 @@ CHRMechanismSuiteDescription.mechanisms :=
 ##### A.19.CHR:4.3.4 - P2W discipline
 
 * **Edition/reference baselines use A.15.2 WorkPlan content. Typed planned filling uses A.15.3 only for independently declared positions.**
-* **FinalizeLaunchValues in WorkEnactment only.**
-* Suite and plan objects MUST NOT contain launch‑value witnesses.
+* **Actual launch facts.** Under E.18:5.6, establish an independently admitted A.15.1 Work occurrence and the obtaining direct relations or exact A.6.1 application bindings that establish its launch values.
+* A separate `FinalizeLaunchValues` episteme may designate that Work occurrence and those facts. Preserve the planned baseline; neither the suite requirement nor a planned value establishes actual launch facts.
 
 ##### A.19.CHR:4.3.5 - Thresholds and defaults
 
@@ -37200,8 +37182,8 @@ CHRMechanismSuiteDescription := ⟨
                           ULSAM.IntensionRef, CPM.IntensionRef, SelectorMechanism.IntensionRef],
 
   suite_obligations    : SuiteObligations {
-                          bridge_only_crossings,
-                          two_bridge_rule_for_described_entity_change,
+                          semantic_correspondence_requirements,
+                          independent_correspondence_requirements,
                           transport_declarative_only,
                           penalties_route_to_r_eff_only,
                           guard_decision_tristate(pass|degrade|abstain),
@@ -37213,8 +37195,8 @@ CHRMechanismSuiteDescription := ⟨
                           no_silent_scalarisation_of_partial_orders,
                           no_silent_totalisation,
                           crossing_visibility_required,
-                          planned_slot_filling_in_work_planning_only,
-                          finalize_launch_values_in_work_enactment_only,
+                          planned_filling_in_workplan,
+                          actual_launch_facts_and_witness,
                           implementation_export_discipline_when_cited
                         },
 
@@ -37239,7 +37221,7 @@ Expected `USM.CompareGuard` or `USM.LaunchGuard` pins identify their gate owner 
 
 For an A.15.3 typed filling, cite the exact declaration edition and its independently declared argument or relation position. `target_slot_bearing_description_ref` cannot point to the suite merely because the suite lists a CN-Spec field. Reuse the position's actual meaning, designation and binding rules. In the UNM `apply` case, planning CN-Spec use first requires the actual selected operation's CN-Spec argument declaration; the suite's own citation is not that argument.
 
-The baseline and typed plan contain planned values and references only. Actual launch values, `FinalizeLaunchValues`, actual bindings, `GateDecision` and `DecisionLog` retain their enactment or gate governors.
+Preserve the cited baseline and its intended values. Actual operation applications and bindings follow A.6.1; a claimed Work occurrence additionally requires A.15.1 admission. E.18:5.6 governs actual launch facts and any separate `FinalizeLaunchValues` witness; `GateDecision` and `DecisionLog` retain their gate governor.
 
 #### A.19.CHR:4.8 - Examples
 
@@ -37329,7 +37311,7 @@ A CHR mechanism-suite publication set is conformant to **A.19.CHR** iff all appl
 A conforming `CHRMechanismSuiteDescription` SHALL be a `MechSuiteDescription` instance and SHALL NOT be encoded as a `MechFamilyDescription`.
 
 **CC‑A67CHR‑1a (Stable citation handle).**
-A conforming `CHRMechanismSuiteDescription` SHALL include a stable `mech_suite_id` suitable for downstream planning and `U.Work.Audit` citation.
+A conforming `CHRMechanismSuiteDescription` SHALL include a stable `mech_suite_id` suitable for downstream planning and audit citation.
 
 **CC‑A67CHR‑2 (Canonical membership).**
 A conforming `CHRMechanismSuiteDescription` SHALL enumerate exactly the six CHR mechanisms (UNM, UINDM, USCM, ULSAM, CPM, SelectorMechanism) as `MechanismDeclarationRef`s.
@@ -107773,7 +107755,7 @@ Use this vocabulary when a publication face, rendering, generated text, comparis
 | `source-relation-absent` | The needed source relation is known absent from the current publication-facing unit and available source set for the stated use. Block that use; do not infer that the underlying world claim is false merely from this absence. |
 | `source-available` | The cited source can be recovered or inspected for the current use. This does not yet show that the rendering used it correctly. |
 | `source-retrieved` | The cited source has actually been recovered for the current check. This still does not show that it was used correctly or makes the local claim recoverable. |
-| `source-used` | The named source, rather than only similar background, was actually used in the generation, rewrite, rendering, comparison, work, or reliance linked by the inspectable source relation. If that relation is unavailable, treat the unit as pointer-only or orientation-only until a source relation is recovered. |
+| `source-used` | The named source, rather than only similar background, was actually used in the generation, rewrite, rendering, comparison, work, or reliance linked by the inspectable source relation. If that relation is unavailable, leave the corresponding source-use claim unresolved and block only use that requires it. Retain independently established claim support and uses whose own requirements are satisfied. |
 | `source-faithful` | The publication-facing unit stays within the source claim relation for the stated use; omissions, declared source-loss modes, and additions are visible enough to inspect. |
 | `claim-recoverable-from-source` | The local claim is recoverable from the source, declared correspondence relation, or required typed project-side FPF kind and reference named by value for the stated use. |
 | `claim-not-recoverable-from-source` | The local claim is not recoverable from the source relation currently available. |
@@ -126655,13 +126637,13 @@ For each Part G invariant already defined elsewhere, `G.Core`:
 | Obligation handle | Canonical governing definition(s) | Part‑G note |
 | --- | --- | --- |
 | `transport_declarative_only` + `cg_spec_cite_required_for_numeric_ops` | A.6.7 + A.19.CN (CN‑Spec) + G.0 (CG‑Spec) + A.19.CHR | Cite CN‑Spec and CG‑Spec through *pins* rather than copying their definitions. No embedded/shadow governing specs. |
-| `bridge_only_crossings` | A.6.7 + F.9 + C.3.3 + E.18 | A claimed semantic correspondence uses F.9; a kind correspondence uses C.3.3; a plane relation keeps its own predicate. The receiving use, reliance and any authorization remain separate. G.7 calibrates these claims; no CL minimum grants the use. |
-| `crossing_visibility_required` | E.18 (CrossingBundle) + A.6.7 | Crossing visibility is a published **CrossingBundle**. `edition_key` changes on **crossing‑relevant artefacts** (Bridge/CL surfaces, BridgeCards, CrossingBundle registries, and UTS rows for crossing artefacts) are treated as crossing-bundle edits. If the required CrossingBundle is missing/non‑conformant, downstream consumers MUST **abstain** from cross-Context or cross-plane reuse (no silent crossings). |
-| `two_bridge_rule_for_described_entity_change` | A.6.7 + C.3.3 | When a use actually relies on correspondence between distinct kinds, cite the obtaining KindBridge and separately check receiving admissibility and classification. A changed entity alone establishes no kind or semantic Bridge. |
+| `semantic_correspondence_requirements` | A.6.7 + F.9 + C.3.3 + E.18 | A claimed semantic correspondence between different local interpretation bases uses F.9; a kind correspondence uses C.3.3; a plane relation keeps its own predicate. The receiving use, reliance and any authorization remain separate. G.7 calibrates these claims; no CL minimum grants the use. |
+| `crossing_visibility_required` | E.18 (CrossingBundle) + A.6.7 | When a named downstream use requires durable E.18 crossing evidence, publish the required **CrossingBundle**. `edition_key` changes on **crossing‑relevant artefacts** (Bridge/CL surfaces, BridgeCards, CrossingBundle registries, and UTS rows for crossing artefacts) are treated as crossing-bundle edits. If the bundle required by that use is missing/non‑conformant, downstream consumers MUST **abstain** from that cross-Context or cross-plane use (no silent crossings). |
+| `independent_correspondence_requirements` | A.6.7 + C.3.3 | When a use actually relies on correspondence between distinct kinds, cite the obtaining KindBridge and separately check receiving admissibility and classification. A changed entity alone establishes no kind or semantic Bridge. |
 | `guard_decision_tristate(pass|degrade|abstain)` + `unknown_never_coerces_to_pass` | A.6.7 + C.23 | `GuardDecision := {pass|degrade|abstain}` only; `unknown` maps to `degrade`/`abstain` via explicit SoS‑LOG branch/policy pins. |
 | `penalties_route_to_r_eff_only` | A.6.7 | Penalties affect the **R lane (R_eff)** only; **F/G invariants** must not be altered by penalties. |
 | `no_silent_scalarisation_of_partial_orders` + `no_silent_totalisation` | A.6.7 | Partial-order results stay set‑valued; no silent scalar ranks or “helpful” totalisation. |
-| `planned_slot_filling_in_work_planning_only` + `finalize_launch_values_in_work_enactment_only` + `gate_decision_separation` | A.15.2 + A.15.3 + A.19.CHR + A.6.7 | Edition/reference baselines use A.15.2; A.15.3 applies only to independently declared positions. Planning remains WorkPlanning‑only; launch/finalization values are WorkEnactment‑only; planning does not govern GateDecision/DecisionLog semantics. |
+| `planned_filling_in_workplan` + `actual_launch_facts_and_witness` + `gate_decision_separation` | A.15.2 + A.15.3 + A.19.CHR + A.6.7 + E.18:5.6 | Edition/reference baselines are A.15.2 WorkPlan content; A.15.3 applies only to independently declared members. Preserve the planned values. An actual launch claim requires independently admitted Work and obtaining direct relations or exact application bindings; any FinalizeLaunchValues witness is a separate episteme. GateDecision/DecisionLog semantics remain with their gate governor. |
 | `DefaultGoverningDefinitionIndex.single_governing_definition_per_DefaultId` | this pattern | Any default names exactly one governing definition; `G.Core.DefaultGoverningDefinitionIndex` is an index, not a second spec. |
 
 This pattern also governs four pieces of Part‑G‑wide infrastructure that are **not** already governed elsewhere:
