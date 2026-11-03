@@ -236,11 +236,11 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | A.19.CN | **CN-frame: Specify and Maintain Comparability and Normalization** | Stable | *Keywords:* CN-frame, CN-Spec, chart, comparability modes, normalization refs, indicator policy refs, Γ-fold governance, maintained editions, semantic relations, separate use claims, loss evidence, optional CL, WLNK discipline, conformance checklist, SCR/RSCR harness, RSG admission hooks. *Queries:* "What is a CN-frame in FPF?", "How does CN-Spec govern comparability and normalization by reference?", "Which correspondence and reliance grounds does this cross-local reuse need?", "What are the conformance and regression checks for CN-frames?" | **Builds on:** A.19. **Coordinates with:** A.6.1 (mechanism operation contracts), C.16 (evidence/backing), F.9 (semantic relations and bounded-use claims), G.0 (CG-Spec admission conditions). |
 | A.19.CHR | **CHRMechanismSuite: Shared Rules for Characterization and Selection** | Stable | *Keywords:* CHR suite, characterization core, CN-Spec, CG-Spec, admissibility conditions, suite obligations, set-return selection, tri-state guard decision, crossing visibility, applicable correspondence and crossing conditions, model-bound assurance penalties, planned baseline, `SlotFillingsPlanItem`, P2W seam, no hidden scalarization, no hidden thresholds. *Queries:* "What is CHRMechanismSuite in FPF?", "How do CHR mechanisms cite CN-Spec/CG-Spec?", "How do I record the planned baseline, and when is typed filling needed?", "How to keep UNM/UINDM/ULSAM explicit (no hidden tails)?" | **Builds on:** A.6.7, A.15.2, A.15.3, A.6.1, A.19, G.0, E.18, E.10, E.19. **Coordinates with:** A.21, G.5, G.10, C.23. **Used by:** Part G universalization; CHR mechanism stacks. |
 | A.19.UNM | **Normalize Coordinate Values under Declared Invariants (UNM)** | Stable | *Keywords:* normalization, `CV→NCV`, `≡_UNM`, `NormalizationMethodId`, `NormalizationMethodInstanceId`, `NormalizationInvariant[*]`, `NormalizationFixSpec`, validity window (no implicit “latest”), fail-closed tri-state guard (`pass|degrade|abstain`), `CN-Spec.normalization`, `CN-Spec.comparability.mode`, declared bearer, comparison basis, applicable scope/window, independently obtaining semantic or plane relation, separate receiving use. *Queries:* "What is UNM in FPF?", "How does FPF normalize coordinate values (CV→NCV)?", "What is ≡_UNM and why quotients/fix matter?", "How does CN-Spec.comparability.mode route normalization-based comparability?" | **Builds on:** A.19.CN, A.6.1, A.19.CHR, A.17–A.18, C.16, G.0, E.18, E.20, F.18. **Used by:** A.19.CHR, A.19.USCM, A.19.CPM, A.19.SelectorMechanism. **Coordinates with:** G.2, B.3. |
-| A.19.UINDM | **Indicatorization (UINDM): Select Indicators Under a Declared Policy** | Stable | *Keywords:* indicatorization, indicator set, `IndicatorChoicePolicy`, `CN-Spec.indicator_policy`, CHR suite stage `indicatorize`, tri-state admissibility (`pass|degrade|abstain`), evidence-gated indicator choice, Bridge+CL transport visibility, “no NCV⇒indicator”. *Queries:* "What is UINDM in FPF?", "How does FPF choose indicators?", "Difference between measurable characteristic and indicator", "How to make indicator choice auditable?" | **Builds on:** A.19.CN, A.6.1, A.6.5, A.19.CHR. **Used by:** A.19.CHR. **Coordinates with:** G.0, G.2, E.20, F.18. |
+| A.19.UINDM | **Indicatorization (UINDM): Select Indicators Under a Declared Policy** | Stable | *Keywords:* indicatorization, indicator set, `IndicatorChoicePolicy`, `CN-Spec.indicator_policy`, CHR suite stage `indicatorize`, tri-state admissibility (`pass|degrade|abstain`), evidence-gated indicator choice, Bridge+CL transport visibility, “no NCV⇒indicator”. *Queries:* "What is UINDM in FPF?", "How does FPF choose indicators?", "Difference between measurable characteristic and indicator", "How to make indicator choice auditable?" | **Builds on:** A.19.CN, A.6.1, A.19.CHR. **Used by:** A.19.CHR. **Coordinates with:** G.0, G.2, E.20, F.18. |
 | A.19.USCM | **Unified Scoring Mechanism (USCM)** | Stable | *Keywords:* scoring, score profile, `ScoringMethodDescription`, ScaleComplianceProfile (SCP), CSLC-lawful transforms, `CG-Spec.MinimalEvidence`, tri-state admissibility (`pass|degrade|abstain`), “no implicit UNM”, vector scores by default, CHR suite stage `score`. *Queries:* "What is USCM in FPF?", "How does FPF do lawful scoring (SCP-first)?", "How are scoring methods pinned and audited in CHR?", "How does USCM handle unknowns and evidence?" | **Builds on:** A.19.CN, A.6.1, A.19.CHR, G.0, A.18, C.16. **Used by:** A.19.CHR. **Coordinates with:** A.19.UNM, A.19.ULSAM, A.19.CPM, A.19.SelectorMechanism, G.2, E.20, F.18. |
 | A.19.ULSAM | **Unified Lawful Scale Aggregation Mechanism (ULSAM)** | Stable | *Keywords:* lawful aggregation, scale-lawful fold, `fold_Γ?`, `ΓFoldRef`, `CG-Spec.Γ_fold`, `CG-Spec.SCP`, `MinimalEvidence`, tri-state guard (`pass|degrade|abstain`), contributor set, no hidden aggregation, model-qualified assurance penalties. *Queries:* "What is ULSAM in FPF?", "How does FPF do lawful aggregation / Γ-fold?", "Why is fold_Γ a separate CHR stage?", "How to avoid ordinal averaging in FPF?" | **Builds on:** A.19.CN, G.0, A.18, A.6.1, A.19.CHR, B.3. **Used by:** A.19.CHR. **Coordinates with:** G.2, E.20, F.18. |
 | A.19.CPM | **Compare Admitted Profiles under a Declared Comparator (CPM)** | Stable | *Keywords:* comparison, comparator, `ComparatorSpecRef`, `ComparatorSet`, set-valued comparison outcome, partial order, tri-state admissibility (`pass|degrade|abstain`), `MinimalEvidence`, “no hidden scalarization/totalization”, obtaining F.9 Bridge and separate bounded-use claim when needed, applicable ReferencePlane relation, assurance only for a named assurance claim. *Queries:* "What is CPM in FPF?", "How do I compare two admitted profiles under a declared comparator?", "Why comparison outputs are set-valued?", "How does CPM handle unknown evidence?" | **Builds on:** A.19.CN, A.6.1, A.19.CHR, G.0, A.18. **Used by:** A.19.CHR. **Coordinates with:** A.19.UNM, A.19.USCM, A.19.ULSAM, A.19.SelectorMechanism, G.2, G.5, G.9, E.20, F.18. |
-| A.19.SelectorMechanism | **Unified Selection Kernel (SelectorMechanism)** | Stable | *Keywords:* selection kernel, SelectorMechanism, selected candidate set, explicit criteria, finite basis of binary CPM applications, required comparison coverage, ComparisonResultSlot, SelectEligibility, pass/degrade/abstain. *Queries:* "How do I select a candidate set from already established comparisons?", "Which comparisons must be available for this selection?", "When may missing evidence permit a reduced set, and when must selection abstain?" | **Builds on:** A.6.1, A.6.5, A.19.CHR, A.19.CN, G.0, G.5, C.22. **Used by:** A.19.CHR, G.5, E.18. **Coordinates with:** A.19.USCM, A.19.ULSAM, A.19.CPM (comparison stage). |
+| A.19.SelectorMechanism | **Unified Selection Kernel (SelectorMechanism)** | Stable | *Keywords:* selection kernel, SelectorMechanism, selected candidate set, explicit criteria, finite basis of binary CPM applications, required comparison coverage, ComparisonResultSlot, SelectEligibility, pass/degrade/abstain. *Queries:* "How do I select a candidate set from already established comparisons?", "Which comparisons must be available for this selection?", "When may missing evidence permit a reduced set, and when must selection abstain?" | **Builds on:** A.6.0, A.6.1, A.19.CHR, A.19.CN, G.0, G.5, C.22. **Used by:** A.19.CHR, G.5, E.18. **Coordinates with:** A.19.USCM, A.19.ULSAM, A.19.CPM (comparison stage). |
 | A.20 | **Constraint Validity for Transformation Steps** | Stable | Tests one transformation, operation application, or A.6.4 bounded-use proposition against one applicable internal constraint for one case and window, returning an exact `ConstraintValidityResult`. Applicability, `notRun`, `satisfied`, `violated`, `unknown`, and `error` remain distinct; a gate, path, publication, refresh, assurance, or Work is a separate result. *Queries:* "Which constraint applies to this subject and case?", "What did the test return?", "Which later gate or assurance use may consume that result?". | **Builds on:** E.18 for placement, A.6.1 and E.20 for operation or mechanism content, A.6.4 for a retargeting-use proposition, and C.2.1 for result-episteme identity. **Coordinates with:** A.21, E.17, G.11, C.27, A.10, B.3, A.15, and F.9 only for a separately claimed semantic correspondence. |
 | A.21 | **Gate Decisions from Independent Check Results** | Stable | Applies one named gate profile rule to every required independently defined check result for one bounded action or transition. It preserves each source result, maps each under that rule, and lets the worst mapped value determine `abstain`, `pass`, `degrade`, or `block`; a gate decision is not readiness, a path, Work, or publication. *Queries:* "Which action is being decided?", "Which profile rule and required check results apply?", "How does each result map and what does the worst value require?". | **Builds on:** independently defined check results and the direct pattern that defines each check; A.20 supplies internal-constraint results. **Coordinates with:** E.18, A.15.5, A.10, B.3, A.2, C.3.2, A.2.1, F.6, A.2.6, F.9, F.17, E.17, G.6, G.11, and F.19. |
 | A.22 | **Structure and Structural Views (STRUCT-CAL)** | Stable | Guides a practitioner to select one exact non-agentive organization among independently identified constituents and obtaining relations under applied constraints for a named use. Keeps that structure distinct from the selecting system or practitioner, descriptions, views, graphs, decisions, and mathematical representations. *Queries:* "Which organization is selected for this named use?", "Which exact constituents, obtaining relations, and applied constraints identify it?", "What remains outside the structure, and when must the use stop?" | **Builds on:** A.1, C.13, C.2.1, A.6.REL, A.6.0, A.6.5, A.3.1, A.6.1, A.15.1, A.6.P, A.7, A.6.3, A.14, C.16, C.29, E.10, E.17.0, E.24. **Coordinates with:** A.1.1, A.2.6, A.22.CGUS, C.30, C.30.ASV, E.18, E.18.NET, C.33, C.34, C.35. |
@@ -2447,7 +2447,7 @@ Use C.17–C.19 for the corresponding metrics and search policies. This glossary
 - `SteppingStoneSet` is one narrow retained-subset head only when that subset itself is the visible published surface; do not treat it as the ordinary public head for retained exploration.
 - `SetResultFamily` is a declaration field naming which public set-result family is being emitted; it is not another public head.
 - `SourceSetFamily` is a declaration field naming the immediate source-set family acted on by a lens, such as `Q-Front`, `ExplorationArchive`, `Front`, `Archive`, or `TraditionPalette`; it does not carry derivation, composition, or object-id load, and it does not rename the emitted result.
-- `SourceSetComposition` is an optional declaration field naming a multi-source composition such as `Front+Archive` when one lens genuinely acts over more than one declared source-set family; it is not itself a kind.
+- `SourceSetComposition` is an optional declaration field for a composition of several declared source sets, including different sets of the same family. Identify each contributing set and its family, and state how its members contribute, such as `Front+Archive` through a union when that is the actual construction. It is not itself a kind.
 - `SubjectKind` is a declaration field naming what the members are, such as traditions, methods, hypotheses, environment-method pairs, candidate explanations, or other subject-kinded alternatives.
 - `EligibilitySet`, `DominanceSet`, `TieBreakerSet`, and `TelemetrySet` are the comparison-bundle sets behind the published set result, not rival publication heads: `EligibilitySet` says what may enter, `DominanceSet` says what counts for current non-domination, `TieBreakerSet` says what may order or choose among survivors, and `TelemetrySet` says what may be reported without changing dominance.
 - `PromotionPolicy` is the policy pin that authorizes one tie-breaker or telemetry signal to move into dominance. Without that pin, novelty, diversity, surprise, illumination, or similar signals remain outside the current `DominanceSet`.
@@ -35427,11 +35427,11 @@ When `readiness` or `ready` still hides which governed value is meant, use `E.10
 | release or permission claim | the direct release or permission pattern; a readiness value establishes neither |
 | publication use, publication face, form, or unit value, source-finding use | `E.17`, `E.17.0`, `E.17.AUD`, or `E.24.PUB` as appropriate to the recovered claim |
 | Description episteme admitted for specification use or specification refinement | `A.7`, plus the specification-granting neighbouring pattern named by value: `A.6.2`, `C.2.3`, `A.21`, `C.16`, `E.17`, `E.10`, or another named pattern |
-| temporal claim status or temporal-use classification | `C.27`, retaining `dynClaimPosture` only as a declared C.27 field |
+| temporal-claim classification and adequacy of an intervention-sensitive use | `C.27`, using its Dyn0, Dyn1 or Dyn2 readings |
 | mathematical-lens use admissibility | `C.29`, retaining `LensUseBoundaryValue` only as a declared C.29 field |
 | `DRR` decision-adequacy result or source-use classification | `E.9.DA` |
 | pattern-quality result or pattern-quality review status | `E.21`, with `E.19` only as review or admission profile |
-| administrative, review, dispatch, release or admission, or source-control state | the project-side administrative, review, dispatch, release or admission, or source-control record; not pattern prose unless the pattern's own `EntityOfConcern` is that record |
+| administrative, review, dispatch, release or admission, or source-control state | the project record that carries the state. Keep current framework-development status there; retain reusable guidance and worked examples when they explain the pattern’s method. |
 
 #### A.19.SPR:4.3 - Keeping a technical state field
 
@@ -35443,7 +35443,7 @@ If the three basic facts are missing, complete them or replace the field with th
 
 ### A.19.SPR:5 - Worked examples
 
-Each example starts with the smallest useful final wording. The second paragraph adds detail only for a machine-readable, replayed, or high-consequence use.
+Each example starts with wording for the stated use; §4 determines which further details are needed.
 
 #### A.19.SPR:5.1 - Physical-system state
 
@@ -35451,7 +35451,7 @@ Each example starts with the smallest useful final wording. The second paragraph
 
 **After:** “Pump 37 satisfies `InspectionOperatingCondition`: its coolant temperature is 72 °C, within the 60–80 °C band, and its discharge pressure is 315 kPa, above the 300 kPa minimum.”
 
-For a relied-on inspection decision, also name the reading time, measurement basis, condition edition, and the event that requires another check. Do not add those fields to a casual status sentence that no decision consumes.
+For a relied-on inspection decision, make the measurement basis and applicable condition recoverable. Add the reading time, exact condition edition and recheck condition when the decision depends on them.
 
 #### A.19.SPR:5.2 - Work-entry readiness is not gate passage
 
@@ -35461,21 +35461,21 @@ For a relied-on inspection decision, also name the reading time, measurement bas
 
 For replay, make the plan item, criterion, input facts, result and reliance window recoverable. Identify a separate result episteme or checking Work only when that identity matters; a claimed Work needs its A.13 basis and independent A.15.1 admission, with F.6 only for precise assignment-bound attribution. The work-entry finding alone establishes no gate passage. Use A.21 for a distinct `OperationalGate(profile)` that consumes declared checks and publishes its own decision.
 
-#### A.19.SPR:5.3 - Source currentness
+#### A.19.SPR:5.3 - Source use and currentness
 
 **Before:** “The source posture is good.”
 
-**After:** “This review uses edition E7 as the accepted decision source. Recheck that use if the edition or the reviewed question changes.”
+**After:** “This review uses edition E7 for decision question Q. Reconsider that choice if the question or the source content needed to answer it changes.”
 
-For automation or consequential reliance, also name the exact source-use relation, currentness result, use window, and the claim that must be reconsidered. The short sentence does not turn the source into evidence, assurance, gate passage, or FPF doctrine.
+When the decision relies on a claim from E7, assess that claim’s currentness under B.3.4 using the premises and time limits that matter to this use. Preserve exact source and result identities when the receiving operation depends on them.
 
 #### A.19.SPR:5.4 - Other direct repairs
 
-- **Evidence.** Replace “evidence status incomplete” with “Reliance on claim C remains unestablished because the needed calibration basis is missing; obtain the calibration record and check again.” Add exact evidence and currentness references only when the receiving decision needs them.
-- **Publication.** Replace “publication posture allows decision input” with “This publication exposes candidate input X for the decision; the decision rule still evaluates X.” Publication does not decide or assure by itself.
-- **Mathematical lens.** Keep `LensUseBoundaryValue` in C.29 when its possible values and intended lens use are defined. State the practical result in ordinary words; the field does not establish evidence, assurance, release, or source authority.
-- **Temporal claim.** Keep `dynClaimPosture` in C.27 when its values and temporal use are defined. Say which temporal claim is usable and for what purpose; the field does not upgrade its evidence or authority.
-- **Project-side state.** Put review, dispatch, release, admission, or source-control status in the project record that carries it. A pattern may mention only the user-facing boundary needed for its own subject.
+- **Evidence.** Replace “evidence status incomplete” with “Reliance on claim C remains unestablished because the needed calibration basis is missing; obtain the missing calibration basis and check again.” Add exact evidence and currentness references only when the receiving decision needs them.
+- **Publication.** Replace “publication posture allows decision input” with “This publication exposes candidate input X for the decision; the decision rule still evaluates X.”
+- **Mathematical lens.** Keep `LensUseBoundaryValue` in C.29 when its possible values and intended lens use are defined. State what the value permits for the intended lens use under C.29.
+- **Temporal claim.** For a C.27 classification, name the temporal claim and its Dyn0, Dyn1 or Dyn2 reading. State the supported use; add the intervention account only when the claim is intervention-sensitive.
+- **Project-side state.** Keep current framework-development status in its project record. Retain reusable guidance and worked examples that help the reader handle project status in the pattern’s stated practice.
 
 ### A.19.SPR:6 - Conformance checks
 
@@ -35499,7 +35499,7 @@ For automation or consequential reliance, also name the exact source-use relatio
 | **Status word as cover** | `posture` or `status` hides a source relation, evidence result, assurance result, gate decision, or release claim. | Say what item has which value or relation under the direct rule. |
 | **One broad word replaces another** | `support` becomes `support posture`, `basis posture`, or `source posture`. | Recover the actual source, evidence, assurance, relation, characteristic, or reader-help claim before choosing words. |
 | **Technical field without meaning** | A `...Status` or `...Posture` field has no object, possible values, or rule. | Complete those three facts or replace the field with an ordinary sentence. |
-| **Project status in pattern prose** | Review, dispatch, landing, release, or source-control state appears as user guidance. | Move it to the project record and keep only the practical boundary the pattern user needs. |
+| **Development status in pattern prose** | The framework-development project’s current review, dispatch, landing, release, or source-control state appears as user guidance. | Move that status to the project record; keep the reusable explanation and examples needed by the pattern user. |
 | **Everything becomes a source-language case** | Evidence, assurance, gate, Work, temporal, or lens-use claims are all sent to source or publication repair. | Use the direct pattern for the actual claim. |
 
 ### A.19.SPR:8 - Relations
@@ -35520,9 +35520,9 @@ For automation or consequential reliance, also name the exact source-use relatio
 
 ### A.19.SPR:9 - Rationale
 
-The problem is not the word `state`. The problem is a sentence that hides what has changed, what is being judged, or which rule makes the judgment meaningful. Recovering those facts first lets FPF keep short engineering language without creating a general status ontology.
+Recover the item and the value, relation, result or claim being stated; name the rule or criterion when the reader needs it to understand or act. These facts let practitioners use short engineering language while retaining each claim’s kind and conditions.
 
-Local fields such as `LensUseBoundaryValue` and `dynClaimPosture` remain useful when their object, possible values, and rule are clear. Broad phrases such as `source posture`, `evidence posture`, or `release posture` should instead become the direct sentence or project record the reader actually needs.
+A local field such as `LensUseBoundaryValue` remains useful when its object, possible values, and rule are clear. Broad phrases such as `source posture`, `evidence posture`, or `release posture` should instead become the direct sentence or project record the reader actually needs.
 
 ### A.19.SPR:End
 
@@ -35540,7 +35540,7 @@ Local fields such as `LensUseBoundaryValue` and `dynClaimPosture` remain useful 
 
 Use this pattern when one working line depends on all of the following at once:
 
-- one declared source set still matters and must stay recoverable by name;
+- one declared source set or composition of source sets still matters and must stay recoverable;
 - one search-side space reference and one outcome-side space reference must both be explicit;
 - the line must say whether those refs resolve to one declared `CharacteristicSpace` or to two distinct declared `CharacteristicSpace` values;
 - the source-to-outcome relation is load-bearing enough that the reader must know what is being related, in which direction, and through which declared carrier, declared map ref, or qualifier ref;
@@ -35597,13 +35597,13 @@ When the receiving use depends on the source set, search space and outcome space
 
 First recover:
 
-1. Name the active source set.
+1. Name the active source set, or the contributing source sets and their composition.
 2. Point `SearchSpaceRef` and `OutcomeSpaceRef` to declared `CharacteristicSpace`.
 3. Choose `sameDeclaredSpaceAs` or `distinctDeclaredSpaceFrom`.
 4. State the source-to-outcome relation in direction, mode, and carrier.
-5. State the applicable limitations; use a primary posture token to organize them without hiding other material qualifications.
+5. State the applicable limitations. A primary posture token may organize them; supply it when a selected interface requires one, without hiding other material qualifications.
 
-If one of those five cells cannot yet be filled honestly, do not improvise around it. Either you are still in `A.19`, or you have really moved into interpretive-view work, publication, or policy, or the current line is still missing one declared basis.
+If one of these facts cannot yet be recovered, preserve the established source and space facts, name the missing basis, and withhold the complete substrate claim and only the use that depends on that basis. Use the applicable subject pattern when it can supply the missing result.
 
 | If the question under repair sounds like... | Use now | Why |
 | --- | --- | --- |
@@ -35618,7 +35618,7 @@ A descriptor map or distance definition supplies one part of this account; it do
 
 In many search, synthesis, and source-set/space-substrate lines, the live substrate-bearing line is not just one `CharacteristicSpace` and not just one published shortlist or archive either. The line actually depends on a stack such as:
 
-- one declared source set, for example one front, archive, palette, or another declared source-set family;
+- one declared source set, such as a front, archive or palette, or a composition of identified source sets;
 - one search-side reference to an `A.19` `CharacteristicSpace`;
 - one outcome-side reference to an `A.19` `CharacteristicSpace`;
 - one explicit `SpaceRefRelationKind` over those two references, stating whether they resolve to the same declared space or to two different declared spaces;
@@ -35659,7 +35659,7 @@ Declare the source-set or search/outcome-space line through one explicit substra
 
 Use this pattern to declare only the substrate stack below:
 
-- the declared source set that the line is acting on;
+- the source set, or composition of source sets, used by the search or comparison;
 - the recoverable concrete source-set identity when the family name alone would be ambiguous;
 - the search-side reference to one declared `A.19` `CharacteristicSpace`;
 - the outcome-side reference to one declared `A.19` `CharacteristicSpace`;
@@ -35680,7 +35680,7 @@ Use the following notation-independent stack:
 
 ```text
 SourceSetSpaceSubstrate := <
-  SourceSetFamily,
+  SourceSetFamily?,
   SourceSetRef?,
   SearchSpaceRef,
   OutcomeSpaceRef,
@@ -35699,13 +35699,13 @@ SourceSetSpaceSubstrate := <
 
 Interpret the fields as follows:
 
-- `SourceSetFamily` names the primary declared source-set family that the line is anchored on.
-- `SourceSetRef?` names the concrete declared source set or declared set result when several same-family source sets or set results are live or when one neighboring governing pattern must be cited to keep that identity unique. It may be omitted only when the concrete source set is unambiguous from the declared line.
+- `SourceSetFamily?` names the declared family of the immediate source set and is required for a single-source account. For a composition without a distinguished source, `SourceSetComposition` supplies the source basis by identifying each contributing source, its family and member contribution rule. If the receiving use singles out a primary source, identify that source and retain its family in `SourceSetFamily`.
+- `SourceSetRef?` names the concrete declared source set or set result when its identity would otherwise be ambiguous, including when a neighboring governing pattern supplies that identity. For a composition, recover each contributing set through `SourceSetComposition`; add a separate `SourceSetRef` when the receiving use also depends on the identity of a combined set result. A reference may be omitted only when its intended set is otherwise unambiguous.
 - `SearchSpaceRef` points to one declared `A.19` `CharacteristicSpace` in the search-side position.
 - `OutcomeSpaceRef` points to one declared `A.19` `CharacteristicSpace` in the outcome-side position.
 - `SpaceRefRelationKind` states how those two refs relate. In ordinary use, the token is either `sameDeclaredSpaceAs` or `distinctDeclaredSpaceFrom`.
 - `SourceToOutcomeRelation` identifies the source members or values, target outcome values, direction and relation mode, with the defining map, model, operation or rule in `carrier`. The mode distinguishes a description, projection, prediction, scoring relation or other declared connection; naming it does not establish that its output is accurate or suitable for a receiving use.
-- `DistortionPosture` uses one primary token plus the conditions and limits needed by the receiving use. A primary token does not make the qualifications mutually exclusive: a learned map may also be uncertain and model-dependent. The local tokens include `transparent-for-current-use`, `lossy-bridge`, `metric/model-dependent`, `transition-dependent`, `uncertainty-bearing`, `learned/adaptive`, and `unstable-under-refresh`.
+- `DistortionPosture` states the conditions and limits needed by the receiving use. A primary token may organize this account or satisfy a selected interface requirement. It does not make the qualifications mutually exclusive: a learned map may also be uncertain and model-dependent. The local tokens include `transparent-for-current-use`, `lossy-bridge`, `metric/model-dependent`, `transition-dependent`, `uncertainty-bearing`, `learned/adaptive`, and `unstable-under-refresh`.
 - `SourceSetComposition`, `DerivedViewKind`, and related `...Kind` values remain declaration fields or controlled field values unless some governing pattern explicitly promotes them; they are not automatically independent heads merely because their names end with `Kind`.
 
 The two reference fields designate A.19 spaces. `SpaceRefRelationKind` reports whether their resolved values are the same or distinct under A.19 meaning. Two identifiers or declaration documents may describe the same space; different spellings alone establish no distinction. Recover a changed basis, Scale meaning or other space-defining content before asserting distinctness. This local token field is not itself an A.6.5 reusable relation-kind declaration.
@@ -35719,7 +35719,7 @@ Treat a line as declared substrate only if one recoverable source-set basis, two
 `SearchSpaceRef` and `OutcomeSpaceRef` must resolve to declared `A.19` `CharacteristicSpace`. They do not become parallel space kinds, slot aliases, or role claims.
 
 **SS-2 - Source-set recoverability is mandatory.**
-The reader must be able to recover not only the source-set family but, when several same-family source sets or set results are simultaneously live, the concrete declared source set or set result through `SourceSetRef?` or one cited neighboring governing pattern that uniquely identifies it.
+The reader must be able to recover the concrete source set and its declared family. For a composition, recover every contributing set, its family and its member contribution rule; identify a primary source only when the receiving use distinguishes one. Use `SourceSetRef`, `SourceSetComposition` or an accessible source that uniquely supplies the needed identities. A family name alone does not resolve several same-family sources.
 
 **SS-3 - Relation requirement must be explicit.**
 `SourceToOutcomeRelation` is conforming when its participants, direction, mode and defining map, model, operation or rule are recoverable. Add an interpretive qualifier only when it changes that relation's use.
@@ -35734,7 +35734,7 @@ The reader must be able to recover not only the source-set family but, when seve
 Publication metadata, shortlist identity, live-pool policy, and enactment policy remain neighboring decisions. A substrate line may feed them, but it does not decide them.
 
 **SS-7 - Admission is fail-closed.**
-If the source set cannot be recovered, either space ref is unresolved, `SpaceRefRelationKind` cannot be chosen honestly, relation direction, mode, or carrier remains vague, or posture remains unclassified, then the complete substrate claim is not established. Preserve the recovered source and space facts, state the missing basis and withhold only the use that depends on it. Use the applicable subject pattern when it can supply the missing result.
+If the source basis cannot be recovered, either space ref is unresolved, `SpaceRefRelationKind` cannot be chosen honestly, relation direction, mode or carrier remains vague, or a qualification needed by the receiving use is unresolved, then the complete substrate claim is not established. Preserve the recovered source and space facts, state the missing basis and withhold only the use that depends on it. Use the applicable subject pattern when it can supply the missing result.
 
 #### A.19.SOURCE-SET-SPACE-SUBSTRATE:4.4 - Profiles
 
@@ -35752,15 +35752,15 @@ Use one of these ordinary profiles:
 When declaring one substrate-bearing line, proceed in this order:
 
 0. **Entry test.** Confirm that the line really needs source-set plus search/outcome-space plus relation/posture discipline. If it only needs `CharacteristicSpace` typing, use `A.19`. If it only needs publication or policy, apply the governing pattern that carries that publication or policy question.
-1. **Recover the active source set.** State `SourceSetFamily`. If several same-family source sets or set results are simultaneously live, fill `SourceSetRef?` or cite the neighboring governing pattern that makes that identity unique.
+1. **Recover the source basis.** For one immediate source set, state its family and recover its identity. For a composition, use `SourceSetComposition` to identify every contributing set, its family and how its members contribute; designate a primary source only when the receiving use singles one out. Add `SourceSetRef` or cite a source when needed to make an identity unique.
 2. **Recover the space refs.** Point `SearchSpaceRef` and `OutcomeSpaceRef` to already-declared `CharacteristicSpace`.
 3. **Choose the ref-to-ref relation kind.** Declare `sameDeclaredSpaceAs` when both references resolve to the same A.19 space by value, and `distinctDeclaredSpaceFrom` when their defining contents establish distinct values. If that identity question is unresolved, retain the uncertainty rather than inferring difference from two declarations.
 4. **State the source-to-outcome relation.** Give direction, mode, and carrier explicitly. If one named `OutcomeMapRef` or another declared interpretive qualifier carries the relation, cite that qualifier explicitly. Otherwise state the relation definition or supplying operation directly in prose.
-5. **State the qualifications.** Identify the loss, model or metric dependence, transition dependence, uncertainty, adaptation or refresh limit that affects the use. A transparency claim needs its own basis. Select a primary token and retain every other material condition in the account.
+5. **State the qualifications.** Identify the loss, model or metric dependence, transition dependence, uncertainty, adaptation or refresh limit that affects the use. A transparency claim needs its own basis. Retain every material condition; use a primary token when useful for indexing or required by a selected interface.
 6. **Add only the fields that are really doing work.** Add composition, derived-view, base-palette, metric, transition, or bridge qualifiers only when the current case actually depends on them.
 7. **Run the boundary check.** If the line starts deciding publication metadata, shortlist identity, live candidate policy, enactment policy, or interpretive-view organization, stop and apply the pattern that governs that question.
 
-**Fail-closed rule.** Do not treat the line as declared substrate if any of steps 1-5 remains unresolved. Incomplete recovery is a real defect here, not one stylistic omission.
+**Incomplete-account result.** An unresolved requirement in steps 1-5 leaves the complete substrate claim unestablished. Apply SS-7: preserve what is known and withhold only uses that require the missing basis. A declared uncertainty is a qualification to preserve, not by itself a failure to identify the substrate.
 
 #### A.19.SOURCE-SET-SPACE-SUBSTRATE:4.6 - Canonical rewrite forms
 
@@ -35768,13 +35768,11 @@ The §4.2 schema can express either profile: both space references may resolve t
 
 #### A.19.SOURCE-SET-SPACE-SUBSTRATE:4.7 - Conditional fields stay conditional
 
-Use `SourceSetComposition` only when the line genuinely consumes several declared source sets.
+Use `SourceSetComposition` when the account consumes several declared source sets. Identify each contributing set and its family, and state how its members enter the source basis, such as a union or specified subsets when that is the actual construction.
 
-When composition is active:
+For a single immediate source, `SourceSetFamily` remains required. For a composition, retain a primary source and its family only when the receiving use distinguishes one. Otherwise the recoverable composition supplies the source basis without inventing a primary family. Neither branch silently changes any contributing set's identity or family.
 
-- `SourceSetFamily` still names the primary family the line is anchored on;
-- `SourceSetComposition` identifies the additional declared source sets and how their members contribute to this substrate, such as a union or selected subsets when that is the actual construction;
-- the composition field does not replace the primary family, and it does not silently retitle the whole line as one different source kind.
+For example, a comparison may consume the union of declared `Front-F` and `Archive-A` without privileging either. `SourceSetComposition` identifies both sets, their families and the union. No primary `SourceSetFamily` is required; both space refs and the source-to-outcome rule apply to that declared source basis.
 
 Use `DerivedViewKind` only when one derived view is materially active and the reader must be able to recover that derivation.
 
@@ -35791,7 +35789,7 @@ Use them when:
 - one `TransitionRelationRef` really disciplines dynamic coupling or transfer;
 - or one bridge-loss note is the relevant reason the relation is qualified.
 
-Do not make those interpretive qualifiers the semantic center of the substrate. They help explain the relation; they do not replace the line made explicit by `SourceSetFamily`, `SourceSetRef?`, `SearchSpaceRef`, `OutcomeSpaceRef`, and the declared relation/posture pair.
+These qualifiers help explain the relation. They do not replace the recoverable source basis, the search-side and outcome-side spaces, or the declared relation and its applicable limitations. The source basis may be one set or the composition described in §4.7.
 
 The substrate cites the qualifier definition on which it relies. A later view may introduce its own representational qualification; distinguish that view claim from a change to the source-to-outcome relation. If the underlying relation changes, revise its declaration and recheck dependent uses.
 
@@ -35831,7 +35829,7 @@ Once the substrate is declared, select the neighboring pattern for the remaining
 - Use `G.2` when that interpretation becomes palette-first, tradition-facing atlas work. Keep the base palette and the cited substrate recoverable while doing it.
 - Use `A.6.P` when one passage collapses source set, space ref, interpretive view, atlas view, or map/ref wording into one umbrella word. Repair the wording back to the substrate declaration before adding more theory.
 - Use `F.18` when the problem is label choice or naming-side comparison around this stack. Naming notes may explain why one head is better named; they do not settle the substrate relation.
-- Use `A.0` when the task is cold-reader glossing of these tokens. Glosses help recognition; they do not replace the declaration block.
+- Use `A.0` when the task is cold-reader glossing of these tokens. Glosses explain the terms; the source, spaces, relation and limitations required by §4.2 must still be recoverable from the account.
 
 If a neighboring use needs a changed source-to-outcome relation or qualification, revise the declaration and reconsider the conclusions that depend on the change. Reuse unaffected content.
 
@@ -35839,9 +35837,9 @@ If a neighboring use needs a changed source-to-outcome relation or qualification
 
 #### A.19.SOURCE-SET-SPACE-SUBSTRATE:5.1 - System
 
-**Tell.** One QD line keeps saying that one archive is both the search-side role and the evaluation basis. Downstream readers need to see that the same declared `CharacteristicSpace` can still occupy two different role positions without turning the archive or the descriptor layer into the space itself.
+One QD line keeps saying that one archive is both the search-side role and the evaluation basis. Downstream readers need to see that the same declared `CharacteristicSpace` can still occupy two different role positions without turning the archive or the descriptor layer into the space itself.
 
-**Show.** In this constructed case, `Archive-12` is the selected candidate set. The declared descriptor map assigns behavior Coordinates to its members; the separately declared neighborhood metric is used to assess coverage in that same behavior space.
+In this constructed case, `Archive-12` is the selected candidate set. The declared descriptor map assigns behavior Coordinates to its members; the separately declared neighborhood metric is used to assess coverage in that same behavior space.
 
 ```text
 SourceSetFamily       = Archive
@@ -35860,13 +35858,12 @@ DistanceDefRef          = ArchiveNeighborhoodDistance@ed=4
 SpaceMetricRef          = ArchiveNeighborhoodMetric@ed=4
 ```
 
-**Cash-out.** The archive supplies the candidate members; both space references resolve to the same declared `CharacteristicSpace`. The descriptor map assigns Coordinates, and the distance and metric define the stated coverage comparison. Selection or archive maintenance can reuse these relations while keeping the archive distinct from the space.
+The archive supplies the candidate members; both space references resolve to the same declared `CharacteristicSpace`. The descriptor map assigns Coordinates, and the distance and metric define the stated coverage comparison. Selection or archive maintenance can reuse these relations while keeping the archive distinct from the space.
 
 #### A.19.SOURCE-SET-SPACE-SUBSTRATE:5.2 - Episteme
 
-**Tell.** One synthesis line presents one derived tradition front and then starts speaking as if the visible front were the default meaning of the whole palette.
+One synthesis line presents one derived tradition front and then starts speaking as if the visible front were the default meaning of the whole palette.
 
-**Show.**
 
 ```text
 SourceSetFamily        = Front
@@ -35883,15 +35880,15 @@ DistortionPosture      = metric/model-dependent; the estimate is conditional on 
                          team and workload facts and omits unmodelled adoption effects
 ```
 
-**Cash-out.** The visible front stays a derived view over the recoverable palette. `AdoptionEstimate@ed=1` supplies the stated conditional source-to-outcome mapping. A later interpretive or atlas view may reorganize the presentation while preserving that mapping and its model limitations.
+The visible front stays a derived view over the recoverable palette. `AdoptionEstimate@ed=1` supplies the stated conditional source-to-outcome mapping. A later interpretive or atlas view may reorganize the presentation while preserving that mapping and its model limitations.
 
 #### A.19.SOURCE-SET-SPACE-SUBSTRATE:5.3 - Boundary anti-case
 
-**Tell.** One note says only that "the shortlist front is the published result for the current selector result" and names no source-to-outcome relation, no search-side space, no outcome-side space, and no posture.
+One note says only that "the shortlist front is the published result for the current selector result" and names no source-to-outcome relation, no search-side space, no outcome-side space, and no posture.
 
-**Show.** This is not a substrate declaration. It is publication metadata over one already-selected set.
+This is not a substrate declaration. It is publication metadata over one already-selected set.
 
-**Cash-out.** Apply `G.5` or `G.10` to that note. Do not pad it with pseudo-substrate words just to make it look deeper than it is.
+Apply `G.5` or `G.10` to that note.
 
 #### A.19.SOURCE-SET-SPACE-SUBSTRATE:5.4 - Use-situation spread
 
@@ -35899,9 +35896,9 @@ Use the pattern this way across different working situations:
 
 | Working situation | What to do with this pattern | What must stay explicit | Common miss avoided |
 | --- | --- | --- | --- |
-| Archive-side QD line where navigation and evaluation stay in one declared behavior space | Use the shared-space profile. Fill the six core fields, then add descriptor/metric qualifier only if active. | `Archive` as source set, both role-refs, `sameDeclaredSpaceAs`, and the active posture. | Treating the archive or descriptor layer as if it were the space itself. |
-| Derived tradition/front line that is judged against one different outcome space | Use the cross-space profile and keep `DerivedViewKind` plus `BasePaletteRef` visible. | The derived view stays derived, the base palette stays recoverable, and the cross-space relation stays explicit. | Letting the visible front replace the base palette or hiding the adoption model's limitations. |
-| Learned, adaptive, or uncertainty-bearing line where the space declaration is real but heavier qualification is still case-bound | Keep the substrate core explicit and choose the honest posture token such as `uncertainty-bearing`, `learned/adaptive`, or `unstable-under-refresh`. | The reader can see that the substrate is real without being promised fake geometric closure. | Pretending every serious case is either fully transparent or fully described by one metric stack. |
+| Archive-side QD line where navigation and evaluation stay in one declared behavior space | Use the shared-space profile. Recover the source basis, both space uses, their same-space relation, the source-to-outcome connection and its limitations; add descriptor/metric qualifiers when used. | The archive as source set, both role-refs, the same declared space and applicable qualifications. | Treating the archive or descriptor layer as if it were the space itself. |
+| Derived tradition/front line that is judged against one different outcome space | Use the cross-space profile. Keep the derivation and base palette recoverable where the receiving use depends on them; add `DerivedViewKind` and `BasePaletteRef` when needed or required by its selected publication contract. | The derived view stays derived, the needed base palette remains recoverable, and the cross-space relation stays explicit. | Letting the visible front replace the base palette or hiding the adoption model's limitations. |
+| Learned, adaptive, or uncertainty-bearing line where the space declaration is real but heavier qualification is still case-bound | Keep the substrate core recoverable and state the uncertainty, adaptation or refresh conditions that affect the receiving use. Add a posture token when the selected interface requires it. | The reader can distinguish the declared substrate from unresolved accuracy, applicability or stability claims. | Pretending every serious case is either fully transparent or fully described by one metric stack. |
 | Shortlist or publication note that only says what set result or publication form is shown or shipped | Do not use this pattern. Apply `G.5` or `G.10` directly. | The note stays publication-facing instead of imitating substrate depth. | Padding publication metadata with pseudo-substrate language. |
 
 ### A.19.SOURCE-SET-SPACE-SUBSTRATE:6 - Bias-Annotation
@@ -35918,14 +35915,14 @@ Apply these declaration checks to the claims and qualifiers actually used:
 | ID | Check question | Fail when | Repair or governing pattern |
 | --- | --- | --- | --- |
 | `CC-A19SS-1` | Is the line really declaring one substrate-bearing relation rather than only `CharacteristicSpace`, publication metadata, or policy? | The line only names a space object, or only publishes, ships, or retains something, with no explicit source, ref, relation, or posture stack. | Move to `A.19`, `G.5`, `G.10`, `C.19`, or `C.24` as appropriate. |
-| `CC-A19SS-2` | Is the active source set recoverable enough for the current case? | Only a vague family word such as `front` or `archive` remains, and several same-family source sets or set results are live with no way to tell which one is meant. | Add the concrete declared source set or set result id or cite the neighboring governing pattern that makes the source/set-result unique. |
+| `CC-A19SS-2` | Is the source basis recoverable for the current case? | A contributing set, its family or its member contribution rule is ambiguous, or a primary source is invented for a composition that distinguishes none. | Recover each set identity and family and any actual composition under §4.7; use refs or accessible defining sources as needed. |
 | `CC-A19SS-3` | Do `SearchSpaceRef` and `OutcomeSpaceRef` both resolve to declared `A.19` `CharacteristicSpace`, and is `SpaceRefRelationKind` explicit? | One or both refs are vague, or the line leaves the same-space versus cross-space question to inference. | Restore the two refs and declare `sameDeclaredSpaceAs` or `distinctDeclaredSpaceFrom` explicitly. |
-| `CC-A19SS-4` | Is the source-to-outcome relation explicit in direction, mode, and carrier? | The line hides the relation in one umbrella phrase such as `projection`, `portfolio`, or `maps into`, with no explicit carrier. | Rewrite into the canonical substrate form and state direction, mode, and carrier. |
-| `CC-A19SS-5` | Is the active qualification posture explicit and honest? | The line is qualified in effect, but the posture is unstated or all non-transparent cases are blurred into one generic loss story. | Declare the governing posture token and any needed note; if that cannot be done honestly, keep the line informative only. |
+| `CC-A19SS-4` | Is the source-to-outcome relation explicit in its participants, direction, mode and defining basis? | The relation remains hidden in an umbrella phrase with no recoverable map, model, operation or rule. | State the participants, direction, mode and defining basis directly or cite where they can be recovered. |
+| `CC-A19SS-5` | Are the relevant qualifications explicit and supported for the claimed use? | Material limits are missing, or different qualified cases are blurred into one generic loss story. | State the qualifications and the basis needed by that use. If needed support is missing, retain the established content and withhold only the dependent conclusion; a primary token is required only by a selected interface. |
 | `CC-A19SS-6` | Are conditional and qualifier fields used only when they really do work? | Composition, derivation, base-palette, declared map ref, metric, transition, or bridge qualifiers are fabricated everywhere or silently become core. | Remove unused qualifiers; keep only the fields the current case actually depends on. |
 | `CC-A19SS-7` | If `DescriptorMapRef` or `DistanceDefRef` is active, does the text say they realize or qualify the relation rather than replace the space ref? | The representation or metric layer is treated as if it were the declared search-side or outcome-side space. | Re-state the docking rule and keep the two space refs visible. |
 | `CC-A19SS-8` | Does the line stay out of publication and policy work? | The prose starts deciding shortlist identity, selector outcome, shipping closure, or live-pool/enactment policy. | Split the line and move those downstream decisions to their governing patterns. |
-| `CC-A19SS-9` | Can the line be rewritten into one canonical substrate form without invention? | The line still depends on hidden assumptions or unresolved candidates. | Keep it as a working gloss or repair the missing recovery before reuse. |
+| `CC-A19SS-9` | Can the account establish the substrate claim needed by the current use without inventing facts? | A required source identity, space resolution, relation or material qualification remains unsupported. | Return the recovered components and the missing basis; withhold the complete claim and only uses that depend on that gap. |
 | `CC-A19SS-10` | Could a cold reader take the next lawful declaration step from this line without surrounding memo help? | The line still speaks only in umbrella words such as `space`, `projection`, or `portfolio`, and the reader cannot tell what to fill next. | Use the declaration sequence in §4.5 and recover the needed content from §4.2 before reuse. |
 | `CC-A19SS-11` | When the next question is interpretive-view, publication, or policy, is the next governing pattern explicit? | The text keeps talking as if substrate, interpretation, publication, and policy were one layer, so the reader cannot tell where to continue. | Split the line and cite `A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW`, `G.5`, `G.10`, `C.19`, or `C.24` as the next governing pattern. |
 | `CC-A19SS-12` | Does the current use claim only the breadth its declared posture and qualifiers actually license? | The prose implies universal geometric closure or one universal heavy-qualification story, but the declared posture or qualifiers stay narrower, uncertain, learned/adaptive, or case-bound. | Narrow the claim explicitly or add the missing posture/interpretive qualifiers that make the broader claim honest. |
@@ -35934,7 +35931,7 @@ Apply these declaration checks to the claims and qualifiers actually used:
 
 | Anti-pattern | Why it fails | Repair |
 | --- | --- | --- |
-| Treating one archive or front as the search space itself | A source set is not the same kind as one declared `CharacteristicSpace`. | Keep `SourceSetFamily` and `SearchSpaceRef` separate. |
+| Treating one archive or front as the search space itself | A source set is not the same kind as one declared `CharacteristicSpace`. | Keep the source-set identity and family, or its actual composition, separate from `SearchSpaceRef`. |
 | Leaving `SpaceRefRelationKind` implicit | The reader then has to guess whether search and outcome share one declared space or use two distinct declared spaces. | Declare `sameDeclaredSpaceAs` or `distinctDeclaredSpaceFrom` next to the two refs. |
 | Letting `DescriptorMapRef` stand in for the whole substrate | A representation layer is not identical to the position-typed space declaration. | State the docking rule explicitly and keep the space refs visible. |
 | Making `SourceSetComposition` or `DerivedViewKind` mandatory in every line | The line fabricates composition or derivation where none exists. | Keep them conditional. |
@@ -35972,10 +35969,9 @@ That is why this pattern stops before interpretive views and before publication 
 
 | SoTA practice | Primary source(s) | Practice demand disciplined here | Practical safeguard bought | Adoption stance |
 | --- | --- | --- | --- | --- |
-| The cited multilevel-evolutionary work offers a comparison for relating descriptions across levels. | Vanchurin (2026) on generally covariant evolutionary dynamics; Warrell et al. (2024) on unified multilevel evolutionary frameworks. | `SS-0`, `SS-2`, `CC-A19SS-1`, `CC-A19SS-2`. | Keeps one neutral substrate beside `A.19`, so one archive, front, or publication face cannot silently stand in for the whole substrate declaration load. | **Adapt.** Keep one neutral substrate, but bind it to FPF declaration discipline. |
-| The cited QD work distinguishes feature/behavior space, quality/objective side, archive/repertoire set results, and local competition rather than treating one vague "space" as enough. | 2026 QD review; IJCAI 2024 stepping-stone results; MOUR-QD (2025). | `SS-1`, `SS-3`, `CC-A19SS-3`, `CC-A19SS-4`, worked slices `5.1` and `5.2`. | Forces search-side ref, outcome-side ref, and source-to-outcome relation to stay explicit, so downstream search/evaluation claims remain auditable. | **Adopt/Adapt.** Adopt the split; adapt it to FPF declared-source-set discipline. |
-| The cited QD and adjacent work considers learned, adaptive, unstructured, and uncertainty-bearing spaces and qualifiers, so one heavy metric or transition stack should not be assumed everywhere. | Uncertain Quality-Diversity (2023); Extract-QD (2025); later adaptive-space and meta-competition lines. | `SS-4`, `SS-5`, `CC-A19SS-5`, `CC-A19SS-6`. | Makes uncertainty posture explicit while keeping declared map ref, metric, transition, and bridge-loss pins optional unless the case truly depends on them. | **Adopt/Adapt.** Adopt uncertainty honesty and optional heavier qualifiers; reject mandatory geometric monoculture. |
-| Atlas and manifold-qualifier lines are useful in some cases, but they are not the default meaning of every source-set/space-substrate line. | UMAP 2024 review; 2024-2025 atlas and manifold-optimization lines. | `SS-5`, `SS-6`, boundary anti-case `5.3`, `CC-A19SS-8`. | Preserves substrate semantics so later interpretive or atlas views can help interpretation without quietly becoming the ontology. | **Adapt.** Keep atlas-form interpretation as a later specialization, not the substrate's ordinary center. |
+| Evolutionary models relate genotype and phenotype descriptions or model selection across several levels. | [Vanchurin, *Geometric framework for biological evolution* (2026)](https://arxiv.org/abs/2603.15198); [Warrell et al., *Variational methods for Learning Multilevel Genetic Algorithms using the Kantorovich Monad* (2024)](https://arxiv.org/abs/2411.09779). | `SS-0`, `SS-2`, `CC-A19SS-1`, `CC-A19SS-2`. | Provides comparisons for making the represented objects and their connecting relations explicit. | **Adapt.** These are subject-specific mathematical constructions; the source-set declaration rules here are an FPF adaptation. |
+| MOUR-QD distinguishes candidate solutions, feature descriptions, objective values and an archive with local Pareto comparisons. | [Janmohamed and Cully, *Multi-Objective Quality-Diversity in Unstructured and Unbounded Spaces* (2025), Introduction and §2](https://arxiv.org/html/2504.03715v1). | `SS-1`, `SS-3`, `CC-A19SS-3`, `CC-A19SS-4`, worked cases `5.1` and `5.2`. | Keeps the source members, space uses and source-to-outcome relation distinguishable. | **Adopt/Adapt.** Preserve the subject distinctions; express the needed references and relations under FPF. |
+| Feature spaces may be learned or unstructured, while uncertain QD may require distributions of fitness and descriptor values rather than single deterministic values. | [Janmohamed and Cully (2025), Introduction and §2](https://arxiv.org/html/2504.03715v1); [Flageat et al., *Extract-QD Framework: A Generic Approach for Quality-Diversity in Noisy, Stochastic or Uncertain Domains* (2025), Introduction and §2.2](https://arxiv.org/html/2502.06585v1). | `SS-4`, `SS-5`, `CC-A19SS-5`, `CC-A19SS-6`. | Makes the applicable uncertainty and model limits explicit without prescribing one metric or transition model for every use. | **Adopt/Adapt.** Retain the stated qualifications; select additional models and references for the actual receiving use. |
 
 ### A.19.SOURCE-SET-SPACE-SUBSTRATE:12 - Relations
 
@@ -36015,8 +36011,8 @@ Not this pattern when:
 
 - you still need to declare the substrate itself, including source-set and search/outcome-space roles; use `A.19.SOURCE-SET-SPACE-SUBSTRATE`;
 - you only need `CharacteristicSpace`, its slots, or its typing hooks; use `A.19`;
-- you are publishing selector outcomes, shortlist identity, or shipping metadata; use `G.5` or `G.10`;
-- you are setting live pool policy, retained-set policy, or enactment/planning posture; use `C.19` or `C.24`;
+- you need to declare selector outcomes or shortlist identity; use `G.5`. Use `G.10` for shipping a Part-G SoTA pack and `E.24.PUB` for making an exact view or episteme available to an audience;
+- you are setting live candidate-pool or retained-set policy; use `C.19`. Use `C.24` for tool or service call planning after the action is fixed; other planning or enactment questions retain their own governing patterns;
 - you are defining a new generic view law, viewpoint bundle, or publication-view family rather than one domain-specific interpretive reading; use `A.6.3`, `E.17.0`, `E.17`, or `E.17.1`;
 - the line would change the EntityOfConcern rather than preserve it; use `A.6.4` or the appropriate retargeting pattern.
 
@@ -36075,7 +36071,7 @@ If you cannot name the base substrate or the recoverable source-set entry point 
 | "How do I help the reader inspect the declared substrate?" | `A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW` | This pattern governs substrate-side only reading. |
 | "What is the substrate itself?" | `A.19.SOURCE-SET-SPACE-SUBSTRATE` | The base line has to exist first. |
 | "Which palette-first or tradition-facing atlas reading should I use?" | `G.2` over this family | That is one local specialization of atlas interpretation. |
-| "What do we publish, ship, keep live, or plan next?" | `G.5`, `G.10`, `C.19`, or `C.24` | Those publication, shipping, live-pool, and planning questions stay outside interpretive views. |
+| "What do we publish, ship, keep live, or plan next?" | The pattern governing the remaining question; see §4.10. | Distinguish selector outcomes, SoTA-pack shipping, view/episteme availability, live-pool policy and action planning. |
 
 Common confusion to kill early: one visible atlas or metric note does not make atlas form automatically necessary. Thin interpretation is already a complete admissible answer.
 
@@ -36114,7 +36110,7 @@ How should one declare an interpretive view so that:
 | Thin interpretation vs atlas-form reading | Some cases need only one light interpretive view; others genuinely need one fuller atlas-form reading. The pattern must admit both without making the fuller form default. |
 | Recoverability vs convenience | Derived tradition or palette views help reading, but they must not hide the base palette, base source set, or active declared spaces. |
 | Qualifier richness vs semantic inflation | Declared map refs, metrics, transition qualifiers, and distortion notes are often useful, but they must stay optional interpretive qualifiers rather than new mandatory core. |
-| Readability vs downstream boundary discipline | The pattern should help cold readers immediately, while still keeping `G.5`, `G.10`, `C.19`, and `C.24` outside the interpretive view. |
+| Readability vs downstream boundary discipline | The interpretation should answer the inspection question while leaving selector outcomes, publication, live-pool policy and action planning to their governing patterns (§4.10). |
 
 ### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:4 - Solution
 
@@ -36185,7 +36181,7 @@ The view may foreground the substrate's `OutcomeMapRef`, `SpaceMetricRef`, `Tran
 Ordinary `DeclaredSubstrateInterpretiveView` is a complete admissible profile, not a placeholder. `DeclaredSubstrateAtlasView` is used only when the fuller composite inspection question is real.
 
 **IV-6 - Atlas form requires a complete composite record.**
-If atlas form is active, the view must keep the base substrate, the active source or set result, the relevant `TypedSetViews`, any cited spaces, any cited declared map refs, and any qualifiers explicit enough that the reader can recover why thin interpretation was not enough.
+If atlas form is active, the view must keep the base substrate, the active source or set result, the relevant `TypedSetViews`, any cited spaces, any cited declared map refs, and any qualifiers explicit enough for the reader to recover how those parts answer the inspection question.
 
 **IV-7 - Local specialization stays local.**
 If `TraditionAtlasView` is used, it remains one `G.2` specialization of `DeclaredSubstrateAtlasView`; it does not become the common head of the family.
@@ -36224,23 +36220,11 @@ When declaring one interpretive view, proceed in this order:
 
 Many cases need one interpretive view but not one atlas-form interpretation package.
 
-Stay with one thinner interpretive view when:
-
-- the current reading needs only one declared source set or one derived view over it;
-- the current question does not need several typed set views assembled at once;
-- one explicit interpretive sentence is enough to keep the current line readable;
-- or the case does not genuinely depend on metrics, transitions, or bridge-loss notes.
-
-This matters because the interpretive layer should stay proportionate to the inspection question. If a thin interpretive view already solves the reader's problem, forcing atlas form would over-type the line and create fake necessity.
+Use thin interpretation when a direct explanation answers the inspection question, including when it cites a needed metric, map, transition or loss qualification.
 
 #### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:4.7 - Atlas form is fuller interpretation and needs a complete record
 
-Use `DeclaredSubstrateAtlasView` for the fuller interpretive cases:
-
-- when several typed set views over one declared source set or one active derived set result must be read together;
-- when one atlas-form reading helps the reader inspect cross-scale structure, cross-space structure, qualifier plurality, or declared-map-ref plurality;
-- when the current interpretation genuinely depends on one declared map ref, metric, transition qualifier, or distortion note and those qualifiers must stay visible together with the active source sets or active set results they qualify.
-
+Use `DeclaredSubstrateAtlasView` when the inspection question requires showing how several declared views, spaces, maps or qualifications relate within the same substrate.
 The minimal admissible atlas-form interpretation declaration therefore contains:
 
 - the cited base substrate or source-set entry point or set-result entry point;
@@ -36249,9 +36233,9 @@ The minimal admissible atlas-form interpretation declaration therefore contains:
 - any cited `SearchSpaceRef`, `OutcomeSpaceRef`, or other declared space refs that the atlas reading depends on;
 - any cited `OutcomeMapRef`, `SpaceMetricRef`, `TransitionRelationRef`, or `BridgeDistortionNote` that materially disciplines the reading;
 - `DerivedViewKind` and `BasePaletteRef` whenever the atlas reading is over one derived palette or tradition view;
-- one explicit reason thin interpretation is insufficient.
+- the connections among these parts needed to answer the inspection question.
 
-If atlas form cannot state that composite interpretation view without invention, stay with thin interpretation or apply the pattern that governs the missing question.
+If the available basis cannot support the composite interpretation, retain what is established and state the missing basis. Use thin interpretation only if it still answers the inspection question; otherwise leave that question unresolved and use the pattern governing the missing basis if further work is needed.
 
 #### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:4.8 - No autonomous local view law is introduced here
 
@@ -36281,11 +36265,13 @@ This pattern does not publish selected sets, declare shortlist heads, or decide 
 Keep the split explicit:
 
 - `A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW` helps the reader inspect one already-declared substrate;
-- `G.5` publishes selector outcomes and their source/publication metadata;
-- `G.10` ships publication faces and pins;
+- `G.5` declares selector outcomes and their source/publication metadata;
+- `G.10` ships a Part-G SoTA pack with its publication faces and pins;
 - `C.19` governs live candidate-pool and frontier policy;
-- `C.24` governs enactment/planning posture.
+- `C.24` plans tool or service calls after the action is fixed;
+- `E.24.PUB` governs making an exact view or episteme available to an audience.
 
+Other planning and enactment questions belong to the pattern governing the action.
 If the prose starts deciding who survives, what is published, or what is shipped, it has already left this pattern.
 
 #### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:4.11 - `G.2` keeps the tradition-facing atlas specialization
@@ -36298,11 +36284,6 @@ Read the relation this way:
 - `G.2` keeps the palette-first, tradition-facing specialization `TraditionAtlasView`;
 - `TraditionAtlasView` is therefore one local specialization of the fuller atlas form, not the common head of the whole interpretive family.
 
-This keeps the family honest in both directions:
-
-- the common interpretive-view family does not force `Tradition` or `Atlas` into every case;
-- and the `G.2` specialization does not lose its palette-first recoverability.
-
 #### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:4.13 - Using the interpretive view with neighboring patterns
 
 Once the interpretation is sufficient, stop. Select a neighboring pattern only for a remaining question:
@@ -36311,7 +36292,7 @@ Once the interpretation is sufficient, stop. Select a neighboring pattern only f
 - Use `F.18` when the question under repair is label choice around interpretive-view, atlas, palette, or declared-map-ref language. Naming notes may explain the labels, but they do not change the base substrate or the inspection question.
 - Use `A.6.P` when one passage collapses view, surface, space, map, or palette into one umbrella word. Repair the layer split first, then continue.
 - Use `A.0` when cold-reader glossing is what the current line lacks. Glosses help recognition; they do not replace the base interpretive view declaration.
-- Use `G.5`, `G.10`, `C.19`, or `C.24` when the passage starts deciding outputs, survivor sets, or planning posture.
+- Use the corresponding pattern in §4.10 when the remaining question concerns selector outcomes, shipping, publication, live-pool policy or action planning.
 
 If a neighboring passage would change the EntityOfConcern or the base substrate posture, this pattern is no longer the governing pattern for that sentence. Reopen the base line or apply the pattern that governs the new question.
 
@@ -36339,7 +36320,7 @@ If a neighboring passage would change the EntityOfConcern or the base substrate 
 
 **Show.** The changed-relation and retention claims need their own governing patterns.
 
-**Cash-out.** Reopen the substrate if the base relation or posture changed. Apply `C.19`, `C.24`, `G.5`, or `G.10` to retention or shipping decisions instead of using interpretive-view prose to smuggle them in.
+**Cash-out.** Reopen the substrate if the base relation or posture changed. Use `C.19` for the claim about which candidate traditions remain live; `G.5` governs any declaration of a selector outcome.
 
 #### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:5.4 - Use-situation spread
 
@@ -36348,7 +36329,7 @@ Use the interpretive-view family this way across different working situations:
 | Working situation | Choose | What must stay explicit | Common miss avoided |
 | --- | --- | --- | --- |
 | Archive-side QD line that only needs one metric cue so the reader can see local neighborhoods | Thin interpretation | One base substrate, one inspection question, one active source set, and the specific metric qualifier doing work. | Forcing atlas form into a case that only needs one simple reading aid. |
-| Palette-first synthesis line that really needs several declared views, spaces, declared map refs, and loss notes held together | Atlas interpretation, with `G.2` when the case is tradition-facing | The base palette, derived view, cited spaces, qualifying map-ref/distortion refs, and the reason thin interpretation is insufficient. | Letting the most salient visible atlas overlay replace the palette-first base line. |
+| Palette-first synthesis line that really needs several declared views, spaces, declared map refs, and loss notes held together | Atlas interpretation, with `G.2` when the case is tradition-facing | The base palette, derived view, cited spaces, qualifying map-ref/distortion refs, and the connections needed to answer the inspection question. | Letting the most salient visible atlas overlay replace the palette-first base line. |
 | Derived tradition/front note that only needs to remind the reader how to read one already-declared substrate | Thin interpretation | The inspection question, derived-view recoverability, and the base palette when it would otherwise disappear. | Treating every derived tradition reading as if it were already full atlas work. |
 | Passage that starts changing the outcome posture, survivor set, or publication result | Do not use this pattern | The boundary out to substrate repair, publication, or policy stays explicit. | Smuggling retargeting or policy decisions into interpretive-view prose. |
 
@@ -36370,13 +36351,13 @@ Apply these checks to the interpretation and claims actually made.
 | `CC-A19IV-3` | Does the line preserve the same EntityOfConcern and keep the base substrate as semantic center? | The interpretive prose retargets the EntityOfConcern or repairs the substrate in place. | Reopen under `A.19.SOURCE-SET-SPACE-SUBSTRATE`, `A.6.4`, or the appropriate neighboring pattern. |
 | `CC-A19IV-4` | Are the current source set, any active set result, and any active derived view or base palette recoverable? | The interpretive reading hides the base palette, base source/result, or active derived set result behind one fuller visible overlay. | Restore the missing recoverability fields. |
 | `CC-A19IV-5` | Is the active profile chosen honestly: thin interpretation or atlas interpretation? | Atlas language is used by reflex, or the line needs atlas interpretation but never says so. | State the profile and the inspection question it answers; explain the composite need when choosing atlas form. |
-| `CC-A19IV-6` | If atlas form is active, is the composite atlas-form interpretation declaration complete? | Several views, spaces, declared map refs, or qualifiers are being used, but `TypedSetViews`, cited spaces, declared map refs, qualifiers, or the reason thin interpretation is insufficient remain hidden. | Publish the missing atlas-form interpretation declaration or step back to thin interpretation. |
+| `CC-A19IV-6` | If atlas form is active, is the composite atlas-form interpretation declaration complete? | A source set/result, declared view, space, map reference, qualification, or connection needed to answer the composite inspection question remains hidden. | Supply the missing content needed by the inspection question; use thin interpretation only if it gives an adequate answer. |
 | `CC-A19IV-7` | Is each qualification attached to the relation it qualifies? | A view qualification silently changes the source-to-outcome relation, or a material substrate qualification disappears. | Preserve substrate qualifications; state any view-only loss separately. Revise the substrate if its underlying relation changes. |
 | `CC-A19IV-8` | If `TraditionAtlasView` is used, is it kept as one `G.2` specialization rather than the common family head? | The local specialization is treated as if every interpretive case were already palette-first atlas work. | Restore the split between `DeclaredSubstrateAtlasView` and `TraditionAtlasView`. |
-| `CC-A19IV-9` | Does the line stay out of publication and policy work? | The prose starts deciding who survives, what is published, or what is shipped. | Split the line and apply `G.5`, `G.10`, `C.19`, or `C.24` to those questions. |
+| `CC-A19IV-9` | Does the line stay out of publication and policy work? | The prose starts deciding who survives, what is published, or what is shipped. | Separate the interpretation from the remaining decision and apply the corresponding pattern in §4.10. |
 | `CC-A19IV-10` | Could a cold reader choose thin interpretation versus atlas interpretation and fill one interpretive view declaration without hidden invention? | The reader still needs surrounding memo knowledge to know which head to use, what fields matter, or why atlas is or is not needed. | Use the content requirements in §4.2 and sequence in §4.5; show the composite inspection need if atlas form is necessary. |
 | `CC-A19IV-11` | Is the inspection question explicit enough to tell the reader what this view helps inspect now? | The view mostly restates the base theory, but the practical inspection load stays unnamed. | State the inspection question directly and keep the base line recoverable beside it. |
-| `CC-A19IV-12` | When specialization, naming repair, publication, or policy becomes the next question, is the governing neighbor explicit? | The interpretive prose silently drifts into `G.2`, `F.18`, `A.6.P`, `G.5`, `G.10`, `C.19`, or `C.24` without naming the boundary. | Split the line and cite the governing neighbor instead of stretching interpretive-view prose across that boundary. |
+| `CC-A19IV-12` | When specialization, naming repair, publication, or policy becomes the next question, is the governing neighbor explicit? | The prose answers a specialization, naming, publication or policy question as if it were part of the interpretation. | Split the line and cite the governing neighbor instead of stretching interpretive-view prose across that boundary. |
 
 ### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -36386,7 +36367,7 @@ Apply these checks to the interpretation and claims actually made.
 | Letting atlas language become the default meaning of every interpretive case | The fullest visible interpretive form silently becomes the family head. | Keep ordinary thinner interpretive views admissible and say when atlas form is actually needed. |
 | Treating qualifier refs as the view's semantic center | Metrics, transitions, or distortion notes then replace the base substrate. | Keep the base substrate and inspection question explicit, and keep qualifier refs optional. |
 | Letting a derived tradition view replace its base palette | The reader loses palette-first recoverability and mistakes one local interpretation for the default ontology. | Keep `DerivedViewKind` and `BasePaletteRef` visible together. |
-| Turning the interpretive view into publication or pool policy | The reader can no longer tell whether the text is helping interpret the line or deciding what survives and gets published. | Keep `G.5`, `G.10`, `C.19`, and `C.24` outside this pattern. |
+| Turning the interpretive view into publication or pool policy | The reader can no longer tell whether the text is helping interpret the line or deciding what survives and gets published. | Separate the interpretation from selector, publication and live-pool decisions; apply their governing patterns in §4.10. |
 | Forcing atlas form into every first reading | Simple cases become over-typed and harder to use. | Start with the thinner interpretive-view form and widen only when the current need genuinely requires it. |
 
 ### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:9 - Consequences
@@ -36405,20 +36386,7 @@ Apply these checks to the interpretation and claims actually made.
 
 ### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:10 - Rationale
 
-The family needs one common interpretive-view pattern because neither of the earlier extremes is good enough.
-
-If everything stays in the substrate, the substrate starts carrying interpretive and atlas-form requirements that are not part of its semantic center.
-
-If everything stays inside one local specialization such as `G.2`, the common interpretive requirement gets trapped inside one tradition-facing case and starts looking like a local accident rather than a reusable family.
-
-`A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW` is the middle answer:
-
-- it keeps the interpretive layer generic and reusable;
-- it keeps the layer explicitly under existing view law;
-- it lets ordinary thinner interpretive views remain first-class;
-- and it reserves atlas-form reading for the cases that truly need it.
-
-That is why `DeclaredSubstrateAtlasView` appears here as one richer interpretive specialization, while `TraditionAtlasView` remains one `G.2` specialization of it rather than the common head.
+An inspection question determines which aspects and connections of a declared substrate need to be shown. Keeping the source sets, relevant results and material qualifications recoverable lets the reader inspect those connections without changing the substrate; thin or atlas form supplies the amount of explanation the question needs.
 
 ### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:11 - SoTA-Echoing
 
@@ -36426,12 +36394,12 @@ That is why `DeclaredSubstrateAtlasView` appears here as one richer interpretive
 | --- | --- | --- | --- | --- |
 | Interpretive readings should remain entityOfConcern-preserving views rather than becoming fresh semantic centers. | `A.6.3` preserves EntityOfConcern between source and receiving epistemes; `E.17.0` adds independent viewpoint conformance for `U.View`. | `IV-0`, `IV-1`, `IV-8`, `CC-A19IV-2`, `CC-A19IV-3`. | Keeps interpretive prose from quietly turning into retargeting or new view-law invention. | **Adopt.** Reuse the existing view law directly rather than minting one local alternative. |
 | Palette-first SoTA synthesis already treats atlas interpretation as optional neighboring interpretation rather than the default meaning of `Tradition` or `SoTAPaletteDescription`. | `G.2:4.7` already keeps `TraditionAtlasView` as optional neighboring interpretation and preserves palette-first recoverability. | `IV-5`, `IV-6`, `IV-7`, `CC-A19IV-5`, `CC-A19IV-8`, worked slice `5.2`. | Keeps atlas form available without letting the most salient visible interpretive layer replace the base palette or family head. | **Adopt/Adapt.** Adopt palette-first recoverability and adapt it into one reusable common interpretive family. |
-| FPF keeps richer map, metric and transition qualifications conditional on the inspection question. | The bounded QD and atlas comparisons in `A.19.SOURCE-SET-SPACE-SUBSTRATE:11` motivate this design choice; they do not establish it as a universal rule of contemporary practice. | `IV-4`, `IV-5`, `IV-6`, `CC-A19IV-5`, `CC-A19IV-6`, `CC-A19IV-7`. | Keeps thinner interpretation admissible, keeps atlas interpretation reusable but non-default, and prevents rich formal qualifier from being smuggled in by default. | **Adapt.** Keep richer formal qualifier available without pretending it is the baseline for every interpretive reading. |
+| FPF keeps richer map, metric and transition qualifications conditional on the inspection question. | The bounded QD comparisons in `A.19.SOURCE-SET-SPACE-SUBSTRATE:11` motivate this design choice; they do not establish it as a universal rule of contemporary practice. | `IV-4`, `IV-5`, `IV-6`, `CC-A19IV-5`, `CC-A19IV-6`, `CC-A19IV-7`. | Keeps thinner interpretation admissible, keeps atlas interpretation reusable but non-default, and prevents rich formal qualifier from being smuggled in by default. | **Adapt.** Keep richer formal qualifier available without pretending it is the baseline for every interpretive reading. |
 
 ### A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:12 - Relations
 
 - **Builds on:** `A.19.SOURCE-SET-SPACE-SUBSTRATE`, `A.19`, `A.6.3`, `E.17.0`, `E.17`.
-- **Coordinates with:** `G.2`, `G.5`, `G.10`, `C.19`, `C.24`, `A.6.P`, `A.0`.
+- **Coordinates with:** `G.2`, `G.5`, `G.10`, `C.19`, `C.24`, `E.24.PUB`, `A.6.P`, `A.0`.
 - **Specialized locally by:** `DeclaredSubstrateAtlasView`, and in palette-first tradition work `TraditionAtlasView` under `G.2`.
 - **Does not replace:** substrate declaration, selector outcome publication, shipping metadata, or live candidate-pool / enactment policy.
 
@@ -37146,7 +37114,7 @@ select (SelectorMechanism)
 
 * The `fold_Γ` step is optional (explicitly optional, not implicit inside `score/compare/select`).
 * `suite_protocols` encodes a pipeline/Uses contour between mechanisms; it does **not** define a specialisation relation (`⊑/⊑⁺`). A claimed refinement, conservative extension or equivalence uses its own `A.6.1 §4.8` content-preservation test, exact predicate and endpoint facts, including the applicable A.6.RCD missing-governor/substrate branch. Project extensions retain their independently declared restrictions; a pipeline order or ⊑/⊑⁺ label establishes no such comparison.
-* Any publish/telemetry step is **outside** `suite_protocols` (to preserve WF‑MS‑2 closure) and is governed by established publication patterns (G.10 and/or PTM), not as “hidden tails” inside CHR mechanisms.
+* Any publish/telemetry step is **outside** `suite_protocols` (to preserve WF-MS-2 closure) and follows the rules for that separate use. `G.10` governs shipping Part-G outputs as a `SoTA-Pack`; `E.24.PUB` governs episteme availability, form and carrier claims. These steps are not hidden continuations of CHR mechanisms.
 
 #### A.19.CHR:4.6 - P2W hook: planned edition and reference baseline
 
@@ -37339,10 +37307,10 @@ If `suite_protocols` is present, a conforming `CHRMechanismSuiteDescription` SHA
 If `suite_protocols` is present, a conforming `CHRMechanismSuiteDescription` SHALL include at least one protocol equivalent to:
 `normalize (UNM) → indicatorize (UINDM) → score (USCM) → fold_Γ? (ULSAM) → compare (CPM) → select (SelectorMechanism)`,
 where `fold_Γ` is explicitly optional.
-Any publish/telemetry continuation is governed externally (e.g., by G.10 and/or PTM) and MUST NOT be encoded as a `ProtocolStep` inside `suite_protocols` (to preserve WF‑MS‑2 closure).
+Any publish/telemetry continuation follows its applicable rules: G.10 for Part-G pack shipping and E.24.PUB for episteme availability, form or carrier claims. It MUST NOT be encoded as a `ProtocolStep` inside `suite_protocols` (to preserve WF-MS-2 closure).
 
 **CC‑A67CHR‑9 (Packaging separation).**
-A publish/telemetry continuation is outside `suite_protocols` and governed by G.10 and/or PTM. The suite description itself is not the shipping publication.
+A publish/telemetry continuation is outside `suite_protocols` and follows its applicable rules. G.10 governs Part-G pack shipping; E.24.PUB governs episteme availability, form and carrier claims. The suite description itself is not the shipping publication.
 
 #### A.19.CHR:7.2 - Planned baseline checks
 
@@ -37433,7 +37401,7 @@ The two primary specifications are source models and a serious comparator; the c
 #### A.19.CHR:12.2 - Coordinates with
 
 * **G.5** (selector semantics, set-return defaults, archive semantics and report-only illumination discipline)
-* **G.10** and **PTM** (publication and telemetry as external steps, not suite internals)
+* **G.10** for Part-G pack shipping and **E.24.PUB** for episteme availability, form or carrier claims; publication and telemetry remain external steps, not suite internals
 * **A.21 OperationalGate(profile)** and **USM.Guards** (gate-level decisions and reserved guard pins)
 * **C.23 SoS‑LOG** (explicit degrade branches such as probe-only and sandbox)
 
@@ -37934,11 +37902,10 @@ Engineering teams routinely need to decide “which characteristics count as ind
 
 4. **Auditability vs authoring overhead.** Engineer‑managers need to see *why* an indicator set was chosen and *which editions/policies* were in effect, but FPF stays conceptual (no data governance, no tool‑enforced metadata). Audit obligations must therefore be minimal yet decisive.
 
-5. **Evolvability vs didactic usability.** CHR mechanisms must remain evolvable (stable slot lexicon; method specifics in SoTA packs / wiring), while the spec must remain teachable: a reader should find UINDM’s purpose, boundary, laws, guard behavior, and audit obligations in one place.
 
-6. **Fail‑closed discipline.** Unknown/insufficient evidence must never be coerced into “pass”; tri-state guards (`pass|degrade|abstain`) state the policy's disposition of uncertainty; their correctness still depends on the evidence and rule used.
+5. **Fail‑closed discipline.** Unknown/insufficient evidence must never be coerced into “pass”; tri-state guards (`pass|degrade|abstain`) state the policy's disposition of uncertainty; their correctness still depends on the evidence and rule used.
 
-7. **P2W separation and gate/guard separation.** UINDM must expose eligibility and audit pins without turning into (i) a WorkPlanning baseline binder or (ii) an admissibility gate:
+6. **P2W separation and gate/guard separation.** UINDM must expose eligibility and audit pins without turning into (i) a WorkPlanning baseline binder or (ii) an admissibility gate:
    planned slot fillings belong to WorkPlanning plan items, while GateDecision/GateLog live in gate patterns / WorkEnactment (suite protocols remain mechanism‑steps only).
 
 ### A.19.UINDM:4 - Solution
@@ -38024,8 +37991,8 @@ For example, select Celsius temperature twice from CS7 under the same policy in 
   When a receiving conclusion depends on a relation between different planes, cite that exact plane relation, its direction and loss, and keep its use separate from the indicator set.
 * **Audit:**
 
-  * MUST record: `CharacteristicSpaceRef`, the separate `characteristicSpaceDescriptionRef: U.EpistemeRef` pinned in CN-Spec, `CNSpecRef.edition`, `IndicatorChoicePolicyRef.edition`, exact bearer, claim scope and selected slices, qualification window, evidence basis, and intended use.
-  * When evidence‑gated, MUST record: `CGSpecRef.edition` and effective MinimalEvidence (`MinimalEvidenceRef` when provided; otherwise `CGSpecSlot.MinimalEvidence`).
+  * MUST record the following values when resolved: `CharacteristicSpaceRef`, the separate `characteristicSpaceDescriptionRef: U.EpistemeRef` pinned in CN-Spec, `CNSpecRef.edition`, `IndicatorChoicePolicyRef.edition`, exact bearer, claim scope and selected slices, qualification window, evidence basis, and intended use. Identify any required value that remains missing or unresolved.
+  * When evidence‑gated, MUST record the following when resolved: `CGSpecRef.edition` and effective MinimalEvidence (`MinimalEvidenceRef` when provided; otherwise `CGSpecSlot.MinimalEvidence`).
   * SHOULD record: the realized `GuardDecision` (`pass|degrade|abstain`) and, when non‑`pass`, the policy‑bound failure behavior reference that justified it.
   * SHOULD record: a stable description of `IndicatorSetSlot` (or an id reference to a **citable** indicator-set publication unit), plus any F.9 Bridge, kind relation, or plane relation only when the result or receiving use actually relies on it.
 
@@ -38089,7 +38056,6 @@ Suppose a different space `CS8` reverses these two positions. Select CS8 and its
 
 * **Prag (pragmatics).** Bias toward fail‑closed guards and traceability under uncertainty. Risk: more `abstain/degrade` outcomes early. Mitigation: couple `degrade` with explicit downstream behaviors (policy‑bound) rather than silent coercions.
 
-* **Did (didactics).** Bias toward “one place to learn the mechanism”: the problem/forces/solution narrative is co‑located with the operation declaration.
 
 ### A.19.UINDM:7 - Conformance Checklist
 
@@ -38576,14 +38542,14 @@ How do we define an aggregation step that:
 3) is **Γ‑fold-policy-bound** (`CG‑Spec.Γ_fold` or explicit override),
 4) is **evidence-gated** with tri‑state guards (no `unknown → 0/false` coercions),
 5) is **auditable** (editions, effective fold, contributor surface),
-6) preserves **kernel stability** while allowing SoTA evolution via wiring,
-7) remains **didactically readable** (one governing pattern; no scavenger hunt).
+6) preserves **kernel stability** while allowing SoTA evolution via wiring.
+
 
 ### A.19.ULSAM:3 - Forces (normative)
 
 - **Lawfulness vs convenience.** The most “convenient” aggregation (e.g., weighted sums) is often illegal across scales/units; lawful folds require explicit constraints.
 - **Explicitness vs brevity.** A single scalar is short to discuss, but expensive in hidden assumptions.
-- **Kernel stability vs method evolution.** Aggregation methods evolve; the kernel must not.
+- **Stable declaration vs method variation.** Different realizers can use the same operation declaration while preserving its argument meanings, fold law and guard. Changing that content requires explicit selection of the changed declaration.
 - **Evidence gating vs “always return a number.”** The mechanism must support abstain/degrade rather than coercion.
 - **Optional stage vs pipeline clarity.** `fold_Γ?` is optional in CHR protocols; optionality must be explicit (not implicit “sometimes scoring folds”).
 - **Auditability vs minimal overhead.** Recording contributor sets and effective pins adds overhead but prevents semantic drift.
@@ -38675,10 +38641,10 @@ For example, two separate lawful sums of admitted 2 kg and 3 kg measurements und
 * **PlaneRegime:** each contributor and aggregated measure keeps its declared reference plane; ULSAM introduces no plane crossing. When a result depends on a relation between planes, cite that relation, its direction and loss, and keep the receiving use separate.
 
 * **Audit:**
-  * MUST record: the admitted measure set and grouping or membership basis; `CNSpecRef.edition`, `CGSpecRef.edition`, and effective `ΓFoldRef`; claim scope and selected slices, qualification window, intended result, and the aggregated measure.
+  * MUST record the proposed measure set and its grouping or membership basis when available, including the admitted portion when established; the `CNSpecRef.edition`, `CGSpecRef.edition`, and effective `ΓFoldRef` that were resolved; and the available claim scope, selected slices, qualification window, and intended result. Identify any required value that remains missing or unresolved. MUST record the aggregated measure if `Fold_Γ` returned one.
   * MUST record the evidence refs used to admit the measure set and evaluate `FoldEligibility_Γ`.
   * If `GammaFoldSlot` resolves via an explicit override, SHOULD record the override’s `policy-id` (or its stable ref) alongside `ΓFoldRef`.
-  * When `MinimalEvidenceSlot?` is present, MUST record `MinimalEvidenceRef`; otherwise MUST cite `CGSpecSlot.MinimalEvidence` as the effective evidence policy.
+  * When `MinimalEvidenceSlot?` is present, MUST record its resolved `MinimalEvidenceRef` or identify the override as unresolved. When no override is supplied, MUST cite the resolved `CGSpecSlot.MinimalEvidence` or identify the default policy as missing or unresolved.
   * When `ContributorSetSlot?` is produced, SHOULD record it (or an id reference) as an auditable explanation surface.
   * SHOULD record: any explicit UNM invocation ids/pins when folding presumes a compare‑on‑invariants surface established by UNM.
   * SHOULD record: an F.9 Bridge, kind relation, aggregation or membership relation, or plane relation only when the fold or receiving use actually relies on that obtaining relation.
@@ -38688,7 +38654,7 @@ For example, two separate lawful sums of admitted 2 kg and 3 kg measurements und
 
 - **Identify the fold and its governing conditions.** The fold is the aggregation rule; ΓFoldRef identifies the selected rule. Its use is a policy-level commitment: `GammaFoldSlot` MUST be resolvable to `CGSpecSlot.Γ_fold` routing or an explicit pinned override. An actual calculation can still have occurred without that citation, but its conformance and reuse basis remain unresolved until the rule is recovered.
 - **ULSAM is not normalization.** ULSAM does not establish comparability by itself: it does not normalize, rescale, or “align units” as a hidden convenience. If a compare‑on‑invariants surface is required, invoke UNM explicitly upstream and cite the effective pins in Audit.
-- **Prefer vector semantics when possible.** If you do not strictly need one aggregated measure, keep measures separate and let `CPM` + `SelectorMechanism` operate on a partial order (set-return semantics). A fold can discard distinctions; state which distinctions the declared fold preserves and loses.
+- **Keep separate measures when sufficient.** If separate measures answer the receiving question, keep them separate. Use `CPM` for a needed comparison and `SelectorMechanism` for a needed selection, under their declared partial-order and set-return rules. A fold can discard distinctions; state which distinctions the declared fold preserves and loses.
 - **Recover the actual contributors.** Existing input and calculation content may already establish the contributor subset; use the optional ContributorSet output when it supplies needed recoverability. Equal numbers from different contributors remain distinct measures: two boxes each measured as 2 kg contribute twice to their total, rather than collapsing to the bare set {2}. Conversely, copying the assertion about one box does not make two boxes or authorize counting its mass twice. Any ordering, multiplicity or weight consumed by the fold must be declared in its grouping basis or rule. Excluding a contributor may change a total into a partial total; retain that distinction in the result instead of treating missing input as zero.
 - **Time-fold is a specialization, not a loophole.** The base ULSAM declares `Γ_timePolicy` and allows time-fold only via explicit windowing policy. If a project needs an explicit `FoldTime_Γ` operator, declare it with its additional operation and arguments, preserve inherited meanings and test the claimed extension under A.6.1 §4.8. The local `⊑⁺` label alone establishes no preservation result.
   - Use the suite lexicon token `GammaTimeRuleSlot` for the additional windowing rule input; do not overload `GammaFoldSlot` or invent a generic context input to carry time semantics.
@@ -38717,7 +38683,7 @@ For example, two separate lawful sums of admitted 2 kg and 3 kg measurements und
    The audit records ΓFoldRef and makes the actual contributors recoverable, with the optional contributor output when needed. If no justified fold answers the readiness question, retain the separate measures and their direct criteria.
 
 **Scenario B (engineer-facing): proposed aggregation across different bases.**
-- A project tries to fold measures with different bearers, membership rules, scales, comparison bases, or reference planes. ULSAM first checks whether one admitted set and lawful fold can be stated. If the conclusion relies on an F.9 Bridge, kind relation, aggregation or membership relation, or plane relation, the project cites that exact obtaining relation and its loss; otherwise it constitutes separate folds or fails closed.
+- A project tries to fold measures with different bearers, membership rules, scales, comparison bases, or reference planes. ULSAM first checks whether one admitted set and lawful fold can be stated. If the conclusion relies on an F.9 Bridge, kind relation, aggregation or membership relation, or plane relation, the project cites that exact obtaining relation and its loss. If a required relation is absent or unresolved, keep independently supported folds separate or abstain from the dependent fold.
 
 ### A.19.ULSAM:6 - Bias-Annotation (informative)
 
@@ -38725,9 +38691,9 @@ This pattern intentionally biases CHR authoring toward **explicit aggregation bo
 
 * **Gov (governance).** Bias toward auditable folds (editions, effective ΓFoldRef, contributor surfaces). Risk: perceived overhead. Mitigation: keep the signature stable and move method specifics to SoTA wiring.
 * **Arch (architecture).** Bias toward keeping `fold_Γ` a distinct stage (no leakage into score/compare/select). Risk: longer pipelines. Mitigation: the stage is explicitly optional (`fold_Γ?`) and can be omitted when not required.
-* **Onto/Epist (ontology/epistemology).** Bias toward scale-lawful aggregation (no illegal ordinal arithmetic; SCP-bound). Risk: forbids many informal “single-number” habits. Mitigation: use partial orders and set-return selection unless a lawful fold is truly needed.
+* **Onto/Epist (ontology/epistemology).** Bias toward scale-lawful aggregation (no illegal ordinal arithmetic; SCP-bound). Risk: forbids many informal “single-number” habits. Mitigation: retain separate measures when sufficient; use partial-order comparison or set-return selection when the receiving question needs it.
 * **Prag (practice).** Bias toward policy-bound defaults (no “implementation default Γ‑fold”). Risk: teams must name policies. Mitigation: provide conservative defaults in `CG‑Spec.Γ_fold` and keep overrides explicit.
-* **Did (didactic).** Bias toward one-governing pattern readability (this pattern is the governing pattern; no scavenger hunt). Risk: duplication temptation elsewhere. Mitigation: enforce Tell+Cite canonicalization.
+
 
 ### A.19.ULSAM:7 - Conformance Checklist (normative)
 
@@ -38740,7 +38706,7 @@ This pattern intentionally biases CHR authoring toward **explicit aggregation bo
 | **CC‑A19ULSAM‑4** | **Γ‑fold admissibility:** a conformant ULSAM publication MUST ensure `GammaFoldSlot` resolves to `CGSpecSlot.Γ_fold` or an explicitly pinned override (CAL policy). "Implementation default fold" is non-conformant. |
 | **CC‑A19ULSAM‑5** | **Evidence gating:** a conformant ULSAM publication MUST guard folding via `FoldEligibility_Γ` with `GuardDecision ∈ {pass|degrade|abstain}`; missing/unknown evidence MUST NOT yield `pass`. If `MinimalEvidenceSlot?` is absent, the guard MUST evaluate against `CGSpecSlot.MinimalEvidence`. |
 | **CC‑A19ULSAM‑6** | **SlotKind discipline:** SlotKind tokens used in the ULSAM intension MUST come from the CHR SlotKind Lexicon (`A.19.CHR:4.2.1`). New SlotKinds require lexicon extension first. |
-| **CC‑A19ULSAM‑7** | **Audit surface:** Audit MUST record `CNSpecRef.edition`, `CGSpecRef.edition`, and the effective `ΓFoldRef`; and MUST record `MinimalEvidenceRef` when overridden (else cite `CGSpecSlot.MinimalEvidence`). |
+| **CC‑A19ULSAM‑7** | **Audit surface:** Audit MUST record the resolved `CNSpecRef.edition`, `CGSpecRef.edition`, and effective `ΓFoldRef`; and MUST record a resolved `MinimalEvidenceRef` when overridden, or the resolved `CGSpecSlot.MinimalEvidence` otherwise. Identify missing or unresolved required values as such. |
 | **CC‑A19ULSAM‑8** | **Contributor accountability:** when `ContributorSetSlot?` is produced, it SHOULD be recorded (or referenced by stable id) as an explanation surface for what contributed after admissibility/evidence gating. |
 | **CC‑A19ULSAM‑9** | **P2W separation:** on a P2W path, the A.15.2 baseline MUST select the intended fold/evidence policies and editions. A.15.3 typed filling applies only to independently declared positions. Actual Fold_Γ bindings MUST obtain under §4.1 and remain distinct from planned values and their Audit representation. |
 | **CC‑A19ULSAM‑10** | **Gate/guard separation:** ULSAM MUST NOT embed GateDecision/GateLog or publish/telemetry operations in the `fold_Γ?` stage; admissibility is via `FoldEligibility_Γ` (tri‑state) and run‑time observability via `Audit` pins only. |
@@ -38751,11 +38717,11 @@ This pattern intentionally biases CHR authoring toward **explicit aggregation bo
 | Anti-pattern | Symptom | Why it fails in FPF | How to avoid |
 |---|---|---|---|
 | Hidden rollup inside scoring | “Our score already averages everything.” | Violates the “no hidden aggregation” law and hides Γ‑fold identity. | Keep `USCM.Score` scoring-only; use `ULSAM.Fold_Γ` as an explicit stage. |
-| Averaging ordinals | Means on ranks/levels, or unitless mixing | Illegal under CSLC/SCP unless explicitly allowed. | Keep ordinal outputs as ordinal; compare via CPM; if folding is required, use an ordinal-legal fold explicitly declared by Γ_fold policy. |
+| Averaging ordinals | Means on ranks/levels | Illegal under CSLC/SCP unless explicitly allowed. | Keep ordinal outputs as ordinal; use CPM if a comparison is needed; if folding is required, use an ordinal-legal fold explicitly declared by Γ_fold policy. |
 | Implementation default Γ‑fold | "If not specified, we use X." | Breaks replayability and violates Γ‑fold admissibility. | Require `GammaFoldSlot` to resolve to `CGSpecSlot.Γ_fold` or pinned override. |
 | Coercing unknown to a number | “Missing metric becomes 0.” | Violates tri-state guard discipline; silently changes meaning. | Use `FoldEligibility_Γ` with `{pass|degrade|abstain}` and record the effective evidence policy. |
-| Folding after the admitted set or basis changed | Measures with different bearers, membership rules, scales, scopes or windows, comparison bases, or planes are folded “as-is” | The result no longer follows from one declared set and lawful fold; relation labels cannot repair that gap. | Re-establish the admitted set and eligibility. Cite an obtaining relation and supported loss only when the fold or receiving use actually relies on it; otherwise keep separate folds or abstain. |
-| Treating fold_Γ as mandatory | Always folding even when not needed | Unnecessary aggregation can hide distinctions needed by the receiving use. | Keep `fold_Γ?` explicitly optional in protocols; prefer vector+CPM+Selector when possible. |
+| Folding after the admitted set or basis changed | Measures with different bearers, membership rules, scales, scopes or windows, comparison bases, or planes are folded “as-is” | The result no longer follows from one declared set and lawful fold; relation labels cannot repair that gap. | Re-establish the admitted set and eligibility. Cite an obtaining relation and supported loss only when the fold or receiving use actually relies on it. If a required relation is absent or unresolved, keep independently supported folds separate or abstain from the dependent fold. |
+| Treating fold_Γ as mandatory | Always folding even when not needed | Unnecessary aggregation can hide distinctions needed by the receiving use. | Keep `fold_Γ?` explicitly optional in protocols; retain separate measures when sufficient, and use `CPM` or `SelectorMechanism` for a needed comparison or selection. |
 
 ### A.19.ULSAM:9 - Consequences (didactic, informative)
 
@@ -38797,7 +38763,7 @@ Keeping ULSAM as its own mechanism preserves:
 - `A.19.UINDM`, `A.19.USCM`, `A.19.CPM`, and `A.19.SelectorMechanism` as adjacent CHR stages (Uses contour; no governing-pattern assignment transfer).
 - Part G SoTA packs and wiring (`G.2` + `G.*:Ext.*`) for method family selection and edition/policy binding.
 
-### A.19.ULSAM:13 - SoTA-Echoing (informative; not a center of gravity)
+### A.19.ULSAM:13 - SoTA-Echoing (informative)
 
 SoTA here is treated as **method-family source publications and `G.2` claim sheets to be wired** through `G.*:Ext.*` wiring, not as kernel semantics. ULSAM’s contribution is the stable boundary: explicit, admissible, auditable folding.
 
@@ -39187,7 +39153,7 @@ Concrete comparator-family SoTA packages are cited through their current Part G 
 **Relates to (typical named patterns in the CHR Uses contour):**
 
 * `UNM.IntensionRef`, `UINDM.IntensionRef`, `USCM.IntensionRef`, `ULSAM.IntensionRef`, and `SelectorMechanism.IntensionRef` (downstream consumer of CPM results).
-* `G.5` (selection conformance), `G.9` (parity and benchmark harness), `G.10` and PTM (publication and telemetry outside suite closure).
+* `G.5` (selection conformance), `G.9` (parity and benchmark harness), `G.10` for Part-G pack shipping and `E.24.PUB` for episteme availability, form or carrier claims. Publication and telemetry remain outside suite closure.
 
 ### A.19.CPM:End
 
@@ -39203,7 +39169,7 @@ Concrete comparator-family SoTA packages are cited through their current Part G 
 * **What it is:** a universal **set-returning** selection kernel: it takes candidates, admissible comparison outcomes, and explicit criteria, and returns a **selected set**, not a forced single winner.
 * **Why it exists:** to prevent three recurring failure modes: **hidden thresholds**, **silent scalarization**, and **winner‑take‑all defaults** under partial orders and uncertain evidence.
 * **Use this when:** admitted candidates must be selected under explicit criteria after comparison. Identify the candidate universe and choice rule, recover the required comparisons and their conditions, then return the justified subset. Stop with comparison when the receiving question needs no selection; a selection result alone supplies no authorization to act.
-* **What this buys:** the practitioner gets one selected-set value whose criteria, finite basis of exact upstream binary CPM applications, required comparison coverage, token provenance, scope, predicate basis, plane, window, and policy bindings are explicit. `degrade` and `abstain` remain eligibility values, not selected-set members or alternative result kinds.
+* **What this buys:** the practitioner gets one selected-set value whose criteria, finite basis of exact upstream binary CPM applications, required comparison coverage, token provenance, scope, any governing A.19 predicate, plane, window, and policy bindings are explicit. `degrade` and `abstain` remain eligibility values, not selected-set members or alternative result kinds.
 * **First output:** read the by-value candidate set bound to `SelectionSlot`. Read the candidate universe, finite upstream CPM application basis, required pair coverage, derived comparison-token union, selection conditions, claim scope and context slices, reference plane, evaluation window, eligibility value, and evidence use from the actual `Select` application and direct neighboring relations; they are not fields inside the selected set.
 * **How it evolves:** method semantics and SoTA algorithm families connect via `G.2` packs and wiring modules; the kernel signature stays stable and teachable.
 * **Suite stage:** `select` (ordering lives only in `A.19.CHR:4.5` and `suite_protocols`; suite membership is a set in `A.19.CHR:4.2`).
@@ -39225,7 +39191,7 @@ Within the suite‑closed protocol, `SelectorMechanism` appears as the `select` 
 
 * consume **admissible** comparison outcomes without collapsing them into a hidden scalar,
 * apply **explicit** criteria and policy references, and
-* return a **selected-set** result whose defaults are policy-bound and whose dated work, actual `Select` application, `SelectionSlot` binding, and evidence-provenance basis can be replayed.
+* return a **selected-set** result under policy-bound defaults, with the actual `Select` application and its argument and result bindings recoverable; dated Work and evidence-provenance grounds enter when the account asserts them or the receiving use consumes them.
 
 The kernel uses the CHR suite SlotKind lexicon (`A.19.CHR:4.2.1`) to prevent SlotKind drift across specializations and across SoTA wiring layers.
 
@@ -39261,7 +39227,7 @@ If selection is not a first‑class mechanism boundary with stable semantics, th
 
 4. **Evidence discipline vs delivery pressure.** Under uncertainty, teams default to coercion (unknown → pass). The kernel must enforce tri‑state eligibility and fail‑closed discipline.
 
-5. **Replayability vs conceptual minimalism.** The mechanism declaration stays small, while dated selection work, the actual `Select` application and its argument and `SelectionSlot` bindings, and the evidence-provenance path retain the effective editions, policies, candidates, and selected set needed for replay.
+5. **Replayability vs conceptual minimalism.** The mechanism declaration stays small. Replay recovers the actual `Select` application, its argument and `SelectionSlot` bindings, effective editions, policies, candidates, and selected set. Dated selection Work and evidence-provenance retain their independent grounds when asserted by the account or consumed by the receiving use.
 
 6. **Evolvability vs didactic usability.** The kernel must be stable enough to support SoTA wiring and specialisation chains, but also teachable: one place states the mechanism boundary, laws, eligibility behavior, and the neighboring replay basis for realized use.
 
@@ -39298,7 +39264,7 @@ Method semantics and SoTA algorithm families do not live inside the kernel: they
 
 * **Purpose:** universal set‑returning selection kernel over candidates and criteria; defaults remain policy‑bound; **no hidden thresholds**.
 
-* **Imports:** `A.6.1:4.8 (exact declaration comparisons)`, `A.6.1 (operation-local declarations and bindings)`, `A.19.CN (CN‑Spec governance card)`, `C.22 (TaskSignature as a policy-reference artifact when used)`, `G.5 (selector conformance and default selection policy)`, `G.0 (CG‑Spec admissibility and evidence gates)`, `A.19.CHR:4.2.1 (CHR SlotKind Lexicon)`.
+* **Imports:** `A.6.1:4.8 (exact declaration comparisons)`, `A.6.1 (operation-local declarations and bindings)`, `A.19.CN (CN-Spec comparison basis and use conditions)`, `C.22 (TaskSignature as a policy-reference artifact when used)`, `G.5 (selector conformance and default selection policy)`, `G.0 (CG‑Spec admissibility and evidence gates)`, `A.19.CHR:4.2.1 (CHR SlotKind Lexicon)`.
 
 * **EntityOfConcernRef:** the selection operation family declared by `Select` and `SelectEligibility` in this section.
 
@@ -39306,8 +39272,8 @@ Method semantics and SoTA algorithm families do not live inside the kernel: they
 
 * **Direct signature components:**
 
-  * **SubjectKind:** `Selection`.
-  * **RangedValueKind:** pair of values `<admitted candidate set, relation or poset token set over the same candidate universe>`.
+  * **SubjectKind:** candidate set, supplied through `CandidateSetSlot` in both `Select` and `SelectEligibility`. An incomplete eligibility proposal can leave this argument unbound under the rule below.
+  * **RangedValueKind:** pair of values `<admitted candidate set, relation or poset token set over the same candidate universe>`, carried respectively by `CandidateSetSlot` and `ComparisonResultSlot` in both operations.
   * Results are operation-local: the selected candidate set and the separate guard judgment.
   * Input qualification: selection ranges over one admitted candidate set and the exact union of justified relation or poset tokens from a finite basis of binary CPM applications whose pair endpoints lie in that candidate set and whose coverage satisfies the explicit selection conditions, all in one exact `U.ClaimScope`; selected `U.ContextSlice` values are members of that scope under A.2.6 and do not create duplicate membership.
 
@@ -39370,7 +39336,7 @@ For example, use the admitted incomparable supplier pair from A.19.CPM §4.1 and
 * **AdmissibilityConditions** (tri-state guard; fail-closed on missing admissibility, comparison coverage, token provenance, or evidence)
 
   * `SelectEligibility(CandidateSetSlot, ComparisonResultSlot, CriteriaSlot, CNSpecSlot, CGSpecSlot, TaskSignatureSlot?, MinimalEvidenceSlot?; selection-use bindings) → GuardDecision ∈ {pass|degrade|abstain}`.
-  * `pass` requires: (i) every basis member's exact pair lies inside `CandidateSetSlot`; (ii) the basis covers every binary comparison required by the candidate universe and explicit selection conditions; (iii) every consumed relation token traces to a member's own output binding; (iv) explicit selection conditions and tie-breakers; (v) compatible A.19 predicate basis, claim scope, selected A.2.6 context slices, reference plane, and evaluation window across the basis and selection; (vi) coherent CN-Spec and CG-Spec editions; and (vii) satisfied admission, acceptance, and effective MinimalEvidence predicates under their direct owners.
+  * `pass` requires: (i) every basis member's exact pair lies inside `CandidateSetSlot`; (ii) the basis covers every binary comparison required by the candidate universe and explicit selection conditions; (iii) every consumed relation token traces to a member's own output binding; (iv) explicit selection conditions and tie-breakers; (v) compatible claim scope, selected A.2.6 context slices, reference plane, and evaluation window across the basis and selection, together with any A.19 predicate governing the comparisons or selection criteria; (vi) coherent CN-Spec and CG-Spec editions; and (vii) satisfied admission, acceptance, and effective MinimalEvidence predicates under their direct owners.
   * If `MinimalEvidenceSlot` is absent, `SelectEligibility` MUST evaluate evidence against `CGSpecSlot.MinimalEvidence` by explicit rule, and missing or unknown evidence MUST NOT yield `pass`.
   * A basis member with `GuardDecision = degrade` may support a reduced set only when a current selector policy names the exact candidate-level failure behavior and the remaining basis still covers the comparisons required for that reduced use. The actual selection application binds that policy and its own realized eligibility value.
   * A missing required comparison, untraceable token, or required basis member with `GuardDecision = abstain` makes `SelectEligibility = abstain`; selection does not proceed and no selected-set output is created.
@@ -39380,7 +39346,7 @@ For example, use the admitted incomparable supplier pair from A.19.CPM §4.1 and
   * Intended for the CHR `select` stage after the required finite set of admissible binary comparisons and produces a selected-set value. Selection remains distinct from comparison, acceptance, gate decision, publication, and telemetry.
   * Applicable only when `CNSpecSlot`, `CGSpecSlot`, explicit criteria, the effective evidence policy, and a finite comparison-application basis with complete required coverage and token provenance are current for the candidate universe. Missing declarations or coverage fail closed.
   * Inside the CHR suite, `A.19.CHR:4.5` alone determines stage ordering and optionality.
-  * Every actual selection binds one exact `U.ClaimScope`, selected A.2.6 `U.ContextSlice` members, the finite basis of exact binary CPM applications and their pair, eligibility, and output bindings, the derived token union, A.19 predicate basis, effective reference plane, selection conditions, and explicit evaluation point or interval. There is no implicit latest value and no default window inherited from the predicate or comparison label.
+  * Every actual selection binds one exact `U.ClaimScope`, selected A.2.6 `U.ContextSlice` members, the finite basis of exact binary CPM applications and their pair, eligibility, and output bindings, the derived token union, any A.19 predicate governing the comparisons or selection criteria, effective reference plane, selection conditions, and explicit evaluation point or interval. There is no implicit latest value and no default window inherited from the predicate or comparison label.
   * A selection across reference schemes or planes follows the relations the case actually needs. When it relates two exact F.17 `SchemeSenseCell` values from different semantic contexts, test the F.9 `BridgePredicateProfile` and cite the Bridge only when its direct predicate obtains; state suitability for the named selection use in a separate C.2.1 claim. If that predicate is false or unresolved and the semantic crossing is required by the selection conditions, `SelectEligibility` cannot be `pass`; follow the already declared explicit `degrade` policy when applicable, otherwise `abstain`. When the selection crosses exact ReferencePlanes, cite the applicable plane relation and policy. If both facts are current, state both under their own predicates. A cell or plane difference alone establishes neither relation, and one branch never fabricates the other. Neither relation supplies candidate universe, comparison-application basis or coverage, relation tokens, selection conditions, scope, predicate, or time.
 
 * **Neighboring semantic-Bridge, bounded-use, and reference-plane relations:**
@@ -39392,7 +39358,7 @@ For example, use the admitted incomparable supplier pair from A.19.CPM §4.1 and
   The identified Select application binds the candidate set, finite comparison basis, required coverage, token union, selection-use arguments, policies and returned SelectionSlot. If the account also asserts dated selection U.Work, first establish its A.13 core: the performing System, exact local agential-role kind and membership criterion, and an obtaining assignment of its declared direct species for the relevant scope and time. A.15.1 independently admits that performance; F.6 applies afterward only for precise assignment-bound attribution. The Work identity and extent are not automatically those of one Select application. When the account asserts them or the receiving use consumes them, A.2.4 governs evidence use with its own claim scope and relevance window, A.10 governs reliance and provenance, and G.11 governs source or assertion-edition currentness. A durable selected-set episteme, when needed, is governed by C.2.1, and any current entity-identity inception claim by A.15.PROD. No universal work-result, comparison-result, or selection-result relation is presumed. To replay the selection, recover:
 
   * the candidate set and required binary comparisons; for every basis member, the exact CPM application, pair, realized `GuardDecision`, and its own output binding or explicit absence; and the trace from every consumed token to its producing member;
-  * one `U.ClaimScope`, selected A.2.6 context slices, A.19 predicate basis, effective reference scheme and plane, and evaluation point or interval shared as required by the selection conditions;
+  * one `U.ClaimScope`, selected A.2.6 context slices, the optional A.19 predicate basis (explicitly absent when none governs), effective reference scheme and plane, and evaluation point or interval shared as required by the selection conditions;
   * `CNSpecRef.edition`, `CGSpecRef.edition`, and `TaskSignatureRef.edition` when TaskSignature is used;
   * the effective MinimalEvidence policy, either the explicit override or `CGSpecSlot.MinimalEvidence`;
   * the Selector's realized `GuardDecision` and, for `degrade` or `abstain`, the current failure-behavior policy;
@@ -39411,7 +39377,7 @@ For example, use the admitted incomparable supplier pair from A.19.CPM §4.1 and
 2. **Threshold discipline (acceptance is not selection).** Acceptance and admission thresholds are not selection criteria: they remain in their governing declarations and are applied only through `SelectEligibility`. Selection-level tie-breakers, `PortfolioMode`, and selected-set constraints may exist, but they MUST be explicit in current criteria or policy refs and bound by the actual selection application, never hidden as unnamed constants.
 
 3. **Report‑only summaries inside suite closure.** Any scalar summaries, illumination metrics, or auxiliary “why not chosen” telemetry are report‑only unless explicitly promoted by policy, and MUST NOT be used as hidden dominance rules (`A.19.CHR:4.3.3`).
-   Publishing and telemetry remain outside suite closure and are handled by established publication forms such as `G.10` or `PTM`, not as hidden tails inside selection.
+   Publication and telemetry are separately governed continuations outside suite closure. `G.10` governs shipping Part-G outputs as a `SoTA-Pack`; `E.24.PUB` governs a claim about episteme availability, form or carrier.
 
 4. **Specializations are explicit and disciplined.** A proposed specialization of `SelectorMechanism` must retain these local restrictions:
 
@@ -39427,11 +39393,11 @@ For example, use the admitted incomparable supplier pair from A.19.CPM §4.1 and
 
 ### A.19.SelectorMechanism:5 - Archetypal Grounding — informative
 
-#### A.19.SelectorMechanism:5.1 - Tell
+#### A.19.SelectorMechanism:5.1 - Selection under partial comparisons
 
 When comparisons are partial or set-valued, selection must not pretend there is a single best candidate by default. `SelectorMechanism` makes selection explicit, policy-bound, and replayable: it returns a set, including a singleton when the criteria determine one candidate.
 
-#### A.19.SelectorMechanism:5.2 - Show, U.System example
+#### A.19.SelectorMechanism:5.2 - Deployment options
 
 **Scenario.** A platform team must pick a set of deployment options for a subsystem under multiple criteria: latency, cost, and regulatory risk. Comparisons are multi-criteria and do not induce a total order.
 
@@ -39453,9 +39419,9 @@ When comparisons are partial or set-valued, selection must not pretend there is 
 * If either required comparison involving OptionC instead had `GuardDecision = abstain`, that basis member would have no output binding, `SelectEligibility` would return `abstain`, and no selected-set value would be created. Neither guard value is a member of `ComparisonResultSlot` or `SelectionSlot`.
 * The actual selection or eligibility application, finite CPM application basis, policies and returned value or explicit absence preserve the branch taken. An A.10 provenance account is added for the bounded reliance at issue; any dated Work claim requires the independent grounds in §4.1.
 
-#### A.19.SelectorMechanism:5.3 - Show, U.Episteme example
+#### A.19.SelectorMechanism:5.3 - Analysis-method families
 
-**Scenario.** A methods group selects a declared set of analysis methods for a task. Candidates are method family refs. The group wants diversity in the selected set, but does not want diversity metrics to silently become dominance criteria.
+**Scenario.** A methods group selects a declared set of analysis-method families for a task. Candidates are refs to those families. The group wants diversity in the selected set, but does not want diversity metrics to silently become dominance criteria.
 
 * `CandidateSetSlot` = `{Family1, Family2, Family3, Family4}`
 * The selection conditions declare which binary method-family comparisons are required. A finite basis identifies every relied-on CPM application, its exact pair, eligibility value, and own output binding; the Selector's `ComparisonResultSlot` argument is their exact justified-token union.
@@ -39467,7 +39433,7 @@ When comparisons are partial or set-valued, selection must not pretend there is 
 
 **Outcome.**
 
-* `SelectionSlot` returns a selected set; any archive‑style behavior is a specialization and policy choice, not a hidden kernel default.
+* `SelectionSlot` returns a selected set of those families; any archive‑style behavior is a specialization and policy choice, not a hidden kernel default.
 * The actual `Select` application retains its `TaskSignatureRef.edition`, effective criteria and `SelectionSlot` bindings for later explanation. Add provenance and dated Work only under their independent grounds in §4.1.
 
 ---
@@ -39495,12 +39461,12 @@ This pattern intentionally biases selection authoring toward explicitness and ad
 | **CC-A19SelectorMechanism-5** | **Evidence gating:** `SelectEligibility` returns `pass`, `degrade`, or `abstain`; missing or unknown evidence never yields `pass`. Candidate exclusion or restricted use is explicit in the current criteria or policy bound by the actual selection application. |
 | **CC‑A19SelectorMechanism‑6** | **SlotKind discipline:** SlotKind tokens used in the SelectorMechanism intension MUST come from the CHR SlotKind lexicon (`A.19.CHR:4.2.1`). New SlotKinds require lexicon extension first. |
 | **CC-A19SelectorMechanism-7** | **Bridge and reference-plane discipline:** a semantic crossing cites an F.9 Bridge only between two exact F.17 `SchemeSenseCell` values when its profile applies and direct predicate obtains; its C.2.1 bounded-use claim is separate and `CL` is optional. A ReferencePlane crossing cites its applicable relation and policy separately. A scheme, cell, or plane difference alone establishes neither relation. A false or unresolved required Bridge predicate permits no `pass`; use only the explicit `degrade` or `abstain` route already declared. A.10 enters only for current reliance, and B.3—including any locally defined `R_eff` calculation—only for an actual named assurance claim under its declared domain model and calculation. All remain outside selector-declaration content. |
-| **CC-A19SelectorMechanism-8** | **Replay basis completeness:** recover the actual `Select` application, its candidate set, required binary comparisons, every exact upstream CPM application with pair, eligibility and own output binding or absence, token-to-producer trace, criteria and policy, `U.ClaimScope`, selected A.2.6 context slices, predicate basis, reference scheme and plane, evaluation window, derived token union, and returned `SelectionSlot` binding or explicit absence. Independently recover dated Work through the A.13 core and A.15.1 admission in §4.1, evidence use under A.2.4, reliance and provenance under A.10, currentness under G.11 and a result episteme under C.2.1 only when asserted by the account or consumed by the receiving use. A Select application does not itself require separately admitted upstream comparison Work. The output values carry none of this metadata. |
+| **CC-A19SelectorMechanism-8** | **Replay basis completeness:** recover the actual `Select` or `SelectEligibility` application. Identify actually bound or returned values and required inputs that were missing: the candidate set, required binary comparisons, every exact upstream CPM application with pair, eligibility and own output binding or absence, token-to-producer trace, criteria and policy, `U.ClaimScope`, selected A.2.6 context slices, any governing A.19 predicate (or its explicit absence), reference scheme and plane, evaluation window, derived token union, guard judgment, and any returned `SelectionSlot` binding. An `abstain` judgment has no selection result. Independently recover dated Work through the A.13 core and A.15.1 admission in §4.1, evidence use under A.2.4, reliance and provenance under A.10, currentness under G.11 and a result episteme under C.2.1 only when asserted by the account or consumed by the receiving use. A Select application does not itself require separately admitted upstream comparison Work. The output values carry none of this metadata. |
 | **CC-A19SelectorMechanism-9** | **Planned-filling separation:** on a P2W path, A.15.2 carries intended editions/policies; A.15.3 typed filling applies only to independently declared positions. Actual Select applications carry effective argument/result bindings; dated selection Work and any relied-on A.10 provenance remain separately established. |
 | **CC‑A19SelectorMechanism‑10** | **Extension discipline:** a proposed SelectorMechanism specialization MUST preserve inherited SlotKind designators and their meanings and add no mandatory input to inherited Select. For a claimed refinement, conservative extension or equivalence, apply the corresponding A.6.1 §4.8 preservation test, including application/binding predicates, identity and extent. The exact comparison predicate and endpoint facts must be established; use A.6.RCD’s missing-governor/substrate result when they are absent. The symbols ⊑ and ⊑⁺ alone establish none of these comparisons. |
 | **CC-A19SelectorMechanism-11** | **Guard and gate separation:** `SelectorMechanism` publishes neither `GateDecision` nor `DecisionLog`; `SelectEligibility` returns `pass`, `degrade`, or `abstain` separately from the selected set. |
 | **CC-A19SelectorMechanism-12** | **Selection-condition completeness:** `CriteriaSlot`, effective selector policies and defaults, and any `degrade` failure behavior are explicit and bound by the actual application; acceptance and admission predicates remain separate. |
-| **CC-A19SelectorMechanism-13** | **Selection-scope completeness:** every actual application binds candidate universe, finite exact binary CPM application basis, required comparison coverage, token-to-producer trace, `U.ClaimScope`, selected A.2.6 context slices, A.19 predicate basis, effective reference scheme and plane, and explicit evaluation point or interval. No generic context input, optional structure, batch result, or label supplies them. |
+| **CC-A19SelectorMechanism-13** | **Selection-scope completeness:** every admitted `Select` application binds candidate universe, finite exact binary CPM application basis, required comparison coverage, token-to-producer trace, `U.ClaimScope`, selected A.2.6 context slices, any A.19 predicate governing the comparisons or selection criteria, effective reference scheme and plane, and explicit evaluation point or interval. No generic context input, optional structure, batch result, or label supplies them. |
 | **CC-A19SelectorMechanism-14** | **Output separation:** `SelectionSlot` contains only the by-value selected candidate set. On `abstain` no output is fabricated; a reduced set under `degrade` requires explicit current policy. |
 | **CC-A19SelectorMechanism-15** | **Comparison continuity:** selection cites the finite exact basis of binary CPM applications and may not silently change its membership, required coverage, member pairs, eligibility or output bindings, predicate basis, scope, selected slices, plane, or window. A justified change is a new application and may require recomparison. |
 | **CC-A19SelectorMechanism-16** | **No generic result relation:** the A.6.1 operation application binds `SelectionSlot`; C.2.1 governs a durable selected-set episteme when needed; direct subject patterns govern other result relations. |
@@ -39513,7 +39479,7 @@ This pattern intentionally biases selection authoring toward explicitness and ad
 | Anti-pattern                 | What it looks like                                                              | Remedy                                                                                                                                              |
 | ---------------------------- | ------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
 | GateDecision leakage | `Select` emits `GateDecision` or writes a decision log | Keep gate decisions in their governing patterns. `SelectEligibility` remains the mechanism predicate; the actual application retains its realized eligibility value and direct replay basis. |
-| Forced single winner         | `Select` always returns exactly one candidate even under incomparability        | Return a declared selected set by default; if single winner is required, make it explicit in `CriteriaSlot` and ensure the induced order is admissible and declared |
+| Forced single winner | `Select` always returns exactly one candidate even under incomparability | Return a declared selected set. If a singleton is required, state the choice rule in `CriteriaSlot` and derive that result from the admitted comparison basis; any ordering actually used must be declared and admissible. |
 | Hidden tie-breakers          | “If incomparable, pick lower cost” without declaring that as policy             | Move tie-breakers into explicit criteria or into declared comparator policies; never embed inside the kernel                                        |
 | Scalarization by convenience | Replace set-valued comparison with a scalar “summary score” treated as decisive | Keep summaries report-only unless explicitly declared as admissible comparator outputs                                                                  |
 | Unknown coerced to pass      | Missing evidence treated as acceptable                                          | Use tri-state `SelectEligibility`; unknown maps to `degrade` or `abstain`                                                                           |
@@ -39563,10 +39529,10 @@ Concrete selector-family SoTA packages are cited through their current Part G pa
 
 | SoTA practice pointer, post‑2015+                                                                               | Primary source examples, post‑2015+                                                                           | Where it connects to SelectorMechanism                                                                             | Adoption status |
 | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | --------------- |
-| Retain several candidates under explicit criteria | Quality Diversity, e.g., Pugh et al. 2016; Vassiliades et al. 2018 | QD supplies one retained-set application family. Its archive criteria are not the general Pareto-selection rule; declare the actual choice rule in each use. | Adapt |
-| Use archive-based retained sets where diversity is part of the result, but do not silently promote it to dominance | Modern QD and archive practices post‑2015, including map-elites descendants and archive insertion policies | Expressed as policy‑bound criteria and report‑only telemetry unless explicitly promoted                            | Adapt           |
-| Pair environments and methods in open-ended or co-evolutionary settings without breaking kernel semantics       | Open-ended environment-method pairing, e.g., Wang et al. 2019 and successors                                  | Expressed as candidate and criteria structuring plus admissible specializations; kernel unchanged                      | Adapt           |
-| Admit a declared rejection option | Selective prediction, e.g., Geifman and El-Yaniv 2017 | The possibility of rejection informs FPF eligibility design. A selective-prediction rejection rule is not identical to this three-valued guard; apply each rule under its own conditions. | Adapt |
+| Retain several candidates under explicit criteria | Pugh, Soros and Stanley (2016), [Quality Diversity: A New Frontier for Evolutionary Computation](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2016.00040/full), §4.2 | QD supplies retained-set application families with different niche and retention rules. Declare the actual choice rule in each use; an archive rule is not the general Pareto-selection rule. | Adapt |
+| Use declared archive-insertion criteria | Vassiliades, Chatzilygeroudis and Mouret, [Using Centroidal Voronoi Tessellations to Scale Up the Multi-dimensional Archive of Phenotypic Elites Algorithm](https://arxiv.org/abs/1610.05729v2), author manuscript revised 2017 | CVT-MAP-Elites assigns a candidate to its nearest region and replaces a less-fit occupant. An FPF adaptation states the region and quality criteria explicitly; auxiliary telemetry supplies no undeclared dominance rule. | Adapt |
+| Organize candidates as environment–solution pairs | Wang et al. (2019), [Paired Open-Ended Trailblazer (POET)](https://arxiv.org/abs/1901.01753v3) | POET pairs generated environments with optimized agents and transfers solutions between environments. Candidate and criteria structuring is an FPF adaptation; the source does not establish this kernel's laws or FPF Method membership. | Adapt |
+| Admit a declared rejection option | Geifman and El-Yaniv (2017), [Selective Classification for Deep Neural Networks](https://arxiv.org/abs/1705.08500v2) | The possibility of rejection informs FPF eligibility design. A selective-prediction rejection rule is not identical to this three-valued guard; apply each rule under its own conditions. | Adapt |
 | Make architecture commitments traceable | ISO/IEC/IEEE 42010:2022 architecture description discipline | FPF assigns this declaration to one governing pattern; that assignment is an FPF design choice. | Adapt |
 
 ### A.19.SelectorMechanism:12 - Relations
@@ -39579,7 +39545,7 @@ Concrete selector-family SoTA packages are cited through their current Part G pa
   * `A.19` for the exact `CharacteristicSpacePredicate` basis when one governs selection.
   * `A.19.CPM` for every exact binary `Compare` application in the finite basis, its pair, realized eligibility value, and own set-valued output binding.
   * `A.2.6` for `U.ClaimScope` identity and exact `U.ContextSlice` membership.
-  * `A.19.CN` for `CN-Spec` governance card used as an explicit input.
+  * `A.19.CN` for `CN-Spec`, whose declared comparison and candidate-use conditions supply an explicit input.
   * `C.22` for `TaskSignature` as a policy-reference artifact when used.
   * `A.6.1 §4.2` for operation-local argument/result meanings and their SlotIndex projection; the local extension rule preserves inherited meanings.
   * `A.15.2` for the edition/policy baseline on P2W paths; `A.15.3` plus `A.19.CHR:4.7.2` for typed filling of independently declared positions.
@@ -39612,9 +39578,7 @@ Concrete selector-family SoTA packages are cited through their current Part G pa
 
 Use A.20 when one transformation or one operation application is current in a transformation-flow structure and the question is whether that subject satisfies one named internal constraint for one stated case. It also applies when an A.6.4 bounded-use assertion q is current there and q's exact proposition is the named internal constraint. A.6.4 retains the separate current-case judgement.
 
-**First useful move.** Recover the subject, constraint and case from the existing description. If they are not yet explicit, state:
-
-> For subject S and case facts I, constraint C is applicable and required; test T returned outcome O under window W, with witness or reason R.
+**First useful move.** Recover the subject, constraint and case from the existing description. Determine applicability; if it remains unresolved, state the missing fact and deciding rule. Once applicability is established, report its value, the evaluation state and any test outcome, with the evaluation window and witness or reason.
 
 **Quick worked case.** `TemperatureConversion-7` must add 273.15 to a Celsius input and must not return a value below 0 K. For input 25 °C, the test returns 298.15 K, so both required conditions are `satisfied`; the witness records the formula edition, input, output, and test result for this evaluation window. The practitioner may reuse this result for that case and window, or pass it to a current gate or assurance use; changed input, formula edition, assumptions, or window requires reassessing affected grounds and establishing whether this result still covers the receiving case and use. If the output were 297.15 K, the formula condition would be `violated`; if no output could be recovered, it would be `unknown`; if the test had not run, its evaluation state would be `notRun`.
 
@@ -39702,7 +39666,7 @@ The legacy label `FlowConstraintValidity` may be retained only as a locator for 
 
 #### A.20:4.2 - Applicability, required set, and summary
 
-Before evaluation, name the constraints applicable to the current subject and case. Mark each as `required`, `optional`, or `notApplicable` and state why. The required set is complete only when every constraint that the current use depends on is named and no unresolved applicability question could change that set.
+Before evaluation, name the constraints being considered for the current subject and case. Mark each as `required`, `optional`, or `notApplicable` and state why. The required set is complete only when every constraint that the current use depends on is named and no unresolved applicability question could change that set.
 
 For one evaluated applicable constraint:
 
@@ -39948,7 +39912,7 @@ The rationale links every check-application result to its mapping rule and then 
 
 #### A.21:4.2 - One check application
 
-A `GateCheckApplicationResult` is a C.2.1 result episteme that keeps the gate-facing use of one source result recoverable:
+A `GateCheckApplicationResult` is a C.2.1 result episteme that identifies one check application, its evaluation state, and any available source result for the gate-facing use:
 
 ```text
 GateCheckApplicationResult:
@@ -40047,7 +40011,7 @@ A structural crossing does not imply an F.9 semantic Bridge. Add an F.9 Bridge, 
 
 A guard event is not automatically a GateCheck. When a selected structure assigns a guard failure to a gate, the current profile may consume that identified event through a declared check application and mapping rule.
 
-The following names are recognition aids, not a universal catalogue: freshness, design-run-tag consistency, reference-plane crossing, comparator constraints, evidence completeness, safety envelope, regulator conformance, system-role fit, channel fit, equivalence preservation, outflow audit, and snapshot consistency. Each application names its checked subject, criterion, rule edition, case, and source result.
+The following names are recognition aids, not a universal catalogue: freshness, design-run-tag consistency, reference-plane crossing, comparator constraints, evidence completeness, safety envelope, regulator conformance, system-role fit, channel fit, equivalence preservation, outflow audit, and snapshot consistency. Each application names its checked subject, criterion, rule edition, case, evaluation state, and any available source result.
 
 Use A.10 for claim-bound evidence reliance and B.3 when an actual named assurance claim is current. Use A.2 and C.3.2 for system-role classification, A.2.1 for exact assignments, and F.6 only for an expressly consumed assignment-bound Work attribution. A.2.6 answers whether a claim covers the selected slice; channel criteria remain with their domain pattern. Use E.18 for crossing claims within its applicable structure and the applicable comparison pattern for comparator claims.
 
@@ -40090,7 +40054,7 @@ If inspection was not performed after the block was already known, record that c
 
 1. **Decision.** Name the gate, the action or transition being decided, its scope, and its time window.
 2. **Applicable rule.** Point to the profile rule and edition that apply to this gate and subject. Recover its required checks, mappings, consequences, scope and window, and any authority the rule itself requires.
-3. **Checks.** For each check, name its subject, criterion and edition, case, requirement, evaluation state, source result, and mapping rule.
+3. **Checks.** For each check, name its subject, criterion and edition, case, requirement, evaluation state, any available source result, and mapping rule.
 4. **Nothing missing.** Keep every required check visible, including `notRun`, `unknown`, error, and failure.
 5. **Worst result wins.** Aggregate only after the rule has mapped every required result. A missing or unrun required result cannot support `pass`.
 6. **Next action.** State what `pass`, `degrade`, `block`, or `abstain` means for this action, retain every applicable restriction under §4.5, and state when to decide again.
@@ -40129,16 +40093,16 @@ The cost is explicit identity. A practitioner must name the decision subject, pr
 
 Constraint truth, evidence about that truth, policy application, and bounded action are different claims. The source patterns define the claims and tests; their evaluations establish the check results. A.21 applies one current profile and records the consequence. Keeping those claims separate makes the decision independent of evaluation order and keeps failures useful for repair.
 
-The join lattice gives a compact, deterministic aggregation after every source result has been identified and mapped. It does not supply applicability, evidence, permission, authority, or a missing result.
+The join lattice gives a compact, deterministic aggregation after the complete effective check set has been identified and mapped under the profile. It does not supply applicability, evidence, permission, authority, or a missing result.
 
 ### A.21:11 - SoTA echo
 
-| Practice line already used by A.21 | Adopted move | Limit |
+| Basis or practice comparison | Move used in A.21 | Limit |
 | --- | --- | --- |
-| Join-semilattice aggregation in distributed-systems practice | Use an associative, commutative, idempotent worst-result join after explicit mapping. | Algebra does not make unknown or unrun input neutral. |
-| Policy evaluation and safety decision tables | Identify the applicable rule, subject, inputs, outcome mapping, and action consequence. | A profile label or default-looking branch is not policy application or authority. |
-| Attestation and provenance practice, including in-toto and SLSA lineage | Keep references and rationale available for the declared audit, transfer or reuse; publish them when that use requires publication. | An attestation, log, or dashboard does not create the gate decision or source truth. |
-| Compositional crossing checks | Apply crossing equations to an exact structural crossing when its rule requires them. | A structural crossing does not imply a semantic Bridge; each applies only when its own relation and use are current. |
+| The join-semilattice defined in §4.5 | Use the associative, commutative, idempotent worst-result join after explicit profile mapping. | Algebra does not make unknown or unrun input neutral. |
+| [Open Policy Agent: Rego policy evaluation](https://www.openpolicyagent.org/docs/policy-language), including undefined results and explicitly declared defaults | Keep the applicable policy, its inputs and evaluated result recoverable; A.21 separately specifies the mapping to a bounded action. | Rego values and undefined results do not themselves define A.21 decision values or authority. |
+| [in-toto Statement v1](https://github.com/in-toto/attestation/blob/main/spec/v1/statement.md) and [SLSA v1.2 provenance](https://slsa.dev/spec/v1.2/provenance) bind typed attestations and production information to identified artifacts | Retain the subject and claim references needed by the declared audit, transfer or reuse. Publication follows the receiving use. | Attestation or provenance information supplies neither the gate decision nor the truth of every source claim; A.21 keeps those judgements separate. |
+| Structural-crossing rules supplied by `E.18` | Apply crossing equations to the identified crossing when its rule requires them. | A structural crossing does not imply a semantic Bridge; each applies only when its own relation and use are current. |
 
 ### A.21:12 - Relations
 
@@ -113027,7 +112991,7 @@ Checks include:
 * suite protocols contain **no hidden tails**: if UNM/UINDM/ULSAM are required, the protocol expresses them as explicit `Uses` steps and suite audit requirements cite the chosen mechanism ids/refs (no “implicit normalization/aggregation inside score/compare/select”),
 * gate separation is preserved: mechanisms and guards use tri-state `GuardDecision := {pass|degrade|abstain}` and MUST NOT publish `GateDecision` or `DecisionLog`; `block` remains gate-level only (`OperationalGate(profile)`),
 * defaults remain single-sourced: portfolio mode, dominance regime, and unknown/failure behavior are either pinned in `TaskSignature` or one policy-assignment record, or not claimed; the suite does not define competing defaults,
-* when the suite claims reusable outputs, publish/telemetry is an explicit external step of the surrounding protocol, using existing publication forms/faces such as G.10 or PTM. Under `A.6.7:4.4`, it is not a `ProtocolStep` in the suite-member sequence or a hidden tail inside selection.
+* when the suite claims reusable outputs, publish/telemetry is an explicit external step of the surrounding protocol, governed by the rules for that use: G.10 for Part-G pack shipping and E.24.PUB for episteme availability, form or carrier claims. Under `A.6.7:4.4`, it is not a `ProtocolStep` in the suite-member sequence or a hidden tail inside selection.
 
 **PCP‑P2W (Planned baseline & slot-fillings seam integrity)** — Trigger: the reviewed pattern or subset introduces or revises planned-filling content in one exact `U.WorkPlan` against an exact governed declaration member, including a publication or view of that content.
 
@@ -128168,7 +128132,7 @@ Use richer geometry or atlas language when the comparison or retention question 
 
 Use `TraditionAtlasView` only when the reader needs several derived views or interpretive qualifiers together to understand a grouping, omission risk or comparison boundary. Otherwise use the palette and its declared front, archive or shortlist, or the thinner `DeclaredSubstrateInterpretiveView`. A naming-only question belongs to F.18.
 
-`TraditionAtlasView` specializes `DeclaredSubstrateAtlasView` under A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW and retains that declaration by value: the base palette, active source set or result, `TypedSetViews` when several declared views are combined, the space/map references and interpretive qualifiers actually used, and the reason the thinner view is insufficient. Cite `SearchSpaceRef` or `OutcomeSpaceRef` for the corresponding declared spaces. Add `SpaceMetricRef`, `TransitionRelationRef` and `BridgeDistortionNote` only for the comparison, reachability, transition or cross-scale claim that needs them. An `OutcomeMapRef` identifies a mapping from the stated result into an outcome/effect space; it does not turn the palette or result into that space. Their formal claims retain their own governing definitions.
+`TraditionAtlasView` specializes `DeclaredSubstrateAtlasView` under A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW and retains that declaration by value: the base palette, active source set or result, `TypedSetViews` when several declared views are combined, the space/map references and interpretive qualifiers actually used, and the connections needed to answer the inspection question. Cite `SearchSpaceRef` or `OutcomeSpaceRef` for the corresponding declared spaces. Add `SpaceMetricRef`, `TransitionRelationRef` and `BridgeDistortionNote` only for the comparison, reachability, transition or cross-scale claim that needs them. An `OutcomeMapRef` identifies a mapping from the stated result into an outcome/effect space; it does not turn the palette or result into that space. Their formal claims retain their own governing definitions.
 
 If the interpretation changes the base source-to-outcome relation or its distortion, reopen the substrate declaration. Different atlas views may use different spaces, metrics, relations or mathematical traditions; one view does not settle those choices for every other view.
 
@@ -128225,7 +128189,7 @@ G.1 M2 and the G.3–G.5 consumers cite the chosen pack judgement with its purpo
 | **CC-G2-ClaimSheets-1** | For each included `Tradition`, the pack MUST include a `ClaimSheetId` naming exact sources and editions, claim regions, effective schemes where meaning matters, EntitiesOfConcern, comparison bases, evidence anchors, freshness notes, and intended use; it MUST NOT fuse cross-`Tradition` claims by default. | Keeps plurality and provenance explicit without a Context container. |
 | **CC‑G2‑Palette‑1**       | A conforming pack **MUST** export `SoTA_Set@CG‑Frame` and `SoTAPaletteDescription` as citable views (via `SoTA_SetId`, `SoTAPaletteDescriptionId`) and ensure both are reconstructible from pack components by id (no hidden extra structure).                                                                                                      | Prevents downstream scraping of prose; keeps “M2 output” explicit.                  |
 | **CC‑G2‑Palette‑2**       | If the pack exports one derived tradition view such as `TraditionFront` or `TraditionArchive`, it **MUST** keep `SoTAPaletteDescription` explicit as the default base palette, keep that derivation recoverable, and cite the declared `Q` or reachability/coverage rule that disciplined that view. Derived tradition views **MUST NOT** silently replace the palette's default meaning. | Keeps non-default tradition views recoverable without redefining palette-first semantics. |
-| **CC‑G2‑AtlasInterpretation‑1** | If the pack exports `TraditionAtlasView`, it MUST satisfy §4.7 and the cited A.19 interpretive-view declaration by value, including the reason a thinner view is insufficient. | Keeps atlas use conditional and its interpretation recoverable. |
+| **CC‑G2‑AtlasInterpretation‑1** | If the pack exports `TraditionAtlasView`, it MUST satisfy §4.7 and the cited A.19 interpretive-view declaration by value, including the connections needed to answer the inspection question. | Keeps atlas use conditional and its interpretation recoverable. |
 | **CC‑G2‑entityOfConcernMap‑1** | A conforming pack **MUST** include `G.2g entityOfConcern Map`, mapping (at minimum) each load‑bearing claim family and each minted/evolved public id to `entityOfConcern := ⟨GroundingHolon, ReferencePlane⟩`, and citing the relevant `ClaimSheetId` and evidence anchors (A.10 and/or G.6 paths when used).                                         | Keeps plane/holon boundaries explicit and citable.                                  |
 | **CC‑G2‑Alignment‑1** | Cross‑`Tradition` consolidation **SHALL** present either disjoint parallel claims with explicit divergence or an explicitly justified alignment proof. Reuse **MUST** cite the exact basis for every sense, kind or plane relation actually used and disclose its preservation and losses. Bundle/gate anchors **MUST** be supplied when an E.18 flow crossing or A.21 gate independently requires them, per `CC‑GCORE‑CROSS‑1`. | A kind correspondence alone requires neither an F.9 sense Bridge nor a flow-crossing bundle. |
 | **CC‑G2‑GammaSynth‑1**    | If the pack asserts **fusion or substitution** across sources or across `Tradition` records (not merely “parallel divergent claims”), it **MUST** emit `GammaEpistSynthId` records satisfying `G.2:Ext.GammaEpistSynthesis` (provenance union + explicit alignment refs + assurance tuple refs). | Keeps the synthesis record (alias: `G.2‑F`) citable under its governing definitions. |
@@ -129666,7 +129630,8 @@ When a selector consumes a declared `ExplorationArchive`, `Archive`, `Front`, or
 SelectedSetResultLabelLine@Context:
   selectorOutcomeKind:
   setResultFamily?:
-  sourceSetFamily:
+  sourceSetFamily?:
+  sourceSetComposition?:
   publicSelectedSetLabel?:
   namedUse?:
   memberEntries?:
@@ -129679,6 +129644,8 @@ SelectedSetResultLabelLine@Context:
 ```
 
 Earlier records may keep `membersOrHandoff`. Read it as `members` for `Shortlist` or `RankedShortlist` and as `handoffContent` for a `HandoffOutcome`. It cannot replace keyed `memberEntries` in a `JointUseSet`; if it also lists joint-use members for compatibility, that list is only the unique set projection of the entry keys.
+
+Use `sourceSetFamily` for a single immediate source and `sourceSetComposition` for a composition, under §4.4e; retain a primary family when the receiving use distinguishes one.
 
 `sourceSetFamily` may name a declared `Front`, `Q-front`, `ExplorationArchive`, `Archive`, current pool subset, or derived tradition view. For retained alternatives, `publicSelectedSetLabel` normally names `Shortlist` or `RankedShortlist` and may use a domain label such as `StyleShortlist` or `TraditionShortlist` only when its local meaning and any required term Bridge are established. `JointUseSet` is not a shortlist label: it names an all-member result and therefore uses `namedUse` plus keyed `memberEntries`. G.5 does not create the archive, compute the comparison, govern the pool policy, decide the cultural-evolution case, establish member identity or relations, or repair the term bridge. Use `C.18` for archive formation, `A.19.CPM` for comparison, `C.19` for pool policy, `C.36` for cultural-evolution claims, each member's own identity and relation patterns for those facts, and `F.17`/`F.18`/`F.9` for local meanings, naming settlement, and any obtaining term Bridge.
 
@@ -129701,7 +129668,7 @@ The pump result in §0.5 and the joint-use declaration in §4.4b show complete f
 
 #### G.5:4.4ca - Derived tradition-view result stays derived over one declared palette
 
-When the source is `TraditionFront` or `TraditionArchive`, keep its base `SoTAPaletteDescription` recoverable. State `SourceSetFamily`; add `DerivedViewKind` when it changes interpretation or later publication and `SourceSetComposition` only when several source-set families were actually composed. Cite the derivation's declared Q, reachability or coverage rule among the DRR/SCR or equivalent basis pins. The view qualifies the source; §4.4b still defines the emitted outcome.
+When the source is `TraditionFront` or `TraditionArchive`, keep its base `SoTAPaletteDescription` recoverable. State `SourceSetFamily`; add `DerivedViewKind` when it changes interpretation or later publication and `SourceSetComposition` only when several declared source sets were actually composed. Cite the derivation's declared Q, reachability or coverage rule among the DRR/SCR or equivalent basis pins. The view qualifies the source; §4.4b still defines the emitted outcome.
 
 #### G.5:4.4d - Worked result-declaration closure slice
 
@@ -129806,7 +129773,7 @@ Use §4.4b for the emitted outcome and §4.4bb–ca for its source and public-la
 | `Front` | The non-dominated source set under the declared `DominanceSet`. |
 | `Archive` | The exploration set retained under its policy. |
 | `PortfolioMode` | How the selector operated. The default `Archive` retains exploration evidence; it establishes neither an emitted Archive nor a different result family or DominanceSet. |
-| `SourceSetFamily`, `SourceSetComposition` | State the immediate source family; use composition only when several source families were actually consumed, for example a front and an archive. |
+| `SourceSetFamily`, `SourceSetComposition` | State the family of a single immediate source. For a composition, identify each contributing source and family and how its members contribute, for example a front and an archive used through their union. Retain a primary source and its family only when the receiving use distinguishes one, under `A.19.SOURCE-SET-SPACE-SUBSTRATE:4.7`. |
 | `DerivedViewKind`, `BasePaletteRef` | Qualify an actual derived view under §4.4ca; the latter is a reference, not a kind. |
 | `PromotionPolicy` | Required when tie-break or telemetry signals are promoted into dominance. |
 | `SubjectKind`, `RetentionIntent=steppingStone` | Qualify the relevant declaration or retention policy; neither names another emitted set result. |
