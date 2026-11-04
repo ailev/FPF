@@ -3292,6 +3292,11 @@ If an explanation or effect remains unknown, use RMP.1 with the exact question a
 
 #### CB.14:4.2 - Use differences to find a useful exchange
 
+When the question brings together practitioners who do not already share a working group, first recover whose experience and interests the comparison needs. Ask participants to describe a concrete practice, what counts as success for them and which conditions constrain it. Use those accounts to find a missing participant or consequential contrast. A nominated representative may know one group's usual practice while missing differences within it; seek those accounts before treating the group's view as settled.
+
+Compare the proposed development question with these accounts. A sponsor's initial question can omit the conditions under which a proposed practice would be usable. Revise the question and comparison with the participants when their contributions warrant it. If the revision changes an agreed purpose or commitment, obtain that change through its actual decision arrangement in CB.13; until then, preserve the authorized boundary. Interviews, diagrams and direct observation are useful where they expose a difference that the discussion has left invisible.
+
+
 When participants want to learn from contrasting practice, agree which dimensions matter to their work. Select several that can reveal distinct strengths or limitations, such as recoverability of a case account, effort spent obtaining missing information and usefulness of the returned explanation. Explain what each observation means and use comparable cases where possible.
 
 Invite participants to describe their own practice against those dimensions, with examples and relevant conditions. Keep unknown observations visible. A large gap is a reason to investigate what differs; it may arise from case mix, tools, access, experience or the way the observation was made.
@@ -3405,6 +3410,16 @@ The wider causal question remains. RMP.1 is used to state who needs the answer, 
 
 A volunteer already has a usable, appropriate instruction but cannot access the tool it requires. The organiser obtains the access decision from the owner or helps choose a feasible alternative. No new guide or practice-development team is needed. If the tool is available and the difficulty is learning to use it, the next contribution is HCD support.
 
+#### CB.14:5.5 - Joint inquiry changes the proposed comparison
+
+Consider a constructed application of collaborative learning to a farming network. Researchers propose comparing two feeding practices by milk output. Farmers are expected to try the selected practice, but the initial proposal treats them as one group. The organiser asks farmers to show how feeding work is done and what makes a change sustainable. Some farms can supply additional labour but have seasonal fodder shortages; others cannot supply the extra daily labour. The most active participant had described only the first situation.
+
+The organiser brings in farmers with the missing experience and records the contrasting conditions with them. The joint question becomes which feeding practice is useful under each set of conditions, including the required work. The researchers check whether existing evidence answers that question; an agronomist supplies any experimental design and measurements still needed. The community obtains willing participants, the relevant means and a return that shows what was tried, under which conditions, and with what result.
+
+Suppose the trial returns a promising result on farms with available labour. The group prepares guidance stating that condition and works through its use with a farmer who has the required labour but a different fodder supply. A failure of fit returns the affected recommendation to development; difficulty performing an otherwise suitable practice calls for learning support.
+
+Now change one condition: the grant permits only the original fixed comparison, and the research team cannot amend it. The organiser brings the changed question and its consequences to those entitled to revise the commitment. While that decision is unresolved, the group can retain the newly discovered distinctions and continue work permitted by the existing agreement. It cannot advertise the fixed trial as answering the broader question. If the original comparison already fits the practitioners' circumstances, it can proceed without forming another learning group.
+
 ### CB.14:6 - Bias-Annotation
 
 Frequent speakers, well-resourced sites and successful cases are easier to collect than quiet corrections, failed attempts or work under scarce provision. Invite relevant contrasts and let contributors restrict sensitive material. Explain how comparisons will be used before requesting them; a learning exchange coupled to undisclosed personnel ranking will distort both trust and evidence.
@@ -3454,6 +3469,7 @@ The practice question is how a community can improve a reusable repertoire witho
 | Source or developed treatment | Choice and effect in this pattern | Limit and accepted cost |
 | --- | --- | --- |
 | Etienne Wenger-Trayner, Beverly Wenger-Trayner, Phil Reid and Claude Bruderlein, *Communities of practice within and across organizations*, second edition (2023), pp.112–114 and 157–162. | **Adapt** joint documentation, mutual benchmarking and practice-development projects in CB.14:4.2–CB.14:4.6. Keep practitioners involved while allowing dedicated writing and a temporary team. | This practical repertoire does not establish causal effectiveness or a universal maturity ladder. Stable scales suit stable practices; qualification and contrasting uses add effort. |
+| Restrepo, Lelea, Christinck, Hülsebusch and Kaufmann (2014), [*Collaborative learning for fostering change in complex social–ecological systems*](https://km4djournal.org/index.php/km4dj/article/download/247/316/691), pp.45–54. | **Adapt** formation of the collaboration, recovery of participants' criteria and revision of the problem through dialogue, discovery and application. CB.14:4.2 and :5.5 expose the consequences for a proposed comparison and its receiving use. | A methodological synthesis from theory and case reports supports these connections; :5.5 is a constructed application. |
 | C.39.RP, A.3.1.DR, A.3.1.QM, C.32.MWA.PP, B.1.5.CM, A.3.2.DE, A.3.1.WT, A.3.1.CC, A.3.1.FT, C.11.MV and A.3.1.MV:4.1–A.3.1.MV:4.3. | **Adopt** recovered source contributions, explicit method proposals, claims qualified for their uses, actionable descriptions, observed trials and bounded maintenance. These repair the gap between agreement to publish and a contribution fit for use. | Invoke the needed contribution; an ordinary advice exchange does not need a complete method-development programme. A candidate retains its unresolved status. |
 | RMP.1:4 and OCE.11:4, with OPS.5:4. | **Adopt** a sufficient-source stop and the explicit provision of sustained work. **Reject** starting a study merely because the question is unfamiliar or treating volunteered interest as available capacity. | The community accepts a missing-input or uncertainty return when the required knowledge or provision cannot be obtained. |
 
