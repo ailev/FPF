@@ -29,7 +29,7 @@ Framework text adapted from Anatoly Levenchuk's Organization Change Engineering 
 | --- | --- | --- | --- | --- |
 | 1 | [LDR.1 - Obtain and Continue the Leadership Contribution Needed for Joint Work](#ldr1---obtain-and-continue-the-leadership-contribution-needed-for-joint-work) | Stable | Missing help; role conversation; brief; debrief; distributed leadership; continuation without initiator | HCD.1, HCD.3, HCD.4 and HCD.7 for the applicable human-development contribution; C.11.DUA; LDR.2, B.5.SD or LDR.4 when the corresponding difficulty arises |
 | 2 | [LDR.2 - Agree Feasible Joint Contributions](#ldr2---agree-feasible-joint-contributions) | Stable | Negotiation; conflicting commitments; representation; joint feasibility; withdrawn support | Relevant domain methods; C.11; D.4; CB.13 when shared-decision mandate is needed |
-| 4 | [LDR.4 - Prepare a Proposal for Decision and First Use](#ldr4---prepare-a-proposal-for-decision-and-first-use) | Stable | Trusted adviser; proposal preparation; propitka; consequences; objections; actual commitment; shared start; first useful handover | LDR.1, LDR.2, B.5.SD when needed; authority and domain methods; C.41.OF for an execution aid |
+| 4 | [LDR.4 - Prepare a Proposal for Decision and First Use](#ldr4---prepare-a-proposal-for-decision-and-first-use) | Stable | Trusted adviser; unknown adviser; shareable explanation; proposal preparation; propitka; consequences; objections; actual commitment; shared start; first useful handover | LDR.1, LDR.2, B.5.SD when needed; authority and domain methods; C.41.OF for an execution aid |
 | 5 | [LDR.5 - Develop Joint Direction and Participation](#ldr5---develop-joint-direction-and-participation) | Stable | Shared purpose; unsettled concern; initiative; leading and following; motivation; personal aims; voluntary participation | STR.5/.6/.18 for strategic construction; CB.1 and CB.13 for community contribution and mandate; LDR.1/.2/.4; B.5.SD; professional participation when needed |
 
 **Use and source returns**
@@ -673,19 +673,19 @@ Use this pattern when a promising proposal must become understandable, examinabl
 
 Begin with the receiving work and the result the proposal is meant to improve. If that direction or the basis for participation is unsettled, use LDR.5 and the necessary subject method rather than assume that preparation will justify the initiator's preferred proposal. Obtain the judgement people actually need, examine consequences and objections, revise the proposal, secure the required decisions and contributions, make the accepted start mutually visible, and follow the first handover into use.
 
-This connected preparation is sometimes called “propitka” in Russian practitioner discussions: the proposal becomes sufficiently understood through repeated explanation, advice and revision. Here it is not a campaign to suppress objections. A real disadvantage, inadequate basis or unavailable resource can warrant a changed proposal, refusal or deferral.
+R10 calls this preparation “propitka” (soaking), comparing it to a sponge taking up water: knowledge about the proposed change spreads through people’s conversations. The practical work is to make the proposal understandable through explanation, advice and revision. Here it is not a campaign to suppress objections. A real disadvantage, inadequate basis or unavailable resource can warrant a changed proposal, refusal or deferral.
 
 A familiar, adequately prepared and authorized action can proceed directly. No compulsory campaign, launch ceremony or fixed waiting period is added.
 
 ### LDR.4:2 - Problem
 
-A proposal's formal presentation may miss the advice through which participants actually judge it. A trusted colleague outside the project can expose a real burden or repeat a mistaken assumption. Ignoring that judgement can leave the decision unsupported; trying to bypass it through pressure can leave the proposal worse.
+A proposal's formal presentation may miss the advice through which participants actually judge it. They may consult a trusted person whom the organizer has not identified, including someone outside the enterprise. An explanation limited to the formal approvers can therefore be absent where the proposal is actually discussed. A trusted colleague can expose a real burden or repeat a mistaken assumption; the preparation needs a way for that person to examine the proposal and return a consequential question.
 
 Even a well-understood proposal can stop before performance. Support may remain a promise to seek funding, the resource decision may never take effect, participants may rely on different versions, or the first receiver may still lack a usable product. An announcement does not join those missing contributions.
 
 ### LDR.4:3 - Forces
 
-Thorough preparation can prevent a costly false start, but endless consultation can consume the opportunity. The method needs relevant judgement and attainable answers, not exhaustive discovery of every informal relationship.
+Thorough preparation can prevent a costly false start, but endless consultation can consume the opportunity. A usable explanation may need to travel beyond the people already known to the organizer. Its reach and the effort of answering questions should fit the change and its consequences; preparation need not identify every informal adviser.
 
 The technical result, distribution of benefits and burdens, and effective authority interact. Discussing titles too early can distract from the work; postponing capability and authority too long can make an attractive proposal impossible.
 
@@ -709,15 +709,22 @@ When people understand the proposed first action but keep putting it off because
 
 A permitted first use can precede the decision to adopt the larger arrangement. Return what the attempt reveals about benefit, burden and feared consequences to the participants and advisers in :4.2–:4.4. That result can change which further explanation or preparation is worth doing. Keep a concern about the larger commitment or another participant's loss attached to that decision; success of the small contribution answers only its own question. If the first action itself is not understood, construct it with qualified help or obtain the missing explanation before attempting it.
 
-#### LDR.4:4.2 - Obtain relevant trusted judgement
+#### LDR.4:4.2 - Make the explanation available and obtain trusted judgement
 
-Ask the decision makers and affected participants whose advice they need, about which question and under what information conditions. A trusted former colleague, peer or specialist may sit outside the formal project. Their relevance comes from the judgement the participant relies on, not from an invented position in a stakeholder chart.
+Participants often seek advice from people they trust before deciding about an unfamiliar change. Ask whose judgement they need, about which question and under what information conditions. This can reveal a former colleague, peer or specialist outside the formal project. Other advisers may become involved later. Prepare for that wider discussion as well as for the consultations already identified.
 
-Arrange a permitted conversation, example or private consultation. Ask what consequence concerns the adviser, what experience or grounds support that concern and what could answer it. Give enough substance for a useful judgement. A slogan about the proposal's benefits cannot answer a question about duplicate work or a new failure mode.
+Make an explanation that another person can examine and pass on without depending on the organizer's presence. Use the receiving work from :4.1: what would change, how the proposed arrangement would produce the result, why that is expected to work, and what it changes for the people doing or receiving the work. Include a representative before-and-after task, the grounds for the claimed benefit, significant burdens and uncertainties, and the decision still to be made. Use :4.3 to work out consequences that are not yet understood. A short account can point to the fuller reasoning and example where these are needed. Prepare a shareable example when the real task contains information that the intended audience cannot receive.
 
-Do not confuse the adviser with an authorized representative. Advice can change the proposal while the decision maker retains the decision and the contributor retains control of their own commitment. If the adviser is speaking on behalf of someone, establish that mandate separately.
+Put the explanation where participants can obtain it and give it to their advisers. Identify the current proposal and provide a practical way to return a question to someone able to examine it. This might be a shared note with a contact, an annotated demonstration with a discussion channel, or a briefing whose supporting material remains available afterwards. Choose the means by how the relevant people exchange information. A confidential consultation may need a permitted private route; a generally shareable account can travel beyond the original recipients.
 
-Pursue advice that can change the present decision or an affected contribution. There is no requirement to map everyone's entire informal network, contact people covertly or circulate confidential information. If relevant consultation cannot be supported, retain the limitation and decide whether a narrower use, another source or delay is warranted. Cheap AI analysis can help formulate the question; it cannot manufacture the person's actual advice or consent.
+Scale this preparation to the change. For a small team, a short account circulated with the proposal and an available conversation may suffice. A change across sites, shifts or partner organizations may need explanations in their ordinary channels and people able to answer questions there. Where the change has wider public consequences or participants rely on advice outside the enterprise, communication or public-relations specialists may help make an appropriate explanation available beyond its boundaries. Decide what understanding this extra work can supply, for whom and at what cost.
+
+For an identified adviser, arrange the useful conversation, example or private consultation. Ask what consequence concerns them, what experience or grounds support it and what could answer it.
+
+Bring consequential questions from either route into :4.3–:4.4. A question may expose a missing explanation, a new operational dependency or a reason to change the proposal. Obtain the needed answer, revise the proposal when warranted, and update the explanation where people obtain it. If a changed term affects a contribution or decision already being prepared, return it to those relying on the earlier version. Give them the changed reason and consequence so they can reconsider their judgement and pass on the correction.
+
+Advice can improve a proposal while the decision maker retains the decision and the contributor retains control of their commitment. Establish a separate mandate if someone speaks on another's behalf. Use the questions and grounds actually obtained to decide what preparation remains necessary. Keep the route for new questions available as the proposal develops; the possibility of an unknown future adviser does not require discovering the whole informal network before proceeding. If a particular judgement needed for the decision cannot be obtained, preserve that limitation and compare narrower use, another adequate source or delay.
+
 
 #### LDR.4:4.3 - Trace consequences in representative work
 
@@ -851,6 +858,18 @@ Participants can now discuss the contribution they actually tried. If collecting
 
 Change the task: the receiver needs to know what an R&D unit produces for use or sale, but participants list installed software systems without identifying what the unit delivers or who uses it. Faster entry leaves the receiving question unanswered. A qualified contributor works through one actual product and its use with them. Likewise, when a planning view depends on a hierarchy they cannot construct, jointly build the needed part of the model or obtain that contribution from a capable provider. Select learning practice separately when their independent capability is wanted. These different repairs follow the missing operation in the first use, rather than treating every delay as a need for more persuasion.
 
+#### LDR.4:5.6 - An explanation reaches an adviser the organizer did not know
+
+Suppose two plants propose replacing a maintenance handover spreadsheet with a common service record. The formal decision makers and shift leads have been consulted. The organizer also places a permitted before-and-after example and the proposal's grounds in the shift communication channels and partner portal. The account explains which record the next shift would use, what copying would disappear, what access it assumes and where to return questions. Participants can pass on this explanation rather than reconstruct it from the announcement.
+
+A shift lead forwards it to a trusted former maintenance colleague whom the organizer has never met. That colleague asks how a technician borrowed from a partner for a night shift would open the service record. They have seen an introduction fail because temporary staff retained partner accounts. The explanation has reached an unanticipated adviser, and the question returns through the contact supplied with it.
+
+The organizer checks a representative night-shift handover with the actual receiver and access provider. In this case the temporary account cannot open the necessary record. The earlier claim that the new arrangement covers both shifts is therefore unsupported. The provider can supply appropriately limited access before the proposed trial; the shift lead obtains the required allocation and the receiver checks that the record can actually be used. If access could not be supplied, this part of the proposal would need a different arrangement or a deferred start.
+
+The organizer revises the proposed access arrangement and the example, updates the places where the explanation is obtained, and tells the affected leads and partners what changed and why. The shift lead can return the answer to the former colleague. The authorized participants then commit to one supported night-shift handover. Its receiving technician uses the applicable record; subsequent adoption depends on the further work it requires.
+
+The useful contribution was an examinable explanation that could travel, a return path for the question and an actual repair of the exposed dependency. The organizer did not need the adviser's identity in advance. The known-adviser conversation in :5.1 remains sufficient when that is the relevant preparation; the routine reading group in :5.4 can still proceed directly.
+
 ### LDR.4:6 - Bias-Annotation
 
 **Lenses:** Governance, Architecture, Ontology/Epistemology, Pragmatics and Didactics. **Scope:** Preparation of a proposal through its first useful performance under real participation and authority conditions.
@@ -862,14 +881,14 @@ An initiator can assume that understanding inevitably produces acceptance, or th
 A conforming use makes the following recoverable where they affect the proposal:
 
 - the receiving work, first useful result and adequate existing alternative;
-- the relevant trusted judgement and permission for its information use;
+- how participants can obtain and share an examinable explanation as permitted, how consequential questions return for examination, and any trusted judgement the decision requires;
 - representative consequences, real burdens and the response to substantive objections;
 - the revised whole proposal, actual decisions, accepted contributions and outstanding conditions;
 - the mutually visible start on the same effective terms;
 - the performed first contribution and the receiver's use, including retained assistance;
 - the next warranted continuation and the question reopened by a changed condition.
 
-A routine prepared action does not acquire these as seven additional reports or meetings.
+A routine prepared action does not acquire these as additional reports or meetings.
 
 ### LDR.4:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -898,7 +917,7 @@ The sequence is conditional rather than a universal meeting order. New evidence 
 
 The practice question is how a proposal becomes a supported first contribution. The selected line combines developed proposal preparation with direct substantive, agreement and authority methods, then follows actual use. A serious alternative is competent ordinary coordination already containing these contributions. Use it directly; the pattern adds value only where the connection is missing.
 
-**Adapt** R10 *Systems Management*, the sections «Рабочие продукты и корпоративные ритуалы как видимая форма оргизменений» (work products and corporate rituals as visible forms of organizational change) and «Шаг развития: постановка оргвозможности» (a development step: establishing an organizational capability), using the latter's preparation and decision passages: trusted advice outside the formal project, examinable consequences, a mutually understood start and visible work products in first use. These are practitioner source contributions, developed here in LDR.4:4.1–LDR.4:4.8 and the calculation case. **Reject** universal minimum durations, blanket assurances of safety, exhaustive influence-network discovery, automatic attribution of non-use to sabotage, and suppression of newly surfaced concerns at launch. The source provides conceptual and methodological material, not empirical validation of this pattern.
+**Adapt** R10 *Systems Management*, the sections «Рабочие продукты и корпоративные ритуалы как видимая форма оргизменений» (work products and corporate rituals as visible forms of organizational change) and «Шаг развития: постановка оргвозможности» (a development step: establishing an organizational capability), using the latter's preparation and decision passages: trusted advice outside the formal project, including from people not identified in advance; an explanation available beyond formal approvers; examinable consequences; a mutually understood start; and visible work products in first use. LDR.4:4.2 develops the means of making that explanation available, receiving questions and revising its grounds. These are practitioner source contributions, developed here in LDR.4:4.1–LDR.4:4.8 and the constructed cases. **Reject** universal minimum durations, blanket assurances of safety, exhaustive influence-network discovery, automatic attribution of non-use to sabotage, and suppression of newly surfaced concerns at launch. The source provides conceptual and methodological material, not empirical validation of this pattern.
 
 **Adapt** the current CFIR [Opinion Leaders](https://cfirguide.org/constructs/opinion-leaders) account as a cue for relevant informal judgement. It reports heterogeneous influence and mixed effects, so it supplies no guarantee that involving an influential person creates acceptance. LDR.4:4.2 asks whose judgement changes this decision and preserves the separate authority and consent relations.
 
