@@ -705,6 +705,10 @@ Locate the first useful result and the authority needed to attempt it. A permitt
 
 Keep preparation's own resources visible: explanation, consultation, inquiry, demonstrations, revision and the decisions required before use. A future benefit does not supply those resources now. C.11.DUA helps compare further preparation with direct use, a smaller proposal, deferral or stopping.
 
+When people understand the proposed first action but keep putting it off because it takes too much work, compare making that action easier with extending the preliminary explanation. Use IS.3 to prepare a small complete contribution for an actual receiver: supply available inputs, remove avoidable search or copying, and arrange capable help at the difficult operation. Include that preparation and continuing assistance in the comparison. Invite the participant when these means are available, naming the action and the result the receiver can use.
+
+A permitted first use can precede the decision to adopt the larger arrangement. Return what the attempt reveals about benefit, burden and feared consequences to the participants and advisers in :4.2–:4.4. That result can change which further explanation or preparation is worth doing. Keep a concern about the larger commitment or another participant's loss attached to that decision; success of the small contribution answers only its own question. If the first action itself is not understood, construct it with qualified help or obtain the missing explanation before attempting it.
+
 #### LDR.4:4.2 - Obtain relevant trusted judgement
 
 Ask the decision makers and affected participants whose advice they need, about which question and under what information conditions. A trusted former colleague, peer or specialist may sit outside the formal project. Their relevance comes from the judgement the participant relies on, not from an invented position in a stakeholder chart.
@@ -837,6 +841,16 @@ Suppose a volunteer reading group already agrees on the next session's subject, 
 
 The group can hold the session. It need not discover informal advisers, create a checklist or convene a launch event. If a later objection reveals that the selected material excludes an intended participant, examine that actual consequence and revise the affected arrangement. The method's longer branches become useful only then.
 
+#### LDR.4:5.5 - Make a first contribution easier, then return to the larger decision
+
+Suppose a support receiver needs the issues belonging to one customer case to choose the next response. A practitioner understands which issues belong together, but repeatedly postpones assembling the view because it requires searching several project lists and copying their contents. The organizer has been explaining the benefits of a common support view.
+
+They instead use IS.3 to prepare a saved query over the existing issue tracker and arrange help for the first use. The practitioner checks its results for irrelevant or missing issues; the support receiver uses the corrected view to choose the next response. The invitation arrives when the prepared query, source access and helper are available. This permitted attempt requires no decision to replace every team's existing arrangement. Its cost includes preparing and maintaining the query, the practitioner's checking and the receiver's interpretation.
+
+Participants can now discuss the contribution they actually tried. If collecting the case is cheaper and the receiver can act on it, that supplies a concrete answer to part of the earlier concern. A recurring maintenance burden or another team's loss can still change the larger proposal. They take these findings to the people whose advice or commitment is needed and decide which further preparation matters.
+
+Change the task: the receiver needs to know what an R&D unit produces for use or sale, but participants list installed software systems without identifying what the unit delivers or who uses it. Faster entry leaves the receiving question unanswered. A qualified contributor works through one actual product and its use with them. Likewise, when a planning view depends on a hierarchy they cannot construct, jointly build the needed part of the model or obtain that contribution from a capable provider. Select learning practice separately when their independent capability is wanted. These different repairs follow the missing operation in the first use, rather than treating every delay as a need for more persuasion.
+
 ### LDR.4:6 - Bias-Annotation
 
 **Lenses:** Governance, Architecture, Ontology/Epistemology, Pragmatics and Didactics. **Scope:** Preparation of a proposal through its first useful performance under real participation and authority conditions.
@@ -889,6 +903,8 @@ The practice question is how a proposal becomes a supported first contribution. 
 **Adapt** the current CFIR [Opinion Leaders](https://cfirguide.org/constructs/opinion-leaders) account as a cue for relevant informal judgement. It reports heterogeneous influence and mixed effects, so it supplies no guarantee that involving an influential person creates acceptance. LDR.4:4.2 asks whose judgement changes this decision and preserves the separate authority and consent relations.
 
 AHRQ's [brief](https://www.ahrq.gov/teamstepps-program/curriculum/team/tools/briefs.html) and [huddle](https://www.ahrq.gov/teamstepps-program/curriculum/team/tools/huddle.html) distinguish preparing shared work from adjusting it after change. **Adapt** that distinction in LDR.4:4.6. It supports retaining an adequate ordinary exchange instead of imposing a ceremonial launch; healthcare-specific evidence and permissions remain outside the transfer.
+
+**Adapt** the [Fogg Behavior Model](https://behaviordesign.stanford.edu/resources/fogg-behavior-model) distinction between motivation, the ease of the action and a timely prompt. It directs attention to the action's burden and occasion when another explanation has not led to use. Here the supported action must still produce a contribution for its receiver; the first attempt then informs preparation of a larger decision. The model supplies this design comparison, not a probability estimate or evidence that easier first use resolves concerns about the larger commitment.
 
 The added preparation is justified when it can change feasibility, acceptance, authority or first use. Its accepted cost includes advice, inquiry, revision and delay. Reopen the comparison when a simpler arrangement supplies the same result, a concern remains unresolved, a relied-on contribution changes, or stronger evidence alters which preparation is useful. Conditional examples support the construction, not a causal claim of reduced resistance.
 
