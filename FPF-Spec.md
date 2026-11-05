@@ -53415,16 +53415,16 @@ C.2.4 governs articulation explicitness, C.2.5 governs closure degree, C.2.6 rec
 
 **Technical alias.** `LanguageStateFacetProfile` names the optional record form below. A filled profile is an assessment account governed by C.2.1.
 
-**Use this pattern when.** Use C.2.LS when the next use of a published `U.Episteme` needs an explicit profile of selected language-state readings and local thresholds. Select the required formality, articulation, closure and representation readings, together with any source or use conditions needed to interpret or apply them.
+**Use this pattern when.** Use C.2.LS when the next use of a published `U.Episteme` needs selected language-state readings to be interpreted, compared or reused together. Select the required formality, articulation, closure and representation readings, together with any source or use conditions needed to interpret or apply them.
 
 **Sufficient result and non-use.** The profile can point to existing readings and include only the facets needed together. If ordinary wording, one direct facet reading or an applicable existing profile already serves the receiving use, use it without constructing another bundle.
 
 **What goes wrong if missed.** Teams replace the facet profile with a maturity adjective such as `ready`, `raw`, or `stable`, then use that label to choose routes, decide whether to reopen, interpret Bridges, or make publication decisions. The label hides the actual facet values.
 
-**What this buys.** A thin, decomposable profile bundle: each facet keeps the definition and tests supplied by its own pattern, while the profile gives authors, assurance readers, and integrators one place to publish a threshold-relevant language-state position.
+**What this buys.** A decomposable profile bundle: each facet keeps the definition and tests supplied by its own pattern, while the profile gives authors, assurance readers, and integrators one place to publish selected readings and the conditions on their joint use.
 
 ### C.2.LS:1 - Problem frame
-To publish or compare position claims in the language-state chart over `U.CharacteristicSpace`, collect the needed facet references and readings in one profile. This makes the readings and their contribution to a receiving threshold inspectable while each facet pattern supplies its own definition.
+When several language-state readings are needed together, collect their references, assessment scopes, grounds and use conditions in one recoverable account. This makes their separate contributions to the receiving judgement inspectable. If that judgement needs a language-state chart position, its declared `U.CharacteristicSpace` supplies the basis.
 
 ### C.2.LS:2 - Problem
 When authors need several facet readings together, a vague maturity label can conceal their different contributions, or `F` can become their surrogate. That blocks admissible threshold publication, undercuts `A.16` move guards, and makes school-to-school bridge work harder than it needs to be.
@@ -53434,10 +53434,10 @@ When authors need several facet readings together, a vague maturity label can co
 |---|---|
 | **Thin profile bundle vs practical coordination** | Keep the bundle small, but still give one stable place where the language-state facets are named together. |
 | **Reuse vs duplication** | Reuse A.18/A.19 characteristic machinery and A.16 moves; use E.18 only for an independently selected TransformationFlowStructure. |
-| **Local thresholds vs cross-context comparability** | Contexts need local thresholds, but the facet names must stay stable enough for bridge work and viewpoint bundles. |
+| **Local thresholds vs cross-context comparability** | Receiving uses can require different local thresholds; facet meanings must remain recoverable for comparison, bridge work and viewpoint bundles. |
 
 ### C.2.LS:4 - Solution
-A language-state facet profile records the selected readings and use conditions about one identified episteme edition. Characteristic readings use the declared language-state chart over `U.CharacteristicSpace`; a separate relation account keeps its own predicates. Use C.2.2a:0 and :4.2–4.5 to select the needed facets, obtain readings and grounds, and identify any conditions used by the receiving action. The profile brings those results together. Its fields can refer to existing readings or to the source and use account supplied by C.2.6. A reading reference makes its Characteristic, Scale, value and assessment scope recoverable; a reference to a source or use claim makes the predicate, participants and grounds recoverable. Select the applicable fields from:
+A language-state facet profile records selected readings and use conditions about one identified episteme edition. Use C.2.2a:0 and :4.2–4.5 to select the needed facets, obtain readings and grounds, and identify any conditions used by the receiving action. The profile brings those results together and can refer to existing readings or to the source and use account supplied by C.2.6. Each Characteristic reading retains its meaning, Scale, value, assessment scope and grounds. A source or use claim retains its predicate, participants and grounds. Use a declared language-state chart over `U.CharacteristicSpace` when the receiving use needs a position or an operation in that chart. The optional fields below can refer to the readings and accounts that supply these contributions:
 
 - `formalityRef` -> the expression-property assessment governed by `C.2.3`, including its selected basis and any justified local ordered summary
 - `articulationExplicitnessRef` -> the articulation reading governed by `C.2.4`
@@ -53451,15 +53451,15 @@ A language-state facet profile records the selected readings and use conditions 
 
 #### C.2.LS:4.0a - Kind and profile-bundle boundary
 
-The optional `LanguageStateFacetProfile` form expresses an ordinary C.2.1 assessment account. The episteme edition being assessed is its EntityOfConcern. Its claims give the selected readings under their chart and scope, their grounds, any required source or use conditions, and any thresholds used in the assessment. C.2.1 governs the account's identity; E.24.PUB governs its expression and publication. No additional profile individual or dependent U-kind is needed for this use.
+The optional `LanguageStateFacetProfile` form expresses an ordinary C.2.1 assessment account. The episteme edition being assessed is its EntityOfConcern. Its claims give the selected readings and their grounds within the assessment scope, using a declared chart when the receiving use needs one, together with any required source or use conditions and any thresholds used in the assessment. C.2.1 governs the account's identity; E.24.PUB governs its expression and publication. No additional profile individual or dependent U-kind is needed for this use.
 
-Distinguish the **selection of facets** from the **filled assessment**. A selection identifies the Characteristics and Scales in the A.19 basis and any separate C.2.6 questions needed by the receiving use. The same selection can be used for several assessments, just as the same record form can express them. A filled assessment states readings about its identified episteme edition and scope; changing a reading or a stated relation changes that claim content even if every definition reference stays the same. A threshold predicate has its own by-value identity under A.19:5.1.8. Reusing readings with a different predicate requires a new evaluation of that predicate, while the readings can remain unchanged.
+Distinguish the **selection of facets** from the **filled assessment**. A selection identifies the Characteristics and Scales needed by the receiving use and any separate C.2.6 questions. If a chart is needed, bind those Characteristics and Scales in its A.19 basis. The same selection can be used for several assessments, just as the same record form can express them. A filled assessment states readings about its identified episteme edition and scope; changing a reading or a stated relation changes that claim content even if every definition reference stays the same. An A.19 `CharacteristicSpacePredicate` has its own by-value identity under A.19:5.1.8. Reusing readings with a different predicate requires a new evaluation of that predicate, while the readings can remain unchanged.
 
-For reuse, recover the assessed edition, chart meanings, scope, readings and relied-on grounds from the profile or its applicable cited source. Recover a threshold or a separate source or action condition and its receiving use when the conclusion relies on it. Saying which of the selection, readings, threshold or whole assessment is being reused prevents an unchanged label from concealing changed content. Rearranging the same claims in a dashboard or table leaves their meanings available under the same account-identity rule.
+For reuse, recover the assessed edition, facet meanings, any chart basis needed by the use, scope, readings and relied-on grounds from the profile or its applicable cited source. Recover a threshold or a separate source or action condition and its receiving use when the conclusion relies on it. Saying which of the selection, readings, threshold or whole assessment is being reused prevents an unchanged label from concealing changed content. Rearranging the same claims in a dashboard or table leaves their meanings available under the same account-identity rule.
 
 **Choose direct readings or a shared profile.**
 
-Use direct facet readings when they already provide the inputs for the receiving judgement. A shared profile is useful when several readings and their conditions must be interpreted, compared or reused together: the reader can recover their joint scope and see which of them a local threshold actually uses. This saves reassembling dispersed references. The profile adds no stronger warrant to the readings. Keep it partial when the task needs only part of the facet family, and reuse an existing applicable assessment rather than writing another.
+Use direct facet readings when they already provide the inputs for the receiving judgement. A shared profile is useful when several readings and their conditions must be interpreted, compared or reused together: recover their joint scope and how each contributes to that judgement. When readings concern different expressions or components, keep that distinction visible. Identify which readings or relation claims each receiving condition uses, including any local threshold, and report that condition as met, not met or unresolved as its grounds warrant. This saves reassembling dispersed references. The profile adds no stronger warrant to the readings. Keep it partial when the task needs only part of the facet family, and reuse an existing applicable assessment rather than writing another.
 
 #### C.2.LS:4.1 - Contribution boundary
 `C.2.LS` defines only profile composition and requires the language-state facets to remain explicit and non-collapsed. It does **not**:
@@ -53471,13 +53471,13 @@ Use direct facet readings when they already provide the inputs for the receiving
 - define endpoint classification or bridge kinds.
 
 #### C.2.LS:4.2 - Threshold publication discipline
-Any threshold used to choose a next question, constrain an admissible move, or begin `A.6.P` recovery shall be published on explicit named facets in the profile. Do not describe hidden sub-levels of `F` when the real issue is articulation, closure, a source or use condition, or the representation-factor bundle. A required relation is tested under its direct predicate; only a declared Characteristic reading participates as a slot value in an A.19 threshold.
+When the receiving use relies on a threshold, make its condition and input readings recoverable from the profile or an applicable cited source. Do not describe hidden sub-levels of `F` when the real issue is articulation, closure, a source or use condition, or the representation-factor bundle. Test a required relation under its direct predicate. An A.19 `CharacteristicSpacePredicate` retains its declared space, Characteristic and Scale bindings, domain and test under A.19:5.1.8; only declared Characteristic readings supply its slot values.
 
 #### C.2.LS:4.2.a - Local profile-reading witness
 For this pattern, a published facet profile is reviewable when:
 
-- the assessed episteme edition, chart, scope, selected refs, readings and any relied-on source or use claims are explicit or recoverable from a cited applicable upstream publication;
-- any threshold-bearing use names the facet whose threshold is being invoked;
+- the assessed episteme edition, any chart used, scope, selected refs, readings and any relied-on source or use claims are explicit or recoverable from a cited applicable upstream publication;
+- any threshold-bearing use identifies the threshold and the readings it consumes;
 - route notes or local overlays remain informative and visibly docked to the explicit facet bundle;
 - and any claimed move, Bridge, gate state or downstream result retains its own governing definition and test.
 
@@ -53494,24 +53494,22 @@ A language-state judgement may be composite, but the composite shall be decompos
 A conforming profile makes this decomposition visible rather than hiding it under one stage label such as "early" or "raw".
 
 #### C.2.LS:4.4 - Corridor map note
-`C.2.LS` participates in the current `Language-State & Semantic Routing Corridor`, but contributes only the thin facet-profile bundle. Readers who need one map of the full language-state pattern set should read the corridor note in `C.2.2a`.
-
-That map does not change this boundary: `C.2.LS` still does not define cue preservation, route-bearing publication, prompt entry, or downstream endpoint use.
+For a map of the related language-state patterns, see `C.2.2a:15`.
 
 ### C.2.LS:5 - Archetypal Grounding
-**Tell.** A team may say a draft is "still forming" for different reasons. The profile lets the team identify whether the issue is low articulation, low candidate-space closure, an unavailable observation or use condition, or an unresolved representation-factor bundle.
+A team may say a draft is "still forming" for different reasons. The profile lets the team identify whether the issue is low articulation, low candidate-space closure, an unavailable observation or use condition, or an unresolved representation-factor bundle.
 
-**Show (System).** An operator alert note can have stable alert terms and structure and low closure, while participating in an operator acknowledgement-and-check procedure.
+**Operator alert.** An operator alert note can have stable alert terms and structure and low closure, while participating in an operator acknowledgement-and-check procedure.
 
-**Show (Episteme).** An inquiry note can be low articulation while reporting identified exemplars and observations.
+**Inquiry note.** An inquiry note can be low articulation while reporting identified exemplars and observations.
 
 ### C.2.LS:6 - Bias-Annotation
-Making selected facet readings explicit costs more than using one stage adjective. It lets the receiving reader test the actual threshold; retain the ordinary wording or existing reading when that already serves the use.
+Making selected facet readings explicit costs more than using one stage adjective. It makes their contribution to the receiving judgement inspectable, including any threshold that judgement uses; retain the ordinary wording or existing reading when that already serves the use.
 
 ### C.2.LS:7 - Conformance Checklist
 - `CC-C.2.LS-1` A language-state facet profile **SHALL** reference the patterns that define its facets rather than invent local unnamed factors.
 - `CC-C.2.LS-2` `C.2.LS` **MUST NOT** redefine the C.2.3 assessment or conceal several expression properties in one undeclared rank.
-- `CC-C.2.LS-3` Thresholds that matter for routing, reopening, or lexical repair **SHALL** be published on explicit facets.
+- `CC-C.2.LS-3` A threshold relied on for routing, reopening, or lexical repair **SHALL** be stated or cited with the readings it consumes. Required relation conditions retain their direct predicates.
 - `CC-C.2.LS-4` Trajectory accounts that rely on facet profiles **SHOULD** reuse A.16 move kinds. Apply E.18 only to an independently selected TransformationFlowStructure; use E.18.2 when its mathematical description is needed.
 - `CC-C.2.LS-5` Composite labels such as `early`, `settled`, or `ready` **SHALL NOT** stand in for the explicit facet bundle when those states matter operationally.
 - `CC-C.2.LS-6` Composite readings, overlays, and route notes **SHALL** remain decomposable into named facets and **MUST NOT** behave as hidden master factors.
@@ -53525,10 +53523,10 @@ Making selected facet readings explicit costs more than using one stage adjectiv
 - **Route-note capture.** Letting an informative route note act as a move rule, gate state, or endpoint rule. Keep route notes informative. Use `A.16` for admissible moves, the applicable pattern for a downstream definition or test, the applicable gate or Work pattern for those claims, and an `authoritySourceRef` only when an external authority actually supplies the rule.
 
 ### C.2.LS:9 - Consequences
-The benefit is clearer source and rule references: early cue work, bridge annotations, and reopen moves can all refer to one explicit facet profile. The trade-off is more explicit profile authoring and threshold publication.
+The benefit is clearer source and rule references: early cue work, bridge annotations, and reopen moves can all refer to one explicit facet profile. The trade-off is making the selected readings and their use conditions recoverable, including any threshold actually used.
 
 ### C.2.LS:10 - Rationale
-The profile brings together the references needed to interpret facet readings and test a local threshold. Each referenced pattern supplies the corresponding definition and test; the profile preserves their different contributions to the receiving judgement.
+The profile brings together the references needed to interpret facet readings together and test any local threshold used by the receiving judgement. Each referenced pattern supplies the corresponding definition and test; the profile preserves their different contributions to the receiving judgement.
 
 ### C.2.LS:11 - SoTA-Echoing
 
@@ -53536,10 +53534,10 @@ The profile brings together the references needed to interpret facet readings an
 
 | Claim need | Bounded comparison | Exact source | Use in `C.2.LS` | Disposition |
 |---|---|---|---|---|
-| Readiness claims should stay scoped instead of collapsing into one global adjective. | A profile can state scoped conditions and local thresholds rather than one blanket readiness label. | NIST AI RMF 1.0 (2023) | Require explicit facet-level thresholds and reject a polished profile label as a substitute for the facet values. | **Adopt/Adapt.** |
-| A publication can keep several named description elements visible without making their container identical to those elements. | Architecture-description vocabulary distinguishes named elements and their correspondence in a published description. | ISO/IEC/IEEE 42010:2022 | Use this only as a narrow publication comparator; it does not establish the language-state facet ontology. | **Narrow comparator only.** |
+| Conditions are selected for the receiving use. | AI RMF profiles are tailored to application requirements, risk tolerance and resources; the framework prescribes neither a universal tolerance nor a profile template. | [NIST AI RMF 1.0 (2023), §1.2.2 and §6](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf) | Select needed language-state readings and make any relied-on threshold explicit. | **Adapt.** |
+| A publication can keep several named description elements visible without making their container identical to those elements. | Architecture-description vocabulary distinguishes named elements and their correspondence in a published description. | [ISO/IEC/IEEE 42010:2022, §§3.4 and 3.11](https://www.iso.org/standard/74393.html) | Use this only as a narrow publication comparator; it does not establish the language-state facet ontology. | **Narrow comparator only.** |
 
-**Local stance.** The useful bounded result is a small explicit facet profile with local thresholds and decomposable readings, not one maturity adjective or one route-coloured bundle label.
+**Local stance.** The useful result is a decomposable profile of the readings and conditions needed for the receiving use.
 
 ### C.2.LS:12 - Relations
 - Builds on: `A.18`, `A.19`, `C.2.1`, `C.2.2a`, `C.2.3`, `E.24.PUB`.
@@ -53581,8 +53579,8 @@ An inquiry note reporting a mismatch noticed through bodily observation may stat
 
 - low `AE`,
 - very low `CD`,
-- the observer, bodily observation and reported mismatch, with a trace reference if an instrumental observation also contributes,
-- and representation-wise mixed because the cue is partly verbal, partly kinesthetic, partly exemplar-based.
+- the C.2.6 account of the observer, bodily observation and reported mismatch, including any exemplars or instrumental trace that contribute,
+- and any representation readings needed for the next use, assessed on the note's identified expression under C.2.7.
 
 Use the profile to identify what the next question still needs. `A.16.1` preserves the cue; `A.6.P` can recover an unclear relation, and `B.5.2` starts from an admissible `U.AbductivePrompt`. Apply the receiving pattern's conditions when choosing the move.
 
@@ -53609,12 +53607,8 @@ When publishing a language-state facet profile:
 4. when a label such as "mature", "raw", or "ready" carries an operational claim, make the relevant facet readings and conditions visible.
 
 #### C.2.LS:14.2 - For assurance readers
-An assurance reader should ask:
 
-- is any facet silently replaced by `F`?
-- is a threshold published on an explicit facet rather than on a poetic surrogate?
-- do route or reopen claims actually match the published facet bundle?
-- do profile notes guide interpretation while preserving the definitions and tests supplied by the applicable patterns?
+Use :18.1 to check the profile's meanings, relied-on conditions and claimed consequences.
 
 #### C.2.LS:14.3 - For integrators
 Integrators should preserve the profile references. A local alias is acceptable when the underlying facet references remain recoverable and unambiguous.
@@ -53666,10 +53660,10 @@ Local overlays such as "explicit-but-open", "derived from trace T", or "requires
 Do not infer the whole language-state profile from one facet. High `AE` does not entail high `CD`; an operator acknowledgement condition does not fix `AE` or `CD`; symbolic representation does not establish the expression properties needed by the receiving use; low `CD` does not imply low operational consequence.
 
 #### C.2.LS:17.2 - Threshold interaction rule
-When a threshold is expressed over one facet, say whether the other facets are merely informative or also constraining. An applicable local rule may allow entry into `B.5.2.0` once `AE` suffices for an explicit open question while still capping `CD` so rival answers remain live; it may allow entry into `A.6.P` at `AE3+` while still capping `CD` so the move remains exploratory rather than endpoint-binding.
+For a threshold expressed over one facet, identify any other facet readings or relation conditions that also constrain the receiving use. A local rule may require sufficient `AE` for an explicit open explanatory question for `B.5.2.0` and cap `CD` so rival explanations remain live. Another may require `AE3+` and an open-interpretation `CD` condition for an exploratory `A.6.P` use of a relation that needs clarification. Apply these thresholds to the named semantic branch under the receiving pattern's entry conditions. Any binding consequence retains its own governing rule and authority.
 
 #### C.2.LS:17.3 - Transition reading rule
-Read changes in the profile's readings and source or use conditions separately. A note may become more explicit without becoming more closed. Replacing direct access to an observation with access to its written report can leave closure unchanged while changing which check the recipient can perform. A representation may become more symbolic without adding the expression properties needed by its receiving use. `A.16`, `A.16.1`, `A.16.2`, `B.4.1`, and `B.5.2.0` should therefore cite the change in a reading or in a source or use condition that justifies the move.
+Read changes in the profile's readings and source or use conditions separately. A note may become more explicit without becoming more closed. Replacing direct access to an observation with access to its written report can leave closure unchanged while changing which check the recipient can perform. A representation may become more symbolic without adding the expression properties needed by its receiving use. Use the applicable move rule to determine which current readings and source, use or route conditions must hold. State any changes to them that the transition actually makes.
 
 ### C.2.LS:18 - Review Matrix and Migration Tests
 
@@ -53680,14 +53674,14 @@ An assurance reader should ask:
 - does any overlay smuggle a hidden scalar or gate decision;
 - are threshold claims tied to the facet that really bears them;
 - do cited moves in `A.16`, `A.16.1`, `A.16.2`, `B.4.1`, or `B.5.2.0` actually match the facet bundle;
-- if reuse depends on distinct local meanings, was `F.9` used for the actual Bridge and its bounded-use claim, keeping any optional loss account or F.9.1 stance note separate from the facets;
+- if reuse depends on distinct local meanings, were their exact senses recovered and the F.9 predicate tested, preserving a false or unresolved result; if a Bridge obtains, does its separate bounded-use claim support the proposed reuse under F.9:4.2, with any optional loss account or F.9.1 stance note kept separate from the facets;
 - if viewpoint conformance is claimed, was it tested under `E.17.0`?
 
 #### C.2.LS:18.2 - Migration test for source prose
 When a receiving use depends on a source phrase such as "still immature" or "already stable enough", recover the claimed reading or relation, its grounds, any threshold or route consequence, and the cited rule that warrants that consequence. Add an external `authoritySourceRef` only when an external authority actually supplies the rule.
 
 #### C.2.LS:18.3 - Comparative profile use
-Compare profiles on the named facets. A missing reading leaves that facet's comparison unresolved. A reporting aggregate needs a declared local model and operations admissible for the actual Scales under A.18/A.19; publishing an aggregation rule alone does not establish that basis. The aggregate remains secondary and must not replace the profile in norms, thresholds, or Bridge claims.
+Compare profiles on the named facets. A missing reading leaves that facet's comparison unresolved. A reporting aggregate needs a declared local model and operations admissible for the actual Scales under A.18/A.19; publishing an aggregation rule alone does not establish that basis. The receiving rule determines whether the aggregate supplies a sufficient input. Keep component readings or an accessible return to them whenever that rule, interpretation or reliance needs their distinctions or grounds.
 
 ### C.2.LS:End
 
@@ -53803,7 +53797,7 @@ The benefit is admissible publication of early cues and branch-aware threshold s
 `AE` supplies a shared ordinal interpretation for explicit articulation in the language-state chart. `A.16.0`, `A.16.1` and `B.4.1` can cite these anchors when an articulation threshold helps state their entry or completion condition. A directly stated sufficient condition needs no extra level merely to repeat it.
 
 ### C.2.4:11 - SoTA-Echoing
-The distinction echoes work on sketching, focusing/TAE, embodied cue capture, and representation probing: a cue can be real and operationally relevant before it becomes fully explicit.
+[Gendlin's *Introduction to Thinking at the Edge* (2004)](https://focusing.org/gendlin/docs/gol_2160.html), pp.3–5, is a historical comparison for :4.6. It describes trying several words against an initially unclear felt meaning, then developing sentences that express what each attempted word left unsaid. The resulting distinctions can change what is being articulated; writing and reading back can further develop the meaning. The ordinal `AE` anchors are FPF's construction for assessing that content against the stated receiving use.
 
 ### C.2.4:12 - Relations
 - Builds on: `A.18`, `C.2.2a`, `C.2.LS`.
@@ -53887,7 +53881,7 @@ At `AE3+`, use the local threshold of the direct branch rather than one universa
 - for a plan or intended activity, use `A.15`;
 - for a Method, use `A.3.1`; use `A.3.2` to test a `C.2.1` episteme's membership as a MethodDescription;
 - for a dated Work-occurrence claim, recover the performer under `A.13` and independently test Work admission under `A.15.1`; use `F.6` only when precise assignment-bound attribution is needed;
-- for a representation claim, use `C.29` and the represented subject's rule; use `C.2.P.DR` when declarative form is being overread, adding `A.6.3.RT` only when a representation transition is current;
+- for a representation claim, use the represented subject's rule and the representation's correspondence; use `C.29` when choosing or transferring a mathematical representation or relying on it beyond its supported correspondence leaves a separate question. Use `C.2.P.DR` when declarative form is being overread, adding `A.6.3.RT` only when a representation transition is current;
 - for an abductive prompt or explicit open question, use `B.5.2.0` or the direct question pattern;
 - for a Characteristic or Scale claim, use `A.17` and `A.18`, with `C.16.P` when its scalar wording hides the construction;
 - for an ordinary domain claim, use the domain pattern that governs its subject; use `C.2.1` when episteme identity is needed.
@@ -53978,7 +53972,7 @@ The Scale's order describes greater fixity, not a universal improvement. Inquiry
 | `CD2` | narrowed candidate space | explicit rivals remain, but the field is meaningfully reduced |
 | `CD3` | selected route or framing | one route is chosen, though reopening remains routine |
 | `CD4` | publication- or operation-fixed under guard | changes require named justification |
-| `CD5` | strongly fixed | relaxation requires an explicit `A.16.2` move and governance note |
+| `CD5` | strongly fixed under an explicit retreat rule | the applicable rule requires an explicit `A.16.2` move to relax the fixation; make its governance basis, reason and changed commitments recoverable, adding a note only when the existing publication content is insufficient |
 
 #### C.2.5:4.3 - Non-collapse rules
 `LanguageStateClosureDegree` is not:
@@ -53992,7 +53986,7 @@ The Scale's order describes greater fixity, not a universal improvement. Inquiry
 A text may be highly explicit but low-closure, or low-explicitness but already high-closure by policy. Those states shall not be collapsed.
 
 #### C.2.5:4.4 - Change discipline
-Increasing `CD` requires narrowing candidate space, route space, or frame space explicitly. Lowering `CD` is admissible only through a named move such as `reopen`, `sketchBackoff`, or `respecify`, with a retained-witness and discarded-assumption note.
+Increasing `CD` requires narrowing candidate space, route space, or frame space explicitly. When closure decreases, make the prior fixation, reason for reopening and still-binding remainder recoverable. Use `A.16.2` when a published framing, route or use claim must be revised or the applicable fixation rule requires that move; add a note only when the existing material is insufficient.
 
 An ordinary PatternID in `governingPatternRef` locates the FPF rule relevant to the closure claim. Use a separate `relationFunctionClaimRef` for its exact defining or constraining `ClaimGraph` only when admissible interpretation, comparison, migration, publication, or reuse depends on that exact rule identity (`E.10`, `E.4.PFR`). Use `authoritySourceRef` when a non-pattern source carries the relevant authority.
 
@@ -54009,22 +54003,22 @@ Explicit closure takes description work; it makes the remaining rivals and groun
 ### C.2.5:7 - Conformance Checklist
 - `CC-C.2.5-1` Closure **SHALL** be declared independently from `F` and `AE` when it matters for routing, docking, or reopening.
 - `CC-C.2.5-2` Reopen/backoff moves **SHALL** cite the prior closure state they are relaxing.
-- `CC-C.2.5-3` Strong-closure states **SHOULD** name the guard, `governingPatternRef`, or `authoritySourceRef` that makes the closure binding.
+- `CC-C.2.5-3` A claim that strong closure is binding **SHOULD** name the applicable guard, `governingPatternRef`, or `authoritySourceRef` that establishes that binding force.
 - `CC-C.2.5-4` A closure drop **SHALL NOT** silently preserve an endpoint-use claim when the supporting route or publication form no longer supports it.
 
 ### C.2.5:8 - Common Anti-Patterns and How to Avoid Them
 - **Closure by mood.** A sentence sounds decisive, so teams assume high closure. State the actual fixation and its grounds; add a `CD` reading when the receiving use needs that scale.
-- **Irreversible drift.** Closure rises informally but no reopening condition exists. Use `A.16.2`.
+- **Irreversible drift.** Closure rises informally but no reopening condition exists. State what would justify reopening; use `A.16.2` when a published framing, route or use claim must be revised.
 - **Authority smuggling.** High closure is treated as if it were automatically a gate or obligation. Check the applicable gate condition for a gate claim; use `A.2.8` to check whether the claimed obligation obtains.
 
 ### C.2.5:9 - Consequences
-The benefit is admissible handling of stabilization, commitment, and reopening. The trade-off is more explicit state declaration and more explicit retreat records.
+The benefit is admissible handling of stabilization, commitment, and reopening. The trade-off is making the actual narrowing and any consequential retreat recoverable.
 
 ### C.2.5:10 - Rationale
 Closure describes how fixed the candidate space is; articulation describes how explicit its meaning is. `A.16.0` and its related patterns can use both when each affects the move condition.
 
 ### C.2.5:11 - SoTA-Echoing
-The facet aligns with iterative design, open-world reasoning, and exploratory search practices where closure is a governance choice rather than a hidden by-product.
+The comparison in :13.1 distinguishes making a diagnostic question explicit from excluding an alternative with a reference-gauge reading. Only the latter narrows that candidate space. In :13.2 a policy instead fixes the route for a horizon; reopening then depends on that policy as well as changed observations. These cases support identifying the actual source of narrowing and retaining separate `AE` and `CD` judgements when both are used.
 
 ### C.2.5:12 - Relations
 - Builds on: `A.18`, `C.2.2a`, `C.2.LS`.
@@ -54041,7 +54035,7 @@ A practitioner choosing the next diagnostic question can use the stated alternat
 An operator rule may be only moderate in `AE` but high in `CD` because policy already fixes the next step under the current horizon. This shows why closure is governance-facing, not merely stylistic.
 
 #### C.2.5:13.3 - Reopen case
-A route may move from `CD4` back to `CD2` when counter-evidence appears. Record the counter-evidence and the retreat as an admissible `A.16.2` move.
+A route may move from `CD4` back to `CD2` when counter-evidence appears. Make the counter-evidence and changed scope of closure recoverable; use `A.16.2` when the publication must be revised.
 
 ### C.2.5:14 - Authoring and Review Guidance
 
@@ -54065,7 +54059,7 @@ Whenever a claim about a gate, commitment, or endpoint use depends on `CD`, the 
 Contexts may refine the starter closure anchors, but shall keep the ordinal progression and the explicit link to reopen/backoff discipline.
 
 #### C.2.5:15.2 - Migration from readiness language
-When routing, endpoint use or reopening depends on words such as "settled", "closed", "final", or "open", recover the claimed fixity and its grounds. Use an explicit `CD` reading when that scale is needed and a named `A.16.2` move when the closure changes. Sufficient ordinary wording needs no separate level solely to repeat it.
+When routing, endpoint use or reopening depends on words such as "settled", "closed", "final", or "open", recover the claimed fixity and its grounds. Use an explicit `CD` reading when that scale is needed and `A.16.2` when a publication move is needed. Sufficient ordinary wording needs no separate level solely to repeat it.
 
 #### C.2.5:15.3 - Boundary reminder
 `CD` is not warrant strength and not a gate decision. It speaks only about the local fixity of the current episteme or publication position and its candidate space.
@@ -54268,7 +54262,7 @@ A repeated comparison may benefit from a nominal Characteristic summarizing one 
 
 For example, a team comparing access to a designated primary check can define one nominal Characteristic for the tuple (claim, designated check, recipient, time): the recipient can perform that check at that time, or cannot. Establish the capability and access required by the check before assigning either value; otherwise leave the reading unknown. The value helps choose between performing the check and arranging the missing access. This local comparison concerns availability of that check; it does not classify the claim's provenance or evidence quality.
 
-Declare such a Characteristic as its own chart slot. A changed aspect or Scale changes the chart meaning under A.19:5.1.2; preserve or establish an explicit mapping when an old position must be compared with it. C.3.2 governs any separate classification using these readings.
+When the summary is used in a language-state chart, declare its Characteristic as its own slot. A changed aspect or Scale changes that chart's meaning under A.19:5.1.2; preserve or establish an explicit mapping when an old position must be compared with it. C.3.2 governs any separate classification using these readings.
 
 #### C.2.6:15.2 - Recover a relation hidden by metaphor
 When wording such as "the system wants" or "the note suggests" leaves the intended action or claim unclear, identify what the system does, what the note asserts, or who makes the interpretation. Recover the relevant detector, performer or witness through the direct subject pattern. An ordinary understood metaphor needs no expanded record.
