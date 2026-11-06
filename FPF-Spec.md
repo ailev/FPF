@@ -28892,7 +28892,7 @@ For a human-plus-AI pair planning tool calls or probing a route, recover only th
 
 First distinguish the current question. If another probe could change which option survives the `OptionSet`, return to C.11. If changed live facts or domain-Method limits could change the next action during ongoing Work, return to A.15.7. Use C.24 when an applicable domain prescription or a completed decision has fixed the action or option and tool or service calls must be planned.
 
-Use a sufficient existing `CallPlan` directly. When the fixed action's usable route remains unfamiliar, plan a bounded scout or probe under the applicable outcome criterion, budget and permission conditions. After its actual performance, return what was tested and observed in a `CheckpointReturn`. Use A.15 for the assignment, Method, plan and Work claims this use needs, and C.24 for call-plan and checkpoint semantics. When an E.16 autonomy budget governs this bounded scouting, retain its distinct scout budget, probe budget and commit checkpoint and its guard or override path.
+Use a sufficient existing `CallPlan` directly. Otherwise use C.24 to construct the fixed action's route from available inputs, qualified Method contributions and required intermediate results, then check its feasibility. Select a bounded scout or probe only for a specific unresolved fact that could change the usable route and when the attainable answer justifies the inquiry under the applicable criterion, budget and permission. After actual probing, return what was tested and observed in a `CheckpointReturn`. Use A.15 for the assignment, Method, plan and Work claims this use needs, and C.24 for planning and checkpoint semantics. When an E.16 autonomy budget governs the scouting, retain its scout budget, probe budget, commit checkpoint and guard or override path.
 
 After a bounded probe, its `CheckpointReturn` carries the C.24 action basis and:
 
@@ -62300,11 +62300,11 @@ The predicate obtains throughout an interval exactly when all of the following a
 - at least one exact whole-forming claim is true: that contribution connects to the candidate's field boundary, to another required contribution, and to the declared composition-grounded whole characteristic;
 - the candidate's direct reidentification rule treats the current part, its contribution, and any allowed replacement as belonging to this continuing assembly.
 
-Mere eligibility for future use is insufficient. A source citation, canon list, standards list, registry row, curriculum position, organizational affiliation, publication, common label, diagram containment, shared audience, bridge endpoint, comparison row, selected structure, work participation, evidence relation, or health reading does not make `disciplinePartOf` obtain.
+Eligibility, citation or participation alone does not establish the required contribution and whole-forming parthood.
 
 One occurrence is identified by `<exact part entity, exact candidate, maximal continuous obtaining interval>`. If the same part leaves the assembly and later returns, the two episodes are distinct occurrences. A changed observation or evidence window does not split an ongoing occurrence; actual cessation and resumption under the direct predicate do. Reidentifying either participant also identifies another occurrence.
 
-Multiple contribution claims for the same part do not create several part occurrences during the same continuous interval. If typed declaration reuse is needed, the direct relation has only the two participant meanings above. Canon, practice, organization, bridge, comparison, policy, evidence, publication, and structure fields are not additional `SlotSpec`s. Qualifiers and whole-forming claims keep their subject patterns.
+Multiple contribution claims for the same part do not create several part occurrences during the same continuous interval. If typed declaration reuse is needed, the direct relation has only the two participant meanings above; other contribution claims and qualifications do not add participant slots. Qualifiers and whole-forming claims keep their subject patterns.
 
 #### C.20:4.3 - State whole-forming claims before choosing notation
 
@@ -62384,7 +62384,7 @@ Any entity in this table can become an actual part only when it is independently
 
 Discipline work can use an independently selected `BoundedModelUseStructure` when the selected organization of exact relations changes how a named model is interpreted or used in that work. State the exact model, direct relation occurrences, selection basis, receiving work or claim, and the organization that matters. A.22 is the pattern for the structure and A.15.1 is the pattern for the dated work.
 
-The structure is optional. It is not the discipline, a constituent by selection, a subdiscipline, a context count, a description, a viewpoint, a whole characteristic, a breadth classification, or a second identity carrier. Several selected structures used in work about one discipline do not create several disciplines; one structure used across several disciplines does not merge them.
+Selection establishes neither discipline parthood nor discipline identity; use the C.20 construction test for those claims.
 
 #### C.20:4.8 - Breadth, tradition, lineage, and school claims
 
@@ -62404,19 +62404,19 @@ Open these branches only when the named discipline use actually needs them.
 
 **Cross-field or cross-sense use.** A cross-field use may use independently governed claims without a semantic crossing. When an exact cross-context semantic relation is claimed, first resolve two exact F.17 `SchemeSenseCell` values; F.9 identifies an obtaining Bridge only when their semantic-context projections differ and the direct predicate and dependencies are satisfied. A field, scheme, cell, or plane difference alone creates no Bridge. For an obtaining Bridge, keep a separate current C.2.1 bounded-use proposition whose EntityOfConcern is that Bridge and whose ClaimGraph names the proposed action `u`, exact direction `d`, use-specific correspondence rule `r`, tolerated semantic loss `t`, and affirmative or negative polarity. Observed loss and counterexamples remain evidence; the permitted-loss tolerance remains claim content. Neither one reidentifies the Bridge.
 
-For ordinary evidence reliance, use the exact A.10 evidence-provenance relation for the same bounded use. Only `RelianceDisposition=pass` supports that affirmative use; `degrade` supports only the named narrower use, while `abstain`, `reopen`, `evidence-needed`, `assurance-needed`, or `blocked-current-use` does not pass the attempt. Use B.3 only when an actual named assurance claim is current, and require its result for that same bounded assurance use. Authorization and any actual comparison, substitution, translation, publication, or Work occurrence remain with their subject patterns.
+For ordinary evidence reliance, recover the descriptive A.10 evidence-provenance path and the independently established direct relations it cites for the same bounded use. Only `RelianceDisposition=pass` supports that affirmative use; `degrade` supports only the named narrower use, while `abstain`, `reopen`, `evidence-needed`, `assurance-needed`, or `blocked-current-use` does not pass the attempt. Use B.3 only when an actual named assurance claim is current, and require its result for that same bounded assurance use. Authorization and any actual comparison, substitution, translation, publication, or Work occurrence remain with their subject patterns.
 
 **Crossing visibility and presentation checks.** Keep an exact Bridge and separate bounded-use proposition discoverable in an account that relies on that obtaining semantic relation. For a ReferencePlane-only crossing, keep the applicable plane relation and policy discoverable instead; if both facts are current, keep both under their own predicates. Materialize an E.18 `CrossingBundle` only when an independently current E.18 structural `GateCrossing` exists and a named downstream use relies on durable evidence for that structural crossing; if it also relies on cross-semantic correspondence, add E.18's separate F.9 block. E.17 governs publication packaging and A.21 governs any actual GateCheck or GateDecision. For lane purity, inspect the current B.3 result by value: every characteristic keeps its bearer and scale, and any aggregation cites its domain model and assumptions; there is no universal F-G-R-CL fold. Apply E.10 lexical checks to the published labels, keep normative prose notation-neutral, and treat every discipline column as didactic only.
 
-**Comparison or aggregation.** A.17 identifies every exact Characteristic; A.18 supplies its Scale, Unit and legal operations; C.16 supplies a measurement result only when an actual measurement chain exists. A mean over an ordinal Scale and an aggregation that mixes unconverted or incommensurable Units are inadmissible: stop that operation, establish a lawful transformation or comparison scheme, or retain the separate values rather than manufacturing an aggregate. One actual A.19.CPM comparison application uses the bound profile pair, comparator, claim scope and selected slices, optional predicate, reference scheme and plane, evaluation point or interval, and evidence policy, and binds its returned set-valued result; CPM does not fold or aggregate. Any numeric or profile aggregation is a separate explicit A.19.ULSAM or applicable B.1 `Γ-fold` operation with its own result binding and recoverable inputs, fold and contributors.
+**Comparison or aggregation.** Identify the exact Characteristics under A.17 and their Scales, applicable Units and legal operations under A.18; C.16 supplies measurement results when the inputs are measured. A mean over an ordinal Scale and an aggregation that mixes unconverted or incommensurable Units are inadmissible: stop that operation, establish a lawful transformation or comparison scheme, or retain the separate values. When using A.19.CPM, bind its required profile pair, comparator, claim scope and selected slices, predicate when used, reference scheme and plane, evaluation point or interval, and evidence policy; retain its set-valued result. CPM does not aggregate. A numeric or profile aggregation uses its own justified combining rule and recoverable inputs and contributors; a selected A.19.ULSAM or B.1 `Γ-fold` retains that interface's arguments and result binding.
 
 Ordinary comparison or folding mathematics needs no asserted dated `U.Work`. When the account asserts dated comparison or aggregation Work, or the receiving use consumes it, recover its A.13 core and independent A.15.1 admission; use F.6 only for precise assignment-bound attribution. A calculation application and its qualification window do not by themselves establish a dated Work occurrence.
 
-Before either operation, the applicable G.0 CG-Spec route names the exact Characteristic ids, `ScaleComplianceProfile` with Scale, Unit, polarity and legal-operation conditions, `MinimalEvidence`, and either the admitted `ComparatorSet` member for comparison or the declared `Γ-fold` and contributors for aggregation. This pre-operation admissibility check fails closed on missing or unknown declarations or evidence and creates neither equality, an aggregate, nor a winner. An operation that relies on an obtaining F.9 Bridge between two exact F.17 `SchemeSenseCell` values uses the separate Bridge, bounded-use-claim, and reliance branch above; a crossing of exact ReferencePlanes instead cites the applicable plane relation and policy. If both facts are current, state both under their own predicates. A scheme, cell, or plane difference alone creates neither relation. Neither branch supplies the comparison or aggregation scope, predicate, comparator, plane, time, result, or selection.
+When a comparison or aggregation is governed by a G.0 CG-Spec, its pre-operation check names the Characteristic ids, `ScaleComplianceProfile` with applicable Unit, polarity and legal-operation conditions, `MinimalEvidence`, and the admitted comparator or declared `Γ-fold` and contributors. Missing or unknown required declarations or evidence block that governed operation. Ordinary comparisons and aggregates still need compatible inputs and a lawful operation; they need no CG-Spec unless the receiving use selects that interface. If the operation relies on an obtaining F.9 Bridge between exact F.17 `SchemeSenseCell` values, use the separate Bridge, bounded-use-claim and reliance branch above. A ReferencePlane crossing instead uses its applicable relation and policy; when both relations matter, retain both. These relations do not supply the operation's scope, comparator, inputs or result.
 
 **Evidence, currentness, and assurance.** Use A.10 for source use and the evidence-provenance path, and G.11 for selected-edition currentness. When an imported source claim supports a construction, classification, comparison, publication, or assurance use, keep the exact source and edition plus only the lane tags, freshness window, or validity conditions that the receiving use consumes. Claims that need no such reliance acquire none of this apparatus merely because they concern a discipline. Open B.3 only for an actual named assurance claim. Its `AssuranceResult` identifies the target claim, assurance use, basis, disposition, limits, and reopen condition. If the argument consumes a characteristic or calculation, name its bearer, property, scale, unit, interpretation, basis, dependency model, assumptions, rule, and rival as applicable. C.20 supplies no default F/G/R/CL lanes, weakest-link fold, `SpanUnion`, congruence penalty, plane penalty, or assurance arithmetic. A Bridge-related penalty is current only when an actual named B.3 assurance claim uses an applicable declared domain model whose current facts and rule yield it; that value belongs only to the calculated `AssuranceResult` for that named use. State `ReferencePlane` only when it changes an exact input or interpretation; when an exact plane crossing is current, cite the applicable plane relation and policy. The selected plane and its relation identify neither a discipline part nor a part relation. Insufficient or unknown support narrows, abstains, requests evidence, reopens, or blocks the attempted assurance use under B.3; it does not make a part relation or whole obtain or cease.
 
-**Health or state view.** C.21 can evaluate typed discipline-health characteristics. Local values such as emerging, consolidating, codified, or fragmenting require their own criteria, Scale, evidence basis, qualification window, and currentness. Any decision threshold belongs to the relevant G.4 AcceptanceClause. A state label, health vector, score, or dashboard transition is descriptive and does not itself reidentify the discipline.
+**Health or state view.** C.21 can evaluate typed discipline-health characteristics. Local values such as emerging, consolidating, codified, or fragmenting need their defining criteria and support, with Scale, observation period and currentness conditions as required by the claim. A decision threshold belongs to the applicable decision rule; represent it as a G.4 AcceptanceClause when that formal acceptance interface is used. A state label, health vector, score, or dashboard transition does not itself reidentify the discipline.
 
 **Description and publication.** The claim-bearing whole expressed by a discipline description, construction trace, comparison report, health series, card, or registry row is identified as an episteme under C.2.1 when that pattern's constitution test holds. E.24.PUB governs any actual publication occurrence and keeps selected episteme edition, audience, bounded-use declaration, particular expression, carrier, and availability interval distinct. Updating or publishing the account changes neither the field assembly nor its past.
 
@@ -62448,7 +62448,7 @@ The three exact relation occurrences are `disciplinePartOf(HazardCausalityCanon-
 
 The reidentification rule permits a compatible canon revision or replacement Method only when the field boundary, causal and argument meanings, practice-knowledge feedback, and whole characteristic remain within declared continuity conditions. Removing the feedback route, changing the governing safety concern and field boundary, or replacing the assembly by unrelated document and method lists falls outside the rule.
 
-`Safety Journal`, a standards committee, a university curriculum, a laboratory, a bridge to resilience-engineering terminology, a comparison CG-Spec, and a published discipline card remain separately governed. They are not parts in this case because no separate C.20 predicate has been established for them. For any precise review or teaching Work, use A.13 to identify the actual performer and A.15.1 to admit the dated occurrence independently; add F.6 only if this case must also state exactly under which assignment that Work was performed. The Work may enact a part Method, but it neither becomes the discipline nor proves the three part relations.
+`Safety Journal`, a standards committee, a university curriculum, a laboratory, a bridge to resilience-engineering terminology, a comparison CG-Spec, and a published discipline card remain separately governed. This example establishes no C.20 part predicate for them, so their parthood remains unresolved. A positive or negative part claim needs the corresponding C.20 grounds.
 
 For A.1's larger-assembly test, the separately identified rule episteme `EngineeringFieldAssemblyRule-v3` describes a governed larger-field construction whose applicability requires one constituent field to expose stable hazard-constraint meanings, analysis-result meanings, and identity-preserving interfaces to design and verification practices. `SafetyEngineering-SE` has those actual interfaces and its reidentification rule preserves them, so it is compatible with that possible assembly while remaining the same candidate. The rule episteme does not create the compatibility facts, and this result asserts no actual `disciplinePartOf(SafetyEngineering-SE, Engineering-E)` occurrence.
 
@@ -62493,7 +62493,7 @@ These questions expose different ways a field account can acquire unsupported me
 | **Canon or method monocentrism** | One document set or method family stands for both knowledge and practice. | Require independently identified contributions on both sides and exact coupling claims. |
 | **Schema completion** | Five filled positions or heterogeneous fields manufacture construction. | Use the two-participant direct relation and ordinary whole-forming claims; treat cards as descriptions. |
 | **Bridge universalism** | Translation or high congruence merges fields. | Keep Bridge, bounded-use proposition, reliance, comparison, and discipline construction separate. |
-| **Metric reification** | Health or maturity value is treated as discipline identity. | Keep C.21 readings and G.4 thresholds as evaluations over the exact discipline. |
+| **Metric reification** | Health or maturity value is treated as discipline identity. | Keep C.21 readings and any decision thresholds as evaluations over the exact discipline. |
 | **Snapshot extensionalism** | Any changed part creates another discipline, or the same part list guarantees sameness. | Apply the assembly-sensitive reidentification rule. |
 
 ### C.20:7 - Conformance Checklist
@@ -62512,7 +62512,7 @@ These questions expose different ways a field account can acquire unsupported me
 | `CC-C20-10` | Any selected bounded-model-use structure is optional, independently identified, tied to one named receiving use, and creates no part, holon, subkind, viewpoint count, breadth, or identity. |
 | `CC-C20-11` | Applied, multidisciplinary, transdisciplinary, tradition, lineage, and school claims state their own criteria; no public U-kind or discipline part follows from wording or counts. |
 | `CC-C20-12` | A field, scheme, cell, or plane difference alone creates no F.9 Bridge. A use that relies on an obtaining Bridge separates it from its bounded-use proposition, direction, rule, tolerance, polarity, A.10 reliance or actual named B.3 assurance branch, observed loss when relevant, and actual comparison; a ReferencePlane-only crossing instead cites the applicable plane relation and policy. |
-| `CC-C20-13` | Comparison declares characteristic, scale, unit, polarity, comparator, scope, window, and admissible operation under C.16/A.19.CPM; C.20 performs no comparison and defines no reliability fold. |
+| `CC-C20-13` | Comparison or aggregation retains its exact inputs, Characteristics, Scales, applicable Units, scope and justified operation; measurement and selected G.0/A.19 interfaces retain their own conditions. C.20 defines no comparison result or reliability fold. |
 | `CC-C20-14` | A health value, state label, evidence profile, registry row, description edition, publication occurrence, form, or carrier changes no discipline construction fact by itself. |
 | `CC-C20-15` | Any C.13 trace names the already grounded candidate, exact parts, direct occurrences, assembly, identity rule, and whole characteristic; `Gamma_m.sum` syntax creates none of them. |
 | `CC-C20-16` | Core prose and labels follow E.10 and remain notation- and tool-neutral; a didactic discipline column carries no hidden semantics. |
@@ -62539,7 +62539,7 @@ These questions expose different ways a field account can acquire unsupported me
 
 **Benefits.** The construction account distinguishes constituent replacement from reidentification without freezing a universal canon or Method repertoire. It preserves rival traditions through their explicit contributions and admissible directed uses. Comparison, selection and publication can use that account and their own characteristic, evidence or authority grounds; they do not supply missing construction facts.
 
-**Costs and trade-offs.** A positive claim needs exact parts, direct relation intervals, whole-forming claims, an assembly, a reidentification rule, one whole characteristic, and a larger-assembly compatibility account. The cost is proportional: ordinary use can stop at readable sentences. A named comparison adds Scale, comparator, and CG-Spec literacy; a cross-locality use that relies on an obtaining semantic Bridge adds its separate bounded-use claim and reliance work; trace, evidence, publication, health, selector, or assurance apparatus is added only for a named receiver. That extra explicitness pays back in safer reuse and clearer governance.
+**Costs and trade-offs.** A positive discipline claim needs exact parts, direct relation intervals, whole-forming claims, an assembly, a reidentification rule, one whole characteristic, and a larger-assembly compatibility account. Ordinary use can state these in readable sentences. A comparison adds its actual comparison basis and lawful operation; a selected CG-Spec adds that interface's declarations. Cross-local use that relies on an obtaining semantic Bridge adds its bounded-use claim and reliance grounds. Trace, publication, health, selector or assurance apparatus is added for the receiving use that needs it.
 
 **Risks avoided.** The pattern blocks label-made fields, institution-made identity, publication-made parts, context-count breadth, bridge-made merger, health-score ontology, and registry-made method or discipline membership.
 
@@ -62555,10 +62555,9 @@ This separation keeps every discipline-related claim local to an exact EntityOfC
 
 | Source or practice line | Contribution to C.20 | Use boundary |
 | --- | --- | --- |
-| Constructional-ontology work cited in A.1 and C.13 requires explicit constituents, constructive relations, assembly, dependence, and identity choices rather than an extensional list. | Require exact part occurrences, whole-forming claims, an assembly-sensitive reidentification rule, and one composition-grounded whole characteristic. | A graph, card, constructor expression, shared label, or input set creates neither whole nor relation. |
-| Current science-of-science and reproducibility practice cited in C.21 treats field health as several typed, scoped, time-qualified characteristics. | Let C.21 evaluate exact disciplines without importing health coordinates into construction. | Reproducibility, standardization, disruption, diversity, or evidence granularity is not discipline identity or truth by itself. |
-| Current model, workflow, and publication practice separates semantic ways of doing, claim-bearing descriptions, actual work, results, and publication availability. | Keep Methods, epistemes, Work, results, and publication occurrences independently governed even when their exact relations support a field assembly claim. | Use, representation, occurrence, evidence, or publication does not make an entity a discipline part. |
-| Plural-field and translation practice needs explicit local meanings, direction, substitution conditions, an explicit use-specific loss tolerance, and any material observed loss. | Use an exact F.9 Bridge only after two exact F.17 `SchemeSenseCell` values resolve and its predicate obtains; when a named use relies on it, add the separate bounded-use proposition and direct reliance or comparison branch. A plane-only crossing uses the applicable ReferencePlane relation and policy instead. | A Bridge count or high congruence neither merges disciplines nor creates a transdisciplinary kind. |
+| A.1 and C.13 constructional account | Require exact part occurrences, whole-forming claims, an assembly-sensitive reidentification rule, and one composition-grounded whole characteristic. | A graph, card, constructor expression, shared label, or input set supplies none of these facts by itself. |
+| C.21 discipline-health account | Evaluate exact disciplines through separately defined health characteristics, without making those values construction criteria. | A reproducibility, standardization, disruption or diversity value does not identify the discipline or establish one claim's truth. |
+| F.17 local senses and F.9 semantic correspondence | Resolve exact local meanings and test the proposed relation. When a use relies on an obtaining Bridge, retain its direction, correspondence rule, use-specific loss tolerance and material observed loss; a plane-only crossing uses its own relation and policy. | Bridge count or congruence alone neither merges disciplines nor establishes a transdisciplinary kind. |
 
 **Currentness and reopen.** Reopen only the affected construction, identity, crossing, or health decision when its direct source interface changes. A newer discipline study can change the local breadth criterion or worked case without weakening the exact-part, direct-relation, assembly, and reidentification boundary.
 
@@ -62568,7 +62567,7 @@ This separation keeps every discipline-related claim local to an exact EntityOfC
 
 **Coordinates with.** C.2.1 for canon, standard, classification, description, trace, and result epistemes; A.3.1 and B.1.5 for Methods and method composition; A.15.1 for dated discipline work; A.22 for optional selected structures; B.2 for a separately current whole-reidentification question; C.3 for project-local breadth and tradition classifications; C.22 for selector-facing problem typing and TaskSignature assignment; C.23 for MethodFamily evidence and maturity; E.10 for lexical precision; and F.17/F.18 for local-sense term publication and durable naming.
 
-**Conditional branches.** F.9 for exact Bridges; A.10 for ordinary evidence-bearing reliance and B.3 only for an actual named assurance claim; C.21 for discipline health; A.19.CPM for comparison and G.0 for its CG-Spec admissibility declaration; G.4 for acceptance thresholds; E.24.PUB for publication; G.5 for selector use of independently grounded discipline or method claims.
+**Conditional branches.** F.9 for exact Bridges; A.10 for a recoverable evidence account and B.3 for an actual named assurance claim; C.21 for discipline health; A.19.CPM and G.0 when their comparison and CG-Spec interfaces are used; G.4 for formal acceptance clauses; E.24.PUB for publication; G.5 for selector use of independently grounded discipline or Method claims.
 
 **G.2 source-pack boundary.** When one current G.2 harvest or synthesis informs a discipline account, preserve the anti-monoculture intent by keeping plausible rival lineages and the semantic localities relevant to that named synthesis visible, with an explicit coverage or omission rationale and explicit crossings where needed. C.20 sets no minimum number of Traditions, local frames, cards, contexts, or matrix rows; G.2 alone governs conformance of its pack. A plural or conforming pack, `TraditionPalette`, or `BridgeMatrix` supplies neither a discipline construction nor a part relation.
 
@@ -62593,14 +62592,14 @@ Use this pattern when a team must say something practical about the health, matu
 
 **First useful move.** Name the discipline and practical question, choose one relevant Characteristic, state its scope and comparison basis, and say in ordinary language what the current material supports and what it does not. Stop there when the receiving use needs no measured comparison, aggregate, reusable series, or publication.
 
-**Not this pattern when.** Use C.20 to decide whether the candidate is a discipline, C.16 to construct a measurement, A.19 for comparison or aggregation work, F.9 only when the use actually relates distinct local senses, E.24.PUB for audience availability, G.12 for a reusable dashboard view, and G.4 for an acceptance threshold. C.21 supplies none of those results merely by naming a health Characteristic.
+**Not this pattern when.** Use C.20 to decide whether the candidate is a discipline, C.16 to construct a measurement, A.19 for comparison or aggregation work, F.9 only when the use actually relates distinct local senses, E.24.PUB for audience availability, G.12 for a reusable dashboard view, and G.4 for a selected formal acceptance interface. C.21 supplies none of those results merely by naming a health Characteristic.
 
 
 ### C.21:1 - Problem Frame
 
-A discipline can persist as its constituents and associated epistemes, practices, standards, institutions, and Work change. Teams routinely say “replication is improving,” “the field is fragmented,” or “standards are converging.” Such a sentence can be useful before it becomes a dashboard row, but any relied-on comparison needs exact Characteristic, Scale, measurement, scope, and basis semantics.
+A discipline can persist as its constituents and associated epistemes, practices, standards, institutions, and Work change. Teams routinely say “replication is improving,” “the field is fragmented,” or “standards are converging.” Such a sentence can be useful before it becomes a dashboard row, but any relied-on comparison needs exact Characteristic, Scale, scope and comparison-basis semantics, with measurement conditions when measured readings are used.
 
-C.21 therefore treats health as a vector of separately typed coordinate claims. It does not imply one scalar health value. A threshold or target band is an acceptance declaration under G.4, not part of the Characteristic. A dashboard is a representation over already constituted claims, not their ontology or authority.
+C.21 treats health as separately typed coordinate claims, not one scalar health value. A threshold or preferred band belongs to the receiving decision rule rather than the Characteristic; use G.4 when its formal acceptance interface is selected. A dashboard represents already constituted claims.
 
 ### C.21:2 - Problem
 
@@ -62628,7 +62627,7 @@ Five recurrent failures make discipline-health claims unreliable:
 
 #### C.21:4.0 - The objects used by DHC
 
-“DHC” names this vocabulary and method of use. It does not admit `U.DHCPack`, `U.DHCMethodSpec`, or `U.DHCSeries` as public kinds.
+“DHC” names this vocabulary and method of use.
 
 | Object | What it is | What it is not |
 | --- | --- | --- |
@@ -62664,9 +62663,9 @@ Each bullet below names one exact Characteristic and Scale family. A DHC use sel
 
 3. **PracticeAdoptionRate** — ratio in `[0,1]`; Unit `adopting_units/eligible_units`. Declare the population, adoption criterion, observation window, and treatment of partial adoption. Higher means wider observed adoption, not automatically better health or SoTA.
 
-4. **AlignmentDensity** — ratio; Unit `obtaining_relations/100_compared_cells`. Count only exact obtaining directed F.9 relations in the declared F.17 cell set. For each counted relation, state its orientation and admitted-use qualifier; keep observed loss in its evidence account, separate from any bounded-use claim under section 4.2. A higher value means denser declared alignment for that set; any health band belongs to G.4.
+4. **AlignmentDensity** — ratio; Unit `obtaining_relations/100_compared_cells`. Count only exact obtaining directed F.9 relations in the declared F.17 cell set. For each counted relation, state its orientation and admitted-use qualifier; keep observed loss in its evidence account, separate from any bounded-use claim under section 4.2. A higher value means denser declared alignment for that set; any preferred health band needs a receiving criterion, using G.4 when formal acceptance is selected.
 
-5. **DisruptionBalance** — interval reading over one exact disruption/consolidation method and corpus. Polarity is target-is-best, using an explicit target-band distance rule; the band belongs to G.4 Acceptance.
+5. **DisruptionBalance** — interval reading over one exact disruption/consolidation method and corpus. A receiving use may select target-is-best polarity with an explicit target band and distance rule. The raw reading supplies no preferred band; use G.4 when formal acceptance is required.
 
 6. **EvidenceUnitResolution** — ordinal, compare-only, under one exact segmentation scheme whose levels are nested, for example `artifact < section < claim < subclaim`. Higher means a finer addressable unit under that scheme. It does not say how many claims an artifact contains or how densely claims are supported.
 
@@ -62686,16 +62685,16 @@ A discipline-health use may add these coordinates when its question needs them. 
 
 12. **SemioSubstitutionPressure** — ordinal or ratio as separately declared, polarity lower-is-less-substitution-pressure. It asks how often a representation, fluent wording, record, dashboard, view, or source chain is mistaken for its engineering subject, relation, or claim.
 
-When either extension is active, add a short explanation naming the current claim kind or use boundary, the direct pattern and rule, admissible use, prohibited overread, and stop or reopen condition. The explanation is claim content, not a new evidence or assurance object.
+When either extension is active, explain the claim kind or use boundary and the direct pattern or rule that supports the reading. Include a limit, prohibited use or reopen condition when it changes how the result may be used.
 
 #### C.21:4.2 - Comparison and legality rules
 
-1. **Direct same-semantics comparison.** Compare readings directly when C.16's conservative conditions hold: the same measurement definition, Characteristic, Scale and Unit semantics, compatible model and calibration regime, and compatible time or population basis. Record the admitted comparison basis. Different source labels or editions alone require no Bridge.
+1. **Direct same-semantics comparison.** Compare readings under the same Characteristic and compatible Scale semantics and scope. Measured readings also retain C.16's applicable measurement-definition, model, calibration, Unit and time or population conditions. State the basis actually used; different source labels or editions alone require no Bridge.
 2. **Cross-local comparison.** When a comparison relies on a semantic relation between distinct F.17 local senses, cite the exact obtaining F.9 Bridge only after its predicate and dependencies hold. Keep its separate C.2.1 bounded-use claim, with the use, direction, correspondence rule, permitted-loss tolerance, and polarity, distinct from observed loss and current reliance. Follow F.9's A.10 reliance branch or, for an actual named assurance claim, its B.3 branch for the same bounded use. If the assurance use requires an R adjustment, cite the applicable domain model and keep the adjustment in that use's AssuranceResult. The relation supplies none of ClaimScope, measurement, comparison, or acceptance semantics.
 3. **Reference-plane crossing.** When a reading is used across distinct world, concept, or episteme planes, cite the exact crossing basis. Any R adjustment follows the named assurance-use and domain-model condition in rule 2. A dashboard row or source label does not establish the crossing.
 4. **Cross-scale transformation.** A conversion, normalization, distance, or aggregate names its exact Method, Scale, legal operation, and loss or uncertainty. No common scale is inferred from similar labels.
 5. **Freshness.** A persisted or reused coordinate carries its observation window and applicable currentness rule. Staleness leads to the receiving pattern's degrade, abstain, or reopen result; it does not rewrite the historical measurement.
-6. **Target bands.** “Target-is-best” is not “higher-is-better.” A comparison to a band uses an explicit distance-to-band rule and leaves the G.4 threshold separate.
+6. **Target bands.** “Target-is-best” is not “higher-is-better.” A comparison to a band uses an explicit distance-to-band rule and keeps the receiving acceptance criterion separate from the raw reading.
 
 | Scale family | Lawful ordinary operations | Prohibited shortcut |
 | --- | --- | --- |
@@ -62749,9 +62748,9 @@ The compared cells are `OpenTelemetry:SLO/latency-objective@E4` and `VendorB:SLO
 2. Identify the discipline under C.20 and one exact Characteristic and Scale.
 3. State ClaimScope, comparison or observation basis, and time or population basis.
 4. Stop if an ordinary typed claim is enough.
-5. If measuring, comparing, or aggregating, recover the C.16 chain and DHC replay basis; add only the exact legal-operation and crossing branches used.
+5. If measuring, recover the C.16 chain and DHC replay basis. If comparing or aggregating, retain the compatible inputs and legal operation, adding the measurement, crossing or formal-interface conditions actually used.
 6. If repeated windows matter, construct a series episteme from exact result refs.
-7. If a dashboard matters, represent those results under G.12.
+7. Use G.12 when the needed dashboard represents measured DHC coordinate results.
 8. If audience availability matters, establish E.24.PUB publication separately.
 
 ### C.21:8 - Bias-Annotation
@@ -62766,8 +62765,8 @@ C.21 counters dashboard, standard-status, popularity, and pseudo-precision bias.
 | `CC-C.21-2` | `ClaimScope` is authoritative. A `TargetSliceRef` appears only when consumed and its exact relation to the scope is stated. |
 | `CC-C.21-3` | A minimal readable claim may stop without a definition set, EvidenceGraph, registry, dashboard, or publication apparatus. |
 | `CC-C.21-4` | Every persisted, compared, aggregated, or published coordinate carries the active DHC replay basis; no generic “metric edition” substitutes for an exact object. |
-| `CC-C.21-5` | Characteristic, Scale, Unit, polarity or target rule, and legal operations are coherent. Ordinals are not averaged and Units are not mixed. |
-| `CC-C.21-6` | Direct comparison uses C.16's compatible-semantics branch. A comparison that relies on a cross-local semantic relation keeps the obtaining F.9 relation, its separate bounded-use claim, observed loss, and current reliance distinct as specified in section 4.2. |
+| `CC-C.21-5` | Characteristic, Scale, applicable Unit, polarity or target rule, and legal operations are coherent. Ordinals are not averaged and Units are not mixed. |
+| `CC-C.21-6` | Direct comparison uses the compatible-semantics branch in section 4.2, with C.16 conditions for measured readings. A comparison relying on cross-local semantic correspondence keeps the obtaining F.9 relation, separate bounded-use claim, observed loss and current reliance distinct. |
 | `CC-C.21-7` | Formal recognition and actual adoption or convergence are separate Characteristics; neither reading proves health or SoTA. |
 | `CC-C.21-8` | EvidenceUnitResolution, ClaimsPerArtifact, and SupportAnchorsPerClaim are separate; their constructions and Units are not interchanged. |
 | `CC-C.21-9` | Entropy and concentration are separate, with opposite directions explicit; any transformation and receiving Scale are declared. |
@@ -62805,15 +62804,15 @@ Discipline health is not one thing. Reproducibility, formal recognition, adoptio
 | SoTA or practice anchor | Contribution used here | Non-overread |
 | --- | --- | --- |
 | Open Science Collaboration (2015), Munafò et al. (2017), and current reproducibility and metascience practice | Reproducibility, claim resolution, support visibility, freshness, and population definition remain separate coordinates and bases. | A field-level rate does not certify one claim as true. |
-| Fortunato et al. (2018) and Wu, Wang, and Evans (2019) disruption-index work | Disruption and consolidation are read through a declared corpus, method edition, and target band rather than a monotone novelty target. | Disruption is not quality, truth, safety, or usefulness by itself. |
+| Fortunato et al. (2018) and Wu, Wang, and Evans (2019) disruption-index work | Citation-based disruption and consolidation distinguish kinds of contribution within a declared corpus and method. Any preferred target band is a separate choice for the receiving use. | Disruption is not quality, truth, safety, or usefulness by itself. |
 | Standards lifecycle and ecosystem-adoption practice | Formal recognition and observed adoption are separate. | Official status, popularity, and convergence do not prove one another or SoTA. |
 | Plural-tradition and relation-mapping practice | AlignmentDensity counts exact obtaining directed relations with visible loss. | A relation count is not universal language, consensus, or authority. |
 | Diversity measurement practice | Entropy and concentration retain their separate constructions and directions. | Similar labels do not make their Scales interchangeable. |
 
 ### C.21:13 - Relations
 
-* **Builds on:** C.20 for the discipline, A.17-A.18 for Characteristic and Scale, C.16 for measurement and direct comparability, A.2.6 for ClaimScope and optional selected slices, and C.2.1 for result and series epistemes.
-* **Coordinates with:** F.9 for actual cross-local sense relations; G.0 and A.19 for numerical operation, comparison, or aggregation; G.4 for target bands and acceptance; G.9 for parity; G.11 for currentness and refresh; G.12 for dashboard representations; A.10/G.6 and B.3 only for named evidence-reliance or assurance uses; E.24.PUB for publication availability.
+* **Builds on:** C.20 for the discipline, A.17-A.18 for Characteristic and Scale, C.16 for measurement and comparability of measured readings, A.2.6 for ClaimScope and optional selected slices, and C.2.1 for result and series epistemes.
+* **Coordinates with:** F.9 for actual cross-local sense relations; G.0 and A.19 for numerical operation, comparison, or aggregation; G.4 for a selected formal target-band or acceptance interface; G.9 for parity; G.11 for currentness and refresh; G.12 for dashboard representations; A.10/G.6 and B.3 only for named evidence-reliance or assurance uses; E.24.PUB for publication availability.
 * **Constrains:** G.5 and G.10 when they consume a DHC coordinate: they carry the same active DHC replay basis rather than a generic method-spec or metric-edition pin.
 
 ### C.21:14 - Practitioner Quick Template
@@ -62828,7 +62827,7 @@ Minimal DHC claim
   Ordinary result: <what is supported; what is not>
 
 Only if measurement, comparison, or aggregation is current
-  DHC replay basis: <active exact refs and editions from C.21:4.0a>
+  DHC replay basis: <for measured inputs, active exact refs and editions from C.21:4.0a>
   TargetSlice: <optional; only if consumed, with relation to ClaimScope>
   Comparison branch: <direct compatible semantics | exact F.9 relation + separate use/direction/rule/tolerance claim + loss evidence + current reliance>
   Legal operation or target-distance rule: <exact ref>
@@ -64590,7 +64589,7 @@ For a named admission-assurance claim, B.3 requires each of **F**, **G**, and **
 
 **Intent.** Help a practitioner turn an already fixed action or option into a budgeted call plan, then revise that plan or return a bounded checkpoint without confusing planning with selection or execution.
 
-**Depends on.** `A.15` and its planning and Work patterns for Methods, descriptions, plans, performed Work, and attribution; `A.15.7` for a situation-responsive next-action decision; `C.11` for a fixed choice among a current `OptionSet`; `C.2.1` when the relied-on decision or checkpoint needs a persistent episteme; `C.18` for candidate-generation records; `C.19` for live-pool policy; `C.19.1` for a scale-based comparison or waiver; `C.16` for measured comparison inputs; `G.6` for call-trace representation; and `B.3` only when a named assurance use needs one bounded assurance result.
+**Depends on.** `A.15` and its planning and Work patterns for Methods, descriptions, plans, performed Work, and attribution; `A.15.7` for a situation-responsive next-action decision; `C.11` for a fixed choice among a current `OptionSet`; `C.2.1` when the relied-on decision or checkpoint needs a persistent episteme; `C.18` for candidate-generation records; `C.19` for live-pool policy; `C.19.1` for a scale-based comparison or waiver; `C.16` for measured comparison inputs; `OPS.11.1:4.2–4.3` for constructing a route from required contributions and reconciling its resource conditions; `G.6` when a call trace must remain replayable; and `B.3` only when a named assurance use needs one bounded assurance result.
 
 **Coordinates with.** `U.PromiseContent` for service acceptance conditions, `C.28` when a planned call is intended to support a causal use, and `E.17`/`E.24.PUB` when an already obtained result is being published or made available.
 
@@ -64602,7 +64601,7 @@ Use `A.15.7` first when ongoing Work still needs the next action to be chosen fr
 Use `C.24` when an applicable domain prescription or a completed decision has fixed the action or option and the practical question is now:
 
 - which admitted Methods to call, in what order;
-- which time, compute, cost, and risk budget to reserve;
+- which applicable time, compute, cost or risk budget to reserve;
 - what stops or replans the route; and
 - whether the useful output is a `CallPlan` or a `CheckpointReturn`.
 
@@ -64619,12 +64618,12 @@ Do not use it to generate candidates, keep a live pool, choose among unresolved 
 
 - one small, tool-neutral plan that cites the accepted action basis;
 - visible budgets, stop conditions, and replan triggers before calls are made;
-- one replayable call-trace reference after Work occurs; and
+- recoverable call facts and provenance when later use needs an execution account; and
 - one bounded checkpoint stating whether to probe again or seek a decision to adopt the proposed route.
 
 **Primary working object.** One `ATC.CallPlan : U.WorkPlan`. Each step selects a `U.Method`. A route description may help locate or constrain that Method, but remains a separate `U.MethodDescription`. Actual calls are dated `U.Work` and remain outside this planning result.
 
-**First useful move.** Identify the applicable domain prescription, A.15.7 decision or C.11 choose-now result that fixes the action. Fill that one branch of `actionBasis`. Then write the ordered Method refs, budget, stop or replan condition, and next planned action. Add route-description refs only where the route cannot be understood without them.
+**First useful move.** Recover the action and completion conditions fixed by the domain prescription, A.15.7 decision or C.11 choose-now result. Reuse an adequate known route. Otherwise, work backwards from the required result to admitted Methods and their needed inputs, then follow the proposed route forwards from the available inputs as in section 4.1. Return the supported ordered calls, applicable budget and stop or replan conditions, or the particular missing contribution or condition. Add route-description refs where they are needed to understand or qualify the route.
 
 **Not this pattern when.** Use `C.11` while fixed-option choice is unresolved, `C.19` while treatment of a live pool is unresolved, `G.5` when the current task is selector-facing result declaration, `A.15.5` for work-entry readiness, and `A.15.1` when the question is what Work actually occurred or which Method it enacted.
 
@@ -64718,7 +64717,7 @@ We need a tool-neutral way to produce or revise one call plan under explicit bud
 
 `actionBasis` contains exactly one of three branches. `domainPrescribedAction` identifies the applicable domain Method, the exact prescription and its required action, applicability and stop conditions. An optional intended WorkPlan may carry that intention; it establishes neither authority nor permission. No decision wrapper or ongoing Work is required for this branch. `situationResponsiveDecisionEpistemeRef` refers to an episteme identified under C.2.1 because this plan relies on an A.15.7 decision; the episteme states the selected action, deciding System, intended performer, action-changing fact, relevant Method limit, and stop or feedback condition. `fixedOptionChoiceResultRef` refers to a C.11 `ChoiceResult` whose result is `choose now`. Consuming either decision result here preserves its existing result kind.
 
-There is no catch-all `ATC.PolicyRef`. When a constraint branch is current, cite its actual object: C.19 `PoolPolicyResult` or `EmitterPolicy`, a C.19.1 probe, comparison, local-policy, or waiver result, or a domain constraint whose kind and defining pattern are named. Time, compute, cost, risk, stop, and replan ceilings remain fields of this plan.
+There is no catch-all `ATC.PolicyRef`. When a constraint branch is current, cite its actual object: C.19 `PoolPolicyResult` or `EmitterPolicy`, a C.19.1 probe, comparison, local-policy, or waiver result, or a domain constraint whose kind and defining pattern are named. The plan retains applicable time, compute, cost and risk ceilings and its stop or replan conditions.
 
 #### C.24:4.1 - Owned planning operations
 
@@ -64740,12 +64739,19 @@ revisePlan(
 ) -> CallPlan | CheckpointReturn | neighborExit
 ```
 
-`A.3.1` supplies Method admission. The action basis fixes the action or option being planned; it does not admit the Methods chosen for plan steps. A domain-prescribed basis carries its Method, prescription, required action, applicability and stop conditions. Permission and authority remain independently governed. An A.15.7 basis keeps the selected action, deciding System, intended performer, action-changing fact, relevant domain-Method limit, and stop or feedback condition. A C.11 basis is a `ChoiceResult` whose lawful result is `choose now`; `probe again`, `reject current set`, and `reroute` do not fix an action for C.24. C.18 may supply generated candidate or front material, and C.19 may supply a live-pool treatment that informed the decision; neither record admits a Method. Comparison comes from the selected evaluation Method and, when scale preference is claimed, `C.19.1`. A.15.1 governs the actual call or observation Work; `G.6` provides the trace representation of its independently established facts, results, and provenance relations. C.24 only constrains what the plan or checkpoint must retain for those later uses.
+`A.3.1` supplies Method admission. The action basis fixes the action or option being planned; it does not admit the Methods chosen for plan steps. A domain-prescribed basis carries its Method, prescription, required action, applicability and stop conditions. Permission and authority remain independently governed. An A.15.7 basis keeps the selected action, deciding System, intended performer, action-changing fact, relevant domain-Method limit, and stop or feedback condition. A C.11 basis is a `ChoiceResult` whose lawful result is `choose now`; `probe again`, `reject current set`, and `reroute` do not fix an action for C.24. C.18 may supply generated candidate or front material, and C.19 may supply a live-pool treatment that informed the decision; neither record admits a Method. Comparison comes from the selected evaluation Method and, when scale preference is claimed, `C.19.1`. A.15.1 governs the actual call or observation Work; `G.6` provides a trace representation when those independently established facts, results and provenance relations must remain replayable. C.24 only constrains what the plan or checkpoint must retain for those later uses.
+
+To construct the route, use the backward construction and forward check in `OPS.11.1:4.2–4.3` for this fixed action:
+
+1. **Recover usable contributions.** Read the available Methods and any needed route descriptions for the results they supply, required inputs, preconditions, relevant effects and limits. Resolve missing interface meaning from the maintained description or provider. Begin with the action's receiving completion conditions.
+2. **Work backwards from the required result.** Choose an admitted Method that can supply it. For each input not already available, find a qualified preceding Method or an available source that supplies it. Continue until the route reaches available inputs. Keep required joins and enabling conditions. If a contribution cannot be supplied, return that particular gap rather than adding an ungrounded call.
+3. **Check forwards from the available inputs.** Follow the actual proposed outputs into the next inputs. Check consequential units, scope, access, timing and other use conditions. Reconcile shared resources and applicable budget. Elapsed time is not the sum of resource expenditure when calls overlap. Reuse established interface and performance bounds where adequate.
+4. **Return the route or the unresolved question.** A supported route states the calls, intermediate results, order or safe parallelism, resource assumptions and stop or replan conditions needed by the use. If an unknown condition could change feasibility or route choice, identify it and what information could settle it. Section 4.2 selects a bounded scout only when such a scout can usefully answer that question. A changed action returns to its selecting Method.
 
 
 #### C.24:4.2 - Bounded scout or probe cycle
 
-When the grounded action basis fixes the intended action but its usable route is unfamiliar, plan a bounded scout pass under the applicable budget and permission conditions. Its actual performance can support a `CheckpointReturn`.
+When the action remains fixed but an unresolved route condition could change the continuation, first use adequate interface documentation, existing observations or provider information. Select a bounded scout only when its attainable answer can change the warranted continuation enough to justify its burden, within the applicable budget and permission. State what observation would retain, revise or reject the route before planning that scout. Its actual performance can support a `CheckpointReturn`; an unfamiliar route alone does not require probing.
 
 If another probe could still change which option survives the `OptionSet`, the budget remains a C.11 probe budget and planning returns there. If changed live facts or domain-Method limits could change an A.15.7 action, return there instead. If a prescribed action loses its applicable prescription, return to the domain Method before further route planning. If the action or option remains fixed and only route shape or rollout order is uncertain, the probe uses enactment budget and its checkpoint belongs here.
 
@@ -64759,11 +64765,11 @@ Adopting the plan settles which route to use. Permission to perform its calls re
 
 **ATC-2 — Use the actual C.19.1 branch.** A bounded call plan with no scale/generalization claim or declared generality policy can proceed under its task, budget and guards. When that claim or policy is current, start with C.19.1's scale-claim probe. Consume its actual first result: `no scale claim yet`, `local analogy or policy`, `bounded scale comparison`, or `full Scale-Audit selected`. Only the latter two open comparison or audit work. A completed comparison of usable responses over the receiving budget range, with uncertainty and applicable floors, may then warrant a bounded preference or `no scale-based preference`. A larger slope alone is insufficient; a generality tie-break needs its separate policy basis. Keep a `BLP-waiver` separate: it is used only when a declared generality preference would otherwise decide the use, and it records rationale, the admitted review System, the direct waiver-review responsibility or missing governor, and expiry or review. If comparable evidence is absent, stop the empirical preference; do not invent a slope vector or treat a waiver as evidence.
 
-**ATC-3 — Make budgets and harm limits visible.** A `CallPlan` states its planned ceilings. A `CheckpointReturn` or Work-side record states actual burn. The admitted System stops or replans when a named ceiling or safety condition is breached.
+**ATC-3 — Make budgets and harm limits visible.** A `CallPlan` states its applicable planned ceilings. A `CheckpointReturn` or Work-side record states actual burn. The admitted System stops or replans when a named ceiling or safety condition is breached.
 
 **ATC-4 — Keep live-pool exploration declared.** Cite a C.19 `PoolPolicyResult` only while treatment of that still-live pool constrains this plan. Cite its exact `EmitterPolicy` only when the plan actually uses that profile; then record `explore_share`, including `0` when the current profile explicitly plans none. Do not fabricate either ref after the fixed action or option has made pool treatment irrelevant, and do not silently turn illumination or novelty telemetry into a decision criterion.
 
-**ATC-5 — Preserve replay after execution.** Each actual call is recovered as dated Work with its performer, enacted Method, interval, containing-System relation recoverable under A.15.1, plan ref, actual budget delta, inputs and outputs subject to privacy, and any route-description edition used. Cite the applicable G.6 trace representation. The plan and trace do not establish these facts by themselves.
+**ATC-5 — Preserve the execution basis needed by later use.** An actual call claim retains its dated Work, performer, enacted Method, interval and containing-System relation under A.15.1. When later use needs a replayable account, retain the relevant plan ref, actual budget delta, inputs and outputs subject to privacy, route-description edition used, and G.6 trace reference. The plan and trace do not establish the represented facts by themselves.
 
 **ATC-6 — Add assurance only for a named use.** When a planning or rollout decision depends on assurance, name the target claim and use, then cite the B.3 result with its basis, disposition, limits, and reopen condition. No policy label or confidence level substitutes for that result.
 
@@ -64820,7 +64826,7 @@ An ordinary written plan can supply this content; the schemas above are optional
 - exactly one action-basis branch: the grounded domain-prescribed action, an A.15.7 decision episteme, or a C.11 `choose now` ChoiceResult; add the objective and ordered Method refs;
 - route-description refs only when needed, with their source scheme, exact edition, intended use, and selected Method binding;
 - dependencies or safe parallelism only when they change the route;
-- time, compute, cost, and risk budgets plus stop and replan conditions;
+- applicable time, compute, cost or risk budgets, with stop and replan conditions;
 - next planned action; and
 - an exact C.19 or C.19.1 result, B.3 assurance result, causal-use result, provenance ref, or named domain-constraint result only when that branch is current.
 
@@ -64872,12 +64878,16 @@ CallPlan:
   nextPlannedAction = enact_now
 ```
 
-The plan claims no call occurred. If the first call is performed, recover its dated Work, performer, assignment where current, Method, interval, plan ref, and trace representation through the direct patterns.
+The plan claims no call occurred. An actual call needs its independent A.15.1 grounds; add assignment-bound attribution and a trace representation when the receiving use consumes them.
 
+
+**Constructing a route from a fixed result.** In this constructed case, the action is to deliver an accepted weekly report from a named export. The maintained interface specifies millisecond timestamps and the receiving report's week boundary and time zone. Available admitted Methods extract rows, convert them to the temporal representation accepted by the aggregator, aggregate by that week, and render the report. Their planning bounds are respectively 2, 3, 4 and 1 minutes for the stipulated input size and one sequential performer; prerequisites and permission are satisfied, and 12 minutes are available.
+
+Work backwards: the report needs aggregates; the aggregator needs compatible rows; the converter needs the export's declared timestamps; extraction supplies those rows. Check forwards that each output meets the next input conditions. The supported route needs at most 10 minutes under these bounds, so no scout is needed. If the export already supplies the required temporal representation, omit conversion and the bound becomes 7 minutes. If only 9 minutes remain while conversion is still needed, these bounds do not establish that the unchanged route will meet the deadline. It cannot be adopted on this basis when the use requires that guarantee. A tighter justified bound, a qualified faster route or prepared compatible input could change the result; their basis must be established. If the timestamp unit or week boundary is missing, recover that interface or receiving condition from its authoritative source. The magnitude of sample numbers does not establish a unit. A changed report requirement returns to the action basis before replanning.
 
 **Unfamiliar route.**
 
-In this constructed repair case, `ci_route_choice_09` fixes the action: produce a candidate patch and run the targeted tests. The proposed `ci_patch_plan_09` orders `EditCandidateMethod_2` and `TargetedTestMethod_7`, needs at most 25 minutes, and stops for replanning if the reproduction changes or the tests fail twice. Before adopting that plan, the maintainer probes whether the failure can be reproduced reliably enough to guide the patch. For this case, `MinimalReproductionMethod_5` requires the same failure in two consecutive runs on the fixed repository revision, with the trace and reproduction evidence collected on that revision. One such run has completed. The enactment budget covers both this route probing and the planned repair.
+In this constructed repair case, `ci_route_choice_09` fixes the action: produce a candidate patch and run the targeted tests. The proposed `ci_patch_plan_09` orders `EditCandidateMethod_2` and `TargetedTestMethod_7`, has an upper duration bound of 25 minutes, and stops for replanning if the reproduction changes or the tests fail twice. Adoption here requires a supported guarantee that the repair fits the enactment time left after route probing. Before adopting that plan, the maintainer probes whether the failure can be reproduced reliably enough to guide the patch. For this case, `MinimalReproductionMethod_5` requires the same failure in two consecutive runs on the fixed repository revision, with the trace and reproduction evidence collected on that revision. One such run has completed. The enactment budget covers both this route probing and the planned repair.
 
 ```text
 CheckpointReturn:
@@ -64892,7 +64902,7 @@ CheckpointReturn:
   commitTrigger = reproduction_is_stable_and_required_evidence_is_current
 ```
 
-If the repeat establishes the trigger, the maintainer decides whether to end route probing and adopt `ci_patch_plan_09`: produce the patch, then run its targeted tests. The maintainer checks the time remaining after that repeat against the plan's 25-minute need and the applicable safety or assurance conditions. A 3-minute repeat leaves 27 minutes; a 6-minute repeat leaves 24 and cannot fund the unchanged 25-minute plan. The latter result requires a feasible shorter route, independently permitted budget revision, or stop. If the plan is adopted, the repair agent may start its first call only with the required work-entry permission. The checkpoint itself records neither that permission nor a performed call.
+If the repeat establishes the trigger, the maintainer decides whether to end route probing and adopt `ci_patch_plan_09`: produce the patch, then run its targeted tests. The maintainer compares the time remaining after that repeat with the plan's 25-minute upper duration bound and checks the applicable safety or assurance conditions. A 3-minute repeat leaves 27 minutes, which covers that bound. A 6-minute repeat leaves 24 minutes, so the current bound does not establish the required guarantee. A tighter justified bound for the same route, a qualified alternative route or an independently permitted budget revision may establish fit; otherwise stop. If the plan is adopted, the repair agent may start its first call only with the required work-entry permission. The checkpoint itself records neither that permission nor a performed call.
 
 **Two vendor routes with one token.** Vendor A and Vendor B both publish a route called `search`. `vendor_a_search_v2` states scheme `VendorA API`, edition `2026-07`, intended use `repository text search`, and selected Method `RepositoryTextSearchMethod_3`. `vendor_b_search_v5` states scheme `VendorB agent tools`, edition `2026-08`, intended use `web source retrieval`, and selected Method `WebSourceRetrievalMethod_8`. The shared token identifies neither binding; the description fields do. An executable adapter, if used, remains distinct from the Method it implements, and its execution remains separate Work.
 
@@ -64910,13 +64920,13 @@ Keep notation and vendors out of the conceptual contract. Do not average unlike 
 
 1. Every result states exactly one grounded action basis: an applicable domain-prescribed action with its Method, prescription and conditions; an A.15.7 decision episteme; or a C.11 choose-now ChoiceResult. A WorkPlan alone supplies no permission or authority, and a prescribed action needs no fictional decision or ongoing Work.
 2. Every planned step names an A.3.1-admitted Method that realizes or supports the fixed action. The action basis fixes the action or option; selecting it does not establish Method identity. Route-description refs remain separate and optional.
-3. The plan records time, compute, cost, and risk ceilings plus stop or replan conditions.
+3. The plan records its applicable time, compute, cost or risk ceilings and stop or replan conditions.
 4. C.18 candidates or front material and C.19 live-pool treatment may inform the action basis but do not admit Methods; C.24 owns only planning and replanning results.
 5. A scale branch first cites one actual C.19.1 probe result, then any selected comparison or Scale-Audit result; a `BLP-waiver` remains separate from evidence.
 6. Every vendor-bound `ATC.CallRouteDescription` identifies source scheme, exact edition, intended use, and selected Method; an arbitrary profile, adapter, or Bridge cannot substitute.
 7. Each current policy or constraint ref resolves to its actual C.19, C.19.1, B.3, or domain-defined object; a plan with no such branch remains valid.
 8. A `CheckpointReturn` states tested Methods, evidence, burned and residual budget, next action, and commit trigger.
-9. Actual call claims retain dated Work, performer, Method, interval, plan, budget delta, and G.6 trace refs; the admitted System performs and records the Work.
+9. Actual call claims retain their A.15.1 Work grounds. A receiving use that needs replay also retains the relevant plan, budget delta, source editions and G.6 trace refs.
 10. A causal action-use branch uses the current C.28 question, support-component, and support-result contract and grants no downstream authority.
 11. The ordinary quick path remains readable without ontology or assurance apparatus.
 
@@ -65061,7 +65071,7 @@ An absent optional slot contributes no condition. Each measure keeps its own Sca
 
 ### C.25:5 - Archetypal Grounding
 
-**Tell.** A quality family is not automatically one metric. Use one Characteristic when one measure and Scale carry the claim; use a Q-Bundle only when several differently typed contributors are jointly load-bearing.
+A quality family is not automatically one metric. Use one Characteristic when one measure and Scale carry the claim; use a Q-Bundle only when several differently typed contributors are jointly load-bearing.
 
 **Minimal completed availability case.** Under `ServiceQualityScheme-v4`, the claim says: *CheckoutAPI maintained at least 99.9% availability for customer-facing request handling over the rolling 30-day window.* Its exact bearer is the independently identified `CheckoutAPI` System. In this example the receiving use separately checks coverage of customer-facing requests and the rolling-window qualification as well as the ratio. Its Q-Bundle content has `Name: Availability`, `ClaimScope: customer-facing request handling`, `Measures: AvailabilityRatio[%] >= 99.9`, and `QualificationWindow: rolling 30 days`. `WorkScope`, `Mechanisms`, `Status`, and `Evidence` are omitted because this drafting use does not rely on them. If evidence reliance, a failover prerequisite, or a gate later becomes current, add only the direct relation or slot that question needs. If the receiving question instead asks only for AvailabilityRatio under an already fixed scope and measurement window, the single-Characteristic branch is sufficient.
 
@@ -65194,7 +65204,7 @@ A quality claim that depends on rolling windows, observation periods, maintenanc
 
 #### C.25:14.4 - Report-only summary proxies
 
-A publisher may compute a report-only summary proxy for convenience, for example a compact quality summary value or an oversight-facing composite score. State in claim content which exact Q-Bundle slots the proxy summarizes and what it leaves out. The proxy may be another Characteristic or claim under its direct pattern, but it does not replace the source quality-claim episteme or its addressed claims in a norm, gate, comparison, or cross-context use.
+A publisher may compute a report-only summary proxy, such as a compact quality summary value. Identify the source quality-claim episteme or exact `ClaimAddress`, and state which Q-Bundle slots the proxy summarizes and omits. The proxy is a separate Characteristic or claim under its direct pattern; it does not replace that source in a norm, gate, comparison, endpoint classification or cross-context use.
 
 ### C.25:15 - Worked Quality Families
 
@@ -65235,14 +65245,7 @@ Security claims routinely combine:
 
 #### C.25:15.4 - Maintainability and evolvability
 
-Maintainability or evolvability claims often drift into pure rhetoric. In `C.25`, they become usable only when the publisher separates:
-
-- the declared scope of systems or change classes,
-- the measurable slots (for example change lead time, defect reintroduction rate, restoration interval, review load),
-- the enabling mechanisms (modularity rules, test harnesses, interface discipline),
-- and the window or evidence conditions under which those measures were observed.
-
-This is exactly the kind of quality family that looks scalar in speech but turns composite once the claim is made explicit.
+For maintainability or evolvability, recover the particular claim and the contributors on which it depends. These may include the system or change-class scope; measures such as change lead time, defect reintroduction rate, restoration interval or review load; enabling mechanisms such as modularity rules or a test harness; and the observation window or other support actually used. Keep measures distinct from mechanism and scope claims. A narrow claim carried by one Characteristic can stop there; a broader claim retains every load-bearing contributor, not every example in this list.
 
 ### C.25:16 - Authoring and Review Guidance
 
@@ -65269,7 +65272,6 @@ A checking reader should ask:
 - whether the window is truly optional or actually load-bearing,
 - and whether any summary proxy is trying to replace the underlying bundle.
 
-In practice, most defects are visible as soon as the checking reader asks what exactly one reported number stands for.
 
 #### C.25:16.3 - For gate designers and assurance leads
 
@@ -65288,7 +65290,7 @@ Keep a familiar label such as *security requirement* when its content already ma
 
 #### C.25:17.2 - Boundary to cross-context use and reliance
 
-Cross-context comparison does not change whether the endpoint is one characteristic or one bundle and does not modify any bundle slot. Align the exact bundle heads or slots and resolve their exact `F.17` local senses. Test the direct `F.9` predicate when their `<ReferenceScheme, LocalSenseClaim>` projections differ and the comparison needs semantic correspondence. If a Bridge obtains, state the proposed direction, correspondence rule, tolerated loss, and polarity in a separate bounded-use claim. Observed loss remains evidence; permitted loss remains that claim's tolerance. Use `A.10` for ordinary bounded reliance and open `B.3` only when an actual named assurance claim is current.
+For cross-context comparison, use the bundle alignment and conditional correspondence operation in section 18.3. That comparison changes neither the endpoint's Characteristic-or-bundle kind nor the bundle's claim content.
 
 #### C.25:17.3 - Boundary to publication convenience
 
@@ -65328,7 +65330,7 @@ Cross-context comparison of quality families starts with explicit bundle alignme
 ### C.25:19 - Gate, Proxy, and Reporting Discipline
 
 #### C.25:19.1 - Report-only summary proxy
-A summary proxy remains a separate downstream claim. It identifies the source quality-claim episteme or exact `ClaimAddress`, states what it summarizes and omits, and never replaces that source in a norm, gate, or endpoint classification.
+Apply the report-only proxy rule in section 14.4 to the exact source episteme or addressed claims.
 
 #### C.25:19.2 - Gate binding rule
 When a gate uses a quality family, its decision claim cites the exact quality-claim episteme or addressed claims and names only the bundle slots on which the decision relies: for example declared scope, specific measures, a qualification window, or required mechanisms or statuses. The gate does not bind to a family label or raw record, and `C.25` does not define the gate decision.
@@ -65357,30 +65359,18 @@ Practical reading:
 1. Decide whether one Characteristic answers the quality question; if it does, stop there.
 2. If several differently typed contributors are load-bearing, identify the bearer and include only those measures, scopes, windows, mechanisms, statuses, or evidence anchors.
 3. If one proxy or this proportional bundle answers the receiving question, stay in `C.25`.
-4. Open `C.26.3` only when several characteristics must remain inside a viable region under disturbance and a candidate intervention, boundary condition, adaptation cost, or failure mode matters.
+4. Open `C.26.3` when several conditions must hold together under a disturbance and the question is whether the viable region is retained, violated or unresolved, or how a proposed change could restore it.
 5. Open `C.27` only when a temporal claim is being used to change action—for example, when rate-change, effort, window, resistance, recovery, or cadence changes that action.
 
-Minimum viability-envelope note:
+For an envelope question, use `C.26.3:4.5` to recover the exact bearer and protected work or result, derive the relevant conditions from ways that work can fail, and obtain bounds from the receiving requirements and actual provision. Keep each bound's subject explicit. Compare the available observations with those bounds under the disturbance. A supported diagnosis can finish the use: a known violation establishes failure of the conjunction even while another condition is unknown; a positive viability claim needs all required conditions supported.
 
-| Field | Required content |
-| --- | --- |
-| Bearer | One exact `U.System` under A.1 when that System is the subject; or one exact `A.22` `U.Structure` when selected organization is the subject, with independently identified constituents, selected obtaining relations, applied constraints, and one selection-use frame. A service label, team label, or list of system-role kinds and assignment occurrences does not identify the bearer by itself. |
-| Protected promise / function | The promise, function, use, operating regime, or stakeholder value the envelope protects |
-| Variables | Which qualities, constraints, resources, risks, or state descriptors define the envelope |
-| Viable region / bounds | What counts as inside, near edge, degraded, or outside the envelope for this use |
-| Disturbance class | What perturbation, demand shift, environment change, probe, or boundary condition stresses the envelope |
-| Actuators | Which proposed work, design move, policy, boundary change, sensor change, or resource change could alter the bearer or its operating conditions; use C.26.3 to recover each candidate intervention's proposal-side object and distinguish any performed work or resulting change claimed to exist |
-| Trade-off / loss | What gets worse, hidden, coarsened, delayed, or made more expensive |
-| Admissible use | Which action, decision, relation, or triage use the envelope reading can carry |
-| Non-admissible use | Which release, audit, assurance, or universal quality claim requiring additional support it does not support |
-| Failure mode | What it means to leave the envelope or to mistake one proxy for the envelope |
+For proposed regulation, identify the intervention and which constraint each predicted effect concerns. Retain the grounds, unknown effects, displaced work, trade-offs and adaptation costs needed to judge that proposal. Recover needed authority or execution conditions for the proposed action. Unknown acceptability limits remain a requirement question or an explicit scenario assumption; observed averages do not supply normative bounds. These conditions are part of the claim and its use, not a compulsory envelope form.
 
 Useful outputs:
 
 - one `C.2.1` quality-claim episteme with Q-Bundle-shaped content when the issue is quality decomposition;
-- a `C.26.3` envelope-regulation note when probes, candidate interventions, or boundary conditions change the admissible viability reading;
+- a `C.26.3` supported envelope diagnosis or conditional regulation proposal, with the grounds required by that result;
 - a `C.27` temporal-claim adequacy card when a claim used to change action says that an intervention changes a rate, recovery, or cadence; state its effort, window, and resistance where load-bearing;
-- no QL wording when ordinary quality-bundle, proxy, feedback, or control tuning carries the work.
 
 #### C.25:20b - Architecture-decision Q-Bundle boundary
 
@@ -71381,13 +71371,13 @@ ArchitectureQuestionCard@Project:
   firstArchitectureMove:
   architectureDescriptionBridge, if durable description use is current:
   claimPatternRefs?: FinSet(PatternRef), if another claim is being made:
-  non-admissible overread:
+  non-admissible overread?:
 ```
 
 The card can stop before a durable claim. An `actualRelationNamed` result requires exact obtaining `ArchitectureRelation` occurrences and their A.22 structure participants. Candidate, planned, required, desired, expected, modeled, or diagrammed organization remains claim content. When that content is carried by a separate identified episteme, `candidateOrExpectedStructureClaimRefs` refers to it. Use `selectedStructureRefs` only for independently identified A.22 structures; neither designation makes an architecture relation obtain.
 `architectureConcernCue` is recognition wording only until it helps choose one selected structure kind and one architecture move. When a controlled cue is useful, use `changeLocalization`, `substitutionOrReplacement`, `flowBottleneck`, `controlOrRateMismatch`, `dataCustodyOrStateResidence`, `physicalSeparationOrPlacement`, `evidenceReuseOrAssuranceReuse`, `scaleWindowOrCoarseningLoss`, `runtimeFailureMode`, `crossScopeResidual`, `descriptionViewLoss`, or `otherDeclared`. Local phrases such as change localization failure, hidden crossing, source return, generated-view loss, or state-residence uncertainty may remain in `sourcePhrase?` or Plain prose. If the described holon, distinction between actual and candidate structure, architecture concern, and first move cannot yet be named, set `questionDisposition` to `concernCueOnly` or `problemCardReady`; wording alone promotes neither a claim nor an obtaining relation.
 
-`ArchitectureQuestionCard@Project` is a triage aid for choosing one architecture move. `questionDisposition` records whether to keep a concern cue, prepare a separate `ProblemCard`, constitute an `ArchitectureClaim`, or name the pattern for a non-architecture claim. `architectureRelationDisposition` separately records whether an actual direct relation has been recovered or the content is candidate or expected only. `claimPatternRefs` contains PatternIDs whose content defines, constrains, or tests any separate claim; it does not identify a pattern-application occurrence. The card is not an evidence record, gate, decision, release record, quality score, risk rating, or publication-use authority claim.
+`ArchitectureQuestionCard@Project` is a triage aid for choosing one architecture move. `questionDisposition` records whether to keep a concern cue, prepare a separate `ProblemCard`, constitute an `ArchitectureClaim`, or name the pattern for a non-architecture claim. `architectureRelationDisposition` separately records whether an actual direct relation has been recovered or the content is candidate or expected only. `claimPatternRefs` contains PatternIDs whose content defines, constrains, or tests any separate claim; it does not identify a pattern-application occurrence. The card is not an evidence record, gate, decision, release record, quality score, risk rating, or publication-use authority claim. Include `non-admissible overread?` or a `nonAdmissibleUse?` field only for a supported limitation that changes the receiving use; an unused field needs no invented exclusion.
 
 Across C.30, `@Project` in a record name is a compatibility and retrieval cue only. It identifies neither a project entity nor a composite project `U.Work`, and it establishes no context, authority, viewpoint, or parthood. When the card is genuinely local to one actual project, `projectWorkOccurrenceRef` identifies the exact composite `U.Work` recovered under A.15.6. Include `architectureQuestionProjectUseRelationRef` only when a named pattern defines the relation by which this card use concerns that Work and an occurrence of that relation obtains. A Work reference alone does not establish project locality. If that locality matters but the relation is not yet defined, record `missing-governor`; if locality does not matter, omit both project-local fields. Description publication and other project-local uses follow the same rule. A described holon, architecture claim, or architecture relation does not become project Work by retrieval suffix.
 
@@ -71399,7 +71389,7 @@ What C.30 buys in practice: the practitioner can determine whether the next work
 
 Do not use C.30 when the question does not concern the architecture of one exact holon, an obtaining `ArchitectureRelation`, a selected architecture-relevant structure, an `ArchitectureClaim`, or the thin architecture-description bridge needed for one architecture move. Use the pattern that defines or tests the actual source, description, view, publication-use, or other non-architecture relation. If one piece remains an architecture claim, use C.30 only for that piece. Common non-architecture claim boundaries are summarized in `C.30:12`.
 
-Thin precision-restoration pointer: if the issue under repair is still whether *architecture*, *architecture description*, *structural view*, *module diagram*, *model*, *source material*, *functional architecture*, or a source label such as *layer*, *level*, *tier*, *stack*, *block*, *expert*, *cache*, *router*, or *gate* names an architecture claim, description, view, representation, publication form, source relation, structure, or claim defined or tested by another pattern, use `C.30.P` or `C.30.STRAT` as triggered before applying C.30 to the recovered architecture portion. If the recovered issue is mathematical-lens use, apply `C.29`; when no mathematical-lens use changes the architecture work, keep ordinary prose or use `NoMathLensUseNeededNote` under C.29 rather than creating a C.30-local lens result. Keep trigger tables in those patterns; C.30 is applied only after an `ArchitectureClaim`, exact selected architecture-relevant structure, conditional `ArchitectureDescription` bridge use, `C.30.AD` application, or other claim named by value is recoverable.
+Thin precision-restoration pointer: if the issue under repair is still whether *architecture*, *architecture description*, *structural view*, *module diagram*, *model*, *source material*, *functional architecture*, or a source label such as *layer*, *level*, *tier*, *stack*, *block*, *expert*, *cache*, *router*, or *gate* names an architecture claim, description, view, representation, publication form, source relation, structure, or claim defined or tested by another pattern, use `C.30.P` or `C.30.STRAT` as triggered before applying C.30 to the recovered architecture portion. Use `C.29` for an unresolved mathematical formulation, transfer or reliance question that changes the architecture work. An adequate domain calculation or ordinary explanation can finish without a separate lens-use note. Keep trigger tables in those patterns; C.30 is applied only after an `ArchitectureClaim`, exact selected architecture-relevant structure, conditional `ArchitectureDescription` bridge use, `C.30.AD` application, or other claim named by value is recoverable.
 
 ### C.30:2 - Problem
 
@@ -71478,7 +71468,7 @@ ArchitectureClaim ::= {
     architectureConcernClaimRefs?: FinSet(U.EpistemeRef),
     architectureConcernCue?: Plain recognition wording,
     admissibleUse,
-    nonAdmissibleUse
+    nonAdmissibleUse?
   },
   modelUseStructureRef?: SelectedStructureReference,
   empiricalGroundingRelationRef?: U.RelationRef
@@ -71501,7 +71491,7 @@ Recover which holonic architecture mode is current before applying MHT, structur
 | --- | --- | --- | --- |
 | Direct holonic architecture mode | One exact `ArchitectureRelation` between a described holon and an actual selected structure, plus any C.2.1 claim about it. | Recover the actual subject relations, selected structure, architecture relation, structure kind, concern, admissible-use frame, and first move. | Do not apply MHT merely because the architecture has levels, scopes, parts, modules, or views. |
 | Architecture-bound holon mode | An architecture residual raises a whole-reidentification question for a candidate result holon. | Use C.30 only for the actual-relation or modal-claim architecture residual; use `B.2` or `B.2.P` when whole reidentification is current. | `MHTTriggerProfile` is not a general architecture heuristic. |
-| Non-holonic description, record, or mathematical mode | A description, view, diagram, dashboard, model, source relation, publication form, or mathematical-lens result is under repair. | Use `C.30.AD`, `C.30.AD.BA`, `C.30.ASV`, `E.17`, `A.10`, or `C.29` according to the object or claim being repaired; use the pattern that defines or tests any other claim. | Do not treat the representation as the architecture or as MHT evidence by label. |
+| Description, record, or mathematical-use question | A description, view, diagram, dashboard, model, source relation, publication form, or mathematical result is under examination. | Use `C.30.AD`, `C.30.AD.BA`, `C.30.ASV`, `E.17`, `A.10`, or `C.29` for the corresponding question, under that pattern's entry conditions. A claim-bearing description or view may itself be an episteme holon. | Its identity and adequacy do not establish the described subject's architecture or an MHT. |
 
 #### C.30:4.1b - Evolutionary-engineering architecture candidate bridge
 
@@ -71556,7 +71546,7 @@ C30ArchitectureDescriptionBridge minimum:
     with independently obtaining E.17.0 viewpoint conformance
   viewpointConformanceRelationRefs?:
   admissibleUse:
-  nonAdmissibleUse:
+  nonAdmissibleUse?:
   correspondenceClaimOrRelationRefs or sourceReturnCondition?:
     only when reuse, cross-view use, or source return is needed
   freshnessClaimRefs?: only when currentness bounds admissible use
@@ -71583,11 +71573,11 @@ ArchitectureDescriptionPublication@Project ::= {
   sourcePinSetRef,
   audience,
   admissiblePublicationUse,
-  nonAdmissiblePublicationUse
+  nonAdmissiblePublicationUse?
 }
 ```
 
-`ArchitectureDescriptionPublication@Project` is subordinate to E.17 and MVPK machinery. It records the publication of one source episteme or episteme-lane view. `publicationViewpointRef?` names the publication-side viewpoint only when MVPK needs one; it is not an architecture viewpoint and not a TEVB viewpoint. `mvpkFaceRef` is a publication-lane face reference, not an alternative source episteme, source view, or source relation. Publication does not establish non-publication claims; apply `C.30:4.3` and the pattern that defines or tests any current evidence, gate, work, assurance, decision, or release claim.
+`ArchitectureDescriptionPublication@Project` is subordinate to E.17 and MVPK machinery. It records the publication of one source episteme or episteme-lane view. `publicationViewpointRef?` names the publication-side viewpoint only when MVPK needs one; it is not an architecture viewpoint and not a TEVB viewpoint. `mvpkFaceRef` is a publication-lane face reference, not an alternative source episteme, source view, or source relation.
 
 Model cards, system cards, and evaluation harness reports enter C.30 through the same publication boundary or source-relation boundary. They may describe a model, deployed AI system, architecture claim, evaluation harness, or policy, but the architecture move still needs the actual or candidate structure distinction, an obtaining `ArchitectureRelation` only when its predicate is satisfied, a bounded `ArchitectureClaim` when claim content is needed, and the applicable pattern for any proof, release, or gate claim.
 
@@ -71603,7 +71593,7 @@ ModelCardOrSystemCardBoundaryNote@Project ::= {
   evaluationScopeAndKnownLoss?,
   deploymentInterpretationOrUseMismatch?,
   evidenceOrAssurancePatternLocator?,
-  nonAdmissibleUse:
+  nonAdmissibleUse?:
     notArchitectureAdequacy | notSafetyProof |
     notReleaseAuthorityByPublicationAlone
 }
@@ -71629,7 +71619,7 @@ If a text says "<X> architecture", the phrase is precise only when the following
   actual selectedStructureRefs or separately recoverable candidate/expected claim content,
   architectureStructuralViewRefs only when a conforming view episteme is being used,
   admissibleUse,
-  nonAdmissibleUse.
+  nonAdmissibleUse?.
 If <X> is not a declared structure kind, the phrase is plain recognition wording only.
 ```
 
@@ -71640,7 +71630,7 @@ If <X> is not a declared structure kind, the phrase is plain recognition wording
 | logical architecture | `structureKindRef = DeclaredLogicalStructure`; local definition says whether `logical` means information relation, functional relation, runtime relation, responsibility relation, allocation relation, or another relation class. |
 | physical architecture | `structureKindRef` in `{MaterialSpatialStructure, PlacementDeploymentStructure}` or a locally declared physical structure kind. |
 | control architecture | `structureKindRef = ControlStructure`; an LCA record may describe the control structure, but use the applicable dynamics, temporal, causal, evidence, safety, or assurance patterns for any separate proof claim. |
-| information architecture | `structureKindRef = InformationDataStructure`; state bearer and residence, schema refs, semantic refs, persistence locus, provenance relation, custody relation, and source-return conditions. |
+| information architecture | `structureKindRef = InformationDataStructure`; recover the information-bearing entities and selected relations. Include residence, schema, meaning, persistence, provenance, custody or source-return conditions where they determine that structure or its receiving use. |
 | security architecture | `structureKindRef = SecurityTrustBoundaryStructure`; recover protected asset or effect, trust boundary, adversarial path, authority or privilege relation, secure-default or hardening boundary, and the applicable pattern for any evidence, assurance, or gate claim. |
 
 #### C.30:4.5 - Architecture characteristic assignment
@@ -71709,7 +71699,7 @@ ArchitectureStructuralCharacteristicQBundleClaimLine ::= {
   affectedUse?,
   futureDefinitionNeed?,
   evidenceOrCausalPatternLocator?,
-  nonAdmissibleUse
+  nonAdmissibleUse?
 }
 ```
 
@@ -71777,7 +71767,7 @@ ArchitectureCharacteristicQBundleClaim ::= {
   admissibleSemanticChangeClasses?,
   bridgeOrLossBoundary?,
   admissibleUse,
-  nonAdmissibleUse,
+  nonAdmissibleUse?,
   evidenceOrCausalPatternLocator?
 }
 ```
@@ -71822,7 +71812,7 @@ InterfaceSignatureBoundaryNote ::= {
   recoveredKind,
   claimPatternRefs,
   admissibleUse,
-  nonAdmissibleUse
+  nonAdmissibleUse?
 }
 
 ModuleRelationBoundaryNote ::= {
@@ -71843,7 +71833,7 @@ ModuleRelationBoundaryNote ::= {
   secureDefaultOrHardeningBoundary?,
   claimPatternRefs,
   admissibleUse,
-  nonAdmissibleUse
+  nonAdmissibleUse?
 }
 ```
 
@@ -71880,7 +71870,7 @@ Lens use by architecture problem:
 | Physical separation or spatial arrangement. | Topology, geometry, or spatial graph lens. | Adjacency, containment, separation, reachability, energy-transfer relation, or material-transfer relation. | Safety proof, accessibility, regulatory acceptance, and causal-use claims remain outside unless separately grounded. |
 | Composition relation. | Category, open-systems, or compositional lens. | Interface, composition, and coherence. | Domain semantics remain outside unless bridged. |
 
-This table is not a C.29 replacement and does not make mathematics mandatory. It helps the practitioner see when a lens may add a useful architecture move; C.29 still carries lens-use result, preserved structure, lost structure, relation class or admissible-use value, and stop condition when those description or view uses are being made.
+The table helps identify a mathematical treatment that could change the architecture answer. Use C.29 when choosing or constructing the formulation, transferring its result, or settling an unresolved reliance condition. Preserve the relevant mapping, assumptions, retained distinctions and losses; an already adequate domain result needs no separate lens-use record.
 
 Epiplexity-like use remains a C.29 bounded-observer structural-information lens. It may help recover learnable structure from traces, but it is not an architecture quality, task relevance proof, causal proof, assurance, or selector authority.
 
@@ -71951,7 +71941,7 @@ Use `ArchitectureCharacteristicQBundleClaim` only when publication, comparison, 
 
 **"The backup-pump architecture is safe because the loop is redundant."** C.30 starts with the plant holon, operating claim scope, effective reference scheme when local terms need it, and selected structures: control loop, material-flow structure, placement structure, module-interface relation, and maintenance-work relation. The redundancy phrase may motivate an architecture move, but use the applicable patterns for safety proof, causal proof, evidence sufficiency, gate passage, and work authorization. The C.30 output is the selected structure and next architecture move, not a safety case by slogan.
 
-**"We replaced the neural-network block, so the architecture improved."** Treat `block` first as a source label and apply `C.30.STRAT` unless the changed value is already recovered. The phrase is admissible architecture recognition only after the changed structure kind, transformation-flow relation, module or interface claim kind, preserved and lost structure, changed characteristic, source relation, and pattern for any decision or evidence claim are named. A block label, benchmark result, ablation, pruning mask, or distillation result is not an architecture decision, evidence sufficiency, gate passage, assurance, or architecture adequacy by itself.
+**"We replaced the neural-network block, so the architecture improved."** Recover what `block` names through C.30.STRAT when unclear. Then identify the changed structure or relation and the characteristic for which improvement is claimed. C.30.ASV's neural-network replacement case shows the conditional recovery of flow, module-interface, preserved or lost structure, source use and decision grounds. A modification need not assert all those claims; the claimed improvement still needs its actual comparison basis.
 
 ### C.30:5 - Archetypal Grounding
 
@@ -72000,9 +71990,9 @@ Use the following checklist for the architecture claim or action being considere
 | **Tool-model lock-in** | A notation or tool model becomes the source of architecture truth. | Recover FPF architecture claim, structures, views, correspondence, and source-return condition. |
 | **Evidence laundering** | A published architecture description is used as evidence sufficiency. | Use `A.10` for source recovery and bounded reliance, and `G.6` for a citable evidence-provenance path; identify each represented relation through its defining pattern. C.30 keeps only the architecture claim, selected-structure, and conditional architecture-description-use boundary. |
 | **Assurance or safety overread** | Architecture description or LCA diagram is used as assurance or safety case. | Use `B.3`, `A.10`, `G.6`, `C.30.LCA`, or the exact safety or gate pattern according to the claim being made. |
-| **Risk color as architecture decision** | A red, yellow, or green risk cell, risk matrix, or maturity score decides the architecture move or resource-allocation priority. | Recover the structure kind under consideration, affected scope, loss, hazard or threat path, source or grounding relation, characteristic scale, comparator, and gate pattern; use the applicable patterns for architecture adequacy, evidence sufficiency, causal proof, assurance proof, resource-allocation reason, and gate-passage claims. |
+| **Risk color as architecture decision** | A risk color, matrix or maturity score decides the architecture move or resource priority by itself. | Recover the decision, affected structure and the rule connecting the color or score to that decision. Establish the relevant hazard or loss, comparison basis and evidence; add assurance or a gate result only when the receiving decision requires it. |
 | **Causal slogan** | Architecture property is said to cause a quality without a bounded claim or independently admitted relation grounding. | Start with `ArchitectureStructuralCharacteristicQBundleClaimLine`; apply C.28 or the applicable evidence, causal-use, or assurance pattern, or use `ArchitectureCharacteristicQBundleClaim` when a durable bounded claim is needed. Name a direct relation only after its defining pattern identifies the participants and its predicate is satisfied. |
-| **Architecture-operation overread** | Replacing a block, module, layer, protocol, cache, memory path, or flow relation is treated as improvement by label alone. | Apply `C.30.STRAT` to source labels, then recover the changed structure kind, preserved structure, lost structure, source relation, affected characteristic, and pattern for any decision or evidence claim. |
+| **Architecture-operation overread** | Replacing a block, module, layer, protocol, cache, memory path or flow relation is treated as improvement by label alone. | Recover unclear source labels through C.30.STRAT, then establish the changed structure or relation and the characteristic comparison actually claimed. Retain preservation, loss, source or decision grounds when the use consumes them. |
 | **Sterile compliance rewrite** | The text becomes well typed but no longer helps the practitioner act. | Restore a concrete next architecture move, a retainable `ArchitectureQuestionCard@Project` when needed, or the applicable pattern for the separate claim. |
 
 ### C.30:9 - Consequences
@@ -72030,7 +72020,7 @@ Exact episteme identity and direct view conformance also preserve plurality. The
 | --- | --- | --- | --- |
 | FPF `C.2.1`, `A.22`, `C.30.AD`, and `C.30.ASV` multi-view architecture discipline | FPF separates actual subject relations, exact selected A.22 structure, direct `ArchitectureRelation`, bounded claim content, Description episteme, viewpoint, structural view, representation, publication, correspondence, grounding, and source return. | Ask whether the actual relation obtains or the content is modal, then choose the next architecture move before opening heavier description and view records. When architecture-description or traceability use is current, recover correspondence, source pins, description-reliance relations, and source-return conditions. | A tool, notation, model-use structure, view, description, file, list, or publication creates none of the subject-side relation, structure, or truth facts by form. |
 | SEI views-and-beyond lineage and multi-view practice | Keep module, component-and-connector, runtime interaction, allocation, and placement as separate view pressures. | Do not reduce architecture to module structure or interface relation; use `C.30.ASV` to test structural-view claims. | View taxonomies are lineage and comparison support, not a second FPF ontology. |
-| arXiv:2603.00601 code-space architecture relation-graph work and related code-agent architecture probing benchmarks | Adapt partial-observability probing, typed edge rules, component-boundary rules, invariant-field semantics, uncertainty or unexplored-region reporting, and probe-as-intervention warning. | A generated code relation graph can supply a source relation for an architecture description or structural view only with claim, source, uncertainty, relation semantics, and source return. | Do not mint `U.CodeSpace`; do not treat probe or benchmark output as architecture adequacy, evidence sufficiency, assurance, or release. |
+| [Sapunov, *Theory of Code Space*, arXiv:2603.00601v4](https://arxiv.org/abs/2603.00601v4) | The benchmark studies architectural belief maps during budgeted codebase exploration under partial observability; reported benefits of active exploration and retained maps vary by model. | Use a generated map as a bounded source for inspecting architecture. Recover the actual relation meanings, supporting material and any unknown region that matters to the intended use. | The benchmark does not establish the adequacy of a particular architecture or authorize a code change. |
 | Holon-architecture law-like constraint set from the architecture source | Adopt Conway and mirroring as transformer-transformed correspondence pressure through `C.32.CONWAY`; use other law-like architecture lines only as recognition pressure for selected structures and architecture characteristics. | For Conway or mirroring, recover transformer holon, transformed holon, changing relation, selected structures, affected characteristics, candidate gain, and candidate loss. For other law-like pressure, identify the selected structure and characteristic, then use the pattern that defines or tests the exact architecture, relation, measurement, selected-set, or decision claim. | No law-like slogan is architecture adequacy, decision, evidence sufficiency, assurance, gate passage, or universal architecture ontology by itself. |
 | GonzoML neural-network architecture corpus as source example for general architecture-operation language | Adopt practitioner architecture-operation language as general architecture material: structural substitution, relation retargeting, dataflow change, path-selection and gating, memory and cache placement, block and layer substitutions, MoE expert-selection, pruning, distillation, NAS, ablation, and compute, memory, and latency tradeoffs. | Keep source labels as source labels through `C.30.STRAT`; after recovery, use the language for architecture-description and architecture-view recognition, transformation-flow-structure source relation, module-and-interface repair, scale characterization, candidate move guidance, and decision-context fields. | Neural-network labels, benchmarks, ablations, pruning masks, search outputs, or distillation success do not become FPF ontology, architecture decision, evidence sufficiency, gate passage, assurance, or architecture adequacy by themselves. |
 | Platform-engineering, MOSA, and open-systems practice | Adapt open-interface, platform extension-rule, substitution-policy, and conformance-expectation pressure as local architecture boundary discipline. | For an open-interface or platform claim, name the local structure, interface, variation point, substitution policy, pattern for any conformance-evidence claim, migration boundary, update channel, and hardening boundary that change action. | Platform design depends on project, organization, time, and place; there is no universal platform maturity scale or open-label proof. |
@@ -72078,7 +72068,7 @@ Use it to answer:
 
 **What this buys.** A reader can tell what each description is about, how its views correspond, where reused material came from, how fresh it is, what it may be used for, and which other claims need their own patterns.
 
-**First useful description-use output.** In one or two ordinary sentences, say which description is being used, what it describes, which reference scheme gives its terms meaning, why it is being used, which structure matters, what use is allowed, and whether this answers the question or leaves an architecture move to make. If you call it a `U.View`, also name the viewpoint and the conformance relation that actually holds. Stop if this answers the question. Ordinary wording can also be retained, compared, or handed on. Use `ArchitectureDescriptionUseCard@Project` when its organized fields help the receiving work:
+**First useful description-use output.** Say which description is being used, what it describes, which reference scheme gives its terms meaning, why it is being used, which structure matters, what use is allowed, and whether this answers the question or leaves an architecture move to make. If you call it a `U.View`, also name the viewpoint and the conformance relation that actually holds. Stop if this answers the question. Ordinary wording can also be retained, compared, or handed on. Use `ArchitectureDescriptionUseCard@Project` when its organized fields help the receiving work:
 
 ```text
 ArchitectureDescriptionUseCard@Project:
@@ -72101,7 +72091,7 @@ ArchitectureDescriptionUseCard@Project:
   architectureStructuralViewRefs?: FinSet(U.EpistemeRef constrained to ArchitectureStructuralView)
   viewpointConformanceRelationRefs?: FinSet(EpistemeViewpointConformanceRelationRef)
   correspondenceClaimOrRelationRefs?: FinSet(U.EpistemeRef | U.RelationRef)
-  sourceToUsePathRefs?: FinSet(U.RelationRef)
+  sourceToUsePathRefs?: FinSet(PathCitationRecordRef)
   sourceReturnCondition?:
   representationRefs?: FinSet(U.EntityRef)
   publicationOccurrenceRefs?: FinSet(EpistemePublicationRelationRef)
@@ -72109,13 +72099,13 @@ ArchitectureDescriptionUseCard@Project:
   carrierRefs?: FinSet(U.EntityRef)
   specificationUseBoundary?:
   admissibleUse:
-  nonAdmissibleUse:
+  nonAdmissibleUse?:
   nextClaimPatternRef?: PatternRef
 ```
 
 `@Project` is only a retrieval cue. It creates no project, authority, context, viewpoint, parthood, or Work. When an actual project matters, `projectWorkOccurrenceRef` names the composite `U.Work` recovered under `A.15.6`. Include `architectureDescriptionProjectUseRelationRef` only when a named pattern defines how this description use concerns that Work and the relation actually holds. A Work reference alone is not project locality. If locality matters but the relation is not defined, return `missing-governor`; otherwise omit both project-local fields.
 
-The card is optional and does not identify the description. For its declared use, it retains the described thing, reference scheme, purpose, selected structures and their kinds, allowed and disallowed use, and the next architecture move or pattern needed for a separate claim. If it calls the description a `U.View`, it also retains the viewpoint and the conformance relation that actually holds. Use the fuller `ArchitectureDescriptionUseAccount` when its fields help keep the applicable correspondence, source use or return, freshness, specification use, publication, representation, or project locality inspectable. An adequate existing account need not be reformatted. Keep any authority claim in its own pattern and relation.
+The card is optional and does not identify the description. For its declared use, it retains the described thing, reference scheme, purpose, selected structures and their kinds, allowed use and any material limitation, and the next architecture move or pattern needed for a separate claim. If it calls the description a `U.View`, it also retains the viewpoint and the conformance relation that actually holds. Use the fuller `ArchitectureDescriptionUseAccount` when its fields help keep the applicable correspondence, source use or return, freshness, specification use, publication, representation, or project locality inspectable. An adequate existing account need not be reformatted. Keep any authority claim in its own pattern and relation.
 
 For publication use, each carrier reference resolves to an independently identified physical or digital entity whose actual state or realization yields the relevant expression. The carrier's domain supplies its identity rule. When the bearing claim needs inspection, recover its `PublicationExpressionBearingRelation` and exact expression under E.24.PUB. A reusable form has its separate conformance relation. A file object, immutable snapshot value and individual copy retain their different identity rules.
 
@@ -72198,7 +72188,7 @@ ArchitectureDescriptionUseAccount:
 
   sourceEpistemeRefs?: FinSet(U.EpistemeRef)
   sourceViewRefs?: FinSet(U.ViewRef)
-  sourceToUsePathRefs?: FinSet(U.RelationRef)
+  sourceToUsePathRefs?: FinSet(PathCitationRecordRef)
   sourceReturnCondition?
   freshnessClaimRefs?: FinSet(U.EpistemeRef)
 
@@ -72209,7 +72199,7 @@ ArchitectureDescriptionUseAccount:
   specificationUseBoundary?
   publicationUseBoundary?
   admissibleUse
-  nonAdmissibleUse
+  nonAdmissibleUse?
 ```
 
 The account points to an already constituted episteme; it is not the episteme and does not add slots to it. Its `claimGraphRef` resolves under C.2.1:4.2.6 to that episteme's complete semantic claim content; the designation and any graph representation remain distinct from the value. Together with `entityOfConcernRef` and `effectiveReferenceScheme`, it exposes the constituents and EntityOfConcern that identify the episteme. When the described thing is a relation occurrence or selected structure, the participant trace can still recover its holon. `architectureClaimRefs` carries relevant claim content or trace; `selectedStructureRefs` names the structures described, and `structureKindRefs` classifies them.
@@ -72224,7 +72214,7 @@ Minimum conformance for a retained `ArchitectureDescriptionUseAccount`:
 - any cited `ArchitectureStructuralView` is the same description episteme admitted as `U.View` only by a separately obtaining E.17.0 conformance relation to one exact viewpoint episteme;
 - cross-view composition uses explicit description-set use claims, correspondence claims, or independently obtaining relations; source use names source-to-use paths; a source-return condition appears only when stronger use requires return to a named source or exact defining or constraining ClaimGraph;
 - representation and publication fields identify their own objects and occurrences; they do not establish the description, architecture, selected structure, view membership, empirical grounding, or truth;
-- `admissibleUse` and `nonAdmissibleUse` say what the description can and cannot carry.
+- `admissibleUse` states what the description supports. Include `nonAdmissibleUse?` when a supported limit changes the receiving use.
 
 #### C.30.AD:4.1a - Traceable architecture multi-view description chain
 
@@ -72252,7 +72242,7 @@ If a needed link is absent, do not substitute a label, query result, bundle, dia
 
 An architecture description episteme is not a `U.View` because it is put in a multi-view set, authored under a viewpoint label, constructed by A.6.3, returned by a query, selected, bundled, diagrammed, rendered, or published. First identify the candidate episteme by its C.2.1 identity. Then identify one exact viewpoint episteme and test the fixed five-part E.17.0 predicate. Only a separately obtaining `EpistemeViewpointConformanceRelation(candidateEpisteme, exactViewpoint)` admits that same episteme as `U.View`.
 
-When a receiving use needs one multi-view description set, recover an exact collection of independently identified description epistemes under `C.13`; set membership is ordinary collection membership. A shared file, bundle, heading, graph, publication, or query result neither identifies that collection nor grants `U.View` membership. The collection keeps no second episteme identity for its members.
+When a receiving use needs one multi-view description set, identify the collection by its independently identified description members and membership rule. Use C.13 when a construction trace is needed; set membership remains ordinary collection membership. A shared file, bundle, heading, graph, publication, or query result neither identifies that collection nor grants `U.View` membership. The collection keeps no second episteme identity for its members.
 
 `C.30.AD` can record use of already recoverable architecture structural views inside one description set without minting a local relation kind:
 
@@ -72264,10 +72254,10 @@ ArchitectureDescriptionViewUseClaim content:
     orientation | comparison | implementationGuidance |
     assuranceInput | sourceUse | strongerUseReturn | declaredOther
   correspondenceClaimOrRelationRefs?: FinSet(U.EpistemeRef | U.RelationRef)
-  sourceToUsePathRefs?: FinSet(U.RelationRef)
+  sourceToUsePathRefs?: FinSet(PathCitationRecordRef)
   sourceReturnCondition?
   admissibleUse:
-  nonAdmissibleUse:
+  nonAdmissibleUse?:
 C.2.1 constitution:
   entityOfConcernRef: exactly one architectureDescriptionSetRef
   effectiveReferenceScheme: EpistemeInterpretationScheme, byValue
@@ -72282,16 +72272,16 @@ Common architecture-description views:
 | Transformation-flow view | `E.18` for the selected transformation-flow structure, path, crossing, or valuation; `E.18.2` for its graph-shaped mathematical description; `C.30.TFS-REL` when either is used by architecture. |
 | Control or LCA view | `C.30.LCA` when a control structure view is being used. |
 | Module or interface view | `A.6.M`, signature or interface patterns, and `C.30.ASV` when module-interface structure is being used. |
-| Mathematical-lens view | `C.29` for lens-use result and preserved and lost structure; `C.30.AD` only for the architecture-description use of the lens result. |
+| Mathematical-lens view | `C.29` when formulation, transfer or reliance remains unresolved; retain an adequate domain result directly. `C.30.AD` handles the architecture-description use and its needed correspondence conditions. |
 | Boundary, interface, or Markov-blanket view | `A.1`, `A.6.RSIR`, `A.6.P`, `A.6.0`, `A.6.5`, `A.6.M`, `A.6.F`, `C.26`, `C.26.3`, and `C.29` according to the recovered claim; `A.6.B` only when the recovered object is L, A, D, or E statement classification inside a boundary package. `C.30.AD` records only exact description identity, description-set use, cross-view correspondence, source-to-use path when a source is used, an applicable stronger-use return condition, freshness, representation, or publication use. |
 | Evidence or assurance reuse view | Use `A.10`, `B.3`, or the relevant evidence or assurance pattern for the non-architecture claim. |
 | Architecture residual view | Use `C.30.ILC` for a cross-scope or interlevel architecture residual. C.30.AD records only the view episteme, its conformance, description-set use, correspondence to other views, and allowed use; add a source-use relation only when a source is actually used. |
-| Multilevel-learning or frustration mathematical-lens view | `C.29` when the view contains a recoverable level mapping or scale mapping and preserved structure and lost structure; `C.30.AD` records only the architecture-description use of that lens result. |
+| Multilevel-learning or frustration mathematical-lens view | Recover the level or scale mapping and the distinctions its use preserves or loses. Use `C.29` for a remaining formulation, transfer or reliance question; `C.30.AD` records the architecture-description use. |
 | Residual-reducing candidate or optimization view | Use `C.32.MLAO` for the residual-reducing multilevel candidate frame, `C.32` for the candidate architecture palette, `A.19.CPM` or `A.19.SelectorMechanism` for comparison or selector-policy use, `C.18` and `C.19` for archive, front, or current-pool treatment, `G.5` for selected-set result declaration, and `C.11` for final local choice. Record with C.30.AD only the exact description identity, description-set use, cross-view correspondence, source-to-use path when used, applicable source-return condition, freshness, representation, publication use, or specification use. |
 
 #### C.30.AD:4.3 - Cross-view correspondence, source use, and return conditions
 
-Before combining two views, establish whether they describe the same holon, the same architecture-relation occurrence, the same selected structure, related structures, or different subjects. State that correspondence as a claim or cite a direct relation that actually holds; merely placing views in one file, list, model, or publication creates no correspondence. When source material enters the current use, record its source-to-use path. Add a return condition only when stronger use must go back to a named source or defining or constraining ClaimGraph.
+Before combining two views, establish whether they describe the same holon, the same architecture-relation occurrence, the same selected structure, related structures, or different subjects. State that correspondence as a supported claim or cite a direct relation that actually holds. When source material enters the use, identify the source and its contribution. Use `sourceToUsePathRefs` when that provenance needs a citable G.6 path: `PathCitationRecordRef` here means a reference to one G.6 `PathCitationRecord`, resolving its EvidenceGraph, path and applicable slice. That descriptive path cites independently established direct relations; it is not itself one of them. Add a return condition when a stronger use needs the named source or its defining claims.
 
 **Coarse-graining check.** A coarser description groups, omits, or summarizes distinctions found in another description or source. Before relying on it, name the described subject, the finer and coarser description structures, the mapping or correspondence between them, the distinctions kept and lost, and the intended use. These are facts about the descriptions and their use. They do not show that the subject itself has matching levels, parts, or relations. If the decision needs that subject-side claim, establish it separately through the pattern that defines or tests the subject relation; otherwise say only that the description was coarsened.
 
@@ -72307,10 +72297,10 @@ ArchitectureDescriptionCorrespondenceClaim content:
   preservedStructureRefs?
   lostStructureRefs?
   directCorrespondenceRelationRefs?: FinSet(U.RelationRef)
-  sourceToUsePathRefs?: FinSet(U.RelationRef)
+  sourceToUsePathRefs?: FinSet(PathCitationRecordRef)
   sourceReturnCondition?
   admissibleUse:
-  nonAdmissibleUse:
+  nonAdmissibleUse?:
 C.2.1 constitution:
   entityOfConcernRef: exactly one architectureDescriptionSetRef
   effectiveReferenceScheme: EpistemeInterpretationScheme, byValue
@@ -72352,7 +72342,7 @@ ArchitectureDescriptionSpecificationUseAccount@Project:
   architectureDescriptionRef: U.EpistemeRef constrained to ArchitectureDescription
   sourceEpistemeRef?: U.EpistemeRef
   sourceViewRef?: U.ViewRef
-  sourceToUsePathRefs?: FinSet(U.RelationRef)
+  sourceToUsePathRefs?: FinSet(PathCitationRecordRef)
   representationRef?: U.EntityRef
   publicationOccurrenceRef?: EpistemePublicationRelationRef
   publicationFormRef?: U.EntityRef
@@ -72363,11 +72353,11 @@ ArchitectureDescriptionSpecificationUseAccount@Project:
     declaredOther
   claimPatternRefs?: FinSet(PatternRef)
   admissibleUse:
-  nonAdmissibleUse:
+  nonAdmissibleUse?:
 
 ```
 
-This account records how an existing description or publication is used as a specification. It is not an episteme, relation, MethodDescription, Method, pattern application, or Work occurrence. `claimPatternRefs` cites PatternIDs for separate claims. When project locality matters, name the composite `U.Work` and include the project-use relation only if a pattern defines it and it actually holds. If locality matters but the relation is undefined, return `missing-governor`; otherwise omit both project fields. A project label or this account creates neither Work nor relation.
+This account describes how an existing description or publication is used as a specification. Its claim-bearing content can constitute an episteme under C.2.1; the record form alone establishes neither that identity nor the described use. `claimPatternRefs` cites patterns that define or constrain separate claims. When project locality matters, name the composite `U.Work` and the obtaining project-use relation under its defining pattern. If that relation is needed but undefined, return `missing-governor`; otherwise omit the project fields. Claimed Methods, MethodDescriptions and performed Work retain their own admission grounds.
 
 If specification use is also claimed to be a pattern-use recommendation, work-entry readiness, evidence, assurance, gate passage, performed work, work authorization, decision, causal use, or release authorization, use the pattern that defines or tests that other claim. The description remains only the description boundary.
 
@@ -72452,7 +72442,7 @@ After an actual placement change at t2, the t1 deployment description can remain
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| Description-as-architecture | A document, diagram, model, graph, view set, or card is said to be the architecture or to create an obtaining architecture relation. | Recover the exact holon, `ArchitectureRelation` occurrence, or selected structure; keep the episteme, representation, publication, and source-to-use relation distinct. |
+| Description-as-architecture | A document, diagram, model, graph, view set, or card is said to be the architecture or to create an obtaining architecture relation. | Recover the exact holon, `ArchitectureRelation` occurrence, or selected structure; keep the episteme, its representation, the publication, the source-use account, and the direct relations it cites distinct. |
 | Viewpoint-as-structure-kind or view constructor | A stakeholder, role, concern, viewpoint label, authoring template, query, or bundle is used as if it named the selected structure or granted `U.View` membership. | Use `E.17.0` for exact viewpoint conformance and `C.30.ASV` for selected structure and kind. |
 | Multi-view fog | Many views are listed, but their separate C.2.1 identities, conformance relations, selected structures, or correspondence cannot be recovered. | Add the description and viewpoint references, conformance relations, selected structures, and correspondence claims or relations that actually hold. |
 | Coarse model as subject hierarchy | A grouped or lower-resolution description is treated as proof that the subject has the same levels, parts, or relations. | State the description-side grouping, mapping, preserved and lost distinctions, and allowed use; establish any subject-side relation separately. |
@@ -72490,7 +72480,7 @@ The pattern therefore specializes generic Description and publication machinery 
 | Views-and-Beyond and related architecture documentation practice treats views as stakeholder-relevant projections over architecture. | Mature reference and lineage source for view-based architecture documentation; not used as a mandatory current catalog. | Adopt view usefulness while requiring exact E.17.0 viewpoint conformance and structure-kind recovery through `C.30.ASV`; description-set use remains claim content or a separate relation that actually holds. | Disciplines `C.30.AD:4.1a`, `C.30.AD:4.2`, and the multi-view worked case: a view remains useful for a working concern without becoming the selected structure or a `U.View` by label. | No mandatory view catalog or local membership relation is imported, and view adequacy remains in `E.17.0` and `C.30.ASV`. |
 | `E.17.0` and MVPK publication machinery in FPF. | Internal FPF definitions and publication practices for views, viewpoints, publication occurrences, forms, carriers, and publication separation. | Reuse generic view and publication machinery instead of minting architecture-local copies. | Disciplines `C.30.AD:4.1a`, `C.30.AD:4.5`, `CC-C30AD-5`, and `CC-C30AD-6`: architecture-description identity and composition remain separate from representation, publication occurrence, form, carrier, and publication-currentness. | C.30.AD specializes architecture-description use; it does not replace E.17.0, E.17.1, E.17.2, E.17, E.24.PUB, or C.2.P. |
 | C4, arc42, ADR, model-card, and system-card practice makes architecture communication practical. | Practitioner-source family for familiar architecture publication and documentation forms. | Admit these as possible source publications, view publications, decision-description publications, transparency publications, or specification-use records. | Disciplines `C.30.AD:4.5`, worked cases, and anti-patterns: practitioners can use familiar forms while keeping source, representation, publication, description, architecture, evidence, gate, decision, work authorization, release authorization, and other non-description claims separate. | Template, card, graph, or diagram quality is not architecture adequacy by itself. |
-| Tool-generated architecture relation graphs and code-agent architecture probing expose useful but partial structure. | Emerging practitioner practice for recovering architecture-relevant relations from code, models, and generated analyses; currentness depends on the analyzed edition and tool run. | Treat generated graphs as representations or source-derived descriptions with observed, inferred, and unknown relation boundaries. | Disciplines `C.30.AD:4.3`, `C.30.AD:5`, and `CC-C30AD-4`: a generated output can guide structure recovery and next architecture moves only through a named source-to-use path; stronger use activates the declared source-return condition. | Generated relation coverage does not become an obtaining subject relation, `U.View`, proof, gate passage, safety assurance, or complete architecture. |
+| Tool-generated architecture relation graphs and code-agent architecture probing expose useful but partial structure. | Emerging practitioner practice for recovering architecture-relevant relations from code, models, and generated analyses; currentness depends on the analyzed edition and tool run. | Treat generated graphs as representations or source-derived descriptions with observed, inferred, and unknown relation boundaries. | Disciplines `C.30.AD:4.3`, `C.30.AD:5`, and `CC-C30AD-4`: a generated output can guide structure recovery and next architecture moves through recoverable source material, its actual contribution and the limits relevant to the use. Cite a G.6 path when replay requires it; stronger use activates the applicable source-return condition. | Generated relation coverage does not become an obtaining subject relation, `U.View`, proof, gate passage, safety assurance, or complete architecture. |
 
 ### C.30.AD:11 - Relations
 
@@ -72584,7 +72574,7 @@ BuiltAssetArchitectureDescriptionUse@Project:
   assetInformationDescriptionRefs?: FinSet(U.EpistemeRef)
   digitalTwinDescriptionRefs?: FinSet(U.EpistemeRef)
   designRunSeparationUse?: BuiltAssetDesignRunSeparationUse, byValue
-  sourceToUsePathRefs?: FinSet(U.RelationRef)
+  sourceToUsePathRefs?: FinSet(PathCitationRecordRef)
   sourceReturnCondition?:
   representationRefs?: FinSet(U.EntityRef)
   publicationOccurrenceRefs?: FinSet(EpistemePublicationRelationRef)
@@ -72594,7 +72584,7 @@ BuiltAssetArchitectureDescriptionUse@Project:
   publicationCurrentnessRelationRefs?: FinSet(U.RelationRef)
   admissibleUse:
   nextGoverningPatternApplicationRef?:
-  nonAdmissibleUse:
+  nonAdmissibleUse?:
 ```
 
 Resolve `descriptionContentDesignation` under C.2.1:4.2.6 to the whole content of the same exact episteme selected by `architectureDescriptionRef`. Its by-value effective scheme must be the rules governing that content, not the rules of a document that merely describes the scheme. A missing or conflicting resolution leaves this use record unresolved; it does not reidentify the asset or establish view conformance.
@@ -72607,9 +72597,9 @@ Every value in `architectureStructuralViewRefs` identifies an exact description 
 
 `claimScope`, architecture concern, empirical grounding, and `modelUseStructureRef` remain neighboring qualifiers or relations. A DDD-style bounded-model-use structure appears only when that independently selected structure changes interpretation or selection for this use. It replaces none of the asset, relation, structure, description, scheme, scope, grounding, viewpoint, Work, or project-use objects and is absent from base identity.
 
-Use `sourceToUsePathRefs` when a model publication, exchange, measurement description, or other named expression enters the present architecture use. Use a source-return condition only when stronger use of a derivative or reused description must return to that named source or governing pattern. Keep a diagram or model as representation, and keep publication occurrence, form, and carrier separate. Use `G.11` when description freshness, publication currentness, edition, telemetry freshness, model decay, or synchronization currentness is the claim; none establishes architecture adequacy or empirical grounding by itself.
+When a model publication, exchange, measurement description or other source enters the architecture use, identify its edition and contribution. Use `sourceToUsePathRefs` for citable G.6 paths as defined in C.30.AD:4.3, keeping their cited direct relations distinct. Add a source-return condition when stronger use needs the named source. Keep representation and publication occurrence, form and carrier separate. Use G.11 when description freshness, publication currentness, model decay or synchronization currentness changes the claim.
 
-When ISO 19650 discipline is invoked, cite the exact published part and edition rather than an unversioned series label. At the `2026-07-31` source check, ISO lists `ISO 19650-1:2018`, Edition 1, and `ISO 19650-3:2020`, Edition 1, as published editions last confirmed in 2024 and now to be revised, with draft successors under development. The current transfer is therefore exact and bounded: Part 1 contributes whole-life information-management discipline for exchanging, recording, versioning, and organizing information; Part 3 contributes the operational-phase management process and information exchanges. Record the exact standard source and edition in the source-to-use path, the used model or information edition, the reference date and validity window through the currentness loci, the refresh or source-return condition, and `admissibleUse` and `nonAdmissibleUse`. A draft or later edition does not silently replace the cited source. ISO 19650 practice contributes information-management discipline, not FPF ontology, subject-relation truth, architecture adequacy, evidence sufficiency, assurance, Work occurrence, or authority.
+When ISO 19650 contributes to a use, cite the published part and edition and identify what it contributes. The cited ISO 19650-1:2018 edition supplies whole-life information-management concepts and principles; ISO 19650-3:2020 supplies operational-phase information management and exchanges. Keep the used information or model edition recoverable. Add a source-status date, validity window or refresh condition when the receiving use or governing regime depends on current status; a historical interpretation of a named edition needs no invented expiry. A draft or later edition does not silently replace the source used. These standards supply information-management discipline, not the asset's architecture facts or a separate authority claim.
 
 #### C.30.AD.BA:2.1 - Recover the selected structures before combining views
 
@@ -72642,7 +72632,7 @@ BuiltAssetReferenceDesignationUse:
   correspondingEntityRef?: U.EntityRef
   correspondenceClaimOrRelationRef?: U.EpistemeRef | U.RelationRef
   admissibleUse:
-  nonAdmissibleUse:
+  nonAdmissibleUse?:
 ```
 
 `selectedAspectStructureRef` names the exact structure in which the designation is interpreted, such as a functional, product, location, or declared local structure. It is not a free aspect label. `designatedEntityRef` names the entity designated in that structure. Include `designationOrReferenceRelationRef` only when the designation or reference relation kind is admitted and the occurrence independently obtains. If a design object and a realized component both need to be retrieved, name the two entities and a bounded correspondence claim or independently obtaining correspondence relation rather than letting one code silently collapse them.
@@ -72673,7 +72663,7 @@ BuiltAssetDesignRunSeparationUse:
   designSideWorkOccurrenceRefs?: FinSet(U.EntityRef constrained to U.Work)
   runSideWorkOccurrenceRefs?: FinSet(U.EntityRef constrained to U.Work)
   telemetryEpistemeRefs?: FinSet(U.EpistemeRef)
-  sourceToUsePathRefs: FinSet(U.RelationRef)
+  sourceToUsePathRefs?: FinSet(PathCitationRecordRef)
   descriptionFreshnessClaimRefs?: FinSet(U.EpistemeRef)
   publicationCurrentnessRelationRefs?: FinSet(U.RelationRef)
   designToRealizationCorrespondenceClaimOrRelationRefs?:
@@ -72722,7 +72712,7 @@ The next architecture move is then concrete: evaluate the proposed flow and cont
 
 A bridge operator combines an as-maintained geometry model, structural-member view, inspection history, strain telemetry, and a simulation view. The bridge remains the built asset across model editions. The structural-member and sensor-placement structures are selected explicitly; each description keeps exact C.2.1 identity and each claimed view exact E.17.0 conformance. Inspection and telemetry claims retain their evidence, grounding, source-use, and currentness relations. A revised simulation model retains the same C.2.1 episteme identity when its claim content, EntityOfConcern, and effective reference scheme are unchanged. Otherwise identify another episteme; assert an `EpistemeEditionRelation` only when its historical-continuation predicate obtains. Assess any declared lineage or continuity claims separately for the intended reuse.
 
-When the operator compares an original design description with the as-maintained geometry, inspection history, and live telemetry, `designRunSeparationUse` cites the exact design-side description and design Work, the exact run-side descriptions and inspection or maintenance Work, their source-to-use and currentness refs, and any separately governed design-to-realization correspondence. `actualTransformationRefs` remains absent unless an exact repair or other physical change satisfies A.3.4. The architecture description can therefore support a decision to inspect or redesign a connection while retaining the route back to the geometry publication, measurement descriptions, and selected structures. It cannot treat a successful data-exchange check, recent sensor sample, simulation result, polished dashboard, or local design/run classification as proof that the bridge architecture is adequate or that design and realized objects are identical.
+When the operator compares an original design description with the as-maintained geometry, inspection history, and live telemetry, `designRunSeparationUse` cites the exact design-side and run-side descriptions, the design, inspection or maintenance Work actually claimed, the sources and currentness conditions needed by the comparison, and any separately governed design-to-realization correspondence. `actualTransformationRefs` remains absent unless an exact repair or other physical change satisfies A.3.4. The architecture description can therefore support a decision to inspect or redesign a connection while retaining the route back to the geometry publication, measurement descriptions, and selected structures. It cannot treat a successful data-exchange check, recent sensor sample, simulation result, polished dashboard, or local design/run classification as proof that the bridge architecture is adequate or that design and realized objects are identical.
 
 ### C.30.AD.BA:4 - Conformance Checklist
 
@@ -72735,7 +72725,7 @@ When the operator compares an original design description with the as-maintained
 | `BA-5` | Reused or live descriptions name source-to-use, source-return when stronger use needs it, description freshness, and publication-currentness objects appropriate to the exact claim. | Apply `G.11`; do not turn freshness, synchronization, recent publication, or live data into grounding, truth, evidence sufficiency, or architecture adequacy. |
 | `BA-6` | Digital and physical objects retain direct kinds, identities, coupling relations, Work, and transformations; actual change is cited only with the full A.3.4 basis. Project-local use additionally names both exact composite Work and the obtaining project-use relation. | Recover model, systems, epistemes, the exact composite `U.Work`, interfaces, coupling, actual changed referent and facts, and `builtAssetDescriptionProjectUseRelationRef` as the separately governed obtaining relation by which this description use concerns that Work before making identity, parthood, transformation, or project-locality claims. |
 | `BA-7` | Every used cost, schedule, operation, maintenance, sustainability, or energy view names exact description identity and, when asserted as a structural view, selected structure, viewpoint, and conformance; its characteristic, Work, temporal, causal-use, evidence, assurance, and currentness claims keep exact subject patterns. | Use `C.16` for the measurement result, `A.15.1` for Work, `C.27.TA` or `C.27` for the exact temporal use, `C.28` only when the view, telemetry, simulation, maintenance action, or claimed change is used causally, `A.10` or `B.3` for reliance or assurance, and `G.11` for currentness; do not let the auxiliary view itself establish a causal effect, sustainability, acceptance, evidence, assurance, or architecture adequacy. |
-| `BA-8` | Every ISO 19650-based use names the exact part and edition, exact source-to-use path, used information or model edition, source-status reference date, validity window, refresh or source-return condition, and admissible and non-admissible use. | Pin the exact published edition used; reopen this source-use locus when ISO status, the cited edition, information edition, or intended use changes. Do not silently substitute a draft or successor edition or import standard terminology as FPF ontology or authority. |
+| `BA-8` | An ISO 19650-based use identifies the exact part and edition, the used information or model edition, and the source's actual contribution. Dates, validity windows, refresh and stronger-use return conditions are supplied when the receiving use or regime requires them. | Recover missing grounds for that use; a historical interpretation can retain its named edition. Reconsider affected claims when their source basis changes; do not silently substitute a successor or infer asset facts or authority from the standard's terms. |
 | `BA-9` | Every use that crosses design-side and run-side material makes its side-specific descriptions, claimed Work, sources, currentness, classification basis and admissible use recoverable; correspondence, coupling, and transformation refs appear only when their direct predicates obtain. `BuiltAssetDesignRunSeparationUse` can organize these distinctions and any unresolved merge. | Recover the missing content in ordinary wording or the local record, or narrow or block the dependent cross-lifecycle use. Do not restore a generic tag, infer identity or parthood from co-display, or treat telemetry, Work, correspondence, coupling, or a proposed effect as actual A.3.4 change. |
 | `BA-10` | A green twin, dashboard, exchange result, or release screen remains a cue until the required `A.21` `GateDecisionResult` is established for a named gate decision; gate decision, release action, work-entry readiness, permission or grant act, performed Work, and a subject-release predicate remain distinct claims. | When a named gate decision is current, establish or recover its `GateDecisionResult`, applicable profile application and exact check-application results; use publication and the optional `DecisionLog` under A.21:4.10 only when those uses are current. Route a release action or other performed Work to its exact `A.15.1` occurrence, readiness to `A.15.5`, a permission result or exercise to `A.2.8.PER`, an instituting or revoking grant act to `A.2.9`, and a subject-release claim to its named predicate and participants or `A.6.RCD missing-governor`; none is entailed by freshness, evidence, assurance, the display, or a `GateDecisionResult` with `decisionValue=pass`. |
 
@@ -72755,7 +72745,7 @@ Reference designation demonstrates why this chain matters. Its engineering value
 
 | Source line | Contribution used here | Mutation of the pattern | Practitioner implication |
 | --- | --- | --- | --- |
-| [ISO 19650-1:2018, Part 1: Concepts and principles](https://www.iso.org/standard/68078.html) and [ISO 19650-3:2020, Part 3: Operational phase of the assets](https://www.iso.org/standard/75109.html), official status checked `2026-07-31` | ISO 19650-1 contributes information-management concepts and principles for exchanging, recording, versioning, and organizing information across the whole built-asset life; ISO 19650-3 specifies information-management process and exchanges in the operational phase. Both cited editions are published, were last confirmed in 2024, and are marked by ISO as to be revised with draft successors under development. | Adopt the exact whole-life and operational information-management discipline through source-to-use, edition, currentness, refresh, and admissible-use boundaries; do not import ISO terms as FPF U-kinds, relation truth, architecture adequacy, or authority. | Cite the exact part and edition, used information or model edition, reference date, validity window, source-return or refresh condition, and admissible and non-admissible use; a draft or later edition never updates an existing use silently. |
+| [ISO 19650-1:2018, Part 1: Concepts and principles](https://www.iso.org/standard/68078.html) and [ISO 19650-3:2020, Part 3: Operational phase of the assets](https://www.iso.org/standard/75109.html) | Part 1 contributes whole-life information-management concepts and principles; Part 3 contributes the operational-phase process and information exchanges. | Use their identified contributions without importing standard terminology as FPF kinds, asset facts or authority. | Cite the part and edition used. Add current-status and refresh grounds when the receiving use needs them; the historical edition remains identifiable when a successor appears. |
 | [buildingSMART IFC 4.3.2 official documentation](https://standards.buildingsmart.org/IFC/RELEASE/IFC4_3/) | IFC 4.3.2 exposes explicit object identities, relationship entities, decomposition, systems, processes, products, and aspect-specific schemas. | IFC content enters through exact source epistemes, representations, publication objects, and source-to-use paths; selected structures need their A.22 basis; a claim that exchange relations obtain in the asset additionally needs the relevant facts and subject predicates. | Preserve useful machine-readable relation content without making an exchange schema, file, representation, or publication the built asset, relation truth, or FPF ontology. |
 | [buildingSMART IDS 1.0](https://www.buildingsmart.org/standards/bsi-standards/information-delivery-specification-ids/) | An IDS 1.0 specification states expected IFC information in a computer-interpretable form for an exchange checker to test. | `C.30.AD.BA:2.3` separates exchange-description checking from architecture evaluation and world-side relation truth. | Passing an IDS check shows that declared information was delivered; it does not show that the architecture is adequate or that described relations obtain. |
 | [IEC 81346-1:2022](https://webstore.iec.ch/en/publication/64021) | The cited reference-designation standard connects unambiguous retrieval to system structuring, aspects, objects, corresponding components, and relations between objects. | The pattern uses an explicit scheme-expression-entity-structure use record, an exact direct designation/reference relation when one obtains, and a separate correspondence claim or relation when design object and realized component both matter. | A stable code remains useful across descriptions without becoming universal identity, parthood proof, or an occurrence constructor. |
@@ -72769,7 +72759,7 @@ Reference designation demonstrates why this chain matters. Its engineering value
 - **Uses description, view, representation, and publication patterns:** `C.2.1`, `A.7`, `E.17.0`, `E.17`, `E.24.PUB`, and `C.29`.
 - **Uses relation, naming, and currentness patterns:** the exact designation/reference predicate and assertion; `A.6.P` for precision repair; `A.6.RCD` only for a demonstrated missing reusable predicate; `A.6.REL` only after the relation kind is admitted, current facts satisfy its obtaining predicate, and occurrence identity matters; `F.18`; and `G.11`.
 - **Uses lifecycle information-management source discipline from:** exact published `ISO 19650-1:2018` and `ISO 19650-3:2020` editions through source-to-use, edition, currentness, source-return, and admissible-use boundaries, without ontology or authority import.
-- **Records design/run separation in:** one local `BuiltAssetDesignRunSeparationUse` over exact C.2.1 descriptions, `A.15.1` Work, source-use paths, `G.11` currentness, directly governed correspondence or coupling, and A.3.4 transformation refs; the local classification admits no kind or relation.
+- **Records design/run separation in:** an ordinary account or local `BuiltAssetDesignRunSeparationUse` over the descriptions and correspondence needed by the use. Include A.15.1 Work, source paths, G.11 currentness, coupling or A.3.4 transformation refs when those facts are claimed or consumed.
 - **Use for auxiliary-view claims:** `C.16` for characteristic measurement, `A.15.1` for operation or maintenance Work, `C.27.TA` for positive temporal aspects, `C.27` for action-guiding temporal-claim adequacy, `C.28` when an intervention, maintenance action, simulation, telemetry change, or claimed effect is used causally, `A.10` for evidence or material reliance, `B.3` for assurance, and `G.11` for currentness and reopen conditions.
 - **Use for gate- and release-looking claims:** `A.21` when a named gate must decide a bounded action or its `GateDecisionResult` is being relied on; the display remains a cue until the required result is established. Route a release action or other performed Work to `A.15.1`, work-entry readiness to `A.15.5`, a permission result or exercise to `A.2.8.PER`, an instituting or revoking grant act to `A.2.9`, and a subject-release claim to its named predicate and participants or `A.6.RCD missing-governor`; none of these conclusions follows merely from a display or an authorization-looking label.
 - **Use for other claims:** `A.3.4` and the direct transformation, evaluation, evidence, assurance, Work, decision, acceptance, or project-use pattern named by the claim.
@@ -72877,7 +72867,7 @@ ArchitectureOrStructureRepairNote:
   relationFunctionClaimRef:
   repairedWordingOrDemotion:
   admissibleUse:
-  nonAdmissibleUse:
+  nonAdmissibleUse?:
   remainingReaderUse:
   disposition:
 ```
@@ -73059,7 +73049,7 @@ A compact label can carry a useful source-local meaning while leaving the intend
 
 ### C.30.STRAT:4 - Solution
 
-Write the direct local repair first. For example: `Here “gate” names the neural-network path selector; use E.18 to describe the selected path.` That sentence can be the complete result.
+Write the direct local repair first. For example: `Here “gate” names the neural-network path selector; it selects which expert receives this token.` That sentence can be the complete result. Use E.18 when the receiving question needs the selected transformation-flow organization, path or crossing.
 
 A sufficient sentence can be compared, handed on, or revisited as it stands. Retain a compact note when organizing the repair helps that use:
 
@@ -73147,7 +73137,7 @@ C.30 placement does not decide the recovered meaning. After recovery, use the ru
 | --- | --- |
 | `The module layer is stable.` | Keep `layer` as a source label until the sentence reveals a module or interface relation, scale or comparison, publication or view, state, dynamics, or temporal claim. Use only the matching pattern: for example `A.6.M`, `C.16.P`, `C.29`, `C.2.P`, `A.19.SPR`, `A.3.3`, `C.27.TA`, or `C.27`. |
 | `The expert routes the token.` | In mixture-of-experts prose, first test submodel or subholon, specialized transformation, path selection, architecture-to-flow relation, candidate selection, ordinary wording, or non-use. Only an unresolved claim-bearing use of *role* opens `E.10.ROLE`; any system-role kind, classification, assignment, performer, Work, responsibility, or authority claim must be established independently under its direct pattern. |
-| `The cache proves the architecture scales.` | Split three questions: what `cache` names, whether an evidence or assurance relation exists, and what measurable scale or lens-use claim is being made. Use `A.6.M`, `A.6.F`, E.18, state or temporal patterns, `C.16.P`, C.29, A.10, B.3, or G.6 only for the branch that is actually present. |
+| `The cache proves the architecture scales.` | Recover the cache's subject, the exact scaling claim and grounds appropriate to that claim. A formal bound may follow by derivation under stated assumptions; empirical performance and named assurance claims need their own grounds. Use only the corresponding domain, measurement, evidence or assurance branch. |
 | `The LCA upper layer guarantees safety.` | First decide whether `layer` names a control relation. If so, C.30.LCA records the relation, participant meanings, rate band, and relevant locality or model-use boundary. Safety, evidence, assurance, dynamics, temporal, and gate claims remain separate. |
 | `The architecture description places service logic in the application layer.` | Recover the description's declared viewpoint or model-kind convention and what `application layer` means there. It may be a useful grouping in the description. State separately any claim that the described system itself has an obtaining layer, dependency, module, control, or flow relation; neither the diagram position nor architecture-description conformance establishes that world-side claim. |
 | `Our operating model has strategic, coordination, and execution levels.` | If these are only headings or work areas, keep them as local labels. Before claiming levels in an organization or practice, say what the three areas are, how they are ordered or mapped, when that ordering applies, and whether it is asserted, proposed, assumed, or only illustrated. Slide order, a curriculum, or a first-then flow establishes none of this. |
@@ -73158,7 +73148,7 @@ C.30 placement does not decide the recovered meaning. After recovery, use the ru
 For `The cache proves the architecture scales`, do not hide the split inside one formal record. Read it as three candidate claims:
 
 1. `cache` may name a state-bearing module, interface arrangement, flow buffer, or ordinary source label; the sentence does not yet decide which;
-2. `proves` requires an actual evidence relation or assurance argument; otherwise lower that wording;
+2. `proves` needs grounds appropriate to the exact claim: a valid formal derivation under stated assumptions, support for an empirical claim, or the argument required by a named assurance use. Retain proof wording only within the established scope;
 3. `scales` requires a characteristic and bearer, comparison or scale construction, architecture scale-preference claim, or mathematical-lens use.
 
 A retained note can remain compact:
@@ -73170,16 +73160,18 @@ StratificationSourceLabelRepairNote:
   recoveredObjectRelationOrClaim: cache meaning unresolved; proof and scale are separate claims
   sourceUseDisposition: keep cache as a source label until its relation or bearer is known
   patternRef?: A.6.M, A.6.F, E.18, A.19.SPR, or A.3.3 for the cache;
-    C.16.P, C.29, or C.31.ASAP for scale; A.10, B.3, or G.6 for proof or assurance
-  repairedWordingOrDemotion: “Identify what ‘cache’ names here, which scaling claim is being made, and what evidence supports it.”
+    the domain rule for a formal claim; C.16.P or C.31.ASAP for a scale/comparison question; C.29 only for unresolved mathematical formulation, transfer or reliance; A.10/G.6 for replayable source use or B.3 for named assurance
+  repairedWordingOrDemotion: “Identify what ‘cache’ names, the exact scaling claim and the grounds that support it.”
   admissibleUse: start the three-way investigation
-  stopOrReturnCondition: return to the source for the missing cache meaning, scaling basis, or evidence; use the direct pattern once that branch is recovered
-  blockedOverread?: the source's proof-and-scale claim remains unsupported while its cache subject, scaling basis, and evidence are unresolved
+  stopOrReturnCondition: return for the missing cache meaning, scaling basis or claim-specific grounds; finish with the supported direct result
+  blockedOverread?: the source's proof-and-scale claim remains unsupported while its subject, scaling basis or required grounds are unresolved
   remainingReaderUse: state the smallest result for each recovered claim, or keep ordinary source wording
   disposition: reduced-use-cue; direct-pattern-use only for branches that become current
 ```
 
-The three questions can be resolved separately. Recovering the cache referent does not supply the scaling comparison or its evidence; a sufficient answer to one question can be used within its boundary.
+The questions can be resolved separately. Recovering the cache referent does not establish the scaling claim; a sufficient answer to one question remains usable within its boundary.
+
+For a direct formal result, suppose a memoizer processes requests one at a time, starts with an empty cache, uses exact input keys for a pure deterministic function `f`, stores each computed result, and retains all entries. On a hit it returns the cached value without calling `f`; on a miss it calls `f` once and stores the result. These steps preserve the invariant that, after each request, the cache contains `f(x)` for every input seen so far. Therefore `N` requests with `k` distinct inputs cause exactly `k` calls to `f`. This derivation can finish that mathematical question without measurement or an assurance record. Eviction or state-dependent outputs change the premises and require a different argument. The result alone predicts neither wall-clock speed nor the behavior of an implementation that has not been shown to satisfy the premises.
 
 #### C.30.STRAT:4.6 - Lowering and reopen conditions
 
@@ -73256,7 +73248,7 @@ Reopen only the affected cue, worked case, check, or pointer when a source chang
 - E.10 supplies wording cues; E.10.ARCH helps recover a still-unresolved FPF meaning or relation.
 - C.30.P is the broader architecture and structure wording repair; C.30.STRAT is the narrow recurring source-label case.
 - Use A.22, C.30, C.30.ASV, C.30.LCA, C.30.TFS-REL, or C.30.ILC only for the selected structure, architecture relation, view, control, flow, or conflict question each pattern defines or tests.
-- Use A.6.M for recovered module and interface relations; A.6.F for recovered function claims; E.18 for graph, path, crossing, and transformation-flow claims; C.16.P, C.16, C.29, C.31, or C.31.RSA for recovered characteristic, scale, mathematical-lens, reusable-locus, bespoke-residue, or report-only-share claims.
+- Use A.6.M for recovered module and interface relations; A.6.F for recovered function claims; E.18 when the selected transformation-flow organization, path or crossing is needed; C.16.P, C.16, C.29, C.31, or C.31.RSA for recovered characteristic, scale, mathematical-lens, reusable-locus, bespoke-residue, or report-only-share claims.
 - Use the episteme, publication, and source-use routes in C.30.STRAT:4.2; A.19.SPR for unresolved state wording; the applicable state rule, A.3.3, C.27.TA, or C.27 for recovered state, dynamics, temporal, or rate claims; C.28 for causal use; A.10 and G.6 for evidence; B.3 for assurance; A.20 for internal-constraint results and A.21 for gate decisions; A.15.1 for Work; A.2 for system-role kinds; G.5 for selector-facing set-result declarations and C.11 for local choice among already available options.
 - C.33, C.34, and C.35 handle captured, lost, preserved, generated-carrier, or discovered-carrier structure when those claims are current.
 - A recovered level claim returns to the pattern that defines or tests its subject relation or mapping. C.30.STRAT establishes no level by itself.
@@ -73325,7 +73317,7 @@ Without this pattern:
 - E.17.2's TEVB template or a project-local TEVB declaration is treated as a global bundle and mutated to carry architecture-specific structure kinds;
 - a diagram, table, dashboard, generated relation graph, or ADR is treated as the view episteme itself;
 - functional architecture is treated as a peer ontology rather than a structure-kind interpretation under C.30;
-- cross-view consistency is asserted by prose instead of correspondence claims or independently obtaining relations;
+- cross-view consistency is asserted without a supported correspondence claim or obtaining relation;
 - omitted structure is relied on in subsequent work without a source-return condition.
 
 ### C.30.ASV:3 - Forces
@@ -73383,7 +73375,7 @@ ArchitectureStructuralView ::= ArchitectureDescription & U.View & {
   selectedInvariantRefs?,
   selectedOperationDescriptionRefs?,
   selectedDynamicsDescriptionRefs?,
-  viewConstruction:
+  viewConstruction?:
     directDescription | projection | query | extraction |
     coarsening | correspondenceSlice | sourceReturnSlice,
   structuralAspectDescriptionRef?: U.EpistemeRef,
@@ -73392,7 +73384,7 @@ ArchitectureStructuralView ::= ArchitectureDescription & U.View & {
     declared | observed | inferred | generated | simulated |
     extracted | hypothesized | unknownRegionPresent,
   correspondenceClaimOrRelationRefs?: FinSet(U.EpistemeRef | U.RelationRef),
-  sourceToUsePathRefs?: FinSet(U.RelationRef),
+  sourceToUsePathRefs?: FinSet(PathCitationRecordRef),
   workRelianceRelationRefs?: FinSet(U.RelationRef),
   sourceReturnCondition?,
 
@@ -73401,11 +73393,11 @@ ArchitectureStructuralView ::= ArchitectureDescription & U.View & {
   publicationFormRefs?: FinSet(U.EntityRef),
   carrierRefs?: FinSet(U.EntityRef),
   admissibleUse,
-  nonAdmissibleUse
+  nonAdmissibleUse?
 }
 ```
 
-`recordPatternLocator` identifies the pattern whose record form is being used. It is a locator, not a substitute for any rule needed by a current claim.
+`recordPatternLocator` identifies the pattern whose record form is being used. It is a locator, not a substitute for any rule needed by a current claim. When source-to-use citation is needed, `PathCitationRecordRef` has the meaning given in `C.30.AD:4.3`: it resolves the `G.6` graph, path and applicable slice together with citations of the independently established direct relations.
 
 For publication use, each carrier reference resolves to an independently identified physical or digital entity whose actual state or realization yields the relevant expression. The carrier's domain supplies its identity rule. When the bearing claim needs inspection, recover its `PublicationExpressionBearingRelation` and exact expression under E.24.PUB. A reusable form has its separate conformance relation. A file object, immutable snapshot value and individual copy retain their different identity rules.
 
@@ -73417,7 +73409,7 @@ An architecture claim can carry positive, negative, unresolved, required, desire
 
 `ClaimScope`, concern, model-use structure, and empirical grounding remain optional neighboring qualifiers or relations. `modelUseStructureRef` appears only when an independently selected DDD-style bounded-model-use structure changes interpretation or selection for this use. None enters base episteme or selected-structure identity.
 
-`viewConstruction` records provenance only. Direct authoring, A.6.3 construction, projection, query, extraction, selection, bundle inclusion, diagramming, rendering, publication, evaluation, or current use neither satisfies the conformance predicate nor creates selected structure. Representation, publication occurrence, form, and carrier likewise retain their own identities.
+`viewConstruction?` records provenance when that history is known and needed. It is separate from the E.17.0 conformance test: a candidate can satisfy the fixed viewpoint rules even when its generation history is unknown. If the receiving use requires that history, the gap limits that use. Direct authoring, A.6.3 construction, query, extraction, selection or publication does not by itself establish conformance or the selected structure.
 
 `structureKnowledgeState?` states how the selected structure is known when partial knowledge matters: declared, observed, inferred, generated, simulated, extracted, hypothesized, or with an unknown region present. Unknown or inferred structure may guide inspection or source return; it cannot by itself supply architecture truth, assurance, gate, release, causal proof, or architecture decision.
 
@@ -73450,8 +73442,6 @@ ArchitectureStructureKindRef ::= one of {
 The first group is the seed classifier set for ordinary architecture structural-view use. `SecurityTrustBoundaryStructure`, `WorkMethodStructure`, `AllocationResponsibilityStructure`, `EvidenceAssuranceStructure`, and `ScaleEvolutionStructure` are classifier values over selected `U.Structure` references, not new root kinds. ASV may use them to name the selected architecture-relevant structure, but their full semantics stay in the named security, work and method, allocation-responsibility, evidence and assurance, scale, characterization, or mathematical-lens patterns.
 
 Do not enumerate structure kinds by default. Choose the smallest useful structure-kind set that changes the next architecture move. If no structure kind changes action, keep the phrase as ordinary recognition wording or a source note. This does not weaken kind discipline; it prevents `ArchitectureStructureKindRef` from becoming an audit checklist.
-
-Inside C.30.ASV, `OtherDeclaredStructureKind` is always an architecture-structure-kind classifier value over `U.Structure`; it does not mint a general FPF root kind.
 
 `OtherDeclaredStructureKind` is admissible only when the local text names:
 
@@ -73597,11 +73587,11 @@ Every `r_*`, `P_*`, `d_*`, L, and `f_arch` above is a variable until one project
 
 Project-local TEVB reuse follows the same rule. A project may retain one or more exact references from a materialized local TEVB declaration when their exact P rules fit. It preserves each `<editionDesignator(L_source), sourceFamilyDesignator, sourceViewpointRef>` tuple and any omission decision. It does not expand a global TEVB core, infer a cross-family import relation from labels, or claim that E.17.2's four-position template is a materialized family.
 
-`candidateViewRecordSetRef` names an exact C.13 collection of permitted description or specification-use record forms for one structure-kind binding. The binding and family declaration may help retrieve candidate E and resolve exact P, but neither makes the fixed E.17.0 predicate true, identifies an `EpistemeViewpointConformanceRelation` occurrence, grants `U.View` membership, or creates the selected structure. The collection is not a publication face or package grouping, and it neither supplies a `ViewFamilyId` nor adds a viewpoint; publication forms, carriers, catalogue locators, and family designators remain separate.
+`candidateViewRecordSetRef` names an exact collection of permitted description or specification-use record forms for one structure-kind binding. Use C.13 when a construction trace of that collection is needed. The binding and family declaration may help retrieve candidate E and resolve exact P, but neither makes the fixed E.17.0 predicate true, identifies an `EpistemeViewpointConformanceRelation` occurrence, grants `U.View` membership, or creates the selected structure. The collection is not a publication face or package grouping, and it neither supplies a `ViewFamilyId` nor adds a viewpoint; publication forms, carriers, catalogue locators, and family designators remain separate.
 
 #### C.30.ASV:4.4a - Structural-view publication-use boundary
 
-This is the C.30.ASV structural-view publication-use boundary. C.30.ASV covers the description episteme's identity, selected architecture-relevant structure, structure kind, E.17.0 viewpoint conformance, construction history, correspondence, hidden and lost structure, source return, and the next architecture move. When a view, diagram, graph, card, benchmark, probe output, model publication, or architecture note is used for evidence sufficiency, safety assurance, gate passage, release permission, work record, or decision authority, use the applicable pattern for that claim; keep only the structural-view record and next architecture move in C.30.ASV.
+This is the C.30.ASV structural-view publication-use boundary. C.30.ASV covers the description episteme's identity, selected architecture-relevant structure, structure kind, E.17.0 viewpoint conformance, applicable construction history, correspondence, hidden and lost structure, source return, and the next architecture move. When a view, diagram, graph, card, benchmark, probe output, model publication, or architecture note is used for evidence sufficiency, safety assurance, gate passage, release permission, work record, or decision authority, use the applicable pattern for that claim; keep only the structural-view record and next architecture move in C.30.ASV.
 
 #### C.30.ASV:4.5 - Initial architecture structure kinds and view records
 
@@ -73693,7 +73683,7 @@ SafetyLossControlStructureNote:
     A.3.3 dynamics, C.27 temporal or rate,
     C.28 causal-use, A.10 or G.6 evidence,
     B.3 assurance, A.20 internal-constraint validity, A.21 gate decisions
-  nonAdmissibleUse:
+  nonAdmissibleUse?:
     not safety proof, not safety-case verdict, not regulatory acceptance
 ```
 
@@ -73776,7 +73766,7 @@ FunctionalStructureViewUse ::= {
   flowRelationRefs?,
   moduleInterfaceClaimOrRelationRefs?,
   admissibleUse,
-  nonAdmissibleUse
+  nonAdmissibleUse?
 }
 ```
 
@@ -73786,7 +73776,7 @@ FunctionalStructureViewUse ::= {
 
 A selected transformation-flow structure, mathematical graph description, transformation-flow path slice, crossing, or flow valuation is not a functional element or actual transformation by default. When a transformation-flow relation is being used, connect the functional view to the exact `TransformationFlowStructure` through `C.30.TFS-REL`. When a mathematical graph description is being used, connect it through `E.18.2`; when math-lens use is being claimed, connect it through `C.29`. When module allocation is being claimed, use `A.6.M` to repair the module claim and identify the admitted allocation or interface relation separately rather than treating function and module as one kind. Functional ports and module interfaces can both use `U.Signature` discipline, but functional ports specify behavior input and output slots while module interfaces specify substitution, compatibility, boundary, and change-policy claims.
 
-Composability and quality compositionality are separate claims. If the view says parts can be assembled, keep that as a structure claim or use claim. If it says a quality of the whole follows from parts, assign the quality-composition claim to `C.25` and C.16-backed measurement or quality claim.
+Composability and quality compositionality are separate claims. If the view says parts can be assembled, keep that structure or use claim. If it says a quality of the whole follows from the parts, establish the quality and its composition rule under the applicable domain pattern or C.25. Use C.16 for actual measurements consumed by that argument; formal or qualitative grounds need no invented measurement chain.
 
 ```text
 Composability:
@@ -73860,7 +73850,7 @@ Runtime degradation slice:
   first architecture move:
     recover runtime interaction topology, control relation or failover relation,
     state custody, placement relation, locality relation, evidence relation, and observability relation
-  nonAdmissibleUse:
+  nonAdmissibleUse?:
     deployment diagram as runtime proof,
     observability dashboard as evidence sufficiency,
     green indicator value as gate authority or release authority
@@ -73956,7 +73946,7 @@ Evidence reuse across product variants:
     and source-return condition
   claimPatternRefs:
     A.10 for bounded source-to-use reliance, G.6 for citable provenance paths, B.3 only for a named assurance claim; the applicable result pattern for evidence sufficiency
-  nonAdmissibleUse:
+  nonAdmissibleUse?:
     evidence-structure view as assurance verdict
 ```
 
@@ -74015,7 +74005,7 @@ stop condition:
 
 Structural AI-agent security is architecture structure when these structure kinds change the next architecture move. When the claim is instead about latent representation, decoding, or effect adequacy, keep the phrase as a reduced-use source cue and use the applicable representation, decoding, or effect-adequacy pattern.
 
-**Generated code-agent relation graph.** A probe JSON or code-agent architecture relation graph can be an architecture structural view publication only after observed, inferred, or unknown observation value, evidence pointers or source pointers, unexplored regions, and typed relation semantics are present. Add source-return conditions when the intended use relies on hidden distinctions. Use the applicable proof and assurance patterns for the separate belief-state and downstream-change-safety claims.
+**Generated code-agent relation graph.** A probe output can supply a diagnostic description or representation. To claim an architecture structural view, establish its description identity, selected-structure subject and E.17.0 conformance. Recover relation meanings and the source basis for the current claims; distinguish observed, inferred or unknown relations and unexplored regions where that distinction changes the use. Add a source-return condition when hidden distinctions matter. Claims about an agent's internal belief or the safety of a code change need their own grounds.
 
 **Neural-network block replacement.** For a neural-network modification, such as substituting an attention block or changing MoE path selection, recover which selected structure or relation changes and use `C.30` for its architecture relevance. Identify flow, module-interface, preserved or lost structure, characteristic and source-use claims when they matter to that change. Establish any separate decision or evidence conclusion under its own rule; a modification need not assert every one of these claims.
 
@@ -74099,10 +74089,10 @@ The TEVB decision is conservative. E.17.2 supplies a four-position project-local
 | Practice or source line | C.30.ASV adoption | Action consequence | Boundary |
 | --- | --- | --- | --- |
 | FPF `C.2.1`, `A.22`, `E.17.0`, `C.30`, and `C.30.AD` | Use exact episteme identity, selected-structure discipline, direct viewpoint conformance, architecture relation, and architecture-description boundaries together. | ASV records require one primary selected structure as EntityOfConcern, effective scheme, structure kind, exact viewpoint, obtaining conformance relation, correspondence when used, and admissible use. | A view remains the same episteme about selected structure; no context field, authoring route, or suffix creates it. |
-| [Dyad v3 physical-system modeling and analysis](https://help.juliahub.com/dyad/stable/) | Adopt its integration of physical models, control analysis, SciML surrogates, calibration, and deployment from one source, with both textual and schematic editing. | A generated or edited description still states `viewConstruction`, selected structure, hidden and lost structure, and a source-return condition when action relies on the description. | Executability, simulation, generation, or tool presentation does not create the source episteme, viewpoint-conformance relation, selected structure, evidence sufficiency, gate passage, or assurance. |
+| [Dyad physical-system modeling and analysis](https://help.juliahub.com/dyad/stable/) | Its documentation connects physical modeling with simulation, control analysis, calibration, surrogates and deployment. | Recover the selected structure and the description's actual contribution. Include construction provenance when needed; retain hidden or lost distinctions and source return where they affect reliance. | Tool execution or presentation alone does not establish viewpoint conformance, subject facts, evidence sufficiency or authority. |
 | UAF, ArchiMate, C4, and multi-view architecture practice | Adapt viewpoint-library and lightweight diagram communication pressure. C4 contributes communication and zoom pressure only. | C4-like, UAF-like, and ArchiMate-like diagrams can represent or publish ASV epistemes only when exact description identity, EntityOfConcern, structure refs, structure kind, viewpoint conformance, and publication relations are explicit. | Do not import their layer, viewpoint, enterprise taxonomies, structure-kind adequacy, evidence sufficiency, or architecture decision claim without recoverable FPF objects and relations. |
 | Systems security engineering, secure-by-design, SSDF, and CSF-style practice | Adopt security as architecture-side structure when trust boundaries, authority, untrusted input, secure defaults, hardening, update channels, and detection and response boundaries change action. | Use `SecurityTrustBoundaryStructure` before evidence, assurance, gate, risk score, or compliance proof. | A security framework, checklist, risk color, or control catalog is not security architecture adequacy, evidence sufficiency, assurance, or gate passage by itself. |
-| Theory of Code Space, arXiv:2603.00601 and related code-agent architecture relation-graph probing | Adopt partial-observability, typed relation discovery, invariant discovery, uncertainty reporting, and externalized architecture relation graphs as ASV practice source. | Treat an externalized code-agent relation graph as a diagnostic description, representation, or ASV publication only with observed, inferred, or unknown observation value, evidence pointers, unexplored regions, and typed relation semantics. Add source-return conditions when the intended use relies on hidden distinctions. | Do not mint `U.CodeSpace`; do not treat probe JSON, cognitive-model publication, dependency-F1 result, or diagnostic relation graph as architecture adequacy, internal belief proof, agent authority, safe-code-change authority, assurance, or release authority. |
+| [Sapunov, *Theory of Code Space*, arXiv:2603.00601v4](https://arxiv.org/abs/2603.00601v4) | Budgeted exploration and externalized architectural belief maps expose partial knowledge and model-dependent maintenance of that knowledge. | Use generated maps under the source and conformance conditions in the generated-graph case above. | A benchmark output alone establishes neither the described architecture's adequacy nor an agent's internal belief or authority to change code. |
 | GonzoML neural-network architecture discussions | Adopt practitioner operation language for architecture views: block substitution, relation retargeting, dataflow changes, memory placement or cache placement, path-selection or gating, MoE expert-selection, pruning, distillation, NAS, ablation, and compute, memory, or latency tradeoffs. | Use those phrases as recognition cues for changed structure kind, flow relation, module-interface claim kind, security or trust boundary, data-custody relation, preserved and lost structure, affected characteristic, source relation, and the applicable decision or evidence pattern. | Neural-network labels, benchmarks, ablations, pruning masks, block, layer, router, cache, or state labels, or search outputs do not become FPF ontology, architecture decisions, evidence sufficiency, gate passage, assurance, or architecture adequacy by themselves. |
 
 **Which structures help a Method change without inventing a universal Method diagram?** The selected answer in §4.5a is an FPF construction from A.3.1, B.1.5 and A.22: select by the actual change question, then connect composition, interfaces and result use to separately grounded performance facts. A generic view catalogue is a useful starting alternative, but its names leave the studio's failed 2 ms connection unresolved. [Essence 2.0 beta 2, §§7.3–7.4 and 9.3–9.4](https://www.omg.org/spec/Essence/2.0/Beta2/PDF), is the serious method-engineering comparator: it supports composable and adaptable Practices in a common descriptive language. **Adapt** its attention to coherent composition; recover the FPF participants and relations instead of transferring its Method/Practice metaclasses by name. The studio case demonstrates the narrower gain: under the separately supplied interval basis, preserve viewing while reopening the stricter analysis condition, without first imposing a common method-description metamodel. It does not establish superior expressiveness, lower measured effort or a general ranking of the frameworks. The cost is explicit relation recovery; an existing suitable domain model can reduce that cost. Reopen the profile when a case needs a decision-changing structure it cannot recover, or another explanation supplies the same distinctions with less reconstruction.
@@ -74157,7 +74147,7 @@ Use either `selectedControlStructureRef` or an honest `structureGap`. A positive
 
 Add a described holon, an architecture-relation occurrence or claim, rate bands, control-layer relations, boundaries, view and viewpoint-conformance facts, source return, representation, or publication only when they change the intended use. Add participating Systems, local classifications, assignments, Methods, Work, and F.6 attribution only when those neighboring facts are independently current.
 
-When either form includes actual control Work, each Work ref names an occurrence independently admitted under A.15.1 after every exact actual performer is recovered through A.13. `assignmentRows` and `actualControlWorkAttributionRefs` remain optional: include them only when the note, view, or receiving use expressly represents precise assignment-bound attribution. Any present attribution ref resolves through F.6 to the same obtaining A.13 assignment; absence or failure of that relation leaves the Work ref intact. The note or view creates none of these facts.
+When either form includes actual control Work, each Work ref names an occurrence independently admitted under A.15.1 after every exact actual performer is recovered through A.13. `assignmentRows` and `actualControlWorkAttributionRefs` remain optional: include them only when the note, view, or receiving use expressly represents precise assignment-bound attribution. Any present attribution ref resolves through F.6 to the same obtaining A.13 assignment; absence or failure of attribution alone leaves independently admitted Work intact. If the same finding invalidates an admission premise, recheck that premise and the conclusions that used it. The note or view creates none of these facts.
 
 Use full `ControlStructureView` only when an independently identified architecture-description episteme about the selected control structure satisfies the fixed E.17.0 predicate for one viewpoint. Full use is justified when control-participant meanings, direct relations, rates, recovered control-layer labels, boundary refs, source return, representation or publication, or the patterns used for particular claims matter beyond the note.
 
@@ -74206,7 +74196,7 @@ ControlStructureViewNote:
   stratificationRepairRef?:
   nextPatternUseRef?:
   admissibleUse:
-  nonAdmissibleUse:
+  nonAdmissibleUse?:
   stopCondition:
 ```
 
@@ -74224,12 +74214,12 @@ InterLayerControlRelationNote:
   rateEnvelopeRefs?:
   violationFallbackRefs:
   admissibleUse:
-  nonAdmissibleUse:
+  nonAdmissibleUse?:
 ```
 
 Use this note only when a recovered control-layer relation is used for decomposition, substitution, a safety or stability claim, or an architecture decision. It is not proof and does not make the relation obtain. Otherwise keep C.30.LCA at the small note or ordinary description form, or use `C.30.STRAT` to recover the source label.
 
-A full `ControlStructureView` carries the common `ArchitectureStructuralView` content from `C.30.ASV:4.1` plus the control-specific fields below. Here `selectedControlStructureRef` names the same structure as the common `selectedStructureRef`; the full view retains `viewConstruction` and `hiddenOrLostStructure` even though this form does not repeat them.
+A full `ControlStructureView` carries the common `ArchitectureStructuralView` content from `C.30.ASV:4.1` plus the control-specific fields below. Here `selectedControlStructureRef` names the same structure as the common `selectedStructureRef`; the full view retains `hiddenOrLostStructure` and includes `viewConstruction?` when the receiving use needs that provenance even though this form does not repeat them.
 
 ```text
 ControlStructureView ::= ArchitectureStructuralView & {
@@ -74281,14 +74271,14 @@ ControlStructureView ::= ArchitectureStructuralView & {
   transformationFlowPathSliceRefs?: FinSet(PathSliceId),
 
   stratificationRepairRefs?: FinSet(C30STRATRepairRef),
-  sourceToUsePathRefs?: FinSet(U.RelationRef),
+  sourceToUsePathRefs?: FinSet(PathCitationRecordRef),
   downstreamPatternUseRefs?,
   representationRefs?: FinSet(U.EntityRef),
   publicationOccurrenceRefs?: FinSet(EpistemePublicationRelationRef),
   publicationFormRefs?: FinSet(U.EntityRef),
   carrierRefs?: FinSet(U.EntityRef),
   admissibleUse,
-  nonAdmissibleUse,
+  nonAdmissibleUse?,
   sourceReturnCondition?
 }
 ```
@@ -74326,7 +74316,7 @@ SafetyLossControlStructureNote:
     A.3.3 dynamics, C.27.TA temporal aspect or rate, and C.27 authored temporal-claim adequacy,
     C.28 causal-use, A.10 bounded source-to-use reliance, G.6 citable provenance paths,
     B.3 named assurance, A.20 internal-constraint validity, A.21 gate decisions
-  nonAdmissibleUse:
+  nonAdmissibleUse?:
     not safety proof, not safety-case verdict, not regulatory acceptance
 ```
 
@@ -74388,7 +74378,7 @@ This checklist verifies the preceding guidance after the practitioner has chosen
 | CC-LCA-6 | Use `B.2.5` to state or test its compound feedback claim; keep that assertion separate from the base relation references. | Keeps the assertion, base relations and stronger stability, safety, evidence, gate and assurance claims distinct. |
 | CC-LCA-7 | Use E.18 to identify and test any transformation-flow path slice used by the control view. The slice is not the control structure or actual transformation itself. | Keeps transformation-flow and LCA relations distinct. |
 | CC-LCA-8 | Use C.29 for the mathematical-lens portion of cross-domain transfer, prediction, reusable explanation, or assurance input when that lens changes the use. | Preserves mathematical-lens use and representation boundaries. |
-| CC-LCA-9 | The record states admissible use, non-admissible use, and a source-return condition when the intended use relies on hidden source-side distinctions; representation, E.24.PUB publication occurrence, publication form, and carrier remain separate. | Prevents narrowed recognition or publication from becoming unchecked reliance. |
+| CC-LCA-9 | The account states the supported use and any material limitation. A source-return condition is included when the use depends on hidden source-side distinctions; representation, E.24.PUB publication occurrence, form and carrier remain separate. | Prevents narrowed recognition or publication from becoming unchecked reliance. |
 
 ### C.30.LCA:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -74549,7 +74539,7 @@ CrossScopeArchitectureResidualTriageRecord@Context ::= {
     addMediator | addInterfaceGrammar | addControlLayer |
     addEvidenceScope | addWorkMethodScope | changeAllocation |
     exposeHiddenCoupling | acceptBoundedException |
-    applyD3D4 | applyC28 | noArchitectureMove,
+    applyD3D4 | applyC28 | otherDeclared | noArchitectureMove,
 
   triggeredPatternLocators?,
   admissibleNextMove,
@@ -74564,17 +74554,15 @@ CrossScopeArchitectureResidualTriageRecord@Context ::= {
 
 `crossScopeResidualDescription` is not enough by itself. A residual becomes architecture-shaping only when its residual-bearing locus is declared: hidden coupling, interface exception, control-rate conflict, scale-window loss, evidence-reuse failure, regulatory bespoke residue, work-method exception, data-semantics drift, placement or jurisdiction conflict, security trust-boundary break, or another declared locus.
 
-**Multilevel optimization boundary.** First establish whether local optimization in one declared holon level or scope degrades another declared holon level or scope. This triage neither optimizes the architecture nor proves that one global function exists. Use `C.29` with `MLU.Description@MultilevelLearningFrustration` only when the mathematical representation supplies a recoverable mapping between declared levels, scopes, scale windows, or coarse-graining steps and states what structure is preserved and lost. Conflicting structures can enter this lens only when each structure is assigned to a declared holon level, scope, scale window, or coarse-graining step and the mapping shows why the conflict is interlevel. If scale window, RG relation, coarse-graining relation, preserved structure, lost structure, or conflict residual slope becomes an architecture scale-preference claim, use `C.31.ASAP` and keep any mathematical-lens claim in `C.29`. If the practitioner needs to generate residual-reducing candidate architecture moves, apply `C.32.MLAO` for the residual-reducing multilevel candidate frame and `C.32` for the candidate palette. Use `A.19.CPM` for comparison under a declared comparator, `G.5` only when selected-set result declaration is current, and `C.11` when final local choice is current. For audience publication, use `E.17` for a source-backed face and return to source and `E.24.PUB` for the publication occurrence and audience availability. Use `C.32.PAD` when a project architecture decision is current. Stop the C.30.ILC use at the residual and first admissible move. If the case is only a conflict between two selected structures with no recoverable assignment to different declared levels or scopes, keep it in `C.30`, `C.30.ASV`, `D.3`, `D.4`, `C.28`, evidence, assurance, or decision patterns as applicable.
-
-Anti-collapse rule: no generic frustration score, no risk-matrix residual, no ethical-mediation takeover, no physics or biology ontology transfer, no global-optimizer proof, no causal proof, and no assurance proof. A frustration or risk label does not govern the case until declared holon levels or declared scopes, the selected structure or structure kind that carries them, residual-bearing locus, and first architecture move are recoverable; `D.3` applies only when an interlevel ethical conflict needs an inspectable description; `D.4` applies only when mediation or decision use of that D.3 description is current.
+**Multilevel optimization boundary.** First establish whether local optimization in one declared holon level or scope degrades another declared holon level or scope. This triage neither optimizes the architecture nor proves that one global function exists. A mathematical treatment needs a recoverable mapping between declared levels, scopes, scale windows or coarse-graining steps, with the distinctions preserved and lost for its use. Retain an adequate domain treatment directly. Use C.29 when formulation, transfer or reliance remains unresolved; its `MLU.Description@MultilevelLearningFrustration` form is optional unless the receiving interface requires it. Conflicting structures can enter this lens only when each structure is assigned to a declared holon level, scope, scale window, or coarse-graining step and the mapping shows why the conflict is interlevel. If scale window, RG relation, coarse-graining relation, preserved structure, lost structure, or conflict residual slope becomes an architecture scale-preference claim, use `C.31.ASAP` and use C.29 for any remaining mathematical formulation, transfer or reliance question. If the practitioner needs to generate residual-reducing candidate architecture moves, apply `C.32.MLAO` for the residual-reducing multilevel candidate frame and `C.32` for the candidate palette. Use `A.19.CPM` for comparison under a declared comparator, `G.5` only when selected-set result declaration is current, and `C.11` when final local choice is current. For audience publication, use `E.17` for a source-backed face and return to source and `E.24.PUB` for the publication occurrence and audience availability. Use `C.32.PAD` when a project architecture decision is current. Stop the C.30.ILC use at the residual and first admissible move. If the case is only a conflict between two selected structures with no recoverable assignment to different declared levels or scopes, keep it in `C.30`, `C.30.ASV`, `D.3`, `D.4`, `C.28`, evidence, assurance, or decision patterns as applicable.
 
 **Stop condition.** Stop when the account names the residual and the first warranted move, including a supported conclusion that no architecture move is needed. It does not measure scale preference, generate candidate architectures, mediate ethical conflict, or select a decision. Apply a subject pattern only when a claim kind being made exists:
 
 | Claim kind being made | Subject pattern to apply |
 |---|---|
 | measurement or characteristic claim | `C.16` or the characteristic pattern that defines or constrains the characteristic under evaluation |
-| scale window, RG relation, coarse-graining relation, preserved structure, lost structure, or conflict residual slope | `C.31.ASAP` when an architecture scale-preference claim is being made; use `C.29` when mathematical-lens use is being claimed |
-| multilevel learning or frustration mathematical-lens use with recoverable level mapping or scale mapping | `C.29` with `MLU.Description@MultilevelLearningFrustration` |
+| scale window, RG relation, coarse-graining relation, preserved structure, lost structure, or conflict residual slope | `C.31.ASAP` for an architecture scale-preference claim; `C.29` for a remaining mathematical formulation, transfer or reliance question. |
+| multilevel learning or frustration mathematical treatment with recoverable level or scale mapping | Retain an adequate domain result; use `C.29` for an unresolved formulation, transfer or reliance question, with its MLU form when needed. |
 | candidate generation or residual-reducing candidate architecture moves | `C.32.MLAO` when the residual-reducing multilevel frame is current; `C.32` for the candidate palette; `G.5` when selected-set result declaration is current; `E.17` for a source-backed publication face and source return and `E.24.PUB` for the publication occurrence and audience availability when publication is current; `C.11` when final local choice is current; `C.32.PAD` when a project architecture decision is current |
 | final local choice | `C.11` |
 | causal outcome claim | `C.28` |
@@ -74600,7 +74588,7 @@ Anti-collapse rule: no generic frustration score, no risk-matrix residual, no et
 
 **Worked slice C - evidence scope residue.** A reusable certification evidence set removes repeated evidence work for several product variants, but one variant has a hidden environment difference. `C.30.ILC` names the work scope or evidence scope and source-return condition. The practitioner uses `A.10` for source recovery and bounded reliance, and `G.6` when the provenance path must remain addressable. Whether the evidence meets the certification requirements for that variant is tested under the applicable certification rule.
 
-**Worked slice D - frustration residual before synthesis.** Several decompositions reduce local module work but each creates a different integration, control-rate, or evidence-reuse residual in another declared scope. `C.30.ILC` records the residuals and first architecture moves. If the team needs a residual-reducing candidate palette, stop the C.30.ILC use and apply `C.32.MLAO` for the residual-reducing frame and `C.32` for the candidate palette. Use `G.5` only when the palette or retained set must be declared as a selected-set result for downstream use. If the team claims a multilevel-learning lens or frustration lens, `C.29` carries the lens-use fields and stop condition only after the level mapping, scope mapping, scale-window mapping, or coarse-graining mapping and preserved structure and lost structure are recoverable.
+**Worked slice D - frustration residual before synthesis.** Several decompositions reduce local module work but each creates a different integration, control-rate, or evidence-reuse residual in another declared scope. `C.30.ILC` records the residuals and first architecture moves. If the team needs a residual-reducing candidate palette, stop the C.30.ILC use and apply `C.32.MLAO` for the residual-reducing frame and `C.32` for the candidate palette. Use `G.5` only when the palette or retained set must be declared as a selected-set result for downstream use. A multilevel-learning or frustration treatment retains the relevant level, scope, scale-window or coarse-graining mapping and the distinctions it preserves or loses. Use C.29 for a remaining formulation, transfer or reliance question; an adequate domain result can finish without its record form.
 
 ### C.30.ILC:5 - Archetypal Grounding
 
@@ -74634,7 +74622,7 @@ The conformance checklist below verifies the preceding guidance after the practi
 | CC-ILC-6 | Evidence, assurance, measurement, causal, ethical, selection, scale, RG, coarse-graining, mathematical-lens, and residual-reducing candidate-set claim kinds use their subject patterns. | Prevents triage from becoming proof, lens adequacy, mediation, synthesis, or selection. |
 | CC-ILC-7 | If a source-return condition is needed, the record states what hidden or lost distinction triggers return to the source. | Protects compressed and extracted views. |
 | CC-ILC-8 | The stop condition is visible. | Prevents the triage pattern from expanding into a hidden prescribed sequence. |
-| CC-ILC-9 | If multilevel learning or frustration is used as mathematics, the record names `C.29`, `MLU.Description@MultilevelLearningFrustration`, the recoverable level mapping or scale mapping, and preserved structure and lost structure; if residual-reducing candidate moves form a candidate set being used, the record names `C.32.MLAO` and `C.32`; if the retained-set result is being declared, it names `G.5`; if that result is made available to an audience, it names `E.17` for a source-backed publication face and source return and `E.24.PUB` for the publication occurrence and audience availability. | Preserves the useful multilevel optimization line without importing ontology, proof, or a hidden selector. |
+| CC-ILC-9 | A mathematical treatment retains the mapping, assumptions and preservation/loss conditions needed by its use. C.29 is selected for unresolved formulation, transfer or reliance, not merely because mathematics is present. Candidate synthesis, selected-set declaration and publication retain the applicable C.32.MLAO/C.32, G.5, E.17 and E.24.PUB conditions. | Preserves the multilevel treatment and the ordinary sufficient result without importing ontology, proof or selection from the triage record. |
 
 ### C.30.ILC:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -74656,7 +74644,7 @@ The gain is an early architecture move that is small and precise. The practition
 
 C.30.ILC supplies the residual account and first warranted move, which can complete the receiving question. A further construction or evaluation uses the applicable subject pattern. Measurement, scale relation, RG relation, coarse-graining relation, mathematical lens use, ethical mediation, candidate generation, evidence, assurance, and final choice remain outside until those claims are being made.
 
-This makes multilevel optimization usable rather than decorative. Use `C.30.ILC` to identify the residual that makes optimization relevant, `C.29` for an admissible mathematical-lens use only when level or scale mapping and preserved and lost structure are recoverable, `C.32.MLAO` and `C.32` for residual-reducing candidate frames and palettes, `G.5` for selected-set result declaration, and `C.32.PAD` for a project architecture decision. For publication, use `E.17` for a source-backed face and source return and `E.24.PUB` for the publication occurrence and audience availability.
+Use `C.30.ILC` to identify the residual that makes optimization relevant. Use `C.29` for a remaining mathematical formulation, transfer or reliance question, retaining the applicable level or scale mapping and preservation/loss boundary; an adequate domain result can be used directly. `C.32.MLAO` and `C.32` supply residual-reducing candidate frames and palettes, `G.5` supplies selected-set result declaration, and `C.32.PAD` governs a project architecture decision when those results are needed. For publication, use `E.17` for a source-backed face and source return and `E.24.PUB` for the publication occurrence and audience availability.
 
 ### C.30.ILC:10 - Rationale
 
@@ -74671,7 +74659,7 @@ A local optimum or successful local repair is therefore not treated as whole-arc
 | SoTA and practice source | What it contributes | FPF adoption stance | Practitioner implication |
 |---|---|---|---|
 | Scenario-based architecture trade-off practice, with ATAM-like reasoning used here as lineage and practice source for concern, scenario, sensitivity point, and trade-off recognition rather than as a decision or evidence method. | Architecture work often starts from cross-concern and cross-scope trade-offs rather than one local measurement result. | Adopt and adapt: use the conflict cue for triage, require declared holon levels or scopes, level-bearing structure, and subject patterns for final selection, evidence, assurance, and gate passage. | A residual can start an architecture move without becoming a decision, proof, or safety case. |
-| Vanchurin, Wolf, Katsnelson, and Koonin multilevel learning and frustration line, plus the Akhtyrchenko, Katsnelson, and Ustyuzhanin 2026 MSPD paper as selected source pressure rather than full-literature ranking. | Local optimization at one declared holon level, scope, or level-bearing structure relation can create persistent residual in another; frustrated optimization and MSPD-like reasoning can be candidate mathematical lenses when a level mapping or scale mapping is recoverable. | Adopt and adapt: `C.30.ILC` uses this line for architecture triage only. `C.29` with `MLU.Description@MultilevelLearningFrustration` carries mathematical-lens adequacy with preserved structure and lost structure; no `U.Frustration`, universal architecture metric, physics or biology ontology transfer, global optimizer proof, causal proof, assurance proof, or ethical-mediation takeover. | First recover holon levels or scopes, level-bearing structure, conflict carriers, residual-bearing locus, local repair, and the first architecture move. Apply `C.29` only when the lens mapping is being claimed; apply `C.32.MLAO` and `C.32` only when residual-reducing candidate work is current; apply `G.5` only when selected-set result declaration is current. |
+| Vanchurin, Wolf, Katsnelson, and Koonin multilevel learning and frustration line, plus the Akhtyrchenko, Katsnelson, and Ustyuzhanin 2026 MSPD paper as selected source pressure rather than full-literature ranking. | Local optimization at one declared holon level, scope, or level-bearing structure relation can create persistent residual in another; frustrated optimization and MSPD-like reasoning can be candidate mathematical lenses when a level mapping or scale mapping is recoverable. | Use this line for architecture triage. A remaining mathematical formulation, transfer or reliance question uses `C.29`, with `MLU.Description@MultilevelLearningFrustration` available when that form helps retain the mapping and preservation/loss boundary. | First recover holon levels or scopes, level-bearing structure, conflict carriers, residual-bearing locus, local repair, and the first architecture move. Keep an adequate domain result; apply `C.32.MLAO` and `C.32` when residual-reducing candidate work is needed and `G.5` when selected-set result declaration is current. |
 | Control and cyber-physical systems practice. | Local autonomy, feedback, supervisor relations, and rate separation can create cross-scope conflict. | Reuse through `C.30.LCA`, `B.2.5`, `C.27`, and `A.3.3`; do not let ILC carry control proof. | A control conflict is governed by control-structure or dynamics patterns only when those claims are being made. |
 | FPF source-return and semantic-coarsening discipline. | Compressed views and reusable records can hide distinctions that matter in a wider scope. | Adopt: add `sourceReturnCondition?` when hidden distinctions carry the residual. | A bounded exception or source-return trigger may be the correct first move. |
 
@@ -74681,7 +74669,7 @@ A local optimum or successful local repair is therefore not treated as whole-arc
 * Uses `A.22` for selected-structure grounding.
 * When the residual concerns flow, control, function, allocation, module, or interface structure, use the applicable pattern: `C.30.TFS-REL` for the bounded architecture-use record connecting an architecture locus to a transformation-flow structure or network; `C.30.LCA` for the selected control structure, its description, and view conformance when current; `A.6.F` for function-use repair; and `A.6.M` for module-interface claim repair.
 * Applies `C.16` or the characteristic pattern that defines or constrains the characteristic under evaluation for measurement or characteristic claims.
-* Applies `C.29` with `MLU.Description@MultilevelLearningFrustration` only when multilevel learning or frustration is used as a mathematical lens with recoverable level mapping or scale mapping and preserved structure and lost structure; applies `C.31.ASAP` for architecture scale-preference claims and `C.29` for mathematical-lens claims when scale, RG, coarse-graining, preserved structure, lost structure, or scale-window adequacy is being claimed.
+* Uses `C.29` for a remaining question about mathematical formulation, transfer or reliance. For a multilevel-learning or frustration lens, retain the applicable level or scale mapping and preservation/loss boundary; `MLU.Description@MultilevelLearningFrustration` is an available form for that account. Apply `C.31.ASAP` for a separate architecture scale-preference claim.
 * Applies `C.32.P2S` when residual triage must continue through problem-to-structure architecturing; applies `C.32.MLAO` for residual-reducing multilevel candidate frames and `C.32` for candidate palettes; applies `G.5` only when selected-set result declaration is current.
 * Applies `C.11` for final local choice, `C.28` for causal outcome claims, `A.10` for source recovery and bounded reliance, `G.6` for addressable provenance paths, `B.3` when a named assurance claim is current, `D.3` for the interlevel ethical conflict description, and `D.4` for mediation and decision use of that description.
 
@@ -74939,16 +74927,9 @@ A network diagram, member graph, mathematical description, publication, or `Tran
 
 ```text
 functionalStructureViewRef: exact view episteme about required effects and dependencies
-functionalElementClaimRefs?: not used; no filled functional-element claim is current
 functionalBehaviorClaimRefs?: required-effect claim `authorize payment`
 requiredOrDesiredEffectClaimRefs?: required-effect claim `authorize payment`
-actualTransformations?: not used; no A.3.4 actual change is claimed
 selectedTransformationFlowStructureRefs: exact selected payment-authorization TFS
-transformerSideSystems?: not used
-candidateBearerRefs?: not used
-inputConditionRefs?: not used
-outputConditionRefs?: not used
-functionalPortRefs?: not used
 transformationFlowStructureViewRef: exact description/view episteme about the selected E.18 structure, path, crossing, or flow valuation
 transformationFlowStructureRef: TransformationFlowStructure@PaymentAuthorization
 selectedPathOrSliceRefs: path slices used for the architecture claim
@@ -74956,6 +74937,8 @@ correspondenceClaimOrRelationRefs: bounded claim that the required effect corres
 stopOrReturnCondition: stop at the bounded correspondence claim; open actual transformation, Work, evidence, gate, or decision use only through its direct predicate
 nonAdmissibleUse?: flow diagram as functional architecture itself
 ```
+
+This required-effect account asserts no actual transformation.
 
 Filled use record:
 
@@ -74965,29 +74948,17 @@ architectureRelationOccurrenceRefs: exact obtaining CheckoutService architecture
 architectureClaimRefs: bounded CheckoutService architecture claim when current
 selectedArchitectureStructureRefs: exact selected request-handling and payment-authorization structure
 architectureStructuralViewRefs: exact CheckoutRuntimeFlow view episteme
-architectureDescriptionRefs: not used; durable description adequacy is not being evaluated here
 functionalStructureViewRefs: exact CheckoutRequiredEffects view episteme
-functionalElementClaimRefs: not used
 functionalBehaviorClaimRefs: required-effect claim `authorize payment`
 requiredOrDesiredEffectClaimRefs: required-effect claim `authorize payment`
-actualTransformations: not used
 selectedTransformationFlowStructureRefs: TransformationFlowStructure@Checkout-v3
-transformerSideSystems: not used
-candidateBearerRefs: not used
-inputConditionRefs: not used
-outputConditionRefs: not used
-functionalPortRefs: not used
 transformationFlowStructureViewRefs: exact PaymentAuthorizationPath description/view episteme
 transformationFlowStructureRef: TransformationFlowStructure@Checkout-v3
 selectedPathOrSliceRefs: PathSlice@request-to-payment-authorization
-crossingBundleRefs: not used
-flowValuationRefs: not used
-mathematicalDescriptionRefs: not used
 correspondenceClaimOrRelationRefs: claim that required effect `authorize payment` corresponds to the E.18 path slice; this is correspondence, not identity or actual change
 sourcePublicationOrEditionRef: model or generated-graph edition when the flow relation was extracted from one
 extractionOrProbeLocusRef: path-slice extraction or code-agent probe locus when current
 relationObservationClassRef: observed, inferred, or unknown relation class when current
-unexploredRegionRefs: not used
 hiddenRelationStructureReturnCondition: reopen if mathematical-description edition, path slice, relation observation class, or required-effect declaration changes
 admissibleUse: inspect whether the functional structure view depends on the E.18 path slice and whether an architecture split or correspondence claim is needed
 stopOrReturnCondition: stop at the bounded architecture-to-flow correspondence and reopen when its source, path, observation class, or required-effect declaration changes
