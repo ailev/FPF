@@ -547,7 +547,7 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | F.9.1 | **Bridge Stance Note — Clarify a Bounded Use** | Stable | *Keywords:* bridge stance note, bounded-use claim, interpretive gloss, local rename, operationalization, partial analogy, projection, non-equivalence. *Queries:* "How do I add a short reading note to one warranted Bridge use?", "When does a stance word need a separate claim?", "Can a stance note establish a Bridge, permission, loss tolerance, or reliance?" | **Builds on:** F.9, C.2.1. **Coordinates with:** A.10, B.3, A.6.3.CSC, E.17.ID.CR, C.16.Q, E.24.PUB, F.17, F.18. |
 | F.10 | **Apply and Interpret Evidence, Standard and Requirement Statuses** | Stable | *Keywords:* status families, EvidenceStatus, StandardStatus, RequirementStatus, governed target, direct result, status value, scope, window, interpretation rule. *Queries:* "What does this status assert about this target, under which rule and window?", "Can this evidence, standard or requirement status be used for the other question?", "Which domain result, evaluation or permission must be established separately?" | **Builds on:** F.9, B.3. |
 | F.11 | **Distinguish Method, MethodDescription, Work and Outputs** | Stable | *Keywords:* Method, MethodDescription, dated Work, control or transformation output, enactment, description use, performed-Work attribution. *Queries:* "Which way, description, Work occurrence, or output does this sentence concern?", "Which direct relation actually connects them?", "What evidence supports the Work or outcome claim?" | **Builds on:** A.3, A.15, B.1.5, E.10.D1. **Coordinates with:** F.4, F.6, F.9. |
-| F.12 | **Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)** | Stable | *Keywords:* PromiseContent, delivery Work, observation, measured value, evaluation Work, operation result binding, declared result scale, EvidenceStatus, RequirementStatus, indicator recovery. *Queries:* "Which exact promise and delivery Work are judged?", "Do the observations measure the promised characteristic directly, or is a separately defined indicator relation needed?", "Which evaluation Work and application returned the result on which declared scale?", "Which evidence use and status rule justify the report?" | **Builds on:** A.2.3, A.15.1, A.6.1, C.16, F.10, F.11. **Coordinates with:** A.10, B.3 only for an actual named assurance claim, C.16.P, A.6.RCD, E.13, F.9. |
+| F.12 | **Evaluate Promise Fulfilment from Work Evidence (Service Acceptance)** | Stable | *Keywords:* PromiseContent, delivery Work, observation, measured value, evaluation Work, operation result binding, declared result scale, EvidenceStatus, RequirementStatus, indicator recovery. *Queries:* "Which exact promise and delivery Work are judged?", "Do the observations measure the promised characteristic directly, or is a separately defined indicator relation needed?", "Which inputs and acceptance rule support the result on its declared scale?", "When does the receiving use need the evaluation-Work or exact-application account?", "Which evidence use and status rule justify the report?" | **Builds on:** A.2.3, A.15.1, A.6.1, C.16, F.10, F.11. **Coordinates with:** A.10, B.3 only for an actual named assurance claim, C.16.P, A.6.RCD, E.13, F.9. |
 | **Cluster F.IV — Lexical Development Cycle, Growth Control, Tests & Examples** | | | | |
 | F.13 | **Lexical Continuity & Deprecation** | Stable | *Keywords:* lexical continuity, deprecation, renaming labels, local aliases, splitting and merging labels, retirement, historical reading. *Queries:* "How do I rename or retire a label while keeping older texts interpretable?", "Does only the wording change, or does the later meaning need a subject-governed revision?", "Which legacy alias helps readers recover the present name?" | **Builds on:** F.5. |
 | F.14 | **Anti-Explosion Control for System-Role and Status Name Families** | Stable | *Keywords:* vocabulary explosion, system-role names, status names, designation, assignment, permission, evidence use, NameCard, term row, reuse. *Queries:* "Does this proposed system-role or status name identify a distinct governed value?", "Is the apparent new name only a bundle, suffix variant, assignment, permission, status, or evidence-use shortcut?", "Should the candidate stop, reuse, or proceed to mint-or-reuse review?" | **Builds on:** A.2, A.2.1, A.2.5, A.2.7, F.6, A.15.1. **Coordinates with:** F.8, F.10, F.17, F.18. |
@@ -563,10 +563,10 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
 | G.Core | Discipline SoTA Kit Invariants, Defaults and Refresh Triggers (Part G) | Stable | *Keywords:* Part‑G invariants, delegation-first core, RSCR trigger kinds, Default Governing Definition Index, ID continuity, core linkage. *Queries:* "Where is a shared Part G rule or default defined?", "Which canonical refresh trigger describes this change?", "How do I retain existing public identifiers when consolidating definitions?" | **Builds on:** E.8/E.10/E.19, A.6.7, A.15.3, A.19, G.0, A.19.CHR. Used by: all `G.0…G.13`. |
-| G.0 | **Define Admissible Comparison and Aggregation for a Frame (CG-Spec)** | Stable | *Keywords:* CG-Spec, CG-Frame, admissible comparison and aggregation, evidence requirements, ComparatorSet, ScaleComplianceProfile (SCP), MinimalEvidence, Γ-fold, Φ(CL), Φ_plane, CL-routing, ReferencePlane, edition pins, RSCRTriggerKindId. *Queries:* "Which comparisons and aggregations may this frame use, and what evidence do they require?", "How does CG-Spec constrain lawful comparison and aggregation?", "What must be pinned for CG-Spec reproducibility?" | **Builds on:** G.Core, A.19.CN (CN-Spec), A.10, A.17–A.19 and C.16 (MM-CHR admissibility), A.18 (CSLC), B.3, Part F (Bridges/UTS), E.10, E.5.2. **Prerequisite for:** G.1–G.6. |
+| G.0 | **Define Admissible Comparison and Aggregation for a Frame (CG-Spec)** | Stable | *Keywords:* CG-Spec, CG-Frame, admissible comparison and aggregation, evidence requirements, ComparatorSet, ScaleComplianceProfile (SCP), MinimalEvidence, Γ-fold, Φ(CL), Φ_plane, CL-routing, ReferencePlane, edition pins, RSCRTriggerKindId. *Queries:* "Which comparisons and aggregations may this frame use, and what evidence do they require?", "How do I obtain comparison criteria and evidence requirements from the receiving question and available material?", "What must be pinned for CG-Spec reproducibility?" | **Builds on:** G.Core, A.19.CN (CN-Spec), A.10, A.17–A.19 and C.16 (MM-CHR admissibility), A.18 (CSLC), B.3, Part F (Bridges/UTS), E.10, E.5.2. **Supplies:** the CG-governed uses of G.1–G.5; G.6 when its represented claims depend on CG-Spec. |
 | G.1 | **Author a Reusable CG-Frame Generator and Selector Kit** | Stable | *Keywords:* generator chassis, generator, selector, and set-result scaffold, six-card kit (M1-M6), `CGKitId` manifest, `SoTA_SetId`, `VariantPoolId`, `ShortlistId`, `CGFrameLibraryId`, `RefreshReadinessCardId`, set-return selection, set-result outcome, UTS/Name Cards, RSCR linkage surfaces, edition pins, shipping and refresh boundaries. *Queries:* "How do I author a reusable CG-Frame generator kit?", "What belongs in the six-card chassis M1-M6?", "How do G.2 harvesting, G.5 set-return selection, G.10 shipping, and G.11 refresh connect without becoming one method spec?" | **Builds on:** G.Core, E.8, E.10, E.19. **Uses:** A.10, A.15.3, A.19.CN (CN-Spec), G.0 (CG-Spec), G.2, G.3, G.4, G.5, G.10, G.11; (via Extensions) C.17, C.18, C.19. **Produces:** `CGKitId` plus reusable CG-Frame kit or chassis, set-result scaffold, and linkage surfaces (UTS and RSCR ready). |
-| G.2 | **Harvest and Synthesize SoTA for a CG-Frame** | Stable | *Keywords:* state of the art, SoTA harvest, synthesis, SoTA Synthesis Pack@CG-Frame, SoTAPaletteDescription, Tradition, TraditionAtlasView, DeclaredSubstrateAtlasView, TypedSetViews, BridgeMatrix, GammaEpistSynthId, FlowRecord, palette-first. *Queries:* "How does FPF harvest and synthesize SoTA for a CG-Frame?", "When is TraditionAtlasView lawful and when is palette-first or thinner interpretation enough?", "How do competing Traditions stay plural while bridgeable and refreshable?" | **Builds on:** G.Core, E.8, E.10, E.19, A.10, B.3, F.9, F.17, G.0. **Used by:** G.1, G.3-G.5, G.10, G.11. **Coordinates with:** A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW, A.6.P, G.13. |
-| G.3 | **CHR Authoring: Characteristics - Scales - Levels - Coordinates** | Stable | *Keywords:* CHR authoring, characteristics, scales, levels, coordinates, CSLC lawfulness, typed measurement, CHR Pack@CG-Frame, ReferencePlane, Φ/CL policy pins, edition pins, RSCRTriggerKindId. *Queries:* "How do I author CHR packs (typed characteristics and scales) for a CG-Frame?", "How to keep measurement lawful (CSLC) and refreshable (RSCR)?" | **Builds on:** G.Core, G.2, G.0, A.17–A.19, A.18 (CSLC), C.16 (MM-CHR), A.19.CHR, A.15.3, G.6, F.17. **Prerequisite for:** G.4. **Used by:** G.4, G.5, G.10, G.11. |
+| G.2 | **Harvest and Synthesize SoTA for a CG-Frame** | Stable | *Keywords:* state of the art, SoTA harvest, synthesis, SoTA Synthesis Pack@CG-Frame, SoTAPaletteDescription, Tradition, TraditionAtlasView, DeclaredSubstrateAtlasView, TypedSetViews, BridgeMatrix, GammaEpistSynthId, FlowRecord, palette-first. *Queries:* "How does FPF harvest and synthesize SoTA for a CG-Frame?", "When is TraditionAtlasView lawful and when is palette-first or thinner interpretation enough?", "How do competing Traditions stay plural while bridgeable and refreshable?", "What can I return when the available corpus fails a coverage criterion?" | **Builds on:** G.Core, E.8, E.10, E.19, A.10, B.3, F.9, F.17, G.0. **Used by:** G.1, G.3-G.5, G.10, G.11. **Coordinates with:** A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW, A.6.P, G.13. |
+| G.3 | **CHR Authoring: Characteristics - Scales - Levels - Coordinates** | Stable | *Keywords:* CHR authoring, characteristics, scales, levels, coordinates, CSLC lawfulness, typed measurement, CHR Pack@CG-Frame, ReferencePlane, Φ/CL policy pins, edition pins, RSCRTriggerKindId. *Queries:* "How do I author CHR packs (typed characteristics and scales) for a CG-Frame?", "How to keep measurement lawful (CSLC) and refreshable (RSCR)?" | **Builds on:** G.Core, G.2, G.0, A.17–A.19, A.18 (CSLC), C.16 (MM-CHR), A.19.CHR, A.15.3, A.10, F.17; G.6 when shared path citation is used or required. **Prerequisite for:** G.4. **Used by:** G.4, G.5, G.10, G.11. |
 | G.4 | **CAL Authoring: Calculi - Acceptance - Evidence** | Stable | *Keywords:* CAL Pack@CG-Frame, Context charter, typed operator card, acceptance clause, legal flow, `pass \| fail \| unknown`, evidence/currentness profile, proof-or-gap row, TaskMap, declaration/runtime boundary, dated `EvaluationWork`, actual A.6.1 bindings, verdict episteme. *Queries:* "How do I author a reusable CAL pack for the current task before any candidate is evaluated?", "How do I keep a stored operator, clause, flow, manifest, proof row, or evidence ref separate from dated evaluation work and its verdict?", "Which optional extension governor, entry condition, and stop condition are required before extra method wiring enters?" | **Builds on:** G.Core and E.8. **Uses:** G.1, G.2, G.3, G.0, A.19, A.18, A.6.1, A.15.1, C.2.1, A.10, G.11, B.3, C.11. **Uses conditionally:** G.6 only through `G.4:Ext.EvidenceGraphWiring`; C.18/C.19/C.23 only through their governed extensions. **Used by:** G.5, G.8, G.9, G.10, G.11. |
 | G.5 | **Method-Family Registry, Dispatch and Selected-Set Result Declaration** | Stable | *Keywords:* method-family registry, generator-family registry, dispatcher, SelectorOutcomeKind, selected-set result declaration, `JointUseSet`, set-result outcome, `Shortlist`, `RankedShortlist`, `ShortlistId`, `SpecialistHandoff`, abstain/escalation result, basis pins, no hidden scalar winner. *Queries:* "How does FPF dispatch among rival method families without hidden scalarization?", "How do I state a Shortlist or RankedShortlist honestly?", "How do I declare already selected framework editions for joint use without treating them as Methods?", "When does G.5 begin after C.11 choice, C.19 pool policy, or C.24 planning?" | **Builds on:** G.Core, G.0, G.2-G.4, G.6. **Coordinates with:** C.11, C.19, C.24, G.9-G.11. |
 | G.6 | **Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths** | Stable | *Keywords:* `EvidenceGraph`, `PathId`, `PathSliceId`, `PathCitationRecord`, provenance ledger, exact represented objects, exact direct relations, direct governors, obtaining claims, unresolved gaps, `NotCarried`, source/currentness, representation correspondence, downstream work, actual-use relation, local refresh. *Queries:* "When do several downstream consumers need one shared addressable provenance path rather than a local A.10 account?", "How do I cite exact objects and already obtaining direct relations without letting graph nodes, edges, or ledger rows create facts?", "Which paths, slices, node projections or relation-edge projections are affected when a source, relation, edition, window, bridge, currentness result, or reliance boundary changes?" | **Builds on:** A.10, A.2.4, C.2.1, C.29. **Coordinates with:** A.15.1, A.2.1, A.6.1, A.15.PROD, C.16, G.4, B.1.6, C.28, F.10, F.9, E.18/E.18.2, G.11, B.3, E.17/E.24.PUB, and every exact result or later-use governor cited by a path. **Used by:** G.5, G.9, G.11 and other selector, benchmark, replication, audit, refresh, assurance, maturity, or release patterns needing stable provenance-path citation. |
@@ -576,7 +576,7 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | G.10 | **SoTA Pack Shipping (pack-boundary governing definition; `SoTA-Pack(Core)`)** | Stable | *Keywords:* shipping, `SoTA-Pack(Core)`, pack-boundary governing definition, selector-ready publication surface, `AuditPins`, `MOOManifest`, `PortfolioRosterId`, UTS publication, `PathId`/`PathSliceId`, `CrossingBundle`, edition pins, telemetry pins, RSCR wiring, parity pins, notation-independent pack, no semantic respecification. *Queries:* "How does FPF ship a SoTA pack without smuggling semantics?", "What is SoTA-Pack(Core) as a pack rather than a kit or suite?", "How do AuditPins, MOOManifest, path citations, and crossing bundles support replay and refresh?" | **Builds on:** G.Core, F.17-F.18, E.5.2, E.18, A.10, A.15.3. **Consumes/cites:** G.2-G.9, optional G.12-G.13. **Used by:** selector-facing consumers via G.5 and refresh orchestration via G.11. |
 | G.11 | **Decide Whether and How to Refresh SoTA Packs and Related Results (Telemetry and Decay)** | Stable | *Keywords:* telemetry, use-qualified currentness, refresh, RSCR, PathSlice, Bridge Sentinels, edition-aware, epistemic debt, deprecation, re-shipping. *Queries:* "Does this trigger change a relied-on use, or can the current result stand?", "Which affected dependencies need a worthwhile feasible refresh?", "What warning does a later receiver need?" Preserve applicable support without an obligatory refresh plan, deprecation or waiver; plan only selected Work and report what was actually performed. | **Builds on:** G.Core, G.6, G.7, G.5, G.8, G.9, G.10, B.3.4, E.18. **Coordinates with:** G.12, C.18 and C.19, C.23, F.15. |
 | G.12 | **DHC Dashboards (Discipline-Health Time Series and Views)** | Stable | *Keywords:* dashboard, DHC, discipline health, coordinate results, DHCReplayBasis, DHCSeries, time series, views, optional publication, selective refresh. *Queries:* "How can I arrange exact discipline-health results across windows without losing their comparison basis?", "When is a local dashboard view sufficient?", "How do I publish or refresh a view when a receiving use needs it?" | **Builds on:** G.Core, C.21, G.6, G.11, A.19, G.0, F.17/F.18, E.5.2, E.10. **Coordinates with:** G.5 (selector set-result outputs), G.7 (crossings/CL/Φ_plane pins), G.8 (maturity ladder panel), G.10 (shipping inclusion), C.18 and C.19 (QD/OEE telemetry), G.2 (SoTA palette hooks). |
-| G.13 | **External Interop Hooks for SoTA Discipline Packs (conceptual; normative when used)** | Stable | *Keywords:* interop, external index, claim mapper, mapping policy, plane map, embedding spec, `ExternalIndexCard@Context`, `ClaimMapperCard@Context`, `InteropSurface@Context`, CHR-typed SoS features, edition pins, UTS twins, RSCRTriggerKindId, telemetry pin. *Queries:* "How does FPF integrate external scholarly indexes into Part G?", "What is an ExternalIndexCard / ClaimMapperCard / InteropSurface in FPF?", "How to make interop refreshable with RSCR trigger kinds and edition pins?" | **Builds on:** G.Core, G.2–G.7, G.9–G.12, A.19, A.18, G.0, F.17, E.5.2, E.18. |
+| G.13 | **External Interop Hooks for SoTA Discipline Packs (conceptual; normative when used)** | Stable | *Keywords:* interop, external index, claim mapper, mapping policy, plane map, embedding spec, `ExternalIndexCard@Context`, `ClaimMapperCard@Context`, `InteropSurface@Context`, CHR-typed SoS features, edition pins, UTS twins, RSCRTriggerKindId, telemetry pin. *Queries:* "How does FPF integrate external scholarly indexes into Part G?", "How do I derive a needed claim or feature from external fields and source definitions, or identify the exact missing transformation?", "How to make interop refreshable with RSCR trigger kinds and edition pins?" | **Builds on:** G.Core, G.2–G.7, G.9–G.12, A.19, A.18, G.0, F.17, E.5.2, E.18. |
 
 # First Principles Framework (FPF) Readme
 
@@ -5789,7 +5789,7 @@ This mini-schema is a recommendation only: it does not admit another U-kind. An 
   For evaluation Work, use A.13 to identify the actual evaluator and let A.15.1 admit the dated occurrence before saying that it enacts the Method selected by `acceptanceSpec`. Add F.6 only if the current use must also state under which assignment the evaluation was performed. Cite the optional MethodDescription only when the evaluation claim depends on that edition. The actual evaluation-operation application carries its argument bindings and result value. When another use needs a durable verdict episteme, C.2.1 governs that episteme and A.15.PROD governs any current identity-inception claim. The counting rule in `unitOfDelivery` maps admitted fulfilment occurrences to unit counts.
   The verdict episteme may assert whether a named service-level objective or another acceptance criterion was satisfied during the declared window. When a separately obtaining `U.Commitment` has the same `U.PromiseContent` in its referents position, the supported assertion concerns fulfilment of content that is also a referent of the obligation. Neither the operation-result binding, verdict episteme, nor commitment is a property of the promise-content episteme.
 
-  When a separate F.6 `performedUnderAssignment(W, RA)` claim is made, `W` is already admitted and `RA` is the same assignment used by A.13. F.6 compares that assignment's holder with the actual performer already identified through A.13 and used by A.15.1. A missing or failed F.6 check leaves the Work intact.
+  When a separate F.6 `performedUnderAssignment(W, RA)` claim is made, `W` is already admitted and `RA` is the same assignment used by A.13. F.6 compares that assignment's holder with the actual performer already identified through A.13 and used by A.15.1. A missing or failed F.6 check alone leaves independently admitted Work intact. If the same finding invalidates a premise consumed by A.13/A.15.1 admission, recheck that premise and its dependent conclusions under F.6:4.2.
 
 > **Memory hook:** *Promise content states what is promised. A method constrains possible work. A system performs work. Evaluation binds a result value. A verdict episteme states the judgment. Evidence supports that assertion.*
 
@@ -118046,8 +118046,8 @@ Semantic synthesis must preserve source-local meanings while returning a positiv
 3. **Choose a bounded source cut.** Apply `F.1`. Include the sources needed for the intended use, known rival explanations, action-changing counterexamples, transfer limits, and material non-fit. State why each selected source can change the decision.
 4. **Compare what changes action.** Compare concepts, relation participants, explanations, contexts, assumptions, source roles, counterexamples, losses, and validity limits. Treat lexical or model correspondences as proposals to inspect, not as conclusions. Use **B.5.TC** when the difference between theoretical accounts needs a constructed comparison: work the same question in each, locate the consequential difference and retain complementary or unresolved contributions.
 5. **Write one first result.** Write a provisional synthesis claim when a positive shared contribution is warranted; a contrast claim when the proposed unification is not warranted for the named use; or an unresolved-inquiry claim when a named source gap prevents either substantive answer.
-6. **Give the result a stable local locator and name its receiving decision.** Keep ordinary `C.2.1` claim identity. Add a stable locator within the authoring source, such as `SE-CS-03`, so later text can cite the same result together with that source edition. Name the content, placement, or pattern-allocation decision that will consider it.
-7. **Record the receiving disposition.** When the named decision is made, its decision record states whether this result is used as proposed, revised into a newly identified claim, not used for the named purpose, or reopened for further comparison. Cite the result locator and source edition. A result awaiting that decision remains a proposal; silence or a citation is not acceptance.
+6. **Return the result to its receiving decision.** Keep the claim, source edition and grounds recoverable, and name the content, placement or pattern-allocation question it answers. Add a stable local locator, such as `SE-CS-03`, when later citation or replay needs that address. C.2.1 governs an explicitly identified claim episteme.
+7. **Apply the receiving disposition.** Decide whether to use the result as proposed, revise it, keep a contrast, or continue the unresolved inquiry. Record that disposition when the decision's governing use needs a record, citing the exact result and source edition. A result still awaiting the decision remains a proposal; silence or citation alone is not acceptance.
 8. **Keep the source use revisable.** Identify the source claims and editions relied on, why each matters to this result, what was deliberately left local or rejected, and which change reopens the comparison.
 
 Stop after one bounded synthesis slice when it answers the named authoring question. Enter clustering, Concept-Set, naming, UTS, or heavy harvesting only when the next question requires that additional result.
@@ -118064,13 +118064,13 @@ Stop after one bounded synthesis slice when it answers the named authoring quest
 
 #### F.0.2:4.3 - Three result branches
 
-Every result recorded for later authoring, review, or decision use is an ordinary claim-bearing episteme under `C.2.1`. Its identity remains `<claim content, EntityOfConcern, effective ReferenceScheme>`. Give every such result a stable local locator in its authoring source and cite that locator together with the source edition. The locator helps readers recover the claim but does not identify it by itself.
+A result identified as a claim-bearing episteme retains its C.2.1 identity `<claim content, EntityOfConcern, effective ReferenceScheme>`. Keep the result and source edition recoverable for the receiving use. A stable local locator can supply a needed address for later citation or replay; it does not identify the claim by itself.
 
 | Result | What the claim concerns | What it says | Required receiving disposition |
 | --- | --- | --- | --- |
-| **Provisional synthesis claim** | The proposed domain or pattern contribution, interpreted through the receiving scheme and the declared source-local correspondences used in the comparison. | A positive cross-source claim with scope, source roles, retained differences, and limits. `Provisional` means proposed for a later decision, not accepted framework meaning. | The named decision record cites the locator and source edition, then states that the proposal is used as written, revised into a newly identified claim, not used for the named purpose, or reopened. |
-| **Contrast claim** | The candidate unification or proposed shared contribution being tested, interpreted through the receiving scheme and the source-local comparison rules. | Why the inspected comparison does not warrant that unification for the named use. It preserves the source-local claims and any narrower positive claim that remains supported. | The named decision record cites the locator and source edition, then keeps the source claims distinct for the named use, adopts a narrower or revised claim, does not use the contrast, or reopens the comparison. |
-| **Unresolved-inquiry claim** | The bounded inquiry state, interpreted through the receiving scheme and the source-currentness, adequacy, and comparison rules actually available. | A named missing, stale, or too-weak source prevents the inquiry from choosing between a provisional synthesis and a contrast. It states what remains usable and the next source action; it does not assert that the disputed claim is false. | The named decision record cites the locator and source edition, then retains the bounded unresolved result and its usable remainder, commissions the named source action, ends the named use, or reopens the comparison. Any later substantive answer is a separately identified result. |
+| **Provisional synthesis claim** | The proposed domain or pattern contribution, interpreted through the receiving scheme and the declared source-local correspondences used in the comparison. | A positive cross-source claim with scope, source roles, retained differences, and limits. `Provisional` means proposed for a later decision, not accepted framework meaning. | The receiving decision determines whether the proposal is used as written, revised into a newly identified claim, not used for the named purpose, or reopened. |
+| **Contrast claim** | The candidate unification or proposed shared contribution being tested, interpreted through the receiving scheme and the source-local comparison rules. | Why the inspected comparison does not warrant that unification for the named use. It preserves the source-local claims and any narrower positive claim that remains supported. | The receiving decision keeps the source claims distinct for the named use, adopts a narrower or revised claim, does not use the contrast, or reopens the comparison. |
+| **Unresolved-inquiry claim** | The bounded inquiry state, interpreted through the receiving scheme and the source-currentness, adequacy, and comparison rules actually available. | A named missing, stale, or too-weak source prevents the inquiry from choosing between a provisional synthesis and a contrast. It states what remains usable and the next source action; it does not assert that the disputed claim is false. | The receiving decision retains the bounded unresolved result and its usable remainder, commissions the named source action, ends the named use, or reopens the comparison. Any later substantive answer is a separately identified result. |
 
 The source gap is the reason and closure condition for an unresolved-inquiry claim, not a fourth result branch. A temporary unrecorded pause is not an `F.0.2` result that later work can cite.
 
@@ -118165,8 +118165,8 @@ This pattern favors explicit source roles and positive integration over a single
 - `CC-F0.2-2` Every load-bearing source claim has a recoverable EntityOfConcern, effective ReferenceScheme, edition, and source role; locators are not treated as source-use relations.
 - `CC-F0.2-3` The source cut covers the intended use, known rival explanations, action-changing counterexamples, transfer limits, and material non-fit by relevance rather than by a universal count or distance threshold.
 - `CC-F0.2-4` Similarity, correspondence, Bridge, framework fit, or `G.2` pack conformance is used as input and not as synthesis truth or permission to merge.
-- `CC-F0.2-5` The result is one provisional synthesis claim, contrast claim, or unresolved-inquiry claim with ordinary `C.2.1` identity and one stable local locator in the authoring source.
-- `CC-F0.2-6` The result names its receiving content, placement, or pattern-allocation decision. When that decision occurs, the decision record cites the result locator and source edition and states the disposition; an absent disposition is not acceptance.
+- `CC-F0.2-5` The result is one provisional synthesis claim, contrast claim or unresolved-inquiry claim whose content, subject, interpretation basis and sources are recoverable. Add a stable local locator when later citation or replay needs it.
+- `CC-F0.2-6` The result answers its receiving content, placement or pattern-allocation question. Keep any decision record required by that use; an absent disposition is not acceptance.
 - `CC-F0.2-7` The result states relied source claims and editions, why each matters, retained differences and limits, and material reopen conditions.
 - `CC-F0.2-8` An unresolved-inquiry claim concerns the inquiry state, names what remains usable and the next source action, and does not turn missing evidence into a negative domain claim.
 - `CC-F0.2-9` Domain roles, methods, examples, evidence bases, and refresh lines stay in their subject DPF; the reusable synthesis move remains independent of those DPFs.
@@ -118276,7 +118276,7 @@ Reconcile meanings before assigning destinations. Preserve every difference that
 
 1. **Name the receiving use and contribution.** Identify the description, Method question or pattern-language use being changed. Take the recovered source claim together with its difficulty or opportunity, proposed action, result, conditions and source location.
 2. **Keep the input roles distinct.** A documentary claim remains what that source asserts. A returned MR account keeps its candidate, rival and evidence limits. A current FPF/DPF result keeps its declared scope. A source's report that work occurred is not independent occurrence evidence.
-3. **Resolve only the meaning difference that matters.** Use F.0.1 when a source expression is ambiguous, F.1 when the source cut is insufficient, and F.0.2 when cross-source synthesis is needed. Consume its provisional synthesis, contrast or unresolved-inquiry result, including its locator, source edition and receiving disposition; do not replace that result with a similarity score.
+3. **Resolve only the meaning difference that matters.** Use F.0.1 when a source expression is ambiguous, F.1 when the source cut is insufficient, and F.0.2 when cross-source synthesis is needed. Use its provisional synthesis, contrast or unresolved-inquiry result, with its source edition, grounds and any disposition already made. Preserve a locator when later citation needs it; a similarity score does not replace the comparison.
 4. **Subtract the current answer by value.** Open the current FPF or DPF supplier that appears to cover the contribution. Compare the practitioner question, action, first result, applicability and stop. Use the supplier directly if it answers those positions. When a source adds a warranted Method-specific condition or move, retain that remainder and explain its receiving use.
 5. **Decide whether the contributions can share an account.** Compare reusable action, participant meanings, preconditions, result, variation and stop. Merge supported common content while retaining different conditions. Split incompatible actions or statuses. Keep an unresolved alternative when the evidence cannot distinguish them. A.3.1.QM and B.1.5.CM settle any Method or whole claim needed by the allocation.
 6. **Assign the contribution and its remainder.** State what is reused from current supply; what is added to or changes a Method description or pattern; what remains direct source material; and what is unresolved. Allocate the shared construction by its actual premises. A Method, corpus or publication can be the subject of a transdisciplinary operation. Retain a domain contribution where its action depends on that discipline's substantive knowledge; do not infer either Core placement or exclusion from the subject's name.
@@ -118376,7 +118376,7 @@ Keeping this result separate from A.3.1.DR lets documentary recovery remain fait
 
 ### F.0.2.MA:11 - SoTA-Echoing
 
-The current best-known approach for this question combines source-local conceptual comparison with Method-content and use analysis. F.0.2 supplies the former; A.3.1.DR, A.3.1.QM, A.3.2.DE and the other direct Method-development results supply their respective subjects. In the H/L/W case, the added allocation preserves a usable conditional review answer, rejects an unsupported shortcut-Method identification and leaves tool instructions at their source. A generic synthesis note can be sufficient when it already contains those destinations and returns.
+For the allocation question, combine source-local conceptual comparison with Method-content and use analysis. F.0.2 supplies the former; A.3.1.DR, A.3.1.QM, A.3.2.DE and the other direct Method-development results supply their respective subjects. In the H/L/W case, this allocation preserves a usable conditional review answer, rejects an unsupported shortcut-Method identification and leaves tool instructions at their source. A generic synthesis note is sufficient when it already supplies those destinations and returns; allocation is useful when one of them remains missing.
 
 [Daalhuizen and Cash's Method Content Theory (2021)](https://doi.org/10.1016/j.destud.2021.101018) supplies questions about goal, procedure, rationale, framing and mindset. [Stacey et al. (2025)](https://doi.org/10.1017/dsj.2025.9) reinforces the need to retain the knowledge and use conditions around procedural guidance. Adopt these as source questions; do not turn their different models into a universal field schema or FPF parthood test.
 
@@ -119060,7 +119060,7 @@ Choose the cheapest attainable route that supplies the needed material and its c
 
 ### F.2:1 - Intent & applicability
 
-**Intent.** Turn usage in an exact source and edition into a small, auditable set of source-local expressions and one-sentence meaning claims. Keep the source’s idiom, help a cold reader, and withhold every cross-source conclusion.
+**Intent.** Turn usage in an exact source and edition into a small, auditable set of source-local expressions and meaning claims. Keep the source's idiom and the explanation the intended reader needs, while leaving cross-source conclusions to their own comparison.
 
 **Use this when.** F.1 has selected a source because it can change the receiving answer, and the reader needs the actual words that carry its contribution. Re-enter when the selected edition, passage, language, or interpretation basis changes enough to change meaning.
 
@@ -119087,7 +119087,7 @@ F.2 prevents these mistakes by tying each expression and local-sense claim to th
 
 ### F.2:4 - Core idea (didactic)
 
-For each needed use, name the **exact source and edition**, the relevant passage, and the **effective reference scheme** under which the passage is being read. Harvest an attested **LocalExpression**, choose a minimally edited **Local Normal Form (LNF)**, add Tech and Plain labels, and state the **LocalSenseClaim** in one sentence.
+For each needed use, name the **exact source and edition**, the relevant passage, and the **effective reference scheme** under which the passage is being read. Harvest an attested **LocalExpression**, choose a minimally edited **Local Normal Form (LNF)**, and explain its **LocalSenseClaim** at the detail needed by the receiving question. Add a separate label when a naming or didactic use needs it.
 
 That is the ordinary F.2 result. If later work needs a durable address, F.17 may represent it as `SchemeSenseCell = <ReferenceScheme, LocalExpression, LocalSenseClaim>` and record the basis relation. The cell is optional and does not replace the source, passage, or claim. F.2 establishes no relation to another source-local meaning.
 
@@ -119097,9 +119097,9 @@ That is the ordinary F.2 result. If later work needs a durable address, F.17 may
 * **Attested phrase** — a short verbatim cue showing how the expression is used in that source.
 * **LocalExpression** — the exact expression whose source-local meaning is being recovered.
 * **Local Normal Form (LNF)** — the minimally edited surface used to cite that expression while preserving the source’s spelling, hyphenation, and casing.
-* **Tech and Plain labels** — an engineer-facing label faithful to the source and a newcomer-facing label that does not add scope.
-* **LocalSenseClaim** — one sentence saying what the expression means in this source use, at the least generality needed by the receiving question.
-* **Source-local lexical note** — the exact source basis, expression and LNF, labels, claim, and one or two attested cues. This is F.2’s ordinary outcome.
+* **Additional labels, when needed** — a source-faithful Tech designation and, for a stated didactic use, a Plain designation for the same local meaning.
+* **LocalSenseClaim** — the claim saying what the expression means in this source use, at the least generality and sufficient detail needed by the receiving question.
+* **Source-local lexical note** — the exact source basis, expression and LNF, meaning claim, supporting passages, and any labels needed by the receiving use. This is F.2's ordinary outcome.
 * **Homonymy signal** — notice that the same string supports different local claims; this notice is not a relation between those claims.
 * **SchemeSenseCell** — F.17’s optional three-part address, used only when durable reuse needs it.
 
@@ -119109,13 +119109,13 @@ That is the ordinary F.2 result. If later work needs a durable address, F.17 may
 
 Ask: **“Which exact source use am I reading, and under which interpretation rules?”**
 
-Name the source and edition, locate the passage, and recover the effective reference scheme with F.0.1. Take one or two representative phrases. If you cannot identify that basis, do not harvest the word yet.
+Name the source and edition, locate the passages that support the meaning, and recover the effective reference scheme with F.0.1. Quote representative wording when it helps the reader recover that meaning. If the basis cannot be identified, leave the interpretation unresolved.
 
 #### F.2:6.2 - Move B — Name the local meaning faithfully
 
 Ask: **“How does this source itself say it?”**
 
-Choose the LNF with minimal editing. Keep an idiomatic Tech label, add an explanatory Plain label, and write one LocalSenseClaim. Prefer the source’s head noun and meaningful modifiers. Put behavioural equations, obligations, measurements, and kind criteria under their direct patterns rather than inside the lexical note.
+Choose the LNF with minimal editing and explain the LocalSenseClaim. When the receiving use needs an additional label, keep the Tech designation in the source's idiom; add a Plain designation when it helps the intended reader recover the same meaning. Preserve meaningful head nouns and modifiers. Include a source-grounded equation, obligation or kind criterion when it is part of that meaning. Establishing a factual instance, performance, obligation or classification remains a separate claim under its direct pattern.
 
 #### F.2:6.3 - Move C — Fence the result
 
@@ -119127,7 +119127,7 @@ Refuse to infer sameness, substitution, hierarchy, or transfer across sources; r
 
 1. **Basis visible.** Every harvested expression **MUST** name the exact source and edition and the effective reference scheme needed to recover its meaning.
 2. **Idiomatic normalisation.** LNF **MUST** preserve meaningful source spelling, hyphenation, casing, and modifiers with minimal edits.
-3. **Two registers.** Each note **SHOULD** carry Tech and Plain labels; the Plain label must explain rather than broaden.
+3. **Registers when used.** A Tech designation remains source-faithful. A Plain designation is added for a stated didactic use and must explain the same meaning without broadening it.
 4. **Minimal generality.** The LocalSenseClaim **MUST** say no more than the source use and receiving question require.
 5. **Category hygiene.** A lexical note **MUST NOT** stand in for behaviour, obligation, measurement, kind, assignment, Work, or evidence.
 6. **No cross-source claim.** F.2 **MUST NOT** assert equivalence, subsumption, similarity, permission, or transfer between local meanings.
@@ -119161,7 +119161,7 @@ Refuse to infer sameness, substitution, hierarchy, or transfer across sources; r
 | **A2** | String = meaning | Identical spelling is treated as one concept. | Homonyms such as *role* and *process* collapse. | State source, scheme, and LocalSenseClaim before comparison. |
 | **A3** | Over-normalisation | Case, hyphens, or modifiers are removed for consistency. | Source cues and citations become unreliable. | Make only minimal edits. |
 | **A4** | Headless multiword | *Service-level objective* becomes *objective*. | Scope disappears. | Preserve the meaningful compound. |
-| **A5** | Premature structure | A gloss contains equations, duties, or kind axioms. | A lexical note is asked to establish a substantive fact about another value. | Route the substantive claim to its direct pattern. |
+| **A5** | Meaning used as factual warrant | A gloss is used to establish that a substantive condition actually holds. | Explaining an equation, duty or kind criterion does not establish its application to an instance. | Preserve defining content in the explanation; test the substantive claim under its direct pattern. |
 | **A6** | Cross-source folding | “BPMN process ≈ PROV activity” appears in F.2. | A relation and its losses are hidden. | Leave the comparison to F.9. |
 | **A7** | Edition blur | A source name has no edition although usage changed. | The claim cannot be replayed. | Name the exact edition and recover the changed meaning afresh. |
 | **A8** | Dialect elevation | A tool keyword list is treated as the whole domain. | One source use displaces other evidence. | Keep it as one exact source basis. |
@@ -119202,7 +119202,7 @@ The notes do not turn an FCA concept into a root kind or a procedure description
 1. **Localise.** Hear the expression only in the exact source use now under examination.
 2. **Recover.** Identify the edition, passage, effective scheme, and source-local claim.
 3. **Normalise minimally.** Choose an LNF that preserves the source’s idiom.
-4. **Explain twice.** Keep an idiomatic Tech label and a helpful Plain label.
+4. **Label when needed.** Keep the source-faithful designation; add a Plain label when the receiving reader needs it.
 5. **Check scope.** Tighten any sentence that says more than the passage supports.
 6. **Signal homonymy.** Note repeated spelling without claiming a relation.
 7. **Stop.** When the local note is clear enough for the receiving question, do not add a cell or comparison merely for completeness.
@@ -119240,7 +119240,7 @@ The notes do not turn an FCA concept into a root kind or a procedure description
 
 * **SCR-F2-S01 (basis).** Every note names the exact source and edition and the effective scheme required to recover the claim.
 * **SCR-F2-S02 (idiomatic LNF).** Each LNF preserves meaningful spelling, hyphenation, casing, and modifiers.
-* **SCR-F2-S03 (two registers).** Tech is faithful and Plain is explanatory without added scope.
+* **SCR-F2-S03 (registers when used).** Tech is faithful; an added Plain designation is explanatory without added scope.
 * **SCR-F2-S04 (lexical boundary).** No note substitutes for behaviour, obligation, measurement, kind, assignment, Work, or evidence.
 * **SCR-F2-S05 (no cross-source claim).** F.2 asserts no equivalence, hierarchy, transfer, or permission between local meanings.
 * **SCR-F2-S06 (minimal generality).** Each LocalSenseClaim is no broader than its source use and receiving question.
@@ -119255,7 +119255,7 @@ The notes do not turn an FCA concept into a root kind or a procedure description
 
 ### F.2:16 - Didactic distillation
 
-> “Name the exact source and edition, find the passage, and say under which reference scheme you are reading it. Keep the source’s own expression, add a faithful Tech label and a helpful Plain label, and state its local meaning in one sentence. Stop there. The same spelling elsewhere proves nothing. Use F.17 only if you need a stable address, and use F.9 only if a real relation between two local meanings must be tested.”
+> “Name the exact source and edition, find the relevant passages, and say under which reference scheme you are reading them. Keep the source's own expression and explain its local meaning. Add a separate label when the receiving use needs it, preserving the same meaning. Stop when that answers the question. Use F.17 when a stable address is needed, and F.9 when a relation between two local meanings must be tested.”
 
 ### F.2:End
 
@@ -119304,13 +119304,13 @@ F.3 repairs this by testing usage under the exact source basis rather than by co
 * **Same local meaning:** expressions are interchangeable in the relevant source passages and no source-grounded test makes them support different conclusions.
 * **Different local meanings:** their argument patterns, entailments, temporal stance, or practical consequences differ.
 
-The cluster’s outcome is a **LocalSenseClaim**, with a Tech and Plain label pair, supporting expressions, and an optional counterexample. If durable reuse needs an address, use F.17’s `SchemeSenseCell = <ReferenceScheme, LocalExpression, LocalSenseClaim>`. The address preserves the claim's local interpretation basis.
+The cluster’s outcome is a **LocalSenseClaim**, with supporting expressions, any labels needed by the receiving use, and an optional counterexample. If durable reuse needs an address, use F.17’s `SchemeSenseCell = <ReferenceScheme, LocalExpression, LocalSenseClaim>`. The address preserves the claim's local interpretation basis.
 
 ### F.3:5 - Minimal vocabulary (this pattern only)
 
 * **Interpretation basis** — the exact source and edition and the effective reference scheme used to understand the selected passages.
 * **Unit** — a source-local lexical note from F.2.
-* **LocalSenseClaim** — the one-sentence claim that a cluster of source uses supports under that basis.
+* **LocalSenseClaim** — the claim that a cluster of source uses supports under that basis, explained at the detail needed by the receiving question.
 * **Supporting expressions** — the F.2 expressions consolidated by the claim.
 * **Counterexample** — a short source-grounded use that must not be covered by this claim.
 * **SchemeSenseCell** — F.17’s optional stable address; it carries the scheme, an expression, and the local-sense claim.
@@ -119338,11 +119338,11 @@ If one use entails occurrence in time and another entails a design structure or 
 
 #### F.3:6.4 - Prefer the coarsest adequate partition
 
-Merge candidates when no source-grounded test relevant to the receiving question distinguishes them. Split when a concrete counterexample would otherwise be admitted. Do not split merely to fill a taxonomy.
+Merge candidates when the recovered source uses establish that they are interchangeable for the receiving question and preserve every relevant conclusion. A failed attempt to find a distinction is insufficient when the source basis is too weak to decide. Keep that uncertainty explicit. Split when a concrete counterexample would otherwise be admitted; do not split merely to fill a taxonomy.
 
 #### F.3:6.5 - Keep labels honest
 
-Keep the Tech label in the source’s idiom. Make the Plain label explain the same claim to a careful newcomer. Neither label is the value being described, and neither may widen the claim.
+When the receiving use needs an additional label, keep the Tech designation in the source’s idiom. Add a Plain designation for a stated didactic use, explaining the same claim. Neither label is the value being described, and neither may widen the claim.
 
 #### F.3:6.6 - Address only when needed
 
@@ -119352,8 +119352,8 @@ Ordinary prose may cite the source, expression, and claim directly. Create an F.
 
 For each interpretation basis used by the receiving question, F.3 yields a small set of local-sense claims. Each has:
 
-* a Tech and Plain label pair;
-* a one-sentence LocalSenseClaim;
+* any additional labels needed by a naming or didactic use;
+* the LocalSenseClaim and sufficient explanation of its meaning;
 * the supporting expressions and passages;
 * an optional counterexample that sharpens the boundary;
 * an optional F.17 SchemeSenseCell when durable addressability is worth its cost.
@@ -119364,8 +119364,8 @@ These are reference points for reasoning. They are not mandatory records, and th
 
 1. **Basis explicit.** Every LocalSenseClaim names the source and edition and the effective reference scheme needed to interpret it.
 2. **Parsimony.** Prefer the coarsest partition that preserves source-grounded differences relevant to use.
-3. **Idiomatic Tech.** The Tech label remains source-faithful.
-4. **Didactic Plain.** The Plain label aids comprehension without adding scope.
+3. **Idiomatic Tech.** A Tech designation, when used, remains source-faithful.
+4. **Didactic Plain.** A Plain designation, when used, aids comprehension without adding scope.
 5. **Usage first.** Claims follow source passages, not imported taxonomies.
 6. **Counterexample rule.** A source-grounded counterexample that matters to the receiving question forces a split or tighter claim.
 7. **Category boundary.** A local-sense claim does not establish behaviour, obligation, measurement, kindhood, assignment, or Work.
@@ -119373,10 +119373,10 @@ These are reference points for reasoning. They are not mandatory records, and th
 
 ### F.3:9 - Self-checks
 
-* **Same-conclusion test.** Would the candidate uses ever change a source-grounded conclusion relevant here? If not, merge.
-* **Argument probe.** Substitute the participants from one use into the other. If the source proposition fails, split.
+* **Same-conclusion test.** Do the source uses establish the same relevant meaning and preserve the conclusions needed here? If so, merge. If the available passages cannot settle the comparison, retain the unresolved difference and identify the missing basis.
+* **Argument probe.** Substitute the participants from one use into the other. Split when this exposes incompatible source-required participant kinds or semantic roles. A false instance alone does not establish another sense: “Alice is licensed” and “Bob is licensed” can differ in truth while using `licensed` with the same meaning.
 * **Entailment probe.** Does one use imply an occurrence while the other implies a description, kind, or status? Split.
-* **Label inversion.** Read the Plain label alone. If it invites a broader claim, tighten it.
+* **Label inversion.** When a Plain label is used, read it alone. If it invites a broader claim, tighten it.
 * **Counterexample ping.** Use a source-grounded excluded use when it matters to the receiving question. If that use falls inside the claim, refine the boundary.
 * **Memory rule.** Poor recall is a cue to inspect the partition for needless splits. Retain every source-grounded distinction that changes the receiving use.
 
@@ -119390,7 +119390,7 @@ These are reference points for reasoning. They are not mandatory records, and th
 | **A4** | Under-granulation | Diagram node and real occurrence share one claim. | Later inferences contradict each other. | Split on argument or entailment conflict and add a counterexample. |
 | **A5** | Imported definition | A dictionary replaces the selected source passages. | The result is no longer source-local. | Ground the claim in the actual passages. |
 | **A6** | Label drift | Plain adds scope not present in Tech or the claim. | The cold reader learns the wrong concept. | Keep both labels within the same claim. |
-| **A7** | Substantive leakage | A sense line contains policies, equations, or kind criteria. | The lexical note is asked to establish a substantive fact about another value. | Route the claim to its direct pattern. |
+| **A7** | Meaning used as factual warrant | A sense claim is used to establish that a policy, equation or kind criterion holds for an instance. | Interpreting a substantive condition and establishing its application are different questions. | Keep defining content needed to explain the source meaning; test the separate substantive claim under its direct pattern. |
 | **A8** | Edition blend | Two editions with changed usage share one unqualified claim. | Replay and comparison become unreliable. | State each basis; merge only if evidence supports the same claim. |
 | **A9** | Cue worship | Similar collocations are treated as proof. | Correlation replaces source meaning. | Use cues to locate passages, then test propositions. |
 | **A10** | Time blur | A design-time use and a run-time occurrence are clustered together. | MethodDescription and Work collapse. | Split and use F.11, A.3, and A.15 for the substantive distinction. |
@@ -119456,9 +119456,9 @@ The namespace expansion supports the alias consolidation; the temporal-occurrenc
 1. **Alias consolidation.** Merge expressions only when the source uses them interchangeably for the current question.
 2. **Argument split.** Split uses whose required participants differ materially.
 3. **Entailment split.** Split when the uses support different conclusions.
-4. **Parsimony merge.** Merge when no relevant source-grounded test distinguishes the candidates.
+4. **Parsimony merge.** Merge source-supported interchangeable uses when no relevant conclusion is lost; leave the comparison unresolved when the source basis cannot establish that result.
 5. **Counterexample trigger.** Tighten or split a claim that admits a concrete excluded use.
-6. **Label check.** Tech stays idiomatic; Plain explains without widening.
+6. **Label check, when labels are used.** Tech stays idiomatic; Plain explains without widening.
 7. **Address check.** Create an F.17 cell only when the receiving use needs a stable address.
 8. **Edition check.** Re-evaluate the interpretation basis before carrying a claim across an edition change.
 9. **Coverage ping.** If a frequent source expression that matters to the receiving question has no local-sense claim, check whether one useful cluster is missing.
@@ -119484,7 +119484,7 @@ The namespace expansion supports the alias consolidation; the temporal-occurrenc
 
 ### F.3:15 - Migration notes
 
-1. **Usage clarifies.** Merge only when the source-grounded distinction test fails.
+1. **Usage clarifies.** Merge only when the recovered source uses support interchangeability for the receiving question; lack of a decisive comparison leaves it unresolved.
 2. **Usage diverges.** Split and add a counterexample when argument patterns or entailments pull apart.
 3. **Edition changes.** Recover the changed basis and claim.
 4. **Labels drift.** Repair Tech or Plain without silently changing the claim.
@@ -119496,7 +119496,7 @@ The namespace expansion supports the alias consolidation; the temporal-occurrenc
 #### F.3:16.1 - Static conformance
 
 * **SCR-F3-S01 (basis).** Every LocalSenseClaim names its source and edition and the effective reference scheme.
-* **SCR-F3-S02 (labels).** Tech and Plain denote the same bounded claim.
+* **SCR-F3-S02 (labels when used).** Tech and any Plain designation denote the same bounded claim.
 * **SCR-F3-S03 (fidelity and time stance).** Each claim is grounded in cited source use, preserves any source-grounded design-time, run-time, or other temporal distinction, and contains no imported substantive calculus.
 * **SCR-F3-S04 (parsimony).** The claim set is small enough for the receiving question.
 * **SCR-F3-S05 (counterexample).** Ambiguous heads have a concrete boundary test.
@@ -119504,7 +119504,7 @@ The namespace expansion supports the alias consolidation; the temporal-occurrenc
 
 #### F.3:16.2 - Regression
 
-* **RSCR-F3-E01 (merge soundness).** Every merge has a failed relevant distinction test.
+* **RSCR-F3-E01 (merge soundness).** Every merge has source-grounded support for the same relevant meaning and preserves the receiving conclusions.
 * **RSCR-F3-E02 (split necessity).** Every split cites an argument, entailment, temporal, or counterexample difference.
 * **RSCR-F3-E03 (edition honesty).** Changed editions are not silently absorbed into an old claim.
 * **RSCR-F3-E04 (label stability).** Label changes do not change the claim unnoticed.
@@ -119512,7 +119512,7 @@ The namespace expansion supports the alias consolidation; the temporal-occurrenc
 
 ### F.3:17 - Didactic close
 
-> “Start with one explicit source and interpretation basis. Merge aliases only when the source uses them interchangeably and no relevant conclusion changes. Split uses when their participants, entailments, or time stance differ. Give each result one faithful Tech label, one helpful Plain label, and a short counterexample when a boundary test is needed. Use an F.17 cell only when the receiving work needs the address. Nothing in this clustering makes two sources the same; test that separately in F.9.”
+> “Start with one explicit source and interpretation basis. Merge aliases only when the source uses them interchangeably and no relevant conclusion changes. Split uses when their participants, entailments, or time stance differ. Add labels when a naming or didactic use needs them, preserving the same claim, and a short counterexample when a boundary test is needed. Use an F.17 cell only when the receiving work needs the address. Nothing in this clustering makes two sources the same; test that separately in F.9.”
 
 ### F.3:End
 
@@ -119602,9 +119602,9 @@ The following is a content checklist, not a relation signature or mandatory reco
 - the candidate domain, operative membership condition, intended member/non-member boundary, and continuity rule;
 - the current `KindSignature` edition and effective reference scheme;
 - a short recognition explanation;
-- the full A.1 range of possible candidate systems, using examples only when helpful;
+- the candidate-system range, clarifying the broad A.1 meaning of System when the intended reader could otherwise misread it;
 - the smallest direct-feature criteria or invariants needed by the current use; and
-- the explicit boundary: the description asserts no classification, assignment, capability, Method, Work, evidence, status, permission, responsibility, publication, or relation-position occurrence.
+- the boundaries needed to distinguish this description from neighboring claims in the current use.
 
 **Add only when the current use depends on them:**
 
@@ -119628,7 +119628,7 @@ These are claims or references in an episteme. They are not `SlotSpec` declarati
 | Recognition explanation | A first-minute explanation that distinguishes this kind from neighboring kinds and objects. |
 | Candidate-system range | Candidates must first be admitted as `U.System`; people, teams, organizations, and non-human technical objects are possible examples, not four subkinds declared here. |
 | Conditional neighboring references | Add neighboring references for assignment state, capability, Method, naming, and Bridges only when the receiving use depends on them. |
-| Non-inference boundary | Explicit separation from classification, assignment, Work, evidence, status, permission, responsibility, publication, and relation-position claims. |
+| Non-inference boundary | Keep description, classification, assignment and other neighboring claims separate; state an explicit contrast when it prevents a plausible mistake in the current use. |
 
 A quick local description may stop after the always-recoverable content. A consequence-bearing Work-admission use requires only the neighboring relations it actually needs.
 
@@ -119660,7 +119660,7 @@ Write a description in this order:
 2. Name the current `KindSignature` edition and effective reference scheme.
 3. Give one short recognition paragraph, including the broad A.1 system range when a cold reader could narrow it incorrectly.
 4. State the smallest direct criteria or invariants that distinguish the kind.
-5. State what the description does not assert about classification, assignment, capability, Method, Work, evidence, status, permission, responsibility, publication, or relation positions.
+5. State an explicit boundary when the current use could otherwise confuse the description with classification, assignment, capability, Method, Work or another neighboring claim.
 6. Add neighboring references only when the receiving use depends on them.
 7. Use F.18 for a durable public name. Use C.3.3 only when an actual relation between exact local kinds is current; use F.9 only when the receiving claim relates distinct F.17 local-sense cells.
 
@@ -119742,7 +119742,7 @@ The sentence “Standard S has the architecture-standard role in this Work” is
 
 #### F.4:7.4 - Access Role Is Not Automatically a System Role
 
-RBAC *role* often names a permission grouping. If the current claim concerns permission or access standing, use the direct policy, deontic, access, or status relation. Treat a local access term as a system-role kind only when its own C.3 identity and criterion are current and a receiving Work claim actually needs that classification. Even then, permission and assignment remain separate.
+RBAC *role* often names a permission grouping. If the current claim concerns permission or access standing, use the direct policy, deontic, access or status relation. Treat a local access term as a system-role kind only when A.2 and C.3 establish its candidate domain, work-facing membership distinction and identity. Classify a particular candidate when the receiving use needs that judgment. Permission and assignment remain separate.
 
 ### F.4:8 - Anti-Patterns and Repairs
 
@@ -119810,7 +119810,7 @@ Currentness and reopen condition: reopen F.4 when A.2, C.3, A.2.1, A.2.5, A.2.7,
 | `CC-F4-02` | Are the candidate domain, operative membership condition, intended member/non-member boundary, continuity rule, current `KindSignature`, and effective scheme recoverable, with source or practice provenance used only to locate or compare definitions? |
 | `CC-F4-02a` | Are the description episteme, local kind, `KindSignature`, effective scheme, optional F.17 cell and basis relation, and candidate-classification judgment kept separate, with optional values added only when the receiving use needs them? |
 | `CC-F4-03` | Is the description separate from the kind, classification judgment, NameCard, public row, publication form, and carrier? |
-| `CC-F4-04` | Does first entry preserve the full A.1 range of possible systems rather than imply only non-human technical systems? |
+| `CC-F4-04` | Does first entry preserve the kind's operative candidate domain and clarify the A.1 meaning of System where the intended reader could otherwise narrow it incorrectly? |
 | `CC-F4-05` | Are classification and assignment handled separately under C.3.2 and A.2.1? |
 | `CC-F4-06` | Are capability claims handled under A.2.2? |
 | `CC-F4-07` | Are Method, plan, and Work claims handled under A.3, A.15, and their direct neighbors? |
@@ -119868,13 +119868,13 @@ Typical moments:
 - source wording with *role* must be named locally, but the project has not yet recovered its use—for example, a system-role kind, assignment, status or access relation, relation position, another object, or ordinary wording; or
 - similar names threaten to collapse independently governed objects—for example, a kind, assignment, status, Method, Work occurrence, and description episteme.
 
-**Primary EntityOfConcern.** The EntityOfConcern is the naming discipline for these name families. It relates a recovered meaning to selected Tech and Plain designations. It defines neither the named U-kind nor the local system-role kind, constitutes no description, classifies no candidate, creates no assignment, asserts no status or responsibility, supplies no evidence, and publishes no form.
+**Primary EntityOfConcern.** The EntityOfConcern is the naming discipline for these name families. It relates a recovered meaning to a selected Tech designation and any Plain designation needed for a stated didactic use. It defines neither the named U-kind nor the local system-role kind, constitutes no description, classifies no candidate, creates no assignment, asserts no status or responsibility, supplies no evidence, and publishes no form.
 
 **Primary working reader.** The first reader is a practitioner who has a candidate meaning and must choose a name that keeps the named value's kind and intended use recoverable.
 
-**First useful move.** Recover the exact named value and its direct meaning source before choosing the label. For a U-kind, use its accepted E.24.UK admission result or its direct admission rule. For a local system-role kind, use its A.2 and C.3 identity and criterion; use F.4 for the separate description episteme. Then choose one Tech label and one short Plain explanation whose scope does not exceed the recovered meaning.
+**First useful move.** Recover the exact named value and its direct meaning source before choosing the label. For a U-kind, use its accepted E.24.UK admission result or its direct admission rule. For a local system-role kind, use its A.2 and C.3 identity and criterion; use F.4 for the separate description episteme. Then choose one Tech label that preserves the recovered meaning. Add a short Plain explanation when the intended reader needs it; its scope must not exceed that meaning.
 
-**Smallest useful result and stop.** Stop with one already identified value, one Tech label, and one Plain explanation as soon as they resolve unambiguously for the named local use. Do not create a NameCard, public row, Bridge, description episteme, or new kind merely to complete a form. If the value or kind is unresolved, apply its direct recovery rule. Use F.18 or F.17 only for the durable or public use they address. Use C.3.3 only for an actual relation between exact local kinds and F.9 only for an actual relation between distinct F.17 cells. If the label starts carrying assignment, Work, result, provenance, assurance, responsibility, or publication claims, stop naming and recover those objects first.
+**Smallest useful result and stop.** Stop with one already identified value and one Tech label as soon as the value and its meaning resolve unambiguously for the named local use. Add a Plain explanation when that use needs one. Do not create a NameCard, public row, Bridge, description episteme, or new kind merely to complete a form. If the value or kind is unresolved, apply its direct recovery rule. Use F.18 or F.17 only for the durable or public use they address. Use C.3.3 only for an actual relation between exact local kinds and F.9 only for an actual relation between distinct F.17 cells. If the label starts carrying assignment, Work, result, provenance, assurance, responsibility, or publication claims, stop naming and recover those objects first.
 
 **What goes wrong if missed.** Names become arguments. A system-role-kind label smuggles in neighboring claims—for example, assignment, permission, responsibility, or capability. A status phrase becomes a system-role kind. A U-kind name imports one practice's or source's private ontology. A shared word can hide disagreement among witnesses. Downstream patterns then repair semantics that naming already broke.
 
@@ -119939,7 +119939,7 @@ Make these facts recoverable in the prose, direct admission, F.4 description, Co
 - the direct source of its meaning;
 - for a local system-role-kind designation, the candidate domain, operative membership condition, intended member/non-member boundary, continuity rule, current `KindSignature`, and effective scheme, with source or practice provenance kept as a locator or comparison cue;
 - for a description name, the separate F.4 `SystemRoleKindDescription` and its exact EntityOfConcern;
-- the selected Tech and Plain designations;
+- the selected Tech designation and any Plain designation needed for a stated didactic use;
 - aliases or predecessor labels with lineage;
 - morphology, neutrality, and minimal-generality checks; and
 - the boundary that prevents the name from absorbing classification, assignment, capability, Method, Work, status, evidence, permission, responsibility, publication, or relation-position claims.
@@ -119961,7 +119961,7 @@ Keep four things separate: the chosen name, the local system-role kind it names,
 
 #### F.5:4.2 - Tech and Plain Designations
 
-Use two human-facing designations when a name is durable enough to be reused:
+Choose a Tech designation for durable reuse. Add a Plain designation when a stated didactic use needs it:
 
 | Designation | Job | Constraint |
 | --- | --- | --- |
@@ -119975,7 +119975,7 @@ For the description episteme, name the description rather than the described kin
 
 For a coupled system-role–Method phrase, recover the local kind and Method separately before naming either one. Recover and name a MethodDescription, WorkPlan, or dated Work only when that exact object is already admitted and the naming use consumes it; a shared phrase does not require any of them to exist. `RoboticsEngineerSystemRole` may designate one admitted local kind; `RobotEngineeringMethod` names a Method or Method family. Ordinary *engineer-roboticist* may remain the Plain expression when nearby project wording makes the intended kind clear and the C.3 candidate domain, membership distinction, boundary probes, and continuity remain recoverable. The wording helps the reader; it does not identify the kind. It replaces neither a qualifying MethodDescription nor any description of planned or performed Work.
 
-When a later naming use actually consumes one dated Work identity, that Work must already be constituted before F.5 naming begins. Recover every exact actual performer through A.13, and let A.15.1 independently admit the Work from its semantic Method, time, containing System, and other required direct facts. Add the assignment occurrence, holder equality, and F.6 relation only when the naming record or receiving use expressly represents precise assignment-bound attribution; missing or failed F.6 leaves the Work identity intact. Otherwise keep the activity in ordinary wording and do not mint a Work identifier merely to support a name.
+When a later naming use actually consumes one dated Work identity, that Work must already be constituted before F.5 naming begins. Recover every exact actual performer through A.13, and let A.15.1 independently admit the Work from its semantic Method, time, containing System, and other required direct facts. Add the assignment occurrence, holder equality, and F.6 relation only when the naming record or receiving use expressly represents precise assignment-bound attribution; missing or failed F.6 alone leaves independently admitted Work intact. If the same finding invalidates a premise consumed by its A.13/A.15.1 admission, recheck that premise and its dependent conclusions under F.6:4.2. When the naming use does not consume a dated Work identity, keep the activity in ordinary wording.
 
 For a U-kind, the Tech designation should be neutral enough that no witness wins by vocabulary alone. If witnesses disagree between `Observation`, `Reading`, and `MeasurementResult`, a Concept-Set row preserves the comparison; the exact shared value and invariants must still pass E.24.UK admission or their direct defining rule before an author uses F.5 to choose a name.
 
@@ -119997,8 +119997,8 @@ When a candidate contains a tempting word, recover the current claim instead of 
 
 | Source wording | First ontological question | Direct next locus |
 | --- | --- | --- |
-| `EvidenceRole`, `ModelFitEvidenceRole`, or “evidence role” | Is an episteme used as evidence for a target claim with exact scope, polarity, relevance window, and provenance? | A.10, B.3, C.2.1, or the exact evidence-use relation |
-| `RequirementRole` or “standard role” | Is an episteme, standard, or clause used as a requirement, source, or specification? | E.10.D2, C.28, E.17, or the exact source or requirement relation |
+| `EvidenceRole`, `ModelFitEvidenceRole`, or “evidence role” | Is an episteme used as evidence for a target claim with the needed scope, polarity and provenance, including a relevance window when the use depends on it? | A.2.4, A.10, B.3 for a named assurance claim, or the exact evidence-use relation |
+| `RequirementRole` or “standard role” | Is an episteme, standard or clause used as a requirement, source or specification? | E.10.D2 and the exact source, specification-use or requirement relation; E.17 for a separate publication-form question |
 | `Access Role` in RBAC | Is this a policy or permission grouping rather than a work-facing kind? | Exact access, policy, permission, or status relation; F.18 only if durable naming is needed |
 | “role of subject, provider, or input” | Is this participant meaning, a declaration slot, or a representation position? | E.10.ROLE, A.6.RSIR, and A.6.5 |
 | `ReviewerSystemRole` | Is one exact local C.3 kind with a direct criterion current? | A.2 with C.3; F.4 for its description; A.2.1 only when assigned |
@@ -120056,7 +120056,7 @@ The repair is object recovery first, designation second.
 | `CC-F5-1` | The exact named value and kind are explicit. |
 | `CC-F5-2` | The direct meaning source is explicit: E.24.UK or direct admission for a U-kind, A.2 with C.3 for a local system-role kind, F.4 for its description, or another exact relation. A Concept-Set row, card, or citation is not admission or identity. |
 | `CC-F5-3` | The Tech designation is no broader than the recovered meaning. |
-| `CC-F5-4` | The Plain designation points to the same value without widening it. |
+| `CC-F5-4` | Any Plain designation serves a stated didactic use and points to the same value without widening it. |
 | `CC-F5-5` | Edition, source, witness provenance, local boundary, scheme, threshold, and window stay outside the main label. A locator may carry such metadata when navigation requires it, but the metadata does not identify the named kind or value unless its own direct recovery rule makes that distinction part of the object. |
 | `CC-F5-6` | A U-kind name is neutral across the named witness sources or practices. Shared source spelling establishes neither the governed value nor a local kind's identity; the direct admission and identity rules must already have done that work. Treat the term as shared only when evidence establishes the same referent. |
 | `CC-F5-7` | The system-role-kind designation, local kind, F.4 description, classification judgment, assignment species, and assignment occurrence remain distinct. For any assignment identity used, recover the occurrence and its declared A.2.1 species. The species defines the participant meanings, assigned-kind domain, predicate, applicability, and occurrence identity; the occurrence supplies the holder, assigned-kind value, case applicability, extent, and any other participant values. Otherwise the text does not invent an occurrence. |
@@ -120115,10 +120115,10 @@ The bounded question is: **after the object is recovered, what is the smallest n
 | --- | --- | --- | --- |
 | [ISO 704:2022](https://www.iso.org/standard/79077.html) and [ISO 1087:2019](https://www.iso.org/standard/62330.html) | Separate objects, concepts, definitions, and designations; make concept relations and term formation inspectable. | Terminology work does not itself admit the FPF object, decide a system-role kind, make an assignment obtain, or state the direct use and publication boundaries. | **Adopt** naming after meaning, minimal generality, and inspectable term formation in sections 4.1-4.3 and checks `CC-F5-1` to `CC-F5-4`. **Reject** a preferred term or definition as object admission. |
 | W3C Ontology-Lexica Community Group, [OntoLex-Lemon](https://www.w3.org/2016/04/ontolex/), 2016 Community Report | Separates lexical entry, written and morphological form, lexical sense, ontology reference, usage conditions, and sense relations. | A full lexical graph and syntax-semantics model is excessive for one local Tech/Plain pair, and its reference relation does not establish FPF object identity or reuse authority. | **Adapt** object-sensitive morphology and the separation of name, sense, and referent in sections 4.1-4.4. **Reject** mandatory full lexicon modeling; use F.18 only when durable naming actually needs a card. |
-| [ISO 24495-1:2023](https://www.iso.org/standard/78907.html), current published plain-language standard | Requires written information that intended readers can find, understand, and use; it explicitly applies to technical writing and controlled languages. | Plain-language quality does not settle ontology, reference, or term identity, and a shorter familiar word can still widen the meaning. | **Adopt** one short Plain designation and reader-use check in section 4.2 and `CC-F5-4`. **Reject** simplification that changes the recovered value or removes a live distinction. |
+| [ISO 24495-1:2023](https://www.iso.org/standard/78907.html), current published plain-language standard | Requires written information that intended readers can find, understand, and use; it explicitly applies to technical writing and controlled languages. | Plain-language quality does not settle ontology, reference, or term identity, and a shorter familiar word can still widen the meaning. | **Adopt** the reader-use check and, when that use needs it, one short Plain designation in section 4.2 and `CC-F5-4`. **Reject** simplification that changes the recovered value or removes a live distinction. |
 | W3C [SKOS Reference](https://www.w3.org/TR/skos-reference/), Recommendation 2009 | Keeps preferred and alternative labels, notes, concepts, collections, and mapping relations distinct. | It is useful lineage for labels and aliases but does not model enough morphology or decide FPF kind, assignment, Work, evidence, or publication claims. | **Retain as lineage** for aliases and cross-local caution in rules 8-9 and `CC-F5-6`/`CC-F5-9`; do not treat a shared label or generic mapping as a Bridge or common referent. |
 
-**Selected non-dominated contribution.** A bare preferred label is cheaper but can hide the wrong object and leaves a cold reader without an explanation of the named value. A full ontology lexicon is richer but normally costs more than one project naming decision needs. F.5 stops at one already recovered value, one Tech designation, and one short Plain explanation. The word form follows the kind of object, and the name's use remains bounded by the recovered meaning. At that effort, the result is more usable than a formal-only name and more precise than an unexplained familiar word.
+**Selected contribution.** Keep the recovered meaning accessible through the designation and its direct explanation. A bare label is insufficient when the intended reader cannot recover that meaning; a full ontology lexicon may supply detail that one naming decision does not need. F.5 uses one already recovered value and a Tech designation, adding a short Plain explanation for a stated didactic need. Word form follows the kind of object, and the name's use remains bounded by the recovered meaning.
 
 
 Source-use boundary: external labels, Concept-Set rows, and citations are evidence for local meaning or common practice, not automatic Tech designations, admission decisions, or Work, result, and provenance identities. A source term becomes selected only after the exact value is admitted and the naming comparison passes; naming changes none of those objects.
@@ -120160,7 +120160,7 @@ Typical moments:
 
 **Primary working reader.** An engineer, operator, Method author, manager, or FPF author deciding whether a performed-Work attribution is grounded strongly enough for the next use.
 
-**First useful move.** Confirm that A.15.1 has already admitted the exact dated Work without using an F.6 conclusion. Name that Work and the assignment occurrence under which it is said to have been performed. Recover the assignment's declared species and participant values, then confirm that the actual performer already has the A.13 core for this action, scope, working situation, and window and that this is the same obtaining assignment. Evidence supports those core facts; a characteristic profile enters only for a consumed Grade, autonomy or profile result, criterion-dependent characteristic, or assurance use. Ask what direct case fact links the exact pair. Confirm holder equality and interval coverage; those checks alone do not create the link. If the case does not establish the pair, retain the Work and leave only the attribution unresolved. Otherwise say plainly that the holder System performed the Work under that assignment.
+**First useful move.** Confirm that A.15.1 has already admitted the exact dated Work without using an F.6 conclusion. Name that Work and the assignment occurrence under which it is said to have been performed. Recover the assignment's declared species and participant values, then confirm that the actual performer already has the A.13 core for this action and any scope, working situation and window needed by the attribution use and that this is the same obtaining assignment. Evidence supports those core facts; a characteristic profile enters only for a consumed Grade, autonomy or profile result, criterion-dependent characteristic, or assurance use. Ask what direct case fact links the exact pair. Confirm holder equality and interval coverage; those checks alone do not create the link. If the case does not establish the pair, leave the attribution unresolved. Retain independently admitted Work while its admission grounds hold; apply section 4.2's premise-recheck rule when the same finding also defeats one of those grounds. When the case establishes the pair and the required grounds hold, say plainly that the holder System performed the Work under that assignment.
 
 **What goes wrong if missed.** Assignment is treated as proof of Work, a label replaces the assignment occurrence, a generic assignment duplicate erases a stronger appointment, or a log or report is made the performer. When several assignments overlap, interval coverage then attributes the same Work to all of them even though the exact pair was never established.
 
@@ -120216,7 +120216,7 @@ when performedUnderAssignment(W, RA) obtains:
   attributedPerformerSystem(W, RA) := RA.HolderSystemSlot
 ```
 
-`WorkOccurrenceSlot` names a dated Work already admitted under A.15.1 from independently grounded performance history, A.13-qualified actual performer facts, Method, extent, and containment. The typed slot consumes that completed membership result; F.6 neither helps establish nor reopens `W : U.Work`. The declaration-local `SystemRoleAssignmentSlot` names one occurrence of an admitted assignment species declared under `U.SystemRoleAssignment`. Its `U.RelationRef` names that occurrence and is limited to `U.SystemRoleAssignment`. Filling the two slots, matching the holder, or finding temporal overlap does not establish that this Work was performed under this assignment; the case must independently establish that link.
+`WorkOccurrenceSlot` names a dated Work already admitted under A.15.1 from independently grounded performance history, A.13-qualified actual performer facts, Method, extent, and containment. The typed slot consumes that completed membership result; F.6 does not establish `W : U.Work`; a finding that also invalidates a consumed admission premise invokes section 4.2's premise recheck. The declaration-local `SystemRoleAssignmentSlot` names one occurrence of an admitted assignment species declared under `U.SystemRoleAssignment`. Its `U.RelationRef` names that occurrence and is limited to `U.SystemRoleAssignment`. Filling the two slots, matching the holder, or finding temporal overlap does not establish that this Work was performed under this assignment; the case must independently establish that link.
 
 For an obtaining attribution:
 
@@ -120235,14 +120235,17 @@ No evidence, log, status, MethodDescription, result, publication, context record
 The direct Work-assignment attribution is a world-side fact, separate from any assertion or evidence. A positive check requires all of the following:
 
 1. `W` is one exact dated `U.Work` occurrence already admitted under A.15.1 from its independently grounded candidate-action history, A.13-qualified actual performer basis, Method actually followed, temporal extent, and containing-System relation; that admission neither assumes nor depends on this F.6 relation;
-2. the actual performer `S` has the A.13 core for this action, scope, working situation, and window: `S` is an admitted System, satisfies and is classified under one exact local agential system-role kind, and holds the same obtaining assignment `RA`; evidence supports those core facts, while a characteristic profile is required only for a consumed Grade, autonomy or profile result, criterion-dependent characteristic, or assurance use;
+2. the actual performer `S` has the A.13 core for this action and any scope, working situation and window needed by the attribution use: `S` is an admitted System, satisfies and is classified under one exact local agential system-role kind, and holds the same obtaining assignment `RA`; evidence supports those core facts, while a characteristic profile is required only for a consumed Grade, autonomy or profile result, criterion-dependent characteristic, or assurance use;
 3. `RA` is one named assignment occurrence of a declared `U.SystemRoleAssignment` species, with all identity-bearing participants and its rule recovered;
 4. the case establishes that `W` was performed under `RA`, rather than deriving that link from a label, common holder, assignment existence, or temporal overlap;
 5. `RA.HolderSystemSlot = S`, the admitted System that actually performed `W`; and
 6. RA's species predicate obtains throughout the attributed temporal extent of `W`.
 
 Conditions 1–3, 5, and 6 are five constraints on a valid attribution but do not establish it. F.6 reuses the obtaining A.13 assignment; it does not create the A.13 classification, assignment, evidence, optional profile, or Work. Where the independent A.13/A.15.1 admission grounds still hold, missing or failed attribution leaves `W : U.Work` intact and leaves only this exact assignment-bound attribution unasserted. If the same finding invalidates a premise actually consumed by that admission, recheck the premise and its dependent conclusions under A.15.1. Preserve independently grounded history and relations; absence of attribution alone is not evidence of no performance.
-Two overlapping assignments held by the same System may satisfy all five constraints while the case links the Work to only one. Use that case fact; if it does not distinguish the assignments, leave the attribution unresolved rather than asserting both.
+
+Two overlapping assignments held by the same System may satisfy all five constraints while the Work was performed under only one. To recover the link, start from the contribution required by each assignment and follow the actual action's initiation and execution, including the return of a result when it matters to that contribution. A request or commission can identify which contribution was undertaken; execution facts and any result-return facts can show whether this Work carried it out. Use the identity-bearing participants and rule of the actual assignment species to distinguish competing occurrences. These facts may be recoverable from an existing execution trace, correspondence, direct observation or another adequate source; no particular record format is required.
+
+Reuse an already established pairing. When it is not established, inspect the point at which the histories would differ: for example, which commission's question the performer undertook and to which commission the resulting review answered. Shared task wording, holder and time alone do not decide that question. If the available facts still cannot distinguish the assignments, leave the attribution unresolved rather than asserting both.
 
 If attribution concerns only a temporal, episode, or operational part of a larger Work whole, first identify that part as its own `U.Work` occurrence under A.15.1. Do not hide an unidentified Work portion inside F.6.
 
@@ -120278,7 +120281,7 @@ Do not replace the species with one `Context` value. Recover what the source tok
 
 1. Start from the exact `U.Work` occurrence already admitted by A.15.1 without an F.6 premise.
 2. Recover the assignment occurrence, including its declared species, identity-bearing participants, rule, applicability, and time span.
-3. Find the case fact that directly links this Work to this assignment; do not infer that link merely because the holder and interval match.
+3. Recover the link from the assigned contribution and actual initiation, execution or return of result as in section 4.2. Identify the fact that distinguishes this Work–assignment pair from any live competing pair; matching holder and interval alone is insufficient.
 4. Confirm that the assignment holder is the actual performer.
 5. Confirm that the assignment predicate obtains throughout the attributed Work interval.
 6. When all five checks pass, state the F.6 relation or say plainly that the holder System performed the Work under that assignment. If the direct link, a participant, or a required constraint is missing, leave this assignment-bound attribution unresolved. Retain Work whose independent admission grounds still hold, and apply section 4.2's premise-recheck rule when the finding also affects those grounds; do not select another covering assignment.
@@ -120326,7 +120329,7 @@ InspectionWork-17 was performed by Robot-7 under InspectionAssignment-17.
 
 Expose declarations and occurrence keys only when a dependent use must distinguish occurrences, cite one as a participant, compare assertions, or preserve provenance. If the assignment cannot be recovered for this attribution, retain the independently grounded Work and actual performer, leave the attribution unresolved, and apply section 4.2 to any affected admission premise. State any source-reliance or evidence limit under its direct predicate.
 
-Another pattern may require a **complete A.13/A.15.1/F.6 basis** when its receiving use needs both admitted Work and precise assignment-bound performer attribution, and may point here instead of repeating this declaration and check sequence. That combined basis has a fixed order: A.13 first supplies every performer's exact System, local agential kind and criterion, classification, obtaining assignment, needed scope, working situation, window, and adequate core evidence; A.15.1 independently admits the dated Work from its performance history, at least one obtaining `enactsMethod` relation, extent, and at least one obtaining locally declared Work-to-System containment relation; only then does F.6 test every required exact Work-assignment pair through the same obtaining A.13 assignment. The phrase is never an A.15.1 membership test. A missing F.6 relation preserves `W : U.Work` and leaves only the precise attribution unresolved. A characteristic profile remains conditional, and another enactment or containing-system relation is named only when the receiving use relies on it.
+Another pattern may require a **complete A.13/A.15.1/F.6 basis** when its receiving use needs both admitted Work and precise assignment-bound performer attribution, and may point here instead of repeating this declaration and check sequence. That combined basis has a fixed order: A.13 first supplies every performer's exact System, local agential kind and criterion, classification, obtaining assignment, needed scope, working situation, window, and adequate core evidence; A.15.1 independently admits the dated Work from its performance history, at least one obtaining `enactsMethod` relation, extent, and at least one obtaining locally declared Work-to-System containment relation; only then does F.6 test every required exact Work-assignment pair through the same obtaining A.13 assignment. The phrase is never an A.15.1 membership test. A missing F.6 relation alone preserves independently admitted `W : U.Work` and leaves the precise attribution unresolved; section 4.2 governs a finding that also invalidates an admission premise. A characteristic profile remains conditional, and another enactment or containing-system relation is named only when the receiving use relies on it.
 
 ### F.6:5 - Invariants
 
@@ -120336,7 +120339,7 @@ Another pattern may require a **complete A.13/A.15.1/F.6 basis** when its receiv
 4. RA's predicate obtains throughout the attributed Work interval; a declared window alone does not establish coverage.
 5. The species declaration, occurrence participant identity, holder match, and time coverage constrain but do not establish the Work–assignment link.
 6. Overlapping assignments are checked pair by pair; an unresolved basis never licenses attribution to every covering assignment.
-7. Every positive precise assignment-bound performer attribution starts from an already admitted Work whose actual performer has the A.13 core for the exact action, scope, working situation, and window, then adds its own F.6 link through the same covering assignment occurrence. A characteristic profile remains conditional on its receiving use. A lead, team, member, coordination, allocation, or responsibility claim substitutes for none of these.
+7. Every positive precise assignment-bound performer attribution starts from an already admitted Work whose actual performer has the A.13 core for the exact action and any scope, working situation and window needed by the attribution use, then adds its own F.6 link through the same covering assignment occurrence. A characteristic profile remains conditional on its receiving use. A lead, team, member, coordination, allocation, or responsibility claim substitutes for none of these.
 8. A passive assigned System is not thereby a performer. Any claimed passive participation needs a rule that defines it; otherwise A.6.RCD returns `missing-governor`.
 9. Assignment does not prove performance, and attribution proves neither classification, capability, state, Method validity, result quality, responsibility, authority, nor acceptance.
 10. `RoleEnactment` wording is repaired to Work plus `performedUnderAssignment`; no duplicate object remains.
@@ -120373,7 +120376,9 @@ The case basis directly links that Work to that assignment; the matching holder 
 
 #### F.6:7.2 - Two Review Commissions
 
-`ProjectReviewAppointmentAssignment` is a declared species. It declares three participant positions: `HolderSystemSlot`, local assigned kind, and `ReviewCommissionSlot`. `ReviewAssignment-A` and `ReviewAssignment-B` are two occurrences with Alice and `ReviewerSystemRole` in common but different commissions, and both cover the same interval. The case says that Alice performed `ReviewWork-A` under assignment A and `ReviewWork-B` under assignment B; it does not establish either crossed pairing. If the facts say only that Alice performed review Work while both appointments covered the interval, leave the attribution unresolved. The readable projection “Alice is reviewer” selects neither assignment and creates no generic assignment.
+`ProjectReviewAppointmentAssignment` is a declared species. It declares three participant positions: `HolderSystemSlot`, local assigned kind and `ReviewCommissionSlot`. `ReviewAssignment-A` and `ReviewAssignment-B` have Alice and `ReviewerSystemRole` in common but different commissions, and both cover the same interval. Commission A's request asks Alice to compare two pump alternatives; Commission B's request asks her to review a budget. The available correspondence identifies Alice's undertaking of A's request, and the execution and return facts show her comparison of those alternatives answering that same request. Following the required contribution through those facts establishes the link from `ReviewWork-A` to assignment A. The budget review has its own history and pairing; the shared holder and interval establish neither crossed pairing.
+
+If the available facts say only that Alice performed review Work while both appointments covered the interval, the attribution remains unresolved. The same is true if both requests ask the same question and the history does not distinguish which appointment the action fulfilled. The readable projection “Alice is reviewer” selects neither assignment.
 
 #### F.6:7.3 - Reviewer and Review Report
 
@@ -120413,7 +120418,7 @@ A.13 first recovers `ReviewTeam-9` and `Alice` as the two exact actual performer
 
 ### F.6:9 - Conformance Checklist
 
-1. `WorkOccurrenceSlot` names one dated `U.Work` occurrence already admitted by A.15.1 without relying on F.6; its actual performers already have the A.13 core for the exact action, scope, working situation, and window, and any characteristic profile is required only by its own Grade, autonomy, criterion-dependent, profile, or assurance use.
+1. `WorkOccurrenceSlot` names one dated `U.Work` occurrence already admitted by A.15.1 without relying on F.6; its actual performers already have the A.13 core for the exact action and any scope, working situation and window needed by the attribution use, and any characteristic profile is required only by its own Grade, autonomy, criterion-dependent, profile, or assurance use.
 2. `SystemRoleAssignmentSlot` names one assignment occurrence of a declared species under `U.SystemRoleAssignment` through `U.RelationRef`.
 3. The assignment's declared species, all identity-bearing participants, rule, applicability, and uninterrupted occurrence identity remain recoverable. Each species keeps its SlotSpec `ValueKind` domains distinct from the participant values supplied by the occurrence; `AssignedSystemRoleKindSlot` takes one kind value from its declared local system-role-kind domain.
 4. The case establishes that W was performed under RA; the assignment's existence, matching holder, and temporal overlap do not establish that link.
@@ -120439,7 +120444,7 @@ A.13 first recovers `ReviewTeam-9` and `Alice` as the two exact actual performer
 | Assignment proves Work | Holding is confused with dated performance. | Name the Work and assignment, then establish from the case that the Work was performed under that assignment. |
 | Holder plus interval constructs attribution | Any covering assignment held by the performer is treated as the assignment under which W occurred. | Treat the matching holder and interval coverage as necessary checks; establish from the case which assignment the Work was performed under. |
 | Overlap attributes to every commission | Two assignments with a common holder and interval both receive the same Work. | Recover all participants; establish only the Work–assignment link supported by the case, or leave it unresolved. |
-| Lead or team assignment covers everyone | One assignment substitutes for the actual performer set. | Recover every exact actual performer of top-level or child Work through A.13 and let A.15.1 independently admit each Work occurrence. When precise assignment-bound attribution is current, give each performer its own same A.13 assignment and later F.6 link to the already admitted Work; missing attribution leaves Work intact. |
+| Lead or team assignment covers everyone | One assignment substitutes for the actual performer set. | Recover every exact actual performer of top-level or child Work through A.13 and let A.15.1 independently admit each Work occurrence. When precise assignment-bound attribution is current, give each performer its own same A.13 assignment and later F.6 link to the already admitted Work; missing attribution alone leaves independently admitted Work intact, subject to section 4.2's premise recheck. |
 | Passive article becomes performer | A test-subject assignment and overlap are read as Work attribution or passive participation. | Attribute Work only to actual performers; use the rule that defines passive participation or return the A.6.RCD `missing-governor` result. |
 | Work attributed by a system-role label | The holder and assignment occurrence are unavailable. | Recover the declared assignment occurrence, all its participants, and its holder. |
 | F.6 creates a generic assignment | A stronger appointment is flattened or duplicated. | Keep RA's declared species and let `SystemRoleAssignmentSlot` consume the family. |
@@ -120594,7 +120599,7 @@ For a teaching contrast, the relation column may say **none asserted** and the c
 6. **No automatic closure.** Relations are not completed pairwise or transitively merely to fill a row.
 7. **No universal row type.** A `senseFamily` label is not required and cannot substitute for an intensional account of what is being compared.
 8. **Parsimony.** Keep only entries and columns that change the current answer.
-9. **Didactic bound.** Split a row that a careful reader cannot understand in about thirty seconds.
+9. **Didactic bound.** Split a row when its combined distinctions prevent the intended reader from recovering the comparison. Keep related claims together when their joint reading is needed.
 
 ### F.7:9 - Micro-illustrations
 
@@ -120607,7 +120612,7 @@ For a teaching contrast, the relation column may say **none asserted** and the c
 
 | Comparison or use | Exact source-local entries | Obtaining relations | Loss and boundary | Basis | Conclusion |
 | --- | --- | --- | --- | --- | --- |
-| Explain two class-order notations | OWL 2 `SubClassOf`; FPF `U.SubtypeRelation` claim | An explicit representation or semantic relation, if established for the selected expressions | OWL profile semantics and FPF kind criteria may differ | C.3, C.29, A.6.3.RT, and cited sources | Use one didactic gloss only within the stated notation comparison; do not include FCA order by resemblance. |
+| Explain two class-order notations | OWL 2 `SubClassOf`; FPF `U.SubkindOf` claim | An explicit representation or semantic relation, if established for the selected expressions | OWL profile semantics and FPF kind criteria may differ | C.3.1, C.29, A.6.3.RT, and cited sources | Use one didactic gloss only within the stated notation comparison; do not include FCA order by resemblance. |
 
 
 
@@ -120668,7 +120673,7 @@ Performed-Work attribution remains an A.15.1 and F.6 claim about actual Work and
 
 #### F.7:11.4 - Class inclusion and FCA order
 
-A contrast row may show OWL class inclusion, FPF subtype, and FCA concept order together while stating that FCA order is not class inclusion. A positive relation between the first two is still a separate claim with its own semantics and evidence.
+A contrast row may show OWL class inclusion, FPF `U.SubkindOf`, and FCA concept order together. FCA orders formal concepts by inclusion of their extents, equivalently reverse inclusion of their intents, within a selected formal context ([Rudolph, Săcărea and Troancă, 2015, §2.1](https://iccl.inf.tu-dresden.de/w/images/a/aa/RST-IJCAI2015.pdf)). That order does not by itself establish an OWL class axiom or an FPF subkind fact. A positive correspondence requires an explicit interpretation and grounds for the chosen domain and membership criteria.
 
 #### F.7:11.5 - *Role* trigger word
 
@@ -120754,11 +120759,11 @@ Typical triggers include:
 - a governed value may need a durable name, public row, or policy identifier; and
 - pressure for a new U-kind appears. That last case stops before naming until E.24.UK has returned a stable admission disposition.
 
-**Primary working object.** One F.8 disposition for the expression and proposed use. Ordinary use creates no decision occurrence or result episteme. If a later claim must cite, replay, or assign accountability to the decision itself, use the separately triggered branch in §4.5.
+**Primary working object.** One F.8 disposition for the expression and proposed use. Ordinary naming needs no separate decision-occurrence or result-episteme identity. If a later claim must cite, replay or assign accountability to the decision itself, use the separately triggered branch in §4.5.
 
 **Primary working reader.** A practitioner choosing whether an expression should stay local, reuse a name, or open a stronger naming path.
 
-**First useful move.** Write the four starting facts. Then try, in order, a local phrase, an existing designation, an alias, the subject pattern's name, and an admitted F.17 row. Stop at the first sufficient result. Open a cell, NameCard, public row, or policy identifier only when the receiving use needs it.
+**First useful move.** Recover the four starting facts, then select the least burdensome treatment that supports the use: a local phrase, an existing designation, an alias, the subject pattern's name or an admitted F.17 row. Reuse known grounds for that choice; compare other treatments when their adequacy could change it. Open a cell, NameCard, public row or policy identifier only when the receiving use needs it.
 
 **What goes wrong if missed.** A convenient expression is treated as the subject it merely names. Local or source wording becomes durable ontology; a row or alias gains uses it never admitted; a role-like word hides a kind, description, assignment, Work occurrence, or another governed relation; or a record is mistaken for the decision it describes.
 
@@ -120811,7 +120816,7 @@ Treat mint-or-reuse as a decision about an already recovered subject, not a vote
 3. the subject pattern that defines or tests that value or relation; and
 4. the proposed naming use.
 
-If any fact is missing, stop at the subject-recovery route; naming cannot supply it. Otherwise try the dispositions in this order and stop at the first one that supports the proposed use:
+If a needed fact is missing, recover it through the subject pattern. Otherwise use the following dispositions to select a sufficient treatment. Reuse an already justified choice; examine another disposition when it could meet the use with less burden or preserve a distinction the proposed choice loses:
 
 1. keep a local phrase;
 2. reuse an existing designation;
@@ -120824,7 +120829,7 @@ If any fact is missing, stop at the subject-recovery route; naming cannot supply
 9. introduce a policy identifier for an already recovered policy specification; or
 10. block or lower the naming use.
 
-The smallest result is one readable sentence, not a mandatory record: state the governed subject, proposed naming use, selected disposition, resulting name when any, and the change that would reopen the decision. Add a non-use boundary only when `F.19`'s grounded-contribution test admits it. For example, when no lighter disposition supports a needed durable local designation: “Under `PatternReviewReferenceScheme-2026`, use `ReviewerRole` as the Plain designation of `ReviewerSystemRole` for local review-method prose; select `openDurableNamingSettlement` and revisit the decision if the naming use becomes public or cross-local.”
+The ordinary result states the governed subject, proposed naming use, selected disposition and resulting name when any. Add a reopen condition when continued reuse needs it, and an explicit non-use boundary when F.19's grounded-contribution test warrants it. For example, when a durable local designation is needed: “Under `PatternReviewReferenceScheme-2026`, use `ReviewerRole` as the Plain designation of `ReviewerSystemRole` for local review-method prose; select `openDurableNamingSettlement` and revisit the decision if the naming use becomes public or cross-local.”
 
 The corresponding F.8 result labels are `localPhraseOnly`, `reuseExistingDesignation`, `aliasOnly`, `reuseDirectPatternName`, `reuseAdmittedTermRow`, `nameSystemRoleKindDescription`, `openDurableNamingSettlement`, `proposePublicTermRow`, `introducePolicyIdentifier`, and `blockOrLowerUse`. They are not new `U.*` kinds. A stronger result opens its subject pattern; it does not itself create a card, row, identifier, policy specification, or relation occurrence.
 
@@ -120847,12 +120852,12 @@ The corresponding F.8 result labels are `localPhraseOnly`, `reuseExistingDesigna
 
 #### F.8:4.2 - Decision Sequence
 
-Use this order and stop at the first disposition that supports the proposed use without hiding a governed distinction.
+Use the following questions to recover an adequate disposition without hiding a governed distinction. Skip questions already settled by the available basis.
 
 1. **Recover the four starting facts.** Name the expression, governed value or relation, its subject pattern, and the proposed use. If the value or relation is not available, stop and use its subject-recovery route; F.8 cannot establish it.
 2. **Split mixed candidates.** If one expression covers more than one governed subject or use—for example, a kind, assignment, evidence use, policy, Method, or Work—make separate naming decisions.
 3. **State the naming locality.** Supply the naming reference scheme's designation and interpretation rules by value, and state the local-sense claim. Cite a `SchemeSenseCell`, an obtaining `LocalSenseBasisRelation`, or a selected bounded-model-use Structure only when the naming use needs that object.
-4. **Apply F.14 and try a local phrase.** If ordinary local wording supports the use, choose `localPhraseOnly` and stop.
+4. **Apply F.14 when the needed naming treatment is unsettled.** If ordinary local wording supports the use, choose `localPhraseOnly` and stop; use an already justified stronger treatment when the receiving use needs it.
 5. **Try an existing designation.** Reuse it only when the value, kind, scope, occurrence identity, local sense, and proposed use match.
 6. **Try an alias.** Use `aliasOnly` when the governed meaning is unchanged and lineage can expose the wording variation. An alias may not change kind, scope, occurrence identity, use, or authority.
 7. **Try the subject's existing name.** Use the name supplied for the governed subject. A.2 and C.3 govern a local system-role kind and F.5 governs its designation; use F.18 only for a durable settlement and F.4 only for a separately needed `SystemRoleKindDescription`. A.2.1 continues to govern any assignment. For precise performed Work, A.13 first recovers each exact actual performer and A.15.1 independently admits the occurrence; F.6 follows only when the naming case or receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment.
@@ -120981,7 +120986,7 @@ Rules:
 ### F.8:5 - Invariants
 
 1. **Four facts, one use.** Every disposition names the expression, governed value or relation, its subject pattern, and one proposed use. Split an expression that covers more than one governed subject or use.
-2. **Lightest sufficient result.** Try the ordinary reuse ladder before creating a cell, NameCard, row, or policy identifier. An unsettled U-kind proposal stops before naming.
+2. **Lightest sufficient result.** Use adequate ordinary wording or an existing designation directly. Create a cell, NameCard, row or policy identifier only for the receiving need it serves. An unsettled U-kind proposal stops before naming.
 3. **Reuse preserves meaning.** Reuse or aliasing changes no kind, scope, occurrence identity, local-sense claim, admitted use, authority, or lineage. Shared spelling under another scheme establishes neither sameness nor an F.9 Bridge.
 4. **Kind, description, assignment, and Work stay distinct.** A designation may name a recovered local system-role kind `K` without creating the optional F.4 description `D`. Neither name classifies a candidate, creates an A.2.1 assignment `A`, or demonstrates Work. Other governed uses remain with their subject patterns.
 5. **Rows stay within admitted use.** Reusing an F.17 row supplies only its `AdmissibleUse` and no equivalence.
@@ -121053,9 +121058,9 @@ The `ReviewerRole` case closes with one readable result. The recovered kind is a
 
 That sentence is the F.8 result. It needs no decision occurrence or result episteme. If a later claim must cite, replay, or assign accountability to the decision, use §4.5. No naming-decision governor is available in this case, so that branch returns `missing-governor` rather than inventing `ReviewerSystemRoleNamingDecision-2026-07-31`. C.11 applies only to a genuine local choice among available options. For any precise decision-making Work, A.13 first recovers the exact actual performer and A.15.1 independently admits the dated Work; F.6 follows only when the later claim expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment.
 
-`EvidenceRole` stops earlier and does not enter F.8. The known subject is `ReviewReport-82 : U.Episteme`, proposed for evidence use concerning an adequacy claim. Still missing are the target claim and polarity, the evidence-use relation and relation kind, the provenance and any assurance or reliance use and validity window, and one subject pattern that defines the relation. Apply that pattern and keep the wording local until those facts are recovered. `PatternReviewReferenceScheme-2026` may interpret the source wording, but the review label creates no evidence relation, system-role kind, description, assignment, authority, or publication. No `SchemeSenseCell`, `LocalSenseBasisRelation`, or selected Structure is needed merely to record this stop.
+`EvidenceRole` stops earlier and does not enter F.8. The known subject is `ReviewReport-82 : U.Episteme`, proposed for evidence use concerning an adequacy claim. Still missing are the target claim and polarity, the evidence-use relation and relation kind, the provenance and any assurance or reliance use, including a validity window when that use depends on it, and one subject pattern that defines the relation. Apply that pattern and keep the wording local until those facts are recovered. `PatternReviewReferenceScheme-2026` may interpret the source wording, but the review label creates no evidence relation, system-role kind, description, assignment, authority, or publication. No `SchemeSenseCell`, `LocalSenseBasisRelation`, or selected Structure is needed merely to record this stop.
 
-Re-enter F.8 only after one governed relation, its kind, its subject pattern, and the proposed naming use are available. If the target claim, polarity, provenance, assurance or reliance use, or validity window changes, reopen the subject claim rather than the name.
+Re-enter F.8 only after one governed relation, its kind, its subject pattern, and the proposed naming use are available. If the target claim, polarity, provenance, assurance or reliance use, or a required validity window changes, reopen the subject claim rather than the name.
 
 ### F.8:8.0 - Bias-Annotation
 
@@ -121068,17 +121073,17 @@ F.8 counters two shortcuts: a familiar word is treated as proof that a stronger 
 | `CC-F8-01` | The expression, governed value or relation, subject pattern, and proposed use are named before the disposition. |
 | `CC-F8-02` | An expression that covers several governed subjects or uses is split; for example, a kind, assignment, evidence use, policy, Method, or Work is not handled as one naming case. |
 | `CC-F8-03` | The naming ReferenceScheme and local-sense claim are stated. A cell, basis relation, or selected Structure appears only when the naming use needs that object. |
-| `CC-F8-04` | Local phrase, existing designation, alias, subject-pattern name, and admitted F.17 row were tried before a stronger naming object. |
+| `CC-F8-04` | The selected naming treatment is sufficient for the proposed use; a stronger object has a receiving need that adequate ordinary wording or an existing designation does not meet. |
 | `CC-F8-05` | Reuse preserves kind, scope, occurrence identity, local-sense claim, admitted use, authority, and lineage. |
 | `CC-F8-06` | A system-role-kind designation follows A.2 and C.3 recovery of the kind and does not require an F.4 description. If the description is separately needed, its label remains distinct from the kind designation. |
 | `CC-F8-07` | Classification and assignment remain under C.3 and A.2.1. Any precise performed Work begins with the exact actual performer recovered through A.13 and independent A.15.1 admission; F.6 appears only for an expressly consumed precise assignment-bound attribution through the same obtaining A.13 assignment. None is inferred from a name. |
 | `CC-F8-08` | Any other governed subject—for example, a status, evidence use, access value, policy, publication use, or relation position—returns to its subject pattern before naming. |
 | `CC-F8-09` | F.17 row reuse stays within `AdmissibleUse`; spelling or local-sense reuse implies neither an F.9 Bridge nor equivalence. |
-| `CC-F8-10` | Ordinary use creates no decision object. The accountable branch resolves the decision or choice occurrence through the pattern that admits it or returns `missing-governor`, while any C.11 result, Work, result episteme, record, and naming object stays separate. |
+| `CC-F8-10` | Ordinary naming needs no separate decision-object identity. The accountable branch resolves the decision or choice occurrence through the pattern that admits it or returns `missing-governor`, while any C.11 result, Work, result episteme, record, and naming object stays separate. |
 | `CC-F8-11` | A locality label such as `PatternReview_2026` is interpreted as the Work, plan, claim content, ReferenceScheme, or other object actually present; the label creates none of them. |
 | `CC-F8-12` | An unsettled U-kind proposal receives only `blockOrLowerUse` and the needed E.24.CD or E.24.UK route. Naming reopens only for the object identified by a stable admission result. |
 | `CC-F8-13` | A policy identifier resolves its specification and scope. When its mint history is cited, replayed, normative, cross-local, or accountable, the occurrence basis required by §8.1 is also recoverable; otherwise that stronger claim returns `missing-governor`. |
-| `CC-F8-14` | The result states the governed subject, selected disposition, admitted naming use, and smallest change that reopens the decision. Any non-use boundary passes `F.19`'s grounded-contribution test. |
+| `CC-F8-14` | The result states the governed subject, selected disposition and admitted naming use, with a reopen condition when continued reuse needs it. Any non-use boundary passes F.19's grounded-contribution test. |
 
 ### F.8:9 - Common Anti-Patterns and How to Avoid Them
 
@@ -121166,7 +121171,7 @@ The accountable branch follows the same rule. A decision occurrence, C.2.1 resul
 - `F.5` names only after F.8 has selected the naming case.
 - Use `F.4` only for a separately needed `SystemRoleKindDescription`; naming the local kind itself does not require that episteme.
 - `F.9` governs an obtaining Bridge between F.17 cells; `F.17` governs admitted public-row use before F.8 reuses it.
-- `F.18` expands durable naming only after lighter dispositions have failed.
+- `F.18` supplies a durable naming settlement when the receiving use needs one.
 - `F.14` supplies the anti-explosion stop before every stronger F.8 disposition.
 - `F.15` may check the resulting distinctions; it neither chooses the disposition nor creates a naming object.
 
@@ -121474,7 +121479,7 @@ When a later claim uses the RBAC source word *role*, apply `E.10.ROLE` and first
 
 A work-facing classification separately requires an admitted System, one exact local system-role kind with its `KindSignature`, and the C.3.2 classification judgment under A.2 and C.3. Use F.4 only when the receiving use separately needs a `SystemRoleKindDescription` episteme, and F.5 only when it needs a durable designation. An assignment claim then separately identifies an occurrence of a directly declared species under `U.SystemRoleAssignment` through A.2.1.
 
-If performed Work is also claimed, recover every exact actual performer through A.13 and use A.15.1 to identify the dated Work, exact Method, time, and containing System independently. Use F.6 only when the Bridge account or receiving use expressly represents precise assignment-bound attribution through the same obtaining assignment already established by A.13, and the direct case fact links that exact Work-assignment pair. Missing or failed F.6 leaves the Work intact. The Bridge, bounded-use claim, and reliance result establish none of these facts.
+If performed Work is also claimed, recover every exact actual performer through A.13 and use A.15.1 to identify the dated Work, exact Method, time, and containing System independently. Use F.6 only when the Bridge account or receiving use expressly represents precise assignment-bound attribution through the same obtaining assignment already established by A.13, and the direct case fact links that exact Work-assignment pair. Missing or failed F.6 alone leaves independently admitted Work intact. If the same finding invalidates a premise consumed by A.13/A.15.1 admission, recheck that premise and its dependent conclusions under F.6:4.2. The Bridge, bounded-use claim, and reliance result establish none of these facts.
 
 #### F.9:12.3 - Subtype notions in one structural row
 
@@ -121573,7 +121578,7 @@ and current reliance supports C for u
 => no Work, assertion, publication, relation, or operation application follows.
 ```
 
-An actual receiving object exists only when its subject pattern supplies its participants or arguments, obtaining or performance facts, and identity.
+A claim about an actual receiving object needs the participants or arguments, obtaining or performance facts, and identity supplied by its subject pattern.
 
 #### F.9:14.6 - Direction guard
 
@@ -121892,27 +121897,27 @@ Publication does not cure a missing source. If a reader must return to a source 
 
 #### F.9.1:5.1 - Local rename inside one bounded use
 
-An obtaining Bridge and a separate affirmative bounded-use claim say that one operational label is suitable as a near-renaming of another in one proposed glossary use. A `localRename` stance can make that reading quick to recognize. It establishes neither cross-local identity nor unrestricted replacement outside the stated use. The claim says nothing by itself about authorization or whether anyone actually changed or used the glossary.
+An obtaining Bridge and a separate affirmative bounded-use claim say that one operational label is suitable as a near-renaming of another in one proposed glossary use. A `localRename` stance can make that reading quick to recognize. It establishes neither cross-local identity nor unrestricted replacement outside the stated use.
 
 #### F.9.1:5.2 - Operational reading of a control cue
 
 An F.9 `Partial-overlap` Bridge obtains between one exact operator-alarm sense and one broader control-cue sense. A separate affirmative bounded-use claim says that this Bridge is suitable for using the alarm term in one training explanation, in the alarm-to-control direction, under a rule that preserves the response trigger but not the complete control model, with zero tolerance for treating the term as implementation authority. A current A.10 reliance judgment says the available evidence supports relying on that narrow claim.
 
-A stance note may now say: “For this training explanation, read the alarm term as operationalizing the response-trigger part of the control cue; do not read it as the complete control model or as permission to change the controller.” The stance is `operationalizes`. Whether an instructor is authorized to use that wording and whether any training Work actually uses it remain separate. No Card is required; a Card may package the already separate objects if durable reuse pays.
+A stance note may now say: “For this training explanation, read the alarm term as operationalizing the response-trigger part of the control cue; do not read it as the complete control model or as permission to change the controller.” The stance is `operationalizes`.
 
 #### F.9.1:5.3 - Projection into a report
 
-An obtaining Bridge and a bounded-use claim say that the Bridge is suitable for showing one aspect of a rich operations concept in one proposed weekly-report use. The claim names the report use, direction, correspondence rule, and tolerated omission. A `projection` stance note may foreground that the report keeps only queue age and drops causal and capacity distinctions. Any authority to publish the report and evidence that a report actually showed that aspect remain separate.
+An obtaining Bridge and a bounded-use claim say that the Bridge is suitable for showing one aspect of a rich operations concept in one proposed weekly-report use. The claim names the report use, direction, correspondence rule, and tolerated omission. A `projection` stance note may foreground that the report keeps only queue age and drops causal and capacity distinctions.
 
 If readers must return to the source account before making a staffing or release decision, follow A.6.3.CSC: return to the source and do not use the report for those decisions. The stance note alone cannot set that boundary.
 
 #### F.9.1:5.4 - Partial analogy without substitution
 
-Two schools use different senses that share one explanatory pattern. For example, a TAE felt-sense phrase and a later formal term may share one stated explanatory feature while differing elsewhere. Their F.9 Bridge obtains, and an affirmative bounded-use claim says that the Bridge is suitable for one teaching comparison while rejecting method transfer. A `partialAnalogy` stance helps the reader notice the shared pattern. It neither makes the methods equivalent nor authorizes or proves a teaching act.
+Two schools use different senses that share one explanatory pattern. For example, a TAE felt-sense phrase and a later formal term may share one stated explanatory feature while differing elsewhere. Their F.9 Bridge obtains, and an affirmative bounded-use claim says that the Bridge is suitable for one teaching comparison while rejecting method transfer. A `partialAnalogy` stance helps the reader notice the shared pattern. It does not make the methods equivalent.
 
 #### F.9.1:5.5 - `nonEquivalent` is a warning, not a verdict generator
 
-An affirmative bounded-use claim says that the Bridge is suitable for placing two senses in the same comparison table. A separate negative claim rejects the proposed substitution use. A `nonEquivalent` stance may make that limit easy to see. The label does not authorize a table or show that one was produced; nor does it make the Bridge `Disjoint`, set `CL=0`, negate another use, or prohibit a future use with different direction, rule, and tolerance.
+An affirmative bounded-use claim says that the Bridge is suitable for placing two senses in the same comparison table. A separate negative claim rejects the proposed substitution use. A `nonEquivalent` stance may make that limit easy to see. The label does not make the Bridge `Disjoint`, set `CL=0`, negate another use, or prohibit a future use with different direction, rule, and tolerance.
 
 #### F.9.1:5.6 - Anti-case: the gloss comes first
 
@@ -122199,7 +122204,7 @@ For a controller run independently admitted as `U.Work` under A.15.1, keep that 
 
 #### F.10:5.3 - Model card and fairness requirement
 
-A model card reports high cross-validation AUC. Recover the exact predictive-performance result and claim episteme first; distinguish that claim from the card's publication or display. F.10 may assert an `EvidenceStatus` for that predictive claim under its validation scheme and window. It cannot decide the different policy clause “demographic parity delta ≤ 0.1”. That branch needs production-window fairness measurement, its result episteme/evidence use, the policy clause, dated evaluation work, the exact policy rule application, and its own requirement-status assertion.
+A model card reports high cross-validation AUC. Recover the exact predictive-performance result and claim episteme first; distinguish that claim from the card's publication or display. F.10 may assert an `EvidenceStatus` for that predictive claim under its validation scheme and window. It cannot decide the different policy clause “demographic parity delta ≤ 0.1”. That branch needs production-window fairness measurement, its result episteme/evidence use, the policy clause, the exact policy rule application and its result, and its own requirement-status assertion. Recover dated evaluation Work when that performance history is claimed or consumed by the receiving use.
 
 #### F.10:5.4 - Status display cue
 
@@ -122365,7 +122370,7 @@ Name the already identified episteme and the one admitted Method that is its exa
 
 #### F.11:6.3 - Which Work actually occurred?
 
-For every claimed actual performer, recover the A.13 core: the admitted System, local agential system-role kind and classification, obtaining assignment, and the scope, situation, window and evidence needed by the claim. A.15.1 then independently admits the dated Work. Use F.6 only when this account needs precise assignment-bound attribution through that same assignment; a missing attribution leaves the admitted Work intact. Do not replace these objects with a behavioural “mask” or a `System-in-Role` pseudo-object.
+For every claimed actual performer, recover the A.13 core: the admitted System, local agential system-role kind and classification, obtaining assignment, and the scope, situation, window and evidence needed by the claim. A.15.1 then independently admits the dated Work. Use F.6 only when this account needs precise assignment-bound attribution through that same assignment; a missing attribution alone leaves independently admitted Work intact. Recheck a consumed admission premise and its dependent conclusions if the same finding invalidates it, as F.6:4.2 requires. Do not replace these objects with a behavioural “mask” or a `System-in-Role` pseudo-object.
 
 #### F.11:6.4 - Which output matters, if any?
 
@@ -122392,7 +122397,7 @@ Use F.17 only when these local meanings need stable addresses. Use F.9 only if a
 1. **Method and description distinction.** A MethodDescription is the same episteme recognized by A.3.2, with one admitted Method as its exact `EntityOfConcern`; it is not the Method, and *describes* adds no binary relation.
 2. **Occurrence distinction.** Work is an actual dated occurrence, not its plan, report, record, or output.
 3. **No universal actuation kind.** A control or transformation output is typed and related under its direct pattern.
-4. **Explicit enactment.** Work enacts a Method only when the exact relation and basis are stated.
+4. **Supported enactment.** Assert that Work enacts a Method only when the exact relation and its basis are established.
 5. **Explicit description use.** MethodDescription use, following, conformance, deviation, interpretation, and reliance are separate claims under their defining or testing patterns; absent such a rule, return A.6.RCD `missing-governor`.
 6. **Exact agency.** Each claimed actual performer has the A.13 core, including the obtaining assignment, before independent A.15.1 Work admission. F.6 is required only for precise assignment-bound attribution; no vague `System-in-Role` substitute.
 7. **Evidence separation.** Approval of a description does not establish Work occurrence or outcome.
@@ -122478,7 +122483,7 @@ The Method is triage-first incident handling; the MethodDescription is the playb
 **Constrains:**
 
 - **F.4 and F.6:** a local system-role kind, its description, an assignment, and performed-Work attribution remain distinct from Method, MethodDescription, Work, and output.
-- **F.5:** use distinct Plain and Tech designations when one source expression hides different subjects.
+- **F.5:** use distinct designations when one source expression hides different subjects. Add a Plain counterpart only when it helps the intended reader and retains the same subject.
 - **F.7 and F.9:** compare exact local claims or F.17 cells and cite F.9 only when a semantic relation actually obtains. A shared heading creates no identity, relation, or use licence.
 
 **Used by.** Part C examples and the A.3, A.15, and B.1.5 method-and-work stack. Every MethodDescription membership judgement, enactment, performed-Work attribution, description use, observation, output, evidence use, or publication claim still uses the pattern that defines or tests it.
@@ -122528,7 +122533,7 @@ The Method is triage-first incident handling; the MethodDescription is the playb
 
 ### F.12:1 - Intent & applicability
 
-**Intent.** Relate an exact promise-content claim to the delivery Work and outcome being judged, the observations and measured values used as evidence, an explicit window and population, and the separate evaluation Work that applies the declared acceptance rule and returns a result on its declared scale. Map that result to F.10 status only when a receiving use needs status, and create a verdict episteme only when another use needs a durable assertion. Keep each object and relation distinct so a reader can see what would change the result.
+**Intent.** Relate an exact promise-content claim to the delivery Work and outcome being judged, the observations and measured values used as evidence, the relevant window and population, and application of the declared acceptance rule to those inputs. Return a result on its declared scale. Recover a separate dated evaluation Work when the claim or receiving use consumes that performance history. Map the result to F.10 status when needed, and identify a durable verdict episteme when another use needs that assertion. Keep these objects and relations distinct so a reader can see what would change the result.
 
 **Use this when.** An SLO, SLA clause, safety margin, response-time target, quality gate, or other promise must be judged from actual occurrences.
 
@@ -122540,7 +122545,7 @@ The Method is triage-first incident handling; the MethodDescription is the playb
 2. **Output ≠ outcome.** Commands or setpoints are mistaken for the consumer-relevant result.
 3. **Word ≠ measure.** *Availability*, *latency*, or *incident* is used without recovering its exact local meaning and characteristic.
 4. **Proxy by assumption.** Monitor output is called a proxy before asking whether the observation and measurement model already concern the promised characteristic directly; when they do not, the needed indicator relation has no defining or testing rule.
-5. **Evaluation disappears.** A verdict appears without evaluation Work, an enacted evaluation Method, exact operation inputs, or a result binding.
+5. **Evaluation disappears.** A verdict appears without the selected facts, acceptance rule, calculation or other application that supports its result. A claim about who performed the evaluation additionally needs its actual performance basis.
 6. **Status families collapse.** `Satisfied`, `Violated`, and `Inconclusive` are treated as one universal scale even though the first two are RequirementStatus values and the third is an EvidenceStatus value unless an exact local result scale says otherwise.
 
 ### F.12:3 - Forces
@@ -122554,15 +122559,15 @@ The Method is triage-first incident handling; the MethodDescription is the playb
 
 ### F.12:4 - Core idea (didactic)
 
-Before reporting the result, name nine things:
+Recover the following content needed to justify the result. An ordinary evaluation may stop with the delivery facts, adequate observations, rule and supported result; the separate performance history is needed when it is claimed or consumed:
 
 1. the exact **`U.PromiseContent` claim** being evaluated;
 2. the actual **Work occurrence or defined Work population** whose delivery is in question;
 3. the promised outcome or characteristic and its scope;
 4. the relevant **observations and measured values**, including scale and unit;
 5. the explicit **window** and population boundary;
-6. the evaluation **Method** and the System's dated evaluation **Work** that enacts it;
-7. the exact A.6.1 operation application, including its selected inputs and result binding;
+6. the evaluation Method and, when its performance history is claimed or consumed, the independently admitted dated evaluation Work that enacts it;
+7. the selected evaluation inputs, applied rule and result; recover the exact A.6.1 application and result binding when that identity is claimed or required by the governing rule;
 8. the acceptance rule and declared result scale, such as a Boolean, trichotomous, graded, `N/A`, or `Inconclusive`-including scale when that scale is actually declared; and
 9. the PromiseContentUse, delivery, fulfilment, measurement, evidence-use, any separately defined indicator or proxy, reliance, and status relations that actually connect these claims.
 
@@ -122575,8 +122580,8 @@ The operation's result value comes first. A RequirementStatus assertion of `Sati
 * **Observation** — the actual observation occurrence and its result under C.2 and C.16.
 * **Measured value** — a value for a named characteristic on an explicit scale and unit.
 * **Window** — the time, batch, episode, phase, or other bounded evaluation interval under F.10.
-* **Evaluation Work** — the dated Work in which a System enacts the evaluation Method over the selected facts and states.
-* **Evaluation application and result** — the A.6.1 operation application with exact argument bindings and a result value on the acceptance specification's declared scale.
+* **Evaluation Work** — the dated Work in which a System enacts the evaluation Method over the selected facts and states; identify it when the evaluation account or receiving use consumes that performance history.
+* **Evaluation application and result** — the application of the rule to its selected inputs and the result on the acceptance specification's declared scale. An exact application identity and argument/result binding use A.6.1 when that formal claim is current.
 * **Evaluation rule and result scale** — the stated comparison or aggregation and its declared admissible results. Boolean, trichotomous, graded, `N/A`, and `Inconclusive`-including scales are examples, not defaults.
 * **Status use** — a separate F.10 application of an exact EvidenceStatus or RequirementStatus value to its exact target, scope, window, and use after the direct result is recovered.
 * **Verdict episteme** — an optional C.2.1 episteme that states the evaluation result or status when another use needs a durable assertion; it is not the operation result or the fulfilment relation.
@@ -122595,7 +122600,9 @@ Ask whether the observation and measurement model directly concern the promised 
 If a distinct observed indicator stands in for the promised characteristic or outcome, name both participants and cite the pattern that defines or tests that exact relation. Use C.16.P to recover the construction and distortion risk. If no current rule supplies the relation, stop with A.6.RCD `missing-governor`; do not treat the word *proxy*, A.10 evidence use, or B.3 reliance as its substitute. Use E.13 only when the indicator is optimized or used as a target, incentive, gate, release argument, reputation signal, repair target, or decision driver.
 
 **R4 — Perform the evaluation.**
-Recover each evaluator's A.13 core and let A.15.1 independently admit the dated evaluation Work, including the actual evaluation Method it enacts, as required by A.2.3:4.3. Add F.6 only when the account needs precise attribution through that same obtaining assignment. Identify the A.6.1 operation application, its selected facts and state references, the applied acceptance rule, and the result binding. Surface a particular MethodDescription edition only when selecting that edition changes the result or its replay.
+Select the delivery facts, affected-state references and measured values required by the acceptance rule. Apply its comparison or aggregation with the specified population, exclusions, uncertainty treatment and result scale, then state the supported result. For example, an incident rule can bind observed start and restoration times and compare their difference with the allowed duration. If the required observations or rule are unavailable, return the precise missing basis rather than a fulfilment verdict.
+
+When the claim or receiving use consumes a dated evaluation occurrence, recover each evaluator's A.13 core and let A.15.1 independently admit that Work before asserting that it enacts the evaluation Method, as A.2.3:4.3 requires. Add F.6 only for precise assignment-bound attribution. Recover an exact A.6.1 application and its argument/result binding when claimed or required by the rule. Cite a particular MethodDescription edition when its content changes the evaluation or replay.
 
 **R5 — Use the declared result scale.**
 Name the characteristic, scale, unit, aggregation, comparison, and admissible result values through the acceptance specification's `verdictScaleDescriptionRef`. Typical calculation shapes include:
@@ -122619,7 +122626,7 @@ Keep the operation result on its declared acceptance scale. Map it to `Requireme
 
 ### F.12:7 - Evaluation shapes
 
-The calculation shapes and examples below take independently admitted delivery and evaluation Work as inputs under A.2.3:4.3. Their population, measurement and acceptance claims still need the stated local basis.
+The calculation shapes and examples below preserve the delivery Work or population and illustrate an explicit evaluation-Work account. Use that account when its history is current. For an ordinary result, apply the same population, measurement and acceptance conditions through R4 without separately identifying the evaluation occurrence.
 
 #### F.12:7.1 - Availability share
 
@@ -122644,7 +122651,7 @@ Promise: restoration occurs within 60 minutes for each in-scope incident. Delive
 3. **Outcome evidence.** Observations and values concern the promised characteristic of that Work; outputs and approvals alone are insufficient.
 4. **Direct-before-proxy.** When observation and measurement directly concern the promised characteristic, use C.16 and A.10 and add no proxy. A distinct indicator relation needs exact participants and a defining or testing pattern, or the result is `missing-governor`.
 5. **Window and population.** Both are explicit and match the promise.
-6. **Evaluation Work and application.** A System performs dated evaluation Work, enacts the evaluation Method, and applies the exact A.6.1 operation with recoverable inputs and result binding.
+6. **Evaluation basis.** The selected inputs, applied acceptance rule and result remain recoverable. A claimed or rule-required dated evaluation Work and exact A.6.1 application satisfy their separate admission and binding conditions.
 7. **Declared result scale.** Characteristic, scale, unit, aggregation, threshold, exclusions, and admissible result values are stated as applicable. Boolean, trichotomous, graded, `N/A`, and `Inconclusive`-including scales are examples, not defaults.
 8. **Status separation.** `Satisfied` and `Violated` are RequirementStatus values reached only through a direct acceptance result. `Inconclusive` is an EvidenceStatus value unless the declared local result scale independently admits that label; insufficient evidence otherwise leaves RequirementStatus pending.
 9. **Optional verdict episteme.** A durable C.2.1 assertion is created only for a named later use and never replaces the application result, status-use occurrence, evidence relation, or fulfilment relation.
@@ -122678,7 +122685,7 @@ The promise content states restoration within 60 minutes per in-scope incident. 
 | **A2** | Output as outcome | Setpoint writes or commands prove service delivery. | Intended influence replaces observed result. | Use observations and measurement that directly concern the promised characteristic; if a distinct indicator relation is needed, define or test it and state its loss. |
 | **A3** | Cell as subject | ClauseCell, WorkCell, or MeasureCell bears the result or status. | Lexical address replaces promise, Work, evaluation, and evidence. | Cite the actual values; retain a cell only as an address. |
 | **A4** | Generic Bridge | One Bridge is claimed to connect promise, Work, measure, indicator, result, and status. | Several distinct relations disappear. | Use A.2.3 for promise-side relations, C.16 for measurement, the defining or testing pattern for an indicator relation, A.10 for evidence use, A.15.1 and A.6.1 for evaluation, F.10 for status, and F.9 only for local-meaning relations. |
-| **A5** | Windowless result | “We met the SLA” has no period, population, evaluation Work, or applied rule. | The claim cannot be replayed. | State window, population, evaluation Work, application, result binding, and declared scale. |
+| **A5** | Windowless result | “We met the SLA” omits the relevant period, population or applied rule. | The acceptance claim cannot be justified for its declared use. | Recover the window, population, inputs, rule, result and applicable scale; add evaluation-Work or application identity when claimed or required. |
 | **A6** | Percentile mirage | Annual pooled p95 is used for a monthly promise. | Aggregation and promise scope differ. | Evaluate within the promise’s exact window and population. |
 | **A7** | Proxy by label | Synthetic probes equal user experience because they are called a proxy. | The text skips the direct-measurement question and any actual indicator relation. | First test whether C.16 already measures the promised characteristic. If not, name both indicator participants and its defining or testing pattern; use C.16.P and return `missing-governor` when absent. |
 | **A8** | Work mismatch | Evidence concerns another product, region, or occurrence. | The result is about the wrong subject. | Match every observation to the judged Work or population. |
@@ -122713,7 +122720,7 @@ Promise content: restoration within 60 minutes for each in-scope incident. Deliv
 3. **Test direct measurement first.** Confirm whether each observation and its measurement model directly concern the promised characteristic; if so, use C.16 and A.10 and add no proxy.
 4. **Recover an indicator only when needed.** When another characteristic stands in, name both participants, the defining or testing pattern, coverage, and loss. Use C.16.P for recovery and A.6.RCD `missing-governor` when the relation is absent.
 5. **Check values.** Name characteristic, scale, unit, aggregation, and uncertainty.
-6. **Perform the evaluation.** Name the performing System, evaluation Work, enacted Method, exact A.6.1 application, input bindings, and result binding. Cite a particular MethodDescription edition only when it changes the result or replay.
+6. **Perform the evaluation.** Apply the declared rule to its selected inputs and recover the result on its scale. Identify the performing System, dated Work and exact A.6.1 application when that performance account is claimed or required; keep the actual admission and binding grounds. Cite a MethodDescription edition when it changes the result or replay.
 7. **Use evidence directly.** Recover the direct evidence-use claims, the descriptive A.10 path and its bounded-reliance disposition. Enter B.3 only for an actual named assurance claim, and E.13 only when a proxy is optimized or drives a decision, gate, incentive, release argument, reputation signal, or repair.
 8. **Keep the result on its declared scale.** Boolean, trichotomous, graded, `N/A`, and `Inconclusive`-including scales are examples, not defaults.
 9. **Map status separately.** Use `RequirementStatus=Satisfied` or `RequirementStatus=Violated` only through the direct acceptance result. Evidence insufficiency can support `EvidenceStatus=Inconclusive` and leave the requirement pending, or produce an exact locally declared result.
@@ -122727,11 +122734,11 @@ Promise content: restoration within 60 minutes for each in-scope incident. Deliv
 
 - Use **F.1** and **F.0.1** to recover exact sources and local claims, and **F.2**, **F.3**, and **F.17** only when expressions or durable addresses are needed.
 - Use **F.5** for clear designations, **F.9** only for an actual relation between distinct local meanings, **F.10** for separate EvidenceStatus and RequirementStatus uses and windows, and **F.11** to keep Method, MethodDescription, Work, and output distinct.
-- Use **A.2.3** for exact promise content, PromiseContentUse, delivered outcome, and fulfilment; **A.15.1** for delivery and evaluation Work; and **A.6.1** for the exact evaluation-operation application and result binding.
+- Use **A.2.3** for exact promise content, PromiseContentUse, delivered outcome and fulfilment; **A.15.1** for admitted delivery Work and any claimed evaluation Work; and **A.6.1** when the exact evaluation-operation application and result binding are current.
 
 **Uses direct subject patterns.** Use C.2 and C.16 for observations, characteristics, scales, units, and measured values. When the measurement does not directly concern the promised characteristic, use C.16.P to recover the distinct indicator relation and cite the pattern that defines or tests it; use A.6.RCD `missing-governor` when no such rule exists. Use A.10 for descriptive provenance and bounded reliance, B.3 only for an actual named assurance claim, E.13 only for optimized or decision-driving proxies, and the appropriate direct pattern for kind, control, or transformation claims.
 
-**Constrains:** Reporting and assurance keep promise content, delivery Work, observation, measured value, window, evaluation Method and Work, operation application, result binding, declared result scale, optional verdict episteme, EvidenceStatus, RequirementStatus, evidence use, material reliance, any defined indicator relation, and any F.9 relation distinct. A relation-specific CL or loss is reported with that relation, not folded into the result or status.
+**Constrains:** Reporting and assurance preserve the promise content, delivery Work, observations, measured values, relevant window, evaluation rule and result scale. Any claimed evaluation Work, exact application, verdict episteme, EvidenceStatus, RequirementStatus, evidence use, material reliance, indicator relation and F.9 relation retains its own meaning and grounds. A relation-specific CL or loss is reported with that relation rather than folded into the result or status.
 
 ### F.12:14 - Migration notes
 
@@ -122749,11 +122756,11 @@ Promise content: restoration within 60 minutes for each in-scope incident. Deliv
 * **SCR-F12-S01 (actual subjects).** Every evaluation names exact promise content, delivery Work or population, observations and measured values, window, and rule; cells are optional addresses only.
 * **SCR-F12-S02 (scope match).** Promise, Work, evidence, population, and window align.
 * **SCR-F12-S03 (evidence).** Observations concern the promised outcome of the judged Work.
-* **SCR-F12-S04 (evaluation explicit).** The performing System, evaluation Work, enacted Method, exact A.6.1 application and argument and result bindings, characteristic, scale, unit, aggregation, threshold, exclusions, and declared result values are stated as needed.
+* **SCR-F12-S04 (evaluation explicit).** The selected inputs, applied rule, supported result, characteristic, scale, unit, aggregation, threshold and exclusions are recoverable as required by the acceptance claim. Any claimed or rule-required performing System, evaluation Work, enacted Method and exact A.6.1 application satisfy their direct admission and binding conditions.
 * **SCR-F12-S05 (indicator boundary).** Direct measurement adds no proxy. A distinct indicator relation names exact participants and a defining or testing pattern, or the evaluation stops at A.6.RCD `missing-governor`.
 * **SCR-F12-S06 (direct relations).** Promise use, delivery, fulfilment, measurement, indicator, evidence use, assurance or material reliance, evaluation, status, and any verdict assertion use their defining or testing patterns.
 * **SCR-F12-S07 (result and status).** The operation result stays on its declared scale; RequirementStatus and EvidenceStatus are mapped separately, and evidence insufficiency is never implicit target falsity.
-* **SCR-F12-S08 (optional episteme).** A C.2.1 verdict episteme exists only for a named later use and remains distinct from result and status.
+* **SCR-F12-S08 (optional episteme).** Identify a durable C.2.1 verdict episteme when a receiving use needs that assertion, keeping it distinct from result and status.
 * **SCR-F12-S09 (no generic Bridge).** F.9 is used only for a real local-meaning relation and establishes none of the other relations.
 * **SCR-F12-S10 (temporal identity).** No timeless or retroactively rewritten result or status assertion appears.
 
@@ -122767,7 +122774,7 @@ Promise content: restoration within 60 minutes for each in-scope incident. Deliv
 
 #### F.12:15.3 - Didactic distillation
 
-> “Name the exact promise, the delivery Work it covers, the promised characteristic, the observations and measured values, and the window and population. First ask whether the measurement is direct; if another indicator stands in, name its exact relation or stop. Then name the System's evaluation Work, enacted Method, operation inputs and result, and the declared result scale. Map that result to RequirementStatus or EvidenceStatus only through the exact rule, and create a verdict episteme only when another use needs it. Plainly: met, not met, or cannot judge. Judge what happened—not the plan, the command, the word *proxy*, or the table.”
+> “Name the exact promise, the delivery Work it covers, the promised characteristic, the observations and measured values, and the relevant window and population. First ask whether the measurement is direct; if another indicator stands in, establish its relation or leave that basis unresolved. Apply the acceptance rule to its inputs and return the supported result on its declared scale. Recover an evaluation-Work or exact application identity when the claim or rule needs it. Map the result to RequirementStatus or EvidenceStatus through the applicable rule, and identify a durable verdict assertion when another use needs one. Plainly: met, not met, or cannot judge.”
 
 ### F.12:End
 
@@ -122806,7 +122813,7 @@ Readers lose the connection between earlier and later claims when names or sense
 | ------------------------------ | -------------------------------------------------------------------------------------------- |
 | **Continuity vs truthfulness** | Preserve readers’ continuity while making sense changes visible.                 |
 | **Locality vs convenience**    | Keep aliases **inside Contexts** even when a catchy global name tempts reuse.                   |
-| **Simplicity vs coverage**     | Retain the legacy names readers will encounter within the declared alias budget. |
+| **Simplicity vs coverage** | Keep the preferred current designation clear while retaining the historical names readers need. |
 | **Didactics vs formality**     | Make the mapping teachable without inventing new low‑level artefacts or processes.           |
 
 ### F.13:4 - Core idea (didactic)
@@ -122842,7 +122849,7 @@ Use the least-committing continuity relation that tells the truth after recoveri
 
 2. **`aliases(label_legacy ↔ label_pref)`** — a legacy synonym is kept for reading.
    *Use when:* The two exact label uses have the same scheme, local-sense claim, intended use and, where applicable, governed value.
-   *Effect:* Keep a two-way read-path; writing uses `label_pref`. Keep at most one legacy alias per register. Distinct expressions need not be the same SchemeSenseCell.
+   *Effect:* Keep the needed two-way read-paths; writing uses `label_pref`. Preserve historical aliases that readers still need, distinguished from the preferred current designation. Distinct expressions need not be the same SchemeSenseCell.
 
 3. **`splits(label_old ⇒ {label_A, label_B})`** — one earlier label covered several senses or rows that are now distinguished.
    *Use when:* F.3 recovers the distinct local senses, or F.7 establishes the required row refactor.
@@ -122850,7 +122857,7 @@ Use the least-committing continuity relation that tells the truth after recoveri
 
 4. **`merges({label_A, label_B} ⇒ label_new)`** — several labels are consolidated for one recovered naming use.
    *Use when:* The local label uses have the same scheme, local-sense claim and use, with the same governed value where applicable; or two F.7 rows are duplicate displays of the same named comparison or use, exact entries, independently established relations, losses, basis and receiving-use conclusion.
-   *Effect:* Keep the old labels' epoch-qualified read-paths subject to the alias budget. This label or display consolidation does not merge source-local cells, named values or Bridge occurrences.
+   *Effect:* Keep the old labels' epoch-qualified read-paths needed by historical or current readers. This label or display consolidation does not merge source-local cells, named values or Bridge occurrences.
 
 5. **`retires(label_old)`** — a name is withdrawn without one successor.
    *Use when:* The label misleads and no single successor preserves its earlier use.
@@ -122863,7 +122870,7 @@ Use the least-committing continuity relation that tells the truth after recoveri
 1. **Locality of alias.** `aliases(-)` and `renames(-)` preserve the exact naming use's effective scheme, local-sense claim and any governed value. Distinct expressions may have distinct F.17 cells; an external row or description label keeps its independently recovered target.
 2. **Truth over comfort.** If meaning changes, recover the corresponding revision, replacement, split, merge or retirement under the subject rule before settling the later name. A rename cannot hide that change.
 3. **Non‑retroactivity.** Past texts remain phrased as written; continuity only **adds read‑paths**, never rewrites.
-4. **Alias parsimony.** per Context and per row, keep **≤ 1** legacy alias per register (Tech/Plain); prefer the one readers will most likely encounter.
+4. **Alias parsimony.** For the governed value and naming use, keep one preferred current designation in each register used and the historical aliases needed to recover actual uses. Omit unused synonyms from the main presentation without erasing the naming history.
 5. **Prefer present for writing.** In normative writing, use the **current preferred label** (F.5). Aliases are for **reading comprehension**.
 6. **Bridge discipline.** A different `<ReferenceScheme, LocalSenseClaim>` projection is not an alias or pure rename. Use F.9 only for a needed semantic correspondence; recover any obtaining Bridge, bounded-use claim and reliance separately.
 7. **Epoch qualification.** When declaring continuity, attach a **succinct epoch note** (“pre‑2023 usage”) if it aids readers.
@@ -122872,7 +122879,7 @@ Use the least-committing continuity relation that tells the truth after recoveri
 
 * **Same-sense test.** Do the effective scheme, local-sense claim, intended use and any governed value stay the same? Then a rename or alias may be justified, with distinct cells when expressions differ. If meaning or the target changes, first recover that change under its subject rule.
 * **Context test.** Are the semantic projections different, and is a current correspondence needed? If both hold, open F.9. Different context names alone establish no relation.
-* **Reader test.** Which legacy string will a reader actually meet in each register? Keep at most one useful alias per Tech or Plain register, as required by §7.
+* **Reader test.** Which legacy strings will readers actually encounter, and under which meanings and editions? Preserve the read-paths they need while keeping the preferred current designation clear.
 * **History test.** Does your “continuity” require editing old claims? If yes, you’re attempting a **retroactive rewrite**—stop.
 * **Didactic test.** Can the intended reader recover what changed and how to interpret the old label? If not, clarify that account or name the unresolved subject decision; sentence length alone diagnoses neither sameness nor change.
 
@@ -122917,7 +122924,7 @@ Temptation: “Let’s rename *process* to *activity*.”
 | ------- | -------------------------- | --------------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | **A1**  | **Cross‑context rename**      | “Let’s rename *process (BPMN)* to *activity (PROV)*.”                 | Erases Context boundaries; hides loss; violates locality.         | **Do not rename across semantic contexts.** Keep both labels; test any needed F.9 relation and its bounded-use claim with current reliance. CL remains optional.              |
 | **A2**  | **Retroactive rewrite**    | Old passages silently updated to new names.                           | Breaks provenance; misleads readers about what was meant then. | **Non‑retroactivity.** Past texts stand; add **read‑paths** via `renames/aliases`; attach **epoch notes** when helpful.          |
-| **A3**  | **Alias flood**            | Long lists of synonyms for comfort.                                   | Raises ambiguity; dilutes teaching signals.                    | **Alias parsimony.** Keep ≤ 1 legacy alias per register (Tech/Plain) **inside the same Context or row**.                            |
+| **A3** | **Alias flood** | Long lists of unused synonyms. | Obscures the preferred current designation. | Keep the main presentation economical and preserve the historical aliases needed to recover actual uses. |
 | **A4**  | **Paint‑over rename**      | Rename used where sense actually changed.                             | Confuses continuity with revision; hides splits.               | Recover the changed meaning under its subject rule, preserve the earlier claim, then settle the later name. Split or merge only when those relations actually hold.                |
 | **A5**  | **Global alias**           | One catchy word reused as alias in several Contexts.                     | Creates a pseudo‑global dictionary; invites category errors.   | **Local aliases only.** Recover each local meaning and keep aliases within one exact naming use. Use F.9 only for a needed semantic correspondence.                  |
 | **A6**  | **Euphemism treadmill**    | Frequent cosmetic renames (“modernising” labels) with no gain.        | Cognitive noise; readers lose confidence in names.             | Apply the **Same‑sense test**. If gain is marginal, **do nothing**; if clarity improves materially, one **`renames`** is enough. |
@@ -123011,7 +123018,7 @@ Resolve a legacy label to its earlier meaning and use first, then to any justifi
 
 #### F.13:12.9 - Alias budget
 
-Keep at most one useful legacy alias per register for one naming use.
+Keep the historical aliases needed by the naming use, with their meanings and editions recoverable and the preferred current designation clear.
 
 #### F.13:12.10 - Row‑level continuity
 
@@ -123036,7 +123043,7 @@ All Part C patterns when editions shift; all examples and tutorials when teachin
 1. **Recover the same meaning and use first.** Distinguish the expression from its exact cell and governed value. Use `renames` only for unchanged meaning and use; recover any subject change before settling the later name.
 2. **Keep aliases local.** Different semantic projections open F.9 only for a needed correspondence; the difference itself establishes no Bridge.
 3. **Prefer clarity over fashion.** Rename only when the new label **removes a real ambiguity** (F.5 criteria), not to chase style.
-4. **Limit nostalgia.** Admit **one** legacy alias in each register that readers will most likely meet; leave the rest to footnotes in examples.
+4. **Keep useful read-paths.** Preserve the legacy expressions readers need to interpret historical or continuing uses; keep unused synonyms out of the main presentation.
 5. **Keep historical reading clear.** For a rename, point from the legacy label to its preferred successor. For retirement without a single successor, point to the relevant meanings or rows.
 6. **Rows before names.** If a rename request coincides with a shift in what the row covers, **refactor rows** (F.7) first, then choose labels.
 7. **Edition changes.** Compare the affected definitions. If meaning changes, recover the subject-governed revision, replacement, split, merge or retirement and preserve the earlier claim. If meaning and use stay unchanged, rename only for a concrete recognition gain.
@@ -123048,7 +123055,7 @@ All Part C patterns when editions shift; all examples and tutorials when teachin
 
 * **SCR-F13-S01 (local continuity).** Every `renames/aliases` preserves the exact semantic projection, intended use and any independently governed value. An external row or description label resolves its target under the applicable rule.
 * **SCR-F13-S02 (Truthfulness).** Each rename retains its exact old and new expressions. A changed LocalExpression has a distinct F.17 cell even when meaning is unchanged. Any claim of governed-value or episteme continuity satisfies that subject's rule.
-* **SCR‑F13‑S03 (Alias budget).** For any one thing and register, the number of deprecated aliases is **≤ 1**.
+* **SCR‑F13‑S03 (Alias purpose).** Every retained legacy alias serves an actual reading or retrieval need and resolves to its historical meaning; it is distinguished from the preferred current designation.
 * **SCR‑F13‑S04 (Non‑retroactivity).** No requirement or suggestion to rewrite past texts is present; continuity is expressed as **read‑paths**.
 * **SCR-F13-S05 (Row integrity).** A display-label rename preserves the exact comparison content and receiving use. Changed row content receives its warranted revision, split or merge under F.7; changed F.17 identity-bearing claims receive the corresponding later row episteme.
 * **SCR‑F13‑S06 (Bridge discipline).** No alias/rename is used to imply Cross‑context sameness; any such relation belongs under **F.9**.
@@ -123056,13 +123063,13 @@ All Part C patterns when editions shift; all examples and tutorials when teachin
 #### F.13:15.2 - Regression (RSCR)
 
 * **RSCR-F13-E01 (Edition drift audit).** Compare affected earlier/later definitions and naming uses. Stable meaning can support a rename with distinct expression-bearing cells; changed meaning requires the subject-governed revision, replacement, split, merge or retirement before fresh naming settlement.
-* **RSCR‑F13‑E02 (Alias creep check).** Periodically ensure alias budgets remain within **≤ 1 per register**; surplus aliases are pruned.
+* **RSCR‑F13‑E02 (Alias change).** After changing aliases, verify that needed historical read-paths remain usable and the preferred current designation remains clear.
 * **RSCR-F13-E03 (Bridge leak check).** A claimed correspondence between different semantic projections is tested under F.9 only when a current use needs it. Retain exact meanings and an unresolved result when obtaining is unestablished; do not create a Bridge by rewriting a note.
 * **RSCR‑F13‑E04 (Didactic continuity).** Sampling of examples shows that readers can **resolve** legacy labels to current ones without confusion (via the continuity notes).
 
 ### F.13:16 - Didactic distillation (60‑second script)
 
-> **Preserve what the old words meant.** For unchanged meaning and use, record a local rename or alias. A changed expression has a distinct F.17 cell; keep its naming lineage. If meaning or the named value changes, recover that change under its subject rule before settling the later name. Split or merge only when those relations hold. Keep at most one useful legacy alias per register, preserve the earlier text, and give readers the exact historical meaning and any justified path to the present name.
+> **Preserve what the old words meant.** For unchanged meaning and use, record a local rename or alias. A changed expression has a distinct F.17 cell; keep its naming lineage. If meaning or the named value changes, recover that change under its subject rule before settling the later name. Split or merge only when those relations hold. Keep the historical aliases readers need, preserve the earlier text, and give readers the exact historical meaning and any justified path to the present name.
 
 ### F.13:End
 
@@ -123129,7 +123136,7 @@ Use this sequence before minting a durable name or any supporting naming object:
 
 1. **Recover the governed value first.** Separate candidate expressions whenever they designate different governed values or relations. Recover each retained value's exact kind and direct pattern; keep an ordinary phrase local when no governed naming case is needed.
 2. **Name one proposed use and its interpretation basis.** State what the reader will do with the expression and the effective naming rules (`ReferenceScheme`). An independently selected `BoundedModelUseStructure` appears only when that organization changes this exact naming use; it is never a generic locality field.
-3. **Try the light dispositions in order.** Prefer no durable name, an existing designation, a recorded alias, a local expression, an existing direct-pattern name, or an existing public row. Stop as soon as the proposed use works without hiding a governed distinction.
+3. **Select the lightest sufficient treatment.** Use adequate ordinary wording, an existing designation, an alias, a local expression, a direct-pattern name or a current public row. Reuse an already justified choice; compare alternatives when they could reduce burden without losing a governed distinction.
 4. **Create only the next object that pays for itself.** A local `SchemeSenseCell` is useful only when the exact local sense needs a stable address; a NameCard only when the naming settlement itself must endure; an F.17 row only for public, Core-facing, durable, or cross-local reuse; E.24.PUB only when the selected row edition must actually be made available. None implies the next.
 5. **Use exact relations instead of fused names.** Bundles and incompatibilities among system-role kinds remain A.2.7 relations; assignment claims remain A.2.1. For precise performed Work, A.13 first recovers each exact actual performer and A.15.1 independently admits the dated occurrence; F.6 follows only when the naming case or receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment. Status families and windows remain F.10; qualifiers remain with their direct patterns.
 6. **Treat cross-local wording as a relation question only when one is current.** Resolve the exact local senses first. Same spelling proves nothing; different local-sense projections only open F.9. Cite a Bridge only when its predicate obtains, then state the proposed use and reliance separately. A Bridge does not merge governed values or require a public row.
@@ -123196,7 +123203,7 @@ The record describes the control result. It creates no governed value, naming de
 
 #### F.14:7.2 - Reuse before minting
 
-Reuse only when the exact recovered value, kind, direct pattern, proposed use, and admitted naming scope match. Try an existing designation, alias, local expression, or current row before creating a card, cell, row, policy id, or new U-kind candidate. Local-sense reuse does not imply sameness with another local sense; row reuse does not widen the row's admitted use.
+Reuse only when the exact recovered value, kind, direct pattern, proposed use and admitted naming scope match. Before creating a card, cell, row, policy id or new U-kind candidate, establish the receiving need that adequate ordinary wording or an existing designation would not meet. Reuse available grounds for that decision. Local-sense reuse does not imply sameness with another local sense; row reuse does not widen the row's admitted use.
 
 #### F.14:7.3 - Use relations among system-role kinds before hybrid kinds
 
@@ -123339,7 +123346,7 @@ Result:
 | Check | Question |
 | --- | --- |
 | CC-F14-01 | Is each candidate tied to one independently recovered governed value or relation and proposed use, or explicitly left local? |
-| CC-F14-02 | Were the light dispositions—no durable name, existing designation, alias, and local expression—tested before minting anything stronger? |
+| CC-F14-02 | Does a proposed stronger naming object meet a receiving need left unmet by adequate ordinary wording or an existing designation? |
 | CC-F14-03 | Are the system-role-kind designation, local kind, `SystemRoleKindDescription`, exact relation among kinds, assignment, capability, Method, and performed Work distinct? |
 | CC-F14-04 | Are status family, value, window, use relation, evidence, and presentation distinct? |
 | CC-F14-05 | Are effective naming ReferenceScheme and exact local-sense basis used instead of a generic context slot? |
@@ -123376,7 +123383,7 @@ F.14 does not import access-control, terminology, credential, or modeling-langua
 
 ### F.14:16 - Didactic distillation
 
-When names multiply, do not ask for a better name first. Recover the exact values and the proposed use. Try no durable name, an existing designation, an alias, or a local expression. Keep relations among system-role kinds, status windows, capability, Method, Work, evidence, source, policy, and publication under their direct patterns. Create a cell, NameCard, row, identifier, or publication only when that exact object buys a named use; none requires the next and none makes the governed value real.
+When names multiply, recover the exact values and the proposed use. Keep adequate ordinary wording or an existing designation; compare other treatments when the choice remains unresolved. Keep relations among system-role kinds, status windows, capability, Method, Work, evidence, source, policy and publication under their direct patterns. Create a cell, NameCard, row, identifier or publication only for the named use that needs it.
 
 ### F.14:End
 
@@ -123647,7 +123654,7 @@ When a changed value, sense, or use alters row support, preserve the exact earli
 Compare exact F.4 description epistemes and the described kinds' candidate domains, operative membership conditions, intended member/non-member boundaries, continuity rules, current `KindSignature` editions, effective schemes, and claim content. Source or practice provenance is a cue to compare those definitions, not an identity key. A label-only change cannot prove that the described kind or description episteme stayed the same.
 
 **RSCR-F15-E8 (Alias for expression change; direct recovery for meaning change).**
-If only a selected expression changes while the exact value, scheme, sense, and use are preserved, F.13 and F.18 may record an alias or rename. A changed described kind, candidate domain, operative membership distinction, member/non-member boundary, continuity rule, scheme, local sense, or description claim requires the corresponding new object or episteme and a fresh naming settlement. A practice or source change by itself triggers comparison; it proves neither continuity nor a split.
+If only a selected expression changes while the exact value, scheme, sense and use are preserved, F.13 and F.18 may record an alias or rename. When a described kind, candidate domain, membership distinction, boundary, continuity rule, scheme, local sense or description claim changes, recover the affected object or episteme under its subject rule. Reopen the naming settlement when that change affects the named value, interpretation or receiving use; reuse an unaffected settlement. A practice or source change by itself triggers comparison and proves neither continuity nor a split.
 
 #### F.15:11.5 - Bridges and bounded uses
 
@@ -123739,7 +123746,7 @@ F.15 result:
 * RSCR-F15-E7 compares the two exact description epistemes and the described local system-role kind.
 * RSCR-F15-E8 permits F.13/F.18 alias or rename treatment only for expression change with value, scheme, sense, and use preserved.
 * F.18 updates the NameCard; F.17 updates a public row only if that row use is current and its gate passes.
-* If the described system-role kind or description claim changed, F.4 and the naming patterns create the corresponding new objects; F.15 does not declare continuity.
+* If the described system-role kind or description claim changed, F.4 and C.2.1 identify the affected value or episteme; F.18 rechecks naming when the change affects its value, interpretation or use. F.15 does not infer continuity from the label.
 
 #### F.15:13.4 - Partial Bridge later claimed as equivalence
 
@@ -123764,7 +123771,7 @@ F.15 result:
 
 ### F.15:13.6 - Bias-Annotation
 
-F.15 blocks unification bias: shared spelling, table membership, a stable id, an earlier pass, a Bridge description, or a NameCard is not common meaning or continuity proof. It also blocks harness-authority bias: the record does not perform the check, create a result, turn witnesses into evidence use, publish itself, or absorb a failed system-role-kind, assignment, status, relation, work, evidence, assurance, or naming claim.
+F.15 counters unification bias by comparing actual definitions, local senses and continuity grounds. Shared spelling, table membership, a stable id, an earlier pass, a Bridge description or a NameCard does not establish common meaning or continuity.
 
 ### F.15:14.5 - Conformance Checklist
 
@@ -123824,7 +123831,7 @@ Closure is local. A later change reopens only the affected rule results and thei
 
 ### F.15:15.2 - Rationale
 
-Cross-local reuse is useful only after exact locality and relation truth are preserved; regression is useful only when it compares real earlier/later objects for a named use. F.15 therefore checks a finite joint slice without defining another ontology or naming protocol, performing assessment Work, establishing evidence relations, publishing content, or creating a global status system.
+Cross-local reuse depends on the exact local meanings and supported relation; regression compares the relevant earlier and later values for a named use. F.15 brings those checks together in a finite slice and returns unresolved subject questions to the patterns that can settle them.
 
 ### F.15:17 - SoTA-Echoing
 
@@ -123846,7 +123853,7 @@ Currentness rule: when the defining or testing rule for a value—or F.17/F.18, 
 * **F.9, C.2.1, A.10, and B.3.** Govern actual Bridge occurrences, separate bounded-use claims, evidence reliance, and assurance. Descriptions, Cards, `CL`, and witnesses are not relation truth or use authority.
 * **F.10 or the applicable status pattern.** Use it for status family, value, target, scope, window, source, and use claims.
 * **A.1.1 and A.22.** Supply an optional independently selected bounded-model-use Structure only when its organization changes the checked use; description and membership remain separate.
-* **A.13, A.15.1, F.6, and A.6.1.** A.13 recovers each exact actual performer and A.15.1 independently admits dated Work; F.6 adds only an expressly consumed precise assignment-bound attribution through the same obtaining A.13 assignment, and A.6.1 governs exact rule application. Ordinary checking need not be admitted as `U.Work`, and missing or failed F.6 leaves any independently admitted Work intact.
+* **A.13, A.15.1, F.6, and A.6.1.** A.13 recovers each exact actual performer and A.15.1 independently admits dated Work; F.6 adds only an expressly consumed precise assignment-bound attribution through the same obtaining A.13 assignment, and A.6.1 governs exact rule application. Ordinary checking need not be admitted as `U.Work`, and missing or failed F.6 alone leaves independently admitted Work intact. Recheck any admission premise invalidated by the same finding, with its dependent conclusions, under F.6:4.2.
 * **E.24.PUB and G.11.** Govern publication occurrence/form/carrier and currentness separately from the checked record.
 * **C.34.** Supplies architecture-specific preservation or equivalence adequacy when exact selected architecture structures and losses are the live subject; F.15 carries only the finite regression check and result refs.
 
@@ -123907,7 +123914,7 @@ A useful worked example is a compact case with nine visible parts:
 * **Obtaining relation** — a relation supported for these exact participants; its appearance on the page does not create it.
 * **Source basis** — exact source and edition, passage, and effective reference scheme needed by the claim.
 * **Evidence basis** — the observations, source claims and independently established direct relations supporting the conclusion, represented in A.10's descriptive evidence-provenance account with its bounded-reliance disposition. A separately current B.3 assurance claim retains its own result and limits.
-* **Evaluation result** — when the case evaluates a promise or criterion, the result bound by an exact A.6.1 application during evaluation Work, on the result scale declared by the applicable rule.
+* **Evaluation result** — when the case evaluates a promise or criterion, the result of applying its rule to the selected inputs, on the result scale that rule declares. Recover an exact A.6.1 application or dated evaluation Work when the case claims it or the governing evaluation rule requires it.
 * **Receiving use** — the concrete decision, explanation, comparison, or action for which the result is used.
 * **SchemeSenseCell** — the exact F.17 coordinate `<ReferenceScheme by value, LocalExpression, LocalSenseClaim>`. A separate address resolves that coordinate when the receiving use needs it.
 * **Comparison table** — an optional F.7 display of exact entries and already obtaining relations.
@@ -123929,7 +123936,7 @@ A useful worked example is a compact case with nine visible parts:
 
 6. **Obtaining relations.** For each relation, name its exact participants, direction, basis, and loss. Use F.9 only for a real semantic relation between distinct local meanings. Use the defining or testing pattern for MethodDescription membership, enactment, performed Work, measurement, evidence, fulfilment, kind, assignment, publication, transformation, and any load-bearing indicator relation. If proxy wording names no supported relation, use C.16.P and stop at A.6.RCD `missing-governor`.
 
-7. **Evidence, result, and limits.** Show the independently established direct relations by which observations or sources support the claim. A.10 describes that path and classifies reliance on it for the bounded use; the cited basis must meet the evidence requirement of the claim and its direct rule. When evaluation is part of the case, show the evaluation Work, enacted Method, exact application and result binding, declared result scale, and any separate F.10 status or optional C.2.1 verdict episteme. Use B.3 only for an actual named assurance claim. State the consequential limits of the conclusion.
+7. **Evidence, result, and limits.** Show the independently established direct relations by which observations or sources support the claim. A.10 describes that path and classifies reliance on it for the bounded use; the cited basis must meet the evidence requirement of the claim and its direct rule. When evaluation is part of the case, show the selected inputs, evaluation rule, result and any declared result scale. Recover the evaluation Work, enacted Method and exact application and result binding when the case claims them or its governing rule requires them, including the performance-history branch of A.2.3/F.12 promise evaluation. Add F.10 status and a durable C.2.1 verdict assertion only for their selected uses. Use B.3 only for an actual named assurance claim. State the consequential limits of the conclusion.
 
 8. **Optional comparison surface.** If two or more local meanings or source claims are hard to compare in prose, add one compact F.7 table. State the receiving-use conclusion separately. Omit the table when it adds ceremony but no clarity.
 
@@ -123946,7 +123953,7 @@ A useful worked example is a compact case with nine visible parts:
 5. **Source precision.** Source and edition and the effective scheme are explicit where wording or interpretation changes the claim.
 6. **Time and object distinctions.** MethodDescription, Work, observation, and output remain distinct; windows are stated when they change the result.
 7. **Agency precision.** Every asserted dated Work uses the performer's recovered A.13 core and independent A.15.1 admission. The core includes its obtaining assignment; add F.6 only when the worked claim needs precise assignment-bound attribution. Recover a separately needed local-kind or description claim under its own rule.
-8. **Evidence, evaluation, and boundary.** The page shows why the claim is supported; when evaluation occurs, it keeps evaluation Work, operation result, declared scale, EvidenceStatus, RequirementStatus, and optional verdict episteme distinct; and it states the consequential limits of the result.
+8. **Evidence, evaluation, and boundary.** The page shows why the claim is supported. An evaluation retains its inputs, rule, result and applicable scale; any claimed or required evaluation Work, exact application, status and durable verdict assertion remain distinct. State the consequential limits of the result.
 9. **Didactic parsimony.** Every item changes the worked answer; optional machinery is omitted when it does not.
 
 ### F.16:7 - Optional comparison panel
@@ -124044,7 +124051,7 @@ Recover the local system-role kind under A.2 with C.3 and the exact assignment u
 
 **Situation and claim.** A build MethodDescription contains a target duration; dated build Work occurs; observations report actual duration; a service promise is evaluated for a calendar week.
 
-Use A.3.2 for MethodDescription membership, A.15 and B.1.5 for delivery and evaluation Work and any Method enactment, C.16 for observations and measured values, A.2.3 and F.12 for promise evaluation, A.6.1 for the exact evaluation application and result binding, A.10 for a descriptive account of independently established evidence relations and bounded reliance, and B.3 only for an actual named assurance claim. Cite the MethodDescription edition only if it changes the result or replay, and state separately whether the Work used it. A comparison table may show promised and observed values, but it establishes neither Work, result, status, nor a verdict episteme.
+Use A.3.2 for MethodDescription membership, A.15 and B.1.5 for delivery Work and any claimed evaluation Work or Method enactment, C.16 for observations and measured values, and A.2.3 with F.12 for promise evaluation. Use A.6.1 when the exact evaluation application and result binding are current; use A.10 for a descriptive account of independently established evidence relations and bounded reliance, and B.3 only for an actual named assurance claim. Cite the MethodDescription edition only if it changes the result or replay, and state separately whether the Work used it. A comparison table may show promised and observed values, but it establishes neither Work, result, status, nor a verdict episteme.
 
 ### F.16:13 - Safe reasoning moves
 
@@ -124053,7 +124060,7 @@ Use A.3.2 for MethodDescription membership, A.15 and B.1.5 for delivery and eval
 3. **Name actual subjects.** Replace vague words with the Systems, epistemes, Methods, Work, claims, observations, values, kinds, or assignments actually involved.
 4. **Route relations.** Name the defining or testing pattern for each relation. For an alleged proxy, first test direct measurement; if a distinct indicator relation is needed and no rule supplies it, return A.6.RCD `missing-governor`.
 5. **Recover local wording.** Cite the source, edition, and scheme; add an F.17 cell only when the receiving use needs a stable local-meaning address.
-6. **Show evidence and evaluation.** Recover the direct evidence-use relations, their descriptive A.10 account and its bounded-reliance disposition. When evaluation occurs, show the evaluation Work, Method, application, result binding, declared scale, separate F.10 status, and optional verdict episteme as applicable; use B.3 only for an actual named assurance claim.
+6. **Show evidence and evaluation.** Recover the direct evidence-use relations, their descriptive A.10 account and its bounded-reliance disposition. When evaluation occurs, show its inputs, rule and supported result with any declared scale. Recover Work, Method and exact application/result bindings when claimed or required by the governing rule; add F.10 status or a durable verdict episteme only for their selected uses. Use B.3 only for an actual named assurance claim.
 7. **Use aids sparingly.** Add an F.7 table only when it lowers reading cost; never infer from layout.
 8. **State limits.** Include direction, loss, window, population, uncertainty, or non-use boundary that changes the conclusion.
 9. **Replay.** Run focused checks for the case's actual failure risks, including result and status separation when evaluation is present.
@@ -124070,7 +124077,7 @@ Use A.3.2 for MethodDescription membership, A.15 and B.1.5 for delivery and eval
 * **SCR-F16-S06 (optional aids).** Cells and tables are omitted when they do not reduce reader effort; their presence or layout is not treated as evidence.
 * **SCR-F16-S07 (time and agency).** Windows, Work, System, assignment, and attribution are explicit when material.
 * **SCR-F16-S08 (one-page parsimony).** Every included item changes the answer; a larger case is split without losing its basis.
-* **SCR-F16-S09 (evaluation architecture).** When evaluation is present, the performing System, evaluation Work, enacted Method, exact application and result binding, declared result scale, separate EvidenceStatus and RequirementStatus, and optional verdict episteme remain recoverable.
+* **SCR-F16-S09 (evaluation architecture).** When evaluation is present, its inputs, rule, supported result and applicable result scale are recoverable. Any claimed or rule-required performing System, evaluation Work, enacted Method and exact application/result binding satisfy their direct patterns; any selected EvidenceStatus, RequirementStatus or durable verdict assertion remains separate.
 
 #### F.16:14.2 - Regression
 
@@ -124121,7 +124128,7 @@ Use A.3.2 for MethodDescription membership, A.15 and B.1.5 for delivery and eval
 
 **Use this when.** Use F.17 when an independently governed value has a settled durable name and public, Core-facing, durable, or cross-local reuse needs a reader-facing term row.
 
-**First useful move.** Point to the exact governed value, its kind, the pattern that defines or constrains it, one proposed row use, and the selected Tech and Plain designations. Then apply F.14 at the row gate. If no durable row is needed, reuse the designation, alias, local expression, or name already supplied for that value and stop.
+**First useful move.** Point to the exact governed value, its kind, the pattern that defines or constrains it, one proposed row use, the selected Tech designation and any Plain designation needed for that use. Then apply F.14 at the row gate. If no durable row is needed, reuse the designation, alias, local expression or name already supplied for that value and stop.
 
 **Primary working object.** One C.2.1 `UnifiedTermRow` episteme whose exact EntityOfConcern is the independently governed value. Its claim graph cites the separate F.18 naming-settlement episteme and selected designation expressions. Section 5.1 explains the identities and relations needed to recover this decision and distinguish the row from its publication.
 
@@ -124179,8 +124186,8 @@ The practical problem is to make one durable naming decision recoverable without
 Recover the naming objects needed for the declared reuse, then constitute a row only when its separate gate is met:
 
 1. **Recover the value.** Identify one exact already-governed value or relation, its kind, the pattern that defines or constrains it, its identity or obtaining semantics, and one proposed use. Split a mixed candidate before naming.
-2. **Run the anti-explosion gate.** Apply F.14 before minting a card, cell, row, or family. Try no durable name, an existing designation, an alias, a local expression, a name already used for the value, and an admitted existing-row name. Stop at the first sufficient disposition.
-3. **Settle only the durable name that is needed.** If one expression remains unresolved, use F.8. If a durable naming settlement is justified, F.18 constitutes one C.2.1 NameCard and selects Tech and Plain designations. The card creates neither the value nor its kind and does not require a cell or row.
+2. **Apply the anti-explosion gate.** Use F.14 to establish what the receiving use needs before minting a card, cell, row or family. Reuse an adequate local expression, existing designation, alias or admitted row directly. A stronger object needs a contribution that those adequate treatments do not supply.
+3. **Settle only the durable name that is needed.** If one expression remains unresolved, use F.8. If a durable naming settlement is justified, F.18 constitutes one C.2.1 NameCard and selects the Tech designation and any Plain designation needed for a stated didactic use. The card creates neither the value nor its kind and does not require a cell or row.
 4. **Address a local sense only when useful.** Create one `SchemeSenseCell` only when the exact local expression and sense claim need a stable address under an effective by-value `ReferenceScheme`. Cite a selected bounded-model-use Structure only when its organization changes this exact naming use. The cell does not require a NameCard or row.
 5. **Open the public-row gate independently.** Apply F.14 again when public, Core-facing, durable, or cross-local reuse needs a row. The current F.18 public-row interface supplies the exact NameCard, selected designations, governed value and kind, the locator for its defining or constraining pattern, effective scheme, and exact cell. None of those inputs alone requires the row.
 6. **Add a Bridge only for an actual cross-local relation.** Compare the exact `<ReferenceScheme, LocalSenseClaim>` projections. When the proposed row use relates different projections, cite an obtaining F.9 Bridge between the exact cells and separately cite the affirmative C.2.1 use claim plus its current A.10 or B.3 reliance. Same spelling, scheme difference, or cell presence proves no Bridge.
@@ -124240,7 +124247,7 @@ UnifiedTermRow <: U.Episteme:
   GovernedValueKindRef: U.KindRef
   SubjectPatternLocator: U.EntityRef resolving the pattern that defines or constrains the governed value
   UnifiedTechName: selected Tech designation expression
-  UnifiedPlainName: selected Plain designation expression
+  UnifiedPlainName?: selected Plain designation expression for a stated didactic use
   NameCardRef: U.EpistemeRef resolving the separate exact F.18 naming-settlement episteme
   SenseCellRefs[]: exact SenseCellAddressRefs
   BridgeRefs[]?: actual F.9 Bridge occurrences only
@@ -124271,7 +124278,7 @@ When a selected row edition must be made available, E.24.PUB supplies `Publicati
 
 `GovernedValueRef` and `GovernedValueKindRef` are separate. A kind token has kind `U.Kind`. An exact local system-role kind, obtaining system-role-assignment or other relation occurrence, status value, slot kind, representation position, or local concept retains its own kind; the row points to the pattern that defines or constrains that value. A row or card cannot admit a U-kind or make a direct relation obtain.
 
-`NameCardRef` resolves the F.18 C.2.1 naming-decision episteme consumed by the current public-row gate. `UnifiedTechName` and `UnifiedPlainName` are designation expressions selected by that decision, not values or references. Aliases and rejected candidates stay in the NameCard or local lexicon rather than becoming rival selected names in the row.
+`NameCardRef` resolves the F.18 C.2.1 naming-decision episteme consumed by the current public-row gate. `UnifiedTechName` and any `UnifiedPlainName` are designation expressions selected by that decision, not values or references. Aliases and rejected candidates stay in the NameCard or local lexicon rather than becoming rival selected names in the row.
 
 `BridgeRefs` cites only actual F.9 occurrences between exact cells. Direction, use-specific rule, loss tolerance, polarity, evidence, reliance, permission, and receiving action remain in their own claims and relations. Local senses do not globalize; same spelling or a different scheme provides neither governed-value identity nor Bridge obtaining.
 
@@ -124306,7 +124313,7 @@ Use these positions when they are current. Presence means that the exact referen
 | `Defining or constraining pattern` | yes | Pattern whose rules define or constrain the value, its kind, its identity, or any obtaining semantics used by the row. |
 | `Reference scheme` | yes | Effective by-value naming `ReferenceScheme` used in this row's C.2.1 constitution. |
 | `Unified Tech name` | yes | Selected Tech designation expression. |
-| `Unified Plain name` | yes | Selected Plain designation expression. |
+| `Unified Plain name` | when needed for a stated didactic use | Selected Plain designation expression for the same governed value and local meaning. |
 | `SenseCellRefs` | one or more | Exact scheme-based local-sense coordinates needed by this row. |
 | `BridgeRefs` | only for an actual cross-local relation used by the row | Exact obtaining F.9 occurrences; the separate use claim and reliance stay in rationale or notes. |
 | `Row rationale` | yes | Why these projections form one row decision. |
@@ -124364,8 +124371,8 @@ Use these checks before citing a row outside its immediate sheet.
 | UTS-SCR-01 | The row resolves to one C.2.1 row episteme whose EntityOfConcern is one exact governed value; it points separately to that value's kind, the pattern that defines or constrains it, and the exact F.18 naming-settlement episteme. |
 | UTS-SCR-02 | One row carries one naming decision and one governed value/use branch; mixed values or independently different uses are split. |
 | UTS-SCR-03 | Every local sense resolves to one exact by-value ReferenceScheme, local expression, and local-sense claim; id, description, source publication, card, or basis relation replaces none of them. |
-| UTS-SCR-04 | F.14 was applied before the current card, cell, and row; the light dispositions—no durable name, existing designation, alias, local expression, a name already used for the value, and admitted row reuse—were tested first. |
-| UTS-SCR-05 | The Tech and Plain designation expressions agree with the exact current F.18 NameCard without becoming the governed value; aliases and rejected candidates remain separate. |
+| UTS-SCR-04 | Each current card, cell and row meets a receiving need under F.14. Adequate ordinary wording or existing naming is reused where it supplies that result. |
+| UTS-SCR-05 | The Tech designation and any Plain designation agree with the exact current F.18 NameCard without becoming the governed value; aliases and rejected candidates remain separate. |
 | UTS-SCR-06 | Any cited `LocalSenseBasisRelation` has only its exact cell and basis episteme as participants; source-unit and publication facts remain qualifiers or neighboring objects. |
 | UTS-SCR-07 | Apply all four Bridge probes: same scheme plus same `LocalSenseClaim` plus another expression is a designation question and adds no Bridge; for the same scheme plus a different claim, use F.9 and, only for a named row use, the separate use-claim/reliance branch; a different scheme opens only the Bridge question and establishes none; no current correspondence use creates no Bridge or use claim regardless of scheme count. |
 | UTS-SCR-08 | Any cited F.9 Bridge has exact endpoint cells and editions, an applicable relation-semantic profile, a true kind-defined predicate, and every required dependency. The separate affirmative C.2.1 use claim states direction, correspondence rule, and loss tolerance, with current A.10 or B.3 reliance. A negative use claim rejects that exact row use; non-passing reliance stops or narrows it; neither negates or reidentifies an otherwise obtaining Bridge. |
@@ -124387,7 +124394,7 @@ Recheck only the rows affected by the changed object, name, scheme, sense, Bridg
 | UTS-RSCR-02 | The defining or constraining rule changes the underlying value kind or admissible use | Recheck the governed value, its kind, the applicable pattern, admitted use, and blocked use. |
 | UTS-RSCR-03 | F.18 changes the selected name or NameCard decision | Recheck Tech name, Plain name, NameCardRef, aliases, coordinate expression, and rationale. |
 | UTS-RSCR-04 | F.9 changes a Bridge endpoint or relation-semantic profile, or C.2.1/A.10/B.3 changes the bounded-use claim or reliance basis | Apply F.9:16 to changed endpoints or a changed profile, then reconsider every row use that depends on that Bridge. A changed direction, rule, tolerance or polarity changes the use claim; changed evidence or reliance reopens its support. Update affected references, rationale and notes; retain the Bridge and row uses whose grounds remain valid. |
-| UTS-RSCR-05 | Row relocation between blocks | Keep the row id stable and state that relocation between blocks has no ontological force. |
+| UTS-RSCR-05 | Row relocation between blocks | Keep the row id and meaning stable; clarify the new grouping if it could change the reader's interpretation. |
 | UTS-RSCR-06 | A system-role, status, evidence, source, publication, or description row is reused under another semantic-context projection or by another reader group | Recheck the pattern that defines or constrains the governed value, the exact sense coordinate, and any required Bridge before reuse. |
 
 ### F.17:12 - Archetypal Grounding - worked cases
@@ -124480,7 +124487,7 @@ LocalSenseBasisRelationDescription.BoundedModelUseStructure.FPFCore.2026-07-25:
   editionId: 2026-07-25
 ```
 
-This row records `BoundedModelUseStructure` for public reuse; availability of its selected edition requires the separate E.24.PUB publication relations. A.22 keeps its cross-structure NameCard local until an independently governed crossing obtains and the exact positive membership basis is available. That conditional label needs its own public-row decision when those conditions are met.
+This row records `BoundedModelUseStructure` for public reuse; availability of its selected edition requires the separate E.24.PUB publication relations. A.22 retains `CrossContextRelationStructure` as a provisional local designator and governs when a positive structure member may be claimed. Any later naming settlement or public row must be established for its exact governed value under F.18 and the row gate.
 
 #### F.17:12.4e - Three bounded-model-use direct relation-kind rows
 
@@ -124828,7 +124835,7 @@ Each row retains its C.2.1 episteme identity and refers separately to the govern
 
 #### F.17:12.4g - Make a settled row available only through a separate publication operation
 
-Do not perform an E.24.PUB publication operation on a placeholder. First require the governed value, its lexical classification, the reference scheme's selected name and permitted scope, and the intended reader use to pass F.18 and the ordinary F.17 row gate. If any input is unresolved, keep it as naming work rather than representing it as a current row. Only when an exact audience and bounded availability use are current should E.24.PUB make the selected row edition available through a distinct form and carrier.
+Do not perform an E.24.PUB publication operation on a placeholder. First require the governed value, its lexical classification, the reference scheme's selected name and permitted scope, and the intended reader use to pass F.18 and the ordinary F.17 row gate. If any input is unresolved, keep it as naming work rather than representing it as a current row. When availability is current, state how the selected row edition is available to its audience for the bounded use through an expression and carrier. E.24.PUB governs that claim at its required granularity; name reusable-form conformance only when it matters.
 
 A NameCard, scheme-sense cell, basis relation, row reference, or E.24.PUB occurrence substitutes for none of those decisions. Keep predicate definition, actual use, basis analysis, naming settlement, row admission, and downstream availability separate.
 
@@ -125086,7 +125093,7 @@ F.17 blocks table-bias: a row does not make the named object real, global, reusa
 | Check | Passing condition |
 | --- | --- |
 | `CC-F17-1` | One exact governed value, its kind, the pattern that defines or constrains it, and the proposed row use were recovered before the row. |
-| `CC-F17-2` | F.14 was applied at every current card, cell, and row gate, and the lightest sufficient naming disposition was tried first. |
+| `CC-F17-2` | Each current card, cell and row has a receiving need under F.14; an already adequate lighter treatment is reused. |
 | `CC-F17-3` | Row episteme, NameCard, designation expressions, governed value, reference, exact SenseCell, basis relation, and any F.9 Bridge remain distinct. |
 | `CC-F17-4` | Every cell resolves to an effective by-value ReferenceScheme, exact expression, and local-sense claim; no generic context field or selected structure substitutes for them. |
 | `CC-F17-5` | Every actual `LocalSenseBasisRelation` has exactly the cell and basis episteme as participants; descriptions, source units, publication occurrences, forms, and carriers stay separate. |
@@ -125107,7 +125114,7 @@ F.17 blocks table-bias: a row does not make the named object real, global, reusa
 | Spelling or suffix identity | Lets a familiar label, stable id, or `...@Context` form create or merge values. | Resolve the value under the pattern that defines or constrains it and treat only tokens fixed there as lineage. |
 | Borrowed locality label as Tech name | Imports one tradition's commitments into the row and hides the effective interpretation basis. | Recover the governed value and scheme-based cell; select the designation under F.18 and cite an actual F.9 Bridge only when its separate predicate and use conditions hold. |
 | Basis by source title | Replaces the exact cell and actual basis relation with a file or citation. | Recover the cell and two-participant basis relation; keep source-unit and publication facts separate. |
-| Row as publication | Treats table presence, rendering, upload, form, or carrier as availability. | Use E.24.PUB for the selected row edition, audience, bounded use, form, and carrier. |
+| Row as publication | Treats table presence, rendering, upload, form or carrier alone as availability. | Establish E.24.PUB availability for the selected row edition, audience and bounded use through its expression and carrier; include reusable-form conformance when needed. |
 | Block as ontology or completeness proof | Treats navigation as subtype structure or row count as value evidence. | Keep blocks optional and judge the exact row use through reader recovery and blocked-use avoidance. |
 | Row without its defining or constraining pattern | Lets F.17 govern the named object. | Point to the pattern that defines or constrains the value or stop the public-row path. |
 
@@ -125116,14 +125123,14 @@ F.17 blocks table-bias: a row does not make the named object real, global, reusa
 One row is ready for its declared citation use only when:
 
 - the governed value, exact kind, the pattern that defines or constrains it, and the proposed use are explicit;
-- F.14 has found the lighter dispositions insufficient for the declared use before the current card, cell, and row are constituted;
-- the exact F.18 NameCard and selected Tech/Plain designations are current for this public-row gate;
+- each current card, cell and row supplies a receiving need established under F.14;
+- the exact F.18 NameCard, selected Tech designation and any Plain designation are current for this public-row gate;
 - every `SchemeSenseCell` resolves to one by-value ReferenceScheme, local expression, and local-sense claim;
 - every relied-on local-sense basis is an actual two-participant `LocalSenseBasisRelation` and every description/source/publication object remains separate;
 - any cross-local use cites an obtaining F.9 Bridge for the exact endpoints, then a separate affirmative use claim and current A.10 or B.3 reliance;
 - the row has one decision, an admitted citation use, any grounded blocked-use claim, an edition designator, and a reopen condition;
 - any historical continuation is an exact C.2.1 `EpistemeEditionRelation` rather than shared id or title;
-- any availability is an exact E.24.PUB publication package rather than row, form, carrier, rendering, or upload alone; and
+- any claimed availability has E.24.PUB grounds at the granularity asserted; an ordinary availability statement is sufficient when no finer identity or change question is current; and
 - every ontology, obtaining, equivalence, authority, system-role-kind, assignment, relation-position, status, evidence, Work, and other subject-use claim uses the pattern that defines, constrains, or tests it.
 
 No other row needs to be filled before this one can close. A sheet's row count or optional block plan says nothing about whether another naming decision is substantively needed.
@@ -125187,7 +125194,7 @@ Use `F.18` when a name must become stable, public, Core-facing, reusable under m
 
 1. Recover the exact value and the pattern containing its defining or testing rule.
 2. Decide whether ordinary local wording is enough or later use needs a durable name.
-3. If a durable name is needed, compare the plausible names and record one Tech label, one Plain explanation, the selection reason, and the reopen condition in a `NameCard`.
+3. If a durable name is needed, compare the plausible names and record the Tech label, any Plain designation needed for a stated didactic use, the selection reason and reopen condition in a `NameCard`.
 
 If bare claim-bearing *role* still hides the object, use `E.10.ROLE`; if relation, slot, interface, port, or signature wording hides it, use section 5.6. Open section 4.4 only for a public, Core-facing, durable-across-context, or cross-context use. A public row is a later result, never part of the first naming move.
 
@@ -125209,7 +125216,7 @@ A name lets people refer to an independently governed value. The naming decision
 - `F.17` only as a later public-row consumer whose current entry and result must accept the exact F.18 objects named below;
 - `E.10.ROLE` when bare claim-bearing *role* hides its object; `A.6.5` and `A.6.RSIR` when relation, signature, interface, or slot wording hides the governed object; `A.6.P.WMR` when Work and Method boundary wording still hides the exact relation; and `A.15.1` when a candidate performed-work name still lacks occurrence grounding.
 
-The central subject is one `F.18` naming settlement for one exact already-governed value. `F.18` supplies the candidate comparison, selected Tech and Plain designations, declared naming use, and reopen conditions. The value's direct pattern retains its kind, identity, obtaining, and other subject semantics.
+The central subject is one `F.18` naming settlement for one exact already-governed value. `F.18` supplies the candidate comparison, selected Tech designation, any Plain designation needed for a stated didactic use, declared naming use and reopen conditions. The value's direct pattern retains its kind, identity, obtaining and other subject semantics.
 
 Its complete claim graph records the selected designation expressions, exact local sense, covered and rejected alternatives, rationale, lineage, and reopen condition.
 
@@ -125243,7 +125250,7 @@ Use a local-first naming protocol:
 1. Recover the governed value, its kind, and its subject pattern.
 2. Decide whether the expression should remain local or the current use needs a durable reusable name; apply `F.14` before adding a card, cell, or row.
 3. For a durable name, constitute one `NameCard` episteme under `C.2.1`; keep the value, its kind, the card, selected designations, exact local sense, and any basis or Bridge relation distinct.
-4. Choose the Tech and Plain labels from the smallest candidate set that covers the live head-term families and plausible neighbouring objects.
+4. Choose the Tech label and any Plain designation needed for a stated didactic use from the smallest candidate set that covers the live head-term families and plausible neighbouring objects.
 5. Record the covered alternatives, rejected candidates, selection reason, lineage, and the condition that reopens the settlement.
 6. Only for public, Core-facing, durable-across-context, or cross-context reuse, test the then-current `F.17` entry. It must accept the exact governed value and kind, NameCard episteme, by-value scheme, local sense, and any actual Bridge. Public or durable reuse alone creates no Bridge. When the named use relates different `<ReferenceScheme, LocalSenseClaim>` projections, F.17 must also accept the separate affirmative C.2.1 claim and current A.10 or B.3 reliance through the row rationale or notes rather than treating either as NameCard content. Its result must supply the required public row. If any required input or result is absent, retain the durable name and NameCard locally, mark the public row pending, and stop.
 7. Keep each cited subject, relation and later operation under its own rules. In particular, distinguish the Bridge, the separate claim about its named use, A.10 or B.3 reliance, and authorization. F.18 governs the naming settlement.
@@ -125258,14 +125265,14 @@ Every durable name must satisfy these invariants.
 | Direct pattern visible | Cite the pattern description containing the exact defining or constraining ClaimGraph for the value: for example A.2 with C.3 for a local system-role kind, A.2.1 for one system-role assignment species, A.6.5 for relation slot discipline, F.10 or A.19.SPR for status-value use, and A.10 for evidence use. |
 | Reference scheme visible | The NameCard carries its effective `EpistemeInterpretationScheme` value, with the rules needed to interpret the naming claims and local sense; a model-use structure, claim scope, project work, or other locality relation remains separate and appears only when the naming use needs it. |
 | Local sense visible | Every card states one exact local-sense claim under the effective scheme. A progressive-minimum card may state it directly as `LocalSenseRef`; an expanded card uses `LocalSenseCellRef` only when it resolves to the current F.17 scheme-based coordinate. Any basis episteme and local-sense basis relation remain separate. |
-| Two labels when reusable | The Tech label is precise; the Plain label helps ordinary readers. Both point to the same governed value. |
-| Candidate comparison visible | At least two plausible head families are considered unless a cited external standard fixes the label. |
+| Registers serve the use | The Tech label is precise. Add a Plain designation when the stated didactic use needs it; it names the same governed value under the same local meaning. |
+| Candidate comparison visible | Compare the live head families and plausible neighbouring-object readings that could change the choice. A cited external standard may fix the label; its fit to the governed value and intended use still needs examination. |
 | Bridge only between different semantic-context projections | Compare the exact `<ReferenceScheme, LocalSenseClaim>` pairs. Same scheme plus same claim plus another expression is a designation question and creates no Bridge. Same scheme plus another claim opens the F.9 question and, for a named use, the separate claim-and-reliance branch. Different scheme also opens only the Bridge question. No current correspondence use creates no Bridge or use claim regardless of scheme count. An obtaining Bridge establishes only the exact sense relation; it establishes neither governed-value identity nor authorization. |
 | Lineage visible | Rename, split, merge, retirement, and alias decisions are recorded. |
 
 #### F.18:4.2 - `NameCard` Fields
 
-A NameCard is complete when its full interpreted naming-settlement content (`ClaimGraph`) is recoverable under C.2.1. That value satisfies `NonemptyClaimContent`; membership alone does not supply the narrower naming-settlement claims required here. A compact card states the governed value and subject pattern, effective scheme and local-sense claim, one selected Tech/Plain pair, candidate set, rejections, rationale, lineage, and reopen condition. The subject pattern can make the governed kind unambiguous. These claims together constitute the complete semantic content; an omitted expanded field contributes no hidden claim. The compact cards `NC-U-RELATION`, `NC-CROSS-CONTEXT-RELATION-STRUCTURE`, `NC-PROBLEM-CRITERION-APPLICABILITY-RELATION`, and `NC-PROBLEMATIC-FOR-RELATION` use this form. Section 4.2a carries four expanded bounded-model-use cards.
+A NameCard is complete when its full interpreted naming-settlement content (`ClaimGraph`) is recoverable under C.2.1. That value satisfies `NonemptyClaimContent`; membership alone does not supply the narrower naming-settlement claims required here. A compact card states the governed value and subject pattern, effective scheme and local-sense claim, the selected Tech designation and any Plain designation needed for a stated didactic use, candidate set, rejections, rationale, lineage, and reopen condition. The subject pattern can make the governed kind unambiguous. These claims together constitute the complete semantic content; an omitted expanded field contributes no hidden claim. The compact cards `NC-U-RELATION`, `NC-PROBLEM-CRITERION-APPLICABILITY-RELATION`, and `NC-PROBLEMATIC-FOR-RELATION` use this form. Section 4.2a carries four expanded bounded-model-use cards.
 
 Use the expanded form only when the current naming use needs the additional position:
 
@@ -125280,7 +125287,7 @@ NameCard:
   LocalSenseCellRef: [add when a separately recoverable F.17 scheme-based SenseCell is current; otherwise LocalSenseRef carries the direct local-sense claim]
   LocalSenseBasisRelationRef: [add only for an actual separately governed basis relation]
   TechLabel:
-  PlainLabel:
+  PlainLabel: [add when the naming use needs a Plain designation]
   CandidateSet:
   CandidateCoverage: [add when family coverage, an open alternative, or a forced exception must be explicit]
   RejectedCandidates:
@@ -125641,7 +125648,7 @@ This naming use requires no correspondence between different local senses, so th
 
 #### F.18:4.3 - Candidate Selection
 
-Do not pick a durable label in one stroke or work toward a fixed candidate count. Unless a cited external standard fixes the label under §4.1, build the smallest set that covers at least two live head-term families. In either branch, examine every plausible neighbouring-object reading that could change the decision. Stop when each live family has a representative and no untested plausible alternative could overturn the selection. If a deadline forces closure while a plausible family or alternative remains untested, record that exception in `CandidateCoverage` and make it part of `RefreshCondition`.
+Build the smallest candidate set that covers the live head-term families and plausible neighbouring-object readings that could change the decision. A cited external standard may fix the label under §4.1. One supported candidate is enough when examination leaves no live alternative that could change the choice. Stop when the relevant comparison is sufficient. If a deadline forces closure while a plausible alternative remains untested, record that exception in `CandidateCoverage` and make it part of `RefreshCondition`.
 
 Judge candidates on:
 
@@ -125662,7 +125669,7 @@ The F.17 entry must be able to recover:
 
 - the governed value and its kind;
 - the locator for the pattern containing its defining or testing rule;
-- the NameCard episteme and selected Tech and Plain designations;
+- the NameCard episteme, selected Tech designation and any Plain designation needed for the naming use;
 - the effective by-value reference scheme, exact F.17 scheme-based SenseCell, and any separate local-sense basis relation;
 - any F.9 Bridge that actually obtains.
 
@@ -125687,14 +125694,7 @@ This settlement keeps naming aligned with the object already recovered. Bare *ro
 
 A durable system-role-kind name designates one exact local kind admitted through C.3 and A.2. Recover that kind through its candidate domain, operative membership condition, intended member/non-member boundary, and continuity rule. A practice or source reference can locate the definition or signal that two definitions should be compared; it does not identify the kind. Candidates are entities already admitted under A.1 as `U.System`. The Tech designation normally ends in `...SystemRole`, for example `ReviewerSystemRole`. `SystemRole` is compound morphology, not a universal governed value. The name creates no system admission, kind membership, assignment, agency, capability, or Work.
 
-A system-role-kind name must not include:
-
-- the holder of an assignment or the assignment occurrence;
-- capability evidence or skill level;
-- method or method-family selection;
-- performed Work;
-- status value or gate result;
-- source, evidence, publication, or assurance use.
+A system-role-kind name preserves the distinctions in its operative membership condition. Keep a current holder, particular assignment or Work occurrence, temporary status, and current evidence or assurance claim separate from the kind name. A skill, Method-family or other qualifier belongs in the label when the admitted kind's definition makes that distinction necessary, under §6.
 
 If a phrase such as `SeniorReviewer`, `NightOperator`, or source wording such as *evidence role* appears, recover the current claim first. The result may be an exact local system-role kind, one direct assignment occurrence, a status assertion, an evidence-use relation, a Work admission condition, another governed value, or a local source phrase. Do not force all of them into one system-role-kind name.
 
@@ -125719,7 +125719,7 @@ Treat an action nominal such as `testing` as a morphology cue, not a governed ki
 
 A durable name for performed Work points to one dated occurrence already grounded under `A.15.1`. An action word, plan row, local work-family label, or `U.WorkPlan` does not create that occurrence or an assignment.
 
-Every System claimed as an actual performer must already have its A.13 core, including the obtaining assignment for the exact action, scope, situation and window. A.15.1 independently admits the dated Work from its Method, temporal extent, containing System and other required direct facts. Add F.6 only when the naming account or receiving use needs precise attribution through that same assignment; the assignment must cover the Work interval, have the recovered performer as holder and retain every participant required by its declared species. Missing or failed F.6 leaves the independently admitted Work and its durable name intact. A compact naming account cites only the identities its receiving use needs. Add a continuity policy only when interruption, retry, a changed Method or binding, or competing designators make occurrence identity material.
+Every System claimed as an actual performer must already have its A.13 core, including the obtaining assignment for the exact action and any scope, situation and window required by the receiving use. A.15.1 independently admits the dated Work from its Method, temporal extent, containing System and other required direct facts. Add F.6 only when the naming account or receiving use needs precise attribution through that same assignment; the assignment must cover the Work interval, have the recovered performer as holder and retain every participant required by its declared species. Missing or failed F.6 attribution alone leaves independently admitted Work and its durable name intact; if the same finding invalidates a consumed A.13 or A.15.1 premise, recheck that premise and its dependent conclusions. A compact naming account cites only the identities its receiving use needs. Add a continuity policy only when interruption, retry, a changed Method or binding, or competing designators make occurrence identity material.
 
 Name any other result separately under its subject pattern, such as `A.15.PROD` for a production claim or `C.11` for a decision.
 When the underlying boundary wording still hides the relation, apply `A.6.P.WMR`. Use `F.18` only after an exact governed value and its use are recovered through a direct subject relation, an exact `A.6.1` application binding, or an exact local `A.15.PROD`/`A.6.RCD` claim. An exact non-assertability result retains its reason under `A.6.P.WMR:4.3`; it does not authorize durable naming of the attempted relation. A missing subject rule may identify a future pattern or declaration need; unavailable constructor semantics retain their separate derivation question. This section selects and tests a name. It does not define a second work-occurrence or work-result recovery algorithm.
@@ -125769,7 +125769,7 @@ Do not name these as system-role kinds or assignments unless that separate work-
 
 #### F.18:5.6 - Relation, Slot, Interface, Port, and Signature Names
 
-If a name touches relation, slot, interface, port, boundary, protocol, API, or signature wording, use `A.6.RSIR` and subject patterns.
+Use the direct subject pattern when the named relation, slot, interface, port, boundary, protocol, API or signature is already clear. Open A.6.RSIR when that wording still hides which object or relation is being named.
 
 - Use A.6.5 for relation slot discipline and `SlotSpec` declarations.
 - Use A.6.0 for signatures and law-defined declarations.
@@ -125778,7 +125778,7 @@ If a name touches relation, slot, interface, port, boundary, protocol, API, or s
 - `A.6.C`, protocol, service-access, and commitment patterns define or constrain API, protocol, and service-access cases.
 - Use C.2.1 for the identity and content of a claim-bearing interface-description episteme.
 - Use E.17 for a multi-view publication face or form.
-- Use E.24.PUB for availability of the selected edition, exact expression and carrier-bearing relations, and separate reusable-form conformance. A combined form-mediated availability claim retains one shared expression witness.
+- Use E.24.PUB for availability of the selected edition, exact expression and carrier-bearing relations, and reusable-form conformance when needed. A selected form-mediated availability claim retains one shared expression witness.
 
 Before naming a relation-facing object, keep these settlements distinct:
 
@@ -125787,7 +125787,7 @@ Before naming a relation-facing object, keep these settlements distinct:
 | reusable predicate-definition episteme | An `A.6.RCD` result records a reusable definition and `C.2.1` gives it one truthful exact `EntityOfConcern`; the name denotes the definition, not a relation kind |
 | derived or primitive relation kind | `A.6.RCD`, `E.24`, and `E.24.UK` have admitted the kind and its direct subject pattern states obtaining, applicability, and occurrence identity |
 | one obtaining relation occurrence | the subject pattern establishes obtaining and `A.6.REL` applies the admitted kind's identity rule |
-| formula, query, path, graph, diagram, or other representation element | `C.29` states what it represents and the relevant correspondence; its name does not name the represented relation by default |
+| formula, query, path, graph, diagram, or other representation element | The domain identifies the representation element and the correspondence needed by the receiving use; use C.29 when mathematical representation choice, transfer or reliance remains unresolved. Name the represented relation separately when that is the intended subject. |
 | designator or reference | the exact designation or reference relation resolves to the already settled object under its reference scheme |
 
 One token may be reused only where the reference scheme and local sense preserve these distinctions; it cannot collapse definition, kind, occurrence, representation, and designator into one object.
@@ -125820,7 +125820,7 @@ Recovered values:
 - `ShipbuildingMethod` or a method family under A.3.1; if a separately identified `ShipbuildingMethodDescription : U.MethodDescription` episteme is current, name it separately under A.3.2 only when its exact `EntityOfConcern` is that Method;
 - `HullAssemblyWork` under the Work patterns.
 
-Here `HullAssemblyWork` is a work-family label or a label in a plan or assignment episteme. A designator such as `HullAssemblyWork-42@2026-07-15T09:10–11:35` names performed Work only when each exact actual performer has its A.13 core and A.15.1 independently admits the occurrence from the Method actually used, temporal extent, containing System, affected hull referent, material bindings, resource-use facts, and any current continuity policy. If the naming record also expressly represents which assignment covered that Work, it cites that same obtaining A.13 assignment and adds the F.6 attribution relation; missing or failed F.6 leaves the Work name intact. A changed hull state, measurement result, evaluation verdict, delivery occurrence, or acceptance verdict remains a separately defined and separately named value.
+Here `HullAssemblyWork` is a work-family label or a label in a plan or assignment episteme. A designator such as `HullAssemblyWork-42@2026-07-15T09:10–11:35` names performed Work only when each exact actual performer has its A.13 core and A.15.1 independently admits the occurrence from the Method actually used, temporal extent, containing System, affected hull referent, material bindings, resource-use facts, and any current continuity policy. If the naming record also expressly represents which assignment covered that Work, it cites that same obtaining A.13 assignment and adds the F.6 attribution relation; missing or failed attribution alone leaves independently admitted Work and its name intact, subject to the premise recheck in section 5.3. A changed hull state, measurement result, evaluation verdict, delivery occurrence, or acceptance verdict remains a separately defined and separately named value.
 
 The local card is:
 
@@ -125985,7 +125985,7 @@ F.18 settlement: first keep the three recovered values and their local labels se
 | "Method algebra" treated as the method or plan. | Confuses a mathematical or representation lens with exact method-side relations, their optional A.22-selected `MethodRelationStructure`, a MethodDescription, WorkPlan, or performed Work. | Before naming, recover the exact relation, optional selected structure, method description, `C.29` lens use, work plan, or work occurrence through the rule that identifies or tests that value. |
 | Action nominal, WBS element, or Work Package treated as performed work. | Function/method morphology or intended-work content is mistaken for one dated occurrence; a nearby result is folded into the work name. | Recover the exact `A.15.1` occurrence basis, apply `A.6.P.WMR` if the relation is still hidden, and name neighboring production claims, measurement results, evaluation results, delivery occurrences, and acceptance verdicts separately. |
 | Role-looking interface wording for API, port, or boundary. | Uses role morphology to avoid recovering port, signature, boundary, or interface-specific relation. | Use `A.6.RSIR` and the subject-pattern locator; name the recovered relation, signature, port, or bounded interface value only when its exact admission predicate is satisfied. |
-| "Unscoped glossary." | A glossary episteme carries or lists words without an exact governed value and kind, by-value reference scheme, local sense, and any actually needed Bridge. | Use a `NameCard` for a durable local settlement. Open a public row only through the section 4.4 gate. When availability is current, use an `E.24.PUB` publication occurrence to make the selected row or glossary edition available through a distinct form and carrier. |
+| "Unscoped glossary." | A glossary episteme carries or lists words without an exact governed value and kind, by-value reference scheme, local sense, and any actually needed Bridge. | Use a `NameCard` for a durable local settlement. Open a public row only through the section 4.4 gate. When availability is current, establish the E.24.PUB claim for the selected row or glossary edition, its audience and bounded use through an expression and carrier. Include reusable-form conformance when needed. |
 
 ### F.18:9 - Conformance Checks
 
@@ -125996,7 +125996,7 @@ Use these checks before a durable name is reused in a pattern. If an F.17 row is
 | Governed value | The named value is recoverable and belongs to a subject pattern. |
 | Interpretation | The effective `EpistemeInterpretationScheme` value interprets the complete naming content and named local sense; model-use structure, claim scope, project work, and other locality relations remain separate. |
 | Kind | The kind is not inferred from spelling, source, or practice. A system-role kind is already recoverable through its candidate domain, operative membership condition, intended member/non-member boundary, and continuity rule. |
-| Candidate set | Unless a cited external standard fixes the label under §4.1, the smallest set covers at least two live head families. Every plausible neighbouring-object reading is examined; any forced untested exception is explicit in `CandidateCoverage` and `RefreshCondition`. |
+| Candidate set | The smallest set covers the live head families and plausible neighbouring-object readings that could change the choice. The retained label, including a standard-fixed label, fits the governed value and intended use. Any forced untested exception is explicit in `CandidateCoverage` and `RefreshCondition`. |
 | System-role boundary | System-role kind, classification, assignment, holder, capability, Method, Work, evidence, status, participant meaning, declaration place, and representation position are not collapsed. |
 | Relation-object boundary | Predicate-definition episteme, admitted relation kind, obtaining occurrence, representation element, and designator are named only after their separate settlements; relation slot, interface, port, and signature names cite the applicable direct patterns. |
 | Public row | A durable local card is enough unless public, Core-facing, durable-across-context, or cross-context reuse is current. The section 4.4 gate passes before any F.17 row is cited; the row is neither the value nor the publication occurrence. |
@@ -126004,7 +126004,7 @@ Use these checks before a durable name is reused in a pattern. If an F.17 row is
 | Local-plain non-use | A one-off claim about whether an exact Bridge suits a named use stays in ordinary wording. No `NameCard`, public claim kind, or durable CamelCase name is created unless an independent later reuse need reopens F.18. |
 | Lineage and reopen | Rename, alias, split, merge, and retirement history is recorded under `F.13`, and the card names the change or repeated reader error that reopens this settlement. |
 | Reader use | A practitioner can tell what to say, the relevant use limits, and where to go if the name is not enough. |
-| Work-name boundary | An action nominal remains a morphology cue: a hidden claim-bearing function-like use goes through A.6.F, while an already recovered value is named under its direct pattern. A WBS or Work Package label remains plan- or assignment-episteme content. A performed-Work name is accepted only for one occurrence whose exact actual performers have A.13 cores and which A.15.1 independently grounds. Add assignment and F.6 refs only when the naming record or receiving use expressly represents precise assignment-bound attribution; missing or failed F.6 leaves the Work name intact. Neighbouring production claims, measurement results, evaluation results, decisions, delivery occurrences, and acceptance verdicts stay under their direct patterns. |
+| Work-name boundary | An action nominal remains a morphology cue: a hidden claim-bearing function-like use goes through A.6.F, while an already recovered value is named under its direct pattern. A WBS or Work Package label remains plan- or assignment-episteme content. A performed-Work name is accepted only for one occurrence whose exact actual performers have A.13 cores and which A.15.1 independently grounds. Add assignment and F.6 refs only when the naming record or receiving use expressly represents precise assignment-bound attribution; missing or failed attribution alone leaves independently admitted Work and its name intact, subject to the premise recheck in section 5.3. Neighbouring production claims, measurement results, evaluation results, decisions, delivery occurrences, and acceptance verdicts stay under their direct patterns. |
 
 Regression checks:
 
@@ -126015,7 +126015,7 @@ Regression checks:
 
 ### F.18:10 - SoTA-Echoing
 
-**Question and selected answer.** How should one already identified value receive a durable name without turning a convenient word into a different object or making every local phrase into a maintained record? Under `E.8:11`, the best-known answer for this bounded use is a local-first settlement: stop at sufficient ordinary wording; otherwise compare plausible head-term families against the same value and reader situation, keep one Tech/Plain pair, and record why it was chosen and what would reopen it.
+**Question and selected answer.** How should one already identified value receive a durable name without turning a convenient word into a different object or making every local phrase into a maintained record? Under `E.8:11`, the best-known answer for this bounded use is a local-first settlement: stop at sufficient ordinary wording; otherwise compare plausible head-term families against the same value and reader situation, keep the Tech designation and any Plain designation needed for a stated didactic use, and record why it was chosen and what would reopen it.
 
 **Serious alternative.** A compact preferred-label entry with alternatives and a scope note is a low-cost alternative. [SKOS Reference, lexical labels, documentation, and mapping properties](https://www.w3.org/TR/skos-reference/) supplies that comparator and the useful separation of labels, concepts, notes, and mappings. It can carry a careful explanation and does not claim that a shared label proves identity. F.18 does not reject it for lacking FPF field names or require a different storage format.
 
@@ -126323,7 +126323,7 @@ These questions guide one connected reading; they do not require separate record
 | `CC-F19-12` | The accepted plain rewrite satisfies cold-reader recovery under F.19:4's evidence-selection and coverage conditions: a reader without the `DRR`, campaign notes, or author memory can state the content-bearing object, kind or ordinary status, relation or claim position, admissible use, next practical action, and every quantity, threshold, ordering, timing, criterion, exception, or applicability condition that changes that action. When another pattern contributes, the reader can recover its id and contribution. Broad heads such as `object`, `item`, `value`, `relation`, `record`, `condition`, `basis`, `material`, and unqualified `specialization` are not plain enough when they hide what the practitioner must recognize. |
 | `CC-F19-13` | Every added qualifier or formal identity has a named live contrast: it changes truth, action, stop, migration, publication, reuse, or reliance. An ordinary PatternID citation does not by itself require a `ClaimGraph`, `U.MethodDescription`, `U.Method`, actor, assignment, or `U.Work` expansion. |
 | `CC-F19-14` | After apparatus removal, the sentence names every complement and live discriminant needed to determine what was selected, changed, compared, transformed, published, evaluated, relied on, started, stopped, ordered, limited, or excepted. |
-| `CC-F19-15` | Ordinary practitioner action and instrumental “use pattern X” wording stays ordinary when it does not assert identity-bearing dated Work. When it does, point to the basis: A.13 first, independent A.15.1 Work admission second, and F.6 afterward only for precise assignment-bound attribution. Use one thin `E.10.ROLE` or `A.6.F` route for a role- or function-shaped trigger; do not copy either recovery taxonomy. `U.MethodDescription` appears only after the `A.3.2` test passes. |
+| `CC-F19-15` | Ordinary practitioner action and instrumental “use pattern X” wording stays ordinary when it does not assert identity-bearing dated Work. When it does, point to the basis: A.13 first, independent A.15.1 Work admission second, and F.6 afterward only for precise assignment-bound attribution. Open `E.10.ROLE` or `A.6.F` when ordinary reading leaves the role- or function-shaped claim unresolved; use only the recovery it needs. `U.MethodDescription` appears only after the `A.3.2` test passes. |
 | `CC-F19-16` | A heterogeneous list is split when its members need different heads or predicates; the rewrite uses the coordination-and-list move in F.19:4 instead of inventing one umbrella head, with `E.10:0.2c.17` only for an unresolved FPF kind or relation. |
 | `CC-F19-17` | A negative alternative remains only when it passes F.19:4's full independent-ground, plausible-reader, contribution, and smallest-clear-correction test. Without that ground and contribution, the sentence states the positive object, relation, action, or result directly. Problem statements, disputes, material polarity, and documented anti-patterns remain content. |
 | `CC-F19-18` Governing message | The intended reader and use are clear, and the governing object, claim, event, action, or distinction appears before optional apparatus. |
@@ -126482,7 +126482,7 @@ For each Part G invariant already defined elsewhere, `G.Core`:
 | `guard_decision_tristate(pass|degrade|abstain)` + `unknown_never_coerces_to_pass` | A.6.7 + C.23 | `GuardDecision := {pass|degrade|abstain}` only; `unknown` maps to `degrade`/`abstain` via explicit SoS‑LOG branch/policy pins. |
 | `penalties_route_to_r_eff_only` | A.6.7:4.2(2) | Model-bound penalty condition: apply the named model's result meaning and applicability; loss assessment and numerical assurance penalties follow that governing clause. |
 | `no_silent_scalarisation_of_partial_orders` + `no_silent_totalisation` | A.6.7 | Partial-order results stay set‑valued; no silent scalar ranks or “helpful” totalisation. |
-| `planned_filling_in_workplan` + `actual_launch_facts_and_witness` + `gate_decision_separation` | A.15.2 + A.15.3 + A.19.CHR + A.6.7 + E.18:5.6 | Edition/reference baselines are A.15.2 WorkPlan content; A.15.3 applies only to independently declared members. Preserve the planned values. An actual launch claim requires independently admitted Work and obtaining direct relations or exact application bindings; any FinalizeLaunchValues witness is a separate episteme. GateDecision/DecisionLog semantics remain with their gate governor. |
+| `planned_filling_in_workplan` + `actual_launch_facts_and_witness` + `gate_decision_separation` | A.15.2 + A.15.3 + A.19.CHR + A.6.7 + E.18:5.6 | A baseline adopted as planned work is A.15.2 WorkPlan content; A.15.3 applies only to independently declared members. Preserve the planned values. An actual launch claim requires independently admitted Work and obtaining direct relations or exact application bindings; any FinalizeLaunchValues witness is a separate episteme. GateDecision/DecisionLog semantics remain with their gate governor. |
 | `DefaultGoverningDefinitionIndex.single_governing_definition_per_DefaultId` | this pattern | Any default names exactly one governing definition; `G.Core.DefaultGoverningDefinitionIndex` is an index, not a second spec. |
 
 This pattern also governs four pieces of Part‑G‑wide infrastructure that are **not** already governed elsewhere:
@@ -126492,18 +126492,18 @@ This pattern also governs four pieces of Part‑G‑wide infrastructure that are
 * the **Δ‑discipline** for ID‑stable deduplication (delegation without public‑ID breakage), and
 * the **linkage compression catalogues** (`GCoreConformanceProfileId`, `GCoreTriggerSetId`, `GCorePinSetId`) used to keep `G.x` linkage sections small.
 
-#### G.Core:4.2 - Mandatory `G.Core linkage` manifest requirement for every `G.x`
+#### G.Core:4.2 - State the applicable G.Core linkage
 
-Every pattern `G.x` in Part G SHALL include a short, explicit **Core linkage** section that is notation‑independent and id‑based.
+Each Part-G pattern makes its applicable core obligations, pins, defaults and refresh triggers recoverable. A direct reference with its use conditions is sufficient; `GCoreLinkageManifest` provides a compact representation when several shared sets are used.
 
-* Relations: `Builds on: G.Core`.
-* Solution: include a section named `G.x:<n> - G.Core linkage (normative)` that contains a `GCoreLinkageManifest` listing, at minimum:
+* Cite `G.Core` and the governing definitions of the obligations used.
+* When using a `GCoreLinkageManifest`, identify the applicable sets or individual ids:
 
-  * `CoreConformanceProfileIds := { GCoreConformanceProfileId… }` *(preferred)* and/or `CoreConformanceIds := { CC‑GCORE‑… }`
-  * `RSCRTriggerSetIds := { GCoreTriggerSetId… }` *(preferred)* and/or `RSCRTriggerKindIds := { RSCRTriggerKindId… }`
-  * `CorePinSetIds := { GCorePinSetId… }` *(preferred)* and/or `CorePinsRequired := { … }` *(pins/refs surfaced by the kit; include policy‑id pins and edition pins when applicable; list only additions/overrides if pin sets are used)*
-  * `DefaultsConsumed := { DefaultId… }` *(ids only; governing definition is resolved via `G.Core.DefaultGoverningDefinitionIndex`; cite governing definition, don’t restate)*
-  * `TriggerAliasMapRef?` *(present or cited) if the pattern uses local trigger tokens*
+  * `CoreConformanceProfileIds := { GCoreConformanceProfileId… }` and/or `CoreConformanceIds := { CC‑GCORE‑… }`
+  * `RSCRTriggerSetIds := { GCoreTriggerSetId… }` and/or `RSCRTriggerKindIds := { RSCRTriggerKindId… }`
+  * `CorePinSetIds := { GCorePinSetId… }` and/or `CorePinsRequired := { … }` (list additions or overrides when pin sets are used)
+  * `DefaultsConsumed := { DefaultId… }` (the governing definition is resolved through `G.Core.DefaultGoverningDefinitionIndex`)
+  * `TriggerAliasMapRef?` when local trigger tokens need canonical aliases
 
 **Nil‑elision (normative size rule).** Any field whose value is `∅` MAY be omitted; omission means `∅` and does not relax any obligation.
 
@@ -126511,9 +126511,9 @@ Every pattern `G.x` in Part G SHALL include a short, explicit **Core linkage** s
 
 ##### G.Core:4.2.1 - `GCoreLinkageManifest` (canonical shape)
 
-`GCoreLinkageManifest` is the minimal, pattern‑local wiring manifest for citing `G.Core` without duplicating universal prose.
+`GCoreLinkageManifest` groups the pattern-local references to `G.Core` without duplicating the governing rules.
 
-A `G.x` MAY render the manifest as prose, a table, or structured notation, but the ids SHALL be recoverable by authoring review:
+A `G.x` MAY render this linkage as prose, a table, or structured notation. Its applicable ids and conditions SHALL remain recoverable:
 
 `GCoreLinkageManifest := ⟨
   CoreConformanceProfileIds?: {GCoreConformanceProfileId…},
@@ -126541,11 +126541,11 @@ A `GCoreConformanceProfileId` is a stable identifier for a named set of `CC‑GC
 
 A `GCorePinSetId` is a stable identifier for a named set of commonly recurring **pin obligations** used in Part‑G kits. It exists solely to reduce repetition in `G.x` linkage sections (no new semantics).
 
-**Conditional pins (normative).** In pin‑set expansions below, a pin marked with `?` is **conditional**: it **MUST** be present iff the pattern actually uses the corresponding surface/artefact class; otherwise it MAY be omitted (nil‑elision permitted) and is treated as `∅`. A `G.x` MAY strengthen a conditional pin to unconditional by listing it explicitly in `CorePinsRequired`.
+**Conditional pins (normative).** A pin marked with `?` is required when the pattern’s actual object or receiving use calls for that surface; otherwise it may be omitted. An independently selected kit or receiving contract can require a pin explicitly. Selection of a shared pin set preserves those conditions; it does not create a CG-Frame, comparison specification, WorkPlan or crossing.
 
 | GCorePinSetId | Expands to `CorePinsRequired` (set) | Notes |
 | --- | --- | --- |
-| `GCorePinSetId.PartG.AuthoringMinimal` | `{CG-FrameContext, entityOfConcern := ⟨GroundingHolon, ReferencePlane⟩, CNSpecRef.edition, CGSpecRef.edition}` | Baseline scope+spec pins for most Part‑G authoring kits (design‑time, citable, refreshable). |
+| `GCorePinSetId.PartG.AuthoringMinimal` | `{CG-FrameContext?, entityOfConcern := ⟨GroundingHolon, ReferencePlane⟩?, CNSpecRef.edition?, CGSpecRef.edition?}` | Pin the frame, subject/plane and specification editions required by the actual kit or use. A CG-governed comparison retains its CN/CG pins; a local view, source registration or refresh judgement without that comparison uses its own required scope and source basis. |
 | `GCorePinSetId.PartG.CrossingVisibilityPins` | `{BridgeId?/BridgeCardId?, KindBridgeAssertionRef[]?, PlaneRelationRef[]?, BridgeMatrixId?, CL?/CL^k?/CL^plane?, Φ/Ψ/Φ_plane policy-ids?, CrossingBundleId?, UTSRowId[]?, PathId[]?/PathSliceId[]?}` | Activate the channel and receiving-use conditions below. Selecting this pin set alone creates no correspondence, calibration, loss model, publication row or flow/gate crossing. |
 
 **CrossingVisibilityPins activation.** Recover the relation and receiving use before expanding its applicable pins:
@@ -126750,22 +126750,22 @@ If multiple patterns imply a default for `PortfolioMode`, the Default Governing 
 
 ### G.Core:7 - Conformance checklist (normative) — **CC‑GCORE**
 
-Conformance items are authoring obligations and are enforced transitively by `CC‑Gx‑CoreRef` in every `G.x`.
+The following conformance items retain their stated applicability conditions. Each Part-G pattern cites the items it uses, directly or through its linkage manifest.
 
 | ConformanceId        | Statement |
 | -------------------- | --------- |
 | **CC‑GCORE‑DEL‑1**   | A conforming `G.Core` SHALL be delegation-first: if a norm is already governed by `A.6.7`, `A.15.3`, `A.19`, `G.0`, `A.19.CHR`, or a relevant Part E pattern, `G.Core` cites that governing definition rather than duplicating semantics. |
-| **CC‑GCORE‑CN‑CG‑1** | Any pattern in Part G that builds on `G.Core` SHALL cite `CN‑Spec` and `CG‑Spec` as the only spec-legality surfaces and SHALL NOT introduce shadow specs (incl. complying with `SuiteObligations.transport_declarative_only` and `SuiteObligations.cg_spec_cite_required_for_numeric_ops`). |
+| **CC‑GCORE‑CN‑CG‑1** | A Part-G use governed by CN‑Spec or CG‑Spec SHALL cite the applicable specification and edition. No Part-G pattern introduces a shadow specification; apply `SuiteObligations.transport_declarative_only` and `SuiteObligations.cg_spec_cite_required_for_numeric_ops` under their governing conditions. |
 | **CC‑GCORE‑OBL‑1**   | A conforming `G.Core` SHALL treat the obligation vocabulary in `A.6.7:4.2` as the canonical naming surface for Part‑G‑wide obligations and SHALL NOT introduce competing obligation names for the same norms. |
 | **CC‑GCORE‑CROSS‑1** | A Part-G pattern SHALL apply A.6.7's correspondence and visibility obligations only to the actual relations and receiving uses defined there. An F.9 correspondence, C.3.3 kind correspondence and separately governed plane relation keep their own bases; an actual E.18 flow crossing or A.21 gate keeps its required bundle/gate anchors. Changes to crossing-relevant artefacts trigger RSCRTriggerKindId.CrossingBundleEdit and, for a changed edition pin, EditionPinChange under multi-cause discipline. A changed entity, context/plane label or edition alone creates neither Bridge nor crossing. |
 | **CC‑GCORE‑GUARD‑1** | A Part‑G pattern SHALL treat `GuardDecision := {pass|degrade|abstain}` as the only admissibility/eligibility decision domain (`SuiteObligations.guard_decision_tristate(pass|degrade|abstain)`); `unknown` SHALL NOT silently coerce to `pass` (`SuiteObligations.unknown_never_coerces_to_pass`); “sandbox/probe‑only” SHALL be expressed via SoS‑LOG branch pins (policy/FailureBehavior) (see `C.23`), not as an extra decision value. |
 | **CC‑GCORE‑PEN‑1**   | A Part-G pattern SHALL apply A.6.7:4.2(2) to its loss and assurance-penalty claims (`SuiteObligations.penalties_route_to_r_eff_only`), including that clause's model-bound applicability and separation from legality, invariant and claim-scope judgments. |
 | **CC‑GCORE‑SET‑1**   | A Part‑G pattern SHALL preserve set-return semantics for partial orders and SHALL prohibit silent scalarization/totalization (`SuiteObligations.no_silent_scalarisation_of_partial_orders`, `SuiteObligations.no_silent_totalisation`); any scalar summary SHALL be report-only unless declared as an admissible comparator surface. |
 | **CC‑GCORE‑SKP‑1**   | A Part‑G pattern SHALL preserve the suite/kit/pack distinction (A.19.CHR) and SHALL keep shipping concerns governed by their canonical governing patterns (e.g., G.10) rather than embedding shipping semantics into unrelated kits or core invariants. |
-| **CC‑GCORE‑P2W‑1**   | A Part-G pattern identifies an ordinary edition/reference baseline through its exact A.15.2 WorkPlan and local content locator. A.15.3 typed planned filling applies only to an independently declared argument or relation position, with its own meaning and binding rule. Final launch values and actual bindings remain enactment claims; gate decisions keep their own governor. |
-| **CC‑GCORE‑LINK‑1**  | Every conforming `G.x` SHALL satisfy `G.Core:4.2` by providing a `G.x:<n> - G.Core linkage (normative)` section containing a `GCoreLinkageManifest` (incl. either `CoreConformanceProfileIds` or `CoreConformanceIds`, either `RSCRTriggerSetIds` or `RSCRTriggerKindIds`, and either `CorePinSetIds` or `CorePinsRequired` (or both)). Nil‑elision is permitted for `∅` fields. |
-| **CC‑GCORE‑LINK‑2**  | Every conforming `G.x` SHALL include `CC‑Gx‑CoreRef` as the first checklist item; it SHALL make mandatory the effective `CoreConformanceIds` (including expansions of any `CoreConformanceProfileIds`) declared in the linkage manifest. |
-| **CC‑GCORE‑UTS‑1**   | If a Part‑G pattern mints, deprecates, or evolves any public identifier, it SHALL publish/update the corresponding UTS entries and cite them via `UTSRowId` pins, delegating UTS semantics (twin labels, alias/deprecation discipline, edition pins) to its canonical governing definition `F.17 (UTS)`. |
+| **CC‑GCORE‑P2W‑1** | When a Part-G use adopts an edition/reference baseline as planned work, identify its A.15.2 WorkPlan and local content locator. A.15.3 typed planned filling applies only to an independently declared argument or relation position, with its own meaning and binding rule. Final launch values and actual bindings remain enactment claims; gate decisions keep their own governor. Ordinary source or edition citation alone does not assert planned work. |
+| **CC‑GCORE‑LINK‑1** | Each `G.x` makes its applicable core obligations, pins, defaults and trigger kinds recoverable under `G.Core:4.2`, through direct references or a `GCoreLinkageManifest`. Nil-elision for `∅` does not waive an applicable obligation. |
+| **CC‑GCORE‑LINK‑2** | A `CC‑Gx‑CoreRef`, when used, delegates to the effective core obligations and their conditions, including referenced profile expansions. Equivalent direct delegation is sufficient. |
+| **CC‑GCORE‑UTS‑1**   | If a Part‑G pattern mints, deprecates, or evolves any public identifier, it SHALL publish/update the corresponding UTS entries and cite them via `UTSRowId` pins, delegating UTS semantics (Tech and applicable Plain designations, alias/deprecation discipline, edition pins) to its canonical governing definition `F.17 (UTS)`. |
 | **CC‑GCORE‑ID‑1**    | When deduplicating, existing public CC ids in `G.x` SHALL NOT be deleted/renamed; they SHALL become delegation items to relevant `CC‑GCORE‑…` items. |
 | **CC‑GCORE‑ID‑2**    | Public id continuity applies beyond CC item ids: `UTSRowId` rows, `RSCRTriggerAliasId` tokens (e.g., `T0…T7`), deprecation notices, and edition bumps SHALL preserve prior ids and express drift via alias/deprecation/edition evolution (never by reusing/redefining an old id). When downstream behaviour can change, the change SHALL emit a canonical `RSCRTriggerKindId` (e.g., `TokenizationOrNameChange`, `EditionPinChange`). |
 | **CC‑GCORE‑TRIG‑1**  | A conforming `G.Core` SHALL define the canonical `RSCRTriggerKindId` catalogue and SHALL be its single writer. |
@@ -126891,7 +126891,7 @@ Without a single, frame-level legality standard:
 
 * the **ComparatorSet** (explicit, finite, typed) permitted in this frame,
 * the **ScaleComplianceProfile** (SCP) that constrains lawful operations per characteristic,
-* **MinimalEvidence** requirements per characteristic (lanes, carriers, freshness windows, crossing allowances, failure behavior),
+* **MinimalEvidence** requirements per characteristic (lanes, carriers, any applicable freshness windows or crossing conditions, and failure behavior),
 * the frame’s **penalty and trust folding wiring** (by explicit policy ids and edition pins),
 * **AcceptanceStubs** as design-time templates (thresholds remain governed by CAL, not by CG‑Spec),
 * optional method-family hooks (e.g., illumination/QD or explore↔exploit guards) *as wiring only*, with semantics governed by the corresponding patterns.
@@ -126991,7 +126991,7 @@ CG‑Spec :=
     RSCRTriggerKindId[]
   ⟩,
 
-  Naming := UTS Name Cards (twin labels plus bridge notes),
+  Naming := UTS Name Cards (designations under F.17/F.18 plus bridge notes),
   PublicIdContinuity := ⟨governing definition, DRR link, refresh cadence, decay and aging policy, deprecations⟩,
   Provenance := ⟨carrier types, SoTA-pack refs, DRR/SCR linkage⟩
 ⟩
@@ -127010,7 +127010,7 @@ CG‑Spec :=
 | **G.0‑2 SCP**      | CHR pack refs (G.3), legality proofs | `CG‑Spec.SCP` + bindings to lawful operators/aggregators                   |
 | **G.0‑3 Evidence** | SoTA inputs (G.2), source and carrier provenance account (A.10)   | `CG‑Spec.MinimalEvidence`, `Γ‑fold` segment pins, `CL‑Routing`, `Φ` ids    |
 | **G.0‑4 Publish**  | All above                            | Versioned `CG‑Spec@UTS` plus Name Cards, public-id continuity records, and RSCR tests and trigger kinds  |
-| **G.0‑5 Expose_CrossingHooks** | `CG‑Spec` + crossing/plane/policy pins | GateCrossing inputs for `GateChecks` (`E.18/A.21`): plane checks, lane purity, lexical SD pins |
+| **G.0‑5 Expose_CrossingHooks** | `CG‑Spec` + pins required by an applicable E.18 flow crossing or A.21 gate | Inputs for that crossing’s `GateChecks`: the required plane, intent, lane and lexical SD checks |
 | **→ G.1**          | `CG‑Spec`                            | Generator guardrails (Comparator/SCP/MinEv pins); degrade/abstain wiring   |
 | **→ G.2**          | `CG‑Spec`                            | Harvesting inclusion/exclusion and crossing policy constraints             |
 | **→ G.3**          | `CG‑Spec`                            | Required CHR characteristics/scales/operators to exist                     |
@@ -127020,13 +127020,27 @@ CG‑Spec :=
 
 #### G.0:4.5 - CG‑Spec authoring chassis (informative)
 
-1. **Charter the frame.** Declare `Context`, `Scope`, `entityOfConcern`, boundary examples/non-examples, and `ReferenceMap`.
-2. **Draft ComparatorSet and SCP.** Enumerate permitted comparator forms and bind each to CHR characteristics and legality constraints (scale/unit/polarity discipline). Attach guard bindings as explicit references/pins.
-3. **Bind Characteristics.** For every comparison, identify the CHR characteristics of the quantities being compared and cite them by id (reuse/mint via UTS discipline).
-4. **Declare MinimalEvidence.** For each characteristic: required lanes/carriers, freshness window, crossing allowances (if any), and explicit failure behavior wiring (tri-state semantics delegated to `G.Core`).
-5. **Pin the support-composition basis.** Cite `DefaultId.GammaFoldForR_eff` for the model-qualified rule. A numerical fold or loss pins its actual receiving model, compatible inputs, dependency assumptions, and justification refs; monotonicity and boundedness alone are insufficient. When no common aggregate is justified, the referenced rule retains separate support and a bounded synthesis. Publish any actually used Φ/CL policy ids; keep acceptance thresholds in G.4.
-6. **Publish and register regression tests.** Publish `CG‑Spec@UTS` with edition-pinned segments; register RSCR tests for the frame’s legality surfaces and evidence minima.
-7. **Public-id continuity and refresh readiness.** Declare refresh cadence and deprecations with lexical continuity notes; ensure RSCR trigger kinds are emitted as canonical ids.
+Begin with the receiving question and the available material: the task or decision request, descriptions of the subject and operating conditions, binding requirements, candidate methods, and existing observations. Reuse an adequate frame. When its criteria are not yet known, establish them before filling the specification.
+
+##### G.0:4.5.1 - Obtain the comparison basis
+
+1. **Recover the decision and its conditions.** Use C.39.RQ:4.1 to work backward from what the receiving result must enable and forward from the available ways of obtaining it. Inspect the request, relevant commitments or rules, and the descriptions of actual use. For each consequential success or failure, ask which property of the subject makes that difference. Recover a binding limit from its applicable requirement or authorized allocation; an observed value establishes performance under its conditions, not the limit the receiver must accept. Where two uses need different conditions, retain distinct scope slices.
+2. **Turn the differences into characteristics.** A.19.ECS:4.2 supplies the construction: start with cases that would satisfy, fail or fall outside the use; identify the properties that distinguish them; split a compound property when its components can vary independently; and establish each characteristic’s subject, meaning, scale, units and observation procedure through G.3/C.16. Existing domain definitions and validated procedures can supply these results directly. If the needed characteristic or procedure is unavailable, return that particular construction to its competent supplier, with the decision it prevents.
+3. **Choose the comparisons the question needs.** For each proposed comparison, state what relation between results would change the receiving decision. Match that relation to the characteristics’ lawful operations: equality of categories, an order where justified, or a numerical operation whose scale, units and assumptions permit it. Retain separate coordinates when trade-offs have not been resolved. A weighted total requires a justified aggregation and the receiving preference basis. G.0 then enumerates this finite set of comparators and its legality conditions.
+4. **Obtain the evidence minima from the claim.** Follow each required characteristic and comparator back to what would establish its inputs and applicability: for example, a traceable observation under the relevant operating conditions, an exact proof for a formal claim, or a justified transfer from a different population. Reuse the applicable domain qualification, measurement or acceptance method. Specify the carriers, conditions and checks it requires, and the consequence when they are missing or fail. G.2 can recover missing source support; G.4 carries the acceptance policy. A currentness window is needed when the claim’s use depends on it; a numerical support fold needs its actual model under B.3/C.2.2.
+5. **Return the supported frame and its limit.** The available material may establish all required criteria, disqualify an operation, or leave a particular criterion, authority, measurement procedure or transfer premise unresolved. Keep those outcomes separate. Identify the source, responsible authority, observation or method construction that could settle an unresolved premise, and which comparison must wait for it. A descriptive comparison can remain useful when a required acceptance judgement is unavailable; it must retain that receiving-use limit.
+
+**Worked construction.** A team must compare compression methods for a specified archive batch on one host. The available request says “choose a method that fits the backup operation”; the maintenance allocation gives a 15-minute window and a 2 GiB memory allowance, while the archive requirement demands lossless recovery. The batch inventory and host configuration establish the scope. Working backward exposes three required properties: recovery identity, elapsed time and peak memory. Recovery identity is tested by comparing the recovered contents with the original batch; time and memory use the stated measurement procedures and units. The requirements supply the pass limits. Among passing alternatives, an additional request to reduce storage permits comparison by compressed size; without a preference for trading time against size, the frame retains those coordinates separately.
+
+The available reports now have a precise use. A report that tested recovery on the same batch supplies that observation; a report giving a 12-minute mean on a different host needs a justified transfer or a measurement on the receiving host. That mean does not establish a guarantee of fitting the allocated window. If the receiving requirement is a guaranteed upper bound, the chosen qualification method must supply that bound; otherwise fit remains unestablished. If the allocation is absent, the team can compare observed times and memory but must obtain the applicable allocation before claiming acceptance. If the receiving question changes to archival space efficiency with no execution-window requirement, the performance observations remain usable while the 15-minute gate no longer governs that comparison.
+
+##### G.0:4.5.2 - Bind and publish the established basis
+
+1. **Charter the frame.** Declare `Context`, `Scope`, `entityOfConcern`, boundary examples/non-examples, and `ReferenceMap` from the receiving question and established conditions.
+2. **Bind ComparatorSet, SCP and characteristics.** Enumerate the permitted comparator forms obtained above; bind each to the CHR characteristics and its scale, unit, polarity and other legality conditions. Cite existing characteristic ids or publish new ones under UTS discipline.
+3. **Declare MinimalEvidence.** For each characteristic, bind the required lanes/carriers, any applicable freshness window or crossing allowance, and explicit failure behavior (tri-state semantics delegated to `G.Core`). Keep unresolved prerequisites visible with the operations they prevent.
+4. **Pin the support-composition basis.** Cite `DefaultId.GammaFoldForR_eff` for the model-qualified rule. A numerical fold or loss pins its actual receiving model, compatible inputs, dependency assumptions, and justification refs; monotonicity and boundedness alone are insufficient. When no common aggregate is justified, the referenced rule retains separate support and a bounded synthesis. Publish any actually used Φ/CL policy ids; keep acceptance thresholds in G.4.
+5. **Publish and register regression tests.** Publish `CG‑Spec@UTS` with edition-pinned segments; register RSCR tests for the frame’s legality surfaces and evidence minima. Preserve public-id continuity and deprecation notes. State the refresh triggers and any cadence justified by the frame’s use; emit canonical trigger ids when their conditions obtain.
 
 #### G.0:4.6 - Extensions (pattern-scoped; non-core)
 
@@ -127142,11 +127156,11 @@ All blocks below are `GPatternExtension` modules (PatternScopeId; not new Patter
 | CC‑G0‑07 | If crossing penalties are used, all policy ids used by the selected model are explicit and auditable (exposed as pins/refs, including applicable `CL‑Routing` and `Φ` entries) **and are required pins for downstream SCR publication on penalised claims** (see `G.6`). |
 | CC‑G0‑08 | `AcceptanceStubs` in `CG‑Spec` are templates only; any context-local thresholds/acceptance policies are governed by CAL acceptance artefacts (G.4) and are cited, not duplicated. |
 | CC‑G0‑09 | RSCR tests and triggers for edits to legality surfaces and evidence minima are present and use canonical `RSCRTriggerKindId`s. The RSCR test set SHOULD cover at least: illegal_op_refusals; unit and scale legality checks; freshness windows; partial-order scalarisation refusals; threshold semantics; declared-model penalty calculations when used (including a selected CL→`R_eff` model); refusal of `degrade.order` on unit mismatches (MM‑CHR). |
-| CC‑G0‑10 | `PublicIdContinuity` is declared: governing definition, DRR link, refresh cadence, decay and aging policy, and deprecations. Deprecations preserve lexical continuity (Δ-discipline; delegated to `CC‑GCORE‑ID‑*`). |
+| CC‑G0‑10 | `PublicIdContinuity` identifies the governing definition, DRR link and deprecations. State applicable refresh triggers and any use-justified cadence or aging policy. Deprecations preserve lexical continuity (Δ-discipline; delegated to `CC‑GCORE‑ID‑*`). |
 | CC‑G0‑11 | *(Conditional)* If `Illumination` / QD hooks are present, `DescriptorMapRef.edition`, `DistanceDefRef.edition`, and any `InsertionPolicyRef` / promotion policy ids are pinned (or explicitly marked absent) and are recorded in provenance/audit pins. |
 | CC‑G0‑12 | *(Conditional)* If freshness windows influence gating/selection, they are published and enforced, and references making the relevant windows recoverable (`PathSliceId` with a declared time window, or equivalent) are recorded in SCR/audit pins. |
 | CC‑G0‑13 | **Pre-flight numeric gates.** Any numeric comparison/aggregation declared in `ComparatorSet` has associated `GateChecks` for unit legality, scale legality, pinned SOP/editions, and declared comparability assumptions; failing any check requires refusing the operation or returning an `abstain` guard result (tri-state semantics delegated). |
-| CC‑G0‑14 | **GateCrossing hook exposure.** Exports provide `Expose_CrossingHooks` inputs so `GateChecks` (`E.18/A.21`) can validate plane consistency, crossing intent, lane purity, and lexical SD; failures MUST block publication. |
+| CC‑G0‑14 | **GateCrossing hook exposure.** When an export is consumed by an independently applicable `E.18` flow crossing or `A.21` gate, provide its required `Expose_CrossingHooks` inputs. Failure of an applicable check blocks that crossing or the publication that requires it. |
 | **CC‑G0‑Φ** | An actually used numerical Φ(CL) or plane-loss policy has a justified receiving quantity, scale, input interpretation, assumptions, and derivation or calibration under B.3/C.2.2. Publish the policy ids and any required table. Preserve the model's loss direction and bounds; monotonicity, boundedness, or clipping alone does not establish a valid loss model. |
 | **CC‑G0‑Unknowns** | *Delegated.* Unknown handling MUST follow the tri-state guard semantics `{pass|degrade|abstain}` with no silent coercions. (See `CC‑GCORE‑GUARD‑1`.) |
 | **CC‑G0‑CSLC** | Scale/unit/polarity legality MUST be proven before any aggregation; illegal arithmetic on ordinal/nominal values is nonconformant. (Governed by the relevant legality patterns; `G.0` only binds and cites.) |
@@ -127187,7 +127201,7 @@ The pattern connects the following evaluation and governance practices:
 ### G.0:12 - Relations
 
 **Builds on:** `G.Core`, `A.19.CN (CN‑Spec)`, `A.10 (evidence-provenance account)`, `A.17–A.19 / C.16 (MM‑CHR legality)`, `A.18 (CSLC)`, `B.3 (trust / Γ‑fold family)`, `F.* (contexts, bridges, CL, UTS)`, `E.10 (lexical rules)`, `E.5.* (notation independence discipline)`.
-**Used by:** `G.1` (generator guards), `G.2` (harvesting constraints), `G.3` (required CHR), `G.4` (acceptance templates / proof hooks), `G.5` (eligibility gates), `G.6` (evidence/pin surfaces), and downstream parity/shipping/refresh where `CG‑Spec` is pinned.
+**Used by:** `G.1` (generator guards), `G.2` (harvesting constraints), `G.3` (required CHR), `G.4` (acceptance templates / proof hooks), and `G.5` (eligibility gates); `G.6` when the represented claim depends on CG-Spec, and parity/shipping/refresh where that specification is pinned.
 **Publishes to:** `UTS` (Name Cards + editioned `CG‑Spec` segments).
 
 ### G.0:End
@@ -127326,7 +127340,7 @@ The chassis is *view‑friendly*: it is an inventory of “what exists and how i
   * `ReferenceMap` *(cite `G.0:CG‑Spec.ReferenceMap`; do not duplicate semantics)*
   * any declared crossing/policy pins *(pin set: `PartG.CrossingVisibilityPins`)*
 
-**Purpose:** provide the *single scope anchor* used by all downstream cards.
+**Purpose:** provide the single scope anchor used by the downstream cards. If the receiving criteria or comparison basis are not yet established, obtain them through `G.0:4.5.1` before binding M1; reuse an adequate existing frame.
 
 **Notes:** any spec-legality content is **cited** via `A.19.CN (CN‑Spec)` and `G.0 (CG‑Spec)` (delegation target: `CC‑GCORE‑CN‑CG‑1` via `CC‑G1‑CoreRef`); this card does not introduce a local “mini‑spec”.
 
@@ -127617,7 +127631,7 @@ All method/discipline/generator specifics MUST be expressed as `GPatternExtensio
 | CC‑G1‑05          | `M4` MUST be wired to `G.5` (or explicitly cite `G.5` artefacts governed by cited patterns) and MUST preserve set-result outcomes. `SCRId` MUST be present (or recoverable from an explicitly cited SCR record) so the G.5 audit references are addressable; assurance content is required only for an actual named assurance claim; `DRRId` SHOULD be present when a decision‑rationale artefact is minted.   |
 | CC‑G1‑06          | `M5` MUST publish a library/index surface that points to referenced CHR/CAL/LOG artefacts and to any minted public ids (`UTSRowId[]`, Name Cards) via the canonical governing definitions (Part F), without introducing shadow specs (delegation target: `CC‑GCORE‑CN‑CG‑1` via `CC‑G1‑CoreRef`).    |
 | CC‑G1‑07          | `M6` MUST publish `CGKitId` and expose refresh-readiness wiring: canonical `RSCRTriggerKindId[]` applicability, minimal payload pins and RSCR test ids. Planned baseline references MUST follow `G.1:4.2.6`, including the additional references required when `A.15.3` applies; orchestration semantics MUST be cited to `G.11`. |
-| CC‑G1‑08          | Any method/discipline/generator specificity in `G.1` MUST be located in `G.1:4.4` as `GPatternExtension` blocks with `PatternScopeId`, `GPatternExtensionKind`, and `GoverningPatternId` (or `governing pattern not yet selected` only for Phase-3 seeds). If QD/illumination or Open‑Ended generator families are declared, the corresponding extension blocks MUST be present and MUST carry the edition and policy pins required by the governing pattern. |
+| CC‑G1‑08          | Any method/discipline/generator specificity in `G.1` MUST be located in `G.1:4.4` as `GPatternExtension` blocks with `PatternScopeId`, `GPatternExtensionKind`, and `GoverningPatternId`. If QD/illumination or Open‑Ended generator families are declared, the corresponding extension blocks MUST be present and MUST carry the edition and policy pins required by the governing pattern. |
 
 ### G.1:8 - Common Anti‑Patterns and How to Avoid Them (informative)
 
@@ -127792,7 +127806,7 @@ Each named component is addressable via a stable **pack‑local identifier** (e.
 
    * exact source and edition, claim region, effective ReferenceScheme where meaning matters, EntityOfConcern, and comparison basis for the stated use,
    * explicit evidence anchors/citations (A.10 and/or EvidenceGraph refs when available),
-   * explicit freshness window notes and risk/trust cues *(cite `B.3` governing definitions when using trust/decay language)*.
+   * the currentness basis relevant to the claim’s use, including any applicable freshness window and risk/trust cues (cite `B.3` when using trust/decay claims).
 
 3. **`G.2c OperatorAndObjectInventory`**
    Inventory of candidate CHR terms (characteristics/scales/coordinates) and candidate CAL operators/flows *as stubs* for downstream authoring.
@@ -127844,7 +127858,7 @@ When authoring `ClaimSheets[Tradition]`, teams often benefit from a single‑pag
 
 #### G.2:4.3 - Harvester loop (conceptual choreography; pattern-governed)
 
-A conforming `G.2` pack publication is built by iterating the following conceptual loop until the declared gates are satisfied:
+Apply the following operations to the declared source population. A conforming pack satisfies its declared gates. When the available basis does not satisfy them, return the supported bounded result and the unmet condition; repeat a search or repair only when an attainable contribution justifies it.
 
 1. **Declare scope and plurality.**
    Identify the exact CG-frame (the declared framing episteme), the initial `Tradition` set, each intended claim region and EntityOfConcern, the comparison basis, and the receiving use. Record the cited CG-frame and source editions and evidence anchors in the pack pins rather than hiding them in a generic context field. Before counting, fix the HarvestPolicy's receiving question, counted population, grouping and same-family equivalence, including overlap handling for a combined population.
@@ -127871,13 +127885,17 @@ A conforming `G.2` pack publication is built by iterating the following conceptu
    If a `G.2` pack publication asserts fusion or substitution across sources or across `Tradition` records (beyond mere “parallel divergent claims”), it **MUST** emit `GammaEpistSynthId` records per `G.2:Ext.GammaEpistSynthesis` (provenance union + explicit object alignment refs + assurance tuple refs), and it **MUST** apply `CC‑GCORE‑PEN‑1` to its loss assessment and any numerical assurance penalty.
 
 7. **Publish teachable micro‑groundings.**
-   Attach worked micro-examples to load-bearing claims, each tied to the exact source and edition, claim region, EntityOfConcern, comparison basis, intended use, and evidence carrier or A.10 evidence-provenance path.
+   Attach worked micro-examples that explain the load-bearing claim and a consequential variation in its conditions. Keep them within the claim’s supported scope. Each retains the source and edition, claim region, EntityOfConcern, comparison basis, intended use and evidence carrier or A.10 evidence-provenance path.
 
 8. **Apply gates and record repairs.**
-   Apply that fixed HarvestPolicy basis and count its distinct units before comparing coverage with `FamilyCoverageFloorK` (and apply any optional diversity-by-distance gate under its own basis). Missing count semantics returns an unassessable result and the exact missing basis, not an instruction to search more. If a defined gate fails, the pack **MUST**:
-   * record the failure and the repair iteration in `FlowRecord` and `CorpusLedger`,
-   * pin the updated `HarvestPolicyRef` / criteria ids (if changed),
-   * iterate the loop rather than silently weakening the gate.
+   Apply the fixed HarvestPolicy basis and count its distinct units before comparing coverage with `FamilyCoverageFloorK` (and apply any optional diversity-by-distance gate under its own basis). Missing count semantics returns an unassessable result and the exact missing basis. If a defined gate fails:
+
+   * record the failed criterion, count and basis in `FlowRecord`, with the relevant corpus entries recoverable;
+   * identify a missing relevant lineage, venue or source region that could change the result, and judge whether the available search or repair is worth undertaking for the receiving use;
+   * if it is, perform that search or repair and recount under the declared policy. Pin any justified policy change and preserve the earlier judgement under its earlier basis;
+   * otherwise return the scoped claims and failed or incomplete pack judgement, its receiving-use limit and any precise remaining inquiry. Preserve the failed gate rather than treating the partial result as a conforming pack.
+
+   For example, an exhausted bounded population containing two method families fails a declared `k=3` method-only gate. A further report about either family does not change that count. A known unexamined source region may justify another search; without one, the count and coverage failure can be the completed bounded answer. Missing population or equivalence rules instead leave the count judgement unassessable.
 
 9. **Emit hand‑off manifests and export views.**
    Produce explicit manifests to:
@@ -127929,7 +127947,7 @@ A conforming `G.2` pack publication is built by iterating the following conceptu
 
 **PatternScopeId:** `G.2:Ext.HarvestProtocols`
 **GPatternExtensionId:** `HarvestProtocols`
-**GPatternExtensionKind:** `Phase3Seed`
+**GPatternExtensionKind:** `MethodSpecific`
 **GoverningPatternId:** `G.2`
 **Uses:** `{B.3, A.10}` *(for freshness/decay and provenance anchors, when protocol requires them explicitly)*
 **⊑/⊑⁺:** `∅`
@@ -128063,10 +128081,10 @@ G.1 M2 and the G.3–G.5 consumers cite the chosen pack judgement with its purpo
   *Mitigation:* keep Claim Sheets disjoint by default; require explicit alignment proof for fusion; preserve loss notes.
 
 * **Recency bias.** Overweighting newest papers can hide durable backbone results; underweighting them misses SoTA drift.
-  *Mitigation:* publish freshness windows and make them RSCR‑relevant.
+  *Mitigation:* state the search date and use-relevant currentness basis; make changes to relied-on sources or applicable windows RSCR-relevant.
 
 * **Didactic bias.** Micro‑examples can steer interpretation toward familiar domains.
-  *Mitigation:* require heterogeneous substrates and explicit A.10 anchors.
+  *Mitigation:* show the operation and a consequential variation within the claim’s supported scope, with explicit source anchors; add a different substrate only when the claim and its grounds cover that transfer.
 
 ### G.2:7 - Conformance Checklist (normative) — **CC‑G2**
 
@@ -128086,11 +128104,11 @@ G.1 M2 and the G.3–G.5 consumers cite the chosen pack judgement with its purpo
 | **CC‑G2‑Inventory‑1**     | A conforming pack **MUST** include `G.2c OperatorAndObjectInventory`, sufficient for downstream CHR/CAL authoring to begin without re‑harvesting terms.                                                                                                                                                                                            | Ensures the pack is actionable.                                                     |
 | **CC‑G2‑Inventory‑2**     | `G.2c OperatorAndObjectInventory` entries **MUST** be treated as **stubs** for downstream authoring: they **MUST NOT** embed acceptance thresholds or claim legality decisions locally. If an entry is not a citation of an already governed CHR/CAL artefact, it **MUST** be explicitly marked as `stub` (typing/lawfulness `TBD`) and **MUST NOT** be used as if lawful. Legality/threshold semantics are governed by `G.3` for CHR and `G.4` for CAL via explicit ids/pins. | Prevents “shadow CHR/CAL” and preserves lawfulness discipline without redefining it locally. |
 | **CC‑G2‑MeasurementLawful‑1** | If any inventory entry is presented as **non‑stub** (i.e., already lawful/typed), the pack **MUST** cite the governing lawfulness discipline (e.g., `A.17–A.19/C.16` as applicable) and provide the minimal evidence anchors needed to justify that typing claim.                                                                                      | Prevents “quietly lawful” measurement claims inside the harvester pack.             |
-| **CC-G2-MicroExamples-1** | For every load-bearing claim family, a conforming pack MUST include at least two worked micro-examples on heterogeneous substrates. Each names the source and edition, claim region, EntityOfConcern, comparison basis, and intended use; cites its evidence carrier or A.10 evidence-provenance path; and gives an applicable assurance tag. | Makes the synthesis teachable and inspectable; the example form supplies no meaning or authority. |
+| **CC-G2-MicroExamples-1** | For every load-bearing claim family, a conforming pack includes worked grounding that lets the reader obtain its result and handle a consequential change of conditions within the supported scope. Each example names the source and edition, claim region, EntityOfConcern, comparison basis and intended use; cites its evidence carrier or A.10 provenance path; and states the assurance contributions actually selected under B.3/B.3.3. | Preserve the grounding needed to understand and adapt the claimed contribution. |
 | **CC‑G2‑UTS‑1**           | If the pack proposes or evolves any public ids, it **MUST** publish UTS proposals *(Name Cards + MDS where applicable)* and cite them via `UTSRowId[]`, satisfying `CC‑GCORE‑UTS‑1` (delegation).                                                                                                                                               | Keeps naming and evolution disciplined.                                             |
 | **CC‑G2‑Families‑1**      | SoS indicators and candidate evaluation constructs **SHALL** be represented as **families/variants** (windows/constraints/assumptions) **with explicit Acceptance branch structure per variant** (branch ids/labels only), not as single unqualified scalars; any scalar summary **MAY** be included only as report‑only unless explicitly promoted by governing patterns. *(Set-return discipline is delegated to `CC‑GCORE‑SET‑1`.)* | Prevents covert scalarization and keeps acceptance governed by downstream patterns.                |
 | **CC‑G2‑HandOff‑1**       | A conforming pack **MUST** emit hand‑off manifests to `G.3`, `G.4`, and `G.5` that cite pack components by id and identify which families/operators are intended for downstream formalisation or registry entry.                                                                                                                                   | Prevents downstream re‑authoring and drift.                                         |
-| **CC‑G2‑CoverageGate‑1**  | The pack **MUST** declare `FamilyCoverageFloorK` and enforce it as a harvesting gate. It **MUST** either (i) specify `k` explicitly in an explicit `HarvestPolicyRef`, or (ii) use the pattern‑local default rule governed by `CC‑G2‑CoverageGate‑1`. *Default threshold (pattern-local):* `k=3`. In both threshold branches, an explicit `HarvestPolicyRef` **MUST** fix the receiving question, population/scope, grouping, same-family equivalence and overlap rule before counting. The pack judgement cites that basis, its distinct units and result; all consumers reuse it. Missing basis returns unassessable. Duplicate references add zero, and a threshold override changes neither units nor independent pluralism duties. The independent CC-G2-Pluralism-1 duties remain. If the defined gate fails, the pack **MUST** (a) record the repair iteration in `FlowRecord`, and (b) broaden the search radius (new venues/corpora/contexts/traditions) rather than silently weakening the gate; if an exploration policy is used for this broadening, it **MUST** be pinned as a policy id/ref. | Makes “coverage floor” explicit and prevents “silent narrowing” under failure.      |
+| **CC‑G2‑CoverageGate‑1**  | The pack **MUST** declare `FamilyCoverageFloorK` and enforce it as a harvesting gate. It **MUST** either (i) specify `k` explicitly in an explicit `HarvestPolicyRef`, or (ii) use the pattern‑local default rule governed by `CC‑G2‑CoverageGate‑1`. *Default threshold (pattern-local):* `k=3`. In both threshold branches, an explicit `HarvestPolicyRef` **MUST** fix the receiving question, population/scope, grouping, same-family equivalence and overlap rule before counting. The pack judgement cites that basis, its distinct units and result; all consumers reuse it. Missing basis returns unassessable. Duplicate references add zero, and a threshold override changes neither units nor independent pluralism duties. The independent CC-G2-Pluralism-1 duties remain. If the defined gate fails, record the criterion, count and basis in `FlowRecord`. Repeat search or repair when an identified relevant source region or operation can make a worthwhile contribution; otherwise return the bounded supported claims, failed/incomplete pack judgement and exact remaining inquiry under :4.3. A selected exploration policy is pinned. | Makes the coverage judgement and its receiving-use limit explicit. |
 | **CC‑G2‑DistanceGate‑1**  | If a diversity‑by‑distance gate is used, the pack **MUST** pin `DistanceDefRef.edition` and the declared threshold (δ), and treat edits as RSCR‑relevant per `CC‑GCORE‑TRIG‑*` (delegation). If no such gate is used, the pack **SHALL** explicitly state that it is not used.                                                                     | Avoids implicit distance defaults and improves refreshability.                      |
 | **CC‑G2‑RSCR‑1**          | A conforming pack **MUST** emit canonical `RSCRTriggerKindId` causes (not free text) for edits to evidence surfaces, name/tokenization surfaces (e.g., UTS proposals/aliases), crossings, planes, edition pins, and harvesting policy pins (`HarvestPolicyRef`), per `CC‑GCORE‑TRIG‑1…TRIG‑4` (delegation).                                                                                      | Keeps refresh reason codes stable and typed.                                        |
 | **CC‑G2‑Ext‑GammaEpist‑1** | If `G.2:Ext.GammaEpistSynthesis` is used (i.e., any fusion/substitution is asserted), the pack **SHALL** expose the required pins listed in that extension and **SHALL NOT** redefine `Γ‑fold/Φ/penalty` semantics locally (cite governing definitions by delegation).                                                                                       | Keeps synthesis auditable without creating shadow specs.                            |
@@ -128137,7 +128155,7 @@ Source-qualified claims let CHR/CAL authors and G.5 selectors reuse a comparison
 
 **Practice question.** How should several downstream authors reuse a synthesis when new sources can change a consequential, unsettled comparison? The selected line keeps a question-bound source ledger, separable claims and explicit update causes; a living protocol is chosen when continuing evidence surveillance is worth its cost. A serious alternative is a well-reported static review with an explicit search date and a separately commissioned update. That alternative is sufficient for a stable question or a one-time decision and avoids maintaining a continuing review service.
 
-The [Cochrane Handbook, Chapter 22, §§22.2.3–4](https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-22) supplies the conditional living-review line and its resource trade-off: priority, uncertainty and likely new evidence can justify frequent updates, while additional searching needs resources. **Adapt** this conditional choice in `HarvestProtocols`; declare the search/update policy rather than treating every G.2 pack as perpetually living. The clinical-review guidance does not establish coverage or evidence adequacy for an arbitrary engineering CG-frame.
+The [Cochrane Handbook v6.3 (2022), Chapter 22, §§22.2.3–4](https://www.cochrane.org/authors/handbooks-and-manuals/handbook/archive/v6.3) supplies this earlier conditional living-review line and its resource trade-off: priority, uncertainty and likely new evidence can justify frequent updates, while additional searching needs resources. **Adapt** this conditional choice in `HarvestProtocols`; declare the search/update policy rather than treating every G.2 pack as perpetually living. The clinical-review guidance does not establish coverage or evidence adequacy for an arbitrary engineering CG-frame.
 
 The [PRISMA 2020 reporting guidance](https://www.prisma-statement.org/prisma-2020) supplies a shared reporting basis for the static-review comparator. Its [explanation of study selection](https://www.bmj.com/content/372/bmj.n160) distinguishes records, reports and included studies. **Adapt** the distinction to `CorpusLedger`, `FlowRecord` and the declared family units in §4.3: multiple source entries can concern one counted family. **Reject** treating a publication count or a completed flow diagram as proof of adequate family coverage. G.2's k threshold, lineage duties and FPF alignment rules remain local decisions, not PRISMA requirements.
 
@@ -128198,7 +128216,7 @@ A team is defining or evolving a `CG‑Frame` (via `G.1`) and has plural, compet
 
 * **CAL authoring (`G.4`)** needs typed, admissible operands and guard/legality surfaces to build admissibility and acceptance rules (thresholds and policy cut‑offs remain governed by CAL).
 * **Selector/dispatch (`G.5`)** needs CHR‑typed quantities and explicit provenance pins so selection can remain set-returning and auditable under admissible orders.
-* **Reuse beyond the defining source or use** must name the exact characteristic and scale editions, bearer, scope and validity window, reference plane, evidence, and intended downstream use. Cite an `F.9` relation only when it actually obtains between the named `F.17` cells; any claim that relies on the relation for this use remains a separate bounded-use claim under `C.2.1` and `F.9`; its evidence-bearing reliance follows `A.10` and any applicable `B.3` assurance requirement.
+* **Reuse beyond the defining source or use** must name the exact characteristic and scale editions, bearer, scope and any temporal qualification required by the definition or receiving use, reference plane, evidence, and intended downstream use. Cite an `F.9` relation only when it actually obtains between the named `F.17` cells; any claim that relies on the relation for this use remains a separate bounded-use claim under `C.2.1` and `F.9`; its evidence-bearing reliance follows `A.10` and any applicable `B.3` assurance requirement.
 
 The resulting publication is a **CHR Pack** that is **CG‑Frame‑scoped**, **notation‑independent**, and **UTS‑published**, with explicit edition/policy pins sufficient for reproducibility and RSCR.
 
@@ -128206,11 +128224,11 @@ The resulting publication is a **CHR Pack** that is **CG‑Frame‑scoped**, **n
 
 Numbers alone do not tell a downstream user which measurements and operations are admissible. Common failures include:
 
-* **Meaning leaks** when the same token is reused after its referent or sense, bearer, scope, validity window, evidence basis, or intended use has changed.
+* **Meaning leaks** when the same token is reused after its referent or sense, bearer, scope, applicable validity window, evidence basis, or intended use has changed.
 * **Illicit arithmetic** (e.g., averaging ordinals, mixing units, laundering polarity).
 * **Hidden normalizations** that silently change scale type, polarity, or admissible transforms.
 * **Unreproducible comparisons** (missing edition pins for methods/distances/policies; unclear reference plane).
-* **Unscoped reuse** (the characteristic or scale lacks an exact edition, bearer, scope and validity window, reference plane, evidence basis, or intended downstream use; any relation needed for reuse is left unstated).
+* **Unscoped reuse** (the characteristic or scale lacks an exact edition, bearer, scope and any required temporal qualification, reference plane, evidence basis, or intended downstream use; any relation needed for reuse is left unstated).
 * **Un-auditable aggregation** (no explicit legality surface and guard surface; no proof hooks; unclear governing definition for the Γ‑fold).
 * **Refresh chaos** (changes in names/editions/policies do not map to typed RSCR causes).
 
@@ -128250,7 +128268,7 @@ CorePinsRequired := {
 // declared CG-frame, which is the framing episteme here; it supplies no universal setting, scope, or reuse authority.
 // `entityOfConcern`, `CNSpecRef.edition`, and `CGSpecRef.edition` remain inherited; each card adds the exact use pins named below.
 UTSRowId[],                      // required: CHR terms are public ids (Name Cards plus public-id continuity records)
-PathId[]/PathSliceId[],          // required: worked examples/tests and refresh anchoring cite paths
+PathId[]?/PathSliceId[]?,        // when G.6 paths are used or required by the receiving contract
 ReferencePlane,                  // required: definitional claims are plane-scoped
 Φ/Ψ/Φ_plane policy-ids?,         // when the applied loss/assurance model uses them or an applicable rule for the receiving use requires them (G.Core:4.2.3)
 ΓFoldRef.edition?                // iff an explicit Γ-fold artefact is pinned (otherwise use DefaultId)
@@ -128291,34 +128309,34 @@ RSCRTriggerKindId.BaselineBindingEdit
 * `CHR.Guards` *(guard macro surface; semantics governed by cited definitions; see `G.Core` and `A.18`)*
 * `CHR.LegalityMatrix` *(admissible operations per scale type / unit / polarity regimes)*
 * `CHR.AggregationSpecs` *(typed aggregators/comparators + proof hooks + edition pins where applicable)*
-* `UTS` publication bundle: Name Cards (twin labels), public-id continuity notes, and (when applicable) bridge and loss notes
-* RSCR artefacts: `RSCRTestId[]` + worked examples + provenance pins (ReferencePlane, Path/PathSlice, policy ids)
+* `UTS` publication bundle: Name Cards with designations under F.17/F.18, public-id continuity notes, and (when applicable) bridge and loss notes
+* RSCR artefacts: `RSCRTestId[]`, worked examples and their source/proof/measurement provenance, with applicable plane, path and policy pins
 
 **Mandatory provenance pins (conceptual, notation‑independent):**
 
 * `ReferencePlane`
-* `PathId/PathSliceId` citations for worked examples/tests
-* R‑anchors (conceptual; KD‑CAL lanes when used) realised via `PathId/PathSliceId` and, where applicable, `A.10` anchor/carrier refs
+* source/carrier references for worked examples and tests, including `PathId/PathSliceId` when G.6 is used or a receiving contract requires them
+* R-anchors to the actual evidence basis under A.10; use G.6 paths when shared path citation or the selected contract requires that representation
 * policy pins used by crossings or plane moves (when exercised)
 * edition pins for any referenced method or metric definitions that affect interpretation
 
 #### G.3:4.3 - CHR authoring chassis (S1–S8)
 
 **S1 — Charter the measurement scope (scope anchor).**
-Identify the exact declared CG-frame (the framing episteme). For this CHR work, state the bearer or bearers and identify each as an `entityOfConcern`. Also state the scope, any applicable qualification and evaluation windows, `ReferencePlane`, evidence basis, intended downstream use, freshness or decay expectations, and any contested expression whose reuse may require an actual `F.9` relation. Output a design-time `MeasurementCharter` and `KindMap`.
-If freshness/decay expectations are anything beyond an explicit “non‑decaying” declaration, wire them via
-`G.3:Ext.DecayWiring` (governing pattern: `B.3.4`) rather than encoding decay semantics in CHR prose.
+If the needed characteristics are not established, use `A.19.ECS:4.2` to derive them from the receiving use and consequential success/failure cases. `G.0:4.5.1` connects that construction to the frame’s comparison and evidence requirements.
+Identify the exact declared CG-frame (the framing episteme). For this CHR work, state the bearer or bearers and identify each as an `entityOfConcern`. Also state the scope, any applicable qualification and evaluation windows, `ReferencePlane`, evidence basis, intended downstream use, currentness conditions relevant to that use, and any contested expression whose reuse may require an actual `F.9` relation. Output a design-time `MeasurementCharter` and `KindMap`.
+When the receiving use depends on currentness, apply B.3.4 to the exact claim and use. Retain any binding calibration, regulatory or qualification window; use `G.3:Ext.DecayWiring` when pinning a currentness or decay model or policy.
 If evidence-lane tags are used, declare the lane regime and its meanings here so downstream evidence discipline can remain lane-pure. `B.3` and `B.3.3` govern the assurance claim, receiving use and selected contributions; `C.2.2:4.6` defines the KD-CAL `TA`/`VA`/`LA` lanes when that regime is selected. Evidence-path representation and audit remain governed by `G.6`; this pattern records wiring.
 **Lane docking (wiring‑only; normative).**
 If `EvidenceLanes` are used, the charter MUST:
 * enumerate the lane tags used and cite the definitions of the selected regime, plus the upstream provenance for their use when available (e.g., `SoTAPaletteDescriptionId` via `G.3:Ext.SoTAPackInputs`);
 * expose any lane‑dependent tolerances / proof requirements via explicit pins (policy‑id and/or edition‑pinned refs), not prose;
 * treat lane tags as provenance metadata (not Contexts): they MUST NOT be “bridged away” or silently mixed;
-* if any cross‑lane comparison/aggregation is claimed, it MUST be explicit and pinned to the governing acceptance/evidence policy (typically `G.4`) and auditable via evidence paths (`G.6`); otherwise downstream consumers treat it as illegal.
+* if cross-lane comparison/aggregation is claimed, cite the governing acceptance/evidence policy (typically `G.4`) and its supporting basis; retain G.6 paths when used or required. Without a policy that makes the operation lawful, downstream consumers treat it as illegal.
 *Crossing semantics and penalty routing are cited via `G.Core` (do not restate).*
 
 **S2 — Mint or reuse terms (UTS‑first).**
-For each candidate characteristic, scale, level, or coordinate term: attempt reuse; otherwise mint via UTS Name Cards with twin labels and public-id continuity notes. When importing a term across contexts, identify its source-local meaning and the correspondence the receiving use relies on. Cite any required bridge and loss account.
+For each candidate characteristic, scale, level, or coordinate term: attempt reuse; otherwise mint via UTS Name Cards under F.17/F.18, with public-id continuity notes. When importing a term across contexts, identify its source-local meaning and the correspondence the receiving use relies on. Cite any required bridge and loss account.
 
 **S3 — Define `CharacteristicCard` (the per-characteristic publication unit).**
 A CharacteristicCard is the minimum unit CHR publishes for downstream legality. It SHOULD include (field names are indicative; semantics governed by cited definitions):
@@ -128340,21 +128358,23 @@ CharacteristicCard := ⟨
   ObjectKind,
   Intent,
   Definition (typed),
-  ObservableOf := ⟨instrument/protocol (provenance cited through A.10 paths), uncertainty model, validity window⟩,
-  EvidenceLanes? (tags under the declared regime; evidence paths via `G.6`; cross-lane use under its cited acceptance/evidence policy),
+  ObservableOf := ⟨instrument or determination protocol (provenance cited through A.10 paths), uncertainty treatment when it affects interpretation or use, temporal basis when consumed by the definition or receiving use⟩,
+  EvidenceLanes? (tags under the declared regime; supporting evidence refs; G.6 paths when used; cross-lane use under its cited acceptance/evidence policy),
   ScaleRef.edition,
   Polarity ∈ {↑, ↓, ⊥},
   Domain/Range,
   UnitSet,
   Bounds / zero semantics (as applicable),
-  Freshness / half‑life (or explicit `NonDecayingDecl`; freshness/decay semantics governed by `B.3.4`),
+  CurrentnessBasis? (for a use that depends on currentness; applicable window or decay model/policy under B.3.4),
   Missingness semantics (typed; include a classification/mapping when non‑trivial; downstream tri‑state handling is per G.Core),
   Stability/Reliability notes,
   RoleDecls? := RoleDecl[] (wiring‑only; each role declaration names its governing pattern + required pins; see `G.3:4.5`),
   QD.Role? ∈ {Q, D, QD-score} (interop alias for `RoleDecl` with `GoverningPatternId = C.18`; see `G.3:Ext.QD_OEE_Wiring`),
-  Micro‑examples (R‑anchors: Path/PathSlice cited; lane tags where applicable)
+  Micro-examples (source/proof/measurement anchors; G.6 paths and lane tags when applicable)
 ⟩
 ```
+
+Actual C.16 measurement results retain the time stance, measurement Work and interpretation basis required by C.16:5.2–5.5.
 
 `Polarity` gives the preferred direction for `IntendedDownstreamUse`: ↑ means higher-is-better, ↓ lower-is-better, and ⊥ no preferred direction assigned. Use ⊥ for a descriptive measurement. A target, range or other preference that has no single direction uses the applicable evaluation predicate and its Method; the Scale retains its measurement meaning under A.17/A.18.
 
@@ -128418,8 +128438,8 @@ CHR may publish typed aggregation/comparison specs whose admissibility follows f
 Publish the CHR pack and associated Name Cards to UTS. Attach:
 
 * RSCR tests that check legality and guard coverage and reject illegal ops,
-* worked examples with Path/PathSlice provenance,
-* refresh/decay notes and deprecations with lexical continuity.
+* worked examples with recoverable source, proof or measurement grounds; G.6 paths when used or required,
+* applicable currentness and refresh conditions, plus deprecations with lexical continuity.
 
 This step prepares the RSCR loop but does not govern orchestration (governing definition: `G.11`).
 
@@ -128513,11 +128533,11 @@ All blocks below are `GPatternExtension` modules (PatternScopeId-scoped; **not**
 * **⊑/⊑⁺:** `∅`
 * **RequiredPins/EditionPins/PolicyPins (minimum):**
 
-  * `FreshnessWindowDeclRef` *(or equivalent window pin, as defined by the governing definition)*
+  * the currentness claim and receiving use, with any applicable `FreshnessWindowDeclRef` or equivalent window pin
   * `DecayPolicyIdRef?` *(policy-bound; if decay model is referenced by id)*
-  * `PathSliceId[]` *(affected evidence carriers / examples that witness drift)*
+  * affected source/carrier references; `PathSliceId[]` when G.6 paths are used or required
 * **RSCRTriggerKindIds:** `{RSCRTriggerKindId.FreshnessOrDecayEvent, RSCRTriggerKindId.EvidenceSurfaceEdit, RSCRTriggerKindId.PolicyPinChange, RSCRTriggerKindId.BaselineBindingEdit}`
-* **Notes (wiring‑only):** CHR does not define decay semantics; it only pins the window/policy defined by the governing pattern and ensures refresh can be triggered on decay events.
+* **Notes (wiring-only):** Cite the B.3.4 currentness basis and any window/model actually used. A change in relied-on conditions or support can trigger refresh without assigning an expiry time or half-life.
 
 **GPatternExtension: QD_OEE_Wiring**
 
@@ -128559,7 +128579,7 @@ All blocks below are `GPatternExtension` modules (PatternScopeId-scoped; **not**
 * freshness/decay expectations for the stated use,
 * legality surfaces that forbid averaging incompatible ordinal labels (e.g., severity grades) and require explicit unit/exposure constraints for any derived rate.
 
-*Downstream:* CAL acceptance governs thresholds and guard‑bands; evidence wiring is cited via Path/PathSlice to make refresh triggers actionable.
+*Downstream:* CAL acceptance governs thresholds and guard-bands; source/proof/measurement references, including G.6 paths when used, identify the basis to reconsider after a relevant change.
 
 **AG‑3 — Quality‑Diversity / Illumination (MAP-Elites/CMA-ME lineage).**
 *System:* a CG-Frame that uses a QD archive or front as the source for a declared set-result outcome under G.5.
@@ -128570,7 +128590,7 @@ All blocks below are `GPatternExtension` modules (PatternScopeId-scoped; **not**
 CHR authoring is where many biases become “baked in” as measurement choices. Typical risks:
 
 * **Proxy bias:** a convenient observable substitutes for the intended construct. Mitigation: require `ObservableOf` + ReferencePlane + micro‑examples; force explicit “what is being measured” rather than relying on labels.
-* **Population and protocol shift:** a change in the sampling regime or protocol can change the interpretation or validity of a reported characteristic value, or change the characteristic’s meaning when that regime or protocol is part of its definition. Mitigation: explicit validity windows and freshness/decay expectations; edition pins for protocol definitions; RSCR triggers on freshness/decay events and evidence surface edits.
+* **Population and protocol shift:** a change in sampling or protocol can alter the interpretation or applicability of a reported value, or the characteristic’s meaning when that procedure is part of its definition. Retain the population, protocol edition and use conditions; reconsider dependent claims when those change, including any applicable validity or freshness window.
 * **Ordinal misuse bias:** ordinal ratings treated as interval/ratio by convenience. Mitigation: publish scale type + admissible transforms; legality matrix + guard macros; reject coordinate upgrades without proof hooks.
 * **Cross-tradition meaning bias:** an imported expression erases its source-local meaning or makes a changed bearer, scope, window, reference plane, evidence basis, or intended use disappear. Mitigation: name those values, cite exact `F.17` cells and an `F.9` relation only when it obtains, and keep any downstream bounded-use claim explicit under `C.2.1` and `F.9`, with evidence-bearing reliance governed by `A.10` and any applicable `B.3` assurance requirement. Retain any mapping limitation and any justified penalty under the applicable `G.Core` rule.
 * **Metric gaming bias (QD and evaluation):** changing descriptors/distances changes what “diverse” means. Mitigation: edition‑pin metric definitions and make role declarations explicit (wiring via `C.18 and C.19`).
@@ -128581,7 +128601,7 @@ CHR authoring is where many biases become “baked in” as measurement choices.
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **CC‑G3‑CoreRef** | `G.3` is conformant only if the applicable `G.Core` obligations declared in `G.3:4.1` are satisfied (effective expansion of profiles/sets + deltas; explicit pins; typed RSCR triggers; defaults with one governing definition).                       |
 | CC‑G3‑01          | `CHR Pack@CG‑Frame` is published as a notation‑independent kit payload with the minimum exported objects listed in `G.3:4.2`.                                                                                                         |
-| CC-G3-02 | Every `CHR.Characteristic` names its exact characteristic and scale editions, its bearer as the `entityOfConcern`, claim scope and applicable slices, any applicable qualification and evaluation windows, `ReferencePlane`, method or model edition when it affects interpretation, evidence refs, intended downstream use, and a filled `ObservableOf` field (instrument or protocol, uncertainty model, and validity window). |
+| CC-G3-02 | Every `CHR.Characteristic` names its exact characteristic and scale editions, its bearer as the `entityOfConcern`, claim scope and applicable slices, any applicable qualification and evaluation windows, `ReferencePlane`, method or model edition when it affects interpretation, evidence refs, intended downstream use, and a filled `ObservableOf` field (instrument or determination protocol, uncertainty treatment when it affects interpretation or use, and any temporal basis consumed by the definition or receiving use). |
 | CC‑G3‑03          | Every `CHR.Characteristic` declares its `ScaleRef`, `Polarity`, and `UnitSet` (or an explicit “unitless” declaration), plus bounds/zero semantics where applicable.                                                                   |
 | CC‑G3‑04          | Missingness is typed in the CHR artefacts such that downstream tri‑state handling is possible without silent coercion. *(Tri‑state semantics are governed by `G.Core`; the typing obligation is CHR‑local.)*                              |
 | CC‑G3‑05          | `CHR.Scale` / `CHR.Level` artefacts encode the scale type and admissible transforms, and make illicit arithmetic checkable by downstream consumers.                                                                                   |
@@ -128589,15 +128609,15 @@ CHR authoring is where many biases become “baked in” as measurement choices.
 | CC‑G3‑07          | `CHR.LegalityMatrix` and `CHR.Guards` exist and are referenced by downstream operator authoring; semantics are governed by cited definitions (MM‑CHR and `G.Core`), not duplicated locally.                                                        |
 | CC‑G3‑08          | `CHR.AggregationSpecs` are typed and legality‑constrained; where Γ‑fold is required and no explicit override is pinned, cite `DefaultId.GammaFoldForR_eff` through `G.Core.DefaultGoverningDefinitionIndex`. |
 | CC‑G3‑09          | If any characteristic is intended for promotion into `CG‑Spec`, the linkage is explicit and edition‑pinned (no shadow ids). *(Governing definition: `G.0`; wiring via `G.3:Ext.CGSpecPromotionWiring`.)*                                             |
-| CC‑G3‑10          | UTS Name Cards exist for public ids minted or evolved by the CHR pack (twin labels plus public-id continuity notes). *(Delegation target: `CC‑GCORE‑UTS‑1` via `CC‑G3‑CoreRef`.)*                                                                      |
-| CC‑G3‑11          | Worked examples and RSCR tests exist and cite `PathId/PathSliceId`; they cover illegal‑op refusal, unit and scale constraints, polarity invariants, and coordinate non‑entitlements.                                                      |
+| CC‑G3‑10          | UTS Name Cards exist for public ids minted or evolved by the CHR pack (designations under F.17/F.18 plus public-id continuity notes). *(Delegation target: `CC‑GCORE‑UTS‑1` via `CC‑G3‑CoreRef`.)*                                                                      |
+| CC‑G3‑11 | Worked examples and RSCR tests retain their source, proof or measurement basis, with G.6 path citations when used or required. They cover illegal-operation refusal, unit and scale constraints, polarity invariants and coordinate non-entitlements. |
 | CC‑G3‑12          | Thresholds/guard‑bands are not embedded in CHR artefacts; they remain governed by CAL acceptance clauses (`G.4`).                                                                                                                        |
 | CC‑G3‑13          | When method‑role declarations are present (via `RoleDecls` and/or `QD.Role` alias), each declaration is **docked** to its governing pattern via a corresponding `G.3:Ext.*` module, and the edition and policy pins required by the governing pattern are surfaced to make downstream interpretation reproducible. *(QD/OEE governing patterns: `C.18` and `C.19`; wiring via `G.3:Ext.QD_OEE_Wiring`.)* |
-| CC‑G3‑14          | **Evidence wired.** Each `CHR.Characteristic` links to R‑anchors via `PathId/PathSliceId` (and, where applicable, `A.10` anchor/carrier refs), so downstream evidence discipline (`G.6`) can audit legality and guard claims.            |
+| CC‑G3‑14 | **Evidence wired.** Each `CHR.Characteristic` cites the grounds of its legality and guard claims through A.10 source/carrier references, or G.6 paths when shared path citation or a receiving contract requires them. The chosen representation preserves the actual claim and support relations. |
 | CC‑G3‑15          | An `Archetypal Grounding` section exists with at least two domain‑distinct examples that demonstrate lawful CHR typing/legality and the CHR↔CAL separation (notably: no thresholds in CHR).                                          |
-| CC‑G3‑16          | If `EvidenceLanes` are used, lane tags are declared with a citation to the selected regime's definitions, and any lane‑dependent tolerances/proof requirements are explicitly pinned (policy‑id / edition refs). Cross‑lane comparison/aggregation is **illegal by default** unless an explicit governing-pattern policy makes it lawful (typically `G.4`), and it must be auditable via evidence paths (`G.6`). |
+| CC‑G3‑16 | If `EvidenceLanes` are used, declare their tags with the selected regime’s definitions and pin any lane-dependent tolerances/proof requirements. Cross-lane comparison/aggregation is illegal unless an explicit governing policy makes it lawful (typically `G.4`); cite its supporting basis and G.6 paths when used or required. |
 | CC‑G3‑17          | When CHR outputs are bound into a planned baseline, identify the `A.15.2` WorkPlan and its local baseline locator. If the plan fills an independently declared operation argument or relation position under `A.15.3`, also use `CHRMechanismSuiteSlotFillingsPlanItem` with its governing declaration reference, member designator and plan-local filling-row locator, as governed by `A.19.CHR:4.1.2` (wiring via `G.3:Ext.SuiteBoundaryLinkage`). |
-| CC‑G3‑18          | **Freshness is explicit.** Each `CHR.Characteristic` declares a validity window and either (i) an explicit `NonDecayingDecl` or (ii) a freshness/half‑life statement that is pinned to the governing pattern (`B.3.4`) when policy‑bound (`G.3:Ext.DecayWiring`). Changes in decay windows/policies participate in RSCR via canonical trigger kinds declared in `G.3:4.1`. |
+| CC‑G3‑18 | **Use-qualified currentness.** A claim whose receiving use depends on currentness retains its B.3.4 basis and any applicable validity window or decay policy. Named models/policies are pinned through `G.3:Ext.DecayWiring`. Changes to relied-on windows, policies or other support conditions participate in RSCR under `G.3:4.1`. |
 
 ### G.3:8 - Common Anti‑Patterns and How to Avoid Them
 
@@ -128632,7 +128652,7 @@ The pattern connects these evaluation practices to measurement authoring:
 
 ### G.3:12 - Relations
 
-**Builds on:** `G.Core`, `G.1`, `G.2`, `G.6` (EvidenceGraph / Path citation), `A.19.CHR`, `A.15.2` (WorkPlan baselines), `A.15.3` (planned fillings of independently declared positions), `A.17–A.18/C.16` (MM-CHR), `F.0.1` (source-local meaning), `F.1` (source selection), `F.9` (actual relations between local-sense cells), `F.17` (scheme-sense cells), `F.18` (naming settlement), `C.2.1` (bounded-use claims), `B.3` / `B.3.4`, `A.10`, `E.10`, `E.5.1–E.5.3`.
+**Builds on:** `G.Core`, `G.1`, `G.2`, `G.6` when EvidenceGraph/Path citation is used or required, `A.19.CHR`, `A.15.2` (WorkPlan baselines), `A.15.3` (planned fillings of independently declared positions), `A.17–A.18/C.16` (MM-CHR), `F.0.1` (source-local meaning), `F.1` (source selection), `F.9` (actual relations between local-sense cells), `F.17` (scheme-sense cells), `F.18` (naming settlement), `C.2.1` (bounded-use claims), `B.3` / `B.3.4`, `A.10`, `E.10`, `E.5.1–E.5.3`.
 **Uses (via Extensions):** `G.0` (promotion/linkage to `CG‑Spec`), optional `C.18 and C.19` (QD/OEE wiring).
 **Publishes to:** `G.4` (admissible operators plus legality and guard macros and freshness pins), `G.5` (role declarations plus pins for reproducibility), `UTS` (Name Cards and public-id continuity notes), RSCR tests and hooks.
 **Constrains:** any CAL/LOG/selector usage that consumes CHR (must treat CHR artefacts as typed/legal surfaces, not as prose hints).
@@ -128645,9 +128665,9 @@ The pattern connects these evaluation practices to measurement authoring:
 
 **Use this when.** A team has typed characteristics and now needs to publish reusable operators, acceptance clauses, and legal compositions before any candidate is actually evaluated. The working object is one design-time `CAL Pack@CG-Frame`, not an evaluation run, verdict, selector outcome, assurance case, or decision.
 
-**First move.** Write one plain acceptance statement for one task: “For subject `x` within `ClaimScope` `S` and evaluation window `W`, apply operator `O` to a C.16 measurement result for Characteristic `K` that argument declaration `R` admits. In the actual application, bind current result episteme `E`; the application of clause `A` returns `pass | fail | unknown` under threshold or policy `P` and its currentness rule.” Then turn only the reusable operator and clause definitions into stable CAL declarations. `E` belongs to the later application, not to reusable clause `A`.
+**First move.** Write one plain acceptance statement for one task: “For subject `x` within `ClaimScope` `S`, with any temporal conditions required by this clause, apply operator `O` to a C.16 measurement result for Characteristic `K` that argument declaration `R` admits. In the actual application, bind current result episteme `E`; the application of clause `A` returns `pass | fail | unknown` under threshold or policy `P` and any currentness conditions needed for that use.” Then turn only the reusable operator and clause definitions into stable CAL declarations. `E` belongs to the later application, not to reusable clause `A`.
 
-**Smallest viable CAL pack.** Publish one charter for the exact CG frame, one typed operator card, one acceptance clause with `ClaimScope`, evaluation window, and unknown or failure behavior, one legal flow, one evidence and currentness profile, one proof-or-gap row, one worked declaration example, and a minimal editioned `TaskMap` that cites the exact charter, the C.22 `TaskSignatureRef`, and the declaration refs used by selection. Stop there when this pack answers the task; method-family extensions, archive surfaces, crossing records, and additional policy pins enter only when the case actually needs them.
+**Smallest viable CAL pack.** Publish one charter for the exact CG frame, one typed operator card, one acceptance clause with `ClaimScope`, any evaluation window required by its predicate or receiving use, and unknown or failure behavior, one legal flow, one evidence and currentness profile, one proof-or-gap row, one worked declaration example, and a minimal editioned `TaskMap` that cites the exact charter, the C.22 `TaskSignatureRef`, and the declaration refs used by selection. Stop there when this pack answers the task; method-family extensions, archive surfaces, crossing records, and additional policy pins enter only when the case actually needs them.
 
 **What changes in practice.** Thresholds and failure behavior become inspectable, illegal arithmetic becomes an authoring defect, and runtime workers can cite stable declarations when applying an operator or clause.
 
@@ -128664,7 +128684,7 @@ CAL authoring starts from:
 Before any run‑time selection, comparison, aggregation, or selected-set formation is executed downstream, authors need an explicit, auditable **CAL Pack** that:
 
 1. defines *what operators exist* and what they are allowed to do over CHR types,
-2. externalizes *fit-for-purpose acceptance* as typed predicates whose use is bounded by an exact `ClaimScope`, evaluation window, and any separate qualification window that limits use, and
+2. externalizes *fit-for-purpose acceptance* as typed predicates whose use is bounded by an exact `ClaimScope`, any evaluation window required by the predicate or receiving use, and any separate qualification window that limits use, and
 3. binds these choices to an evidence wiring surface (lanes, provenance anchors, policy pins, and refresh triggers) so that downstream selection, logging, parity, and shipping can cite *stable ids* rather than re‑inventing semantics.
 
 This pattern provides the design‑time authoring kit and the publication surface for CAL artifacts, while delegating Part‑G‑wide invariants to `G.Core` and CN-Spec and CG-Spec legality to `CG‑Spec`/`CN‑Spec`.
@@ -128685,7 +128705,7 @@ A CAL Pack connects typed measurements to later selection and evaluation. Drift 
 * **Pluralism vs comparability.** Multiple method traditions must coexist without forcing premature unification, yet remain cross‑citable and auditable.
 * **Decision support vs auditability.** CAL must support selection and selected-set formation while preserving explicit, reviewable assumptions and proofs.
 * **Exploration vs assurance.** CAL must support exploratory regimes (probing, novelty, open‑ended search) without letting un‑assured outputs silently become dominance claims.
-* **Locality vs portability.** Each CAL clause stays bounded by its declared `ClaimScope`, window, source meanings, and ReferencePlane; reuse beyond that boundary requires the exact relation and crossing records that the changed value calls for.
+* **Locality vs portability.** Each CAL clause stays bounded by its declared `ClaimScope`, any applicable temporal bounds, source meanings, and ReferencePlane; reuse beyond that boundary requires the exact relation and crossing records that the changed value calls for.
 
 ### G.4:4 - Solution — author the smallest lawful CAL pack
 
@@ -128695,12 +128715,12 @@ Complete these actions in order; widen a step only when its stated input is need
 
 1. **C1 — Charter the scope.** Name the exact `CG‑Frame`, `EntityOfConcern`, `ReferencePlane`, task, `CNSpecRef.edition`, and `CGSpecRef.edition`. State the assumption envelope in ordinary language.
 2. **C2 — Declare one typed operator.** Give it a stable id, CHR-typed signature, preconditions, result kind, and failure behavior. This is an `A.6.1` operation declaration, not evidence of an application.
-3. **C3 — Declare one acceptance clause.** Name the exact Characteristic and the A.6.1 argument declaration that admits the corresponding C.16 measurement-result episteme, then declare the predicate or threshold, `ClaimScope`, evaluation window, any separate qualification window that limits use, unknown handling, and the stated stop, degrade, or abstain behavior. Keep the exact current result episteme for the later application. If the clause claims statistical risk or coverage control, also name the loss, target, calibration population and window, sampling or exchangeability assumptions, declared treatment of shift, and the exact policy that states the guarantee.
+3. **C3 — Declare one acceptance clause.** Name the exact Characteristic and the A.6.1 argument declaration that admits the corresponding C.16 measurement-result episteme, then declare the predicate or threshold, `ClaimScope`, any evaluation window required by the predicate or receiving use, any separate qualification window that limits use, unknown handling, and the stated stop, degrade, or abstain behavior. Keep the exact current result episteme for the later application. If the clause claims statistical risk or coverage control, also name the loss, target, calibration population and window, sampling or exchangeability assumptions, declared treatment of shift, and the exact policy that states the guarantee.
 4. **C4 — Compose only a legal flow.** Cite the operators and gating clauses, preserve the lawful result kind, and keep a selected set when no lawful scalarization exists. A declared DAG is possible composition, not performed work.
-5. **C5 — Name the minimum evidence/currentness need.** Cite the exact A.10 source/provenance anchors and G.11 window needed to judge the clause. Do not turn an evidence profile, citation, or graph membership into a verdict or actual reliance.
+5. **C5 — Name the minimum evidence/currentness need.** Cite the exact A.10 source/provenance anchors and G.11 currentness conditions needed to judge the clause. Do not turn an evidence profile, citation, or graph membership into a verdict or actual reliance.
 6. **C6 — Add an extension only when the task needs one.** Select its current subject pattern first, then pin only the descriptor, distance, insertion, exploration, branch, or path records that change the present CAL action. Otherwise omit the extension.
 7. **C7 — Record proof or an explicit gap.** For every operator, flow, or clause, cite the legality/monotonicity/boundedness justification actually required; when it is missing, publish the gap and the consequent degrade/abstain behavior.
-8. **C8 — Exercise declaration behavior.** Provide one worked authoring example and focused conformance tests for illegal operations, `pass | fail | unknown`, freshness, and failure behavior. The example and test remain declarations/test records unless separately grounded dated work is named.
+8. **C8 — Exercise declaration behavior.** Provide one worked authoring example and focused conformance tests for illegal operations, `pass | fail | unknown`, currentness conditions when they are part of admissibility, and failure behavior. The example and test remain declarations/test records unless separately grounded dated work is named.
 9. **C9 — Publish and hand off.** Mint stable ids and continuity notes, then emit the smallest immutable `TaskMap` edition. It cites the exact charter edition, the already constituted C.22 `TaskSignatureRef`, the task, and edition-bearing operator, flow, gating-clause, and evidence-profile refs; the cited evidence profiles carry the needed currentness pins. It neither constructs the TaskSignature nor copies clause thresholds. Use G.11 for change refs; G.4 defines no refresh rule or runtime occurrence or result.
 
 The authoring path is complete when a cold reader can reconstruct the plain acceptance sentence from the published ids and can also say what still has to happen at runtime. The detailed manifests, schemas, interfaces, and optional extension blocks below make the same pack machine-citable; they do not add another practitioner sequence.
@@ -128765,7 +128785,7 @@ Notes (normative intent, delegated semantics):
   * explicit signature over CHR types,
   * explicit preconditions/postconditions (incl. legality guard macros references),
   * explicit provenance/evidence hooks (by ids/pins, not by tool behavior).
-* `CAL.Acceptance[]` — typed predicate declarations whose use is bounded by the declared `ClaimScope`, evaluation window, and any separate qualification window; a clause declares how an actual application is judged but is not itself a verdict:
+* `CAL.Acceptance[]` — typed predicate declarations whose use is bounded by the declared `ClaimScope`, any evaluation window required by the predicate or receiving use, and any separate qualification window that limits use; a clause declares how an actual application is judged but is not itself a verdict:
 
   * binds to CHR characteristic ids and to exact A.6.1 argument declarations for admissible C.16 measurement-result epistemes (and, when inducing numeric comparison or aggregation, to `CG‑Spec.characteristic` ids),
   * keeps the exact current result episteme in the later application binding rather than in the reusable clause,
@@ -128779,7 +128799,7 @@ Each `resultInputDeclarationRef` resolves an A.6.1 `ArgumentDeclaration` whose m
 * `CAL.EvidenceProfiles` — evidence wiring surface:
 
   * lane tags under their declared regime / provenance anchors / policy pins needed for `SCR` and audit surfaces,
-  * explicit freshness/decay hooks (freshness window + decay/Γ_time selectors) as pinned policies/refs (not prose).
+  * currentness conditions needed by the receiving use, with freshness-window and decay/Γ_time policy refs pinned only when those mechanisms are used.
   * explicit `ReferencePlane` and any used penalty-policy refs (`Φ(CL)`, `Ψ(CL^k)`, `Φ_plane`); the ProofLedger supplies the receiving quantity, scale, input meanings, assumptions, and derivation or calibration. Monotonicity and boundedness alone do not justify a numerical loss.
 * **Optional** `CAL.NQD[]` — QD/OEE‑related calculus surfaces when declared:
 
@@ -128792,7 +128812,7 @@ A CAL clause that consumes G.7 calibration states its exact receiving use and pr
   * links operator/flow/clause ids to their needed legality and soundness results; a numerical support fold includes the B.3/C.2.2 receiving model, compatible scales and inputs, dependence assumptions, and boundary behavior.
 * Publication artifacts:
 
-  * UTS Name Cards (twin labels) for all public ids,
+  * UTS Name Cards under F.17/F.18 for all public ids,
   * RSCR tests ids and Worked‑Examples ids,
   * deprecation notices and edition bump notes as public-id continuity records.
 
@@ -128829,7 +128849,7 @@ CAL.Acceptance :=
   ⟨ clauseId(UTS), characteristicRefs[], resultInputDeclarationRefs[],
     fixedResultEpistemeRefs[]?,              // deliberately one-off clause only
     cgSpecCharacteristicRefs[]?, predicateRef, claimScopeRef,
-    evaluationWindow, qualificationWindow?, unknownHandlingRef,
+    evaluationWindow?, qualificationWindow?, unknownHandlingRef,
     failureBehaviorRef, evidenceProfileRefs[]?, crossingRefs[]? ⟩
 
 CAL.Flow :=
@@ -128853,7 +128873,7 @@ When CAL authoring relies on SoTA coverage, consume G.2's pack `CoverageJudgemen
 | ------------------------- | --------------------------------------------------- | ----------------------------------------------------------------------------------------- |
 | `G.4-1 Charter`           | exact `CGFrameId`, `EntityOfConcernRef`, `ReferencePlane`, `CNSpecRef.edition`, `CGSpecRef.edition`, assumption envelope, SoTA inputs, `CHR Pack@CG-Frame` | one immutable `CAL.Charter` edition and its `CALCharterRef` |
 | `G.4-2 Operators`         | CHR typing + SoTA operator inventory                | `CAL.Operator[]` (UTS ids; typed signatures; refs to evidence profiles & guards)  |
-| `G.4-3 Acceptance`        | task intent, exact Characteristic and A.6.1 result-input argument declarations, `ClaimScope`, evaluation window, any separate qualification window that limits use, policy pins, and CHR characteristics; exact result-episteme refs only for a clause explicitly marked one-off | `CAL.Acceptance[]` (typed predicate or threshold; admissible result-input declarations; scope; evaluation and applicable qualification windows; freshness pins; unknown and failure behavior refs) |
+| `G.4-3 Acceptance`        | task intent, exact Characteristic and A.6.1 result-input argument declarations, `ClaimScope`, any evaluation window required by the predicate or receiving use, any separate qualification window that limits use, policy pins, and CHR characteristics; exact result-episteme refs only for a clause explicitly marked one-off | `CAL.Acceptance[]` (typed predicate or threshold; admissible result-input declarations; scope; applicable evaluation and qualification windows; currentness pins when used; unknown and failure behavior refs) |
 | `G.4-4 Flows`             | Operator cards + admissible aggregators             | `CAL.Flow[]` (legality‑checked compositions; declared result kind)                        |
 | `G.4-5 NQD Surface`       | Task intent + policy pins + (optional) QD/OEE inputs | `CAL.NQD[]` (descriptor/distance/insertion refs + edition pins; optional)  |
 | `G.4-6 Publish`           | all above, exact task, C.22 `TaskSignatureRef`, proofs, and examples | versioned `CAL Pack@CG-Frame`, exact `CALCharterRef`, and the smallest immutable `TaskMap` edition plus `TaskMapRef`, citing the task, matching TaskSignature, and acceptance-clause, operator, flow, and evidence-profile refs; also UTS entries, RSCR tests, Worked-Examples, and public-id continuity notes |
@@ -129004,10 +129024,10 @@ The pattern mitigates these by requiring typed acceptance clauses, explicit poli
 | ConformanceId     | Statement                                                                                                                                                                                                                                                                                                      |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **CC‑G4‑CoreRef** | Conformance with `G.4` requires satisfying the effective `G.Core` obligations referenced by the `GCoreLinkageManifest` in **G.4:4.1** (profiles, pin sets, consumed defaults, and trigger kinds).                                                                                                              |
-| **CC‑G4‑01**      | `CAL Pack@CG-Frame` is published as a notation-independent object with stable UTS ids (Name Cards with twin labels) for `CAL.Charter`, `TaskMap`, all operator, acceptance-clause, flow, and evidence-profile declarations, Worked-Examples, and public-id continuity notes, including deprecations and lexical-continuity notes. Tooling/vendor details remain non-normative. |
+| **CC‑G4‑01**      | `CAL Pack@CG-Frame` is published as a notation-independent object with stable UTS ids (Name Cards under F.17/F.18) for `CAL.Charter`, `TaskMap`, all operator, acceptance-clause, flow, and evidence-profile declarations, Worked-Examples, and public-id continuity notes, including deprecations and lexical-continuity notes. Tooling/vendor details remain non-normative. |
 | **CC‑G4‑02**      | Each exact `CALCharterRef = <charterId, charterEdition>` resolves one immutable charter edition naming the exact `CGFrameId`, `EntityOfConcernRef`, `ReferencePlane`, `CNSpecRef.edition`, `CGSpecRef.edition`, and assumption envelope on which the pack relies. |
 | **CC‑G4‑03**      | Every `CAL.Operator` has an explicit CHR‑typed signature and explicit preconditions; any legality guard macros referenced are cited by id (no “implicit legality”).                                                                                                                                             |
-| **CC‑G4‑04** | Every reusable `CAL.Acceptance` binds the exact Characteristic and exact A.6.1 `resultInputDeclarationRef` values that declare the admissible C.16 measurement-result episteme inputs; the exact current result episteme is bound only in an actual application. A clause marked one-off may additionally cite `fixedResultEpistemeRefs[]?`. Every clause also declares its predicate or threshold, `ClaimScope`, evaluation window, any separate qualification window that limits use, unknown handling, and failure behavior. A statistically risk-controlled clause also names its loss, target, calibration population and window, sampling or exchangeability assumptions, declared treatment of shift, and the exact policy that states or defines the guarantee. Inputs with distinct source-local meanings cite the exact F.17 cells and obtaining F.9 relation; cross-plane or cross-edition inputs cite their applicable crossing records. None of these declarations establishes performed evaluation or a verdict. |
+| **CC‑G4‑04** | Every reusable `CAL.Acceptance` binds the exact Characteristic and exact A.6.1 `resultInputDeclarationRef` values that declare the admissible C.16 measurement-result episteme inputs; the exact current result episteme is bound only in an actual application. A clause marked one-off may additionally cite `fixedResultEpistemeRefs[]?`. Every clause also declares its predicate or threshold, `ClaimScope`, any evaluation window required by the predicate or receiving use, any separate qualification window that limits use, unknown handling, and failure behavior. A statistically risk-controlled clause also names its loss, target, calibration population and window, sampling or exchangeability assumptions, declared treatment of shift, and the exact policy that states or defines the guarantee. Inputs with distinct source-local meanings cite the exact F.17 cells and obtaining F.9 relation; cross-plane or cross-edition inputs cite their applicable crossing records. None of these declarations establishes performed evaluation or a verdict. |
 | **CC‑G4‑05**      | If an acceptance clause, operator, or flow induces numeric comparison or aggregation, it cites the relevant `CG‑Spec.characteristic` ids and links to legality proof refs (CSLC) in the ProofLedger; otherwise it must be authored so that downstream can degrade or abstain rather than perform illegal operations. |
 | **CC‑G4‑06**      | Every `CAL.Flow` declares its result kind and the set of gating acceptance clauses; any thinning/selection‑aid policies (e.g., ε‑front selection) are explicitly policy‑bound and do not silently replace the underlying result kind.                                                                      |
 | **CC‑G4‑07** | Every `CAL.EvidenceProfile` declares the provenance anchors, evidence lanes, and currentness or loss-policy pins its use needs. It cites `DefaultId.GammaFoldForR_eff` for B.3/C.2.2 support-model discipline and pins any numerical Γ-fold actually used. That calculation must preserve input meanings, scales, dependencies, formal/empirical distinctions, and mapping limits; absent a common model, retain separate support and a bounded synthesis. The selected receiving model determines which results a numerical loss consequence affects, including whether an R-only restriction applies. Loss assessment alone defines neither dominance nor an acceptance threshold. |
@@ -129370,11 +129390,13 @@ For every `MethodFamilyRowRef` consumed here, resolve the exact immutable row ed
 
 When a selector consumes an organization among Methods, cite an exact `SelectedStructureRef` only after A.22 has independently identified the `U.Structure` from exact constituents, exact already-obtaining relation occurrences, applied constraints, and one named use frame. G.5 neither supplies those discriminators nor selects the Structure by listing it. If the organization instead constitutes one composite Method, consume the exact A.3.1 Method only after B.1.5 has qualified that candidate from its independent parts and whole-forming basis.
 
-S3 states reusable selector behavior. It does not itself perform selection. For an actual selector use, first recover every precise performer's A.13 core for the exact selection action, scope, working situation, and window, including the same obtaining assignment later used by any exact attribution. A.15.1 then independently admits the dated selector Work from its exact performance history, enacted Method, temporal extent, and containing-System relation. State the actual A.6.1 `Select` application, its effective argument bindings, and the A.19 `SelectionSlot` binding for any selected set returned by value. Add F.6 afterward only when the receiving claim needs exact assignment-bound attribution through the same obtaining A.13 assignment. The declaration, planned pins, registry rows, policy, assignment, F.6 relation, and `CandidateSet` type create none of the A.13, Work-admission, application, or result facts.
+S3 states reusable selector behavior. A completed admitted selection establishes the A.6.1 `Select` application, its effective argument bindings and the A.19 `SelectionSlot` binding for the set returned by value. The eligibility evaluation has its own application and guard result; on abstain no Select act proceeds. Keep the actual eligibility and comparison grounds recoverable.
 
-A compact selector account may omit only an assignment identifier unused by its receiving claim; it omits no criterion, classification, assignment, Work-admission, or attribution fact that the claim consumes. A root-family reference, the same holder, overlapping times, or silence in the receiving text establishes or removes neither the assignment nor F.6 attribution. Ordinary selector discussion not admitted as `U.Work` does not enter this branch.
+When the account also asserts a dated selector `U.Work`, or a receiving contract requires that identity, first recover each precise performer’s A.13 core for the action, scope, working situation and window, including the obtaining assignment used by any exact attribution. A.15.1 independently admits the Work from its performance history, enacted Method, temporal extent and containing-System relation. F.6 applies afterward only for a required exact assignment-bound attribution through the same obtaining assignment.
 
-In this actual-selector branch, the independently admitted dated selector Work and its actual Select application are required. Replay the upstream CPM applications through their own declaration-local bindings; separately admitted comparison Work is required only if the account asserts it. Evidence use, A.10 reliance/provenance, G.11 currentness and a C.2.1 result episteme retain their complete independent grounds when asserted or consumed by the receiving use. A bounded selection that consumes none of these additional claims requires no such additional object.
+A compact Work account may omit an assignment identifier unused by its receiving claim; it retains every criterion, classification, assignment, admission or attribution fact the claim consumes. Holder equality or overlapping times alone does not establish the F.6 relation.
+
+Replay upstream CPM applications through their own declaration-local bindings. Separately admitted comparison or selection Work is required when that Work is asserted or consumed. Evidence use, A.10 reliance/provenance, G.11 currentness and a C.2.1 result episteme retain their independent grounds when asserted or consumed by the receiving use.
 
 **S3.A — `TaskFamilySpecializationProfile@Context` (run‑time; conditional).**
 When the real selector question is acquisition of usable specialization on a declared task family, the selector may emit one `TaskFamilySpecializationProfile@Context` for each candidate, one `SpecialistHandoff`, or one narrowed handoff plan. Here `profile` means one selector-time comparison record for bounded specialization, not a new U-kind and not a generic narrative profile. `G.5` carries this selector-time specialization question here; it does not redefine the adaptation-signature field vocabulary from `C.22.1`.
@@ -129392,7 +129414,7 @@ If exact A.3.1 Methods, exact B.1.5 `methodPartOf` occurrences, all other requir
 
 A C.2.1 episteme may describe either governed object. A.3.2 applies only when the episteme's exact `EntityOfConcern` is one already admitted Method and its claims substantively describe that Method; an episteme whose exact concern is the selected Structure is not thereby a `U.MethodDescription`. Concrete strategy semantics stay in the referenced method families; G.5 only carries the composition template, selector relation, registry row, exact consumed Method or Structure reference, or selected-set result. None of those G.5 artifacts supplies the B.1.5 or A.22 construction facts.
 
-Algebraic, graph, matrix, embedding, or neural selector notation remains a mathematical or representation lens when that representation is current; use C.29 for its correspondence and preserved-or-lost structure rather than reading notation as composition or selection.
+Use C.29 when a selector representation or its transfer leaves an unresolved correspondence, preserved-or-lost distinction, or inference needed for the current question. An adequate local calculation or representation may be used directly.
 
 
 **S5 — `Result, public identity, and telemetry` record boundary (run-time).**
@@ -129422,7 +129444,7 @@ Method- and generator-specific pressures such as `QD` archives, open-ended decla
 | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **G.5-1 RegisterFamily** | declared local or public registry-identity contract; continuing MethodFamilyId and new immutable row edition; nonempty exact admitted A.3.1 MethodRef[]; obtaining grouping relation or explicit grouping criterion; eligibility/comparison basis; selection-changing source, policy and CHR/CAL/CN/CG pins as applicable; public-continuation fields when selected | One immutable MethodFamilyRowRef = <MethodFamilyId, rowEdition>, resolving the members, grouping, eligibility/comparison basis and applicable pins. Public registration additionally fixes EligibilityStandardRef, AssuranceProfileRef and UTSRowId under S1/CC-G5.6. A local row retains conditional assurance expectations without requiring a public UTS entry. Neither branch creates Methods or grouping facts. |
 | **G.5-2 RegisterGeneratorFamily** | declared local or public registry-identity contract; continuing GeneratorFamilyId and immutable row edition; nonempty exact generator refs under their subject patterns; grouping basis; GeneratorSignatureRef; applicable eligibility/comparison, source and policy pins, including TransferRulesRef.edition when required | One immutable GeneratorFamilyRowRef = <GeneratorFamilyId, rowEdition>, resolving those members, basis, signature and applicable pins. Intentional public registration additionally meets S1′/CC-G5.6 naming, continuity and UTS requirements. Local reuse retains the same replayable member/basis core; neither branch creates generator identity or membership. |
-| **G.5-3 Select**                  | `TaskSignatureRef`; exact matching `TaskMapRef` when G.4 CAL gates are current; exact `MethodFamilyRowRef[]` and/or `GeneratorFamilyRowRef[]` for the candidate rows in scope; each immutable method row resolves non-empty exact A.3.1 `MethodRef[]` under S1, and each generator row resolves non-empty exact generator refs under their subject patterns and its signature under S1′; every row resolves its grouping basis and selection-changing pins; pinned `CNSpecRef` and `CGSpecRef` editions; policy refs if any; sufficient audit basis refs, with `PathId` or `PathSliceId` only for actual graph citations or an independently applicable gate or shipping contract | `CandidateSet` (set-returning), declared selector result with `PortfolioMode` recorded, exact row refs and any current `TaskMapRef` among the result basis pins, and `DRR` and `SCR` pins; if no admissible candidate exists: return `CandidateSet = EMPTY` plus an escalation hint (`ActionHint`) and the pins required to plan next steps (P2W split applies) |
+| **G.5-3 Select**                  | `TaskSignatureRef`; exact matching `TaskMapRef` when G.4 CAL gates are current; exact `MethodFamilyRowRef[]` and/or `GeneratorFamilyRowRef[]` for the candidate rows in scope; each immutable method row resolves non-empty exact A.3.1 `MethodRef[]` under S1, and each generator row resolves non-empty exact generator refs under their subject patterns and its signature under S1′; every row resolves its grouping basis and selection-changing pins; pinned `CNSpecRef` and `CGSpecRef` editions; policy refs if any; sufficient audit basis refs, with `PathId` or `PathSliceId` only for actual graph citations or an independently applicable gate or shipping contract | For admitted selection: the actual `CandidateSet` return, its result binding and the declared selector outcome, with `PortfolioMode`, exact row/map refs and sufficient DRR/SCR basis pins. For abstention: `AbstainOutcome` with the failed or unknown condition and no SelectionSlot binding. An actual empty-set return retains its criteria and scope; a justified further inquiry or action may supply an `ActionHint` or `EscalationOutcome`. |
 | **G.5-4 Compose**                 | `CandidateSet`, composition template refs, pinned admissibility constraints                                                                                       | Composite strategy template (template-level; admissibility-checked; pinned)                                                                                                                                                                                      |
 | **G.5-5 Telemetry**               | run outcomes, citations, and policy or edition pins                                                                                                               | refresh cues (typed RSCR causes and payload pins), parity deltas (if parity harness is in use), telemetry pins (selector-side; orchestration governing definition is `G.11`)                                                                                              |
 | **G.5-6 DeclareSetResult**        | one exact `SetResultFamily`; exact already identified `memberRef[]`; `namedUse` for `JointUseSet`; ordering; inclusion or selection conditions; and sufficient `basisPins` to the already current choice, pool treatment, accepted decision, or other governed inclusion basis | one `SelectorOutcome` with `SelectorOutcomeKind = SetResultOutcome` and the exact membership form required by that family. For `JointUseSet`, it emits keyed unique `memberEntries`, `ordering = unordered`, the named use, inclusion conditions, and basis pins without a method-family row or `Select` pass. |
@@ -129438,7 +129460,7 @@ Method- and generator-specific pressures such as `QD` archives, open-ended decla
 - A catalyst-search team is choosing among three method families for the same declared `TaskSignature` and `C.22.1` adaptation signature.
 - The shared profile pins one work-measure threshold target, one freshness window, one prior-exposure declaration, and one adaptation budget. One family reaches threshold quickly but carries high downside on adjacent tasks. One family is slower but transfers cleanly. One family never clears `MinimalEvidence` and must receive an abstain verdict.
 - The `G.5` result in this slice therefore declares one unordered `Shortlist` retaining the first two families, with DRR and SCR records citing why the third family was excluded and why the first two remain non-dominated. The selector does not invent one scalar winner and does not hide the specialization profile in auxiliary side notes.
-- If the project also claims that this selection actually occurred, A.13 first recovers `CatalystSelectorSystem-17 : U.System` for exact action `CatalystFamilySelectionAction-17`. `CatalystSelectorBoundary-17` contains the deployed selector runtime, its effective policy state, and its registry/evidence interfaces; it excludes the method-family rows, `TaskMap`, result records, assignment, and containing team System. The action applies the effective selector to the three candidate families and returns the retained set. Its scope is `CatalystFamilySelectionClaimScope-17`, its working situation is `CatalystSearchSelectionSituation-17`, and its window is `2026-07-30T10:00:00Z` through `2026-07-30T10:08:00Z`. `CatalystSelectionAdmissibilityNorm-17` directs the selector to exclude candidates that fail `MinimalEvidence`, preserve admissible non-dominated alternatives, and abstain rather than manufacture a scalar winner. Relevant conditions include the exact `CatalystTaskSignature-17`, current row and map editions, eligibility evidence, comparison policy, and adaptation-signature values.
+- If the project also needs to identify the dated selection Work and its precise performer, A.13 first recovers `CatalystSelectorSystem-17 : U.System` for exact action `CatalystFamilySelectionAction-17`. `CatalystSelectorBoundary-17` contains the deployed selector runtime, its effective policy state, and its registry/evidence interfaces; it excludes the method-family rows, `TaskMap`, result records, assignment, and containing team System. The action applies the effective selector to the three candidate families and returns the retained set. Its scope is `CatalystFamilySelectionClaimScope-17`, its working situation is `CatalystSearchSelectionSituation-17`, and its window is `2026-07-30T10:00:00Z` through `2026-07-30T10:08:00Z`. `CatalystSelectionAdmissibilityNorm-17` directs the selector to exclude candidates that fail `MinimalEvidence`, preserve admissible non-dominated alternatives, and abstain rather than manufacture a scalar winner. Relevant conditions include the exact `CatalystTaskSignature-17`, current row and map editions, eligibility evidence, comparison policy, and adaptation-signature values.
 - A.2 declares local agential kind `CatalystMethodSelectorSystemRole`. Its membership criterion requires the stable work-facing contribution of method-family selection and goal-directed, condition-sensitive regulation under `CatalystSelectionAdmissibilityNorm-17`: the holder must apply the current gates, preserve the admissible set-return semantics, and abstain or escalate when no candidate qualifies. `CatalystSelectorDecisionTrace-17` shows `CatalystSelectorSystem-17` excluding the third family for failed `MinimalEvidence`, retaining the first two as non-dominated, and emitting no scalar winner. The trace and boundary/runtime records support the criterion facts under A.2's membership rule; A.10 makes that source-to-use account recoverable. The case independently classifies `CatalystSelectorSystem-17` under `CatalystMethodSelectorSystemRole`; neither the assignment nor the candidate Work supplies the classification. No Grade, autonomy result, characteristic profile, or stronger assurance claim is consumed.
 - The same A.13 core uses `CatalystSelectorAssignment`, a directly declared species under `U.SystemRoleAssignment`. The species declares holder, assigned-kind, and task-signature participant meanings and the assignment predicate. `CatalystSelectorAssignment-17` obtains with `CatalystSelectorSystem-17`, `CatalystMethodSelectorSystemRole`, and `CatalystTaskSignature-17` as its exact participant values; its maximal uninterrupted predicate-true interval covers the stated scope, situation, and window.
 - Only after that core is established does A.15.1 independently admit `CatalystSelectionWork-17 : U.Work` from the exact selection-action history, enacted `CatalystFamilySelectionMethod`, temporal extent, and obtaining containing-System relation to independently admitted `CatalystSearchTeamSystem`. Actual application `CatalystSelectApplication-17` separately carries its effective candidate, criteria, and A.19 `SelectionSlot` bindings. Neither the assignment nor F.6 is an A.15.1 admission premise.
@@ -129458,10 +129480,10 @@ The admissible selector outcome families here are:
 
 - `SelectorOutcomeKind = SetResultOutcome`, whose closed `SetResultFamily` value set is `Shortlist` when alternatives are retained for later choice and the result does not order them, `RankedShortlist` when the result orders those retained alternatives, and `JointUseSet` when every named member is included for one named use;
 - `SelectorOutcomeKind = HandoffOutcome`, with `HandoffKind = SpecialistHandoff` or one other narrowed handoff plan when heterogeneity is the truthful downstream result;
-- `SelectorOutcomeKind = AbstainOutcome` when no admissible candidate exists and the truthful result is one abstain; and
-- `SelectorOutcomeKind = EscalationOutcome` when no admissible candidate exists and the truthful result is one escalation.
+- `SelectorOutcomeKind = AbstainOutcome` when required grounds are missing or no candidate is admissible and selection cannot proceed; and
+- `SelectorOutcomeKind = EscalationOutcome` when a blocked selection warrants a specified further inquiry, decision or action by another competent receiver.
 
-`G.5-3 Select` may emit one of these outcome kinds only over exact candidates admitted under its method- or generator-family rules; `G.5-6 DeclareSetResult` emits `SetResultOutcome` from exact already identified members and a current inclusion basis. Neither branch performs an upstream choice, makes a member relation obtain, or proves actual selection Work.
+`G.5-3 Select` uses grounded candidates and the applicable eligibility/comparison basis. An admitted Select may return an empty candidate set under its declared criteria; a corresponding empty `Shortlist` retains that actual return, criteria and scope. An abstention instead records the failed or unknown condition and has no Select result binding. `G.5-6 DeclareSetResult` emits `SetResultOutcome` from exact already identified members and a current inclusion basis; it does not perform that upstream choice.
 
 A `JointUseSet` uses this bounded representation:
 
@@ -129567,7 +129589,7 @@ When the source is `TraditionFront` or `TraditionArchive`, keep its base `SoTAPa
 | The two pump Methods in §0.5 survive, with no admitted ordering. | Emit its unordered `Shortlist`; the receiver still has a choice to make. |
 | A declared comparator orders family_B before family_A for the specialist handoff. | Emit a `RankedShortlist` with `[family_B, family_A]`, the comparator and supporting basis pins, and the handoff use. A request for an order alone supplies no comparator. |
 | The cohort decision includes `FPF@C`, `Domain@D` and `Local@L` together. | Emit the §4.4b `JointUseSet`; the receiver uses all three exact editions under the inclusion conditions. |
-| No candidate clears the applicable admissibility/evidence gates. | Emit `AbstainOutcome` or `EscalationOutcome`, naming the blocking pins, basis and next use; an empty shortlist leaves the stop unexplained. |
+| Required selection grounds are missing, or the established gates exclude every candidate. | Emit `AbstainOutcome` with the respective unknown or failed condition and its basis. Use `EscalationOutcome` only for a justified further inquiry or action. If an admitted Select application instead returns an empty set under its declared criteria, preserve that actual result and explain its scope. |
 
 The following extensions apply only when their corresponding mode is active. Their declared `Uses` and pins cite the governing semantics.
 
@@ -129766,7 +129788,7 @@ Potential biases and failure modes this pattern explicitly guards against:
 | `CC-G5.18`      | Numeric comparisons and aggregations used by dispatch **MUST** cite an admissible, edition-pinned comparator or spec publication (as provided by the constraint-bearing spec refs); inadmissible mixes of scale types are forbidden. |
 | `CC-G5.19`      | **Conditional (QD).** If `G.5:Ext.NQD` is present, the required QD telemetry triple (quality, diversity, and QD summary) **MUST** be computable and ready for emission under the pinned descriptor and distance definitions and archive policy, without redefining their semantics in G.5. If actual publication is current, use E.17 for a source-backed face and return to source and E.24.PUB for the publication occurrence and audience availability. |
 | `CC‑G5.20`      | **Conditional (QD).** QD and illumination summaries are treated as telemetry unless explicitly promoted by a pinned acceptance or policy record; the selector must record the promoting policy id in audit pins. |
-| `CC-G5.21`      | **Conditional (Archive and QD).** Any use of archives **MUST** declare `InsertionPolicyRef` and pin the required editions for reproducibility, including descriptor and distance definitions and any method editions they depend on. |
+| `CC-G5.21` | **Conditional (Archive and QD).** An archive use cites its retention/insertion policy and the editions needed to reproduce the retained set. Descriptor, distance and related method definitions are required when that policy uses them, including a selected QD or distance-based branch. |
 | `CC‑G5.22`      | **Conditional (QD).** Twin‑naming discipline for descriptor vs plain space (if used) must be respected (distinct objects; no aliasing).  |
 | `CC-G5.23`      | **Default rule for** `DefaultId.PortfolioMode`. The selector **MUST** expose `PortfolioMode` with values `Pareto` or `Archive`, with **default = `Archive`**, and echo it in DRR and SCR records and declared selector results when not explicitly overridden by pinned policy or TaskSignature. The default is a retention and evidence-preservation policy, not a public selected-set label, not a dominance default, and not a substitute for `SetResultFamily`. Epsilon-fronts are allowed as *local* decision aids under `CG-Spec` when explicitly pinned. |
 | `CC-G5.23a`     | **Parity-run publication.** If parity harness is in use, a selector or generator **MUST** publish a parity run and `ParityCard` to **UTS** (see `G.9`). This obligation remains mandatory irrespective of dominance policy or `PortfolioMode` policy. |
@@ -129777,7 +129799,7 @@ Potential biases and failure modes this pattern explicitly guards against:
 | `CC‑G5.28`      | **Default rule for** `DefaultId.DominanceRegime`. `DominanceRegime` **SHALL** default to `ParetoOnly`. Any inclusion of additional telemetry dimensions into dominance (e.g., illumination) requires an explicitly pinned acceptance or policy record and must be recorded in audit pins. **Parity‑run publication (CC‑G5.23a) remains mandatory** irrespective of dominance policy. |
 | `CC-G5.29`      | **Conditional (QD and Open-Ended).** Any telemetry event that materially changes an archive state or retained-set state **MUST** identify the exact changed state and affected-use scope, log `PathSliceId` when graph-scoped or independently required by the receiving contract, and retain the active policy id and active editions of the relevant definition pins (`DescriptorMapRef.edition`, `DistanceDefRef.edition`, and `TransferRulesRef.edition` when applicable) and expose them to RSCR triggers. |
 | `CC‑G5.30`      | **No Strategy minting.** Within `G.5`, “strategy” is a policy‑bound composition template; the pattern **SHALL NOT** mint a durable U-kind named `Strategy` (E.10 and E.24.UK discipline). If a stable reference is needed, publish composition and policy ids (e.g., UTS entries) rather than minting a universal kind. |
-| `CC-G5.31`      | **Strategy hint on non-admissible sets.** If selection yields `CandidateSet = EMPTY`, the selector **SHALL** emit an explicit escalation hint (`ActionHint`) that is compatible with DRR and SCR records and auditable: include the top three actual blocking constraints as cited ids and pins, or all actual blockers when fewer than three exist, and where applicable include the relevant edition pins, for example `TransferRulesRef.edition` in Open-Ended mode, to guide exploration under explicitly pinned lenses such as the exploration and exploitation log policy. |
+| `CC‑G5.31` | **Blocked or empty selection.** Retain the actual failed or unknown conditions and their basis. Abstention has no actual Select application or SelectionSlot binding; an actual Select may return an empty set only under its declared criteria. An `ActionHint` names a justified continuation when one is available and needed. When no further action is warranted, return the stop with its scope and grounds. Carry the editions and policy pins that the selected continuation actually uses. |
 | `CC‑G5.32`      | **Parity‑run publication and admissible roll-ups.** If parity harness is in use, parity publication is required per `CC‑G5.23a` (ID‑continuity). Any scalar roll-up or summary view **MUST** be admissible under **CG‑Spec** (no mixed‑scale sums), and published views must preserve set‑return semantics (no single‑score leaderboards as authoritative outputs without an explicit, admissible comparator publication). |
 | `CC‑G5.33`      | **Conditional (bounded specialization).** When the selection question is acquisition of usable specialization on a declared `TaskFamilyRef` or `TaskSignature`, selector outputs **SHALL** either emit `TaskFamilySpecializationProfile@Context` or cite equivalent pins carrying the `C.22.1` adaptation-signature fields needed for comparison: work-measure threshold target, prior exposure declaration, time-to-threshold, budget-to-threshold, post-threshold efficiency when relevant, and any declared transfer, retention, downside, or specialization-entry notes. |
 | `CC‑G5.34`      | **Selected-set result kind.** When `SelectorOutcomeKind = SetResultOutcome`, the public result kind **MUST** be explicit. Use `Shortlist` for unordered alternatives retained for later choice, `RankedShortlist` only when the result orders those alternatives, and `JointUseSet` only when every named member is included for one named use. `ChoiceSet` **MUST NOT** silently replace the public result kind. |
@@ -129788,9 +129810,9 @@ Potential biases and failure modes this pattern explicitly guards against:
 | `CC‑G5.38`      | **Causal method dispatch declarations.** If method selection involves causal methods, each compared method **MUST** declare `causalMethodUseClassification` as observational predictor, intervention optimizer, counterfactual strategy, causal fairness estimator, causal-RL policy, or simulation-only method, and **MUST** carry `causalUseSupportResultRef` and the cited result's verdict when it consumes `C.28` causal-use support rather than treating method dispatch as causal certification. |
 | `CC-G5.39`      | **Registry grounding, edition, and grouping boundary.** Every consumed method-family row **MUST** be addressed by one exact `MethodFamilyRowRef` whose immutable edition resolves its non-empty `MethodRef[]` to exact A.3.1 Methods; every consumed generator-family row **MUST** use one exact `GeneratorFamilyRowRef` and resolve non-empty exact generator refs under their subject patterns. Each row edition cites the independently established classification, membership relation, or explicit project-local grouping criterion used by this selector. A row, id, label, description, family card, eligibility or maturity record, policy, evidence pin, shortlist, or publication **MUST NOT** create a member or membership fact. Missing grounding or an unresolved row edition blocks that row's family use. |
 | `CC-G5.40`      | **Composition and selected-structure boundary.** A composition shape **MUST** remain a template unless one already identified A.3.1 Method separately passes B.1.5's complete composite-method qualification. An organization that does not constitute one Method **MUST** be consumed as an A.22 `U.Structure` only after all four A.22 identity discriminators are present. A template, A.3.2 description, registry row, selector outcome, diagram, label, or notation **MUST NOT** create either governed object or its underlying relations. |
-| `CC-G5.41`      | **Declaration, actuality, performer, result and publication boundary.** A registry, selector, policy, template, shortlist, DRR, SCR, telemetry or publication-content declaration **MUST NOT** be treated as an A.13 performer core, dated Work, F.6 attribution, actual A.6.1 `Select` application or binding, domain-result truth, C.2.1 result episteme, A.10 evidence-provenance path, B.3 assurance claim, authorization, or E.24.PUB publication occurrence. Every claimed precise performer **MUST** first have the A.13 core; A.15.1 **MUST** admit the Work independently; F.6 enters only for a current exact assignment-bound attribution through the same obtaining assignment. Every other claimed actual object or relation **MUST** be recovered under its subject pattern; missing actuality blocks only that stronger claim. |
+| `CC-G5.41`      | **Declaration, actuality, performer, result and publication boundary.** A registry, selector, policy, template, shortlist, DRR, SCR, telemetry or publication-content declaration **MUST NOT** be treated as an A.13 performer core, dated Work, F.6 attribution, actual A.6.1 `Select` application or binding, domain-result truth, C.2.1 result episteme, A.10 evidence-provenance path, B.3 assurance claim, authorization, or E.24.PUB publication occurrence. Every claimed precise performer **MUST** first have the A.13 core; when dated Work is asserted or required, A.15.1 **MUST** admit it independently; F.6 enters only for a current exact assignment-bound attribution through the same obtaining assignment. Every other claimed actual object or relation **MUST** be recovered under its subject pattern; missing actuality blocks only that stronger claim. |
 | `CC-G5.42`      | **Crossing completeness.** A selector use that relates expressions with distinct source-local meanings **MUST NOT** proceed from Bridge, CL, loss, registry, policy, `CrossingAllowance`, `GateCrossing`, `CrossingBundle`, DRR, or SCR pins alone. It requires exact F.17 endpoint senses, an obtaining F.9 Bridge, a separate C.2.1 bounded-use proposition, and the matching A.10 reliance disposition or B.3 assurance branch; authorization and the actual selector application remain separate. |
-| `CC-G5.43`      | **Ordinary-use proportionality.** A bounded selector run over already grounded rows **MUST** be usable from the exact task, immutable row-edition refs, members of the input candidate rows resolved under the applicable method- or generator-family rules, grouping bases, declared eligibility or comparison basis, truthful outcome, result members, ordering status, basis refs and next use. It **MUST NOT** demand a fresh registry build, crossing branch, A.10 reliance claim, B.3 assurance claim, stable public identity, or E.24.PUB occurrence unless that stronger object or claim is current. The dated selector Work required by S3 remains independently admitted; upstream mathematical comparisons need their actual application bindings, with separate comparison Work only when asserted. Missing conditional apparatus blocks only the stronger claim. |
+| `CC-G5.43`      | **Ordinary-use proportionality.** A bounded selector run over already grounded rows **MUST** be usable from the exact task, immutable row-edition refs, members of the input candidate rows resolved under the applicable method- or generator-family rules, grouping bases, declared eligibility or comparison basis, truthful outcome, result members, ordering status, basis refs and next use. It **MUST NOT** demand a fresh registry build, crossing branch, A.10 reliance claim, B.3 assurance claim, stable public identity, or E.24.PUB occurrence unless that stronger object or claim is current. An actual selector use and its upstream mathematical comparisons retain their actual application bindings; dated selection or comparison Work is independently admitted when that Work is asserted or consumed. Missing conditional apparatus blocks only the stronger claim. |
 | `CC-G5.44`      | **Joint-use membership integrity.** A declared selector-result record with `SetResultFamily = JointUseSet` **MUST** name one bounded use, set `ordering = unordered`, and use keyed `memberEntries` with each exact `memberRef` present at most once. Entry order has no semantic effect; the result **MUST NOT** add an undefined per-member contribution or basis field; and any top-level `members` **MUST** be only the unique set projection of the entry keys, never an independently maintained list. Exact supporting content or claims remain in their own records and may be cited only among sufficient top-level `basisPins`. |
 | `CC-G5.45`      | **Joint-use ontic and actuality boundary.** A declared selector-result record with `SetResultFamily = JointUseSet` is well formed only if every exact framework-edition or other non-Method `memberRef` resolves under its existing identity and the record adds no `MethodRef` value or registry row merely for membership. Candidate-pool and excluded-candidate records, direct member relations, local choice, actual selection Work, publication availability, and access remain separate. |
 | `CC-G5.46`      | **Operation-path integrity.** A `JointUseSet` over non-Method members **MUST** be emitted through `G.5-6 DeclareSetResult` from exact already identified `memberRef` values and a current inclusion basis; it **MUST NOT** use `RegisterFamily` or `G.5-3 Select`. `DeclareSetResult` **MUST NOT** be treated as the upstream choice, an actual `Select` application, dated Work, persisted result episteme, or E.24.PUB availability occurrence. |
@@ -129870,14 +129892,14 @@ Reopen when new evidence changes eligibility, a comparator supplies or defeats a
 
 * Specification refs required by this result: `A.19.CN (CN‑Spec)`, `G.0 (CG‑Spec)`. Use `A.2.6` only when a `U.ClaimScope` or selected `U.ContextSlice` changes selection, applicability, or a receiver's justified reliance; validity and evaluation windows and intended-use restrictions follow the same conditional boundary.
 * Method identity and family grouping: `A.3.1` for every exact selectable `U.Method`; `A.3.2` only for the same C.2.1 episteme that substantively describes one already admitted Method; and C.2.1 or the defining declaration or pattern for the family relation cited by a registry row. G.5 creates none of those source facts.
-* Method composition and selected organization: `B.1.5` for the complete composite-Method qualification, `A.22` for an independently selected organization that does not constitute one Method, and `C.29` for algebraic, graph, matrix, embedding, neural, or other representation-lens use. G.5 consumes exact resulting references and does not construct them.
+* Method composition and selected organization: `B.1.5` for the complete composite-Method qualification, `A.22` for an independently selected organization that does not constitute one Method, and `C.29` when the current use needs an unresolved mathematical representation or transfer contribution under §4.2 and the mathematical-lens route below. G.5 consumes exact resulting references and does not construct them.
 
 
 * Upstream object sets: `G.1 (CG‑Frame Card)`, `G.2 (SoTA Pack)`, `G.3 (CHR Pack)`, and `G.4 (CAL Pack)`. C.22 alone constitutes the TaskSignature. When G.4 CAL gates are current, G.5 additionally consumes the exact `TaskMapRef` that relates that same `TaskSignatureRef` to one exact charter and the cited CAL declarations; otherwise the map is absent.
 * Evidence and crossings: `G.6` for EvidenceGraph citations; `F.17` for exact local senses; `F.9` for the direct Bridge; C.2.1 for the separate bounded-use proposition; and `A.10` or `B.3` for reliance or assurance. Add a `CrossingBundle` under `E.18` or a GateCheck under `A.21` only when that named downstream use requires one. A G.7 calibration artifact remains a cited policy or evidence input; it does not define the Bridge, bounded use, reliance, or selector actuality.
 
 * Planning and enactment boundary: `A.15.2` identifies the `U.WorkPlan` used as `plannedBaselineRef`; A.15.3 defines any planned-filling rows kept inside that WorkPlan. G.5 does not redefine them.
-* Actual selector use and result availability: `A.19.SelectorMechanism` and A.6.1 for the actual `Select` application and bindings; A.13 for every precise performer's local-kind criterion, classification, same obtaining assignment, scope, situation, window, and evidence; A.15.1 for independent Work admission; A.2.1 for the assignment species and occurrence; and F.6 only for a current exact assignment-bound attribution. When asserted by the account or consumed by its receiving use, A.2.4 governs evidence use, A.10 governs reliance and provenance, G.11 governs currentness, C.2.1 governs a persisted result episteme, B.3 governs assurance, the direct authority pattern governs authorization, and E.24.PUB governs publication. Upstream CPM applications retain their local bindings without requiring separately admitted comparison Work unless that Work is asserted. A root-family assignment reference, temporal overlap, or omission from short wording supplies no attribution and removes no world-side fact. G.5 declarations and records create none of those neighboring facts.
+* Actual selector use and result availability: `A.19.SelectorMechanism` and A.6.1 for the actual `Select` application and bindings; when dated selection Work is asserted or required, A.13 for each precise performer's local-kind criterion, classification, same obtaining assignment, scope, situation, window, and evidence; A.15.1 for that independent Work admission; A.2.1 for the assignment species and occurrence; and F.6 only for a current exact assignment-bound attribution. When asserted by the account or consumed by its receiving use, A.2.4 governs evidence use, A.10 governs reliance and provenance, G.11 governs currentness, C.2.1 governs a persisted result episteme, B.3 governs assurance, the direct authority pattern governs authorization, and E.24.PUB governs publication. Upstream CPM applications retain their local bindings without requiring separately admitted comparison Work unless that Work is asserted. A root-family assignment reference, temporal overlap, or omission from short wording supplies no attribution and removes no world-side fact. G.5 declarations and records create none of those neighboring facts.
 * Joint-use members outside Method dispatch: the direct identity pattern identifies every `memberRef`; `C.11` supplies a local choice result when one is current; another accepted decision or governed inclusion basis may establish all-member inclusion; E.4.PFR states framework-edition dependency or pairwise compatibility separately; `G.11` supplies currentness; and E.17/E.24.PUB plus the applicable access-carrier pattern supply exposure and source return. `G.5-6 DeclareSetResult` consumes the exact members and sufficient basis pins and emits only the selector-facing membership result.
 
 * Causal-use method dispatch: `C.28` when method selection involves causal effect, counterfactual comparison, causal fairness, causal policy, causal RL, or simulation-only causal-use claims.
@@ -130200,7 +130222,7 @@ The ledger is likewise an index over established provenance, not a result store 
 
 ### G.6:11 - SoTA-Echoing
 
-The source-use decisions below are based on the publishers' source versions current on 2026-07-30. These decisions remain qualified through 2027-07-30 unless a new Recommendation, specification edition, maintenance status, or replacement changes the adopted contract earlier.
+The table records the contributions adopted from the cited source editions. Reopen an affected source-use decision when a new specification, Recommendation, maintenance change or replacement alters a relied-on identity, provenance, validation or use condition; follow the dependent-use return in :4.5.
 
 | Exact source and source-use decision | G.6 use | Rejected overread | Direct source-change entry |
 | --- | --- | --- | --- |
@@ -130360,7 +130382,7 @@ For a stated F.9 correspondence, optional CL shorthand means: `0` contradicted, 
 
 **Evidence honesty.** Preserve actual counterexamples and losses. Level 2 needs its cited bounded-support counterexample; level 0 identifies the contradiction. Weak or incomplete evidence must be disclosed rather than dressed as a discovered counterexample. At level 3, when none is cited, supply a citable search/absence account stating what was examined and that none was found or is currently known. This reports the search basis, not universal absence. A loss-noted row cannot be presented as free substitution.
 
-**Receiving use.** For an F.9 use, state the separate claim with its use, direction, correspondence rule, loss tolerance and polarity; obtain matching A.10 reliance, or the B.3 result when an actual named assurance claim is current. A C.3.3 use separately checks receiving admissibility and target classification. Missing classification evidence remains unknown. Authorization, when required, follows its own rule. No CL level supplies these results.
+**Receiving use.** For an F.9 use, state the separate claim with its use, direction, correspondence rule, loss tolerance and polarity. Recover the A.10 evidence-provenance path and direct-relation basis for that same bounded use. Apply the ordinary `RelianceDisposition` or, for an actual named assurance claim, the matching B.3 `AssuranceResult` under F.9:4.2, retaining the supported use, narrowing or stop that the applicable result warrants. A C.3.3 use separately checks receiving admissibility and target classification. Missing classification evidence remains unknown. Authorization, when required, follows its own rule. No CL level supplies these results.
 
 A receiving policy may impose an additional threshold for one named use. Cite that use, the policy's justification and authority, and its other necessary premises. The threshold is an additional policy condition, not F.9's general law. A `WaiverRef` identifies an authorized exception to that policy only: it supplies no missing correspondence, target fact, suitable-use claim or evidence. Preserve any narrower allowed use and its independently supported conditions.
 
@@ -130532,17 +130554,15 @@ In C.3.3 §9.3's AdultPatient/AdultPerson_Y case, the age-boundary loss and `CL^
 * **RSCRTriggerKindIds:** `{RSCRTriggerKindId.PolicyPinChange, RSCRTriggerKindId.BaselineBindingEdit, RSCRTriggerKindId.LegalitySurfaceEdit}`
 * **Notes (wiring‑only):** When bridges are used as selector gates, thresholds and unknown-handling remain governed by Acceptance; this module only pins the linkage and refresh relevance.
 
-**GPatternExtension: AdvancedCalibrationProcedures (Phase‑3 seed)**
+**GPatternExtension: AdvancedCalibrationProcedures**
 
 * **PatternScopeId:** `G.7:Ext.AdvancedCalibrationProcedures`
 * **GPatternExtensionId:** `AdvancedCalibrationProcedures`
-* **GPatternExtensionKind:** `Phase3Seed`
-* **GoverningPatternId:** `governing pattern not yet selected`
-* **Uses:** `{ }`
-* **⊑/⊑⁺:** `∅`
-* **RequiredPins/EditionPins/PolicyPins:** `pending governing-pattern selection`
+* **GPatternExtensionKind:** `MethodSpecific`
+* **GoverningPatternId:** `G.7` (calibration-result interface)
+* **RequiredPins/EditionPins/PolicyPins:** the selected domain calibration method and edition, its required inputs, and any policy used in the returned calibration.
 * **RSCRTriggerKindIds:** `{RSCRTriggerKindId.CrossingBundleEdit, RSCRTriggerKindId.PenaltyPolicyEdit, RSCRTriggerKindId.ReferencePlaneEdit}`
-* **Notes (seed; non‑normative):** Placeholder for domain‑specific / statistical calibration families beyond the minimal auditable procedure (e.g., uncertainty‑aware calibration, probabilistic mapping). No Part‑G‑wide norms are introduced.
+* **Use.** When the minimal procedure cannot establish the calibration needed by the receiving question, select a domain procedure that supplies that inference, such as an uncertainty estimate under its stated model. Apply its prerequisites and retain the returned limitations. If no such procedure or required input is available, the needed calibration remains unestablished.
 
 ### G.7:5 - Archetypal Grounding (System / Episteme)
 
@@ -130828,16 +130848,16 @@ SoS-LOGBundle@Context :=
 * **B1 — Evidence wiring.** At packaging time the bundle SHOULD provide resolvable evidence refs (typically `A10EvidenceGraphRef?[]` and/or `EvidenceGraphId?`). At run time, admissibility outcomes SHOULD cite `PathId/PathSliceId` when available (`G.6`), so rung transitions and `degrade/abstain` traces are audit‑stable.
 * **B2 — CL/plane routing pins.** When reuse depends on a sense, kind or plane correspondence, the bundle/ledger MUST cite its obtaining relation and receiving-use grounds under G.Core:4.2.3. An F.9 use keeps its separate bounded-use claim and reliance basis through `G.8:Ext.BridgeReuseWiring`; kind and plane uses retain their direct governing conditions. The bundle/ledger MUST pin the Bridge/CL/Φ/Ψ/Φ_plane references actually required by that use (reference-only; policy ids resolvable per `F.8:8.1`). CL and loss-policy pins are mandatory only when required by the actual calibration or separate named assurance account. Any numerical assurance penalty MUST satisfy `CC‑GCORE‑PEN‑1`, including its model applicability and declared-result conditions.
 * **B3 — Retention policy and QD fields.** Record `PortfolioMode` and dominance inputs under CC-G8-5 and their G.5 definitions. When the bundle or ledger actually binds a QD or QD-using generator branch, pin the descriptor, distance, insertion and emitter definitions required for that use under CC-G8-6. `PortfolioMode=Archive` alone preserves evidence and requires no QD definitions. Any illumination telemetry remains report-only unless a `G.4` governing-pattern policy authorises its dominance contribution and that policy id is recorded in the run-time trace.
-* **B4 — Open‑ended fields.** If the bundle binds an open‑ended generator family, it MUST pin `GeneratorFamilyRowRef` and `TransferRulesRef.edition` (and any validity region/coupler policy ids when used). Unknown transfer validity MUST be recorded as `degrade`/branching, not as an ad‑hoc fourth status.
+* **B4 — Open-ended fields.** If the bundle binds an open-ended generator family, pin `GeneratorFamilyRowRef`, `TransferRulesRef.edition` and any validity-region/coupler policy ids used. For unknown transfer validity, apply C.23 R0/R2/R3/R7: use a declared `degrade` branch only after its prerequisites pass and its narrower use is permitted; otherwise return `abstain`. Retain the unknown condition and branch basis.
 * **B5 — Telemetry hooks.** On any material telemetry event (illumination increase, archive insertion, probe accounting update, open‑ended coverage/regret proxy update), the emitted telemetry pins SHOULD include the controlling policy ids plus the relevant edition pins (e.g., `DescriptorMapRef.edition`, `DistanceDefRef.edition`, `TransferRulesRef.edition`) and, when available, `PathSliceId` to keep RSCR planning auditable.
 
 #### G.8:4.4 - `AdmissibilityLedger@Context` (run‑time view; selector‑facing)
 
-A conforming ledger is a UTS‑published view (or a view‑projection of a Work/Audit artefact) with rows of the form:
+A conforming ledger is a UTS-published view (or a view-projection of a Work/Audit artefact) of the branch actually reached. Its row positions are:
 
-`⟨ MethodFamilyRowRef, TaskSignatureRef, SoSLogRuleId, RuleEdition, EvidenceProfileRef, ClaimScope, QualificationWindow, IntendedAdmissionUse, EligibilityVerdict, CGSpecVerdict, AcceptanceVerdictRefs?, PolicyEditionRefs[], GuardDecision ∈ {pass|degrade|abstain}, DegradeMode?/SoSLogBranchId[]?, MaturityRungId?, AcceptanceClauseId[]?, EvidencePathRefs?, CrossingPins?, PortfolioMode?, DominanceRegime?, Edition ⟩`
+`⟨ MethodFamilyRowRef, TaskSignatureRef, SoSLogRuleId, RuleEdition, EvidenceProfileRef?, ClaimScope?, QualificationWindow?, IntendedAdmissionUse, EligibilityVerdict?, CGSpecVerdict?, AcceptanceVerdictRefs?, PolicyEditionRefs[], GuardDecision ∈ {pass|degrade|abstain}, DegradeMode?/SoSLogBranchId[]?, MaturityRungId?, AcceptanceClauseId[]?, EvidencePathRefs?, CrossingPins?, PortfolioMode?, DominanceRegime?, Edition ⟩`
 
-The bundle, maturity card, and ledger bind one exact G.5 `MethodFamilyRowRef = <MethodFamilyId, rowEdition>`; an open-ended generator use also binds `GeneratorFamilyRowRef = <GeneratorFamilyId, rowEdition>`. Their own publication `Edition` does not replace either registry-row edition. Preserve the rule edition and the C.23 admission basis: evidence profile, claim scope, qualification window, intended use, consulted verdicts, and policy editions. An unresolved required reference blocks only the result that depends on it; never resolve an old result against the current row by default.
+The bundle, maturity card and ledger bind one exact G.5 `MethodFamilyRowRef = <MethodFamilyId, rowEdition>`; an open-ended generator use also binds `GeneratorFamilyRowRef = <GeneratorFamilyId, rowEdition>`. Their publication `Edition` does not replace a registry-row edition. Retain every premise established or validly reused for the branch, with its applicable evidence profile, claim scope, qualification window, intended use and policy editions. Follow C.23:4.2.1 when a required reference is unavailable or evaluation stops early: name the missing basis or the judgement not reached, and leave its dependent result unestablished. An applicable earlier result remains a reused result. These report qualifications do not add a guard status or maturity rung; `pass` still requires the complete admission basis, and `degrade` requires the permitted branch and its prerequisites.
 
 Where `EvidencePathRefs` are typically `PathId[]/PathSliceId[]` when `G.6` is in use (or resolvable), and “CrossingPins” retain the actual correspondence and receiving-use grounds under G.Core:4.2.3, including the F.9 bounded-use claim, reliance basis and applicable Bridge/CL/Φ pins when `G.8:Ext.BridgeReuseWiring` is used.
 
@@ -130986,7 +131006,7 @@ A CG‑Frame carries multiple offline/robust decision families (for example, con
 A method family uses a QD archive, for example one driven by CMA-ES or a differentiable QD method. The bundle pins `DescriptorMapRef.edition` and `DistanceDefRef.edition`, plus insertion/emitter policies. Illumination metrics are logged as telemetry; any promotion into dominance is only via explicit CAL policy pins (recorded in the admissibility trace).
 
 **Show-C — Open-ended environment–method co-evolution.**
-A generator family operates in an open‑ended setting (e.g., POET‑style and PAIRED‑style regimes). The bundle carries `TransferRulesRef.edition` and validity region pins; unknown transfer validity triggers a `degrade` branch rather than an ad‑hoc fourth status. Telemetry (coverage/regret proxies) is emitted for refresh planning, not silently turned into dominance.
+A generator family operates in an open-ended setting (e.g., POET-style or PAIRED-style regimes). The bundle carries `TransferRulesRef.edition` and validity-region pins. If transfer validity is unknown, a declared narrower-use branch may return `degrade` after C.23’s prerequisites pass; without that permitted branch, the result is `abstain`. A missing evidence profile at R0 is reported as the missing prerequisite, with later Acceptance not reached, rather than filled with `false`. Retain an applicable maturity result when it was validly reused. Coverage/regret telemetry remains report-only unless its governing policy promotes it into dominance.
 
 ### G.8:7 - Bias‑Annotation
 
@@ -131089,7 +131109,7 @@ The kit connects decision rules, acceptance thresholds, provenance and set-value
 * [ ] Every actual sense, kind or plane correspondence retains its relation and receiving-use grounds under G.Core:4.2.3. For F.9 reuse, `G.8:Ext.BridgeReuseWiring` keeps the Bridge, separate bounded-use claim and reliance basis citable. `CL/CL^k/CL^plane` and `Φ/Ψ/Φ_plane` ids and editions are pinned when the calibration or named assurance account requires them; policy ids resolve under `F.8:8.1`.
 * [ ] `PortfolioMode` and dominance defaults are not restated: cite each default's governing definition through `G.Core.DefaultGoverningDefinitionIndex` (governing definitions live outside `G.8`, typically `G.5`).
 * [ ] When the bundle binds an actual QD use, its required descriptor, distance, insertion and emitter definitions are edition/policy pinned (`DescriptorMapRef.edition`, `DistanceDefRef.edition`, insertion/emitter policies); the exact space and its separate description-episteme reference are pinned iff cell boundaries/de-dup/parity depend on the space definition; **Spaces ≠ Maps**. `PortfolioMode=Archive` alone does not activate these QD fields.
-* [ ] If open‑ended surfaces are declared, pin `GeneratorFamilyRowRef`, `TransferRulesRef.edition`, and any validity/coupler policy ids; unknown transfer validity is recorded as `degrade`/branching (no “fourth status”).
+* [ ] If open-ended surfaces are declared, pin `GeneratorFamilyRowRef`, `TransferRulesRef.edition` and any validity/coupler policies. Handle unknown transfer under the declared C.23 branch: permitted `degrade` after its prerequisites pass, otherwise `abstain`; report unavailable basis and unperformed judgements under C.23:4.2.1.
 * [ ] `MaturityRungs` is a closed, UTS‑registered set; the maturity ladder is ordinal/poset with a declared `ReferencePlane`; rung transitions cite evidence.
 * [ ] RSCR triggers are emitted as canonical `RSCRTriggerKindId` values (no prose-only “reasons”).
 * [ ] Notation independence (`E.5.2`) and twin‑register discipline (`E.10`) are respected for all published heads/ids.
@@ -132284,7 +132304,7 @@ When a shipped result consumes C.28, inspect the following changes when they can
 | Sentinel | Affected result | Refresh pins |
 | --- | --- | --- |
 | sampling-realizability shift | `CounterfactualSamplingRealizabilityResult` | target distribution, decision Method and any derivation, physical, ethical, operational, and history constraints, required sampling construction or obstruction, unresolved questions, status, supported use, and unsupported use |
-| performed sampling or resulting-data shift | dated sampling Work plus A.10 evidence path and empirical data regime | WorkPlan when used; actual performer identified through A.13; dated Work independently admitted through A.15.1; Method and window; resulting sample or data; provenance and currentness. Add F.6 with the same A.13 assignment only if the refresh decision needs to say exactly under which assignment the Work was performed. F.6 identifies neither performer nor assignment; a missing or failed attribution leaves the Work intact. A realizability result cannot substitute. |
+| performed sampling or resulting-data shift | dated sampling Work plus A.10 evidence path and empirical data regime | WorkPlan when used; actual performer identified through A.13; dated Work independently admitted through A.15.1; Method and window; resulting sample or data; provenance and currentness. Add F.6 with the same A.13 assignment only if the refresh decision needs to say exactly under which assignment the Work was performed. F.6 identifies neither performer nor assignment; a missing or failed attribution alone leaves independently admitted Work intact; if the finding invalidates a consumed A.13 or A.15.1 premise, recheck that premise and its dependent conclusions. A realizability result cannot substitute. |
 | identification or bound shift | `CausalIdentificationResult` | data-regime refs, assumptions, identifying derivation, bound or failure witness, sensitivity |
 | estimate shift | `CausalEstimateResult` | identification or design basis, data, estimator Method, diagnostics, uncertainty, sensitivity, and any live estimation-consistency result |
 | target-trial practice shift | protocol and mapping results | question/estimand, protocol-to-data mapping, assumptions, estimate/precision, sensitivity and reporting source edition |
@@ -132595,7 +132615,7 @@ The minimal durable series basis is `DHCSeriesRef.edition`, `DisciplineRef`, `In
 | `DHCCoordinateResultRef` | Ref to one persisted C.21/C.16 coordinate-result episteme and its active C.21 replay basis. | It is not a row, series, evidence path, or acceptance decision. |
 | `DHCSeries` | One C.2.1 episteme whose EntityOfConcern is the discipline and whose ClaimGraph orders coordinate-result refs by explicit windows under one intended use, ClaimScope, and comparison basis. | It is not a public U-kind, publication occurrence, dashboard, carrier, or Work. |
 | `DHCRow` | One representation element showing an exact coordinate-result ref and selected readable fields. | It does not compute, establish, or replace the result. |
-| `DashboardSlice` | A dashboard representation or grouping over exact row, result, or series refs; use C.29 when a mathematical correspondence is claimed. | It adds no comparison, normalization, acceptance, or selection semantics. |
+| `DashboardSlice` | A dashboard representation or grouping over exact row, result, or series refs; use C.29 when an unresolved mathematical representation or transfer question matters to the dashboard use. | It adds no comparison, normalization, acceptance, or selection semantics. |
 | `DHCTelemetryPin` | A G.11-facing refresh payload with a canonical trigger, exact affected scope, and changed definition, window, evidence, or policy pins. | It is not evidence, currentness, an edition relation, or refresh Work. |
 | dashboard publication | An E.24.PUB occurrence for one exact selected episteme edition expressed by the dashboard form, with its audience, bounded use, carrier, and availability interval. The selected edition may be a series, a coordinate result, or a view independently constituted as a C.2.1 episteme. | A view element, UTS row, rendering, upload, or release label does not supply episteme identity or make publication obtain. |
 
@@ -132694,7 +132714,7 @@ DashboardSlice := <
 * `PatternScopeId`: `G.12:Ext.QDTelemetry`
 * `GPatternExtensionKind`: `MethodSpecific`
 * `GoverningPatternId`: `C.18`
-* Conditional pins: `DescriptorMapRef.edition`, `DistanceDefRef.edition`, `CharacteristicSpaceSpecRef.edition?`, `InsertionPolicyRef`, `EmitterPolicyRef?`, `ArchiveSnapshotRef?`, and `PathSliceId[]` when refresh uses them.
+* Conditional pins: `DescriptorMapRef.edition`, `DistanceDefRef.edition`, `CharacteristicSpaceRef` for the selected space and separate `characteristicSpaceDescriptionRef: U.EpistemeRef` when an exact description is consumed (resolve the pair under A.19:5.1.1.1), `InsertionPolicyRef`, `EmitterPolicyRef?`, `ArchiveSnapshotRef?`, and `PathSliceId[]` when refresh uses them.
 * Illumination and coverage stay telemetry unless a separate accepted policy promotes them into the comparator, dominance set, or selected-set criteria under C.18's trade-off and authority conditions.
 
 
@@ -132732,10 +132752,10 @@ DashboardSlice := <
 
 
 
-##### G.12:4.9.7 - `G.12:Ext.ViewFamilySeed` — advanced view seed
+##### G.12:4.9.7 - `G.12:Ext.ViewFamilySeed` — specialized views
 
 
-This non-normative seed reserves no semantics. An embedding, prediction, change-point, or drift panel needs its own selected governor, inputs, limitations, and policy before it can affect a claim or decision.
+An embedding, prediction, change-point, or drift panel needs its selected method, inputs, limitations, and policy before it can affect a claim or decision.
 
 ### G.12:5 — Interfaces
 
@@ -132803,7 +132823,7 @@ G.12 counters screen-first, “latest”-by-default, scalar-winner, and publicat
 
 **Use this when.** A SoTA author or downstream consumer needs repeatable mappings from an external scholarly source into FPF inputs, with the source snapshot, transformation and receiving use recoverable. Start by naming that source and the input needed by the receiving operation. A sufficient direct source citation needs no interop kit.
 
-Select and justify the mapping procedure separately; this kit records its inputs, outputs and revisions. The provider, embedding and entity-resolution blocks below remain seeds until their governing procedures are selected.
+Use :4.3 to establish the mapping from source meanings and actual records, then publish its inputs, outputs, conditions and revisions. Provider-specific ingestion, embedding and entity-resolution methods retain their own grounds; the extensions below identify their required wiring.
 
 
 **Status.** Stable
@@ -132826,7 +132846,7 @@ External sources publish **claim‑adjacent signals** (citations, concept graphs
 * **CN/CG spec-ref leakage.** External numeric signals get treated as if they were lawful “scores” without explicit binding to CHR/CAL/CG surfaces.
 * **Implicit crossings.** An opaque transformation hides the actual correspondence, its receiving-use grounds or the bundle anchors required by a real flow crossing or gate.
 * **Edition drift + refresh brittleness.** Snapshots change, schemas drift, indicator definitions get revised; without edition‑pinned interop surfaces and typed trigger causes, parity and dashboard stability degrade.
-* **Evidence disconnect.** “Derived features” are produced without explicit EvidenceGraph anchoring, making later refutation/repair expensive.
+* **Evidence disconnect.** A derived feature without recoverable source and transformation grounds cannot be checked or repaired in the receiving use.
 * **Format‑as‑norm.** A convenient serialisation (KG export, JSON schema, RO‑Crate, etc.) becomes treated as the specification, undermining notation independence.
 
 ### G.13:3 - Forces
@@ -132917,7 +132937,7 @@ All objects below are **conceptual**. Any concrete serialisation belongs to Anne
   `⟨ ScaleEmbeddingSpecId, IntendedUse, AllowedTransformFamily, RequiredPins{NormalizationMethodRef.edition?}, ProhibitedCoercions ⟩`
 
   **Design intent.** Make any representation alignment *explicitly constrained* and edition‑pinned, instead of silently “creating a new scale”.
-  **LEX/UTS note (informative).** `ScaleEmbeddingSpec` is a LEX head; when a public id is minted for a `ScaleEmbeddingSpec`, the corresponding UTS row must be published with twin labels (see `G.Core` / UTS profile).
+  **LEX/UTS note (informative).** `ScaleEmbeddingSpec` is a LEX head; when a public id is minted for a `ScaleEmbeddingSpec`, the corresponding UTS row must be published under F.17 with the Tech designation and any Plain designation needed for a stated didactic use.
 
 * **`IndexTelemetryPin`** — an emitted refresh input that makes interop changes RSCR‑visible.
 
@@ -132935,9 +132955,25 @@ All objects below are **conceptual**. Any concrete serialisation belongs to Anne
 
 #### G.13:4.3 - Use external sources to construct the needed input
 
+Start with the input required by the receiving method and actual records from the external source. Reuse an adequate mapping recipe. To construct or revise one, establish the transformation and its limits before publishing its card and routing its outputs.
+
+##### G.13:4.3.1 - Construct and check the mapping
+
+1. **Recover the required output meaning.** Read the receiving operation’s input definition and conditions. For a G.2 ClaimSheet, this includes the claim, its subject, scope and source support; for a CHR feature, the subject, characteristic, scale, units and observation basis come from G.3/C.16. For a Bridge hint, preserve the two local meanings and the proposed relation for F.9 to examine. Select only the outputs needed by the receiving question.
+2. **Recover what the available source fields denote.** Inspect actual records together with the provider’s definitions for that edition: the counted or described object, population, inclusion rules, units, dates/windows, missing-value conventions and identifiers. Follow a record’s citation to the underlying source when its metadata does not contain the claim or conditions needed. A field name is a locator; its definition and examples establish what a value represents. If the definition is unavailable, ask the provider or obtain the specified source passage before using the ambiguous field for that output.
+3. **Connect each required output to its basis.** Select the exact source passage or field that supplies it, or define the operation that derives it. Direct copying requires compatible meanings. A count requires the population, inclusion predicate and identity/equivalence rule; a unit conversion requires a lawful scale conversion; a claim extraction retains the source’s subject, conditions and contrary evidence under G.2. For a semantic correspondence use F.9’s relation construction and its separate receiving-use test. For a measurement use C.16’s measurement model and G.3’s lawful operations. Where the needed transformation is not supplied by those methods or by an available domain method, identify the unsupplied transformation and the source or competent supplier needed to construct it.
+4. **Apply the recipe to real records.** Work through at least one representative record to the required result and inspect a consequential variation, such as a duplicate identifier, an absent value, a changed time window or a different population definition. Choose the variation from the recipe’s actual assumptions. Retain the source value and derivation sufficiently for the receiving use to check them. Missing or ambiguous values remain missing or ambiguous; they become zero, false or a negative claim only when the source meaning and derivation establish that result.
+5. **Return the obtained input or its exact gap.** A mapped result carries its source edition, applicable scope and transformation basis. A failed compatibility condition supports rejection of that mapping. An unresolved field definition, relation, measurement procedure or source claim prevents only the outputs that depend on it. Identify what source, observation or method construction could settle the gap and what can already be used. When the receiving contract requires a complete bundle, retain that unmet condition rather than treating a partial mapping as the bundle.
+
+**Worked mapping.** Suppose a review needs the number of distinct research articles in a named collection published during 2025, and source-grounded ClaimSheets about their methods. The available index supplies records with `work_id`, `year`, `record_type`, a citation and an abstract. In this illustrative provider contract, `year` means first publication year, `work_id` identifies a work across duplicate records, and `record_type = research_article` is the relevant inclusion class. The recipe filters the stated collection by year and class, groups qualifying records by `work_id`, and counts those groups. Three qualifying records with ids `w1, w1, w2` yield two works. The result retains that population and counting basis; use as a DHC measurement additionally establishes the C.16 result and C.21 replay basis.
+
+For the ClaimSheets, the citation leads to the article text. The reviewer extracts the method claim with its tested population and conditions under G.2; an abstract that omits those conditions leaves an extraction gap to settle from the article. The count and metadata alone supply no performance claim. If the provider instead defines `work_id` as a record identifier, the same three values no longer establish two distinct works: obtain an identity rule or source-level matching method before returning the work count. If `year` means index ingestion year, the recipe must obtain publication dates to answer the original question. Changing the receiving question to the number of index records ingested in 2025 can make those fields sufficient for that different result.
+
+##### G.13:4.3.2 - Publish and use the established recipe
+
 1. **Register source editions.** Author `ExternalIndexCard@Context` for each external source snapshot mapped through this kit, including `ExternalEdition` and the `entityOfConcern` plane anchor.
-2. **Author mapping recipes.** Create `ClaimMapperCard@Context` describing which FPF artefacts are produced (ClaimSheets, BridgeHints, feature sets, UTS proposals), and which policies/specs constrain the mapping (policy refs + optional `PlaneMapRef` / `ScaleEmbeddingSpecRef`).
-3. **Produce FPF-native inputs.** Route the mapping outputs to the receiving operation that needs them, for example:
+2. **Author mapping recipes.** Create `ClaimMapperCard@Context` for the established transformation and its limits, identifying the produced artefacts and applicable policy/spec references. Include `PlaneMapRef` or `ScaleEmbeddingSpecRef` when the transformation uses them.
+3. **Produce FPF-native inputs.** Apply the recipe and route its obtained outputs to the receiving operation, for example:
 
    * `G.2` harvesting (ClaimSheets / operator & object inventories / candidate bridge hints),
    * `G.3` CHR typing (when numeric signals are formalized as CHR characteristics/scales/coordinates),
@@ -132970,12 +133006,12 @@ All objects below are **conceptual**. Any concrete serialisation belongs to Anne
 
 `G.13` keeps provider/method specifics out of the kit core. Any such specificity appears as `GPatternExtension` blocks with stable **PatternScopeId**s. These modules are **wiring‑only**: they bind pins/editions/policies and cite the governing pattern rather than redefining semantics.
 
-#### G.13:5.1 - `G.13:Ext.ExternalIndexProviderWiring` *(Phase‑3 seed)*
+#### G.13:5.1 - `G.13:Ext.ExternalIndexProviderWiring`
 
 **PatternScopeId:** `G.13:Ext.ExternalIndexProviderWiring`
 **GPatternExtensionId:** `ExternalIndexProviderWiring`
-**GPatternExtensionKind:** `Phase3Seed`
-**GoverningPatternId:** `governing pattern not yet selected` *(Annex/Interop or a future dedicated interop-governing pattern)*
+**GPatternExtensionKind:** `InteropSpecific`
+**GoverningPatternId:** `G.13` (source registration and refresh wiring)
 **Uses:** `{G.13}`
 **⊑/⊑⁺:** `∅`
 **RequiredPins/EditionPins/PolicyPins (minimum):**
@@ -132987,16 +133023,16 @@ All objects below are **conceptual**. Any concrete serialisation belongs to Anne
 * `ProviderChangePolicyId?` *(if provider‑specific “schema drift” handling exists)*
 
 **RSCRTriggerSetIds / RSCRTriggerKindIds:** `∅` *(covered by `G.13:4.1`)*
-**Notes (seed; wiring‑only):**
+**Notes (wiring-only):**
 
 * Provider‑specific ingestion choices (e.g., OpenAlex‑class, Crossref‑class, ORKG‑class, discipline repositories) **must not** become Part-G-wide norms. This module only records which provider cards exist and which editions/policies are pinned.
 
-#### G.13:5.2 - `G.13:Ext.EmbeddingBasedAlignment` *(Phase‑3 seed; method‑specific wiring stub)*
+#### G.13:5.2 - `G.13:Ext.EmbeddingBasedAlignment`
 
 **PatternScopeId:** `G.13:Ext.EmbeddingBasedAlignment`
 **GPatternExtensionId:** `EmbeddingBasedAlignment`
-**GPatternExtensionKind:** `Phase3Seed`
-**GoverningPatternId:** `governing pattern not yet selected` *(Annex/Interop or a future dedicated interop-governing pattern; Phase-3 governing-pattern decision required)*
+**GPatternExtensionKind:** `MethodSpecific`
+**GoverningPatternId:** `G.13` (mapping interface); the selected alignment method governs its transformation and qualification.
 **Uses:** `{G.13, A.19, E.5.2}`
 **⊑/⊑⁺:** `∅`
 **RequiredPins/EditionPins/PolicyPins (minimum):**
@@ -133009,15 +133045,14 @@ All objects below are **conceptual**. Any concrete serialisation belongs to Anne
 **RSCRTriggerSetIds / RSCRTriggerKindIds:** `∅` *(covered by `G.13:4.1`)*
 **Notes (wiring-only):**
 
-* “Embedding‑based” techniques are treated as **declared transforms** constrained by `ScaleEmbeddingSpec` and/or `NormalizationMethod` references, rather than as implicit semantics.
-* The module binds editions and policies; it does not define what is “similar enough”.
+* A selected embedding-based method supplies the transformation and its qualification for the receiving relation. Cite that method and its edition with the applicable `ScaleEmbeddingSpec` and `NormalizationMethod` references.
 
-#### G.13:5.3 - `G.13:Ext.EntityResolutionAndAliasDocking` *(interop‑specific; Phase‑3 seed)*
+#### G.13:5.3 - `G.13:Ext.EntityResolutionAndAliasDocking`
 
 **PatternScopeId:** `G.13:Ext.EntityResolutionAndAliasDocking`
 **GPatternExtensionId:** `EntityResolutionAndAliasDocking`
-**GPatternExtensionKind:** `Phase3Seed`
-**GoverningPatternId:** `governing pattern not yet selected` *(likely UTS-adjacent; requires Phase-3 governing-pattern decision)*
+**GPatternExtensionKind:** `InteropSpecific`
+**GoverningPatternId:** `G.13` (mapping interface), `F.17` (public naming); the selected entity-resolution method governs the identity judgement.
 **Uses:** `{F.17, E.10}`
 **⊑/⊑⁺:** `∅`
 **RequiredPins/EditionPins/PolicyPins (minimum):**
@@ -133027,9 +133062,9 @@ All objects below are **conceptual**. Any concrete serialisation belongs to Anne
 * `TokenizationPolicyId?`
 
 **RSCRTriggerSetIds / RSCRTriggerKindIds:** `∅` *(covered by `G.13:4.1`)*
-**Notes (seed; wiring‑only):**
+**Notes (wiring-only):**
 
-* This module exists to prevent “ID drift by renaming” for externally sourced entities. It is intentionally a Phase‑3 seed until its governing pattern is selected.
+* Establish source-entity identity through the selected resolution method before docking its external identifiers as aliases. Preserve the basis for identifying two records as one entity, or leave that identity unresolved; publishing an alias does not establish it.
 
 ### G.13:6 - Archetypal grounding
 
@@ -133053,7 +133088,7 @@ Register external environment/task taxonomies as index cards. Align them into ge
 
 1. **CC‑G13‑CoreRef.** *(normative)* `G.13` implementations **MUST** satisfy the *effective* `G.Core` obligations declared by `G.13:4.1` (`GCoreLinkageManifest`), including trigger typing, Default Governing Definition Index citation, and crossing‑visibility pin discipline.
 
-2. **CC‑G13‑InteropIsNotASpecRefSurface.** *(delegated)* Interop surfaces **MUST NOT** introduce shadow legality/comparability gates; they cite `CN‑Spec`/`CG‑Spec`/CHR/CAL governing definitions and publish pins instead.
+2. **CC‑G13‑InteropIsNotASpecRefSurface.** *(delegated)* Interop surfaces cite the CN‑Spec/CG‑Spec/CHR/CAL definitions and pins applicable to their actual transformation and receiving use; they do not introduce shadow legality/comparability gates.
    → delegate to `CC‑GCORE‑CN‑CG‑1`.
 
 3. **CC‑G13‑CrossingsAreExplicitWhenInteropTouchesPlanesOrContexts.** *(delegated)* Any cross‑plane/context reuse implied by alignment **MUST** be made explicit through the crossing visibility discipline.
@@ -133110,7 +133145,7 @@ Register external environment/task taxonomies as index cards. Align them into ge
 
 An explicit interop kit lets authors use external scholarly sources while keeping comparisons, editions and transformations visible.
 
-`G.13` provides **conceptual registration, alignment, and telemetry hooks**: cards and surfaces pin editions, cite governing patterns, and expose provenance hooks; telemetry hooks produce typed refresh causes. Domain/tool specifics remain in `Extensions` (or Phase‑3 governing definitions).
+`G.13` connects source meanings and records to receiving inputs through :4.3, then makes the transformation and source editions citable. Its cards and surfaces retain the applicable provenance and refresh inputs. Extensions bind provider or method details used by that transformation.
 
 ### G.13:12 - SoTA-Echoing (informative)
 
@@ -133133,12 +133168,12 @@ An explicit interop kit lets authors use external scholarly sources while keepin
 
 ### G.13:14 - Author’s quick checklist (informative)
 
-1. Register each external source snapshot as an `ExternalIndexCard@Context` with explicit `ExternalEdition`.
+1. Establish the needed input and mapping from source definitions and actual records under :4.3; register each source snapshot with its `ExternalEdition`.
 2. Author a `ClaimMapperCard@Context` with explicit `MappingPolicyRef` and required edition pins.
 3. If you derive SoS features, declare a `SoSFeatureTransform@Context` and cite CHR typing refs and provenance hooks.
 4. Publish an `InteropSurface@Context` that cites all active `…Ref.edition` values and UTS rows.
 5. On any external edition or policy change, emit canonical RSCR trigger causes with explicit scope + payload pins.
-6. Keep provider/tool specifics in `Extensions` (or Phase‑3 seed) and do not let formats redefine semantics.
+6. Keep provider and method conditions with the applicable extension and its cited procedure.
 
 ### G.13:End
 
