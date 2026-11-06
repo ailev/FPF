@@ -429,8 +429,8 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | C.41 | **Select Checklist Questions for a Work Result** | Stable | Work repeatedly misses a consequential distinction. Select a question set from the real subject, Method and result, with coverage sufficient for the intended use and an acceptable interruption and interpretation cost. | A.3.1 and A.3.2 for Method and description; C.41.TF, C.41.OF, C.41.UA, C.41.SR and C.41.QC for form, occasion, use, shared result and criterion quality. |
 | C.41.TF | **Construct a Checklist Template That Preserves Its Questions** | Stable | Shared questions must be presented in a usable checklist form. Construct templates, instances and local views that preserve the meaning and interpretation of the questions. | C.41 for questions; C.37 for representation; C.41.OF and C.41.UA; EXD for an unresolved explanation need. |
 | C.41.OF | **Fit a Checklist to Its Occasion of Use** | Stable | A useful checklist cannot be applied truthfully at the intended moment. Fit cues, access, capabilities, time and support to the occasion; distinguish assisted success from ordinary use. | C.41 and C.41.TF; A.15.8; HCD.3 for a human capability question; OCE for actual organizational enabling conditions. |
-| C.41.UA | **Use a Checklist to Answer Questions and Act on the Results** | Stable | A checklist is in use, but completed marks do not establish the result. Obtain the observations, interpret the answers, act on failures or uncertainty and preserve what a later continuation needs. | C.41, C.41.TF and C.41.OF; A.10; A.15.1; C.41.QC; OPS or ADM for the needed operating or record result. |
-| C.41.SR | **Reconcile Checklist Results Across Shared Work** | Stable | Different participants hold local checklist answers that do not yet justify a common result. Reconcile claims, interfaces and dependencies and keep changed conditions visible to the receiving action. | C.41.UA and C.41.QC; B.1.5 for a Method whole; A.10 for evidence. OPS.4 is a domain example of a shared operating account. |
+| C.41.UA | **Use a Checklist to Answer Questions and Act on the Results** | Stable | A checklist is in use, but completed marks do not establish the result. Obtain or reuse adequate grounds, interpret the answers, decide their consequences and preserve what a later continuation needs. | C.41, C.41.TF and C.41.OF; A.10 for relied-on evidence; A.15.1 for a dated Work claim; C.41.QC; OPS or ADM for the needed operating or record result. |
+| C.41.SR | **Reconcile Checklist Results Across Shared Work** | Stable | Local answers from contributing work do not yet justify a common result. Reconcile claims, interfaces and dependencies and keep changed conditions visible to the receiving action. | C.41.UA and C.41.QC; B.1.5 for a Method whole; A.10 for evidence. OPS.4 is a domain example of a shared operating account. |
 | C.41.QC | **Qualify Checklist Criteria and Checking Means** | Stable | Passing a checklist does not settle whether its criteria or checking means are adequate. Test their meaning, coverage, discrimination and cost against the actual subject and use. | C.41 for the selected questions; C.41.UA and C.41.SR for local and shared results; A.10; the applicable subject qualification Method. |
 | C.42 | **Reduce Avoidable Work While Preserving the Needed Result** | Stable | A local cut or faster operation can lose a needed result or move work elsewhere. Construct a worthwhile reduction through its changed condition, complete burden, introduction and later use. The elegance mantra connects these questions without prescribing a fixed sequence. | Uses A.11.OP for contribution, C.11.DUA for worth, C.39 for missing construction, C.28.CM for causal explanation, C.11.CRC for comparison and A.3.1.MI for introduction. |
 | C.43 | **Connect Observation, Choice and Action in Control** | Stable | Join the current situation, available information, possible continuations, their consequences and actual realization. Explain existing control, including distributed and self-changing arrangements, or obtain a suitable continuation and revise it when conditions change. | Uses A.12 for acting and changed participants, C.30.LCA for existing relations, C.32.LCA for architecture, C.11.CRC for comparison, C.11 for local choice, C.11.DBR for changed reliance and C.40.OD for development. |
@@ -84768,7 +84768,7 @@ Use these source contributions for the stated questions and limits. Reopen the a
 
 Use this when you have something that can be developed and need to learn what a feasible variation makes possible. A sound workshop can alter its own recording; an investigation team can change a view of permitted records; a coding team can develop a working program. The eventual contribution may already be selected or remain unsettled.
 
-The primary concern is the material being developed and the warranted continuation from an examined change. Material can be an editable construction, a working Method with its inputs, or a retained intermediate result. A promising label or score is not enough to perform the next variation.
+The primary concern is the material being developed and the warranted continuation from an examined change. Material can be an editable construction, a working Method with its inputs, or a retained intermediate result.
 
 Change something feasible, examine the resulting difference, and keep the actual material and conditions needed for a useful continuation. The first result is an examined variation with a justified continuation or stop. This transdisciplinary guidance relies on the professional operation that actually changes and examines the material.
 
@@ -84856,7 +84856,7 @@ If the required outcome or evaluation procedure changes, use E.23:4.1a and A.19.
 
 Use this branch when choosing the next challenge and finding a way to handle it need to inform one another. A fixed exercise sequence may repeat what is already easy or jump beyond every available way. Improving one candidate in one situation may also miss a construction already useful elsewhere. The result sought is a small set of worthwhile challenges with usable candidate ways, examined transfers between them, and a justified next development or receiving use.
 
-Start from one usable challenge and the way being tried on it. Recover the challenge's inputs, required result and conditions, the candidate operation, and how an attempt can be judged. Make a small feasible variation through §4.1. Keep the original challenge and candidate available until the new comparison settles what to retain. A domain operation must supply the changed material: for example, a programmer changes an input grammar or an exercise designer changes an available tool. An instruction to generate novelty supplies neither operation.
+Start from one usable challenge and the way being tried on it. Recover the challenge's inputs, required result and conditions, the candidate operation, and how an attempt can be judged. Make a small feasible variation through §4.1. Keep the original challenge and candidate available until the new comparison settles what to retain. A domain operation must supply the changed material: for example, a programmer changes an input grammar or an exercise designer changes an available tool.
 
 **Choose a challenge worth developing.** Examine proposed changes on three different grounds. First, is the task meaningful and is its required result assessable? Second, is there a plausible attainable development step with the available ways and means? Third, would learning to handle this case add a consequential distinction, construction or possible use beyond what the retained cases already supply? An attractive but currently inaccessible task can be kept for a stated later question; a trivial variation can remain a regression case without receiving more development work. Use C.17 for a stronger novelty or usefulness claim, keeping its comparison basis explicit.
 
@@ -84880,7 +84880,7 @@ Perform the available learning or repair operation with those chosen tasks, then
 
 **Compare challenges by what matters to continuation.** A fixed task parameterization can describe relevant differences cheaply. When appearance or generator parameters miss them, examine how the same available ways perform on the tasks. A task on which one way succeeds and another fails can reveal a different opportunity from one where all behave alike. Recover the indexed ways and common evaluation conditions behind that response profile. It is relative to that repertoire: replacing a member can change which tasks look alike. Update the affected comparisons rather than treat an old descriptor as a permanent property of the task. Different generating encodings and different characterizations can serve different purposes; changing one does not automatically change the other.
 
-**Retain enough to continue, and choose where effort stops.** Keep the task material, its evaluation grounds, the candidate way, outcomes and any adaptation needed for the useful next attempt. Preserve a failed task when its diagnosed obstacle could become tractable with another operation. Feed that obstacle and the useful differences from solved tasks into the next task proposal; a list of successful titles alone can invite repetition or another inaccessible jump. An archive of separately successful specialists does not establish that one way handles every task. Test that stronger receiving requirement with one candidate under the relevant tasks if it matters. Separate cheap retention from continued optimization; C.18 supplies stronger archive and lineage claims, and C.19 supplies a decision about funding several continuing lines. Bound the number of live tasks and the work spent trying transfers by the contribution sought and total burden. A cheaper fixed suite, direct specification or a known curriculum can finish the work when it already supplies the result.
+**Retain enough to continue, and choose where effort stops.** Keep the task material, its evaluation grounds, the candidate way, outcomes and any adaptation needed for the useful next attempt. Preserve a failed task when its diagnosed obstacle could become tractable with another operation. Feed that obstacle and the useful differences from solved tasks into the next task proposal. An archive of separately successful specialists does not establish that one way handles every task. Test that stronger receiving requirement with one candidate under the relevant tasks if it matters. Separate cheap retention from continued optimization; C.18 supplies stronger archive and lineage claims, and C.19 supplies a decision about funding several continuing lines. Bound the number of live tasks and the work spent trying transfers by the contribution sought and total burden. A cheaper fixed suite, direct specification or a known curriculum can finish the work when it already supplies the result.
 
 This development need not reformulate the meaning of the receiving problem at every step. Use C.40.CD when a failed condition or new construction changes the answer that is now worth obtaining. Use §4.5 when a challenge must respond to the candidate during interaction. Keep evaluation repair under E.23:4.1a/A.19.ECS:4.5. Those returns allow one useful result to continue through a different operation without making all branches compulsory.
 
@@ -84938,9 +84938,9 @@ Begin with a sufficient known rule or complete small comparison when available. 
 
 When restarting from retained states makes the work practical, construct a small **pool of continuation states**. Each entry contains what the process needs to resume, including necessary hidden state and relevant conditions. It must be copyable or reproducible by available means; a picture or score alone may not provide it. Use actual long trials or obtain the missing continuation support when such starts cannot be realized. The rule being developed, one state it produced and the useful whole obtained through execution remain distinct.
 
-Initialize the pool with the original permitted starts. For a development trial, take a manageable selection from the pool and include an original-start case. Run the current rule for an agreed interval, inspect its produced state and receiving result, and use that feedback to update the rule through the selected learning operation, whose required inputs and update conditions must be obtainable, or to compare executable variations. The feedback can concern a whole later configuration or function; it need not supply the correct local action at every intermediate step. Return suitable output states to the pool as starts for later trials. Keep enough original-start trials to expose loss of the ability to begin, as well as reached, incomplete or failing states whose continuation matters. Merely keeping a seed in storage gives it no influence on development.
+Initialize the pool with realizable permitted starts for the receiving claim. For a development trial, take a manageable selection from the pool. Run the current rule for an agreed interval, inspect its produced state and receiving result, and use that feedback to update the rule through the selected learning operation, whose required inputs and update conditions must be obtainable, or to compare executable variations. The feedback can concern a whole later configuration or function; it need not supply the correct local action at every intermediate step. Return suitable output states to the pool as starts for later trials. Retain reached, incomplete or failing states whose continuation matters. When the ability to begin remains required, include enough original-start trials to expose its loss. Merely keeping a seed in storage gives it no influence on development.
 
-The returned states make the next trial begin where an earlier application ended. A rule must now maintain or improve an already formed result as well as create it. Limit the pool and select its entries by the needed state range and affordable work; keeping only easy successful states can hide a recurring failure. Record which rule and conditions produced an entry. If a revision changes what its stored state means or requires, reconstruct compatible starts or examine a supported conversion before reusing it. Restarting from a saved state avoids storing its entire preceding computation; it does not assert that the resulting learning update is equivalent to training through that whole computation.
+The returned states make the next trial begin where an earlier application ended. The rule must maintain or improve an already formed result; include creation from the original start when the receiving claim also requires that ability. Limit the pool and select its entries by the needed state range and affordable work; keeping only easy successful states can hide a recurring failure. Record which rule and conditions produced an entry. If a revision changes what its stored state means or requires, reconstruct compatible starts or examine a supported conversion before reusing it. Restarting from a saved state avoids storing its entire preceding computation; it does not assert that the resulting learning update is equivalent to training through that whole computation.
 
 For recovery, apply a relevant permitted disturbance to some suitable states before continuing their trials. Keep undisturbed and original-start cases where those abilities remain required. Perform the continuation, judge recovery within its allowance, and keep running long enough to examine whether the recovered result functions and persists. Use consequential failures to change the rule or the conditions it needs, then repeat from the affected starts. Match the training feedback to the receiving result: resemblance to a desired body may support a shape claim while its subsequent movement remains poor. Compare actual functioning when that is what the work needs. States and disturbances repeatedly used to choose changes are development material; examine further relevant conditions before making a broader claim.
 
@@ -85056,7 +85056,7 @@ Obtain initial comparisons from compatible existing observations, an evaluable s
 
 Distinguish a decisive preference, a supported tie, supported incomparability and an unanswered comparison. Preserve material disagreement between judges instead of treating it as repeated observations of one common preference. If presentation order may change a judge's answer, compare the pair in both orders. An inconsistent answer exposes that dependence; discarding it from a binary fit does not establish a tie or remove the missing information. Repeated agreement by the same fallible judge can leave a shared error untouched.
 
-**Construct and examine an applicable comparator.** Represent an input as the two candidates together with the conditions that change their comparison. Obtain an effective learning operation for the obtained labels, chosen family and fitting criterion; a family name alone does not supply a fitting procedure. For a small finite family of comparison rules, evaluate each on the labelled pairs, minimize the declared classification loss and retain tied rules when their disagreement affects the next choice. A parameterized classifier instead needs its fitting procedure. When the labels come from an expensive source model, qualify any substitute for the particular response and receiving comparison, and retain a return to the source where that qualification is insufficient.
+**Construct and examine an applicable comparator.** Represent an input as the two candidates together with the conditions that change their comparison. Obtain an effective learning operation for the obtained labels, chosen family and fitting criterion. For a small finite family of comparison rules, evaluate each on the labelled pairs, minimize the declared classification loss and retain tied rules when their disagreement affects the next choice. A parameterized classifier instead needs its fitting procedure. When the labels come from an expensive source model, qualify any substitute for the particular response and receiving comparison, and retain a return to the source where that qualification is insufficient.
 
 Choose the output the caller can use: a predicted preference, a probability with a stated interpretation, or an unresolved relation. For a binary no-tie model, exchanging the inputs should exchange the alternatives' probabilities; enforcing this symmetry prevents one inconsistency but does not establish transitivity or accuracy. Add an explicit tie model or keep ties unresolved when they matter. A probability near one half can express uncertainty; it does not by itself establish equal outcomes.
 
@@ -85086,7 +85086,7 @@ Use the chosen parent or retained set to make the next feasible variation throug
 
 #### C.40:4.10 - Make human contributions usable in continuing development
 
-Use this branch when a person can recognize, demonstrate or explain something useful that the current search does not obtain affordably. The contribution may change an editable candidate, the examples used to construct it, the examination conditions or which branch deserves continuation. It must reach that particular operation. Asking for feedback and collecting comments do not by themselves change the developed material. Use a sufficient existing construction, a direct professional correction or an ordinary comparison when that finishes the work more cheaply.
+Use this branch when a person can recognize, demonstrate or explain something useful that the current search does not obtain affordably. The contribution may change an editable candidate, the examples used to construct it, the examination conditions or which branch deserves continuation. It must reach that particular operation. Use a sufficient existing construction, a direct professional correction or an ordinary comparison when that finishes the work more cheaply.
 
 **Choose a contribution the person can actually supply.** Show the candidate in a form that exposes the relevant behavior and permits a consequential response. A person who can perform an example need not be able to write a complete rule; a person who can explain one exception need not be able to implement the whole policy. Name the missing contribution and make its effect inspectable:
 
@@ -85121,7 +85121,7 @@ After an edit, distinguish three returns. A change meant only to make the expres
 
 When several people continue development, share the actual editable or executable material and the conditions needed to use it. Let a recipient resume from a useful intermediate result and branch for a different question while preserving the original. Different preferences need not be averaged into one objective. Usage counts, repeated playback or clicks can suggest an inquiry, but exposure, defaults and interface behavior can cause them; qualify the preference inference before using them as selection evidence. If a person becomes unavailable or fatigued, stop, use a qualified substitute at its actual scope, or return the missing contribution. A new rater or a learned proxy may change the meaning of the examination.
 
-The useful result is an applied contribution with an examined outcome: changed material, a justified retention of earlier behavior, an improved examination or a supported choice of continuation or stop. The contribution has reached and been examined in its intended operation; a collected comment alone supplies no such result. The method can expose and test human knowledge without transferring the contributor's whole capability or making every human contribution correct.
+The useful result is an applied contribution with an examined outcome: changed material, a justified retention of earlier behavior, an improved examination or a supported choice of continuation or stop.
 
 #### C.40:4.11 - Build the representation together with its changes
 
@@ -85664,7 +85664,7 @@ For repeated contraction in :4.12, **adapt** the survivor–regrowth–next-even
 - C.38 constructs a finite same-result comparison from complete-enough ways.
 - C.17 characterizes generative novelty and value when those claims are needed; the applicable professional Method supplies the actual variation and examination.
 - E.23:4.1a and A.19.ECS:4.5 govern a justified change of evaluation; §4.5 here develops interacting challenges while preserving the comparison question.
-- A.10 governs stronger reliance on observations or transfer support. Problem, capability, permission and actual Work claims use their direct subject rules rather than an archive label.
+- Retain the sources and support needed for reliance on observations or transfer. Use A.10 when their source-to-use account remains implicit or must be replayable. Problem, capability, permission and actual Work claims retain their direct subject rules.
 
 **Opportunity and continuing development.** C.40.OCN constructs a bounded opportunity before a useful contribution is settled; its inquiry, characterization, search, direction, reachability and requalification Methods can also be used independently. C.40.OD connects growth of knowledge, understanding or Methods with reproducible results and further attainable problems. C.40.JD addresses the narrower joint construction of a way, its holder and provision; C.40.NP begins from a qualified result and constructs its useful continuation. Ordinary work or acquisition of an existing Method needs no open-ended-development claim.
 
@@ -85964,7 +85964,7 @@ For a question about what an indication reveals, C.16.MR constructs the response
 
 Keep two environmental questions separate. Changing the demand on a fixed arrangement can help infer what its environment supplies. Keeping the task fixed while changing the environment can compare two whole arrangements. The latter does not isolate one environmental property if other contributions also change.
 
-The domain must supply any valid reset, intervention, calibration or observation used by the comparison. For an unavailable operation, obtain or develop it, use a sufficient existing bound, or retain the explicit limitation. Naming a “control condition” does not create it.
+The domain must supply any valid reset, intervention, calibration or observation used by the comparison. For an unavailable operation, obtain or develop it, use a sufficient existing bound, or retain the explicit limitation.
 
 Return the outcome as a supported response, contradicted account, conditional relation or unresolved distinction, together with the material conditions. A negative result can reject the tested arrangement without establishing an intrinsic incapacity. Stop when the supported conclusion is sufficient for the receiving action.
 
@@ -86053,7 +86053,7 @@ For a stipulated local comparison, both ways meet the same load and protected se
 
 Suppose the authorized application retains B for a stable hundred-delivery run. The candidate's receiving requirement is delivery within ninety seconds, timed from the start of preflight checks to completed unloading. Under the supplied model, preflight needs six seconds, the guided path is thirty metres, travel speed is 0.5 m/s and loading plus unloading needs twenty seconds. Completion takes 6 + 30/0.5 + 20 = 86 seconds. The conditional deadline result is supported; real operating reliability still requires the relevant engineering evidence.
 
-The whole's operating Method includes preparing and inspecting the guide, confirming route availability and the permitted load, loading, initiating motion, recognizing arrival and unloading. A receiver who can press the start control but cannot recognize a displaced guide lacks a contribution the whole requires. The repair can be teaching that recognition, obtaining a qualified inspection or changing the guide so misplacement is prevented. Calling the operator “trained” does not select the repair.
+The whole's operating Method includes preparing and inspecting the guide, confirming route availability and the permitted load, loading, initiating motion, recognizing arrival and unloading. A receiver who can press the start control but cannot recognize a displaced guide lacks a contribution the whole requires. The repair can be teaching that recognition, obtaining a qualified inspection or changing the guide so misplacement is prevented.
 
 For a changed seventy-second requirement, the same construction fails. Merely repeating the no-update probe cannot repair it. A handling change to ten seconds would give 6 + 60 + 10 = 76 seconds and still fail. With the same path and preflight, handling would have to take at most four seconds; that is an engineering possibility to qualify, not a result supplied by the arithmetic. Alternatively, a permissible twenty-seven-metre path at the same speed with ten-second handling would give 6 + 54 + 10 = 70 seconds. Compare feasible changes or leave the new deadline unsatisfied. The earlier ninety-second use remains supported within its conditions.
 
@@ -86084,7 +86084,7 @@ Environmental redesign can hide burden transfers to installers, maintainers or o
 ### C.40.CU:7 - Conformance Checklist
 
 - The response, preparation, intervention, observation and relevant window are recoverable.
-- The receiving use states what result matters and which stronger claims it does not need.
+- The receiving use states what result matters.
 - Any selected contrast can distinguish a consequential uncertainty under supplied domain conditions.
 - The conclusion separates what was revealed from what was changed or supplied.
 - Candidate ways include the enabling and displaced contributions that can change their comparison.
@@ -86116,7 +86116,7 @@ The method exposes the cost of making a demonstration repeatable. Some promising
 
 The same intervention can reveal a response and help produce it. Its interpretation therefore has to remain connected to the use that consumes it. The use, in turn, determines which conditions to realize, which alternatives are worth comparing and what to preserve for another enactment.
 
-A list of inquiry, architecture and learning patterns leaves these decisions to the reader. The contribution here is their conditional organization: qualify only what the application needs, construct the whole arrangement, test its result, and return from transfer failure to the affected contribution. Constituent Methods retain their own authority and detailed operations.
+The contribution here is their conditional organization: qualify only what the application needs, construct the whole arrangement, test its result, and return from transfer failure to the affected contribution. Constituent Methods retain their own authority and detailed operations.
 
 ### C.40.CU:11 - SoTA-Echoing
 
@@ -86538,7 +86538,7 @@ Write why exploration is warranted now. Distinguish:
 - an observed dissatisfaction or changed constraint;
 - a proposed contribution or explicit problem hypothesis;
 - a supplier promise, technology signal, or PatternID used only as a search lead; and
-- curiosity that is valuable only if a bounded inquiry can be afforded.
+- curiosity about a question worth examining.
 
 Preserve competing formulations when they would send the inquiry toward different contributions. Use the direct problem-structuring pattern when deciding among those formulations is itself the current Work.
 
@@ -86732,7 +86732,7 @@ Use this pattern when a person, organization, community arrangement, AI configur
 
 Use it after `C.40.OI` when the subject, receiving use, and horizon were still loose, or enter directly when those are already clear. It can serve either opportunity construction or bounded advising. It does not diagnose every property of the subject, choose a direction, prove capability, authorize intervention, or establish that development occurred.
 
-**Cheap exit.** Reuse an existing characterization when it covers the same subject and configuration, receiving use, horizon, characteristic meanings and scales, evidence window, protected conditions, and current question. If one domain practice already supplies the complete adequate characterization, use that result directly and retain its qualification.
+**Cheap exit.** Reuse an existing characterization when it covers the same subject and configuration, receiving use, horizon, characteristic meanings and scales, applicable time and evidence conditions, protected conditions, and current question. If one domain practice already supplies the complete adequate characterization, use that result directly and retain its qualification.
 
 **Ordinary non-use boundary.** Do not build a characterization merely because a dashboard exists. If no characteristic could change the next action, stop. Characterizations of populations, lineages, cultures, organizations, people, AI models, and engineered systems rely on different domain owners and evidence; similar metric labels do not justify transfer.
 
@@ -86778,7 +86778,7 @@ Build a characteristic account sufficient for this inquiry, exposing every mater
 
 Name the exact subject and configuration. For an AI case, distinguish model, data, scaffold, tools, oversight, access, and surrounding operating arrangement when their differences matter. For an organization, name the organization or bounded arrangement rather than treating its chart or provider as the subject. For a person, name the person and relevant later-Work context.
 
-State the receiving use, horizon, scenarios, and evidence window. A characterization for today's incident-review Work is not automatically valid for a future management role. A model benchmark in one configuration does not characterize another configuration with the same product label.
+State the receiving use, horizon and scenarios. Include the time stance and evidence window needed to interpret or rely on the selected readings; a reported measurement retains its measurement-specific temporal basis. A characterization for today's incident-review Work is not automatically valid for a future management role. A model benchmark in one configuration does not characterize another configuration with the same product label.
 
 If those boundaries are missing, use `C.40.OI` and return only after they are adequate for the current question.
 
@@ -86808,7 +86808,7 @@ For every selected characteristic, state in ordinary language:
 2. what the characteristic means for this receiving use;
 3. its scale or admissible levels and any unit;
 4. polarity—higher-is-better, lower-is-better, target-is-best, or no simple order;
-5. time stance and evidence window;
+5. time stance and evidence window when needed for interpretation or reliance, including the temporal basis of any reported measurement;
 6. current reading and uncertainty, or `unknown`;
 7. intended, threshold, exploratory, or comparison reading;
 8. explicitly protected reading or boundary when current;
@@ -86941,9 +86941,9 @@ A facility team already has current, source-qualified service, safety, operabili
 
 A conforming characterization or companion account:
 
-1. **MUST** identify the subject and configuration, receiving use, horizon, scenarios, and evidence window.
+1. **MUST** identify the subject and configuration, receiving use, horizon and scenarios, together with any time stance or evidence window required to interpret or rely on the selected readings.
 2. **MUST** select each characteristic by an explicit way it can change the current inquiry or a protected condition.
-3. **MUST** state the bearer, meaning, Scale or levels, Unit when applicable, polarity, and time stance for every relied-on characteristic.
+3. **MUST** state the bearer, meaning, Scale or levels, Unit when applicable, and polarity for every relied-on characteristic. Include any time stance or evidence window required by its value, support or measurement claim.
 4. **MUST** distinguish current, intended or exploratory, protected, and unknown readings.
 5. **MUST** keep result, resource, affected-System or distributional, and explicitly protected coordinate families visible when finite comparison is current.
 6. **MUST NOT** force incomparable coordinates into one scalar or assert Pareto improvement without a complete oriented set under one basis.
@@ -86988,7 +86988,7 @@ In opportunity construction, use the characterization to vary opportunity-genera
 
 **Contributing Methods.** FPF [`C.16`](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) supplies the measurement chain: exact measurand or subject, Characteristic, Scale, method, model, calibration, dated Work, attributed result, uncertainty, and bounded later use. [`C.11.CRC`](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) supplies the finite-change orientation: actual `S0`, finite `Δ`, realizable `S1`, complete result/resource/affected-System/distributional/protected coordinates, interactions, transition basis, uncertainty, and option effects. This pattern **adapts** those lines at `C.40.OC:4.2`–`4.7` by selecting only characteristics that can change one opportunity inquiry and by returning holder-specific meaning and evidence outward.
 
-**Serious alternative or default.** A maturity model or composite readiness score is faster to communicate and may be adequate when its construct, scale, weighting, evidence, and decision use are already qualified. As a default across unlike holders, it hides scale legality, trade-offs, protected coordinates, and transfer. At comparable entry effort, the selected multi-coordinate characterization preserves more decision-relevant information, at the cost of a less compact headline and possible indeterminate result.
+**Serious alternative or default.** A maturity model or composite readiness score can provide a compact summary when its construct, scale, weighting, evidence, and decision use are already qualified. When such a summary hides a distinction that can change the present inquiry—scale legality, trade-offs, protected coordinates or transfer—retain the separate coordinates. They keep those distinctions inspectable, at the cost of a less compact headline and a possible indeterminate result.
 
 For organization and campaign cases, [ISO 56008:2024](https://www.iso.org/standard/78485.html) is a current opportunity/innovation measurement source and supports explicit measurement and portfolio review. It is an organization-scope comparator, not a universal person, AI, or engineered-system characterization Method and not effectiveness evidence.
 
@@ -87714,7 +87714,7 @@ Select dependencies by consequence. Ask what absence or failure would block the 
 
 For each material dependency, state the required result and why it matters to this transition. Use [A.15.9 — Request and Use a Bounded Result from Another Practice](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) to inspect an existing result and use it at its supported strength for this receiving question. Retain a conditional direction where the needed premise is absent. Select a further request through A.15.9 and C.11.DUA only when its obtainable contribution warrants formulation, qualification, performance, delivery, interpretation, delay, and displaced work.
 
-A provider's offer, a published MethodDescription, and a qualified result about this subject answer different questions. Recover the result's subject and configuration, characteristic or condition, receiving use, evidence window, limitations, and uncertainty. If new Work is needed, the supplying practice retains its Method, competent performer, authority, and conclusion. Assess evidence-bearing reliance through the applicable A.10 result; a citation alone does not qualify the premise.
+A provider's offer, a published MethodDescription, and a qualified result about this subject answer different questions. Recover the result's subject and configuration, characteristic or condition, receiving use, any applicable evidence window, limitations, and uncertainty. If new Work is needed, the supplying practice retains its Method, competent performer, authority, and conclusion. Establish the source and support required for this premise use, reusing an adequate existing account. Use A.10 when the source-to-use account remains implicit or must be replayable.
 
 Use ordinary wording that preserves the difference between supported, conditional, unknown, and ruled out. Keep these distinctions at the claim they affect. If authorized access is absent, an access-dependent route cannot be described as available. That fact need not defeat a contribution obtainable without that access.
 
@@ -87864,7 +87864,7 @@ Separating the qualification of each premise from the joint test also makes work
 ### C.40.JF:12 - Relations
 
 - **Receives from C.40.OI, C.40.OC, and C.40.DC:** the inquiry, relevant characterization, and direction/support candidates; adequate direct inputs suffice.
-- **Uses A.15.9:** the single method for obtaining and qualifying a bounded external result; source reliance retains its applicable A.10 qualification.
+- **Uses A.15.9:** the single method for obtaining and qualifying a bounded external result. Use A.10 when the source-to-use account remains implicit or must be replayable.
 - **Uses C.11.CRC:** finite configuration-relative contribution, complete coordinates, constraints, interactions, transition burden, reversibility, and option effects.
 - **Returns to holder and domain practices:** capability, access, support, transfer, feasibility, safety, authority, allocation, and realization results.
 - **Supplies C.40.OP:** bounded reachability, conditional or rejected combinations, and the exact gaps that change retained paths.
@@ -88101,7 +88101,7 @@ Begin with the changed premise and the particular opportunity claim that used it
 
 This is application-specific requalification shared by Construction and Advising. A changed recommendation returns to its actual advice owner for the affected follow-up question; changed source-currentness or publication work retains its direct owner.
 
-**Ordinary non-use boundary.** Reuse a current result when no material premise or receiving use changed. A new filename, link, date label, or layout alone does not require reconstructing opportunities. If the current question is only one source's currentness, use G.11; if it is one already-known evidence reliance, use A.10 and the direct subject guidance. Do not create an indefinite monitoring service to answer a bounded change.
+**Ordinary non-use boundary.** Reuse a current result when no material premise or receiving use changed. A new filename, link, date label, or layout alone does not require reconstructing opportunities. If the current question is only one source's currentness, use G.11; if it is one already-known evidence reliance, use the direct subject guidance and retain the support needed for that use. Apply A.10 when the source-to-use account remains implicit or must be replayable. Do not create an indefinite monitoring service to answer a bounded change.
 
 ### C.40.RQ:2 - Problem
 
@@ -88312,7 +88312,7 @@ Keeping the earlier return, current qualification, and later authorized action s
 ### C.40.RQ:12 - Relations
 
 - **Receives from C.40.OI, C.40.NU, C.40.PC, C.40.DC, C.40.JF, C.40.OP and the applicable professional engagement Method:** the inquiry, characterization, contribution, direction, reachability, retained path, or advising boundary whose premise changed.
-- **Uses A.10 and A.15.9:** one-use reliance and bounded external-result qualification.
+- **Uses A.10 and A.15.9:** A.10 for a source-to-use account that remains implicit or must be replayable; A.15.9 for bounded external-result qualification.
 - **Uses A.10.1:** changed-source discovery and revalidation across actual receiving uses, with coverage and independently governed subject results.
 - **Returns to C.40.PC, C.40.DC, C.40.JF, C.40.OP, the applicable professional engagement Method and holder practices:** the smallest opportunity or relationship question affected by the new conditions.
 - **Uses C.11.CRC:** changed finite comparisons with complete coordinates and actual or conditional stage-specific baselines.
@@ -88534,7 +88534,7 @@ The first lead initially frames the problem as inaccurate estimation. With a dev
 
 The lead therefore changes the question from “How many more days do we need?” to “Which source behavior must we establish to choose a valid processing way, and what can we responsibly commit before that is known?” The adviser asks for the competing implications rather than supplying a schedule. The subject specialist helps formulate two feasible possibilities: a feed with stable record identities and explicit revisions, or one without sufficient information for reliable automatic replacement. The first permits a bounded processing construction; the second requires changed source provision or a narrower agreed result. A small obtained source history, its interpretation with the data owner and a replay against a known correction can distinguish those possibilities for this decision.
 
-This inquiry is not automatically a scientific research programme. Existing professional knowledge may be enough to construct and interpret it. It is also not useful merely because it is called discovery. It must return the particular contribution that changes the commitment. The lead arranges access to a permitted history and obtains the owner's explanation; the specialist examines the relevant semantics; the lead works through what each possible result permits. They preserve the existing task-estimation routine for the part whose premises remain valid.
+This inquiry is not automatically a scientific research programme. Existing professional knowledge may be enough to construct and interpret it. The lead arranges access to a permitted history and obtains the owner's explanation; the specialist examines the relevant semantics; the lead works through what each possible result permits. They preserve the existing task-estimation routine for the part whose premises remain valid.
 
 The resulting way contains a conditional commitment, not an optimistic average of incompatible plans. Obtain and interpret the decisive source behavior; choose the compatible processing operation; qualify it for the actual receiving meaning; then commit the dependent work with its remaining assumptions. If source provision cannot support either acceptable route, return that restriction to the customer and direction choice. Protect unaffected current service while this work proceeds.
 
@@ -88884,7 +88884,7 @@ Success is often treated either as final closure or as a reason to repeat the vi
 
 #### C.40.NP:4.1 - Recover the changed starting position
 
-After a successful transition, use the subject's changed position as new input to problem formation. Recover what it can now notice, attempt, combine or question. Compare that with a consequential situation it could not previously handle. This can yield a further problem even when the completed project satisfies every acceptance condition. The new question is not an automatically scheduled repeat of the first task.
+After a qualified result changes the subject's position, use that position as new input to problem formation. Recover what the subject can now notice, attempt, combine or question. Compare that with a consequential situation it could not previously handle. This can yield a further problem even when the completed project satisfies every acceptance condition. The new question is not an automatically scheduled repeat of the first task.
 
 For example, a lead who can now revise a planning assumption may become able to notice that the organization has no way for another lead to dispute an inherited assumption. The next problem concerns the conditions under which a judgement can be reconstructed, challenged and renewed across people. Repeating the planning course does not supply that result. The new direction can require a different way of discussing evidence, a different information-use rule and learning support for another carrier. It uses the first result without making the first project endless.
 
@@ -88894,7 +88894,7 @@ When several occasions reveal the same costly limitation in noticing, framing, c
 
 #### C.40.NP:4.2 - Construct the next worthwhile attainable problem
 
-After a worthwhile transition, recover the new starting position: attainable work, actual support dependence, new constraints, retained possibilities and newly exposed limits. C.40.OP, C.40.RQ preserve opportunities and requalify changed premises. B.5.PI and C.40.CD support the next inquiry even if the completed project meets all its declared criteria.
+Recover the starting position established by the qualified result: attainable work, actual support dependence, new constraints, retained possibilities and newly exposed limits. C.40.OP, C.40.RQ preserve opportunities and requalify changed premises. B.5.PI and C.40.CD support the next inquiry even if the completed project meets all its declared criteria.
 
 Ask what became worth attempting that was previously inaccessible or invisible. Select a more demanding but still attainable problem when its contribution justifies the burden. “More demanding” is relative to the subject and the useful contribution; it is not an obligation to increase workload, status, budget or a single numerical score. A strategic contraction can free the means for a more important development.
 
@@ -89049,7 +89049,7 @@ For a fuller account of change and subject states, return to [FPF A.3.3](https:/
 
 #### C.41:0.4 - Choosing and combining the Methods
 
-For a recurring omission, select a useful question set with C.41, express it with C.41.TF and arrange first use with C.41.OF. C.41.UA then produces answers on real occasions. Compare the contribution and burden with [C.11.MV](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11mv---compare-the-worth-of-a-method-option), and use [A.3.1.MI](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31mi---introduce-a-method-into-practice-and-decide-what-to-keep-or-change) to choose a worthwhile change. The result can be a clearer question, a different occasion, new support, or retirement of the aid.
+For a recurring omission, select a useful question set with C.41, express it with C.41.TF and arrange first use with C.41.OF. C.41.UA then produces answers on real occasions. Compare the contribution and burden, reusing an adequate comparison or using [C.11.MV](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11mv---compare-the-worth-of-a-method-option) when that result is still needed. Use [A.3.1.MI](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31mi---introduce-a-method-into-practice-and-decide-what-to-keep-or-change) when introduction and later use must inform a change. The result can be a clearer question, a different occasion, new support, or retirement of the aid.
 
 For shared work with uncertain criteria, use C.41.QC to challenge those criteria and checking means. C.41 retains the useful coverage; C.41.TF and C.41.OF give participants workable local views. C.41.UA supplies local answers. C.41.SR tests their combined use, locates gaps and reopens affected reliance when premises change. Several Methods can be active within the same larger performance; an earlier result is needed only where another action actually consumes it.
 
@@ -89059,7 +89059,7 @@ One centralized checklist can be sufficient when everyone has the relevant acces
 
 Across this family, ask whether the important work questions are covered, their meanings survive the chosen forms, people can answer at the right occasion, the answers have adequate grounds, shared conclusions follow from the contributions actually supplied, and uncertain criteria have been challenged. Inherit adequate answers from prior use; revisit the part changed by new evidence or conditions. Each pattern's Conformance Checklist makes its own contribution inspectable.
 
-These are questions about sound application, not a demand for a second checklist on every checklist. Recognition begins with the ordinary situations in §0.1 and the Problem frames. Assurance comes from examining the actual questions, observations, mappings, counterexamples and consequences in the later sections. More completed fields do not establish either useful work or a sound Method.
+Recognition begins with the ordinary situations in §0.1 and the Problem frames. Assurance comes from examining the actual questions, observations, mappings, counterexamples and consequences in the later sections.
 
 The constructed examples here illustrate reasoning and possible use. They do not report measured effectiveness. Human-use studies and AI evaluation studies inform the Methods under the limits in [C.41:11](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c4111---sota-echoing) and the supplying patterns' SoTA-Echoing sections. Practical adoption still depends on capabilities, access, working conditions and the result people value.
 
@@ -89107,7 +89107,7 @@ Use your own and others' past omissions to propose questions, keeping the condit
 
 Follow the actual production and use relations far enough to expose a consequential omission. Who or what produces this result, what enables that producer, and who uses the result? At a relevant link, distinguish the producer or user, descriptions of it, its way of working and its actual work. A missing intermediate service, tool or capable performer may deserve attention even when the final subject looks satisfactory. Stop following links when further detail cannot change the selected questions. If the prospective subject does not yet exist, ask about the available materials, descriptions or enabling results without treating a description as the existing subject.
 
-Recover the descriptions used to judge the result and the assumptions connecting their described characteristics to that use. [C.39.RQ](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c39rq---construct-situated-method-requirements) helps construct criteria from the subject and situation. Use its account of criterion construction with the subject/description distinction in §0.2. When the criterion's basis is unavailable, return that specific question to competent domain work.
+Recover the descriptions used to judge the result and the assumptions connecting their described characteristics to that use. Use [C.39.RQ](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c39rq---construct-situated-method-requirements) when the missing criterion concerns a required Method contribution, retaining the subject/description distinction in §0.2. When the criterion's basis is unavailable, return that specific question to competent domain work.
 
 #### C.41:4.2 - Propose questions and test their contribution
 
@@ -89202,7 +89202,7 @@ To examine this Method's use, inspect the actual selected questions:
 - Have constituent passes been kept separate from any encompassing conclusion?
 - Is the bounded coverage usable at its cost, with a concrete reason to reopen selection?
 
-An answer can be inherited from a still-applicable prior selection. The existence of these five questions is not a reason to create five additional records.
+An answer can be inherited from a still-applicable prior selection.
 
 ### C.41:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -89285,7 +89285,7 @@ Develop ambiguous headings with someone who understands the work. For a printing
 
 For each answer, make recoverable what is being asked, what counts as an answer and what grounds could support it. A direct instruction may name the observation; a more complex judgement may point to a domain procedure. [A.3.2.DE](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a32de---describe-a-method-for-its-intended-use) supplies the broader description of how to carry out the Method. A short checklist can refer to that description without trying to replace it.
 
-Distinguish a reusable instruction from a filled claim. “Count the cards against the contents description” is part of the template's help. “Twenty cards present in S, observed at 10:00” is an instance answer and its basis. [FPF A.3.2](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a32---umethoddescription-description-episteme-for-a-way-of-doing) governs a MethodDescription claim when the template has an already admitted Method as its exact EntityOfConcern and makes at least one substantive claim about that Method as a way of doing; a table label alone does not establish that membership.
+Distinguish a reusable instruction from a filled claim. “Count the cards against the contents description” is part of the template's help. “Twenty cards present in S, observed at 10:00” is an instance answer and its basis. [FPF A.3.2](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a32---umethoddescription-description-episteme-for-a-way-of-doing) governs a MethodDescription claim when the template has an already admitted Method as its exact EntityOfConcern and makes at least one substantive claim about that Method as a way of doing.
 
 #### C.41.TF:4.2 - Give answers enough expressive range
 
@@ -89311,7 +89311,7 @@ Inspect what entering an answer does in the chosen tool. A mark may record a com
 
 An outline that puts each item under one heading can hide another relevant relationship. One comparison of the projected example with the cards may contribute both to display preparation and to exercise preparation. Preserve both uses when they affect the next action; use a cross-reference or a small relation table if one parent heading cannot express them. Do not infer that the subject has only one such relation from the form's single indentation.
 
-Replay one satisfactory answer, one negative answer and one unresolved case in the proposed form. Ask a representative recipient to recover the actual question and next move. Use the recipient's interpretation to locate the missing explanation; compare the proposed repair's benefit with preparation, answering and maintenance effort. Return a missing distinction to the template, a misunderstood question to selection, and inaccessible observation to C.41.OF.
+Replay one satisfactory answer, one negative answer and one unresolved case in the proposed form. When the intended recipient's interpretation or next move remains uncertain, ask a representative recipient to recover the question and next move. Use that response to locate the missing explanation. Compare the proposed repair's benefit with preparation, answering and maintenance effort. Return a missing distinction to the template, a misunderstood question to selection, and inaccessible observation to C.41.OF.
 
 When transfer changes the speaker or recipient, recover relative references through [FPF A.6.P.RI](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a6pri---recover-agent-relative-references-for-action): “my cards” or “our current description” can acquire a different referent in a copied view. Check the question's associations after the change even when its words are unchanged.
 
@@ -89337,7 +89337,7 @@ Suppose the wide table on a small screen separates the answer from its S/v2 refe
 | Wording matches v2? | Yes: all cards compared with v2, observed 10:05 |
 | Set assembled for delivery? | Yes: assembled, observed 10:10 |
 
-If entries are recorded at 10:12, that time describes the recording. It neither changes the observation times nor shows when each condition first became true. A split view for counting and a view for wording comparison retain the S/v2 references and the relevant observation grounds. A detached green square cannot do that.
+If entries are recorded at 10:12, that time describes the recording. It neither changes the observation times nor shows when each condition first became true. A split view for counting and a view for wording comparison retain the S/v2 references and the relevant observation grounds.
 
 For an AI-assisted importer, a template can ask for an observed catalogue before and after a malformed input, with a reference to the input and the comparison performed. A field headed “Tests pass” loses the specific question if it is detached from those cases. When an observation tool fails, the form supports “unknown: post-import catalogue was not obtained”; it does not coerce the agent into a positive completion entry.
 
@@ -89426,7 +89426,7 @@ The practical problem is to connect a worthwhile aid to a moment when participan
 
 ### C.41.OF:4 - Solution
 
-A.15.8.MS supplies methodological material and support across tasks; A.3.1.MI supplies a complete bounded introduction when that is the question. This Method constructs the particular checking occasion: when the question can change action, who can answer it, which observations and means are available, and how ordinary use will expose the remaining obstruction. It does not turn every checklist use into an organizational change project.
+A.15.8.MS supplies methodological material and support across tasks; A.3.1.MI supplies a complete bounded introduction when that is the question. This Method constructs the particular checking occasion: when the question can change action, who can answer it, which observations and means are available, and how ordinary use will expose the remaining obstruction.
 
 #### C.41.OF:4.1 - Locate an occasion that can change the work
 
@@ -89444,15 +89444,17 @@ Put the current question, help and response mechanism in the working environment
 
 Recover the specific capability needed to answer. Counting supplied items may be easy; interpreting a specialist defect can call for another person. The applicable capability-diagnosis Method helps identify the capability demanded by the work. Nearby explanation can help a capable user apply a distinction; it does not create all missing competence.
 
-For human participants, inspect whether time pressure, hierarchy, mistrust or incentives discourage a truthful response. Explain the practical purpose, involve people who bear the burden, and change the arrangement that prevents use. An instruction to “be more diligent” does not diagnose the obstacle. Where introduction changes established organizational practice, the applicable organizational Methods supply assignment, enabling-relation and participation-condition work beyond this fitting Method.
+For human participants, inspect whether time pressure, hierarchy, mistrust or incentives discourage a truthful response. Explain the practical purpose, involve people who bear the burden, and change the arrangement that prevents use. Where introduction changes established organizational practice, the applicable organizational Methods supply assignment, enabling-relation and participation-condition work beyond this fitting Method.
 
-When the proposed change still needs examination and agreement, recover the proposal with those who supply and receive the contributions, let them obtain relevant advice, and establish the actual decision or voluntary agreement needed for this occasion. Return the accepted contributions and their conditions to the work: who supplies the observation, who has time to check, what help is available and who receives an unresolved answer. Confirming those arrangements can support first use; the trial below must still show whether the aid contributes to a useful handover. A new consequential objection or an unavailable resource returns to the affected decision before dependent use.
+When the proposed change still needs examination and agreement, recover the proposal with those who supply and receive the contributions, let them obtain relevant advice, and establish the actual decision or voluntary agreement needed for this occasion. Return the accepted contributions and their conditions to the work: who supplies the observation, who has time to check, what help is available and who receives an unresolved answer. Confirming those arrangements can support first use. When their contribution to a useful handover remains uncertain, use matching observations or the trial below to settle that question. A new consequential objection or an unavailable resource returns to the affected decision before dependent use.
 
 For an AI agent, provide the applicable description and criteria, usable tools, relevant retained observations and a way to express uncertainty. Mixed human/AI work needs a clear handover of unresolved judgement.
 
 #### C.41.OF:4.3 - Try the arrangement and repair the obstruction
 
-Use [A.15.8.MS](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a158ms---configure-methodological-support-for-work) to arrange enactment and [A.3.1.WT](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31wt---design-and-interpret-a-method-work-trial) to try representative work. Observe whether the user encounters the aid, interprets the question, obtains the grounds and chooses a useful continuation. In shared use, observe who contributes, whether another participant understands and responds, and whether a raised concern changes the work where it matters. Examine the intended interaction and the aid's contribution separately: opening the form, reading its items and obtaining a useful conversation are different observations. Include a negative or unresolved case so the trial does not reward only effortless completion.
+Start from the fitting question and reuse observations that already answer it under the relevant user and work conditions. Use [A.15.8.MS](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a158ms---configure-methodological-support-for-work) for an unresolved support arrangement.
+
+When a new observation of representative work is needed, use [A.3.1.WT](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31wt---design-and-interpret-a-method-work-trial). Observe whether the user encounters the aid, interprets the question, obtains the grounds and chooses a useful continuation. In shared use, observe who contributes, whether another participant understands and responds, and whether a raised concern changes the work where it matters. Examine the intended interaction and the aid's contribution separately: opening the form, reading its items and obtaining a useful conversation are different observations. Include a negative or unresolved case when the response to it can change the intended reliance.
 
 Choose observations from the unresolved question. An existing reliable record may settle whether the aid appeared at the intended occasion. That appearance alone does not settle whether a participant understood or acted on a concern; use evidence of that interaction when it matters. Use a bounded observation of representative work before choosing continuing oversight. Include the observer's effort and any change their presence makes to the work.
 
@@ -89460,7 +89462,7 @@ A first assisted use can reveal unfamiliar wording or a missing observation rout
 
 After the assisted occasion, examine an ordinary later use where continued reliance matters. Compare when the aid influenced the work with the observations and entries actually made. A late record can faithfully report an earlier observation; it is different from inventing answers for omitted checks. Repair the reason for bypassing or fictional completion, including poor fit, missing access or incentives that suppress truthful answers. Choose any continuing oversight through the actual work arrangement; a penalty is not a universal checklist-design remedy.
 
-Return a meaning defect to C.41.TF, a coverage defect to C.41, an inadequate check to C.41.QC, and a missing capability or resource to its supplying practice. Use [C.11.MV](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11mv---compare-the-worth-of-a-method-option) to compare worth and [A.3.1.MI](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31mi---introduce-a-method-into-practice-and-decide-what-to-keep-or-change) to choose a change or retirement. Stop when the arrangement works at worthwhile cost; do not keep adding ceremony merely because some use remains irregular.
+Return a meaning defect to C.41.TF, a coverage defect to C.41, an inadequate check to C.41.QC, and a missing capability or resource to its supplying practice. When the fitting decision still needs a worth comparison, use [C.11.MV](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11mv---compare-the-worth-of-a-method-option). Use [A.3.1.MI](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31mi---introduce-a-method-into-practice-and-decide-what-to-keep-or-change) when a decision to change or retire the aid depends on its introduction and later use. Stop when the arrangement works at worthwhile cost; do not keep adding ceremony merely because some use remains irregular.
 
 ### C.41.OF:5 - Archetypal Grounding
 
@@ -89474,13 +89476,13 @@ On first use, “readable” turns out to be interpreted differently by two peop
 
 In the importer case, an agent is given criteria but no access to the stored catalogue after an error. Adding “verify preservation” to its prompt cannot produce that observation. The team supplies a bounded test environment and a tool that returns the before/after catalogue. If that tool fails, the agent records the unresolved question and returns it. A session restart restores the criteria and relevant evidence references in the agent's working context.
 
-These are constructed arrangements. A representative trial still has to establish whether their benefit warrants their interruptions and maintenance.
+These are constructed arrangements. In practice, judge their expected benefit and full burden on available grounds; use a representative trial when its observations can change that decision.
 
 ### C.41.OF:6 - Bias-Annotation
 
 The person introducing the list can mistake resistance for indifference. Non-use may be a rational response to poor timing, inaccessible information or repeated low-value work. Conversely, convenient local use can conceal burdens moved to a coordinator.
 
-Trial with the people and tools that will actually bear those costs. A successful assisted demonstration does not establish routine independent use or broad cultural adoption.
+When a trial is needed, include the people and tools that will bear those costs. A successful assisted demonstration does not establish routine independent use or broad cultural adoption.
 
 ### C.41.OF:7 - Conformance Checklist
 
@@ -89489,7 +89491,7 @@ Inspect the arrangement at an actual or representative occasion:
 - Can the user encounter the current questions when their answers still matter?
 - Are the needed observation, interpretation, participants and response means available?
 - Can a negative or unresolved answer be expressed and used without substitution by a reassuring entry?
-- Has representative use exposed interpretation, interruption and moved burdens, including any assistance?
+- Does the fitting judgement use adequate grounds for interpretation, interruption and moved burdens, with any assistance explicit?
 - Is the chosen repair directed at the observed obstruction, with a simpler sufficient arrangement retained where possible?
 
 ### C.41.OF:8 - Common Anti-Patterns and How to Avoid Them
@@ -89519,7 +89521,7 @@ Sections 4.2–4.3 and the packer case make that choice concrete. Another email 
 
 The study by [Facey and colleagues](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0298224) supplies counterevidence about documentation versus observed use. [CheckPOINT](https://pubmed.ncbi.nlm.nih.gov/37734956/) supplies an alternative for observing team behavior; [Ridgeway and colleagues](https://doi.org/10.1016/j.pecinn.2026.100495) distinguish conversation-aid implementation from the practice it supports. Their instruments help select an observation that answers the question; they do not warrant observing every use or transferring a generic engagement score. [Urbach and colleagues](https://www.nejm.org/doi/abs/10.1056/NEJMsa1308261) found no significant mortality or complication reduction in their population-level before/after study, so introduction and completed forms cannot carry the outcome claim alone. Anthropic's accounts are bounded engineering demonstrations, not comparative human/AI effectiveness evidence.
 
-This choice accepts the cost of integration or assistance only for an obstruction a cheaper cue leaves in place. The sources do not rank all arrangements at equal effort. Section 4.3 therefore compares representative and later ordinary use, including observation cost and burdens moved elsewhere. Retain the existing arrangement when it already supports the needed action. Reopen the choice when access, capability, tools or incentives change, or when ordinary use fails despite successful assisted use.
+This choice accepts the cost of integration or assistance only for an obstruction a cheaper cue leaves in place. The sources do not rank all arrangements at equal effort. Section 4.3 therefore uses matching observations or needed comparisons of representative and later ordinary use, including observation cost and burdens moved elsewhere. Retain the existing arrangement when it already supports the needed action. Reopen the choice when access, capability, tools or incentives change, or when ordinary use fails despite successful assisted use.
 
 ### C.41.OF:12 - Relations
 
@@ -89888,9 +89890,9 @@ A.10 governs evidence reliance; A.19.ULSAM governs an actual numerical aggregati
 
 #### C.41.QC:4.1 - Recover the claim, basis and intended reliance
 
-Name the criterion, the question it interprets and the subject of that question. Recover the description and the assumption connecting it to useful work. Use [C.39.RQ](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c39rq---construct-situated-method-requirements) when the criterion needs construction from the subject and situation.
+Name the criterion, the question it interprets and the subject of that question. Recover the description and the assumption connecting it to useful work. When the criterion needs construction, use [C.41](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c41---select-checklist-questions-for-a-work-result) §§4.1–4.2 to obtain a consequential work question and its basis. Use [C.39.RQ](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c39rq---construct-situated-method-requirements) when the missing criterion concerns a Method contribution.
 
-Then name the checking means: a person applying a judgement, a comparison script, an observation tool or a model-based evaluator. What does it actually observe or consume? What answer does it produce? What will another person or system infer from that answer? Administrative claim-checking Methods supply the distinctions needed for that domain. A method name or test file is not itself proof that the intended check occurred.
+Then name the checking means: a person applying a judgement, a comparison script, an observation tool or a model-based evaluator. What does it actually observe or consume? What answer does it produce? What will another person or system infer from that answer? Administrative claim-checking Methods supply the distinctions needed for that domain.
 
 For a model judge, include the supplied evidence and instructions, the criteria grouped in each call, and any rule combining repeated verdicts when these can change the relied-on answer.
 
@@ -90002,7 +90004,7 @@ The deliberate trade-off is the cost of obtaining discriminating grounds against
 
 C.41 supplies proposed work questions and receives coverage corrections. C.41.TF preserves qualified meanings, C.41.OF makes observations accessible, C.41.UA performs actual checks, and C.41.SR interprets their combined use. [FPF A.19.ULSAM](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a19ulsam---unified-lawful-scale-aggregation-mechanism-ulsam) is a conditional return when the receiving use needs numerical aggregation; ordinary separate answers require no such calculation.
 
-[C.39.RQ](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c39rq---construct-situated-method-requirements) supplies criterion construction, [A.3.1.WT](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31wt---design-and-interpret-a-method-work-trial) representative trial, and [C.11.MV](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11mv---compare-the-worth-of-a-method-option) worth appraisal. The actual subject examination supplies the observation or judgement whose adequacy is being tested; administrative claim checking is one domain example. Qualification uses the required results for the specific uncertainty in checklist criteria or means; it does not replace those Methods.
+[C.41](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c41---select-checklist-questions-for-a-work-result) supplies construction of work questions and their criteria in §§4.1–4.2; [C.39.RQ](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c39rq---construct-situated-method-requirements) supplies criteria for a required Method contribution. [A.3.1.WT](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31wt---design-and-interpret-a-method-work-trial) supplies representative trial, and [C.11.MV](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11mv---compare-the-worth-of-a-method-option) worth appraisal. The actual subject examination supplies the observation or judgement whose adequacy is being tested; administrative claim checking is one domain example. Qualification uses the required results for the specific uncertainty in checklist criteria or means; it does not replace those Methods.
 
 ### C.41.QC:End
 
@@ -90095,13 +90097,13 @@ Use the distinction that changes the proposed intervention. The following cases 
 | A necessary operation consumes substantial processing effort. | Can another method, means, allocation or reusable result obtain the same contribution more economically? |
 | Corrective work recurs. | Can the condition producing the recurrence be changed, or is a better bounded response the worthwhile option? |
 
-Treat configuration-related rework concretely. If an accepted instruction requires one edition while the performer uses another, recover which edition was required, how the performer obtained the used one, and where the mismatch could have been prevented. “Be more careful” gives no new obtaining condition. An authoritative source, usable retrieval, recognition of the required edition and a proportionate check can form a preventive change. Its added effort belongs in the comparison.
+Treat configuration-related rework concretely. If an accepted instruction requires one edition while the performer uses another, recover which edition was required, how the performer obtained the used one, and where the mismatch could have been prevented. An authoritative source, usable retrieval, recognition of the required edition and a proportionate check can form a preventive change. Its added effort belongs in the comparison.
 
 A failed hypothesis is not automatically failed work. If the intended research result was a distinction between explanations, a well-grounded negative answer can supply it. Likewise, repeated practice can produce a capability even when it produces many similar outputs. Recover the intended result and the actual contribution before classifying that effort as avoidable. Repeating an invalid measurement may be wasteful; learning why it was invalid may supply valuable knowledge.
 
 For waiting, distinguish an unavailable prerequisite from an ordering problem among already feasible actions. Making an earlier decision, preparing an input in advance, changing batching or allocating an available resource can shorten the path. Each candidate still needs its receiving conditions. Starting more items can increase contention; moving a compulsory decision to the end can create extensive unusable work. A shorter first completion and greater sustained throughput are different improvements.
 
-For processing, construct a different obtaining operation rather than merely naming a tool. Explain what the tool or performer receives, what it does, how the recipient obtains an adequate result and what happens outside its supported cases. Reuse, delegation and automation are possible means. None wins by its category alone.
+For processing, construct a different obtaining operation. Explain what the tool or performer receives, what it does, how the recipient obtains an adequate result and what happens outside its supported cases. Reuse, delegation and automation are possible means.
 
 #### C.42:4.4 - Construct an intervention through the condition it changes
 
@@ -90143,7 +90145,7 @@ Make the selected change usable where the next affected work occurs. Identify th
 
 Use A.3.1.MI to distinguish the proposed way, introduction strategy, preparation, actual introduction and later work. Keep an adequate existing instruction where it suffices. Where an error recurs, change the conditions that allow it at the point of use: withdrawing an obsolete copy, supplying the correct source, making an exception route usable or providing the missing decision can matter more than another announcement.
 
-Select a trial when its attainable result can alter adoption or scope. Choose cases that expose the disputed condition, including consequential exceptions, and preserve the necessary result during the attempt. Establish when to continue, restrict, revise or stop. A known adequate correction may be introduced directly under the applicable rules; the word “improvement” does not require an experiment.
+Select a trial when its attainable result can alter adoption or scope. Choose cases that expose the disputed condition, including consequential exceptions, and preserve the necessary result during the attempt. Establish when to continue, restrict, revise or stop. A known adequate correction may be introduced directly under the applicable rules.
 
 Plan recovery appropriate to the subject. A previous software configuration may be restorable; lost trust, interrupted service or a person's acquired experience cannot be undone by replacing a file. Use limited exposure, retained alternatives, parallel provision or another suitable protection where reversibility is limited. Include these costs in the choice.
 
@@ -90161,7 +90163,7 @@ Keep the change when the supported gain remains worthwhile. Restrict or replace 
 
 A worthwhile reduction can release attention, capacity or resources. Establish what has actually become available before promising it elsewhere. Then ask whether that changed position makes another useful problem, investigation or capability attainable. C.40.NP develops this continuation from an obtained result.
 
-The next undertaking may change the problem, create knowledge, expand a capability or improve the way future changes are obtained. It can require more current work. Judge that contribution in its own right. Preserving the means for later development does not require perpetual activity, and ending an obsolete undertaking can be a successful reduction. This method governs economy of obtaining a result; it does not define all development as obtaining the same result more cheaply.
+The next undertaking may change the problem, create knowledge, expand a capability or improve the way future changes are obtained. It can require more current work. Judge that contribution in its own right. This method governs economy of obtaining a result; it does not define all development as obtaining the same result more cheaply.
 
 ### C.42:5 - Archetypal Grounding
 
@@ -90223,7 +90225,7 @@ The method deliberately foregrounds avoidable burden. That can bias attention ag
 
 ### C.42:7 - Conformance Checklist
 
-These checks inspect an explanation or application claiming this method; they do not require a new form for every improvement.
+Inspect an explanation or application claiming this Method:
 
 | Check | Passing content |
 | --- | --- |
@@ -90269,9 +90271,9 @@ The commonality across people, organizations and technical systems lies in this 
 
 **Practice question and selected line.** How can a practitioner reduce avoidable work while preserving the actual result and conditions over the relevant horizon? The selected answer is the conditional synthesis in section 4: purpose and use, diagnosis, intervention construction, complete comparison, introduction and later reconsideration. It is a method proposal grounded in the comparisons below, not an empirical claim of universal superiority.
 
-**Toil reduction is a serious mature alternative.** Google's 2018 SRE treatment already compares elimination, simplification and automation, including maintenance and indirect costs. It is not an automation-first foil. **Adapt** its whole-burden and cause-removal reasoning in 4.3–4.6 to the broader receiving-use question. Use the domain practice directly when it already supplies that answer. For the broader question, sections 4.1 and 4.3 also compare changes when knowledge or capability is the needed result and purposeful repetitions contribute to it. The trade-off is extra diagnosis where those distinctions matter; this synthesis offers no established gain from repeating them when they are already settled. [Eliminating Toil](https://sre.google/workbook/eliminating-toil/).
+**Toil reduction is a serious mature alternative.** Google's 2018 SRE treatment already compares elimination, simplification and automation, including maintenance and indirect costs. **Adapt** its whole-burden and cause-removal reasoning in 4.3–4.6 to the broader receiving-use question. Use the domain practice directly when it already supplies that answer. For the broader question, sections 4.1 and 4.3 also compare changes when knowledge or capability is the needed result and purposeful repetitions contribute to it. The trade-off is extra diagnosis where those distinctions matter; this synthesis offers no established gain from repeating them when they are already settled. [Eliminating Toil](https://sre.google/workbook/eliminating-toil/).
 
-**A competent improvement cycle can already suffice.** IHI's PDSA guidance connects prediction, a bounded test, observation, learning and adaptation; its implementation guidance distinguishes testing from changes in ordinary provision. **Adopt** that separation in 4.6–4.7. **Adapt** the earlier construction in 4.1–4.5 when the live uncertainty is which demand to remove or which complete alternative to test. PDSA can handle combined changes and unintended effects; the pattern does not claim those as missing inventions. If an existing improvement practice already carries the needed construction and comparison, use it without another pass. Reopen the selected synthesis if an equally usable simpler treatment preserves these distinctions at lower burden. [Testing Changes](https://www.ihi.org/library/model-for-improvement/testing-changes), [Implementing Changes](https://www.ihi.org/library/model-for-improvement/implementing-changes).
+**A competent improvement cycle can already suffice.** IHI's PDSA guidance connects prediction, a bounded test, observation, learning and adaptation; its implementation guidance distinguishes testing from changes in ordinary provision. **Adopt** that separation in 4.6–4.7. **Adapt** the earlier construction in 4.1–4.5 when the live uncertainty is which demand to remove or which complete alternative to test. PDSA can handle combined changes and unintended effects. If an existing improvement practice already carries the needed construction and comparison, use it without another pass. Reopen the selected synthesis if an equally usable simpler treatment preserves these distinctions at lower burden. [Testing Changes](https://www.ihi.org/library/model-for-improvement/testing-changes), [Implementing Changes](https://www.ihi.org/library/model-for-improvement/implementing-changes).
 
 **Subtraction deserves consideration, not automatic preference.** Adams and colleagues' experiments support including subtractive possibilities explicitly when people generate changes; they do not show that removal generally outperforms addition. Later work reports task and population variation and further bounded replication. **Adapt** the candidate search in 4.4 to include ending or removing work; **reject** subtraction as the selection rule. An added preventive check can win, as 5.1 shows. Reopen the search cue if evidence for the actual reader and task makes it ineffective or unnecessarily burdensome. [Adams et al., 2021](https://doi.org/10.1038/s41586-021-03380-y), [Juvrud et al., 2024](https://doi.org/10.1038/s41598-024-51549-y), [Fillon et al., 2025](https://doi.org/10.1002/jocb.1535).
 
