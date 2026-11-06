@@ -257,7 +257,7 @@ These questions connect the pattern-specific answers. Reuse a qualified local re
 
 Participants can stop with a useful bounded answer, preserve meaningful alternatives and commit only what the present basis supports. A qualified negative result can save work; a small preparation can keep a larger choice open; and a timely signal can change one commitment without discarding independent results.
 
-The language requires comparison effort, source qualification and attention to shared conditions. It does not remove uncertainty or guarantee a superior outcome. Some questions remain blocked by unavailable evidence, capability or authority, and a worthwhile current course can coexist with that limit.
+The language requires comparison effort, source qualification and attention to shared conditions. Some questions remain blocked by unavailable evidence, capability or authority, and a worthwhile current course can coexist with that limit.
 
 ## STR.Reference:11 - Architectural Rationale - Why a connected repertoire?
 
@@ -363,7 +363,7 @@ Use this when plausible answers about a worthwhile contribution, its obtaining w
 
 The first useful move is to take the proposed choice or the answer that just changed and ask what it relies on and what relies on it. Recover the actual contribution, way and commitments implicated by that question. The result is a connected strategic judgement, a worthwhile next inquiry or construction, or a specific reason not to commit yet.
 
-Use a direct STR Method when its current result already answers the question. Do not reconstruct an entire strategy to interpret one settled signal, apply a known eligibility rule or make a sufficiently supported bounded choice. STR.14 handles an identified conflict among simultaneous strategic work; this Method also helps form a coherent proposal before such a conflict is known. It does not supply missing professional capability, evidence or authority.
+Use a direct STR Method when its current result already answers the question. Do not reconstruct an entire strategy to interpret one settled signal, apply a known eligibility rule or make a sufficiently supported bounded choice. STR.14 handles an identified conflict among simultaneous strategic work; this Method also helps form a coherent proposal before such a conflict is known.
 
 ### STR.18:2 - Problem
 
@@ -409,7 +409,7 @@ Compare the assembled account with its serious alternative at the same scope. Re
 
 When a condition changes, identify the claim it defeats or leaves uncertain and trace the dependent choice. For example, loss of data access can block one diagnostic option without invalidating observed customer difficulty; an improved device can remain useful while a service proposal lacks incident cover. Revise the affected way or commitment, retain independent evidence and return to the responsible decision holder. The account can finish with that bounded judgement; unresolved wider ambitions do not force another cycle now.
 
-Recognition does not establish assurance. Incompatible answers justify using this Method, but a claim about demand, technical performance, financial viability or a participant's authority needs its own support. Preserve those qualifications in the whole judgement. An attractive diagram of connections does not supply them.
+Recognition does not establish assurance. Incompatible answers justify using this Method, but a claim about demand, technical performance, financial viability or a participant's authority needs its own support. Preserve those qualifications in the whole judgement.
 
 ### STR.18:5 - Archetypal Grounding
 
@@ -464,7 +464,7 @@ The framework's [source-use account (STR.Sources:1)](#strsources1---source-use-a
 
 The serious smaller alternative is a competent direct strategic comparison that already exposes its purposes, obtaining ways, constraints and authority. Reuse it. The additional move is warranted when apparently adequate partial answers fail to establish their joint use: SensorCo's successful preparation, feasible resource allocation and authority for a later trial answer different questions. Connecting them prevents an unsupported commitment without forcing another experiment or a complete annual-planning exercise.
 
-This is a grounded methodological synthesis with conditional worked applications, not a claim of comparative organizational effectiveness. Reopen when an adequate existing Method supplies the whole judgement more simply, a new source changes a consequential supplier, or actual use exposes a missing join or unnecessary burden. Naming the whole does not establish a cognitive or learning advantage for its mnemonic.
+This is a grounded methodological synthesis with conditional worked applications, not a claim of comparative organizational effectiveness. Reopen when an adequate existing Method supplies the whole judgement more simply, a new source changes a consequential supplier, or actual use exposes a missing join or unnecessary burden.
 
 ### STR.18:12 - Relations
 
@@ -1579,7 +1579,7 @@ Grouping by contribution makes comparisons fair without requiring every strategi
 
 **How should alternatives survive exploration?** Adapt the set-based line synthesized in [Toche, Pellerin and Fortin's 2020 review](https://doi.org/10.1017/dsj.2020.16) and the bounded margin-based comparison in [Al Handawi and colleagues' 2024 study](https://research.chalmers.se/en/publication/542239). The serious rival is early commitment, which reduces carrying cost. Sections 4.3–4.4 retain alternatives only when their future contribution warrants that cost and use material feasibility information to narrow them. The review notes implementation gaps; the later demonstration concerns a simulated aeroengine component. Their transfer to strategic options is a reasoned adaptation, not a universal superiority claim.
 
-For **finding an unknown way**, recover the desired change, seek an existing or neighboring Method, explain a candidate obtaining relation and refine it only far enough for the receiving decision. The synthesis separates problem discovery, way generation, comparison and execution. Sections 4.2 and 5.3 make that search usable without treating every idea as supported or requiring novelty when an adequate Method exists. Neighboring search is a useful source of candidates, not a claim that all Methods necessarily originate outside the practice.
+For **finding an unknown way**, recover the desired change, seek an existing or neighboring Method, explain a candidate obtaining relation and refine it only far enough for the receiving decision. The synthesis separates problem discovery, way generation, comparison and execution. Sections 4.2 and 5.3 make that search usable without treating every idea as supported or requiring novelty when an adequate Method exists.
 
 For **developing material into further possibilities**, the pattern combines variation, examination and usable continuation. Two computational demonstrations provide bounded comparisons: [DGM's fixed-task branching, v3 §3](https://arxiv.org/html/2505.22954v3#S3), and [POET's problem generation and target-tested transfer, v3 §§3 and 6](https://arxiv.org/html/1901.01753v3). Sections 4.4–4.5 give a separate entry when problems and ways change together. The strategic method is a synthesis; neither computational demonstration validates its use for human creativity. Scores and archive policies do not perform generation, and neither source makes novelty a guarantee of a useful strategic result.
 
@@ -1719,7 +1719,7 @@ Before starting, state the bounded claim: each participating client will choose 
 
 If both deliveries meet these conditions, the result supports considering the same limited offer next month. If delivery exceeds the allowance, revise the format or decline continuation; willingness to pay does not fix capacity. If inputs prevent delivery, return that limitation rather than reporting a successful test. Two sessions support only these bounded claims, not a population conversion rate.
 
-The rival is using those four hours to improve diagnostic guidance for existing clients. This test is sensible only if the bounded answer can improve the coming offer enough to justify that sacrifice. It is not a universal recommendation to every professional.
+The rival is using those four hours to improve diagnostic guidance for existing clients. This test is sensible only if the bounded answer can improve the coming offer enough to justify that sacrifice.
 
 #### STR.7:5.3 - A demonstration, a manual service or a working mechanism?
 
@@ -2050,7 +2050,7 @@ Enterprise examples can also make formal reorganization seem inevitable. Compare
 
 The strategic comparison receives a supported feasibility claim, a narrower option or a specific missing contribution. Realization work can target the limiting condition, and already adequate means remain usable.
 
-The account does not eliminate uncertainty. Some dependencies will need qualified external answers or observation of representative work. Keep the strategic return bounded so that it neither promises unrealized capability nor expands into every supporting profession's full task.
+Some dependencies will need qualified external answers or observation of representative work. Keep the strategic return bounded so that it neither promises unrealized capability nor expands into every supporting profession's full task.
 
 ### STR.8:10 - Rationale
 
@@ -2172,7 +2172,7 @@ Financial option valuation belongs to its qualified method and inputs. This patt
 
 #### STR.9:4.6 - Return the comparison at its supported scope
 
-State the preferred option or retained set under the chosen basis, the reason it beats the serious rival, the reversal conditions and the unresolved limits. A qualified recommendation, an infeasibility result or a worthwhile next inquiry can be complete.
+State the supported comparison under the chosen basis, any justified preference over a serious rival, the reversal conditions and the unresolved limits. A retained set, qualified recommendation, infeasibility result or worthwhile next inquiry can be complete.
 
 Use STR.7 only when an attainable experiment could improve the choice enough to warrant its burden. STR.10 examines commitment consequences that remain unresolved, and STR.11 supports the separately authorized choice. Keep comparison, selection and actual resource commitments distinct.
 
@@ -2268,7 +2268,7 @@ Flexibility can be overvalued by people who enjoy exploration and undervalued by
 - The comparison identifies holding regions, reversals and material common failures.
 - Future exercise has a responsible chooser, attainable timing and a carrying or switching cost.
 - A dominance claim is supported under its stated rule and is not treated as selection.
-- The return states why an option beats a serious rival and what could change that conclusion.
+- The return states the supported comparison, any justified preference over a serious rival, and what could change that conclusion.
 
 ### STR.9:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -3588,7 +3588,7 @@ At a proposed connection between branches, make the receiving action explicit:
 
 To test a claimed dependency, remove the supplying result in thought while keeping the other conditions fixed. Identify the specific receiving operation that becomes impossible or inadequate. If existing knowledge still supports the product, the new research is not a prerequisite for that product. Its scientific worth can remain a separate reason to fund it. If an unknown operation is indispensable to the product promise, either construct it, commission an appropriately bounded inquiry, use another way, or narrow the promise. A research schedule cannot guarantee discovery.
 
-For each real dependency, explain why the supplied result meets the receiver's conditions. A general method account may need a subject model, permitted data, an interpretation and a preparation arrangement before it can be used. Perform that connection on a representative piece of material. A matching title is not enough. Retain a gap when the necessary operation remains unknown, but continue every branch whose grounds do not depend on it.
+For each real dependency, explain why the supplied result meets the receiver's conditions. A general method account may need a subject model, permitted data, an interpretation and a preparation arrangement before it can be used. Perform that connection on a representative piece of material. Retain a gap when the necessary operation remains unknown, but continue every branch whose grounds do not depend on it.
 
 Distinguish development of content from its first use and its later improvement. An AI-produced explanation might help a practitioner perform a familiar operation immediately. A new reusable method requires its own construction and grounds; a new capability requires evidence about the subject that acquired it. Include the actual context, tools, interpretation, checking and repair needed by the chosen AI use in its demand.
 
@@ -3824,7 +3824,7 @@ Use these questions to examine the construction, not as a separate form required
 - Does the comparison retain protected conditions, meaningful characteristic scales, uncertainty, displaced work and the actual accepted trade-off?
 - Can the next performer identify what is now authorized and what remains conditional?
 - Does a changed shared contribution reopen its affected uses without needlessly stopping independent branches?
-- After success, can the organization identify a worthwhile next development question without mistaking routine repetition for a new capability?
+- Where further development is intended, can the organization identify a worthwhile next development question after success without mistaking routine repetition for a new capability?
 
 These questions can establish the intelligibility and conditional coherence of the proposal. Empirical effectiveness, safety, research truth, learning transfer and actual organizational capability need their own evidence.
 
@@ -3846,9 +3846,9 @@ These questions can establish the intelligibility and conditional coherence of t
 
 The organization obtains a portfolio it can reason about and take into action through bounded decisions. Shared support becomes an explicit contribution with costs and receivers. Independent research and cultural work can remain visible without invented sales dependencies. A resource change can lead to a precise reconstruction rather than an indiscriminate cut.
 
-The construction costs joint attention and qualified estimates. It can expose that a desired combination is currently unavailable. Sharing can create common failure and maintenance obligations; separate provision can create repetition and divergence. Neither cost disappears because the portfolio is well explained.
+The construction costs joint attention and qualified estimates. It can expose that a desired combination is currently unavailable. Sharing can create common failure and maintenance obligations; separate provision can create repetition and divergence.
 
-The result supports a start and subsequent reconsideration. It supplies no guarantee that research will produce a preferred answer, clients will buy, a participant will learn, or the organization will acquire the intended capability.
+The result supports a start and subsequent reconsideration.
 
 ### STR.16:10 - Architectural Rationale
 

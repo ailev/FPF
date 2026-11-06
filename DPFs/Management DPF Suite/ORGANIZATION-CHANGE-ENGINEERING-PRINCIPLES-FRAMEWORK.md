@@ -1096,7 +1096,7 @@ A chart view can show possible position descriptions; a process view recurring r
 
 The small set needs no Archive or Front. `C.17` may characterize diversity or novelty after the three concepts exist. If later exploration retains many variants and lineage across decisions, that new use can invoke `C.18`.
 
-If the authorized decision-maker must decide before provider and capacity evidence arrives, the honest result is a narrowed choice between functional repair and stream/enabling plus named probes. Selection supplies design constraints; realization and observation must establish the proposed configuration.
+If the authorized decision-maker must decide before provider and capacity evidence arrives, return the comparison with each candidate's supported and unresolved conditions. Make only the bounded choice those grounds permit, or return the specific missing result; propose a probe only when its attainable answer warrants the full burden and its required conditions can be met. Selection supplies design constraints; realization and observation must establish the proposed configuration.
 
 **Change the setting and the available evidence.** In a member-governed standards association, the comparable difficulty may be late cross-language evidence in an amendment packet. Missing volunteer activity logs leave the source of delay uncertain, but permitted packet revisions and two contributor accounts show repeated requests for clarification. Retaining language specialists with an explicit clarification return is an incumbent repair. A shared editorial group is another candidate only if volunteers can contribute in compatible windows and the relevant body can establish the proposed arrangement. Suppose the bylaws reserve acceptance to voting members. Giving that decision to a paid coordinator would violate the authority condition; concentrating clarification in one language could also suppress other language groups' concerns. Retain those decisions, compare a bounded editorial contribution with the distributed repair, and carry the unresolved delay explanation forward. The same constructive reasoning yields different arrangements because authority, participation and receiving use differ.
 
@@ -1880,7 +1880,7 @@ The question is how to make E27's provider-artifact integration possible in the 
 
 **Adopt** that reuse in section 4.0 and step 1. The OCE coordination adds value when establishing a changed contribution requires several owner-specific results to fit together and the existing service instruction does not obtain that combination. **Adapt** the same action-specific reasoning into step 8: compare the results' holders, resources and windows for the common contribution, obtain a changed result only from the owner entitled to supply it, and preserve supported partial work. Section 5's delayed federation/rig-window case demonstrates that return.
 
-Compare total effort for the same integration result. A maintained service instruction costs preparation, owner inquiry, provision, exception handling and upkeep; reusing it while the assignment and dependencies remain stable avoids reconstructing those settled answers. Explicit coordination adds recovery of cross-owner dependencies, joint timing inquiry, waiting and rechecking after changes. Accept that cost when no current instruction supplies the needed combination and failure would otherwise be discovered at integration. It can avoid a wasted attempt while returning a precise remaining dependency, but neither saved time nor successful capability is guaranteed. If the service arrangement already coordinates the same results and changed-condition returns, it is sufficient; OCE adds no mandatory second case, record or approval.
+Compare total effort for the same integration result. A maintained service instruction costs preparation, owner inquiry, provision, exception handling and upkeep; reusing it while the assignment and dependencies remain stable avoids reconstructing those settled answers. Explicit coordination adds recovery of cross-owner dependencies, joint timing inquiry, waiting and rechecking after changes. Accept that cost when no current instruction supplies the needed combination and failure would otherwise be discovered at integration. It can avoid a wasted attempt while returning a precise remaining dependency. If the service arrangement already coordinates the same results and changed-condition returns, it is sufficient; OCE adds no mandatory second case, record or approval.
 
 An appointment letter or completed account mistaken for complete readiness remains a failure example in sections 2 and 8. Waterson's human–AI function-allocation work helps reveal relevant dependencies during design; it is not the method that establishes this appointment, access or authority. Reopen the selection when coordination overhead exceeds the consequence it prevents, a service instruction covers the changed contribution adequately, or a needed relation lacks a usable governing rule.
 
@@ -2096,7 +2096,7 @@ Compare answers for the same weekly inspection-software contribution, product fa
 
 The OCE construction is selected when the unresolved question crosses product and organization authority or includes a consequential shared or independent relation. **Construct** the explicit organization-only, product/service-only, joint and bounded-mismatch comparison in steps 5–9 using `C.32.CONWAY` and the two owners' domain methods. It asks, for example, whether preserving independent acceptance and a shared rig is better than paying for a product redesign or organization migration. The partial-correspondence continuation in section 5 retains a wider knowledge boundary and shows why one observation revises only the organization, while changed calibration dependencies require both owners to decide again.
 
-The extra work is recovery of two architecture accounts, consultation, investigation of alternatives and maintenance of shared assumptions. Accept it when it can avoid transferring an unresolved burden to the other side or distinguish a feasible mismatch from an infeasible alignment. This is a deliberate effort/coverage trade-off, not a claim that four-form comparison is cheaper for ordinary software changes. Compare preparation, migration, recurring operation and later revision together; reuse DORA or another established practice when it already supplies the same qualified alternatives and decisions. More candidate descriptions alone produce no benefit.
+The extra work is recovery of two architecture accounts, consultation, investigation of alternatives and maintenance of shared assumptions. Accept it when it can avoid transferring an unresolved burden to the other side or distinguish a feasible mismatch from an infeasible alignment. This is a deliberate effort/coverage trade-off, not a claim that four-form comparison is cheaper for ordinary software changes. Compare preparation, migration, recurring operation and later revision together; reuse DORA or another established practice when it already supplies the same qualified alternatives and decisions.
 
 The wider comparison retains the contingent research line in section 11.2; DORA's software guidance supplies no universal institution or product-domain rule. **Reject** universal mirroring as the decision rule, while retaining it as the failure example in section 8. Reopen when added coordination does not change a decision, a sufficient narrower method becomes available, or a new product, provider or operating condition changes the accepted burden or correspondence.
 
@@ -2529,7 +2529,7 @@ Keep improvement at the right scale. A platform defect returns to its platform o
 
 #### OCE.9:4.7 - When stronger assurance is needed
 
-For a consequential capability reliance, use A.2.2 and A.10 to qualify the capability and evidence rather than extrapolating from the demonstration. If the account asserts precise dated Work or a change attributed to the intervention, independently establish the performer through A.13 and the Work/change claim through A.15.1 and A.3.4; add assignment-bound attribution only when it is used. When Method enactment is claimed, identify the Method enacted in the actual Work.
+For a consequential capability reliance, use A.2.2 to qualify the capability and evidence rather than extrapolating from the demonstration. Use A.10 when the source-to-use account remains implicit or must remain replayable. If the account asserts precise dated Work or a change attributed to the intervention, independently establish the performer through A.13 and the Work/change claim through A.15.1 and A.3.4; add assignment-bound attribution only when it is used. When Method enactment is claimed, identify the Method enacted in the actual Work.
 
 A claim that this intervention caused the improvement requires the relevant causal-use qualification through C.28. Ordinary observation can support a narrower continuation or repair without making that causal claim.
 
@@ -2617,11 +2617,11 @@ A sponsor can choose an easy demonstration or hide exceptional assistance. Inclu
 
 ### OCE.9:9 - Consequences
 
-The organization obtains or reuses a small contribution with inspectable limitations, and any next repair becomes specific. New realization can require participant time, suitable practice, support, displaced service and observation; those costs are not justified by the OCE name. In section 5.1.2, adequate implementation ends the work, while lost support warrants the same ten-hour repair under either approach only on the accepted service trade-off. A narrower result or deferral can be more useful than an unsupported declaration that the whole change is implemented.
+The organization obtains or reuses a small contribution with inspectable limitations, and any next repair becomes specific. New realization can require participant time, suitable practice, support, displaced service and observation. In section 5.1.2, adequate implementation ends the work, while lost support warrants the same ten-hour repair under either approach only on the accepted service trade-off. A narrower result or deferral can be more useful than an unsupported declaration that the whole change is implemented.
 
 ### OCE.9:10 - Rationale
 
-A complete small contribution exposes dependencies that isolated deliverables conceal. Exercising its failure return reveals who can challenge, decide and recover when the nominal path breaks. Repeated use tests whether the contribution depends on temporary assistance. Returning observations to the relevant organization, platform, Method or learning question allows development at several scales without merging their results. Competent implementation can already do this work. OCE.9 selects that constructive line and makes the organizational contribution, remaining crossing and bounded capability return explicit; it does not earn another round of implementation. The supported arrangement in section 5.1.2 is sufficient until a relied-on support condition changes. Its continuation adopts the same focused repair and full burden that competent implementation supplies.
+A complete small contribution exposes dependencies that isolated deliverables conceal. Exercising its failure return reveals who can challenge, decide and recover when the nominal path breaks. Repeated use tests whether the contribution depends on temporary assistance. Returning observations to the relevant organization, platform, Method or learning question allows development at several scales without merging their results. Competent implementation can already do this work. OCE.9 selects that constructive line and makes the organizational contribution, remaining crossing and bounded capability return explicit. The supported arrangement in section 5.1.2 is sufficient until a relied-on support condition changes. Its continuation adopts the same focused repair and full burden that competent implementation supplies.
 
 The same action can help perform an encompassing contribution at that moment; it need not merely produce an input for a later task. This explains why knowing the separate steps can leave an intermediate interpretation or coordination unperformable. B.1.5.EW supplies the general recovery, while OCE.9 uses it to obtain a complete organizational contribution. Follow only the connections relevant to this difficulty, retaining external support and sequence relations in their own meanings.
 
@@ -2793,7 +2793,7 @@ Sponsor-centred inquiry can turn valid objections into resistance. Fear of conse
 - Rival explanations that change action have been considered and uncertainty remains visible. A new contrast is selected only for a worthwhile attainable contribution, including design effort, delay and displaced work; a response supported across the rivals can finish without it.
 - A sufficient current response is used directly. Any remaining intervention has a supported mechanism, suitable Method, owner, protection and stop; its comparison includes whole participant and support work, later use and any accepted disadvantage.
 - A claimed performed intervention uses actual observations of use, non-use, burden and receiving consequences. A recommendation, current continuation or selected probe is not reported as a newly performed intervention.
-- A cultural claim includes transmission, recognition and later use within a named population and window.
+- A cultural claim identifies its relation, population and window, with supporting evidence for that claim. A claim that working practice has changed or continued includes the later-use observations in step 4.5.
 - A stronger causal or professional claim is not inferred from a local participation result.
 
 ### OCE.10:8 - Common Anti-Patterns and How to Avoid Them
@@ -2933,7 +2933,7 @@ Return the actual overlap and service consequences, not merely the plan. An hone
 
 #### OCE.11:4.7 - Stronger assurance follows the receiving claim
 
-Use the direct operating and professional governors for service capability, safety, fatigue, security, legal authority or reliability. A.10 governs the evidence used; C.11 governs a precise choice claim. If the account asserts dated Work, performer or transformation claims, qualify them through A.13, A.15.1 and the relevant change governor rather than inferring them from an allocation table.
+Use the direct operating and professional governors for service capability, safety, fatigue, security, legal authority or reliability. Use A.10 when the source-to-use account remains implicit or must remain replayable; C.11 governs a precise choice claim. If the account asserts dated Work, performer or transformation claims, qualify them through A.13, A.15.1 and the relevant change governor rather than inferring them from an allocation table.
 
 For an ordinary bounded coordination decision, retain only the facts that change the allowed overlap, stop, recovery or hand-back. The Method does not require a portfolio office, a universal capacity model or a new record for every observation.
 
@@ -3197,7 +3197,7 @@ The account can overvalue formal courses, the current manager's knowledge or an 
 
 The learning and work plans constrain each other early enough to expose a missing receiving opportunity or incompatible allocation. Adequate existing provision can be retained. The arrangement can also cost more than current competent delivery because it intentionally develops another performer. Its value depends on that further result and its actual use, not on having arranged training.
 
-The Method does not guarantee promotion, employment, instructional effectiveness or a lasting culture. It makes the conditions and separate decisions obtainable and revisable at the scope of the transition.
+The Method makes the conditions and separate decisions obtainable and revisable at the scope of the transition.
 
 ### OCE.18:10 - Rationale
 
@@ -3270,7 +3270,7 @@ The practitioner needs to assemble the consequences that can change the decision
 
 Choose the consequence questions from the receiving decision, obtain or reuse observations at their supported scope, compare them without hiding conflicting effects, and state the next usable result or gap.
 
-Recognition needs only a consequential unanswered question. Assurance depends on how the comparison will be used. An ordinary count under an agreed procedure can support a bounded descriptive claim. A patient-effect estimate, a causal claim, a general reliability claim or an assertion about a whole population requires the corresponding professional method and evidence. More polished reporting does not strengthen the underlying claim.
+Recognition needs only a consequential unanswered question. Assurance depends on how the comparison will be used. An ordinary count under an agreed procedure can support a bounded descriptive claim. A patient-effect estimate, a causal claim, a general reliability claim or an assertion about a whole population requires the corresponding professional method and evidence.
 
 #### OCE.13:4.1 - Start with the decision and what could change it
 
@@ -3425,7 +3425,7 @@ Participant evidence can expose what records omit, but contributors may face une
 
 The practitioner obtains a result that can support a specific next decision without concealing displaced work or overstating causation. A useful local contrast can survive an unresolved wider question, and a missing observation becomes an actionable request rather than a vague demand for more study.
 
-The cost includes participants and providers as well as analysis: comparability, access, interpretation, reconciliation, return, displaced work and continued support while waiting. An existing competent result can avoid a new inquiry. An extension may instead justify greater effort for an earlier or better-supported choice, as in PumpWorks; neither its narrower scope nor its OCE label proves economy. A late or inaccessible result can make a narrower return, permitted deferral or separately authorized precaution the better continuation.
+The cost includes participants and providers as well as analysis: comparability, access, interpretation, reconciliation, return, displaced work and continued support while waiting. An existing competent result can avoid a new inquiry. An extension may instead justify greater effort for an earlier or better-supported choice, as in PumpWorks. A late or inaccessible result can make a narrower return, permitted deferral or separately authorized precaution the better continuation.
 
 ### OCE.13:10 - Rationale
 
@@ -3756,7 +3756,7 @@ A sufficient current Method or result can finish the use directly. Otherwise the
 
 Recognizable schools and recipes make communication cheap but hide unlike functions: diagnosis, participation, strategy, process guidance, determinant analysis, evaluation, training, reinforcement, structural change, resource provision, and cultural work. A complete sequence is often applied when one bounded repair would do.
 
-A useful OCE Method result therefore preserves what each item is for, its candidate or admitted status, situation claims, mechanism hypotheses, implementation outcomes, organization results, and adaptation triggers. The harder situation is a competent current practice that obtains today's result with help, while a changed receiving contribution exposes a missing reusable move. The practitioner must decide whether to keep that adequate supported continuation, repair its conditions, or develop a different procedure. Naming the desired fields in a procedure does not make that choice or construct its actions.
+A useful OCE Method result therefore preserves what each item is for, its candidate or admitted status, situation claims, mechanism hypotheses, implementation outcomes, organization results, and adaptation triggers. The harder situation is a competent current practice that obtains today's result with help, while a changed receiving contribution exposes a missing reusable move. The practitioner must decide whether to keep that adequate supported continuation, repair its conditions, or develop a different procedure.
 
 ### OCE.15:2 - Problem
 
@@ -4416,7 +4416,7 @@ This makes diagnosis by case comparison practical. A preserved result under a ne
 
 ### OCE.17:11 - SoTA-Echoing
 
-The practice question is how to keep a needed OCE result obtainable when its apparent continuation changes. The serious current alternative is competent, case-sensitive implementation support that can inquire, adapt explanation and participation, obtain qualified help and reassess later use. The selected line retains that strength: use sufficient current provision directly, then compare only a missing OCE contribution under the actual case, access and timing conditions. It does not claim that adding an OCE label improves an otherwise identical operation.
+The practice question is how to keep a needed OCE result obtainable when its apparent continuation changes. The serious current alternative is competent, case-sensitive implementation support that can inquire, adapt explanation and participation, obtain qualified help and reassess later use. The selected line retains that strength: use sufficient current provision directly, then compare only a missing OCE contribution under the actual case, access and timing conditions.
 
 **Recover the practice being continued.** Identify operative Methods across descriptions, instruments and practitioners, and examine repeated Work in unlike settings. Sections 4.1–4.2 and the cases show how exposure, support, use and continuation can differ.
 
