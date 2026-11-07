@@ -81508,7 +81508,7 @@ For archive or pool treatment use C.18 or C.19; for a selected-set result use G.
 
 #### C.36:4.3 - Evolution Sense Split
 
-When generic *development* or *evolution* wording still hides the changed or represented subject, needed continuity or membership, posture, direction or value basis, or direct owner, enter through `E.10.DEV` before this split. A recovered cultural-population or discipline-facing variant claim may continue here. A non-cultural population or lineage without an admitted owner remains the exact architecture gap returned by `E.10.DEV`; do not substitute C.36. Open `E.10.MOVE` afterward only when a separately relied-on trajectory, route, path, ordering, posture, or representation ambiguity remains.
+When generic *development* or *evolution* wording still hides the changed or represented subject, needed continuity or membership, posture, direction or value basis, or direct owner, enter through `E.10.DEV` before this split. A recovered cultural-population or discipline-facing variant claim may continue here. For a non-cultural population or lineage, use the domain-account branch of `E.10.DEV`: a sufficient supported account can finish the use; an architecture gap remains only when that FPF use needs a definition or relation the available account does not supply. Open `E.10.MOVE` afterward only when a separately relied-on trajectory, route, path, ordering, posture, or representation ambiguity remains.
 
 Then use this cultural split:
 
