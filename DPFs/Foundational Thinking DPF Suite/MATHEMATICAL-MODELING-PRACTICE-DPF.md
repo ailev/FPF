@@ -2247,7 +2247,7 @@ If the remaining difference is worth a new observation, return the distinguishin
 
 Recalculate the original discrepancy and the receiving quantity under the revision. Adding a term to an equation leaves both questions unfinished. Show what changes and what remains unchanged.
 
-Compare with the previous model and a serious sufficient alternative on the same available basis. A simpler model can be preferable when its retained result suffices and the added component contributes only estimation noise or cost. A better average score can coexist with a worse consequential tail or subgroup prediction; inspect that conflict directly.
+Compare the revised consequence with the previous one on the same relevant basis. Compare another available model or a narrower use when it can change the choice of repair. A simpler model can be preferable when its retained result suffices and the added component contributes only estimation noise or cost. A better average score can coexist with a worse consequential tail or subgroup prediction; inspect that conflict directly.
 
 Distinguish **repair construction** from **assessment of the repaired prediction**. Reproducing the data that motivated the revision shows what the revision accommodates. An untouched set of suitable existing records can assess a forecast fixed before those records are inspected. When repeated tuning consumes that set, it becomes part of development. If the needed performance claim concerns the whole adaptive procedure, its assessment must include that adaptation, for example through a suitable outer split; it is not a test of one retrospectively selected fit.
 
@@ -4614,7 +4614,7 @@ The practice question is how to compare interacting method contributions without
 
 **Compositional contracts versus whole-model verification.** [Dewes and Dimitrova, *Contract-based Design and Verification of Multi-Agent Systems with Quantitative Temporal Requirements* (AAAI 2025), §§4–6](https://arxiv.org/html/2412.13114v1) supplies a contemporary construction for local obligations, shared requirements and modular verification. Its experiments show a trade-off: smaller component checks can avoid the memory burden of a whole-model check, while their overhead can lose on small specifications. **Adapt** :4.4–:4.6 to check assumption compatibility and reopen dependent conclusions after changes. Retain a short whole-model argument when it suffices. The source's temporal logic, quantitative combination rule and computational-agent assumptions are not universal requirements for Method comparison.
 
-For operation regrouping and interpretation, MATH.17 and MATH.18 provide the general mathematical constructions used in :5.1 and :5.3. A categorical presentation can package established composition laws, but supplies no shortcut around the operation, observation and correspondence tests. No such formalism is needed for the worked decisions.
+For operation regrouping and interpretation, MATH.17 and MATH.18 provide the general mathematical constructions used in :5.1 and :5.3.
 
 These sources supply mathematical and computational modeling methods, not empirical proof that a proposed organizational arrangement improves work. C.39.RQ supplies the situated criteria, and C.29 governs application of the derived consequence. Reopen the comparison when a new source method answers the same practical question with less effort or when a material work distinction defeats the present model.
 

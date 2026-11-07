@@ -2057,11 +2057,11 @@ The working question is how to construct a missing mathematical argument from av
 
 Avigad, Lewis and van Doorn's [Logic and Proof, §3.3](https://leanprover-community.github.io/logic_and_proof/natural_deduction_for_propositional_logic.html#forward-and-backward-reasoning) gives an explicit account of the two reasoning directions and hypothesis scope. The current [Theorem Proving in Lean 4, Tactics](https://lean-lang.org/theorem_proving_in_lean4/Tactics/) shows how applying a result creates premise goals and how local intermediate claims organize a derivation. Here those contributions inform :4.1-.3/:4.5; using Lean is optional.
 
-Tao's [mathematical research advice](https://www.math.ucla.edu/~tao/advice.html) connects progress at lemma scale with the larger problem and recommends changing the point of attack when present methods are insufficient. The pattern gives that move concrete form through a failed intermediate claim and its revised continuation. This source is methodological advice, not a completeness guarantee for proof search.
+Tao's [mathematical research advice](https://www.math.ucla.edu/~tao/advice.html) connects progress at lemma scale with the larger problem and recommends changing the point of attack when present methods are insufficient. The pattern gives that move concrete form through a failed intermediate claim and its revised continuation.
 
 A direct calculation or an already applicable theorem is preferable when it settles the claim with less effort. Unstructured forward manipulation becomes a poor alternative when it leaves the target unchanged; a single backward chain becomes a poor alternative when its generated premise cannot be obtained. The adopted combination changes :4.2-.4, as the missing commutation lemma and accumulator generalization demonstrate.
 
-The sources provide construction methods and inspectable formal mechanisms. They do not make the proposed heuristic complete for all mathematical theories. Reopen the chosen proof route when a premise changes, a lemma fails, a better theorem or representation becomes available, or the receiver needs a constructive output or execution property not yet supplied.
+The sources provide construction methods and inspectable formal mechanisms. Reopen the chosen proof route when a premise changes, a lemma fails, a better theorem or representation becomes available, or the receiver needs a constructive output or execution property not yet supplied.
 
 ### MATH.19:12 - Relations
 
@@ -3192,7 +3192,7 @@ For constructing polynomial expressions from update rules, **adapt** Bayarmagnai
 
 For count transformations, **adapt** the conserved linear expression described by Gopalkrishnan in *Autocatalysis in Reaction Networks*. The weighted-exchange derivation in :5.1 makes such a quantity available instead of assuming an unweighted total. Equal values still require a reachability construction. The source's chemical-network results need their own premises; they are not used to identify the counted kinds in this mathematical example. A changed exchange rule reopens the weight equations. [Author's account](https://johncarlosbaez.wordpress.com/2013/10/11/autocatalysis-in-reaction-networks/).
 
-The three worked constructions and their changed conditions are derived here. The source algorithms do not establish that these mathematical rules describe a particular physical system or implementation.
+The three worked constructions and their changed conditions are derived here.
 
 ### MATH.11:12 - Relations
 
@@ -3604,7 +3604,7 @@ Milne's [*Group Theory*, version 4.01, November 2025](https://www.jmilne.org/mat
 
 [Bronstein, Bruna, Cohen and Veličković, *Geometric Deep Learning*, chapter 3, §3.1](https://geometricdeeplearning.com/book/algebraicpriors.html) distinguishes the structure preserved by an automorphism from a change to an isomorphic object. **Adapt** that distinction to a relation between problem data and solutions. A fixed mark or coefficient can change the available symmetries.
 
-The selected construction competes with direct calculation or a ready classification. It is useful when one preservation argument replaces repeated solution work or exposes omitted families. Direct calculation remains sufficient for a single easy result. The finite examples demonstrate closure and incomplete coverage; they make no comparative performance claim for a solver or learning system.
+The selected construction competes with direct calculation or a ready classification. It is useful when one preservation argument replaces repeated solution work or exposes omitted families. Direct calculation remains sufficient for a single easy result. The finite examples demonstrate closure and incomplete coverage.
 
 Reopen when the action, data, solution relation, equality procedure or requested return changes. A more effective orbit-generation or canonicalization method can replace the finite implementation while retaining its required mathematical result.
 
@@ -3859,7 +3859,7 @@ Orbit-by-orbit construction is preferable when its fixed-point test settles exis
 
 [Dym, Lawrence and Siegel, Equivariant Frames and the Impossibility of Continuous Canonicalization, 2024](https://arxiv.org/html/2402.16077), §2.2, separates orbit and group canonicalization and examines continuity; §6 retains stabilizer-related conditions when extending weighted constructions to equivariant outputs. **Adopt** the separate regularity question in :4.4. Their weighted-frame methods address additional geometric-learning requirements; they are not replaced by the finite construction here.
 
-An arbitrary tie-break is cheaper but can fail the requested transformation law. A supplied direct rule with that law is preferable when it already works. The orbit construction earns its cost by revealing impossible outputs or generating a consistent rule. The cases demonstrate those differences; they do not compare runtimes of geometric-learning implementations.
+An arbitrary tie-break is cheaper but can fail the requested transformation law. A supplied direct rule with that law is preferable when it already works. The orbit construction earns its cost by revealing impossible outputs or generating a consistent rule. The cases demonstrate those differences.
 
 Reopen when the input attributes, action, permitted answer, demanded regularity or available construction changes.
 
@@ -4699,7 +4699,7 @@ For the conjecture being developed:
 - The starting construction, established result and receiving use are recoverable.
 - A mathematical change explains why the new question arises.
 - Objects, domains, hypotheses, quantifiers and answer form distinguish the proposed claim.
-- A proof attempt exposes its needed intermediate relation, and the chosen case tests a consequential condition.
+- If a proof is attempted, its needed intermediate relations are exposed; any case used to investigate the claim tests a consequential condition.
 - A counterexample is classified at the claim, lemma or implementation it actually defeats.
 - A repaired hypothesis, construction or conclusion preserves the distinction between the new question and any earlier unsatisfied need.
 - Generality follows from an argument over the stated class; tested cases retain their actual scope.

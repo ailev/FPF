@@ -213,7 +213,7 @@ For example, a mathematical account can prove that a composed operation preserve
 
 ### CMP.Reference:1.3 - Build a whole, introduce a level, and generalize deliberately
 
-Decomposition proposes parts whose results might help. Synthesis constructs their connection so that the required whole is obtained. Ask both directions: what does the whole require from each contribution, and what can the available contributions actually produce together? A set of individually correct components can lose a needed distinction at their join or rely on incompatible states, observations or progress conditions. CMP.2 develops this question for recursive answers; CMP.14 for interacting computations; CMP.15 for independently extended forms and operations. These are different constructions, not instances of an automatic rule that good parts make a good whole.
+Decomposition proposes parts whose results might help. Synthesis constructs their connection so that the required whole is obtained. Ask both directions: what does the whole require from each contribution, and what can the available contributions actually produce together? A set of individually correct components can lose a needed distinction at their join or rely on incompatible states, observations or progress conditions. CMP.2 develops this question for recursive answers; CMP.14 for interacting computations; CMP.15 for independently extended forms and operations.
 
 Abstraction establishes a useful level of objects and operations. The level retains distinctions needed by its uses while hiding how those operations are obtained below it. It can introduce a compound unit and new operations rather than merely remove detail. A queue, an expression with binding and a summary of a sequence have different useful operations; none is selected just by counting stored fields. [CMP.16](#cmp16---construct-computational-units-and-operations-for-a-required-whole) develops the joint construction of units, admissible operations and their whole behavior. CMP.10 can then compare stored representations for those operations. CMP.13 has a distinct purpose: a cheaper analysis that soundly approximates the behavior being investigated. An analysis may deliberately admit extra possibilities; a replacement implementation must preserve the observations its users rely on.
 
@@ -223,7 +223,7 @@ Levels can be nested: an operation treated as elementary in one algorithm may be
 
 ### CMP.Reference:1.4 - Descriptions can be computed with, and ways can be obtained
 
-A computational description can be represented as data. An interpreter executes its rules; a translator produces another description; an analyzer obtains a claim about possible executions. These are different results. CMP.12 constructs interpretation and meaning-preserving translation, while CMP.13 constructs a sound approximation for an analysis question. Binding, state, control and the chosen observations determine their connection. Calling a text a program supplies none of those rules by itself.
+A computational description can be represented as data. An interpreter executes its rules; a translator produces another description; an analyzer obtains a claim about possible executions. These are different results. CMP.12 constructs interpretation and meaning-preserving translation, while CMP.13 constructs a sound approximation for an analysis question. Binding, state, control and the chosen observations determine their connection.
 
 This enables more than repeated execution. A search can explore descriptions of candidate algorithms, and a learner can obtain a rule from examples or feedback. The outer computation needs an effective candidate representation, ways to propose or change candidates, and a criterion it can actually evaluate. The resulting rule has another use with its own inputs and consequences. CMP.4 supplies justified search exclusions; CMP.6 develops updates from local information; CMP.7 connects the learner, its selected rule and further use. A good update is one contribution to a learner, not a guarantee about every later prediction or action. The Suite Reference's §3.10 develops this connection for learned controllers and changing computational organizations.
 
@@ -241,7 +241,7 @@ Algorithmics forms a connected discipline because its knowledge constrains its r
 
 ### CMP.Reference:1.6 - Use the grounds to choose and revise a method
 
-Start with elementary preparation: following operations on inputs and retained state, recognizing an observation, and distinguishing one execution from the intended family. Individual methods supply additional constructions. Recursion needs a progress relation and an inductive argument; randomization needs a probability account; a numerical update can need variation and error bounds. Obtain a missing contribution through its full supplier before relying on the result it supports. Familiarity with a method's name is not that preparation.
+Start with elementary preparation: following operations on inputs and retained state, recognizing an observation, and distinguishing one execution from the intended family. Individual methods supply additional constructions. Recursion needs a progress relation and an inductive argument; randomization needs a probability account; a numerical update can need variation and error bounds. Obtain a missing contribution through its full supplier before relying on the result it supports.
 
 Follow the actual missing relation. If the answer can be recovered from another solver, CMP.1 can close the need. If joining smaller answers fails, CMP.2 changes what they return. If the available units and operations make the whole awkward or unobtainable, CMP.16 constructs another organization. If repeated work dominates, CMP.3 asks what can be shared; if operations are expensive because of storage, CMP.10 changes the representation. These choices follow from the problem exposed by the common account, not from the order of the Parts.
 
@@ -603,7 +603,7 @@ The reduction retains responsibility for inputs, answers and resource effects at
 
 Effective conversion and answer recovery make reduction a computational method. Mathematical correspondence supplies the relevant implication, while computability and cost determine whether the connection can be used under the stated conditions.
 
-Solver reuse and impossibility belong together because the latter follows by assuming and then constructing the former. Their guarantees and direction remain explicit. The shortest-path and program-wrapper cases demonstrate different uses of that shared method; neither application defines the scope of computational thinking.
+Solver reuse and impossibility belong together because the latter follows by assuming and then constructing the former. Their guarantees and direction remain explicit. The shortest-path and program-wrapper cases demonstrate different uses of that shared method.
 
 C.29.2 already supplies the computational question, representation and ordinary progress account. This pattern develops a missing reduction, its answer relation and the consequence of an available or assumed solver. More specialized algorithm constructions can supply the conversion or the target solver.
 
@@ -787,7 +787,7 @@ MATH.4 supplies witness construction by induction; MATH.12 supplies extraction f
 
 For the construction in :4.2–4.5, an available recurrence or input-structural split is the simpler alternative when it already returns enough information for the join and meets the cost requirement. Strengthening a subanswer is worth its extra work when that simpler return loses the requested result, as the four-value segment construction and coefficient-returning divisor procedure demonstrate. Reconsider this choice when a different output, representation or competing decomposition changes either sufficiency or total cost.
 
-The current [Lean reference on recursive definitions](https://lean-lang.org/doc/reference/latest/Definitions/Recursive-Definitions/) distinguishes structural recursion, well-founded measures and forms of partial or continuing behavior. Adopt the distinction between a missing syntactic decrease and an absent termination argument. Formal encoding can check a consequential or difficult construction; its additional work is unnecessary for simply exploring a decomposition. No particular proof assistant or finite-return account is imposed on every computational process.
+The current [Lean reference on recursive definitions](https://lean-lang.org/doc/reference/latest/Definitions/Recursive-Definitions/) distinguishes structural recursion, well-founded measures and forms of partial or continuing behavior. Adopt the distinction between a missing syntactic decrease and an absent termination argument. Formal encoding can check a consequential or difficult construction; its additional work is unnecessary for simply exploring a decomposition.
 
 ### CMP.2:12 - Relations
 
@@ -1111,7 +1111,7 @@ If a third slot 2 becomes available, the earlier impossibility no longer applies
 
 An early good answer can make unvisited alternatives seem irrelevant. That is a valid stopping choice when the recipient needs only a satisfactory candidate; it does not itself justify an optimum claim. Conversely, insisting on exhaustion can waste resources after further improvement no longer matters.
 
-Bounds deserve attention to their direction and scope rather than confidence-producing names. The relevant distinction is what the bound establishes about possible completions, including the arithmetic and assumptions used to obtain it.
+Examine a bound’s direction and scope. The relevant distinction is what the bound establishes about possible completions, including the arithmetic and assumptions used to obtain it.
 
 ### CMP.4:7 - Conformance Checklist
 
@@ -1121,7 +1121,7 @@ Bounds deserve attention to their direction and scope rather than confidence-pro
 - The incumbent is admissible; each bound has the correct direction and computational support for its use.
 - Learned consequences retain assumptions that limit their reuse.
 - Interrupted work remains represented in the pending possibility, and the returned conclusion matches what was completed.
-- Additional pruning or assurance work is chosen for its useful effect rather than required for its own sake.
+- Additional pruning or assurance work is chosen for its useful effect.
 
 ### CMP.4:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -1558,7 +1558,7 @@ It can also reveal that the available local information is insufficient. A new n
 
 Update construction, finite-step control and stopping belong together because each changes what the algorithm can return. MATH.10 derives conditions from variations and MATH.21 constructs objects through convergence. CMP.6 supplies the effective rule, its repeated execution and the finite answer required from it.
 
-CMP.5 can furnish a bound or an easier update subproblem; CMP.4 explores alternative candidates. CMP.7 can use the update to construct a learner, while keeping optimization progress distinct from performance on further cases. These are complementary algorithmic methods rather than one universal optimizer.
+CMP.5 can furnish a bound or an easier update subproblem; CMP.4 explores alternative candidates. CMP.7 can use the update to construct a learner, while keeping optimization progress distinct from performance on further cases. These are complementary algorithmic methods.
 
 ### CMP.6:11 - SoTA-Echoing
 
@@ -1568,7 +1568,7 @@ CMP.5 can furnish a bound or an easier update subproblem; CMP.4 explores alterna
 
 For the smooth branch, compare a preset step with the upper-model or trial-controlled construction in :4.3 using the same available objective and derivative operations. A known useful L makes the derived step inexpensive; without that information, trial control spends extra evaluations to avoid an unsupported finite step. The quadratic case exhibits a concrete failure of a preset value. Retain a fixed step when its bound already supports the required result; choose trial control when its information gain warrants those evaluations.
 
-For noisy feedback, :4.3.1 composes CMP.9's intervals with a finite-change decision and an error budget across adaptive proposals. It is the appropriate alternative when the receiving work needs a warranted decision about each accepted change. Its sampling can be expensive or leave equality unresolved. In :4.3.2, **adapt** the conditional expected-decrease argument and finite stationarity bound of [Bottou, Curtis and Nocedal, sections 4.1 and 4.3](https://arxiv.org/pdf/1606.04838) to obtain an executable noisy-direction procedure and its budget. This established mathematical line trades per-step improvement for an expected finite-output result; it is not a claim that basic stochastic gradients are the best optimizer for every workload. Exact information remains the simpler choice when it is affordable. Larger batches, better estimators or variance-reduction methods deserve comparison when they improve the same requested result per total work. A changed conditional mean, variance bound, feasible region or output selection reopens the affected argument.
+For noisy feedback, :4.3.1 composes CMP.9's intervals with a finite-change decision and an error budget across adaptive proposals. It is the appropriate alternative when the receiving work needs a warranted decision about each accepted change. Its sampling can be expensive or leave equality unresolved. In :4.3.2, **adapt** the conditional expected-decrease argument and finite stationarity bound of [Bottou, Curtis and Nocedal, sections 4.1 and 4.3](https://arxiv.org/pdf/1606.04838) to obtain an executable noisy-direction procedure and its budget. This established mathematical line trades per-step improvement for an expected finite-output result. Exact information remains the simpler choice when it is affordable. Larger batches, better estimators or variance-reduction methods deserve comparison when they improve the same requested result per total work. A changed conditional mean, variance bound, feasible region or output selection reopens the affected argument.
 
 For a finite discrete neighborhood, direct gain calculation may be simpler than fitting a continuous model. The cut example derives both update and guarantee from those discrete gains. Revisit the chosen direction, acceptance or stopping rule when feedback, admissible moves or a required progress bound changes, or when another construction obtains the same required result at lower total cost.
 
@@ -1595,7 +1595,7 @@ For a finite discrete neighborhood, direct gain calculation may be simpler than 
 
 The situation occurs when learning a classifier, estimating a response, constructing a surrogate, discovering a program or updating a policy. The output may be a symbolic rule, a function represented by weights, a distribution or a retained set of candidate rules. Its required form follows from the intended use.
 
-The gain is a learning procedure with explicit inputs, selection or update operations and a learned result that can be applied at its warranted scope. The reader needs functions, finite examples and a loss or another stated comparison. Probabilistic guarantees require the corresponding additional probability model; no one statistical sampling model is imposed on every learning problem.
+The gain is a learning procedure with explicit inputs, selection or update operations and a learned result that can be applied at its warranted scope. The reader needs functions, finite examples and a loss or another stated comparison. Probabilistic guarantees require the corresponding additional probability model.
 
 Use an existing rule directly when it already serves the purpose. Use an established learner when its inputs, target, restrictions and costs fit. This pattern is needed when those choices or their connection to further use must be constructed or revised. Explaining a learned rule and teaching a person to apply it are distinct tasks, supplied by the explanation and development methods when required.
 
@@ -1706,7 +1706,7 @@ For a concrete instance, let inputs be integers 0 through 4 and let H contain si
 
 Training loss and benchmark performance are visible and easy to optimize. The recipient may instead need a response in a different region or after an intervention. Keep that target explicit so that improving the visible criterion does not silently replace it.
 
-A broad function class or large pretrained model can hide a strong inductive restriction in its representation, training history and obtaining procedure. The relevant question is which continuations it favors and how that choice fits the receiving use. Human-like explanations of a model's behavior do not by themselves supply its learning guarantee.
+A broad function class or large pretrained model can hide a strong inductive restriction in its representation, training history and obtaining procedure. The relevant question is which continuations it favors and how that choice fits the receiving use.
 
 ### CMP.7:7 - Conformance Checklist
 
@@ -1889,7 +1889,7 @@ This repair assumes the receiving requirement concerns f(x). If it instead asks 
 
 ### CMP.8:6 - Bias-Annotation
 
-Numerical language can conceal discrete approximation. The subset construction keeps feasible objects while coarsening selection values; the function construction changes arithmetic while preserving the real function. Neither branch makes calculus, floating-point arithmetic or an optimization objective mandatory for every approximate computation.
+Numerical language can conceal discrete approximation. The subset construction keeps feasible objects while coarsening selection values; the function construction changes arithmetic while preserving the real function.
 
 ### CMP.8:7 - Conformance Checklist
 
@@ -2139,7 +2139,7 @@ When the stopping time follows the observations, **adapt** [Howard, Ramdas, McAu
 
 A sequence can be stored directly or through partial aggregates. A graph can be represented by a matrix or by lists of neighbors. The same relation can have very different computational consequences under those choices. Conversely, a compact representation can lose the multiplicity, ordering or state distinction needed after an update.
 
-The result is a representation with effective read and update operations, a meaning-preservation argument, and a cost comparison for the intended workload. The reader needs the object's relevant operations and elementary algorithm analysis. No particular programming language or hardware is required.
+The result is a representation with effective read and update operations, a meaning-preservation argument, and a cost comparison for the intended workload. The reader needs the object's relevant operations and elementary algorithm analysis.
 
 Keep the existing representation when it already serves the work affordably. Choosing what the subject model should describe is a separate task. Here the target distinctions are sufficiently known to ask how different representations support their computation; a discovered missing distinction returns to that formulation.
 
@@ -2204,7 +2204,7 @@ Include invalidation and synchronization when shared updates are part of the wor
 
 Construct the simplest credible alternative, not only a slower version of the favored structure. Compare raw storage with a precomputed index, full retention with reconstruction, or a compact representation with an expanded one according to the actual operations.
 
-Require preservation of the needed answers before treating reduced cost as improvement. For a deliberate approximation, retain its qualified result and the loss it buys. Use the existing characterization, Pareto and improvement methods when choices trade storage, latency, update work and precision; no single representation must dominate every workload.
+Require preservation of the needed answers before treating reduced cost as improvement. For a deliberate approximation, retain its qualified result and the loss it buys. Use the existing characterization, Pareto and improvement methods when choices trade storage, latency, update work and precision.
 
 Select conversion only when its cost and risk are justified by the expected subsequent use. A mixed strategy can keep a simple base representation and add one index for the consequential query. Its update obligations remain part of the choice.
 
@@ -2238,7 +2238,7 @@ Now attach numeric weights. If zero is used both for an absent edge and for an e
 
 ### CMP.10:6 - Bias-Annotation
 
-Familiar data-structure names can substitute for operation analysis. The examples instead derive the structure from mixed prefix operations or graph access. They assume a sequential computation and state their elementary costs; shared or unusual physical realizations require their corresponding conditions.
+The examples derive the structure from mixed prefix operations or graph access. They assume a sequential computation and state their elementary costs; shared or unusual physical realizations require their corresponding conditions.
 
 ### CMP.10:7 - Conformance Checklist
 
@@ -2367,9 +2367,9 @@ Keep quantum queries or stronger observation primitives outside a classical-quer
 
 State the bound, input family, access, error and cost conditions together. Indicate whether it rules out the requested budget, establishes optimality within an order, or leaves a gap.
 
-Identify a consequential escape: restrict the input by a defensible promise, allow a weaker answer or error probability, acquire an additional observation, preprocess and retain information, use a stronger primitive, or change the representation. Determine which premise of the lower-bound argument that change removes, then construct the new procedure. Renaming the same operations does not escape the bound.
+Identify a consequential escape: restrict the input by a defensible promise, allow a weaker answer or error probability, acquire an additional observation, preprocess and retain information, use a stronger primitive, or change the representation. Determine which premise of the lower-bound argument that change removes, then construct the new procedure.
 
-Use C.11.DUA to decide whether proving a tighter bound or obtaining additional information would change the next move. A sufficient lower bound can already justify changing the task; there is no obligation to solve a harder open complexity question first.
+Use C.11.DUA to decide whether proving a tighter bound or obtaining additional information would change the next move. A sufficient lower bound can already justify changing the task.
 
 ### CMP.11:5 - Archetypal Grounding
 
@@ -2444,7 +2444,7 @@ How can a performance limit cover procedures not yet invented? **Adopt** the dec
 
 For randomized access, **adopt** the explicit separation of deterministic, zero-error, bounded-error and expected-cost models in [Blais's *Randomized Complexity*, query-complexity treatment](https://cs.uwaterloo.ca/~eblais/cs860/w25/queryseparations), for :4.1 and :4.4. The coupled proof in :5.1 supplies its own bound rather than transferring a deterministic adversary unchanged. A direct coupling is lighter than a general minimax argument when it settles the limit; an input-distribution or stronger information method is useful when the simple pair does not. Changed promises, error or cost quantifiers reopen that selection.
 
-The same course's [communication-complexity treatment](https://cs.uwaterloo.ca/~eblais/cs860/w25/communication), following Rao and Yehudayoff's 2020 account, supplies the transcript and public-randomness distinction adapted in :5.3. A full string is the simple zero-error choice; random parity accepts bounded error to reduce communication while retaining local computation and shared randomness. A changed requirement for zero error, private randomness or adaptive adversarial inputs changes the comparison. This bounded choice does not claim that communication, query and physical limits are interchangeable.
+The same course's [communication-complexity treatment](https://cs.uwaterloo.ca/~eblais/cs860/w25/communication), following Rao and Yehudayoff's 2020 account, supplies the transcript and public-randomness distinction adapted in :5.3. A full string is the simple zero-error choice; random parity accepts bounded error to reduce communication while retaining local computation and shared randomness. A changed requirement for zero error, private randomness or adaptive adversarial inputs changes the comparison.
 
 ### CMP.11:12 - Relations
 
@@ -2657,7 +2657,7 @@ How should expression meaning become executable? **Adopt** the constructor-based
 
 Which preservation claim supports actual reuse? **Adopt** the explicit behavioral scope in the current [CompCert manual, section 1.2](https://compcert.org/man/manual001.html), for :4.1 and :4.5. Matching final values is sufficient only for uses governed by those values; interaction and termination can require more. CompCert's theorem has its own language-defined behavior and undefined-behavior treatment, and excludes time and memory consumption from its observed trace. A translator for a language with a defined division error therefore needs the error policy chosen in :5.3, not an imported C-specific permission to remove it. A changed observation or admitted execution context reopens the relation.
 
-For larger compositions, **adapt** the choice between operational simulation and denotational behavioral refinement examined in [*Denotation-based Compositional Compiler Verification*](https://arxiv.org/html/2404.17297v1). The latter uses algebraic composition of behavioral sets to reduce proof duplication, while retaining termination, divergence, failure and interaction distinctions that simpler final-state accounts can lose. Use it when those operations fit the language and simplify the actual preservation argument; a direct structural or state correspondence remains sufficient for the small constructions here. Neither proof representation automatically supplies a cheaper compiler. Changed control features, module interaction or proof-maintenance cost can reverse the selection.
+For larger compositions, **adapt** the choice between operational simulation and denotational behavioral refinement examined in [*Denotation-based Compositional Compiler Verification*](https://arxiv.org/html/2404.17297v1). The latter uses algebraic composition of behavioral sets to reduce proof duplication, while retaining termination, divergence, failure and interaction distinctions that simpler final-state accounts can lose. Use it when those operations fit the language and simplify the actual preservation argument; a direct structural or state correspondence remains sufficient for the small constructions here. Changed control features, module interaction or proof-maintenance cost can reverse the selection.
 
 ### CMP.12:12 - Relations
 
@@ -2846,7 +2846,7 @@ When independent summaries lose a needed relation, **adapt** the combination of 
 
 For a reported abstract counterexample, **adopt** the reconstruct-and-refine step from [Clarke and colleagues](https://www.cs.cmu.edu/~emc/papers/Papers%20In%20Refereed%20Journals/Counterexample-guided%20abstraction%20refinement.pdf), sections 4.3–4.4. Its finite-path construction motivates :4.4–4.5 and :5.1: split the distinction that prevents consecutive realization. Uniformly increasing precision is the rival; it can resolve more future questions but pays for distinctions this path may not need. Infinite-path properties require the additional loop conditions rather than reuse of the finite-path test alone.
 
-How should cyclic abstract computations be scheduled? **Adapt** the question raised by [Yang and colleagues' 2025 interprocedural ordering method](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ECOOP.2025.34): distinguish actual recursive dependencies from spurious cycles introduced by merged call contexts, then choose where widening and narrowing operate. A simple global worklist remains suitable when it produces an adequate result at lower construction cost. The reported advantages concern the paper's recursive-program analyses; they do not establish a universal schedule for every abstract domain. Lost call correlation or iteration cost can trigger reconsideration.
+How should cyclic abstract computations be scheduled? **Adapt** the question raised by [Yang and colleagues' 2025 interprocedural ordering method](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ECOOP.2025.34): distinguish actual recursive dependencies from spurious cycles introduced by merged call contexts, then choose where widening and narrowing operate. A simple global worklist remains suitable when it produces an adequate result at lower construction cost. The reported advantages concern the paper's recursive-program analyses. Lost call correlation or iteration cost can trigger reconsideration.
 
 ### CMP.13:12 - Relations
 
@@ -2987,7 +2987,7 @@ The invariant is `x = number of successful compare-and-swap actions`. It holds i
 
 If A and B both read 0, A can succeed first; B's stale attempt fails. B then reads 1 and succeeds with 2. For these two one-shot callers, each failed attempt is attributable to the other caller's success, so there can be at most one failed attempt before that caller completes. With both callers continuing to receive steps, both finish. A system with an unlimited stream of competing callers needs a different per-caller progress argument.
 
-**Changed condition:** the environment supplies only a separate comparison and write. The old failing order is possible again. Use a primitive that really combines them or protect the read-modify-write region. Naming the pair “compare-and-swap” does not create that operation.
+**Changed condition:** the environment supplies only a separate comparison and write. The old failing order is possible again. Use a primitive that really combines them or protect the read-modify-write region.
 
 #### CMP.14:5.2 - A retry must refer to the same logical operation
 
@@ -3071,9 +3071,9 @@ How should local computations be combined without losing the required whole beha
 
 When reasoning about a concurrent implementation by using an abstract atomic specification, **adapt** the composition-sensitive account in [Oliveira Vale, Shao and Chen](https://flint.cs.yale.edu/flint/publications/ctlinear-jacm.html). It relates linearizability, locality and observational refinement through explicit composition operations. For the observation and replacement questions in :4.1 and :4.6, identify the client context and establish that its observations with the implementation are permitted by the abstract specification. The specification may permit additional behavior. A short history/linearization-point argument is sufficient for :5.1; the richer algebra is useful when it reduces actual composition-proof work. It does not automatically preserve progress or supply an implementation. A new interaction context can reverse the choice.
 
-Which interference may a component assume? **Adopt** the memory-model parameterization demonstrated by [Lahav and colleagues' rely/guarantee treatment of causally consistent shared memory](https://arxiv.org/abs/2305.08486) as a boundary on :4.2–4.3. Sequential interleaving is a convenient comparator, while weaker visibility needs a compatible semantics and reasoning rules. Retaining the simpler model is justified when the implementation supplies its conditions. Otherwise synchronization, the algorithm or the claimed observation must change; relabeling the old proof leaves the gap.
+Which interference may a component assume? **Adopt** the memory-model parameterization demonstrated by [Lahav and colleagues' rely/guarantee treatment of causally consistent shared memory](https://arxiv.org/abs/2305.08486) as a boundary on :4.2–4.3. Sequential interleaving is a convenient comparator, while weaker visibility needs a compatible semantics and reasoning rules. Retaining the simpler model is justified when the implementation supplies its conditions. Otherwise synchronization, the algorithm or the claimed observation must change.
 
-When restart is admitted, **adapt** the explicit crash-aware observation in [*Linearizability with Crashes*](https://flint.cs.yale.edu/flint/publications/crashlin.html) for :4.2 and :5.2. A no-crash history can omit the retained-state distinction that recovery needs. A durable coordination protocol accepts persistence and recovery costs; accepting an uncertain result or an idempotent effect may be a cheaper suitable rival. The framework distinguishes forms of crash-aware correctness, rather than making every retry protocol equivalent. Change the failure model or the effect's location and reconsider the corresponding claim.
+When restart is admitted, **adapt** the explicit crash-aware observation in [*Linearizability with Crashes*](https://flint.cs.yale.edu/flint/publications/crashlin.html) for :4.2 and :5.2. A no-crash history can omit the retained-state distinction that recovery needs. A durable coordination protocol accepts persistence and recovery costs; accepting an uncertain result or an idempotent effect may be a cheaper suitable rival. The framework distinguishes forms of crash-aware correctness. Change the failure model or the effect's location and reconsider the corresponding claim.
 
 ### CMP.14:12 - Relations
 
@@ -3098,7 +3098,7 @@ When restart is admitted, **adapt** the explicit crash-aware observation in [*Li
 
 Start by choosing the combinations the receiving application must support. Find the first required combination whose implementation is absent or whose selection is unclear, and provide the joining contribution that knows both additions. The useful result is a composed set of operations with explicit coverage, selection rules and preservation conditions. A small composition can be assembled and examined directly; a promise about arbitrary future additions requires stronger interfaces and checking.
 
-This method concerns computational data variants and operations. The reader can follow a recursive function and distinguish a data constructor from an operation that processes it. CMP.12 explains how to derive an interpretation and its correspondence with the intended meaning. The construction here keeps independently supplied additions composable; it does not require the reader to know object algebras or a particular extension system beforehand.
+This method concerns computational data variants and operations. The reader can follow a recursive function and distinguish a data constructor from an operation that processes it. CMP.12 explains how to derive an interpretation and its correspondence with the intended meaning. The construction here keeps independently supplied additions composable.
 
 Keep a closed representation and ordinary functions when one owner can maintain the required cases affordably. If only the data variants change, methods attached to those variants may suffice. If only the operations change, functions over a stable closed data type may suffice. Independent extension on both axes earns its additional machinery when those simpler arrangements obstruct actual changes.
 
@@ -3404,7 +3404,7 @@ For this grammar, all recursive calls stay within the declared eight pairs. Cove
 
 A static alternative represents a term by its use of constructor operations. Instead of first constructing a stored tree and then dispatching on it, the term receives an algebra: a collection of constructor functions whose common result type `R` is chosen by the interpretation.
 
-The notation below is typed pseudocode. `Base<R>` and `LetPart<R>` are records of functions; `&` requires both sets of fields. It specifies the constraints a realization must enforce, not a claim about compilation by a particular compiler.
+The notation below is typed pseudocode. `Base<R>` and `LetPart<R>` are records of functions; `&` requires both sets of fields. It specifies the constraints a realization must enforce.
 
 ```text
 Base<R> = {
@@ -3551,13 +3551,13 @@ The semantic rule remains necessary under every realization. The wrong free-vari
 
 **Use this when** you can state behavior that a computation must obtain, but the available units and operations do not yet give a workable way to obtain it. The difficulty can appear before implementation or after a change: separately sensible steps do not compose, a small unit discards information the join needs, or every client must repair the same invalid intermediate arrangement.
 
-The useful move is to design the units and their permitted operations together. Try constructing the required whole, recover what a failed join needs, and change the unit, the operation or the conditions of assembly. Then connect that computational abstraction to an obtainable implementation. The result is a usable level of operations with grounds for its whole behavior, not merely names for larger objects.
+The useful move is to design the units and their permitted operations together. Try constructing the required whole, recover what a failed join needs, and change the unit, the operation or the conditions of assembly. Then connect that computational abstraction to an obtainable implementation. The result is a usable level of operations with grounds for its whole behavior.
 
 For example, deciding whether each text fragment is locally balanced loses information needed to decide whether their concatenation is balanced. A richer fragment meaning can make the join both simple and general. In a continuing service, exposing separate count reads and writes can invite invalid combinations; a state-changing operation with an explicit admission rule can make a capacity condition maintainable. Neither remedy is selected by choosing a storage format alone.
 
 The reader can follow operations on a state and an elementary invariant argument. C.29.2 supplies the computational question and the available model. MATH.17 supplies composition and its closure conditions; MATH.18 supplies interpretation between levels. CMP.2, CMP.10, CMP.12 and CMP.14 develop particular recursive, storage, interpretation and interaction contributions when the construction below needs them.
 
-Keep known adequate units and operations when they already serve the work. Use CMP.10 directly when the operations are sufficiently known and only their representation needs improvement. Use CMP.13 when the question is how to obtain a cheaper sound analysis of a computation. This method instead constructs the units and operations used to obtain the behavior itself. It does not replace the subject inquiry that determines what behavior is useful, or supply an unavailable physical primitive by naming it.
+Keep known adequate units and operations when they already serve the work. Use CMP.10 directly when the operations are sufficiently known and only their representation needs improvement. Use CMP.13 when the question is how to obtain a cheaper sound analysis of a computation. This method instead constructs the units and operations used to obtain the behavior itself. It does not replace the subject inquiry that determines what behavior is useful.
 
 ### CMP.16:2 - Problem
 
@@ -3600,7 +3600,7 @@ Suppose each proposed part has supplied exactly its promised result. Attempt the
 - Pass context or postpone a choice when a part cannot correctly decide without information available at the join.
 - Change the decomposition when obtaining the missing contribution would repeat the original difficulty or exceed the resource limit.
 
-Try a simple alternative alongside the favored design. Keeping the original units and checking the final result can be cheaper when invalid assemblies are rare and harmless. A stronger constructor is useful when it makes repeated use or reasoning materially easier. Neither is universally preferable.
+Try a simple alternative alongside the favored design. Keeping the original units and checking the final result can be cheaper when invalid assemblies are rare and harmless. A stronger constructor is useful when it makes repeated use or reasoning materially easier.
 
 #### CMP.16:4.3 - Give the proposed unit a meaning through its uses
 
@@ -3610,7 +3610,7 @@ Decide which distinctions can be hidden. If two lower-level states represent the
 
 For pure composition, state the operations and the laws the intended assembly uses. Associativity permits regrouping, not reordering. An identity supplies an empty case; an inverse is needed only if the proposed operation undoes a contribution. For stateful behavior, state admissible transitions and observations instead of forcing it into a pure algebra. For a language of descriptions, specify constructors and meanings; CMP.12 develops the corresponding interpreter or translation.
 
-This is an abstraction boundary only when clients can use the stated operations without depending on hidden detail. If a client bypasses it by editing internal state or inspecting an undocumented encoding, either include that behavior in the agreement or remove the bypass. Merely putting fields behind a class name does not establish the boundary.
+This is an abstraction boundary only when clients can use the stated operations without depending on hidden detail. If a client bypasses it by editing internal state or inspecting an undocumented encoding, either include that behavior in the agreement or remove the bypass.
 
 #### CMP.16:4.4 - Obtain the operations and establish usable composition
 
@@ -3634,13 +3634,13 @@ This equation explains why independently obtained summaries can replace the sour
 
 Also connect progress and resource claims. A lower-level operation can preserve every completed observation while looping forever before producing one. A correct response can miss the required deadline. A finite sequence of abstract operations can expand into unaffordable work. Do not transfer termination, responsiveness or unit cost merely because a value correspondence holds.
 
-At the physical boundary, preparation, actual evolution and readout must supply the relation assumed here. A new physical unit may require an engineering change; it is not automatically created by a new encoding. Use C.29.3 to obtain that connection and carry any unresolved condition back to the promised whole.
+At the physical boundary, preparation, actual evolution and readout must supply the relation assumed here. A new physical unit may require an engineering change. Use C.29.3 to obtain that connection and carry any unresolved condition back to the promised whole.
 
 #### CMP.16:4.6 - Compare the complete work and preserve the useful level
 
 Count constructing and converting units, performing their operations, maintaining their invariants, communicating and obtaining the final observations. Include the information retained for later operations. CMP.10 compares concrete storage and access choices; CMP.3 handles shared subcomputations. A cheap abstract join can still require large construction or output work.
 
-Choose a sufficient implementation without unnecessarily exposing it above the boundary. This permits a later replacement when it preserves the operations and observations on which clients rely. A change from a list to a tree can preserve a sequence interface while changing costs. A change from ordered delivery to unordered delivery does not preserve a client that observes order, however similar the names remain.
+Choose a sufficient implementation without unnecessarily exposing it above the boundary. This permits a later replacement when it preserves the operations and observations on which clients rely. A change from a list to a tree can preserve a sequence interface while changing costs. A change from ordered delivery to unordered delivery does not preserve a client that observes order.
 
 When no arrangement satisfies all demands, return the precise conflict: a missing observation, an unsupported operation, an unaffordable construction or an unavailable realization. CMP.1 and CMP.11 can establish relevant impossibility or lower-bound claims; a failed design alone does not establish them. A qualified weaker result is useful only when its receiver accepts the difference.
 
@@ -3650,7 +3650,7 @@ Vary an input family, required observation, operation, interaction or resource l
 
 Preserve unaffected constructions. A new query can require another summary while leaving the source composition intact. A concurrency requirement can preserve abstract operations while invalidating a sequential implementation. A changed subject interpretation can leave an algorithm correct for its earlier mathematical question but unsuitable for the receiving work. These are different returns.
 
-Finish with the usable units and operations, their construction, the reason their permitted assembly obtains the required behavior, and the implementation and resource conditions on which that use depends. The result need not be a new framework or a universal interface. It must let the recipient perform the intended whole without privately inventing its missing join.
+Finish with the usable units and operations, their construction, the reason their permitted assembly obtains the required behavior, and the implementation and resource conditions on which that use depends. It must let the recipient perform the intended whole without privately inventing its missing join.
 
 ### CMP.16:5 - Archetypal Grounding
 
@@ -3716,13 +3716,13 @@ Initialization establishes `active = {}`. An admitted acquisition changes its si
 
 This is a safety argument for the stated operations. It does not establish that a waiting caller eventually receives permission; that requires available releases and a selection policy. Nor does it settle retry after a lost acquisition reply. If the required behavior gives one grant per logical request, request identity and the retry protocol must be added through CMP.14. The old operations still explain their narrower behavior but not that stronger service.
 
-**Changed execution condition.** Two callers now execute the acquisition body concurrently. With `K = 1`, both can observe an empty set before either inserts a ticket, then insert different tickets. The abstract invariant was not wrong; the implementation no longer supplies the atomic transition it assumed. One remedy serializes the check and insertion through an available exclusive mechanism. CMP.14 develops its permitted histories and progress conditions; C.29.3 establishes whether the chosen executor supplies the required operation. Renaming the body `atomic_acquire` supplies neither.
+**Changed execution condition.** Two callers now execute the acquisition body concurrently. With `K = 1`, both can observe an empty set before either inserts a ticket, then insert different tickets. The abstract invariant was not wrong; the implementation no longer supplies the atomic transition it assumed. One remedy serializes the check and insertion through an available exclusive mechanism. CMP.14 develops its permitted histories and progress conditions; C.29.3 establishes whether the chosen executor supplies the required operation.
 
 The ticket implementation also has conditions. A bounded counter can wrap, and a restart can forget active grants. Restricting the lifetime, preserving state or changing the ticket construction needs an argument covering the actual use. Those conditions can select another representation without changing the abstract service, or reveal that its former promise cannot be maintained. This is a continuing computational abstraction, not a terminating calculation whose final count alone defines success.
 
 ### CMP.16:6 - Bias-Annotation
 
-Familiar abstractions can bias the designer toward a representation before the required observations are understood. A successful small assembly can conceal an excluded case or an expensive constructor. Conversely, fascination with general interfaces can replace a sufficient direct computation with unnecessary machinery. Use a consequential changed condition and a simple alternative to expose these biases; neither forces a universal design.
+Familiar abstractions can bias the designer toward a representation before the required observations are understood. A successful small assembly can conceal an excluded case or an expensive constructor. Conversely, fascination with general interfaces can replace a sufficient direct computation with unnecessary machinery. Use a consequential changed condition and a simple alternative to expose these biases.
 
 An implementation specialist may privately supply an atomic operation, a stable identity or an invariant repair that the description omitted. Keep that contribution explicit. A mathematically convenient model and a physical or organizational arrangement can differ at precisely the step the abstraction hides.
 
@@ -3738,7 +3738,7 @@ For assurance of the selected construction, establish the consequential claims:
 - progress and resource conditions distinct from value correspondence;
 - the first changed action or representation under a consequential variation.
 
-Use evidence suited to the conclusion. A trace can refute a claim; a general preservation claim needs its applicable argument; an actual realization needs its implementation basis. Neither a well-named interface nor a correct example establishes all three.
+Use evidence suited to the conclusion. A trace can refute a claim; a general preservation claim needs its applicable argument; an actual realization needs its implementation basis.
 
 ### CMP.16:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -3755,7 +3755,7 @@ Use evidence suited to the conclusion. A trace can refute a claim; a general pre
 
 The construction can make a whole easier to obtain, explain and change by moving a repeated obligation into suitable units and operations. A client can then reason at that level while implementations vary within the established correspondence. It can also expose that a proposed abstraction loses coverage, needs unavailable support or costs more than direct work.
 
-The burden is designing and maintaining the boundary, its operations and their grounds. The method supplies no universal algorithm for inventing the best abstraction. Its useful result can be one sufficient construction or a precise unresolved join; a local failure does not prove that no computational way exists.
+The burden is designing and maintaining the boundary, its operations and their grounds. Its useful result can be one sufficient construction or a precise unresolved join; a local failure does not prove that no computational way exists.
 
 ### CMP.16:10 - Architectural Rationale
 
@@ -3763,7 +3763,7 @@ The intended whole constrains the units, and attempted composition tests that ch
 
 Choosing a data structure is a serious alternative when the operations are already adequate; CMP.10 supplies it. Recursive decomposition is useful when subproblems and sufficient returns yield a finite answer; CMP.2 supplies that construction. Direct validation of a complete candidate can be cheaper than restricting every intermediate state. The present method is needed when units and operations must change together to make the whole obtainable or its repeated use tractable. CMP.13's approximate analysis can help establish a property, but it has a different result from the computational interface being designed.
 
-The method permits several levels and several implementations. It does not require all of a program to use one abstraction style, all operations to be pure, or every implementation detail to be hidden. Reveal the detail that the receiving observation or resource argument needs; keep a boundary only where its promised independence is justified.
+The method permits several levels and several implementations. Reveal the detail that the receiving observation or resource argument needs; keep a boundary only where its promised independence is justified.
 
 ### CMP.16:11 - SoTA-Echoing
 
@@ -3771,7 +3771,7 @@ The method permits several levels and several implementations. It does not requi
 
 [SICP's abstraction barriers](https://sicp.sourceacademy.org/chapters/2.1.2.html) give a historical worked account of clients using operations independently of a selected lower representation. Here the boundary is selected from the required whole and includes consequential continuing behavior. A simpler direct representation remains preferable when the boundary adds no useful independence.
 
-The maintained [Verified Functional Algorithms chapter on abstract data types](https://softwarefoundations.cis.upenn.edu/vfa-current/ADT.html) makes interfaces, operation specifications and implementation proof obligations explicit through executable formal examples. It supplies a stronger checking option when those obligations warrant mechanization. A module signature can enforce the exposed structure; the stated behavioral laws still need their proofs. The construction here does not require that proof technology for every ordinary use and does not infer a semantic guarantee from type compatibility alone.
+The maintained [Verified Functional Algorithms chapter on abstract data types](https://softwarefoundations.cis.upenn.edu/vfa-current/ADT.html) makes interfaces, operation specifications and implementation proof obligations explicit through executable formal examples. It supplies a stronger checking option when those obligations warrant mechanization. A module signature can enforce the exposed structure; the stated behavioral laws still need their proofs.
 
 MATH.17 and MATH.18 supply the composition and interpretation grounds used here. CMP.12 and CMP.14 carry the developed alternatives needed when control, effects or interaction change those grounds. Reopen a design when a new required observation, affordable implementation, admissible operation or execution condition changes the balance among these alternatives.
 
