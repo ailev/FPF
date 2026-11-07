@@ -183,7 +183,7 @@ A short mantra can help retain a chosen path: identify the relation, preserve wh
 
 ## RHY.Reference:5 - Archetypal Grounding - Connected uses and consequential returns
 
-These cases stipulate their observations to demonstrate decisions. They are not reports of measured training effectiveness.
+These cases stipulate their observations to demonstrate decisions.
 
 ### RHY.Reference:5.1 - An ornament interrupts a partnered figure
 
@@ -413,11 +413,11 @@ Localization connects a whole performance intention to a correctable rhythmic co
 
 ### RHY.1:11 - SoTA-Echoing
 
-Gordon Dang's [Balboa roadmap](https://gordondang.com/dance/roadmap/) uses practice contrasts among pulse, foot pickup and posture. Adopt the bounded contrast as a useful practitioner move; adapt it here to whichever rhythmic contribution the activity needs. The roadmap supplies teaching proposals, not evidence that one diagnostic sequence works for every performer.
+Gordon Dang's [Balboa roadmap](https://gordondang.com/dance/roadmap/) uses practice contrasts among pulse, foot pickup and posture. Adopt the bounded contrast as a useful practitioner move; adapt it here to whichever rhythmic contribution the activity needs. The roadmap supplies teaching proposals.
 
 MDPE.8 supplies a broader choice of music-or-dance subject and development question. Reuse that result when available. This method adds the rhythm-specific comparisons that choose between timing, grouping, articulation, receiving cues and their joint performance.
 
-London and colleagues' [comparison of P-center procedures](https://doi.org/10.3758/s13414-019-01747-y) warrants retaining the observing task when interpreting timing. A quick rehearsal contrast is cheaper than a controlled study and can select a trial; it supports a correspondingly narrower conclusion. The diagnostic combination above is a methodological synthesis, not a validated universal screening test.
+London and colleagues' [comparison of P-center procedures](https://doi.org/10.3758/s13414-019-01747-y) warrants retaining the observing task when interpreting timing. A quick rehearsal contrast is cheaper than a controlled study and can select a trial; it supports a correspondingly narrower conclusion. The diagnostic combination above is a methodological synthesis.
 
 ### RHY.1:12 - Relations
 
@@ -652,7 +652,7 @@ Keep the unornamented transition as a reference. The dancer already knows a smal
 
 Retain the smaller articulation for this passage at this pace with this partner. It supplies the accent, preserves the continuing contribution and leaves the next transition possible. The original added articulation is rejected for this use even though its timing alone was correct. The unornamented transition remains an available return if a later tempo or direction defeats the combination.
 
-These are stipulated case results, not reported observations or evidence that a named dance technique generally succeeds. In practice, obtain the corresponding joint-performance result. If no available technique preserves both contributions and continuation, keep the simpler version or obtain the missing technique.
+These are stipulated case results. In practice, obtain the corresponding joint-performance result. If no available technique preserves both contributions and continuation, keep the simpler version or obtain the missing technique.
 
 #### RHY.3:5.3 - Motion continues while a robot signals an accent
 
@@ -694,7 +694,7 @@ Enacting a phrase may require a coordinated articulation, which itself relies on
 
 ### RHY.3:11 - SoTA-Echoing
 
-Ed Soph's [“Foundational Brush Technique”](https://www.moderndrummer.com/article/foundational-brush-technique/) (2021) supplies concrete alternatives for combining sustained brush motion and accents. Adopt those alternatives within brush practice; adapt the contribution distinction across other embodied activities. The source is practitioner instruction, not a comparative trial of universal training effectiveness.
+Ed Soph's [“Foundational Brush Technique”](https://www.moderndrummer.com/article/foundational-brush-technique/) (2021) supplies concrete alternatives for combining sustained brush motion and accents. Adopt those alternatives within brush practice; adapt the contribution distinction across other embodied activities. The source is practitioner instruction.
 
 Gjerdingen's [smooth-rhythm study](https://doi.org/10.2307/40285585) motivates retaining continuous change in the analysis. It does not supply a dance or instrumental motor technique. The transfer from a representational distinction to this practical design method is an explicit synthesis.
 
@@ -1824,7 +1824,7 @@ Carvalho and colleagues' [Kalman-filter ensemble model](https://arxiv.org/abs/24
 
 Li and colleagues' [2026 violin study](https://doi.org/10.1038/s41598-026-46205-6) qualifies a uniform adjustment rule: auditory correction depended on the performance conditions, and the predicted general increase towards a recording was not found. Its bounded ensemble task supports inspecting the actual interaction rather than assuming automatic compensation.
 
-Nelson's *Solkattu Manual* (2008), printed pp. 15–17, supplies phrase-against-gesture practice. Cha's Takadimi critique makes omitted duration and unarticulated reference positions explicit. Their contributions support the gap-continuation construction; they establish no universal training duration or one preferred cue for every performer.
+Nelson's *Solkattu Manual* (2008), printed pp. 15–17, supplies phrase-against-gesture practice. Cha's Takadimi critique makes omitted duration and unarticulated reference positions explicit. Their contributions support the gap-continuation construction.
 
 ### RHY.10:12 - Relations
 
@@ -1972,7 +1972,7 @@ This worked construction distinguishes a successful local coordination from an a
 
 ### RHY.11:6 - Bias-Annotation
 
-A common grid is especially convenient for simple ratios and can bias analysis towards discrete commensurate parts. Continuous courses and flexible phrasing need their own retained relations. The worked attempts are constructed demonstrations, not reports of learning speed or evidence that a given cue works for all learners.
+A common grid is especially convenient for simple ratios and can bias analysis towards discrete commensurate parts. Continuous courses and flexible phrasing need their own retained relations. The worked attempts are constructed demonstrations.
 
 ### RHY.11:7 - Conformance Checklist
 
@@ -2007,11 +2007,11 @@ Simultaneous layers and the constituent/encompassing method vertical cross-cut e
 
 ### RHY.11:11 - SoTA-Echoing
 
-Nelson's *Solkattu Manual* (2008), printed pp. 15–17, supplies the explicit contrast between gesture cycle and phrase at several rates. It provides a concrete practice construction, not a universal learning schedule. The completed attempt above is constructed to demonstrate the resulting method.
+Nelson's *Solkattu Manual* (2008), printed pp. 15–17, supplies the explicit contrast between gesture cycle and phrase at several rates. It provides a concrete practice construction. The completed attempt above is constructed to demonstrate the resulting method.
 
 Toussaint's *The Geometry of Musical Rhythm*, second edition (2020), supplies useful discrete rhythmic constructions and action-allocation comparisons. A grid makes such relations calculable; continuous courses and actual joint capability require additional content.
 
-Cha's [Takadimi reconsideration](https://doi.org/10.1177/0305735614528063) proposes added syllabic information. Birch and Walsh's [conducting response](https://www.music.org/images/conf/reg/ne/2022_NE_Schedule_20220214.pdf#page=18) instead proposes a maintained gestural reference. That reference does not itself distinguish sustained sound from silence. Their comparison supports using complementary layers while retaining what each supplies. General joint coordination here is a conceptual synthesis; source examples do not prove its effectiveness in every movement or equipped performance.
+Cha's [Takadimi reconsideration](https://doi.org/10.1177/0305735614528063) proposes added syllabic information. Birch and Walsh's [conducting response](https://www.music.org/images/conf/reg/ne/2022_NE_Schedule_20220214.pdf#page=18) instead proposes a maintained gestural reference. That reference does not itself distinguish sustained sound from silence. Their comparison supports using complementary layers while retaining what each supplies. General joint coordination here is a conceptual synthesis.
 
 For the specific question of pulse and freely placed accents, the useful line is a shared temporal relation with task-dependent realization and correction. Historical laboratory anchors expose why simple addition is insufficient: [de Rugy and Sternad (2003)](https://doi.org/10.1016/j.brainres.2003.09.031) report phase-dependent interaction in combined discrete and rhythmic elbow movements; [Calvin, Huys and Jirsa (2010)](https://doi.org/10.1037/a0020403) report that a discrete wrist movement can accelerate or decelerate the other wrist's rhythmic movement. These bounded findings motivate examining both directions of interference; neither supplies a brush or Balboa teaching technique.
 
@@ -2131,7 +2131,7 @@ Stop when the next practice or performance move is clear. Reopen the affected ex
 
 ### RHY.12:5 - Archetypal Grounding
 
-The following are constructed teaching cases. Their stipulated observations illustrate decisions; they are not reports of a training trial or universal learning schedules.
+The following are constructed teaching cases. Their stipulated observations illustrate decisions.
 
 #### RHY.12:5.1 - Phrase and gesture keep different groupings
 
@@ -2185,7 +2185,7 @@ Counting fluency can hide missing control of duration or movement. A familiar te
 
 ### RHY.12:9 - Consequences
 
-Practice addresses an observable rhythmic contribution and produces a useful next attempt or a localized prerequisite. It can reveal that the needed change belongs in the prompt, performing arrangement or bodily technique. It does not promise a fixed training dose or establish durable capability from one local improvement.
+Practice addresses an observable rhythmic contribution and produces a useful next attempt or a localized prerequisite. It can reveal that the needed change belongs in the prompt, performing arrangement or bodily technique. One local improvement does not establish durable capability.
 
 ### RHY.12:10 - Architectural Rationale
 
@@ -2199,7 +2199,7 @@ General development design, feedback and scheduling remain in HCD. The domain co
 
 | Source contribution | Adopted use | Limit and alternative |
 | --- | --- | --- |
-| Nelson, *Solkattu Manual* (2008), phrase against gesture and rate changes | Practise a stable reference together with a phrase whose grouping differs from it. | A specific teaching tradition supplies useful constructions, not a universal sequence for every rhythm learner. |
+| Nelson, *Solkattu Manual* (2008), phrase against gesture and rate changes | Practise a stable reference together with a phrase whose grouping differs from it. | A specific teaching tradition supplies these constructions. |
 | Cha, “The Takadimi system reconsidered” (2015), compared with Hoffman–Pelto–White and beat-gesture teaching | Recover implicit beats and duration information before interpreting a failed performance. | Explicit continuation/rest syllables and an accessible duration-bearing demonstration are alternatives; comparative teaching superiority is not established. |
 | [Chiou and Chang (2016)](https://doi.org/10.1371/journal.pone.0149221) | In a trained 90-degree bimanual task, performance after feedback withdrawal differed with the information supplied during practice. Check what a display or cue contributes before claiming later independence. | The small study excluded learners who did not reach its practice criterion. Its fixed phase task supplies neither a universal feedback regime nor evidence for free accent choice or partnered movement. |
 | [Caramiaux et al. (2018)](https://doi.org/10.1371/journal.pone.0193580) | The study measured timing and movement separately in immediate post-practice transfer tests. It did not test delayed retention. Use the demanded contribution to choose practice variation. | Different measures responded differently; greater tempo variation was not uniformly beneficial. This bounded result supplies no general schedule. |
@@ -2306,7 +2306,7 @@ Reopen the affected claim when the passage, convention, performing whole, suppor
 
 ### RHY.13:5 - Archetypal Grounding
 
-These are constructed probes with stipulated outcomes, not empirical reports or standardized tests.
+These are constructed probes with stipulated outcomes.
 
 #### RHY.13:5.1 - A later success still uses the teacher's reference
 
@@ -2481,7 +2481,7 @@ Stop when the receiving decision is supported or the material unknown is named. 
 
 ### RHY.14:5 - Archetypal Grounding
 
-These cases use constructed observations. They demonstrate interpretation and calculation, not field findings.
+These cases use constructed observations to demonstrate interpretation and calculation.
 
 #### RHY.14:5.1 - A smaller average hides an unmatched attack
 
@@ -2559,11 +2559,11 @@ RHY.4 establishes a usable timing relation and its correction; RHY.7 compares se
 | Lau et al.'s [robot ensemble integration](https://doi.org/10.7717/peerj-cs.2632), used in RHY.9 | Preserve the distinction between endpoint and within-passage coordination. | Reuse a sufficient endpoint result for an endpoint question; inspect internal relations only when the task needs them. |
 | MDPE.12, with RHY.4 and RHY.7 | Use task-specific rhythmic observations inside a broader comparison of performance and response. | A convenient timing or structural metric can be sufficient locally; it is not a substitute for a missing receiving response. |
 
-For a concrete comparison, consider choosing between two passages when the session designer needs to preserve both reported enjoyment and attraction to movement. Prefer separately named pleasure and wanting-to-move responses over one combined “groove” judgement. The body-map study's separate tasks inform this choice; the following justification is a methodological argument, not a reported test of competing questionnaires. In the constructed case in RHY.14:5.3, the responses rank the passages differently. A combined judgement cannot say which aim a choice serves. Using the same passages and respondent with one additional short question preserves that distinction at a small but real response burden; no time saving has been measured. RHY.14:4.4 makes that task choice and :4.5 keeps the results separate.
+For a concrete comparison, consider choosing between two passages when the session designer needs to preserve both reported enjoyment and attraction to movement. Prefer separately named pleasure and wanting-to-move responses over one combined “groove” judgement. The body-map study's separate tasks inform this choice; the following justification is a methodological argument, not a reported test of competing questionnaires. In the constructed case in RHY.14:5.3, the responses rank the passages differently. A combined judgement cannot say which aim a choice serves. Using the same passages and respondent with one additional short question preserves that distinction at a small but real response burden. RHY.14:4.4 makes that task choice and :4.5 keeps the results separate.
 
 A single holistic judgement remains adequate when that is the actual choice criterion; ask only the one specific question when the other response cannot change the decision. If the claim concerns coordinated movement, use an appropriate movement observation instead. This accepts its greater preparation and performance burden only for that different claim. Reconsider the chosen response task when the aim, participants or meaningful distinctions change.
 
-The event-matching and continuous-course instructions form a methodological synthesis. No universal detector, response scale or rhythm-quality measure is selected. Revisit a source or procedure when a new material, observation task, population or detector behaviour changes the relevant comparison.
+The event-matching and continuous-course instructions form a methodological synthesis. Revisit a source or procedure when a new material, observation task, population or detector behaviour changes the relevant comparison.
 
 ### RHY.14:12 - Relations
 
