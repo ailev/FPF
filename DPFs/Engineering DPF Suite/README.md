@@ -42,11 +42,11 @@ The [Engineering Architectural Reference](ENGINEERING-DPF-SUITE-REFERENCE.md) he
 
 | Framework | What you can work on | Patterns | Text, M characters |
 | --- | --- | ---: | ---: |
-| [Systems Engineering (SYSE)](https://fpf.tools/SYSE) · [Markdown](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Define the system and intended use; compare designs and ways to obtain them; realize, integrate, qualify and change the result. | 54 | 1.856 |
+| [Systems Engineering (SYSE)](https://fpf.tools/SYSE) · [Markdown](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Define the system and intended use; compare designs and ways to obtain them; realize, integrate, qualify and change the result. | 54 | 1.854 |
 | [Maintenance Engineering and Management (MNT)](https://fpf.tools/MNT) · [Markdown](MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Select maintenance policy from condition and failure knowledge; prepare interventions, restore functioning and qualify return to use. | 16 | 0.252 |
-| [Knowledge-Corpus Access Engineering (KCAE)](https://fpf.tools/KCAE) · [Markdown](KNOWLEDGE-CORPUS-ACCESS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Engineer arrangements for finding, reading and using documentary knowledge, including links back to source passages, delivery and coherent updates. | 11 | 0.242 |
-| [Semantic Integration Engineering (SIE)](https://fpf.tools/SIE) · [Markdown](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Make separately governed meanings usable together through models, mappings, interfaces, validation and response to change. | 13 | 0.315 |
-| [Control Architecture Design (CAD) — Markdown](CONTROL-ARCHITECTURE-DESIGN-PRINCIPLES-FRAMEWORK.md) | Choose observations and memory; construct a planning-and-feedback arrangement when useful; connect information error, command limits and execution conditions. | 5 | 0.149 |
+| [Knowledge-Corpus Access Engineering (KCAE)](https://fpf.tools/KCAE) · [Markdown](KNOWLEDGE-CORPUS-ACCESS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Engineer arrangements for finding, reading and using documentary knowledge, including links back to source passages, delivery and coherent updates. | 11 | 0.241 |
+| [Semantic Integration Engineering (SIE)](https://fpf.tools/SIE) · [Markdown](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Make separately governed meanings usable together through models, mappings, interfaces, validation and response to change. | 13 | 0.314 |
+| [Control Architecture Design (CAD) — Markdown](CONTROL-ARCHITECTURE-DESIGN-PRINCIPLES-FRAMEWORK.md) | Choose observations and memory; construct a planning-and-feedback arrangement when useful; connect information error, command limits and execution conditions. | 5 | 0.148 |
 
 **Patterns** counts full pattern bodies. **Text, M characters** measures each complete Markdown framework, including its embedded Architectural Reference, in millions of Unicode characters with spaces and original line breaks, rounded to three decimals. These are scope indicators, not a required reading load.
 
@@ -70,7 +70,7 @@ For music and dance, engineered performing configurations and environments are p
 
 ## Reading, use and reuse
 
-Read [Using FPF Library](../../USING-FPF.md) before applying the methods, with or without an AI assistant. Start from the contribution your work needs; the order of files is not a project sequence. Read a selected pattern's conditions, explanation and worked cases. A checklist helps inspect a result; it does not replace the method.
+Read [Using FPF Library](../../USING-FPF.md) before applying the methods, with or without an AI assistant. Start from the contribution your work needs; the order of files is not a project sequence. Read a selected pattern's conditions, explanation and worked cases.
 
 Anatoly Levenchuk, with AI-assisted development and review. These publications continue to evolve; check the edition when relying on a particular result. Original content is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), subject to the [licensing terms](../../LICENSING.md). For a method, cite its framework, edition and complete PatternID.
 

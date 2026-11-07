@@ -199,7 +199,7 @@ The compatible public supplier set for the uses below is [FPF Library edition d4
 | [Computational Thinking](https://github.com/ailev/FPF/blob/d4f6b0ba1a4db119fecf8d5b9d2b526633f2e58a/Foundational%20Thinking%20DPF%20Suite/COMPUTATIONAL-THINKING-DPF.md), CMP.10:4.1–CMP.10:4.6 and CMP.4:4.1–CMP.4:4.6 | Representation choice from reads/updates/full cost, and computational search with justified exclusions. | These contributions support representation and update choices in KCAE.INDEX and KCAE.CHANGE, and finite combination search in KCAE.COMPOSE. A heuristic ordering is not a sound exclusion or an optimality proof. |
 | [USING-FPF.md](https://github.com/ailev/FPF/blob/d4f6b0ba1a4db119fecf8d5b9d2b526633f2e58a/USING-FPF.md) | The ordinary practical entry to finding and reading Library contributions. | Access instruction for that distribution, not this domain's universal implementation policy. Follow the instruction applicable to the distribution being used. |
 
-These dependencies run from this DPF to its suppliers. Core remains usable independently. KCAE's software and service choices are its own engineering profiles; an organization supplies its own local installation, operating instructions and authority rules. No citation creates a deployment, role assignment, permission or positive evaluation result.
+These dependencies run from this DPF to its suppliers. Core remains usable independently. KCAE's software and service choices are its own engineering profiles; an organization supplies its own local installation, operating instructions and authority rules.
 
 ## KCAE.Reference:11 - Working vocabulary and result boundaries
 
@@ -222,8 +222,6 @@ These dependencies run from this DPF to its suppliers. Core remains usable indep
 The framework's usefulness is conditional on the receiving use, adopted primary sources and available alternatives. An observed limitation, a changed use or source, or a materially better alternative can defeat a relied-on contribution. The affected method's promised result and source basis identify what has changed. Its operative explanation and application depend on the same useful connection; unaffected constructions remain available, and a material new scope or assumption changes what readers may rely on.
 
 A new retrieval model primarily reopens representation compatibility and its workload comparison. A new corpus format reopens extraction and reading. A new language population reopens recognition and assessment. Changed provider deletion or transaction semantics reopen the update profile. A failed encounter can call for a different occasion rather than another retrieval algorithm. A reader who must invent an essential connection exposes a publication defect, even if its headings and source links are present.
-
-A judgement of a changed contribution concerns its receiving use and an appropriate defeating condition. One corrected case, one unchanged supplier ID or a formal structure check does not establish whole-framework adequacy. [FPF E.4.DPF](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#e4dpf---domain-and-local-principle-frameworks-whether-and-how-to-author-and-publish), [FPF E.19](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#e19---pattern-quality-gates-review-and-refresh-profiles) and [FPF E.21](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#e21---fpf-pattern-quality-evaluation-characteristicspace) supply the framework-authoring, affected-use comparison and pattern-quality methods, including the independent judgement required by the applicable publication practice. Runtime evaluation under KCAE.EVAL supports an installation's choices; it does not automatically admit the publication itself.
 
 A profile's stable domain method remains applicable unless the new evidence defeats that method. A failure in transdisciplinary source selection, representation or inquiry belongs with its existing Core owner; a failed installed command or local service belongs with that local practice. These are different change boundaries. A new technology name alone is no reason to redraw the subject boundary.
 
@@ -280,7 +278,7 @@ Use a break-even calculation only for commensurable quantities. Suppose A costs 
 
 #### KCAE.USE:4.5 - Return the design basis and its reopen conditions
 
-The result identifies the chosen or proposed arrangement, first usable result, alternative retained for comparison, unknown premises and observations that would change the choice. Feed source requirements to KCAE.SOURCE, discovery requirements to KCAE.INDEX, delivery capability to KCAE.DELIVER and adoption questions to KCAE.EVAL. A single concise account can carry this basis; no mandatory per-query form follows.
+The result identifies the chosen or proposed arrangement, first usable result, alternative retained for comparison, unknown premises and observations that would change the choice. Feed source requirements to KCAE.SOURCE, discovery requirements to KCAE.INDEX, delivery capability to KCAE.DELIVER and adoption questions to KCAE.EVAL. A single concise account can carry this basis.
 
 ### KCAE.USE:5 - Archetypal Grounding
 
@@ -1249,7 +1247,9 @@ Publish a changed connection only after the relevant source and current case bas
 
 Take actual misses and false matches whose remedy can change use. Compare them with matched cases and nearby non-fits. Ask what observable question would have distinguished them before the result was known. “Does success require repeated manual compensation?” may expose a broader family than “Did the export fail?” The wording and its observable inputs matter more than a new tag name.
 
-Derive candidate questions from the episodes and subject knowledge, then test them on withheld or independently constructed cases, including negatives and unknowns. A generated question tested only on the examples that generated it supplies no independent recognition evidence. Reject a question that cannot be answered from the authorized event projection, or obtain the needed observation through an approved route.
+Derive candidate questions from the episodes and subject knowledge. Reject a question that cannot be answered from the authorized event projection, or obtain the needed observation through an approved route.
+
+Match qualification to the intended reliance and reuse current results whose cases, inputs and conditions still apply. A proposed recognition aid can be returned with its untested reach. If reliance on recognition in further cases needs evidence not supplied by those grounds, test on withheld or independently constructed cases, including negatives and unknowns. Performance only on the derivation examples does not supply that evidence.
 
 Keep the question as a useful aid, not an exclusive admission gate for every future concern. Provide an open route for an unrecognized cue. If features become a learned classifier, preserve the training basis, model version, evaluation population and refresh conditions. KCAE.EVAL compares its gain with direct source-based inquiry and the prior recognition aid.
 
@@ -1271,11 +1271,11 @@ Stored conclusions encourage confirmation and make past success look universal. 
 
 ### KCAE.MEMORY:7 - Conformance Checklist
 
-Is the future use and retention authorized? Can the original unresolved distinction be recovered? Are observations, interpretations and proposed actions separate? Does reuse check the premises that made the connection valid? Can a new contribution reach old questions outside the initial category? Were improved recognition questions tested away from their derivation examples? Are expiry and deletion applied to derived copies?
+Is the future use and retention authorized? Can the original unresolved distinction be recovered? Are observations, interpretations and proposed actions separate? Does reuse check the premises that made the connection valid? Can a new contribution reach old questions outside the initial category? Does the qualification of an improved recognition question match the intended reliance, with cases outside its derivation basis where needed? Are expiry and deletion applied to derived copies?
 
 ### KCAE.MEMORY:8 - Common Anti-Patterns and How to Avoid Them
 
-A saved label is not a preserved episode. A cached judgement is not an enduring permission or truth. A useful new method is not permission to rescan every private conversation. A feature set that only recognizes known failures needs an open cue route and independent tests.
+A saved label is not a preserved episode. A cached judgement is not an enduring permission or truth. A useful new method is not permission to rescan every private conversation. Keep an open cue route when a feature set only recognizes known failures; qualify claims of recognition in further cases under :4.4.
 
 ### KCAE.MEMORY:9 - Consequences
 
@@ -1287,7 +1287,7 @@ The episode is retained because the next useful question may differ from today's
 
 ### KCAE.MEMORY:11 - SoTA-Echoing
 
-Bates's evolving inquiry and B.5.PI's retained early cue motivate preserving unfinished distinctions. Retrieval and typed feature discovery can help index episodes or pose recognition questions, but neither establishes the adequacy of the resulting categories. This method develops the episode-to-question-to-source loop, selective revalidation and held-out recognition test. Compare an ordinary source-linked notebook as a smaller alternative; reopen the design when query diversity, retention terms or maintenance cost changes.
+Bates's evolving inquiry and B.5.PI's retained early cue motivate preserving unfinished distinctions. Retrieval and typed feature discovery can help index episodes or pose recognition questions, but neither establishes the adequacy of the resulting categories. This method develops the episode-to-question-to-source loop, selective revalidation and claim-matched recognition testing. Compare an ordinary source-linked notebook as a smaller alternative; reopen the design when query diversity, retention terms or maintenance cost changes.
 
 ### KCAE.MEMORY:12 - Relations
 
@@ -1409,7 +1409,7 @@ AgentRetrievalBench contributes a concrete warning about natural no-gold retriev
 
 ### KCAE.EVAL:12 - Relations
 
-KCAE.USE supplies the decision and workload. Every other KCAE method supplies an operation that can be examined without making its local success the whole result. C.11.DUA supplies advice and evidence burden; A.3.1.FT supplies qualified method-transfer questions when transfer is claimed. A publication's own quality and admission remain governed by its authoring and evaluation methods, separate from an installation's runtime comparison.
+KCAE.USE supplies the decision and workload. Every other KCAE method supplies an operation that can be examined without making its local success the whole result. C.11.DUA supplies advice and evidence burden; A.3.1.FT supplies qualified method-transfer questions when transfer is claimed.
 
 ### KCAE.EVAL:End
 
@@ -1459,7 +1459,7 @@ The first candidate pool contains the current resend section, old localization, 
 
 The table and procedure reveal a missing case fact. The first returned result is therefore: “The automatic route depends on the destination protocol and stable batch identity. Obtain the authorized configuration report; do not infer those values from the successful export.” This result is useful because it specifies which fact changes the action and how it can be obtained.
 
-Two continuations make the distinction inspectable:
+Three outcomes make the distinction inspectable:
 
 | Configuration result | Assessment | Useful next result |
 | --- | --- | --- |
@@ -1587,7 +1587,7 @@ Use a generative reader when the task needs an explanation, missing-condition re
 
 The [skill-suggestion cookbook](https://docs.typesafe.ai/cookbooks/skill_suggestion) supplies progressive selection: short descriptions for a wide ranking, fuller descriptions plus instruction openings for the shortlisted Choice, and full descriptions for per-candidate fits. Its Jev 1.12 demonstration uses synthetic requests. The inspected code gates on the maximum fits score, then returns the Choice winner; these can refer to different candidates. This is a static example defect, not a measured failure rate or a general vendor claim. KCAE.ASSESS:4.4 binds adequacy to the returned candidate. Method-library use also replaces the example's action-oriented screen with the required contribution, including explanations, and reads complete necessary instructions before reliance.
 
-The [feature-discovery cookbook](https://docs.typesafe.ai/cookbooks/autoresearch_feature_discovery) proposes natural-language questions, obtains numeric features, uses supervised-model errors to revise them and assesses held-out data. It demonstrates this on a bounded tasting-note prediction problem. KCAE.MEMORY adapts the error-to-question loop for recognition aids, while requiring actual permitted episodes and a separate test population. The adaptation is a proposed domain construction, not evidence that the cookbook already solves open-ended method noticing.
+The [feature-discovery cookbook](https://docs.typesafe.ai/cookbooks/autoresearch_feature_discovery) proposes natural-language questions, obtains numeric features, uses supervised-model errors to revise them and assesses held-out data. It demonstrates this on a bounded tasting-note prediction problem. KCAE.MEMORY adapts the error-to-question loop for recognition aids, while requiring actual permitted episodes and a separate test population when the intended recognition claim needs that evidence. The adaptation is a proposed domain construction, not evidence that the cookbook already solves open-ended method noticing.
 
 ### KCAE.Profiles:2.3 - Comparative evidence beyond the output type
 

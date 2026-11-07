@@ -1496,7 +1496,7 @@ First use decisive conditions to exclude arrangements that cannot serve the cont
 
 #### SIE.8:4.2 - Record the Result
 
-The result follows the conclusion actually supplied. A sufficient rejection of one proposed arrangement is complete with the receiving use, named proposal, decisive grounds and evidence, scope, and material limits. It does not require a comparison with unrequested alternatives or an implementation and interface design. Unused positions create no empty fields, waivers, or explanations of omission.
+The result follows the conclusion actually supplied. A sufficient rejection of one proposed arrangement is complete with the receiving use, named proposal, decisive grounds and evidence, scope, and material limits. It does not require a comparison with unrequested alternatives or an implementation and interface design.
 
 | Decision content | When it is needed | Content supplied |
 | --- | --- | --- |
@@ -1543,7 +1543,7 @@ The decision selects the hybrid arrangement because stable semantic premises can
 
 ### SIE.8:7 - Conformance Checklist
 
-Check the conclusion being returned. Only its applicable checks need an answer; unused branches require neither a record nor an omission explanation.
+Check the conclusion being returned. Only its applicable checks need an answer.
 
 **For every result**
 
@@ -1960,7 +1960,7 @@ Start by comparing the earlier and later meaning at the receiving question. A co
 
 The object is the affected semantic reliance and its consequences for receiving uses. The gain is a justified continuation, repair, narrowed use, or scoped unresolved result. To assert that all uses remain unaffected, establish adequate coverage of the relevant uses and their reliance.
 
-Use the applicable domain Method directly for a known operational change that does not alter a relied-on source or semantic premise. If one already identified use is the whole question, resolve that use directly with the relevant domain Method and A.10 reliance guidance. A.10.1 is needed when affected uses must be discovered across a scope.
+Use the applicable domain Method directly for a known operational change that does not alter a relied-on source or semantic premise. If one already identified use is the whole question, resolve it with the relevant domain Method and retain the source, currentness and result-specific grounds that the use needs. Use A.10 when the source-to-use account is still implicit or needs to be made replayable. A.10.1 is needed when affected uses must be discovered across a scope.
 
 ### SIE.11:2 - Problem
 
@@ -2019,7 +2019,7 @@ For a direct repair, use the result already needed by its consumer. For a common
 | Unresolved reach | Unexamined or inaccessible reliance, discovery gaps, and their effect on the conclusion. |
 | Continued use | What the receiver can now rely on and which changed conditions would reopen it. |
 
-The account summarizes its constituent results. It does not serve as a circular input that those results must await before they can be completed.
+The account summarizes its constituent results.
 
 #### SIE.11:4.4 - What Changes in Practice
 
@@ -2076,7 +2076,6 @@ If the service owner needs an integration-wide continuation decision, the accoun
 | Schema compatibility as semantic compatibility | Compare the question answered by the field, including its horizon and applicability. |
 | Every reference occurrence requires revalidation | Establish whether the result relies on the changed proposition. |
 | One repaired branch clears the whole integration | Bound the conclusion by discovered and assessed uses. |
-| Summary required before its constituent decisions | Complete direct domain results first and summarize only when a receiver needs it. |
 
 ### SIE.11:9 - Consequences
 
@@ -2215,7 +2214,7 @@ SIE.11 follows the changed classification need to the actual queries. Two consum
 - Manufacturer A retains its spare-drive query against `equip:DriveReplaceable`. Its required meaning and the qualified X/Y results remain unchanged, so it retains matching evidence for that use. Adopting the new class is not a prerequisite for continuing this query.
 
 The participant authorized to release the module publishes the identified edition with those definitions, dependency conditions, and migration information. Contact supplies the notice; the content decision, product-source claims, and receiving decisions keep the separate remits shown above. The two completed consumer results do not establish migration by every other user.
-If the two manufacturers require incompatible local criteria, the commons can retain scoped local modules and their qualified correspondences. No broader equivalence is asserted merely to make the shared diagram simpler.
+If the two manufacturers require incompatible local criteria, the commons can retain scoped local modules and their qualified correspondences.
 
 #### SIE.12:5.2 - A Sufficient Interface Agreement
 
@@ -2433,11 +2432,11 @@ When one changes, use [SIE.11:4](#sie114---solution) to determine the affected u
 
 Bring each affected result back into the combination and repeat only the comparisons and use checks whose premises changed. Check the new whole's joint conditions; a local repair can move demand to a shared limit. Where the set of consumers is unknown, keep that reach unresolved instead of treating the known consumers as exhaustive. Use SIE.12 only when actual shared-module users need common maintenance and decision arrangements.
 
-#### SIE.13:4.8 - Keep the result inspectable without imposing another form
+#### SIE.13:4.8 - Keep the result inspectable
 
 The result must let the receiver recover the answer and its allowed use, the relied-on semantic contributions, their operative connections, the realization and interface actually supplied, and the evidence for the returned disposition. Keep material missing contributions and change conditions visible. The [package anatomy](#siereference13---package-anatomy-and-direct-result-relations) locates the supplying results; it need not be duplicated in a new record.
 
-For a small use, links from the returned query rows to a contract, mapping and qualified source material can carry this account. For a larger use, maintained specifications and implementation evidence may be necessary. Producing more documents does not strengthen a missing premise.
+For a small use, links from the returned query rows to a contract, mapping and qualified source material can carry this account. For a larger use, maintained specifications and implementation evidence may be necessary.
 
 ### SIE.13:5 - Archetypal Grounding
 
@@ -2485,7 +2484,7 @@ A common schema, a merged key, a populated store or a completed query can look l
 
 The requested integration can reflect one consumer's needs while other affected consumers have different conditions. Recover the actual source and receiving authorities, and keep other consumers' conditions separate. A contract change can justify a narrower answer only through the applicable agreement; the integrator's preference for an easier result does not change that agreement.
 
-This Method can itself invite excess bookkeeping. Retain a dependency or distinction because it changes construction, interpretation, reliance or return after change. Reuse adequate explanations and evidence rather than generating twelve new deliverables for one integration.
+Retain a dependency or distinction because it changes construction, interpretation, reliance or return after change. Reuse adequate explanations and evidence.
 
 ### SIE.13:7 - Conformance Checklist
 

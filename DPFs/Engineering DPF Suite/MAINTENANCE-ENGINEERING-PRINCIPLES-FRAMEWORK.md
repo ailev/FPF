@@ -172,7 +172,7 @@ An observation says what was measured or inspected. A diagnosis explains the con
 
 A policy is the reusable selection of task and applicability conditions. A particular intervention decision selects a response now. A Method is a reusable way of obtaining a result; this framework's pattern prose explains those ways. A plan describes intended work, while the performed work and its effects require evidence of what occurred.
 
-These distinctions matter where they change action. Ordinary equipment and maintenance language is enough elsewhere; a routine repair need not acquire an ontology form. FPF supplies the general recognition, evidence, comparison, permission and assurance Methods. MNT adds the failure, task, support, operating and restoration reasoning that those general contributions do not decide by themselves.
+These distinctions matter where they change action. Ordinary equipment and maintenance language is enough elsewhere. FPF supplies the general recognition, evidence, comparison, permission and assurance Methods. MNT adds the failure, task, support, operating and restoration reasoning that those general contributions do not decide by themselves.
 
 ## MNT.Reference:4 - Competing values and the whole-use constraints
 
@@ -228,7 +228,7 @@ The supporting DPF results have concrete receiving uses. [SYSE.12](SYSTEMS-ENGIN
 
 Use [SYSE.12](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse12---develop-or-retain-an-engineering-platform-for-practitioner-work) for enabling-platform questions and [SYSE.13](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse13---establish-configuration-identity-variants-and-effectivity) for configuration. The relevant OPS results support management of maintenance Work and provision.
 
-For related explanations across the engineering languages, use the [Engineering DPF Suite Reference](ENGINEERING-DPF-SUITE-REFERENCE.md). Direct governing Methods remain with FPF and the named DPF patterns; a source catalogue is a finding aid rather than independent confirmation of their claims.
+For related explanations across the engineering languages, use the [Engineering DPF Suite Reference](ENGINEERING-DPF-SUITE-REFERENCE.md). Direct governing Methods remain with FPF and the named DPF patterns.
 
 ## MNT.Reference:10 - Framework boundary and revision
 
@@ -914,7 +914,7 @@ Repair estimates often reflect the technician's direct work and omit operator pr
 
 Does the arrangement consume a valid operating-capacity and service result? Are preparation, protected work, testing, restoration and material contingency accounted for without double counting? Are overlaps compatible with actual resources and protection? Is there a supported response when the plan no longer fits?
 
-A coordination result is complete when the responsible people can act on its bounded arrangement or know the unmet condition. Completing every maintenance Method is not its acceptance test.
+A coordination result is complete when the responsible people can act on its bounded arrangement or know the unmet condition.
 
 ### MNT.7:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -977,7 +977,7 @@ Define the bounded permission for the actual intervention: permitted scope, conf
 
 If a requirement's merits are disputed, use a separate appraisal. Identify the protected bearer, relevant harm and causal basis, baseline and incremental protection, whole burden and displaced harms. Compare harmful relaxation with harmful retention or tightening, and name who may amend the requirement. Until an authorized change applies, preserve current force. This separation permits substantive criticism without turning a framework discussion into permission to bypass a control.
 
-Return permission only for the supported work and conditions, or state the missing protection, applicability or authority. Keep evidence proportionate to the actual reliance and applicable requirements. A universal extra certification bundle is not created by this Method.
+Return permission only for the supported work and conditions, or state the missing protection, applicability or authority. Keep evidence proportionate to the actual reliance and applicable requirements.
 
 ### MNT.8:5 - Archetypal Grounding
 
@@ -1058,7 +1058,7 @@ When the actual condition differs from the expected one, determine what changes.
 
 Handle interruption explicitly. Preserve a condition that the next practitioner can safely recognize, transfer the relevant unfinished work and protection through the applicable arrangement, and re-establish any condition that no longer has usable support. If fatigue or working conditions impair the task, change allocation, relief or timing. The completion pressure does not supply capability.
 
-Preserve the facts that later users actually need. These commonly include material actions, installed or removed part identities, relevant settings and measurements, deviations from the selected work and unresolved conditions. Use the existing maintenance record when it serves that purpose. Applicable regulatory or organizational retention requirements remain in force; the framework does not create a separate universal bundle.
+Preserve the facts that later users actually need. These commonly include material actions, installed or removed part identities, relevant settings and measurements, deviations from the selected work and unresolved conditions. Use the existing maintenance record when it serves that purpose. Applicable regulatory or organizational retention requirements remain in force.
 
 Keep statements at their supported level. “Bearing installed using the applicable procedure” concerns the intervention. “The required flow is restored” needs functioning evidence. “This recurring failure has been eliminated” needs a different horizon and causal basis. Link those later results when they exist without assigning them to a task-completion entry.
 
@@ -1096,7 +1096,7 @@ The tester and operator receive an account that corresponds to the intervention,
 
 ### MNT.9:10 - Architectural Rationale
 
-Performance and its account are joined because later maintenance decisions rely on that correspondence. The Method does not make the record the work itself. Separating intervention evidence from functioning and release prevents one completion claim from silently taking on several incompatible meanings.
+Performance and its account are joined because later maintenance decisions rely on that correspondence. Separating intervention evidence from functioning and release prevents one completion claim from silently taking on several incompatible meanings.
 
 ### MNT.9:11 - SoTA-Echoing
 
@@ -1600,7 +1600,7 @@ If an unplanned extension would leave the specialist unable to perform the later
 
 For a broader conflict, suppose both jobs rely on the same standby equipment while each plan treats it as independent fallback. The decision now needs the System and operating-dependency structures as well as time. That is a reason to expand the comparison, not to derive an architecture from the schedule's page layout.
 
-The common standby can also affect an action inside a job while the job is under way. Suppose taking a diagnostic reading requires temporarily taking the standby out of service, while that reading is part of locating a fault during service restoration. The broader operating commitment requires the standby to remain available. The diagnostic action is therefore constrained through the restoration and service arrangement; assigning two labels to the same interval would not reveal this conflict. Recover the connection with FPF B.1.5.EW, then compare an applicable alternative diagnostic Method, another supported window or a changed service arrangement. Instrument handling and diagnostic interpretation must both be available; the example supplies no equipment-specific procedure or permission.
+The common standby can also affect an action inside a job while the job is under way. Suppose taking a diagnostic reading requires temporarily taking the standby out of service, while that reading is part of locating a fault during service restoration. The broader operating commitment requires the standby to remain available. The diagnostic action is therefore constrained through the restoration and service arrangement. Recover the connection with FPF B.1.5.EW, then compare an applicable alternative diagnostic Method, another supported window or a changed service arrangement. Instrument handling and diagnostic interpretation must both be available; the example supplies no equipment-specific procedure or permission.
 
 ### MNT.15:6 - Bias-Annotation
 

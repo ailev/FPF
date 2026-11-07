@@ -77,7 +77,7 @@ There are two directly useful branches. CAD.5 constructs the information availab
 
 Its recurring tensions are concrete. A precise delayed sensor leaves recent disturbances unknown. A larger model can reduce modeling error while missing the deadline. A gain that reduces tracking error can consume more input authority. Conservative sets can protect a guarantee while excluding a useful design. All of these must be judged against the same task; a smaller isolated error measure is not automatically a better control result.
 
-FPF C.43 supplies the common Method for connecting observation, choice and action in ongoing control. Apply it when the available assessment, alternatives and execution conditions still need to become one coherent continuation; an adequate architecture can remain unchanged. CAD specializes the engineering construction of the information, command and timing relations. Its state sets, error bounds and feasible commands give quantitative answers under declared models; they do not by themselves settle the legitimacy of a goal, the economics of competing resource uses or a developing subject's next worthwhile problem. Conversely, a common control mantra does not replace these calculations. A changed information delay returns to CAD.5 and its dependent bounds; an unavailable correction can reopen CAD.3 or the architecture choice; a changed goal first changes the task against which those results are used.
+FPF C.43 supplies the common Method for connecting observation, choice and action in ongoing control. Apply it when the available assessment, alternatives and execution conditions still need to become one coherent continuation; an adequate architecture can remain unchanged. CAD specializes the engineering construction of the information, command and timing relations. Its state sets, error bounds and feasible commands give quantitative answers under declared models; they do not by themselves settle the legitimacy of a goal, the economics of competing resource uses or a developing subject's next worthwhile problem. A changed information delay returns to CAD.5 and its dependent bounds; an unavailable correction can reopen CAD.3 or the architecture choice; a changed goal first changes the task against which those results are used.
 
 FPF C.43:4.5.1 also supplies the common construction of required temporal relations without imposing a periodic schedule. CAD.2 makes that construction executable through event ordering, behavior between updates and reset rules; CAD.5 preserves sample phase, information age and observation gaps, and CAD.4 qualifies the shared implementation schedule. An action can vary its timing while another required contribution continues, provided their joint resource and dynamic conditions still hold. Changing one of these relations reopens the dependent calculation; equal update frequencies alone do not preserve it.
 
@@ -178,8 +178,6 @@ The difficult question is therefore not just which operation follows another. It
 
 **Extended reminder.** A useful control split preserves the whole task by making its lost interactions explicit. The exchanged command and its timing determine the error that the lower behavior must contain; the containment consumes state clearance and actuator authority, so it limits what the upper decision may request. Those limits reshape the useful model, horizon and decomposition, while the resources needed to compute and execute them change timing again. Compare and realize this connected choice under one demand, and return a changed condition to the premise it invalidates.
 
-This reminder names a coupled argument. It does not prescribe four approval stages, prove a bound, or replace the constructions below.
-
 ### CAD.Reference:4.2 - Why these four contributions belong together
 
 CAD.1 answers a functional design question: which decisions should become distinct and why? Its result determines which interactions are no longer solved together. A long-horizon optimizer and a fast feedback law are useful only if their separation addresses a real difficulty, such as calculation time or unequal access to information.
@@ -214,7 +212,7 @@ MMP.22 supplies the transformation from mathematical operations to workable perf
 
 C.30.LCA then helps describe the resulting control structure adequately. It can expose an unrepresented latency or lower guarantee. It does not establish the guarantee's truth. Conversely, a valid error calculation does not ensure that a view shows the assumptions needed by the next engineer.
 
-These foundations remain useful outside control engineering. The subject contribution here is their specific connection to control decisions, error dynamics, admissible commands and execution. Neither collection of general references nor a single numerical example supplies that connection by itself.
+These foundations remain useful outside control engineering. The subject contribution here is their specific connection to control decisions, error dynamics, admissible commands and execution.
 
 ### CAD.Reference:4.5 - Several legitimate entries and their returns
 
@@ -250,9 +248,9 @@ During the calculation of an error margin, the immediate mathematical work contr
 
 A layered diagram recognizes a candidate organization. A plausible trace recognizes a candidate behavior. Mathematical invariance establishes a conditional property; a real model, disturbance envelope and execution arrangement must support its premises before physical reliance. These are different results, and the full use needs whichever the intended claim actually consumes.
 
-The primary trade-off is between cheaper or more specialized local decisions and the burden of maintaining their coupling. More patterns or more formal interface declarations do not settle that trade-off. The arrangement earns its cost when separate decisions remain useful and their conditions can be made compatible. A direct controller or direct existing Method remains preferable when it already serves the task.
+The primary trade-off is between cheaper or more specialized local decisions and the burden of maintaining their coupling. The arrangement earns its cost when separate decisions remain useful and their conditions can be made compatible. A direct controller or direct existing Method remains preferable when it already serves the task.
 
-A whole-use inspection therefore asks whether the selected split has a useful reason, whether the derived exchange is the one realized, whether its command/error dependence closes, whether continuation and performance are distinguished, and whether implementation conditions fit. These questions use the full constructions of CAD.1–CAD.4; they are not an alternative checklist proof.
+A whole-use inspection therefore asks whether the selected split has a useful reason, whether the derived exchange is the one realized, whether its command/error dependence closes, whether continuation and performance are distinguished, and whether implementation conditions fit. These questions use the full constructions of CAD.1–CAD.4.
 
 ### CAD.Reference:4.8 - Source boundaries, bias and future change
 
@@ -268,7 +266,7 @@ The first quantitative use needs a usable plant model, initial conditions, uncer
 
 The methods do not promise arbitrary nonlinear or learned-controller synthesis, identification of an unknown plant, security of a communication channel, or certification of a physical installation. Those are real neighboring tasks: an unsupported disturbance envelope or an unbounded communication delay can defeat a mathematically correct conclusion here. Obtain the missing model or guarantee, restrict the intended use, or retain the negative result. The separate continuous-time branch in CAD.3:4.5 needs its stated derivative, Lipschitz and forward-containment premises; sampled constraints do not establish intersample safety.
 
-A proposed architecture, a mathematically qualified model and a physically qualified implementation support different claims. The practitioner should be able to answer which observation times and executed inputs were used, which error bound holds over the allowed run, which one action works for all compatible states, what preserves continuation, and how computation realizes those conditions. The full patterns supply these tests; the questions here do not replace their derivations.
+A proposed architecture, a mathematically qualified model and a physically qualified implementation support different claims. The practitioner should be able to answer which observation times and executed inputs were used, which error bound holds over the allowed run, which one action works for all compatible states, what preserves continuation, and how computation realizes those conditions. The full patterns supply these tests.
 
 The examples favor transparent linear calculations and explicitly bounded uncertainties. Exact sets can be expensive and outer sets conservative. A stochastic expected-cost task may justify a different estimator and schedule; CAD.5:11 compares that alternative. An unqualified biological analogy or a component score cannot replace the chosen model and control criterion.
 
@@ -297,7 +295,7 @@ CAD.1–CAD.4:11 compare decomposition, reduced-model interfaces, invariant marg
 | [Systems Engineering DPF](https://github.com/ailev/FPF/blob/main/DPFs/Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md), SYSE.5 and SYSE.6 | Functional organization, bearer alternatives and the system architecture decision | CAD results can supply that wider work. Control feasibility neither chooses every system bearer nor settles the whole project. |
 | [Mathematical Modeling DPF](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md), MMP.9, MMP.18 and MMP.22 | Model reduction, compatible coupled models, and transformation of mathematical operations into workable performance | CAD.1–CAD.4 provide the control-specific receiving operations. A changed model exchange or computational realization reopens the error or deadline premise that uses it. |
 
-These remain external contributions. Core does not require this DPF for its own applications. Select an obtainable edition of a supplying publication and the exact relied-on content before applying it; a locator or title alone is not that content. If a relied-on premise changes, revisit its receiving use. If only the carrier or publication date changes, inspect compatibility rather than assuming either breakage or preservation.
+These remain external contributions. Core does not require this DPF for its own applications. Select an obtainable edition of a supplying publication and the exact relied-on content before applying it. If a relied-on premise changes, revisit its receiving use. If only the carrier or publication date changes, inspect compatibility rather than assuming either breakage or preservation.
 
 For the domain construction, a changed plant, measurement model, uncertainty, command objective, admitted switching, timing or resource arrangement reopens the dependent calculation. A source correction reopens the particular claim imported from it. Unchanged information, interface or model results remain usable under their original conditions.
 
@@ -574,7 +572,7 @@ Return the selected and rejected complete arrangements with the controlled task,
 
 For implementation, connect sample timestamps and identities, actually executed inputs and the estimator's update to real producers and consumers. Qualify computation and transport deadlines under the proposed shared load. Select an already qualified behavior for missing data, inconsistent data and late completion; “hold the last command” is not automatically safe.
 
-What changes in practice is the choice of the information the controller obtains and retains. The engineer can explain why a channel matters to an action, what must be remembered while waiting for another channel, and which changed condition invalidates the resulting control. A diagram, estimator score or list of sensors alone cannot supply that explanation.
+What changes in practice is the choice of the information the controller obtains and retains. The engineer can explain why a channel matters to an action, what must be remembered while waiting for another channel, and which changed condition invalidates the resulting control.
 
 ### CAD.5:5 - Archetypal Grounding
 
@@ -1018,7 +1016,7 @@ A variable delay or missed update needs an explicit admissible timing set and an
 
 #### CAD.2:4.4 - Return an interface that can be tested and changed
 
-Give CAD.3 the combined evolution, initial-error condition, admissible command class, mismatch class and exact moments at which each required constraint must hold. Retain the meaning and time convention of every exchanged quantity. These are engineering design values; no special record format is required.
+Give CAD.3 the combined evolution, initial-error condition, admissible command class, mismatch class and exact moments at which each required constraint must hold. Retain the meaning and time convention of every exchanged quantity.
 
 A failed error bound has several possible repairs: change the reconstruction, retain an omitted mode, alter feedforward, reduce command jumps, supply an interpolated segment, shorten latency or choose another split. The error equation identifies which change addresses the failure. Do not reflexively raise every update rate.
 
@@ -1366,7 +1364,7 @@ $$
 
 where C bounds execution under the selected implementation. These isolated inequalities are not sufficient on a shared processor: blocking, interference, communication and scheduling must fit the deadlines together. An operation count or mean runtime is not a worst-case execution bound.
 
-If planning finishes one period after its observation, model that delay and the command that controls the intervening period. Preparing a future segment can make the delay harmless for a predetermined reference but not automatically for a newly observed obstacle. Increasing the processor speed changes the feasible architecture set; increasing the assumed speed in a spreadsheet does not.
+If planning finishes one period after its observation, model that delay and the command that controls the intervening period. Preparing a future segment can make the delay harmless for a predetermined reference but not automatically for a newly observed obstacle. Increasing the processor speed changes the feasible architecture set.
 
 Use the implementation to test unit conversions, numerical tolerances, update order, saturation and reset behavior. A numerical optimizer's constraint tolerance belongs in the margin analysis if it can consume physical clearance. Verify that the lower law actually executed is the law used in CAD.2.
 
