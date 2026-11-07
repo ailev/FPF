@@ -68,7 +68,7 @@ This framework has its own publication in the [FPF Library DPF catalogue](https:
 
 Use this language when a technically possible plan still lacks an economic way of being realized: its comparison uses questionable prices, its parties cannot form workable commitments, its rules fail to coordinate different uses, or an efficiency gain changes what people do next.
 
-The three connected uses below show how several methods contribute to a larger result. They are examples of the language, not alternative names for its ten patterns. For a direct question, use the Table of Contents.
+The three connected uses below show how several methods contribute to a larger result. For a direct question, use the Table of Contents.
 
 You may ask an assisting agent: “Explain this in the language of my work, without framework jargon. Show what I can do next, what result it should supply and what would change the recommendation.” Provide what is already known about the relevant plans and resources. Unknown conditions can remain conditional.
 
@@ -131,7 +131,7 @@ Economic reasoning asks how different plans, knowledge, purposes and rights can 
 
 This framework serves engineers, entrepreneurs, managers, institution designers and advisers confronting those difficulties. It supplies methods for calculation, exchange, commitments, adaptation, shared resources and economic rules. It also helps inspect what happens after an efficiency improvement changes the range or volume of feasible activity.
 
-A practitioner needs enough knowledge of the work to recognize the intended results and the parties and resources that matter. Financial, technical, legal and statistical expertise may be supplied by others. This framework helps identify and use those contributions under their limits; it does not make them available merely by describing them.
+A practitioner needs enough knowledge of the work to recognize the intended results and the parties and resources that matter. Financial, technical, legal and statistical expertise may be supplied by others. This framework helps identify and use those contributions under their limits.
 
 ## ECO.Reference:2 - Problem and forces - Locally sound contributions can fail together
 
@@ -141,11 +141,11 @@ These failures require connections among methods. Treating economics only as mon
 
 The language uses both formal models and qualitative reasoning where their conditions fit. A mathematical result follows from its admitted construction; using it to describe actual people, organizations or markets requires the corresponding grounds. Numerical probabilities are useful when defensible, while conditional alternatives can be sufficient for a decision.
 
-Further inquiry has its own whole cost, including delay and work displaced. C.11.DUA helps compare it with using adequate current information, changing the action, accepting a bounded uncertainty or stopping. There is no requirement to prove every source anecdote or gather every possible observation before acting.
+Further inquiry has its own whole cost, including delay and work displaced. C.11.DUA helps compare it with using adequate current information, changing the action, accepting a bounded uncertainty or stopping.
 
 ## ECO.Reference:3 - Solution - Connect calculation, exchange and economic arrangements
 
-The ten methods form four connected groups. These groups organize explanation; they do not prescribe stages or fixed levels.
+The ten methods form four connected groups for explanation. Enter the group that addresses the current question.
 
 | Group | Contribution | Connection to further work |
 | --- | --- | --- |
@@ -154,7 +154,7 @@ The ten methods form four connected groups. These groups organize explanation; t
 | Shared and extended coordination: ECO.7–.9 | Connect use and renewal, relate direct cooperation to wider orders, and change rules through their practices. | Physical bounds, affected interests and obtainable capabilities constrain what arrangement can work. |
 | Efficiency and demand: ECO.10 | Follow a unit saving through changes in feasible use and demand. | Return conditional total effects to the purpose and existing comparison or portfolio methods. |
 
-The operation and its description remain different. Applying guidance can produce a proposal, a calculation, an agreement or a performed contribution, depending on what the practitioner actually does and what conditions hold. Describing a possible arrangement does not establish that it exists. The cases below and in the patterns are constructed demonstrations of reasoning; they do not assert observed field effectiveness.
+Applying guidance can produce a proposal, a calculation, an agreement or a performed contribution, depending on what the practitioner actually does and what conditions hold. The cases below and in the patterns are constructed demonstrations of reasoning.
 
 ### ECO.Reference:3.1 - Calculation rests on economic relationships
 
@@ -192,7 +192,7 @@ The language can improve the construction and comparison of economic arrangement
 
 Its field boundary is economic reasoning and coordination for the described families. It does not provide a full course in macroeconomic forecasting, monetary and credit theory, taxation, competition law, auction design or welfare economics. A use requiring one of those methods needs its specialist contribution; the ten patterns do not stand for complete coverage of all economics.
 
-The descriptions provide neither legal rights nor resources. They do not guarantee successful entrepreneurship, consensus, fairness or institutional improvement. A chosen arrangement can serve some purposes and burden others; retain those differences in the actual decision.
+A chosen arrangement can serve some purposes and burden others; retain those differences in the actual decision.
 
 ## ECO.Reference:6 - Common failures and useful returns
 
@@ -205,7 +205,7 @@ The descriptions provide neither legal rights nor resources. They do not guarant
 | A rule is copied while the capability that made it work is absent. | ECO.9 restores the practice and its transmission through the existing development methods. |
 | Lower unit resource use is reported as a guaranteed total saving. | ECO.10 compares the demand response against the relevant counterfactual. |
 
-Use these returns when the failure occurs. They are not a required audit before every ordinary action.
+Use these returns when the failure occurs.
 
 ## ECO.Reference:7 - Architectural Rationale
 
@@ -217,7 +217,7 @@ Transdisciplinary agency, Method composition, choice, uncertainty and cultural e
 
 ## ECO.Reference:8 - Source use and currentness
 
-The language is a conceptual synthesis. Historical sources identify mechanisms and disagreements; later research sharpens particular questions. Source prestige and school membership do not settle whether an operation fits the current situation.
+The language is a conceptual synthesis. Historical sources identify mechanisms and disagreements; later research sharpens particular questions.
 
 | Source line | Adopted contribution and limit |
 | --- | --- |
@@ -256,7 +256,7 @@ When a supplying method changes, reconsider the receiving claim whose operation 
 
 Use this pattern when a calculation ranks production or service plans but you cannot tell whether its prices and other weights represent exchanges and resource uses available to the people who must act. Start with the quantity that could reverse the choice and ask what transaction, displaced use or stated valuation gives it meaning. The result is a comparison with usable economic grounds, or a conditional choice with the missing ground exposed.
 
-An adequate current quotation and resource account can be used as supplied. There is no need to reconstruct the whole economy before choosing a machine, a supplier or a service.
+An adequate current quotation and resource account can be used as supplied.
 
 ### ECO.1:2 - Problem
 
@@ -468,9 +468,9 @@ For each party, compare participation with its feasible alternative. Include the
 
 Follow the proposal through the complements needed to realize it. Name unresolved supplier, customer, performer or funding commitments for ECO.4. Identify materially affected nonparticipants and resource consequences. Consent between the prospective parties alone does not settle imposed costs or rights of others.
 
-#### ECO.3:4.3 - Test the contribution, then keep or change the proposal
+#### ECO.3:4.3 - Choose the next move from the available grounds
 
-Use the smallest attainable interaction that can change the next move: a discussion of terms, a matching offer, an illustrative sample, a conditional order or a limited use. A test has a purpose such as “can this party use the service in that window?” rather than “collect more evidence”. STR.7 helps decide whether such a test is worth its burden and how to bound it.
+Use current information and agreements for what they already establish. When an unresolved question can change the next move, obtain the smallest useful interaction: a discussion of terms, a matching offer, an illustrative sample, a conditional order or a limited use. State what its answer will settle, such as whether this party can use the service in that window. STR.7 helps decide whether such a test is worth its burden and how to bound it.
 
 If the proposal is understood but not attractive, change the combination or counterparties, or stop. If it is attractive but a contribution is unavailable, return that condition rather than announcing an exchange. If an adequate attainable agreement already exists, proceed using the ordinary operating and contractual methods.
 
@@ -506,7 +506,7 @@ Can each prospective party recognize its contribution, expected result and alter
 
 ### ECO.3:9 - Consequences
 
-A previously absent option can become available for later calculation, commitment and operating work. Failed proposals can yield useful knowledge. The method offers a way of constructing and checking an exchange; it cannot guarantee that one exists.
+A previously absent option can become available for later calculation, commitment and operating work. Failed proposals can yield useful knowledge. The method offers a way of constructing and checking an exchange.
 
 ### ECO.3:10 - Architectural Rationale
 
@@ -599,7 +599,7 @@ Can a receiver identify the first attainable action, its inputs and the commitme
 
 ### ECO.4:9 - Consequences
 
-A venture can advance through commitments smaller than its complete plan. It can also stop earlier when the missing means cannot be obtained. The result remains conditional on actual counterparties and resources, rather than on a generic sequence of startup milestones.
+A venture can advance through commitments smaller than its complete plan. It can also stop earlier when the missing means cannot be obtained. The result remains conditional on actual counterparties and resources.
 
 ### ECO.4:10 - Architectural Rationale
 
@@ -609,7 +609,7 @@ Resource mobilization is a construction across interdependent plans. Financial t
 
 [Foss, Klein and Murtinu (2025)](https://link.springer.com/article/10.1007/s11138-025-00690-6) makes mobilizing resources under entrepreneurial uncertainty explicit. Their [2026 stakeholder-enrollment analysis](https://link.springer.com/article/10.1007/s11187-026-01192-w) distinguishes difficulties in sharing an understanding of a novel venture. This pattern adopts those questions while retaining understood disagreement and genuine resource unavailability.
 
-A standard financing transaction is the cheaper method when counterparties already understand the venture and only its financing terms remain open. The sources support conceptual distinctions, not a guarantee that this commitment sequence will recruit stakeholders. Reopen when a counterpart's decision or the proposed demonstration no longer settles the claimed uncertainty.
+A standard financing transaction is the cheaper method when counterparties already understand the venture and only its financing terms remain open. The sources supply conceptual distinctions for this comparison. Reopen when a counterpart's decision or the proposed demonstration no longer settles the claimed uncertainty.
 
 ### ECO.4:12 - Relations
 
@@ -735,7 +735,7 @@ Terms change a participant's feasible and attractive choices. Information gather
 
 [Holmström (1979), §2 and concluding remarks](https://gwern.net/doc/economics/1979-holmstrom.pdf) constrains contract choice by both participation and the action the participant will select, while examining information and risk sharing. These are historical analytical foundations. The finite risk-neutral examples here demonstrate feasible terms. They do not solve that paper's risk-averse optimization problem.
 
-The rival is an ordinary contract plus direct observation. Keep it when sufficiently inexpensive and informative. This pattern adds a comparison of feasible terms when observation is incomplete or costly. It does not turn a mechanism's mathematical possibility into actual enforceability or proven field effectiveness. Reopen when participation, available actions, signal quality or enforcement changes.
+The rival is an ordinary contract plus direct observation. Keep it when sufficiently inexpensive and informative. This pattern adds a comparison of feasible terms when observation is incomplete or costly. Reopen when participation, available actions, signal quality or enforcement changes.
 
 ### ECO.5:12 - Relations
 
@@ -942,7 +942,7 @@ ECO.8 connects the arrangement with wider orders; ECO.9 changes its rules throug
 
 Use this pattern when a plan or rule works among closely cooperating participants but fails when carried into wider exchange, or when commercial terms undermine the direct cooperation on which work depends. Start with one consequential interaction and the conditions that make it possible. Identify what must be coordinated directly and what can be connected through more general rules, prices or agreements.
 
-The result is a specific adjustment at that boundary. It need not be a new institution or a complete model of an economy.
+The result is a specific adjustment at that boundary.
 
 ### ECO.8:2 - Problem
 
@@ -1004,7 +1004,6 @@ Can the reader identify the relation that changed and the actual reason the old 
 
 - **The economy is managed as one organization.** Recover where shared authority and information actually obtain.
 - **Every relationship becomes a spot transaction.** Preserve a continuing cooperative contribution when the result depends on it.
-- **Two orders become two fixed Method levels.** Describe the actual overlapping relations and any separately established Method composition.
 
 ### ECO.8:9 - Consequences
 
@@ -1059,6 +1058,8 @@ Recover the current rule's useful contribution as well as its burdens. Observe o
 
 Compare retaining the rule, amending it and using a different arrangement. For each, state who can act, what they must learn or supply, how expectations and commitments change, and what happens to existing participants during the transition. Include entry, exit and the effects on people whose interests the initial proposal omits.
 
+When a trial undertakes continuing service while its workload is uncertain, recover the work owed through completion: the number and timing of cases, ordinary operations, consequential exceptions and any final settlement. Use current work records and the procedure with a qualified performer to determine the load. If the promise requires assured completion, obtain a bound covering the agreed demand and exceptions; an estimate alone leaves that assurance unresolved. Match the remaining obligations, including work after new enrolment stops, to available qualified capacity in each relevant interval. [OPS.13:4](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops134---solution) supplies this load-and-capacity comparison. If the available basis cannot support completion, narrow the undertaking with the affected parties, obtain sufficient provision or return the missing basis before making that promise.
+
 Trace interactions with the rules and practices that the alternative actually depends on. If a new procedure requires a capability, service or resource unavailable to some users, provide it, change the proposal or state the resulting exclusion. A rule change cannot create that capability by declaration.
 
 Use C.36 to distinguish making a variant, transmitting it, selecting among variants and retaining the contribution over repeated use. A single project's decision can change a local arrangement; wider adoption remains a separate process.
@@ -1075,9 +1076,9 @@ Name what observation would favour continuation, adjustment or withdrawal, witho
 
 A constructed cooperative shop has a working practice: trusted customers can pay on their next visit, and the shopkeeper keeps a small record. A proposed online system requires payment before collection. It reduces some collection work but excludes customers who can reliably pay later and cannot prepay.
 
-The useful old contribution is short-term access supported by local knowledge, not the paper notebook itself. The cooperative compares universal prepayment with limited credit accounts. Its authorized manager can offer a two-week trial to ten consenting customers, including newcomers, with a €20 balance limit each. The cooperative has €200 available above its other commitments; a trained worker has two hours each week for these accounts. The manager also has two contingency hours available to complete the trial's scheduled account work if needed. That worker checks the agreed payment date against the customer's expected receipts and unpaid purchases, using the same conditions for newcomers and existing users.
+The useful old contribution is short-term access supported by local knowledge, not the paper notebook itself. The cooperative compares universal prepayment with limited credit accounts. Its authorized manager can offer a two-week trial to ten consenting customers, including newcomers, with a €20 balance limit each. The cooperative has €200 available above its other commitments; a trained worker has two hours each week for these accounts. The worker and manager examine the agreed procedure using existing account cases, including a late payment, a disputed purchase and final settlement. Their procedure and available records support, under the agreed case and exception conditions, at most two hours for the ten account checks and one hour for shared reconciliation, exception handling and final settlement in each week. These constructed bounds cover all the promised work and total three hours per week; whether ordinary work fits two hours remains unknown. The manager can perform the agreed work and has two contingency hours available across the two weeks. The four worker-hours and two manager-hours cover the bounded workload, with the manager able to supply up to one additional hour in each week. That worker checks the agreed payment date against the customer's expected receipts and unpaid purchases, using the same conditions for newcomers and existing users.
 
-The manager chooses this trial because it can preserve later payment while testing whether the proposed account work is affordable. Existing obligations and the terms of customers outside the trial remain unchanged. At each weekly settlement, the existing account records show overdue balances; the worker can also report time spent and any refused purchase. Extend the trial or start routine service only if the weekly account work fits the continuing two-hour capacity, the trial customers' combined overdue balance does not exceed €20 and customers retain the intended access. Complete the already agreed trial service using the available contingency capacity when needed. If account work takes three hours in the first week, the manager uses one contingency hour, stops new enrolment and reserves the other hour for the final settlement. Expansion is deferred until continuing capacity or a less demanding procedure is available; the trial customers retain the agreed service. This is a feasible trial plan under constructed assumptions, not a report that the trial has occurred.
+The manager chooses this trial because it can preserve later payment while testing whether the proposed account work is affordable. Existing obligations and the terms of customers outside the trial remain unchanged. At each weekly settlement, the existing account records show overdue balances; the worker can also report time spent and any refused purchase. Extend the trial or start routine service only if the weekly account work fits the continuing two-hour capacity, the trial customers' combined overdue balance does not exceed €20 and customers retain the intended access. Complete the already agreed trial service using the available contingency capacity when needed. If account work takes three hours in the first week, the manager uses one contingency hour, stops new enrolment and reserves the other hour for the second week, whose three-hour bound includes final settlement. Expansion is deferred until continuing capacity or a less demanding procedure is available; the trial customers retain the agreed service. If that upper bound cannot be justified for the promised work, the capacity assurance remains unresolved and the manager must change the undertaking or obtain sufficient provision before offering it.
 
 If the old arrangement also favours the shopkeeper's friends and excludes similarly situated newcomers, preserving it unchanged does not satisfy the access purpose. The revised arrangement needs an attainable way to assess new entrants. If nobody can perform that work, the proposal remains incomplete.
 
@@ -1111,11 +1112,11 @@ Rules work through repeated actions and expectations. Changing an inscription is
 
 The institutional and cultural argument in Hayek's *The Fatal Conceit* is a historical reason to inspect inherited coordination, not a presumption that inheritance is desirable. [Baldwin and colleagues (2024)](https://onlinelibrary.wiley.com/doi/10.1111/psj.12518) shows why long-term feedback and context matter in studying polycentric arrangements.
 
-The pattern combines those questions with FPF's cultural-evolution methods. It chooses a situated comparison over either blanket preservation or complete redesign. Its constructed cases demonstrate reasoning, not measured superiority of the selected arrangements. Reopen when the practice, participant capabilities, wider effects or grounds for retaining a rule change.
+The pattern combines those questions with FPF's cultural-evolution methods. It chooses a situated comparison over either blanket preservation or complete redesign. Reopen when the practice, participant capabilities, wider effects or grounds for retaining a rule change.
 
 ### ECO.9:12 - Relations
 
-ECO.7/.8 identify shared-resource and cross-order problems that can motivate a rule change. C.36 supplies cultural variation, transmission, selection and retention; HCD and MDPE supply capability and practice-development contributions. OCE realizes a chosen organizational change. C.11.DUA keeps further inquiry proportionate to the next attainable decision.
+ECO.7/.8 identify shared-resource and cross-order problems that can motivate a rule change. C.36 supplies cultural variation, transmission, selection and retention; HCD and MDPE supply capability and practice-development contributions. OCE realizes a chosen organizational change. C.11.DUA keeps further inquiry proportionate to the next attainable decision. OPS.13 supplies workload and provision comparison when a trial or changed service undertakes continuing obligations.
 
 ### ECO.9:End
 
@@ -1182,7 +1183,7 @@ Now suppose the declared account also includes 150 kWh for the new equipment and
 
 A firm reduces the cost per accepted analysis and considers using the saving for more analyses. Token count is not the useful-result unit if acceptance, human revision or result quality also changes. The firm compares cost and resource use per accepted result, possible volume and the receiving work's value.
 
-A fixed budget can increase the number of useful analyses without lowering expenditure. Electricity or hardware use may move differently from expenditure. Calling every such change “Jevons” would hide the actual consequence the decision needs.
+A fixed budget can increase the number of useful analyses without lowering expenditure. Electricity or hardware use may move differently from expenditure.
 
 ### ECO.10:6 - Bias-Annotation
 
@@ -1215,6 +1216,6 @@ This pattern adopts mechanism and boundary analysis, then uses only the detail n
 
 ### ECO.10:12 - Relations
 
-ECO.2 supplies price responses; ECO.3 identifies new feasible exchanges; ECO.7/.9 address shared-resource or rule changes when those are selected. PHY and MMP supply physical and computational models, OPS supplies flow and capacity, MA and FIN supply cost and financial comparisons. General FPF choice and portfolio methods compare the retained alternatives; this pattern adds the demand-response contribution, not another portfolio mechanism.
+ECO.2 supplies price responses; ECO.3 identifies new feasible exchanges; ECO.7/.9 address shared-resource or rule changes when those are selected. PHY and MMP supply physical and computational models, OPS supplies flow and capacity, MA and FIN supply cost and financial comparisons. General FPF choice and portfolio methods compare the retained alternatives; this pattern adds the demand-response contribution.
 
 ### ECO.10:End

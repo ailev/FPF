@@ -34,7 +34,7 @@ Check that the returned text belongs to the intended document and contains the r
 
 A citation such as “this distinction follows X” tells you where a claim or explanation comes from. Use the material already given when it is sufficient; opening its source is not an automatic extra step. Inspect the source when its meaning, assumptions or evidence matter to a question about relying on it.
 
-An instruction such as “use X to compare these arrangements” asks for a contribution to the present work. Follow its conditions and distinguish a required move from one suggested way. Reuse an adequate result or an already understood Method when it fits; otherwise obtain and use the supplying explanation, then bring the result back to the work that needs it. Reading a title or following a link is not that result.
+An instruction such as “use X to compare these arrangements” asks for a contribution to the present work. Follow its conditions and distinguish a required move from one suggested way. Reuse an adequate result or an already understood Method when it fits; otherwise obtain and use the supplying explanation, then bring the result back to the work that needs it.
 
 The same destination can serve either purpose. Ordinary wording should make the difference clear; short `Source:` and `Apply:` labels can help in compact lists but are not required. A contents entry or plain catalogue locator is only navigation. If a substantive reference is ambiguous, use FPF E.11.PUA:4.1.1 to decide what to read or apply. When writing such a passage, use FPF E.8:4.2.2.2 to make its purpose clear without redundant labels. An extract retains any necessary purpose or condition that would otherwise be lost with its heading or introduction.
 

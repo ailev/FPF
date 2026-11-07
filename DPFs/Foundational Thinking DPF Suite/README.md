@@ -15,7 +15,7 @@ Framework and method links open readable text on fpf.tools; **Markdown** links o
 ## Choose an entry
 
 
-The following entries contain worked connections, not just pointers to smaller operations. Start from the contribution whose inputs are available; an example's presentation order is not a prescribed project sequence.
+The following entries contain worked connections. Start from the contribution whose inputs are available; an example's presentation order is not a prescribed project sequence.
 
 | What you need to do | Follow the worked connection |
 | --- | --- |
@@ -59,7 +59,7 @@ Research Method Practice, Decision Design, Explanation Design and Narrativizatio
 
 ## Reading, use and reuse
 
-Read [Using FPF Library](../../USING-FPF.md) before applying the methods, with or without an AI assistant. Start from the contribution your work needs; the order of files is not a project sequence. Read a selected pattern's conditions, explanation and worked cases. A checklist helps inspect a result; it does not replace the method.
+Read [Using FPF Library](../../USING-FPF.md) before applying the methods, with or without an AI assistant. Start from the contribution your work needs; the order of files is not a project sequence. Read a selected pattern's conditions, explanation and worked cases.
 
 Anatoly Levenchuk, with AI-assisted development and review. These publications continue to evolve; check the edition when relying on a particular result. Original content is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), subject to the [licensing terms](../../LICENSING.md). For a method, cite its framework, edition and complete PatternID.
 

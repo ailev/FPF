@@ -140,7 +140,7 @@ Recognition and assurance have different jobs. A score presented as a benefit or
 
 ## FDM.Reference:6 - Source choices and alternatives
 
-The score-and-loan and group-funding cases join two questions: which financial relation a description concerns, and what using the description can change for a participant. A tool supplier can properly deliver information while another participant makes the decision. An authorized automated arrangement can act without a mandatory intermediate change in a human's expectation. A duty or permission is an actual institutional relation under its applicable conditions, distinguishable from descriptions of it. More client admissions are not by themselves a better outcome: suitability, legitimate refusal, participant objectives and the governing conditions can change that conclusion.
+The score-and-loan and group-funding cases join two questions: which financial relation a description concerns, and what using the description can change for a participant. A tool supplier can properly deliver information while another participant makes the decision. An authorized automated arrangement can act on the supplied information. A duty or permission is an actual institutional relation under its applicable conditions, distinguishable from descriptions of it. More client admissions are not by themselves a better outcome: suitability, legitimate refusal, participant objectives and the governing conditions can change that conclusion.
 
 [FPF A.2.8][DUTY], [FPF A.2.8.PER][PER] and [FPF A.2.9][ACT] supply the respective duty, permission and communicative-work distinctions. ADM supplies the applied administrative questions. These sources retain results that a vocabulary-only financial model could erase.
 
@@ -250,8 +250,6 @@ For the proposed interpretation, examine whether:
 3. Assertions and records about the position remain distinguishable from the position itself.
 4. Actual resources and expected future performance are not inferred from a position alone.
 5. The result supplies an adequate answer or names the particular identity, term, rule or evidence still missing.
-
-An adequate description supports its stated interpretation. Its existence alone does not prove formation, funding or performance.
 
 ### FDM.1:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -400,8 +398,6 @@ For the boundary's stated use, examine whether:
 3. Liability, control, support, permission and expected behavior remain distinct where their differences matter.
 4. An aggregate retains the necessary time, currency, restrictions and applicable composition rule.
 5. A claim of available funding has adequate support for timely usability, and unresolved premises remain visible.
-
-A correct membership list establishes the group under its criterion. It does not establish every financial conclusion someone might draw from that group.
 
 ### FDM.2:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -627,8 +623,6 @@ For the intended flow use, examine whether:
 5. Missing terms and uncertain inputs are exposed where they affect the result.
 6. A valuation or decision claim uses the further method and evidence it requires.
 
-A generated schedule demonstrates the calculation under its inputs. It does not establish valid formation, future performance or financial suitability.
-
 ### FDM.3:8 - Common Anti-Patterns and How to Avoid Them
 
 **Using principal as the maturity payment.** Recover the amount's contractual meaning and derive the payment from the terms.
@@ -779,8 +773,6 @@ For the effect being asserted, examine whether:
 5. Records, effective relations and resource availability remain distinct where their differences matter.
 6. The result distinguishes supported change, supported non-change and unresolved effect.
 
-A calculation can verify the consequence of supplied premises. It cannot establish the missing event or institutional rule.
-
 ### FDM.4:8 - Common Anti-Patterns and How to Avoid Them
 
 **Closing the obligation from a sent instruction.** Establish the event the applicable arrangement recognizes as performance.
@@ -862,7 +854,7 @@ When several participants matter, retain their differing objectives and conseque
 
 Identify the service output and who uses it. Separate the method, its implementation, one performed use and the produced result where their differences affect the account. A score is one output of a scoring arrangement; it is not the arrangement itself.
 
-Ask the receiving participant how the output enters their work. A human or an authorized automated arrangement can use it. There is no mandatory intermediate change in a human's private expectation. Conversely, delivering data to an application does not establish that it influenced the relevant action.
+Ask the receiving participant how the output enters their work. A human or an authorized automated arrangement can use it. Delivering data to an application does not establish that it influenced the relevant action.
 
 A supplier can properly deliver information to another actor. Give that supplier's contribution its actual scope instead of redefining every upstream tool as if it directly provided the final financial outcome.
 
@@ -906,8 +898,6 @@ The same construction applies to a client-admission service. An information supp
 
 A developer may overvalue improvements visible in the tool's own metrics. A business sponsor may prefer the final benefit and omit the intervening assumptions. Recover both the actual output and the receiving use.
 
-A reported source case can also tempt the modeler to require one organization or human role arrangement everywhere. Preserve the relevant functions and actual authority while allowing different competent human and automated arrangements.
-
 ### FDM.5:7 - Conformance Checklist
 
 For the contribution being claimed, examine whether:
@@ -918,8 +908,6 @@ For the contribution being claimed, examine whether:
 4. Output quality, actual use, financial effect and later participant outcome retain their different evidence and uncertainty.
 5. Material alternatives and failure points have been examined where they can change the conclusion.
 6. The result states the supported contribution and any specific next evidence or decision needed.
-
-A coherent contribution model supports understanding and inquiry. An observed improvement or causal benefit needs the evidence its stronger claim requires.
 
 ### FDM.5:8 - Common Anti-Patterns and How to Avoid Them
 
