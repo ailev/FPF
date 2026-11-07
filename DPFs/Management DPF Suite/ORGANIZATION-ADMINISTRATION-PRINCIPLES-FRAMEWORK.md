@@ -724,7 +724,7 @@ The practice question is how to distinguish an effective organizational change f
 
 One alternative is “use the latest row as the current state”. Its advantage is low handling effort. It fails when recording time is taken as effective time without the governing rule—for example, by treating a future appointment as already effective or delayed reporting as a delay in the relation itself. Under a different rule, registration can constitute the relation. Sections 4.2–4.4 and the paired registration cases retain the rule that determines which interpretation applies. The practitioner can still use an adequate latest account directly; a timeline is added only when it resolves an action-changing difference.
 
-The May laboratory's relation/record discussion and the later ADM source pack's effective-condition distinctions supply failure reasoning and synthesis inputs. A.6.REL supplies the general method for relation change and optional occurrence identity. [FPF B.1.5.EW][EW] supplies the explanation of constituent and encompassing work applied in §5.4. This is a selected practical comparison, not empirical proof that one temporal database design is best.
+The May laboratory's relation/record discussion and the later ADM source pack's effective-condition distinctions supply failure reasoning and synthesis inputs. A.6.REL supplies the general method for relation change and optional occurrence identity. [FPF B.1.5.EW][EW] supplies the explanation of constituent and encompassing work applied in §5.4.
 
 Reconsider the instruction when a governing relation uses an additional constitutive condition, when repeated episodes cannot be distinguished for the required history, or when a new record arrangement changes what evidence a handler can obtain.
 
@@ -1653,8 +1653,6 @@ If the provider instead confirms failure before any credit, treasury can use its
 
 Provider dashboards favor events inside the provider's control. Recipients may experience a failure after every internal task has succeeded. Observe the condition relevant to the recipient's use without assuming that one person's feedback represents every user or future attempt.
 
-Use evidence adequate for the actual promise, uncertainty and receiving decision.
-
 ### ADM.9:7 - Conformance Checklist
 
 **Recognition.** The result names the beneficiary's promised usable condition, actual provider action and evidence of effect. A partial or unknown result identifies what remains and who can act.
@@ -2266,7 +2264,7 @@ Choose the change justified by that comparison. A correct policy with a defectiv
 
 #### ADM.14:4.6 - Exercise the changed control in its receiving use
 
-For a selected change, exercise a supported case, a known violating case and the relevant uncertainty or unavailable-check branch. Include a changed subject or post-check change when it can defeat reliance. Use the qualified domain procedure for the actual assurance claim.
+Reuse adequate results where the control claim, relevant conditions and receiving use still match. For the claims affected by a selected change, exercise the supported, violating, uncertain or unavailable-check cases needed to settle the remaining questions. Include a changed subject or post-check change when it can defeat reliance. Use the qualified domain procedure for the actual assurance claim.
 
 Confirm that the intended decision receives the correct result and that the failure response reaches someone able to act. A desk comparison supports the design account; a trial of the real implementation supports only the behavior actually observed.
 
@@ -2302,7 +2300,7 @@ Digital implementations favor conditions that are easy to count. Inspect whether
 
 **Recognition.** The control account identifies its purpose and governing source, the competent rule owner, needed claim, qualified checking contribution, consuming decision and failure response.
 
-**Assurance for reliance.** Use the qualified procedure to examine a valid, violating and relevant unavailable or changed-subject case at the point of use. Establish that the proposed repair changes the intended contribution under actual authority, preserves protected conditions and gives the participant an actionable return. A policy signature and a technical test remain evidence for different claims.
+**Assurance for reliance.** Reuse adequate matching results and use the qualified procedure to examine the affected valid, violating and relevant unavailable or changed-subject cases at the point of use. Establish that the proposed repair changes the intended contribution under actual authority, preserves protected conditions and gives the participant an actionable return. A policy signature and a technical test remain evidence for different claims.
 
 ### ADM.14:8 - Common Anti-Patterns and How to Avoid Them
 

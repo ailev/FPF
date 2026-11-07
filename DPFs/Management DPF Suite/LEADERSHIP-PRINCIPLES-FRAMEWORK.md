@@ -221,7 +221,7 @@ The examples are constructed situations. Their stipulated capacities, rules, acc
 
 The main costs are competent preparation, participants' time and the work needed to make a proposal or agreement executable. The main risk is making a polished social process stand in for an unsupported subject claim or commitment. Retain useful working products and reasons in the ordinary place the next participant uses; create no leadership reporting system merely to prove the framework was followed.
 
-Reconsider the smallest affected part when the task, provider, support, authority, evidence or continuation demand changes. If the methods repeatedly fail to supply the promised contribution, examine whether the missing result belongs here, needs a better domain supplier, or requires a different arrangement. Neither a broad title nor an earlier successful case closes that question.
+Reconsider the smallest affected part when the task, provider, support, authority, evidence or continuation demand changes. If the methods repeatedly fail to supply the promised contribution, examine whether the missing result belongs here, needs a better domain supplier, or requires a different arrangement.
 
 ## LDR.Reference:End
 
@@ -1116,7 +1116,7 @@ Suppose three independent engineering communities want a monthly service in whic
 
 A competent domain team has already designed the proposed diagnostic method and its acceptance conditions. Each case needs two hours of substantive integration and half an hour of a separate qualified acceptance decision. The case owner also needs to supply permitted material, attend the receiving conversation and perform any corrective engineering work. Those activities are part of the service arrangement; the two-and-a-half-hour figure does not include them.
 
-Four cases are proposed for the first month. The available joint specialist capacity is eight hours, of which two must remain for previously accepted work. Six hours remain for the new service. In this case, the pool's members are qualified for both integration and acceptance, and compatible windows permit a different specialist to accept each case from the one who integrated it. The available hours can therefore be allocated between those activities without losing the required independence. Four cases would require ten hours of the constrained specialist work, so the proposal is infeasible before considering the clients' correction work. Enthusiasm does not change that result.
+Four cases are proposed for the first month. The available joint specialist capacity is eight hours, of which two must remain for previously accepted work. Six hours remain for the new service. In this case, the pool's members are qualified for both integration and acceptance, and compatible windows permit a different specialist to accept each case from the one who integrated it. The available hours can therefore be allocated between those activities without losing the required independence. Four cases would require ten hours of the constrained specialist work, so the proposal is infeasible before considering the clients' correction work.
 
 The organizer uses LDR.1 to identify the missing contributions: a domain integration provider, qualified acceptance, client preparation, participant communication and a decision about scarce time. These are functions in the work, not five new jobs. Existing community coordinators can communicate the agreed terms; no common office is needed for that contribution.
 
@@ -1201,7 +1201,7 @@ The references below return to published methods. They provide descriptions from
 | [FPF C.41.OF — Fit a Checklist to Its Occasion of Use](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c41of---fit-a-checklist-to-its-occasion-of-use) | A checklist fitted to its actual occasion and continuation. | Use when an execution aid helps; the aid does not perform the subject reasoning or repair a missing result. |
 | FPF C.36, C.36.RP and C.28 | C.36 qualifies claims about cultural relations and their continuation; C.36.RP supplies ways to keep shared methods obtainable and support their renewal; C.28 qualifies causal claims. | Use C.36.RP when later participants need a way to obtain the method. Use C.36 or C.28 when making the corresponding cultural or causal claim; a first contribution establishes neither automatically. |
 
-These are one-way content dependencies of this framework. Their availability as descriptions is distinct from the local availability of capable providers, rights, evidence or resources. If the method needed for a current result is unavailable or incompatible with the local conditions, state that missing contribution and revise the proposed use. A title-level dependency is not closure of the practical question.
+These are one-way content dependencies of this framework. Their availability as descriptions is distinct from the local availability of capable providers, rights, evidence or resources. If the method needed for a current result is unavailable or incompatible with the local conditions, state that missing contribution and revise the proposed use.
 
 ## LDR.Source:2 - Source contributions and evidence limits
 

@@ -498,13 +498,13 @@ Bound the work so that the recipient can supply relevant material and a contribu
 
 State what would count as a usable result and what must remain outside the exchange. Use the target practice's criteria for a technical answer. A community organiser can arrange access to a qualified judgement without being qualified to make it. For a social activity, a wanted opportunity to speak and be heard may be the result; do not impose a technical deliverable on that purpose.
 
-If the original request needs a missing domain method, unavailable data or a decision that the participants cannot make, obtain that contribution or revise the activity. A well-run meeting cannot supply it by itself.
+If the original request needs a missing domain method, unavailable data or a decision that the participants cannot make, obtain that contribution or revise the activity.
 
 #### CB.2:4.2 - Find the contributions needed on each side
 
 Start from the result and work backward to the people, material and conditions that could produce it. For a help request, this normally means a person with a real question and someone with relevant competence, experience or access. For a joint activity, identify the different contributions that make it worthwhile.
 
-Approach potential participants with a specific reason their contribution could matter. Explain the purpose, requested preparation, likely effort, available support and limits. Ask whether they want to participate under those conditions. Being well known, holding a title or appearing on a member list does not establish willingness or suitability for this exchange.
+Approach potential participants with a specific reason their contribution could matter. Explain the purpose, requested preparation, likely effort, available support and limits. Ask whether they want to participate under those conditions.
 
 Obtain enough information to make a defensible match. The contributor may need to know the kind of case, the question, the material available and the recipient's starting knowledge. The recipient may need to know the contributor's experience and the limits of the proposed help. Use only information relevant to the match and permissible to share.
 
@@ -608,7 +608,7 @@ The owner returns a concise account of the chosen next step. If the decision can
 
 #### CB.2:5.3 - Willingness does not supply missing competence
 
-Several people volunteer to help with a case, but none can explain how the proposed diagnostic method is justified. The organiser closes the request with that limitation and seeks a qualified source or method-development contribution. Participants can still help formulate the question and identify missing observations. Their enthusiasm does not make the technical answer reliable.
+Several people volunteer to help with a case, but none can explain how the proposed diagnostic method is justified. The organiser closes the request with that limitation and seeks a qualified source or method-development contribution. Participants can still help formulate the question and identify missing observations.
 
 #### CB.2:5.4 - A first social connection can be enough
 
@@ -822,8 +822,6 @@ A workable entry or change of participation makes it possible to answer:
 - What responsibility, permission or support changes when participation changes?
 - What did the attempted use establish, and what remains unavailable?
 
-Use the answers to improve the action. A completed orientation checklist alone does not establish access, belonging or capability.
-
 ### CB.3:8 - Common Anti-Patterns and How to Avoid Them
 
 | Wrong turn | Practical repair |
@@ -956,7 +954,7 @@ Use a form because of the result it develops. The variants below are adaptations
 
 **Arguments that people hesitate to voice.** For a bounded issue, invite participants to explore opposing arguments in explicitly assigned roles. Give them preparation time, an opportunity to answer the other argument, and a closing conversation outside those roles. Ask which assumptions or alternatives now matter to their own judgement. Do not infer participants' personal beliefs from the side they were asked to argue. Keep the debate separate from a formal decision and use a different form if the conflict cannot be explored under acceptable participation conditions.
 
-**A view of different practice settings.** Start with what participants need to know about one another. A gallery can let people present a relevant project, need or offer and then discuss it. For systematic comparison, agree the questions, let each participant describe their own context, and compare answers to the same question across contexts. Preserve a missing answer as missing; distinguish reported practice from demonstrated performance. A practice matrix is useful when it makes those comparisons possible. Its colours or cell counts add no independent quality judgement.
+**A view of different practice settings.** Start with what participants need to know about one another. A gallery can let people present a relevant project, need or offer and then discuss it. For systematic comparison, agree the questions, let each participant describe their own context, and compare answers to the same question across contexts. Preserve a missing answer as missing; distinguish reported practice from demonstrated performance. A practice matrix is useful when it makes those comparisons possible.
 
 **Personal reflection connected to shared discussion.** Give a quiet period in which people can formulate their own conclusions or questions, then let them compare what they choose to share. Use a common document when seeing emerging contributions helps the purpose. If independent initial responses matter, collect or retain them before showing others' responses. Close with the important differences and the next use of the notes, rather than leaving a large unexamined transcript.
 
@@ -1233,7 +1231,7 @@ The first contributor offers a solution immediately. The facilitator returns to 
 
 The owner takes away one justified information-gathering action and reports the later result. It excludes one interpretation but leaves another condition uncertain. The returned account helps the contributors refine the advice. The clinic has supplied a useful continuation without claiming that the equipment was repaired.
 
-If nobody can supply the needed technical judgement, the group can still clarify the question and return it to a qualified source. Interest and active discussion do not close that missing contribution.
+If nobody can supply the needed technical judgement, the group can still clarify the question and return it to a qualified source.
 
 #### CB.5:5.2 - Twenty minutes broaden a design question
 
@@ -1728,7 +1726,7 @@ Four participants volunteer in two pairs for this session. One pair attends to u
 
 One member of the first pair notices that three speakers have taken every turn; the other notices an unused written-question route. During the pause, they compare these observations and ask a quiet newcomer whether the available routes work for them. The newcomer wants to ask a question without interrupting the case. A written question reaches the host, who gives it a place in the remaining discussion. The second pair identifies two related questions that cannot both receive a useful treatment in the remaining time. It proposes a focused next session; the host accepts that proposal through CB.4 and a participant agrees to prepare the shared material.
 
-At the debrief, the first pair reports that the newcomer received a relevant reference. The second pair confirms the next-session preparation with its willing receiver. Both temporary assignments end; the existing organiser and successor remain responsible for their own agreed contributions. Through CB.10, the organiser later obtains the recipient's account: the reference supplied the previously missing condition needed to select a diagnostic check. This is one bounded account of value, not proof that the group arrangement generally improves repair performance.
+At the debrief, the first pair reports that the newcomer received a relevant reference. The second pair confirms the next-session preparation with its willing receiver. Both temporary assignments end; the existing organiser and successor remain responsible for their own agreed contributions. Through CB.10, the organiser later obtains the recipient's account: the reference supplied the previously missing condition needed to select a diagnostic check.
 
 The next event is shortened to thirty minutes, and only one participant offers additional help. There is no feasible pair or conference time. The organiser retires the group variant for that event, asks the willing helper to collect unanswered questions for the final three minutes, and defers the wider participation inquiry.
 
@@ -2462,8 +2460,6 @@ The practical comparison is between activity reporting, a bounded inquiry that c
 | C.36, HCD, MA, C.28 and RMP | Retain the distinct cultural, capability, cost and causal questions and obtain the actual supplier result when it is needed. | More specialised evidence can resolve a consequential uncertainty; demanding all of it for a simple local repair would burden participation without changing that decision. |
 
 Guidebook source: [second-edition text](https://www.wenger-trayner.com/wp-content/uploads/2024/03/24-02-21-CoP-guidebook-second-edition-final-2.pdf), published at the 2024 URL, under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). The account here is an analytical adaptation; examples are constructed and do not imply the source authors' endorsement.
-
-The useful contemporary combination preserves the source's positive inquiry method while qualifying its claims through the actual evidence question. New collection tools can reduce effort, but their convenience does not establish what the observations mean or whose experience is missing.
 
 ### CB.10:12 - Relations
 

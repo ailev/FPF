@@ -133,7 +133,7 @@ The calculations below are constructed cases under supplied operating, contractu
 
    Obtain only the aggregate information that can resolve those thresholds, or a feasible revised operating arrangement. Precise measurement of every customer's effort is unnecessary if a supported aggregate bound settles the question. For a feasible month-2 branch, the future difference remains **60** when month 3 fits the basic supply, or becomes **−120** when month 3 also needs its 180 block. The month-2 receipts remain conditional while service feasibility is unresolved. Do not invent a second block or promise unchanged receipts for work that cannot be performed.
 
-Constructing the cohort hours performs part of constructing this joint account. The combined capacity, dates and remaining uncertainty determine whether the whole account can be used, even when every local multiplication is correct.
+The combined capacity, dates and remaining uncertainty determine whether the whole account can be used, even when every local multiplication is correct.
 
 ### MA-E5 — The required economics has no supported design
 
@@ -199,7 +199,7 @@ This framework covers economic explanation and construction for managing organiz
 
 Investment valuation, financing and financial-risk treatment have their own financial methods. Tax, external reporting and legal duties require their applicable rules and competent practice. Engineering establishes technical and service realizations; marketing investigates the offer and its use; operating management establishes executable work and makes operating choices. Management Accounting participates in these constructions by developing the economic relationships and consequences they need. Referring to a collaborator does not discharge that contribution: obtain a usable result, connect its conditions, and return a changed premise to its owner.
 
-This boundary permits both a small warranted calculation and a substantial joint redesign. It supplies no universal profit objective, optimal costing system or compulsory sequence through all the patterns. The receiving work determines which construction must be made and when it is sufficient.
+This boundary permits both a small warranted calculation and a substantial joint redesign. The receiving work determines which construction must be made and when it is sufficient.
 
 ## MA.Reference:2 - How the methods connect
 
@@ -233,7 +233,7 @@ In MA.1's constructed test-order case, 100 accepted units require 26–29 rig-ho
 
 OPS.14 uses those quantities and the stated absence of displacement to compare the 1,200 receipt with 540, giving 660. Its funding question uses the whole timed cash position. Under the example's explicit baseline-cash premise, 440 is paid now, 100 is due on day 7 and the receipt arrives on day 28; a 40 day-7 funding gap remains. The favorable comparison and the unresolved funding are both useful results.
 
-Other entries change different actions. MA.4 explains how inventory and receivables connect profit to cash. MA.6 preserves an expectation of 100, ambition of 120, request for provision covering 130 and authorization covering 110. MA.8 distinguishes the recovery of past acquisition or development payments from a new continuation choice. MA-E4 joins two cohorts before testing the common capacity and payment dates. A reader does not have to reconstruct the order model to use these methods.
+Other entries change different actions. MA.4 explains how inventory and receivables connect profit to cash. MA.6 preserves an expectation of 100, ambition of 120, request for provision covering 130 and authorization covering 110. MA.8 distinguishes the recovery of past acquisition or development payments from a new continuation choice. MA-E4 joins two cohorts before testing the common capacity and payment dates.
 
 ## MA.Reference:4 - Correct use, evidence and effort
 
@@ -285,7 +285,7 @@ Use this pattern when a cost report cannot explain what a proposed order, change
 
 The pattern governs a model relating work outputs to resource consumption and monetary amounts for a stated use. Its useful result is enough of that model to explain the relevant quantities, capacity conditions and money. The operating decision can then use [OPS.14][OPS] to compare options.
 
-If an existing model already supplies adequate quantities and conditions, use it. Rebuilding the whole cost system adds no value to a question that an adequate account can already answer.
+If an existing model already supplies adequate quantities and conditions, use it.
 
 ### MA.1:1 - Problem frame
 
@@ -411,7 +411,7 @@ Return to the test order with a nine-hour setup. Suppose obtaining 100 accepted 
 
 While doing that multiplication, the accountant is deriving rig demand and constructing the order's resource account. The accepted-output requirement governs which attempts must enter the calculation. A colleague may supply the process relationship when the accountant cannot establish it; the accountant still needs to understand how that contribution affects the model. Repeating multiplication exercises would not supply the missing relationship.
 
-The observed production attempts belong to the work being modeled. They are not constituent acts of the accountant's model construction. Likewise, using one calculation to construct an account does not create additional rig occupation or additional hours of accounting work for each description of it.
+The observed production attempts belong to the work being modeled. They are not constituent acts of the accountant's model construction.
 
 Return the changed demand to the operating comparison. [OPS.11.1][OPS] can recover the routing, shared-resource and completion conditions when a different operating arrangement is needed. Recalculating existing assignments or changing an authorized allocation is an operating question. [OCE][OCE] becomes relevant if the proposed repair changes who may commit resources or other organizational arrangements.
 
@@ -466,7 +466,7 @@ At the effort of recovering a few consequential relationships, this line can dis
 
 Bragg's *Throughput Accounting* (2007), printed pp.44–47 and 84–86, supplies historical examples and assumptions behind short-run comparisons. The pattern retains their attention to changed payments and capacity, while including supplier charges, setup supply and other changed flows when actual terms require them. Caspari and Caspari's *Management Dynamics* (2004), printed pp.1–11, supplies the counterexample in which local time reduction need not improve the constrained system or reduce wages. These sources inform the returned quantities and the faster-method case.
 
-Reconsider the model when observed work, relevant terms or the receiving use defeats its dependency, capacity or detail assumptions. A newer cost-model label alone is not evidence that a more elaborate account would answer the question better.
+Reconsider the model when observed work, relevant terms or the receiving use defeats its dependency, capacity or detail assumptions.
 
 ### MA.1:12 - Relations
 
@@ -668,7 +668,7 @@ If an actual permitted supply change instead avoids 300 of the shared payment in
 
 A recipient can prefer a driver that lowers its charge. An analyst can prefer measurable activity even when it poorly explains the resource pool. Make the source purpose and evidence inspectable.
 
-The example uses an agreed internal convention. Its validity for that charge does not establish a universally fair or causal allocation rule.
+The example uses an agreed internal convention.
 
 ### MA.3:7 - Conformance Checklist
 
@@ -1106,7 +1106,7 @@ Do not close the gap by editing the expectation to equal the authorized number. 
 
 Show the expectation, ambition, request and authorization at enough detail to locate the next decision. Preserve the forecast's original assumptions when a later choice changes them.
 
-Observe whether people can now report an unwelcome expectation and whether decisions about resources take that expectation into account. MA.9 constructs a missing information-use arrangement and examines persistent behavioral effects; the responsible organizational practice supplies a wider change in management arrangements.
+When the use of these accounts remains in question, observe whether people can report an unwelcome expectation and whether decisions about resources take that expectation into account. MA.9 constructs a missing information-use arrangement and examines persistent behavioral effects; the responsible organizational practice supplies a wider change in management arrangements.
 
 ### MA.6:5 - Archetypal Grounding
 
@@ -1556,7 +1556,7 @@ Examine responsibility and joint consequences. Participants should be able to di
 
 Before making a new arrangement routine, work through materially different plausible actions with its participants. Does the information distinguish those actions? Can a locally attractive action impair the intended joint result? Can an unfavorable expectation be reported and used? Revise the account, its timing or interpretation where this comparison reveals a failure. A contemplated change to rights, rewards or authority remains a proposal for the responsible organizational decision.
 
-Use the arrangement and examine what actually happens. Whether information arrived, was understood, changed the choice and improved the intended result are different questions. Observations can justify retaining a simple arrangement, revising its model or timing, or investigating a behavioral explanation through the operations below. The constructed comparison provides an initial basis; it does not establish a later causal effect.
+When the arrangement is put into use, examine what actually happens. Whether information arrived, was understood, changed the choice and improved the intended result are different questions. Observations can justify retaining a simple arrangement, revising its model or timing, or investigating a behavioral explanation through the operations below. The constructed comparison provides an initial basis; it does not establish a later causal effect.
 
 #### MA.9:4.1 - Recover the account and how people use it
 
@@ -1794,7 +1794,7 @@ A forward account answers what follows from an arrangement. The inverse question
 
 ### MA.10:11 - SoTA-Echoing
 
-[ACCA's target and life-cycle costing explanation][TARGET] connects an economic allowance with design and later costs. Its teaching examples are useful grounds for the inverse question; general claims about fixed percentages of committed cost or the superiority of one costing method are not premises here. [IMA's 2014 conceptual framework][CFMC] contributes resource relationships and their application to managerial choices. [The 2023 Global Management Accounting Principles][GMAP] provides a broader professional context. These sources support distinct contributions; the method requires evidence for the actual arrangement and does not infer feasibility from professional endorsement.
+[ACCA's target and life-cycle costing explanation][TARGET] connects an economic allowance with design and later costs. Its teaching examples are useful grounds for the inverse question; general claims about fixed percentages of committed cost or the superiority of one costing method are not premises here. [IMA's 2014 conceptual framework][CFMC] contributes resource relationships and their application to managerial choices. [The 2023 Global Management Accounting Principles][GMAP] provides a broader professional context.
 
 ### MA.10:12 - Relations
 

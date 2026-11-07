@@ -102,7 +102,7 @@ Second, construct evidence of achievement in GOALS.2. Asking how a result would 
 
 Third, determine reliance and make the demands fit together. An ambition invites a worthwhile search beyond the current expectation; a forecast describes what is expected under stated conditions; a commitment establishes what another participant may rely on under its actual agreement. GOALS.3 combines these meanings with current service, material dependencies and shared capacity. A goal that needs unavailable complements returns for construction, changed scope or an explicit unresolved condition. Lowering a forecast does not perform any of those changes.
 
-Fourth, people and agents carry out subject work. GOALS.6 helps a person connect an adopted aim to suitable action, competing aims and assistance. GOALS.7 does the corresponding assignment and continuation work for an AI system under its actual capabilities and authority. The subject methods produce the result: a good goal does not manufacture a repair technique, a research answer or a learning opportunity. [C.39 in FPF](../../FPF-Spec.md) develops a missing way of working. [HCD](<../Human Capability Engineering DPF Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md>) supplies development of a human contribution when that is needed.
+Fourth, people and agents carry out subject work. GOALS.6 helps a person connect an adopted aim to suitable action, competing aims and assistance. GOALS.7 does the corresponding assignment and continuation work for an AI system under its actual capabilities and authority. The subject methods produce the result. [C.39 in FPF](../../FPF-Spec.md) develops a missing way of working. [HCD](<../Human Capability Engineering DPF Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md>) supplies development of a human contribution when that is needed.
 
 Fifth, GOALS.4 connects observation to diagnosis and a warranted continuation. It uses [C.43](../../FPF-Spec.md), which already supplies the full connection of observation, choice and action. The domain addition here concerns which goal-related meaning changes: a forecast, a means hypothesis, an achievement test, a resource allocation, an aspiration or a commitment. An adverse observation can leave the goal sound; a goal can become obsolete while every indicator is green.
 
@@ -239,7 +239,7 @@ The expected practical gain is a better-founded next action: a useful target, an
 
 Correct use leaves material criteria, reliance, dependencies and returns intelligible to those who need them. The arrangement should expose what a consequential change would reopen and who can act. It should preserve actual unfinished work, permitted exceptions, protected conditions and the evidence limits of any stronger claim. These questions can be answered in existing work products and conversations. A separate comprehensive goal register is useful when continuity or coordination needs it, rather than an automatic requirement for every task.
 
-The recurrent failures addressed here have concrete consequences: activity KRs conceal a missing result; unqualified stretch defeats reliance; a hidden shared-resource conflict makes a promise infeasible; a score average hides a mandatory failure; opaque personnel use makes a developmental conversation misleading. Their repairs occur at the affected relation. Suitable uncomplicated work remains uncomplicated.
+The recurrent failures addressed here have concrete consequences: activity KRs conceal a missing result; unqualified stretch defeats reliance; a hidden shared-resource conflict makes a promise infeasible; a score average hides a mandatory failure; opaque personnel use makes a developmental conversation misleading. Their repairs occur at the affected relation.
 
 Evidence of successful local use supports that use. Measured improvement in organizational performance, human capability, well-being or AI reliability requires evidence for that claim and setting. Existing sufficient evidence can be used directly; a new experiment is selected only when a consequential unresolved question warrants it. Material changes in tools, terms, data or source findings reopen the corresponding applications, not every unaffected method.
 
@@ -334,7 +334,7 @@ The next actor receives a meaningful task or an exact construction question. Unc
 
 ### GOALS.1:10 - Architectural Rationale
 
-The method starts with result and reliance because a polished target cannot settle either. It draws on general control and existing operating goal construction, then supplies the cross-domain distinction needed when delivery, inquiry and development coexist. A numerical target with a relevant deadline can be sufficient once those meanings are settled; it is a poor substitute for settling them.
+The method starts with result and reliance. It draws on general control and existing operating goal construction, then supplies the cross-domain distinction needed when delivery, inquiry and development coexist. A numerical target with a relevant deadline can be sufficient once those meanings are settled; it is a poor substitute for settling them.
 
 ### GOALS.1:11 - SoTA-Echoing
 
@@ -387,7 +387,7 @@ For an OKR, test two questions separately: is the objective worth pursuing, and 
 
 Explain how the KRs combine. Some are jointly necessary conditions; some express independent contributions; others are alternatives or diagnostic signals. A mandatory privacy, safety or contractual condition retains its force even when other scores are high. Average scores can summarize a defined compensable set, but an average must not decide a claim whose logic is conjunctive. Keep this decision visible when a tool offers averaging by default.
 
-Then test an unfavorable case. Could the objective be achieved by another sound means while a proposed KR fails? If so, decide whether that KR expresses a necessary outcome, an independently wanted result or a chosen means that should remain revisable. The result is a defensible construction under its conditions, not a universal causal guarantee that meeting any selected numbers produces the benefit.
+Then test an unfavorable case. Could the objective be achieved by another sound means while a proposed KR fails? If so, decide whether that KR expresses a necessary outcome, an independently wanted result or a chosen means that should remain revisable.
 
 #### GOALS.2:4.4 - Preserve exceptions, learning and uncertainty
 

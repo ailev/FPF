@@ -726,7 +726,7 @@ State the matter or recurring class of matters, the expected oversight result an
 
 Where alternatives are permitted, compare the existing board arrangement, a repaired committee, focused specialist support and a new standing or temporary committee. For a single acquisition, a temporary arrangement may be sufficient. A recurring audit responsibility may require a standing body under the applicable rules.
 
-Return early if the current arrangement can supply the result under adequate conditions. A committee's fashionable name is not a reason to create one.
+Return early if the current arrangement can supply the result under adequate conditions.
 
 #### CGOV.5:4.2 - Define remit and relation to the responsible organ
 
@@ -1229,7 +1229,7 @@ In a constructed payment operation, a clerk can change a supplier's bank details
 
 Adding a third amount approval leaves that exposure. The selected control instead confirms a bank-detail change through a previously established supplier contact and separates that confirmation from release of the payment. The confirmer needs the established contact information and authority to hold the change; the releaser needs the confirmed result.
 
-A walkthrough reveals that confirmation uses the new contact number entered from the same change request. The confirmer could therefore reach a destination supplied by the unverified instruction. The team restores use of the previously established supplier contact and protects its update route before relying on the control. After implementation, observed operation can support the bounded claim that this route is used; it does not prove immunity to every fraud or collusion.
+A walkthrough reveals that confirmation uses the new contact number entered from the same change request. The confirmer could therefore reach a destination supplied by the unverified instruction. The team restores use of the previously established supplier contact and protects its update route before relying on the control. After implementation, observed operation can support the bounded claim that this route is used.
 
 #### CGOV.9:5.2 - Detection after the useful response window
 

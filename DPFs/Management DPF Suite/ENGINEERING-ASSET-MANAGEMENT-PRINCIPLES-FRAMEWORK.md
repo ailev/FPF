@@ -190,8 +190,6 @@ The asset's functional dependencies, the portfolio allocation, the team calendar
 
 Maintenance can fully answer a maintained-functioning question for one asset or a fleet. EAM adds the question of value among asset options, including for one asset. Operations Management supplies a qualified account of service, demand, operating capability or coordination where needed. Systems Engineering supplies an applicable functional alternative or configuration account. EAM uses those results for the asset choice.
 
-This division avoids three losses. A portfolio-only language would exclude the D comparison. A maintenance-only language would leave its common-horizon value question unanswered. A universal financial score would conceal ineligible service, engineering or authority conditions.
-
 **Constituent actions in ongoing work.** While assessing an asset's service capability, interpreting a condition reading can constitute part of that assessment, and the assessment can constitute part of an ongoing renewal comparison. A changed service requirement can make a formerly acceptable reading inadequate for the comparison. The team needs the measurement interpretation and service reasoning that connect the reading to the decision. [EAM.6](#eam6---assess-asset-capacity-resilience-and-interdependence) develops the capability question, and [EAM.10](#eam10---compare-engineered-asset-portfolio-combinations) retains the shared operating, financial and specialist constraints on the combination. If these connections are unclear, use [FPF B.1.5.EW](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b15ew---recover-how-constituent-actions-enact-encompassing-work) to recover how the reading interpretation participates in the ongoing assessment and renewal comparison, and which constituent operations the team must perform or obtain. Carry the conditions of the larger work through those connections: merely supplying a result for later use does not make an action part of that ongoing work. A good local condition result leaves the whole renewal choice open.
 
 ## EAM.Reference:4 - Recognition, assurance and ordinary stops
@@ -1281,7 +1279,7 @@ NIST HB135e2025, chapters 4, 7 and 8, supplies common-period costing, comparison
 
 Enumeration fits a small indivisible shortlist because every permissible combination and exclusion can be inspected. Independent ranking is defensible only when the relevant choices and consequences are independent and the allocation rule fits the constraints. The value-per-capital ranking in [FIN.9](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin9---compare-capital-investments-and-allocations) requires divisible, linearly scalable investments and one initial capital limit; indivisibility, minimum scale, interactions or later funding needs can defeat it. These conditions do not hold merely because each asset has a score.
 
-An optimizer can help when enumerating a larger set becomes burdensome, provided the actual selection rules, interactions, dates and criteria can be represented. If a consequential relation remains unqualified, retain that uncertainty or obtain the missing result. Solver precision supplies no missing alternative or engineering support.
+An optimizer can help when enumerating a larger set becomes burdensome, provided the actual selection rules, interactions, dates and criteria can be represented. If a consequential relation remains unqualified, retain that uncertainty or obtain the missing result.
 
 ### EAM.10:12 - Relations
 
@@ -1545,7 +1543,7 @@ Recover the actual arrangement needed for that result: participating people and 
 
 Compare plausible alternatives for the arrangement. These might include retaining the current arrangement, repairing one information correspondence, changing a responsibility, providing a capability, altering a decision interface or replacing a tool. Explain what each alternative would mean for the needed result and what it moves elsewhere.
 
-Include the whole burden: design, access, migration, training, disruption, operation and maintenance of the changed arrangement. Preserve applicable authority and obligations. Obtain the arrangement or trial decision from the person authorized to make it.
+Include the whole burden: design, access, migration, training, disruption, operation and maintenance of the changed arrangement. Preserve applicable authority and obligations. Obtain any decision needed to implement the proposed change or trial from the person authorized to make it.
 
 Recommend retention or a change whose expected result meets the stated need and whose supported gain warrants its whole burden. Compare adequate alternatives under the relevant priorities, retaining unresolved trade-offs for the person who can decide them. If the cause is uncertain and can alter the choice, obtain the worthwhile discriminating evidence. A conditional recommendation or authorized bounded attempt can be the useful result. If an obvious correctable mismatch already explains the difficulty, give the bounded repair decision without demanding a whole-system study.
 
@@ -1644,7 +1642,7 @@ Keep the applicable repertoire and its reconsideration conditions discoverable t
 
 For CityWater, consider the candidate rule “fund the highest-condition-priority asset first, using its individually preferred option.” A priority order D, C, A, B would allocate 3 to D replacement, 3 to C modification and 2 to A refurbishment, exhausting the capital before B's required option. The rule fails to supply the needed four-station programme under the declared conditions.
 
-Combination comparison instead finds FFMK within capital and service constraints. This desk case establishes the limitation of the priority rule for this problem and supplies a supported present answer. It does not establish that a new tool improves every real investment decision.
+Combination comparison instead finds FFMK within capital and service constraints. This desk case establishes the limitation of the priority rule for this problem and supplies a supported present answer.
 
 For repeated use, practitioners can compare the techniques on representative cases with the same available inputs, recording unmet constraints, decision differences and total analysis effort. A bounded trial is useful when those real-use consequences can change adoption. Adding a more complex optimizer to a sixteen-combination problem needs a gain beyond producing the same answer.
 
