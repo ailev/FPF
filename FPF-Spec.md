@@ -57941,13 +57941,13 @@ These illustrative situations state their conditions for the comparison. Reporte
 
 **Present use.** An engineer reports a criterion below incoming background. The recipient wants to understand whether that is necessarily a design mistake. An archive search would take weeks. Its plausible results could change the historical account but would not change the requested distinction.
 
-**Completed answer.** “On your account, the threshold was below the incoming background. That alone does not establish a mistake. A criterion for the operation's added contribution and a criterion for total exposure govern different quantities; the latter can require reducing background too. Compare the protection gained with the feasible treatment burden before judging the threshold.”
+**Completed answer.** “On your account, the threshold was below the incoming background. A criterion for the operation's added contribution and a criterion for total exposure govern different quantities; the latter can require reducing background too. Compare the protection gained with the feasible treatment burden before judging the threshold.”
 
-That answer supplies the requested distinction and keeps its attribution. It makes no independently verified historical claim. The answer itself completes this use; a second account of why archives were not searched adds nothing.
+That answer supplies the requested distinction and identifies the engineer as the source of the threshold report. The answer itself completes this use; a second account of why archives were not searched adds nothing.
 
 **Changed use.** The recipient now plans to attribute responsibility in a report. Suppose an accessible contemporary record can identify who set the criterion and what it governed. A one-hour record check is feasible and could settle the attribution.
 
-**Completed advice.** “Check the contemporary criterion record before attributing its authorship or meaning. The participant account supports the attributed report of experience; it does not establish that attribution. If the record cannot settle it, describe the account without assigning responsibility.” This finishes the advice, including the next feasible check and the limit on its use. It does not claim the check has occurred.
+**Completed advice.** “Before assigning responsibility in the report, check the contemporary record for who set the criterion and what it governed. If that remains unresolved, present the engineer's account as their reported experience and leave responsibility unassigned.” The recipient has a feasible next check and a way to finish the report if the record leaves the attribution unresolved.
 
 #### C.11.DUA:5.2 - A completed choice with conditional inquiry content
 
@@ -57973,7 +57973,7 @@ A completion form demanding unused probe budget, cost and information/computatio
 
 **Completed first choice.** Retain T1 and: “Probe again with the one-day calibration. Choosing B now has expected loss 3; choosing A after s1 or B after s2 has expected loss 1.5. The available day and technician make the probe feasible, and the team accepts the delay for that reduction.” This is a completed `C.11` probe-again result. The measurement remains to be performed. An actual s1 result would then select A; s2 would select B.
 
-**Transfer requiring a reason.** Return to T0, now sent to a colleague considering B for another calibration range. Retain: “B was selected under the two states in T0; distinguishing those states would not alter that choice. This decision establishes no fresh calibration and must be reconsidered for another range.” The explanation changes the colleague's use: reopen the comparison instead of treating B as generally preferred. It belongs in the same decision result and needs no empty probe block.
+**Transfer requiring a reason.** Return to T0, now sent to a colleague considering B for another calibration range. Retain: “B was selected using the existing model T0 and its two calibration states; distinguishing those states would not alter that choice. For another calibration range, reopen the comparison using evidence applicable to that range.” The explanation changes the colleague's use: reopen the comparison instead of treating B as generally preferred. It belongs in the same decision result and needs no empty probe block.
 
 #### C.11.DUA:5.3 - Repair a study demand in an external report
 
@@ -57985,9 +57985,9 @@ Use the team's stipulated planning estimates: the current exercise requires nine
 
 A successful rehearsal makes the revised materials available and saves four hours across the sessions; a failed rehearsal leaves the current exercise selected. With equal weights, the expected preparation saving is two hours before the rehearsal's half-hour cost, or ninety minutes net. Retaining the current exercise uses no rehearsal time but forgoes that opportunity. These estimates warrant this rehearsal; its small size and reversibility alone would not.
 
-**Completed advice.** “The present synthesis does not establish a causal learning benefit. Run the half-hour setup rehearsal to settle compatibility with this room's tools. If the revised materials work, use them for the four sessions; otherwise retain the current exercise. Under our stated estimates, that information saves an expected ninety minutes of instructor time after its cost. Keep the learning-effect claim open.”
+**Completed advice.** “Run the half-hour setup rehearsal to settle compatibility with this room's tools. If the revised materials work, use them for the four sessions; otherwise retain the current exercise. Under our stated estimates, that information saves an expected ninety minutes of instructor time after its cost. Keep the learning-effect claim open.”
 
-This completes the advice and the decision to probe; it does not report a performed rehearsal. Its result will determine the subsequent material choice. Compatibility feedback supports readiness in the stated room, not a causal learning-effect estimate or transfer to other conditions. If domain review finds unacceptable participant risk or a binding evidence prerequisite, the proposed use must satisfy that condition before it enters the available set.
+The team next performs the rehearsal and uses its result to select materials for these sessions. The rehearsal tests compatibility with the stated room and tools. If domain review finds unacceptable participant risk or a binding evidence prerequisite, the proposed use must satisfy that condition before it enters the available set.
 
 **Opposed cost condition.** Suppose the same discriminating rehearsal now requires three hours of instructor time, still within the available preparation window. Its expected gross preparation saving remains two hours. The completed advice changes: “Retain the current exercise for these four sessions. The proposed rehearsal would cost an expected hour more than it saves. The current materials meet the course requirements; the comparative learning-effect claim remains unresolved.” A longer study remains a separate research proposal whose attainable contribution and burden must be justified for its own receiving use.
 

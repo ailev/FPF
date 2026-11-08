@@ -1683,7 +1683,7 @@ The comparisons yield different conclusions. The passage realizes the selected p
 
 Now Mira needs a formal recommendation to a purchasing committee. The intended voice still treats the reader as capable and makes the decisive limitation inspectable, but the committee needs the recommendation immediately. The editor retains that relationship, moves the decision first and drops the reflective joke:
 
-> Defer selection until adequate evidence establishes that the sensor meets the 1 °C error limit in the cold store's operating range. The three reported tests met that limit at 20 °C; no results below 5 °C are supplied. They therefore do not establish that the sensor meets the requirement in the proposed cold store.
+> Defer selection until adequate evidence establishes that the sensor meets the 1 °C error limit in the cold store's operating range. The three reported tests met that limit at 20 °C; no results below 5 °C are supplied.
 
 This changed occasion alters order, rhythm and address while retaining the evidence-to-judgement relation. Blindly retaining the joke or first-person recollection would have mistaken a local realization for the whole voice. If Mira instead required a deliberately personal public statement, that different choice would reopen the treatment, not the supplied temperature facts.
 
