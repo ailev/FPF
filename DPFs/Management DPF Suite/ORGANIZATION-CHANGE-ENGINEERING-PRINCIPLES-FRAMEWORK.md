@@ -412,7 +412,7 @@ Apply the supplying Method to qualify an OCE candidate or obtain the needed fit,
 | --- | --- |
 | Which leadership contribution, capable help or continuation is missing? | [LDR.1](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/LEADERSHIP-PRINCIPLES-FRAMEWORK.md#ldr1---obtain-and-continue-the-leadership-contribution-needed-for-joint-work) |
 | How can participants obtain feasible agreement on their contributions? | [LDR.2](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/LEADERSHIP-PRINCIPLES-FRAMEWORK.md#ldr2---agree-feasible-joint-contributions) |
-| How can substantive discussion produce a usable answer? | [FPF B.5.SD](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b5sd---construct-a-useful-answer-through-substantive-discussion) |
+| How can substantive discussion produce a usable answer? | [FPF B.5.SD](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b5sd---construct-an-answer-through-substantive-discussion) |
 | How can a proposal reach decision, commitment and first useful work? | [LDR.4](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/LEADERSHIP-PRINCIPLES-FRAMEWORK.md#ldr4---prepare-a-proposal-for-decision-and-first-use) |
 | How can capability preparation and current obligations connect to real receiving work? | [OCE.18](#oce18---arrange-capability-development-and-receiving-work-in-an-organizational-transition) |
 

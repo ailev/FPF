@@ -74,7 +74,7 @@ People agree that something matters, but interpret the situation differently or 
 - **Situation:** Participants have shared views and evidence, but the receiver cannot use them to settle the technical or practical question.
 - **Question:** Which relation or inference is missing, and how will capable participants construct it?
 - **First useful result or blocker:** A connected explanation or proposal for the receiving use, including a justified inquiry proposal when evidence is missing, or the exact unavailable subject contribution.
-- **Start with:** [FPF B.5.SD](../../FPF-Spec.md#b5sd---construct-a-useful-answer-through-substantive-discussion).
+- **Start with:** [FPF B.5.SD](../../FPF-Spec.md#b5sd---construct-an-answer-through-substantive-discussion).
 - **Stop or return:** A competent direct answer needs no workshop. Return when a consequential premise changes or the receiver cannot use the proposed result.
 
 ### JOINT-START — Get from a promising idea to a useful contribution
@@ -85,7 +85,7 @@ Name the receiving work and keep sufficient help. Obtain trusted judgement, exam
 
 Trusted advice can improve a proposal without authorizing it. An answer can be sound without being acceptable to a contributor. Acceptance can be real while its required budget remains unavailable. A shared start can be understood while the first handover still fails.
 
-Begin where the actual gap lies. If a sound proposal is refused because it displaces another obligation, use [LDR.2](#ldr2---agree-feasible-joint-contributions); repeating the explanation adds no missing capacity. If everyone wants to proceed but the technical consequence is unknown, [FPF B.5.SD](../../FPF-Spec.md#b5sd---construct-a-useful-answer-through-substantive-discussion) obtains the missing domain reasoning. [LDR.1](#ldr1---obtain-and-continue-the-leadership-contribution-needed-for-joint-work) arranges the capable help those methods require and returns when continuation fails. Each supplying pattern provides the explanation needed to perform and adapt its Method.
+Begin where the actual gap lies. If a sound proposal is refused because it displaces another obligation, use [LDR.2](#ldr2---agree-feasible-joint-contributions); repeating the explanation adds no missing capacity. If everyone wants to proceed but the technical consequence is unknown, [FPF B.5.SD](../../FPF-Spec.md#b5sd---construct-an-answer-through-substantive-discussion) obtains the missing domain reasoning. [LDR.1](#ldr1---obtain-and-continue-the-leadership-contribution-needed-for-joint-work) arranges the capable help those methods require and returns when continuation fails. Each supplying pattern provides the explanation needed to perform and adapt its Method.
 
 A prepared, authorized routine action can start directly when capable participants understand and accept the arrangement. An unresolved condition blocks only the work that depends on it. First use does not establish independent capability, enduring culture or the next development problem.
 
