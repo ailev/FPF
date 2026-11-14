@@ -63,7 +63,7 @@ To cite this edition: Anatoly Levenchuk, *Physical Thinking DPF*, [FPF Library r
 
 Bring the physical question from your work. A useful answer may need a physical account, a consequence derived from it, and an observation that distinguishes what remains unresolved. The worked connections below show how one method's result becomes another's input, where an existing result lets you enter, and which changed condition sends you back.
 
-Use the Table of Contents and each pattern's title and Problem frame for other questions or direct help. The bodies explain their methods, prerequisites, examples and return conditions. The physical theory and mathematics stated for a case belong to that application, not to every method.
+Use the Table of Contents and each pattern's title and Problem frame for other questions or direct help. The bodies explain their methods, prerequisites, examples and return conditions. Each case states the physical theory and mathematics it uses.
 
 You can ask an assisting agent: “Explain this and give me your comments in the language of my work, without framework jargon.” Ask it to show what the quantities and operations mean, where the physical premises enter, and what the result lets you do next.
 
@@ -77,7 +77,7 @@ You can ask an assisting agent: “Explain this and give me your comments in the
 
 #### From an unknown resistance to a useful comparison
 
-**1. Carry the remaining freedom into candidate laws.** The work needs the distance a body travels while slowing from 1 m/s to 0.5 m/s through a medium. Stipulate an effective inertia of 1 kg, no other force along the motion, and an instantaneous resistance at fixed material conditions. PHY.4 uses an isotropic comparison and a passive response to constrain the resistance's direction. Those conditions leave its speed dependence unresolved. A force magnitude of 1 N at 1 m/s admits both `D=b*v`, with b=1 N·s/m, and `D=c*v²`, with c=1 N·s²/m². These are two candidate laws, not all possibilities allowed by that information.
+**1. Carry the remaining freedom into candidate laws.** The work needs the distance a body travels while slowing from 1 m/s to 0.5 m/s through a medium. Stipulate an effective inertia of 1 kg, no other force along the motion, and an instantaneous resistance at fixed material conditions. PHY.4 uses an isotropic comparison and a passive response to constrain the resistance's direction. Those conditions leave its speed dependence unresolved. Among the laws compatible with a force magnitude of 1 N at 1 m/s are `D=b*v`, with b=1 N·s/m, and `D=c*v²`, with c=1 N·s²/m².
 
 **2. Consume each law in the requested prediction.** PHY.6 combines resistance with `m*dv/dt=-D(v)` and `dx/dt=v`. MMP.10 formulates those relations with the preparation; C.29.2 obtains the requested consequence. Eliminating time gives `dx/dv=-m*v/D(v)`. Over the stated speed interval, the linear law gives a distance of 0.5 m, while the quadratic law gives `ln(2)` m, about 0.693 m. With only 0.6 m available, the two accounts give different answers. With more than 0.7 m available, both satisfy this requirement under their premises, so this difference alone supplies no reason for another test.
 
@@ -97,7 +97,7 @@ You can ask an assisting agent: “Explain this and give me your comments in the
 
 #### From persistent motion to a justified diffusion calculation
 
-**1. Keep the preparation with the microscopic law.** In [PHY.8:5.3](#phy853---derive-transport-from-persistent-microscopic-motion), particles start at the origin on an unbounded line, with either direction equally likely. Each moves at speed v>0 and reverses direction at independent Poisson events of rate alpha>0. These are supplied physical premises; a fitted position histogram would not establish the reversal mechanism or its time scale.
+**1. Keep the preparation with the microscopic law.** In [PHY.8:5.3](#phy853---derive-transport-from-persistent-microscopic-motion), particles start at the origin on an unbounded line, with either direction equally likely. Each moves at speed v>0 and reverses direction at the events of a Poisson process of rate alpha>0. These are supplied physical premises; a fitted position histogram would not establish the reversal mechanism or its time scale.
 
 **2. Turn those premises into the collective evolution.** PHY.6 balances transport and transitions between the two directions. With n the total position-probability density and j its current, the resulting relations are
 
@@ -107,7 +107,7 @@ You can ask an assisting agent: “Explain this and give me your comments in the
 
 The ideal point preparation leaves probability atoms at x=±v\*t for particles that have not yet reversed; these density equations are understood in the distributional sense. PHY.8 connects their solution to the observable needed here: mean-square displacement at a specified time. The current carries directional persistence even though the mean position stays zero.
 
-**3. Decide whether the faster response can be omitted.** PHY.5 compares the observation time with the current's relaxation time `1/(2*alpha)` and checks the spatial variation. When the reduction is justified, [MMP.9](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp9---derive-a-reduced-mathematical-model-of-state-evolution) supplies the mathematical reduction: replace the relaxed current by `j approximately -D*partial_x n`, with `D=v²/(2*alpha)`, to obtain a diffusion equation. The question still decides whether its consequence is accurate enough.
+**3. Decide whether the faster response can be omitted.** PHY.5 compares the observation time with the current's relaxation time `1/(2*alpha)` and checks the spatial variation. When the reduction is justified, [MMP.9](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp9---derive-a-reduced-mathematical-model-of-state-evolution) supplies the mathematical reduction: replace the relaxed current by `j approximately -D*partial_x n`, with `D=v²/(2*alpha)`, to obtain a diffusion equation. Compare the resulting error with the allowance for the requested observable and time.
 
 For v=2 cm/s and alpha=1/s, PHY.8's full account gives
 
@@ -117,7 +117,7 @@ while diffusion gives `2*D*t`. At 20 s these are about 78 and 80 cm². The relat
 
 **4. Return through the consequence that changed.** Ask instead for the spread at 0.1 s. The full result is about 0.03746 cm²; diffusion gives 0.4 cm². Restore the current response for this early question. A finer computation of the same diffusion equation cannot recover what its reduction removed. A question about arrival at a boundary would need the corresponding boundary conditions and its own comparison; agreement on mean-square displacement does not supply that answer.
 
-A simulation used to obtain these timed predictions must implement the stated reversals and their physical time. An artificial sampler that reproduces a position distribution supplies a different result. If the conditional prediction already serves the work, no new measurement is mandatory; if the physical mechanism or preparation is the consequential uncertainty, that becomes the next physical question.
+A simulation used to obtain these timed predictions must implement the stated reversals and their physical time. An artificial sampler that reproduces a position distribution supplies a different result. The conditional prediction can finish the work. If uncertainty about the mechanism or preparation could change the answer, examine that physical premise.
 
 ### PH-LIMIT - Use a physical bound before designing a mechanism
 
@@ -139,7 +139,7 @@ Physical Thinking supplies methods for constructing and changing those connectio
 
 The reader may conduct an investigation, design a system, interpret a result, or work with specialists and AI. Begin with the consequence that matters. A useful outcome can be a possible construction, a conditional prediction, a bound, a failed physical premise or a next question whose answer would change the work.
 
-You need to follow what the quantities represent and what the proposed physical laws assume, or obtain an explanation of the missing contribution. The mathematical preparation depends on the chosen method: a similarity calculation, a differential evolution and a quantum measurement use different constructions. Each pattern states the preparation for its own cases. Reading a worked solution can help acquire that capability; applying the method to a changed situation tests a different and necessary part of learning.
+You need to follow what the quantities represent and what the proposed physical laws assume, or obtain an explanation of the missing contribution. The mathematical preparation depends on the chosen method: a similarity calculation, a differential evolution and a quantum measurement use different constructions. Each pattern states the preparation for its own cases. Reading a worked solution can help acquire that capability; applying the method to a changed situation tests whether the learner can choose and use the premises there.
 
 Use a familiar adequate law and procedure directly when they already answer the question. This language is useful when the physical account, its applicability or its connection with observation and computation still needs work.
 
@@ -170,7 +170,7 @@ These choices can occur in theory construction as well as in an applied project.
 
 [PHY.6](#phy6---construct-physical-evolution-from-balances-and-response-laws) combines physical participants, exchanges, response laws and compatible preparation into an evolution. A balance alone can leave a response undetermined. Locating that missing contribution is useful before any solver is selected.
 
-[PHY.7](#phy7---obtain-motion-from-a-physical-variational-principle) offers another construction when a physically justified variational principle applies. The interactions, allowed comparisons and boundary freedoms determine what is varied. Mathematical variation then derives a consequence. A direct balance remains sufficient in many cases; applying an action formalism to every problem adds work without a corresponding gain.
+[PHY.7](#phy7---obtain-motion-from-a-physical-variational-principle) offers another construction when a physically justified variational principle applies. The interactions, allowed comparisons and boundary freedoms determine what is varied. Mathematical variation then derives a consequence. A direct balance can suffice, as it does for the rod’s angular acceleration in PHY.7:5.1.
 
 [PHY.8](#phy8---infer-macroscopic-physical-behavior-from-microscopic-alternatives) constructs collective predictions from physically admissible alternatives and their weighting grounds. It retains correlations, preparation and the difference between sampling a distribution and following physical evolution. A distribution or sufficient bound can remain useful when a particular moment or equilibrium approximation is unavailable.
 
@@ -186,7 +186,7 @@ These choices can occur in theory construction as well as in an applied project.
 
 [PHY.3](#phy3---derive-a-physical-limit-from-permitted-transformations) derives a bound or impossibility from the complete transformation and an admissible comparison. That result may finish the question or show which physical premise a different construction would have to change.
 
-These connections form possible routes. They do not prescribe a ten-stage workflow. A known response can enter at measurement; an unknown interaction can enter at law construction; a useful impossibility can end work before a device or computation is built.
+The starting point and stopping point depend on the question. A known response can enter at measurement; an unknown interaction can enter at law construction; a useful impossibility can end work before a device or computation is built.
 
 ### PHY.Reference:3.3 - Constituent actions in ongoing work
 
@@ -198,7 +198,7 @@ FPF B.1.5.EW helps recover these constituent–whole connections; B.1.5.RS exami
 
 Consider a body moving through a medium with positive speed v. The work needs to know how far it travels while slowing from 1 m/s to 0.5 m/s. Use a stipulated effective inertia of 1 kg and no other force along the motion. The proposed account treats resistance as an instantaneous function of relative speed at fixed material conditions.
 
-**Constrain before selecting a law.** PHY.4 recovers the medium, relative motion and the conditions kept fixed. In an isotropic comparison without another relevant direction, resistance opposes motion under the passivity premise, while its magnitude can retain an unknown speed dependence. A force magnitude of 1 N at 1 m/s alone leaves, among other possibilities, linear resistance D=b v and quadratic resistance D=c v². Take the corresponding candidates b=1 N·s/m and c=1 N·s²/m². These are two proposed accounts, not all laws admitted by the initial restriction.
+**Constrain before selecting a law.** PHY.4 recovers the medium, relative motion and the conditions kept fixed. In an isotropic comparison without another relevant direction, resistance opposes motion under the passivity premise, while its magnitude can retain an unknown speed dependence. A force magnitude of 1 N at 1 m/s alone leaves, among other possibilities, linear resistance D=b v and quadratic resistance D=c v². Take the corresponding candidates b=1 N·s/m and c=1 N·s²/m².
 
 **Construct evolution and obtain its consequence.** PHY.6 combines the resistance with the momentum balance and position change: m dv/dt=-D(v), dx/dt=v. MMP.10 retains these relations and their preparation. Eliminating time over the stated positive-speed interval gives dx/dv=-m v/D(v). The computation under C.29.2 can now use the two supplied integrals:
 
@@ -206,13 +206,13 @@ Consider a body moving through a medium with positive speed v. The work needs to
 
 `distance_Q = (m/c) ln(v_0/v_1) = ln(2) m, approximately 0.693 m`.
 
-If the available travel distance is 0.6 m, the two accounts give different answers. For an available distance above 0.7 m, both would meet this particular requirement under their premises; resolving their difference would then need another reason. Neither comparison licenses extrapolation to zero speed or a new physical regime.
+If the available travel distance is 0.6 m, the two accounts give different answers. For an available distance above 0.7 m, both would meet this requirement under their premises; resolving their difference would then need another reason. Neither comparison licenses extrapolation to zero speed or a new physical regime.
 
 **Expose the difference that matters.** PHY.10 asks for a preparation where the candidates diverge. At a maintained speed of 0.5 m/s they predict force magnitudes 0.5 N and 0.25 N. An available calibrated force arrangement with error bounded by 0.02 N separates their predicted indication ranges. An indication of 0.25 N is compatible with the quadratic account and incompatible with the linear one under these conditions. If no suitable readout is available, PHY.9 supplies its construction question; the distance comparison remains conditional meanwhile.
 
 The steady comparison can inform coasting only if the retained instantaneous-response and material premises cover both preparations. PHY.5 examines a consequential wake, relaxation time or other omitted state if that transfer is doubtful. A memory effect can require a different evolution rather than a new value of the old coefficient.
 
-**Change a premise and return locally.** Suppose the medium's material condition changes between the initial and final force comparisons. The coefficient is no longer established as the same. Recover or constrain that dependence before treating the new indication as a test of the two original candidates. Their conditional integrals remain correct; their applicability to the changed run is what reopened.
+**Change a premise and return locally.** Suppose the medium's material condition changes between the initial and final force comparisons. The coefficient is no longer established as the same. Recover or constrain that dependence before treating the new indication as a test of the two original candidates. Their conditional integrals remain correct; their applicability to the changed run depends on whether its material conditions are covered.
 
 The resulting work can be divided. A physical contributor supplies the interaction and preparation account, a mathematical contributor derives the permitted consequences, and a computational contributor obtains them in a useful form. B.5.MPC keeps those contributions connected to the distance question; B.5.MPC.R locates the affected return after the material change.
 
@@ -248,7 +248,7 @@ This is also a way to develop methods of work. A team can change who constructs,
 
 ## PHY.Reference:7 - Shared sources, alternatives and relations
 
-Physical construction and executable mathematical reasoning meet explicitly in [Sussman and Wisdom's Structure and Interpretation of Classical Mechanics](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/9579/sicm_edition_2.zip/preface001.html). PHY.7 adopts the connected recovery of configuration, interaction and permitted variation. Its comparison with the direct balance route in PHY.6 retains the cheaper sufficient construction and the limits of an ordinary action principle. The shared lesson is to expose the physical premises that a compact formalism can hide.
+Physical construction and executable mathematical reasoning meet in [Sussman and Wisdom's Structure and Interpretation of Classical Mechanics](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/9579/sicm_edition_2.zip/preface001.html). PHY.7 adopts the connected recovery of configuration, interaction and permitted variation. Its comparison with the direct balance route in PHY.6 retains the cheaper sufficient construction and the limits of an ordinary action principle. The shared lesson is to expose the physical premises that a compact formalism can hide.
 
 The [VIM measurement-principle account](https://jcgm.bipm.org/vim/en/2.4.html), GUM measurement-modeling work and the sensing sources discussed in PHY.9 connect the intended quantity, interaction, preparation and indication. PHY.9 uses that connection to construct a missing distinction; PHY.10 uses it to discriminate physical accounts. Merely improving the precision of an insensitive arrangement can leave that work undone.
 
@@ -256,11 +256,11 @@ The statistical-mechanics synthesis by [Baldovin and colleagues](https://arxiv.o
 
 The experimental-design and noise-spectroscopy sources in PHY.10 develop selection among possible observations and physical changes that expose hidden dynamics. They also bound their claims by the model set, noise account and controllable operations. The framework uses these contributions where they change the method; each body's SoTA discussion gives the adopted comparison and limits. A new source matters when it changes an available construction, a premise, a useful result or the work needed to obtain it.
 
-Within the Foundational Thinking DPF Suite, Mathematical Thinking supplies constructions and arguments; Mathematical Modeling connects a subject question with an interpreted model; Computational Thinking develops obtaining procedures; Notational Engineering develops interpretable expressions and operations on them. The Suite Reference explains their shared arrangement and current availability.
+Within the Foundational Thinking DPF Suite, Mathematical Thinking supplies constructions and arguments; Mathematical Modeling connects a subject question with an interpreted model; Computational Thinking develops obtaining procedures; Notational Engineering develops interpretable expressions and operations on them. The Suite Reference explains their shared arrangement and current availability. If a specialized contribution is unavailable, a suitable Core method or another available method can supply it.
 
 C.29.1 supplies transfer between mathematical accounts, C.29.2 computational formulation, and C.29.3 the connection to physical execution. C.16.MR and C.16.IR supply measurement relations and inference from indications. B.5's inquiry methods and C.11.DUA help choose a useful next question and the effort worth spending on it. These results can enter directly; using a physical pattern does not require traversing every supplier.
 
-The ten bodies are one repertoire that can be used in different combinations. The two Parts group their presentation; they do not define two sequential stages or a single Method performed by every user.
+The two Parts group the ten methods by the work they support. The connections in §3 show how to combine them for a particular question.
 
 ## PHY.Reference:End
 
@@ -280,7 +280,7 @@ Start with one physical response or relation needed by the work. Describe its pa
 
 The method uses transformations justified for the physical situation: changes of position, orientation, scale, preparation, participant assignment or other relevant conditions. It combines their consequences with applicable dimensions, balances and dissipation. The question selects which of these contributions is useful.
 
-You need enough physical understanding to propose the comparison and explain its conditions. Obtain an unfamiliar physical premise from a suitable account or collaborator. A qualitative comparison can already change the next move. The vector example additionally uses rotations and dot products; the chamber example uses elementary algebra and particle balance. Their branch-specific preparation belongs to those examples.
+You need enough physical understanding to propose the comparison and explain its conditions. Obtain an unfamiliar physical premise from a suitable account or collaborator. A qualitative comparison can change the next move. The vector example additionally uses rotations and dot products; the chamber example uses elementary algebra and particle balance.
 
 If an established interaction law already answers the question under the intended conditions, apply it. PHY.1 develops physical similarity across changed conditions, PHY.2 constructs a physical analogue, and PHY.3 derives a performance limit from permitted transformations. Return here when the unresolved contribution is the form of the interaction law itself.
 
@@ -324,7 +324,7 @@ Separate two comparisons:
 
 For an isotropic material, all spatial directions are physically equivalent under the stated conditions. An oriented material can also be described in rotated coordinates; its material direction must then rotate in the description. These are different premises for restricting a response.
 
-Select the actual transformation class. A justified rotation condition supplies rotation consequences. Reflection, time reversal, scaling or exchange requires its own physical grounds when used. PHY.1 supplies the detailed work for a scaling comparison.
+Select the transformations for which the physical conditions hold. A justified rotation condition supplies rotation consequences. Reflection, time reversal, scaling or exchange requires its own physical grounds when used. PHY.1 supplies the detailed work for a scaling comparison.
 
 A thought comparison can be enough. When a physical premise is unsettled, identify a rival case that could make the responses differ. C.11.DUA helps decide whether resolving that difference is worth the work needed now.
 
@@ -366,7 +366,7 @@ When a changed situation gives a response outside the family, inspect the physic
 
 ### PHY.4:5 - Archetypal Grounding
 
-These are constructed physical accounts. They illustrate how physical premises constrain an unknown law and how a changed premise changes the result.
+These constructed accounts illustrate how physical premises constrain an unknown law and how a changed premise changes the result.
 
 #### PHY.4:5.1 - Restrict an unknown resistive force
 
@@ -382,7 +382,7 @@ At w=0, rotational symmetry gives `F(0)=0`. The coefficient a is an unknown scal
 
 so `a(s)>=0` for s>0.
 
-The result determines a direction and sign while leaving the speed dependence unresolved. Both `a(s)=a0` and `a(s)=b0*sqrt(s)` with suitable nonnegative dimensional constants satisfy these restrictions. They predict different force magnitudes when speed changes. The comparison alone therefore provides neither a linear nor a quadratic drag law.
+The result determines a direction and sign while leaving the speed dependence unresolved. Both `a(s)=a0` and `a(s)=b0*sqrt(s)` with suitable nonnegative dimensional constants satisfy these restrictions. They predict different force magnitudes when speed changes.
 
 For a direction-only question, use the result directly. To predict stopping time, supply further information about a over the speeds involved, or obtain a sufficient bound over the admissible family. MMP.11 keeps that unresolved relation visible instead of inserting a familiar drag coefficient.
 
@@ -398,7 +398,7 @@ For example, one admissible linear resistive family is:
 
 `F(w,n)=-alpha*w-beta*(n dot w)*n`.
 
-For unit n, its power is `-alpha*|w|^2-beta*(n dot w)^2`. Resolving w into parts parallel and perpendicular to n shows passivity for every w when `alpha>=0` and `alpha+beta>=0`. This is a possible family, not an exhaustive determination of the changed law.
+For unit n, its power is `-alpha*|w|^2-beta*(n dot w)^2`. Resolving w into parts parallel and perpendicular to n shows passivity for every w when `alpha>=0` and `alpha+beta>=0`.
 
 With consistent units, take alpha=1, beta=3, `w=(1,1,0)` and `n=(1,0,0)`. The force is `(-4,-1,0)` and power is -5. The force resists motion while pointing in a direction different from -w. This possibility is excluded by the earlier isotropic account and allowed by the additional physical input.
 
@@ -418,7 +418,7 @@ Both `J(a,b)=k1*(a-b)` and `J(a,b)=k3*(a-b)^3` satisfy the interchange condition
 
 If the passage stores no particles, the chamber particle numbers satisfy `dN1/dt=-J` and `dN2/dt=J`, preserving their sum. If appreciable particles accumulate in the passage, include its particle number and separate inlet and outlet rates. The earlier two-chamber balance then omits a relevant participant.
 
-This comparison uses exchange and balance rather than rotation. It opens the same kind of result: an admissible law family and the physical condition that would require revising it.
+Exchange and particle balance, like rotation in the preceding cases, identify a family of admissible laws and the physical conditions under which it must be revised.
 
 ### PHY.4:6 - Bias-Annotation
 
@@ -435,7 +435,7 @@ For the restriction being used:
 - The mathematical input and output transformations follow that physical account.
 - Each dimensional, balance or dissipation constraint has applicable physical premises.
 - The derived consequence distinguishes what is constrained from what remains unknown.
-- The result changes a construction, interpretation, prediction or next inquiry.
+- The result informs a construction, interpretation, prediction or next inquiry.
 - A changed physical condition returns to the affected premise and constraint.
 
 ### PHY.4:8 - Common Anti-Patterns and How to Avoid Them
@@ -464,7 +464,7 @@ Similarity, analogy and performance bounds remain separately usable methods. The
 
 ### PHY.4:11 - SoTA-Echoing
 
-Feynman's [discussion of symmetry in physical laws](https://www.feynmanlectures.caltech.edu/I_52.html), especially §52-2, is a historical methodological anchor for transforming an experiment together with its relevant surroundings. The adopted contribution is the physical construction of the comparison. The particular transformation and its regime are selected from the physical account being used.
+Feynman's [discussion of symmetry in physical laws](https://www.feynmanlectures.caltech.edu/I_52.html), especially §52-2, is a historical methodological anchor for transforming an experiment together with its relevant surroundings. The adopted contribution is the physical construction of the comparison. The transformation and its regime are selected from the physical account being used.
 
 Villar and colleagues' [Scalars are universal](https://arxiv.org/html/2106.06610v4), Proposition 4 and Appendix H, provides a contemporary constructive connection between specified symmetry actions, scalar invariants and equivariant response families. Its distinctions between rotation and reflection groups and between different input quantities matter when selecting a model. The paper's mathematical representation results are used under their hypotheses; the present physical method establishes which input and transformation account is appropriate.
 
@@ -502,7 +502,7 @@ An *effective physical description* here describes the physical behavior needed 
 
 You need to identify the physical participants, explain the interactions relevant to the question and compare their characteristic sizes or rates. A qualitative separation can direct the next construction. The examples add their own mathematical preparation: elementary differential equations for the motor, waves for the discrete chain, and covariance for thermal motion.
 
-When a known physical account already answers the question under the intended conditions, use it. PHY.1 supplies similarity between changed arrangements; PHY.2 constructs an analogue from physical interactions. MMP.9 supplies mathematical reduction once the governing relations and retained quantities have been chosen. Use this pattern for the physical choice of those quantities, relations and conditions.
+When a known physical account answers the question under the intended conditions, use it. PHY.1 supplies similarity between changed arrangements; PHY.2 constructs an analogue from physical interactions. MMP.9 supplies mathematical reduction once the governing relations and retained quantities have been chosen. Use this pattern for the physical choice of those quantities, relations and conditions.
 
 ### PHY.5:2 - Problem
 
@@ -528,7 +528,7 @@ The task is to retain the physical influence required by the intended result, wh
 
 #### PHY.5:4.1 - Choose the physical consequence and its resolution
 
-State what the answer will let someone interpret, choose or do. Identify the relevant quantity and how it is used: an instantaneous value, a time integral, a spatial average, a peak, a correlation or a probability can require different descriptions of the same situation.
+State what the answer will be used to interpret, choose or do. Identify the relevant quantity and how it is used: an instantaneous value, a time integral, a spatial average, a peak, a correlation or a probability can require different descriptions of the same situation.
 
 Include the preparation, forcing, spatial range and observation interval when they affect that answer. For example, the first moment after switching can include a motion that has already decayed when a later reading is taken. A question about a wave's arrival concerns a propagating disturbance and the wavelengths present in it.
 
@@ -542,9 +542,9 @@ Obtain the governing physical relations at the detail needed for this comparison
 
 Derive characteristic sizes or rates from these relations and the proposed regime. Compare contributions to the same physical change. For time scales, compare relaxation with the fastest relevant forcing and with the interval of use. For spatial scales, compare a variation length with the scale of material structure or transport. An energy comparison may determine which states can be appreciably excited.
 
-Inspect the coupled arrangement. A coupling can change a relaxation rate or create a collective mode. For a proposed rapidly adjusting state, ask whether small departures from its proposed response actually decay while the retained variables change. A response near loss of stability can become slow even though one component, considered alone, relaxes rapidly.
+Inspect the coupled arrangement. A coupling can change a relaxation rate or create a collective mode. For a proposed rapidly adjusting state, ask whether small departures from its proposed response decay while the retained variables change. A response near loss of stability can become slow even though one component, considered alone, relaxes rapidly.
 
-Scaling the equations as in PHY.1 makes these comparisons explicit. Keep the physical reason for each scale: a narrow gap, driving period or relaxation distance can matter more than the size of the whole apparatus.
+Scaling the equations as in PHY.1 can put these scales on a common basis. Keep the physical reason for each scale: a narrow gap, driving period or relaxation distance can matter more than the size of the whole apparatus.
 
 #### PHY.5:4.3 - Choose how unresolved processes enter the retained account
 
@@ -577,7 +577,7 @@ Maintain the relevant exchanges and constraints through the approximation. Recov
 
 #### PHY.5:4.5 - Judge the influence on the requested answer
 
-Follow the approximation through to the actual output. A small state error can grow under differentiation, accumulation, feedback or a sensitive later choice. MATH.20 supplies bounds. If the consequence is obtained in another mathematical account, C.29.1 establishes what transfers between the accounts.
+Follow the approximation through to the requested output. A small state error can grow under differentiation, accumulation, feedback or a sensitive later choice. MATH.20 supplies bounds. If the consequence is obtained in another mathematical account, C.29.1 establishes what transfers between the accounts.
 
 Examine conditions suggested by the construction itself. An omitted initial transient matters when the reading moves into it. A spatial approximation becomes suspect when the wavelength approaches the unresolved structure. A weak loss can determine a resonant response. A nearly unstable mode can defeat the earlier time-scale separation. Use the conditions that affect the proposed account.
 
@@ -645,7 +645,7 @@ For waves with wavenumber q in `0<q*a<pi`, substitution of a sinusoidal wave giv
 
 For wavelengths long compared with a, expanding the neighboring displacements gives the continuum equation `u_tt=c^2*u_xx` with `c=a*sqrt(kappa/m)`. It predicts both phase and group speed c. The chain's phase speed divided by c is `sin(q*a/2)/(q*a/2)`; its group speed divided by c is `cos(q*a/2)`. Expanding those ratios gives `v_phase/c = 1-(q*a)^2/24+O((q*a)^4)` and `v_group/c = 1-(q*a)^2/8+O((q*a)^4)`, exposing their different first corrections.
 
-At q\*a=0.2 these ratios are about 0.99833 and 0.99500. A half-percent allowance for these speeds accommodates this ideal comparison, subject to the question's waveform and other physical premises. The group-speed difference is already larger than the phase-speed difference.
+At q\*a=0.2 these ratios are about 0.99833 and 0.99500. Both deviations are less than 0.5% of the continuum speed c, subject to the waveform and other physical premises. If the allowance is 0.5% of the chain’s group speed, that comparison fails: the relative deviation is about 0.502%.
 
 **Changed work.** A disturbance containing wavelengths near the shortest traveling waves of the chain probes q\*a near pi. The chain's group speed tends to zero, while the continuum account keeps c. A question about that disturbance's propagation requires retaining the discrete dispersion or an adequate extension. Making the computation of the uncorrected continuum equation more accurate cannot recover the omitted physical dependence.
 
@@ -677,7 +677,7 @@ Time-scale separation is especially convenient and can dominate the choice too e
 - The comparison uses the coupled physical arrangement and explains the characteristic scales.
 - Each omitted process retains any mean response, constraint, delayed influence or fluctuation needed by that consequence.
 - The approximation follows from stated physical relations or remains an identified hypothesis.
-- A bound or comparison reaches the actual requested output, including a relevant initial or boundary contribution.
+- A bound or comparison reaches the requested output, including a relevant initial or boundary contribution.
 - A changed condition that can defeat the selected description leads back to the implicated physical choice.
 - Existing results are used when sufficient; further inquiry is selected for what it could change.
 
@@ -703,13 +703,13 @@ This method organizes the choice by physical consequence and coupling. Comparing
 
 Effective-theory construction supplies a useful way to retain selected influences and improve an approximation systematically. Projection and coarse-graining show why unresolved motion can remain as memory and fluctuations. The observable-specific limit shows why their adequacy is judged at the receiving physical result.
 
-MMP.9 owns the mathematical elimination; PHY.1 uses an effective account to compare changed physical arrangements; PHY.2 uses it when constructing an analogue. The contribution here is choosing and revising the physical resolution and remaining influence of unresolved processes. The motor, chain and Brownian particle demonstrate that contribution in different comparisons.
+MMP.9 supplies the method for mathematical elimination; PHY.1 uses an effective account to compare changed physical arrangements; PHY.2 uses it when constructing an analogue. The contribution here is choosing and revising the physical resolution and remaining influence of unresolved processes. The motor, chain and Brownian particle demonstrate that contribution in different comparisons.
 
 ### PHY.5:11 - SoTA-Echoing
 
 [Stewart's introduction to effective field theory](https://ocw.mit.edu/courses/8-851-effective-field-theory-spring-2013/e4ebfd74257683c3efa47b240196c505_WB8r7CU7clk.pdf) (MIT, 2013, lecture transcript pp. 2-4) is a historical teaching source for selecting relevant degrees of freedom, scales and an improvable leading description. This pattern adapts that construction beyond its quantum-field setting. It retains the need to identify an expansion and its range; improvement by further terms remains conditional on that expansion being useful.
 
-[Dalton and coauthors, Memory and Friction: From the Nanoscale to the Macroscale](https://doi.org/10.1146/annurev-physchem-082423-031037) (2025; [accessible manuscript, section 3](https://arxiv.org/html/2410.22588v1)) supplies the contemporary account of retained observables, memory-dependent friction and simulation through auxiliary variables. Adopt the distinction between eliminating explicit variables and discarding their influence. An instantaneous response saves computation when its conditions hold; resolved memory preserves effects that such a response misses. The review's stated projection, equilibrium and preparation conditions govern its particular equations.
+[Dalton and coauthors, Memory and Friction: From the Nanoscale to the Macroscale](https://doi.org/10.1146/annurev-physchem-082423-031037) (2025; [accessible manuscript, section 3](https://arxiv.org/html/2410.22588v1)) supply an account of retained observables, memory-dependent friction and simulation through auxiliary variables. Adopt the distinction between eliminating explicit variables and discarding their influence. An instantaneous response saves computation when its conditions hold; resolved memory preserves effects that such a response misses. The review's stated projection, equilibrium and preparation conditions govern its particular equations.
 
 [Celani, Bo, Eichhorn and Aurell](https://arxiv.org/abs/1206.1742) (2012) provide the observable-specific counterexample used in :5.3. Adopt the comparison of the physical result before and after the limit. Their thermal-gradient result qualifies an otherwise successful position reduction; it does not rule out overdamped modeling for the position questions it answers.
 
@@ -742,9 +742,9 @@ Start with the consequence you need: an initial response, a trajectory, a transp
 
 Here a *response law* relates a physical interaction or change to the conditions on which it depends. A constitutive law is one such relation for a material or component. The method constructs an account from physical balances, response laws and preparation; it works across physical branches.
 
-You need to identify the physical quantities and interpret the proposed relations and their conditions. The worked cases add their own preparation: elementary motion and energy calculations, a spatial continuity equation, and charge storage. These are different demonstrations of the same construction.
+You need to identify the physical quantities and interpret the proposed relations and their conditions. The worked cases add their own preparation: elementary motion and energy calculations, a spatial continuity equation, and charge storage.
 
-If a known physical account already supplies the required result, use it. If a balance alone settles the question, stop there. C.29.BB supplies that general balance method. Use PHY.5 when choosing which physical detail to retain; use this pattern when assembling the retained physical relations. Once that account is settled, MMP.10 and C.29.2 help formulate and obtain its mathematical consequences.
+If a known physical account supplies the required result, use it. If a balance alone settles the question, stop there. C.29.BB supplies that general balance method. Use PHY.5 when choosing which physical detail to retain; use this pattern when assembling the retained physical relations. Once that account is settled, MMP.10 and C.29.2 help formulate and obtain its mathematical consequences.
 
 ### PHY.6:2 - Problem
 
@@ -770,7 +770,7 @@ The task is to construct mutually compatible physical relations and preparation,
 
 #### PHY.6:4.1 - Choose the consequence and physical participants
 
-State what the answer will let someone interpret, choose or do. Identify the quantity, interval and preparation that matter. A peak response, a total transferred amount and a settled value can require different accounts of the same arrangement.
+State what the result will be used to interpret, choose or do. Identify the quantity, interval and preparation that matter. A peak response, a total transferred amount and a settled value can require different accounts of the same arrangement.
 
 Choose the physical participants and their boundaries at a useful resolution. Locate the interactions that can affect the answer, including supports, surrounding media and measurement when relevant. Distinguish a quantity stored in a participant from a quantity passing through its boundary. Include storage in a contact or field when omitting it would change the consequence.
 
@@ -786,7 +786,7 @@ For a fixed spatial region, a useful form is
 
 A local continuity equation expresses the same relation for a density and its flux. The choice of quantity determines the production term: a chemical species can be consumed while the atoms it contains remain in reaction products. A closed boundary alone does not make every selected quantity constant.
 
-Identify which terms remain undetermined. A momentum balance may still need forces; a species balance may need transport and reaction rates. If the requested total already follows without those details, retain that consequence and avoid completing an unnecessary model.
+Identify which terms remain undetermined. A momentum balance may need forces; a species balance may need transport and reaction rates. If the requested total follows without those details, the balance can answer the question.
 
 #### PHY.6:4.3 - Supply the response and configuration relations
 
@@ -794,7 +794,7 @@ For each unresolved interaction that affects the answer, state how its response 
 
 Recover the conditions under which the relation is used. Does it describe the current state, dependence on earlier states, a spatial gradient, an average response or fluctuations? Does it assume a settled contact, a constant material parameter or a particular preparation? Supply the configuration relations needed to connect that response to the retained variables.
 
-Keep physical restrictions that the chosen description relies on. A passive damping law transfers mechanical energy into other forms; it does not destroy total energy. If that heating changes the response during the intended use, include the resulting dependence. A fitted or learned response can also supply a relation, but its physical restrictions and usable range must come from its construction or grounds, not from the fact that it produces numbers.
+Keep physical restrictions that the chosen description relies on. A passive damping law transfers mechanical energy into other forms; it does not destroy total energy. If that heating changes the response during the intended use, include the resulting dependence. A fitted or learned response can also supply a relation, but its construction or other evidence must establish the physical restrictions it respects and the range in which it can be used.
 
 When several physically plausible laws remain, derive what each changes in the requested consequence. A bound or a conditional answer may be sufficient. Seek another observation or a more detailed account when its possible result can change the work; C.11.DUA helps decide that inquiry.
 
@@ -814,9 +814,9 @@ Supply the independent initial, boundary and driving conditions needed by the re
 
 A motion constraint also constrains admissible initial velocity. An electrical connection can constrain initial potentials. A spatial description needs boundary conditions appropriate to its transport and response. Determine which conditions can be chosen freely and which follow from the others.
 
-An equation count can expose an omitted relation, but equal counts do not establish a consistent or uniquely determined problem. Examine the dependence of the actual relations and the existence conditions needed for the intended result. C.29.2 supplies the subsequent computational formulation; a solver diagnostic can help locate a problem without deciding whether the physical preparation should change.
+An equation count can expose an omitted relation, but equal counts do not establish a consistent or uniquely determined problem. Examine the dependence of the relations and the existence conditions needed for the intended result. C.29.2 supplies the subsequent computational formulation; a solver diagnostic can help locate a problem without deciding whether the physical preparation should change.
 
-If the preparation is incompatible, identify the conflict and its physical alternatives. Correct a mistaken initial value, relax an unjustified ideal constraint, or describe the interaction that establishes the new state. Choose among these from the actual preparation. Do not silently substitute an easier initial state.
+If the preparation is incompatible, identify the conflict and its physical alternatives. Correct a mistaken initial value, relax an unjustified ideal constraint, or describe the interaction that establishes the new state. Choose the alternative that fits the physical preparation.
 
 #### PHY.6:4.6 - Derive the consequence and return through the implicated premise
 
@@ -824,7 +824,7 @@ Obtain the first result at the resolution the question needs. This may be an ini
 
 Use checks that can distinguish a wrong construction for this use. Combining part balances can expose a duplicated exchange; an energy calculation can expose a sign error or an omitted conversion; substituting the preparation can expose an impossible constraint. A limiting case or available observation can test a disputed physical premise. Passing one such check establishes only what it examines.
 
-Distinguish a consequence of the stated equations from evidence that those equations describe the intended situation. Numerical accuracy concerns how the chosen consequence was obtained. Physical adequacy concerns the premises, preparation and interactions represented. Keep those qualifications with the result, without requiring new evidence when the conditional result already serves the work.
+Distinguish a consequence of the stated equations from evidence that those equations describe the intended situation. Numerical accuracy concerns how the chosen consequence was obtained. Physical adequacy concerns the premises, preparation and interactions represented. State which premises the calculated consequence depends on. If that conditional result serves the work, you can use it.
 
 When the question, preparation or connection changes, revisit the affected relations. Retain contributions whose conditions still hold. An unresolved exchange law directs work to physical theory or response characterization; inconsistent coupled quantities direct work to the connection; an adequate account with an inaccurate computed result directs work to the computation. B.5.MPC.R supplies the broader repair when physical, mathematical and computational contributions need to change together.
 
@@ -840,7 +840,7 @@ The momentum balances need the connecting force. Use the ideal response
 
 where `k>0` is stiffness and `c>=0` is damping. The force on body 1 is `f`; that on body 2 is `-f`.
 
-**When a response parameter is missing.** Suppose this linear response form is already justified, but its parameters are not yet supplied. A static test with extension `1 m`, zero relative velocity and force `3 N` determines `k=3 N/m`; it leaves c undetermined. At extension `1 m` and relative velocity `-2 m/s`, the choices `c=0` and `c=0.5 N*s/m` predict `3 N` and `2 N`. Both reproduce the static test. A prediction of either body's acceleration therefore remains conditional on c; a supplied value or useful bound can settle a stronger question. A question about total momentum change can already be answered from the external forces, independently of c. The single test does not establish the assumed linear form.
+**When a response parameter is missing.** Suppose this linear response form is justified, but its parameters are not yet supplied. A static test with extension `1 m`, zero relative velocity and force `3 N` determines `k=3 N/m`; it leaves c undetermined. At extension `1 m` and relative velocity `-2 m/s`, the choices `c=0` and `c=0.5 N*s/m` predict `3 N` and `2 N`. Both reproduce the static test. A prediction of either body's acceleration therefore remains conditional on c; a supplied value or useful bound can settle a stronger question. A question about total momentum change can be answered from the external forces, independently of c. The single test does not establish the assumed linear form.
 
 With the response parameters and external forces `u1` and `u2` supplied, the connected evolution is
 
@@ -862,7 +862,7 @@ Take `m1=1 kg`, `m2=2 kg`, `k=3 N/m`, `c=0.5 N*s/m`, `x1=0 m`, `x2=1 m`, `v1=1 m
 
 **Changed preparation.** Body 2 is instead held at `x2=1 m` from before the initial instant, so `v2=0`. With the other initial values unchanged, `f=2.5 N`. The support supplies the reaction `u2=f`; body 1 accelerates at `2.5 m/s^2`. The selected pair now exchanges momentum with the support. Keeping the earlier `v2=-1 m/s` together with a fixed-position constraint would describe an inconsistent preparation. Suddenly clamping the moving body would be another physical problem, requiring an account of that transition.
 
-The reusable move is to obtain motion by joining balances to a response and preparation, and to revise the relevant exchange when the connection changes.
+
 
 #### PHY.6:5.2 - Obtain a total without solving its spatial distribution
 
@@ -884,7 +884,7 @@ and therefore `N(t)=N(0)*exp(-k*t)`. The requested total follows from its initia
 
 **Changed question.** A local concentration maximum requires the initial spatial distribution and its evolution. The total alone no longer answers. Alternatively, if the reaction rate varies with position, the total rate becomes `-integral_region k(x)*c(x,t) dx`; replacing it by a constant times `N` now needs grounds for that reduction. Return to the spatial distribution or a justified bound when the new use needs it.
 
-This case shows how the intended consequence determines which physical relations must be completed. It also separates a global balance result from a local transport prediction.
+
 
 #### PHY.6:5.3 - Detect an incompatible ideal connection before attempting a transient calculation
 
@@ -910,11 +910,11 @@ Stored electrical energy is `H=(C1*v1^2+C2*v2^2)/2`. Substitution gives `H'=-R*I
 
 **Changed connection.** Set `R=0` as an ideal connection from the initial instant. Its constraint `v1=v2` conflicts with the supplied unequal initial potentials. The smooth evolution above cannot simply start from them under that constraint. Recover the interaction that establishes the common potential when its current, duration or energy conversion matters. Resistance, inductance or electromagnetic emission may matter depending on the actual arrangement and interval; the ideal connection alone does not specify them.
 
-If only the settled potential is needed, conserved charge together with the premise that the connected system settles can already supply it. A transient description is needed for a different question, such as peak current. Taking the positive-resistance time constant to zero does not remove the finite energy conversion. This is why changing an idealization can require revisiting both the preparation and the requested consequence.
+If only the settled potential is needed, conserved charge together with the premise that the connected system settles can supply it. A transient description is needed for a different question, such as peak current. Taking the positive-resistance time constant to zero does not remove the finite energy conversion.
 
 ### PHY.6:6 - Bias-Annotation
 
-The examples use classical descriptions with explicit response laws. Their calculations are convenient for exposing balance, coupling and preparation. A stochastic, quantum or history-dependent response requires its own physical grounds and mathematical representation; the example equations do not supply those grounds.
+The examples use classical descriptions with explicit response laws. Their calculations are convenient for exposing balance, coupling and preparation. A stochastic, quantum or history-dependent response requires physical grounds and a mathematical representation appropriate to that response.
 
 Component descriptions can also make localized parts seem necessary. An account can instead describe a continuous medium through fields or many interacting constituents through collective variables. Choose the physical participants and the resolution of their description from the question.
 
@@ -951,7 +951,7 @@ Separating balances, response laws and preparation makes their different contrib
 
 The construction uses C.29.BB for common balance reasoning and adds the physical choice of interactions, response grounds and compatible preparation. MMP.10 and C.29.2 handle the subsequent formulation and obtaining of mathematical results. This division permits a return to the missing physical premise without treating every solver difficulty as a computational defect.
 
-Energy-based composition is especially useful when storage, conversion and exchange dominate the question. Direct momentum, species or charge balances can be simpler for another consequence. A physical variational principle offers another way to derive motion when its premises apply. The balance-and-response route is selected here for the difficulty it resolves, without requiring one formalism for every physical account.
+Energy-based composition is especially useful when storage, conversion and exchange dominate the question. Direct momentum, species or charge balances can be simpler for another consequence. A physical variational principle offers another way to derive motion when its premises apply. Combine balances with response laws and compatible preparation when the required consequence depends on them.
 
 ### PHY.6:11 - SoTA-Echoing
 
@@ -959,11 +959,11 @@ Energy-based composition is especially useful when storage, conversion and excha
 
 **How should a reusable physical account be composed?** Retaining simultaneous component relations, as in :4.4-.5, preserves their meaning when the analysis or connection changes. For the positive-resistance capacitor case, eliminating the common current into two explicit evolution equations gives the same response as the retained three relations. Keeping the charge balances and the resistive relation separately makes their different contributions available when the connection changes: the balances survive, while setting R to zero changes the latter into a voltage-equality constraint that also restricts the preparation. This accepts the extra task of solving simultaneous relations when reuse or changing connections makes it worthwhile. For an isolated explicit evolution already suited to the question, use that simpler form. Reopen the choice when a new connection introduces a constraint or a consequential store.
 
-[Van der Schaft, Port-Hamiltonian nonlinear systems](https://arxiv.org/html/2412.19673v1) (2024 preprint, sections 1.1-1.2) supplies a contemporary synthesis of storage, dissipation and power-conserving interconnection, including differential-algebraic descriptions. Adapt its separation of these contributions to the physical assembly in :4.3-.4. Remark 1.3 makes an important limit explicit: replacing mechanical dissipation by an untracked internal-energy increase is conditional on the relevant thermodynamic feedback being absent. Adopt that qualification in the damper case. For the two-body case, direct momentum equations and their energy derivative already show motion and the conversion into heat. A port-Hamiltonian representation gives the same consequences under the same response laws and makes energy-preserving composition explicit. Adapt the storage/interconnection distinction without requiring the reader to construct that formal representation for this small problem. Its additional structure becomes useful when a later question needs systematic composition or passivity properties of several interacting parts. Reopen the chosen account when an omitted store or thermal feedback changes those consequences.
+[Van der Schaft, Port-Hamiltonian nonlinear systems](https://arxiv.org/html/2412.19673v1) (2024 preprint, sections 1.1-1.2) supplies a contemporary synthesis of storage, dissipation and power-conserving interconnection, including differential-algebraic descriptions. Adapt its separation of these contributions to the physical assembly in :4.3-.4. In Remark 1.3, replacing mechanical dissipation by an untracked internal-energy increase is conditional on the relevant thermodynamic feedback being absent. The damper example uses this condition. For the two-body case, direct momentum equations and their energy derivative already show motion and the conversion into heat. A port-Hamiltonian representation gives the same consequences under the same response laws and makes energy-preserving composition explicit. Adapt the storage/interconnection distinction without requiring the reader to construct that formal representation for this small problem. Its additional structure becomes useful when a later question needs systematic composition or passivity properties of several interacting parts. Reopen the chosen account when an omitted store or thermal feedback changes those consequences.
 
 The [Modelica 3.7 equation rules](https://specification.modelica.org/maint/3.7/equations.html), especially section 8.6, distinguish simultaneous relations, initialization equations and numerical guesses. Its [connection rules](https://specification.modelica.org/maint/3.7/connectors-and-connections.html), section 9.2, give explicit equality and signed flow-sum constructions. Adopt these as a worked formal tradition for composable physical descriptions and consistent initialization. The physical reason for a connection and the adequacy of a response remain separate from language conformance. Retaining algebraic constraints avoids inventing a physical direction merely to obtain explicit state-derivative equations.
 
-The current [Dyad component-construction tutorial](https://help.juliahub.com/dyad/stable/tutorials/creating-components.html) demonstrates reusable connector and response relations with separate analyses. Adapt that distinction so a reader can reuse the component relations for several analyses.
+The [Dyad component-construction tutorial](https://help.juliahub.com/dyad/stable/tutorials/creating-components.html) shows how separating connector and response relations from a particular analysis lets you reuse them in another analysis.
 
 The three worked calculations are constructed examples under their stated idealizations.
 
@@ -994,13 +994,13 @@ The first result is an equation of motion, a boundary condition or a conserved c
 
 An *action* assigns a scalar to a history in the chosen physical description. *Stationarity* means that its first variation vanishes for the specified allowed changes. The physical theory supplies the reason to impose that condition. MATH.10 supplies the mathematical reasoning about variations; this method constructs and interprets its physical premises.
 
-You need to identify the physical quantities and understand the proposed principle's range. You also need enough mathematical preparation to interpret a variation, or another contributor who can perform it and explain its result. The examples use elementary constrained mechanics, a charged particle and a continuous field. Their branch-specific laws are stated in the cases.
+You need to identify the physical quantities and understand the proposed principle's range. You also need enough mathematical preparation to interpret the variation, or access to an explanation of its result that you can use. The examples use elementary constrained mechanics, a charged particle and a continuous field. Their branch-specific laws are stated in the cases.
 
-Use an existing equation or PHY.6's balances and response laws when they already answer the question economically. A variational formulation is useful when it simplifies constrained motion, carries interactions across coordinate changes, exposes a symmetry, or produces both interior and boundary equations. It need not be constructed for every physical problem.
+Use an existing equation or PHY.6's balances and response laws when they answer the question economically. A variational formulation is useful when it simplifies constrained motion, carries interactions across coordinate changes, exposes a symmetry, or produces both interior and boundary equations.
 
 ### PHY.7:2 - Problem
 
-Writing `L=T-V` and applying the Euler-Lagrange formula leaves important physical work hidden. Which interactions are represented by the potential? Does a moving support contribute to the velocity? Which endpoint quantities are fixed? Can the constraint really be imposed on every varied history?
+Writing `L=T-V` and applying the Euler-Lagrange formula leaves important physical work hidden. Which interactions are represented by the potential? Does a moving support contribute to the velocity? Which endpoint quantities are fixed? Can the constraint be imposed on every varied history?
 
 These choices can change the resulting motion. A missing velocity-dependent interaction can leave the energy apparently reasonable while removing a force. Discarding a boundary term can replace a loaded boundary by a free one. Extending a rule for position constraints to a different kind of constraint can select a different evolution.
 
@@ -1008,7 +1008,7 @@ These choices can change the resulting motion. A missing velocity-dependent inte
 
 | Force | Tension |
 | --- | --- |
-| Compact principle and physical content | One scalar can generate several equations, but every consequential interaction still needs a physical basis. |
+| Compact principle and physical content | One scalar can generate several equations, but every consequential interaction needs a physical basis. |
 | Convenient coordinates and retained motion | Eliminating a constraint can simplify the calculation while concealing a moving support or an omitted degree of freedom. |
 | Interior equations and boundaries | Integration by parts exposes both; the physical preparation decides which boundary variations remain free. |
 | Mathematical comparison and physical evolution | Nearby histories define a variation; the predicted motion is selected and used with its own preparation. |
@@ -1030,7 +1030,7 @@ For a smooth classical configuration history `q(t)`, a common form is
 
 where `L` is the Lagrangian. A field description can instead integrate a density over space and time. The following steps show how to use such a principle; another physical principle can require a different functional or variation rule.
 
-If the action or its physical grounds are missing, identify the interaction or assumption needed to construct them. A balance with a response law may settle the immediate question while the variational formulation remains open. The availability of a differentiation tool does not resolve that physical choice.
+If the action or its physical grounds are missing, identify the interaction or assumption needed to construct them. A balance with a response law may settle the immediate question while the variational formulation remains open. Differentiation uses the chosen action and its physical assumptions.
 
 #### PHY.7:4.2 - Construct the histories and their action
 
@@ -1062,7 +1062,7 @@ With fixed endpoints and otherwise arbitrary interior variations, stationarity g
 
 For a field, perform the corresponding integration in space as well as time. First identify the boundary terms, then decide which vanish because the boundary value is prescribed and which produce a condition because its variation is free. An endpoint force or boundary energy can change the latter condition without changing the interior equation.
 
-Differentiate symbolically or computationally when helpful, but retain the variables held fixed and the substitution rules. A result from varying only part of the action answers that smaller calculation. It does not justify omitting a physical term.
+Differentiate symbolically or computationally when helpful, but retain the variables held fixed and the substitution rules. Varying part of the action gives the contribution of those terms. Omitting another term from the physical model needs its own justification.
 
 Stationarity alone does not establish a minimum. Use the stronger comparison only when required and supported. MATH.10 gives both a minimizing free-particle case and a stationary oscillator history with changes of either sign in the action.
 
@@ -1080,7 +1080,7 @@ When an interaction changes, revise its action term or force contribution. When 
 
 Equivalent expressions can describe the same motion. In the ordinary fixed-endpoint principle, adding `dF(q,t)/dt` changes the action only by endpoint values, so it preserves the interior equations. A use with different endpoint freedoms must also carry the changed boundary term. Distinguish this redescription from introducing another physical interaction.
 
-If a computed consequence fails, locate whether the fault is the physical principle, admissible comparison, mathematical derivation or obtaining procedure. B.5.MPC.R provides the combined return. Seek additional physical evidence only where its possible result could alter the decision or action; a useful conditional derivation can already be used with its stated limits.
+If a computed consequence fails, locate whether the fault is the physical principle, admissible comparison, mathematical derivation or obtaining procedure. B.5.MPC.R provides the combined return. Seek additional physical evidence only where its possible result could alter the decision or action; a useful conditional derivation can be used within its stated limits.
 
 ### PHY.7:5 - Archetypal Grounding
 
@@ -1108,7 +1108,7 @@ Keeping the same gravitational potential and varying theta gives
 
 `m*l^2*theta_ddot+m*l*X_ddot*cos(theta)+m*g*l*sin(theta)=0`.
 
-With pivot acceleration `X_ddot=2 m/s^2` at the same angle, the angular acceleration is about `-6.732 rad/s^2`. Omitting the pivot term from the velocity would preserve the old answer while losing a real forcing. The pivot's prescribed motion may do work, so the fixed-pivot mechanical-energy conservation claim does not automatically transfer.
+With pivot acceleration `X_ddot=2 m/s^2` at the same angle, the angular acceleration is about `-6.732 rad/s^2`. Leaving the pivot motion out of the velocity calculation gives the fixed-pivot value, −5 rad/s², for this accelerating support. The pivot's prescribed motion may do work, so the fixed-pivot mechanical-energy conservation claim does not automatically transfer.
 
 **Changed interaction.** For the fixed pivot, add an established damping torque `Q=-b*theta_dot`, with `b>=0`. The virtual-work equation gives `m*l^2*theta_ddot+b*theta_dot+m*g*l*sin(theta)=0`. The mechanical energy has derivative `-b*theta_dot^2`. Appending this dissipative torque to a conservative scalar potential would require a different physical account. PHY.6 supplies the corresponding balance and receiving energy form; a more elaborate dissipative action is useful only when the intended work needs it.
 
@@ -1152,7 +1152,7 @@ For `mu=0.01 kg/m`, `T=100 N` and `l=1 m`, wave speed is `sqrt(T/mu)=100 m/s`. T
 
 **Loaded endpoint.** Attach a massless transverse spring of stiffness kappa at x=l. Add `-integral kappa*u(l,t)^2/2 dt` to the action. With the right endpoint variation free, its coefficient gives `T*u_x(l,t)+kappa*u(l,t)=0`. The spring changes the boundary condition through its stored energy. If an endpoint mass is consequential, its kinetic term must be included too; the massless condition would no longer supply that boundary's dynamics.
 
-Retain the boundary contribution until the physical freedom or load determines its use.
+
 
 ### PHY.7:6 - Bias-Annotation
 
@@ -1166,7 +1166,7 @@ Compact energy expressions can also hide how a constraint is maintained. The ide
 - Coordinates or fields recover the needed physical quantities, including time-dependent mappings.
 - The action includes consequential interactions and boundary contributions.
 - Allowed variations and constraints follow the selected physical principle; endpoint restrictions are explicit.
-- Interior, force and boundary terms produce the conditions actually used.
+- Interior, force and boundary terms produce the conditions used for the requested consequence.
 - The interpreted result retains compatible preparation and the reach of its stationarity or conservation claim.
 - A changed interaction, constraint or representation returns through its affected contribution; further inquiry serves a consequential question.
 
@@ -1183,9 +1183,9 @@ Compact energy expressions can also hide how a constraint is maintained. The ide
 
 ### PHY.7:9 - Consequences
 
-A useful physical principle can organize several coupled equations and expose what changes when coordinates, constraints or boundaries change. The calculation can be shared with a mathematical specialist or a symbolic tool while the physical premises remain inspectable.
+A useful physical principle can organize several coupled equations and expose what changes when coordinates, constraints or boundaries change. A contributor can supply the derivation or use symbolic computation. Keep the physical premises available with the calculation.
 
-The compact formulation does not remove the need for physical knowledge. Constructing a justified action can be harder than writing a balance. An equation derived from it may still require substantial work to solve or to connect to observation. Stop at the consequence sufficient for the current work and retain unresolved physical choices in any conditional use.
+Constructing a physically justified action can be harder than writing a balance. An equation derived from it may still require substantial work to solve or to connect to observation. Stop at the consequence sufficient for the current work and retain unresolved physical choices in any conditional use.
 
 ### PHY.7:10 - Architectural Rationale
 
@@ -1195,13 +1195,13 @@ MATH.10 supplies the common variational argument. PHY.7 adds the physical choice
 
 ### PHY.7:11 - SoTA-Echoing
 
-**When does an action formulation repay its cost?** For the ideal rod in :5.1, both the angular-action calculation and a tangential projection of Newton's force balance obtain the angular acceleration without solving the radial reaction. Both retain the rod constraint as a physical premise. If the rod load is the requested result, the balance or a reaction reconstruction is needed. For :5.3, both local force balance and field variation give the wave equation; retaining the action's endpoint term also makes the changed spring contribution available. Select that organization when repeated constraint or boundary changes make it useful. Use the simpler sufficient balance for an isolated question. These comparisons are constructed uses.
+**When does an action formulation repay its cost?** For the ideal rod in :5.1, both the angular-action calculation and a tangential projection of Newton's force balance obtain the angular acceleration without solving the radial reaction. Both retain the rod constraint as a physical premise. If the rod load is the requested result, the balance or a reaction reconstruction is needed. For :5.3, both local force balance and field variation give the wave equation; retaining the action's endpoint term also makes the changed spring contribution available. Select that organization when repeated constraint or boundary changes make it useful. Use the simpler sufficient balance for an isolated question. The worked cases compare the steps required for these particular questions. To claim a general efficiency advantage, use evidence that covers the proposed uses.
 
 [Sussman and Wisdom, Structure and Interpretation of Classical Mechanics, second edition, chapter 1](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/9579/sicm_edition_2.zip/chapter001.html), is the established source for treating coordinate choice, physical action and variation as a connected construction. Adopt that connection in :4.1-.4. Sections 1.6 and 1.10 limit the automatic use of T-V and of coordinate-constraint arguments. In particular, section 1.10.3 distinguishes stationarity over constrained histories from the ideal-reaction rule for nonintegrable velocity constraints. The resulting instruction is to recover the physical constraint model before choosing the variation. Reopen that choice when the way a constraint is maintained changes a predicted reaction or motion.
 
 [Gaset, Lainz, Mas and Rivas, The Herglotz variational principle for dissipative field theories](https://arxiv.org/abs/2211.17058) (2022 preprint, published 2024), develops two formulations of dissipative field variation. Its section 5.2 gives a mathematical case where they have different solutions; the conclusions identify a condition under which the approaches agree. Adapt the methodological consequence: naming a variational principle is insufficient without its variation rule and conditions. The example establishes formal non-equivalence; it does not select the physical adequacy of either account for an apparatus. An action-based treatment of a new dissipative interaction reopens that choice.
 
-[Galley, Tsang and Stein, The principle of stationary nonconservative action for classical mechanics and field theories](https://arxiv.org/abs/1412.3082) (2014), supplies a distinct route using doubled variables and an initial-value construction. Its opening eliminated-oscillator example shows why eliminating an environment inside the usual endpoint action can lose the intended causal response. For the supplied damping torque in :5.1, the force or virtual-work equation already gives the desired motion with less apparatus. The extended-action route becomes relevant when the work needs elimination within an action or a variational treatment of nonconservative coupling. Retain that choice rather than silently absorbing every loss into an ordinary potential.
+[Galley, Tsang and Stein, The principle of stationary nonconservative action for classical mechanics and field theories](https://arxiv.org/abs/1412.3082) (2014), supplies a distinct route using doubled variables and an initial-value construction. Its opening eliminated-oscillator example shows why eliminating an environment inside the usual endpoint action can lose the intended causal response. For the supplied damping torque in :5.1, the force or virtual-work equation gives the desired motion with less apparatus. The extended-action route becomes relevant when the work needs elimination within an action or a variational treatment of nonconservative coupling.
 
 The worked calculations are constructed consequences of their stated classical descriptions.
 
@@ -1234,7 +1234,7 @@ Here *microscopic* and *macroscopic* refer to levels of physical description. A 
 
 You need to interpret the physical preparation and interactions, and to understand the probability operations used in the calculation. Quantum cases require the corresponding state and measurement rules. A collaborator can supply those mathematical operations while you retain the question and physical interpretation. The worked cases state their additional branch-specific premises.
 
-Use a direct balance or an established effective law when it already gives the needed consequence with adequate conditions. Construct the microscopic account when fluctuations, changed preparation or a proposed mechanism can alter that consequence. PHY.5 helps choose which detail to retain.
+Use a direct balance or an established effective law when it gives the needed consequence with adequate conditions. Construct the microscopic account when fluctuations, changed preparation or a proposed mechanism can alter that consequence. PHY.5 helps choose which detail to retain.
 
 ### PHY.8:2 - Problem
 
@@ -1252,7 +1252,7 @@ The task is to carry physical preparation and interaction through the statistica
 | State counting and preparation | Many alternatives are possible, but the preparation and dynamics can weight them differently. |
 | Typical behavior and rare outcomes | A narrow central range can support ordinary operation while missing a consequential excursion. |
 | Individual properties and collective dependence | Local statistics can be unchanged while correlations alter the whole. |
-| Long-time theory and available time | A limiting result may be valid yet unavailable within the observation interval. |
+| Long-time theory and available time | The relaxation time can exceed the observation interval even when the limiting result is valid. |
 | Sampling economy and physical meaning | An efficient sampler can obtain a statistic without reproducing physical motion. |
 
 ### PHY.8:4 - Solution
@@ -1279,7 +1279,7 @@ A maximum-entropy inference selects a distribution relative to specified alterna
 
 For a quantum account, use the prepared state and the relevant observable or measurement operators. A density operator can represent a subsystem correlated with its environment. Its decomposition into weighted pure states need not identify a unique physical preparation. Compute the probabilities of the chosen measurement using the theory; do not replace the state by presumed simultaneous values for incompatible measurements.
 
-If the grounds leave several weightings possible, carry their different consequences far enough to see whether the unresolved choice matters. A bound or a common consequence can already answer the work question.
+If the grounds leave several weightings possible, carry their different consequences far enough to see whether the unresolved choice matters. A bound or a common consequence can answer the work question.
 
 #### PHY.8:4.3 - Derive the collective law without discarding dependence
 
@@ -1307,13 +1307,13 @@ Compare the predicted spread with the tolerance or decision in the work. For any
 
 `P(|Y-E[Y]| >= epsilon) <= Var(Y)/epsilon²`.
 
-This can settle a sufficient bound without reconstructing the whole distribution. If the bound is too loose to decide, a sharper calculation may help. Its cost is justified by the unresolved decision, not by the mere availability of another statistical method.
+This can settle a sufficient bound without reconstructing the whole distribution. If the bound is too loose to decide, a sharper calculation may help. Compare what it could settle with the work it would take.
 
 For an average over N constituents, the variance is bounded by a constant times 1/N when the sum of relevant covariances is bounded above by a constant times N. A common fluctuating influence can instead make the total variance grow as N². Inspect the physical dependence that determines this scaling. Increasing the number of constituents then has different effects on reliability.
 
 Keep a probability claim relative to its measure. A set containing most of the probability need not contain most of the unweighted alternatives. Conversely, a large count of states says little about the prepared distribution until its weights are supplied.
 
-Decide whether a finite system and the requested observable permit the limiting argument. Correlation lengths comparable to system size, constraints, long-range interactions or operation near a transition can invalidate the approximation used to obtain concentration. Return to the physical account when that invalidation changes the required result; do not require a thermodynamic limit for an already sufficient finite calculation.
+Decide whether a finite system and the requested observable permit the limiting argument. Correlation lengths comparable to system size, constraints, long-range interactions or operation near a transition can invalidate the approximation used to obtain concentration. Return to the physical account when a failed approximation changes the required result. A sufficient finite calculation can be used directly.
 
 #### PHY.8:4.5 - Connect ensemble behavior to physical time
 
@@ -1357,11 +1357,11 @@ Under the stated independence approximation, the count K is binomial:
 
 `P(K=k) = choose(400,k) (1/4)^k (3/4)^(400-k)`.
 
-It has mean 100 and variance 75, giving a standard deviation about 8.66 units. If the receiving requirement is that the count differs from 100 by less than 50 in at least 96% of preparations, Chebyshev gives `P(|K-100|>=50)<=75/2500=0.03`. That bound already satisfies the requirement; calculating every binomial probability is unnecessary for this decision.
+It has mean 100 and variance 75, giving a standard deviation about 8.66 units. If the receiving requirement is that the count differs from 100 by less than 50 in at least 96% of preparations, Chebyshev gives `P(|K-100|>=50)<=75/2500=0.03`. The bound guarantees at least 97% within the specified range, enough for this decision.
 
 Now suppose the excited energy has three distinguishable states at the same Delta, with the same equilibrium and independence premises. Their total weight is three times larger. The excited probability becomes 1/2, the mean count 200 and the variance 100. The energy gap alone no longer supplies the previous count.
 
-If the device is instead prepared with precisely 100 excited units and isolated during readout, the count variance is zero. Individual units can still each have excited probability 1/4 across a permutation-symmetric preparation. The fixed-total restriction prevents the binomial independence assumption. Use the preparation that the work actually supplies.
+If the device is instead prepared with precisely 100 excited units and isolated during readout, the count variance is zero. Individual units can still each have excited probability 1/4 across a permutation-symmetric preparation. The fixed-total restriction prevents the binomial independence assumption. For a prediction, state the assumed preparation. To interpret a particular readout, use the preparation that applied to it.
 
 #### PHY.8:5.2 - Recover collective fluctuations from a prepared joint state
 
@@ -1411,13 +1411,13 @@ The mean position stays zero. For the stated initial preparation, the mean-squar
 
 With v=2 cm/s and alpha=1/s, it is about 0.03746 cm² at t=0.1 s. A diffusion calculation would give 0.4 cm², more than ten times as much. At t=20 s, the values are about 78 and 80 cm²: diffusion overestimates this observable by about 2.56% relative to the microscopic model. A 3% tolerance admits the later approximation but not the earlier one.
 
-Changing the requested time therefore changes the needed description. Retain the density-current equations for the early response; use the diffusion reduction when its error is adequate for the requested observable. Boundary arrival probabilities would need their own comparison, since this mean-square agreement does not validate every feature of the distribution.
+Changing the requested time therefore changes the needed description. Retain the density-current equations for the early response; use the diffusion reduction when its error meets the tolerance for the requested observable. Boundary arrival probabilities would need their own comparison, since this mean-square agreement does not validate every feature of the distribution.
 
 A simulation that flips velocity with the specified rate implements physical time. A different Markov chain designed to sample a position distribution has no such interpretation merely because its histogram agrees.
 
 ### PHY.8:6 - Bias-Annotation
 
-The examples emphasize finite statistics and tractable microscopic laws. Collective behavior can involve phase transitions, long-range coupling, non-equilibrium drive and quantum observables that require more specialized calculations. The reusable move is to connect preparation, weighting, dependence and the used observable; the simple example distributions are not defaults for those cases.
+The examples emphasize finite statistics and tractable microscopic laws. Collective behavior can involve phase transitions, long-range coupling, non-equilibrium drive and quantum observables that require more specialized calculations. Connect the observable to the preparation, weights and dependencies. Use the statistical information the question requires, with grounds for applying it in that regime.
 
 A macroscopic discrepancy can also arise from the recording procedure. Return through MMP.7 when the detector's selection, integration or disturbance changes what is observed.
 
@@ -1440,7 +1440,7 @@ A macroscopic discrepancy can also arise from the recording procedure. Return th
 | Mean as a prediction of every run | An excursion-sensitive device is assessed only at the mean signal. | Compute the fluctuation or threshold consequence needed for that device. |
 | Equilibrium without an available settling interval | A stationary distribution replaces the prepared transient. | Compare the relevant relaxation with the observation time. |
 | Sampler steps as elapsed time | Artificial moves become a claimed physical transition law. | Separate distribution sampling from a physically calibrated evolution. |
-| One successful statistic validates the whole reduction | Mean-square agreement is used to justify a boundary-arrival probability. | Compare the observable that the changed question actually consumes. |
+| One successful statistic validates the whole reduction | Mean-square agreement is used to justify a boundary-arrival probability. | Compare predictions for the observable that the changed question requires. |
 
 ### PHY.8:9 - Consequences
 
@@ -1454,19 +1454,19 @@ The physical choice of alternatives and weights comes before their mathematical 
 
 Fluctuations and physical time remain alongside the mean because they can change the use without changing individual statistics. Keeping those relations explicit makes the method transferable from populations and transport to sensing and physical computation.
 
-PHY.5 decides which physical detail can be omitted. Here a statistical consequence can show that an omitted correlation or memory matters, and return that problem to the effective-description method. A complete microscopic theory is unnecessary when a physically justified restricted account already settles the question.
+PHY.5 decides which physical detail can be omitted. Here a statistical consequence can show that an omitted correlation or memory matters, and return that problem to the effective-description method. A physically justified restricted account can suffice for the question.
 
 ### PHY.8:11 - SoTA-Echoing
 
 [Baldovin, Gradenigo, Vulpiani and Zanghì, *On the foundations of statistical mechanics*](https://arxiv.org/abs/2411.08709), Physics Reports 1132 (2025), provides a current synthesis of equilibrium foundations. Sections 3.4-3.5 distinguish selected macroscopic observables and useful sampling from unrestricted dynamical claims; sections 5.1.3-5.1.5 connect quantum states, reduced states and equilibrium weighting. The method uses these distinctions without making one universal equilibration argument a prerequisite.
 
-Compare the excited-count question in :5.1. A physically appropriate equilibrium ensemble gives the same count law that sufficiently repeated microscopic simulation would estimate, with less trajectory computation. Simulation is useful when interactions or preparation invalidate the simple ensemble calculation. A maximum-entropy inference from supplied constraints is another usable route when those are the available grounds; it does not alone establish a relaxation time or response to changed coupling. The different questions determine which contribution is needed.
+Compare the excited-count question in :5.1. A physically appropriate equilibrium ensemble gives the same count law that sufficiently repeated microscopic simulation would estimate, with less trajectory computation. Simulation is useful when interactions or preparation invalidate the simple ensemble calculation. A maximum-entropy inference from supplied constraints is another usable route when those are the available grounds; it does not alone establish a relaxation time or response to changed coupling.
 
 [Corominas-Murtra, Hanel and Jizba, *Typicality, entropy and the generalization of statistical mechanics*](https://arxiv.org/abs/2409.06537) examines extensions of typicality beyond the usual independent-constituent setting. Its distinction between probability concentration and unweighted state counts supports :4.4. The present worked calculations use ordinary finite probabilities; generalized entropy is not required for their decisions. Reopen the concentration argument when the changing alternatives or dependencies defeat its current assumptions.
 
-[Korbel and colleagues, *Quo vadis, stochastic thermodynamics?*](https://arxiv.org/abs/2604.26601), 2026, examines hidden variables, memory and limits of thermodynamic interpretation. Sections II and V matter here: a reduced stochastic description may retain memory, and observable irreversibility does not automatically determine physical dissipation. Use a physical energetic account for a heat claim. For the transport question in :5.3, the density-current account and its diffusion reduction answer the same late-time mean-square question; the current adds useful content when the early response is required. A larger microscopic simulation would cost more without improving this already solvable comparison.
+[Korbel and colleagues, *Quo vadis, stochastic thermodynamics?*](https://arxiv.org/abs/2604.26601), 2026, examines hidden variables, memory and limits of thermodynamic interpretation. Sections II and V matter here: a reduced stochastic description may retain memory, and observable irreversibility does not automatically determine physical dissipation. Use a physical energetic account for a heat claim. For the transport question in :5.3, the density-current account and its diffusion reduction answer the same late-time mean-square question; the current adds useful content when the early response is required. A larger microscopic simulation would cost more without improving the analytic comparison for this observable.
 
-The examples are constructions of the method. More demanding equilibrium, quantum or driven-system questions can require specialized physical and mathematical results. Their use retains the preparation, observable and time conditions that make the result transferable.
+The examples give predictions from specified preparations and models. To use a prediction as evidence that a particular device meets its requirement, establish that the preparation, dynamics and readout apply to that device. More demanding equilibrium, quantum or driven-system questions can require specialized physical and mathematical results. Their use retains the preparation, observable and time conditions that make the result transferable.
 
 ### PHY.8:12 - Relations
 
@@ -1497,7 +1497,7 @@ Start with the quantity or behavior you need to infer about the original situati
 
 The result is a set of physically compatible comparison conditions, a justified transfer of a selected result, or a conflict that directs the next construction. Here **physical similarity** means correspondence of the physical behavior needed by the question under stated changes of scale or conditions. Geometric similarity preserves shape under scaling; further conditions can be needed to preserve the relevant behavior.
 
-You need the physical account used in the comparison and the mathematics needed to transform its relations. You can develop that account through B.5.FM and B.5.TU or obtain a missing physical contribution from a collaborator. Algebra and ratios suffice for many first comparisons; fields and time-dependent behavior can require differential equations. A ready comparison whose conditions fit the question can be used directly. If the problem is expressing an already understood account mathematically, MMP.10 supplies that formulation work.
+You need the physical account used in the comparison and the mathematics needed to transform its relations. You can develop that account through B.5.FM and B.5.TU or obtain a missing physical contribution from a qualified source. Algebra and ratios suffice for many first comparisons; fields and time-dependent behavior can require differential equations. A ready comparison whose conditions fit the question can be used directly. If the problem is expressing an already understood account mathematically, MMP.10 supplies that formulation work.
 
 ### PHY.1:2 - Problem
 
@@ -1527,13 +1527,13 @@ Specify the result at the detail needed for its use: total extension under a loa
 
 Identify what may change between the arrangements and what is fixed by the proposed work. The available fluid, gravitational acceleration, material, instrument range or support can constrain the construction. A control may be a time history rather than one setting. Preserve any known dependence between settings: changing temperature can alter both viscosity and density.
 
-If the existing physical account already yields a sufficient answer, use it. Constructing another experiment is worthwhile when it supplies a contribution the work still needs. C.11.DUA helps choose between acting on a sufficient answer and obtaining more information.
+If the existing physical account yields a sufficient answer, use it. Compare the contribution of another experiment with its cost. C.11.DUA helps choose between acting on a sufficient answer and obtaining more information.
 
 #### PHY.1:4.2 - Recover the interactions that can change the requested result
 
 Follow the physical route by which the proposed input affects the output. Identify the participants, interactions and constraints on that route. Include an exchange across the chosen boundary when it contributes to the result. In a deformation problem, distinguish the force applied at an end from weight distributed through the body. In a transport problem, distinguish material carried by motion from material spread by diffusion.
 
-Use the applicable theory to express those contributions. B.5.TU supplies the passage from theory to the encountered case; A.3.3.TR helps when several interactions determine the same evolving state. State the physical premises still needed rather than filling an unknown interaction with a convenient equation.
+Use the applicable theory to express those contributions. B.5.TU supplies the passage from theory to the encountered case; A.3.3.TR helps when several interactions determine the same evolving state. State any physical premises still needed for the comparison.
 
 Estimate the relative size or time scale of competing effects. Derive that comparison from their laws: which quantity multiplies each term, and what spatial or temporal variation makes the term large? In a regime where one effect is negligible for the output, retain the reason for that simplification and the conditions under which it can fail.
 
@@ -1571,11 +1571,11 @@ Choose the next move from the remaining physical possibilities. You can change a
 
 A small coefficient can support an approximation when its influence on the output is controlled. Inspect where that argument could fail. Thin boundary layers, a threshold, resonance or a long observation interval can make a nominally small contribution consequential. Derive a useful bound, compare an applicable limiting solution, or obtain a discriminating observation when it can settle the use. C.29.1 carries a bound through the later inference.
 
-Use an existing result when it resolves the mismatch at the required strength. A conditional result or a limit can be enough. Additional measurement is selected by what its possible answers would change, including its cost, through C.11.DUA.
+Use an existing result when it resolves the mismatch at the required strength. A conditional result or a limit can be enough. Compare what an additional measurement could change with the cost of obtaining it through C.11.DUA.
 
 #### PHY.1:4.6 - Use the comparison and follow a changed question
 
-Translate the obtained result into the original quantity, position and time. State the physical conditions on which that translation depends. A short derivation can supply the whole explanation; another contributor needs only the settings, correspondence and unresolved premises that change their use.
+Translate the obtained result into the original quantity, position and time. State the physical conditions on which that translation depends. A short derivation can supply the whole explanation; give another contributor the settings, correspondence and any unresolved premises their use depends on.
 
 If a material experiment performs the comparison, include the effects of preparing, driving and reading it where they affect the inference. C.29.3 supplies this connection when the physical evolution performs a computation. A numerical solution has its own discretization and calculation errors under C.29.2. Keep those errors separate from a changed physical mechanism.
 
@@ -1585,7 +1585,7 @@ The useful continuation can be a proposed experiment, a design choice, an interp
 
 ### PHY.1:5 - Archetypal Grounding
 
-The following constructed cases derive conditional comparisons under the stated physical laws and idealizations.
+The following examples derive comparisons from specified physical laws, settings and idealizations.
 
 #### PHY.1:5.1 - Find conflicting requirements before building a smaller flow experiment
 
@@ -1611,7 +1611,7 @@ If the desired output needs both ratios reproduced, changing speed alone cannot 
 
 The first result is a decision about the experiment. If viscosity is negligible for the intended output throughout the relevant regime, the Froude-scaled experiment may suffice under that approximation. If viscosity changes separation or another needed behavior, retain that dependence and change the arrangement or the method of obtaining the answer. Matching initial and boundary conditions remains part of either construction.
 
-Now change the question from a large-scale surface response to a local viscous effect near a wall. The previous gravity-dominated approximation leaves the new output unsupported. The method returns to the relative contributions and near-wall scale; the old choice of speed remains useful only for the question it answered.
+Now change the question from a large-scale surface response to a local viscous effect near a wall. The previous gravity-dominated approximation leaves the new output unsupported. Reconsider the relative contributions at the near-wall scale. The earlier speed still supports the gravity-dominated comparison.
 
 #### PHY.1:5.2 - Reproduce one deformation without claiming the whole field
 
@@ -1638,7 +1638,7 @@ F' = A'*rho*g*L*(1-lambda)/2.
 
 At quarter scale, F' is 3/128 of the original bar's weight. Substitution into the smaller bar's mean-strain equation gives `rho*g*L/(2*Y)`, the original value. The comparison therefore reproduces the requested normalized extension within this model.
 
-Now ask for the strain at the lower end. The original unloaded bar has zero strain there; the smaller bar with the added force has `F'/(Y*A')` greater than zero. The output-specific construction cannot answer this new local question. To reproduce the complete strain profile, revisit the distributed loading or the combination `rho*g*L/Y`. The successful first comparison is retained for total extension.
+Now ask for the strain at the lower end. The original unloaded bar has zero strain there; the smaller bar with the added force has `F'/(Y*A')` greater than zero. The smaller bar’s end strain therefore cannot be transferred to the lower end of the original bar. To reproduce the complete strain profile, revisit the distributed loading or the combination `rho*g*L/Y`. The first comparison still gives extension relative to length.
 
 #### PHY.1:5.3 - Preserve competing physical time scales
 
@@ -1664,7 +1664,7 @@ To reproduce the dimensionless evolution with the same D, the smaller model woul
 
 The cases use classical continuum laws and positive scale factors. In a new regime, discreteness, quantum effects or a change in material behavior can invalidate such laws. Recover the applicable account before extending their scaling.
 
-The worked algebra assumes access to the physical laws and a reader able to manipulate them. The prerequisites in :1 help locate a needed contribution. One participant can recover the interaction law while another derives the comparison settings; their shared explanation must preserve what the law describes and which settings the arrangement can supply.
+The worked comparisons need the physical laws and the algebra that relates the two scales. One participant can recover the interaction law while another derives the comparison settings; their shared explanation must preserve what the law describes and which settings the arrangement can supply.
 
 ### PHY.1:7 - Conformance Checklist
 
@@ -1674,7 +1674,7 @@ The worked algebra assumes access to the physical laws and a reader able to mani
 - The comparison settings satisfy the required conditions together and can be supplied by the proposed arrangement, or their unresolved feasibility is stated.
 - A limited or distorted comparison has a derivation or bound for the output it is used to answer.
 - The result is interpreted at the original scale, with any preparation, computation and readout losses that change its use.
-- A changed question returns to the affected physical contribution; an already sufficient result is used without compulsory extra experiments.
+- A change of question prompts reconsideration of the physical contributions it affects. A result that meets the need can be used directly.
 
 ### PHY.1:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -1702,9 +1702,9 @@ The physical and mathematical work remain connected. Physical reasoning supplies
 
 The working question is how to obtain a useful physical result after changing scale or conditions. The selected approach derives and reconciles the relevant physical ratios and preparation, then handles unmatched effects at the output that matters. It combines established similarity reasoning with result-specific transfer and revision.
 
-[Mahajan, The Art of Insight in Science and Engineering (2014), sections 5.2-5.3](https://ocw.mit.edu/courses/res-6-011-the-art-of-insight-in-science-and-engineering-mastering-complexity-fall-2014/3bca850386a3005c22134fa62fb3bad5_MITRES_6-011F14_art_insfin.pdf), provides a methodological anchor: dimensionless dependence can expose omitted physics while leaving an unknown coefficient or function. This changes :4.2-4.3 by making physical selection and the remaining unknown explicit. Its examples supply historical grounding.
+[Mahajan, The Art of Insight in Science and Engineering (2014), sections 5.2-5.3](https://ocw.mit.edu/courses/res-6-011-the-art-of-insight-in-science-and-engineering-mastering-complexity-fall-2014/3bca850386a3005c22134fa62fb3bad5_MITRES_6-011F14_art_insfin.pdf), gives an earlier account of how dimensionless dependence can expose omitted physics while leaving an unknown coefficient or function. In :4.2–4.3, identify the physical contributions that enter the comparison and what their ratios still leave undetermined.
 
-[Price's 2024 MIT course](https://live.ocw.mit.edu/courses/res-12-001-topics-in-fluid-dynamics-fall-2024/pages/essay-2-dimensional-analysis-of-models-and-data-sets-similarity-solutions-and-scaling-analysis/) emphasizes selecting a physically useful dimensionless basis and relating coefficients to competing terms. Adopt that choice in :4.3. [NASA's explanation of similarity parameters](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/similarity-parameters/) makes viscosity and compressibility consequences tangible. The warning is applied to effects relevant to the requested output; differing parameters can still permit a useful limited approximation.
+[Price's 2024 MIT course](https://live.ocw.mit.edu/courses/res-12-001-topics-in-fluid-dynamics-fall-2024/pages/essay-2-dimensional-analysis-of-models-and-data-sets-similarity-solutions-and-scaling-analysis/) emphasizes selecting a physically useful dimensionless basis and relating coefficients to competing terms. Adopt that choice in :4.3. [NASA's explanation of similarity parameters](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/similarity-parameters/) makes viscosity and compressibility consequences tangible. Apply the comparison to the effects that matter to the requested output. Differing parameters can permit a useful approximation for a more limited result.
 
 [Li et al. (2021), Spatial and temporal scaled physical modeling of fluid convection using hypergravity](https://arxiv.org/abs/2103.16028), report a way to reconcile gravity and viscosity scaling and identify limitations introduced by the apparatus. Their abstract motivates the changed-gravity alternative in :5.1. That case derives the scale factors from its stated conditions; reproducing the reported experiments requires their full apparatus method.
 
@@ -1736,7 +1736,7 @@ Here the **target** is the situation about which you want to learn. The **source
 
 Start with one target behavior and ask what physical interaction could produce it in a source. If two target parts affect one another, for example, ask what connection in the proposed source transmits that influence. The first result is a source construction, a consequence obtained from it, and an account of what that consequence permits you to infer or try in the target.
 
-You need the relevant physical laws or someone able to supply them, together with the mathematical or qualitative reasoning required by the proposed construction. A ready analogue with a sufficient explanation of its use can be used directly. PHY.1 helps when the remaining difficulty is constructing conditions for a change of scale. C.29.1 helps when the physical constructions are already available and the unresolved work is the correspondence between their mathematical descriptions.
+You need the physical laws and the mathematical or qualitative reasoning the proposed construction requires. You can supply these contributions or use applicable results from other sources. A ready analogue with a sufficient explanation of its use can be used directly. PHY.1 helps when the remaining difficulty is constructing conditions for a change of scale. C.29.1 helps when the physical constructions are available and the unresolved work is the correspondence between their mathematical descriptions.
 
 ### PHY.2:2 - Problem
 
@@ -1764,11 +1764,11 @@ State the target question in the terms of the work. You might need a response to
 
 Follow the intended consequence to the relevant participants and interactions. A force on one body may change another through a stored deformation; a change at a boundary may propagate through transport. Recover the target relation that the source must help explain or use. B.5.FM and B.5.TU support this first account and its relation to a theory.
 
-Keep the first construction as small as that question permits. For a question about coupling, two interacting parts can expose what a whole-device sketch leaves implicit. If the target mechanism is unknown, begin with an observed dependence and a proposed way it could arise. The proposal gives something to develop even before a complete target theory is available.
+Keep the first construction as small as that question permits. For a question about coupling, two interacting parts can expose what a whole-device sketch leaves implicit. If the target mechanism is unknown, begin with an observed dependence and a proposed way it could arise. You can develop and test that proposal while the target mechanism remains unresolved.
 
 #### PHY.2:4.2 - Propose mechanisms by the physical effect they supply
 
-Ask what the source must retain, transfer, resist, amplify, constrain or change. Then choose physical processes that can perform those contributions under known laws. These are prompts for selecting relevant effects, not a required inventory of every source.
+Ask which physical effects the source must supply. It might, for example, retain or transfer a quantity, oppose or amplify a response, or constrain a motion. Then choose physical processes that can perform those contributions under known laws.
 
 For example, a mass retains motion while a force changes it; a deformable body stores energy under loading; a capacitor accumulates charge while current flows; a dissipative interaction converts organized motion into less accessible energy. A driven body can maintain motion by drawing on an energy supply. A stochastic transition account can express unresolved switching between physically different states. Choose among such mechanisms from the target relation and the proposed source conditions.
 
@@ -1784,7 +1784,7 @@ Recover the state needed to continue the coupled behavior. The source may need a
 
 Check the physical restrictions that can defeat the construction. For an energy-carrying interaction, account for the relevant storage, exchange, dissipation and driving. A source that uses only passive dissipative elements cannot supply sustained amplification; an active source needs an identified supply. For a transport or switching mechanism, include the travel time, waiting law or constraint that changes the intended result. The useful restriction depends on the source, so follow it to the target consequence.
 
-Use these restrictions to improve the construction. Add the missing coupling, replace an unsuitable element, change a boundary or keep a result limited to the regime the source can produce. If the target's required relation conflicts with the source's physical laws, choose another source or revise the hypothesis. This conflict is an informative result of construction.
+Use these restrictions to improve the construction. Add the missing coupling, replace an unsuitable element, change a boundary or keep a result limited to the regime the source can produce. If the target's required relation conflicts with the source's physical laws, choose another source or revise the hypothesis.
 
 #### PHY.2:4.4 - Recover preparation, interpretation and available range
 
@@ -1794,13 +1794,13 @@ Connect each source quantity used in the result to what it represents about the 
 
 When proposing a material realization, determine whether its components can supply the required signs, ranges and rates together. Include the effect of observing or driving the source if it changes the relevant behavior. A nominally passive observation can load an electrical node; a finite switching time can matter when the requested event is short. C.29.3 supplies the preparation, action and readout relation for physical computation.
 
-For a thought construction, state the physical idealizations on which its consequence depends. That conditional result can already direct a useful change or inquiry. Building an apparatus is a further choice, selected when its outcome would add a worthwhile contribution through C.11.DUA.
+For a thought construction, state the physical idealizations on which its consequence depends. That conditional result can direct a useful change or inquiry. Building an apparatus is a further choice, selected when its outcome would add a worthwhile contribution through C.11.DUA.
 
 #### PHY.2:4.5 - Obtain a consequence and determine its reach
 
 Manipulate the source according to its proposed laws. Start with a small input, a change of one interaction, or a limiting case that exposes how the construction works. Obtain the consequence by a derivation, a qualitative physical argument, a computation or an experiment. Use a known limiting case to find an omitted interaction or a sign error where it can discriminate between constructions.
 
-Trace the obtained consequence back through its physical and mathematical premises. A computation can determine a property of the proposed source model. Interpreting an apparatus reading adds the account of the apparatus. Applying either result to a physical target adds the target correspondence and the physical premises used there. An existing explanation can supply those premises; no new evidence collection follows merely from enumerating them.
+Trace the obtained consequence back through its physical and mathematical premises. A computation can determine a property of the proposed source model. Interpreting an apparatus reading adds the account of the apparatus. Applying either result to a physical target adds the target correspondence and the physical premises used there. An existing explanation can supply the required premises.
 
 If the target mechanism remains proposed, use the result as a consequence of that hypothesis. Ask what change would make competing mechanisms disagree. This can reveal a useful intervention, a different observation interval or a parameter relation to examine. MMP.7 helps when the proposed distinction must be expressed through recorded data; C.11.DUA determines whether obtaining that distinction is worth the effort.
 
@@ -1860,7 +1860,7 @@ A spreading population of moving particles is approximately diffusive over long 
 
 Build a simple source in thought: independently driven shuttles on a line move at speed u, reversing direction at random times. The waiting times are independent exponentials with reversal rate lambda. A drive maintains the speed, and a controller supplies the reversals. Treat reversal duration as negligible relative to the intervals being considered. This source combines sustained physical motion with stochastic switching. Using it for the particles proposes a relation between their direction persistence and their observed spreading.
 
-The motion already supplies a useful qualitative consequence. Starting at x=0, a shuttle travels path length `u*t` in elapsed time t; reversals can only reduce its distance from the start. Thus `abs(x(t)) <= u*t`. Reaching a point at distance d requires at least time `d/u`. An ideal diffusion law with positive diffusivity instead assigns positive probability beyond every finite distance at every positive time. These are different predictions even when their long-time spreading agrees. An arrival before `d/u` would contradict the proposed bounded-speed target mechanism under its stated speed and preparation. Whether an earliest-arrival observation would discriminate the mechanisms also depends on its resolution and on the probability predicted for such arrivals. The bound is already a source result; the target correspondence remains a hypothesis.
+The motion supplies a useful qualitative consequence. Starting at x=0, a shuttle travels path length `u*t` in elapsed time t; reversals can only reduce its distance from the start. Thus `abs(x(t)) <= u*t`. Reaching a point at distance d requires at least time `d/u`. An ideal diffusion law with positive diffusivity instead assigns positive probability beyond every finite distance at every positive time. These are different predictions even when their long-time spreading agrees. An arrival before `d/u` would contradict the proposed bounded-speed target mechanism under its stated speed and preparation. Whether an earliest-arrival observation would discriminate the mechanisms also depends on its resolution and on the probability predicted for such arrivals. The bound follows from the source motion. Its application to the particles depends on the proposed target mechanism.
 
 For a small interval dt, reversal has probability `lambda*dt` to first order. If p_plus and p_minus are the position densities of right-moving and left-moving shuttles, transport and exchange between the two states give:
 
@@ -1888,7 +1888,7 @@ M(t) = (u^2/lambda)*[t - (1-exp(-2*lambda*t))/(2*lambda)].
 
 At short times M(t) is approximately `u^2*t^2`: particles mostly retain their direction. At long times its leading growth is `(u^2/lambda)*t`, corresponding to diffusion coefficient `D=u^2/(2*lambda)`. The source thus produces a long-time diffusion law while giving a different short-time consequence. If u and lambda both have numerical value 1 in the chosen units, M(1) is approximately 0.568 square length units, while the leading diffusion expression gives 1.
 
-The first result is a conditional explanation and a candidate change of observation interval. Long-time diffusive behavior alone leaves the proposed persistence mechanism unresolved. A useful return is to compare direction correlation or early spreading when either could distinguish it from a competing mechanism. An existing measurement can suffice. A physical shuttle apparatus adds no value if the derivation already supplies the consequence the work needs.
+The first result is a conditional explanation and a candidate change of observation interval. Long-time diffusive behavior alone leaves the proposed persistence mechanism unresolved. A useful return is to compare direction correlation or early spreading when either could distinguish it from a competing mechanism. An existing measurement can suffice. If the derivation supplies the consequence the work needs, you can use it without building a shuttle apparatus.
 
 Now suppose target turns have an appreciable duration, or their occurrence depends on how long the present run has lasted. The source's instantaneous, memoryless reversal rule no longer supplies that target behavior. Construct the missing turn state or waiting-time dependence, recover its physical interpretation, and derive its effect on the requested interval. The previous model remains a limiting construction where those effects are negligible. For a material shuttle implementation, finite acceleration also limits how short an interval it can reproduce.
 
@@ -1896,7 +1896,7 @@ Now suppose target turns have an appreciable duration, or their occurrence depen
 
 The worked cases use classical interaction laws and stochastic switching that can be manipulated through ordinary differential reasoning. Other physical regimes can require different permitted states, transformations and observations. Reuse the construction method with the physical laws of that regime; the elementary sources here supply examples of it.
 
-A familiar source can be easier to imagine than a suitable one. Follow the behavior required by the target question when choosing and revising mechanisms. Collaborators can supply unfamiliar physical contributions. Human mental-model studies motivate part of this approach; applying the method with AI contributors requires checking the construction they actually produce and the prerequisites its users possess.
+A familiar source can be easier to imagine than a suitable one. Follow the behavior required by the target question when choosing and revising mechanisms. Collaborators can supply unfamiliar physical contributions. Human mental-model studies motivate part of this approach; applying the method with AI contributors requires checking the construction they produce and the prerequisites its users possess.
 
 ### PHY.2:7 - Conformance Checklist
 
@@ -1922,11 +1922,11 @@ A familiar source can be easier to imagine than a suitable one. Follow the behav
 
 The method can create a useful source where retrieval of a ready analogy fails. Construction exposes missing interactions, incompatible physical requirements and consequences that were difficult to see in the target. Those discoveries can refine both the source and the question.
 
-Its cost is reasoning about two physical situations and their connection. An elaborate apparatus or simulation can be unnecessary when a short construction already answers the question. The source can also become misleading if its convenient mechanism is carried into the target beyond the inference it supports.
+Its cost is reasoning about two physical situations and their connection. An elaborate apparatus or simulation can be unnecessary when a short construction answers the question. The source can also become misleading if its convenient mechanism is carried into the target beyond the inference it supports.
 
 ### PHY.2:10 - Architectural Rationale
 
-The operative contribution is constructing physical mechanisms that can work together. Correspondence becomes usable after there is enough source behavior to compare. Preparation, coupling and the means of producing an effect therefore belong inside construction, where they can change the selected source.
+Develop the physical account of how the source mechanisms work together. Correspondence becomes usable after there is enough source behavior to compare. Preparation, coupling and the means of producing an effect therefore belong inside construction, where they can change the selected source.
 
 The method accommodates both a known target account and development of a target hypothesis. Their first results differ: a derived transfer can answer a target question under its physical premises; a proposed mechanism can reveal a consequence that directs inquiry. This keeps early physical imagination useful while making the strength of its result recoverable.
 
@@ -1936,15 +1936,15 @@ FPF supplies common first-model reasoning, state construction, correspondence, c
 
 The working question is how to construct a useful physical source when no ready analogue supplies the required behavior. The approach combines iterative source construction with explicit physical interactions, preparation and result use.
 
-[Nersessian (2025), section 3](https://onlinelibrary.wiley.com/doi/10.1111/tops.12777), examines scientific cases in which the analogy source is itself developed through construction and manipulation. Adopt that contribution in :4.2-4.6: source revision can refine the target problem as well as its candidate solution. Her studies support a human scientific practice; the allocation of work among people and AI here is a methodological extension.
+[Nersessian (2025), section 3](https://onlinelibrary.wiley.com/doi/10.1111/tops.12777), examines scientific cases in which the analogy source is itself developed through construction and manipulation. Adopt that contribution in :4.2-4.6: source revision can refine the target problem as well as its candidate solution. Her studies support a human scientific practice; using that account to allocate work that includes an AI contributor is an extension proposed here.
 
 [De Benedetto and Poth (2025, first online 2024), section 3.1](https://doi.org/10.1007/s13164-024-00752-x), reconstruct how combined representational resources can create new inferential possibilities. This supports keeping mechanisms from different sources available during construction. The present pattern develops the physical work of connecting them rather than adopting their full theory of concept learning.
 
 [Hangleiter, Carolan and Thebault, Analog Quantum Simulation (2022), sections 8.3.3-8.4](https://arxiv.org/pdf/2303.00814), distinguish the source apparatus, its mathematical description, the formal target and the physical target. Their analysis changes :4.4-4.5 by locating the premise needed for each inference. The general connection is reused from C.29.1 and C.29.3. Their validation discussion is applied according to the conclusion needed; a conditional hypothesis remains a useful result when a stronger target claim is unresolved.
 
-[Angelani (2016), section 2](https://arxiv.org/pdf/1601.04845), supplies a transport-and-switching construction for the second worked case. His tumble events choose a new direction, whereas lambda here counts actual reversals; the rate convention is stated in the case. [Datta, Beta and Grossmann, version 3 of The random walk of intermittently self-propelled particles](https://arxiv.org/html/2406.15277v3), makes richer run/turn dynamics and waiting-time distributions available. Its section II supports the return when the simple switching assumption fails. The one-dimensional shuttle example is a constructed illustration.
+[Angelani (2016), section 2](https://arxiv.org/pdf/1601.04845), supplies a transport-and-switching construction for the second worked case. His tumble events choose a new direction, whereas lambda here counts reversals of direction. [Datta, Beta and Grossmann, version 3 of The random walk of intermittently self-propelled particles](https://arxiv.org/html/2406.15277v3), makes richer run/turn dynamics and waiting-time distributions available. Its section II supports the return when the simple switching assumption fails. The one-dimensional shuttle illustrates transport with instantaneous reversals. A material implementation or a more general active-matter model needs its own dynamics and preparation.
 
-The dimensional circuit construction and paired changed-condition uses are this publication's synthesis. Revisit a source choice when a new law, available mechanism or observed disagreement changes the correspondence or reveals a useful physical possibility. A new example alone leaves the general method unchanged.
+The dimensional circuit construction and paired changed-condition uses are this publication's synthesis. Revisit a source choice when a new law, available mechanism or observed disagreement changes the correspondence or reveals a useful physical possibility.
 
 ### PHY.2:12 - Relations
 
@@ -1968,11 +1968,11 @@ Use this pattern when a physical difference matters to the work, but the availab
 
 The first result is a proposed measuring interaction with a usable response: what to prepare, what to couple, what to observe, and which physical differences the response can resolve. It can remain conditional on an identified coupling, calibration or operating range.
 
-C.16.MR constructs the relation between a sought property and an indication. This method develops its physical realization when that realization is missing or inadequate. The work concerns designing an interaction, before or after a measurement exists. It need not produce a new instrument; changing a preparation or comparison can suffice.
+C.16.MR constructs the relation between a sought property and an indication. This method develops its physical realization when that realization is missing or inadequate. You can design the interaction before taking measurements or revise it after obtaining them. Changing a preparation or comparison can suffice with the existing instrument.
 
 You need to interpret the relevant physical theory and the conditions under which its effect occurs. Mathematical or experimental collaborators can supply calculations and implementation while you retain the wanted distinction. The examples supply their additional mechanical, fluid and quantum premises.
 
-Use an existing arrangement and calibration when they already resolve the question. If the physical arrangement is suitable and only inference from its records remains, use C.16.IR or MMP.7. A more elaborate sensor is unnecessary when the present response already supports the decision.
+Use an existing arrangement and calibration when they resolve the question. If the physical arrangement is suitable and only inference from its records remains, use C.16.IR or MMP.7.
 
 ### PHY.9:2 - Problem
 
@@ -2003,17 +2003,17 @@ Name two physical possibilities that the work needs to distinguish, or a quantit
 
 Choose the needed consequence. Detecting a change, estimating a value and deciding which side of a limit applies place different demands on the same arrangement. C.16 provides the characteristic and scale; C.16.IR determines what a given indication can resolve.
 
-Include the conditions the work permits you to change. A prepared reference, imposed force, interrogation time or detector orientation is a potential experimental choice only when it can actually be controlled.
+Include the conditions the work permits you to change. A prepared reference, imposed force, interrogation time or detector orientation is a potential experimental choice only when it can be controlled.
 
 #### PHY.9:4.2 - Choose an effect that carries the distinction into a response
 
 Find a physical interaction through which the sought difference changes a state, transition, force, flow or other observable response. Derive that dependence far enough to see whether the proposed readout retains it. PHY.4 can constrain an unknown law; PHY.6 or PHY.7 can construct the relevant physical evolution.
 
-For a proposed arrangement, ask what differs in the predicted readout between the selected physical possibilities under the same preparation. Reject an insensitive arrangement for this question even if it uses a well-established effect. Compare other available arrangements when their attainable distinctions or demands can change the choice. The falling-body case in :5.1 shows why the occurrence of a quantity in one equation is insufficient.
+For a proposed arrangement, ask what differs in the predicted readout between the selected physical possibilities under the same preparation. Reject an insensitive arrangement for this question even if it uses a well-established effect. When another available arrangement could change the choice, compare the distinctions it can resolve and the resources it requires. The falling-body case in :5.1 shows why the occurrence of a quantity in one equation is insufficient.
 
 Identify what supplies a reference. A known imposed quantity, a second preparation or a stable response can make the comparison interpretable. State the physical relation that allows the reference to be transported into this measurement. Numerical labels on two devices do not establish that relation.
 
-Retain an unknown coupling as unknown. An available bound or a calibration can be enough; a proposed response without grounds for its coupling remains conditional. Select new characterization only when it can change the intended use.
+If the coupling is unknown, keep the proposed response conditional. An available bound or calibration may settle the question. Select new characterization only when it can change the intended use.
 
 #### PHY.9:4.3 - Construct the preparation and comparison
 
@@ -2031,7 +2031,7 @@ Construct the coupled subject-probe account for the duration that matters. Deter
 
 If the wanted value precedes coupling, derive how it can be recovered from the disturbed response, or change the arrangement to reduce the consequential disturbance. Keep uncertainty in that recovery. When correction is poorly determined, a different interaction or a conditional range can be more useful than more decimal places.
 
-Compare the retained effect with the allowed error or decision margin. Loading, finite response time and backaction matter through their consequences for this question. PHY.5 helps justify an approximation. A usable result does not require modeling every interaction.
+Compare the retained effect with the allowed error or decision margin. Loading, finite response time and backaction matter through their consequences for this question. PHY.5 helps justify an approximation.
 
 A nondestructive or non-demolition measurement protects a specified property under particular conditions; it does not establish that every later use of the subject is unaffected. Preserve any disturbance that changes the receiving experiment or work.
 
@@ -2133,7 +2133,7 @@ Quantum sensing is one implementation of a wider physical move. Classical compar
 - A cancellation or transferred calibration retains its shared physical premises.
 - Disturbance and finite response are included when they change the wanted result.
 - Local sensitivity is not substituted for resolution over the required range.
-- The first result, remaining ambiguity and useful return to the arrangement are clear.
+- The first result states what the readout resolves, any remaining ambiguity and when to revise the arrangement.
 
 ### PHY.9:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -2156,7 +2156,7 @@ Different contributors can construct the coupling, calculate the response, prepa
 
 The measurement relation and the measuring interaction solve connected difficulties. A relation can be derived for a fixed setup that is incapable of resolving the wanted difference. Constructing a different coupling, preparation or reference changes what the relation can supply.
 
-This physical construction links theory to observation and intervention. It also links physical computing to readout: a physical state can carry a computed result that the chosen observation does not distinguish. The mathematical and statistical interpretation remains with the corresponding methods; it receives the interaction and its conditions.
+This physical construction links theory to observation and intervention. It also links physical computing to readout: a physical state can carry a computed result that the chosen observation does not distinguish. Use the interaction and its conditions as inputs to the mathematical or statistical interpretation.
 
 ### PHY.9:11 - SoTA-Echoing
 
@@ -2166,7 +2166,7 @@ Compare the two mass procedures in :5.1. Timing ideal free fall is simpler but s
 
 [Degen, Reinhard and Cappellaro, *Quantum Sensing*](https://arxiv.org/abs/1611.02427), Reviews of Modern Physics 89 (2017), is a foundational synthesis of preparation, coupling, control and readout. [Pezzè and Smerzi, *Advances in multiparameter quantum sensing and metrology*](https://arxiv.org/abs/2502.17396), 2025, extends the selection question to several parameters, incompatible optimal measurements and finite resources. The adopted contribution is the joint choice of probe, encoding and readout; a quantum sensitivity bound needs its own estimation and attainability assumptions.
 
-For the phase question in :5.3, the same Hamiltonian with an eigenstate probe gives no observable phase, while a superposition and suitable readout do. Short interrogation resolves the wider range; longer interrogation can improve local sensitivity while requiring range information and adequate coherence. More complex entangled or adaptive arrangements require a comparison under the actual resource and uncertainty conditions.
+For the phase question in :5.3, the same Hamiltonian with an eigenstate probe gives no observable phase, while a superposition and suitable readout do. Short interrogation resolves the wider range; longer interrogation can improve local sensitivity while requiring range information and adequate coherence. More complex entangled or adaptive arrangements require a comparison under the resource and uncertainty conditions of the intended measurement.
 
 The [2026 amendment to JCGM 100](https://doi.org/10.59161/PPDI3267) explicitly addresses significant nonlinearity in both a measurement estimate and its uncertainty. It supports returning from a local sensitivity approximation when the receiving calculation depends on curvature. The applicable mathematical inference remains separate from construction of the physical coupling.
 
@@ -2233,7 +2233,7 @@ Ask the accounts the same physical question under corresponding conditions. Reco
 
 State the consequence the work needs to distinguish. It may concern a law, an omitted interaction, stored state, a response time or another physical dependence. A distinction matters through what it changes in explanation, prediction, construction or subsequent inquiry.
 
-Retain the parameter freedom that each account still has. An account with an adjustable coefficient is a family of possible responses, not just the curve at one fitted value. Include the available information that restricts that freedom. Do not choose a new parameter value independently at every observation unless the account itself permits that dependence.
+Retain the parameter freedom that each account allows. An account with an adjustable coefficient is a family of possible responses, not just the curve at one fitted value. Include the available information that restricts that freedom. Do not choose a new parameter value independently at every observation unless the account itself permits that dependence.
 
 Identify the auxiliary premises on which the comparison turns. For a driven specimen, these can include its preparation, the applied input, its coupling to surroundings and the relation between its response and the recorded indication. A test of the specimen's law can fail because one of these premises fails.
 
@@ -2248,9 +2248,9 @@ Trace the disputed difference forward to an observable consequence. Then ask whi
 
 Choose the change from the physical dependence at issue. PHY.4 supplies law constraints, PHY.5 examines a regime change and PHY.6-.8 derive the corresponding evolution or collective response.
 
-Recompute both accounts under the proposed change. A prediction under the original preparation cannot be compared with a rival's prediction under the new one. Retain any changed interaction that can imitate or obscure the intended difference.
+Recompute the predictions of both accounts for the proposed change. Comparing one account under the old preparation with the other under the new one confounds the effect of preparation with the difference between the accounts unless the relation between the preparations is established. Retain any changed interaction that can imitate or obscure the intended difference.
 
-If intervention on the subject is unavailable, look for an accessible physical contrast: for example, a naturally varying condition with an understood relation to the accounts. Identify other differences between the observed situations. Their effects remain part of the comparison; naming the contrast does not make it controlled.
+If intervention on the subject is unavailable, look for an accessible physical contrast: for example, a naturally varying condition with an understood relation to the accounts. Identify other differences between the observed situations. Account for their effects when interpreting the contrast.
 
 #### PHY.10:4.3 - Construct the experiment that can realize the contrast
 
@@ -2260,7 +2260,7 @@ Determine which shared conditions must survive. Maintaining geometry, material s
 
 Derive the subject-apparatus response far enough to establish that the difference reaches the recorded indication. PHY.9 constructs a missing coupling, reference or readout; C.16.MR represents the resulting measurement relation. A detector that clips both predictions to the same indication cannot implement their proposed separation.
 
-Account for feasibility through the parts that can change this design. Available force, pulse duration, preparation time or observation range can rule out a proposed contrast or leave it conditional. An established apparatus or supplied capability can settle those questions without rebuilding its justification. If the required operation remains unavailable, return that specific limit or choose another contrast.
+Account for feasibility through the parts that can change this design. Available force, pulse duration, preparation time or observation range can rule out a proposed contrast or leave it conditional. Applicable evidence about an existing apparatus or available capability can settle those questions. If the required operation remains unavailable, return that specific limit or choose another contrast.
 
 Use a reference or control for a named alternative explanation. A no-drive comparison can reveal an offset; a reference pulse can bound a control error. Add it when the result can change the interpretation.
 
@@ -2292,7 +2292,7 @@ Reuse a result for the preparation, response range and question it supports. A s
 
 Return the interpreted result and the physical reason for the next move. This may be use of a sufficient account, a narrower parameter range, an added interaction, a different preparation or readout, or an unresolved difference that the work can tolerate.
 
-Develop a subsequent test from what remains unresolved. One outcome can identify which regime, hidden state or control error matters next. Sequential design can exploit that information, but a complete sequence need not be invented when one comparison already supplies the useful result.
+Develop a subsequent test from what remains unresolved. One outcome can identify which regime, hidden state or control error matters next. Sequential design can exploit that information, while a single comparison can suffice for the immediate question.
 
 When a revision changes the physical account, propagate it to the mathematical formulation, computation and interpretation that depend on it. Use B.5.RR and B.5.MPC.R for the corresponding reasoning and cross-contribution revision.
 
@@ -2306,7 +2306,7 @@ A specimen moves through the same fluid at an imposed positive speed v. In the p
 
 At v=1 m/s, an earlier calibrated force comparison places the true drag between 0.95 and 1.05 N. Thus L permits b between 0.95 and 1.05 N·s/m, while Q permits c between 0.95 and 1.05 N·s²/m². Both explain that observation.
 
-A repeat at the same speed leaves this disagreement intact. Instead impose v=2 m/s while retaining specimen geometry and the fluid conditions on which the coefficients depend. L predicts a force between 1.9 and 2.1 N; Q predicts between 3.8 and 4.2 N. With an additional bounded force-readout error of ±0.1 N, the possible indications lie in [1.8,2.2] N and [3.7,4.3] N. They are disjoint.
+At 1 m/s the two laws allow the same range of forces. Repeating the measurement at that speed may narrow the coefficient estimates, but it cannot distinguish the two laws. Impose v=2 m/s while retaining specimen geometry and the fluid conditions on which the coefficients depend. L predicts a force between 1.9 and 2.1 N; Q predicts between 3.8 and 4.2 N. With an additional bounded force-readout error of ±0.1 N, the possible indications lie in [1.8,2.2] N and [3.7,4.3] N. They are disjoint.
 
 The drive and readout must sustain that comparison. Under Q the required mechanical power can reach 8.4 W, since P=Fv. A 5 W drive cannot establish the proposed steady speed for every admitted Q response. A 10 W drive at that speed can meet this particular power demand, while its other operating limits remain relevant.
 
@@ -2328,7 +2328,7 @@ Now suppose the held-voltage current is 0.6 mA, while the earlier ramp still has
 
 `I=G V+C dV/dt`.
 
-The hold gives G=0.3 mS. Substitution into the ramp relation `G+C/tau=1 mS` gives C=1.4 mF. The test has opened a physically different account in which conduction and storage coexist. These two records determine its two parameters under the stated idealization; they do not establish that this account suffices at every frequency or voltage.
+The hold gives G=0.3 mS. Substitution into the ramp relation `G+C/tau=1 mS` gives C=1.4 mF. The test has opened a physically different account in which conduction and storage coexist. Under this idealization the two records determine the two parameters. Applying the fitted parallel model at other frequencies or voltages requires grounds for that range.
 
 The resulting distinction changes use. A continuously held voltage dissipates power through the conductance, while the capacitance stores charge and supplies a transient response. Subsequent pulse or frequency use can therefore ask a question that the original exponential ramp could not resolve.
 
@@ -2348,13 +2348,13 @@ For Gamma=10 s⁻¹ and tau=0.1 s, the predicted refocused signals are 1 and app
 
 A physical pulse has finite duration, range and accuracy. Its response over the occupied frequency range, other relaxation during the sequence and readout error must be included where they can change this separation. For illustration, if their combined effect on each predicted normalized signal is bounded by 0.05, the predicted indication intervals around 1 and 0.135 remain disjoint. This bound is a condition of that proposed implementation, not supplied by the ideal calculation.
 
-If the pulse cannot refocus a consequential part of the ensemble, a small return can have that cause as well as irreversible dephasing. Change the pulse or reference comparison, retain its bounded effect, or leave the interpretation conditional. A partial echo can also motivate an account with both static variation and changing noise. The performed comparison then guides which hidden dynamics to retain.
+If the pulse cannot refocus a consequential part of the ensemble, a small return can have that cause as well as irreversible dephasing. Change the pulse or reference comparison, retain its bounded effect, or leave the interpretation conditional. A partial echo can also motivate an account with both static variation and changing noise. If the comparison is performed, its result can guide the choice of hidden dynamics to retain.
 
 ### PHY.10:6 - Bias-Annotation
 
 The cases use controlled laboratory comparisons and idealized response laws. Astronomical, geological and other field questions can require naturally available contrasts whose backgrounds cannot be independently fixed. The relevant physical premises must then support the observational comparison.
 
-A finite candidate set can exclude a useful account before the test begins. A result inconsistent with every candidate, or a new physical dependence exposed by the experiment, can justify developing the set. It need not become a competition among the original labels.
+A finite candidate set can exclude a useful account before the test begins. A result inconsistent with every candidate, or a new physical dependence exposed by the experiment, can justify developing the set.
 
 ### PHY.10:7 - Conformance Checklist
 
@@ -2399,9 +2399,9 @@ For the drag comparison, the disjoint force ranges give a sufficient design with
 
 [Vezvaee et al., *Fourier transform noise spectroscopy*](https://www.nature.com/articles/s41534-024-00841-w), npj Quantum Information (2024), develops noise reconstruction from free-induction and spin-echo measurements. The adopted physical contribution is changing how a prepared probe couples to temporal structure. The paper's spectral reconstruction relies on its pure-dephasing and stationary Gaussian-noise setting; those assumptions are not imposed on the Lorentzian static-offset construction in :5.3.
 
-For a noise question within that setting, the paper compares reconstruction from simple sequences with methods requiring many pulses. It also exposes different limitations: finite pulse timing, a restricted accessible frequency range and sensitivity of time derivatives to measurement error. Choosing more elaborate control is therefore not a general improvement. The simpler sequence can be sufficient for the needed distinction, while a different noise or control question calls for another method.
+For a noise question within that setting, the paper compares reconstruction from simple sequences with methods requiring many pulses. It identifies limitations including finite pulse timing, a restricted accessible frequency range and sensitivity of time derivatives to measurement error. The simpler sequence can be sufficient for the needed distinction, while a different noise or control question calls for another method.
 
-The three numerical cases are constructed comparisons under stated physical laws. Their purpose is to exhibit the changed preparation, response and interpretation. New physical effects or apparatus limits change the corresponding case premises.
+The three numerical cases are constructed comparisons under stated physical laws. Each gives the response and interpretation for a specified change of preparation. New physical effects or apparatus limits change the corresponding case premises.
 
 ### PHY.10:12 - Relations
 
@@ -2429,7 +2429,7 @@ The first useful result is a necessary condition on the requested performance, a
 
 You need a working description of the requested effect, the resources and surrounding systems it may use, and the physical principles relevant to that effect. A qualitative argument can suffice. A quantitative result also needs the quantities and mathematical operations in its chosen comparison. The two worked cases require different preparation: energy exchanges and elementary ratios in the first, state vectors and inner products in the second. Obtain an unfamiliar physical premise or calculation from a suitable source or collaborator and retain the conditions on which its answer depends.
 
-When an established bound already answers the same question under the same physical conditions, apply it directly. A measurement of a particular device, estimation of an unknown parameter and design of a mechanism have their own methods. Return here when their result changes the allowed transformation or the reach of a physical restriction.
+When an established bound answers the same question under the same physical conditions, apply it directly. A measurement of a particular device, estimation of an unknown parameter and design of a mechanism have their own methods. Return here when their result changes the allowed transformation or the reach of a physical restriction.
 
 ### PHY.3:2 - Problem
 
@@ -2465,11 +2465,11 @@ The result is a physical transformation with its allowed side effects and input 
 
 Select the physical account that connects the requested change with a conserved quantity, an ordered change, a preserved relation or another necessary condition. State its regime and the systems to which it applies. A local balance law can require a larger boundary when something crosses it; a law for a closed process can require explicit surroundings when the proposed device exchanges matter or information.
 
-Explain why every device in the proposed conclusion admits the chosen description. MMP.10:4.4 supplies this coverage requirement. Physically, it can mean including a reservoir and its controller, representing an unobserved auxiliary, or admitting all interactions allowed by the theory instead of only one circuit. Restrict the conclusion to the designs described if this coverage remains incomplete.
+Explain why every process or device covered by the conclusion admits the chosen description. MMP.10:4.4 supplies this coverage requirement. Physically, it can mean including a reservoir and its controller, representing an unobserved auxiliary, or admitting all interactions allowed by the theory instead of only one circuit. Restrict the conclusion to the processes or devices described if this coverage remains incomplete.
 
-An enlargement of the allowed class can make exclusion easier: if even a class with additional resources cannot realize the requested transformation, its contained class cannot do so. Show that containment. An approximation chosen because it is easy to calculate does not automatically give such an enlargement; it can remove a coupling or noise source that changes what is possible. When only an approximate account is justified, propagate a suitable error allowance or retain a conditional result at that model's stated scope.
+An enlargement of the allowed class can make exclusion easier: if even a class with additional resources cannot realize the requested transformation, its contained class cannot do so. Show that containment. An approximation chosen because it is easy to calculate need not give such an enlargement; it can remove a coupling or noise source that changes what is possible. When only an approximate account is justified, propagate a suitable error allowance or retain a conditional result at that model's stated scope.
 
-Use B.5.TU to recover the physical theory's premise and its consequence for the case. The output of this step is the applicable restriction and the reason it covers the proposed physical class. Further measurement is useful only if its possible result changes that premise or the next choice; C.11.DUA helps resolve a consequential uncertainty about that effort.
+Use B.5.TU to recover the physical theory's premise and its consequence for the case. State the applicable restriction and why it covers the processes or devices to which the conclusion applies. Further measurement is useful only if its possible result changes that premise or the next choice; C.11.DUA helps resolve a consequential uncertainty about that effort.
 
 #### PHY.3:4.3 - Construct a comparison that exposes the restriction
 
@@ -2477,7 +2477,7 @@ Choose the operation that fits the available physical structure. The following t
 
 **Compose with a reference and cancel selected changes.** Use this when an admitted reference process exchanges the relevant quantities or restores a needed condition. Choose the part of the proposal you want to eliminate from the combined account, then determine the reference's direction, amount and preparation that match it. Establish that the reference can perform that operation under the same connecting conditions. For example, two processes may exchange equal energy but require incompatible temperatures, pressures, phases or forms of delivery. Numerical equality alone cannot establish the physical connection.
 
-Combine the proposed and reference operations, including their auxiliaries. Cancel only the matched exchanges or restored states; keep all remaining changes. C.29.BB supplies the accounting for additive quantities. Apply the physical restriction to the composite. If it would have a prohibited net effect, derive the inequality or condition on the original proposal that avoids that effect. A reference may be an ideal process admitted by the theory; building it in a laboratory is unnecessary for this conditional argument. Using the inverse in an equation still requires a reason that the needed physical reverse process is admitted.
+Combine the proposed and reference operations, including their auxiliaries. Cancel only the matched exchanges or restored states; keep all remaining changes. C.29.BB supplies the accounting for additive quantities. Apply the physical restriction to the composite. If it would have a prohibited net effect, derive the inequality or condition on the original proposal that avoids that effect. A reference may be an ideal process admitted by the theory; building it in a laboratory is unnecessary for this conditional argument. To use the inverse in the physical comparison, show that the theory admits the required reverse process.
 
 **Compare inputs of the same operation.** Use this when one device must perform the requested transformation on a family of inputs and a physical law relates its actions on different inputs. Select inputs whose relation can expose the limitation. Write their proposed outputs, including allowed auxiliary outputs, while holding fixed the device and its input-independent preparation. Derive the relation the law requires between those outputs. If the requested outputs violate it, the common device cannot provide them under the stated conditions.
 
@@ -2489,7 +2489,7 @@ These constructions can reveal a remaining physical premise rather than a bound.
 
 Carry the quantities, signs, state conditions and input relations through the chosen comparison. Interpret each term by the physical contribution it represents. Check that the canceled effects have compatible units and conditions, and that the uncanceled effects describe the complete remaining process.
 
-Obtain the requested inequality, an excluded transformation, or the unresolved condition on which either result depends. When using a mathematical invariant, MATH.11 supplies the derivation from the admitted transformation rules. When a numerical tool performs the algebra, retain the symbolic relation or a sufficient explanation that lets another participant inspect what the computation establishes. C.29.2 and C.29.3 govern a computation whose formulation or realization needs further work.
+Obtain the requested inequality, an excluded transformation, or the unresolved condition on which either result depends. When using a mathematical invariant, MATH.11 supplies the derivation from the admitted transformation rules. When a computational tool performs the algebra, retain the symbolic relation or a sufficient explanation that lets another participant inspect what the computation establishes. C.29.2 and C.29.3 govern a computation whose formulation or realization needs further work.
 
 Distinguish a necessary bound from attainability. A proposed device can satisfy one physical restriction and still fail another, or approach a theoretical limit only as time or another resource grows. The useful output at this step says which candidates have been excluded, which remain under consideration, and which premise or construction controls the next question.
 
@@ -2497,7 +2497,7 @@ Distinguish a necessary bound from attainability. A proposed device can satisfy 
 
 Return the physical consequence in the terms of the working question. For a proposal outside the bound, identify a consequential change: supply a previously forbidden resource, allow a side effect, narrow the input family, relax precision or reliability, or change the condition for reuse. Derive the affected comparison again for the chosen change. Keep the original result for its original premises.
 
-When the obstruction disappears, continue with a mechanism, an approximation or another limiting principle. PHY.2 can help construct a physical analogue for that inquiry; PHY.1 supplies physical similarity if transferring between regimes is the next difficulty. If the new question concerns an unfamiliar mathematical construction, obtain that contribution from Mathematical Thinking. B.5.MPC helps divide and reconnect those contributions across people and AI agents.
+When the obstruction disappears, the next question may require a mechanism, an approximation or another limiting principle. PHY.2 can help construct a physical analogue for that inquiry; PHY.1 supplies physical similarity if transferring between regimes is the next difficulty. If the new question concerns an unfamiliar mathematical construction, obtain that contribution from Mathematical Thinking. B.5.MPC helps divide and reconnect those contributions among the contributors.
 
 Stop the present derivation when its result is sufficient for the next decision. Further information or a physical trial is a separate action whose value depends on what remains unresolved. A concise explanation of the compared transformation and controlling premise is enough when it allows the intended user to continue.
 
@@ -2509,7 +2509,7 @@ Stop the present derivation when its result is sufficient for the next decision.
 
 The physical preparation includes both reservoirs, the work store and restoration of the machine. It supplies no fuel, depleted auxiliary store or initially available nonthermal resource. The two temperatures are absolute thermodynamic temperatures. Energy balance gives 40 J rejected to the cold reservoir; that balance alone leaves the proposed output admissible.
 
-Use the classical second-law account for these conditions. Its Clausius restriction excludes a composite process whose only net effect is transfer of heat from the colder reservoir to the hotter one. An admitted reversible reference between these reservoirs has `eta_ref = 1 - 300/600 = 1/2` and can run backward. This is a theoretical reference; no claim of a finite-power reversible laboratory device is needed.
+Use the classical second-law account for these conditions. Its Clausius restriction excludes a composite process whose only net effect is transfer of heat from the colder reservoir to the hotter one. The theory admits a reversible reference between these reservoirs. It has `eta_ref = 1 - 300/600 = 1/2` and can run backward. The bound can be derived without constructing a finite-power laboratory device.
 
 Choose cancellation of the work exchange. A backward reference consuming the proposed 60 J extracts 60 J from the cold reservoir and delivers 120 J to the hot reservoir. The compatible exchanges combine as follows; positive entries increase the named store.
 
@@ -2529,7 +2529,7 @@ W <= eta_ref*Q_hot = (1 - T_cold/T_hot)*Q_hot.
 For the stated inputs: W <= 50 J.
 ~~~
 
-The practical result redirects the design question to work below this bound or to a change in the stated resources. It does not supply the design that attains a chosen value, its power or its operating cost.
+The practical result redirects the design question to work at or below this bound or to a change in the stated resources. It does not supply the design that attains a chosen value, its power or its operating cost.
 
 **Change the allowed physical operation.** Suppose the proposed device may also receive 20 J of external work. A forward reversible reference producing 40 J from 80 J of hot-reservoir heat, together with routing those 20 J through the work store, can supply 60 J gross output. The net work produced is 40 J. The denominator and net exchange must now reflect the actual question; this construction supplies no engine producing 60 J net work from the original 100 J alone. If exactly 100 J must still be taken from the hot reservoir, an admitted additional transfer of 20 J from hot to cold accounts for the remainder. The total cold-reservoir gain is 60 J, and both laws permit the resulting exchanges. The changed resource condition opens a construction rather than altering the earlier bound.
 
@@ -2548,7 +2548,7 @@ V(|a>|0>|e>) = |a>|a>|e_a>
 V(|b>|0>|e>) = |b>|b>|e_b>.
 ~~~
 
-The final auxiliary states are deliberately allowed to differ. Define `s=abs(<a|b>)`, with `0<s<1`, and `r=abs(<e_a|e_b>)`, with `0<=r<=1`. Taking inner-product magnitudes before and after the same isometry gives:
+The final auxiliary states may differ. Define `s=abs(<a|b>)`, with `0<s<1`, and `r=abs(<e_a|e_b>)`, with `0<=r<=1`. Taking inner-product magnitudes before and after the same isometry gives:
 
 ~~~text
 s = s*s*r.
@@ -2562,11 +2562,11 @@ This is a physical restriction on one operation across its input family. The mat
 
 **Change the input family.** Restrict it to the computational-basis states `|0>` and `|1>`, with a blank second qubit `|0>`. Controlled-NOT gives `|0>|0> -> |0>|0>` and `|1>|0> -> |1>|1>`. The same arrangement therefore copies every input in that restricted family. A different known orthogonal pair can first be mapped to that basis, copied, and mapped back on both outputs.
 
-**Change the performance instead.** If failed runs may be discarded, the accepted operation is conditioned on an outcome and the all-runs argument no longer directly characterizes its normalized successful output. One must specify the allowed input set, success probability and failure output, then derive their restrictions. Allowing imperfect copies likewise changes the output relation and requires an accuracy question. The present result identifies why either revised problem differs; it supplies no unexamined claim that a desired success rate or accuracy is achievable.
+**Change the performance instead.** If failed runs may be discarded, the accepted operation is conditioned on an outcome and the all-runs argument no longer directly characterizes its normalized successful output. One must specify the allowed input set, success probability and failure output, then derive their restrictions. Allowing imperfect copies likewise changes the output relation and requires an accuracy question. Whether a particular success rate or accuracy is achievable requires an argument for that revised performance criterion.
 
 ### PHY.3:6 - Bias-Annotation
 
-The method corrects two live errors: treating one device's failure as a prohibition on every mechanism, and applying a quoted prohibition after its resource or input conditions have changed. Its own principal risk is selecting a convenient physical description that omits an allowed device or contribution. Keep the coverage argument next to the conclusion and use a changed-condition return to expose what the result actually depends on.
+The method corrects two live errors: treating one device's failure as a prohibition on every mechanism, and applying a quoted prohibition after its resource or input conditions have changed. Its principal risk is selecting a convenient physical description that omits an allowed device or contribution. Keep the coverage argument next to the conclusion and use a changed-condition return to expose which premises the result depends on.
 
 The worked proofs assume established classical thermodynamics and standard quantum operations in their stated regimes. Their conditional strength should remain visible when a research question concerns the adequacy of those theories themselves. A formal contradiction identifies incompatible premises; it does not choose by itself which empirical premise to revise.
 
@@ -2574,10 +2574,10 @@ The worked proofs assume established classical thermodynamics and standard quant
 
 - [ ] The requested physical effect includes its input family, performance criterion and relevant preparation.
 - [ ] Consumed resources, surrounding systems and any required restoration or continued capability are included where they affect the restriction.
-- [ ] The selected physical account has a stated regime and a reason to cover the device class in the conclusion.
+- [ ] The selected physical account has a stated regime and a reason to cover every process or device to which the conclusion applies.
 - [ ] The comparison uses compatible admitted reference operations, or the same operation on inputs linked by the physical law.
 - [ ] The derivation retains uncanceled changes and allowed auxiliary outputs.
-- [ ] The result distinguishes the derived necessary condition or exclusion from the still-needed realization.
+- [ ] The result states what the derivation excludes or what condition a proposed mechanism must satisfy. Any claim that a mechanism can deliver an allowed performance has its own grounds.
 - [ ] The explanation shows which changed premise would require another derivation and what the current result enables next.
 
 ### PHY.3:8 - Common Anti-Patterns and How to Avoid Them
@@ -2608,13 +2608,13 @@ An ideal reference helps bound real proposals when its admitted operations and t
 
 **Reversible-reference comparison.** [David Tong, Statistical Physics, §4.3.1-4.3.2](https://davidtong.org/pdfs/teaching/statistical-physics/statphys4.pdf) gives the established Carnot comparison and the thermodynamic temperature ratio. It is a historical methodological anchor for composing processes and canceling exchanges. The pattern uses the construction beyond a particular working substance.
 
-**Input comparison with auxiliaries.** [Peter Shor, Quantum Computation, lecture 5](https://math.mit.edu/~shor/18.435/oldlectures/lecture5.html) presents the no-cloning comparison and explicitly includes an input-dependent ancillary output. The present worked case spells out the total-process interpretation, overlap bound and changed-input return. The classical thermal and quantum arguments exemplify different physical restrictions and different comparison operations.
+**Input comparison with auxiliaries.** [Peter Shor, Quantum Computation, lecture 5](https://math.mit.edu/~shor/18.435/oldlectures/lecture5.html) presents the no-cloning comparison and includes an input-dependent ancillary output. The present worked case spells out the total-process interpretation, overlap bound and changed-input return. The classical thermal and quantum arguments exemplify different physical restrictions and different comparison operations.
 
 **Resource conditions in current thermodynamics.** [Aguilar and Lutz, Correlated quantum machines beyond the standard second law, version 2 (2025)](https://arxiv.org/html/2409.07899v2) analyzes initial correlations, nonthermal resources, interaction energy and changes remaining after a driving cycle. These contributions explain why a reservoir-only efficiency claim can need a different account. Its microscopic assumptions determine where its generalized expressions can be used.
 
 **One occurrence and repeatable performance.** [Marletto, Deutsch and Vedral, Tests of constructor theory (2026), §1.4 and §3.2](https://arxiv.org/html/2606.07352v1) develops the distinction between an allowed evolution and a device able to repeat a specified transformation, including the difference between reversing dynamics and supplying a reusable inverse operation. The pattern adopts that problem distinction. The article's new constructor-theoretic principles are research proposals with their own tests; they are unnecessary premises for the two established arguments above.
 
-The synthesis selects operations for constructing a physical limitation and reopening it under changed conditions. A new account of the permitted operations, an omitted resource or a changed performance condition is a reason to revisit the affected argument and its source premises.
+The two comparisons use the restrictions supplied by their respective physical theories. Select a comparison suited to the permitted operations and the change in question. A new account of the permitted operations, an omitted resource or a changed performance condition is a reason to revisit the affected argument and its source premises.
 
 ### PHY.3:12 - Relations
 

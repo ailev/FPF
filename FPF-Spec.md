@@ -206,7 +206,7 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | A.8 | **Universal Core Principle: Test a U-Kind Across Domains** | Stable | *Keywords:* universality, transdisciplinary, domain-agnostic, kernel-level U-kind admission. *Queries:* "How does FPF test whether a U-kind belongs in the universal core?" | **Builds on:** E.24.UK, A.11, C.3, F.8, F.18. **Constrains:** kernel-level durable U-kind candidates. |
 | A.9 | **Choose and Check an Aggregation Law for the Intended Result** | Stable | *Keywords:* aggregation law, intended result, dependency model, ordered composition, singleton identity, bounds, cross-scale consistency. *Queries:* "Which operation answers this aggregation question?", "May I reorder or regroup these inputs?" | **Coordinates with:** B.1, B.2, C.29, A.19.CN, A.19.ULSAM. |
 | A.10 | **Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph** | Stable | *Keywords:* relied-on claim, bounded use, claim/result episteme, source publication, carrier, dated work, direct relation, evidence-provenance path, currentness, rival explanation, `RelianceDisposition`, unsupported overread, actual-use relation. *Queries:* "What exact claim and bounded use does this source, carrier, credential, dashboard, generated explanation, or review note support?", "How do I recover sources, carriers, work, local result, result episteme, provenance, currentness, bounded reliance, and actual use without letting a path edge create facts?", "When should first-use classification stay in A.2.4, representation go to C.29, or assurance go to B.3?" | **Builds on:** C.2.1, E.17, A.15.1, A.6.1; A.15.PROD when inception is current. **Coordinates with:** A.2.4, G.11, C.29, B.3, C.16, C.28, A.19, G.4, C.11, A.21. |
-| A.10.1 | **Revalidate Affected Uses When a Relied-on Source Changes** | Stable | Use when a relied-on source claim changes and its receivers are not fully known: state the material claim change and search frame, search from source and receiver sides, confirm actual dependence, and apply the relevant direct subject guidance only across action-changing reach while keeping coverage gaps visible. A compatible reference repair or sufficient direct result can finish without a second account; a no-impact claim still needs adequate coverage and support. Use A.10 for one known bounded reliance use; use G.11 for currentness or refresh. | **Builds on:** C.2.1, A.10, A.11. **Coordinates with:** G.6, G.11, E.15, B.3, and direct evidence, truth, causal, choice, authority, permission, gate, release, planning, and Work patterns. |
+| A.10.1 | **Revalidate Affected Uses When a Relied-on Source Changes** | Stable | Use when a relied-on source claim changes and several receiving uses need revalidation or some uses must be found. State the material claim change and frame, search from both directions where uses need discovering, confirm direct dependence, and apply the relevant subject guidance where the change could alter a conclusion, its conditions, a required check or an action. Keep coverage gaps visible. A compatible reference repair or sufficient direct result can finish without a second account. A no-impact claim still needs adequate coverage and support. Use A.10 for one known bounded reliance use. Use G.11 for currentness or refresh. | **Builds on:** C.2.1, A.10, A.11. **Coordinates with:** G.6, G.11, E.15, B.3, and direct evidence, truth, causal, choice, authority, permission, gate, release, planning, and Work patterns. |
 | A.11 | **Ontological Parsimony** | Stable | Tests one proposed durable ontology addition against the best existing governed expression, bounded overlap, action-facing contribution, and nearest excluded case for the exact receiving use and facts. Relation-kind candidates keep the exact `A.6.P` / `A.6.RCD` outcome. *Queries:* "What existing governed expression already carries this claim or use?", "What exact loss and boundary justify the addition?" | **Builds on:** E.24.UK, A.6.P, A.6.RCD, A.8, C.3, F.8, F.18. **Constrains:** new core-concept, durable U-kind, and relation-kind proposals. |
 | A.11.OP | **Decision-Relevant Least Action and Operational Parsimony: Test a Proposed Requirement** | Stable | Screen a proposed mandatory action or apparatus for a substantive decision, selected result, or relied-on assurance or recovery contribution within a named horizon. Contribution alone does not establish obtainability, worth or an obligation; complete the live demand or choice question through its direct owner. | **Companion to:** A.11. **Coordinates with:** C.11.DUA, C.11, E.11.PUA, E.11.PUR, C.19.2, E.13, E.23, and the direct Method, Work, reliance, assurance, and authority owners named in its Relations. |
 | A.12 | **Acting-Side Externalization and Reflexive Split: Identify Who Acts on What** | Stable | Name the proposed acting participant and the subject claimed to change. Use A.12's precise account when their identities or a particular System, change, Work or evidence claim matters. Keep the changed subject's identity rule; recognize the same acting entity as a System only under A.1; apply the direct rule for each participation, assignment, A.3.4 transformation, Method, Work, evidence, crossing or parthood claim. For an internal-parts reading, use Reflexive Split only when two distinct entity parts have independently obtaining part relations to one containing holon; for a document case, choose carrier change, episteme edition, or relation-occurrence change before filling singular positions. *Queries:* "Which exact referent continues as the changed subject?", "Which exact entity occupies the acting side, and has A.1 recognized it as a system?", "Which participation, assignment, transformation, Work, evidence, crossing, or part relation independently obtains?" | **Builds on:** A.1, A.2.1, A.2.7, A.3.4. **Coordinates with:** A.1.1, A.2.6, A.6.RCD, A.7, A.10, A.14, C.13, A.15, A.15.1, F.6, C.2.1, E.17, E.24.PUB, and B.2.5. |
@@ -2228,7 +2228,11 @@ The architectural decision is to share the explained relations whose use survive
 
 People from different disciplines may use the same word for different objects in their work, or different words for the same object. They may also rely on different forms of proof, measures of quality and grounds for action.
 
-FPF treats transdisciplinarity as a meta-theory of thinking: it guides reasoning across traditions while preserving their local meanings.
+In FPF, transdisciplinary reasoning supplies distinctions and methods that a practitioner can use inside different disciplines. One discipline can use them on its own. Ontology can examine the types a field uses, logic the warrants for its inferences, and methodology the ways it obtains results and divides the work. These inquiries may draw on one another. A teaching sequence for them alone establishes neither a hierarchy of types nor a part–whole relation. Ask what the discipline needs to distinguish, which conclusion the distinction warrants and what operation would obtain the required result. The discipline supplies the evidence, techniques and criteria appropriate to its subject.
+
+For instance, distinguish a reusable procedure, a performance and what that performance establishes. In metrology this can lead to a decision about the measurement of a particular instrument. In mathematics it can lead to a decision about the validity of an inference in a particular calculus. The distinction guides both inquiries. The rules that justify a measurement and a proof come from their respective disciplines.
+
+Interdisciplinary work connects contributions from different disciplines to obtain a joint result. Identify what each discipline supplies, how another can use it and which conditions of interpretation or acceptance matter at that connection. A group can use transdisciplinary reasoning to achieve this integration. C.20 explains what makes knowledge and reproducible practice a discipline. C.39.WA:4.3 and F.0.2:4.6 explain how to carry a distinction into a method and how to test a change of scope. In systems engineering, the 2019 INCOSE Fellows report discusses both aspects of the work. [Systems Engineering and System Definitions, pp. 5–6](https://www.incose.org/wp-content/uploads/legacy/default-document-library/incose-se-definitions-tp-2020-002-06.pdf#page=5)
 
 Establish a term’s meaning in its source context before using it elsewhere. A term sheet can align senses while retaining their local differences. A bridge can say how meanings correspond, where they lose structure and what cannot be transferred. A comparison states the criteria and grounds needed for its claim. A mathematical lens can reveal shared structure while stating what it preserves and what it loses.
 
@@ -27966,7 +27970,7 @@ Worked source-overread slices:
 
 #### A.10:4.6c - Route a Changed Claim Across Several Actual Receiving Uses
 
-Use `A.10.1` when a later or replacement source may materially change a claim and the receiving uses must still be found across a bounded frame or closed across several actual uses. `A.10` continues to govern each one-use source-to-use account, direct-use relation, and `RelianceDisposition`. Applying `A.10.1` bounds the receiving-use search frame, states source-outward and receiver-oriented coverage and gaps, classifies found candidates as `depends`, `mentions only`, or `unresolved`, and prepares only action-changing `depends` branches for application of their direct subject-pattern guidance.
+Use `A.10.1` when a later or replacement source may materially change a claim and the receiving uses must still be found across a bounded frame or closed across several actual uses. `A.10` continues to govern each one-use source-to-use account, direct-use relation, and `RelianceDisposition`. Applying `A.10.1` bounds the receiving-use search frame, states source-outward and receiver-oriented coverage and gaps, classifies found candidates as `depends`, `mentions only`, or `unresolved`, and identifies the `depends` branches that need subject judgment. This includes a conclusion whose scope may change while the decision stands.
 
 If one already-known bounded reliance use is the whole question, apply `A.10` and the direct subject guidance. A citation, carrier, declared edge, or graph-reachable node does not become affected merely because the source changed. The completed A.10.1 account cites each independently obtained subject result afterward; it neither replaces that result nor changes A.10's disposition set.
 
@@ -28103,25 +28107,25 @@ Recover the mathematical correspondence and application conditions on which the 
 
 **Normativity.** Normative unless a passage is marked informative.
 
-> **One-sentence summary.** When a relied-on source claim changes and its receiving uses are not yet fully known, bound where uses count, search from both source and receiver sides, confirm actual dependence, and apply direct subject guidance only across action-changing reach; finish with the useful direct result and its material limits, adding a common account only for a receiving use that needs it.
+> **One-sentence summary.** When a relied-on claim changes, identify which uses count for the question, look for any that still need to be found, and follow direct uses as far as the change could alter what a receiver can conclude or do. Return each subject result with its limits.
 
 ### A.10.1:1 - Problem Frame
 
 Use this pattern when a claim-bearing source has been revised, replaced, refined, superseded, or challenged and the practical question is not merely whether the source is current, but which existing results or actions relied on the changed claim.
 
-The primary `EntityOfConcern` is the bounded source-to-use structure: the changed claim and the direct use relations through which receiving results, decisions, specifications, plans, or actions depended on it. The practitioner is not asked to know every receiving use in advance. The first move is to state the source comparison and the present decision that bounds where a receiving use would count.
+The primary `EntityOfConcern` is the bounded source-to-use structure: the changed claim and the direct use relations through which receiving results, decisions, specifications, plans, or actions depended on it. The practitioner is not asked to know every receiving use in advance. The first move is to state the source comparison and the question that determines which receiving uses count.
 
-**First useful move.** Compare source episteme `S0` with later or replacement episteme `S1` for the present question `Q`. Establish the action-relevant claim difference or name what prevents that comparison.
+**First useful move.** Compare source episteme `S0` with later or replacement episteme `S1` for the present question `Q`. Identify what changed in the claim or its applicability for `Q`, or state what prevents that comparison.
 
 When relevant meaning, applicability and access remain compatible, a repaired reference can be the completed result. It needs no multi-use search or additional subject-result record. A new URL, file, layout, revision label, carrier, or publication occurrence alone establishes no material claim change. Missing claim content or access leaves a scoped gap rather than establishing unchanged meaning.
 
-When a material change makes several receiving uses worth discovering, state:
+When a material change warrants revalidating several uses or finding additional ones, state:
 
 > The material claim change is `ΔC`. Uses count for question `Q` within search frame `F`; the first known coverage limits are `G`.
 
 **What goes wrong if missed.** One team replays every analysis because a version changed. Another preserves every result because the represented world did not change. A third follows citations or graph edges and calls every reachable item affected while missing an undeclared use of the premise. All three replace actual reliance with a proxy.
 
-**What this buys.** The practitioner can finish with a repaired reference, a qualified subject result, or a scoped limit. When a common receiving question needs an affected-use account, it remains local, replayable, and bounded by its coverage. Inspected unaffected uses remain usable for their stated conditions; unresolved reliance and inaccessible surfaces bound the conclusion. Only `depends` branches enter the subject judgment, and reach stops at the last receiving action that can change.
+**What this buys.** The practitioner can finish with a repaired reference, a qualified subject result, or a scoped limit. When a common receiving question needs an affected-use account, it remains local, replayable, and bounded by its coverage. Inspected unaffected uses remain usable for their stated conditions; unresolved reliance and inaccessible surfaces bound the conclusion. Apply the subject rule to uses classified as `depends`. Follow each branch through the last use whose conclusion, conditions, required checks or actions could change.
 
 **Not this pattern when.**
 
@@ -28132,7 +28136,7 @@ When a material change makes several receiving uses worth discovering, state:
 - Use the direct subject pattern for a world-side change with no source change; examples include a changed sensor, market, organization, configuration, or situation affecting a law's applicability.
 - Use the direct subject pattern for the judgment or action needed after discovering an affected use. Section 4.5 identifies the governing contributions for those questions.
 
-**What changes in practice.** A source change no longer means “redo everything” or “update the link.” The team first establishes whether claim content changed or names the missing fact. If affected-use discovery is needed, it states where uses count and how that area was searched, confirms reliance in receiving content, and revalidates only the smallest action-changing branch. A sufficient direct result closes its receiving question.
+**What changes in practice.** The team compares the claims and identifies any missing evidence. If it needs to find affected uses, it states which uses count, searches for them, and checks reliance in the receiving content. It then applies the relevant subject guidance where the changed claim could alter a conclusion or action. A sufficient direct result closes its receiving question.
 
 ### A.10.1:2 - Problem
 
@@ -28143,7 +28147,7 @@ The cheapest apparent boundaries are therefore unreliable:
 1. a file or edition label says too little about changed meaning;
 2. a citation, mention, link, carrier, adjacency, or graph path says too little about actual reliance;
 3. a repository search says too little about surfaces it could not inspect;
-4. transitive reach says too much when no downstream action can change; and
+4. stopping at the last changed action can miss a conclusion that needs revision, while following every link can reach results that never used the changed claim, and
 5. a local revalidation summary says too little about the subject result that justified it.
 
 Without a bounded search frame, “no affected use found” can silently mean “we searched one convenient repository.” Without application of direct subject guidance and an independently obtained subject result, “preserved” or “reopened” becomes an ungoverned universal status. The method must make both errors visible without turning every source change into a corpus-wide programme.
@@ -28168,10 +28172,10 @@ Use the outline in 4.1 to locate the current move; sections 4.2–4.7 give its c
 
 1. **Start from the changed source, not a presumed receiver.** Name the predecessor and later or replacement source epistemes, the claim set whose change may matter, and the present question that bounds the search. Leave source identity, edition continuity, access, or applicability unresolved when the required fact is missing.
 2. **Compare claims rather than files.** Separate changes in proposition, subject, scope, applicability, assumptions, limits, evidence status, and effective conditions from wording, layout, publication, carrier, and revision-label changes. If comparison establishes compatible meaning, applicability and access, finish with any needed reference repair. If comparison cannot establish them, return the material gap; neither branch requires a multi-use search merely to record its stop.
-3. **Select a receiving-use search frame.** Use the search-frame fields in 4.3 to state where a receiving use would count for the present question.
-4. **State reproducible discovery coverage.** Name the source identifiers, aliases and claim addresses needed; the included search surfaces; the source-outward and receiver-oriented routes; and each known unsearched, inaccessible, stale, unindexed or identity-ambiguous surface within the frame.
-5. **Discover and then name candidate receiving uses.** Use search, citations, lineage, traces, indexes, owner knowledge, or tools to find candidates. Inspect the receiving content and recover the premise, evidence-use, operation-argument, specification, decision-basis, or other direct relation. Discovery alone establishes no reliance.
-6. **Classify and bound reach.** Distinguish actual dependence, irrelevant mentions and unresolved uses within the searched frame. Group equivalent irrelevant mentions when one inspected reason covers them. Retain the direct-use basis and gaps that can change the receiving conclusion, without a separate exclusion record for each mention. Follow a `depends` branch only through another use relation while a receiving action can change. Supply the discovery-and-reach content needed by each subject judgment.
+3. **Bound the receiving uses.** State which uses count for the question. If the question concerns named uses, identify them. If you rely on a list to cover a wider frame, establish what makes it complete for that frame. Use the search-frame fields in 4.3 when some uses must still be found.
+4. **State discovery coverage where you search.** Name the source identifiers, aliases and claim addresses used, the included surfaces, the source-outward and receiver-oriented routes, and any material gap in coverage.
+5. **Inspect candidate receiving uses.** Start with the identified uses. Where others must be found, use search, citations, lineage, traces, indexes or relevant practitioners’ knowledge. Inspect the receiving content and identify the premise, evidence use, operation argument, specification, decision basis or other direct relation through which it used the claim.
+6. **Classify and bound reach.** Distinguish actual dependence, irrelevant mentions and unresolved uses within the searched frame. Group equivalent irrelevant mentions when one inspected reason covers them. Retain the direct-use basis and gaps that can change the receiving conclusion, without a separate exclusion record for each mention. Follow direct uses while the changed premise could alter a conclusion, the conditions under which it holds, a required check or an action. Supply the discovery-and-reach content needed by each subject judgment.
 7. **Apply the direct subject pattern's guidance.** Use the discovery-and-reach statement to apply that guidance to the changed claim, direct use, current conditions, affected reach, coverage limits, and material subject facts. Applying that guidance may show that the proposed dependence must be narrowed or rejected or that stronger evidence is required.
 
    Use adequate existing evidence and return the supported subject result or its scoped blocker directly to its existing consumers. Further inquiry is selected for the receiving question; a discovery gap alone does not commission Work.
@@ -28235,7 +28239,7 @@ These discovery dispositions answer whether a found candidate belongs in the aff
 
 A citation, a present or missing trace, storage, indexing, carrier co-location, succession, ownership, declared dependency, graph reachability, or a shared keyword does not establish `depends`. A missing trace may be a discovery or coverage gap; it is not impact and it does not prove no impact. Conversely, an undeclared use can `depend` when the receiving content uses an equivalent premise.
 
-Follow a `depends` branch only through another direct use relation. Stop before a downstream item whose action, condition, result, or required check cannot change. The affected reach is the smallest dependency-closed structure that contains every in-frame use that can change an action; it is not every transitively reachable node.
+Follow a `depends` branch through direct use relations. At each receiver, substitute the changed claim for the premise it used. Could that change the result the receiver can support, the conditions under which it holds, a required check or an action? Include that use and apply its subject guidance. A decision can stand while the grounds or limits reported for it need revision. Stop before the next use when the change can no longer affect what that use supports or requires. The affected reach comprises these branches within the stated search frame.
 
 For a branch that needs subject judgment, supply the following discovery-and-reach content at the detail required by its receiver. It may already be present in the direct result; no second statement is needed:
 
@@ -28244,7 +28248,7 @@ For a branch that needs subject judgment, supply the following discovery-and-rea
 | Source change | Predecessor and later or replacement epistemes; material claim difference; unresolved identity, edition, or applicability facts. |
 | Search and coverage | Present question, bounded frame, included surfaces, source-outward and receiver-oriented routes, explicit exclusions, and known gaps. |
 | Direct use | Named receiving result or action, premise or other direct use relation, current conditions, and the evidence for `depends`. |
-| Reach and stop | Further receiving uses followed, last action that can change, `mentions only` and `unresolved` candidates relevant to the branch, and the stop reason. |
+| Reach and stop | Further uses followed, the last affected use on each branch, what could change there, and why the branch stops. Include `mentions only` and `unresolved` candidates when they matter to this judgment. |
 | Subject application and result | The direct subject pattern to apply, its needed current inputs, the independently governed subject result to obtain, and the existing consumer that should receive that result. |
 
 The statement is usable claim content for that subject judgment, not a new mandatory carrier or universal record. A table, list, matrix, or optional `G.6` path slice may present it; the representation establishes none of its relations.
@@ -28280,7 +28284,7 @@ Prepare a common account only when a receiving question needs an overview beyond
 | Source comparison | Source epistemes, relevant claim addresses and material change or gap. Include publication, carrier and access distinctions when they affect the conclusion. |
 | Search frame and coverage | The question, boundary, discovery basis and material limits of a search performed. Preserve enough to judge any no-impact claim at its stated scope. |
 | Candidate uses | Direct-use bases for affected branches and unresolved candidates that limit the conclusion. Equivalent irrelevant mentions may share one short exclusion reason. |
-| Action-changing reach | The dependent branch, last action that can change and why reach stops there. |
+| Affected reach | The direct uses on each affected branch, what could change at the last affected use, and why the branch stops there. |
 | Subject applications and results | The subject result and its governing contribution, with the conditions and existing receiver material to this overview. |
 | Local summaries | The supported use consequences that the receiver needs, with the cited subject basis. |
 | Reuse and continuation | Earlier values and inspected independent results needed for reuse; material gaps and any continuation or reopen condition the receiving use needs. |
@@ -28297,7 +28301,7 @@ Close the branch that answers the present question:
 | --- | --- |
 | Compatible meaning, applicability and access; only a reference or carrier changed | Complete the needed reference repair. No affected-use search, separate subject-result record or common account follows merely to certify that stop. |
 | A claim of no impact within a receiving-use frame | Supply a bounded frame, adequate discovery coverage and the actual-use basis supporting that claim. Equivalent irrelevant mentions may be grouped. Missing coverage limits the claim; absence of a search hit alone does not establish no impact. |
-| Affected uses need subject judgment | Return their independently governed supported results or scoped blockers with the direct dependence, action-changing reach and material coverage limits. Finish independent resolved branches. A common summary follows only when its receiver needs it. |
+| Affected uses need subject judgment | Return their independently governed supported results or scoped blockers with the direct dependence, affected reach and material coverage limits. Finish independent resolved branches. A common summary follows only when its receiver needs it. |
 | Comparison, dependence, access or subject qualification remains unresolved | Return the gap and its effect on current use. Preserve independently supported results. Name further Work only when it is needed and selected for the receiving question. |
 
 Retain the history and reasoning needed to reuse the result. State who must receive an unresolved action question or what would reopen a continuing use when that information changes practice; a completed small repair need not create a monitoring arrangement.
@@ -28318,7 +28322,7 @@ The source-outward route follows exact E2 references and established traces. The
 
 - the thermal-model parameter bound `depends`;
 - the cold-start test condition `depends`;
-- the safety claim's use of evidence produced under that condition `depends`, and its action-changing reach continues to the service-release premise; and
+- the safety claim's use of evidence produced under that condition `depends`, and the service-release decision relies on that safety claim; and
 - the interface description's bibliography entry `mentions only`.
 
 The affected reach stops at the last service-release action that can change. The practitioner applies `SYSE.19` to the discovery-and-reach statement. The independently governed engineering revalidation result records tests using the new calibration Method at `-15 °C` for units `S006`–`S008`, supporting that release condition, and leaves `S009`–`S010` without the needed calibration evidence. That result goes directly to `SYSE.14`, where the authorized release decision remains.
@@ -28349,6 +28353,7 @@ The practitioner applies `STR.2` to the discovery-and-reach statement. That appl
 | --- | --- | --- |
 | The same source episteme appears at a new URL with a new layout. | Compatible claims, applicability and access; repair the reference and finish without multi-use discovery or another result record. | `C.2.1`, `E.17`, `E.24.PUB`, and `A.10` when availability affects one bounded use. |
 | A bibliography or catalogue mentions the changed source but uses none of its claims. | `mentions only`; no affected reach. Group equivalent mentions and retain a short reason only when the existing result's receiver needs it. | No subject revalidation follows from mention alone. |
+| A revised service study widens its estimate of weekly demand from 40–60 hours to 35–65. A maintained report gives the estimate for current planning, and a planning brief uses that range. | Reassess the current range in both documents. The staffing rule adds capacity whenever even the lower estimate exceeds 30 hours. Both ranges meet it. | Update the report and brief for current planning. Preserve the earlier report edition with its original basis. Retain the staffing decision on its revised basis. |
 | Candidate content appears to use the claim, but the premise or applicability cannot be recovered. | `unresolved` with the missing fact. | Return the gap now. Obtain the missing basis only when a needed stronger conclusion warrants that contribution. |
 | An included repository is inaccessible or its index is stale. | Record a discovery-coverage gap; finish independent resolved branches. | Do not call possible uses in that surface unaffected. |
 | The source is unchanged but the represented world changed. | Outside this pattern's selected branch. | Use the direct configuration, currentness, change, or decision pattern. |
@@ -28369,8 +28374,8 @@ The repair is asymmetric: tools may broaden candidate discovery, while inspectio
 | **CC-A10.1-4 (Coverage and gaps).** | When a search supports the returned impact conclusion, coverage **MUST** name exact identifiers and aliases, source-outward and receiver-oriented routes or a justified index covering both, included surfaces, and each known unsearched, inaccessible, stale, unindexed or identity-ambiguous surface within the frame. | Prevents omitted coverage from becoming evidence of no use. |
 | **CC-A10.1-5 (Direct reliance).** | Every `depends` disposition **MUST** cite a receiving action or result and the direct premise, evidence-use, operation-argument, specification, decision-basis, or other relation by which it uses the changed claim. | Rejects mention, adjacency, and graph reachability as impact. |
 | **CC-A10.1-6 (Discovery dispositions).** | A searched frame **MUST** distinguish dependent, irrelevant and unresolved candidates at the detail needed for its conclusion. Equivalent irrelevant mentions **MAY** be grouped; a separate exclusion record per mention is not required. Discovery values **MUST NOT** replace `A.10 RelianceDisposition` or a subject result. | Keeps discovery membership distinct from use admissibility and subject judgment. |
-| **CC-A10.1-7 (Action-changing closure).** | Reach **MUST** follow only direct use relations and **MUST** stop after the last receiving action, condition, result, or check that can change. | Prevents transitive fanout. |
-| **CC-A10.1-8 (Dispatchable statement).** | Every branch prepared for application of direct subject-pattern guidance **MUST** carry the changed claim, bounded frame, coverage and gaps, direct use, current conditions, action-changing reach, stop, and direct subject pattern. | Gives the applying practitioner a usable input without a universal impact record. |
+| **CC-A10.1-7 (Closure over affected uses).** | Reach **MUST** follow only direct use relations and **MUST** stop after the last receiving action, condition, result, or check that can change. | Prevents transitive fanout. |
+| **CC-A10.1-8 (Dispatchable statement).** | Every branch prepared for application of direct subject-pattern guidance **MUST** carry the changed claim, bounded frame, coverage and gaps, direct use, current conditions, affected reach, stop, and direct subject pattern. | Gives the applying practitioner a usable input without a universal impact record. |
 | **CC-A10.1-9 (Subject governance).** | Truth, evidence, causality, choice, currentness, assurance, authority, permission, release, planning, Work, and other subject results **MUST** remain governed by their direct patterns and continue to their existing consumers. | Prevents common discovery from becoming domain authority. |
 | **CC-A10.1-10 (Acyclic completion).** | A common account summarizing a subject judgment **MUST** cite its independently governed result and **MUST NOT** be used as that result's own input. A sufficient reference repair or direct result needs no additional account. | Preserves the changed source → subject result → completed account direction. |
 | **CC-A10.1-11 (Local summaries and reuse).** | Local summaries of subject judgments **MUST** retain their subject basis. Inspected unaffected uses and earlier source/result values **MUST** remain recoverable for their stated conditions. A changed consumed premise requires the affected recheck; a still-justified result may be retained with its updated basis. A harmless reference repair requires no separate preservation judgment. | Preserves valid results without ignoring changed grounds or repeating unaffected work. |
@@ -28380,7 +28385,7 @@ The repair is asymmetric: tools may broaden candidate discovery, while inspectio
 
 | Anti-pattern | Failure | Repair |
 | --- | --- | --- |
-| **Version fanout** | A new edition reopens every downstream result. | Compare claims first; follow only actual action-changing dependence. |
+| **Version fanout** | A new edition reopens every downstream result. | Compare the claims first. Follow direct uses while the changed premise could alter what a receiver can conclude or do. |
 | **Carrier preservation** | The same world object or familiar file shape is treated as proof that all uses remain valid. | Separate source episteme, claim content, publication, carrier, and world-side change. |
 | **Search hit equals impact** | Every textual hit is classified affected. | Inspect the receiving content and direct use relation. |
 | **Declared graph equals reality** | Every reachable node is reopened and undeclared premises are missed. | Combine source-outward and receiver-oriented discovery; establish each relation independently. |
@@ -28400,19 +28405,19 @@ The repair is asymmetric: tools may broaden candidate discovery, while inspectio
 
 ### A.10.1:10 - Rationale
 
-A source change matters through reliance, rather than source succession alone. A.10 handles one known source-to-use account; A.10.1 discovers several partly unknown receivers and therefore needs a bounded search frame, complementary discovery and its own coverage limits.
+A source change matters through reliance. A.10 handles one known bounded source-to-use account. A.10.1 follows several receiving uses and, when some must be found, bounds the search, uses complementary routes and states the coverage limits.
 
 The search frame solves the unknown-receiver problem without claiming a universal corpus. Complementary discovery solves a second asymmetry: source-side traces miss undeclared or equivalent premises, while receiver-side searches can miss transformed or aliased source content. The direct-use test then prevents either search route from becoming semantic authority.
 
 The subject-application/result sequence is acyclic. The common method can identify where subject judgment is needed, but applying it does not establish engineering release, finance reconciliation, strategic consequence, assurance, permission, or other domain meaning. When a receiver needs an overview, completing it afterward preserves that use without replacing the independently governed results that justify it. A sufficient direct answer needs no duplicate completion.
 
-No new kind or primitive relation is needed. Existing epistemes, direct relations, subject results, Work, plans, publications, and representations can carry every required claim. The method contributes a reusable action boundary, not an impact ontology.
+No new kind or primitive relation is needed. Existing epistemes, direct relations, subject results, Work, plans, publications, and representations can carry every required claim. The method establishes how far to follow a changed claim through its actual uses.
 
 ### A.10.1:11 - SoTA-Echoing
 
 | Problem-solving claim | Practice and source | A.10.1 alignment and working implication | Adoption |
 | --- | --- | --- | --- |
-| Reverify only the slice that can affect the checked property, and reuse an unchanged prior result when its actual dependency is outside the change. | Dependency-aware incremental build practice distinguishes actual from declared dependencies ([Bazel dependency concepts](https://bazel.build/concepts/dependencies)); change-aware model checking reuses prior results through property-relevant dependency slices (Li, Chen, Huang, and Ding, [2024](https://doi.org/10.1002/smr.2626)). | Sections 4.3–4.4 require actual receiving-use inspection, action-changing closure, and explicit reuse conditions. A build or program graph is only an analogy: it cannot establish prose meaning or reliance. | **Adopt and adapt.** Adopt dependency-bounded reverification and result reuse; adapt the dependency test to claim use and independently governed subject results. |
+| Reverify only the slice that can affect the checked property, and reuse an unchanged prior result when its actual dependency is outside the change. | Dependency-aware incremental build practice distinguishes actual from declared dependencies ([Bazel dependency concepts](https://bazel.build/concepts/dependencies)); change-aware model checking reuses prior results through property-relevant dependency slices (Li, Chen, Huang, and Ding, [2024](https://doi.org/10.1002/smr.2626)). | Sections 4.3–4.4 require actual receiving-use inspection, closure over affected uses, and explicit reuse conditions. A build or program graph is only an analogy: it cannot establish prose meaning or reliance. | **Adopt and adapt.** Adopt dependency-bounded reverification and result reuse; adapt the dependency test to claim use and independently governed subject results. |
 | Traceability, heterogeneous-model links, and automated analysis can lower the cost of candidate impact discovery, but conflict and semantic judgment remain explicit. | A systems-engineering change-impact case connects heterogeneous model semantics, traceability, conflict handling, and versioning (Wu et al., [2025](https://doi.org/10.1016/j.aei.2025.103490)); `SYSE.19` supplies the current FPF-aligned engineering host. | Section 4.3 uses traces and tools for source-outward discovery, pairs them with receiver inspection, and treats gaps and `unresolved` candidates as results rather than hiding them. The calibration case in section 5.1 shows the practical boundary. | **Adapt.** Use tools to find candidates and coverage limits; retain direct-use and subject-authority tests. |
 | Broad rerun and graph reach do not replace discovery of actual reliance. | Broad replay can be warranted by a broad change or a subject rule. Graph reach alone can omit undeclared uses and include irrelevant nodes; rerunning known consumers does not establish that all consumers were found. | Sections 4.2–4.7 bound the frame, inspect receiver-side content and extend revalidation when actual dependence or a material coverage gap requires it. | **Reject as automatic defaults.** Retain broad replay when its frame or subject rule warrants it. |
 
@@ -80348,14 +80353,14 @@ Start from the last time at which an action can still obtain the required conseq
 
 For a serial path with applicable upper duration bounds, a sufficient timing condition is
 
-\[
+$$
 t_{\mathrm{change}}+
 L_{\mathrm{detect}}+
 L_{\mathrm{deliver}}+
 L_{\mathrm{decide}}+
 L_{\mathrm{execute}}
 \leq t_{\mathrm{needed}}.
-\]
+$$
 
 Each bound must cover its whole contribution under the compared conditions. Periodic observation contributes the worst wait until the next observation as well as the observation work. A computation bound must include the resource arrangement under which it can be achieved. A decision bound must include the availability of a participant with the required authority.
 
@@ -80446,32 +80451,32 @@ Carry the change through its direct consumers. A new estimate can change the adm
 
 Consider a constructed discrete model, in normalized units,
 
-\[
+$$
 x_{k+1}=x_k+u_k,\qquad
 u_k=\tfrac12(r_k-x_k).
-\]
+$$
 
-The actuator condition is \(|u_k|\leq0.06\), and the state must remain in \([-1,1]\). The state is available without delay or error in this first case. The controller computation fits each update. These are premises of the example, not claims about a physical device.
+The actuator condition is $|u_k|\leq0.06$, and the state must remain in $[-1,1]$. The state is available without delay or error in this first case. The controller computation fits each update. These are premises of the example, not claims about a physical device.
 
-For a fixed target, the error contracts by one half per update. Nevertheless, if \(x_0=0.5\) and a planner immediately applies \(r_0=0.7\), the commanded input is \(0.1\), outside the actuator limit. The separate tracking result did not qualify that reference change.
+For a fixed target, the error contracts by one half per update. Nevertheless, if $x_0=0.5$ and a planner immediately applies $r_0=0.7$, the commanded input is $0.1$, outside the actuator limit. The separate tracking result did not qualify that reference change.
 
-One alternative is to redesign the controller and planner together. Another candidate retains the controller and limits the applied target from the desired goal \(g_k\in[-1,1]\):
+One alternative is to redesign the controller and planner together. Another candidate retains the controller and limits the applied target from the desired goal $g_k\in[-1,1]$:
 
-\[
+$$
 r_k=x_k+\operatorname{clip}(g_k-x_k,-0.12,0.12).
-\]
+$$
 
-Here \(\operatorname{clip}(a,l,h)=\min(\max(a,l),h)\). Substitution gives
-\[
+Here $\operatorname{clip}(a,l,h)=\min(\max(a,l),h)$. Substitution gives
+$$
 u_k=\tfrac12\operatorname{clip}(g_k-x_k,-0.12,0.12).
-\]
-Thus the actuator condition holds. The next state lies between \(x_k\) and \(g_k\), so an initial state in \([-1,1]\) stays there. This establishes the stated discrete constraints for this model. It does not establish intersample physical safety or a prescribed arrival time.
+$$
+Thus the actuator condition holds. The next state lies between $x_k$ and $g_k$, so an initial state in $[-1,1]$ stays there. This establishes the stated discrete constraints for this model. It does not establish intersample physical safety or a prescribed arrival time.
 
-For the constant goal \(0.7\), the first three applied targets are \(0.62,0.68,0.7\); the corresponding inputs are \(0.06,0.06,0.04\), and the resulting states are \(0.56,0.62,0.66\). The limiter uses the loop's remaining action capability and returns a different progress forecast to the planner. It is a state-dependent governor construction, not a reason to add a new tracking layer.
+For the constant goal $0.7$, the first three applied targets are $0.62,0.68,0.7$; the corresponding inputs are $0.06,0.06,0.04$, and the resulting states are $0.56,0.62,0.66$. The limiter uses the loop's remaining action capability and returns a different progress forecast to the planner. It is a state-dependent governor construction, not a reason to add a new tracking layer.
 
-Now request \(x_2\geq0.68\) from \(x_0=0.5\). Under the actuator bound, even an arbitrary control law can increase the state by at most \(2(0.06)=0.12\), giving \(x_2\leq0.62\). That requirement is impossible under the stated model and limit. The next choice concerns the deadline, attained position or available actuation; faster planning alone cannot obtain it. The participant authorized to change the demanded result must receive this bound.
+Now request $x_2\geq0.68$ from $x_0=0.5$. Under the actuator bound, even an arbitrary control law can increase the state by at most $2(0.06)=0.12$, giving $x_2\leq0.62$. That requirement is impossible under the stated model and limit. The next choice concerns the deadline, attained position or available actuation; faster planning alone cannot obtain it. The participant authorized to change the demanded result must receive this bound.
 
-Change the governor's observation condition instead. Suppose the governor receives only \(\hat x_k\), with a qualified current bound \(|x_k-\hat x_k|\leq0.02\), while the local tracker retains the original state-based feedback law. Limiting \(|r_k-\hat x_k|\) to \(0.12\) would allow \(|r_k-x_k|=0.14\) and input \(0.07\). A sufficient repair is to limit \(|r_k-\hat x_k|\leq0.10\) and require \(r_k\in[-1,1]\). Then \(|r_k-x_k|\leq0.12\), while the original convex update preserves the state interval.
+Change the governor's observation condition instead. Suppose the governor receives only $\hat x_k$, with a qualified current bound $|x_k-\hat x_k|\leq0.02$, while the local tracker retains the original state-based feedback law. Limiting $|r_k-\hat x_k|$ to $0.12$ would allow $|r_k-x_k|=0.14$ and input $0.07$. A sufficient repair is to limit $|r_k-\hat x_k|\leq0.10$ and require $r_k\in[-1,1]$. Then $|r_k-x_k|\leq0.12$, while the original convex update preserves the state interval.
 
 The set of targets satisfying both conditions must be nonempty; it is nonempty here when the state lies in the interval and the stated estimate bound holds.
 
@@ -87296,6 +87301,14 @@ A useful general explanation supplies reasons for choices. It lets the reader sa
 
 #### C.39.WA:4.3 - Identify the relation used in each consequential transition
 
+**A mantra for reasoning with models and methods.** *What do we need to learn or do, and about what? Which distinctions matter here? If we move to another subject or scope, what connects the two? What can we conclude on those grounds? How can we obtain the result we need? Which answers must fit together, and what changes if one of them changes?*
+
+For teaching, unfold these questions from the intended use. Supply the field's terms for the types and relations, and its operations for obtaining a result. Work through why the answers depend on one another. In practice, enter through what is available. A local record can lead back to the rule that gives it meaning. If that rule itself needs examination, make it the new subject and apply the questions to it. Later evidence about the same subject can reopen just the conclusions and actions that depended on the earlier evidence.
+
+If an important local distinction disappears in the proposed model, revise its distinctions or narrow the claims and uses it supports.
+
+Two explanations may both be true and still leave an inquiry open. Ask what further relation or evidence would warrant the needed inference. When an explanation answers the inquiry, state the conclusion and its scope. When the work calls for a change, identify a way to produce it under the applicable conditions and how to tell whether it worked. If several operations must work together, check that what each supplies is usable where it is needed. Give the resulting account in the recipient's terms.
+
 Identify the subjects on both sides of a transition and the relation that permits the next claim. Use the following distinctions where they change the explanation or its appraisal.
 
 | Transition | What must be recovered |
@@ -87312,6 +87325,14 @@ Identify the subjects on both sides of a transition and the relation that permit
 A relation identifies how its participants are connected. A returned claim also needs an applicable inference rule. Separately, the resulting work must be compared with the original account question; C.39.QR:4.2–4.4 develops these two judgements.
 
 These relations can coexist. A reusable calculation can be a constituent of one Method and supply a result to another. A discipline can contain other disciplines and use results from fields that are not its constituents. A representation can preserve some structure, omit some and introduce useful constructed objects. Explain the relevant correspondence before returning a conclusion to the represented subject.
+
+**Give a modeling level a point of reference.** Name the subject you are examining, the use of the answer and the current scope in terms the recipient can locate. “The laboratory's rule for releasing an instrument” identifies a starting point. If you need to move, identify both ends and the relation. A release record can direct you to the local rule under which a decision was made. Check the applicable edition and the issuing authority. To examine that rule in turn, compare it with the discipline's conditions for a valid verdict. To establish what actually happened, return to the identified instrument, configuration and observations. Carry forward only the conclusions for which that return supplies grounds.
+
+A transdisciplinary distinction can guide reasoning within one discipline. Interdisciplinary work brings contributions from different disciplines into a common result. Ask which distinction guides the choice of types, or which contributions must be connected. Both questions can matter in one undertaking.
+
+Use familiar names for scope. Name the discipline and the practice its knowledge supports, the local practice and its rule, or the occurrence and its conditions. To examine a field's type, ask what kind of distinction it makes and check it against the proposed higher-order criterion. In the other direction, propose a field type or relation, test its meaning against disciplinary practice and identify individual occurrences when the inquiry needs them. C.20 gives a test for the discipline as a whole. C.2.1 identifies the episteme stating a model or claim about the subject. A change of subject, a reclassification and a move to a constituent each license a different inference.
+
+When the subject is a way of working, follow the **result and the operation** as well as the types. Start from the promised result, on what object and under which conditions. An agreed field procedure may supply the general operation with a domain-specific test, instruments or admissible evidence. Establish whether you have selected a setting within the same Method or changed the way and its applicability. One operation can use another's result through an external service. To claim a constituent Method, establish which reusable operations and connections make up the whole, how they jointly obtain its result and which replacements preserve it. Two comparable Methods can also be alternatives, each sufficient for the same use. A performed check on Tuesday establishes an occurrence under its own conditions. A.3.1:4.8 and B.1.5 give the grounds for these comparisons.
 
 Grounding connects a case with an explained construction. Identify that construction and make its relevant objects, relations, operations and grounds available to the reader. Show which consequential moves in the case instantiate which operations, why the conditions select them, and what a change would reopen. In an account of a Method, distinguish the explained Method, its displayed performance and the subject worked on during that performance. For example, when explaining how to design an explanation, a calculation can be the material; selecting a contrast and revising the explanation are performances of the explained Method. E.8:4.2.1.1–1.3 and EXD.2 develop this correspondence for authoring explanations.
 
@@ -87415,11 +87436,11 @@ The completed entry contains that field explanation and the connections at the f
 
 A mathematics author is commissioned to explain finite-dimensional linear maps to readers who can solve elementary linear equations. The account must connect maps, equations and matrix calculations so that readers can reason about existence and uniqueness of solutions. This scope is part of the commission. The available notes define a map, introduce a matrix, and then present successful calculations in that order.
 
-The author recovers what must be explained before choosing a more elaborate calculation. Two questions organize the subject: which outputs can a map attain, and which inputs it treats alike? In the standard theory, the image answers the first question. Linearity gives the second a common construction: \(T(x)=T(y)\) exactly when \(x-y\) lies in the kernel. Consequently, \(T(x)=b\) is solvable when \(b\) is in the image; after one solution \(x_0\) is found, all solutions have the form \(x_0+k\) with \(k\) in the kernel. The [UCL account of linear maps](https://www.homepages.ucl.ac.uk/~ucahmto/0007_2021/3-3-linear-maps.html) supplies the definitions and structural grounds.
+The author recovers what must be explained before choosing a more elaborate calculation. Two questions organize the subject: which outputs can a map attain, and which inputs it treats alike? In the standard theory, the image answers the first question. Linearity gives the second a common construction: $T(x)=T(y)$ exactly when $x-y$ lies in the kernel. Consequently, $T(x)=b$ is solvable when $b$ is in the image; after one solution $x_0$ is found, all solutions have the form $x_0+k$ with $k$ in the kernel. The [UCL account of linear maps](https://www.homepages.ucl.ac.uk/~ucahmto/0007_2021/3-3-linear-maps.html) supplies the definitions and structural grounds.
 
 These relations give the author a reason to change the exposition. The new opening states the two questions and derives their connection through linearity. The kernel and image definitions now help answer those questions. A solved equation is placed after the solution-set construction, so the reader can see which features of that calculation arise from the common relation. The matrix section explains how selected bases represent the map and make calculation possible. A change of basis can change the matrix while retaining the map and the two structural questions.
 
-The reviewer then examines a transition the draft had left implicit: the claim that a map reaches every output. Two maps can have the formula \(T(x,y)=(x,0)\) and different codomains. With codomain \(\mathbb{R}^2\), some outputs are unattainable; with the first coordinate axis as codomain, every allowed output is attained. The formula alone leaves this judgement underdetermined. The author repairs the general explanation by including the declared codomain in the attainable-output question, and updates the affected statements and examples. The kernel argument remains valid. This local finding has changed the common account and selected its dependent revisions.
+The reviewer then examines a transition the draft had left implicit: the claim that a map reaches every output. Two maps can have the formula $T(x,y)=(x,0)$ and different codomains. With codomain $\mathbb{R}^2$, some outputs are unattainable; with the first coordinate axis as codomain, every allowed output is attained. The formula alone leaves this judgement underdetermined. The author repairs the general explanation by including the declared codomain in the attainable-output question, and updates the affected statements and examples. The kernel argument remains valid. This local finding has changed the common account and selected its dependent revisions.
 
 The reviewer returns to the commissioned use. Existence is explained through image membership; freedom among solutions through the kernel; matrix computation through the chosen representation. The text now gives their connecting grounds before asking the reader to interpret particular calculations. These grounds also let the author select useful contrasts: a different codomain tests the scope of the attainable-output claim, whereas changing only a matrix entry may exercise the same calculation again.
 
@@ -92370,7 +92391,7 @@ If a credible change indicates a possible protection breach, follow the existing
 
 For one known opportunity, inspect how the changed premise supports its contribution, direction, comparison, reachability, retention, or advising boundary. Ask which action or conclusion would change if that premise no longer held. A source listed in the same bibliography may do no work in this claim; an uncited assumption may do substantial work.
 
-Use [A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) when a changed source claim requires discovering and revalidating several receiving uses, especially when the receivers are not yet fully known. It supplies the bounded search frame, complementary source- and receiver-oriented discovery, coverage limits, direct-reliance test, and action-changing reach. Do not substitute a link scan for that result.
+Use [A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a101---revalidate-affected-uses-when-a-relied-on-source-changes) when a changed source claim may affect several receiving uses or some of the uses must still be found. It supplies the bounded search frame, complementary source- and receiver-oriented discovery, coverage limits, direct-reliance test, and a way to establish which receiving conclusions or actions could change. Do not substitute a link scan for that result.
 
 Keep the returned discovery conclusions distinct from the opportunity judgement. A confirmed dependent use needs a supported subject judgment or scoped blocker; an adequate existing result may supply it. The direct return can finish the question. Add a common account only when a receiver needs that overview, and group equivalent irrelevant mentions without separate exclusion records. An unresolved use or inaccessible source remains a gap. Do not call an uninspected branch unaffected or extend a local negative search result beyond its covered frame.
 
@@ -94827,10 +94848,10 @@ This distinction changes which interventions are worthwhile and when. Cheap comp
 
 Value information through the decisions it can improve, together with any separately justified use of the knowledge. For one decision maker with a specified probability model, a fixed finite set of available actions A, integrable utility u, and current information I, the gross instrumental value of a signal Y can be written as:
 
-\[
-\mathbb E_Y\!\left[\max_{a\in A}\mathbb E[u(a,\theta)\mid I,Y]\right]
+$$
+\mathbb E_Y\negthinspace\left[\max_{a\in A}\mathbb E[u(a,\theta)\mid I,Y]\right]
 -\max_{a\in A}\mathbb E[u(a,\theta)\mid I].
-\]
+$$
 
 The expression compares choosing after the signal with choosing without it. It assumes the signal can be ignored and the former actions retained. Acquisition, interpretation, delay and displaced opportunities enter the net comparison. If the experiment changes the system or available actions, compare those changed continuations rather than subtracting a price from an otherwise unchanged formula.
 
@@ -99457,7 +99478,7 @@ Domain and local framework authors often have strong source material and urgent 
 
 A working framework needs more than a good table of contents. It needs source-grounded pattern selection, architecture decisions, direct assertions of material relations, names, worked cases, quality evaluation, and refresh conditions. Include the relation or edition records a current maintenance use requires, for example for dependency, compatibility, migration, deprecation or supersession.
 
-A DPF gives an intended practitioner or assisting agent a source-grounded pattern language for recognizing typical problem situations in the domain, avoiding known failure modes, and applying SoTA solution moves with visible boundaries and refresh conditions. Its ontology and vocabulary support those moves. Known failure modes include beginner mistakes and experienced-practitioner failures caused by stale, local-only, or non-SoTA practice.
+A DPF gives its intended users a source-grounded pattern language for recognizing typical problem situations in the domain, avoiding known failure modes, and applying SoTA solution moves with visible boundaries and refresh conditions. Its ontology and vocabulary support those moves. Known failure modes include beginner mistakes and experienced-practitioner failures caused by stale, local-only, or non-SoTA practice.
 
 ### E.4.DPF:3 - Forces
 
@@ -99474,7 +99495,7 @@ A DPF gives an intended practitioner or assisting agent a source-grounded patter
 
 Use the first-hour route to help a reader new to the framework decide whether authoring should begin. This route answers that question before asking for proposal, dependency, naming, quality or publication material.
 
-1. Name the intended reader, recurring working problem and useful result.
+1. Name the intended reader, recurring working problem and useful result. Identify the user by the work they need the framework for. Follow E.8:4.2.3 when the distinction between doing the work and assisting with it changes whose decision or capability the result demonstrates.
 2. Recover candidate contributions from that problem and its sources before fitting them to the current Library: recurring practitioner problems, reusable moves or Methods, first useful results, ordinary stops or wrong-turn returns, and source or refresh boundaries. When the use spans several problem families, recover their consequential connections and the practice field or fields they serve. A field can include known Methods as well as missing ones; novelty of elementary operations is not its identity test.
 3. Inspect what FPF Core, existing domain or local frameworks, and current sources provide.
    - Treat a role or competence account, several independently reusable contributions, a Card or mantra spanning material relations, a plausible field and refresh boundary, a representative use across contributions, or visible action or result loss under one broad owner as a cue to compare, not as proof of a DPF.
@@ -100474,7 +100495,7 @@ In this pattern, `known failure modes` means beginner mistakes and experienced-p
 | Coordinate | Evaluation question | Good state |
 | --- | --- | --- |
 | `D1DomainScopeAndUseAdequacy` | Are the domain or local situation, effective ReferenceScheme, ClaimScope, reader, declared use, qualification window, stop or return, and any interpretation-changing model-use structure recoverable? | The package tells whom it is for, which domain situation and claims it covers, what to do first, when to stop or return, and which semantic qualifications constrain that use; a non-use boundary appears only for a grounded competing use a plausible reader could select. |
-| `D2DidacticEntryAndAdoptionAdequacy` | Can the intended reader or assisting agent find the first useful entry and get a first working result without FPF developer knowledge? | ToC and Readme make the first useful contribution easy to find; the architectural reference makes the language's connections understandable and adaptable. Pattern-use routes, skill entries, MCP access cues and examples preserve those returns. A known direct contribution needs no prior whole-account reading, while support maps are reached from work triggers rather than front-loaded as required reading. |
+| `D2DidacticEntryAndAdoptionAdequacy` | Can the intended user find the first useful entry and get a first working result without FPF developer knowledge? | ToC and Readme make the first useful contribution easy to find; the architectural reference makes the language's connections understandable and adaptable. Pattern-use routes, skill entries, MCP access cues and examples preserve those returns. A known direct contribution needs no prior whole-account reading, while support maps are reached from work triggers rather than front-loaded as required reading. |
 | `D3ScalableFormalityAndAssurancePathAdequacy` | Can the package move from plain local use toward stronger records, evaluation, evidence, or assurance without rewriting the package? | Plain guidance, typed records, source pins, evaluation rows, and paths to stronger evidence or assurance are staged. |
 | `D4CoreDependencyAndDomainBoundaryAdequacy` | Does the checked framework edition depend on FPF Core while keeping domain knowledge inside the DPF and keeping edition dependency distinct from package/file membership? | Core patterns are reused; local terms do not redefine Core; possible Core amendment candidates are explicit; E.4.PFR records exact dependency and edition effects; FPF Core and the main monolith do not depend on this DPF. A transdisciplinary contribution enters Core through a deliberate amendment whose content no longer depends on the DPF. |
 | `D5PackageFormLayeringAndRelationAdequacy` | Are framework episteme edition, package architecture, architecture decisions, pattern set, support maps or appendices, relation records, edition dependencies, publication units and occurrences, publication forms, presentation carriers, access-facing presentation carriers, access routes, actual access or use relations, source packs, and quality records separated? | `E.4.PFAD`, `E.4.PFR`, C.2.1, E.24.PUB, source, direct access or use, quality, support-map, appendix, and refresh loci remain distinct, findable, and reached from the right work triggers; file or package layout establishes no semantic membership. |
@@ -102797,6 +102818,10 @@ The raw/result prototype, the source-qualified comparison and the reduced single
 Determine the content owed to the reader from the subject, declared scope and receiving work. Include the relations, grounds, alternatives and conditions needed for that work; do not let the circumstances of a convenient example decide which of them to explain. This is a priority in deciding adequacy, not a compulsory order of discovery or presentation.
 
 A case, sketch or attempted calculation can reveal a missing relation before the general account is finished. Carry that discovery back into the account and distinguish a reusable condition from an incidental feature of the case.
+
+When the reader is learning to model a domain, say what the reader must do with the domain's own types. For a transdisciplinary principle, explain which distinction applies to those types, how to recognize the relation and what inference it warrants. For a domain principle, supply the field's own rule and its conditions. If the intended result is a way of working, explain how to select or construct the next operation, what it produces, and which dependent choices to revisit when its grounds change. A single publication may teach all of these. On unfamiliar material, ask the reader to select, relate or revise the local types and use them to reach a result in the recipient's terms. A worked case makes that reasoning inspectable. C.39.WA:4.3 distinguishes the relations used in such inferences.
+
+To test independent selection, examine the work records and aids available at the time and what each participant supplied. A brief, a field label or a helper's question can already frame the problem, classify the case or select a method. Identify which judgement or action the reader contributed. An attempt in which the choice was still open can show who made it.
 
 **Keep the explained subject and its example distinguishable.** When teaching a Method, identify the reusable way, the actual or stipulated performance that illustrates it, and the material on which that performance works. Show which choice or action in the example enacts which operation and why its result is usable next.
 
@@ -109990,7 +110015,7 @@ The 2026 navigation study is a current preprint anchor rather than settled conse
 
 #### E.11.PUR:1.1 - Use this when
 
-Use `E.11.PUR` after one or more candidate pattern uses have been inspected and a person or assisting agent needs to decide whether each use fits, which use to recommend, how several uses should be coordinated, or whether an earlier result already answers the current concern.
+Use `E.11.PUR` after one or more candidate pattern uses have been inspected and an agent needs to decide whether each use fits, which use to recommend, how several uses should be coordinated, or whether an earlier result already answers the current concern.
 
 The candidates may remain conversational in ordinary bounded use; addressable `CandidatePatternUse@Context` values are required only when a named later reliance needs them.
 
@@ -125676,6 +125701,8 @@ A DPF may need a reliable current domain ontology so practitioners can recognize
 
 A semantic result explains what may be claimed, which distinctions matter and where source accounts agree or differ. It can include claims about actions and Methods. Methodological synthesis constructs ways of acting: selecting, adapting and connecting operations, their conditions, intermediate results and returns for a needed use. The difference concerns the question and what is constructed, not nouns versus verbs or the document in which the result is written.
 
+Carry each result to the scope at which its recipient will use it. A transdisciplinary way of reasoning can guide the work of a single discipline. Identify the conclusion at stake, examine how the field's types and relations warrant it and revisit dependent conclusions when a premise changes. In interdisciplinary work, identify what each field supplies and what correspondence lets another field use its result. When two contributions appear to conflict, establish whether they concern the same subject under the same conditions. If the accounts are consistent but the products cannot work together, identifying the incompatibility may answer the inquiry. When the purpose requires joint operation, consider a change to the arrangement or the products and test whether it resolves the incompatibility. If the claims still conflict, identify what further evidence or revised account could resolve the conflict. Carry forward the conclusions whose grounds hold. A discipline supplies the particular means by which those grounds can be obtained or tested. A field method can be complete at this scope before a project selects staff, tools or a schedule. In a project, choose an applicable way and recover the local evidence needed for the next action. Reuse a known way when it suffices. Where several pattern Solutions supply the Method, connect the result of each needed operation with the operation that uses it, including the alternative or return if that result is unavailable. This is how a language of patterns expresses a way to act across cases. Use the mantra in C.39.WA:4.3 when choosing the scope of either result or tracing what a change reopens. C.39.RO:4.2–4.5 develops the grounds for generalizing an operation.
+
 Use C.39 to construct, connect, explain or change ways of obtaining the needed results. E.4.CM applies that general methodological work to a framework author's public account of one composite Method or several independent Methods. Those constructions can use the semantic result returned here; trying a proposed way can expose a missing distinction or reopen source comparison. A sufficient existing Method can be used directly.
 
 ### F.0.2:5 - Archetypal Grounding
@@ -140189,7 +140216,7 @@ A team may rerun unrelated work, continue using an unsupported result or publish
 
 The practitioner first decides what the available support permits for the receiving use. A shared premise can reopen several dependent results while leaving independent results usable. When upkeep is justified, the refresh plan names that scope, its source and policy basis, and the selected actions. The resulting report records the work performed.
 
-When a later or replacement source may change a claim and the receiving uses must first be found and revalidated, use `A.10.1` for the bounded search frame, discovery coverage and gaps, exact-use test, action-changing reach, application of the direct subject guidance, and the independently obtained subject result.
+When a later or replacement source may change a claim and the receiving uses must first be found and revalidated, use `A.10.1` for the bounded search frame, discovery coverage and gaps, exact-use test, the extent of the claims or actions that may need revision, application of the direct subject guidance, and the independently obtained subject result.
 
 `G.11` continues to govern source currentness, decay, refresh planning, and refresh reporting. Use a separately established currentness result or independently obtained subject result to plan later refresh under its governing pattern.
 

@@ -45,7 +45,7 @@ Management Accounting develops and uses economic knowledge of an organization's 
 
 ## Practical entries
 
-Begin with the work that needs to become understandable or possible. You may need an explanation of cost, an outlook, an economically supportable product or service arrangement, or information that helps people coordinate their decisions. These questions lead to different combinations of methods. Management Accounting connects the intended results, work, resource provision, monetary consequences and use of information; the responsible operating, engineering, financial and organizational practices contribute their own constructions and decisions.
+Begin with the work that needs to become understandable or possible. You may need an explanation of cost, an outlook, an economically supportable product or service arrangement, or information that helps participants coordinate their decisions. These questions lead to different combinations of methods. Management Accounting connects the intended results, work, resource provision, monetary consequences and use of information; the responsible operating, engineering, financial and organizational practices contribute their own constructions and decisions.
 
 These are selected connected examples. Enter where the explanation is missing; reuse an adequate model or account. The [Table of Contents](#table-of-contents) gives direct access to the methods, and the [Architectural Reference](#management-accounting-principles-framework-architectural-reference) explains the repertoire. You can ask an assisting agent to explain a pattern or comment on your case in the language of your work, without framework jargon. In MA.4:5, 4 identifies the pattern and 5 its section.
 
@@ -59,20 +59,20 @@ The calculations below are constructed cases under supplied operating, contractu
 - **Start with:** [MA.1 - Build the Resource-Consumption and Cost Model](#ma1---build-the-resource-consumption-and-cost-model) when the dependencies are missing. Use an adequate model directly; enter MA.2 or MA.3 for a disputed capacity or assignment meaning.
 - **Stop or return:** Supply the supported quantities and conditions to OPS.14 for the comparison. An unresolved schedule, financial term or funding question returns to the practice that can settle it.
 
-1. **Recover what the order consumes.** In MA.1's test-order case, an order for 100 accepted units would bring 1,200 of receipts while the report assigns 1,500 of cost. Under the supplied one-attempt premise, six to nine setup hours plus twenty processing hours require 26–29 rig-hours. The operating account establishes twenty uncommitted hours and one obtainable ten-hour block. The interval already settles the one-block question; a more precise setup measurement would not change it.
-2. **Attach payments through the actual supply arrangement.** [MA.2 - Explain the Cost and Use of Capacity](#ma2---explain-the-cost-and-use-of-capacity) keeps occupied hours, supplied blocks and payment changes distinct. The extra block costs 240; fourteen qualified staff-hours fit the supplied sixteen with unchanged pay. Materials cost 200 and the supplier 100, so the model returns 540 of additional payments. If the reported amount is instead disputed as a shared assignment, [MA.3 - Assign Shared Costs for the Stated Use](#ma3---assign-shared-costs-for-the-stated-use) recovers its tracing or convention. Changing that assignment does not establish a changed payment.
+1. **Recover what the order consumes.** In MA.1's test-order case, an order for 100 accepted units would bring 1,200 of receipts while the report assigns 1,500 of cost. Under the supplied one-attempt premise, six to nine setup hours plus twenty processing hours require 26–29 rig-hours. The operating account establishes twenty uncommitted hours and one obtainable ten-hour block. The interval settles the one-block question; a more precise setup measurement would not change it.
+2. **Attach payments through the supply arrangement.** [MA.2 - Explain the Cost and Use of Capacity](#ma2---explain-the-cost-and-use-of-capacity) keeps occupied hours, supplied blocks and payment changes distinct. The extra block costs 240; fourteen qualified staff-hours fit the supplied sixteen with unchanged pay. Materials cost 200 and the supplier 100, so the model returns 540 of additional payments. If the reported amount is instead disputed as a shared assignment, [MA.3 - Assign Shared Costs for the Stated Use](#ma3---assign-shared-costs-for-the-stated-use) recovers its tracing or convention. Changing that assignment does not establish a changed payment.
 3. **Use the model for the receiving comparison and funding question.** With no displaced contribution and all other flows unchanged, OPS.14 compares 1,200 with 540 and obtains 660. The whole cash position answers a different question. Without the order, 500 would remain available through day 28 after all other receipts and obligations. Paying the order's 440 now leaves sixty, but the supplier's 100 is due on day 7 and the customer pays on day 28. The funding gap of forty remains despite the favorable comparison. An additional receipt of fifty common to both options before day 7 would close that gap without changing the 660 difference.
 4. **Return a changed premise to the result it affects.** An eleven-hour setup makes demand 31 hours, beyond the supplied thirty. Reopen the resource model and operating feasibility; the earlier one-block result no longer applies. A later change in payment terms instead reopens the timed account. Neither requires rebuilding an unchanged part of the model.
 
 ### MA-E2 — Profit and cash movement disagree
 
 - **Situation:** A positive reported result coexists with falling cash, and a lower unit-cost figure may be encouraging additional production.
-- **Question:** Which differences belong to the accounts' meanings, and which actual action or use of the account may need to change?
+- **Question:** Which differences belong to the accounts' meanings, and which action or use of the account may need to change?
 - **First useful result or blocker:** A reconciled explanation of the accounts; if their use is the problem, a supported change to that use or the unresolved behavioral explanation.
 - **Start with:** [MA.4 - Reconcile Operating, Reporting and Cash Accounts](#ma4---reconcile-operating-reporting-and-cash-accounts). Use [MA.9 - Design and Examine the Use of Management Accounting Information](#ma9---design-and-examine-the-use-of-management-accounting-information) directly when the monetary meanings are adequate and the unresolved question concerns behavior.
 - **Stop or return:** A sufficient reconciliation can finish the request. A funding decision needs the whole timed cash position; changing rewards or authority needs the responsible organizational decision.
 
-1. **Put the views on their actual event and policy bases.** MA.4's case starts with zero inventory, receivables and payables and includes only the transactions described below. Producing 100 units costs 200 in materials and 300 in resource supply, all paid; sixty units sell for 600, of which 400 is received and 200 remains receivable. Under the supplied full-production-cost policy, cost of sales is 300, closing inventory 200 and the reported result 300. Cash movement is −100.
+1. **Identify the events and accounting policies behind each view.** MA.4's case starts with zero inventory, receivables and payables and includes only the transactions described below. Producing 100 units costs 200 in materials and 300 in resource supply, all paid; sixty units sell for 600, of which 400 is received and 200 remains receivable. Under the supplied full-production-cost policy, cost of sales is 300, closing inventory 200 and the reported result 300. Cash movement is −100.
 2. **Carry the reconciliation to its user.** The internal account values inventory at materials only and expenses the 300 resource-supply payment, giving a result of 180 and inventory of eighty. Thus 300 − 200 inventory − 200 receivables and 180 − 80 inventory − 200 receivables both give −100. The 120 difference between results is retained production-resource cost, not another receipt. Preserve each view for its warranted use. If an event or policy is unresolved, obtain that answer from OPS.15 or the responsible reporting practice.
 3. **Use the explanation to examine a consequential choice.** Suppose management considers producing 120 units with the same 300 resource payment and unchanged sales of sixty. MA.9 compares the account and the resulting resource use: unit cost falls from five to 4.5, but materials consume forty more in cash and unsold quantity rises from forty to sixty. This establishes the divergence the measure conceals. Whether an actual production increase followed that incentive, anticipated demand or another reason remains a separate question.
 4. **Repair only the supported problem and return changed conditions.** If the account's use is the established problem, the responsible manager can stop treating lower unit cost alone as improved performance and consider demand, inventory and resource consequences together. Preserve the legitimate reporting account. Evidence of a warranted future requirement could instead support the extra production. A changed measurement or allocation basis returns to MA.4 or MA.3 before a performance comparison; [MA.7 - Explain a Cost or Margin Difference](#ma7---explain-a-cost-or-margin-difference) uses comparable meanings to separate the consequential difference from its still-unresolved cause.
@@ -81,15 +81,15 @@ The calculations below are constructed cases under supplied operating, contractu
 ### MA-E3 — The forecast has become a resource negotiation
 
 - **Situation:** One number is expected to serve as demand outlook, ambition, resource request and authorization, concealing the decision needed when they differ.
-- **Question:** Which expectation should remain visible, and which actual action or resource decision could change the outlook?
+- **Question:** Which expectation should remain visible, and which action or resource decision could change the outlook?
 - **First useful result or blocker:** Distinguishable expectations, ambitions, requests and authorizations, connected to the resource or management decision that matters.
 - **Start with:** [MA.6 - Separate Forecasts, Targets and Resource Requests](#ma6---separate-forecasts-targets-and-resource-requests) for mixed meanings; [MA.5 - Construct and Update an Operating Forecast](#ma5---construct-and-update-an-operating-forecast) when the meanings are settled and the outlook needs construction or revision.
 - **Stop or return:** Keep an adequate expectation visible. A resource request, its authorization and usable provision remain different results.
 
 1. **Recover the use of each number.** MA.6's case has demand expected at 100 units, an ambition of 120, a request for provision covering a possible surge to 130, and authorization covering 110 under the supplied mix and scheduling assumptions. The authorization neither changes expected demand to 110 nor makes the ambition feasible.
 2. **Connect the gap to the result that can resolve it.** MA.5 constructs or obtains the warranted demand outlook and its uncertainty. Its MA.5:5.1 example joins sixty booked units with forty further units estimated on a nonoverlapping basis; a sufficient supplied forecast can be used directly. Where conversion is missing, MA.1 and MA.2 relate demand to resource quantities and payments, using the adequate operating capacity account. The responsible manager can then decide about provision, scope or ambition. When the ambition or its comparison lacks a meaningful basis, [OPS.21](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops21---choose-operating-aims-targets-and-comparisons) constructs that missing result; an adequate supplied target can remain. Keep a proposed addition in the scenario where it occurs; do not make it available by editing the forecast.
-3. **Propagate the actual change.** If a market action warrants a new expectation of 115, MA.5 updates that outlook and its assumptions. The gap against authorized capability is five units on the same basis; the target remains 120 and authorization 110 until their responsible participants change them. A fixed resource payment stays fixed under its terms even when demand changes.
-4. **Use the later result without rewriting the earlier prediction.** Retain the earlier forecast's premises when learning from outcomes. MA.7 constructs comparable intermediate accounts to explain the difference. If product mix changed, MA.7:5.2 shows how to replace an aggregate usage term with mix and within-product usage; action taken in response may account for part of the observed change. If the reward or negotiation arrangement still suppresses unwelcome expectations, MA.9 examines that specific use and returns any wider organizational change to its responsible practice. The clarified accounts may already resolve the question. If the attained result still needs a performance judgement, [OPS.22](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops22---interpret-operating-performance-and-decide-the-response) examines target difficulty, changed conditions, action and joint effects before choosing a response. The [repair cooperative case (Engineering.Reference:7)](../Engineering%20DPF%20Suite/ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference7---how-should-we-set-a-target-and-judge-a-miss-after-conditions-change) develops that continuation through an actual change in the local review rule.
+3. **Update the outlook when the expectation changes.** If a market action warrants a new expectation of 115, MA.5 updates that outlook and its assumptions. The gap against authorized capability is five units on the same basis; the target remains 120 and authorization 110 until their responsible participants change them. A fixed resource payment stays fixed under its terms even when demand changes.
+4. **Use the later result without rewriting the earlier prediction.** Retain the earlier forecast's premises when learning from outcomes. MA.7 constructs comparable intermediate accounts to explain the difference. If product mix changed, MA.7:5.2 shows how to replace an aggregate usage term with mix and within-product usage; action taken in response may account for part of the observed change. If the reward or negotiation arrangement still suppresses unwelcome expectations, MA.9 examines that specific use and returns any wider organizational change to its responsible practice. The clarified accounts may already resolve the question. If the attained result still needs a performance judgement, [OPS.22](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops22---interpret-operating-performance-and-decide-the-response) helps the reader judge what the result establishes given target difficulty, changed conditions, actions and joint effects. If a response is called for, propose it to the decision holder or decide under the applicable authority. The [repair cooperative case (Engineering.Reference:7)](../Engineering%20DPF%20Suite/ENGINEERING-DPF-SUITE-REFERENCE.md#engineeringreference7---how-should-we-set-a-target-and-judge-a-miss-after-conditions-change) develops that continuation through an actual change in the local review rule.
 
 ### MA-E4 — Two customer cohorts share one paid service team
 
@@ -99,7 +99,7 @@ The calculations below are constructed cases under supplied operating, contractu
 - **Start with:** [MA.8 - Account for Customer and Product Economics Over Time](#ma8---account-for-customer-and-product-economics-over-time) when population or time is unclear. Use adequate supplied cohort quantities directly, then obtain missing resource and supply relationships through MA.1–MA.2.
 - **Stop or return:** OPS.14 uses feasible future consequences for the operating comparison. An unknown obligation returns to FDM, a funding question to the relevant financial practice, and a sufficient supported account can finish the accounting request.
 
-1. **Put both populations into the same calendar.** In this separate teaching case, the supplied active-customer quantities for months 2–4 are 80, 60 and 45 for the existing cohort, and 40, 20 and 10 for the proposed cohort. They are conditional scenario inputs. MA.8 explains how to obtain the calendar quantities from cohort age when they are not already supplied.
+1. **Put both populations into the same calendar.** In this teaching case, the supplied active-customer quantities for months 2–4 are 80, 60 and 45 for the existing cohort, and 40, 20 and 10 for the proposed cohort. Treat these quantities as conditional. MA.8 explains how to obtain the calendar quantities from cohort age when they are missing.
 
 2. **Construct the shared resource demand.** Each cohort requires two setup hours per month plus 0.25 qualified service hour per active customer. The cohorts share 26 usable hours for an unchanged monthly payment of 240. One further nine-hour block can be obtained in each month for 180, paid at that month's start. Scheduling is supplied as feasible whenever the demands fit those quantities.
 
@@ -127,7 +127,7 @@ The calculations below are constructed cases under supplied operating, contractu
    | Month 4 start: service | −30 | **810** |
    | Month 4 end: receipts | +150 | **960** |
 
-   Thus the positive difference coexists with zero cash buffer at the month-2 start. No unchanged payment is subtracted again after it has entered the baseline. MA.4 supplies a needed reconciliation to reported results, which can recognize amounts at different times.
+   The positive difference coexists with zero cash buffer at the month-2 start. No unchanged payment is subtracted again after it has entered the baseline. MA.4 supplies a needed reconciliation to reported results, which can recognize amounts at different times.
 
 5. **Reopen only the changed condition and its consequences.** Suppose evidence now bounds service effort for each active customer between 0.25 and 0.30 hour, without establishing one common rate for all customers. Add these individual bounds while keeping both setups. Joint demand is **34–40**, **24–28** and **17.75–20.5** hours. Month 2 may exceed the maximum supplied 35; month 3 may need the extra block above 26; month 4 fits.
 
@@ -145,21 +145,21 @@ The combined capacity, dates and remaining uncertainty determine whether the who
 
 MA.10:5 contrasts a product and support redesign with a funded service whose access and qualified capacity constrain the possible changes.
 
-### MA-E6 — People need information before they can coordinate action
+### MA-E6 — Information needed before a joint commitment
 
-- **Situation:** People need to make a joint service commitment, but their existing information does not support the required coordination. A harmful metric effect need not have occurred.
+- **Situation:** Participants need to make a joint service commitment, but their existing information does not support the required coordination. The need for this information can arise before any harmful effect of a measure has been observed.
 - **Question:** What account and comparison must reach which participants in time for them to choose and carry out the needed action?
 - **First useful result or blocker:** An information arrangement connecting the decision, participants, actions and timing, or an unresolved condition preventing its use.
 - **Start with:** [MA.9 - Design and Examine the Use of Management Accounting Information](#ma9---design-and-examine-the-use-of-management-accounting-information). Its shared-service case exposes a capacity conflict before a promise is made.
-- **Stop or return:** Retain an adequate arrangement. Use observations of whether people receive, understand and act on the information to identify a specific repair; return a missing capacity or authority decision to its responsible participants.
+- **Stop or return:** Retain an adequate arrangement. Use observations of whether the participants receive, understand and act on the information to identify a specific repair; return a missing capacity or authority decision to its responsible participants.
 
 # Management Accounting Principles Framework Architectural Reference
 
 ## MA.Reference:1 - The working problem
 
-An organization commits resources to obtain results for customers, members, service recipients or other participants. Its people must understand what can be sustained, which consequences an action changes, and what to do when the required result does not fit the available means. Management Accounting investigates these economic relationships and helps change the activity and its management. Producing an account is one important operation within that work.
+An organization commits resources to obtain results for customers, members, service recipients or other participants. Participants who assess the work, provide its resources or make decisions about it need to understand what can be sustained, which consequences an action changes, and what to do when the required result does not fit the available means. Management Accounting investigates these economic relationships and helps change the activity and its management. Producing an account is one important operation within that work.
 
-A controller may need to explain why profit rose while cash fell. A product team may instead have an acceptable selling proposition and required return but no design that can deliver both. A public service may need to preserve access within a funding and staffing limit. A manager may need an arrangement in which an unfavorable forecast is reported early enough to change provision. These problems require different work: reconciliation, construction of alternatives, or design of information use. None is solved merely by having a more detailed statement of cost.
+A controller may need to explain why profit rose while cash fell. A product team may instead have an acceptable selling proposition and required return but no design that can deliver both. A public service may need to preserve access within a funding and staffing limit. A manager may need an arrangement in which an unfavorable forecast is reported early enough to change provision. These problems require different work: reconciliation, construction of alternatives, or design of information use.
 
 ### MA.Reference:1.1 - Form the economic object from the activity and the question
 
@@ -175,21 +175,21 @@ Money makes some consequences comparable under specified prices, dates and valua
 
 ### MA.Reference:1.2 - Explain an arrangement and help construct a different one
 
-For a known arrangement, work from outputs and activities through resource demand and provision to monetary consequences. Then interpret the result for its use: a historical explanation, a future comparison, a performance question or a funding requirement. The same activity can support several correct accounts. Reconcile their meanings when they meet; do not select one account as universally true and discard the others.
+For a known arrangement, work from outputs and activities through resource demand and provision to monetary consequences. Then interpret the result for its use: a historical explanation, a future comparison, a performance question or a funding requirement. The same activity can support several correct accounts. When the accounts meet, reconcile their meanings and preserve each account for its intended use.
 
 An economic requirement reverses the practical question. The required return, available funding or acceptable use of resources constrains a search for an arrangement; it does not specify that arrangement. A cost allowance cannot reveal which component to change, how to preserve service, or whether a supplier will accept a different commitment. Management Accounting helps the participants locate consequential dependencies, construct and evaluate combinations of changes, and discover when the requirement itself must be reconsidered. Use engineering, marketing and operating methods to develop and substantiate the proposed arrangement. The economic construction keeps its combined consequences visible.
 
-This search is not confined to manufacturing. It can change what is offered, who does the work, the means used, the extent and timing of provision, or the terms connecting participants. A cheaper component may increase service work. A joint visit may reduce travel but prevent timely access. A transfer to a contractor may remove an internal payment while creating a continuing contractual obligation. The relevant whole must include the effects that can change the required judgement, including effects transferred to another participant.
+In manufacturing, services and other work, the search can change what is offered, who does the work, the means used, the extent and timing of provision, or the terms connecting participants. A cheaper component may increase service work. A joint visit may reduce travel but prevent timely access. A transfer to a contractor may remove an internal payment while creating a continuing contractual obligation. The relevant whole must include the effects that can change the required judgement, including effects transferred to another participant.
 
 A forecast and a requirement also have different grounds. A forecast estimates what follows from evidence and stated conditions. A target expresses an intended result. An authorization permits specified action. If the supported forecast misses the target, the gap can motivate inquiry and redesign; substituting the target for the forecast conceals the need for that work. If no credible arrangement meets the requirement, the useful result is the supported conflict and its consequences for the responsible choice.
 
 ### MA.Reference:1.3 - Make economic knowledge usable and revisable
 
-The discipline also concerns how information enters action. People may use the same cost figure to price work, negotiate resources, judge performance or reward a team. These uses can require different comparisons and encourage different actions. Design the information and its use together: who can act, on what, by when, with which consequences visible? An account that explains the whole can still be a poor basis for attributing one participant's performance.
+The discipline also concerns how information enters action. Participants may use the same cost figure to price work, negotiate resources, judge performance or reward a team. These uses can require different comparisons and encourage different actions. Design the information and its use together: who can act, on what, by when, with which consequences visible? An account that explains the whole can still be a poor basis for attributing one participant's performance.
 
 Economic knowledge is built from observations, models of work, applicable terms, and explicit judgements. Distinguish their grounds. Records can establish a payment; a contract can establish an obligation; an operational explanation and suitable observations can support a resource relationship. A calculated difference identifies where two accounts diverge, not by itself what caused behavior. A desired margin is a criterion chosen for a use, not an observed property of the product.
 
-Practice changes this knowledge. A trial can expose omitted rework; a new contract can change which payment is avoidable; a revised service design can change the relation between customer count and workload. Compare the observation with what the model actually predicted under its stated conditions. Determine whether to correct data, change a relationship, narrow its applicability or replace the arrangement. Success under one set of conditions supports reuse there; generalizing to other scales, populations or forms of work requires support for the relationships that carry the inference.
+Practice changes this knowledge. A trial can expose omitted rework; a new contract can change which payment is avoidable; a revised service design can change the relation between customer count and workload. Compare the observation with what the model predicted under its stated conditions. Determine whether to correct data, change a relationship, narrow its applicability or replace the arrangement. Success under one set of conditions supports reuse there; generalizing to other scales, populations or forms of work requires support for the relationships that carry the inference.
 
 The construction requires different intellectual operations. Select an abstraction that preserves the distinctions needed for the question: a common service-hour unit is adequate only while the work can draw on compatible provision. Synthesize contributions through their real relations: combining customer accounts must preserve their shared capacity and obligations. Generalize a supported relationship only to cases for which its necessary conditions hold. These operations determine what can be omitted, connected or reused, and what a changed condition would invalidate.
 
@@ -197,13 +197,13 @@ The construction requires different intellectual operations. Select an abstracti
 
 This framework covers economic explanation and construction for managing organizational activity, including the design and examination of accounting information in use. It therefore reaches from operational work to products, customers and commitments over time, and from observed consequences to proposed changes. It does not take over every professional task performed by a management accountant.
 
-Investment valuation, financing and financial-risk treatment have their own financial methods. Tax, external reporting and legal duties require their applicable rules and competent practice. Engineering establishes technical and service realizations; marketing investigates the offer and its use; operating management establishes executable work and makes operating choices. Management Accounting participates in these constructions by developing the economic relationships and consequences they need. Referring to a collaborator does not discharge that contribution: obtain a usable result, connect its conditions, and return a changed premise to its owner.
+Investment valuation, financing and financial-risk treatment have their own financial methods. Tax, external reporting and legal duties require their applicable rules and competent practice. Engineering practitioners establish how the technical system and service can be realized. Marketing practitioners investigate the offer and its use. Those responsible for operations establish executable work and make operating choices. Management accounting practitioners develop the economic relationships and consequences needed in these constructions. Obtain usable results from collaborators, connect their conditions and return a changed premise to whoever can resolve it.
 
 This boundary permits both a small warranted calculation and a substantial joint redesign. The receiving work determines which construction must be made and when it is sufficient.
 
 ## MA.Reference:2 - How the methods connect
 
-Start from the explanation, decision or change of activity that must become possible, then work back to its missing contributions. A funding question needs receipts and payments at their dates. Obtaining those dates may require the workload, its resource demand and the actual supply or settlement arrangement. Keep an adequate supplied result; use its owning method when the result is missing or its assumptions no longer fit. This backward reading selects the necessary work, while the resulting inputs are then combined into the receiving account.
+Start from the explanation, decision or change of activity that must become possible, then work back to its missing contributions. A funding question needs receipts and payments at their dates. Obtaining those dates may require the workload, its resource demand and the actual supply or settlement arrangement. Keep an adequate supplied result; use its owning method when the result is missing or its assumptions no longer fit. Then combine the resulting inputs in the account.
 
 MA.1 constructs the resource-consumption and cost model when it is missing. It begins with work outputs and consequential resource dependencies, then relates quantities to supply, money and payment time. It also chooses detail: an interval can suffice when its variation cannot change the relevant threshold or comparison.
 
@@ -221,17 +221,17 @@ These methods can be used in different combinations. An established model can fe
 
 The accountant also performs work at several scopes at once. While calculating rig occupation, they can be deriving the order's resource demand and thereby constructing its resource account. The account's purpose determines what the calculation must include. Use [FPF B.1.5.EW — Recover How Constituent Actions Enact Encompassing Work][EW] when you cannot yet explain such a connection or locate the capability needed to perform it. MA.1:5.3 shows how an error between those scopes survives correct arithmetic. Reuse a connection you already understand.
 
-The same relation appears in a joint customer account. Deriving one cohort's hours is already part of constructing the whole operating account, whose calendar window and shared-capacity condition constrain that derivation. The horizontal dependencies between results and this vertical contribution to the whole both matter: correct cohort calculations can still feed an incorrect combined account. The MA-E4 application follows both and reopens only the consequences of a changed effort bound.
+The same relation appears in a joint customer account. Deriving one cohort's hours is part of constructing the whole operating account, whose calendar window and shared-capacity condition constrain that derivation. The horizontal dependencies between results and this vertical contribution to the whole both matter: correct cohort calculations can still feed an incorrect combined account. The MA-E4 application follows both and reopens only the consequences of a changed effort bound.
 
 Construction can change those connections. In MA.10, preserving an intended customer result may require changing both the product and its support arrangement. [SYSE.2][SYSE2] develops a system concept with its use, and [SYSE.8][SYSE8] develops the contributing provision arrangement. [MKT.2][MKT2] connects an offer with its use and price conditions. [ECO.2][ECO2], [ECO.3][ECO3] and [ECO.4][ECO4] address substitution, joint exchange terms and commitments when those are unresolved. MA.1 and MA.8 then reconstruct the proposed activity's resource and time consequences; they cannot simply retain the old per-unit cost. OPS.14 compares the resulting operating alternatives, OPS.19 resolves joint operating feasibility where needed, and [FIN.6][FIN6] supplies capital valuation when that is the receiving question.
 
-The result of a part can revise the encompassing proposal. Unavailable maintenance capacity can invalidate a service promise and its expected receipts. Evidence that demand is lower can make an otherwise feasible design miss the required return. An acceptable economic arrangement can still lack cash before launch. Reopen the offer, design, scale, terms, criterion or funding question that the evidence actually changes. MA.9 connects the resulting account to a decision arrangement in which people can use and challenge it; it does not convert a conditional calculation into authority.
+The result of a part can revise the encompassing proposal. Unavailable maintenance capacity can invalidate a service promise and its expected receipts. Evidence that demand is lower can make an otherwise feasible design miss the required return. An acceptable economic arrangement can still lack cash before launch. Reopen the offer, design, scale, terms, criterion or funding question that the evidence changes. MA.9 connects the resulting account to a decision arrangement in which participants can use and challenge it; it does not convert a conditional calculation into authority.
 
 ## MA.Reference:3 - A model that changes the next decision
 
 In MA.1's constructed test-order case, 100 accepted units require 26–29 rig-hours. The supplied arrangement has 20 usable hours and one additional ten-hour block costing 240. Materials and supplier use add 300. The model therefore supplies 540 of additional payments, rather than the report's 1,500 assigned cost.
 
-OPS.14 uses those quantities and the stated absence of displacement to compare the 1,200 receipt with 540, giving 660. Its funding question uses the whole timed cash position. Under the example's explicit baseline-cash premise, 440 is paid now, 100 is due on day 7 and the receipt arrives on day 28; a 40 day-7 funding gap remains. The favorable comparison and the unresolved funding are both useful results.
+OPS.14 uses those quantities and the stated absence of displacement to compare the 1,200 receipt with 540, giving 660. Its funding question uses the whole timed cash position. Under the example's baseline cash assumption, 440 is paid now, 100 is due on day 7 and the receipt arrives on day 28; a 40 day-7 funding gap remains. The favorable comparison and the unresolved funding are both useful results.
 
 Other entries change different actions. MA.4 explains how inventory and receivables connect profit to cash. MA.6 preserves an expectation of 100, ambition of 120, request for provision covering 130 and authorization covering 110. MA.8 distinguishes the recovery of past acquisition or development payments from a new continuation choice. MA-E4 joins two cohorts before testing the common capacity and payment dates.
 
@@ -243,7 +243,7 @@ A recognizable discrepancy is a reason to investigate. It is not proof that a pr
 
 The gain is an explained decision or a workable change in activity. Its cost includes obtaining the needed knowledge and developing and maintaining the proposed arrangement. Reuse adequate models and observations. Increase detail where a plausible difference could change the answer or its required assurance.
 
-A commercial example supplies no universal monetary objective. An internal or public service can use these accounting methods while obtaining its intended result and choice criteria from the responsible practice. Forecast and performance arrangements must also be examined from the affected participants' positions, rather than assuming a single account expresses every interest.
+An internal or public service can use these accounting methods while obtaining its intended result and choice criteria from the responsible practice. Examine forecast and performance arrangements from the affected participants' positions.
 
 ## MA.Reference:5 - Why this organization of methods
 
@@ -263,9 +263,9 @@ Internal and externally required accounts serve different uses. An account must 
 
 IMA's managerial-cost-model guidance contributes resource dependencies and a use-driven choice of model detail. Bragg and Caspari supply historical constraint-accounting cases that expose the difference between assigned cost, capacity and changed payments. The relevant TameFlow capacity distinctions are used with adequate OPS operating results; elapsed flow time alone does not identify the constraint.
 
-Bogsnes and the continuing Beyond Budgeting principles shape MA.5–MA.6's separation of expectation, ambition and resource allocation. The wider organizational proposal is an alternative whose value depends on the actual problem. Forecasting: Principles and Practice supplies the construction and qualification of missing forecast inputs in MA.5. ACCA's intermediate-account and life-cycle explanations support the changed-composition and product-time constructions in MA.7–MA.8. The customer-model sources used in MA.8 qualify population, horizon and continuation assumptions. Their contribution is to avoid an unwarranted universal formula, not to require every account to adopt one predictive model.
+Bogsnes and the continuing Beyond Budgeting principles shape MA.5–MA.6's separation of expectation, ambition and resource allocation. The wider organizational proposal is an alternative whose value depends on the actual problem. Forecasting: Principles and Practice supplies the construction and qualification of missing forecast inputs in MA.5. ACCA's intermediate-account and life-cycle explanations support the changed-composition and product-time constructions in MA.7–MA.8. The customer-model sources used in MA.8 qualify population, horizon and continuation assumptions.
 
-IMA's 2014 *Conceptual Framework for Managerial Costing* is a historical foundation for relating operational quantities to decision use; its scope is managerial costing, not the whole profession. The 2023 *Global Management Accounting Principles* locates economic information in business models, resource allocation and management action. These are complementary grounds, not evidence that one model or professional map exhausts the field. ACCA's target-costing explanation supplies the reverse question developed in MA.10: required economics can motivate changes across design, production and support. The method treats the requirement as conditional and checks the actual arrangement rather than assuming a target is attainable.
+IMA's 2014 *Conceptual Framework for Managerial Costing* is a historical foundation for relating operational quantities to decision use. The 2023 *Global Management Accounting Principles* locates economic information in business models, resource allocation and management action. ACCA's target-costing explanation supplies the reverse question developed in MA.10: required economics can motivate changes across design, production and support. The method treats the requirement as conditional and checks the actual arrangement rather than assuming a target is attainable.
 
 Use the source qualifications in the relevant pattern when adapting its method. Reopen affected knowledge and uses when resource behavior, contract terms, reporting rules, population, intended result or decision arrangements change. A changed physical relationship calls for a revised model; a changed reporting rule can call for reconciliation while leaving that relationship intact; a new participant or promise can require a different economic object.
 
@@ -285,7 +285,7 @@ Use this pattern when a cost report cannot explain what a proposed order, change
 
 The pattern governs a model relating work outputs to resource consumption and monetary amounts for a stated use. Its useful result is enough of that model to explain the relevant quantities, capacity conditions and money. The operating decision can then use [OPS.14][OPS] to compare options.
 
-If an existing model already supplies adequate quantities and conditions, use it.
+If an existing model supplies adequate quantities and conditions, use it.
 
 ### MA.1:1 - Problem frame
 
@@ -303,7 +303,7 @@ A model can cost more to construct and maintain than its additional detail contr
 
 ### MA.1:3 - Forces
 
-Consumption, available capability and payment are connected but need different evidence. The person who supplies a credible processing-time estimate may not know the supplier's charging terms or the actual payment date. Bringing these facts together is useful even when each is already recorded elsewhere.
+Consumption, available capability and payment are connected but need different evidence. A credible processing-time estimate may come from a source that cannot establish the supplier’s charging terms or the payment date. Bringing these facts together is useful even when each is already recorded elsewhere.
 
 Grouping resources makes an account usable. It loses value when the group hides a capability requirement, a different response to demand or a payment threshold. More detailed observation can reduce a consequential uncertainty, but detailed tracking itself consumes resources and can encourage people to optimize what is easiest to count.
 
@@ -313,7 +313,7 @@ Grouping resources makes an account usable. It loses value when the group hides 
 
 State the work being considered, the relevant result and the period over which the model must answer. Inspect the existing account with its user. Ask what it cannot presently explain: the resources required for another order, the effect of a changed batch size, the cost of unused provision or some other concrete dependency.
 
-Use that question to choose the first observations. For a proposed order, obtain the actual processing route and the conditions under which it works. For a reusable product-cost account, obtain representative routes and the variation the account must retain. Ask the people who perform or arrange the work, and compare their explanation with available operating records. A ledger category locates recorded money; it does not by itself explain how the work consumes a resource.
+Use that question to choose the first observations. For a proposed order, obtain the actual processing route and the conditions under which it works. For a reusable product-cost account, obtain representative routes and the variation the account must retain. Obtain the account of the route from those who perform or arrange the work and compare it with available operating records. A ledger category locates recorded money; it does not by itself explain how the work consumes a resource.
 
 #### MA.1:4.2 - Recover outputs and resource dependencies
 
@@ -331,7 +331,7 @@ If the calculation is familiar but you cannot relate its quantities to the accou
 
 #### MA.1:4.3 - Keep resource quantities and supplied capacity distinct
 
-A rig-hour, a qualified staff-hour and an elapsed hour measure different things. Recover what each resource must actually provide. Check that an estimate of machine occupation has not silently become an estimate of staff attendance.
+A rig-hour, a qualified staff-hour and an elapsed hour measure different things. Recover what each resource must provide. When estimating staff attendance, check how much of the machine time requires a member of staff.
 
 Group resources only while the grouping preserves relevant capability, consumption and money. Two machines can share a pool if their interchangeable capability and behavior suffice for this use. A specialist machine that alone performs a required test needs its own boundary. Likewise, splitting identical consumables by invoice number may add detail without improving the answer.
 
@@ -339,7 +339,7 @@ Compare demand with the supplied capacity conditions for the required time windo
 
 #### MA.1:4.4 - Attach the relevant monetary meanings
 
-Connect resource quantities to money through the relationship that actually applies. For each amount that could be misread, make clear whether it is:
+Connect resource quantities to money through the applicable relationship. For each amount that could be misread, make clear whether it is:
 
 - consumption valued for the account, such as materials issued from stock;
 - the payment required to supply or obtain a resource, such as a whole additional shift;
@@ -380,7 +380,7 @@ A test service considers an order for 100 accepted units at 12 currency units ea
 
 The resource owner supplies an adequate schedule, qualification and reserve account. There are 20 uncommitted usable rig-hours in the required window. Exactly one additional contiguous ten-hour block can be obtained for 240, subject to booking. Setup requires six to nine rig-hours, followed by 0.2 rig-hours per processed unit. One successful attempt per accepted unit is assumed.
 
-The work requires 14 qualified staff-hours; 16 usable hours are already available and pay is unchanged. Materials for this order must be bought now at 2 per unit. A supplier charges 1 per processed unit.
+The work requires 14 qualified staff-hours; 16 usable hours are available and pay is unchanged. Materials for this order must be bought now at 2 per unit. A supplier charges 1 per processed unit.
 
 | Recovered dependency | Quantity or amount | What the receiving comparison can use |
 | --- | --- | --- |
@@ -411,7 +411,7 @@ Return to the test order with a nine-hour setup. Suppose obtaining 100 accepted 
 
 While doing that multiplication, the accountant is deriving rig demand and constructing the order's resource account. The accepted-output requirement governs which attempts must enter the calculation. A colleague may supply the process relationship when the accountant cannot establish it; the accountant still needs to understand how that contribution affects the model. Repeating multiplication exercises would not supply the missing relationship.
 
-The observed production attempts belong to the work being modeled. They are not constituent acts of the accountant's model construction.
+Setup and production attempts occupy the rig for 33 hours. If the cost of constructing the account also matters, count the accountant’s calculation once. If it takes 15 minutes, those same 15 minutes cover deriving rig demand as part of constructing the order’s resource account.
 
 Return the changed demand to the operating comparison. [OPS.11.1][OPS] can recover the routing, shared-resource and completion conditions when a different operating arrangement is needed. Recalculating existing assignments or changing an authorized allocation is an operating question. [OCE][OCE] becomes relevant if the proposed repair changes who may commit resources or other organizational arrangements.
 
@@ -419,7 +419,7 @@ Return the changed demand to the operating comparison. [OPS.11.1][OPS] can recov
 
 An accountant may favor categories already present in the ledger; an operator may favor the resource easiest to observe. Both can miss the relation that changes the answer. Compare their accounts around the actual work and keep different units explicit.
 
-The order example concerns a commercial service and a short horizon. Its arithmetic does not establish that profit is every organization's purpose or that all long-run choices can be made from short-run payments. Public and internal services can use the same construction to explain required resources while obtaining their objectives and decision criteria from the responsible practice.
+The order example concerns a commercial service and a short horizon. For a longer-term choice, include the resource and payment conditions over that horizon. Public and internal services can use the same construction to explain required resources while obtaining their objectives and decision criteria from the responsible practice.
 
 ### MA.1:7 - Conformance Checklist
 
@@ -432,7 +432,7 @@ For the model's stated use, examine whether:
 5. Consumption values, supply payments, timing and allocations can be distinguished where their meanings affect use.
 6. The chosen detail preserves the consequential variation, and the returned result names any premise still needed by its recipient.
 
-A plausible entry cue establishes a reason to inspect the account. These questions assess the model and its warranted use; observing actual consumption, obtaining a resource and achieving the business result require their own evidence.
+A plausible entry cue establishes a reason to inspect the account. These questions assess the model and its warranted use; observing consumption, obtaining a resource and achieving the business result require their own evidence.
 
 ### MA.1:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -456,13 +456,13 @@ The construction begins with work and quantitative dependencies because a money 
 
 A report based on a stable average can be adequate for the question it was designed to answer. Replacing it is justified when its aggregation conceals an answer-changing relation. A comprehensive activity model can support repeated heterogeneous decisions, but its collection and maintenance burden is unnecessary for a small case whose decisive relations are already known.
 
-Keeping the model separate from the option comparison makes both usable independently. The same model can support a forecast or variance explanation; the same comparison method can use an already adequate model. A longer horizon or different decision changes the needed relationships rather than making one cost label universally correct.
+Keeping the model separate from the option comparison makes both usable independently. The same model can support a forecast or variance explanation; the same comparison method can use an already adequate model. A longer horizon or different decision can require other resource and payment relationships.
 
 ### MA.1:11 - SoTA-Echoing
 
 The practical question is how much resource and monetary structure an internal account needs to support its use. The selected line combines causal management-cost modeling with the constraint-accounting distinction between consumed capability and payments. It adapts IMA's [Developing an Effective Managerial Costing Model][IMA2019]: model resources and their quantitative dependencies, distinguish their monetary treatment, and choose sophistication for the decision. Here those contributions change the construction and detail decision in §§4.2–4.5.
 
-At the effort of recovering a few consequential relationships, this line can distinguish the extra capacity block from a reported average that obscures it. A detailed activity or time-driven model becomes preferable when repeated decisions need the distinctions it supplies and their maintenance is worthwhile. Its use still needs adequate capacity and monetary premises.
+Recovering a few consequential relationships can distinguish the extra capacity block from a reported average that obscures it. A detailed activity or time-driven model becomes preferable when repeated decisions need the distinctions it supplies and their maintenance is worthwhile. Its use still needs adequate capacity and monetary premises.
 
 Bragg's *Throughput Accounting* (2007), printed pp.44–47 and 84–86, supplies historical examples and assumptions behind short-run comparisons. The pattern retains their attention to changed payments and capacity, while including supplier charges, setup supply and other changed flows when actual terms require them. Caspari and Caspari's *Management Dynamics* (2004), printed pp.1–11, supplies the counterexample in which local time reduction need not improve the constrained system or reduce wages. These sources inform the returned quantities and the faster-method case.
 
@@ -490,7 +490,7 @@ Use this pattern when paid capacity, used capacity and apparently idle capacity 
 
 The pattern governs an account of resource supply, usable capability, its use and its monetary consequences. It returns an explanation of what is available, what is used or reserved, and what action could change supply or payments.
 
-Use an adequate capacity account directly. The operating choice about the constraint, reserve or feasible schedule belongs to the relevant [OPS][OPS] method.
+Use an adequate capacity account directly. Use the relevant [OPS][OPS] method when deciding about the constraint, reserve or feasible schedule.
 
 ### MA.2:1 - Problem frame
 
@@ -502,7 +502,7 @@ These quantities do not have one monetary meaning. Released time can increase av
 
 An account that prices every unused hour as waste invites a reduction that may damage service. An account that treats every paid hour as available can promise work the resource cannot perform.
 
-The working difficulty is to explain both use and monetary consequence without making an accounting classification decide the operational question.
+Explain how capacity is used, what the organization pays to keep it available and what would change that payment. An operating choice also depends on the service conditions.
 
 ### MA.2:3 - Forces
 
@@ -520,9 +520,9 @@ Use the current operating account for availability, commitments and reserve. If 
 
 #### MA.2:4.2 - Explain the supplied, used and unused portions
 
-Reconcile the supplied quantity with its relevant uses and restrictions. Identify unavailable or differently committed provision, actual or expected consumption, protected reserve and any remaining unused usable capacity. Keep the categories mutually interpretable for this account; reserve can be part of available capacity while being unavailable for ordinary commitment.
+Reconcile the supplied quantity with its relevant uses and restrictions. Identify unavailable or differently committed provision, actual or expected consumption, protected reserve and remaining usable capacity available for ordinary work. Keep the categories mutually interpretable for this account; reserve can be part of available capacity while being unavailable for ordinary commitment.
 
-Investigate the reason for an apparently idle portion. It may reflect demand variation, a necessary skill mix, downtime, a minimum supplier block or inadequate demand. Preserve a disputed explanation as disputed. A utilization label is an entry cue, not a causal diagnosis.
+Investigate the reason for an apparently idle portion. It may reflect demand variation, a necessary skill mix, downtime, a minimum supplier block or inadequate demand. If the cause is in dispute, say what remains unresolved.
 
 #### MA.2:4.3 - Connect a capacity change to a supply action
 
@@ -544,13 +544,13 @@ A service purchases 100 scheduled qualified staff-hours for 2,400 in a period. A
 
 Dividing 2,400 by all 100 supplied hours gives 24 per supplied hour. Dividing it by the 50 service hours gives 48 per used service hour. Neither division establishes the payment avoided by releasing another hour.
 
-A changed method releases two service hours. Pay remains 2,400 under the arrangement. The result is two hours of released capability, subject to their actual usefulness in the schedule. Multiplying two by 24 or 48 does not establish a cash saving.
+A changed method releases two service hours. Pay remains 2,400 under the arrangement. Whether the two released hours can be used elsewhere depends on the schedule. Multiplying two by 24 or 48 does not establish a cash saving.
 
-Consider an extra request under the original arrangement, before the method change. It needs 25 hours in the same window. The supplied operating account permits ordinary commitment of only the 20 unused hours while retaining the reserve. A feasible additional block of 20 hours costs 500 under the supplied terms. The model returns the five-hour gap and the block's payment, or the question whether OPS should change the reserve or option. It does not silently consume the reserve to make the request fit.
+Consider an extra request under the original arrangement, before the method change. It needs 25 hours in the same window. The supplied operating account permits ordinary commitment of only the 20 unused hours while retaining the reserve. A feasible additional block of 20 hours costs 500 under the supplied terms. The model returns the five-hour gap and the block's payment, or the question whether OPS should change the reserve or option. The existing reserve stays protected unless the operating decision changes it.
 
 ### MA.2:6 - Bias-Annotation
 
-A high-utilization target can conceal the value of protective capacity; the label “reserve” can conceal unnecessary provision. Examine the actual operating reason and consequence.
+A high-utilization target can conceal the value of protective capacity; the label “reserve” can conceal unnecessary provision. Examine whether the service needs the reserve and what would happen if it were reduced.
 
 The period account does not establish a long-run staffing result. A later horizon can change demand, terms and the feasible supply action.
 
@@ -570,7 +570,7 @@ These checks assess the explanation. The existence of paid capacity does not est
 
 ### MA.2:9 - Consequences
 
-The user can distinguish an efficiency improvement, unused provision and an avoidable payment. This improves the information supplied to a capacity decision.
+The user can distinguish an efficiency improvement, unused provision and an avoidable payment. Supply those distinctions to whoever makes the capacity decision.
 
 The account may leave the operating choice unresolved. That is useful when its remaining question is explicit, such as the needed reserve or the feasibility of a replacement block.
 
@@ -578,7 +578,7 @@ The account may leave the operating choice unresolved. That is useful when its r
 
 Supply, capability and consumption are separated because each responds differently to action. A single hourly rate can support a defined account, but cannot carry all three meanings.
 
-The accounting method explains quantities and money while OPS decides the operating arrangement. Combining them without preserving that boundary would let a chosen denominator decide what the service can safely promise.
+The accounting method explains quantities and money. Those responsible for operations use OPS to decide what service the available resources can safely provide. The chosen utilization denominator does not establish that capacity.
 
 ### MA.2:11 - SoTA-Echoing
 
@@ -586,7 +586,7 @@ The selected line combines resource-based managerial costing with the distinctio
 
 In the historical fixture example in Caspari and Caspari's *Management Dynamics* (2004), a fixture transfers work between stations: it saves five minutes per unit at one station but adds two at the station that limits production. Total processing time falls from 55 to 52 minutes, while wages remain unchanged. When demand uses the limiting station's capacity, increasing its work from 25 to 27 minutes per unit reduces possible output. These contributions inform §§4.2–4.3 and the released-hours example.
 
-At the effort of reconciling one resource pool, this account exposes distinctions a utilization percentage hides. More detailed tracking is worthwhile when a capability or time boundary changes the decision. Reopen the account when those conditions or the supply terms change.
+Reconciling one resource pool exposes distinctions a utilization percentage hides. More detailed tracking is worthwhile when a capability or time boundary changes the decision. Reopen the account when those conditions or the supply terms change.
 
 ### MA.2:12 - Relations
 
@@ -618,7 +618,7 @@ The need to assign money does not establish that one assignment rule answers all
 
 An allocation makes an account add up, which can give the assigned number an unwarranted causal meaning. Closing a segment can then appear to avoid a payment even when the payment for the shared resource stays unchanged and only its allocation among the remaining segments changes.
 
-Refusing every assignment is also unhelpful when the receiving use legitimately requires one. The task is to supply that assignment while preserving what it actually means.
+When the receiving use requires an assignment, supply it and explain what the assigned amounts mean.
 
 ### MA.3:3 - Forces
 
@@ -662,11 +662,11 @@ A has revenue 900 and other avoidable payments of 300. B has revenue 700 and oth
 
 If A closes and all other conditions remain unchanged, the group loses its 600 contribution while the shared payment remains 1,200. B's remaining account is **700 − 200 − 1,200 = −700**. The assigned loss of 120 did not identify a 720 payment saving.
 
-If an actual permitted supply change instead avoids 300 of the shared payment in the relevant horizon, include that changed amount. The comparison now differs by **−600 + 300 = −300**, under the stated remaining premises. OPS.14 performs the choice with any further displacement, timing and feasibility consequences. Reallocating the same 1,200 does not supply this change.
+If a permitted supply change instead avoids 300 of the shared payment in the relevant horizon, include that changed amount. The comparison now differs by **−600 + 300 = −300**, under the stated remaining premises. Use OPS.14 to make the choice with any further displacement, timing and feasibility consequences. Reallocating the same 1,200 does not supply this change.
 
 ### MA.3:6 - Bias-Annotation
 
-A recipient can prefer a driver that lowers its charge. An analyst can prefer measurable activity even when it poorly explains the resource pool. Make the source purpose and evidence inspectable.
+A recipient can prefer a driver that lowers its charge. An analyst can prefer measurable activity even when it poorly explains the resource pool. Show the purpose of the assignment and the evidence for its driver.
 
 The example uses an agreed internal convention.
 
@@ -700,7 +700,7 @@ A single stable driver is adequate when it serves the agreed purpose. A more det
 
 The selected line uses managerial costing's separation of supported consumption from attribution and the throughput-accounting warning about average or allocated amounts in an incremental choice. Bragg's *Throughput Accounting* (2007), printed pp.44–47, supplies historical pricing and allocation examples; MA.1 supplies the quantitative resource construction used here.
 
-The adaptation retains an allocation when the receiving purpose needs it, while withholding an unsupported avoidance interpretation. At the effort of identifying one pool and its rule, the segment example reveals a closure loss that its allocated result conceals. Reopen the assignment when its purpose, source pool, consumption evidence or applicable rule changes.
+The adaptation retains an allocation when the receiving purpose needs it, while withholding an unsupported avoidance interpretation. In the segment example, compare the contribution lost on closure with any shared payment that can be avoided. The assigned charge alone gives neither amount. Reopen the assignment when its purpose, source pool, consumption evidence or applicable rule changes.
 
 ### MA.3:12 - Relations
 
@@ -732,7 +732,7 @@ These accounts can disagree numerically without contradicting one another. They 
 
 A profit figure is often treated as cash generated, or a management restatement as a correction to an external report. That loses recognition, valuation or settlement conditions.
 
-A reconciliation that merely inserts an unexplained balancing amount has the opposite defect: it makes totals agree while hiding the unresolved question. The practitioner needs an explicit explanation of the difference.
+A reconciliation that merely inserts an unexplained balancing amount has the opposite defect: it makes totals agree while hiding the unresolved question. Explain the difference using the relevant events, dates, account boundaries and policies, or identify what is still missing.
 
 ### MA.4:3 - Forces
 
@@ -760,7 +760,7 @@ A sufficient source account can supply aggregate movements. Reconstruct individu
 | Receivables | Opening receivables + recognized credit sales − customer settlements = closing receivables |
 | Payables | Opening payables + purchases or resource supply on credit − supplier settlements = closing payables |
 
-Use each account's actual recognition and valuation rules to fill the terms. Physical production can be the same in two views while the cost admitted to inventory differs. Carry opening inventory on the corresponding view's basis and apply its rule for identifying the cost released when goods are sold. Purchases, consumption and payment are separate events; equating them would erase the difference being explained.
+Use each account's recognition and valuation rules to fill the terms. Physical production can be the same in two views while the cost admitted to inventory differs. Carry opening inventory on the corresponding view's basis and apply its rule for identifying the cost released when goods are sold. Purchases, consumption and payment are separate events; equating them would erase the difference being explained.
 
 Extend the movement account when other events occur. A write-down changes inventory without buying or selling units. A customer advance may create a liability before revenue is earned. An equipment purchase, depreciation or financing transaction needs its own balance and flow treatment. Obtain that treatment from the responsible reporting or financial practice. Locate an unexplained residual in the missing event, valuation, period or scope; an invented balancing entry cannot explain it.
 
@@ -782,7 +782,7 @@ Show enough intermediate amounts to expose an omitted term and reconcile to the 
 
 #### MA.4:4.4 - Return the reconciled views and any discrepancy
 
-Preserve each account for its warranted use and return the explanation connecting them. If a source is wrong, identify the correction for its responsible process. A management model does not silently amend a statutory account.
+Preserve each account for its warranted use and return the explanation connecting them. If a source is wrong, return the correction to whoever maintains it. A statutory account must be corrected through the applicable reporting process.
 
 Supply the required monetary basis to the receiving operating or financial method. If funding is at issue, use the whole timed cash position, including other relevant receipts and obligations.
 
@@ -796,7 +796,7 @@ Under the example's supplied full-production-cost policy, eligible cost is 500, 
 
 An internal throughput-style account carries only materials in inventory and expenses the 300 resource supply in the period. Materials in the 60 sold units cost 120; closing material-valued inventory is 80. Its result is **600 − 120 − 300 = 180**.
 
-The accounts connect explicitly:
+The table reconciles the two results and the cash movement.
 
 | Connection | Calculation | Result |
 | --- | --- | ---: |
@@ -858,19 +858,19 @@ Arithmetic establishes the connection under those premises. Policy applicability
 
 ### MA.4:9 - Consequences
 
-The user can explain apparently conflicting accounts and choose the monetary basis the receiving decision needs. An actual error becomes distinguishable from a valid difference in purpose or timing.
+The user can explain apparently conflicting accounts and choose the monetary basis the receiving decision needs. An error becomes distinguishable from a valid difference in purpose or timing.
 
 The work can require specialist interpretation of a reporting policy. A completed management bridge does not confer that reporting authority or supply missing event evidence.
 
 ### MA.4:10 - Architectural Rationale
 
-The method connects views through their subjects, events and rules because a shared monetary unit does not give them a shared meaning. It preserves the views instead of manufacturing one universal profit number.
+The method connects views through their subjects, events and rules because a shared monetary unit does not give them a shared meaning. Retain each view for the use its rules support.
 
 A small bridge is preferable when a few known balance movements explain the difference. Event-level reconstruction becomes worthwhile when the aggregate no longer locates the discrepancy.
 
 ### MA.4:11 - SoTA-Echoing
 
-The method distinguishes internal from externally required accounts and uses the inventory bridge discussed in Bragg's *Throughput Accounting* (2007), printed pp.111–112. It adapts that explanation to explicit policies and actual settlements rather than treating a management view as a substitute for required reporting.
+The method distinguishes internal from externally required accounts and uses the inventory bridge discussed in Bragg's *Throughput Accounting* (2007), printed pp.111–112. Apply the policies for each view and use the settlements that occurred. Follow the applicable reporting rules when preparing a required report.
 
 [IAS 2][IAS2] provides a relevant external-reporting comparator: inventory cost and its later recognition as expense have rules that differ from simply recording cash paid. Its applicability and detailed requirements belong to the reporting question. Here that distinction changes §§4.1–4.3 and the inventory example.
 
@@ -920,7 +920,7 @@ Actions taken in response to a forecast can change the outcome. Later evaluation
 
 State who will use the forecast, what decision or preparation it could change and when that action must occur. Choose a horizon long enough for the relevant response.
 
-Recover the adequate existing account and forecast. Determine whether the missing answer concerns demand, resource conversion, money, timing or uncertainty. Avoid requesting details that the receiving use would not act on.
+Recover the adequate existing account and forecast. Determine whether the missing answer concerns demand, resource conversion, money, timing or uncertainty. Request further detail only if it could change the decision or preparation the forecast informs.
 
 #### MA.5:4.2 - Construct compatible demand inputs
 
@@ -946,9 +946,9 @@ A resource shortage can require a changed schedule, scope or supply arrangement.
 
 Use a range, scenarios or a supported probabilistic model according to the question and available evidence. Preserve dependencies between uncertain inputs when independently combining favorable values would create an implausible case.
 
-Inspect the conditions that can change feasibility, a payment block or the useful response. A forecast need not specify every contingency to reveal a decisive capacity threshold. If a material input cannot be estimated adequately, state the conditional conclusion or exact unresolved question.
+Inspect the conditions that can change feasibility, a payment block or the useful response. A forecast need not specify every contingency to reveal a decisive capacity threshold. If a material input cannot be estimated adequately, state the conditional conclusion or identify the question the missing input leaves open.
 
-Represent uncertainty in forecast revenue and receipts at the detail needed for their use. Uncertainty does not by itself prohibit forecasting them; it limits the conclusions a particular forecast can support.
+Represent uncertainty in forecast revenue and receipts at the detail needed for their use. State which conclusions the available evidence supports.
 
 #### MA.5:4.5 - Return the forecast and usable response conditions
 
@@ -960,11 +960,11 @@ The forecast does not authorize that response. Use the responsible operating or 
 
 Revise the affected assumptions when new evidence or an actual decision changes them. Preserve the earlier forecast at the level needed to explain the change or learn from it; do not overwrite its premises and then claim it predicted the result.
 
-When comparing with actual outcomes, distinguish changed external conditions, estimation error, bias and actions taken in response. Action taken in response to a forecast can prevent the adverse outcome it describes and explain a numerical difference. This does not by itself prove the forecasting model was accurate. Examine the claim and comparison actually needed.
+When comparing with actual outcomes, distinguish changed external conditions, estimation error, bias and actions taken in response. Action taken in response to a forecast can prevent the adverse outcome it describes and explain a numerical difference. This does not by itself prove the forecasting model was accurate. Choose a comparison that can test the forecast claim under its stated conditions.
 
 Choose refresh timing from the pace of relevant change and the receiving action. A rolling window can help; refreshing unchanged detail on a calendar alone can consume effort without improving the result.
 
-A target gap can initiate design work through MA.10. Preserve the outlook under the existing arrangement while constructing the proposed alternative's outlook from its changed offer, work and provision. The target is not a demand observation. If a design change affects both price and service behavior, revise both dependencies rather than changing only a cost assumption. MA.9 supplies a missing arrangement for people to use and challenge the resulting expectations before commitments are made.
+A target gap can initiate design work through MA.10. Preserve the outlook under the existing arrangement while constructing the proposed alternative's outlook from its changed offer, work and provision. The target is not a demand observation. If a design change affects both price and service behavior, revise both dependencies rather than changing only a cost assumption. MA.9 supplies a missing arrangement for participants to use and challenge the resulting expectations before commitments are made.
 
 ### MA.5:5 - Archetypal Grounding
 
@@ -976,7 +976,7 @@ Assume unchanged demand conditions and no relevant trend or seasonality for this
 
 The account also considers two separate conditions. A channel interruption would remove twenty of the forty residual units, while a proposed campaign could bring twenty additional units beyond the benchmark. Neither changes the sixty booked units under the supplied premises. The interruption branch gives **80**; the campaign branch gives **120**. The campaign effect is additional to the normal residual population. These are alternative planning scenarios, not probabilities or effects to add simultaneously. In practice, obtain the channel and campaign evidence that makes their effects plausible. If the stable-demand premise fails and no replacement estimate is supported, retain conditional scenarios or obtain a better forecast.
 
-A reader who already has adequate 80/100/120 scenarios can enter the following conversion directly.
+A reader who has adequate 80/100/120 scenarios can enter the following conversion directly.
 
 #### MA.5:5.2 - Convert and revise the supplied scenarios
 
@@ -994,7 +994,7 @@ The original workload fits the 38 hours through **112 units**, since (38 − 10)
 
 If new evidence changes the central scenario to 96 units, its resource demand becomes **34 hours**, materials **288** and sales **960**. The existing supply payment remains 120. Updating every amount by four percent would wrongly reduce that unchanged payment.
 
-If the team instead obtains extra capacity in response to the high scenario, the revised forecast includes that decision under its actual terms. Later outcomes are compared with the conditions of each forecast.
+If the team instead obtains extra capacity in response to the high scenario, the revised forecast includes that decision under the terms on which the capacity was obtained. Later outcomes are compared with the conditions of each forecast.
 
 ### MA.5:6 - Bias-Annotation
 
@@ -1012,7 +1012,7 @@ A constructed scenario demonstrates a conditional consequence. Forecast calibrat
 
 **Adding orders to a total-demand forecast.** Establish which population the forecast already includes before adding a residual.
 
-**Scaling every cost with volume.** Preserve actual supply thresholds and unchanged payments.
+**Scaling every cost with volume.** Preserve the supply thresholds and unchanged payments.
 
 **Treating an adverse forecast as a failed promise.** Recover its conditions and the decision it was intended to inform.
 
@@ -1034,15 +1034,15 @@ A stable simple forecast can be adequate for a stable use. Scenarios are useful 
 
 The selected line uses Bogsnes's *Implementing Beyond Budgeting*, second edition (2016), printed pp.159–166: forecasts describe expected consequences, should be timely and actionable, and can use scenarios where a point number conceals uncertainty. The current [Beyond Budgeting principles][BB] retain a lean forecasting process distinct from targets and resource allocation.
 
-This changes §§4.1–4.6 by tying horizon and detail to use and preserving responses when learning from outcomes. The pattern qualifies the source's strong external-versus-internal accuracy distinction: intervention changes what comparison is warranted; it does not prohibit evaluating a clearly specified conditional forecast.
+This changes §§4.1–4.6 by tying horizon and detail to use and preserving responses when learning from outcomes. The pattern qualifies the source's strong external-versus-internal accuracy distinction: intervention changes what comparison is warranted; it does not prohibit evaluating a specified conditional forecast.
 
 Hyndman and Athanasopoulos, *Forecasting: Principles and Practice*, third edition, develops the complementary construction: [chapter 6](https://otexts.com/fpp3/judgmental.html) relates judgment to available data and information, [§6.5](https://otexts.com/fpp3/scenarios.html) builds scenarios from drivers and their interactions, and [§5.8](https://otexts.com/fpp3/accuracy.html) separates fitting from accuracy on held-out observations. §§4.2–4.4 apply these distinctions to the accounting population and its resource consequences. The purpose separation in Beyond Budgeting does not itself supply a demand predictor.
 
-The simple residual benchmark makes the input obtainable, while three resource scenarios reveal a supply threshold. Reopen the affected construction when the response horizon, demand basis, dependencies or relevant uncertainty changes; do not require a fitted predictive model for every useful stipulated scenario.
+The simple residual benchmark makes the input obtainable, while three resource scenarios reveal a supply threshold. Reopen the affected construction when the response horizon, demand basis, dependencies or relevant uncertainty changes. A stipulated scenario can support its conditional calculation without a fitted predictive model.
 
 ### MA.5:12 - Relations
 
-MA.1–MA.4 supply resource and account construction. MA.6 separates forecast, target and resource decisions; MA.7 explains differences; MA.8 supplies cohort or product assumptions. OPS and the relevant financial practice use the forecast for their decisions.
+MA.1–MA.4 supply resource and account construction. MA.6 separates forecast, target and resource decisions; MA.7 explains differences; MA.8 supplies cohort or product assumptions. Those responsible for operating and financial decisions can use the forecast in their respective work.
 
 ### MA.5:End
 
@@ -1058,13 +1058,13 @@ Use this pattern when one number is expected to predict demand, express ambition
 
 The pattern governs the connected meanings and uses of forecasts, targets and requested or authorized resources. It returns distinguishable accounts and the gap or decision they expose.
 
-Keep an adequate existing separation. This method does not require replacing every organizational budgeting arrangement.
+Keep an adequate existing separation.
 
 ### MA.6:1 - Problem frame
 
 A team may expect demand of 100, aspire to serve 120 and seek resources adequate for 130 under a higher-demand scenario. Its approved provision may support only 110. Each number can be legitimate under its own assumptions.
 
-Their differences help people decide whether to change an action, ambition or resource arrangement. Requiring the values to agree before showing them can erase that useful information.
+Their differences help participants decide whether to change an action, ambition or resource arrangement. Requiring the values to agree before showing them can erase that useful information.
 
 ### MA.6:2 - Problem
 
@@ -1084,11 +1084,11 @@ These accounts can use different horizons and revision rules. Their comparison r
 
 Ask what the number is meant to do: describe an expectation, set an ambition, request resources or record an authorization. Identify the relevant participant, period, quantity and assumptions.
 
-Use the actual meaning rather than the file's label. A document called “forecast” can contain a negotiated spending envelope; a budget can legitimately contain several distinct accounts.
+Read each number according to how it is used. A document called “forecast” can contain a negotiated spending envelope; a budget can legitimately contain several distinct accounts.
 
 #### MA.6:4.2 - Give the meanings their own revision and decision rules
 
-Construct the forecast from adequate evidence and assumptions through MA.5. Use [OPS.21](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops21---choose-operating-aims-targets-and-comparisons) when the responsible management practice needs to construct the operating aim, target or comparison; reuse a sufficient supplied basis. Obtain actual resource decisions from their holders, with [OPS.13](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops13---align-commitments-resources-and-service-outcomes) for supported service commitments and [OPS.19](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops19---reconcile-simultaneous-operating-work-across-cases-and-scales) when contributions compete for shared provision. State how each result is revised and who can make the relevant decision.
+Construct the forecast from adequate evidence and assumptions through MA.5. Use [OPS.21](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops21---choose-operating-aims-targets-and-comparisons) when the responsible management practice needs to construct the operating aim, target or comparison; reuse a sufficient supplied basis. Obtain resource decisions from those authorized to make them, with [OPS.13](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops13---align-commitments-resources-and-service-outcomes) for supported service commitments and [OPS.19](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops19---reconcile-simultaneous-operating-work-across-cases-and-scales) when contributions compete for shared provision. State how each result is revised and who can make the relevant decision.
 
 Separate a request from a granted resource amount and from actual usable provision. A forecast revision does not itself authorize spending.
 
@@ -1106,7 +1106,7 @@ Do not close the gap by editing the expectation to equal the authorized number. 
 
 Show the expectation, ambition, request and authorization at enough detail to locate the next decision. Preserve the forecast's original assumptions when a later choice changes them.
 
-When the use of these accounts remains in question, observe whether people can report an unwelcome expectation and whether decisions about resources take that expectation into account. MA.9 constructs a missing information-use arrangement and examines persistent behavioral effects; the responsible organizational practice supplies a wider change in management arrangements.
+When the use of these accounts remains in question, observe whether participants can report an unwelcome expectation and whether decisions about resources take that expectation into account. MA.9 constructs a missing information-use arrangement and examines persistent behavioral effects; the responsible organizational practice supplies a wider change in management arrangements.
 
 ### MA.6:5 - Archetypal Grounding
 
@@ -1121,7 +1121,7 @@ For one period and a supplied service mix, the team expects demand of **100 unit
 
 The granted 110 does not make demand 110. It also does not establish that the ambition of 120 is feasible. The team returns the resource gap to the competent decision maker while keeping the 100 forecast available.
 
-If a changed market action warrants a new demand expectation of 115, update the forecast and explain its new assumptions. The gap against authorized capability is now five units under the supplied comparison basis. The target remains 120 and authorized capability remains 110 until the responsible people revise them under their applicable rules.
+If a changed market action warrants a new demand expectation of 115, update the forecast and explain its new assumptions. The gap against authorized capability is now five units under the supplied comparison basis. The target remains 120 and authorized capability remains 110 until those authorized to revise each one do so under the applicable rules.
 
 ### MA.6:6 - Bias-Annotation
 
@@ -1131,7 +1131,7 @@ A controller may interpret separation as loss of control. Distinguishing an expe
 
 ### MA.6:7 - Conformance Checklist
 
-Examine whether each number's use, period and assumptions are clear; forecasts, ambitions, requests and authorizations remain distinguishable; their comparison uses an adequate common basis; revision and authority rules are explicit where needed; and the gap leads to a meaningful decision.
+Check each number’s use, period and assumptions. Can the reader distinguish forecasts, ambitions, requests and authorizations and compare them on a suitable basis? State the revision rules and decision authority where needed, and identify the decision the gap calls for.
 
 Different labels alone do not establish the separation in practice. Actual use and incentives can combine the meanings.
 
@@ -1141,25 +1141,25 @@ Different labels alone do not establish the separation in practice. Actual use a
 
 **Replacing one confused number with disconnected accounts.** Retain the comparison and the decision each gap needs.
 
-**Treating separation as a spending grant.** Obtain the authorization and usable provision required by the actual action.
+**Treating separation as a spending grant.** Obtain the authorization and usable provision the action requires.
 
 ### MA.6:9 - Consequences
 
 The user can see an adverse expectation, ambitious target and resource constraint together. This can improve the next decision without forcing all quantities to agree.
 
-The change can expose previously hidden conflicts and requires people to use the numbers consistently. A wider management change may be needed if incentives continue to penalize accurate reporting.
+The change can expose previously hidden conflicts and depends on consistent use of the numbers. A wider management change may be needed if incentives continue to penalize accurate reporting.
 
 ### MA.6:10 - Architectural Rationale
 
 The meanings are separated because expectation, aspiration and authorization have different truth and decision conditions. Their relationships show which management or resource decision is needed.
 
-A conventional budget remains usable when it preserves those distinctions for the required work. A broader Beyond Budgeting arrangement can be appropriate when its organizational and management changes address the actual problem; it is not a prerequisite for clarifying four numbers.
+A conventional budget remains usable when it preserves those distinctions for the required work. A broader Beyond Budgeting arrangement can be appropriate when its organizational and management changes address the actual problem.
 
 ### MA.6:11 - SoTA-Echoing
 
 The selected line adopts the purpose separation explained by Bogsnes (2016), printed pp.139–142, and retained in the Beyond Budgeting principles. It changes §§4.1–4.3 by allowing different numbers with connected uses and decision rules.
 
-The pattern adapts the wider organizational proposal to a small first result: a forecast, target and resource account can be distinguished before redesigning the whole management system. At that effort, the 100/120/130/110 case reveals decisions a single negotiated figure conceals. Reopen the arrangement when actual use again merges the meanings or a changed organizational context requires a wider method.
+The pattern adapts the wider organizational proposal to a small first result: a forecast, target and resource account can be distinguished before redesigning the whole management system. The 100/120/130/110 case reveals decisions a single negotiated figure conceals. Reopen the arrangement when actual use again merges the meanings or a changed organizational context requires a wider method.
 
 ### MA.6:12 - Relations
 
@@ -1175,7 +1175,7 @@ MA.5 constructs the expectation. MA.1–MA.2 translate workload into adequate re
 
 ### MA.7:0 - Use this when
 
-Use this pattern when a cost, margin or other account differs from a comparison value and the explanation could change a response. Begin with the actual difference before attributing it to performance.
+Use this pattern when a cost, margin or other account differs from a comparison value and the explanation could change a response. Begin with the difference between those values before attributing it to performance.
 
 The pattern governs an explanation of an accounting difference. It returns a comparable basis, an adequate decomposition and supported or unresolved explanations of the causes that matter.
 
@@ -1217,11 +1217,11 @@ For an activity and product-mix explanation, construct the following comparisons
 
 1. **Reference activity and composition.** Recover the original output quantities, resource requirements and prices.
 2. **Actual total activity at reference composition.** Apply the original product proportions to actual total output, retaining reference consumption and prices. This isolates volume under that convention. Use a meaningful common activity unit; incompatible products may need separate families or another supported activity measure.
-3. **Actual composition at reference requirements.** Insert actual output by product, still using the reference resource requirement for each product and reference prices. The difference from the preceding account is the mix component.
-4. **Actual consumption at reference prices.** Insert the material or other resource quantities actually consumed. Compare them with the requirements of the actual product mix. This leaves a within-product usage question instead of attributing every change in the aggregate average to waste.
+3. **Actual composition at reference requirements.** Insert actual output by product, using the reference resource requirement for each product and reference prices. The difference from the preceding account is the mix component.
+4. **Actual consumption at reference prices.** Insert the quantities of material or other resources consumed. Compare them with the requirements of the actual product mix. This leaves a within-product usage question instead of attributing every change in the aggregate average to waste.
 5. **Actual consumption and actual prices.** Insert the actual prices to reach the actual monetary total. Any remaining recognition or measurement difference must be explained on its own account basis.
 
-The model determines which comparisons are useful. A paid block, reserve or commitment can remain unchanged over several activity levels, then change at a threshold. Recalculate that supply relationship at each stage instead of multiplying every payment by a volume ratio. If changing one factor while retaining another would describe an incoherent or unsupported combination, use an adequately supported combined component or leave that separation unresolved. A convenient table does not make an impossible comparison meaningful.
+The model determines which comparisons are useful. A paid block, reserve or commitment can remain unchanged over several activity levels, then change at a threshold. Recalculate that supply relationship at each stage instead of multiplying every payment by a volume ratio. If changing one factor while retaining another would describe an incoherent or unsupported combination, use an adequately supported combined component or leave that separation unresolved.
 
 Reconcile the components to the total. Keep a residual visible if the model or observations cannot explain it. When more detail explains a component, replace that parent component with its subdivisions in the total; do not count both. A smaller decomposition is sufficient when further separation cannot change the response.
 
@@ -1229,7 +1229,7 @@ Preserve the original plan or forecast when that is the comparison being explain
 
 #### MA.7:4.3 - Test the explanation behind the arithmetic
 
-Ask what actually changed each consequential component. Compare operating evidence, terms and relevant conditions. Higher material use per accepted unit might follow a harder product mix, failed attempts, a measurement change or a process defect.
+Ask what changed each consequential component. Compare operating evidence, terms and relevant conditions. Higher material use per accepted unit might follow a harder product mix, failed attempts, a measurement change or a process defect.
 
 Distinguish association and assigned arithmetic effect from a supported causal explanation. Investigate the rival explanations that would lead to different actions. If adequate evidence is unavailable, return the bounded uncertainty and the next observation or specialist result that could resolve it.
 
@@ -1258,7 +1258,7 @@ Using the stated order volume, usage, then price:
 
 The decomposition is complete arithmetically. It does not establish that the extra 0.5 material units were waste. If the actual workload included a different product mix legitimately requiring more material, the comparison needs that distinction. If the mix is unchanged and adequate records identify failed attempts, the process question becomes more specific. A changed measuring convention would instead require repairing the account.
 
-Another valid decomposition order can assign interaction amounts differently. Retain the chosen convention rather than using a component's exact size as independent evidence of causal responsibility.
+Another valid decomposition order can assign interaction amounts differently. Keep the chosen convention visible. A component’s size can depend on that convention and, by itself, cannot establish what caused the difference or who was responsible for it.
 
 #### MA.7:5.2 - Reconstruct the comparison when product mix changes
 
@@ -1282,13 +1282,13 @@ If evidence supports a persistent move toward product B, MA.5 can update the fut
 
 ### MA.7:6 - Bias-Annotation
 
-A manager can prefer an explanation outside their control; an evaluator can prefer one inside it. Test explanations against actual conditions and evidence.
+A manager can prefer an explanation outside their control; an evaluator can prefer one inside it. Test the explanations against the conditions and evidence in the case.
 
 ### MA.7:7 - Conformance Checklist
 
-Examine whether the comparison uses adequate subjects, periods and account rules; consequential components reconcile to the total; the decomposition convention is clear where needed; causal claims have support beyond arithmetic; and unresolved explanations lead to a useful next question.
+Check the subjects, periods and account rules used for the comparison. Do the consequential components reconcile to the total? Is the decomposition convention clear where it matters? Look for evidence beyond the arithmetic for each causal claim, and identify the next question when an explanation remains open.
 
-A zero arithmetic residual establishes numerical closure under the model. It does not establish causal closure.
+A zero residual means the components account for the whole numerical difference under the model. What caused the difference can still be unknown.
 
 ### MA.7:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -1322,7 +1322,7 @@ ACCA's [flexible-budget treatment](https://www.accaglobal.com/gb/en/student/exam
 
 ### MA.7:12 - Relations
 
-MA.1–MA.4 supply model and account meanings. MA.5 consumes supported changed assumptions; MA.9 examines behavioral explanations. An established resource or demand change can also invalidate an activity design: MA.10 then reconstructs an economically supportable alternative. The arithmetic difference alone does not establish that such a redesign is needed. OPS.15 supplies event and observation definitions, and the relevant operating or financial method decides the response. C.11.DUA supports a disputed further-inquiry choice.
+MA.1–MA.4 supply model and account meanings. MA.5 consumes supported changed assumptions; MA.9 examines behavioral explanations. An established resource or demand change can also invalidate an activity design: MA.10 then reconstructs an economically supportable alternative. The arithmetic difference alone does not establish that such a redesign is needed. OPS.15 supplies event and observation definitions, and those responsible for the operating or financial decision use the relevant method to choose a response. C.11.DUA supports a disputed further-inquiry choice.
 
 ### MA.7:End
 
@@ -1390,11 +1390,11 @@ Use an appropriate supplied forecast through MA.5 when behavior needs estimation
 
 #### MA.8:4.4 - Establish the continuation and scale assumptions
 
-Use a model appropriate to the actual relationship. A subscription can provide an observable renewal or termination event. A customer who makes no purchase this month may merely be between purchases; treat their future activity with an adequate model for that setting.
+Use a model appropriate to the customer relationship. A subscription can provide an observable renewal or termination event. A customer who makes no purchase this month may merely be between purchases; treat their future activity with an adequate model for that setting.
 
 Inspect whether behavior changes with tenure, cohort, channel or proposed scale. A constant rate can be a supplied scenario assumption; an aggregate historical rate does not establish that it applies to every customer or future period.
 
-Check how scale changes acquisition and resource supply. A larger audience may cost more to reach, while a new server, service team or warranty obligation can change the cost pattern. Neither falling unit cost nor rising acquisition cost is a universal law.
+Check how scale changes acquisition and resource supply. A larger audience may cost more to reach, while a new server, service team or warranty obligation can change the cost pattern.
 
 #### MA.8:4.5 - Compare the whole account and the future change
 
@@ -1404,7 +1404,7 @@ Test the plausible changes that could alter the decision: retention, service int
 
 For a continuation or expansion choice, establish the future baseline without the proposed action, including obligations already created. Construct the alternative with its changed quantities, supply and obligations at the same dates. Subtract the baseline from the alternative to obtain the future difference. Historical development, acquisition or production can explain cumulative recovery without becoming an avoidable payment. An obligation common to both futures cancels from their difference but remains in each whole cash account.
 
-Supply the qualified future differences to OPS.14 or the responsible financial practice. Use the whole dated cash account for liquidity, including unchanged obligations and other receipts. Discounting, taxes, risk and financing require the applicable financial method; an undiscounted operating total does not decide those questions.
+Supply the qualified future differences to OPS.14 or the responsible financial practice. Use the whole dated cash account for liquidity, including unchanged obligations and other receipts. Discounting, taxes, risk and financing require the applicable financial method.
 
 If the whole product or customer account fails a required economic condition and a suitable alternative is not yet known, use MA.10 to construct one with the responsible design practices. This can change the offer, population, service model or provision rather than merely improve a cost number. Rebuild the affected time and obligation account here. If an adequate alternative is already supplied, this account construction and the receiving comparison can suffice.
 
@@ -1412,7 +1412,7 @@ If the whole product or customer account fails a required economic condition and
 
 #### MA.8:5.1 - Keep acquisition and cohort continuation distinct
 
-A constructed subscription cohort acquires 100 customers at 20 each, paid initially: **2,000**. The scenario assumes 80% renewal into each next month, and 10 of receipt less relevant service payments per active customer per month. Its three-month account is:
+Suppose a business pays **2,000** at the outset to acquire a cohort of 100 subscribers at 20 each. The scenario assumes 80% renewal into each next month, and 10 of receipt less relevant service payments per active customer per month. Its three-month account is:
 
 | Month | Active customers under the scenario | Period net service flow |
 | --- | ---: | ---: |
@@ -1420,7 +1420,7 @@ A constructed subscription cohort acquires 100 customers at 20 each, paid initia
 | 2 | 80 | **800** |
 | 3 | 64 | **640** |
 
-The three-month service total is **2,440**, leaving **440 after acquisition spending** on this undiscounted basis. These are conditional flows, with no other changing flows under the supplied scenario. This account omits flows after month 3.
+The three-month service total is **2,440**, leaving **440 after acquisition spending** on this undiscounted basis. The scenario assumes no other changing flows in those three months.
 
 Before month 2, the original acquisition payment is already spent. Count the original 2,000 once in the cumulative account. Compare continuation with stopping using the future flows that change and the applicable obligations.
 
@@ -1446,7 +1446,7 @@ Now stand at the end of year 1. The development and production payments, and the
 
 The additional option changes the future account by **1,800 − 960 − 240 = 600**. Without it, the remaining old obligations produce net future flow of −600; with it, total future flow over years 2–3 is zero. The favorable **difference** does not erase either obligation. Nor does it settle liquidity: production is paid before the new receipts, so the whole account by payment date is needed.
 
-An alternative design requires another 300 before that production and reduces the new service payment from 240 to 120 in year 3. Against the original additional-sales option, it changes this limited undiscounted account by **−300 + (240 − 120) = −180**. Any further claim for quality, revenue or risk reduction needs its own supported consequence. A lower later service cost alone does not make the whole alternative better.
+An alternative design requires another 300 before that production and reduces the new service payment from 240 to 120 in year 3. Against the original additional-sales option, it changes this limited undiscounted account by **−300 + (240 − 120) = −180**. Any further claim for quality, revenue or risk reduction needs its own supported consequence.
 
 Changing the payment date returns to the timed account. Changing an obligation returns to FDM; changing the required work or capacity returns to MA.1–MA.2 and the operating decision. The historical account remains useful for understanding the product's full result while the current comparison uses what the choice can still change.
 
@@ -1454,11 +1454,11 @@ Changing the payment date returns to the timed account. Changing an obligation r
 
 Successful early cohorts can bias an expansion forecast. Acquisition channel, customer mix and capacity may change as the service grows.
 
-A short account can understate later value or cost. Extending the horizon without supported continuation assumptions can instead overstate what is known. Name the actual horizon and decision use.
+A short account can understate later value or cost. Extending the horizon without supported continuation assumptions can instead overstate what is known. State the horizon and what the account is meant to explain or help decide.
 
 ### MA.8:7 - Conformance Checklist
 
-Examine whether the unit, cohort and decision time are clear; the horizon and account basis are explicit; cohort ages align to calendar periods; acquisition, product phases and later obligations have adequate meanings and timing; continuation and scale assumptions are warranted or qualified; and historical spending is distinguishable from future changes.
+Check the unit, cohort, decision time, horizon and accounting basis. Align each cohort’s age to calendar periods. Identify the resource and monetary flows from acquisition, each product phase and later obligations, and when those flows occur. Check the grounds or limits of assumptions about continuation and scale, and distinguish historical spending from the future flows the choice can change.
 
 A conditional account supports the stated scenario. Actual retention, causal marketing effects and financial valuation require their corresponding evidence and methods.
 
@@ -1484,7 +1484,7 @@ Longer horizons increase dependence on behavioral and resource assumptions. A qu
 
 The method organizes flows around the population and time of the decision because acquisition and continuation do not concern identical future consequences. Resource modeling reveals when serving more customers changes capacity needs and payments.
 
-A simple cohort table is adequate for a bounded scenario. A richer purchasing, retention or product-life model is justified when its distinctions can change the use and can be supported. The account supplies financial inputs without replacing valuation or financing methods.
+A simple cohort table is adequate for a bounded scenario. A richer purchasing, retention or product-life model is justified when its distinctions can change the use and can be supported. Use the account as an input to valuation or financing when the decision calls for it.
 
 ### MA.8:11 - SoTA-Echoing
 
@@ -1510,7 +1510,7 @@ MA.1–MA.4 supply resource and account meanings, MA.5 the conditional outlook a
 
 ### MA.9:0 - Use this when
 
-Use this pattern when a new or changed decision arrangement needs accounting information that people can use, or when the current use appears to encourage inventory building, cost transfer, concealed expectations or another harmful action.
+Use this pattern when a new or changed decision arrangement needs accounting information its participants can use, or when the current use appears to encourage inventory building, cost transfer, concealed expectations or another harmful action.
 
 The pattern governs the relation between information and the actions it is intended to support. It returns a workable account and use arrangement, a warranted repair, or a supported reason to retain the current arrangement. A proposed arrangement includes the consequences by which its actual use can be examined.
 
@@ -1518,15 +1518,15 @@ Use an adequate arrangement directly. The existence of a target or allocation al
 
 ### MA.9:1 - Problem frame
 
-People act within measurement and decision arrangements. A lower reported unit cost can earn approval while consuming more cash and producing unwanted inventory. A forecast used to negotiate resources can encourage biased expectations.
+Participants act within measurement and decision arrangements. A lower reported unit cost can earn approval while consuming more cash and producing unwanted inventory. A forecast used to negotiate resources can encourage biased expectations.
 
 Before any harmful effect is observed, participants may lack the information needed to coordinate a consequential choice. A monthly report can arrive after capacity has been promised; a shared cost can be attributed to a team that cannot change its provision. Designing the report alone leaves its connection to action unresolved.
 
-The account can influence behavior alongside demand, operational constraints, authority and other incentives. A useful construction or repair establishes enough of that connection for people to act and for its consequences to be examined.
+The account can influence behavior alongside demand, operational constraints, authority and other incentives. A useful construction or repair establishes enough of that connection for participants to act and for its consequences to be examined.
 
 ### MA.9:2 - Problem
 
-How can an account help the relevant people make and coordinate decisions, and how can its actual effects be examined when the result is disappointing?
+How can an account help participants make and coordinate decisions, and how can its actual effects be examined when the result is disappointing?
 
 A metric improvement is often treated as the intended outcome. When the metric omits a consequence, locally rational action can make the wider result worse.
 
@@ -1536,7 +1536,7 @@ Blaming the account for every undesirable action is equally weak. Changing its f
 
 Measures simplify work and make some effects easier to see. A more comprehensive measure may be harder to interpret and can create different incentives.
 
-Construction and repair should address the actual decision arrangement at warranted effort. Information that arrives too late or costs more to interpret than the decision warrants can fail despite accurate measurement. Adding more targets can increase burden without correcting the reason people acted as they did.
+Construction and repair should address the actual decision arrangement at warranted effort. Information that arrives too late or costs more to interpret than the decision warrants can fail despite accurate measurement. Adding more targets can increase burden without correcting why participants acted as they did.
 
 ### MA.9:4 - Solution
 
@@ -1544,23 +1544,23 @@ For a new or substantially changed use, construct its relation to action in §4.
 
 #### MA.9:4.0 - Construct the information use with the decision arrangement
 
-Begin with the actual choice or coordination that needs to become possible. Identify the participants who can act, the actions they can take, the consequences they need to understand, and when a decision can still change those consequences. Distinguish information for a person's own decision from information used by someone else to allocate resources or judge that person's performance.
+Begin with the choice or coordination that needs to become possible. Identify the participants who can act, the actions they can take, the consequences they need to understand, and when a decision can still change those consequences. Distinguish information for a participant’s own decision from information another participant uses to allocate resources or judge the first participant’s performance.
 
 Work back to the smallest useful account. An order commitment may need remaining qualified capacity and its payment consequences before acceptance. A pricing choice may need expected demand, the relevant future costs and conditions of provision. A performance discussion may need the agreed aim, actual result, changed conditions and an explanation of contributions. Construct missing economic meanings through the relevant MA methods; obtain operating aims and performance judgement through OPS.21 and OPS.22 when those results are missing.
 
-Choose the comparison for this use. A historical full-cost account can explain recovery while an incremental account informs a new action. A forecast can support capacity provision without becoming the employee's promised performance. Preserve the basis of an expectation when a later decision changes the activity it described. This permits people to learn from the forecast without pretending that the world and subsequent actions remained unchanged.
+Choose the comparison for this use. A historical full-cost account can explain recovery while an incremental account informs a new action. A forecast can support capacity provision without becoming the employee's promised performance. Preserve the basis of an expectation when a later decision changes the activity it described. Participants can then interpret the original forecast in light of the conditions and actions that followed.
 
 Connect the account to work: who supplies and interprets the input, when it is available, who can challenge a material premise, and which decision uses the result? Use existing conversations and reports when they suffice. More frequent reporting is useful only when earlier information can change action enough to justify obtaining and interpreting it. Missing information can be supplied as a bound or explicit conditional account rather than false precision.
 
-Examine responsibility and joint consequences. Participants should be able to distinguish an outcome they influence from a common provision cost or an external change. This does not require deleting uncontrollable consequences from the whole account. Provide the distinction needed for the decision or attribution, and make relevant effects on other units visible. A transfer charge that helps one unit decide can still need a companion account of shared consequences.
+Examine responsibility and joint consequences. Participants should be able to distinguish an outcome they influence from a common provision cost or an external change. Keep uncontrollable consequences relevant to the whole result in the account. Provide the distinction needed for the decision or attribution, and make relevant effects on other units visible. A transfer charge that helps one unit decide can still need a companion account of shared consequences.
 
 Before making a new arrangement routine, work through materially different plausible actions with its participants. Does the information distinguish those actions? Can a locally attractive action impair the intended joint result? Can an unfavorable expectation be reported and used? Revise the account, its timing or interpretation where this comparison reveals a failure. A contemplated change to rights, rewards or authority remains a proposal for the responsible organizational decision.
 
-When the arrangement is put into use, examine what actually happens. Whether information arrived, was understood, changed the choice and improved the intended result are different questions. Observations can justify retaining a simple arrangement, revising its model or timing, or investigating a behavioral explanation through the operations below. The constructed comparison provides an initial basis; it does not establish a later causal effect.
+When the arrangement is put into use, examine what happens. Whether information arrived, was understood, changed the choice and improved the intended result are different questions. Observations can justify retaining a simple arrangement, revising its model or timing, or investigating a behavioral explanation through the operations below. The constructed comparison provides an initial basis; it does not establish a later causal effect.
 
-#### MA.9:4.1 - Recover the account and how people use it
+#### MA.9:4.1 - Recover the account and how participants use it
 
-Identify the measured quantity, calculation, participant and decision or reward it affects. Ask the affected people what actions they can take and how the account enters the choice.
+Identify the measured quantity, calculation, participant and decision or reward it affects. Establish with the affected participants what actions they can take and how the account enters the choice. Use their accounts or records of the decision as the situation allows.
 
 Recover the intended result and the relevant resource, monetary and service consequences. MA.1–MA.4 supply missing meanings; MA.6 distinguishes a forecast from a target or resource request.
 
@@ -1582,7 +1582,7 @@ Choose the smallest change that addresses the established problem: clarify a den
 
 When performance interpretation is the missing contribution, [OPS.22](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops22---interpret-operating-performance-and-decide-the-response) develops the judgement from the aim, result, changed conditions, participants' actions and joint consequences. If the aim or comparison itself is unsound, [OPS.21](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops21---choose-operating-aims-targets-and-comparisons) reconstructs it. Use an adequate existing interpretation directly.
 
-If the repair changes reward or authority arrangements, use [OCE][OCE] to plan the necessary organizational work and have the responsible people make the change effective.
+If the repair changes reward or authority arrangements, use [OCE][OCE] to plan the necessary organizational work and have those responsible make the change effective.
 
 Specify what observable consequence would indicate improvement or a new problem. Revisit the actual use after the change, keeping changes in demand and other conditions available for interpretation.
 
@@ -1606,7 +1606,7 @@ Two service units are preparing commitments that use one pool of qualified speci
 
 The manager and the units construct a weekly account of expected work by due date and qualification, accepted commitments, available specialist time, and the terms of any obtainable extra provision. MA.5 supplies a missing expectation; MA.1 and MA.2 supply missing conversion and provision relationships. The account aggregates competing work before comparing it with common capacity. Each unit supplies its supported expectation and identifies changes; the manager decides about joint provision or commitment with the responsible operating practice.
 
-Suppose the current expectations require 80 and 100 specialist-hours, with 200 available and a warranted reserve of 20. The account shows that ordinary expected work already uses the provision remaining after that reserve. A proposed additional commitment requiring 30 hours therefore needs a real change in scope, sequence or provision. Its favorable margin does not supply those hours. OPS.19 can resolve the joint operating choice; an unresolved conflict remains visible before the promise is made.
+Suppose the current expectations require 80 and 100 specialist-hours, with 200 available and a warranted reserve of 20. The account shows that ordinary expected work already uses the provision remaining after that reserve. A proposed additional commitment requiring 30 hours therefore needs a change in scope, sequence or provision. Its favorable margin does not supply those hours. OPS.19 can resolve the joint operating choice; an unresolved conflict remains visible before the promise is made.
 
 The participants also test how the arrangement treats new information. If the second unit now supports an expectation of 110 hours, it reports that change rather than preserving 100 to appear on target. The whole expected load becomes 190, leaving a ten-hour conflict with the protected reserve. The manager can act on it. A subsequent choice to defer work changes the conditions for the next expectation; the earlier forecast is not silently rewritten as if the deferral had already been known.
 
@@ -1614,13 +1614,13 @@ The initial exercise establishes that the account exposes the shared condition a
 
 ### MA.9:6 - Bias-Annotation
 
-A critic of performance measures can overattribute behavior to the metric; the person who designed it can dismiss inconvenient effects as misuse. Examine the actual arrangement and rival causes.
+A critic of performance measures can overattribute behavior to the metric; its designer can dismiss inconvenient effects as misuse. Examine the actual arrangement and rival causes.
 
 ### MA.9:7 - Conformance Checklist
 
 For a new use, examine whether the intended decision, participants, available actions and timing determine the account and its comparison; whether plausible actions can be distinguished; and whether material joint consequences and responsibility are understandable. For an established arrangement, examine its actual use and the supported explanation of any consequential divergence. In both cases, preserve needed information and distinguish the constructed comparison from evidence of actual effects.
 
-An arithmetic incentive example establishes a possible mechanism. Actual behavioral improvement needs evidence from the changed arrangement.
+An arithmetic incentive example establishes a possible mechanism. To establish improvement, examine behavior under the changed arrangement.
 
 ### MA.9:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -1646,13 +1646,13 @@ A clarified interpretation can be sufficient for a bounded misuse. Wider measure
 
 The selected line combines the constraint-accounting critique of local cost optimization with Bogsnes's distinction between expectations and negotiated performance numbers. Bragg's inventory discussion and Caspari and Caspari's fixture case supply historical mechanisms by which a local account can conceal a wider consequence.
 
-IMA's [2014 conceptual framework][CFMC] connects cost information with managerial application; the [2023 Global Management Accounting Principles][GMAP] situates that use within management and resource decisions. §4.0 develops the information-use construction; §§4.1–4.3 examine actual effects and rival causes. Neither a useful initial design nor an arithmetic incentive example establishes actual causal improvement.
+IMA's [2014 conceptual framework][CFMC] connects cost information with managerial application; the [2023 Global Management Accounting Principles][GMAP] situates that use within management and resource decisions. §4.0 develops the information-use construction; §§4.1–4.3 examine actual effects and rival causes.
 
 Reopen the repair when observed behavior, decision use or the required information changes, or when the supposed improvement moves burden elsewhere.
 
 ### MA.9:12 - Relations
 
-MA.1–MA.4 explain resource and account effects; MA.5–MA.6 clarify forecasts, targets and resources; MA.7 separates arithmetic differences from causal explanations; MA.8 supplies longer-term customer or product consequences. OCE guides wider organizational change; the responsible people decide and make it effective under the applicable rules. C.11.DUA supports an unresolved further-inquiry decision.
+MA.1–MA.4 explain resource and account effects; MA.5–MA.6 clarify forecasts, targets and resources; MA.7 separates arithmetic differences from causal explanations; MA.8 supplies longer-term customer or product consequences. OCE guides wider organizational change; those with the relevant authority decide on the change and those responsible put it into effect under the applicable rules. C.11.DUA supports an unresolved further-inquiry decision.
 
 ### MA.9:End
 
@@ -1666,7 +1666,7 @@ MA.1–MA.4 explain resource and account effects; MA.5–MA.6 clarify forecasts,
 
 Use this method when an intended product, service or other activity must satisfy an economic requirement, but no adequately supported arrangement yet does so. Examples include an offer that cannot earn the required return at an acceptable price, a service that exceeds available funding, or an improvement whose local savings leave the whole activity uneconomic.
 
-The result is an economically explained design or set of alternatives, with the conditions needed for its use. The result may instead be a supported incompatibility that returns the requirement, scope or provision to the responsible decision. The method develops the economic construction with the people who can design the offer, work and provision; it does not grant permission to launch or change their work.
+Develop the alternatives with those who design the offer, work and provision. The result is an economically explained design or set of alternatives, with the conditions needed for its use. If you establish that the available arrangements cannot deliver the required result under its conditions, return the incompatibility to whoever can reconsider the requirement, scope or provision. Launching a design or changing others’ work requires the applicable authority.
 
 If adequate alternatives already exist and only their operating consequences need comparison, use OPS.14. Use MA.8 when the unresolved contribution is their product or customer account over time. A short supported calculation can finish this method; a cross-functional redesign is needed only where the actual dependencies require it.
 
@@ -1678,7 +1678,7 @@ A usable alternative can require coordinated changes: a different product featur
 
 ### MA.10:2 - Problem
 
-How can participants use an economic requirement to find and substantiate a workable arrangement, while preserving the intended result and exposing the conditions under which the requirement can actually be met?
+How can participants use an economic requirement to find and substantiate a workable arrangement, while preserving the intended result and exposing the conditions under which the requirement can be met?
 
 ### MA.10:3 - Forces
 
@@ -1688,7 +1688,7 @@ Retaining every feature and commitment can make the requirement unattainable. Ch
 
 ### MA.10:4 - Solution
 
-Develop the requirement and the proposed arrangement together. Enter at the unresolved contribution below, retain adequate supplied results, and revisit earlier assumptions when a constructed alternative changes them. The operations are connected by the design question, not by a requirement to complete every operation in a fixed order.
+Develop the requirement and the proposed arrangement together. Enter at the unresolved contribution below, retain adequate supplied results, and revisit earlier assumptions when a constructed alternative changes them. The design question determines how these operations fit together.
 
 #### MA.10:4.1 - Establish the result, criterion and freedom to change
 
@@ -1696,7 +1696,7 @@ Recover who needs what result, how its achievement is recognized, and the period
 
 For a commercial offer, use an adequate account of customer use, alternatives and price conditions; [MKT.2][MKT2] supplies the offer construction when it is missing. Expected receipts require support for both price and demand. For a funded service, retain its intended result and funding terms without inventing a selling price. If the economic criterion itself is disputed, obtain the responsible choice or compare explicit alternatives to that criterion.
 
-Translate the criterion into a condition on the whole activity. If revenue is R and the required operating margin is m of revenue, an allowance C <= R(1 - m) follows only for the costs and period included in that margin. A markup k on cost instead gives C <= R/(1 + k). Define the basis before using either expression. A fixed funding ceiling constrains the expenditure it actually covers; it is not automatically a ceiling on every resource consumed or obligation created. For a capital investment, use [FIN.6][FIN6] for valuation with the applicable financial assumptions.
+Translate the criterion into a condition on the whole activity. If revenue is R and the required operating margin is m of revenue, an allowance C <= R(1 - m) follows only for the costs and period included in that margin. A markup k on cost instead gives C <= R/(1 + k). Define the basis before using either expression. A fixed funding ceiling constrains the expenditure it covers; it is not automatically a ceiling on every resource consumed or obligation created. For a capital investment, use [FIN.6][FIN6] for valuation with the applicable financial assumptions.
 
 Keep demand, revenue, resource limits and the criterion explicit where they can change the result. Their values may be conditional or intervals. An allowance is a consequence of those assumptions, not evidence that an arrangement satisfying it exists.
 
@@ -1706,7 +1706,7 @@ Construct the current or proposed activity's economic account at sufficient deta
 
 Locate the dependencies that make the proposed arrangement miss the requirement. Is the problem unnecessary work, a feature that requires expensive provision, poor yield, an indivisible supply block, low demand relative to an initial commitment, or terms that place a payment before funding is available? Distinguish a resource mechanism, a commercial term and an accounting assignment. Changing an allocation does not change the underlying burden unless the changed use of information also changes action.
 
-Work back from the gap to dependencies that participants can change. A support cost may depend on failure modes established in product design; travel may depend on the service promise and location of provision; a capacity payment may depend on combining or separating workloads. This locates design questions. It does not require distributing the total gap as independent departmental saving targets. An apparently expensive activity can be necessary for the result or can prevent a larger cost elsewhere.
+Work back from the gap to dependencies that participants can change. A support cost may depend on failure modes established in product design; travel may depend on the service promise and location of provision; a capacity payment may depend on combining or separating workloads. Use those dependencies to locate the design questions. An apparently expensive activity can be necessary for the result or can prevent a larger cost elsewhere.
 
 #### MA.10:4.3 - Construct joint alternatives with the responsible participants
 
@@ -1736,7 +1736,7 @@ An unresolved premise can leave a conditional alternative, a justified next expe
 
 #### MA.10:4.6 - Use the result and revise the economic knowledge
 
-Return the supported alternatives and remaining conditions to the people choosing or authorizing the work. Make clear which commitments the chosen arrangement needs and which conclusions would change if they are not obtained. MA.9 arranges the use of the account when participants otherwise lack a workable way to act on it.
+Return the supported alternatives and remaining conditions to those who choose or authorize the work. Make clear which commitments the chosen arrangement needs and which conclusions would change if they are not obtained. MA.9 arranges the use of the account when participants otherwise lack a workable way to act on it.
 
 After a trial or implementation, compare the observed activity and consequences with the relationships used in the design. MA.7 can locate a cost or margin difference; further evidence establishes its cause. Revise a resource dependency, demand assumption, contractual interpretation or information use where warranted. Retain knowledge whose conditions still hold. If the intended result or economic requirement changes, reconsider the affected design rather than merely issuing a new cost target.
 
@@ -1748,9 +1748,9 @@ A constructed proposal expects 1,000 units at a supported scenario price of 100 
 
 The initial design requires development of 20,000, manufacture of 75 per unit and expected support and closure of 15 per unit: total 110,000. The 30,000 gap cannot be removed by changing an allocation. Engineering identifies component variety and assembly operations as manufacturing drivers and inaccessible replaceable parts as a support driver. The useful result and safety requirements remain fixed in the exploration.
 
-A first proposed simplification leaves development at 20,000, reduces manufacture to 60 per unit and support to 10. Its 90,000 total still misses the allowance. A more integrated design uses common components and accessible replaceable modules. The engineering estimates, conditional on tests of function, assembly and service, are development of 30,000, manufacture of 40 per unit and support of 8. Its whole cost is 78,000 and surplus 22,000. The extra 10,000 of development is worthwhile under these premises because it enables the combined change in later work. No independent departmental saving targets establish that relationship.
+A first proposed simplification leaves development at 20,000, reduces manufacture to 60 per unit and support to 10. Its 90,000 total still misses the allowance. A more integrated design uses common components and accessible replaceable modules. The engineering estimates, conditional on tests of function, assembly and service, are development of 30,000, manufacture of 40 per unit and support of 8. Its whole cost is 78,000 and surplus 22,000. The extra 10,000 of development is worthwhile under these premises because it enables the combined change in later work.
 
-This is a conditional alternative, not a demonstrated market and engineering success. The team needs evidence that the altered offer still supports the price and demand, and that the estimated work and service behavior are achievable. Suppose these tests support the resource relationship for volumes between 800 and 1,000. At 800 units, cost becomes 30,000 + 48 x 800 = 68,400, revenue 80,000 and surplus 11,600. The required surplus is 16,000. The design now misses the requirement by 4,400, even though its resource estimates remain valid.
+The alternative depends on both market and engineering conditions. The team needs evidence that the altered offer still supports the price and demand, and that the estimated work and service behavior are achievable. Suppose these tests support the resource relationship for volumes between 800 and 1,000. At 800 units, cost becomes 30,000 + 48 x 800 = 68,400, revenue 80,000 and surplus 11,600. The required surplus is 16,000. The design now misses the requirement by 4,400, even though its resource estimates remain valid.
 
 For these stipulated relationships, meeting the margin requires 30,000 + 48Q <= 80Q, hence at least 938 whole units. This threshold tells the inquiry which demand question matters; it does not create demand. A price reduction to 95 at 1,000 units would instead reduce the allowance to 76,000 and reopen the design or criterion. If development must be paid before receipts and only 25,000 is available for it after other obligations, a separate 5,000 funding gap remains even in the favorable operating case.
 
@@ -1758,7 +1758,7 @@ For these stipulated relationships, meeting the margin requires 30,000 + 48Q <= 
 
 A public service must complete 300 qualified assistance cases within a five-day access condition. Its funding limit for the period is 60,000. There is no sales price or profit target. Under the initial arrangement, staffed provision costs 50,000 and travel costs 18,000. Case work needs 600 hours and travel 300, but only 750 qualified hours are available. The design fails both the funding and capacity conditions.
 
-The team investigates grouped visits at local sites. Under the proposed arrangement, travel would require 150 hours and cost 6,000, while local coordination would cost 4,000. The same 600 case hours plus travel fit 750, and total expenditure fits 60,000. This proposal changes service locations, schedules and coordination, not merely the denominator of cost per case.
+The team investigates grouped visits at local sites. Under the proposed arrangement, travel would require 150 hours and cost 6,000, while local coordination would cost 4,000. The same 600 case hours plus travel fit 750, and total expenditure fits 60,000. The proposal changes service locations, schedules and coordination.
 
 Judge the proposal against the access condition and the work required of its participants. If grouping leaves remote recipients waiting longer than five days, the proposal fails even though its financial and staffing totals fit. If it relies on unpaid local help, that work and the helpers' agreement must be made explicit; it is not a demonstrated reduction in total resource use. The team must construct a mixed provision arrangement, obtain different resources or return an explicit change of scope or access condition to the responsible authority. Replacing the missed requirement with an average waiting time would conceal the unresolved problem.
 
@@ -1766,7 +1766,7 @@ The commercial case searches for an offer and design that meet a conditional mar
 
 ### MA.10:6 - Bias-Annotation
 
-A stated target can anchor attention on cost reduction and obscure a better result, a changed offer or declining the proposal. Designers can underestimate later support; accountants can mistake a monetary assignment for an avoidable resource burden. Include the relationships that can change the judgement, with appropriate evidence and alternatives, rather than assuming any one profession already supplies the whole explanation.
+A stated target can anchor attention on cost reduction and obscure a better result, a changed offer or declining the proposal. Designers can underestimate later support; accountants can mistake a monetary assignment for an avoidable resource burden. Include the relationships that can change the judgement, with appropriate evidence and alternatives.
 
 ### MA.10:7 - Conformance Checklist
 
@@ -1794,11 +1794,11 @@ A forward account answers what follows from an arrangement. The inverse question
 
 ### MA.10:11 - SoTA-Echoing
 
-[ACCA's target and life-cycle costing explanation][TARGET] connects an economic allowance with design and later costs. Its teaching examples are useful grounds for the inverse question; general claims about fixed percentages of committed cost or the superiority of one costing method are not premises here. [IMA's 2014 conceptual framework][CFMC] contributes resource relationships and their application to managerial choices. [The 2023 Global Management Accounting Principles][GMAP] provides a broader professional context.
+[ACCA's target and life-cycle costing explanation][TARGET] uses teaching examples to connect an economic allowance with design and later costs. That connection supports working back from a requirement to an alternative design. Which costs this design commits, and how one costing method compares with another, need evidence for the case. [IMA's 2014 conceptual framework][CFMC] contributes resource relationships and their application to managerial choices. [The 2023 Global Management Accounting Principles][GMAP] provides a broader professional context.
 
 ### MA.10:12 - Relations
 
-MA.1, MA.2, MA.4, MA.5 and MA.8 supply missing resource, monetary, forecast and time constructions. MA.3 separates assignment from changed burden. MA.6 preserves the distinction between a requirement and expectation; MA.7 helps learn from observed differences; MA.9 connects the account to its use. MKT.2, SYSE.2 and SYSE.8 supply offer, system and provision constructions where needed. ECO.2, ECO.3 and ECO.4 address substitutions and exchange coordination. OPS.14 and OPS.19 supply the operating comparison and joint operating decision. FIN.2 and FIN.6 supply liquidity and capital-valuation judgements where needed; the responsible people retain authority over the financial decision.
+MA.1, MA.2, MA.4, MA.5 and MA.8 supply missing resource, monetary, forecast and time constructions. MA.3 separates assignment from changed burden. MA.6 preserves the distinction between a requirement and expectation; MA.7 helps learn from observed differences; MA.9 connects the account to its use. MKT.2, SYSE.2 and SYSE.8 supply offer, system and provision constructions where needed. ECO.2, ECO.3 and ECO.4 address substitutions and exchange coordination. OPS.14 and OPS.19 supply the operating comparison and joint operating decision. FIN.2 and FIN.6 supply liquidity and capital-valuation judgements where needed; the financial decision remains with those authorized to make it.
 
 ### MA.10:End
 
@@ -1811,6 +1811,11 @@ Copyright © Anatoly Levenchuk. The original framework text and worked examples 
 ## MA.Sources:1 - Edition record
 
 **MA 1.0** is the first edition of *Management Accounting Principles Framework*, containing MA.1–MA.10. Cite this edition with the pattern and section, for example **MA 1.0, MA.2:5**.
+
+Section links from the earlier edition
+
+- MA-E6 — [People need information before they can coordinate action](https://github.com/ailev/FPF/blob/1e57ccda08ebbb9d49b7b2190bc2740b72075a13/DPFs/Management%20DPF%20Suite/MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma-e6--people-need-information-before-they-can-coordinate-action) → [Information needed before a joint commitment](#ma-e6--information-needed-before-a-joint-commitment)
+- MA.9:4.1 — [Recover the account and how people use it](https://github.com/ailev/FPF/blob/1e57ccda08ebbb9d49b7b2190bc2740b72075a13/DPFs/Management%20DPF%20Suite/MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma941---recover-the-account-and-how-people-use-it) → [Recover the account and how participants use it](#ma941---recover-the-account-and-how-participants-use-it)
 
 ## MA.Sources:2 - Source locators
 

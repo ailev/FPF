@@ -5,10 +5,10 @@
 > A pattern language for recognizing, representing, shaping, performing, learning and observing rhythmic relations.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 24 October 2026 · [Edition and reuse](#edition-and-reuse)
+- **Edition date:** 24 October 2026 · [Edition and reuse](#edition-and-reuse)
 - **License:** © 2026 Anatoly Levenchuk. Original framework text: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Third-party material retains its own terms.
 
-Begin with the passage and the result you need. The Table of Contents supports direct use; the Readme shows selected combinations; the Architectural Reference explains their conditions, sources and architectural reasons. **RHY** is this framework's reference code. Its pattern numbers are addresses; the Parts group reading rather than prescribe work order.
+Start with the passage and the result you need. The Table of Contents locates the Methods, the Readme shows how they can work together, and the Architectural Reference explains their conditions, sources and why they are organized this way. Cite RHY and the relevant Method or Reference section. The Parts group related Methods for reading.
 
 Find this framework in the [FPF Library DPF catalogue](https://github.com/ailev/FPF/tree/main/DPFs).
 
@@ -41,7 +41,7 @@ Find this framework in the [FPF Library DPF catalogue](https://github.com/ailev/
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [RHY.1 - Locate the Rhythmic Difficulty in a Performed Activity](#rhy1---locate-the-rhythmic-difficulty-in-a-performed-activity) | Stable | pulse; accent; timing complaint. What should change in this passage? | A recognizable performed activity; RHY.2–.4 when the contrast exposes their question. |
+| 1 | [RHY.1 - Locate the Rhythmic Difficulty in a Performed Activity](#rhy1---locate-the-rhythmic-difficulty-in-a-performed-activity) | Stable | pulse; accent; timing complaint. Where does the difficulty occur, and what could address it? | A recognizable performed activity; RHY.2–.4 when the contrast exposes their question. |
 | 2 | [RHY.2 - Select the Changes and Relations Needed to Understand a Rhythm](#rhy2---select-the-changes-and-relations-needed-to-understand-a-rhythm) | Stable | onset; duration; movement; grouping. Which changes and relations must the account preserve? | The receiving rhythmic question; FPF A.22 for selecting a structure. |
 | 3 | [RHY.3 - Shape Rhythmic Articulation while Preserving Needed Continuity](#rhy3---shape-rhythmic-articulation-while-preserving-needed-continuity) | Stable | continuous motion; sustain; accent. How can an articulation retain the continuing contribution? | RHY.2 when the needed contribution is unclear; relevant performing technique. |
 | 4 | [RHY.4 - Distinguish and Align Timing Events in Rhythmic Performance](#rhy4---distinguish-and-align-timing-events-in-rhythmic-performance) | Stable | perceptual center (P-center); attack; weight arrival; partner cue. Which events and timing relation does this task need? | RHY.2 for the selected events; RHY.10 when shared correction is needed. |
@@ -50,9 +50,9 @@ Find this framework in the [FPF Library DPF catalogue](https://github.com/ailev/
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [RHY.5 - Choose a Rhythmic Representation for the Intended Work](#rhy5---choose-a-rhythmic-representation-for-the-intended-work) | Stable | syllables; gesture; score; drum stroke. Which representation supports the intended operation? | A named use and interpreting convention; NOT for general representation work. |
-| 2 | [RHY.6 - Translate a Rhythm without Erasing Needed Distinctions](#rhy6---translate-a-rhythm-without-erasing-needed-distinctions) | Stable | translation; duration; rest; cycle phase. What would this change of notation erase? | RHY.5 or an existing representation; an available source for omitted distinctions. |
-| 3 | [RHY.7 - Characterize and Compare Rhythmic Structures for a Named Decision](#rhy7---characterize-and-compare-rhythmic-structures-for-a-named-decision) | Stable | intervals; complexity; similarity; comparison. Which difference matters to this decision? | RHY.2/.5 for the compared structures; observation where the claim concerns response. |
+| 1 | [RHY.5 - Choose a Rhythmic Representation for the Intended Work](#rhy5---choose-a-rhythmic-representation-for-the-intended-work) | Stable | syllables; gesture; score; drum stroke. Which representation supports the intended operation? | An intended use and interpreting convention. Use Notational Engineering for general representation work. |
+| 2 | [RHY.6 - Translate a Rhythm without Erasing Needed Distinctions](#rhy6---translate-a-rhythm-without-erasing-needed-distinctions) | Stable | translation; duration; rest; cycle phase. Which needed distinctions will the translation preserve or leave unresolved? | RHY.5 or an existing representation. Recover a missing distinction from an available source, or state the limit. |
+| 3 | [RHY.7 - Characterize and Compare Rhythmic Structures for a Stated Question](#rhy7---characterize-and-compare-rhythmic-structures-for-a-stated-question) | Stable | intervals; complexity; similarity; comparison. Which difference matters to the comparison or decision? | RHY.2/.5 for the compared structures; observation where the claim concerns response. |
 | 4 | [RHY.8 - Specify and Transform Performable Rhythmic Variants](#rhy8---specify-and-transform-performable-rhythmic-variants) | Stable | variation; transformation; feasibility. How can a variant preserve what the performance needs? | RHY.2/.7 when structure or comparison is unresolved; RHY.9 for its performing arrangement. |
 
 ## Part III - Arrange and coordinate performance
@@ -69,81 +69,81 @@ Find this framework in the [FPF Library DPF catalogue](https://github.com/ailev/
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | [RHY.12 - Develop Rhythmic Capability through Representative Practice](#rhy12---develop-rhythmic-capability-through-representative-practice) | Stable | representative practice; whole phrase; balance; assistance. What practice addresses this failure? | Human performing technique; HCD.6/.9/.10 when task, feedback or practice schedule needs design. |
 | 2 | [RHY.13 - Test Transfer, Retention, and Support Dependence of Rhythmic Capability](#rhy13---test-transfer-retention-and-support-dependence-of-rhythmic-capability) | Stable | transfer; retention; support dependence. What can the performer now do under the needed condition? | An adequately specified task and available comparison; HCD.12/.13 for human probe design. |
-| 3 | [RHY.14 - Observe and Compare Rhythmic Performance and Response](#rhy14---observe-and-compare-rhythmic-performance-and-response) | Stable | observation; matching; omission; movement; response. What does the available observation establish? | The receiving decision; FPF C.16 and A.19.CPM for measurement and comparison conditions. |
+| 3 | [RHY.14 - Observe and Compare Rhythmic Performance and Response](#rhy14---observe-and-compare-rhythmic-performance-and-response) | Stable | observation; matching; omission; movement; response. What does the available observation establish? | The observation or decision needed. Use FPF C.16 and A.19.CPM for measurement and comparison conditions. |
 
 # Embodied Rhythmics Principles Framework Readme
 
 ## Practical entries
 
-These are selected examples of using the language. Bring the question from your work. If none fits, use the Table of Contents to find the relevant action, difficulty or result and open the pattern directly.
+Bring a question from your own rhythmic work. The following cases offer starting points. Use the Table of Contents for a different action, difficulty or result.
 
-You can ask an assisting agent: “Explain this and give me your comments in ordinary language, without framework jargon.” Describe the passage, what you need to do and what happens now. A short demonstration may communicate a rhythmic relation better than another label.
+Describe the passage, what is planned or has happened, and what you need to find out or do. You can work directly or ask an agent to analyze the passage, give its assessment in the ordinary language of your practice or help design a correction. A short demonstration can communicate a rhythmic relation that a label leaves unclear.
 
 ### RHY-DIRECT-01 — Recover a duration lost in a change of notation
 
 - **Situation:** A syllable string retains the attacks from a score, but the performer cannot tell when to stop the sound.
 - **Question:** What information must accompany the string for this use?
-- **First useful result or blocker:** A translation with an explicit duration or an available demonstration; otherwise the source remains insufficient to determine it.
+- **First useful result or blocker:** A translation or an available timed demonstration that shows the required duration, or a finding that the available source leaves it undetermined.
 - **Start with:** RHY.6, using the source score or performance and the receiving convention.
-- **Stop or return:** Stop when the intended operation preserves the needed relation. Return to the source if the notation leaves a consequential choice open.
+- **Stop or return:** Use the translation when it preserves the relation needed for the operation. If duration remains unclear, consult a source that establishes it or report the limit when none is available.
 
 ### Practical-Use Cards
 
-These examples retain longer connections among methods. Start at the first unresolved contribution; an already usable result need not be produced again.
+These cases connect several Methods. Start where the work needs a contribution, and use results already established under suitable conditions.
 
 #### RHY-CARD-01 — Make a variation work with a partner
 
 - **Situation:** An ornament is easy alone but makes the next shared movement fail.
 - **Question:** What must change while retaining the passage the pair wants?
-- **First useful result or blocker:** A localized relation and a correction to try, or a missing performing contribution.
-- **Mantra:** Find the difficulty; preserve the continuing action; make the cue usable; combine the contributions; return to the whole.
+- **First useful result or blocker:** A finding about the relation that failed, a suitable correction to try, or a performing contribution that is still missing.
+- **Working reminder:** Locate the difficulty, keep the action that must continue and make the cue usable to the partner. Assess the combination in the whole figure, using an existing observation or a trial when needed.
 - **Start with:** RHY.1–.4 for the contrast and relation; RHY.8–.11 for a changed variant, allocation, reference or simultaneous combination.
-- **Stop or return:** Keep a usable variant under its demonstrated conditions. Use RHY.12 for a human capability difficulty and RHY.14 when the observation cannot yet distinguish the alternatives. Reopen only the contribution affected by a changed partner, tempo or passage.
+- **Stop or return:** Keep a usable variant under the conditions in which it worked. Use RHY.12 for a human capability the performer needs to develop and RHY.14 to assess what an observation establishes. If the tempo, passage or partner changes, check whether the change affects a result on which you rely.
 
 #### RHY-CARD-02 — Turn a supported exercise into an available capability
 
 - **Situation:** A learner succeeds with counting, a gesture or a simplified movement but fails in the intended performance.
 - **Question:** Which relation or constituent capability is missing, and which support still matters?
-- **First useful result or blocker:** A representative exercise followed by a bounded answer about the needed performance, or a prerequisite requiring other instruction.
-- **Mantra:** Supply enough information; practise the failing relation; restore the whole; change the condition that matters; retain only the conclusion the attempt supports.
+- **First useful result or blocker:** A finding about performance with the relevant support or without it, a representative exercise and attempt addressing the missing relation, or a prerequisite for other instruction.
+- **Working reminder:** Supply the information needed for the task. For learning, practise the missing relation and return to the whole action. For assessment, identify what the observed conditions and assistance support.
 - **Start with:** RHY.2/.5/.6 for the task information, RHY.12 for practice and RHY.13 for the particular transfer, retention or support question.
-- **Stop or return:** Stop when the next teaching or performing decision is supported. A balance or instrumental-technique difficulty returns to its own instruction. A newly introduced demand must not be mistaken for forgetting.
+- **Stop or return:** Return the finding needed for the teaching or performance question. If the work requires the performer to develop a missing balance or instrumental skill, use appropriate technique instruction. If the later task adds a new demand, distinguish its effect from a loss of previously available ability.
 
 #### RHY-CARD-03 — Make a rhythmic practice available to its next users
 
 - **Situation:** A recording or syllable sheet survives, but another group cannot obtain the intended way of performing or varying the phrase.
-- **Question:** What must remain available, and what can the receiving group actually use?
+- **Question:** What must remain available for this passage, and what can the receiving group already use?
 - **First useful result or blocker:** A usable receiving arrangement, an identified missing contribution or a bounded dependence on help.
-- **Mantra:** Preserve the needed relation; make the method and help obtainable; enable receiving performance; distinguish support from independence; arrange continuation.
+- **Working reminder:** Preserve the needed relation. Make the way of performing it and any needed help available to the receiving group. Establish what the group performs and which support it uses. Plan continuation when the case requires it.
 - **Start with:** RHY.2/.5/.6 and FPF C.36.RP; for music and dance use MDPE.17–.19, with RHY.9–.13 for the relevant performing and learning contribution.
-- **Stop or return:** A supported local use is a valid result. Stronger retention or cultural-continuation claims need their own basis. Repair the carrier, access, technique or receiving arrangement that prevents the next use.
+- **Stop or return:** Report the local use and its support conditions. A claim about later retention or cultural continuation requires evidence at that scope. If asked to restore access, address the obstacle to obtaining or using the carrier, instruction, technique or receiving arrangement.
 
 #### RHY-CARD-04 — Respond to a changing rhythmic practice
 
 - **Situation:** One variant is appearing more often, and someone proposes changing what performers learn or preserve.
-- **Question:** Which possible development would change the present choice?
-- **First useful result or blocker:** A qualified keep, change or preserve-alternatives decision, or a material unknown that prevents it.
-- **Mantra:** Name the decision and population; distinguish the variants; compare possible explanations; choose a useful response; investigate only a consequential unknown.
+- **Question:** What has changed in the observed practice? Which possible development matters to the proposed teaching or preservation decision?
+- **First useful result or blocker:** A finding about the observed change, or a material limit on what the evidence establishes. When a choice is requested, return the grounded recommendation or authorized decision to keep, change or preserve alternatives. If uncertainty prevents the choice, identify what remains unresolved.
+- **Working reminder:** Identify the population and question, distinguish the variants and compare explanations. Use the evidence that a choice requires and weigh any further inquiry against its cost.
 - **Start with:** MDPE.20 for musical or dance development; RHY.2/.7/.8 for structures and variants, RHY.9–.14 for the performance or response that the decision needs.
-- **Stop or return:** A choice may remain useful with the mechanism unresolved. Reopen when the population, observing procedure, performing constraint or decision changes. Use a suitable field method for cultural claims outside music and dance.
+- **Stop or return:** The group may have grounds for its choice while the population mechanism remains unknown. Reconsider the affected conclusion when the population, observation conditions, performing constraint or purpose changes. For a cultural claim outside music and dance, use an appropriate method and evidence for that field.
 
 # Embodied Rhythmics Principles Framework Architectural Reference
 
 ## RHY.Reference:1 - Problem frame - Work with performed rhythm
 
-This language helps performers, teachers, choreographers, musicians and designers of performing systems work on rhythmic relations. A relation may concern attacks and rests, continuing movement, accent, timing, grouping, a shared reference or the coordination of several contributions. The useful question is what somebody needs to do with that relation: recognize it, represent it, alter it, perform it, teach it or obtain an observation that changes a choice.
+Use these Methods to work with attacks, rests, sustained sound or movement, accent, timing, grouping, a shared reference and other rhythmic relations. Identify what the work requires, such as recognizing a relation, representing or varying it, performing it, teaching it or describing what happened. The intended use determines which details matter.
 
-The reader needs enough knowledge of the activity to recognize the selected passage and judge the result, or access to someone who can supply that knowledge. Designing an explanation of a phrase, practising it and evaluating a robot's timing require different preparation. The methods help locate a missing contribution; they do not supply every instrumental, bodily, statistical or engineering technique.
+Use knowledge of the activity sufficient to recognize the passage and judge the result, or obtain the contribution you need from a qualified source. Explaining a phrase, developing a bodily action and evaluating a robot’s timing require different preparation. Use the relevant performing, engineering or statistical expertise when the question depends on it.
 
-Begin with the available material and the next use. A familiar correction can be tried directly. The longer routes help when several plausible corrections, representations or contributing methods must be distinguished.
+Begin with the available material and its intended use. Retain a familiar correction that already works. When it is a reasonable candidate for the passage, try it directly if the result is not yet known. When different corrections, representations or contributing Methods could change the answer, examine the difference that matters.
 
 ## RHY.Reference:2 - Problem - The useful relation disappears between descriptions and actions
 
 A person can count a figure and place the feet on the count while the partner still cannot use its timing. A syllable string can preserve attacks while losing sustain and rest. A mathematically clear variant may require a movement the performer cannot yet execute. A successful assisted attempt may cease to work when the assistance disappears.
 
-These difficulties occur at different connections. A representation must preserve the relation needed by its user. A performing arrangement must make the required actions and cues available together. Practice must develop the relevant contribution and restore it to the intended whole. An observation must distinguish the alternatives which matter to the next decision. The language supplies separate methods for these operations so that one failure need not restart all the others.
+Different failures call for different work. A representation has to preserve what its user needs. An arrangement must supply the actions and cues required together. A learning task must develop the relevant contribution and return it to the intended whole. An observation must cover the result or distinguish the alternatives in question. Address the missing relation and keep the results that remain supported.
 
-A surviving description also leaves a cultural question: who can obtain and use the way of working after the original performer or teacher is unavailable? The framework connects its rhythmic results to existing methods for transmission and continuation.
+A surviving description raises a further question when someone needs the practice. Can the next user or group obtain and perform the work after the original performer or teacher becomes unavailable? Use the relevant Methods for transmission and continuation to answer that question.
 
 ## RHY.Reference:3 - Forces - Preserve the relation at an affordable cost
 
@@ -153,143 +153,143 @@ A surviving description also leaves a cultural question: who can obtain and use 
 | A clear articulation and a continuing contribution | Making an accent stronger can interrupt the sound, movement or contact which the rest of the performance needs. |
 | A convenient timing measure and the participant's task | The detected attack, felt arrival and partner-readable cue can call for different corrections. |
 | Practicable exercise and the intended whole | Removing a difficult constituent can permit practice while also removing the relation that had to be learned. |
-| A trustworthy conclusion and limited time | An existing observation can settle the next choice. A stronger transfer, retention or population claim may require different evidence. |
+| A trustworthy conclusion and limited time | An existing observation may answer the question. Claims about transfer, retention or a wider population can require evidence from other conditions. |
 | Shared cultural access and distinctive practice | An easily copied carrier can erase a distinction or embodied technique that makes the practice useful. |
 
-Use these tensions to choose an intervention. They do not require maximizing every property or collecting every kind of evidence.
+Use the tensions that bear on the observation, correction or other result you need. Obtain further evidence when its value warrants the work.
 
 ## RHY.Reference:4 - Solution - Connect the contributions through their results
 
-The fourteen patterns form a repertoire. The Parts group related reading; work can begin in any Part. A useful path follows the result that the next operation needs, with returns when that result is unavailable.
+The fourteen Methods can be used separately or together. Their order in a case depends on the results the work requires. Return to an earlier question if a contribution is missing or its grounds have changed.
 
-RHY.1 localizes a rhythmic complaint. RHY.2 retains the actual changes and relations needed to understand it. RHY.3 constructs a combination of a continuing contribution and articulation; RHY.4 chooses timing events appropriate to the receiving task. Together they can turn “make it clearer” into a correction that a performer can try.
+Use RHY.1 to locate the difficulty and RHY.2 to identify the changes or relations needed to explain it. Use RHY.3 to coordinate articulation with an action that must continue and RHY.4 for timing events relevant to the task. In a rehearsal, these distinctions can turn “make it clearer” into a correction the performer can try.
 
-RHY.5 chooses a representation for an operation, and RHY.6 preserves its needed distinctions during translation. RHY.7 makes a comparison appropriate to a decision; RHY.8 constructs a proposed variant while retaining its required relations and feasibility conditions. A useful drawing or numerical comparison may be enough for that question. An assertion about actual performance or response needs its own observation.
+Use RHY.5 to choose a representation and RHY.6 to translate it while preserving the distinctions needed later. RHY.7 supports a comparison and RHY.8 the construction of a variant that retains the required relations and conditions of feasibility. A drawing or numerical result may answer a structural question. For a claim about real performance or response, use relevant observations.
 
-RHY.9 allocates rhythmic actions and timing cues. RHY.10 establishes shared reference and correction, while RHY.11 coordinates simultaneous layers. These methods use available performing techniques. They can expose an unavailable constituent contribution, which is a different problem from aligning otherwise available layers.
+Use RHY.9 to allocate actions and timing cues. Use RHY.10 for a shared reference or correction and RHY.11 when layers must continue together. Establish which contributing techniques are available. A missing action requires different work from misalignment between two actions the performers can already carry out.
 
-RHY.12 develops a human rhythmic contribution through representative practice. RHY.13 tests the particular transfer, retention or support dependence needed for a decision; its task may concern a human, a technical performer or an equipped whole. RHY.14 obtains and compares the observations or responses on which the decision depends. Developing a controller calls for its engineering or training method.
+Use RHY.12 to develop a human rhythmic capability through representative practice. Use RHY.13 to examine a claim about transfer, retention or support dependence for a person, a technical performer or an equipped arrangement. Use RHY.14 to obtain, interpret or compare observations of performance and response. A controller that needs development calls for its engineering or training Method.
 
 | Available result | Next use when needed | Return when the result is insufficient |
 | --- | --- | --- |
 | A localized difficulty and selected relation | Choose a correction, representation or variant through RHY.3–.8 | Return to the actual passage if the description hides a consequential change. |
 | A represented or transformed rhythm | Arrange its actions and cues through RHY.9 | Obtain the missing duration, reference, technique or feasible action. |
 | Available individual actions | Coordinate reference and layers through RHY.10/.11 | Reconsider the arrangement or develop the unavailable contribution. |
-| A successful exercise | Restore the intended performance through RHY.12; use RHY.13 for the relevant changed condition | Preserve the narrower success while locating the difference that caused the failure. |
-| A performance or reported response | Use RHY.14's bounded result for the rehearsal, design or teaching decision | Correct a decisive observation condition or retain the named unknown. |
-| A usable rhythmic way of working | Make it available through C.36.RP and, in music or dance, MDPE.17–.20 | Repair the particular receiving, continuation or forecasting condition. |
+| A successful exercise | Use RHY.12 to restore the intended performance when needed. Use RHY.13 to assess performance under a changed condition. | Preserve the narrower success. If the full performance fails, examine which differences could explain it. |
+| A performance or reported response | Use RHY.14 to establish what was observed and what it supports for rehearsal, design, teaching or a report. | Correct an observation condition if it matters and the correction is attainable, or state what remains unknown. |
+| A usable rhythmic way of working | Use C.36.RP and, in music or dance, MDPE.17–.20 when the task requires another user to obtain the practice, an account of its continuation or a forecast. | Identify a limit on receipt, continuation or forecasting. Address it when the requested work calls for a repair and the affected conditions can be changed. |
 
-A short mantra can help retain a chosen path: identify the relation, preserve what the next use needs, supply the performing contributions, try the relevant whole, and return to the contribution that fails. It is a reminder of dependencies, not an obligation to apply every pattern.
+A short reminder can help during rehearsal. Identify the relation and what the next use requires. Obtain any missing performing contribution and try the whole action when the question needs another attempt. Keep the result that answers the question, or return to a specific difficulty the observation reveals.
 
 ## RHY.Reference:5 - Archetypal Grounding - Connected uses and consequential returns
 
-These cases stipulate their observations to demonstrate decisions.
+The following cases stipulate their observations to illustrate the conclusions that can be drawn from them.
 
 ### RHY.Reference:5.1 - An ornament interrupts a partnered figure
 
-A pair can perform a familiar passage. Adding a foot ornament leaves the recorded contacts on the count, but the partner loses the next transition. Under RHY.1 they compare the familiar and ornamented attempts rather than start by demanding more accurate counting. They find that the ornament interrupts the continuing movement which made the transition readable.
+Suppose a pair can perform a familiar passage. With an added foot ornament, the recorded foot contacts remain on the count, but the partner loses the next transition. The pair uses RHY.1 to compare the familiar passage with the ornamented attempt. In this case they establish that the ornament interrupts the continuing movement from which the partner reads the transition.
 
-RHY.2 keeps contact, continuing movement and partner-read timing distinct. RHY.3 suggests preserving the continuing contribution while changing the articulation. RHY.4 checks the timing of the cue the partner actually uses. The pair chooses a smaller ornament through RHY.8 and arranges its cue through RHY.9; RHY.10/.11 coordinate the shared reference and the concurrent contributions.
+With RHY.2 the pair distinguishes foot contact, continuing movement and the cue the partner uses. They use RHY.3 to find an articulation that preserves that movement and RHY.4 to check the timing of the cue the partner receives. They choose a smaller ornament with RHY.8 and arrange the cue with RHY.9. RHY.10 and RHY.11 help them coordinate the shared reference and the actions that must continue together.
 
-In the stipulated next attempt, the partner can use the transition. That supports this variant at the tried pace and with this pair. It supplies no answer about a faster pace or another partner. RHY.13 is needed only if such a changed-condition answer matters.
+Suppose the partner uses the transition in the next attempt. That supports the variant for this pair at this pace. To claim it works at a faster pace or with another partner, use evidence for that condition. Use RHY.13 when that question is part of the task.
 
-Now suppose a related rotating figure still fails. The dancer has enough strength to support the body and remembers the figure, but cannot maintain balance during the turn. At that moment, balancing constitutes part of turning, and turning constitutes part of performing the figure with a partner. These are connected works at several levels, not successive tasks or extra rhythmic lines. Reducing the turn permits an exercise; its success does not establish the original figure. RHY.12 returns the balancing contribution to appropriate technique instruction, then restores it to the turn and figure. The already usable ornamented passage remains available.
+Now suppose a related rotating figure fails. The dancer has the strength to support the body and remembers the figure but cannot maintain balance through the turn. Balancing is part of turning while the turn is part of performing the figure with the partner. These actions occur together. A reduced turn permits practice under narrower conditions. The teacher can supply or obtain suitable balance instruction and use RHY.12 to help the dancer restore it in the turn and the partnered figure. The earlier ornamented passage remains usable.
 
 ### RHY.Reference:5.2 - A syllable sheet survives, but a phrase does not
 
-A group receives a syllable sheet and a recording. The sheet shows attacks at the beginning of a two-second cycle and at the beginning of the next cycle. The recording supplies an additional requirement: sound continues for the first second and stops for the second. RHY.2/.5/.6 preserve that duration and rest through an available demonstration or explicit representation; a beat gesture alone does not supply the release time.
+A group receives a syllable sheet and a recording. The sheet indicates an attack at the start of a two-second cycle and the next attack at the start of the following cycle. The recording establishes that this realization sustains the sound in the first second and rests during the second. Using RHY.2, RHY.5 and RHY.6, retain that duration and rest in a demonstration or explicit representation available to the group. A gesture marking each beat supplies the reference. The recording, demonstration or duration-bearing representation can supply the release time.
 
-The receiving group needs access to the recording and someone who can demonstrate the convention. C.36.RP locates and makes those contributions obtainable. MDPE.17 arranges receiving performance. RHY.9/.10 allocate the voice and reference, and RHY.12 practises the required continuation and release.
+To learn the phrase in this case, the group needs the recording and someone who can demonstrate its convention. Use C.36.RP to make both contributions obtainable. With MDPE.17 arrange the group’s opportunity to perform. Use RHY.9 and RHY.10 to allocate the voice and shared reference, and RHY.12 to practise sustain and release.
 
-Suppose the group next reproduces and deliberately alters the phrase without the demonstrator. This is a useful receiving result under those conditions. RHY.13 would select a later retention probe only if a later independent use requires that answer. MDPE.18 keeps the source claim modest: the recording establishes this realization, not an otherwise undocumented origin or lineage.
+Suppose the group then reproduces and deliberately varies the phrase without the demonstrator. That establishes receiving performance with the other conditions in place. Use RHY.13 for a question about later retention when evidence across the interval is required. For the source question in MDPE.18, the recording establishes this particular realization. Establish a claimed origin or lineage from historical evidence.
 
-For continuation, MDPE.19 asks whether the recording, instruction and suitable practice remain available to the next users. Naming another person who can give the demonstration repairs one present access dependence; the plan still needs revision if that contribution becomes unavailable. One receiving success does not establish population-wide survival of the practice.
+If the practice is to continue, use MDPE.19 to check whether later users can still obtain the recording, instruction and a suitable occasion to practise. A capable demonstrator who agrees and is available can replace the earlier provider. Reassess the affected use if this provision changes. Evidence of one group’s success leaves population-wide continuation open.
 
 ### RHY.Reference:5.3 - More appearances do not yet explain a practice's future
 
-A dance group is choosing whether to replace a familiar rhythmic variation with one appearing in more recent videos. Through MDPE.20 it bounds the question: what should this group's next teaching programme retain? RHY.2/.7 distinguish the variants by the relation used in the figure, not merely their shared style label. The group already has an adequate demonstration of each.
+Suppose a dance group is considering whether to replace a familiar variation with one seen more often in recent videos. It uses MDPE.20 to ask what its next teaching programme should retain. With RHY.2 and RHY.7, it distinguishes the variants by the relation used in the figure. It has adequate demonstrations of both.
 
-Suppose its available observations show that the new variation is convenient in a stationary passage, while the familiar one supplies a readable transition into travel. Recent videos concentrate on stationary passages. Increased appearances are therefore compatible both with changed opportunities for performance and with a shift in what videos select. They do not establish a general superiority or a future attractor.
+The new variation works well in a stationary passage. The earlier variation gives the group a readable transition into travel. The recent videos concentrate on stationary passages. More appearances could reflect changes in performance opportunities, selection for recording or both. They leave the comparative value in other passages and the wider cultural trend open.
 
-RHY.8/.9 make both variants available in the relevant arrangement. The group retains each for the passage where it has a demonstrated use and teaches the difference. This decision does not require first resolving the population mechanism. If a later preservation decision depends on whether practitioners are losing the familiar method, MDPE.20 selects a useful observation of access and receiving performance; a count of visible clips would not answer that different question.
+Using RHY.8 and RHY.9, the group arranges each variant for the passage it serves and teaches the difference. The demonstrated local uses support that decision. If a later question concerns loss of the familiar practice, use MDPE.20 to examine access to the method and its use by recipients. Counts of visible clips answer a different question.
 
 ## RHY.Reference:6 - Bias-Annotation - What the examples and sources do not travel with
 
-Music and dance provide much of the detailed source material. The general operations also address rhythmic contributions performed with instruments, robots and other embodied systems. A demonstrated technique, perceptual result or learning effect retains the population, apparatus and task in which it was obtained.
+Much of the detailed source material concerns music and dance. The rhythmic operations also apply to performance with instruments, robots and other embodied systems when the relevant relation and criterion fit. Use a demonstrated technique, perceptual result or learning effect within the population, apparatus and task its evidence covers. Justify an extension on its own grounds.
 
-Onsets and finite cycles are convenient for calculation. The language also retains continuous sound and movement when their course changes the result. A chosen representation can deliberately leave those out for an onset question; that choice narrows what its result supports.
+An onset list and a finite cycle can make a calculation manageable. For an onset question, the representation can omit sustained sound or movement. If the result depends on how those develop, keep that information in the representation or obtain it from another source.
 
-Human practice in RHY.12 assumes obtainable instruction and a manageable performing demand. A written method alone does not give a learner the underlying technique or resources. Cultural transmission and forecasting in the worked cases use the music-and-dance scope of MDPE.17–.20. Other fields need an appropriate contribution for their stronger cultural claims.
+For human practice in RHY.12, ensure that the learner can obtain the needed instruction and attempt a manageable part of the movement. For cultural transmission and forecasting in music and dance, the cases use MDPE.17–.20. Claims in other fields require grounds appropriate to the practice and population concerned.
 
 ## RHY.Reference:7 - Conformance Checklist - Check the combination that is being used
 
-- Can the participants recognize the passage and the relation which the next action needs?
-- Does each representation retain that relation, or make the fuller source available where it is omitted?
+- Can the participants identify the passage and the relation the question concerns?
+- Is the needed relation available in the chosen representation or from an accessible complementary source? Where it remains unknown, what can the available material establish?
 - Are the required actions, cues and constituent capabilities available together under the conditions of the whole?
-- Does the exercise preserve the relation it is meant to develop, and return it to the intended performance?
+- If learning is at issue, does the exercise preserve the relation to be learned and return it to the intended performance?
 - Does the conclusion preserve the task input, assistance, observing procedure and conditions that supported it?
-- Would another observation change the next decision enough to warrant obtaining it?
+- Would another observation improve the requested finding or decision enough to justify the work?
 - When another participant must continue the practice, can that participant obtain and use the needed contribution?
 
-Answer only the questions made current by the chosen use. A familiar adequate answer is reusable until a relevant condition changes.
+Use the questions relevant to the task. Reuse an adequate result while its evidence and conditions still apply.
 
 ## RHY.Reference:8 - Common Anti-Patterns and How to Avoid Them
 
 | Consequential mistake | Practical correction |
 | --- | --- |
 | Tighten timing because the contact is measurable, although the partner needs a different cue. | Compare the receiving timing events through RHY.4 before choosing a correction. |
-| Treat an onset-only string as a complete instruction for sustain and rest. | Restore the needed information through RHY.5/.6; evaluate the performer only against an adequately specified task. |
-| Count success in a simplified exercise as success in the original figure. | Restore the constituent contribution to the whole through RHY.12 and select the changed-condition question in RHY.13. |
-| Discard unmatched events and report a good average as a complete performance. | RHY.14 retains omissions, additions and ambiguous matches separately from timing error. |
-| Treat a frequent or geometrically central rhythm as a future cultural attractor. | Compare the mechanisms and receiving decisions through MDPE.20, using the needed RHY results. |
+| Treat an onset-only string as complete instructions for sustain and rest. | Use RHY.5 or RHY.6 to recover the duration or release from a source that carries it. Judge interpretation of the required duration only when the task supplies it. An explicit recall task can instead ask for a pattern the performer received earlier. |
+| Credit a simplified exercise as performance of the original figure. | Retain what the exercise establishes under its own conditions. Use RHY.12 if the missing relation needs practice and RHY.13 when changed-condition evidence is needed. |
+| Discard unmatched events and report average timing error as a complete performance. | Use RHY.14 to report omissions, additions and ambiguous matches separately from timing error for matched events. |
+| Call a frequent or geometrically central rhythm a future cultural attractor. | Use MDPE.20 to assess a proposed mechanism and the evidence relevant to the cultural question. Use RHY to identify which variants or performances are being compared. |
 
 ## RHY.Reference:9 - Consequences - Useful corrections with bounded conclusions
 
-The language supports smaller and more specific corrections: change a cue, recover a duration, retain continuing movement, alter the arrangement or develop a missing contribution. A local failure can preserve the results that still work. Representations and calculations become useful for their declared operations without being mistaken for observations of performance.
+A local finding can support a specific correction, such as changing a cue, recovering a duration, restoring continuing movement, revising an arrangement or developing a missing action. Keep the contributions that still work. Use a calculation or representation for the operation it supports and an observation of practice for a claim about performance.
 
-The cost is attention to the relation that matters and, sometimes, a demonstration or comparison. More demanding claims can require specialist technique, sensing or research. The methods expose that need rather than promise that reading the framework supplies it.
+Examining the relevant relation takes attention and may require a demonstration or comparison. A stronger claim can require specialist technique, sensing or research. Identify the contribution needed and whether it can be obtained under the working conditions.
 
-A reader can stop with a usable action, a narrower result or a named obstacle. Remaining uncertainty does not automatically turn a rehearsal or lesson into a research project.
+The result can be an action ready to use, a bounded finding or a specific obstacle. Further inquiry is warranted when it could supply a result the task still needs at an acceptable cost.
 
 ## RHY.Reference:10 - Architectural Rationale - Why the methods are divided this way
 
-Organizing the language solely by notation systems would repeat common operations and obscure differences between representing and performing. Organizing it solely by discrete attacks would make comparisons convenient while omitting the continuing contribution in brushes, sustained sound and movement. The chosen repertoire separates the operation from the representation and retains the material relation needed by the task.
+A notation system can support several operations, and the same operation can use different systems. Organizing the repertoire by system would repeat those operations. An onset representation makes some comparisons easy. In brush playing, sustained sound and continuous movement, what happens between events can matter. Choose a representation for the relation its user needs. Distinguish constructing or interpreting it from performing the passage.
 
-Arrangement, shared correction and simultaneous layering have different results. An assignment of actions does not establish their coordination; coordination of available layers does not establish a missing constituent capability. Practice, a capability probe and an observation also answer different questions. Keeping them distinct permits direct use and local repair while their result connections support larger work.
+Assigning actions and cues defines an arrangement. A shared reference lets performers adjust their timing, while joint performance shows whether contrasting layers coexist and the passage can continue. Examine the constituent technique when the required action is unavailable. Designing practice, testing a capability and reporting an observation each answer a different question. Use their results together where the task depends on the connection.
 
-General representation design comes from Notational Engineering. Human-development methods supply task, practice and probe constructions. Music and Dance Practice Engineering supplies broader performing arrangements and cultural work. RHY contributes the rhythmic operations these methods need. Repeating their complete methods under narrower names would obscure the boundary and make both accounts harder to maintain.
+Use Notational Engineering for general representation design, human-development Methods for learning tasks, practice and assessment, and Music and Dance Practice Engineering for broader performance arrangements and cultural work. Use RHY for the rhythmic relation that those tasks require.
 
-The language has no fixed number of conceptual levels. A general method can contribute to a rhythmic operation, which contributes to a musical phrase, a figure and a larger performance. The same contribution can serve several combinations. Which relation actually holds—specialization, reuse, result dependence or ongoing constituent work—matters more than heading depth or a single tree.
+The activity determines how many levels of contributing work need to be distinguished. The same rhythmic action can contribute to several larger movements or phrases. One Method can specialize another, use its guidance or consume its result. Its performance can also be part of a wider action, as when maintaining balance is part of turning in a partnered figure.
 
-A new pattern is warranted when a recurring rhythmic operation has its own useful result and conditions not supplied by the existing combination. Another example alone does not establish that need.
+Check whether an available method or a combination supplies the result a recurring rhythmic operation needs under its conditions. When the operation has its own useful result and the existing repertoire leaves it unavailable, that gap warrants developing a method for it.
 
 ## RHY.Reference:11 - SoTA-Echoing - Source contributions and their limits
 
-Source accounts inside the patterns give the comparisons which change particular actions. The shared architecture draws on several lines whose contributions remain distinct.
+Each Method identifies which source informs an operation and which limits matter to its use. The following examples explain the distinctions used across the book.
 
-Toussaint's geometric treatment makes selected rhythmic structures and transformations explicit. Gjerdingen's work on smooth rhythms supplies a historical challenge to treating sharp events as the whole subject. Together they motivate retaining both discrete relations and a consequential continuous course, without imposing one mathematical or perceptual model.
+Toussaint describes geometric structures and transformations of rhythms. Gjerdingen’s work on smooth rhythms gives the historical reason to examine the continuous course as well as sharply marked events. Retain the discrete relation, the continuous course or both when the performance question needs them.
 
-Cha's [Takadimi reconsidered](https://doi.org/10.1177/0305735614528063) motivates recovering information about an implicit beat, duration and rest. The [original Takadimi account](https://www.takadimi.net/documents/TakadimiArticle.pdf), conducting proposals and Nelson's *Solkattu Manual* provide different ways to combine syllables, movement, phrase and reference. The framework adapts those contributions to the intended use. It does not rank whole traditions by a demonstrated universal teaching advantage.
+Cha’s [Takadimi reconsidered](https://doi.org/10.1177/0305735614528063) identifies information about the implicit beat, duration and rest that a performer may need to recover. The [original Takadimi account](https://www.takadimi.net/documents/TakadimiArticle.pdf), conducting proposals and Nelson’s *Solkattu Manual* give different ways to connect syllables, movement, phrase and reference. Choose among them for the intended work. A claim of comparative teaching advantage requires evidence from the relevant learners, tasks and conditions.
 
-For cultural questions, [Jacoby and colleagues](https://doi.org/10.1038/s41562-023-01800-9) provide bounded reproduction results, not a culture forecast. [Miton and colleagues](https://doi.org/10.1098/rspb.2020.2001) motivate retaining movement conditions; their predicted increase in stability was not found. [Marjieh and colleagues](https://arxiv.org/abs/2502.12847) study interacting mechanisms in melodic transmission with fixed stimulus timing. That last contribution can inform a hypothesis, but supplies no direct rhythm-population result.
+[Jacoby and colleagues](https://doi.org/10.1038/s41562-023-01800-9) report reproduction results under their study conditions. [Miton and colleagues](https://doi.org/10.1098/rspb.2020.2001) give grounds to consider movement conditions, although they did not find the predicted increase in stability. [Marjieh and colleagues](https://arxiv.org/abs/2502.12847) studied interacting mechanisms in melodic transmission with fixed stimulus timing. Use that account to formulate a hypothesis where relevant. A conclusion about change in a rhythm population requires grounds for that population.
 
-The resulting synthesis preserves differences that change an action instead of imposing one syllable system, scalar complexity score, training schedule or theory of cultural development. A new comparative result reopens the particular choice it can change; it does not invalidate unrelated performing or representational results.
+Use the syllable system, structural comparison, practice schedule or account of cultural change that answers the question. Reconsider an affected choice when new comparative evidence changes its grounds. Other performance and representation findings remain usable within their conditions.
 
 ## RHY.Reference:12 - Relations, source return and renewal
 
-RHY draws on the following contributions when the particular use needs them:
+Use the following contributions when the rhythmic task requires them.
 
 | Supplier | Contribution and receiving use |
 | --- | --- |
-| [FPF Core](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) | A.22 supplies structure selection; C.16 and A.19.CPM supply measurement and comparison conditions; B.1.5.EW connects constituent and encompassing work; C.36.RP makes ways of working obtainable; C.11.DUA keeps inquiry proportional to its decision. |
+| [FPF Core](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) | Use A.22 to select a structure, C.16 and A.19.CPM for measurement and comparison, B.1.5.EW for simultaneous constituent and encompassing work, C.36.RP to make a way of working obtainable, and C.11.DUA to assess the value and cost of further inquiry. |
 | [Notational Engineering (NOT)](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/NOTATIONAL-ENGINEERING-DPF.md) | NOT.1/.3/.5/.6/.8 supply general selection, interpretation, translation and complementary representations; RHY.5/.6 apply the needed contributions to rhythmic work. |
 | [Mathematical Thinking (MATH)](https://github.com/ailev/FPF/blob/main/DPFs/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-PRACTICE-DPF.md) | When a formal comparison is needed, MATH.2 constructs equivalence classes that preserve the operations used by RHY.5; MATH.18 establishes which consequences transfer through an interpretation used by RHY.6. |
 | [Human Capability Development (HCD)](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) | HCD.6/.9/.10 supply representative task, feedback and practice construction; HCD.12/.13 supply human capability probes. RHY.12/.13 retain the rhythmic task and its limits. |
 | [Music and Dance Practice Engineering (MDPE)](https://github.com/ailev/FPF/blob/main/DPFs/MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | MDPE.3 supplies whole performing configuration, MDPE.12 broader evidence use, and MDPE.17–.20 receiving, source, continuation and forecast methods for the two cultural routes. |
 
-The Readme foregrounds entry and result connections. This Architectural Reference explains their shared conditions and reasons. Pattern bodies preserve the detailed actions, worked cases and source comparisons. They deliberately leave full repertoires of instrumental and dance technique, complete teaching curricula, population-research designs and specialist sensing to their sources and practitioners. Return to those when the next action depends on what has been omitted.
+Use the Readme for practical entries, this Reference for their connections and each Method for instructions, examples and source qualifications. Obtain instrumental or dance technique, curriculum design, population-research methods or specialist sensing from the relevant practice when the requested result needs them.
 
-A change to a notation convention, performance arrangement, support, timing criterion or source result reopens the affected use. A supplier change matters when it changes the contribution relied on here. Repeated reader misunderstanding should repair the relevant explanation and its direct consumers. A missing recurring method should first be compared with the existing suppliers before expanding the language.
+When a notation convention, arrangement, support, timing criterion, source finding or supplier’s contribution changes, reconsider the uses that depend on it. Keep unaffected conclusions. When readers repeatedly misunderstand an instruction, repair its explanation and the uses that rely on it. For a missing operation, check whether an existing method or combination supplies it. For the earlier and current addresses of RHY.7, RHY.7:4.1 and RHY.13:4.4, see [Edition and reuse](#edition-and-reuse).
 
 ## RHY.Reference:End
 
@@ -302,128 +302,128 @@ A change to a notation convention, performance arrangement, support, timing crit
 
 ### RHY.1:1 - Problem frame
 
-**Use this when** an instruction such as “keep the rhythm,” “find the pulse” or “make it clearer” leaves a performer unsure what to change. Start with a short passage, movement or interaction in which the difficulty can be recognized. It may concern maintaining a pace, placing an accent, entering a shared cycle, keeping a movement going, or making a timing cue usable by a partner.
+**Use this when** “keep the rhythm,” “find the pulse” or “make it clearer” leaves the difficulty unidentified. Locate it in a short passage, movement or interaction. For example, a player may lose the pace, or a partner may miss the cue to enter despite a steady pace.
 
-The intended user can perform, observe or discuss the selected activity well enough to identify a troublesome occurrence. A teacher or specialist may supply that knowledge. The first useful result is a question specific enough to choose a correction: for example, whether a partner misses a weight change even though the foot reaches its marked position on the count.
+Start with enough knowledge of the activity to recognize the occurrence, from your own work, an observation or another qualified source. Identify the difficulty precisely enough to answer the question or choose a correction when needed. For example, can the partner recognize the weight change when the dancer’s foot reaches its marked position on the count?
 
-When the needed correction is already clear, make it and inspect its effect. The method is useful when the broad complaint leaves materially different corrections open.
+If the task is to correct a known difficulty, use a suitable existing correction. Inspect its effect in the passage when that result is still needed. Use the method when different accounts of the difficulty would change the finding or the correction.
 
 ### RHY.1:2 - Problem
 
-The same rhythm label can conceal different difficulties. Repeating the steps at a steady tempo may preserve their order while a partner still cannot anticipate a change. A sound can begin at the same recorded instant after an instrument change yet be heard in a different temporal position. Applying the familiar cure—more counting or stricter alignment—can then improve a visible measure while leaving the working difficulty intact.
+Repeating the steps at a steady tempo may preserve their order while a partner still cannot anticipate a change. After an instrument change, two sounds that start at the same recorded instant may be heard in different temporal positions. More counting or closer alignment can improve the measured timing while leaving the partner’s or listener’s difficulty unresolved.
 
 ### RHY.1:3 - Forces
 
 | Force | Practical tension |
 | --- | --- |
 | Several references coexist | A count, the music, a movement and a partner's response may support different timing judgements. |
-| A useful contrast changes something | Simplifying a passage makes a difficulty easier to locate but can remove the condition that causes it. |
+| Simplification | A shorter or simpler passage can make a difficulty easier to locate. It can also remove the condition under which the difficulty occurred. |
 | Feedback has a point of view | What the performer hears or feels may differ from what another participant can use. |
-| Investigation consumes practice time | A short comparison can choose the next move without establishing a complete causal account. |
+| Investigation takes practice time | A short comparison can support a rehearsal choice or a finding about the performance while leaving the cause of the difficulty unresolved. |
 
 ### RHY.1:4 - Solution
 
 #### RHY.1:4.1 - Recover the failed contribution
 
-Ask what someone was trying to do and what became difficult. Locate an instance: which phrase, transition, entrance or repeated motion; who performs it; who needs its result; and under which music, tempo, contact or equipment conditions.
+Locate the occurrence, what someone intended or attempted, and the contribution the passage needed. Establish who performed the phrase, transition, entrance or repeated motion, who needed its result, and which conditions mattered. These can include the music, tempo, contact or equipment. Use an existing observation or ask a participant for information they can supply.
 
-Replace a broad judgement with an observable difficulty. “The rhythm is bad” might become “the second player cannot enter after the fill,” or “the partner cannot tell when the dancer has finished transferring weight.” Retain the broad artistic intention as a reason for the work; the narrower question identifies something that can be changed.
+Describe what a participant could observe. “The rhythm is bad” might mean “the second player cannot enter after the fill” or “the partner cannot tell when the dancer has finished transferring weight.” Keep the artistic intention that makes this narrower question worth answering.
 
-Separate the intended result from the available observation. A footfall recording can show audible contacts. A partner's report can identify an unclear felt transition. Which one matters depends on the contribution being sought.
+Choose observations that bear on the intended result. A footfall recording can establish when contacts sounded. A partner’s account can establish when the transition felt clear or unclear to that partner.
 
 #### RHY.1:4.2 - Form the rhythm-specific alternatives
 
-Consider only alternatives that would change the correction. Useful distinctions include:
+Consider the alternatives that matter to the requested finding or correction. For example, ask which of the following differences the case gives you reason to examine.
 
 - the pace drifts, or the pace is stable but the performer is displaced relative to a reference;
 - the needed events or their order are wrong, or those events occur in the required order but their grouping or accent cues a different entrance;
 - the physical action itself is late, or it occurs on time but becomes usable as a cue to the receiving participant later;
 - a continuous movement is lost while individual articulations remain correctly placed;
-- the component action works alone, or it fails when combined with a partner, another rhythmic layer or a required bodily contribution.
+- the component action fails on its own, or it works alone and breaks down with a partner, another rhythmic layer or a bodily contribution such as maintaining support.
 
-These are recurring comparisons, not a complete classification. Use the one suggested by the actual difficulty. Causes can combine: correcting a sequence may leave its grouping unresolved, and a physical delay may coexist with delayed recognition. If the case gives no reason to choose between explanations, retain the uncertainty.
+Choose the comparison the observed difficulty calls for. Causes can combine. Correcting a sequence may leave its grouping unresolved, and delayed recognition can add to a physical delay. If the evidence leaves several explanations open, say which they are.
 
 #### RHY.1:4.3 - Choose a contrast that separates the alternatives
 
-Repeat a manageable passage while changing one consequential condition. For example, keep the sequence and pace while changing the sound used for an accent; compare the transition with and without its ornament; or compare the same movement alone and with a partner who must respond to it.
+Look for a manageable comparison that preserves the relevant conditions. If a new trial is needed and feasible, repeat the passage while varying a condition that could distinguish the explanations. For example, keep the sequence and pace while changing the accent sound, compare a transition with and without its ornament, or compare the same movement alone and with the responding partner.
 
-State what each result would change. For a sequence/grouping question, recover the events and order first; if they match the required sequence, change only the grouping or accent cue and compare the entrance. A corrected sequence and a corrected grouping answer different remaining difficulties. For a timing question, compare the physical event with the moment the recipient can use it: a late physical event calls for production or delivery correction, while a later usable cue despite an on-time event calls for the receiving-timing comparison. If both versions drift progressively, inspect pace or reference correction. If only one timbre seems late despite the same physical start times, inspect the sound's temporal shape and the listener's alignment in RHY.4. If the basic motion continues until an accent is added, inspect their coexistence through RHY.3.
+Work out what the contrast would establish. For a sequence or grouping question, recover the events and their order. If the sequence matches, keep it and the other relevant conditions fixed while comparing entrances under changed grouping or accent cues. For timing, compare the physical event with the moment the receiver can use the cue intended for that action. A late event directs a correction towards production or delivery. If the event is on time and its cue becomes usable later, examine receiving timing. Drift in both versions calls for examining pace or reference correction. If one timbre sounds late at the same physical start time, examine the envelope and listener’s alignment in RHY.4. If an accent interrupts an otherwise continuous motion, use RHY.3 to examine their coexistence.
 
-Keep the conditions needed to reproduce the difficulty. An isolated slow action may reveal a constituent skill, but success there leaves its use at performance speed unresolved. Conversely, do not force a full performance when a simpler, comfortable comparison answers the present question.
+Keep the conditions needed to reproduce or interpret the difficulty. Success in a slow isolated action leaves performance at the required speed open. A simpler, comfortable comparison is enough when it answers the question.
 
 #### RHY.1:4.4 - Select the next result, with its limits
 
-Use the comparison to choose a bounded next move:
+Report what the comparison establishes and what remains open. If the task calls for a next move, use that result to choose one. For example, you can
 
 - select the relevant changes and their relations through RHY.2;
 - change articulation while retaining the required continuous motion through RHY.3;
 - distinguish and align the relevant timing events through RHY.4;
 - agree which cue supplies the shared reference, change the allocation of performers or instruments, or practise the limiting coordination when the contrast identifies that need.
 
-An existing observation can be enough to make that choice. Collect another measurement only if its possible result could change the action or the reliance placed on it. When evidence is insufficient for a causal explanation, a reversible trial may still be worthwhile; describe it as a trial.
+Use an existing observation when it settles the question. Seek a further measurement when a result it could provide would justify its cost by improving the finding, the choice or the grounds for relying on it. Even with an unresolved cause, a feasible reversible trial may be worthwhile. State what correction is being tried and what remains unknown.
 
-Carry forward the passage, receiving use, observed contrast and unresolved condition only as far as another participant needs them. A spoken rehearsal instruction can be sufficient.
+When someone needs to continue the work, give them the passage, intended use, observed contrast and uncertainty they need. A spoken rehearsal instruction may suffice.
 
 ### RHY.1:5 - Archetypal Grounding
 
 #### RHY.1:5.1 - A sound changes, and an entrance seems late
 
-In this constructed case, a keyboard player replaces a short sound with a slowly rising sound. The note starts at the same position in the sequencer, but another musician now hears the entrance as late.
+Suppose a keyboard player replaces a short sound with one that rises slowly. The note starts at the same sequencer position, but another musician hears the new entrance as late.
 
-The practitioner compares the two sounds in the same passage before changing the whole tempo. The physical start is held fixed; the changed envelope and the heard position remain a live explanation. The first result is a timing-center question for RHY.4. It is not yet a measured correction or a finding that the performer has poor rhythm.
+The player compares the two sounds in the same passage at the same physical start time. This gives RHY.4 a specific question about the effect of the envelope on the heard position. The comparison has yet to establish the size of a correction or a general difficulty with the player’s rhythm.
 
 #### RHY.1:5.2 - Known steps fail during a turn
 
-A dancer remembers the figure and can perform its stepping pattern without rotation. During the turn, balance correction disrupts the intended weight timing. In this constructed case, the comparison localizes a difficulty in combining coordination and rhythmic weight change. Repeating the memorized sequence is unlikely to address that finding.
+Suppose a dancer remembers a figure and can perform its stepping pattern without rotation. During the turn, correcting balance disrupts the intended weight timing. The comparison locates a difficulty combining balance regulation with the timed weight change during rotation. Repeating the remembered steps alone leaves that coordination untested.
 
-The next practice needs the constituent coordination under the rotational demand, then its integration into the figure. The whole figure, rhythmic timing and bodily regulation occur together. A successful nonrotating comparison leaves the rotating capability open; the method does not diagnose a medical cause or prescribe a strengthening programme.
+For practice, work on the constituent coordination under the rotational demand and then reintegrate it into the figure. Rotation, weight timing and balance regulation must work together. Success without rotation establishes performance only under that condition. A medical explanation or strengthening programme would need its own basis.
 
 #### RHY.1:5.3 - A count no longer needs investigation
 
-An ensemble already agrees that the entrance follows the fourth audible stroke, and one player has simply entered after the third. Rehearse the agreed entrance. Building a larger rhythm model adds no needed result to this correction.
+An ensemble agrees that the entrance follows the fourth audible stroke. The player entered after the third. That answers a question about the missed entrance. To correct it in rehearsal, practise entering after the fourth stroke.
 
 ### RHY.1:6 - Bias-Annotation
 
-A teacher's preferred notation or exercise can decide the diagnosis before the comparison begins. Ask whether a different diagnosis would lead to a different intervention. Also separate the observer's demand from the performer's: visible precision can coexist with unclear felt timing, while deliberately displaced timing can serve the performance.
+A teacher’s preferred notation or exercise can suggest a diagnosis before any comparison. Check which evidence distinguishes it from other plausible accounts and whether the difference matters to the question or intervention. An observer may need precise visible timing while the performer or partner needs a felt transition. Deliberate displacement can also serve the performance.
 
 ### RHY.1:7 - Conformance Checklist
 
 - The question identifies a troublesome activity and the contribution someone needs.
-- Each retained alternative implies a different correction or a different limit on the conclusion.
+- Each retained alternative changes what the evidence would establish, the limits of that conclusion or a correction worth considering.
 - The comparison preserves the conditions on which its interpretation depends.
-- The next move follows from the available result; untested causal claims remain open.
-- The outcome tells the receiving participant what to try or supply next.
+- The finding and any proposed next move follow from the available result. The account identifies causal claims the evidence leaves open.
+- A participant who must continue the work can identify what to try or supply next.
 
 ### RHY.1:8 - Common Anti-Patterns and How to Avoid Them
 
 | Recurring failure | Repair |
 | --- | --- |
 | Prescribe more counting because the complaint contains “rhythm.” | Check whether the difficulty concerns pace, placement, grouping, continuous movement or a receiving participant's timing cue. |
-| Call isolated success proof of performance capability. | Restore the partner, speed or simultaneous contribution that made the activity fail. |
+| Infer performance capability from isolated success. | Qualify the result to the observed task. To establish performance under the original demands, use suitable evidence with the partner, speed or simultaneous contribution that mattered. |
 | Require instrumented measurement before a reversible rehearsal choice. | Use the available contrast when it already distinguishes the next action; reserve stronger evidence for a stronger conclusion. |
 
 ### RHY.1:9 - Consequences
 
-The practitioner can choose a relevant rhythmic method earlier and give more useful feedback. The result is deliberately narrower than a complete explanation of a performance. Its limits become important when the teacher changes the task or claims transfer.
+The practitioner can locate the difficulty in a performance, choose a relevant rhythmic method or give feedback. This finding can be narrower than a full explanation of the performance. If the task changes or a transfer is claimed, check which conclusions the original comparison still supports.
 
 ### RHY.1:10 - Architectural Rationale
 
-Localization connects a whole performance intention to a correctable rhythmic contribution. It belongs before detailed representation when competing interpretations would make the representation describe the wrong thing. It can also be revisited after a failed correction.
+Locating the difficulty connects the intended whole performance to a rhythmic contribution one can examine or correct. Do this before making a detailed representation when competing interpretations would change what it represents. A failed correction can also reopen the question.
 
 
 ### RHY.1:11 - SoTA-Echoing
 
-Gordon Dang's [Balboa roadmap](https://gordondang.com/dance/roadmap/) uses practice contrasts among pulse, foot pickup and posture. Adopt the bounded contrast as a useful practitioner move; adapt it here to whichever rhythmic contribution the activity needs. The roadmap supplies teaching proposals.
+Gordon Dang’s [Balboa roadmap](https://gordondang.com/dance/roadmap/) compares pulse, foot pickup and posture in practice. Use a bounded contrast when it can distinguish the difficulty in the activity at hand. The roadmap offers teaching proposals for Balboa.
 
-MDPE.8 supplies a broader choice of music-or-dance subject and development question. Reuse that result when available. This method adds the rhythm-specific comparisons that choose between timing, grouping, articulation, receiving cues and their joint performance.
+MDPE.8 helps select the larger music or dance activity and its development question. Use that result when available. Here the practitioner compares timing, grouping, articulation or receiving cues, including how they work together.
 
-London and colleagues' [comparison of P-center procedures](https://doi.org/10.3758/s13414-019-01747-y) warrants retaining the observing task when interpreting timing. A quick rehearsal contrast is cheaper than a controlled study and can select a trial; it supports a correspondingly narrower conclusion. The diagnostic combination above is a methodological synthesis.
+In London and colleagues’ [comparison of P-center procedures](https://doi.org/10.3758/s13414-019-01747-y), interpretation of timing depends on the observing task. Preserve the observing task when interpreting a timing judgement. A rehearsal contrast can support a trial at lower cost than a controlled study. Evidence from such a contrast supports a conclusion about the conditions compared. The diagnostic approach here combines these considerations.
 
 ### RHY.1:12 - Relations
 
 RHY.2 develops the selected structure needed for the localized question. RHY.3 and RHY.4 address two different results: retaining a continuous carrier and choosing the event whose timing matters. RHY.9–RHY.11 address configuration and coordination; RHY.12–RHY.13 address development and transfer.
 
-MDPE.8 and MDPE.1 frame a larger music-or-dance undertaking. HCD.1 derives a human contribution needed in later work. C.11.DUA governs whether further inquiry is worth doing. These results support the question without replacing its rhythmic comparisons.
+MDPE.8 and MDPE.1 frame a larger music or dance undertaking. HCD.1 helps identify a human contribution needed later. Use C.11.DUA to decide whether more inquiry is worth its cost.
 
 ### RHY.1:End
 
@@ -434,13 +434,13 @@ MDPE.8 and MDPE.1 frame a larger music-or-dance undertaking. HCD.1 derives a hum
 
 ### RHY.2:1 - Problem frame
 
-**Use this when** a score, count, waveform, movement trace or list of attacks leaves out something needed to explain, reproduce or change the rhythm. Start with the activity or material and a question: where a player can enter, what a partner must recognize, how two versions differ, or which feature an analysis must preserve.
+**Use this when** a score, count, waveform, movement trace or attack list omits a distinction needed to explain, reproduce or change the rhythm. Start from the activity or material and the question it must answer. Where can a player enter? What must a partner recognize? Which difference between versions must an analysis preserve?
 
-The first useful result identifies the changing things and relations needed for that question. It may be an annotated recording, a demonstration with an explanation, or a small diagram. A complete notation or mathematical model is not needed for every use.
+Identify the changes and relations the question needs. Show them in a form the recipient can use, such as an annotated recording, a demonstration with an explanation or a small diagram. Develop a fuller notation or mathematical model if the work requires it.
 
 ### RHY.2:2 - Problem
 
-Available representations expose different aspects of an activity. A list of attacks can preserve their order while omitting a continuous movement. A histogram of intervals can preserve their frequencies while losing their order. A video can show contact without establishing which contact carried weight. Treating any one of these as a complete rhythmic account makes a later comparison or correction depend on information it never contained.
+An attack list can preserve order while omitting a continuous movement. An interval histogram can preserve frequencies while losing order. A video may show contact while leaving the transfer of weight unknown. A later comparison or correction that depends on the missing relation needs another source or a qualified conclusion.
 
 ### RHY.2:3 - Forces
 
@@ -455,69 +455,69 @@ Available representations expose different aspects of an activity. A list of att
 
 #### RHY.2:4.1 - Start with the required discrimination
 
-Ask what two possibilities must remain distinguishable. Examples are an entrance after the third rather than fourth attack, an accent produced by pressure rather than a break in contact, and a full rather than partial weight transfer.
+Identify the distinction the question requires. A player might need to enter after the third or after the fourth attack. An accent might come from pressure or a break in contact. A partner might need to recognize whether a weight transfer is partial or complete.
 
-Use the smallest material portion that contains the relevant relation. Extend it when the boundary matters: a cyclic pattern needs its return to the next cycle; an entrance may need the preceding cue; a continuous change may need more than its peak.
+Choose the shortest passage that preserves the relation the question needs. Include its boundaries where they matter. A cyclic interval can cross the return to the next cycle, an entrance may depend on the preceding cue, and understanding a continuous change may require observing more than its peak.
 
 #### RHY.2:4.2 - Identify what actually changes
 
-Locate the sound-producing action, movement, contact, load change or other occurrence involved. Say which body, instrument or material changes. If the analysis concerns a perceived grouping or accent, include the responding listener or partner and the task in which that response occurred.
+Locate the relevant action or change and identify the body, instrument or material that changed. It might be a movement, sound-producing action, contact or change of load. For a claim about a perceived grouping or accent, identify the listener or partner, the task they performed and the conditions of their response.
 
 Select suitable units for the question. They may be bounded actions, portions of a continuous trajectory, identifiable positions on that trajectory, or relations among several such contributions. Define a start, completion or threshold only when it serves the question. If more than one boundary is plausible, preserve the alternatives or use an interval.
 
-A detected peak is an observation made under a detection rule. Connect it to the event it is supposed to indicate before using it as a count of performed actions.
+A peak detector reports a peak under its detection rule. Before using the peaks to count performed actions, establish how they correspond to the actions in this passage.
 
 #### RHY.2:4.3 - Preserve the relations that affect the result
 
-Recover order, separation, grouping, recurrence, phase, accent or coupling only where they change the receiving use. State the reference: “after the singer's pickup,” “within this eight-unit cycle” or “relative to the partner's perceived arrival” can be more useful than a bare timestamp.
+Keep order, separation, grouping, recurrence, phase, accent or coupling where the question depends on it. Give the relevant reference. A timestamp may locate a sound in a recording, while “after the singer’s pickup” tells the player when to enter. Other questions may require a position within an eight-unit cycle or the arrival perceived by a partner.
 
-Keep continuous contributions when their course matters between selected positions. A brush can remain in contact while pressure varies; a dancer can continue a weight path while a foot articulates an extra sound. Marking only the accents would erase the relation the practitioner must preserve.
+Preserve the course of a continuous action when it matters between selected positions. A brush can remain in contact as pressure varies. A dancer can continue a weight path while a foot articulates an extra sound. Marking only the accents would lose the continuous change in each case.
 
-Distinguish an observed relation from a proposed one. A desired coincidence of sound and movement is a performance instruction until an occurrence supports the corresponding observation.
+Identify whether a relation is observed or proposed. An instruction to align sound and movement states an intended coincidence. To report an observed coincidence, use evidence of both events and their relative timing.
 
 #### RHY.2:4.4 - Try the selection against the question
 
-Use the selected information to answer the question or reconstruct the intended part of the activity. Then change a feature that the selection omits. Would that change the answer?
+Use the selected information to answer the question or reconstruct the relevant part of the activity. Test whether changing an omitted feature could change that answer. A contrasting example, an existing observation or a trial can make the difference visible.
 
-If yes, include the missing feature, obtain its observation, or narrow the claim. If no, the omission can be useful simplification. This test applies to the operation and conditions being considered; it does not declare the omitted feature irrelevant to every rhythmic use.
+If the answer could change, include the feature and its basis or state what remains unresolved. If the answer would hold, the omission simplifies the account for this operation under these conditions.
 
 For a numerical analysis, keep the rule that produced the numbers. An onset detector's threshold, the treatment of a cycle boundary, or the choice of a perceived rather than physical event can alter the result.
 
 #### RHY.2:4.5 - Hand over a usable account
 
-Show the selected units, their consequential relations and their connection to the activity. Keep enough source material or demonstration for the next user to recover the intended reading. State uncertainty where it changes that user's action.
+Show the selected units and relations, and identify the occurrences or portions of the activity they represent. Give a receiving user enough of the source or a suitable demonstration to recover the intended reading when needed. State uncertainty that affects the finding or its use.
 
-Keep observed changes and proposed changes distinguishable in the account. A.22 governs the selected structure of the activity; C.2.1 governs the description of it.
+Use A.22 for the selected structure of the activity and C.2.1 for its description. In that description distinguish what was observed from what is proposed.
 
-Stop when the account supports the current operation. RHY.5 can develop its representation for repeated use; RHY.7 can compare alternatives. A missing relation may instead call for a focused observation.
+The selection is sufficient when it answers the current question, including a question about what the available material can establish. If the question requires a relation still missing, identify what remains open. Use RHY.5 when the representation needs development for repeated use and RHY.7 when alternatives need comparison. A focused observation may supply a missing relation.
 
 ### RHY.2:5 - Archetypal Grounding
 
 #### RHY.2:5.1 - Equal interval counts, different entrances
 
-Consider a constructed repeated cycle of eight equal time units with identical short sounds. Version A has attacks at 0, 1, 2 and 4; version B at 0, 1, 3 and 4. The next cycle starts at 8.
+Consider two constructed versions of a repeated eight-unit cycle with identical short sounds. A has attacks at 0, 1, 2 and 4. B has attacks at 0, 1, 3 and 4. The next cycle starts at 8.
 
-The cyclic intervals are respectively (1, 1, 2, 4) and (1, 2, 1, 4). Both have two intervals of length 1, one of length 2 and one of length 4. A histogram therefore cannot distinguish them. Yet an instruction to enter with the third attack places the entrance at 2 in A and 3 in B.
+The cyclic intervals are (1, 1, 2, 4) for A and (1, 2, 1, 4) for B. Each cycle has two intervals of length 1, one of length 2 and one of length 4. Their histograms agree. An entrance on the third attack falls at 2 in A and at 3 in B.
 
-The needed account preserves ordered attacks relative to the cycle start. The histogram remains usable for questions about interval frequencies. No listener preference or perceived meter follows from this arithmetic alone.
+For this entrance, preserve attack order and the times relative to the cycle start. For interval frequencies, the histogram suffices. To draw a conclusion about perceived meter or listener preference, use evidence of that response.
 
 #### RHY.2:5.2 - A contact trace leaves out the load change
 
-A constructed dance recording shows a foot contacting the floor before a transfer becomes usable by the partner. For a question about foot placement, contact timing may be enough. For a question about responding to the transfer, the account also needs the load change and the partner's response.
+Suppose a dancer’s foot touches the floor before the partner can use the weight transfer as a cue. A dance recording shows the contact. Its timing may answer a question about foot placement. To explain the partner’s response to the transfer, the account also needs evidence of the load change and of how or when the partner responded.
 
-Select those relations from an appropriate observation or bounded trial. If the video cannot show them, return the unresolved relation rather than labeling the contact “weight arrival.” RHY.4 develops the timing comparison.
+Use a suitable observation or a bounded trial to recover the relation. If the available evidence establishes only foot contact, report that and identify what remains unknown about loading or the partner’s response. Use RHY.4 to compare the relevant times.
 
 #### RHY.2:5.3 - A smooth sound has a rhythmic shape
 
-A continuously sounding tone has a changing amplitude envelope. Consider two constructed envelopes over two seconds. A completes one smooth rise-and-fall cycle; B completes two. Both remain audible throughout, with the same beginning and end of the tone.
+Consider two smooth amplitude envelopes on continuously audible tones lasting two seconds. A completes one rise-and-fall cycle and B completes two. Both tones start and end at the same times.
 
-The receiving question is which modulation repeats once per second. A list containing only the tone's start and stop gives the same answer for both and cannot resolve the question. Retain the course of amplitude change, or its modulation period when that summary suffices: two seconds for A and one second for B. B has the required repetition period. The tone's attack list remains useful for onset questions.
+Which modulation repeats once per second? A list of the two tones’ start and stop times is identical and leaves the answer open. Retain the amplitude course or its period. The period is two seconds for A and one second for B, so B satisfies the criterion. The attack list can still answer onset questions.
 
-This construction establishes the stated envelope difference, not what a listener feels as a beat. For a question about that response, retain the listening conditions and obtain the response relation; the envelope period alone does not supply it.
+The construction establishes the envelope periods. To find out what a listener hears as a beat, use evidence of the listener’s response under the relevant listening conditions.
 
 ### RHY.2:6 - Bias-Annotation
 
-A familiar notation makes some units easy to notice. A grid invites discrete positions; an amplitude plot invites peaks; a motion trace can hide a partner's response. Begin with the discrimination the work needs and test the available representation against it.
+A grid draws attention to discrete positions, an amplitude plot to peaks. A motion trace may leave a partner’s response unrepresented. Check whether the familiar representation supports the distinction the work needs.
 
 ### RHY.2:7 - Conformance Checklist
 
@@ -526,7 +526,7 @@ A familiar notation makes some units easy to notice. A grid invites discrete pos
 - Each retained relation has a usable reference and an adequate basis for the claim being made.
 - The treatment of continuity, boundary and order preserves the required discrimination.
 - Proposed variants and observed occurrences remain distinguishable.
-- The receiving user can recover the account's meaning and its material limits.
+- Anyone who needs this account can recover its meaning and the limits that matter to their use.
 
 ### RHY.2:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -538,27 +538,27 @@ A familiar notation makes some units easy to notice. A grid invites discrete pos
 
 ### RHY.2:9 - Consequences
 
-A later representation, comparison or rehearsal can use a smaller but better chosen account. Different questions may legitimately select different structures from the same activity. Maintaining all possible detail would lose the economy of selection.
+A later comparison, representation or rehearsal can use a smaller account that preserves the relation it needs. Another question about the same activity may require a different selection.
 
 ### RHY.2:10 - Architectural Rationale
 
-The method separates choosing what matters from choosing how to encode it. That prevents a tool's data format from deciding the ontology of rhythm. The two choices can iterate: difficulty representing a relation may reveal an ambiguity in the selection, and a better observation may change the selected units.
+Choose which relation matters to the question and then how to encode it. A tool’s data format can otherwise hide a relation the activity needs. Revisit the selection if representation reveals an ambiguity or a better observation changes which units can be distinguished.
 
-Selection also preserves relations across grains. A phrase, a carrier and an articulation can constrain one another without becoming one list of equivalent events.
+A phrase, a continuous action and a local articulation can constrain one another. Where their interaction matters, preserve those relations across the different durations or levels of the activity.
 
 ### RHY.2:11 - SoTA-Echoing
 
-Godfried T. Toussaint's *The Geometry of Musical Rhythm*, second edition (2020), chapters 1–2, provides a productive treatment of attack and duration patterns within a declared scope. Adopt its explicit abstraction for questions that retain what the construction needs; adapt the scope when movement or response matters. Geometric economy is valuable only while it preserves the receiving operation.
+Godfried T. Toussaint’s *The Geometry of Musical Rhythm*, second edition (2020), chapters 1–2, develops attack and duration patterns. Use its geometric abstraction when it retains the distinction your question requires. Extend the account when the required relation involves continuous movement or a participant’s response.
 
-Robert O. Gjerdingen's [“Smooth” Rhythms as Probes of Entrainment](https://doi.org/10.2307/40285585) supplies a historical counterexample to treating all rhythmic material as discrete attacks: smoothly modulated sounds can elicit rhythmic responses. Adopt the representational challenge. Its informal observations and proposed perceptual mechanism do not establish a universal segmentation rule.
+In [“Smooth” Rhythms as Probes of Entrainment](https://doi.org/10.2307/40285585), Robert O. Gjerdingen reported informal observations of rhythmic responses to smoothly modulated sounds. This historical result motivates preserving continuous changes when the response matters. The proposed perceptual mechanism and a general segmentation rule require separate grounds.
 
-For a simple entrance, an ordered sequence is cheaper and sufficient. For a continuously shaped sound or motion, retaining the changing envelope can prevent a false equivalence that the sequence alone cannot resolve.
+For an entrance specified by attack order and position, an ordered sequence and its reference can be sufficient at lower cost than preserving the full trajectory. When continuous sounds or movements share the same attacks, their different courses may supply the distinction the question needs.
 
 ### RHY.2:12 - Relations
 
 RHY.1 selects the working difficulty. RHY.3 uses the retained carrier–articulation relation, and RHY.4 examines timing correspondences. RHY.5–RHY.8 use the account for representation, translation, comparison and possible variants.
 
-A.22 supplies the general structure distinction; C.27.TA qualifies a temporal claim; C.2.1 governs the account's relation to its subject and evidence. NOT.1 asks which distinctions an expression must preserve. RHY.2 supplies the rhythmic distinctions before that notational design.
+Use A.22 to select structure, C.27.TA to qualify a temporal claim and C.2.1 to connect the account to its subject and evidence. NOT.1 asks which distinctions an expression must preserve. RHY.2 helps identify those distinctions in the rhythm being represented.
 
 ### RHY.2:End
 
@@ -569,15 +569,15 @@ A.22 supplies the general structure distinction; C.27.TA qualifies a temporal cl
 
 ### RHY.3:1 - Problem frame
 
-**Use this when** clearer attacks, accents or steps interrupt a continuous motion or sound that the performance needs. A brush loses its sustained texture when an accent is added; an ornament interrupts the weight path on which a partnered transition depends.
+**Use this when** attacks, accents or steps may interrupt a continuous motion or sound that the performance needs. An accent can break a brush’s sustained texture. A dancer’s ornament can interrupt the weight path a partner relies on. Use the method to find what happened or to shape a combination that will work.
 
-A **continuous carrier** here is the ongoing change or contact that supports the intended rhythmic effect over a selected interval. It need not move at constant speed. An **articulation** is a distinguishable shaping of the activity, such as an accent or direction change. The useful question is how these contributions coexist.
+A **continuous carrier** is the ongoing change or contact that supports the intended rhythmic effect over a specified interval. A movement that serves as the carrier can vary in speed. An **articulation** is a distinguishable change in the activity, such as an accent or a direction change. Identify how the two work together in the passage.
 
-The user already has a safe, familiar way to produce the simpler activity. The first result is a performable variant that retains the required continuity while making the selected articulation usable, or a localized incompatibility that needs another technique or arrangement. When separate attacks already give the intended result and no continuing contribution is needed, this method adds little.
+To try a variant, begin with a safe, familiar way to perform the simpler activity. For an account of an earlier performance, use suitable observations. The result can show how the articulation and carrier coexisted, identify a performable variant that sustains the required property and makes the articulation usable, or establish an incompatibility under the conditions examined. When separate attacks supply the whole intended result, use them directly.
 
 ### RHY.3:2 - Problem
 
-A description made of discrete events tells the performer where the accents belong but may leave out how to get between them. Trying to improve each event separately can interrupt contact, produce unwanted silence or make the next transition unavailable. Conversely, preserving a smooth motion at all costs can erase the intended articulation.
+An event list can locate accents and omit how to move between them. Improving each event in isolation can interrupt contact, create unwanted silence or disrupt the next transition. Giving priority to smooth motion can also erase the intended articulation.
 
 ### RHY.3:3 - Forces
 
@@ -592,41 +592,41 @@ A description made of discrete events tells the performer where the accents belo
 
 #### RHY.3:4.1 - State what must continue and why
 
-Identify the interval and the contribution that must persist: brush contact that sustains a sound, a movement path that carries the next transition, or another continuing activity needed by the performance.
+Identify the interval, the contribution that must continue and the effect that depends on it. For example, brush contact can sustain a sound and a continuing movement path can make the next transition possible.
 
-State its relevant property. “Remain in contact” differs from “maintain audible sound,” and both differ from “remain ready to redirect.” Choose the property consumed by the intended performance. Keep a simpler version without the extra articulation as a reference when it helps.
+Determine which property the performance needs. Remaining in contact, sustaining an audible sound and staying ready to redirect are different requirements. A simpler version without the added articulation can provide a reference.
 
-A direction reversal can belong to a continuous path even though instantaneous speed passes through zero. Do not use constant speed or constant force as a proxy for continuity unless the activity requires that property.
+A path can remain continuous through a direction reversal even when instantaneous speed reaches zero. Use constant speed or constant force as a criterion only when the activity requires it.
 
 #### RHY.3:4.2 - Identify the articulation and ways to produce it
 
-Name what should become distinguishable, to whom and relative to which reference. It might be a heard accent, a pressure change felt by a partner or a direction change visible to an ensemble.
+Identify what difference should become distinguishable, who needs it and its reference. A listener may need to hear an accent, a partner to feel a pressure change or an ensemble to see a direction change.
 
-Compare the available ways to produce it. A performer may modulate the existing motion; use another hand or body part; or distribute the sustained and articulated contributions between participants. These are alternatives to test under the present technique and equipment, not a requirement to try every combination.
+Examine the available means for producing the articulation. A performer can vary the ongoing movement or use another hand or body part. Several performers can divide the sustaining and articulating work. Assess the means relevant to the passage with its technique and equipment.
 
-Keep the shape around the articulation. Preparation, the most salient change and release can all affect the next action. A peak alone often underdescribes what the performer must do.
+Keep the shape of the articulation, including preparation, its most salient change and release where they affect the accent or the next action. The peak value alone can leave the performer unable to reconstruct the movement.
 
 #### RHY.3:4.3 - Add one articulation and inspect both results
 
-Use a manageable passage. Add the articulation while retaining the named continuing property. Inspect that property and the articulation separately, then ask whether their relation supports the performance.
+Choose a manageable passage containing both contributions. Examine a suitable existing performance or, if a trial is needed, add the articulation to the continuing activity. Check whether the required property persists, whether the articulation can be distinguished, and what the combination permits.
 
-If continuity fails, locate the interruption: contact was lost, the sustaining contribution was reassigned, or the accent consumed the movement needed for continuation. Change the smallest relevant aspect. If the articulation disappears, vary its contrast or use another contribution while preserving the carrier.
+If continuity fails, locate the interruption. Contact may have been lost, the sustaining action transferred to another performer, or the accent may use the movement needed to continue. When a correction is called for, change the smallest aspect that could restore the combination. If the articulation disappears, the correction may vary its contrast or means while preserving the carrier.
 
-Return to the simpler version when the combined attempt no longer makes the failure interpretable.
+When the combined attempt leaves the failure hard to interpret and the distinction matters, use the simpler version for comparison. An existing contrast can supply the result.
 
 #### RHY.3:4.4 - Test continuation under the needed variation
 
-Include the following action, not only the accent. Try the range of timing, intensity or direction needed for the current use. A variant that works only once from rest may not support repeated performance.
+Include the following action when continuation is part of the intended use. Examine the range of timing, intensity or direction that the task requires. Evidence of one successful start from rest leaves repeated performance open.
 
-When another participant relies on the cue, include that participant's response. A camera view or the performer's own feeling may not reveal the needed result. When the continuous contribution belongs to another performer or a controller, preserve its ability to respond and recover; coordination between contributors then matters as much as the local movement.
+When another participant must use the cue, examine evidence of its usability for their task. If the question concerns their response, establish how they actually responded. The performer’s own feeling or a camera view may leave that question open. If another performer or a controller sustains the carrier, examine how the contributors coordinate and whether the sustaining performer or controller can respond and recover as the passage requires.
 
-Select a viable combination, retain alternatives with different costs, or state the incompatibility. A different division of work, instrument or technique may be necessary. Use further tests only for uncertainties that can change that choice.
+Report which combinations the evidence supports under the stated conditions, their relevant costs and any incompatibility or unresolved condition. When asked to choose, select a viable combination, retain alternatives whose different costs matter, or state what prevents a choice. A different allocation, instrument or technique may help. Seek further evidence when the remaining uncertainty matters to the requested finding or choice and the test is worth its cost.
 
 #### RHY.3:4.5 - Carry the constraints into performance or practice
 
-Explain what must remain, what may vary, and what warns that the combination has failed. The instruction can be short: “keep the underlying sound through the accent and leave the next sweep available.”
+For performance or practice, say what must continue, what may vary and what would indicate failure. For example, “Keep the underlying sound through the accent and leave the next sweep available.”
 
-Treat a successful trial as evidence for its performed conditions. If the combination requires a missing coordination capability, develop that contribution and reintegrate it into the activity. A sequence of exercises does not by itself establish that the simultaneous contributions have become usable together.
+Qualify a successful trial to the conditions in which the passage was performed. When the goal is to develop missing coordination, practise the constituent contribution and restore it in the whole activity. To establish that the contributions work together, examine their joint performance.
 
 When the performance additionally requires a regular pulse with a changing choice of accents, use RHY.11:4.4.1 to construct that coordination. Retaining contact alone leaves the pulse period and accent placement unsettled. RHY.12:4.2.1 derives practice from the required joint action; it is useful when the performer cannot yet realize that action with the available technique.
 
@@ -634,15 +634,15 @@ When the performance additionally requires a regular pulse with a changing choic
 
 #### RHY.3:5.1 - Two brush arrangements
 
-Ed Soph describes both a division between a sustaining hand and an articulating hand, and an arrangement in which both hands sustain while pressure produces accents. For a passage needing sustained texture with clear accents, these offer different ways to allocate the contributions.
+Ed Soph describes one arrangement with a sustaining hand and an articulating hand, and another in which both hands sustain while pressure produces accents. These give a performer with the corresponding technique two allocations to consider for a passage requiring sustained texture and clear accents.
 
-Try the chosen arrangement in the passage. Listen for the sustained texture as well as the accent, and include the continuation into the next movement. The pattern selects the relation to preserve; the brush technique supplies the physical means. Neither arrangement is made mandatory for every style or performer.
+To assess either arrangement, listen for the texture and accent in the passage and include the next movement. Use an adequate observation or try the arrangement. Use the rhythmic method to identify the relation the passage needs. The performer’s brush technique supplies the means of producing it.
 
 #### RHY.3:5.2 - An ornament inside partnered motion
 
-In this constructed dance case, an extra foot sound is added to a familiar partnered transition. The sound lands on the desired subdivision, but producing it halts the weight path and leaves the partner unable to continue.
+Suppose a dancer adds a foot sound to a familiar partnered transition. The sound falls on the intended subdivision. Producing it halts the weight path and leaves the partner unable to continue.
 
-Keep the unornamented transition as a reference. The dancer already knows a smaller foot articulation that does not take over the supporting contribution. Complete the constructed trial with these stipulated results at the chosen comfortable pace:
+Use the unornamented transition as a reference. The dancer already knows a smaller foot articulation that can leave the supporting movement available. Suppose the trials at a comfortable pace give these results.
 
 | Variant | Weight path continues | Accent is distinguishable at the intended place | Partner can perform the following transition |
 | --- | --- | --- | --- |
@@ -650,28 +650,28 @@ Keep the unornamented transition as a reference. The dancer already knows a smal
 | Original added articulation | No | Yes | No |
 | Familiar smaller articulation | Yes | Yes | Yes |
 
-Retain the smaller articulation for this passage at this pace with this partner. It supplies the accent, preserves the continuing contribution and leaves the next transition possible. The original added articulation is rejected for this use even though its timing alone was correct. The unornamented transition remains an available return if a later tempo or direction defeats the combination.
+For this passage at this pace with this partner, choose the smaller articulation. Its accent is distinguishable, the movement continues and the partner can make the next transition. The original articulation met only the accent criterion. Keep the unornamented transition available if a later tempo or direction defeats the combination.
 
-These are stipulated case results. In practice, obtain the corresponding joint-performance result. If no available technique preserves both contributions and continuation, keep the simpler version or obtain the missing technique.
+The table stipulates results for this example. For a claim about an actual passage, use evidence of the joint performance under the relevant conditions. If no available technique meets all three requirements, report the limitation. For performance, the simpler version is an option if the task permits dropping the accent. If the accent is required, a different technique or arrangement is needed.
 
 #### RHY.3:5.3 - Motion continues while a robot signals an accent
 
-A constructed stage robot follows a continuous path while emitting a visible accent for a human collaborator. The light can articulate a timing point without stopping the robot's path. The trial must nevertheless check that the collaborator can use the cue and that its timing corresponds to the intended position in the movement.
+Suppose a stage robot follows a continuous path and flashes a light for a human collaborator. The flash can mark a timing point while the robot keeps moving. To establish that the arrangement works in the passage, compare the cue time with the intended position in the movement and examine whether the collaborator can use it.
 
-This case uses separate actuators instead of brush pressure or footwork. The common method concerns the continuing contribution, articulation and their usable relation. The control design and permitted operation of the machine remain engineering responsibilities.
+The robot uses separate actuators to sustain the path and produce the accent. The rhythm question concerns their continuing and articulated contributions and their usable timing. The control design and permitted operation require the corresponding engineering work and authority.
 
 ### RHY.3:6 - Bias-Annotation
 
-A smooth-looking movement can be mistaken for successful continuity, while the actual sound or partner cue has disappeared. Judge the property the performance needs. Also avoid treating the preferred technique of one teacher as the only means of preserving that property.
+A motion can look smooth while the sound breaks or a partner loses the cue. Judge the property the performance needs. A teacher’s preferred technique is one option. Where several techniques can preserve that property, consider the ones the performer can use under the actual conditions.
 
 ### RHY.3:7 - Conformance Checklist
 
 - The carrier is identified by an ongoing contribution and a needed property.
 - The articulation has a receiving participant or performance use.
-- The chosen means can preserve both contributions under the stated conditions.
-- The following action remains performable.
-- The observation distinguishes physical continuity, perceived effect and effort where their differences change the choice.
-- An unavailable technique or capability is returned as a development need, not assumed from a verbal instruction.
+- The evidence establishes whether the means examined preserve both contributions under the stated conditions, or identifies what remains unknown.
+- If the performance requires a following action, its availability is established or the account identifies the limitation.
+- The observation distinguishes physical continuity, perceived effect and effort where the distinction matters to the finding or choice.
+- If a needed technique or capability is missing, the account identifies it. When development is required, it identifies the contribution that needs practice.
 
 ### RHY.3:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -684,27 +684,27 @@ A smooth-looking movement can be mistaken for successful continuity, while the a
 
 ### RHY.3:9 - Consequences
 
-The performer can vary an articulation without having to discard the continuing activity that supports it. Some combinations remain unavailable with the current technique or configuration. Keeping that limitation visible supports a better practice or design decision.
+A performer can vary an articulation and preserve its supporting activity when the technique and configuration permit both. An established incompatibility identifies what a different technique, arrangement or practice would need to supply.
 
 ### RHY.3:10 - Architectural Rationale
 
-Carrier and articulation are different contributions that can occur together in one performance. They may be produced by the same movement or by different parts of a performing whole. Their relationship, rather than a particular instrument or dance figure, is the reusable object of the method.
+A carrier and an articulation can occur in the same movement or be produced by different parts of a performing whole. The method follows the relation between these two contributions across instruments, movements and arrangements.
 
 Enacting a phrase may require a coordinated articulation, which itself relies on continuing bodily or actuator regulation. Practising each contribution separately can help locate a limitation; the performance still requires their joint enactment.
 
 ### RHY.3:11 - SoTA-Echoing
 
-Ed Soph's [“Foundational Brush Technique”](https://www.moderndrummer.com/article/foundational-brush-technique/) (2021) supplies concrete alternatives for combining sustained brush motion and accents. Adopt those alternatives within brush practice; adapt the contribution distinction across other embodied activities. The source is practitioner instruction.
+In [“Foundational Brush Technique”](https://www.moderndrummer.com/article/foundational-brush-technique/) (2021), Ed Soph teaches ways to combine sustained brush motion and accents. Use the described techniques for brush playing when they fit the passage. In another activity, identify what sustains the effect and what articulates it, then find the means that activity supports.
 
-Gjerdingen's [smooth-rhythm study](https://doi.org/10.2307/40285585) motivates retaining continuous change in the analysis. It does not supply a dance or instrumental motor technique. The transfer from a representational distinction to this practical design method is an explicit synthesis.
+Gjerdingen’s [smooth-rhythm study](https://doi.org/10.2307/40285585) motivates keeping continuous change in an analysis. Designing a movement or instrumental technique to realize that change is a further practical construction. Use an appropriate technique for the chosen passage.
 
-An attack list is economical when attacks determine the needed result. Retaining the carrier and its course costs more attention but is warranted when their omission changes the sound, movement or next action.
+An attack list costs less attention and can suffice when attacks determine the result. Preserve the carrier and its course when changes between attacks affect the sound, movement or next action.
 
 ### RHY.3:12 - Relations
 
 RHY.2 identifies the carrier and its relevant relations. RHY.4 distinguishes the timing points used to judge the articulation. RHY.8 develops variants; RHY.9 and RHY.11 address allocation and simultaneous layers; RHY.12 develops a missing capability.
 
-MDPE.3 configures a performing whole. B.1.5.EW distinguishes constituent and encompassing work occurring together. Neither supplies the instrument- or movement-specific means needed to enact this carrier–articulation combination.
+Use MDPE.3 to configure the performing whole and B.1.5.EW to examine how a present constituent action enacts the encompassing work. The performer also needs the brush, movement or actuator technique that can produce the required combination.
 
 ### RHY.3:End
 
@@ -717,9 +717,9 @@ MDPE.3 configures a performing whole. B.1.5.EW distinguishes constituent and enc
 
 **Use this when** two apparently correct timing judgements disagree, or when aligning one recorded event fails to make the performance usable. A foot contacts the floor before weight transfer is clear to a partner; a sound starts on the grid but is heard as late; a controller sends a command before the instrument produces its effect.
 
-Start with the timing relation the activity needs. The first useful result identifies which events should be related, how their positions are known, and what correction or further observation is warranted.
+Start with the timing relation the activity needs. Identify the events to compare, the basis for their reported positions and what the comparison establishes. If a correction or further observation is needed, specify the difference it should address.
 
-In auditory research, a **perceptual center**, or **P-center**, is the perceived temporal location of a sound. A contact start, acoustic start, pressure maximum and participant's reported arrival are different possible landmarks. The method selects among them for the task; it does not require measuring all of them.
+In auditory research, a **perceptual center**, or **P-center**, is the perceived temporal location of a sound. A contact start, acoustic start, pressure maximum and a participant’s reported arrival are possible landmarks in different tasks. Choose the ones the particular question requires.
 
 ### RHY.4:2 - Problem
 
@@ -730,7 +730,7 @@ In auditory research, a **perceptual center**, or **P-center**, is the perceived
 | Force | Practical tension |
 | --- | --- |
 | Different events can belong to one action | Contact, force change and received information need not have one timestamp. |
-| Observations have their own delays | A camera, microphone, controller or responding participant contributes to the measured relation. |
+| Observation and delivery can introduce delays | Camera or microphone timing, controller latency and a participant’s response can contribute different delays to a measured interval. |
 | A correction can change the cue | Altering force or sound shape may change perceived timing as well as physical timing. |
 | Some timing variation is intended | Useful coordination can require a stable displacement rather than coincidence. |
 
@@ -738,81 +738,81 @@ In auditory research, a **perceptual center**, or **P-center**, is the perceived
 
 #### RHY.4:4.1 - Choose the relation the performance needs
 
-Name the reference and the contribution to be aligned with it. “The listener hears this accent with the click” differs from “the actuator contacts the surface when the command is due.” A partnered task may need a recognizable weight arrival that gives the other dancer time to respond.
+Identify the reference and the event or response whose timing matters. A listener hearing an accent with the click is one target. An actuator contacting the surface when the command is due is another. A dancer may need a recognizable weight arrival early enough to respond.
 
-State whether the target is coincidence, a lead, a lag or a bounded range. Obtain that target from the performance intention and actual interaction. Do not remove expressive displacement merely because a grid makes coincidence easy to display.
+For an intended alignment, establish whether the target is coincidence, a lead, a lag or a range. Use the performance intention and the relevant interaction. A displacement visible on a grid can be the intended expressive timing.
 
 #### RHY.4:4.2 - Identify the relevant landmarks
 
-Follow the action only as far as the question requires: command, movement, contact, sound or load change, and received cue. Choose the physical or response feature used to locate each relevant event.
+Follow the parts of the action needed for the question. They may include a command, movement, contact, sound or load change, and a received cue. Identify the physical feature or response used to locate each relevant event.
 
-For contact, the rule might be the first sustained contact visible in a suitable recording. For weight arrival, specify the mechanical or task criterion actually used; an audible footfall alone cannot provide it. For a perceived location, state whose judgement, which reference and which task supplies the estimate.
+For contact, a suitable rule might use the first sustained contact visible in a recording. For weight arrival, name the mechanical or task criterion. A footfall sound can locate audible contact while leaving that arrival open. For a perceived location, give the participant, reference and task used for the estimate.
 
-Treat an uncertain location as an interval or a spread of responses when appropriate. A threshold or detector identifies a feature under its rule; a large number of reported decimal places adds no warrant.
+Represent an uncertain location as an interval or a spread of responses when appropriate. Report a detector’s criterion and use the precision its observations support.
 
 #### RHY.4:4.3 - Compare positions under compatible observations
 
-Use a shared time reference when combining instrumented observations. Account for known recording or delivery delays if they could change the correction. If those delays are unknown and consequential, compare within a setup that cancels them or leave the physical delay unresolved.
+To combine instrumented positions, put them on a usable common time reference. Account for material recording or delivery delays. If a consequential delay is unknown, use a comparison that cancels it or identify which physical relation remains unresolved.
 
-For an auditory judgement, a listener may adjust a reference click relative to a repeated sound. A synchronization task instead asks someone to tap with the sound. These tasks answer related but different questions: the tapping result includes the performed response. Preserve the task used; do not label every response timestamp the sound's P-center.
+A listener can adjust a reference click to match a repeated sound. In a synchronization task the listener taps with it, so the result includes the performed response. Preserve the observing task. Use its result to estimate the sound’s perceived location only to the extent the procedure supports that inference.
 
-For movement, use a receiving task suited to the question. A partner can identify when a transfer becomes usable, or respond to it in an agreed simple continuation. That response helps judge the interaction. A claim about a general perceptual center in dance would require its own definition and evidence.
+For a movement question, use a receiving task that gives evidence of the relation at issue. A partner can report when the transfer became usable or make an agreed continuation in response to it. The first answers a question about perceived availability and the second supplies evidence about the performed interaction. A claim about a general perceptual center in dance would need its own definition and evidence.
 
-Begin with the available discrimination. If the receiving participant can already distinguish the usable variant from the unusable one, submillisecond instrumentation may add nothing to the rehearsal choice.
+Begin with the observations already available. If the receiving participant can reliably distinguish the usable variant from the unusable one, that result can settle a rehearsal choice. Further timing precision is useful when it could change the finding or action enough to justify the measurement.
 
 #### RHY.4:4.4 - Change the contribution that can improve the relation
 
-Choose a controllable change: when preparation begins, when the action is triggered, the shape of the sound or pressure change, the cue used by the receiver, or the division of coordination work.
+If correction is called for, choose a contribution you can change. Possibilities include starting preparation or triggering the action at a different time, changing sound or pressure shape, using another cue or reallocating coordination work.
 
-Hold other consequential conditions sufficiently stable to interpret the trial. A fixed timing shift is a candidate when the same cue has a repeatable offset under those conditions. If the shape, tempo, receiver or context changes, inspect the relation again rather than carrying the old offset forward automatically.
+In a trial, keep other consequential conditions stable enough to interpret the result. A repeatable offset with the same cue can justify trying a fixed shift. When shape, tempo, receiver or context changes, establish whether the old offset still applies using existing evidence or a new comparison if needed.
 
-Check the result that motivated the correction. Earlier contact is useful only if it improves the intended timing or usable continuation. If the adjustment harms another contribution, retain the trade-off and compare another variant.
+Check whether the adjustment improves the intended timing or continuation. Earlier contact may leave the received cue unchanged. If another needed contribution deteriorates, describe the trade-off. Compare another variant when the question calls for that comparison.
 
 #### RHY.4:4.5 - Return the usable relation and its scope
 
-The result states the chosen events, target relation, observation basis, correction if any, and conditions in which it worked or remains a proposal. Another performer should be able to tell what to attend to and what to change.
+Report the events, what the evidence establishes about their timing and the basis for that judgement. For an intended alignment, give the target. If a correction is proposed, explain what would change. For a correction that was tried, state the result and conditions. A performer continuing from the account needs to know what to attend to and, when a change is required, what to change.
 
-Use a numerical estimate only when it supports that action. Keep unresolved sensing delay, response variability or cue ambiguity separate from a finding of performer error. Broader transfer to other people, sounds or equipment requires its own basis.
+Use a numerical estimate when its resolution supports the requested finding or action. An unknown sensing delay, variable response or ambiguous cue can limit the finding without establishing performer error. To transfer an estimate to other people, sounds or equipment, establish why it applies there.
 
 ### RHY.4:5 - Archetypal Grounding
 
 #### RHY.4:5.1 - Correcting a slowly rising sound
 
-Assume a constructed sound trial uses a beat at 500 ms. The sound's acoustic start is at 500 ms; repeated click-alignment judgements place its perceived location near 540 ms under the chosen listening conditions.
+Suppose the beat occurs at 500 ms and a sound starts acoustically at 500 ms. Under the chosen listening conditions, repeated click alignments place its perceived location near 540 ms.
 
-A candidate correction starts the unchanged sound 40 ms earlier, at 460 ms. If the perceived offset remains the same, the predicted location is 500 ms. Replay checks that prediction in the passage. Changing the envelope instead would require a new estimate.
+One proposed correction starts the unchanged sound 40 ms earlier, at 460 ms. If the offset holds, its predicted perceived location is near 500 ms. A replay in the passage can test that prediction. For a different envelope, use an estimate that applies to it.
 
-The arithmetic establishes the predicted shift from the stipulated inputs. It does not establish that every slowly rising sound has a 40 ms offset or that a different listener will make the same judgement.
+The stipulated observations support this predicted shift for the sound, listener and task in the example. An offset for another sound or listener requires a basis for that use.
 
 #### RHY.4:5.2 - Contact, load and a partner's continuation
 
-In a constructed partnered exercise, both dancers agree on the musical target, but the follower cannot continue comfortably from the lead's transfer. Video shows the foot contacting the floor before the target. That observation does not settle when loading becomes usable to the partner.
+Suppose two dancers agree on the musical target but the follower cannot continue comfortably from the lead’s transfer. Video locates foot contact before the target. The pair still needs a basis for when the transfer becomes usable to the follower.
 
 The pair selects a familiar, comfortable next step as its receiving task. The usable-arrival criterion is whether the follower can begin that step at the agreed musical point without an extra pause or recovery. They compare the original transfer with an already learned version whose preparation begins earlier while its foot contact remains unchanged.
 
-Complete this constructed case with stipulated observations: the original transfer leaves the follower needing an extra pause; the revised preparation permits the agreed continuation, and both participants retain comfortable support. Keep the revised preparation for this passage and these conditions. Advancing foot contact again is not selected: its timing was unchanged between the two versions that gave different usable results.
+Suppose the original transfer leaves the follower needing an extra pause. With the revised preparation the follower can continue at the agreed point and both dancers retain comfortable support. Use that preparation for this passage under these conditions. This comparison gives no reason to advance foot contact again. Its timing stayed the same while the follower’s result changed.
 
-The case ends in a qualitative local choice, without estimating a universal offset or substituting a force peak for the partner's response. These stipulated observations illustrate how the decision follows; actual use needs the corresponding response in the performed task.
+The choice uses the follower’s continuation under the stated conditions. For an actual passage, use corresponding evidence of the receiving task. A force peak locates a mechanical event. The observed continuation can establish usability here; estimating the partner’s perceived arrival requires a response task suited to that estimate.
 
-If the task remains unclear or the adjustment exceeds the participants' technique, obtain suitable instruction rather than trying to force an earlier or stronger transfer.
+If the receiving task is unclear or a proposed adjustment exceeds what participants can do comfortably, obtain suitable instruction for the remaining question or return to a manageable familiar version.
 
 #### RHY.4:5.3 - A command timestamp hides delivery delay
 
-A constructed interactive instrument logs a command at the desired beat, while its acoustic output begins later. Microphone and controller timestamps are first brought onto a usable common reference. If the delayed physical output is the relevant problem, the developer can adjust scheduling or the output path and replay the task.
+Suppose an interactive instrument logs a command at the desired beat and produces acoustic output later. Relate the microphone and controller timestamps to a common reference. If the task is to correct an established physical delay, the developer can adjust scheduling or the output path and test the result in the passage.
 
 If the physical delay is removed but a soft sound still seems late, the perceptual question remains. An engineering latency correction and a perceptual alignment answer different parts of the relation.
 
 ### RHY.4:6 - Bias-Annotation
 
-The easiest landmark to measure can become the target by accident. Restore the receiving use before optimizing it. Also keep the task and population behind a perceptual estimate visible: a researcher, performer and partner can produce different responses without one of them simply being wrong.
+Check that the landmark being optimized represents the timing the receiving task needs. Retain the task and population behind a perceptual estimate. A researcher aligning a click, a performer tapping and a partner making a transition can give different answers because their tasks and response conditions differ.
 
 ### RHY.4:7 - Conformance Checklist
 
-- The target identifies the events to be related and whether coincidence or displacement is wanted.
+- The account identifies the events being related and, for an intended alignment, whether coincidence or displacement is wanted.
 - Each reported location has a physical or response criterion and an adequate observation basis.
-- Measurement and response delays are handled when they can change the decision.
-- The correction changes a controllable contribution and is checked against the intended effect.
-- Its scope retains the sound, movement, receiver and conditions that affect reuse.
+- The account handles measurement or response delays that can change the finding or decision.
+- A proposed correction identifies a controllable contribution. A claim that the correction worked requires evidence that it produced the required effect under the stated conditions.
+- The account states the sound, movement, receiver and conditions that affect reuse of the result.
 - An unresolved difference does not become an unsupported diagnosis of poor timing.
 
 ### RHY.4:8 - Common Anti-Patterns and How to Avoid Them
@@ -822,24 +822,24 @@ The easiest landmark to measure can become the target by accident. Restore the r
 | Make recorded onsets coincide and declare perceived timing repaired. | Check the receiving task that motivated the correction. |
 | Treat the highest force as a partner's perceived arrival. | Identify the mechanical criterion and the response criterion separately. |
 | Average measurements from unlike response tasks. | Preserve what each task measured and compare only for a stated receiving question. |
-| Reuse one offset after changing timbre, tempo or cue. | Recheck the relation under the changed condition. |
+| Reuse an offset after changing timbre, tempo or cue without considering its applicability. | Establish whether the offset still holds under the changed condition. |
 
 ### RHY.4:9 - Consequences
 
-Timing correction can target the contribution that matters to the performance. It may also reveal that two participants need different cues or that the current configuration cannot satisfy both relations. Additional precision has a cost; the useful resolution depends on the action being chosen.
+A practitioner can direct a correction at the contribution that matters to the performance. The comparison can identify different cue needs or show that an arrangement cannot meet both. Choose a resolution suitable for the finding or action, taking the cost of more precise observation into account.
 
 ### RHY.4:10 - Architectural Rationale
 
-The method connects production and reception without identifying them. Physical changes supply possible timing cues; a participant's task and response determine what the participant can use. This permits a shared correction while keeping the producer, receiver and measuring procedure distinguishable.
+A physical change can supply a timing cue. What a recipient can use depends on the cue, the task and the conditions of reception. A response gives evidence about that relation within its observing procedure. Producer and receiver can use the comparison to agree on a correction and identify whose contribution needs to change.
 
 
 ### RHY.4:11 - SoTA-Echoing
 
-London and colleagues' [“A comparison of methods for investigating the perceptual center of musical sounds”](https://doi.org/10.3758/s13414-019-01747-y) (2019) compares adjustment and tapping procedures. Adopt its task-sensitive interpretation: different procedures can yield different useful information. The study does not supply a universal offset or establish a dance measurement method.
+London and colleagues’ [“A comparison of methods for investigating the perceptual center of musical sounds”](https://doi.org/10.3758/s13414-019-01747-y) (2019) compares adjustment and tapping. Interpret a reported position in light of the task that produced it. The study supports this distinction for musical sounds. A fixed offset for every sound or a measurement procedure for dance would need its own grounds.
 
-The physical-onset approach remains sufficient when the receiving task consumes a physical start. Add a perceptual procedure when the heard or felt placement changes the decision. This costs more than reading a timestamp and addresses a different result.
+Use physical onset when the question concerns the physical start. If heard or felt placement matters, use a corresponding perceptual observation. Obtaining it can cost more than reading an existing timestamp and answers a different question.
 
-Extending the producer–receiver distinction to partnered movement is a methodological synthesis. The dance case asks a concrete usability question rather than asserting that auditory P-center findings transfer unchanged. Refresh the relevant result when a new timbre, interaction or sensing arrangement changes the task.
+The application to partnered movement adapts the production–reception distinction to a different receiving task. In the dance example, the follower’s continuation shows whether the transfer is usable under the observed conditions. Revisit the result when a new timbre, interaction or sensing arrangement changes its basis.
 
 ### RHY.4:12 - Relations
 
@@ -858,15 +858,15 @@ C.16, **Measurement and Metrics Characterization**, governs the characteristic, 
 
 ### RHY.5:1 - Problem frame
 
-**Use this when** a count, syllable sequence, score, diagram or recording makes one rhythmic operation easy but leaves another difficult. A learner can repeat syllables yet lose the cycle; an analyst sees a pattern's geometric shape but cannot tell where a musician should enter; a movement score preserves contacts while losing the continuous change needed by a partner.
+**Use this when** a count, syllable sequence, score, diagram or recording supports one rhythmic operation but leaves another difficult. A learner can repeat syllables and lose the cycle. A polygon can show the relative placement of attacks while leaving a musician’s entrance open. A movement score can preserve contacts but omit a change the partner needs.
 
-Start with the operation: recover an entrance, practise a phrase against a cycle, compare variants, communicate an articulation, or inspect a timing difference. The first result is a representation that supports that operation, with the reference and preparation its user needs.
+Identify the operation. It may be reading an entrance, practising a phrase against a cycle, comparing variants, communicating an articulation or examining a timing difference. Establish what an available representation lets its user recover. For a representation the user will work with, make its reference and any necessary preparation available.
 
 Use an adequate familiar convention directly. This method becomes useful when choosing the convention changes what can be recovered or done.
 
 ### RHY.5:2 - Problem
 
-Rhythmic representations distribute information differently. A syllable may indicate a position within a beat, a sound class, or part of a phrase learned through a practice tradition. A hand gesture may maintain a cycle rather than prescribe an accent. A geometric pattern may deliberately ignore where a cycle starts. Choosing by appearance or familiarity alone can conceal a distinction that the work needs.
+A syllable can specify a position within a beat, a sound class or part of a phrase learned through a practice tradition. A hand gesture can maintain a cycle without prescribing an accent. A geometric comparison can ignore the cycle origin. Choose by the distinction the work requires and what the convention lets its user recover.
 
 ### RHY.5:3 - Forces
 
@@ -881,101 +881,101 @@ Rhythmic representations distribute information differently. A syllable may indi
 
 #### RHY.5:4.1 - Choose what the representation must let someone do
 
-Take the needed discrimination from RHY.2 or identify it directly in the activity. Name the receiving reader, performer or computational process and the operation. Include its conditions: transient listening, rehearsal with replay, real-time partnering or offline comparison, for example.
+Use the distinction established in RHY.2 or identify it in the activity. Specify who or what will use the representation, the operation and its conditions. A player hearing a cue once, a group rehearsing with replay and a program comparing stored patterns can use different information.
 
-Ask which result must be recovered. “Reproduce the attack positions” is narrower than “reproduce the drum phrase.” The latter can require articulation and a performer's realization technique. A timing comparison may need a continuous envelope rather than either result.
+Identify the result to be recovered. Reproducing attack positions is one task. Reproducing a drum phrase may also require knowing the articulations and having the technique to perform them. To examine a timing difference, the user may need the continuous envelope.
 
 #### RHY.5:4.2 - Match the convention to the rhythmic content
 
-Use the following contrasts to select a candidate family. They are possible resources, not steps to perform in sequence.
+Consider the conventions that might preserve the relation the user needs. The table gives examples for several rhythmic operations.
 
 | Needed rhythmic operation | Candidate representation and what to retain |
 | --- | --- |
-| Locate an attack within a beat | A position-based syllable or subdivision grid; retain the beat, division and location convention. In Takadimi, the syllable identifies a contextual position rather than a note's written duration. |
+| Locate an attack within a beat | Use a position-based syllable or subdivision grid with its beat, division and location convention. In Takadimi the syllable identifies a contextual position. The written duration is a separate property. |
 | Preserve sound classes in a cyclic percussion pattern | A convention that distinguishes the relevant articulations, with their cycle positions. In the dūm–tak account of an iqa‘, a notated prototype leaves ornamentation to the performing practice. |
-| Work with a phrase while maintaining an independent cycle | A learned spoken phrase together with the cycle's hand gestures, as in solkaṭṭu practice; retain the correspondence among phrase, gesture and performing technique. |
-| Compare cyclic placements or transform a pattern | An ordered onset set or geometric representation; retain a distinguished origin when entry phase matters, and choose which transformations count as equivalent. |
-| Inspect microtiming or continuous shaping | An appropriately captured sound, movement or time-varying trace with its reference and observation rule. A coarse grid may remain a companion, but cannot restore omitted detail. |
+| Work with a phrase while maintaining an independent cycle | In solkaṭṭu practice a learned spoken phrase works with the gestures marking the cycle. Retain the correspondence among phrase, gesture and performing technique. |
+| Compare cyclic placements or transform a pattern | Use ordered onsets or a geometric representation. Keep a distinguished origin when entry phase matters. Specify which transformations count as equivalent for the comparison. |
+| Inspect microtiming or continuous shaping | Use a suitably captured sound or movement recording, or a time-varying trace, with its reference and observation rule. A coarse grid can still answer a positional question. Detail lost in that grid must come from a source that retains it. |
 
-A family name does not determine a complete reading. Select the actual convention and enough instruction to use it. NOT.8 constructs the general reference, segmentation and reading procedure; the table identifies rhythmic distinctions that procedure must serve.
+Give the convention and the instruction a user needs to interpret this material. A family name may cover several readings. Use NOT.8 to construct the reference, segmentation or reading procedure when needed. Use the relevant rhythmic operation to choose the distinctions the procedure must preserve.
 
 #### RHY.5:4.3 - Supply the reference and the meaning of an omission
 
-For a cyclic representation, make the cycle and its start recoverable when the operation uses them. For a spoken phrase, say how it relates to the maintained reference. A repeated gesture may distinguish places in a cycle without instructing the performer to emphasize them.
+Make the cycle recoverable when the operation uses it, and retain its origin when the operation depends on phase. For a spoken phrase, give its relation to the maintained reference. A repeated gesture may mark a particular place in the cycle while leaving the accent to another instruction or to the performer.
 
-State what an empty position means. A position without a new attack can contain a continuing sound or silence; the difference matters when the next action depends on duration. An empty position can also leave ornamentation available, omit an irrelevant layer, or identify an unobserved interval. Retain the intended meaning.
+When an empty position matters, establish what it means in this convention. A position with no new attack can contain a continuing sound or silence. It can also leave ornamentation open, omit another layer or mark an unobserved interval. Preserve the meaning the receiving task needs.
 
-For beat-based material, locate beats that have no new attack. Decide how the representation carries them: a sustained syllable with a continuing gesture, an explicit duration or rest, or a convention that labels the unarticulated beat. Retain the endpoint when the final duration matters. A beat can be maintained or inferred even when no sound starts there; the reference need not be another audible attack.
+For a beat-based task that needs unarticulated beats, locate them and give the user a way to keep their time. A sustained syllable with a continuing gesture, an explicit duration or rest, or a label for an unarticulated beat can supply different parts of the instruction. Make the endpoint recoverable when the final duration matters. A beat can be maintained or inferred between attacks.
 
-Choose the information available during use. A syllable sequence spoken in time with a beat gesture carries relations that the same words in an unspaced text line omit. For dictation, preserve enough of the performance to reconstruct the required timing; for sight reading, use the score and its reference as inputs. Require recovery of the distinctions needed by that task, rather than a unique mapping between bare syllable strings and every possible score.
+Use the information the receiver will have during the task. A syllable phrase spoken with a beat gesture can carry timing that the same words in an unspaced line omit. For dictation, preserve what the listener needs to reconstruct the timing. For sight reading, use the score and its reference. Test whether the required distinctions can be recovered from those inputs.
 
-When an expression relies on a demonstration, accessible recording or learned phrase, keep that contribution available. Written syllables can cue a prepared performer without supplying pronunciation, articulation and coordination to someone encountering them for the first time.
+If the expression depends on a demonstration, recording or learned phrase, make the required contribution accessible. Prepared performers may use written syllables as cues for pronunciation, articulation and coordination they already know. A person new to the practice may need those contributions supplied.
 
 #### RHY.5:4.4 - Use the representation and challenge its omission
 
-Have the intended operation carried out, or perform a bounded expert reconstruction when that is enough for the choice. Read the entrance, compare the two variants, or explain which performance changes the notation leaves open.
+Assess the representation by the intended operation. Use an existing reading or performance when it supplies the evidence. Otherwise carry out the operation, or use a bounded expert reconstruction when that can answer the question. For example, locate an entrance, compare two variants or identify the choices the notation leaves open.
 
-Choose a consequential contrast. Move the same articulation to another subdivision; keep the hand cycle while changing the spoken grouping; or retain attack positions while changing the sound classes. Ask whether the representation distinguishes what the operation needs.
+Use a contrast that could expose loss of the required distinction. For example, move the articulation to another subdivision, change the spoken grouping within the same hand cycle, or keep the attack positions while varying sound classes. Establish whether the representation can distinguish the cases the user needs to distinguish.
 
-Separate interpreting the expression from being able to perform it. A correct spoken reading can establish that a prepared reader recovered the positions. It does not establish instrumental technique, balanced rotation or sustained partner coordination.
+A correct reading by a prepared reader can establish that the reader recovered the indicated positions. To establish instrumental technique, balanced rotation or sustained partner coordination, use evidence of the corresponding performance.
 
 #### RHY.5:4.5 - Retain one representation or a useful combination
 
-Use the simplest adequate convention for the operation. When two operations need different information, keep complementary representations with shared references: an ordered symbolic pattern for transformation, for example, and a recording for its articulation and timing.
+Use the simplest convention that serves the operation. When two operations are better served by complementary representations, keep a usable correspondence between their references. For example, transform an ordered symbolic pattern and use a recording for its articulation and timing.
 
-Explain how to move between them. RHY.6 constructs the rhythmic correspondence; NOT.6 supplies the general method for keeping complementary views consistent. Additional views are useful only when someone consumes their additional information.
+When both representations are needed, explain how their positions and features correspond. Use RHY.6 to construct the rhythmic correspondence and NOT.6 to keep the views consistent. An additional view earns its upkeep when its information is needed.
 
-Stop when the user can recover the required result or when the missing convention, perception or performance capability is located. Reopen the choice if the intended operation changes.
+Report what the user can recover and any missing convention, perception or performance capability. A finding about adequacy can finish the inquiry. If the task requires the missing contribution, obtain it or state the limit on that task. Revisit the choice when the intended operation changes.
 
 ### RHY.5:5 - Archetypal Grounding
 
 #### RHY.5:5.1 - A spoken phrase and a three-beat cycle
 
-Nelson's introductory solkaṭṭu account distinguishes the phrase from the hand gestures that maintain tāḷa. In the described three-beat cycle, clap and finger gestures identify successive places; they do not by themselves prescribe a strong–weak–weak accent pattern.
+In Nelson’s introductory account of solkaṭṭu, the spoken phrase and the hand gestures maintaining tāḷa have different jobs. In the three-beat example, the clap and finger gestures mark successive places. Any strong–weak–weak accent pattern would need another basis.
 
-For a constructed teaching use, the learner must keep that cycle while changing the phrase's grouping. The chosen representation therefore includes both spoken phrase and gesture convention. Writing three undifferentiated pulses would preserve the number of beats but lose the identifiable cycle places. Automatically accenting every clap would add a performance instruction that the convention did not supply.
+Suppose the learner must keep that cycle while changing the grouping of the phrase. Supply both the spoken phrase and the gesture convention. Three undifferentiated pulses give the number of beats but omit the identifiable cycle places. Emphasizing every clap would add an accent the convention itself does not prescribe.
 
-The result is an interpretable practice instruction. Whether this learner can coordinate it fluently remains a capability question.
+This gives the learner an interpretable practice instruction. An observation of the learner coordinating the phrase and gestures can support a further finding about fluency.
 
 #### RHY.5:5.2 - A polygon hides an entrance
 
-A constructed cyclic onset pattern occupies positions 0, 3 and 5 in eight equal units. A shape comparison treats rotations as equivalent. That representation is useful for comparing the relative arrangement.
+Suppose the onsets in an eight-unit cycle fall at 0, 3 and 5. For a question about relative placement, a shape comparison can treat rotations as equivalent.
 
-Now a musician needs to enter at the start marked by another performer. The unmarked shape cannot identify that origin. Add the reference point and direction of traversal, giving the ordered positions relative to them. Keep the rotation-invariant view for the shape question; use the marked one for entry. A single representation need not answer both questions without modification.
+For an entrance marked by another performer, the unmarked shape leaves the origin open. Give the start and direction of traversal so the player can recover the ordered positions. The rotation-invariant view still supports comparison by shape.
 
 #### RHY.5:5.3 - A timing grid beside a sound
 
-A constructed recording contains two phrases whose attacks occupy the same grid positions, but one phrase's soft accents seem later to the listener. The grid still serves phrase counting. For the timing question, retain the sound and the listening or measurement task used to locate the accents. RHY.4 addresses the physical and perceived positions.
+Suppose two recorded phrases have attacks at the same grid positions but a listener hears the soft accents of one phrase later. The grid can support phrase counting. For the timing question, retain the sound and the task used to locate the accents. Use RHY.4 to examine physical and perceived positions.
 
 Replacing the sound by more subdivision labels would not supply the omitted envelope or the listener's response.
 
 #### RHY.5:5.4 - One attack can conceal two different instructions
 
-Consider two constructed instructions over two equal beats. A begins a tone at the first beat and sustains it until the end of the second. B begins at the same time, stops at the end of the first beat, and rests for the second. The attack-only syllable string is **ta** in both cases. It answers the onset question but cannot tell a player whether to sustain or stop.
+Consider two instructions over two equal beats. A starts a tone on the first beat and sustains it until the end of the second. B starts at the same time, stops at the end of the first beat and leaves the second beat silent. With this beat reference, the attack-only syllable **ta** specifies the same onset in both cases. It leaves sustain versus silence open.
 
-One available extension is Cha's convention: **ta–ah** carries a tone through the next beat, while **ta (ta)** marks a rest there. State this convention before using the parentheses: other Takadimi uses employ parentheses for muted, unarticulated positions without the same rest-only meaning. Cha also proposes voiced rest cues, ending the relevant syllable in *sh*; these are rehearsal cues, not attacks to add to the instrumental phrase.
+In Cha’s convention, **ta–ah** carries a tone through the next beat and **ta (ta)** marks a rest there. Give the convention when using the parentheses. In other Takadimi uses, parentheses can mark muted, unarticulated positions without specifying a rest. Cha also proposes voiced rest cues ending in *sh*. The voice supplies a rehearsal cue while the instrumental phrase remains silent.
 
-Alternatively, retain a two-beat guide with separate duration instructions: **start, continue to the end** for A; **start, stop after one beat and remain silent** for B. Both constructions return the required sustain/stop distinction. The second can reuse a familiar gesture and duration notation instead of introducing new syllables.
+Another option uses a two-beat guide and a duration instruction. For A, **start and continue to the end**. For B, **start, stop after one beat and remain silent**. A familiar gesture and duration notation can supply this information without introducing new syllables.
 
-For the stated task either augmented representation suffices. The bare **ta** does not. A later test of unprompted performance must distinguish the chosen teaching support from the capability expected without it.
+Either augmented representation answers the sustain-or-stop question. The bare **ta** leaves it open. Evidence of a performance with the teaching cue supports that assisted use. A claim about unprompted performance requires evidence from the conditions in which the learner must perform without the cue.
 
 #### RHY.5:5.5 - Endpoints omit a needed position during movement
 
-In a constructed two-unit movement interval, trace A goes from position 0 to +1 at time 1 and returns to 0 at time 2. Trace B goes from 0 to −1 at time 1 and likewise returns to 0 at time 2. Position is measured along an agreed axis; time uses the shared rhythmic reference.
+Consider two movement traces over two time units, with an agreed position axis and shared time reference. A starts at 0, reaches +1 at time 1 and returns to 0 at time 2. B starts at 0, reaches −1 at time 1 and returns to 0 at time 2.
 
-A record containing only the endpoints at times 0 and 2 is identical for both traces. The receiving task asks which side of the origin the movement occupies at time 1. Retain the time-1 sample, or a recording that resolves that position under the same reference. The answers are the positive side for A and the negative side for B. The endpoint record alone must leave the answer open.
+The endpoint records at times 0 and 2 agree. To tell which side of the origin the movement occupies at time 1, use the time-1 sample or a recording that resolves it on the same reference. A is on the positive side and B on the negative. The endpoints alone leave that answer open.
 
-This selection resolves the stated intermediate-position question. A different question about direction or position between samples can need more information; RHY.6:5.5 works that reconstruction. Reading the trace does not supply a bodily technique for reproducing it.
+These observations settle the position at time 1. Position or direction between samples may require more information, as in RHY.6:5.5. Reproducing the movement also requires bodily technique.
 
 ### RHY.5:6 - Bias-Annotation
 
-A convention learned early can feel like the rhythm itself. Recover the operation before ranking conventions. Also keep cultural competence visible: a compact mnemonic may depend on a substantial oral or embodied practice, while a more explicit diagram may serve a different reader.
+A familiar convention can make its own distinctions feel inevitable. Judge it by the intended operation. A compact mnemonic can depend on substantial oral or embodied preparation. A more explicit diagram may suit a reader who lacks that practice.
 
 ### RHY.5:7 - Conformance Checklist
 
-- The representation supports a named rhythmic operation for an identified user.
-- Its positional, articulatory, phrase or trajectory meaning is available, rather than inferred from a familiar-looking sign.
-- The reference, grouping and omission convention preserve the distinctions the operation consumes, including unarticulated beats, sustain and silence when relevant.
+- The assessment identifies the rhythmic operation and its user, and establishes what the representation lets that user recover or what limits the conclusion.
+- The assessment identifies the sign’s meaning under the convention used, or establishes which needed meaning the available material leaves open.
+- The assessment establishes which distinctions the reference, grouping and omission conventions preserve for the operation. These can include unarticulated beats, sustain and silence.
 - A contrasting use exposes the relevant losses or confirms adequacy for that use.
 - Interpreting the representation and physically performing it remain separately warranted.
 - Complementary forms have a usable correspondence when both are retained.
@@ -992,34 +992,34 @@ A convention learned early can feel like the rhythm itself. Recover the operatio
 
 ### RHY.5:9 - Consequences
 
-The representation becomes a tool for a particular rhythmic operation rather than an accidental limit on the activity. Keeping a second form may increase maintenance effort, but can be preferable to expanding one notation until it obscures its main use.
+A representation suited to its operation can remain compact. A complementary form costs effort to maintain but can preserve a further distinction without obscuring the first form’s use.
 
 ### RHY.5:10 - Architectural Rationale
 
-Rhythmic representation choice concerns the relation among the subject, convention and operation. The carrier can be a page, voice, gesture, recording or data structure. That is why a catalogue organized only by medium is insufficient: a voiced syllable can support several different interpretation rules.
+The relation between subject, convention and operation determines which representation fits. A page, voice, gesture, recording or data structure can carry it. Organizing by medium alone would miss differences such as the several roles of a voiced syllable.
 
-The method specializes notational design through domain choices. It does not prescribe inventing a new notation whenever an established practice already supplies the needed operation.
+Apply notational design to the rhythmic distinctions the receiving work needs. Use an established convention when it already makes those distinctions available.
 
-The representation can distribute its information across coordinated actions: a voice gives the phrase while a gesture maintains the reference. Adding every distinction to the spoken vocabulary can impose more reading and coordination work than retaining that combination. Conversely, transferring only the words can remove the gesture on which interpretation depended. Choose between these constructions by the intended operation and the user's preparation.
+A voice can carry the phrase while a gesture maintains its reference. Putting every distinction into the spoken vocabulary may demand more reading and coordination. Transmitting only the words can also remove the reference needed to read them. Choose the combination that fits the operation and the user’s preparation.
 
 ### RHY.5:11 - SoTA-Echoing
 
-Hoffman, Pelto and White's [Takadimi article](https://www.takadimi.net/documents/TakadimiArticle.pdf) (1996) supplies a position-oriented convention. Adopt its explicit relation to the beat; do not infer general teaching superiority from the authors' pedagogical argument.
+Hoffman, Pelto and White’s [Takadimi article](https://www.takadimi.net/documents/TakadimiArticle.pdf) (1996) specifies syllables by their positions within the beat. Use that convention for a positional question. Comparing teaching effectiveness requires evidence beyond the authors’ pedagogical argument.
 
-Jee-Weon Cha's [reconsideration of Takadimi](https://doi.org/10.1177/0305735614528063) (2015, first published online in 2014), pp. 570–574, exposes losses in onset-only strings and proposes explicit treatment of tied-over beats and rests. Sections :4.3 and :5.4 use that extension when the receiving text must carry those distinctions itself. When the user already has a timed demonstration or score with the required duration instructions, retaining that information can be enough.
+Jee-Weon Cha’s [reconsideration of Takadimi](https://doi.org/10.1177/0305735614528063) (2015, first published online in 2014), pp. 570–574, shows what onset-only strings omit and proposes signs for tied-over beats and rests. These signs can carry the sustain-or-rest distinction in the text itself. A suitable duration notation, timed demonstration or score can already supply it.
 
-Hoffman's [teaching recommendations](https://www.takadimi.net/teachingWithTakadimi.html) combine vocal practice with beat-keeping movement; Birch and Walsh's [2022 conference abstract](https://www.music.org/images/conf/reg/ne/2022_NE_Schedule_20220214.pdf#page=18) proposes conducting in response to Cha. A gesture maintains beat reference, but still needs an instruction that distinguishes continued sound from silence. These are alternative constructions for different available inputs. Neither Cha's proposal nor the conference abstract establishes comparative superiority. Loss of access to the score or gesture, or a new duration-sensitive task, reopens the choice; a universal bijection between bare strings and scores is not needed to make that local decision.
+Hoffman’s [teaching recommendations](https://www.takadimi.net/teachingWithTakadimi.html) combine vocal practice and beat-keeping movement. Birch and Walsh’s [2022 conference abstract](https://www.music.org/images/conf/reg/ne/2022_NE_Schedule_20220214.pdf#page=18) proposes conducting in response to Cha. A beat gesture supplies a reference. An instruction, score or timed realization that distinguishes release supplies the remaining information for a sustain-or-stop question. These proposals offer different constructions. A comparative teaching claim needs further evidence. If access or the rhythmic task changes, check what the user can still recover.
 
-David P. Nelson's *Solkattu Manual* (2008), Introduction, distinguishes spoken phrases, tāḷa gestures and learned realization. Adapt that distinction to the representation choice; retain the practice-specific interpretation when using its material.
+David P. Nelson’s *Solkattu Manual* (2008), Introduction, distinguishes spoken phrases, tāḷa gestures and learned realization. Use that distinction when selecting what the receiving representation must carry. When using solkaṭṭu material, retain its practice-specific meanings.
 
-Johnny Farraj's [MaqamWorld account of iqa‘at](https://maqamworld.com/en/iqaa.php) distinguishes a rhythmic prototype from its ornamented realization. Adopt that boundary when a symbol sequence leaves performance choices open.
+Johnny Farraj’s [MaqamWorld account of iqa‘at](https://maqamworld.com/en/iqaa.php) distinguishes a rhythmic prototype from its ornamented realization. Where a symbol sequence leaves ornamentation open, identify the choices available in performing it.
 
 Toussaint's *The Geometry of Musical Rhythm* (2020) supplies economical symbolic and geometric constructions. Retain only the equivalences that preserve the receiving question.
 
 
 ### RHY.5:12 - Relations
 
-RHY.2 supplies the rhythmic distinctions. RHY.6 translates the selected content; RHY.7 compares structures and RHY.8 constructs variants. RHY.12–RHY.13 address learning and transfer rather than treating representation choice as proof of capability.
+Use RHY.2 to identify the rhythmic distinctions, RHY.6 for translation, RHY.7 for comparing structures and RHY.8 for developing variants. Use RHY.12 or RHY.13 when the work concerns learning or transfer. A claim about the resulting capability requires evidence of the relevant performance.
 
 Notational Engineering's NOT.1, NOT.3 and NOT.8 supply general selection, operative interpretation and temporal or embodied reading. NOT.6 coordinates complementary forms. Mathematical Thinking's MATH.2, **Treat Objects as the Same While Preserving Operations (Quotient)**, supplies the formal construction when a cyclic comparison deliberately identifies several presentations.
 
@@ -1032,15 +1032,15 @@ Notational Engineering's NOT.1, NOT.3 and NOT.8 supply general selection, operat
 
 ### RHY.6:1 - Problem frame
 
-**Use this when** rhythmic material must move between conventions or carriers and the receiving user needs more than a familiar-looking sequence. Examples include moving between position syllables and percussion articulations, between a spoken phrase and an instrumental realization, or between an ordered cycle and a geometric comparison.
+**Use this when** rhythmic material must move between conventions or carriers and the receiving task depends on how it is interpreted. Examples include relating position syllables to the percussion articulations at those positions, relating a spoken phrase to an instrumental realization, and translating between an ordered cycle and a geometric representation.
 
-State what the receiver must preserve: attack positions, grouping, sound classes, an entrance, a continuous shape or another selected consequence. The first result is a target representation with a usable rhythmic correspondence and a clear treatment of what the translation loses or adds.
+Identify what the receiving operation must preserve, such as attack positions, grouping, sound classes, an entrance or a continuous shape. Produce the target representation and its correspondence where the source supports them. If the question is what can be recovered, an account of a preserved or missing distinction can be sufficient. State what a translation adds or loses.
 
-A recording transfer that preserves all needed interpretation unchanged may need no new translation method. The difficult case is a changed convention, abstraction or receiving operation.
+Use an existing transfer directly when it preserves the interpretation the task needs. Examine the correspondence when the convention, abstraction or receiving operation could change that result.
 
 ### RHY.6:2 - Problem
 
-Identical syllables can play different roles in different practices, and different expressions can encode the same onset positions while prescribing different articulations. Replacing each sign with a target sign can therefore create a plausible reading that cannot reconstruct the required performance or answer the source question.
+The same syllable can have different roles across practices. Two expressions can also locate the same attacks while prescribing different articulations. Substituting a sign for each source sign may therefore leave the user unable to perform the intended phrase or answer the source question.
 
 ### RHY.6:3 - Forces
 
@@ -1055,78 +1055,78 @@ Identical syllables can play different roles in different practices, and differe
 
 #### RHY.6:4.1 - Recover the source's rhythmic interpretation
 
-Identify the actual convention, its beat or cycle reference, the relation of phrases to that reference, and any articulation or realization distinctions consumed by the receiving task.
+Identify the source convention, any beat or cycle reference and the phrase’s relation to it. Retain articulation or realization distinctions on which the receiving task depends.
 
-Use RHY.2 and RHY.5 results when they already supply this information. If the source is a recording, distinguish observed features from the chosen transcription. If it is a prototype, retain the performer choices it leaves open. Ask a prepared source practitioner when a sign's meaning depends on a phrase or tradition you cannot recover.
+Use existing results from RHY.2 and RHY.5 when they establish the interpretation. For a recording, distinguish the features observed from the transcription chosen. For a prototype, preserve the choices left open to the performer. Where the meaning depends on a phrase or tradition, use a qualified source or a prepared practitioner if that meaning cannot already be recovered.
 
-Select a bounded family for the proposed translation. A rule for a four-part equal subdivision does not automatically cover unequal divisions, tempo changes or free timing.
+Specify the family covered by the proposed rule. A correspondence for four equal subdivisions leaves uneven subdivisions, tempo changes or free timing open unless it also accounts for them.
 
 #### RHY.6:4.2 - Construct a shared rhythmic correspondence
 
-Align the relevant occurrences or phrase portions, then relate their positions under the source and target references. Preserve cycle identity and phase when later entry or coordination needs them. Carry duration, articulation, grouping or continuous course when the receiving operation consumes those features.
+Align the relevant occurrences or phrase portions and relate their positions under the source and target references. Preserve cycle identity and phase where entry or coordination needs them. Carry duration, articulation, grouping or continuous course when the receiving operation depends on those features.
 
-Choose a convenient shared description for the construction, such as ordered positions with event labels. It is a working intermediary whose fields come from this task, not a universal format for all rhythm.
+When an intermediate description helps, use one that carries the distinctions needed here. For example, ordered positions and labels can relate the two readings of a percussion exercise. Use a direct correspondence when it already suffices.
 
-For a duration-sensitive translation, align more than attacks. Locate where a sound continues across a beat, where it ends and where silence is prescribed. A printed continuation sign must retain that meaning in the receiving spoken or performed form. If the source has only attack labels, return duration as unresolved instead of inventing a sustained note or a rest.
+For a duration-sensitive translation, locate continuation across a beat, release and prescribed silence as well as attacks. Preserve the meaning of a continuation sign in the receiving form. If the source provides only attacks, use an accessible companion that carries duration or report where duration remains unresolved.
 
-When a source syllable names a sound class and the target names a beat position, derive the target sign from the event's position. Preserve the sound class separately if needed. When a phrase maps to a learned instrumental realization, establish that phrase correspondence; do not manufacture a one-sign–one-stroke dictionary.
+If a source syllable names a sound class and the target sign specifies a beat position, derive the target sign from the position of this occurrence. Carry the sound label alongside it when needed. Where a phrase has a learned instrumental realization, establish the correspondence for that phrase.
 
 #### RHY.6:4.3 - Expose collapsed distinctions
 
-Look for two admitted source cases that translate to the same target. If such a pair exists, would the receiving operation need different answers?
+Check whether different admitted source cases have the same target reading. For such a pair, ask whether the receiving operation needs different answers. A pair that needs different answers demonstrates the loss. Use an existing comparison or a rule covering the family when it provides the needed result.
 
-When such a pair needs different answers, retain the missing distinction as a target feature or companion representation, or keep the relevant source phrase or recording accessible with a way to locate that distinction. When the answers coincide, that loss is harmless for this operation. Consulting source material to recover missing content is different from interpreting a target answer back into the source question in :4.4. That answer may need the same timing, a compatible performance or the original expression; state which the work requires.
+If the pair needs different answers, add the missing distinction to the target, retain a companion representation, or give the receiver a way to locate the relevant event or phrase in an accessible source. If the required answers agree, the omission is harmless for those cases and this operation. To return an answer from the target to the source question, establish whether the task needs the original expression, the same timing or a compatible performance. Looking up omitted content and interpreting the target answer perform different work.
 
-A target with richer notation cannot recover source information that has already been discarded. For a continuous shape reduced to sample points, name the interpolation or reconstruction assumption if the receiver must act between points.
+A richer target vocabulary cannot establish information already discarded from the source. For a trajectory represented by samples, state the basis for an interpolation or reconstruction if the receiver needs a position between them.
 
 #### RHY.6:4.4 - Perform the receiving operation and return its result
 
-Use the target to carry out the intended comparison, reading or construction. Interpret the answer against the source question. A target calculation of phase, for example, needs to return a position under the source's cycle and orientation.
+Use the target to carry out the intended comparison, reading or construction, then interpret the result for the source question. For example, give a phase calculation as a position under the source cycle and direction. An established target result can be used directly when it has the required correspondence.
 
-Keep reading separate from physical performance. Correct target syllables can express the intended positions while the receiving performer still lacks the corresponding instrumental or movement technique.
+Correct target syllables can express the intended positions. To credit the performer with the corresponding instrumental or movement technique, use evidence of that performance.
 
-For a target edit, distinguish a changed rhythmic requirement from a representational rewrite. Update the source-side event correspondences, then test that the translated new source gives the requested target. Retain source restrictions whose loss would change the proposal's identity or admissible performance.
+For a target edit, determine whether it changes the rhythmic requirement or expresses the same requirement differently. Identify the compatible source interpretation, update affected event correspondences and check that the resulting translation gives the requested target. Preserve restrictions needed for the proposal’s identity or admissible performance. Report any conflict or missing assignment.
 
 #### RHY.6:4.5 - Keep the translation at the needed scope
 
-Retain the rule, reference, required companion and meaningful loss with the receiving material. A local example can establish that translation; a reusable family needs a rule covering the admitted cases.
+Keep the correspondence, its reference, any required companion and material losses available to the receiving user. One example can establish a translation for that case. For a reusable family, establish the rule and the cases it covers.
 
-Stop with a usable target, a narrower adequate use, or a named missing correspondence. Further comparisons are worthwhile only when their possible result could change reliance or the construction. Reopen the affected correspondence when the source or target interpretation, reference, receiving question or admitted edits change; retain unaffected results. NOT.5 supplies the general preservation, reflection and return questions.
+Return the target and its supported use, or name the missing correspondence and the result that remains open. Seek further comparisons when their likely contribution to the requested finding, reliance or construction justifies the effort. Revisit a correspondence when the source or target interpretation, reference, receiving question or permitted edits change its grounds. Use NOT.5 for the general questions of preservation, reflection and return.
 
 ### RHY.6:5 - Archetypal Grounding
 
 #### RHY.6:5.1 - Positions survive while sound classes disappear
 
-This constructed percussion exercise has two attacks in one beat. Let D and T denote two distinct sound classes under a supplied local convention. They are not a claim about a particular named iqa‘.
+Suppose a percussion exercise has two attacks in one beat. In the local convention, D and T denote different sound classes.
 
 | Beat position | Version A | Version B | Position-oriented target |
 | --- | --- | --- | --- |
 | 0 | D | T | ta |
 | 1/2 | T | D | di |
 
-The target preserves the two attack positions but cannot distinguish A from B. It is sufficient for asking where the attacks fall. To reproduce the sound-class order, retain (D, T) or (T, D) associated with those occurrences.
+The target shows the two attack positions identically in A and B. It answers where they fall. To reproduce the sound classes, retain their order at those positions, (D, T) for A and (T, D) for B.
 
-Now shift A's two attacks forward by one quarter of the beat, without changing their sound classes. Their new positions are 1/4 and 3/4, yielding the position reading ka–mi under the four-part convention. D remains with the first shifted event and T with the second. Repeating ta–di after the shift would preserve the old positions, not the requested edit.
+Shift A’s attacks forward by one quarter of a beat, keeping their sound classes. The new positions are 1/4 and 3/4. Under the four-part convention their position syllables are ka–mi, with D on the first shifted event and T on the second. The old ta–di still specifies 0 and 1/2.
 
-The edit can also originate in the target. Suppose the user changes ta–di to ka–mi while keeping the two occurrences and their associated D/T order. Under the selected four-part convention, reconstruct D at 1/4 and T at 3/4. Translating that revised source yields ka–mi; leaving ta–di unchanged leaves D at 0 and T at 1/2 unchanged.
+A user can also edit ta–di to ka–mi while keeping the two occurrences and their D/T order. Under the selected convention reconstruct D at 1/4 and T at 3/4. Translating this revised source gives ka–mi. With no edit, the original D and T remain at 0 and 1/2.
 
-If the user instead inserts a third attack, the two-label companion supplies no sound class for it. Return that missing assignment when the receiving task needs the sound-class phrase; the three positions alone can still serve a positional question. If a companion also demands that the old positions remain fixed, it conflicts with the requested ka–mi edit: resolve which positional requirement changes instead of silently retaining incompatible instructions.
+If the user inserts a third attack, the two-label companion leaves its sound class open. Return the three positions for a positional question. For a sound-class phrase, establish the new assignment or identify it as missing. If a companion requires the old positions to stay fixed, it conflicts with a ka–mi edit. Establish which requirement applies before changing the phrase.
 
-This is a bounded construction of positions and labels. Whether a changed phrase still belongs to a particular musical prototype needs that practice's identity conditions.
+The construction establishes positions and labels in this family. Deciding whether the changed phrase belongs to a particular musical prototype requires its practice-specific identity conditions.
 
 #### RHY.6:5.2 - A phrase is not a string of independent stroke commands
 
 Nelson describes learning spoken patterns and their instrumental realizations in parallel, without a universal one-to-one correspondence between syllables and strokes. Suppose the receiving task is to realize a supplied phrase on an instrument.
 
-Retain the phrase's cycle placement and obtain its applicable instrumental realization from the prepared performer or lesson. Align the phrase portions that matter to the receiving use. If two realizations preserve the phrase's timing but differ in technique or sound, keep that choice with the performance decision instead of hiding it in a guessed dictionary.
+Retain the phrase’s place in the cycle and use its applicable instrumental realization from a prepared performer, lesson or other competent source. Align the relevant phrase portions. Two realizations can keep the same timing while differing in technique or sound. Leave that choice available unless the performance specifies one.
 
-The translation may support rhythmic analysis before every instrumental choice is settled. It cannot then be presented as complete instructions for an unprepared player.
+An established timing correspondence can support analysis while some instrumental choices remain open. To supply complete instructions to an unprepared player, also make the required realization and technique available.
 
 #### RHY.6:5.3 - Rotating a cyclic picture changes a cue
 
-A constructed eight-unit pattern has attacks at 0, 3 and 5. A comparison identifies all rotations as the same shape. A target result chooses a rotation by two units, giving positions 2, 5 and 7 under the original cycle reference.
+Consider an eight-unit cycle with attacks at 0, 3 and 5. Shape comparison can treat rotations as equivalent. If the target operation selects a rotation by two units, the positions become 2, 5 and 7 under the original cycle reference.
 
-Returning only “the same rhythm” loses the information needed by an entering performer. Return the displacement and origin when the use requires those positions. If the task compares shapes regardless of phase, keep the coarser answer.
+For a performer who needs to enter, give the origin, direction and displacement needed to locate those positions. For a phase-independent shape comparison, “the same shape” can be sufficient.
 
 If the target instead changes traversal direction, recover the new order separately. Rotation and reversal are different operations unless the declared comparison deliberately identifies both.
 
@@ -1134,31 +1134,31 @@ If the target instead changes traversal direction, recover the new order separat
 
 Reuse the two-beat instructions from RHY.5:5.4. The source supplies an onset at position 0 and either an endpoint at position 2 (A), or an endpoint at position 1 followed by a rest until position 2 (B). Units are beats; the interval ends at 2.
 
-An onset-only target gives **ta** for both, losing the sustain/stop answer. Under Cha's explicitly selected extension, translate A as **ta–ah** and B as **ta (ta)**. Reading back through that convention recovers the required continuation or rest. A sustained syllable plus a beat gesture and an explicit endpoint can supply the same distinction without using this extension.
+An onset-only target gives **ta** for both cases. In Cha’s extension, translate A as **ta–ah** and B as **ta (ta)**. Under that convention the two readings distinguish continuation from rest. Another scheme can combine a syllable sustained for the sounding duration, a gesture marking the beats and the appropriate endpoint.
 
-If the received source is only the untimed string **ta**, neither A nor B can be recovered uniquely. Keep the onset information and ask for duration only if the receiver must decide sustain versus silence. For an onset-count question, the available information already suffices.
+If the source contains only the untimed string **ta**, it does not determine A or B. It can answer the onset-count question. For a sustain-or-stop instruction, use available duration information or, when the receiving work calls for it, ask a source that can supply it. Until then the duration remains unresolved.
 
-The translation therefore ends in one of two useful results: a complete instruction for the supplied duration-sensitive source, or a qualified onset-only result for the underdetermined source. No experiment is needed to discover this information loss; the two constructed cases exhibit it.
+With a duration-bearing source the translation can give a complete sustain-or-stop instruction. With the bare string it can give the qualified onset-only result. The two constructed cases demonstrate why the onset string leaves duration open.
 
 #### RHY.6:5.5 - Reconstruct between samples only within the admitted family
 
-Reuse trace A from RHY.5:5.5, now represented by samples (time, position): (0, 0), (1, 1), (2, 0). The receiving question asks for the position at time 1/2. Select, for this constructed source family, straight-line interpolation between successive samples. The first segment then gives position 1/2; the target answer returns to the source's time unit and position axis.
+Use the three samples from trace A in RHY.5:5.5, at times 0, 1 and 2 with positions 0, 1 and 0. For the position at time 1/2, suppose the admitted source family uses straight-line interpolation. At half a source time unit the first segment gives a position of +1/2 along the agreed position axis.
 
-The same samples also fit a different trace whose first segment is position = time squared. That trace gives position 1/4 at time 1/2, while keeping positions 0 and 1 at the sampled endpoints. If the source family admits both traces, the sampled target cannot determine the requested answer. Retain the actual segment description or obtain the needed intermediate observation; otherwise return the answer as unresolved.
+All three samples also fit a trace whose first segment follows position = time squared and whose second segment returns to 0 at time 2. At time 1/2 this trace gives position 1/4. If both traces are admitted, the samples leave the answer open. Use a segment description or intermediate observation that distinguishes them, or obtain the needed observation when the task calls for it. Otherwise report the unresolved position.
 
-This is a local reopening: the shared samples still answer their sampled-position questions, and the time-1 side distinction remains intact. Only the unsupported between-sample reconstruction loses its warrant. Actual movement requires a basis for the chosen reconstruction; the calculation alone does not establish its physical course.
+The shared samples still establish positions at the sampled times, including the side at time 1. What becomes unresolved is the between-sample position. To establish the course of an actual movement, use a reconstruction justified for that movement or evidence of its course.
 
 ### RHY.6:6 - Bias-Annotation
 
-A shared syllable can invite a false cross-tradition equivalence. Identify what it does in each practice before translating it. Conversely, lack of a one-to-one dictionary need not make translation impossible: a phrase-level correspondence or a qualified partial translation can supply the needed result.
+A shared spelling may carry different meanings in two practices. Identify the syllable’s role in each. If the individual signs have no one-to-one mapping, a correspondence between phrases or a qualified partial translation may still answer the question.
 
 ### RHY.6:7 - Conformance Checklist
 
 - Source and target conventions, references and receiving operation are identified.
-- The correspondence preserves the rhythmic distinctions that operation consumes, including duration and silence when attack positions alone do not suffice.
+- The account establishes which distinctions the target preserves for the operation, and what further source or correspondence is needed where it does not. These distinctions can include duration and silence when attacks alone are insufficient.
 - Lost, added and unresolved distinctions receive a treatment the receiver can use.
-- The target answer is interpreted back into the source question.
-- An edited target yields a compatible revised source or an explicit conflict.
+- When the target supplies an answer, the account gives its interpretation for the source question. If it cannot supply the required answer, the limit is identified.
+- For an edited target, the account gives a compatible source interpretation, identifies a conflict or states which required assignment is missing.
 - Claims about an entire translation family have a basis beyond one successful example.
 
 ### RHY.6:8 - Common Anti-Patterns and How to Avoid Them
@@ -1173,50 +1173,50 @@ A shared syllable can invite a false cross-tradition equivalence. Identify what 
 
 ### RHY.6:9 - Consequences
 
-Rhythmic material can move between analysis, teaching and performance without silently expanding what the target says. Some translations remain partial. A companion or access to the relevant source material can recover a needed distinction without enlarging the target notation. Interpreting the target answer back into the source question remains a separate step.
+A qualified translation can support analysis, teaching or performance within its stated scope. A companion representation or accessible source can supply missing content without enlarging the target notation. Returning a target answer to the source question also requires interpreting its reference and meaning there.
 
 ### RHY.6:10 - Architectural Rationale
 
-The translation concerns interpreted rhythmic relations, not sign resemblance. Its granularity can be an occurrence, a phrase or a trajectory portion because different practices make different compositional commitments.
+Translate the rhythmic relation under the conventions in use. The unit of correspondence may be an occurrence, a phrase or a portion of a trajectory because practices differ in how they build the whole from its parts.
 
-The rhythm-specific construction uses the general NOT.5 method and fills its source and target operations. Keeping that connection allows improvements in general translation methods to be reused while preserving the interpretation work that only the rhythmic domain supplies.
+Use NOT.5 to establish what the target must preserve and how its result returns to the source question. Supply the rhythmic interpretations, references and actions of this case. This division lets improvements in the general translation method carry over while the rhythmic practice supplies the meanings needed for this correspondence.
 
 ### RHY.6:11 - SoTA-Echoing
 
-Nelson's *Solkattu Manual* (2008), Introduction, supplies the distinction between phrase construction and instrumental realization. Adopt phrase-sensitive correspondence; reject a universal syllable-to-stroke substitution.
+Nelson’s *Solkattu Manual* (2008), Introduction, distinguishes the construction of a phrase from its instrumental realization. Use a phrase-level correspondence where a learned phrase has a realization that its individual syllables do not specify.
 
-The [Takadimi convention](https://www.takadimi.net/documents/TakadimiArticle.pdf) supplies the target position labels used in the bounded example. Its rule does not retain the source's sound classes. A separate event-label correspondence restores that distinction when the receiving task needs it.
+The [Takadimi convention](https://www.takadimi.net/documents/TakadimiArticle.pdf) specifies the target position labels in the percussion example. To preserve the original sound classes, carry the D/T labels with their corresponding events.
 
-Cha's [Takadimi reconsideration](https://doi.org/10.1177/0305735614528063), pp. 570–574 and note 7, supplies the sustain/rest counterexample and an explicit extension. Sections :4.2 and :5.4 use it to make the translation's input sufficient. A bare syllable string, its timed performance and a score-supported reading are different inputs. The method requires the receiving task's result to remain recoverable; it does not adopt a universal bijection between syllable strings and scores.
+Cha’s [Takadimi reconsideration](https://doi.org/10.1177/0305735614528063), pp. 570–574 and note 7, gives the sustain/rest counterexample and an extension that makes the distinction explicit. The extension can carry a duration distinction supplied by the source. A bare syllable string, its timed performance and a reading with the score give the receiver different information. Judge the translation by the distinction the task needs.
 
-Toussaint's *The Geometry of Musical Rhythm* (2020) supports cyclic constructions and differing equivalences. Keep rotation or reversal equivalence only for the selected comparison; a performance entrance can require the information the equivalence discards.
+Toussaint’s *The Geometry of Musical Rhythm* (2020) describes cyclic constructions with different equivalences. Use rotation or reversal equivalence when it preserves the selected comparison. A performer’s entrance may require the phase or direction that a shape comparison discards.
 
-A literal symbol replacement is cheaper only when the source and target meanings coincide for the admitted family.
+A direct sign substitution can be the least costly adequate translation when the source and target meanings coincide throughout the admitted family.
 
 ### RHY.6:12 - Relations
 
-RHY.5 chooses the receiving representation; RHY.2 supplies the selected rhythmic content. RHY.7 and RHY.8 use translations in comparison and transformation. RHY.10 consumes shared references when participants coordinate through different forms.
+Use RHY.5 to choose the receiving representation and RHY.2 to select the rhythmic content. RHY.7 and RHY.8 can use translations for comparison and transformation. For coordination through different forms, use RHY.10 with a shared reference.
 
 Notational Engineering's NOT.5 governs translation and return; NOT.6 manages retained complementary representations; NOT.8 supplies temporal and embodied reading procedures. Mathematical Thinking's MATH.18 supplies interpretation-preservation arguments when a formal family of rhythmic translations calls for them.
 
 ### RHY.6:End
 
-## RHY.7 - Characterize and Compare Rhythmic Structures for a Named Decision
+## RHY.7 - Characterize and Compare Rhythmic Structures for a Stated Question
 
 > **Type:** Method
 > **Status:** Stable
 
 ### RHY.7:1 - Problem frame
 
-**Use this when** a rhythmic variant is called simpler, more complex, more similar, more interesting or easier to perform, but the comparison does not yet justify the next rehearsal, design or teaching choice. Two patterns can receive the same numerical value while requiring different entrances. A pattern can look more regular and remain difficult for the intended performer.
+**Use this when** a claim that one rhythmic variant is simpler, more complex, more similar, more interesting or easier to perform needs examination. Two patterns can have the same numerical value and require different entrances. A regular-looking pattern can still be difficult for the intended performer. Establish the property in question for an explanation or for a rehearsal, design or teaching choice.
 
-Start with the alternatives and the distinction the decision needs. The first result is a comparison under stated rhythmic properties and conditions, including a tie, a trade-off or a consequential unknown when that is what the available basis supports.
+Start with the passages or variants and the question the comparison must answer. State the rhythmic properties and conditions used. The result may establish a difference, a tie, a trade-off or a material limit on what can be concluded.
 
-For an obvious local difference, compare it directly. A wrong entrance need not become a study of rhythmic complexity.
+Use a directly observable local difference when it answers the question. A player who entered after the wrong attack may need only the agreed entrance and its position.
 
 ### RHY.7:2 - Problem
 
-A rhythmic description selects some properties and omits others. Order, cycle phase, interval distribution, alignment with a meter, continuous shaping, perceptual response and execution demand are different comparison grounds. A convenient metric can hide the distinction that changes the work, and its numerical precision can make that omission harder to notice.
+Order, cycle phase, interval distribution, alignment with a meter, continuous shaping, perceptual response and execution demand are different bases for comparison. The precision of a number can make it harder to notice that the metric omits the property the performance or analysis needs.
 
 ### RHY.7:3 - Forces
 
@@ -1225,15 +1225,15 @@ A rhythmic description selects some properties and omits others. Order, cycle ph
 | Compression and discrimination | A summary simplifies comparison while merging some distinct patterns. |
 | Structural and experienced properties | A calculation about a pattern does not by itself establish a listener's interest or a performer's difficulty. |
 | Shared basis and useful variation | Normalizing tempo or phase can help one comparison while removing another task's constraint. |
-| Decision and inquiry effort | Better information may improve a choice, but some missing information cannot change it. |
+| Inquiry effort | Further information may improve a finding or choice. Its value depends on what it could establish and the work needed to obtain it. |
 
 ### RHY.7:4 - Solution
 
-#### RHY.7:4.1 - Name the difference the receiving choice needs
+#### RHY.7:4.1 - Identify the rhythmic difference the question requires
 
-Identify the compared passages or specifications, the receiving activity and what the comparison can change. Examples include selecting an entrance cue, keeping an ornament within the available movement coordination, or choosing two contrasting exercises.
+Identify the passages or specifications, the receiving activity and the question the comparison must answer. A player may need the position of an entrance, a teacher may need two contrasting exercises, or a designer may need to know whether an ornament fits the available coordination.
 
-Replace an umbrella such as *complexity* with the property used here. Does it mean more distinct intervals, more displaced accents against a reference, harder recognition, more difficult execution, or greater reported interest? Several may matter; retain them separately.
+Specify what *complexity* means for this question. More distinct intervals, more displaced accents relative to a reference, greater difficulty recognizing or performing the passage, and greater reported interest are different properties. Keep separate results when more than one matters.
 
 Use sufficient existing RHY.2 content selections and RHY.5 representations directly.
 
@@ -1241,9 +1241,9 @@ Use sufficient existing RHY.2 content selections and RHY.5 representations direc
 
 For onset-based patterns, state the cycle or passage length, origin, direction, time unit and event convention when these affect the answer. For continuous material, retain the trajectory or envelope feature being compared and its temporal reference.
 
-Decide which differences may be ignored. A shape comparison may identify rotations; an entry comparison must retain phase. A comparison of relative durations may divide all intervals by the cycle length; a performance comparison must still retain actual tempo. Keep a normalized representation alongside the original if both questions remain live.
+Establish which differences the question permits you to ignore. A shape comparison can identify rotations as equivalent. An entry comparison needs the phase relative to its cue. Relative durations can be divided by the cycle length. Restore actual tempo when execution depends on it. Keep normalized and original views when both questions remain live.
 
-Where sources use different conventions, obtain the needed RHY.6 correspondence. Distinguish a specified silence from a span whose contents were not observed. Retain any permitted ornament that can change the compared property.
+When the source conventions differ, use an adequate existing correspondence or construct one with RHY.6. Distinguish prescribed silence from an unobserved interval. Keep an allowed ornament when it can alter the property being compared.
 
 #### RHY.7:4.3 - Obtain the structural properties that can distinguish the alternatives
 
@@ -1252,114 +1252,114 @@ Select an operation appropriate to the question.
 | Comparison question | Rhythmic operation | Information the result leaves open |
 | --- | --- | --- |
 | Does the required event occur at the needed place? | Align ordered occurrences with the reference and compare their positions or intervals. | Sound quality, perceived timing and execution may still differ. |
-| How do intervals repeat or vary? | Compute ordered successive intervals; summarize their counts only if order is irrelevant to the use. | An interval histogram omits order and cycle phase. |
-| What interval relations occur anywhere in a cycle? | For each pair of onsets, compute the chosen directed or shorter circular separation, then compare the resulting relation or distribution. | Different arrangements can share a full interval distribution; the value alone leaves their perceptual effects open. |
+| How do intervals repeat or vary? | Compute successive intervals in order. Use their counts as the summary when frequencies answer the question. Retain the ordered data if another use depends on them. | An interval histogram omits order and cycle phase. |
+| Which separations occur between pairs of onsets in a cycle? | For each pair, compute the directed or shorter circular separation defined by the comparison. Compare the resulting relations or their distribution. | Different arrangements can have the same distribution. Perceptual effects need evidence of response. |
 | How does articulation relate to a metrical reference? | Locate attacks and continuations against the stated grouping or accent scheme; inspect the displacement or unarticulated reference positions used by the selected syncopation measure. | The measure's value does not determine felt groove or difficulty in another metrical practice. |
-| Does a continuous course meet a required rise, peak or release? | Align its relevant portions with the receiving reference; compare their time, extent or rate as the task requires, retaining any assumptions used between observations. | A compatible specified course does not establish how a performer or listener responds to its realization. |
+| Does a continuous course meet a required rise, peak or release? | Align the relevant portions with the receiving reference. Compare time, extent or rate as the task requires, retaining assumptions about the course between observations. | The specification alone leaves the performer’s or listener’s response open. Use suitable observations of the realization for that question. |
 | Does a performer have time to recover between assigned actions? | Map occurrences to the performing body part or mechanism; compare successive demands with its applicable recovery or coordination limits at the intended tempo. | A schedule compatible with supplied limits still needs the realization capabilities and conditions it assumes. |
 
-Give the procedure behind a value. For a cyclic list of onset positions, successive gaps include the gap from the last onset to the first onset in the next cycle. Omitting that gap changes the structure. For a sum or histogram, retain the source sequence if later work needs distinctions the summary discards.
+Give the calculation behind a reported value. Cyclic gaps include the gap from the last onset to the first onset of the next cycle. Dropping it changes the gap list. For a sum or histogram, keep the source sequence if later work needs a distinction that the summary omits.
 
-C.16 supplies general measurement interpretation; A.19.CPM supplies comparison under a declared rule. These general methods do not select the rhythmic feature. That selection comes from the receiving question and the operations above.
+Use C.16 to interpret a measurement and A.19.CPM to compare under a declared rule. Select the rhythmic feature itself from the receiving question and the operation that can establish it.
 
 #### RHY.7:4.4 - Separate a structural result from a response or performance claim
 
-Use actual observations when the question is how this performer or listener responds. Retain the task, preparation, tempo, cues and performing arrangement that make the comparison relevant. RHY.14 obtains and interprets such performance and response results; use a sufficient available result directly.
+For a claim about how a performer or listener responded or how they respond under specified conditions, use suitable observations. Preserve the task, preparation, tempo, cues and arrangement on which the conclusion depends. Use an adequate existing result or RHY.14 to obtain and interpret a missing observation when warranted.
 
-A structural contrast can suggest a trial without predicting its outcome. Do not rename a calculated entropy, a syncopation score or a classifier output as observed interest, transferable capability or aesthetic quality.
+A structural contrast can suggest a trial. Whether to run it depends on what its result could establish and what obtaining it would cost. A calculated entropy, syncopation score or classifier output establishes a property under its procedure. To report interest, transferable capability or aesthetic judgement, use grounds appropriate to that claim.
 
-If the decision needs only an established difference in positions, no listener experiment is required. If a consequential uncertainty remains, choose an attainable comparison that could resolve it; its cost and displaced practice time are part of the choice under C.11.DUA.
+When positions settle the question, report them. If a further distinction matters, compare the attainable information from another observation with its cost and displaced practice time under C.11.DUA. Where the question remains unresolved, identify the limit on the current result.
 
 #### RHY.7:4.5 - Return the comparison at its warranted scope
 
-State which alternative has which relevant property, under the common basis. Keep trade-offs visible: one variant may offer clearer reference while another permits a wanted articulation. Preserve a trade-off instead of adding unlike scores to force a single winner.
+State the relevant property for each alternative on the common basis. One variant may offer a clearer reference and another a desired articulation. Report the trade-off. To combine properties into a single score, use a rule that gives their values a defensible meaning for this question.
 
-Where a decision is now possible, C.11 selects among the available alternatives under the user's preferences and constraints. The rhythmic comparison supplies its inputs. Where a new variant is needed, RHY.8 constructs one. Where a response matters but is still unknown, return that bounded question to RHY.14.
+When a choice is requested and the comparison supports one, use it with C.11 and the applicable preferences and constraints. A recommendation can go to the decision holder, or an authorized practitioner can make the choice. If a new variant is needed, construct it with RHY.8. If an unknown response matters, use a suitable observation or RHY.14 to obtain one when warranted. Report the remaining limit if it cannot be resolved.
 
-Stop with the comparison needed for the next move, or identify the one missing distinction preventing it. A broader ranking of all rhythms is a different and usually unnecessary claim. When the receiving decision or a condition supporting the comparison changes, reopen only the affected properties and retain unaffected results.
+Report the comparison within the scope it supports, including any property still unknown. If it is meant to inform a later choice, say what the result permits there. Revisit only the properties affected by a changed question or condition.
 
 ### RHY.7:5 - Archetypal Grounding
 
 #### RHY.7:5.1 - Equal interval entropy, different entrances
 
-Take two constructed eight-unit cycles. A has onsets at 0, 1, 2 and 4; B at 0, 1, 3 and 4. Their cyclic successive gaps are respectively (1, 1, 2, 4) and (1, 2, 1, 4). Each histogram gives probability 1/2 to gap 1 and 1/4 each to gaps 2 and 4.
+Consider two eight-unit cycles. A has onsets at 0, 1, 2 and 4, and B at 0, 1, 3 and 4. Their cyclic gaps are (1, 1, 2, 4) and (1, 2, 1, 4). In each gap distribution, length 1 has probability 1/2 and lengths 2 and 4 each have probability 1/4 when gaps are weighted equally.
 
-The Shannon entropy of either histogram is 1.5 bits. This equality concerns the two chosen distributions; it does not make the ordered patterns interchangeable.
+The Shannon entropy is 1.5 bits for both gap distributions. That equality leaves the order of the four gaps open.
 
-The receiving task requires a third attack at position 2. Inspecting ordered positions gives A at 2 and B at 3. A meets that positional requirement; B does not. No more elaborate complexity measure or listening experiment is needed to answer it. For a later question about the experience of either pattern, retain that separate question.
+For a third attack required at position 2, A meets the requirement and B places it at 3. The ordered onsets answer this question. A claim about a listener’s experience of either pattern needs evidence of that response.
 
 #### RHY.7:5.2 - The same pattern under two allocations
 
-A constructed controller must produce four attacks at positions 0, 2, 4 and 6 of an eight-unit cycle. Its supplied mechanism specification requires at least three units between attacks by the same actuator. Treat that limit as an input to this calculation, not as a general physiological fact.
+Suppose a controller must produce attacks at 0, 2, 4 and 6 of an eight-unit cycle. The mechanism specification requires at least three time units between consecutive attacks by the same actuator. Use that limit for this controller.
 
-One actuator receives a gap of two units between every pair, including the cycle boundary; the proposed allocation conflicts with the supplied limit. Alternating two actuators assigns 0 and 4 to one, 2 and 6 to the other. Each then has four units between its own attacks, satisfying that particular constraint.
+A single actuator would have two units between consecutive attacks, including the gap across the cycle boundary, violating its three-unit limit. Alternation assigns positions 0 and 4 to one actuator and 2 and 6 to the other. Each then has four units between its own successive attacks, satisfying that constraint.
 
-The onset pattern is unchanged while the allocation comparison changes. The result is a compatible allocation under the stated limit, not a claim that an untested device or human performer has achieved the rhythm. RHY.9 arranges the remaining rhythmic actions and timing cues; use MDPE.3 if the wider performing configuration must change.
+The onset pattern remains the same. The two-actuator allocation satisfies the stated recovery limit, while an actual performance also requires working actuators, cues and control. Use RHY.9 for the remaining arrangement, or MDPE.3 when the wider performing configuration needs to change.
 
 #### RHY.7:5.3 - A cue can help entry without supplying the wanted phrasing
 
-In a constructed partnered exercise, variant A makes the recurring reference easy for the receiving partner to locate. Variant B preserves a desired continuous articulation but gives a less usable entry cue. Suppose those differences have already been established in the relevant practice; no numerical scores are supplied.
+Suppose a partnered exercise has two variants. In the relevant practice A gives the partner a readily identifiable recurring reference. B preserves the desired continuous articulation but gives a less usable entrance cue. The case stipulates these observations.
 
-Neither observation cancels the other. For entry training, A supplies the needed advantage. For a performance that requires B's articulation, investigate whether an independent cue can retain the reference without changing that articulation. RHY.3 and RHY.9 construct that combination.
+For entry training A has the advantage the partner needs. For a performance requiring B’s articulation, a separate cue may support entry without changing that articulation. If that combination is needed, use RHY.3 and RHY.9 to construct or assess it.
 
-The comparison returns a trade-off and a concrete design question. Adding imagined “clarity” and “artistry” numbers would not resolve it.
+The observations establish a trade-off and identify a design question about the cue. A single ranking would require a justified basis for comparing clarity of entry with the desired articulation.
 
 #### RHY.7:5.4 - Equal endpoints, different usable peaks
 
 Two constructed four-second sound-control envelopes begin and end at level 0.2 and reach level 1.0. Each follows straight segments between its specified points. A reaches its peak at 1.5 seconds; B reaches it at 2.0 seconds.
 
-The receiving construction requires the peak by 1.75 seconds. Comparing endpoint levels and peak level leaves a tie; comparing peak time selects A and rejects B for this condition. Retain the specified courses for any later question about their rates or intermediate values.
+The construction requires the peak by 1.75 seconds. The endpoints and peak levels tie. A reaches its peak in time at 1.5 seconds, and B misses the deadline at 2.0 seconds. Retain the specified courses for a later question about rates or intermediate values.
 
 This settles a property of the proposed envelopes. Whether either realized sound provides a usable cue to the intended listener remains a different comparison.
 
 ### RHY.7:6 - Bias-Annotation
 
-A familiar metrical scheme can make its syncopations look like objective properties of every performance. Retain the reference practice and the reader's preparation. Likewise, success at classifying a corpus can reward features that help classification without helping a performer learn or interpret the material.
+Interpret a syncopation measure under its metrical scheme and practice. Retain the reader’s preparation when it affects how the pattern is interpreted, and the observed listeners’ preparation for a claim about their response. A corpus classifier can distinguish categories without showing what helps a performer learn or interpret the passage.
 
 ### RHY.7:7 - Conformance Checklist
 
-- The compared alternatives and receiving decision are recoverable.
-- The selected properties distinguish the rhythmic alternatives in a way that can change that decision.
+- The account identifies the compared material and the question the comparison must answer.
+- The selected property and comparison rule can establish a relevant difference, a tie or a specific limit for that question.
 - Tempo, phase, grouping and normalization are retained or deliberately set aside according to the question.
-- Each numerical value has a procedure and a meaning; incompatible properties are not silently combined.
+- Each numerical value has a procedure and a meaning. Any combination of values uses a rule applicable to those properties.
 - Structural calculation, observed response and performance capability remain different claims.
-- A trade-off or consequential unknown is returned honestly rather than forced into a scalar ranking.
+- The result preserves a supported trade-off or material uncertainty when the available basis leaves the ranking open.
 - Further inquiry is selected only when its possible result is useful for the current work.
 
 ### RHY.7:8 - Common Anti-Patterns and How to Avoid Them
 
 | Recurring failure | Repair |
 | --- | --- |
-| An interval histogram says two phrases are identical. | Return to the ordered occurrences when order or phase affects the task. |
+| Infer that two phrases are identical from their equal interval histograms. | Use the ordered occurrences and reference when order or phase matters to the question. |
 | A higher syncopation score is called greater interest or groove. | Treat the structural score as one possible predictor; use the relevant response result for that claim. |
 | Normalize tempo before judging execution difficulty. | Restore actual intervals and the performing arrangement's demands. |
 | Collapse easier entry and preferred articulation into one unsupported score. | Preserve their comparison and construct or choose according to the actual priorities. |
 
 ### RHY.7:9 - Consequences
 
-The next choice can use a compact comparison without inheriting an unsupported claim about all rhythmic quality. Some alternatives remain incomparable until a priority or missing response is supplied. That incompleteness is useful when it identifies a feasible change to the variant or practice.
+A compact comparison can answer a structural question or inform a later choice. If a priority or an unknown response prevents ranking the alternatives, report the comparisons the evidence supports. The unresolved difference can identify a feasible change to the variant or the practice when one is wanted.
 
 ### RHY.7:10 - Architectural Rationale
 
-Rhythmic comparison needs both mathematical constructions and practice-specific interpretation. The same onset pattern can impose different demands after its allocation to limbs or mechanisms changes. Conversely, two different patterns can coincide under a deliberately coarse mathematical measure.
+Use mathematical constructions for the selected structural property and the practice-specific grounds its interpretation needs. The same onsets can impose different demands after reallocation to limbs or actuators. Different patterns can also have equal values under a deliberately coarse measure.
 
-A comparison of selected properties can be reused for different choices. A teacher may prioritize a clear reference while a performer prioritizes articulation. When a choice depends on an unknown response, RHY.14 obtains that result; C.11 then uses the comparison with the relevant preferences and constraints.
+The same comparison can serve several purposes. A teacher may prioritize a clear reference and a performer a particular articulation. If a choice depends on an unknown response, use RHY.14 to obtain or interpret suitable observations when worthwhile. Use the comparison with C.11 and the relevant preferences and constraints for the choice.
 
 ### RHY.7:11 - SoTA-Echoing
 
-Toussaint's *The Geometry of Musical Rhythm* (2020), chapters 8 and 17, supplies interval constructions and distinctions among mathematical, cognitive and performance complexity. Adopt the constructions with their declared equivalences; do not promote a geometric feature into a universal perceptual or educational result.
+Toussaint’s *The Geometry of Musical Rhythm* (2020), chapters 8 and 17, develops interval constructions and distinguishes mathematical, cognitive and performance complexity. Preserve the stated equivalences when applying a construction. A claim about perception or learning also needs evidence of the relevant response or practice.
 
-[Senn and colleagues (2024)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0311877) found no overall effect of perceived complexity on urge-to-move ratings for their forty idiomatic drum patterns. Their comparison with earlier syncopation studies makes stimulus selection and the operational meaning of complexity consequential. This limits a universal “choose medium complexity” instruction; it neither disproves every earlier inverted-U result nor establishes the best pattern for a particular performance.
+[Senn and colleagues (2024)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0311877) found no overall effect of perceived complexity on urge-to-move ratings for their forty idiomatic drum patterns. Their comparison with earlier syncopation studies shows why the stimuli and the meaning assigned to complexity matter. The forty-pattern result can coexist with earlier inverted-U findings. To choose a complexity level for a performance, establish how the relevant findings apply to its conditions.
 
-The ordered-gap and actuator cases here are constructions from stated inputs. The general comparison and choice disciplines remain A.19.CPM and C.11, with C.16 for measurement interpretation. The rhythmic contribution is selecting and relating features that matter to the performance question.
+The ordered-gap and actuator examples derive their results from stated inputs. Use A.19.CPM for comparison, C.11 for choice and C.16 to interpret a measurement. Select the rhythmic features and their relations by the performance or analysis question.
 
-Spiech and colleagues' [meter comparison](https://doi.org/10.1038/s44271-025-00360-0) (2025) found different complexity–groove relationships for common and less-common meters among Western listeners. This reinforces retaining the metrical reference and relevant preparation in :4.2–:4.4. Familiarity is an explanatory interpretation, not a universal causal result or a recommendation to choose medium complexity.
+In their [meter comparison](https://doi.org/10.1038/s44271-025-00360-0) (2025), Spiech and colleagues found different complexity–groove relationships for common and less-common meters among Western listeners. Preserve the metrical reference and relevant listener preparation when interpreting such comparisons. Familiarity is a proposed explanation. Establish its causal contribution separately for a claim that depends on it. Choosing a complexity level for a performance requires grounds for that use.
 
 ### RHY.7:12 - Relations
 
 RHY.2 selects the relevant rhythmic content; RHY.5–RHY.6 supply representations and needed correspondences. RHY.8 uses the comparison to construct variants; RHY.9 supplies the performing arrangement. RHY.12–RHY.13 address development and transfer; RHY.14 supplies performance and response observations.
 
-A.19.CPM governs comparison, C.16 measurement interpretation, and C.11 choice among available alternatives. C.29 governs a mathematical model's bounded use in the activity. C.11.DUA determines when another comparison or observation is worth its work.
+Use A.19.CPM to compare, C.16 to interpret a measurement and C.11 when choosing among alternatives. C.29 helps qualify a mathematical model’s use in the activity. Use C.11.DUA to decide whether another comparison or observation is worth its cost.
 
 ### RHY.7:End
 
@@ -1370,17 +1370,17 @@ A.19.CPM governs comparison, C.16 measurement interpretation, and C.11 choice am
 
 ### RHY.8:1 - Problem frame
 
-**Use this when** a rhythmic passage needs a new variant that retains a useful relation: an ending must arrive at the agreed point, an accent should move while the cycle remains usable, or a continuous movement must admit another articulation without losing its continuation.
+**Use this when** a rhythmic variant must retain a relation that the passage needs. An ending can change length but still have to arrive at the agreed point. An accent may move while the cycle must remain usable, or an articulation may change while the continuous movement must leave the next action available. Use the method to construct a variant or assess one already proposed.
 
-The practitioner needs the existing passage or a seed, the intended difference and the performing conditions. The first result is a variant with its consequential timing, duration, articulation and realization requirements, ready for an appropriate trial; where the available basis already supports performance, retain that qualified result.
+Start with the passage or seed, the intended difference and the relevant performing conditions. State the timing, duration, articulation and realization requirements the variant changes or retains. The result may justify a trial, establish compatibility with a constraint or identify one the proposal fails. Existing performance evidence can also establish that the variant works under the conditions it covers.
 
-Use a familiar adequate variant directly. If the difficulty is reproducing an unchanged passage, locate the missing coordination or technique through RHY.1 and RHY.12 before adding variation.
+Use a familiar variant directly when it meets the requirements. If reproducing an unchanged passage presents a difficulty, use RHY.1 to locate it and RHY.12 when practice is needed to develop missing coordination or technique.
 
 ### RHY.8:2 - Problem
 
 A transformation preserves some properties while changing others. Moving attacks can disturb an entrance cue; enlarging a phrase can move its ending; preserving the total duration can still demand more rapid actions than the performer can make. A valid manipulation of a score may therefore give an unsuitable passage.
 
-The problem is to construct the wanted difference together with the relations that must survive, then return the variant to the actual performance.
+Construct or assess the wanted difference together with the relations that must survive it. Return the result to the performance conditions in which the variant is meant to work.
 
 ### RHY.8:3 - Forces
 
@@ -1389,15 +1389,15 @@ The problem is to construct the wanted difference together with the relations th
 | Continuity and novelty | A recognizable contribution must remain while something consequential changes. |
 | Local transformation and whole passage | Enlarging or displacing one phrase changes its fit with preceding, simultaneous and following contributions. |
 | Arithmetic and realization | A duration calculation can close correctly while the required actions remain unavailable. |
-| Diversity and selection effort | A few variants exposing useful alternatives are more helpful than an unexamined mass of perturbations. |
+| Diversity and selection effort | A few examined variants can reveal a useful difference that a large collection of unexamined changes leaves unknown. Search or examine further variants when the gain is worth the work. |
 
 ### RHY.8:4 - Solution
 
 #### RHY.8:4.1 - Fix the receiving use and retained relations
 
-State what the variation should accomplish and what must remain available. Relevant retained relations include an entrance or ending, cycle length, ordering of characteristic articulations, a continuing carrier, a partner's cue, and the ability to perform the following phrase.
+Identify the intended change and the relations that need to survive it. They may include an entrance or ending, cycle length, the ordering of articulations, a continuing carrier, a partner’s cue or the ability to perform the following phrase.
 
-Name the performing arrangement and preparation that matter: voice with a beat gesture, one limb or alternating limbs, a pair sharing contact, or a device with known action limits. Use an existing RHY.7 comparison to identify the property worth changing. The same nominal pattern can require a different construction after its assignment to performers changes.
+Identify the arrangement and preparation the change depends on. It might involve voice and beat gesture, one limb or alternating limbs, two dancers sharing contact, or a device with known recovery limits. Use an applicable RHY.7 comparison when it helps establish what to change. Reassigning the same pattern can alter the construction required.
 
 #### RHY.8:4.2 - Choose a construction whose effect is understandable
 
@@ -1406,87 +1406,87 @@ Choose an operation from the rhythmic material and the intended change.
 | Wanted change | Construction | Relations to examine after the change |
 | --- | --- | --- |
 | Enter at a different place in a cycle | Add a displacement to each selected occurrence and reduce positions modulo the cycle length. Move associated duration and sound labels with the occurrence when that is the intended transformation. | Entry cue, phase relative to other layers, and material crossing the cycle boundary. |
-| Expand or compress a phrase | Scale its durations, or add/remove a specified part of each repeated statement; recompute the phrase's total span. | Tempo, internal articulation, available action intervals and its fit with adjoining material. |
-| Make a repeated ending reach a chosen point | Choose statement and intervening-gap durations, calculate the whole ending and work backward from its endpoint. Adjust the setup by the corresponding amount. | The convention for the final articulation, the maintained reference and the available preceding material. |
-| Distribute a given number of attacks over a cycle | Choose an arrangement, such as an evenly distributed seed, then retain the phase and articulations needed by this use. | Minimum intervals, entry, accent and the intended style; evenness is one construction choice. |
+| Expand or compress a phrase | Scale its durations or add or remove a specified part of each repeated statement. Recalculate the phrase’s total span. | Tempo, internal articulation, available action intervals and fit with adjoining material. |
+| Make a repeated ending reach a chosen point | Choose the statement and gap durations, calculate the span and work back from the endpoint. When the start moves, adjust the setup by the amount the new start requires. | The final articulation convention, the maintained reference and the available preceding material. |
+| Distribute a given number of attacks over a cycle | Choose an arrangement, possibly an evenly distributed seed. Retain the phase and articulations the use requires. | Minimum intervals, entry, accent and intended style. |
 | Change the articulation of a continuous contribution | Reposition or reshape its marked changes while retaining the required trajectory, support or sounding contribution. | Continuity, available movement or control rates, usable timing and the state needed for continuation. |
 | Build a larger passage from familiar parts | Concatenate, overlap or alternate parts under explicit timing and allocation relations. | Boundary transitions, simultaneous demands and the whole passage's intended development. |
 
-A named tradition can supply a more specific construction. In Nelson's treatment of a **mōrā**, three statements are separated by two equal-duration gaps. A gap can include sound; it is a structural separation, not a synonym for silence. A **kōrvai** can build a larger, shaped composition whose closing portion is a mōrā. Use the learned phrase grammar and setting when constructing either, rather than treating the names as labels for arbitrary repetition.
+Use the construction supplied by the relevant practice. In Nelson’s treatment of a **mōrā**, three statements are separated by two equal-duration gaps. A gap is a structural separation and may contain sound. A **kōrvai** can form a larger shaped composition with a mōrā in its closing portion. Use the learned phrase grammar and setting when constructing either form or applying its name.
 
-For the simple equal-statement case, let `s` be the statement's duration and `g` each gap's duration, measured in the same pulse unit. The total is `D = 3s + 2g`. If `T` is the boundary after the final statement, the start is `T − D`. A last attack, the completion of its duration and a later arrival accent are different possible targets; select the one actually required.
+For three equal statements, let `s` be the duration of each statement and `g` the duration of each of the two gaps in the same pulse unit. The total is `D = 3s + 2g`. If `T` marks the boundary after the final statement, the start is `T − D`. Check which event the passage needs at its target. The final attack, its completion and a later arrival accent can have different times.
 
 #### RHY.8:4.3 - Calculate the whole effect and recover omitted content
 
-Apply the construction, then examine the relations named in the first step. For a cycle, include the transition from its last event to the next cycle's first. For a phrase, include both its entry from preceding material and its exit. If an enlarged ending starts earlier, decide what preceding material can actually be shortened or moved.
+Apply the construction and examine the retained relations. Include the last-to-next-first transition when the cyclic result depends on closure. For a phrase joined to adjoining material, check its entry and exit. If an enlarged ending starts earlier, establish whether preceding material can be shortened or moved within the intended passage.
 
-Recover the information a chosen representation omitted before relying on it. An onset-only syllable string may not specify how long a sound continues or where silent beats lie. Obtain that duration or reference when the transformation depends on it; otherwise transform only the content the string determines. RHY.5–RHY.6 supply the representation and correspondence work.
+If a transformation depends on information the representation omits, use an available source or obtain the missing contribution. An onset-only syllable string may leave sustain or silence unresolved. If that distinction cannot be recovered, report the affected limit. The onsets can still be transformed for a positional question. Use RHY.5–RHY.6 for the representation or correspondence.
 
-When composing variants, calculate their combined effect. A displacement followed by a duration change need not preserve the same boundaries as the operations in the opposite order. Keep the order that yields the intended passage and explain it through the resulting positions, durations and contributions.
+When transformations are combined, calculate their joint effect in the specified order. Displacing a phrase before changing its duration may give different boundaries from making those changes in the opposite order. Explain the chosen order through the resulting positions, durations and retained contributions.
 
 #### RHY.8:4.4 - Establish the next warranted performance step
 
-Check the proposed assignment of actions against known limits at the intended tempo. Include articulation, sustained contributions, cue reading and recovery for the next action. A change in notation alone cannot supply a missing constituent coordination.
+Check the proposed allocation against the relevant limits at the intended tempo. Include articulations, sustained contributions, cue reading and needed recovery. A new notation can specify an action while leaving the coordination needed to perform it unavailable.
 
-Reject or alter a variant that conflicts with a relevant known constraint. If the constraint leaves several useful variants, retain their different contributions through RHY.7 and make the choice under C.11. Obtain a new observation only when it can change that choice or the reliance placed on the variant.
+Identify any conflict with a known constraint. An assessment can end with that finding. If the task is to choose a usable variant, rule out the conflicting one for that use. If a replacement is requested, construct or adapt one. When several candidates remain, use RHY.7 to compare the differences that matter and C.11 if a choice is called for. Seek a further observation when it could improve the result enough to justify the work.
 
-For a suitable trial, use a manageable passage with familiar techniques and the conditions needed to expose the question. RHY.3 checks articulation with its carrier, RHY.9 the performing arrangement, and RHY.10–RHY.11 the necessary shared reference or joint layers. When the limiting condition is an unavailable technique or capability, return it to instruction or development rather than demanding more force or speed.
+For a needed trial, use a manageable passage, familiar techniques and conditions that expose the question. Use RHY.3 for articulation with its carrier, RHY.9 for the arrangement and RHY.10–RHY.11 for the shared reference or simultaneous layers. If a technique or capability is unavailable, identify the limit. Where development is wanted, use appropriate instruction and practice. Increasing force or speed cannot supply the missing coordination.
 
 #### RHY.8:4.5 - Return a variant that someone can enact and assess
 
-Supply enough to reproduce the intended change: the passage or demonstration, reference, duration and articulation conventions, performing assignment, retained conditions and the result expected in the receiving activity. A short demonstrated variation may suffice; repeatable distributed use can need a score, sound example or code.
+Provide the passage or demonstration, timing reference, duration and articulation conventions, allocation and performance conditions needed to recover the intended change. A short demonstration may suffice. Repeated or distributed use may need a score, sound example or code. State what result the variant is meant to produce.
 
-Distinguish what was calculated, what was demonstrated and what remains to be tried. A proposed variant is usable for a trial before a claim of reliable performance is supported. An observed local success retains its tempo, partner, support and other consequential conditions.
+Distinguish the calculation, any demonstration and what remains to be tried if the intended use needs a trial. A proposal may be ready to try before reliable performance is established. Qualify observed success to the tempo, partner, support and other relevant conditions.
 
-Stop when the needed variant and its next use are determined, or return the constraint preventing construction. Further novelty is useful only if it opens another wanted rhythmic action or performance possibility. When the intended use or a retained condition changes, recheck the affected construction and its fit with the passage; keep unaffected results.
+Return the variant, its supported use or the constraint preventing the required construction. Seek further variation when another wanted rhythmic action or performance possibility justifies it. If the intended use or a retained condition changes, check the affected parts of the construction and how they fit the passage.
 
 ### RHY.8:5 - Archetypal Grounding
 
 #### RHY.8:5.1 - Preserve an entrance while varying an eight-unit cycle
 
-In this constructed case, an eight-unit cycle has three attacks at positions 0, 3 and 6. The next passage needs an attack at position 0, exactly three attacks in the cycle and at least two units between consecutive attacks by the assigned mechanism. The interval requirement is supplied for this case.
+Consider an eight-unit cycle with three attacks at positions 0, 3 and 6. The next passage needs an attack at 0, exactly three attacks per cycle and at least two units between consecutive attacks by the assigned mechanism. The spacing requirement is stipulated for this case.
 
-Displacing the whole pattern by one unit gives positions 1, 4 and 7. It preserves cyclic gaps of 3, 3 and 2 but removes the required entrance at 0. Discard that proposal for this use.
+Displacing the whole pattern by one unit gives 1, 4 and 7. The cyclic gaps remain 3, 3 and 2, but the required attack at 0 is absent. This proposal fails the entry condition.
 
-Instead, use positions 0, 2 and 5. The cyclic gaps are 2, 3 and 3, including the gap from 5 to the next 0. The entrance, attack count and supplied spacing condition all hold. Positions 0, 1 and 6 would retain the entrance and attack count but violate the minimum spacing at the first transition.
+Positions 0, 2 and 5 give cyclic gaps of 2, 3 and 3, including the gap from 5 to the next 0. This option meets the entrance, count and minimum-spacing requirements. Positions 0, 1 and 6 retain the entrance and count but violate the spacing requirement between 0 and 1.
 
-Return 0, 2, 5 as the proposed variation, with its sound labels, reference and performing assignment. This calculation settles the named positional constraints; any further performance claim needs the corresponding realization.
+Offer 0, 2, 5 as a variant, with its sound labels, reference and performing assignment. The calculation establishes the three positional requirements. A claim about actual performance requires evidence of its realization.
 
 #### RHY.8:5.2 - Enlarge an ending without moving its endpoint
 
-Use the simple mōrā construction with three equal statements and two gaps. Two already learned statements last three and four pulses respectively; each gap lasts two pulses. In this constructed adaptation, the ending must occupy the time immediately before boundary `T = 32`. The boundary follows the final statement's last one-pulse articulation.
+Suppose a performer knows two statements, lasting three and four pulses. Construct a simple mōrā from three repetitions of one statement with two gaps of two pulses each. The ending must fit immediately before boundary `T = 32`, which follows the final statement’s last one-pulse articulation.
 
 With `s = 3` and `g = 2`, the duration is 13 pulses and the start is 19. The statements begin at 19, 24 and 29; the last occupies positions 29–31 and ends at 32.
 
-Replacing each statement with the four-pulse version gives duration 16 and start 16. The statements begin at 16, 22 and 28, with the last occupying 28–31. The same endpoint is retained, but the setup must now release three pulses earlier.
+Using the four-pulse statement gives duration 16 and start 16. The statements begin at 16, 22 and 28. The last occupies positions 28–31 and finishes at 32. To preserve that endpoint, the preceding setup must give way three pulses earlier.
 
-Suppose the setup contains a repeatable three-pulse phrase that can be omitted without losing the agreed cue. Remove one occurrence and use the longer ending. The result is a complete timing construction: changed statements, unchanged gaps, an adjusted setup and the retained endpoint. If that phrase carries a needed cue or cannot be removed, this construction does not yet fit; choose another ending or change the cue arrangement.
+Suppose a repeatable three-pulse phrase in the setup can be omitted without losing the agreed cue. Omit one occurrence to make room for the longer ending. The statements change, the gaps and endpoint remain, and the setup now fits. If the phrase supplies an indispensable cue or must remain for another reason, this construction still conflicts with the setup. To obtain a workable variant, choose another ending or change the part of the setup or cue arrangement that can be changed.
 
-The arithmetic follows Nelson's statement/gap construction, while the numerical case is constructed here. It does not establish cultural appropriateness or the performer's ability to recite the enlarged ending while maintaining the tāḷa. Those joint requirements remain part of its use.
+The arithmetic applies Nelson’s statement-and-gap construction to the stipulated example. Cultural appropriateness and the performer’s ability to recite the enlarged ending while maintaining tāḷa require grounds in the relevant practice and joint performance.
 
 #### RHY.8:5.3 - Move a swell while retaining a continuous carrier
 
-A constructed electronic instrument maintains a carrier while its amplitude control rises and falls over four seconds. The control value starts and ends at 0.2 and reaches 1.0 at two seconds, following straight ramps. Its supplied control-rate limit is 0.6 units per second. The receiving design needs the peak earlier while retaining the four-second phrase and its endpoint values.
+Suppose an electronic instrument maintains a carrier while its amplitude control rises and falls over four seconds. The value starts and ends at 0.2, reaches 1.0 at two seconds and follows straight ramps. The specified control-rate limit is 0.6 units per second. The design requires an earlier peak while preserving the duration and endpoint values.
 
-A peak at one second needs a rising rate of 0.8 units per second and conflicts with the supplied limit. A peak at 1.5 seconds needs a rising rate of `0.8 / 1.5 ≈ 0.533` and a falling rate of `0.8 / 2.5 = 0.32`. Both are within the given limit. The controller returns to 0.2 at four seconds, ready for the specified next phrase.
+A peak at one second requires a rising rate of 0.8 units per second, above the 0.6 limit. At 1.5 seconds the rise requires `0.8 / 1.5 ≈ 0.533` units per second and the fall `0.8 / 2.5 = 0.32`. Both rates fit the limit. At four seconds the specified trajectory returns to 0.2, the value required for the next phrase.
 
-Retain the 1.5-second proposal for the intended trial. The change concerns the course of a continuing signal, not the addition of another attack. It establishes compatibility with one supplied rate constraint; the heard phrasing and any further device constraints remain separate questions.
+The 1.5-second proposal is compatible with the supplied rate constraint and can be retained for the intended trial. It reshapes the amplitude envelope of the continuing carrier without adding an attack. A conclusion about heard phrasing or the device’s ability to perform the whole passage needs its corresponding evidence.
 
 ### RHY.8:6 - Bias-Annotation
 
-A visible geometric difference can be mistaken for a useful musical or movement variation. Let the intended action and performing practice choose which difference matters. Conversely, familiarity can hide useful alternatives: an arrangement excluded by one performing allocation may become feasible under another.
+A geometric difference matters when it changes the action or effect the performing practice needs. A familiar allocation can hide alternatives. Reassigning contributions may make a previously infeasible arrangement workable.
 
-A construction borrowed from another tradition supplies possibilities, not permission to attribute an invented phrase to that tradition. Keep the source construction and the new application distinguishable.
+When borrowing a construction, identify the source and the new application. A claim that a newly constructed phrase belongs to the source tradition also needs a basis in that practice.
 
 ### RHY.8:7 - Conformance Checklist
 
 - The wanted change and relations to preserve are recoverable.
 - The construction specifies what happens to timing, duration, articulation and performing allocation where each matters.
-- Cyclic closure or phrase entry and exit are included in the calculation.
-- A changed ending has a compatible setup and a stated endpoint convention.
-- Consequential sustain, silence and reference information omitted by the representation is recovered before use.
+- The calculation includes cyclic closure or phrase entry and exit where the result depends on them.
+- For a changed ending, the account states the endpoint convention and establishes how the setup fits it or where a conflict remains.
+- The account uses an adequate source for sustain, silence or reference information required by the transformation, or identifies the resulting limit.
 - Supplied constraints and jointly required capabilities are respected or returned as unresolved.
-- The next participant can reproduce the proposed variant and tell a calculation from a demonstrated performance result.
+- If a reproducible variant is requested, the recipient can reproduce it under the stated conventions. For an assessment, the recipient can recover its supported use or the constraint that defeats it. They can distinguish a calculation from an observed performance.
 
 ### RHY.8:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -1496,35 +1496,35 @@ A construction borrowed from another tradition supplies possibilities, not permi
 | Enlarge every repeated statement but keep the former setup. | Recompute the total and move the start or alter the adjoining material. |
 | Treat a mōrā gap as necessarily silent. | Recover its actual phrase content and duration from the selected construction. |
 | Change attacks from a bare syllable string while assuming missing duration. | Recover duration when it changes the transformation; preserve the uncertainty otherwise. |
-| Call a calculated variant reliably performable. | Identify the constraints already answered and obtain the needed joint-performance result. |
+| Infer reliable performance from a calculated variant. | Report the constraints the calculation establishes. To establish joint performance, use suitable evidence of the passage under the required conditions. |
 
 ### RHY.8:9 - Consequences
 
-The practitioner can propose and test variants while retaining their place in the larger passage. A rejected construction becomes useful when it identifies the condition to change: phase, setup, action allocation, coordination or a retained contribution.
+A practitioner can propose or assess a variant in its place in the larger passage and can test it there when a trial is needed. A rejected construction can locate the limiting phase, setup, allocation, coordination or continuing contribution. That finding can guide a different construction when one is needed.
 
-The result may be one adequate variant or several alternatives for different uses. A large inventory is unnecessary when it adds no useful choice.
+One adequate variant may suffice. Retain several when their different contributions support uses the practitioner needs to distinguish.
 
 ### RHY.8:10 - Architectural Rationale
 
-A rhythmic transformation operates on related contributions. Moving or enlarging a local phrase changes how it joins the whole, and the whole can depend on concurrent reference, support and articulation. The construction therefore closes over the relations needed by the receiving performance rather than ending at the transformed diagram.
+Moving or enlarging a local phrase changes how it joins the whole. The whole can also need a concurrent reference, support and articulation. This is why the method checks how the transformed relations fit the receiving performance.
 
-The same mathematical operation can serve different work: rotation can compare shapes, generate an offbeat entry or ruin a required cue. Its meaning follows from the retained reference and intended action. This connects rhythmic construction to mathematical methods without reducing performance to their representations.
+Rotation can preserve a shape comparison, produce an offbeat entry or lose a required cue. Its use depends on the retained reference and the intended action. Apply the mathematical operation under those rhythmic conditions.
 
 ### RHY.8:11 - SoTA-Echoing
 
-Nelson's *Solkattu Manual* (2008), printed pp. 22–26 and 61–62, provides statement/gap construction, controlled expansion with adjustment of the setup, and larger shaped compositions. Adopt the reusable construction and its practice-specific phrase conditions. A duration identity alone supplies neither the whole tradition nor an acquired recitation technique.
+Nelson’s *Solkattu Manual* (2008), printed pp. 22–26 and 61–62, describes statement-and-gap construction, controlled expansion with adjustment of the setup, and larger shaped compositions. Retain the phrase conditions of that practice when using its construction. The duration identity can establish the span while leaving cultural fit and recitation skill to be assessed on their own grounds.
 
-Toussaint's *The Geometry of Musical Rhythm* (2020), chapters 21 and 31, supplies evenly distributed seeds, phase-related transformations and constructions from performer allocation. These are productive alternatives to uncontrolled perturbation. Their geometric properties do not by themselves establish preference, stylistic suitability or training success.
+Toussaint’s *The Geometry of Musical Rhythm* (2020), chapters 21 and 31, offers evenly distributed seeds, phase transformations and constructions from performer allocation. Use these to generate interpretable alternatives. For a claim about preference, stylistic fit or training success, use the appropriate evidence from the practice.
 
-Cha's Takadimi critique, discussed in RHY.5–RHY.6, makes a transformation's input completeness consequential: omitted sustain or silent reference positions can change the result. A timed demonstration, a score or an accompanying beat gesture can supply information absent from a bare syllable string.
+Cha’s Takadimi critique in RHY.5–RHY.6 shows how omitted sustain or unarticulated reference positions can change a transformation. A beat gesture can mark positions with no new attack. To determine whether sound continues or stops there, use a duration-bearing score, a timed realization or a convention that also indicates release.
 
-The three cases above are constructions from stipulated inputs. The combined method—retained relations, rhythmic construction, fit with the whole and a qualified return to performance—is a synthesis; empirical claims remain limited to their own sources and observations.
+The three cases stipulate their inputs. This method combines preserving the required relations, constructing a variant, checking its fit with the whole passage and returning a qualified result for its intended use. Claims about observed performance need evidence of the particular realization.
 
 ### RHY.8:12 - Relations
 
-RHY.2 supplies the relevant changes and relations; RHY.5–RHY.6 supply representation and translation; RHY.7 compares retained alternatives. RHY.3 checks carrier/articulation coexistence. RHY.9–RHY.11 realize the needed configuration and coordination. RHY.12 develops a limiting capability; RHY.13 addresses transfer or retention; RHY.14 supplies a needed enactment or response result.
+Use RHY.2 to identify relevant changes and relations, RHY.5–RHY.6 for representation and translation, and RHY.7 to compare alternatives. Use RHY.3 to check whether the articulation can coexist with the continuing carrier, RHY.9–RHY.11 for configuration and coordination, RHY.12 when capability needs development, RHY.13 for transfer or retention, and RHY.14 for a needed observation of performance or response.
 
-C.17 and C.18 support broader novelty/diversity search when the work needs it. C.11 chooses among available alternatives; C.11.DUA tests the usefulness of further inquiry. Mathematical construction and transformation methods can supply operations; C.29 qualifies their application to the performance. E.10.D2 governs a specification's checkable claims when the variant is supplied as a specification.
+Use C.17 and C.18 for a broader search when variation and diversity matter to the task. Use C.11 when choosing among alternatives and C.11.DUA to assess further inquiry. Mathematical methods supply possible transformations. C.29 qualifies their application to the performance. If the variant is a specification, use E.10.D2 for its checkable claims.
 
 ### RHY.8:End
 
@@ -1537,15 +1537,15 @@ C.17 and C.18 support broader novelty/diversity search when the work needs it. C
 
 ### RHY.9:1 - Problem frame
 
-**Use this when** a passage is individually performable but its participants cannot receive or act on the timing information they need while doing their own parts. A player's hands may be occupied when a visible cue is needed. An audible attack may arrive too late to prepare a simultaneous entry. A cue may be clear in a demonstration and hidden from the position used in performance.
+**Use this when** a participant needs timing information while performing their part. A player may need both hands when a partner needs a visible cue. An attack can arrive too late to prepare a simultaneous entry, and a gesture visible in a demonstration can be hidden from the performance position. Use the method to address a difficulty, explain how a cue worked in a recorded passage or assess a proposed arrangement.
 
-Start with the passage, its performers and the next relation that fails. Arrange the production of the rhythmic contributions and the availability of the needed cues together. The first result is a usable allocation and cue arrangement for that passage, a proposal ready for a suitable trial, or an identified missing contribution.
+Identify the passage, who performs it, the action that needs a cue and when that information must be available. Establish how cueing fits alongside the other actions. Depending on the question, report what the arrangement achieved, retain a usable arrangement, propose one for trial or identify the missing contribution.
 
-Use an established adequate arrangement directly. When the problem concerns the wider performing whole—its instruments, support, placement or responsibilities—MDPE.3 supplies that configuration method. Here the question is how rhythmic action and timely information can coexist within it.
+Use an adequate existing arrangement directly. For a question about instruments, support, placement or responsibilities in the wider performing whole, use MDPE.3. RHY.9 addresses production of the rhythmic action and access to its timing information within that arrangement.
 
 ### RHY.9:2 - Problem
 
-Producing the desired event and making its timing usable to another performer can require different actions. Removing a movement that makes no sound may remove the receiver's preparation cue. Adding a count or gesture can occupy the body part, channel or attention already needed by another contribution. Component availability therefore leaves a joint arrangement to be solved.
+Producing an event and giving another performer time to prepare can take different actions. A silent movement may be the partner’s cue to begin preparing. A count or gesture can occupy a hand, a channel or attention already needed for another part. Examine which actions and cues can coexist during the passage.
 
 ### RHY.9:3 - Forces
 
@@ -1554,59 +1554,59 @@ Producing the desired event and making its timing usable to another performer ca
 | Production and communication | A sound-producing action may reveal timing only after another performer must begin preparing. |
 | Economy and access | Fewer cues reduce demands but can remove a necessary reference. |
 | Reuse and competing actions | A familiar gesture is available in isolation but may conflict with the passage. |
-| Planning and realization | A compatible timing calculation leaves actual cue recognition and execution to be established. |
+| Planning and realization | A calculation can show that the schedule allows time to prepare. To say what performers recognized or did, use evidence from the performance. |
 
 ### RHY.9:4 - Solution
 
 #### RHY.9:4.1 - Recover the contributions and their receivers
 
-Take a short passage containing the difficulty, including its entry and continuation. Identify what must continue, what must be articulated, who produces each contribution, and who needs timing information from it. RHY.2 and RHY.3 supply these distinctions when they are unresolved.
+Take a short passage that includes the entry and its continuation. Identify what must continue, what is articulated, who produces each contribution and who needs its timing information. Use RHY.2 and RHY.3 for any of these relations that remain unclear.
 
-For each consequential cue, ask what its receiver must learn: the next entry, a cycle position, an approaching change of pace, a release, or permission to recover at a later landmark. Retain an already shared convention or demonstrate the intended cue. The same head movement can otherwise be read as an accent, a tempo change or preparation for an entrance.
+For each cue that matters, identify what its receiver needs to know. It could mark an entry, a cycle position, a change of pace, a release or an agreed place to resume. Use a shared convention when it fits. A record, explanation or demonstration can establish an existing meaning. Specify the intended meaning of a proposed new cue. When performers are to use it, communicate that meaning to them. The same head movement can mark an accent, a tempo change or preparation for an entrance.
 
-A solo performer may use an internal reference. A partner can use it only through some accessible consequence. Add an external cue only where that receiving need exists.
+A solo performer may use an internal reference. A partner needs an accessible consequence of that reference to use it. An existing movement may already provide the cue. Add a signal when the receiving task needs one.
 
 #### RHY.9:4.2 - Allocate production and cueing without losing another contribution
 
-Assign the required sound, movement and cue actions to available performers or means. Inspect their overlap in the passage. A hand making a reference gesture may also be needed for an instrumental stroke; a performer reading a score may not see a small peripheral movement.
+Identify who or what produces each required sound, movement and cue. When creating or changing an arrangement, allocate the affected actions to the available performers or equipment. Check where they overlap in the passage. A hand used for a reference gesture may also be needed for an instrumental stroke. Someone reading a score may miss a small movement at the edge of their vision.
 
-Choose a concrete repair: expose an existing preparatory movement, change the receiver's access, move the cue to another available channel, reassign a contribution, or simplify a conflicting articulation. Preserve the rhythmic and stylistic relations the passage needs. More or larger signals are useful only if the receiver can use them without losing another task.
+If the allocation causes a problem, identify the conflicting actions. For a requested repair, consider exposing an existing preparatory movement, improving the sightline, using another channel, reassigning a contribution or simplifying the articulation in conflict. Choose an arrangement that preserves the required rhythmic and stylistic relations. An extra or stronger signal helps only when the receiver can use it without losing another needed action.
 
-Use familiar, appropriately supported bodily or instrumental actions. If the proposed allocation requires a technique the performer does not have, return that capability question to RHY.12 instead of treating the assignment as its realization.
+Use bodily or instrumental actions the performer can carry out with the support available. If a proposed allocation depends on a technique the performer lacks, identify the missing capability. Use RHY.12 when developing it is part of the task.
 
 #### RHY.9:4.3 - Make the information usable before the dependent action
 
-Trace the needed relation from cue production through availability and interpretation to preparation and the receiving event. A cue may announce a future event; waiting for that event's sound would provide different information at a different time. RHY.4 helps distinguish the physical event from the moment or feature the receiver uses.
+Follow the cue from its production to the receiver’s access, interpretation, preparation and action. An advance cue may identify the target time before the final attack occurs. The sound of that attack arrives later. RHY.4 can help distinguish the physical event from the feature or time the receiver uses.
 
-For a controller or a measured arrangement, compare available advance time with the applicable delivery and preparation times. Include variation where it matters. If the receiver can prepare and wait for a known target time, enough advance information can solve a problem that reacting to the final attack cannot.
+For a controller or a measured arrangement, compare the available advance time with cue delivery and preparation time. Include variation that affects the comparison. If the cue identifies a future target time and the receiver can prepare and wait, an advance cue can make the target achievable.
 
-For ordinary rehearsal, a clear preparatory gesture followed by a short joint trial may answer the question without timing measurements. Seek a delay estimate only when its possible values would change the arrangement. A precise command timestamp alone does not establish when the action or usable cue occurs.
+In rehearsal, a short joint trial with a clear preparatory gesture may answer the question. Existing observations can also supply the answer. Estimate a delay when the result it could establish for the explanation or choice justifies the work. A command timestamp can establish when the command was issued. Establish the action and the cue available to the receiver from evidence of those events.
 
 #### RHY.9:4.4 - Try the receiving relation while the passage continues
 
-Use the arrangement in the part of the passage where the receiver needs it. Observe whether the receiver obtains the intended information, prepares the contribution and continues the other required actions. Compare with the troublesome arrangement when that contrast can localize the remaining difficulty.
+For a question about a performance, use a record or observation of the relevant passage to establish which cue was available, whether the receiver used its intended information and what they did while the other required actions continued. If a new trial is warranted and feasible, try the arrangement at that point in the passage. A comparison with the troublesome arrangement can help locate a remaining difficulty.
 
-Keep cue availability separate from correction: a visible gesture can be available while performers still disagree about which beat it marks. RHY.10 resolves that reference and adjustment question. If adding the cue disrupts another simultaneous contribution, use RHY.11 to resolve the joint relation.
+A gesture may be visible to both performers even when they disagree about the beat it marks. Use RHY.10 to examine their reference and adjustments. If producing or using the cue interferes with another simultaneous contribution, use RHY.11 to examine how the parts fit together.
 
-Include a familiar recovery at a recognizable later point if entry is missed. Do not demand a hurried catch-up that defeats the available technique or support. Existing domain limits and stopping conditions govern the trial.
+When missed entries need a recovery plan, use a familiar return at a recognizable later point. Allow enough time for the technique and the support available. Follow the practice’s existing limits and stopping conditions during a trial.
 
 #### RHY.9:4.5 - Retain the useful arrangement and its scope
 
-Keep the allocation, cue meaning and access that answer the receiving task. Preserve the conditions that matter—such as sightline, tempo, preparation, equipment or a continuing support gesture.
+Describe the allocation, cue meaning and access that matter to the question. Retain the conditions on which the finding depends, such as sightline, tempo, preparation time, equipment or continuing support. These conditions also determine where a successful arrangement can be used again.
 
-A calculation can justify a trial; an observed local success can justify retaining that arrangement in comparable use. Wider reliability and transfer remain separate questions. Stop when the next performance decision is possible, or name the unavailable cue, action or capability that prevents it.
+A calculation can establish timing feasibility under stated conditions or justify a trial. An observed local success can support retaining that arrangement in comparable use. Give the finding that answers the question, including any limit due to an unavailable cue, action or capability. For a wider claim about reliability or transfer, establish the additional conditions it requires.
 
-Reopen the affected allocation or cue relation when the passage, performer, channel, placement, tempo or preparation changes. Reuse the relations those changes leave intact.
+If a change of passage, performer, channel, placement, tempo or preparation affects the answer, reconsider the allocation or cue relation that depends on it. Reuse relations whose conditions still hold.
 
 ### RHY.9:5 - Archetypal Grounding
 
 #### RHY.9:5.1 - A timely command whose cue arrives too late
 
-In a constructed stage controller, a receiver must make an event at 2.00 seconds. A cue identifies that future target time. The supplied bounds are 0.05 seconds for cue delivery and 0.40 seconds for preparation; after preparation the receiver can wait until the target.
+In a constructed stage controller, a receiver must produce an event at 2.00 seconds. The cue specifies this future target time. Delivery takes at most 0.05 seconds and preparation at most 0.40 seconds. Once ready, the receiver can wait for the target.
 
-Sending the cue at 1.65 gives latest readiness at 2.10. Sending it at 1.50 gives latest readiness at 1.95, leaving 0.05 seconds before the target. Choose the earlier cue for a trial under those bounds. The intended event time stays 2.00.
+Sending at 1.65 seconds gives a latest readiness time of 2.10 seconds, so readiness by 2.00 is not assured. Sending at 1.50 seconds gives 1.95 seconds, leaving at least 0.05 seconds before the target. Under the stated bounds, the earlier send gives enough time for the proposed trial. The intended event time is 2.00 seconds in both cases.
 
-The calculation concerns advance information and readiness. It does not establish audience-perceived timing or the bounds' validity for another mechanism. If the delivery delay is unresolved enough to cross the available margin, return that uncertainty or choose an arrangement with sufficient known margin.
+These bounds give the latest readiness time for each proposed send. To establish when the receiver was ready, use evidence of that run. A claim about timing perceived by the audience or about a different mechanism needs its own evidence. If uncertainty about delivery could use up the margin, report it. For a design task, a way of supplying enough known advance time may resolve it.
 
 #### RHY.9:5.2 - Preserve the sound while changing cue access
 
@@ -1618,26 +1618,26 @@ A constructed ensemble passage requires a player to sustain an already learned b
 | Keep the playing actions, leave the cue obscured | Yes | No | Yes |
 | Keep the playing actions and expose an existing preparatory cue by changing the partner's position | Yes | Yes | Yes |
 
-Retain the third arrangement for these conditions. No new gesture technique is needed. If the performance position cannot change, the same result becomes a concrete need for another accessible cue, not evidence that the partner should simply try harder.
+Retain the third arrangement under the observed conditions. Changing the partner’s position makes the existing cue accessible while both playing actions and the following action continue. If the performance position keeps this cue hidden and cannot change, the passage needs another way to make the cue accessible.
 
 #### RHY.9:5.3 - A beat gesture preserves reference but not sound duration
 
-A learner recites an onset-syllable pattern while a teacher shows every beat. The teacher's gesture can keep the reference available through an unspoken position. Whether the earlier sound continues or a rest occurs still needs the duration-bearing score, demonstration or agreed instruction.
+A learner recites an onset-syllable pattern while a teacher marks every beat. The gesture locates even an unspoken beat. To establish whether the earlier sound continues or a rest occurs, use the duration-bearing score, a timed demonstration or an agreed instruction that specifies it.
 
-RHY.5 chooses that representation and RHY.6 checks the correspondence. The cue arrangement retains the teacher's gesture for reference and the demonstrated duration for realization. With either removed, only the conclusions dependent on it need reconsideration.
+Use RHY.5 to choose a representation when one is needed and RHY.6 to check its correspondence with the performance. In this example the teacher’s gesture marks the beats and the demonstrated durations guide the sustain and release. If either source becomes unavailable, identify which part of the performance can still be specified.
 
 ### RHY.9:6 - Bias-Annotation
 
-Visible and audible cues are prominent in the examples. A performer may instead use contact, proprioception or an equipped display. Those alternatives need the same receiving-action question, with their own access and interpretation conditions. A mathematical timing bound is not a prescription for bodily reaction time.
+The examples use visible and audible cues. Contact, proprioception and an equipped display can also guide action. Establish what the performer could perceive and use in the conditions of interest. A mathematical upper bound from a stage controller applies to the controller as specified.
 
 ### RHY.9:7 - Conformance Checklist
 
-- The failed receiving action and the timing information it needs are recognizable.
-- Production, cueing and the other simultaneous demands have a compatible allocation or a named conflict.
-- Advance information is available in time for the required preparation.
-- The receiving relation is considered during the actual passage, including continuation and recovery.
-- A proposal, calculated compatibility and observed performance retain their different conclusions.
-- Changed conditions reopen the affected relation.
+- Identify the receiving action and the timing information it needs.
+- Establish which production, cueing and simultaneous demands fit together, which conflict or which relation remains open.
+- Where preparation requires advance information, establish whether it arrives in time or report the limit of the evidence.
+- Examine the receiving relation at the relevant point in the passage, including continuation or recovery when it matters.
+- Distinguish a proposal, what its timing calculation establishes and any performance supported by observations.
+- Reconsider an earlier conclusion if a condition on which it depends has changed.
 
 ### RHY.9:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -1645,30 +1645,30 @@ Visible and audible cues are prominent in the examples. A performer may instead 
 | --- | --- |
 | Remove all non-sounding movement as wasted effort | Check whether it supplies preparation information to another performer. |
 | Treat an attack as a sufficient cue for a simultaneous action | Establish advance reference or preparation when the receiving action requires it. |
-| Add a signal using an already occupied hand or attention channel | Reallocate the cue or change access, then try the joint passage. |
-| Infer shared understanding from cue visibility | Demonstrate the intended event and use RHY.10 when its reference is ambiguous. |
+| Add a signal that occupies a hand or attention already needed for performance | Identify the overlap. When a change is needed, consider reallocating the cue or changing access. Use the constraints of the arrangement to assess a proposal and suitable performance evidence to establish how the actions worked together. |
+| Infer shared understanding from cue visibility | Establish which event each participant takes the cue to mark. Use RHY.10 if the reference is ambiguous. |
 
 ### RHY.9:9 - Consequences
 
-The arrangement can make an existing capability usable without prescribing more training. It can also expose a missing coordination or an inaccessible cue that practice alone will not repair. Extra signalling remains a cost when the receiving task does not need it.
+Changing the sightline or timing of a cue can make an existing capability usable. The passage may reveal a coordination the performer has yet to acquire or a cue the current arrangement conceals. Additional practice alone cannot restore access to a hidden cue. Additional signals cost time or attention and may be unnecessary for this receiver.
 
 ### RHY.9:10 - Architectural Rationale
 
-A performance relation includes production, information and a receiver able to act. Optimizing any one separately can defeat the relation. Preparatory movement can help precisely because it precedes the event; a second channel can help precisely because the sound-producing channel is occupied.
+The cue has to be produced, reach a receiver and arrive in time for the receiving action. A preparatory movement can identify an event before it happens. A second channel can carry the cue while the first is occupied with producing sound. Improving one contribution in isolation may make their joint use harder.
 
-The method changes the arrangement only far enough to make the rhythmic contribution usable. The availability of timing information and the performer's ability to combine the required actions remain separate constraints.
+When a change is needed, adjust the arrangement enough to make the rhythmic contribution usable. Check access to timing information and the ability to perform the required actions together as separate conditions.
 
 ### RHY.9:11 - SoTA-Echoing
 
-Gao and colleagues' [Shimon study](https://doi.org/10.3389/frobt.2024.1461615) compared gesture conditions while pianists followed a preprogrammed robot. Head-plus-arm gestures helped in changing-tempo conditions; the constant-tempo comparison did not show that benefit. This supports a conditional anticipatory-cue option, not a universal gesture prescription or demonstrated mutual adaptation.
+Gao and colleagues’ [Shimon study](https://doi.org/10.3389/frobt.2024.1461615) compared gesture conditions while pianists followed a preprogrammed robot. Head-plus-arm gestures helped in the changing-tempo conditions. The constant-tempo comparison did not show that benefit. The study supports considering this cue for anticipation under comparable conditions. The robot’s preprogrammed part left mutual adaptation untested.
 
-Lau and colleagues' [robot ensemble integration](https://doi.org/10.7717/peerj-cs.2632) connects mechanical realization and timing communication. Its improved end-of-piece alignment motivates testing those dependencies; it does not establish every within-phrase alignment.
+Lau and colleagues’ [robot ensemble integration](https://doi.org/10.7717/peerj-cs.2632) connects mechanical realization and timing communication. The improved alignment at the end of the piece gives a reason to examine those dependencies. Alignment within a phrase requires evidence from that part of the performance.
 
-Cha's [Takadimi reconsideration](https://doi.org/10.1177/0305735614528063) supplies the duration-information objection. [Hoffman's teaching recommendation](https://www.takadimi.net/teachingWithTakadimi.html) supplies beat-keeping movement; Birch and Walsh's [conducting proposal](https://www.music.org/images/conf/reg/ne/2022_NE_Schedule_20220214.pdf#page=18) offers a response to Cha. A maintained beat reference still needs separate sustain/rest information; the teaching proposals do not establish comparative superiority. The general allocation method here is a synthesis of these contributions. Reconsider a selected cue when its receiving benefit, access or competing demand changes.
+Cha’s [Takadimi reconsideration](https://doi.org/10.1177/0305735614528063) identifies missing duration information. [Hoffman's teaching recommendation](https://www.takadimi.net/teachingWithTakadimi.html) uses beat-keeping movement, and Birch and Walsh’s [conducting proposal](https://www.music.org/images/conf/reg/ne/2022_NE_Schedule_20220214.pdf#page=18) offers a response to Cha. A beat reference can locate the next unarticulated beat. Sustaining or releasing a sound also requires duration information. The teaching proposals leave their comparative effectiveness open. This allocation method combines the contributions. Reconsider a cue when its usefulness to the receiver, accessibility or competing demands change.
 
 ### RHY.9:12 - Relations
 
-MDPE.3 configures the wider performing whole. RHY.3 constructs carrier and articulation together; RHY.4 distinguishes usable timing from physical or recorded marks. RHY.5–RHY.6 supply needed representations and correspondences. RHY.10 uses the available cues for reference and correction, RHY.11 coordinates simultaneous layers, and RHY.12 develops a missing capability. RHY.14 supplies a more demanding performance or response comparison when the receiving decision needs one.
+Use MDPE.3 to configure the wider performing whole, RHY.3 to construct the carrier and articulation together, and RHY.4 to distinguish a physical or recorded mark from the timing the performer can use. RHY.5–RHY.6 address representations and their correspondence. Use RHY.10 for shared reference and correction, RHY.11 for simultaneous layers and RHY.12 when a missing capability needs development. RHY.14 can supply a stronger performance or response comparison when the question warrants it.
 
 ### RHY.9:End
 
@@ -1679,15 +1679,15 @@ MDPE.3 configures the wider performing whole. RHY.3 constructs carrier and artic
 
 ### RHY.10:1 - Problem frame
 
-**Use this when** performers can receive one another's cues yet disagree about entry, beat or cycle position, drift during a passage, or lose their relationship after a pause or tempo change. They may say the same count while locating it in different places.
+**Use this when** the question concerns how performers locate an entry, beat, cycle position or phrase together. Even with a cue accessible to both, they may use the same spoken count and place it differently, drift apart or lose their relationship after a pause or change of pace. A recorded passage can also show how they stayed coordinated. If the required cue is inaccessible, examine that arrangement with RHY.9.
 
-Establish what their actions relate to, the placement they intend and how they will adjust or recover. The first result is a usable reference and coordination for the passage, or a localized missing cue, interpretation or capability.
+Identify the shared reference, the intended placement and any adjustments or recovery the passage calls for. The result may be an explanation of an observed coordination, an arrangement the performers can use, or a specific limit due to a missing cue, interpretation or capability.
 
-Keep an established coordination when it serves the work. A deliberately delayed accent or expressive tempo change needs its intended relation preserved; it does not call for automatic alignment to an even click.
+Keep established coordination when it serves the passage. A deliberately delayed accent or expressive change of pace can already have the intended relationship to the other part. Preserve that relationship when considering a correction against an even click.
 
 ### RHY.10:2 - Problem
 
-Pace alone leaves entry and grouping unresolved. A common starting event leaves later drift unresolved. A visible beat leaves its relation to an offbeat or a cycle boundary unresolved. Correcting every observed difference can remove intended phrasing or cause performers to chase each other's corrections.
+Matching pace leaves the entry and grouping open. Starting together leaves room for later drift. A visible beat may have several relations to an offbeat or cycle boundary. Correcting every difference can erase intended phrasing or lead performers to chase one another’s corrections.
 
 ### RHY.10:3 - Forces
 
@@ -1702,9 +1702,9 @@ Pace alone leaves entry and grouping unresolved. A common starting event leaves 
 
 #### RHY.10:4.1 - Establish the reference the passage actually uses
 
-Demonstrate or identify the recurring reference, entry and any larger grouping that matters. Specify through performance, notation or ordinary language which event or feature marks each needed landmark. A pulse, a cycle beginning and the accent of a phrase may occur together once and diverge later.
+Identify the recurring reference, entry and larger grouping that the passage needs. Use a performance, notation or ordinary language to establish which event or feature marks each landmark. A pulse, a cycle beginning and a phrase accent may coincide once and diverge later.
 
-Make local references compatible where interaction requires it. One performer may count two equal divisions while another counts three over the same span. They need to recognize the relevant common landmarks; they need not use identical internal counting.
+When performers interact, identify the landmarks their parts need to share. One may count two equal divisions while another counts three over the same span. They can meet at the common landmarks while counting differently between them.
 
 Use RHY.4 if the physical mark and the cue the performer receives disagree. Use RHY.9 if a necessary cue is unavailable during the passage.
 
@@ -1717,86 +1717,86 @@ Compare the intended relation with the received or performed one.
 - A correct local beat with a wrong entrance can call for cycle position or grouping.
 - A missing response during sustained sound or silence can call for a continuing reference or an unresolved duration.
 
-These are diagnostic contrasts, not exclusive causes. A changing cue delay can resemble a tempo error. An intended expressive displacement can resemble accidental lateness. Compare the relevant passage under a small useful change rather than infer a mechanism from one timestamp. When source pace and cue delivery remain plausible alternatives, compare source events with the received cues using an available independent reference or a suitable alternative cue channel. Obtain an additional timing observation only if that distinction changes the correction.
+These observations suggest explanations that can coexist. Changing delivery delay can resemble tempo error, and deliberate phrasing can resemble accidental lateness. When a consequential distinction remains open, use any adequate existing comparison or consider a small change that could distinguish the explanations. For source pace versus cue delivery, an independent source reference or a suitable second cue channel may settle the question. Obtain a further timing observation when what it could establish for the explanation or correction justifies the work.
 
-State the relation worth preserving: coincidence, a deliberate offset, alternation, shared phrase arrival or another recognizable coordination. The allowed variation comes from this use and the performing conditions.
+Identify the intended relation, such as coincidence, a deliberate offset, alternation or a common phrase arrival. Determine what variation is acceptable from the musical use and the conditions of performance.
 
 #### RHY.10:4.3 - Choose how performers follow and adjust
 
-Determine which information each performer uses for the current part of the passage. With a fixed recording, only the live performer can adjust that relationship. With mutually responsive partners, adjustments can be shared. Leadership may change at a phrase boundary or a signalled tempo change.
+Identify which information each performer uses at this point in the passage. While the recording remains fixed, only the live performer can adjust their side of the relationship. Responsive partners can share adjustments or change who leads at a phrase boundary or a signalled change of pace.
 
-Make the arrangement understandable in practice: show the preparation, play or move the passage, and agree on the cue for a change where agreement is needed. Distinguish a cue announcing a new pace from a local expressive accent.
+For a new arrangement, make the preparation and the cue for change clear to the performers. A demonstration or a short joint passage may help. Seek an agreement when one is needed. A cue announcing a new pace has a different implication for the next events than a local expressive accent.
 
-When corrections alternate or grow, compare a smaller correction, a clearer reference, or one temporarily stable contributor. Judge the combined response and retained phrasing. Do not assume that each performer correcting the full difference produces the fastest or most useful recovery.
+When corrections alternate or grow, examine the combined response and the phrasing that remains. Possible changes include smaller corrections, a clearer reference or asking one performer to maintain a steady pace for a time. Compare the options that fit the task.
 
-A controller can implement explicit feedback gains. A performer may use learned adjustment without calculating them. Model parameters describe or prescribe a selected mechanism only under its assumptions; a fitted coefficient does not by itself identify the performer's conscious rule.
+A controller can apply explicit feedback gains. Performers can also learn to adjust without calculating a coefficient. Interpret a model’s parameters under the assumptions of its particular mechanism. A fitted gain leaves the performer’s conscious strategy open.
 
 #### RHY.10:4.4 - Preserve reference through gaps and plan a return
 
-Carry the reference through rests, sustained actions and unarticulated beats when later entry depends on it. Available means include familiar internal continuation, visible or felt movement, a partner's ongoing part, an appropriately timed cue or a duration-bearing representation.
+When later entry depends on a continuing reference, identify or provide what carries it through rests, sustained actions and unarticulated beats. Possibilities include a familiar internal pulse or count, visible or felt movement, a partner’s continuing part, an appropriately timed cue or a representation that specifies duration.
 
-Keep reference information distinct from what happens between landmarks. A gesture on each beat does not say whether a sound continues, stops or changes between them. Recover that content through RHY.5–RHY.6 when needed.
+A gesture on each beat can locate a landmark. When the passage also requires a particular sound, establish whether it continues, stops or changes between landmarks. Use RHY.5–RHY.6 if the available material leaves that duration or its correspondence with the passage unclear.
 
-Choose a recognizable re-entry point if the reference is lost. A missing attack need not require restarting the entire performance. The return must be achievable with the available preparation; otherwise simplify, wait for a later agreed point or stop under the practice's conditions.
+If the passage needs a recovery plan, identify a recognizable re-entry that the performers could make after losing the reference. In a live passage, they may rejoin at a familiar landmark without restarting. If preparation time is too short, simplify, wait for a later agreed point or stop under the practice’s conditions. For a past performance, report the return or stop that the evidence supports.
 
 #### RHY.10:4.5 - Try entry, continuation, change and recovery where needed
 
-Use the relevant portion of the passage and the disturbances that matter to the current choice. A stable entry does not answer a tempo-change problem; an aligned ending does not answer an internal coordination problem.
+Examine the portion of the passage and the disturbance that matter to the question. Use a suitable existing observation or conduct a trial when needed. A stable entry establishes that entry. A tempo change or a relation inside a phrase requires evidence from the corresponding part of the performance.
 
-Observe the intended relation along with the continuing sound, movement and partner task. Retain a correction that restores the useful relationship without losing them. If the performers understand the relationship but cannot enact it together, return the particular coordination need to RHY.11 or RHY.12.
+Compare the observed relationship with the intended one, including the sound, movement and partner task that must continue. When a correction restores the intended relationship and preserves those contributions, retain it. If performers understand the relation but cannot enact it together, identify the coordination to examine with RHY.11 or develop with RHY.12.
 
-Stop when the next performance or practice choice is supported. A local trial may be sufficient. Use RHY.14 for a stronger comparison and RHY.13 for a transfer or retention claim; neither is required merely to retain a familiar useful cue.
+Finish when the evidence supports the requested explanation, performance assessment or practice choice, or when you can state its limit. A local trial may suffice. Use RHY.14 for a stronger comparison and RHY.13 when the question concerns transfer or retention.
 
-Reopen the affected reference, following relation or recovery when the partner, tempo, grouping, cue, equipment or support changes. Keep an unchanged sufficient part.
+Reconsider a reference, following relation or recovery when a change of partner, tempo, grouping, cue, equipment or support affects it. Use established relations that still fit.
 
 ### RHY.10:5 - Archetypal Grounding
 
 #### RHY.10:5.1 - A placement difference and accumulating drift
 
-A constructed reference has event times 0.00, 0.50, 1.00 and 1.50 seconds. One response gives 0.08, 0.58, 1.08 and 1.58: its intervals match, with a constant 0.08 displacement. Another gives 0.00, 0.52, 1.04 and 1.56: its intervals are 0.52 and its displacement grows.
+A constructed reference has event times 0.00, 0.50, 1.00 and 1.50 seconds. In the first response the events occur at 0.08, 0.58, 1.08 and 1.58 seconds. Each occurs 0.08 seconds after the corresponding reference event, and the intervals match. In the second the times are 0.00, 0.52, 1.04 and 1.56 seconds. The events are 0.52 seconds apart and their displacement from the reference grows by 0.02 seconds per interval.
 
-Suppose a controller is intended to coincide with the reference, its event identification is sound, and its configuration permits re-entry at the future 2.00 landmark. For the first response, retain the 0.50 interval and correct the entry placement. For the second, change the interval to 0.50 and re-establish entry at that landmark. These are different repairs.
+Suppose the controller should coincide with the reference, the events have been identified correctly and the controller can re-enter at the future 2.00-second landmark. In the first response, keep the 0.50-second interval and correct entry placement. In the second, shorten the interval to 0.50 seconds and re-establish entry at 2.00 seconds.
 
-The series alone does not establish why a human performed either pattern. If the 0.08 displacement were intended phrasing, the first series would already meet that relation.
+The times describe placement and spacing. Explaining a human performance requires evidence about that performer and passage. If the intended phrasing included an offset of 0.08 seconds, the first response would already meet the intended relation.
 
 #### RHY.10:5.2 - Two complete corrections can undo each other
 
-Consider a constructed pair of ideal controllers producing matched events with the same period. B is 0.10 seconds later than A. A delays its next event by a fraction `a` of the difference; B advances its next event by a fraction `b`. With no other disturbance, their next difference is `(1 - a - b) × 0.10`.
+Consider two ideal controllers that produce matched events with the same period. B is 0.10 seconds later than A. A delays its next event by a fraction `a` of the difference and B advances its next event by a fraction `b`. With no other disturbance, their next difference is `(1 - a - b) × 0.10` seconds.
 
-If both correct the whole difference, `a = b = 1`, the difference becomes −0.10: the order reverses, without reducing its magnitude. Under these stipulated conditions, choosing `a = b = 0.5` removes the difference on the next event.
+If both correct the full difference, `a = b = 1` and the new difference is −0.10 seconds. The order reverses and the gap is as large as before. With `a = b = 0.5` the model gives zero difference at the next event.
 
-This is a calculation about the selected controller, not a universal optimum for people. Delivery delay, noise, preparation and intended expression can change a useful choice. The practical result is to inspect the combined correction instead of demanding a complete correction from every participant.
+The gains in this calculation belong to the stipulated controller. In a performance, delivery delay, noise, preparation and intended expression can change the useful adjustment. Examine what both participants’ corrections do together.
 
 #### RHY.10:5.3 - Continue through a silent or sustained span
 
 A constructed four-beat phrase has beats at 0.0, 0.5, 1.0 and 1.5 seconds and a new phrase at 2.0. Its first sound starts at 0.0. The supplied score says it continues for one second, followed by a one-second rest.
 
-An onset-only recitation marks the first sound and the next phrase but leaves the intervening duration unspecified. A familiar four-beat gesture maintains beat and cycle position; the score or timed demonstration supplies the sustain and rest. Together they specify when to stop the sound and when to re-enter.
+An onset-only recitation marks the first sound and the next phrase. A familiar four-beat gesture locates the intervening beat and cycle positions. The supplied score or timed demonstration specifies one second of sustain followed by one second of rest. Together these contributions specify when to release and when to re-enter.
 
-Suppose the learner, already able to sustain and release that sound, performs the stated durations and enters at the demonstrated next phrase while using the gesture. Retain this supported coordination. Whether the learner can continue after the gesture is withdrawn is a separate RHY.13 question.
+Suppose the learner can already sustain and release the sound, performs the given durations and enters the next phrase while using the gesture. This observation supports the coordination with the gesture available. Use RHY.13 if the question concerns performance after the gesture is withdrawn.
 
 #### RHY.10:5.4 - A changing delivery delay resembles a changed pace
 
 In a constructed remote-cue case, the receiver obtains events at 0.10, 0.62, 1.14 and 1.66 seconds. Their 0.52-second intervals fit both a source whose period is 0.52 with constant delivery delay and a source whose period is 0.50 with growing delivery delay. The intended coordination is with the source performance.
 
-An already available source-side record, aligned to the same time reference, gives 0.00, 0.50, 1.00 and 1.50. Subtracting these values from the received times gives delays of 0.10, 0.12, 0.14 and 0.16. Within the stipulated event matching and clock accuracy, the growing difference belongs to delivery; it does not justify changing the source's continuing pace.
+A source-side record aligned to the same time reference gives 0.00, 0.50, 1.00 and 1.50 seconds. Subtraction from the matched received times gives delays of 0.10, 0.12, 0.14 and 0.16 seconds. Within the stated clock accuracy and event matching, the delivery delay grows while the source period stays at 0.50 seconds.
 
-The selected move is to try an available cue channel with stable delay and establish the intended entry relation while retaining the 0.50 period. Its usability still needs a joint attempt. The calculation does not establish a human response or identify which component causes the delay.
+The source period can remain at 0.50 seconds for the proposed repair. Use a suitable joint observation to assess an available cue channel with stable delay at the intended entry, or try it if that evidence is needed and a trial is feasible. The calculation leaves the human response and the component responsible for the delay open.
 
-Had the source-side times instead been 0.00, 0.52, 1.04 and 1.56, the same received series would have a constant 0.10 delay. The next question would concern the source pace and whether its change was intended. Without a usable second reference, keep both explanations open and choose a familiar cue contrast that could distinguish them.
+If the source-side times were 0.00, 0.52, 1.04 and 1.56 seconds, the same received series would give a constant delay of 0.10 seconds. A further question could ask whether the source pace of 0.52 seconds was intended. Without an adequate second reference, report both explanations as open. For a needed further distinction, consider a feasible comparison with a familiar cue that would distinguish them.
 
 ### RHY.10:6 - Bias-Annotation
 
-The worked calculations use periodic matched events because their alternatives are easy to inspect. Many performances use changing tempo, unequal subdivisions or continuous cues. Apply the relevant landmarks and received features rather than impose a uniform grid. The examples establish no general human reaction or correction constants.
+The calculations use periodic matched events to make the alternatives visible. For changing tempo, unequal subdivisions or continuous cues, use the landmarks and received features relevant to that performance. Estimates of human reaction or correction need evidence about the corresponding task and performers.
 
 ### RHY.10:7 - Conformance Checklist
 
 - Entry, local beat and larger grouping are distinguished where the passage needs them.
-- The intended placement is established before deviation is treated as error.
-- The chosen following or mutual adjustment can operate with the available cues and preparation.
-- Continuing reference and duration are available through the relevant gaps.
-- The useful relation is checked where the difficulty occurs, with an achievable return.
-- Local success is distinguished from transfer, and changed conditions reopen the affected choice.
+- Establish the intended placement before treating a measured deviation as an error.
+- Establish whether the proposed or observed adjustment fits the available cues and preparation, or identify which condition remains open.
+- Where entry depends on a reference or on duration across a gap, identify the source for each property the entry needs and any material limit on what it establishes.
+- Use evidence from the part of the passage in question. If recovery is required, identify an achievable return or the constraint that prevents it.
+- Limit a local success to the conditions it supports and revisit a conclusion when a relevant condition changes.
 
 ### RHY.10:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -1806,29 +1806,29 @@ The worked calculations use periodic matched events because their alternatives a
 | Chase every local accent as a lasting change of pace | Interpret the cue in the passage and distinguish local placement from period change. |
 | Ask both partners to correct the full discrepancy | Inspect their combined response and try an appropriate distribution of correction. |
 | Infer internal coordination from a shared final arrival | Examine the particular internal relations the receiving task needs. |
-| Treat supported continuation as unaided capability | Retain the support condition and test its removal only for the corresponding claim. |
+| Infer unaided capability from continuation with support | State the support that was present. Use qualified evidence under unaided conditions, or test without that support if such a claim warrants a new test. |
 
 ### RHY.10:9 - Consequences
 
-Performers can preserve meaningful timing differences while repairing loss of coordination. Distinguishing placement, pace, grouping and support prevents one generic demand to “keep time” from prescribing incompatible corrections. A useful local arrangement can remain simple; a quantified control model is optional.
+Performers can preserve an expressive timing difference and repair an unintended one. Distinguishing placement, pace, grouping and support shows why the same instruction to “keep time” might lead to incompatible corrections. A direct observation can settle many local questions without a quantified control model.
 
 ### RHY.10:10 - Architectural Rationale
 
-Rhythmic coordination relates actions through a reference and reciprocal or one-way use of information. It can therefore fail despite a shared vocabulary or matching nominal tempo. The method keeps the intended relationship, the information used to sustain it and the actual adjustment separate long enough to choose a repair.
+Rhythmic coordination depends on which reference relates the actions and who can use whose information. Even with a shared vocabulary and the same nominal tempo, performers can disagree about a cycle boundary or whether to adjust. Establish what relationship they intend, what information sustains it and what adjustment occurred or is proposed.
 
-Correction is constrained by the same constituent capabilities that support the passage. A performer who cannot prepare the required action cannot recover merely by identifying the right beat. Developing that capability and altering a cue arrangement are different useful responses.
+A performer may identify the right beat and still lack time or technique to prepare the action. Changing a cue arrangement may solve the timing problem. Developing the ability to carry out the action addresses a capability problem.
 
 ### RHY.10:11 - SoTA-Echoing
 
-Carvalho and colleagues' [Kalman-filter ensemble model](https://arxiv.org/abs/2411.05971) separates phase and period correction and permits varying gains. Its reported quartet experiment uses retrospective smoothing with phase correction; it does not establish a generally optimal live controller. Use its formalism when estimating such a mechanism is the actual task, rather than prescribe its parameters to all performers.
+Carvalho and colleagues’ [Kalman-filter ensemble model](https://arxiv.org/abs/2411.05971) distinguishes phase and period correction and allows the gains to vary. The reported quartet experiment used retrospective smoothing with phase correction. The formalism can help estimate a specified mechanism. Its retrospective result leaves the choice of a live controller and its gains open.
 
-Li and colleagues' [2026 violin study](https://doi.org/10.1038/s41598-026-46205-6) qualifies a uniform adjustment rule: auditory correction depended on the performance conditions, and the predicted general increase towards a recording was not found. Its bounded ensemble task supports inspecting the actual interaction rather than assuming automatic compensation.
+In Li and colleagues’ [2026 violin study](https://doi.org/10.1038/s41598-026-46205-6), auditory correction depended on the performance conditions. The study did not find the predicted general increase in adjustment towards a recording. Its findings support examining the interaction in the ensemble task of interest.
 
-Nelson's *Solkattu Manual* (2008), printed pp. 15–17, supplies phrase-against-gesture practice. Cha's Takadimi critique makes omitted duration and unarticulated reference positions explicit. Their contributions support the gap-continuation construction.
+Nelson’s *Solkattu Manual* (2008), printed pp. 15–17, describes performing a phrase against a continuing gesture. Cha’s Takadimi critique identifies duration and unarticulated reference positions that an onset-only account can omit. These contributions explain how a beat gesture can locate positions in a gap while a score or timed demonstration supplies the sustain and rest in §5.3.
 
 ### RHY.10:12 - Relations
 
-RHY.4 establishes which events or received features the timing claim concerns; C.27 supplies general temporal qualification. RHY.9 supplies usable cue access. RHY.11 coordinates the simultaneous parts related by the reference. RHY.12 develops a missing capability, RHY.13 tests support dependence or transfer, and RHY.14 obtains the performance or response comparison actually needed.
+Use RHY.4 to establish which events or received features a timing claim concerns and C.27 for general questions of timing. RHY.9 addresses cue access and RHY.11 the simultaneous parts related by the reference. Use RHY.12 to develop a missing capability, RHY.13 for support dependence or transfer, and RHY.14 when the question requires a performance or response comparison.
 
 ### RHY.10:End
 
@@ -1839,17 +1839,17 @@ RHY.4 establishes which events or received features the timing claim concerns; C
 
 ### RHY.11:1 - Problem frame
 
-**Use this when** a performer or group can produce parts separately but loses their intended relationship when they occur together. A voice may copy the accents of the beat gesture instead of keeping its phrase. A continuous movement may stop at every instrumental attack. Two regular action sequences may compete for the same mechanism.
+**Use this when** the question concerns how rhythmic parts work together. A performer may be able to produce each part alone and lose their intended relationship in combination. The voice may copy the beat gesture’s accents, a continuous movement may stop at each instrumental attack, or two regular sequences may require the same mechanism at incompatible times. The same method can explain a successful joint performance or assess a proposed one.
 
-Recover what each contribution must retain and how the contributions relate. Construct and try the combined passage. The first result is a usable joint coordination, a qualified construction for a trial, or a localized conflict or missing capability.
+Identify what each part must retain and how it relates to the others. For a design task, construct a combination and check it against the passage. Try it when a feasible joint attempt would supply needed evidence. Report the observed coordination, the feasibility of a proposal or the particular conflict or missing capability the evidence supports.
 
-When the parts already coexist as required, use that performance directly. A lesson sequence is needed only when developing or restoring the joint capability becomes the next question.
+Use an adequate joint performance and the evidence of it for the question it answers. Develop a practice sequence when the task calls for acquiring or recovering that capability.
 
 ### RHY.11:2 - Problem
 
-A description can place several parts on the same time line without giving a performer a way to realize them together. Conversely, forcing every part onto the same accents can make execution easier while removing the intended rhythm. Separate success, aligned notation and a shared count leave joint production unresolved.
+A time line can show the intended coincidences, offsets and independent groupings of the parts while leaving their joint execution open. Aligning all their accents may make performance easier and remove a relation the passage requires. Examine what performers or mechanisms must do together as well as what the notation and separate performances establish.
 
-A particularly demanding instance combines a regular pulse with accents whose places can be chosen relative to it. The accent may shorten the next pulse interval or make the sustaining movement stop. Conversely, the regular movement may pull the accent towards its own convenient turning point. The intended result retains both the pulse and the chosen accent placement. Learning one fixed combined figure can supply that figure without yet supplying freedom to change the accents.
+Consider a regular pulse with accents that can move relative to it. An accent may shorten the next pulse interval or interrupt the sustaining movement. The supporting movement may also pull the accent towards a convenient turning point. The intended performance preserves the pulse and the chosen placement of the accent. Learning a fixed figure can make that figure available at the practised tempo and with the practised support. A claim about choosing different placements needs evidence of that range.
 
 ### RHY.11:3 - Forces
 
@@ -1864,67 +1864,67 @@ A particularly demanding instance combines a regular pulse with accents whose pl
 
 #### RHY.11:4.1 - Recover what must obtain together
 
-Identify the overlapping contributions and their bearers: for example a vocal phrase, a reference gesture, an instrumental pattern, a continuous body movement and a partner cue. Retain each contribution's required order, duration, grouping, accent or continuous course.
+Identify the contributions that overlap and who or what produces each, such as the voice carrying a phrase, a hand giving the reference, an instrument playing a pattern or a partner providing a cue. For each, specify the order, duration, grouping, accent or continuous course the passage requires.
 
-Include entry and the following action. A combination that works only until the last accent can still defeat the passage. Use sufficient RHY.2 descriptions and RHY.5 representations rather than reconstruct them.
+Include the entry and following action when they affect the answer. A combination may work until the last accent and prevent the continuation. Use adequate descriptions from RHY.2 and representations from RHY.5 when available.
 
-Ask which differences are essential. The voice may cross gesture boundaries; the movement may continue through silence. Those relations define what the combined performance must preserve.
+Identify what the combination must preserve. For example, a vocal phrase may cross a gesture boundary or a movement may continue through silence.
 
 #### RHY.11:4.2 - Find the relations that make joint timing recoverable
 
-Locate the relevant shared landmarks, intended displacements and intervals. For commensurate periodic parts, a common subdivision can make coincidence and alternation visible. Retain each part's own grouping on that subdivision.
+Locate the relevant shared landmarks, intended displacements and intervals. For periodic parts with a common subdivision, that subdivision can show coincidence and alternation while preserving each part’s grouping.
 
-Use a few shared arrival points or demonstrated relations when a fine count is unnecessary or obstructive. For continuous contributions, relate identifiable portions of the course—such as a rise, turn or release—to the other part without reducing the whole course to those markers.
+Use a few shared arrival points or a demonstration when a fine count would add little or distract the performer. For a continuous contribution, relate a rise, turn or release to the other part and retain the course between those landmarks when it matters.
 
-Do not force a common repeating grid on material that lacks one. A free phrase can relate to a sustained movement through a particular entrance or release; the interior relation may remain deliberately flexible. State the relationship the performance actually needs.
+Use the relation the passage actually calls for. A free phrase can meet a sustained movement at an entrance or release while their interior relation stays flexible. Such a passage can be specified without a common repeating grid.
 
 #### RHY.11:4.3 - Check simultaneous demands, not just separate schedules
 
-Map the required actions onto the body parts, performers or mechanisms that produce them. Compare overlapping preparation, recovery, attention and cue use. RHY.9 repairs the allocation or access when a contribution has nowhere to occur.
+Identify which body parts, performers or mechanisms produce the actions. Check overlapping preparation, recovery, attention and access to cues. If allocation or access prevents a contribution, describe the conflict. Use RHY.9 to change the arrangement when a repair is requested.
 
-Distinguish rhythmic layers from the methods that make them possible. Keeping balance, maintaining contact, articulating a phrase and performing the larger figure can occur together through constituent and encompassing methods. They are not automatically four separate rhythm lines. Conversely, two instrument parts can be parallel rhythmic layers without either method being part of the other.
+A rhythmic layer is a course of events or movement with a role in the passage. A constituent method is part of how an encompassing action is performed. Keeping balance and contact can contribute to articulating a phrase and performing the larger figure at the same time. These contributions need not be separate rhythmic lines. Two instrument parts can also be parallel layers even when neither method is a constituent of the other.
 
-If an individual can recall the figure and produce its components but loses a needed coordination in combination, locate that joint demand before adding repetition. RHY.12 addresses the missing capability at the relevant level.
+If a performer can recall the figure and produce its parts but loses their intended relationship when combining them, locate the particular joint demand before prescribing more repetitions. Use RHY.12 when developing that capability is the task.
 
 #### RHY.11:4.4 - Establish the joint relation and restore complexity selectively
 
-Use a familiar feasible means to make the wanted relation perceptible and executable. Options include a demonstrated composite, an external reference, separately allocated parts, slower compatible performance, or a simplified articulation that preserves the essential cross-layer relation.
+For a new or difficult combination, use a feasible means of making its essential relation perceptible and achievable. A familiar demonstration of the combined phrase, an external reference, separately assigned parts, a compatible slower tempo or a simpler articulation can help. Check that the performer can use the means chosen and that it preserves the relation between parts.
 
-Try the parts together. Then restore the omitted contribution whose addition matters next. Keep the common landmarks and each part's own organization. If one part begins copying the other's accent or tempo, return to the specific relation that was lost rather than restart unrelated learning.
+When their joint execution still needs to be learned or tested, try the parts together. Restore an omitted contribution when the intended performance requires it and preserve the landmarks and grouping of each part. If one part begins to copy the other’s accents or tempo, identify the relation that was lost. An existing record of the combined passage may suffice for an assessment.
 
-Choose changes compatible with the actual technique. A slower tempo can alter balance, gesture, phrasing or control demands; success there supports only the corresponding conditions. Do not infer full-tempo capability from the diagram or slower construction.
+Choose changes compatible with the technique and the target passage. A slower tempo can change balance, gesture, phrasing or control. Limit any conclusion about performance to the conditions observed, and use evidence at full tempo for a claim about that tempo.
 
 ##### RHY.11:4.4.1 - Keep a common time while allowing different actions
 
-For a pulse with independently chosen accents, first distinguish the time being maintained from the movement used to maintain it. A regular pulse has recurring events at the required intervals. Its producing movement can accelerate, slow down, reverse and redistribute effort within each interval. A brush circle and a standing leg's pressure–release need not have constant instantaneous speed or force.
+When accents can be chosen independently of the pulse, distinguish the recurring events from the movement that produces them. Their intervals can remain regular while the movement speeds up, slows down, reverses or redistributes effort within an interval. The brush circle or standing leg’s pressure and release need not have constant instantaneous speed or force.
 
-**Give both actions one recoverable temporal relation.** Establish the beat, phrase or other reference that the passage uses, and locate the accent relative to it. Hear, speak, demonstrate or represent the combined result with its actual gaps. An accent halfway between beats must remain halfway between them; placing it on the next beat changes the result. When an external metronome supplies the pulse, the performer's accent cannot physically alter that pulse. When the performer also produces the supporting movement, the actions share bodily resources and can disturb each other. The external reference can expose that disturbance while the performer constructs the joint action.
+**Place both actions against the passage’s reference.** Identify the beat, phrase or other reference and locate the accent relative to it. Hear, speak, demonstrate or represent the combined result with its gaps. For an accent halfway between beats, moving it to the next beat changes the task. With a fixed external metronome, accent placement cannot change the metronome’s pulse. If the performer also produces the supporting movement, the actions can disturb each other through shared bodily resources. Comparing them with the external reference may reveal that disturbance.
 
-**Prepare the accent within the continuing action.** Choose a realization whose preparation and recovery fit between the required events. Keep the supporting movement going while the other contribution approaches its target. Start that approach early enough for the intended sound, contact or weight event to arrive at its chosen place. If the accent is late because its excursion takes too long, begin the preparation earlier or use a smaller feasible excursion while preserving the required articulation. Starting every preparation on a beat is unnecessary when the accent belongs elsewhere. A demonstrated combined phrase can make these overlapping preparations recoverable.
+**Prepare the accent while the support continues.** Choose a movement whose preparation and recovery fit between the required events. Begin early enough for the sound, contact or weight event to arrive at the chosen position. If a long excursion makes the accent late, earlier preparation or a shorter feasible excursion may preserve the required articulation. Preparation can begin between beats. A demonstration of the combined phrase can make the overlap easier to recover.
 
-**Allocate effort according to the two results.** Give the accent a controllable means of articulation: a local change of pressure, a stroke, a free-limb movement or a different already available technique. Avoid recruiting a whole supporting movement merely because it makes the accent easier. For example, a short stroke can articulate while the other hand completes its sweep; an unloaded toe contact can articulate while the standing leg continues its pressure–release. The actual technique must preserve balance, contact, sound and continuation. Compensating changes of effort may help preserve the pulse: useful coordination does not require every part of the body to remain physically unchanged.
+**Allocate effort for both results.** Articulate the accent with a controllable change of pressure, a stroke, a free-limb movement or another available technique. A short stroke with one hand can leave the other hand’s sweep intact. An unloaded toe contact can coexist with the standing leg’s pressure and release. Check that the technique preserves the required balance, contact, sound and continuation. Compensating changes of effort may help keep the pulse regular.
 
-**Correct the contribution that missed its target, using the intended relation.** Attend to the pulse before and after the accent as well as to the accent's place. If only the accent was late, change its preparation or articulation; do not make its accidental arrival the next starting point of the pulse. If the supporting cycle lengthened, restore that cycle against the selected reference and inspect the accent again. If both drifted together, their mutual agreement alone can hide loss of the musical reference. RHY.10 supplies a permitted phase or tempo correction when the whole reference actually needs to change. During a dense passage, act through the familiar coordinated movement and assess a short trace afterwards instead of trying to issue a separate conscious command for every muscle.
+**Use the intended relation to locate the correction.** Check the pulse before and after the accent as well as the accent’s position. If the accent alone arrives late, change its preparation or articulation while keeping the next pulse at its intended time. If the supporting cycle lengthens, restore it against the reference and examine the accent again. If both actions drift together, compare them with the intended musical reference. Their mutual agreement can hide the displacement. Use RHY.10 when the task calls for adjusting the shared phase or tempo. In a dense passage a performer can use a familiar coordinated movement and examine a short record afterwards.
 
-**Keep choices available within a feasible range.** Move the next accent to another required place while retaining the support. Later change the tempo or reference as the passage requires, and relocate the accents accordingly. This retains the useful timing connection while reducing interference between the actions. A technique that works only at one habitual phase needs further development if the intended use demands other phases. If an accent requires the same support, space or recovery time needed by the next pulse, change its means or the performing arrangement. Removing a required accent or moving it to an easier beat does not satisfy that version of the task.
+**Develop the range of choices the passage needs.** For variable placement, move the next accent while retaining the support. If the intended tempo or reference changes, relocate the accents against it. A technique that works at one habitual phase may suffice for a fixed figure. For other phases, check whether the accent competes with the support, space or recovery time of the next pulse. If the demands conflict, a different realization or allocation may preserve both. If they are compatible and the performer needs to learn the other placements, practise those placements against the pulse. Keep any accent and placement the task requires.
 
-This is selective coupling in the practical sense: share the timing that the passage needs, while controlling preparation, articulation and correction so that one contribution does not impose its unwanted changes on the other. A performer may organize a familiar combined pattern as one action or use more separately controlled contributions; the description does not require one particular internal clock. RHY.12 develops the missing coordination through practice of this joint result.
+Both actions share the timing needed by the passage. Their preparation, articulation and correction can still be controlled so that an unintended change in one does not displace the other. A performer may organize a familiar combination as one movement or control its contributions more separately. The description leaves the internal timing mechanism open. Use RHY.12 if the joint coordination needs development.
 
-The same construction can be tried beyond a particular instrument when the receiving activity has a continuing temporal contribution, a separately variable articulation, means to realize both, and feedback that distinguishes their two errors. Singing a varied phrase over a beat gesture is one such use. A machine can realize comparable timing requirements through scheduling and suitable actuators, but its control implementation and qualification are engineering work. Matching the requirements supports reuse of this construction; it does not transfer an already acquired human skill.
+Consider this construction for another instrument or activity when it has a continuing temporal contribution, a separately variable articulation, means to produce both and feedback that distinguishes their errors. Singing a phrase against a beat gesture is one example. An engineered machine may meet similar timing requirements with its own controller and actuators. Reusing a construction requires compatible conditions. Transferring an acquired human skill or qualifying an engineered implementation needs evidence for that claim.
 
 #### RHY.11:4.5 - Keep the combination that serves the passage
 
-Judge the contributions together, their required relationship and the continuation. Where a combination fails, distinguish a wrong relationship, an incompatible allocation and an unavailable execution capability. They call for different repairs.
+Examine the parts together, their required relationship and the continuation. When the combination fails, distinguish evidence of a wrong relation, a conflicting allocation or a missing execution capability. If the evidence does not distinguish these explanations, state the limit. A repair depends on which problem is established.
 
-Retain a successful local combination, a proposal whose constraints are satisfied but execution remains to be tried, or the particular missing contribution. Separate practice remains useful input; it is not the joint result.
+Report what the evidence establishes about the combination. It may support observed joint execution, a proposal within the checked constraints, a specific conflict or a remaining uncertainty. Separate performances give evidence about the parts. To report what happened jointly, use evidence of the combined passage.
 
-Stop with the answer needed by the next performance or development choice. Reopen the affected cross-layer relation when a part, allocation, tempo, cue, grouping, performer or continuation changes; preserve sufficient unaffected work.
+Finish when the evidence answers the structural, performance or development question or establishes the limit on the answer. If a change in part, allocation, tempo, cue, grouping, performer or continuation affects the conclusion, reconsider that relation and retain the rest.
 
 ### RHY.11:5 - Archetypal Grounding
 
 #### RHY.11:5.1 - Two against three, then a resource conflict
 
-In a constructed six-unit cycle, part A has actions at 0 and 3; part B at 0, 2 and 4. The next cycle begins at 6.
+In a constructed six-unit cycle, part A has events at 0 and 3 and part B at 0, 2 and 4. The next cycle begins at 6.
 
 | Position | Required contribution |
 | --- | --- |
@@ -1934,11 +1934,11 @@ In a constructed six-unit cycle, part A has actions at 0 and 3; part B at 0, 2 a
 | 4 | B |
 | 6 | A and B together at the next cycle |
 
-A preserves two equal intervals of three units; B preserves three equal intervals of two. The joint sequence has successive gaps 2, 1, 1 and 2. Counting or displaying the six units makes their relationship inspectable without making A adopt B's grouping.
+A has two intervals of three units and B three intervals of two. The combined sequence has successive gaps of 2, 1, 1 and 2 units. Counting or displaying the six positions shows both the shared start and the alternating attacks while preserving their different groupings.
 
-Suppose one mechanism must realize all events and its supplied limit requires at least 1.5 units between successive actions. Even if coincident A/B events can be realized by one action, the one-unit gaps conflict with that limit. Both separate parts satisfy it; their single-mechanism combination does not.
+Suppose one mechanism must perform all events and requires at least 1.5 units between successive actions. Even allowing one action to serve coincident A and B events, the two one-unit gaps violate its limit. Each part alone allows at least two units, so both separate schedules fit.
 
-Allocating A and B to two suitable mechanisms removes this particular conflict: their own intervals remain three and two. The calculation returns a compatible allocation for a joint trial, not proof of a human's two-hand skill or a completed robot performance.
+Two suitable mechanisms, one per part, remove that recovery conflict. A still has intervals of three units and B intervals of two. The allocation fits this constraint and can be proposed for a joint trial. Actual robot performance or a human performer’s two-hand skill requires evidence of its own.
 
 #### RHY.11:5.2 - Phrase accents need not follow every beat gesture
 
@@ -1948,41 +1948,41 @@ The gestures mark 0, 1 and 2, with the cycle restarting at 3. Syllables occur at
 
 Suppose a learner already performs both contributions alone. In the first constructed joint attempt, they restart the phrase at every gesture and lose the three-syllable grouping. An aligned display shows the two phrase starts across one gesture cycle; a familiar demonstration preserves that relation. In a subsequent stipulated attempt, the learner keeps the three gesture beats, both phrase groups and the return at 3.
 
-Retain that supported combination for this rate. Its result is joint coordination with the given support. Removing the display, changing rate or performing a longer passage changes the later question; it is not covered by the stipulated attempt.
+The attempt supports joint coordination at this rate with the display and demonstration available. Retain that result for comparable use. A different tempo, unaided entry or a longer passage requires evidence under the corresponding conditions.
 
 #### RHY.11:5.3 - Keep a continuous course while an accent crosses it
 
 A constructed passage combines a familiar four-beat swell with an articulated accent at the third beat. The swell must continue rising until the fourth beat; the accent must not restart that course. The performer has the relevant safe instrumental technique.
 
-Suppose separate attempts preserve the swell and place the accent correctly. In the first combined attempt, the accent causes an audible restart. Reducing the accent's size within the already learned technique yields a second attempt in which the swell continues, the accent remains recognizable at the third beat, and the following release is retained.
+Suppose the separate attempts preserve the swell and place the accent as required. In the first combined attempt, the accent causes the swell to restart audibly. For the second attempt the performer reduces the accent’s size within the learned technique. The swell continues, the accent remains recognizable at the third beat and the following release is retained.
 
-Keep the second combination locally. Coincidence of attack marks would not distinguish the two results: the continuous course is the deciding relation. RHY.3 supplies a new carrier/articulation construction if no available means retains it.
+The second combination meets the requirements in this passage. Both attempts can share the same attack positions while differing in the continuous swell. Use RHY.3 to find a different way to articulate the accent while preserving the required carrier when the present means cannot do both.
 
 #### RHY.11:5.4 - Move an accent without moving the pulse
 
-Consider a constructed four-beat passage. The supporting events belong at beat positions 0, 1, 2 and 3; the next phrase begins at 4. A second contribution must articulate at 1.75. The performer has a manageable sustaining movement and a short articulation, but their combination is unsettled.
+Consider four supporting events at beat positions 0, 1, 2 and 3, followed by the next phrase at 4. A second contribution must articulate at 1.75. The performer has a manageable sustaining movement and a short articulation. The question concerns their combination.
 
-The performer first hears or demonstrates the joint result: the accent falls three quarters of the way from beat 1 to beat 2, and the next supporting event still arrives at 2. Preparation begins before 1.75. In a stipulated first attempt, the accent arrives at 1.75 but its large preparatory movement delays the next supporting event to 2.15. In a second attempt, support stays at 2 but the accent waits for that familiar movement phase and also lands at 2. These are different failures.
+A demonstration or audible example gives the joint target. The accent comes three quarters of the way from beat 1 to beat 2. The next supporting event remains at 2, and preparation for the accent begins before 1.75. In the first stipulated attempt the accent lands at 1.75, but its large preparation delays the support to 2.15. In the second, the support arrives at 2, and the accent follows its familiar movement phase and also lands at 2. The two attempts miss different targets.
 
-For the next candidate, the performer uses a smaller already learned articulation, begins its preparation early enough to reach 1.75, and continues the supporting movement through both preparation and release. In the stipulated trial, the accent arrives at 1.75 and the next supporting events remain at 2 and 3. The change preserved both targets; merely reducing the accent until it vanished would not have done so. The numbers make the intended relation inspectable and are not universal timing tolerances.
+For the next candidate the performer uses a smaller learned articulation, starts preparing early enough for 1.75 and continues the support through preparation and release. In the stipulated trial the recognizable accent arrives at 1.75 and the next supporting events occur at 2 and 3. Both targets are met. Disappearance of the accent would leave one target unmet. These times specify this passage.
 
-Now request accents at 0.5 and 2.75 in the following phrase. The performer must prepare those events within the same continuing pulse rather than replay the first combined figure. If the pulse stays regular but an accent slips to a beat, the new choice remains unavailable. If the intended tempo then changes, both supporting intervals and accent locations must change together. Keeping the old absolute accent times would preserve isolation at the expense of synchronization.
+Suppose the following phrase requires accents at 0.5 and 2.75. Prepare those accents at their new positions within the continuing pulse. The first combined figure leaves those placements untested. If the pulse stays regular and an accent slips to a beat, the corresponding attempt misses the requested placement. When the tempo changes, locate both the supporting events and the accents against the new reference. Keeping the old absolute accent times may lose their required relationship.
 
-This worked construction distinguishes a successful local coordination from an acquired range of choices. The concrete brush and partnered-movement realizations are developed in [MDPE.11:4.5](https://github.com/ailev/FPF/blob/main/DPFs/MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#mdpe1145---balboa-brushes-and-event-timing); their related practice is in MDPE.10:4.6. The particular means, partner response and available recovery decide whether the construction fits each use.
+The first successful figure establishes local coordination. A claim about a range of choices requires evidence from other required positions. For concrete brush and partnered-movement realizations, see [MDPE.11:4.5](https://github.com/ailev/FPF/blob/main/DPFs/MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#mdpe1145---balboa-brushes-and-event-timing) and the related practice in MDPE.10:4.6. The available means, partner response and recovery time affect whether the construction fits each use.
 
 ### RHY.11:6 - Bias-Annotation
 
-A common grid is especially convenient for simple ratios and can bias analysis towards discrete commensurate parts. Continuous courses and flexible phrasing need their own retained relations. The worked attempts are constructed demonstrations.
+A common grid works particularly well for simple ratios and can draw attention away from the shape of a movement between landmarks. Continuous movement and flexible phrasing require the relations that matter between landmarks or across an unfixed span. The worked attempts are constructed demonstrations. Claims about learning speed or how well a cue works across learners need observations of those outcomes.
 
 ### RHY.11:7 - Conformance Checklist
 
 - Each contribution and its essential differences are recoverable.
-- Shared landmarks or flexible relations are sufficient for the intended coordination.
+- Identify the shared landmarks or flexible relation the coordination requires and assess whether the available arrangement supplies them.
 - Simultaneous demands and continuation are considered under the actual allocation.
-- The combined result is distinguished from separate success or a compatible diagram.
+- Distinguish evidence about the combined passage from separate performances and calculated compatibility.
 - A pulse-and-accent use checks pulse regularity and requested accent placement separately, including continuation.
-- Claimed freedom of accent choice includes a changed choice; a change of reference retains the required synchronization.
-- A failure returns to its relationship, allocation or capability question.
+- For a claim about a range of accent choices, use evidence covering the required placements or supporting the range claimed. For a changed reference, establish whether the required synchronization is retained.
+- Give the supported explanation for a failure or identify which relation, allocation or capability remains uncertain.
 - Support and changed conditions qualify the retained result.
 
 ### RHY.11:8 - Common Anti-Patterns and How to Avoid Them
@@ -1990,40 +1990,40 @@ A common grid is especially convenient for simple ratios and can bias analysis t
 | Failure | Repair |
 | --- | --- |
 | Make every part adopt the reference's accents | Preserve each part's grouping while showing their common landmarks. |
-| Treat a combined time line as a performable combination | Inspect joint resource demands and try the relevant passage. |
+| Treat a combined time line as proof of joint execution | Examine the simultaneous demands and constraints. Use evidence from the combined passage, or try it when needed, to establish how performers actually execute it. |
 | Repeat a whole figure when one middle coordination is missing | Locate the constituent or joint capability that the figure depends on. |
 | Add complexity until the continuing contribution disappears | Restore one consequential contribution while retaining the joint relation. |
-| Call the order of exercises the vertical structure of the methods | Identify which constituent methods operate while the encompassing method is performed. |
+| Infer the constituent methods of a performance from the order of exercises | Identify the methods performed as part of the encompassing work while it is under way. |
 
 ### RHY.11:9 - Consequences
 
-A performer can preserve contrasting parts rather than simplify the rhythm into uniformity. Failure becomes a more specific choice among explanation, reallocation, a different realization and capability development. A successful construction remains tied to its tempo, support and performing conditions.
+A performer can preserve different accents, groupings and continuous courses in one passage. A failure can indicate a need for explanation, reallocation, a different realization or capability development. Keep a successful combination with its tempo, support and performing conditions.
 
 ### RHY.11:10 - Architectural Rationale
 
-The whole imposes relations that do not appear in either part alone. Common landmarks make those relations recoverable, while allocation determines whether the same resources can support the required actions together. Neither substitutes for learned execution.
+The whole can require a relation that neither part specifies alone. Its design can show the required relation; evidence of joint execution shows what the performers realized. Common landmarks make it easier to identify, and allocation determines which actions can use the same resources at the required time. Learned joint execution needs suitable evidence of performance.
 
-Simultaneous layers and the constituent/encompassing method vertical cross-cut each other. The same balance method can support several layers; one layer can require several constituent methods. Keeping those relations explicit helps distribute work between people and equipped agents and helps locate a missing capability without forcing one tree onto every description.
+A passage can have several rhythmic layers, and the methods that realize them can cut across those layers. Balance control may support several layers, and one layer may depend on several constituent methods. Use those relations to explain an existing allocation, assign work when needed or locate a coordination the performer still needs to learn.
 
 ### RHY.11:11 - SoTA-Echoing
 
-Nelson's *Solkattu Manual* (2008), printed pp. 15–17, supplies the explicit contrast between gesture cycle and phrase at several rates. It provides a concrete practice construction. The completed attempt above is constructed to demonstrate the resulting method.
+Nelson’s *Solkattu Manual* (2008), printed pp. 15–17, gives a concrete construction for performing a phrase against a gesture cycle at several rates. The worked attempt in §5.2 stipulates the learner’s performance to illustrate that construction. A learning schedule for another performer depends on their task and practice conditions.
 
-Toussaint's *The Geometry of Musical Rhythm*, second edition (2020), supplies useful discrete rhythmic constructions and action-allocation comparisons. A grid makes such relations calculable; continuous courses and actual joint capability require additional content.
+Toussaint’s *The Geometry of Musical Rhythm*, second edition (2020), gives discrete rhythmic constructions and compares the allocation of actions. A grid makes their relations calculable. A continuous course needs information between landmarks, and a claim of joint capability requires appropriate performance evidence.
 
-Cha's [Takadimi reconsideration](https://doi.org/10.1177/0305735614528063) proposes added syllabic information. Birch and Walsh's [conducting response](https://www.music.org/images/conf/reg/ne/2022_NE_Schedule_20220214.pdf#page=18) instead proposes a maintained gestural reference. That reference does not itself distinguish sustained sound from silence. Their comparison supports using complementary layers while retaining what each supplies. General joint coordination here is a conceptual synthesis.
+Cha’s [Takadimi reconsideration](https://doi.org/10.1177/0305735614528063) proposes adding syllabic information. Birch and Walsh’s [conducting response](https://www.music.org/images/conf/reg/ne/2022_NE_Schedule_20220214.pdf#page=18) proposes maintaining a gestural reference. The gesture can locate a beat while duration information distinguishes a sustained sound from silence. These proposals help explain how different contributions can work together. The general account of joint coordination is a synthesis. Its effectiveness in a particular movement or equipped performance requires evidence from that use.
 
-For the specific question of pulse and freely placed accents, the useful line is a shared temporal relation with task-dependent realization and correction. Historical laboratory anchors expose why simple addition is insufficient: [de Rugy and Sternad (2003)](https://doi.org/10.1016/j.brainres.2003.09.031) report phase-dependent interaction in combined discrete and rhythmic elbow movements; [Calvin, Huys and Jirsa (2010)](https://doi.org/10.1037/a0020403) report that a discrete wrist movement can accelerate or decelerate the other wrist's rhythmic movement. These bounded findings motivate examining both directions of interference; neither supplies a brush or Balboa teaching technique.
+Earlier movement experiments illustrate interference between discrete and rhythmic actions. [de Rugy and Sternad (2003)](https://doi.org/10.1016/j.brainres.2003.09.031) reported phase-dependent interaction between discrete and rhythmic elbow movements. [Calvin, Huys and Jirsa (2010)](https://doi.org/10.1037/a0020403) found that a discrete wrist movement could speed or slow the rhythmic movement of the other wrist. These findings give a reason to examine interference in both directions. Brush playing and Balboa require their own realizations and teaching techniques.
 
-[Krampe et al. (2000)](https://doi.org/10.1037/0096-1523.26.1.206) found different timing organizations across tempi in professional pianists' two bimanual tasks. Use this as a reason to retain several ways of organizing performance and to recheck changed tempo. A common temporal target does not establish a single biological timing mechanism.
+[Krampe et al. (2000)](https://doi.org/10.1037/0096-1523.26.1.206) found different timing organizations across tempi in two bimanual tasks performed by professional pianists. Consider more than one possible organization and examine what a change of tempo requires. Identical temporal targets leave the biological mechanism open.
 
-[Mårup, Møller and Vuust (2022)](https://doi.org/10.1038/s41598-022-11783-8) compared rhythm/beat role assignments across voice, hands and feet in right-handed participants; assignment affected joint performance even though the parts could be performed separately. [Mårup et al. (2024)](https://doi.org/10.1016/j.cortex.2023.11.019) found related performance differences in professional musicians under the studied assignments. Consider allocation as one changeable condition. These experiments do not establish a universal ranking for other bodies, continuous brush motions or partnered weight transfer.
+[Mårup, Møller and Vuust (2022)](https://doi.org/10.1038/s41598-022-11783-8) compared rhythm and beat assignments to voice, hands and feet in right-handed participants. Joint performance varied with assignment even when the separate parts were playable. [Mårup et al. (2024)](https://doi.org/10.1016/j.cortex.2023.11.019) found related differences in professional musicians under the assignments studied. Allocation is therefore a condition worth examining. Ranking assignments for other bodies, continuous brush movements or partnered weight transfer requires evidence for those uses.
 
 Use an adequate learned combined pattern directly when the passage is fixed. Develop the additional range of accent choices when the receiving performance needs it. Reconsider the chosen realization when a changed phase, tempo, support or allocation exposes interference that the current means cannot resolve.
 
 ### RHY.11:12 - Relations
 
-RHY.2 and RHY.5 describe and represent the relevant layers; RHY.3 constructs carrier and articulation together. RHY.9 resolves allocation and cue access, and RHY.10 establishes reference and adjustment. C.32.MWA distinguishes the several structures that one performance can instantiate. RHY.12 supplies practice for a human performer's missing rhythmic capability; RHY.13 tests its transfer or support dependence, and RHY.14 evaluates the result relevant to the receiving task.
+Use RHY.2 and RHY.5 for description and representation of the layers, and RHY.3 for carrying an articulation within a continuing action. RHY.9 addresses allocation and cue access. RHY.10 addresses reference and adjustment. C.32.MWA distinguishes structures that one performance can instantiate. For human performers, use RHY.12 to develop a needed capability and RHY.13 to examine transfer or dependence on support. RHY.14 addresses observations of performance and response for the intended use.
 
 ### RHY.11:End
 
@@ -2036,17 +2036,17 @@ RHY.2 and RHY.5 describe and represent the relevant layers; RHY.3 constructs car
 
 ### RHY.12:1 - Problem frame
 
-**Use this when** a learner can count, describe or perform parts of a passage but loses a needed rhythmic relation when performing the passage: the beat changes with the phrase rate, a sustained contribution disappears under an accent, or a partner's cue is noticed only after the response should begin.
+**Use this when** a learner needs to develop a rhythmic relation for a passage. They may be able to count, describe or play the parts separately while the beat changes with the phrase rate, an accent interrupts a sustained action, or a partner’s cue is noticed too late to prepare a response. Use the same relation to assess what earlier practice established when that is the question.
 
-Choose a short part of the intended performance and practise the relation that currently fails. The first result is a usable exercise followed by a representative attempt, a bounded account of what changed, or an identified prerequisite that requires other instruction.
+Identify the part of the passage and the relation the learner needs. For a practice design, provide an exercise in which that relation can be attempted and checked. For actual teaching, use a representative attempt and report what it shows. An earlier attempt may already answer the question, and an unavailable prerequisite may limit what can be practised.
 
-This Method supplies rhythmic practice for human performers, including people working with instruments, partners or robots. HCD.6, HCD.9 and HCD.10 supply general task design, feedback and practice scheduling. The development of a robot's controller or learned policy requires its engineering or training Method. An already workable passage can be performed directly without turning it into an exercise.
+This method addresses practice by human performers, including people using instruments or working with partners or robots. HCD.6, HCD.9 and HCD.10 supply general methods of task design, feedback and scheduling. Use the relevant engineering or training method to develop a robot’s controller or learned policy. An adequate passage can be performed directly.
 
 ### RHY.12:2 - Problem
 
-Knowing the sequence does not ensure that a performer can maintain its reference, duration, articulation and relation to other actions at the same time. Repeating the whole passage may conceal the limiting contribution. Practising each part separately can conceal the difficulty of combining them.
+A learner may know the sequence and still lose a reference, duration or articulation while coordinating it with other actions. Repetition of the full passage can conceal the contribution that limits it. Separate practice can also leave their interaction untested.
 
-The next useful practice must therefore preserve the rhythmic relation being learned while making its limiting contribution available for correction. It must return that contribution to the passage in which it is needed.
+For practice of a joint relation, keep enough of the passage for the learner to attempt it. When one contribution limits the combination, make that action available for correction and rejoin it to the passage where it is needed.
 
 ### RHY.12:3 - Forces
 
@@ -2055,93 +2055,93 @@ The next useful practice must therefore preserve the rhythmic relation being lea
 | Isolation and coordination | A simpler exercise exposes one error but can remove the relation that makes the real passage difficult. |
 | Stable reference and variation | Changing tempo, phrase or grouping can develop a needed capability while also introducing a new physical demand. |
 | Assistance and later use | Counting, a score or a partner may supply a useful contribution; the intended performance may require keeping it or doing without it. |
-| Local progress and wider claims | A better next attempt justifies a next practice decision but does not establish retention or transfer. |
+| Local progress and wider claims | A better next attempt can guide practice. Retention over time and transfer to another use need evidence under the corresponding conditions. |
 
 ### RHY.12:4 - Solution
 
 #### RHY.12:4.1 - Choose the relation to develop in the intended passage
 
-Start with a recognizable attempt and the intended continuation. Select the relation that must become available: keeping a reference through silence, changing articulation without changing the underlying movement, coordinating a phrase with a different grouping, entering from a preparation cue, or correcting displacement while keeping the intended pace.
+Identify the target passage and what must continue after the action. Use an observed attempt where one exists to locate the relation to develop. It may be keeping a reference through silence, articulating an accent over a continuous movement, coordinating different groupings, entering from a preparation cue or correcting placement while maintaining pace.
 
-Use RHY.1 when several explanations of the difficulty remain plausible. Establish a demonstrable target, including a permissible variant when the practice allows one. A learner should be able to hear, see or otherwise recover what is to change. A numerical timing tolerance is useful only when the receiving task needs it.
+Use RHY.1 when several explanations remain plausible. Give the learner a target they can hear, see, feel or otherwise recover, including an acceptable variant when the practice allows one. Specify a numerical tolerance when the intended use requires it.
 
-Locate the limiting contribution within the performed whole. A turn may require balance throughout a rotation; musical articulation may require control of release while the hand continues moving. Strength, sequence memory and successful counting do not substitute for those contributions. Obtain missing bodily, instrumental or perceptual instruction from the relevant practitioner. Continue an encompassing activity only under conditions the performer can manage.
+Locate the contribution that limits the performance, when there is one. A rotation can depend on balance throughout the turn. Articulation may require a controlled release while the hand keeps moving. Sufficient strength, a successful count or a recalled sequence can coexist with a failure in that coordination. Use adequate bodily, instrumental or perceptual instruction when available, and seek a qualified contribution if a needed technique is missing. Continue the encompassing activity under conditions the performer can manage.
 
 #### RHY.12:4.2 - Construct an exercise that preserves that relation
 
-Keep enough of the passage to include preparation, the troublesome relation and its continuation. Make one useful change to expose or support the action, rather than assuming that making everything slower or easier preserves the task.
+In the exercise, preserve the preparation, target relation and following action that the learner needs. Change a condition when doing so helps reveal or support that relation. Slowing a passage or removing a contribution helps only if the resulting task still exercises what the learner needs.
 
 | Rhythmic difficulty | Practice construction | What must remain recoverable |
 | --- | --- | --- |
-| Phrase rate pulls the beat with it | Maintain a familiar gesture or other accessible reference while changing syllables or actions per beat; return to the original rate without restarting the reference. | Beat period, phrase grouping and the transition between rates. |
+| Phrase rate pulls the beat with it | Keep a familiar gesture or another accessible reference while changing syllables or actions per beat. Return to the original rate without restarting the reference. | Beat period, phrase grouping and the transition between rates. |
 | Silent positions or sustained sounds disappear from an onset string | Combine the onset representation with a duration-bearing score, timed demonstration or agreed continuation/rest convention. Perform the duration while the reference continues. | Attack, continuation, release and silence as different contributions. |
-| An accent stops a continuing movement or sound | Use a familiar small articulation with the continuing contribution, then enlarge or vary it only while both remain available. | The course of the continuing contribution, the articulation and the action after it. |
-| Separately fluent layers fail together | Join a short overlap containing their differing landmarks; demonstrate how one part continues through the other's boundary. | Each part's grouping and course, and the point at which they next coordinate. |
-| A partner's change is followed too late or causes repeated overcorrection | Use an agreed, manageable change and an available preparation cue; practise noticing it, responding and recovering at a known point. | Cue access, intended reference, permitted adjustment and recovery. |
+| An accent stops a continuing movement or sound | Try a familiar smaller articulation with the continuing contribution. Enlarge or vary it when needed while preserving both. | The continuing course, the accent and the action after it. |
+| Parts that are fluent separately fail together | Join a short overlap with the parts’ different landmarks. Show how one part continues through the other’s boundary. | Each part’s grouping and course, and the point at which they next coordinate. |
+| The response to a partner’s change is late or produces repeated overcorrection | Use a manageable agreed change and an accessible preparation cue. Practise recognizing the change, responding and recovering at a familiar point. | Cue access, intended reference, permitted adjustment and recovery. |
 
-RHY.3 and RHY.9–RHY.11 supply the underlying performance constructions. The exercise develops the learner's ability to carry out the selected construction. If a representation omits a needed duration or grouping, repair that input through RHY.5 or RHY.6; additional repetition cannot recover information that was never supplied.
+RHY.3 and RHY.9–RHY.11 describe ways to construct the performance. Design the exercise so the learner can practise the required construction. If the prompt leaves a needed duration or grouping unspecified, use RHY.5 or RHY.6 to repair it or supply suitable information from another source. Repeating the same incomplete prompt leaves that information missing.
 
-Choose assistance by its contribution. A beat gesture can keep a reference available while the learner articulates a phrase. It does not by itself say whether an unarticulated beat contains sustained sound or silence. A recording can supply timing but cannot respond like a live partner. Demonstrate the relation using the assistance that is actually available.
+Choose assistance for the contribution it supplies. A beat gesture can locate unarticulated beats while the learner speaks a phrase. A duration-bearing score or demonstration can specify sustain or rest. A fixed recording can provide timing. Practice that depends on a responsive partner requires a source capable of responding. Use assistance available for practice. Distinguish a temporary teaching aid from the help available in the intended performance.
 
 ##### RHY.12:4.2.1 - Derive practice from the pulse-and-accent construction
 
-RHY.11:4.4.1 defines the joint performance to acquire: keep the supporting time, place the selected accents relative to it, and continue. The two possible losses explain why the same practice construction can serve brush playing and partnered movement, although their movements and feedback differ.
+RHY.11:4.4.1 identifies the joint performance. The performer keeps the supporting time, places selected accents against it and continues. The support can lose its course or the accent can miss its place. An exercise that checks both losses can therefore serve brush playing and partnered movement. The bodily means and feedback differ between those uses.
 
-Begin with enough bodily or instrumental preparation to perform a manageable supporting action and an identifiable accent. Where either is unavailable alone, obtain that technique first. Then establish a short joint target containing preparation, one accent away from a convenient support landmark, and at least the following supporting event. A teacher can demonstrate the combined timing or let an external reference carry time while the learner places the accent. Bring the learner's own supporting action into that same relation; the external reference remains available to reveal whether it was perturbed.
+Use a manageable supporting action and an identifiable accent. If one cannot yet be produced separately, identify or develop the needed technique. If assessing a proposed exercise, report that prerequisite. For joint practice, include preparation, an accent away from a convenient support landmark and the following support event. A teacher can demonstrate the combined timing or use an external reference while the learner places the accent. When the performer must also produce the support, bring that action into the combined passage and check whether the accent disturbs it. An available external reference can help reveal that change.
 
-Use a short attempt and distinguish two questions: did support keep its intended period and course, and did the accent reach the selected place with the required character? A recording, visible movement and bodily feedback can reveal different parts of this answer. In partnered work, include the partner's usable continuation. A clear tap does not establish a clear weight event. When immediate commentary would disrupt the coordination, give the actionable correction after the phrase.
+Use a short attempt or an adequate observation of one to examine the course and period of the support and the placement and character of the accent. A recording, visible movement and feedback the performer feels can answer different parts of those questions. An observer may also use the performer’s report. For partnered work, include evidence of whether the partner could continue. An audible tap identifies a sound. A claim about weight transfer needs suitable evidence of that action. If commentary during the passage would disrupt coordination, give the correction afterwards.
 
-If the support changes at the accent, identify the additional movement or effort that pulled it away and try a smaller or differently allocated articulation that still meets the task. If support is steady but the accent waits for an easy phase, advance its preparation or change its path while retaining the chosen arrival. Demonstrate the revised overlap and retry it. Return briefly to a component only to recover the needed means, then rejoin both contributions. Repeating them separately cannot reveal whether their interference has changed.
+If the support changes at the accent, examine which movement or effort could have displaced it. Try a smaller or differently allocated articulation that still meets the target. If the support is steady but the accent waits for a familiar phase, start its preparation earlier or change its path while preserving the required arrival. Demonstrate the revised overlap or use a suitable example, then retry the combination. A component exercise can restore a missing means. Return to the combined passage to see whether interference changed.
 
-Once a manageable combination is available, change the required accent place and then its sequence of places while keeping the support. Include offbeat positions that the intended repertoire uses. Give an announced target enough lead time for its preparation; an unpredictable command arriving too late introduces a different reaction task. Add a change of intensity, limb role, tempo, phrase or partner only when that choice matters to the later performance. A repeated loss selects the affected relation for repair rather than a compulsory return to the first exercise.
+Once the combination is manageable and the intended use calls for different accent places, change the position and then the sequence while keeping the support. Include relevant offbeats. Allow enough warning to prepare the requested accent. A command that arrives too late introduces a reaction task. Vary intensity, limb role, tempo, phrase or partner when that change matters to later performance. After a repeated loss, return to the affected relation for correction.
 
-When later performance needs its own temporal reference, reduce the extra metronome or teacher count and check the spaces it no longer supplies. Keep the instrument, music, partner contact and other supports belonging to that performance. Test a new required accent sequence, a relevant change of reference and later retention when those claims matter. This distinguishes flexible synchronized articulation from a memorized combined pattern or an exercise sustained by coaching. The shared difficulty derives the exercise family; it does not prescribe identical physical cues, practice duration or progression speed for every learner.
+If the intended performance requires the learner to provide a reference, reduce the extra metronome or teacher count and check the intervals it used to mark. Keep the instrument, music, partner contact and other support that belongs in the target performance. For claims about a new accent sequence, another reference or later retention, use evidence under those conditions. A memorized figure and a flexible choice can look alike in one coached performance. Choose physical cues, practice time and progression for the actual learner.
 
 #### RHY.12:4.3 - Perform, locate one changeable action, and retry
 
-Use the HCD.9 feedback-and-retry method on the selected rhythmic action. Listen or watch for the relation itself: whether the reference continues through the phrase boundary, the release occurs before the silence, the accent preserves the continuous motion, or the response corrects the intended displacement.
+Use HCD.9 with the selected rhythmic action. Observe whether the reference continues through the phrase boundary, release occurs before silence, the accent preserves the movement or the response corrects the intended displacement. Retain a sound first attempt. For a missed relation, identify feedback that could help on the next attempt.
 
-Give feedback the learner can act on in the next attempt. For example, demonstrate the continuing gesture during the phrase restart instead of saying only “keep the rhythm.” If correction during performance would interrupt the target coordination, use a short attempt, feedback and another attempt.
+When correction is warranted, give one the learner can use. For example, demonstrate the gesture that continues while the phrase restarts. If feedback during performance would interrupt the target coordination, let the short attempt finish, give the feedback and invite another attempt.
 
-Separate a problem in interpreting the target from a problem in performing it. The learner may reconstruct the phrase correctly yet lose it when moving, or move fluently to a different reference. Change the demonstration or action practice accordingly.
+Distinguish interpreting the target from performing it. The learner may recover a phrase correctly and lose it when moving, or move fluently against a different reference. Improve the explanation or practise the particular action according to the evidence.
 
 Stop or reduce the attempt when continuing would defeat the available technique, support or agreed operating limits. Fatigue, a lost sightline or unsuitable equipment may call for a changed condition rather than more repetitions.
 
 #### RHY.12:4.4 - Rejoin the contribution and vary what later use requires
 
-Return the developed contribution to the passage. Observe it while the encompassing action and other constituent actions occur together. A successful isolated accent, count or turn remains an intermediate result until the needed combination is performed.
+For a claim about the whole passage, use adequate evidence of the practised contribution together with the other required actions. If that coordination still needs to be learned, rejoin the actions in the passage. A new joint attempt can supply an observation of present performance. For a past attempt, report what the available evidence establishes. An isolated accent, count or turn can establish its own result while the combination remains unexamined.
 
-Choose variation from the intended use. A passage used at several tempos needs practice across the relevant physical demands; a partner-dependent passage needs responsive interaction; entry at different cycle positions requires recovering the reference from those entries. Hold other consequential conditions stable when doing so helps identify what is failing.
+Choose variation for the intended use. If capability across several tempos has yet to be developed, include the relevant physical demands. For a responsive partner task, include interaction. For entry at different cycle positions, practise recovering the reference from those entries. Keep other relevant conditions stable when doing so helps locate a difficulty.
 
-Use HCD.10 to choose repetition, variation, spacing or interleaving. The amount and order of variation depend on the learner and the target contribution. When a change destroys an action still being acquired, a stable version can be the useful next practice. When a fluent familiar version conceals a needed choice or adaptation, introduce that change.
+Use HCD.10 to choose repetition, variation, spacing or interleaving for this learner and contribution. A stable version can help when a change removes the action being acquired. If a fluent familiar version conceals a needed choice or adaptation, introduce the variation that exposes it.
 
-Changing tempo changes the time available for movement, preparation and recovery. Check that the altered passage still exercises the intended relation. A slowed turn may call for different balance control; a faster stroke may exceed the available recovery time. Return such a new prerequisite to its supplying technique rather than calling it merely another count.
+A change of tempo changes the time for preparation, movement and recovery. Check whether the altered passage still exercises the intended relation. A slower turn can require different balance control, and a faster stroke can leave too little recovery time. Identify the particular technique or change of arrangement needed.
 
-Retain assistance that belongs in the intended performing arrangement. If later use requires performance without it, reduce its contribution deliberately and test that use through RHY.13. Removing a needed accessibility aid or the instrument itself changes the task and may change the performing whole.
+Keep assistance that belongs in the intended performance. If a claim concerns performance without a particular support, use suitable evidence from those conditions, or withdraw it for an appropriate test under RHY.13. Removing a necessary accessibility aid or the instrument changes the task and may change who or what performs it.
 
 #### RHY.12:4.5 - Keep the result at the scope obtained
 
-Retain the useful exercise, correction and conditions in a form sufficient for the next practice. An agreed demonstration may suffice. Name what the learner now performs and which reference, cue, partner or tool still contributes to it.
+Describe the exercise, any correction and the conditions relevant to the requested use. A demonstration may suffice for the next practice. For a performed attempt, state what the learner did and what reference, cue, partner or tool contributed. For a proposed exercise, state what it will let the learner attempt.
 
-A local improved attempt supports a local continuation. Use RHY.13 when the next decision requires an unfamiliar condition, later retention or performance without a selected support. Use RHY.14 when the unresolved question concerns how to observe performance or distinguish it from a partner's or listener's response.
+An improved attempt can support a finding or next step under its observed conditions. Use RHY.13 for a question about unfamiliar conditions, delayed retention or performance without a selected support. Use RHY.14 when the issue is how to observe the performance or distinguish it from a partner’s or listener’s response.
 
-Stop when the next practice or performance move is clear. Reopen the affected exercise when the passage, learner, support or physical demand changes; retain exercises and results whose conditions still fit.
+Finish with the requested exercise design, supported account of an attempt, next practice step or a prerequisite that prevents it. Revisit an exercise if a change of passage, learner, support or physical demand affects its suitability. Retain prior results within their conditions.
 
-**Local mantra:** choose the failing relation; make it practicable; correct an observable action; rejoin the passage; vary for the intended use.
+**In practice.** Identify the target relation, make it practicable, correct a missed action, return it to the passage and vary it to meet the intended use.
 
 ### RHY.12:5 - Archetypal Grounding
 
-The following are constructed teaching cases. Their stipulated observations illustrate decisions.
+The following teaching cases stipulate observations to illustrate practice choices. Claims about the effects of training or the schedule a learner needs require evidence about that use.
 
 #### RHY.12:5.1 - Phrase and gesture keep different groupings
 
 A learner maintains a three-beat gesture cycle and can speak “ta-ki-ta” evenly. At two syllables per beat, however, the learner restarts the phrase at each gesture and loses the three-syllable grouping.
 
-The teacher holds the gesture beats at positions 0, 1 and 2, returning at 3. The six syllables occur at 0, 0.5, 1, 1.5, 2 and 2.5. Phrase beginnings are at 0 and 1.5. The spoken sequence is ta–ki–ta, ta–ki–ta: the gesture at 1 meets the first phrase's final syllable, and the second phrase begins between gestures. The recurring syllable “ta” alone does not identify a phrase beginning.
+The teacher marks beats at 0, 1 and 2 and returns to the beginning at 3. The six syllables occur at 0, 0.5, 1, 1.5, 2 and 2.5. In ta–ki–ta, ta–ki–ta the phrases begin at 0 and 1.5. The gesture at 1 coincides with the last syllable of the first phrase. The next phrase starts between gestures. The syllable “ta” occurs at more than one place within a phrase.
 
-The teacher demonstrates that overlap, then the learner combines the familiar gesture cycle with the spoken sequence. In the stipulated corrected attempt, the gesture period remains fixed and the phrase restarts at 1.5; both return to their beginning at 3. The teacher next asks for the same relation through the next cycle rather than restarting after one success.
+The teacher demonstrates the overlap and the learner combines the gesture cycle with the spoken sequence. In the stipulated corrected attempt the gesture period stays fixed and the phrase restarts at 1.5. Both cycles return to their beginning at 3. The teacher then asks the learner to carry this relation through the next cycle.
 
-The result is local phrase/reference coordination with the demonstration and gesture available. Another tempo or an unaided entry remains a separate use. Nelson's solkattu exercise supplies this kind of phrase/gesture construction; the fixed positions make its grouping relation inspectable.
+This attempt establishes phrase and reference coordination with the demonstration and gesture available at this rate. Another tempo or unaided entry requires evidence for that use. Nelson’s solkattu exercise supplies the construction, and the stated positions show where the two groupings meet.
 
 #### RHY.12:5.2 - The missing information was duration
 
@@ -2149,67 +2149,67 @@ A four-beat phrase at half-second beat intervals requires sound from 0 to 1 seco
 
 The teacher supplies the sustained sound and release in a timed demonstration and a duration-bearing representation. The learner performs the held sound to the release while a familiar gesture keeps the four-beat cycle. In the stipulated next attempt, the sound continues to 1, the following interval is silent, and the attack at 2 returns with the cycle.
 
-The immediate failure is repaired without inferring a general timing deficit. The result still depends on the supplied duration information. Cha's Takadimi criticism makes that omission visible; a continuation/rest convention is another available construction when its use has been taught. The beat gesture alone would not have resolved the missing duration.
+The attempt meets the duration requirement with the demonstrated and represented duration available. The earlier loss does not establish a general timing deficit. Cha’s critique of Takadimi helps identify the missing duration in this onset-only prompt. A previously taught continuation/rest convention could supply it, while the beat gesture locates reference positions.
 
 #### RHY.12:5.3 - A constituent works only with assistance
 
 A dancer remembers a figure and has sufficient strength for its movements, but loses balance during its rotation and misses the following weight transfer. More counting does not address the observed loss during the turn.
 
-A qualified dance teacher chooses a familiar, supported rotational exercise that preserves the relevant preparation and continuing transfer, and gives technique-specific feedback. In the stipulated attempt the dancer completes the smaller rotation and continuation; the original unsupported turn still fails. The next programme step therefore remains development of that coordination, followed by rejoining the original figure. It is not another memory drill, nor a claim that the whole figure is now available.
+A qualified dance teacher selects a familiar supported rotation with the relevant preparation and continuing transfer, and gives technique-specific feedback. In the stipulated attempt the dancer completes the smaller rotation and continuation. The original unsupported turn still fails. To develop that performance, work on the affected coordination and then return it to the figure. The smaller attempt provides evidence at its own level of support.
 
-The rhythmic Method identifies the needed contribution and preserves its place in the figure. The teacher supplies the bodily technique. Balance control and the required rhythmic weight transfer must occur together in the figure, although their practice activities can occur in succession.
+Use the rhythmic method to identify the contribution and its place in the figure, and the teacher’s professional technique for the movement itself. In the figure, balance control and rhythmic weight transfer must occur together. Their practice can occur at different times.
 
 ### RHY.12:6 - Bias-Annotation
 
-Counting fluency can hide missing control of duration or movement. A familiar teaching convention can also make a teacher underestimate what it supplies to the learner. Inspect the contribution that succeeds and the one that still fails, including joint performance. Keep a learner's current limitation separate from a fixed trait or a general judgment about musicality.
+Fluent counting can coexist with difficulty controlling duration or movement. A teaching convention can supply a reference the learner would otherwise have to maintain. Identify which contribution the learner performed, the conditions that supported it and what remains open about the joint passage. A local limitation describes performance under those conditions.
 
 ### RHY.12:7 - Conformance Checklist
 
-- The exercise develops a named rhythmic relation in a recognizable passage.
-- For variable accents over a pulse, it exposes errors in both contributions and restores their joint performance after a local correction.
-- Target information, assistance and required bodily or instrumental technique are available.
-- Feedback changes an action the learner can attempt.
-- The developed contribution returns to its simultaneous use in the passage.
-- Variation is chosen for a later use and preserves or explicitly changes the relevant physical demands.
-- The result states the support and conditions under which it was obtained; changed conditions reopen only the affected claim.
+- Identify the rhythmic relation the exercise targets in a recognizable passage.
+- For variable accents over a pulse, make the placement and the continuing support separately observable. After a correction, check their joint use when that is the target.
+- Identify the available target information, assistance and bodily or instrumental technique, and any missing prerequisite that limits the exercise.
+- When feedback is needed, give the learner a change they can attempt. Use their performance to establish what changed.
+- For a claim about joint performance, establish whether the learner used the contribution with the other required actions in the passage.
+- When the intended use requires variation, choose it for that use and identify which physical demands it retains or changes.
+- State the support and conditions for the result. Revisit a conclusion when a change affects its grounds.
 
 ### RHY.12:8 - Common Anti-Patterns and How to Avoid Them
 
 | Failure | Useful correction |
 | --- | --- |
 | Repeating syllables while the required duration is absent from the prompt | Supply the missing duration before prescribing further practice. |
-| Counting more loudly when balance during rotation fails | Obtain the relevant movement instruction and return the result to the rhythmic figure. |
-| Joining fluent parts and assuming the combination is learned | Practise their actual overlap and continuation. |
+| Add more counting when balance is lost during rotation | Identify the balance contribution and use appropriate movement instruction when needed. Check its use in the rhythmic figure. |
+| Infer that fluent separate parts can be performed together | Use evidence of their overlap and continuation. When joint performance needs development, practise that relation. |
 | Increasing variation after every success | Choose the next change from the intended use and current limiting contribution. |
-| Withdrawing every tool as proof of mastery | Keep supports belonging to the target arrangement; test only the independence actually required. |
+| Withdraw every tool to demonstrate mastery | Retain the supports that belong in the intended arrangement. Establish whether the performer can carry out the specified action without the particular assistance at issue. |
 
 ### RHY.12:9 - Consequences
 
-Practice addresses an observable rhythmic contribution and produces a useful next attempt or a localized prerequisite. It can reveal that the needed change belongs in the prompt, performing arrangement or bodily technique. One local improvement does not establish durable capability.
+An exercise can expose a rhythmic contribution for practice, give the learner another attempt and identify a missing prerequisite. It may also show that the prompt, performing arrangement or bodily technique needs attention. Practice time depends on the task and the learner. A claim about durable capability needs evidence from the relevant later conditions.
 
 ### RHY.12:10 - Architectural Rationale
 
-Rhythmic performance combines relations that are distinguishable in a description but may have to be carried out together. The phrase boundary, gesture cycle, sound duration and movement continuation therefore belong inside the practice construction, rather than appearing only in the final test.
+A description can distinguish a phrase boundary, a gesture cycle, sound duration and movement continuation even when a performer must enact several together. Include the relations that matter to the target in practice so the learner can work on their coordination before any final test.
 
-A constituent/encompassing Method relation differs from the relation between simultaneous rhythmic layers. Balance control can support several layers; producing one layer can require several constituent Methods. Practising an isolated contribution is useful when it helps restore that simultaneous performance.
+The relation of constituent methods to the encompassing performance differs from the relation between simultaneous rhythmic layers. Balance control can support several layers, and one layer can require several constituent actions. Practise an isolated contribution when it helps restore the joint result.
 
-General development design, feedback and scheduling remain in HCD. The domain contribution here is the construction of rhythmic exercises, their interpretation and return to the passage.
+HCD supplies methods for practice design, feedback and scheduling. Here the practitioner constructs and interprets a rhythmic exercise and connects its result to the passage.
 
 ### RHY.12:11 - SoTA-Echoing
 
 | Source contribution | Adopted use | Limit and alternative |
 | --- | --- | --- |
-| Nelson, *Solkattu Manual* (2008), phrase against gesture and rate changes | Practise a stable reference together with a phrase whose grouping differs from it. | A specific teaching tradition supplies these constructions. |
-| Cha, “The Takadimi system reconsidered” (2015), compared with Hoffman–Pelto–White and beat-gesture teaching | Recover implicit beats and duration information before interpreting a failed performance. | Explicit continuation/rest syllables and an accessible duration-bearing demonstration are alternatives; comparative teaching superiority is not established. |
-| [Chiou and Chang (2016)](https://doi.org/10.1371/journal.pone.0149221) | In a trained 90-degree bimanual task, performance after feedback withdrawal differed with the information supplied during practice. Check what a display or cue contributes before claiming later independence. | The small study excluded learners who did not reach its practice criterion. Its fixed phase task supplies neither a universal feedback regime nor evidence for free accent choice or partnered movement. |
-| [Caramiaux et al. (2018)](https://doi.org/10.1371/journal.pone.0193580) | The study measured timing and movement separately in immediate post-practice transfer tests. It did not test delayed retention. Use the demanded contribution to choose practice variation. | Different measures responded differently; greater tempo variation was not uniformly beneficial. This bounded result supplies no general schedule. |
-| [Plitchenko, Bégel and Palmer (2024)](https://doi.org/10.3389/fnhum.2024.1381232) | Their solo/joint musical task makes the return from individual practice to actual interaction a distinct question. | The solo-feedback manipulation did not directly change the immediately following joint asynchrony measure; fitted coupling differences are a different result. Do not prescribe one feedback regime from the model alone. |
+| Nelson, *Solkattu Manual* (2008), phrase against gesture and rate changes | Practise a stable reference together with a phrase whose grouping differs. | These constructions come from a particular teaching tradition. Choose a sequence for the performer, passage and intended use. |
+| Cha, “The Takadimi system reconsidered” (2015), compared with Hoffman–Pelto–White and beat-gesture teaching | Establish which beat positions the available reference locates and what information the performer received about sustain and silence before interpreting a failure. | Continuation/rest syllables and an accessible duration-bearing demonstration are possible resources. Comparative teaching effectiveness needs evidence from the relevant learners and task. |
+| [Chiou and Chang (2016)](https://doi.org/10.1371/journal.pone.0149221) | In a trained 90-degree bimanual task, performance after feedback withdrawal varied with the information supplied during practice. Identify what a display or cue contributed before judging later independence. | The small study excluded learners who did not reach the practice criterion. Selecting a feedback regime for another learner, for free accent choice or for partnered movement requires evidence for that use. |
+| [Caramiaux et al. (2018)](https://doi.org/10.1371/journal.pone.0193580) | The researchers measured timing and movement separately in immediate post-practice transfer tests. Use the target contribution when choosing practice variation. | Timing and movement responded differently. Greater variation of tempo did not help uniformly, and delayed retention was not tested. |
+| [Plitchenko, Bégel and Palmer (2024)](https://doi.org/10.3389/fnhum.2024.1381232) | The solo and joint tasks distinguish how an individual practises from how the partners perform together. | The solo-feedback manipulation showed no direct change in the immediately following joint asynchrony measure. The fitted coupling differences concern the model. A feedback recommendation for another use needs grounds for that use. |
 
-These sources support different operations and qualifications. Use direct tradition-specific instruction for a technique that the learner lacks. Reconsider a practice choice when a changed task, learner population or relevant comparative result changes its expected contribution.
+These sources support different aspects of practice. Use adequate tradition-specific instruction for a technique the learner needs. Reconsider a practice choice if a change in task, learner population or comparative evidence affects its expected contribution.
 
 ### RHY.12:12 - Relations
 
-HCD.6 designs the representative human practice task; HCD.9 supplies feedback and retry; HCD.10 supplies the choice among practice arrangements. E.23.CDI keeps the capability holder, development and later use distinct. RHY.3 and RHY.9–RHY.11 supply the performance constructions being learned; RHY.5–RHY.6 supply needed representations. RHY.13 tests transfer, retention or support dependence when required. RHY.14 addresses observation and response. MDPE.8 places the rhythmic development in the wider music-or-dance practice.
+Use HCD.6 for a representative human practice task, HCD.9 for feedback and retry, and HCD.10 for practice arrangements. E.23.CDI distinguishes the learner, their development and later use. RHY.3 and RHY.9–RHY.11 address the performance constructions. RHY.5–RHY.6 address representations. Use RHY.13 for transfer, retention or dependence on support, and RHY.14 for observation and response. MDPE.8 places the rhythmic development within the wider music or dance practice.
 
 ### RHY.12:End
 
@@ -2220,15 +2220,15 @@ HCD.6 designs the representative human practice task; HCD.9 supplies feedback an
 
 ### RHY.13:1 - Problem frame
 
-**Use this when** the next performance or development decision depends on whether a demonstrated rhythmic contribution remains available under a meaningful change: another tempo, entry, phrase, partner or representation; a later occasion; or performance without a selected cue.
+**Use this when** you need to know whether a rhythmic contribution remains available after an interval, in a changed passage or with different support. A new tempo, entry, phrase, partner or representation can change what the performer must supply. The answer may guide development or performance, or explain a previously observed attempt.
 
-Choose the particular claim needed for that decision and a passage that can distinguish its alternatives. The first result is a qualified conclusion about that contribution, an identified missing condition, or a reason why the proposed comparison cannot answer the question.
+Identify the claim and the comparison that could settle it. Use an adequate existing performance or other relevant evidence. When the evidence leaves a question open, identify the missing condition or explain why the proposed probe cannot answer it.
 
-Successful use in familiar conditions can continue without a transfer test. When the question concerns human development, HCD.12 and HCD.13 supply the general transfer and retention methods. This Method constructs their rhythmic probes and distinguishes the capability of a performer from that of an equipped or jointly performing whole. For a controller, a configuration or policy test needs its engineering criteria; psychological retention assumptions do not follow from the same word “memory.”
+Use a familiar performance under its established conditions. For a question about human development, HCD.12 and HCD.13 supply general transfer and retention methods. Here, select the rhythmic relations to examine and identify whether the capability belongs to the performer, to an equipped performer or to a group. For a controller, assess the configuration or policy against its engineering criteria. An observed later performance can establish retention on that task. A psychological explanation of the result needs evidence for the proposed process.
 
 ### RHY.13:2 - Problem
 
-A familiar count, gesture or partner can supply the very reference that an independent-performance claim attributes to the learner. Changing the notation can remove duration information; changing tempo can introduce an unavailable movement. A delayed performance may differ both because time has passed and because its support has changed.
+A familiar count, gesture or partner may supply the reference attributed to the learner. Changing notation can remove duration information. Increasing the tempo can demand a movement the performer or actuator cannot make. If an interval elapses and the support also changes, either change may contribute to a different outcome. The comparison alone does not isolate their effects.
 
 A useful probe therefore preserves the rhythmic contribution under investigation while making the changed condition and its possible consequences interpretable.
 
@@ -2239,74 +2239,74 @@ A useful probe therefore preserves the rhythmic contribution under investigation
 | Representative change and attribution | A realistic new situation may change several conditions; that tests usability but may not identify why it failed. |
 | Support and independence | Removing a prompt can expose an unlearned contribution or remove a legitimate part of the performing arrangement. |
 | Retention and renewed learning | Demonstration, warm-up and earlier probes can change the capability being inspected. |
-| Sufficient result and testing burden | A small contrast can settle a local decision; a wide claim needs a wider basis, not every local use. |
+| Scope and testing burden | A small contrast can answer a local question. A claim about a wider range needs evidence that covers it. |
 
 ### RHY.13:4 - Solution
 
 #### RHY.13:4.1 - State the needed continuation and the claimed contribution
 
-Name what the performer or equipped whole already does, under which conditions, and what must become available next. Select one current question:
+Identify the contribution, who or what supplies it, the conditions under comparison and what is already known. A proposed performance can be assessed for feasibility before anyone has performed it. Choose the question the comparison must answer.
 
 - **Transfer:** can an earlier rhythmic contribution be used in a meaningfully changed passage or condition?
 - **Retention:** can the relevant contribution still be performed after an interval under the stated reference conditions?
 - **Support dependence:** what remains available when a particular source of reference, information or assistance changes?
-- **Combined use:** can the whole perform in the actual later arrangement, even when the causes of success or failure cannot be separated?
+- **Combined use:** can the whole perform with the later passage, support and arrangement? Evidence about the whole arrangement may settle that question even if it leaves the cause of the outcome open.
 
-Use the smallest question that changes the decision. A rehearsal can proceed with a useful qualified result without a general learning-effect claim.
+Ask for the narrowest result that answers the question. A local finding about the supported entry may finish a report or allow rehearsal to proceed. To claim a learning effect, establish the contribution of the learning conditions.
 
-Keep the contributor visible. A teacher may supply beat and entry, the learner articulation, a score duration, and a device the sound. If later use retains them all, test that arrangement. If the learner must supply the entry without the teacher, state that changed contribution explicitly.
+Identify who supplies each contribution. A teacher may give the beat and entry, the learner the articulation, a score the duration and a device the sound. To assess later use with all these contributions, use evidence about that arrangement. To assess entry without the teacher, identify the reference still available and establish whether the learner supplied the required entry.
 
 #### RHY.13:4.2 - Build a rhythmic contrast that can answer the question
 
-Retain the relevant reference, grouping, duration, articulation and receiving task unless one of them is the selected change. RHY.2 and RHY.5–RHY.6 help recover what the source or representation actually supplies.
+Identify the reference, grouping, duration, articulation and receiving task. Preserve the conditions needed for comparison and vary those whose change the claim concerns. Use RHY.2 and RHY.5–RHY.6 to establish what the source or representation supplies. If several conditions change together, the comparison may qualify their combined use.
 
 | Selected change | Construct the probe | Interpretive condition |
 | --- | --- | --- |
-| Tempo | Specify the rhythm-relative relations to preserve and change the beat period; include required movement and recovery. | Correct interval ratios do not establish that the physical actions remain available at the new speed. |
+| Tempo | Specify the relations to preserve as the beat period changes. Include the time required for movement and recovery. | Correct interval ratios establish relative timing. Physical feasibility at the new speed depends on the available actions. |
 | Entry or cycle position | Start from another meaningful point while retaining enough information to recover the reference. | A withheld answer cue can test recognition; an absent indispensable reference makes a different task. |
 | Phrase or material | Keep the earlier contribution needed while changing the relevant grouping, duration or articulation. | Distinguish transfer of timing from newly required instrumental technique. |
-| Representation or modality | Supply the necessary information in the new convention or channel and obtain any needed ability to read or realize it. | A bare onset string cannot test reconstruction of duration it does not specify. |
-| Partner or responsive equipment | Use the new participant's actual cues and response while the passage continues. | Following a fixed recording does not demonstrate reciprocal correction. |
+| Representation or modality | Identify the information available in the new convention or channel. Check any skill needed to read or realize it. For a performance probe, supply the information and access to the convention it requires. | An onset string that omits duration cannot determine a unique sustain. Evidence of remembered duration answers a different question. |
+| Partner or responsive equipment | Examine the cues and responses under the new arrangement while the passage continues. | Following a fixed recording can establish alignment to that recording. A claim about reciprocal correction needs a responsive exchange. |
 | Support | Change the named count, gesture, score or cue while retaining other required contributions. | Record which contribution was withdrawn; a changed instrument or provider may change the tested whole. |
-| Delay | Choose an interval relevant to the next use and keep the intended reference conditions available. | Note intervening practice or changes when they affect the conclusion. Delay alone does not isolate forgetting. |
+| Delay | Use an interval relevant to the question and identify the reference conditions at either end. | Include intervening practice or changes that affect interpretation. The interval by itself leaves the cause of any difference open. |
 
-Where a failure could come from a new prerequisite, check that prerequisite cheaply before interpreting the probe. For instance, a known actuator recovery time can rule out a proposed tempo without repeatedly commanding an impossible action. A person who has never learned the new notation needs access to its convention before performance can show transfer through it.
+If success depends on a new prerequisite, use adequate existing evidence if available. If a feasible check could distinguish a missing prerequisite from a performance failure, check it before attributing the failure. A known actuator recovery time can rule out a proposed tempo directly. For transfer through a new notation, establish what information the notation supplies and whether the performer can read it. If the required convention is unavailable, state what can still be assessed.
 
 #### RHY.13:4.3 - Separate retained performance, support and new instruction
 
-For human capability, use HCD.12 or HCD.13 to preserve the question's conditions. Observe the attempt needed by the claim before giving a demonstration that would supply the answer. If guidance is necessary, provide it and qualify the result as supported or newly learned performance.
+For human performance, use HCD.12 or HCD.13 to preserve the conditions of the claim. An existing observation may show what the learner supplied and when guidance was given. In a new probe of independent performance, observe the attempt before giving a demonstration that supplies the answer. If the learner receives help, describe what they do with it. A claim of subsequent learning needs evidence of the relevant change.
 
-For a retention question, keep the reference task and support comparable to the earlier use. For a support question, compare with the named support condition. A delayed attempt with withdrawn assistance can show that the combined later demand is not yet met; by itself it cannot decide between loss over time and dependence on that assistance.
+For a retention claim, use comparable earlier and later tasks and support, or account for a consequential change. To examine the contribution of a particular support, compare performance under the relevant support conditions. A failed later attempt with assistance withdrawn can establish a failure under those combined demands. Separating loss over time from dependence on assistance requires a comparison that distinguishes them.
 
-The order of attempts matters. Restoring a cue after a failure can help localize the next intervention, but the earlier attempt may have provided practice. Do not label a later successful retry an untouched first attempt. Use further contrasts only if they could change the action.
+Account for the order of attempts. Restoring a cue after a failure may help locate a difficulty, and the first attempt may give the learner practice. Report the retry as a later attempt. Seek another contrast when it could answer a material question at a justifiable cost.
 
-A robot's successful replay after restoring a saved configuration shows operation with that configuration. A transfer claim requires the relevant changed input or condition; a learned-policy improvement claim needs the corresponding training and evaluation basis. Keep hardware, controller, calibration and support available in the claimed performing whole.
+A successful replay after restoring a robot’s saved configuration establishes operation with that configuration. To claim transfer, identify the changed input or condition and evidence for the resulting performance. To claim that a policy improved through training, use the relevant training and evaluation evidence. Include the hardware, controller, calibration and support on which the result depends.
 
-#### RHY.13:4.4 - Observe the contribution and interpret the failed relation
+#### RHY.13:4.4 - Observe the contribution and interpret the result
 
-Perform the probe under conditions appropriate to the actual technique and arrangement. Inspect the relation the task needs: reference continuation, phrase grouping, sustain and release, timed entry, joint correction or coordination through the overlap.
+Use a suitable observation of the relevant technique and arrangement. Conduct a new probe if the question needs one and it is feasible. Examine the required relation, such as continued reference, phrase grouping, sustain and release, timed entry, joint correction or coordination through an overlap.
 
-Separate three outcomes:
+For an attempted passage, distinguish the outcomes below. If no attempt occurred, report what the specification, physical limits or other evidence establish and which performance claims remain open.
 
 1. The target relation is performed under the stated conditions. Use that result at this scope.
-2. A relevant relation fails in an otherwise interpretable probe. Locate the difficulty that changes the next move: retrieving or using available information, recognizing the relation, performing an action, meeting its physical demand or coordinating with another contribution.
-3. The attempt is uninterpretable for the claim because necessary information is absent from the task input, or its support, observation or new prerequisite is inadequate. Repair that condition or return a narrower conclusion.
+2. An interpretable attempt misses a required relation. Describe the failure. If its cause matters, look for evidence about retrieval, recognition, technique, physical demands or coordination with another contribution. Keep the cause open if the evidence cannot distinguish it.
+3. A missing input, observation or prerequisite can make the attempt uninformative about the intended claim. An established physical limit can itself answer a feasibility question. Give the narrower result the evidence supports. Repair the condition if the remaining question warrants the work.
 
-A failed novel passage does not erase demonstrated familiar capability. Conversely, a correct structural answer does not establish its physical enactment. RHY.12 supplies further human practice; RHY.9–RHY.11 repair the performing arrangement or coordination. RHY.14 supplies observation and response methods when those are the unresolved contribution.
+Keep what the earlier performance established under its familiar conditions. A failed novel passage describes performance under its own conditions. A correct structural answer establishes the relation calculated. To claim physical enactment, use evidence of the required actions. Use RHY.12 for needed human practice, RHY.9–RHY.11 for a change to the arrangement or coordination, and RHY.14 for a missing observation.
 
 #### RHY.13:4.5 - Return a bounded conclusion and next use
 
-State what carried over, remained available later, or depended on support, with the changed condition and relevant limits. Ordinary use may need only a concise rehearsal decision: “The phrase now survives the rate change with the hand reference; unaided entry still needs practice.”
+State what the evidence shows about transfer, later performance or performance under the specified support. Name the changed conditions and the limits of the comparison. A rehearsal may need only a concise finding such as “The phrase survives the rate change with the hand reference. Entry without the teacher’s beat was not established in that attempt. If that entry is required next, practise it under the intended conditions.”
 
-Distinguish local usability from causal claims about how learning occurred and from prevalence across a population. Stop when the receiving decision can be made. If a stronger conclusion matters, identify the additional contrast or observation that could change it and compare its value with its burden through C.11.DUA.
+Return the local conclusion when it answers the question. A claim about the cause of learning or the prevalence of a result across learners needs evidence for that claim. When a stronger conclusion matters, identify the additional contrast or observation that could change it and weigh its value against the burden through C.11.DUA.
 
-Reopen the affected claim when the passage, convention, performing whole, support, interval or intended range changes. Keep earlier conclusions whose conditions still hold.
+When the passage, convention, performing whole, support, interval or intended range changes, check whether the conclusion still applies to the use in question. Keep the findings whose conditions hold.
 
-**Local mantra:** choose the needed claim; change the relevant condition; preserve its inputs; observe before teaching when required; return the result with its support and scope.
+**In practice:** identify the claimed contribution and its holder. Check what the changed condition requires, use evidence for that condition and state the scope of the result.
 
 ### RHY.13:5 - Archetypal Grounding
 
-These are constructed probes with stipulated outcomes.
+The following examples stipulate the probe conditions and outcomes to show how to interpret them. They do not set standard test conditions or report measurements from learners.
 
 #### RHY.13:5.1 - A later success still uses the teacher's reference
 
@@ -2314,7 +2314,7 @@ A learner performs a three-beat gesture cycle against a two-syllables-per-beat p
 
 At the next lesson, the first familiar attempt with the teacher's beat succeeds. In the following attempt without that external beat, the learner resets the gesture at the phrase boundary. The score and duration information remain available, so this contrast does not withhold a missing part of the phrase description.
 
-The available conclusion is later successful performance with the reference, followed by a failed local independence probe. An unaided attempt before any post-interval supported rehearsal was not observed; the supported attempt came first. The teacher retains the successful supported use and selects practice of independent reference continuation. Calling the second failure “forgotten rhythm” would lose the actionable difference.
+The first attempt at the later lesson establishes performance with the teacher’s reference. The second shows that the learner missed the reset-free continuation without that reference in this passage. The first post-interval attempt without supported rehearsal remains unobserved. For independent continuation, the teacher keeps the supported passage available and selects practice in supplying the reference. The sequence leaves the cause of the second failure open.
 
 #### RHY.13:5.2 - Relative timing transfers to a changed beat period
 
@@ -2322,70 +2322,70 @@ A familiar four-unit phrase has attacks at units 0, 1 and 3. At a 0.5-second uni
 
 The next use has a 0.4-second unit and the same grouping and articulation. The target attacks are therefore 0, 0.4 and 1.2 seconds, with the cycle returning at 1.6. The learner understands the unchanged convention and can make the required familiar actions at that speed.
 
-In the stipulated first changed-tempo attempt those relative positions and the continuation are preserved within the task's accepted tolerance. The result supports this local tempo transfer. It does not yet show entry from another cycle position, a new bodily technique or responsive adjustment to a partner. If the receiving task only needed this tempo, further probes are unnecessary.
+Suppose the first changed-tempo attempt preserves the relative positions and continuation within the accepted tolerance. This establishes transfer to this tempo for the stated phrase. Entry at another cycle position, a new technique and responsive adjustment to a partner would each require evidence for that change. A question about this tempo is answered.
 
 #### RHY.13:5.3 - Removing information is not a clean independence test
 
 A learner has performed a sound lasting two beats followed by two silent beats from a duration-bearing prompt. A proposed “test without the score” supplies only attack syllables at the beginning of each four-beat cycle.
 
-Two different tasks are possible. If the goal is to remember the earlier duration pattern, name that memory demand and inspect the unaided attempt. If the goal is to interpret the newly supplied string, the duration is underdetermined: an immediate release and a two-beat sustain fit the same attacks.
+For a memory question, specify the earlier duration the learner must retrieve and examine performance without the duration-bearing prompt. For an interpretation question, check what the new string determines. An immediate release and a two-beat sustain fit the same attacks.
 
-The teacher selects interpretation as the intended question and restores a timed demonstration or duration convention. The next attempt supplies the required sustain and silence. The corrected conclusion concerns performance from an adequate supported input; no duration-retrieval or forgetting result was obtained. This is the practical consequence of Cha's Takadimi objection for test design.
+The teacher selects interpretation and supplies a timed demonstration or an agreed duration convention. In the next attempt the learner produces the required sustain and silence. That observation establishes performance with the duration information available. The original prompt and the success with the corrected one leave recall and forgetting untested. Cha’s critique helps distinguish onset from duration information in designing this comparison.
 
 #### RHY.13:5.4 - The new physical demand exceeds the equipped performer
 
 A controller preserves a rhythm with attacks one, then two time units apart. Its reference configuration has a 0.5-second unit and an actuator that needs at least 0.45 seconds between the relevant actions.
 
-A proposed 0.4-second unit preserves the abstract rhythm but requires a first action interval shorter than the actuator's known bound. That information is already sufficient to reject this configuration for the changed-tempo use; repeated physical trials would not establish the missing capability.
+At 0.4 seconds per unit, the abstract rhythm is unchanged, but the first interval is shorter than the actuator’s 0.45-second minimum. That known limit rules out the proposed configuration for this tempo.
 
-Retain the feasible tempo, change the realization or obtain another actuator, then test the resulting arrangement if needed. The controller's correct timing construction remains useful. What is unavailable is the combined rhythmic performance under the new physical demand, not an inferred human-style loss of memory.
+The actuator limit answers the feasibility question. If a new arrangement is wanted, consider a different realization or actuator, or a slower tempo if the required tempo can change. Check the resulting performance when the later use depends on it. The controller’s timing construction remains valid for the specified rhythm.
 
 ### RHY.13:6 - Bias-Annotation
 
-A teacher may see their own count as background while it supplies the learner's reference. A technology trial may likewise attribute an equipped whole's result to a policy alone. Inspect the contribution of the changed support. Keep “did not transfer in this probe” distinct from a general inability, and retain legitimate accessibility and performing resources.
+A teacher’s count may be supplying the learner’s reference. Hardware or support may be supplying a result attributed to a control policy. Identify what each supplied in the observed attempt. Retain accessibility aids and performance resources that belong to the intended arrangement, and limit the conclusion to the conditions examined.
 
 ### RHY.13:7 - Conformance Checklist
 
-- The probe answers a stated transfer, retention, support or combined-use question.
-- The rhythmic relation and meaningful changed condition are recoverable.
-- Information, convention, physical capability and support needed by that question are available or explicitly unresolved.
+- The available evidence addresses the stated transfer, retention, support or combined-use question, or identifies what prevents an answer.
+- The account identifies the rhythmic relation and the changed condition or interval at issue.
+- The result states which needed information, convention, physical capability and support were present, absent or unknown.
 - Instruction and earlier attempts are reflected in the result's scope.
-- The conclusion distinguishes structural recovery, actual enactment and the holder or performing whole.
-- A failed or unresolved result changes the next practice, arrangement or claim; further testing is conditional on that use.
+- The account identifies whose contribution is being assessed and distinguishes a structural conclusion from an observed performance.
+- A failed or unresolved result states what is established and what remains open. Further testing, practice or a change of arrangement serves a remaining task.
 
 ### RHY.13:8 - Common Anti-Patterns and How to Avoid Them
 
 | Failure | Useful correction |
 | --- | --- |
 | Calling a delayed unsupported failure forgetting | Separate the time and support questions, or retain the combined-use conclusion. |
-| Testing duration interpretation from attacks alone | Supply the needed information, or explicitly test memory of an earlier supplied duration. |
+| Testing duration interpretation from attacks alone | Report that the attack string leaves the required duration undetermined. For a new interpretation task, supply the duration information. To test recall, ask for a duration the learner previously received. |
 | Treating a new movement's failure as loss of learned timing | Inspect its technique and physical demands before revising the earlier timing claim. |
-| Claiming partner adaptation from fluent recorded accompaniment | Inspect responsive interaction when that is the required use. |
-| Taking simulated mastery as observed human capability | Use the simulation within its model claim; obtain human performance evidence for the human claim when needed. |
+| Claiming partner adaptation from fluent recorded accompaniment | Use evidence of the responsive exchange for a claim about reciprocal adjustment. |
+| Taking simulated mastery as observed human capability | Report what the model establishes under the simulated conditions. A claim about a human performer requires suitable evidence about human performance. |
 
 ### RHY.13:9 - Consequences
 
-The next decision can use a narrower but interpretable capability result. Familiar successful work remains usable while the missing contribution receives targeted practice or support. Complex later use can still be tested as a whole without pretending that one failure identifies its cause.
+A qualified result may settle a question about a past performance or guide a rehearsal. Keep what the earlier performance established under its familiar conditions. If the performer needs to develop a missing contribution, direct practice or support to it. Testing the whole later arrangement can establish whether it works while leaving the cause of a failure open.
 
 ### RHY.13:10 - Architectural Rationale
 
-Tempo, representation, support and embodiment change different aspects of a rhythmic task. The same relative pattern can exceed an actuator's recovery time; an unchanged learner can receive less information; a new partner can require a different correction relation. The probe must preserve these differences to make its result useful.
+Tempo, representation, support and embodiment affect different parts of a rhythmic task. An unchanged relative pattern can exceed an actuator’s recovery time. A new notation can omit information an earlier one supplied. A new partner can change how the two performers correct one another. Interpret the comparison in light of the change it contains.
 
-HCD supplies the human testing logic. RHY supplies the rhythm-specific changed conditions and interprets their effects on the performed relations. The Method also supports tests of equipped or nonhuman performance, with the development mechanism and physical realization judged through their own Methods.
+For a human performer, use HCD to design and interpret the capability comparison. RHY identifies the changed rhythmic condition and the relation the performer must preserve. For a claim about human development, include the instruments and assistance that belong to the performance. Use the applicable engineering or training methods for claims about a device, controller or its physical realization.
 
 ### RHY.13:11 - SoTA-Echoing
 
 | Source contribution | Adopted use | Limit and alternative |
 | --- | --- | --- |
-| Cha's Takadimi critique, original Takadimi conventions and Nelson's phrase/gesture practice | Distinguish a reference supplied by a gesture, duration supplied by another representation, and the learner's performance of their relation. | Withdrawing one source can remove information rather than reveal loss of capability. Choose the intended memory, interpretation or enactment question. |
-| [Caramiaux et al. (2018)](https://doi.org/10.1371/journal.pone.0193580) | Their tests separate familiar and novel tempi, altered sequences, timing and movement. Use such distinctions when a claimed transfer depends on them. | These were immediate tests in novice keyboard performance. Their results do not establish delayed retention or a universal amount of practice variation. |
-| [PianoGym](https://doi.org/10.1371/journal.pone.0351141) | Its simulated learner and fatigue-constrained scheduling benchmark makes a useful claim boundary explicit: performance in a learner model is a model result. | The study's reported mastery and fatigue outcomes come from its simulator. They do not themselves establish a human learner's retained capability or physiological safety. |
+| Cha’s Takadimi critique, original Takadimi conventions and Nelson’s phrase/gesture practice | Identify the reference the gesture supplies, any source of duration information and the learner’s performance of the relation. | Withdrawing a source can remove required information. Identify whether the task calls for memory, interpretation or enactment. |
+| [Caramiaux et al. (2018)](https://doi.org/10.1371/journal.pone.0193580) | The researchers distinguish familiar from novel tempi, altered sequences, timing and movement. Use the distinctions relevant to the claimed transfer. | The study tested novice keyboard performance immediately. Claims about delayed retention or a generally suitable amount of variation require other evidence. |
+| [PianoGym](https://doi.org/10.1371/journal.pone.0351141) | Its simulated learner and scheduling benchmark model mastery and fatigue under stated constraints. | The reported outcomes concern the simulator. To claim human retention or physiological safety, use evidence appropriate to the human learner and the conditions of practice. |
 
-A current source changes this Method's use when it changes the relevant contribution, probe interpretation or qualification. Prefer a directly adequate performance contrast over importing a study's apparatus without its task. Refresh only the affected comparison and resulting claim.
+Use a performance contrast that answers the question under the conditions of interest. Reconsider the affected comparison if a source changes what the performer must supply, how a probe is interpreted or which claim the result supports.
 
 ### RHY.13:12 - Relations
 
-HCD.12 and HCD.13 supply human transfer, retention and support-comparison methods. E.23.CDI preserves capability-holder and development distinctions. RHY.2 and RHY.5–RHY.6 recover needed structure and representation inputs; RHY.9–RHY.11 supply performing arrangements and coordination. RHY.12 receives a human practice need; RHY.14 supplies observation and response methods. C.11.DUA governs whether further checking can change the decision enough to justify its burden.
+Use HCD.12 and HCD.13 for human transfer, retention and support comparisons. E.23.CDI helps identify who or what has the capability and what has developed. Use RHY.2 and RHY.5–RHY.6 for structural and representational inputs, RHY.9–RHY.11 for performance arrangements and coordination, RHY.12 for needed human practice and RHY.14 for observations. Use C.11.DUA to judge whether the attainable result of further checking justifies its burden.
 
 ### RHY.13:End
 
@@ -2396,23 +2396,23 @@ HCD.12 and HCD.13 supply human transfer, retention and support-comparison method
 
 ### RHY.14:1 - Problem frame
 
-**Use this when** a rhythmic comparison needs observations that the available score, calculation or impression does not supply. A timing average can conceal an unmatched attack. Two passages can share attack positions while one loses continuous movement. A listener's desire to move can differ from the movement actually performed.
+**Use this when** you need to establish what a performance or a response shows about rhythm. An existing observation may answer the question. A timing average can hide an unmatched attack. Equal attack positions can hide a break in continuous movement. A listener’s desire to move and the movement they perform may differ.
 
-Obtain the rhythmic observation that can change the next rehearsal, teaching, design or performance choice. The first result is a comparison tied to the observed passage and task, a relevant unresolved distinction, or a sufficient existing result that makes further observation unnecessary.
+Identify the relation or response at issue and the passage in which it can be observed. Return the observation or comparison the evidence supports. If it leaves a material distinction open, name it. If further observation is being considered, weigh what it could establish against the work it would require.
 
-MDPE.12 already coordinates different kinds of music-or-dance evidence and their receiving decisions. Here the added work is constructing rhythmic observations: matching events, preserving the course between them, and eliciting or observing the particular response at issue. Use a sufficient direct observation without completing every branch below.
+Use MDPE.12 to combine different kinds of music-or-dance evidence for a wider question. For a rhythmic observation, match events, trace the course between them or examine the particular response at issue. Use the operation the question requires.
 
 ### RHY.14:2 - Problem
 
 Observation selects what becomes visible. An onset detector can miss a quiet stroke or count a reverberation twice. A camera can show placement without revealing the pressure a partner uses. A request to tap changes listening into a task that includes producing an action.
 
-Comparing the easiest available values can therefore select a variant that fails the intended passage. The observation must retain the relation that makes a result useful and expose the losses that could reverse the choice.
+Choose an observation that preserves the relation the question concerns. Examine any loss of information that could change the conclusion, such as a missed event or an interruption between two matched landmarks.
 
 ### RHY.14:3 - Forces
 
 | Force | Practical tension |
 | --- | --- |
-| Resolution and relevance | Finer timestamps help only if they concern the event or received cue the task uses. |
+| Resolution and relevance | Finer timestamps help when they measure the event relevant to the question on a suitable time reference. |
 | Summary and continuation | A compact value can hide a missed event, changed grouping or interruption between landmarks. |
 | Report and performed response | What a participant feels, intends and does can answer different questions. |
 | Comparable conditions and actual use | Controlling a comparison can remove the partner, expressive variation or support needed by the real task. |
@@ -2421,161 +2421,161 @@ Comparing the easiest available values can therefore select a variant that fails
 
 #### RHY.14:4.1 - Select the rhythmic result and an adequate observation task
 
-Take the receiving decision and choose the unresolved contribution: event placement, duration, reference continuation, coordination, partner readability, effort, desire to move, pleasure or another named response. Retain only the distinctions that can change that decision.
+Identify the rhythmic result needed. The question may concern event placement, duration, reference continuation, coordination, whether a partner can use a signal, effort, desire to move, pleasure or another specified response. Keep distinctions that can change the answer or its use.
 
-Choose a concrete observation task:
+Use evidence from an adequate observation task or construct one if needed.
 
 - For **event placement**, identify corresponding events and the reference they should meet.
-- For **continuation**, observe the sound, movement or contact through the troublesome span, including its preparation and release.
-- For **interaction**, observe the receiving participant's interpretation or action while the relevant passage is performed.
-- For **experienced response**, ask the participant about that response under the stated listening or performing conditions.
+- For **continuation**, examine the sound, movement or contact through the relevant span, including its preparation and release where they matter.
+- For **interaction**, examine evidence of what the receiving participant understood or did at the relevant point in the passage.
+- For **experienced response**, use the participant’s account of that response under the stated listening or performing conditions. Ask for the account when it is needed and can be obtained.
 - For **enacted movement**, observe the movement itself and its relation to the rhythmic reference.
 
-Use RHY.4 when the event or received landmark is unclear. An attack, a peak, a weight transfer and a judged perceptual location are not interchangeable observation rules. RHY.13 selects a transfer or retention question; this Method supplies an observation needed by that probe without replacing its testing logic.
+Use RHY.4 if the target event or received landmark is unclear. Locate an attack, peak, weight transfer or judged perceptual position by a rule appropriate to that event. For a question about transfer or retention, RHY.13 identifies the conditions of the probe. Use the relevant observation here within those conditions.
 
 #### RHY.14:4.2 - Match events without concealing omissions or additions
 
-For an event-based comparison, identify the intended passage, cycle position and event kind. Match observed events to the intended events under a rule appropriate to that passage. Preserve allowed ornament, expressive displacement and ambiguity rather than forcing every observation onto the nearest grid point.
+For an event comparison, specify the passage, cycle position, event kind and matching rule. Respect the ornament and expressive displacement the passage permits. Retain ambiguous correspondences when the observations and rule do not distinguish them. Match each observed event only where the rule supports that correspondence.
 
-Keep unmatched expected events, unmatched observed events and uncertain matches visible. If one event is missed, pairing the remaining events merely by list position can shift all later matches. Return to the recording, event identity or a justified alignment procedure when this changes the comparison.
+Identify unmatched expected events, unmatched observed events and ambiguous matches. If one event is missed, matching by list position can shift every later pair. When the distinction matters, check identifiable events in the recording or use a justified alignment procedure. Report any ambiguity that remains.
 
-Within an established match, compare the observed location with the intended location, including any deliberate offset. A signed difference indicates earlier or later placement; its absolute value answers an unsigned-deviation question. Successive intervals and differences across the passage can distinguish a stable offset from drift. Summaries remain attached to the matched events and any unresolved locations.
+For each established match, compare the observed time with the intended time, including deliberate offsets. A signed difference gives the direction of the deviation under the sign convention used. The absolute value gives its size. Examine intervals and differences across the passage to distinguish a stable offset from drift. Report any summary with its matched events and unresolved locations.
 
-Before judging a performer from a detector result, inspect the event identifications that could reverse the choice. A quiet attack, echo or changing sound envelope may change detection. Use the recording or another adequate observation for that bounded question; manual correction is not licence to remove inconvenient performed events.
+Before using a detector result to judge a performer, check event identifications that could change the judgement. A quiet attack, echo or changing sound envelope can affect detection. Use the recording or another suitable observation where it can distinguish a detector error from an event the performer produced. If it cannot, keep the identification open. Preserve confirmed performed events in the comparison.
 
-When observations come from different devices, use RHY.4's common-reference and delay treatment. If uncertain recording delay could account for the alleged error, retain that uncertainty rather than assigning it to the performer.
+For observations from different devices, apply RHY.4 to their time reference and recording delays. If an uncertain delay could explain an apparent timing error, state that limit on attributing the error to the performer.
 
 #### RHY.14:4.3 - Preserve the relevant course between landmarks
 
 When the question concerns sustained sound, continuous movement, changing pressure or a shaped envelope, select the portion that must continue or change. Observe that portion at a resolution that can reveal the consequential interruption, peak, release or reversal.
 
-A few snapshots can answer a question about those sampled positions. To infer the course between them, use the relevant observation or a justified bound or model; state its contribution. Equal starts, ends and peaks do not establish equal intervening courses.
+A few snapshots may establish the sampled positions. To establish the intervening course, use observations of that interval or a justified model or bound. State which features it supports. Equal starts, ends and peaks permit different paths between them.
 
-For a human or partnered passage, a short visible demonstration, recording or receiving-partner contrast can be enough. Ask about the event at which continuation became unavailable. If video shows no break but the question concerns contact pressure, obtain an observation that can access that pressure or retain the partner's report as that kind of result.
+For a human or partnered passage, a short demonstration, recording or observation of the partner’s response may answer the question. If continuation was lost, locate where it became unavailable. Visible motion may continue while contact pressure is lost. Use an adequate observation of pressure for that claim, or report what the partner experienced on the basis of their account.
 
-Return the selected trajectory, marked span or qualitative contrast with its reference. RHY.7 can compare its relevant structural properties. More samples are useful only if an unresolved difference can change the choice.
+Return the relevant trajectory, marked span or qualitative contrast with its reference. Use RHY.7 to compare structural properties when needed. Seek further samples if they can resolve a question worth the additional work.
 
 #### RHY.14:4.4 - Elicit the response actually needed
 
-Ask a participant about the stated response to the passage. “How much did you want to move?” and “How much pleasure did you experience?” are different questions. Give a scale an understandable meaning if a scale is useful; ordinary contrasting descriptions may be sufficient for a rehearsal.
+For an experienced response, use an existing account or ask the participant about the particular response to the passage. “How much did you want to move?” and “How much pleasure did you experience?” address different experiences. Explain a scale if you use one. A participant’s description can suffice for a rehearsal.
 
-Keep response tasks separate when combining them would change their interpretation. Tapping adds a performed action; a continuous rating occupies attention; a body map reports felt location rather than directly recording movement. Asking after the passage avoids some competing actions but introduces recall. Choose according to the needed result and keep the task with the response.
+Keep response tasks distinct when combining them changes what is measured. Tapping adds a performed action. Continuous rating takes attention during the passage. A body map reports where a sensation was felt. Asking afterwards reduces some competing demands and relies on recall. Interpret each response under the conditions in which it was obtained.
 
-If actual movement matters, observe what occurred: for example, movement began, remained aligned with selected beats, continued through a gap or stopped. A wish to move is not an observation of those actions. If partner readability matters, obtain the partner's discrimination or agreed response at the relevant point, rather than infer it from the producer's confidence.
+For a question about movement, use evidence of what occurred, such as whether movement began, aligned with particular beats, continued through a gap or stopped. For partner readability, examine whether the partner distinguished the cue or gave the agreed response at the relevant point. The producer’s confidence and the listener’s wish to move answer their own questions.
 
-Record consequential differences in familiarity, reference interpretation, preparation, arrangement and opportunity to move. A seated listener who was asked to remain still has not had the same action opportunity as a freely moving participant. Use only the personal information needed for the comparison.
+Include differences in familiarity, reference interpretation, preparation, arrangement and opportunity to move when they affect the comparison. Someone instructed to remain still has a different opportunity to act from a freely moving participant. Use only the personal information needed for the comparison.
 
 #### RHY.14:4.5 - Compare the observations and keep their consequences distinct
 
-Compare passages under conditions sufficiently alike for the intended claim. Preserve or vary the condition that the decision actually concerns. A short within-person or within-pair comparison may settle a local choice; a population or causal claim requires its own suitable design.
+Compare observations under conditions appropriate to the claim. Identify the condition under comparison, whether deliberately changed or found in earlier performances, and other differences that affect the claim. A within-person or within-pair comparison may settle a local question. A population or causal claim needs a design adequate to it.
 
-Inspect the sequence and the important individual contrasts before relying on a summary. Include missed actions, interrupted continuation and the participant or partner response when they change use. A better timing average can coexist with a less usable phrase; one listener can prefer the same passage for dancing and another for listening.
+Inspect the sequence and important individual contrasts before using a summary. Include missed actions, interrupted continuation and receiving responses when they affect interpretation. A smaller timing error for the matched attacks may coexist with an unusable sequence. Different listeners or purposes may favor different passages.
 
-Keep technical, perceptual, interaction and burden results on their own grounds. Use C.16 and A.19.CPM for measurement and comparison questions. Use MDPE.12 when the result must join broader performance, recognition or cultural evidence; use the relevant choice Method for the later decision.
+Use suitable grounds for timing, perception, interaction and burden. C.16 and A.19.CPM guide measurement and comparison. Use MDPE.12 when the result must be combined with wider performance, recognition or cultural evidence. If a choice is needed, use the method and authority that apply to it.
 
-Return what was observed, the task and relevant conditions, the comparison it supports and the remaining limitation. A source trace, short annotated recording or demonstrated contrast is enough when it makes that use recoverable. A formal record is not an additional prerequisite for every rehearsal.
+Report what was observed, under what conditions and what it establishes. State material limits on a comparison. A reference to an accessible observation, a short annotated recording or demonstrated contrast can suffice when the recipient can use it for the question at hand.
 
-Stop when the receiving decision is supported or the material unknown is named. Use C.11.DUA if the value of further observation is unclear. Reopen only the affected comparison when its event convention, detector, passage, participant, support or observation task changes.
+Finish when the evidence answers the question or the remaining limit is clear. Use C.11.DUA when deciding whether to seek another observation. If the event convention, detector, passage, participant, support or observation task changes, reconsider conclusions whose use depends on that change.
 
-**Local mantra:** choose the needed result; match the relevant events or course; observe the receiving response; preserve consequential differences; return a bounded comparison.
+**In practice:** identify the relation or response at issue. Interpret the events, continuous course or participant’s account under the conditions observed. State what the evidence supports.
 
 ### RHY.14:5 - Archetypal Grounding
 
-These cases use constructed observations to demonstrate interpretation and calculation.
+These constructed observations show how to interpret and calculate a rhythmic result.
 
 #### RHY.14:5.1 - A smaller average hides an unmatched attack
 
 The intended passage has five attacks at 0, 0.5, 1, 1.5 and 2 seconds, with no additional attacks. The local task accepts a deviation up to 0.10 seconds for event matching. It requires all five attacks.
 
-Recording A contains attacks at 0.02, 0.52, 1.20, 1.52 and 2.02. Inspection confirms that these are performed attacks rather than detector echoes. The matching rule pairs four events, each 0.02 seconds late; the intended location at 1 has no match within its window, and the attack at 1.20 lies outside all admitted windows. The recording still contains five attacks; the two unmatched entries describe this rule's failed correspondence, not proof that two separate physical errors occurred.
+Recording A contains attacks at 0.02, 0.52, 1.20, 1.52 and 2.02 seconds. Inspection confirms five performed attacks. The rule matches four, each 0.02 seconds late. The expected event at 1 has no match in its window. The performed attack at 1.20 falls outside every window. The two unmatched entries describe the failed correspondence under this rule. One displaced attack can account for both.
 
-Recording B has five matched deviations: −0.04, 0.03, −0.02, 0.04 and −0.01 seconds. Its mean absolute deviation is 0.028 seconds. A's matched-event mean is smaller, 0.02, but A does not satisfy the required event sequence under the stated rule.
+All five attacks in recording B match. Their signed deviations are −0.04, 0.03, −0.02, 0.04 and −0.01 seconds, giving a mean absolute deviation of 0.028 seconds. A’s mean of 0.02 seconds covers four matched attacks. B meets the complete-sequence criterion. A misses it.
 
-The useful comparison retains B for the complete passage and directs A's next repair to the misplaced attack. It does not select A by silently discarding its unmatched events or mispair its late attack with the next beat. If the task instead allowed that displacement as an ornament, the matching and success conditions would have to change.
+Under this rule, B satisfies the five-attack requirement and A does not. If selecting a recording for that requirement, retain B. If repair of A is wanted, examine the attack observed at 1.20 seconds. A task permitting that displacement as an ornament would need matching and success conditions that reflect it.
 
-**An ambiguous correspondence.** In a different two-attack fragment, the expected times are 0 and 0.12 seconds and the allowed deviation is 0.10 seconds. The recording contains one confirmed attack at 0.06 seconds. It can match either expected attack, but cannot satisfy both. The complete-fragment requirement already fails; the missing attack's identity remains unresolved. A decision to repeat the whole fragment needs no further observation. If the correction depends on which action was omitted, inspect an identifiable sound or action in the existing recording. If it supplies no distinction, retain that uncertainty rather than assigning the nearest event by convention.
+**An ambiguous correspondence.** Another fragment requires attacks at 0 and 0.12 seconds and allows a deviation of 0.10 seconds. The recording contains one confirmed attack at 0.06 seconds. It falls inside both windows and can satisfy only one expectation. The fragment fails the two-attack requirement. For a repeat of the whole fragment, that is sufficient. If the correction depends on which action was omitted, inspect an identifiable sound or movement in the recording. Where it gives no distinction, report the unresolved match.
 
 #### RHY.14:5.2 - Sampled peaks do not show continued support
 
 Two recorded movement variants have the same initial position, peak at the accent and final position. The receiving task needs a continuing sweep through the accent.
 
-The short video includes the intervening motion. It shows A continuing the sweep through its articulation; B stops, accents, then restarts. A comparison using only the three equal landmarks would have lost that difference.
+The video shows the motion between the three landmarks. A continues the sweep through the accent. B stops, accents and restarts. The intervening motion distinguishes the variants.
 
-For the intended visible-continuation question, A is the useful local variant. If the partner instead reports a loss of contact pressure despite the visible continuation, the video alone does not settle that complaint. Obtain a suitable contact observation or an agreed partner-response contrast. The first comparison remains valid for visible motion.
+A meets the visible-continuation requirement. If the partner reports a loss of contact pressure, the report supplies the partner’s account of what they felt and the video still establishes visible motion. For a claim about pressure itself, use a suitable contact observation. A partner-response comparison can answer a question about how the partner received the contact. If that evidence is unavailable, state the corresponding limit.
 
 #### RHY.14:5.3 - A listener's preference does not yet show movement
 
-A listener compares two passages on the same five-position response scales. In the stipulated responses, A receives 5 for wanting to move and 3 for pleasure; B receives 2 and 5 respectively. The listener remained seated, and no movement observation was made.
+A seated listener compares two passages using the same five-position scales for desire to move and for pleasure. Suppose the listener rates A at 5 for desire to move and 3 for pleasure, and B at 2 and 5 respectively. Movement was not observed.
 
-For selecting a candidate to try in a voluntary movement session, A has the stronger relevant reported response from this listener. For a listening session prioritizing reported pleasure, B has the stronger response. Neither result establishes that A elicits coordinated movement or that either choice works for another population.
+This listener reports a stronger desire to move for A and greater pleasure for B. Those responses support trying A in a voluntary movement session or B in a listening session that prioritizes pleasure. Claims about coordinated movement or another population require evidence for those outcomes.
 
-The next movement session can use A as a bounded choice without claiming an established motor effect. If coordinated participation is the unresolved decision, observe that action in the session instead of renaming the desire rating as performance.
+A movement session can use A on the basis of this listener’s stronger reported desire to move. To establish coordinated participation, use evidence of actual movement under the conditions in question. A new observation during the session can supply it if needed.
 
 #### RHY.14:5.4 - Equal endings leave internal coordination open
 
 Two ensemble versions begin and end together. In A, a marked middle entry is also coordinated; in B, one player's entry comes after the others have passed the receiving cue. The recording preserves that middle passage.
 
-The endpoint measure ties the versions, but the entry observation does not. Retain A for a task requiring that coordinated entry and use RHY.9 or RHY.10 to repair B's cue or adjustment. The result needs neither a whole-piece average nor an assertion that every other internal relation was inspected.
+The endpoints tie. The middle entry distinguishes the versions and A meets the coordination requirement at that cue. If B is to be repaired, use RHY.9 or RHY.10 to examine the cue or adjustment. Other internal relations can be assessed when they matter.
 
 ### RHY.14:6 - Bias-Annotation
 
-A visible timestamp or questionnaire total can seem more authoritative than a participant's task-specific observation. Give each its actual evidential role. Inspect the data lost through event matching, filtering or averaging before treating a convenient number as rhythmic quality. Retain differences between participants when they change the use.
+A timestamp, questionnaire score and participant’s observation each support claims about the task that produced them. Before treating a number as a measure of rhythmic quality, examine what matching, filtering or averaging discarded. Preserve differences between participants when they change the conclusion or its use.
 
 ### RHY.14:7 - Conformance Checklist
 
-- The observation can distinguish alternatives relevant to the receiving rhythmic decision.
-- Event matching retains missing, additional and ambiguous events that could change the result.
+- The observation addresses the stated rhythmic question. Where it leaves important alternatives unresolved, the account identifies them.
+- An event comparison reports unmatched expectations, unmatched observations and ambiguous correspondences that could change its interpretation.
 - Continuous-course claims have observations or explicit assumptions adequate to their interval.
-- Reports, perceived timing and performed responses retain their task and contributor.
-- Comparison conditions and unresolved recording or delivery effects are visible where consequential.
-- The result supports a bounded next move and reopens only affected claims when conditions change.
+- Each claim about a report, perceived timing or performed response identifies the relevant task and contributor.
+- The account describes comparison conditions and any recording or delivery effect that limits the result.
+- The result answers the question within the conditions examined or states the material limit. A change in conditions calls for reassessment where it affects reliance on the result.
 
 ### RHY.14:8 - Common Anti-Patterns and How to Avoid Them
 
 | Failure | Useful correction |
 | --- | --- |
-| Ranking timing after deleting unmatched events | Include the omissions and additions in the performance comparison. |
-| Inferring uninterrupted movement from its beginning and end | Observe the relevant intervening course or retain the missing information. |
+| Ranking timing after discarding unmatched events | Report timing for the matched events and describe the expected and observed events left unmatched under the rule. |
+| Inferring uninterrupted movement from its beginning and end | Use evidence of the intervening course or a justified bound or model. If it is insufficient, identify the missing information. |
 | Calling the fastest detector timestamp the perceived beat | Use the receiving landmark and task selected through RHY.4. |
-| Treating pleasure, desire and actual movement as one response | Obtain and compare the contribution the decision needs. |
-| Treating endpoint agreement as whole-passage synchrony | Inspect the internal relation on which the performance depends. |
+| Treating pleasure, desire and movement as one response | Use reports of pleasure or desire for those experiences and evidence of movement for the action at issue. |
+| Treating endpoint agreement as whole-passage synchrony | Use evidence of the internal relations covered by the synchrony claim. |
 
 ### RHY.14:9 - Consequences
 
-The practitioner obtains observations that preserve a consequential rhythmic distinction. A local choice can become possible without a universal quality score or a laboratory programme. More demanding claims remain possible, but they require the additional observations that actually support them.
+A local observation can establish a rhythmic difference, explain a performance or inform a choice. Preserve its conditions of use. To extend the conclusion to another passage or population, or attribute an effect to a cause, establish the grounds for that extension.
 
 ### RHY.14:10 - Architectural Rationale
 
-A rhythmic pattern calculation, an observation of performance and a participant's response can concern the same passage while answering different questions. Matching events, preserving intervals and eliciting a response are the domain operations that connect those questions without collapsing them.
+A calculation can establish the structure of a passage. Observing the performance can establish which events or movements took place. A participant’s account can establish what they experienced. To compare these results for the same passage, match the relevant events, examine the intervals at issue or elicit the particular response the question concerns.
 
-RHY.4 establishes a usable timing relation and its correction; RHY.7 compares selected rhythmic structures. This Method obtains the performance or response evidence those operations may lack. MDPE.12 retains the broader combination of music-or-dance result kinds, and the general measurement and evidence patterns retain their shared rules.
+Use RHY.4 to establish a timing relation or the correction required, and RHY.7 to compare rhythmic structures. Use the present method to establish a performance or response observation they need. MDPE.12 guides a wider comparison of music-or-dance evidence. General measurement and evidence rules apply to the claims made.
 
 ### RHY.14:11 - SoTA-Echoing
 
 | Source or supplied contribution | Adopted operation | Limit and serious alternative |
 | --- | --- | --- |
 | London et al., [comparison of perceptual-center methods](https://doi.org/10.3758/s13414-019-01747-y), as used in RHY.4 | Preserve the response task when interpreting a timing estimate. | A physical event timestamp is sufficient for a physical-event question; perceived placement may require another task. |
-| [Body maps of the sensation of musical groove (2025)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12503160/) | The study separately elicits wanting-to-move and pleasure ratings and locations of felt sensations. Adapt its task separation when those different responses matter. | The online study did not directly establish which indicated body parts actually moved. A felt-location report is not a movement recording; its selected tracks also do not establish a universal genre ranking. |
+| [Body maps of the sensation of musical groove (2025)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12503160/) | The online study asked about desire to move, pleasure and the locations of felt sensations. Keep questions separate when their answers serve different uses. | The reported body locations concern sensations. Evidence of movement is needed to establish which parts moved. The selected tracks limit conclusions about genre preference. |
 | Lau et al.'s [robot ensemble integration](https://doi.org/10.7717/peerj-cs.2632), used in RHY.9 | Preserve the distinction between endpoint and within-passage coordination. | Reuse a sufficient endpoint result for an endpoint question; inspect internal relations only when the task needs them. |
-| MDPE.12, with RHY.4 and RHY.7 | Use task-specific rhythmic observations inside a broader comparison of performance and response. | A convenient timing or structural metric can be sufficient locally; it is not a substitute for a missing receiving response. |
+| MDPE.12, with RHY.4 and RHY.7 | Use task-specific rhythmic observations in a wider comparison of performance and response when needed. | A timing or structural measure can answer its own question. A claim about a receiving participant’s response needs evidence of that response. |
 
-For a concrete comparison, consider choosing between two passages when the session designer needs to preserve both reported enjoyment and attraction to movement. Prefer separately named pleasure and wanting-to-move responses over one combined “groove” judgement. The body-map study's separate tasks inform this choice; the following justification is a methodological argument, not a reported test of competing questionnaires. In the constructed case in RHY.14:5.3, the responses rank the passages differently. A combined judgement cannot say which aim a choice serves. Using the same passages and respondent with one additional short question preserves that distinction at a small but real response burden. RHY.14:4.4 makes that task choice and :4.5 keeps the results separate.
+Suppose a session designer wants to preserve both enjoyment and attraction to movement when choosing between two passages. Ask separately about pleasure and desire to move. The body-map study provides an example of separate tasks. The reason for using two questions here comes from the comparison in RHY.14:5.3. The same listener ranks the two passages differently on the two criteria. One overall groove rating leaves that distinction undetermined. With the same passages and respondent, one additional question preserves the distinction and adds response effort. The comparison did not measure how long the extra response took. RHY.14:4.4 guides the choice of task and §4.5 its interpretation.
 
-A single holistic judgement remains adequate when that is the actual choice criterion; ask only the one specific question when the other response cannot change the decision. If the claim concerns coordinated movement, use an appropriate movement observation instead. This accepts its greater preparation and performance burden only for that different claim. Reconsider the chosen response task when the aim, participants or meaningful distinctions change.
+A single overall judgement suffices when it is the choice criterion. If only pleasure or only desire to move matters, ask for that response. For a question about coordinated movement, use appropriate movement observations and account for the preparation and performance a new observation would require. Reconsider the response task if the aim, participants or relevant distinctions change.
 
-The event-matching and continuous-course instructions form a methodological synthesis. Revisit a source or procedure when a new material, observation task, population or detector behaviour changes the relevant comparison.
+The event-matching and continuous-course procedures combine methods for the particular questions in §§4.2–4.3. Choose the detector, response scale and criterion for rhythmic quality to suit the observation needed. If the material, observation task, population or detector behaviour changes, check whether the procedure and its source still support the comparison being made.
 
 ### RHY.14:12 - Relations
 
-RHY.2 and RHY.5–RHY.6 supply the selected rhythmic structure and representation. RHY.4 supplies event and received-timing distinctions; RHY.7 supplies structural comparison. RHY.9–RHY.11 receive arrangement and coordination findings. RHY.12 uses observations for human practice, and RHY.13 uses them within its selected capability probe. MDPE.12 combines wider performance and cultural results. C.16, A.19.CPM, A.10 and C.2.1 govern general measurement, comparison, evidence and grounding; C.11.DUA governs additional checking when its value is unresolved.
+Use RHY.2 and RHY.5–RHY.6 for the rhythmic structure and representation, RHY.4 for event and received timing, and RHY.7 for structural comparison. Arrangement and coordination findings can inform RHY.9–RHY.11. Use observations in RHY.12 for human practice or in RHY.13 for its specified capability question. MDPE.12 combines wider performance and cultural results. For general measurement, comparison, evidence and grounding, see C.16, A.19.CPM, A.10 and C.2.1. Use C.11.DUA when deciding whether to pursue further checking.
 
 ### RHY.14:End
 
 # Edition and reuse
 
-This publication contains the fourteen methods of Embodied Rhythmics, RHY.1–RHY.14, with their connected use and source qualifications. The version shown at the beginning identifies the text being cited. Give the author, framework title, that version and the relevant PatternID or Architectural Reference address.
+This publication contains fourteen methods, RHY.1–RHY.14, their applications and the conditions for using their sources. Cite Anatoly Levenchuk, the framework title, the edition date and the relevant PatternID or Architectural Reference address. To identify the passage you used, give a permanent link to the file at the commit you used or to an accessible archived copy. For rhythmic comparison, see [the earlier RHY.7](https://github.com/ailev/FPF/blob/1e57ccda08ebbb9d49b7b2190bc2740b72075a13/DPFs/EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md#rhy7---characterize-and-compare-rhythmic-structures-for-a-named-decision) and [the current RHY.7](#rhy7---characterize-and-compare-rhythmic-structures-for-a-stated-question). To identify the property to compare, see [the earlier RHY.7:4.1](https://github.com/ailev/FPF/blob/1e57ccda08ebbb9d49b7b2190bc2740b72075a13/DPFs/EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md#rhy741---name-the-difference-the-receiving-choice-needs) and [the current RHY.7:4.1](#rhy741---identify-the-rhythmic-difference-the-question-requires). For evidence about an attempted passage, see [the earlier RHY.13:4.4](https://github.com/ailev/FPF/blob/1e57ccda08ebbb9d49b7b2190bc2740b72075a13/DPFs/EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md#rhy1344---observe-the-contribution-and-interpret-the-failed-relation) and [the current RHY.13:4.4](#rhy1344---observe-the-contribution-and-interpret-the-result).
 
-The [DPF catalogue](https://github.com/ailev/FPF/tree/main/DPFs) locates this publication and related frameworks. A local copy remains usable when links are unavailable; source-dependent or stronger claims retain the source-return conditions stated in the relevant pattern.
+Use the [DPF catalogue](https://github.com/ailev/FPF/tree/main/DPFs) to locate this publication and related frameworks. A local copy can supply its instructions when links are unavailable. For a claim that depends on a source or stronger evidence, use the grounds specified in the relevant pattern.
 
 Original framework text is available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Attribute Anatoly Levenchuk, retain the license reference and identify your changes. Independently created DPFs and LPFs may choose their own licenses; reuse of protected expression follows its applicable terms.
 

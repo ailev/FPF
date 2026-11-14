@@ -39,55 +39,55 @@ Original framework text: © 2026 Anatoly Levenchuk, [CC BY 4.0](https://creative
 
 ## Practical entries
 
-These are selected examples of use. Bring the movement and question you actually have. Use the Table of Contents to find a pattern when none of these examples fits.
+Bring the movement and the question or skill you want to work on. The examples offer starting points. Consult the Table of Contents for other uses.
 
-You can ask an assisting agent: “Explain this and give me comments in the language of my work, without framework jargon.” The agent works from your descriptions and observations, including what you feel and do. Choosing an unfamiliar exercise requires appropriate movement instruction.
+An agent can help interpret a description, compare observations or formulate a question in the language of your practice. If you performed the movement, you can describe what you felt and did. Other observers may supply evidence about the movement and its result. Obtain suitable movement instruction for an unfamiliar exercise.
 
 ### DISCERN — An instruction names a change you cannot distinguish
 
 - **Situation:** You know the movement's purpose but cannot tell what bodily difference an instruction refers to.
 - **Question:** What comparison would let you notice the required bodily difference?
-- **First useful result or blocker:** A bodily difference you can notice again, with the conditions that made it distinguishable, or an identified need for support or instruction.
+- **First useful result or blocker:** A difference you can notice again, with the conditions that made it distinguishable, or a finding about what is missing, such as suitable support or instruction.
 - **Start with:** [SOM.2](#som2---make-a-bodily-change-distinguishable), using the working question from SOM.1.
-- **Stop or return:** A noticed difference is not yet controlled movement. Continue with the missing regulation or return to the task if the distinction changes no useful action.
+- **Stop or return:** Noticing the difference and controlling it are separate results. Return to the task if noticing it answers the question or the distinction has no further use there. Work on regulation when the movement requires control the performer still lacks.
 
-The following entries show connected uses across several patterns. Follow a branch only when its contribution is missing; an available skill need not be relearned to complete a sequence.
+The following entries combine several patterns. Use the contributions you need and retain skills already available for the movement.
 
 ### COORDINATE — Make a correction work during the whole action
 
 - **Situation:** A correction works in preparation, but applying it interrupts the movement or another required action.
-- **Question:** What must be learned or changed so the correction can participate in the whole?
-- **First useful result or blocker:** A model of the failed interval and a suitable next attempt addressing the missing distinction, regulation or combination.
+- **Question:** What supports or interrupts the correction during the whole movement? Which change, if any, does the task require?
+- **First useful result or blocker:** An account of the failed interval. If another attempt is needed, identify a suitable attempt that addresses the missing distinction, regulation or coordination.
 - **Start with:** [SOM.1](#som1---model-the-bodily-contribution-to-a-movement) to locate the failed interval and connect experience, attempted change and result. Use SOM.2 for a missing distinction, SOM.3 for unavailable regulation, or [SOM.4](#som4---build-and-recall-a-coordinated-bodily-change) when available contributions interrupt one another. Preserve what must continue, then return to the whole action.
 - **Stop or return:** Retain a simpler effective task cue. Reopen the model when a bodily improvement fails to produce the required action.
 
 ### TRANSITION — Keep coordination through changing support
 
 - **Situation:** The action works on either side of a support change but fails during the transition.
-- **Question:** Which changing relation must be learned together with the continuing action?
-- **First useful result or blocker:** A usable part of the transition with its conditions, or an identified missing response, cue or observation.
-- **Start with:** [SOM.5](#som5---adapt-bodily-coordination-to-changing-support-and-load): retain the support change, find a performable portion, extend it and join the portions in motion before restoring the whole action. Use SOM.1 when the proposed relation fails, and SOM.2–SOM.4 for a missing distinction, regulation or combination.
-- **Stop or return:** Endpoint success and paused or slowed preparation do not establish the required transition. Obtain domain instruction when a suitable response remains unknown.
+- **Question:** Which relation changes during the continuing action? Does the performer need to learn a response under those conditions?
+- **First useful result or blocker:** An account of what happened during the support change, a usable portion under stated conditions, or a finding about a missing response, cue or observation.
+- **Start with:** [SOM.5](#som5---adapt-bodily-coordination-to-changing-support-and-load) to examine the transition. When the performer needs to learn it, retain the support change, extend a performable portion and join portions in motion before restoring the whole action. Use SOM.1 when the proposed relation fails, and SOM.2–SOM.4 for a missing distinction, regulation or combination.
+- **Stop or return:** To establish the required transition, use observations made under the necessary conditions. Endpoint results and slowed or paused preparation are evidence for those narrower tasks. Seek suitable instruction if the task requires a response the performer does not yet know.
 
 # Somatic Movement Modeling DPF Architectural Reference
 
 ## SOM.Reference:1 - Problem frame and scope
 
-A movement teacher or experienced practitioner may know the desired result while lacking a usable account of how to change the bodily action. A learner may understand an instruction, possess sufficient strength and remember the movement sequence, yet be unable to coordinate the actions required within that movement. This language helps relate the performer's bodily experience and control to the required movement result, then construct a learning or correction attempt.
+A movement teacher or experienced practitioner may know the desired result and still lack a usable account of how the performer could change the bodily action. A learner can understand an instruction, have sufficient strength and remember the sequence while still finding the coordination difficult. Relate what the performer feels and can regulate to what happens in the intended movement. Use that account to investigate the difficulty or design a suitable learning attempt.
 
-Its field is bodily modeling and learning within an already known movement practice. It covers relating felt change to action, acquiring a needed bodily distinction, regulating effort, combining changes and revising coordination through changes in support or load. Technique, suitable physical demands and that practice's criteria come from the practitioner or teacher. A beginner uses the language with that support.
+Use these Methods within a movement practice whose technique and physical limits are known. They concern felt distinctions, regulation of effort, coordination of available changes and adaptation to different support or load. The practitioner or teacher supplies the technique, suitable demands and criteria for the intended action. Beginners need that support.
 
-*Somatic* concerns the body as experienced and regulated from within. That account differs from what another person observes and from an anatomical explanation. They can inform the same correction, but one does not automatically supply the others. For example, a teacher can see that contact is lost while the performer reports no noticed change of effort. The difference is a reason to investigate their relation.
+*Somatic* concerns the body as experienced and regulated from within. The performer can report what they felt. An observer can describe visible movement, and an anatomical explanation needs grounds for the proposed bodily mechanism. These sources can inform the same question. For example, a teacher sees contact break while the performer notices no change in effort. Compare the observations at that point in the movement.
 
-The language concerns human bodily learning.
+The methods concern human bodily learning. A robot may be evaluated against the same movement criterion when that criterion applies. Explaining or developing its performance requires the relevant models of its sensors, control, actuation and learning.
 
 ## SOM.Reference:2 - How the methods work together
 
-Start from the difficulty in the movement you want to perform. SOM.1 connects three accounts: what is experienced, what can be deliberately changed and what happens in the movement. It selects the question for the other methods and receives their results.
+Start with the question about the movement. Use SOM.1 to relate what the performer experiences, what they can deliberately change and what happens in the action. This comparison can answer the question or identify a contribution needed from another Method. Bring that result back to the movement and check what it establishes about the original question.
 
-When the performer cannot distinguish what a required bodily change feels like, SOM.2 constructs a contrast. SOM.3 works on increasing, reducing or releasing a change that is distinguishable but not sufficiently controlled. SOM.4 makes several available changes usable together, including learning to recall their development instead of reconstructing them serially. SOM.5 revises that coordination where support, contact or load changes.
+Use SOM.2 to develop a contrast when the performer cannot distinguish a needed bodily change. Use SOM.3 if a distinguishable change is difficult to increase, reduce or release. SOM.4 addresses coordinating available changes and recalling their development in motion. Use SOM.5 to examine or adapt that coordination when support, contact or load changes.
 
-This is a repertoire with returns, not a five-stage course. An experienced performer can begin with a transition failure and use SOM.5. A result may instead call for a different tool, a better observation or domain instruction, with no new bodily learning. Distinguishing those returns avoids spending practice effort on the wrong contribution.
+An experienced performer whose difficulty occurs during a transition can enter at SOM.5. A result may instead identify a different tool, an observation or domain instruction that supplies the needed contribution. Use each Method where its contribution is missing.
 
 The methods also involve different uses of attention. A detailed observation can be distributed across repeated attempts when doing it inside one movement disrupts the action. After learning a bodily difference, test whether attending to it still helps during performance. Keep a suitable cue about the action's effect when that cue gives the needed coordination more simply.
 
@@ -95,42 +95,42 @@ The methods also involve different uses of attention. A detailed observation can
 
 Consider an experienced writer who produces a continuous line in two familiar forearm positions but breaks it while moving between them. The pen and paper have been checked. Checking fingers, wrist and forearm in sequence stops the stroke.
 
-SOM.1 locates the failed interval and relates three observations: change of forearm support, the performer's felt adjustment and the broken line. The writer distributes observations across comparable attempts, obtaining an observer's help if necessary. This does not yet identify a grip defect.
+The writer uses SOM.1 to locate the break and relate the change of forearm support, the felt adjustment and the broken line. The writer can compare observations across similar attempts and seek an observer’s help if needed. These observations locate the difficulty but leave its cause open, including whether grip played a part.
 
-Suppose a small familiar adjustment seems relevant but cannot be distinguished at the support change. SOM.2 makes a suitable contrast available there. If the writer can notice it but cannot regulate its development, SOM.3 prepares that change in discernible increments, retaining pen contact and guidance.
+Suppose a small familiar adjustment seems relevant but cannot be distinguished at the support change. Use SOM.2 to find a suitable contrast there. If the writer notices the adjustment but cannot regulate how it develops, use SOM.3 to practise it in discernible increments while retaining pen contact and guidance.
 
-SOM.5 keeps the support transition inside a shorter stroke. The writer begins from an available portion, extends towards the difficulty and learns a workable adjustment over a little more of the transition. SOM.4 supports recalling the combined development and joining overlapping portions in motion. A cue that precedes the loss can be connected to the response once that response is available.
+With SOM.5, the writer keeps the support transition inside a shorter stroke. The writer begins from an available portion, extends towards the difficulty and learns a workable adjustment over a little more of the transition. SOM.4 supports recalling the combined development and joining overlapping portions in motion. A cue that precedes the loss can be connected to the response once that response is available.
 
-The return is the longer stroke with the required speed and other conditions restored. A familiar sensation with another break fails that use. A successful shorter portion remains useful preparation; an absent cue or unknown adjustment becomes a specific request for observation or instruction.
+For the longer stroke, restore the required speed and other receiving conditions. Judge whether the line remains continuous through the transition. A familiar sensation can accompany another break. A shorter successful portion remains useful preparation. If a cue or adjustment is still missing, identify what observation or instruction would help.
 
 If an earlier comparison had shown that changing paper restored the line without relearning the hold, the route would have ended differently. The writer could use that condition if the work permits it. When the original paper is mandatory, the writer still needs a way to produce the line on that surface.
 
-This is a constructed example of the methods and their branches. It reports no measured learning gain.
+This constructed writing case illustrates how to choose among the Methods under its stated conditions. A claim about learning gains would require observations of learning.
 
 ## SOM.Reference:4 - The simultaneous vertical of movement
 
-A correction participates in work that is already being carried out at other levels. In a salsa turn, the dancer is performing a culturally recognizable figure with a partner while maintaining rhythmic steps, balance and the bodily changes that support them. These are simultaneous contributions, not a list of exercises to complete in order.
+A correction participates in work that is already being carried out at other levels. In a salsa turn, the dancer is performing a culturally recognizable figure with a partner while maintaining rhythmic steps, balance and the bodily changes that support them. The dancer must sustain these contributions together during the turn.
 
 | Work occurring during the turn | What must be available together | What a local correction must preserve |
 | --- | --- | --- |
 | Performing the figure with a partner | The figure's technique, interaction and continuation | The partner can continue the shared figure. |
 | Performing its rhythmic steps | Relations among steps, beat and the phrase | A bodily adjustment does not displace the required steps or timing. |
 | Turning while changing support | Balance, direction and transition between contacts | The movement continues through the support change. |
-| Regulating the participating bodily action | Distinguishable, controllable and coordinated changes under those conditions | The upper contributions remain possible while the change is made. |
+| Regulating the participating bodily action | Distinguishable, controllable and coordinated changes under those conditions | The dancer can still execute the steps, turn and partner interaction while making the adjustment. |
 
-The example selects useful relations in this activity; it does not define four universal movement levels. The same bodily skill can participate in other activities.
+These four rows describe concurrent work in this salsa figure. Other movements can call on the same bodily skill in a different combination of activities.
 
-Adequate strength and figure recall do not guarantee the intermediate coordination. Conversely, refining a sensation will not supply missing strength, a dance technique or knowledge of the musical relation. The teacher locates the contribution that limits the whole and selects a preparation that retains its important connection. A reduced task can temporarily remove partner or timing demands, but the later combination still has to be learned and tested.
+Strength and recall can be adequate while coordination remains difficult. Refining a sensation alone does not supply missing strength, dance technique or knowledge of the figure’s relation to the music. Locate what limits the whole action and choose preparation that retains the relevant relation. A reduced task can temporarily remove partner or timing demands. Use evidence of the combined action to judge it under the required conditions, and practise that combination where it is still missing.
 
-Performer, teacher and partner have different access and responsibilities. The performer reports experience and attempts regulation; the teacher supplies suitable technique, observation and learning support; the partner participates in the shared movement. An assisting agent works from their reports and observations to help compare descriptions and plan questions.
+The performer reports experience and attempts regulation. The teacher can supply technique, observation and learning support. The partner contributes to the shared movement. An agent can compare the available observations or develop questions when it has the necessary evidence. A conclusion about what the dancer felt depends on the dancer’s account.
 
-Human learning can occur during the same attempt that performs the figure. The movement result and capability gain remain different claims. The framework describes part of the needed vertical: using every SOM pattern does not establish that all the other methods, resources and capabilities are available.
+A performer may learn while performing the figure. What happened in that attempt and what capability changed are separate claims. To explain the whole turn, include the other Methods, resources and capabilities on which it depends.
 
 ## SOM.Reference:5 - Interpreting results and choosing further work
 
-Judge a bodily account together with the action it is intended to serve. Ask what the performer can now distinguish or regulate, under which conditions, with what assistance and with what concurrent result. Check the changed condition that matters to the later work rather than adding variation for its own sake.
+Judge a bodily account against the action it is intended to serve. Establish what the performer could distinguish or regulate, under what conditions and with what help, and the result in the movement that the adjustment was meant to serve. Where transfer matters, use evidence under the changed condition relevant to the later work.
 
-Use the following distinctions when deciding what follows:
+Use the distinctions below to interpret an observation or choose further work.
 
 - A description can be usable before the movement improves.
 - A distinction can be available before the performer controls the change.
@@ -138,27 +138,27 @@ Use the following distinctions when deciding what follows:
 - A prepared combination can work before it transfers through the required support change.
 - A successful supported attempt can be useful without establishing independent performance or retention.
 
-Whether an effort is noticed and whether it is voluntary are different questions. Include involuntary effort when it affects the movement, even if it usually remains outside the performer's attention. Noticing it does not establish an ability to regulate it. The task is to obtain the needed action, not to eliminate every involuntary response.
+An effort can occur without being noticed. If an involuntary response affects the movement, include it in the account. Noticing it does not establish that the performer can regulate it. Work on regulation when the intended action requires that change.
 
-The intended gain is a proposed correction that can be tested in a suitable attempt, with observations that help choose what to do next. Learning time, instructor effort, attention and physical demands are costs. Once the intended action works under its required conditions, a finer body map needs an additional reason.
+A supported account can show which condition matters or identify a correction worth trying. Weigh the attainable learning or evidence against learner and instructor time, attention and physical demands. When the movement already meets its requirements, refine the bodily account only if the question warrants it.
 
 Begin within familiar technique and suitable physical limits, or obtain competent instruction. Stop an attempt that produces pain, dizziness or unfamiliar loss of control. Somatic vocabulary does not resolve an injury or establish that a new exercise is suitable.
 
 ## SOM.Reference:6 - Rationale, source use and alternatives
 
-The language combines bodily modeling with methods of learning, rather than prescribing an exercise catalogue. The [public account of system fitness](https://ailev.livejournal.com/1796805.html) supplies the orientation towards using bodily understanding in other movement cultures. SOM makes the proposed relation between experience, regulation and action explicit and connects it to bodily contrasts, increments, combined recall and changing support. These are teaching constructions open to correction, not comparative or clinical effectiveness claims.
+The [public account of system fitness](https://ailev.livejournal.com/1796805.html) relates bodily understanding to its use in other movement cultures. These Methods propose relations among experience, regulation and action and ways to investigate them through contrasts, effort increments, combined recall and changing support. Revise a proposed relation when the observations call it into question. Claims about comparative or clinical effects require evidence for those effects.
 
-General learning design already supplies contrast, feedback, representative practice and transfer testing. The bodily contribution specifies what is compared and changed: experienced region and direction, development and release of effort, coordinated change, and its relation to support and contact. That content belongs here; the general learning methods remain in HCD. Rhythmic relations remain in RHY when the action needs them.
+General learning design supplies contrast, feedback, representative practice and transfer testing. In somatic work, specify what the performer compares or changes, such as felt region and direction, how effort develops or releases, coordinated change or its relation to support and contact. Use HCD for the learning Methods and RHY when the task depends on a rhythmic relation.
 
-Direct instruction is a serious alternative. If a suitable teacher or accessible method already supplies the needed correction and its use in the whole action, a more detailed somatic account may add little. Use SOM where a relation remains unclear or where the performer and teacher need to investigate and change it.
+Direct instruction may already provide what the performer needs. If a suitable teacher or accessible method supplies the correction and its use in the whole action, a more detailed somatic account may add little. Use SOM to investigate an unclear relation or to learn or adapt a bodily change when the movement requires it.
 
-SOM.4 compares detailed bodily monitoring with an available cue about the action's effect. Its source comparison explains why a favorable result in one attentional-focus task cannot choose a universal focus rule. SOM.3 uses force/report research to keep experienced effort distinct from an external measurement. Neither contrast validates the whole teaching construction.
+SOM.4 compares detailed bodily monitoring with an available cue about the action’s effect. A result about attention in one task needs grounds for transfer to another. SOM.3 uses research on force and reports of effort to distinguish an experienced change from an external measurement. Use those studies for the specific comparison they support.
 
-Reconsider a chosen method when it cannot produce an interpretable attempt, when the local result fails in the receiving action, when appropriate instruction supplies a simpler solution, or when better evidence changes the learning choice. A vocabulary that leaves the next bodily or observational action unspecified is insufficient for the promised use.
+Reconsider a chosen method when it cannot supply the observation, explanation or correction the question requires, when the local result fails in the receiving action, when appropriate instruction supplies a simpler solution, or when better evidence changes the learning choice. Where the promise is a usable correction, identify what to do or observe under the relevant conditions.
 
 ## SOM.Reference:7 - Companion publications and dependencies
 
-The following contributions remain in their supplying frameworks. The links return to their public texts; a reader can search the stated PatternIDs within each publication.
+Use the links to consult the supplying publications and the PatternIDs to find their relevant sections.
 
 | Companion | Contribution used here | When it matters |
 | --- | --- | --- |
@@ -166,9 +166,9 @@ The following contributions remain in their supplying frameworks. The links retu
 | [Human Capability Development (HCD)](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) — HCD.6, HCD.6.1, HCD.9, HCD.10, HCD.11, HCD.12 | Constructing representative practice, making distinctions learnable, providing feedback, varying and progressing practice, and interpreting performance evidence | Learning design and assessment; HCD.12 is used when the question concerns transfer to unfamiliar work |
 | [Embodied Rhythmics (RHY)](https://github.com/ailev/FPF/blob/main/DPFs/EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md); [RHY.12](https://github.com/ailev/FPF/blob/main/DPFs/EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md#rhy12---develop-rhythmic-capability-through-representative-practice) for learning | The rhythmic relations used by the receiving activity, with representative rhythmic practice when needed | When timing is rhythmic, as in the salsa example; ordinary bodily regulation need not require this framework |
 
-SOM also needs the receiving practice's technique, criteria and physical limits. A dance, musical or tool-use method supplies those domain contributions; SOM's writing and dance examples are not complete instruction in either discipline.
+SOM also needs the receiving practice's technique, criteria and physical limits. Use the relevant dance, music or tool-use practice for those contributions. The writing and dance examples illustrate somatic questions under their stated conditions.
 
-If a companion changes a relied-on operation, revisit the combinations that use it. A selected external teacher or lesson must likewise be suitable for the actual movement task; a link to a school alone does not supply that result.
+If a companion changes an operation on which the work relies, reconsider the combinations that use it. Establish whether a teacher or lesson can supply suitable instruction for the movement in question.
 
 ## SOM.Reference:End
 
@@ -182,65 +182,65 @@ If a companion changes a relied-on operation, revisit the combinations that use 
 
 ### SOM.1:1 - Problem frame
 
-Use this when a movement instruction names a visible result but leaves you unable to decide what to change in your own bodily action, or when a familiar bodily correction stops producing the required result.
+Use this Method when you know the result a movement should produce but need to understand the bodily action that contributes to it. A once-useful correction that now fails can raise the same question.
 
-The object being modeled is the bodily contribution to a particular movement. Relate what the performer experiences, what they deliberately change and what the action produces. The first useful result is a proposed connection that can guide an attempt, together with an observation that could contradict it.
+Choose a particular movement. Relate what the performer experiences and can deliberately change to what happens in the action. Report a connection the evidence supports, or propose one and identify an observation that would count against it. Where a correction is the aim, use that connection to choose a suitable change.
 
-Begin with a familiar technique and comfortable conditions whose limits you understand, or obtain that instruction from a qualified teacher. When the required technique, loading conditions or cause of pain is unresolved, obtain the appropriate domain or clinical contribution before making the bodily attempt.
+For a bodily attempt, use familiar technique and comfortable conditions whose limits you understand, or obtain suitable instruction from a qualified teacher. If technique, loading conditions or a question about pain makes the attempt uncertain, obtain the relevant movement or clinical guidance before attempting it.
 
 ### SOM.1:2 - Problem
 
-An external instruction, an anatomical explanation and the performer's experience answer different questions. “Keep the line continuous” identifies a result. “Relax your hand” proposes a change but may leave its location, amount and effect unclear. Naming a muscle does not show that the performer can distinguish or regulate the needed change.
+An instruction to “keep the line continuous” names the result. “Relax your hand” proposes a change, but the writer may still need to know where, by how much and with what effect. An anatomical name can identify a structure. That name does not show whether the writer can distinguish or regulate the change the correction requires.
 
-The correction can also target the wrong cause. A broken line might reflect pen control, movement, contact conditions or the pen and paper. Treating every failed result as a bodily deficit sends the learner into unnecessary practice.
+A line can break because of pen control, the movement, contact or the pen and paper. Check which explanations the observations support before prescribing further bodily practice.
 
 ### SOM.1:3 - Forces
 
-The model needs enough bodily detail to choose a useful change, but more detail than the performer can distinguish cannot guide regulation. A local change must remain connected to the other actions needed at the same time. An outside observer can supply information the performer lacks; the performer's account supplies information the observer cannot infer from appearance alone. An attempt should distinguish plausible explanations without requiring a complete physiological theory.
+Use the bodily detail the question requires. A change meant to guide the performer’s deliberate regulation must be one they can distinguish and use. Include the other actions that must continue. An observer may see a contact change the performer missed. The performer may feel a change an observer cannot see. A comparison can distinguish candidate explanations without identifying the full physiological mechanism.
 
 ### SOM.1:4 - Solution
 
 #### SOM.1:4.1 - Choose the action interval
 
-Name the required result and choose an interval in which the difficulty appears. Recover the support, contact, timing and other conditions that can change that result. State what must continue while the proposed correction is made.
+Identify the required result and the interval in which the question arises. Establish the support, contact, timing and any other condition that could affect it. Identify what was happening at the same time that mattered to the movement, including what must continue during any proposed correction.
 
 For a dancer, the interval may include transferring support during a turn while steps and partner interaction continue. For a writer, it may be the part of a stroke where forearm support changes. Use the technique and criteria of that practice.
 
 #### SOM.1:4.2 - Relate three accounts
 
-Describe:
+For the same interval, establish what the evidence supplies about each of the following. Leave an unavailable account open.
 
 - **Experience:** where a change is felt, its direction and how it develops.
 - **Regulation:** what the performer can deliberately increase, decrease, release or coordinate in those conditions.
-- **Movement result:** the relevant change in contact, position, timing or produced result.
+- **Movement result:** what happened to the contact, position, timing or other outcome that matters to the task.
 
-Locate the experienced change by a bodily landmark and direction. Use the resolution the performer can distinguish. Subdivide an experienced region only when the finer distinction changes the attempt. A location in this account does not by itself identify a muscle, tissue or physical cause.
+Locate the felt change by a bodily landmark and direction where the performer can distinguish them. Use a finer account of the felt region when the performer can make that distinction and it matters to the question. To identify tissue or a physical cause, use evidence for that separate claim.
 
-Keep an observer's report and the performer's report attributable to their respective observations. If the performer cannot yet express a distinction, comparison, pointing or a demonstrated contrast may make it describable.
+Identify which observations come from the performer and which come from another observer. If the performer notices a difference but cannot yet describe it, a comparison, gesture or demonstrated contrast may help them communicate it.
 
-Include an involuntary response when its observed effect matters to the movement. Record whether the performer can change it separately from whether they notice it. Use the proposed connection to decide which previously unattended effort to investigate; eliminating all background effort is not the task.
+Include an involuntary response if it affects the movement. Establish separately whether the performer notices it and whether they can regulate it. Investigate a previously unnoticed effort when the model gives a reason to expect it will matter.
 
 #### SOM.1:4.3 - Propose a change and a test
 
-State the connection in ordinary working language: “When I change this effort, I expect this part of the action to change, while these other actions continue.” Name what would count against that expectation.
+For a proposed change, state the bodily change the performer would try, its expected effect in the movement and the other actions that must continue. For example, “With a lighter hold I expect to keep the pen in contact while guiding the stroke.” Identify an observation that would count against the expectation.
 
-Try a small, familiar change within the practice's limits. Compare the bodily report and the movement result. Use another observation or attempt when inspecting everything within one action would itself disrupt it. Preserve differences between those attempts; do not infer a cause from an uncontrolled comparison.
+Use a suitable existing comparison when it answers the question. If a new attempt is needed, try a small, familiar change within the limits of the practice and compare the bodily report with the movement result. Separate observations or attempts can help when attending to everything at once would disrupt the action. Account for differences between attempts before attributing a result to the change.
 
-When comparing attempts or passing the result to a teacher, retain the conditions and separate what was felt, what was deliberately changed, what could be repeated and with what help, and what happened in the movement. A brief spoken account or note is enough when it supports the next choice. Describe felt intensity separately from the location or extent of the felt region when this distinction changes the attempted correction. Being able to notice, regulate and reproduce a change are separate results.
+For comparison or feedback, describe the conditions, what was felt, what was deliberately changed, what could be repeated, any help received and what happened in the movement. A short spoken account or note can suffice. Distinguish felt intensity from the position or extent of the region if that affects the correction. Assess noticing, regulating and reproducing the change from their respective evidence.
 
-Check external conditions when bodily control appears available but the result still fails. Change an available external condition if the work permits it. A restored result can establish a useful alternative without establishing why the earlier condition failed.
+If bodily regulation appears available but the intended result still fails, check external conditions. If a different condition is permitted, compare it using suitable existing observations or an attempt. A restored result may justify using the alternative while the cause of the earlier failure remains open.
 
 #### SOM.1:4.4 - Choose the next move
 
-If the proposed change cannot be distinguished, use SOM.2. If it is distinguishable but not controllable, use SOM.3. If its constituents are available but their combination is not, use SOM.4. A change in support or load can require SOM.5 together with those operations.
+Use SOM.2 if a needed change cannot be distinguished, SOM.3 if it can be distinguished but the required regulation is missing, and SOM.4 if available parts have yet to work together. Use SOM.5 when changing support or load affects the action. Return the resulting finding to the movement you are investigating.
 
-Retain an effective external adjustment without assigning unnecessary bodily learning. If the original conditions are mandatory, seek an explanation or technique appropriate to those conditions. When the observations cannot distinguish the remaining explanations, state the missing observation rather than selecting a bodily cause.
+Keep a permitted external adjustment that works. If the task requires the original conditions, establish what suitable explanation or technique is available for them. If the remaining explanations cannot be distinguished, identify the evidence that would distinguish them and the limit this places on the conclusion.
 
-Revise the model when a local correction fails in the whole action. End with a connection supported by the observations in the tried conditions, an available alternative, or a specific unresolved relation that determines the next attempt. Stop a physical attempt that produces pain, dizziness or an unfamiliar loss of control.
+If the local correction fails in the whole action, reconsider the proposed connection. Report what the observations support under the conditions examined, a usable alternative or the relation still unresolved. When another attempt is needed, base it on that unresolved relation. Stop a physical attempt if pain, dizziness or an unfamiliar loss of control occurs.
 
 ### SOM.1:5 - Archetypal Grounding
 
-A writer distinguishes a lighter hold around the pen, but the line sometimes breaks. A short account of this constructed attempt could read:
+Suppose a writer can distinguish a lighter pen hold but the line still breaks on some strokes. The writer and observer compare the following observations from a short attempt.
 
 | Question for this attempt | What the writer or observer reports |
 | --- | --- |
@@ -250,45 +250,45 @@ A writer distinguishes a lighter hold around the pen, but the line sometimes bre
 | What could be reproduced, with what help? | After one demonstration, the writer repeated the short stroke without another cue and again reported the lighter hold. Later recall and other strokes have not been tried. |
 | What happened in the writing? | The line still sometimes broke. |
 
-The account retains the three descriptions from section 4.2 and makes the repetition conditions visible. Neither clearer feeling nor repetition establishes the required mark or identifies inadequate grip. If repetition needs the teacher's cue, retain that condition; SOM.4 can address recalling the combined change when this is the missing contribution. Use SOM.2 or SOM.3 for an unavailable distinction or regulation instead, and SOM.5 when the difficulty arises with changing support or load.
+The reported feeling, the writer’s regulation and the resulting mark answer different questions. The repetition occurred after a demonstration and without another cue. The continued breaks leave the cause open. If repetition requires a cue, retain it as a condition. Use SOM.4 for missing recall of the combination, SOM.2 for a missing distinction, SOM.3 for missing regulation or SOM.5 when the difficulty occurs as support or load changes.
 
-In a constructed continuation, tip contact and movement remain, and changing paper restores a continuous mark without relearning the hold. If the work permits that paper, the writer can retain the regulation and use the new condition. If the original paper is required, the question returns to the writing tool and material. Repeating lighter-grip practice does not answer that question.
+Suppose the pen stays in contact and the writer keeps moving it. A change of paper restores a continuous mark with the same lighter hold. If the new paper is permitted, the writer can use it. If the original paper is required, investigate the pen and material under that condition. The successful stroke answers the practical question about the new paper while the cause of the earlier breaks remains open.
 
-For a salsa turn, a bodily change may feel more even while the dancer misses a step or disrupts the partner. The proposed correction has failed in the intended dance. The next model must retain those concurrent results, not merely describe the sensation more finely.
+A salsa dancer may feel a more even change yet miss a step or disrupt the partner’s movement. That attempt does not establish the required turn. Reconsider the proposed connection in light of the steps and partner interaction that had to continue, while keeping the cause of any disruption open until the evidence supports it.
 
 ### SOM.1:6 - Bias-Annotation
 
-A teacher's preferred body map can suggest useful questions while biasing both the reported experience and the explanation of a failure. Ask what the performer can actually distinguish and what was observed in the action. Keep attention, voluntariness and interference separate: an effort can go unnoticed without being irrelevant, and being noticed does not make it voluntarily controllable.
+A teacher’s preferred body map may suggest useful questions. It may also influence what the performer reports and how the teacher explains a failure. Establish what the performer distinguished and what happened in the action. An unnoticed effort can affect the movement. Once noticed, it may still be beyond the performer’s voluntary control.
 
 ### SOM.1:7 - Conformance Checklist
 
-A usable application identifies the movement interval and required result; distinguishes experience, deliberate change and external observation; proposes a change with a contrary observation; retains the actions that must continue; and chooses a next move from the observed result. Unknown physical causes and unavailable information remain unknown. The scope of the result includes its actual support and conditions.
+Identify the interval and the required movement result. Relate the available observations of the performer’s experience, deliberate action and movement result, including the actions that had to continue, the support and the conditions examined. State what the evidence supports and where an account is unavailable. If proposing a change, identify a result that could count against it and use the observations to select any further work the task requires.
 
 ### SOM.1:8 - Common Anti-Patterns and How to Avoid Them
 
-**An anatomical label substitutes for a bodily instruction.** The learner can repeat the label but cannot use it to change the action. Restore a distinguishable contrast and a regulated change; retain anatomy for the explanation it can support.
+**An anatomical label leaves the action unclear.** If the learner can repeat the label but cannot act on it, find a contrast they can distinguish and a change they can regulate. Use anatomy for the explanation it supports.
 
 **Every output failure becomes a training need.** The broken-line case invites this mistake. Inspect the connection and external conditions before assigning more bodily practice.
 
 ### SOM.1:9 - Consequences
 
-The model can make a correction discussable and testable by performer and teacher. It may also show that no new bodily learning is needed. Producing this model does not establish learning, physical causation or transfer to another movement. Maintaining all three accounts costs attention; use only the detail that changes the current decision.
+A performer and teacher can use the model to discuss and test a correction. The comparison may show that a change outside the body already gives the required result. Claims about learning, physical cause or transfer require evidence appropriate to each. Describing all three accounts takes attention, so use the detail needed for the question.
 
 ### SOM.1:10 - Architectural Rationale
 
-The three accounts are related through an attempted action rather than translated into one another by terminology. This lets a teacher combine inside and outside observations without erasing their different access. The same model also locates a bodily contribution within the simultaneous work of the encompassing activity.
+The movement gives the three accounts a common episode. The performer can describe how the change felt, an observer can describe contact or timing, and either may have evidence about what the performer deliberately changed. Those observations help relate the bodily contribution to the other work the action requires.
 
 ### SOM.1:11 - SoTA-Echoing
 
-For the question “How can a performer turn a correction into a bodily change they can try and assess?”, **adapt** the modeling aim of [system fitness](https://ailev.livejournal.com/1796805.html): connect bodily description and regulation to movement cultures. The publication is a methodological proposal, not comparative efficacy evidence. Here the connection is made explicit through the three accounts and the external-condition return.
+For a correction a performer can try and assess, we **adapt** the aim of [system fitness](https://ailev.livejournal.com/1796805.html) to connect bodily description and regulation with the movement practice. That source proposes a method. Here we compare three accounts and check relevant external conditions. A claim about comparative effectiveness requires evidence of the compared teaching outcomes.
 
-Direct technical instruction is a serious alternative. If a teacher can already supply a usable correction and its transfer conditions, the learner need not construct a detailed model. Modeling adds value when the correction's referent or effect is unresolved; it also adds effort.
+When a teacher can give a usable correction and identify the conditions in which it applies, the performer can use it directly. A model is worth the additional work when the referent or the effect of the correction remains open.
 
-In [Pawłowski and colleagues' finger-force experiment](https://doi.org/10.1007/s00221-024-06829-4), measured force drifted after visual feedback was removed, although participants later reported having followed the instruction to keep force constant. Their report concerned task compliance; the study did not measure constant felt effort. **Adapt** the distinction between a performer's account and measured output when comparing the three accounts in section 4. This teaching proposal extends beyond the experiment. Reconsider the model when a better task explanation or comparative teaching result changes which distinctions are useful.
+In [Pawłowski and colleagues' finger-force experiment](https://doi.org/10.1007/s00221-024-06829-4), measured force drifted after visual feedback was removed. Participants later reported that they had followed the instruction to keep force constant. The researchers measured force and asked about compliance. They did not measure constancy of felt effort. We **adapt** that distinction when comparing the accounts in §4. Reassess this teaching proposal when a better explanation of the task or a comparative study changes which distinctions are useful.
 
 ### SOM.1:12 - Relations
 
-SOM.2–SOM.5 supply bodily learning and coordination operations when the model identifies their need. FPF A.6.P.RI keeps accounts tied to the observer or performer whose access they use; B.5.EA supports expressing a distinction not yet adequately described. B.1.5.EW keeps the bodily action connected to the concurrent encompassing work. HCD.6 and HCD.9 supply practice construction and feedback; the receiving movement discipline supplies technique and success criteria.
+Use SOM.2–SOM.5 for the missing bodily learning or coordination. Use FPF A.6.P.RI to identify whose access supports an account, B.5.EA to express a distinction and B.1.5.EW to relate the bodily action to the concurrent activity. Use HCD.6 and HCD.9 for practice design and feedback. Obtain the technique and criteria of success from the movement practice.
 
 ### SOM.1:End
 
@@ -299,85 +299,85 @@ SOM.2–SOM.5 supply bodily learning and coordination operations when the model 
 
 ### SOM.2:1 - Problem frame
 
-Use this when a bodily instruction cannot guide action because the performer cannot distinguish the location, direction or developing change it names. The immediate result is a difference the performer can notice again under suitable conditions, not yet control of the movement.
+Use this Method when a bodily instruction is hard to act on because the performer cannot distinguish the location, direction or developing change it names. Report the difference the performer can notice again under suitable conditions, or the conditions under which they could not distinguish it. Identify what prevented recognition when the evidence supports that explanation. Assess control from evidence of regulation.
 
-Choose the distinction for a receiving task through SOM.1. If the distinction is already available, proceed to the missing regulation or combination. Use familiar comfortable conditions, or obtain a teacher's suitable construction; a verbal direction alone does not authorize unfamiliar loading.
+Start with the distinction the movement requires. Use SOM.1 if its relevance is uncertain. If the performer already distinguishes the change, use that finding and address any regulation or combination the movement still needs. For practice, choose familiar comfortable conditions or obtain suitable instruction from a teacher before using unfamiliar loading.
 
 ### SOM.2:2 - Problem
 
-The performer may understand the words but have no usable bodily referent. Repeating “less effort” or naming a smaller region does not ensure that two bodily changes feel different. An outside difference can also remain invisible from inside, while an inside difference can fail to affect the result.
+A performer can understand “less effort” yet have no bodily difference they can recognize. More specific anatomical words may leave the same difficulty. An observer may see a difference that the performer cannot feel. A difference the performer feels may leave the external result unchanged.
 
 ### SOM.2:3 - Forces
 
-A contrast must be large enough to notice and small enough to remain suitable for the movement. Support can make it accessible but may change the later task. Detailed vocabulary aids communication only after it refers to a distinction the performer can recover. Recognition and regulation can develop together, but a result about one cannot stand in for the other.
+Choose a contrast large enough for the performer to notice and suitable for the movement. A support can make the difference accessible and also change the task. Use detailed language once the performer can recognize what it describes. Noticing and regulating can develop in the same attempt. Use evidence for each claim.
 
 ### SOM.2:4 - Solution
 
 #### SOM.2:4.1 - Construct an accessible contrast
 
-Select two already available, comfortable variants of one task-relevant change. Vary the support, intended direction or amount only as needed to make the contrast accessible. Keep other conditions alike where possible; note any changes that could explain the difference.
+For a new comparison, select two comfortable ways the performer can already carry out one task-relevant change. Vary the support, intended direction or amount as needed to make that contrast accessible. Keep other conditions alike where possible and note any differences that could also explain the observation.
 
-Compare the first variant, the second and a return to the first. Attend to what changes during the action and after release. The return helps distinguish the proposed contrast from an unfamiliar one-time event.
+For a new trial, compare the first variant, the second and then the first again. An existing sequence showing those comparisons can supply the same evidence. Examine what changes during the action and after release. The return tests whether the performer can recognize the contrast again under these conditions.
 
 In familiar writing, compare the usual pen hold with a slightly lighter hold while the forearm rests in its usual supported position. Return to the usual hold. Do not deliberately increase load to obtain a stronger sensation.
 
 #### SOM.2:4.2 - Locate what is distinguishable
 
-Ask where the change is experienced, in which direction and how it develops. The answer can initially be a broad region, a gesture or “no reliable difference.” Bodily landmarks help recover a location without asserting which tissue produced the experience.
+Establish where the performer experiences the change, in which direction and how it develops. A first answer may be a broad region, a gesture or “no reliable difference.” A bodily landmark can help the performer locate the experience again. Identifying the tissue responsible requires other evidence.
 
-Use a coarser contrast or different suitable support when the distinction is unavailable. Do not require the performer to report the teacher's expected sensation. Refine the region only when the next action needs that resolution.
+If the task still requires a distinction the performer cannot make, try a coarser contrast or other suitable support. Accept the performer’s account, including that they could not tell the two variants apart. Refine the region when the movement question requires a finer distinction.
 
-An effort that is outside attention and an effort that is involuntary are different matters. Exploring a previously unnoticed change may make it reportable without making it controllable.
+Whether the performer notices an effort and whether it is voluntary are separate questions. The performer may learn to report a previously unnoticed change while still being unable to regulate it.
 
 #### SOM.2:4.3 - Connect the contrast to action
 
-Use the contrasted variants in a small instance of the receiving movement. Compare the experienced change with the relevant external result. In writing, make a familiar mark and observe pen security, guidance and contact. Retain coupling between those actions if changing the hold affects them together.
+To establish whether the difference is available in the receiving movement, use the variants in a suitable part of that movement or examine an adequate existing comparison. Relate the performer’s experience to the external result. For a familiar pen stroke, check security, guidance and contact. If a lighter hold changes these together, account for their coordination.
 
-If the lighter hold cannot keep the pen secure, return to an available hold. That boundary is informative; the lightest effort is not the goal. A distinction can remain useful even when one variant is unsuitable for performance.
+If the lighter hold leaves the pen insecure, use a hold that keeps it secure. The comparison still identifies a bodily distinction and a limit on using that variant for the stroke.
 
-Proceed to SOM.3 only for a change the performer can identify but cannot yet regulate as required. If the distinction disappears in the full action, preserve the conditions under which it was available and construct the needed combination or support transition. Do not report transfer from the preparatory contrast alone.
+Use SOM.3 if the performer recognizes a needed change but cannot yet regulate it. If the distinction disappears in the full action, report where it remained available. Use the relevant combination or support transition if the performer needs it in motion. A claim of transfer needs observations in the relevant changed condition.
 
 ### SOM.2:5 - Archetypal Grounding
 
-In the writing contrast, one performer reports a change around the fingers; another reports a broader hand-and-forearm change. Neither report is automatically more correct. The relevant question is whether the person can recover a distinction that helps choose or regulate the required action.
+In the writing comparison, one performer may report a change around the fingers and another a broader change in the hand and forearm. Check whether each can recognize their difference again. When the question concerns choosing or regulating an action, establish what that distinction helps the person do. The appropriate resolution depends on the person and the task.
 
-Suppose the performer can distinguish the usual and lighter hold while stationary but loses that distinction during the stroke. The outcome is a supported distinction, with combination in motion still unresolved. Another performer may distinguish the variants during motion while producing the same line. That establishes no need to prefer the lighter variant merely because it was the learning contrast.
+Suppose the writer distinguishes the usual and lighter hold while stationary and loses that distinction during the stroke. This supports recognition in the preparation and leaves its use in motion unresolved. Another writer might feel the difference while moving and produce the same continuous line with either hold. In that case the mark alone gives no reason to prefer one hold.
 
-In a familiar dance preparation chosen by the teacher, support can make two directions of an intended bodily change distinguishable before they can be used during a turn. The source of the directions and safe preparation remains dance instruction; this pattern provides the contrast and the return test.
+A dance teacher may choose a familiar supported preparation in which a dancer can distinguish two directions before using them in a turn. Use dance instruction for the directions and safe preparation. Compare the variants and return to the first to check the distinction under that support.
 
 ### SOM.2:6 - Bias-Annotation
 
-Expecting a named sensation can make the teacher accept agreement as discrimination. Accept different descriptions and an absent distinction. A reported difference may also reflect several simultaneous changes; preserve that ambiguity when the task has not separated them.
+A performer may agree with the teacher’s description without recognizing the contrast. Accept the performer’s description or the finding that it remains indistinguishable. If several conditions changed together, keep the cause of a reported difference open to the extent the observations leave it uncertain.
 
 ### SOM.2:7 - Conformance Checklist
 
-The contrast concerns a needed action, uses suitable conditions, includes a recoverable comparison and permits an absent distinction. The account identifies what the performer can now distinguish and with what support. Its connection to the movement has been attempted or remains explicitly unresolved; recognition is not credited as regulation.
+Identify the needed action, the variants compared and the conditions that made a comparison suitable. Report what the performer could distinguish, with what support, or what remained indistinguishable. State the evidence for its use in the receiving action if that is part of the question. Keep claims about regulation within the evidence of deliberate control.
 
 ### SOM.2:8 - Common Anti-Patterns and How to Avoid Them
 
 **Finer wording is treated as finer perception.** A learner repeats a detailed bodily description without distinguishing the changes. Return to an accessible contrast.
 
-**Preparation success becomes whole-task capability.** A distinction available only with support does not yet guide an unsupported moving task. Test the receiving condition and retain the difference.
+**A supported preparation is used to claim whole-task capability.** Report the distinction under its support conditions. To claim that it guides an unsupported moving task, use suitable observations in that condition.
 
 ### SOM.2:9 - Consequences
 
-The performer and teacher can gain a shared referent for a correction. This can reduce unproductive repetition of words, but no learning time or degree of improvement follows from the procedure alone. Support and broad distinctions may remain useful; removing either requires a reason in the receiving task.
+The performer and teacher can use the recognized contrast to refer to the same correction. This may reduce time spent repeating an instruction. An estimate of time saved or learning improvement needs evidence. Keep the support or the broader distinction when it serves the receiving task.
 
 ### SOM.2:10 - Architectural Rationale
 
-A contrast ties an expression to recoverable experience. The return to the first variant and the subsequent action comparison serve different functions: one makes the distinction inspectable, the other asks whether it matters for the movement. This is why bodily distinction remains a separate operation from producing a controlled change.
+A recoverable contrast gives the bodily instruction a referent the performer can recognize. Returning to the first variant checks whether they can recognize the difference again. Comparison in the receiving action tests whether it matters there. Evidence of deliberate change is needed to establish regulation.
 
 ### SOM.2:11 - SoTA-Echoing
 
-For making an unavailable bodily distinction usable, **adapt** HCD.6.1's contrast-and-return construction to support, direction and experienced change. The alternative is repeated verbal or anatomical explanation. That can suffice when the referent is already known; when it is not, this pattern requires an encounter with a bodily difference.
+To make a bodily change distinguishable, we **adapt** the contrast and return in HCD.6.1 to the support, direction or other felt change relevant to the task. A verbal or anatomical explanation can suffice when the performer already knows the bodily referent. If it is missing, choose a suitable encounter with a difference the performer can experience.
 
-Supported direction and effort contrasts supply a bodily instance of that learning construction. This is a proposed teaching construction. The unresolved comparative question is which contrasts and supports best serve a particular learner and task. A suitable domain method that supplies that answer changes the contrast selected here, rather than requiring the learner to complete a universal sequence.
+Support and contrasts in direction or effort are proposed ways to teach the distinction. Which contrasts and which forms of support suit this performer and task remain questions for comparison. Use a qualified movement method when it supplies a suitable answer, and adjust the contrast or support to the evidence.
 
-The trade-off is preparation time and support in exchange for a referent that can guide the next attempt. Reopen the selection if the contrast cannot be recovered, fails to connect to the target action, or suitable movement instruction supplies that connection with less burden.
+Preparing and supporting the contrast takes time. It can supply a bodily referent that guides the next attempt. Reconsider the choice if the performer cannot recognize it again, if it fails to help the receiving movement, or if suitable instruction can provide the needed connection with less effort.
 
 ### SOM.2:12 - Relations
 
-SOM.1 selects the distinction worth learning and keeps its effect open to investigation. SOM.3 uses an available distinction for regulation; SOM.4 and SOM.5 carry it into combined movement and changing support. HCD.6.1 supplies general learning by contrast; HCD.6 constructs representative practice and HCD.10 varies and progresses it in response to the learner's performance. FPF B.5.EA helps express the recovered distinction.
+Use SOM.1 to identify a distinction that matters to the movement and investigate its effect when that is the question. Use SOM.3 for missing regulation, SOM.4 for coordination and SOM.5 for changing support. HCD.6.1 gives the general contrast-and-return method. Use HCD.6 to design representative practice and HCD.10 to vary or progress it in response to performance. Use FPF B.5.EA to express a distinction the performer can now recognize.
 
 ### SOM.2:End
 
@@ -388,87 +388,87 @@ SOM.1 selects the distinction worth learning and keeps its effect open to invest
 
 ### SOM.3:1 - Problem frame
 
-Use this when a performer can distinguish a task-relevant bodily change but cannot increase, reduce or release it with the control the movement requires. Work on a change in effort under familiar, suitable conditions.
+Use this Method to investigate how a performer regulates a distinguishable bodily change, or to develop the increase, reduction or release a movement requires. For practice, work under familiar, suitable conditions and identify the required result.
 
-The result is an available increment or release, together with the conditions in which it can be regulated and its effect on the action. Use SOM.2 first when the bodily difference itself is unavailable. Obtain domain instruction when the required action or suitable load is unknown.
+Establish which increments or releases the performer could regulate, under what conditions and with what observed effect. Report any relevant limit. Use SOM.2 when practice requires a difference the performer cannot distinguish. Obtain suitable instruction if the intended attempt requires an action or load whose suitability is unknown.
 
 ### SOM.3:2 - Problem
 
-A person may notice an effort only after it has ended, overshoot while trying to change it, or report an unchanged effort while the external result drifts. Practice needs to move from an accessible response to regulation during the action, without confusing sensation with force or successful reporting with control.
+The performer may first notice a change after release, overshoot the desired change or report constant effort while the output drifts. To develop control, begin with a change the performer can recognize and practise adjusting it as the action unfolds. Compare the report of effort with the external result the movement requires.
 
 ### SOM.3:3 - Forces
 
-A smaller increment can improve control but can also disappear from discrimination. Feedback can reveal drift while making performance dependent on that feedback. A useful local reduction must retain support, contact and the other actions required by the task. Less effort is beneficial only in relation to what the action needs.
+Smaller increments can allow finer control until the performer can no longer distinguish them. Feedback may expose drift and also become necessary for the result. Judge a reduction in effort by whether the performer retains the contact, support and other actions the movement requires.
 
 ### SOM.3:4 - Solution
 
 #### SOM.3:4.1 - Establish an available change
 
-Choose the receiving result and the bodily change from SOM.1. Recover a contrast the performer can already distinguish under these support and contact conditions. Begin with a familiar amount of effort that serves the task; do not seek a maximum or minimum merely to produce a clearer report.
+Identify the required result and the proposed bodily change. Use SOM.1 if the connection is unclear. Find a contrast the performer can already distinguish with the relevant support and contact. Start at a familiar amount that serves the task.
 
-Identify how the change develops and what is experienced after release. If release makes the difference noticeable when its development was unclear, use that report to choose the next attempt.
+Establish what the performer notices as the change develops and after release. If the difference is first noticed at release, use that observation when planning any further attempt.
 
 #### SOM.3:4.2 - Adjust in discernible increments
 
-Produce a small increase, reduction or release within the technique's ordinary limits. Observe its development, release and effect. Use the observed difference to choose the next increment.
+For practice, make a small increase, reduction or release within the familiar technique’s limits. Observe the change as it develops, what follows release and the effect on the movement. Choose another increment if the result gives a reason to refine or adjust it.
 
-Reduce the increment only while the performer can distinguish it and its effect still answers the working question. If it becomes indistinguishable, restore an available increment or change suitable support. If a reduction loses necessary contact or support, return to a working amount. The boundary of a useful reduction is part of the result.
+Refine the increment while the performer can still distinguish it and finer control matters to the task. If the change becomes indistinguishable, restore a usable increment or adjust the support within known limits. If a reduction loses required contact or support, return to an amount that works. Report that limit on the usable range.
 
-Practise regulating while the effort develops. A report after release can help learning, but it does not show that adjustment was available during the action. When the report changes without the expected external effect, revisit the proposed connection rather than merely reducing the increment again.
+If the performer needs to learn to adjust during the action, practise while the effort develops. After-release reports can guide learning. To establish control during the action, use evidence from that interval. If a reported change leaves the expected external effect absent, reconsider the proposed connection.
 
 #### SOM.3:4.3 - Compare experience and effect
 
-Observe the result the receiving task needs: security of a held tool, continuity of contact, position or another relevant effect. Where suitable, an instrument may make that external effect easier to observe. Keep its resolution and what it measures explicit.
+Observe the result the task requires, such as tool security, continuity of contact or position. An instrument can help when it measures a relevant quantity at a suitable resolution. Identify the quantity and what changes the reading can resolve.
 
-Compare the sensation report with the observed task result to decide whether the intended regulation occurred. When force is measured, keep the report distinct from the measurement. A constant-looking instrument reading cannot tell you which bodily change produced it.
+Compare the performer’s report with the observed movement result. Establish what each shows about the intended regulation under the conditions examined. If force is measured, distinguish the force reading from the report of sensation. A stable reading alone leaves open which bodily action produced it.
 
 #### SOM.3:4.4 - Restore the conditions of use
 
-Use feedback that the work permits. If later performance must occur without watching the instrument or receiving the teacher's cue, test that condition separately within the practice's limits. If continued feedback is permitted, retaining it can be a useful arrangement.
+Use feedback permitted in the intended work. If later performance must occur without a display or a teacher’s cue, use evidence from that condition and arrange a suitable attempt when needed. If continuing feedback is permitted and supports the required result, the performer can retain it.
 
-Restore movement and the other contributions that must continue. Use SOM.4 when serial correction prevents their joint performance, and SOM.5 when a changed support or load makes the previously available regulation fail. Stop an attempt that produces pain, dizziness or unfamiliar loss of control; a failed increment is not a diagnosis.
+For a claim about the whole movement, use evidence under its required conditions, including the actions that must continue. Restore those actions when a new attempt is needed. Use SOM.4 when checking one element after another prevents joint performance and SOM.5 when changing support or load disrupts regulation. Stop an attempt if pain, dizziness or unfamiliar loss of control occurs. A failed increment identifies a limit in that attempt. Its cause requires other grounds.
 
 ### SOM.3:5 - Archetypal Grounding
 
-With the forearm in a familiar writing position, a writer can distinguish a small release of the pen hold. The writer tries a slightly smaller release step, observes whether the pen remains secure and makes a short familiar mark. If a reduction in holding effort makes guidance unreliable, the writer returns to the preceding available hold. The useful result is a controllable range for this action, not the smallest achievable squeeze.
+With the forearm in a familiar writing position, the writer can distinguish a small release of the pen hold. The writer tries a smaller release step and makes a short mark, checking whether the pen remains secure. If reducing the holding effort makes guidance unreliable, the writer returns to the preceding usable hold. Report the range of effort the writer can control while making this mark.
 
-In a separate constructed force task, a learner holds a force reading near its target while watching the display, but the reading drifts when feedback is hidden. The learner reports the same effort. Force control with visual feedback has been demonstrated; control without that feedback has not. The teacher can retain feedback when the work permits it, revise the bodily contrast, or continue practice. None of those observations identifies a particular muscle as the cause.
+Suppose a learner keeps measured force near its target while watching a display. With the display hidden, force drifts although the learner reports unchanged effort. The first attempt supports control with visual feedback. The drift alone does not tell us whether the unaided force stayed within a permitted tolerance. If the task permits feedback, the teacher can retain it. If it requires unaided control, compare the reading with that requirement and consider another contrast or practice if control is missing. A conclusion about which muscle caused the drift needs other evidence.
 
-A dancer can similarly learn a discernible adjustment in a familiar preparation yet lack it while turning. Regulation in the preparation remains a result, while its combined use requires another attempt.
+A dancer might regulate an adjustment in a familiar preparation and lose it in a turn. Report the regulation under the preparation conditions. To assess the turn, use observations in motion. To learn a missing combination, choose an attempt that retains the relevant turning action.
 
 ### SOM.3:6 - Bias-Annotation
 
-A comfortable feeling, an instructor's preferred description or a stable display can each become an attractive substitute for the actual target. Preserve the movement criterion and the distinction between inside report and outside observation. Do not infer that an involuntary effort has become controllable merely because the performer notices it.
+Judge control by the movement criterion and evidence of the performer’s regulation. Comfort, agreement with the teacher’s description and a stable display can each answer a narrower question. If the performer notices an involuntary effort, establish separately whether they can regulate it.
 
 ### SOM.3:7 - Conformance Checklist
 
-The application starts from a distinguishable change, stays within suitable conditions, adjusts only in useful discernible increments and compares bodily report with the receiving effect. It distinguishes after-release information from regulation during effort. Its result states actual feedback and support, including any difference from the target performance.
+Identify the distinguishable change, suitable conditions and increments relevant to the task. Compare the evidence about felt or deliberately regulated changes with the observed external result, identifying any unavailable account. Distinguish what was noticed after release from regulation during the effort. Report the feedback, support and limits that qualify the finding.
 
 ### SOM.3:8 - Common Anti-Patterns and How to Avoid Them
 
-**Undetectably small means precise.** Further reduction is credited when the performer can no longer distinguish the increment. Restore an available contrast and test control.
+**The increment becomes too small to distinguish.** Return to a contrast the performer can recognize. Use an observable change and its effect to assess control.
 
 **A constant-effort report certifies constant output.** Compare the report with the task's external result. When feedback is removed, observe the resulting performance rather than carrying over the supported conclusion.
 
 ### SOM.3:9 - Consequences
 
-Incremental work can produce a controllable local change or reveal its current limit. It can also expose a mistaken model of the action. It gives no universal effort scale, prescribed training duration or guarantee of transfer. Seeking more bodily resolution after the working criterion is met can consume attention without improving the task.
+Incremental practice can produce a usable change or identify its present limit. A contrast can also expose a mistaken model. The resulting range applies under the observed conditions. Choose training duration or progression from the task and the performer’s response. Seeking finer resolution after the criterion is met can consume attention without improving the movement.
 
 ### SOM.3:10 - Architectural Rationale
 
-The regulation loop uses experience to choose a change and the action's result to assess its usefulness. Development and release provide different observations within that loop. Keeping them distinct permits learning from an after-effect without claiming control earlier than it has been demonstrated.
+Use the performer’s experience to choose an adjustment and the external result to assess its usefulness. When someone else evaluates the attempt, distinguish what the performer reported from what was observed. What happened while the effort developed can support a claim about control during the action. The after-effect can help the performer choose a further attempt.
 
 ### SOM.3:11 - SoTA-Echoing
 
-For regulating an effort while retaining a movement result, **adapt** bodily increment practice together with HCD.9's actionable feedback and retry. Repeating a fixed instruction is the simpler alternative when the performer already has the needed control. When control is unresolved, the proposed construction makes the attempted change and its effect comparable. The additional observation takes time and attention.
+To regulate effort while retaining the required result, we **adapt** bodily increment practice and the feedback and retry in HCD.9. When the performer already has the required control, a familiar instruction can suffice. If control is uncertain, compare the attempted change and its effect. This takes time and attention.
 
-[Pawłowski et al.](https://doi.org/10.1007/s00221-024-06829-4) observed force drift without visual feedback despite participants' later reports of following the constant-force instruction. This was not a measure of unchanged felt effort. **Adapt** the comparison between feedback conditions in section 4.4. The constructed case in section 5 adds a hypothetical effort report; neither that case nor the experiment validates increment practice as a remedy.
+[Pawłowski et al.](https://doi.org/10.1007/s00221-024-06829-4) observed force drift after visual feedback was removed. Participants later reported following the constant-force instruction. The study measured force and asked about compliance. The effort report in §5 belongs to the constructed example. We **adapt** the comparison of feedback conditions in §4.4. To judge incremental practice as a remedy, one would need evidence that the practice improves the required regulation.
 
-[Herzberg, Halperin and Wolpe](https://doi.org/10.3758/s13415-025-01346-5) study overall effort ratings in relation to force and task features. Their measure does not supply a scale for a localized felt change. **Reject** transferring that measurement meaning into the performer's local vocabulary. A comparative learning method that improves the required regulation at lower cost, or a failure of this proposed loop, reopens the choice of practice.
+[Herzberg, Halperin and Wolpe](https://doi.org/10.3758/s13415-025-01346-5) studied overall effort ratings in relation to force and task features. We **reject** using that measure as a scale for a localized felt change. Reconsider the practice if it fails to provide the needed regulation or if another method achieves that result at lower cost.
 
 ### SOM.3:12 - Relations
 
-SOM.2 supplies bodily discrimination and SOM.1 the proposed relation to the task. SOM.4 coordinates available changes; SOM.5 revises their use under changing support. HCD.9 supplies feedback and retry, HCD.10 the distribution of practice, and HCD.11 the interpretation of performance evidence. The movement discipline retains loading limits and technique.
+Use SOM.2 for a missing distinction, SOM.1 for the proposed relation to the task, SOM.4 for coordination and SOM.5 when the conditions of support change. Use HCD.9 for practice with feedback and retry, HCD.10 for its distribution and HCD.11 to interpret performance evidence. Obtain technique and loading limits from the movement practice.
 
 ### SOM.3:End
 
@@ -479,93 +479,93 @@ SOM.2 supplies bodily discrimination and SOM.1 the proposed relation to the task
 
 ### SOM.4:1 - Problem frame
 
-Use this when bodily changes are separately available, but reconstructing them one by one interrupts the movement that needs them together. Build a coordination the performer can recall as it develops.
+Use this Method when the performer can make the necessary bodily changes separately but checking them one by one disrupts an action that requires them together. The aim is a coordination the performer can recall as it unfolds.
 
-An ensemble in this pattern is a task-selected combination of bodily changes. It is not required to occupy one continuous anatomical region. The intended result is a combined change that serves the receiving movement under stated conditions.
+An ensemble is the combination of bodily changes the task requires. Its contributing regions may be separate, including regions that are not anatomically adjacent. Judge the combined change by its result in the receiving movement under the conditions examined.
 
-Do not start by memorizing a sensation for a combination that has never been available. First construct a workable portion or obtain suitable instruction.
+To learn recall, first identify a workable portion the performer has experienced. If the required combination has never been available, construct a suitable portion or obtain the instruction needed to do so.
 
 ### SOM.4:2 - Problem
 
-An action may need several changes at once: hold and guide a tool, transfer support while turning, or coordinate with a partner while maintaining timing. Conscious serial correction can disrupt those relations. Remembering an end posture leaves the entry, development and exit of the action unresolved.
+Holding and guiding a tool, transferring support during a turn, or keeping time while coordinating with a partner can require actions to develop together. Correcting them one by one may interrupt the movement. Remembering its end posture leaves open how the performer enters, sustains and leaves it.
 
 ### SOM.4:3 - Forces
 
-Detailed observation helps construct a coordination but consumes attention during its use. Learning a combined feel can simplify recall, yet that feeling can become detached from the required result. New contributions can disturb an old combination. Practice must therefore reduce construction burden without losing the actions that make the coordination useful.
+Detailed observation helps the performer build a coordination but takes attention during use. Recalling its unfolding feel may reduce that demand. Keep the required external result in view, especially when adding a change that can disturb one already available.
 
 ### SOM.4:4 - Solution
 
 #### SOM.4:4.1 - Select the needed combination
 
-Use SOM.1 to name what must happen together in the selected interval. Keep the encompassing result visible: pen guidance with contact; balance with stepping and partner relation; or another practice's actual requirement.
+Identify the actions that must occur together in the chosen interval. Use SOM.1 if the relevant relation is unclear. A writer might need to guide the pen while maintaining contact. A dancer might need to balance, step and keep the relation to a partner.
 
-First try a suitable cue about the movement's effect when one is available from the practice. If it produces the required action, retain it. When the cue does not supply the needed coordination, inspect each uncertain constituent under the conditions in which it must join the others. Use SOM.2 or SOM.3 for a distinction or regulation that is missing there. Separate success in different conditions does not establish that all parts are ready for combination.
+A cue about the movement’s effect may already give the required action. Use it when it works, or try a suitable cue if its contribution is open. If it leaves the coordination unresolved, examine the uncertain parts in the conditions in which they must work together. Use SOM.2 for a missing distinction and SOM.3 for missing regulation. Success with each part under different conditions leaves their combination to be established.
 
 #### SOM.4:4.2 - Assemble from a workable portion
 
-Start with a combination the performer can carry out. Add the next needed change and observe what happens to the preceding ones. Reduce irrelevant task burden while keeping the relation being learned. A short stroke may remove unrelated drawing; it must retain changing support if that is the source of difficulty.
+Start with a combination the performer can carry out. Add a needed change and observe its effect on the actions already in the combination. Reduce irrelevant demands while preserving what needs to be learned. In writing, shorten the drawing if that helps, but keep the support transition when the failure occurs there.
 
-Distribute detailed observation across comparable attempts when checking every part within one action interrupts it. Attend to one bodily relation during one attempt and inspect the concurrent contribution or external result in another. Preserve differences between attempts. An observer's assistance remains part of the conditions.
+If checking every part during one movement interrupts it, distribute observations over comparable attempts. Attend to a bodily relation in one attempt and observe a concurrent contribution or movement result in another. Retain differences between attempts and identify any help received from an observer.
 
-If the added change makes the combination unavailable, locate what failed before adding more. Prepare that relation, alter suitable support, or obtain a demonstration that exposes the missing change. An instruction to recall an unavailable whole cannot replace this construction.
+When an added change disrupts the combination, locate the failure before adding another. Prepare the missing relation, adjust support within the practice’s limits or obtain a demonstration that makes the change available to investigate. Recall practice starts once the performer can produce a workable combination.
 
 #### SOM.4:4.3 - Learn and recall the development
 
-Attend to how a workable combined change starts, develops and releases. Practise recalling that unfolding feel during another instance of the same receiving action. Keep the observable result and concurrent contributions as the success criterion.
+Attend to how a workable combined change starts, develops and releases. Practise recalling how the coordinated action feels as it unfolds in another instance of the receiving movement. Judge it by the observable result and the other actions that must continue.
 
-When combining portions, let them overlap and check the overlap in motion. Pauses can support preparation; they do not demonstrate a continuously coordinated action. Use SOM.5 when the connection between portions depends on changing support or load.
+When joining portions, overlap them and check the overlap in motion. A pause can serve preparation. To support a claim about continuous coordination, use observations during continuous movement. Use SOM.5 if changing support or load affects the connection.
 
-When a contribution is added or changed, learn the revised combination. Check what happened to the earlier contributions instead of assuming that their former availability survived.
+When a bodily contribution is added or changed, check whether the other required actions still work with it. Use an already workable revised combination, and practise it when it is missing.
 
 #### SOM.4:4.4 - Return to whole performance
 
-Restore the required duration, speed, support, timing and interactions. Keep practice assistance visible and test its removal only when the later work requires independence. Compare a usable cue about the movement's effect with continued bodily monitoring when choosing how to perform the whole. Retain the cue or attentional focus that supports the required action.
+For a new attempt at the receiving movement, restore the duration, speed, support, timing and interactions it requires. Identify any assistance received. When later use requires independence from a particular aid, assess that condition from suitable existing observations or a new attempt. Where attentional focus still needs to be chosen, compare a cue about the movement’s effect with bodily monitoring and retain what serves the whole action.
 
-If recall feels familiar but the result fails, return to the observed discrepancy. A lost bodily distinction, unavailable regulation, disturbed combination and mistaken task model require different continuations. Record the available combination and its limits; do not turn one successful attempt into a general capability claim.
+When familiar recall yields an unsuitable result, locate the discrepancy. The missing contribution might be a bodily distinction, regulation, coordination or a suitable account of the task. Report which combination, if any, worked and under what conditions. A broader capability claim requires evidence covering its scope.
 
 ### SOM.4:5 - Archetypal Grounding
 
-A writer can hold a pen securely and guide a stroke, yet pauses whenever checking grip, wrist and forearm in sequence. The writer starts with a familiar short mark in which hold and guidance work together, attends to its development, and tries recalling it for another mark. Observation is distributed across attempts. A continuous mark provides a task result against which the recalled feel can be compared.
+A writer can hold a pen securely and guide a stroke but pauses to check grip, wrist and forearm in turn. The writer starts with a familiar short mark in which hold and guidance work together, attends to how the combination develops and tries to recall it for another mark. Across attempts the writer and any observer can examine different details. The written line provides evidence about whether the repeated stroke remained continuous.
 
-If the task instead requires a forearm-support transition and every short fixed-support mark succeeds, those marks have not prepared the missing relation. SOM.5 constructs the transition. This separates reducing task burden from removing its consequential difficulty.
+If the stroke requires a transition in forearm support, successful short marks under fixed support leave that transition untested. Use SOM.5 to construct it when learning the transition is the task. Shortening the movement helps only if the reduced task retains the relation that matters.
 
-In a salsa figure, the dancer and teacher select the combination needed during the turn. A bodily adjustment that interrupts stepping or the partner relation has not joined that combination, even if the dancer can reproduce its isolated sensation. Dance instruction supplies the turn and its suitable preparation.
+For a salsa turn, identify the bodily change that must work with the steps and the partner’s movement. If the adjustment interrupts either, reproducing its isolated feel does not yet give the required turn. Use dance instruction for the turn and suitable preparation.
 
 ### SOM.4:6 - Bias-Annotation
 
-The teacher can mistake a tidy description for a usable coordination. The performer can favor a familiar feel even after conditions have changed. Preserve the required result and allow different bodily organizations to serve it. Select the participating regions and their effort from the receiving movement.
+A clear description can coexist with unreliable coordination. A familiar feeling can also outlast the conditions in which it gave the required result. Judge the action and let the task determine which regions and effort changes need to participate. Different bodily organizations can give the same suitable outcome.
 
 ### SOM.4:7 - Conformance Checklist
 
-The application names the concurrent requirements, begins from an available portion or an explicit missing construction, distinguishes detailed preparation from recall, and checks the developed combination in the receiving action. Added changes trigger a check of earlier contributions. Paused preparation, assistance and successful endpoint postures are not credited as uninterrupted independent performance.
+Identify the concurrent requirements and any available portion or missing construction. For learning, distinguish detailed preparation from recall of the developing movement. Check how an added or changed contribution affects the others. For a claim about the whole action, use evidence under its conditions. Paused preparation, aided performance and success at endpoints support findings limited to those conditions.
 
 ### SOM.4:8 - Common Anti-Patterns and How to Avoid Them
 
-**Recall is requested before construction.** The learner is told to remember a combined feel that has never supported the task. Obtain a workable portion or demonstration first.
+**The performer is asked to recall a combination they have never produced.** Work from a usable portion or get a demonstration that helps construct one. Then practise recalling the combination once it has worked in the task.
 
 **The preparation removes the relation that fails.** Easy fixed-support marks are practiced for a changing-support difficulty. Retain the transition in the reduced task and test it in motion.
 
 ### SOM.4:9 - Consequences
 
-The method offers a way to make a complex bodily contribution available without rebuilding every constituent consciously during use. This can free attention for other demands, but the amount of attention saved is not established by the description. Relearning has a cost when a new contribution changes the whole.
+Recall may make a combined bodily action available while leaving more attention for other requirements. Establish any amount of attention saved from observations. If a new contribution disrupts the combination, rebuilding it takes additional work.
 
 ### SOM.4:10 - Architectural Rationale
 
-Construction and recall serve different functions. Construction makes a useful combination available; recall invokes its developing organization during work. Their connection remains answerable to the external action. The combination is selected by the task, so its parts need not align with anatomical subdivisions or levels of the Method vertical.
+Construction makes a workable combination available. Recall lets the performer reproduce how it develops during movement. Judge each by the action it serves. The task determines which bodily changes belong together. Anatomical subdivisions and the levels of work in the encompassing activity answer different questions.
 
 ### SOM.4:11 - SoTA-Echoing
 
-For using several bodily changes together, **adapt** the distinction between assembling a coordination and learning its unfolding feel, together with HCD.6's whole-task construction. Continued conscious monitoring of each constituent remains useful in preparation when it does not disrupt the action. During performance, an effect-oriented cue may also help recall the learned coordination. Use the comparison in section 4.4 to choose how to direct attention in the whole action.
+For using bodily changes together, we **adapt** construction of a coordination and recall of its unfolding feel, together with the whole-task practice in HCD.6. Detailed monitoring can help preparation when it leaves the action intact. A cue about the effect can help a performer recall the combination during use. If a choice of focus is needed, compare the alternatives in the whole movement as in §4.4.
 
-[Tarasova and colleagues](https://doi.org/10.1097/ACM.0000000000005776) found faster simulated cannulation with needle/target-focused instructions than hand-focused instructions. No neutral-instruction group, limited retention follow-up and the task's dependence on ultrasound restrict the inference. **Adopt** an effect-oriented cue as a serious alternative, not a universal superiority claim.
+[Tarasova and colleagues](https://doi.org/10.1097/ACM.0000000000005776) found faster simulated cannulation with instructions focused on the needle and target than with instructions focused on the hand. The task used ultrasound, the study lacked a neutral-instruction group and follow-up on retention was limited. We **adopt** the cue about the effect as an alternative worth considering under those limits.
 
-A [2024 reanalysis of attentional-focus studies](https://doi.org/10.1037/bul0000451) reports publication-bias sensitivity and heterogeneous effects. Its abstract supports caution about a universal rule; it supplies no task-specific teaching protocol. **Reject** ranking cues solely by “internal” or “external.”
+A [2024 reanalysis of attentional-focus studies](https://doi.org/10.1037/bul0000451) reports heterogeneous effects and sensitivity to publication bias. Its abstract supports caution about a universal rule. A task-specific teaching protocol needs its own grounds. We **reject** ranking a cue from its “internal” or “external” label alone.
 
-The proposed assembly-and-recall construction has no established comparative learning advantage. It offers an inspectable attempt, with preparation and relearning costs. Reopen it when a simpler cue supplies the coordination, recall disrupts another action, or the chosen whole cannot be obtained from the stated preparation.
+Assembly and recall offer a way to try the coordination. Preparation and any relearning take time. A comparative learning advantage for this procedure has not been established. Reconsider the method when a simpler cue supplies the action, recall disrupts another contribution or the preparation fails to produce the required combination.
 
 ### SOM.4:12 - Relations
 
-SOM.1 selects the combination from the movement; SOM.2 and SOM.3 prepare missing bodily constituents. SOM.5 handles the change in conditions that alters their required relation. HCD.6 preserves the relevant whole-task relation; HCD.10 varies and progresses practice towards the intended conditions of use. FPF B.1.5.EW describes simultaneous Method enactment; it does not prescribe an anatomical partition.
+Use SOM.1 to identify the combination needed for the movement, SOM.2 and SOM.3 for missing distinctions or regulation, and SOM.5 when changed conditions alter their relation. Use HCD.6 to retain the relevant relation to the whole task during preparation. HCD.10 supports varying or progressing practice towards the conditions of use. FPF B.1.5.EW relates work occurring together, such as maintaining balance while performing a turn with a partner. Use movement knowledge to identify the bodily contributions involved.
 
 ### SOM.4:End
 
@@ -576,96 +576,96 @@ SOM.1 selects the combination from the movement; SOM.2 and SOM.3 prepare missing
 
 ### SOM.5:1 - Problem frame
 
-Use this when a bodily coordination works under one support or load relation but fails as that relation changes. The task may require continuous movement through the change, not just correct performance on either side.
+Use this Method to investigate or develop coordination through a change in support or load. The performer may succeed on both sides and lose contact, balance or timing during the transition. Identify which result must continue across the change.
 
-The useful result is a revised coordination tested across the required change, an available portion with a known limit, or a specific missing observation or bodily action. Use the receiving discipline's familiar technique and suitable conditions. A new load beyond those limits requires appropriate preparation or instruction before this attempt.
+Use observations from the transition to establish what happened, what portion works or which relation remains open. If developing a response, test the revised coordination through the required change. Use familiar technique within the movement practice’s limits. Obtain suitable preparation or instruction before attempting a new load beyond them.
 
 ### SOM.5:2 - Problem
 
-Endpoint success conceals intermediate demands. A performer may hold and guide a tool in two positions yet lose contact between them, or keep balance before and after a turn yet fail during support transfer. Repeating the first position's felt state, or practicing each endpoint more, may leave the missing relation untouched.
+A writer can hold and guide a pen in two positions yet lose contact when moving between them. A dancer can balance before and after a turn yet lose the step during support transfer. Repeating a successful endpoint tests that position. An account of the intervening action needs evidence from the transition.
 
 ### SOM.5:3 - Forces
 
-Reducing task burden helps learning but can remove the support change being learned. A slower action can reveal a relation while changing its mechanical demands. The performer needs both a cue for adjustment and an available response; knowing when to act does not supply the action. The required coordination must change while other contributions continue.
+When preparing an attempt, reduce unnecessary demands while preserving the support change being investigated. Slowing the movement may make the change easier to observe and may alter its mechanics. Where the adjustment depends on a timing cue, the performer must be able both to use the cue and to produce the response while the other actions continue.
 
 ### SOM.5:4 - Solution
 
 #### SOM.5:4.1 - Locate what changes
 
-Use SOM.1 to identify the interval of failure and the required result. Observe where support acts, what contact must be retained and how the load relation changes. Relate that change to what the performer experiences and can regulate.
+Locate the relevant interval and identify the required movement result. Use SOM.1 if their relation is unclear. Establish where support acts, which contact must continue and how the load changes. Link this observation to the performer’s experience or regulation where those accounts are available. State the limits of each finding.
 
-Distribute detailed observations across comparable attempts when serial checking within one movement disrupts it. Obtain an outside observation when needed, and keep that assistance explicit. If the observations do not identify a relation worth testing, obtain the missing information rather than assigning a generic grip or balance correction.
+Use existing observations where they cover the transition. If checking each part during one movement interrupts it, distribute observations across comparable attempts and identify any observer assistance. The evidence may suggest a relation worth testing before it establishes the cause of failure. If it supplies neither a supported finding nor a useful hypothesis, identify what is missing. Obtain a discriminating observation when the next task warrants it and it is feasible.
 
 #### SOM.5:4.2 - Preserve the transition in preparation
 
-Choose a short movement that begins before the consequential change and ends after it. Remove unrelated burden while retaining the contact, support and concurrent action that define the difficulty.
+When preparing the transition, choose a short movement that starts before the relevant change and ends after it. Reduce other demands while preserving the contact, support and concurrent actions that define the difficulty.
 
-Slower execution or a pause may support investigation within familiar technique. When those changes alter the relevant demand, success is a preparation result, not evidence that the original task works. Intermediate static positions can inform the account but cannot replace observation of motion.
+Use familiar slower execution, pauses or static positions when they help locate a relation. If they change the demand, use the result for preparation. A claim about successful continuous movement at the required speed needs evidence from those conditions.
 
 #### SOM.5:4.3 - Extend an available coordination
 
-Start from a portion in which the necessary actions work together. Move towards the problematic interval and find where that combination first fails. Compare small familiar adjustments suggested by the observed discrepancy, preserving the other necessary actions.
+To develop coordination, start from a portion in which the necessary actions work together and extend it towards the interval under investigation. Establish how far the combination works. If it fails, locate the first loss and compare suitable small, familiar adjustments while retaining the other actions.
 
-Learn a combination over an available portion, then extend it through more of the support change. After an extension, compare the developing feel and the task result with the preceding attempt. Use SOM.2 when the required difference cannot be distinguished there, SOM.3 when it is distinguishable but not controllable, and SOM.4 when the available actions need combining.
+When learning is needed, begin with a workable portion and extend it through more of the support change. Compare the developing feel and movement result with the preceding attempt. Use SOM.2 if a needed difference remains indistinguishable there, SOM.3 if the required regulation is missing, and SOM.4 if available actions still need to be combined.
 
-Join overlapping successful portions and inspect the overlap in motion. If no suitable adjustment is known or available, obtain instruction for the identified relation. Use the failed attempt to identify the instruction you need rather than prescribing more repetitions without a proposed adjustment.
+When joining successful portions, overlap them and examine the overlap in motion. If the task requires an adjustment the performer cannot yet find or make, identify the relation that needs instruction and seek suitable help. If the task was to establish the limit of this attempt, report that finding.
 
 #### SOM.5:4.4 - Connect adjustment and cue
 
-Select an observation that precedes the loss and can be obtained while acting. It may be a distinguishable change of support or an external relation in the task. Connect it to the response learned in the successful portion.
+For a new adjustment that needs a cue, identify a change the performer can notice before the loss and use while acting. It might be a shift in support or an external relation in the task. Connect the cue with the response that worked in the successful portion.
 
-Try the adjustment with that cue and observe whether the result is retained. A teacher prompt or temporary marker is support. If later performance must occur without it, test that condition separately. If the cue or the response is unavailable, recover that contribution rather than prescribing “act sooner.”
+Use a suitable observation of the adjustment with its cue, or try them together when a new attempt is needed. Identify a teacher’s prompt or temporary marker as part of the support. To claim performance without it, use observations under that condition. If the cue or response is missing, identify which contribution the task still needs.
 
 #### SOM.5:4.5 - Return to the required action
 
-Restore the whole interval, required speed and concurrent demands. Use the bodily or task cue that serves the movement; do not require continuous monitoring of every constituent. Judge the action's result, not only familiarity of the recalled feel.
+To test the whole transition, restore the required interval, speed and concurrent demands. Use the bodily or task cue that supports the action. Judge what happened in the movement and what the performer could do while acting, with the relevant support.
 
-If the transition still fails, retain what the preparation established and reopen the affected relation. Recheck which bodily action, cue, technique or observation is still needed. Revise the model if its proposed connection does not hold. Stop an attempt that produces pain, dizziness or unfamiliar loss of control.
+If the transition fails, retain what the preparation established, including the limit of a portion that did not work. Determine whether the unresolved relation concerns a bodily action, cue, technique or missing observation. Revise the model when its proposed connection fails. Stop an attempt if pain, dizziness or unfamiliar loss of control occurs.
 
 ### SOM.5:5 - Archetypal Grounding
 
 An experienced writer draws a continuous line in two familiar forearm positions, but the line breaks during the support transition. Sequentially checking grip, wrist and forearm also stops the stroke. The pen and paper have been checked.
 
-The writer relates the break's location to the support change, distributing observations across attempts. A shorter stroke begins before that change and ends after it. From the part where contact and guidance work, the writer extends towards the failure, comparing small familiar adjustments suggested by what changes at the boundary. Each workable portion is learned as it develops; overlapping portions are then joined in motion.
+Across attempts, the writer relates the point where the line breaks to the change of forearm support. The writer selects a shorter stroke that retains the transition. Starting from the portion where contact and guidance work together, the writer compares small familiar adjustments near the point of failure. The writer learns how a workable portion develops, then joins overlapping portions in motion.
 
-A visible location on the drawing path can serve as a temporary cue to begin a learned adjustment. It supplies timing, not the adjustment itself. After a workable transition is obtained, the writer returns to the longer stroke and required speed. If no suitable response is available, the result is the identified support/contact relation for which instruction is needed.
+The writer can use a visible point on the drawing path to time an adjustment already learned. Once the transition works on the short stroke, the writer tries it over the longer stroke at the required speed. If the appropriate response is still unknown, the supported result identifies the relation between contact and support for which instruction is needed.
 
-For a salsa turn, dance technique supplies the support transfer, stepping and partner conditions. A reduction in task burden must preserve the support relation that failed. Practicing balance in two stationary positions alone does not supply the transition, and a successful slowed turn does not automatically cover the required tempo.
+For a salsa turn, use dance technique to identify the transfer of support, steps and partner interaction. A reduced task must preserve the support change during which the failure occurred. Static positions can show what the dancer does at the endpoints. To assess the turn at the required tempo, use observations in motion at that tempo.
 
 ### SOM.5:6 - Bias-Annotation
 
-The obvious change in support can attract a causal explanation before it has been tested. It identifies a relation to investigate, not proof of the failure's cause. Likewise, a familiar successful endpoint can encourage the teacher to assume that every intervening bodily action is available.
+A change of support at the point of failure gives a relation to investigate. To attribute the failure to it, examine evidence that distinguishes plausible causes. A familiar successful endpoint gives evidence about that position. Use observations during the transition to identify the actions available there.
 
 ### SOM.5:7 - Conformance Checklist
 
-The application investigates the changing relation, preserves it in the reduced task, distinguishes available portions from a completed transition, tests overlapping portions in motion and connects an available cue to an available response. It restores the receiving conditions before crediting that use. Assistance, altered speed and unresolved explanations remain visible.
+For an account of a transition, identify the changing relation, the movement result and the conditions observed. If a correction needs practice, preserve the transition in the reduced task. When joining workable portions, check the overlap in motion. If the adjustment requires a cue, connect an available cue to an available response. Base a claim about the whole transition on observations in the required conditions. Identify assistance, any change of speed and any explanation the evidence leaves open.
 
 ### SOM.5:8 - Common Anti-Patterns and How to Avoid Them
 
-**Two postures substitute for a transition.** Both endpoints work, so the performer is told only to repeat them. Construct and test the intervening relation.
+**Two successful postures are taken as evidence of a successful transition.** Examine the action between them. When the performer needs to learn it, construct a suitable portion and check how the portions join in motion.
 
-**The easy exercise removes the relevant change.** Preparation is successful under fixed support, although the failure occurs during support transfer. Retain that transfer in a suitably reduced task.
+**The exercise omits the change under investigation.** Success under fixed support leaves open what happens during the support transfer where the failure occurred. Keep the transfer in a suitably reduced movement.
 
-**A timing cue is treated as the missing bodily response.** The performer can notice when to act but cannot produce the change. Prepare or obtain the response before asking for earlier execution.
+**A timing cue is offered when the bodily response is missing.** Identify whether the performer can notice the cue and perform the adjustment. If the adjustment is missing, prepare it or obtain suitable instruction before practising an earlier response.
 
 ### SOM.5:9 - Consequences
 
-The method makes transfer across a changing physical condition a concrete construction rather than a promise based on endpoint competence. It can yield a bounded useful portion before the whole works. It does not establish transfer to every load, speed, tool or movement culture, nor authorize progression beyond appropriate physical limits.
+The performer can develop a usable portion before the full transition works. State which support, load, speed, tool and movement the evidence covers. A further claim about transfer needs grounds for the changed conditions, and progression beyond familiar limits needs suitable instruction.
 
 ### SOM.5:10 - Architectural Rationale
 
-A change in support or load can change which bodily actions must be coordinated. Comparing attempts across that change helps identify the relation to work on; SOM.4 makes that relation available with the other actions. Varying practice without identifying and working on the affected relation can leave the difficulty unchanged.
+A change of support or load can alter which actions must work together. Compare suitable observations to establish what happens through that change. If coordination needs work, identify the affected relation and use SOM.4 when it must be combined with other actions. When varying practice, preserve the relation the learner needs to develop.
 
 ### SOM.5:11 - SoTA-Echoing
 
-For carrying coordination through changed conditions, **adapt** HCD.6's preservation of the learning relation and HCD.10's condition-sensitive variation and progression of practice to bodily support, contact and load. Rehearsing endpoint positions alone does not answer a failure during motion.
+To carry coordination through changed conditions, we **adapt** HCD.6’s preservation of the relation being learned and HCD.10’s condition-sensitive variation and progression of practice to bodily support, contact and load. Rehearsing endpoints can prepare those positions. Investigate a failure in motion using evidence from the transition.
 
-The proposed bodily construction identifies what changes with support and load, prepares the affected regulation, and joins it to the continuing action. A comparative learning advantage for this construction has not been established. Suitable domain instruction can replace its exploratory portion when the needed transition is already taught effectively.
+The proposed teaching procedure identifies what changes with support and load, prepares any missing regulation and joins it to the continuing action. A comparative learning advantage remains unestablished. When suitable movement instruction already gives the performer a working transition, use it directly.
 
-Reopen the choice when a new condition defeats the learned relation, when preparation changes the demand so much that the return fails, or when a simpler instruction gives the required result without detailed bodily reconstruction. The first useful answer can then be a different technique, support arrangement or a narrower learning target.
+Reconsider the approach if a new condition defeats the learned relation, preparation changes the demand enough to defeat the return, or simpler instruction gives the required result. Depending on the question, a usable answer may be another technique, a different support arrangement or a narrower learning aim.
 
 ### SOM.5:12 - Relations
 
-SOM.1 frames and revises the relation; SOM.2–SOM.3 prepare missing distinction and regulation; SOM.4 learns the combined change. HCD.6, HCD.9 and HCD.10 supply whole-task preparation, feedback and condition-sensitive practice progression. HCD.12 supplies assessment when a claim concerns transfer to unfamiliar work; a return to a longer familiar stroke need not pursue that claim. FPF B.1.5.EW keeps the bodily transition within concurrent encompassing work. RHY is a supplier when the actual use requires rhythmic relations; an ordinary support change does not impose that dependency on every task.
+Use SOM.1 to examine the proposed relation, SOM.2 and SOM.3 for missing distinction and regulation, and SOM.4 for a combined change. Use HCD.6, HCD.9 and HCD.10 for representative practice, feedback and progression. Use HCD.12 when assessing transfer to unfamiliar work. Returning to a longer familiar stroke can have a narrower purpose. FPF B.1.5.EW relates the transition to the actions that continue throughout it. Use RHY when the task requires a rhythmic relation.
 
 ### SOM.5:End

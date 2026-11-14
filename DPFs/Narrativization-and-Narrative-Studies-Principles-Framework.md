@@ -7,7 +7,7 @@
 
 # Table of Contents
 
-Use the practical entries to find a useful route, the Architectural Reference to understand how the methods fit together, and a pattern body for its working instructions.
+Use the practical entries to locate a problem, the Architectural Reference to see how the methods fit together, and the relevant pattern for its working instructions.
 
 | Locus | Title | Kind | Use |
 | --- | --- | --- | --- |
@@ -37,12 +37,12 @@ Use the practical entries to find a useful route, the Architectural Reference to
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | [NSTD.1 - Choose a Narrative's Purpose and the Source Structures It Must Preserve](#nstd1---choose-a-narratives-purpose-and-the-source-structures-it-must-preserve) | Stable | source selection; reader purpose; omitted relation | A.6.3.NAR |
 | 2 | [NSTD.2 - Choose a Narrative Order That Keeps Needed Source Relations Recoverable](#nstd2---choose-a-narrative-order-that-keeps-needed-source-relations-recoverable) | Stable | chronology; reveal; causality; proof order; teaching order | NSTD.1; A.6.3.NAR; A.22.CGUS when selected |
-| 3 | [NSTD.3 - Repair Missing or Unsupported Narrative Connections (Coherence and Event Models)](#nstd3---repair-missing-or-unsupported-narrative-connections-coherence-and-event-models) | Stable | event connection; missing cause; coherence; mechanism; event model; dependency | NSTD.1; NSTD.2 |
+| 3 | [NSTD.3 - Repair Missing or Unsupported Narrative Connections (Coherence and Event Models)](#nstd3---repair-missing-or-unsupported-narrative-connections-coherence-and-event-models) | Stable | event connection; missing cause; coherence; mechanism; event model; dependency | NSTD.1 for unresolved source or purpose, NSTD.2 for presentation order |
 | 4 | [NSTD.4 - Choose Narrative Voice and Focalization while Keeping Agency Claims Grounded](#nstd4---choose-narrative-voice-and-focalization-while-keeping-agency-claims-grounded) | Stable | author voice; examples; narrator; genre change; viewpoint; focalization; acting participant | A.2; A.13 for precise claims |
 | 5 | [NSTD.5 - Choose Narrative Engagement Devices for the Intended Experience or Use](#nstd5---choose-narrative-engagement-devices-for-the-intended-experience-or-use) | Stable | curiosity; suspense; attention; motivation; persuasion | NSTD.1; NSTD.4; relevant ethics content |
 | 6 | [NSTD.6 - Declared-Use Narrative Rendering Quality Evaluation](#nstd6---declared-use-narrative-rendering-quality-evaluation) | Stable | reader recovery; structural information; quality; candidate evaluation | C.2.8; A.19.ECS; C.16 |
-| 7 | [NSTD.7 - Automated Narrativization and Story Planning](#nstd7---automated-narrativization-and-story-planning) | Stable | generation; content plan; schema; source fidelity; repair | NSTD.1–NSTD.6; NSTD.9 or NSTD.10 when construction is needed; C.35 for architecture use |
-| 8 | [NSTD.8 - Design a Narrative Learning Route for Reconstruction and Use](#nstd8---design-a-narrative-learning-route-for-reconstruction-and-use) | Stable | learning route; prerequisite; reconstruction; retrieval; transfer | NSTD.1–NSTD.6; relevant learning sources |
+| 7 | [NSTD.7 - Automated Narrativization and Story Planning](#nstd7---automated-narrativization-and-story-planning) | Stable | generation; content plan; schema; source fidelity; repair | Relevant source, planning and evaluation methods in NSTD.1–NSTD.6, NSTD.9 or NSTD.10 when construction is needed, C.35 for architecture use |
+| 8 | [NSTD.8 - Design a Narrative Learning Route for Reconstruction and Use](#nstd8---design-a-narrative-learning-route-for-reconstruction-and-use) | Stable | learning route; prerequisite; reconstruction; retrieval; transfer | NSTD.1–NSTD.6 as needed for the account and its evaluation, relevant learning sources |
 | 9 | [NSTD.9 - Construct and Compare Narrative Interpretations](#nstd9---construct-and-compare-narrative-interpretations) | Stable | interpretation; working account; event units; alternative reading; ambiguity; sensemaking | NSTD.Reference:1; F.0.1 when source meaning is unresolved |
 | 10 | [NSTD.10 - Develop Story Events and Possibilities from Premises](#nstd10---develop-story-events-and-possibilities-from-premises) | Stable | story construction; event invention; premise; character knowledge; open continuation | NSTD.1 when purpose or constraints need selection; NSTD.9 when interpretation is unresolved |
 
@@ -60,50 +60,50 @@ Use the practical entries to find a useful route, the Architectural Reference to
 ## Practical entries
 
 
-This framework helps people make sense of connected material and develop narratives that a reader can follow and use. The work includes obtaining a working account when the relevant structure is not yet given, comparing interpretations, creating fictional possibilities or hypothetical scenarios, choosing what to preserve and reveal, and revising the account after use. The entries below are selected examples. Bring the actual question; use the Table of Contents or a direct pattern when no example fits. Some difficulties need one bounded repair; others need several patterns working together. For a question already answered by one pattern, use its PatternID and title in the Table of Contents.
+Use these methods to interpret connected material and develop narratives a reader can follow and use. You may need to compare accounts of an event, invent a fictional possibility, decide what to preserve or reveal, or revise an account after seeing how someone used it. Start with the practical entry or pattern that addresses your question. A single repair can be sufficient.
 
-Begin with the material and the intended use. A research account, fictional continuation, live commentary and learning course can use the same methods while preserving different things. A narrative may explain an established result or make an unresolved question visible; the relevant research, professional or mathematical work supplies the warrant for a stronger claim. You can ask an assisting agent to explain or apply these methods in the language of your work, without framework jargon.
+Begin with the material and the intended use. A research account, a fictional continuation, live commentary and a course can use the same narrative methods while preserving different relations. A narrative may explain an established result or show what remains unresolved. Use the relevant professional evidence, research or mathematical argument for a claim that depends on it. An assisting agent can explain or apply the methods in the language of your work.
 
-When the material has no adequate working account yet, use **NSTD.9** to construct and compare interpretations. When the events of a story still need to be invented, use **NSTD.10** to develop possibilities under the chosen premises. Neither is a prerequisite for using a sufficient source or repairing a known sentence. The [field explanation](#nstdreference11---from-material-to-narrative-objects-and-relations) explains how these tasks differ and connect.
+Use **NSTD.9** to construct and compare interpretations when the material lacks an adequate working account. Use **NSTD.10** to invent events under a story’s premises or develop an explicitly hypothetical scenario for a real situation. A sufficient source lets you start directly with the account or the sentence that needs repair. The [field explanation](#nstdreference11---from-material-to-narrative-objects-and-relations) connects those tasks.
 
 ### NSTD-INCIDENT - Repair a fluent account that implies an unsettled cause
 
 - **Situation:** An incident account turns an observed sequence into an established causal explanation.
 - **Question:** How can it explain the known events and decisions while preserving what remains unresolved?
-- **First useful result or blocker:** An account suited to the audience's question, or the causal result still needed for its decision.
-- **Start with:** NSTD.3 for support of the event connections, using the supplied log and intended use.
-- **Stop or return:** Finish with an accurate account of known events when that answers the question; obtain the causal investigation result when the decision requires it.
+- **First useful result or blocker:** An account of what happened, including the limits of the available causal evidence.
+- **Start with:** Use NSTD.3 to examine the connections drawn from the log for this audience.
+- **Stop or return:** Finish when the account answers the question. If a causal conclusion is needed, use an adequate investigation result or identify what remains to be established.
 
-A team has a polished account of a service incident. Its constructed source log records a configuration change at 14:00, failed requests at 14:02, a rollback at 14:05 and restored service at 14:07. The causal investigation is still open. The draft says the change caused the failure and the rollback fixed it.
+Suppose a service log records a configuration change at 14:00, failed requests at 14:02, a rollback at 14:05 and restored service at 14:07. The investigation is still open. A draft report says the change caused the failures and the rollback restored the service.
 
-The existing source and intended use let the team enter **NSTD.3** directly. It separates the observed sequence from the two causal claims. **NSTD.2** then preserves chronology while making the unresolved explanation visible: the setting changed before the failures, and service returned after rollback; the log alone does not establish why. If the audience needs a causal conclusion to choose a remedy, the question returns to the investigation. If it needs an accurate account of known events, the corrected account can already serve that use.
+The team uses **NSTD.3** to compare the two causal claims with the log. With **NSTD.2** it can present the events in order. The setting changed before the failures, and service returned after the rollback. The log leaves the causes of the failure and recovery open. That account answers a question about the observed sequence. A remedy that depends on either cause needs evidence for that link.
 
-**NSTD.4** examines the account's operator viewpoint. A source-backed description of what the operator saw can explain the rollback decision; selecting that viewpoint does not establish the operator's responsibility for the original failure. The account should expose any other recorded condition that changes that interpretation. **NSTD.5** may preserve the urgency and unresolved question without presenting the confident ending that the investigation has not supplied.
+Use **NSTD.4** to examine what the operator could see at the time. A record of what the operator saw and why they acted can explain the rollback decision. Responsibility for the original failure requires evidence about that failure. Include another recorded condition if it changes the interpretation. With **NSTD.5** the writer can convey the urgency and leave the cause open.
 
-**NSTD.6** tests the repaired version for that audience and use. Ask what happened, which explanation remains a hypothesis, and what information would be needed for the proposed remedy. Keep the response obtained before extra help. An expert walkthrough, an actual reader's response and a formal estimate support different conclusions. If the reader still reconstructs a settled cause, repair the sentence or ordering that produces that reading and check the affected part again. If a later investigation establishes a mechanism, return its result to the explanation and reconsider the dependent conclusion.
+Use **NSTD.6** when the suitability of the repaired account needs evaluation. A walkthrough or formal estimate can show what a reader could recover under stated conditions. To establish what a reader actually understood, examine their response and the help they used. For example, can they reconstruct the sequence, identify a proposed cause and say what evidence a remedy would require? If wording or order led them to infer a settled cause, repair the affected passage and examine the result as needed. If an investigation later establishes the mechanism, revise the claims that depend on it.
 
 ### Practical-Use Cards
 
-These selected examples show extended combinations whose dependencies are easier to retain with a mantra. Choose and adapt the route to the actual difficulty; the cards do not prescribe a universal workflow.
+These examples connect several methods. Each mantra recalls the contributions that matter to its particular task.
 
 #### NSTD-CONTINUATION - Develop an engaging continuation consistent with its source
 
 - **Situation:** A fictional continuation needs both narrative interest and consistency with the established world.
 - **Question:** How can the event connections, presentation order and viewpoint work together?
 - **First useful result or blocker:** A usable scene or sequence, or an unresolved source condition.
-- **Mantra:** Select constraints; connect events; choose what each viewpoint reveals; create interest; compare the result; repair the failed connection.
-- **Start with:** NSTD.10 when the next events still need to be created; NSTD.1 for a sufficient story and its source constraints; NSTD.2 when their presentation order is the difficulty.
-- **Stop or return:** Finish with the supported continuation. Return a failed event connection to the source or proposed action, and weak engagement to viewpoint or presentation.
+- **Mantra:** Select the constraints, connect the events, choose what the viewpoint reveals and what creates interest. Check the result and repair any failed connection.
+- **Start with:** Use NSTD.10 to invent missing events, NSTD.1 to select the source constraints a continuation must preserve, or NSTD.2 to address presentation order.
+- **Stop or return:** Finish with a continuation that meets the brief. For a continuity failure, inspect the source and proposed events. For weak engagement, examine what the viewpoint and presentation invite the reader to anticipate.
 
 ##### Expansion for NSTD-CONTINUATION
 
-An author wants a continuation of a fictional story to be engaging while remaining consistent with the established world. **NSTD.1** first selects the source material and the constraints the new story must respect: what characters know, what they can do, earlier events and the proposed continuation's premises. If the continuation has not yet been invented, **NSTD.10** develops candidate changes and the conditions that make them possible. For example, gaining access, choosing to use it and discovering its cost can be different story events; the author's desired reveal does not supply them. Once sufficient events and relations are available, **NSTD.2** can show a discovery late for suspense while keeping the underlying order of events recoverable.
+Suppose an author wants a continuation that holds a reader’s interest and respects the established world. If the constraints still need selecting, **NSTD.1** identifies earlier events, the characters’ knowledge and abilities, and any premises fixed for the continuation. **NSTD.10** helps invent missing events. Gaining access, choosing to use it and discovering its cost can require different events. With these in place, **NSTD.2** can delay disclosure for suspense while keeping the underlying order recoverable.
 
-Consider a constructed case: a character uses a key on Tuesday, but the supplied source says the character first obtains it on Wednesday. Moving the reveal of Wednesday's event earlier in the text does not repair the Tuesday action. **NSTD.3** tests the connection between obtaining the key and using it. The author must change the proposed action or establish a compatible earlier means of access, then check that proposal against the selected source. If neither is available, the scene remains unresolved.
+In a constructed case a character uses a key on Tuesday and first obtains it on Wednesday. Changing where the scene first mentions Wednesday leaves Tuesday’s access unexplained. With **NSTD.3**, check whether an earlier means of access is compatible with the source. To complete the scene the author can establish such access or change the Tuesday action. A continuity assessment can identify the unsupported link.
 
-**NSTD.4** asks whose knowledge the chosen viewpoint reveals. The reader may be kept unaware of the key's origin while the character already knows it; the two knowledge states must remain distinguishable. **NSTD.5** can use that gap to sustain curiosity, provided the eventual explanation preserves the access condition. These decisions supply the material for **NSTD.6**: can the reader recover the event order, the available access and the difference between a delayed reveal and a missing cause? A continuity failure returns to source selection or event support. Weak suspense with intact continuity can instead return to viewpoint or engagement. The missing-key problem requires a supported event connection.
+With **NSTD.4**, distinguish what the character knows from what the scene has disclosed and the clues it offers. The character can already know the key’s origin when the scene first shows it in use. An author can use **NSTD.5** to invite curiosity about its origin. A reader may already know it or infer it before the author explains it. The explanation still needs to account for access on Tuesday. **NSTD.6** can assess whether the presentation makes this distinction available or examine how a reader interpreted the scene. A continuity failure calls for attention to the proposed events or their source. Weak suspense with intact continuity calls for examining viewpoint or presentation.
 
-If an LLM drafts scenes, **NSTD.7** connects these same decisions to generation: selected sources and constraints, content plan, ordering plan, wording, source comparison and evaluation before deciding the intended use. When fidelity remains in doubt, change the supplied access condition and inspect whether the generated scene responds, or ask a reader to reconstruct it without the prompt. A fluent scene that silently invents another key returns to planning or source qualification. The author remains responsible for accepting the scene. Publication rights require their own determination.
+When a language model drafts the scene, **NSTD.7** connects the intended use and source constraints with a content plan, presentation order, wording and evaluation. To investigate fidelity, compare the output with the source or vary the access condition and examine the resulting scene. A reader’s reconstruction without the generation prompt can show how they understood the episode. To establish what this scene contributed, consider earlier chapters, other sources and any help the reader used. If the output invents an unsupported second key, examine the plan, the supplied source and the generated passage. The author decides whether to accept the scene. Its publication requires the applicable rights.
 
 The result can be one usable scene, a repaired sequence or an unresolved source question.
 
@@ -111,76 +111,76 @@ The result can be one usable scene, a repaired sequence or an unresolved source 
 
 - **Situation:** Learners can repeat separate explanations but cannot choose a repair in an unfamiliar project.
 - **Question:** Which content, order and tasks will help them distinguish and perform the needed repair?
-- **First useful result or blocker:** A learning route with the support each task needs, and an evaluation of the learner's resulting understanding or use.
-- **Mantra:** Name the learner's next task; attach its prerequisites and support; vary the cases; inspect the response; repair content or timing.
+- **First useful result or blocker:** A learning route with the support each task needs. Claims about what a learner understood or could do depend on their work under the stated conditions.
+- **Mantra:** Name the learner’s task, supply its prerequisites, vary the cases and examine the response. Repair the content or timing when the difficulty calls for it.
 - **Start with:** NSTD.1 for the learning purpose and NSTD.8 for the route across cases.
-- **Stop or return:** Repair missing content or mistimed support where the response exposes it. Retain an adequate explanation; qualify learning and transfer claims by what was actually observed.
+- **Stop or return:** Use the response to identify what the learner did with the support provided. If missing content or late support explains a difficulty, repair that part. Use evidence from the intended transfer task for a claim about transfer.
 
 ##### Expansion for NSTD-LEARNING
 
-An engineering course presents source selection, ordering, viewpoint and evaluation in separate blocks. Learners can repeat each block's explanation but struggle to choose a repair when an unfamiliar project story goes wrong. **NSTD.1** turns that difficulty into the learning purpose: select and perform the appropriate repair in a new case. **NSTD.8** separates this learning route from the source publication's topic order.
+In an engineering course, learners can repeat separate explanations of source selection, ordering, viewpoint and evaluation. They struggle to choose a repair for an unfamiliar project story. The course author uses **NSTD.1** to define the target as selecting and performing an appropriate repair in a new case, and **NSTD.8** to design a route for learning it. The source publication’s topic order remains available for reference.
 
-The course can begin with a supported source-selection case, then introduce an ordering failure. It later returns to the first case with a viewpoint question and asks learners to distinguish the two repairs in unlabelled situations. **NSTD.2** explains why this teaching order differs from the source's organization. Before each task, **NSTD.8** checks that the needed distinction, operation or accessible reference has been introduced. A deliberate initial attempt before instruction can help surface alternatives, but its subsequent explanation must resolve the difficulty.
+The course can start with a supported source-selection case and then introduce an ordering failure. Learners later revisit the first case with a viewpoint question and choose repairs in unlabelled cases. **NSTD.2** explains how that teaching order serves the task. With **NSTD.8**, arrange access to the distinctions, operations or references each task requires. An initial attempt before instruction can reveal competing readings. Follow it with the explanation and practice needed to resolve the observed difficulty.
 
-**NSTD.3** supplies concrete reconstruction questions; **NSTD.5** selects examples or hooks that help learners stay with them. In the framework's mathematical teaching case, a deformation image is useful only when the learner can recover which changes the formal definition allows and where the analogy ends. If that boundary is missing, adding another attractive image will not supply it. The formal definition and its mathematical justification remain in the source.
+Use **NSTD.3** to frame questions about the connections learners need to reconstruct and **NSTD.5** to choose examples that hold their attention. In the mathematics case a deformation image can help teach which changes the formal definition allows. Show where the analogy ends and give the definition and mathematical justification where the task requires them. To repair a missing mathematical distinction with another image, choose one that makes that distinction recoverable.
 
-**NSTD.6** evaluates the route and the account, expression and reader under the declared conditions, using **C.2.8** for recoverable structure. First identify which necessary relations were recovered or missed; a count is useful only when the unit and selected set are defined. Keep this structural result separate from usefulness, human effort, retention and transfer. One successful response with a reference supports that observed use; it does not show unaided performance on unfamiliar work.
+With **NSTD.6** and **C.2.8**, examine which needed relations a reader can recover from the account in its chosen form and conditions. To report what a learner did, use the actual response and the support they used. For a numerical comparison, define the unit and the set of relations counted. One successful response with a reference supports that use. Effort, later retention and unaided transfer each require evidence for that question.
 
-The response determines the return. A missing relation needs content repair; a demand encountered before its support needs a change in the route; an adequate explanation may need no change. Use **E.22** when the improvement question or protected qualities need clarification, and **E.23** to compare a worthwhile repair and re-evaluate what changed. Lessons, slides and exercises are the resulting teaching materials. The patterns explain how to construct and improve them.
+Let the difficulty guide the repair. Add missing subject content or make support available before the task that needs it. An adequate explanation can be retained. Use **E.22** to clarify the improvement question or what must be protected. Use **E.23** to compare a worthwhile repair and re-evaluate what changed. The resulting course can use lessons, slides and exercises suited to its learners.
 
 # Narrativization and Narrative Studies Principles Framework Architectural Reference
 
 ## NSTD.Reference:1 - Problem frame and shared difficulty
 
-This Domain Principle Framework helps authors, teachers, technical communicators, researchers and assisting agents construct and improve narratives from connected material. The material may concern observed events, mathematical relations, a proposed design, an unfolding event or a fictional world. A reader needs to recover selected relations in an order they can follow and use.
+Use these methods to construct or improve a narrative from connected material, such as observed events, mathematical relations, a proposed design, a live event or a fictional world. The intended reader needs a sequence that lets them recover the relations that matter to their question.
 
-A fluent account can lose a condition, turn temporal order into a cause, hide another participant's knowledge or teach a memorable slogan without its working distinctions. The task includes establishing what the material can support or what the author may create, choosing and arranging what matters, and revising both the account and its presentation when a difficulty exposes their limits. Narrative interest and clarity help that work; the warranted strength of the account still depends on its content.
+A fluent account can omit a condition, imply a cause from sequence, hide what another participant knew or teach a memorable phrase whose meaning a learner cannot use. Establish what the material supports and what the author may propose under the premises of a fiction or an explicitly hypothetical scenario. Select and arrange the relevant relations. A difficulty in use can reveal a problem with the presentation, the interpretation or the proposed course of events.
 
-The reader needs enough subject knowledge to identify the relevant material, or access to someone who can supply it. The methods help construct the account; a missing physical mechanism, proof step or factual observation may require work in that subject before a stronger explanation is possible. An accurate account of what remains unresolved can already be useful.
+Identify the needed subject material using your own knowledge, an adequate source or a qualified contributor. An unexplained physical mechanism, a missing proof step and an unobserved event call for different subject evidence. A narrative can already explain what is known and where the evidence ends.
 
 ### NSTD.Reference:1.1 - From material to narrative objects and relations
 
-Narrative studies investigates how accounts of events and experiences are formed, interpreted and used. Narrativization is the constructive practice developed here: making a sustained, sequential account of a situation, experience, argument, design or imagined world. Its readers may seek understanding, orientation, imaginative experience, a reason to continue, or a basis for discussion and action. The publication draws from several traditions within narrative studies.
+Narrative studies investigates how accounts of events and experiences are formed, interpreted and used. Narrativization, as developed here, is the practice of making a sustained sequential account of a situation, experience, argument, design or imagined world. Readers may seek understanding, orientation, imaginative experience, a reason to continue, or a basis for discussion or action. Several traditions in narrative studies contribute to this practice.
 
-The difficulty begins before sentence order. A collection of letters, observations or draft scenes does not arrive with an uncontested list of events, participants and meaningful connections. Someone must decide what counts as the same occurrence, which change matters, how accounts refer to it, and what relationship is being proposed. Even an established event can mean different things to its participants. An institution's account of a successful relocation and a resident's account of losing a neighbourhood can concern the same move while asking different questions about it. Their relation must be worked out; choosing the more fluent account does not settle it.
+Letters, observations and draft scenes can leave open which references concern the same occurrence, what changed and how events relate. The question guides these judgments. An institution may describe a relocation as a success, while a resident describes losing a neighbourhood. Both can refer to the same move. Ask what success meant for the institution, what relations the resident lost, and which sources support each account.
 
-Distinguish the situation or stipulated world, the available material about it, the working interpretation, the narrative's presentation, and what a recipient makes of that presentation. These can change independently. Correcting a date can revise a chronology without settling a motive. A new interpretation can change what an episode means without adding an occurrence. A fictional author can change what happens; an editor of a factual account cannot obtain that change by rewriting the report. A recipient's response supplies evidence about that encounter, not automatically about the represented world.
+Distinguish the situation or stipulated world, the available material, its working interpretation, the narrative presentation and the recipient’s response. A corrected date can revise the chronology while motive remains open. An interpretation can change an episode’s meaning without adding an occurrence. In fiction an author can change what happens. In a factual report a revised sentence can correct a claim about an event. A reader’s response gives evidence of that encounter. Claims about the world described need grounds for the events or relations in question.
 
-The units follow from the question and the material. To describe a change, identify what persists across the comparison, which property or relation differs, and the times or conditions being compared. A room can remain the same room while becoming inaccessible to one group and available to another. Calling that transition a closure, a transfer or an exclusion selects different relations; the material may support more than one. Split an episode when the smaller changes have different participants, grounds or consequences that the account needs. Combine details when their distinction changes neither interpretation nor the intended use. Preserve a return to the finer material when that judgement may change.
+Choose units that matter to the question. To describe change, identify what persists, which property or relation changes, and the times or conditions compared. The same room can become unavailable to one group as another gains access. “Closure”, “transfer” and “exclusion” select different relations that may each warrant an account. Split an episode when its parts have different participants, grounds or consequences that matter to the narrative. Combine details when their distinction makes no difference to the interpretation or use. Keep access to the finer material when a later use may need it.
 
-A narrative unit need not be a sentence, an action or a dramatic turning point. Several sentences may establish one change; one sentence may report several changes. A silence, repeated routine or altered expectation may matter through its relation to what preceded it. An exposition of mathematics can instead depend on definitions, constructions and inferences. Its sequence gives the reader a path through those relations without turning timeless claims into historical happenings. NSTD.9 develops the interpretive construction; for an already described technical or mathematical construction, FPF B.5.RC supplies recovery of the actual operations and prerequisites.
+Several sentences can establish one change, and one sentence can report several. A silence, repeated routine or altered expectation can matter through its relation to earlier events. A mathematical exposition can instead guide a reader through definitions, constructions and inferences. Their order in the account helps the reader reconstruct logical dependencies. NSTD.9 helps infer units and relations when they are open. FPF B.5.RC helps recover operations and prerequisites in an existing technical or mathematical construction.
 
 ### NSTD.Reference:1.2 - What supports narrative knowledge
 
-Different questions require different grounds. A passage can support a claim about what a narrator says. Its context, contrasts, omissions and consequences can support an interpretation of what that telling does. Establishing that the reported event occurred requires the relevant historical, observational or other subject evidence. Establishing a cause or proving a theorem requires the corresponding inquiry or argument. Interpretive judgement is reasoned work: show what the proposed reading explains, what resists it and what assumption connects the two. An unresolved alternative is a result worth keeping when the material cannot decide it.
+A passage can establish what a narrator said. Its setting, contrasts, omissions and consequences can support an interpretation of that telling. To establish whether a reported event occurred, examine the relevant historical or observational evidence. For a causal claim or theorem, use the corresponding inquiry or argument. Explain what a proposed reading accounts for, which material counts against it and which assumptions it requires. A supported range of readings can answer the question when the material leaves a choice open.
 
-In fiction, the author establishes premises and proposes what becomes true within the imagined world. Consequences can then be compared with those premises. This supports a conditional construction; it does not show that the events occurred or would occur in the actual world. For a factual future scenario, assumptions and feasible means need subject support before the scenario can inform a real decision. The freedom to imagine a possibility is useful for finding a question, but its plausibility still needs examination.
+In fiction the author chooses premises and can invent events, then examine their consequences for the imagined world. A factual future scenario can also make assumptions explicit. If the scenario is to guide a decision about a feasible course of action, establish the relevant premises and means in the setting of that decision. An imagined possibility can also serve a narrower purpose, such as identifying a question.
 
-Knowledge about narrative form also has different sources. Analysis of texts can reveal how a delayed disclosure changes an interpretation. Cognitive research can test processing or recall under particular conditions. A planning system can show how represented constraints affect generated events. An author's experiment can expose a new possibility or a failure of a familiar technique. These results can inform each other while retaining their respective limits. A plausible textual reading is not an observed audience effect; a successful generator run is not a law of human understanding.
+Textual analysis can show how delayed disclosure supports a changed interpretation. Cognitive research can test processing or recall under specified conditions. A planning system can demonstrate the effect of a represented constraint on particular generated events. An author’s experiment can reveal a possibility or a limit of a familiar technique. For a claim about how a population of readers responds, use evidence about those readers and the conditions of their encounter.
 
-Schmid's account of state changes and perspectival selection provides one historical basis for analysing narrative units. Meretoja's narrative hermeneutics gives a different emphasis to interpretations and culturally available ways of understanding a life or situation. The difference matters: a complete chronology need not explain the meaning of an experience. Conversely, an illuminating interpretation does not settle the chronology. Use the contribution the question needs, keeping incompatible claims visible rather than making one tradition the universal definition of narrative. The source returns and their limits are in NSTD.Sources:1.
+Schmid’s treatment of state changes and selection by perspective supplies a historical basis for analysing narrative units. Meretoja’s narrative hermeneutics examines how people interpret a life or situation through culturally available accounts. Use chronology for a question about event order. For a question about what the events meant to a participant, examine the grounds for that interpretation. Where the traditions make incompatible claims, retain the difference that matters to the question. NSTD.Sources:1 gives the source uses and their limits.
 
 ### NSTD.Reference:1.3 - How knowledge generates and changes the work
 
-The connection between knowledge and practice runs in both directions. If a reader must distinguish an observation from a character's belief, the account needs separate descriptions of those states and a presentation that lets the reader recover the difference. If the author wants a betrayal to be understandable, a promised ending alone will not supply the participant's knowledge, relationship or reasons; those may need to be constructed. If the material supports competing readings of a departure, the useful account may preserve that disagreement instead of producing one smooth explanation.
+What the reader needs to know guides construction. To distinguish an observation from a character’s belief, establish each state and choose wording or viewpoint that lets the reader recover the difference. To make a betrayal intelligible, the author may need to invent the relationship, knowledge or reason that makes the act possible. To represent a disputed departure, a faithful account may need to preserve two supported readings.
 
-These requirements yield different operations. Interpreting material proposes units and connections, tests them against that material, and revises the account. Constructing fiction or a hypothetical scenario proposes events and relations, follows their consequences, and revises either the proposal or a changeable premise. Rendering selects and orders what the recipient encounters. Studying reception examines what recipients actually do under specified conditions. They can cooperate, but one result does not substitute for another. The distinction also permits a short direct answer when the material and purpose already settle the account.
+Interpreting material proposes and tests units and connections against the material. In fiction or a hypothetical scenario, constructing events means following their consequences and revising the proposal or a changeable premise. Rendering selects and orders the content a recipient encounters. Studying reception examines what recipients actually do under specified conditions. Use the contributions the question calls for. An existing account can already support a direct answer.
 
-Consider a project history assembled from meeting minutes and later recollections. The first draft treats approval of a design as the moment the team knew it would work. Comparing the contemporaneous uncertainty with the later recollection changes the working representation: approval, expectation and later success are different occurrences or claims. NSTD.9 constructs that distinction; NSTD.1 selects it for a reader learning from the project; NSTD.2 can retain discovery order; NSTD.4 keeps the retrospective speaker's knowledge distinct from the team's earlier knowledge. The account now teaches a decision under uncertainty instead of attributing foresight. Investigating whether the design caused the later result remains separate subject work.
+Suppose a project history draws on meeting minutes and later recollections. Its draft describes design approval as the moment the team knew the design would work. The contemporary minutes record uncertainty, and the recollection was made after the design succeeded. NSTD.9 can distinguish the approval, earlier expectation and later outcome. NSTD.1 can select these relations for a reader studying decisions under uncertainty, NSTD.2 can preserve discovery order, and NSTD.4 can locate each speaker’s knowledge in time. To explain whether the design caused the outcome, use evidence for that causal claim.
 
-Practice can challenge the model that guided it. Suppose readers repeatedly interpret an intended open ending as a confirmed reconciliation. First inspect the wording, prior episodes and help those readers received. The ending may accidentally assert the reconciliation, the earlier setup may exclude the intended alternative, or the interpretive distinction may be unavailable to this audience. Those diagnoses change different things: expression, story construction or the assumption about the reader. Repeating the same account more slowly does not address them all. A wider claim about how people read open endings needs evidence beyond those encounters.
+Suppose readers repeatedly interpret an intended open ending as a confirmed reconciliation. Inspect the wording, preceding episodes and help the readers used. The ending may assert reconciliation, earlier events may rule out the intended alternative, or these readers may lack the distinction the interpretation requires. An author can then revise the expression, the events or the assumptions about readers as the evidence warrants. To establish how a wider population interprets such endings, examine evidence from that population.
 
-The combined practice makes a narrative revisable at the right level: the reader's difficulty can lead back to a sentence, a story possibility or an interpretation and its grounds. That capability depends on the connection between explanatory knowledge and ways of making and examining narratives. Techniques and theories can change while this connection and the commitment to distinguish their grounds remain.
+A difficulty in reception can send the author back to a sentence, a proposed story event or an interpretation and its grounds. It may also change the author’s understanding of the reader’s task, for example by showing that a distinction the lesson assumes is still unfamiliar. That revised understanding can guide the next explanation or use of the method.
 
 ### NSTD.Reference:1.4 - Interpretation, invention and research boundaries
 
-Analysis belongs inside narrativization whenever it changes what can responsibly or usefully be told. This includes constructing an account from fragments, comparing interpretations, examining how viewpoint creates meaning, and retaining a supported range of possible readings. A writer can perform that analysis without running a population study or writing literary history. NSTD.9 supplies the bounded interpretive method; NSTD.10 supplies construction of fictional events and explicitly hypothetical scenarios.
+Narrativization can include constructing an account from fragments, comparing interpretations, examining how viewpoint affects meaning or preserving several supported readings. NSTD.9 supplies this interpretive work. NSTD.10 develops fictional events and explicitly hypothetical scenarios. A local interpretation can answer a practical or literary question on its own grounds.
 
-Research asks additional questions about narrative objects, people or practices. A claim that one framing is common in a population needs a defensible corpus and sampling basis. A claim about reader learning or persuasion needs a study that can distinguish the proposed effect from alternatives. Interview research needs an appropriate research relationship, collection and analysis method; a participant's story is not an unmediated recording of experience. NSTD can help examine and present the resulting interpretations and design a local reader question, but it does not supply those complete research designs. Use the relevant research method and return its qualified result. NSTD.6 preserves this separation for evaluations of a particular narrative.
+A claim about how common a framing is needs a defensible corpus and sampling basis. A claim about an effect on learning or persuasion needs evidence that distinguishes the effect from alternatives. In interview research, the relationship, collection and analysis methods bear on what can be inferred from a participant’s account of experience. Use the appropriate research result where one already exists, or obtain what is missing. Narrativization can help interpret and present the result. NSTD.6 can help design a local reader question and evaluate a particular narrative.
 
-A literary question can also exceed this practical branch. Establishing a work's historical reception, comparing whole literary traditions, or resolving a genre-specific scholarly dispute requires its own sources and expertise. That boundary does not exclude an interpretation merely because it concerns literature. It follows from the result being promised: a grounded account for the current narrative work can be supplied here; a complete historical or empirical claim needs the further inquiry that warrants it.
+Literary history, comparisons across traditions and genre-specific scholarly disputes can require their own sources and expertise. An adequately grounded interpretation of the current work can finish the narrative task. For an account of historical reception or a wider empirical claim, obtain the evidence that its scope requires.
 
-Scientific explanation and teaching likewise retain their subject suppliers. To narrate a construction from an unfamiliar mathematical account, first use its formation rules, operations and justification; B.5.RC can help recover their connection. If a proof step is missing, a more compelling discovery story cannot supply it. Once the relation is available, NSTD.2 and NSTD.8 can arrange its presentation and the learner's attempt. In a fictional vignette, by contrast, an unexplained hesitation may be the intended experience. The relevant question is what the text supports and invites, not whether every narrative resolves every dependency.
+For an unfamiliar mathematical construction, obtain its definitions, operations and justification. B.5.RC can help recover their relation when it is unclear. An unresolved proof step limits the conclusion until an adequate mathematical argument is available. NSTD.2 and NSTD.8 can arrange a supported construction for a reader or learner. In a fictional vignette, an unexplained hesitation may be the intended experience. The relevant question is what the text supports and invites.
 
 ### NSTD.Reference:1.5 - Choosing the continuation from the actual difficulty
 
@@ -190,316 +190,316 @@ Scientific explanation and teaching likewise retain their subject suppliers. To 
 | Events or relationships that have not yet been invented | NSTD.10 develops a possibility under premises and follows its consequences. | A failed prerequisite, changed premise or newly discovered effect can change the events themselves. |
 | A usable presentation of sufficiently understood material | A.6.3.NAR supplies the general rendering method; NSTD.1–NSTD.5 address purpose, order, connection, viewpoint and engagement. | A reader's difficulty can require a presentation repair or expose an earlier interpretive or constructive gap. |
 | A judgement about this narrative's suitability | NSTD.6 evaluates the relevant claims under the actual reader conditions. | A different purpose, source basis or reader condition can change the comparison. |
-| A way to use generation or design a learning route | NSTD.7 or NSTD.8 provides the corresponding connected method. | A missing input or a failed use returns to the contribution that supplies it; it does not require restarting every method. |
+| A way to use generation or design a learning route | NSTD.7 or NSTD.8 supplies the corresponding method. | For an absent input or a failed use, identify the contribution it affects. Retain adequate parts and return a precise limit when further work is unavailable. |
 
-The numbering is an address system. A draft can reveal the question that NSTD.9 must answer, and a newly constructed event can change the purpose selected through NSTD.1. Use the established result whenever it remains sufficient. A comparison, source record, graph or reader trial earns its place by the distinction it enables; none is a compulsory entry form.
+Use the method suited to the material at hand. A draft can expose an interpretive question for NSTD.9, and an invented event can change the purpose selected using NSTD.1. Keep adequate results. Use a comparison, source record, graph or reader trial when it can distinguish what the question needs.
 
 ## NSTD.Reference:2 - Solution and connected use
 
-The methods can change both the material being narrated and the account through which it is understood. **NSTD.9** constructs and compares a working interpretation from available material; **NSTD.10** constructs fictional possibilities or events for an explicitly hypothetical scenario. Their results can supply the relations, uncertainties or premises that **NSTD.1** selects for a reader. A sufficiently understood source or an already useful story can enter directly at NSTD.1 or at the particular difficulty.
+An author can use **NSTD.9** to construct and compare interpretations of available material, and **NSTD.10** to invent events for fiction or an explicitly hypothetical scenario. The resulting relations, uncertainties or premises can inform the selection for a reader through **NSTD.1**. A sufficiently understood source or an already useful story lets the author start directly at the difficulty in the narrative.
 
-**NSTD.2** chooses presentation order. **NSTD.3** tests the event, mechanism or dependency connections the account invites the reader to infer. **NSTD.4** constructs and sustains voice from a chosen speaking relationship and relevant examples or trials, while keeping viewpoint and attribution grounded. **NSTD.5** develops attention and motivation within that treatment. Those choices can expose a new interpretation or a missing story event, returning work to NSTD.9 or NSTD.10. **NSTD.6** evaluates a narrative version, including a candidate. **NSTD.7** connects planning, automated generation, inspection and repair, using the same distinctions between evidence, interpretation and invention. **NSTD.8** organizes a learning route and its reconstruction or application tasks.
+Use **NSTD.2** to choose presentation order and **NSTD.3** to examine the event, mechanism or dependency links a passage invites the reader to infer. **NSTD.4** develops voice through the speaking relationship, examples or trials and evidence for the speaker’s position. **NSTD.5** addresses the intended engagement. These choices may expose an interpretive question or a missing event for NSTD.9 or NSTD.10. **NSTD.6** evaluates a version of the narrative, **NSTD.7** connects planning and automated generation with inspection and repair, and **NSTD.8** organizes a learning route and its reconstruction or application tasks.
 
-A voice requirement connects those methods through the actual passage. NSTD.4 supplies the chosen relationship, expressive choices and warranted speaker position; NSTD.5 can refine a device, and NSTD.7 can realize the treatment with a tool. Comparing the resulting passage can reopen any of those choices. A judgement that the manner fits does not establish source fidelity or what a reader can do; NSTD.6 qualifies the required evaluation.
+Apply a voice requirement to the passage itself. NSTD.4 helps choose and sustain its speaking relationship and grounded viewpoint, NSTD.5 can refine an engagement device, and NSTD.7 can realize the treatment with a generation tool. Compare the passage with the requirement. When the question concerns source fidelity or a reader’s actual performance, use NSTD.6 with the corresponding source or response.
 
-Enter at the demonstrated difficulty. A draft that implies a cause from chronology can begin at NSTD.3; it need not first receive a complete NSTD.1 record. A new explanation can start with the reader's question and a few source relations, produce a short account and refine its selection during comparison. Evaluation can reveal the next useful repair or support keeping the sufficient result.
+Start where the difficulty is known. When a draft implies a cause from chronology, NSTD.3 can examine that inference using the available source. For a new explanation, start from the reader’s question and the salient source relations, then compare the short account and refine it where needed. A sufficient existing account can be retained.
 
-The Readme's incident case illustrates the connection. A log shows a configuration change, failures, rollback and recovery. NSTD.3 leaves the two causal claims unsettled; NSTD.2 gives an accurate chronology. That account can answer what happened. A decision requiring the cause returns to the investigation. NSTD.4 checks whether the operator's viewpoint falsely assigns blame, and NSTD.6 checks what the reader recovered.
+In the incident example the log records a configuration change, failures, a rollback and recovery. NSTD.3 helps identify two causal inferences still open, and NSTD.2 can present the recorded chronology. That chronology can answer what happened. For a causal explanation, use the investigation’s result or name the missing evidence. NSTD.4 can examine the operator’s viewpoint and the grounds for assigning responsibility. NSTD.6 can assess recoverability or use a reader’s response to establish what that reader understood from the account under the conditions of the encounter.
 
 ## NSTD.Reference:3 - Shared distinctions and conditions
 
-A narrative account is content expressed in a form a reader can encounter. The source-to-narrative construction describes how it uses selected source content. This DPF uses `A.6.3.NAR` for that construction. Its ordinary entry is source selection, ordering and comparison. When citation, dispute or another receiving use depends on claim identity, NAR supplies the fuller construction between source and receiving epistemes. Public distribution alone does not require it.
+A narrative account expresses selected content in a form a reader can encounter. A.6.3.NAR explains how source content is selected, ordered and compared with the resulting account. When a citation, dispute or other use depends on the identity of the claims, recover the fuller relation between the source and receiving epistemes.
 
-Past events, live observations, proposed events and fiction have different truth conditions. Mark the difference where it changes understanding. A live inference may need later correction; a future scenario states assumptions; a fictional continuation can introduce events that satisfy its chosen premises and continuity constraints.
+Past events, current observations, proposed events and fiction have different grounds. Show the distinction where it affects the reading. An inference made during a live event may need correction when further observations arrive. A future scenario states assumptions, and a fictional continuation can introduce events compatible with its premises and continuity constraints.
 
-Sometimes the source is an architecture description or view. Preserve the decision, trade-off and actual-structure returns that matter to the narrative's use. `C.33` concerns architecture-description adequacy, `C.34` a claimed structural correspondence, and `C.35` a generated or discovered result intended to inform architecturing. Ordinary narrative generation does not select all three.
+When the source is an architecture description or view, preserve the decision, trade-off and connection to the actual structure that the reader needs. Use C.33 for the adequacy of an architecture description, C.34 for a claimed structural correspondence, and C.35 for a generated or discovered result intended to inform architecturing.
 
-A displayed sequence may be one slice of a branching or constraint-governed structure. Where alternatives, loops, exits or stops change the reader's action, preserve them or provide a usable return through `A.22.CGUS`, `E.18.3` or the defining source. Showing one route does not settle which other routes remain possible.
+A displayed sequence may show one route through a branching or constrained structure. Preserve alternatives, loops, exits and stops that affect what the reader can understand or do, or provide a usable return to them through A.22.CGUS, E.18.3 or the defining source.
 
-Voice and focalization describe how an account presents its subject. A real writer, listener or organizational participant has a different relation to the work. Use the precise system-role, assignment, agency or Work conditions only for the corresponding claim. Ordinary contribution language and clear metonymy can remain ordinary.
+Voice and focalization concern the presentation. The writer, listener and organizational participant have roles in actual work. When attributing an act, authority or responsibility, establish the participant and any relevant assignment. Use the precise system-role or Work description where attribution depends on it.
 
 ## NSTD.Reference:4 - Architectural Rationale, forces and performance across levels
 
-The language separates contributions that can need different repairs while keeping their results connected. Changing order cannot supply a missing cause. Changing viewpoint can reveal an overlooked relation but can also obscure another. Increasing suspense can improve attention while delaying a prerequisite the reader needs. The shared comparison is therefore between the intended use, selected relations, their expression and the reader's recovery.
+Changing order can expose or obscure a causal gap. Changing viewpoint can reveal one participant’s knowledge while concealing another’s. Suspense may hold attention while delaying a prerequisite. Compare the intended use, selected relations, expression and what the reader could or did recover. Return a missing cause to the factual evidence or fictional construction it needs.
 
-Two alternatives are often sufficient: a direct factual answer with no narrative development, or a familiar genre convention that already serves the reader. Use the larger repertoire when a connected account introduces ordering, inference, viewpoint or learning difficulties. A fixed drafting pipeline would make these dependencies easy to list but would obstruct useful returns from a trial narrative to source selection. The patterns allow both direct entry and iteration.
+A direct factual answer or a familiar genre convention can already serve the reader. Use further narrative methods where order, inference, viewpoint or learning still needs work. A trial passage may reveal a need to change its source selection.
 
-The methods also participate in a vertical of ongoing work. While a teacher explains a counterexample, selecting its contrast, forming its sentences and observing the learner's response are constituents of teaching at that moment. The whole task may require a distinction to be usable before the next exercise; that requirement can change the sentence, diagram or timing now. If the learner cannot yet recognize the mathematical objects, polishing the story cannot supply that capability. Add the needed explanation, reference or practice, or change the task. Likewise, a technical narrator must have the relevant subject knowledge or obtain that contribution from a specialist.
+When a teacher explains a counterexample, selecting its contrast and forming its sentences can be parts of the teaching itself. Observing a response, when available, can also be part of that work. A distinction needed for the next exercise may affect the sentence, diagram or timing now. If the learner cannot recognize the mathematical objects, provide the needed explanation, reference or practice, or change the task. A technical narrator can use subject knowledge already available or obtain a qualified contribution where a gap remains.
 
-`B.1.5.EW` helps recover such simultaneous constituent and encompassing work; `B.1.5.RS` helps examine a replacement. The DPF describes part of the needed repertoire. Subject knowledge, language capability, available time, reader access and actual coordination may determine whether the combination can be performed.
+Use B.1.5.EW to establish which operations constitute the ongoing work. If a replacement is proposed, B.1.5.RS helps examine it. Check whether the combination can be performed with the available subject knowledge, language capability, time, access and coordination.
 
-There is no fixed number of useful refinement levels. A teaching application, genre-specific profile or local generation workflow can combine these same methods with narrower ones. A profile's scope, a Method composition and a chapter's position are different relations; the pattern numbering fixes addresses rather than an execution sequence.
+A teaching application, genre-specific profile or local generation workflow can combine these methods with narrower ones. The scope of a profile, the composition of a method and the order of chapters describe different relations. The subject and task determine how many levels of detail are useful. Pattern numbers locate the methods, which can be used in the order the work requires.
 
 ## NSTD.Reference:5 - Evaluation, typical failures and consequences
 
-Before relying on a narrative, ask what the reader needs to recover, whether the account supports that recovery, and which remaining uncertainty changes the next action. Inspect an inferred cause or attribution against its source. For a draft or generated candidate, use the defect to choose a repair; acceptance is not a prerequisite for evaluation.
+When assessing a narrative, identify what the reader needs to recover and what the account supports. Inspect an inferred cause or attribution against its source. Report the result under the conditions examined. An adequate account can be retained, and an evaluation of a draft can identify a defect before anyone has accepted it.
 
-`NSTD.6` applies `C.2.8` to the account, its expression and a specified reader or observer. State the selected semantic relations, correctness criterion, preparation, help and budget as needed for the question. A qualitative comparison can suffice. A count also needs its grain and selected set. Retain which relations were recovered: equal counts may support different actions.
+NSTD.6 applies C.2.8 to an account, its expression and a specified reader or observer. Identify the selected relations, correctness criterion, preparation, help and budget as needed. A qualitative comparison may suffice. For a count, define the unit and the set counted. Keep the identities of the relations when equal counts conceal different recoveries.
 
-An expert walkthrough, an actual response and a formal estimate establish different things. One supported response does not establish unaided transfer or reliability across a population. Current product quality, fidelity to a named source and evidence of how the product was made are separate questions. Missing manufacturing notes do not prevent diagnosis of a visible defect.
+A walkthrough or formal estimate can support a judgement about recoverability under stated assumptions. A recorded response can establish what that reader recovered with the help used. Use evidence across the relevant tasks or population for a claim about transfer or reliability. Inspect the product to diagnose a visible defect, the named source to assess fidelity, and evidence of production to establish how the product was made.
 
-Typical repairs follow those distinctions: qualify a cause inferred from sequence; restore a hidden viewpoint or condition; attach a prerequisite where the learner needs it; compare a generated scene with continuity constraints; or retain an adequate explanation when further work would add little. If repeated improvement is worthwhile, use `E.22` to frame an unsettled question and `E.23` to compare the change with protected characteristics, cost and risk in view.
+If the draft infers cause from sequence, qualify the inference. Restore a viewpoint, condition or prerequisite that the intended reading needs. Compare a generated scene with the continuity constraints when fidelity is in question. Keep an adequate explanation. For repeated improvement, use E.22 to frame an unsettled aim and E.23 to compare a proposed change with the qualities, costs and risks that matter.
 
-The gain is an account whose content, order and use are easier to examine and change. The cost is the comparison and any necessary reader or subject work. Additional forms, probes and evidence are justified by what their result can change. A consequential permission, evidence, assurance or affected-party claim needs its own grounds; narrative quality alone does not supply them.
+Examining the content, order and conditions of use takes practitioner time, and sometimes requires a reader response or subject expertise. Seek further evidence when its attainable contribution warrants that effort. Permission to use material, an assurance claim or an effect on an affected party requires its own grounds where the intended use depends on it.
 
 ## NSTD.Reference:6 - Source synthesis, coverage and relations
 
-Narrative studies supplies several complementary contributions. Narratology distinguishes story, discourse, voice and focalization; cognitive narrative research examines event comprehension and reader processing; science communication makes the tension between engagement and supported claims visible; natural-language generation and narrative planning distinguish content, order, realization and control. Learning research contributes conditions for retrieval, spacing, interleaving and transfer. The [Source Use And Refresh Map](#nstdsources1---source-use-and-refresh-map) and each pattern's SoTA-Echoing section state the adopted contributions and their limits.
+Narratology distinguishes story, discourse, voice and focalization. Cognitive narrative research investigates comprehension of events and reader processing. Science communication examines the relation between engagement and warranted claims. Natural-language generation and narrative planning distinguish content, order, realization and control. Learning research contributes conditions for retrieval, spacing, interleaving and transfer. The [Source Use And Refresh Map](#nstdsources1---source-use-and-refresh-map) and the source sections of the methods explain the contribution and limits relevant to each use.
 
-The synthesis uses those distinctions as methods for recognizable work. It adapts staged planning into a revisable cycle and separates product evaluation from generation history. A purely stylistic account would miss source and dependency failures; a universal formal-admission procedure would add unnecessary work before ordinary explanation. Domain sources remain necessary when the proposed use exceeds a source's actual reach or a newer result changes the method.
+Use these distinctions to plan and revise narrative work. Comparing a resulting passage with its intended use can lead back to an earlier choice of events or expression. Inspect a product for a visible defect and use production evidence where a claim about generation depends on it. Obtain subject evidence where an intended use exceeds an existing source’s scope, or revisit a method when new evidence changes its grounds.
 
-The publication develops interpretation and story construction together with selection, order, event and mechanism support, viewpoint, engagement, evaluation, generation and learning routes. Its teaching, fiction, mathematical and live-event examples demonstrate different uses; they do not bound the repertoire or establish complete domain coverage. Genre craft, the full history of narratology, a complete learning-science curriculum, generation algorithms, legal permissions and formal metric calibration require their appropriate sources or more specialized methods.
+The methods cover interpretation and story construction, selection, order, grounding of inferred connections, viewpoint, engagement, evaluation, generation and teaching routes. The examples apply them in teaching, fiction, mathematics and live commentary. Questions of genre craft, literary history, learning science, generation algorithms, legal permission or formal measurement may call for their own sources and methods.
 
-The emphasis on explicit source relations can favor analytic and technical work. Expressive aims such as mood, voice and imaginative discovery remain legitimate; choose a fidelity or reconstruction criterion only when that use requires it. A provisional draft can help discover both the subject and the purpose. Actual field effectiveness and learning remain questions for observations qualified by their conditions.
+Mood, voice and imaginative discovery can be the purpose of the work. Choose a fidelity or reconstruction criterion where that purpose or another requirement needs it. A provisional draft may help discover the subject and purpose. Claims about actual learning or effects in the field need observations and other grounds suited to those outcomes.
 
-This DPF depends on FPF's general distinctions and adds narrative-domain methods. FPF does not depend on NSTD. The [DPF Relations](#nstdreference13---dpf-relations) section explains the specific dependencies, teaching-publication relations and useful returns. In an architecture-mediated explanation, the reader may need to return from narrative to a description or view, then to the modeled structure and observations. A directly sourced explanation returns to its relevant material. Each representation may omit relations; inspect those omissions when they affect the use.
+NSTD uses general distinctions from FPF and adds methods for narrative work. The dependency runs from NSTD to FPF. The [DPF Relations](#nstdreference13---dpf-relations) section identifies the contributions and the conditions for returning to them. An account based on an architecture view may need to lead the reader back through the view to the modeled structure and observations. A directly sourced explanation can refer to the relevant material itself. Examine omissions in either representation where they affect the intended use.
 
 ## NSTD.Reference:7 - Worked combinations across narrative uses
 
-The cases show how the methods combine across teaching, fiction, mathematics and live commentary. Each route can be shortened to the work the current difficulty needs.
+These cases show how a teacher, fiction author, mathematical expositor and live commentator can combine narrative methods. Follow the part that addresses the task.
 
-Use a route to construct a narrative or to locate a defect in an existing one. An existing draft can be evaluated immediately; the absence of its production history does not prevent judging a visible problem. Return to the relevant construction step when repair needs it.
+Use a case to develop a narrative or examine a difficulty in an existing one. A draft can reveal a missing connection even when its production history is unknown. Return to its construction where a repair needs it.
 
 
 
 ### NSTD.Reference:7.1 - Case A - FPF Learning Route Probe With Seminar Carrier
 
-Use: a seminar or slide series that teaches readers to apply FPF patterns. The complete course is a separate teaching publication; a worked teaching example may also appear in a pattern.
+A seminar or slide series is being designed to teach readers to apply FPF patterns. A complete course is a teaching publication in its own right. A pattern may contain a worked example of how to teach it.
 
-Patterns opened: `NSTD.1`, `NSTD.2`, `NSTD.3`, `NSTD.5`, `NSTD.6`, `NSTD.8`.
+The example draws on NSTD.1, NSTD.2, NSTD.3, NSTD.5, NSTD.6 and NSTD.8.
 
-Selected content: what a pattern concerns, when and how to use it, how methods relate, when to consult a source, and how to evaluate and improve the result.
+Learners need to recognize what a pattern concerns, when and how to apply it, how it connects to other methods, when to consult a source, and how to assess or improve the result.
 
-Temporal posture and rendering mediation mode: prospective planned learning route over current FPF source structures; direct source-structure mode unless an architecture-of-FPF explanation is explicitly opened as architecture-mediated support.
+Base the planned lessons on the relevant FPF source. Where the lesson uses an architectural explanation of FPF, preserve the connection through that explanation to its source.
 
-Ordering rule: didactic prerequisite order, with explicit divergence from monolith order when helpful.
+Order the teaching by the prerequisites learners need at each task. The sequence can differ from the order of the source publication.
 
-Construction route:
+One possible construction follows.
 
-1. `NSTD.1`: relate the learner's task to the needed pattern content. For a first-use lesson, select a recognizable difficulty, the method's first operation, its result and the next relevant method.
-2. `NSTD.2`: order the selected content so that each exercise has the needed prerequisites. Depart from the source's chapter order where that serves the lesson, retaining a return to any omitted condition.
-3. `NSTD.3`: turn each session into a reconstruction target: after the session, the learner should be able to reconstruct one pattern-use route from source basis and selected source structure, not only repeat the teaching story.
-4. `NSTD.5`: add motivation devices only where they protect attention without replacing source return; slogans and examples remain subordinate to reconstructable source structure.
-5. `NSTD.8`: try a short learning sequence with a recurring anchor, a reconstruction or application task, and the support needed at that point. Drafting a slide can reveal a missing prerequisite; record the route when course coordination or revision needs it.
-6. `NSTD.6`: evaluate the route once the above source and use basis is recoverable. A missing structural-amount basis returns to source-spine selection; a demonstrated relation loss calls for repair of the selection, expression or usable source return through the relevant NSTD method before style polish. Compare any numerical amount only at its stated scale and conditions.
+1. With NSTD.1, select content for the learner’s task. A first-use lesson may need the recognizable difficulty, the first operation and its result. Introduce another method when the result needs further work.
+2. With NSTD.2, place the necessary distinctions before an exercise relies on them, or provide the reference the learner is expected to use. Keep a usable return to source conditions omitted from the lesson.
+3. Use NSTD.3 to identify the connections learners should reconstruct. For a session on applying a method, ask them to connect the relevant source, the operation and the result it can support.
+4. Use NSTD.5 to choose an example or expression that draws attention to that connection. Preserve any source return needed for the task.
+5. Use NSTD.8 to design a short sequence around a recurring case, a reconstruction or application task, and the support required at that point. While drafting a slide, check whether its task uses a term or distinction before the lesson has made it available. An existing trial can supply separate evidence about what a learner encountered. Try the sequence where the learning question warrants it. Keep the route accessible when others need it for teaching or revision.
+6. With NSTD.6, assess what the sequence lets the intended reader recover. Use a learner’s response and the help they used for a claim about actual recovery. If an essential relation is absent, inspect the source selection, expression and route to the source. Compare amounts only for defined units, selected relations and conditions.
 
-Intentionally lost or deferred: full monolith detail, all neighboring patterns, all source-pack rows, and advanced formal variants. These return through source links.
+The introductory route leaves out advanced formal variants and neighbouring patterns that the exercise does not require. Give a usable source reference where a later task needs that detail.
 
-Related work: use `E.17` and `E.17.AUD` for teaching-publication and audience-unit questions, `NSTD.6` for narrative quality, the subject sources for the taught claims, and `A.10` when the source-to-use account is implicit or must remain replayable. `G.2`/`G.11` apply when synthesizing or refreshing a SoTA basis.
+E.17 and E.17.AUD help design the teaching publication and its audience units. NSTD.6 addresses narrative quality. Use the subject sources for what the lesson teaches. Use A.10 when the link between evidence and its use is unclear or must remain recoverable, and G.2 or G.11 when a state-of-the-art synthesis needs developing or updating.
 
-Low `NSTD.6` repair: if learners enjoy sessions but cannot reconstruct pattern use, repair `NSTD.2`, `NSTD.3`, and `NSTD.8` before changing only style.
+If learners enjoy a session but cannot reconstruct how to apply a pattern, that observation can answer what they did under the stated conditions. For an explanation or repair, examine the chosen content, sequence, task and help. Change the part shown to need it.
 
 
 
 ### NSTD.Reference:7.2 - Case B - Franchise Continuation Storycraft
 
-Use: plan a continuation of an existing fictional world, such as a space-opera franchise. This case concerns narrative construction; it does not determine publication rights.
+An author plans a continuation of an existing fictional world, such as a space opera. The case concerns the story. Determine publication rights if the work will be released under conditions that require them.
 
-Patterns opened: `NSTD.1`, `NSTD.2`, `NSTD.3`, `NSTD.4`, `NSTD.5`, `NSTD.6`, `NSTD.7` when generation is used.
+The example uses NSTD.1–NSTD.6. NSTD.10 can supply missing events and NSTD.7 applies when a generator drafts part of the work.
 
-Selected constraints: canon and continuity, the premise and theme, character motivation, causal plot relations, viewpoint and stakes. New events can be invented within those chosen constraints.
+Identify the established canon, premise, theme, character motives, causal relations, viewpoint and stakes that the continuation must preserve. The author can invent events within the chosen constraints.
 
-Temporal posture: prospective fiction based on a chosen canon or local premise set. Compare directly with those sources; an architecture description is needed only if the story work itself uses one.
+The possible future of the fictional world is constrained by the selected canon or local premises. Compare proposals directly with those sources, using an architecture description where the work actually relies on one.
 
-Ordering rule: choose how plot events and revelations reach the reader. A delayed reveal can be intentional; repair a missing connection when it defeats the intended plot or understanding.
+Choose when events occur, where the narrative discloses them and which clues it offers earlier. A delayed disclosure can sustain interest. A missing means of action can make the proposed event impossible.
 
-Construction route:
+For a proposed plot, the author might proceed as follows.
 
-1. `NSTD.1`: choose the premise and the canon constraints the continuation will retain. Existing excerpts or a compact note may suffice; build a maintained source collection only when repeated work needs it.
-2. `NSTD.2`: distinguish event order from reveal order. For a consequential action, ensure that the necessary means or motive are available in the story, even if the reader learns them later.
-3. `NSTD.3`: build an event or mechanism support map for the proposed plot: initiating condition, constraint, conflict, action, consequence, update, and unresolved tension.
-4. `NSTD.4`: choose the viewpoint and protagonist's contribution. Clarify an attribution or omitted perspective only when it changes the intended account.
-5. `NSTD.5`: try stakes, curiosity, identification or a familiar allusion for the intended reader effect. Keep a device when its contribution is worth its cost and it preserves the chosen narrative constraints.
-6. `NSTD.7`: inspect generated candidates against the chosen premise and continuity. Repair, retain or reject them before deciding their use.
-7. `NSTD.6`: evaluate continuity, character agency, causal plot support, viewpoint discipline, and `NarrativeRenderingEpiplexity`; repair structure before increasing drama.
+1. With NSTD.1, identify the premises and constraints the continuation must retain. An excerpt or existing note may suffice. Maintain a larger source collection where repeated work benefits from it.
+2. With NSTD.2, distinguish event order from reveal order. For a consequential action, establish the means or motive it needs in the story. The narrative can disclose that condition later or leave clues from which it can be inferred.
+3. Use NSTD.3 to examine the conditions, conflict, actions, consequences and unresolved tension that link the proposed events. Sketch their connections where a sketch helps expose a missing link. Use NSTD.10 if an event itself still needs inventing.
+4. With NSTD.4, choose the viewpoint and establish what the protagonist contributes. Clarify an attribution or an omitted perspective where it affects the intended account.
+5. With NSTD.5, consider stakes, curiosity, identification or an allusion for the intended reader experience. Keep the device where it serves the aim at acceptable cost and preserves the story constraints.
+6. If a generator supplies a candidate, use NSTD.7 to compare it with the selected premise and continuity. Keep, revise or reject the passage for the intended use.
+7. Use NSTD.6 to assess continuity, the characters’ actions and knowledge, the events’ causal support, and the viewpoint. Where the question is what structure a reader can recover, use NarrativeRenderingEpiplexity under the relevant conditions. Repair a failed connection when the brief requires a usable continuation.
 
-Intentionally lost or deferred: exhaustive canon, production rights, fan-service catalogue, and publication permission. These are outside this DPF case.
+This case uses only the canon relevant to the proposed scene. Questions about production rights, permission to publish or other parts of the canon can be taken up when the project needs them.
 
-Related work: select canon and its constraints through `NSTD.1`; inspect generated continuations through `NSTD.7` and `NSTD.6`. Use `NSTD.4` for voice and attribution. Additional agency, responsibility, ethics or publication-rights questions depend on the claim and intended use. Maintaining canon alone selects neither `G.2` nor `C.35`.
+Use NSTD.1 for canon and its constraints, NSTD.4 for voice and attribution, and NSTD.7 and NSTD.6 for a generated continuation. Examine authority, ethics or publication rights where the intended use depends on them. G.2 concerns a state-of-the-art synthesis and C.35 work contributing to architecturing.
 
-Low `NSTD.6` repair: continuity drift, premise mismatch, character-agency collapse, escalation without causal structure, fan-service replacing plot function, viewpoint confusion, or stakes without source return repair through `NSTD.1` through `NSTD.4`, not by adding more dramatic prose.
+If the continuation contradicts canon, revisit the relevant premise or event. If a character acts without a necessary motive or means, repair that link. For a confused viewpoint or an allusion that hides a plot relation, examine what the passage lets the reader know. Select the relevant operation in NSTD.1–NSTD.5 or NSTD.10.
 
 
 
 ### NSTD.Reference:7.3 - Case C - Homotopy Theory Explanation
 
-Use: graph-heavy and structure-heavy mathematical theory rendered into sequential explanatory narrative for learners.
+An expositor wants learners to follow a mathematical construction through definitions, examples and dependencies that a graph may show together.
 
-Patterns opened: `NSTD.1`, `NSTD.2`, `NSTD.3`, `NSTD.5`, `NSTD.6`, and `NSTD.8` if taught as a series.
+The case uses NSTD.1, NSTD.2, NSTD.3, NSTD.5 and NSTD.6. NSTD.8 helps arrange the content when a series of lessons is needed.
 
-Source structures that must survive: definitions, dependency order, examples, counterexamples, proof-status boundaries, theorem prerequisites, and source return to formal statements.
+Preserve the definitions, dependencies, representative examples and counterexamples, conditions of the theorems, proof status and access to the formal statements the learner needs.
 
-Temporal posture and rendering mediation mode: retrospective or atemporal explanatory route over existing mathematical source structures; direct source-structure mode unless a teaching architecture or knowledge-graph architecture is explicitly used as mediation.
+An exposition can explain an existing construction retrospectively or present the mathematical relations without a historical chronology. Use the mathematical source directly unless a teaching architecture or knowledge graph mediates the account.
 
-Ordering rule: didactic dependency order with source-return to formal proof order.
+Order the explanation by the learner’s dependencies and provide access to the formal argument in its proof order.
 
-Construction route:
+A teacher developing this explanation can make the following choices.
 
-1. `NSTD.1`: select the learner use and source structures: definitions, dependency graph, examples, counterexamples, theorem prerequisites, proof-status boundaries, and formal-source return.
-2. `NSTD.2`: choose didactic dependency order; explicitly mark where it differs from formal proof order, historical order, or publication order.
-3. `NSTD.3`: define the reconstruction target for each step: what the learner must be able to state, distinguish, use in an example, or return to as formal proof status.
-4. `NSTD.5`: introduce an analogy, question or visual example where it helps the learner. Supply a condition before the learner's next inference needs it; distinguish an intuitive image from a formal result.
-5. `NSTD.8`: if the explanation becomes a series, turn dependencies into session anchors and reconstruction tasks rather than a sequence of entertaining analogies.
-6. `NSTD.6`: evaluate whether learners can recover definitions, dependency order, example boundaries, proof-status boundaries, and source-return points; low values repair source selection and ordering before adding more metaphor.
+1. With NSTD.1, identify the learner’s use and select the definitions, examples, counterexamples, dependencies, prerequisites and proof status needed for that use. Give a route to the corresponding formal statements.
+2. With NSTD.2, choose the teaching order. Point out differences from proof, publication or historical order where misunderstanding them would change the learner’s inference.
+3. With NSTD.3, identify the relations the learner needs at each step. A task may ask them to state a definition, distinguish examples, apply a construction or locate its proof.
+4. Use NSTD.5 for an analogy, question or image that helps the learner follow the construction. Give needed conditions before the next inference. Mark which parts the image illustrates and where formal justification begins.
+5. When the explanation spans several lessons, use NSTD.8 to place reconstruction tasks and their support where each dependency will be used.
+6. Use NSTD.6 to assess recoverability of the definitions, dependencies, limits of examples and proof status. For a claim about the learners, use their responses under the specified conditions. If a needed relation was lost, identify what the selection, ordering or expression omitted.
 
-Intentionally lost or deferred: full proof detail, every lemma, historical order, and advanced generalizations not needed for declared learner use.
+Defer proof details, additional lemmas, history or advanced generalizations only where the selected learning use permits it. Retain a path to any omitted formal result on which the explanation relies.
 
-Related work: `C.29` supports a mathematical lens when one is being constructed; the mathematical source supplies the definition or proof. `A.10` recovers an implicit or needed replayable source-to-use account; `E.17` governs the explanation's publication form.
+C.29 can help construct a mathematical lens. Use the mathematical source for a definition or proof. A.10 can recover a consequential implicit link between source and use or preserve it for later examination. E.17 governs the publication form.
 
-Low `NSTD.6` repair: if learners can retell an analogy but cannot state definitions, dependency order, example boundaries, or proof status, repair `NSTD.1`, `NSTD.2`, and `NSTD.3`; do not raise engagement alone.
+If learners can retell the analogy but cannot identify a definition, dependency, example boundary or proof status, inspect the relevant selection, explanation, ordering and task. A subject correction may be needed if the formal relation itself is missing or incorrect.
 
 
 
 ### NSTD.Reference:7.4 - Case D - Live Event Commentary
 
-Use: live commentary for an unfolding football match or analogous event stream, used for listener orientation and later review only under source-return conditions.
+A commentator helps listeners follow an unfolding football match. A later reviewer can use the account under the conditions its sources support.
 
-Patterns opened: `NSTD.1`, `NSTD.2`, `NSTD.3`, `NSTD.4`, `NSTD.5`, and `NSTD.6`.
+The case draws on NSTD.1–NSTD.6 for source selection, order, event connections, viewpoint, engagement and evaluation.
 
-Source structures that must survive: score state, event sequence, possession or control changes, tactical or situational structure, actor roles, uncertainty, provisional interpretation, and return to official result, telemetry, statistics, or recording.
+Keep score, event order, changes of possession, relevant tactical relations, participant roles and uncertainties accessible to the listener. For later review, identify the official result, statistics, telemetry or recording needed for the claim.
 
-Temporal posture and rendering mediation mode: live unfolding event stream; direct source-structure mode. Architecture-mediated mode opens only if the commentary is explicitly about structure of a team, venue, broadcast system, or other holon and uses architecture descriptions as admitted source basis.
+The live account draws directly on observations and reports as events unfold. Use an architecture description where the account relies on one to explain the structure of a team, venue or broadcast system.
 
-Ordering rule: live event order with explicit prediction and uncertainty markers; later recap may use causal or tension order but must not erase which claims were provisional during the live event.
+Present events in live order and distinguish a prediction from an observation or provisional interpretation. A recap may reorder events around a cause or tension while preserving what could be known at the time.
 
-Construction route:
+The commentator can apply the methods to the following parts of the work.
 
-1. `NSTD.1`: identify what the listener needs from the live account, the available event source, the commentator's viewpoint and which interpretations remain provisional.
-2. `NSTD.2`: follow live event order while marking when the sequence is observation, inference, tactical interpretation, or prediction.
-3. `NSTD.3`: preserve event and state-update support so listeners can reconstruct what changed, who acted, and what remains uncertain.
-4. `NSTD.4`: keep viewpoint and agency wording from assigning responsibility, intention, or capability beyond the observable or sourced basis.
-5. `NSTD.5`: use tension and suspense only as attention support; it cannot make predictions, disputed rulings, or emotional framing into settled evidence.
-6. `NSTD.6`: evaluate whether the listener can distinguish observed event, provisional interpretation, uncertainty, and source-return obligation.
+1. With NSTD.1, identify what listeners need, which sources are available and what the commentator could observe from their position. Mark interpretations that remain provisional.
+2. With NSTD.2, present the unfolding events in order and make clear which claims are observations, tactical interpretations or predictions.
+3. With NSTD.3, connect changes of score, possession or player action with the events that support them. Leave a disputed state clear as disputed.
+4. With NSTD.4, state whose viewpoint the account presents and what the evidence supports about action, intent, ability or responsibility.
+5. Use NSTD.5 to convey excitement or uncertainty. A forecast, a disputed ruling and an emotional interpretation should remain recognizable as such.
+6. With NSTD.6, assess whether the account lets a listener distinguish the observed event, interpretation, uncertainty and later correction. Use a listener’s response to establish what they actually distinguished.
 
-Intentionally lost or deferred: full official statistics, all off-camera events, post-match medical or disciplinary facts, and later tactical analysis. These return through official source refs, telemetry, or recording.
+The live account can omit off-camera events, full statistics, later disciplinary or medical findings and extended tactical analysis. For a later claim about one of these, use a source that actually establishes it.
 
-Related work: return to the official record for a disputed fact or correction. Use the relevant publication guidance for broadcasting; use `D.1`–`D.5` when an actual harm or value conflict arises and `G.11` when a changed source affects a maintained account.
+Use the official record for a disputed ruling or correction. Apply publication guidance where the work is being broadcast, D.1–D.5 for an actual harm or value conflict, and G.11 if a changed source affects a maintained account.
 
-Low `NSTD.6` repair: if listeners remember drama but cannot distinguish observed event from commentator inference or later official correction, repair `NSTD.1`, `NSTD.2`, `NSTD.3`, and `NSTD.4` before increasing engagement.
+If listeners remember the drama but confuse a provisional inference with a later official decision, report that finding under the conditions in which they heard the account. To explain the confusion, examine the source, timing, wording, viewpoint, access and help. If the task calls for a revised commentary, repair the part shown to need it.
 
 ## NSTD.Reference:8 - Support Maps
 
-Open these maps when a pattern's instruction leaves a source, meaning or neighboring-method question unresolved. They are optional reference material, not prerequisites for beginning a narrative.
+Use a map when a question about a source, a term or a related method affects the narrative work.
 
-Use the architecture bridge for an actual architecture-related narrative; the semiotic bridge for an unresolved representation or interpretation problem; the source map for a relied-on research claim; and the precision map to distinguish an overloaded term.
+The architecture map connects narrative and architecture questions. The semiotic map concerns expression and interpretation. The source map identifies the research behind a claim, and the terminology table distinguishes meanings that change how a reader can use it.
 
 ## NSTD.Reference:9 - Architecture and narrative work bridge
 
-Architecture and narrative work both involve selecting and relating structures, but their results differ. The table identifies useful correspondences and the conditions under which an architecture method applies. A plot, synopsis or teaching route is not thereby an architecture description.
+An architect selects structures that matter to the subject’s architecture. That subject might be an operating system or a body of knowledge whose definitions and proofs have a particular organization. A writer can use an architecture description as a source, or explain one proof directly from its premises. The table identifies the questions each practice can answer.
 
 | Architecture question | Comparable narrative question | When the FPF contribution applies |
 | --- | --- | --- |
-| architecture-relevant problem pressure in `C.32.P2S` | narrative problem, communicative pressure, audience confusion, motivation gap, future-scenario need, story problem | Use `NSTD.1` for reader purpose, `NSTD.9` for an unsettled interpretation, or `NSTD.10` for a hypothetical scenario. Use `C.32.P2S` when the question concerns the real project architecture. |
+| Which problem matters for the project architecture? (`C.32.P2S`) | What difficulty faces the intended reader, or what must the story or scenario make possible? | Use `NSTD.1` to clarify reader purpose, `NSTD.9` to develop or compare interpretations or `NSTD.10` to construct a scenario. Use `C.32.P2S` for the architecture problem itself. |
 | Which structure matters, and what is still unknown? | Which story-world constraint, event connection, mechanism or proof dependency does this account need? | State the relevant relations directly; use `A.22` when a structural description is needed and `C.30` only for architecture description. |
-| architecture structural view and viewpoint in `C.30.ASV` | focalization, narrative viewpoint, perspective, lens, whose path through the material, what the reader is allowed to see | Use `NSTD.4` for voice or focalization wording; cite `C.30.ASV` when the viewpoint is over architecture-relevant selected structures. |
-| architecture description in `C.30.AD` | synopsis, outline, story bible, explanatory account, learning route, narrative-rendering publication carrier | Use `A.6.3.NAR` for structure-to-sequence rendering and `E.17` for publication; use `C.30.AD` only when the source or target is an architecture description. |
-| candidate structure set and trade-off in `C.32` | alternative plots, possible story plans, scenario branches, competing explanation routes, narrative design alternatives | Use `NSTD.10` to construct plot or scenario alternatives, `NSTD.2` for presentation order and `NSTD.6` for declared-use quality. Use `C.32` for architecture candidate synthesis. |
-| Project architecture decision in `C.32.PAD` | Choosing a narrative route, plot, order or viewpoint | Use `NSTD.2`, `NSTD.4` or `NSTD.5` for the editorial choice. Use `C.32.PAD` when the choice actually concerns the architecture of the system being described. |
+| Which structures does an architecture viewpoint select in `C.30.ASV`? | Whose perspective does the account offer? What does it show, conceal or allow the reader to infer? | Use `NSTD.4` to choose or examine voice and focalization. Use `C.30.ASV` when the viewpoint selects structures for an architecture question. |
+| What does the architecture description represent in `C.30.AD`? | What does the synopsis, story bible, explanatory account or teaching route need to convey? | Use `A.6.3.NAR` for rendering structure in sequence and `E.17` for publication. Use `C.30.AD` when the source or intended result is an architecture description. |
+| Which architecture candidates meet the requirements, and what trade-offs matter in `C.32`? | Which proposed plot, scenario branch or way of explaining the material serves the narrative purpose? | Use `NSTD.10` if an event or branch needs construction, `NSTD.2` to arrange disclosure and `NSTD.6` to assess a version for its intended use. Use `C.32` for architecture candidates. |
+| Which project architecture decision does `C.32.PAD` address? | Which plot, order or viewpoint suits this account? | Use `NSTD.2`, `NSTD.4` or `NSTD.5` for editorial choices. Use `C.32.PAD` for a decision about the architecture of the subject being designed. A writer can also describe an earlier decision from its grounds. |
 | Participants who use an architecture result | Writer, teacher, commentator, story designer or assisting agent | Identify the contribution needed for the narrative. Use `A.2`, `A.13` or `A.15.1` only for the corresponding system-role, agency or actual Work claim. |
-| reader-relative structural amount in `C.2.8`, architecture-description adequacy in `C.33`, and narrative source return in `NSTD.6` | what selected relations this reader can extract from the narrative, what remains missing, and when the source or an architecture description must be consulted | Use `NSTD.6` for `NarrativeRenderingEpiplexity` under C.2.8 and for the separate source-return judgement. Use `C.33` for the architecture-description adequacy question. |
+| How much selected structure can a particular reader correctly recover (`C.2.8`)? Is an architecture description adequate for its use (`C.33`)? | Which relations can the reader correctly recover from this account through this expression, and for which must they return to the source? | Use `NSTD.6` for reader-relative recovery (`NarrativeRenderingEpiplexity`) against the relevant source or correctness criterion and for the source return. Distinguish a design estimate from an observed response. Use `C.33` when assessing an architecture description. |
 | Preserving a specified architectural relation through a change | Preserving canon, continuity or a selected explanatory relation through retelling | Compare ordinary narrative constraints directly. Use `C.34` for an architectural preservation claim, including the losses and permitted use that claim needs. |
-| realized structure, operation, telemetry, feedback in `C.32.P2S` and `G.11` | reader reception, learner reconstruction, field test, replay, audience misunderstanding, generated-output repair, official result after live commentary | Use `NSTD.6`, `NSTD.8`, `E.23`, and `G.11` for evaluation, improvement, and refresh. Use architecture feedback owners only when actual holon structure or architecture-characteristic results are being checked. |
+| What do observations of operation or other relevant structure show in `C.32.P2S` or `G.11`? | What did readers or learners do, and what can a response, comparison or later official result establish? | Use `NSTD.6` for the evaluation, `NSTD.8` for the learning task, `E.23` for repeated improvement, and `G.11` when the basis needs updating. Use the architecture methods for an observation or assessment that bears on the selected structure of the subject. |
 
-The comparison suggests possible training transfers, not an established transfer effect. An architect learning narrative work can practise presentation order, viewpoint and reader response while using familiar structural distinctions. A narrator learning architecture work must additionally learn how to identify the relevant real structures, compare design alternatives and check their consequences. Competence in one practice does not establish competence in the other.
+An architect learning narrative work can draw on familiar structural distinctions while practising disclosure, viewpoint or interpretation of a reader’s response. A narrator entering architecture work needs to identify real structures, compare alternatives and check their consequences. Prior work may already demonstrate some of these abilities. Performance in the receiving practice can show what the person can do there. To attribute that ability to transfer, establish which earlier learning they used and consider preparation or training that could also explain the result.
 
 ## NSTD.Reference:10 - Semiotic and language-precision bridge
 
-Narrative construction changes how signs, sequence and viewpoint make material available to a reader. Use the following neighboring methods when they address the actual difficulty. Ordinary drafting can proceed without a formal language-state profile.
+A narrative uses signs, sequence and viewpoint to present its material. The following methods address particular difficulties in expression and interpretation.
 
 | Narrative wording or difficulty | Related method | Consequence for the narrative |
 | --- | --- | --- |
 | "make it more interesting", "more literary", "more artistic" or "more memorable" | `NSTD.5` for the intended reader effect; `NSTD.6` for its evaluation. `C.2.LS` applies if a language-state distinction matters. | An expressive aim can be the use itself. Preserve any factual or structural claim that the chosen use also needs. |
-| early hook, vibe, image, tension, felt mismatch, story seed, or low-articulation direction | `A.16.1` to preserve the cue; `NSTD.10` to explore the story possibility; `NSTD.1` when purpose or source selection needs development; `NSTD.2` when the events need presentation order. | Preserve the cue without pretending that the narrative purpose, selected route, claim, method, or quality endpoint already exists. |
+| An opening image, tension, felt mismatch or story seed | `A.16.1` to retain the cue, `NSTD.10` to explore a story possibility, `NSTD.1` to develop its purpose or select sources, and `NSTD.2` to arrange events for presentation. | Keep the promising image or feeling available while the intended account and its use are taking shape. |
 | Felt artistic fit before a clear narrative purpose | `A.16.1` for preserving a cue; `C.16.Q` when distinguishing this signal from an evaluated quality | Keep the image, tension or suggestion available for exploration. Establish a quality value only when the corresponding question and basis exist. |
-| overcommitted plot frame, failed explanatory frame, or too-strong narrative route | `A.16.2` for reopen, sketch-backoff, respecify, or retire; `A.6.P`/`C.16.Q` only when relation or quality precision is actually repairable | Back off the narrative route honestly instead of hiding retreat behind "refined", "made subtler", or "more nuanced" prose. |
+| A proposed plot or explanation asserts more than the material supports | `A.16.2` to reopen, sketch afresh, revise or retire the proposal. Use `A.6.P` or `C.16.Q` when the ambiguity concerns a relation or a quality claim. | Identify the unsupported commitment. Weaken or withdraw it, or revise the account when its premises permit the change. |
 | Simplified, didactic, redacted or compressed retelling | `A.6.3.CSC`; `E.17.EFP` when it explains a source | Identify the lost distinctions that could change the intended use and provide a usable return when they are needed. |
-| clearer explanation, tutorial wording, onboarding story, or source-linked retelling | `E.17.EFP` plus `A.6.3.NAR` when sequence and narrative order are load-bearing | Classify whether the rendering is source-pinned, source-linked reconstruction, didactic retelling, or speculative retelling; do not let helpful explanation become a second semantic rule track. |
+| An explanation, tutorial or retelling based on a source | `E.17.EFP` for explaining the source and `A.6.3.NAR` when narrative order matters. | Make clear which statements the source supplies and where the author reconstructs, simplifies for teaching or speculates. Use the source to settle claims that depend on its precise rule. |
 | "same story", adaptation fidelity, canon continuity, or narrative correspondence | Direct source comparison; `NSTD.2` for order and `NSTD.6` for quality. `C.34` only for architecture-specific preservation. | State which relation or constraint must survive, compare the result, and disclose losses that matter to the intended use. |
-| "quality", "good narrative", "adequate story", "strong explanation", or "better style" | `C.16.Q` for overloaded quality wording, `A.19.ECS`/`C.16`/`NSTD.6` for evaluation, `F.18` for durable names | Recover bearer, evaluation frame, quality sense, characteristic or bundle, and value meaning before using the term as improvement guidance. |
+| A proposed improvement described as “better style” or “higher quality” | `C.16.Q` for ambiguous quality language, `A.19.ECS`, `C.16` or `NSTD.6` for evaluation, and `F.18` when a durable name matters. | Identify what would improve, for which use and by what criterion. If the conclusion uses a value or several characteristics, say what each measures and how it informs the judgement. |
 | An ambiguous "supports", "grounds", "maps", "connects" or "aligned with" | `A.6.P` and the definition of the relation at issue; `C.34` only for architecture preservation | Recover what relates to what and what the relation permits the reader to infer. An ordinary unambiguous connection needs no formal expansion. |
 | Choosing style, genre, technique, voice or tone | `NSTD.4:4.1–4.5` to construct or continue a voice; `NSTD.4:4.6` for viewpoint and attribution; `NSTD.5` for a device's reader effect. Use `E.10` for a consequentially ambiguous term and `F.18` when a stable reusable name is needed. | Compose and compare the expression for the reader's use. Reconsider the treatment when genre or language changes; resolve a naming or meaning question where it changes that choice or the reader's inference. |
 
-Use FPF for the general definition or method and NSTD for the narrative operation that uses it. This keeps the dependency from NSTD to FPF while avoiding a second set of general definitions inside narrative practice.
+Use the FPF definition or general method for the question it addresses. The NSTD method explains how that contribution fits the narrative work.
 
 ## NSTD.Reference:11 - Working meanings and direct source returns
 
-These terms help distinguish questions that occur in narrative work. A local field name does not create a new Core kind. Use the cited definition when the particular claim needs its precision.
+Use these meanings to distinguish questions about a narrative. Follow the cited definition when the answer depends on a more precise FPF term.
 
 | Term | Meaning in this DPF | When a related method is needed |
 | --- | --- | --- |
-| source basis; admitted source basis | Material used for the account: a formal text, event record, story premise, canon, architecture description or another relevant source. “Admitted” adds a receiving-use condition only when one is specified. | Compare ordinary sources directly and retain an adequate existing basis for the claim. Use `G.2` for SoTA synthesis, `A.10` when the source-to-use account is implicit or must remain replayable, or `E.17.EFP` for a source-based explanation. |
+| source basis, admitted source basis | The material used for the account. It may be a formal text, event record, story premise, canon or architecture description. An admitted source also meets the conditions specified for the receiving use. | Use an adequate source directly. Use `G.2` to synthesize current research, `A.10` when the connection between source and claim is unclear or must remain reproducible, or `E.17.EFP` to explain a source. |
 | selected source structure | The relations or distinctions selected for the narrative. | `NSTD.9` constructs a missing working interpretation; `A.6.3.NAR` relates the available source to the account; `A.22` helps describe structure, `C.2.8` its recovery by a reader, and `C.33` architecture-description adequacy. |
 | source-structure selection rationale | Why those relations matter for the reader's use. | `NSTD.1` revises selection and purpose together. |
 | source temporal posture | Whether the account concerns past events, a live situation, a plan, prospective fiction or a combination. | `NSTD.1` keeps observation, inference and invention distinguishable when their difference matters. |
 | rendering mediation mode | Whether the narrative draws directly on source structure, through an architecture description, or both. | Use architecture methods only for the architecture contribution actually involved. |
 | architecture-mediated narrativization route | Narrative construction that uses an architecture description, view, decision or account of actual structure as a source. | `C.30`/`C.32` govern the relevant architecture work; `NSTD.1/.2` govern selection and presentation. |
-| rendering Work role | The writing, teaching, commentary or other contribution sought in the task. | A precise actual-Work claim separately identifies the System, applicable role assignment and occurrence through `A.13` and `A.15.1`. The task description alone asserts no occurrence. |
-| reader or listener role | The receiver's working position and intended use. | `NSTD.1/.6` use it to select material and judge the account; it does not establish actual comprehension. |
+| rendering Work role | The writing, teaching, commentary or other contribution called for in the task. | Use ordinary evidence for an ordinary account of who wrote or taught something. When a claim requires precise attribution of a dated Work occurrence, identify the acting system, its role assignment and the occurrence under `A.13` and `A.15.1`. |
+| reader or listener role | The recipient’s position and intended use of the account. | Use `NSTD.1` or `NSTD.6` to select or assess material for that use. To report what the recipient understood, use evidence of the interpretation or action they produced under the conditions in question. |
 | reader-interest or use hypothesis | A tentative account of what the reader wants to understand, remember or do. | A comparison or reader response through `NSTD.5/.6` may change that hypothesis. |
 | narrative rendering | The resulting narrative account; where relevant, distinguish it from the construction relation and the file or other publication form. | `A.6.3.NAR` defines the construction; `E.17` addresses publication form. |
 | narrative purpose | The intended contribution to the reader's use, including an expressive aim. | `NSTD.1` relates it to the selected material. |
 | ordering rule | The way selected material is presented in sequence. | `NSTD.2` distinguishes presentation order from event time, proof dependency and required work order. |
-| event model | A reader's account of events, states and their connections. | `NSTD.9` helps construct and compare the account; `NSTD.3` repairs a particular connection; use `C.28` when a causal claim itself requires causal analysis. |
+| event model | An account of events, states and the connections among them, constructed by an author, analyst or reader. | Use `NSTD.9` when the interpretation needs constructing or comparison, `NSTD.3` for a missing or doubtful connection and `C.28` for a causal question that requires analysis. |
 | viewpoint | The position from which the account presents its material. | `NSTD.4` compares what this reveals and hides. |
 | focalized object | The person, object, relation or situation made salient by the chosen viewpoint. | `NSTD.4` separates salience from an attribution of action or responsibility. |
-| voice | How the narrator speaks and relates to the reader and events, realized through the movement of thought, address, rhythm, detail, stance and other expressive choices. | `NSTD.4:4.1–4.5` constructs and compares that treatment from examples or trials; `NSTD.4:4.6` keeps viewpoint and consequential attribution grounded. |
+| voice | How the narrator speaks and relates to the reader and the events through the movement of thought, address, rhythm, detail and stance. | Use `NSTD.4:4.1–4.5` to construct or compare a treatment using suitable passages for an existing voice, or trying a short passage in a newly chosen voice. Use `NSTD.4:4.6` for viewpoint and attribution. |
 | protagonist | A central participant or focus of the narrative. | Real responsibility or capability, when claimed, requires its own grounds. |
 | actant | A function in a narrative relation or plot. | Distinguish it from a real System's local system-role kind or assignment under `A.2`/`A.2.1`. |
 | agency; personification | Agency concerns action; personification presents something through humanlike properties. | Use `A.13` for a precise agency claim and `NSTD.4` to repair misleading attribution. |
-| engagement effect | A change in attention, motivation, immersion, memorability or willingness to continue. | `NSTD.5/.6` distinguish these effects from understanding and source fidelity. |
+| engagement effect | A change in attention, motivation, immersion, memorability or willingness to continue. | Use `NSTD.5` to design a device for the intended effect and `NSTD.6` to assess it. An observed effect on interest has its own grounds, as do conclusions about understanding or source fidelity. |
 | persuasion boundary | A condition on the intended influence or choice the account supports. | `D.1`–`D.5` help resolve actual value, affected-party or harm conflicts. |
-| generated source plan | A plan of selected material, relations and constraints supplied to a generator. | `NSTD.7` compares it with the source and draft. `G.2` concerns SoTA synthesis; `C.35` concerns results entering architecture work. |
-| plot or event plan | A proposed arrangement of fictional or narrated events. | `NSTD.10` develops the events and possibilities; `NSTD.2` and `NSTD.7` compare the plan and draft. A plan is not evidence that events occurred. |
+| generated source plan | The selection of material, relations and constraints for a generated narrative. The plan may itself be proposed by a generator. | Use `NSTD.7` to compare the plan and draft with the source. `G.2` concerns synthesis of research, and `C.35` concerns a generated result entering architecture work. |
+| plot or event plan | A proposed arrangement of fictional or narrated events. | Use `NSTD.10` to develop a missing event or possibility, and `NSTD.2` or `NSTD.7` to compare a plan with a draft. Establish historical events from their evidence. |
 | schema constraint | A formal or informal rule imposed on generated output. | `NSTD.7` distinguishes compliance with that rule from semantic adequacy or successful execution. |
 | generation method | The procedure used to produce a draft. | `NSTD.7` guides its use; a product can be inspected even when its production history is unknown. |
 | repair loop | Repeated changes evaluated against the intended improvement. | `E.22` frames an unresolved improvement question; `E.23` uses results such as `NSTD.6` to choose and reassess changes. |
-| learning narrative route | An arrangement of material and learner activities intended to develop a capability. | `NSTD.8` supplies needed support at each use; `E.17` and `E.17.AUD` address the teaching publication. |
-| learner reconstruction task | A task asking a learner to recover or use selected relations. | `NSTD.8/.6` distinguish task performance, assistance and the wider learning claim. |
-| narrative rendering epiplexity | In `NSTD.6`, the reader-relative recovery of selected structure, using `C.2.8`. | Qualify the observer, particular expression, conditions and evidence. A qualitative comparison does not supply a bit estimate, general learning result or architecture-quality result. |
-| narrative quality characteristic | One question about a narrative version for a declared use. | `A.19.ECS`, `C.16` and `NSTD.6` distinguish the characteristic, scale, observation and result. |
+| learning narrative route | An arrangement of material and activities intended to develop a learner’s capability. | Use `NSTD.8` to design or examine the support a task needs. `E.17` and `E.17.AUD` address the teaching publication. |
+| learner reconstruction task | A task asking a learner to identify or use selected relations. | Use `NSTD.8/.6` to compare what the learner contributed, the help available and the help used. A wider learning claim needs evidence under the conditions it covers. |
+| narrative rendering epiplexity | How much selected structure a particular reader can correctly recover from a narrative account through a particular expression (`NSTD.6`, `C.2.8`). | Compare recovery with the relevant source or criterion under the specified preparation, operations, help, access and budget. Give the basis for the judgement. A qualitative account of the recovered and missing relations can suffice. A bit estimate, learning claim or architecture-quality judgement requires its own grounds. |
+| narrative quality characteristic | An aspect of a narrative assessed for a specified use, such as preservation of a source relation. | Use `A.19.ECS`, `C.16` and `NSTD.6` to distinguish the characteristic, the scale used, the observation or other basis, and the value obtained. |
 | narrative language-state facet profile | A description of articulation, closure, anchoring, representation and their relevant thresholds. | Use `C.2.LS` and `C.2.4`–`C.2.7` when one of those distinctions changes the work. |
 | pre-articulation narrative cue | An image, tension, mismatch or hint worth retaining before a clear narrative claim or route exists. | `A.16.1` supports exploration without prematurely fixing a route. |
 | preconceptual narrative fit signal | Felt rightness or artistic pull before a defined quality comparison. | `C.16.Q` distinguishes this signal from a characteristic value; `A.16.1` can preserve it as a cue. |
 | coarsened narrative rendering | A simplified or restricted account that omits distinctions from its source. | `A.6.3.CSC` identifies the consequences for use and needed source returns. |
 | explanation-facing narrative rendering | A narrative used to help a reader understand a source. | `E.17.EFP` distinguishes its explanatory relation; `A.6.3.NAR` applies when narrative order is part of the construction. |
 | narrative precision restoration | Resolving wording whose ambiguity changes the claim or action. | Use `E.10`, `A.6.P`, `C.16.Q` or `C.2.P` for the specific unresolved meaning. |
-| artistic or literary rendering mode | A choice of voice, tone, genre, scene or technique for an expressive or other reader aim. | `NSTD.4/.5` guide the choice; `NSTD.6` assesses it for that aim without treating artistic effect as factual support. |
+| artistic or literary rendering mode | A choice of voice, tone, genre, scene or technique for an expressive or other reader aim. | Use `NSTD.4/.5` to choose the treatment and `NSTD.6` to assess it against its aim. Check factual claims against their sources. |
 
 ## NSTD.Reference:12 - FPF contribution and compatibility
 
-The definitions and general methods used by this edition are available in [FPF Core](../FPF-Spec.md). In particular, `A.6.3.NAR` supplies the source-to-narrative relation and its ordinary and claim-specific uses; `C.2.8` supplies reader-qualified structural recovery; `A.19.ECS` and `C.16` supply the evaluation distinctions used in `NSTD.6`. The support maps and the relations below identify the additional content used for each relevant claim.
+For the general methods used here, see [FPF Core](../FPF-Spec.md). Use `A.6.3.NAR` for the relation between source and narrative, `C.2.8` for what a particular reader can recover, and `A.19.ECS` and `C.16` for the evaluation in `NSTD.6`. The support maps identify the other methods used for particular claims.
 
-NSTD depends on those definitions for the uses stated here. A relevant change calls for reconsidering the affected narrative instruction or evaluation; it does not require restarting unrelated uses. Compatibility across a changed Core edition is a separate question about that use. `E.4.PFR` explains this dependency distinction and `G.11` the currentness question.
+When a Core definition changes, reconsider the narrative uses that relied on the changed provision. Check whether they still work with the new edition. `E.4.PFR` explains the dependency and `G.11` the question of currentness.
 
 ## NSTD.Reference:13 - DPF relations
 
-These relations explain how the methods combine and when their dependencies need to be revisited. A pattern citation locates the relevant definition or instruction; it does not own a subject or create an authority relation. Ordinary subject assertions below are sufficient for reading and use. A maintenance index may represent the same assertions through the optional forms in `E.4.PFR`.
+Use the table to connect the methods for the question at hand and to find which contributions may need reconsideration. A citation locates the relevant definition or instruction. For the representation of a dependency, see `E.4.PFR`.
 
 | Relation used in this DPF | Consequence for the reader | Return or refresh condition |
 | --- | --- | --- |
 | NSTD uses FPF's definitions of narrative construction, source use, evaluation, agency and publication. | Interpret the domain methods through the specific cited content. Dependency runs from NSTD to FPF; compatibility across a changed FPF edition needs its own assessment. | Revisit only the dependent use when relevant defining content changes. `E.4.PFR` defines dependency; `E.5.3` constrains its direction. |
-| NSTD.1–NSTD.8 develop domain methods using `A.6.3.NAR`. | Begin with ordinary source selection, ordering and comparison. Use NAR's precise construction only when claim identity changes the receiving use. | Return to NAR for source/receiving episteme identity, construction or correspondence questions. |
+| NSTD.1–NSTD.8 draw on `A.6.3.NAR`. | Use the available source selection, ordering or comparison where it answers the narrative question. | Consult NAR when the identity of the source or receiving account, the construction, or their correspondence affects what can be claimed. |
 | NSTD.9 constructs and compares narrative interpretations. | Its account supplies units, connections and unresolved readings for selection, presentation or further inquiry. F.0.1 helps when a source expression's meaning is unsettled; F.0.2 when the question requires synthesis across source ontologies. | Revisit the affected reading when material, a consequential assumption or the question changes. An already described construction can use B.5.RC directly. |
-| NSTD.10 constructs fictional or hypothetical events under premises. | Its result supplies a story possibility or conditional scenario. Rendering choices can expose a reason to revise that construction. | Revisit events whose prerequisites or intended effect changed. A missing real project arrangement returns to the relevant subject work, using C.32.P2S when the connected architecturing question requires it. |
-| NSTD.1, NSTD.2, NSTD.6, NSTD.8 and NSTD.10 use `A.22.CGUS` when branching or constrained unfolding needs an explicit account. | A narrative can display one slice while retaining the relevant alternatives, loops, exits and stops of the wider structure. | Return to CGUS, `E.18.3` or the defining local block if the slice hides a relation needed for the next action. |
+| NSTD.10 constructs fictional or hypothetical events under stated premises. | Its result can be a story possibility or a conditional scenario. A choice about presentation may reveal a need to revise that construction. | Revisit events affected by changed prerequisites or aims. Use an adequate subject result for a real project arrangement. When the connected architecture still needs developing, consult `C.32.P2S`. |
+| NSTD.1, NSTD.2, NSTD.6, NSTD.8 and NSTD.10 use `A.22.CGUS` when branches or constraints need an explicit account. | A narrative can follow one route while retaining alternatives, returns, exits and stopping conditions in the wider structure. | Return to CGUS, `E.18.3` or the local definition when the chosen route hides a relation needed to explain the events or decide what could happen next. |
 | The Source Use And Refresh Map supplies domain source contributions under `G.2`. | Use each source for the claim and tradition it supports; a citation alone does not establish evidence or authority. | Reopen a missing, stale, contradicted or overextended source claim and compare serious alternatives. |
 | NSTD.6 evaluates a narrative version produced or revised through the other methods. | Compare the candidate or accepted account for the intended reader and use; distinguish product quality, source fidelity and production history. | Use `A.19.ECS` for the characteristic space, `C.16` for measurement, and `C.2.8` for qualified structural recovery. Revisit changed selection, use, scale or evidence. |
-| NSTD.6 results can guide repeated improvement through `E.22` and `E.23`. | Frame an unresolved quality question, select a worthwhile change, protect other needed characteristics and compare the resulting version. A retry alone is no improvement claim. | Return when the version, changed part, cost, risk or comparison basis is missing or changed. `G.11` supports currentness. |
-| NSTD.7 plans and inspects generated narratives. | Evaluate a candidate before deciding its use. If the generated result will inform architecturing, also apply `C.35` to that architecture use. | Revisit affected claims when source, generator, constraints or proposed use changes; fluent output does not establish source fidelity. |
-| NSTD.8 can be realized in a seminar, handout or other teaching publication. | The teaching material presents the selected learning route. `E.17` concerns its source-backed form and `E.24.PUB` its publication and audience availability. | Revisit source relations, learning tasks or access when the source, audience or publication changes. A teaching file can contain useful examples without redefining the source pattern. |
+| NSTD.6 results can guide repeated improvement. | Use `E.22` when the aim is unclear. Use `E.23` to choose a worthwhile change, protect the other qualities that matter and compare the resulting version. | Reconsider the comparison when the intended change, cost, risk or evidence changes or an essential condition is unknown. Use `G.11` for a question about currentness. |
+| NSTD.7 addresses planning and inspection of generated narratives. | Use an adequate assessment of the version for the intended use, or inspect the outstanding issue. Apply `C.35` if the generated result will enter architecture work. | Revisit affected claims when the source, generator, constraints or proposed use changes. Check source fidelity against the relevant material. |
+| A seminar, handout or other teaching publication can use NSTD.8. | The material can present a learning route and examples. `E.17` concerns the source-backed publication and `E.24.PUB` its availability to the audience. | Revisit affected tasks, access or sources when the publication, its audience or its basis changes. Evidence about actual teaching or learning comes from its use. |
 | NSTD.8 and NSTD.6 support evaluation of learner reconstruction and use. | Distinguish a design walkthrough, an actual reading and a learning-effect claim. Feed an established defect into the relevant repair or `E.23`. | Revisit changed reader preparation, assistance, source selection or evidence; an evaluation does not by itself grant publication permission. |
 | NSTD.4 supplies a voice treatment to NSTD.5's device choice and NSTD.7's automated realization. | Carry the speaking relationship, relevant examples or chosen trial, needed content and warranted speaker position into a connected draft. | Compare the actual expression with that basis and its neighbors; reopen the affected choice when voice, meaning or use fails, keeping their conclusions distinct. |
 | NSTD.4/.5 can expose agency, responsibility, persuasion or affected-party questions. | Use `A.2`, `A.13`, `D.1`–`D.5`, `A.10` or `B.3` for the corresponding claim when it is made. | Reopen the particular claim when wording changes who acts, who is affected, what is supported or who may decide. |
 
 ## NSTD.Reference:14 - Refresh the affected narrative use
 
-Use this route when the package is already being applied and one of its source, evaluation, or carrier assumptions changes.
+Reconsider an existing narrative use when a change in its source, evaluation or means of access could affect the result.
 
 1. Revisit a source when a missing, stale or contradicted claim could change the narrative's use. Use `G.2` for a renewed SoTA synthesis; compare an ordinary event record or fictional canon directly.
-2. Return to `NSTD.6` when the evaluated object kind, declared use, value meaning, quality characteristic, evidence basis, or low-value repair route changes.
-3. Use `E.22` when the improvement question is underframed: purpose, floor, protected trade-offs, expected evidence, result form, or cost and risk are not explicit.
-4. Use `E.23` for repeated improvement of a narrative version or selected part under `NSTD.6` evaluation, with the improvement aim, protected qualities and re-evaluation basis established before changing it.
-5. Use `G.11` when a change in FPF Core edition, generated-narrative practice, reader telemetry, teaching-test evidence, source pack or the `NSTD.6` evaluation characteristic space could alter whether the available basis supports the narrative's receiving use. Retain sufficient unaffected results.
+2. Return to `NSTD.6` when the object assessed, intended use, meaning of a value, characteristic, evidence or proposed remedy changes what the evaluation can support.
+3. Use `E.22` when an unresolved aim, minimum requirement, trade-off, expected evidence, result, cost or risk prevents a useful improvement comparison.
+4. For repeated improvement of a version or selected part, use `E.23` with the evaluation from `NSTD.6`. Before changing the work, identify the intended gain, qualities to protect and the basis for comparing the result.
+5. Use `G.11` when a change in Core, generation practice, observations of reading or teaching, the source material or the evaluation characteristics in `NSTD.6` calls an existing use into question. Keep results whose grounds still hold.
 6. Distinguish the teaching or narrative product from observations about its use. Reuse an observation only for the claim and conditions it actually supports; a worked example may remain in the pattern that explains the method.
 
 For source qualifications, citation and edition information, see the [Sources and Edition Notes](#narrativization-and-narrative-studies-principles-framework-sources-and-edition-notes).
@@ -514,42 +514,42 @@ For source qualifications, citation and edition information, see the [Sources an
 
 > **Type:** DPF pattern body
 
-> **Primary EntityOfConcern:** selecting source structures and a narrative purpose that serve the intended reader. The optional intake below records one application of this method.
+> **Purpose:** select from the source the events, relations and distinctions the intended reader needs.
 
 ### NSTD.1:1 - Problem frame
 
-Use this pattern when a writer, narrator, teacher, architect, researcher, commentator, story designer, or tool starts with a message, lesson, theme, persuasive effect, desired memory, live commentary line, or future scenario before naming the source structures that must survive the narrative rendering.
+Use this method when you need to choose which source relations a narrative must preserve for its intended use, or to assess those choices in an existing account. A lesson, an argument, a live commentary, a fictional scene and a future scenario can require different selections.
 
-First useful move: name the reader's question, point to the available material and choose the relations or events the reader needs. Draft a short account, then compare it with that material. Refine the purpose or selection when the comparison exposes a gap. A few sentences can carry these choices; a completed intake form is not required.
+Identify the reader’s question, locate the available material and select the relations or events it requires. Compare an existing draft with that material, or try a short account if the selection is unclear. Revise the purpose or selection where the comparison exposes a gap. A few sentences can suffice.
 
-What goes wrong if missed: the desired effect determines what the source is said to contain. Readers may remember the account but miss a relevant relation, mistake uncertainty for fact or be unable to find the material needed to check it.
+If the desired effect determines what the source is said to contain, a reader may remember the story but lose an important relation, mistake uncertainty for fact or lack the material needed to check a claim.
 
-What this buys: a useful account whose selected content supports its purpose and whose unresolved claims remain visible.
+The result identifies the material that supports the account’s purpose and any claim the available material leaves open.
 
-Use `NSTD.4` when viewpoint or voice is the difficulty, and `NSTD.7` when generation needs planning or inspection. Use `C.35` only when the generated result is intended to inform architecture work. A separate evidence, ethics or publication question needs its own applicable method; merely drafting an explanation does not open all of those questions.
+Use `NSTD.4` for a question about viewpoint or voice and `NSTD.7` for planning or assessing generated text. Use `C.35` when a generated result will inform architecture work. If the intended use raises a question about evidence, ethics or publication, obtain the relevant result for that question.
 
 ### NSTD.1:2 - Problem
 
-Narrative purpose is useful because a narrative rendering is made for someone and for some use. But ordinary purpose language is often too broad: "make it inspiring", "tell the story", "explain the architecture", "make learners care". Those phrases do not say which structures must be preserved, which distinctions may be coarsened, and which downstream use is blocked.
+“Make it inspiring” can be enough direction for an expressive sketch. It leaves open which relations an explanation of an architecture must preserve, which details can be simplified for a lesson, or what a reviewer must be able to check. Clarify the purpose to the degree the reader’s intended use requires.
 
 ### NSTD.1:3 - Forces
 
 | Force | Tension |
 | --- | --- |
-| Reader usefulness vs source discipline | A narrative needs a purpose, but the purpose cannot replace selected source structures. |
-| Motivation vs authority | Motivation helps attention, but it does not create evidence, assurance, ethics clearance, or work permission. |
+| The reader’s use and the available material | The purpose guides selection. The material determines which subject claims the account can support. |
+| Attention and authority | A motivating account may keep readers interested. A claim about evidence, assurance, ethical clearance or permission to act needs its own grounds. |
 | Domain vocabulary and distinct claims | Narrative terms help design; claims about evidence, ethics or authority still need their own grounds. |
 | Drafting and source comparison | A quick draft can clarify the purpose; comparing it with the source reveals omissions and unsupported connections. |
 
 ### NSTD.1:4 - Solution
 
-Start with a useful reader question and the available material. Select what the account must preserve, choose a provisional order and try a short narrative. Compare it with the source for omitted relations, unsupported additions and misleading connections. Stop when that account serves the intended use, or name the missing source relation that prevents it.
+Start with the reader’s question and the available material. Select what the account must preserve and examine how an existing or proposed sequence presents it. Use a short draft when it helps expose an omission or an unsupported connection. The answer can be a suitable selection, a finished account for the intended use, or a precise limit on what the material establishes.
 
-For example, a paragraph states that a valve opens when pressure exceeds a threshold. An operator asks why the valve opened. The first useful account names that condition and the observed pressure, if available. If only the opening was observed, say that the threshold crossing is still unestablished.
+Suppose an automatic valve is designed to open when pressure exceeds a threshold. An operator asks why it opened on one occasion. The rule explains one possible mechanism. A time-matched pressure reading and evidence that the automatic mechanism triggered the opening can establish that explanation for this event. If the only observation is an open valve, report its state and leave the cause open. Manual opening can produce the same observation.
 
-When selecting the relations presupposes an account that is not yet available, use NSTD.9 to construct and compare it from the material. Its result can change which events, participants or meanings belong in the selection. A supplied diagram, chronology or interpretation is a usable input when its grounds fit; it need not be reconstructed. For a story or hypothetical scenario whose events are still open, NSTD.10 supplies their construction under the selected premises. Return to the reader's purpose after either result: a discovered ambiguity or a new possibility may change what the narrative should make available.
+When the reader needs an interpretation the material does not yet supply, use NSTD.9 to construct or compare accounts of the events, participants and meanings. Use an adequate diagram, chronology or interpretation directly. For fiction or a hypothetical scenario with undecided events, use NSTD.10 to develop what could happen under the selected premises. A discovered ambiguity or new possibility can change what the account needs to make available to this reader.
 
-Use the following optional intake when another worker must continue the task, several alternatives must be compared or a maintained collection needs the same fields. Include only fields that change that use. The filled records later in this section illustrate richer cases; they are not the minimum entry cost.
+The optional intake below can preserve the choices needed by a collaborator, a comparison of alternatives or a maintained collection. Include the details that change that use. The examples show how the same fields can serve different tasks.
 
 ```text
 NarrativePurposeIntake@Context:
@@ -575,50 +575,50 @@ NarrativePurposeIntake@Context:
   refreshCondition?:
 ```
 
-Use `unfoldingStructureRefs?` only when one selected source structure is governed as a constraint-governed unfolding structure by `A.22.CGUS`, `E.18.3`, or a local FPF block. Use `demonstrativeSliceRefs?` only for the slice the narrative renders for the reader; the slice is not the whole selected structure.
+Use `unfoldingStructureRefs?` when `A.22.CGUS`, `E.18.3` or a local FPF block defines a constraint-governed structure selected for this account. Use `demonstrativeSliceRefs?` for the particular path the narrative presents. The wider structure can also contain alternatives, returns and stops.
 
-The intake supports these decisions when they matter:
+Use the following prompts where a choice remains open.
 
 1. Identify the material and selected relations or events, explaining their relevance to the reader's purpose. State whether they concern past, live, proposed or fictional events when that changes the account.
-2. If the account depends on an architecture description, decision or observation record, keep the needed return to that material. A direct explanation of source claims needs no architecture account.
-3. Name the writer's contribution and intended reader in ordinary project terms. Use `NSTD.4` when voice or viewpoint changes what the reader can recover; use `NSTD.7` for a generated draft. A precise system-role classification or assignment uses `A.2` or `A.2.1`. A claimed dated production Work additionally needs the A.13 and A.15.1 grounds for that claim. None of those precise claims is required merely to ask a teacher or agent for an explanation.
-4. Relate the purpose to the selected structure and reader use. Revise the purpose or the selection together when either proves unsuitable.
-5. Inspect what the draft leads this reader to infer from the selected material. When a particular inference would change the intended understanding or action, locate its basis in the wording, representation, source or an observed reader response. Apply `F.19:4.4` to choose the smallest useful correction. The optional `likelyMisreading?` field records that inference with its ground when another worker needs it.
-6. Give the source or further question to return to when an omitted relation or stronger claim becomes necessary.
+2. If the narrative uses an architecture description, decision or observation, let the reader find the source whose structure or claim matters to that use. A direct explanation can refer straight to the subject material.
+3. Identify who is writing or supplying the account and who will use it. Use `NSTD.4` for a consequential choice of voice or viewpoint and `NSTD.7` for planning or inspecting generated text. Use `A.2` or `A.2.1` for a precise system-role or assignment claim. Use A.13 and A.15.1 when the claim needs precise attribution of a dated Work occurrence.
+4. Relate the purpose to the selected structure and the reader’s use. If one changes, check whether the other still fits.
+5. Examine which inferences the draft invites given the reader’s likely preparation. Locate a consequential difficulty in the wording, presentation, source or evidence from a reading. A response can show which interpretation a particular reader gave. To attribute it to this passage or report independent understanding, establish what else the reader knew or used. Apply `F.19:4.4` when choosing a correction. The optional `likelyMisreading?` field can preserve the inference and its grounds for a collaborator.
+6. Identify where to find an omitted relation or what still needs investigation if the reader requires a stronger conclusion.
 
-For a difficult intake, these four questions can expose the unresolved choice. Stop once the useful choice is clear; they are not four required documents.
+For a difficult selection, use whichever of these questions could settle it.
 
 | Pass | Question | Output |
 | --- | --- | --- |
-| Source pass | What selected source material or source pack is being rendered, and which selected source structures must remain recoverable for the declared use? | Source-basis refs or source-pack refs, selected source structure refs, and source-return condition. |
-| Use pass | Who will use the narrative, for what work or understanding, and which distinctions must they recover? | Reader or listener, reader-interest hypothesis, intended use and the distinctions it requires. |
-| Mediation pass | Is the work direct source-structure rendering, architecture-mediated rendering, or mixed? What temporal posture changes source obligations? | Rendering mediation mode, temporal posture, architecture mediation refs, and live telemetry or source-return refs. |
-| Reliance question | Which claim or feature of this account creates a consequential reliance question for its intended reader? | Apply `F.19:4.4` to a grounded difficulty; repair the claim or expression and supply any condition, source or decision the use needs. |
+| Source | Which material is the account drawing on, and which relations does the reader need to recover? | Identify the material, the selected relations and when a reader will need to return to the source. |
+| Use | Who will use the narrative, for what work or understanding, and which distinctions does that use require? | Name the intended reader or listener, the expected interest or purpose and the needed distinctions. |
+| Mediation | Does the writer use subject material directly, an architecture description or both? Does the account concern past, live, planned or hypothetical events? | Identify the source used, its relation to the account, and the observations or later corrections needed for its claims. |
+| Reliance | Which claim or feature could change what the intended reader can infer or do? | Use `F.19:4.4` for a grounded difficulty. Identify the relevant condition, source or decision and revise the wording when that is the needed remedy. |
 
-A draft can help discover the needed selection. Before relying on it, explain which relations or events matter without using their accidental prominence in that draft as the reason. If the reader's purpose is still unclear, ask a question or offer a small orientation account that helps settle it. Broader claims about completeness or fidelity remain open.
+A draft can reveal a useful selection. Check its relations against the reader’s purpose and the available sources before relying on them. If the purpose is unclear, ask what the reader needs or offer a short account that helps identify it. Qualify any broader claim about completeness or fidelity on its own grounds.
 
 Use these contrasts when the purpose remains unclear:
 
-- Admissible: "This route helps new FPF readers reconstruct why `EntityOfConcern`, forces, and neighboring-pattern exits matter during pattern use." The selected structures are named and the use is reconstructive.
-- Below floor for the declared reconstruction lesson: "Make the seminar inspiring so people like FPF." Motivation can help learners continue, but this purpose does not yet identify the source relations they must reconstruct or use. An expressive-only event can have a different sufficient aim.
-- Argument explanation: "Help reviewers understand the argument for this proposal." Select its premises, inferences and grounds as the material to explain, together with the consequential uncertainty or competing position.
+- **Reconstructing a procedure.** “Help new FPF readers recognize why the EntityOfConcern, forces and neighboring-pattern exits matter in use.” This purpose identifies relations the learner should be able to reconstruct.
+- **Motivating a class.** “Make the seminar inspiring so people want to use FPF” gives an expressive aim. For a reconstruction lesson, also identify what learners need to reconstruct and do with the result.
+- **Explaining an argument.** To help reviewers understand a proposal, select its premises, inferences and grounds. Include an uncertainty or rival position when it affects the argument.
 
-For prospective or fictional material, select the relevant canon, premises, design constraints or future-state hypotheses. The narrative may add proposed events within those constraints. If a turn conflicts with them, change the turn or explicitly change the premise; excitement alone does not resolve the conflict. A formal source pack is useful when maintaining canon or comparing alternatives requires it.
+For fiction or a proposed real scenario, select the relevant canon, premises, design constraints or hypotheses. The narrative can develop events under those conditions. If a proposed event conflicts with a fixed condition, change the event. Change an author-controlled premise explicitly if the task permits. For a real scenario, establish the grounds for any claim that the proposed events could occur. A maintained source collection can help compare alternatives or preserve canon.
 
-When the narrative selects part of a constraint-governed unfolding structure, identify that wider structure and the chosen part. The selected structure may be `ConstraintGovernedUnfoldingStructure@Context`, an `E.18.3` transformation-flow unfolding structure, a P2S local block, an improvement-loop block, or a narrative-ordering block under `A.6.3.NAR`. The writer may choose one `DemonstrativeUnfoldingSlice@Context` for the reader's use. Identify omitted branches, alternatives, loops, constraints or exits when losing them would change the reader's understanding or next action. The slice is not the whole selected structure and not a work order.
+When the narrative follows one path through a constraint-governed unfolding structure, identify the wider structure and the path shown. Possible sources include `A.22.CGUS`, an `E.18.3` transformation flow, a P2S or improvement-loop block, and an ordering block under `A.6.3.NAR`. A writer can select one `DemonstrativeUnfoldingSlice@Context` of a `ConstraintGovernedUnfoldingStructure@Context`. Show omitted branches, returns, constraints or exits when the reader needs them to interpret this path or act. Identify whether the path shows an actual occurrence, an admissible possibility or a prescribed way to proceed.
 
-Use role-specific intake prompts when the worker is stuck.
+These questions address common difficulties in selecting sources.
 
 | Worker situation | Prompt | Expected answer |
 | --- | --- | --- |
-| Teacher or trainer | "After the narrative, what should learners reconstruct from source without relying on my story?" | Source spine, reconstruction task, and source-return condition. |
-| Architect or analyst | "Which structure, trade-off, candidate, telemetry, or decision memory must survive the narrative?" | Architecture or source-structure refs plus rendering mediation mode. |
-| Scientist or researcher | "Which mechanism, calculation, failed attempt, source uncertainty, or unresolved tension is being rendered?" | Mechanism or event support, uncertainty, evidence owner, and source return. |
-| Story designer | "Which canon, premise, agency, continuity, or causal plot constraint governs this route?" | Bounded source pack and non-publication boundary when needed. |
-| Live commentator | "Which observation, inference, prediction, and later official source must stay distinguishable?" | Temporal posture, uncertainty markers, and refresh condition. |
+| Teacher or trainer | “What should learners be able to reconstruct or do, and what help may they use?” | Identify the source relations, a task that uses them and when to return to the source. |
+| Architect or analyst | “Which structure, trade-off, candidate, observation or earlier decision does the account need to convey?” | Identify the subject or architecture source, what it establishes and how the narrative draws on it. |
+| Scientist or researcher | “Which mechanism, calculation, attempt, source uncertainty or unresolved tension does the account concern?” | Identify the relevant calculation, proof or evidence, what remains uncertain and where a stronger claim could be checked. |
+| Story designer | “Which events, character choices and constraints must hold under the selected canon or premises?” | Identify the relevant premises and any limit on publishing or reusing the result for the intended purpose. |
+| Live commentator | “What was observed, what is being inferred or predicted and what can the official account later settle?” | Locate the observations in time and identify any uncertainty and subsequent correction. |
 | Tool builder | "What material and relations must the output preserve, and how will a reader or operator detect a consequential omission or invention?" | A generation plan and source-comparison question under `NSTD.7`; add production-history or responsibility details when the intended use requires them. |
 
-Mood, audience reaction, style or genre can be part of a legitimate purpose. When source fidelity or learning is also intended, those aims leave the needed source selection unanswered. Resolve that question before claiming fidelity or learning; `NSTD.4` and `NSTD.5` can help realize the expressive aim.
+Mood, genre, style or an audience reaction can be a narrative aim. If fidelity or learning also matters, select the source relations the audience needs. Use `NSTD.4` or `NSTD.5` to develop the expression. An actual claim about learning needs evidence of the learner’s performance.
 
 Examples of the optional intake for different uses:
 
@@ -633,10 +633,10 @@ NarrativePurposeIntake@FPFLearningRoute:
   renderingMediationMode: direct-source-structure unless architecture-of-FPF explanation is opened
   renderingContribution: teacher or course designer
   intendedReaderOrListener: new FPF author or reviewer
-  readerInterestOrUseHypothesis: learner needs usable entry, not complete monolith memory
+  readerInterestOrUseHypothesis: the learner wants to use an appropriate pattern for a case
   intendedReaderOrListenerUse: reconstruct one pattern-use route and apply it to a new case
-  narrativePurpose: orient attention and sequence learning tasks around source-returnable pattern use
-  sourceReturn: FPF source patterns and teaching publication-carrier relation
+  narrativePurpose: help learners locate the applicable conditions and use the source method in a case
+  sourceReturn: the applicable FPF patterns and, for this teaching publication, its relation to those sources
   refreshCondition: FPF edition, learner telemetry, or route evaluation changes
 ```
 
@@ -652,7 +652,7 @@ NarrativePurposeIntake@HomotopyExplanation:
   readerInterestOrUseHypothesis: learner needs recoverable dependency order and analogy boundary
   intendedReaderOrListenerUse: use examples and return to formal statements without treating metaphor as theorem
   narrativePurpose: make abstractions followable while preserving proof-status boundary
-  sourceReturn: mathematical source or proof owner
+  sourceReturn: the relevant mathematical definition, argument or qualified source for the proof
   refreshCondition: source correction, learner failure, or changed learning objective
 ```
 
@@ -669,7 +669,7 @@ NarrativePurposeIntake@LiveCommentary:
   readerInterestOrUseHypothesis: listener needs distinction between observation, inference, prediction, and official correction
   intendedReaderOrListenerUse: follow the event without treating provisional interpretation as fact
   narrativePurpose: maintain orientation and attention under uncertainty
-  sourceReturn: event source owner, official record, recording, telemetry
+  sourceReturn: the event observations, relevant recording or telemetry, and official source for the result
   refreshCondition: official correction, telemetry, or post-event evidence changes
 ```
 
@@ -694,7 +694,7 @@ NarrativePurposeIntake@FictionalContinuationProbe:
 #### NSTD.1:4.1 - When claim identity matters
 
 
-Use the precise construction in `A.6.3.NAR:4.0.1` when the receiving use needs identifiable source and narrative claims for citation, dispute, consequential cross-scheme use or another stated reliance requirement. Recover source episteme X, narrative episteme Y and the construction between them; preserve the same EntityOfConcern and test any correspondence on which it depends. Public distribution by itself does not require this fuller account. A permission, evidence or assurance claim still needs its own grounds.
+Use `A.6.3.NAR:4.0.1` when citation, dispute or another consequential use needs identifiable source and narrative claims. Identify source episteme X, narrative episteme Y and the construction that relates them. Preserve their common EntityOfConcern and check the correspondence on which the claimed use depends, including across representational schemes. Establish publication permission, evidence or assurance when the intended claim or action requires it.
 
 ### NSTD.1:5 - Archetypal Grounding
 
@@ -703,7 +703,7 @@ Use the precise construction in `A.6.3.NAR:4.0.1` when the receiving use needs i
 #### NSTD.1:5.1 - Worked slice: FPF seminar from source spine to narrative route
 
 
-A seminar author receives the request: "Tell a motivating story about FPF so people want to use it." To turn that aim into a lesson, the author chooses what learners should be able to do: recognize a situation, select a suitable pattern and apply its conditions. The following record shares those choices with another teacher; a sole author could develop them in the draft itself.
+A seminar author is asked to tell a motivating story about FPF. To develop a lesson, the author chooses what learners should be able to do: recognize a situation, select a suitable pattern and apply its conditions. The following example records the choices so a colleague can use them in teaching.
 
 ```text
 NarrativePurposeIntake@FPFSeminarOrientation:
@@ -720,18 +720,18 @@ NarrativePurposeIntake@FPFSeminarOrientation:
   renderingContribution: seminar author
   intendedReaderOrListener: new FPF practitioner; team lead evaluating local adoption
   readerInterestOrUseHypothesis: reader wants a first usable route through FPF without learning every pattern first
-  intendedReaderOrListenerUse: reconstruct one pattern-use route and choose the next governing pattern
-  narrativePurpose: orient attention and motivation toward source-returnable pattern use
+  intendedReaderOrListenerUse: recover an appropriate pattern-use route and identify any further pattern the case needs
+  narrativePurpose: connect the opening question to a use of the pattern in which the source conditions matter
   sourceReturn: selected FPF pattern body and relation record
   additionalClaimQuestion: none unless the seminar makes assurance, policy, or affected-party claims
   refreshCondition: FPF edition or selected-source pattern changes; learner reconstruction test fails
 ```
 
-The record above makes the choices available to another teacher; the writer can develop them while composing. A short opening can ask learners to choose a pattern for a difficulty they recognize. The next passage explains how its conditions, forces and neighboring exits affect that choice, then the exercise returns to the selected pattern. The account connects a memorable question with the source contribution needed to answer it.
+The opening asks learners to choose a pattern for a difficulty they recognize. The next passage explains how the pattern’s conditions, forces and neighboring exits affect that choice. The exercise returns to the selected pattern so the learner can use those conditions in a case.
 
-Evaluation through `NSTD.6` later asks whether learners can choose a pattern for another case, explain the conditions affecting that choice and return to its body for the needed method. A response that repeats the opening question without using those conditions identifies a missing contribution to the lesson; the teacher returns to source selection, explanation or practice as appropriate.
+To examine the lesson with `NSTD.6`, use a learner’s response to another case. Did the learner choose a pattern, explain the relevant conditions and use its body for the needed method? A response that repeats the opening question establishes which words the learner supplied. To count that as recall, check whether the words remained on display or were prompted. Applying the pattern to the new case requires the relevant conditions. If the teacher needs to explain the difficulty, examine the supplied material, the task, the learner’s preparation and the help used. Change the selection, explanation or practice when the diagnosis supports that change.
 
-If an LLM produces a seminar draft, the intake keeps three positions separate:
+For a seminar draft produced with an LLM, specify the relevant contributions separately.
 
 ```text
 renderingContribution: course-author or generator-operator role; recover the actual system, role assignment, and Work separately when those claims are made
@@ -739,7 +739,7 @@ narrativeVoiceOrViewpoint: teacher-facing explanatory voice under NSTD.4
 generatedDraftInspectionRef: the NSTD.7 case that identifies the generated draft, source comparison and acceptance for its intended use; C.35 applies only when the result informs architecture work
 ```
 
-One person may operate the tool, choose the voice and decide how to use the result. The output still needs comparison with the selected material.
+The same participant may operate the tool, choose the voice and be authorized to select the result. To judge fidelity, compare the draft with the selected material or use an adequate comparison already made.
 
 
 
@@ -768,14 +768,14 @@ NarrativePurposeIntake@ArchitectureDecisionStory:
   refreshCondition: candidate set, selected architecture, decision, or actual-structure feedback changes
 ```
 
-The team uses this account to recover the selected structure and the reasons for preserving or varying its parts. Return a missing design choice to the architecture work. Use `NSTD.6`, applying `C.2.8`, when the question is what structure the reader can recover; use `C.33` for the adequacy of the architecture description and `C.34` for correspondence with realized structure. `E.17` governs publication when it is needed. `NSTD.1` connects the narrative purpose with those selected structures and the team's use.
+The account is intended to let the implementers recover the selected structure and reasons for preserving or varying its parts. For an unresolved design choice, use the available architecture result or obtain the missing decision from the responsible work. Use `NSTD.6` with `C.2.8` to assess what the team could recover, or examine an observed reading for what it did recover. Use `C.33` for architecture-description adequacy, `C.34` for correspondence with the realized structure and `E.17` if the account is to be published.
 
 
 
 #### NSTD.1:5.3 - Worked slice: franchise continuation probe
 
 
-For a continuation-style storycraft probe using a well-known space-opera franchise such as `Star Wars`, select the canon, premise and continuity constraints relevant to the proposed scene. A draft can help reveal which of those choices remain unclear. In this example the use is a private critique; a later publication would raise separate rights questions.
+For a private critique of a continuation in a familiar space-opera setting such as `Star Wars`, select the canon, premises and continuity constraints relevant to the proposed scene. A draft can show which choices remain unsettled. A proposal to publish raises its own rights question.
 
 The request "Write a surprising sequel that feels epic" leaves those choices open. For the private critique, the writer chooses a continuation premise that preserves a character's established motivation and the consequences of earlier events. A new event may extend the story; if it conflicts with the chosen continuity, revise the event or explain the changed premise. Ordering and suspense alone cannot repair that conflict.
 
@@ -786,36 +786,36 @@ The request "Write a surprising sequel that feels epic" leaves those choices ope
 
 | Worker | First source-selection move | Common hidden overread | Repair when that difficulty occurs |
 | --- | --- | --- | --- |
-| Teacher | Name the source spine and reconstruction task. | Learner interest means learning occurred. | Add source-return question and later `NSTD.6` row. |
-| Architect | Name selected structures, candidates, residuals, and actual-structure feedback. | Explanatory story is the architecture decision. | Route decision authority to architecture decision owners. |
-| Scientist | Name mechanism, calculation, uncertainty, and proof or evidence boundary. | Story coherence is evidence closure. | Add evidence owner and source-return condition. |
-| Story designer | Name source pack, continuity, agency, and non-use boundary. | Dramatic surprise authorizes source violation. | Reopen source-pack selection before ordering. |
-| Live commentator | Name event stream, provisional interpretation, and later official return. | Live causal claim is settled fact. | Mark uncertainty and telemetry return. |
+| Teacher | Identify the source relations and the task that calls for them. | A report of interest is treated as demonstrated learning. | Use a question or a performance that calls for the relation, with suitable existing evidence or a new observation where needed. Use `NSTD.6` for the assessment. |
+| Architect | Identify the selected structure, candidates, exceptions and evidence about the actual organization. | An explanatory story is treated as an authorized architecture decision. | Check the earlier decision and its authority, or refer a new decision to its authorized owner if one is needed. |
+| Scientist | Identify the mechanism, calculation or event at issue and the available evidence or proof. | A coherent story is treated as settling a scientific question. | Use the relevant source result and identify where the evidence leaves the claim open. |
+| Story designer | Identify the premises, continuity and character agency that matter to this scene. | A surprise conflicts with a fixed premise. | Revise the event or explicitly change a premise the author is free to change. |
+| Live commentator | Identify the observed events, provisional interpretation and available official return. | A live inference is presented as an established cause. | Name its grounds and uncertainty. Use the later official or observational source for the issue it can settle. |
 | AI-agent operator | Name material, required relations and the proposed use. | Fluent prose silently adds a cause or drops a constraint. | Inspect and repair through `NSTD.7` and `NSTD.6`; apply `C.35` only for an architecture use. |
 
 
 
 #### NSTD.1:5.5 - Match the source return to the intended use
 
-Across these cases, the source return follows what the reader needs to recover. The seminar returns to a pattern's working conditions; the mathematical explanation to definitions, constraints and proof; live commentary to observations and subsequent official corrections; fictional continuation to its selected premises. A desired effect cannot establish the support that the intended use needs. When that use changes, revisit the source selection: an orientation may become a claim needing investigation, or a private story critique may become a publication needing separate consideration of rights.
+The relevant source depends on the question. A seminar can return to the pattern’s working conditions, a mathematics lesson to definitions and proof, a match report to dated observations and later official corrections, and a fictional continuation to its premises. Reconsider the selection when the use changes. A brief orientation may become a request to investigate a cause, or a private critique may become a publication requiring permission.
 
 
 ### NSTD.1:6 - Bias-Annotation
 
-A writer can select only the material that supports a desired conclusion. Compare the proposed account with relevant omitted relations and alternatives, then repair its selection or qualify its use. The converse mistake is to demand a completed source-and-role dossier before a simple explanation. Start with the useful account and add documentation only when another use consumes it.
+Check whether the proposed account omits a material counterexample or a serious alternative. If so, revise the selection or qualify the conclusion. Document sources and roles to the degree the receiving work needs. A short explanation can use an adequate source directly.
 
 ### NSTD.1:7 - Conformance Checklist
 
 | Check | Passing condition |
 | --- | --- |
-| `CC-NSTD1-1` | The reader purpose and selected material are connected; the draft is compared with the source before the intended reliance. |
-| `CC-NSTD1-2` | Source-structure selection rationale explains why these structures are needed for the reader or listener use. |
+| `CC-NSTD1-1` | The selection serves the reader’s purpose. Where reliance on the account requires fidelity, an adequate comparison identifies what it preserves from the source. |
+| `CC-NSTD1-2` | The reason for including a relation is recoverable from the reader’s intended use and the source. |
 | `CC-NSTD1-3` | Past, live, proposed or fictional status and any intervening description are clear wherever they change interpretation. |
 | `CC-NSTD1-4` | Writing contribution, narrative viewpoint and intended reader are distinguishable when needed. Precise system-role, assignment or dated Work claims receive their own grounds only when asserted. |
 | `CC-NSTD1-5` | The intended use supplies enough direction to choose or improve the account, including an expressive aim when that is the task. |
-| `CC-NSTD1-6` | A correction of a misleading inference has the independent ground, plausible reader and useful contribution required by `F.19:4.4`; any recorded difficulty keeps that ground. |
+| `CC-NSTD1-6` | A correction aimed at a plausible misleading inference has grounds and a useful consequence under `F.19:4.4`. Preserve those grounds when another use relies on them. |
 | `CC-NSTD1-7` | Additional evidence, ethics, authority or production-history claims have the grounds their actual use requires. |
-| `CC-NSTD1-8` | The reader can find the relevant source and knows when to revisit it if currentness or hidden distinctions affect the use. |
+| `CC-NSTD1-8` | The intended reader can locate the relevant source or its qualified result when omitted distinctions or changed conditions matter. |
 
 ### NSTD.1:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -823,16 +823,16 @@ A writer can select only the material that supports a desired conclusion. Compar
 | --- | --- | --- |
 | Desired conclusion selects its own evidence | The account suppresses a relevant conflicting relation. | Compare the draft with the needed source relations and alternatives; change its selection or qualify the conclusion. |
 | Unexplained selection | Neither the writer nor reader can say why a relation was included or omitted. | Recover that choice from the intended use and source; revise the selection where it fails. |
-| Motivation as truth support | A moving narrative is treated as stronger evidence. | Use the claim's subject grounds and keep motivation as reader-use support. Use `A.10` when the source-to-use account is implicit or must remain replayable. |
-| Unstated limit that changes reliance | A reader uses an incident chronology as its causal explanation. | State which causal claim is unresolved and where to obtain the needed account. |
+| Treating motivation as evidence | A moving narrative is taken to establish a subject claim. | Use the evidence for that claim and assess the motivational effect on its own grounds. Use `A.10` when the source-to-use connection is unclear or must remain reproducible. |
+| An unstated limit changes reliance | A reader uses a chronology as a causal explanation. | State which facts establish the sequence, which causal claim remains open, and any relevant source for the stronger conclusion. |
 
 ### NSTD.1:9 - Consequences
 
-The reader's purpose and the source relations guide drafting together. The cost is selecting and comparing the needed content; a maintained intake adds documentation only when later coordination or comparison uses it.
+The reader’s purpose and the source relations guide selection together. The cost lies in identifying and comparing the material that could change the account. Record further details when a collaborator or later comparison needs them.
 
 ### NSTD.1:10 - Rationale
 
-Narrative design begins from audience, communicative aim and available material. Relating those choices prevents the desired effect from silently determining what the source is said to contain. A narrative is the resulting account; the structure-to-narrative construction explains how it draws on the selected source.
+Audience, purpose and source material jointly shape a narrative. The author can choose what to foreground and still answer to the source for factual claims. Examining the construction from source to narrative shows what was selected, related, omitted or given a new order.
 
 ### NSTD.1:11 - SoTA-Echoing
 
@@ -841,15 +841,15 @@ Narrative design begins from audience, communicative aim and available material.
 #### NSTD.1:11.1 - Operational comparison against domain vocabulary
 
 
-Narratology distinguishes story, discourse and presentation; cognitive accounts examine event models, perspective and memory; NLG separates content planning, discourse planning and realization. Use these distinctions to ask different practical questions: what material to select, what order to present, what the reader is likely to infer, and what wording to produce. Their terms retain their disciplinary meanings; FPF supplies additional distinctions only where a claim needs them.
+Narratology distinguishes the story’s selected and organized events, the discourse through which it is told and its presentation. Cognitive studies examine event models, perspective and memory. Natural language generation distinguishes content planning, discourse planning and realization. These traditions help pose different questions about selecting material, ordering it, anticipating a possible reading or producing wording. Use their terms in their own domains and FPF distinctions where the claim needs them.
 
 For an incident explanation, selecting only events that support the desired conclusion can produce a fluent but misleading story. Selecting the reader's question together with the relevant events, including an unresolved alternative, yields a draft that can be compared with its source. This DPF combines the source-selection and communication distinctions above for that use. The extra comparison costs effort, so keep it to relations that could change the account or its use. A free fictional invention has a different source obligation: preserve its chosen premises rather than pretend to report an actual event.
 
-Hoffmann's "The Tensions of Scientific Storytelling" shows that scientific story construction can organize attempts, mechanisms, and unresolved tensions for readers; Schmid's `Narratology: An Introduction` and Chihaia's `Introductions to Narratology: Theory, Practice and the Afterlife of Structuralism` show that presentation and audience-facing narrative traditions differ by source tradition; Castricato et al.'s "Towards a Formal Model of Narratives" supports explicit narrator-to-reader information flow, reader story-model evolution, and uncertainty; Dahlstrom and Ho's "Ethical Considerations of Using Narrative to Communicate Science" warns that communicative purpose can become persuasion risk. The DPF uses audience and purpose to guide source selection, and makes temporal posture, mediation and participant distinctions explicit when they affect the narrative's use. When a purpose, reader-use, science-storytelling, teaching, future-scenario, or persuasion-risk claim depends on a cited source basis, name that source basis and keep the claim within its boundary.
+Hoffmann’s “The Tensions of Scientific Storytelling” examines how a scientific account can organize attempts, mechanisms and unresolved questions. Schmid’s *Narratology: An Introduction* and Chihaia’s *Introductions to Narratology: Theory, Practice and the Afterlife of Structuralism* offer source-specific accounts of presentation and narratological traditions. Castricato et al.’s “Towards a Model-Theoretic View of Narratives” models a narrator’s information, changes in a reader’s story model and uncertainty. Dahlstrom and Ho’s “Ethical Considerations of Using Narrative to Communicate Science” examines the ethical issues of persuasion. Use these works for their respective claims about scientific communication, interpretation, modeling and influence. Where timing, intervening sources or participant roles change the narrative’s use, make those conditions explicit.
 
 ### NSTD.1:12 - Relations
 
-Uses `A.6.3.NAR` to define the Core narrative relation, `A.16.1` when the first honest material is only a pre-articulation narrative cue, `C.2.LS` when language-state facets or thresholds shape the intake, `G.2` for SoTA harvesting and synthesis across traditions, `C.2.8` for reader-relative structural amount and `C.33` for architecture-description adequacy, `NSTD.4` for load-bearing voice or viewpoint, `NSTD.7` for automated narrative construction and inspection, with `C.35` only for a result entering architecture work, `NSTD.6` for declared-use narrative evaluation, `D.1` through `D.5` when affected parties or persuasion are live, `A.10` for evidence, `B.3` for assurance, `E.10` and `F.18` for durable wording or naming repairs, and `G.11` for source and telemetry refresh. Support-map entry: open `Architecture and Narrative Work Bridge` when `renderingMediationMode` is `architecture-mediated` or `mixed`; open `Source Use And Refresh Map` when a cited source basis is relied on or stale; open `NSTD.Reference:11 — Working meanings and direct source returns` when a local narrative term threatens to become ontology; open `Name And Edition Route` only for DPF-prefix or edition questions.
+Use `A.6.3.NAR` for the source-to-narrative relation. `A.16.1` can preserve an early cue, `C.2.LS` can clarify an action-changing language distinction, and `G.2` can support synthesis across research traditions. For recoverable source structure see `C.2.8`, and for architecture-description adequacy see `C.33`. Use `NSTD.4` for voice or viewpoint, `NSTD.7` for generated narratives and `NSTD.6` for evaluation. `C.35` applies to a generated result used in architecture work. Use `D.1`–`D.5` for a consequential affected-party or persuasion question, `A.10` for a source connection that is unclear or must remain reproducible, `B.3` for assurance, `E.10` or `F.18` for wording or naming, and `G.11` for currentness. The Architecture and Narrative Work Bridge explains architecture mediation. The Source Use And Refresh Map identifies research grounds. NSTD.Reference:11 distinguishes working terms, and the Name And Edition Route locates the document or edition.
 
 ### NSTD.1:End
 
@@ -859,34 +859,34 @@ Uses `A.6.3.NAR` to define the Core narrative relation, `A.16.1` when the first 
 
 > **Type:** DPF pattern body
 
-> **Primary EntityOfConcern:** choosing and repairing a narrative sequence so that the reader can follow the relations needed for the intended use.
+> **Purpose:** choose or assess a sequence that makes the source relations needed for the reader’s use recoverable.
 
 ### NSTD.2:1 - Problem frame
 
-Use this pattern when a graph, mechanism, evidence set, architecture structure, candidate set, mathematical dependency structure, canon structure, or source tradition must be put into a sequence and the sequence changes what readers can recover.
+Use this method when the order of a narrative affects which relations a reader can recover from it. A graph, mechanism, body of evidence, plot, decision history or mathematical argument may support several orders. The question may be how to arrange new material or what an existing order makes available.
 
-First useful move: put a few connected items in a candidate order and compare the sequence with their source relations. If a reader could mistake presentation order for chronology, cause or prerequisite, mark the difference or change the order.
+Compare a short passage in its existing or proposed order with the relations it draws on. Where a feature of the passage makes chronology, cause or a prerequisite ambiguous, clarify the relation or change the order if the task calls for a revision.
 
-What goes wrong if missed: the order feels natural, but readers silently infer a different order kind: chronology, proof, causality, importance, decision order, work order, or moral priority.
+A fluent sequence can invite an unsupported inference. The first event mentioned may look earliest, most important or causally decisive. A student may mistake the order of exposition for the order of proof, or a project team may mistake it for the order in which work was authorized.
 
-What this buys: a readable path through the material that keeps important dependencies recoverable.
+A suitable order lets the intended reader follow the account and recover the dependencies the use requires.
 
 ### NSTD.2:2 - Problem
 
-Narrative is sequential. Many source structures are not. Trees, graphs, mechanism diagrams, dependency sets, option sets, proof dependencies, and architecture views must be traversed. A chosen order preserves some relations and hides others. If the ordering rule is implicit, a fluent sequence can misrepresent the selected source structure.
+To present a tree, graph, mechanism, set of alternatives or architecture view in sequence, choose where to enter and which relations to show at each step. A sequence can expose one dependency while leaving another implicit. Check how the reader could recover each relation that matters for the purpose.
 
 ### NSTD.2:3 - Forces
 
 | Force | Tension |
 | --- | --- |
-| Legibility vs structural fidelity | Linear order helps reading but cannot preserve every relation. |
-| Teaching order vs source order | A good learning route may violate publication order or proof order. |
-| Dramatic tension vs dependency truth | Suspense and reveal can hide prerequisites. |
+| Ease of following the account and fidelity to the source | A sequence can introduce a difficult relation gradually. It can also hide a branch or return that matters to the reader. |
+| Teaching and formal dependency | A useful lesson can begin with an example whose full proof appears later. Make its status clear where the difference matters. |
+| Suspense and prerequisites | An author can postpone the disclosure of a cause or a character’s means. Establish the prerequisites the events themselves require. |
 | Compactness vs source return | The sequence needs to move, but hidden relations need return points. |
 
 ### NSTD.2:4 - Solution
 
-Choose an order that serves the reader's task, try a short passage and check what it makes the reader infer. Revise the order or add a return to the source when an important relation is hidden. Use the following optional note when a maintained route, handover or comparison needs to retain the choices; an ordinary draft can express them directly.
+Choose an order for the reader’s task or examine the existing one. At a consequential point, identify what the text has stated, which clues it has supplied and what can be inferred with the reader’s relevant prior knowledge. Compare the sequence with the source. If it obscures a needed relation, a short revision or usable source return may suffice. Use the note below when another worker or a later comparison needs the choices.
 
 ```text
 NarrativeOrderingRule@Context:
@@ -903,34 +903,34 @@ NarrativeOrderingRule@Context:
   additionalClaimReferences?:
 ```
 
-Useful choices include chronology, causal or logical dependency, discovery, teaching prerequisites, tension, viewpoint and decision explanation. These are examples, not an exhaustive classification. A label helps only if the actual sequence shows the needed relation; explain a departure when the reader could otherwise infer the wrong one.
+A sequence can follow chronology, causal or logical dependency, discovery, teaching prerequisites, tension, viewpoint or the grounds for a decision. Choose the relation the account needs to foreground. Explain a departure when an otherwise plausible reading would confuse that order with another.
 
-Choose the rule through a four-question ordering test.
+If the choice is unclear, compare the passage using the questions below.
 
 | Test | Ask | If unclear |
 | --- | --- | --- |
-| Source structure | Which relations matter to this reader: for example dependencies, cycles, alternatives or chronology? | Inspect the needed source portion with `NSTD.1`; a provisional sequence may help expose the missing relation. |
-| Reader traversal | What should the reader encounter first to do the intended work? | Try two short orders and compare what each makes easier to recover. Authorial and expressive aims can be part of that use. |
-| Hidden relations | Which necessary relation becomes hidden or weaker in this order? | Restore it in the passage or provide a usable return to the source. |
-| Misreading | Does a visible feature of this sequence invite a wrong inference? | Correct that inference with the smallest useful sentence, marker or change of order. |
+| Source relations | Which dependencies, cycles, alternatives or times does the intended use require? | Use a sufficient source directly. If the relevant selection is still unclear, use `NSTD.1` or try a provisional order to locate the missing relation. |
+| First encounter | What should this passage show first, and what can a reader with the assumed preparation infer at that point? | Compare two short orders if the difference matters. Include expressive aims such as suspense when they are part of the use. |
+| Hidden relations | Does the sequence omit or obscure a relation the task needs? | Identify the omission. For a revision, restore the relation or provide a return to a source that supplies it. |
+| Misreading | Which feature of this sequence could support a mistaken inference? | Where a correction is warranted, choose a sentence, marker or change of order that identifies the needed relation. |
 
-Ordering can change interpretation even when it changes no event. Compare what the reader can infer at the relevant point and after the whole account. A later disclosure may legitimately revise an earlier reading; a final account may also sustain more than one supported reading. Use NSTD.9 when the alternatives themselves need to be constructed or compared. Do not call unresolved meaning an ordering failure merely because the reader cannot recover one predetermined answer.
+Compare the inferences available at the chosen point with those available at the end. A later disclosure can give grounds to revise an earlier interpretation. A whole story can also support several readings. Use NSTD.9 if those interpretations need developing or comparison. For a claim about what a particular reader understood, or when they understood it, use NSTD.6 with evidence from the relevant reading and point in time. An anticipated response is sufficient for planning its examination.
 
-An account can combine orders. A lesson may introduce prerequisites, use a discovery story to motivate a distinction, then return to a proof. A live account may follow observations chronologically and a later recap explain causes. A continuation may reveal effects before causes. Make the transition clear wherever the intended reader needs to distinguish those orders.
+A lesson can introduce an example, recount the discovery that made a distinction interesting and then supply its proof. A live account can follow observed events in time, while a later recap examines causes. A story can show effects before revealing their cause. Make the transition recognizable when the reader’s task depends on which relation the order expresses.
 
-When the source describes a constraint-governed unfolding structure (CGUS), the narrative follows one traversal or demonstration. Preserve the constraints needed to interpret it. Show omitted alternatives, loops, exits or stop conditions when their omission would change the reader's choice or action; an illustrative path must not be mistaken for the only possible path or an instruction to execute every step.
+For a constraint-governed unfolding structure (CGUS), identify the path the account presents and preserve its applicable constraints. Show a branch, return, exit or stop when the reader needs it to explain what happened or determine what could happen. A demonstration of one path need not prescribe that sequence for future work.
 
-Use this repair table when the narrative feels coherent but readers reconstruct the wrong structure.
+The following difficulties can arise in a passage or appear in a reader’s response. Check the proposed explanation against the passage and the circumstances of the reading.
 
-| Symptom | Likely hidden order | Repair |
+| Difficulty | Possible explanation | What to examine or change |
 | --- | --- | --- |
-| Readers think the first-mentioned cause is the strongest cause. | Salience order mistaken for causal order. | Mark salience as viewpoint or teaching order; return causal-strength claims to the evidence or source governing pattern. |
-| Learners can retell the lesson but fail formal exercises. | Didactic story order mistaken for proof order. | Add proof-return checkpoints and separate example order from theorem dependency. |
-| Stakeholders read the explanation order as the project decision sequence. | Explanation order mistaken for decision or work order. | State the order actually used; refer to the decision record or work plan when the reader needs that different sequence. |
-| Fans like a reveal but continuity breaks. | Reveal order hides source canon constraints. | Add source-pack return and causal and continuity support before dramatic reveal. |
+| A reader takes the first-mentioned cause to be strongest. | Placement makes one cause salient. | Check the evidence for relative causal strength. If presentation invites the overreading, explain what the order shows or revise it. |
+| Learners can retell the lesson but miss a formal exercise. | A story may have omitted a prerequisite or blurred example order and proof dependency. | Examine the task, the attempted reasoning and the available support. Restore the mathematical relation or the return to the proof when that is the missing contribution. |
+| Stakeholders interpret the explanation as a sequence of decisions or work. | The passage may make an explanatory order look historical or prescriptive. | Identify the order the account intends. For an actual decision or implementation sequence, use the record of what happened. Use the plan for what was intended. |
+| A reveal is well received, but a character lacked the means for an earlier action. | Delayed disclosure may conceal a gap in the events. | Check the selected canon or premises for the means at the time of the action. Revise the events if they lack it, or decide when to disclose existing support. |
 | A generated story has plausible steps but drops a required source relation. | Generated sequence obscures its source constraint. | Compare the candidate with that relation; repair its plan or realization through `NSTD.7`. The defect can be evaluated before either is repaired. |
 
-Evaluate the sequence for its intended use through `NSTD.6`, including a draft whose order or source relationship is defective. If it conceals a critical dependency, repair that dependency before relying on the passage. A completed ordering note is not required to see the defect.
+Use `NSTD.6` when the question calls for a qualified assessment of this sequence. A draft can already show that a dependency is missing or inaccessible. Report that limit, or repair the passage before using it for a purpose that needs the dependency.
 
 ### NSTD.2:5 - Archetypal Grounding
 
@@ -939,7 +939,7 @@ Evaluate the sequence for its intended use through `NSTD.6`, including a draft w
 #### NSTD.2:5.1 - Worked example: choosing a path through a graph
 
 
-A knowledge graph can connect concepts, dependencies, counterexamples, evidence and practice routes. To introduce part of it, choose a traversal that helps the reader encounter the necessary dependencies. The optional example note below retains those choices for a homotopy introduction.
+A knowledge graph can connect concepts, dependencies, counterexamples, evidence and practices. Choose an order that makes the necessary relations available to the intended reader. The following example records such a choice for a homotopy introduction.
 
 ```text
 NarrativeOrderingRule@HomotopyIntro:
@@ -952,7 +952,7 @@ NarrativeOrderingRule@HomotopyIntro:
     - example and counterexample
     - proof-status boundary
   orderingRuleKind: didactic prerequisite plus analogy-first cue
-  orderRationale: learner needs visual intuition before formal return, but formal dependency must remain recoverable
+  orderRationale: an initial image can introduce the deformation question; the formal dependency must remain recoverable
   preservedSourceRelations: prerequisite relation; analogy-to-definition return; example-to-counterexample contrast
   foregroundedSourceRelations: deformation intuition and invariant question
   coarsenedOrLostSourceRelations: full proof order; advanced generality; categorical reformulation
@@ -960,7 +960,7 @@ NarrativeOrderingRule@HomotopyIntro:
   additionalClaimReferences: `A.6.3.CSC`, `E.17.EFP`, `A.10`, `NSTD.6` when the corresponding claim is made
 ```
 
-The introduction can begin with a picture of paths being deformed, then return to the formal definition. For example: "First picture a loop being deformed while its endpoints stay fixed. The next definition specifies which deformations are allowed." This connects the intuitive sequence to its missing mathematical condition.
+The introduction can begin with a picture of paths being deformed, then return to the definition. For example, “Picture one path being deformed into another while their endpoints stay fixed. The definition specifies which deformations are allowed.” The image gives the reader a candidate example. The definition supplies the conditions for a homotopy of paths relative to their endpoints.
 
 
 
@@ -971,13 +971,13 @@ Before:
 
 > We tried several designs and eventually found the architecture that solved the coordination problem.
 
-Failure: “eventually” supplies a chronology, while “solved” asserts a successful result. The account does not say which coordination problem was addressed, what trade-off was accepted or what observation supports success.
+“Eventually” puts the attempts in time. “Solved” asserts a successful result. The sentence gives no basis for identifying the coordination problem, the accepted trade-off or the result after implementation.
 
 After:
 
-> Begin with the coordination problem, compare the candidate module splits, then explain the chosen trade-off and remaining interface exceptions. Consult the decision record for why that split was selected and observations of the implemented system for whether it reduced coordination work.
+> Two services could each apply the eligibility rule locally, but would then have to keep their copies in step. We chose one eligibility service and accepted an extra call. Clients still need to handle an unavailable service and mismatched rule versions.
 
-What changed: the explanation connects the choice to its problem, alternatives and remaining cost. A reader seeking the implementation sequence or an observed outcome has a different source to consult.
+The revised account lets a reader compare rule maintenance with the cost and failure modes of a service call. A decision record can establish the grounds for the choice. Whether the deployed arrangement reduced coordination work depends on evidence from its use.
 
 
 
@@ -988,13 +988,13 @@ Before:
 
 > The midfield is late, so the press has failed, and that is why the match is turning.
 
-Failure: live chronological observation is mixed with causal explanation and outcome projection. The source at that moment may support late movement and lost possession, but not a settled causal account.
+The timing of movement and loss of possession may be observable live. The cause of the loss and the projected direction of the match require further support.
 
 After:
 
-> The midfield line arrived after the forwards began pressing, leaving space between them. That gap may explain the lost possession; the replay can help distinguish this explanation from a missed individual challenge.
+> The midfield line arrived after the forwards began pressing, leaving space between them. Did the opponent receive the ball in that space, or gain it in an individual challenge? A replay showing the passes, the challenge and the timing of possession might establish either contribution, show how both mattered or leave the cause open.
 
-What changed: the observed sequence remains distinct from the provisional explanation, with a specific question for later review.
+The account identifies the observed sequence and a specific remaining question about its cause.
 
 
 
@@ -1004,69 +1004,69 @@ What changed: the observed sequence remains distinct from the provisional explan
 | Observation | Next useful move |
 | --- | --- |
 | The sequence is readable but a necessary relation disappears. | Restore that relation or change the order. |
-| The order has a name but readers infer the wrong dependency. | Repair the passage itself; the label has not solved the problem. |
-| The reader recovers the relations needed for this use. | Keep the sequence unless a worthwhile improvement is available. |
-| The route will be reused with different material or readers. | Compare relevant changed cases; retain the conditions under which the order works. |
+| The order has a name, but a reader reports a different dependency. | Check the passage and what informed the response. If the passage obscures the intended dependency, revise the wording or order. |
+| The reader recovers the relations needed for this use. | The result supports the sequence for that reader under the observed conditions. Retain it where adequate. Consider a change if its expected contribution warrants the effort. |
+| The route will be reused with changed material or audience preparation. | Check the condition that matters to transfer. Where sufficient evidence is already available, apply it. Where the changed use leaves a consequential question open, compare a representative case. |
 
-Use `NSTD.6` when a qualified quality result is needed.
+Use `NSTD.6` when the task requires an evaluation of the order for a particular reader and use.
 
 
 
 #### NSTD.2:5.5 - SoTA-to-action translation
 
 
-Narratology distinguishes selected material, story, discourse and presentation. Here those distinctions help the author separate what is included from the order in which it is encountered. NLG likewise distinguishes content selection, document planning and wording. A smooth sentence can still present a dependency in a misleading place.
+Narratology distinguishes the selected material and story, discourse and presentation. Natural language generation distinguishes content selection, text planning and wording. In this task the distinctions help a writer compare what each version includes with where and how it presents that material. Smooth wording can still place a dependency where its use is unclear.
 
-A homotopy-theory explanation orders material by learner dependency: spaces, paths, homotopy, fundamental group, examples, proof-status boundaries. This is not the historical discovery order and not the formal proof order of a research monograph. The narrative must state that definitions and proof obligations remain in source-return formal statements.
+One teaching order for homotopy moves from spaces and paths to homotopy, the fundamental group, examples and questions about proof. An analogy can introduce a relation before its formal treatment. Identify where to find the definition or proof when the claim requires it. The order chosen for teaching by itself establishes neither historical discovery nor formal logical dependence.
 
-Consider this constructed decision source: two teams maintain the same validation rule in separate modules. They compare a shared library with a shared service, then choose the service so that a rule change can be deployed once. They accept an extra service call and client handling of version mismatches. These are design expectations; runtime effects have not been measured.
+In this constructed case two teams maintain the same validation rule in separate modules. They compare a library with a shared service and choose the service so that a rule change can be deployed once. They accept an extra service call and client handling of version mismatches. These are the decision and its anticipated consequences. The example supplies no runtime measurement.
 
 Two short orders preserve the same source:
 
 - **Cost first:** “The chosen service adds a call and requires version-mismatch handling. The teams accepted these costs to deploy a shared validation rule once, after comparing a library with a service. The runtime effect is not yet measured.”
 - **Decision first:** “To deploy a shared validation rule once, the teams chose a service over a shared library. They accepted the extra call and version-mismatch handling; the runtime effect is not yet measured.”
 
-For a new maintainer asking why the service was selected, the second order foregrounds the reason. For a reader investigating the added call, the first order foregrounds the relevant cost. Neither order supplies an observed improvement. Use the decision source for further alternative detail and measurements for a claim about the realized effect.
+For a new maintainer asking why the teams selected the service, the second version foregrounds the reason. For an investigation of the extra call, the first foregrounds the cost. A decision record can supply more detail about the alternatives. To report a realized improvement, use relevant measurements or observations.
 
-A franchise-continuation outline may order scenes by reveal and tension. That does not mean reveal order is causal order. The underlying causal and continuity order must still name premise constraint, character motivation, event cause, consequence, and canon-return point. If a later twist works only because a source constraint was hidden from the writer as well as from the reader, the order is not a legitimate reveal; it is a source-selection failure.
+A continuation can present scenes for suspense. Establish what the chosen events require in the story, including any necessary means, motive or prior event. The author can disclose those conditions later. If a twist contradicts a fixed premise, revise the event or change a premise the task permits changing. If the basis is uncertain, return to the selected canon.
 
-A scientific storytelling case may order experiments by tension: failed attempt, surprising measurement, revised hypothesis, unresolved conflict. That order can be useful because it mirrors inquiry, but it cannot make unresolved tension into evidence closure. The sequence must name which calculations, mechanisms, and experimental facts remain source-return points.
+A scientific account can build tension around a failed attempt, a surprising measurement and a revised hypothesis. If the explanation remains uncertain, keep the unresolved alternative in view. Identify the calculations, proposed mechanisms and experimental observations needed to check the resulting claims.
 
-Worked repair sequence:
+An architecture explanation can be repaired as follows.
 
 1. Initial symptom: "The team first tried A, then B, and finally discovered the right architecture."
-2. Hidden-order diagnosis: chronology is being read as decision quality and finality.
-3. Source topology repair: name candidate structures, quality characteristics, rejected alternatives, and telemetry or decision basis.
-4. Ordering repair: present the problem, alternatives and trade-off; distinguish that explanation from the implementation sequence.
-5. Loss repair: state what the narrative omits, such as lower-level exceptions or candidates excluded for scope.
-6. Source-return repair: link to architecture description, decision record, or candidate comparison when a reader needs authority.
+2. Identify the inference the sentence invites. It treats the last design in time as the right one.
+3. Recover the relevant candidates, criteria, rejected alternatives and the decision basis or operating observations that actually exist.
+4. Present the problem, alternatives and trade-off. Use a separate sequence if the implementation order matters.
+5. Identify consequential omissions, such as a lower-level exception or an alternative outside the chosen scope.
+6. Refer to the architecture description, candidate comparison or decision record for the particular structure, trade-off or authorized decision the reader needs.
 
-Second worked repair sequence:
+For a mathematics lesson, the corresponding revision might run as follows.
 
 1. Initial symptom: "We introduce homotopy with loops, then groups, then examples, because that is the natural story."
-2. Hidden-order diagnosis: "natural story" hides the didactic prerequisite order and may be mistaken for formal proof order.
-3. Source topology repair: list definitions, examples, theorem prerequisites, proof-status boundaries, and formal-source returns.
-4. Ordering rule repair: choose didactic dependency order and explicitly state where it diverges from formal order.
-5. Loss repair: record which formal details are deferred and where they return.
-6. Evaluation repair: `NSTD.6` checks whether learners can reconstruct dependency and proof boundaries, not whether they enjoyed the story.
+2. Identify what “natural” leaves unexplained. The intended order is for teaching. A reader might mistake it for the logical order of proof.
+3. Identify the definitions, examples and theorem prerequisites on which the lesson relies. Establish where each proof claim can be checked.
+4. Choose the teaching order. Make a divergence from formal dependency explicit when the reader needs to know it.
+5. Say which formal details are deferred and where they can be recovered.
+6. Use `NSTD.6` to assess whether the lesson makes the dependency and proof boundary recoverable or examine a learner’s response for what they actually recovered. Evaluate enjoyment separately when that too is an aim.
 
 Case matrix for ordering work:
 
 | Case | Candidate order | Preserves | Hides or weakens | Required source return |
 | --- | --- | --- | --- | --- |
 | FPF learning route | Entry difficulty, useful distinction, attempted application, result and continuation. | Pattern-use relationships and learner build-up. | Monolith order, advanced variants and source history. | Source pattern body; supporting definitions when needed. |
-| Homotopy explanation | Didactic dependency order with analogy before formal proof. | Learner accessibility and dependency sequence. | Full proof order, all lemmas and advanced generalization. | Formal statements and proofs, with the analogy's boundary. |
+| Homotopy explanation | Teaching order, with an analogy before the formal proof. | An entry for learners and the relevant dependencies. | Full proof order, lemmas and advanced generality. | Formal statements and proofs, with the analogy’s limit. |
 | Franchise continuation | Causal plot order plus reveal order. | Continuity, motivation, event consequence and return to the chosen canon. | Canon details outside this continuation's scope. | The selected canon and continuity constraints; a separate permission question only when the proposed use raises one. |
 | Live commentary | Live chronological order plus provisional interpretation markers. | Event stream, uncertainty, listener orientation. | Later tactical recap, off-camera sources, official correction. | Official event record, telemetry, recording. |
 | Architecture explanation | Decision-memory order or trade-off route. | Problem, candidate, selected trade-off, residual exception. | Implementation order, full structure, rejected-candidate detail. | Architecture description, candidate set, decision record, telemetry. |
 
-Use the matrix when comparing possible orders. It can guide a first draft or diagnose an existing passage. Reconstructing an earlier author's choices is useful for repair; judging the current sequence does not require establishing how it was originally written.
+Use the matrix to compare available orders, draft a passage or assess an existing sequence. A historical question about why the author chose one order needs evidence of that choice. A textual assessment can establish the structure of the published passage directly.
 
-When two orders conflict, preserve both as named layers. A learning route may teach prerequisites first and later show historical discovery. A mystery-like story may reveal effects before causes while keeping an internal causal order. A live recap may reorder events by causal explanation after first recording live chronology. The reader must be told which layer they are following.
+When two orders matter, preserve their distinct relations. A lesson can introduce prerequisites before recounting historical discovery. A mystery can present effects before their causes. A commentator can follow events in time and later explain a tactical sequence. Use a transition or source return where the intended reader needs to recognize the change of order.
 
 ### NSTD.2:6 - Bias-Annotation
 
-This pattern blocks natural-sequence drift: a chronological, didactic, dramatic, traversal, or slide order is treated as if it were the source structure itself. The bias is especially likely when the order feels intuitive to the author. Repair by naming the ordering rule, preserved relations, foregrounded relations, lost relations, and source-return condition. Scope: DPF-local for source-structure-to-sequence rendering; it does not govern general serialization formats or publication order.
+A chronological, dramatic or slide order that feels natural to its author can hide a different relation in the source. Compare the chosen sequence with what it preserves, emphasizes or omits. Repair the account or provide a source return when the distinction matters. Formal serialization and the publication order of a corpus have their own purposes.
 
 ### NSTD.2:7 - Conformance Checklist
 
@@ -1083,36 +1083,36 @@ This pattern blocks natural-sequence drift: a chronological, didactic, dramatic,
 | Anti-pattern | What fails | Repair |
 | --- | --- | --- |
 | Natural-order assumption | An obvious order for the author hides a dependency from the reader. | Recover the missing relation and change or explain the sequence. |
-| Tension as dependency | Reveal order is read as prerequisite order. | Split dramatic order from dependency order and add source return. |
-| Slide order as source structure | A teaching sequence is treated as the corpus architecture. | Route the teaching publication carrier through `NSTD.8` and keep source structure separate. |
+| Confusing tension with a prerequisite | A disclosure order is taken to determine what the events require. | Identify the prerequisite and choose where to reveal it. Provide a source return when the relation needs one. |
+| Using slide order as evidence of source architecture | A teaching sequence is taken to establish how the source is organized. | Use the source to establish its structure and `NSTD.8` when a teaching route or its support needs attention. |
 
 ### NSTD.2:9 - Consequences
 
-The reader can follow a manageable path without losing a necessary relation. The author must spend enough attention comparing the sequence with the source to detect omissions that matter.
+A well-chosen sequence can make a difficult subject easier to follow while preserving the relations needed for the reader’s purpose. Compare it with the source closely enough to identify consequential losses.
 
 ### NSTD.2:10 - Rationale
 
-Narrative sequence is a transformation over structure. Making the ordering rule explicit preserves the useful similarity between serialization and narrativization: both choose an order for a structure, both preserve and lose relations, and both need a return path when the order is relied on.
+Both serialization and narrativization can choose an order for material whose relations have another structure. A narrative can additionally use a point of view, a revelation or an expressive pause. Locate any relation the chosen order obscures and preserve a route back to it when its loss could change the intended reading.
 
 ### NSTD.2:11 - SoTA-Echoing
 
 Schmid's [Narratology: An Introduction](https://doi.org/10.1515/9783110226324) distinguishes happenings, story, narrative and presentation. Chihaia's [survey of narratology introductions](https://www.diegesis.uni-wuppertal.de/index.php/diegesis/article/view/71) shows differences of tradition and audience. These are historical conceptual anchors. Gatt and Krahmer's [NLG survey](https://arxiv.org/abs/1703.09902) distinguishes content selection from text structuring and realization. Cardona Rivera, Jhala, Porteous and Young's [The Story So Far on Narrative Planning](https://ojs.aaai.org/index.php/ICAPS/article/view/31509) examines plan-based construction and communication of stories. This pattern synthesizes those distinctions into an ordering method; it does not require a formal plan for every account.
 
-Operational payload:
+These sources contribute distinct operations to the comparison.
 
 - From Schmid, distinguish selection, composition and linearization. Well-chosen material may still be ordered badly, so compare `NSTD.2` ordering separately from `NSTD.1` selection.
 - From Chihaia, interpret terms such as plot, discourse or fabula within the tradition using them. Explain the ordering consequence when different traditions use a term differently.
-- From NLG, distinguish what to say from how to order and express it. Inspect the needed content when fluent realization leaves the reader's reconstruction incomplete.
+- From natural language generation, distinguish content choice, ordering and expression. If a reader misses a needed relation, inspect the supplied content as well as its order and wording.
 - From narrative planning, distinguish the order of events from their presentation. Mark a divergence when it could mislead the reader about causality or dependency.
 - For an architecture explanation, compare the account with the relevant structures and views. Use `C.30.ASV`, `C.33` or `C.34` only for the architecture question each defines.
 
-For a short explanation whose reader must distinguish event order from cause or prerequisite, the best-supported line here is to keep those relations available while choosing the presentation order. The serious default is to preserve source order and improve only the prose. Compare two equally short accounts of the incident in the Readme: both retain the logged times, but the relation-aware account leaves the causal investigation open. Source order alone cannot expose that difference; the added comparison is justified by the reader's remedy decision, not by a preference for more elaborate planning.
+For a short account of the incident in the Readme, try two versions. One can report the change at 14:00, failures at 14:02, rollback at 14:05 and recovery at 14:07. The other can use the same chronology and add that the log leaves open what caused the failures and whether the rollback produced the recovery. Choose the detail the reader needs to reconstruct the sequence or assess a causal claim.
 
-**Adapt** the distinction between content, structure and realization from NLG, and between events and their communication from narrative planning, in :4's short-sequence comparison. **Reject** a required formal plan for an ordinary account: its cost is unnecessary when a few relations can be compared directly. For suspense or aesthetic rhythm, accept a different order when its effect matters and the needed relation remains available. Reopen this choice if a changed reader task requires another relation, if a reader repeatedly reconstructs the wrong order, or if an equally economical alternative preserves those relations more clearly.
+Section 4 adapts the distinctions between content, structure and wording in natural language generation, and between events and their presentation in narrative planning. For an ordinary passage, a direct comparison of the relevant relations may suffice. For suspense or aesthetic rhythm, consider an order that serves that aim while preserving the relations the work needs. Reconsider the choice when the task changes, an observed difficulty concerns the order, or another equally economical arrangement would make the needed relations clearer.
 
 ### NSTD.2:12 - Relations
 
-Uses `A.6.3.NAR`, `A.6.3.CSC`, `C.2.8` for structural amount, `C.33` for architecture-description adequacy, `C.34`, `E.17`, `E.17.EFP`, `A.16.2` when a route must back off or respecify after overcommitment, `A.6.P` when ordering rationale hides relation-kind claims, `NSTD.6`, and `G.11`. `NSTD.6` applies the same C.2.8 characteristic to narrative recovery from architecture and non-architecture source domains. Reopen when source structure, reader use, ordering rule, source-return condition, route authority, relation precision, or low `NSTD.6` ordering value changes. Support-map entry: open `Architecture and Narrative Work Bridge` when sequence is over architecture views, candidate structures, descriptions, correspondence, or actual-structure feedback; open `Semiotic And Language-Precision Bridge` or `NSTD.Reference:11 — Working meanings and direct source returns` when ordering terms hide coarsening, relation-kind, or quality claims.
+Use `A.6.3.NAR` for the source-to-narrative construction, `A.6.3.CSC` for a consequential simplification, and `NSTD.6` with `C.2.8` for correct recovery of selected structure from architecture or other sources. Use `C.33` for architecture-description adequacy and `C.34` for architectural preservation. `E.17` and `E.17.EFP` concern publication and explaining a source. If a proposed account overcommits, use `A.16.2` to reopen it, and `A.6.P` for an ambiguous relation. Use `G.11` when changed source, use or evidence puts an earlier assessment in question. The Architecture and Narrative Work Bridge covers ordering of views, candidates, decisions and evidence from realized structures. The Semiotic And Language-Precision Bridge and NSTD.Reference:11 help resolve consequential ambiguity in wording about simplification, relations and quality.
 
 ### NSTD.2:End
 
@@ -1122,34 +1122,34 @@ Uses `A.6.3.NAR`, `A.6.3.CSC`, `C.2.8` for structural amount, `C.33` for archite
 
 > **Type:** DPF pattern body
 
-> **Primary EntityOfConcern:** repairing the connections through which a reader reconstructs a narrative's events, mechanisms or dependencies.
+> **Primary EntityOfConcern:** the connections a reader needs to reconstruct events, mechanisms or dependencies from a narrative.
 
 ### NSTD.3:1 - Problem frame
 
-Use this pattern when locally fluent narrative passages fail because readers cannot build a coherent model of source mechanism, event flow, dependency structure, architecture relation, state change, or proof dependency.
+Use this method when you need to assess or explain a connection in a narrative. A reader may be able to retell the events yet leave open what changed, how a mechanism worked, why a design choice mattered or how a proof step followed.
 
-First useful move: take one passage the reader cannot explain, state the connection it suggests and compare it with the source or fictional premises. Add the missing connection, qualify an unsupported one or keep the unresolved question visible.
+Choose a passage, state the connection its wording suggests and compare that connection with the source or fictional premises. If you are revising it, supply the missing step, correct an unsupported claim or make the unresolved question clear.
 
-What goes wrong if missed: fluency is mistaken for source coherence. Readers remember the story but cannot say what changed, why it changed, which relation mattered, or where the claim stops.
+To explain a past reading, examine what the reader said or did with the passage and what other information or help they used. An analysis of the text can establish what it made possible to infer under stated assumptions.
 
-What this buys: coherence is tied to recoverable source structure, not to smooth prose alone.
+The comparison shows which connections the passage supports and which still depend on an unstated premise, a different source or a further observation.
 
 ### NSTD.3:2 - Problem
 
-Narratives often use events and agents because they are easy to follow. But many source structures are not event sequences. Architecture structures, mathematical definitions, evidence graphs, mechanism diagrams, and source packs can be misread when forced into a fiction-like event model.
+An event sequence can make a narrative easy to follow. A design dependency, mathematical definition or relation between a finding and its evidence can matter even when nothing happens in sequence. Turning such a relation into an episode can obscure what follows from it.
 
 ### NSTD.3:3 - Forces
 
 | Force | Tension |
 | --- | --- |
-| Event readability vs non-event structures | Readers follow events easily, but not every source relation is an event. |
-| Causal wording vs causal support | A causal explanation needs grounds for the particular cause; “because” can also introduce a reason, proof step or fictional motive. |
-| Mechanism clarity vs uncertainty | A good mechanism story can hide unknown or contested source relations. |
-| Reconstruction vs entertainment | The declared use may require reconstruction, not only engagement. |
+| Events and other structures | A reader may follow the episodes and still miss the dependency on which the explanation turns. |
+| Causal wording and its grounds | A physical cause, a reason for acting, a proof step and a fictional motive require different grounds. “Because” can introduce any of them. |
+| Mechanism and uncertainty | A clear account of the proposed mechanism can still give the impression that an untested or disputed step is settled. |
+| Reconstruction and engagement | Ask what the reader should be able to reconstruct when that ability matters to the intended use. |
 
 ### NSTD.3:4 - Solution
 
-Work on the connection the reader needs: what changed, what depends on what, why an action follows or which condition limits the conclusion. The optional note below is useful when several passages, collaborators or later comparisons need to retain that analysis. A single passage can be repaired directly.
+Identify what changed, what depends on what, what explains an action or which condition limits a conclusion. For a single passage, compare it directly with the source or premises. A note like this can preserve grounds that several passages or collaborators will need.
 
 ```text
 NarrativeEventMechanismSupport@Context:
@@ -1165,17 +1165,17 @@ NarrativeEventMechanismSupport@Context:
   sourceReturnCondition:
 ```
 
-Compare the intended reconstruction with the passage and its source. An unknown source relation and a relation merely omitted from the explanation call for different repairs. An ambiguity can also be supported by the account: the text may leave several motives possible while clearly showing the action. Preserve those alternatives when that is the intended use; NSTD.9 helps distinguish a warranted reading from an invented resolution. If the story requires an event or relationship that has not been constructed, use NSTD.10. Adding a connective phrase cannot perform that construction.
+Compare the intended connection with what the passage expresses or permits a reader to infer. Supply an omitted step if the source establishes it. When the source leaves the relation open, state what cannot be determined and identify any alternatives the material supports. An action may be clear while two motives remain possible or its motive is wholly unknown. Use NSTD.9 to examine a disputed reading. If a fictional scene or an explicitly hypothetical real-world scenario needs a new event or constraint, use NSTD.10 to construct it under the chosen premises.
 
-Use the following questions to repair a passage; retain answers only where the working use needs them.
+The following questions support an assessment or revision. Keep the answers that another part of the work needs.
 
-1. State the connection on which the passage depends, its source or premise, and what remains unknown.
-2. Identify the relation and its grounds. For example, a time sequence, mathematical dependency, physical cause and fictional motivation answer different questions; they are not successive strengths on one scale.
-3. State what the reader needs to reconstruct: for example a state change, explanation, prediction or limit of an analogy.
-4. Find wording or omissions that invite a different reconstruction from the one supported.
-5. Repair the connection: supply a missing step, correct its kind or strength, add a relevant uncertainty, or return to the source question. Keep a strong claim when its grounds support it; weakening every claim can also mislead.
+1. State the connection at issue and the source or premise on which it depends. Identify any uncertainty that bears on it.
+2. Identify the kind of connection. An event order, mathematical dependency, physical cause and fictional motivation answer different questions. Establish the grounds appropriate to the one claimed.
+3. Identify what a reader needs here, such as a state change, an explanation, a prediction or the point where an analogy stops.
+4. Compare the passage with that task. What supports the intended reading? Does a word or omission suggest a different relation?
+5. When a change is needed, supply a missing step, correct the kind or strength of the claim or identify the relevant uncertainty. State an established conclusion at the strength its grounds support. Return to the subject source when a stronger answer is needed.
 
-Connectors are cues to inspect the complete claim, not automatic triggers for another procedure.
+Examine how a connector works in its sentence before choosing a repair.
 
 | Wording | Question about this passage | Repair when needed |
 | --- | --- | --- |
@@ -1184,15 +1184,15 @@ Connectors are cues to inspect the complete claim, not automatic triggers for an
 | "therefore" | Which premises and inference make the conclusion follow? | Restore the missing premise or step, or state the remaining uncertainty. |
 | "had to" | Which condition makes the action necessary, and under which alternatives? | Name that condition or replace necessity with the supported choice. |
 | "wanted" or "decided" | Whose motive or decision is asserted, and is it factual, fictional or interpretive? | Clarify the participant and grounds. Use `NSTD.4` when viewpoint or attribution causes the ambiguity. |
-| "shows that" | What does the observation, argument or example actually establish? | Match the conclusion to those grounds; an evidence claim may require `A.10`. |
-A proof can be narrated through questions and inferences, and an architecture explanation through a trade-off. Describe those relations as such. Inventing an event or intention to connect them may change the subject. An imagined discovery scene can still illustrate a proof when its imagined events remain distinguishable from the mathematical argument.
+| "shows that" | What does the observation, argument or example establish? | Match the conclusion to its grounds. Use `A.10` when the connection to the evidence needs recovery or must be reproducible. |
+A proof may be presented as a sequence of questions and inferences, and an architecture choice as a comparison of trade-offs. If you invent a scene of discovery to illustrate a proof, distinguish the imagined events from the premises and inferences that establish the result.
 
-Reader reconstruction tasks should be concrete:
+Make the required reconstruction concrete. For example, ask a reader to do one of the following.
 
-- "Name the mechanism and the unresolved relation" is better than "understand the mechanism."
-- "Distinguish observed event, inference, and prediction" is better than "follow the live story."
-- "Point to the formal statement where the analogy stops" is better than "get the math intuition."
-- "Recover which architecture trade-off was accepted and which exception remains" is better than "remember the project story."
+- Name the proposed mechanism and the relation still unresolved.
+- In a live account, identify an observation, an inference and a prediction.
+- Point to the formal statement where the mathematical analogy stops.
+- Explain the trade-off accepted in a design choice and the exception it left open.
 
 If the required reconstruction cannot yet be stated, clarify what the reader needs to do with the passage. Entertainment or initial orientation can be sufficient aims. A use that depends on a mechanism or inference needs a recoverable account of that relation.
 
@@ -1203,16 +1203,16 @@ If the required reconstruction cannot yet be stated, clarify what the reader nee
 #### NSTD.3:5.1 - Worked example: event support
 
 
-A science narrative says: "The failed experiment forced the theory to change." Compare the observed result with the prediction and alternatives: was a consequence refuted, an auxiliary assumption questioned, or a replacement supported? The repair should say which of those happened.
+A science narrative says that a failed experiment forced a theory to change. First find out what failed. Did the instrument give an unusable reading, or did a qualified measurement disagree with a prediction? In the second case, determine which assumptions the discrepancy puts in question and whether the evidence distinguishes any replacements.
 
 ```text
 NarrativeEventSupportRecord@ExperimentTension:
   narrativeRenderingRef: ScienceStory@v1
-  eventOrMechanismClaim: failed measurement challenged the prior mechanism hypothesis
+  eventOrMechanismClaim: a qualified measurement disagreed with the range predicted from the proposed mechanism and its auxiliary assumptions
   sourceStructureRef: measurement record, model expectation, uncertainty interval, alternative explanations
-  relationStrength: observed mismatch plus mechanism hypothesis, not proof of forced theory change
-  reconstructionTarget: reader can distinguish observed result, hypothesis pressure, and later evidence
-  overclaimRisk: "forced", "proved", "settled", and "therefore" make the relation too strong
+  relationStrength: observed discrepancy under the stated assumptions, with its explanation unresolved
+  reconstructionTarget: distinguish the discrepancy, its possible explanations and the contribution of any later evidence
+  overclaimRisk: stating that the discrepancy forced one particular theoretical change
   sourceReturnCondition: return to the measurement and model assumptions when a stronger conclusion is needed
 ```
 
@@ -1222,16 +1222,16 @@ Before:
 
 After:
 
-> The measured value lay outside the range predicted under these assumptions. The discrepancy calls for examining the mechanism model and the measurement assumptions; this experiment does not yet distinguish the proposed replacements.
+> The measured value lay outside the predicted range under the stated assumptions. The discrepancy bears on the mechanism model and the assumptions used in measurement. The observed difference alone leaves the proposed replacements unresolved.
 
-The repaired passage retains the surprising result and the next research question, while distinguishing the mismatch from the still-undecided explanation.
+The passage makes the discrepancy and unresolved alternatives available to the reader. To distinguish the explanations, look for an existing result that would differ under them. A further experiment is one option when it could obtain such a result and the question warrants it.
 
 
 
 #### NSTD.3:5.2 - Worked example: franchise plot support
 
 
-In a continuation-style storycraft probe, a scene says that a character betrays an ally "because the plot needs a darker turn." That is a narrative-function explanation, not source support. Repair it as source structure:
+In a proposed continuation, a character betrays an ally “because the plot needs a darker turn”. This gives the author’s purpose. To explain the character’s choice, look for a motive supported by the selected canon and the circumstances of the scene.
 
 ```text
 NarrativeEventSupportRecord@CharacterTurn:
@@ -1240,10 +1240,10 @@ NarrativeEventSupportRecord@CharacterTurn:
   relationStrength: a proposed motive consistent with the selected fictional premises
   reconstructionTarget: reader can state motive, pressure, action, consequence, and canon-return condition
   overclaimRisk: author need or theme is treated as character cause
-  sourceReturnCondition: return to source pack and agency constraints
+  sourceReturnCondition: consult the selected canon and the character’s available choices when a claim about the motive depends on them
 ```
 
-For a story whose events should follow intelligible motives, the author's desire for a twist does not supply the character's reason. Add a pressure, choice or event that makes the turn intelligible, or revise the turn. A deliberately unexplained or absurd turn has a different artistic aim and should be judged for that aim.
+If the story needs an intelligible motive, supply the pressure, choice or event that makes the betrayal intelligible, or revise the turn. An existing passage can support two plausible motives. Deliberate absurdity or an unexplained turn may also serve the intended work.
 
 
 
@@ -1254,27 +1254,27 @@ For a story whose events should follow intelligible motives, the author's desire
 | --- | --- |
 | Events are easy to retell but the needed relation is supplied only by a suggestive connector. | Find and express the missing basis or change the claim. |
 | The relation is named but its conditions remain unclear. | State the condition that changes the reader's inference. |
-| The reader reconstructs the relation and its relevant limits. | Keep it for that use; investigate a remaining uncertainty only when its answer can change the next move. |
-| A change of viewpoint or order may conceal the relation. | Compare the changed passage and repair the particular loss. |
+| The reader reconstructs the relation and its relevant limits. | Use that finding for the observed conditions. Pursue a further uncertainty if the question requires it. |
+| A change of viewpoint or order may conceal the relation. | Compare the passages and report any loss that matters to the intended reading. If a revision is requested, restore the connection or use a version that preserves it. |
 
-These are diagnostic situations. Use `NSTD.6` for a qualified evaluation rather than deriving a score from the presence of a support record.
+Use `NSTD.6` when the work needs a qualified assessment of reception or quality. The comparison can also answer a narrower question about the passage itself.
 
 
 
 #### NSTD.3:5.4 - Connecting to the relevant subject method
 
 
-A connector does not settle the relation it expresses. “Because” can introduce a physical cause, a reason for acting or a mathematical dependence. Identify that relation first; open the corresponding FPF or subject method when the relation itself needs further work.
+“Because” may introduce a physical cause, a reason for acting or a mathematical dependence. Identify the particular relation. Consult its FPF or subject method when the source leaves a material question about that relation open.
 
-Suppose a design comparison says a proposed modular split removes one required hand-off between teams, but sends exceptional requests through a shared interface. The narrative can explain that change in dependency. Less routine coordination work is a prediction from the design; its realized cost remains unknown until observed. If observations are available, report the supported result rather than automatically weakening it to a prediction.
+Suppose a proposed module split removes one hand-off between teams for routine requests and routes exceptions through a shared interface. The design establishes this change of dependency. A prediction of lower coordination cost also depends on the frequency and cost of exceptions. Suitable experience with the implemented design can establish the time actually spent and, with an appropriate comparison, whether the change reduced it.
 
-A science story can say that an experimental result "forced" a revised hypothesis only if the source line supports that constraint. Often the honest relation is weaker: the result made one hypothesis less useful, exposed a tension, or suggested a new mechanism to test. `NSTD.3` keeps the tension narratable while preventing the narrative from closing evidence that the source left open.
+To write that a result forced a theoretical revision, establish which alternatives the measurement and other evidence excluded under the assumptions in use. The result may instead expose a discrepancy, reduce support for a hypothesis or suggest a mechanism to examine. Any of these can be the conclusion of the account.
 
-A live match commentary may connect a late midfield movement with lost possession. State the observed sequence separately from that provisional tactical explanation, and identify what the replay could resolve.
+In live commentary, identify the late midfield movement and the loss of possession. A replay of how the opposing side gained possession might distinguish a tactical gap, a missed challenge or a contribution from both. Report the limit when the evidence leaves the explanation open.
 
-In a homotopy explanation, a deformation story may help learners track invariance, but it is not a proof by itself. The support record says which formal relation the story illustrates, what the learner should reconstruct, and where analogy must return to definitions or proof-status boundaries.
+For a homotopy explanation, connect the image of deforming a loop to its permitted deformations. Identify the formal definition or argument that supports any claimed invariant, and what the learner should be able to recover from the image.
 
-Use rewrite diagnostics when a sentence sounds good but may overclaim.
+Use the source to decide how to revise a disputed sentence.
 
 | Initial sentence | Source-support question | Replacement selected by the answer |
 | --- | --- | --- |
@@ -1282,21 +1282,21 @@ Use rewrite diagnostics when a sentence sounds good but may overclaim.
 | “The module split solved coordination.” | Does the source show a changed dependency, predict a cost effect or observe one? | For the proposed design above: “The split removes one required hand-off and routes exceptional requests through a shared interface. Its effect on coordination time has not yet been measured.” A measured reduction would warrant the corresponding observed claim. |
 | “The character had no choice.” | Which alternatives do the fictional premises actually exclude? | If the scene establishes that both exits are locked and no other escape is available, say “With both exits locked, the character remained in the room.” If an alternative remains possible, describe the choice or pressure rather than inventing necessity. |
 | “The proof idea is that loops remember holes.” | Which formal restriction or invariant does the image represent? | If the supplied definition requires a loop to remain in the punctured plane, explain that a deformation cannot pass through the missing point. Return to the argument for any claimed invariant; the image alone establishes no theorem. |
-| “The team was outplayed because the press failed.” | Is this an observed cause, a provisional interpretation or a later supported analysis? | If the live source records late midfield movement followed by lost possession but no established cause, retain those observations and present the tactical connection as a hypothesis. Later analysis can justify a stronger claim; tentative wording is not compulsory once that support exists. |
+| “The team was outplayed because the press failed.” | What sequence is observed and what supports the tactical explanation? | With only the late midfield movement and subsequent loss of possession established, report both events and identify the tentative explanation. Use a stronger conclusion if later analysis distinguishes its contribution. |
 
-These are conditional repairs, not substitutes to copy without their premises. For a supported strong case, suppose the mathematical source defines f(x) = 2x and the task supplies x = 3. “Under this definition, f(3) = 6” follows directly; weakening it to “perhaps 6” would lose the supported result. If the source instead contains only an input-output observation of 3 and 6, keep that observed pair and leave the general doubling rule unresolved. The words become no weaker or stronger than the supplied relation warrants.
+Suppose the source defines f(x) = 2x and the task gives x = 3. Then f(3) = 6 follows by substitution. If the source records only the pair (3, 6), that observation establishes the pair and leaves the rule open. The same numbers support a deductive conclusion in the first case and a limited observation in the second.
 
-If the repair makes the narrative less exciting, that is not automatically a defect. The repair preserves the source relation. Engagement can be rebuilt later through `NSTD.5` around the safer relation instead of by restoring the overclaim.
+If the factual repair has reduced engagement that matters to the task, use `NSTD.5` to develop the presentation around the supported relation.
 
-Optional notes for more involved comparisons:
+These notes illustrate three different uses.
 
 ```text
 NarrativeEventMechanismSupport@ArchitectureTradeoff:
-  sourceStructureKind: architecture-like and mechanism-like trade-off
+  sourceStructureKind: dependency and trade-off in a proposed software architecture
   requiredReaderReconstruction: which required hand-off the proposed design removes, where exceptional requests go, and why an observed time saving remains unknown
   eventOrMechanismModel: ordinary requests no longer cross the removed hand-off; exceptional requests still require shared-interface coordination
   dependencyOrConstraintRefs: before-and-after dependency diagram; rule selecting exceptional requests; shared-interface responsibility
-  supportingBasis: the stated design supports the dependency change and a conditional cost prediction; observed cost would need observations
+  supportingBasis: the design shows the removed hand-off and the exception route. Their frequency and cost matter to the prediction of time saved
   uncertaintyOrUnknownRefs: realized coordination time unmeasured; other candidate designs outside this sketch
   reconstructionTaskRefs: reader distinguishes the design change, remaining exception work and unmeasured cost effect
   sourceReturnCondition: consult the dependency comparison for the design claim and observations for an actual cost claim
@@ -1308,9 +1308,9 @@ NarrativeEventMechanismSupport@HomotopyAnalogy:
   requiredReaderReconstruction: distinguish intuitive deformation image from formal equivalence relation
   eventOrMechanismModel: path deformation story used as analogy for invariant tracking
   dependencyOrConstraintRefs: formal definitions; examples; counterexamples; theorem prerequisites
-  causalUseOwnerRef: none unless a causal learning claim is made
+  basisForLearningEffect: a claim that the analogy helped learners would need evidence that distinguishes its contribution
   uncertaintyOrUnknownRefs: analogy may fail outside named examples
-  reconstructionTaskRefs: learner states where analogy stops and where proof returns
+  reconstructionTaskRefs: identify where the image stops and which formal premise or argument is needed
   sourceReturnCondition: formal source statement for proof or exercise use
 ```
 
@@ -1320,24 +1320,24 @@ NarrativeEventMechanismSupport@LiveCommentary:
   requiredReaderReconstruction: observed event vs inference vs prediction vs official correction
   eventOrMechanismModel: state updates and tactical hypothesis under uncertainty
   participatingHolonOrRoleRefs: teams, players, officials, broadcast or event source roles when needed
-  uncertaintyOrUnknownRefs: off-camera events; later telemetry; official review
+  uncertaintyOrUnknownRefs: events outside the camera view and decisions still under official review
   reconstructionTaskRefs: listener can say what was observed and what was inferred
   sourceReturnCondition: official record, recording, statistics, or telemetry
 ```
 
-These sketches illustrate information that can matter in different cases. Use only the fields needed to repair or compare the passage. A missing field does not by itself make a coherent account inadequate.
+For each use, retain the information needed to explain, compare or repair the connection.
 
 ### NSTD.3:6 - Bias-Annotation
 
-This pattern blocks fluent-coherence drift: smooth event language is mistaken for a mechanism, dependency, architecture, proof, or causal model. The bias appears when readers can retell the story but cannot reconstruct the selected source relation. Repair by naming the source-structure kind, the reconstruction target, the owner for causal or dependency claims, and the source-return condition. Scope: DPF-local for narrative coherence over selected source structure; it does not certify mechanism truth or causal evidence.
+A vivid episode can make a suggested cause or motive feel established. Compare the relation implied by the passage with the observation, argument or fictional premise that could support it. Separate what the text permits from what a particular reader actually reconstructed. Return to the subject source where the relation itself remains in question.
 
 ### NSTD.3:7 - Conformance Checklist
 
 | Check | Passing condition |
 | --- | --- |
 | `CC-NSTD3-1` | The passage represents the relevant source relations without silently turning a dependency, constraint or proof step into a physical event. |
-| `CC-NSTD3-2` | The intended reader can identify the connection needed for the stated use, or the remaining uncertainty is explicit. |
-| `CC-NSTD3-3` | Claims of cause, dependency, necessity or motive have grounds suited to that claim; extra subject work is selected only where it can resolve a consequential question. |
+| `CC-NSTD3-2` | The assessment identifies what the passage makes recoverable under the assumed knowledge, or what remains uncertain. To report what a particular reader understood, use a response or action that reveals their interpretation of the connection at issue. |
+| `CC-NSTD3-3` | Cause, dependency, necessity and motive are attributed on grounds suited to each claim. Use further subject work when an answer still needed depends on it. |
 | `CC-NSTD3-4` | An unknown, disputed or deferred relation remains visible when it affects the reader's conclusion or action. |
 | `CC-NSTD3-5` | Learning or consequential use has a suitable way to check or recover the needed connection. A separate test or source note is selected for its value to that use. |
 
@@ -1346,36 +1346,36 @@ This pattern blocks fluent-coherence drift: smooth event language is mistaken fo
 | Anti-pattern | What fails | Repair |
 | --- | --- | --- |
 | Fluent but unsupported explanation | A passage invites an explanation that its source does not support. | Supply the missing connection, qualify it or return to the unresolved source question. |
-| Causal overstatement | The narrative claims more about the cause than the grounds support. | State the supported causal strength; use `C.28` when its causal-use question needs work. Chronology is not a substitute causal explanation. |
-| Event forcing | A graph, proof dependency, or architecture view is converted into fake events. | Name source structure kind and choose a better ordering rule through `NSTD.2`. |
+| Causal overstatement | An account attributes an effect on the strength of event order alone. | State the observed order and the support for any further causal inference. Use `C.28` if the particular causal claim needs examination. |
+| Event forcing | A graph, proof dependency or architecture view is retold as an invented sequence of events. | Identify the source relation. If its presentation order needs changing, use `NSTD.2` to compare alternatives. |
 
 ### NSTD.3:9 - Consequences
 
-The benefit is that narrative coherence becomes testable. The cost is that some dramatic simplifications must be weakened or paired with source return.
+The comparison can show why a reader would infer too much from a fluent passage and what its source actually supports. Correcting the passage may require recovering the source relation or changing a dramatic simplification.
 
 ### NSTD.3:10 - Rationale
 
-Narrative comprehension often depends on event models and causal schemas. FPF uses that strength but keeps event support distinct from causal evidence, mechanism truth, architecture evaluation, and proof status.
+Readers often use event models and causal expectations to follow a narrative. What a passage invites them to infer and what the subject evidence establishes can differ, including in an account of a mechanism, an architecture or a proof.
 
 ### NSTD.3:11 - SoTA-Echoing
 
 Nguyen's [A Review of Mechanistic Models of Event Comprehension](https://arxiv.org/abs/2409.18992) (2024) compares accounts of prediction, hierarchy, updating and causal representation in comprehension. Hoffmann's [The Tensions of Scientific Storytelling](https://roaldhoffmann.com/sites/default/files/fromd6/Tensions%20ofScientific%20Storytelling%20as%20published.pdf) (2014) illustrates how scientific accounts organize mechanisms and unresolved tensions. Gatt and Krahmer's [NLG survey](https://arxiv.org/abs/1703.09902) (2018) distinguishes content selection and realization. This pattern's synthesis is to compare the connection the passage suggests with the relation its source or premises support.
 
-Operational payload:
+The sources contribute different operations.
 
-- Event-comprehension models motivate checking the reader's event boundaries, dependencies and predictions when those matter to the use. They do not establish that every reader builds the same model from every narrative.
-- From scientific storytelling, unresolved tension is narratively useful. It must stay unresolved when the source is unresolved. A good story may preserve tension rather than close it.
-- From NLG, inspect content as well as realization: a fluent connector cannot supply an omitted premise.
-- For evidence, inference and causal claims, inspect the complete claim before selecting additional work. The occurrence of “shows”, “proves” or “because” alone does not require an assurance procedure.
-- From architecture work, a mechanism-like story about structure must keep trade-offs, residual exceptions, and telemetry distinct. A before-and-after story is not by itself an architecture evaluation.
+- Use event-comprehension models to identify event boundaries, dependencies or predictions that matter to a reading task. Evidence about the particular reading can then establish what a reader recovered.
+- Scientific storytelling can make an unresolved tension intelligible. Distinguish the established observation from the explanations still possible.
+- In natural language generation, compare the selected content as well as its expression. A smoother connective will leave an omitted premise missing.
+- For evidence, inference or cause, inspect the complete claim before choosing how to substantiate it.
+- In an architecture account, distinguish an accepted trade-off, residual exception handling and what operation measurements establish about the realized design.
 
-For a passage that implies an unsupported connection, the selected line is to inspect the event or dependency relation before polishing its connector. A serious alternative is local wording repair: replace “proved” by “suggested” or “caused” by “preceded”. At comparable effort on the one disputed sentence, that can be sufficient when it states what the source establishes; it fails when the weaker replacement also invents a fact. The incident case shows the decisive difference: retain the logged sequence and leave the cause unresolved instead of supplying a plausible mechanism.
+A local wording change such as “preceded” in place of “caused” can be sufficient when the source establishes that order. If a source identifies the cause, the change would discard information. In the incident log the dates support the chronology, while the cause remains open. Checking the source decides whether the small edit preserves the claim.
 
-**Adapt** event-model and content-planning distinctions in :4's source comparison and :5's diagnostics. **Adopt** scientific storytelling's use of unresolved tension: the next investigation can remain part of the account. The accepted cost is consulting the relevant source relation rather than guessing a safer-sounding sentence. Keep a strong conclusion when that source supports it. Reopen if a new observation or argument establishes the connection, if the intended use needs a different relation, or if the reader still infers more than the repaired passage supports.
+The source comparison in §4 and the examples in §5 adapt distinctions from event modeling and content planning. Scientific storytelling also shows how to make an open research question part of an account. Return to the passage if new evidence changes the source relation, the intended task changes or an observed reading reveals a different interpretation that matters to that use.
 
 ### NSTD.3:12 - Relations
 
-Uses `A.6.3.NAR`, `NSTD.2`, `C.28`, `A.10`, `B.3`, `C.2.8` for structural amount, `C.33` for architecture-description adequacy, `C.34`, `NSTD.6`, and `G.11`. Mechanism-support recovery can supply a `C.2.8` structural result through `NSTD.6`; the event-mechanism quality judgement retains its own meaning and evidence. Reopen when the source mechanism, causal support, reconstruction target, or evaluation result changes. Support-map entry: open `Architecture and Narrative Work Bridge` when event, mechanism, dependency, or coherence support is architecture-relevant; open `Source Use And Refresh Map` when a source or cognition claim supports reconstructability; open `NSTD.Reference:11 — Working meanings and direct source returns` when event, mechanism, coherence, support, or cause language starts doing evidence or quality work.
+Use `A.6.3.NAR` and `NSTD.2` for narrative form and order. Use `C.28` for a causal claim needing examination, `A.10` when the route from a source to a claim is unclear or must be reproducible, and `B.3` when reliance on the resulting claim needs qualification. `NSTD.6` can use `C.2.8` for structural recoverability and `C.33` for the adequacy of an architecture description. Use `C.34` when a claim concerns preservation or correspondence of an architectural structure, and `G.11` when a changed source or result may affect the maintained account. Use the Architecture and Narrative Work Bridge for an architectural dependency, the Source Use and Refresh Map for a source claim, and NSTD.Reference:11 for a technical term’s meaning and direct source. Qualify the proposed mechanism on its own grounds.
 
 ### NSTD.3:End
 
@@ -1389,21 +1389,21 @@ Uses `A.6.3.NAR`, `NSTD.2`, `C.28`, `A.10`, `B.3`, `C.2.8` for structural amount
 
 ### NSTD.4:1 - Problem frame
 
-Use this pattern when a rewrite conveys the facts but no longer sounds like the intended author, when a new narrator needs a distinctive way of speaking, or when a change of subject, genre or language puts an established voice under strain. Use it also when viewpoint, focalization, protagonist, actant or personification changes what the reader understands, trusts, blames or treats as capable of action.
+Use this method to continue an author’s voice, construct a new narrator, or adapt a way of speaking to a changed subject, genre or language. It also helps when viewpoint or personification affects what a passage makes available to infer about knowledge, action or responsibility, or when you need to interpret a reader’s response.
 
-First useful move: identify who is to speak and what relationship that speaker should establish with this reader. Put a suitable passage beside the draft, if an existing voice is to be continued. When the voice already works and the difficulty is hidden information or attribution, go directly to NSTD.4:4.6 and inspect what the viewpoint reveals and conceals.
+Identify the speaker, intended reader and the relationship the passage should establish. To continue an existing voice, compare the draft with relevant expression from that author. If the voice already works and the question concerns hidden information or attribution, go to §4.6.
 
-What goes wrong if missed: an instruction such as “make it lively” can produce recognizable mannerisms without the author's way of developing a thought. A warmer rewrite can invent a memory, flatten a difficult idea or assign a decision to a prominent object. Accurate attribution alone can leave the requested voice absent.
+“Make it lively” may elicit a catchphrase while losing the author’s way of developing a thought. A warmer rewrite might invent a memory, obscure a hard distinction or attribute a decision to whichever object is most prominent. Check the manner of speaking as well as the claims it expresses.
 
-What this buys: a connected passage whose manner, intellectual demands and speaker position serve the intended work, with a way to carry that result into another passage and repair a particular loss.
+The result can be a passage written for its occasion, a direction another writer can apply to the next passage, or a finding about the voice or attribution in existing work.
 
-Keep an existing voice that already serves the work. An isolated grammatical fault or unsupported claim can receive its direct repair without constructing a voice profile. This pattern does not require a distinctive personal style, a new narrator or a separate record for every account.
+Keep a voice that already suits the passage. An isolated grammatical fault or unsupported claim can be repaired directly. A profile becomes worthwhile when it helps someone sustain or compare expressive choices across passages.
 
 ### NSTD.4:2 - Problem
 
-A voice is realized through choices made together: which detail the speaker notices, how a thought begins and develops, how directly the reader is addressed, how confidence or hesitation is expressed, and how sentences move. A list of adjectives leaves those choices to the next writer. Copying a catchphrase can preserve a surface feature while changing the speaker's relation to the reader. A useful construction therefore connects an intended speaking relationship, evidence or choices about its expression, and the actual passage in which it must work.
+A voice emerges from connected choices about what the speaker notices, how a thought starts and develops, how the reader is addressed and how confidence or hesitation is expressed. A catchphrase can survive after the relationship to the reader has changed. Use the actual passage to connect the chosen relationship with its expression.
 
-The narrator's position also determines what can be told. An editor may preserve a manner without possessing the author's memories; a fictional narrator may speak confidently without being reliable. Prominence in a story can invite an attribution of action or responsibility that the source does not support. Construct the expressive relationship and establish consequential knowledge, experience and agency claims on their own grounds.
+The narrator’s position governs what can be told from that viewpoint. An editor can preserve a way of speaking using the author’s material. A claim to an actual memory needs grounds in that person’s experience. A fictional narrator can sound certain about an event the story gives the reader reason to doubt. Identify the grounds for any consequential attribution of knowledge, experience or agency.
 
 ### NSTD.4:3 - Forces
 
@@ -1412,75 +1412,75 @@ The narrator's position also determines what can be told. An editor may preserve
 | Recognizable voice and changed occasion | A continuing author can speak differently in an essay, instruction and scene; mechanical repetition can defeat the new use. |
 | Expressiveness and intellectual substance | Rhythm, humour or intimacy can carry an idea, but can also replace its necessary distinction or difficulty. |
 | Example and generalization | A passage gives observable choices; one memorable oddity need not characterize the author's other work. |
-| Reader orientation vs ontological discipline | A focalized object helps readers, but it may not be an actor. |
+| Viewpoint and agency | Following an object through a scene can make a relation easier to see while leaving open who acted. |
 | Narrative function and working participant | A protagonist centers the story; a real performer, assignment or responsibility requires a separate claim. |
-| Personification vs responsibility | Personification can teach, but a memorable figure does not settle who may decide or who is responsible. |
+| Personification and responsibility | A memorable figure can introduce a trade-off. A decision or assignment of responsibility needs its own identified participants and grounds. |
 
 ### NSTD.4:4 - Solution
 
-Construct the voice through a passage that performs the intended work. Establish whose manner is wanted and on what basis; recover useful choices from examples or try choices for a new narrator; compose connected thought in that relationship; compare the actual result and repair the consequential difference. Viewpoint and attribution remain part of this work wherever they change what the speaker or reader can know. These operations can be combined in one short revision. A sufficient passage is a usable result without a completed profile or several alternative drafts.
+To construct a voice, choose the speaking relationship and write a passage that carries the needed thought. Use relevant examples for a continuing voice, or try a treatment for a new narrator. Compare how the resulting passage handles manner, meaning and viewpoint. If you are assessing past work, use its actual wording and any evidence needed for the claim about its use. A single suitable passage can answer the writing task.
 
 #### NSTD.4:4.1 - Establish the speaker, relationship and comparison basis
 
-Identify the intended speaker and reader in ordinary terms. “An experienced colleague thinking with another capable colleague,” “a remote chronicler who withholds judgement” and “a frightened witness addressing a sceptical listener” select different relationships. State what matters for this account: for example intimacy or distance, shared or unequal knowledge, invitation to examine or direction to act. The relationship guides expression; it does not establish the speaker's actual expertise or authority.
+Identify the speaker, reader and relationship that matter. An experienced colleague inviting another colleague to inspect a finding, a remote chronicler withholding judgement and a frightened witness addressing a sceptic establish different positions. Choose the distance, shared knowledge and invitation or direction appropriate to the account. A claim about real expertise or authority requires grounds beyond that choice.
 
 Distinguish the basis of the requested voice:
 
-- To continue an existing author's voice, use authentic passages or edits that the author has accepted as examples of that voice. Keep enough context to hear how the thought develops and whom the passage addresses. An unapproved generated imitation is a proposal, not evidence of the author's preference.
-- For a deliberate imitation or stylization, name the selected model and the features to adapt. Similarity to that model does not make the resulting narrator the original person or transfer their experiences to the new text.
-- For a new narrator, choose a speaking relationship, access to information and expressive purpose. Try a short passage of the needed material. When the choice remains unclear, contrast another treatment of the same material and select or combine the useful differences. There need be no earlier personal voice to recover.
+- To continue an existing author’s voice, use authentic passages suitable to this occasion or edits the author has accepted as models. Keep enough context to hear the thought develop and identify its addressee. A generated trial can show an editorial choice. Attribute preference to the author when there is evidence of that preference.
+- For an imitation or stylization, identify the model and the features to adapt. State whose experience an episode represents when a reader might take the stylization for the original person’s account.
+- For a new narrator, select a speaking relationship, access to information and purpose. Try the needed material in that voice. If the choice remains open, compare another treatment of the same material and use the differences that serve the scene.
 
-Choose examples relevant to the current use. A joke from an interview may be a poor basis for a condolence note; a restrained technical paragraph may reveal little about the author's dialogue. Start with enough material to make the live choice. Add another passage when an uncertainty about the voice would change the draft, such as whether an unusual turn belongs to the author, the particular speaker or that one occasion. There is no fixed quota of samples.
+Select examples for the present occasion. A joke in an interview may give little guidance for a condolence note, and a technical paragraph may tell you little about dialogue. Add material if it could resolve a consequential uncertainty, such as whether an unusual turn belongs to the author, the fictional speaker or one particular occasion.
 
-If a requested author's suitable material is unavailable, obtain it or offer an explicitly provisional treatment for the author to choose. A chosen trial can become the basis for further work. Until then, report a proposed voice rather than claiming that the original voice has been preserved. Use an already established editorial choice without reopening approval on every passage.
+If suitable material from the intended author is unavailable, identify what can be recovered and offer a provisional treatment if the task is to produce a draft. Seek additional material or the author’s choice when the work needs a claim of fit or acceptance that the available evidence cannot support. An already established editorial choice can guide later passages.
 
 #### NSTD.4:4.2 - Recover expressive choices from what the passage does
 
-Read the example as connected expression. Notice how it brings the reader into a question, introduces an event or distinction, changes pace, handles a difficulty and ends a thought. Connect a proposed property to words and relations that actually realize it. “Collegial” becomes useful when one can point to a shared problem and an invitation to inspect it; “restrained” becomes useful when a narrator presents a consequential detail and leaves a judgement unstated.
+Read an example as connected expression. Notice how it brings the reader into a question, develops a distinction, changes pace and closes a thought. Describe each useful property through wording that realizes it. A collegial passage might offer a shared problem for inspection. A restrained narrator might give the decisive detail and leave the judgement to the reader.
 
-Select the properties that can guide this draft. They may concern address, rhythm, sentence relations, concrete detail, imagery, humour, stance, qualification, or the balance between scene and commentary. Explain what the important choices contribute. A short sentence can mark a discovery, an instruction, embarrassment or impatience; copying its length alone leaves that function unresolved. Likewise, a technical term may maintain a needed distinction rather than express an impersonal manner.
+Choose properties that can guide the passage, such as address, rhythm, imagery, humour, qualification or the balance of scene and commentary. A short sentence can express discovery, embarrassment, impatience or a direction to act. A technical term can preserve a needed distinction. Identify the contribution before copying the feature.
 
-Separate a supported tendency from a local observation and a new editorial choice. Recurrence across relevant examples strengthens the basis for a continuing tendency. A single accepted example can still serve as the chosen model for this passage without supporting a claim about everything its author writes. Keep an inference provisional when another reading would change the treatment. The examples may remain in their existing source; a few working observations are enough when no future use needs a maintained profile.
+Distinguish what appears in this passage, what recurs across relevant examples and what the editor is choosing now. A single accepted passage can be sufficient as the model for this use. A claim about a broader tendency needs evidence across the occasions it claims to cover. Keep working notes when someone will use them again.
 
-The result is a usable direction for composition, such as “begin with a concrete discrepancy, let the reader inspect it, then state the limited conclusion.” A label or a catalogue of stylistic features that leaves the next paragraph unexplained has not yet supplied that direction.
+A writer might use the direction “Begin with a concrete discrepancy, let the reader inspect it, then state the limited conclusion.” It specifies how to develop the next thought.
 
 #### NSTD.4:4.3 - Compose a natural fragment without losing its thought
 
-Write a natural unit that advances the account: an exchange, a scene, or a connected passage that reaches its next useful thought. Include the preceding conclusion and following opening when they determine how it joins the surrounding work. Let the selected relationship shape how the reader encounters the material. This may change order, sentence connections or the distribution of example and explanation; replacing a few words rarely settles those decisions.
+Write a connected unit such as an exchange, scene or passage. Include its joins to the previous and following thought where they affect its work. The chosen relationship may call for a different order, sentence connection or placement of example and explanation.
 
-Retain the idea's necessary distinctions and the intellectual level appropriate to this reader. Show the difficulty that makes the next move worth making. An approachable voice can explain a demanding relation without deleting it or judging the reader for not already knowing it. Preserve a useful surprise, image or sharp observation when it contributes to the thought; replacing it with a flat summary can lose the very relation the example was chosen to carry.
+Retain the distinctions and intellectual demands appropriate to the reader. Give them the difficulty that makes the next move worth taking. A surprise, image or sharp observation can carry a relation that a flatter summary would lose. Use it when that contribution matters.
 
-Keep the speaker's position warranted. Preserve actual recollection, point of view, uncertainty and relevant detail where the source supplies them. A current editorial judgement can be stated as such. Mark a constructed case or hypothetical account where a reader might otherwise take it as experience. First-person wording does not create a memory, consultation, feeling, consensus or evidence. In fiction, those can be invented as story facts under the chosen premises; they still do not become experiences of the real author or reader. “We” requires the intended inclusion to make sense in that passage; it is no general condition of warmth or collegiality.
+Ground attributed recollections, observations, uncertainty and judgements. Mark a hypothetical or constructed account when its reader might take it as experience. In fiction, the premises can give a character a memory or feeling. In a factual account, first person can express the author’s own reasoning or documented experience. Use “we” when its intended participants and their relation are clear.
 
-Inspect whose information the voice uses. A retrospective narrator may know what a participant did not know at the time; a close witness may lack a decisive event. Retain that difference or revise the viewpoint under NSTD.4:4.6. If the desired passage needs a new interpretation, use NSTD.9; if it needs a new fictional event, use NSTD.10. A stylistic rewrite cannot silently supply either as an established source fact.
+Identify whose information the voice uses. A retrospective narrator may know what a participant did not know at the time. A close witness may have missed an event. Keep that difference or revise the viewpoint under §4.6. Use NSTD.9 if interpretation remains in question, or NSTD.10 to construct a needed fictional or hypothetical event under the stated premises.
 
 #### NSTD.4:4.4 - Carry the voice into a changed subject, genre or language
 
 Ask what the new occasion changes in the relationship and work. A familiar reader may now need an instruction under time pressure; an essay's reflective detour may become inappropriate in a decision note. Choose which properties remain useful and which must change, with their contribution to the new passage as the reason. Continuing a voice can preserve a way of approaching uncertainty while changing address, rhythm or the place of humour.
 
-Try the treatment on material that makes the difference consequential. On a new subject, retain the needed domain relations and obtain missing content instead of borrowing the original sample's facts or vocabulary. On a new genre, compare the new passage with both the selected voice basis and its own neighboring text. The result should perform the new genre's work; resemblance to the old genre is insufficient.
+Try the treatment on material that exposes the changed demand. For a new subject, establish the domain relations that the passage must convey. A familiar sample can guide expression. For a new genre, compare the passage with both its speaking model and its present neighbors. Ask whether it performs the work this genre requires.
 
-For another language, recover how the chosen relationship can be expressed there. Address forms, idiom, rhythm and politeness need not have a one-to-one correspondence. Compare passages in the receiving language and preserve technical distinctions that the new wording could merge. Where the editor cannot judge the relevant expression, obtain competent language judgement before claiming that the voice or relation has survived. No particular language, pronoun, ironic manner or degree of informality is universal. A local profile can select these conditions for its audience without making them the general method.
+For another language, identify how its address forms, idiom, rhythm and conventions can express the chosen relationship. Compare passages in the receiving language and preserve technical distinctions. Use competent language judgement already available, or seek it if the editor cannot settle a consequential claim about the result. A particular pronoun, level of informality or use of irony belongs to the chosen audience and occasion.
 
 #### NSTD.4:4.5 - Compare the passage and repair the actual loss
 
-Read the changed fragment beside its model or chosen trial and as part of its surrounding account. Compare the movement of thought and speaking relationship, including any consequential contrast between passages. For a voice intended to sound spoken, reading aloud or rehearsing uninterrupted speech can reveal a broken join or an unperformable sentence; it is not a universal test for every literary voice. An imagined performance is not evidence of an actual listener's response.
+Read the changed passage beside its model or chosen trial and in its new surroundings. Compare how each develops the thought and puts the speaker in relation to the reader. For a voice meant to be spoken, reading aloud can reveal a broken join or a sentence hard to deliver. To establish what a listener actually understood or recognized, use a response or action that shows the particular interpretation or recognition at issue.
 
-Keep three conclusions distinct:
+Choose the comparison that supports the conclusion you need.
 
 | Question | Useful comparison | What the result supports |
 | --- | --- | --- |
-| Does the manner realize the selected voice and relationship? | Point to the expression in the model and draft; inspect what is retained, changed or lost. Use the author's judgement when the claim concerns that author's acceptance. | A bounded judgement of fit or an actual acceptance, with its basis. It does not establish what other readers recognize. |
-| Does the passage preserve the needed meaning and speaker position? | Compare its claims, distinctions, experience, uncertainty and viewpoint with the source or chosen fictional premises. | Correspondence at the compared scope; a fluent or recognizable voice supplies no missing evidence. |
-| Can the intended reader do what the passage is for? | Examine the needed inference, action or experience in the connected account. Use an actual reader task when the conclusion requires observed understanding or response. | A design judgement or an observed result, distinguished explicitly. For a qualified evaluation use NSTD.6; for learning use NSTD.8 and the applicable learning methods. |
+| Does the manner realize the selected voice and relationship? | Compare the relevant expression in model and draft, or the new passage with the chosen speaking relationship. Identify what is retained, changed or lost. | An editorial judgement of fit. To report the author’s acceptance or another reader’s recognition, identify evidence of that response. |
+| Does the passage preserve the needed meaning and speaker position? | Compare claims, distinctions, experience, uncertainty and viewpoint with the source or chosen premises. | A finding about correspondence for the material compared. |
+| What can the intended reader do with the passage? | Examine the inference or action made available under the assumed starting knowledge. For a historical claim, examine a response or action that shows the relevant reading and what help was used if it affects the conclusion. | A design judgement or an observed result under its conditions. Use NSTD.6 for a qualified evaluation and NSTD.8 or applicable learning methods for a learning question. |
 
-Locate the smallest change that repairs the cause. An unsupported personal recollection needs a change of speaker claim; a condescending aside needs a different address to the reader; a broken transition needs the missing connection; a flattening summary needs the useful distinction or expressive event restored. If the model was inappropriate to the new genre, revise that choice rather than polishing every sentence to match it.
+If revision is requested, change what caused the loss. Correct an unsupported recollection, a condescending form of address, a missing transition or a summary that erased an important distinction. If the example was unsuitable for the new genre, choose a better model.
 
-Reread the repaired span and the connections its change affects. In technical explanation, use F.19 for consequential meaning and recoverable action; use NSTD.5 when the difficulty is the expressive device's effect. Preserve the voice where it works. A new adequate fragment does not require reopening unchanged material or obtaining repeated approval. For tool-assisted execution, give NSTD.7 the same examples, choices and constraints, and compare its actual output through these questions.
+Read the repaired passage with the joins it affects. Use F.19 for meaning and recoverable action in technical prose and NSTD.5 when the effect of an expressive device is at issue. For tool-assisted composition under NSTD.7, give the tool the relevant models, choices and constraints and examine its actual output.
 
 #### NSTD.4:4.6 - Keep viewpoint, agency and attribution grounded
 
-Compare what the chosen viewpoint makes visible with what the reader needs. Add another view or a short clarification when a consequential relation is hidden. Viewpoint can also change the working interpretation: a departure can appear as escape to one participant and abandonment to another. Use NSTD.9 to compare what supports those meanings; juxtaposing voices alone does not settle their factual disagreement or make them equivalent. In fiction, a proposed viewpoint may require a participant to acquire information that the story has not yet supplied; construct or revise that event through NSTD.10, or choose a viewpoint that does not require it. Use the optional record below when comparing viewpoints or handing the work to another author; the clarification can otherwise stay in the narrative itself.
+Compare what the viewpoint reveals with the relations the reader needs. Two participants may see the same departure as escape and abandonment. Use NSTD.9 to examine the support for either interpretation. If a fictional viewpoint requires a discovery not yet provided for the character, use NSTD.10 to build that event or select a viewpoint with different access. Add a second view or a short clarification when it supplies missing information the task requires. Use a note like the one below if collaborators or a later comparison will need the grounds.
 
 ```text
 NarrativeViewpointAgencyDiscipline@Context:
@@ -1491,16 +1491,16 @@ NarrativeViewpointAgencyDiscipline@Context:
   hiddenOrWeakenedSourceStructureRefs:
   narrativeFunctionTerms:
   personificationOrAgencyWording:
-  directOwnerRefs:
+  relevantSourcesAndAuthorityIfNeeded:
   blockedAgencyOverread:
-  repairAction:
+  repairActionIfNeeded:
 ```
 
-Use the following distinctions only when they change interpretation or action:
+Use the distinctions that affect the claim.
 
-1. A **narrative function** such as narrator, protagonist or actant describes a contribution to the account. Ordinary use of “role” can retain that meaning.
-2. A **real participant** may be a person, organization or technical system. When a precise classification matters, `A.2` defines a local system-role kind whose candidates are `U.System` individuals. `A.2.1` separately establishes an obtaining `U.SystemRoleAssignment`; neither a label nor prominence in a story supplies that assignment.
-3. A **precise agency claim** uses `A.13`: the System, the applicable local kind and the obtaining assignment. A claimed dated Work occurrence additionally uses `A.15.1`. Ordinary explanation does not require these identities unless it asserts the corresponding facts.
+1. A **narrative function**, such as narrator, protagonist or actant, explains a contribution to the account. “Role” often has this ordinary meaning in a discussion of stories.
+2. For a **real participant**, identify the person, organization or technical system that played the relevant part. If a precise classification matters, `A.2` defines the local system-role kind for `U.System` individuals. Use `A.2.1` for the obtaining `U.SystemRoleAssignment`.
+3. For a **precise agency claim**, use `A.13` to identify the System, applicable local kind and actual assignment. For a claimed dated Work occurrence, apply the independent `A.15.1` conditions. Use ordinary contributor language when the passage makes no such claim.
 4. A **capability or responsibility claim** needs its own grounds. Use `A.2.2` for capability, the applicable organizational assignment for responsibility, and `D.1` through `D.5` when value, harm or affected-party conflicts matter.
 5. An **agency measurement or profile** uses the selected characteristic and scale through `A.19.ECS`, `C.16` and `A.13` when that additional claim is needed.
 
@@ -1508,7 +1508,7 @@ Consider the following questions where the viewpoint could change the reader's u
 
 | Pass | What to inspect | Repair if failed |
 | --- | --- | --- |
-| What becomes visible? | Which relevant events or relations can the reader see from this viewpoint, and which remain hidden? | Add the needed fact, source return or alternate viewpoint. |
+| What becomes visible? | Which events or relations does the viewpoint show or allow a reader to infer from specified starting knowledge? | Add the needed fact, a way to recover it or another viewpoint. |
 | What attribution follows? | Does prominence in the account imply an unsupported action, capability or responsibility? | Retain the narrative function and establish or correct the separate attribution. |
 | Would a literal reading mislead here? | Is there a plausible reading that changes reliance or action? | Clarify that relation or participant. Keep an unambiguous metaphor. |
 | Whose consequence is missing? | Does the viewpoint conceal a relevant effect, disagreement or uncertainty? | Add the affected perspective or qualify the use. Consult `D.1`–`D.5` when a value or harm conflict needs resolution. |
@@ -1520,12 +1520,12 @@ The following terms answer different narrative questions. Stronger factual claim
 | Protagonist | Centering attention or action path. | Responsibility, role assignment, moral standing, or capability. |
 | Actant | Describing a participant's function in a plot or transformation. | A real System's classification, assignment, capability or responsibility. |
 | Voice | Controlling stance, distance, confidence, or witness posture. | Evidence strength, source authority, or ethical permission. |
-| Focalization | Selecting what the reader sees and from whose constraints. | Completeness, neutrality, or source truth. |
+| Focalization | Selecting the information shown and the position from which it is available. | Completeness, neutrality or the truth of the underlying factual account. |
 | Personification | Teaching or memory aid for abstract structures. | Actual agency, decision authority, or intent. |
 
-Keep ordinary metonymy when the intended reader can recover the relevant action and participant. “The paper proves the lemma” can refer to the proof it contains; it needs no invented author-work record. If “the architecture wants fewer dependencies” would instead be used to justify a decision or assign blame, state the actual structural constraint, choice and responsible participant. Clarify the action-changing ambiguity, not every figurative verb.
+Keep ordinary metonymy if the action and participant are clear. “The paper proves the lemma” can refer to the proof it contains. If “the architecture wants fewer dependencies” is used to justify a design decision or assign responsibility, identify the structural criterion, the choice and whoever had the relevant authority.
 
-A useful repair can retain the viewpoint while making the needed relation explicit: who decides, what structure is highlighted, what relevant fact is hidden, and where the reader can obtain it. Choose the smallest clarification that resolves the difficulty.
+A viewpoint can be retained while clarifying the relation it obscures. Identify the relevant fact or participant and how a reader can recover it.
 
 ### NSTD.4:5 - Archetypal Grounding
 
@@ -1534,18 +1534,18 @@ A useful repair can retain the viewpoint while making the needed relation explic
 #### NSTD.4:5.1 - Worked slice: viewpoint without false agency
 
 
-An architecture explanation says: “The database wants to protect consistency, while the service wants speed.” This personification can foreground a trade-off. For a reader diagnosing latency, however, the needed relation is how transaction and replication choices affect response time.
+“The database wants consistency and the service wants speed” can introduce a trade-off. A reader diagnosing response time needs the actual order of transaction and replication operations and the conditions under which a wait delays the response.
 
 ```text
 NarrativeViewpointRecord@ArchitecturePersonification:
   narrativeRenderingRef: ArchitectureExplanation@v1
   viewpointOrVoiceKind: didactic personification
   focalizedSourceStructureRef: consistency and latency trade-off across selected architecture structures
-  narrativeFunction: make the trade-off memorable and traversable
-  hiddenOrWeakenedSourceStructureRefs: actual component responsibility, decision record, measured characteristics
+  narrativeFunction: introduce the consistency and response-time trade-off through personification
+  hiddenOrWeakenedSourceStructureRefs: commit condition, critical path, decision record and observed timings
   agencyOrResponsibilityRisk: component metaphor may be read as actor agency or authority
-  literalizationRepair: explain the commit condition and latency consequence; identify who can change the configuration if that action is proposed
-  sourceReturnCondition: return to architecture description and decision record for authority
+  literalizationRepair: state the commit condition and when the wait delays the response. Identify change authority if a change is proposed
+  sourceReturnCondition: use the architecture description for the arrangement, the governing decision for authority and timing evidence for a claim about actual delay
 ```
 
 Before:
@@ -1554,7 +1554,7 @@ Before:
 
 After:
 
-> In this configuration the database waits for replica acknowledgement before confirming a commit. That choice protects the required consistency but increases the service's response time. To change the trade-off, consult the configuration decision and measured latency.
+> This configuration requires acknowledgement from a replica before the database confirms a commit. The requirement protects the stipulated consistency condition. Waiting for acknowledgement increases the service’s response time when that wait extends the critical path to the response. An overlapping, longer operation can hide the delay. For an observed request, consult its timing evidence. For a proposed change, check the configuration decision and who may change it.
 
 
 
@@ -1563,7 +1563,7 @@ After:
 #### NSTD.4:5.2 - Worked slice: narrator and reader roles
 
 
-A future-project scenario can speak from an imagined user's viewpoint to expose possible consequences. Describe it as a scenario so readers can distinguish the proposed experience from an actual user's report or consultation. For example:
+An imagined user can describe a possible consequence of a future design. Identify the passage as a scenario. An actual user report or consultation requires evidence from the user or an appropriate record.
 
 ```text
 NarrativeViewpointRecord@FutureUserScenario:
@@ -1572,8 +1572,8 @@ NarrativeViewpointRecord@FutureUserScenario:
   narrativeFunction: expose usability and risk questions before design is final
   hiddenOrWeakenedSourceStructureRefs: actual user evidence, policy claim, safety claim
   agencyOrResponsibilityRisk: imagined voice is treated as real stakeholder authority
-  literalizationRepair: mark as scenario hypothesis and route evidence to user research owner
-  sourceReturnCondition: return to source assumptions and later evidence
+  literalizationRepair: mark the proposed experience as a scenario. Use suitable user evidence for a claim about actual experience
+  sourceReturnCondition: examine the scenario assumptions or available user evidence when the relevant claim changes
 ```
 
 
@@ -1583,7 +1583,7 @@ NarrativeViewpointRecord@FutureUserScenario:
 
 Keep wording that already makes the relevant action clear. If a viewpoint hides a needed relation, add that relation, change perspective or name the responsible participant. Mark a scenario or metaphor when the reader could otherwise rely on it as an observation. Replace the device if its effect depends on concealing a fact needed for the intended use.
 
-To compare alternatives, try a short literal account or another viewpoint and ask what the reader can now recover. For the database case, the comparison is whether the reader can explain the wait and locate the configurable choice. For the future-user case, it is whether the reader distinguishes a proposed experience from observed user evidence. Use `NSTD.6` when a declared quality result is needed.
+Compare a literal account or another viewpoint when the comparison helps. For the database, can a reader identify the commit condition and determine when it delays a response? For the imagined user, can the reader tell what was proposed and what was observed? An editor can assess the information the passages provide. A relevant response can show how a particular reader interpreted it. Use `NSTD.6` if a qualified quality judgement is required.
 
 
 
@@ -1592,15 +1592,15 @@ To compare alternatives, try a short literal account or another viewpoint and as
 
 Viewpoint selects and highlights structure for a use. An architect's view, a narrator's voice and a protagonist's function can help recover different aspects of the same case. When a real agency, assignment, capability or responsibility claim matters, recover that claim separately under its applicable definition.
 
-A technical story says “the architecture wants to reduce coupling.” The useful content may be a criterion favoring fewer dependencies under a stated trade-off. An architect or team makes the choice; a system-role assignment is a relation involving that participant, not the participant itself. An architecture decision records or expresses the choice rather than acting as its maker.
+“The architecture wants to reduce coupling” may express a criterion favouring fewer dependencies at an accepted cost. For a claim about the choice, identify who decided under the relevant authority and what they chose. Under A.2.1 an assignment relates its holder System to the assigned local role kind within its stated scope. The decision record can establish which option was selected.
 
-In a franchise continuation, a protagonist centers attention, while the chosen premises determine what action is plausible. “The Force guided the decision” may be a sufficient story-world explanation in one scene and leave a character's motivation unclear in another. Use the intended plot and reader effect to decide whether another connection is needed.
+In a franchise continuation, a protagonist centers the telling. The fictional premises govern which actions and motives are plausible. “The Force guided the decision” may supply the intended story-world explanation or leave the character’s choice unclear. Ask which relation the scene needs.
 
-In a homotopy explanation, a space, path, or loop may be written as if it "wants" to deform or "remembers" a hole. That can help intuition, but the focalized object is not an agent. The repair is to state the formal relation being highlighted and where the personification stops.
+In a homotopy explanation, a loop that “remembers” a hole can direct attention to a constraint on deformation. Where a learner needs the mathematical conclusion, supply the formal restriction and the argument it supports.
 
-In live commentary, viewpoint may follow one player, coach or tactical unit. This can make the stream intelligible while hiding off-ball actions or an uncertain ruling. Qualify a blame or capability claim when the unseen action or later official correction could change it; no commentary record is required merely to say so.
+Live commentary can follow one player, a coach or a tactical unit while leaving off-ball actions or a pending ruling outside view. Use the relevant record or qualify blame and capability when the unseen action would change that attribution.
 
-Use a literalization rewrite ladder.
+Read figurative expressions in their context.
 
 | Risky phrase | Safe if read as | Repair if literal reading would be false |
 | --- | --- | --- |
@@ -1610,11 +1610,11 @@ Use a literalization rewrite ladder.
 | "The protagonist represents the system..." | Reader-facing focalization. | State which source structures the protagonist highlights and hides. |
 | "The market punished..." | A description of an aggregate outcome. | Describe the observed change and distinguish an established mechanism from a conjecture when the explanation affects reliance. |
 
-Keep a necessary clarification close to the phrase. For example: “The architecture favors fewer dependencies under the selected trade-off.” If the figurative wording already conveys that relation unambiguously, no extra disclaimer is needed.
+Keep a needed clarification close to the disputed phrase. “Under the chosen trade-off, fewer dependencies are preferable” can state the design criterion directly.
 
-Use alternate viewpoint when one viewpoint hides a load-bearing source structure. A learner-facing story may first focalize the novice, then briefly switch to the maintainer who pays the cost of hidden coupling. A live commentary may follow the attacking player, then mark what the defensive line or official review could change. A future-scenario narrative may focalize a user, then return to the system owner for constraints and responsibility.
+Change viewpoint when another position can reveal a required relation. A novice’s account may omit the maintainer’s cost of coupling. Following an attacker may hide an off-ball defender or an unresolved ruling. An imagined user can describe a possible experience while the responsible organization supplies the constraints and authority.
 
-Filled viewpoint records:
+These examples use the optional viewpoint note.
 
 ```text
 NarrativeViewpointAgencyDiscipline@ArchitecturePersonification:
@@ -1624,9 +1624,9 @@ NarrativeViewpointAgencyDiscipline@ArchitecturePersonification:
   hiddenOrWeakenedSourceStructureRefs: architect role assignment; decision record; telemetry
   narrativeFunctionTerms: "architecture wants" as memory aid
   personificationOrAgencyWording: architecture described as wanting fewer dependencies
-  directOwnerRefs: architect role assignment; architecture decision; characteristic evaluation
-  blockedAgencyOverread: architecture is not an agent and has no responsibility
-  repairAction: add "more precisely" sentence naming characteristic pressure and decision owner
+  relevantSourcesAndAuthorityIfNeeded: decision about coupling, cohesion and the interface exception. Use suitable design or operating evidence for a claimed effect and the responsible decision holder for a proposed change
+  attributionAtRisk: responsibility for the decision to reduce coupling
+  repairAction: state the structural criterion and identify the decision holder if responsibility is at issue
 ```
 
 ```text
@@ -1636,9 +1636,9 @@ NarrativeViewpointAgencyDiscipline@FictionalProtagonistProbe:
   revealedSourceStructureRefs: character agency constraint; premise; causal plot support
   hiddenOrWeakenedSourceStructureRefs: alternative viewpoints; broader canon conflicts; publication rights
   narrativeFunctionTerms: protagonist; actant; motivation
-  directOwnerRefs: source-pack and canon owner; agency and role owner when moral responsibility is claimed
+  relevantSourcesAndAuthorityIfNeeded: selected canon and premises for the character’s choices, and an applicable licence or rights holder for a proposed publication
   blockedAgencyOverread: protagonist centrality does not create moral permission or canon authority
-  repairAction: record character action support and route rights and publication outside this DPF
+  repairAction: establish the character’s possible action under the premises. For proposed publication, use the applicable licence or obtain a determination if permission remains unresolved
 ```
 
 ```text
@@ -1648,16 +1648,16 @@ NarrativeViewpointAgencyDiscipline@LiveCommentaryView:
   revealedSourceStructureRefs: possession, pressure, chance creation
   hiddenOrWeakenedSourceStructureRefs: defensive shape, off-ball movement, official review
   narrativeFunctionTerms: "forced", "wanted", "could not"
-  directOwnerRefs: event source owner; evidence owner for claims; ethics owner if blame or harm framing appears
+  relevantSourcesAndAuthorityIfNeeded: relevant event record and evidence for the attribution. Consult the responsible source for an official ruling or ethics guidance for a consequential harm question
   blockedAgencyOverread: live focalization is not settled blame or capability assessment
   repairAction: mark provisional interpretation and later source-return route
 ```
 
-Before relying on a strong agency claim, resolve the actual ambiguity in the text. A compact explanation can identify the acting system, the decision or the limited metaphor. Use a record only when its later use warrants one; lowering every verb to “is presented as” would itself obscure real actions.
+Where a figurative phrase leaves consequential agency unclear, identify the acting participant, the decision or the limits of the metaphor. Preserve verbs that accurately describe real actions. Keep a separate record when a later use needs it.
 
 #### NSTD.4:5.5 - Worked case: continue a voice, then change the genre
 
-This constructed case teaches how an author derives and revises a speaking treatment. The sensor facts are supplied material for that work; diagnosing sensors is not the lesson. Mira, her accepted passages and all drafts below are invented for the example.
+Mira, her selected passages and the drafts below are constructed for this example. The editor’s question is how to carry a speaking relationship between two genres. The sensor data are given.
 
 Mira wants an editor to continue a reflective essay for technically capable readers. She selects these two passages as models:
 
@@ -1665,29 +1665,29 @@ Mira wants an editor to continue a reflective essay for technically capable read
 
 > I like a difficult detail to earn its place. Show me the detail, and then show me what it changes.
 
-The editor can point to a concrete discrepancy before judgement, a shorter reflective turn after the detail, and an invitation to examine its consequence. These are choices for this continuation, not a complete account of Mira's style. The first passage's personal recollection belongs to its stipulated occasion; it does not authorize a new remembered event.
+The selected passages present a discrepancy before judging it, follow a concrete detail with a shorter reflective turn and invite the reader to examine its consequence. The editor uses these choices for this continuation. Mira recalls opening the notebook in the first model passage. An unrelated memory would need its own basis.
 
-The new material is limited: a report gives three tests at 20 °C, each with absolute measurement error within 1 °C; it supplies no tests below 5 °C. The proposed cold store operates below 5 °C and requires that same error limit. The essay has just introduced a proposed purchase; its next passage will discuss the additional evidence to obtain.
+The new report describes three tests at 20 °C, each within 1 °C absolute error. It supplies no results below 5 °C. The proposed cold store operates below 5 °C and requires the same error limit. The essay has introduced the purchase and will now discuss what evidence would support it.
 
 An initial treatment tries to make the voice warmer:
 
 > I remember shivering in that cold store while the sensor lied to me. Surely we all know that three comfortable tests do not tell the whole story.
 
-The editor rejects two specific choices. The opening invents experience absent from the material. The closing asks the reader to share a judgement before seeing the decisive conditions. Adding Mira's short sentences or “I” would leave both problems. The next treatment instead uses her example's movement from detail to bounded judgement:
+The editor rejects the invented memory and the appeal to a shared judgement before the reader can inspect the conditions. The next passage follows the selected models from a concrete detail to a limited conclusion.
 
-> The report gives a small, tidy success: in three tests at 20 °C, the sensor's absolute error stayed within 1 °C. The proposed cold store operates below 5 °C. There are no test results for that range. A colder room is doing rather a lot of work in this purchase decision. Before selecting the sensor, we need adequate evidence that it meets the same error limit in its intended operating range.
+> The report gives a small, tidy success. Three tests at 20 °C, each within the 1 °C limit. Our proposed cold store runs below 5 °C. The report is silent about that range. A colder room is doing rather a lot of work in this purchase decision. Before recommending the sensor for use in the cold store, we need evidence that it meets the same limit in the cold.
 
-Read between the purchase proposal and the next paragraph, the passage supplies a reason to seek the additional evidence. The lightly ironic fourth sentence belongs to the selected essay treatment. The final “we” includes the writer and reader in the decision being examined; another relationship could state “the purchaser needs” instead. Neither choice is a general recipe for voice.
+Between the purchase proposal and the next paragraph, the passage gives a reason to seek cold-range evidence. The lightly ironic sentence about the colder room belongs to this essay. The final “we” can include the writer and reader in examining a recommendation. Purchase authority belongs to the holder designated for that decision.
 
-The comparisons yield different conclusions. The passage realizes the selected progression and restrained irony; that is the editor's explicit fit judgement in this constructed case. It retains the test conditions, missing range and decision criterion without inventing a failure in cold conditions. It gives a proposed next action. To claim Mira's acceptance, the editor would need her judgement of the continuation; to claim reader recognition or learning, the editor would need the corresponding reader response. The present comparisons already support a concrete editorial choice without those stronger conclusions.
+In this constructed case the editor judges that the draft preserves the chosen progression and restrained irony. It states the single test temperature and the limit of the available report without inventing a cold-range failure. It also gives a proposed next step. To attribute acceptance to Mira or recognition to a reader, use evidence of that response. A claim of learning needs evidence of the resulting capability and its conditions.
 
 Now Mira needs a formal recommendation to a purchasing committee. The intended voice still treats the reader as capable and makes the decisive limitation inspectable, but the committee needs the recommendation immediately. The editor retains that relationship, moves the decision first and drops the reflective joke:
 
-> Defer selection until adequate evidence establishes that the sensor meets the 1 °C error limit in the cold store's operating range. The three reported tests met that limit at 20 °C; no results below 5 °C are supplied.
+> Defer selection until adequate evidence establishes that the sensor meets the 1 °C error limit in the cold store’s operating range. The three reported tests met the limit at 20 °C. This report supplies no results below 5 °C.
 
 This changed occasion alters order, rhythm and address while retaining the evidence-to-judgement relation. Blindly retaining the joke or first-person recollection would have mistaken a local realization for the whole voice. If Mira instead required a deliberately personal public statement, that different choice would reopen the treatment, not the supplied temperature facts.
 
-The general result is the construction used to make both decisions: select a speaker relationship and usable examples, derive choices from expression, compose the needed thought, compare voice, meaning and intended use separately, then revise the properties whose contribution changes with the occasion.
+In both versions, choose the intended relationship, use the expressions relevant to that occasion and compare manner, meaning and use. For a new narrator, the writer can instead select a relationship and try it directly, as in the next case.
 
 #### NSTD.4:5.6 - Unlike entry: make a new fictional narrator
 
@@ -1697,9 +1697,9 @@ A writer has no prior voice to imitate. The scene premise is that a novice night
 
 > I turned the key under the lamp. What did it open? Then I pushed it farther away. There was no reason for that, of course.
 
-The first trial chooses a distant reporting voice. In the second, examining the key and asking what it opens express curiosity; pushing it away and denying a reason expose guarded unease. The writer chooses this combination for the scene, while retaining the guard's ignorance about the key's origin and purpose. “Guarded curiosity” now directs the next passage through these connected expressive choices. If the scene later reveals the origin to the reader but not the guard, the writer must maintain that knowledge difference; a change of voice cannot give the guard the missing discovery.
+The first trial chooses a distant reporting voice. In the second, examining the key and asking what it opens express curiosity. Pushing it away and denying a reason suggest unease. The writer chooses that combination while preserving the guard’s ignorance of the key’s origin and purpose. A later scene can disclose the origin while the guard still lacks access. Maintain that difference in the account. A particular reader may know it earlier or miss the disclosure.
 
-The actions in the second trial are newly constructed story events, which NSTD.10 can develop or revise. They are not facts recovered from the initial premise or a real guard's report. Here invention is appropriate to the fictional task. The difference from Mira's essay is consequential: there is no existing person's voice to authenticate or memory to preserve, but the chosen relationship, continuity and comparison of actual expression still guide the work.
+Turning the key and pushing it away are new fictional events introduced by the second trial. NSTD.10 can develop them against the scene’s premises. Unlike Mira’s essay, this task calls for an invented speaker. The speaking relationship and the continuity of the resulting events still have to work in the actual passage.
 
 ### NSTD.4:6 - Bias-Annotation
 
@@ -1712,22 +1712,22 @@ A memorable habit can be overgeneralized into an author's whole voice; a fluent 
 | Check | Passing condition |
 | --- | --- |
 | `CC-NSTD4-1` | Viewpoint, voice, focalized object, or protagonist choice is named when load-bearing. |
-| `CC-NSTD4-2` | The reader can recover the visible and hidden relations that matter for the intended use. |
+| `CC-NSTD4-2` | The assessment identifies the relations made available or concealed by the viewpoint under the assumed knowledge. Claims about a particular reading use evidence of the interpretation at issue. |
 | `CC-NSTD4-3` | Narrative function, real participant, local system-role kind, obtaining assignment, capability and responsibility are distinguished wherever the claim depends on them. |
 | `CC-NSTD4-4` | Precise agency and Work claims use their current defining conditions; ordinary contribution wording does not require an invented assignment or Work record. |
-| `CC-NSTD4-5` | A misleading personification is clarified or changed; an already clear metaphor needs no extra disclaimer. |
+| `CC-NSTD4-5` | A figurative phrase that invites a consequential misattribution is clarified. Ordinary unambiguous metonymy can remain. |
 | `CC-NSTD4-6` | When a voice is being constructed or preserved, the intended speaker relationship and basis are usable: authentic or accepted examples, an identified stylization, or a chosen new treatment. A label alone does not settle the expression. |
 | `CC-NSTD4-7` | The connected fragment realizes the relevant choices while retaining the needed thought, intellectual level and warranted speaker position. |
 | `CC-NSTD4-8` | A consequential change of subject, genre or language receives its own treatment; retained and altered properties have a reason in the new use. |
-| `CC-NSTD4-9` | Voice fit, source or premise fidelity, and reader performance are distinguished. The comparison supports the stated conclusion, and the repair reopens its affected dependencies. |
+| `CC-NSTD4-9` | Voice fit, fidelity to source or premises and actual reader performance have grounds suited to each claim. After a change, reconsider the relations that depended on it. |
 
 ### NSTD.4:8 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | What fails | Repair |
 | --- | --- | --- |
-| Protagonist as responsible agent | Narrative centrality becomes moral or operational responsibility. | Split protagonist function from `A.13`, `A.2.1`, and ethics owner claims. |
-| Hidden participant | “The specification decided” leaves a consequential decision-maker unidentified. | Name the person, team or technical system that made the decision and the applicable assignment when required. Preserve harmless metonymy when the action is already clear. |
-| Viewpoint hides harmed party | A compelling viewpoint erases affected parties. | Route to `D.1` through `D.5` and add a source-return or viewpoint correction. |
+| Protagonist as responsible agent | Narrative centrality is used to attribute moral or operational responsibility. | Identify the protagonist’s function in the telling. Use `A.13`, `A.2.1` and the relevant ethics guidance when the corresponding real agency, assignment or responsibility is at issue. |
+| Hidden participant | “The specification decided” obscures who made a consequential decision. | Identify who chose and the applicable authority. Keep ordinary metonymy when the choice and its holder are already clear. |
+| Viewpoint hides an affected party | A compelling account omits a consequence that matters to someone affected. | Recover the relevant perspective or source and correct the account if needed. Use `D.1`–`D.5` when a value or harm conflict requires resolution. |
 | Voice by label | “Warm,” “expert” or a person's name leaves the actual manner undefined. | Use relevant expression or a selected trial to show how the speaker develops a thought with this reader. |
 | Mannerism as preservation | A joke or catchphrase survives while the difficult idea or speaking relationship disappears. | Restore the needed thought and choose the expression for its contribution here. |
 | Invented personal authority | First person turns a constructed scene or editorial inference into apparent experience. | Recover the actual basis or state the construction; preserve legitimate first-person expression. |
@@ -1735,33 +1735,33 @@ A memorable habit can be overgeneralized into an author's whole voice; a fluent 
 
 ### NSTD.4:9 - Consequences
 
-The benefit is a usable way to obtain and continue the requested voice, including a reasoned change of treatment when the occasion changes. The resulting viewpoint retains clearer attribution and recoverable information. The cost is selecting a useful basis and comparing actual passages; a short trial or clarification can be enough. A maintained profile or broader reader study earns its cost only when the intended use needs the additional result.
+A writer can continue or change a voice with grounds for the choices that matter on the new occasion. An assessment may instead identify how an existing passage handled viewpoint and attribution. A profile or study of reader response is worth its added cost when the task requires what that further work can establish.
 
 ### NSTD.4:10 - Rationale
 
 Voice and focalization change how a reader encounters events, knowledge and consequences. Relating expressive choices to a speaking relationship explains why some can carry into a new passage while others must change. Comparing connected expression makes that choice inspectable without reducing a voice to a fixed list of words or sentence lengths.
 
-Meaning and attribution constrain this construction because the chosen expression invites inferences about who knows, experiences or does what. A single viewpoint is often sufficient for a scene; an explanation or decision may need another perspective when the first conceals a relevant participant or relation. Separate comparisons keep a successful manner from standing in for those different grounds. The method is a reasoned authoring synthesis.
+The chosen expression invites inferences about who knows, experiences or acts. One viewpoint can suffice for a scene. An account may need another when the first hides a relation the reader must recover. Compare fit of manner, support for the expressed claims and reader response under the conditions each conclusion requires. The construction is an authoring synthesis. Its success rate across languages, authors or readers would require evidence across those uses.
 
 ### NSTD.4:11 - SoTA-Echoing
 
-Schmid's [Narratology: An Introduction](https://doi.org/10.1515/9783110226324) and Chihaia's [survey of introductions](https://www.diegesis.uni-wuppertal.de/index.php/diegesis/article/view/71) are historical anchors for voice, viewpoint and narratological traditions. Chen and Xu's [perspective and focalization study](https://pmc.ncbi.nlm.nih.gov/articles/PMC12937883/) (2026) found differences in reading-time and neural responses in its novel-reading tasks; it does not establish a universally better perspective. Nguyen-Trung and Nguyen's [NITA](https://doi.org/10.1080/14780887.2026.2638348) (2026) preserves the qualitative researcher's interpretive contribution. The distinction here between narrative function and actual agency is the DPF's synthesis with FPF, not a result established by those reading experiments.
+Schmid’s [Narratology: An Introduction](https://doi.org/10.1515/9783110226324) and Chihaia’s [survey of introductions](https://www.diegesis.uni-wuppertal.de/index.php/diegesis/article/view/71) locate voice and focalization in their narratological traditions. In Chen and Xu’s [perspective and focalization study](https://pmc.ncbi.nlm.nih.gov/articles/PMC12937883/) (2026), third-person versions of negatively valenced texts took longer to read in two of the measured regions of text. The study found no significant perspective effect on reading times in the internal-focalization condition. Some fNIRS channels differed across conditions. These observations concern those tasks. Nguyen-Trung and Nguyen’s [NITA](https://doi.org/10.1080/14780887.2026.2638348) (2026) assigns interpretation to the qualitative researcher. The distinction between narrative function and real agency here draws on FPF.
 
-For the database explanation, keeping the personification alone is a serious alternative: it is short and memorable. Adding the commit condition makes the latency consequence available for diagnosis while retaining the introduction. This is the pattern's selected combination of narrative viewpoint and explicit attribution. Its cost is a short technical clarification, justified here by the diagnostic use; purely expressive uses need a different comparison.
+For the database case, the short personification may serve an expressive purpose. For latency diagnosis, add the commit prerequisite and determine whether its wait extends the request’s critical path. A timed trace may already supply that answer for the request investigated.
 
-Use the cited traditions for their distinct contributions. Narratology supplies voice and focalization; perspective-processing studies show that viewpoint can change reading responses in the studied conditions. NITA concerns interpretation in qualitative research, not mandatory human approval of every generated story. FPF's role and agency distinctions apply when a real attribution needs to be resolved.
+Use narratology for the distinction between voice and focalization, and studies of reading for the responses observed under their conditions. NITA assigns a particular interpretive role to a human qualitative researcher. For a real attribution of role, action or authority, apply the relevant FPF distinction.
 
-For constructing a continuing voice, Kumar et al.'s [Whose story is it?](https://aclanthology.org/2025.ijcnlp-long.82/) (2025, §§3–4) derives author tendencies as claims tied to story excerpts, then tailors generation instructions to a new prompt. This pattern adopts the useful claim-to-expression relation without requiring their complete profile or comparative generation procedure. Their story-generation evaluation is a bounded result; it does not establish faithful preservation for any individual draft or transfer across languages and genres.
+Kumar et al.’s [Whose story is it?](https://aclanthology.org/2025.ijcnlp-long.82/) (2025, §§3–4) ties proposed author tendencies to story excerpts and uses them to tailor generation instructions. An editor can use the connection between a proposed tendency and a passage showing it. The study’s story-generation comparisons do not settle whether a particular new draft preserves its author’s voice in another language or genre.
 
-Two 2026 preprints qualify the choice. Zhang, Bu and Dhillon's [Who Owns the Text?](https://arxiv.org/html/2601.10236v1) distinguishes an assistant's coaching persona from personalization to the writer's style; its short writing tasks and combined design do not establish each design element's isolated effect. Van Nuenen's [Voice Under Revision](https://arxiv.org/html/2604.22142v1) finds aggregate stylistic shifts in English personal narratives even under preservation instructions. Its measured features are proxies, not a determination of any particular reader's recognition. These results support inspecting the actual rewrite, not a universal profile, approval sequence or diagnostic score.
+Two 2026 preprints examine related questions. Zhang, Bu and Dhillon’s [Who Owns the Text?](https://arxiv.org/html/2601.10236v1) distinguishes a coaching persona from personalization to a writer’s style. The short tasks and combined design limit claims about each element’s individual effect. Van Nuenen’s [Voice Under Revision](https://arxiv.org/html/2604.22142v1) reports aggregate stylistic shifts in English personal narratives even with preservation instructions. Its measured features can locate changes to inspect. Reader recognition requires evidence of how a reader responded to a particular passage.
 
-Direct use of an apt example is a serious alternative to an explicit profile: it retains expression that a summary can miss and can be sufficient for a short continuation. Working observations help when several contributors, a changed genre or a recurrent loss make the relevant choices hard to carry. A broader maintained profile costs more to construct and can overgeneralize the samples; use it when repeated work benefits from that additional account. In all three arrangements, the decisive comparison concerns the new passage, its required content and its use. The construction across existing voices, stylization and new narrators in NSTD.4:4 is this DPF's synthesis.
+For a short continuation, an apt example can preserve a way of speaking that a summary would lose. Working observations can help several contributors, a change of genre or a recurring difficulty. A maintained profile can be worthwhile for repeated work, though it takes time and can overgeneralize the sample. Compare the actual new passage with its material and purpose in all three cases. Section 4 brings continuing voices, stylization and new narrators into one authoring method. The cited studies test particular writing and reading conditions.
 
 ### NSTD.4:12 - Relations
 
-NSTD.1 supplies the intended reader and selected material when these are already understood. NSTD.5 develops an expressive device within the chosen relationship; a better device can reopen the voice treatment. NSTD.7 carries the examples, choices and constraints into automated composition and compares the output. NSTD.6 qualifies an evaluation; F.19 checks consequential meaning and action in technical prose. NSTD.9 and NSTD.10 receive unresolved interpretation and fictional construction respectively.
+Use NSTD.1 when the intended reader or material needs clarification. NSTD.5 can develop an expressive device, NSTD.7 can supply a tool-assisted composition for comparison and NSTD.6 qualifies a question about quality or reception. F.19 helps recover consequential meaning and action in technical prose. Use NSTD.9 for unresolved interpretation and NSTD.10 for a needed fictional or explicitly hypothetical construction.
 
-Uses `A.6.3.NAR`, `A.13`, `A.2`, `A.2.1`, `A.2.2`, `A.19.ECS`, `C.16`, `D.1` through `D.5`, `A.10`, `B.3`, and `G.11` for their corresponding claims. Reopen the affected passage when the speaker relationship, selected model, content, genre, language or intended use changes; also reopen when viewpoint changes source visibility or a changed source or agency basis alters attribution. Support-map entry: open `Architecture and Narrative Work Bridge` when viewpoint or focalization is really an architecture view and viewpoint over selected structures; open `Semiotic And Language-Precision Bridge` when voice, focalization, salience, sign, or language-state choice changes interpretation; open `NSTD.Reference:11 — Working meanings and direct source returns` when protagonist, actant, agency, personification, or responsibility wording needs owner split.
+Use `A.6.3.NAR` for narrative form. For real roles, agency, capability or their measurement, use the conditions in §4.6 for `A.2`, `A.2.1`, `A.13`, `A.2.2`, `A.19.ECS` and `C.16`. Use `D.1`–`D.5` for a consequential value or harm conflict, `A.10` when an evidence route must be recovered or made reproducible, `B.3` when a claim’s reliability matters and `G.11` when a changed basis affects a maintained account. Reconsider the passage when its speaker, model, content, genre, language, use or relevant source changes. The Architecture and Narrative Work Bridge addresses an actual architecture view, the Semiotic and Language-Precision Bridge a sign or language choice that affects interpretation, and NSTD.Reference:11 the relevant term and its defining practice.
 
 ### NSTD.4:End
 
@@ -1771,21 +1771,21 @@ Uses `A.6.3.NAR`, `A.13`, `A.2`, `A.2.1`, `A.2.2`, `A.19.ECS`, `C.16`, `D.1` thr
 
 > **Type:** DPF pattern body
 
-> **Primary EntityOfConcern:** designing and revising narrative devices that help the intended reader attend, remember or continue, while preserving the relations and choices on which that use depends.
+> **Primary EntityOfConcern:** choosing, assessing or revising narrative devices that direct attention, sustain interest or make a relation memorable for an intended use.
 
 ### NSTD.5:1 - Problem frame
 
-Use this pattern when readers lose attention before reaching a needed distinction, remember the wrong feature, or draw unwarranted confidence from an engaging account. It also applies when suspense, identification or another expressive effect is part of the intended experience.
+Use this method when attention, curiosity, identification, suspense or another reader experience matters to the work. It can also help identify why an account encourages misplaced confidence or directs attention away from a required distinction.
 
-First useful move: name the reader effect that would help, try one device in a short passage and compare what it adds, changes or removes in the passage. Use an available simpler treatment when it offers a relevant alternative. Keep the device if its benefit justifies its cost without distorting a relation or choice that matters.
+Identify the intended effect, then examine a device in an existing passage or try it in the passage being composed. Compare what it adds, changes or removes. An available simpler treatment can help make the difference clear. For a choice or revision, weigh the contribution against its cost and preserve the relations the reader needs.
 
-What goes wrong if missed: readers may stop before the useful part, or retain a vivid image while overlooking its limiting condition.
+A reader may leave before the useful part, remember the wrong feature or take a vivid example for stronger evidence than it is. Each observation points to a different question about the passage.
 
-What this buys: attention and motivation directed toward the intended experience or work, with a way to repair distraction and overconfidence.
+The result can be a device chosen for its expressive purpose, an account of what the text makes salient, or a finding about the response of readers under known conditions.
 
 ### NSTD.5:2 - Problem
 
-Narratives often work because they attract attention and organize memory. That value is real. But the same mechanisms can overpersuade, hide uncertainty, simplify conflict, or make a reader treat a narrative as evidence, assurance, or permission.
+A story can organize attention and memory around a relation the reader needs. The same device can hide a qualification, reduce a genuine conflict to one viewpoint or lend a conjecture the apparent force of an observation. Decide which effect matters and what would establish it for this use.
 
 ### NSTD.5:3 - Forces
 
@@ -1793,12 +1793,12 @@ Narratives often work because they attract attention and organize memory. That v
 | --- | --- |
 | Attention vs source fidelity | Engagement can help readers reach source structure or distract from it. |
 | Motivation and informed choice | A device can help a reader pursue an aim or conceal information needed to choose it. |
-| Memory vs overconfidence | Memorable stories can feel more certain than their sources. |
-| Reader diversity vs one route | A motivating route for one group may mislead or harm another. |
+| Memory and confidence | A reader can remember a story and still misjudge how well its claim is supported. |
+| Different readers | The same device can direct attention in different ways depending on what readers already know and what they are trying to do. |
 
 ### NSTD.5:4 - Solution
 
-Try and compare the effect before adding more devices. The following optional note helps a team retain choices across revisions or audiences; a short passage can be improved without filling it.
+Start with the intended use and the passage. An existing reader response can establish a past result. A close comparison can show how a proposed device changes what the passage supplies. Keep a note like this when someone will use the comparison across revisions or audiences.
 
 ```text
 NarrativeEngagementBoundary@Context:
@@ -1812,36 +1812,36 @@ NarrativeEngagementBoundary@Context:
   nonAdmissibleUse:
   affectedPartyQuestion?:
   additionalClaimGrounds?:
-  lowValueRepairAction:
+  proposedChangeIfNeeded:
 ```
 
-Choose the device for the intended use. Preserve source relations when the account promises to explain them; preserve chosen premises when writing fiction. If a literary or simplified expression creates an action-changing ambiguity, repair that ambiguity directly. Use `C.2.LS`, `A.6.3.CSC`, `E.17.EFP` or `E.10` only for the particular language, coarsening, explanation or precision question they address. Further evidence, assurance or ethics work depends on a consequential unresolved claim, not on engagement by itself.
+Choose the device for the intended use. Preserve source relations promised by an explanation and premises that govern a fictional or hypothetical account. If a literary or simplified expression makes a consequential inference ambiguous, clarify the relation. Use `C.2.LS`, `A.6.3.CSC`, `E.17.EFP` or `E.10` for the corresponding language, coarsening, explanation or precision question. Pursue evidence, assurance or ethics work when the claim or planned influence requires it.
 
-Use this comparison to design engagement.
+For a design or an assessment, use the parts of this comparison that answer the question.
 
-1. Name the intended engagement effect: attention, curiosity, emotional salience, identification, suspense, memorability, motivation, or willingness to continue.
+1. Identify the intended effect, such as attention, curiosity, emotional salience, identification, suspense, memory or willingness to continue.
 2. Identify the relations, qualifications or choices the reader still needs to recover.
-3. Try a device suited to the difficulty: for example an analogy for an abstract relation, an unresolved question for curiosity, or repetition for an easily lost distinction.
-4. Compare what the device adds, changes or removes in order, salience, wording or repetition. Use an available simpler treatment when it offers a relevant alternative.
-5. Check the consequence for the needed relation: has an uncertainty become certainty, an analogy replaced a definition, or sympathy obscured a relevant alternative?
-6. Keep, revise or remove the device. Use `NSTD.6` for a qualified quality evaluation and `NSTD.8` when learning is the aim. If the simpler passage already works and the added benefit is negligible, keep it.
+3. Identify the device at work or try one suited to the task. An analogy can introduce an abstract relation, an open question can invite attention, and repetition can keep a distinction available.
+4. For a comparison of devices, identify what each treatment adds, changes or removes in order, salience, wording or repetition. Use an available relevant alternative where it helps. For an actual response, establish what the reader reported or did. Examine prior knowledge and other conditions when they bear on a claim about change, independent understanding or the device’s contribution.
+5. Examine what a reader can infer under the intended conditions. Does the passage express an uncertainty as settled, let an analogy stand in for a definition or omit a consequential alternative?
+6. Report the finding. If an editorial choice is needed, keep, change or remove the device according to its contribution and cost. A sufficient simpler passage can be retained. Use `NSTD.6` for a qualified quality evaluation and `NSTD.8` for a learning question.
 
-When a particular voice is required, use NSTD.4's selected relationship and examples or trial while making this comparison. A device should contribute to that voice in the present passage: a joke, intimate address or repeated question can change who seems to speak and how the reader is treated. Compare the connected result with its voice basis and neighboring text as well as with the intended effect. Reconsider the treatment when the occasion changes; a device that worked in an essay need not belong in an instruction or formal decision.
+Where voice matters, use NSTD.4’s speaking relationship and its selected examples or new treatment. A joke, intimate address or repeated question can change who seems to speak and how that speaker treats the reader. Compare the passage with its surroundings and the required voice. A device developed for an essay may need changing for an instruction or a decision notice.
 
-Select any additional question from what readers will use the account to do.
+Select the further question by the reader’s use.
 
 | Reader effect | Practical comparison | Further work when it matters |
 | --- | --- | --- |
-| Continue reading | Can the reader reach the useful or expressive part? | Revise pacing, the opening or viewpoint. |
-| Remember a relation | What does the reader later reconstruct? | `NSTD.6` for the recovery question; `NSTD.8` for learning design. |
+| Continue reading | Does the location and pacing of the passage let readers reach the needed part? For actual continuation, examine how far they read. | Change the opening, pacing or viewpoint if a revision is called for and contributes to that aim. |
+| Remember a relation | What does a reader reconstruct after the relevant interval, with the stated support? | Use `NSTD.6` for a qualified recovery assessment or `NSTD.8` to design learning. |
 | Care about a problem | Does the device clarify the stakes and available choices? | Examine a relevant affected-party or manipulation concern through `D.1`–`D.5`. |
 | Believe a claim | Are belief and confidence appropriate to its grounds? | Inspect the source; use `A.10` when the source-to-use account is implicit or must remain replayable, and `B.3` for an actual named assurance claim. |
-| Decide or act | Does the account retain the conditions and alternatives needed for that choice? | Use the method for that decision or work; select further checking according to its stakes and value. |
-Two different failures need different repairs. When readers leave before the needed distinction, try a more relevant question, example, rhythm or viewpoint. When they become overconfident, expose the omitted condition or alternative and match the claim to its grounds. Reducing vividness alone need not solve overconfidence.
+| Decide or act | Does the account preserve the conditions and alternatives needed for that choice? | Use the method for the actual decision if a decision is required. Its holder needs the relevant authority. |
+When readers leave early, their responses or access conditions can help locate the difficulty. A different opening, example, rhythm or viewpoint may help. When they become overconfident, check whether the account omits a condition, presents a hypothesis as settled or overlooks another source of the belief. Change the passage if its contribution to the problem is established.
 
-Artistic language can serve atmosphere, felt experience and expression as well as instruction. For a memorial, preserving that experience may matter most; for a technical explanation, a missing condition may decide adequacy. Inspect language-state facets only when they help resolve the particular difficulty, rather than classifying every literary sentence.
+Artistic language can carry atmosphere, felt experience or expression. A memorial may chiefly need that quality. A technical explanation may depend on a condition its metaphor obscures. Examine language-state facets when they help settle the relevant difficulty.
 
-An engagement device can depend on the story's possibilities, not only its wording. If suspense requires a genuine alternative outcome, NSTD.10 can construct that alternative and its conditions. If curiosity depends on several readings of the same evidence, NSTD.9 can establish which readings the material supports. Keep the distinction between withholding a known answer, leaving an unresolved question open and having no supported connection yet. Each can sustain attention, but they make different promises to the reader.
+Suspense may depend on an outcome that remains possible within the story, or on when the reader is given information about an outcome already fixed. Use NSTD.10 to construct a needed fictional or hypothetical alternative and NSTD.9 to assess competing readings. A withheld answer, a genuinely unsettled question and a missing premise offer different grounds for curiosity. A reader who knows the answer in advance may respond differently.
 
 ### NSTD.5:5 - Archetypal Grounding
 
@@ -1850,7 +1850,7 @@ An engagement device can depend on the story's possibilities, not only its wordi
 #### NSTD.5:5.1 - Worked example: a failure story that teaches a usable distinction
 
 
-A learning narrative about FPF uses a dramatic failure story: a team blindly follows a pattern checklist and damages its project. The story is engaging, but it may over-persuade if it implies that FPF prevents all such failures or that the named team is evidence. `NSTD.5` keeps interest useful and bounded.
+In a fictional teaching case, a team follows the same checklist after its workload changes. The story can make the missing condition visible. Whether a learner identifies the mismatch and whether FPF improves real projects are different questions.
 
 ```text
 NarrativeEngagementBoundary@FPFFailureStory:
@@ -1865,7 +1865,7 @@ NarrativeEngagementBoundary@FPFFailureStory:
   persuasionOrHarmRisk: reader treats story as proof of FPF superiority or as blame of a real group
   sourceFidelityRisk: checklist failure hides the actual source relation being taught
   precisionBackoff: identify the fictional example and point to the pattern's conditions of use
-  evaluationReturn: `NSTD.6` checks reconstruction, not emotional agreement
+  evaluationReturn: use a relevant response to assess reconstruction of the changed condition. A report of agreement addresses a different question
 ```
 
 Before:
@@ -1874,14 +1874,14 @@ Before:
 
 After:
 
-> In this fictional case, the team's checklist still assumed a stable workload after demand had changed. Before repeating the old action, compare its conditions with the present workload. The example illustrates that mismatch; whether FPF improves actual projects is a separate question.
+> In this fictional case, the team reused a checklist that assumed a stable workload after demand had changed. Before repeating the old action, compare its assumptions with the present workload. The case illustrates the mismatch. Whether FPF improves actual projects requires evidence from their use.
 
 
 
 #### NSTD.5:5.2 - Worked example: an engaging homotopy image with its limiting condition
 
 
-A homotopy lesson uses the image of a loop "slipping around a hole". The image is engaging and memorable, but it may cause learners to think all deformations are allowed. `NSTD.5` protects the formal boundary:
+A homotopy lesson asks the learner to imagine a loop around a missing point. A loop that winds once around the missing point cannot shrink to a point by a continuous deformation that stays in the punctured plane. If the missing point is restored, the same loop can shrink in the plane. The contrast gives “slipping around a hole” its relevant boundary. Use a response to assess whether a particular learner recovered it.
 
 ```text
 NarrativeEngagementBoundary@HomotopyLoopImage:
@@ -1891,7 +1891,7 @@ NarrativeEngagementBoundary@HomotopyLoopImage:
   persuasionOrHarmRisk: low, unless used to make a false certainty claim
   sourceFidelityRisk: analogy replaces condition-bound definition
   precisionBackoff: state where analogy stops and return to formal statement
-  evaluationReturn: learner marks allowed and blocked deformation conditions
+  evaluationReturn: check which deformations the learner marked as permitted or blocked if their understanding is the question
 ```
 
 
@@ -1899,13 +1899,13 @@ NarrativeEngagementBoundary@HomotopyLoopImage:
 #### NSTD.5:5.3 - Engagement device selection matrix
 
 
-| Device | Buys | Risk | Repair when the risk occurs |
+| Device | Possible contribution | Risk | Repair when the risk occurs |
 | --- | --- | --- | --- |
-| Tension | Keeps attention across uncertainty. | Reads as a settled explanation. | Make the unresolved question and the source's actual result visible. |
-| Failure story | Makes misuse vivid. | Becomes blame or proof by anecdote. | Distinguish a constructed case from a reported event, and retain the condition the case illustrates. |
-| Analogy | Makes an abstract relation easier to follow. | Replaces a definition or proof. | State the limiting condition and make the required formal statement available. |
-| Character viewpoint | Improves salience. | Misattributes consequential action or responsibility. | Clarify that attribution through `NSTD.4`; clear ordinary personification needs no extra repair. |
-| Surprise reveal | Supports memory and curiosity. | Hides a needed source constraint from the writer as well as the reader. | Restore the missing condition through `NSTD.1`, or repair its presentation order through `NSTD.2`. With the condition and order already available, try the scene directly. |
+| Tension | Can sustain attention while an explanation remains uncertain. | The passage suggests that one disputed explanation is settled. | Show the existing result and the question it leaves open. |
+| Failure story | Can make the consequence of a missed condition vivid. | An anecdote becomes the sole ground for blame or a general claim. | Identify a constructed case or establish what actually happened. Restore the condition that makes it relevant. |
+| Analogy | Can make a selected abstract relation easier to follow. | It replaces the definition or argument needed by the use. | State the condition at which the analogy stops and make the required formal relation available. |
+| Character viewpoint | Can draw attention to a participant or relation. | Prominence invites an unsupported attribution of action or responsibility. | Clarify the consequential attribution, using `NSTD.4` when its viewpoint analysis is needed. |
+| Surprise reveal | Can support curiosity or memory by changing when information becomes available. | A late disclosure withholds a condition the reader needs earlier, or the account omits it altogether. | Recover a genuinely missing source relation through `NSTD.1` or reconsider its place through `NSTD.2`. If the needed relation and order are already clear, use the scene directly. |
 | Humor or style | Can make a passage easier to approach or remember. | Loses a distinction needed for the later use. | Restore that distinction; use `C.2.LS`, `A.6.3.CSC` or `E.10` only for the unresolved language, coarsening or precision question. |
 
 
@@ -1913,40 +1913,40 @@ NarrativeEngagementBoundary@HomotopyLoopImage:
 #### NSTD.5:5.4 - Comparing engagement choices
 
 
-Compare the intended effect and the content the reader needs. A more vivid version is worth keeping when it improves that use without concealing a consequential condition. If both versions work, their costs and expressive aims can decide. A comparison can be an expert walkthrough, a reader response or an observed result; state which basis supports the conclusion under `NSTD.6`.
+Compare the intended effect with the information the reader needs. An editorial walkthrough can establish what the versions express under stated assumptions. A response may show how one reader understood or experienced a version. If a selection is required, compare the alternatives on the intended use, their expressive aims and costs. To attribute a difference in reception to this device, consider other differences between versions and readers. Use `NSTD.6` when the judgement needs formal qualification.
 
 
 
 #### NSTD.5:5.5 - Keeping the reader's use in view
 
 
-“Make it interesting” leaves an important question open: interesting for which reader and activity? A narrative can attract attention to a useful problem while preserving uncertainty and alternatives. The resulting motivation still needs to be distinguished from grounds for believing a factual claim.
+Identify which reader and activity matter. Interest in an unresolved problem can help a reader explore it while leaving the grounds for belief and choice visible.
 
-In the fictional workload case above, a sufficient plain version is: “When demand changes, check whether the workload assumptions still hold before reusing the checklist.” The story adds a team caught in that mismatch. Compare the two versions for the same intended result: the reader identifies the changed assumption and the next comparison, without inferring that FPF guarantees success. An expert walkthrough can explain why the story makes the mismatch easier to notice; an actual attention or memory advantage remains a question for reader responses. Keep the story when that benefit or the intended expressive effect justifies its added length; otherwise keep the plain version.
+A plain version of the workload case is “When demand changes, check whether the workload assumptions still hold before reusing the checklist.” The story adds a team caught in that mismatch. Compare whether each version gives the reader the changed assumption and the next relevant check. An expert can identify those differences in the text. Observed attention, memory or a claim that the story caused an improvement need evidence bearing on that outcome. A small expressive gain may justify the longer version, and a sufficient plain explanation can stand.
 
-A science-communication narrative may use tension around an unresolved experiment. Preserve the measurement, proposed explanation and unresolved alternative needed for the reader's decision. If readers infer that a policy question has thereby been settled, repair that inference and address the separate policy question.
+A science communicator can use tension around a measured result with several live explanations. Preserve the measurement, its scope and the open alternatives. If readers use the account in a policy argument, establish which inference the scientific evidence supports. An actual policy decision has additional conditions and a decision holder.
 
-A homotopy lesson may use a memorable image of stretching loops. The image is admissible only if learners can still recover definition boundaries and source-return points. If the image helps memory but makes learners treat all deformations as equivalent without conditions, repair source selection and event or model support before adding more vivid imagery.
+A homotopy lesson can invite learners to imagine stretching a loop. For a task that depends on the permitted deformations, include the relevant domain and restrictions. If the passage supplies them and a response still treats every deformation as allowed, establish what contributed to that reading before revising the source content or the illustration.
 
-A franchise continuation may use suspense, stakes, and identification. Those devices are useful when they protect attention to causal plot and character agency. They fail when fan-service or shock replaces continuity, source constraints, or agency support.
+A franchise continuation can use suspense, raised stakes or identification for their expressive effects. Where the brief requires continuity with established events or character choices, preserve those conditions in the device. A new artistic aim can justify a different comparison.
 
-Live commentary may use excitement to keep listeners oriented. The protected structures are observed event, provisional inference, score state, and uncertainty. Engagement fails when suspense turns prediction into fact or blame into settled responsibility.
+In live commentary, excitement can keep attention on an unfolding play. Identify the observed event, the score, any tactical inference and what awaits an official ruling. The unresolved outcome can itself supply the suspense.
 
 The following examples show how a device can help or obstruct a particular use.
 
 | Device | Good use | Failure mode | Repair |
 | --- | --- | --- | --- |
-| Hook | Raises a question the account can help answer. | Promises an answer the account cannot provide. | Change the opening or supply the promised contribution. |
+| Hook | Raises a question the account helps the reader answer or explore. | Promises a particular answer the material never supplies. | Change the promise or supply the missing contribution. |
 | Tension | Keeps an unresolved relation worth following. | Presents a disputed explanation as a settled outcome. | Retain the live alternative and its grounds. |
 | Identification | Helps readers experience a viewpoint. | Sympathy hides another affected participant or relevant alternative. | Restore the missing viewpoint or alternative where the intended decision needs it. |
 | Analogy | Makes abstract structure graspable. | Replaces definition or proof boundary. | State where analogy stops and source returns. |
 | Repetition | Keeps an easily lost relation available. | Repeats a slogan that obscures the relation. | Repeat the meaningful distinction; add a reconstruction attempt when learning calls for it. |
-| Compression | Makes route usable under attention budget. | Drops distinctions needed for downstream use. | Use `A.6.3.CSC` or narrow admissible use. |
-| Literary style | Supports felt sense, pacing, or atmosphere. | Becomes quality authority or source-authority signal. | Route language-state and evaluate declared-use quality. |
+| Compression | Can make a passage usable in the available time. | Removes a distinction the reader needs later. | Restore that distinction or restrict the stated use. Use `A.6.3.CSC` when the allowed coarsening itself needs analysis. |
+| Literary style | Supports pacing, atmosphere or a felt experience. | Its appeal is used to vouch for a factual claim or for quality under another criterion. | Identify the intended expressive result and the basis for any stronger claim. Use language-state or quality guidance where that question remains open. |
 
-Preserve useful engagement. A dry explanation may lose readers before they reach its content; a vivid account may conceal a decisive condition. Compare the actual failure and repair it. Neither adding a dramatic device nor removing one is an improvement merely by itself.
+Compare the actual passages and the use. A dry treatment may lose attention before a needed relation, and a vivid one may conceal its limiting condition. If either difficulty matters, change the feature that contributes to it.
 
-Optional notes for maintained or collaborative work:
+Working examples for a continuing revision or team comparison follow.
 
 ```text
 NarrativeEngagementBoundary@FPFLearningRoute:
@@ -1956,7 +1956,7 @@ NarrativeEngagementBoundary@FPFLearningRoute:
   affectedReaderOrGroupRefs: new FPF authors and reviewers
   persuasionBoundary: may motivate study; may not prove FPF authority or tell readers to bypass checks
   nonAdmissibleUse: evidence of FPF correctness; replacement for pattern bodies
-  lowValueRepairAction: add reconstruction task, source-return prompt, or lower motivational slogan
+  proposedChangeIfNeeded: add a task or source cue for a missing connection, or revise the motivational claim
 ```
 
 ```text
@@ -1966,7 +1966,7 @@ NarrativeEngagementBoundary@HomotopyAnalogy:
   languageStateFacetProfileRef: analogy plus formal boundary markers
   persuasionBoundary: analogy may invite exploration, not replace proof
   nonAdmissibleUse: theorem proof, formal definition, or exam solution without source return
-  lowValueRepairAction: add formal boundary, counterexample, or source-return step before more metaphor
+  proposedChangeIfNeeded: restore the relevant formal condition, counterexample or source before adding a further metaphor
 ```
 
 ```text
@@ -1976,7 +1976,7 @@ NarrativeEngagementBoundary@FranchiseContinuationProbe:
   affectedReaderOrGroupRefs: private reviewers; no public audience permission implied
   persuasionBoundary: emotional satisfaction does not override source-pack or rights boundary
   nonAdmissibleUse: publication, canon authority, or rights claim
-  lowValueRepairAction: repair continuity, agency, or causal support before increasing drama
+  proposedChangeIfNeeded: restore any continuity, agency or causal connection required by the private storycraft task
 ```
 
 ```text
@@ -1986,58 +1986,58 @@ NarrativeEngagementBoundary@LiveCommentary:
   affectedReaderOrGroupRefs: listeners and any named parties if blame or harm framing appears
   persuasionBoundary: suspense and emotion do not settle blame, prediction, or official fact
   nonAdmissibleUse: final evidence, disciplinary judgment, or settled tactical analysis
-  lowValueRepairAction: add uncertainty markers, source-return route, or lower blame wording
+  proposedChangeIfNeeded: identify the uncertainty or official source, or qualify the attribution of blame
 ```
 
 ### NSTD.5:6 - Bias-Annotation
 
-This pattern blocks engagement-authority drift: attention, identification, suspense, memorability, or motivation is treated as truth support, ethics clearance, assurance, policy permission, or work authorization. Repair by naming protected source structures, persuasion boundary, affected readers when live, and direct owners for stronger claims. Scope: DPF-local for engagement in narrative renderings; it does not govern all persuasion or ethics work.
+Interest, confidence and sympathy can matter to a narrative’s purpose. To support a factual claim, explain its subject grounds. For a real decision or permission, identify the relevant authority and conditions. When persuasion conceals a material alternative or consequence for a reader or another affected party, examine that loss in the passage and its use.
 
 ### NSTD.5:7 - Conformance Checklist
 
 | Check | Passing condition |
 | --- | --- |
-| `CC-NSTD5-1` | The device serves an identifiable reader effect or expressive aim. |
+| `CC-NSTD5-1` | The editor identifies which reader experience or expression the device is intended to support. An observed effect is grounded in the corresponding reception. |
 | `CC-NSTD5-2` | Relations and conditions needed for that use remain recoverable. |
 | `CC-NSTD5-3` | Persuasion, policy, work, evidence, ethics, and assurance use boundaries are explicit when live. |
 | `CC-NSTD5-4` | Affected readers, listeners, or groups are named when harm or manipulation risk is live. |
-| `CC-NSTD5-5` | Low engagement does not automatically fail declared-use rendering quality; low source recovery does fail source-recovery quality when source recovery is required. |
-| `CC-NSTD5-6` | The device's contribution and burden are compared with the passage without it or an available relevant alternative; a sufficient simpler treatment is retained when the added benefit is negligible. Further language or precision work addresses an actual ambiguity. |
+| `CC-NSTD5-5` | Judge engagement by its role in the stated use. Where the task requires recovery of a source relation, assess whether that relation is available and use an appropriate response for a claim about actual understanding. |
+| `CC-NSTD5-6` | For an editorial choice, compare the device’s contribution and cost with the passage without it or an available relevant alternative. For a causal claim, use a comparison that distinguishes its effect. A report of what a reader noticed or experienced can use evidence of that response. Examine an ambiguity further when it matters to the conclusion. |
 
 ### NSTD.5:8 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | What fails | Repair |
 | --- | --- | --- |
-| Fluency as truth | Smooth narrative is treated as supported claim. | Establish the claim through its subject grounds and evaluate source recovery in `NSTD.6`. Use `A.10` when the source-to-use account is implicit or must remain replayable. |
+| Fluency as truth | A smooth account invites reliance beyond its grounds. | State what the subject evidence supports. Use `NSTD.6` for a needed recovery assessment and `A.10` when the route from source to claim is implicit or must remain reproducible. |
 | Identification replacing a condition for action | Sympathy with a protagonist is taken as sufficient grounds for a choice whose relevant condition or alternative is missing. | Restore the needed condition or alternative. Examine a further policy, work or affected-party question only when the actual proposed action raises it. |
-| Artisticness as adequacy | More literary or memorable wording is treated as a better narrative regardless of lost structure. | State the language-state or engagement choice, then evaluate source recovery and source return through `NSTD.6`; use `A.6.3.CSC` if distinctions were deliberately dropped. |
-| Engagement-only success | Readers liked it but cannot reconstruct source structure. | Add reconstruction task and repair via `NSTD.1` through `NSTD.3`. |
+| Literary appeal treated as overall adequacy | Memorable wording is preferred even when it loses a distinction needed for the task. | Compare the passage on the intended expressive and subject requirements. Use `NSTD.6` for a needed qualified judgement or `A.6.3.CSC` to assess a deliberate coarsening. |
+| Engagement taken as proof of understanding | A reader reports liking the passage. The work also requires comprehension of a relation. | Use a suitable response if understanding needs to be established. If the passage omits required material or misstates the link, repair the affected contribution through `NSTD.1`–`NSTD.3`. |
 
 ### NSTD.5:9 - Consequences
 
-The method helps retain readers and make relevant relations memorable. Its cost is comparing the effect with what the reader needs; a small comparison can avoid both unnecessary ornament and unnecessary checking.
+Comparing a device with a relevant alternative can identify a contribution worth retaining or a qualification its wording obscures. The cost ranges from rereading one passage to obtaining new evidence about reception where the question warrants it.
 
 ### NSTD.5:10 - Rationale
 
-Engagement design connects the intended reader effect with the content and choices that must remain available. This explains why a useful dramatic device in one account may be distracting or misleading in another.
+Design engages the reader through particular choices of content and expression. The same image can communicate a criterion in one account and obscure it in another. The intended use determines which comparison matters.
 
 ### NSTD.5:11 - SoTA-Echoing
 
 Green and Brock's [transportation study](https://doi.org/10.1037/0022-3514.79.5.701) (2000) connects immersion with story-consistent beliefs. Dahlstrom and Ho's [science-communication analysis](https://journals.sagepub.com/doi/10.1177/1075547012454597) (2012) examines purpose, accuracy and whether narrative is suitable. These are historical anchors. Mengelkamp, Golke and Appel's [reading-goal experiments](https://doi.org/10.1002/acp.70036) (2025) found condition-dependent comprehension benefits, while overestimation remained across conditions. Georgiou et al.'s [narrative-memory study](https://pmc.ncbi.nlm.nih.gov/articles/PMC11852912/) (2025) distinguishes recall, recognition and summary. These findings motivate separate attention, recovery and confidence questions; they do not establish one universally superior engagement device.
 
-Operational payload:
+Use these source contributions for the questions they address.
 
-- Transportation research motivates checking whether confidence follows immersion rather than the grounds for a claim.
+- Transportation research raises the question of whether immersion contributes to a reader’s confidence in a claim. Compare the belief with its substantive grounds.
 - Science-communication ethics makes the intended influence, required accuracy and choice of narrative explicit where they affect public reasoning.
-- Reading-goal research supports making a learning aim clear while checking actual comprehension; stating a study goal does not guarantee accurate self-assessment.
+- Reading-goal research motivates identifying the learning aim and assessing the resulting comprehension. Confidence in one’s own understanding is a further outcome.
 - Memory research distinguishes retained gist from recalled detail. Select the aspect needed by the intended learning or later use.
-- From FPF language-state and coarsening patterns, literary, compressed, or memorable wording is a change in representation, not an automatic quality increase.
+- Use FPF language-state and coarsening methods when a compressed or literary treatment changes which distinctions a reader can recover. Judge quality on the declared use.
 
-The practical consequence is to evaluate the particular benefit sought and the content it may obscure, rather than use interestingness as a substitute for every quality question.
+A judgement about curiosity, recall or confidence can answer the particular reception question. Use the evidence and criteria needed for any further claim about understanding or informed choice.
 
 ### NSTD.5:12 - Relations
 
-Uses `A.6.3.NAR`, `NSTD.1`, `NSTD.3`, `NSTD.6`, `C.2.LS`, `A.6.3.CSC`, `E.17.EFP`, `E.10`, `A.6.P`, `C.16.Q`, `D.1` through `D.5`, `A.10`, `B.3`, `E.17`, and `G.11`. Reopen when reader telemetry, harm assessment, source fidelity, language-state profile, coarsening relation, precision repair, or persuasion boundary changes. Support-map entry: open `Semiotic And Language-Precision Bridge` when interesting, literary, artistic, memorable, hook, cue, coarsening, or explanation language becomes load-bearing; open `NSTD.Reference:11 — Working meanings and direct source returns` when engagement, adequacy, quality, value, or persuasion terms overload; open `Source Use And Refresh Map` when persuasion, memory, cognition, or ethics source claims carry the boundary.
+Use `A.6.3.NAR`, `NSTD.1` and `NSTD.3` for narrative form, selected material and its connections. `NSTD.6` and `C.16.Q` help qualify the intended quality claim. Use `C.2.LS`, `A.6.3.CSC`, `E.17.EFP`, `E.10` or `A.6.P` for the particular expression, coarsening, explanation or precision issue. For a consequential value or harm conflict use `D.1`–`D.5`. For an evidence route or assurance claim use `A.10` or `B.3` when needed. `E.17` concerns publication for its audience, and `G.11` a changed source affecting the maintained result. The Semiotic and Language-Precision Bridge addresses sign and expression choices, NSTD.Reference:11 locates definitions, and the Source Use and Refresh Map helps trace a consequential source claim.
 
 ### NSTD.5:End
 
@@ -2047,51 +2047,51 @@ Uses `A.6.3.NAR`, `NSTD.1`, `NSTD.3`, `NSTD.6`, `C.2.LS`, `A.6.3.CSC`, `E.17.EFP
 
 > **Type:** DPF evaluation pattern body
 
-> **Primary EntityOfConcern:** `NarrativeRenderingQualityEvaluationCharacteristicSpace@Context`, an evaluation `CharacteristicSpace` for one evaluated narrative rendering kind and declared use.
+> **Primary EntityOfConcern:** `NarrativeRenderingQualityEvaluationCharacteristicSpace@Context`, the characteristics, scales and evidence used to evaluate a narrative rendering for a specified use.
 
 ### NSTD.6:1 - Problem frame
 
-Use this pattern when a team must decide whether one narrative rendering version, including an unaccepted candidate, is good enough for one declared reader or listener use. An editor may evaluate a directly authored or already existing product without knowing how its author produced it. State whether the present question concerns that product's current quality, a promised source-to-result relation, or assurance about actual construction work; these questions need different evidence.
+Use this pattern to assess a version of a narrative for a particular reader or listener and use. An editor can inspect an existing handout or an unaccepted draft. Decide whether the question concerns the present product, its fidelity to a specified source, or what the author did to produce or repair it.
 
-Evaluated object kind: `NarrativeRenderingVersion@Context`, an identifiable version of a narrative account in a form a reader can use. A seminar script, slide sequence or generated draft can express such an account. Select the narrative and its intended use within a larger source collection or teaching programme; evaluating that collection's authority, the generation method or the whole programme is a different question. Missing source relations or poor quality are possible findings, not reasons to exclude a narrative candidate before evaluating it.
+The evaluated object, `NarrativeRenderingVersion@Context`, is an identifiable version of a narrative account as expressed for a reader. A script, a slide sequence or a generated draft may contain one. Identify the account within a collection or teaching programme. An unknown source or a defect can itself be an evaluation finding. Assess the authority of the collection, the reliability of its generator or the quality of the entire programme under the criteria for that object.
 
-First useful move: identify the narrative version, reader and intended use, then select the relations and characteristics on which that use depends. Compare an adequate account with a deficient one. Distinguish those from a question about a different object, such as the generation method rather than its resulting narrative.
+Identify the version, its reader and the work the account should support. Select the relations and characteristics needed for that work. Check that the criteria distinguish an adequate account from a deficient one and refer a question about another object to the appropriate evaluation.
 
-What goes wrong if missed: readability, elegance, engagement, expert approval, or generated fluency substitutes for epiplexity, source-return discipline, and bounded use.
+A technical narrative can be easy to read and still turn precedence into cause or omit the condition under which a reader must consult the source.
 
-What this buys: a repeatable evaluation that can feed `E.23` improvement without confusing characteristics, measurements, eval programs, evidence, assurance, or gates.
+A repeatable evaluation identifies the grounds for each judgement. Use it in `E.23` when the task includes improving the narrative.
 
-Quality target: this pattern evaluates quality for one declared use under source-structure selection fit, `NarrativeRenderingEpiplexity`, ordering recoverability, temporal-posture and role fit, source-return readiness, bounded engagement, and owner-routed evidence, assurance, ethics, publication, and work claims.
+Select the characteristics below for the use in question. They cover source selection, structural recovery, order, time and roles, source return and engagement. Examine evidence, assurance, ethics, publication authority or historical work when the corresponding claim is at stake.
 
 ### NSTD.6:2 - Problem
 
-Narrative rendering quality for declared use is not one property. A narrative can be fluent but structurally false, engaging but ethically unsafe, technically accurate but unusable for learners, or source-faithful but impossible to follow. A useful evaluation needs object-kind fit, characteristic slots, value meanings, evidence basis, missingness rules, floor, exceptional meaning, result-row shape, and repair actions.
+A fluent narrative can misstate a relation. An accurate one can leave learners unable to follow it. To judge a version for its use, specify the object, characteristics, scales, evidence, treatment of missing information and thresholds. Show what supports each value, what an exceptional result would establish and what could repair a consequential deficiency.
 
 ### NSTD.6:3 - Forces
 
 | Force | Tension |
 | --- | --- |
-| Fluency vs epiplexity | A readable narrative may pull too little selected source structure into the rendering for the declared use. |
-| Engagement vs bounded use | A motivating narrative may overpersuade. |
-| Local usability vs reusable scale | A project can use a small rubric, but DPF needs reusable value meanings. |
+| Fluency and structural recovery | A reader can follow the prose while missing a relation needed for the task. |
+| Engagement and informed use | A compelling story can conceal an uncertainty that changes the reader’s choice. |
+| Local use and a reusable scale | A short rubric may serve one project. To compare judgements across cases, evaluators need common value meanings and stated conditions. |
 | Measurement vs evaluation | Some values may be measured through `C.16`; many are ordinal content evaluations. |
-| Improvement vs Goodhart pressure | Indicatorized characteristics help loops, but unmeasured tracked concerns must prevent proxy capture. |
+| Improvement and proxy measures | Improving a measured indicator can damage a quality the indicator omits. Track the consequential effects on those qualities as well. |
 
 ### NSTD.6:4 - Solution
 
-Construct and use one narrative rendering quality evaluation characteristic space for one declared use. Reuse a sufficient current specification and result when their object, question and conditions still match.
+Use an existing evaluation result if it answers the question for this narrative version, reader and use. If a suitable evaluation specification is available, apply it to the version. Develop or adapt a specification for any remaining question about which characteristics to judge and what evidence counts.
 
-For explanatory technical prose, apply `F.19` in the same connected reading, with its declared-use and genre conditions. Recover the governing message, compare it with the selected source and test what each optional contrast, caveat or extra proposition contributes to this reader. Use `F.19:4.4` for a proposed warning and `F.19:4.5` for the reading basis needed by the conclusion. This supplies the semantic and pragmatic wording judgement within `LanguageStatePrecisionAndCoarseningFit`.
+For explanatory technical prose, apply `F.19` to the connected text. Recover its governing message, compare it with the selected source and test the contribution of each optional contrast, caveat or extra proposition for this reader and genre. Use `F.19:4.4` for a proposed warning and `F.19:4.5` for the reading evidence the conclusion needs. This wording judgement contributes to `LanguageStatePrecisionAndCoarseningFit`.
 
-Establish what counts as a supported answer for this use. For a factual account, its working interpretation must remain answerable to the evidence. For a literary interpretation, compare the reading with the relevant text and serious alternatives. For an intentionally open narrative, correct recovery may include recognising why several interpretations remain possible. For a new fictional construction or hypothetical scenario, inspect the chosen premises and consequences as well as the resulting experience. NSTD.9 and NSTD.10 supply the corresponding interpretive or constructive work when it is missing. Fidelity to one earlier representation alone cannot establish that the representation was adequate, that a new story is worthwhile, or that its audience responded as intended.
+Decide what counts as a supported answer. Compare a factual account with evidence and a literary reading with the text and serious alternatives. For a deliberately open story, the reader may need to explain why several interpretations fit. For a fictional construction or a hypothetical real scenario, inspect the premises and their consequences. If the question concerns audience experience, examine evidence of that response. Use NSTD.9 for an interpretation still needed and NSTD.10 to construct missing events. Comparing two expressions can establish fidelity. Whether the source was adequate, the new account was worth producing or the audience responded as intended requires grounds for that claim.
 
-For the structural-amount question, `NarrativeRenderingEpiplexity` specializes [FPF `C.2.8 ExtractableStructuralInformation`](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---extractablestructuralinformation--structure-this-reader-can-recover): the structure this reader or observer can extract. Its three bearers are the receiving narrative episteme, the particular expression conveying it, and the specified reader or observer. The selected source structure, correctness criterion, usable prior knowledge, operations, help, access and budget qualify this tuple. An unambiguous rendering reference can identify the account and expression. Use the existing epiplexity basis, scale and evidence fields below to retain the qualifications needed for the comparison; they do not create another bearer or record kind.
+Use `NarrativeRenderingEpiplexity` to assess how much selected structure a reader can correctly extract. It specializes [FPF `C.2.8 ExtractableStructuralInformation`](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---extractablestructuralinformation--structure-this-reader-can-recover). Identify the receiving narrative episteme (the account conveyed), the particular expression conveying it and the reader or observer. Specify the source structure, correctness criterion, usable prior knowledge, operations, help, access and budget. A rendering reference can identify both account and expression when it is unambiguous. Record the conditions under the basis, scale and evidence fields below.
 
-Begin with named additional and missing relations when a qualitative comparison answers the question. If a number is useful, count correctly recovered selected semantic relations at a declared grain, optionally as `n/N` for a fixed nonempty selected set. Each unit preserves participants, predicate, polarity, modality and action-changing conditions. Repeated words, headings or arrows do not add units. Retain which relations were recovered: equal counts can differ in suitability for the next use. A different ordinal or nonnegative structural weighting needs its own explicit structural meaning; a utility weighting is another score. A formal bit estimate needs the mapping in `C.2.8`, not merely the name epiplexity.
+If naming the additional and missing relations answers the question, report them. For a count, define the units, then count the correctly recovered selected semantic relations. A fraction `n/N` needs a fixed nonempty selected set. For each unit preserve the participants, predicate, polarity, modality and conditions that change use. Count a relation once however often it is repeated or depicted. Keep its identity with the count. Two readers may each recover four of five relations while only one recovers the condition for stopping. Give any ordinal or nonnegative weight its structural meaning. Score utility separately. Use the formal mapping in `C.2.8` for a bit estimate.
 
-State whether the basis is a conditional design walkthrough, an actual reading or a mapped formal estimate. One response establishes the recovery observed in that trial and can ground an extractability estimate; it does not establish a maximum, impossibility after failure, or reliability across a reader class. An exact computational amount requires the corresponding method and model. Keep the first response, actual help and source returns. Familiar structure can be recovered from an expression; an expert's independent correction of false or absent instruction earns that expression no credit. Recovery of what a source asserts and recovery of warranted subject structure use different correctness questions.
+State whether the basis is a conditional walkthrough, an observed reading or a formal estimate with a specified mapping. A first response under known conditions shows the recovery observed in that trial and can inform an estimate of extractability. Establish a maximum, impossibility or reliability across a class only with evidence covering that claim. For a computational amount, specify the method and model. Retain the first response, help used and source returns. A familiar relation can still be recoverable from the expression. If an expert supplies a correction from prior knowledge, attribute that correction to its source. Decide whether correctness means recovering the source’s claim or recovering a warranted relation in the subject.
 
-For a comparison intended to isolate a change of expression, hold the expressed claims and other relevant conditions constant. Added or changed substantive claims can identify another episteme through `C.2.1`; changed access, preparation or help qualifies another comparison. A transfer or perturbation result belongs to its tested condition or robustness question and adds nothing to the original amount by itself. Compare effort and usefulness separately through `C.11.CRC` and `C.11`; keeping the sufficient rendering is an available result.
+To isolate the effect of expression, hold the expressed claims and the other relevant conditions constant. A substantive change can identify another episteme under `C.2.1`. Report any changed access, preparation or help with the comparison it qualifies. Report performance after a perturbation or transfer under the new conditions. Use `C.11.CRC` and `C.11` to compare effort and usefulness when relevant. A sufficient existing rendering can stay in use.
 
 ```text
 NarrativeRenderingQualityEvaluationCharacteristicSpace@Context:
@@ -2112,29 +2112,29 @@ NarrativeRenderingQualityEvaluationCharacteristicSpace@Context:
   neighboringGoverningPatternRefs:
 ```
 
-Object-kind fit:
+Identify the object before assigning a value.
 
 | Object-kind case | Handling |
 | --- | --- |
 | Narrative account, whether candidate or accepted | Evaluate every characteristic whose failure would defeat the intended use. |
-| Below-floor narrative rendering | Evaluate and return low-value repair actions. |
-| A different object is being evaluated | Select an evaluation for that object; for example, a generator's reliability or a source archive's authenticity is not the quality of one resulting narrative. |
-| Wrong-kind object after invocation | Record explicit object-kind-fit defect and stop; do not silently assign values to unrelated coordinates. |
+| Narrative rendering below a required floor | Report the supported value, the loss for this use and the smallest repair that could address it, if one is available. |
+| The question concerns another object | Evaluate that object under its own criteria, such as reliability across a generator’s operating range or authenticity of a source archive. |
+| The object proves to be another kind after the evaluation has begun | State the mismatch and stop assigning values to this object under the narrative criteria. |
 
-Default value meanings for the other ordinal content-quality characteristics follow. `NarrativeRenderingEpiplexity` uses its own structural scale above; the following 0–5 labels do not assign its amount, missingness or use threshold:
+Use these default meanings for the ordinal content-quality characteristics. Assign `NarrativeRenderingEpiplexity` its own structural amount and use condition as specified above.
 
 | Value | Meaning |
 | --- | --- |
-| `0` | The characteristic has no usable basis or the evaluation stops before a quality value can be used. Record the cause; this code is not a structural amount. |
+| `0` | No usable basis for this quality judgement, or evaluation stopped before a quality value could be used. Give the cause. |
 | `1` | Object is a narrative rendering but unusable for the declared use. |
-| `2` | Orientation only; source return is needed before reliance. |
+| `2` | Suitable for orientation. Consult the source before relying on this account. |
 | `3` | Locally usable with named limitations and repair obligations. |
 | `4` | Good for declared use with bounded losses and source return. |
-| `5` | Strong for declared use; the current source relation, response to a meaningful change, and consequential boundary cases are replayable. Actual construction or repair history is additionally replayable when a historical claim is part of the declared use. |
+| `5` | Strong for the declared use. A reader can retrace the current source relation, the result under a meaningful change and the consequential boundary cases. When the use includes a historical claim, the evidence also makes the relevant construction or repair traceable. |
 
-For reliance-bearing or teaching use, the default for structural recovery is that every relation declared necessary for that use must be recoverable under the specified support and evidence conditions. State those necessary relations at the grain the decision needs; a short account of the required distinction and stop can suffice. There is no generic structural-amount floor of `4`. Keep the amount and satisfaction of the use condition separate: unrelated extra relations cannot compensate for a missing necessary relation.
+For teaching or other reliance-bearing use, the default is that every selected relation necessary for that use must be recoverable with the stated support and evidence. Specify those relations at the grain the task needs. A required distinction and its stop condition may suffice. Judge the amount recovered and the use condition separately. Unrelated relations cannot make up for a missing necessary one.
 
-The other load-bearing quality characteristics retain default floor `4` on their own scales, including `OrderingRecoverability` and `SourceReturnReadiness`. When the selected source structure is a constraint-governed unfolding structure, `DemonstrativeSliceRecoverability` is load-bearing and may not be below `4`. A local low-risk orientation use may set those quality floors to `3` only if non-admissible downstream use is explicit. Neither numeral translates into a structural amount. A narrower use fixes its structure selection before evaluation; removing a difficult relation after observing the answer changes the basis rather than improving the original amount.
+The other characteristics essential to the use have a default floor of `4` on their own scales, including `OrderingRecoverability` and `SourceReturnReadiness` when essential. If the selected source is a constraint-governed unfolding structure, `DemonstrativeSliceRecoverability` must reach `4`. A local, low-risk orientation use may set these quality floors to `3` if it explicitly excludes the downstream uses the result cannot support. Select the structure before evaluating a narrower use. Removing a difficult relation after seeing the answer defines a different comparison.
 
 Result-row shape:
 
@@ -2150,11 +2150,11 @@ NarrativeRenderingQualityResultRow@Context:
   missingnessClass:
   loweringReason:
   repairAction:
-  directOwnerRefs:
+  professionalOrAuthorityRefs?:
   reopenCondition:
 ```
 
-Package the rows before feeding an improvement loop:
+For repeated improvement, collect the relevant judgements in a result for the version and use being compared.
 
 ```text
 NarrativeRenderingQualityEvaluationResult@Context:
@@ -2171,7 +2171,7 @@ NarrativeRenderingQualityEvaluationResult@Context:
   stopOrReopenCondition:
 ```
 
-When repeated improvement is wanted, open `E.22` first if the quality question is not already framed. Then use `E.23` with `NSTD.6` as the object-under-improvement evaluation.
+When repeated improvement is wanted, use `E.23` with `NSTD.6` as the evaluation of the narrative. Use `E.22` first if the quality question still needs framing.
 
 ```text
 NarrativeRenderingImprovementLoopInput@Context:
@@ -2194,64 +2194,64 @@ NarrativeRenderingImprovementLoopInput@Context:
   stopContinueSwitchOrHoldCondition:
 ```
 
-`E.23` may claim improvement only after the changed object version is re-evaluated through `NSTD.6` or through a declared stronger evaluation. If the loop changes the source pack, source-currentness, generated-carrier admission, learning publication carrier, publication face, ethics claim, evidence claim, assurance claim, or evaluation characteristic space, the loop must name the neighboring governing pattern and either keep it as the allowed change slice or open separate work. Style edits, prompt retries, or additional drama are admissible loop operations only when their expected movement under `NSTD.6` is stated and protected trade-offs are checked. `B.4` is relevant only when the narrative episteme or learning route is claimed to evolve across use and renewed operation; `G.11` handles a change in source currentness, reader telemetry, teaching-test evidence, generated-narrative practice or FPF edition when it could alter support for the receiving use; retain sufficient unaffected results.
+To judge improvement, evaluate the changed version through `NSTD.6` or a declared stronger evaluation. Compare it with an applicable baseline. Claim the gain that comparison establishes under the protected conditions. Specify what the change should improve and which qualities it must protect, including for a style edit, another generation attempt or added drama. If the change affects the source set or its currency, admission of generated material, the teaching or publication medium, an ethics, evidence or assurance claim, or the evaluation criteria, identify the applicable method. Include that work in the change being assessed or commission it separately. Use `B.4` for a claim about evolution under repeated use. Under `G.11`, reconsider affected results when the source, reader observations, teaching evidence, generation practice or FPF edition changes enough to alter reliance. Reuse sufficient unaffected results.
 
 Before assigning values, recover the source and use basis for the question being answered.
 
-For current-product evaluation, name the selected subject structures, intended reader work and necessary prerequisites, then trace what the present rendering preserves, hides or loses. Use the task and qualified subject sources to establish the needed structure; the rendering can help refine that basis but cannot excuse its own omissions. Recover its ordering rationale, source-return condition, and the event or mechanism, viewpoint, agency, engagement and learning-route relations that matter to this use through `NSTD.1` through `NSTD.5` and `NSTD.8`. Point to actual source and rendering passages. If this account is reconstructed now, identify it as an evaluation of the current product, with its uncertainties, not a record of what the author did. Missing manufacturing notes do not by themselves lower current-product values; missing subject basis, inaccessible return or unsupported relation still does.
+For current-product quality, derive the necessary structure from the work readers need to do, their prerequisites and qualified subject sources. Use the account to refine that selection and inspect what it conveys, hides or loses. Point to the relevant source and rendering passages. Recover the ordering rationale, conditions for source return and any consequential event, mechanism, viewpoint, agency, engagement or learning-route relations, using `NSTD.1` through `NSTD.5` and `NSTD.8` as needed. Report this reconstruction as a present assessment with its uncertainties. Missing subject grounds, inaccessible returns and unsupported relations affect that assessment under their own criteria.
 
-For a promised transformation, compare the named source and result versions against the promised preservation or change. This can establish their present fidelity relation without establishing the actual sequence of manufacturing actions. For a claim about actual construction or repair, obtain records or other admissible evidence of those actions and distinguish them from a plausible reconstruction. Trace the applicable `NSTD.1` selection, `NSTD.2` ordering, `NSTD.3` mechanism, `NSTD.4` viewpoint, `NSTD.5` engagement and `NSTD.8` learning-route decisions. If their history cannot be established, leave that historical or assurance claim unsupported and return it to its owner. A good product does not supply the missing history.
+For a promised transformation, compare the named source and result against the preservation or change promised. For a claim about how the work was performed, use records or other evidence of the relevant actions. Trace the actual selection, order, mechanism, viewpoint, engagement and learning-route choices that the claim needs under `NSTD.1` through `NSTD.5` and `NSTD.8`. State which actions the evidence establishes. If the history remains unknown, give that limit to the work relying on it.
 
-A candidate can be evaluated before acceptance; the result can inform acceptance, repair or rejection. Additional requirements follow from the proposed use and claims. When generated or discovered content is intended to inform architecture work, `C.35` supplies that assessment. Reuse as evidence requires the relevant subject grounds; `A.10` recovers the source-to-use account when it is implicit or must remain replayable. Assurance, publication authority and actual human learning-effect claims require their own grounds. None of those conclusions follows merely from a favourable narrative-quality result.
+Evaluate a candidate before acceptance when its quality is in question. The result may support acceptance, repair or rejection. Use `C.35` for generated or discovered content intended to inform architecture work. Before reusing a narrative as evidence, establish the relevant subject grounds. Use `A.10` when the source-to-use account is implicit or must remain reproducible. For assurance, authority to publish or an effect on human learning, obtain evidence or authorization appropriate to that claim.
 
-Use this evaluation sequence:
+Carry out the parts of the evaluation that answer the question.
 
-1. Object-kind fit: which narrative account and version is being assessed? Identify it in its text, slide sequence or other form. A question about the source collection, generator or whole teaching programme returns to the evaluation for that different object.
-2. Evidence fit for the question: for current-product quality, recover selected source structures, ordering, source return and relevant relations from the subject/use basis and present rendering; for promised fidelity, compare the named source and result; for actual construction or repair, recover evidence of the claimed actions. Keep these conclusions distinct.
-3. Declared-use fit: which reader or listener work is this result to inform, and under what conditions? State a limitation when it changes the use of that result.
-4. Load-bearing characteristics: assign values only to the characteristics needed for the declared use, but include every characteristic whose failure would make the use unsafe or useless.
-5. Low-value repair: for every value below floor, name the smallest repair route before proposing style, drama, or generation retries.
-6. Re-evaluation route: if any repair changes the object version or selected source basis, plan a new `NSTD.6` evaluation before claiming improvement.
+1. Identify the version and the particular account in its text, slides or other expression. Direct a question about the whole course, source collection or generator to the evaluation for that object.
+2. Select evidence for the claim. Inspect the subject and rendering for present quality, compare the named source and result for promised fidelity, or establish the claimed work from evidence of its performance.
+3. Identify the work this reader or listener needs the account for and the conditions under which the judgement holds. State limits that affect reliance on the result.
+4. Evaluate every characteristic whose failure would defeat the declared use or make it unsafe. Select additional characteristics only when their result matters to the question.
+5. When a value falls below its floor, identify the loss. Give the smallest repair that would address it, or specify what is still needed to find one.
+6. Before claiming an improvement, re-evaluate the affected characteristics if the version or selected source basis changes.
 
 Missingness and lowering rules:
 
 | Missing or defect condition | Lowering rule |
 | --- | --- |
-| Selected source structures cannot be identified from the subject/use basis | Leave the structural amount unassigned. Use `NSTD.1` for a selection gap, `NSTD.9` for a missing or disputed working interpretation, or `NSTD.10` for proposed events that still need construction. A missing basis is not a small amount; apply any actual object-kind defect separately. |
-| Reader, correctness criterion or other action-changing structural-comparison condition cannot be recovered | Leave the amount unassigned at that scope; retain any narrower supported result and continue independently answerable diagnosis. An absent observation is not a zero. |
+| Selected structures cannot be identified from the task and subject sources | Leave the structural amount unassigned. Use `NSTD.1` to complete source selection, `NSTD.9` if the needed interpretation is missing or disputed, or `NSTD.10` if the proposed events still need construction. State any separate mismatch in the evaluated object. |
+| The reader, correctness criterion or another consequential condition of comparison is unknown | Leave the amount unassigned for that scope. Return any narrower finding that the available evidence supports and examine independently answerable questions. |
 | Ordering rule absent | `OrderingRecoverability` no higher than `2`. |
-| A missing time, viewpoint, participant or mediation distinction changes the reader's interpretation | `TemporalPostureAndRoleFit` no higher than `2` for that use; return the specific ambiguity to `NSTD.1` or `NSTD.4`. A missing optional record field alone is not a defect. |
-| A relevant source-selection rationale or reader-use hypothesis cannot be recovered | `SourceStructureSelectionFit` no higher than `2` for that use; return the selection question to `NSTD.1`. Lower `TemporalPostureAndRoleFit` only if its time or participant distinctions are also missing. Leave structural amount unassigned only when its own selection, correctness or observer basis is unavailable; a missing optional field alone does not erase a recoverable basis. |
+| A missing distinction of time, viewpoint, participant or mediation changes the reading for this use | Set `TemporalPostureAndRoleFit` no higher than `2`. Use `NSTD.1` or `NSTD.4` to resolve that ambiguity. Apply the limit when the distinction matters to the interpretation. |
+| A source-selection rationale or reader-use hypothesis needed for the evaluation cannot be recovered | Set `SourceStructureSelectionFit` no higher than `2` for that use and return the selection question to `NSTD.1`. Lower `TemporalPostureAndRoleFit` if its time or participant distinctions are also missing. Leave structural amount unassigned if its own selection, correctness or observer basis is unavailable. Check what can be recovered from all the pertinent material. |
 | Source-return condition absent | `SourceReturnReadiness` no higher than `2`. |
-| Constraint-governed unfolding structure is selected but the rendering declares only a sequence, route card, story line, or lesson chain | `DemonstrativeSliceRecoverability` no higher than `2`; return to `NSTD.1`, `NSTD.2`, and `A.22.CGUS` or the local governing pattern before treating the narrative as a rendering of the wider structure. |
-| Literary, simplified or dramatic wording hides or distorts a source relation, precision distinction or coarsening limit needed for the declared use | `LanguageStatePrecisionAndCoarseningFit` no higher than `2` for that use. Identify the missing relation or limit and repair it directly when its meaning is determined. Use `C.2.LS`, `A.6.3.CSC`, `E.17.EFP`, `E.10`, `A.6.P` or `C.16.Q` for the particular unresolved language-state, coarsening, explanation or precision question; then re-evaluate the present rendering. |
+| The selected source branches, loops or allows early exits under constraints, and the account shows only a sequence | Set `DemonstrativeSliceRecoverability` no higher than `2`. Use `NSTD.1`, `NSTD.2` and `A.22.CGUS` or the applicable local method to recover the wider constraint-governed structure and what this route leaves out. |
+| Simplification, literary wording or drama obscures a source relation, distinction of precision or limit of a coarser account needed for this use | Set `LanguageStatePrecisionAndCoarseningFit` no higher than `2`. Repair the specific loss when its meaning is known. Use `C.2.LS`, `A.6.3.CSC`, `E.17.EFP`, `E.10`, `A.6.P` or `C.16.Q` for a remaining question of language state, coarsening, explanation or precision, then reassess the affected characteristic. |
 | Only an intended effect or seed is available, without an identifiable narrative account | No narrative version is yet available for this evaluation. Develop the cue through `A.16.1`, `NSTD.1` or `NSTD.2`, or evaluate the cue for its own use. |
-| An intended persuasive use conceals a material uncertainty, risk or alternative needed for the reader's choice | `EngagementBoundedness` no higher than `3`; restore that condition or alternative through `NSTD.5`. If a consequential value or harm question remains, identify the affected party and question and use the applicable `D.1`–`D.5` contribution. An ordinary curiosity device alone requires no additional ethics work. |
-| Generated account has not yet been accepted for use | Evaluate the available candidate and retain the grounds and limits of each result. Use `NSTD.7` for generation repair; use `C.35` only when the result is intended to inform architecture work. |
-| Unsupported evidence or assurance claim | Qualify the unsupported claim and recover its defining or testing rule. Use `A.10` for an implicit or needed replayable source-to-use account, and `B.3` for an actual named assurance claim. Lower a relevant quality value only under its own meaning. An unsupported structural amount is unassigned rather than numerically penalized. |
-| Manufacturing or repair history absent while the current-product basis is available | Do not lower a product characteristic for this absence alone. Leave any historical claim unsupported and return the evidence or assurance question to its owner; apply every relevant source, use, admission and missingness rule independently. |
+| Persuasion conceals an uncertainty, risk or alternative material to the reader’s choice | Set `EngagementBoundedness` no higher than `3`. Restore the relevant condition or alternative through `NSTD.5`. Use the applicable `D.1`–`D.5` contribution if a consequential value or harm question remains for an affected party. |
+| A generated narrative is still a candidate | Evaluate it for the stated use. Record the basis and limits. Use `NSTD.7` when the generation method needs repair and `C.35` when the content is meant to inform architecture work. |
+| A claim about evidence or assurance lacks grounds | State which claim is unsupported and recover its criterion. Use `A.10` for a source-to-use account that is implicit or must be reproducible and `B.3` for a specified assurance claim. Judge each quality under its own criterion. Leave an unsupported structural amount unassigned. |
+| The present product can be assessed, but its construction or repair history is unknown | Use the available product evidence for current quality. Report the historical limit to whoever relies on that claim and apply the relevant source, use and admission criteria to their own questions. |
 
-A defined trial that recovers none of the selected relations supports observed recovery `0` on that scale, not impossible extraction. An empty denominator supports no fraction. Wrong-kind handling precedes amount assignment. A qualified design estimate can remain available without an actual trial; obtain a trial when its possible outcomes can change the receiving decision.
+A defined trial in which the reader recovers none of the selected relations supports observed recovery `0` for that trial. An empty selected set has no recovery fraction. Identify the object before assigning an amount. A walkthrough can support a conditional estimate. Use an existing reading when it answers an empirical question, or consider a new trial when the obtainable evidence would justify its cost for the task.
 
 Default narrative rendering quality characteristics:
 
 | Characteristic | Evaluation question | Low-value repair action |
 | --- | --- | --- |
-| `SourceStructureSelectionFit` | Are the selected source structures and reader-interest or use hypothesis explicit, non-magical, and well matched to the declared use? | Reopen `NSTD.1`; reconstruct or revise the source-structure selection rationale before changing style, drama, or prompt wording. |
-| `NarrativeRenderingEpiplexity` | What selected structure can this observer correctly extract from the narrative episteme through this expression under the declared conditions, and how does that compare with the alternative? | Use `C.2.8` for the common characteristic. Return a selection gap to `NSTD.1`; repair the missing or false relation, its expression or its usable source return through the relevant NSTD method. A better basis declaration alone does not increase amount. `C.33` separately governs architecture-description adequacy when that question is live. |
-| `OrderingRecoverability` | Can the reader say why this sequence was chosen and what it hides? | Reopen `NSTD.2`; state ordering rule, preserved relations, and lost relations. |
+| `SourceStructureSelectionFit` | What does the reader need from the source? What grounds support the selection and any assumption about reader interest? | Use `NSTD.1` to reconstruct or revise a deficient selection before changing the style, drama or generation instruction. |
+| `NarrativeRenderingEpiplexity` | Which selected relations can this observer correctly extract from the account through this expression under the specified conditions? When comparing alternatives, which relations differ? | Use `C.2.8` for structural amount. Return a selection gap to `NSTD.1`. Repair a missing or false relation, its expression or a needed source return through the method for that problem. Reassess recovery if the repair changes what can be extracted. Use `C.33` for an additional question about architecture-description adequacy. |
+| `OrderingRecoverability` | Can the reader recover the rationale for this order and the relevant relations the sequence leaves out? | Use `NSTD.2` to state the ordering rule and which relations it preserves or hides. |
 | `DemonstrativeSliceRecoverability` | When a constraint-governed unfolding structure is selected, can the reader recover the wider structure, the demonstrative slice, and the hidden branches, loops, alternatives, direct exits, or stop conditions? | Reopen `NSTD.1` and `NSTD.2`; name the selected CGUS or local block, the demonstrative slice, preserved constraints, lost structure, and return to `A.22.CGUS` or the local governing pattern. |
-| `TemporalPostureAndRoleFit` | Are time stance, mediation and the relevant participant or viewpoint distinctions clear enough for the declared use? Work-role, performer/assignment or architecture-admission information is needed only for the corresponding claim. | Reopen `NSTD.1` or `NSTD.4`; clarify observed, live, proposed or fictional material and distinguish the narrative voice from any actual participant. Examine a further Work or admission basis when that claim is made. |
+| `TemporalPostureAndRoleFit` | Can the reader distinguish the relevant time, mediation, participants and viewpoints? | Use `NSTD.1` or `NSTD.4` to clarify observation, live reporting, proposal or fiction and who is speaking or acting. Obtain work-role, performer/assignment or architecture-admission evidence when the corresponding claim needs it. |
 | `EventMechanismSupport` | Can the reader reconstruct events, mechanisms, dependencies, or state changes when required? | Reopen `NSTD.3`; add mechanism support or lower causal language. |
-| `ViewpointAgencyDiscipline` | Does viewpoint reveal source structure without false agency, capability, responsibility, or permission? | Reopen `NSTD.4`; split protagonist, actant, role, agency, and ethics owners. |
+| `ViewpointAgencyDiscipline` | Does the viewpoint convey the source relation and accurately attribute action, capability, responsibility and permission? | Use `NSTD.4` to distinguish the protagonist or actant from whoever acted, held a role or a permission, or bore the relevant responsibility. Examine the ethical question when it arises. |
 | `EngagementBoundedness` | Does engagement serve the intended effect while preserving source relations and the conditions needed for the reader's choice? | Reopen `NSTD.5`; restore the missing condition, revise the device or keep a sufficient simpler account. |
 | `LanguageStatePrecisionAndCoarseningFit` | Does the chosen language state make the needed relations, precision and coarsening limits recoverable for this use? In explanatory technical prose, what does each optional rhetorical branch contribute to the intended reader? | Apply the connected `F.19` reading to explanatory technical prose, retaining the distinctions that change its use. For a remaining question, use `C.2.LS` for a threshold-bearing language-state profile, `A.6.3.CSC` for narrowed-use coarsening, `E.17.EFP` for explanation-facing retelling, `A.16.1`/`A.16.2` for cue or backoff, and `E.10`, `A.6.P` or `C.16.Q` for precision restoration. |
-| `EthicsEvidenceAssuranceRouting` | When a consequential value, harm, evidence, assurance or policy claim is made, are its grounds and limits available for the intended use? | Identify the unresolved question, then use the corresponding `D.1`–`D.5`, `A.10`, `B.3` or professional contribution. A generic owner name does not answer the question. |
+| `EthicsEvidenceAssuranceRouting` | For a consequential claim about value, harm, evidence, assurance or policy, are the grounds and limits available for this use? | Identify the unresolved issue and use the pertinent `D.1`–`D.5`, `A.10`, `B.3` or professional contribution. |
 | `MediumAndPublicationFit` | Does the carrier fit the reader and use without changing the claim? | Route publication or audience-unit questions to `E.17`, `E.17.AUD`, or `NSTD.8`. |
 | `SourceReturnReadiness` | Does the narrative tell readers when and where to return to the source basis or relevant method? | Add the missing return condition or destination, or narrow the supported use. |
-| `LearningRouteReconstructionFit` | For a learning route, do the responses meet the declared reconstruction task and source-return condition under the specified support? | Use `NSTD.8` to repair the source contribution, support or next task. Distinguish a supplied design response from an actual learner response. |
+| `LearningRouteReconstructionFit` | What can the learner reconstruct under the intended support, and when must they return to a source? | Use `NSTD.8` to address an inadequate source contribution, support or next task. In a design, assess what the exercise affords. In a claim about a learner, use their response. |
 
-`LearningRouteReconstructionFit` is an additional characteristic for teaching uses. It uses the ordinal quality meanings above and the adjacent calibration below; it is not a structural-amount scale.
+Use the ordinal meanings above and the adjacent-value examples below for `LearningRouteReconstructionFit` in teaching applications.
 
 ### NSTD.6:5 - Archetypal Grounding
 
@@ -2260,17 +2260,17 @@ Default narrative rendering quality characteristics:
 #### NSTD.6:5.1 - Value bank: full result rows
 
 
-Use this bank when a narrative rendering "sounds good" and therefore tempts the worker to skip evaluation. Each row illustrates evaluation of a narrative version for one declared use; prior acceptance is unnecessary. The same text may receive different values for a different use.
+Each row evaluates an identifiable account for a particular use. Earlier acceptance is unnecessary, and a change in use can change the judgement.
 
 | Case | Characteristic | Value | Evidence basis | Low-value repair |
 | --- | --- | --- | --- | --- |
-| FPF seminar handout | `NarrativeRenderingEpiplexity` | Qualitative illustration; no numerical amount established | The case assumes learners can recover `EntityOfConcern`, forces, solution and neighboring exits. These aspect names do not define equal semantic units, a denominator or an observed reading protocol. | Retain the stated recovery. If transfer matters, try choosing a governing pattern in a new situation and qualify that separate result; it does not increase the original amount. |
-| FPF seminar handout | `SourceReturnReadiness` | `4` | In this constructed handout, each slogan links to its pattern; the exercise sends the reader to that pattern's conditions before applying the slogan in a new situation. This supplies a when-and-where return, but no changed-condition response or boundary replay for `5`. | Reopen if the task, reader preparation or source access changes, or if the reader cannot locate or use the return. Repair that failure even when the source text is unchanged. |
-| FPF seminar handout | `EngagementBoundedness` | `4` | The constructed failure story invites readers to compare workload conditions and makes the relevant conditions available for that comparison. Its fictional status is clear. The value expresses a design judgement; an attention-gain claim would need an observed comparison. | Reopen a changed reader effect or stronger benefit claim; restore a condition the persuasive use needs or obtain grounds for that particular claim. |
-| Homotopy explanation | `LanguageStatePrecisionAndCoarseningFit` | `3` | Analogy is vivid but learners may not know where formal conditions return. | Add an analogy-stop line and a formal boundary task. |
-| Homotopy explanation | `OrderingRecoverability` | `4` | Didactic order is named and proof order is deferred by value. | To reach `5`, add a second problem where learner maps story order to formal dependency order. |
-| Franchise continuation probe | `SourceReturnReadiness` | `4` | An illustrative repair of the Readme's key case puts this return in the draft: “If a scene assumes access before Wednesday, consult the supplied premise that the character first obtains the key on Wednesday.” The condition and destination are explicit. | If the premise or proposed access changes, reopen that continuity comparison. Check a changed case when robustness matters; private or public use alone does not change this value. |
-| Live commentary | `EventMechanismSupport` | `3` | Observation and provisional interpretation are separated, but later telemetry return is only generic. | Add specific official record, replay, or statistics return condition. |
+| FPF seminar handout | `NarrativeRenderingEpiplexity` | Qualitative illustration. The numerical amount is unknown. | The case assumes that learners can recover the EntityOfConcern, forces, solution and relevant exits. Their names alone specify neither equal units nor a denominator or an observed trial. | Retain this limited finding. If transfer matters, use evidence of a learner choosing an appropriate pattern in a different situation and report it under those conditions. |
+| FPF seminar handout | `SourceReturnReadiness` | `4` | Each slogan in the constructed handout links to the relevant pattern. Before applying one in a new situation the exercise directs the reader to that pattern’s conditions. This shows when and where to return. A `5` also needs evidence under a meaningful change and at a consequential boundary. | Reconsider this value if a change in task, preparation or access affects the return, or if a reader cannot find or use it. Repair a confirmed failure even if the source text is unchanged. |
+| FPF seminar handout | `EngagementBoundedness` | `4` | This clearly fictional failure story invites readers to compare workloads and gives them the relevant conditions. The value is a judgement about the design. | If increased attention is claimed, use an appropriate observed comparison. Restore any condition the persuasive use conceals. |
+| Incomplete version of a homotopy lesson | `LanguageStatePrecisionAndCoarseningFit` | `3` | The vivid analogy leaves readers to infer which continuous deformations are allowed and when to consult the formal account. | Name the restriction on crossing the missing point and ask when it matters to contraction. |
+| Homotopy explanation | `OrderingRecoverability` | `4` | The explanation names its teaching order and tells readers where to recover the dependencies of the proof. | To substantiate `5`, examine a changed problem in which the reader maps the story order to the proof dependencies. |
+| Franchise continuation probe | `SourceReturnReadiness` | `4` | An illustrative repair of the Readme's key case puts this return in the draft: “If a scene assumes access before Wednesday, consult the supplied premise that the character first obtains the key on Wednesday.” The condition and destination are explicit. | If the premise or proposed access changes, reopen that continuity comparison. Check an appropriate changed case when robustness across cases matters. Reconsider new use conditions if they affect the return. |
+| Live commentary | `EventMechanismSupport` | `3` | The commentator distinguishes observation from provisional interpretation. The listener receives only a general suggestion to consult later telemetry. | Identify the official record, replay or statistic and when it could resolve the particular claim. |
 | Generated graph-to-text narrative | `EventMechanismSupport` | `2` | The draft states “A caused B”, while the source graph establishes only that A preceded B. | Return to `NSTD.3` or `NSTD.7`: remove the unsupported cause or obtain the needed causal account. |
 
 
@@ -2278,9 +2278,9 @@ Use this bank when a narrative rendering "sounds good" and therefore tempts the 
 #### NSTD.6:5.2 - An existing product and an unknown manufacturing history
 
 
-An editor receives a handout narrative with a declared onboarding use, qualified subject basis and source-return links, but no manufacturing or repair journal. The editor reconstructs the needed source relations from the intended work and subject sources, follows their use through the present explanation and exercises, and tests a meaningful changed case. A missing return or a false relation is a current-product defect. No journal is needed to identify or repair it, and a strong present boundary test can support a high product value without inventing an earlier repair.
+An editor receives an onboarding handout with a qualified subject basis and source links. The record of its creation is missing. The editor identifies the relations needed for onboarding from the task and the subject sources, follows them through the present explanation and exercises, and tests a meaningful changed case. Inspection can establish a missing return or false relation. A strong boundary test can support a high present-product value. What the author did remains a historical question.
 
-If the same editor is instead asked whether the handout faithfully transforms a named seminar, the seminar and handout must be compared. If asked whether the author performed a prescribed review or made a particular correction, evidence of that action is also needed. Current fidelity or a successful reader attempt cannot answer that historical question. A generated candidate receives the same current-product evaluation; its acceptance or production-history claims remain separate questions.
+To assess fidelity to a particular seminar, the editor compares that seminar with the handout. To establish that the author reviewed or corrected it, the editor needs evidence of the action. A successful reader response bears on the reader’s performance. A generated draft can likewise receive a current-product evaluation before an acceptance decision or any historical investigation.
 
 
 
@@ -2291,20 +2291,20 @@ Before evaluation statement:
 
 > The narrative is strong because readers liked it and remembered the main point.
 
-Failure: engagement and memory are treated as total quality. Source recovery, relation strength, owner routing, and use boundary are absent.
+The judgement asserts liking and recall of the main point. It leaves open the evidence for those claims, which source relations the readers recovered, what the relations support and which uses the result permits.
 
 After evaluation statement:
 
-> For the declared onboarding use, the illustrative recovery result is that learners can reconstruct the pattern-use route; a numerical amount needs a specified relation set, conditions and evidence. Source-return readiness receives value `3` because two slogans lack pattern-body refs, and engagement boundary receives value `4` because the constructed failure story gives learners a reason to compare load conditions and preserves the conditions needed for that comparison. The first repair is to add source-return refs for the slogans before changing style.
+> For onboarding, assume learners can reconstruct the ordinary route for using the pattern. A numerical amount still needs a defined set of relations, conditions and evidence. Source-return readiness is `3` in this version. Readers can use the handout for the familiar case and know when to return to the source, but two slogans omit the references needed to locate the applicable conditions in a new case. Engagement boundedness is `4` because the constructed story invites comparison of workloads and preserves the conditions needed for that choice. If the task includes repair, add usable directions to those two sources first.
 
-Now `E.23` has a concrete changed slice: add two source-return refs and re-evaluate source-return readiness. Revisit the amount only if the changed access or explanation can change structural recovery. An earlier amount label is reusable only through its recoverable selection, scale, conditions and evidence; an unsupported `4` does not become `4/5`.
+For an improvement under `E.23`, add those two references and compare whether readers can now locate the applicable conditions under the intended support. Revisit structural recovery if changed access or wording can affect it. Reuse a previous amount only with its selection, scale, conditions and evidence. A quality label of `4` provides no numerator or denominator.
 
 
 
 #### NSTD.6:5.4 - Adjacent-value calibration
 
 
-For structural-amount calibration, fix five relations in a narrative about reusing a review after a display change: reuse requires the same claims, the same question, and the same qualification window; an unavailable required argument stops the new check and returns it to the source; that stop preserves unrelated review results. This adapts C.37.CF's content example. The condition, stop and source return form one compound unit at this declared grain. Hold the reader, case facts, material, operations, help and budget constant. The counts below illustrate nested constructed recovery sets, not three observed trials or a universal five-point rubric. Another selected set uses its own count or denominator without conversion to five labels.
+Fix five relations in an account of reusing a review after a change in display. The claims, the question and the qualification window must each be the same. If a required argument is unavailable, stop the new check and return to the source. This stop preserves unrelated review results. The example adapts C.37.CF. Count the condition, stop and return as one compound unit at this grain. Hold the reader, case facts, material, operations, help and budget constant. The three rows illustrate progressively larger constructed sets within this selection. For another selection, keep its own denominator and the identities of the relations.
 
 | Correctly recovered units | Selected set size | Meaning at the fixed conditions |
 | --- | --- | --- |
@@ -2321,14 +2321,14 @@ The other characteristics use their own ordinal quality meanings:
 | `ViewpointAgencyDiscipline` | Viewpoint is useful, but agency or responsibility repair is incomplete. | Viewpoint function and the source of a consequential attribution are recoverable. | Reader can remove or swap viewpoint without losing source structure. |
 | `EngagementBoundedness` | Interest exists, but a needed source relation or condition for informed choice is missing. | Interest supports the declared use while preserving the needed relations and conditions. | A more engaging variant improves attention without lowering source recovery, with the comparison supported under the stated conditions. |
 | `SourceStructureSelectionFit` | Selected content partly serves the purpose, but a needed relation is omitted. | Selected relations support the intended use and meaningful omissions are recoverable. | A relevant changed case confirms the selection's stated reach and limits. |
-| `LearningRouteReconstructionFit` | Learners can retell the route but not reliably reconstruct source relations. | Learners reconstruct source spine and source-return boundaries. | Learners transfer the route to a new case and identify the correct neighboring owner. |
+| `LearningRouteReconstructionFit` | Learners retell the route and recover some source relations, but miss a relation needed for reliably applying it at a change of conditions. | Learners reconstruct the essential relations and identify when to return to the source. | Learners apply the route in a new case and identify the appropriate neighbouring method or responsible party. |
 
 
 
-#### NSTD.6:5.5 - Evaluation-to-improvement repair input without process theatre
+#### NSTD.6:5.5 - Use an evaluation to improve a narrative
 
 
-`NSTD.6` returns an evaluation of the narrative. For repeated improvement, the following compact input can make the object, intended change and comparison recoverable:
+When repeated improvement is needed, use the narrative evaluation to identify the version, the intended change and the basis for comparing results. The following fields illustrate the input.
 
 ```text
 NarrativeRenderingImprovementLoopInput@Context:
@@ -2336,42 +2336,42 @@ NarrativeRenderingImprovementLoopInput@Context:
   evaluationResultRefs: selected `NSTD.6` rows
   improvementAim: raise one declared value without lowering protected trade-offs
   allowedChangedSlice: wording, source-return link, ordering marker, viewpoint repair, engagement device, generated source plan, or learning task
-  protectedTradeoffSet: source fidelity, owner routing, engagement, cost, reader burden
-  expectedReEvaluationForm: rerun the affected `NSTD.6` rows and any neighbor owner checks
+  protectedTradeoffSet: source fidelity, grounds for consequential claims, engagement, cost and reader burden
+  expectedReEvaluationForm: reassess the affected NSTD.6 characteristics and any changed claim governed elsewhere
 ```
 
-Regeneration can supply a candidate change when the compared versions, relevant changes, protected qualities and re-evaluation remain recoverable. Adding a source-return link and an analogy-stop task is another possible repair. `E.23` compares the changed result under the selected evaluation; a more engaging draft alone does not establish improvement.
+Regeneration can produce a candidate improvement when the versions, change, protected qualities and basis for reassessment remain identifiable. Another repair might add a source link and a task about the limit of an analogy. Compare the changed result under the selected evaluation in `E.23`. Increased engagement by itself establishes only the change in engagement, when that effect has been observed.
 
 
 
-#### NSTD.6:5.6 - FPF owner teaching
+#### NSTD.6:5.6 - Evaluate a seminar handout or an architecture story
 
 
-`C.2.8` governs structural amount for architecture and non-architecture narratives alike. `NSTD.6` applies it to the narrative and the selected observer/use conditions. `C.33` retains the separate architecture-description adequacy question. Source-selection fit, source-return readiness, effort and usefulness remain separately judged; a story need not be an architecture description for its structural amount to be compared.
+Use `C.2.8` for structural amount in any narrative within its scope. `NSTD.6` specifies the narrative, expression, observer and use conditions. Use `C.33` when the question concerns the adequacy of an architecture description. Also assess source selection, access to the source, effort or usefulness if these affect the question.
 
-Pass case: an FPF seminar handout narrates how a practitioner moves from problem frame to forces to solution and checks. It names FPF pattern source sections, ordering rule, learner reconstruction task, and source-return points. Its necessary source relations are recoverable under the declared support; the other selected quality characteristics can reach `4` or `5` on their own scales. Those quality labels do not assign its structural amount.
+In the seminar handout, a practitioner moves from the problem frame through forces and solution to checks. It names the source sections, explains the order, gives the learner a reconstruction task and specifies when to return to the source. Suppose the necessary relations are recoverable with the stated support. The other selected quality values may reach `4` or `5` under their own criteria. To quantify structural amount, use the structural scale.
 
-Fail despite fluency: a polished architecture story says one chosen architecture "won" because it felt coherent, hides rejected candidates, omits architectural characteristics, and gives no source-return path. The needed architecture relations are missing, so the structural-use condition fails; assign an amount only when its selection and conditions are established. `OrderingRecoverability` and `SourceReturnReadiness` can fall below their own floors even if engagement is high.
+A fluent architecture story explains that the chosen architecture felt coherent. It omits the rejected candidates, architectural characteristics and a route back to the sources. That defeats the use requiring those comparisons. Assign a structural amount only when the selection and conditions are established. High engagement can coexist with below-floor `OrderingRecoverability` or `SourceReturnReadiness`.
 
-Different object: an evaluator is asked whether a text generator is reliable across unseen topics. One narrative's `NSTD.6` result does not answer that question; the generator and its proposed operating range need their own evaluation. By contrast, a fluent generated story with an unknown source is still a narrative candidate: visible defects can be diagnosed, while source fidelity and structural amount remain unassigned where their required basis is unavailable.
+Reliability of a generator on unseen topics requires evidence about the generator across its stated range. A single generated narrative can still be inspected for a visible continuity error. If its source is unknown, leave fidelity and structural amount unassigned where their required basis is missing.
 
 ### NSTD.6:6 - Bias-Annotation
 
-This pattern blocks proxy-as-quality drift: readability, fluency, liking, engagement, expert approval, or generated-text benchmark value replaces object-kind fit and declared-use rendering quality. It also blocks the opposite drift where a test program is treated as the characteristic itself. Repair by selecting the evaluated object kind, scales, value meanings, evidence basis, missingness and lowering rules, floor, result rows, and repair actions. Scope: DPF-local for evaluating narrative rendering versions; it does not govern evidence, assurance, gate, decision, or publication authority.
+A reader’s enjoyment, an expert’s approval, a fluency benchmark and performance on a test each establish different things. For this narrative, state the characteristics the use requires, their scales, thresholds, evidence, treatment of missing information and implications of a deficiency. Distinguish the characteristic being judged from the procedure used to evaluate it. Evidence, assurance and authority to admit, act or publish have their own criteria.
 
 ### NSTD.6:7 - Conformance Checklist
 
 | Check | Passing condition |
 | --- | --- |
 | `CC-NSTD6-1` | Evaluated object kind, declared use, and object-kind fit rule are explicit. |
-| `CC-NSTD6-2` | At least three discriminating cases are present: pass, below-floor, and wrong-kind. |
+| `CC-NSTD6-2` | When developing or qualifying a specification, demonstrate that its criteria discriminate at least three cases: adequate use, a below-floor narrative and an object of another kind. Apply a qualified specification directly when it covers the present use. |
 | `CC-NSTD6-3` | Each characteristic has a declared qualitative comparison or a bound scale. Structural-amount values preserve their tuple, selection, conditions, granularity and evidence kind; generic quality labels do not substitute. |
 | `CC-NSTD6-4` | Value meanings, evidence basis, missingness rules, floor, exceptional meaning, and stop or reopen condition are declared. |
-| `CC-NSTD6-5` | Result rows include value, evidence basis, lowering reason, repair action, owner, and reopen condition. |
-| `CC-NSTD6-6` | Measurement, eval program, evidence, assurance, gate, decision, publication, and pattern-quality claims route to owners. |
+| `CC-NSTD6-5` | Each row states the value or why it is unassigned and its evidence. For a deficiency, name the reason, any proposed repair and the conditions for reconsideration. Identify a responsible professional or decision holder when their contribution or authority matters. |
+| `CC-NSTD6-6` | Claims about measurement, evaluation, evidence, assurance, admission, decisions, publication or pattern quality have the grounds and, where applicable, the authority their use requires. |
 | `CC-NSTD6-7` | If repeated improvement is claimed, the `E.22` or `E.23` input names object version, `NSTD.6` as evaluation, improvement aim, protected trade-offs, allowed change slice, cost and risk account, and expected re-evaluation form. |
-| `CC-NSTD6-8` | No quality movement is claimed until the changed narrative rendering version or declared changed slice is re-evaluated by `NSTD.6` or a declared stronger evaluation. |
-| `CC-NSTD6-9` | Current-product reconstruction, source-to-result fidelity and evidence of actual construction or repair remain distinct; absence of manufacturing history neither defeats a supported product judgement nor licenses an unsupported historical or admission claim. |
+| `CC-NSTD6-8` | An improvement claim identifies a gain over an applicable baseline under the protected conditions. Evaluate the changed version or affected part through `NSTD.6` or a specified stronger evaluation on a comparable basis. |
+| `CC-NSTD6-9` | Assess current quality from the product and its subject/use basis, fidelity from the source and resulting versions, and historical construction or repair from evidence of those actions. Address any admission claim under its own conditions. |
 
 ### NSTD.6:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -2380,32 +2380,32 @@ This pattern blocks proxy-as-quality drift: readability, fluency, liking, engage
 | Fluency benchmark value as quality | Smoothness replaces structure recovery. | Inspect the selected relations and evidence. Return a missing basis or repair a demonstrated loss through `NSTD.1` through `NSTD.3`; fluency alone establishes neither a high nor a low amount. |
 | Style repair as precision repair | A nicer wording pass is treated as sufficient while relation kind, quality sense, language-state threshold, or coarsening loss remains hidden. | Lower `LanguageStatePrecisionAndCoarseningFit` for the unresolved defect. Clarify it directly when its meaning is determined, or use the relevant precision, coarsening, explanation or language-state pattern for the remaining question. Re-evaluate the repaired rendering before claiming improvement. |
 | Prompt loop as improvement | The worker keeps regenerating more engaging drafts without a named object version, allowed change slice, protected trade-offs, or re-evaluation. | Open `E.22` when needed, route the repair to `E.23`, and re-evaluate the changed version through `NSTD.6`; otherwise retain it as a candidate without claiming improvement. |
-| Overextending a quality result | A narrative-quality result is taken to establish a wider evidence, assurance or gate claim without that claim's grounds. | Keep the narrative-quality result at its supported scope and obtain the grounds required by the wider use. Use `A.10` for an implicit or needed replayable source-to-use account, `B.3` for an actual named assurance claim, and the gate's governing pattern for its decision. |
+| Overextending a quality result | A wider evidence, assurance or admission claim lacks its own grounds. | Use the quality result within its established scope. Use `A.10` when a source-to-use account is implicit or must be reproducible, `B.3` for a specified assurance claim and the applicable admission rule for a decision. |
 | Evaluating a different object | A judgement about one narrative is used to rate its generator, source archive or whole course. | Select the evaluation for that object. A script or generated draft can still be assessed as a narrative when it expresses one. |
 | Reconstructed history as evidence | A plausible route inferred from a good product is reported as the author's actual construction or repair. | Retain the current-product result and mark the historical claim unestablished until its own evidence is obtained. |
-| Characteristics as eval programs | Test scripts or automated checks are treated as characteristics. | Keep characteristics in `A.19.ECS`; automated evals are measurement or eval-program carriers under direct owners. |
+| Treating an evaluation procedure as a characteristic | A script used to obtain a value is put in the place of the property being judged. | Specify the characteristic through `A.19.ECS`. Identify the automated measurement or evaluation procedure, the conditions in which it operates and the result it supplies. |
 
 ### NSTD.6:9 - Consequences
 
-The benefit is a usable improvement target: `E.23` can improve narrative versions because values, floors, evidence, and repairs are declared. The cost is heavier evaluation before reliance-bearing use.
+A reader can use the result to judge the version for the declared task. When improvement is wanted, the values, floors and observed losses identify changes that `E.23` can compare. Establishing the grounds for reliance can require more time or access than a preliminary reading.
 
 ### NSTD.6:10 - Rationale
 
-`A.19.ECS` says improvement cannot be better than its evaluation. `NSTD.6` specializes that lesson for narrative renderings: first recover object kind and use, then choose characteristics that discriminate narrative rendering quality for that declared use.
+Following `A.19.ECS`, identify the object and use, then select characteristics whose values distinguish adequate from deficient use. An improvement claim can be only as informative as the evaluation on which it depends.
 
 ### NSTD.6:11 - SoTA-Echoing
 
-FPF `A.19.ECS` and `C.16` supply the evaluation and measurement distinctions. `C.2.8` supplies reader-relative structural amount and its qualified formal epiplexity specialization; `C.33` concerns architecture-description adequacy. Amount, extraction effort, learning and task usefulness can change independently. Language-state, coarsening and explanation patterns support the particular repairs named in the scale; they are not extra tests triggered by every stylistic change.
+FPF `A.19.ECS` and `C.16` distinguish evaluation and measurement. `C.2.8` supplies reader-relative structural amount and defines the conditions for its formal epiplexity estimate. `C.33` addresses architecture-description adequacy. Effort, learning and usefulness can vary independently of amount. Use the language-state, coarsening or explanation method for the particular repair needed.
 
-Castricato et al.'s [model-theoretic account](https://aclanthology.org/2021.nuse-1.10/) distinguishes narrator-to-reader information and evolving story models. Mengelkamp et al.'s [reading-goal experiments](https://doi.org/10.1002/acp.70036) found condition-dependent comprehension effects and persistent overestimation. Georgiou et al.'s [narrative-memory study](https://pmc.ncbi.nlm.nih.gov/articles/PMC11852912/) separates recall, recognition and reconstruction of order. These results support asking what a reader actually recovered, separately from fluency, confidence or enjoyment; they do not validate the DPF's ordinal scale.
+Castricato et al.’s [model-theoretic account](https://aclanthology.org/2021.nuse-1.10/) relates the information a narrator makes available to an evolving reader model. In Mengelkamp et al.’s [reading-goal experiments](https://doi.org/10.1002/acp.70036), comprehension effects differed by condition and readers overestimated their performance. In Georgiou et al.’s [narrative-memory study](https://pmc.ncbi.nlm.nih.gov/articles/PMC11852912/), recall after scrambled presentation could follow the original story order. Recall, recognition and reconstruction therefore warrant distinct questions. Use evidence of a reader’s task to assess what they recovered. The ordinal meanings above are this framework’s criteria.
 
-The competing shortcut is to rate a narrative by fluency or engagement alone. A fluent account that turns temporal precedence into cause demonstrates why that shortcut fails for a causal explanation. This pattern therefore evaluates the selected relations and the intended use separately from engagement, accepting the cost of a focused source comparison or reader task when it can change the judgement. For an expressive use without that causal claim, do not invent the same obligation.
+Consider a reader judging a causal explanation. A fluent account can turn precedence into cause, so compare its causal relation with the source. If the question concerns what a reader understood, use their answer or an appropriate task when the available evidence warrants that work. For an expressive account, select the characteristics its purpose actually requires.
 
-Ma et al.'s [story-generation survey](https://aclanthology.org/2026.eacl-srw.39/) identifies continuing coherence, consistency, diversity, control and evaluation problems. Rahman et al.'s [G-KMS](https://www.mdpi.com/2079-8954/14/2/175) adds structured, semantic and engine-execution checks for its RPG setting. Select these checks for the claim being assessed: an observable continuity defect can be judged from the product, while a claim about reader experience needs an appropriate reader basis. Neither source makes a human study a prerequisite for inspecting an ordinary draft.
+Ma et al.’s [story-generation survey](https://aclanthology.org/2026.eacl-srw.39/) identifies continuing challenges in coherence, consistency, diversity, control and evaluation. Rahman et al.’s [G-KMS](https://www.mdpi.com/2079-8954/14/2/175) uses structural, semantic and engine-execution checks for its RPG. Choose a check for the claim at issue. Inspect the draft for a visible continuity defect. Use appropriate evidence from a reader when the claim concerns their experience.
 
 ### NSTD.6:12 - Relations
 
-Uses `A.19.ECS`, `A.17`, `A.18`, `C.2.8`, `C.16`, `C.16.Q`, `C.2.LS`, `A.16.1`, `A.16.2`, `A.6.3.CSC`, `E.17.EFP`, `E.10`, `A.6.P`, `C.33`, `E.22`, `E.23`, `B.4`, `A.10`, `B.3`, `E.17`, `C.35`, and `G.11`. `C.2.8` defines structural amount for all admitted source domains; `C.33` is used when architecture-description adequacy is current. `E.23` consumes `NSTD.6` result rows only after object version, allowed change slice, protected trade-offs, cost and risk, and re-evaluation form are explicit. `B.4` is used only for an evolution claim over a narrative episteme, learning route, or other holon under repeated use; `G.11` handles currentness and refresh. Reopen when evaluated object kind, declared use, source pack, characteristic set, language-state profile, cue or backoff status, coarsening or explanation relation, precision-restoration result, epiplexity basis, value meanings, floor, evidence basis, allowed improvement slice, or low-value repair route changes. Support-map entry: open `Architecture and Narrative Work Bridge` when `NarrativeRenderingEpiplexity` is architecture-relevant or tied to `C.33`; open `Semiotic And Language-Precision Bridge` for language-state, coarsening, explanation, relation, or quality-word repairs; open `Source Use And Refresh Map` when evidence basis or source-currentness supports a value; open `NSTD.Reference:11 — Working meanings and direct source returns` when a characteristic name risks becoming a new ontology.
+Uses `A.19.ECS`, `A.17`, `A.18`, `C.2.8`, `C.16`, `C.16.Q`, `C.2.LS`, `A.16.1`, `A.16.2`, `A.6.3.CSC`, `E.17.EFP`, `E.10`, `A.6.P`, `C.33`, `E.22`, `E.23`, `B.4`, `A.10`, `B.3`, `E.17`, `C.35` and `G.11`. For an improvement comparison under `E.23`, identify the version, change, protected qualities, cost, risk and reassessment. Use `B.4` for evolution under repeated use and `G.11` when changed grounds affect reliance. Reconsider the affected judgement when its object, use, source, characteristics, language or precision conditions, cue, backoff, coarsening, explanation, structural basis, scale, threshold, evidence or proposed repair changes materially. The Architecture and Narrative Work Bridge relates structural recovery under `C.2.8` to the separate architecture-adequacy question under `C.33`. The Semiotic and Language-Precision Bridge covers language, expression and precision, and the Source Use and Refresh Map covers support and currency. Consult `NSTD.Reference:11` for the meanings and sources of the characteristic names.
 
 ### NSTD.6:End
 
@@ -2419,13 +2419,13 @@ Uses `A.19.ECS`, `A.17`, `A.18`, `C.2.8`, `C.16`, `C.16.Q`, `C.2.LS`, `A.16.1`, 
 
 ### NSTD.7:1 - Problem frame
 
-Use this pattern when LLM, NLG, graph-to-text, data-to-text, story-planning, schema-governed generation, or search is used to produce or repair narrative renderings.
+Use this method to generate, inspect or repair a narrative with an LLM, an NLG system, graph-to-text or data-to-text generation, story planning, a schema or search. An existing tool-produced account can itself be the object of evaluation.
 
-First useful move: give the generator the material, the relations it should preserve and the intended reader's task. Obtain a small draft and compare it with the material for omissions, inventions and misleading connections. Evaluate those defects before deciding how to use the draft.
+Identify the material, the relations the narrative should preserve and the reader’s task. When generating a draft, supply those conditions to the tool. Compare the available draft with the material for omissions, inventions and misleading connections. A finding can answer an inspection request or inform a decision about use or repair.
 
-What goes wrong if missed: fluent wording or a valid output schema hides an unsupported cause, missing condition or continuity error.
+Fluent or schema-valid output can introduce a cause the source never established, drop a condition or break continuity.
 
-What this buys: useful automated drafting with a way to detect and repair the losses that matter to the reader.
+A focused comparison can locate such a loss and guide a correction while retaining the speed of automated drafting.
 
 ### NSTD.7:2 - Problem
 
@@ -2436,13 +2436,13 @@ Automated systems can produce fluent narratives that lose a source relation or v
 | Force | Tension |
 | --- | --- |
 | Fast drafting vs source comparison | Generation is fast; finding a consequential omission or invention still requires comparison with the needed content. |
-| Schema control vs source truth | A valid story schema does not prove source fidelity. |
-| Fluency vs correspondence | Fluent text can lose selected structure. |
-| Automation and responsibility | A workflow must identify who decides a consequential use; the generated text does not make that decision. |
+| Schema constraints and fidelity | Correct field structure establishes format compliance. Inspect the values and relations to establish fidelity. |
+| Fluency and correspondence | A smooth transition can turn succession into an unsupported explanation. |
+| Automation and responsibility | A consequential use may require an authorized decision. Identify who holds that authority and, when relevant, who implemented the decision. |
 
 ### NSTD.7:4 - Solution
 
-Work from a content plan to an inspected draft. For a short account, the plan can be a few instructions or marked source relations. Inspect a candidate before accepting, repairing or rejecting it; prior acceptance is not required to evaluate it. Use the optional note below when another worker, an experiment or a maintained workflow needs to recover those choices. Keep only the fields that serve that use.
+For a new account, identify the content and order the use needs, generate the draft and inspect it. A few instructions or marked source relations may suffice for the plan. For an existing narrative, start with the account and the grounds needed for the question. Inspection can give a sufficient finding, support use of the candidate or show what needs repair. Keep a note such as the one below when a collaborator, experiment or continuing workflow needs to recover the choices.
 
 ```text
 GeneratedNarrativeUseNote@Context:
@@ -2456,57 +2456,57 @@ GeneratedNarrativeUseNote@Context:
   schemaConstraintRefs?:
   sourceComparison:
   evaluationRef?:
-  useDecisionOrRepair:
+  findingUseDecisionOrRepair:
   consequentialUseDecisionMaker?:
   architectureSynthesisAssessmentRef?:
   additionalClaimGrounds?:
   revisitCondition?:
 ```
 
-Choose additional checks from the claim being made:
+Use the contribution that settles the remaining question.
 
 | Question | Applicable content |
 | --- | --- |
-| Source selection and any evidence claim | `NSTD.1` for ordinary source selection; `G.2` for SoTA harvesting and synthesis across traditions; the claim's subject grounds for evidence, with `A.10` when the source-to-use account is implicit or must remain replayable. |
-| Generated result will inform architecture work | `C.35`; generation alone does not select it. |
+| Source selection and an evidence claim | Use `NSTD.1` for ordinary source selection, or `G.2` to collect and synthesize the relevant SoTA traditions. Support an evidence claim from its subject sources. Use `A.10` if the source-to-use relation is implicit or must remain reproducible. |
+| Generated content is to inform architecture work | `C.35` evaluates the generated contribution for that use. |
 | Source-to-narrative relation | `A.6.3.NAR` and this DPF |
 | Reader recovery of selected structure | `C.2.8` through `NSTD.6`; `C.33` separately when architecture-description adequacy is the question. |
-| Claimed correspondence between structures | Compare the relevant source and result directly. Use `C.34` for architecture-specific preservation claims; ordinary story continuity does not select it. |
-| Generation procedure | method or method-description owner, with source-pack grounding |
-| Narrative rendering quality evaluation | `NSTD.6`, `A.19.ECS`, `C.16` |
+| Correspondence between structures | Compare the pertinent source and result directly. Use `C.34` to evaluate an architecture-specific preservation claim. |
+| Generation procedure | Establish which method was specified or used, from its description, source material or evidence of execution as the claim requires. |
+| Narrative quality for a reader and use | Use `NSTD.6` and its applicable `A.19.ECS` evaluation or `C.16` measurement basis. |
 | Repeated quality improvement | `E.22` when the quality question is not framed, then `E.23` using `NSTD.6` result rows and re-evaluation |
-| Evidence | The claim's defining or testing rule and adequate source basis; `A.10` when the source-to-use account is implicit or must remain replayable. |
+| Evidence | Use the subject criterion and relevant sources. Use `A.10` for a source-to-use relation that is implicit or must be reproducible. |
 | Assurance | `B.3` |
 | Ethics, harm, bias, affected parties | `D.1` through `D.5` |
-| Responsibility for a consequential use | The applicable organizational assignment or decision authority; precise Work claims use their own FPF grounds. |
+| Responsibility for a consequential use | Identify the applicable assignment or decision authority. If reporting a particular act, establish who did it and on what basis the attribution holds. |
 
-The following operations describe a useful generation cycle. They can be interleaved: an inspected draft may reveal a better content selection or order. A short task can combine planning in one prompt and comparison in one reading. Separate stages or records are useful only when the task, tool or receiving use needs them.
+For new generation, planning and drafting can be interleaved. Inspection may reveal that the content or order needs to change. A short task can combine planning in one prompt and comparison in one reading. Use separate stages or records when the tool, experiment or later work needs them.
 
 | Operation | What to do | Typical failure |
 | --- | --- | --- |
 | Source selection | Select the material and relations or constraints needed for the reader's use. Keep unresolved source claims visible. | A prompt assumption is reported as an established fact. |
 | Content planning | Choose what to include, omit and foreground. Revise the selection when comparison reveals a gap. | The generator silently drops a condition needed for the reader's action. |
-| Discourse or sequence planning | Choose an order or reveal rule through `NSTD.2`. | Plausible prose changes chronology, causal support, proof dependency or continuity. |
-| Realization | Generate wording and viewpoint suited to the use; carry a required voice through NSTD.4's examples or chosen treatment and connected-fragment comparison. | Smoothness disguises an unsupported connection or replaces the intended voice with a generic manner. |
+| Discourse or sequence planning | Use `NSTD.2` to choose the order, when to disclose events and what the expression then allows a reader with the specified prior knowledge to infer. | A plausible sequence changes chronology, support for a cause, proof dependence or continuity. |
+| Realization | Generate wording and viewpoint for the use. For a required voice, use NSTD.4 to choose examples or a trial treatment and compare connected passages. | Smooth prose can introduce a connection or replace the chosen voice with a different manner. |
 | Inspection and evaluation | Compare the draft with its sources and constraints; use `NSTD.6` for the relevant quality questions. | A defect remains invisible because only fluency or schema validity was checked. |
-| Use, repair or reject | Decide from the result and stakes. Re-evaluate changed claims before calling a revision better. | Repeated generation changes the text without resolving the original defect. |
+| Finding, use or repair | Report what inspection established. For a proposed consequential use, apply its criteria and authority. For a repair, compare the changed version with the earlier one before claiming improvement. | Regeneration alone leaves it open whether the original defect was resolved. |
 
 
-For a required voice, provide the generator with the basis selected through NSTD.4: the speaker–reader relationship, suitable source passages or chosen trial, useful expressive observations, content to preserve, and the speaker's actual or fictional access to it. Include neighboring text where the join matters. These can fit in an ordinary prompt; a separate profile is useful only when the continuing work needs one. If a model cannot receive the samples, qualify what a compressed description leaves unresolved.
+For a required voice, use NSTD.4 to identify the speaker’s relation to the reader, suitable source passages or a treatment to try, the expressive choices and content to preserve, and what the speaker knows under the real or fictional conditions. Include adjoining text when the transition matters. An ordinary prompt can carry this information. Keep a separate profile when later work needs it. If the model receives only a compressed description, identify consequential features that description leaves open.
 
-Generate a connected fragment and compare its actual expression under NSTD.4:4.5. A prompt saying “preserve my voice” or the generator's claim that it did so is not that comparison. Repair the particular loss, such as a flattened distinction, invented memory, inappropriate address or broken transition, and inspect the changed span and affected joins. Preserve adequate output. Changing a genre or source example reopens the dependent treatment; it need not restart unrelated content work. Automated or human comparison supports only its actual question and evidence; neither tool use nor an inferred voice profile creates a universal human-approval step.
+Compare a connected passage with the selected treatment through NSTD.4:4.5. A request to preserve a voice establishes the instruction. The written output can reveal a lost distinction, invented memory, inappropriate address or broken transition. For an assessment, report the finding. For a repair, revise that passage and inspect its connections with adjacent text. Retain an adequate result. Revisit the choices affected by a changed genre or source example. Use a human or automated comparison where it can supply the particular judgement required.
 
-For schema-governed generation, distinguish a format check from a content check. A schema can require scene fields, character roles, locations, source references, branches or game-engine inputs. Check whether those fields contain the right relations and satisfy the intended constraints. Record the constraints when later maintenance needs them; use `NSTD.6` for narrative quality and `C.34` when architecture-specific structural preservation is at issue. Neither a valid schema nor a complete note establishes factual accuracy.
+For schema-governed generation, check which required fields are present, then whether their values satisfy the substantive constraints. A schema may specify scenes, characters, locations, source references, branches or engine inputs. Save constraints that later maintenance needs. Use `NSTD.6` for narrative quality, the subject evidence for a factual claim and `C.34` for architecture-specific structural preservation.
 
-For LLM-assisted analysis or theme generation, compare proposed themes with the source excerpts and serious alternative readings through NSTD.9 when the interpretive account is unresolved. The researcher decides which interpretation the report supports and explains its limitations. Generating an interpretation changes what the tool proposes, not what the underlying evidence establishes.
+For LLM-assisted analysis, compare the proposed themes with the excerpts, question and serious alternative readings. Use NSTD.9 when the interpretation remains unresolved. Establish who proposed, challenged and interpreted the theme when its attribution matters. In NITA, the human researcher interprets the evidence and explains the result and its limits.
 
-For generated fiction or explicitly hypothetical scenarios, distinguish choosing events from expressing them. Use NSTD.10 when the next events, their consequences or the participants' changing knowledge and purposes still need construction. Give the generator the fixed premises, available choices and currently important relations; inspect proposals against them. A generated discovery or motivation can change the story plan, but it must remain consistent with the retained premises or lead to an explicit premise revision. A short scene can carry its own plan; an event graph or separate plan is useful when its absence would make those dependencies difficult to maintain. A generated plan can become input to later narrative work once its relevant claims or premises are suitable for that use; a named admission record is not a universal prerequisite.
+For fiction or an explicitly hypothetical real scenario, distinguish choosing events from expressing them. Use NSTD.10 if events, consequences or changes in what participants know or want still need construction. Give the generator the established premises, available choices and consequential relations. Compare its proposals with these. A new discovery or motive can lead the author to retain the premises and revise the event, or deliberately change a premise. A short scene may convey its plan. Use a graph or separate plan where it helps maintain dependencies. A plan whose relevant premises or claims are suitable can supply later narrative work.
 
-Select a probe when its possible result can change the generation method, repair or intended use:
+Choose a further probe when its attainable result can answer a material question about the method, narrative or intended use at a worthwhile cost. Use an adequate existing result when available.
 
-1. **Source perturbation:** change one relevant constraint and compare the next output. A failure to reflect the change exposes a grounding problem. A successful probe supports that tested relation; it does not prove fidelity for every output.
-2. **Structure recovery:** ask a reader to reconstruct the relations needed for the task without seeing the prompt. Retain the first answer and actual assistance. A missing relation may require content or order repair.
-3. **Responsibility:** for a consequential organizational use, establish who decides and can correct or withdraw it. A tool-generated assertion of permission supplies no such assignment.
+1. **Source perturbation.** Change a constraint that requires a difference in the answer and compare the resulting outputs. If the pertinent relation stays wrong or fails to change, examine how the generator used the source. A successful comparison establishes what happened for the tested change and conditions.
+2. **Structure recovery.** Use a reader’s response to the selected task, with access and help specified. To test what can be recovered under conditions excluding the prompt, keep the prompt out of that attempt. Retain the first response and identify what help was used. If a relation is missing, examine whether content, order, access or other conditions explain the loss.
+3. **Responsibility.** For a consequential organizational use, establish the authority to decide, correct or withdraw it. A generated note can convey an existing authorization when its issuer and terms support that use. Verify the actual grant if the wording is the only apparent basis.
 
 ### NSTD.7:5 - Archetypal Grounding
 
@@ -2515,7 +2515,7 @@ Select a probe when its possible result can change the generation method, repair
 #### NSTD.7:5.1 - Generated-narrative pipeline: graph-to-text case
 
 
-An AI agent receives a concept graph and produces a polished explanation. The author compares the needed dependency and example relations with the draft, evaluates consequential losses and repairs the account. The optional record below supports repetition of that comparison.
+An AI agent produces a fluent explanation from a concept graph. Its author compares the draft’s dependencies and examples with the graph and identifies any consequential loss. If correction is needed, the author repairs the account. The optional note below allows that comparison to be repeated.
 
 ```text
 GeneratedNarrativeUseNote@GraphToTextTeaching:
@@ -2526,17 +2526,17 @@ GeneratedNarrativeUseNote@GraphToTextTeaching:
   discourseOrEventPlanRef: didactic dependency order with a contrast reveal
   generatedDraftRef: prose candidate
   sourceComparison: required relations compared with their sentences
-  evaluationRef: relevant NSTD.6 questions and results
-  useDecisionOrRepair: repair any missing prerequisite before the learner uses that inference
-  revisitCondition: source graph, generator behavior or reader result changes
+  evaluationRef: relevant NSTD.6 questions and findings
+  findingUseDecisionOrRepair: repair a missing prerequisite before using the dependent inference
+  revisitCondition: a source graph, generator or reader finding changes in a way that affects the relied-on result
 ```
 
-Pipeline steps:
+The following steps construct and check the teaching account.
 
 1. Select the nodes, relations and returns the learner needs.
-2. Choose an order through `NSTD.2`, then generate a short draft.
+2. Choose the order with `NSTD.2` and generate a short draft that makes the chosen relations available.
 3. Compare the draft with the graph. If it says “B occurs because A” but the graph supports only “A precedes B”, replace the causal claim or obtain the missing causal account.
-4. Use `NSTD.6` to assess the repaired version for the intended reading. The draft need not have been accepted before this assessment.
+4. Use `NSTD.6` to assess the resulting version for the intended reading, whether it is already in use or still a candidate.
 5. Keep the adequate result. For repeated improvement, use `E.23` with the version, changed part, protected characteristics and comparison basis.
 
 
@@ -2546,9 +2546,9 @@ Pipeline steps:
 
 | Probe | Question | Pass condition | Failure repair |
 | --- | --- | --- | --- |
-| Source perturbation | If one source relation changes, does the generated narrative change at the right place? | The affected sentence, order marker, or source-return link changes. | Recover source plan; do not rely on prompt fluency. |
-| Structure recovery | Can a reader reconstruct selected source structure from the output? | Reader recovers nodes and relations needed for declared use and knows lost relations. | Add source-return markers or narrow declared use. |
-| Responsibility | Who decides the consequential use and can correct it? | The applicable assignment or decision authority is recoverable. | Resolve that authority question; apply evidence or assurance checks only when those claims are made. |
+| Source perturbation | Does changing a constraint that matters to the content change the relevant relation in the output? | The sentence, order marker or source return conveys the relation required under the new condition. | Compare the selected source and plan, then locate where the output lost the change. |
+| Structure recovery | Which selected relations can this reader reconstruct from the account under the stated conditions? | The reader correctly recovers the required relations and recognizes the omissions that matter to use. | Locate the loss. Clarify the content, add a usable return, address access or narrow the supported use as appropriate. |
+| Responsibility | Who can decide the consequential use, and who may correct or withdraw it? | The relevant assignments or authorizations can be established. | Resolve the missing authority when that use requires it. Use evidence or assurance methods when those claims are at issue. |
 | Schema use | Does the result satisfy the constraints that matter to its use? | Required fields and their semantic constraints are satisfied. | Repair the generator or result; use executable validation when it can test those constraints. |
 | Improvement evidence | Is the new variant better under the relevant `NSTD.6` characteristics? | Re-evaluation supports the claimed change without losing protected results. A sufficient one-off comparison can finish here. | Keep an unsupported variant as a candidate. Use `E.22` if the question needs framing, or `E.23` for repeated improvement. |
 
@@ -2561,18 +2561,18 @@ Before:
 
 > The generated outline sounds coherent and covers all important ideas, so it can be used as a DPF learning route.
 
-Failure: neither the needed source relations nor the learner's task is identified. “Covers all important ideas” has no comparison basis.
+The claim of adequate coverage lacks a comparison with the source relations needed for the learner’s task.
 
 After:
 
-> The outline selects `EntityOfConcern`, forces, solution, neighboring-pattern exits and the improvement loop, ordered by their teaching prerequisites. Compare those relations with the source and try the intended reconstruction task through `NSTD.8` and `NSTD.6`. A worked design estimate can support a provisional lesson; a claim about what learners actually recover requires a reading or teaching trial. `C.35` becomes relevant only if the generated result is being used to inform architecture work.
+> The outline selects `EntityOfConcern`, forces, solution, neighbouring-pattern exits and the improvement loop, ordered by their teaching prerequisites. Compare those relations with the source. Use `NSTD.8` and `NSTD.6` for the intended reconstruction task. A worked design estimate can support a provisional lesson. To report what learners recovered, use suitable evidence of their reading with the assistance available. Use `C.35` if the result is intended to inform architecture work.
 
 
 
 #### NSTD.7:5.4 - Generated-storycraft boundary
 
 
-For a franchise continuation, compare the generated scene with the selected continuity, premise and character-motivation constraints. A surprising event is acceptable when those relations support it; if it relies on a contradiction, repair the event or change the stated premise. Source perturbation can test a recurring generator problem. A private critique and a publication have different permissions questions. `NSTD.6` can evaluate the candidate before either use is accepted.
+For a franchise continuation, compare the generated scene with the selected canon, premises and character motives. A surprising event can fit them. For a contradiction, report it, repair the event if asked, or change a premise where the project permits that choice. A source perturbation can help investigate a recurring problem with the generator. Consider the permissions relevant to private critique or publication. `NSTD.6` can evaluate the candidate for either use.
 
 
 
@@ -2583,55 +2583,55 @@ For a franchise continuation, compare the generated scene with the selected cont
 
 | Illustrative condition | Consequence for use |
 | --- | --- |
-| Fluent output contradicts a required source relation. | Repair that relation or narrow the proposed use. |
-| Needed source relations are present, but a consequential reading remains ambiguous. | Use a targeted recovery probe or clarify the wording. |
-| The inspected result supports the intended use at an acceptable cost. | Use it; no separate generation dossier is required. |
+| Fluent output contradicts a required source relation. | Identify the conflict. For the proposed use, repair it or restrict the use to what remains valid. |
+| The source relations are expressed and a consequential reading remains ambiguous. | Report the ambiguity. For a claim about a particular reading, use the available response or a suitable new probe. Clarify the wording if the intended use requires it. |
+| Inspection supports the intended use at acceptable cost. | Return or use the account under the established conditions. |
 | A method improvement is claimed. | Compare versions under the same relevant conditions, including protected characteristics. Repeated or heterogeneous probes support only the generality they actually test. |
 
 
 
 
-#### NSTD.7:5.6 - FPF owner teaching
+#### NSTD.7:5.6 - Inspect a generated explanation, recap, game or analysis
 
 
-`NSTD.7` connects content planning, realization and evaluation. A generated account has claims conveyed by a particular expression; its fluency alone does not establish those claims. Use `C.2.8` for reader recovery, the relevant subject grounds for evidence claims, and `B.3` for actual named assurance claims. Use `A.10` when a source-to-use account is implicit or must remain replayable. `C.35` is restricted to generated or discovered results intended to inform architecture work. Source changes and changed generator behavior can reopen an earlier comparison.
+Content planning, realization and inspection answer different questions. Inspect which claims the generated expression conveys. Use `C.2.8` for the selected structure a particular reader can correctly recover. Use subject grounds for evidence, `A.10` for an implicit source-to-use account or one that must remain reproducible, and `B.3` for a specified assurance claim. Use `C.35` when the generated material is intended to inform architecture work. Reconsider the affected comparison when its source or the generator’s behaviour changes in a consequential way.
 
-An LLM drafts an explanation of FPF pattern use from notes. Compare its selected relations, order and returns with those notes and the applicable pattern content. `NSTD.6` can assess the candidate immediately; if the necessary subject basis is missing, it leaves that amount unassigned while retaining independently supported defect findings. An absent generation journal does not erase visible product qualities or defects.
+An LLM drafts an explanation of FPF pattern use from notes. Compare its selected relations, ordering and source returns with the notes and the applicable patterns. Use `NSTD.6` to assess the draft. If the necessary subject or reader basis is missing, leave the structural amount unassigned and report any defect that inspection does establish. To establish how it was produced, use pertinent records, version history or another qualified account of the work. If those grounds are missing, report the historical limit.
 
-A graph-to-text system turns an event graph into a match recap. The event graph, source timestamp, uncertainty markers, and official-result refresh route are admitted source basis for this rendering. If the system adds causal explanations not in the graph, those claims are not admitted by graph-to-text success. Repair by lowering causal language, adding source return, or opening the evidence owner.
+A graph-to-text system produces a match recap. The event graph, timestamps, uncertainty markers and official results can establish the documented sequence and when to refresh it. If the recap attributes a goal to a cause absent from the graph, identify the gap. Report the sequence and what remains open, or obtain evidence of the cause when the question needs it.
 
-A game story-planning pipeline generates a branching scene. The schema may require objective, location, actors, traits, constraints, and available actions. `NSTD.7` treats those fields as method and source-plan support, not as proof of playable, coherent, or ethically acceptable narrative. Structural, semantic, executable, and human probes remain separate from fluency.
+A game system generates a branching scene. The schema specifies its objective, location, actors, traits, constraints and available actions. Check required fields for format, the scene for continuity and the intended action for reachability in the engine when it must run. To report a player’s experience, use relevant observations. Evaluate any ethical concern under the conditions it raises.
 
-An LLM proposes themes from interview notes for qualitative narrative analysis. The generated theme list is not the researcher's interpretation by default. Human interpretive agency remains live: the researcher checks source excerpts, reflexive stance, alternative readings, and admissible use before any narrative rendering or report uses the generated material.
+In a NITA study, an LLM proposes themes from interview notes. The human researcher considers their own standpoint, reads excerpts, tests proposed themes against alternatives and decides what the report supports at the individual-case, cross-case or dataset level in question. Their interpretation and its limits are the result used in the report.
 
 Use these examples to distinguish evaluation from acceptance:
 
 | Generated account | Current evaluation or use decision | Reason |
 | --- | --- | --- |
 | A fluent summary with an unknown source. | Assess visible narrative defects; leave source fidelity unresolved. | The source relation cannot yet be compared. |
-| A graph-to-text candidate with event IDs and a stated order. | Evaluate through `NSTD.6`, then use or repair it. | Its needed relations and losses can be inspected without prior acceptance. |
+| A graph-to-text candidate with event IDs and a stated order. | Identify the sequence the text presents. If the source is available, compare it with the graph to establish what was preserved or lost. | The draft can be inspected before acceptance. Without adequate source evidence, leave fidelity open. |
 | A schema-valid RPG scene contradicting a selected continuity constraint. | Unsuitable for that source-faithful use until repaired. | Field validity does not establish continuity. |
 | An FPF seminar outline with source references and reconstruction tasks. | Evaluate its teaching route through `NSTD.8` and `NSTD.6`. | Product quality and actual learning-effect claims use different evidence. |
-| A homotopy metaphor with an unstated analogy limit. | Diagnose the missing condition and clarify it. | An intuitive explanation can be evaluated before it is fit for proof-related reliance. |
+| A homotopy metaphor with an unstated analogy limit. | Identify the omitted formal condition. Clarify it if the account must support proof-related use. | An intuitive reading and a mathematical proof require different grounds. |
 
 
-When claiming improvement from automated repair, retain the compared versions or changed spans, the relevant quality results, protected trade-offs, and any costs or risks that affect the claim or continuing use. Keep prompt or method changes when the comparison, continuing workflow or a claim about the repair process needs them. A one-off correction can finish with the changed passage and its source comparison. A variant can be more fluent and still worse on epiplexity, source return or agency discipline.
+For an improvement claim, retain the versions or spans compared, the relevant `NSTD.6` results, protected qualities and material costs or risks. Keep the changed prompt or method when it bears on the comparison, a continuing workflow or a claim about how the repair was performed. A single correction can be settled by comparing the changed passage with its source. Greater fluency can coincide with less recoverable structure, a lost source return or a mistaken attribution of agency.
 
-Pipeline variants by source type:
+The source and intended use affect which plan and comparison will help.
 
-| Source type | Content plan | Discourse or story plan | Admission danger | Evaluation focus |
+| Source type | Content to select | Order or story plan | Mistake that changes the use | What to evaluate |
 | --- | --- | --- | --- | --- |
 | Knowledge graph or event graph | Select nodes, edges, event ids, uncertainty, and omissions. | Choose traversal, grouping, and return links. | Treating graph coverage as semantic truth. | Epiplexity, ordering recoverability, relation strength. |
 | Architecture source pack | Select structures, candidate trade-offs, decisions, telemetry, and residual exceptions. | Use decision-memory or trade-off route. | Treating generated explanation as architecture decision or assurance. | Structural-information capture, correspondence, source return. |
-| Fictional canon or source pack | Select canon constraints, premise, agency, continuity, and non-use boundary. | Use causal plot plus reveal order. | Treating private generated scene as authorized continuation. | Continuity, character agency, causal support, rights boundary. |
+| Fictional canon or source material | Select the relevant premises, character agency, continuity constraints and conditions of use. | Choose a plot and an order of disclosure suited to the story. | Assuming permission to publish from permission for private critique. | Continuity, character agency, support for the selected events and the scope of rights. |
 | Teaching source spine | Select concepts, dependencies, examples, counterexamples, tasks. | Use didactic prerequisite route with repeated anchors. | Treating generated outline as source framework. | Reconstruction tasks, learning-route quality, source-return readiness. |
-| Qualitative notes or interviews | Select excerpts, themes, alternative readings, reflexive stance. | Use analysis narrative with traceable source excerpts. | Treating generated theme as researcher judgment. | Human interpretive agency, source traceability, ethical boundary. |
+| Interviews used in NITA | Select excerpts, tentative themes, alternative interpretations and the researcher’s standpoint. | Develop the report with traceable excerpts. | Attributing an LLM proposal to the researcher as an accepted interpretation. | The human researcher’s interpretation, the source relations and the ethical conditions. |
 
-If a pipeline variant requires a source type not covered by the current source pack, mark the case as a source-refresh trigger rather than silently generalizing. A graph-to-text claim, for example, may require a more specific graph-to-text source than a general NLG survey. A game narrative pipeline may need executable or playability probes that a plain text-generation source does not supply.
+When applying a generation method to a new type of material, check whether the available source covers that use. For a graph-to-text claim, a particular method or study may supply grounds a general NLG survey leaves open. An engine may require executable or playability checks absent from text-generation research. If the question remains open, seek the missing evidence or state the scope the present sources support.
 
 ### NSTD.7:6 - Bias-Annotation
 
-Fluency can conceal a missing condition or invented cause. Inspect the relation that matters to the reader, rather than inferring source fidelity from style. The opposite error is to require a complete production dossier before evaluating an observable defect. Select additional checks from the claim and consequence, and keep candidate evaluation available throughout drafting.
+Inspect the relation that matters to the reader. A visible continuity error can be established directly from the candidate and canon even when its production history is unavailable. A fluent passage may still assert an unsupported cause. Choose additional checks for the particular claim and its consequences.
 
 ### NSTD.7:7 - Conformance Checklist
 
@@ -2640,26 +2640,26 @@ Fluency can conceal a missing condition or invented cause. Inspect the relation 
 | `CC-NSTD7-1` | The generated account is compared with the source relations or constraints needed for its intended use. |
 | `CC-NSTD7-2` | Candidate evaluation can inform use, repair or rejection. `C.35` is selected only for a result entering architecture work. |
 | `CC-NSTD7-3` | Source plan, plot or event plan, schema constraints, and generation method are named when relied on. |
-| `CC-NSTD7-4` | Fluency, coherence, controllability, schema compliance, and story planning do not become authority, evidence, or admission. |
-| `CC-NSTD7-5` | Responsibility and permission are established when the proposed use needs them; a generated assertion does not supply that authority. |
+| `CC-NSTD7-4` | Fluency, coherence, controllability, schema validity and planning have criteria appropriate to those properties. Claims about evidence, authorization or admission have their own grounds. |
+| `CC-NSTD7-5` | When a use requires responsibility or permission, establish the applicable assignment or authorization and its terms. |
 | `CC-NSTD7-6` | An improvement claim identifies the compared versions or changed part and is supported by `NSTD.6` re-evaluation, with relevant costs, risks and protected qualities considered. An already-scoped one-off comparison can be sufficient; `E.22` frames an unresolved improvement question and `E.23` supports repeated improvement. |
 
 ### NSTD.7:8 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | What fails | Repair |
 | --- | --- | --- |
-| Fluency as fidelity | A needed source relation is not inspected. | Compare source and output, diagnose through `NSTD.6`, then repair or restrict the use. |
+| Fluency as fidelity | A necessary source relation was omitted or changed. | Compare the source and output. Report the loss or repair it for the intended use. Use `NSTD.6` when quality for that use is in question. |
 | Schema compliance as source fidelity | The story satisfies a schema but changes a required source relation or constraint. | Compare and repair the changed relation directly; use `NSTD.6` for narrative quality. `C.34` applies to architecture-specific preservation, `C.2.8` to reader-relative structural amount, and `C.33` to architecture-description adequacy. |
-| Generated permission as authority | A tool's wording is taken to authorize a consequential action. | Establish the applicable assignment or decision authority independently of that wording. |
+| Treating a statement of permission as a grant | Wording in a draft is used to authorize consequential action. | Establish the issuer, scope and terms of the decision the wording purports to convey. |
 | Regeneration as improvement | Another fluent variant is treated as an improvement without a supported comparison. | Compare the candidate and previous version through `NSTD.6`, keeping needed relations and costs in view. Use `E.22` for an unresolved comparison question and `E.23` when repeated improvement is wanted. |
 
 ### NSTD.7:9 - Consequences
 
-The benefit is automated drafting with a tractable source comparison and repair cycle. Its cost depends on the relations and consequences being checked; a small adequate account can be retained without a separate dossier.
+Automated drafting can save time while retaining a manageable comparison with the source. The work needed to inspect or repair an account depends on which loss would matter to its use. A small adequate account can be returned directly.
 
 ### NSTD.7:10 - Rationale
 
-Planning makes selected content and order available for control; inspecting the resulting narrative checks whether that control succeeded. Evaluation therefore belongs inside the generation cycle and can support a later acceptance decision.
+A plan specifies intended content and order. Comparing the resulting narrative with that plan establishes where they agree or differ. To explain the plan’s contribution to generation, examine evidence of how the tool or author used it. Inspection can settle its own question or inform acceptance or further drafting.
 
 ### NSTD.7:11 - SoTA-Echoing
 
@@ -2668,26 +2668,26 @@ Planning makes selected content and order available for control; inspecting the 
 #### NSTD.7:11.1 - Operational comparison against domain vocabulary
 
 
-Narratology distinguishes story, discourse and presentation; generation methods distinguish selected content, its order and its realization. Use these distinctions to locate a defect: omitted material, misleading sequence, unsupported relation or wording. A tool may combine these operations internally, so evaluate the output without inventing a production history.
+Narratology distinguishes story, discourse and presentation. Generation methods distinguish content selection, ordering and realization. Use these distinctions to locate an omission, misleading sequence, unsupported relation or consequential wording choice. A tool can combine the operations internally. Inspect the resulting account and use evidence of execution when the question concerns how the tool produced it.
 
-Keep domain terms when they help select or repair the operation. Resolve an ambiguity where it changes the claim or intended use; another FPF pattern is useful only if its particular question is at issue.
+Keep a domain term when it helps identify or repair the operation. If an ambiguity affects the claim or use, resolve it directly or use the FPF method for the remaining question.
 
-Gatt and Krahmer's [NLG survey](https://arxiv.org/abs/1703.09902) (2018) distinguishes planning and realization. Alabdulkarim, Li and Peng's [story-generation survey](https://aclanthology.org/2021.nuse-1.8/) (2021) reviews controllability, commonsense, characters and evaluation limits. Cardona Rivera, Jhala, Porteous and Young's [narrative-planning review](https://ojs.aaai.org/index.php/ICAPS/article/view/31509) (2024) examines plan-based narrative methods. Kumaran, Rowe, Mott and Lester's [SceneCraft](https://ojs.aaai.org/index.php/AIIDE/article/view/27504) (2023) generates interactive scenes from author instructions; Rahman, Yu and Cho's [G-KMS](https://www.mdpi.com/2079-8954/14/2/175) (2026) tests structured generation, repair and execution in a compact Unity RPG setting. Ma et al.'s [survey](https://aclanthology.org/2026.eacl-srw.39/) (2026) identifies continuing coherence, consistency, diversity, control and evaluation problems. Nguyen-Trung and Nguyen's [NITA](https://doi.org/10.1080/14780887.2026.2638348) (2026) assigns interpretive judgement to the researcher in its qualitative-analysis method. These contributions support different operations and conditions, not one compulsory workflow for every narrative.
+Gatt and Krahmer’s [NLG survey](https://arxiv.org/abs/1703.09902) (2018) distinguishes planning from realization. Alabdulkarim, Li and Peng’s [story-generation survey](https://aclanthology.org/2021.nuse-1.8/) (2021) examines control, commonsense, characters and evaluation. Cardona Rivera, Jhala, Porteous and Young’s [narrative-planning review](https://ojs.aaai.org/index.php/ICAPS/article/view/31509) (2024) covers plan-based methods. Kumaran, Rowe, Mott and Lester’s [SceneCraft](https://ojs.aaai.org/index.php/AIIDE/article/view/27504) (2023) generates interactive scenes from instructions. Rahman, Yu and Cho’s [G-KMS](https://www.mdpi.com/2079-8954/14/2/175) (2026) tests structured generation, repair and execution in a compact Unity RPG. Ma et al.’s [survey](https://aclanthology.org/2026.eacl-srw.39/) (2026) identifies problems in coherence, character consistency, diversity, plot control and evaluation. Nguyen-Trung and Nguyen’s [NITA](https://doi.org/10.1080/14780887.2026.2638348) (2026) gives the human researcher responsibility for interpretive judgement in its qualitative-analysis method.
 
-Operational payload:
+Use these contributions for the question they address.
 
-- From NLG, keep content planning, discourse planning, and realization separate. If a tool returns only final prose, inspect its source relation and ordering; reconstruct a plan when it helps repair or reproduce the result. A present-product judgement does not establish the tool's hidden production history.
-- Story-generation surveys motivate testing the characteristics that matter to the output's use, including coherence, control or diversity. Their findings do not create a universal admission form.
-- A plot or event plan guides generation. Compare the realized story with its intended goals and constraints rather than infer success from the plan.
-- For an output that must execute in an engine, inspect parsing, state reachability and relevant semantic constraints. A successful schema check alone leaves other narrative qualities untested.
-- From interactive game generation, executable or playability probes may be needed when the narrative must function inside an engine or workflow; text fluency alone is the wrong evidence.
-- In the NITA method, the qualitative researcher interprets proposed themes in relation to excerpts, questions and alternatives. Preserve that responsibility when using this method; it is not a claim that all automated narratives require a human interpreter.
+- Distinguish content planning, discourse planning and realization. For final prose, inspect its source relations and order. Recover the plan when it helps explain, repair or reproduce the result. To report what happened during generation, seek evidence of that work.
+- Select the characteristics the proposed use needs, such as coherence, controllability or diversity, and examine the output under those criteria.
+- Use a plot or event plan to guide generation. Compare the resulting story with its goals and constraints to see how far the plan was realized.
+- For a scene that must execute, check parsing, state reachability and the semantic constraints that matter in the engine.
+- For technical playability, use a suitable execution test, exhaustive check of the applicable state model or existing play evidence to establish the reachable actions in question. For how a player experienced the scene, use evidence of the player’s response.
+- In NITA, the human qualitative researcher interprets the tool’s tentative themes in relation to excerpts, the question and alternatives. Preserve that contribution when using NITA.
 
-The practical consequence is to preserve the speed of automated drafting while examining the particular relations, constraints and outcomes on which the receiving use depends.
+Use the comparison to decide whether the particular narrative serves the requested purpose. Keep unresolved claims within their evidenced limits.
 
 ### NSTD.7:12 - Relations
 
-Uses `G.2`, `C.35`, `A.6.3.NAR`, `C.2.8` for structural amount, `C.33` for architecture-description adequacy, `C.34`, `NSTD.6`, `A.19.ECS`, `C.16`, `E.22`, `E.23`, `A.10`, `B.3`, `D.1` through `D.5`, and `G.11`. `E.22`/`E.23` use the evaluated version, changed part and relevant `NSTD.6` results; a retry is an improvement only when comparison supports that conclusion. `C.35` applies when the result informs architecture work; `C.34` to architecture-specific preservation; `G.2` to SoTA harvesting and synthesis across traditions. Reopen when the selected material, generator, method, schema, intended use, evaluation result or relevant research changes. Support-map entry: open `Source Use And Refresh Map` when generation, NLG, story-planning, schema, or source-pack claims are relied on; open `NSTD.Reference:11 — Working meanings and direct source returns` when generated source plan, plot plan, schema constraint, admission, correspondence, or responsibility words blur object kinds; open `Semiotic And Language-Precision Bridge` when prompt output changes language state, coarsening, cue, or quality wording.
+Uses `G.2`, `C.35`, `A.6.3.NAR`, `C.2.8`, `C.33`, `C.34`, `NSTD.6`, `A.19.ECS`, `C.16`, `E.22`, `E.23`, `A.10`, `B.3`, `D.1` through `D.5` and `G.11`. `C.2.8` gives the common structural amount, `C.33` architecture-description adequacy, `C.34` architecture-specific preservation and `C.35` the use of generated material in architecture work. Use `G.2` to synthesize SoTA across traditions. For an improvement comparison under `E.22` or `E.23`, identify the versions, change and relevant `NSTD.6` results. Reconsider a finding when changed material, generator, method, schema, use, evidence or research affects what it supports. See the Source Use And Refresh Map for generation and source claims, `NSTD.Reference:11` for the meaning of plan, constraint, admission, correspondence and responsibility, and the Semiotic And Language-Precision Bridge for a change of language state, coarsening, cue or evaluative wording.
 
 ### NSTD.7:End
 
@@ -2697,64 +2697,64 @@ Uses `G.2`, `C.35`, `A.6.3.NAR`, `C.2.8` for structural amount, `C.33` for archi
 
 > **Type:** DPF pattern body
 
-> **Primary EntityOfConcern:** designing and repairing a narrative learning route so learners can reconstruct and use the relevant source relations.
+> **Primary EntityOfConcern:** a narrative learning route and the source relations learners need to reconstruct and use.
 
 ### NSTD.8:1 - Problem frame
 
-Use this pattern when a complex source structure must be taught, explained, or learned through a narrative route, and the route must preserve enough structure for learners to reconstruct and apply it later. The governed object is the instructional route and its relation to source structure, not every explanation or reference publication. A publication used only for lookup or a professional decision need not become a course.
+Use this method to design or assess a narrative learning route for a complex subject. Start from what learners will need to reconstruct or do. A source publication may already serve a lookup or professional decision directly.
 
-First useful move: begin at one consequential transition. Recover the current question, what the learner has already met, the contribution now needed and the support actually available there. Try the next task with that support, then repair the missing connection or choose the next useful teaching move.
+Begin at one consequential transition. What question is open, what material has the learner encountered and what will the next task require? Inspect the support available there. A missing prerequisite can be visible in the material. To find out how someone used it, examine a suitable earlier attempt or arrange one if the question warrants it.
 
 Choose the learning order from the learner's next action and intended later use. The source organization can support lookup, a first explanation, or a comparison of what several cases share. When later work requires choosing among similar cases, a route that names the topic for every task can leave that choice unpractised. Keep the source organization available and select the comparisons, mixed tasks, or later returns that the learning purpose requires.
 
-What goes wrong if missed: the explanation is engaging and memorable, but learners retain examples, slogans, analogies, and mood while losing architecture, relation records, proof obligations, pattern-use routes, source-return conditions, or improvement cycles.
+A learner may remember the examples and lose the relations needed to use them. In a technical lesson these can include the architecture, the conditions of a proof, when to select a method, where to verify a claim or how to improve a result.
 
-What this buys: a route that helps learners use the source ideas, with the needed material available when the next task requires it.
+A usable route makes the material available where a learner needs it to explain a relation or perform the next task.
 
 ### NSTD.8:2 - Problem
 
 A learning narrative uses sequence, examples, repetition, analogy and motivation to help the learner reconstruct and use source ideas. Those choices can also conceal a prerequisite or make an illustrative route appear to be the only way to perform a method.
 
-A course organized by topic can supply the method choice in each exercise's heading. If later work requires learners to make that choice themselves, successful exercises within those blocks leave an important action unpractised. The author must choose which cases learners need to compare, what material makes the comparison possible, and where independent selection belongs. Grouping episodes by case family and connecting the reasoning within an episode answer different design questions. A useful learning route preserves the relations needed for each action while choosing the order and later returns for the intended learning result.
+A topic heading can tell learners which method to use. Success inside that block leaves open whether they could choose among methods without the heading. Select cases that reveal the relevant similarities or differences, and supply enough material for learners to work with them. Arrange the order of exercises and the reasoning within each exercise for the actions they support.
 
 ### NSTD.8:3 - Forces
 
 | Force | Tension |
 | --- | --- |
-| Didactic route vs source corpus | Learning order may differ from publication order, proof order, architecture order, or framework order. |
-| Source organization vs learning order | Source modules group material for reference and reuse; learning episodes arrange it for a learner's action. The useful grouping can coincide or differ. |
+| Learning order and source order | A sequence for teaching can differ from a publication’s organization, a proof’s dependencies or the architecture being explained. |
+| Reference and learning use | Keep source modules accessible for lookup. Use their grouping for teaching when it supports the learner’s next action. |
 | Shared basis vs distinguishing cases | A block can make a common relation visible across instances; a close comparison or mixed task can expose differences between similar alternatives. The learner's missing operation determines which arrangement is useful. |
-| Coverage vs spaced retrieval | A course can cover every topic once and still leave learners unable to retrieve earlier structures when they matter later. |
-| Engagement vs reconstruction | Learners may enjoy a story, analogy, example, or lesson without reconstructing source structure. |
-| Local teaching evidence vs package authority | Test-run evidence helps a learning route, but does not by itself make the package authoritative. |
+| Coverage and later retrieval | Encountering every topic once leaves open what learners can retrieve at the time of later use. |
+| Engagement and reconstruction | A learner may enjoy an analogy and still miss the relation it illustrates. Ask what they can reconstruct when that is the learning goal. |
+| Local teaching and authority | A lesson trial can show what particular learners did. Authority for a subject claim comes from its relevant source or practice. |
 
 ### NSTD.8:4 - Solution
 
-Design the needed transition and its continuation. If learners must interpret unfamiliar material, teach how to form and compare the account through NSTD.9; do not supply the interpretation in every prompt and then treat agreement as independent interpretation. If the task is to create a story, NSTD.10 supplies the construction to practise, including a changed premise. A learning route about a proof or technical method instead uses that subject's operations and standards of justification. These are different learning results, although all may use narrative presentation.
+Design the transition the learner needs and connect it to its next use. If learners must interpret unfamiliar material, teach them how to develop and compare interpretations through NSTD.9. To assess their independent choice, give them a question that leaves the choice to them. For creating a story, use NSTD.10 and let learners work through a changed premise. A narrative lesson on a proof or technical method takes its operations and criteria from that subject.
 
-The optional route note below helps when a team maintains a course, compares versions or coordinates several teaching materials. Keep the fields that those uses need; a short explanation does not require a full course record.
+A course team may want a note connecting several lessons, comparing versions or keeping their source relations traceable. Use the fields its work needs.
 
 ```text
 LearningNarrativeRoute@Context:
   learnerUse:
-  sourceStructureSpineRefs:
+  sourceRelationsNeeded:
   unfoldingStructureRefs?:
   demonstrativeSliceRefs?:
   sourceArchitectureRef?:
-  learningRouteArchitectureRule:
-  learningStepOrderingRule:
+  organizationOfLearningEpisodes:
+  reasoningAndOrderWithinEpisodes:
   interleavingPlanRefs?:
   spacingOrRetrievalScheduleRefs?:
-  recurringAnchorRefs?:
-  sourceReturnLinkRefs:
+  recurringExamplesOrPrompts?:
+  whereToReturnToTheSource:
   learnerReconstructionTaskRefs:
   applicationTaskRefs?:
-  engagementBoundaryRef?:
-  narrativeRenderingQualityEvaluationRef:
+  intendedUseOfInterestOrMotivation?:
+  routeEvaluationIfNeeded?:
   improvementLoopInputRef?:
   learningPublicationCarrierRefs:
-  blockedTopicOverread?:
-  nonAdmissibleUse:
+  choicesSuppliedByTopicLabels?:
+  limitsOnWhatTheResultsShow:
   refreshCondition:
 ```
 
@@ -2762,67 +2762,67 @@ A maintained course may have separate lessons, slides, exercises and recordings.
 
 When teaching a constraint-governed unfolding structure, make the wider possibilities recoverable alongside the demonstrated path. Teach an omitted alternative or stop condition at the point where it changes the learner's action. A route note can link the wider structure and the taught slice when that helps maintenance.
 
-The following design questions connect the route's components. They can be addressed together and revisited after an attempted task; each need not become a separate pass or work product.
+These questions can guide planning or the examination of an existing route. Return to the affected question when an attempt supplies new information.
 
 | Design question | Useful result | Failure it addresses |
 | --- | --- | --- |
 | Which source ideas will the learner need? | The relations and operations needed for later reconstruction or application. | A memorable example with no usable connection to the subject. |
 | Does the source organization suit learning here? | A reasoned choice of learning order, with the source organization still accessible. | Copying a reference topic map without considering the learning task. |
 | What must be available before the next task? | A sequence or usable return that supplies the prerequisite at that point. | Requiring an operation before its necessary relation is available. |
-| Which comparison or selection does the learner need? | The relevant cases, material sufficient for the intended action, and an order chosen through HCD.10:4.5 when grouping or mixing cases matters. | A needed relation remains hard to notice, or the topic label supplies a choice the learner must later make. |
-| Must the idea remain available after a delay? | Suitable later retrieval attempts and feedback. | Immediate recognition mistaken for durable retrieval. |
+| Which comparison or choice does the learner need? | Select cases with enough material to see the shared relation or distinguishing condition. HCD.10:4.5 helps choose an order for human practice when that choice matters. | The relevant difference is unavailable, or the heading makes the choice for the learner. |
+| Must learners retrieve the idea after a delay? | Compare an earlier demonstration with work after the relevant interval, under the help permitted then. Account for intervening practice that matters to a claim of retention. | Immediate recognition alone leaves later retrieval open. |
 | How does an aid connect to the current question and next use? | A meaningful term, diagram, question or case with its relation recoverable. | Remembering the aid but not what to do with it. |
-| What must the learner recover or perform? | A task that exposes the needed distinction or operation. | Satisfaction mistaken for practical capability. |
-| What result would change the route? | A scoped `NSTD.6` judgement and a worthwhile next repair. | Treating every teaching change as an improvement. |
+| What must the learner recover or perform? | A task whose response can show the relevant distinction or operation. | A report of satisfaction alone leaves capability open. |
+| What result would change the route? | Use an applicable NSTD.6 assessment to retain a sufficient version or choose a worthwhile repair. | A change is credited with improvement before its effect on the relevant quality is established. |
 
-Start from the intended reconstruction or application task and the learner's available preparation. If learning depends on recognizing a common relation across cases or distinguishing similar alternatives, apply HCD.10:4.5 to choose the comparison and its order. That operation can retain a block, bring contrasting cases together, or mix further cases for selection. Use its result to decide which cases and deciding relations the narrative must make available. When the basic operation still needs explanation or supported practice, supply that contribution through the subject method and §4.1.
+Start from the intended task and the preparation learners can use. When people must notice a common relation or distinguish similar alternatives, HCD.10:4.5 helps choose whether to retain a block, place cases side by side or mix further cases for practice in choosing. Make the deciding relations accessible in the narrative. When the basic operation itself needs explanation or supported practice, use the subject method and §4.1.
 
-Choose the material needed for one learner action or connected attempt as the episode you are arranging. For a direct comparison, two sentences in one paragraph may supply the relevant cases and difference. Applying a method to a system may require a sustained explanation and several cases across multiple pages. Paragraphs and pages carry the material; the intended action and its necessary support determine the extent to keep available together.
+Arrange an episode around one action or connected attempt. A two-sentence comparison can expose the difference between two alternatives. Applying a method to a system may need several pages and cases. Keep the information needed for the action accessible together.
 
-Then arrange the episodes and the reasoning within them. Keep the relation between successive claims recoverable: what question they address, what the next claim uses, or how a case changes the current account. Decide any further alternation within an episode from the comparison or reasoning needed there. A mixed sequence of practice tasks can therefore contain sustained explanations, each with its own order of claims.
+Order the episodes and the reasoning within them. A reader should be able to recover the question the next claim addresses, the premise it needs or how the next case changes the account. Alternate within an episode when the comparison calls for it. A mixed sequence of tasks can contain a sustained explanation for each.
 
-A question can remain open while intervening cases prepare its later development or resolution. Preserve the question across the switch and arrange the return; make the necessary relation available by the time a task depends on it. Use §4.1 to distinguish this purposeful preparation from a lost connection or an unsupported demand. A short comparison, a sustained explanation and a deliberate later payoff can each preserve the learner's thread.
+An author can open a question, develop it through intervening cases and return to it later. Let the learner find the earlier question again. Make its needed relation accessible before a task requires it. Section 4.1 helps distinguish a preparatory attempt from a missing connection or support.
 
-When later availability matters, select spaced returns through HCD.10:4.4, choosing retrieval and permitted support separately. Keep the members of a comparison jointly accessible when their relation is needed, even if practice with that comparison returns after a delay. Judge the design through the learner action under its actual support, using §4.1 and NSTD.6 for the corresponding observation.
+When people need later access to what they learned, use HCD.10:4.4 to choose a suitable interval. Decide separately what they must retrieve and what support they may use. Keep the cases of a needed comparison jointly accessible during that task, even when practice resumes after a delay. To judge actual use, examine the learner’s response under those conditions (§4.1 and NSTD.6).
 
 
 
 #### NSTD.8:4.1 - Check attachment and support at the next use
 
 
-Inspect the relation between a block or learning aid and both its surrounding context and its later use. What question is active, what distinction or action does this example, image, explanation or exercise enable, why is it needed here, and where will its result be used? A question, worked example, caption, short transition or later payoff can carry that relation. There is no compulsory five-field form and no quota of connective phrases. A repeated word is not enough when the reader still cannot connect the two uses.
+Connect the teaching material to the question at hand and to the use that follows. What can a learner do with this example, diagram or exercise, and where will that matter? A question, caption, worked example, short transition or later return may supply the connection. Check the endpoints of a repeated term or a diagram arrow when its meaning is unclear.
 
-Then inspect the route prefix: the material encountered up to the point where a new reconstruction or action is required. Identify the relevant distinctions already introduced, necessary prerequisites expected of this audience, newly introduced objects or relations, still-open questions and the means available now. Ask the reader to use those means on the next task. A relation shown only much later cannot support the current action unless a usable return makes it available. An overview is useful when it exposes the needed relation, not merely because it lists topics.
+Examine what is available by the time of the next task. Identify what this audience can already use, what the route has introduced, which questions remain open and which prerequisites the task needs now. An overview or a link can supply a missing relation if it makes that relation usable at this point. Inspect the material for a design judgement. Use a learner’s attempt when the question concerns what that learner actually did.
 
-Keep three different repair questions separate:
+Choose the continuation that fits the transition.
 
-- A missing attachment: restore the relation between the active question, the block or aid and its next use; correct a wrong return or an unexplained visual edge.
-- An unsupported new demand: supply the necessary contrast, map, worked operation, recap, accessible representation or introduction order before relying on that operation. Check the promised prerequisite and assistance first; do not simplify away needed subject structure.
-- A deliberate preparatory attempt: let the learner try a bounded problem before the explanation when that serves the learning design, preserve the attempted alternatives, and use subsequent instruction to compare and resolve them. Difficulty or an incorrect first attempt is not by itself a material defect, but unresolved failure is not evidence of productive preparation.
+- **The connection is missing.** Show how the block or aid bears on the current question and the next use. Correct a misleading diagram edge or a link to the wrong passage.
+- **The task needs support that is absent.** Check the expected prerequisite and permitted help. Supply the relevant contrast, map, worked operation, recap or accessible representation, or introduce it earlier. Preserve the subject relation the learner must use.
+- **The initial attempt prepares subsequent instruction.** A bounded problem can bring out alternatives before the explanation. Keep those attempts available and use the subsequent teaching to compare and resolve them. A later response can establish what the learner then did. To determine how the preparation contributed, use evidence that distinguishes its contribution, such as an applicable comparison.
 
-Use a stable supported initial case when the learner needs it to build the distinction before mixed selection. Interleaving, spacing and retrieval serve the declared later task; they do not require every first encounter to mix unfamiliar alternatives. Conversely, making every block easy by naming its answer does not test later independent selection. Judge the actual point and contribution rather than choosing one universal order.
+A supported initial case can help a learner form the distinction. When later work requires independent selection, include a case whose cue leaves that choice open. Select grouping, interleaving, spacing and retrieval for the particular action and time of later use.
 
-Preserve the first response before a cue supplies the distinction being tested. Report the allowed help, help actually used, source contribution and the reader's prior expertise. A teacher-supported correction may fulfil the declared arrangement while leaving independent first recognition untested. An expert's successful reconstruction does not erase a contrary report from a less-prepared reader. Use an appropriately scoped observation if that reader's difficulty can change the repair.
+To assess first recognition, preserve the response before supplying the deciding cue. State which help was permitted, what the learner used, what the source supplied and what prior expertise matters to the claim. A teacher-supported correction can satisfy a task that allows that help. An expert’s successful reconstruction and a novice’s difficulty may both be accurately reported. If the novice’s difficulty matters to a repair, use evidence that addresses it.
 
-Structural reconstruction demand is not experienced cognitive load. NSTD.6 applies C.2.8 as NarrativeRenderingEpiplexity to the narrative account, expression and observer under the selected reading conditions; it is neither a quantity to maximize unconditionally nor a burden meter. A material inspection or agent walkthrough can locate a missing relation and available support, but claims about human burden, learning, retention or transfer need their own observations and conditions. For reported burden, identify the person, segment, timing and instrument.
+In NSTD.6, NarrativeRenderingEpiplexity applies C.2.8’s ExtractableStructuralInformation to a narrative account, its expression and an observer. Ask which selected relations this observer could correctly recover under the stated conditions. Once those relations support the task, adding others can increase effort without improving use. A walkthrough can locate a missing relation or available help. For a claim about experienced human effort, identify the person, segment, timing and means of measurement. Learning, retention and transfer have their own evidence.
 
-Recheck the changed attachment, the affected prefix and its next task while preserving unaffected source and route results. If the intended reader already recovers the relation and completes that task with the declared support, density alone is not a reason to insert another aid. Use `E.23` for a worthwhile repair; shortening, added pictures or extra repetition are not improvements without a changed useful result and protected qualities.
+After a change, recheck the affected connection and what the learner needs at the next task. Retain material that already works with the intended support. For a proposed improvement, E.23 compares the useful result, the costs and the qualities to protect. A shorter explanation or an extra diagram earns its place through what it changes for this use.
 
-Use reconstruction tasks at several depths.
+Select a task that can reveal the outcome in question.
 
 | Task depth | Example task | What it tests |
 | --- | --- | --- |
-| Recognition | "Which method addresses this difficulty, and what tells you so?" | Whether the learner recognizes the conditions of use. |
-| Reconstruction | "Rebuild the pattern-use route from source basis, forces, solution, and exit." | Whether source structure survived the narrative. |
-| Transfer | "Apply the same route to a different domain case." | Whether the learner learned structure rather than anecdote. |
+| Recognition | “Which method addresses this difficulty, and what tells you so?” | Which conditions of use the learner recognized, given the cues available. |
+| Reconstruction | “Rebuild the route from the source, forces and solution to the point where you would use another method.” | Which source relations the learner reconstructed. |
+| Transfer | “Apply the same reasoning to a different domain case.” | What the learner can apply under the changed conditions. A claim about transfer from earlier learning also needs its earlier basis. |
 | Boundary | "When would you use another method, and which one?" | Whether the learner can select a useful alternative. |
-| Repair | "Given a low `NSTD.6` row, choose the smallest repair route." | Whether improvement discipline survived the lesson. |
+| Repair | “Given this NSTD.6 assessment, choose the smallest change that would remedy the loss.” | Whether the learner can use the assessment to select a sufficient repair. |
 
-Examples, stories, rhythm, repetition and analogy can all support learning. Keep a device when it helps the intended task. If a learner retains the device but misses a necessary relation, repair that connection rather than automatically adding or removing examples.
+Keep a story, rhythm, example or analogy when it serves the learning task. If a learner remembers it and misses the relation, check how the device, prior knowledge and available support bear on that difficulty before changing the material.
 
-For a small route, a short learner attempt or observed confusion may answer the current repair question. A repeated course may need to retain the version, audience, task, assistance and result so later comparisons remain interpretable. Collect more only when the result can change the design or intended use. A local teaching revision is not by itself a claim about evolution under `B.4`.
+A short attempt or an earlier account of a learner’s difficulty may answer a local question. For a comparison across runs, preserve the versions, learners, task, assistance and result needed to interpret it. Seek further observations when they could change a conclusion enough to justify obtaining them. To claim that the route evolved through repeated operation, use B.4.
 
-If the route is improved across runs, first evaluate the concrete route version through `NSTD.6`. Use `E.22` when learner value, floor, protected trade-offs, evidence, or result form are still underframed; use `E.23` to select and compare a repair to the version or a selected part such as source spine, learning-step order, reconstruction tasks, learning publication carrier, engagement boundary, or evaluation characteristic space. Use `G.11` when a change in source currentness, learner telemetry, teaching-test evidence, generated practice or FPF edition could alter support for the receiving use; use `B.4` only when making an evolution claim about the learning route as a holon across repeated operation.
+For improvement across runs, use a suitable NSTD.6 assessment of the affected version. E.22 helps define the intended benefit, minimum acceptable result, qualities to protect or evidence needed when any remains unclear. Use E.23 to select and compare a worthwhile change to the content, order, tasks, material, engagement or evaluation. Use G.11 when changed sources, learner observations, teaching results, generated practice or a new FPF edition could alter the route’s basis. B.4 addresses a claim that the route evolved as a whole through repeated operation.
 
 ### NSTD.8:5 - Archetypal Grounding
 
@@ -2831,12 +2831,12 @@ If the route is improved across runs, first evaluate the concrete route version 
 #### NSTD.8:5.1 - Worked learning route: FPF onboarding
 
 
-This example sketches the route that a seminar, tutorial or exercise sequence could realize. The note is optional; the important relation is between each teaching move and the next learner action.
+A seminar, tutorial or exercise sequence could use the design below. Each teaching move prepares an identifiable learner action.
 
 ```text
 LearningNarrativeRoute@FPFOnboarding:
-  learnerUse: new practitioner can apply one FPF pattern without treating it as a recipe
-  sourceArchitectureRef: FPF pattern language and monolith and source pattern organization
+  learnerUse: select and apply one FPF pattern under the conditions of a new case
+  sourceArchitectureRef: the pattern language, its organization of source patterns, and the collected FPF publication
   sourceSpineRefs:
     - `EntityOfConcern`
     - problem frame
@@ -2847,38 +2847,38 @@ LearningNarrativeRoute@FPFOnboarding:
     - quality and improvement loop
   unfoldingStructureRefs: A.22.CGUS when the route teaches unfolding from source to next use
   demonstrativeSliceRefs: first pattern-use route through one selected project case
-  learningRouteArchitectureRule: interleaved pattern-use route, not monolith-reference order
+  learningRouteArchitectureRule: revisit one pattern through several cases, keeping its source organization available
   learningStepOrder:
     - failed ordinary use
     - recover object of concern
     - read forces
     - choose solution move
-    - check boundary and neighboring owner
-    - repair one low-value result
+    - check the limit of this use and select a neighbouring method when needed
+    - use the assessment to repair one inadequate result
   interleavingPlanRefs:
     - return to `EntityOfConcern` after forces, solution, and quality checks
-    - mix adjacent owner-choice cases after each new pattern
+    - mix cases requiring a choice among the newly introduced and earlier methods
     - revisit source-return boundary in examples from at least two domains
   spacingOrRetrievalScheduleRefs:
     - short delayed retrieval at the start of the next session
-    - later mixed owner-choice task after intervening material
+    - choose among neighbouring methods after intervening material
     - final transfer task with no block label
   reconstructionTasks:
     - name the source pattern section behind each story beat
     - choose the governing pattern for a new case
     - state one source-return condition
-  engagementBoundaryRef: failure story is an archetype, not evidence
+  useOfEngagement: the failed-use story introduces the problem. A claim about an actual failure needs its own basis.
   evaluationRouteRef: `NSTD.6` learning-route rows
   improvementLoopInputRef: `E.23` when a comparison identifies a worthwhile improvement
 ```
 
-In this onboarding route, the opening failed use may be preparation rather than a failed capability assessment. The subsequent recovery of the object of concern must work with the attempted alternatives: show which object the next move governs and why the tempting alternative does not answer that question. Before the later neighbor-choice task, inspect whether those neighboring entries and their distinguishing condition are already available. If not, introduce the contrast or provide an accessible source return; merely adding another unlabeled failure would not supply it. If the entries are available, the mixed case can test their selection instead of prompting the answer.
+Here an initially unsuccessful attempt can prepare the discussion. Use the attempted alternatives to show which object the next move concerns and why the other choice would leave this question open. Before asking learners to choose between neighbouring methods, check whether they can access the methods and their distinguishing condition. If a contrast is missing, supply it or make the relevant source accessible. Once it is available, a mixed case can leave the choice to the learner.
 
-A concrete task in an introduction to FPF-based pattern use can use two neighboring NSTD methods already available in this publication. First make the distinction available: `NSTD.2` changes presentation order while preserving needed relations; `NSTD.3` examines the connection the account asserts. Then give the Readme's incident log, whose causal investigation is still open, and its draft “the change caused the failure”. Ask: “Would moving the two logged events into chronological order settle this sentence? Which question must the repair answer?”
+For example, NSTD.2 changes presentation order while preserving the needed relations. NSTD.3 examines a connection asserted by an account. Give learners the Readme incident log and the sentence “the change caused the failure.” Ask whether placing the two events in chronological order would settle the sentence, and what the repair would need to establish.
 
-A supplied response in this design example is: “Put the change before the failure, so the cause is clear.” That response preserves chronology but still infers cause from order. If the distinction was unavailable, provide it and work through the two claims before another selection task. If this was a deliberate preparatory attempt, subsequent instruction should use that attempted answer to explain why chronology leaves the causal question open. If both entries were already available, return to the sentence and ask what the log establishes; then use a mixed case to check whether the learner selects a connection repair rather than an ordering repair. These continuations answer different difficulties.
+Suppose a learner answers, “Put the change before the failure, so the cause is clear.” The answer gets the dates in order and infers cause from their order. If the necessary distinction was unavailable, explain it and work through the two claims. If the attempt was part of the preparation, use the answer in the ensuing instruction. If both methods were already accessible, return to what the log establishes. A later mixed case can test whether the learner recognizes a new connection claim without a supplied choice.
 
-A later diagram or recap should connect that choice to the next use. A wrong figure return calls for correcting the attachment, not automatically redesigning the entire course. After the repair, ask the reader to recover that relation and use it under the declared support. This is a worked design example with a supplied response, not an observation of a learner or a demonstrated learning gain.
+Connect a later diagram or recap to the next task. A wrong figure link can often be corrected locally. Inspect the new link to establish where it leads. To assess what learners can now recover, use evidence of their work with the revised material and the intended help. The answer above is part of the design example.
 
 For a seminar, add timing, facilitation notes and complete exercises suited to the participants and the intended next use.
 
@@ -2897,9 +2897,9 @@ Lesson 4: all engagement.
 Lesson 5: all evaluation.
 ```
 
-This outline gives learners the problem type inside each block. It may support first practice but leave later independent selection unpractised: a new failure may concern source selection, ordering, viewpoint, engagement, generation or the grounds for a claim.
+The headings identify the kind of problem in each block. This can support first practice. In an unfamiliar incident the learner may have to choose whether to check the source, reorder the account, change viewpoint, revise an expressive device, examine how it was generated or test a claimed connection. The blocked exercises alone leave that selection open.
 
-Repair the route:
+The team could retain the topic map and teach the choice through the following sequence.
 
 ```text
 LearningNarrativeRoute@NarrativeMethodsForEngineering:
@@ -2911,29 +2911,29 @@ LearningNarrativeRoute@NarrativeMethodsForEngineering:
     - viewpoint and agency split
     - engagement boundary
     - narrative rendering quality row
-    - source-return and owner routing
+    - where to verify a claim and which practice can answer an open question
   learningRouteArchitectureRule: spaced interleaving around recurring project cases
   learningStepOrder:
     - one motivating project failure
     - source-selection repair
     - different project failure requiring ordering repair
     - return to first failure and add viewpoint risk
-    - mixed owner-choice exercise
+    - choose the relevant method in a mixed exercise
     - delayed retrieval of source-return boundaries
     - final transfer to an unseen case
   interleavingPlanRefs:
-    - every session mixes at least one current pattern with one earlier pattern
+    - once an earlier method is familiar, mix it with a current method when learners need to distinguish them
     - adjacent failure modes are compared side by side
     - examples rotate across FPF seminar, architecture explanation, homotopy explanation, generated carrier, and live commentary
   spacingOrRetrievalScheduleRefs:
-    - start each session with a no-label retrieval task from a prior session
-    - return to `EntityOfConcern`, source-return, and owner-routing at increasing delays
-    - require one late repair of an old low-value row after new material intervenes
-  blockedTopicOverread: a clean topic block is not evidence of durable pattern choice
+    - after the first session, open a later session with an unlabelled retrieval task on an earlier case
+    - recall the object of concern, needed source and appropriate method at increasing delays
+    - repair an earlier inadequate result after new material intervenes
+  limitOfPractice: a topic-labelled exercise supplies the method name. Independent selection needs a task that leaves it open.
   evaluationRouteRef: `NSTD.6` rows for transfer, source return, and learner reconstruction
 ```
 
-The NSTD topic map remains available for lookup. The learning route revisits its methods under different cues so that the engineer must distinguish a source-selection problem from an ordering or viewpoint problem in a new explanation. This course practises narrative-method selection; capability to design the engineering system requires the corresponding engineering methods and tasks.
+The NSTD topic map remains available for lookup. Returning to the methods under different cues lets an engineer practise distinguishing source, order and viewpoint problems. To teach engineering design itself, use the relevant engineering operations and a task that calls for them.
 
 
 
@@ -2952,36 +2952,36 @@ LearningNarrativeRoute@HomotopyIntro:
     - proof-status return
   learningStepOrder:
     - image cue
-    - constraint marker
-    - formal definition return
+    - show which space the deformation must stay inside
+    - return to the formal definition of a continuous deformation
     - example
     - counterexample
     - reconstruction task
   reconstructionTasks:
-    - mark where analogy stops
-    - state which deformations are not allowed
-    - return one claim to formal source
-  engagementBoundaryRef: vivid image cannot replace definition
+    - identify the space in which every stage of the deformation must stay and a move that this excludes
+    - explain why the drawing alone cannot establish that the loop contracts in that space
+    - justify one claim using the formal definition and a relevant invariant
+  useOfEngagement: the picture introduces the question. The definition fixes the allowed deformations.
   evaluationRouteRef: `NSTD.6` rows for ordering, language-state precision, and source return
 ```
 
-If learners can retell the loop picture but cannot state the required constraint, repair the connection to the definition. A suitable example, counterexample or worked comparison may supply that repair.
+For example, draw a loop winding once around a missing point in the plane. Ask whether a continuous deformation inside that space can shrink the loop to a point. Its winding around the missing point prevents this. Fill the point back in and the loop can contract in the full plane. A learner who remembers the drawing can be asked which change in the allowed space changes the answer and why. The formal result supplies the criterion for judging their explanation.
 
 
 
 #### NSTD.8:5.4 - Worked learning route: using this pattern language
 
 
-A short course on this DPF may use the three probes: FPF seminar, franchise continuation, and homotopy explanation, with live commentary as a fourth transfer case. The route succeeds only if learners can see the same pattern set working across different domains:
+One short course uses an FPF seminar, a franchise continuation and a homotopy explanation, then turns to live commentary for a new application. The table shows the instructor which methods each case could teach.
 
-| Step | Probe | Pattern focus | Transfer question |
+| Step | Case | Methods for the instructor | Question for the learner |
 | --- | --- | --- | --- |
-| 1 | FPF seminar | `NSTD.1`, `NSTD.8` | What source spine must survive a learning route? |
-| 2 | Franchise continuation | `NSTD.1`, `NSTD.2`, `NSTD.3`, `NSTD.7` | What counts as source pack and event support when facts are prospective or fictional? |
-| 3 | Homotopy explanation | `NSTD.2`, `NSTD.5`, `NSTD.6` | Where does analogy stop and formal source return begin? |
-| 4 | Live commentary | `NSTD.3`, `NSTD.6`, `G.11` | Which claims are provisional until later source return? |
+| 1 | FPF seminar | NSTD.1, NSTD.8 | Which relations from the source will participants need after the seminar? |
+| 2 | Franchise continuation | NSTD.1, NSTD.2, NSTD.3, NSTD.7 | What does the existing canon establish, and what can the author propose or invent for the new events? |
+| 3 | Homotopy explanation | NSTD.2, NSTD.5, NSTD.6 | Which step needs a definition or proof beyond what the analogy supplies? |
+| 4 | Live commentary | NSTD.3, NSTD.6, G.11 | Which claims are supported now, and which would change with a later observation or official correction? |
 
-The transfer question tests whether the learner can choose the applicable pattern and repair the failure in a new situation.
+When learners see the method names, their explanations can show how they use those methods. To assess independent selection and repair in a new situation, give the new case without its method names or an equivalent cue. Ask them to choose, explain the relevant condition and make the repair. Record what help the task allowed and what they used.
 
 
 
@@ -2991,24 +2991,24 @@ The transfer question tests whether the learner can choose the applicable patter
 #### NSTD.8:5.6 - Evaluating the learning route
 
 
-Select the outcome needed for the declared teaching use. Immediate reconstruction, delayed retrieval, discrimination among similar cases and transfer to a new case require different tasks and observations. Success at one does not establish the others. A one-off explanation may need only immediate reconstruction; a course promising durable independent use needs an appropriately delayed and varied task.
+Select the task for the intended outcome. Immediate reconstruction, delayed retrieval, discrimination between cases and application to a new case call for different observations. A present response may complete an account of what a learner reconstructed. For durable independent use, compare an earlier demonstration with appropriately delayed work under the permitted support, accounting for relevant intervening practice. Vary the case when the claim includes use under that change.
 
-Use `NSTD.6` with the observer, prior preparation, assistance and reading conditions stated. Keep an author's walkthrough distinct from an observed learner result.
+Use NSTD.6 to distinguish a judgement about the design from the work of a particular learner. For a reading result, identify the task, observer, material, conditions and help relevant to the claim. Account for prior preparation when it affects the inference.
 
 
 
 #### NSTD.8:5.7 - Connecting route design to publication and improvement
 
 
-`NSTD.8` uses `E.11` for framework entry, `E.17` for publication form, `E.17.AUD` for a separately usable audience unit, `NSTD.5` for engagement and `NSTD.6` for evaluation. `E.22`/`E.23` support a selected improvement; `G.11` addresses an applicable source or practice refresh. A one-off explanation and a maintained course need different amounts of recorded design.
+For framework entry use E.11, for the publication form E.17, and for a separately usable audience unit E.17.AUD. NSTD.5 helps choose an expressive device when interest matters. NSTD.6 evaluates the route for its intended use. E.22 and E.23 support a proposed improvement, and G.11 a review after a relevant change. Keep the design detail a one-off explanation or maintained course needs.
 
-An FPF learning route, such as a seminar series or tutorial sequence, teaches the framework across several steps. The source-structure spine includes EntityOfConcern discipline, relation precision, pattern bodies, DPF authoring, architecture synthesis, evaluation, improvement loops, and source-return discipline. The learning order is didactic, not proof of FPF architecture. Learner tasks ask participants to reconstruct one pattern-use route from source basis and selected source structure, not only repeat a story or slogan.
+An FPF seminar or tutorial can connect the object of concern, precise relations, pattern bodies, DPF authoring, architectural synthesis, evaluation, improvement and return to sources. The teaching order serves the learner. For reconstruction, ask participants to recover one pattern-use route and its basis. Use the framework itself to establish its architecture.
 
-A homotopy mini-course may start with pictures and deformation stories. Its reconstruction task should reveal whether the learner can recover the required definitions and conditions. When an analogy conceals a constraint, a counterexample or comparison can show why the formal boundary matters.
+In the homotopy mini-course, ask learners to identify the permitted space and explain the two outcomes in §5.3. A drawing can introduce the problem, and the mathematical comparison can expose a missing condition. Use the learner’s own explanation to judge what they reconstructed under the support given.
 
-A DPF onboarding route may teach narrative rendering through three cases: FPF seminar, franchise storycraft, and live commentary. The route is successful only if learners can reconstruct why all three open `NSTD.1`, why different patterns become live later, and why `NSTD.6` evaluates a declared rendering version rather than a general story. The test is transfer across cases, not recall of the case names.
+An onboarding sequence could also use an FPF seminar, franchise storycraft and live commentary. Ask learners which source relations NSTD.1 helps recover in each case, which further method each problem needs, and why NSTD.6 evaluates a particular rendering and use. When the goal is transfer, add a sufficiently changed case and compare performance under the relevant conditions.
 
-Use `NSTD.7` to inspect a generated teaching draft against the source ideas and intended tasks. `NSTD.6` can evaluate it before acceptance. Apply `C.35` only when the generated result is being used for architecture work; producing a slide or example does not itself select that pattern.
+NSTD.7 helps examine generated teaching material against the source and the intended task. Use NSTD.6 for an assessment that admission or another use needs. C.35 addresses use of the generated material in architectural work.
 
 Distinguish versions when comparing repeated teaching or maintaining materials. The following optional note is useful when the comparison needs these details.
 
@@ -3026,101 +3026,101 @@ LearningNarrativeRouteVersion@Context:
   refreshCondition:
 ```
 
-For a comparison, identify which material and order each group encountered and what changed. Re-evaluate the affected outcome before claiming improvement. An untracked slide change may still be useful, but cannot support a precise comparison of course versions. A relevant source change calls for reviewing the affected teaching content.
+For a comparison, identify which materials and order learners encountered and what differed. Compare the affected outcome with a suitable baseline, including any qualities to preserve, before claiming a gain. If no one tracked a slide change, other evidence may establish which version was used. Review the teaching that depends on a materially changed source.
 
 The following example plan connects subject content, the immediate teaching move and a later use. Adapt its timing and returns to the learner's task.
 
-| Source-spine item | Narrative or teaching move | Interleaving or spacing move |
+| Source relation or operation | Immediate teaching move | Later practice when needed |
 | --- | --- | --- |
-| Pattern entry condition | Recognition story, contrast case, or failed-use story. | Return after two other pattern cases and ask for owner choice without a label. |
+| Pattern entry condition | Practitioner incident, contrasting case or failed-use example. | Return after two other cases and ask which method fits, without naming it. |
 | Forces | Tension sequence, stakeholder conflict, or trade-off map. | Compare with a different pattern's forces in a mixed exercise. |
-| Solution move | Demonstration, guided reconstruction, or worked slice. | Reuse the same project case later with a different repair owner. |
-| Boundary and non-use | Counterexample, wrong-owner case, or blocked overread. | Start a later session with a delayed boundary retrieval question. |
-| Relations | Neighboring-pattern exit exercise. | Interleave adjacent exits so the learner must discriminate them. |
-| Quality and improvement | Low-value row and repair exercise. | Revisit an old low-value row after new material and require a changed-slice repair. |
+| Solution move | Demonstration, guided reconstruction or worked example. | Reuse the project case with a problem requiring another kind of repair. |
+| Boundary and non-use | A counterexample or a case where another method is needed. | In a later session, ask learners to recall when to stop using this method. |
+| Relations | Ask which neighbouring method supplies the outstanding contribution. | Mix cases requiring different choices. |
+| Quality and improvement | Diagnose an inadequate result and select a repair. | Revisit it after intervening work and ask learners to revise the affected part. |
 
-The left column names the source ideas to recover; the middle names an immediate teaching move; the right shows a possible later return. Use the last column when delayed retrieval or mixed selection is part of the goal. Its presence alone does not establish learning, and its absence is not a defect in a route that does not need those outcomes.
+The last column gives possible later work when the goal includes delayed retrieval or method selection. A response can establish what a learner did at that time and with that support. For a learning claim, establish a change from earlier capability. To credit the route, also establish how it contributed to that change.
 
-Examples of different learning aims:
+Different courses can use the same design questions.
 
-| Route type | Source spine | Narrative devices allowed | Reconstruction evidence |
+| Course | Source material | Possible narrative devices | What to examine |
 | --- | --- | --- | --- |
-| FPF onboarding route | Pattern entry, EoC, forces, solution, relations, checks, improvement loop. | Practitioner story, failed-use contrast, recurring source-return prompt. | Learner selects correct owner and reconstructs one pattern-use route. |
+| FPF onboarding | Pattern entry, object of concern, forces, solution, relations, checks and improvement. | Practitioner problem, contrasting uses, recurring source question. | How the learner chose an applicable method and reconstructed a pattern-use route. |
 | Mathematical explanation route | Definitions, examples, theorem prerequisites, proof-status boundaries. | Analogy, diagram story, dependency sequence, counterexample. | Learner marks where analogy stops and returns to formal statement. |
 | Architecture explanation route | Candidate structures, characteristics, decisions, trade-offs, telemetry. | Trade-off story, viewpoint over stakeholder role, decision-memory path. | Learner separates architecture description, decision, realized structure, and telemetry. |
-| Generated teaching route | Selected source relations and the intended learner operation. | Generated examples or slides inspected through `NSTD.7`, with `C.35` only for architecture use. | Learner tasks for the intended outcome; direct comparison with the sources where fidelity is claimed. |
+| Generated teaching material | The source relations and the intended learner operation. | Generated examples or slides examined through NSTD.7. For architectural work, C.35 also applies. | Compare the material with its sources for fidelity. A learner’s response can show performance on the task. To claim learning, establish a change in capability. To credit this material, establish its contribution to that change. |
 | Live debrief route | Event record, provisional interpretation, official correction, source return. | Recap story, tension order, role viewpoint. | Learner distinguishes observation, inference, prediction, and official update. |
 
-For a short one-off teaching note, the route can be tiny: one source-spine item, one ordering rule, one reconstruction question, one source-return link. For a repeated seminar or course, the route should have versioned carriers, task results, and low-value repairs. The size changes; the source-return discipline does not.
+A short teaching note can give one needed source relation, an order for explaining it, a reconstruction question and a way back to the source. For a maintained course, identify versions and retain the learner results that a promised comparison needs. Revise the parts for which a change is warranted.
 
-Do not use popularity as learning evidence. Attendance, satisfaction, applause, or "people liked the story" may be engagement telemetry, but it is not reconstruction evidence. Reconstruction evidence asks whether learners can rebuild the source relation, apply it to a new case, name a boundary, or choose a repair.
+Attendance, applause and satisfaction can tell an organizer about participation or reaction. To establish what learners reconstructed, examine which relation they can explain or apply, which boundary they recognize or how they choose a repair.
 
 ### NSTD.8:6 - Bias-Annotation
 
-A learning route can be mistaken for the subject it teaches: its lesson order, exercise sequence or analogy then replaces the source relations. Keep those relations available and show how each teaching move prepares the next learner task.
+Learners may take a sequence of lessons or an analogy as the structure of the subject. Give them access to the source relations and show why the lesson uses this particular order.
 
-Copying the source corpus's modules into a course can leave later selection unpractised. Keep the source modules available, then add interleaving or spacing when the learner must later discriminate, retrieve or transfer relations across topic boundaries.
+Modular source publications support reference. Reusing the modules as lessons can leave learners with little practice choosing across them. When they need to distinguish cases, include a comparison. When they need to retrieve a relation later, plan its return and the support permitted then.
 
 ### NSTD.8:7 - Conformance Checklist
 
 | Check | Passing condition |
 | --- | --- |
-| `CC-NSTD8-1` | Learner use and source-structure spine are named. |
-| `CC-NSTD8-2` | Learning-step ordering rule and source-return links are explicit. |
-| `CC-NSTD8-3` | Learner reconstruction tasks test source structure, not only recall of narrative highlights. |
+| `CC-NSTD8-1` | The design names the intended learner action and the source relations it requires. |
+| `CC-NSTD8-2` | The order serves the learner’s task, and the learner can reach the sources needed for it. |
+| `CC-NSTD8-3` | The reconstruction task lets a learner demonstrate the needed source relation. |
 | `CC-NSTD8-4` | Lessons, exercises and other learning materials make their needed source relations and tasks available at the point of use. |
-| `CC-NSTD8-5` | A claimed improvement identifies the compared route versions, affected outcome, relevant costs and protected qualities; `NSTD.6` supports evaluation and `E.22`/`E.23` the applicable improvement question. |
-| `CC-NSTD8-6` | Source organization, the order of learning episodes and the reasoning within them are distinguished. The learner's intended action determines the needed comparison, sufficient material and available support. Selected grouping, mixing and later returns serve that action. When spacing is used, its timing is distinguished from retrieval and support choices. |
-| `CC-NSTD8-7` | Material attachments and consequential prefixes connect the current question, available structure/support and next use; missing relations, unsupported demands and deliberate preparatory attempts receive different repairs or continuation. |
-| `CC-NSTD8-8` | First and helped responses, source contribution, prior expertise and human learning or burden claims retain their own evidence boundaries; structural density is not treated as observed cognitive load. |
+| `CC-NSTD8-5` | The comparison supports a claimed improvement on the affected outcome, at acceptable cost and with protected qualities preserved. Use NSTD.6 for the assessment and E.22 or E.23 for the improvement work the case requires. |
+| `CC-NSTD8-6` | Distinguish source organization, episode order and reasoning within episodes. The intended learner action determines what to compare, what should remain accessible together and what help is appropriate. For a spaced return, choose separately when it occurs and what learners must retrieve. |
+| `CC-NSTD8-7` | At a consequential transition, learners can relate available material to the question and next use. Address a missing connection or prerequisite where it is needed. Follow a deliberate preparatory attempt with instruction that uses the attempted alternatives. |
+| `CC-NSTD8-8` | Interpret first and assisted responses under the actual preparation and help. Ground claims about the source, learning and experienced effort in evidence of each. |
 
 ### NSTD.8:8 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | What fails | Repair |
 | --- | --- | --- |
-| Learning route as source structure | Lesson sequence, seminar order, analogy chain, or explainer order is treated as framework architecture, proof order, or source structure. | Declare learning-step ordering rule and source-return links. |
+| Lesson order mistaken for the subject’s structure | The explanation presents one sequence or analogy as the architecture or order of proof. | Explain the teaching choice and give a usable return to the subject relation. |
 | Reference order chosen without examining the learning task | The topic map is copied into lessons without checking what the learner must subsequently recognize, select or use. | Keep a source-aligned introduction when it supplies the needed support. Add contrasts, mixed selection or delayed retrieval when the intended outcome calls for them. |
-| Blocked practice fluency | Learners perform well inside a topic block because its label supplies the method choice. | Use an unlabelled or mixed new case to test selection or transfer. Add delayed retrieval when later availability is also part of the claim. |
-| Recall as reconstruction | Learners remember examples but cannot use patterns. | Add reconstruction and application tasks; evaluate through `NSTD.6`. |
-| Fluent blocks without a usable connection | Each paragraph reads well, but the current question, aid or later use cannot be related. | Inspect both endpoints and the affected prefix; restore the missing relation or usable return, then repeat the next task. |
-| Difficulty judged without its teaching function | Every hard transition is compressed, or every unsuccessful attempt is called productive. | Separate an unsupported demand from deliberate preparation; provide the missing support or make subsequent instruction resolve the attempted alternatives. |
-| Teaching tweak as evolution | A revised slide, example, or prompt is described as evolved route quality without telemetry and re-evaluation. | Treat the tweak as an `E.23` changed slice after `NSTD.6`; use `G.11` for refresh and reserve `B.4` for actual evolution claims over the route across operation. |
+| Fluent performance in labelled topic blocks | The label supplies the method choice that later work requires learners to make. | Examine an unlabelled or mixed case for selection. Use a suitable change to assess transfer and a suitable delay to assess retention. |
+| Remembered examples mistaken for reconstructed relations | The learner can repeat the anecdote, while their command of the relation remains open. | Examine their work on a reconstruction or application task. Use NSTD.6 when an evaluation is needed. |
+| Fluent paragraphs with a missing connection | The example reads smoothly, but the learner cannot relate it to the active question or later use. | Inspect the two passages and what is available at that point. If repair is wanted, restore the relation or the return to it. To judge the revised task in use, examine a suitable attempt. |
+| Difficulty judged without its instructional purpose | A difficult transition is removed, or an unsuccessful attempt is credited with teaching the relation. | Supply a missing prerequisite. For a preparatory attempt, use its alternatives in the following instruction and check any claimed learning outcome. |
+| A local revision described as evolution | One change to a slide is offered as evidence about the course across repeated operation. | Use NSTD.6 to assess a version, E.23 to compare a proposed improvement and G.11 for an affected change of basis. Use B.4 for a claim of evolution through repeated operation. |
 
 ### NSTD.8:9 - Consequences
 
-The benefit is a path that helps learners recover and use the source ideas. Its cost is designing the necessary connections and obtaining observations proportionate to the learning claims made.
+The designer obtains a route connecting source material, available support and intended learner actions. It takes work to build those connections. Evidence of actual responses, retention and transfer costs time when a claim about them is needed.
 
 ### NSTD.8:10 - Rationale
 
-Different learning aims require different combinations of explanation, examples, attempts, feedback and later returns. Keeping the subject structure accessible permits a teaching route to vary those combinations without making the lesson sequence the only account of the subject.
+Explanation, examples, attempts, feedback and later returns serve different learning aims. Keeping the source structure accessible lets the teacher vary their order while learners can still recover the subject on its own grounds.
 
 A modular source corpus can support lookup and a first introduction while still leaving later selection unpractised. When learners must choose among similar methods without a topic label, the learning route needs those contrasts and selection tasks. When later retrieval matters, it needs an appropriate delay and return. The source organization remains available; whether the learning order should follow it depends on the task and the support already available.
 
 ### NSTD.8:11 - SoTA-Echoing
 
-Mengelkamp et al.'s "Effects of Reading Goal Instructions on the Comprehension and Metacomprehension of Informative Narratives" makes study goals and metacomprehension risk visible; Georgiou et al.'s "Large-scale study of human memory for meaningful narratives" shows that long narratives can be remembered as gist and sequence rather than source detail; Hoffmann's "The Tensions of Scientific Storytelling" supplies a science-storytelling example where unresolved tension and source return matter. Dunlosky et al.'s "Improving Students' Learning With Effective Learning Techniques" rates practice testing and distributed practice as high-utility techniques and treats interleaved practice as promising for appropriate situations. Rohrer and Taylor's "The shuffling of mathematics problems improves learning" directly shows the risk of standard blocked textbook practice and the benefit of spaced and mixed practice in mathematics problems. Kang's "Spaced Repetition Promotes Efficient and Effective Learning" gives a policy-level synthesis: spacing repeated encounters with material improves long-term learning and can be combined with tests. `NSTD.8` retains the Dunlosky, Rohrer–Taylor and Kang contributions as historical anchors for spacing and interleaving questions. The bounded source contributions here inform learning-route design, reconstruction and source return, not a complete pedagogy doctrine.
+Mengelkamp and colleagues compared factual and inferential responses under different reading goals. Results for those goals varied across their two experiments, and readers’ estimates could exceed their performance. Georgiou and colleagues found that scrambling narrative clauses affected free recall much more than recognition. Hoffmann illustrates how scientific storytelling can sustain a tension and return to its source. Earlier work on practice supplies distinct grounds. Dunlosky and colleagues rated practice testing and distributed practice highly and discussed interleaving for suitable tasks. Rohrer and Taylor found advantages of spaced or mixed practice on later tests of the mathematics problems they studied. Kang reviewed how repeated encounters can be spaced and combined with testing.
 
-For the attachment and prefix-support work, [Noetel et al. (2022)](https://journals.sagepub.com/doi/10.3102/00346543211052329) supports mechanism-specific attention to signaling, correspondence and pacing rather than a rule to add pictures everywhere. [Sinha and Kapur (2021)](https://journals.sagepub.com/doi/abs/10.3102/00346543211019105) supports distinguishing problem solving followed by instruction from unsupported failure; its conditional, largely mathematics/physics evidence does not make all difficulty productive. [Wesenberg et al. (2025)](https://doi.org/10.1016/j.cedpsych.2024.102328) motivates checking whether a worked example also permits a consequentially wrong rule; the studied brief units do not establish a universal order for long routes. [Krieglstein et al. (2025)](https://doi.org/10.1007/s10648-024-09980-0) shows why retrospective load reports need an explicit timing and segment: the reported primacy effect concerns self-report in the studied setting, not a conversion from source-structure density to human burden. These contributions qualify the choice of support and the inference from a reader response; none validates this entire route method or its ordinal values.
+[Noetel et al. (2022)](https://journals.sagepub.com/doi/10.3102/00346543211052329) reviewed multimedia design, including signalling, correspondence and pacing. Select the feature that addresses the learner’s difficulty. [Sinha and Kapur (2021)](https://journals.sagepub.com/doi/abs/10.3102/00346543211019105) compared instruction before and after problem solving, with substantial evidence from mathematics and physics. A preparatory task needs subsequent instruction that uses the attempted solutions. [Wesenberg et al. (2025)](https://doi.org/10.1016/j.cedpsych.2024.102328) showed in short units that a worked solution can also fit a misleading rule. Check whether an example distinguishes the intended rule. In [Krieglstein et al. (2025)](https://doi.org/10.1007/s10648-024-09980-0), the complexity of the first unit influenced the overall effort reported after a sequence of three. Identify the person, segment, timing and instrument when interpreting such a rating.
 
-Operational payload:
+Apply these findings to the particular teaching aim.
 
-- From reading-goal work, declare the learner use before the lesson route. A route for curiosity, exam preparation, professional use, or framework authoring needs different reconstruction tasks.
-- From metacomprehension risk, ask learners to reconstruct or apply source structure, not only rate whether they understood.
-- From memory work, long routes need anchors and returns. Repetition should protect source spine rather than repeat slogans.
-- For durable retrieval, consider spaced practice and delayed retrieval rather than infer retention from immediate success. Judge the result under the actual schedule and task.
-- From interleaving work, blocked topic practice can hide the real choice problem. Mix adjacent owners, cases, or problem types when the learner must later decide which structure applies.
-- Preserve the source organization for lookup and source return. A first introduction may follow it when that supplies the needed support; choose a different order for a later task that requires contrasts, mixed selection or delayed retrieval.
-- From scientific storytelling, unresolved tension can be taught honestly. The route can preserve open questions instead of pretending closure.
-- For a claimed teaching improvement, compare the relevant route versions and affected outcomes. A low score is not required before a worthwhile improvement can be considered.
+- State the learner’s purpose before choosing the tasks. Curiosity, an examination, professional use and framework authoring can call for different responses.
+- Compare a learner’s judgement of understanding with their reconstruction or application when the accuracy of that judgement matters.
+- Give learners a way back to a needed source relation across a long narrative. Use a recurring prompt when it helps them recover that relation.
+- For later retrieval, consider distributing practice and examine performance after the relevant delay, under the stated support.
+- Where a topic label normally supplies the choice, compare similar cases or mix problem types to give learners practice selecting the appropriate method.
+- Keep the source organization accessible for lookup. Retain its order when that supports a first introduction. Use a different order when later work requires a contrast, mixed selection or a delayed return.
+- Preserve an open scientific question when current evidence leaves it open. The tension can itself be part of the teaching.
+- Compare the relevant course versions and outcomes when claiming an improvement. A worthwhile change can improve an already adequate result.
 
-The practical result is a route whose explanations, attempts and later returns support the declared learner use. Keep an adequate source-aligned segment; repair a missing connection, an unsupported demand or an unpractised selection only where it changes the intended result.
+Retain a source-aligned segment that already serves its purpose. A missing connection, an unsupported demand or an unpractised choice gives the designer a specific change to consider.
 
 ### NSTD.8:12 - Relations
 
-Apply HCD.10:4.5 when the route needs a choice between grouping and mixing cases. It returns the comparison and order for the learner's current difficulty; NSTD.8 uses that choice to determine the material and narrative connections needed at the point of use. HCD.10:4.4 selects spaced returns with retrieval and support conditions kept separate.
+For a human learning route, HCD.10:4.5 helps select grouping or mixing when the comparison and order matter. Keep the material learners need for that comparison accessible at the point of use. HCD.10:4.4 helps select a spaced return, the retrieval to practise and the help permitted there.
 
 
-Uses `A.6.3.NAR`, `E.6`, `E.11`, `E.17`, `E.17.AUD`, `NSTD.1`, `NSTD.2`, `NSTD.5`, `NSTD.6`, `E.21`, `E.22`, `E.23`, `B.4`, and `G.11`. `NSTD.5` bounds motivation and interest; `NSTD.6` evaluates one route version; `E.22` frames under-specified quality questions; `E.23` selects and compares improvements to a route version or selected part; `G.11` addresses changed currentness when it could alter support for the receiving use; `B.4` is only for evolution claims over the learning route. Reopen the affected choice when a change in learner use, source spine, source architecture, learning-route architecture, interleaving plan, spacing or retrieval schedule, teaching-test evidence, source currentness, edition or evaluation result could change the route's supported use. Support-map entry: open `Architecture and Narrative Work Bridge` when the learning route narrates architecture, copies source architecture as course architecture, uses views, source spine, or actual-structure feedback; open `Semiotic And Language-Precision Bridge` when didactic coarsening, cue or backoff, explanation, style, or language-state choice matters; open `Source Use And Refresh Map` when teaching, memory, cognition, interleaving, spacing, or learner-test source support changes; use the refresh route when changed learner telemetry could change the route's supported use.
+For the narrative and its source use A.6.3.NAR, E.6, NSTD.1 and NSTD.2. E.11, E.17 and E.17.AUD support entry and publication. NSTD.5 helps choose a device for interest or motivation. NSTD.6 assesses a particular narrative version for its intended use. Use E.21 when the object to evaluate is an edition of an FPF pattern. E.22 frames an open quality question, and E.23 compares proposed improvements. Use G.11 when a change in sources, learner preparation, task, practice, scheduling, edition or observations alters the basis for use. Use B.4 for evolution through repeated operation. [NSTD.Reference:9](#nstdreference9---architecture-and-narrative-work-bridge) addresses source architecture, views and evidence about the realized structure. [NSTD.Reference:10](#nstdreference10---semiotic-and-language-precision-bridge) addresses wording, cues, explanation and loss of precision. [NSTD.Sources:1](#nstdsources1---source-use-and-refresh-map) helps trace changed teaching, memory or practice evidence to the parts of the course that depended on it. Use [NSTD.Reference:14](#nstdreference14---refresh-the-affected-narrative-use) when changed observations of learner work could affect the route’s supported use.
 
 ### NSTD.8:End
 
@@ -3130,68 +3130,68 @@ Uses `A.6.3.NAR`, `E.6`, `E.11`, `E.17`, `E.17.AUD`, `NSTD.1`, `NSTD.2`, `NSTD.5
 
 > **Type:** DPF pattern body
 
-> **Primary EntityOfConcern:** constructing a grounded working interpretation of connected material for narrative understanding or production.
+> **Primary EntityOfConcern:** the interpretation of connected material for understanding or producing a narrative.
 
 ### NSTD.9:1 - Problem frame
 
-Use this pattern when observations, recollections, documents, images or a narrative are available, but the account of what they show or mean is not yet adequate. The difficulty may concern which changes form an episode, how participants and perspectives connect, which assumptions make a reading possible, or whether several readings should remain open.
+Use this method when observations, recollections, documents, images or a narrative are available and their significant connections remain in question. You may need to identify what constitutes an episode, how the participants’ perspectives bear on it, what an interpretation assumes, or why several readings remain possible.
 
-First useful move: take a consequential piece of material, say what you think it shows and point to what supports that reading. Compare a serious alternative when it would change the account or its use. Revise the proposed connection, its units or its strength before choosing how to present it.
+Choose a consequential detail, say what you take it to show and identify the grounds for that reading. If a plausible alternative changes what a reader could conclude, compare the two. Revise the grouping, the proposed connection or the confidence it deserves where the evidence calls for it.
 
-This produces a working interpretation, warranted alternatives or a precise unresolved question. It can be a short account; it need not be a graph or a formal research report. Use a sufficiently understood source directly. NSTD.1 handles selection for a reader, NSTD.3 a known missing connection, and NSTD.10 the construction of fictional or hypothetical events. A missing observation, proof or causal finding returns to its subject inquiry.
+Return the supported account, any warranted alternatives or the precise question the material leaves open. A short paragraph can suffice. Use a source whose meaning is already clear directly. NSTD.1 selects material for a reader, NSTD.3 addresses a known connection and NSTD.10 constructs fictional or explicitly hypothetical events. Use an available observation, proof or causal finding when it answers the question. Seek the corresponding subject inquiry when a needed result remains missing.
 
 ### NSTD.9:2 - Problem
 
-A narrative often looks as if its events and meaning were already in the material, waiting to be put in order. In practice the interpreter has grouped occurrences, connected statements, selected a perspective and supplied assumptions. Those decisions can reveal a useful structure or conceal a different one. Comparing a draft only with its own extracted outline cannot expose the original interpretive choice.
+To tell what happened, an interpreter groups occurrences, connects statements, selects a perspective and may supply assumptions. The resulting account can bring out a relation or obscure it. Compare the grouping with the original material. An outline extracted from the completed story already contains its author’s choices.
 
 ### NSTD.9:3 - Forces
 
 | Force | Tension |
 | --- | --- |
-| A usable whole and resistant detail | A connected reading enables understanding; an awkward detail may require changing that whole. |
-| Interpretive contribution and support | Meaning can require inference beyond explicit sentences; the inference must remain distinguishable from a statement or observation. |
-| Shared events and different experiences | Participants can describe the same occurrence through different concerns without making every factual disagreement merely perspectival. |
-| Resolution and openness | Some uses need a selected account; others need a well-grounded range of meanings or an unresolved question. |
+| A connected account and a resistant detail | A proposed whole can make a passage intelligible. A detail it cannot explain may call for different units or a different interpretation. |
+| Interpretation and evidence | A connection may be inferred from what someone said or observed. State the inference and the material that supports it when the difference matters. |
+| Shared event and different experiences | Two participants can experience one occurrence differently. If they disagree about a fact, examine the evidence for that fact. |
+| Resolution and openness | A task may need one interpretation, several supported meanings or a precise account of what remains unknown. |
 
 ### NSTD.9:4 - Solution
 
-Develop an account whose connections can be explained from the material and the question. Move between the proposed whole and the details that support or challenge it. The operations below can be combined in ordinary reading and drafting; revisit only what the comparison leaves unresolved.
+Develop an account from the material and the question. Compare the proposed whole with the details that support or challenge it. Revisit the units or relations whose interpretation still matters.
 
 #### NSTD.9:4.1 - Establish the question and the available material
 
-Say what the interpretation should make understandable or possible next. Recover the relevant passage, observation, recording or other material with enough context to distinguish a statement from an inference about it. For an account made on another occasion, retain who was speaking, to whom, when and for what purpose if those conditions affect its meaning. A later recollection and a contemporaneous record can contribute different claims.
+State what the question asks you to understand. Examine the relevant passage, observation or recording in enough context to distinguish what is reported from what you infer. If it is an account made on another occasion, ask who addressed whom, when and for what purpose, as far as those facts affect the meaning. A later recollection and a contemporary record can supply different evidence.
 
-Separate what is available from what the account assumes. A source may report an occurrence, express a participant's judgement or propose an imagined future. Treat those as different contributions. Use FPF F.0.1 when a source expression's local meaning is the obstacle; a familiar word used in another tradition need not carry the same distinction. Obtain further material when its possible answer can change the interpretation or supported use. Otherwise keep the useful bounded account.
+Distinguish what the source reports, the judgement a participant expresses and an imagined future. Identify assumptions that the account adds. Use FPF F.0.1 when the local meaning of an expression matters and remains unclear. Seek further material when its attainable contribution to the answer warrants the effort. Otherwise return the account the available evidence supports.
 
 #### NSTD.9:4.2 - Form the units and connections the question needs
 
-Try a compact account of what changes, persists or becomes significant. For a proposed event, identify the subject that persists, the compared states and the relevant difference. For a proposed episode, explain why its included changes belong together: shared consequence, developing relationship, interrupted attempt or another connection the material supports. For an atemporal explanation, preserve its actual dependency or contrast instead of inventing a sequence of actions.
+Try a compact account of what changes, persists or becomes significant. For a proposed event, identify the enduring subject, the states compared and the difference. For an episode, explain what connects its changes, such as a shared consequence, a developing relationship or an interrupted attempt. For an atemporal account, preserve the dependency or contrast that actually explains it.
 
-Follow a consequential connection back to its grounds. A statement about a person's knowledge is different from a statement about what happened; a date orders events but supplies no motive. Name the assumption by which a detail supports the reading when that assumption is contestable. An annotated paragraph, sketch or comparison can retain these distinctions without a fixed notation.
+Trace a consequential connection to its grounds. What someone knew has different grounds from what happened. A date can establish order while leaving motive open. Name a contestable assumption that connects a detail to the interpretation. An annotated paragraph, sketch or comparison can carry the result.
 
-Try a different boundary or grouping when the first one makes a relevant detail disappear. A reported "closure" may concern public access while the activity continues for members. Separating access, activity and control can therefore replace one misleading event with several relations. Preserve the original material so that the new units can be challenged. The useful account is the result of interpretation; its tidiness is not independent evidence for it.
+Try a different grouping if the first loses a consequential detail. A reported “closure” might concern public access even though activities continue for members. Separating access, activity and control lets the reader examine each claim. Keep the notice or other material available so that the grouping and its assumptions can be challenged.
 
 #### NSTD.9:4.3 - Compare interpretations at the consequential difference
 
-State a plausible alternative when it changes what the reader could conclude or do. It can come from another participant, a resistant detail, a different explanation of the same action, or a different framing of the whole situation. Do not invent a weak rival merely to make the preferred account look decisive.
+Compare a plausible alternative when it changes the conclusion or its use. Another participant, a detail the preferred account cannot explain, a different possible cause or a different framing may supply it. Use an adequate reading directly when the alternatives add nothing material.
 
-Apply the alternatives to the same relevant material. Ask what each explains, which details it must ignore or reinterpret, what it assumes, and whether those assumptions have support. Examine how the proposed whole changes the reading of its parts, then whether those parts still justify the whole. A theory of betrayal, for example, may make a delayed reply look deliberate; the delay cannot independently prove betrayal if the theory supplied the intention.
+Read the same material under each account. Which details does it explain, what does it leave out and what assumptions does it need? Ask how the whole affects the reading of each part and whether independent details support the whole. If an account of betrayal supplies the intention behind a delayed reply, the delay cannot independently establish that intention.
 
-For factual disagreement, seek the observation or subject result that could distinguish the claims. For different meanings of a shared occurrence, explain their distinct concerns and grounds. For a textual interpretation, consider wording, narrative position, repetition, contrast and what the reader has encountered; a general theory does not overrule a contrary passage. Keep a factual question open when available material cannot decide it, even if one account is more compelling.
+For a factual disagreement, compare the claims with relevant observations or subject findings. Seek a missing observation when a stronger answer matters and it can distinguish the claims. For different meanings of a shared occurrence, explain the concerns and grounds of each participant. For a textual interpretation, examine the wording, narrative position, repetition, contrasts and what the account has made available to that point. If the claim concerns what a particular reader knew or understood, use evidence about that reading. Leave factual questions open where the evidence ends.
 
 #### NSTD.9:4.4 - Decide what to resolve and what to preserve
 
-Retain a selected interpretation when its support is sufficient for the intended use. Retain several when they are supported, consequential and not settled by the available basis. Distinguish three situations: information is missing; the account supports several readings; or the proposed readings have too little support to be useful. Calling all three "ambiguity" hides the next action.
+Select a single reading when its support is sufficient for the question. Retain several when the material supports each and their difference matters. Distinguish a missing fact, several supported readings and a set of proposals with too little evidence to use. The first may call for an observation, the second for a range of interpretations and the third for reporting a limit or reconsidering the proposals.
 
-An open literary account may invite uncertainty about a motive while making the action clear. Explain the cues and consequences of the possible readings without adding an ending or motive that the text does not supply. If deliberate ambiguity is an authoring aim, check that the text actually supports the intended alternatives. If analysing someone else's text, a finding of multiple supported readings does not by itself establish that author's intention.
+A literary passage may leave motive open while making the action clear. Identify the cues for any supported reading and the consequences of that reading. When composing an open scene, check that its intended alternatives are genuinely available. When interpreting someone else’s text, attribute that openness to authorial intention only when there is evidence for the attribution.
 
-For a consequential factual use, preserve uncertainty where it changes the decision; do not treat disagreement as permission to choose whichever account has the strongest effect. A new observation can settle a factual branch while leaving differences in significance intact. Where an ethical judgement or affected party's position is at issue, use the relevant D.1–D.5 contribution to examine it; interpretive coherence alone supplies no ethical verdict.
+For a factual account, retain the uncertainty that matters to its use. New evidence can decide what happened while leaving differences in its significance intact. A participant’s account may already answer what they said about their experience or position. Use the relevant D.1–D.5 contribution when the task calls for a judgement of value, harm or consequences for an affected party that remains to be made.
 
 #### NSTD.9:4.5 - Return the interpretation to its use
 
-Give the next reader or author the resulting account, its important grounds and the remaining alternative or question. Retain only the distinctions they need to continue. NSTD.1 selects from that account for a reader; NSTD.2 and NSTD.4 determine encounter order and viewpoint; NSTD.3 checks the connections the resulting passage invites. A trial narrative may expose a new gap and return here. A sufficient account can also finish the task without further narrative production.
+Give the resulting account, its important grounds and any material alternatives or limits. That may finish the work. For a further narrative, NSTD.1 selects material for a reader, NSTD.2 and NSTD.4 help choose order and viewpoint, and NSTD.3 examines the connections the passage invites. Return here if the draft exposes a new interpretive question.
 
-When material or purpose changes, identify which unit, connection or assumption depended on the old condition. Recompare that claim and its consequential uses. A new date may alter order; a newly available voice may change an episode's meaning; a decision requiring causality may need an investigation that an orientation account did not require. Keep the parts whose grounds remain valid.
+If material or purpose changes, identify which unit, connection or assumption depended on the old condition. Reconsider that claim and the uses that rely on it. A new date can alter order, a newly available account can change the meaning of an episode, and a new question about causation may require evidence beyond an orientation account. Retain claims whose grounds still hold.
 
 ### NSTD.9:5 - Archetypal Grounding
 
@@ -3199,29 +3199,29 @@ When material or purpose changes, identify which unit, connection or assumption 
 
 A constructed local-history archive contains three items. A notice says, "The public reading room closes on 1 June." A 3 June inventory records books moved to the room upstairs. A letter says, "We used to meet there after work; now only members have keys." A museum writer first drafts, "In June the town lost its library."
 
-For a visitor asking what changed, that draft merges service, collection, location and access. NSTD.9:4.2 separates them. The notice supports closure of that reading room at one date; the inventory supports movement of the collection; the letter supports the writer's experience and an asserted membership restriction. None alone establishes that all library activity ended. The working account becomes: the public reading room closed, books moved, and a former user experienced the change as loss of a meeting place. The membership rule remains a claim to check if its exact scope matters.
+For a visitor asking what changed, the draft merges service, collection, location and access. The notice announces closure of the public room on 1 June. The 3 June inventory records the books upstairs. The former user reports losing a meeting place and says that only members now have keys. Together these support an account of a change in public use alongside retention of the books. They leave the exact date public use actually ceased, the full membership rule and the fate of other library activity open to further evidence if those questions matter.
 
-Two interpretations now answer different questions. "Preservation through relocation" concerns the collection; "loss of a shared place" concerns access and social use. The material does not require choosing one as the total meaning. NSTD.1 can select both for the exhibition, and NSTD.4 can make their perspectives visible. If the exhibition instead claims that relocation increased access for the town, the three items are insufficient; the writer needs evidence about actual access and users. A sharper narrative cannot supply it.
+“Preservation through relocation” concerns the books. “Loss of a shared place” concerns access and social use. The exhibition can present both, using NSTD.1 to select the evidence and NSTD.4 to show the perspectives. To claim that the move increased access, the writer would need evidence of who could use the library under each arrangement. To claim increased use, examine what users actually did.
 
-If a later register shows that all residents could obtain a membership key, revisit the claim about exclusion. Do not erase the letter's account of experienced loss or infer that access was effortless. The new fact changes one relation and leaves another question open.
+Suppose a later register establishes that every resident was eligible to obtain a membership key. Correct any inference that some residents were ineligible. A membership requirement could still apply to everyone. The register leaves open who obtained or used a key, how easy it was to do so, and whether people still met there after work. The former user’s account remains evidence of the loss they experienced.
 
 #### NSTD.9:5.2 - An open departure
 
-Consider an invented passage: "Mara left at dawn. At the station she folded the return ticket into her father's letter. When the train moved, she stopped rehearsing what she would say at home." One reading treats the departure as a break with an earlier life; another sees a temporary distance during which return remains possible. The ticket supports a possibility of return, while stopping the rehearsal supports a changed relation to it. Neither cue establishes what Mara later does.
+Consider this invented passage. “Mara left at dawn. At the station she folded the return ticket into her father’s letter. When the train moved, she stopped rehearsing what she would say at home.” One reading finds a break with an earlier life. Another finds a temporary distance with return still possible. The ticket supports a possible return. The end of rehearsal marks a change in anticipation. Her later choice remains open.
 
-A reading that confidently reports permanent escape adds a consequence. A reading that merely reports transport misses the passage's change in anticipation. The useful interpretation describes that tension and its textual grounds. If the author wants an open ending, NSTD.2 can retain the order that lets the ticket and final sentence qualify each other. If a later chapter establishes return, revise the account's temporal scope instead of denying the earlier uncertainty. The unresolved meaning here calls for a different continuation from the archive's missing membership rule.
+“Permanent escape” adds an outcome. A report of a train journey alone misses Mara’s change in anticipation. The interpretation can finish with the tension and the two textual cues. An author seeking an open ending can use NSTD.2 to order them so that they qualify each other. If a later chapter establishes her return, date that knowledge to its basis while preserving the earlier uncertainty. The library’s membership rule raises a factual question of a different kind.
 
 ### NSTD.9:6 - Bias-Annotation
 
-Familiar stories about progress, failure, rescue or betrayal can silently determine the units selected from the material. Compare a consequential excluded perspective or resistant detail when it can change the account. This is not a requirement to multiply voices or give unsupported readings equal weight. The interpreter's access and preparation also limit what the comparison establishes.
+Familiar stories of progress, failure, rescue or betrayal can shape which episodes an interpreter notices. Test a consequential excluded perspective or contrary detail against the available account. Give interpretations the weight their evidence warrants and state material limits of access or preparation.
 
 ### NSTD.9:7 - Conformance Checklist
 
 - The account answers a recognizable question using identifiable material.
-- Its significant units and connections can be explained rather than inferred from the draft's fluency.
+- The account explains why the significant units belong together and what supports their connections.
 - Reported claims, interpretation and invented possibilities remain distinguishable where the use depends on them.
 - A consequential alternative or contrary detail, when present, receives a substantive comparison.
-- The result explains what is supported, what remains open and how a relevant change would alter the next use.
+- The result states what is supported and what remains open. Identify a change that would affect the interpretation when its later use requires that condition.
 
 ### NSTD.9:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -3230,31 +3230,31 @@ Familiar stories about progress, failure, rescue or betrayal can silently determ
 | Verify only the outline extracted from the preferred story. | Return to the material and test the consequential grouping or connection. |
 | Treat every perspective as equally factual. | Separate differing experiences from claims that need factual discrimination. |
 | Supply a hidden motive to make the account coherent. | State its grounds or preserve the unresolved motive. |
-| Resolve an open text by completing it privately. | Keep the text's supported possibilities; use NSTD.10 for a separately declared continuation. |
-| Demand a complete research protocol for one ordinary reading. | Use the bounded interpretation directly unless the stronger research claim needs that protocol. |
+| Complete an open text privately and report the result as its interpretation. | Retain the possibilities the text supports. Use NSTD.10 to create a separately identified continuation. |
+| Demand a full research protocol for one ordinary reading. | Return a sufficient interpretation directly. Seek inquiry when a stronger claim needs evidence the material cannot supply. |
 
 ### NSTD.9:9 - Consequences
 
-The account becomes revisable at the units and relations that carry its meaning. This can reveal a useful possibility, a source gap or a reason to keep several interpretations. The cost is closer reading and sometimes further inquiry; another comparison is worthwhile only when it can change the supported account or its use.
+The reader can revisit the particular unit or relation carrying the meaning. Closer reading may identify a possibility, a source gap or grounds for more than one interpretation. Further inquiry takes time. Pursue it when the attainable answer could improve the account or its use enough to justify that effort.
 
 ### NSTD.9:10 - Rationale
 
-Selection and presentation depend on an account of what the material contains and means. Testing that account against its sources and alternatives prevents its own organization from being mistaken for independent support. Changing units can change the question: the archive example moves from the survival of an institution to the distinct continuity of a collection and a public place. That change makes different narration and inquiry possible.
+Selection and presentation rely on an interpretation of the material. Checking that interpretation against the source and serious alternatives can expose unsupported groupings. The archive example separates the fate of a collection, use of a public room and the existence of an institution. Each question then has a possible narrative and its own grounds.
 
 ### NSTD.9:11 - SoTA-Echoing
 
-When material is available but its meaningful units and connections remain unsettled, the practical choice is between extracting and ordering one event account and constructing an interpretation that can be revised against the material. The first way is sufficient when the events and their relevant meaning are already understood. For the unresolved question, this method selects the second: form a compact account, inspect its consequential assumptions and compare a serious alternative where it changes the use. NSTD.9:4.2–4.4 makes that comparison part of forming the units, rather than a check performed only after the outline has fixed them.
+When events and their significance are already understood, extract and order the material directly. When the units or their connections remain open, propose a compact interpretation, inspect its assumptions and compare a serious alternative where it matters. Sections 4.2–4.4 allow the comparison to change the units themselves before an outline fixes them.
 
-This is an original practical synthesis. It adapts Schmid's *Narratology: An Introduction* (2010), I.1 and V.3, on state change, contextual significance and the distinction between selection and presentation. The distinction between a stated connection and an inferred cause is retained. Meretoja's [Implicit Narratives and Narrative Agency](https://doi.org/10.1075/ni.21076.mer) (2023) supplies the complementary interpretive line: available narrative models can shape which experiences and possibilities become intelligible. This method adapts that examination of framing into the comparison in :4.3; the article does not establish the truth of a particular factual account or provide its investigation.
+Schmid’s *Narratology: An Introduction* (2010), I.1 and V.3, examines state change, contextual significance, selection and presentation in literary narrative. This method adapts those distinctions to its particular material and separates what was stated from an inferred cause. Meretoja’s [Implicit Narratives and Narrative Agency](https://doi.org/10.1075/ni.21076.mer) (2023) examines how available narrative models can shape which experiences and possibilities become intelligible. Section 4.3 adapts that approach to comparing frames. Evidence about the archive or a different factual case comes from that case.
 
-The archive case in :5.1 shows the difference at comparable scope: merely ordering the notice, inventory and letter leaves “the library closed” unexamined. Distinguishing collection, public place and access produces a usable account from the same three items and identifies the one stronger claim needing inquiry. In :5.2, extracting only a journey loses the change in anticipation, while imposing permanent escape adds an unsupported ending. The selected approach retains the useful sequence and explains supported openness. Its additional cost is a consequential comparison, not a demand to generate alternatives for every detail; the direct-use boundary in :1 and stopping rule in :4.5 preserve a sufficient simpler account. This supports the choice for these interpretive difficulties.
+The notice gives an announced date and the inventory records the books upstairs two days after that date. The undated letter distinguishes a former meeting place from the writer’s present experience. Separating collection, public room and access yields two supported interpretations and identifies limits on stronger factual claims. In Mara’s departure, the train journey and the changed anticipation both matter, and later return remains open. Comparing a consequential interpretation earns its cost in these cases. Sections 1 and 4.5 explain when a simpler account answers the question.
 
-Recompare the choice when a new source settles the consequential units or meaning, when the receiving task requires causal investigation rather than interpretation, or when another interpretive method handles a resistant passage with fewer unsupported assumptions at comparable effort. The first change can make direct extraction sufficient; the second changes the required supplier; the third can change the construction in :4.2–4.4.
+A new source can settle the disputed unit or connection and make direct extraction sufficient. A stronger causal question can call for a subject investigation. A different interpretive method may illuminate a difficult passage with fewer unsupported assumptions at comparable effort. Revisit the choice that the change affects.
 
 
 ### NSTD.9:12 - Relations
 
-NSTD.Reference:1.1–NSTD.Reference:1.4 explains this method's place in narrative work. NSTD.1 selects content for a reader; NSTD.2, NSTD.3 and NSTD.4 use the resulting relations and may expose a reason to revise them. NSTD.10 proposes events for a fiction or scenario rather than claiming to recover them from earlier material. NSTD.6 evaluates the resulting narrative for its use, and NSTD.7 applies the distinction to tool-assisted analysis. FPF F.0.1 helps recover source-local meaning; F.0.2 addresses a consequential synthesis across source ontologies. B.5.RC recovers an already described construction. Those contributions do not replace the narrative interpretation performed here.
+NSTD.Reference:1.1–1.4 places interpretation in narrative work. NSTD.1 selects content. NSTD.2, NSTD.3 and NSTD.4 use connections and can expose a reason to revise them. NSTD.10 constructs fiction or explicitly hypothetical scenarios. NSTD.6 evaluates a particular narrative, and NSTD.7 applies these distinctions to tool-assisted interpretation. Use FPF F.0.1 for unresolved source-local meaning, F.0.2 for consequential synthesis across source ontologies and B.5.RC for recovery of an already described construction.
 
 ### NSTD.9:End
 
@@ -3264,112 +3264,112 @@ NSTD.Reference:1.1–NSTD.Reference:1.4 explains this method's place in narrativ
 
 > **Type:** DPF pattern body
 
-> **Primary EntityOfConcern:** constructing and revising fictional or explicitly hypothetical events and relationships under chosen premises.
+> **Primary EntityOfConcern:** fictional or explicitly hypothetical events and relationships that an author develops under chosen premises.
 
 ### NSTD.10:1 - Problem frame
 
-Use this pattern when an author has a situation, image, premise, character, desired effect or prospective ending but the events and relationships needed for the story do not yet exist. It also applies when a draft reveals that the story itself must change, beyond its presentation order or wording, or when a hypothetical scenario needs an account of how proposed events could unfold.
+Use this method to develop events or relationships for a story or a hypothetical scenario. Start from a situation, image, premise, character, desired experience or possible ending. In an existing draft, use it when what happens needs to change. If the same events will serve, work on presentation order or expression.
 
-First useful move: propose one change that matters in the imagined situation, identify what could bring it about, and follow what becomes possible or difficult afterward. Retain the premises the work must respect; revise a changeable premise explicitly when that creates a better possibility.
+Propose one change that matters in the imagined situation. Identify what could bring it about and what it would make possible or difficult. Retain the premises the work must respect. Where a premise is open to revision, identify what the revision changes.
 
-The useful result is a scene, event arrangement or open continuation with enough support to develop or present it. Use NSTD.2 when sufficient events only need ordering, NSTD.3 when one known connection needs repair, or NSTD.9 when the question is what existing material means. A factual report cannot invent its missing events through this method. For a scenario about a real situation, distinguish observations, assumptions and proposed events. It can expose a missing condition; practical reliance also requires its subject's feasibility and decision grounds.
+A scene, arrangement of events or open continuation can be a finished result. Use NSTD.2 for ordering established events, NSTD.3 for a particular missing connection and NSTD.9 for interpreting existing material. For factual reporting, use evidence of the events. For a scenario about a real situation, distinguish observations, assumptions and proposed events. Check the feasibility or authority that actual reliance requires, using existing subject results where sufficient.
 
 ### NSTD.10:2 - Problem
 
-A consistent collection of premises does not yet contain a story. Nor does an author's preferred ending explain why a participant could or would act to reach it. A draft may fill that gap with convenient discoveries, unexplained decisions or resources that appear only when needed. Conversely, fixing a complete plot too early can suppress the possibility the writing was meant to discover.
+Premises can be consistent while leaving open what happens or why a participant would act. An author can inadvertently fill the gap with a convenient discovery, an unexplained decision or a resource that appears only when needed. Fixing the whole plot too early can also close off the possibility the writing was meant to discover.
 
 ### NSTD.10:3 - Forces
 
 | Force | Tension |
 | --- | --- |
-| Continuity and invention | Established constraints give events meaning; open choices permit a new story. |
+| Continuity and invention | Established constraints shape which changes are possible. Open choices let the author develop a new story. |
 | Authorial direction and participant perspective | The author may want an outcome that no character wants or foresees. |
 | Planning and discovery | Working backward can expose prerequisites; exploratory writing can reveal an unforeseen result. |
-| Understandability and openness | The reader needs enough support to follow the intended experience; every motive or outcome need not be resolved. |
+| Understandability and openness | Give readers grounds to follow what matters in the scene. A motive or later outcome can remain deliberately open. |
 
 ### NSTD.10:4 - Solution
 
-Develop the possible story and test its important connections while they are still changeable. A short scene can be the working representation. Use separate event notes, a timeline or a graph when several dependencies, branches or collaborators make them useful. No fixed plan format or full outline is required.
+Develop the possible story and follow its important connections while they can still change. A scene can carry the work. Separate event notes, a timeline or a graph help when they make consequential branches, dependencies or collaboration easier to manage.
 
 #### NSTD.10:4.1 - Distinguish premises from choices
 
-Recover the facts already established in the fictional world, continuity commitments, relevant genre expectations and any fixed brief. Identify what the present author may change. A genre expectation can be challenged deliberately; a canon commitment cannot be silently discarded while claiming continuity with it. Keep a new proposal distinguishable from an established premise until it is chosen for this story.
+For fiction, identify established world facts, continuity commitments, genre expectations and any fixed brief. Determine what the author can change. A deliberate departure from a genre convention is a creative choice. A changed canon commitment needs to be stated when it affects claimed continuity. Distinguish a proposed event from a premise already adopted for this story.
 
-State the current creative question in terms that permit invention: what relationship might change, what possibility should become imaginable, what experience should the reader have, or what happens if a particular expectation fails? An ending can be fixed, provisional or absent. An exploratory scene needs a starting situation and an interesting question, not a predetermined resolution.
+Name the creative question. Which relationship might change? What experience could the scene invite? What would happen if an expectation failed? An ending may be fixed, tentative or still open. For an exploratory scene, a starting situation and a question can be enough.
 
-For a prospective scenario, establish which starting conditions are observed, assumed or proposed. Construct the conditional sequence under those assumptions, keeping unknown feasibility visible. A participant's future choice is also a proposed condition unless there is a basis for expecting it. If changing the scenario requires changing a real design or plan, return that proposal to the responsible subject work; the narrative can then trace the consequences of its result.
+For a scenario in the real world, identify observed conditions, stated assumptions and proposed events. Follow their conditional consequences. State what is known about feasibility, including any part established by existing arrangements. Use available evidence for claims about someone’s likely future choice, while leaving actual execution open. If a necessary real arrangement remains missing and the task calls for supplying it, take that question to the practice responsible for it. The revised scenario can then use its result.
 
 #### NSTD.10:4.2 - Construct a consequential possibility
 
-Propose a change in the situation, a participant's understanding or a relationship. Give it enough concrete conditions to follow. If the desired result is already known, work backward: what must happen or become available immediately before it, and how could that condition arise? Then follow the proposal forward from what is available. Where the desired ending conflicts with a fixed premise, change the proposed means or outcome; a more dramatic sentence cannot reconcile them.
+Propose a concrete change to the situation, a participant’s understanding or a relationship. For a desired result, work backward to what must happen or become available, then forward to see whether the proposed means can supply it. If a fixed premise prevents the ending, change the means or revise an ending that the brief allows you to change.
 
-When the result is open, work forward from a choice, encounter, interruption, discovery or alteration of a routine. Ask what each relevant participant can notice and do now, what the action changes for others, and what remains unresolved. Keep an unexpected consequence when it improves the story's question or experience. A quiet recognition or a changed relationship can be enough; conflict, victory and a single protagonist are not mandatory.
+For an open result, follow a choice, encounter, interruption, discovery or change in routine. What can each participant notice and do? What changes for someone else, and which questions remain? Keep an unexpected consequence that develops the creative question. A quiet recognition or change of relationship can be the whole scene.
 
-For an intentional action, distinguish the author's reason for including it from the character's possible reason for doing it. Recover what the character knows or believes, what matters to them and which alternatives appear available. A mistaken belief, impulse or mixed motive can be part of the construction. Do not force all characters to cooperate with the author's desired ending or make every action a rational optimization. Supply enough context for the intended reading, including unresolved motivation when that is the chosen effect.
+For an intentional action, distinguish why the author includes it from why the character might do it. Consider what the character knows or believes, what matters to them and which alternatives they see. Impulse, mistaken belief and mixed motives can explain actions. Give the scene enough support for its intended reading, including cues to deliberately unresolved motivation.
 
-If the first possibility fails, vary a consequential relation rather than only the wording. Change who learns something, what an action costs, which commitment is active, which opportunity exists, or what consequence follows. Compare alternatives only as far as choosing or developing the story requires. A satisfactory direct invention needs no quota of competing plots.
+When a proposal does not work, vary a consequential relation. Change who knows what, the cost of an action, an opportunity, an obligation or a consequence. Compare alternatives as far as the choice calls for. Keep a sufficient first invention.
 
 #### NSTD.10:4.3 - Follow consequences through the story world
 
-Work through the proposed events in their world order, even when they will be revealed differently. Track the facts that can defeat later events: access, resources, location, time, knowledge, commitments and relationships as relevant. A result required by several later events must remain available to each; an action can consume it or make a later action impossible. An omitted transition is acceptable when its content is recoverable and unimportant, but a newly necessary condition needs a way to arise.
+Follow the proposed events in world order, even if readers will encounter a different presentation order. Track the access, resources, timing, location, knowledge or commitments that later events need. If an action consumes a needed resource, establish how the later event could happen. An omitted transition can stay implicit when readers can recover it and its details do not affect the account.
 
-Then inspect what the proposal changes in meaning. A rescue can create an obligation, make trust possible, expose dependence or deepen resentment. Those are alternative constructions, not automatic consequences of the event label. Choose and develop the relevant relation from the participants and situation. Ask which part of the story lets the reader see it. A causal chain alone may not supply the experience the author wanted.
+Examine the meaning of the proposed sequence. A rescue might create an obligation, deepen resentment or make trust possible. Develop the chosen relation from these participants and their situation. Find the action or detail through which the scene makes it intelligible. If the intended experience is still missing, reconsider the event or its presentation.
 
-For interactive stories, distinguish the available possibilities from the single sequence a participant experiences. Follow the consequential branches under their own conditions. If a resource is spent on one branch, a later scene cannot assume it remains available merely because another branch preserved it. A branch can converge with another only when the shared continuation's prerequisites are satisfied. Use A.22.CGUS when the work requires an explicit account of currently available, blocked or unknown continuations; an ordinary two-choice scene may need only the corresponding conditional explanation.
+For an interactive story, distinguish the available branches from the particular path a player takes. Follow the consequential branches under their own conditions. A resource spent on one branch is unavailable later on that branch unless it is restored. At a convergence, check that the common continuation is possible from each incoming branch. A.22.CGUS helps describe open, blocked and unresolved continuations when an explicit model is needed. A conditional account may suffice for a two-choice scene.
 
 #### NSTD.10:4.4 - Develop presentation and revise the construction together
 
-Use NSTD.2 and NSTD.4 to decide what the reader encounters and whose knowledge is available. NSTD.5 helps choose an engagement device suited to that experience. Compare the resulting scene with the intended possibility: can its important change be followed, what interpretation does it invite, and does the desired effect require a different event rather than more emphasis?
+Use NSTD.2 and NSTD.4 to choose the order of disclosure, the cues available for inference and the character whose perspective the scene presents. Use NSTD.5 when an expressive choice should sustain interest. Inspect the scene under the reader’s assumed starting knowledge. What change can be followed? Which reading does the scene support? Would a different event better serve the intended effect? A suitable earlier response can establish what that reader reported. Use NSTD.6 when the task calls for evaluating the version for a particular use.
 
-A later reveal can explain an earlier action only if the story makes that explanation possible. A limited viewpoint can withhold information from the reader while a character possesses it. If neither the character nor the narrative has grounds for the action, change the action, supply a compatible prior event or revise the premise. If several readings are intended, use NSTD.9 to inspect their textual support without turning the openness into an accidental contradiction.
+A later revelation can explain an earlier action if the story makes the explanation possible. A limited viewpoint can leave undisclosed something a character already knows. When the action lacks grounds in this world, alter it, add a compatible earlier event or revise an open premise. Use NSTD.9 to check whether different intended readings have support in the text.
 
-A generated draft can propose possibilities under NSTD.7. Retain useful invention, inspect its consequences and revise the plan when it reveals a better direction. Treat consistency checking and a reader's response as different grounds: following the premises does not establish that a scene is moving, surprising or convincing.
+A generated draft can propose possibilities through NSTD.7. Examine their consequences, retain useful invention and revise the plan where the scene supports a better direction. Check consistency against the premises. To claim that a reader found the scene moving, surprising or convincing, use evidence about that reader’s response.
 
 #### NSTD.10:4.5 - Keep the sufficient result and reopen affected choices
 
-Stop with a useful scene or possibility, its important premises and the next unresolved choice, if any. A continuation can remain open. NSTD.6 can evaluate a presented narrative for its chosen use; an actual audience-effect claim requires the appropriate observations.
+Finish with a usable scene or possibility, the premises it needs and any consequential open choice. NSTD.6 helps assess the presented narrative for its intended use. Claims about an actual audience require evidence of the relevant response under the conditions of reception.
 
-When a premise changes, follow the events and interpretations that depended on it. If a participant now knows a secret earlier, their later ignorance may fail while the setting and other characters remain usable. If the desired experience changes from inevitability to uncertainty, the world events may stay intact while presentation changes. Distinguish those revisions before rewriting everything.
+When a premise changes, follow the events and interpretations that depended on it. Earlier disclosure of a secret to a character can make their later ignorance untenable. Changing the desired experience from inevitability to uncertainty may allow the world events to stay as they are while the author changes disclosure to the reader. Revise what the change affects.
 
 ### NSTD.10:5 - Archetypal Grounding
 
 #### NSTD.10:5.1 - A desired alliance needs a story
 
-In a constructed fictional brief, cartographer A guards the only safe route through a mountain pass. Traveller B needs it to reach a missing brother. A distrusts B because an earlier loan was not returned. The author wants them to travel together; the established world contains no magical persuasion or second map.
+In this fictional brief, cartographer A guards the only safe route through a mountain pass. Traveller B needs the route to reach a missing brother. An earlier unreturned loan gives A reason to distrust B. The author wants them to travel together. The world offers neither magical persuasion nor a second map.
 
-"A suddenly trusts B and gives him the map" reaches the desired outcome without developing it. Working backward exposes the missing relation: A needs a reason to risk access, while B needs a reason to accept A's participation. One possibility is a bargain in which A keeps custody and B supplies transport. Another changes their relationship: during a flood B helps A's apprentice to safety despite delaying his own search, and A witnesses the choice. The second possibility adds an event with a cost.
+“A suddenly trusts B and gives him the map” leaves the change in trust unexplained. What might make A accept the risk, and why would B accept A’s part in the journey? They might bargain, allowing A to keep the map while B provides transport. Alternatively, B could delay the search to rescue A’s apprentice during a flood, and A could witness that choice. The rescue can supply a reason for a change in their relationship. How A responds is another part of the story to construct.
 
-The author chooses the bargain for a tense alliance. A offers access to the route while retaining the map; B accepts because travel together is better than searching without it. This permits joint travel without claiming reconciliation. The first scene can show the disputed terms; a later scene can alter the relationship through what each does under pressure. The resulting possibility has different meaning from a friendship already secured by rescue.
+For a tense alliance, the author chooses the bargain. A retains the map and offers access to the route. B accepts joint travel as preferable to searching without it. The terms explain their cooperation while distrust can persist. A later scene can let their actions under pressure alter the relationship. A rescue scene could instead develop a different basis for their cooperation.
 
-Now change a premise: A cannot leave the settlement because the apprentice needs care. Joint travel no longer follows. The author can arrange credible care, change the alliance into guided preparation, or change the proposed ending. Merely softening the sentence about A's duty leaves the dependency unresolved. NSTD.2 may delay revealing the earlier loan, but that ordering choice cannot supply care or transport.
+Suppose A must stay in the settlement in person to care for the apprentice. Guided preparation from the settlement remains possible. Joint travel requires a change to that condition. The author can instead revise the ending if the brief permits. If the requirement is to provide care and a substitute is allowed, existing cover or a credible new arrangement can free A to travel. Delaying explicit mention of the loan changes what the scene discloses by that point. A reader who already knows about it can still interpret an earlier cue. The care and transport conditions stay the same.
 
 #### NSTD.10:5.2 - An exploratory vignette without an ending to achieve
 
-An author begins with an invented image: a retired tram driver sets two cups on a kitchen table every morning, although he lives alone. No ending or hidden bereavement has been fixed. The author tries a scene in which a neighbour knocks to return a borrowed tool and is offered the second cup. The changed relation is from a repeated private arrangement to a possible shared routine.
+A retired tram driver sets two cups on the kitchen table every morning although he lives alone. The author starts from this image, with the reason and ending open. A neighbour knocks to return a borrowed tool. The driver offers the second cup. A private routine now has the possibility of becoming shared.
 
-Following that event forward raises a useful question: does the second cup express habit, hospitality, absence or an expectation that the driver cannot articulate? The author can leave several possibilities available while developing the observable encounter. Adding a deceased spouse would commit the story to a new history; it is an available invention, not a fact discovered from the initial image. If the author retains openness, NSTD.9 checks which readings the actual scene supports. No obstacle, victory or completed transformation is necessary for this chosen experience.
+The second cup could express habit, hospitality, absence or an expectation the driver cannot articulate. Develop the encounter and retain the interpretations its details support. Adding a deceased spouse would create a new backstory. If openness is the aim, NSTD.9 helps inspect the competing readings. The scene can finish with the offer of the cup.
 
 #### NSTD.10:5.3 - A reopening scenario exposes a missing arrangement
 
 In a constructed planning case, a museum team considers reopening a ground-floor study room while a lift is being replaced. Collection storage remains upstairs. The proposal says that visitors can request any stored object, which staff will bring to the study table.
 
-Follow one hypothetical visit: a visitor selects an object, staff locate it upstairs, and it must reach the table. The proposed arrangement supplies no means for that transition during the lift work. Writing "the object arrives" conceals the missing condition. The team can compare a limited collection moved downstairs before reopening with a different opening plan. Collection and building specialists must establish which arrangement is feasible; C.32.P2S can organize the architecture question if the connected project design is what needs revision.
+Trace one hypothetical visit. A visitor requests an object kept upstairs. Staff locate it, and it must reach the table while the lift is unavailable. The proposal supplies no means of moving every requested object. An existing inventory and an approved plan might already establish that particular objects can be moved downstairs before reopening. Use those grounds for the limited scenario. If a wider promise requires a new arrangement, consult the relevant collection and building expertise. Use C.32.P2S when the question calls for coordinated architectural change.
 
-The revised scenario can explain a visit using the collection actually selected for the ground floor, including the limit on requests. If the lift becomes available earlier, revisit that limit and the dependent visitor account. The narrative exposes and communicates the conditional use; the design work supplies the arrangement and the grounds for relying on it.
+A revised scenario can follow a visitor choosing from the objects available downstairs under that plan and explain the limit on other requests. To report that the move or visit actually took place, use evidence of that event. An earlier lift opening would change the premise and might expand the available requests. Revisit the visitor sequence that depends on it.
 
 ### NSTD.10:6 - Bias-Annotation
 
-Goal-directed planning favours stories whose important changes can be represented as actions and prerequisites. It can miss atmosphere, associative form, unstable identity or deliberately unresolved motives. Use the forward exploratory branch or a suitable craft method when those concerns organize the work. Cultural expectations about plausible conduct should be examined as assumptions, not treated as universal rules for characters.
+Planning from a goal suits stories whose important changes can be expressed as actions and prerequisites. Atmosphere, association, unstable identity or unresolved motive may call for an exploratory scene or a craft method suited to those effects. Examine a cultural expectation about plausible conduct as a premise in this story.
 
 ### NSTD.10:7 - Conformance Checklist
 
 - The question being explored and the premises that constrain it are recognizable.
-- The proposal creates or changes an event, relationship or possibility rather than only naming an intended effect.
+- The proposed scene or sequence develops the event, relationship or possibility needed for the intended effect.
 - Consequential prerequisites and effects are followed under the chosen world conditions.
 - The author's desired outcome remains distinguishable from participant knowledge, motives and choices.
-- The resulting scene or continuation supports its intended interpretation, or retains the unresolved question.
+- The scene supports the intended interpretation or gives readers grounds to see which issue remains open.
 - A changed premise reopens the dependent construction while sufficient unrelated content is retained.
-- A scenario about a real situation keeps assumptions and unresolved feasibility visible to the work that will use it.
+- For a real-world scenario, identify what is observed, what is assumed and which feasibility claims are established or remain open.
 
 ### NSTD.10:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -3380,30 +3380,30 @@ Goal-directed planning favours stories whose important changes can be represente
 | A reveal repairs an impossible event. | Repair the event's world conditions before choosing when to reveal them. |
 | A causal chain is treated as sufficient artistic quality. | Examine the experience and meaning the chosen use requires. |
 | Every story must end in goal achievement. | Use an open or exploratory construction when it serves the work. |
-| A hypothetical success warrants real-world action. | Obtain the relevant feasibility, evidence and decision grounds. |
+| Hypothetical success is used as authority to act. | Use actual feasibility evidence and the applicable decision authority when committing to a real action. A conditional scenario can be complete before that commitment. |
 
 ### NSTD.10:9 - Consequences
 
-The author can develop events from their premises and desired possibilities, instead of only inspecting a completed outline for continuity. New consequences can revise the premise or question. The work costs attention to dependencies and interpretation; an elaborate model can constrain useful invention when a scene would suffice. The result is an authored possibility.
+Working from premises can produce a scene, a relationship or an open possibility. Following its consequences can change the creative question. Consider the cost of a more detailed model alongside what it would let the team do. A branch map might help an author make a choice, verify coverage of known paths or pass their conditions to a co-author. Claims of novelty relative to other works, an audience effect or feasibility in the real world each need evidence about that claim.
 
 ### NSTD.10:10 - Rationale
 
-Constructing what happens and choosing how it is encountered are coupled but different operations. Working backward exposes what an intended result needs; working forward tests whether the proposed means can supply it and reveals other consequences. Comparing those consequences with the creative question lets the author change the events or the question rather than polish an unsupported connection. The vignette shows why this construction need not begin with a fixed goal or end with its achievement.
+Choosing what happens and choosing when it is disclosed are connected decisions. Working backward identifies what a desired result needs. Working forward tests whether the means are available and reveals other possibilities. Comparing those consequences with the creative question can change the events or the question. The two-cup vignette reaches a useful scene from an open image.
 
 ### NSTD.10:11 - SoTA-Echoing
 
-For constructing events from premises, outcome-directed planning is a serious choice when the ending is fixed: it exposes what must precede that ending. Forward exploratory writing is a serious choice when a scene or relationship is being discovered. Either becomes inadequate when treated as the whole method. A fixed plan can make participants serve the author's ending; unchecked exploration can invent an unavailable resource or knowledge. This method selects a conditional combination: use backward construction for a desired result, forward construction for an open possibility, and follow the consequential dependencies in either. NSTD.10:4.1–4.4 permits the resulting scene to change the plan or a changeable premise.
+For a fixed ending, work backward to expose its prerequisites. For an open scene, work forward from what a participant might do or notice. In either case, trace consequences that could defeat the proposed sequence. A fixed plan may give a character no reason to act, while unchecked exploration can invent knowledge or resources the world never supplied. Sections 4.1–4.4 let the resulting scene revise the plan or an open premise.
 
-The method of [Riedl and Young (2010)](https://doi.org/10.1613/jair.2989) supplies a developed planning comparator. The method adopts its distinction between author outcome and character intention and adapts the prerequisite question in :4.2, while rejecting a fixed outcome and that formal action model as requirements for every narrative. [STORYTELLER (Li et al., 2025)](https://aclanthology.org/2025.findings-acl.1071/) supplies a contemporary computational comparison: proposed plot events interact with evolving narrative information within a larger planning and ending arrangement. The method adapts that interaction in :4.3–4.4. It does not adopt the system's graph or generator as necessary for manual work, or infer that the system has no goal structure. The combination offered here is an authored practical synthesis, not a reproduction of either algorithm.
+[Riedl and Young (2010)](https://doi.org/10.1613/jair.2989) distinguish a planning goal from a character’s intention. Their formal narrative planning supplies a way to examine prerequisites when a story has a desired outcome. [STORYTELLER (Li et al., 2025)](https://aclanthology.org/2025.findings-acl.1071/) connects a developing plot line with a graph of narrative entities during automatic generation. Sections 4.2–4.4 adapt the questions about intention, prerequisites and changing event information. For manual work, a short scene can carry them. A computational plan can be useful when dependencies warrant it.
 
-The alliance in :5.1 needs both backward prerequisites and participant reasons: a bargain permits joint travel without inventing trust. Once care of the apprentice prevents travel, the dependent means or ending must change. The open vignette in :5.2 instead gains a possible shared routine without first inventing a target ending. Compared with committing both cases to a full fixed plan, the selected way retains the useful prerequisite work and avoids an unnecessary completion condition; compared with unchecked improvisation, it costs inspection of the relations that could defeat the chosen continuation. A short scene can carry that work, as :4 specifies. An explicit planning model can be preferable for many interacting branches, and a suitable craft method may be preferable when atmosphere or associative form dominates, as :6 explains.
+The bargain gives the travellers a means and reasons to travel together. An obligation for A to stay can prevent joint travel even when the route and both travellers’ motives remain the same. If the apprentice already has suitable care and that meets the condition, the journey can proceed as planned. The two-cup vignette develops a possible shared routine before its ending is known. A short scene can carry simple interacting branches. Use a more explicit plan when it helps with their dependencies, or a suitable craft method when atmosphere or association organizes the work.
 
-Reopen this choice when a changed brief requires exhaustive branch control, when the chosen craft form cannot be usefully developed through events and relationships, or when a competing construction resolves an actual continuity or intention failure with less modelling effort. Recompare the affected operations and representation. A new generator score by itself does not establish that those conditions have changed.
+Reconsider the construction when the brief requires control of every consequential branch, when the chosen form needs a different craft method, or when a different way resolves an observed continuity or intention problem at lower cost. New generator scores matter only if they change the grounds for the author’s actual choice.
 
 
 ### NSTD.10:12 - Relations
 
-NSTD.1 supplies a purpose and relevant constraints when those are already understood. NSTD.9 interprets material and the resulting scene; NSTD.2 orders presentation, NSTD.3 repairs a particular connection, NSTD.4 manages voice and viewpoint, and NSTD.5 develops engagement. NSTD.7 organizes automated drafting and inspection; NSTD.8 can teach the construction through changed premises. NSTD.6 evaluates the presented result. A.6.3.NAR governs rendering selected source content once available, including claims about proposed events. It does not make the author's new events part of an earlier source or evidence of actuality. When a scenario exposes a missing project arrangement, use C.32.P2S for the connected architecturing question. Its result can supply the premises for a revised scenario.
+NSTD.1 identifies the use and constraints. NSTD.9 interprets existing material or a new scene. NSTD.2 orders disclosure, NSTD.3 examines a connection, NSTD.4 develops voice and viewpoint, and NSTD.5 helps choose an expressive device. NSTD.7 supports automated drafting and inspection. NSTD.8 can teach the construction by varying a premise, and NSTD.6 evaluates the resulting narrative. A.6.3.NAR addresses rendering selected content, including a proposal explicitly presented as such. When a real scenario still requires a new project arrangement, C.32.P2S can develop its architectural basis. An existing arrangement or qualified feasibility finding may already answer the underlying question.
 
 ### NSTD.10:End
 
@@ -3411,47 +3411,47 @@ NSTD.1 supplies a purpose and relevant constraints when those are already unders
 
 ## NSTD.Sources:1 - Source use and refresh map
 
-The sources below contribute to particular narrative operations. Older conceptual anchors remain useful within their scope; recent studies and systems add bounded results. The extension across factual, mathematical, fictional and live accounts is this DPF's synthesis. A citation does not establish every condition of that synthesis.
+Use this table to find the source for a narrative choice or a finding about readers. The cited authors examined particular materials and uses. This framework draws on their work to address factual, mathematical, fictional, hypothetical and live accounts. The examples in the relevant method show how it makes that extension.
 
 | Source | Contribution used here | Scope and limit |
 | --- | --- | --- |
-| Hoffmann, [The Tensions of Scientific Storytelling](https://roaldhoffmann.com/sites/default/files/fromd6/Tensions%20ofScientific%20Storytelling%20as%20published.pdf), 2014 | `NSTD.1/.3/.5`: organize attempts, mechanisms and unresolved tensions for a reader. | A conceptual discussion and examples, not evidence that a particular narrative or explanation is correct. |
-| Schmid, [Narratology: An Introduction](https://doi.org/10.1515/9783110226324), 2010 | NSTD.Reference:1 and NSTD.9: formation of event units and interpretation; NSTD.2 and NSTD.4: selection, ordering and perspective. | Historical literary theory, especially I.1 and V.3; its definitions and eventfulness criteria are not universal rules for all narrative uses. |
-| Chihaia, [Introductions to Narratology](https://www.diegesis.uni-wuppertal.de/index.php/diegesis/article/view/71), 2012 | `NSTD.2/.4`: interpret vocabulary and teaching choices within their tradition and audience. | A survey of introductions; the DPF's Core distinctions are a separate synthesis. |
-| Nguyen, [A Review of Mechanistic Models of Event Comprehension](https://arxiv.org/abs/2409.18992), 2024 | `NSTD.3`: inspect event boundaries, dependencies, updating and prediction when they affect comprehension. | A review of models, not a guarantee of a particular reader's reconstruction. |
-| Chen and Xu, [Narrative Perspective in Novel Reading](https://pmc.ncbi.nlm.nih.gov/articles/PMC12937883/), 2026 | `NSTD.4`: perspective and focalization can change reading responses. | The experiment does not rank all viewpoints for all readers or uses. |
-| Mengelkamp, Golke and Appel, [Reading Goal Instructions](https://doi.org/10.1002/acp.70036), 2025 | `NSTD.5/.6/.8`: distinguish comprehension from confidence and consider the reading aim. | Effects differed by condition; overestimation remained across conditions. A study goal alone does not establish learning. |
-| Georgiou et al., [Human Memory for Meaningful Narratives](https://pmc.ncbi.nlm.nih.gov/articles/PMC11852912/), 2025 | `NSTD.5/.6/.8`: distinguish gist, recall, recognition and reconstruction of order. | Results for the studied narratives motivate a specific memory question, not every retention or transfer claim. |
-| Castricato et al., [Towards a Model-Theoretic View of Narratives](https://aclanthology.org/2021.nuse-1.10/), 2021; preprint title: Towards a Formal Model of Narratives | `NSTD.1/.6`: distinguish narrator-to-reader information, evolving reader models and uncertainty. | A formal model of narrative communication; it does not define actual FPF Work, role assignments or the `C.2.8` characteristic. |
-| Green and Brock, [Transportation and Persuasion](https://doi.org/10.1037/0022-3514.79.5.701), 2000 | `NSTD.5`: immersion can affect beliefs and evaluation of protagonists. | Historical empirical anchor; immersion is not a measure of source fidelity. |
-| Dahlstrom and Ho, [Ethical Considerations of Narrative Science Communication](https://journals.sagepub.com/doi/10.1177/1075547012454597), 2012 | `NSTD.5`: examine intended influence, accuracy and the choice to use a narrative. | Science-policy communication is the source setting. Other uses require their own affected-party question. |
-| Dunlosky et al., Improving Students' Learning With Effective Learning Techniques, 2013; Rohrer and Taylor, The Shuffling of Mathematics Problems Improves Learning, 2007; Kang, Spaced Repetition Promotes Efficient and Effective Learning, 2016 | `NSTD.8`: historical anchors for retrieval practice, spacing and conditional interleaving. | Select the move for the learner's task and prerequisites; a reference topic map alone does not settle learning order. The later support studies are explained in `NSTD.8:11`. |
-| Gatt and Krahmer, [NLG survey](https://arxiv.org/abs/1703.09902), 2018; Alabdulkarim et al., [Story-generation survey](https://aclanthology.org/2021.nuse-1.8/), 2021 | `NSTD.2/.3/.7`: distinguish content, order and realization; inspect their different failures. | Historical foundations rather than a current ranking of tools. |
-| Cardona Rivera et al., [The Story So Far on Narrative Planning](https://ojs.aaai.org/index.php/ICAPS/article/view/31509), 2024; Kumaran et al., [SceneCraft](https://ojs.aaai.org/index.php/AIIDE/article/view/27504), 2023 | `NSTD.7`: plans and author instructions can control narrative construction and interactive scenes. | Planning and interactive-game results do not require every ordinary draft to have a separate plan artifact. |
-| Ma et al., [Text-to-Text Automatic Story Generation](https://aclanthology.org/2026.eacl-srw.39/), 2026 | `NSTD.6/.7`: continuing problems with coherence, consistency, diversity, control and evaluation. | A survey of 57 included papers; it does not validate this DPF's scales. |
-| Rahman et al., [G-KMS](https://www.mdpi.com/2079-8954/14/2/175), 2026 | `NSTD.7`: distinguish structured validation, semantic inspection and engine execution. | Evaluated in a compact Unity RPG. Its engine admission is not universal narrative admission. |
-| Kumar et al., [Whose story is it? Personalizing story generation by inferring author styles](https://aclanthology.org/2025.ijcnlp-long.82/), 2025 | NSTD.4/.7: relate inferred expressive tendencies to actual excerpts and adapt instructions for a new passage. | A story-generation method and bounded evaluation; no universal sample quota, mandatory profile or cross-language preservation result. |
-| Zhang, Bu and Dhillon, [Who Owns the Text?](https://arxiv.org/html/2601.10236v1), 2026 preprint | NSTD.4/.7: distinguish an assistant's coaching persona, writer-style personalization and authorship judgements. | Short English writing tasks; genre and combined assistance limit causal attribution to individual design elements. |
-| Van Nuenen, [Voice Under Revision](https://arxiv.org/html/2604.22142v1), 2026 preprint | NSTD.4/.7: inspect actual revisions even when a preservation instruction was supplied. | Aggregate stylistic proxies in English personal narratives; no universal voice detector or individual-reader result. |
-| Nguyen-Trung and Nguyen, [NITA](https://doi.org/10.1080/14780887.2026.2638348), 2026 | `NSTD.4/.7`: compare LLM-proposed themes with excerpts and alternatives under researcher judgement. | A qualitative-analysis method; its human interpretive role is not a universal requirement for generated prose. |
-| Meretoja, [Implicit Narratives and Narrative Agency](https://doi.org/10.1075/ni.21076.mer), 2023 | NSTD.Reference:1 and NSTD.9: examine the framing and possibilities carried by an interpretation. | A theoretical and interpretive contribution; not a factual-investigation protocol or evidence for a universal audience effect. |
-| Riedl and Young, [Narrative Planning: Balancing Plot and Character](https://doi.org/10.1613/jair.2989), 2010 | NSTD.10: distinguish an author's intended outcome from the motives used to construct character action. | Historical planning model; no requirement that all stories use a fixed goal or rational actors. |
-| Li et al., [STORYTELLER](https://aclanthology.org/2025.findings-acl.1071/), 2025 | NSTD.7 and NSTD.10: inspect dependencies while a proposed story is still changing. | A particular computational architecture and bounded evaluation; no general performance or mandatory-graph claim. |
+| Hoffmann, [The Tensions of Scientific Storytelling](https://roaldhoffmann.com/sites/default/files/fromd6/Tensions%20ofScientific%20Storytelling%20as%20published.pdf), 2014 | In NSTD.1, .3 and .5, organize attempts, mechanisms and unresolved tensions so a reader can follow a scientific account. | Hoffmann develops the approach through discussion and examples. Examine the evidence from the case for a proposed mechanism. If the observations fit several mechanisms equally well, the choice among them remains open. |
+| Schmid, [Narratology: An Introduction](https://doi.org/10.1515/9783110226324), 2010 | In NSTD.Reference:1 and NSTD.9, examine how an account forms event units and how they can be interpreted. NSTD.2 and NSTD.4 use selection, order and perspective. | Schmid develops these distinctions in literary narratology, particularly I.1 and V.3. Assess what counts as an event and why it matters in the particular account. |
+| Chihaia, [Introductions to Narratology](https://www.diegesis.uni-wuppertal.de/index.php/diegesis/article/view/71), 2012 | In NSTD.2 and .4, relate introductory vocabulary and teaching choices to their narratological traditions and audiences. | Chihaia surveys introductions. The distinctions drawn from FPF Core come from the framework’s own synthesis. |
+| Nguyen, [A Review of Mechanistic Models of Event Comprehension](https://arxiv.org/abs/2409.18992), 2024 | In NSTD.3, examine how a reader might segment events, update an interpretation or predict a consequence. | Nguyen reviews models. To say what a particular reader understood, use evidence of their response. |
+| Chen and Xu, [Narrative Perspective in Novel Reading](https://pmc.ncbi.nlm.nih.gov/articles/PMC12937883/), 2026 | In NSTD.4, consider how viewpoint and focalization can affect reading responses. | Chen and Xu found differences in reading time for negatively valenced excerpts and in some fNIRS channels under the conditions studied. They found no significant perspective effect on the measured reading times under internal focalization. |
+| Mengelkamp, Golke and Appel, [Reading Goal Instructions](https://doi.org/10.1002/acp.70036), 2025 | In NSTD.5, .6 and .8, compare answers to comprehension questions with readers’ estimates of their understanding under a stated reading goal. | Results depended on the condition. Readers could still overestimate their performance. A learning claim needs evidence of learning. |
+| Georgiou et al., [Human Memory for Meaningful Narratives](https://pmc.ncbi.nlm.nih.gov/articles/PMC11852912/), 2025 | In NSTD.5, .6 and .8, distinguish recalling the gist, recognizing material and reconstructing its order. | Scrambling the studied narrative clauses affected free recall more than recognition. For a claim about another task, obtain evidence under its conditions. |
+| Castricato et al., [Towards a Model-Theoretic View of Narratives](https://aclanthology.org/2021.nuse-1.10/), 2021 (preprint titled *Towards a Formal Model of Narratives*) | In NSTD.1 and .6, examine the information conveyed by a narrator and the changing uncertainties in a model of the reader. | FPF defines work and role assignment. Evidence about the particular act or assignment establishes what happened. C.2.8 supplies the characteristic for assessing which structural information can be recovered. |
+| Green and Brock, [Transportation and Persuasion](https://doi.org/10.1037/0022-3514.79.5.701), 2000 | In NSTD.5, consider how immersion can influence beliefs and evaluations of protagonists. | These experiments are a historical source for persuasion through narrative. Compare the account with its source to assess fidelity. |
+| Dahlstrom and Ho, [Ethical Considerations of Narrative Science Communication](https://journals.sagepub.com/doi/10.1177/1075547012454597), 2012 | In NSTD.5, examine the choice to use narrative, its accuracy and the influence the communicator intends. | The authors discuss science-policy communication. For another use, identify who may be affected and the ethical question that use raises. |
+| Dunlosky et al., Improving Students' Learning With Effective Learning Techniques, 2013; Rohrer and Taylor, The Shuffling of Mathematics Problems Improves Learning, 2007; Kang, Spaced Repetition Promotes Efficient and Effective Learning, 2016 | In NSTD.8, choose retrieval practice, spacing or interleaving for the learner’s task and prior experience. | These earlier studies and reviews supply different grounds for the techniques. The structure of the subject helps identify what must be learned. [NSTD.8:11](#nstd811---sota-echoing) discusses the conditions for selecting instruction and more recent studies of learning support. |
+| Gatt and Krahmer, [NLG survey](https://arxiv.org/abs/1703.09902), 2018; Alabdulkarim et al., [Story-generation survey](https://aclanthology.org/2021.nuse-1.8/), 2021 | In NSTD.2, .3 and .7, locate a difficulty in content selection, ordering or linguistic realization. | These surveys provide a historical account of generation techniques. Comparing current tools calls for observations of the tools and tasks at issue. |
+| Cardona Rivera et al., [The Story So Far on Narrative Planning](https://ojs.aaai.org/index.php/ICAPS/article/view/31509), 2024; Kumaran et al., [SceneCraft](https://ojs.aaai.org/index.php/AIIDE/article/view/27504), 2023 | In NSTD.7, use plans and author instructions to guide story construction or the development of an interactive scene. | These works examine planning and interactive games. Compare the contribution and cost of a separate plan for the writing task at hand. |
+| Ma et al., [Text-to-Text Automatic Story Generation](https://aclanthology.org/2026.eacl-srw.39/), 2026 | In NSTD.6 and .7, identify difficulties with coherence, consistency, diversity, control and evaluation. | The survey covered 57 papers. Use evidence about a measure and its intended use when evaluating a scale in this framework. |
+| Rahman et al., [G-KMS](https://www.mdpi.com/2079-8954/14/2/175), 2026 | In NSTD.7, distinguish structural validation, inspection of meaning and execution by a game engine. | The authors evaluated a compact Unity RPG. A result about what its engine accepts is specific to that implementation and test. |
+| Kumar et al., [Whose story is it? Personalizing story generation by inferring author styles](https://aclanthology.org/2025.ijcnlp-long.82/), 2025 | In NSTD.4 and .7, infer a tendency from an author’s excerpts and use it to guide a new passage. | The study evaluates a story-generation method. The amount of material, any need for a continuing profile and preservation of voice across languages depend on the writing task and evidence. |
+| Zhang, Bu and Dhillon, [Who Owns the Text?](https://arxiv.org/html/2601.10236v1), 2026 preprint | In NSTD.4 and .7, distinguish coaching in an assistant’s persona, adaptation to a writer’s style and writers’ reported sense of ownership of the text. | The preprint studies short English writing tasks. The genre and combination of several kinds of assistance limit attribution of an effect to one design element. |
+| Van Nuenen, [Voice Under Revision](https://arxiv.org/html/2604.22142v1), 2026 preprint | In NSTD.4 and .7, inspect the revisions that resulted from an instruction to preserve a writer’s voice. | The preprint reports aggregate stylistic measures for English personal narratives. To assess preservation in a passage, compare it with appropriate earlier writing or an established account of the author’s manner. For recognition by a particular reader, use evidence of that reader’s response. |
+| Nguyen-Trung and Nguyen, [NITA](https://doi.org/10.1080/14780887.2026.2638348), 2026 | In NSTD.4 and .7, compare themes suggested by a language model with source excerpts and alternatives. | In NITA the human qualitative researcher interprets the material. For other generated writing, identify the contributors whose work bears on the claim. |
+| Meretoja, [Implicit Narratives and Narrative Agency](https://doi.org/10.1075/ni.21076.mer), 2023 | In NSTD.Reference:1 and NSTD.9, examine how an interpretive frame makes some possibilities visible. | Meretoja develops a theoretical and interpretive account. An interpretation can show a reading the material supports. A factual investigation needs sources about the events. To say how an audience actually responded, use evidence of that response. |
+| Riedl and Young, [Narrative Planning: Balancing Plot and Character](https://doi.org/10.1613/jair.2989), 2010 | In NSTD.10, distinguish the author’s intended outcome from the motives that could lead characters to act. | Riedl and Young develop a planning model. Other constructions may start without a fixed outcome or include a character whose acts do not follow a calculated goal. |
+| Li et al., [STORYTELLER](https://aclanthology.org/2025.findings-acl.1071/), 2025 | In NSTD.7 and .10, examine dependencies as the proposed events change. | The authors combine a developing plot line with a graph of narrative entities in a particular generation architecture. Their evaluation concerns that construction. A short human-authored scene can keep its dependencies clear in the text. |
 
-Meretoja's *Narrative and Human Existence: Ontology, Epistemology, and Ethics* remains philosophical background, not an independent warrant for the operations or scales above.
+Meretoja’s *Narrative and Human Existence: Ontology, Epistemology, and Ethics* supplies philosophical background for the discussion of interpretation. The grounds for a particular operation or scale appear with its method above.
 
-Return to the affected source when its claim is contradicted, overextended or no longer suitable for the intended use. Apply `G.2`/`G.11` when the work is to synthesize or refresh the relevant SoTA traditions; ordinary comparison with a story's canon or a lesson's source remains direct.
+Reconsider a use of a source when evidence conflicts with its claim, the application extends beyond its conditions or the source no longer serves the question. An ordinary comparison with a story’s canon or a lesson’s subject source can be done directly. Use G.2 or G.11 when the work calls for a synthesis of research traditions or a revision of an existing synthesis.
 
 ## NSTD.Sources:2 - Name and edition route
 
-Package name: `Narrativization and Narrative Studies Principles Framework`.
+The publication is titled *Narrativization and Narrative Studies Principles Framework*.
 
-Public prefix for package pattern ids: `NSTD.*`.
+NSTD identifiers locate methods and sections in this publication. For three sections whose headings changed, use the same identifiers in both versions. See [NSTD.6:5.5 in the earlier edition](https://github.com/ailev/FPF/blob/1e57ccda08ebbb9d49b7b2190bc2740b72075a13/DPFs/Narrativization-and-Narrative-Studies-Principles-Framework.md#nstd655---evaluation-to-improvement-repair-input-without-process-theatre) and [in this edition](#nstd655---use-an-evaluation-to-improve-a-narrative), [NSTD.6:5.6 in the earlier edition](https://github.com/ailev/FPF/blob/1e57ccda08ebbb9d49b7b2190bc2740b72075a13/DPFs/Narrativization-and-Narrative-Studies-Principles-Framework.md#nstd656---fpf-owner-teaching) and [in this edition](#nstd656---evaluate-a-seminar-handout-or-an-architecture-story), and [NSTD.7:5.6 in the earlier edition](https://github.com/ailev/FPF/blob/1e57ccda08ebbb9d49b7b2190bc2740b72075a13/DPFs/Narrativization-and-Narrative-Studies-Principles-Framework.md#nstd756---fpf-owner-teaching) and [in this edition](#nstd756---inspect-a-generated-explanation-recap-game-or-analysis).
 
-`NSTD.*` identifies this Domain Principle Framework's patterns; `A.6.3.NAR` identifies the Core narrative-construction pattern.
+Use the NSTD identifier for a method in this framework. A.6.3.NAR identifies the narrative-construction pattern in FPF Core.
 
-Publication edition: 25 October 2026.
+The original edition carries the date 25 October 2026. To cite the version you used, copy a permanent link to this file in its specific Git commit. Add the PatternID or section identifier when citing a passage. The [public file](https://github.com/ailev/FPF/blob/main/DPFs/Narrativization-and-Narrative-Studies-Principles-Framework.md) leads to the current text.
 
-The [Architectural Reference](#narrativization-and-narrative-studies-principles-framework-architectural-reference) explains the connected language and the consequences of these sources for its use.
+The [Architectural Reference](#narrativization-and-narrative-studies-principles-framework-architectural-reference) explains how the methods connect and where their source distinctions change what the reader can do.
 
 ## NSTD.Sources:End

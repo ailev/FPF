@@ -35,19 +35,19 @@ The [Foundational Thinking Architectural Reference](FOUNDATIONAL-THINKING-DPF-SU
 
 | Framework | What you can work on | Patterns | Text, M characters |
 | --- | --- | ---: | ---: |
-| [Mathematical Thinking (MATH)](https://fpf.tools/MATH) · [Markdown](MATHEMATICAL-PRACTICE-DPF.md) | Construct mathematical objects, operations and alternatives; derive consequences and meet proof obligations. | 20 | 0.479 |
-| [Mathematical Modeling (MMP)](https://fpf.tools/MMP) · [Markdown](MATHEMATICAL-MODELING-PRACTICE-DPF.md) | Relate a subject question to mathematics; infer, predict, compare interventions, design observations and revise or combine models. | 17 | 0.574 |
-| [Physical Thinking (PHY)](https://fpf.tools/PHY) · [Markdown](PHYSICAL-THINKING-DPF.md) | Construct and test physical accounts; select interactions and idealizations, derive consequences and distinguish them by observation. | 10 | 0.304 |
-| [Computational Thinking (CMP)](https://fpf.tools/CMP) · [Markdown](COMPUTATIONAL-THINKING-DPF.md) | Construct algorithms that obtain the required answer within correctness, resource and interaction conditions. | 16 | 0.435 |
-| [Notational Engineering (NOT)](https://fpf.tools/NOT) · [Markdown](NOTATIONAL-ENGINEERING-DPF.md) | Design expressions, interpretations and transformations that make operations usable and changes recoverable. | 8 | 0.217 |
+| [Mathematical Thinking (MATH)](https://fpf.tools/MATH) · [Markdown](MATHEMATICAL-PRACTICE-DPF.md) | Construct mathematical objects, operations and alternatives; derive consequences and meet proof obligations. | 20 | 0.474 |
+| [Mathematical Modeling (MMP)](https://fpf.tools/MMP) · [Markdown](MATHEMATICAL-MODELING-PRACTICE-DPF.md) | Relate a subject question to mathematics; infer, predict, compare interventions, design observations and revise or combine models. | 17 | 0.569 |
+| [Physical Thinking (PHY)](https://fpf.tools/PHY) · [Markdown](PHYSICAL-THINKING-DPF.md) | Construct and test physical accounts; select interactions and idealizations, derive consequences and distinguish them by observation. | 10 | 0.302 |
+| [Computational Thinking (CMP)](https://fpf.tools/CMP) · [Markdown](COMPUTATIONAL-THINKING-DPF.md) | Construct algorithms that obtain the required answer within correctness, resource and interaction conditions. | 16 | 0.433 |
+| [Notational Engineering (NOT)](https://fpf.tools/NOT) · [Markdown](NOTATIONAL-ENGINEERING-DPF.md) | Design expressions, interpretations and transformations that make operations usable and changes recoverable. | 8 | 0.216 |
 
-**Patterns** counts full pattern bodies. **Text, M characters** measures each complete Markdown framework, including its embedded Architectural Reference, in millions of Unicode characters with spaces and original line breaks, rounded to three decimals. These are scope indicators, not a required reading load.
+**Patterns** counts full pattern bodies. **Text, M characters** measures each complete Markdown framework, including its embedded Architectural Reference, in millions of Unicode characters with spaces and original line breaks, rounded to three decimals. These are scope indicators.
 
 ## Connect the contributions
 
 Predicting an oscillating system can require a physical account, a model with stated idealizations, a mathematical consequence, an algorithm for the approximation and notation whose variables and units remain interpretable. A measurement that defeats the idealization returns to the physical and modeling premises; computing more accurately cannot repair that defect. Conversely, a numerical error need not invalidate the physical law.
 
-These are different grounds for a connected result: mathematical validity, physical adequacy, computational feasibility and intelligibility of expression. Each matters only where that claim is made. A pure proof needs no invented physical test, and a notation problem need not start with a physical question. Transferring an algebraic rewrite to a program expression depends on what evaluating that expression does: `q + q = 2*q` remains an identity, while `read() + read()` need not equal `2*read()` when each call obtains a new value.
+These are different grounds for a connected result: mathematical validity, physical adequacy, computational feasibility and intelligibility of expression. Each matters only where that claim is made. A pure proof needs no physical test, and a notation problem need not start with a physical question. Transferring an algebraic rewrite to a program expression depends on what evaluating that expression does: `q + q = 2*q` remains an identity, while `read() + read()` need not equal `2*read()` when each call obtains a new value.
 
 The Reference explains [how the contributions constrain one another (Foundational.Reference:2.2)](FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md#foundationalreference22---relations-that-form-the-field) and [what preserves or changes the field (Foundational.Reference:2.3)](FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md#foundationalreference23---the-whole-its-continuity-and-its-boundaries). The connected methods remain independently usable.
 
