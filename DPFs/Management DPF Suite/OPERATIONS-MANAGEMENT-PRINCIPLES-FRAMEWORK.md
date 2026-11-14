@@ -472,7 +472,7 @@ If a shared condition changes, reopen each combination that relied on it and the
 
 ### OPS.Reference:10.1 - Operational mantra: connect local work to accepted results
 
-The operational mantra is the reasoning Method in [OPS.23](#ops23---connect-operational-reasoning--the-operational-mantra). It assembles and revises the answers needed to connect local work with an accepted result, feasible provision and continuing service. The pattern explains the reasoning, its cases and its limits.
+The operational mantra in [OPS.23](#ops23---connect-operational-reasoning--the-operational-mantra) helps practitioners recall the questions that connect local work, feasible provision and delivery. OPS.23 explains how to use their answers to judge what the operation can deliver and which decision a change reopens.
 
 Use OPS.23 to connect the operating results a decision needs. Use OPS.19 when simultaneous work creates a conflict that calls for an operating choice.
 

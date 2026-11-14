@@ -388,7 +388,7 @@ The human-development and cultural cases are constructed illustrations. Claims a
 | HCD.1 or equivalent demand frame | HCD.11 | Same-holder contribution, conditions and receiving-use input; it is not current performance evidence. |
 | HCD.11 or equivalent qualified performance | HCD.12 and HCD.13 | Use the prior contribution and conditions for a specified claim about transfer of earlier performance or retention after a delay. A comparison of support conditions uses the observations that distinguish those conditions. |
 | HCD.6:4.2.2 preparation, subsequent explanation and learner responses | HCD.12:4.5, when learning from the explanation or the preparation's contribution is the question | Preserve what happened before and after source access, assistance and any comparison. A successful application after the source does not by itself establish a causal preparation effect. |
-| New-source learning question, source and task criteria | HCD.12:4.5 | Prior preparation, familiarity and access conditions support this separate entry. Prior execution of the new Method is not required; report the observed application without inventing an earlier transfer basis. |
+| New-source learning question, source and task criteria | HCD.12:4.5 | Prior preparation, familiarity and access conditions support this separate entry. Identify the method described by the source and report how the person applied it. A claim of transfer from earlier work requires evidence of that earlier use. |
 | Any compatible HCD.11, HCD.12 or HCD.13 observation | HCD.14 | Use a relevant observation to support, qualify or revise the identified development assumption. |
 | New compatible contribution evidence | HCD.3, HCD.4, HCD.2 or HCD.5 | Reopen only the affected diagnosis, profile, programme comparison or Method selection; preserve unchanged claims and candidates. |
 | HCD.14 revision hypothesis and test | Responsible practitioner or Learning Product owner | A proposed local arrangement change; authority, performed work and observed outcome remain separate. |
@@ -452,7 +452,7 @@ For source qualifications, citation and edition information, see the [Sources an
 
 Use this pattern when someone asks what a named person must be able to contribute in later Work and the available request is still expressed as a job title, competency list, course request, platform score, MethodDescription, or technology rollout. Begin with the person and representative cases of their later Work.
 
-The first useful result is a **human capability-demand account**. State what the person must contribute in the named Work family, under which configuration and conditions, over what horizon, and which question or decision the account will support. If the account of future Work is grounded but evidence of current performance is insufficient, return a **prospective demand hypothesis** and the observations that could qualify it. Use an applicable result already available for specialist judgement, assignment, access, tools or nonhuman capability. If another practice still needs to answer or decide a question, give it the question and available evidence. If its source is unknown, identify the contribution needed. State which conclusions still need evidence and what would support them.
+The first useful result is a **human capability-demand account**. State what the person must contribute in the particular planned job or across the recurring work being considered, under which configuration and conditions, over what horizon, and which question or decision the account will support. If the account of future Work is grounded but evidence of current performance is insufficient, return a **prospective demand hypothesis** and the observations that could qualify it. Use an applicable result already available for specialist judgement, assignment, access, tools or nonhuman capability. If another practice still needs to answer or decide a question, give it the question and available evidence. If its source is unknown, identify the contribution needed. State which conclusions still need evidence and what would support them.
 
 The demand identifies what a later diagnosis or profile comparison should examine. Use `HCD.3` when the demand is known and the question is which changeable human limitation, if any, is supported. Use `HCD.4` when the demand is known and simultaneous capability claims must be compared. A separate programme comparison (`HCD.2`) may use the account; deriving demand does not select a programme.
 
@@ -463,7 +463,7 @@ Use the relevant professional practice and authority for clinical, curriculum, p
 | Name in this pattern | What it denotes |
 | --- | --- |
 | human holder | One identified person whose capability demand is being considered. For a population question, use separately identified member accounts or representative accounts. |
-| later Work | A named family of future or recurring `U.Work` occurrences in which that person may contribute under stated conditions. |
+| later Work | The work in which this person will need to act. Name the intended task if the demand concerns one occasion. For a demand across recurring situations, state what the jobs share and which differences matter. |
 | representative case | A case selected to examine a material variant of later Work, such as unfamiliar content, changed support, or a specialist interface. Its suitability depends on the conditions it represents and the conclusion for which it is used. |
 | human capability demand | The contributions this person needs to be able to make under the named later-Work conditions. A demand account records those requirements; it does not establish the person's current capability. |
 | demand claim | A statement that this person needs to be able to make a specified contribution under the named later-Work conditions, with the grounds for that requirement, remaining uncertainty and scope. |
@@ -503,7 +503,7 @@ Derive each required human contribution from representative later Work. Distingu
 
 #### HCD.1:4.1 - Pattern-Use Unfolding
 
-1. **Fix the use boundary and holder.** Identify the person, the question or decision the account will serve, later-Work family, subject configuration, effective horizon, and evidence window. If the question concerns a population, identify the separately observed members or representative accounts; do not manufacture one aggregate holder.
+1. **Fix the use boundary and holder.** Identify the person, the question or decision the account will serve, the planned task or range of later work, subject configuration, effective horizon, and evidence window. If the question concerns a population, identify the separately observed members or representative accounts; do not manufacture one aggregate holder.
 2. **Recover the later-Work basis.** For every case, distinguish what was observed from what is planned, stipulated, or assumed. Explain which later Work and material conditions the case represents, and why its evidence is suitable for the intended conclusion. Recover the intended result, quality and critical-error predicates, Work products, and stopping conditions.
 3. **Recover Methods and direct-owner inputs.** Identify applicable target Methods or MethodDescriptions, specialist results, assignments, authority, access, environment, tools, and supports. State any missing external condition or contribution and what depends on it.
 4. **Select representative cases.** Cover the variants that can change demand. Depending on the Work, these may include familiar and unfamiliar situations, allowed and withdrawn assistance, time or workload limits, AI-output challenge, coordination interfaces, specialist-return conditions, and material quality or critical-error boundaries.
@@ -517,7 +517,7 @@ A human capability-demand account contains these result positions:
 
 | Result position | Required content |
 | --- | --- |
-| use boundary | Human holder, receiving question or decision, later-Work family, configuration, effective horizon, evidence window, and direct owners whose results or authority matter. |
+| use boundary | Human holder, receiving question or decision, planned task or range of later work, configuration, effective horizon, evidence window, and direct owners whose results or authority matter. |
 | later-Work basis | Cases, what was observed or remains planned, stipulated, or assumed, and the later Work and conditions they represent; reasons the evidence is suitable for the conclusion; intended result, quality and critical-error predicates, Work products, and stop conditions. |
 | protected conditions | Allowed or required tools, AI posture, information access, time, environment, assignment, authority, supports, and specialist interfaces. |
 | demand claims | Statements of the human contributions required in the named later Work, including material interfaces among simultaneous contributions. Derive these requirements from the cases rather than assigning capability from job labels or traits. |
@@ -603,7 +603,7 @@ Return an adult's request for treatment of social anxiety to a qualified clinica
 ### HCD.1:7 - Conformance Checklist
 
 - [ ] The person whose contribution is in question is identified; any population use preserves member or representative accounts.
-- [ ] The later-Work family, configuration, effective horizon, evidence window, and receiving question or decision are explicit.
+- [ ] The planned task or range of later work, configuration, effective horizon, evidence window, and receiving question or decision are explicit.
 - [ ] Each case distinguishes observed facts from plans, stipulations, and assumptions, and explains which later-Work conditions it represents and why its evidence is suitable for the conclusion.
 - [ ] Intended results, quality and critical-error predicates, protected conditions, tools, supports, and specialist interfaces are recoverable.
 - [ ] Each demand claim names a human contribution supported by representative Work rather than a job label, trait, task, MethodDescription, or course.
@@ -3390,7 +3390,7 @@ Use HCD.6 for a first representative task, HCD.7 to arrange suitable available s
 | retrieval condition | What the learner must recover without reopening a named source or answer, what remains supplied, and why that distinction matters to the target contribution. |
 | source condition | Which references, data, patterns, tables, calculators, tools, or other resources are available and what the learner must do with them. Source use can itself be part of expert performance. |
 | support condition | The human, tool or task support permitted for an episode and what is available when it takes place. This can include AI, a cue, a worked example or specialist help. Identify what the learner received when interpreting a performance. |
-| interleaving | Mixing cases from distinguishable task or method families so that the learner must select or discriminate between them. In a block, cases from one family stay together. |
+| interleaving | Mix cases when the learner needs to distinguish similar situations and decide which response or method fits. In a block, cases with the same learning target stay together. |
 | progression | A conditional change in challenge, complexity, independence, speed, variability, consequence, or support based on prior attempts and the intended later use. |
 | condition-sensitive practice progression | The next episodes or stable arrangement selected for the intended use, with its purpose, relevant conditions, expected observation, response rule and limits. |
 
@@ -3449,7 +3449,7 @@ When the current arrangement already serves the practice question, retain it. Ot
 | Can the learner perform the action again after a material interval? | spacing | Identify the repeated action, separated times, reason for the interval, relevant intervening activity and observation sought on return. |
 | Must a contribution be recovered without reopening a source? | retrieval | What is retrieved, what remains supplied, why unaided recovery matters, and what support is still allowed? |
 | Must the learner recognize a shared basis across varied instances? | blocked comparison | Which instances belong together, what common relation must be noticed, and what action reveals it? |
-| Must the learner distinguish which Method or case family applies? | interleaving | Which alternatives are mixed, which similarities cause confusion, and what response will reveal the needed discrimination? |
+| Must the learner distinguish which response or method fits a case? | interleaving | Which alternatives are mixed, which similarities cause confusion, and what response will reveal the needed discrimination? |
 | Is stable performance ready for a changed level of challenge or help? | progression | Which feature changes, what prior evidence supports the change, and what condition pauses or reverses it? |
 
 Several changes can belong in one episode when their contributions and the meaning of a failure remain distinguishable. Otherwise change one relevant feature at a time or use comparable branches.
@@ -3607,7 +3607,7 @@ Visible effort, novelty and calendar completion can draw attention away from the
 - [ ] Variation tests a needed discrimination, including preservation of the action when an incidental cue changes.
 - [ ] For a spacing design, specify the repeated action and separated times. For an account of performance over an interval, establish which episodes and intervening activities occurred.
 - [ ] Retrieval, source access, tools, AI, human help, task variation, and challenge are selected separately from spacing.
-- [ ] Interleaving is used only when distinguishing among sufficiently similar task or Method families is part of the target.
+- [ ] Interleaving serves a distinction the learner needs to make, such as choosing between two methods or applying one method differently when the conditions change.
 - [ ] If the basic operation remains difficult, assess whether stable supported practice can make it possible. Identify any required support that is unavailable.
 - [ ] Check whether the effects of selected changes can be interpreted. Separate features or use comparable branches when needed, and identify conditions for pausing or restoring an earlier arrangement.
 - [ ] Preserve resources required in later work, unless the task expressly asks what the person can do under a different support condition.
@@ -3872,7 +3872,7 @@ Use C.16 for a measurement claim, including its scale, method and comparability 
 
 A bounded transfer account identifies which contribution held under the change, what the person adapted or needed help with, and what the observations leave open. A practitioner can use it to retain a supported skill or address a demonstrated gap.
 
-Use §4.5 when the question concerns learning with a newly supplied source. Establish relevant prior preparation and familiarity, the source, access and task criteria. Report what the person did after gaining access, with what help and under which conditions. Prior successful use of the new method is not required for that finding.
+Use §4.5 when the question concerns learning with a newly supplied source. Establish relevant prior preparation and familiarity, the source, access and task criteria. Report what the person did after gaining access, with what help and under which conditions. A report of this attempt can stand even when prior familiarity with the method is unknown.
 
 For transfer of an earlier contribution, establish that baseline and the material difference in the new work. If the baseline is uncertain, use suitable existing evidence, assess it through HCD.11 when needed, or leave the transfer claim open. Use attendance or completion records for those facts. A course assessment can also supply evidence of earlier performance if its task, conditions and observations fit the claim.
 
@@ -3948,9 +3948,9 @@ Reopen only the contribution affected by a new variation, changed source or tool
 
 For a new-source learning question, identify the method, prior preparation and what is known about familiarity. Identify what the source newly supplies, the source itself and the person's opportunity to use it. For a planned test, state these conditions before it begins. For an earlier attempt, recover them from suitable evidence. Finding a source and learning with it after equal access are different contributions.
 
-Establish the conditions and observations that bear on the question. They may include prior familiarity, initial recognition, first application after access, adaptation, help, time, material errors, correction or unfinished work. Look for the operation the new method contributes. Familiar arithmetic can remain adequate while acquisition of the new method is still unestablished.
+Establish the conditions and observations that bear on the question. They may include prior familiarity, initial recognition, first application after access, adaptation, help, time, material errors, correction or unfinished work. Identify the operation described by the source and observe whether the person performs it. Correct arithmetic alone can leave open which operation the person used.
 
-An observed first application after reading can establish what the person did under those learning conditions. To establish improvement, compare relevant performances. To establish the contribution of earlier preparation or a programme, use a comparison that distinguishes its effect. Retention needs evidence after the relevant delay. For faster learning at unchanged correctness, compare time and correctness under suitable conditions.
+An observed first application after reading can establish what the person did under those learning conditions. To claim that the person acquired or improved the ability to use the method here, compare relevant performance before and after access to the source under the stated conditions. To establish the contribution of earlier preparation or a programme, use a comparison that distinguishes its effect. Retention needs evidence after the relevant delay. For faster learning at unchanged correctness, compare time and correctness under suitable conditions.
 
 ### HCD.12:5 - Archetypal Grounding
 

@@ -102,7 +102,7 @@ Search the Keywords & Search Queries column for the engineering difficulty, subj
 | 22 | [SYSE.4 - Decide Whether and How to Challenge an Engineering Claim](#syse4---decide-whether-and-how-to-challenge-an-engineering-claim) |  Stable  | *Keywords:* engineering assurance, claim, challenge, test, measurement, inspection, evidence use, validity boundary. *Queries:* "Which challenge could change reliance on this engineering claim?" "What configuration, conditions, uncertainty, and time limit the returned evidence?" Establish what the available evidence supports. Use a sufficient result, narrow or stop unsupported reliance, or select a challenge when its attainable contribution warrants the work. If reliance changes, reassess the affected focus, concept, architecture, realization or specialist answer. | SYSE.10, SYSE.11, SYSE.14; FPF A.10, B.3 |
 | 23 | [SYSE.15 - Choose and Refresh the Engineering Methods Needed by a Project](#syse15---choose-and-refresh-the-engineering-methods-needed-by-a-project) |  Stable  | *Keywords:* engineering Method, repertoire, situation, application profile, variant, trial, qualification, refresh. *Queries:* "Which engineering Methods are needed to obtain this project's results?" "What evidence would justify keeping, changing, or rejecting a Method variant?" Select and refresh the repertoire for the System and engineering situation, retaining specialist Methods and the distinction between engineering and the System's operating Methods. | FPF A.3.2, C.36, E.23 |
 | 24 | [SYSE.20 - Reconcile Overlapping Engineering Work and Required Order](#syse20---reconcile-overlapping-engineering-work-and-required-order) | Stable | *Keywords:* overlapping engineering Work, concurrency, required order, result dependency, Method structure, configuration, coordination. *Queries:* "Which modeling, implementation, trial, and review Work can overlap?" "Which result or released configuration must exist before another use?" Reconcile the relevant Method, Work, System, representation, and support structures, to establish required order or permitted overlap, or assess whether an arrangement meets the specified use. When a choice is requested, compare the options and return the authorized outcome or the remaining gap. | SYSE.15; FPF A.15.1, A.22.CGUS, E.18.NET |
-| 25 | [SYSE.21 - Decide Whether and How to Change Systems Engineering Culture](#syse21---decide-whether-and-how-to-change-systems-engineering-culture) | Stable | *Keywords:* Systems Engineering culture, Method variant, practitioner population, transmission, retention, branching, intervention. *Queries:* "Should this engineering practice continue, change, branch, or stop across the relevant population?" "What evidence distinguishes visibility, local enactment, and wider continuation?" Recover the enacted Method variant and supported cultural relations for a bounded population and period; return the qualified current account or continuation choice, selecting further inquiry or intervention only when warranted. | SYSE.20; FPF C.36, G.11 |
+| 25 | [SYSE.21 - Decide Whether and How to Change Systems Engineering Culture](#syse21---decide-whether-and-how-to-change-systems-engineering-culture) | Stable | *Keywords:* Systems Engineering culture, Method variant, practitioner population, transmission, retention, branching, intervention. *Queries:* "Should this engineering practice continue, change, branch, or stop across the relevant population?" "What evidence distinguishes visibility, local enactment, and wider continuation?" Recover which method practitioners enacted, any supported variant and the cultural relations for a bounded population and period; return the qualified current account or continuation choice, selecting further inquiry or intervention only when warranted. | SYSE.20; FPF C.36, G.11 |
 
 **Part VI - Platform Engineering: Supported Use and Continuing Change**
 
@@ -2617,10 +2617,9 @@ When the practice or its sources change, reassess the advice that depends on the
 
 ### SYSE.22:0 - Use This When
 
-Use this pattern when an engineering project keeps improving one problem statement and one proposed System while
-the situation around both has changed. For example, a new operating condition, affected-System consequence,
-supplier limit, technology, or evidence result can make the old problem–solution pair obsolete even while its
-backlog closes.
+Use this pattern when an engineering decision concerns alternatives for an actual or proposed product family and a changed condition calls the problem or the options into question. An observation on one unit can change the choice for the family when its shared design, admissible differences or effectivity matter. If the decision concerns only how one system can meet its own requirements, use SYSE.2.
+
+A new operating condition, an effect on another System, a supplier limit, a technology or new evidence can invalidate the old problem–solution pair even while its backlog closes.
 
 Begin with one observation or claim that can change the current engineering decision. Put the selected problem
 record beside the System option it currently constrains. State the receiving decision and the claim within it that
@@ -2645,6 +2644,7 @@ When project focus, the operating environment or the affected Systems are unclea
 and option set are stable and only an architecture choice remains. Use `C.18` when the question concerns only an
 archive or Front. A contested problem formulation may require a Decision Design Method;
 a changed Method may require Method Engineering.
+
 
 #### SYSE.22:0.1 - Terms and Distinctions
 
@@ -5311,7 +5311,7 @@ the supplier's Method, enable a capable Agent, and assess the return before rely
    System claim these may include the actual or intended System, configuration, part, environment, affected
    System, use, interval, scale, and assumptions.
 4. **Retain the supplier's Method and evidence.** For a selected acquisition, the specialist practice
-   identifies its Method, source family, inputs, observations, uncertainty, and non-use boundary. A missing
+   identifies the method and source used, any shared source dependency that affects reliance, inputs, observations, uncertainty, and non-use boundary. A missing
    Method limits the promised result; investigating it is another acquisition choice under step 2.
 5. **Choose and enable the performing Agent.** Check current capability and the conditions that affect this Work,
    such as access, workload, conflicts, resources, and tools. Establish an assignment only when it matters.
@@ -12315,11 +12315,11 @@ change, branch or stop a Method variant. Identify the Methods practitioners enac
 discussion and tool promotion can describe a different practice from the one seen in project Work.
 
 Begin with a bounded practitioner population, period, engineering profile, and representative Work. Identify the
-Method variant from that Work. Then state which cultural-continuation relations are observed—for example
+method enacted in that work. When claiming a variant, identify the reusable rule that differs and the method used for comparison. Then state which cultural-continuation relations are observed—for example
 transmission, receiving enactment, recognition, local selection, memory, retention, or loss—and which remain
 unknown.
 
-The first useful result is a **project-local cultural-continuation account**: the enacted Method variant, supported cultural claims and engineering consequences, available basis, limits and any retained alternatives. It can finish as a qualified current account or supported continuation without a new intervention or later study. When an authorized project choice is made, distinguish its **practice-change decision record** from the cultural claims; retain the choice and its authority in the existing receiving account when that is sufficient.
+The first useful result is a **project-local cultural-continuation account**: the method enacted and any supported variant, supported cultural claims and engineering consequences, available basis, limits and any retained alternatives. It can finish as a qualified current account or supported continuation without a new intervention or later study. When an authorized project choice is made, distinguish its **practice-change decision record** from the cultural claims; retain the choice and its authority in the existing receiving account when that is sufficient.
 
 An authorized Agent makes any project decision. If the project selects an intervention, identify who can perform it and any later engineering Work, with the authority and working conditions each contribution requires. A completed account of current practice can stand without commissioning that work.
 A project choice supplies one possible input to cultural change; later Work and cultural relations establish what
@@ -12338,7 +12338,7 @@ software, electrical, maritime, building, medical, or manufacturing engineering.
 | Systems Engineering Discipline | A `U.Discipline` established through `C.20`. When that result is unavailable, the pattern uses *Systems Engineering* as a discipline-facing label and states the bounded practice population directly. |
 | Systems Engineering culture | An ordinary phrase for a bounded cultural-evolution case concerning identified Methods, Work, practitioner Agents, carriers, and supported cultural relations. |
 | practitioner population | Agents selected by a stated inclusion rule for one place, period, engineering profile, and claim. A roster is an episteme describing this population. |
-| enacted Method variant | An identified `U.Method` enacted by representative dated Work in the population and period. Its MethodDescription and public labels are separate epistemes. |
+| method enacted in the practice | Identify the reusable way from representative dated Work in the population and period. To identify a method variant, state which rule or condition of applicability differs from the way used for comparison. A cultural variant can be tracked as a transmitted practice even when the method itself is unchanged. Its descriptions and labels can be examined separately. |
 | carrier | An identified System, episteme, or publication bearer used in a stated transmission, memory, mediation, or evidence relation. State the bearer's kind and relation. |
 | variant generation | Work or another grounded occurrence that produces or differentiates a Method, MethodDescription, arrangement, or other variant. Production of a description establishes that episteme; Method identity is established separately. |
 | transmission | A relation by which a variant or its description becomes available to another Agent or population. Receiving enactment requires later Work. |
@@ -12402,7 +12402,7 @@ The recurring tensions are:
 
 ### SYSE.21:4 - Solution
 
-Recover the enacted Method variant and cultural relations supported in the named population. Return the qualified current account or compare the feasible ways of continuing, changing or stopping the practice for the receiving decision. Existing local observations and qualified judgement may suffice for continuation. Select new inquiry or intervention only when its attainable contribution warrants design, engineering, participant and displaced-Work burden under actual authority and protection. A claimed performed test or later cultural result needs its own Work and observations; it is not established by choosing it.
+Recover the method enacted, any supported variant and the cultural relations supported in the named population. Return the qualified current account or compare the feasible ways of continuing, changing or stopping the practice for the receiving decision. Existing local observations and qualified judgement may suffice for continuation. Select new inquiry or intervention only when its attainable contribution warrants design, engineering, participant and displaced-Work burden under actual authority and protection. A claimed performed test or later cultural result needs its own Work and observations; it is not established by choosing it.
 
 
 #### SYSE.21:4.1 - Construct a supported continuation or change
@@ -12459,7 +12459,7 @@ When intervention is selected, use [FPF A.3.1.MI:4.1–A.3.1.MI:4.5](https://git
 
 Prepare what a receiving practitioner needs at the point of action: the applicable description and worked example, permitted inputs and tools, reasons for the consequential choices, recognition of a branch or stop, and access to necessary expertise and response. Explain which technical choices are fixed by the receiving use and which remain open. Let receiving engineers expose an incompatible interface, missing datum or impossible review demand; use that information to repair the variant or its conditions. Technical explanation and joint problem solving support uptake without replacing another Agent's specialist authority.
 
-Transmission occurs when the relevant carrier becomes available. Receiving enactment requires the receiving Agent to perform the Method under the applicable conditions. Observe which assistance that Work used before claiming independent capability or a readily repeatable practice. Arrange later retrieval and support where continuation depends on them: maintained configuration mappings, examples of accepted and rejected impacts, review capacity, usable feedback and an accountable response.
+To establish transmission, identify what reached which receiving practitioners and how. The recipient may gain access to a usable description or observe another agent demonstrating the relevant operation. Record what the evidence establishes about that access or observation. Receiving enactment requires the receiving Agent to perform the Method under the applicable conditions. Observe which assistance that Work used before claiming independent capability or a readily repeatable practice. Arrange later retrieval and support where continuation depends on them: maintained configuration mappings, examples of accepted and rejected impacts, review capacity, usable feedback and an accountable response.
 
 Use `OCE.10` when the selected response changes participation or working-culture conditions. Obtain an organizational decision for changed responsibility or authority; do not embed that decision in an engineering instruction. Use `HCD.1` when a receiving decision depends on an identified need to develop a human capability. A functioning existing capability, or a failure attributable to unavailable access, does not create a training requirement.
 
@@ -12478,7 +12478,7 @@ Use the positions below for the claims and receiving decisions at issue. A quali
 | Result position | Required content |
 | --- | --- |
 | use boundary | Engineering profile, project or organization, place, period, project system-of-interest when designated or another decision-relevant world-side subject, affected Systems, practitioner population, receiving question or decision, and Discipline result or bounded discipline-facing label. |
-| enacted variant | Identified Methods, MethodDescriptions, representative Work, performing Agents, subject configuration, results, evidence window, and stop condition. |
+| method enacted and any supported variant | Identified Methods, differences in the reusable way when a variant is claimed, MethodDescriptions, representative Work, performing Agents, subject configuration, results, evidence window, and stop condition. |
 | cultural claims | Every asserted cultural relation with its variant, participants, population, period, evidence, uncertainty and any missing links that limit the claim. |
 | decision reference, when a project choice is made | Deciding Agent, authority, current options, comparison basis, choice rule, supported disposition, its limits, and any fallback or accepted losses; include an intervention or probe only when selected. Keep the decision result distinct from cultural evidence, in the existing account or a referenced record according to receiving use. |
 | intervention and later observations, when claimed | Actual intervention and engineering Work, observed cultural relations, practitioner burden, engineering consequences and consequences for named affected Systems, with temporal and causal limits. A proposed test supplies none of these performed results. |
@@ -12598,7 +12598,7 @@ Watch for these recurring interpretation biases:
 
 - [ ] The pattern use names the engineering profile, population, place, period, project system-of-interest when
       designated or another relevant world-side subject, and the receiving question or decision.
-- [ ] Representative Work and enacted Methods ground the current variant.
+- [ ] Representative Work identifies the method enacted. When a method variant is claimed, the account shows what differs in the reusable way.
 - [ ] Performing Agents, participating Systems, MethodDescriptions, carriers, and result epistemes retain their
       own relations.
 - [ ] Every asserted cultural claim names its variant, participants, population, period, evidence, and

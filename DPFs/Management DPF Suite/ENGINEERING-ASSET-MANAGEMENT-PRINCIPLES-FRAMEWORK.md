@@ -162,7 +162,7 @@ This language helps the practitioner establish the required contribution, compar
 
 An *asset* is considered here for the value its use can contribute. The governed objects are engineered assets, an interacting asset System and a portfolio of assets or interventions. A portfolio groups assets for management; evidence of functional interaction is still needed before treating it as one System. The framework governs decisions about their contribution, use and change, and the continuation of that decision practice. It leaves equipment diagnosis, design realization, protected maintenance work and service operation with their relevant Methods.
 
-The Russian plain designation is *управление техническими активами*. The English name makes the engineered-asset scope visible. Enterprise Asset Management is a serious overlapping professional usage that includes maintenance, information and cross-functional practice. It is neither confined to software nor to large enterprises. Here the Engineering qualification states this language's subject; portfolio management names only one of its questions.
+The name *Engineering Asset Management* identifies the engineered assets whose performance and upkeep are at issue. Enterprise Asset Management is a serious overlapping professional usage that includes maintenance, information and cross-functional practice. It is neither confined to software nor to large enterprises. Here the Engineering qualification states this language's subject; portfolio management names only one of its questions.
 
 ## EAM.Reference:2 - Forces and working distinctions
 

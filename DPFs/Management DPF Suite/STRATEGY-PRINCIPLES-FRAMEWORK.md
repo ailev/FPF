@@ -198,7 +198,7 @@ STR.17 compares dated observations when a technological change, possible contrib
 
 ### STR.Reference:4.1 - The strategizing mantra
 
-The strategizing mantra is the reasoning Method in [STR.18](#str18---connect-strategic-reasoning--the-strategizing-mantra). It connects a worthwhile contribution, a way to obtain it, feasible contributions, commitments and the return from use. Its developed explanation allows a new means or changed condition to determine which question needs attention; the mnemonic order is not a planning cycle.
+The strategizing mantra in [STR.18](#str18---connect-strategic-reasoning--the-strategizing-mantra) helps practitioners recall the questions that connect a worthwhile contribution, a way to obtain it, feasible commitments and observations from use. STR.18 explains how to use their answers to form and revise a strategic judgement. A new means or a changed condition can direct attention to any of those questions.
 
 STR.18 uses the separately applicable Methods described above. STR.14 retains its specific conflict-reconciliation question, and STR.13 the choice of methods for strategic practice. Use STR.18 to assemble or revise a strategic judgement when the separate answers need to be connected.
 

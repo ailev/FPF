@@ -490,7 +490,7 @@ Establish how to recognize the condition, calculate the consequence and carry th
 
 ##### FDM.3:4.2.1 - Match or adapt an available model
 
-Assess a suitable available model against the operative rules. Choose a contract family by its behavior. Principal payable only at maturity, fixed principal installments and equal total installments require different calculations. An optional prepayment is another distinct event. Use the actual terms to determine which the loan requires or permits.
+Assess a suitable available model against the operative rules. Check whether the candidate model represents the repayment rules and events in this agreement. When several model types could fit and their differences could affect this use, compare their behavior under the terms of the agreement. Principal payable only at maturity, fixed principal installments and equal total installments require different calculations. An optional prepayment is another distinct event. Use the actual terms to determine which the loan requires or permits.
 
 Check whether the model’s definitions and event rules express the required allocation, calendar and exercise conditions. Use a fit directly, extend a separable missing behavior when the rest remains valid, or report what the model cannot support. A software default can support a conditional scenario if stated. Use the agreement to establish its actual terms. [SIE.3][SIE] helps decide whether the model suffices and SIE.4 helps connect different representations.
 

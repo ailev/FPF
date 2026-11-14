@@ -3356,7 +3356,7 @@ Choose how later users will find it. Put a recurring answer beside the question 
 
 Agree who can correct the material and what maintenance they can sustain. A.3.1.MV supplies the distinction between a changed method, a changed description, a local departure and a support change. Preserve the relevant applicability and evidence instead of treating every new file edition as a newly validated method.
 
-For adoption, obtain the receiving practice's decision and conditions. A person learning the new method may need HCD; a changed assignment, tool or permission needs its owner. The returned repertoire offers a qualified option. Actual adoption and successful use remain observable later results.
+For adoption, obtain the receiving practice's decision and conditions. A method already known in the discipline may still be new to a member learning it. HCD can help when the aim is to develop a person's capability. To claim that the community has added a new method to the discipline's repertoire, identify the earlier ways examined and the repeatable operation that differs. A change of assignment, tool or permission needs its owner. The repertoire offers an option. Establish actual adoption and successful use from the receiving practice.
 
 The same resource can serve independent carriers who never join the community. Provide a usable explanation and conditions through an accessible publication or provider, and a feasible correction route where one can be maintained. Their use need not include a meeting, chat or public account of participation.
 

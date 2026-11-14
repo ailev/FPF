@@ -1661,7 +1661,7 @@ Shared practice supports continuity but can retain a stale or harmful habit. Loc
 
 ### MNT.16:4 - Solution
 
-State the maintenance population, period and receiving question. Identify the relevant Method variant and the work or result whose continuation matters. Use ordinary terms before introducing a cultural label such as school, tradition or maturity.
+State the maintenance population, period and receiving question. Identify the method in use and the work or result whose continuation matters. Name a variant when the comparison supports a difference in the reusable way. Use ordinary terms before introducing a cultural label such as school, tradition or maturity.
 
 Recover the cultural relations that the available basis supports. A manual can transmit a description; a mentor can demonstrate a technique; practitioners can enact it in actual work; peers or supervisors can recognize and reward it; the population can retain or abandon it. These are different claims. Use [FPF C.36](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36---cultural-evolution-and-cultural-evolution-engineering) when their distinction changes the account.
 
@@ -1691,7 +1691,7 @@ Visible experts and day-shift work can dominate the account while contractors an
 
 ### MNT.16:7 - Conformance Checklist
 
-Are population, period, Method variant and receiving use clear? Are transmission, enactment, recognition, selection and retention distinguished where the conclusion depends on them? Are proposed changes, performed actions and observed effects separately supported? Does a selected intervention address an actual relation or condition rather than only a label?
+Are the population, period, method actually used and receiving use clear? Are transmission, enactment, recognition, selection and retention distinguished where the conclusion depends on them? Are proposed changes, performed actions and observed effects separately supported? Does a selected intervention address an actual relation or condition rather than only a label?
 
 A qualified current account or supported continuation can close the request. New inquiry and stronger causal claims need their own attainable contribution and evidence.
 

@@ -525,7 +525,7 @@ Use the questions that can expose a material difference in this inquiry.
 - Which bearer, place, configuration, horizon, or consequence is central?
 - Which value, duty, interest, or risk makes this condition worth investigating or treating?
 - Which mechanism or dependency is hypothesized, and what evidence could challenge it?
-- Which action families become plausible, and which disappear?
+- Which actions, inquiries or reasons to wait become plausible, and which cease to fit?
 - Who can prepare, receive, authorize, or implement a response?
 
 Combine relevant contrasts into coherent candidate formulations. If two accounts have the same boundary, evidence, explanatory claims, possible responses and consequences for this use, merge them or identify the remaining difference as one of wording.
@@ -541,7 +541,7 @@ For each retained formulation, identify the information the inquiry needs.
 | boundary and exclusions | What the formulation includes, what it suppresses or defers, and why. |
 | value tension | Attributed concern, duty, interest, risk, or desired change that makes the formulation material. |
 | evidence need | Current support, uncertainty, contrary evidence, and any missing observation that could distinguish a rival account, strengthen the grounds, or reverse or narrow the claim. |
-| intervention logic | Action, inquiry, adaptation, or restraint families made plausible, without claiming effectiveness. |
+| intervention logic | Actions, inquiries, adaptations or reasons for restraint made plausible by the formulation, with their conditions. Effectiveness needs separate evidence. |
 | receiving-use consequence | Which interpretation, evidence requirement, scope, model, alternative, comparison, recommendation or action would change. |
 
 Where a durable formulation is used as a claim-bearing episteme, preserve its source and identity through the direct episteme pattern.
@@ -560,7 +560,7 @@ Return the formulations, their contrasts, shared and disputed premises, material
 
 #### PSDA.1:4.6 - Pass plurality forward without creating a workflow
 
-Pass the set to `PSDA.2` when included and excluded scope must be chosen, to `PSDA.3` when different models are needed, to `PSDA.5` when formulations imply different alternative families, and to `PSDA.17` when engagement activities obstruct a material formulation contribution. These branches may be concurrent.
+Pass the set to `PSDA.2` when included and excluded scope must be chosen, to `PSDA.3` when different models are needed, to `PSDA.5` when a formulation changes a candidate action or its conditions, or opens other alternatives, and to `PSDA.17` when engagement activities obstruct a material formulation contribution. These branches may be concurrent.
 
 Reopen locally when a new participant, concern, affected System, evidence result, value tension, intervention family, horizon, receiving use, or authority fact creates a materially different formulation or defeats one already retained.
 
@@ -644,7 +644,7 @@ A problem formulation connects a contested description to concerns, values, evid
 
 - For a professional engagement, `PSDA.11` supplies the bounded subject, receiving use, horizon, recipient, and authority boundary. Use `PSDA.12` when material participation, affected Systems, concerns, duties, interests, or dissent need its professional construction; other inquiries can use adequate direct premises.
 - `PSDA.2` receives the plural set when the current included/excluded problem boundary must be chosen. `PSDA.3` receives formulation-dependent model needs.
-- `PSDA.5` receives formulation-dependent alternative families; it does not retroactively define the problem. `PSDA.17` can use the plural formulation set when deciding how to resolve material interference in the engagement.
+- `PSDA.5` receives the possible actions and conditions that depend on a formulation; it does not retroactively define the problem. `PSDA.17` can use the plural formulation set when deciding how to resolve material interference in the engagement.
 - `C.17` may characterize novelty, diversity, or use of the generated set. `C.18` governs archive/front/generation-record stewardship only when those objects are needed.
 - Direct episteme, evidence, relation, value, causal, legal, ethical, safety, governance, and choice patterns govern their own claims. Use PSDA.1 to construct the set. A later ranking or choice has its own rule and authority.
 
@@ -2547,7 +2547,7 @@ Give enough information for the result to be used within its declared scope.
 | --- | --- |
 | intended return | The smallest decision-support result sought now, including blocker or abstention as valid branches. |
 | Recipient and use | Who uses the result, the question, decision or work it informs, and the relevant horizon. |
-| holder or subject | The exact subject, configuration, place, population, or interval needed by the current question. |
+| holder or subject | Name what the question concerns. When the answer depends on a configuration, place, population or interval, give that condition as well. A place or period can itself be the subject when the question concerns it. |
 | Participant positions | Who prepares the result. For a decision, who holds it. Include the assignments and authority on which this use depends. |
 | current boundary | Included concerns and consequences, important exclusions, and why that cut is usable now. |
 | missing value or next branch | Any missing participant, scope, source, evidence, authority or other result, and what remains open because of it. |
@@ -5741,15 +5741,15 @@ The following Learning Product Development LPF sources supply the contributions 
 
 | Exact source | Contribution used in APP-PSD-04 |
 | --- | --- |
-| LG.02 - Проектировать длинный учебный маршрут по устойчивым адресам | Place the first distinction, worked use and later varied return along a learning route with stable addresses. |
-| LG.03 - Проверять законченный фрагмент руководства по следующему действию учащегося | Check whether a completed Guide fragment supports the learner's next action and identify the bounded repair. |
-| LG.05 - Проектировать учебную единицу, которая учит применять паттерн | Develop a pattern-centred unit around recognition, explanation, action, result/check, a worked case and practice. |
+| LG.02 - Design a Long Learning Route with Stable Addresses | Place the first distinction, worked use and later varied return along a learning route with stable addresses. |
+| LG.03 - Check a Completed Guide Passage against the Learner’s Next Action | Check whether a completed Guide fragment supports the learner's next action and identify the bounded repair. |
+| LG.05 - Design a Learning Unit That Teaches How to Apply a Pattern | Develop a pattern-centred unit around recognition, explanation, action, result/check, a worked case and practice. |
 
 When the question concerns the full instructions, use an available authorized copy or obtain the applicable text from Learning Product maintenance. Its LPF marks LG.05 as Candidate. Qualify the proposed use before relying on it as established guidance. For a Guide-design question, an adequate existing design result can suffice. If neither suitable source guidance nor a qualified result supplies the needed design contribution, identify what remains missing. Other opportunity and programme results retain their supported uses.
 
 ### PSDA.Sources:4.2 - Foundations programme source access
 
-**ThinkingFoundations + EngineeringFoundations** is the programme source. **Основания выбора и сравнение программ** is its supporting account of programme choice and comparison, inspected on 2 September 2026. They illustrate design before any one learner’s development question is known. This publication gives their role and does not provide the full working texts or a verified public route to them.
+**ThinkingFoundations + EngineeringFoundations** is the programme source. **Grounds for Choosing and Comparing Programmes** is its supporting account of programme choice and comparison, inspected on 2 September 2026. They illustrate design before any one learner’s development question is known. This publication gives their role and does not provide the full working texts or a verified public route to them.
 
 For the full design and comparison in this example, consult both sources where available or obtain them from the responsible designer or maintainer. For an individual programme assessment, use a compatible HCD.2 result and evidence of the person’s starting conditions, later tasks, access, support and participation. Another qualified comparison can serve the advice or choice directly.
 

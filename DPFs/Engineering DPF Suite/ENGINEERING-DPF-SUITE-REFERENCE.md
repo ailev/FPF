@@ -178,7 +178,7 @@ Section addresses use `Engineering.Reference:n` and nested numbers. They identif
   - [Engineering.Reference:22.3 - Make the selected arrangement effective and preserve the experiment's limits](#engineeringreference223---make-the-selected-arrangement-effective-and-preserve-the-experiments-limits)
   - [Engineering.Reference:22.4 - Return the result with the work required to use it](#engineeringreference224---return-the-result-with-the-work-required-to-use-it)
   - [Engineering.Reference:22.5 - Source use and ordinary stopping point](#engineeringreference225---source-use-and-ordinary-stopping-point)
-- [Engineering.Reference:23 - Interpret a source and revise what follows](#engineeringreference23---interpret-a-source-and-revise-what-follows) — Hermeneutics, interpretation, герменевтика, интерпретация; local meaning, changed evidence or question, revised conclusions, source history and sufficient reading.
+- [Engineering.Reference:23 - Interpret a source and revise what follows](#engineeringreference23---interpret-a-source-and-revise-what-follows) — Hermeneutics and interpretation; local meaning, changed evidence or question, revised conclusions, source history and sufficient reading.
   - [Engineering.Reference:23.1 - Read the provision against its exception](#engineeringreference231---read-the-provision-against-its-exception)
   - [Engineering.Reference:23.2 - Carry the corrected reading into the design](#engineeringreference232---carry-the-corrected-reading-into-the-design)
   - [Engineering.Reference:23.3 - Change the question while keeping the source](#engineeringreference233---change-the-question-while-keeping-the-source)
@@ -1799,7 +1799,7 @@ If the helper becomes unavailable, you can retain self-study and a saved attempt
 
 ### Engineering.Reference:16.7 - Sources and further practice
 
-Anatoly Levenchuk's *Guide to Methodology for Engineers and Managers* (Russian: «Руководство по методологии для инженеров-менеджеров», R7) explains how to make methods explicit, examine one's own work, and introduce methods through explanation and practice. If you have access to the guide, its explanations and project exercises offer further practice. You can complete these exercises with the material here. An equivalent exercise and workable help already available to you may be a better use of your time.
+Anatoly Levenchuk's *Guide to Methodology for Engineers and Managers* (R7, in Russian) explains how to make methods explicit, examine one's own work, and introduce methods through explanation and practice. If you have access to the guide, its explanations and project exercises offer further practice. You can complete these exercises with the material here. An equivalent exercise and workable help already available to you may be a better use of your time.
 
 FPF A.3.1.MR explains recovery of candidate methods; C.39 supplies construction and change for a receiving use. [FPF A.3.2.DE](../../FPF-Spec.md#a32de---describe-a-method-for-its-intended-use) helps make an account usable for its intended action. When a proposal is to enter real work, [FPF A.3.1.MI](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a31mi---introduce-a-method-into-practice-and-decide-what-to-keep-or-change) addresses introduction and what to keep or change. The exercises supply practice with these contributions; successful use in your work needs its own grounds.
 
@@ -3037,7 +3037,7 @@ For a small supported correction that the current team can carry out without a s
 
 A specification says an operation is “complete”, but a later example shows a delay. What has completed, and does the correction change your recommendation? Start with the question the source must answer. Recover its local meaning, obtain the passage or observation that distinguishes consequential readings, and revise the conclusion that used the defeated premise. If the source and its example already answer the question, use that answer.
 
-This application connects source reading, reasoning revision and the work that receives the answer. The cases are constructed; the relevant provisions and observations are supplied below. They assume ordinary preparation for the receiving work, access to the named material and the ability to obtain a qualified contribution when a subject question exceeds that preparation. “Hermeneutics” and “interpretation” are useful search terms; Russian searches may use “герменевтика” and “интерпретация”. The working question determines whether you need local meaning, historical inquiry, semantic integration, explanation or another contribution.
+This application connects source reading, reasoning revision and the work that receives the answer. The cases are constructed; the relevant provisions and observations are supplied below. They assume ordinary preparation for the receiving work, access to the named material and the ability to obtain a qualified contribution when a subject question exceeds that preparation. “Hermeneutics” and “interpretation” are useful search terms. The working question determines whether you need local meaning, historical inquiry, semantic integration, explanation or another contribution.
 
 
 ### Engineering.Reference:23.1 - Read the provision against its exception
