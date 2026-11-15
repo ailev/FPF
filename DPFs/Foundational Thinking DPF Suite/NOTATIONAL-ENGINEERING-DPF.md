@@ -441,7 +441,7 @@ This method adapts those sources to construct requirements from contrasting case
 
 | Pattern | Contribution to the working method |
 | --- | --- |
-| A.6.3.RT and A.6.3.RT.OE | Supply representation-scheme distinctions and the construction of an operative expression under available rules. A missing rule can become a notation-design question here. |
+| A.6.3.RT and A.6.3.RT.OE | Choose a representation and a medium that support the intended operation. If using an existing notation, construct the expression under its formation and interpretation conventions. Develop a missing convention here when it prevents the required construction or reading. |
 | C.2.8 | Characterizes recoverable structure for a prepared reader with stated access and effort; use it when extraction difficulty changes the notation choice. |
 | C.40.CD | Develops a problem and candidate ways of dealing with it together when a notation trial changes the useful question. |
 | C.11.DUA | Helps decide whether another comparison or reader probe can change the choice enough to justify its cost. |
@@ -664,7 +664,7 @@ Revisit the retained choice when a user cannot recover the references or composi
 | Pattern | Contribution to the working method |
 | --- | --- |
 | NOT.1 | Selects the distinctions and operations the notation must support. |
-| A.6.3.RT and A.6.3.RT.OE | Supply representation-scheme distinctions and expression construction when rules already exist. |
+| A.6.3.RT and A.6.3.RT.OE | Change the representation when this enables the intended operation. Construct the needed expression under the formation and interpretation rules already available. |
 | NOT.3 | Develops the interpretation and reader operations that use the constructed expressions. |
 | NOT.4 | Develops transformations with the necessary preservation, binding and side conditions. |
 | MATH.17 and MATH.18 | Supply operations on operations and interpretations for formal accounts of composition and binding. |

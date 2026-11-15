@@ -694,7 +694,7 @@ NarrativePurposeIntake@FictionalContinuationProbe:
 #### NSTD.1:4.1 - When claim identity matters
 
 
-Use `A.6.3.NAR:4.0.1` when citation, dispute or another consequential use needs identifiable source and narrative claims. Identify source episteme X, narrative episteme Y and the construction that relates them. Preserve their common EntityOfConcern and check the correspondence on which the claimed use depends, including across representational schemes. Establish publication permission, evidence or assurance when the intended claim or action requires it.
+Use `A.6.3.NAR:4.0.1` when citation, dispute or another consequential use needs identifiable source and narrative claims. Identify source episteme X, narrative episteme Y and the construction that relates them. Preserve their common EntityOfConcern and check the correspondence on which the claimed use depends. When the two expressions use different representation languages, show how each is read and which source claims the narrative preserves under those readings. Establish publication permission, evidence or assurance when the intended claim or action requires it.
 
 ### NSTD.1:5 - Archetypal Grounding
 

@@ -88,7 +88,7 @@ The [Architectural Reference](#semantic-integration-engineering-principles-frame
 - **Start with:** [SIE.1](#sie1---bound-the-receiving-use-and-semantic-contract) when the receiving question is unsettled; [SIE.10](#sie10---validate-a-semantic-integration-result-for-its-receiving-use) when an existing result fails that question.
 - **Stop or return:** Stop a dependent branch on unresolved feature identity or configuration. Return a source-definition gap to its owner, a transformation defect to SIE.7, and the release or inspection-acceptance decision to the engineering or quality authority.
 
-In [APP-SIE-01](#sieapplication1---app-sie-01---ap242-and-qif-product-lifecycle-query), the engineer asks for the QIF plan and result concerning feature `F` in released revision/configuration `R` at effectivity `E`. SIE.1 makes those inputs and the acceptable answer branches explicit. [SIE.2](#sie2---recover-and-qualify-source-semantics-and-authority) then supplies the source editions, local definitions, identifier schemes, and authority needed to interpret them. If the available model cannot distinguish a planned inspection from an observation of that configured feature, [SIE.3](#sie3---construct-or-reuse-a-semantic-model-for-a-named-use) develops that missing distinction and tests it against those cases. An adequate existing model can be reused.
+In [APP-SIE-01](#sieapplication1---app-sie-01---ap242-and-qif-product-lifecycle-query), the engineer asks for the QIF plan and result concerning feature `F` in released revision/configuration `R` at effectivity `E`. SIE.1 makes those inputs and the acceptable answer branches explicit. [SIE.2](#sie2---recover-and-qualify-source-semantics-and-authority) then supplies the source editions, local definitions, the rules or assignments that identify the feature, and the authority for each. If the available model cannot distinguish a planned inspection from an observation of that configured feature, [SIE.3](#sie3---construct-or-reuse-a-semantic-model-for-a-named-use) develops that missing distinction and tests it against those cases. An adequate existing model can be reused.
 
 Those meanings allow [SIE.4](#sie4---judge-cross-source-correspondences-and-their-permitted-uses) to state a directed relation: inspection characteristic `C-17` concerns product feature `F-17` under the plan and configuration. [SIE.5](#sie5---resolve-cross-source-identity-without-erasing-identifier-authority) qualifies the feature endpoint at the required grain and effectivity. The relation permits navigation between the records; it does not make a characteristic identical to a product feature. A shared label without the supporting plan and effectivity remains an unmatched candidate. [SIE.6](#sie6---fuse-source-qualified-claims-without-erasing-conflict) uses these premises to combine definition, plan, and observation claims while retaining their sources and any conflict.
 
@@ -156,7 +156,7 @@ The main trade-offs follow from that problem. A narrower source cut costs less b
 | term or designation | Which sign is used in one source? | one shared concept or referent |
 | concept, type, or relation | Which meaning or classification does the source express? | that another source uses the same meaning |
 | schema or semantic model | Which structures and constraints can be represented? | truth of the represented claims or fitness for this receiver |
-| identifier | Which scheme-specific sign identifies under one issuer's rules? | cross-source identity, master identity, or authoritative value |
+| identifier | What entity does this entry pick out under the applicable rule or assignment? | cross-source identity, master identity, or authoritative value |
 | claim | What is asserted with which scope, interval, source, and uncertainty? | agreement, preference, authorization, or action |
 | data item or carrier | Where is a representation recorded or transported? | preservation of meaning through extraction or transformation |
 | world-side referent | Which entity or occurrence the claim is about | that two descriptions identify it at the same grain and interval |
@@ -307,7 +307,7 @@ A supplied Method guides the work; an inaccessible source, unresolved meaning, m
 | use contract | `SIE.1` | receiver, use, answer claims, tolerated loss/uncertainty, freshness/latency/quality, authority, representative tests, stop and reopen |
 | source manifest | `SIE.2`; SIE.3 qualification when needed | assets, schemes, editions/effectivity, meanings and identifiers used, owners/authority, provenance/access, gaps, and references to required model qualifications |
 | correspondence set | `SIE.4` | endpoints, relation or incompatibility, orientation, bounded use, permitted loss, justification/evidence, source versions, counterexamples and unresolved rows |
-| cross-source identity disposition | `SIE.5` | load-bearing endpoints, grain and interval, disposition kind, schemes and issuers, evidence, authority boundary, downstream references for the relied-on identity; an explanation of unused identity only when it affects interpretation or later reliance |
+| cross-source identity disposition | `SIE.5` | load-bearing endpoints, grain and interval, disposition kind, resolution rules and contexts or assignments and their issuers, evidence, authority boundary, downstream references for the relied-on identity; an explanation of unused identity only when it affects interpretation or later reliance |
 | source-qualified claim composition | `SIE.6` | source claims, scope, interval, authority, uncertainty, derivation, relied-on identity premises, comparable/conflicting/non-comparable/unresolved relation, qualified view or explicit conflict |
 | mapping specification | `SIE.7` | schemes, accepted semantic inputs, rules, conditions, cardinalities, units/codes, defaults, errors, loss, trace, examples and tests |
 | realization and interface | `SIE.8`, `SIE.9` | virtual/materialized/hybrid decision, required implementation result, receiver contract, interpretation, currentness, errors, provenance, access assumptions and return path |
@@ -357,7 +357,7 @@ The five constructed cases demonstrate the methods. Claims about deployment, ana
 | Case | What it tests | Boundary for reuse |
 | --- | --- | --- |
 | AP242/QIF | configuration/effectivity, feature identity, source-qualified composition, mapping, interface, and receiving-use validation | engineering and quality authorities retain release and acceptance; AP242 revision reopens affected premises |
-| semiconductor traceability | several identifier schemes, grains, issuers, time, contradiction, and disclosure | MDM/domain and recall authorities retain identity, value, and action |
+| semiconductor traceability | identifiers from several issuers, the grain and interval of each assignment, conflicting evidence and disclosure limits | MDM/domain and recall authorities retain identity, value, and action |
 | quality/provenance | mapping coverage, units, defaults, derivation, currentness, and a representative analytic | Data Engineering and source owners repair their results; quality measures do not decide use alone |
 | high-change providers | sufficient model reuse, explicit semantic difference, virtual realization, availability/error branches, changed promise horizon, and non-comparability | providers retain source meanings and permissions; purchasing owns action |
 | equipment-classification commons | module boundaries, local correspondences, identification, decision and release rights, semantic change, migration, and notice | contacts communicate; source owners and receiving users retain their respective decisions |
@@ -569,9 +569,9 @@ Recover source semantics at the smallest grain that can change the receiving ans
 2. **Identify the source asset and carrier.** Record publisher or owning System, title or endpoint, profile/module, version or edition, publication and effectivity, retrieval location, and carrier kind. Keep the asset distinct from the concepts and claims it carries.
 3. **Recover the local scheme and scope.** State the domain, population, lifecycle state, configuration, jurisdiction, or Work context in which the source definitions apply.
 4. **Recover exact meanings.** For every load-bearing endpoint, record the designation, definition or operative rule, type/relation role, examples and counterexamples, units or codes, and unresolved ambiguity. Use source-local language before normalizing it.
-5. **Separate identifiers and identified entities.** Record the scheme, issuer or owner, syntax, resolution behavior where relevant, use restrictions, grain, interval, and what the identifier does not establish.
+5. **Resolve an identifier for this use.** Identify the entry, the kind and grain of entity it can designate, and the restrictions on its use. For an issued identifier, recover the applicable assignment, its authority and its interval. For a designation resolved by a rule, establish that rule and the context in which it picks out an entity. If the sources form or resolve entries differently for this use, compare their [languages of designations](../../FPF-Spec.md#e52l---languages-expressions-and-interpretation). When the rules agree, use that agreement and examine the particular bindings. State what remains unknown.
 6. **Separate claims, data, and provenance.** Record which claim a data item represents, its scope and time, how it was derived, who or what supplied it, and which uncertainty or status accompanies it. Provenance does not make the claim true.
-7. **Recover authority and access.** Name who may define the scheme, issue identifiers, decide authoritative values, approve local extensions, grant access, and authorize receiving use. Mark unsupported assumptions.
+7. **Recover authority and access.** Identify who sets the source conventions, who can issue or reassign an identifier, who decides authoritative values and who may approve extensions, grant access or authorize receiving use. Mark unsupported assumptions.
 8. **Assess currentness and use adequacy.** Compare the source premise with the contract. State whether it is adequate, adequate only under conditions, unresolved, obsolete for this use, inaccessible, or missing.
 9. **Request a model that supplies the missing distinction.** If the required distinction cannot be expressed in the available source or supplied semantic model, request `UseFitSemanticModel@Use`; do not hide the gap in a mapping rule.
 10. **Record dependencies and next results.** Identify the exact definitions, editions, authority facts, and gaps consumed by `SIE.4`–`SIE.10`, plus observations that reopen this inventory.
@@ -583,7 +583,7 @@ Recover source semantics at the smallest grain that can change the receiving ans
 | source identity | owning/publishing System, asset or endpoint, profile/module, carrier, location |
 | edition and applicability | version/edition, publication, effectivity/configuration/interval, local extension status |
 | local semantic endpoints | designation, definition or operative rule, type/relation role, scope, examples/counterexamples, units/codes |
-| identifiers | scheme, issuer/owner, syntax, resolution behavior, restrictions, grain, interval, identified-entity claim |
+| identifiers | entry and applicable syntax, resolution rule and context or assignment and its authority, use restrictions, entity grain, relevant interval and supported or unresolved referent |
 | claims and data | source claim, represented data item, scope/time, uncertainty/status, derivation and provenance |
 | authority and access | meaning, identifier, value, extension, access, and receiving-use authority scopes |
 | qualification | adequate, conditional, unresolved, obsolete, inaccessible, missing, or model-gap return with reason |
@@ -622,7 +622,7 @@ The inventory marks an unresolved local AP242 extension used by one feature clas
 - [ ] Source asset, carrier, local scheme, semantic endpoint, identifier, claim, data item, and referent remain distinguishable.
 - [ ] Edition, profile/module, effectivity/configuration/interval, and local extensions are explicit where load-bearing.
 - [ ] Definitions or operative rules include scope and at least one discriminating example or counterexample where ambiguity matters.
-- [ ] Identifier scheme, issuer/owner, grain, interval, restrictions, and resolution assumptions are explicit.
+- [ ] The source entry, entity grain, relevant interval, restrictions and grounds for resolving it are explicit. For an issued identifier these include the applicable assignment and its authority.
 - [ ] Claims retain provenance, scope, time, status, and uncertainty without treating provenance as truth.
 - [ ] Meaning, identifier, authoritative-value, extension, access, and receiving-use authorities remain separate.
 - [ ] Every row has an adequate, conditional, unresolved, obsolete, inaccessible, missing, or model-gap disposition.
@@ -634,7 +634,7 @@ The inventory marks an unresolved local AP242 extension used by one feature clas
 | --- | --- |
 | Data dictionary by column name | Add source-local definition, scope, edition, units/codes, examples, and authority. |
 | Standards title as implementation evidence | Inspect the local profile, export, extension, occurrence, and conformance evidence. |
-| “Same ID format means same object.” | Record scheme, issuer, grain, interval, and identified-entity claim; use `SIE.5` for cross-source identity. |
+| “Same ID format means same object.” | Recover each entry’s resolution rule and context or assignment and issuer, and state the supported entity, grain and interval. Use `SIE.5` for cross-source identity. |
 | Provenance equals truth | Keep derivation and source authority separate from domain truth and receiving acceptance. |
 | Read every source | Start from the contract and add only action-changing premises. |
 | Patch a model gap in code | Return the missing semantic-model result before relying on the rule. |
@@ -997,7 +997,7 @@ Reopen when an endpoint meaning or edition changes, a counterexample defeats the
 > **Status:** Stable
 > **Normativity:** Normative method guidance within SIE; examples are constructed and non-normative.
 >
-> **Primary working result:** a `CrossSourceIdentityDisposition@Use` that states, for each load-bearing endpoint pair or set, the required entity grain and interval, identity-related disposition, source identifier schemes and issuers, evidence, authority boundary, unresolved cases, and the exact mappings, claim compositions, interfaces, and tests that may consume it.
+> **Primary working result:** a `CrossSourceIdentityDisposition@Use` that states, for each load-bearing endpoint pair or set, the required entity grain and interval, identity-related disposition, the source entries, the rules and contexts or assignments and issuers that resolve them, evidence, authority boundary, unresolved cases, and the exact mappings, claim compositions, interfaces, and tests that may consume it.
 
 ### SIE.5:1 - Problem Frame
 
@@ -1026,16 +1026,16 @@ If an integration collapses those distinctions, the merged record no longer show
 
 ### SIE.5:4 - Solution
 
-Frame identity as a source-qualified, grain- and interval-specific disposition for one receiving use. Preserve every source identifier and issuer. Compare the entity criteria, relation evidence, version/effectivity, and authoritative decisions that matter. Return same, different, part, version, variant, alternate-description, family, or unresolved only at the precision supported; do not force every useful relation into identity.
+Frame identity as a source-qualified, grain- and interval-specific disposition for one receiving use. Preserve every source identifier and the applicable context or assignment, including its issuer when it was issued. Compare the entity criteria, relation evidence, version/effectivity, and authoritative decisions that matter. Return same, different, part, version, variant, alternate-description, family, or unresolved only at the precision supported; do not force every useful relation into identity.
 
 #### SIE.5:4.1 - Pattern-Use Unfolding
 
 1. **Name the receiving identity question.** State which mapping, claim composition, query, or decision needs an identity premise and what a wrong merge or split would change.
 2. **Fix entity grain and interval.** Name the relevant individual or occurrence kind, part-whole level, version/configuration, lifecycle state, jurisdiction or organization, and time/effectivity interval.
-3. **Bind source endpoints.** Reference each `SIE.2` identifier scheme, issuer/owner, syntax, resolution behavior, restrictions, identified-entity claim, edition, and source provenance.
+3. **Resolve each source entry.** Use SIE.2 to establish what each entry can designate. Recover its assignment and issuing authority when it was issued, or the rule and context used to interpret it. Retain the applicable syntax, restrictions, source edition and provenance. If the evidence leaves several candidates or fails to identify one, record that outcome.
 4. **Separate candidate relation kinds.** Consider same individual at the stated grain, different individuals, part/whole, earlier/later version or specialization, variant, alternate description, an individual satisfying a type criterion, or membership in a declared product family. Keep the relation unresolved if more than one reading still fits. Do not use one boolean until the use needs only that distinction.
 5. **Collect discriminating evidence.** Use issuer records, source assertions, configuration/effectivity, provenance, physical or domain characteristics, event histories, and counterexamples. A shared string or co-occurrence is only candidate evidence.
-6. **Recover authority.** Name who may decide scheme-local identity, master identity, authoritative values, or the domain relation. SIE may record and use a bounded disposition; it does not acquire those authorities.
+6. **Recover authority.** Identify who may bind a source identifier, govern the master identity, decide authoritative values or establish the domain relation. SIE records the disposition for its stated use under those authorities.
 7. **Assign the narrowest warranted disposition.** State conditions, confidence or uncertainty where meaningful, rejected alternatives, and unresolved evidence. Preserve source IDs even for accepted same-entity rows.
 8. **Link consumers to the identity disposition.** Reference the disposition from every mapping, claim composition, interface row, and identity test that relies on it. Never copy only the merged key.
 9. **Test difficult cases and reopen.** Include identifier reuse, split/merge, version/configuration change, part-whole confusion, contradictory source events, and absent-link cases. State the source or observation change that reopens the row.
@@ -1046,7 +1046,7 @@ Frame identity as a source-qualified, grain- and interval-specific disposition f
 | --- | --- |
 | identity question and use | receiver, dependent action, wrong-merge/wrong-split consequence |
 | entity boundary | kind and grain, part-whole level, version/configuration, interval/effectivity, relevant context |
-| source identifiers | scheme, identifier, issuer/owner, syntax/resolution/restrictions, source edition and provenance |
+| source identifiers | each source entry, the supported referent, remaining candidates or unresolved designation, the relevant rules and context or the assignment and its issuer, restrictions, edition and provenance |
 | candidate relations | same, different, part, version/specialization, variant, alternate description, family, unresolved alternatives |
 | warrant | evidence, counterevidence, counterexamples, uncertainty/confidence, rejected alternatives |
 | authority | scheme-local, master-data, domain, and receiving-decision scopes |
@@ -1085,7 +1085,7 @@ Tests cover reused package identifiers, a die split/merge error, contradictory s
 
 - [ ] The receiving action and wrong-merge/wrong-split consequence are named.
 - [ ] Entity kind, grain, part-whole level, version/configuration, and interval/effectivity are explicit.
-- [ ] Every identifier retains its scheme, issuer/owner, restrictions, source edition, and provenance.
+- [ ] Each entry can be traced to its source and edition. The rule and context or the assignment and its issuer, the restrictions and the available evidence support the stated result, including an unresolved result.
 - [ ] Useful non-identity relations are not compressed into a boolean same/different field.
 - [ ] Shared strings, co-occurrence, and crosswalk membership are treated only as candidate evidence.
 - [ ] Evidence, counterevidence, counterexamples, and uncertainty are inspectable.
@@ -1098,7 +1098,7 @@ Tests cover reused package identifiers, a die split/merge error, contradictory s
 
 | Anti-pattern | Repair |
 | --- | --- |
-| Same string, same entity | Add scheme, issuer, grain, interval, and discriminating evidence. |
+| Same string, same entity | Resolve each entry under its own assignment or contextual rule, then compare the entities at the required grain and interval using evidence for the claimed relation. |
 | Universal `sameAs` | Use the narrowest relation and record unresolved or different cases. |
 | Master key by integration fiat | Return master-identity and survivorship decisions to their authority. |
 | Version equals object | State whether the use concerns one continuing entity, a version-specific configuration, or a relation among them. |
@@ -1113,7 +1113,7 @@ The cost is domain evidence and authority work. Some convenient global keys rema
 
 ### SIE.5:10 - Rationale
 
-Identifier schemes govern how signs identify entities. Cross-source identity is therefore a relation claim that depends on scheme, grain, interval, evidence, and use. Retaining source identifiers lets the claim be revised without losing its source basis. Master-data and domain decisions remain with their responsible authorities.
+A formation rule determines whether an identifier is well formed. For each entry, recover what its source establishes under the applicable rule, context or assignment. Then ask what the evidence establishes about the relation at the required grain and interval. A record of reassignment can link two entries to the same entity before its serial number is known. Where the evidence permits several identities, preserve those alternatives. Retaining the source entries allows the engineer to reconsider the result as new evidence appears. Master-data and domain decisions remain with their responsible authorities.
 
 ### SIE.5:11 - SoTA-Echoing
 
@@ -1127,12 +1127,12 @@ The best-known line combines explicit identifier ownership and restrictions, pro
 | [SEMI traceability standards](https://www.semi.org/en/products-services/standards/traceability) and [GS1 EPCIS 2.0.1](https://ref.gs1.org/standards/epcis/2.0.1/) | adapt | Supply semiconductor and event-based identity/traceability probes; scheme use does not create enterprise master identity or authorize recall. |
 | golden-record or score-only merging | reject as sufficient | It may support candidate generation or a steward decision. Preserve source identifiers, relation kinds and authority. |
 
-Reopen when an identifier scheme or issuer rule changes, new event/configuration evidence changes the disposition, the required grain or interval changes, or repeated cases show that the disposition vocabulary cannot preserve an action-changing relation.
+Reopen the affected dispositions when an issuer reassigns one code, or when a change to a formation or resolution rule alters which entries a query can accept or resolve. New event or configuration evidence, a changed grain or interval, and repeated failures to express an action-changing relation can also reopen the result.
 
 ### SIE.5:12 - Relations
 
 - `SIE.1` supplies the receiving action, identity-sensitive answer claims, loss boundary, tests, and stop.
-- `SIE.2` supplies identifier schemes, issuers, restrictions, source claims, editions, provenance, and authority gaps.
+- `SIE.2` supplies the source entries with the contexts for their rules or the issuers of their assignments, restrictions, source claims, editions, provenance and authority gaps.
 - `SIE.4` may expose an identity question but does not answer it merely by accepting a semantic correspondence.
 - `SIE.6` consumes identity dispositions when composing claims about the same bounded entity; it preserves contradictory claims separately.
 - `SIE.7` and `SIE.9` reference dispositions rather than copying only merged keys.
@@ -1404,7 +1404,7 @@ Positive examples cover one known configuration/feature/characteristic/result ch
 | Crosswalk equals transformation | Add selection, direction, cardinality, conversions, defaults, errors, trace, and examples. |
 | Null for every failure | Define distinct semantic and operational states and their receiver behavior. |
 | Latest record wins | Use the direct configuration/effectivity or justified interval rule. |
-| Normalize identifiers | Preserve scheme and issuer and reference the identity disposition. |
+| Normalize identifiers | Keep the original entries and how they were resolved. Preserve the context for a rule and the issuer for an assignment. Reference the identity disposition. |
 | Hidden unit conversion | Record source/target units, authority, precision, loss, and counterexample tests. |
 
 ### SIE.7:9 - Consequences
@@ -1658,7 +1658,7 @@ Design the interface from receiving actions and semantic branches, not from the 
 
 1. **Name the receiver interaction.** State who or what asks, the query/message/report action, timing, input parameters, and the next Work or decision that consumes the answer.
 2. **Select the interface form.** Choose query, view, API, message, schema, report, file, or mixed human/machine form based on the receiving Work. Do not inherit the internal realization shape automatically.
-3. **Define semantic inputs.** State required identifiers, schemes, configuration/effectivity, time windows, units, locale or code context, permissions, and validation of requests.
+3. **Define semantic inputs.** State the identifiers a request accepts, how the interface validates their form and how it resolves them. Supply any required issuer, assignment context, configuration or effectivity, time window, units, locale or code context, and permissions.
 4. **Define result claims and interpretation.** For each output, state meaning, grain, scope, interval/effectivity, units/codes, source identifier behavior, accepted loss, and permitted use.
 5. **Expose qualified branches.** Represent matched/qualified, unmatched, incompatible, unresolved identity, source-qualified conflict, non-comparability, stale, inaccessible, timeout/source error, and partial result where applicable.
 6. **Expose provenance and currentness.** Provide source/edition or a stable reference, observation/retrieval time, mapping/composition rule version, derivation/trace reference, and freshness status needed by the receiver.
@@ -1673,7 +1673,7 @@ Design the interface from receiving actions and semantic branches, not from the 
 | --- | --- |
 | receiver interaction | caller/reader, receiving Work, request, timing, next action |
 | interface form | query/view/API/message/schema/report/file and why it fits the Work |
-| request semantics | parameters, identifiers/schemes, configuration/effectivity, windows, units/codes, permissions |
+| request semantics | parameters, acceptable identifier forms and resolution context, configuration/effectivity, windows, units/codes, permissions |
 | response semantics | claims, grain, scope, interval, units/codes, source IDs, accepted loss, permitted use |
 | branch model | qualified, unmatched, incompatible, unresolved identity, conflict, non-comparable, stale, inaccessible, source error, partial |
 | provenance/currentness | source/edition, times, rule versions, derivation/trace, freshness status |
@@ -1716,7 +1716,7 @@ A known match returns a qualified row. A feature absent at effectivity `E` retur
 
 - [ ] The interface is tied to one named receiver, Work, request, and next action.
 - [ ] The form is chosen for receiving use rather than copied from internal realization.
-- [ ] Request identifiers, schemes, configuration/effectivity, windows, units/codes, and permissions are explicit.
+- [ ] The request identifies the accepted entries, how to resolve them, required configuration or effectivity, windows, units or codes, and permissions.
 - [ ] Response claims state meaning, grain, scope, interval, source identifiers, loss, and permitted use.
 - [ ] Qualified, unmatched, incompatible, unresolved identity, conflict, non-comparability, stale, inaccessible, source-error, and partial branches remain distinguishable where applicable.
 - [ ] Source/edition, observation/retrieval time, rule versions, derivation/trace, and freshness are recoverable.
@@ -1732,7 +1732,7 @@ A known match returns a qualified row. A feature absent at effectivity `E` retur
 | Expose the integrated table | Start from the receiving action and design only the claims and branches it needs. |
 | One null or HTTP error for every absence | Distinguish semantic absence/unresolved states from access, timeout, and implementation failure. |
 | Provenance in internal logs only | Expose the action-changing provenance/currentness summary and stable trace reference. |
-| Hide source IDs behind one key | Preserve source schemes and identity-disposition references. |
+| Hide source IDs behind one key | Retain the source entries, the contexts or assignments used to interpret them and the disposition supporting any identity on which the interface relies. |
 | Endpoint is available, therefore usable | Validate meanings, branches, currentness, service conditions, and representative Work through `SIE.10`. |
 | Semantic result authorizes action | Name the application, engineering, quality, safety, legal, or other decision owner. |
 
@@ -1999,7 +1999,7 @@ When additional evidence is being considered, apply `C.11.DUA` to compare its at
 | Changed reliance | Integration result to revisit |
 | --- | --- |
 | A concept, relation, or model constraint | SIE.3 model adequacy and any affected SIE.4 correspondence. |
-| Identifier meaning, scheme, grain, or interval | SIE.5 identity disposition and the results that use it. |
+| Identifier assignment, formation or resolution rule, entity grain or interval | Follow the changed premise to its direct users. Reassignment may affect one entry. A general rule may change the entries SIE.2 can resolve or the requests SIE.9 accepts and the SIE.10 tests for those requests. Reopen a SIE.5 identity disposition and its dependent uses when the changed premise supported that disposition. |
 | Source-claim scope or interpretation | SIE.6 composition, conflict, or non-comparability result. |
 | A transformation premise | SIE.7 mapping and its affected outputs. |
 | Availability, permissions, freshness, or service conditions | SIE.8 realization choice or SIE.9 receiving interface, according to the changed condition. |
