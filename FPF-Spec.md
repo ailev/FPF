@@ -17190,7 +17190,7 @@ A change to `imports` or `provides` changes the consumer signature's identity on
 
 A changed later use does not change the signature unless the change alters one of its C.2.1 identity discriminators. For example, a new mechanism realization remains a new realization, and a new publication layout remains a new publication form.
 
-Connect two different epistemes by `EpistemeEditionRelation`, refinement, supersession, or another independently governed continuity relation only when that relation's own predicate obtains under its direct governor. Revision work, shared title, changed identifier, citation, or sequence alone establishes no such occurrence.
+Recover the particular relation being claimed between two different epistemes. For historical continuation, test `EpistemeEditionRelation` under C.2.1. For model refinement or abstraction, compare the interpreted assertions under B.5.MR. Supersession or another relation needs its own predicate and grounds. Revision work, shared title, changed identifier, citation, or sequence alone establishes none of these relations.
 
 When a once-current signature becomes stale while its identity remains recoverable, G.11 governs currentness and selection among recoverable editions.
 
@@ -17297,7 +17297,7 @@ Each worked declaration has its own C.2.1 identity, which remains independent of
 12. **Progressive elaboration.** A direct assertion suffices when the task only asks whether the predicate holds. A signature opens when a receiving use needs reusable declaration content. Occurrence identity opens for same-occurrence reference, comparison, qualification, history/change or relation participation. A log or assertion identifier alone opens none of them.
 13. **CGUS boundary.** Use the ordinary branch to clarify continuation conditions; continue to formal qualification only when a named later use needs structure identity or replayable results, using the structure and continuation conditions stated in §4.
 14. **Profile boundary.** FormalSubstrate and PrincipleFrame remain profiles of `U.Signature` rather than new root kinds. A PrincipleFrame names its postulates and the observable distinctions needed to check them, leaves operation and gate admission with their subject patterns, and uses F.9 for a relation between two F.17 local senses, citing a Bridge only when its direct predicate obtains.
-15. **Changed object.** Changed claim content carried by the ClaimGraph, EntityOfConcern, or effective reference scheme identifies another episteme. Judge A.6.0 membership for that episteme independently, and assert edition, refinement, supersession, or another continuity relation only when its own predicate obtains. A changed use, identifier, publication form, carrier, provider currentness, or G.11 refresh state does none of those things by itself.
+15. **Changed object.** Changed claim content carried by the ClaimGraph, EntityOfConcern, or effective reference scheme identifies another episteme. Judge A.6.0 membership for that episteme independently, and assert edition, refinement, supersession, or another relation only when its own predicate obtains. A changed use, identifier, publication form, carrier, provider currentness, or G.11 refresh state does none of those things by itself.
 16. **F.19 self-application and reader use.** Apply F.19 by value to every materially changed technical declaration, mantra, checklist instruction, and worked case; revalidate the changed span with its meaning-dependent neighbours. The cold intended reader must be able to recover the same governed object, subject pattern, admissible use, and practical claim or action, including any result that changes that use. Keep ordinary technical wording when it already carries the needed distinctions; unpack terms or add an explanation only when recovery needs it. Use E.10:11 item 16 when the value-substitution question is selected. State a nearby non-use or contrasting case only when F.19:4's full guard test warrants it. A `Plain` label without that reader-visible recovery does not pass.
 17. **Case-level witness.** Each worked case names its EntityOfConcern, the direct pattern that defines or constrains the claim being made, and what the practitioner can now write, decide, or inspect. State the nearest category error it rejects only when F.19:4's full guard test warrants that contrast. A domain label or the presence of several case headings is not evidence of cross-domain fit.
 
@@ -53410,7 +53410,7 @@ The general approach is to connect the claims about the subject with the grounds
 
 If the account and its use are already clear, perform the subject work directly. Open the additional distinctions when they resolve an uncertainty about meaning, preservation, expression or availability.
 
-##### C.2.1:4.0.2 - Knowledge work: claims, grounds and what people can do
+##### C.2.1:4.0.2 - Knowledge work: claims, grounds and what recipients can do
 
 When a team develops knowledge about a subject, it can obtain several connected results. It articulates claims that can be examined, establishes grounds for relying on them, and learns to use the relevant distinctions in its work. Developing an account, supporting its claims and acquiring that ability can require different actions.
 
@@ -53424,7 +53424,7 @@ Knowledge engineering can retain hypotheses, disputed assertions, known errors a
 
 For a requirement, distinguish the assertion that a requirement has been imposed from the requirement it expresses. “The drawing requires a clearance of at least 0.4 mm” reports something about the drawing. “The clearance shall be at least 0.4 mm” states a condition on the intended assembly. The first can be checked against the drawing; relying on the second involves the applicable requirement and checking practice. A plan similarly preserves its intended coordination claims from the planning perspective, including after the planned time.
 
-When the receiving question is whether a person or team can apply the knowledge, name the work they must perform and the conditions of that performance. A.2.2 supplies the ability-and-fit comparison. For example, a technician may be able to explain a pressure limit while still needing help to select the correct limit for a changed operating condition. Qualify each claim by its actual evidence.
+When the receiving question is whether a performer can apply the knowledge, name the work they must perform and the conditions of that performance. A.2.2 supplies the ability-and-fit comparison. For example, a technician may be able to explain a pressure limit while still needing help to select the correct limit for a changed operating condition. Qualify each claim by its actual evidence.
 
 The common work is to maintain the connections: observation and reasoning inform the claims; an expression makes those claims recoverable; a person or system uses them in a particular operation; the operation and its consequences can expose a need to revise the account or its use. The following sections explain how to follow those returns.
 
@@ -53480,7 +53480,7 @@ A WorkPlan can describe intended work. Its plan character comes from its intende
 
 Similarly, a MethodDescription states claims about an identified Method as a way of doing. Its specialized membership comes from A.3.2's subject and claim criterion. The word description supplies no additional general superclass between these specialized kinds and U.Episteme. Their different names alone establish no mutual exclusion.
 
-When a person **describes** something, identify the action they perform: observing relevant features, composing claims, choosing an expression, or communicating an already available account. The performed work and the resulting episteme or expression have their respective identities. The action may use an existing episteme without changing it.
+In **describing** something, identify the work performed: observing relevant features, composing claims, choosing an expression, or communicating an already available account. The performed work and the resulting episteme or expression have their respective identities. The action may use an existing episteme without changing it.
 
 When the same account is used to choose a pump, compare a requirement or teach a maintenance procedure, name that operation and the claims it relies on. There is no need to put these overlapping uses into exhaustive “describing” and “non-describing” classes. If the task is specifically to provide a characterization for a concern, state what the recipient needs to learn about the subject and use that requirement to choose and judge the supplied claims.
 
@@ -53645,7 +53645,8 @@ Open a row below only when its first column names the reader's next sentence or 
 | A decision or inference must cite support links among the claims. | the exact `JustificationGraph` content that carries those dependencies | C.2.1:4.4; use `A.10` when the source-to-use account must remain replayable, and `B.3` only when a named assurance claim is at issue |
 | A decision or evaluation will accept, reject, or withhold reliance because of evidence. | the exact evidence-use relation and the grounds needed for the claim and use; evidence storage alone is insufficient | `A.2.4` for the evidence-use relation and the direct pattern for the claim; `A.10` when its source-to-use account must remain replayable; `B.3` when a named assurance claim is at issue |
 | Reviewers must inspect or revise a classification judgment as an independent claim-bearing object. | one classification assertion episteme about the exact candidate, plus the exact governing criterion | C.2.1:4.2.3 with `A.1` or `C.3.2`; `E.24.UK` only for public U-kind admission |
-| A reader must assert that a later episteme revises, refines, or supersedes an earlier one. | one exact `EpistemeEditionRelation` occurrence | C.2.1:4.5 |
+| A reader must establish that a later episteme continues an earlier one as an edition. | one exact `EpistemeEditionRelation` occurrence, with the source use and continuity rule required by its predicate | C.2.1:4.5 |
+| A reader must compare informational models by refinement or abstraction. | their interpreted assertions and admitted answers for the receiving inquiry; test preservation and, when a more concrete or more abstract position is claimed, strictness | B.5.MR |
 | An account must assert that particular Work occurred. | identify the actual performer and admit the dated Work independently; if the account also attributes it to an assignment, test that attribution separately | `A.13` and `A.15.1`; `F.6` only for the stated attribution |
 | A publisher must make one selected episteme edition available to a declared audience for a bounded use. | the exact publication occurrence, expression and independently identified carrier, with reusable form conformance when needed | `E.17` and `E.24.PUB` |
 | A user will calculate, infer, navigate, or inspect through a representation whose available operations matter. | the chosen representation, the conventions for interpreting it, the operations and the correspondence needed for that use | the applicable representation pattern; `A.6.3.RT` for a same-EntityOfConcern transition; `C.29` only for an unresolved mathematical-lens choice, transfer or reliance question |
@@ -53935,7 +53936,7 @@ Names ending in `Slot` are admissible here only as SlotKinds inside the exact `R
 The relation obtains only when all of these conditions hold:
 
 1. the two epistemes have different C.2.1 identities;
-2. the later episteme actually uses the earlier episteme as the source for the claimed revision, refinement, or supersession;
+2. the later episteme actually uses the earlier episteme as the source for the claimed revision;
 3. one applicable edition-continuity policy or rule states which claim, EntityOfConcern, and effective-reference-scheme features must be preserved, which may deliberately change, and what counts as continuation for this episteme family;
 4. the exact preserved and deliberately changed features satisfy that rule;
 5. no failure condition in that rule classifies the case as a fork, translation, retargeting, or independent reconstruction instead.
@@ -53943,6 +53944,8 @@ The relation obtains only when all of these conditions hold:
 Work, an enacted Method, provenance, and change results supply case facts. Their labels do not make continuity true. C.2.P may recover the source expression and source-to-revision use; the direct change patterns supply exact changed features. If the continuity claim separately consumes a first-existence fact, apply the shared boundary in 4.9. A missing required rule or fact blocks only that positive edition claim.
 
 One occurrence is identified by the exact `<earlier episteme, later episteme>` pair. Two revision Work occurrences do not create two edition occurrences for the same pair. The relation is acyclic in its earlier-to-later direction. A renamed file, later publication, shared title, bare provenance edge, or Method named “revision” establishes no occurrence.
+
+When comparing these epistemes as models, use B.5.MR to establish refinement or abstraction for the receiving inquiry. That comparison uses their interpreted assertions and admitted answers. It can hold between independently produced models; conversely, a later edition can correct an earlier assertion without preserving it.
 
 Several edition occurrences form a lineage structure only when a receiving use depends on their organization. A separately identified edition collection remains under A.14; collection membership does not establish continuity. `PhaseOf` may describe one unchanged episteme over a proper interval but does not connect two different C.2.1 identities.
 
@@ -53978,7 +53981,7 @@ An episteme used as a description is admitted for specification use only when th
 
 | Observed change | Disposition |
 | --- | --- |
-| claim content, EntityOfConcern, or effective reference scheme changes | identify another episteme; use `EpistemeEditionRelation` only for revision, refinement, or supersession when its historical-continuation predicate obtains, and use `A.6.4` separately only for an exact retargeting that satisfies its own predicate; otherwise stop at the new identity without inferring continuity |
+| claim content, EntityOfConcern, or effective reference scheme changes | identify another episteme; test a claimed edition continuity under `EpistemeEditionRelation` and a claimed model refinement or abstraction under B.5.MR; use `A.6.4` for a retargeting that satisfies its own predicate; new identity alone establishes none of those relations |
 | the explicit empirical-claim coverage predicate begins to obtain, ceases to obtain, or is restored | evaluate `EpistemeEmpiricalGroundingRelation` continuity for the exact covered claim subgraph and grounding holon; do not change episteme identity unless a core discriminator also changed |
 | an evidence item, evaluation report, evidence store, or work log becomes available or unavailable without an established change in the complete claim-coverage predicate | revise only the separately governed support, warrant, confidence, evidence-use relation, or receiving-use reliance posture that changed; the mapped direct relations still determine world-side grounding and occurrence continuity: known complete coverage continues, known coverage failure remains nonobtaining, and uncertainty about coverage gives an affirmative grounding assertion unresolved reliance rather than a third world-side state |
 | candidate episteme E or viewpoint episteme P changes | identify the changed episteme under C.2.1, then test the new exact E/P pair under `E.17.0`; for fixed E and P, conformance cannot change because of evaluator, evidence, project, publication, or current use, so state any changing adequacy or evaluation as a separate claim |
@@ -87348,7 +87351,7 @@ Use C.39:4.2–4.5 to construct a missing obtaining way or join. When the reques
 
 For promised source recovery, apply F.0.2.RC to the promised contribution and scope. For a system or service, use its engineering and operating methods to establish the relevant whole conditions. Where the missing contribution is capability, equipment, access or authority, obtain or revise that support through its responsible practice.
 
-Distinguish synthesis, generalization and abstraction. Connecting contributions to obtain a result, widening a claim's warranted range, and selecting distinctions for a description are different operations. Choose the one the gap requires, and explain its result. A wider field name cannot supply a missing connection.
+Synthesis connects contributions to obtain a result. Generalization widens the range for which a claim is warranted. Model abstraction constructs or selects a model that leaves some determinations open while retaining the conclusion the receiving work needs; apply B.5.MR to compare its assertions and admitted answers with the starting model. Changing what a description displays can leave the same model assertions recoverable and need not change its abstraction level. Choose the operation the gap requires, and explain its result. A wider field name cannot supply a missing connection.
 
 Follow a changed encompassing condition to the contributions that relied on it. Follow a consequential finding in a contribution back to the encompassing account. Retain unaffected uses on the basis of their dependencies.
 
@@ -87604,7 +87607,7 @@ This is the constructive role of the whole explanation. For a family of Methods,
 
 Then follow findings back into the common account. An unexpected case can reveal a missing premise, a new problem family or an incorrect connection. Revise the affected explanation and its uses. Keep the source's useful constructions while critically examining its claimed generality.
 
-Distinguish three moves when developing that return. Synthesis connects contributions into an organized account or way. Generalization extends the range for which a claim or operation is warranted. Abstraction selects a representation's distinctions for a question. One piece of work can need all three, with each contribution explained.
+Distinguish the operations needed for that return. Synthesis connects contributions into an organized account or way. Generalization extends the range for which a claim or operation is warranted. Model abstraction leaves some determinations open while retaining the conclusion the receiving work needs; apply B.5.MR to compare the resulting model with the starting model. Selecting what an account displays can preserve all model assertions and leave the abstraction level unchanged. One piece of work can need several of these operations, with each contribution explained.
 
 **Questions:** Which choices about parts follow from the common grounds? What changes when a consequential condition changes? What do varied cases reveal about the common explanation? Which general contribution still has to be invented by the reader?
 
@@ -132543,7 +132546,7 @@ The claim graph cites the separate NameCard and the governed value's kind, locat
 
 The row, card, designations, governed value, external row reference, and `UTSRowId` designator remain distinct; `UnificationThreadId`, `Block`, and `RowEditionId` are navigation or edition designators rather than additional identity discriminators.
 
-If a later row episteme revises, refines, or supersedes an earlier one, an independently obtaining C.2.1 `EpistemeEditionRelation(earlierRowEpisteme, laterRowEpisteme)` carries historical continuation. Stable row spelling, id, table position, shared carrier, or later publication establishes no such relation. A `CurrentnessCondition` is row claim content; it is not the edition relation and does not make itself true.
+To establish historical continuation between two row epistemes, test C.2.1's `EpistemeEditionRelation(earlierRowEpisteme, laterRowEpisteme)`. An independently established refinement or supersession claim does not by itself supply that continuity. Stable row spelling, id, table position, shared carrier, or later publication establishes no such relation. A `CurrentnessCondition` is row claim content; it is not the edition relation and does not make itself true.
 
 When a selected row edition must be made available, E.24.PUB supplies `PublicationExpressionRelation(selectedRowEdition, expression, boundedUseDeclaration)`, `PublicationExpressionBearingRelation(carrier, expression)` and `EpistemePublicationRelation(selectedRowEdition, audienceDeclaration, boundedUseDeclaration, expression, carrier)`.
 
