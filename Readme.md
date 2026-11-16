@@ -2,21 +2,25 @@
 
 **Methods for solving difficult problems, expanding what you can do, and continuing development.**
 
-FPF Library brings together the **First Principles Framework (FPF Core)** and domain frameworks for people, AI agents, teams and organizations. It offers ways to reason, investigate, design, coordinate work, learn and improve the methods used to do those things. Each method is explained as a pattern: a recognizable difficulty, the conditions in which it arises, a way to obtain a useful result, worked cases and limits.
+FPF Library brings together the **First Principles Framework (FPF Core)** and domain frameworks for people, AI agents, teams and organizations. Its methods connect reasoning, research, design, management and learning. Each is explained as a pattern: a recognizable difficulty, the conditions in which it arises, a way to obtain a useful result, worked cases and limits.
 
-The Library is developing as a **methodology of open-ended development**. A result can make a previously unattainable problem approachable; working on that problem can expand both your capabilities and your ways of developing them. The aim is to keep that continuation possible, without a predetermined final level. This includes noticing limitations that have not yet become explicit problems, using existing knowledge, constructing missing methods, and passing useful capabilities and knowledge to others.
+**Use FPF with the AI assistant and workflow you already have.** Start with one method when it fits. When the job calls for several kinds of expertise, combine methods to decide what to do and what to check. Include learning when the team needs new skills for later work. You can use one method for one calculation, design, decision or learning need and stop there.
 
-It can serve as a **canon for a shared culture of thinking and acting among people and AI agents**, oriented toward their open-ended development. Here, a canon is a common, revisable body of explanations and methods through which participants can organize work, learn from results and improve their practice. People and AI can contribute as assistants or teammates according to their capabilities and roles. The culture takes shape in how they work and develop together; using the Library does not require every participant to master the entire Library.
+Obtaining a result, acquiring the capability to produce it, and improving how you develop further capabilities call for different work and evidence. FPF helps connect them: engineering can establish what will work, management can organize its delivery, and learning methods can help the intended performers acquire what they need. Choose the contributions your work requires.
 
-You can also use one method for one calculation, design, decision or learning need and stop there.
+[Try one method](#try-one-method) · [Find a method for your work](#start-with-your-work) · [Browse the Library](https://fpf.tools/publications)
 
-[Start using the Library](USING-FPF.md) · [Domain frameworks](DPFs/) · [FPF Core](https://fpf.tools/FPF)
+## Try one method
 
-## How the Library is organized and why
+Open **[Develop a way, its holder and its provision together (C.40.JD)](https://fpf.tools/C.40.JD)** when you need to connect a working method, the capability to perform it, and the resources and authority for its use. Read it yourself, or give your assistant the text and a situation such as this:
 
-**[Read the Library Architectural Reference](FPF-LIBRARY-REFERENCE.md).** It explains why general methods belong to Core, why some disciplines form Suites while others have standalone frameworks, and how their contributions work together. Use it to get an overview, understand an apparent overlap or judge a proposed change.
+> Read [Using FPF Library](https://github.com/ailev/FPF/blob/main/USING-FPF.md) and [C.40.JD](https://fpf.tools/C.40.JD). Our team cannot yet fulfil this order. A contractor can deliver a result that passes acceptance now, but next month our team must fulfil a changed order using its own staff and tools. Help compare ways to meet both needs. Identify the work to arrange now, what to check on delivery, and what the team must demonstrate on the changed order. State which missing facts could change the recommendation.
 
-For a familiar task, you can go straight to a suitable method below.
+If your assistant cannot open a link, give it the linked text. For ongoing use, [connect MCP or keep local copies](#read-online-or-use-your-own-copies).
+
+A useful answer separates acceptance of the contractor's delivery from evidence that the team can perform the needed operations. It identifies what prevents the team from doing them and proposes changes that address the cause. Missing skills may call for practice and feedback; unavailable equipment may call for acquisition or shared access. It relates those changes to the available time and proposes a test on the changed order. It also exposes unknowns such as how much the order will change. Use the answer to choose and organize the work; assess the team's capability through its subsequent performance.
+
+Change the aim and the decision can change: if only this delivery is needed and a qualified contractor can supply it, buying the result may suffice. If the team must keep adapting to unfamiliar orders, also examine how it will discover missing methods, develop or obtain them, and organize the next acquisition. **[C.40.OD](https://fpf.tools/C.40.OD)** develops that continuing undertaking.
 
 ## Start with your work
 
@@ -24,6 +28,7 @@ You do not need to read the Library from beginning to end. Bring a situation, th
 
 | What you are trying to do | Where to begin |
 | --- | --- |
+| Diagnose why an AI agent repeatedly fails and choose what to change | [AI capability and execution (Library.Reference:9.3.4)](https://fpf.tools/Library.Reference:9.3.4). Compare the available information, instructions, recovery, tools and model; use the observed failure to select the repair. |
 | Find a way to obtain a result when the familiar answer is insufficient | [Find and develop a way to obtain a result (FPF C.39)](https://fpf.tools/C.39). It connects existing answers, missing constructions and the use that needs the result. |
 | Bring partial findings back to the original question or develop an account of a whole subject | [Return results to the original question (FPF C.39.QR)](https://fpf.tools/C.39.QR) connects the obtained result, its grounds and the receiving use. [Develop an account of the whole subject (FPF C.39.WA)](https://fpf.tools/C.39.WA) supplies the common explanation and relations when that is the missing contribution. |
 | Develop your own, a team's or an organization's ability to continue beyond its present limits | [Construct and continue open-ended development (FPF C.40.OD)](https://fpf.tools/C.40.OD), together with the domain methods needed for the change. |
@@ -38,7 +43,7 @@ Before applying a method, read [Using FPF Library](USING-FPF.md). It explains ho
 
 ## Keep connected reasoning in view
 
-**Long mantras** recall how answers to related questions depend on one another. [B.5.PI](https://fpf.tools/B.5.PI) explains how a suitable mantra can help find a consequential problem before it is felt: examine its connected questions in a case and investigate a consequential gap when one appears. For a systemic project question, **[A.1.STM](https://fpf.tools/A.1.STM)** first examines receiving use at the operating time and, from the system boundary, the larger whole and how its parts function together. This grounds the system's contribution before construction, obtaining Methods and creators are considered. The system-of-interest (SoI) keeps the product purpose in view when improving its creators. Those improvements can have their own finite projects and acceptance conditions. Independent suppliers connect their product purposes through the receiving use and obligations. The full account explains how a noticed difficulty reaches those same grounds and what to revise when a premise changes.
+**Long mantras** recall how answers to related questions depend on one another. [B.5.PI](https://fpf.tools/B.5.PI) explains how a suitable mantra can help find a consequential problem before it is felt: examine its connected questions in a case and investigate a consequential gap when one appears. For a systemic project question, **[A.1.STM](https://fpf.tools/A.1.STM)** begins with what should change when the system is used and how it functions within a larger whole. This gives grounds for examining the system's structure, the methods for obtaining it, and who can perform those methods. Keep the product's intended use in view when improving the people, AI systems and organizations that create it. Those improvements can have their own finite projects and acceptance conditions. Independent suppliers connect their product purposes through the receiving use and obligations. The full account explains how a noticed difficulty reaches those same grounds and what to revise when a premise changes.
 
 The **[control mantra (FPF C.43)](https://fpf.tools/C.43)** connects assessment of the situation, possible continuations, comparison and choice, realization, examination of what happened and revision. Its full Method explains how observations can change later choices, how means and timing constrain them, and how an intervention can develop the capability to address further problems. Technical control, economic choices and developmental recommendation retain their particular mechanisms.
 
@@ -46,11 +51,21 @@ A mantra presents logical dependencies in an order useful for explanation and re
 
 ## From a useful result to further development
 
-Suppose a team can deliver its current product, but a more demanding order is beyond its capabilities. Buying a specialist's result might meet the immediate need. Learning to produce it would change what the team can do. Learning how to recognize the next limitation, obtain or invent a needed method and organize its acquisition would change how the team can continue developing. These are different results, with different evidence.
+The Library is developing as a **methodology of open-ended development**. A result can make a previously unattainable problem approachable; working on that problem can expand both your capabilities and your ways of developing them. The aim is to keep that continuation possible, without a predetermined final level. This includes noticing limitations that have not yet become explicit problems, using existing knowledge, constructing missing methods, and passing useful capabilities and knowledge to others.
 
-The Library helps connect these results. A person working with an AI, several collaborating teams and a company with a development office need different domain methods and allocations of work, resources and authority.
+It can serve as a **canon for a shared culture of thinking and acting among people and AI agents**, oriented toward their open-ended development. Here, a canon is a common, revisable body of explanations and methods through which participants can organize work, learn from results and improve their practice. People and AI can contribute as assistants or teammates according to their capabilities and roles. The culture takes shape in how they work and develop together; using the Library does not require every participant to master the entire Library.
 
-The general methods are in **Core**: [connect development work (C.40.OD)](https://fpf.tools/C.40.OD), [connect a method, the capability to perform it and the conditions for its use (C.40.JD)](https://fpf.tools/C.40.JD), and [continue from a result to new attainable problems (C.40.NP)](https://fpf.tools/C.40.NP). The DPFs supply the particular mechanisms of learning, research, engineering, management and other practices. Developing a method, changing an agent's capability and performing work remain distinct contributions.
+A person working with an AI, several collaborating teams and a company with a development office need different domain methods and allocations of work, resources and authority. Core supplies the general connections: [continue development (C.40.OD)](https://fpf.tools/C.40.OD), [develop a method, its performer and its provision together (C.40.JD)](https://fpf.tools/C.40.JD), and [find new attainable problems (C.40.NP)](https://fpf.tools/C.40.NP). The DPFs supply the particular mechanisms of learning, research, engineering, management and other practices. Developing a method, changing an agent's capability and performing work remain distinct contributions.
+
+## How the Library is organized and why
+
+**[Read the Library Architectural Reference](FPF-LIBRARY-REFERENCE.md).** It explains why general methods belong to Core, why some disciplines form Suites while others have standalone frameworks, and how their contributions work together. Use it to get an overview, understand an apparent overlap or judge a proposed change.
+
+## Check whether it helps your work
+
+Compare your usual workflow with and without the selected FPF methods on tasks you can judge. Keep the agent, tools, starting information and task conditions comparable. Decide beforehand which mistakes would change the result or decision; then count those still present and record your time spent checking and correcting the answer. Include time spent selecting and reading FPF material, or preparing it for the agent.
+
+Repeat the comparison on varied tasks before drawing a broader conclusion. The examples here explain possible uses; they do not establish a measured advantage over your current workflow.
 
 ## What is available
 
@@ -83,7 +98,7 @@ Give the assistant access to the full relevant texts, your situation, constraint
 
 > Use FPF Library from `fpf/`. Before applying its methods, read `fpf/USING-FPF.md` and follow its guidance. Help obtain the result our work needs. Explain the reasoning in our working language, identify the patterns used, and distinguish source claims, assumptions and missing evidence.
 
-Then ask a concrete question. For example: “Our team can deliver the current product but not the proposed variant. Help compare acquiring an external result, developing our capability and changing the offering. What information could change that choice?”
+Then ask about your own work. The [first-use example](#try-one-method) shows how to supply a consequential condition and ask for an answer you can check.
 
 An assistant can retrieve methods, calculate, compare alternatives, draft and challenge reasoning. Its fluent answer does not establish an observed fact, a new capability, permission, a commitment or an implemented system. Check the output against the actual work, evidence and applicable decision authority. FPF Library is intended for human use as well as AI-assisted work, across physical, organizational, intellectual and embodied practices.
 
