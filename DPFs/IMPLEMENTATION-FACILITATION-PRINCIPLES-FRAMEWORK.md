@@ -82,6 +82,8 @@ Understand the proposed support and establish what the receiving work requires. 
 
 The **target practice** is what the receiving performers are trying to do. The **support strategy** is the proposed way of helping them establish, use or revise it. The **support arrangement** supplies the people, systems, time, tools, access and decisions needed for that strategy. A **support undertaking** is the bounded work and commitments through which that help is provided.
 
+Identify the recipient and provider by the contributions needed. A teacher, colleague, consultant or technical agent may supply part of the help, within the applicable competence and rights. Library.Reference:9.2 connects these role names to actual operations, intended capability changes and retained provision. Receiving help does not by itself establish recipient Work or acquisition of a capability.
+
 These distinctions change action. A different explanation of a target method may repair its description without changing the method. Replacing a classroom session with rehearsal changes the support strategy. Repairing an unavailable reference changes the arrangement. Changing the target's decision criterion can change the method itself. To attribute a successful result to one of these changes, establish its causal contribution.
 
 Establish which of the following results the recipient needs. An undertaking can require more than one.
@@ -260,7 +262,7 @@ Specify the provider’s contribution. The following requests illustrate differe
 | “Help us introduce the practice.” | Which local conditions, explanation, participation, trial, observation or revision work the helper supplies. |
 | “Make us independent.” | Which contributions the recipient must perform or arrange without this particular helper, and which continuing services remain legitimate dependencies. |
 
-One undertaking can combine several of these or other contributions. Explain how they work together to obtain the promised result.
+One undertaking can combine several of these or other contributions. Explain how they work together to obtain the promised result. Identify which operations the provider and recipient actually perform; they can use the same Method or different Methods. An adequate existing contribution can be used within its grounds and rights without inventing a new promise.
 
 Establish that the decisive operation can be supplied with the required competence, access and evidence. The helper can perform it, use an applicable existing result or obtain it from a qualified provider. If useful delivery still depends on a provider’s unconfirmed commitment or unavailable evidence, state that condition.
 
@@ -432,7 +434,7 @@ State explanations as working claims about the episode. “The lookup route cann
 | Possible explanation | Observation that could distinguish the explanation | Different response |
 | --- | --- | --- |
 | The needed source or tool cannot be used. | Can the qualified performer proceed when effective access is supplied? | Repair access or select another qualified obtaining way. |
-| An operation or judgement is missing. | What contribution does an expert make that is absent from the ordinary attempt? | Use an adequate judgement or obtain it from a qualified provider. If the performer must acquire the operation, arrange suitable explanation, practice and feedback. |
+| An operation or judgement is missing. | What contribution does an expert make that is absent from the ordinary attempt? | Use an adequate judgement or obtain it from a qualified provider. If the performer must acquire the operation, select a development or provision Method appropriate to that holder. When learning is the selected way, arrange the contributions that its Method requires, such as practice with feedback for a person or training data for a technical system. |
 | The target does not fit the receiving case. | Which relied-on condition differs, and does the known alternative address it? | Reconsider the target or qualify a variant through the subject practice and A.3.1.MV. |
 | Correct work conflicts with current commitments. | What occupies the necessary interval, and who can change the allocation? | Establish the conflict. If it must be resolved, obtain a feasible arrangement under the applicable authority. |
 | Correct participation brings adverse consequences. | What actually follows the action, compared with the stated rule? | Establish the adverse consequence. If intervention is required, use or obtain a change that can alter it. |
@@ -826,7 +828,7 @@ How can a practitioner establish what will remain possible when help changes or 
 
 - **Visible performance and hidden rescue.** A recipient can appear independent while another performer resolves every difficult case, repairs inputs or absorbs delay.
 - **Continuity and dependence.** A continuing supplier may be the best way to obtain the result. Reliance becomes a problem when the promised contribution cannot be supplied under the required conditions.
-- **Economy and capability.** Acquiring a capability can reduce some later dependencies but consumes present learning opportunities, feedback and qualified support.
+- **Economy and capability.** Acquiring a capability can reduce some later dependencies while requiring present development and provision. The burden depends on the holder and Method: learning may require practice and feedback, while a technical change may require installation, configuration and verification.
 - **Local success and new settings.** An adequate local result can justify reuse without establishing the same result for another population, workflow or consequence.
 - **Ending help and ending practice.** These are different changes with different affected parties and remaining obligations.
 - **Cultural continuation and control.** Independent carriers can preserve a practice without a service office. Establish the authority for any proposed changes to their work.
@@ -857,7 +859,7 @@ Use a sufficient current arrangement directly. Where provision remains open, ass
 | Retain the present help | A dependable contribution under ordinary demand and agreed terms. | The provider cannot continue, the contribution no longer matters, or its burden exceeds its benefit. |
 | Reduce or make help conditional | Recipients can handle the ordinary cases, recognize the named exception and reach support when it occurs. | Apparent independence still relies on unobserved rescue or exceptions cannot be recognized. |
 | Transfer provision | Another provider can obtain the required inputs, perform the operation and supply its result in a form the continuing work can use. | Only files or a role title have moved. |
-| Develop recipient capability | Suitable practice, feedback and evidence of performing the required operation. | Personal acquisition is not wanted, or the needed opportunities and time cannot be supplied. |
+| Develop recipient capability | Development or provision appropriate to the holder, with evidence of performing the required operation under the intended conditions. | Acquisition by this holder is not wanted, or the necessary development, provision or time cannot be supplied. |
 | Replace the obtaining way | A different qualified source, tool, service or Method can supply the result. | Its limits or access exclude the actual cases. |
 | Extend use to another setting | The target and its support fit that setting, or an appropriate adaptation can be qualified. | Local results are treated as a universal adoption instruction. |
 | End support or practice | Remaining work and affected dependencies have a legitimate disposition. | A date or funding decision is being used as evidence that dependent work is complete. |
@@ -1284,7 +1286,7 @@ When a joint episode will help the recipient learn a decision, make the reasonin
 
 #### IS.8:4.3 - Arrange practice, feedback and real receiving conditions
 
-For a person learning the operation, use [HCD.9](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd9---perform-deliberate-practice-with-feedback) to arrange practice and feedback. Use programme or provider Methods if the work requires them. Give the person providing feedback the attempt and the criteria that matter in the receiving work. A useful correction identifies an operation the learner can change, such as including a missing participant, explaining an adaptation, revising an infeasible demand or limiting a conclusion to the observation.
+For a person learning the operation, use [HCD.9](https://github.com/ailev/FPF/blob/main/DPFs/Human%20Capability%20Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd9---perform-deliberate-practice-with-feedback) to arrange practice and feedback. Use programme or provider Methods if the work requires them. Give the qualified feedback provider the attempt and the criteria that matter in the receiving work. A useful correction identifies an operation the learner can change, such as including a missing participant, explaining an adaptation, revising an infeasible demand or limiting a conclusion to the observation.
 
 Use [OCE.18](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce18---arrange-capability-development-and-receiving-work-in-an-organizational-transition) to secure practice time and real receiving work in an organizational transition and [OCE.11](https://github.com/ailev/FPF/blob/main/DPFs/Management%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce11---coordinate-organization-change-work-with-continuing-service) to keep the service available alongside practice. Identify who can take over when an attempt exceeds its allowed risk. Obtain agreement if the fallback is still open. Preserve needed assistance and distinguish the recipient’s work from any operation a mentor takes over.
 
@@ -1320,7 +1322,7 @@ If the lead performs that coordinating operation and a specialist must still ass
 
 #### IS.8:5.2 - Useful AI assistance and the holder's own contribution
 
-Suppose a facilitator uses an authorized AI service to compare de-identified episode accounts. The service proposes three explanations. If the facilitator is learning to judge them, observe the facilitator’s judgement and its consequences. If the undertaking promises AI-assisted facilitation, assess the combined work under its access, competence and protection conditions. Reassess an affected conclusion if the model changes or the service becomes unavailable. To establish how the AI acquires a capability, examine that system’s learning.
+Suppose a facilitator uses an authorized AI service to compare de-identified episode accounts. The service proposes three explanations. If the facilitator is learning to judge them, observe the facilitator’s judgement and its consequences. If the undertaking promises AI-assisted facilitation, assess the combined work under its access, competence and protection conditions. Reassess an affected conclusion if the model changes or the service becomes unavailable. For a claim that the AI gained a capability, identify the changed system and conditions, whether the change involved training, configuration or altered provision, and evidence of the relevant performance.
 
 ### IS.8:6 - Bias-Annotation
 
@@ -1330,7 +1332,7 @@ An expert may infer mastery when recipients repeat a new vocabulary. Recipients 
 
 - The intended holder, subsequent work and retained assistance define the capability claim.
 - A proposed learning arrangement supplies the facilitation operation to be taught and its necessary professional prerequisites.
-- When acquisition is needed, the recipient can practise the required operation and receive feedback under legitimate conditions. A performance claim identifies what the recipient did and under what conditions.
+- Needed acquisition has a development or provision Method appropriate to the holder. Where learning is intended, identify the learner's necessary contribution and available feedback or other support. A performance claim identifies what the recipient did and under what conditions.
 - The evidence identifies the recipient’s own work, any coordination undertaken, what specialists supplied and what a mentor took over.
 - A decision about future help uses the supported scope of performance. If development is to continue, the holder can help identify a worthwhile next problem.
 

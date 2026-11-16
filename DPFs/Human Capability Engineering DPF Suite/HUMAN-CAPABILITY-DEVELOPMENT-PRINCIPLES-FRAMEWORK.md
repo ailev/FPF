@@ -2560,6 +2560,8 @@ For a class design, state the audience assumptions and capacity range. Before an
 
 Make the allocation detailed enough to connect each needed contribution to its recipient and time of use.
 
+Separate choosing the development aim from obtaining or developing the subject Method, designing learning activities, explaining or demonstrating, giving feedback, supporting participation and providing the necessary conditions. Identify whose development is concerned and who holds the relevant choices. A difficulty in the subject Method needs subject work; additional encouragement or practice cannot settle it. HCE.Reference:4 connects these professional contributions, and Library.Reference:9.2 explains their place in the common arrangement of help.
+
 | Allocation field | Required content |
 | --- | --- |
 | contribution and recipient | The explanation, demonstration, case, access, feedback, check, assessment, specialist result, coordination, or fallback needed; who or what uses it; and which task or result it enables. |
@@ -2602,6 +2604,10 @@ AI access can improve performance under the equipped conditions. Establishing th
 Peers can expose alternative reasoning, rehearse feedback, notice a question, and help a learner prepare a revision. Those contributions can reduce avoidable teacher burden. A peer can supply a required teacher or assessor contribution only when they meet the competence, calibration, independence, authority and protected-error requirements for that work.
 
 A teacher may coach while another assessor judges the independent result. A specialist may establish a domain fact, and an organization may grant access to the project. Connect those contributions where they depend on each other. Evidence about the learner’s capability must concern the learner’s own performance.
+
+Teacher, tutor, coach and mentor can overlap in ordinary professional use. Establish the contribution needed: subject teaching, individual learning support, feedback on performance, help choosing further development or a continuing developmental relationship. The name alone does not allocate those operations. A tutor can teach a subject or help choose further learning; these are different contributions even when one provider supplies both.
+
+A colleague can provide mentoring without managerial authority, and several peers can supply complementary contributions. Such help can be reciprocal. An appointment can allocate time and duties, while competence, availability and any required authority still need their own grounds. Learning through observing another participant's ordinary work does not by itself mean that participant undertook teaching.
 
 #### HCD.7:4.6 - Return the Arrangement or Exact Missing Contribution
 
@@ -2739,6 +2745,8 @@ Distinguishing intended, permitted, available and received help supports design 
 **Which evidence shows that a developmental activity can obtain the support it needs within its time, capacity and authority limits?**
 
 Brooks and colleagues’ 2024 qualitative study of learning-health-system communities ([`SOC-05`](https://doi.org/10.1002/lrh2.10412)) identifies distinct contributions from participants, platforms, facilitation, leadership and resources. Its qualitative findings help identify arrangement conditions. A claim that the arrangement caused capability development needs separate evidence. Matsuo and Tsukube’s 2020 cognitive-apprenticeship review ([`SOC-02`](https://doi.org/10.1016/j.ijme.2020.100417)) distinguishes modelling, coaching, scaffolding, articulation, reflection and exploration. Their sequence and transfer to a workplace depend on the particular use. Sections 4.2–4.5 apply those distinctions when allocating contributions and checking proposed service.
+
+The [CIPD's 2025 workplace account of coaching and mentoring](https://www.cipd.org/uk/knowledge/factsheets/coaching-mentoring-factsheet/) discusses overlapping developmental roles, provider competence and the effects of managerial authority. The [National Academies' 2019 STEMM mentorship synthesis](https://www.nationalacademies.org/read/25568/chapter/6) describes formal, informal, peer and network arrangements. These human workplace and educational accounts support identifying actual contributions and relationships. They do not establish one universal meaning for every role title or the effectiveness of a technical provider.
 
 A provider title and total hours are cheap to obtain and can contribute to planning. They leave distinct questions about competence, individual work, peak load, access, privacy, assessment independence and fallback. Examine the conditions that the receiving use needs and the initial information leaves open.
 
@@ -7435,6 +7443,8 @@ For each connection the route needs, identify what the first activity supplies a
 The [4C/ID account](https://www.4cid.org/about/) distinguishes whole learning tasks, support for non-routine reasoning, information used during routine action and additional practice on a component. Choose the contributions that make the whole learning task possible for the intended entrants.
 
 Identify which contributions can overlap and which depend on an earlier result. Unit support can remain available during diagnosis. To assess independent model choice, preserve the choice before any cue that names the model reaches the learner. An appropriate existing task or provider result can already satisfy a dependency.
+
+A learning route can retain alternatives whose use depends on entry preparation, an observed attempt or available support. State the condition that changes the continuation; use A.22.CGUS:4.1 when present availability is unresolved. The product need not fix every learner's future sequence. A personal programme selects a feasible continuation for known conditions; an actual trajectory records what the learner did. Reconsider dependent choices when those conditions change, retaining work whose result still applies.
 
 Use HCD.20 to compare or assess arrangements involving other learners and HCD.22 to construct or assess a shared task. A supported individual route can meet the complete promise. For shared work, identify the contribution others would need to provide and how learners could use it. For a delivered activity, establish which contributions participants supplied and, when the claim concerns uptake, what learners did with them.
 

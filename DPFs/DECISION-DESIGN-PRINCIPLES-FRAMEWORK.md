@@ -103,7 +103,7 @@ Suppose evidence now establishes that mobile deployment is unavailable in the re
 
 The following entries illustrate advice and inquiry with different stopping points. Use the index or search for another question. The [Architectural Reference](#decision-design-principles-framework-architectural-reference) and its [Architectural Rationale](#psdareference5---why-retain-this-connected-language) explain how the contributions fit together. If you ask an agent for help with a passage, ask for an explanation of what it lets you do in ordinary language.
 
-If the useful future contribution is unsettled, the [C.40.OCN opportunity construction (FPF C.40.OCN:1)](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c40ocn1---problem-frame) can help construct a possibility and identify its next question. A person or team can finish that inquiry for its own use. Where a distinct performer is to recommend a direction to a recipient, use the [advising profile](#development-direction-advising) or the second example below.
+If the useful future contribution is unsettled, the [C.40.OCN opportunity construction (FPF C.40.OCN:1)](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c40ocn1---problem-frame) can help construct a possibility and identify its next question. The performer can finish that inquiry for its own use. Where a distinct performer is to recommend a direction to a recipient, use the [advising profile](#development-direction-advising) or the second example below.
 
 ### PSDA-CARD-01 — Turn a contested situation into a usable recommendation
 
@@ -1512,7 +1512,7 @@ Some thresholds are preference choices rather than prohibitions: an aspiration l
 
 #### PSDA.6:4.5 - Construct preferences from comparisons of consequences
 
-For an account of a holder’s preferences, use attributable comparisons of concrete consequence profiles for the same people, horizon and conditions. Obtain a judgement from the holder if the needed comparison is missing and worth obtaining. Preserve whether one profile is **no worse**, **strictly better**, **indifferent**, or the comparison remains open. Keep the profiles and any stated reason. Use alternatives or intelligible hypothetical profiles within the declared ranges. If the task specifies a rule or hypothetical preference instead, report conclusions under that basis.
+For an account of a holder’s preferences, use attributable comparisons of concrete consequence profiles for the same subjects, horizon and conditions. Obtain a judgement from the holder if the needed comparison is missing and worth obtaining. Preserve whether one profile is **no worse**, **strictly better**, **indifferent**, or the comparison remains open. Keep the profiles and any stated reason. Use alternatives or intelligible hypothetical profiles within the declared ranges. If the task specifies a rule or hypothetical preference instead, report conclusions under that basis.
 
 Sections 4.5.1–4.5.5 treat known consequences. For uncertain outcomes, §4.5.6 uses comparisons of lotteries, preserves the compatible utility functions and relates them to the consequence probabilities. Choose the form for the distinctions the task needs. Deterministic trade-offs alone leave the ranking of some uncertain alternatives open.
 
@@ -2686,7 +2686,7 @@ Use the account to judge whose circumstances and concerns affect the inquiry. If
 | participant | A contributor to the inquiry, or a party whose contribution is sought. Distinguish a requested contribution from one received. Establish representation, agreement, capability and authority where a claim depends on them. |
 | affected System | A System or prospective referent that may undergo a relevant change. Identify the supported relation or possible path by which the change could reach it. Use `A.1.CSD` when this discovery is needed. |
 | concern | A source-attributed matter that a participant, represented person, duty holder, interest holder, or affected-System account makes material to the receiving use. Identify separately the evidence for its substance, priority or support by others when those claims matter. |
-| representation | A supported basis on which one participant speaks, reports, advocates, or acts for another person or constituency. Identify the constituency, the basis and limits of the participant’s remit. |
+| representation | A supported basis on which one participant speaks, reports, advocates, or acts for another System or constituency. Identify who or what is represented, and the basis and limits of the participant’s remit. |
 | participation condition | An access, timing, language, safety, capability, format, dependency, or other condition that changes whether a contribution can be made or relied upon. |
 | participation and concern account | The smallest recoverable account of current and missing participation, affected Systems, concerns, duties, interests, dissent, evidence, uncertainty, and next use for one bounded inquiry. |
 
@@ -3907,7 +3907,7 @@ If the interaction is uncertain, assess what can be concluded now. When a furthe
 
 Assess the current or proposed arrangement against the receiving task. If the question is whether a specific interference exists, give the evidence, consequence or remaining limit. When a remedy or comparison is requested, identify feasible ways to change the affected relationship and compare material alternatives where available.
 
-A local separation can reserve discussion time while calculation pauses. Parallel inquiry and modelling can use explicit exchange points for consequential changes. Separate contribution channels can preserve a protected or unavailable participant's input, provided a usable correction route exists. A simpler provisional model can support discussion while a specialist develops the stronger analysis elsewhere. A different allocation of modelling and facilitation can remove an attention conflict, if the required people and capabilities are available.
+A local separation can reserve discussion time while calculation pauses. Parallel inquiry and modelling can use explicit exchange points for consequential changes. Separate contribution channels can preserve a protected or unavailable participant's input, provided a usable correction route exists. A simpler provisional model can support discussion while a specialist develops the stronger analysis elsewhere. A different allocation of modelling and facilitation can remove an attention conflict, if the required performers and capabilities are available.
 
 State what each arrangement preserves, what it can produce and any condition it cannot yet satisfy, and who bears the extra work, delay or loss. A jointly edited model is not always preferable; when inputs and meanings are stable, bounded expert analysis can be sufficient. In fully serial work, someone may become unavailable while another contribution is completed.
 
@@ -4435,6 +4435,8 @@ Establish the development-advice question and the conditions under which the adv
 Use an adequate existing engagement question, or use [PSDA.11 — Bound the Decision-Support Engagement and Authority Boundary](#psda11---bound-the-decision-support-engagement-and-authority-boundary) to establish the missing part. State whose development is at issue, what contribution or decision the advice serves, the horizon and the return sought now.
 
 Identify who is preparing the advice and who receives it. Development-direction advising here requires a distinct recommending performer. A recipient may also hold the subsequent choice under the applicable authority. A team can receive advice from an internal specialist.
+
+A consultant can supply this advising contribution or perform a different professional operation. Establish the actual contribution before treating the title as a promise of advice, learning or target performance. Library.Reference:9.2.2 supplies the shared comparison of recipient and helper contributions.
 
 Distinguish client, sponsor, developing subject, recipient and holder of a choice where the difference affects service, disclosure, protection or action. One participant may fill several positions. Establish those positions from the terms and actual circumstances. Payment or a signature may establish one fact while leaving another open.
 

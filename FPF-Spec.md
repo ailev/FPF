@@ -285,7 +285,7 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | B.5.RA | **Recover an Argument for Use** | Stable | Use when you need to recover or challenge the reasoning behind a result for application, explanation or revision. Reconstruct unclear claims and dependencies; for an already clear defeasible argument, begin with a consequential critical question. Keep supported results and trace changes through affected grounds. *Queries:* "Why does this step follow?", "What does this lemma contribute to the whole argument?", "How can I turn this text into an argument map?", "Which critical question could change this conclusion?", "Does this reasoning support the use I need?" | **Coordinates with:** B.5 and B.5.RC for inquiry and construction; B.5.RR for revision; B.5.MPC for joint reasoning; C.2.8 and C.37 for recipient understanding and representation choice. |
 | B.5.RR | **Revise Reasoning After a Premise or Question Changes** | Stable | Use when a changed premise, question or application condition calls earlier reasoning into question. Follow the affected dependencies, retain sufficient alternatives, derive what now follows and apply the revised result. *Queries:* "Which part needs to be worked again?", "Does another argument still support the conclusion?", "What does the changed result let us do?" | **Coordinates with:** B.5, B.5.RA and B.5.RC for reasoning, B.5.MPC.R for joint physical reasoning, and C.11.DUA for further effort. |
 | B.5.FM | **Construct a Model for the Question** | Stable | Use when relevant facts or rules are available but no model yet supports the needed inference. Choose what the model must distinguish and how its parts are related, then derive a consequence for the task. *Queries:* "Which participants or interactions must the model include?", "How can I build a model before commissioning a calculation?", "What grouping makes the next operation possible?" | **Coordinates with:** B.5, B.5.4, C.29, A.3.3, C.16 and A.6.3.RT for model construction; B.5.RR and B.5.MPC.R for revision. |
-| B.5.MR | **Compare Models for Refinement** | Stable | Compare models for the same inquiry. Test which earlier commitments hold for every admissible later completion and which earlier possibility, if any, the later model excludes. | B.5.FM, B.5.TC, C.2.1, B.1 and C.37.MM. |
+| B.5.MR | **Compare Models by Refinement and Abstraction** | Stable | Construct or compare a refinement and an abstraction for the same inquiry. Test feasibility and preservation under the stated interpretation; identify a strict difference when claimed and recheck the needed conclusion. | B.5.FM, B.5.TC, C.2.1, B.1 and C.37.MM. |
 | B.5.TU | **Construct a Use of an Unfamiliar Theory** | Stable | Use when a theory seems useful but its objects and reasoning have not yet been connected to a usable answer. Recover the needed operations, work one application and interpret its consequence for the question. *Queries:* "What can this theory help me do?", "Which input or operation is missing?", "Why does a correct calculation fail to answer the working question?", "What must I understand to use or change this result?" | **Coordinates with:** B.5, B.5.RC, B.5.RA and B.5.RR for reasoning; C.29 and A.6.3.RT for mathematical correspondence and expression; A.15.9 for bounded help. |
 | B.5.TC | **Compare Theoretical Accounts for a Question** | Stable | Use when accounts appear to disagree or compete for a use. Construct their applications to the same case, locate the consequential difference and choose a sufficient account, complementary use or worthwhile inquiry. *Queries:* "Do these theories answer the same question?", "Does the disagreement come from a premise, a model or its computation?", "When is the simpler account enough?", "What observation or construction would resolve the difference that matters?" | **Coordinates with:** B.5.TU, B.5.RA and B.5.RR for applications and reasoning; C.29.1, C.29.2 and C.29.3 for transfer and computation; C.28 for causal use; F.0.2 for synthesis; C.11.DUA for worthwhile inquiry. |
 | B.5.QD | **Develop a Question from a Result or Construction** | Stable | Use when a counterexample, result or newly available operation changes what could be investigated but the next question is unclear. Recover the changed dependency, construct the answer form and work a revealing case before choosing the inquiry. *Queries:* "What useful question follows from this failure?", "What can we now ask using this construction?", "Can a bound answer the need?", "Which next problem opens further work?" | **Coordinates with:** B.5.RA and B.5.RR for reasoning; B.5.MPC for joint contributions; C.39 and C.40 for methods and coupled development; E.10.INT and C.11.DUA for worthwhile inquiry. |
@@ -49041,7 +49041,7 @@ A division into “physics first, mathematics second, implementation last” als
 | Constructive freedom and justified consequence | New models, expressions and procedures can open a useful route; their decisive properties require the relevant physical or mathematical grounds. |
 | Abstract result and executing means | A computation can be correct for its stated inputs while the proposed apparatus cannot prepare, represent or execute those inputs. |
 | Reuse and change | Existing results save work, but their use depends on the premises and interpretations that the new question consumes. |
-| Explanation and available effort | A person or team needs enough understanding to use and question contributions without reconstructing every discipline before an ordinary decision. |
+| Explanation and available effort | The receiver needs enough understanding to use and question contributions without reconstructing every discipline. |
 
 ### B.5.MPC:4 - Solution
 
@@ -49051,7 +49051,7 @@ The long mantra keeps the whole question available while attention moves between
 
 **Orient by the physical question → propose the relevant physical account → construct a mathematical question and its interpretation → obtain a result and, where needed, a computation → connect its execution and observations to the intended quantities → return the consequence to the physical question → choose the useful action or the next missing contribution.**
 
-The arrows recall result dependencies. They do not prescribe the order in which people must discover, receive or develop every contribution. A theorem, algorithm, measurement or physical mechanism can be the first available input.
+The arrows recall result dependencies. They do not prescribe the order in which contributors must discover, receive or develop every contribution. A theorem, algorithm, measurement or physical mechanism can be the first available input.
 
 #### B.5.MPC:4.1 - Recover the physical difference the answer should resolve
 
@@ -49165,13 +49165,13 @@ Distinguish the consequence of an obstruction. A mathematical contradiction bloc
 
 Stop when the supported result answers the intended use. When development is the purpose, work one consequential variation far enough to reveal a new construction, obstruction or missing operation. Explain which additional action or longer inquiry it could enable. B.5:4.4, C.39 and C.40 supply the corresponding question and repertoire development; continued work is justified by that use.
 
-#### B.5.MPC:4.8 - Divide human and AI contributions by the result they must supply
+#### B.5.MPC:4.8 - Divide work by the result each contributor must supply
 
 Allocate work around the dependencies above. A contributor can supply a physical account, a mathematical construction, a proof, a computation, a proposed realization or an explanation of the connection. State the question, available inputs, missing result and intended use when obtaining help through A.15.9. Ask for the formulation when the equation has not yet been constructed.
 
 Retain enough understanding at each receiving point to use and question its input. The receiver of a motion count should be able to identify its unit, the rotation it counts, its sign and its dependence on the motion model. The receiver of a two-colouring result should be able to connect the returned labels or odd-cycle witness to the contact list. The receiver of an occupancy bound should be able to identify the material and procedural conditions that preserve the stock.
 
-That understanding can be held by one person or distributed across people and AI with an effective way to obtain a missing explanation. Arrange a capable contribution for each consequential connection. A completed report alone does not establish that this capability is available when a premise changes.
+That understanding can be held by one agent or distributed across contributors with an effective way to obtain a missing explanation. Arrange a capable contributor for each consequential connection. A completed report alone does not establish that this capability is available when a premise changes.
 
 Choose depth from the later work. Using a stable formula may require interpretation and checks at the connection. Changing the formula requires understanding its derivation. Designing a new algorithm or physical theory requires the additional specialist capability.
 
@@ -49904,7 +49904,7 @@ Recovery may expose a gap in the source or in the reader's preparation. It also 
 
 Backward recovery and forward construction answer complementary questions. The backward direction reveals what the desired result requires. The forward direction tests whether the available inputs and operations can supply it. Either direction alone can leave a gap: a plausible plan may lack an executable step, while available operations may produce objects irrelevant to the question.
 
-The method follows the construction's dependency structure. One intermediate object can support several later steps, and several objects can be required jointly. Preserving these relations makes the construction intelligible and helps divide its execution among people and AI agents. The receiving operation determines what a collaborator needs to supply.
+The method follows the construction's dependency structure. One intermediate object can support several later steps, and several objects can be required jointly. Preserving these relations makes the construction intelligible and helps divide its execution among performers. The receiving operation determines what a collaborator needs to supply.
 
 Construction and reasoning about properties remain connected. In the triangle case, the construction creates a common point and the circle properties establish equal sides. In the stand case, fitting conditions permit assembly, while load and carrying requirements can lead to design revision. This relation warrants cooperating methods for construction recovery and argument recovery.
 
@@ -50763,46 +50763,68 @@ Reconsider the construction approach when another supplies a more useful model a
 
 ### B.5.FM:End
 
-## B.5.MR - Compare Models for Refinement
+## B.5.MR - Compare Models by Refinement and Abstraction
 
 > **Type:** Method pattern
 > **Status:** Stable
 
 ### B.5.MR:1 - Problem frame
 
-**Use this when** someone proposes to rely on a later model because it is said to refine an earlier one. The practical question is which earlier conclusions still hold and which choice, state or behavior the later model now excludes. Two specifications of a design, two accounts of a method or two editions of the rules for constructing a model can each raise that question.
+**Use this when** you need a model to determine something left open by another model, or need an abstraction that leaves some determinations open while retaining a useful conclusion. The practical question is which answers remain admissible and which conclusions can still be used. Two specifications of a design, two accounts of a method or two editions of the rules for constructing a model can each raise that question.
 
-A useful first result is a sentence explaining what was open, what still qualifies, and what has become impossible under the new conditions. When deciding between theories that answer different questions, B.5.TC helps identify a comparable use. When the change is in the actual system, examine the changed system directly.
+A useful first result identifies the inquiry, the assertions preserved and the answers admitted by each model. A strict refinement excludes an earlier admissible answer. A strict abstraction admits an answer excluded before, so a conclusion that depended on that exclusion needs reconsideration. When deciding between theories that answer different questions, B.5.TC helps identify a comparable use. When the change is in the actual system, examine the changed system directly.
 
 ### B.5.MR:2 - Problem
 
-More detail can narrow a choice, leave the answer unchanged, or contradict an earlier commitment. A change of wording, a new unit or a newly chosen discipline may also change what the reader takes the question to mean. How can the reader establish what a proposed refinement actually permits them to infer?
+More detail can narrow a choice, leave the answer unchanged, or contradict an earlier commitment. Omitting detail can leave the same assertions recoverable or lose a premise the reader needs. A change of wording, a new unit or a newly chosen discipline may also change what the reader takes the question to mean. How can the reader construct and compare models while establishing what each change permits them to infer?
 
 ### B.5.MR:3 - Forces
 
-A practitioner needs a quick comparison in ordinary terms. A consequential claim of preservation must cover all remaining possibilities. Model editions can use different representations. An apparent exclusion can arise from dropping a difficult case, changing the meaning of a quantity or switching from a design condition to a report of actual performance.
+A practitioner needs a comparison in ordinary terms. A consequential claim of preservation must cover all remaining possibilities. Model editions can use different representations. An apparent exclusion can arise from dropping a difficult case, changing the meaning of a quantity or switching from a design condition to a report of actual performance. An abstraction can serve a wider inquiry while losing a conclusion needed for a particular decision.
 
 ### B.5.MR:4 - Solution
 
-#### B.5.MR:4.1 - State what the two models must answer
+A model states something about a system, method or another modeled entity, and can leave several answers open. First say which inquiry is being answered and recover the assertions that govern those answers. Refining a model determines something it leaves open while preserving what it already establishes. Abstracting a model leaves determinations open while retaining what the receiving inquiry needs. Compare the admitted answers to establish either relation.
+
+#### B.5.MR:4.1 - Recover the assertions and the answers left open
 
 Identify the modeled entity or the range of candidate applications left open, the inquiry, and the conditions under which each answer will be read. Keep the force of the claims explicit when it matters. Permitted values, predicted values and observed values answer different questions. For a claim-bearing model recover its content, EntityOfConcern and effective interpretation under C.2.1. For a physical model establish which observations on it warrant which inference about the target. PHY.1 in Physical Thinking gives the similarity conditions for transferring a selected observable across changes of scale or operating conditions.
 
-A **completion** settles what the model leaves open for this inquiry. It can be a candidate design satisfying some conditions, a behavior compatible with observations, or a structure satisfying some stated axioms. Choose what the inquiry can distinguish. When likelihoods matter, include the probability claims being compared. Two models can allow the same outcomes and assign them different probabilities.
+Recover what the model asserts about the participants: which quantities may vary, which relationships must hold, which designs qualify or which performances a Method permits. The relevant subject Method supplies their types and grounds. A stated condition may be an assertion of the model or an assumption under which it applies; distinguish these when they change the answer. If the expression leaves its assertion unrecoverable, use F.19 before treating it as a model at a higher abstraction level.
+
+A **completion** settles what the model leaves open for this inquiry while satisfying its assertions. It can be a candidate design satisfying specified relationships, a behavior compatible with observations, or a structure satisfying stated axioms. An admitted completion need not have been observed, built or authorized for use. A list of observed instances therefore need not exhaust the completions. Choose what the inquiry can distinguish. When likelihoods matter, include the probability claims being compared. Two models can allow the same outcomes and assign them different probabilities.
 
 #### B.5.MR:4.2 - Test preservation and strictness
 
-Identify the completions each model admits. When their languages or detail differ, explain how every later completion is read in the terms used for the earlier answer, and why that reading serves the inquiry. Test that a later completion exists and that each later completion, so read, satisfies the earlier commitments. This establishes preservation. To establish **strict refinement**, also identify an earlier possibility that none of the remaining completions can produce. Show a surviving possibility so that exclusion cannot be attributed to inconsistent conditions.
+Identify the completions each model admits. Call the proposed refined model C and the model whose assertions it must preserve A. When their languages or detail differ, explain how every completion of C is read in the terms used for A's answer, and why that reading serves the inquiry. Test that a completion of C exists and that each completion of C, so read, satisfies A's assertions. When these tests hold, **C refines A**, and **A is an abstraction of C**, for this inquiry and interpretation. The two names give converse directions of the same comparison.
 
-If a model admits no completion, examine which of its conditions make it infeasible. If both models admit none, neither supplies a feasible answer. When each admits at least one completion, equal sets of observable answers establish agreement for this inquiry. If each admits an answer the other excludes, the models are incomparable by refinement. They may still share answers. If they share none, their commitments conflict under the common reading. When feasibility or the correspondence is unknown, identify what would settle it.
+This relation includes equivalent answers. To establish **strict refinement**, also identify an answer admitted by A that no completion of C can produce. Only with this strict difference call C **more concrete** than A and A **more abstract** than C. Show a surviving completion of C so that exclusion cannot be attributed to inconsistent assertions.
 
-A claim of greater accuracy needs a reference and an error criterion. A bound can establish accuracy against a mathematical reference. For a claim about accuracy on an actual system, use observations under the relevant conditions.
+If a model admits no completion, examine which assertions make it infeasible. If both models admit none, neither supplies a feasible answer. When each admits at least one completion, equal sets of observable answers establish agreement for this inquiry. If each admits an answer the other excludes, the models are incomparable by refinement. They may still share answers. If they share none, their assertions conflict under the common reading. When feasibility or the correspondence is unknown, identify what would settle it.
 
-#### B.5.MR:4.3 - Follow a chain to an application
+Under a fixed common reading, the admitted answers order comparable models, with equivalent answers sharing a position. An inquiry that distinguishes additional features can give a different comparison. Before composing comparisons across languages, establish how their interpretations compose. The names do not impose a single ranking on all models.
 
-When the inquiry concerns which applications are eligible, the starting model may leave open the interpretation of a formal construction, the discipline, the local conditions and the individual. Five useful names locate these possible restrictions.
+A claim of greater accuracy needs a reference and an error criterion. A bound can establish accuracy against a mathematical reference. For a claim about accuracy on an actual system, use observations under the relevant conditions. Refinement alone supplies neither empirical accuracy nor evidence of actual performance.
 
-| Position | What can be fixed while preserving earlier conditions |
+##### B.5.MR:4.2.1 - Refine a model for a further decision
+
+Identify what the next decision needs determined: a value, a construction choice, a permitted performance or another answer left open. Obtain the subject grounds for that determination. Add or bind the corresponding assertion and compare the resulting model with the starting model by section 4.2. Explain the preserved assertions, show a surviving completion and identify any excluded answer.
+
+An added assertion can merely repeat what already follows; then it does not establish a more concrete position for the inquiry. If the resulting model admits a formerly excluded answer or the added assertion contradicts the starting model, report the changed assertion or conflict and reconsider the model. Greater length or a local label does not settle this comparison.
+
+##### B.5.MR:4.2.2 - Construct or select an abstraction
+
+Identify the conclusion the receiving work still needs and the determinations on which it depends. Decide which other determinations may be left open. Construct a model that leaves them open, or select an existing model that does so.
+
+Compare the starting model as C with the proposed abstraction as A under section 4.2: C must have a completion, and every completion of C must satisfy A under the established interpretation. Then check the needed conclusion over the answers A admits. Identify any prior conclusion that no longer follows and the determination on which it depended; report when no conclusion is lost for the inquiry. If the needed conclusion is lost, retain that determination or choose a different abstraction.
+
+Several abstractions can serve different inquiries about the same starting model; several concrete models can refine one abstraction. The comparison supplies no unique inverse construction. Leaving a variable open also does not prove that a result observed at one value holds at every newly admitted value. Wider empirical or methodological claims need their subject grounds. Retaining the same assertions in clearer wording is clarification of their expression; it does not change this model order.
+
+#### B.5.MR:4.3 - Locate levels of model abstraction in an application chain
+
+A **level of model abstraction** is a relative position under the comparison in section 4.2. When the inquiry concerns which applications are eligible, a chain may leave open or determine the interpretation of a formal construction, the discipline, the local conditions and the individual. Five useful names locate these possible restrictions.
+
+| Position | What can be fixed while preserving earlier assertions |
 | --- | --- |
 | L4, foundational | A formal or computational construction and the choices its own conditions permit. |
 | L3, transdisciplinary | A principle interpreted across eligible disciplines. Bind it to the construction wherever that interpretation is warranted. |
@@ -50810,9 +50832,13 @@ When the inquiry concerns which applications are eligible, the starting model ma
 | L1, local | Conditions shared by a particular setting or recurrent local population. |
 | L0, individual | The identity of the particular entity or occurrence being modeled. Its unobserved characteristics can remain open. |
 
-At each step identify the earlier commitments that still hold. For a strict step, show which earlier candidate drops out and which survives. Two successive positions can admit exactly the same answers, as when a local setting adopts a professional rule unchanged for the inquiry at hand. Specializing an application keeps the general rule as a premise. Merely discarding inconvenient cases from a purported universal result weakens its support. Use the steps the inquiry needs. Several consequential restrictions may fall within one position; if the individual was fixed at the outset, binding its identity again removes no possibility.
+Read L0 toward L4 as abstraction, and L4 toward L0 as refinement, where the comparisons establish those relations. At each step identify the assertions retained and the warranted interpretation. For a strict step, show which answer the more abstract model admits and the more concrete model excludes, together with a surviving completion. The position's name alone establishes neither preservation nor strictness.
+
+Two successive application positions can admit exactly the same answers, as when a local setting adopts a professional rule unchanged for the inquiry at hand. They then occupy the same abstraction position for that inquiry. Specializing an application keeps the general rule as a premise. Merely discarding inconvenient cases from a purported universal result weakens its support. Use the steps the inquiry needs. Several consequential determinations may fall within one named application position; if the individual was fixed at the outset, binding its identity again removes no possibility.
 
 When the entity is a method, a professional rule can be applied locally and a performed work occurrence can be compared with it. Establishing that the work occurred and followed the rule needs its own evidence. When the entity is a system, a more restrictive model can concern the very same system at the same scale. Moving to a constituent invokes the relevant constructive relation under B.1; its effect on the inquiry needs to be established separately.
+
+Core, DPFs and LPFs supply models that can participate in such comparisons. A publication or discipline does not itself have one abstraction level. Binding a parameter can refine a model without changing its language; changing professional vocabulary can preserve all its admitted answers. A richer representation language can also express a model applicable to more situations. Compare the interpreted assertions for the inquiry.
 
 #### B.5.MR:4.4 - Compare models of models by the same test
 
@@ -50822,37 +50848,47 @@ A metamodel states conditions on admissible models, such as which field or relat
 
 A project commissions a temperature recorder for one installation. The earlier specification permits records at whole-minute intervals of one or two minutes. The new specification permits only one-minute intervals and preserves the units, clock and operating conditions. A one-minute record is still eligible. A two-minute record is excluded. For the inquiry about permitted sampling intervals, this is strict refinement. If the recipient asks only whether every hour contains a reading, both specifications give the same answer. Whether the installed recorder met its specification last night requires observations of that recorder.
 
+Suppose a receiving comparison needs to know whether each recorder specification ensures at least one reading in every hour, without deciding between one-minute and two-minute intervals. Reuse the earlier specification as an abstraction of the one-minute specification. Every completion of the latter still satisfies the former, and both permit a completion. The abstract specification retains the hourly conclusion over all its permitted intervals. It no longer entails that the interval is one minute. For an inquiry that distinguishes the intervals this is strict abstraction; for the hourly inquiry the answers remain equivalent.
+
 A work method screens requests under a criterion and then refers unresolved ones for a second judgement. A local revision adds a deadline to the referral while preserving the screening rule. A referral after the deadline was admissible under the earlier timing rule and now falls outside the local prescription. A second revision silently accepts some requests previously requiring referral. Compare that changed decision with the original rule before relying on it. An excellent record of one compliant case cannot settle the claim for the newly admitted cases.
+
+To compare the local method with methods at other sites for their screening and referral duties, return to the prescription without the local deadline. It is an abstraction if every performance permitted by the local prescription satisfies it and at least one such performance is possible. The referral duty remains; the local deadline no longer follows. Removing that deadline from the model does not withdraw an actual site's deadline or establish that its workers performed the referral. Those are different assertions needing their own grounds.
 
 ### B.5.MR:6 - Bias-Annotation
 
-A vivid individual case can conceal what the earlier condition covered. Start with the intended inquiry and an admissible alternative. Looking only for a stricter result can also hide agreement, a real conflict or uncertainty.
+A vivid individual case can conceal what the earlier assertion covered. Start with the intended inquiry and an admissible alternative. Looking only for a stricter result can hide agreement, a real conflict or uncertainty. Looking only for a simpler abstraction can conceal the loss of a conclusion the next decision needs.
 
 ### B.5.MR:7 - Conformance Checklist
 
-- The inquiry, participants, force, conditions and common reading are recoverable.
-- A preservation claim has at least one admissible later completion and covers every later completion for the inquiry. A strict step also has an earlier possibility excluded by all the later completions.
+- The inquiry, participants, force, assertions and common reading are recoverable.
+- A refinement claim has at least one admissible completion of C and covers every completion of C for the inquiry. An abstraction claim uses the converse comparison.
+- A strict comparative name has an answer admitted by A and excluded by every completion of C. Equivalent answers and incomparable answers are reported accordingly.
+- The receiving conclusion has been checked over the answers the selected model admits. Any reported loss identifies the conclusion and its missing premise; absence of loss remains a possible result.
 - Claims of conformance, parthood, occurrence or empirical accuracy use the grounds for their own relations.
 
 ### B.5.MR:8 - Common Anti-Patterns and How to Avoid Them
 
-A longer document may repeat the same commitments in a more useful form. Test which answers have changed. A project can also specify an individual that does not exist. If no candidate survives an attempted binding, reopen the identification.
+A longer document may repeat the same assertions in a more useful form. Test which answers have changed. A project can also specify an individual that does not exist. If no candidate survives an attempted binding, reopen the identification.
+
+A model abstracted from one successful performance can admit other performances whose success has not been established. Use the subject Method to justify the wider claim before relying on it. A simpler drawing or a shorter paragraph can preserve the same model; compare its assertions before assigning a different abstraction level.
 
 ### B.5.MR:9 - Consequences
 
-A receiving practitioner can reuse preserved commitments, name the new restriction, and locate the premise that must be revisited when a model, correspondence or inquiry changes. A teacher can ask a learner to exhibit the exclusion on an unfamiliar application.
+A receiving practitioner can reuse preserved assertions, determine an open choice, or reopen a choice without losing track of the conclusions that depend on it. The comparison locates the premise to revisit when a model, correspondence or inquiry changes. A teacher can ask a learner to construct each direction and explain the retained and lost conclusions on an unfamiliar application.
 
 ### B.5.MR:10 - Architectural Rationale
 
-One comparison serves many kinds of modeled entity because it concerns the commitments a model makes for an inquiry. Kind-specific composition, physical similarity and performed work retain their own tests. This division lets the same model answer questions at different scales without assigning its file or language a single level.
+One comparison serves many kinds of modeled entity because it concerns the assertions a model makes for an inquiry. Its converse supplies abstraction while leaving the construction of a suitable model to the receiving need and subject grounds. Kind-specific composition, physical similarity and performed work retain their own tests. This division lets the same model answer questions at different scales without assigning its file or language a single level.
 
 ### B.5.MR:11 - SoTA-Echoing
 
-Specification theory compares models that satisfy stated sentences. It supports comparison across signatures when an interpretation specifies how a later model yields an earlier one. Under ordinary set inclusion, an empty class is included in every class. If the task is to show that a specification is infeasible, emptiness can settle it. A practitioner relying on a refined model to select a feasible design or action also needs a surviving completion. Section 4.2 therefore tests existence and preservation and asks which earlier possibility is lost when strictness matters. If the receiving inquiry changes what counts as the same answer, reconsider the interpretation and the comparison under it. [Sannella and Tarlecki, *Specifications in an Arbitrary Institution*, §§2 and 8](https://homepages.inf.ed.ac.uk/dts/pub/inst-asl.pdf)
+Specification theory compares models that satisfy stated sentences. It supports comparison across signatures when an interpretation specifies how a later model yields an earlier one. Under ordinary set inclusion, an empty class is included in every class. If the task is to show that a specification is infeasible, emptiness can settle it. A practitioner relying on a refined model to select a feasible design or action also needs a surviving completion. Section 4.2 therefore tests existence and preservation and asks which earlier possibility is lost when strictness matters. If the receiving inquiry changes what counts as the same answer, reconsider the interpretation and the comparison under it. This is a historical formal basis for the comparison. [Sannella and Tarlecki, *Specifications in an Arbitrary Institution*, §§2 and 8](https://homepages.inf.ed.ac.uk/dts/pub/inst-asl.pdf)
+
+Probabilistic program development also uses refinement and abstraction as converse directions while retaining probability-sensitive guarantees. A comparison of outcome sets alone loses that information; section 4.1 therefore keeps the probability claims relevant to the inquiry. The formal construction is a historical anchor, not a claim that every Method is a probabilistic program. [Morgan, *The Generalised Substitution Language extended to probabilistic programs*, §2](https://cgi.cse.unsw.edu.au/~carrollm/probs/Papers/Morgan-98.pdf)
 
 ### B.5.MR:12 - Relations
 
-Use B.5.TC for comparisons of theoretical accounts, C.2.1 for the identity and grounding of epistemes, C.29 for a mathematical representation and its correspondence, B.1 for reasoning across holonic scales, and C.37.MM for coordinating and handing on models. E.10.D2 governs the use of a description as a specification.
+Use B.5.TC for comparisons of theoretical accounts, C.2.1 for the identity and grounding of epistemes, C.29 for a mathematical representation and its correspondence, B.1 for reasoning across holonic scales, and C.37.MM for coordinating and handing on models. E.10.D2 governs the use of a description as a specification. F.19 helps recover the model's assertions from its expression; F.17 and F.18 record the names of this comparison and its relative positions.
 
 ### B.5.MR:End
 
@@ -52647,7 +52683,7 @@ A laboratory must place three tests in two simultaneous-run slots. Its operating
 
 Represent tests by vertices and a pairwise inability to share a slot by an edge. The operating conditions imply edges AB and BC. The construction in [B.5:5.1][fpf-b5-5-1-ref] produces slots {A,C} and \{B\}; reading the result back means that neither exclusive resource is double-booked.
 
-Now change the conditions: A and C also require the same observer throughout a run. This adds edge AC. The triangle needs three slots under these conditions; two-colouring no longer supplies an arrangement.
+Now change the conditions: A and C also require the same observer throughout a run. The observer can provide the required observation for only one of those tests at a time. This adds edge AC. The triangle needs three slots under these conditions; two-colouring no longer supplies an arrangement.
 
 Consider instead three tests with independent fixtures whose shared resource is a 5 A supply. Each draws 2 A. Any pair can run together, but all three exceed the supply's capacity. A graph with no pairwise conflict edges loses that group constraint. Retain the currents and the slot-wise capacity inequality when constructing the arrangement.
 
@@ -53023,7 +53059,7 @@ At intervals, have the receiver or another capable participant trace a consequen
 
 #### B.5.SD:4.4 - Work with objections as contributions to the answer
 
-Invite a participant to state the claim, relation or consequence they challenge and why it matters to the receiving use. Restate the objection in terms they recognize before trying to answer it. Preserve an unfamiliar but potentially consequential objection long enough for a qualified person to examine it.
+Invite a participant to state the claim, relation or consequence they challenge and why it matters to the receiving use. Restate the objection in terms they recognize before trying to answer it. Preserve an unfamiliar but potentially consequential objection long enough for a qualified contributor to examine it.
 
 Distinguish several responses. A misunderstanding can need explanation. A factual conflict can need source comparison or observation. An unsupported inference can need a model, test or narrower conclusion. A disadvantage can require another proposal. A value conflict can need D.4 or a governing decision. An incompatible contribution belongs with LDR.2. These are different continuations, not labels for dismissing the objector.
 
@@ -56857,7 +56893,7 @@ Representation bundles may be compared across contexts only after the compared f
 
 ### C.2.8:1 - Problem frame
 
-Use this pattern when an explanation, pattern text, architecture account or another expressed description must make selected structure recoverable by a reader or computational observer. You may be comparing two forms of the same account, deciding whether an added explanation exposes a missing dependency, or checking what an observer can extract with the available preparation and time.
+Use this pattern when an explanation, pattern text, architecture account or another expressed description must make selected structure recoverable by a reader or observing system. You may be comparing two forms of the same account, deciding whether an added explanation exposes a missing dependency, or checking what an observer can extract with the available preparation and time.
 
 **First useful move.** Name the relation or distinction the reader needs, identify the available account and its expression, and state the preparation, source access and budget that can change recovery. Compare what the reader can correctly recover under those conditions. A useful result can be two sentences: “Both accounts expose the dependency on a durable write. Only the second account exposes why the reporting replica was chosen; this is an author estimate for readers familiar with replication, with the same source access and three-minute budget.”
 
@@ -56909,7 +56945,7 @@ This is a relation Characteristic under A.17, with arity three over the ordered 
 
 Its aspect is the amount of selected structure correctly extractable from E through X by O under stated comparison conditions.
 
-E retains its C.2.1 identity. X is an independently identified `U.Entity`: the sign construction that expresses E, identified under its expression domain's formation and equality rules. If reading order affects the selected operation, those rules must preserve order as part of X. O is the specified human or computational observer. An estimate about a reader class states the relevant preparation and variation among its members; it does not treat the class as another individual reader.
+E retains its C.2.1 identity. X is an independently identified `U.Entity`: the sign construction that expresses E, identified under its expression domain's formation and equality rules. If reading order affects the selected operation, those rules must preserve order as part of X. O is the specified reader or observing system. For distributed extraction, identify the observing system and how its participants' contributions produce the recovered structure. An estimate about a reader class states the relevant preparation and variation among its members; it does not treat the class as another individual reader.
 
 Where notation helps, write `ESI_C(E, X, O)`. C fixes the selected structure, correctness criterion, relevant prior knowledge, usable operations, available assistance and tools, access conditions, budget and any other qualification that changes interpretation. These conditions qualify the characteristic of the tuple; they are not an additional bearer or a universal record kind.
 
@@ -73543,7 +73579,7 @@ A.6.3.RT helps construct an expression in a representation language suited to th
 
 C.29 supplies the broader choice and use of a mathematical account. B.5.MPC connects a mathematical result with physical interpretation, computation and execution when the working question requires all of them. This pattern contributes the mathematical comparison inside that work and can also be used independently.
 
-A human or AI contributor can construct the correspondence, derive an identity or search for a conflicting pair. The receiving practitioner still needs enough of the domain, operation and conclusion to use the result or request the missing argument. B.5:4.5 and B.5.MPC:4.8 explain how to divide such contributions without losing the shared question.
+A contributor can construct the correspondence, derive an identity or search for a conflicting pair. The receiving practitioner still needs enough understanding of the domain, operation and conclusion to use the result or request the missing argument. B.5:4.5 and B.5.MPC:4.8 explain how to divide such contributions without losing the shared question.
 
 ### C.29.1:11 - SoTA-Echoing
 
@@ -83126,7 +83162,7 @@ The architecture result explains what would need to hold and why the arrangement
 
 Begin with the useful result and its receiver. Explain which Methods and local actions must contribute, what each receives and returns, the important exception path, permitted variations, ordinary support, protected continuing work, and the decision and authority for the attempt. Include the decisive rejected alternative, accepted trade-off and condition for reconsideration. Keep current evidence beside unestablished relations so the receiving practitioner can reuse what is sufficient.
 
-Participants must be able to understand and challenge the proposal before their contribution is assumed. A provider can reveal an unavailable window; a recipient can expose an unusable intermediate result; a practitioner can show that a suggested action changes the Method's criterion. Return the challenge to the affected comparison. Explanation, discussion, negotiation, facilitation and leadership use their own sufficient Methods where needed. C.32.MWA.PP supplies the arrangement and unresolved question; it does not make all those practices architecture steps. Voluntary participation needs agreement. An employer's allocation authority has a scope and does not create missing competence or make a subject claim true.
+Before assuming a contribution, establish that it can be provided under the proposed conditions. Give those who must assess or agree to the arrangement enough information to understand and challenge the relevant proposal. A provider can reveal an unavailable window; a recipient can expose an unusable intermediate result; a practitioner can show that a suggested action changes the Method's criterion. Return the challenge to the affected comparison. Explanation, discussion, negotiation, facilitation and leadership use their own sufficient Methods where needed. C.32.MWA.PP supplies the arrangement and unresolved question; it does not make all those practices architecture steps. Voluntary participation needs agreement. An employer's allocation authority has a scope and does not create missing competence or make a subject claim true.
 
 Select the receiving Method from the result still missing.
 
@@ -83870,7 +83906,7 @@ Architecture synthesis produces candidates; the Systems performing project Work 
 
 The problem is difficult because architecture decisions sit between structures and Methods. C.30 keeps an obtaining `ArchitectureRelation` with its holon and selected `U.Structure` separate from an `ArchitectureClaim` carrying candidate, required, desired, or expected content. A project architecture decision can tell intended developer Systems which Method description, architectural style, pattern use, or work boundary to follow so that later work aims to produce or preserve the intended structures. For example, "use the client-server style here" is a Method-use instruction whose intended result is a module and interaction structure of the described System. The decision relation must keep actual or modal structure content, intended Systems, local kinds, separate System-classification judgments, assignment requirements and current assignment occurrences, plans and commitments, permissions and authority, and actual Work as separate branches. Route unresolved role wording through `E.10.ROLE`. When C.32.CONWAY supplies an influence-source architecture or selected structure, that source remains non-agentive and does not become the performer.
 
-The problem is also multilevel. The architecture decision may fix selected structures at one holon level while leaving lower-level refinement open. It must therefore say which structure is fixed, which refinement remains open, which source detail must remain recoverable, and which result can reopen the decision. If that boundary is missing, the decision becomes either empty advice or uncontrolled micro-management.
+The architecture decision can fix selected structures while leaving other design choices open, either for the same holon or for its constituents. In this pattern, “refinement left open” names those unresolved design choices. State the fixed structures, the open choices, the source detail that must remain recoverable and the result that can reopen the decision. A constituent is located by the composition relation; any additional claim of model refinement requires B.5.MR's comparison. If these boundaries are missing, the decision becomes either empty advice or uncontrolled micro-management.
 
 Finally, architecture decisions are evolutionary. They are made under current candidate knowledge, current characteristic criteria, current eval readings, and current organization or tool constraints. They should be explicit enough for present work and cheap enough to supersede when a better candidate, changed characteristic pressure, or architecture-influence/transformed-side fit changes.
 
@@ -87535,15 +87571,16 @@ For a move from one claim or subject to another, name the relation on which the 
 | Work enacts a Method | The reusable Method and the performer, occurrence and conditions; A.3.1 and A.15.1 govern these different subjects. |
 | A description or model represents a subject | The original subject, representation objects and relations, claims, correspondence and the returned inference. C.2.1 and, for mathematical model use, C.29/C.29.1 preserve these distinctions. |
 | A construction supports a more general operation | The retained premises, variable inputs, operation and grounds for the wider application; C.39.RO develops the generalization. |
-| An abstraction serves a selected question | The retained distinctions and relations, the omitted detail, and the questions the selected representation can answer. |
+| A model abstraction serves a selected question | The inquiry, interpreted assertions and admitted answers of both models; B.5.MR tests the comparison and which conclusions remain available. |
+| A representation shows less detail | The content recoverable from the representation and its established conventions. Less displayed detail can retain the same model assertions. |
 
 A relation identifies how its participants are connected. A returned claim also needs an applicable inference rule. Separately, the resulting work must be compared with the original account question; C.39.QR:4.2–4.4 develops these two judgements.
 
 These relations can coexist. A reusable calculation can be a constituent of one Method and supply a result to another. A discipline can contain other disciplines and use results from fields that are not its constituents. A representation can preserve some structure, omit some and introduce useful constructed objects. Explain the relevant correspondence before returning a conclusion to the represented subject.
 
-**Identify a claimed refinement.** When an account of a system, method or field treats one model as more specific than another, keep the inquiry fixed. Show what the later model preserves, a possibility it still allows and what it rules out. B.5.MR gives the comparison for individual models and for models of their governing conventions. B.1 supplies the different grounds needed when the claim moves from a constituent to an encompassing whole.
+**Identify a claimed refinement.** When an account of a system, method or field treats one model as more concrete than another, keep the inquiry fixed. Show what the later model preserves, a possibility it still allows and what it rules out. B.5.MR gives the comparison for individual models and for models of their governing conventions. B.1 supplies the different grounds needed when the claim moves from a constituent to an encompassing whole.
 
-**Give a modeling level a point of reference.** Name what the claim concerns, the cases it covers and the use of the answer. “The laboratory's rule for releasing an instrument” identifies a starting point. If you need to reason from a particular record to the rule it cites, identify that record, the rule and the citation. A release record can direct you to the local rule under which a decision was made. Check the applicable edition and the issuing authority. To examine that rule in turn, compare it with the discipline's conditions for a valid verdict. To establish what actually happened, return to the identified instrument, configuration and observations. Carry forward only the conclusions for which that return supplies grounds.
+**Identify the subject and relation before moving.** Name what the claim concerns, the cases it covers and the use of the answer. “The laboratory's rule for releasing an instrument” identifies a starting point. If you need to reason from a particular record to the rule it cites, identify that record, the rule and the citation. A release record can direct you to the local rule under which a decision was made. Check the applicable edition and the issuing authority. To examine that rule in turn, compare it with the discipline's conditions for a valid verdict. To establish what actually happened, return to the identified instrument, configuration and observations. Carry forward only the conclusions for which that return supplies grounds.
 
 A transdisciplinary distinction can guide reasoning within one discipline. Interdisciplinary work brings contributions from different disciplines into a common result. Ask which distinction guides the choice of types, or which contributions must be connected. Both questions can matter in one undertaking.
 
@@ -89469,7 +89506,7 @@ When the representations are incompatible, fit each policy's behavior into a sha
 
 Seed the search with the usable translations and preserve the originals for comparison and possible return. Recombination can retain different specialists in different contexts or combine useful action parts within one context. Mutation can explore beyond the submitted behavior. A mixture that only chooses whole expert outputs cannot express every such combination; it can still be the cheaper adequate alternative. If direct translation already returns a sufficient policy, stop there. Track derivation when the receiver needs to inspect origins, but re-evaluate the child: its ancestry does not establish its behavior, safety or the causal value contributed by an expert.
 
-**Return to use, then revise what changed.** Return an applicable policy or a qualified set, the observations it needs, its action realization, supported outcome profile, material model assumptions and fallback. A human decision maker may choose a trade-off or change an action because of a fact absent from the model. Recheck the changed action's feasibility and modeled consequences where useful. Preserve the reason for the change so that the next learning pass does not mistake it for the original recommendation.
+**Return to use, then revise what changed.** Return an applicable policy or a qualified set, the observations it needs, its action realization, supported outcome profile, material model assumptions and fallback. The decision maker may choose a trade-off or change an action because of a fact absent from the model. Recheck the changed action's feasibility and modeled consequences where useful. Preserve the reason for the change so that the next learning pass does not mistake it for the original recommendation.
 
 Choose an actual trial or deployment only within its permitted conditions. Observe what was done and what followed; compare that result with the prior prediction and incumbent under the claim being tested. A failed source-model approximation returns to the operation that constructed the substitute and its comparison with the source; a failed account of the phenomenon returns to the model construction and its subject evidence. A changed objective returns to the receiving choice, not automatically to retraining. If a model is revised, re-evaluate retained contenders on a common relevant basis before comparing their scores across versions. Continued policy evolution can reuse material; it cannot make the old and new scores commensurate by itself.
 
@@ -90935,7 +90972,7 @@ C.40.OI/OC/NU/PC/DC/JF/OP/RQ supply the developed opportunity operations. C.40.C
 
 What inquiry is worth conducting when someone says “we should develop,” names a fashionable solution, or asks what to develop next before the receiving change is clear?
 
-Use this pattern when a person, organization, community, AI arrangement, platform, facility, research programme, or another identified subject has a development concern or aspiration but the receiving use, horizon, protected conditions, reason to explore, or affordable inquiry effort is loose. The first useful result is a bounded inquiry that another person can inspect, or one missing premise that prevents such an inquiry.
+Use this pattern when a person, organization, community, AI arrangement, platform, facility, research programme, or another identified subject has a development concern or aspiration but the receiving use, horizon, protected conditions, reason to explore, or affordable inquiry effort is loose. The first useful result is a bounded inquiry that another agent can inspect, or one missing premise that prevents such an inquiry.
 
 Begin here without appointing an adviser. A person can bound a self-inquiry and continue into opportunity construction. When a distinct performer is already being asked to advise a named recipient, this pattern can recover the subject, use, and horizon, but the applicable professional engagement Method governs whether the advising relationship itself is admissible.
 
@@ -92092,7 +92129,7 @@ A conforming direction/support account:
 
 ### C.40.DC:9 - Consequences
 
-Practitioners obtain directions that another person can inspect, challenge, and qualify. A capability-development route can coexist with a support repair or external contribution. The next inquiry becomes precise: which access, feedback, transition, resource, or protection premise changes this candidate?
+Practitioners obtain directions that another agent can inspect, challenge, and qualify. A capability-development route can coexist with a support repair or external contribution. The next inquiry becomes precise: which access, feedback, transition, resource, or protection premise changes this candidate?
 
 The cost is recovering the baseline and enough support detail to expose interactions. Some attractive labels become conditional fragments, and the comparison may remain indeterminate. A commitment may have to wait while the responsible practice supplies the necessary result.
 
@@ -92196,7 +92233,7 @@ Put jointly necessary conditions on one compatible basis. Recover the time inter
 
 Ask which conditions compete, complement, substitute for, or interfere with one another. Inspect common causes and shared suppliers, thresholds, congestion, delays, continuing obligations, and evidence dependencies where they can change the result. Two claims derived from the same unqualified assumption do not independently support the combination.
 
-For a sequence, check whether the earlier transition can establish the next step's starting conditions within the declared horizon. A planned learning result remains a condition on the later step until the human-development evidence supports it. A later resource estimate must include continuing demands inherited from earlier steps. For alternatives, preserve their separate bases: a conflict between them may rule out simultaneous realization without ruling out either alone.
+For a sequence, check whether the earlier transition can establish the next step's starting conditions within the declared horizon. A planned learning result remains a condition on the later step until learning evidence for the intended holder supports it. A later resource estimate must include continuing demands inherited from earlier steps. For alternatives, preserve their separate bases: a conflict between them may rule out simultaneous realization without ruling out either alone.
 
 Use the domain analysis when the joint question needs scheduling, engineering, safety, organizational allocation, finance, or another specialized result. An ordinary arithmetic conflict can be stated when the underlying quantities and limits are qualified. Do not infer independence, additivity, or a probability of completion from the shape of a dependency diagram.
 
@@ -93183,7 +93220,7 @@ Use the work and its appropriate examination to recover three distinct results w
 
 The first goes back into ordinary operation. The second changes the starting position for subsequent development. The third can change the Method, help, organization or the earlier direction. A useful result that still depends on a specialist remains useful. It does not establish independent capability, nor does that limit invalidate the delivered service.
 
-The join requires more than writing a proposed capability between “training” and “performance”. The learning work exercises the named operation; the receiving work requires that operation under the promised assistance; and the resulting evidence supports only the capability of the holder and arrangement. C.40.CU, E.23.CDI and the subject evaluation Methods provide the corresponding construction and qualification.
+Use the development or provision Method selected for the holder to make the named operation available. Check the receiving performance under the promised assistance and state what capability the evidence supports for the holder and arrangement. C.40.CU, E.23.CDI and the subject evaluation Methods provide the corresponding construction and qualification.
 
 #### C.40.JD:4.4 - Change a connection and derive the changed arrangement
 
@@ -98178,7 +98215,9 @@ For a durable ecosystem-architecture answer, use the following operations as the
 13. Before using a carrier or transformed or generated view as evidence, state the exact source-return or preservation assertion under the predicate defined in `C.33`, `C.34`, or `C.35`.
 14. Evaluate whole-FPF adequacy through `E.2.DA`, DPF or local-framework package adequacy through `E.4.DPF.DA`, individual pattern quality through `E.21`, improve through `E.23`, and use `E.19` for a selected admission, refresh, or return-for-repair question.
 
-When placing a foundational contribution, identify what would settle a disagreement about it. Give a Core rule the premises its users need. If several Core definitions depend on one commitment and their separate passages cannot reliably keep it consistent, state it once in Core and refer to it from those definitions. Put a method of deriving those premises or testing their physical interpretation with the discipline that can correct it. A separate edition earns its place when independent consumers must adopt the same commitments and check compatibility as they change. A reading order can be supplied in the Reference. Use B.5.MR if the claim concerns one model refining another.
+When placing a foundational contribution, identify what would settle a disagreement about it. Give a Core rule the premises its users need. If several Core definitions depend on one commitment and their separate passages cannot reliably keep it consistent, state it once in Core and refer to it from those definitions. Put a method of deriving those premises or testing their physical interpretation with the discipline that can correct it. A separate edition earns its place when independent consumers must adopt the same commitments and check compatibility as they change. A reading order can be supplied in the Reference. Use B.5.MR when the claim concerns refinement or abstraction between models.
+
+Models supplied by Core, DPFs and LPFs can form a chain of levels of model abstraction when their assertions and interpretations establish the B.5.MR comparison for the receiving inquiry. A formal construction, transdisciplinary principle, disciplinary model and local model may participate in that chain. Their containing publications are not themselves successive model completions, and a Suite's location does not set the abstraction level of every assertion it carries. A method for testing a physical interpretation remains with the discipline that can correct it even when its result supplies a premise used in Core.
 
 Use this routing table when a proposed change is ambiguous. Its rows are common routes, not a closed taxonomy:
 
@@ -105355,7 +105394,7 @@ Retain *practice/practise* in professional expressions and in ordinary accounts 
 
 Try the word *method* in place of the professional name. What reusable way would the reader identify? What else would they lose? *Way of working* can name the method directly. *Practice* may also say that people in a particular field or workplace regularly use it. *Technology* can draw attention to the tools on which it depends. *Style* can identify how an individual or community performs it. State the extra claim when the reader needs it. Evidence that a team selected a development method leaves its capability, resource assignments and actual performance to be established separately.
 
-Some engineering communities call a larger method a *method*, one of its constituents a *practice*, and a characteristic manner of execution a *style*. These names alone establish neither a part–whole relation nor a level of model refinement. For a constituent, show what it contributes to the encompassing method under B.1.5. For a narrower choice of method, identify what it retains and what it changes under A.3.1:4.8. Keep the professional expression when it already permits the intended decision.
+Some engineering communities call a larger method a *method*, one of its constituents a *practice*, and a characteristic manner of execution a *style*. These names alone establish neither a part–whole relation nor a level of model abstraction. For a constituent, show what it contributes to the encompassing method under B.1.5. For a narrower choice of method, identify what it retains and what it changes under A.3.1:4.8. Keep the professional expression when it already permits the intended decision.
 
 Apply this preference when authoring or repairing the explanation, with F.19's whole-span reading. Ordinary synonyms do not each require a registered Plain Twin. E.10.ARCH supplies a deeper route only when the kind or relation remains unresolved.
 
@@ -120277,12 +120316,12 @@ When admission or refresh includes precise-language repair, apply `CC-E19-7a`. I
 
 For a broad cleanup across several patterns, or any cleanup that touches FPF-governed Problem frames, Problem sections, first-use recognition text, archetypal grounding, examples, or worked slices, check whether the didactic function was harmed. In inspect-repair-verify, restore the working situation, first useful move, and the definition, constraint, test, or other pattern contribution needed by the claim; in independent findings, record the exact harm and repair direction. A positive `improved` or `preserved` account is required only when another evaluation makes that value one of its substantive results, and it belongs in that evaluation.
 
-**PCP‑MOD (Modularity and abstraction-boundary discipline)** — Trigger: the reviewed pattern or subset shows scope creep or mixes levels of abstraction (for example, a pattern bundles universal core rules with frame-specific content and discipline-specific method semantics, or it mixes EntityOfConcern, Description, and Specification positions in one object).
+**PCP‑MOD (Modularity and abstraction-boundary discipline)** — Trigger: the reviewed pattern or subset shows scope creep, mixes rules with different ranges of applicability, or conflates kinds or relations (for example, a pattern bundles universal core rules with frame-specific content and discipline-specific method semantics, or it mixes EntityOfConcern, Description, and Specification positions in one object).
 
 Checks include:
 
 * an explicit **core vs extensions** cut (universal invariants are factored into one stable “core”, and extensions reference it rather than re-stating or mutating it),
-* no conflation of **specialization vs dependency**: use `⊑/⊑⁺` for refinement/extension and `Uses` for pipelines; do not mix their semantics,
+* no conflation of **specialization, model refinement and dependency**: apply the defining specialization rule when a kind or declaration specializes another; use B.5.MR for a claim of model refinement or abstraction, and `Uses` for the declared use dependency. State which relation the comparison requires,
 * no conflation of package-form, concrete pattern-to-claim contribution, and package-relation functions: **Pack vs Kit vs Suite vs Family vs Bundle vs Cluster vs Profile vs Overlay vs Record vs Umbrella** are not interchanged, and the review states carrier status, the definition, constraint, test, or other pattern contribution used, and the package relation, preserving those distinctions across stylistic changes,
 * description-lane descriptions and their publications do not grow mechanism semantics; for an MVPK face or projected publication form, no-new-claim checks that it introduces no claim beyond the selected episteme and no-shadow-default checks that it introduces no undeclared default. Keep the selected episteme, optional projection/construction, face, publication form, publication occurrence, rendering, and carrier distinct. The selected episteme has `U.View` membership only when exact E.17.0 conformance independently obtains; face status, projection, profile selection, and compliance with these two checks establish no membership or truth,
 * slot-discipline hygiene for any ordered specialization set: SlotKind invariance is preserved and inherited operations do not gain new mandatory inputs (A.6.5 / A.6.1 specialization discipline).
@@ -123147,7 +123186,7 @@ The holder can discover an operation through its own inquiry and practice, recov
 
 **Connect help to later work.** State what the next attempt receives and must produce, which help remains, and how its output reaches the receiving work. Keep legitimate tools or a useful division of work when independence is not part of the target. If removing help would disrupt a live service, use a protected rehearsal or retain qualified provision while developing the missing contribution.
 
-If a teacher's exercise conflicts with a manager's production demand, settle time, workload and acceptance with the person who can change that arrangement; more instruction alone will not obtain those conditions.
+If a teacher's exercise conflicts with a manager's production demand, settle time, workload and acceptance with the role holders who can authorize the needed changes; more instruction alone will not obtain those conditions.
 
 **Use feedback for the claim it can support.** An adaptive arrangement can use a progress signal to choose another exercise or data batch. The resulting capability claim needs evidence of the selected Method relation in receiving work. When the signal improves but that work fails, retain the narrower claim, inspect whether the examples and feedback distinguish the missing relation, and revise that basis or the intervention.
 
@@ -133338,6 +133377,63 @@ SenseCell.ArchitecturalReference.FPFCore.2026-10-12:
 
 For example, *FPF Library Architectural Reference* and *Engineering Suite Architectural Reference* identify different explained wholes. An embedded *Method Engineering Principle Framework Architectural Reference* performs the same function for that framework. Whether the account is independently managed depends on its use and change boundary. Its title alone does not decide this. The row makes the designation recoverable, while E.24.PUB separately governs any publication of this row or a particular architectural reference.
 
+#### F.17:12.6 - Model-comparison direction and level rows
+
+These rows make the three F.18:4.5 naming decisions available for citation from model explanations, project documents and teaching. B.5.MR governs the comparison; each row names one of its two relation kinds or its relative-position kind. The rows let a reader recover which of these values a reused expression names without requiring a new vocabulary for each application.
+
+The common by-value ReferenceScheme reads a model for a stated inquiry and established interpretation. Its completions satisfy its assertions and settle answers for that inquiry, including relevant probability claims. C refines A when C has a completion and every completion of C satisfies A under that interpretation; A is then an abstraction of C. Strictness requires an A-answer excluded by C. Equivalent answers share a position; incomparable models are unordered. Use the B.5.MR and F.18 records in the same selected publication edition.
+
+For each row below, `UnificationThreadId` is `ModelComparisonDirections`, `GovernedValueKindRef` is `U.Kind`, `ReferenceScheme` is that common value and `RowEditionId` is `2026-11-16`. The listed claims constitute each row's complete ClaimContent. The cells use the same scheme and the exact expression and sense given below. This shared presentation creates three rows, not one combined governed value.
+
+```text
+UTSRowId: UTS.ModelRefinement.2026-11-16
+GovernedValueRef: B.5.MR:4.2 refinement relation kind
+SubjectPatternLocator: B.5.MR:4.1–4.2
+UnifiedTechName: model refinement
+NameCardRef: NC-MODEL-REFINEMENT
+SenseCellRefs: SenseCell.ModelRefinement.2026-11-16
+RowRationale: retain the specification-theory designation while making feasibility, interpretation and the converse recoverable
+AdmissibleUse: cite C's feasible preservation of A for the named inquiry, including equality; use more concrete only with strictness
+BlockedUse: the name alone establishes neither higher empirical accuracy nor a strict difference
+CurrentnessCondition: reopen on changed predicate, interpretation, NameCard, cell or repeated confusion between refinement and accuracy
+
+SenseCell.ModelRefinement.2026-11-16:
+  LocalExpression: model refinement
+  LocalSenseClaim: C refines A for inquiry Q under interpretation I exactly when at least one completion of C exists and every completion of C satisfies A under I; strictness additionally excludes an answer of A distinguishable for Q
+
+UTSRowId: UTS.ModelAbstraction.2026-11-16
+GovernedValueRef: B.5.MR:4.2 abstraction relation kind
+SubjectPatternLocator: B.5.MR:4.2; B.5.MR:4.2.2
+UnifiedTechName: model abstraction
+NameCardRef: NC-MODEL-ABSTRACTION
+SenseCellRefs: SenseCell.ModelAbstraction.2026-11-16
+RowRationale: give the converse comparison a durable name while keeping model construction separate
+AdmissibleUse: cite A as an abstraction of C under the same inquiry and interpretation by establishing that C refines A
+BlockedUse: the name supplies no unique inverse construction and does not validate a wider empirical claim
+CurrentnessCondition: reopen on changed predicate, interpretation, NameCard, cell or confusion between the relation and omitted visible detail
+
+SenseCell.ModelAbstraction.2026-11-16:
+  LocalExpression: model abstraction
+  LocalSenseClaim: A is an abstraction of C for inquiry Q under interpretation I exactly when C refines A for Q under I; a more abstract position requires strictness
+
+UTSRowId: UTS.ModelAbstractionLevel.2026-11-16
+GovernedValueRef: B.5.MR:4.3 relative comparison-position kind
+SubjectPatternLocator: B.5.MR:4.2–4.3
+UnifiedTechName: level of model abstraction
+NameCardRef: NC-MODEL-ABSTRACTION-LEVEL
+SenseCellRefs: SenseCell.ModelAbstractionLevel.2026-11-16
+RowRationale: name a relative position under the model comparison independently of a document's language, discipline or physical scale
+AdmissibleUse: locate comparable models under a stated inquiry and interpretation; use L application positions and intermediate positions where this comparison is established
+BlockedUse: a numbered label alone supplies no strict ordering or intrinsic rank of a language, discipline, publication or entity
+CurrentnessCondition: reopen on changed comparison, NameCard, cell or repeated use as a global rank
+
+SenseCell.ModelAbstractionLevel.2026-11-16:
+  LocalExpression: level of model abstraction
+  LocalSenseClaim: a position under B.5.MR's stated model comparison, with equivalent answers sharing the position and strict comparative names applying only to ordered distinct positions
+```
+
+The rows cite no F.9 Bridge: they make no correspondence claim between different local meanings. A concrete comparison still needs its models, inquiry, interpretation and B.5.MR test; citing a row supplies the selected name and its meaning.
+
 ### F.17:12.5 - Bias-Annotation
 
 F.17 blocks table-bias: a row does not make the named object real, global, reusable, equivalent, or authoritative. It also blocks label-bias: the public name is a designation for a governed value, relation, slot, or local concept, not a substitute for the rules that define or constrain it, the scheme-based local-sense coordinate, Bridge, admissible-use statement, or currentness condition.
@@ -133989,6 +134085,22 @@ If the reuse did occur, recover the claimed result under its own rule: actual Wo
 
 Until the Bridge, separate claim, and required reliance are current, keep the names local or record the unresolved alignment. A reference-scheme or model-use-structure difference alone supplies neither a premise nor governed-value identity.
 
+#### F.18:4.5 - Model refinement, abstraction and relative levels
+
+These three compact NameCards settle names used in B.5.MR and its Library, teaching and project uses. Their governed values are two relation kinds and one kind of relative comparison position, each a local `U.Kind`. B.5.MR supplies their predicates. Naming a relation kind does not identify a particular relation occurrence or the Work that constructs a model.
+
+For all three cards, the effective interpretation is as follows. A model is read for a stated inquiry under an established interpretation. A completion satisfies its assertions and settles an answer for that inquiry; the relevant probability claims are included. Refinement requires at least one completion of C and satisfaction of A by every completion of C under that interpretation. Abstraction reads the same relation in the converse direction. Strictness requires an A-answer excluded by C. Equivalent answers share a comparison position; incomparable models have no higher/lower order under this comparison. These rules give the by-value ReferenceScheme for the naming claims and associated cells. Select the cited B.5.MR and naming records in the same publication edition.
+
+| NameCard and governed value | Exact local sense and selected Tech designation | Candidate comparison and selection | Lineage and reopening |
+| --- | --- | --- | --- |
+| `NC-MODEL-REFINEMENT`; B.5.MR:4.2 refinement relation kind | **model refinement**: C refines A exactly when the feasible-preservation test above holds. Strictness adds exclusion. | Refinement retains the specification-theory comparison. Stronger model can suggest quality; specialization can mean type restriction; detailing can change expression alone. Concretization has a separately defined mathematical use in abstract interpretation and is not an unqualified English alias here. | Retains the established English designation and states its converse. Reopen when the predicate, inquiry interpretation or supported construction changes, or repeated use confuses preservation with accuracy. |
+| `NC-MODEL-ABSTRACTION`; B.5.MR:4.2 converse relation kind | **model abstraction**: A is an abstraction of C exactly when C refines A under the same comparison. | Abstraction names the converse without promising a unique inverse construction. Generalization can mean a wider empirical claim; weakening can suggest lower quality; lifting has source-dependent direction and may construct a fine-scale state. | Makes the converse of the existing comparison explicit. Reopen when the predicate changes or readers repeatedly recover omission of visible detail without comparing assertions. |
+| `NC-MODEL-ABSTRACTION-LEVEL`; B.5.MR:4.3 relative comparison-position kind | **level of model abstraction**: a position under the stated comparison, with equivalent answers sharing the position. **More abstract** and **more concrete** require strict order between comparable positions. | The selected name locates models under this relation. Level of precision suggests accuracy or detail; meta-level can designate model-rule conformance; language level can be read as a property of the language; holonic level uses a different relation. | Uses abstraction to name the relative positions in either direction. Reopen when the comparison changes or the name is used as an intrinsic rank of a discipline, publication, language or entity. |
+
+The selected phrases serve both technical and ordinary speech here; a separate Plain designation supplies no additional distinction. *Refining a model* and *abstracting a model* name constructing or selecting models that meet the relation, as B.5.MR:4.2.1–4.2.2 explains. Those action phrases are not alternative names for the relation kind.
+
+F.17:12.6 gives the three separately citable rows and exact cells. Their durable reuse is needed because the two directions and the relative positions recur in framework explanations and project teaching. No correspondence with another source's local sense is asserted by these naming records; source-specific concretization, idealization and lifting retain their own meanings.
+
 ### F.18:5 - System-Role-Kind, Assignment, Slot, and Status Naming Settlement
 
 
@@ -134490,7 +134602,7 @@ Use `OntologyFirstPlainRewrite` as one connected reading and repair over a natur
 #### F.19:4.3 - One connected reading and repair
 
 
-1. **State the governing message.** Say what object, claim, action, event, or distinction the span needs to convey. Mark process traces, status language, reference boilerplate, quality proof, defensive caveats, ornamental detail, and other apparatus that may be displacing it. Truth or polish alone does not make the apparatus useful.
+1. **Establish the reader's use and state the governing message.** From the passage, the request it answers and the material normally available to the reader, establish what this reader needs to recognize, understand, decide or do. A stated question or task, heading or surrounding explanation can supply the grounds. Keep a passage's local function distinct from the larger explanation the recipient requested. If different supported uses need different content, retain that uncertainty and obtain the missing purpose before judging sufficiency; continue semantic repairs that do not depend on it. A clear claim can have an unclear use. Then say what object, claim, action, event or distinction the span needs to convey. Mark process traces, status language, reference boilerplate, quality proof, defensive caveats, ornamental detail and other apparatus that may be displacing it. Truth or polish alone does not make the apparatus useful.
 2. **Recover the predicate and its participants.** Identify the operation and every participant that changes it. This may be an actor, object, source, target, result, or another required operand. Apply the same question to verbal and relational nouns: recover *of what*, *for what*, *between what*, or another required participant. Leave an argument implicit only when one intended value is cheaply and uniquely recoverable from the local span.
 3. **Check predicate compatibility.** Recover what the complete claim asserts under its negation, modality, or conditions, and test the subject and participants under the intended literal or metonymic reading. A positive assertion must assign its predicate to a compatible kind. A denial may correct an evidenced type mistake under the plausible-reader test below; without that ground, “evidence does not notice the error” introduces an idle alternative.
 
@@ -134523,6 +134635,10 @@ Follow the method as well as the object. If the text promises to teach a way to 
 Write for the decision in front of the recipient. A furniture designer can write “Use drawing T, revision 4, for the seat joint.” The workshop order can read “Repair the loose joint on stool 17.” For an order to inspect the May lot, give the lot reference. If inspecting any available stool is sufficient, say so. One agent may need any of these forms. In “giraffes have long necks” the plural can express a characteristic of the kind. In “three giraffes came to the waterhole” it reports observed individuals. Singular wording can also speak of a kind or of one individual. Quantity, criterion and referent come from the statement in use. An explicit “all”, a particular set of items, or an exception belongs in the text when it changes what the reader may conclude or must do.
 
 Reread the whole passage after the edit. Which object would two competent users pick, what claim could each support, and what operation would each perform? Can they still say why moving from the case to the wider rule, or applying that rule here, is warranted? If both readings already lead to the intended action for the same reason, the familiar wording is enough. Use C.3 to test a candidate against the kind criterion. Use A.2.6 to check whether a claim covers the conditions of use, and A.3.1 to identify a repeatable method. When a change of subject affects the conclusion or action, use C.39.WA:4.3 to find the relation and the grounds the subject practice supplies. When rewriting a model or specification, compare what the earlier and revised words allow under the same conditions. An example allowed by both can conceal a lost alternative or a newly permitted one. Use B.5.MR if the difference changes a decision.
+
+First establish whether the passage lets the reader recover what each model asserts. Giving an ambiguous term its supported meaning may reveal the same assertions; it does not by itself make the model more concrete. Use B.5.MR when a claim about refinement or abstraction needs to compare the answers admitted by models whose assertions and interpretation can be recovered. The delivered wording is enough to begin this recovery; its production history need not be known.
+
+If a needed assertion or relation still cannot be recovered from the passage and its available definitions, identify that gap and the inference or action it prevents. If the assertion can be read but a premise, derivation or way of carrying out the instruction is missing, identify that explanatory gap. Return it to the appropriate subject or explanation Method. For the whole explanatory attempt, EXD.Reference:3 follows the conclusion to its premises and operations and then forward to the answer. Bring back the supported assertion or operation, its grounds and any unresolved condition; express it in the passage and repeat local recovery. A clearer sentence alone does not establish the missing premise.
 
 ##### F.19:4.3.2 - Restore a technical head when the meaning is still ambiguous
 
