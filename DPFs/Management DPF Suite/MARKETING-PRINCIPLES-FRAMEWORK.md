@@ -2210,17 +2210,24 @@ Use sufficient information. When a missing fact can be obtained by a known suita
 
 For the episode or continuing activity, identify who does the work, chooses the solution, pays, permits access and bears the effects. Establish each role and the source that can answer your question about it. A purchasing unit can choose a supplier. The company can pay, and an ordering service can place the order under a delegated rule. The order log can show which rule ran. An employee who found the process frustrating can describe that experience.
 
-Choose the inquiry from the unresolved distinction:
+A customer can feel a bond with other users of a brand without meeting them. A profession or another group can also matter to the customer independently of the brand. A customer who associates the brand with that group may use it to express a sense of belonging. To investigate what the brand means to someone, ask which group they have in mind, when the connection mattered and what the brand expressed on that occasion. To study attachment, ask how the brand relates to their sense of self and how readily thoughts and feelings about it come to mind. [Carlson, Suter and Brown](https://www.sciencedirect.com/science/article/pii/S0148296307001774) · [Escalas and Bettman](https://people.duke.edu/~jrb12/bio/Jim/escalasbettman.pdf) · [Park and colleagues](https://journals.sagepub.com/doi/10.1509/jmkg.74.6.1)
+
+Choose the inquiry that can answer the recipient's question.
 
 | Question the recipient needs answered | Material and inquiry | Permitted first result |
 | --- | --- | --- |
 | Which results of an understood activity are poorly served? | Observe the work or inspect its records and establish the intended results. Where participants can explain a difficulty, ask about their experience. Compare the importance of each intended result and how well it is achieved where comparable measurement is possible. | Candidate improvements and differences between customers; use §4.3. |
+| What does a product or brand mean to a customer in relation to a group? | Ask the person to describe the group and an occasion when the product mattered in that relationship. | An account of the meaning the person attributes to the product. |
 | Why did the customer switch, decline or keep the existing alternative? | Reconstruct an actual choice episode, including circumstances, considered alternatives and the difficulty of transition. | An explanatory hypothesis about that choice and a question for contrast; use §4.4. |
 | What happens at a contact, during continued use or around a new possibility? | Select observation, conversation and measures over the appropriate interval, with a named recipient. | A bounded account of experience or a new possibility; use §4.5. |
 | How widespread is an established difference? | Define the population and a suitable sampling and measurement design. | A population claim with its uncertainty, if the design warrants it. |
 | Did our intervention produce the change? | Distinguish the intervention, outcome, comparison and competing explanations; obtain the causal design needed for that claim. | A bounded causal conclusion, or a descriptive result when attribution remains unsupported. |
 
-These routes can inform each other. A choice history can expose the wrong activity boundary; an outcome comparison can reveal a difference worth exploring in a new conversation. The result of one route becomes a question or input for the other, not automatic evidence for its conclusion.
+Use an account of brand meaning to identify what to investigate in a purchase. For a claim about why a particular purchase occurred, reconstruct who made the choice, which alternatives were available and what mattered under the conditions of that order (§4.4). To decide whether organizing a user group would strengthen attachment, compare what happens with a credible estimate of what would happen without that intervention (MKT.10). A one-time survey can find stronger attachment among active members even when people who already feel attached are more likely to participate. [Yu and Lin](https://journals.sagepub.com/doi/10.1177/21582440261425574)
+
+A technician calls a tool brand “ours” and explains that the workshop used it when training apprentices. For the current order the technician bought another brand. Of the two available, only that supplier offered the required warranty. Comparing the offers helps explain the purchase of the second.
+
+An investigation of a purchase may reveal that the customer was trying to accomplish a different activity. A comparison of outcomes can identify an experience worth exploring in a conversation. Follow the new question with evidence suited to the conclusion the recipient needs.
 
 #### MKT.12:4.3 - Investigate results of performing the work
 
