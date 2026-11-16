@@ -233,6 +233,8 @@ RMP.1 can finish when a source answers the question. RMP.2 can use that source w
 
 If a design comparison changes the question, intended use or useful stopping point, revisit RMP.1. If it changes an instrument, access condition or another selection premise, revisit the affected RMP.2 comparison. An infeasible preferred design can leave the question sound. A supplied answer or an identified hold can finish the current request.
 
+An inquiry can produce several continuations with different answer conditions. Formulate the claim each branch would examine, identify the shared evidence, and state what possible finding would change a subsequent conclusion or action. Another analysis of shared material can expose dependence on an assumption. An independent source or a new intervention may be needed to decide between explanations. [Returning a result to a changed research question (RMP.8:4.5)](#rmp845---finish-the-answer-and-select-further-inquiry-only-when-warranted) gives the method. [The two-branch calibration inquiry](#rmp857---a-calibration-result-changes-what-to-investigate-next) follows the evidence and the work that inherits it.
+
 ## RMP.Reference:8 - Connect operationalization and actual trace
 
 With a selected design, use [RMP.3](#rmp3---operationalize-the-research-design-without-replacing-the-question) to follow an observation or source choice that matters to the answer. Specify its units, selection, comparison, timing, method and intended use. A qualified domain protocol may already specify much of this. Explain how these choices preserve the question and what change would undermine the comparison.
@@ -2662,6 +2664,12 @@ When a research design still needs choosing, RMP.2 helps compare designs. For a 
 
 Repeated failures in selecting or performing research Methods can identify a question for RMP.9 or FPF Method development. State what needs improvement and which practice could address it, if known. The present research result can be returned while that work remains open.
 
+**Continue an inquiry from a result that changes the question.** Formulate each live hypothesis as a claim about its object and conditions. Derive an observation, argument or construction on which the plausible accounts differ. State what each possible result would justify retaining, revising or testing next. A judgement that a branch is promising can justify the cost of such a test. Support for the claim comes from what the examination can establish. If no feasible examination can distinguish the alternatives, report the unresolved distinction and the missing means.
+
+Carry shared material forward at its warranted scope. Preserve the source, conditions and reasoning that a new branch uses. Mark which conclusions depend on the same measurements, calibration or assumptions. Several analysts can expose sensitivity to analytic choices on one data set. An error in their common source can still affect all of them. In [Silberzahn et al.'s many-analyst study](https://doi.org/10.1177/2515245917747646), teams working on a shared question and data obtained a range of estimates. Reanalysis is a suitable way to examine that dependence. A claim about reproducibility with independently obtained observations calls for a different design.
+
+When the question changes, keep the supported answer to the old one. Carry forward only the premises that serve the new inference. RMP.1 and RMP.2 determine whether the new question needs a study and whether a feasible design could answer it. If the branches compete for a scarce facility or specialist, the research contribution identifies which tests share inputs and what each test could establish. STR.16 supports the separate decision about commitments.
+
 ### RMP.8:5 - Archetypal Grounding
 
 The research results and communications in these cases are stipulated for illustration.
@@ -2725,6 +2733,14 @@ Now suppose the instrument displays 13.2 °C for a newly obtained reference of 1
 The same correction Method accepts a different qualified input and can return a different value. Recomputing 10 °C from the earlier display of 13 °C repeats the reported calculation. Applying the rule to 13.2 °C returns 10.1818… °C. Copying 10 °C would give the wrong corrected value. In either case, establish that the calibration and affine approximation apply.
 
 An English or Russian account may publish the pattern separately or as part of a framework. Its calculation and the conditions for using it can be preserved in either form. Removing the 0–20 °C condition changes the warranted scope. A proposed use at 40 °C needs a basis for extrapolation. Agreement at 10 °C cannot establish that. If a later investigation defeats the affine premise, retain the arithmetic and correct the calibration claim in affected articles, pattern accounts and uses that relied on it.
+
+#### RMP.8:5.7 - A calibration result changes what to investigate next
+
+In a constructed inquiry, an optical sensor begins to overread during a long run. The original question is whether the error is associated with elapsed time. The existing record shows that it is. Temperature also rose during the run. A temperature-dependent offset and drift with elapsed time both fit the record. Each branch inherits the original reference readings and the definition of error. Neither can count the same readings a second time as independent support.
+
+A controlled comparison can make the two accounts disagree. Specify the temperature contrast at a matched elapsed time, then test for a time contrast at matched temperature. The resulting design needs matched instruments or repeated runs with starting state restored, a common reference of adequate accuracy, and a check for effects of order and prior exposure. One chamber and one calibrated reference constrain the schedule. Sharing the reference saves preparation while carrying its uncertainty into both branches. If temperature cannot be varied independently of elapsed time, leave the mechanisms unresolved.
+
+Suppose the controlled readings support a temperature effect and establish a sufficiently tight upper bound on any practically relevant drift within the tested interval. The result supports a temperature correction there. It leaves performance after the operating range changes open. Preserve the paired observations, uncertainty, calibration and tested interval. A later branch can ask whether the correction transfers to another enclosure. It inherits the correction and its grounds. The new enclosure's temperature field and response relation still need examination. A provider's decision to fund that comparison commits resources. It supplies no additional observation of transfer.
 
 ### RMP.8:6 - Bias-Annotation
 

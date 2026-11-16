@@ -39,7 +39,7 @@ The **[operational mantra (OPS.23)](https://fpf.tools/OPS.23)** connects local w
 
 | Framework | What you can work on | Patterns | Text, M characters |
 | --- | --- | ---: | ---: |
-| [Strategy (STR)](https://fpf.tools/STR) · [Markdown](STRATEGY-PRINCIPLES-FRAMEWORK.md) | Find a worthwhile direction; compare options, capabilities, investments and business models; revise commitments when conditions change. | 18 | 0.548 |
+| [Strategy (STR)](https://fpf.tools/STR) · [Markdown](STRATEGY-PRINCIPLES-FRAMEWORK.md) | Find a worthwhile direction; compare options, capabilities, investments and business models; revise commitments when conditions change. | 18 | 0.549 |
 | [Goal Construction and Regulation (GOALS)](GOAL-CONSTRUCTION-AND-REGULATION-PRINCIPLES-FRAMEWORK.md) | Construct worthwhile goals and achievement evidence, coordinate their pursuit and revise the practice; complete OKR/CFR and human and AI applications. | 9 | 0.149 |
 | [Operations Management (OPS)](https://fpf.tools/OPS) · [Markdown](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) | Understand, construct and revise operating arrangements; manage work, provision, service and improvement under the undertaking's conditions. | 29 | 0.990 |
 | [Organization Administration (ADM)](https://fpf.tools/ADM) · [Markdown](ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md) | Make requests, permissions, obligations, provision, records and provider coordination effective without unnecessary burden. | 15 | 0.308 |
@@ -50,8 +50,8 @@ The **[operational mantra (OPS.23)](https://fpf.tools/OPS.23)** connects local w
 | [Customization and Productization Management (CUST)](https://fpf.tools/CUST) · [Markdown](CUSTOMIZATION-AND-PRODUCTIZATION-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) | Handle client differences while developing repeatable offerings, delivery and compatible transitions for existing clients. | 8 | 0.177 |
 | [Engineering Asset Management (EAM)](https://fpf.tools/EAM) · [Markdown](ENGINEERING-ASSET-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) | Compare use, renewal, replacement and other asset changes over time, including shared risk, cost and capacity. | 16 | 0.260 |
 | [Leadership (LDR)](https://fpf.tools/LDR) · [Markdown](LEADERSHIP-PRINCIPLES-FRAMEWORK.md) | Direct personal action; develop joint direction, participation and responsibility; obtain feasible contributions and first useful work. | 4 | 0.192 |
-| [Community Management (CB)](https://fpf.tools/CB) · [Markdown](COMMUNITY-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) | Develop useful participation, relationships, shared practices and contributions in organizations or voluntary communities. | 16 | 0.528 |
-| [Organization Change Engineering (OCE)](https://fpf.tools/OCE) · [Markdown](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Construct and qualify organizational changes to contributions, roles, authority, interfaces, capabilities and culture. | 17 | 0.762 |
+| [Community Management (CB)](https://fpf.tools/CB) · [Markdown](COMMUNITY-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) | Develop useful participation, relationships, shared practices and contributions in organizations or voluntary communities. | 16 | 0.529 |
+| [Organization Change Engineering (OCE)](https://fpf.tools/OCE) · [Markdown](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Construct and qualify organizational changes to contributions, roles, authority, interfaces, capabilities and culture. | 17 | 0.764 |
 | [Human Resource Management (HRM)](HUMAN-RESOURCE-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) | Construct and revise workforce conditions, assessment and selection, reward, voice, protection and continuing participation. | 5 | 0.138 |
 
 **Patterns** counts full pattern bodies. **Text, M characters** measures each complete Markdown framework, including its embedded Architectural Reference, in millions of Unicode characters with spaces and original line breaks, rounded to three decimals. These are scope indicators.

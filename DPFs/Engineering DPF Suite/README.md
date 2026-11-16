@@ -42,10 +42,10 @@ The [Engineering Architectural Reference](ENGINEERING-DPF-SUITE-REFERENCE.md) he
 
 | Framework | What you can work on | Patterns | Text, M characters |
 | --- | --- | ---: | ---: |
-| [Systems Engineering (SYSE)](https://fpf.tools/SYSE) · [Markdown](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Define the system and intended use; compare designs and ways to obtain them; realize, integrate, qualify and change the result. | 54 | 1.889 |
+| [Systems Engineering (SYSE)](https://fpf.tools/SYSE) · [Markdown](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Define the system and intended use; compare designs and ways to obtain them; realize, integrate, qualify and change the result. | 54 | 1.891 |
 | [Maintenance Engineering and Management (MNT)](https://fpf.tools/MNT) · [Markdown](MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Select maintenance policy from condition and failure knowledge; prepare interventions, restore functioning and qualify return to use. | 16 | 0.251 |
-| [Knowledge-Corpus Access Engineering (KCAE)](https://fpf.tools/KCAE) · [Markdown](KNOWLEDGE-CORPUS-ACCESS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Engineer arrangements for finding, reading and using documentary knowledge, including links back to source passages, delivery and coherent updates. | 11 | 0.240 |
-| [Semantic Integration Engineering (SIE)](https://fpf.tools/SIE) · [Markdown](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Make separately governed meanings usable together through models, mappings, interfaces, validation and response to change. | 13 | 0.313 |
+| [Knowledge-Corpus Access Engineering (KCAE)](https://fpf.tools/KCAE) · [Markdown](KNOWLEDGE-CORPUS-ACCESS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Engineer arrangements for finding, reading and using documentary knowledge, including links back to source passages, delivery and coherent updates. | 11 | 0.242 |
+| [Semantic Integration Engineering (SIE)](https://fpf.tools/SIE) · [Markdown](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Make separately governed meanings usable together through models, mappings, interfaces, validation and response to change. | 13 | 0.316 |
 | [Control Architecture Design (CAD) — Markdown](CONTROL-ARCHITECTURE-DESIGN-PRINCIPLES-FRAMEWORK.md) | Choose observations and memory; construct a planning-and-feedback arrangement when useful; connect information error, command limits and execution conditions. | 5 | 0.147 |
 
 **Patterns** counts full pattern bodies. **Text, M characters** measures each complete Markdown framework, including its embedded Architectural Reference, in millions of Unicode characters with spaces and original line breaks, rounded to three decimals.
