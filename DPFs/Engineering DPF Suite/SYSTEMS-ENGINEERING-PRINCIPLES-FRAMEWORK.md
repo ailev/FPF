@@ -311,7 +311,7 @@ A provisional project focus can support individual concept work. Before joint wo
 concrete use. The result may be sufficient common understanding for the current decision, an unresolved
 coordination condition, or distinct projects with a defined receiving contribution.
 
-The product SoI and the immediate engineering subject can differ. A factory, planning organization or shared laboratory can be designed in full as a creator while its products and their uses ground the work. Use `SYSE.1` when this relation is unclear; carry the local subject, required capability and bounded acceptance into the relevant engineering Methods. Several products can share the creator without becoming one product or one project. Local acceptance can finish before their later use, with the remaining assumptions and commitments identified.
+The product SoI belongs to an extended enterprise organized through agreements to create, change, sustain in use or retire that System. Agents acting for its participating organizations establish or accept the objectives and commitments. That product and the immediate engineering subject can differ. A factory, planning organization or shared laboratory can be designed in full as a creator while its products and their uses ground the work. Use `SYSE.1` when this relation is unclear; carry the local subject, required capability and bounded acceptance into the relevant engineering Methods. Several products can share the creator without becoming one product or one project. Local acceptance can finish before their later use, with the remaining assumptions and commitments identified.
 
 The choice of Methods must accommodate useful effects, cost and time, available evidence, and consequences for
 other Systems. Preserving an option can be worth more than completing a design early; a faster local operation
@@ -326,7 +326,7 @@ action that depends on it.
 
 ### SYSE.Reference:1.1 - The system-thinking long mantra in engineering
 
-The **system-thinking long mantra** first looks toward intended receiving use at the operating time. Recover the product systems-of-interest and their intended uses. From each proposed system boundary, examine the larger whole and how its parts function together. Derive the contribution required from the product system before looking inward to construction and backward to obtaining Methods, capable creators and their cooperation. An unknown whole or composition calls for inquiry; leave the dependent function or construction judgement open until it has sufficient grounds. When engineering an organization as a creator, keep those product grounds and examine the creator's own use, functions, construction and obtaining needs. A separate organizational project has its own contribution and acceptance; its name or contract does not create another SoI. Make the answers fit and follow results into use. A proposed future use gives a reason for inquiry; its mechanism and conditions need engineering grounds. The general construction and its reasons are developed in FPF A.1.STM:4.1–4.3.1. Use that pattern when the shared project account is unresolved. The engineering Methods connect through the results that one supplies to another.
+The **system-thinking long mantra** first looks toward intended receiving use at the operating time. Recover the product systems-of-interest, their extended enterprises and agreements, and the intended uses or withdrawal from use that give those commitments their reason. From each proposed system boundary, examine the larger whole and how its parts function together. Derive the contribution required from the product system before looking inward to construction and backward to obtaining Methods, capable creators and their cooperation. An unknown whole or composition calls for inquiry; leave the dependent function or construction judgement open until it has sufficient grounds. When engineering an organization as a creator, keep those product grounds and examine the creator's own use, functions, construction and obtaining needs. A separate organizational project has its own contribution and acceptance; its name or contract does not create another SoI. Make the answers fit and follow results into use. A proposed future use gives a reason for inquiry; its mechanism and conditions need engineering grounds. The general construction and its reasons are developed in FPF A.1.STM:4.1–4.3.1. Use that pattern when the shared project account is unresolved. The engineering Methods connect through the results that one supplies to another.
 
 The needed effect gives a reason to investigate particular functioning, but it does not determine a unique construction. A proposed construction permits some behaviour and requires particular ways of realization. SYSE.2 and SYSE.5 therefore develop related alternatives; SYSE.6 compares whole candidates under the conditions that matter. A proposal cannot borrow performance from one configuration and realization cost from another. SYSE.7 keeps the related engineering descriptions usable together. SYSE.8 develops the offering and provider concept alongside the technical concept, so the promise to a user and the ways of fulfilling it constrain the same proposed result.
 
@@ -872,7 +872,7 @@ For source qualifications, citation and edition information, see the [Sources an
 
 Use this pattern when participants use a familiar project name but cannot say which system's intended use gives their joint work its purpose. A product, tool, provider, organization, component or desired effect can occupy the discussion while referring to different subjects. The choice matters to use, architecture, realization, evidence and resource decisions.
 
-The first useful result is a **project-system choice account**: the actual System or intended referent selected as the system-of-interest (SoI), its intended use, the grounds for the choice and what would reopen it. When the immediate engineering subject differs, identify that subject and its bounded result alongside the product it serves.
+The first useful result is a **project-system choice account**: the actual System or intended referent selected as the system-of-interest (SoI), its extended enterprise, agreed undertaking, intended use or withdrawal from use, the grounds for the choice and what would reopen it. When the immediate engineering subject differs, identify that subject and its bounded result alongside the product it serves.
 
 Recover the intended use and any assumption that could change the choice. A.1.STM explains why receiving use and encompassing functioning ground construction and provision decisions. A contributor can use a provisional answer for the next concept question. Before joint work relies on it, compare the participants' referents and contribution connections through §4.4.1. Reuse an adequate existing account.
 
@@ -880,7 +880,7 @@ A manufacturer may need to improve its planning organization while a vendor supp
 
 Use this pattern when a System designation is needed for the current coordination. Keep another recognized subject—such as Work, a Method, capability, state, material portion, description or research question—under its direct pattern when that answers the decision. Use `A.1.SCR` for unresolved System recognition. A System already identified for engineering can proceed to `SYSE.2` without first being renamed the SoI.
 
-At a consequential use of *system of interest*, *our system*, *product*, *solution* or the source phrase *target system*, ask which system's useful functioning grounds the cooperation and which subject the local work changes. **SoI is a relative project role; system-in-hand names the immediate System being worked on.** Explain what “our” refers to and who is responsible for the local result. Several named products or classes of future use may jointly ground a shared creator's development. Their differences and competing demands remain visible.
+At a consequential use of *system of interest*, *our system*, *product*, *solution* or the source phrase *target system*, ask which system's useful functioning grounds the cooperation and which subject the local work changes. **SoI is the product System's role in an extended enterprise organized to create, change, sustain in use or retire it; system-in-hand names the immediate System being worked on.** Explain what “our” refers to and who is responsible for the local result. Several named products or classes of future use may jointly ground a shared creator's development. Their differences and competing demands remain visible.
 
 ### SYSE.1:2 - Problem
 
@@ -906,10 +906,10 @@ choice revisable as understanding of the problem and solution changes together.
 
 #### SYSE.1:4.1 - State the current project decision
 
-Begin with the cooperation and decision that need a shared reference. Recover:
+Begin with the extended enterprise and decision that need a shared reference. Recover the participating organizations, the agreements organizing their joint work, and the agents who may establish or accept the objectives and commitments. An unknown or proposed enterprise remains unresolved or proposed; independently supported engineering can continue. Recover:
 
-1. the product or products and the intended use that justify the work;
-2. the System or other subject the local work must create, change or investigate;
+1. the product or products, the agreed creation, change, sustaining in use or retirement, and the intended use or withdrawal from use that justify the work;
+2. the System or other subject the local work must create, change, sustain, retire or investigate;
 3. the contribution needed from that work and the conditions for accepting or stopping it; and
 4. the plan or decision that needs the SoI designation now.
 
@@ -919,7 +919,7 @@ The local project can finish when its agreed contribution has been established. 
 
 For a shared creator, retain the products or classes of future use that govern its capability, including differences that compete for the same resources. Do not select one convenient product to hide that competition. An unsettled future use can require research into concrete possibilities; do not invent a finished product to complete the account. Research retains its own epistemic result and stopping conditions.
 
-A supplier can have a different product. A machine can be its maker's SoI and a creator at the customer's factory; an engine can be its maker's SoI and an aircraft component. Recover the usable supply, recipient or class of applications, substantive decision boundaries and acceptance obligations. The customer may specify the design and use. The supplier need not control the whole product strategy or accept responsibility for every larger system. These facts inform the judgement; the existence of a separate contract alone does not make the same servicing or organizational work a different product.
+A supplier can have a different product. A machine can be its maker's SoI and a creator at the customer's factory; an engine can be its maker's SoI and an aircraft component. Recover the extended enterprise organized for that supply, the recipient or class of applications, substantive decision boundaries and acceptance obligations. The customer may specify the design and use. The supplier need not control the whole product strategy or accept responsibility for every larger system. These facts inform the judgement; the existence of a separate contract alone does not make the same servicing or organizational work a different product.
 
 Keep each local project, commitment and result identifiable. A programme or portfolio can coordinate priority, resources, investment, risk or evidence without becoming one acting System. Use A.1.STM when the product purpose or its relation to the creator remains unresolved.
 
@@ -937,7 +937,7 @@ When the decision does need a System, distinguish two cases:
 - For a System that does not yet exist, keep the intended referent in the current plan, decision, or description.
   Do not describe it as an already acting System.
 
-Recognition, choice of an engineering subject and SoI designation remain different claims. Recognizing an actual System does not determine its project role; selecting an intended referent does not make it physically present. An organization can be the immediate engineering subject while remaining a creator of the product SoI.
+Recognition, choice of an engineering subject and SoI designation remain different claims. Recognizing an actual System does not determine its product role in an extended enterprise; selecting an intended referent does not make it physically present. An organization can be the immediate engineering subject while remaining a creator of the product SoI.
 
 #### SYSE.1:4.3 - Generate and criticize materially different referents
 
@@ -964,8 +964,9 @@ Start with the following content in any readable form:
 
 ```text
 Project-system choice account:
-  cooperation and current decision:
-  product SoI or intended referent, and intended use:
+  extended enterprise, participating organizations and current decision:
+  agreements, agents' objectives and limits of their commitments:
+  product SoI or intended referent, agreed undertaking and intended use or withdrawal:
   immediate engineering subject and bounded result, when different:
   current grounds and any main unresolved assumption:
   local acceptance and receiving obligations that matter now:
@@ -980,7 +981,7 @@ Stop when the project can ask the next concrete engineering question about the i
 
 When a decision depends on several contributors, compare their understanding through one concrete use or change. Include the participants whose contribution, receiving use or limits can change that decision. Existing compatible exchanges may supply the answer.
 
-Establish from each contributor which products the joint work serves, what their work concerns, what they supply, to whom and under what conditions and limits. For each consequential connection, establish from the receiver what they expect and how they will use the contribution. A conversation, annotated case, asynchronous exchange or existing work that shows what the participants supply and expect can provide these answers.
+Establish which organizations participate in the extended enterprise and who can commit each relevant contribution. Establish from each contributor which products the joint work serves, what their work concerns, what they supply, to whom and under what conditions and limits. For each consequential connection, establish from the receiver what they expect and how they will use the contribution. A conversation, annotated case, asynchronous exchange or existing work that shows what the participants supply and expect can provide these answers.
 
 For example, “install the planning software” and “produce a feasible production plan” can share a project name. Follow one order moved to an earlier date. Determine whether installation, current stock information, capacity decisions and the planner's use connect to feasible commitments for the manufacturer's products. A missing contribution can leave the planning capability unavailable even when installation is complete.
 
@@ -1001,15 +1002,15 @@ Reopen the account when one of these changes the comparison:
 - operating or assurance evidence defeats the reason for the choice; or
 - a changed product or intended use materially changes the grounds of the cooperation.
 
-A project split, new contract or changed performer can reopen local scope, provision or authority without changing the product SoI. Reconsider that designation only when its product and use grounds change.
+A project split, new contract or changed performer can reopen local scope, provision or authority without changing the product SoI. Reconsider that designation when its product, use or extended-enterprise agreement grounds change.
 
 An observed mismatch between contributors reopens the common-focus claim in §4.4.1 even when the individual
 choice remains defensible. Repeat only the exchange affected by that mismatch; reconsider the SoI designation if
-its product or intended-use grounds have changed.
+its product, intended-use or extended-enterprise agreement grounds have changed.
 
 Return to the failed claim or linked claims that affect the next move. A changed use assumption may require `SYSE.2` before the project focus
 changes. A failed bearer or architecture candidate may return through `C.30` or `C.32`. Reopen the
-SoI designation only when the evidence changes which product or intended use should orient the cooperation. Reopen the local engineering subject or acceptance separately when those are the affected claims.
+SoI designation when the evidence changes its product, intended use or extended-enterprise agreement grounds. Reopen the local engineering subject or acceptance separately when those are the affected claims.
 
 ### SYSE.1:5 - Archetypal Grounding
 
@@ -1020,10 +1021,11 @@ SoI designation only when the evidence changes which product or intended use sho
 A flood-reduction project starts with the phrase “new pump”. The engineer compares the pump unit, the pumping
 station, the drainage-control System, and a provider arrangement. Flood-control use crosses the pump-unit
 boundary: positioning, power, control, discharge conditions, and downstream exposure belong to the station's
-current use question. The engineer selects the pumping station and records:
+current use question. The operator, design organization and construction provider have agreed their work and decision responsibilities for obtaining the station. The engineer uses that extended-enterprise basis to propose the intended pumping station as SoI and records:
 
 ```text
 selected referent: intended pumping station
+extended enterprise: operator, design organization and construction provider under the agreed responsibilities
 current reason: move water under the selected flood load as part of flood-control use
 main unresolved assumption: downstream exposure remains acceptable
 reopen: use, architecture, realization, or operating evidence changes that assumption or boundary
@@ -1036,7 +1038,7 @@ the project-system choice only when that changed claim defeats the reason or bou
 
 #### SYSE.1:5.2 - Manufacturer and ERP vendor
 
-A manufacturer supplies pump installations for water supply and seasonal irrigation. Its “new ERP” project begins because production plans repeatedly fail. The engineering lead compares software installation, a changed planning organization and an integrated planning arrangement. These are alternatives for improving the creator. The product grounds remain the two lines' installations and their intended uses; their different configurations, delivery commitments and resource demands must fit the plans.
+A manufacturer, component suppliers and receiving operators have agreed the supply and acceptance obligations that organize the extended enterprises for water-supply and seasonal-irrigation installations. Its “new ERP” project begins because production plans repeatedly fail. The engineering lead compares software installation, a changed planning organization and an integrated planning arrangement. These are alternatives for improving the creator. The product grounds remain the two lines' installations and their intended uses; their different configurations, delivery commitments and resource demands must fit the plans.
 
 The lead selects the deployed planning arrangement as the immediate engineering subject. Its proposed local result is the ability to produce feasible production commitments from current orders, stock and capacity under specified changes. Current-information availability is the main unresolved assumption. This is enough to begin concept work without naming the planning organization a new SoI.
 
@@ -1048,14 +1050,14 @@ If that information cannot be obtained, the joint planning-capability claim rema
 
 Now transfer the same planning-change work to an external consultant with a separate budget and completion date. The consultant may design the organization, its functions, responsibilities, tools and supporting work. Acceptance can establish its agreed capability under representative order changes and operating conditions before the resulting pumps enter service. The consultant's responsibility remains limited to the accepted scope. The external contract creates neither another product purpose for this work nor a requirement to wait for every downstream product outcome before closing it.
 
-The ERP vendor's own product undertaking has different grounds: a usable software product supplied to customers under identified decision and acceptance boundaries. That software can be its SoI while it is a means in the manufacturer's planning arrangement. The parties coordinate their contributions and commitments without merging their projects or interests. A vendor label or a deployment contract by itself would not establish this independent product case.
+The ERP vendor's own product undertaking has different grounds: a usable software product supplied to customers under identified decision and acceptance boundaries. Recover the vendor's agreements with contributing and receiving organizations that organize the software-product undertaking. In that extended enterprise the software can be the SoI while it is a means in the manufacturer's planning arrangement. The parties coordinate their contributions and commitments without merging their projects or interests. A vendor label or a deployment contract by itself would not establish this independent product case.
 
 #### SYSE.1:5.3 - Continuing building through several projects
 
 
 For example, design, construction, operating retrofit, and heritage-restoration Work can concern one continuing building
 while using different plans, transformer Systems, access arrangements, and evidence. In an occupied retrofit,
-the engineer selects the continuing building because its occupied performance is being changed and records
+the owner, design organization and contractors agree the alteration and access responsibilities. The engineer identifies their extended enterprise and the continuing building as its SoI, with
 access during use as the main unresolved assumption.
 
 Different descriptions of the same building can serve one project or several. One programme overseeing several projects does
@@ -1075,7 +1077,7 @@ plausible referent into permanent project scope; retain material alternatives an
 | `CC-SYSE1-1` | A conforming use SHALL name the current project and the decision that needs a project-system choice. |
 | `CC-SYSE1-2` | It SHALL retain a direct non-System subject when System designation is not needed, and SHALL use `A.1.SCR` when actual System recognition remains load-bearing. |
 | `CC-SYSE1-3` | It SHALL distinguish an actual System from an intended referent in plan, decision, or description content. |
-| `CC-SYSE1-4` | The first useful account SHALL name the product SoI or intended referent, intended use, any main unresolved assumption and reopen condition; when the local engineering subject differs, it SHALL preserve that subject and the bounded result needed from it. |
+| `CC-SYSE1-4` | The first useful account SHALL name the product SoI or intended referent, its actual or proposed extended enterprise, agreements, agents' objectives and intended use or withdrawal from use, any main unresolved assumption and reopen condition; when the local engineering subject differs, it SHALL preserve that subject and the bounded result needed from it. |
 | `CC-SYSE1-5` | When materially different actual Systems or intended System referents remain plausible, the account SHALL compare their decision-relevant claims and SHALL keep every non-System subject under its direct pattern rather than admit it as a candidate referent for the project system-of-interest. |
 | `CC-SYSE1-6` | Additional account content SHALL be added only when it changes the current choice or a downstream use. |
 | `CC-SYSE1-7` | A stop SHALL make the next use-and-system concept question askable; a reopen SHALL name evidence or a changed project condition that can alter the choice. |
@@ -1103,7 +1105,7 @@ The cost is visible uncertainty and, for a shared claim, comparison of participa
 
 Engineering decisions need an identified subject. The system being engineered and the product whose use justifies the cooperation can be different Systems. Keeping both makes it possible to develop a creator's full functioning and construction while using product requirements to judge its capability, priorities and shared resources.
 
-SoI designation remains a choice under uncertainty. System recognition, a project name and a local contract do not settle it. Actual identity, intended reference, the project role and the account describing the choice have different grounds. Local acceptance establishes only the contribution it tests and can precede the product's later use.
+SoI designation remains a choice under uncertainty. System recognition, a project name and a local contract do not settle it. Actual identity, intended reference, the product role in an extended enterprise and the account describing the choice have different grounds. Local acceptance establishes only the contribution it tests and can precede the product's later use.
 
 Outside use supplies the grounds of the comparison rather than a fixed calendar order. Problem framing, concepts, architecture, realization and evidence can develop together. Reopen the product choice, local subject or provision arrangement according to which premise changed.
 
@@ -2105,7 +2107,7 @@ specific function, possible bearers, failure path and uncertainty; it does not s
 
 If confirmation cannot arrive in time, return to the timing claim or proposed allocation. If the required
 stock-control contribution or authority cannot be obtained, hold the commitment relying on it and revisit the
-affected concept claims or choice of the immediate engineering subject. Reopen the product SoI designation only when its product or use grounds change; a failed local arrangement or new contract alone does not make the planning creator the SoI.
+affected concept claims or choice of the immediate engineering subject. Reopen the product SoI designation when its product, use or extended-enterprise agreement grounds change; a failed local arrangement or new contract alone does not make the planning creator the SoI.
 
 The independent ERP supplier can select its software product as its own SoI on the usable supply, decision and acceptance grounds in `SYSE.1:5.2`. The manufacturer's planning project can close its agreed capability result through representative order changes and operating conditions. Software installation or an organization chart alone does not establish that capability or the existence of the composite `PlanningSystem-P1`. Its System identity, qualified capability and later product consequences require their respective evidence; local acceptance need not wait for every later product outcome.
 
@@ -17288,7 +17290,7 @@ functioning or a downstream condition still fails, and an earlier source can cha
 
 ### SYSE.Application:1.1 - 1. Recover the subject, use, and consequences
 
-Use `SYSE.1` to designate the actual station as the project system-of-interest and keep that designation distinct from
+Use `SYSE.1` to recover the operator's, alteration provider's and maintenance organization's agreements and authorized decisions for changing the station. Designate the actual station as the SoI of that extended enterprise, keeping the designation distinct from
 the System's identity. Use `SYSE.16` to recover the containing district-heating arrangement, operating neighbours,
 conditions, and part and interaction relations. Use `SYSE.17` to identify Systems that can bear engineering
 consequences, including the operator, connected heating network, maintainers, and affected users. Use `SYSE.2`
@@ -17396,8 +17398,7 @@ remain separate decisions and claims.
 
 ## SYSE.Application:3 - APP-SYSE-03 — Worked application: choose and bound an authentication-service migration
 
-This constructed case applies the Systems Engineering patterns to a project system-of-interest that
-is a software service. The project relies on the named software-security result. Specialist Methods and authorities govern
+This constructed case applies the Systems Engineering patterns to an authentication System. Its operating organization, software provider and integration provider have agreed their migration work and acceptance responsibilities; those agreements organize the extended enterprise in which the System is the SoI. The project relies on the named software-security result. Specialist Methods and authorities govern
 cryptographic design, threat modelling, privacy and legal questions. The release Agent decides whether to deploy.
 
 
@@ -17487,8 +17488,8 @@ inputs; their Methods remain with those practices.
 
 ### SYSE.Application:4.1 - 1. Fix the System, use, and result to obtain
 
-Using `SYSE.1`, the engineering team selects the intended greenhouse climate-control System, designated `GreenhouseClimateControl-GH2`,
-as the project system-of-interest and distinguishes it from greenhouse `GH-2` and company `GreenHeat-4`.
+Using `SYSE.1`, the engineering team recovers the greenhouse owner's, `GreenHeat-4`'s and equipment providers' agreements for supplying the climate-control System. In that extended enterprise it selects intended `GreenhouseClimateControl-GH2` as the SoI,
+distinguishing it from greenhouse `GH-2` and the provider company.
 The designation can precede the existence of the intended control System. `SYSE.16` identifies the greenhouse,
 electrical supply, heating, ventilation, misting, shading, sensors, operator station, weather, and manual fallback
 that form the relevant operating surroundings. `SYSE.17` identifies operators, crops, maintainers, the equipment
