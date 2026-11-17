@@ -285,7 +285,7 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | B.5.RA | **Recover an Argument for Use** | Stable | Use when you need to recover or challenge the reasoning behind a result for application, explanation or revision. Reconstruct unclear claims and dependencies; for an already clear defeasible argument, begin with a consequential critical question. Keep supported results and trace changes through affected grounds. *Queries:* "Why does this step follow?", "What does this lemma contribute to the whole argument?", "How can I turn this text into an argument map?", "Which critical question could change this conclusion?", "Does this reasoning support the use I need?" | **Coordinates with:** B.5 and B.5.RC for inquiry and construction; B.5.RR for revision; B.5.MPC for joint reasoning; C.2.8 and C.37 for recipient understanding and representation choice. |
 | B.5.RR | **Revise Reasoning After a Premise or Question Changes** | Stable | Use when a changed premise, question or application condition calls earlier reasoning into question. Follow the affected dependencies, retain sufficient alternatives, derive what now follows and apply the revised result. *Queries:* "Which part needs to be worked again?", "Does another argument still support the conclusion?", "What does the changed result let us do?" | **Coordinates with:** B.5, B.5.RA and B.5.RC for reasoning, B.5.MPC.R for joint physical reasoning, and C.11.DUA for further effort. |
 | B.5.FM | **Construct a Model for the Question** | Stable | Use when relevant facts or rules are available but no model yet supports the needed inference. Choose what the model must distinguish and how its parts are related, then derive a consequence for the task. *Queries:* "Which participants or interactions must the model include?", "How can I build a model before commissioning a calculation?", "What grouping makes the next operation possible?" | **Coordinates with:** B.5, B.5.4, C.29, A.3.3, C.16 and A.6.3.RT for model construction; B.5.RR and B.5.MPC.R for revision. |
-| B.5.MR | **Compare Models by Refinement and Abstraction** | Stable | Construct or compare a refinement and an abstraction for the same inquiry. Test feasibility and preservation under the stated interpretation; identify a strict difference when claimed and recheck the needed conclusion. | B.5.FM, B.5.TC, C.2.1, B.1 and C.37.MM. |
+| B.5.MR | **Compare Models by Refinement and Abstraction** | Stable | Establish what one model preserves and what its admissible designs or executions determine for the same question. Read L0–L4 as levels of model abstraction and L4–L0 as levels of model refinement. Test a claimed strict difference and recheck any conclusion that depended on a restriction. | B.5.FM, B.5.TC, C.2.1, B.1 and C.37.MM. |
 | B.5.TU | **Construct a Use of an Unfamiliar Theory** | Stable | Use when a theory seems useful but its objects and reasoning have not yet been connected to a usable answer. Recover the needed operations, work one application and interpret its consequence for the question. *Queries:* "What can this theory help me do?", "Which input or operation is missing?", "Why does a correct calculation fail to answer the working question?", "What must I understand to use or change this result?" | **Coordinates with:** B.5, B.5.RC, B.5.RA and B.5.RR for reasoning; C.29 and A.6.3.RT for mathematical correspondence and expression; A.15.9 for bounded help. |
 | B.5.TC | **Compare Theoretical Accounts for a Question** | Stable | Use when accounts appear to disagree or compete for a use. Construct their applications to the same case, locate the consequential difference and choose a sufficient account, complementary use or worthwhile inquiry. *Queries:* "Do these theories answer the same question?", "Does the disagreement come from a premise, a model or its computation?", "When is the simpler account enough?", "What observation or construction would resolve the difference that matters?" | **Coordinates with:** B.5.TU, B.5.RA and B.5.RR for applications and reasoning; C.29.1, C.29.2 and C.29.3 for transfer and computation; C.28 for causal use; F.0.2 for synthesis; C.11.DUA for worthwhile inquiry. |
 | B.5.QD | **Develop a Question from a Result or Construction** | Stable | Use when a counterexample, result or newly available operation changes what could be investigated but the next question is unclear. Recover the changed dependency, construct the answer form and work a revealing case before choosing the inquiry. *Queries:* "What useful question follows from this failure?", "What can we now ask using this construction?", "Can a bound answer the need?", "Which next problem opens further work?" | **Coordinates with:** B.5.RA and B.5.RR for reasoning; B.5.MPC for joint contributions; C.39 and C.40 for methods and coupled development; E.10.INT and C.11.DUA for worthwhile inquiry. |
@@ -851,14 +851,14 @@ Use `A.3.3` to construct a missing state account and `C.16` for a needed measure
 - **Start with:** `F.19`; use `E.10` for unresolved FPF wording, and `F.18`, `F.0.1`, `F.9`, or the subject's direct pattern only when needed.
 - **Stop or return:** Stop when the reader can understand the claim and carry out its intended use.
 
-#### SOTA-PORTFOLIO — Use a plural field of approaches to answer your question
+#### SOTA-PORTFOLIO — Compare approaches that could answer your question
 
-- **Situation:** A project needs the modern field of approaches rather than one popular answer and may later need maintained domain guidance.
-- **Question:** What plural view is adequate now, and does the remaining problem call for reuse, a contribution, another product, a DPF or LPF, or no maintained result?
-- **First useful result or blocker:** One source-linked SoTA view, live option set, reuse route, framework decision, or the missing scope or maintenance basis.
-- **Mantra:** Name the question, scope, freshness need and rival traditions. Build a source-linked plural view; preserve disagreement, source-use limits and constructions; compare useful approaches; compare reuse or contribution with framework authoring and maintenance; open a framework decision only for a recurring unmet problem; author and test the needed patterns; refresh when the field or use changes.
-- **Start with:** `G.2`; add `C.18`, `C.19`, or `G.5` for the set and the E.4/E.9 authoring route only if a framework is selected.
-- **Stop or return:** Stop at the first adequate maintained or one-off result. If allocation to familiar patterns loses a source’s construction, use `FPF.Reference:16.5` to identify the missing result, obtain it through the appropriate subject method and return to the original use.
+- **Situation:** Your team needs to know what competing approaches can establish and where each applies.
+- **Question:** What can the sources already answer, and what work remains?
+- **First useful result or blocker:** A comparison linking each claim to its source, edition, evidence and limits. State where the claims can be compared, what remains disputed and which part of your question is open.
+- **Mantra:** Fix the inquiry and freshness needed. Compare claims, methods and grounds. Keep consequential disagreements. Use the comparison if it suffices. For a remaining need, consider reuse, a contribution, another product or maintained guidance. If a DPF or LPF is warranted, develop and test its patterns and revisit them as evidence or use changes.
+- **Start with:** `G.2`. For options use `C.18`, `C.19` or `G.5`. For framework authoring use `E.4` and `E.9`.
+- **Stop or return:** Stop at the first usable result. If allocating familiar patterns loses a source's construction, use `FPF.Reference:16.5` to recover it and return to your question.
 
 #### SYSTEM-DELIMITATION — Separate parts, selected boundary, and crossings
 
@@ -7383,8 +7383,8 @@ Under **USM**, `U.ClaimScope` is a **set‑valued** **USM scope object** over `U
 **2) G composes via `∩` / `SpanUnion`, not via `min` / `avg`.**
 USM already fixes composition: along a **dependent path** use **intersection**; across **independent support lines** publish **SpanUnion**. None of these operations relies on (or preserves) any linear order. An ordinal “G ladder” invites people to take **minimums/averages**, which is **incorrect** for sets and breaks the established algebra.
 
-**3) Abstraction level is orthogonal to G.**
-A ladder from instances through patterns and formal types to equivalence up to isomorphism describes an abstraction or typing distinction. That distinction does not determine where a claim holds. **Abstraction** can be described by the optional **`AbstractionTier (AT)`** facet; **applicability** is **`U.ClaimScope (G)`**.
+**3) Identify what an abstraction level compares.**
+C.3.5's optional `KindAT` facet describes how a particular kind is intended to be used. Its anchors run from instance-oriented use, such as cataloguing a particular cohort, to treating structures up to isomorphism. To compare the levels of abstraction or refinement of two models, use B.5.MR. To establish where an assertion holds, identify the context slices in its `U.ClaimScope (G)`. These judgements can change independently.
 
 **4) A G ladder breaks locality and Bridge semantics.**
 When exact local senses require translation, an obtaining F.9 Bridge establishes their direct semantic relation while a separate C.2.1 claim states the proposed mapping rule and tolerated loss. There is no canonical way to translate an ordinal G level: the mapped area may be narrower or differently factored. USM translates exact sets only through that bounded claim and keeps A.10 or B.3 reliance separate rather than rewriting G.
@@ -7631,7 +7631,7 @@ With only the method labels, leave P-UNION unresolved. If `CalibrationRecord-Q` 
 
 ### A.2.6:12 - Bias-Annotation
 
-USM counters three recurring biases. First, scope wording can hide a claim that the object is usable everywhere; require an addressable `U.ContextSlice` instead of a vague domain phrase. Second, abstract wording can be mistaken for wider scope; keep abstraction tier and detail separate from `U.Scope`. Third, publication convenience can be mistaken for content permission; `U.PublicationScope` bounds the publication surface and does not widen `U.ClaimScope` or `U.WorkScope`.
+USM counters three recurring biases. First, a vague domain phrase can imply universal applicability. Identify the applicable `U.ContextSlice`. Second, readers may mistake an abstraction level or amount of detail for a wider scope. Establish scope by its context slices. Third, publication convenience can suggest permission to widen a claim. `U.PublicationScope` bounds the publication surface, while `U.ClaimScope` and `U.WorkScope` govern their respective uses.
 
 ### A.2.6:13 - Conformance Checklist (USM)
 
@@ -7783,8 +7783,8 @@ First decide what “latest” is doing. If it means that evidence or data must 
 **Q7. How do we use a scope with differently named slice selectors?**
 First resolve whether the designations refer to the same values under the effective reference scheme. If exact local senses differ and membership must be expressed across them, name the obtaining F.9 Bridge. Then state the separate affirmative C.2.1 claim for the proposed translation's direction, mapping rule, and tolerated loss, establish the exact A.10 or B.3 reliance branch, and evaluate the scope returned by `deriveTranslatedScope`.
 
-**Q8. What about abstraction level or detail?**
-Keep **AT (AbstractionTier)** and **D (Detail and Resolution)** as orthogonal, optional annotations. They never substitute for **Claim scope** or **Work scope**.
+**Q8. How do we record abstraction or detail alongside scope?**
+Use `KindAT` (C.3.5) for the intended treatment of one local kind, and `Detail (D)` for the chosen detail or resolution. Use B.5.MR when comparing the assertions of two models at different levels of abstraction. Use the set of applicable context slices for Claim scope or Work scope.
 
 **Q9. Can a capability’s Work scope be broader than a predecessor claim’s Claim scope on a dependency path?**
 Claim scope bounds where a claim holds; Work scope bounds the work conditions of a qualified ability claim. If the receiving use depends on both, its effective scope is their intersection. Neither replaces the other because it is broader.
@@ -7905,7 +7905,7 @@ These comparisons suggest two useful questions: which conditions matter to the r
 | Parallel coverage               | **SpanUnion**                                   | **Union of supported areas**         | —                    | unqualified “union” without independence                              |
 | Serial dependency               | **Intersection**                                | **Intersection of scopes**           | —                    | ordinal “more/less general” language                                  |
 | Scope edits                     | **ΔG+ (widen), ΔG− (narrow), Refit, Translate** | **Widen, narrow, refit, translate**  | —                    | implicit widening                                     |
-| Optional didactics              | **`Detail (D)`, `AbstractionTier (AT)`**        | **Detail and abstraction tier**      | **D / AT**           | avoid as G substitutes                                                |
+| Optional didactics | **`Detail (D)`, `KindAT` for the intended treatment of a kind** | **Detail and kind abstraction tier** | **D / AT** | establish scope separately from either annotation |
 
 **Naming rationale:**
 
@@ -50812,7 +50812,7 @@ A practitioner needs a comparison in ordinary terms. A consequential claim of pr
 
 ### B.5.MR:4 - Solution
 
-A model states something about a system, method or another modeled entity, and can leave several answers open. First say which inquiry is being answered and recover the assertions that govern those answers. Refining a model determines something it leaves open while preserving what it already establishes. Abstracting a model leaves determinations open while retaining what the receiving inquiry needs. Compare the admitted answers to establish either relation.
+Begin with one question that both models answer. Which designs, executions or other alternatives does each model admit? To refine a model, choose something it leaves open. Show that at least one alternative remains and that every remaining alternative satisfies the earlier assertions under the chosen interpretation. To abstract a model, decide what to leave open and apply the same test with the starting model on the concrete side. The answers tell you whether the difference is strict and which conclusions still hold.
 
 #### B.5.MR:4.1 - Recover the assertions and the answers left open
 
@@ -50820,7 +50820,7 @@ Identify the modeled entity or the range of candidate applications left open, th
 
 Recover what the model asserts about the participants: which quantities may vary, which relationships must hold, which designs qualify or which performances a Method permits. The relevant subject Method supplies their types and grounds. A stated condition may be an assertion of the model or an assumption under which it applies; distinguish these when they change the answer. If the expression leaves its assertion unrecoverable, use F.19 before treating it as a model at a higher abstraction level.
 
-A **completion** settles what the model leaves open for this inquiry while satisfying its assertions. It can be a candidate design satisfying specified relationships, a behavior compatible with observations, or a structure satisfying stated axioms. An admitted completion need not have been observed, built or authorized for use. A list of observed instances therefore need not exhaust the completions. Choose what the inquiry can distinguish. When likelihoods matter, include the probability claims being compared. Two models can allow the same outcomes and assign them different probabilities.
+A **completion** is one way of settling what the model leaves open for this inquiry while satisfying its assertions. A candidate design, a possible behavior or a structure satisfying stated axioms can serve as a completion. The inquiry determines what answer can be read from it. Several different designs can give the same answer. A completion need not have been observed, built or authorized for use. Include probability claims when the inquiry concerns likelihood. Two models can allow the same outcomes and assign them different probabilities.
 
 #### B.5.MR:4.2 - Test preservation and strictness
 
@@ -50830,7 +50830,7 @@ This relation includes equivalent answers. To establish **strict refinement**, a
 
 If a model admits no completion, examine which assertions make it infeasible. If both models admit none, neither supplies a feasible answer. When each admits at least one completion, equal sets of observable answers establish agreement for this inquiry. If each admits an answer the other excludes, the models are incomparable by refinement. They may still share answers. If they share none, their assertions conflict under the common reading. When feasibility or the correspondence is unknown, identify what would settle it.
 
-Under a fixed common reading, the admitted answers order comparable models, with equivalent answers sharing a position. An inquiry that distinguishes additional features can give a different comparison. Before composing comparisons across languages, establish how their interpretations compose. The names do not impose a single ranking on all models.
+Within a chain of models that pass the feasibility and preservation tests under a common interpretation, models that admit the same answers share a level for this inquiry. On different branches, models can give the same answer and impose incompatible constraints. Test preservation separately for the pair in question. A different inquiry can distinguish models the first one treated alike. Before composing comparisons across languages, establish how their interpretations compose.
 
 A claim of greater accuracy needs a reference and an error criterion. A bound can establish accuracy against a mathematical reference. For a claim about accuracy on an actual system, use observations under the relevant conditions. Refinement alone supplies neither empirical accuracy nor evidence of actual performance.
 
@@ -50838,7 +50838,7 @@ A claim of greater accuracy needs a reference and an error criterion. A bound ca
 
 Identify what the next decision needs determined: a value, a construction choice, a permitted performance or another answer left open. Obtain the subject grounds for that determination. Add or bind the corresponding assertion and compare the resulting model with the starting model by section 4.2. Explain the preserved assertions, show a surviving completion and identify any excluded answer.
 
-An added assertion can merely repeat what already follows; then it does not establish a more concrete position for the inquiry. If the resulting model admits a formerly excluded answer or the added assertion contradicts the starting model, report the changed assertion or conflict and reconsider the model. Greater length or a local label does not settle this comparison.
+An added assertion can repeat what already follows. For that inquiry the two models then admit the same answers. If the new model admits a previously excluded answer or contradicts an earlier assertion, identify what changed and reconsider the claim of refinement.
 
 ##### B.5.MR:4.2.2 - Construct or select an abstraction
 
@@ -50848,11 +50848,11 @@ Compare the starting model as C with the proposed abstraction as A under section
 
 Several abstractions can serve different inquiries about the same starting model; several concrete models can refine one abstraction. The comparison supplies no unique inverse construction. Leaving a variable open also does not prove that a result observed at one value holds at every newly admitted value. Wider empirical or methodological claims need their subject grounds. Retaining the same assertions in clearer wording is clarification of their expression; it does not change this model order.
 
-#### B.5.MR:4.3 - Locate levels of model abstraction in an application chain
+#### B.5.MR:4.3 - Read the levels of model abstraction and refinement
 
-A **level of model abstraction** is a relative position under the comparison in section 4.2. When the inquiry concerns which applications are eligible, a chain may leave open or determine the interpretation of a formal construction, the discipline, the local conditions and the individual. Five useful names locate these possible restrictions.
+Read **L0 → L4 as levels of model abstraction** and **L4 → L0 as levels of model refinement**. Both names describe one order. A more concrete model preserves the earlier assertions and rules out an answer the more abstract model allowed. Abstracting a model or refining a model is the work of constructing or selecting the model on the chosen side of that comparison. In a chain of applications the five names below identify what each model specifies.
 
-| Position | What can be fixed while preserving earlier assertions |
+| Level, from more abstract towards more concrete models | What the model specifies |
 | --- | --- |
 | L4, foundational | A formal or computational construction and the choices its own conditions permit. |
 | L3, transdisciplinary | A principle interpreted across eligible disciplines. Bind it to the construction wherever that interpretation is warranted. |
@@ -50860,11 +50860,11 @@ A **level of model abstraction** is a relative position under the comparison in 
 | L1, local | Conditions shared by a particular setting or recurrent local population. |
 | L0, individual | The identity of the particular entity or occurrence being modeled. Its unobserved characteristics can remain open. |
 
-Read L0 toward L4 as abstraction, and L4 toward L0 as refinement, where the comparisons establish those relations. At each step identify the assertions retained and the warranted interpretation. For a strict step, show which answer the more abstract model admits and the more concrete model excludes, together with a surviving completion. The position's name alone establishes neither preservation nor strictness.
+Check each pair for one inquiry under §4.2. Establish which earlier assertions every remaining design or permitted performance satisfies. Show that at least one remains. If the step is strict, name an answer that can no longer be obtained. The same test applies to two models of one design or method, including when both are disciplinary models.
 
-Two successive application positions can admit exactly the same answers, as when a local setting adopts a professional rule unchanged for the inquiry at hand. They then occupy the same abstraction position for that inquiry. Specializing an application keeps the general rule as a premise. Merely discarding inconvenient cases from a purported universal result weakens its support. Use the steps the inquiry needs. Several consequential determinations may fall within one named application position; if the individual was fixed at the outset, binding its identity again removes no possibility.
+If a site adopts a disciplinary rule with the same interpretation and adds no constraint on the action in question, write “the site uses the L2 rule unchanged.” The L1 practice model records the site's adoption of the rule for recurring work. If asked at what level the rule specifies the permitted action, keep L2. Claim a further level of refinement for that action only when the local model excludes a previously permitted answer. Several strict refinements can occur within one named level. If a rule permits a check at either site, specifying the first site excludes the second answer to “Where may this check take place?” If both sites have to be checked, dropping one abandons an obligation.
 
-When the entity is a method, a professional rule can be applied locally and a performed work occurrence can be compared with it. Establishing that the work occurred and followed the rule needs its own evidence. When the entity is a system, a more restrictive model can concern the very same system at the same scale. Moving to a constituent invokes the relevant constructive relation under B.1; its effect on the inquiry needs to be established separately.
+A disciplinary model can prescribe a method, a local model can specify how it may be used at one site, and an individual model can describe a particular performance. Evidence that the work occurred and followed the rule must come from that performance. Two models of a system can also stand in strict refinement at the same physical scale. Moving to a constituent invokes the constructive relation under B.1.
 
 Core, DPFs and LPFs supply models that can participate in such comparisons. A publication or discipline does not itself have one abstraction level. Binding a parameter can refine a model without changing its language; changing professional vocabulary can preserve all its admitted answers. A richer representation language can also express a model applicable to more situations. Compare the interpreted assertions for the inquiry.
 
@@ -50890,7 +50890,7 @@ A vivid individual case can conceal what the earlier assertion covered. Start wi
 
 - The inquiry, participants, force, assertions and common reading are recoverable.
 - A refinement claim has at least one admissible completion of C and covers every completion of C for the inquiry. An abstraction claim uses the converse comparison.
-- A strict comparative name has an answer admitted by A and excluded by every completion of C. Equivalent answers and incomparable answers are reported accordingly.
+- Call a model more concrete or more abstract only if the comparison exhibits a distinguishable answer that is admitted on the abstract side and excluded on the concrete side. Report when the models give the same answers for the inquiry or are incomparable under refinement.
 - The receiving conclusion has been checked over the answers the selected model admits. Any reported loss identifies the conclusion and its missing premise; absence of loss remains a possible result.
 - Claims of conformance, parthood, occurrence or empirical accuracy use the grounds for their own relations.
 
@@ -50916,7 +50916,7 @@ Probabilistic program development also uses refinement and abstraction as conver
 
 ### B.5.MR:12 - Relations
 
-Use B.5.TC for comparisons of theoretical accounts, C.2.1 for the identity and grounding of epistemes, C.29 for a mathematical representation and its correspondence, B.1 for reasoning across holonic scales, and C.37.MM for coordinating and handing on models. E.10.D2 governs the use of a description as a specification. F.19 helps recover the model's assertions from its expression; F.17 and F.18 record the names of this comparison and its relative positions.
+Use B.5.TC for comparisons of theoretical accounts, C.2.1 for the identity and grounding of epistemes, C.29 for a mathematical representation and its correspondence, B.1 for reasoning across holonic scales, and C.37.MM for coordinating and handing on models. E.10.D2 governs the use of a description as a specification. F.19 helps recover assertions from their expression. F.17:12.6 and F.18:4.5 give the names for both directions and their ordered levels.
 
 ### B.5.MR:End
 
@@ -53674,7 +53674,7 @@ Open a row below only when its first column names the reader's next sentence or 
 | A decision or evaluation will accept, reject, or withhold reliance because of evidence. | the exact evidence-use relation and the grounds needed for the claim and use; evidence storage alone is insufficient | `A.2.4` for the evidence-use relation and the direct pattern for the claim; `A.10` when its source-to-use account must remain replayable; `B.3` when a named assurance claim is at issue |
 | Reviewers must inspect or revise a classification judgment as an independent claim-bearing object. | one classification assertion episteme about the exact candidate, plus the exact governing criterion | C.2.1:4.2.3 with `A.1` or `C.3.2`; `E.24.UK` only for public U-kind admission |
 | A reader must establish that a later episteme continues an earlier one as an edition. | one exact `EpistemeEditionRelation` occurrence, with the source use and continuity rule required by its predicate | C.2.1:4.5 |
-| A reader must compare informational models by refinement or abstraction. | their interpreted assertions and admitted answers for the receiving inquiry; test preservation and, when a more concrete or more abstract position is claimed, strictness | B.5.MR |
+| A reader must compare informational models by refinement or abstraction. | the models' interpreted assertions and the answers their admissible completions yield for the same inquiry. Test feasibility and preservation. To call one model more concrete or more abstract, also establish a strict difference. | B.5.MR |
 | An account must assert that particular Work occurred. | identify the actual performer and admit the dated Work independently; if the account also attributes it to an assignment, test that attribution separately | `A.13` and `A.15.1`; `F.6` only for the stated attribution |
 | A publisher must make one selected episteme edition available to a declared audience for a bounded use. | the exact publication occurrence, expression and independently identified carrier, with reusable form conformance when needed | `E.17` and `E.24.PUB` |
 | A user will calculate, infer, navigate, or inspect through a representation whose available operations matter. | the chosen representation, the conventions for interpreting it, the operations and the correspondence needed for that use | the applicable representation pattern; `A.6.3.RT` for a same-EntityOfConcern transition; `C.29` only for an unresolved mathematical-lens choice, transfer or reliance question |
@@ -76390,6 +76390,7 @@ The note is neither the selected structure nor the relation, claim, publication,
 | Selected structure or structural view | `layer`, `level`, `stack`, `block`, `view` | The selected, hidden, lost, or preserved structure; view selection; correspondence; source return; an `ArchitectureClaim` when claim content is needed; and a separate `ArchitectureRelation` only when that relation obtains. | `A.22`, `C.30`, `C.30.ASV`, or the applicable C.30 subpattern. |
 | Module, interface, or substitution | `block`, `cache`, `router`, `expert`, sometimes `layer` or `stack` | Module boundary, interface specification, substitutability relation, variation point, conformance relation, or reliance boundary. | `A.6.M`; stop using C.30.STRAT once that relation is clear. |
 | Function or transformation flow | `block`, `expert`, `cache`, `router`, `gate`, sometimes `layer` | Transformation or effect, path selection, graph node, path or crossing, architecture-to-flow relation, or E.18 flow valuation. | `A.6.F`, `E.18`, or `C.30.TFS-REL`. |
+| Levels of model abstraction or refinement | `level`, `more concrete model`, `more abstract model` | The two models, their common inquiry and interpretation, the completions that preserve earlier assertions, and which answer differs if a strict step is claimed. | `B.5.MR:4.2–4.3` |
 | Characteristic, scale, or mathematical lens | `level`, `tier`, `ladder`, `rung`, `layer`, `stack`, `block` | Characteristic and bearer, coordinate or value, scoring method, comparison criterion, scale window, resolution, coarse-graining, preserved or lost structure, lens-use result, and stop condition only where the claim needs them. State separately how the subject is mapped to a scale value; a scale or band does not by itself establish levels in the subject. | `C.16.P`, the applicable characterization pattern, or `C.29`. |
 | Episteme, publication, view, or source use | `stack`, `layer`, `section`, `view`, `cache`, `gate` | Description episteme, publication unit, face, form, carrier, source-currentness or source-use relation, source-return condition, or ordinary publication label. | `C.2.P` for a remaining epistemic distinction; otherwise use `C.2.1` for episteme content, `E.17.0` for `U.View` membership, `E.17` for reader-facing publication of an accepted account, `E.24.PUB` for publication availability, or the pattern defining the source-use claim. |
 | State, currentness, time, or dynamics | `cache`, `stable`, `level`, `readiness`, sometimes `gate` | Bearer, state frame and values, validity window, currentness relation, dynamics, temporal aspect or rate band, authored temporal-claim adequacy, and reopen condition. | `A.19.SPR` only while the state-family meaning is unresolved; otherwise `A.3.3`, `C.27.TA`, `C.27`, or the applicable state or temporal pattern. |
@@ -76419,7 +76420,7 @@ Use the source context and receiving question to select plausible readings from 
 | Source label family | Recovery discipline |
 | --- | --- |
 | `layer` | Do not choose by the word. Test control structure; selected structure or structural view; module or interface; scale or mathematical lens; and publication or source-use meanings. |
-| `level` | Before relying on “X is at or above level L,” name the subject, what is being ordered, compared, grouped, or mapped, the relation or scale mapping that gives the claim its meaning, when it applies, and whether the claim is asserted, proposed, assumed, or illustrated. List order, a diagram row, first-then sequence, carrier section, curriculum, scale label, stage sequence, or coarse-grained view supplies none of these. Then test holon or aggregation use only when a named relation or structure pattern defines it; otherwise test characteristic or scale, ordinal classification, organization scope, Work scope, evidence scope, publication grouping, or ordinary source-label non-use. |
+| `level` | Before relying on “X is at or above level L,” name the subject, what is being ordered, compared, grouped, or mapped, the relation or scale mapping that gives the claim its meaning, when it applies, and whether the claim is asserted, proposed, assumed, or illustrated. List order, a diagram row, first-then sequence, carrier section, curriculum, scale label, stage sequence, or coarse-grained view supplies none of these. Then test holon or aggregation use only when a named relation or structure pattern defines it; when the level concerns what two models permit for one inquiry, use B.5.MR. Otherwise test characteristic or scale, ordinal classification, organization scope, Work scope, evidence scope, publication grouping, or ordinary source-label non-use. |
 | `tier` | Test deployment, service, organization, classification, aggregation, and publication meanings. When the sentence makes one of those claims, use the pattern that defines or tests it; `tier` itself is not the ontology. |
 | `stack` | Test signature or slot construction, relation set or relation chain, architecture or control arrangement, aggregation arrangement, virtualization arrangement, deployment arrangement, publication-section ordering, or ordinary source-label non-use. A stack is not architecture by itself. |
 | `ladder` and `rung` | Test ordinal or classification scale, declared maturity or readiness progression, C.28 causal-use ladder or rung, publication taxonomy, or ordinary source-label non-use. Do not use ladder wording for an undeclared progression scale. |
@@ -87609,7 +87610,7 @@ A relation identifies how its participants are connected. A returned claim also 
 
 These relations can coexist. A reusable calculation can be a constituent of one Method and supply a result to another. A discipline can contain other disciplines and use results from fields that are not its constituents. A representation can preserve some structure, omit some and introduce useful constructed objects. Explain the relevant correspondence before returning a conclusion to the represented subject.
 
-**Identify a claimed refinement.** When an account of a system, method or field treats one model as more concrete than another, keep the inquiry fixed. Show what the later model preserves, a possibility it still allows and what it rules out. B.5.MR gives the comparison for individual models and for models of their governing conventions. B.1 supplies the different grounds needed when the claim moves from a constituent to an encompassing whole.
+**Check a claim of strict refinement.** When an account of a system, method or field treats one model as more concrete than another, keep the inquiry fixed. Show that at least one design, execution or other completion remains feasible, that each preserves the earlier assertions and that a previously admissible answer is excluded. B.5.MR gives the comparison for individual models and for models of their governing conventions. B.1 gives the grounds for a separate claim about constituents and wholes.
 
 **Identify the subject and relation before moving.** Name what the claim concerns, the cases it covers and the use of the answer. “The laboratory's rule for releasing an instrument” identifies a starting point. If you need to reason from a particular record to the rule it cites, identify that record, the rule and the citation. A release record can direct you to the local rule under which a decision was made. Check the applicable edition and the issuing authority. To examine that rule in turn, compare it with the discipline's conditions for a valid verdict. To establish what actually happened, return to the identified instrument, configuration and observations. Carry forward only the conclusions for which that return supplies grounds.
 
@@ -98248,7 +98249,7 @@ For a durable ecosystem-architecture answer, use the following operations as the
 
 When placing a foundational contribution, identify what would settle a disagreement about it. Give a Core rule the premises its users need. If several Core definitions depend on one commitment and their separate passages cannot reliably keep it consistent, state it once in Core and refer to it from those definitions. Put a method of deriving those premises or testing their physical interpretation with the discipline that can correct it. A separate edition earns its place when independent consumers must adopt the same commitments and check compatibility as they change. A reading order can be supplied in the Reference. Use B.5.MR when the claim concerns refinement or abstraction between models.
 
-Models supplied by Core, DPFs and LPFs can form a chain of levels of model abstraction when their assertions and interpretations establish the B.5.MR comparison for the receiving inquiry. A formal construction, transdisciplinary principle, disciplinary model and local model may participate in that chain. Their containing publications are not themselves successive model completions, and a Suite's location does not set the abstraction level of every assertion it carries. A method for testing a physical interpretation remains with the discipline that can correct it even when its result supplies a premise used in Core.
+Core, DPFs and LPFs can supply models at several levels. When each pair passes the B.5.MR comparison for the same inquiry, read the chain from a formal construction through a transdisciplinary principle, a disciplinary model and a local model towards an individual model as **levels of model refinement**. In reverse, read **levels of model abstraction**. A DPF can carry a foundational construction as well as a disciplinary model. A method for testing a physical interpretation belongs with the discipline that can correct it, even when its result supplies a premise for Core.
 
 Use this routing table when a proposed change is ambiguous. Its rows are common routes, not a closed taxonomy:
 
@@ -102190,7 +102191,7 @@ For languages defined solely as sets of strings over a fixed alphabet, compare m
 
 A *sublanguage* has an identifiable repertoire within a language and inherits its formation conventions and any interpretations for the selected constructions. A *profile* selects provisions for a use. If those provisions define such a repertoire and preserve the conventions, the profile also specifies a sublanguage. A *register* concerns customary choices of expression for an audience and activity. A language serves as a *metalanguage* when its expressions specify or examine the expressions or conventions of another.
 
-One language can express a repeatable method, its local adoption and a particular performance if it has the means to express those claims. An equipment-code language can designate a pump while the surrounding work instruction says what to do with it. A writer can change register while keeping the commitment about the work intact. To claim that a second model refines the first, use B.5.MR:4.2 to check which earlier commitments all admissible later cases preserve. A strict refinement also rules out an earlier possibility while a later one remains.
+One language can express a repeatable method, its local adoption and a particular performance. An equipment code can designate a pump while a work instruction says what to do with it. A writer can also change register and retain the same commitment. To claim that a second model refines the first, establish that at least one design, performance or other completion satisfies the second model, and that every such completion satisfies the first under the chosen interpretation. Strict refinement also excludes a formerly admissible answer to the same inquiry. B.5.MR:4.2 gives the test.
 
 Use `representationLanguageRef` when the receiver must identify the language. A notation designer choosing a system in which a reader can build and interpret new expressions and an integration engineer comparing languages of asset designations can reuse these same kind criteria. When a single record already supplies its one relevant interpretation by value, that record needs no separately identified language edition. Name the binding authority or give the necessary rule by value when that is what the receiver needs. C.2.1 determines the effective interpretation of a particular episteme, which may also fix modality, permissible inferences and qualifications. E.8.ML addresses a pattern language that organizes methods and their dependencies. A learned representation with a successful readout supplies evidence for that readout under the tested conditions. A claim about a language in the representation also needs an identifiable repertoire and formation conventions.
 
@@ -120313,7 +120314,7 @@ prioritize the FPF-governed sections and enforceable requirements in E.19:4.2.1.
    The pattern **SHOULD NOT** be overloaded or significantly expand requirements or dependencies without an explicit reason and impact record.
    Checks include: scope containment, split/refactor recommendations when warranted, and contradiction scans against neighbor patterns in Relations.
    The pattern SHOULD balance cohesion and coupling across FPF.
-   If the pattern defines specialization or an abstraction stack, it SHOULD NOT mix slot interfaces or parameters from different abstraction positions; use explicit `⊑/⊑⁺` or `Uses` cuts instead.
+   Identify which kind or declaration owns each slot or parameter. For a subkind use the membership criteria of `U.SubkindOf` in C.3.1. For a specialized mechanism use its own declaration rules (A.6.1:4.8). A slot added by the specialization does not become mandatory in its parent. Use `Uses` for a dependency on another pattern. When two models of the same work or system are compared, B.5.MR establishes what their assertions preserve and whether a previously admissible answer is excluded.
 9. **Substantive solution and locus adequacy**
    For the reviewed pattern, ask a short set of questions about its problem and the change under review. Does the pattern still solve the stated problem? Are the decision points and applications of the relevant patterns correct? Are kind boundaries and selected companion or projection functions preserved? Has anything worsened? Are the SoTA rows current enough for the claim they discipline? Does that claim have enough support without excess material?
 10. **Triggered method, performer, work, and result separation**
@@ -133435,11 +133436,11 @@ For example, *FPF Library Architectural Reference* and *Engineering Suite Archit
 
 #### F.17:12.6 - Model-comparison direction and level rows
 
-These rows make the three F.18:4.5 naming decisions available for citation from model explanations, project documents and teaching. B.5.MR governs the comparison; each row names one of its two relation kinds or its relative-position kind. The rows let a reader recover which of these values a reused expression names without requiring a new vocabulary for each application.
+Use these three rows to cite model refinement, its converse and the levels established by comparing models. B.5.MR gives the tests for the two model relations. The level row gives both directional readings of one order used in project documents and teaching.
 
-The common by-value ReferenceScheme reads a model for a stated inquiry and established interpretation. Its completions satisfy its assertions and settle answers for that inquiry, including relevant probability claims. C refines A when C has a completion and every completion of C satisfies A under that interpretation; A is then an abstraction of C. Strictness requires an A-answer excluded by C. Equivalent answers share a position; incomparable models are unordered. Use the B.5.MR and F.18 records in the same selected publication edition.
+In the shared ReferenceScheme a model's completions satisfy its assertions. The inquiry and its interpretation determine the answer read from each completion, including probability claims when relevant. C refines A when at least one completion of C exists and every completion of C satisfies A under that interpretation. A is then an abstraction of C. Strictness requires an answer that A admits and C excludes. Within a chain established by this test, models with the same answers share a level for that inquiry. Models on different branches can give the same answer while imposing incompatible constraints.
 
-For each row below, `UnificationThreadId` is `ModelComparisonDirections`, `GovernedValueKindRef` is `U.Kind`, `ReferenceScheme` is that common value and `RowEditionId` is `2026-11-16`. The listed claims constitute each row's complete ClaimContent. The cells use the same scheme and the exact expression and sense given below. This shared presentation creates three rows, not one combined governed value.
+For each row, `UnificationThreadId` is `ModelComparisonDirections`, `GovernedValueKindRef` is `U.Kind` and `ReferenceScheme` has the value given above. The stable row designators are retained. `RowEditionId` for this edition is `2026-11-18`. Each sense cell gives its expression and local sense under the shared scheme.
 
 ```text
 UTSRowId: UTS.ModelRefinement.2026-11-16
@@ -133447,13 +133448,13 @@ GovernedValueRef: B.5.MR:4.2 refinement relation kind
 SubjectPatternLocator: B.5.MR:4.1–4.2
 UnifiedTechName: model refinement
 NameCardRef: NC-MODEL-REFINEMENT
-SenseCellRefs: SenseCell.ModelRefinement.2026-11-16
+SenseCellRefs: SenseCell.ModelRefinement.2026-11-18
 RowRationale: retain the specification-theory designation while making feasibility, interpretation and the converse recoverable
 AdmissibleUse: cite C's feasible preservation of A for the named inquiry, including equality; use more concrete only with strictness
 BlockedUse: the name alone establishes neither higher empirical accuracy nor a strict difference
 CurrentnessCondition: reopen on changed predicate, interpretation, NameCard, cell or repeated confusion between refinement and accuracy
 
-SenseCell.ModelRefinement.2026-11-16:
+SenseCell.ModelRefinement.2026-11-18:
   LocalExpression: model refinement
   LocalSenseClaim: C refines A for inquiry Q under interpretation I exactly when at least one completion of C exists and every completion of C satisfies A under I; strictness additionally excludes an answer of A distinguishable for Q
 
@@ -133462,30 +133463,34 @@ GovernedValueRef: B.5.MR:4.2 abstraction relation kind
 SubjectPatternLocator: B.5.MR:4.2; B.5.MR:4.2.2
 UnifiedTechName: model abstraction
 NameCardRef: NC-MODEL-ABSTRACTION
-SenseCellRefs: SenseCell.ModelAbstraction.2026-11-16
+SenseCellRefs: SenseCell.ModelAbstraction.2026-11-18
 RowRationale: give the converse comparison a durable name while keeping model construction separate
 AdmissibleUse: cite A as an abstraction of C under the same inquiry and interpretation by establishing that C refines A
 BlockedUse: the name supplies no unique inverse construction and does not validate a wider empirical claim
 CurrentnessCondition: reopen on changed predicate, interpretation, NameCard, cell or confusion between the relation and omitted visible detail
 
-SenseCell.ModelAbstraction.2026-11-16:
+SenseCell.ModelAbstraction.2026-11-18:
   LocalExpression: model abstraction
-  LocalSenseClaim: A is an abstraction of C for inquiry Q under interpretation I exactly when C refines A for Q under I; a more abstract position requires strictness
+  LocalSenseClaim: A is an abstraction of C for inquiry Q under interpretation I exactly when C refines A for Q under I. Calling A more abstract than C requires strictness for Q.
 
 UTSRowId: UTS.ModelAbstractionLevel.2026-11-16
-GovernedValueRef: B.5.MR:4.3 relative comparison-position kind
+GovernedValueRef: B.5.MR:4.3 inquiry-relative level of model abstraction
 SubjectPatternLocator: B.5.MR:4.2–4.3
 UnifiedTechName: level of model abstraction
 NameCardRef: NC-MODEL-ABSTRACTION-LEVEL
-SenseCellRefs: SenseCell.ModelAbstractionLevel.2026-11-16
-RowRationale: name a relative position under the model comparison independently of a document's language, discipline or physical scale
-AdmissibleUse: locate comparable models under a stated inquiry and interpretation; use L application positions and intermediate positions where this comparison is established
-BlockedUse: a numbered label alone supplies no strict ordering or intrinsic rank of a language, discipline, publication or entity
+SenseCellRefs: SenseCell.ModelAbstractionLevel.2026-11-18, SenseCell.ModelRefinementLevel.2026-11-18
+RowRationale: name the ordered levels in both directions so the reader can identify which models are compared and what follows from the comparison
+AdmissibleUse: read L0 towards L4 as levels of model abstraction and L4 towards L0 as levels of model refinement in an established application chain. Use intermediate levels where the comparison warrants them.
+BlockedUse: a level name alone establishes neither preservation nor a strict difference for the inquiry
 CurrentnessCondition: reopen on changed comparison, NameCard, cell or repeated use as a global rank
 
-SenseCell.ModelAbstractionLevel.2026-11-16:
+SenseCell.ModelAbstractionLevel.2026-11-18:
   LocalExpression: level of model abstraction
-  LocalSenseClaim: a position under B.5.MR's stated model comparison, with equivalent answers sharing the position and strict comparative names applying only to ordered distinct positions
+  LocalSenseClaim: level in an established refinement chain read towards a model that allows an answer the other model excludes for Q under I. Successive models with the same answers share a level for Q.
+
+SenseCell.ModelRefinementLevel.2026-11-18:
+  LocalExpression: level of model refinement
+  LocalSenseClaim: the same order read towards a model that excludes a previously admissible answer for Q under I. Successive models with the same answers share a level for Q.
 ```
 
 The rows cite no F.9 Bridge: they make no correspondence claim between different local meanings. A concrete comparison still needs its models, inquiry, interpretation and B.5.MR test; citing a row supplies the selected name and its meaning.
@@ -134143,19 +134148,19 @@ Until the Bridge, separate claim, and required reliance are current, keep the na
 
 #### F.18:4.5 - Model refinement, abstraction and relative levels
 
-These three compact NameCards settle names used in B.5.MR and its Library, teaching and project uses. Their governed values are two relation kinds and one kind of relative comparison position, each a local `U.Kind`. B.5.MR supplies their predicates. Naming a relation kind does not identify a particular relation occurrence or the Work that constructs a model.
+Use these NameCards when project or teaching texts need a shared name for a model comparison. B.5.MR defines two relation kinds and one kind of inquiry-relative level, each a local `U.Kind`. A pair of models can stand in one of the relations. Constructing or selecting a model is Work.
 
-For all three cards, the effective interpretation is as follows. A model is read for a stated inquiry under an established interpretation. A completion satisfies its assertions and settles an answer for that inquiry; the relevant probability claims are included. Refinement requires at least one completion of C and satisfaction of A by every completion of C under that interpretation. Abstraction reads the same relation in the converse direction. Strictness requires an A-answer excluded by C. Equivalent answers share a comparison position; incomparable models have no higher/lower order under this comparison. These rules give the by-value ReferenceScheme for the naming claims and associated cells. Select the cited B.5.MR and naming records in the same publication edition.
+For the shared ReferenceScheme fix an inquiry and an interpretation. Each admissible completion satisfies its model's assertions and yields an answer to that inquiry. Include the probability claims when they matter. Refinement requires at least one completion of C, with every completion of C satisfying A under the interpretation. A is then an abstraction of C. For strictness A must allow an answer C excludes. Within a chain established this way, models admitting the same answers share a level. Equal answers across branches can coexist with incompatible constraints.
 
 | NameCard and governed value | Exact local sense and selected Tech designation | Candidate comparison and selection | Lineage and reopening |
 | --- | --- | --- | --- |
 | `NC-MODEL-REFINEMENT`; B.5.MR:4.2 refinement relation kind | **model refinement**: C refines A exactly when the feasible-preservation test above holds. Strictness adds exclusion. | Refinement retains the specification-theory comparison. Stronger model can suggest quality; specialization can mean type restriction; detailing can change expression alone. Concretization has a separately defined mathematical use in abstract interpretation and is not an unqualified English alias here. | Retains the established English designation and states its converse. Reopen when the predicate, inquiry interpretation or supported construction changes, or repeated use confuses preservation with accuracy. |
 | `NC-MODEL-ABSTRACTION`; B.5.MR:4.2 converse relation kind | **model abstraction**: A is an abstraction of C exactly when C refines A under the same comparison. | Abstraction names the converse without promising a unique inverse construction. Generalization can mean a wider empirical claim; weakening can suggest lower quality; lifting has source-dependent direction and may construct a fine-scale state. | Makes the converse of the existing comparison explicit. Reopen when the predicate changes or readers repeatedly recover omission of visible detail without comparing assertions. |
-| `NC-MODEL-ABSTRACTION-LEVEL`; B.5.MR:4.3 relative comparison-position kind | **level of model abstraction**: a position under the stated comparison, with equivalent answers sharing the position. **More abstract** and **more concrete** require strict order between comparable positions. | The selected name locates models under this relation. Level of precision suggests accuracy or detail; meta-level can designate model-rule conformance; language level can be read as a property of the language; holonic level uses a different relation. | Uses abstraction to name the relative positions in either direction. Reopen when the comparison changes or the name is used as an intrinsic rank of a discipline, publication, language or entity. |
+| `NC-MODEL-ABSTRACTION-LEVEL`, B.5.MR:4.3 inquiry-relative level of model abstraction | **Level of model abstraction** when reading towards more abstract models. **Level of model refinement** when reading the same order towards more concrete models. In an established chain, a strict step changes the answers the models admit for the inquiry. | These names identify what is ordered and the direction of reading. A level of detail concerns a representation, a holonic level concerns constituent–whole organization, and a metamodel can govern construction of a model. Each has its own comparison. | F.17:12.6 records both expressions for one governed value. Reopen the choice if the comparison changes or readers apply it as a global rank of disciplines, publications or languages. |
 
-The selected phrases serve both technical and ordinary speech here; a separate Plain designation supplies no additional distinction. *Refining a model* and *abstracting a model* name constructing or selecting models that meet the relation, as B.5.MR:4.2.1–4.2.2 explains. Those action phrases are not alternative names for the relation kind.
+In ordinary speech a team can say “the local model is more concrete about where the check may take place” and name the choice it has fixed. *Refining a model* and *abstracting a model* name the work of constructing or selecting one. The comparative adjectives describe the models once a strict difference has been established.
 
-F.17:12.6 gives the three separately citable rows and exact cells. Their durable reuse is needed because the two directions and the relative positions recur in framework explanations and project teaching. No correspondence with another source's local sense is asserted by these naming records; source-specific concretization, idealization and lifting retain their own meanings.
+F.17:12.6 gives the three citable rows and the exact sense cells for this comparison. Source-specific uses of concretization, idealization and lifting retain their own definitions.
 
 ### F.18:5 - System-Role-Kind, Assignment, Slot, and Status Naming Settlement
 
